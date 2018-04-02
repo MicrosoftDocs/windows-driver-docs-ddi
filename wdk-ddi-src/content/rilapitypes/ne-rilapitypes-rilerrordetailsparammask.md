@@ -7,7 +7,7 @@ old-location: netvista\rilerrordetailsparammask.htm
 old-project: netvista
 ms.assetid: 5890ea36-73af-4d64-bea3-12b75d479e6e
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: RILERRORDETAILSPARAMMASK, RILERRORDETAILSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], netvista.rilerrordetailsparammask, ntddrilapitypes/RILERRORDETAILSPARAMMASK
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,15 +51,6 @@ req.product: Windows 10 or later.
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef enum _RILERRORDETAILSPARAMMASK { 
-} RILERRORDETAILSPARAMMASK;
-````
 
 
 ## -enum-fields

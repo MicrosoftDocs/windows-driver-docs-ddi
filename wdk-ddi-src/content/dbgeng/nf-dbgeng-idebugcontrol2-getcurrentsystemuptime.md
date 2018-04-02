@@ -7,7 +7,7 @@ old-location: debugger\getcurrentsystemuptime.htm
 old-project: debugger
 ms.assetid: 0009e11d-73d0-4ca2-afbc-5f2999e829ac
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: GetCurrentSystemUpTime method [Windows Debugging], GetCurrentSystemUpTime method [Windows Debugging], IDebugControl2 interface, GetCurrentSystemUpTime method [Windows Debugging], IDebugControl3 interface, GetCurrentSystemUpTime,IDebugControl2.GetCurrentSystemUpTime, IDebugControl2, IDebugControl2 interface [Windows Debugging], GetCurrentSystemUpTime method, IDebugControl2::GetCurrentSystemUpTime, IDebugControl3 interface [Windows Debugging], GetCurrentSystemUpTime method, IDebugControl3::GetCurrentSystemUpTime, IDebugControl_e10ddd31-60fe-4353-befe-45a04154615b.xml, dbgeng/IDebugControl2::GetCurrentSystemUpTime, dbgeng/IDebugControl3::GetCurrentSystemUpTime, debugger.getcurrentsystemuptime
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,16 +51,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetCurrentSystemUpTime</b> method returns the number of seconds the current target's computer has been running since it was last started.
-
-
-## -syntax
-
-
-````
-HRESULT GetCurrentSystemUpTime(
-  [out] PULONG UpTime
-);
-````
 
 
 ## -parameters
@@ -112,11 +102,6 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
 
 
@@ -124,8 +109,12 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550512">IDebugControl2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550519">IDebugControl3</a>
  
 
  
-
 

@@ -52,17 +52,6 @@ req.typenames: KSPROPERTY_TVAUDIO_S, *PKSPROPERTY_TVAUDIO_S
 The KSPROPERTY_TVAUDIO_S structure describes the current TV audio mode, such as stereo or mono audio and language settings.
 
 
-## -syntax
-
-
-````
-typedef struct {
-  KSPROPERTY Property;
-  ULONG      Mode;
-} KSPROPERTY_TVAUDIO_S, *PKSPROPERTY_TVAUDIO_S;
-````
-
-
 ## -struct-fields
 
 
@@ -138,6 +127,9 @@ Indicates that the audio is in the third language supported by the device.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
 
 
@@ -147,11 +139,7 @@ Indicates that the audio is in the third language supported by the device.
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567811">PROPSETID_VIDCAP_TVAUDIO</a>
-
-
-
  
 
  
-
 

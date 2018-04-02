@@ -7,7 +7,7 @@ old-location: netvista\ndismcreatelog.htm
 old-project: netvista
 ms.assetid: 804112cf-fc59-4a04-b848-4239b32e35d7
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NdisMCreateLog, NdisMCreateLog function [Network Drivers Starting with Windows Vista], miniport_logging_ref_e6ca8197-b4f0-4eb9-bfe4-f4b957a124c8.xml, ndis/NdisMCreateLog, netvista.ndismcreatelog
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -54,18 +54,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
   displayed by a driver-dedicated Win32 application.
 
 
-## -syntax
-
-
-````
-NDIS_STATUS NdisMCreateLog(
-  _In_  NDIS_HANDLE  MiniportAdapterHandle,
-  _In_  UINT         Size,
-  _Out_ PNDIS_HANDLE LogHandle
-);
-````
-
-
 ## -parameters
 
 
@@ -74,7 +62,7 @@ NDIS_STATUS NdisMCreateLog(
 ### -param MiniportAdapterHandle [in]
 
 Specifies the handle input to 
-     <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>.
+     <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>.
 
 
 ### -param Size [in]
@@ -160,7 +148,7 @@ If
     <b>NdisMCreateLog</b> to create more than one log file after a call succeeds.
 
 Whatever size of log file is allocated, subsequent calls to 
-    <a href="..\ndis\nf-ndis-ndismwritelogdata.md">NdisMWriteLogData</a> store data in this
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff563695">NdisMWriteLogData</a> store data in this
     file, which is treated as a circular buffer. That is, a sequence of calls to 
     <b>NdisMWriteLogData</b> eventually overwrites the data originally written to the log file.
 
@@ -169,24 +157,23 @@ Whatever size of log file is allocated, subsequent calls to
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismwritelogdata.md">NdisMWriteLogData</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismflushlog.md">NdisMFlushLog</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562790">NdisMCloseLog</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismcloselog.md">NdisMCloseLog</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563584">NdisMFlushLog</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563695">NdisMWriteLogData</a>
  
 
  
-
 

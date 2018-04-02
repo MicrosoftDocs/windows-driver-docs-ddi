@@ -7,7 +7,7 @@ old-location: netvista\ndisimassociateminiport.htm
 old-project: netvista
 ms.assetid: b2c46419-644b-4ad4-aa50-7c6e541638aa
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NdisIMAssociateMiniport, NdisIMAssociateMiniport function [Network Drivers Starting with Windows Vista], intermediate_ref_2f9545a6-262c-4347-b192-16ea23314410.xml, ndis/NdisIMAssociateMiniport, netvista.ndisimassociateminiport
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -55,17 +55,6 @@ The
   miniport and protocol drivers respectively belong to the same intermediate driver.
 
 
-## -syntax
-
-
-````
-VOID NdisIMAssociateMiniport(
-  _In_ NDIS_HANDLE DriverHandle,
-  _In_ NDIS_HANDLE ProtocolHandle
-);
-````
-
-
 ## -parameters
 
 
@@ -74,14 +63,14 @@ VOID NdisIMAssociateMiniport(
 ### -param DriverHandle [in]
 
 The handle to the miniport driver interface that the 
-     <a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">
+     <a href="https://msdn.microsoft.com/bed68aa8-499d-41fd-997b-a46316913cc8">
      NdisMRegisterMiniportDriver</a> function returns.
 
 
 ### -param ProtocolHandle [in]
 
 The handle to the protocol interface that the 
-     <a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">
+     <a href="https://msdn.microsoft.com/b48571eb-13a2-4541-80ac-c8d31f378d37">
      NdisRegisterProtocolDriver</a> function returns.
 
 
@@ -104,7 +93,7 @@ Any NDIS intermediate driver that exports both
     <b>NdisIMAssociateMiniport</b> to inform the NDIS library about its miniport upper edge and its protocol
     lower edge. Such an intermediate driver calls 
     <b>NdisIMAssociateMiniport</b> during its 
-    <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine. For more information about 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine. For more information about 
     <b>DriverEntry</b>, see 
     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff548818">DriverEntry of NDIS
     Intermediate Drivers</a>.
@@ -114,20 +103,19 @@ Any NDIS intermediate driver that exports both
 
 ## -see-also
 
-<a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">NdisRegisterProtocolDriver</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563654">NdisMRegisterMiniportDriver</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564520">NdisRegisterProtocolDriver</a>
  
 
  
-
 

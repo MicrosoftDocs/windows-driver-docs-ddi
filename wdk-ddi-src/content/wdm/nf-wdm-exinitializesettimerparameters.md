@@ -7,7 +7,7 @@ old-location: kernel\exinitializesettimerparameters.htm
 old-project: kernel
 ms.assetid: 43A07E6E-C69F-4D6C-9B9C-EB7FFDF7651E
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: ExInitializeSetTimerParameters, ExInitializeSetTimerParameters routine [Kernel-Mode Driver Architecture], kernel.exinitializesettimerparameters, wdm/ExInitializeSetTimerParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,17 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>ExInitializeSetTimerParameters</b> routine initializes an <a href="..\wdm\ns-wdm-_ext_set_parameters_v0.md">EXT_SET_PARAMETERS</a> structure.
-
-
-## -syntax
-
-
-````
-VOID ExInitializeSetTimerParameters(
-  _Out_ PEXT_SET_PARAMETERS Parameters
-);
-````
+The <b>ExInitializeSetTimerParameters</b> routine initializes an <a href="https://msdn.microsoft.com/library/windows/hardware/dn265196">EXT_SET_PARAMETERS</a> structure.
 
 
 ## -parameters
@@ -86,23 +76,22 @@ None.
 
 
 
-Your driver must call <b>ExInitializeSetTimerParameters</b> to initialize an <b>EXT_SET_PARAMETERS</b> structure before the driver passes this structure to the <a href="..\wdm\nf-wdm-exsettimer.md">ExSetTimer</a> routine. For more information about the member values that <b>ExInitializeSetTimerParameters</b> writes to the members of this structure, see <a href="..\wdm\ns-wdm-_ext_set_parameters_v0.md">EXT_SET_PARAMETERS</a>.
+Your driver must call <b>ExInitializeSetTimerParameters</b> to initialize an <b>EXT_SET_PARAMETERS</b> structure before the driver passes this structure to the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265188">ExSetTimer</a> routine. For more information about the member values that <b>ExInitializeSetTimerParameters</b> writes to the members of this structure, see <a href="https://msdn.microsoft.com/library/windows/hardware/dn265196">EXT_SET_PARAMETERS</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exsettimer.md">ExSetTimer</a>
 
 
 
-<a href="..\wdm\ns-wdm-_ext_set_parameters_v0.md">EXT_SET_PARAMETERS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265196">EXT_SET_PARAMETERS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265188">ExSetTimer</a>
  
 
  
-
 

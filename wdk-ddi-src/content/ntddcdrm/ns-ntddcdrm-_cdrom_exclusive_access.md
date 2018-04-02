@@ -7,7 +7,7 @@ old-location: storage\cdrom_exclusive_access.htm
 old-project: storage
 ms.assetid: 95248a4a-1fc1-4985-baff-2fe77532d398
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PCDROM_EXCLUSIVE_ACCESS, CDROM_EXCLUSIVE_ACCESS, CDROM_EXCLUSIVE_ACCESS structure [Storage Devices], PCDROM_EXCLUSIVE_ACCESS, PCDROM_EXCLUSIVE_ACCESS structure pointer [Storage Devices], _CDROM_EXCLUSIVE_ACCESS, ntddcdrm/CDROM_EXCLUSIVE_ACCESS, ntddcdrm/PCDROM_EXCLUSIVE_ACCESS, storage.cdrom_exclusive_access, structs-CD-ROM_f9104134-3d0a-44fd-9a2d-9dd4e8a3636d.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,18 +49,7 @@ req.typenames: CDROM_EXCLUSIVE_ACCESS, *PCDROM_EXCLUSIVE_ACCESS
 ## -description
 
 
-The CDROM_EXCLUSIVE_ACCESS structure is used with the <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_exclusive_access.md">IOCTL_CDROM_EXCLUSIVE_ACCESS</a> request to query the access state of a CD-ROM device or to lock or unlock the device for exclusive access.
-
-
-## -syntax
-
-
-````
-typedef struct _CDROM_EXCLUSIVE_ACCESS {
-  EXCLUSIVE_ACCESS_REQUEST_TYPE RequestType;
-  ULONG                         Flags;
-} CDROM_EXCLUSIVE_ACCESS, *PCDROM_EXCLUSIVE_ACCESS;
-````
+The CDROM_EXCLUSIVE_ACCESS structure is used with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559327">IOCTL_CDROM_EXCLUSIVE_ACCESS</a> request to query the access state of a CD-ROM device or to lock or unlock the device for exclusive access.
 
 
 ## -struct-fields
@@ -70,7 +59,7 @@ typedef struct _CDROM_EXCLUSIVE_ACCESS {
 
 ### -field RequestType
 
-An <a href="..\ntddcdrm\ne-ntddcdrm-_exclusive_access_request_type.md">EXCLUSIVE_ACCESS_REQUEST_TYPE</a>-typed enumeration value that specifies the type of operation.
+An <a href="https://msdn.microsoft.com/library/windows/hardware/ff553766">EXCLUSIVE_ACCESS_REQUEST_TYPE</a>-typed enumeration value that specifies the type of operation.
 
 
 ### -field Flags
@@ -141,12 +130,11 @@ Prevents the sending of a media removal notification and a media arrival notific
 
 ## -see-also
 
-<a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_exclusive_access.md">IOCTL_CDROM_EXCLUSIVE_ACCESS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559327">IOCTL_CDROM_EXCLUSIVE_ACCESS</a>
  
 
  
-
 

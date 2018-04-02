@@ -7,7 +7,7 @@ old-location: kernel\keleavecriticalregion.htm
 old-project: kernel
 ms.assetid: d3e90c3b-5ead-40d1-9143-a2b1fc8c255d
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: KeLeaveCriticalRegion, KeLeaveCriticalRegion routine [Kernel-Mode Driver Architecture], k105_f9344044-a57f-4ee4-800c-a03edcc27196.xml, kernel.keleavecriticalregion, wdm/KeLeaveCriticalRegion
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,14 +52,6 @@ req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 The <b>KeLeaveCriticalRegion</b> routine reenables the delivery of normal kernel-mode APCs that were disabled by a preceding call to <b>KeEnterCriticalRegion</b>. 
 
 
-## -syntax
-
-
-````
-VOID KeLeaveCriticalRegion(void);
-````
-
-
 ## -parameters
 
 
@@ -87,16 +79,15 @@ Highest-level drivers can call this routine while running in the context of the 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-keentercriticalregion.md">KeEnterCriticalRegion</a>
 
 
 
-<a href="..\wdm\nf-wdm-keareapcsdisabled.md">KeAreApcsDisabled</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551938">KeAreApcsDisabled</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552021">KeEnterCriticalRegion</a>
  
 
  
-
 

@@ -3,12 +3,12 @@ UID: NI:gnssdriver.IOCTL_GNSS_GET_DEVICE_CAPABILITY
 title: IOCTL_GNSS_GET_DEVICE_CAPABILITY
 author: windows-driver-content
 description: The IOCTL_GNSS_GET_DEVICE_CAPABILITY control code is used by the GNSS adapter to get the GNSS driver and device capabilities.
-old-location: gnss\ioctl_gnss_get_device_capability.htm
-old-project: gnss
+old-location: sensors\ioctl_gnss_get_device_capability.htm
+old-project: sensors
 ms.assetid: 28673D2A-5DD6-42CD-BD91-5C30B905ECF0
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IOCTL_GNSS_GET_DEVICE_CAPABILITY, IOCTL_GNSS_GET_DEVICE_CAPABILITY control code [Sensor Devices], gnss.ioctl_gnss_get_device_capability, gnssdriver/IOCTL_GNSS_GET_DEVICE_CAPABILITY
+ms.date: 2/22/2018
+ms.keywords: IOCTL_GNSS_GET_DEVICE_CAPABILITY, IOCTL_GNSS_GET_DEVICE_CAPABILITY control code [Sensor Devices], gnssdriver/IOCTL_GNSS_GET_DEVICE_CAPABILITY, sensors.ioctl_gnss_get_device_capability
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -119,7 +119,6 @@ Even if the driver supports a specific functionality or needs a specific functio
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
 
 
 
@@ -127,14 +126,15 @@ Even if the driver supports a specific functionality or needs a specific functio
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548651">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548656">WdfIoTargetSendInternalIoctlSynchronously</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548660">WdfIoTargetSendIoctlSynchronously</a>
  
 
  

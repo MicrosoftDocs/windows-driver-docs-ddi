@@ -55,16 +55,6 @@ req.product: Windows 10 or later.
 The <b>GetInterfaceDescriptor</b> method retrieves a descriptor for a USB interface.
 
 
-## -syntax
-
-
-````
-void GetInterfaceDescriptor(
-  [out] PUSB_INTERFACE_DESCRIPTOR UsbAltInterfaceDescriptor
-);
-````
-
-
 ## -parameters
 
 
@@ -97,16 +87,15 @@ For a code example of how to use the <b>GetInterfaceDescriptor</b> method, see <
 
 ## -see-also
 
-<a href="..\wudfusb\nn-wudfusb-iwdfusbinterface.md">IWDFUsbInterface</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560312">IWDFUsbInterface</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560381">IWDFUsbTargetDevice::RetrieveUsbInterface</a>
-
-
-
  
 
  
-
 

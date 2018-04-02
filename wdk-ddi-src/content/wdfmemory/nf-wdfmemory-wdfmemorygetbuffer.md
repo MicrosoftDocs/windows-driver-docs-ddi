@@ -58,17 +58,6 @@ req.product: Windows 10 or later.
 The <b>WdfMemoryGetBuffer</b> method returns a pointer to the buffer that is associated with a specified memory object.
 
 
-## -syntax
-
-
-````
-PVOID WdfMemoryGetBuffer(
-  _In_      WDFMEMORY Memory,
-  _Out_opt_ size_t    *BufferSize
-);
-````
-
-
 ## -parameters
 
 
@@ -108,7 +97,7 @@ For more information about framework memory objects, see <a href="https://docs.m
 
 #### Examples
 
-The following code example is based on the <a href="..\wdfusb\nc-wdfusb-evt_wdf_usb_reader_completion_routine.md">EvtUsbTargetPipeReadComplete</a> callback function in the <a href="http://go.microsoft.com/fwlink/p/?linkid=256131">kmdf_fx2</a> sample driver. The example obtains the buffer that is associated with the memory object that the callback function receives. The example copies data from the buffer into device object context space that the driver has defined.
+The following code example is based on the <a href="https://msdn.microsoft.com/da762d78-6d73-4ab9-83a8-297c6f48855b">EvtUsbTargetPipeReadComplete</a> callback function in the <a href="http://go.microsoft.com/fwlink/p/?linkid=256131">kmdf_fx2</a> sample driver. The example obtains the buffer that is associated with the memory object that the callback function receives. The example copies data from the buffer into device object context space that the driver has defined.
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -140,20 +129,19 @@ OsrFxEvtUsbInterruptPipeReadComplete(
 
 ## -see-also
 
-<a href="..\wdfmemory\nf-wdfmemory-wdfmemorycreatepreallocated.md">WdfMemoryCreatePreallocated</a>
 
 
 
-<a href="..\wdfmemory\nf-wdfmemory-wdfmemorycreate.md">WdfMemoryCreate</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548706">WdfMemoryCreate</a>
 
 
 
-<a href="..\wdfobject\nf-wdfobject-wdfobjectcontextgetobject.md">WdfObjectContextGetObject</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548712">WdfMemoryCreatePreallocated</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548727">WdfObjectContextGetObject</a>
  
 
  
-
 

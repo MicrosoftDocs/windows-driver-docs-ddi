@@ -52,21 +52,6 @@ req.typenames: CMP_CREATE_PLUG, *PCMP_CREATE_PLUG
 This structure is used to create a plug. The request creates an input or output plug control register (iPCR or oPCR) on the local host. A driver is responsible for deleting all of the plugs it has created before the system unloads the driver.
 
 
-## -syntax
-
-
-````
-typedef struct _CMP_CREATE_PLUG {
-  CMP_PLUG_TYPE       PlugType;
-  AV_PCR              Pcr;
-  PCMP_NOTIFY_ROUTINE pfnNotify;
-  PVOID               Context;
-  ULONG               PlugNum;
-  HANDLE              hPlug;
-} CMP_CREATE_PLUG, *PCMP_CREATE_PLUG;
-````
-
-
 ## -struct-fields
 
 
@@ -141,12 +126,11 @@ If the protocol driver is unable to allocate resources, it sets <b>Irp-&gt;IoSta
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537008">AV_61883_REQUEST</a>
-
-
-
  
 
  
-
 

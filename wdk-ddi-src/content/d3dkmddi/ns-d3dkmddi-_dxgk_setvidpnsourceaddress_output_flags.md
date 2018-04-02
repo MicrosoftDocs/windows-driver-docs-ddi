@@ -7,7 +7,7 @@ old-location: display\dxgk_setvidpnsourceaddress_output_flags.htm
 old-project: display
 ms.assetid: CFEEB41D-050F-4372-AB54-39ABC696C89D
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGK_SETVIDPNSOURCEADDRESS_OUTPUT_FLAGS, DXGK_SETVIDPNSOURCEADDRESS_OUTPUT_FLAGS structure [Display Devices], _DXGK_SETVIDPNSOURCEADDRESS_OUTPUT_FLAGS, d3dkmddi/DXGK_SETVIDPNSOURCEADDRESS_OUTPUT_FLAGS, display.dxgk_setvidpnsourceaddress_output_flags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,22 +50,6 @@ req.typenames: DXGK_SETVIDPNSOURCEADDRESS_OUTPUT_FLAGS
 
 
 A structure containing the flags used to set the VidPN source address.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGK_SETVIDPNSOURCEADDRESS_OUTPUT_FLAGS {
-  union {
-    struct {
-      UINT PrePresentNeeded  :1;
-      UINT Reserved  :31;
-    };
-    UINT Value;
-  };
-} DXGK_SETVIDPNSOURCEADDRESS_OUTPUT_FLAGS;
-````
 
 
 ## -struct-fields

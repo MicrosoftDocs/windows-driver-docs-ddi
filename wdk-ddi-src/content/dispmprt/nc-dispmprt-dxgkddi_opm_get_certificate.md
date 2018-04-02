@@ -7,7 +7,7 @@ old-location: display\dxgkddiopmgetcertificate.htm
 old-project: display
 ms.assetid: 3c055598-5f07-46e1-830d-1df9a459f742
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_OPM_GET_CERTIFICATE, Dm_Opm_functions_80d478db-b192-4d86-8938-c105bcc8a677.xml, DxgkDdiOPMGetCertificate, DxgkDdiOPMGetCertificate callback function [Display Devices], display.dxgkddiopmgetcertificate, dispmprt/DxgkDdiOPMGetCertificate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,22 +52,6 @@ req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 The<i> DxgkDdiOPMGetCertificate</i> function retrieves a certificate of the given type and size.
 
 
-## -prototype
-
-
-````
-DXGKDDI_OPM_GET_CERTIFICATE DxgkDdiOPMGetCertificate;
-
-NTSTATUS DxgkDdiOPMGetCertificate(
-  _In_  PVOID                    MiniportDeviceContext,
-  _In_  DXGKMDT_CERTIFICATE_TYPE CertificateType,
-  _In_  ULONG                    CertificateSize,
-  _Out_ PVOID                    CertificateBuffer
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -75,17 +59,17 @@ NTSTATUS DxgkDdiOPMGetCertificate(
 
 ### -param MiniportDeviceContext [in]
 
-A handle to a context block associated with a display adapter. Previously, the display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function provided this handle to the DirectX graphics kernel subsystem.
+A handle to a context block associated with a display adapter. Previously, the display miniport driver's <a href="https://msdn.microsoft.com/5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea">DxgkDdiAddDevice</a> function provided this handle to the DirectX graphics kernel subsystem.
 
 
 ### -param CertificateType [in]
 
-A <a href="..\d3dkmdt\ne-d3dkmdt-_dxgkmdt_certificate_type.md">DXGKMDT_CERTIFICATE_TYPE</a>-typed value that identifies the type of certificate to retrieve.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff560826">DXGKMDT_CERTIFICATE_TYPE</a>-typed value that identifies the type of certificate to retrieve.
 
 
 ### -param CertificateSize [in]
 
-The size, in bytes, of the certificate to retrieve. This size was returned by a call to the display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_certificate_size.md">DxgkDdiOPMGetCertificateSize</a> function.
+The size, in bytes, of the certificate to retrieve. This size was returned by a call to the display miniport driver's <a href="https://msdn.microsoft.com/fe4197ad-52a2-47b3-ad96-57ea73cd931f">DxgkDdiOPMGetCertificateSize</a> function.
 
 
 ### -param CertificateBuffer [out]
@@ -180,20 +164,19 @@ This function might also return other error codes that are defined in Ntstatus.h
 
 ## -see-also
 
-<a href="..\d3dkmdt\ne-d3dkmdt-_dxgkmdt_certificate_type.md">DXGKMDT_CERTIFICATE_TYPE</a>
 
 
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560826">DXGKMDT_CERTIFICATE_TYPE</a>
 
 
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_certificate_size.md">DxgkDdiOPMGetCertificateSize</a>
+<a href="https://msdn.microsoft.com/5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea">DxgkDdiAddDevice</a>
 
 
 
+<a href="https://msdn.microsoft.com/fe4197ad-52a2-47b3-ad96-57ea73cd931f">DxgkDdiOPMGetCertificateSize</a>
  
 
  
-
 

@@ -55,17 +55,6 @@ req.product: Windows 10 or later.
 The <b>RetrieveUsbInterface</b> method retrieves the specified USB interface for a USB device.
 
 
-## -syntax
-
-
-````
-HRESULT RetrieveUsbInterface(
-  [in]  UCHAR            InterfaceIndex,
-  [out] IWDFUsbInterface **ppUsbInterface
-);
-````
-
-
 ## -parameters
 
 
@@ -78,7 +67,7 @@ The index of the interface to retrieve.
 
 ### -param ppUsbInterface [out]
 
-A pointer to a variable that receives a pointer to the specified <a href="..\wudfusb\nn-wudfusb-iwdfusbinterface.md">IWDFUsbInterface</a> interface for the USB device.
+A pointer to a variable that receives a pointer to the specified <a href="https://msdn.microsoft.com/library/windows/hardware/ff560312">IWDFUsbInterface</a> interface for the USB device.
 
 
 ## -returns
@@ -139,7 +128,7 @@ This value corresponds to the error code that the WinUsb API returned.
 
 The driver can call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560366">IWDFUsbTargetDevice::GetNumInterfaces</a> method to retrieve the total number of USB interfaces that are available. 
 
-The driver can use the interface pointer that <b>RetrieveUsbInterface</b> retrieves, to call the methods that the <a href="..\wudfusb\nn-wudfusb-iwdfusbinterface.md">IWDFUsbInterface</a> interface provides. For more information about using these methods, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/working-with-usb-interfaces-in-umdf-1-x-drivers">Working with USB Interfaces in UMDF</a>.
+The driver can use the interface pointer that <b>RetrieveUsbInterface</b> retrieves, to call the methods that the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560312">IWDFUsbInterface</a> interface provides. For more information about using these methods, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/working-with-usb-interfaces-in-umdf-1-x-drivers">Working with USB Interfaces in UMDF</a>.
 
 
 #### Examples
@@ -152,7 +141,14 @@ For a code example of how to use the <b>RetrieveUsbInterface</b> method, see <a 
 
 ## -see-also
 
-<a href="..\wudfusb\nn-wudfusb-iwdfusbtargetdevice.md">IWDFUsbTargetDevice</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560312">IWDFUsbInterface</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560362">IWDFUsbTargetDevice</a>
 
 
 
@@ -160,16 +156,8 @@ For a code example of how to use the <b>RetrieveUsbInterface</b> method, see <a 
 
 
 
-<a href="..\usb\ns-usb-_usbd_interface_information.md">USBD_INTERFACE_INFORMATION</a>
-
-
-
-<a href="..\wudfusb\nn-wudfusb-iwdfusbinterface.md">IWDFUsbInterface</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539068">USBD_INTERFACE_INFORMATION</a>
  
 
  
-
 

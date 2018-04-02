@@ -7,7 +7,7 @@ old-location: netvista\protocolclincomingcall.htm
 old-project: netvista
 ms.assetid: 8a5922ac-b22b-444e-9ea0-3bb56e71ef33
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: PROTOCOL_CL_INCOMING_CALL, ProtocolClIncomingCall, ProtocolClIncomingCall callback function [Network Drivers Starting with Windows Vista], condis_client_ref_8c9188c3-7134-4fab-a9c7-67862e881054.xml, ndis/ProtocolClIncomingCall, netvista.protocolclincomingcall
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -57,21 +57,6 @@ The
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>PROTOCOL_CL_INCOMING_CALL</b> type.
    For more information, see the following Examples section.</div><div> </div>
 
-## -prototype
-
-
-````
-PROTOCOL_CL_INCOMING_CALL ProtocolClIncomingCall;
-
-NDIS_STATUS ProtocolClIncomingCall(
-  _In_    NDIS_HANDLE         ProtocolSapContext,
-  _In_    NDIS_HANDLE         ProtocolVcContext,
-  _Inout_ PCO_CALL_PARAMETERS CallParameters
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -86,7 +71,7 @@ Specifies the handle that the client originally supplied when it registered the 
 ### -param ProtocolVcContext [in]
 
 Specifies the handle to the client's per-VC context area, previously returned to NDIS by its 
-     <a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a> function.
+     <a href="https://msdn.microsoft.com/b086dd24-74f5-474a-8684-09bf92ac731b">ProtocolCoCreateVc</a> function.
 
 
 ### -param CallParameters [in, out]
@@ -126,7 +111,7 @@ The client accepted the incoming call offer.
 </td>
 <td width="60%">
 The client is handling this request asynchronously, and it will call the 
-       <a href="..\ndis\nf-ndis-ndisclincomingcallcomplete.md">
+       <a href="https://msdn.microsoft.com/b3931dd7-319e-4ef8-9812-6dc3f2e41b2c">
        NdisClIncomingCallComplete</a> function when the close operation is complete.
 
 </td>
@@ -170,9 +155,9 @@ Assuming the call manager finds the client's modifications, if any, acceptable, 
     active VC representing the connection to the client on the remote node that originally initiated the call
     offer. If the client returns modified call parameters that are unacceptable, the call manager can tear
     down the VC it created for this offer, thereby causing calls to the client's 
-    <a href="..\ndis\nc-ndis-protocol_cl_incoming_close_call.md">
+    <a href="https://msdn.microsoft.com/01c7d887-eb54-47c3-98f0-bc567b60fb4b">
     ProtocolClIncomingCloseCall</a> and then 
-    <a href="..\ndis\nc-ndis-protocol_co_delete_vc.md">ProtocolCoDeleteVc</a> functions
+    <a href="https://msdn.microsoft.com/d761270f-bf77-441e-834c-9ac7fb3d350f">ProtocolCoDeleteVc</a> functions
     instead.
 
 <h3><a id="Examples"></a><a id="examples"></a><a id="EXAMPLES"></a>Examples</h3>
@@ -218,44 +203,43 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisclincomingcallcomplete.md">NdisClIncomingCallComplete</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561632">NdisClIncomingCallComplete</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisclregistersap.md">NdisClRegisterSap</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561648">NdisClRegisterSap</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiscmdispatchincomingcall.md">NdisCmDispatchIncomingCall</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561664">NdisCmDispatchIncomingCall</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_co_delete_vc.md">ProtocolCoDeleteVc</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562830">NdisMCmDispatchIncomingCall</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismcmdispatchincomingcall.md">NdisMCmDispatchIncomingCall</a>
+<a href="https://msdn.microsoft.com/675b2066-6a65-47cf-bde7-3c843f97c960">ProtocolClCallConnected</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a>
+<a href="https://msdn.microsoft.com/01c7d887-eb54-47c3-98f0-bc567b60fb4b">ProtocolClIncomingCloseCall</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_cl_incoming_close_call.md">ProtocolClIncomingCloseCall</a>
+<a href="https://msdn.microsoft.com/b086dd24-74f5-474a-8684-09bf92ac731b">ProtocolCoCreateVc</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_cl_call_connected.md">ProtocolClCallConnected</a>
-
-
-
+<a href="https://msdn.microsoft.com/d761270f-bf77-441e-834c-9ac7fb3d350f">ProtocolCoDeleteVc</a>
  
 
  
-
 

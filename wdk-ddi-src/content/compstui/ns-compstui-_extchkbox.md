@@ -52,23 +52,6 @@ req.typenames: EXTCHKBOX, *PEXTCHKBOX
 The EXTCHKBOX structure is used by CPSUI applications (including printer interface DLLs) for specifying an extended check box, which can be added to a property sheet page option.
 
 
-## -syntax
-
-
-````
-typedef struct _EXTCHKBOX {
-  WORD      cbSize;
-  WORD      Flags;
-  LPTSTR    pTitle;
-  LPTSTR    pSeparator;
-  LPTSTR    pCheckedName;
-  ULONG_PTR IconID;
-  WORD      wReserved[4];
-  ULONG_PTR dwReserved[2];
-} EXTCHKBOX, *PEXTCHKBOX;
-````
-
-
 ## -struct-fields
 
 
@@ -192,19 +175,18 @@ Reserved, must be initialized to zero.
 
 
 
-An extended check box is a CPSUI-defined type of check box that can be associated with an <a href="..\compstui\ns-compstui-_optitem.md">OPTITEM</a> structure. An OPTITEM structure can have one extended check box or one extended push button associated with it.
+An extended check box is a CPSUI-defined type of check box that can be associated with an <a href="https://msdn.microsoft.com/library/windows/hardware/ff559656">OPTITEM</a> structure. An OPTITEM structure can have one extended check box or one extended push button associated with it.
 
 
 
 
 ## -see-also
 
-<a href="..\compstui\ns-compstui-_extpush.md">EXTPUSH</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548795">EXTPUSH</a>
  
 
  
-
 

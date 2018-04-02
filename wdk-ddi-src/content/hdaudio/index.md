@@ -2,7 +2,7 @@
 UID: NA:hdaudio
 ms.assetid: 63f66258-129c-388f-83e8-f8b12d118b98
 ms.author: windowsdriverdev
-ms.date: 03/13/18
+ms.date: 02/27/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: display\dxgkddigetbacklightreduction.htm
 old-project: display
 ms.assetid: 018cb4a0-e71d-407e-8fe9-716312099b73
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGK_BRIGHTNESS_GET_BACKLIGHT_REDUCTION, DxgkDdiGetBacklightReduction, DxgkDdiGetBacklightReduction callback function [Display Devices], display.dxgkddigetbacklightreduction, dispmprt/DxgkDdiGetBacklightReduction
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,20 +52,6 @@ req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 Retrieves the current level of backlight reduction that is applied to the integrated display panel.
 
 
-## -prototype
-
-
-````
-DXGK_BRIGHTNESS_GET_BACKLIGHT_REDUCTION DxgkDdiGetBacklightReduction;
-
-NTSTATUS* DxgkDdiGetBacklightReduction(
-  _In_  PVOID               Context,
-  _Out_ DXGK_BACKLIGHT_INFO *BacklightInfo
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -73,12 +59,12 @@ NTSTATUS* DxgkDdiGetBacklightReduction(
 
 ### -param Context [in]
 
-A handle to a <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> context block that is associated with a display adapter. The display miniport driver's  function previously provided this handle to the DirectX graphics kernel subsystem.
+A handle to a <a href="https://msdn.microsoft.com/5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea">DxgkDdiAddDevice</a> context block that is associated with a display adapter. The display miniport driver's  function previously provided this handle to the DirectX graphics kernel subsystem.
 
 
 ### -param *BacklightInfo [out]
 
-A value of type <a href="..\d3dkmdt\ns-d3dkmdt-_dxgk_backlight_info.md">DXGK_BACKLIGHT_INFO</a> that provides the current absolute level of backlight reduction.
+A value of type <a href="https://msdn.microsoft.com/library/windows/hardware/jj128357">DXGK_BACKLIGHT_INFO</a> that provides the current absolute level of backlight reduction.
 
 
 ## -returns
@@ -112,16 +98,15 @@ As an example, if <i>BRR</i> = 0.2, the driver will typically boost brightness b
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
 
 
-<a href="..\d3dkmdt\ns-d3dkmdt-_dxgk_backlight_info.md">DXGK_BACKLIGHT_INFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj128357">DXGK_BACKLIGHT_INFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea">DxgkDdiAddDevice</a>
  
 
  
-
 

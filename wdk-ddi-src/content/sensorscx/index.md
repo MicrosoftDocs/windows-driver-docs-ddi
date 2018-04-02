@@ -2,7 +2,7 @@
 UID: NA:sensorscx
 ms.assetid: 5d44f356-17a0-30d5-84f5-5fb6532ee25b
 ms.author: windowsdriverdev
-ms.date: 03/13/18
+ms.date: 02/27/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

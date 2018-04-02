@@ -52,21 +52,6 @@ req.product: Windows 10 or later.
 
 
 
-## -syntax
-
-
-````
-PBYTE APIENTRY OEMImageProcessing(
-   PDEVOBJ           pdevobj,
-   PBYTE             pSrcBitmap,
-   PBITMAPINFOHEADER pBitmapInfoHeader,
-   PBYTE             pColorTable,
-   DWORD             dwCallbackID,
-   PIPPARAMS         pIPParams
-);
-````
-
-
 ## -parameters
 
 

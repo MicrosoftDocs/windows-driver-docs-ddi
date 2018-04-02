@@ -7,7 +7,7 @@ old-location: netvista\ndisgetpoolfromnetbuffer.htm
 old-project: netvista
 ms.assetid: 64bb049a-6b8a-470f-8269-8a168761e388
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NdisGetPoolFromNetBuffer, NdisGetPoolFromNetBuffer function [Network Drivers Starting with Windows Vista], ndis/NdisGetPoolFromNetBuffer, ndis_netbuf_functions_ref_ae9f36c7-ab1c-4ea4-9721-2fd15aabc667.xml, netvista.ndisgetpoolfromnetbuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,18 +52,8 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 
 Call the 
   <b>NdisGetPoolFromNetBuffer</b> function to get the 
-  <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structure pool handle that is associated
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structure pool handle that is associated
   with a specified NET_BUFFER structure.
-
-
-## -syntax
-
-
-````
-NDIS_HANDLE NdisGetPoolFromNetBuffer(
-  _In_ PNET_BUFFER NetBuffer
-);
-````
 
 
 ## -parameters
@@ -74,7 +64,7 @@ NDIS_HANDLE NdisGetPoolFromNetBuffer(
 ### -param NetBuffer [in]
 
 A pointer to a previously allocated 
-     <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structure.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structure.
 
 
 ## -returns
@@ -94,7 +84,7 @@ A pointer to a previously allocated
 The handle that 
     <b>NdisGetPoolFromNetBuffer</b> returns is a required parameter in calls to NDIS functions that manipulate
     
-    <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structures that are from the
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structures that are from the
     associated NET_BUFFER structure pool.
 
 
@@ -102,12 +92,11 @@ The handle that
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a>
  
 
  
-
 

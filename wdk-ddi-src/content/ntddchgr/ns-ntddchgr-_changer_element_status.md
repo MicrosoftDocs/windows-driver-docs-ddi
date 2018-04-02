@@ -7,7 +7,7 @@ old-location: storage\changer_element_status.htm
 old-project: storage
 ms.assetid: 3debcf76-bb84-48ec-933e-03e099ad764f
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PCHANGER_ELEMENT_STATUS, CHANGER_ELEMENT_STATUS, CHANGER_ELEMENT_STATUS structure [Storage Devices], PCHANGER_ELEMENT_STATUS, PCHANGER_ELEMENT_STATUS structure pointer [Storage Devices], _CHANGER_ELEMENT_STATUS, ntddchgr/CHANGER_ELEMENT_STATUS, ntddchgr/PCHANGER_ELEMENT_STATUS, storage.changer_element_status, structs-changer_6dd054a8-1224-42f1-ab26-29b2c108ce27.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,25 +49,7 @@ req.typenames: CHANGER_ELEMENT_STATUS, *PCHANGER_ELEMENT_STATUS
 ## -description
 
 
-The <a href="..\mcd\nf-mcd-changergetelementstatus.md">ChangerGetElementStatus</a> routine returns status information in this structure. 
-
-
-## -syntax
-
-
-````
-typedef struct _CHANGER_ELEMENT_STATUS {
-  CHANGER_ELEMENT Element;
-  CHANGER_ELEMENT SrcElementAddress;
-  ULONG           Flags;
-  ULONG           ExceptionCode;
-  UCHAR           TargetId;
-  UCHAR           Lun;
-  USHORT          Reserved;
-  UCHAR           PrimaryVolumeID[MAX_VOLUME_ID_SIZE];
-  UCHAR           AlternateVolumeID[MAX_VOLUME_ID_SIZE];
-} CHANGER_ELEMENT_STATUS, *PCHANGER_ELEMENT_STATUS;
-````
+The <a href="https://msdn.microsoft.com/library/windows/hardware/ff551424">ChangerGetElementStatus</a> routine returns status information in this structure. 
 
 
 ## -struct-fields
@@ -77,12 +59,12 @@ typedef struct _CHANGER_ELEMENT_STATUS {
 
 ### -field Element
 
-Specifies the element of type <a href="..\ntddchgr\ns-ntddchgr-_changer_element.md">CHANGER_ELEMENT</a>  to which this structure refers.
+Specifies the element of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff551457">CHANGER_ELEMENT</a>  to which this structure refers.
 
 
 ### -field SrcElementAddress
 
-Specifies the element of type <a href="..\ntddchgr\ns-ntddchgr-_changer_element.md">CHANGER_ELEMENT</a> from which the media currently in this element was most recently moved. This member is valid only if ELEMENT_STATUS_SVALID is also set in <b>Flags</b>. This value must be a zero-based offset from the device-unique value.
+Specifies the element of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff551457">CHANGER_ELEMENT</a> from which the media currently in this element was most recently moved. This member is valid only if ELEMENT_STATUS_SVALID is also set in <b>Flags</b>. This value must be a zero-based offset from the device-unique value.
 
 
 ### -field Flags
@@ -276,35 +258,34 @@ Specifies alternate volume identification for the media. This member is valid fo
 
 
 
-For most element types, changer miniclass drivers use CHANGER_ELEMENT_STATUS to report the status of specified elements to the changer class driver. Some elements of type <b>ChangerDrive</b>, however, return product information data. If the device provides product information, the miniclass driver will report the element status data in a structure of type <a href="..\ntddchgr\ns-ntddchgr-_changer_element_status_ex.md">CHANGER_ELEMENT_STATUS_EX</a> instead of using CHANGER_ELEMENT_STATUS. The miniclass driver indicates that product information is present by setting ELEMENT_STATUS_PRODUCT_DATA in the <b>Flags</b> member of the structure.
+For most element types, changer miniclass drivers use CHANGER_ELEMENT_STATUS to report the status of specified elements to the changer class driver. Some elements of type <b>ChangerDrive</b>, however, return product information data. If the device provides product information, the miniclass driver will report the element status data in a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff551462">CHANGER_ELEMENT_STATUS_EX</a> instead of using CHANGER_ELEMENT_STATUS. The miniclass driver indicates that product information is present by setting ELEMENT_STATUS_PRODUCT_DATA in the <b>Flags</b> member of the structure.
 
 
 
 
 ## -see-also
 
-<a href="..\mcd\nf-mcd-changerqueryvolumetags.md">ChangerQueryVolumeTags</a>
 
 
 
-<a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_get_element_status.md">IOCTL_CHANGER_GET_ELEMENT_STATUS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551457">CHANGER_ELEMENT</a>
 
 
 
-<a href="..\mcd\nf-mcd-changergetelementstatus.md">ChangerGetElementStatus</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551462">CHANGER_ELEMENT_STATUS_EX</a>
 
 
 
-<a href="..\ntddchgr\ns-ntddchgr-_changer_element.md">CHANGER_ELEMENT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551424">ChangerGetElementStatus</a>
 
 
 
-<a href="..\ntddchgr\ns-ntddchgr-_changer_element_status_ex.md">CHANGER_ELEMENT_STATUS_EX</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551440">ChangerQueryVolumeTags</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559396">IOCTL_CHANGER_GET_ELEMENT_STATUS</a>
  
 
  
-
 

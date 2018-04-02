@@ -50,23 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The PRINTPROCESSOROPENDATA structure is used as an input parameter to a print processor's <a href="..\winsplp\nf-winsplp-openprintprocessor.md">OpenPrintProcessor</a> function.
-
-
-## -syntax
-
-
-````
-typedef struct _PRINTPROCESSOROPENDATA {
-  PDEVMODE pDevMode;
-  LPWSTR   pDatatype;
-  LPWSTR   pParameters;
-  LPWSTR   pDocumentName;
-  DWORD    JobId;
-  LPWSTR   pOutputFile;
-  LPWSTR   pPrinterName;
-} PRINTPROCESSOROPENDATA, *PPRINTPROCESSOROPENDATA, *LPPRINTPROCESSOROPENDATA;
-````
+The PRINTPROCESSOROPENDATA structure is used as an input parameter to a print processor's <a href="https://msdn.microsoft.com/library/windows/hardware/ff559604">OpenPrintProcessor</a> function.
 
 
 ## -struct-fields
@@ -111,16 +95,15 @@ Spooler-supplied pointer to a string representing the name of the printer to be 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a>
 
 
 
-<a href="..\winsplp\nf-winsplp-openprintprocessor.md">OpenPrintProcessor</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559604">OpenPrintProcessor</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: netvista\wwan_pin_state.htm
 old-project: netvista
 ms.assetid: e538f920-bf9e-484b-acea-f979bb952299
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PWWAN_PIN_STATE, PWWAN_PIN_STATE, PWWAN_PIN_STATE enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_PIN_STATE, WWAN_PIN_STATE enumeration [Network Drivers Starting with Windows Vista], WwanPinStateEnter, WwanPinStateMax, WwanPinStateNone, WwanRef_6adb4dc1-c989-45b5-a27c-b553c9a5fdd0.xml, _WWAN_PIN_STATE, netvista.wwan_pin_state, wwan/PWWAN_PIN_STATE, wwan/WWAN_PIN_STATE, wwan/WwanPinStateEnter, wwan/WwanPinStateMax, wwan/WwanPinStateNone"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -55,18 +55,6 @@ The WWAN_PIN_STATE enumeration describes whether the MB device or Subscriber Ide
   state.
 
 
-## -syntax
-
-
-````
-typedef enum _WWAN_PIN_STATE { 
-  WwanPinStateNone   = 0,
-  WwanPinStateEnter,
-  WwanPinStateMax
-} WWAN_PIN_STATE, *PWWAN_PIN_STATE;
-````
-
-
 ## -enum-fields
 
 
@@ -89,12 +77,11 @@ The total number of supported PIN states.
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_pin_info.md">WWAN_PIN_INFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571216">WWAN_PIN_INFO</a>
  
 
  
-
 

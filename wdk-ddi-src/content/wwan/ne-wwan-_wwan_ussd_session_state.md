@@ -7,7 +7,7 @@ old-location: netvista\wwan_ussd_session_state.htm
 old-project: netvista
 ms.assetid: 5111A10F-F66F-4667-A77E-63691CCD282D
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PWWAN_USSD_SESSION_STATE, WWAN_USSD_SESSION_STATE, WWAN_USSD_SESSION_STATE enumeration [Network Drivers Starting with Windows Vista], WwanUssdSessionStateExisting, WwanUssdSessionStateNew, _WWAN_USSD_SESSION_STATE, netvista.wwan_ussd_session_state, wwan/WWAN_USSD_SESSION_STATE, wwan/WwanUssdSessionStateExisting, wwan/WwanUssdSessionStateNew"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 The WWAN_USSD_SESSION_STATE enumeration lists the different types of USSD session states.
-
-
-## -syntax
-
-
-````
-typedef enum _WWAN_USSD_SESSION_STATE { 
-  WwanUssdSessionStateNew       = 0,
-  WwanUssdSessionStateExisting  = 1
-} WWAN_USSD_SESSION_STATE;
-````
 
 
 ## -enum-fields

@@ -52,18 +52,6 @@ req.typenames: NFC_CX_POLL_BAILOUT_CONFIG, *PNFC_CX_POLL_BAILOUT_CONFIG
 The NFC_CX_POLL_BAILOUT_CONFIG enumeration specifies poll mode bail out.
 
 
-## -syntax
-
-
-````
-typedef enum _NFC_CX_POLL_BAILOUT_CONFIG { 
-  NFC_CX_POLL_BAILOUT_NFC_A    = 0x01,
-  NFC_CX_POLL_BAILOUT_NFC_B    = 0x02,
-  NFC_CX_POLL_BAILOUT_DEFAULT  = 0x00
-} NFC_CX_POLL_BAILOUT_CONFIG, *PNFC_CX_POLL_BAILOUT_CONFIG;
-````
-
-
 ## -enum-fields
 
 
@@ -80,16 +68,15 @@ typedef enum _NFC_CX_POLL_BAILOUT_CONFIG {
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
 
 
 
 <a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
-
-
-
  
 
  
-
 

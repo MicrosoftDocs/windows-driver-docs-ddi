@@ -7,7 +7,7 @@ old-location: netvista\wdi_txrx_capabilities.htm
 old-project: netvista
 ms.assetid: 7a1d3ffd-6f5e-429d-8c2f-a141f98ccad8
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PWDI_TXRX_CAPABILITIES, PWDI_TXRX_CAPABILITIES, PWDI_TXRX_CAPABILITIES structure pointer [Network Drivers Starting with Windows Vista], WDI_TXRX_CAPABILITIES, WDI_TXRX_CAPABILITIES structure [Network Drivers Starting with Windows Vista], _WDI_TXRX_TARGET_CAPABILITIES, dot11wdi/PWDI_TXRX_CAPABILITIES, dot11wdi/WDI_TXRX_TARGET_CAPABILITIES, netvista.wdi_txrx_capabilities, netvista.wdi_txrx_target_capabilities, netvista.wifi_txrx_target_capabilities"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,28 +51,6 @@ req.typenames: WDI_TXRX_CAPABILITIES, *PWDI_TXRX_CAPABILITIES
 
 The 
    WDI_TXRX_CAPABILITIES structure defines the target capabilities.
-
-
-## -syntax
-
-
-````
-typedef struct _WDI_TXRX_CAPABILITIES {
-  WDI_INTERCONNECT_TYPE InterconnectType;
-  struct {
-    BOOLEAN TargetPriorityQueueing;
-    UINT16  MaxMemBlocksPerFrame;
-    BOOLEAN ExplicitSendCompleteFlagRequired;
-    UINT8   bPad;
-    UINT16  MinEffectiveSize;
-    UINT16  FrameSizeGranularity;
-  } TransmitCapabilities;
-  struct {
-    BOOLEAN RxTxForwarding;
-    UINT32  MaxThroughput;
-  } ReceiveCapabilities;
-} WDI_TXRX_CAPABILITIES, *PWDI_TXRX_CAPABILITIES;
-````
 
 
 ## -struct-fields

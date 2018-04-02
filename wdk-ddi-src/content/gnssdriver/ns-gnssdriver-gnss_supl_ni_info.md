@@ -3,12 +3,12 @@ UID: NS:gnssdriver.GNSS_SUPL_NI_INFO
 title: GNSS_SUPL_NI_INFO
 author: windows-driver-content
 description: This structure contains the requested SUPL NI information.
-old-location: gnss\gnss_supl_ni_info.htm
-old-project: gnss
+old-location: sensors\gnss_supl_ni_info.htm
+old-project: sensors
 ms.assetid: 78D19A0C-E247-4DDA-A689-494B5A61A673
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: "*PGNSS_SUPL_NI_INFO, GNSS_SUPL_NI_INFO, GNSS_SUPL_NI_INFO structure [Sensor Devices], PGNSS_SUPL_NI_INFO, PGNSS_SUPL_NI_INFO structure pointer [Sensor Devices], gnss.gnss_supl_ni_info, gnssdriver/GNSS_SUPL_NI_INFO, gnssdriver/PGNSS_SUPL_NI_INFO"
+ms.date: 2/22/2018
+ms.keywords: "*PGNSS_SUPL_NI_INFO, GNSS_SUPL_NI_INFO, GNSS_SUPL_NI_INFO structure [Sensor Devices], PGNSS_SUPL_NI_INFO, PGNSS_SUPL_NI_INFO structure pointer [Sensor Devices], gnssdriver/GNSS_SUPL_NI_INFO, gnssdriver/PGNSS_SUPL_NI_INFO, sensors.gnss_supl_ni_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -50,20 +50,6 @@ req.typenames: GNSS_SUPL_NI_INFO, *PGNSS_SUPL_NI_INFO
 
 
 This structure contains the requested SUPL NI information.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  ULONG Size;
-  ULONG Version;
-  WCHAR RequestorId[MAX_PATH];
-  WCHAR ClientName[MAX_PATH];
-  CHAR  SuplNiUrl[MAX_SERVER_URL_NAME];
-} GNSS_SUPL_NI_INFO, *PGNSS_SUPL_NI_INFO;
-````
 
 
 ## -struct-fields

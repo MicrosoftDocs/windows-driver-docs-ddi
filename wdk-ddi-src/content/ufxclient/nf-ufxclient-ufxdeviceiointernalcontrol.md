@@ -7,7 +7,7 @@ old-location: buses\ufxdeviceiointernalcontrol.htm
 old-project: usbref
 ms.assetid: 0AD4316E-67E7-4810-86DA-5DEB5C4E6DE6
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: UfxDeviceIoInternalControl, UfxDeviceIoInternalControl method [Buses], buses.ufxdeviceiointernalcontrol, ufxclient/UfxDeviceIoInternalControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,20 +53,6 @@ req.product: Windows 10 or later.
 Passes kernel mode IOCTLs to UFX.
 
 
-## -syntax
-
-
-````
-BOOLEAN UfxDeviceIoInternalControl(
-  [in] UFXDEVICE  UfxDevice,
-  [in] WDFREQUEST Request,
-  [in] size_t     OutputBufferLength,
-  [in] size_t     InputBufferLength,
-  [in] ULONG      IoControlCode
-);
-````
-
-
 ## -parameters
 
 
@@ -74,7 +60,7 @@ BOOLEAN UfxDeviceIoInternalControl(
 
 ### -param UfxDevice [in]
 
-A handle to a UFX device object that the driver created by calling <a href="..\ufxclient\nf-ufxclient-ufxdevicecreate.md">UfxDeviceCreate</a>.
+A handle to a UFX device object that the driver created by calling <a href="https://msdn.microsoft.com/library/windows/hardware/mt187951">UfxDeviceCreate</a>.
 
 
 ### -param Request [in]
@@ -101,7 +87,7 @@ The driver-defined or system-defined IOCTL that is associated with the request.
 
 
 
-The client driver calls <b>UfxDeviceIoInternalControl</b> to forward internal IOCTLs that it receives in its <a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_io_internal_device_control.md">EvtIoInternalDeviceControl</a> callback function to UFX.  The following example shows how:
+The client driver calls <b>UfxDeviceIoInternalControl</b> to forward internal IOCTLs that it receives in its <a href="https://msdn.microsoft.com/268d2323-57a3-4674-90e6-d7142804175b">EvtIoInternalDeviceControl</a> callback function to UFX.  The following example shows how:
 
 <div class="code"><span codelanguage=""><table>
 <tr>

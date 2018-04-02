@@ -7,7 +7,7 @@ old-location: display\dxgk_brightness_interface_2.htm
 old-project: display
 ms.assetid: 0c0b877f-cef0-4e98-9f37-60f2d96b81bd
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PDXGK_BRIGHTNESS_INTERFACE_2, DXGK_BRIGHTNESS_INTERFACE_2, DXGK_BRIGHTNESS_INTERFACE_2 structure [Display Devices], PDXGK_BRIGHTNESS_INTERFACE_2, PDXGK_BRIGHTNESS_INTERFACE_2 structure pointer [Display Devices], display.dxgk_brightness_interface_2, dispmprt/DXGK_BRIGHTNESS_INTERFACE_2, dispmprt/PDXGK_BRIGHTNESS_INTERFACE_2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,27 +52,6 @@ req.typenames: DXGK_BRIGHTNESS_INTERFACE_2, *PDXGK_BRIGHTNESS_INTERFACE_2
 Contains pointers to functions in the Panel Brightness Control Interface Version 2. Used by Windows Display Driver Model (WDDM) 1.2 and later display miniport drivers that support adaptive and smooth brightness control.
 
 
-## -syntax
-
-
-````
-typedef struct {
-  USHORT                                     Size;
-  USHORT                                     Version;
-  PVOID                                      Context;
-  PINTERFACE_REFERENCE                       InterfaceReference;
-  PINTERFACE_DEREFERENCE                     InterfaceDereference;
-  DXGK_BRIGHTNESS_GET_POSSIBLE               GetPossibleBrightness;
-  DXGK_BRIGHTNESS_SET                        SetBrightness;
-  DXGK_BRIGHTNESS_GET                        GetBrightness;
-  DXGK_BRIGHTNESS_GET_CAPS                   GetBrightnessCaps;
-  DXGK_BRIGHTNESS_SET_STATE                  SetBrightnessState;
-  DXGK_BRIGHTNESS_SET_BACKLIGHT_OPTIMIZATION SetBacklightOptimization;
-  DXGK_BRIGHTNESS_GET_BACKLIGHT_REDUCTION    GetBacklightReduction;
-} DXGK_BRIGHTNESS_INTERFACE_2, *PDXGK_BRIGHTNESS_INTERFACE_2;
-````
-
-
 ## -struct-fields
 
 
@@ -105,44 +84,44 @@ typedef struct {
 
 ### -field GetPossibleBrightness
 
-[out] A pointer to the display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgk_brightness_get_possible.md">DxgkDdiGetPossibleBrightness</a> function.
+[out] A pointer to the display miniport driver's <a href="https://msdn.microsoft.com/aed565f5-a9c1-4130-a192-68bb699b4bd1">DxgkDdiGetPossibleBrightness</a> function.
 
 
 ### -field SetBrightness
 
-[out] A pointer to the display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgk_brightness_set.md">DxgkDdiSetBrightness</a> function.
+[out] A pointer to the display miniport driver's <a href="https://msdn.microsoft.com/83609679-20df-463d-ac3a-bb8a87897608">DxgkDdiSetBrightness</a> function.
 
 
 ### -field GetBrightness
 
-[out] A pointer to the display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgk_brightness_get.md">DxgkDdiGetBrightness</a> function.
+[out] A pointer to the display miniport driver's <a href="https://msdn.microsoft.com/e226cd36-45af-4d80-9aba-8919b267483b">DxgkDdiGetBrightness</a> function.
 
 
 ### -field GetBrightnessCaps
 
-[out] A pointer to the display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgk_brightness_get_caps.md">DxgkDdiGetBrightnessCaps</a> function. This function is available starting with Windows 8.
+[out] A pointer to the display miniport driver's <a href="https://msdn.microsoft.com/3418dd2b-63cb-411f-9bae-390148885907">DxgkDdiGetBrightnessCaps</a> function. This function is available starting with Windows 8.
 
 
 ### -field SetBrightnessState
 
-[out] A pointer to the display miniport driver's  <a href="..\dispmprt\nc-dispmprt-dxgk_brightness_set_state.md">DxgkDdiSetBrightnessState</a> function. This function is available starting with Windows 8.
+[out] A pointer to the display miniport driver's  <a href="https://msdn.microsoft.com/804046ff-0cc7-4ff0-be07-b574cb40fd2b">DxgkDdiSetBrightnessState</a> function. This function is available starting with Windows 8.
 
 
 ### -field SetBacklightOptimization
 
-[out] A pointer to the display miniport driver's  <a href="..\dispmprt\nc-dispmprt-dxgk_brightness_set_backlight_optimization.md">DxgkDdiSetBacklightOptimization</a> function. This function is available starting with Windows 8.
+[out] A pointer to the display miniport driver's  <a href="https://msdn.microsoft.com/b8c37df8-ba86-4cfd-add0-49ba9c90f04a">DxgkDdiSetBacklightOptimization</a> function. This function is available starting with Windows 8.
 
 
 ### -field GetBacklightReduction
 
-[out] A pointer to the display miniport driver's  <a href="..\dispmprt\nc-dispmprt-dxgk_brightness_get_backlight_reduction.md">DxgkDdiGetBacklightReduction</a> function. This function is available starting with Windows 8.
+[out] A pointer to the display miniport driver's  <a href="https://msdn.microsoft.com/018cb4a0-e71d-407e-8fe9-716312099b73">DxgkDdiGetBacklightReduction</a> function. This function is available starting with Windows 8.
 
 
 ## -remarks
 
 
 
-This structure provides additional members, beyond those in the <a href="..\dispmprt\ns-dispmprt-dxgk_brightness_interface.md">DXGK_BRIGHTNESS_INTERFACE</a> interface, that point to driver-implemented functions that control, measure, and optimize display panel brightness and allow smooth brightness control.
+This structure provides additional members, beyond those in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560989">DXGK_BRIGHTNESS_INTERFACE</a> interface, that point to driver-implemented functions that control, measure, and optimize display panel brightness and allow smooth brightness control.
 
 For more information on this interface, see <a href="https://msdn.microsoft.com/library/windows/hardware/jj647485">Brightness Control Interface V. 2 (Adaptive and Smooth Brightness Control)</a>.
 
@@ -151,12 +130,11 @@ For more information on this interface, see <a href="https://msdn.microsoft.com/
 
 ## -see-also
 
-<a href="..\dispmprt\ns-dispmprt-dxgk_brightness_interface.md">DXGK_BRIGHTNESS_INTERFACE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560989">DXGK_BRIGHTNESS_INTERFACE</a>
  
 
  
-
 

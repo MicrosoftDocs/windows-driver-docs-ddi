@@ -46,6 +46,11 @@ req.typenames: OFFLOAD_SECURITY_ASSOCIATION, *POFFLOAD_SECURITY_ASSOCIATION
 # IOCTL_PAR_QUERY_DEVICE_ID_SIZE IOCTL
 
 
+##  Major Code: 
+
+
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
+
 ## -description
 
 
@@ -107,11 +112,11 @@ The <b>Status</b> member is set to one of the generic status values returned by 
 
 ## -see-also
 
-<a href="..\ntddpar\ns-ntddpar-_par_device_id_size_information.md">PAR_DEVICE_ID_SIZE_INFORMATION</a>
-
-
-
 <a href="..\ntddpar\ni-ntddpar-ioctl_par_query_device_id.md">IOCTL_PAR_QUERY_DEVICE_ID</a>
+
+
+
+<a href="..\ntddpar\ns-ntddpar-_par_device_id_size_information.md">PAR_DEVICE_ID_SIZE_INFORMATION</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: debugger\getnotifyeventhandle.htm
 old-project: debugger
 ms.assetid: a949a583-1ee1-4538-9117-4ad1482e8bc8
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: GetNotifyEventHandle method [Windows Debugging], GetNotifyEventHandle method [Windows Debugging], IDebugControl interface, GetNotifyEventHandle method [Windows Debugging], IDebugControl2 interface, GetNotifyEventHandle method [Windows Debugging], IDebugControl3 interface, GetNotifyEventHandle,IDebugControl2.GetNotifyEventHandle, IDebugControl interface [Windows Debugging], GetNotifyEventHandle method, IDebugControl2, IDebugControl2 interface [Windows Debugging], GetNotifyEventHandle method, IDebugControl2::GetNotifyEventHandle, IDebugControl3 interface [Windows Debugging], GetNotifyEventHandle method, IDebugControl3::GetNotifyEventHandle, IDebugControl::GetNotifyEventHandle, IDebugControl_73931ad2-ace6-4d38-ad22-c322f2e3c13c.xml, dbgeng/IDebugControl2::GetNotifyEventHandle, dbgeng/IDebugControl3::GetNotifyEventHandle, dbgeng/IDebugControl::GetNotifyEventHandle, debugger.getnotifyeventhandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,16 +52,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetNotifyEventHandle</b> method receives the handle of the event that will be signaled after the next <a href="https://msdn.microsoft.com/0dd010e7-3e10-422a-adcb-8fe7df9e29ab">exception</a> in a target.
-
-
-## -syntax
-
-
-````
-HRESULT GetNotifyEventHandle(
-  [out] PULONG64 Handle
-);
-````
 
 
 ## -parameters
@@ -115,24 +105,23 @@ The event will only be signaled once.  After it has been signaled, this method w
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550508">IDebugControl</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550512">IDebugControl2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550519">IDebugControl3</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556739">SetNotifyEventHandle</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
-
-
-
  
 
  
-
 

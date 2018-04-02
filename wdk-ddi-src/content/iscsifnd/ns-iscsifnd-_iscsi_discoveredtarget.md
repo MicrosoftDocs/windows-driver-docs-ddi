@@ -7,7 +7,7 @@ old-location: storage\iscsi_discoveredtarget.htm
 old-project: storage
 ms.assetid: 0b4a7375-1ee2-4829-92bb-01ed610236de
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PISCSI_DiscoveredTarget, ISCSI_DiscoveredTarget, ISCSI_DiscoveredTarget structure [Storage Devices], PISCSI_DiscoveredTarget, PISCSI_DiscoveredTarget structure pointer [Storage Devices], _ISCSI_DiscoveredTarget, iscsifnd/ISCSI_DiscoveredTarget, iscsifnd/PISCSI_DiscoveredTarget, storage.iscsi_discoveredtarget, structs-iSCSI_d53d59a0-bd96-4eb8-b874-5846302ddda2.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,19 +52,6 @@ req.typenames: ISCSI_DiscoveredTarget, *PISCSI_DiscoveredTarget
 The ISCSI_DiscoveredTarget structure contains information that is related to a discovered target device. 
 
 
-## -syntax
-
-
-````
-typedef struct _ISCSI_DiscoveredTarget {
-  ULONG                             TargetPortalGroupCount;
-  WCHAR                             TargetName[223 + 1];
-  WCHAR                             TargetAlias[255 + 1];
-  ISCSI_DiscoveredTargetPortalGroup TargetDiscoveredPortalGroups[1];
-} ISCSI_DiscoveredTarget, *PISCSI_DiscoveredTarget;
-````
-
-
 ## -struct-fields
 
 
@@ -87,7 +74,7 @@ The human-readable name or description that is assigned to the target device by 
 
 ### -field TargetDiscoveredPortalGroups
 
-A variable-length array of <a href="..\iscsifnd\ns-iscsifnd-_iscsi_discoveredtargetportalgroup.md">ISCSI_DiscoveredTargetPortalGroup</a> structures that contains information about the portal groups that the initiator can use to connect to the target.
+A variable-length array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff561515">ISCSI_DiscoveredTargetPortalGroup</a> structures that contains information about the portal groups that the initiator can use to connect to the target.
 
 
 ## -remarks
@@ -101,11 +88,6 @@ The WMI tool suite automatically generates a declaration of the ISCSI_Discovered
 
 ## -see-also
 
-<a href="..\iscsifnd\ns-iscsifnd-_iscsi_discoveredtargetportalgroup.md">ISCSI_DiscoveredTargetPortalGroup</a>
-
-
-
-<a href="..\iscsifnd\ns-iscsifnd-_iscsi_discoveredtarget2.md">ISCSI_DiscoveredTarget2</a>
 
 
 
@@ -113,8 +95,12 @@ The WMI tool suite automatically generates a declaration of the ISCSI_Discovered
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561503">ISCSI_DiscoveredTarget2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561515">ISCSI_DiscoveredTargetPortalGroup</a>
  
 
  
-
 

@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 The <b>IWiaMiniDrv::drvNotifyPnpEvent</b> method responds to the event received from the WIA service.
 
 
-## -syntax
-
-
-````
-HRESULT drvNotifyPnpEvent(
-  [in] const GUID  *pEventGuid,
-  [in]       BSTR  bstrDeviceID,
-  [in]       ULONG ulReserved
-);
-````
-
-
 ## -parameters
 
 
@@ -112,16 +100,15 @@ If this method is called with *<i>pEventGuid</i> set to WIA_EVENT_CANCEL_IO devi
 
 ## -see-also
 
-<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrv.md">IWiaMiniDrv</a>
+
+
+
+<a href="https://msdn.microsoft.com/15068d10-5e24-427c-9684-24ce67b75ada">IWiaMiniDrv</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543977">IWiaMiniDrv::drvGetCapabilities</a>
-
-
-
  
 
  
-
 

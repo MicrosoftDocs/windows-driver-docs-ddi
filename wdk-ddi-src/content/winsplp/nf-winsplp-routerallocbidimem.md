@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 <code>RouterAllocBidiMem</code> allocates a block of memory of a specified size. This function is used by the port monitor to allocate memory for strings and binary objects.
 
 
-## -syntax
-
-
-````
-PVOID RouterAllocBidiMem(
-  _In_ size_t NumBytes
-);
-````
-
-
 ## -parameters
 
 
@@ -86,23 +76,22 @@ Specifies the size, in bytes, of the block of memory to be allocated.
 
 
 
-When the memory allocated by this function is no longer needed, it can be returned by a call to <a href="..\winsplp\nf-winsplp-routerfreebidimem.md">RouterFreeBidiMem</a>.
+When the memory allocated by this function is no longer needed, it can be returned by a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff562012">RouterFreeBidiMem</a>.
 
 
 
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562012">RouterFreeBidiMem</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff562071">SendRecvBidiDataFromPort</a>
-
-
-
-<a href="..\winsplp\nf-winsplp-routerfreebidimem.md">RouterFreeBidiMem</a>
-
-
-
  
 
  
-
 

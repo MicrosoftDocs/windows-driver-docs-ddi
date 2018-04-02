@@ -53,20 +53,6 @@ req.product: Windows 10 or later.
 The <b>wiasSetValidListStr </b>function sets the valid values for a WIA_PROP_LIST property of type VT_BSTR.
 
 
-## -syntax
-
-
-````
-HRESULT _stdcall wiasSetValidListStr(
-  _In_ BYTE   *pWiasContext,
-       PROPID propid,
-       ULONG  ulCount,
-       BSTR   bstrNom,
-  _In_ BSTR   *pbstrValues
-);
-````
-
-
 ## -parameters
 
 
@@ -115,32 +101,31 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
 ## -see-also
 
-<a href="..\wiamdef\nf-wiamdef-wiassetvalidrangefloat.md">wiasSetValidRangeFloat</a>
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiassetvalidlistfloat.md">wiasSetValidListFloat</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549390">wiasSetValidFlag</a>
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiassetvalidrangelong.md">wiasSetValidRangeLong</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549399">wiasSetValidListFloat</a>
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiassetvalidlistlong.md">wiasSetValidListLong</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549409">wiasSetValidListGuid</a>
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiassetvalidflag.md">wiasSetValidFlag</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549414">wiasSetValidListLong</a>
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiassetvalidlistguid.md">wiasSetValidListGuid</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549425">wiasSetValidRangeFloat</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549434">wiasSetValidRangeLong</a>
  
 
  
-
 

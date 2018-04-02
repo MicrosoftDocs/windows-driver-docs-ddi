@@ -7,7 +7,7 @@ old-location: netvista\vmbchannelrestorefrombuffer.htm
 old-project: netvista
 ms.assetid: 5A063585-AC45-44DF-BE21-FA1BB6283E6F
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: VmbChannelRestoreFromBuffer, VmbChannelRestoreFromBuffer function [Network Drivers Starting with Windows Vista], netvista.vmbchannelrestorefrombuffer, vmbuskernelmodeclientlibapi/VmbChannelRestoreFromBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -54,18 +54,6 @@ req.product: Windows 10 or later.
 
 The <b>VmbChannelRestoreFromBuffer</b>  function restores the client state from previously saved state.
 The driver must check the return value of the function.
-
-
-## -syntax
-
-
-````
-NTSTATUS VmbChannelRestoreFromBuffer(
-  _In_ VMBCHANNEL                        Channel,
-  _In_ reads_bytes_(BufferSize)    PVOID Buffer,
-  _In_ ULONG                             BufferSize
-);
-````
 
 
 ## -parameters

@@ -7,7 +7,7 @@ old-location: ifsk\fsrtllogccflusherror.htm
 old-project: ifsk
 ms.assetid: e516758d-d1fe-4977-93bb-f427972fdd3c
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FsRtlLogCcFlushError, FsRtlLogCcFlushError routine [Installable File System Drivers], fsrtlref_5e72d84c-d788-4b6d-b5fe-3e9b06b0e074.xml, ifsk.fsrtllogccflusherror, ntifs/FsRtlLogCcFlushError
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,20 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>FsRtlLogCcFlushError</b> routine logs a lost delayed-write error and displays a dialog box to the user.
 
 
-## -syntax
-
-
-````
-NTSTATUS FsRtlLogCcFlushError(
-  _In_ PUNICODE_STRING          FileName,
-  _In_ PDEVICE_OBJECT           DeviceObject,
-  _In_ PSECTION_OBJECT_POINTERS SectionObjectPointer,
-  _In_ NTSTATUS                 FlushError,
-  _In_ ULONG                    Flags
-);
-````
-
-
 ## -parameters
 
 
@@ -88,7 +74,7 @@ A pointer to the section object for the file on which the flush failed.
 
 ### -param FlushError [in]
 
-The error returned by the call to <a href="..\ntifs\nf-ntifs-ccflushcache.md">CcFlushCache</a>.
+The error returned by the call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff539082">CcFlushCache</a>.
 
 
 ### -param Flags [in]
@@ -137,7 +123,7 @@ The <b>FsRtlLogCcFlushError</b> routine returns STATUS_SUCCESS on success or ano
 
 
 
-Unless the call includes appropriate <i>Flags</i>, the <b>FsRtlLogCcFlushError</b> routine uses <a href="..\ntddk\nf-ntddk-ioraiseinformationalharderror.md">IoRaiseInformationalHardError</a> to display a dialog box to the user, including the specific error and <i>FileName</i>, and uses <a href="..\wdm\nf-wdm-iowriteerrorlogentry.md">IoWriteErrorLogEntry</a> logs the error. 
+Unless the call includes appropriate <i>Flags</i>, the <b>FsRtlLogCcFlushError</b> routine uses <a href="https://msdn.microsoft.com/library/windows/hardware/ff549488">IoRaiseInformationalHardError</a> to display a dialog box to the user, including the specific error and <i>FileName</i>, and uses <a href="https://msdn.microsoft.com/library/windows/hardware/ff550527">IoWriteErrorLogEntry</a> logs the error. 
 
 If the entire <i>FileName</i> cannot fit within the log buffer, the routine inserts an ellipsis into the file name.
 
@@ -150,20 +136,19 @@ If the error is fatal, the routine increments the lost delayed write counter in 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iowriteerrorlogentry.md">IoWriteErrorLogEntry</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-ccflushcache.md">CcFlushCache</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539082">CcFlushCache</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-ioraiseinformationalharderror.md">IoRaiseInformationalHardError</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549488">IoRaiseInformationalHardError</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550527">IoWriteErrorLogEntry</a>
  
 
  
-
 

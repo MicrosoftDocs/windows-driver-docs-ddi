@@ -7,7 +7,7 @@ old-location: dtf\iwdtfdriverpackageaction2_isdigitalsigned.htm
 old-project: dtf
 ms.assetid: 421682aa-2e21-4650-bae0-f47e6beff632
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/29/2018
 ms.keywords: IWDTFDriverPackageAction2, IWDTFDriverPackageAction2 interface [Windows Device Testing Framework], IsDigitalSigned property, IWDTFDriverPackageAction2.IsDigitalSigned, IWDTFDriverPackageAction2::get_IsDigitalSigned, IsDigitalSigned property [Windows Device Testing Framework], IsDigitalSigned property [Windows Device Testing Framework], IWDTFDriverPackageAction2 interface, Microsoft.WDTF.IWDTFDriverPackageAction2.IsDigitalSigned, Microsoft::WDTF::IWDTFDriverPackageAction2::IsDigitalSigned, dtf.iwdtfdriverpackageaction2_isdigitalsigned, get_IsDigitalSigned,IWDTFDriverPackageAction2.get_IsDigitalSigned, wdtfdriverpackageaction/IWDTFDriverPackageAction2::IsDigitalSigned, wdtfdriverpackageaction/IWDTFDriverPackageAction2::get_IsDigitalSigned
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -56,27 +56,16 @@ Gets a value that indicates whether the driver package is signed.
 This property is read-only.
 
 
-## -syntax
-
-
-````
-HRESULT get_IsDigitalSigned(
-  [out, retval] VARIANT_BOOL *pbVal
-);
-````
-
-
 ## -parameters
 
 
 ## -see-also
 
-<a href="..\wdtfdriverpackageaction\nn-wdtfdriverpackageaction-iwdtfdriverpackageaction2.md">IWDTFDriverPackageAction2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406427">IWDTFDriverPackageAction2</a>
  
 
  
-
 

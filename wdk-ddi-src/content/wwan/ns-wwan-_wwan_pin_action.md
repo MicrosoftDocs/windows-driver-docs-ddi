@@ -7,7 +7,7 @@ old-location: netvista\wwan_pin_action.htm
 old-project: netvista
 ms.assetid: 4edd0bc1-cd50-460b-92e1-7b2440ae3861
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PWWAN_PIN_ACTION, PWWAN_PIN_ACTION, PWWAN_PIN_ACTION structure pointer [Network Drivers Starting with Windows Vista], WWAN_PIN_ACTION, WWAN_PIN_ACTION structure [Network Drivers Starting with Windows Vista], WwanRef_831c483c-8839-43a4-870d-f63ea3f78b61.xml, _WWAN_PIN_ACTION, netvista.wwan_pin_action, wwan/PWWAN_PIN_ACTION, wwan/WWAN_PIN_ACTION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,19 +52,6 @@ req.product: Windows 10 or later.
 
 The WWAN_PIN_ACTION structure represents actions to perform with a Personal Identification Number
   (PIN).
-
-
-## -syntax
-
-
-````
-typedef struct _WWAN_PIN_ACTION {
-  WWAN_PIN_TYPE      PinType;
-  WWAN_PIN_OPERATION PinOperation;
-  WCHAR              Pin[WWAN_PIN_LEN];
-  WCHAR              NewPin[WWAN_PIN_LEN];
-} WWAN_PIN_ACTION, *PWWAN_PIN_ACTION;
-````
 
 
 ## -struct-fields
@@ -120,20 +107,19 @@ When
 
 ## -see-also
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_set_pin.md">NDIS_WWAN_SET_PIN</a>
 
 
 
-<a href="..\wwan\ne-wwan-_wwan_pin_type.md">WWAN_PIN_TYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567922">NDIS_WWAN_SET_PIN</a>
 
 
 
-<a href="..\wwan\ne-wwan-_wwan_pin_operation.md">WWAN_PIN_OPERATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571219">WWAN_PIN_OPERATION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571221">WWAN_PIN_TYPE</a>
  
 
  
-
 

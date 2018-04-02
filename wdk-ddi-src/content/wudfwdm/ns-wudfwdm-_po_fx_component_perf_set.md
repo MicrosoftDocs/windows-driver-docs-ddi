@@ -7,7 +7,7 @@ old-location: kernel\po_fx_component_perf_set.htm
 old-project: kernel
 ms.assetid: 2305BE73-8363-4534-A64D-06C91F636E2F
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 2/24/2018
 ms.keywords: "*PPO_FX_COMPONENT_PERF_SET, PO_FX_COMPONENT_PERF_SET, PO_FX_COMPONENT_PERF_SET structure [Kernel-Mode Driver Architecture], PPO_FX_COMPONENT_PERF_SET, PPO_FX_COMPONENT_PERF_SET structure pointer [Kernel-Mode Driver Architecture], _PO_FX_COMPONENT_PERF_SET, kernel.po_fx_component_perf_set, wdm/PO_FX_COMPONENT_PERF_SET, wdm/PPO_FX_COMPONENT_PERF_SET"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -144,11 +144,11 @@ Most drivers are expected to define a single set of performance states per compo
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_po_fx_component_perf_info.md">PO_FX_COMPONENT_PERF_INFO</a>
-
-
-
 <a href="https://msdn.microsoft.com/D5341D6D-7C71-43CB-9C70-7E939B32C33F">Device Performance State Management</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_po_fx_component_perf_info.md">PO_FX_COMPONENT_PERF_INFO</a>
 
 
 
@@ -160,4 +160,5 @@ Most drivers are expected to define a single set of performance states per compo
 
  
 
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PO_FX_COMPONENT_PERF_SET structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

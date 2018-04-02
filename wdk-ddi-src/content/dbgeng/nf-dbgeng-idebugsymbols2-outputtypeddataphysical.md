@@ -7,7 +7,7 @@ old-location: debugger\outputtypeddataphysical.htm
 old-project: debugger
 ms.assetid: 0c2ae1ff-bbf1-462f-b9ab-49f74cf12fae
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: IDebugSymbols interface [Windows Debugging], OutputTypedDataPhysical method, IDebugSymbols2, IDebugSymbols2 interface [Windows Debugging], OutputTypedDataPhysical method, IDebugSymbols2::OutputTypedDataPhysical, IDebugSymbols3 interface [Windows Debugging], OutputTypedDataPhysical method, IDebugSymbols3::OutputTypedDataPhysical, IDebugSymbols::OutputTypedDataPhysical, IDebugSymbols_35ce4485-6c19-44fd-8382-011b0e620f48.xml, OutputTypedDataPhysical method [Windows Debugging], OutputTypedDataPhysical method [Windows Debugging], IDebugSymbols interface, OutputTypedDataPhysical method [Windows Debugging], IDebugSymbols2 interface, OutputTypedDataPhysical method [Windows Debugging], IDebugSymbols3 interface, OutputTypedDataPhysical,IDebugSymbols2.OutputTypedDataPhysical, dbgeng/IDebugSymbols2::OutputTypedDataPhysical, dbgeng/IDebugSymbols3::OutputTypedDataPhysical, dbgeng/IDebugSymbols::OutputTypedDataPhysical, debugger.outputtypeddataphysical
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,20 +52,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>OutputTypedDataPhysical</b> method formats the contents of a variable in the target computer's physical memory, and then sends this to the <a href="https://msdn.microsoft.com/7a23ee09-0314-400a-8152-eef49a225427">output callbacks</a>.
-
-
-## -syntax
-
-
-````
-HRESULT OutputTypedDataPhysical(
-  [in] ULONG   OutputControl,
-  [in] ULONG64 Offset,
-  [in] ULONG64 Module,
-  [in] ULONG   TypeId,
-  [in] ULONG   Flags
-);
-````
 
 
 ## -parameters

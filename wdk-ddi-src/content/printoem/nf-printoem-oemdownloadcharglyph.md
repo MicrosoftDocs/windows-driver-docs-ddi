@@ -52,19 +52,6 @@ req.product: Windows 10 or later.
 
 
 
-## -syntax
-
-
-````
-DWORD APIENTRY OEMDownloadCharGlyph(
-        PDEVOBJ     pdevobj,
-        PUNIFONTOBJ pUFObj,
-        HGLYPH      hGlyph,
-  _Out_ PDWORD      pdwWidth
-);
-````
-
-
 ## -parameters
 
 

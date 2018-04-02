@@ -7,7 +7,7 @@ old-location: kernel\ioiswdmversionavailable.htm
 old-project: kernel
 ms.assetid: 80b72de0-02a6-4891-b74a-c41cb14fa629
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: IoIsWdmVersionAvailable, IoIsWdmVersionAvailable routine [Kernel-Mode Driver Architecture], k104_775d6afa-6edd-4922-bdff-a8fe5d32bc3a.xml, kernel.ioiswdmversionavailable, wdm/IoIsWdmVersionAvailable
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The <b>IoIsWdmVersionAvailable</b> routine checks whether a given WDM version is supported by the operating system.
 
 
-## -syntax
-
-
-````
-BOOLEAN IoIsWdmVersionAvailable(
-  _In_ UCHAR MajorVersion,
-  _In_ UCHAR MinorVersion
-);
-````
-
-
 ## -parameters
 
 
@@ -92,7 +81,7 @@ Specifies the minor version number of WDM that is requested.
 
 
 
-Drivers should use the <a href="..\wdm\nf-wdm-rtlisntddiversionavailable.md">RtlIsNtDdiVersionAvailable</a> routine instead of the <b>IoIsWdmVersionAvailable</b> routine.
+Drivers should use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561954">RtlIsNtDdiVersionAvailable</a> routine instead of the <b>IoIsWdmVersionAvailable</b> routine.
 
 Cross-platform drivers should use this routine to check the WDM version before performing any operations that vary by platform or are not supported in all versions of WDM.
 
@@ -283,12 +272,11 @@ As the example shows, calling <b>IoIsWdmVersionAvailable</b>(1, 5) returns <b>TR
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlisntddiversionavailable.md">RtlIsNtDdiVersionAvailable</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561954">RtlIsNtDdiVersionAvailable</a>
  
 
  
-
 

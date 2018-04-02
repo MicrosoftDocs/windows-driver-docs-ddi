@@ -7,7 +7,7 @@ old-location: kernel\rtlcopystring.htm
 old-project: kernel
 ms.assetid: 5295be15-b42e-4e5b-8257-434fb9ed6c83
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: RtlCopyString, RtlCopyString routine [Kernel-Mode Driver Architecture], k109_c68983f1-ec02-405f-a3a6-d1f3884fe303.xml, kernel.rtlcopystring, ntddk/RtlCopyString
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,17 +52,6 @@ req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 The <b>RtlCopyString</b> routine copies a source string to a destination string.
 
 
-## -syntax
-
-
-````
-VOID RtlCopyString(
-  _Out_          PSTRING DestinationString,
-  _In_opt_ const STRING  *SourceString
-);
-````
-
-
 ## -parameters
 
 
@@ -102,12 +91,11 @@ The <i>DestinationString</i> and <i>SourceString</i> buffers must be resident if
 
 ## -see-also
 
-<a href="..\wudfwdm\nf-wudfwdm-rtlcopyunicodestring.md">RtlCopyUnicodeString</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561817">RtlCopyUnicodeString</a>
  
 
  
-
 

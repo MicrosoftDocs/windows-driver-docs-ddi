@@ -7,7 +7,7 @@ old-location: display\dxgk_deviceinfoflags.htm
 old-project: display
 ms.assetid: 26d0aad9-86d0-4d97-978a-1e15285d3369
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGK_DEVICEINFOFLAGS, DXGK_DEVICEINFOFLAGS structure [Display Devices], DmStructs_69e769da-b68e-4df6-94dd-95e11bc88b0c.xml, _DXGK_DEVICEINFOFLAGS, d3dkmddi/DXGK_DEVICEINFOFLAGS, display.dxgk_deviceinfoflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,22 +52,6 @@ req.typenames: DXGK_DEVICEINFOFLAGS
 The DXGK_DEVICEINFOFLAGS structure identifies, in bit-field flags, information about a graphics device.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGK_DEVICEINFOFLAGS {
-  union {
-    struct {
-      UINT GuaranteedDmaBufferContract  :1;
-      UINT Reserved  :31;
-    };
-    UINT Value;
-  };
-} DXGK_DEVICEINFOFLAGS;
-````
-
-
 ## -struct-fields
 
 
@@ -75,7 +59,7 @@ typedef struct _DXGK_DEVICEINFOFLAGS {
 
 ### -field GuaranteedDmaBufferContract
 
-[out] Obsolete. A UINT value that specifies whether the device that is created through a call to <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createdevice.md">DxgkDdiCreateDevice</a> uses the guaranteed contract model for direct memory access (DMA) buffers. For more information about the guaranteed contract model, see <a href="https://msdn.microsoft.com/fee6f7eb-157b-466d-b482-110a48045283">Using the Guaranteed Contract DMA Buffer Model</a>. If this member is set, the device uses the guaranteed contract model; if this member is not set, the device does not use the guaranteed contract model. The display driver model for Windows Vista currently supports only the guaranteed contract DMA buffer model. 
+[out] Obsolete. A UINT value that specifies whether the device that is created through a call to <a href="https://msdn.microsoft.com/a7027735-0ec4-4fad-81fb-1c3aca4ebf2d">DxgkDdiCreateDevice</a> uses the guaranteed contract model for direct memory access (DMA) buffers. For more information about the guaranteed contract model, see <a href="https://msdn.microsoft.com/fee6f7eb-157b-466d-b482-110a48045283">Using the Guaranteed Contract DMA Buffer Model</a>. If this member is set, the device uses the guaranteed contract model; if this member is not set, the device does not use the guaranteed contract model. The display driver model for Windows Vista currently supports only the guaranteed contract DMA buffer model. 
 
 Setting this member is equivalent to setting the first bit of the 32-bit <b>Value</b> member (0x00000001).
 
@@ -92,16 +76,15 @@ Setting this member is equivalent to setting the first bit of the 32-bit <b>Valu
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createdevice.md">DxgkDdiCreateDevice</a>
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_deviceinfo.md">DXGK_DEVICEINFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561047">DXGK_DEVICEINFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/a7027735-0ec4-4fad-81fb-1c3aca4ebf2d">DxgkDdiCreateDevice</a>
  
 
  
-
 

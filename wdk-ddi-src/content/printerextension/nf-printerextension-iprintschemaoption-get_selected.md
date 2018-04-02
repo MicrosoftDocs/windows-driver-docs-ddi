@@ -56,27 +56,16 @@ Indicates whether this option is selected.
 This property is read-only.
 
 
-## -syntax
-
-
-````
-HRESULT get_Selected(
-  [out, retval] BOOL *pbIsSelected
-);
-````
-
-
 ## -parameters
 
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintschemaoption.md">IPrintSchemaOption</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451335">IPrintSchemaOption</a>
  
 
  
-
 

@@ -52,17 +52,6 @@ req.typenames: PID_MAP
 The PID_MAP structure describes a group of packets in the output stream of a packet identifier (PID) filter. This group consists of packets that are identified with an identical PID and contain particular media content. 
 
 
-## -syntax
-
-
-````
-typedef struct {
-  ULONG                ulPID;
-  MEDIA_SAMPLE_CONTENT MediaSampleContent;
-} PID_MAP;
-````
-
-
 ## -struct-fields
 
 
@@ -80,11 +69,10 @@ MEDIA_SAMPLE_CONTENT enumerated type value that specifies the type of media cont
 
 ## -see-also
 
-<a href="..\bdatypes\ns-bdatypes-_bda_pid_map.md">BDA_PID_MAP</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567719">MEDIA_SAMPLE_CONTENT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556534">BDA_PID_MAP</a>
 
 
 
@@ -92,8 +80,8 @@ MEDIA_SAMPLE_CONTENT enumerated type value that specifies the type of media cont
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567719">MEDIA_SAMPLE_CONTENT</a>
  
 
  
-
 

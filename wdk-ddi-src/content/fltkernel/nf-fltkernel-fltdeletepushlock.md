@@ -7,7 +7,7 @@ old-location: ifsk\fltdeletepushlock.htm
 old-project: ifsk
 ms.assetid: 93b4914c-53a1-4594-ac8d-4be1b0c9e4d7
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FltApiRef_a_to_d_876710d9-ee11-413f-8889-f9a34cb423fd.xml, FltDeletePushLock, FltDeletePushLock routine [Installable File System Drivers], fltkernel/FltDeletePushLock, ifsk.fltdeletepushlock
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,16 +53,6 @@ req.typenames: EXpsFontRestriction
 The <b>FltDeletePushLock</b> routine deletes a given push lock. 
 
 
-## -syntax
-
-
-````
-VOID FltDeletePushLock(
-  _In_ PEX_PUSH_LOCK PushLock
-);
-````
-
-
 ## -parameters
 
 
@@ -70,7 +60,7 @@ VOID FltDeletePushLock(
 
 ### -param PushLock [in]
 
-Opaque push lock pointer. This pointer must have been initialized by a previous call to <a href="..\fltkernel\nf-fltkernel-fltinitializepushlock.md">FltInitializePushLock</a>. 
+Opaque push lock pointer. This pointer must have been initialized by a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff543297">FltInitializePushLock</a>. 
 
 
 ## -returns
@@ -90,39 +80,38 @@ This routine is available on Microsoft Windows XP SP2, Microsoft Windows Server 
 
 After calling <b>FltDeletePushLock</b>, the caller can free the memory that it allocated for the push lock. 
 
-For more information about push locks, see the reference entry for <a href="..\fltkernel\nf-fltkernel-fltinitializepushlock.md">FltInitializePushLock</a>. 
+For more information about push locks, see the reference entry for <a href="https://msdn.microsoft.com/library/windows/hardware/ff543297">FltInitializePushLock</a>. 
 
-To acquire a push lock for exclusive access, call <a href="..\fltkernel\nf-fltkernel-fltacquirepushlockexclusive.md">FltAcquirePushLockExclusive</a>. 
+To acquire a push lock for exclusive access, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff541667">FltAcquirePushLockExclusive</a>. 
 
-To acquire a push lock for shared access, call <a href="..\fltkernel\nf-fltkernel-fltacquirepushlockshared.md">FltAcquirePushLockShared</a>. 
+To acquire a push lock for shared access, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff541672">FltAcquirePushLockShared</a>. 
 
-To release a push lock, call <a href="..\fltkernel\nf-fltkernel-fltreleasepushlock.md">FltReleasePushLock</a>. 
+To release a push lock, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff544326">FltReleasePushLock</a>. 
 
-To initialize a push lock, call <a href="..\fltkernel\nf-fltkernel-fltinitializepushlock.md">FltInitializePushLock</a>. 
+To initialize a push lock, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff543297">FltInitializePushLock</a>. 
 
 
 
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltacquirepushlockshared.md">FltAcquirePushLockShared</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltacquirepushlockexclusive.md">FltAcquirePushLockExclusive</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541667">FltAcquirePushLockExclusive</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltinitializepushlock.md">FltInitializePushLock</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541672">FltAcquirePushLockShared</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltreleasepushlock.md">FltReleasePushLock</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543297">FltInitializePushLock</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544326">FltReleasePushLock</a>
  
 
  
-
 

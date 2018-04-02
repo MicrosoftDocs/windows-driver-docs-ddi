@@ -49,24 +49,7 @@ req.typenames: WHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS, *PWHEA_XPF_PROCESSOR_
 ## -description
 
 
-The WHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS union describes which members of a <a href="..\ntddk\ns-ntddk-_whea_xpf_processor_error_section.md">WHEA_XPF_PROCESSOR_ERROR_SECTION</a> structure contain valid data and the number of structures that are contained in the WHEA_XPF_PROCESSOR_ERROR_SECTION structure's <b>VariableInfo</b> member.
-
-
-## -syntax
-
-
-````
-typedef union _WHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS {
-  struct {
-    ULONGLONG LocalAPICId  :1;
-    ULONGLONG CpuId  :1;
-    ULONGLONG ProcInfoCount  :6;
-    ULONGLONG ContextInfoCount  :6;
-    ULONGLONG Reserved  :50;
-  };
-  ULONGLONG ValidBits;
-} WHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS, *PWHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS;
-````
+The WHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS union describes which members of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff560655">WHEA_XPF_PROCESSOR_ERROR_SECTION</a> structure contain valid data and the number of structures that are contained in the WHEA_XPF_PROCESSOR_ERROR_SECTION structure's <b>VariableInfo</b> member.
 
 
 ## -struct-fields
@@ -86,7 +69,7 @@ A ULONGLONG representation of the contents of the WHEA_XPF_PROCESSOR_ERROR_SECTI
 
 #### - ContextInfoCount
 
-The number of <a href="..\ntddk\ns-ntddk-_whea_xpf_context_info.md">WHEA_XPF_CONTEXT_INFO</a> structures that are contained in the WHEA_XPF_PROCESSOR_ERROR_SECTION structure's <b>VariableInfo</b> member.
+The number of <a href="https://msdn.microsoft.com/library/windows/hardware/ff560647">WHEA_XPF_CONTEXT_INFO</a> structures that are contained in the WHEA_XPF_PROCESSOR_ERROR_SECTION structure's <b>VariableInfo</b> member.
 
 
 #### - CpuId
@@ -101,7 +84,7 @@ A single bit that indicates that the <b>LocalAPICId</b> member of the WHEA_XPF_P
 
 #### - ProcInfoCount
 
-The number of <a href="..\ntddk\ns-ntddk-_whea_xpf_procinfo.md">WHEA_XPF_PROCINFO</a> structures that are contained in the WHEA_XPF_PROCESSOR_ERROR_SECTION structure's <b>VariableInfo</b> member.
+The number of <a href="https://msdn.microsoft.com/library/windows/hardware/ff560661">WHEA_XPF_PROCINFO</a> structures that are contained in the WHEA_XPF_PROCESSOR_ERROR_SECTION structure's <b>VariableInfo</b> member.
 
 
 #### - Reserved
@@ -113,27 +96,26 @@ Reserved for system use.
 
 
 
-A WHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS union is contained within the <a href="..\ntddk\ns-ntddk-_whea_xpf_processor_error_section.md">WHEA_XPF_PROCESSOR_ERROR_SECTION</a> structure.
+A WHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS union is contained within the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560655">WHEA_XPF_PROCESSOR_ERROR_SECTION</a> structure.
 
 
 
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_whea_xpf_context_info.md">WHEA_XPF_CONTEXT_INFO</a>
 
 
 
-<a href="..\ntddk\ns-ntddk-_whea_xpf_processor_error_section.md">WHEA_XPF_PROCESSOR_ERROR_SECTION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560647">WHEA_XPF_CONTEXT_INFO</a>
 
 
 
-<a href="..\ntddk\ns-ntddk-_whea_xpf_procinfo.md">WHEA_XPF_PROCINFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560655">WHEA_XPF_PROCESSOR_ERROR_SECTION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560661">WHEA_XPF_PROCINFO</a>
  
 
  
-
 

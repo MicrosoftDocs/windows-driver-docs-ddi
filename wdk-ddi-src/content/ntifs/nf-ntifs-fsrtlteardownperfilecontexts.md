@@ -7,7 +7,7 @@ old-location: ifsk\fsrtlteardownperfilecontexts.htm
 old-project: ifsk
 ms.assetid: c124c5a4-5187-4474-8896-28c729bc7d07
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FsRtlTeardownPerFileContexts, FsRtlTeardownPerFileContexts routine [Installable File System Drivers], fsrtlref_3bd1af9f-ebc1-4cf8-9c7d-415f4bc64eb4.xml, ifsk.fsrtlteardownperfilecontexts, ntifs/FsRtlTeardownPerFileContexts
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,17 +49,7 @@ req.typenames: TOKEN_TYPE
 ## -description
 
 
-File systems call the<b>FsRtlTeardownPerFileContexts</b> routine to free <a href="..\ntifs\ns-ntifs-_fsrtl_per_file_context.md">FSRTL_PER_FILE_CONTEXT</a> objects that are associated with a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/the-fcb-structure">file control block (FCB)</a> structure.
-
-
-## -syntax
-
-
-````
-VOID FsRtlTeardownPerFileContexts(
-  _In_ PVOID *PerFileContextPointer
-);
-````
+File systems call the<b>FsRtlTeardownPerFileContexts</b> routine to free <a href="https://msdn.microsoft.com/library/windows/hardware/ff547352">FSRTL_PER_FILE_CONTEXT</a> objects that are associated with a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/the-fcb-structure">file control block (FCB)</a> structure.
 
 
 ## -parameters
@@ -85,29 +75,28 @@ None
 
 
 
-This routine calls the <i>FreeCallback</i> routine specified in the <a href="..\ntifs\ns-ntifs-_fsrtl_per_file_context.md">FSRTL_PER_FILE_CONTEXT</a> object. The <i>FreeCallback</i> routine has to deallocate the <b>FSRTL_PER_FILE_CONTEXT</b> structure and the associated context.
+This routine calls the <i>FreeCallback</i> routine specified in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547352">FSRTL_PER_FILE_CONTEXT</a> object. The <i>FreeCallback</i> routine has to deallocate the <b>FSRTL_PER_FILE_CONTEXT</b> structure and the associated context.
 
-To avoid conflicts in synchronization, the <b>FsRtlTeardownPerFileContexts</b> routine releases the lock for the per file context objects before calling <i>FreeCallback</i>. This avoids blocking access to the to the per file context objects by the filter for its own list operations, such as removal with <a href="..\ntifs\nf-ntifs-fsrtlremoveperfilecontext.md">FsRtlRemovePerFileContext</a>.
+To avoid conflicts in synchronization, the <b>FsRtlTeardownPerFileContexts</b> routine releases the lock for the per file context objects before calling <i>FreeCallback</i>. This avoids blocking access to the to the per file context objects by the filter for its own list operations, such as removal with <a href="https://msdn.microsoft.com/library/windows/hardware/ff547226">FsRtlRemovePerFileContext</a>.
 
 
 
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547352">FSRTL_PER_FILE_CONTEXT</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551123">PFREE_FUNCTION</a>
 
 
 
 <a href="https://msdn.microsoft.com/6be3ff10-47e4-47f5-8f15-88a80a16f451">Tracking Per-File Context in a Legacy File System Filter Driver</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_fsrtl_per_file_context.md">FSRTL_PER_FILE_CONTEXT</a>
-
-
-
  
 
  
-
 

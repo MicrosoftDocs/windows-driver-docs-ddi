@@ -7,7 +7,7 @@ old-location: storage\feature_data_cd_read.htm
 old-project: storage
 ms.assetid: 55d63dcc-7728-4982-ad1c-e1ca40cc941e
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PFEATURE_DATA_CD_READ, FEATURE_DATA_CD_READ, FEATURE_DATA_CD_READ structure [Storage Devices], PFEATURE_DATA_CD_READ, PFEATURE_DATA_CD_READ structure pointer [Storage Devices], _FEATURE_DATA_CD_READ, ntddmmc/FEATURE_DATA_CD_READ, ntddmmc/PFEATURE_DATA_CD_READ, storage.feature_data_cd_read, structs-CD-ROM_8b31a56d-f370-4b85-8f37-a88041276a20.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,21 +52,6 @@ req.typenames: FEATURE_DATA_CD_READ, *PFEATURE_DATA_CD_READ
 The FEATURE_DATA_CD_READ structure contains information about the CD Read feature.
 
 
-## -syntax
-
-
-````
-typedef struct _FEATURE_DATA_CD_READ {
-  FEATURE_HEADER Header;
-  UCHAR          CDText  :1;
-  UCHAR          C2ErrorData  :1;
-  UCHAR          Reserved01  :5;
-  UCHAR          DigitalAudioPlay  :1;
-  UCHAR          Reserved2[3];
-} FEATURE_DATA_CD_READ, *PFEATURE_DATA_CD_READ;
-````
-
-
 ## -struct-fields
 
 
@@ -74,7 +59,7 @@ typedef struct _FEATURE_DATA_CD_READ {
 
 ### -field Header
 
-Contains a <a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a> structure with header information for this feature descriptor. 
+Contains a <a href="https://msdn.microsoft.com/library/windows/hardware/ff553848">FEATURE_HEADER</a> structure with header information for this feature descriptor. 
 
 
 ### -field CDText
@@ -109,16 +94,15 @@ This structure holds data for the feature named "CD Read" by the <i>MMC-3 </i>sp
 
 ## -see-also
 
-<a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
 
 
 
-<a href="..\ntddmmc\ne-ntddmmc-_feature_number.md">FEATURE_NUMBER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553848">FEATURE_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553850">FEATURE_NUMBER</a>
  
 
  
-
 

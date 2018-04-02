@@ -7,7 +7,7 @@ old-location: display\hwvidqueryinterface.htm
 old-project: display
 ms.assetid: f16a7fa3-3471-4ccb-b1b4-982d33f930d3
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: HwVidQueryInterface, HwVidQueryInterface callback function [Display Devices], PVIDEO_HW_QUERY_INTERFACE, VideoMiniport_Functions_69dec180-d966-4082-b050-0ed2e0e03121.xml, display.hwvidqueryinterface, video/HwVidQueryInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,20 +53,6 @@ req.product: Windows 10 or later.
 <i>HwVidQueryInterface</i> returns a miniport driver-implemented functional interface that a child device can call.
 
 
-## -prototype
-
-
-````
-PVIDEO_HW_QUERY_INTERFACE HwVidQueryInterface;
-
-VP_STATUS HwVidQueryInterface(
-   PVOID            HwDeviceExtension,
-   PQUERY_INTERFACE QueryInterface
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -79,7 +65,7 @@ Pointer to the miniport driver's per-adapter storage area. For more information,
 
 ### -param QueryInterface
 
-Pointer to a <a href="..\video\ns-video-_query_interface.md">QUERY_INTERFACE</a> structure in which the miniport driver should return information about the interface it supports.
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569225">QUERY_INTERFACE</a> structure in which the miniport driver should return information about the interface it supports.
 
 
 ## -returns
@@ -99,7 +85,7 @@ Pointer to a <a href="..\video\ns-video-_query_interface.md">QUERY_INTERFACE</a>
 
 The video port calls <i>HwVidQueryInterface</i> when it receives an IRP_MN_QUERY_INTERFACE request. If the miniport driver fails the call, the video port driver passes the request to the parent of the miniport driver's device.
 
-<i>HwVidQueryInterface</i> should fill in the members of the <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a> structure to which <i>QueryInterface</i>-&gt;<b>Interface</b> points as follows:
+<i>HwVidQueryInterface</i> should fill in the members of the <a href="https://msdn.microsoft.com/library/windows/hardware/dn895657">INTERFACE</a> structure to which <i>QueryInterface</i>-&gt;<b>Interface</b> points as follows:
 
 <ul>
 <li>
@@ -127,7 +113,7 @@ A miniport driver that returns an interface is responsible for referencing the i
 
 The driver of a child device can call into the miniport driver through the functions exposed by <i>HwVidQueryInterface</i> at any time without the video port driver's knowledge. Consequently, the miniport driver must synchronize access to itself by acquiring and releasing the video port driver-maintained device lock in all of the functions exposed by <i>HwVidQueryInterface</i>.
 
-A child device is enumerated by <a href="..\video\nc-video-pvideo_hw_get_child_descriptor.md">HwVidGetVideoChildDescriptor</a>.
+A child device is enumerated by <a href="https://msdn.microsoft.com/175030c1-95d9-4a3b-976c-16e04852cb91">HwVidGetVideoChildDescriptor</a>.
 
 <i>HwVidQueryInterface</i> should be made pageable.
 
@@ -136,24 +122,23 @@ A child device is enumerated by <a href="..\video\nc-video-pvideo_hw_get_child_d
 
 ## -see-also
 
-<a href="..\video\ns-video-_query_interface.md">QUERY_INTERFACE</a>
 
 
 
-<a href="..\video\nc-video-pvideo_hw_get_child_descriptor.md">HwVidGetVideoChildDescriptor</a>
+<a href="https://msdn.microsoft.com/175030c1-95d9-4a3b-976c-16e04852cb91">HwVidGetVideoChildDescriptor</a>
 
 
 
-<a href="..\video\nf-video-videoportreleasedevicelock.md">VideoPortReleaseDeviceLock</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569225">QUERY_INTERFACE</a>
 
 
 
-<a href="..\video\nf-video-videoportacquiredevicelock.md">VideoPortAcquireDeviceLock</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570174">VideoPortAcquireDeviceLock</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570356">VideoPortReleaseDeviceLock</a>
  
 
  
-
 

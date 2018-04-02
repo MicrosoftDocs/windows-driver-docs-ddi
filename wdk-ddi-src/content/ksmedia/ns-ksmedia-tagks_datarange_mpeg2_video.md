@@ -52,22 +52,6 @@ req.typenames: KS_DATARANGE_MPEG2_VIDEO, *PKS_DATARANGE_MPEG2_VIDEO
 The KS_DATARANGE_MPEG2_VIDEO structure describes the range of MPEG-2 video formats available for a stream.
 
 
-## -syntax
-
-
-````
-typedef struct tagKS_DATARANGE_MPEG2_VIDEO {
-  KSDATARANGE                 DataRange;
-  BOOL                        bFixedSizeSamples;
-  BOOL                        bTemporalCompression;
-  DWORD                       StreamDescriptionFlags;
-  DWORD                       MemoryAllocationFlags;
-  KS_VIDEO_STREAM_CONFIG_CAPS ConfigCaps;
-  KS_MPEGVIDEOINFO2           VideoInfoHeader;
-} KS_DATARANGE_MPEG2_VIDEO, *PKS_DATARANGE_MPEG2_VIDEO;
-````
-
-
 ## -struct-fields
 
 
@@ -110,7 +94,6 @@ Specifies the details of the video stream.
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-_ks_video_stream_config_caps.md">KS_VIDEO_STREAM_CONFIG_CAPS</a>
 
 
 
@@ -118,12 +101,12 @@ Specifies the details of the video stream.
 
 
 
-<a href="..\ksmedia\ns-ksmedia-tagks_mpegvideoinfo2.md">KS_MPEGVIDEOINFO2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567667">KS_MPEGVIDEOINFO2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567706">KS_VIDEO_STREAM_CONFIG_CAPS</a>
  
 
  
-
 

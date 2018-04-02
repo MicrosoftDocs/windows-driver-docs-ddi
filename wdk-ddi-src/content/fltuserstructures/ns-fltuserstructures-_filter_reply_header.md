@@ -7,7 +7,7 @@ old-location: ifsk\filter_reply_header.htm
 old-project: ifsk
 ms.assetid: 2765ccb0-3389-4962-8a7d-8080cb3c8806
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: "*PFILTER_REPLY_HEADER, FILTER_REPLY_HEADER, FILTER_REPLY_HEADER structure [Installable File System Drivers], FltSystemStructures_93e9fad2-e89d-40af-8614-c09a51f07e7b.xml, PFILTER_REPLY_HEADER, PFILTER_REPLY_HEADER structure pointer [Installable File System Drivers], _FILTER_REPLY_HEADER, fltuserstructures/FILTER_REPLY_HEADER, fltuserstructures/PFILTER_REPLY_HEADER, ifsk.filter_reply_header"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,17 +52,6 @@ req.typenames: FILTER_REPLY_HEADER, *PFILTER_REPLY_HEADER
 The FILTER_REPLY_HEADER structure contains message reply header information. 
 
 
-## -syntax
-
-
-````
-typedef struct _FILTER_REPLY_HEADER {
-  NTSTATUS  Status;
-  ULONGLONG MessageId;
-} FILTER_REPLY_HEADER, *PFILTER_REPLY_HEADER;
-````
-
-
 ## -struct-fields
 
 
@@ -89,16 +78,15 @@ This structure is allocated by a user-mode application. It is a container for a 
 
 ## -see-also
 
-<a href="..\fltuserstructures\ns-fltuserstructures-_filter_message_header.md">FILTER_MESSAGE_HEADER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541621">FILTER_MESSAGE_HEADER</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff541508">FilterReplyMessage</a>
-
-
-
  
 
  
-
 

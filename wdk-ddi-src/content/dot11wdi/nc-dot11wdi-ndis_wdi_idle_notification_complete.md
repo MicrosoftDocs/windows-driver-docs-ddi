@@ -7,7 +7,7 @@ old-location: netvista\ndiswdiidlenotificationcomplete.htm
 old-project: netvista
 ms.assetid: 22622545-F92E-4FEE-8F5D-64EC792490C7
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NDIS_WDI_IDLE_NOTIFICATION_COMPLETE, NdisWdiIdleNotificationComplete, NdisWdiIdleNotificationComplete callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiIdleNotificationComplete, netvista.ndiswdiidlenotificationcomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,22 +49,9 @@ req.typenames: SYNTH_STATS, *PSYNTH_STATS
 ## -description
 
 
-Miniport drivers call NdisWdiIdleNotificationComplete callback function to complete a pending idle notification for an NDIS selective suspend operation. NDIS begins the operation when it calls the driver's <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_idle_notification.md">MiniportWdiIdleNotification</a> handler function.
+Miniport drivers call NdisWdiIdleNotificationComplete callback function to complete a pending idle notification for an NDIS selective suspend operation. NDIS begins the operation when it calls the driver's <a href="https://msdn.microsoft.com/BA050C7C-A593-469E-9212-B363F2D2A409">MiniportWdiIdleNotification</a> handler function.
 
-This is a control path callback inside <a href="..\dot11wdi\ns-dot11wdi-_ndis_wdi_init_parameters.md">NDIS_WDI_INIT_PARAMETERS</a>.
-
-
-## -prototype
-
-
-````
-NDIS_WDI_IDLE_NOTIFICATION_COMPLETE NdisWdiIdleNotificationComplete;
-
-VOID NdisWdiIdleNotificationComplete(
-  _In_ NDIS_HANDLE MiniportAdapterHandle
-)
-{ ... }
-````
+This is a control path callback inside <a href="https://msdn.microsoft.com/library/windows/hardware/mt297621">NDIS_WDI_INIT_PARAMETERS</a>.
 
 
 ## -parameters
@@ -88,11 +75,6 @@ This callback function does not return a value.
 
 ## -see-also
 
-<a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_idle_notification.md">MiniportWdiIdleNotification</a>
-
-
-
-<a href="..\dot11wdi\ns-dot11wdi-_ndis_wdi_init_parameters.md">NDIS_WDI_INIT_PARAMETERS</a>
 
 
 
@@ -100,8 +82,12 @@ This callback function does not return a value.
 
 
 
+<a href="https://msdn.microsoft.com/BA050C7C-A593-469E-9212-B363F2D2A409">MiniportWdiIdleNotification</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt297621">NDIS_WDI_INIT_PARAMETERS</a>
  
 
  
-
 

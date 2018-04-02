@@ -52,17 +52,6 @@ req.typenames: HID_MINIDRIVER_REGISTRATION, *PHID_MINIDRIVER_REGISTRATION
 The <b>HidD_GetNumInputBuffers</b> routine returns the current size, in number of reports, of the ring buffer that the HID class driver uses to queue input reports from a specified <a href="https://msdn.microsoft.com/dcbee8e3-d03a-45c8-92e4-0897b9f55177">top-level collection</a>.
 
 
-## -syntax
-
-
-````
-BOOLEAN __stdcall HidD_GetNumInputBuffers(
-  _In_  HANDLE HidDeviceObject,
-  _Out_ PULONG NumberBuffers
-);
-````
-
-
 ## -parameters
 
 
@@ -91,7 +80,7 @@ Pointer to a caller-allocated variable that the routine uses to return the maxim
 
 
 
-Only user-mode applications can call <b>HidD_GetNumInputBuffers</b>. Kernel-mode drivers can use the <a href="..\hidclass\ni-hidclass-ioctl_get_num_device_input_buffers.md">IOCTL_GET_NUM_DEVICE_INPUT_BUFFERS</a> request.
+Only user-mode applications can call <b>HidD_GetNumInputBuffers</b>. Kernel-mode drivers can use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541058">IOCTL_GET_NUM_DEVICE_INPUT_BUFFERS</a> request.
 
 For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db-8cff-9fac30209952">HID Collections</a>. 
 
@@ -100,20 +89,19 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
 ## -see-also
 
-<a href="..\hidsdi\nf-hidsdi-hidd_setnuminputbuffers.md">HidD_SetNumInputBuffers</a>
 
 
 
-<a href="..\hidclass\ni-hidclass-ioctl_set_num_device_input_buffers.md">IOCTL_SET_NUM_DEVICE_INPUT_BUFFERS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539686">HidD_SetNumInputBuffers</a>
 
 
 
-<a href="..\hidclass\ni-hidclass-ioctl_get_num_device_input_buffers.md">IOCTL_GET_NUM_DEVICE_INPUT_BUFFERS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541058">IOCTL_GET_NUM_DEVICE_INPUT_BUFFERS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542087">IOCTL_SET_NUM_DEVICE_INPUT_BUFFERS</a>
  
 
  
-
 

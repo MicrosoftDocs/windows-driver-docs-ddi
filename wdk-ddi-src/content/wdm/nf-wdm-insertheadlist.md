@@ -7,7 +7,7 @@ old-location: kernel\insertheadlist.htm
 old-project: kernel
 ms.assetid: c3ad9d93-93e1-406b-9a58-26dcbf428b50
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: InsertHeadList, InsertHeadList routine [Kernel-Mode Driver Architecture], k109_dde56187-8543-45cc-97fd-3fde2475e428.xml, kernel.insertheadlist, wdm/InsertHeadList
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The <b>InsertHeadList</b> routine inserts an entry at the head of a doubly linked list of <a href="https://msdn.microsoft.com/library/windows/hardware/ff554296">LIST_ENTRY</a> structures.
 
 
-## -syntax
-
-
-````
-VOID InsertHeadList(
-  _Inout_ PLIST_ENTRY ListHead,
-  _Inout_ PLIST_ENTRY Entry
-);
-````
-
-
 ## -parameters
 
 
@@ -103,32 +92,31 @@ Callers of <b>InsertHeadList</b> can be running at any IRQL. If <b>InsertHeadLis
 
 ## -see-also
 
-<a href="..\wudfwdm\nf-wudfwdm-islistempty.md">IsListEmpty</a>
 
 
 
-<a href="..\wdm\nf-wdm-exinterlockedinsertheadlist.md">ExInterlockedInsertHeadList</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545397">ExInterlockedInsertHeadList</a>
 
 
 
-<a href="..\wudfwdm\nf-wudfwdm-initializelisthead.md">InitializeListHead</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547799">InitializeListHead</a>
 
 
 
-<a href="..\wudfwdm\nf-wudfwdm-removetaillist.md">RemoveTailList</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547823">InsertTailList</a>
 
 
 
-<a href="..\wudfwdm\nf-wudfwdm-removeheadlist.md">RemoveHeadList</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551789">IsListEmpty</a>
 
 
 
-<a href="..\wudfwdm\nf-wudfwdm-inserttaillist.md">InsertTailList</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561032">RemoveHeadList</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561036">RemoveTailList</a>
  
 
  
-
 

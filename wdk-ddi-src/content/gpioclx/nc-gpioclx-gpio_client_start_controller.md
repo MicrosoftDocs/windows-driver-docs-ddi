@@ -52,21 +52,6 @@ req.typenames: GNSS_V2UPL_NI_INFO, *PGNSS_V2UPL_NI_INFO
 The <i>CLIENT_StartController</i> event callback function performs operations that are needed when the general-purpose I/O (GPIO) controller device enters the D0 power state.
 
 
-## -prototype
-
-
-````
-GPIO_CLIENT_START_CONTROLLER CLIENT_StartController;
-
-NTSTATUS CLIENT_StartController(
-  _In_ PVOID                  Context,
-  _In_ BOOLEAN                RestoreContext,
-  _In_ WDF_POWER_DEVICE_STATE PreviousPowerState
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -84,7 +69,7 @@ Whether the client driver should restore the GPIO controller to a previously sav
 
 ### -param PreviousPowerState [in]
 
-The previous device power state. This parameter is a <a href="..\wdfdevice\ne-wdfdevice-_wdf_power_device_state.md">WDF_POWER_DEVICE_STATE</a> enumeration value that specifies the low-power state from which the device entered the D0 power state. The GPIO controller driver can use this information to determine how to configure the controller device so that it is ready to use.
+The previous device power state. This parameter is a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552421">WDF_POWER_DEVICE_STATE</a> enumeration value that specifies the low-power state from which the device entered the D0 power state. The GPIO controller driver can use this information to determine how to configure the controller device so that it is ready to use.
 
 
 ## -returns
@@ -153,16 +138,15 @@ The GPIO_CLIENT_START_CONTROLLER function type is defined in the Gpioclx.h heade
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439479">GPIO_CLIENT_REGISTRATION_PACKET</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439490">GPIO_CLX_RegisterClient</a>
-
-
-
  
 
  
-
 

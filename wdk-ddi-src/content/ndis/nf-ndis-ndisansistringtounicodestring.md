@@ -7,7 +7,7 @@ old-location: netvista\ndisansistringtounicodestring.htm
 old-project: netvista
 ms.assetid: 8efdcf9f-df8c-4b3b-8b21-11a10a885322
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NdisAnsiStringToUnicodeString, NdisAnsiStringToUnicodeString macro [Network Drivers Starting with Windows Vista], ndis/NdisAnsiStringToUnicodeString, ndis_string_ref_e56d613a-b145-4f9e-bb96-3e4d8ad33538.xml, netvista.ndisansistringtounicodestring
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -55,17 +55,6 @@ The
   string. The translation conforms to the current system locale information.
 
 
-## -syntax
-
-
-````
-NDIS_STATUS NdisAnsiStringToUnicodeString(
-  [in, out] PUNICODE_STRING DestinationString,
-  [in]      PANSI_STRING    SourceString
-);
-````
-
-
 ## -parameters
 
 
@@ -110,11 +99,6 @@ The caller must allocate storage for both the source and destination strings and
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
-
-
-<a href="..\wdm\nf-wdm-rtlunicodestringtoansistring.md">RtlUnicodeStringToAnsiString</a>
 
 
 
@@ -127,20 +111,24 @@ The caller must allocate storage for both the source and destination strings and
 
 
 
-<a href="..\wudfwdm\nf-wudfwdm-rtlinitunicodestring.md">RtlInitUnicodeString</a>
+<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
+<a href="https://msdn.microsoft.com/1958722e-012e-4110-a82c-751744bcf9b5">ProtocolBindAdapterEx</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561934">RtlInitUnicodeString</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562969">RtlUnicodeStringToAnsiString</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
  
 
  
-
 

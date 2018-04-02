@@ -7,7 +7,7 @@ old-location: netvista\vmbchannelgetpointer.htm
 old-project: netvista
 ms.assetid: F3BEE6FB-51C5-4C3C-A831-3B7C06B3C14D
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: VmbChannelGetPointer, VmbChannelGetPointer function [Network Drivers Starting with Windows Vista], netvista.vmbchannelgetpointer, vmbuskernelmodeclientlibapi/VmbChannelGetPointer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,17 +53,7 @@ req.product: Windows 10 or later.
 
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
-The <b>VmbChannelGetPointer</b> function lets a client driver retrieve a pointer that was previously saved by using the  <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbpacketsetpointer.md">VmbPacketSetPointer</a> function.
-
-
-## -syntax
-
-
-````
-PVOID VmbChannelGetPointer(
-  _In_ VMBCHANNEL Channel
-);
-````
+The <b>VmbChannelGetPointer</b> function lets a client driver retrieve a pointer that was previously saved by using the  <a href="https://msdn.microsoft.com/FFEBEBD0-1FF2-4F27-B028-051B117CA325">VmbPacketSetPointer</a> function.
 
 
 ## -parameters
@@ -80,19 +70,18 @@ A handle for a channel.
 
 
 
-The value previously saved by using <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbpacketsetpointer.md">VmbPacketSetPointer</a>.
+The value previously saved by using <a href="https://msdn.microsoft.com/FFEBEBD0-1FF2-4F27-B028-051B117CA325">VmbPacketSetPointer</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbpacketsetpointer.md">VmbPacketSetPointer</a>
 
 
 
+<a href="https://msdn.microsoft.com/FFEBEBD0-1FF2-4F27-B028-051B117CA325">VmbPacketSetPointer</a>
  
 
  
-
 

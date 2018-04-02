@@ -7,7 +7,7 @@ old-location: display\d3dkmtcreateprotectedsession.htm
 old-project: display
 ms.assetid: f6967f07-564b-4730-9950-4703b541165b
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMTCreateProtectedSession, D3DKMTCreateProtectedSession method [Display Devices], d3dkmthk/D3DKMTCreateProtectedSession, display.d3dkmtcreateprotectedsession
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -54,19 +54,14 @@ req.typenames: D3DKMT_DRIVERVERSION
             Used to create a protected session.
 
 
-## -syntax
-
-
-````
-NTSTATUS  D3DKMTCreateProtectedSession(
-  _Inout_ D3DKMT_CREATEPROTECTEDSESSION  D3dkmt_createprotectedsession
-);
-````
-
-
 ## -parameters
 
 
+
+
+### -param Arg1
+
+TBD
 
 
 

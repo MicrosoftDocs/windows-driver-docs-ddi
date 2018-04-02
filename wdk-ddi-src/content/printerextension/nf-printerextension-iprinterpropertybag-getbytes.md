@@ -52,19 +52,7 @@ req.product: Windows 10 or later.
 
 Reads a byte array property.
 
-The <a href="..\printerextension\nn-printerextension-iprinterpropertybag.md">IPrinterPropertyBag</a> interface is used by all the printer property bags, including driver property bag, user property bag, queue property bag, and DEVMODE property bag.
-
-
-## -syntax
-
-
-````
-HRESULT GetBytes(
-  [in]  BSTR  bstrName,
-  [out] DWORD *pcbValue,
-  [out] BYTE  *rgbValue
-);
-````
+The <a href="https://msdn.microsoft.com/library/windows/hardware/hh439547">IPrinterPropertyBag</a> interface is used by all the printer property bags, including driver property bag, user property bag, queue property bag, and DEVMODE property bag.
 
 
 ## -parameters
@@ -105,12 +93,11 @@ This method returns an <b>HRESULT</b> value.
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprinterpropertybag.md">IPrinterPropertyBag</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439547">IPrinterPropertyBag</a>
  
 
  
-
 

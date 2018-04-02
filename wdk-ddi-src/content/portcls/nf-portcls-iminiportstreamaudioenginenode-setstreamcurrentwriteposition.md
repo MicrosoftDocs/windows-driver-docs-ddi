@@ -7,7 +7,7 @@ old-location: audio\iminiportstreamaudioenginenode_setstreamcurrentwriteposition
 old-project: audio
 ms.assetid: A277FC29-AB92-4D67-9E53-F8E8B36053F9
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/19/2018
 ms.keywords: IMiniportStreamAudioEngineNode, IMiniportStreamAudioEngineNode interface [Audio Devices], SetStreamCurrentWritePosition method, IMiniportStreamAudioEngineNode::SetStreamCurrentWritePosition, SetStreamCurrentWritePosition method [Audio Devices], SetStreamCurrentWritePosition method [Audio Devices], IMiniportStreamAudioEngineNode interface, SetStreamCurrentWritePosition,IMiniportStreamAudioEngineNode.SetStreamCurrentWritePosition, audio.iminiportstreamaudioenginenode_setstreamcurrentwriteposition, portcls/IMiniportStreamAudioEngineNode::SetStreamCurrentWritePosition
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,16 +52,6 @@ req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 Sets the current cursor position in the audio data stream that is being captured from the endpoint.
 
 
-## -syntax
-
-
-````
-NTSTATUS SetStreamCurrentWritePosition(
-  [in] ULONG ulCurrentWritePosition
-);
-````
-
-
 ## -parameters
 
 
@@ -83,12 +73,11 @@ The current cursor position in the audio data stream.
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iminiportstreamaudioenginenode.md">IMiniportStreamAudioEngineNode</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265090">IMiniportStreamAudioEngineNode</a>
  
 
  
-
 

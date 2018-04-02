@@ -52,21 +52,6 @@ req.typenames: KS_BDA_FRAME_INFO, *PKS_BDA_FRAME_INFO
 The KS_BDA_FRAME_INFO structure describes BDA extensions to the KSSTREAM_HEADER structure, which describes a packet of data to be read from or written to a streaming driver pin. 
 
 
-## -syntax
-
-
-````
-typedef struct tagKS_BDA_FRAME_INFO {
-  ULONG ExtendedHeaderSize;
-  DWORD dwFrameFlags;
-  ULONG ulEvent;
-  ULONG ulChannelNumber;
-  ULONG ulSubchannelNumber;
-  ULONG ulReason;
-} KS_BDA_FRAME_INFO, *PKS_BDA_FRAME_INFO;
-````
-
-
 ## -struct-fields
 
 
@@ -104,12 +89,11 @@ Identifies the reason the packet was transferred.
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksstream_header.md">KSSTREAM_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567138">KSSTREAM_HEADER</a>
  
 
  
-
 

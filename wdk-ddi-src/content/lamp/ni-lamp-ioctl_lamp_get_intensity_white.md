@@ -70,12 +70,12 @@ The <b>IOCTL_LAMP_GET_INTENSITY_WHITE</b>
 
 ### -input-buffer
 
-<code>Irp-&gt;AssociatedIrp.SystemBuffer</code> points to a <a href="..\lamp\ns-lamp-lamp_intensity_white.md">LAMP_INTENSITY_WHITE</a> structure.
+<code>Irp-&gt;AssociatedIrp.SystemBuffer</code> points to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn937006">LAMP_INTENSITY_WHITE</a> structure.
 
 
 ### -input-buffer-length
 
-Length of a <a href="..\lamp\ns-lamp-lamp_intensity_white.md">LAMP_INTENSITY_WHITE</a> structure.
+Length of a <a href="https://msdn.microsoft.com/library/windows/hardware/dn937006">LAMP_INTENSITY_WHITE</a> structure.
 
 
 ### -output-buffer
@@ -118,7 +118,7 @@ If the device has been acquired by a camera driver, the lamp driver should retur
 
 
 
-The payload type of this IOCTL is a <a href="..\lamp\ns-lamp-lamp_intensity_white.md">LAMP_INTENSITY_WHITE</a> structure.
+The payload type of this IOCTL is a <a href="https://msdn.microsoft.com/library/windows/hardware/dn937006">LAMP_INTENSITY_WHITE</a> structure.
 
 The <b>Value</b> field is the white light intensity in percentage (0 - 100).
 

@@ -7,7 +7,7 @@ old-location: debugger\getsupportedprocessortypes.htm
 old-project: debugger
 ms.assetid: b1a69c60-67e8-46b0-8f2e-7da2c4860ea6
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: GetSupportedProcessorTypes method [Windows Debugging], GetSupportedProcessorTypes method [Windows Debugging], IDebugControl interface, GetSupportedProcessorTypes method [Windows Debugging], IDebugControl2 interface, GetSupportedProcessorTypes method [Windows Debugging], IDebugControl3 interface, GetSupportedProcessorTypes,IDebugControl2.GetSupportedProcessorTypes, IDebugControl interface [Windows Debugging], GetSupportedProcessorTypes method, IDebugControl2, IDebugControl2 interface [Windows Debugging], GetSupportedProcessorTypes method, IDebugControl2::GetSupportedProcessorTypes, IDebugControl3 interface [Windows Debugging], GetSupportedProcessorTypes method, IDebugControl3::GetSupportedProcessorTypes, IDebugControl::GetSupportedProcessorTypes, IDebugControl_555eef6a-df68-4f94-9cfa-dc31aee27014.xml, dbgeng/IDebugControl2::GetSupportedProcessorTypes, dbgeng/IDebugControl3::GetSupportedProcessorTypes, dbgeng/IDebugControl::GetSupportedProcessorTypes, debugger.getsupportedprocessortypes
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,18 +52,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetSupportedProcessorTypes</b> method returns the processor types supported by the <a href="https://msdn.microsoft.com/fa52a1f0-9397-48a5-acbd-ce5347c0baef">debugger engine</a>.    
-
-
-## -syntax
-
-
-````
-HRESULT GetSupportedProcessorTypes(
-  [in]  ULONG  Start,
-  [in]  ULONG  Count,
-  [out] PULONG Types
-);
-````
 
 
 ## -parameters
@@ -125,11 +113,10 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547966">GetNumberSupportedProcessorTypes</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
 
 
@@ -137,16 +124,16 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550508">IDebugControl</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550512">IDebugControl2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550519">IDebugControl3</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: kernel\clfswriterestartarea.htm
 old-project: kernel
 ms.assetid: e97006e1-5a18-4478-9cac-30eb70142fa7
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: ClfsWriteRestartArea, ClfsWriteRestartArea routine [Kernel-Mode Driver Architecture], Clfs_b2bfac14-eb9c-4323-af79-ab8bebf06f79.xml, kernel.clfswriterestartarea, wdm/ClfsWriteRestartArea
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -54,22 +54,6 @@ req.product: Windows 10 or later.
 The <b>ClfsWriteRestartArea</b> routine atomically appends a new restart record to a CLFS stream, flushes the restart record to stable storage, and optionally updates the base LSN of the stream.
 
 
-## -syntax
-
-
-````
-NTSTATUS ClfsWriteRestartArea(
-  _Inout_   PVOID     pvMarshalContext,
-  _In_      PVOID     pvRestartBuffer,
-  _In_      ULONG     cbRestartBuffer,
-  _In_opt_  PCLFS_LSN plsnBase,
-  _In_      ULONG     fFlags,
-  _Out_opt_ PULONG    pcbWritten,
-  _Out_opt_ PCLFS_LSN plsnNext
-);
-````
-
-
 ## -parameters
 
 
@@ -77,7 +61,7 @@ NTSTATUS ClfsWriteRestartArea(
 
 ### -param pvMarshalContext [in, out]
 
-A pointer to an opaque context that represents a marshalling area associated with a CLFS stream. The caller previously obtained this pointer by calling <a href="..\wdm\nf-wdm-clfscreatemarshallingarea.md">ClfsCreateMarshallingArea</a>.
+A pointer to an opaque context that represents a marshalling area associated with a CLFS stream. The caller previously obtained this pointer by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff541520">ClfsCreateMarshallingArea</a>.
 
 
 ### -param pvRestartBuffer [in]
@@ -92,7 +76,7 @@ The size, in bytes, of the buffer pointed to by <i>pvRestartBuffer</i>. This is 
 
 ### -param plsnBase [in, optional]
 
-A pointer to a <a href="..\wdm\ns-wdm-_cls_lsn.md">CLFS_LSN</a> structure that specifies a new base LSN for the stream. If this parameter is <b>NULL</b>, the base LSN is not changed.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541824">CLFS_LSN</a> structure that specifies a new base LSN for the stream. If this parameter is <b>NULL</b>, the base LSN is not changed.
 
 
 ### -param fFlags [in]
@@ -157,7 +141,7 @@ ClfsWriteRestartArea is a relatively expensive operation because it causes a flu
 
 At any one time, only one marshalling area should be used to write data to a stream. Having two marshalling areas writing into the stream might result in stream corruption.
 
-If you just want to set the base LSN of a stream, use <a href="..\wdm\nf-wdm-clfsadvancelogbase.md">ClfsAdvanceLogBase</a>, which does not necessarily flush any data to stable storage.
+If you just want to set the base LSN of a stream, use <a href="https://msdn.microsoft.com/library/windows/hardware/ff540773">ClfsAdvanceLogBase</a>, which does not necessarily flush any data to stable storage.
 
 For an explanation of CLFS concepts and terminology, see <a href="https://msdn.microsoft.com/a9685648-b08c-48ca-b020-e683068f2ea2">Common Log File System</a>. 
 
@@ -166,28 +150,27 @@ For an explanation of CLFS concepts and terminology, see <a href="https://msdn.m
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-clfscreatemarshallingarea.md">ClfsCreateMarshallingArea</a>
 
 
 
-<a href="..\wdm\ns-wdm-_cls_lsn.md">CLFS_LSN</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541824">CLFS_LSN</a>
 
 
 
-<a href="..\wdm\nf-wdm-clfsreadpreviousrestartarea.md">ClfsReadPreviousRestartArea</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540773">ClfsAdvanceLogBase</a>
 
 
 
-<a href="..\wdm\nf-wdm-clfsadvancelogbase.md">ClfsAdvanceLogBase</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541520">ClfsCreateMarshallingArea</a>
 
 
 
-<a href="..\wdm\nf-wdm-clfsreadrestartarea.md">ClfsReadRestartArea</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541699">ClfsReadPreviousRestartArea</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541709">ClfsReadRestartArea</a>
  
 
  
-
 

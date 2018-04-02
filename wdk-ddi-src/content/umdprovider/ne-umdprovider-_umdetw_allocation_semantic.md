@@ -7,7 +7,7 @@ old-location: display\umdetw_allocation_semantic.htm
 old-project: display
 ms.assetid: 4c0fa5c1-7d73-4380-a673-f09bbf0ea281
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: UMDETW_ALLOCATION_SEMANTIC, UMDETW_ALLOCATION_SEMANTIC enumeration [Display Devices], UMDETW_ALLOCATION_SEMANTIC_CONTEXT_SAVE, UMDETW_ALLOCATION_SEMANTIC_DMA_BUFFER, UMDETW_ALLOCATION_SEMANTIC_DOWNLOAD_STAGING, UMDETW_ALLOCATION_SEMANTIC_DRIVER_OTHER_MAX, UMDETW_ALLOCATION_SEMANTIC_DRIVER_OTHER_MIN, UMDETW_ALLOCATION_SEMANTIC_NONE, UMDETW_ALLOCATION_SEMANTIC_UPLOAD_STAGING, _UMDETW_ALLOCATION_SEMANTIC, display.umdetw_allocation_semantic, umdprovider/UMDETW_ALLOCATION_SEMANTIC, umdprovider/UMDETW_ALLOCATION_SEMANTIC_CONTEXT_SAVE, umdprovider/UMDETW_ALLOCATION_SEMANTIC_DMA_BUFFER, umdprovider/UMDETW_ALLOCATION_SEMANTIC_DOWNLOAD_STAGING, umdprovider/UMDETW_ALLOCATION_SEMANTIC_DRIVER_OTHER_MAX, umdprovider/UMDETW_ALLOCATION_SEMANTIC_DRIVER_OTHER_MIN, umdprovider/UMDETW_ALLOCATION_SEMANTIC_NONE, umdprovider/UMDETW_ALLOCATION_SEMANTIC_UPLOAD_STAGING
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,22 +53,6 @@ req.product: Windows 10 or later.
 Indicates what a memory allocation is used for if the allocation is internal to the user-mode driver.
 
 
-## -syntax
-
-
-````
-typedef enum _UMDETW_ALLOCATION_SEMANTIC { 
-  UMDETW_ALLOCATION_SEMANTIC_NONE              = 0,
-  UMDETW_ALLOCATION_SEMANTIC_DMA_BUFFER        = 1,
-  UMDETW_ALLOCATION_SEMANTIC_UPLOAD_STAGING    = 2,
-  UMDETW_ALLOCATION_SEMANTIC_DOWNLOAD_STAGING  = 3,
-  UMDETW_ALLOCATION_SEMANTIC_CONTEXT_SAVE      = 4,
-  UMDETW_ALLOCATION_SEMANTIC_DRIVER_OTHER_MIN  = 5,
-  UMDETW_ALLOCATION_SEMANTIC_DRIVER_OTHER_MAX  = 0xFFFF
-} UMDETW_ALLOCATION_SEMANTIC;
-````
-
-
 ## -enum-fields
 
 
@@ -111,16 +95,15 @@ The driver can use this semantic value for its own internal purposes.
 
 ## -see-also
 
-<a href="..\umdprovider\nf-umdprovider-umdetwlogmapallocation.md">UMDEtwLogMapAllocation</a>
 
 
 
-<a href="..\umdprovider\nf-umdprovider-umdetwlogunmapallocation.md">UMDEtwLogUnmapAllocation</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj542437">UMDEtwLogMapAllocation</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj542438">UMDEtwLogUnmapAllocation</a>
  
 
  
-
 

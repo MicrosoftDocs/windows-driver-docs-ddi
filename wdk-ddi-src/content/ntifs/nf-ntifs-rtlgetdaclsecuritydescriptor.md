@@ -7,7 +7,7 @@ old-location: ifsk\rtlgetdaclsecuritydescriptor.htm
 old-project: ifsk
 ms.assetid: 23184d88-2c84-4fba-9d17-c4014d0eaea5
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: RtlGetDaclSecurityDescriptor, RtlGetDaclSecurityDescriptor routine [Installable File System Drivers], ifsk.rtlgetdaclsecuritydescriptor, ntifs/RtlGetDaclSecurityDescriptor, rtlref_c851a07b-d480-47a7-b0f7-a3f21161dfaa.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,19 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>RtlGetDaclSecurityDescriptor</b> routine returns a pointer to the discretionary ACL (DACL) for a security descriptor.
 
 
-## -syntax
-
-
-````
-NTSTATUS RtlGetDaclSecurityDescriptor(
-  _In_  PSECURITY_DESCRIPTOR SecurityDescriptor,
-  _Out_ PBOOLEAN             DaclPresent,
-  _Out_ PACL                 *Dacl,
-  _Out_ PBOOLEAN             DaclDefaulted
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +59,7 @@ NTSTATUS RtlGetDaclSecurityDescriptor(
 
 ### -param SecurityDescriptor [in]
 
-Pointer to the <a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a> whose DACL is to be returned.
+Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a> whose DACL is to be returned.
 
 
 ### -param DaclPresent [out]
@@ -131,32 +118,31 @@ For more information about security and access control, see the documentation fo
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
 
 
 
-<a href="..\wdm\nf-wdm-rtlvalidsecuritydescriptor.md">RtlValidSecurityDescriptor</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538866">ACL</a>
 
 
 
-<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561827">RtlCreateSecurityDescriptor</a>
 
 
 
-<a href="..\wdm\nf-wdm-rtllengthsecuritydescriptor.md">RtlLengthSecurityDescriptor</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562025">RtlLengthSecurityDescriptor</a>
 
 
 
-<a href="..\wdm\nf-wdm-rtlcreatesecuritydescriptor.md">RtlCreateSecurityDescriptor</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562781">RtlSetDaclSecurityDescriptor</a>
 
 
 
-<a href="..\wdm\nf-wdm-rtlsetdaclsecuritydescriptor.md">RtlSetDaclSecurityDescriptor</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563024">RtlValidSecurityDescriptor</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a>
  
 
  
-
 

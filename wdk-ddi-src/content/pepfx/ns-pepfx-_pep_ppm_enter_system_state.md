@@ -7,7 +7,7 @@ old-location: kernel\pep_ppm_enter_system_state.htm
 old-project: kernel
 ms.assetid: 1a398899-b05d-4853-b68d-ae8be958dd91
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*PPEP_PPM_ENTER_SYSTEM_STATE, PEP_PPM_ENTER_SYSTEM_STATE, PEP_PPM_ENTER_SYSTEM_STATE structure [Kernel-Mode Driver Architecture], PPEP_PPM_ENTER_SYSTEM_STATE, PPEP_PPM_ENTER_SYSTEM_STATE structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_ENTER_SYSTEM_STATE, kernel.pep_ppm_enter_system_state, pepfx/PEP_PPM_ENTER_SYSTEM_STATE, pepfx/PPEP_PPM_ENTER_SYSTEM_STATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,16 +52,6 @@ req.typenames: PEP_PPM_ENTER_SYSTEM_STATE, *PPEP_PPM_ENTER_SYSTEM_STATE
 Used in the <b>PEP_NOTIFY_PPM_ENTER_SYSTEM_STATE</b> notification to notify PEP that the system is about to enter a system power state.  
 
 
-## -syntax
-
-
-````
-typedef struct _PEP_PPM_ENTER_SYSTEM_STATE {
-  SYSTEM_POWER_STATE  TargetState;
-} PEP_PPM_ENTER_SYSTEM_STATE, *PPEP_PPM_ENTER_SYSTEM_STATE;
-````
-
-
 ## -struct-fields
 
 
@@ -69,7 +59,7 @@ typedef struct _PEP_PPM_ENTER_SYSTEM_STATE {
 
 ### -field TargetState
 
-On input, a <a href="..\wdm\ne-wdm-_system_power_state.md">SYSTEM_POWER_STATE</a>-type value that indicates the power state that the system is entering. 
+On input, a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564565">SYSTEM_POWER_STATE</a>-type value that indicates the power state that the system is entering. 
 
 
 ## -remarks
@@ -85,12 +75,11 @@ PEP must not queue any work from this notification. The processors will not proc
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt186881">Processor power management (PPM) notifications</a>
-
-
-
  
 
  
-
 

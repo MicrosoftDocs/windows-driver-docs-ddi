@@ -7,7 +7,7 @@ old-location: storage\srbex_data_io_info.htm
 old-project: storage
 ms.assetid: D4B99D6F-0A0C-49CE-A8E2-19C1A835EDA6
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSRBEX_DATA_IO_INFO, PSRBEX_DATA_IO_INFO, PSRBEX_DATA_IO_INFO structure pointer [Storage Devices], REQUEST_INFO_HYBRID_WRITE_THROUGH_FLAG, REQUEST_INFO_NO_CACHE_FLAG, REQUEST_INFO_PAGING_IO_FLAG, REQUEST_INFO_SEQUENTIAL_IO_FLAG, REQUEST_INFO_TEMPORARY_FLAG, REQUEST_INFO_VALID_CACHEPRIORITY_FLAG, REQUEST_INFO_WRITE_THROUGH_FLAG, SRBEX_DATA_IO_INFO, SRBEX_DATA_IO_INFO structure [Storage Devices], _SRBEX_DATA_IO_INFO, storage.srbex_data_io_info, storport/PSRBEX_DATA_IO_INFO, storport/SRBEX_DATA_IO_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,24 +51,6 @@ req.typenames: SRBEX_DATA_IO_INFO, *PSRBEX_DATA_IO_INFO
 
 The <b>SRBEX_DATA_IO_INFO</b> structure contains additional information related to a read or write request in an extended SRB.
 <div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
-
-## -syntax
-
-
-````
-typedef struct _SRBEX_DATA_IO_INFO {
-  SRBEXDATATYPE Type;
-  ULONG         Length;
-  ULONG         Flags;
-  ULONG         Key;
-  ULONG         RWLength;
-  BOOLEAN       IsWriteRequest;
-  UCHAR         CachePriority;
-  UCHAR         Reserved[2];
-  ULONG         Reserved1[3];
-} SRBEX_DATA_IO_INFO, *PSRBEX_DATA_IO_INFO;
-````
-
 
 ## -struct-fields
 
@@ -208,12 +190,11 @@ This member is present starting with Windows 8.1 Update.
 
 ## -see-also
 
-<a href="..\storport\ns-storport-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451474">STORAGE_REQUEST_BLOCK</a>
  
 
  
-
 

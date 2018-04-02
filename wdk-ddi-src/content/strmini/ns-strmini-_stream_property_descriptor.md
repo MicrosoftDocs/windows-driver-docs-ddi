@@ -53,20 +53,6 @@ req.product: Windows 10 or later.
 STREAM_PROPERTY_DESCRIPTOR specifies the parameters of property get/set requests that the class driver passes to the minidriver.
 
 
-## -syntax
-
-
-````
-typedef struct _STREAM_PROPERTY_DESCRIPTOR {
-  PKSPROPERTY Property;
-  ULONG       PropertySetID;
-  PVOID       PropertyInfo;
-  ULONG       PropertyInputSize;
-  ULONG       PropertyOutputSize;
-} STREAM_PROPERTY_DESCRIPTOR, *PSTREAM_PROPERTY_DESCRIPTOR;
-````
-
-
 ## -struct-fields
 
 
@@ -79,7 +65,7 @@ Specifies the property to be read/written.
 
 ### -field PropertySetID
 
-Specifies the index of the property set within either the <a href="..\strmini\ns-strmini-_hw_stream_header.md">HW_STREAM_HEADER</a>'s <b>DevicePropertiesArray</b> (for minidriver properties) or the <a href="..\strmini\ns-strmini-_hw_stream_information.md">HW_STREAM_INFORMATION</a>'s <b>StreamPropertiesArray</b> (for stream properties).
+Specifies the index of the property set within either the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559690">HW_STREAM_HEADER</a>'s <b>DevicePropertiesArray</b> (for minidriver properties) or the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559692">HW_STREAM_INFORMATION</a>'s <b>StreamPropertiesArray</b> (for stream properties).
 
 
 ### -field PropertyInfo

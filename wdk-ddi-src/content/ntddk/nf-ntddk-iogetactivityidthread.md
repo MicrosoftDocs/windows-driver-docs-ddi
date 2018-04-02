@@ -7,7 +7,7 @@ old-location: kernel\iogetactivityidthread.htm
 old-project: kernel
 ms.assetid: 445A9EBA-EF15-4FE4-9747-3E1E138E13E7
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: IoGetActivityIdThread, IoGetActivityIdThread routine [Kernel-Mode Driver Architecture], kernel.iogetactivityidthread, ntddk/IoGetActivityIdThread
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,16 +50,6 @@ req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 
 
 The IoGetActivityIdThread routine returns the activity ID associated with the current thread.
-
-
-## -syntax
-
-
-````
-LPCGUID IoGetActivityIdThread(
-    None.
-);
-````
 
 
 ## -parameters

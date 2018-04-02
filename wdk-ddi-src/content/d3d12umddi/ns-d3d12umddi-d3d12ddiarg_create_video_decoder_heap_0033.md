@@ -7,7 +7,7 @@ old-location: display\d3d12ddiarg-create-video-decoder-heap-0033.htm
 old-project: display
 ms.assetid: 158411ee-6cc1-466d-b772-fe380b55baef
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3D12DDIARG_CREATE_VIDEO_DECODER_HEAP_0033, D3D12DDIARG_CREATE_VIDEO_DECODER_HEAP_0033 structure [Display Devices], d3d12umddi/D3D12DDIARG_CREATE_VIDEO_DECODER_HEAP_0033, display.d3d12ddiarg-create-video-decoder-heap-0033
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,23 +52,6 @@ req.typenames: D3D12DDIARG_CREATE_VIDEO_DECODER_HEAP_0033
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 Create a video decoder heap.
-
-
-## -syntax
-
-
-````
-typedef struct _D3D12DDIARG_CREATE_VIDEO_DECODER_HEAP_0033 {
-  UINT                                      NodeMask;
-  D3D12DDI_VIDEO_DECODE_CONFIGURATION_0020  Configuration;
-  UINT                                      DecodeWidth;
-  UINT                                      DecodeHeight;
-  DXGI_FORMAT                               Format;
-  DXGI_RATIONAL                             FrameRate;
-  UINT                                      BitRate;
-  UINT                                      MaxDecodePictureBufferCount;
-} D3D12DDIARG_CREATE_VIDEO_DECODER_HEAP_0033, D3D12DDIARG_CREATE_VIDEO_DECODER_HEAP_0033;
-````
 
 
 ## -struct-fields

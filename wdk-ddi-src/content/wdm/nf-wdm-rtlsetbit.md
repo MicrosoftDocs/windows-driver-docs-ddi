@@ -7,7 +7,7 @@ old-location: kernel\rtlsetbit.htm
 old-project: kernel
 ms.assetid: 6e78da3d-7a37-41f9-bfa6-db2e83581769
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: RtlSetBit, RtlSetBit routine [Kernel-Mode Driver Architecture], k109_44d68cd0-b91e-4a4e-8f4f-c40e25b768b9.xml, kernel.rtlsetbit, wdm/RtlSetBit
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The <b>RtlSetBit</b> routine sets the specified bit in a bitmap to one. 
 
 
-## -syntax
-
-
-````
-VOID RtlSetBit(
-  _In_ PRTL_BITMAP BitMapHeader,
-  _In_ ULONG       BitNumber
-);
-````
-
-
 ## -parameters
 
 
@@ -71,7 +60,7 @@ VOID RtlSetBit(
 
 ### -param BitMapHeader [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563614">RTL_BITMAP</a> structure that describes the bitmap. This structure must have been initialized by the <a href="..\wdm\nf-wdm-rtlinitializebitmap.md">RtlInitializeBitMap</a> routine. 
+Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563614">RTL_BITMAP</a> structure that describes the bitmap. This structure must have been initialized by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561925">RtlInitializeBitMap</a> routine. 
 
 
 ### -param BitNumber [in]
@@ -99,16 +88,15 @@ Callers of <b>RtlSetBit</b> must be running at IRQL &lt;= APC_LEVEL if the memor
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563614">RTL_BITMAP</a>
 
 
 
-<a href="..\wdm\nf-wdm-rtlinitializebitmap.md">RtlInitializeBitMap</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561925">RtlInitializeBitMap</a>
  
 
  
-
 

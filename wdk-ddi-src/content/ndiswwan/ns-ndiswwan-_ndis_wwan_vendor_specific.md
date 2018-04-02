@@ -7,7 +7,7 @@ old-location: netvista\ndis_wwan_vendor_specific.htm
 old-project: netvista
 ms.assetid: eaa1f56a-ade6-47d7-8114-8cdb8b015e75
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PNDIS_WWAN_VENDOR_SPECIFIC, NDIS_WWAN_VENDOR_SPECIFIC, NDIS_WWAN_VENDOR_SPECIFIC structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_VENDOR_SPECIFIC, PNDIS_WWAN_VENDOR_SPECIFIC structure pointer [Network Drivers Starting with Windows Vista], WwanRef_01a97be2-1ce1-484b-b844-654b4171330f.xml, _NDIS_WWAN_VENDOR_SPECIFIC, ndiswwan/NDIS_WWAN_VENDOR_SPECIFIC, ndiswwan/PNDIS_WWAN_VENDOR_SPECIFIC, netvista.ndis_wwan_vendor_specific"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,17 +50,6 @@ req.typenames: NDIS_WWAN_VENDOR_SPECIFIC, *PNDIS_WWAN_VENDOR_SPECIFIC
 
 
 The NDIS_WWAN_VENDOR_SPECIFIC structure represents vendor-specific data.
-
-
-## -syntax
-
-
-````
-typedef struct _NDIS_WWAN_VENDOR_SPECIFIC {
-  NDIS_OBJECT_HEADER   Header;
-  WWAN_VENDOR_SPECIFIC VendorSpecificData;
-} NDIS_WWAN_VENDOR_SPECIFIC, *PNDIS_WWAN_VENDOR_SPECIFIC;
-````
 
 
 ## -struct-fields
@@ -116,28 +105,27 @@ sizeof(NDIS_WWAN_VENDOR_SPECIFIC)
  
 
 For more information about these members, see 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field VendorSpecificData
 
 A formatted 
-     <a href="..\wwan\ns-wwan-_wwan_vendor_specific.md">WWAN_VENDOR_SPECIFIC</a> object that
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571255">WWAN_VENDOR_SPECIFIC</a> object that
      represents vendor-specific data.
 
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_vendor_specific.md">WWAN_VENDOR_SPECIFIC</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571255">WWAN_VENDOR_SPECIFIC</a>
  
 
  
-
 

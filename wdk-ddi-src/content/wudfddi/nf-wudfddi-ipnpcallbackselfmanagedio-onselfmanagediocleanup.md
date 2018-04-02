@@ -55,16 +55,6 @@ req.product: Windows 10 or later.
 The <b>OnSelfManagedIoCleanup</b> method releases memory for a device's self-managed I/O operations, after the device is removed.
 
 
-## -syntax
-
-
-````
-void OnSelfManagedIoCleanup(
-  [in] IWDFDevice *pWdfDevice
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +62,7 @@ void OnSelfManagedIoCleanup(
 
 ### -param pWdfDevice [in]
 
-A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a> interface for the device object of the device that the driver performs cleanup for.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556917">IWDFDevice</a> interface for the device object of the device that the driver performs cleanup for.
 
 
 ## -returns
@@ -88,27 +78,26 @@ None
 
 
 
-A driver registers the <a href="..\wudfddi\nn-wudfddi-ipnpcallbackselfmanagedio.md">IPnpCallbackSelfManagedIo</a> interface when the driver calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a> method to create a device object. 
+A driver registers the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556776">IPnpCallbackSelfManagedIo</a> interface when the driver calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a> method to create a device object. 
 
 
 
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556776">IPnpCallbackSelfManagedIo</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556917">IWDFDevice</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-ipnpcallbackselfmanagedio.md">IPnpCallbackSelfManagedIo</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
-
-
-
  
 
  
-
 

@@ -56,21 +56,6 @@ req.product: Windows 10 or later.
 The <b>WDF_DEVICE_IO_TYPE</b> enumeration is used to specify a method for <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/accessing-data-buffers-in-wdf-drivers">accessing data buffers</a>.
 
 
-## -syntax
-
-
-````
-typedef enum _WDF_DEVICE_IO_TYPE { 
-  WdfDeviceIoUndefined         = 0x00,
-  WdfDeviceIoNeither           = 0x01,
-  WdfDeviceIoBuffered          = 0x02,
-  WdfDeviceIoDirect            = 0x03,
-  WdfDeviceIoBufferedOrDirect  = 0x04,
-  WdfDeviceIoMaximum           = 0x5
-} WDF_DEVICE_IO_TYPE, *PWDF_DEVICE_IO_TYPE;
-````
-
-
 ## -enum-fields
 
 
@@ -130,14 +115,13 @@ Typically, a filter driver that can reside in several driver stacks and performs
 </ul>
 For more information about accessing an I/O request's data buffers, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/accessing-data-buffers-in-wdf-drivers">Accessing Data Buffers in UMDF-Based Drivers</a>.
 
-For the KMDF version of this enumeration, see <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_device_io_type.md">WDF_DEVICE_IO_TYPE</a>.
+For the KMDF version of this enumeration, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff551255">WDF_DEVICE_IO_TYPE</a>.
 
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558994">IWDFIoRequest2::GetEffectiveIoType</a>
 
 
 
@@ -145,12 +129,12 @@ For the KMDF version of this enumeration, see <a href="..\wudfddi_types\ne-wudfd
 
 
 
-<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_device_io_buffer_retrieval.md">WDF_DEVICE_IO_BUFFER_RETRIEVAL</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558994">IWDFIoRequest2::GetEffectiveIoType</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561399">WDF_DEVICE_IO_BUFFER_RETRIEVAL</a>
  
 
  
-
 

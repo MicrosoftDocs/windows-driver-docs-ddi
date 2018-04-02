@@ -7,7 +7,7 @@ old-location: storage\removepersistententry_in.htm
 old-project: storage
 ms.assetid: 7019ee37-2080-4ba3-ba39-977e575ec04e
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PRemovePersistentEntry_IN, PRemovePersistentEntry_IN, PRemovePersistentEntry_IN structure pointer [Storage Devices], RemovePersistentEntry_IN, RemovePersistentEntry_IN structure [Storage Devices], _RemovePersistentEntry_IN, hbapiwmi/PRemovePersistentEntry_IN, hbapiwmi/RemovePersistentEntry_IN, storage.removepersistententry_in, structs-Fibre_e5e794c3-e43c-4218-af52-3f2d8a96c256.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,17 +52,6 @@ req.typenames: RemovePersistentEntry_IN, *PRemovePersistentEntry_IN
 The RemovePersistentEntry_IN structure is used by a WMI client to deliver input parameter data to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563988">RemovePersistentEntry</a> WMI method.
 
 
-## -syntax
-
-
-````
-typedef struct _RemovePersistentEntry_IN {
-  UCHAR               PortWWN[8];
-  HBAFCPBindingEntry2 Binding;
-} RemovePersistentEntry_IN, *PRemovePersistentEntry_IN;
-````
-
-
 ## -struct-fields
 
 
@@ -75,7 +64,7 @@ Contains a worldwide name that indicates the port for which a persistent binding
 
 ### -field Binding
 
-Contains a structure of type <a href="..\hbapiwmi\ns-hbapiwmi-_hbafcpbindingentry2.md">HBAFCPBindingEntry2</a> that indicates the binding to be removed from the indicated port's list of bindings. 
+Contains a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff556035">HBAFCPBindingEntry2</a> that indicates the binding to be removed from the indicated port's list of bindings. 
 
 
 ## -remarks
@@ -89,12 +78,11 @@ The WMI tool suite generates a declaration of the RemovePersistentEntry_IN struc
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563988">RemovePersistentEntry</a>
-
-
-
  
 
  
-
 

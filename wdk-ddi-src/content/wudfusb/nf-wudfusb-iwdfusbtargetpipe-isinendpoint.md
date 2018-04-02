@@ -55,14 +55,6 @@ req.product: Windows 10 or later.
 The <b>IsInEndPoint</b> method determines whether a USB pipe (endpoint) is an IN pipe.
 
 
-## -syntax
-
-
-````
-BOOL  IsInEndPoint();
-````
-
-
 ## -parameters
 
 
@@ -98,7 +90,6 @@ For a code example of how to use the <b>IsInEndPoint</b> method, see <a href="ht
 
 ## -see-also
 
-<a href="..\wudfusb\nn-wudfusb-iwdfusbtargetpipe.md">IWDFUsbTargetPipe</a>
 
 
 
@@ -106,8 +97,8 @@ For a code example of how to use the <b>IsInEndPoint</b> method, see <a href="ht
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560391">IWDFUsbTargetPipe</a>
  
 
  
-
 

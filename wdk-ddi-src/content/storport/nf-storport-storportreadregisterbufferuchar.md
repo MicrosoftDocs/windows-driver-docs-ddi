@@ -7,7 +7,7 @@ old-location: storage\storportreadregisterbufferuchar.htm
 old-project: storage
 ms.assetid: f633a967-46b5-4532-b372-b9739f2146a2
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: StorPortReadRegisterBufferUchar, StorPortReadRegisterBufferUchar routine [Storage Devices], storage.storportreadregisterbufferuchar, storport/StorPortReadRegisterBufferUchar, storprt_361bfb77-1197-40cb-81ec-fc198e6454e9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,19 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>StorPortReadRegisterBufferUchar</b> routine reads a value from a specified register address. 
-
-
-## -syntax
-
-
-````
-STORPORT_API VOID StorPortReadRegisterBufferUchar(
-  _In_ PVOID  HwDeviceExtension,
-  _In_ PUCHAR Register,
-  _In_ PUCHAR Buffer,
-  _In_ ULONG  Count
-);
-````
 
 
 ## -parameters
@@ -120,23 +107,22 @@ Pointer to the register where the data is to be read.
 
 
 
-For more information, see <a href="..\storport\nf-storport-scsiportreadregisterbufferuchar.md">ScsiPortReadRegisterBufferUchar</a>. For a nonbuffered version of this routine, see <a href="..\storport\nf-storport-storportreadregisteruchar.md">StorPortReadRegisterUchar</a>.
+For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff564734">ScsiPortReadRegisterBufferUchar</a>. For a nonbuffered version of this routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff567483">StorPortReadRegisterUchar</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\storport\nf-storport-scsiportreadregisterbufferuchar.md">ScsiPortReadRegisterBufferUchar</a>
 
 
 
-<a href="..\storport\nf-storport-storportreadregisteruchar.md">StorPortReadRegisterUchar</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564734">ScsiPortReadRegisterBufferUchar</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567483">StorPortReadRegisterUchar</a>
  
 
  
-
 

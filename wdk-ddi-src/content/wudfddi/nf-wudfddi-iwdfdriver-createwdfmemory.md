@@ -55,19 +55,6 @@ req.product: Windows 10 or later.
 The <b>CreateWdfMemory</b> method creates a <a href="https://msdn.microsoft.com/b5f7bb8b-115a-4536-9857-b7229ae2ec99">framework memory object</a> and allocates, for the memory object, a data buffer of the specified nonzero size.
 
 
-## -syntax
-
-
-````
-HRESULT CreateWdfMemory(
-  [in]           SIZE_T     BufferSize,
-  [in, optional] IUnknown   *pCallbackInterface,
-  [in, optional] IWDFObject *pParentObject,
-  [out]          IWDFMemory **ppWdfMemory
-);
-````
-
-
 ## -parameters
 
 
@@ -82,17 +69,17 @@ HRESULT CreateWdfMemory(
 
 ### -param pCallbackInterface [in, optional]
 
-A pointer to the <b>IUnknown</b> interface that the framework uses to determine the object-related event callback functions that the driver subscribes to on the newly created memory object. This parameter is optional. The driver can pass <b>NULL</b> if the driver does not require notification. The <b>IUnknown</b> interface is used for object cleanup and disposal. If the driver passes a valid pointer, the framework will call <b>QueryInterface</b> on the <b>IUnknown</b> interface for the <a href="..\wudfddi\nn-wudfddi-iobjectcleanup.md">IObjectCleanup</a> interface. If the framework obtains the driver's <b>IObjectCleanup</b> interface, the framework can subsequently call the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff556760">IObjectCleanup::OnCleanup</a> method to notify the driver that the memory object is cleaned up. 
+A pointer to the <b>IUnknown</b> interface that the framework uses to determine the object-related event callback functions that the driver subscribes to on the newly created memory object. This parameter is optional. The driver can pass <b>NULL</b> if the driver does not require notification. The <b>IUnknown</b> interface is used for object cleanup and disposal. If the driver passes a valid pointer, the framework will call <b>QueryInterface</b> on the <b>IUnknown</b> interface for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556754">IObjectCleanup</a> interface. If the framework obtains the driver's <b>IObjectCleanup</b> interface, the framework can subsequently call the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff556760">IObjectCleanup::OnCleanup</a> method to notify the driver that the memory object is cleaned up. 
 
 
 ### -param pParentObject [in, optional]
 
-A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfobject.md">IWDFObject</a> interface for the parent object of the created memory object. If <b>NULL</b>, the driver object becomes the default parent. 
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560200">IWDFObject</a> interface for the parent object of the created memory object. If <b>NULL</b>, the driver object becomes the default parent. 
 
 
 ### -param ppWdfMemory [out]
 
-A pointer to a buffer that receives a pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a> interface for the newly created WDF memory object.
+A pointer to a buffer that receives a pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559249">IWDFMemory</a> interface for the newly created WDF memory object.
 
 
 ## -returns
@@ -168,27 +155,10 @@ CUmdfHidDevice::PrepareReader(
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iobjectcleanup.md">IObjectCleanup</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559233">IWDFIoTarget::FormatRequestForRead</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560210">IWDFObject::DeleteWdfObject</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iwdfdriver.md">IWDFDriver</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iwdfobject.md">IWDFObject</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556754">IObjectCleanup</a>
 
 
 
@@ -196,8 +166,24 @@ CUmdfHidDevice::PrepareReader(
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558893">IWDFDriver</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559233">IWDFIoTarget::FormatRequestForRead</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559249">IWDFMemory</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560200">IWDFObject</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560210">IWDFObject::DeleteWdfObject</a>
  
 
  
-
 

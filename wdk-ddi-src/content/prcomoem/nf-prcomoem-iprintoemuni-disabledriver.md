@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 The <code>IPrintOemuNI::DisableDriver</code> method allows a rendering plug-in for <a href="https://msdn.microsoft.com/0a51fa2b-3d09-4a5f-9fff-40604877a414">Unidrv</a> to free resources that were allocated by the plug-in's <a href="https://msdn.microsoft.com/library/windows/hardware/ff554248">IPrintOemUni::EnableDriver</a> method.
 
 
-## -syntax
-
-
-````
-STDMETHOD DisableDriver(
-    None
-);
-````
-
-
 ## -parameters
 
 

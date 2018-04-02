@@ -7,7 +7,7 @@ old-location: display\writedataline.htm
 old-project: display
 ms.assetid: 3f860619-a479-4291-b3f3-ea4d309beee7
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PVIDEO_WRITE_DATA_LINE, VideoMiniport_Functions_35effeac-fbe1-44b9-905f-111460800d86.xml, WriteDataLine, WriteDataLine callback function [Display Devices], display.writedataline, video/WriteDataLine
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,20 +53,6 @@ req.product: Windows 10 or later.
 <i>WriteDataLine</i> sets the I2C serial data line to high or low.
 
 
-## -prototype
-
-
-````
-PVIDEO_WRITE_DATA_LINE WriteDataLine;
-
-VOID WriteDataLine(
-   PVOID HwDeviceExtension,
-   UCHAR Data
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -102,11 +88,10 @@ None
 
 ## -see-also
 
-<a href="..\video\nc-video-pvideo_read_clock_line.md">ReadClockLine</a>
 
 
 
-<a href="..\video\nf-video-videoportddcmonitorhelper.md">VideoPortDDCMonitorHelper</a>
+<a href="https://msdn.microsoft.com/175030c1-95d9-4a3b-976c-16e04852cb91">HwVidGetVideoChildDescriptor</a>
 
 
 
@@ -114,20 +99,20 @@ None
 
 
 
-<a href="..\video\nc-video-pvideo_read_data_line.md">ReadDataLine</a>
+<a href="https://msdn.microsoft.com/1051a234-ef63-454e-8957-292e86f4efcd">ReadClockLine</a>
 
 
 
-<a href="..\video\nc-video-pvideo_hw_get_child_descriptor.md">HwVidGetVideoChildDescriptor</a>
+<a href="https://msdn.microsoft.com/071000a3-c1b7-47fd-aec7-9e9f32edddf6">ReadDataLine</a>
 
 
 
-<a href="..\video\nc-video-pvideo_write_clock_line.md">WriteClockLine</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570290">VideoPortDDCMonitorHelper</a>
 
 
 
+<a href="https://msdn.microsoft.com/4dfd6223-420e-4087-b5bd-8277575321f7">WriteClockLine</a>
  
 
  
-
 

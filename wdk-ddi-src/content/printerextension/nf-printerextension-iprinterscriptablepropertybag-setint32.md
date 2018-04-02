@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 Writes an integer property.
 
 
-## -syntax
-
-
-````
-HRESULT SetInt32(
-  [in] BSTR bstrName,
-  [in] LONG nValue
-);
-````
-
-
 ## -parameters
 
 
@@ -99,12 +88,11 @@ A call to <b>SetInt32</b> will throw an exception, if the specified property is 
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprinterscriptablepropertybag.md">IPrinterScriptablePropertyBag</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh973217">IPrinterScriptablePropertyBag</a>
  
 
  
-
 

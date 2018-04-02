@@ -7,7 +7,7 @@ old-location: display\idarg_in_getmoveregions.htm
 old-project: display
 ms.assetid: 8534d6bd-c959-4088-8227-51710fe721cf
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IDARG_IN_GETMOVEREGIONS, IDARG_IN_GETMOVEREGIONS structure [Display Devices], display.idarg_in_getmoveregions, iddcx/IDARG_IN_GETMOVEREGIONS
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,17 +51,6 @@ req.typenames:
 
 
                  Gives information to the OS about move regions.
-
-
-## -syntax
-
-
-````
-typedef struct IDARG_IN_GETMOVEREGIONS {
-  UINT                                                   MoveRegionInCount;
-  _Field_size_full_(MoveRegionInCount) IDDCX_MOVEREGION* pMoveRegions;
-} IDARG_IN_GETMOVEREGIONS, *IDARG_IN_GETMOVEREGIONS;
-````
 
 
 ## -struct-fields

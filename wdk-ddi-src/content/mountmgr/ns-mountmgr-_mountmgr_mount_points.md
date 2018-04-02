@@ -7,7 +7,7 @@ old-location: storage\mountmgr_mount_points.htm
 old-project: storage
 ms.assetid: e85c0d92-d989-4afc-8516-c63535d2c728
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PMOUNTMGR_MOUNT_POINTS, MOUNTMGR_MOUNT_POINTS, MOUNTMGR_MOUNT_POINTS structure [Storage Devices], PMOUNTMGR_MOUNT_POINTS, PMOUNTMGR_MOUNT_POINTS structure pointer [Storage Devices], _MOUNTMGR_MOUNT_POINTS, mountmgr/MOUNTMGR_MOUNT_POINTS, mountmgr/PMOUNTMGR_MOUNT_POINTS, storage.mountmgr_mount_points, structs-mntmgr_844fdf51-1324-4b1d-b68f-abba5f471652.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,18 +52,6 @@ req.typenames: MOUNTMGR_MOUNT_POINTS, *PMOUNTMGR_MOUNT_POINTS
 The MOUNTMGR_MOUNT_POINTS structure is used by mount manager to send a client the list of mount points associated with a device.
 
 
-## -syntax
-
-
-````
-typedef struct _MOUNTMGR_MOUNT_POINTS {
-  ULONG                Size;
-  ULONG                NumberOfMountPoints;
-  MOUNTMGR_MOUNT_POINT MountPoints[1];
-} MOUNTMGR_MOUNT_POINTS, *PMOUNTMGR_MOUNT_POINTS;
-````
-
-
 ## -struct-fields
 
 
@@ -95,12 +83,11 @@ For a discussion of the different between symbolic links, unique IDs, and nonper
 
 ## -see-also
 
-<a href="..\mountmgr\ni-mountmgr-ioctl_mountmgr_query_points.md">IOCTL_MOUNTMGR_QUERY_POINTS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560474">IOCTL_MOUNTMGR_QUERY_POINTS</a>
  
 
  
-
 

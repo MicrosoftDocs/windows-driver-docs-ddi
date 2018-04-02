@@ -7,7 +7,7 @@ old-location: ifsk\rxnamecachecheckentry.htm
 old-project: ifsk
 ms.assetid: 75df65bc-2309-40d6-8e1d-154e72ad0f23
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: RxNameCacheCheckEntry, RxNameCacheCheckEntry function [Installable File System Drivers], ifsk.rxnamecachecheckentry, namcache/RxNameCacheCheckEntry, rxref_703b5e6a-4904-4402-8905-bc1dd2ed1c9e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,17 +50,6 @@ req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
 
 
 <b>RxNameCacheCheckEntry</b> checks a name cache entry for validity. A valid entry means that the lifetime has not expired and the <i>MRxContext</i> parameter passes the equality check.
-
-
-## -syntax
-
-
-````
-RX_NC_CHECK_STATUS RxNameCacheCheckEntry(
-  _In_ PNAME_CACHE NameCache,
-  _In_ ULONG       MRxContext
-);
-````
 
 
 ## -parameters
@@ -130,40 +119,39 @@ The check failed because <i>MRxContext</i> failed equality checking.
 
 ## -see-also
 
-<a href="..\namcache\nf-namcache-rxnamecachefetchentry.md">RxNameCacheFetchEntry</a>
 
 
 
-<a href="..\namcache\nf-namcache-rxnamecachecreateentry.md">RxNameCacheCreateEntry</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554552">RxNameCacheActivateEntry</a>
 
 
 
-<a href="..\namcache\nf-namcache-rxnamecacheexpireentrywithshortname.md">RxNameCacheExpireEntryWithShortName</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554565">RxNameCacheCreateEntry</a>
 
 
 
-<a href="..\namcache\nf-namcache-rxnamecacheinitialize.md">RxNameCacheInitialize</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554569">RxNameCacheExpireEntry</a>
 
 
 
-<a href="..\namcache\nf-namcache-rxnamecacheexpireentry.md">RxNameCacheExpireEntry</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554570">RxNameCacheExpireEntryWithShortName</a>
 
 
 
-<a href="..\namcache\nf-namcache-rxnamecacheactivateentry.md">RxNameCacheActivateEntry</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554573">RxNameCacheFetchEntry</a>
 
 
 
-<a href="..\namcache\nf-namcache-rxnamecachefinalize.md">RxNameCacheFinalize</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554575">RxNameCacheFinalize</a>
 
 
 
-<a href="..\namcache\nf-namcache-rxnamecachefreeentry.md">RxNameCacheFreeEntry</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554579">RxNameCacheFreeEntry</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554586">RxNameCacheInitialize</a>
  
 
  
-
 

@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 <i>StrMiniPriorityRoutine</i> is a minidriver-supplied callback routine to be executed at a specified priority level.
 
 
-## -prototype
-
-
-````
-PHW_PRIORITY_ROUTINE StrMiniPriorityRoutine;
-
-VOID StrMiniPriorityRoutine(
-  _In_ PVOID Context
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -73,7 +60,7 @@ VOID StrMiniPriorityRoutine(
 
 ### -param Context [in]
 
-Pointer to a minidriver-allocated buffer. The minidriver provides a pointer to this buffer in the Context parameter of its call to <a href="..\strmini\nf-strmini-streamclasscallatnewpriority.md">StreamClassCallAtNewPriority</a>.
+Pointer to a minidriver-allocated buffer. The minidriver provides a pointer to this buffer in the Context parameter of its call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff568230">StreamClassCallAtNewPriority</a>.
 
 
 ## -returns
@@ -89,19 +76,18 @@ None
 
 
 
-The minidriver provides a pointer to this routine in the <b>Priority</b> parameter of a call to <a href="..\strmini\nf-strmini-streamclasscallatnewpriority.md">StreamClassCallAtNewPriority</a>.
+The minidriver provides a pointer to this routine in the <b>Priority</b> parameter of a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff568230">StreamClassCallAtNewPriority</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\strmini\nf-strmini-streamclasscallatnewpriority.md">StreamClassCallAtNewPriority</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568230">StreamClassCallAtNewPriority</a>
  
 
  
-
 

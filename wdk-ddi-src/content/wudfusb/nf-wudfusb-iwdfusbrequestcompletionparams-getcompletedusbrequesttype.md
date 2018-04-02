@@ -55,14 +55,6 @@ req.product: Windows 10 or later.
 The <b>GetCompletedUsbRequestType</b> method retrieves the type of operation that the request to be completed contains.
 
 
-## -syntax
-
-
-````
-WDF_USB_REQUEST_TYPE  GetCompletedUsbRequestType();
-````
-
-
 ## -parameters
 
 
@@ -74,23 +66,22 @@ WDF_USB_REQUEST_TYPE  GetCompletedUsbRequestType();
 
 
 
-<b>GetCompletedUsbRequestType</b> returns a value of type <a href="..\wudfusb\ne-wudfusb-_wdf_usb_request_type.md">WDF_USB_REQUEST_TYPE</a> that identifies the USB request type.
+<b>GetCompletedUsbRequestType</b> returns a value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff553055">WDF_USB_REQUEST_TYPE</a> that identifies the USB request type.
 
 
 
 
 ## -see-also
 
-<a href="..\wudfusb\ne-wudfusb-_wdf_usb_request_type.md">WDF_USB_REQUEST_TYPE</a>
 
 
 
-<a href="..\wudfusb\nn-wudfusb-iwdfusbrequestcompletionparams.md">IWDFUsbRequestCompletionParams</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560346">IWDFUsbRequestCompletionParams</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553055">WDF_USB_REQUEST_TYPE</a>
  
 
  
-
 

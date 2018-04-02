@@ -7,7 +7,7 @@ old-location: display\d3d11_1ddi_video_decoder_desc.htm
 old-project: display
 ms.assetid: 35fe914b-13e8-4658-9ea6-af1eb9068f6f
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3D11_1DDI_VIDEO_DECODER_DESC, D3D11_1DDI_VIDEO_DECODER_DESC structure [Display Devices], d3d10umddi/D3D11_1DDI_VIDEO_DECODER_DESC, display.d3d11_1ddi_video_decoder_desc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,19 +52,6 @@ req.typenames: D3D11_1DDI_VIDEO_DECODER_DESC
 Describes a video stream for a Microsoft Direct3D video decoder or video processor.
 
 
-## -syntax
-
-
-````
-typedef struct D3D11_1DDI_VIDEO_DECODER_DESC {
-  GUID        Guid;
-  UINT        SampleWidth;
-  UINT        SampleHeight;
-  DXGI_FORMAT OutputFormat;
-} D3D11_1DDI_VIDEO_DECODER_DESC;
-````
-
-
 ## -struct-fields
 
 
@@ -72,7 +59,7 @@ typedef struct D3D11_1DDI_VIDEO_DECODER_DESC {
 
 ### -field Guid
 
-The DXVA decoding profile. To get the list of profiles supported by the device, call the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getvideodecoderprofile.md">GetVideoDecoderProfile</a> function.
+The DXVA decoding profile. To get the list of profiles supported by the device, call the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451670">GetVideoDecoderProfile</a> function.
 
 
 
@@ -94,12 +81,11 @@ The output surface format, specified as a <b>DXGI_FORMAT</b> value. The <b>DXGI_
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getvideodecoderprofile.md">GetVideoDecoderProfile</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451670">GetVideoDecoderProfile</a>
  
 
  
-
 

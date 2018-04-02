@@ -7,7 +7,7 @@ old-location: ifsk\fsrtlinitializeextracreateparameterlist.htm
 old-project: ifsk
 ms.assetid: 79e56363-1098-42bb-8e6a-c4b4c76e7e7c
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FsRtlInitializeExtraCreateParameterList, FsRtlInitializeExtraCreateParameterList routine [Installable File System Drivers], fsrtlref_785d3f11-f568-491e-9cdb-abba70ae3eeb.xml, ifsk.fsrtlinitializeextracreateparameterlist, ntifs/FsRtlInitializeExtraCreateParameterList
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,16 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>FsRtlInitializeExtraCreateParameterList</b> routine initializes an extra create parameter (ECP) context structure list. 
 
 
-## -syntax
-
-
-````
-NTSTATUS FsRtlInitializeExtraCreateParameterList(
-  _Inout_ PECP_LIST EcpList
-);
-````
-
-
 ## -parameters
 
 
@@ -83,12 +73,11 @@ Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540148">ECP_LIST</a>
-
-
-
  
 
  
-
 

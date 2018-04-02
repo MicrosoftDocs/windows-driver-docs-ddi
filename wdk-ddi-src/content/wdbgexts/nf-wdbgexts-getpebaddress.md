@@ -7,7 +7,7 @@ old-location: debugger\getpebaddress.htm
 old-project: debugger
 ms.assetid: 314eb897-a441-41c7-8b74-a853de70e066
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: GetPebAddress, GetPebAddress function [Windows Debugging], WdbgExts_Ref_a51cb865-4701-4fbc-a075-7bcadd8ee8be.xml, debugger.getpebaddress, wdbgexts/GetPebAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The <b>GetPebAddress</b> function returns the address of the process environment block (PEB) for a system process.
 
 
-## -syntax
-
-
-````
-__inline VOID GetPebAddress(
-   ULONG64    CurrentThread,
-   PULONGLONG Address
-);
-````
-
-
 ## -parameters
 
 
@@ -73,7 +62,7 @@ __inline VOID GetPebAddress(
 
 Specifies an operating system thread whose PEB's address will be returned.
 
-In kernel-mode debugging, this is the location of the KTHREAD structure, which is returned by <a href="..\wdbgexts\nf-wdbgexts-getcurrentthreadaddr.md">GetCurrentThreadAddr</a>.  If <i>CurrentThread</i> is <b>NULL</b>, the PEB for the current process is returned.
+In kernel-mode debugging, this is the location of the KTHREAD structure, which is returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff545889">GetCurrentThreadAddr</a>.  If <i>CurrentThread</i> is <b>NULL</b>, the PEB for the current process is returned.
 
 In user-mode debugging, <i>CurrentThread</i> is ignored.
 
@@ -105,16 +94,15 @@ In kernel-mode debugging, if <i>CurrentThread</i> is <b>NULL</b>, the PEB for th
 
 ## -see-also
 
-<a href="..\wdbgexts\nf-wdbgexts-gettebaddress.md">GetTebAddress</a>
 
 
 
-<a href="..\wdbgexts\nf-wdbgexts-getcurrentthreadaddr.md">GetCurrentThreadAddr</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545889">GetCurrentThreadAddr</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549267">GetTebAddress</a>
  
 
  
-
 

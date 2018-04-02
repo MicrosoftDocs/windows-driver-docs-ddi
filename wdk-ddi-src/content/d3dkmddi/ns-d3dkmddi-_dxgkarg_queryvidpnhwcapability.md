@@ -7,7 +7,7 @@ old-location: display\dxgkarg_queryvidpnhwcapability.htm
 old-project: display
 ms.assetid: b5f8073c-9989-4413-842d-e3e295cc3470
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*INOUT_PDXGKARG_QUERYVIDPNHWCAPABILITY, DXGKARG_QUERYVIDPNHWCAPABILITY, DXGKARG_QUERYVIDPNHWCAPABILITY structure [Display Devices], DXGKARG_QUERYVIDPNHWCAPABILITY;typedef __inout DXGKARG_QUERYVIDPNHWCAPABILITY* INOUT_PDXGKARG_QUERYVIDPNHWCAPABILITY, DXGKARG_QUERYVIDPNHWCAPABILITY;typedef __inout DXGKARG_QUERYVIDPNHWCAPABILITY* INOUT_PDXGKARG_QUERYVIDPNHWCAPABILITY structure [Display Devices], DmStructs_64808a07-769c-4f57-b1c8-84a676f596a3.xml, _DXGKARG_QUERYVIDPNHWCAPABILITY, d3dkmddi/DXGKARG_QUERYVIDPNHWCAPABILITY, display.dxgkarg_queryvidpnhwcapability"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,20 +49,7 @@ req.typenames: DXGKARG_QUERYVIDPNHWCAPABILITY
 ## -description
 
 
-The DXGKARG_QUERYVIDPNHWCAPABILITY structure is used by the display miniport driver to describe the hardware capabilities of a functional VidPN in response to a call to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryvidpnhwcapability.md">DxgkDdiQueryVidPnHWCapability</a> function.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGKARG_QUERYVIDPNHWCAPABILITY {
-  D3DKMDT_HVIDPN                 hFunctionalVidPn;
-  D3DDDI_VIDEO_PRESENT_SOURCE_ID SourceId;
-  D3DDDI_VIDEO_PRESENT_TARGET_ID TargetId;
-  D3DKMDT_VIDPN_HW_CAPABILITY    VidPnHWCaps;
-} DXGKARG_QUERYVIDPNHWCAPABILITY; typedef __inout DXGKARG_QUERYVIDPNHWCAPABILITY*  INOUT_PDXGKARG_QUERYVIDPNHWCAPABILITY;
-````
+The DXGKARG_QUERYVIDPNHWCAPABILITY structure is used by the display miniport driver to describe the hardware capabilities of a functional VidPN in response to a call to the <a href="https://msdn.microsoft.com/41af9528-4497-41aa-a65d-70352aa85f8c">DxgkDdiQueryVidPnHWCapability</a> function.
 
 
 ## -struct-fields
@@ -87,7 +74,7 @@ typedef struct _DXGKARG_QUERYVIDPNHWCAPABILITY {
 
 ### -field VidPnHWCaps
 
-[out] A <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_hw_capability.md">D3DKMDT_VIDPN_HW_CAPABILITY</a> structure that describes the capabilities of the display miniport driver to perform display operations without dedicated GPU hardware support.
+[out] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff546639">D3DKMDT_VIDPN_HW_CAPABILITY</a> structure that describes the capabilities of the display miniport driver to perform display operations without dedicated GPU hardware support.
 
 
 ## -remarks
@@ -96,9 +83,9 @@ typedef struct _DXGKARG_QUERYVIDPNHWCAPABILITY {
 
 The D3DDDI_VIDEO_PRESENT_SOURCE_ID and D3DDDI_VIDEO_PRESENT_TARGET_ID data types are defined in <i>D3dukmdt.h</i>.
 
-Video present source identifiers are assigned by the operating system. <a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a>, implemented by the display miniport driver, returns the number N of video present sources supported by the display adapter. Then the operating system assigns identifiers 0, 1, 2, ... N - 1.
+Video present source identifiers are assigned by the operating system. <a href="https://msdn.microsoft.com/ffacbb39-2581-4207-841d-28ce57fbc64d">DxgkDdiStartDevice</a>, implemented by the display miniport driver, returns the number N of video present sources supported by the display adapter. Then the operating system assigns identifiers 0, 1, 2, ... N - 1.
 
-Video present target identifiers are assigned by the display miniport driver. <a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a>, implemented by the display miniport driver, returns an array of <a href="..\dispmprt\ns-dispmprt-_dxgk_child_descriptor.md">DXGK_CHILD_DESCRIPTOR</a> structures, each of which contains an identifier.
+Video present target identifiers are assigned by the display miniport driver. <a href="https://msdn.microsoft.com/eb1a0df0-6239-4d82-8477-7dd015f80b6e">DxgkDdiQueryChildRelations</a>, implemented by the display miniport driver, returns an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff561001">DXGK_CHILD_DESCRIPTOR</a> structures, each of which contains an identifier.
 
 For more information about video present sources and targets, see <a href="https://msdn.microsoft.com/62a92f00-b1da-41c2-99af-eef8140b064e">Introduction to Video Present Networks</a>.
 
@@ -107,40 +94,39 @@ For more information about video present sources and targets, see <a href="https
 
 ## -see-also
 
-<a href="..\dispmprt\ns-dispmprt-_dxgk_child_descriptor.md">DXGK_CHILD_DESCRIPTOR</a>
 
 
 
-<a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_video_present_source.md">D3DKMDT_VIDEO_PRESENT_SOURCE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546614">D3DKMDT_VIDEO_PRESENT_SOURCE</a>
 
 
 
-<a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_video_present_target.md">D3DKMDT_VIDEO_PRESENT_TARGET</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546617">D3DKMDT_VIDEO_PRESENT_TARGET</a>
 
 
 
-<a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_present_path.md">D3DKMDT_VIDPN_PRESENT_PATH</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546639">D3DKMDT_VIDPN_HW_CAPABILITY</a>
 
 
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546647">D3DKMDT_VIDPN_PRESENT_PATH</a>
 
 
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561001">DXGK_CHILD_DESCRIPTOR</a>
 
 
 
-<a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_hw_capability.md">D3DKMDT_VIDPN_HW_CAPABILITY</a>
+<a href="https://msdn.microsoft.com/eb1a0df0-6239-4d82-8477-7dd015f80b6e">DxgkDdiQueryChildRelations</a>
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryvidpnhwcapability.md">DxgkDdiQueryVidPnHWCapability</a>
+<a href="https://msdn.microsoft.com/41af9528-4497-41aa-a65d-70352aa85f8c">DxgkDdiQueryVidPnHWCapability</a>
 
 
 
+<a href="https://msdn.microsoft.com/ffacbb39-2581-4207-841d-28ce57fbc64d">DxgkDdiStartDevice</a>
  
 
  
-
 

@@ -53,20 +53,6 @@ req.product: Windows 10 or later.
 The <b>wiauGetValidFormats</b> function calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543986">IWiaMiniDrv::drvGetWiaFormatInfo</a> method and makes a list of valid formats, using a specified tymed value.
 
 
-## -syntax
-
-
-````
-HRESULT _stdcall wiauGetValidFormats(
-  _In_  IWiaMiniDrv *pDrv,
-  _In_  BYTE        *pWiasContext,
-        LONG        TymedValue,
-  _Out_ int         *pNumFormats,
-  _Out_ GUID        **ppFormatArray
-);
-````
-
-
 ## -parameters
 
 

@@ -7,7 +7,7 @@ old-location: display\dd_getd3dquerycountdata.htm
 old-project: display
 ms.assetid: 2e5877d9-a584-40fb-8e96-2ffae00df857
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DD_GETD3DQUERYCOUNTDATA, DD_GETD3DQUERYCOUNTDATA structure [Display Devices], _DD_GETD3DQUERYCOUNTDATA, d3dhal/DD_GETD3DQUERYCOUNTDATA, d3dstrct_d97e6eb4-0ecd-4459-9256-eee9bb36bb78.xml, display.dd_getd3dquerycountdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -56,17 +56,6 @@ req.typenames: DD_GETD3DQUERYCOUNTDATA
 DD_GETD3DQUERYCOUNTDATA is the data structure pointed to by the <b>lpvData</b> field of <a href="https://msdn.microsoft.com/library/windows/hardware/ff551550">DD_GETDRIVERINFODATA</a> for DD_GETDRIVERINFO2DATA queries with the type D3DGDI2_TYPE_GETD3DQUERYCOUNT.
 
 
-## -syntax
-
-
-````
-typedef struct _DD_GETD3DQUERYCOUNTDATA {
-  DD_GETDRIVERINFO2DATA gdi2;
-  DWORD                 dwNumQueries;
-} DD_GETD3DQUERYCOUNTDATA;
-````
-
-
 ## -struct-fields
 
 
@@ -74,7 +63,7 @@ typedef struct _DD_GETD3DQUERYCOUNTDATA {
 
 ### -field gdi2
 
-Specifies a <a href="..\d3dhal\ns-d3dhal-_dd_getdriverinfo2data.md">DD_GETDRIVERINFO2DATA</a> structure that contains the <b>GetDriverInfo2</b> data for the query.
+Specifies a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551548">DD_GETDRIVERINFO2DATA</a> structure that contains the <b>GetDriverInfo2</b> data for the query.
 
 
 ### -field dwNumQueries
@@ -93,24 +82,23 @@ To handle D3DGDI2_TYPE_GETD3DQUERYCOUNT, the driver must store the number of que
 
 ## -see-also
 
+
+
+
 D3DDP2OP_CREATEQUERY
 
 
 
-<a href="..\d3dhal\ns-d3dhal-_dd_getd3dquerydata.md">DD_GETD3DQUERYDATA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551541">DD_GETD3DQUERYDATA</a>
 
 
 
-<a href="..\d3dhal\ns-d3dhal-_dd_getdriverinfo2data.md">DD_GETDRIVERINFO2DATA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551548">DD_GETDRIVERINFO2DATA</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551550">DD_GETDRIVERINFODATA</a>
-
-
-
  
 
  
-
 

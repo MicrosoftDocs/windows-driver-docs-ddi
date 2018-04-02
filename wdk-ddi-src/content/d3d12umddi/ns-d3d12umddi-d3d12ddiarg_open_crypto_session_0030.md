@@ -7,7 +7,7 @@ old-location: display\d3d12ddiarg-open-crypto-session-0030.htm
 old-project: display
 ms.assetid: 8b500956-6d22-4862-b9e4-e3cb545fcc0e
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3D12DDIARG_OPEN_CRYPTO_SESSION_0030, D3D12DDIARG_OPEN_CRYPTO_SESSION_0030 structure [Display Devices], d3d12umddi/D3D12DDIARG_OPEN_CRYPTO_SESSION_0030, display.d3d12ddiarg-open-crypto-session-0030
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,17 +50,6 @@ req.typenames: D3D12DDIARG_OPEN_CRYPTO_SESSION_0030
 
 
 Opens a crypto session.
-
-
-## -syntax
-
-
-````
-typedef struct _D3D12DDIARG_OPEN_CRYPTO_SESSION_0030 {
-  CONST VOID *  pPrivateDriverData;
-  UINT          PrivateDriverDataSize;
-} D3D12DDIARG_OPEN_CRYPTO_SESSION_0030, D3D12DDIARG_OPEN_CRYPTO_SESSION_0030;
-````
 
 
 ## -struct-fields

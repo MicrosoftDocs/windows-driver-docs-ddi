@@ -54,20 +54,6 @@ The Bluetooth
   identifier (UUID).
 
 
-## -prototype
-
-
-````
-PBYTESWAPUUID128 SdpByteSwapUuid128;
-
-void SdpByteSwapUuid128(
-   GUID *pUuidFrom,
-   GUID *pUuidTo
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -112,19 +98,18 @@ The
     is connected to.
 
 Bluetooth profile drivers can obtain a pointer to this function through the 
-    <a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_parse_interface.md">BTHDDI_SDP_PARSE_INTERFACE</a>.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff536636">BTHDDI_SDP_PARSE_INTERFACE</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_parse_interface.md">BTHDDI_SDP_PARSE_INTERFACE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536636">BTHDDI_SDP_PARSE_INTERFACE</a>
  
 
  
-
 

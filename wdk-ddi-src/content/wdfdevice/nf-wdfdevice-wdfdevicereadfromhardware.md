@@ -56,21 +56,6 @@ The <b>WdfDeviceReadFromHardware</b> method is used internally by the framework.
 Instead, use the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265662">WDF Register/Port Access Functions</a>.
 
 
-## -syntax
-
-
-````
-SIZE_T WdfDeviceReadFromHardware(
-  _In_      WDFDEVICE                       Device,
-  _In_      WDF_DEVICE_HWACCESS_TARGET_TYPE Type,
-  _In_      WDF_DEVICE_HWACCESS_TARGET_SIZE Size,
-  _In_      PVOID                           TargetAddress,
-  _Out_opt_ PVOID                           Buffer,
-  _In_opt_  ULONG                           Count
-);
-````
-
-
 ## -parameters
 
 
@@ -96,12 +81,11 @@ SIZE_T WdfDeviceReadFromHardware(
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/19B472D0-D607-4874-ADB9-232C379B0DFD">ReadFromHardware</a>
-
-
-
  
 
  
-
 

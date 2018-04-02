@@ -7,7 +7,7 @@ old-location: netvista\protocoltcpoffloadevent.htm
 old-project: netvista
 ms.assetid: b64c0f9e-aa3d-43c5-bdf5-c40cae3929e3
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: ProtocolTcpOffloadEvent, ProtocolTcpOffloadEvent callback function [Network Drivers Starting with Windows Vista], TCP_OFFLOAD_EVENT_HANDLER, ndischimney/ProtocolTcpOffloadEvent, netvista.protocoltcpoffloadevent, tcp_chim_protocol_func_8cc440e3-7686-42dc-8fff-baf397394951.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -54,23 +54,8 @@ req.typenames: PD_BUFFER_VIRTUAL_SUBNET_INFO
 NDIS calls a protocol driver's or intermediate driver's 
   <i>ProtocolIndicateOffloadEvent</i> function to post an indication that was initiated by an underlying
   driver's or offload target's call to the 
-  <a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_event_indicate.md">
+  <a href="https://msdn.microsoft.com/b62e8a07-fe7b-4c52-8795-19e4bb889b6e">
   NdisTcpOffloadEventHandler</a> function.
-
-
-## -prototype
-
-
-````
-TCP_OFFLOAD_EVENT_HANDLER ProtocolTcpOffloadEvent;
-
-VOID ProtocolTcpOffloadEvent(
-  _In_ PVOID OffloadContext,
-  _In_ ULONG EventType,
-  _In_ ULONG EventSpecificInformation
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -81,10 +66,10 @@ VOID ProtocolTcpOffloadEvent(
 ### -param OffloadContext [in]
 
 A pointer to the protocol or intermediate driver's 
-     <a href="..\ndischimney\ns-ndischimney-_ndis_offload_handle.md">NDIS_OFFLOAD_HANDLE</a> structure for the
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566705">NDIS_OFFLOAD_HANDLE</a> structure for the
      TCP connection on which the indication is being made. The protocol or intermediate driver supplied this
      pointer as an input parameter to the 
-     <a href="..\ndischimney\nf-ndischimney-ndisinitiateoffload.md">NdisInitiateOffload</a> function when
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff562743">NdisInitiateOffload</a> function when
      offloading the connection.
 
 
@@ -142,7 +127,7 @@ Not meaningful.
 
 Indicates the reason for the upload request as a TCP_UPLOAD_REASON value. For more information,
        see 
-       <a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_event_indicate.md">
+       <a href="https://msdn.microsoft.com/b62e8a07-fe7b-4c52-8795-19e4bb889b6e">
        NdisTcpOffloadEventHandler</a>.
 
 
@@ -204,12 +189,11 @@ The
 
 ## -see-also
 
-<a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_event_indicate.md">NdisTcpOffloadEventHandler</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564595">NdisTcpOffloadEventHandler</a>
  
 
  
-
 

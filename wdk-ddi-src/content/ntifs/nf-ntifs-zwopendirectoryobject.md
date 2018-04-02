@@ -7,7 +7,7 @@ old-location: kernel\zwopendirectoryobject.htm
 old-project: kernel
 ms.assetid: ddff6e6e-d22f-4e22-af13-aca889eee0d4
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: NtCreateDirectoryObject, ZwOpenDirectoryObject, ZwOpenDirectoryObject routine [Kernel-Mode Driver Architecture], k111_a3aca9ff-bf76-4cd0-a15d-565201c1e132.xml, kernel.zwopendirectoryobject, ntifs/NtCreateDirectoryObject, ntifs/ZwOpenDirectoryObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,18 +51,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>ZwOpenDirectoryObject</b> routine opens an existing directory object. 
-
-
-## -syntax
-
-
-````
-NTSTATUS ZwOpenDirectoryObject(
-  _Out_ PHANDLE            DirectoryHandle,
-  _In_  ACCESS_MASK        DesiredAccess,
-  _In_  POBJECT_ATTRIBUTES ObjectAttributes
-);
-````
 
 
 ## -parameters
@@ -137,7 +125,7 @@ All of the preceding rights plus STANDARD_RIGHTS_REQUIRED.
 </table>
  
 
-These requested access types are compared with the object's discretionary access-control list (<a href="..\wdm\ns-wdm-_acl.md">DACL</a>) to determine which accesses are granted or denied.
+These requested access types are compared with the object's discretionary access-control list (<a href="https://msdn.microsoft.com/dac27df2-fabd-4402-8daf-9317888dd30b">DACL</a>) to determine which accesses are granted or denied.
 
 
 ### -param ObjectAttributes [in]
@@ -174,7 +162,7 @@ A temporary buffer required by this routine could not be allocated.
 </dl>
 </td>
 <td width="60%">
-The specified <i>ObjectAttributes</i> parameter was a <b>NULL</b> pointer, not a valid pointer to an <a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a> structure, or some of the fields specified in the OBJECT_ATTRIBUTES structure were invalid. 
+The specified <i>ObjectAttributes</i> parameter was a <b>NULL</b> pointer, not a valid pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff557749">OBJECT_ATTRIBUTES</a> structure, or some of the fields specified in the OBJECT_ATTRIBUTES structure were invalid. 
 
 </td>
 </tr>
@@ -251,7 +239,18 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538866">ACL</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547804">InitializeObjectAttributes</a>
 
 
 
@@ -259,24 +258,12 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566417">ZwClose</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwcreatedirectoryobject.md">ZwCreateDirectoryObject</a>
-
-
-
-<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566421">ZwCreateDirectoryObject</a>
  
 
  
-
 

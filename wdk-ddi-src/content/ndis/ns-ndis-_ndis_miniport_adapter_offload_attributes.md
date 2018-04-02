@@ -7,7 +7,7 @@ old-location: netvista\ndis_miniport_adapter_offload_attributes.htm
 old-project: netvista
 ms.assetid: 9ce875fc-ed3f-43e9-bfbc-081f02cb1999
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PNDIS_MINIPORT_ADAPTER_OFFLOAD_ATTRIBUTES, NDIS_MINIPORT_ADAPTER_OFFLOAD_ATTRIBUTES, NDIS_MINIPORT_ADAPTER_OFFLOAD_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], PNDIS_MINIPORT_ADAPTER_OFFLOAD_ATTRIBUTES, PNDIS_MINIPORT_ADAPTER_OFFLOAD_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], _NDIS_MINIPORT_ADAPTER_OFFLOAD_ATTRIBUTES, miniport_structures_ref_71ee0bdb-903e-4554-915b-010abe803fb3.xml, ndis/NDIS_MINIPORT_ADAPTER_OFFLOAD_ATTRIBUTES, ndis/PNDIS_MINIPORT_ADAPTER_OFFLOAD_ATTRIBUTES, netvista.ndis_miniport_adapter_offload_attributes"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,20 +53,6 @@ An NDIS miniport driver sets up an NDIS_MINIPORT_ADAPTER_OFFLOAD_ATTRIBUTES stru
   offload and connection offload attributes, if any, that are associated with a miniport adapter.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_MINIPORT_ADAPTER_OFFLOAD_ATTRIBUTES {
-  NDIS_OBJECT_HEADER           Header;
-  PNDIS_OFFLOAD                DefaultOffloadConfiguration;
-  PNDIS_OFFLOAD                HardwareOffloadCapabilities;
-  PNDIS_TCP_CONNECTION_OFFLOAD DefaultTcpConnectionOffloadConfiguration;
-  PNDIS_TCP_CONNECTION_OFFLOAD TcpConnectionOffloadHardwareCapabilities;
-} NDIS_MINIPORT_ADAPTER_OFFLOAD_ATTRIBUTES, *PNDIS_MINIPORT_ADAPTER_OFFLOAD_ATTRIBUTES;
-````
-
-
 ## -struct-fields
 
 
@@ -75,7 +61,7 @@ typedef struct _NDIS_MINIPORT_ADAPTER_OFFLOAD_ATTRIBUTES {
 ### -field Header
 
 The 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure for the
      NDIS_MINIPORT_ADAPTER_OFFLOAD_ATTRIBUTES structure. Set the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to NDIS_OBJECT_TYPE_MINIPORT_ADAPTER_OFFLOAD_ATTRIBUTES, the 
@@ -86,7 +72,7 @@ The
 ### -field DefaultOffloadConfiguration
 
 A pointer to an 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_offload.md">NDIS_OFFLOAD</a> structure that indicates the
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566599">NDIS_OFFLOAD</a> structure that indicates the
      current offload capabilities that are provided by the miniport adapter.
 
 
@@ -100,7 +86,7 @@ A pointer to an NDIS_OFFLOAD structure that indicates all the task offload capab
 ### -field DefaultTcpConnectionOffloadConfiguration
 
 A pointer to an 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_tcp_connection_offload.md">
+     <a href="https://msdn.microsoft.com/d37a773d-0a83-4592-9c21-3ceaa6454549">
      NDIS_TCP_CONNECTION_OFFLOAD</a> structure that indicates the current connection offload capabilities
      that are provided by the miniport adapter.
 
@@ -119,10 +105,10 @@ A pointer to an NDIS_TCP_CONNECTION_OFFLOAD structure that indicates all the con
 A miniport driver that supports task offload or connection offload passes a pointer to an
     NDIS_MINIPORT_ADAPTER_OFFLOAD_ATTRIBUTES structure in the 
     <i>MiniportAttributes</i> parameter of the 
-    <a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">
+    <a href="https://msdn.microsoft.com/861626af-23ea-40dc-a91a-7da42d4b0a1c">
     NdisMSetMiniportAttributes</a> function. A miniport driver calls 
     <b>NdisMSetMiniportAttributes</b> from its 
-    <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a> function
+    <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a> function
     during initialization.
 
 
@@ -130,15 +116,18 @@ A miniport driver that supports task offload or connection offload passes a poin
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_offload.md">NDIS_OFFLOAD</a>
+<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566599">NDIS_OFFLOAD</a>
 
 
 
@@ -146,16 +135,12 @@ A miniport driver that supports task offload or connection offload passes a poin
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_tcp_connection_offload.md">NDIS_TCP_CONNECTION_OFFLOAD</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567875">NDIS_TCP_CONNECTION_OFFLOAD</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563672">NdisMSetMiniportAttributes</a>
  
 
  
-
 

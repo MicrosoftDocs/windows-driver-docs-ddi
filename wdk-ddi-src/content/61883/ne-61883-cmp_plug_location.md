@@ -52,17 +52,6 @@ req.typenames: CMP_PLUG_LOCATION
 This enumeration specifies the location of a plug.
 
 
-## -syntax
-
-
-````
-typedef enum  { 
-  CMP_PlugLocal   = 0,
-  CMP_PlugRemote
-} CMP_PLUG_LOCATION;
-````
-
-
 ## -enum-fields
 
 
@@ -80,12 +69,11 @@ A remote plug.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537008">AV_61883_REQUEST</a>
-
-
-
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: netvista\ndisfreesharedmemory.htm
 old-project: netvista
 ms.assetid: 5d0a1790-cec0-4c28-85dd-5f4d7d518d63
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NdisFreeSharedMemory, NdisFreeSharedMemory function [Network Drivers Starting with Windows Vista], ndis/NdisFreeSharedMemory, ndis_shared_memory_ref_b020f3ba-6e10-422f-9342-650236ace5f8.xml, netvista.ndisfreesharedmemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -55,17 +55,6 @@ The
   provider.
 
 
-## -syntax
-
-
-````
-VOID NdisFreeSharedMemory(
-  _In_ NDIS_HANDLE NdisHandle,
-  _In_ NDIS_HANDLE AllocationHandle
-);
-````
-
-
 ## -parameters
 
 
@@ -76,7 +65,7 @@ VOID NdisFreeSharedMemory(
 An NDIS driver or instance handle that was obtained during caller initialization. This should be
      the same handle that was passed to the 
      <i>NdisHandle</i> parameter of the 
-     <a href="..\ndis\nf-ndis-ndisallocatesharedmemory.md">
+     <a href="https://msdn.microsoft.com/1e4919df-7897-44c3-876f-0f1acfe6d5af">
      NdisAllocateSharedMemory</a> function when the shared memory was allocated.
 
 
@@ -104,11 +93,11 @@ None
 An NDIS driver must call the 
     <b>NdisFreeSharedMemory</b> function to free a block of shared memory that it previously allocated with
     the 
-    <a href="..\ndis\nf-ndis-ndisallocatesharedmemory.md">
+    <a href="https://msdn.microsoft.com/1e4919df-7897-44c3-876f-0f1acfe6d5af">
     NdisAllocateSharedMemory</a> function.
 
 NDIS calls the 
-    <a href="..\ndis\nc-ndis-free_shared_memory_handler.md">NetFreeSharedMemory</a> function of a
+    <a href="https://msdn.microsoft.com/fdc3dfe7-6980-493d-ad41-aed501db3a6b">NetFreeSharedMemory</a> function of a
     shared memory provider from the context of the call to 
     <b>NdisFreeSharedMemory</b>.
 
@@ -117,16 +106,15 @@ NDIS calls the
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisallocatesharedmemory.md">NdisAllocateSharedMemory</a>
 
 
 
-<a href="..\ndis\nc-ndis-free_shared_memory_handler.md">NetFreeSharedMemory</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561616">NdisAllocateSharedMemory</a>
 
 
 
+<a href="https://msdn.microsoft.com/fdc3dfe7-6980-493d-ad41-aed501db3a6b">NetFreeSharedMemory</a>
  
 
  
-
 

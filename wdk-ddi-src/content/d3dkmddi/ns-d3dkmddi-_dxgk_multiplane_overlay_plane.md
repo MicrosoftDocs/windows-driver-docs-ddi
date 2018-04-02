@@ -7,7 +7,7 @@ old-location: display\dxgk_multiplane_overlay_plane.htm
 old-project: display
 ms.assetid: 8ea1abc7-b861-4217-a3ab-cf60026d9608
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGK_MULTIPLANE_OVERLAY_PLANE, DXGK_MULTIPLANE_OVERLAY_PLANE structure [Display Devices], _DXGK_MULTIPLANE_OVERLAY_PLANE, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_PLANE, display.dxgk_multiplane_overlay_plane
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,22 +49,7 @@ req.typenames: DXGK_MULTIPLANE_OVERLAY_PLANE
 ## -description
 
 
-Specifies an overlay plane to display in a call to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_setvidpnsourceaddresswithmultiplaneoverlay.md">DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay</a> function.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGK_MULTIPLANE_OVERLAY_PLANE {
-  UINT                               LayerIndex;
-  BOOL                               Enabled;
-  UINT                               AllocationSegment;
-  PHYSICAL_ADDRESS                   AllocationAddress;
-  HANDLE                             hAllocation;
-  DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES PlaneAttributes;
-} DXGK_MULTIPLANE_OVERLAY_PLANE;
-````
+Specifies an overlay plane to display in a call to the <a href="https://msdn.microsoft.com/95108e45-1a3a-4a75-8719-0caadb911469">DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay</a> function.
 
 
 ## -struct-fields
@@ -83,7 +68,7 @@ Indicates whether the overlay plane specified by <b>LayerIndex</b> is enabled fo
 
 If <b>FALSE</b>, the display miniport driver should disable the specified overlay plane.
 
-If a plane was enabled during a previous call to <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_setvidpnsourceaddresswithmultiplaneoverlay.md">DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay</a>, the driver should continue to display the plane without flipping it.
+If a plane was enabled during a previous call to <a href="https://msdn.microsoft.com/95108e45-1a3a-4a75-8719-0caadb911469">DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay</a>, the driver should continue to display the plane without flipping it.
 
 
 ### -field AllocationSegment
@@ -103,29 +88,28 @@ A handle to the allocation to be displayed on the overlay plane.
 
 ### -field PlaneAttributes
 
-A structure of type <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_multiplane_overlay_attributes.md">DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES</a>  that specifies overlay plane attributes.
+A structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/hh780301">DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES</a>  that specifies overlay plane attributes.
 
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_multiplane_overlay_attributes.md">DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES</a>
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_setvidpnsourceaddresswithmultiplaneoverlay.md">DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560960">DXGK_ALLOCATIONINFO</a>
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfo.md">DXGK_ALLOCATIONINFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh780301">DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES</a>
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a>
+<a href="https://msdn.microsoft.com/a28287d6-4dfa-4db4-92df-bbcd9379a5b2">DxgkDdiCreateAllocation</a>
 
 
 
+<a href="https://msdn.microsoft.com/95108e45-1a3a-4a75-8719-0caadb911469">DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay</a>
  
 
  
-
 

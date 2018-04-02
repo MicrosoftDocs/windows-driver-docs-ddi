@@ -91,7 +91,6 @@ Periodically called by the WIA mini-driver during a data transfer, to update the
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/fb830522-f95e-4dd7-8c1b-de092a6c5a51">IStream Transfer Driver Example</a>
 
 
 
@@ -103,12 +102,12 @@ Periodically called by the WIA mini-driver during a data transfer, to update the
 
 
 
+<a href="https://msdn.microsoft.com/fb830522-f95e-4dd7-8c1b-de092a6c5a51">IStream Transfer Driver Example</a>
+
+
+
 <a href="http://msdn.microsoft.com/windows/hardware/gg463512">Introduction to WIA 2.0</a>
-
-
-
  
 
  
-
 

@@ -56,17 +56,6 @@ req.product: Windows 10 or later.
 The <b>WdfCmResourceListRemove</b> method removes a resource descriptor from a specified resource list.
 
 
-## -syntax
-
-
-````
-VOID WdfCmResourceListRemove(
-  _In_ WDFCMRESLIST List,
-  _In_ ULONG        Index
-);
-````
-
-
 ## -parameters
 
 
@@ -108,7 +97,7 @@ For more information about resource lists, see <a href="https://docs.microsoft.c
 
 #### Examples
 
-The following code example removes the third resource descriptor from the raw and translated lists of hardware resources that an <a href="..\wdffdo\nc-wdffdo-evt_wdf_device_remove_added_resources.md">EvtDeviceRemoveAddedResources</a> callback function receives.
+The following code example removes the third resource descriptor from the raw and translated lists of hardware resources that an <a href="https://msdn.microsoft.com/b18c2b34-db6d-4553-9340-556da1fd7991">EvtDeviceRemoveAddedResources</a> callback function receives.
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -143,12 +132,11 @@ MyEvtDeviceRemoveAddedResources(
 
 ## -see-also
 
-<a href="..\wdfresource\nf-wdfresource-wdfcmresourcelistremovebydescriptor.md">WdfCmResourceListRemoveByDescriptor</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545717">WdfCmResourceListRemoveByDescriptor</a>
  
 
  
-
 

@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 The <b>wiasWritePropBin </b>function writes a single binary-data property value to a WIA item.
 
 
-## -syntax
-
-
-````
-HRESULT _stdcall wiasWritePropBin(
-  _In_ BYTE   *pWiasContext,
-       PROPID propid,
-       LONG   cbVal,
-  _In_ BYTE   *pbVal
-);
-````
-
-
 ## -parameters
 
 
@@ -102,28 +89,27 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
 ## -see-also
 
-<a href="..\wiamdef\nf-wiamdef-wiaswritepropguid.md">wiasWritePropGuid</a>
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiaswritepropstr.md">wiasWritePropStr</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549308">wiasReadPropBin</a>
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiaswriteproplong.md">wiasWritePropLong</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549507">wiasWritePropFloat</a>
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiasreadpropbin.md">wiasReadPropBin</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549512">wiasWritePropGuid</a>
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiaswritepropfloat.md">wiasWritePropFloat</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549515">wiasWritePropLong</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549525">wiasWritePropStr</a>
  
 
  
-
 

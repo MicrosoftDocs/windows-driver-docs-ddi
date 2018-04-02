@@ -7,7 +7,7 @@ old-location: kernel\threadstart.htm
 old-project: kernel
 ms.assetid: 4a4e4e0f-fadf-4f4c-9759-6d52ef9f663d
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: DrvrRtns_913b72f4-9f6b-4967-879d-c4e565d219dd.xml, KSTART_ROUTINE, ThreadStart, ThreadStart routine [Kernel-Mode Driver Architecture], kernel.threadstart, wdm/ThreadStart
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 The <i>ThreadStart</i> routine provides an entry point for a driver-created system thread.
 
 
-## -prototype
-
-
-````
-KSTART_ROUTINE ThreadStart;
-
-VOID ThreadStart(
-  _In_ PVOID StartContext
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -73,7 +60,7 @@ VOID ThreadStart(
 
 ### -param StartContext [in]
 
-A caller-supplied pointer to driver-defined context information that is specified in the <i>StartContext</i> parameter a previous call to <a href="..\wdm\nf-wdm-pscreatesystemthread.md">PsCreateSystemThread</a>.
+A caller-supplied pointer to driver-defined context information that is specified in the <i>StartContext</i> parameter a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff559932">PsCreateSystemThread</a>.
 
 
 ## -returns
@@ -87,12 +74,11 @@ None
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-pscreatesystemthread.md">PsCreateSystemThread</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559932">PsCreateSystemThread</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: display\d3dddiarg_dxvahd_createvideoprocessor.htm
 old-project: display
 ms.assetid: fafb1b1f-409d-4eab-a5dd-22fd1ab830d2
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDIARG_DXVAHD_CREATEVIDEOPROCESSOR, D3DDDIARG_DXVAHD_CREATEVIDEOPROCESSOR structure [Display Devices], UMDisplayDriver_param_Structs_c2d925e2-646c-46dc-9795-1a885aa64a02.xml, _D3DDDIARG_DXVAHD_CREATEVIDEOPROCESSOR, d3dumddi/D3DDDIARG_DXVAHD_CREATEVIDEOPROCESSOR, display.d3dddiarg_dxvahd_createvideoprocessor
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,17 +52,6 @@ req.typenames: D3DDDIARG_DXVAHD_CREATEVIDEOPROCESSOR
 The D3DDDIARG_DXVAHD_CREATEVIDEOPROCESSOR structure describes a Microsoft DirectX Video Acceleration (DirectX VA) video processor to create. 
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_DXVAHD_CREATEVIDEOPROCESSOR {
-  const GUID *pVPGuid;
-  HANDLE     hVideoProcessor;
-} D3DDDIARG_DXVAHD_CREATEVIDEOPROCESSOR;
-````
-
-
 ## -struct-fields
 
 
@@ -70,7 +59,7 @@ typedef struct _D3DDDIARG_DXVAHD_CREATEVIDEOPROCESSOR {
 
 ### -field pVPGuid
 
-[in] A pointer to the GUID that represents a DirectX VA video processor to create. The Microsoft Direct3D runtime can call the user-mode display driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a> function to query (D3DDDICAPS_DXVAHD_GETVPCAPS) for the capabilities of the video processors that the driver supports. Each <b>VPGuid</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_vpcaps.md">DXVAHDDDI_VPCAPS</a> structure in the array that the driver's <b>GetCaps</b> returns specifies a video processor that the driver supports.  
+[in] A pointer to the GUID that represents a DirectX VA video processor to create. The Microsoft Direct3D runtime can call the user-mode display driver's <a href="https://msdn.microsoft.com/cf6c61ce-7b53-46d0-b3ff-ed5b2b964c65">GetCaps</a> function to query (D3DDDICAPS_DXVAHD_GETVPCAPS) for the capabilities of the video processors that the driver supports. Each <b>VPGuid</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563109">DXVAHDDDI_VPCAPS</a> structure in the array that the driver's <b>GetCaps</b> returns specifies a video processor that the driver supports.  
 
 
 ### -field hVideoProcessor
@@ -80,16 +69,15 @@ typedef struct _D3DDDIARG_DXVAHD_CREATEVIDEOPROCESSOR {
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_vpcaps.md">DXVAHDDDI_VPCAPS</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_dxvahd_createvideoprocessor.md">CreateVideoProcessor</a>
+<a href="https://msdn.microsoft.com/68a7c394-4b0f-4446-a54b-5aee6cf8a913">CreateVideoProcessor</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563109">DXVAHDDDI_VPCAPS</a>
  
 
  
-
 

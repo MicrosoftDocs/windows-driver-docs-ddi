@@ -50,17 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>SERCX_BUFFER_DESCRIPTOR_INIT</b> function initializes a <a href="..\sercx\ns-sercx-sercx_buffer_descriptor.md">SERCX_BUFFER_DESCRIPTOR</a> structure.
-
-
-## -syntax
-
-
-````
-VOID SERCX_BUFFER_DESCRIPTOR_INIT(
-  _Out_ SERCX_BUFFER_DESCRIPTOR *Descriptor
-);
-````
+The <b>SERCX_BUFFER_DESCRIPTOR_INIT</b> function initializes a <a href="https://msdn.microsoft.com/library/windows/hardware/hh439539">SERCX_BUFFER_DESCRIPTOR</a> structure.
 
 
 ## -parameters
@@ -84,12 +74,11 @@ None.
 
 ## -see-also
 
-<a href="..\sercx\ns-sercx-sercx_buffer_descriptor.md">SERCX_BUFFER_DESCRIPTOR</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439539">SERCX_BUFFER_DESCRIPTOR</a>
  
 
  
-
 

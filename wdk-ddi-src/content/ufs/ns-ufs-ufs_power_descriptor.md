@@ -7,7 +7,7 @@ old-location: storage\ufs_power_descriptor.htm
 old-project: storage
 ms.assetid: FCF9DCD1-2C04-47E3-97C5-7ACC28B28C6C
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PUFS_POWER_DESCRIPTOR, PUFS_POWER_DESCRIPTOR, PUFS_POWER_DESCRIPTOR structure pointer [Storage Devices], UFS_POWER_DESCRIPTOR, UFS_POWER_DESCRIPTOR structure [Storage Devices], storage.ufs_power_descriptor, ufs/PUFS_POWER_DESCRIPTOR, ufs/UFS_POWER_DESCRIPTOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,20 +51,6 @@ req.product: Windows 10 or later.
 
 
 <b>UFS_POWER_DESCRIPTOR </b>contains information about the power capabilities and power states of the device.
-
-
-## -syntax
-
-
-````
-typedef struct _UFS_POWER_DESCRIPTOR {
-  UCHAR bLength;
-  UCHAR bDescriptorIDN;
-  UCHAR wActiveICCLevelsVCC[32];
-  UCHAR wActiveICCLevelsVCCQ[32];
-  UCHAR wActiveICCLevelsVCCQ2[32];
-} UFS_POWER_DESCRIPTOR, *PUFS_POWER_DESCRIPTOR;
-````
 
 
 ## -struct-fields

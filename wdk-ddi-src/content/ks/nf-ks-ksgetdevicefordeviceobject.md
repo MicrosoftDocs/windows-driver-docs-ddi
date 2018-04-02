@@ -53,16 +53,6 @@ req.typenames:
 The<b> KsGetDeviceForDeviceObject</b> function returns the AVStream device structure for a given functional device object.
 
 
-## -syntax
-
-
-````
-PKSDEVICE KsGetDeviceForDeviceObject(
-  _In_ PDEVICE_OBJECT FunctionalDeviceObject
-);
-````
-
-
 ## -parameters
 
 
@@ -70,38 +60,37 @@ PKSDEVICE KsGetDeviceForDeviceObject(
 
 ### -param FunctionalDeviceObject [in]
 
-A pointer to the <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> for which to return the corresponding <a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a> structure.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a> for which to return the corresponding <a href="https://msdn.microsoft.com/library/windows/hardware/ff561681">KSDEVICE</a> structure.
 
 
 ## -returns
 
 
 
-<b>KsGetDeviceForDeviceObject</b> returns a pointer to the <a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a> structure corresponding to <i>FunctionalDeviceObject</i>. It returns <b>NULL</b> if <i>FunctionalDeviceObject</i> is a child PDO.
+<b>KsGetDeviceForDeviceObject</b> returns a pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561681">KSDEVICE</a> structure corresponding to <i>FunctionalDeviceObject</i>. It returns <b>NULL</b> if <i>FunctionalDeviceObject</i> is a child PDO.
 
 
 
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
 
 
 
-<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>
 
 
 
-<a href="..\ks\nf-ks-ksgetfilterfromfileobject.md">KsGetFilterFromFileObject</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544174">DRIVER_OBJECT</a>
 
 
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561681">KSDEVICE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562620">KsGetFilterFromFileObject</a>
  
 
  
-
 

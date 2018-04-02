@@ -55,17 +55,6 @@ req.product: Windows 10 or later.
 The <b>RetrieveDeviceName</b> method retrieves the name of an underlying kernel-mode device.
 
 
-## -syntax
-
-
-````
-HRESULT RetrieveDeviceName(
-  [out]     PWSTR pDeviceName,
-  [in, out] DWORD *pdwDeviceNameLength
-);
-````
-
-
 ## -parameters
 
 
@@ -163,12 +152,11 @@ The following code example shows how to retrieve the name of an underlying kerne
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556917">IWDFDevice</a>
  
 
  
-
 

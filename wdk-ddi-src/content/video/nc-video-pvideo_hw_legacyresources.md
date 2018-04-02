@@ -7,7 +7,7 @@ old-location: display\hwvidlegacyresources.htm
 old-project: display
 ms.assetid: 015086e9-70b4-4756-9945-c9da17829e90
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: HwVidLegacyResources, HwVidLegacyResources callback function [Display Devices], PVIDEO_HW_LEGACYRESOURCES, VideoMiniport_Functions_a629bf4d-8f16-4d71-ab88-c691160a5df7.xml, display.hwvidlegacyresources, video/HwVidLegacyResources
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,22 +53,6 @@ req.product: Windows 10 or later.
 <i>HwVidLegacyResources </i>returns a list of resources that are not listed in a device's PCI configuration space but that are decoded by the device.
 
 
-## -prototype
-
-
-````
-PVIDEO_HW_LEGACYRESOURCES HwVidLegacyResources;
-
-VOID HwVidLegacyResources(
-  _In_    ULONG               VendorId,
-  _In_    ULONG               DeviceId,
-  _Inout_ PVIDEO_ACCESS_RANGE *LegacyResourceList,
-  _Inout_ PULONG              LegacyResourceCount
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -86,7 +70,7 @@ Specifies a code that identifies the particular device. This is the device ID sp
 
 ### -param *LegacyResourceList [in, out]
 
-Pointer to an array of <a href="..\video\ns-video-_video_access_range.md">VIDEO_ACCESS_RANGE</a> structures. Each structure describes a device I/O port or memory range for the graphics adapter that is not listed in PCI configuration space. 
+Pointer to an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff570498">VIDEO_ACCESS_RANGE</a> structures. Each structure describes a device I/O port or memory range for the graphics adapter that is not listed in PCI configuration space. 
 
 
 ### -param LegacyResourceCount [in, out]
@@ -107,7 +91,7 @@ None
 
 
 
-Legacy resources are those resources that are not listed in the device's PCI configuration space but that are decoded by the device. If the legacy resource list for the device is not known at compile time, a miniport driver should implement a <i>HwVidLegacyResources </i> function and initialize the <b>HwGetLegacyResources</b> member of <a href="..\video\ns-video-_video_hw_initialization_data.md">VIDEO_HW_INITIALIZATION_DATA</a> to point to this function. For example, a miniport driver that supports two devices with different sets of legacy resources would implement <i>HwVidLegacyResources </i> to report the legacy resources for a particular device at run time.
+Legacy resources are those resources that are not listed in the device's PCI configuration space but that are decoded by the device. If the legacy resource list for the device is not known at compile time, a miniport driver should implement a <i>HwVidLegacyResources </i> function and initialize the <b>HwGetLegacyResources</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff570505">VIDEO_HW_INITIALIZATION_DATA</a> to point to this function. For example, a miniport driver that supports two devices with different sets of legacy resources would implement <i>HwVidLegacyResources </i> to report the legacy resources for a particular device at run time.
 
 The resources returned by <i>HwVidLegacyResources </i> are added to the list of resources that PnP reserves for the device.
 
@@ -118,12 +102,11 @@ The resources returned by <i>HwVidLegacyResources </i> are added to the list of 
 
 ## -see-also
 
-<a href="..\video\ns-video-_video_hw_initialization_data.md">VIDEO_HW_INITIALIZATION_DATA</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570505">VIDEO_HW_INITIALIZATION_DATA</a>
  
 
  
-
 

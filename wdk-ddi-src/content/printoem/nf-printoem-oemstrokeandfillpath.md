@@ -53,25 +53,6 @@ req.product: Windows 10 or later.
 The <code>OEMStrokeAndFillPath</code> function concurrently strokes and fills a path.
 
 
-## -syntax
-
-
-````
-BOOL APIENTRY OEMStrokeAndFillPath(
-   SURFOBJ   *pso,
-   PATHOBJ   *ppo,
-   CLIPOBJ   *pco,
-   XFORMOBJ  *pxo,
-   BRUSHOBJ  *pboStroke,
-   LINEATTRS *plineattrs,
-   BRUSHOBJ  *pboFill,
-   POINTL    *pptlBrushOrg,
-   MIX       mixFill,
-   FLONG     flOptions
-);
-````
-
-
 ## -parameters
 
 

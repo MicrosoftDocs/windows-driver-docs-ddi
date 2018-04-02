@@ -53,21 +53,6 @@ req.typenames:
 The<b> KsRegisterFilterWithNoKSPins </b>function registers with DirectShow filters that have no kernel streaming pins and, therefore, do not stream in kernel mode.
 
 
-## -syntax
-
-
-````
-NTSTATUS KsRegisterFilterWithNoKSPins(
-  _In_           PDEVICE_OBJECT DeviceObject,
-  _In_     const GUID           *InterfaceClassGUID,
-  _In_           ULONG          PinCount,
-  _In_           BOOL           *PinDirection,
-  _In_           KSPIN_MEDIUM   *MediumList,
-  _In_opt_       GUID           *CategoryList
-);
-````
-
-
 ## -parameters
 
 
@@ -75,7 +60,7 @@ NTSTATUS KsRegisterFilterWithNoKSPins(
 
 ### -param DeviceObject [in]
 
-A pointer to a <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure corresponding to the device to which to register the filter.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a> structure corresponding to the device to which to register the filter.
 
 
 ### -param InterfaceClassGUID [in]
@@ -120,7 +105,7 @@ Use<b> KsRegisterFilterWithNoKSPins</b> to register TvTuners, Crossbars, and sim
 
 This function is only used to register filters that have no corresponding kernel pins. If successful, <b>KsRegisterFilterWithNoKSPins</b> creates a key in the registry that can be then used by DirectShow.
 
-If writing a BDA minidriver, consider using <a href="..\ks\nf-ks-ksfilterfactoryupdatecachedata.md">KsFilterFactoryUpdateCacheData</a> instead of this routine. See details on the reference page for <b>KsFilterFactoryUpdateCacheData</b>.
+If writing a BDA minidriver, consider using <a href="https://msdn.microsoft.com/library/windows/hardware/ff562540">KsFilterFactoryUpdateCacheData</a> instead of this routine. See details on the reference page for <b>KsFilterFactoryUpdateCacheData</b>.
 
 For more information, see <a href="https://msdn.microsoft.com/fd436406-311b-4537-994d-fbd8d92d4673">AVStream Descriptors</a> and <a href="https://msdn.microsoft.com/666d6efb-93ec-43f3-87c5-ea1a3983bfd0">Initializing an AVStream Minidriver</a>.
 
@@ -129,24 +114,23 @@ For more information, see <a href="https://msdn.microsoft.com/fd436406-311b-4537
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksfilterfactoryupdatecachedata.md">KsFilterFactoryUpdateCacheData</a>
 
 
 
-<a href="..\ks\nf-ks-ksfilterregisterpowercallbacks.md">KsFilterRegisterPowerCallbacks</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>
 
 
 
-<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544174">DRIVER_OBJECT</a>
 
 
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562540">KsFilterFactoryUpdateCacheData</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562550">KsFilterRegisterPowerCallbacks</a>
  
 
  
-
 

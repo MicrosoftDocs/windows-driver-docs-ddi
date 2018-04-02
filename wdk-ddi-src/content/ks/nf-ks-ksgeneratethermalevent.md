@@ -55,17 +55,6 @@ This function is used by clients (miniport drivers) that do not want to subscrib
 There is a check that verifies whether the miniport driver has the query interface support for a thermal manager (for example, the device is actively managed by a thermal manager). In cases of devices managed by a thermal manager, this call is rejected.
 
 
-## -syntax
-
-
-````
-void KSDDKAPI NTSTATUS NTAPI KsGenerateThermalEvent(
-  _In_ PVOID                  Object,
-  _In_ KSDEVICE_THERMAL_STATE Value
-);
-````
-
-
 ## -parameters
 
 
@@ -73,7 +62,7 @@ void KSDDKAPI NTSTATUS NTAPI KsGenerateThermalEvent(
 
 ### -param Object [in]
 
-Can be  <a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>, <a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>, or <a href="..\ks\ns-ks-_kspin.md">KSPIN</a>. Depending on the object passed, the thermal notification is sent device-wide, filter-wide, or to the pin.
+Can be  <a href="https://msdn.microsoft.com/library/windows/hardware/ff561681">KSDEVICE</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff562522">KSFILTER</a>, or <a href="https://msdn.microsoft.com/library/windows/hardware/ff563483">KSPIN</a>. Depending on the object passed, the thermal notification is sent device-wide, filter-wide, or to the pin.
 
 
 ### -param Value [in]

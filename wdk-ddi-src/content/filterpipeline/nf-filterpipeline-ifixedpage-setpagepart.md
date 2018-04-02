@@ -52,16 +52,6 @@ req.typenames: EXpsFontRestriction
 The <b>SetPagePart</b> method associates a new part with the page.
 
 
-## -syntax
-
-
-````
-HRESULT SetPagePart(
-  [in] IUnknown *pUnk
-);
-````
-
-
 ## -parameters
 
 

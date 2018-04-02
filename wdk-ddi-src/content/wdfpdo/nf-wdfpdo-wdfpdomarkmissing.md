@@ -56,16 +56,6 @@ req.product: Windows 10 or later.
 The <b>WdfPdoMarkMissing</b> method informs the framework that a device is no longer accessible.
 
 
-## -syntax
-
-
-````
-NTSTATUS WdfPdoMarkMissing(
-  _In_ WDFDEVICE Device
-);
-````
-
-
 ## -parameters
 
 
@@ -168,20 +158,19 @@ WdfFdoUnlockStaticChildListFromIteration(Device);</pre>
 
 ## -see-also
 
-<a href="..\wdffdo\nf-wdffdo-wdffdolockstaticchildlistforiteration.md">WdfFdoLockStaticChildListForIteration</a>
 
 
 
-<a href="..\wdffdo\nf-wdffdo-wdffdounlockstaticchildlistfromiteration.md">WdfFdoUnlockStaticChildListFromIteration</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547282">WdfFdoLockStaticChildListForIteration</a>
 
 
 
-<a href="..\wdffdo\nf-wdffdo-wdffdoretrievenextstaticchild.md">WdfFdoRetrieveNextStaticChild</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547293">WdfFdoRetrieveNextStaticChild</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547297">WdfFdoUnlockStaticChildListFromIteration</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: dtf\iwdtfpnpactions2_edttrystopdevicefailrestart.htm
 old-project: dtf
 ms.assetid: b205a0a4-a659-47ff-90d5-b1bb58983e36
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/29/2018
 ms.keywords: EDTTryStopDeviceFailRestart method [Windows Device Testing Framework], EDTTryStopDeviceFailRestart method [Windows Device Testing Framework], IWDTFPNPActions2 interface, EDTTryStopDeviceFailRestart,IWDTFPNPActions2.EDTTryStopDeviceFailRestart, IWDTFPNPActions2, IWDTFPNPActions2 interface [Windows Device Testing Framework], EDTTryStopDeviceFailRestart method, IWDTFPNPActions2::EDTTryStopDeviceFailRestart, dtf.iwdtfpnpactions2_edttrystopdevicefailrestart, wdtfpnpaction/IWDTFPNPActions2::EDTTryStopDeviceFailRestart
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,16 +52,6 @@ req.product: Windows 10 or later.
 
 Attempts to send an IRP_MN_STOP_DEVICE event to the target device and 
 then fail the subsequent device restart.
-
-
-## -syntax
-
-
-````
-HRESULT EDTTryStopDeviceFailRestart(
-  [out, retval] VARIANT_BOOL *pbSuccess
-);
-````
 
 
 ## -parameters
@@ -111,12 +101,11 @@ is a USB mouse, you can run this method on the parent USB controller instead.
 
 ## -see-also
 
-<a href="..\wdtfpnpaction\nn-wdtfpnpaction-iwdtfpnpactions2.md">IWDTFPNPActions2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451094">IWDTFPNPActions2</a>
  
 
  
-
 

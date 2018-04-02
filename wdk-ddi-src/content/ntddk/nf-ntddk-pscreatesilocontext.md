@@ -7,7 +7,7 @@ old-location: kernel\pscreatesilocontext.htm
 old-project: kernel
 ms.assetid: 54FD0308-7E40-40C7-BA3A-FF1EFFBE0DB6
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: PsCreateSiloContext, PsCreateSiloContext routine [Kernel-Mode Driver Architecture], kernel.pscreatesilocontext, ntddk/PsCreateSiloContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,20 +52,6 @@ req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 This routine  creates an object that will be inserted in a <i>Silo</i>.
 
 
-## -syntax
-
-
-````
-NTSTATUS PsCreateSiloContext(
-  _In_     PESILO                                 Silo,
-  _In_     ULONG                                  Size,
-  _In_     POOL_TYPE                              PoolType,
-  _In_opt_ SILO_CONTEXT_CLEANUP_CALLBACK          ContextCleanupCallback,
-           _Outptr_result_bytebuffer_(Size) PVOID *ReturnedSiloContext
-);
-````
-
-
 ## -parameters
 
 
@@ -88,7 +74,7 @@ The type of pool to allocate from. This parameter is required and must be one of
 
 ### -param ContextCleanupCallback [in, optional]
 
-A pointer to a <a href="..\ntddk\nc-ntddk-silo_context_cleanup_callback.md">SILO_CONTEXT_CLEANUP_CALLBACK</a> callback function. The function will be called when the returned object has zero references to it. This parameter is optional and can be <b>NULL</b>. 
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/mt735085">SILO_CONTEXT_CLEANUP_CALLBACK</a> callback function. The function will be called when the returned object has zero references to it. This parameter is optional and can be <b>NULL</b>. 
 
 
 ### -param ReturnedSiloContext

@@ -7,7 +7,7 @@ old-location: netvista\ndis_wwan_set_home_provider.htm
 old-project: netvista
 ms.assetid: C0B1A72D-713B-48FF-8D1A-E9752569C10E
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PNDIS_WWAN_SET_HOME_PROVIDER, NDIS_WWAN_SET_HOME_PROVIDER, NDIS_WWAN_SET_HOME_PROVIDER structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SET_HOME_PROVIDER, PNDIS_WWAN_SET_HOME_PROVIDER structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_SET_HOME_PROVIDER, ndiswwan/NDIS_WWAN_SET_HOME_PROVIDER, ndiswwan/PNDIS_WWAN_SET_HOME_PROVIDER, netvista.ndis_wwan_set_home_provider"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,17 +50,6 @@ req.typenames: NDIS_WWAN_SET_HOME_PROVIDER, *PNDIS_WWAN_SET_HOME_PROVIDER
 
 
 The NDIS_WWAN_SET_HOME_PROVIDER structure describes a home provider.
-
-
-## -syntax
-
-
-````
-typedef struct _NDIS_WWAN_SET_HOME_PROVIDER {
-  NDIS_OBJECT_HEADER Header;
-  WWAN_PROVIDER2     HomeProvider;
-} NDIS_WWAN_SET_HOME_PROVIDER, *PNDIS_WWAN_SET_HOME_PROVIDER;
-````
 
 
 ## -struct-fields
@@ -116,7 +105,7 @@ sizeof(NDIS_WWAN_SET_HOME_PROVIDER)
  
 
 For more information about these members, see 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field HomeProvider
@@ -126,12 +115,11 @@ A formatted WWAN_PROVIDER2 object that represents the details of the home provid
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_provider2.md">WWAN_PROVIDER2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh464135">WWAN_PROVIDER2</a>
  
 
  
-
 

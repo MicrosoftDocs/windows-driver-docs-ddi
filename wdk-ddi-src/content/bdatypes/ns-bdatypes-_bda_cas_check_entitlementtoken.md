@@ -52,17 +52,6 @@ req.typenames: BDA_CAS_CHECK_ENTITLEMENTTOKEN, *PBDA_CAS_CHECK_ENTITLEMENTTOKEN
 
 
 
-## -syntax
-
-
-````
-typedef struct _BDA_CAS_CHECK_ENTITLEMENTTOKEN {
-  PBDARESULT lResult;
-  ULONG      ulDescrambleStatus;
-} BDA_CAS_CHECK_ENTITLEMENTTOKEN, *PBDA_CAS_CHECK_ENTITLEMENTTOKEN;
-````
-
-
 ## -struct-fields
 
 

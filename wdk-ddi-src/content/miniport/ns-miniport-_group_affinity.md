@@ -7,7 +7,7 @@ old-location: kernel\group_affinity.htm
 old-project: kernel
 ms.assetid: 8a6fd914-94f9-4ccf-9b0a-cc102fd90965
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*PGROUP_AFFINITY, GROUP_AFFINITY, GROUP_AFFINITY structure [Kernel-Mode Driver Architecture], PGROUP_AFFINITY, PGROUP_AFFINITY structure pointer [Kernel-Mode Driver Architecture], _GROUP_AFFINITY, kernel.group_affinity, kstruct_b_9d437322-c6bb-4579-8d7b-144a7513bbd9.xml, miniport/GROUP_AFFINITY, miniport/PGROUP_AFFINITY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,18 +52,6 @@ req.typenames: GROUP_AFFINITY, *PGROUP_AFFINITY
 The <b>GROUP_AFFINITY</b> structure specifies a group number and the processor <a href="https://msdn.microsoft.com/4ef14b5b-128b-4b7c-9211-116e8bd60cab">affinity</a> within that group.
 
 
-## -syntax
-
-
-````
-typedef struct _GROUP_AFFINITY {
-  KAFFINITY Mask;
-  WORD      Group;
-  WORD      Reserved[3];
-} GROUP_AFFINITY, *PGROUP_AFFINITY;
-````
-
-
 ## -struct-fields
 
 
@@ -90,16 +78,19 @@ Reserved for future use. Set all three <b>Reserved</b> array elements to zero.
 
 This structure describes a group-specific affinity.
 
-A <b>GROUP_AFFINITY</b> structure can describe a thread affinity, which is a set of processors on which a thread is allowed to run. All of the processors in this set belong to the group that is identified by the <b>Group</b> member of the structure. The <b>Mask</b> member contains an affinity mask that identifies the processors in the set. For example, the <a href="..\wdm\nf-wdm-kesetsystemgroupaffinitythread.md">KeSetSystemGroupAffinityThread</a> and <a href="..\wdm\nf-wdm-kereverttousergroupaffinitythread.md">KeRevertToUserGroupAffinityThread</a> routines use <b>GROUP_AFFINITY</b> structures to specify thread affinities.
+A <b>GROUP_AFFINITY</b> structure can describe a thread affinity, which is a set of processors on which a thread is allowed to run. All of the processors in this set belong to the group that is identified by the <b>Group</b> member of the structure. The <b>Mask</b> member contains an affinity mask that identifies the processors in the set. For example, the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553275">KeSetSystemGroupAffinityThread</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff553195">KeRevertToUserGroupAffinityThread</a> routines use <b>GROUP_AFFINITY</b> structures to specify thread affinities.
 
-A <b>GROUP_AFFINITY</b> structure can describe an interrupt affinity, which is a set of processors on which an interrupt service routine can receive interrupts. For example, the <a href="..\wdm\nf-wdm-iogetdevicenumanode.md">IoGetDeviceNumaNode</a> routine uses <b>GROUP_AFFINITY</b> structures to specify interrupt affinities. 
+A <b>GROUP_AFFINITY</b> structure can describe an interrupt affinity, which is a set of processors on which an interrupt service routine can receive interrupts. For example, the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549191">IoGetDeviceNumaNode</a> routine uses <b>GROUP_AFFINITY</b> structures to specify interrupt affinities. 
 
 
 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kesetsystemgroupaffinitythread.md">KeSetSystemGroupAffinityThread</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549191">IoGetDeviceNumaNode</a>
 
 
 
@@ -107,16 +98,12 @@ A <b>GROUP_AFFINITY</b> structure can describe an interrupt affinity, which is a
 
 
 
-<a href="..\wdm\nf-wdm-iogetdevicenumanode.md">IoGetDeviceNumaNode</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553195">KeRevertToUserGroupAffinityThread</a>
 
 
 
-<a href="..\wdm\nf-wdm-kereverttousergroupaffinitythread.md">KeRevertToUserGroupAffinityThread</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553275">KeSetSystemGroupAffinityThread</a>
  
 
  
-
 

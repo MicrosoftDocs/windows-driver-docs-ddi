@@ -7,7 +7,7 @@ old-location: storage\storportreadregisterulong.htm
 old-project: storage
 ms.assetid: 308e6401-9726-4333-bde8-1aec9558c5fb
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: StorPortReadRegisterUlong, StorPortReadRegisterUlong routine [Storage Devices], storage.storportreadregisterulong, storport/StorPortReadRegisterUlong, storprt_dd719ccb-d625-4820-a371-dff748037a99.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -54,17 +54,6 @@ req.product: Windows 10 or later.
 The <b>StorPortReadRegisterUlong</b> routine reads a value from a specified register address. 
 
 
-## -syntax
-
-
-````
-STORPORT_API ULONG StorPortReadRegisterUlong(
-  _In_ PVOID  HwDeviceExtension,
-  _In_ PULONG Register
-);
-````
-
-
 ## -parameters
 
 
@@ -98,23 +87,22 @@ Pointer to the register where the data is to be read.
 
 
 
-For more information, see <a href="..\storport\nf-storport-scsiportreadregisterulong.md">ScsiPortReadRegisterUlong</a>. For a buffered version of this routine, see <a href="..\storport\nf-storport-storportreadregisterbufferulong.md">StorPortReadRegisterBufferUlong</a>.
+For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff564742">ScsiPortReadRegisterUlong</a>. For a buffered version of this routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff567480">StorPortReadRegisterBufferUlong</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\storport\nf-storport-scsiportreadregisterulong.md">ScsiPortReadRegisterUlong</a>
 
 
 
-<a href="..\storport\nf-storport-storportreadregisterbufferulong.md">StorPortReadRegisterBufferUlong</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564742">ScsiPortReadRegisterUlong</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567480">StorPortReadRegisterBufferUlong</a>
  
 
  
-
 

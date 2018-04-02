@@ -55,19 +55,6 @@ req.product: Windows 10 or later.
 The <b>WdfObjectQuery</b> method is not implemented.
 
 
-## -syntax
-
-
-````
-NTSTATUS WdfObjectQuery(
-  _In_  WDFOBJECT  Object,
-  _In_  CONST GUID *Guid,
-  _In_  ULONG      QueryBufferLength,
-  _Out_ PVOID      QueryBuffer
-);
-````
-
-
 ## -parameters
 
 

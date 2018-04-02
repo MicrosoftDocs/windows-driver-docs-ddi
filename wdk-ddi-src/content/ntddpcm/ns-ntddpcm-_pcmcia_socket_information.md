@@ -52,25 +52,6 @@ req.typenames: PCMCIA_SOCKET_INFORMATION, *PPCMCIA_SOCKET_INFORMATION
 The PCMCIA_SOCKET_INFORMATION structure is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537275">IOCTL_SOCKET_INFORMATION</a> request to retrieve socket configuration and state data. 
 
 
-## -syntax
-
-
-````
-typedef struct _PCMCIA_SOCKET_INFORMATION {
-  USHORT Socket;
-  USHORT TupleCrc;
-  UCHAR  Manufacturer[MANUFACTURER_NAME_LENGTH];
-  UCHAR  Identifier[DEVICE_IDENTIFIER_LENGTH];
-  UCHAR  DriverName[DRIVER_NAME_LENGTH];
-  UCHAR  DeviceFunctionId;
-  UCHAR  Reserved;
-  UCHAR  CardInSocket;
-  UCHAR  CardEnabled;
-  ULONG  ControllerType;
-} PCMCIA_SOCKET_INFORMATION, *PPCMCIA_SOCKET_INFORMATION;
-````
-
-
 ## -struct-fields
 
 
@@ -266,12 +247,11 @@ Indicates the controller type. Some common controller types are defined in the <
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537275">IOCTL_SOCKET_INFORMATION</a>
-
-
-
  
 
  
-
 

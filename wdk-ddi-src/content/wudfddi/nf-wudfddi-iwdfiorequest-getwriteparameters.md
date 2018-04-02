@@ -55,18 +55,6 @@ req.product: Windows 10 or later.
 The <b>GetWriteParameters</b> method retrieves the request parameters for a write-type request.
 
 
-## -syntax
-
-
-````
-void  GetWriteParameters(
-  [out] SIZE_T   *pSizeInBytes,
-  [out] LONGLONG *pllOffset,
-  [out] ULONG    *pulKey
-);
-````
-
-
 ## -parameters
 
 
@@ -122,16 +110,15 @@ For devices that support addressing (for example, a disk device), the value that
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558985">IWDFIoRequest</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559100">IWDFIoRequest::GetInputMemory</a>
-
-
-
  
 
  
-
 

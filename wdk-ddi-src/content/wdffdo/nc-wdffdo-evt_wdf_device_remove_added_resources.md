@@ -55,21 +55,6 @@ req.product: Windows 10 or later.
 A driver's <i>EvtDeviceRemoveAddedResources</i> event callback function removes hardware resources that the driver's <a href="https://msdn.microsoft.com/7d9b38b5-989d-45a3-8771-57a8d1f98725">EvtDeviceFilterAddResourceRequirements</a> callback function added.
 
 
-## -prototype
-
-
-````
-EVT_WDF_DEVICE_REMOVE_ADDED_RESOURCES EvtDeviceRemoveAddedResources;
-
-NTSTATUS EvtDeviceRemoveAddedResources(
-  _In_ WDFDEVICE    Device,
-  _In_ WDFCMRESLIST ResourcesRaw,
-  _In_ WDFCMRESLIST ResourcesTranslated
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -105,7 +90,7 @@ For more information about return values, see <a href="https://docs.microsoft.co
 
 
 
-Framework-based function drivers can provide an <i>EvtDeviceRemoveAddedResources</i> callback function. To register this callback function, drivers call <a href="..\wdffdo\nf-wdffdo-wdffdoinitseteventcallbacks.md">WdfFdoInitSetEventCallbacks</a>.
+Framework-based function drivers can provide an <i>EvtDeviceRemoveAddedResources</i> callback function. To register this callback function, drivers call <a href="https://msdn.microsoft.com/library/windows/hardware/ff547268">WdfFdoInitSetEventCallbacks</a>.
 
 If a driver provides an <a href="https://msdn.microsoft.com/7d9b38b5-989d-45a3-8771-57a8d1f98725">EvtDeviceFilterAddResourceRequirements</a> callback function that adds resources to a device's hardware requirements list, the driver must also provide an <i>EvtDeviceRemoveAddedResources</i> callback function. The <i>EvtDeviceRemoveAddedResources</i> callback function examines the resource list that the PnP manager has assigned to the device, and removes the resources from the list that the <i>EvtDeviceFilterAddResourceRequirements</i> callback function added. If the driver removes a resource, it must remove it from both the raw and translated resource lists.
 
@@ -160,16 +145,15 @@ The <b>EVT_WDF_DEVICE_REMOVE_ADDED_RESOURCES</b> function type is defined in the
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/7d9b38b5-989d-45a3-8771-57a8d1f98725">EvtDeviceFilterAddResourceRequirements</a>
 
 
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff540870">EvtDeviceFilterRemoveResourceRequirements</a>
-
-
-
  
 
  
-
 

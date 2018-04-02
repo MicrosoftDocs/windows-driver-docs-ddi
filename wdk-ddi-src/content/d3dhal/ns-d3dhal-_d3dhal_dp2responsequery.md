@@ -7,7 +7,7 @@ old-location: display\d3dhal_dp2responsequery.htm
 old-project: display
 ms.assetid: fda36df2-d346-47a5-b391-dd4509446ca1
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*LPD3DHAL_DP2RESPONSEQUERY, D3DHAL_DP2RESPONSEQUERY, D3DHAL_DP2RESPONSEQUERY structure [Display Devices], LPD3DHAL_DP2RESPONSEQUERY, LPD3DHAL_DP2RESPONSEQUERY structure pointer [Display Devices], _D3DHAL_DP2RESPONSEQUERY, d3dhal/D3DHAL_DP2RESPONSEQUERY, d3dhal/LPD3DHAL_DP2RESPONSEQUERY, d3dstrct_6164398f-06cc-4d18-8793-8dbbbdd63b40.xml, display.d3dhal_dp2responsequery"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,18 +53,7 @@ req.typenames: D3DHAL_DP2RESPONSEQUERY
    DirectX 9.0 and later versions only.
    
 
-One or more D3DHAL_DP2RESPONSEQUERY structure are parsed from the response buffer by the runtime after the runtime calls the <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a> callback. The driver sets the <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2response.md">D3DHAL_DP2RESPONSE</a> structure's <b>bCommand</b> member to D3DDP2OP_RESPONSEQUERY to indicate that responses to previously issued queries are available in the response buffer. 
-
-
-## -syntax
-
-
-````
-typedef struct _D3DHAL_DP2RESPONSEQUERY {
-  DWORD dwQueryID;
-  DWORD dwSize;
-} D3DHAL_DP2RESPONSEQUERY, *LPD3DHAL_DP2RESPONSEQUERY;
-````
+One or more D3DHAL_DP2RESPONSEQUERY structure are parsed from the response buffer by the runtime after the runtime calls the <a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a> callback. The driver sets the <a href="https://msdn.microsoft.com/library/windows/hardware/ff545710">D3DHAL_DP2RESPONSE</a> structure's <b>bCommand</b> member to D3DDP2OP_RESPONSEQUERY to indicate that responses to previously issued queries are available in the response buffer. 
 
 
 ## -struct-fields
@@ -86,13 +75,13 @@ Specifies the size, in bytes, of the query information that the driver returns t
 
 
 
-The runtime uses the D3DDP2OP_ISSUEQUERY command to request that the driver process queries. The driver's <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a> callback should process <b>wPrimitiveCount </b><a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2issuequery.md">D3DHAL_DP2ISSUEQUERY</a> query structures from the command buffer. The value of <b>wPrimitiveCount </b> is specified in the <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a> structure. The driver parses these query structures and translates them to its hardware specific commands. 
+The runtime uses the D3DDP2OP_ISSUEQUERY command to request that the driver process queries. The driver's <a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a> callback should process <b>wPrimitiveCount </b><a href="https://msdn.microsoft.com/library/windows/hardware/ff545638">D3DHAL_DP2ISSUEQUERY</a> query structures from the command buffer. The value of <b>wPrimitiveCount </b> is specified in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff545454">D3DHAL_DP2COMMAND</a> structure. The driver parses these query structures and translates them to its hardware specific commands. 
 
-If previously submitted queries using the D3DDP2OP_ISSUEQUERY operation completed, the driver sets the size of the response buffer in the dwErrorOffset member of the <a href="..\d3dhal\ns-d3dhal-_d3dhal_drawprimitives2data.md">D3DHAL_DRAWPRIMITIVES2DATA</a> structure and sets the <b>ddrval</b> member of D3DHAL_DRAWPRIMITIVES2DATA to D3D_OK for successful completion. The driver also overwrites the incoming command buffer with the outgoing response buffer. Each D3DHAL_DP2RESPONSEQUERY in the response buffer is followed by the following data related to the query: 
+If previously submitted queries using the D3DDP2OP_ISSUEQUERY operation completed, the driver sets the size of the response buffer in the dwErrorOffset member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff545957">D3DHAL_DRAWPRIMITIVES2DATA</a> structure and sets the <b>ddrval</b> member of D3DHAL_DRAWPRIMITIVES2DATA to D3D_OK for successful completion. The driver also overwrites the incoming command buffer with the outgoing response buffer. Each D3DHAL_DP2RESPONSEQUERY in the response buffer is followed by the following data related to the query: 
 
 <ul>
 <li>
-BOOL for D3DQUERYTYPE_EVENT. Before responding with D3DDP2OP_RESPONSEQUERY for an event, the driver must ensure that the graphics processing unit (GPU) is finished processing all <a href="..\d3dhal\ne-d3dhal-_d3dhal_dp2operation.md">D3DHAL_DP2OPERATION</a> operations that are related to the event. That is, the driver only responds after the event's ISSUE_END state occurs. The driver must always set the event's BOOL value to <b>TRUE</b> when responding.
+BOOL for D3DQUERYTYPE_EVENT. Before responding with D3DDP2OP_RESPONSEQUERY for an event, the driver must ensure that the graphics processing unit (GPU) is finished processing all <a href="https://msdn.microsoft.com/library/windows/hardware/ff545678">D3DHAL_DP2OPERATION</a> operations that are related to the event. That is, the driver only responds after the event's ISSUE_END state occurs. The driver must always set the event's BOOL value to <b>TRUE</b> when responding.
 
 </li>
 <li>
@@ -101,7 +90,7 @@ DWORD for D3DQUERYTYPE_OCCLUSION. The driver sets this DWORD to the number of pi
 </li>
 <li>
 
-<a href="..\d3d9types\ns-d3d9types-_d3ddevinfo_vcache.md">D3DDEVINFO_VCACHE</a> structure for D3DQUERYTYPE_VCACHE.
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544702">D3DDEVINFO_VCACHE</a> structure for D3DQUERYTYPE_VCACHE.
 
 </li>
 </ul>
@@ -112,23 +101,10 @@ The runtime parses the returned response buffer and updates its internal data st
 
 ## -see-also
 
-<a href="..\d3d9types\ns-d3d9types-_d3ddevinfo_vcache.md">D3DDEVINFO_VCACHE</a>
 
 
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_drawprimitives2data.md">D3DHAL_DRAWPRIMITIVES2DATA</a>
-
-
-
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
-
-
-
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2response.md">D3DHAL_DP2RESPONSE</a>
-
-
-
-D3DDP2OP_RESPONSEQUERY
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544702">D3DDEVINFO_VCACHE</a>
 
 
 
@@ -136,16 +112,28 @@ D3DDP2OP_ISSUEQUERY
 
 
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2issuequery.md">D3DHAL_DP2ISSUEQUERY</a>
+D3DDP2OP_RESPONSEQUERY
 
 
 
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545454">D3DHAL_DP2COMMAND</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545638">D3DHAL_DP2ISSUEQUERY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545710">D3DHAL_DP2RESPONSE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545957">D3DHAL_DRAWPRIMITIVES2DATA</a>
+
+
+
+<a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a>
  
 
  
-
 

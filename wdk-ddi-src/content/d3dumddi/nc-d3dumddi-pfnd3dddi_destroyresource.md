@@ -7,7 +7,7 @@ old-location: display\destroyresource.htm
 old-project: display
 ms.assetid: 1af85315-4367-49de-9453-eef62c838c97
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DestroyResource, DestroyResource callback function [Display Devices], PFND3DDDI_DESTROYRESOURCE, UserModeDisplayDriver_Functions_7d6c0444-aa22-4348-9da4-9708414284e9.xml, d3dumddi/DestroyResource, display.destroyresource
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,20 +52,6 @@ req.typenames: DXGK_PTE
 The <b>DestroyResource</b> function releases a specified resource.
 
 
-## -prototype
-
-
-````
-PFND3DDDI_DESTROYRESOURCE DestroyResource;
-
-__checkReturn HRESULT APIENTRY DestroyResource(
-  _In_ HANDLE hDevice,
-  _In_ HANDLE hResource
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -76,7 +62,7 @@ __checkReturn HRESULT APIENTRY DestroyResource(
  A handle to the display device (graphics context) that is used to destroy the resource.
 
 
-### -param HANDLE
+### -param Arg1
 
 
 
@@ -87,7 +73,7 @@ __checkReturn HRESULT APIENTRY DestroyResource(
 
 #### - hResource [in]
 
- A handle to the resource that the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createresource.md">CreateResource</a> or <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_openresource.md">OpenResource</a> function created.
+ A handle to the resource that the <a href="https://msdn.microsoft.com/5b74c989-1a62-4415-a19a-dd0ba2fcff83">CreateResource</a> or <a href="https://msdn.microsoft.com/e3f5cec2-391b-40f9-8a4b-afe6b8de2954">OpenResource</a> function created.
 
 
 ## -returns
@@ -103,9 +89,9 @@ __checkReturn HRESULT APIENTRY DestroyResource(
 
 
 
-After the Microsoft Direct3D runtime calls the user-mode display driver's <b>DestroyResource</b> function, the user-mode display driver must first flush any batched commands that depend on the resource that is being destroyed by calling the runtime's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rendercb.md">pfnRenderCb</a> function. The driver must then call the runtime's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_deallocatecb.md">pfnDeallocateCb</a> function to destroy allocations that are associated with the resource. 
+After the Microsoft Direct3D runtime calls the user-mode display driver's <b>DestroyResource</b> function, the user-mode display driver must first flush any batched commands that depend on the resource that is being destroyed by calling the runtime's <a href="https://msdn.microsoft.com/f242162e-6237-469c-b178-5a51dcf69e32">pfnRenderCb</a> function. The driver must then call the runtime's <a href="https://msdn.microsoft.com/2ffa0367-0451-45d2-be05-e450c45be116">pfnDeallocateCb</a> function to destroy allocations that are associated with the resource. 
 
-<div class="alert"><b>Note</b>    The driver's <b>DestroyResource</b> function is not required to call <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_deallocatecb.md">pfnDeallocateCb</a> before returning; instead, the driver can defer allocation destruction.</div>
+<div class="alert"><b>Note</b>    The driver's <b>DestroyResource</b> function is not required to call <a href="https://msdn.microsoft.com/2ffa0367-0451-45d2-be05-e450c45be116">pfnDeallocateCb</a> before returning; instead, the driver can defer allocation destruction.</div>
 <div> </div>
 <div class="alert"><b>Note</b>    A separate <b>DestroyResource</b> call is not made for each surface that is part of the resource. So, if a group of surfaces is atomically created, the group is always atomically destroyed as well. </div>
 <div> </div>
@@ -116,28 +102,27 @@ For more information about creating and destroying resources, see <a href="https
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_deallocatecb.md">pfnDeallocateCb</a>
+<a href="https://msdn.microsoft.com/5b74c989-1a62-4415-a19a-dd0ba2fcff83">CreateResource</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_openresource.md">OpenResource</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544519">D3DDDI_DEVICEFUNCS</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createresource.md">CreateResource</a>
+<a href="https://msdn.microsoft.com/e3f5cec2-391b-40f9-8a4b-afe6b8de2954">OpenResource</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rendercb.md">pfnRenderCb</a>
+<a href="https://msdn.microsoft.com/2ffa0367-0451-45d2-be05-e450c45be116">pfnDeallocateCb</a>
 
 
 
+<a href="https://msdn.microsoft.com/f242162e-6237-469c-b178-5a51dcf69e32">pfnRenderCb</a>
  
 
  
-
 

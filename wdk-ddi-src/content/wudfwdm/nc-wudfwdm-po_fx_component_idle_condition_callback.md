@@ -7,7 +7,7 @@ old-location: kernel\componentidleconditioncallback.htm
 old-project: kernel
 ms.assetid: 785DF693-DB7A-4675-9F33-200F17093333
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 2/24/2018
 ms.keywords: ComponentIdleConditionCallback, ComponentIdleConditionCallback routine [Kernel-Mode Driver Architecture], PO_FX_COMPONENT_IDLE_CONDITION_CALLBACK, kernel.componentidleconditioncallback, wdm/ComponentIdleConditionCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -146,16 +146,17 @@ The PO_FX_COMPONENT_IDLE_CONDITION_CALLBACK function type is defined in the Wdm.
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-pofxcompleteidlecondition.md">PoFxCompleteIdleCondition</a>
-
-
-
 <a href="..\wudfwdm\ns-wudfwdm-_po_fx_device_v1.md">PO_FX_DEVICE</a>
 
 
 
- 
+<a href="..\wdm\nf-wdm-pofxcompleteidlecondition.md">PoFxCompleteIdleCondition</a>
+
+
 
  
 
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ComponentIdleConditionCallback routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: storage\ioctl_changer_exchange_medium.htm
 old-project: storage
 ms.assetid: 76f17ee0-5b81-4325-a295-4a6982b49b73
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_CHANGER_EXCHANGE_MEDIUM, IOCTL_CHANGER_EXCHANGE_MEDIUM control code [Storage Devices], k307_c132f9e2-bb9c-43b7-85c2-644f2b24acea.xml, ntddchgr/IOCTL_CHANGER_EXCHANGE_MEDIUM, storage.ioctl_changer_exchange_medium
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -63,7 +63,7 @@ Moves a piece of media from a source element to one destination and the piece of
 ### -input-buffer
 
 
-        The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains the <a href="..\ntddchgr\ns-ntddchgr-_changer_exchange_medium.md">CHANGER_EXCHANGE_MEDIUM</a> data, which indicates the source, both destinations, and whether either or both media should be flipped, assuming the device supports two-sided media. 
+        The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551464">CHANGER_EXCHANGE_MEDIUM</a> data, which indicates the source, both destinations, and whether either or both media should be flipped, assuming the device supports two-sided media. 
 
 
 ### -input-buffer-length
@@ -106,16 +106,15 @@ The <b>Information</b> field is set to zero. The <b>Status</b> field is set to S
 
 ## -see-also
 
-<a href="..\ntddchgr\ns-ntddchgr-_changer_exchange_medium.md">CHANGER_EXCHANGE_MEDIUM</a>
 
 
 
-<a href="..\mcd\nf-mcd-changerexchangemedium.md">ChangerExchangeMedium</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551464">CHANGER_EXCHANGE_MEDIUM</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551421">ChangerExchangeMedium</a>
  
 
  
-
 

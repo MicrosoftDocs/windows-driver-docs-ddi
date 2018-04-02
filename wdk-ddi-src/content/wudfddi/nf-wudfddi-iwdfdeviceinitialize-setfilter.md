@@ -55,14 +55,6 @@ req.product: Windows 10 or later.
 The <b>SetFilter</b> method sets the property that enables a device as a filter device.
 
 
-## -syntax
-
-
-````
-void SetFilter();
-````
-
-
 ## -parameters
 
 
@@ -102,16 +94,15 @@ For a code example of how to use the <b>SetFilter</b> method, see <a href="https
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdeviceinitialize.md">IWDFDeviceInitialize</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556965">IWDFDeviceInitialize</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>
-
-
-
  
 
  
-
 

@@ -55,14 +55,6 @@ req.product: Windows 10 or later.
 The <b>IsCanceled</b> method determines whether the I/O manager has attempted to cancel an I/O request.
 
 
-## -syntax
-
-
-````
-BOOL IsCanceled();
-````
-
-
 ## -parameters
 
 
@@ -124,15 +116,6 @@ In the following code example, if <b>IsCanceled</b> returns <b>TRUE</b>, the dri
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559163">IWDFIoRequest::UnmarkCancelable</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559146">IWDFIoRequest::MarkCancelable</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest2.md">IWDFIoRequest2</a>
 
 
 
@@ -140,8 +123,16 @@ In the following code example, if <b>IsCanceled</b> returns <b>TRUE</b>, the dri
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558988">IWDFIoRequest2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559146">IWDFIoRequest::MarkCancelable</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559163">IWDFIoRequest::UnmarkCancelable</a>
  
 
  
-
 

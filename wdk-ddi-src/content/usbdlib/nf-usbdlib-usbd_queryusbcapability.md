@@ -7,7 +7,7 @@ old-location: buses\usbd_getcapability.htm
 old-project: usbref
 ms.assetid: 982B52A2-5BC1-4390-AE44-C3D31E2FC3DB
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: USBD_QueryUsbCapability, USBD_QueryUsbCapability routine [Buses], buses.usbd_getcapability, usbdlib/USBD_QueryUsbCapability
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,23 +51,9 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>USBD_QueryUsbCapability</b> routine is called by a WDM client driver to determine whether the underlying USB driver stack and the host controller hardware support a specific capability. <b>Note for Windows Driver Framework (WDF) Drivers:  </b>If your client driver is a WDF-based driver, then you must call the <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicequeryusbcapability.md">WdfUsbTargetDeviceQueryUsbCapability</a> method instead of <b>USBD_QueryUsbCapability</b>.
+The <b>USBD_QueryUsbCapability</b> routine is called by a WDM client driver to determine whether the underlying USB driver stack and the host controller hardware support a specific capability. <b>Note for Windows Driver Framework (WDF) Drivers:  </b>If your client driver is a WDF-based driver, then you must call the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439434">WdfUsbTargetDeviceQueryUsbCapability</a> method instead of <b>USBD_QueryUsbCapability</b>.
 
 
-
-
-## -syntax
-
-
-````
-NTSTATUS USBD_QueryUsbCapability(
-  _In_      USBD_HANDLE USBDHandle,
-  _In_      PGUID       CapabilityType,
-  _In_      ULONG       OutputBufferLength,
-  _Inout_   PUCHAR      OutputBuffer,
-  _Out_opt_ PULONG      ResultLength
-);
-````
 
 
 ## -parameters
@@ -77,7 +63,7 @@ NTSTATUS USBD_QueryUsbCapability(
 
 ### -param USBDHandle [in]
 
-USBD handle that is retrieved by the client driver in a previous call to  the <a href="..\usbdlib\nf-usbdlib-usbd_createhandle.md">USBD_CreateHandle</a> routine.
+USBD handle that is retrieved by the client driver in a previous call to  the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406241">USBD_CreateHandle</a> routine.
 
 
 ### -param CapabilityType [in]
@@ -186,9 +172,9 @@ The specified capability is not supported either by the host controller hardware
 
 Windows 8 includes a new USB driver stack to support USB 3.0 devices. The new USB driver stack provides several  new capabilities defined such as, stream support and chained MDLs that can be used by a client driver.
 
-A client driver can determine the version of the underlying USB driver stack by calling the <a href="..\usbdlib\nf-usbdlib-usbd_isinterfaceversionsupported.md">IsInterfaceVersionSupported</a> routine. 
+A client driver can determine the version of the underlying USB driver stack by calling the <a href="https://msdn.microsoft.com/AEA5B6AA-8EEA-4D82-9991-1DE32BAE7DCE">IsInterfaceVersionSupported</a> routine. 
 
-The client driver can use the new capabilities <i>only if</i> the underlying USB driver stack <i>and</i> hardware support them.  For example, in order to send I/O requests to a particular stream associated with a bulk endpoint, the underlying USB driver stack, the endpoint, and the host controller hardware must support the static streams capability. The client driver <i>must not</i> call <a href="..\usbdlib\nf-usbdlib-usbd_isinterfaceversionsupported.md">IsInterfaceVersionSupported</a>  and assume the capabilities of the driver stack. Instead, the client driver <i>must</i>  always call  <b>USBD_QueryUsbCapability</b> to determine whether the USB driver stack and hardware support a particular capability. 
+The client driver can use the new capabilities <i>only if</i> the underlying USB driver stack <i>and</i> hardware support them.  For example, in order to send I/O requests to a particular stream associated with a bulk endpoint, the underlying USB driver stack, the endpoint, and the host controller hardware must support the static streams capability. The client driver <i>must not</i> call <a href="https://msdn.microsoft.com/AEA5B6AA-8EEA-4D82-9991-1DE32BAE7DCE">IsInterfaceVersionSupported</a>  and assume the capabilities of the driver stack. Instead, the client driver <i>must</i>  always call  <b>USBD_QueryUsbCapability</b> to determine whether the USB driver stack and hardware support a particular capability. 
 
 The following table describes the USB-specific capabilities that a client driver can query through a <b>USBD_QueryUsbCapability</b> call. 
 
@@ -200,7 +186,7 @@ The following table describes the USB-specific capabilities that a client driver
 <tr>
 <td>GUID_USB_CAPABILITY_CHAINED_MDLS</td>
 <td>
-If the USB driver stack supports chained MDLs, the client driver can provide the transfer data as a chain of MDLs  that reference segmented buffers in physical memory. For more information, see <a href="..\wdm\ns-wdm-_mdl.md">MDL</a>. Chained MDLs preclude the need for allocating and copying memory to create virtually contiguous buffers and therefore make I/O transfers more efficient. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/hh450848">How to Send Chained MDLs</a>.
+If the USB driver stack supports chained MDLs, the client driver can provide the transfer data as a chain of MDLs  that reference segmented buffers in physical memory. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554414">MDL</a>. Chained MDLs preclude the need for allocating and copying memory to create virtually contiguous buffers and therefore make I/O transfers more efficient. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/hh450848">How to Send Chained MDLs</a>.
 
 </td>
 </tr>
@@ -445,12 +431,11 @@ VOID QueryUsbDriverStackCaps (PDEVICE_OBJECT fdo)
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540134">USB device driver programming reference</a>
-
-
-
  
 
  
-
 

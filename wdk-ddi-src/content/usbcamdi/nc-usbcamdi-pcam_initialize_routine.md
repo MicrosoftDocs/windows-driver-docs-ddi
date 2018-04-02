@@ -53,20 +53,6 @@ req.product: Windows 10 or later.
 A camera minidriver's callback function initializes the device or  performs any minidriver-specific clean-up that is required. 
 
 
-## -prototype
-
-
-````
-PCAM_INITIALIZE_ROUTINE MyInitialize;
-
-NTSTATUS MyInitialize(
-   PDEVICE_OBJECT BusDeviceObject,
-   PVOID          DeviceContext
-)
-{ ... }
-````
-
-
 ## -parameters
 
 

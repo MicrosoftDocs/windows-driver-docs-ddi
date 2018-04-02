@@ -7,7 +7,7 @@ old-location: buses\_default_endpoint_update.htm
 old-project: usbref
 ms.assetid: 3E85D9AE-F8D3-4763-B1A2-51F95D00422D
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PDEFAULT_ENDPOINT_UPDATE, DEFAULT_ENDPOINT_UPDATE, DEFAULT_ENDPOINT_UPDATE structure [Buses], P_DEFAULT_ENDPOINT_UPDATE, P_DEFAULT_ENDPOINT_UPDATE structure pointer [Buses], _DEFAULT_ENDPOINT_UPDATE, buses._default_endpoint_update, ucxendpoint/P_DEFAULT_ENDPOINT_UPDATE, ucxendpoint/_DEFAULT_ENDPOINT_UPDATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,23 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-Contains the handle to the default endpoint to update in a framework request that is passed by UCX when it invokes <a href="..\ucxendpoint\nc-ucxendpoint-evt_ucx_default_endpoint_update.md">EVT_UCX_DEFAULT_ENDPOINT_UPDATE</a> callback function.
-
-
-## -syntax
-
-
-````
-typedef struct _DEFAULT_ENDPOINT_UPDATE {
-#if __cplusplus
-  USBDEVICE_MGMT_HEADER Header;
-#else 
-  USBDEVICE_MGMT_HEADER ;
-#endif 
-  UCXENDPOINT           DefaultEndpoint;
-  ULONG                 MaxPacketSize;
-} DEFAULT_ENDPOINT_UPDATE, *P_DEFAULT_ENDPOINT_UPDATE;
-````
+Contains the handle to the default endpoint to update in a framework request that is passed by UCX when it invokes <a href="https://msdn.microsoft.com/library/windows/hardware/mt187824">EVT_UCX_DEFAULT_ENDPOINT_UPDATE</a> callback function.
 
 
 ## -struct-fields
@@ -76,7 +60,7 @@ typedef struct _DEFAULT_ENDPOINT_UPDATE {
 
 ### -field Header
 
-A <a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_mgmt_header.md">USBDEVICE_MGMT_HEADER</a> structure that contains header information related to the USB device or hub endpoint.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/mt188075">USBDEVICE_MGMT_HEADER</a> structure that contains header information related to the USB device or hub endpoint.
 
 
 ### -field DefaultEndpoint
@@ -91,12 +75,11 @@ The maximum packet size of the default endpoint.
 
 ## -see-also
 
-<a href="..\ucxendpoint\nc-ucxendpoint-evt_ucx_default_endpoint_update.md">EVT_UCX_DEFAULT_ENDPOINT_UPDATE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt187824">EVT_UCX_DEFAULT_ENDPOINT_UPDATE</a>
  
 
  
-
 

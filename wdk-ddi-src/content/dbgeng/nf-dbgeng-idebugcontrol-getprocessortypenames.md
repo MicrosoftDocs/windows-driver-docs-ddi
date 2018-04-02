@@ -7,7 +7,7 @@ old-location: debugger\getprocessortypenames.htm
 old-project: debugger
 ms.assetid: cee254a5-7b77-4cab-b02c-69b1f9e3fe02
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: GetProcessorTypeNames method [Windows Debugging], GetProcessorTypeNames method [Windows Debugging], IDebugControl interface, GetProcessorTypeNames method [Windows Debugging], IDebugControl2 interface, GetProcessorTypeNames method [Windows Debugging], IDebugControl3 interface, GetProcessorTypeNames,IDebugControl.GetProcessorTypeNames, IDebugControl, IDebugControl interface [Windows Debugging], GetProcessorTypeNames method, IDebugControl2 interface [Windows Debugging], GetProcessorTypeNames method, IDebugControl2::GetProcessorTypeNames, IDebugControl3 interface [Windows Debugging], GetProcessorTypeNames method, IDebugControl3::GetProcessorTypeNames, IDebugControl::GetProcessorTypeNames, IDebugControl_f14b5f52-cf94-458b-bd1e-61c3ad66a597.xml, dbgeng/IDebugControl2::GetProcessorTypeNames, dbgeng/IDebugControl3::GetProcessorTypeNames, dbgeng/IDebugControl::GetProcessorTypeNames, debugger.getprocessortypenames
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,22 +52,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetProcessorTypeNames</b>  method returns the full name and abbreviated name of the specified processor type.
-
-
-## -syntax
-
-
-````
-HRESULT GetProcessorTypeNames(
-  [in]            ULONG  Type,
-  [out, optional] PSTR   FullNameBuffer,
-  [in]            ULONG  FullNameBufferSize,
-  [out, optional] PULONG FullNameSize,
-  [out, optional] PSTR   AbbrevNameBuffer,
-  [in]            ULONG  AbbrevNameBufferSize,
-  [out, optional] PULONG AbbrevNameSize
-);
-````
 
 
 ## -parameters
@@ -160,7 +144,6 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 
 
@@ -168,16 +151,16 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550508">IDebugControl</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550512">IDebugControl2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550519">IDebugControl3</a>
  
 
  
-
 

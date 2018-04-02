@@ -7,7 +7,7 @@ old-location: debugger\getsystemversionstring.htm
 old-project: debugger
 ms.assetid: a32226bf-4be9-4d0b-8fe9-3ff48a43ca07
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: GetSystemVersionString method [Windows Debugging], GetSystemVersionString method [Windows Debugging], IDebugControl4 interface, GetSystemVersionString,IDebugControl4.GetSystemVersionString, IDebugControl4, IDebugControl4 interface [Windows Debugging], GetSystemVersionString method, IDebugControl4::GetSystemVersionString, IDebugControl_4adaed37-7034-4c64-9064-466706a2951e.xml, dbgeng/IDebugControl4::GetSystemVersionString, debugger.getsystemversionstring
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,19 +50,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetSystemVersionString</b>  method returns a string that describes the target's operating system version.
-
-
-## -syntax
-
-
-````
-HRESULT GetSystemVersionString(
-  [in]            ULONG  Which,
-  [out, optional] PSTR   Buffer,
-  [in]            ULONG  BufferSize,
-  [out, optional] PULONG StringSize
-);
-````
 
 
 ## -parameters
@@ -168,11 +155,6 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549258">GetSystemVersionValues</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
 
 
 
@@ -180,8 +162,12 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549258">GetSystemVersionValues</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550526">IDebugControl4</a>
  
 
  
-
 

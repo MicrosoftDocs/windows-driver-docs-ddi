@@ -53,18 +53,6 @@ req.typenames:
 The<b> KsFilterCreatePinFactory</b> function creates a new pin factory on the specified filter.
 
 
-## -syntax
-
-
-````
-NTSTATUS KsFilterCreatePinFactory(
-  _In_        PKSFILTER           Filter,
-  _In_  const KSPIN_DESCRIPTOR_EX *PinDescriptor,
-  _Out_       PULONG              PinID
-);
-````
-
-
 ## -parameters
 
 
@@ -72,12 +60,12 @@ NTSTATUS KsFilterCreatePinFactory(
 
 ### -param Filter [in]
 
-A pointer to a <a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a> structure for which to create a new pin factory.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff562522">KSFILTER</a> structure for which to create a new pin factory.
 
 
 ### -param PinDescriptor [in]
 
-A pointer to a <a href="..\ks\ns-ks-_kspin_descriptor_ex.md">KSPIN_DESCRIPTOR_EX</a> structure that describes the pins this factory will create.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563534">KSPIN_DESCRIPTOR_EX</a> structure that describes the pins this factory will create.
 
 
 ### -param PinID [out]
@@ -105,12 +93,11 @@ Note that the filter control mutex must be held before calling this function. Fo
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksfiltercreatenode.md">KsFilterCreateNode</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562528">KsFilterCreateNode</a>
  
 
  
-
 

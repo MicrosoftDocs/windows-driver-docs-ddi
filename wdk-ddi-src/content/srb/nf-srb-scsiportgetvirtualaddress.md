@@ -7,7 +7,7 @@ old-location: storage\scsiportgetvirtualaddress.htm
 old-project: storage
 ms.assetid: 8e9a247a-f906-4f0e-8249-b67a042aada5
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: ScsiPortGetVirtualAddress, ScsiPortGetVirtualAddress routine [Storage Devices], scsiprt_4f474eed-75d3-47cd-9473-37d0d15310de.xml, srb/ScsiPortGetVirtualAddress, storage.scsiportgetvirtualaddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -54,17 +54,6 @@ req.product: Windows 10 or later.
 The <b>ScsiPortGetVirtualAddress</b> routine returns a virtual address associated with a physical address if the physical address was obtained by a call to <b>ScsiPortGetPhysicalAddress</b>.
 <div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
-## -syntax
-
-
-````
-PVOID ScsiPortGetVirtualAddress(
-  _In_ PVOID                 HwDeviceExtension,
-  _In_ SCSI_PHYSICAL_ADDRESS PhysicalAddress
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +61,7 @@ PVOID ScsiPortGetVirtualAddress(
 
 ### -param HwDeviceExtension [in]
 
-Pointer to the hardware device extension. This is a per-HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the HBA's mapped access ranges. This area is available to the miniport driver in the <b>DeviceExtension-&gt;HwDeviceExtension</b> member of the HBA's device object immediately after the miniport driver calls <a href="..\srb\nf-srb-scsiportinitialize.md">ScsiPortInitialize</a>. The port driver frees this memory when it removes the device. 
+Pointer to the hardware device extension. This is a per-HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the HBA's mapped access ranges. This area is available to the miniport driver in the <b>DeviceExtension-&gt;HwDeviceExtension</b> member of the HBA's device object immediately after the miniport driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff564645">ScsiPortInitialize</a>. The port driver frees this memory when it removes the device. 
 
 
 ### -param PhysicalAddress [in]
@@ -115,16 +104,15 @@ The <b>SCSI_PHYSICAL_ADDRESS</b> type is an operating system-independent data ty
 
 ## -see-also
 
-<a href="..\srb\nf-srb-scsiportgetuncachedextension.md">ScsiPortGetUncachedExtension</a>
 
 
 
-<a href="..\srb\nf-srb-scsiportgetphysicaladdress.md">ScsiPortGetPhysicalAddress</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564636">ScsiPortGetPhysicalAddress</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564639">ScsiPortGetUncachedExtension</a>
  
 
  
-
 

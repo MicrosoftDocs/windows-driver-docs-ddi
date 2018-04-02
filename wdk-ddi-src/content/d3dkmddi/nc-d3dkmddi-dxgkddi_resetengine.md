@@ -7,7 +7,7 @@ old-location: display\dxgkddiresetengine.htm
 old-project: display
 ms.assetid: 9c2097b2-5742-422c-a650-7efff2484970
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_RESETENGINE, DxgkDdiResetEngine, DxgkDdiResetEngine callback function [Display Devices], d3dkmddi/DxgkDdiResetEngine, display.dxgkddiresetengine
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,21 +52,6 @@ req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 The display port driver's GPU scheduler calls this function to reset an active node on a physical display adapter when the scheduler detects a timeout condition on the adapter.
 
 
-## -prototype
-
-
-````
-DXGKDDI_RESETENGINE DxgkDdiResetEngine;
-
-NTSTATUS APIENTRY DxgkDdiResetEngine(
-  _In_    const HANDLE              hAdapter,
-  _Inout_       DXGKARG_RESETENGINE *pResetEngine
-
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -74,12 +59,12 @@ NTSTATUS APIENTRY DxgkDdiResetEngine(
 
 ### -param hAdapter [in]
 
-A handle to a context block that is associated with a display adapter. The display miniport driver previously provided this handle to the DirectX graphics kernel subsystem in the <i>MiniportDeviceContext</i> output parameter of the <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function.
+A handle to a context block that is associated with a display adapter. The display miniport driver previously provided this handle to the DirectX graphics kernel subsystem in the <i>MiniportDeviceContext</i> output parameter of the <a href="https://msdn.microsoft.com/5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea">DxgkDdiAddDevice</a> function.
 
 
 ### -param pResetEngine [in, out]
 
-A value of type  <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_resetengine.md">DXGKARG_RESETENGINE</a> that specifies nodes that are to be reset and supplies a fence identifier for the last aborted packet.
+A value of type  <a href="https://msdn.microsoft.com/library/windows/hardware/hh451303">DXGKARG_RESETENGINE</a> that specifies nodes that are to be reset and supplies a fence identifier for the last aborted packet.
 
 
 ## -returns
@@ -108,16 +93,15 @@ For more information, see  <a href="https://msdn.microsoft.com/5BC4F94C-2B45-44E
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_resetengine.md">DXGKARG_RESETENGINE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451303">DXGKARG_RESETENGINE</a>
 
 
 
+<a href="https://msdn.microsoft.com/5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea">DxgkDdiAddDevice</a>
  
 
  
-
 

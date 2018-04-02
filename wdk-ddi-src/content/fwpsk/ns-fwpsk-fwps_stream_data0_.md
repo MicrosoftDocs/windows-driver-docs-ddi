@@ -7,7 +7,7 @@ old-location: netvista\fwps_stream_data0.htm
 old-project: netvista
 ms.assetid: 7e9daf20-12d6-42dc-99fb-9e9efe5a9900
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: FWPS_STREAM_DATA0, FWPS_STREAM_DATA0 structure [Network Drivers Starting with Windows Vista], FWPS_STREAM_DATA0_, fwpsk/FWPS_STREAM_DATA0, netvista.fwps_stream_data0, wfp_ref_3_struct_3_fwps_P-Z_d8d6e633-542c-4273-9341-935281133be4.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,19 +51,6 @@ req.typenames: FWPS_STREAM_DATA0
 
 The <b>FWPS_STREAM_DATA0</b> structure describes a portion of a data stream.
 <div class="alert"><b>Note</b>  <b>FWPS_STREAM_DATA0</b> is a specific version of <b>FWPS_STREAM_DATA</b>. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
-
-## -syntax
-
-
-````
-typedef struct FWPS_STREAM_DATA0_ {
-  UINT32                   flags;
-  FWPS_STREAM_DATA_OFFSET0 dataOffset;
-  SIZE_T                   dataLength;
-  NET_BUFFER_LIST          *netBufferListChain;
-} FWPS_STREAM_DATA0;
-````
-
 
 ## -struct-fields
 
@@ -149,7 +136,7 @@ Specifies that the stream is to be disconnected after the data in the outbound d
 Specifies that the stream is to be reset after the data in the outbound data stream has been
        sent. The network stack will set the RST flag in the TCP header of the last packet that is sent out.
        Callout drivers must not call the 
-       <a href="..\fwpsk\nf-fwpsk-fwpsstreaminjectasync0.md">FwpsStreamInjectAsync0</a> function
+       <a href="https://msdn.microsoft.com/library/windows/hardware/ff551213">FwpsStreamInjectAsync0</a> function
        to inject data into the stream if this flag is set.
        
 
@@ -159,7 +146,7 @@ Specifies that the stream is to be reset after the data in the outbound data str
 ### -field dataOffset
 
 An 
-     <a href="..\fwpsk\ns-fwpsk-fwps_stream_data_offset0_.md">FWPS_STREAM_DATA_OFFSET0</a> structure
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff552420">FWPS_STREAM_DATA_OFFSET0</a> structure
      that specifies the offset into the data stream where the portion of the data stream begins.
 
 
@@ -171,7 +158,7 @@ The number of bytes in the portion of the data stream.
 ### -field netBufferListChain
 
 A pointer to a 
-     <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure that describes
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure that describes
      the portion of the data stream.
 
 
@@ -181,9 +168,9 @@ A pointer to a
 
 The filter engine uses the FWPS_STREAM_DATA0 structure to describe the portion of a data stream that a
     callout's 
-    <a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a> callout function can process. The 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a> callout function can process. The 
     <b>dataStream</b> member of the 
-    <a href="..\fwpsk\ns-fwpsk-fwps_stream_callout_io_packet0_.md">
+    <a href="https://msdn.microsoft.com/2c0539f0-116e-4344-9584-db7416d258e0">
     FWPS_STREAM_CALLOUT_IO_PACKET0</a> structure points to an FWPS_STREAM_DATA0 structure.
 
 
@@ -191,29 +178,28 @@ The filter engine uses the FWPS_STREAM_DATA0 structure to describe the portion o
 
 ## -see-also
 
-<a href="..\fwpsk\nf-fwpsk-fwpsstreaminjectasync0.md">FwpsStreamInjectAsync0</a>
 
 
 
-<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
-
-
-
-<a href="..\fwpsk\ns-fwpsk-fwps_stream_data_offset0_.md">FWPS_STREAM_DATA_OFFSET0</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
-
-
-<a href="..\fwpsk\ns-fwpsk-fwps_stream_callout_io_packet0_.md">
+<a href="https://msdn.microsoft.com/2c0539f0-116e-4344-9584-db7416d258e0">
    FWPS_STREAM_CALLOUT_IO_PACKET0</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552420">FWPS_STREAM_DATA_OFFSET0</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551213">FwpsStreamInjectAsync0</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a>
  
 
  
-
 

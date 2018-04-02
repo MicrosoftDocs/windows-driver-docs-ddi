@@ -7,7 +7,7 @@ old-location: audio\isynthsinkdmus_render.htm
 old-project: audio
 ms.assetid: 731abdaf-f84b-4d4b-a6e0-ee11899fba27
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/19/2018
 ms.keywords: ISynthSinkDMus, ISynthSinkDMus interface [Audio Devices], Render method, ISynthSinkDMus::Render, Render method [Audio Devices], Render method [Audio Devices], ISynthSinkDMus interface, Render,ISynthSinkDMus.Render, audio.isynthsinkdmus_render, audmp-routines_ada0270e-6234-4508-a323-f4bdaee295ce.xml, dmusicks/ISynthSinkDMus::Render
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,18 +50,6 @@ req.typenames: DMUS_STREAM_TYPE
 
 
 The <code>Render</code> method renders wave data into a destination sink.
-
-
-## -syntax
-
-
-````
-void Render(
-  [in] PBYTE    pBuffer,
-  [in] DWORD    dwLength,
-  [in] LONGLONG llPosition
-);
-````
 
 
 ## -parameters

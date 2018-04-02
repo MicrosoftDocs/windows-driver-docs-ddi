@@ -55,16 +55,6 @@ req.product: Windows 10 or later.
 The <b>SetPowerPolicyOwnership</b> method sets the ownership of the power policy to a driver or removes ownership from the driver.
 
 
-## -syntax
-
-
-````
-void SetPowerPolicyOwnership(
-  [in] BOOL fTrue
-);
-````
-
-
 ## -parameters
 
 
@@ -103,16 +93,15 @@ For a code example of how to use the <b>SetPowerPolicyOwnership</b> method, see 
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdeviceinitialize.md">IWDFDeviceInitialize</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556965">IWDFDeviceInitialize</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>
-
-
-
  
 
  
-
 

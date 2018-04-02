@@ -1,4 +1,4 @@
-# [spd](../_spd/index.md)
+# [Simple Peripheral Bus (SPB)](../_spb/index.md)
 ## [Spb.h](index.md)
 ### [SpbIoctl enumeration](../spb/ne-spb-spbioctl.md)
 ### [SPB_TRANSFER_BUFFER_FORMAT enumeration](../spb/ne-spb-spb_transfer_buffer_format.md)

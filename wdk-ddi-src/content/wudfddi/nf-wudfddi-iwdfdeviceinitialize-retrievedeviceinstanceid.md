@@ -55,17 +55,6 @@ req.product: Windows 10 or later.
 The <a href="https://msdn.microsoft.com/224277b4-447f-4981-aabf-90a10322c0df">RetrieveDeviceInstanceId</a> method retrieves the identifier of an instance of a device.
 
 
-## -syntax
-
-
-````
-HRESULT RetrieveDeviceInstanceId(
-  [out, optional] PWSTR Buffer,
-  [in, out]       DWORD *pdwSizeInChars
-);
-````
-
-
 ## -parameters
 
 
@@ -116,12 +105,11 @@ The buffer at <i>Buffer</i> was <b>NULL</b>, the driver preset the variable at <
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdeviceinitialize.md">IWDFDeviceInitialize</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556965">IWDFDeviceInitialize</a>
  
 
  
-
 

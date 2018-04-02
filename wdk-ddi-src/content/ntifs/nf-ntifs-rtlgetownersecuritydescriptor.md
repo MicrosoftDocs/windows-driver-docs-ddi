@@ -7,7 +7,7 @@ old-location: ifsk\rtlgetownersecuritydescriptor.htm
 old-project: ifsk
 ms.assetid: 64c1b899-5737-474c-92ee-f18f7f2f06f5
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: RtlGetOwnerSecurityDescriptor, RtlGetOwnerSecurityDescriptor routine [Installable File System Drivers], ifsk.rtlgetownersecuritydescriptor, ntifs/RtlGetOwnerSecurityDescriptor, rtlref_7a3503c8-84ed-4ec7-9b69-5b93daaa6596.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,18 +53,6 @@ req.typenames: TOKEN_TYPE
 The <b>RtlGetOwnerSecurityDescriptor</b> routine returns the owner information for a given security descriptor.
 
 
-## -syntax
-
-
-````
-NTSTATUS RtlGetOwnerSecurityDescriptor(
-  _In_  PSECURITY_DESCRIPTOR SecurityDescriptor,
-  _Out_ PSID                 *Owner,
-  _Out_ PBOOLEAN             OwnerDefaulted
-);
-````
-
-
 ## -parameters
 
 
@@ -77,7 +65,7 @@ Pointer to the security descriptor.
 
 ### -param Owner [out]
 
-Pointer to an address to receive a pointer to the owner security identifier (<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>). If the security descriptor does not currently contain an owner SID, <i>Owner</i> receives <b>NULL</b>.
+Pointer to an address to receive a pointer to the owner security identifier (<a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a>). If the security descriptor does not currently contain an owner SID, <i>Owner</i> receives <b>NULL</b>.
 
 
 ### -param OwnerDefaulted [out]
@@ -124,36 +112,35 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
 
 
 
-<a href="..\wdm\nf-wdm-rtlvalidsecuritydescriptor.md">RtlValidSecurityDescriptor</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561827">RtlCreateSecurityDescriptor</a>
 
 
 
-<a href="..\wdm\nf-wdm-rtllengthsecuritydescriptor.md">RtlLengthSecurityDescriptor</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562025">RtlLengthSecurityDescriptor</a>
 
 
 
-<a href="..\wdm\nf-wdm-rtlcreatesecuritydescriptor.md">RtlCreateSecurityDescriptor</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562781">RtlSetDaclSecurityDescriptor</a>
 
 
 
-<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553220">RtlSetOwnerSecurityDescriptor</a>
 
 
 
-<a href="..\wdm\nf-wdm-rtlsetdaclsecuritydescriptor.md">RtlSetDaclSecurityDescriptor</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563024">RtlValidSecurityDescriptor</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-rtlsetownersecuritydescriptor.md">RtlSetOwnerSecurityDescriptor</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a>
  
 
  
-
 

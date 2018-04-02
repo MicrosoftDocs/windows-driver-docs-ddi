@@ -7,7 +7,7 @@ old-location: netvista\miniporttcpoffloadforward.htm
 old-project: netvista
 ms.assetid: e5702476-60a3-4bfc-b959-198e98f0f9ba
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: MiniportTcpOffloadForward, MiniportTcpOffloadForward callback function [Network Drivers Starting with Windows Vista], W_TCP_OFFLOAD_FORWARD_HANDLER, ndischimney/MiniportTcpOffloadForward, netvista.miniporttcpoffloadforward, tcp_chim_miniport_func_18a2b561-13cd-4337-8ff4-fcd3bfc34b3b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -56,21 +56,6 @@ NDIS calls the
   target.
 
 
-## -prototype
-
-
-````
-W_TCP_OFFLOAD_FORWARD_HANDLER MiniportTcpOffloadForward;
-
-NDIS_STATUS MiniportTcpOffloadForward(
-  _In_ NDIS_HANDLE      MiniportAdapterContext,
-  _In_ PVOID            MiniportOffloadContext,
-  _In_ PNET_BUFFER_LIST NetBufferList
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -81,9 +66,9 @@ NDIS_STATUS MiniportTcpOffloadForward(
 The handle to an offload-target allocated context area in which the offload target maintains state
      information about this instance of the adapter. The miniport driver provided this handle to NDIS when it
      called 
-     <a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">
+     <a href="https://msdn.microsoft.com/861626af-23ea-40dc-a91a-7da42d4b0a1c">
      NdisMSetMiniportAttributes</a> from its 
-     <a href="..\ndis\nc-ndis-miniport_initialize.md">
+     <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">
      MiniportInitializeEx</a> function.
 
 
@@ -98,10 +83,10 @@ A pointer to a memory location that contains a PVOID value. This PVOID value ref
 ### -param NetBufferList [in]
 
 A pointer to a 
-     <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure. This structure
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure. This structure
      may be a stand-alone structure or the first structure in a linked list of NET_BUFFER_LIST structures.
      Each NET_BUFFER_LIST structure in the list describes one 
-     <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structure. Each NET_BUFFER structure
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structure. Each NET_BUFFER structure
      maps to a chain of memory descriptor lists (MDLs). The MDLs associated with a NET_BUFFER structure
      contain one and only one TCP segment that is being forwarded to the offload target. The first byte of
      the first MDL is the first byte of the TCP header. The NET_BUFFER_LIST and associated structures are
@@ -115,7 +100,7 @@ A pointer to a
 
 NDIS_STATUS_PENDING is the only allowable return value. An offload target always completes a
      forward request asynchronously by calling the 
-     <a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_forward_complete.md">
+     <a href="https://msdn.microsoft.com/080949ab-8a27-4d13-992e-597210d4882c">
      NdisTcpOffloadForwardComplete</a> function.
 
 
@@ -175,7 +160,7 @@ When forwarding TCP segments, the host stack transfers one TCP segment per NET_B
 The host stack allocates the NET_BUFFER_LIST and associated structures that NDIS passes to the 
     <i>MiniportTcpOffloadForward</i> function. The offload target owns these resources until it passes them to
     the 
-    <a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_forward_complete.md">
+    <a href="https://msdn.microsoft.com/080949ab-8a27-4d13-992e-597210d4882c">
     NdisTcpOffloadForwardComplete</a> function. While it owns these resources, the offload target is free
     to queue them for processing.
 
@@ -184,25 +169,24 @@ The host stack allocates the NET_BUFFER_LIST and associated structures that NDIS
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
+<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a>
 
 
 
-<a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_forward_complete.md">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563672">NdisMSetMiniportAttributes</a>
+
+
+
+<a href="https://msdn.microsoft.com/080949ab-8a27-4d13-992e-597210d4882c">
    NdisTcpOffloadForwardComplete</a>
-
-
-
  
 
  
-
 

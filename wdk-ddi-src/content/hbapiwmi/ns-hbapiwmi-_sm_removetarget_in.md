@@ -7,7 +7,7 @@ old-location: storage\sm_removetarget_in.htm
 old-project: storage
 ms.assetid: a32e2442-a6a8-4c1a-ab70-40fdb525bafb
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSM_RemoveTarget_IN, PSM_RemoveTarget_IN, PSM_RemoveTarget_IN structure pointer [Storage Devices], SM_RemoveTarget_IN, SM_RemoveTarget_IN structure [Storage Devices], _SM_RemoveTarget_IN, hbapiwmi/PSM_RemoveTarget_IN, hbapiwmi/SM_RemoveTarget_IN, storage.sm_removetarget_in, structs-Fibre_6efe773b-e240-40d4-bcf6-c6d141061ac3.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,19 +50,6 @@ req.typenames: SM_RemoveTarget_IN, *PSM_RemoveTarget_IN
 
 
 The SM_RemoveTarget_IN structure is used to provide input parameters to the SM_RemoveTarget WMI method.
-
-
-## -syntax
-
-
-````
-typedef struct _SM_RemoveTarget_IN {
-  UCHAR HbaPortWWN[8];
-  UCHAR DiscoveredPortWWN[8];
-  UCHAR DomainPortWWN[8];
-  ULONG AllTargets;
-} SM_RemoveTarget_IN, *PSM_RemoveTarget_IN;
-````
 
 
 ## -struct-fields

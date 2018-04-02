@@ -7,7 +7,7 @@ old-location: kernel\tmgettransactionid.htm
 old-project: kernel
 ms.assetid: 8ff4dd86-d828-4e1d-bde5-ab312187a8d7
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: TmGetTransactionId, TmGetTransactionId routine [Kernel-Mode Driver Architecture], kernel.tmgettransactionid, ktm_ref_cbb12580-5399-4d81-ab6c-9d0235208681.xml, wdm/TmGetTransactionId
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -55,17 +55,6 @@ req.product: Windows 10 or later.
 The <b>TmGetTransactionId</b> routine retrieves a transaction object's <a href="https://msdn.microsoft.com/927a417b-35f5-49b8-85f3-7e6b1f5c0225">unit of work (UOW) identifier</a>.
 
 
-## -syntax
-
-
-````
-VOID TmGetTransactionId(
-  _In_  PKTRANSACTION Transaction,
-  _Out_ PUOW          TransactionId
-);
-````
-
-
 ## -parameters
 
 
@@ -73,7 +62,7 @@ VOID TmGetTransactionId(
 
 ### -param Transaction [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/124105bd-70be-49b1-8ea4-af6ba1f3cf16">transaction object</a>. To obtain this pointer, your component must call <a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a> and supply the object handle that a previous call to <a href="..\wdm\nf-wdm-zwcreatetransaction.md">ZwCreateTransaction</a> or <a href="..\wdm\nf-wdm-zwopentransaction.md">ZwOpenTransaction</a> provided.
+A pointer to a <a href="https://msdn.microsoft.com/124105bd-70be-49b1-8ea4-af6ba1f3cf16">transaction object</a>. To obtain this pointer, your component must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff558679">ObReferenceObjectByHandle</a> and supply the object handle that a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff566429">ZwCreateTransaction</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff567033">ZwOpenTransaction</a> provided.
 
 
 ### -param TransactionId [out]
@@ -101,24 +90,23 @@ For information about when to use KTM's <b>Tm<i>Xxx</i></b> routines instead of 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwcreatetransaction.md">ZwCreateTransaction</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwopentransaction.md">ZwOpenTransaction</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558679">ObReferenceObjectByHandle</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwqueryinformationtransaction.md">ZwQueryInformationTransaction</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566429">ZwCreateTransaction</a>
 
 
 
-<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567033">ZwOpenTransaction</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567057">ZwQueryInformationTransaction</a>
  
 
  
-
 

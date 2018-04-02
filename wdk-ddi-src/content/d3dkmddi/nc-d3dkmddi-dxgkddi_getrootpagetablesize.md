@@ -7,7 +7,7 @@ old-location: display\dxgkddigetrootpagetablesize.htm
 old-project: display
 ms.assetid: 474F1772-0DF9-487B-AEB9-302392AE0B98
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_GETROOTPAGETABLESIZE, DxgkDdiGetRootPageTableSize, DxgkDdiGetRootPageTableSize callback function [Display Devices], d3dkmddi/DxgkDdiGetRootPageTableSize, display.dxgkddigetrootpagetablesize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -56,20 +56,6 @@ req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
   
 
 
-## -prototype
-
-
-````
-DXGKDDI_GETROOTPAGETABLESIZE DxgkDdiGetRootPageTableSize;
-
-SIZE_T APIENTRY DxgkDdiGetRootPageTableSize(
-  _In_    const HANDLE                       hAdapter,
-  _Inout_       DXGKARG_GETROOTPAGETABLESIZE *pArgs
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -82,7 +68,7 @@ A handle to the display adapter.
 
 ### -param pArgs [in, out]
 
-The <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_getrootpagetablesize.md">DXGKARG_GETROOTPAGETABLESIZE</a> structure that describes the operation.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/dn906821">DXGKARG_GETROOTPAGETABLESIZE</a> structure that describes the operation.
 
 
 ## -returns

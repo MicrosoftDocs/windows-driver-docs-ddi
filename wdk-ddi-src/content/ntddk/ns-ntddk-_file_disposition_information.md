@@ -7,7 +7,7 @@ old-location: kernel\file_disposition_information.htm
 old-project: kernel
 ms.assetid: a13b5411-a0dd-4a54-98a8-419e2f0e95b8
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*PFILE_DISPOSITION_INFORMATION, FILE_DISPOSITION_INFORMATION, FILE_DISPOSITION_INFORMATION structure [Kernel-Mode Driver Architecture], PFILE_DISPOSITION_INFORMATION, PFILE_DISPOSITION_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _FILE_DISPOSITION_INFORMATION, kernel.file_disposition_information, kstruct_b_3796aa61-042a-435d-bfa9-c77c6a0dff98.xml, ntddk/FILE_DISPOSITION_INFORMATION, ntddk/PFILE_DISPOSITION_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,17 +49,7 @@ req.typenames: FILE_DISPOSITION_INFORMATION, *PFILE_DISPOSITION_INFORMATION
 ## -description
 
 
-The <b>FILE_DISPOSITION_INFORMATION</b> structure is used as an argument to the <a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a> routine.
-
-
-## -syntax
-
-
-````
-typedef struct _FILE_DISPOSITION_INFORMATION {
-  BOOLEAN DeleteFile;
-} FILE_DISPOSITION_INFORMATION, *PFILE_DISPOSITION_INFORMATION;
-````
+The <b>FILE_DISPOSITION_INFORMATION</b> structure is used as an argument to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567096">ZwSetInformationFile</a> routine.
 
 
 ## -struct-fields
@@ -85,16 +75,15 @@ A file marked for deletion is not actually deleted until all open handles for th
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566417">ZwClose</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567096">ZwSetInformationFile</a>
  
 
  
-
 

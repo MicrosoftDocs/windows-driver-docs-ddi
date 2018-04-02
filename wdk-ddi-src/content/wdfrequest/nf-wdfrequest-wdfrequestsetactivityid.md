@@ -55,17 +55,6 @@ req.product: Windows 10 or later.
 The <b>WdfRequestSetActivityId</b> method associates an activity identifier with an I/O request.
 
 
-## -syntax
-
-
-````
-void WdfRequestSetActivityId(
-  _In_ WDFREQUEST Request,
-  _In_ LPGUID     ActivityId
-);
-````
-
-
 ## -parameters
 
 
@@ -96,9 +85,9 @@ This method does not return a value.
 
 Calling <b>WdfRequestSetActivityId</b> does not set an association with any previously present activity identifier. When the driver calls <b>WdfRequestSetActivityId</b>, any existing activity identifier is overwritten.
 
-To set an association, retrieve the existing identifier by calling <a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveactivityid.md">WdfRequestRetrieveActivityId</a> and then associate the existing identifier with the new one by calling <a href="https://msdn.microsoft.com/798cf3ba-e1cc-4eaf-a1d2-2313a64aab1a">EventWriteTransfer</a>.
+To set an association, retrieve the existing identifier by calling <a href="https://msdn.microsoft.com/library/windows/hardware/dn265621">WdfRequestRetrieveActivityId</a> and then associate the existing identifier with the new one by calling <a href="https://msdn.microsoft.com/798cf3ba-e1cc-4eaf-a1d2-2313a64aab1a">EventWriteTransfer</a>.
 
-The framework does not clear a request's activity identifier when the driver calls <a href="..\wdfrequest\nf-wdfrequest-wdfrequestreuse.md">WdfRequestReuse</a>.
+The framework does not clear a request's activity identifier when the driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff550026">WdfRequestReuse</a>.
 
 For more information about activity identifiers, see <a href="https://msdn.microsoft.com/2B70953F-5192-4654-9506-6A84373D20B4">Using Activity Identifiers</a>.
 
@@ -107,12 +96,11 @@ For more information about activity identifiers, see <a href="https://msdn.micro
 
 ## -see-also
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveactivityid.md">WdfRequestRetrieveActivityId</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265621">WdfRequestRetrieveActivityId</a>
  
 
  
-
 

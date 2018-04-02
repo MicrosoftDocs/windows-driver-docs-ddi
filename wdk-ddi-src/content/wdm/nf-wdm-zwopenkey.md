@@ -7,7 +7,7 @@ old-location: kernel\zwopenkey.htm
 old-project: kernel
 ms.assetid: e92f0297-8bfc-496d-a00b-e7b5711c7856
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: ZwOpenKey, ZwOpenKey routine [Kernel-Mode Driver Architecture], k111_8583b145-a6be-4e4f-8e46-ca7d48b8a07f.xml, kernel.zwopenkey, wdm/ZwOpenKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 The <b>ZwOpenKey</b> routine opens an existing registry key. 
 
 
-## -syntax
-
-
-````
-NTSTATUS ZwOpenKey(
-  _Out_ PHANDLE            KeyHandle,
-  _In_  ACCESS_MASK        DesiredAccess,
-  _In_  POBJECT_ATTRIBUTES ObjectAttributes
-);
-````
-
-
 ## -parameters
 
 
@@ -77,12 +65,12 @@ Pointer to the HANDLE variable that receives the handle to the key.
 
 ### -param DesiredAccess [in]
 
-Specifies an <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a> value that determines the requested access to the object. For more information, see the <i>DesiredAccess</i> parameter of <a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a>. 
+Specifies an <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a> value that determines the requested access to the object. For more information, see the <i>DesiredAccess</i> parameter of <a href="https://msdn.microsoft.com/library/windows/hardware/ff566425">ZwCreateKey</a>. 
 
 
 ### -param ObjectAttributes [in]
 
-Pointer to an <a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a> structure that specifies the object name and other attributes. Use <a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a> to initialize this structure. If the caller is not running in a system thread context, it must set the OBJ_KERNEL_HANDLE attribute when it calls <b>InitializeObjectAttributes</b>. 
+Pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff557749">OBJECT_ATTRIBUTES</a> structure that specifies the object name and other attributes. Use <a href="https://msdn.microsoft.com/library/windows/hardware/ff547804">InitializeObjectAttributes</a> to initialize this structure. If the caller is not running in a system thread context, it must set the OBJ_KERNEL_HANDLE attribute when it calls <b>InitializeObjectAttributes</b>. 
 
 
 ## -returns
@@ -98,11 +86,11 @@ Pointer to an <a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRI
 
 
 
-<b>ZwOpenKey</b> supplies a handle that the caller can use to manipulate a registry key. The routine provides a subset of the functionality of <a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a>. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565537">Using the Registry in a Driver</a>.
+<b>ZwOpenKey</b> supplies a handle that the caller can use to manipulate a registry key. The routine provides a subset of the functionality of <a href="https://msdn.microsoft.com/library/windows/hardware/ff566425">ZwCreateKey</a>. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565537">Using the Registry in a Driver</a>.
 
 If the specified key does not exist, <b>ZwOpenKey</b> returns an error status and does not return a key handle.
 
-Once the handle pointed to by <i>KeyHandle</i> is no longer in use, the driver must call <a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a> to close it.
+Once the handle pointed to by <i>KeyHandle</i> is no longer in use, the driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff566417">ZwClose</a> to close it.
 
 <b>ZwOpenKey</b> ignores the security information in the structure that the <i>ObjectAttributes</i> parameter points to.
 
@@ -117,15 +105,6 @@ For more information about working with registry keys, see <a href="https://msdn
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwsetvaluekey.md">ZwSetValueKey</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwdeletekey.md">ZwDeleteKey</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a>
 
 
 
@@ -133,32 +112,40 @@ For more information about working with registry keys, see <a href="https://msdn
 
 
 
-<a href="..\wdm\nf-wdm-zwqueryvaluekey.md">ZwQueryValueKey</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547804">InitializeObjectAttributes</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwflushkey.md">ZwFlushKey</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566425">ZwCreateKey</a>
 
 
 
-<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566437">ZwDeleteKey</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwenumeratekey.md">ZwEnumerateKey</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566447">ZwEnumerateKey</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwquerykey.md">ZwQueryKey</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566453">ZwEnumerateValueKey</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwenumeratevaluekey.md">ZwEnumerateValueKey</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566457">ZwFlushKey</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567060">ZwQueryKey</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567069">ZwQueryValueKey</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567109">ZwSetValueKey</a>
  
 
  
-
 

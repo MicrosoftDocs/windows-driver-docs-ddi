@@ -7,7 +7,7 @@ old-location: debugger\readunicodestringvirtualwide.htm
 old-project: debugger
 ms.assetid: 7c360f9a-83f6-4bc8-abb4-08d1b0c4fdc9
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: IDebugDataSpaces4, IDebugDataSpaces4 interface [Windows Debugging], ReadUnicodeStringVirtualWide method, IDebugDataSpaces4::ReadUnicodeStringVirtualWide, IDebugDataSpaces_c722fa7f-bbd2-4e0c-bd83-c59d2442ae26.xml, ReadUnicodeStringVirtualWide method [Windows Debugging], ReadUnicodeStringVirtualWide method [Windows Debugging], IDebugDataSpaces4 interface, ReadUnicodeStringVirtualWide,IDebugDataSpaces4.ReadUnicodeStringVirtualWide, dbgeng/IDebugDataSpaces4::ReadUnicodeStringVirtualWide, debugger.readunicodestringvirtualwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,20 +50,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>ReadUnicodeStringVirtualWide</b> method reads a null-terminated, Unicode string from the target.
-
-
-## -syntax
-
-
-````
-HRESULT ReadUnicodeStringVirtualWide(
-  [in]            ULONG64 Offset,
-  [in]            ULONG   MaxBytes,
-  [out, optional] PWSTR   Buffer,
-  [in]            ULONG   BufferSize,
-  [out, optional] PULONG  StringBytes
-);
-````
 
 
 ## -parameters
@@ -158,20 +144,19 @@ The engine will read up to <i>MaxBytes</i> from the target, looking for a null-t
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550546">IDebugDataSpaces4</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554304">ReadMultiByteStringVirtualWide</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554351">ReadUnicodeStringVirtual</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces4.md">IDebugDataSpaces4</a>
-
-
-
  
 
  
-
 

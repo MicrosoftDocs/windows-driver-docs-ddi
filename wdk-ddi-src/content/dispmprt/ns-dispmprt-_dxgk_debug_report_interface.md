@@ -7,7 +7,7 @@ old-location: display\dxgk_debug_report_interface.htm
 old-project: display
 ms.assetid: fb1bd1dd-feab-4aa4-8b4f-932f0d5ec4ab
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PDXGK_DEBUG_REPORT_INTERFACE, DXGK_DEBUG_REPORT_INTERFACE, DXGK_DEBUG_REPORT_INTERFACE structure [Display Devices], DmStructs_b6b70526-c889-47d8-bfb7-7f961cbcef38.xml, PDXGK_DEBUG_REPORT_INTERFACE, PDXGK_DEBUG_REPORT_INTERFACE structure pointer [Display Devices], _DXGK_DEBUG_REPORT_INTERFACE, display.dxgk_debug_report_interface, dispmprt/DXGK_DEBUG_REPORT_INTERFACE, dispmprt/PDXGK_DEBUG_REPORT_INTERFACE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,32 +52,6 @@ req.typenames: DXGK_DEBUG_REPORT_INTERFACE, *PDXGK_DEBUG_REPORT_INTERFACE
 The DXGK_DEBUG_REPORT_INTERFACE structure contains pointers to functions in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551798">Debug Report interface</a>, which is implemented by the display port driver.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGK_DEBUG_REPORT_INTERFACE {
-  USHORT                   Size;
-  USHORT                   Version;
-  PVOID                    Context;
-  PINTERFACE_REFERENCE     InterfaceReference;
-  PINTERFACE_DEREFERENCE   InterfaceDereference;
-  DXGK_DEBUG_REPORT_HANDLE (*DbgReportCreate)(
-      _In_ HANDLE DeviceHandle, 
-      _In_ ULONG ulCode, 
-      _In_ ULONG_PTR ulpArg1, 
-      _In_ ULONG_PTR ulpArg2, 
-      _In_ ULONG_PTR ulpArg3, 
-      _In_ ULONG_PTR ulpArg4);
-  BOOLEAN                  (*DbgReportSecondaryData)(
-      _Inout_ DXGK_DEBUG_REPORT_HANDLE hReport, 
-      _In_ PVOID pvData, 
-      _In_ ULONG ulDataSize);
-  VOID                     (*DbgReportComplete)(IN OUT DXGK_DEBUG_REPORT_HANDLE hReport);
-} DXGK_DEBUG_REPORT_INTERFACE, *PDXGK_DEBUG_REPORT_INTERFACE;
-````
-
-
 ## -struct-fields
 
 
@@ -120,7 +94,7 @@ If your display miniport driver detects a failure and then recovers from it, you
 
 #### DeviceHandle
 
-A handle to a context block associated with a display adapter. The display miniport driver created this handle in its <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function. This parameter can be <b>NULL</b>.
+A handle to a context block associated with a display adapter. The display miniport driver created this handle in its <a href="https://msdn.microsoft.com/5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea">DxgkDdiAddDevice</a> function. This parameter can be <b>NULL</b>.
 
 
 
@@ -250,7 +224,7 @@ A handle to the error report that is to be closed. The display miniport driver p
 
 
 
-The display miniport driver supplies the <b>Size</b> and <b>Version</b> members of this structure, and then calls <a href="..\dispmprt\nc-dispmprt-dxgkcb_query_services.md">DxgkCbQueryServices</a>, which fills in the remaining members of this structure.
+The display miniport driver supplies the <b>Size</b> and <b>Version</b> members of this structure, and then calls <a href="https://msdn.microsoft.com/0ce5df90-2019-4a92-97d6-0218acc8b1e8">DxgkCbQueryServices</a>, which fills in the remaining members of this structure.
 
 
 

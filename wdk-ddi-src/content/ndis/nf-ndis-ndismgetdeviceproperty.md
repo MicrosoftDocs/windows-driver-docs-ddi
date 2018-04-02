@@ -7,7 +7,7 @@ old-location: netvista\ndismgetdeviceproperty.htm
 old-project: netvista
 ms.assetid: caef96b6-1b94-475d-9f78-66ae6d6ac979
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NdisMGetDeviceProperty, NdisMGetDeviceProperty function [Network Drivers Starting with Windows Vista], miniport_ndis_functions_ref_849a967a-d488-4440-a9b5-9c7fbc247acd.xml, ndis/NdisMGetDeviceProperty, netvista.ndismgetdeviceproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -55,21 +55,6 @@ The
   miniport driver through a bus driver.
 
 
-## -syntax
-
-
-````
-VOID NdisMGetDeviceProperty(
-  _In_      NDIS_HANDLE       MiniportAdapterHandle,
-  _Out_opt_ PDEVICE_OBJECT    *PhysicalDeviceObject,
-  _Out_opt_ PDEVICE_OBJECT    *FunctionalDeviceObject,
-  _Out_opt_ PDEVICE_OBJECT    *NextDeviceObject,
-  _Out_opt_ PCM_RESOURCE_LIST *AllocatedResources,
-  _Out_opt_ PCM_RESOURCE_LIST *AllocatedResourcesTranslated
-);
-````
-
-
 ## -parameters
 
 
@@ -78,21 +63,21 @@ VOID NdisMGetDeviceProperty(
 ### -param MiniportAdapterHandle [in]
 
 The NDIS handle that identifies the miniport adapter. This handle was originally passed to the 
-     <a href="..\ndis\nc-ndis-miniport_initialize.md">
+     <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">
      MiniportInitializeEx</a> function.
 
 
 ### -param PhysicalDeviceObject [out, optional]
 
 A pointer to a caller-allocated buffer. The buffer receives a pointer to a 
-     <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure that represents the
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a> structure that represents the
      physical device for the miniport adapter. This pointer is optional.
 
 
 ### -param FunctionalDeviceObject [out, optional]
 
 A pointer to a caller-allocated buffer. The buffer receives a pointer to a 
-     <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure. 
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a> structure. 
      <b>DEVICE_OBJECT</b> represents the functional device object that NDIS creates for the physical device.
      This pointer is optional.
 
@@ -100,7 +85,7 @@ A pointer to a caller-allocated buffer. The buffer receives a pointer to a
 ### -param NextDeviceObject [out, optional]
 
 A pointer to a caller-allocated buffer. The buffer receives a pointer to a 
-     <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure that represents the next device object. This next device object is
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a> structure that represents the next device object. This next device object is
      preceded in the chain by the functional device object that belongs to the miniport driver. NDIS creates
      this functional device object for the physical device. For example, the next device object could be the
      object that is associated with a bus driver or HAL This pointer is optional.
@@ -149,7 +134,7 @@ Miniport drivers must retrieve specific information to set up their communicatio
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff546847">Handling IRPs</a>.
 
 Pointers to 
-    <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> for the physical, functional, and next device objects that 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a> for the physical, functional, and next device objects that 
     <b>NdisMGetDeviceProperty</b> retrieves are simply handles that are opaque to the miniport driver.
 
 Miniport drivers can call 
@@ -163,16 +148,15 @@ Miniport drivers can call
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>
 
 
 
+<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: storage\device_power_descriptor.htm
 old-project: storage
 ms.assetid: A5925EE4-768C-421A-9813-015513751A91
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PDEVICE_POWER_DESCRIPTOR, DEVICE_POWER_DESCRIPTOR, DEVICE_POWER_DESCRIPTOR structure [Storage Devices], PDEVICE_POWER_DESCRIPTOR, PDEVICE_POWER_DESCRIPTOR structure pointer [Storage Devices], _DEVICE_POWER_DESCRIPTOR, ntddstor/DEVICE_POWER_DESCRIPTOR, ntddstor/PDEVICE_POWER_DESCRIPTOR, storage.device_power_descriptor"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,27 +50,8 @@ req.typenames: DEVICE_POWER_DESCRIPTOR, *PDEVICE_POWER_DESCRIPTOR
 
 
 Used in conjunction with the 
-   <a href="..\ntddstor\ni-ntddstor-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a> control code 
+   <a href="https://msdn.microsoft.com/library/windows/hardware/ff560590">IOCTL_STORAGE_QUERY_PROPERTY</a> control code 
    to describes the power capabilities of a storage device.
-
-
-## -syntax
-
-
-````
-typedef struct _DEVICE_POWER_DESCRIPTOR {
-  ULONG   Version;
-  ULONG   Size;
-  BOOLEAN DeviceAttentionSupported;
-  BOOLEAN AsynchronousNotificationSupported;
-  BOOLEAN IdlePowerManagementEnabled;
-  BOOLEAN D3ColdEnabled;
-  BOOLEAN D3ColdSupported;
-  BOOLEAN NoVerifyDuringIdlePower;
-  UCHAR   Reserved[2];
-  ULONG   IdleTimeoutInMS;
-} DEVICE_POWER_DESCRIPTOR, *PDEVICE_POWER_DESCRIPTOR;
-````
 
 
 ## -struct-fields
@@ -135,12 +116,11 @@ The idle timeout value in milliseconds. This member is ignored unless
 
 ## -see-also
 
-<a href="..\ntddstor\ni-ntddstor-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560590">IOCTL_STORAGE_QUERY_PROPERTY</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: kernel\io_access_mode.htm
 old-project: kernel
 ms.assetid: E48BDF14-5B56-45AF-9DD2-F019C8B7D7E5
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: IO_ACCESS_MODE, IO_ACCESS_MODE enumeration [Kernel-Mode Driver Architecture], RandomAccess, SequentialAccess, _IO_ACCESS_MODE, kernel.io_access_mode, wdm/IO_ACCESS_MODE, wdm/RandomAccess, wdm/SequentialAccess
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 Defines the types of access mode for Scheduled File I/O (SFIO).
-
-
-## -syntax
-
-
-````
-typedef enum _IO_ACCESS_MODE { 
-  SequentialAccess,
-  RandomAccess
-} IO_ACCESS_MODE;
-````
 
 
 ## -enum-fields

@@ -7,7 +7,7 @@ old-location: dtf\iwdtfdriversetupsystemaction2_snaptriagelogs.htm
 old-project: dtf
 ms.assetid: 52f1e529-e1fe-4a08-a0cf-dc08e18d11b5
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/29/2018
 ms.keywords: IWDTFDriverSetupSystemAction2, IWDTFDriverSetupSystemAction2 interface [Windows Device Testing Framework], SnapTriageLogs method, IWDTFDriverSetupSystemAction2::SnapTriageLogs, Microsoft.WDTF.IWDTFDriverSetupSystemAction2.SnapTriageLogs, Microsoft::WDTF::IWDTFDriverSetupSystemAction2::SnapTriageLogs, SnapTriageLogs method [Windows Device Testing Framework], SnapTriageLogs method [Windows Device Testing Framework], IWDTFDriverSetupSystemAction2 interface, SnapTriageLogs,IWDTFDriverSetupSystemAction2.SnapTriageLogs, dtf.iwdtfdriversetupsystemaction2_snaptriagelogs, wdtfdriversetupsystemaction/IWDTFDriverSetupSystemAction2::SnapTriageLogs
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,14 +53,6 @@ req.product: Windows 10 or later.
 Copies the driver setup triage logs.
 
 
-## -syntax
-
-
-````
-HRESULT SnapTriageLogs();
-````
-
-
 ## -parameters
 
 
@@ -89,12 +81,11 @@ triage logs to the current directory.
 
 ## -see-also
 
-<a href="..\wdtfdriversetupsystemaction\nn-wdtfdriversetupsystemaction-iwdtfdriversetupsystemaction2.md">IWDTFDriverSetupSystemAction2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450948">IWDTFDriverSetupSystemAction2</a>
  
 
  
-
 

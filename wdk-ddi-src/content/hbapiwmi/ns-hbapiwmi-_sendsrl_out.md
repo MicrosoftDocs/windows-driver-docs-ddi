@@ -7,7 +7,7 @@ old-location: storage\sendsrl_out.htm
 old-project: storage
 ms.assetid: f7a08e0e-cbb1-4ec5-96c6-dade9d298d0a
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSendSRL_OUT, PSendSRL_OUT, PSendSRL_OUT structure pointer [Storage Devices], SendSRL_OUT, SendSRL_OUT structure [Storage Devices], _SendSRL_OUT, hbapiwmi/PSendSRL_OUT, hbapiwmi/SendSRL_OUT, storage.sendsrl_out, structs-Fibre_4cef4091-719d-457e-aeca-d3ab10b23344.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,19 +52,6 @@ req.typenames: SendSRL_OUT, *PSendSRL_OUT
 The SendSRL_OUT structure is used to report the output parameter data of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565522">SendSRL</a> WMI method to the WMI client.
 
 
-## -syntax
-
-
-````
-typedef struct _SendSRL_OUT {
-  ULONG HBAStatus;
-  ULONG TotalRspBufferSize;
-  ULONG ActualRspBufferSize;
-  UCHAR RspBuffer[1];
-} SendSRL_OUT, *PSendSRL_OUT;
-````
-
-
 ## -struct-fields
 
 
@@ -101,12 +88,11 @@ The WMI tool suite generates a declaration of the SendSRL_OUT structure in <i>Hb
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565522">SendSRL</a>
-
-
-
  
 
  
-
 

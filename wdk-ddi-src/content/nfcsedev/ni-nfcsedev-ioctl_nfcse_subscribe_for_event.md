@@ -61,7 +61,7 @@ The <b>IOCTL_NFCSE_SUBSCRIBE_FOR_EVENT</b>
 ### -input-buffer
 
 
-<a href="..\nfcsedev\ns-nfcsedev-_secure_element_event_subscription_info.md"> SECURE_ELEMENT_EVENT_SUBSCRIPTION_INFO</a> structure.
+<a href="https://msdn.microsoft.com/1ADA8430-86B4-4885-B20A-EBA8CDAC5449"> SECURE_ELEMENT_EVENT_SUBSCRIPTION_INFO</a> structure.
 
 
 

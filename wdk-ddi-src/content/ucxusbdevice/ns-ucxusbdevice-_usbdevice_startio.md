@@ -7,7 +7,7 @@ old-location: buses\_usbdevice_startio.htm
 old-project: usbref
 ms.assetid: 6FE2962A-90A3-44C6-9A2E-CCEBCE8C1417
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PUSBDEVICE_STARTIO, P_USBDEVICE_STARTIO, P_USBDEVICE_STARTIO structure pointer [Buses], USBDEVICE_STARTIO, USBDEVICE_STARTIO structure [Buses], _USBDEVICE_STARTIO, buses._usbdevice_startio, ucxusbdevice/P_USBDEVICE_STARTIO, ucxusbdevice/_USBDEVICE_STARTIO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,20 +53,6 @@ req.product: Windows 10 or later.
 Contains a handle for the Universal Serial Bus (USB) hub or device on which to start data transfer. 
 
 
-## -syntax
-
-
-````
-typedef struct _USBDEVICE_STARTIO {
-#if _cplusplus
-  USBDEVICE_MGMT_HEADER Header;
-#else 
-  USBDEVICE_MGMT_HEADER ;
-#endif 
-} USBDEVICE_STARTIO, *P_USBDEVICE_STARTIO;
-````
-
-
 ## -struct-fields
 
 
@@ -74,21 +60,20 @@ typedef struct _USBDEVICE_STARTIO {
 
 ### -field Header
 
-A <a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_mgmt_header.md">USBDEVICE_MGMT_HEADER</a> structure that contains  the handle for the USB hub or device.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/mt188075">USBDEVICE_MGMT_HEADER</a> structure that contains  the handle for the USB hub or device.
 
 
 ## -see-also
 
-<a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_abortio.md">USBDEVICE_ABORTIO</a>
 
 
 
-<a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_purgeio.md">USBDEVICE_PURGEIO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt188069">USBDEVICE_ABORTIO</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt188076">USBDEVICE_PURGEIO</a>
  
 
  
-
 

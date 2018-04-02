@@ -7,7 +7,7 @@ old-location: ifsk\fltcheckandgrownamecontrol.htm
 old-project: ifsk
 ms.assetid: 0a49e69e-6b6b-4f86-bd41-d1ad73e63a17
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FltApiRef_a_to_d_5ab0b3b3-adeb-4752-9cb5-1d7521b84607.xml, FltCheckAndGrowNameControl, FltCheckAndGrowNameControl routine [Installable File System Drivers], fltkernel/FltCheckAndGrowNameControl, ifsk.fltcheckandgrownamecontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,18 +50,7 @@ req.typenames: EXpsFontRestriction
 ## -description
 
 
-The <b>FltCheckAndGrowNameControl</b> routine checks whether the buffer in a <a href="..\fltkernel\ns-fltkernel-_flt_name_control.md">FLT_NAME_CONTROL</a> structure is large enough to hold the specified number of bytes. If not, <b>FltCheckAndGrowNameControl</b> replaces it with a larger system-allocated buffer. 
-
-
-## -syntax
-
-
-````
-NTSTATUS FltCheckAndGrowNameControl(
-  _Inout_ PFLT_NAME_CONTROL NameCtrl,
-  _In_    USHORT            NewSize
-);
-````
+The <b>FltCheckAndGrowNameControl</b> routine checks whether the buffer in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff544665">FLT_NAME_CONTROL</a> structure is large enough to hold the specified number of bytes. If not, <b>FltCheckAndGrowNameControl</b> replaces it with a larger system-allocated buffer. 
 
 
 ## -parameters
@@ -71,7 +60,7 @@ NTSTATUS FltCheckAndGrowNameControl(
 
 ### -param NameCtrl [in, out]
 
-Pointer to a <a href="..\fltkernel\ns-fltkernel-_flt_name_control.md">FLT_NAME_CONTROL</a> structure containing file name information. 
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff544665">FLT_NAME_CONTROL</a> structure containing file name information. 
 
 
 ### -param NewSize [in]
@@ -111,7 +100,7 @@ There is insufficient memory in the free pool to satisfy the request.
 
 
 
-Minifilter drivers must not attempt to free or replace the buffer in the <b>Name</b> member of a <a href="..\fltkernel\ns-fltkernel-_flt_name_control.md">FLT_NAME_CONTROL</a> structure directly. Instead, minifilter drivers should call <b>FltCheckAndGrowNameControl</b> to obtain a larger name buffer. 
+Minifilter drivers must not attempt to free or replace the buffer in the <b>Name</b> member of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff544665">FLT_NAME_CONTROL</a> structure directly. Instead, minifilter drivers should call <b>FltCheckAndGrowNameControl</b> to obtain a larger name buffer. 
 
 If the size, in bytes, of the buffer in the <i>NameCtrl</i> structure is less than the value of the <i>NewSize</i> parameter, <b>FltCheckAndGrowNameControl</b> replaces it with a larger system-allocated buffer. <b>FltCheckAndGrowNameControl</b> copies the contents of the old buffer into the new one and frees the old buffer. 
 
@@ -122,7 +111,10 @@ If the size, in bytes, of the buffer in the <i>NameCtrl</i> structure is greater
 
 ## -see-also
 
-<a href="..\fltkernel\ns-fltkernel-_flt_name_control.md">FLT_NAME_CONTROL</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544665">FLT_NAME_CONTROL</a>
 
 
 
@@ -130,20 +122,16 @@ If the size, in bytes, of the buffer in the <i>NameCtrl</i> structure is greater
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltgetfilenameinformation.md">FltGetFileNameInformation</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543032">FltGetFileNameInformation</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltgetfilenameinformationunsafe.md">FltGetFileNameInformationUnsafe</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543035">FltGetFileNameInformationUnsafe</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543040">FltGetFileNameQueryMethod</a>
-
-
-
  
 
  
-
 

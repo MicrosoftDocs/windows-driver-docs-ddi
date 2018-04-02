@@ -7,7 +7,7 @@ old-location: display\dxvahdddi_device_desc.htm
 old-project: display
 ms.assetid: c40f4151-a392-463f-888f-d575e6992062
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXVA2_Structs_ed3bcbea-9cf3-4a81-9134-e667e8121924.xml, DXVAHDDDI_DEVICE_DESC, DXVAHDDDI_DEVICE_DESC structure [Display Devices], _DXVAHDDDI_DEVICE_DESC, d3dumddi/DXVAHDDDI_DEVICE_DESC, display.dxvahdddi_device_desc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,17 +52,6 @@ req.typenames: DXVAHDDDI_DEVICE_DESC
 The DXVAHDDDI_DEVICE_DESC structure describes a decode device.  
 
 
-## -syntax
-
-
-````
-typedef struct _DXVAHDDDI_DEVICE_DESC {
-  DXVAHDDDI_CONTENT_DESC *pContentDesc;
-  DXVAHDDDI_DEVICE_USAGE Usage;
-} DXVAHDDDI_DEVICE_DESC;
-````
-
-
 ## -struct-fields
 
 
@@ -70,12 +59,12 @@ typedef struct _DXVAHDDDI_DEVICE_DESC {
 
 ### -field pContentDesc
 
-[in] A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_content_desc.md">DXVAHDDDI_CONTENT_DESC</a> structure that describes how the device decodes content. 
+[in] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563039">DXVAHDDDI_CONTENT_DESC</a> structure that describes how the device decodes content. 
 
 
 ### -field Usage
 
-[in] A <a href="..\d3dumddi\ne-d3dumddi-_dxvahdddi_device_usage.md">DXVAHDDDI_DEVICE_USAGE</a>-typed value that indicates how the decode device plays video. 
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff563051">DXVAHDDDI_DEVICE_USAGE</a>-typed value that indicates how the decode device plays video. 
 
 
 ## -remarks
@@ -89,16 +78,15 @@ The driver considers the value in the <b>Usage</b> member and the information to
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_content_desc.md">DXVAHDDDI_CONTENT_DESC</a>
 
 
 
-<a href="..\d3dumddi\ne-d3dumddi-_dxvahdddi_device_usage.md">DXVAHDDDI_DEVICE_USAGE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563039">DXVAHDDDI_CONTENT_DESC</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563051">DXVAHDDDI_DEVICE_USAGE</a>
  
 
  
-
 

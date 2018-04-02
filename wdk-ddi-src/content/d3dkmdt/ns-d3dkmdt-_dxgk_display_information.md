@@ -7,7 +7,7 @@ old-location: display\dxgk_display_information.htm
 old-project: display
 ms.assetid: e6902724-a81b-4a06-8089-a8e98392dc78
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PDXGK_DISPLAY_INFORMATION, DXGK_DISPLAY_INFORMATION, DXGK_DISPLAY_INFORMATION structure [Display Devices], PDXGK_DISPLAY_INFORMATION, PDXGK_DISPLAY_INFORMATION structure pointer [Display Devices], _DXGK_DISPLAY_INFORMATION, d3dkmdt/DXGK_DISPLAY_INFORMATION, d3dkmdt/PDXGK_DISPLAY_INFORMATION, display.dxgk_display_information"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,22 +52,6 @@ req.typenames: DXGK_DISPLAY_INFORMATION, *PDXGK_DISPLAY_INFORMATION
 Contains the display information that is passed between the operating system and the display miniport driver when the driver is started or stopped in response to a Plug and Play (PnP) event.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGK_DISPLAY_INFORMATION {
-  UINT                           Width;
-  UINT                           Height;
-  UINT                           Pitch;
-  D3DDDIFORMAT                   ColorFormat;
-  PHYSICAL_ADDRESS               PhysicAddress;
-  D3DDDI_VIDEO_PRESENT_TARGET_ID TargetId;
-  ULONG                          AcpiId;
-} DXGK_DISPLAY_INFORMATION, *PDXGK_DISPLAY_INFORMATION;
-````
-
-
 ## -struct-fields
 
 
@@ -90,7 +74,7 @@ A UINT value that specifies the total number of bytes contained in one screen li
 
 ### -field ColorFormat
 
-A value of type <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a> that indicates the pixel color format of the current display mode. The driver does not have to support all color formats in the <b>D3DDDIFORMAT</b> structure. For more information on formats that must be supported, see <a href="https://msdn.microsoft.com/6454adb3-c958-467b-acbc-b8937b98cd57">DxgkCbAcquirePostDisplayOwnership</a> and <a href="..\dispmprt\nc-dispmprt-dxgkddi_stop_device_and_release_post_display_ownership.md">DxgkDdiStopDeviceAndReleasePostDisplayOwnership</a>.
+A value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff544312">D3DDDIFORMAT</a> that indicates the pixel color format of the current display mode. The driver does not have to support all color formats in the <b>D3DDDIFORMAT</b> structure. For more information on formats that must be supported, see <a href="https://msdn.microsoft.com/6454adb3-c958-467b-acbc-b8937b98cd57">DxgkCbAcquirePostDisplayOwnership</a> and <a href="https://msdn.microsoft.com/6AF170BF-C422-4340-8935-31A4D4F3EFA5">DxgkDdiStopDeviceAndReleasePostDisplayOwnership</a>.
 
 
 ### -field PhysicAddress
@@ -114,18 +98,17 @@ A ULONG value that specifies the ACPI identifier of the video present target spe
 
 
 
-For more information on the use of the members of <b>DXGK_DISPLAY_INFORMATION</b>, see <a href="https://msdn.microsoft.com/6454adb3-c958-467b-acbc-b8937b98cd57">DxgkCbAcquirePostDisplayOwnership</a> and <a href="..\dispmprt\nc-dispmprt-dxgkddi_stop_device_and_release_post_display_ownership.md">DxgkDdiStopDeviceAndReleasePostDisplayOwnership</a>.
+For more information on the use of the members of <b>DXGK_DISPLAY_INFORMATION</b>, see <a href="https://msdn.microsoft.com/6454adb3-c958-467b-acbc-b8937b98cd57">DxgkCbAcquirePostDisplayOwnership</a> and <a href="https://msdn.microsoft.com/6AF170BF-C422-4340-8935-31A4D4F3EFA5">DxgkDdiStopDeviceAndReleasePostDisplayOwnership</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_stop_device_and_release_post_display_ownership.md">DxgkDdiStopDeviceAndReleasePostDisplayOwnership</a>
 
 
 
-<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544312">D3DDDIFORMAT</a>
 
 
 
@@ -133,8 +116,8 @@ For more information on the use of the members of <b>DXGK_DISPLAY_INFORMATION</b
 
 
 
+<a href="https://msdn.microsoft.com/6AF170BF-C422-4340-8935-31A4D4F3EFA5">DxgkDdiStopDeviceAndReleasePostDisplayOwnership</a>
  
 
  
-
 

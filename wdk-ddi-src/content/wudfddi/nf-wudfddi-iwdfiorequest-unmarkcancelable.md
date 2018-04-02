@@ -55,14 +55,6 @@ req.product: Windows 10 or later.
 The <b>UnmarkCancelable</b> method disables the canceling of an I/O request.
 
 
-## -syntax
-
-
-````
-HRESULT  UnmarkCancelable();
-````
-
-
 ## -parameters
 
 
@@ -313,7 +305,7 @@ void MyQueue::OnCancel(__in IWDFIoRequest* Request)
 </td>
 </tr>
 </table></span></div>
-Also see the code example on <a href="..\wdfrequest\nf-wdfrequest-wdfrequestunmarkcancelable.md">WdfRequestUnmarkCancelable</a>. While written for a KMDF driver, this example demonstrates how you can use the framework's <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-automatic-synchronization">automatic synchronization</a> to manage synchronization between the cancel callback and another thread that calls the <i>Unmark</i> routine.
+Also see the code example on <a href="https://msdn.microsoft.com/library/windows/hardware/ff550035">WdfRequestUnmarkCancelable</a>. While written for a KMDF driver, this example demonstrates how you can use the framework's <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-automatic-synchronization">automatic synchronization</a> to manage synchronization between the cancel callback and another thread that calls the <i>Unmark</i> routine.
 
 <div class="code"></div>
 
@@ -321,7 +313,14 @@ Also see the code example on <a href="..\wdfrequest\nf-wdfrequest-wdfrequestunma
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556903">IRequestCallbackCancel::OnCancel</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558985">IWDFIoRequest</a>
 
 
 
@@ -330,15 +329,7 @@ Also see the code example on <a href="..\wdfrequest\nf-wdfrequest-wdfrequestunma
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559146">IWDFIoRequest::MarkCancelable</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556903">IRequestCallbackCancel::OnCancel</a>
-
-
-
  
 
  
-
 

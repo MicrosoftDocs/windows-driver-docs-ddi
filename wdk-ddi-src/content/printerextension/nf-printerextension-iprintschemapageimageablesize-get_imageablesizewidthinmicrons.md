@@ -56,27 +56,16 @@ Gets the horizontal dimension of the application media size relative to the page
 This property is read-only.
 
 
-## -syntax
-
-
-````
-HRESULT get_ImageableSizeWidthInMicrons(
-  [out, retval] ULONG *pulImageableSizeWidth
-);
-````
-
-
 ## -parameters
 
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintschemapageimageablesize.md">IPrintSchemaPageImageableSize</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451366">IPrintSchemaPageImageableSize</a>
  
 
  
-
 

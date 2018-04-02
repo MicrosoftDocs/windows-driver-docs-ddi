@@ -7,7 +7,7 @@ old-location: netvista\wwan_set_uicc_reset.htm
 old-project: netvista
 ms.assetid: 33711459-70C8-43D2-974D-B90EC0DD8ED6
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PWWAN_SET_UICC_RESET, PWWAN_SET_UICC_RESET, PWWAN_SET_UICC_RESET structure pointer [Network Drivers Starting with Windows Vista], WWAN_SET_UICC_RESET, WWAN_SET_UICC_RESET structure [Network Drivers Starting with Windows Vista], _WWAN_SET_UICC_RESET, netvista.wwan_set_uicc_reset, wwan/PWWAN_SET_UICC_RESET, wwan/WWAN_SET_UICC_RESET"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 The <b>WWAN_SET_UICC_RESET</b> structure represents the passthrough action the MB host specifies for a modem miniport adapter after it resets a  UICC smart card.
 
 
-## -syntax
-
-
-````
-typedef struct _WWAN_SET_UICC_RESET {
-  WWAN_UICC_PASSTHROUGH_ACTION PassThroughAction;
-} WWAN_SET_UICC_RESET, *PWWAN_SET_UICC_RESET;
-````
-
-
 ## -struct-fields
 
 
@@ -70,25 +60,24 @@ typedef struct _WWAN_SET_UICC_RESET {
 
 ### -field PassThroughAction
 
-The passthrough action specified by the host. For more info, see <a href="..\wwan\ne-wwan-_wwan_uicc_passthrough_action.md">WWAN_UICC_PASSTHROUGH_ACTION</a>.
+The passthrough action specified by the host. For more info, see <a href="https://msdn.microsoft.com/4C9293CB-D92D-4C31-929F-16C1B8918933">WWAN_UICC_PASSTHROUGH_ACTION</a>.
 
 
 ## -see-also
+
+
+
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-uicc-reset-operations">MB UICC reset operations</a>
 
 
 
-<a href="..\wwan\ne-wwan-_wwan_uicc_passthrough_action.md">WWAN_UICC_PASSTHROUGH_ACTION</a>
+<a href="https://msdn.microsoft.com/98113BC2-317C-4FBD-B3A6-A14B3783D225">NDIS_WWAN_SET_UICC_RESET</a>
 
 
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_set_uicc_reset.md">NDIS_WWAN_SET_UICC_RESET</a>
-
-
-
+<a href="https://msdn.microsoft.com/4C9293CB-D92D-4C31-929F-16C1B8918933">WWAN_UICC_PASSTHROUGH_ACTION</a>
  
 
  
-
 

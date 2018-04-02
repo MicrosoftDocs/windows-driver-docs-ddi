@@ -57,7 +57,7 @@ To obtain the <b>IWDFIoTarget2</b> interface, drivers call <b>IWDFIoTarget::Quer
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFIoTarget2</b> interface inherits from <a href="..\wudfddi\nn-wudfddi-iwdfiotarget.md">IWDFIoTarget</a>. <b>IWDFIoTarget2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFIoTarget2</b> interface inherits from <a href="https://msdn.microsoft.com/library/windows/hardware/ff559170">IWDFIoTarget</a>. <b>IWDFIoTarget2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

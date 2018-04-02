@@ -2,7 +2,7 @@
 UID: NA:spb
 ms.assetid: e794df0d-60f5-3c88-a345-ed17d683adf2
 ms.author: windowsdriverdev
-ms.date: 03/13/18
+ms.date: 02/27/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

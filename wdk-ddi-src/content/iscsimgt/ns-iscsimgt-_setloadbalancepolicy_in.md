@@ -7,7 +7,7 @@ old-location: storage\setloadbalancepolicy_in.htm
 old-project: storage
 ms.assetid: e1895fed-a006-45f6-a38a-1767202cbf4f
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSetLoadBalancePolicy_IN, PSetLoadBalancePolicy_IN, PSetLoadBalancePolicy_IN structure pointer [Storage Devices], SetLoadBalancePolicy_IN, SetLoadBalancePolicy_IN structure [Storage Devices], _SetLoadBalancePolicy_IN, iscsimgt/PSetLoadBalancePolicy_IN, iscsimgt/SetLoadBalancePolicy_IN, storage.setloadbalancepolicy_in, structs-iSCSI_d4d805d0-4c3c-4f5e-90ee-9c6bf881dfcf.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,16 +52,6 @@ req.typenames: SetLoadBalancePolicy_IN, *PSetLoadBalancePolicy_IN
 The SetLoadBalancePolicy_IN structure holds the input data for the SetLoadBalance method.
 
 
-## -syntax
-
-
-````
-typedef struct _SetLoadBalancePolicy_IN {
-  ISCSI_Supported_LB_Policies LoadBalancePolicies;
-} SetLoadBalancePolicy_IN, *PSetLoadBalancePolicy_IN;
-````
-
-
 ## -struct-fields
 
 
@@ -83,12 +73,11 @@ You must implement this class.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563062">MSiSCSI_LB_Operations WMI Class</a>
-
-
-
  
 
  
-
 

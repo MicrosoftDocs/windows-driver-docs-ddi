@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 The <code>IPrintCoreUI2::DrvUpgradeRegistrySetting</code> method is provided by the Windows XP Pscript5 driver so that Pscript5 user interface plug-ins can update device settings stored in the registry.
 
 
-## -syntax
-
-
-````
-STDMETHOD DrvUpgradeRegistrySetting(
-   HANDLE hPrinter ,
-   PCSTR  pFeature,
-   PCSTR  pOption
-);
-````
-
-
 ## -parameters
 
 
@@ -148,16 +136,15 @@ This method should be called only by the OEM's <a href="https://msdn.microsoft.c
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/e2d2e486-d69d-4a6d-aaab-a7b8806665b4">IPrintCoreUI2</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553118">IPrintOemDriverUI::DrvUpgradeRegistrySetting</a>
-
-
-
-<a href="..\prcomoem\nn-prcomoem-iprintcoreui2.md">IPrintCoreUI2</a>
-
-
-
  
 
  
-
 

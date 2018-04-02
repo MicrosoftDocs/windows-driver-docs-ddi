@@ -7,7 +7,7 @@ old-location: kernel\iostartpacket.htm
 old-project: kernel
 ms.assetid: b1fa148e-73e2-437f-bd3a-e879bd457c76
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: IoStartPacket, IoStartPacket routine [Kernel-Mode Driver Architecture], k104_d27461b9-32fe-4d7b-853d-fd110fcdb644.xml, kernel.iostartpacket, wdm/IoStartPacket
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,19 +50,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>IoStartPacket</b> routine calls the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff563858">StartIo</a> routine with the given IRP or inserts the IRP into the device queue associated with the given device object if the device is already busy. 
-
-
-## -syntax
-
-
-````
-VOID IoStartPacket(
-  _In_     PDEVICE_OBJECT DeviceObject,
-  _In_     PIRP           Irp,
-  _In_opt_ PULONG         Key,
-  _In_opt_ PDRIVER_CANCEL CancelFunction
-);
-````
 
 
 ## -parameters
@@ -116,28 +103,27 @@ Callers of <b>IoStartPacket</b> must be running at IRQL &lt;= DISPATCH_LEVEL. Us
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
 
 
-<a href="..\wdm\nf-wdm-iostartnextpacketbykey.md">IoStartNextPacketByKey</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>
 
 
 
-<a href="..\wdm\nf-wdm-iostartnextpacket.md">IoStartNextPacket</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549422">IoMarkIrpPending</a>
 
 
 
-<a href="..\wdm\nf-wdm-iosetcancelroutine.md">IoSetCancelRoutine</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549674">IoSetCancelRoutine</a>
 
 
 
-<a href="..\wdm\nf-wdm-iomarkirppending.md">IoMarkIrpPending</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550358">IoStartNextPacket</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550363">IoStartNextPacketByKey</a>
  
 
  
-
 

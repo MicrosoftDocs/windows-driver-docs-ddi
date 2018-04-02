@@ -53,25 +53,6 @@ req.product: Windows 10 or later.
 The <code>IPrintOemPS::EnablePDEV</code> method allows a rendering plug-in for Pscript5 to create its own PDEV structure.
 
 
-## -syntax
-
-
-````
-STDMETHOD EnablePDEV(
-        PDEVOBJ       pdevobj,
-        PWSTR         pPrinterName,
-        ULONG         cPatterns,
-        HSURF         *phsurfPatterns,
-        ULONG         cjGdiInfo,
-        GDIINFO       *pGdiInfo,
-        ULONG         cjDevInfo,
-        DEVINFO       *pDevInfo,
-        DRVENABLEDATA *pded,
-  [out] PDEVOEM       *pDevOem
-);
-````
-
-
 ## -parameters
 
 
@@ -79,7 +60,7 @@ STDMETHOD EnablePDEV(
 
 ### -param pdevobj
 
-Caller-supplied pointer to a <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a> structure.
+Caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547573">DEVOBJ</a> structure.
 
 
 ### -param pPrinterName
@@ -187,7 +168,7 @@ The <code>IPrintOemPS::EnablePDEV</code> method performs the same types of opera
 
 If you provide a rendering plug-in that exports the <code>IPrintOemPS::EnablePDEV</code> method, Pscript5's printer graphics DLL calls the method from within its <a href="https://msdn.microsoft.com/library/windows/hardware/ff556211">DrvEnablePDEV</a> function. 
 
-The <code>IPrintOemPS::EnablePDEV</code> method should allocate an instance of its private PDEV structure, initialize it, and return its address as the method's <i>pDevOem</i> parameter. Other plug-in methods receive the address as the <b>pdevOEM</b> member of the <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a> structure.
+The <code>IPrintOemPS::EnablePDEV</code> method should allocate an instance of its private PDEV structure, initialize it, and return its address as the method's <i>pDevOem</i> parameter. Other plug-in methods receive the address as the <b>pdevOEM</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547573">DEVOBJ</a> structure.
 
 The <b>pdevOEM</b> member of the DEVOBJ structure is not used with the <code>IPrintOemPS::EnablePDEV</code> method.
 

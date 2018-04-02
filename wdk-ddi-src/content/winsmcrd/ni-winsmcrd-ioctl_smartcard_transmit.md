@@ -143,7 +143,6 @@ Bytes buffer contains the result of the transmission. The buffer points to the S
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/design-guide-smart-card">Smart card design guide</a>
 
 
 
@@ -151,8 +150,8 @@ Bytes buffer contains the result of the transmission. The buffer points to the S
 
 
 
+<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/design-guide-smart-card">Smart card design guide</a>
  
 
  
-
 

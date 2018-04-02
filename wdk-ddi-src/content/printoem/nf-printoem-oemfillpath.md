@@ -53,22 +53,6 @@ req.product: Windows 10 or later.
 The <code>OEMFillPath</code> function handles the filling of closed paths.
 
 
-## -syntax
-
-
-````
-BOOL APIENTRY OEMEscape(
-   SURFOBJ  *pso,
-   PATHOBJ  *ppo,
-   CLIPOBJ  *pco,
-   BRUSHOBJ *pbo,
-   POINTL   *pptlBrushOrg,
-   MIX      mix,
-   FLONG    flOptions
-);
-````
-
-
 ## -parameters
 
 

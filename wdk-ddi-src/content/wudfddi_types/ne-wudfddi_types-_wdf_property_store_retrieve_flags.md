@@ -55,22 +55,6 @@ req.product: Windows 10 or later.
 The <b>WDF_PROPERTY_STORE_RETRIEVE_FLAGS</b> enumeration contains values that indicate whether  UMDF should create a registry key if the key does not already exist.
 
 
-## -syntax
-
-
-````
-typedef enum _WDF_PROPERTY_STORE_RETRIEVE_FLAGS { 
-  WdfPropertyStoreNormal              = 0,
-  WdfPropertyStoreCreateIfMissing     = 0x1,
-  WdfPropertyStoreCreateVolatile      = 0x2,
-  WdfPropertyStoreRetrieveFlagsMask   = WdfPropertyStoreNormal |
-                                      WdfPropertyStoreCreateIfMissing |
-                                      WdfPropertyStoreCreateVolatile
-
-} WDF_PROPERTY_STORE_RETRIEVE_FLAGS;
-````
-
-
 ## -enum-fields
 
 
@@ -107,11 +91,6 @@ Reserved for system use.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560228">IWDFPropertyStoreFactory::RetrieveDevicePropertyStore</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556982">IWDFDeviceInitialize::RetrieveDevicePropertyStore</a>
 
 
 
@@ -119,8 +98,12 @@ Reserved for system use.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556982">IWDFDeviceInitialize::RetrieveDevicePropertyStore</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560228">IWDFPropertyStoreFactory::RetrieveDevicePropertyStore</a>
  
 
  
-
 

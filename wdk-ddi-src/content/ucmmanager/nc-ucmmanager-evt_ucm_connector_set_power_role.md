@@ -7,7 +7,7 @@ old-location: buses\evt_ucm_connector_set_power_role.htm
 old-project: usbref
 ms.assetid: 56D5A78D-546E-439E-A69E-A87B0A3B288F
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: EVT_UCM_CONNECTOR_SET_POWER_ROLE, EvtSetDataRole, EvtSetDataRole callback function [Buses], PFN_UCM_CONNECTOR_SET_POWER_ROLE, PFN_UCM_CONNECTOR_SET_POWER_ROLE callback function pointer [Buses], buses.evt_ucm_connector_set_power_role, ucmmanager/EvtSetDataRole
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,22 +53,6 @@ req.product: Windows 10 or later.
 The client driver's implementation of the <i>EVT_UCM_CONNECTOR_SET_POWER_ROLE</i> event callback function that sets the power  role of the connector to the specified role when attached to a partner connector.  
 
 
-## -prototype
-
-
-````
-EVT_UCM_CONNECTOR_SET_POWER_ROLE EvtSetDataRole;
-
-NTSTATUS EvtSetDataRole(
-  _In_ UCMCONNECTOR   Connector,
-  _In_ UCM_POWER_ROLE PowerRole
-)
-{ ... }
-
-typedef EVT_UCM_CONNECTOR_SET_POWER_ROLE PFN_UCM_CONNECTOR_SET_POWER_ROLE;
-````
-
-
 ## -parameters
 
 
@@ -76,12 +60,12 @@ typedef EVT_UCM_CONNECTOR_SET_POWER_ROLE PFN_UCM_CONNECTOR_SET_POWER_ROLE;
 
 ### -param Connector [in]
 
-Handle to the connector that the client driver received in a previous call to  the <a href="..\ucmmanager\nf-ucmmanager-ucmconnectorcreate.md">UcmConnectorCreate</a> method.
+Handle to the connector that the client driver received in a previous call to  the <a href="https://msdn.microsoft.com/library/windows/hardware/mt187909">UcmConnectorCreate</a> method.
 
 
 ### -param PowerRole [in]
 
-A <a href="..\ucmtypes\ne-ucmtypes-_ucm_power_role.md">UCM_POWER_ROLE</a>-typed flag that specifies the role to set.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/mt187944">UCM_POWER_ROLE</a>-typed flag that specifies the role to set.
 
 
 ## -returns
@@ -97,9 +81,9 @@ If the operation is successful, the callback function must return STATUS_SUCCESS
 
 
 
-To register an <i>EVT_UCM_CONNECTOR_SET_POWER_ROLE</i> callback function, the client must call <a href="..\ucmmanager\nf-ucmmanager-ucmconnectorcreate.md">UcmConnectorCreate</a>.
+To register an <i>EVT_UCM_CONNECTOR_SET_POWER_ROLE</i> callback function, the client must call <a href="https://msdn.microsoft.com/library/windows/hardware/mt187909">UcmConnectorCreate</a>.
 
-The USB connector manager framework extension (UcmCx) can request either <b>UcmPowerRoleSink</b> or  <b>UcmPowerRoleSource</b>. If the port is already in the requested role, the client driver can complete the request without any changes. Otherwise, it starts a power-role swap operation (PR_Swap). The driver calls <a href="..\ucmmanager\nf-ucmmanager-ucmconnectorpowerdirectionchanged.md">UcmConnectorPowerDirectionChanged</a> to notify UcmCx about the success or failure of that operation. 
+The USB connector manager framework extension (UcmCx) can request either <b>UcmPowerRoleSink</b> or  <b>UcmPowerRoleSource</b>. If the port is already in the requested role, the client driver can complete the request without any changes. Otherwise, it starts a power-role swap operation (PR_Swap). The driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/mt187914">UcmConnectorPowerDirectionChanged</a> to notify UcmCx about the success or failure of that operation. 
 The driver can call that method within the callback function.
 
 The role persists for the current connection.  
@@ -147,12 +131,11 @@ EvtSetPowerRole(
 
 ## -see-also
 
-<a href="..\ucmmanager\nf-ucmmanager-ucmconnectorcreate.md">UcmConnectorCreate</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt187909">UcmConnectorCreate</a>
  
 
  
-
 

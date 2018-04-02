@@ -7,7 +7,7 @@ old-location: buses\usbfn_port_type.htm
 old-project: usbref
 ms.assetid: D45F8CD0-CB54-4DE4-BD6B-FF6A35FCBFEC
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PUSBFN_PORT_TYPE, USBFN_PORT_TYPE, USBFN_PORT_TYPE enumeration [Buses], UsbfnChargingDownstreamPort, UsbfnDedicatedChargingPort, UsbfnInvalidDedicatedChargingPort, UsbfnPortTypeMaximum, UsbfnProprietaryDedicatedChargingPort, UsbfnStandardDownstreamPort, UsbfnUnknownPort, _USBFN_PORT_TYPE, buses.usbfn_port_type, usbfnbase/USBFN_PORT_TYPE, usbfnbase/UsbfnChargingDownstreamPort, usbfnbase/UsbfnDedicatedChargingPort, usbfnbase/UsbfnInvalidDedicatedChargingPort, usbfnbase/UsbfnPortTypeMaximum, usbfnbase/UsbfnProprietaryDedicatedChargingPort, usbfnbase/UsbfnStandardDownstreamPort, usbfnbase/UsbfnUnknownPort"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,22 +53,6 @@ req.product: Windows 10 or later.
 Defines the possible port types that can be returned by the client driver during port detection.
 
 
-## -syntax
-
-
-````
-typedef enum _USBFN_PORT_TYPE { 
-  UsbfnUnknownPort                       = 0,
-  UsbfnStandardDownstreamPort,
-  UsbfnChargingDownstreamPort,
-  UsbfnDedicatedChargingPort,
-  UsbfnInvalidDedicatedChargingPort,
-  UsbfnProprietaryDedicatedChargingPort,
-  UsbfnPortTypeMaximum
-} USBFN_PORT_TYPE;
-````
-
-
 ## -enum-fields
 
 
@@ -111,12 +95,11 @@ The maximum value of the enumeration.
 
 ## -see-also
 
-<a href="..\usbfnattach\nc-usbfnattach-usbfn_get_attach_action.md">USBFN_GET_ATTACH_ACTION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt187995">USBFN_GET_ATTACH_ACTION</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: display\dxgkddicreatecontext.htm
 old-project: display
 ms.assetid: aea21a36-f3d5-4541-bd2d-aa026668c562
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_CREATECONTEXT, DmFunctions_b1519a67-52c0-4432-9059-ef1c98f075b6.xml, DxgkDdiCreateContext, DxgkDdiCreateContext callback function [Display Devices], d3dkmddi/DxgkDdiCreateContext, display.dxgkddicreatecontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,20 +52,6 @@ req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 The <i>DxgkDdiCreateContext</i> function creates a graphics processing unit (GPU) context. 
 
 
-## -prototype
-
-
-````
-DXGKDDI_CREATECONTEXT DxgkDdiCreateContext;
-
-NTSTATUS APIENTRY DxgkDdiCreateContext(
-  _In_    const HANDLE                hDevice,
-  _Inout_       DXGKARG_CREATECONTEXT *pCreateContext
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -73,12 +59,12 @@ NTSTATUS APIENTRY DxgkDdiCreateContext(
 
 ### -param hDevice [in]
 
-[in] A handle to the graphics context device that the new context is created on. The display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createdevice.md">DxgkDdiCreateDevice</a> function previously provided this handle to the Microsoft DirectX graphics kernel subsystem in the <b>hDevice</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createdevice.md">DXGKARG_CREATEDEVICE</a> structure. 
+[in] A handle to the graphics context device that the new context is created on. The display miniport driver's <a href="https://msdn.microsoft.com/a7027735-0ec4-4fad-81fb-1c3aca4ebf2d">DxgkDdiCreateDevice</a> function previously provided this handle to the Microsoft DirectX graphics kernel subsystem in the <b>hDevice</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557570">DXGKARG_CREATEDEVICE</a> structure. 
 
 
 ### -param pCreateContext [in, out]
 
-[in/out] A pointer to a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createcontext.md">DXGKARG_CREATECONTEXT</a> structure that contains information about creating the context.
+[in/out] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff557567">DXGKARG_CREATECONTEXT</a> structure that contains information about creating the context.
 
 
 ## -returns
@@ -150,20 +136,19 @@ Typically, each context can reference any resource that was previously created f
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createcontext.md">DXGKARG_CREATECONTEXT</a>
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createdevice.md">DXGKARG_CREATEDEVICE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557567">DXGKARG_CREATECONTEXT</a>
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createdevice.md">DxgkDdiCreateDevice</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557570">DXGKARG_CREATEDEVICE</a>
 
 
 
+<a href="https://msdn.microsoft.com/a7027735-0ec4-4fad-81fb-1c3aca4ebf2d">DxgkDdiCreateDevice</a>
  
 
  
-
 

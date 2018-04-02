@@ -49,21 +49,7 @@ req.typenames:
 ## -description
 
 
-The <b>IKsDeviceFunctions::RegisterAdapterObjectEx</b> method registers a DMA adapter object with AVStream. All drivers compiled for Win64 platforms should use this method instead of <a href="..\ks\nf-ks-ksdeviceregisteradapterobject.md">KsDeviceRegisterAdapterObject</a>.
-
-
-## -syntax
-
-
-````
-NTSTATUS RegisterAdapterObjectEx(
-  [in] PADAPTER_OBJECT     AdapterObject,
-  [in] PDEVICE_DESCRIPTION DeviceDescription,
-  [in] ULONG               NumberOfMapRegisters,
-  [in] ULONG               MaxMappingsByteCount,
-  [in] ULONG               MappingTableStride
-);
-````
+The <b>IKsDeviceFunctions::RegisterAdapterObjectEx</b> method registers a DMA adapter object with AVStream. All drivers compiled for Win64 platforms should use this method instead of <a href="https://msdn.microsoft.com/library/windows/hardware/ff561687">KsDeviceRegisterAdapterObject</a>.
 
 
 ## -parameters
@@ -73,12 +59,12 @@ NTSTATUS RegisterAdapterObjectEx(
 
 ### -param AdapterObject [in]
 
-Pointer to the ADAPTER_OBJECT for the device. Must be acquired through <a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a> before calling <b>RegisterAdapterObjectEx</b>.
+Pointer to the ADAPTER_OBJECT for the device. Must be acquired through <a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a> before calling <b>RegisterAdapterObjectEx</b>.
 
 
 ### -param DeviceDescription [in]
 
-Pointer to a structure of type <a href="..\wdm\ns-wdm-_device_description.md">DEVICE_DESCRIPTION</a> that describes the attributes of the physical device for which the caller is registering a DMA object.
+Pointer to a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff543107">DEVICE_DESCRIPTION</a> that describes the attributes of the physical device for which the caller is registering a DMA object.
 
 
 ### -param NumberOfMapRegisters [in]
@@ -88,12 +74,12 @@ Specifies the number of map registers returned from the minidriver's call to <b>
 
 ### -param MaxMappingsByteCount [in]
 
-Specifies the maximum number of bytes that the device can handle for a single mapping. Enables AVStream to automatically break up large chunks of contiguous physical memory into multiple scatter/gather elements for devices that impose a size limit on individual mappings in DMA transfers. See important additional information about <b>MaxMappingsByteCount</b> on the <a href="..\ks\nf-ks-ksdeviceregisteradapterobject.md">KsDeviceRegisterAdapterObject</a> reference page.
+Specifies the maximum number of bytes that the device can handle for a single mapping. Enables AVStream to automatically break up large chunks of contiguous physical memory into multiple scatter/gather elements for devices that impose a size limit on individual mappings in DMA transfers. See important additional information about <b>MaxMappingsByteCount</b> on the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561687">KsDeviceRegisterAdapterObject</a> reference page.
 
 
 ### -param MappingTableStride [in]
 
-Specifies how many bytes each entry in the mapping table requires. This value must be at least <b>sizeof</b> (<a href="..\ks\ns-ks-_ksmapping.md">KSMAPPING</a>) and can be as large as necessary.
+Specifies how many bytes each entry in the mapping table requires. This value must be at least <b>sizeof</b> (<a href="https://msdn.microsoft.com/library/windows/hardware/ff563394">KSMAPPING</a>) and can be as large as necessary.
 
 Additional space can be used by the minidriver as context information.
 
@@ -118,12 +104,11 @@ Also see <a href="https://msdn.microsoft.com/1173a83f-8d9e-4678-bfb5-f2fb91e827b
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksdeviceregisteradapterobject.md">KsDeviceRegisterAdapterObject</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561687">KsDeviceRegisterAdapterObject</a>
  
 
  
-
 

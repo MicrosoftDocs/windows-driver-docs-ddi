@@ -7,7 +7,7 @@ old-location: storage\ioctl_changer_get_status.htm
 old-project: storage
 ms.assetid: 88f1a248-0beb-4c7c-b68d-6ce145bf5ca7
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_CHANGER_GET_STATUS, IOCTL_CHANGER_GET_STATUS control code [Storage Devices], k307_81e37b47-2d26-466d-9ddc-cc681398d607.xml, ntddchgr/IOCTL_CHANGER_GET_STATUS, storage.ioctl_changer_get_status
 ms.prod: windows-hardware
 ms.technology: windows-devices

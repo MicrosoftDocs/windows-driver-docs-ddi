@@ -7,7 +7,7 @@ old-location: kernel\tmrecoverenlistment.htm
 old-project: kernel
 ms.assetid: 2483ca0e-f9b5-4cd0-a5c5-29b48099d86f
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: TmRecoverEnlistment, TmRecoverEnlistment routine [Kernel-Mode Driver Architecture], kernel.tmrecoverenlistment, ktm_ref_bcbfbdfe-017c-4d33-a0f5-dda597ee9166.xml, wdm/TmRecoverEnlistment
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -55,17 +55,6 @@ req.product: Windows 10 or later.
 The <b>TmRecoverEnlistment</b> routine initiates a recovery operation for the transaction that is associated with a specified enlistment.
 
 
-## -syntax
-
-
-````
-NTSTATUS TmRecoverEnlistment(
-  _In_ PKENLISTMENT Enlistment,
-  _In_ PVOID        EnlistmentKey
-);
-````
-
-
 ## -parameters
 
 
@@ -73,12 +62,12 @@ NTSTATUS TmRecoverEnlistment(
 
 ### -param Enlistment [in]
 
-A pointer to an <a href="https://msdn.microsoft.com/80e61475-4bb7-4eaa-b9f1-ff95eac9bc77">enlistment object</a>. Your component can receive this pointer as input to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff561077">ResourceManagerNotification</a> callback routine. Alternatively, your component can call <a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a> and supply the object handle that a previous call to <a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>, <a href="..\wdm\nf-wdm-tmcreateenlistment.md">TmCreateEnlistment</a>, or <a href="..\wdm\nf-wdm-zwopenenlistment.md">ZwOpenEnlistment</a> provided.
+A pointer to an <a href="https://msdn.microsoft.com/80e61475-4bb7-4eaa-b9f1-ff95eac9bc77">enlistment object</a>. Your component can receive this pointer as input to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff561077">ResourceManagerNotification</a> callback routine. Alternatively, your component can call <a href="https://msdn.microsoft.com/library/windows/hardware/ff558679">ObReferenceObjectByHandle</a> and supply the object handle that a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff566422">ZwCreateEnlistment</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff564669">TmCreateEnlistment</a>, or <a href="https://msdn.microsoft.com/library/windows/hardware/ff567008">ZwOpenEnlistment</a> provided.
 
 
 ### -param EnlistmentKey [in]
 
-A pointer to the enlistment key value that the resource manager previously specified as the <i>EnlistmentKey</i> parameter to <a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a> or <a href="..\wdm\nf-wdm-tmcreateenlistment.md">TmCreateEnlistment</a>. This parameter is optional and can be <b>NULL</b> if the resource manager did not provide an enlistment key when it called <b>ZwCreateEnlistment</b> or <b>TmCreateEnlistment</b>.
+A pointer to the enlistment key value that the resource manager previously specified as the <i>EnlistmentKey</i> parameter to <a href="https://msdn.microsoft.com/library/windows/hardware/ff566422">ZwCreateEnlistment</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff564669">TmCreateEnlistment</a>. This parameter is optional and can be <b>NULL</b> if the resource manager did not provide an enlistment key when it called <b>ZwCreateEnlistment</b> or <b>TmCreateEnlistment</b>.
 
 
 ## -returns
@@ -148,7 +137,7 @@ The routine might return other <a href="https://msdn.microsoft.com/library/windo
 
 
 
-The <b>TmRecoverEnlistment</b> routine is a pointer-based version of the <a href="..\wdm\nf-wdm-zwrecoverenlistment.md">ZwRecoverEnlistment</a> routine.
+The <b>TmRecoverEnlistment</b> routine is a pointer-based version of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567075">ZwRecoverEnlistment</a> routine.
 
 For information about when to use KTM's <b>Tm<i>Xxx</i></b> routines instead of <b>Zw<i>Xxx</i></b> routines, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565567">Using TmXxx Routines</a>.
 
@@ -159,31 +148,10 @@ For more information about recovery operations, see <a href="https://msdn.micros
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-tmcreateenlistment.md">TmCreateEnlistment</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwgetnotificationresourcemanager.md">ZwGetNotificationResourceManager</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwrecoverenlistment.md">ZwRecoverEnlistment</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564813">TRANSACTION_NOTIFICATION</a>
-
-
-
-<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwopenenlistment.md">ZwOpenEnlistment</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558679">ObReferenceObjectByHandle</a>
 
 
 
@@ -191,8 +159,28 @@ For more information about recovery operations, see <a href="https://msdn.micros
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564813">TRANSACTION_NOTIFICATION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564669">TmCreateEnlistment</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566422">ZwCreateEnlistment</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566467">ZwGetNotificationResourceManager</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567008">ZwOpenEnlistment</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567075">ZwRecoverEnlistment</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: netvista\ndiscmclosecallcomplete.htm
 old-project: netvista
 ms.assetid: caf248e0-ec9a-4c85-86f7-f35c715c6e39
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NdisCmCloseCallComplete, NdisCmCloseCallComplete function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_9380a315-f44c-4f6d-914f-480408c8d804.xml, ndis/NdisCmCloseCallComplete, netvista.ndiscmclosecallcomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -54,18 +54,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
   previously returned NDIS_STATUS_PENDING, to tear down a call.
 
 
-## -syntax
-
-
-````
-VOID NdisCmCloseCallComplete(
-  _In_     NDIS_STATUS Status,
-  _In_     NDIS_HANDLE NdisVcHandle,
-  _In_opt_ NDIS_HANDLE NdisPartyHandle
-);
-````
-
-
 ## -parameters
 
 
@@ -81,10 +69,10 @@ Specifies the final status of the client's request that the CM close the connect
 
 Specifies the handle to the VC for the call. This handle was supplied by NDIS when the VC was
      originally created, whether by the call manager or client, with 
-     <a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a>. More recently, the call
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff561696">NdisCoCreateVc</a>. More recently, the call
      manager obtained this handle from its per-VC state designated by the 
      <i>CallMgrVcContext</i> passed as an input parameter to its 
-     <a href="..\ndis\nc-ndis-protocol_cm_close_call.md">
+     <a href="https://msdn.microsoft.com/b5307e1b-3905-4e43-a0b0-0068ba18ef0d">
      ProtocolCmCloseCall</a> function.
 
 
@@ -115,7 +103,7 @@ If a stand-alone call manager's
     <b>NdisCmCloseCallComplete</b> subsequently to notify the client and NDIS that its attempt to break the
     connection has completed, whether successfully or with an error. A call to 
     <b>NdisCmCloseCallComplete</b> causes NDIS to call the client's 
-    <a href="..\ndis\nc-ndis-protocol_cl_close_call_complete.md">
+    <a href="https://msdn.microsoft.com/a7ba1ab2-04c9-45b5-a184-e1ad1448561a">
     ProtocolClCloseCallComplete</a> function.
 
 If it passes NDIS_STATUS_SUCCESS as the 
@@ -123,10 +111,10 @@ If it passes NDIS_STATUS_SUCCESS as the
     <i>NdisVcHandle</i> (and 
     <i>NdisPartyHandle</i>, if any) unusable for transfers over the network as soon as it calls 
     <b>NdisCmCloseCallComplete</b>. If the call manager originally created the VC, it should call 
-    <a href="..\ndis\nf-ndis-ndiscodeletevc.md">NdisCoDeleteVc</a> with the same 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561698">NdisCoDeleteVc</a> with the same 
     <i>NdisVcHandle</i> that it just passed to 
     <b>NdisCmCloseCallComplete</b>. If the client created this VC, the call manager can expect a call to its 
-    <a href="..\ndis\nc-ndis-protocol_co_delete_vc.md">ProtocolCoDeleteVc</a> function with the
+    <a href="https://msdn.microsoft.com/d761270f-bf77-441e-834c-9ac7fb3d350f">ProtocolCoDeleteVc</a> function with the
     
     <i>ProtocolVcContext</i>, where it has the same 
     <i>NdisVcHandle</i>, as an input parameter.
@@ -141,28 +129,27 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_cl_close_call_complete.md">ProtocolClCloseCallComplete</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_co_delete_vc.md">ProtocolCoDeleteVc</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561627">NdisClCloseCall</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiscodeletevc.md">NdisCoDeleteVc</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561698">NdisCoDeleteVc</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562803">NdisMCmCloseCallComplete</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismcmclosecallcomplete.md">NdisMCmCloseCallComplete</a>
+<a href="https://msdn.microsoft.com/a7ba1ab2-04c9-45b5-a184-e1ad1448561a">ProtocolClCloseCallComplete</a>
 
 
 
+<a href="https://msdn.microsoft.com/d761270f-bf77-441e-834c-9ac7fb3d350f">ProtocolCoDeleteVc</a>
  
 
  
-
 

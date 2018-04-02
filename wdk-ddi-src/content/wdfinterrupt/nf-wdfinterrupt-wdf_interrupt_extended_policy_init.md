@@ -52,17 +52,7 @@ req.product: Windows 10 or later.
 
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
-The <b>WDF_INTERRUPT_EXTENDED_POLICY_INIT</b> function initializes a <a href="..\wdfinterrupt\ns-wdfinterrupt-_wdf_interrupt_extended_policy.md">WDF_INTERRUPT_EXTENDED_POLICY</a> structure.
-
-
-## -syntax
-
-
-````
-VOID WDF_INTERRUPT_EXTENDED_POLICY_INIT(
-  _Out_ PWDF_INTERRUPT_EXTENDED_POLICY PolicyAndGroup
-);
-````
+The <b>WDF_INTERRUPT_EXTENDED_POLICY_INIT</b> function initializes a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552349">WDF_INTERRUPT_EXTENDED_POLICY</a> structure.
 
 
 ## -parameters
@@ -79,7 +69,7 @@ TBD
 
 #### - PolicyAndGroup [out]
 
-A pointer to a driver-allocated <a href="..\wdfinterrupt\ns-wdfinterrupt-_wdf_interrupt_extended_policy.md">WDF_INTERRUPT_EXTENDED_POLICY</a> structure.
+A pointer to a driver-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff552349">WDF_INTERRUPT_EXTENDED_POLICY</a> structure.
 
 
 ## -returns
@@ -95,12 +85,12 @@ None.
 
 
 
-The <b>WDF_INTERRUPT_EXTENDED_POLICY_INIT</b> function zeros the specified <a href="..\wdfinterrupt\ns-wdfinterrupt-_wdf_interrupt_extended_policy.md">WDF_INTERRUPT_EXTENDED_POLICY</a> structure and sets the structure's <b>Size</b> member. It also sets the structure's <b>Policy</b> member to <b>WdfIrqPolicyMachineDefault</b> and sets the structure's <b>Priority</b> member to <b>WdfIrqPriorityUndefined</b>.
+The <b>WDF_INTERRUPT_EXTENDED_POLICY_INIT</b> function zeros the specified <a href="https://msdn.microsoft.com/library/windows/hardware/ff552349">WDF_INTERRUPT_EXTENDED_POLICY</a> structure and sets the structure's <b>Size</b> member. It also sets the structure's <b>Policy</b> member to <b>WdfIrqPolicyMachineDefault</b> and sets the structure's <b>Priority</b> member to <b>WdfIrqPriorityUndefined</b>.
 
 
 #### Examples
 
-For a code example that uses <b>WDF_INTERRUPT_EXTENDED_POLICY_INIT</b>, see <a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptsetextendedpolicy.md">WdfInterruptSetExtendedPolicy</a>. 
+For a code example that uses <b>WDF_INTERRUPT_EXTENDED_POLICY_INIT</b>, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff547381">WdfInterruptSetExtendedPolicy</a>. 
 
 <div class="code"></div>
 
@@ -108,12 +98,11 @@ For a code example that uses <b>WDF_INTERRUPT_EXTENDED_POLICY_INIT</b>, see <a h
 
 ## -see-also
 
-<a href="..\wdfinterrupt\ns-wdfinterrupt-_wdf_interrupt_extended_policy.md">WDF_INTERRUPT_EXTENDED_POLICY</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552349">WDF_INTERRUPT_EXTENDED_POLICY</a>
  
 
  
-
 

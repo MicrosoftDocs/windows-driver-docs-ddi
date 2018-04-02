@@ -56,16 +56,6 @@ req.product: Windows 10 or later.
 The <b>WdfChildListUpdateAllChildDescriptionsAsPresent</b> method informs the framework that all of the child devices in a specified child list are plugged in and available.
 
 
-## -syntax
-
-
-````
-VOID WdfChildListUpdateAllChildDescriptionsAsPresent(
-  _In_ WDFCHILDLIST ChildList
-);
-````
-
-
 ## -parameters
 
 

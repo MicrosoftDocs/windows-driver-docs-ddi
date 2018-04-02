@@ -2,7 +2,7 @@
 UID: NA:netrequestqueue
 ms.assetid: 659e65a6-0c1c-34ef-aa27-96d03d945660
 ms.author: windowsdriverdev
-ms.date: 03/13/18
+ms.date: 03/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -13,7 +13,6 @@ ms.topic: portal
 
 
 
-This header is used by unknown technology.
+This header is used by netvista. For more information, see:
 
-Netrequestqueue.h contain these programming interfaces:
-
+- [Networking drivers for Windows Vista and later](../_netvista/index.md)

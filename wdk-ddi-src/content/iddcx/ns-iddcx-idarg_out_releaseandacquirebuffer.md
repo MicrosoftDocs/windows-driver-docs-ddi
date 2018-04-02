@@ -7,7 +7,7 @@ old-location: display\idarg_out_releaseandacquirebuffer.htm
 old-project: display
 ms.assetid: d6092c73-b8fb-4f05-97ce-8a6fe67a2b18
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IDARG_OUT_RELEASEANDACQUIREBUFFER, IDARG_OUT_RELEASEANDACQUIREBUFFER structure [Display Devices], display.idarg_out_releaseandacquirebuffer, iddcx/IDARG_OUT_RELEASEANDACQUIREBUFFER
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,16 +51,6 @@ req.typenames:
 
 Gives information about the 
              acquired swap chain buffer.
-
-
-## -syntax
-
-
-````
-typedef struct IDARG_OUT_RELEASEANDACQUIREBUFFER {
-  IDDCX_METADATA MetaData;
-} IDARG_OUT_RELEASEANDACQUIREBUFFER, *IDARG_OUT_RELEASEANDACQUIREBUFFER;
-````
 
 
 ## -struct-fields

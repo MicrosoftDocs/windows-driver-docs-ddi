@@ -7,7 +7,7 @@ old-location: storage\device_copy_offload_descriptor.htm
 old-project: storage
 ms.assetid: 192684D1-3D01-4EAA-989F-2E21E7187B3B
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PDEVICE_COPY_OFFLOAD_DESCRIPTOR, DEVICE_COPY_OFFLOAD_DESCRIPTOR, DEVICE_COPY_OFFLOAD_DESCRIPTOR structure [Storage Devices], PDEVICE_COPY_OFFLOAD_DESCRIPTOR, PDEVICE_COPY_OFFLOAD_DESCRIPTOR structure pointer [Storage Devices], _DEVICE_COPY_OFFLOAD_DESCRIPTOR, ntddstor/DEVICE_COPY_OFFLOAD_DESCRIPTOR, ntddstor/PDEVICE_COPY_OFFLOAD_DESCRIPTOR, storage.device_copy_offload_descriptor"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,27 +50,7 @@ req.typenames: DEVICE_COPY_OFFLOAD_DESCRIPTOR, *PDEVICE_COPY_OFFLOAD_DESCRIPTOR
 
 
 Used in conjunction with the 
-   <a href="..\ntddstor\ni-ntddstor-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a> request to describe the copy offload capabilities of a storage device.
-
-
-## -syntax
-
-
-````
-typedef struct _DEVICE_COPY_OFFLOAD_DESCRIPTOR {
-  ULONG      Version;
-  ULONG      Size;
-  ULONG      MaximumTokenLifetime;
-  ULONG      DefaultTokenLifetime;
-  ULONGULONG MaximumTransferSize;
-  ULONGULONG OptimalTransferCount;
-  ULONG      MaximumDataDescriptors;
-  ULONG      MaximumTransferLengthPerDescriptor;
-  ULONG      OptimalTransferLengthPerDescriptor;
-  USHORT     OptimalTransferLengthGranularity;
-  UCHAR      Reserved[2];
-} DEVICE_COPY_OFFLOAD_DESCRIPTOR, *PDEVICE_COPY_OFFLOAD_DESCRIPTOR;
-````
+   <a href="https://msdn.microsoft.com/library/windows/hardware/ff560590">IOCTL_STORAGE_QUERY_PROPERTY</a> request to describe the copy offload capabilities of a storage device.
 
 
 ## -struct-fields
@@ -138,12 +118,11 @@ Reserved for future use.
 
 ## -see-also
 
-<a href="..\ntddstor\ni-ntddstor-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560590">IOCTL_STORAGE_QUERY_PROPERTY</a>
  
 
  
-
 

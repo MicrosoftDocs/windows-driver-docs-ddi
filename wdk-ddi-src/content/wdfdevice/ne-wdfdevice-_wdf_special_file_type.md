@@ -55,21 +55,6 @@ req.product: Windows 10 or later.
 The <b>WDF_SPECIAL_FILE_TYPE</b> enumeration identifies special file types that a device can support.
 
 
-## -syntax
-
-
-````
-typedef enum _WDF_SPECIAL_FILE_TYPE { 
-  WdfSpecialFileUndefined    = 0,
-  WdfSpecialFilePaging       = 1,
-  WdfSpecialFileHibernation  = 2,
-  WdfSpecialFileDump         = 3,
-  WdfSpecialFileBoot         = 4,
-  WdfSpecialFileMax          = 5
-} WDF_SPECIAL_FILE_TYPE, *PWDF_SPECIAL_FILE_TYPE;
-````
-
-
 ## -enum-fields
 
 
@@ -116,12 +101,11 @@ For more information, see <a href="https://msdn.microsoft.com/350e715f-be36-4999
 
 ## -see-also
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicesetspecialfilesupport.md">WdfDeviceSetSpecialFileSupport</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546903">WdfDeviceSetSpecialFileSupport</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: kernel\obclosehandle.htm
 old-project: kernel
 ms.assetid: 15D6A09F-2AEC-431F-91F4-D1571DB56E81
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: ObCloseHandle, ObCloseHandle routine [Kernel-Mode Driver Architecture], kernel.obclosehandle, wdm/ObCloseHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>ObCloseHandle</b> routine closes an object handle.
-
-
-## -syntax
-
-
-````
-NTSTATUS ObCloseHandle(
-  _In_ HANDLE          Handle,
-  _In_ KPROCESSOR_MODE PreviousMode
-);
-````
 
 
 ## -parameters
@@ -128,13 +117,13 @@ After <b>ObCloseHandle</b> closes an object's handle, the caller must treat the 
 
 The <i>PreviousMode</i> parameter specifies whether the handle to be closed is a kernel handle or a user handle. To close a kernel handle, set <i>PreviousMode</i> to <b>KernelMode</b>. To close a user handle, set <i>PreviousMode</i> to <b>UserMode</b>.
 
-A kernel handle is a handle that is opened by a system thread, or by a kernel-mode driver that assigns the OBJ_KERNEL_HANDLE attribute to the handle. (For example, see the description of OBJ_KERNEL_HANDLE in <a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>.) If a kernel-mode driver opens a handle for its private use, and this driver runs in the context of a user-mode thread, the driver must open the handle with the OBJ_KERNEL_HANDLE attribute. This attribute ensures that the handle is inaccessible to user-mode applications.
+A kernel handle is a handle that is opened by a system thread, or by a kernel-mode driver that assigns the OBJ_KERNEL_HANDLE attribute to the handle. (For example, see the description of OBJ_KERNEL_HANDLE in <a href="https://msdn.microsoft.com/library/windows/hardware/ff566424">ZwCreateFile</a>.) If a kernel-mode driver opens a handle for its private use, and this driver runs in the context of a user-mode thread, the driver must open the handle with the OBJ_KERNEL_HANDLE attribute. This attribute ensures that the handle is inaccessible to user-mode applications.
 
 A user handle is a handle that is opened by a user-mode application, or by a kernel-mode driver that runs in the context of a user-mode thread but that does not open the handle with the OBJ_KERNEL_HANDLE attribute. If a driver creates a user handle to be used by a user-mode application, but an error occurs that requires the driver to close the handle on behalf of the application, the driver can call <b>ObCloseHandle</b> to close the handle.
 
-The <b>ZwClose</b> routine is similar to <b>ObCloseHandle</b> but can close only kernel handles. The call <b>ZwClose</b>(<i>hObject</i>), which closes kernel handle <i>hObject</i>, has the same effect as the call <b>ObCloseHandle</b>(<i>hObject</i>, <b>KernelMode</b>). For more information about closing a kernel handle, see <a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>.
+The <b>ZwClose</b> routine is similar to <b>ObCloseHandle</b> but can close only kernel handles. The call <b>ZwClose</b>(<i>hObject</i>), which closes kernel handle <i>hObject</i>, has the same effect as the call <b>ObCloseHandle</b>(<i>hObject</i>, <b>KernelMode</b>). For more information about closing a kernel handle, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff566417">ZwClose</a>.
 
-To determine whether a handle is a kernel handle or a user handle,  a driver that receives a handle  can call the <a href="..\wdm\nf-wdm-exgetpreviousmode.md">ExGetPreviousMode</a> routine. Or, the driver can read the <b>RequestorMode</b> field from the <a href="..\wdm\ns-wdm-_irp.md">IRP</a> structure that describes the I/O request. The I/O manager sets the <b>RequestorMode</b> field to the previous processor mode of the thread that requested the I/O operation.
+To determine whether a handle is a kernel handle or a user handle,  a driver that receives a handle  can call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff545288">ExGetPreviousMode</a> routine. Or, the driver can read the <b>RequestorMode</b> field from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550694">IRP</a> structure that describes the I/O request. The I/O manager sets the <b>RequestorMode</b> field to the previous processor mode of the thread that requested the I/O operation.
 
 Callers of <b>ObCloseHandle</b> should not assume that this routine automatically waits for all pending I/O operations to complete before it returns.
 
@@ -164,24 +153,23 @@ NTSTATUS
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545288">ExGetPreviousMode</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550694">IRP</a>
 
 
 
-<a href="..\wdm\nf-wdm-exgetpreviousmode.md">ExGetPreviousMode</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566417">ZwClose</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566424">ZwCreateFile</a>
  
 
  
-
 

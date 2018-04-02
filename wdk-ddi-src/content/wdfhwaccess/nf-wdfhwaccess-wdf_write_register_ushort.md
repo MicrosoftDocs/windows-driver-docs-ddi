@@ -55,18 +55,6 @@ req.product: Windows 10 or later.
 The <b>WDF_WRITE_REGISTER_USHORT</b> routine writes a USHORT value to the specified address.
 
 
-## -syntax
-
-
-````
-void WDF_WRITE_REGISTER_USHORT(
-  _In_ WDFDEVICE Device,
-  _In_ PUSHORT   Register,
-  _In_ ULONG     Value
-);
-````
-
-
 ## -parameters
 
 

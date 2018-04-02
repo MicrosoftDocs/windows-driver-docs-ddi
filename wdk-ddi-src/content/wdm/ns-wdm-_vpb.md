@@ -7,7 +7,7 @@ old-location: ifsk\vpb.htm
 old-project: ifsk
 ms.assetid: aba1638f-1ab0-4953-afe9-1f539e5bd967
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: "*PVPB, PVPB, PVPB structure pointer [Installable File System Drivers], VPB, VPB structure [Installable File System Drivers], VPB_DIRECT_WRITES_ALLOWED, VPB_LOCKED, VPB_MOUNTED, VPB_PERSISTENT, VPB_RAW_MOUNT, VPB_REMOVE_PENDING, _VPB, ifsk.vpb, wdm/PVPB, wdm/VPB"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,24 +51,6 @@ req.product: Windows 10 or later.
 
 
 The volume parameter block (VPB) structure is used to map a device object that represents a mounted file system volume to a device object that represents a physical or virtual disk device.
-
-
-## -syntax
-
-
-````
-typedef struct _VPB {
-  CSHORT                Size;
-  CSHORT                Type;
-  USHORT                Flags;
-  USHORT                VolumeLabelLength;
-  struct _DEVICE_OBJECT  *DeviceObject;
-  struct _DEVICE_OBJECT  *RealDevice;
-  ULONG                 SerialNumber;
-  ULONG                 ReferenceCount;
-  WCHAR                 VolumeLabel[MAXIMUM_VOLUME_LABEL_LENGTH / sizeof(WCHAR)];
-} VPB, *PVPB;
-````
 
 
 ## -struct-fields
@@ -195,7 +177,7 @@ A read/write member, set by the file system driver, that specifies the label of 
 
 A volume parameter block (VPB) object is used to create an association between a physical disk device object and a logical volume device object. That is, a VPB maps a file system's volume device object to the device or partition upon which the volume is mounted. A VPB object exists only for device objects that represent physical media, virtual media, or logical media that can be mounted.
 
-The I/O manager allocates and deallocates memory for the VPB structure from nonpaged pool. This allocation (or deallocation) occurs when a device object (as described previously) is created by calling either the <a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a> or <a href="..\ntifs\nf-ntifs-ioverifyvolume.md">IoVerifyVolume</a> functions. That is, the device object that is created must be one of the following types:<ul>
+The I/O manager allocates and deallocates memory for the VPB structure from nonpaged pool. This allocation (or deallocation) occurs when a device object (as described previously) is created by calling either the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548397">IoCreateDevice</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff548559">IoVerifyVolume</a> functions. That is, the device object that is created must be one of the following types:<ul>
 <li>FILE_DEVICE_DISK</li>
 <li>FILE_DEVICE_CD_ROM</li>
 <li>FILE_DEVICE_TAPE</li>
@@ -205,7 +187,7 @@ The I/O manager allocates and deallocates memory for the VPB structure from nonp
 
 For more information about device object types, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563821">Specifying Device Types</a>.
 
-Drivers must call <a href="..\ntifs\nf-ntifs-ioacquirevpbspinlock.md">IoAcquireVpbSpinLock</a> before they access any applicable members of the VPB object.
+Drivers must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff548227">IoAcquireVpbSpinLock</a> before they access any applicable members of the VPB object.
 
 <div class="alert"><b>Note</b>  <ul>
 <li>Opaque members should be considered inaccessible. Drivers with dependencies on object member locations or access to opaque members might not remain portable and interoperable with other drivers over time.</li>
@@ -218,20 +200,19 @@ Drivers must call <a href="..\ntifs\nf-ntifs-ioacquirevpbspinlock.md">IoAcquireV
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_file_objectid_information.md">FILE_OBJECT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545834">FILE_OBJECT</a>
 
 
 
 <a href="https://msdn.microsoft.com/e8f39b06-9904-40e8-af52-eae310d11fa7">How the Volume Is Mounted</a>
-
-
-
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
-
-
-
  
 
  
-
 

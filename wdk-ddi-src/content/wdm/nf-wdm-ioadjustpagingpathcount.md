@@ -7,7 +7,7 @@ old-location: kernel\ioadjustpagingpathcount.htm
 old-project: kernel
 ms.assetid: be353d10-1d8a-4fea-a415-e1729184e451
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: IoAdjustPagingPathCount, IoAdjustPagingPathCount routine [Kernel-Mode Driver Architecture], k104_f52acd6d-f3f6-43c2-a339-3060a12a6298.xml, kernel.ioadjustpagingpathcount, wdm/IoAdjustPagingPathCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The <b>IoAdjustPagingPathCount</b> routine increments or decrements a caller-supplied page-file counter as an atomic operation.
 
 
-## -syntax
-
-
-````
-VOID IoAdjustPagingPathCount(
-  _In_ PLONG   Count,
-  _In_ BOOLEAN Increment
-);
-````
-
-
 ## -parameters
 
 
@@ -106,7 +95,6 @@ This routine can be used for other counters, such as counters for hibernation fi
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550841">IRP_MN_DEVICE_USAGE_NOTIFICATION</a>
 
 
 
@@ -114,8 +102,8 @@ This routine can be used for other counters, such as counters for hibernation fi
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550841">IRP_MN_DEVICE_USAGE_NOTIFICATION</a>
  
 
  
-
 

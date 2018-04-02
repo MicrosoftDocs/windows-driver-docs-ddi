@@ -7,7 +7,7 @@ old-location: display\idarg_in_updatemodes.htm
 old-project: display
 ms.assetid: d18f1da0-0cd0-48bf-bf01-a80887b6b2ac
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IDARG_IN_UPDATEMODES, IDARG_IN_UPDATEMODES structure [Display Devices], display.idarg_in_updatemodes, iddcx/IDARG_IN_UPDATEMODES
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,18 +51,6 @@ req.typenames:
 
 
                  Gives information about the target modes that will be updated by the driver.
-
-
-## -syntax
-
-
-````
-typedef struct IDARG_IN_UPDATEMODES {
-  IDDCX_UPDATE_REASON                              Reason;
-  UINT                                             TargetModeCount;
-  _Field_size_(TargetModeCount) IDDCX_TARGET_MODE* pTargetModes;
-} IDARG_IN_UPDATEMODES, *IDARG_IN_UPDATEMODES;
-````
 
 
 ## -struct-fields

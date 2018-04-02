@@ -7,7 +7,7 @@ old-location: dtf\iwdtfdevicedepot2_query.htm
 old-project: dtf
 ms.assetid: f8b0cb77-828a-43c7-b0f3-34eca0da49bf
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/29/2018
 ms.keywords: IWDTFDeviceDepot2, IWDTFDeviceDepot2 interface [Windows Device Testing Framework], Query method, IWDTFDeviceDepot2::Query, Microsoft.WDTF.IWDTFDeviceDepot2.Query, Microsoft::WDTF::IWDTFDeviceDepot2::Query, Query method [Windows Device Testing Framework], Query method [Windows Device Testing Framework], IWDTFDeviceDepot2 interface, Query,IWDTFDeviceDepot2.Query, dtf.iwdtfdevicedepot2_query, wdtf/IWDTFDeviceDepot2::Query
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 Returns a subset of the devices in the DeviceDepot.
 
 
-## -syntax
-
-
-````
-HRESULT Query(
-  [in]          BSTR          SDEL,
-  [out, retval] IWDTFTargets2 **ppTargets
-);
-````
-
-
 ## -parameters
 
 
@@ -94,8 +83,8 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 The <b>Query</b> method provides the <i>SDEL</i> 
 parameter in a call to the <a href="https://msdn.microsoft.com/468cb35d-f816-4233-ba07-8dc47b77d442">IWDTFTarget2::Eval</a> 
-method for every instance of the <a href="..\wdtf\nn-wdtf-iwdtftarget2.md">IWDTFTarget2</a> interface 
-in the <a href="..\wdtf\nn-wdtf-iwdtftargets2.md">IWDTFTargets2</a> collection. 
+method for every instance of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439367">IWDTFTarget2</a> interface 
+in the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439458">IWDTFTargets2</a> collection. 
 Use the <a href="https://msdn.microsoft.com/84c2a1d6-6bec-4aeb-b858-c29f50d74390">Simple Data 
 Evaluation Language</a> to specify this parameter. 
 Every target that returns <b>VARIANT_TRUE</b> is added to a new 
@@ -107,12 +96,11 @@ interface.
 
 ## -see-also
 
-<a href="..\wdtf\nn-wdtf-iwdtfdevicedepot2.md">IWDTFDeviceDepot2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406391">IWDTFDeviceDepot2</a>
  
 
  
-
 

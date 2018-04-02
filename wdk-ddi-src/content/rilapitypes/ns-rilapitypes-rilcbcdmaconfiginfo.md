@@ -7,7 +7,7 @@ old-location: netvista\rilcbcdmaconfiginfo.htm
 old-project: netvista
 ms.assetid: 6f8b19ee-a079-4408-8567-39ad832879f2
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*LPRILCBCDMACONFIGINFO, RILCBCDMACONFIGINFO, RILCBCDMACONFIGINFO structure [Network Drivers Starting with Windows Vista], netvista.rilcbcdmaconfiginfo, ntddrilapitypes/RILCBCDMACONFIGINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,18 +51,6 @@ req.product: Windows 10 or later.
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef struct _RILCBCDMACONFIGINFO {
-  BOOL   fAccept;
-  DWORD  dwBroadcastMsgLang;
-  DWORD  dwBroadcastServiceCategory;
-} RILCBCDMACONFIGINFO, RILCBCDMACONFIGINFO;
-````
 
 
 ## -struct-fields

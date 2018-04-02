@@ -55,16 +55,6 @@ req.product: Windows 10 or later.
 The <b>OnCancel</b> method is called when an application cancels an I/O operation through the Microsoft Win32 <b>CancelIo</b>, <b>CancelIoEx</b>, or <b>CancelSynchronousIo</b> function. 
 
 
-## -syntax
-
-
-````
-void OnCancel(
-  [in] IWDFIoRequest *pWdfRequest
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +62,7 @@ void OnCancel(
 
 ### -param pWdfRequest [in]
 
-A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a> interface that represents the framework request object to cancel. 
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558985">IWDFIoRequest</a> interface that represents the framework request object to cancel. 
 
 
 ## -returns
@@ -92,16 +82,23 @@ The framework calls the <b>OnCancel</b> method to cancel the I/O request that th
 
 If the driver cancels the request, the driver must also complete the request by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559070">IWDFIoRequest::Complete</a> method with the <i>CompletionStatus</i> parameter set to HRESULT_FROM_WIN32(ERROR_OPERATION_ABORTED). 
 
-The framework does not call <b>OnCancel</b> to cancel a request unless the driver previously called the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559146">IWDFIoRequest::MarkCancelable</a> method to enable cancellation of the request and to register the <a href="..\wudfddi\nn-wudfddi-irequestcallbackcancel.md">IRequestCallbackCancel</a> interface.
+The framework does not call <b>OnCancel</b> to cancel a request unless the driver previously called the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559146">IWDFIoRequest::MarkCancelable</a> method to enable cancellation of the request and to register the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556901">IRequestCallbackCancel</a> interface.
 
-The User-Mode Driver Framework (UMDF) allows only one <b>OnCancel</b> method per queue. Therefore, when a driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff559146">IWDFIoRequest::MarkCancelable</a> for requests that are associated with a particular queue to enable the framework to cancel those requests, the driver must pass a pointer to the <a href="..\wudfddi\nn-wudfddi-irequestcallbackcancel.md">IRequestCallbackCancel</a> interface for the same request-callback object. Later, to cancel each request, the framework passes a pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a> interface for the request in a call to this request-callback object's <b>OnCancel</b> method.
+The User-Mode Driver Framework (UMDF) allows only one <b>OnCancel</b> method per queue. Therefore, when a driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff559146">IWDFIoRequest::MarkCancelable</a> for requests that are associated with a particular queue to enable the framework to cancel those requests, the driver must pass a pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556901">IRequestCallbackCancel</a> interface for the same request-callback object. Later, to cancel each request, the framework passes a pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558985">IWDFIoRequest</a> interface for the request in a call to this request-callback object's <b>OnCancel</b> method.
 
 
 
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556901">IRequestCallbackCancel</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558985">IWDFIoRequest</a>
 
 
 
@@ -110,15 +107,7 @@ The User-Mode Driver Framework (UMDF) allows only one <b>OnCancel</b> method per
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559146">IWDFIoRequest::MarkCancelable</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-irequestcallbackcancel.md">IRequestCallbackCancel</a>
-
-
-
  
 
  
-
 

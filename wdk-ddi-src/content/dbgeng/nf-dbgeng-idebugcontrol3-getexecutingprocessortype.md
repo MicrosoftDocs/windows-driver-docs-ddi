@@ -7,7 +7,7 @@ old-location: debugger\getexecutingprocessortype.htm
 old-project: debugger
 ms.assetid: 62d0397b-da20-414e-accf-656749a771f6
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: GetExecutingProcessorType method [Windows Debugging], GetExecutingProcessorType method [Windows Debugging], IDebugControl interface, GetExecutingProcessorType method [Windows Debugging], IDebugControl2 interface, GetExecutingProcessorType method [Windows Debugging], IDebugControl3 interface, GetExecutingProcessorType,IDebugControl3.GetExecutingProcessorType, IDebugControl interface [Windows Debugging], GetExecutingProcessorType method, IDebugControl2 interface [Windows Debugging], GetExecutingProcessorType method, IDebugControl2::GetExecutingProcessorType, IDebugControl3, IDebugControl3 interface [Windows Debugging], GetExecutingProcessorType method, IDebugControl3::GetExecutingProcessorType, IDebugControl::GetExecutingProcessorType, IDebugControl_b2aad495-5a68-4888-bedb-da76edbfbe7a.xml, dbgeng/IDebugControl2::GetExecutingProcessorType, dbgeng/IDebugControl3::GetExecutingProcessorType, dbgeng/IDebugControl::GetExecutingProcessorType, debugger.getexecutingprocessortype
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,16 +52,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetExecutingProcessorType</b> method returns the executing processor type for the processor for which the last event occurred.
-
-
-## -syntax
-
-
-````
-HRESULT GetExecutingProcessorType(
-  [out] PULONG Type
-);
-````
 
 
 ## -parameters
@@ -113,7 +103,6 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 
 
@@ -121,16 +110,16 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550508">IDebugControl</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550512">IDebugControl2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550519">IDebugControl3</a>
  
 
  
-
 

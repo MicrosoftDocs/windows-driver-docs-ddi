@@ -7,7 +7,7 @@ old-location: kernel\kbugcheck_dump_io.htm
 old-project: kernel
 ms.assetid: d1c246bd-314d-475f-9df8-f1bf90355a5a
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*PKBUGCHECK_DUMP_IO, KBUGCHECK_DUMP_IO, KBUGCHECK_DUMP_IO structure [Kernel-Mode Driver Architecture], PKBUGCHECK_DUMP_IO, PKBUGCHECK_DUMP_IO structure pointer [Kernel-Mode Driver Architecture], _KBUGCHECK_DUMP_IO, kernel.kbugcheck_dump_io, kstruct_c_a6201416-346e-4100-882c-329dd3ae1843.xml, wdm/KBUGCHECK_DUMP_IO, wdm/PKBUGCHECK_DUMP_IO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 The <b>KBUGCHECK_DUMP_IO</b> structure describes an I/O operation on the crash dump file.
 
 
-## -syntax
-
-
-````
-typedef struct _KBUGCHECK_DUMP_IO {
-  ULONG64                Offset;
-  PVOID                  Buffer;
-  ULONG                  BufferLength;
-  KBUGCHECK_DUMP_IO_TYPE Type;
-} KBUGCHECK_DUMP_IO, *PKBUGCHECK_DUMP_IO;
-````
-
-
 ## -struct-fields
 
 
@@ -88,7 +75,7 @@ Specifies the length of the buffer, in bytes, that is specified by the <b>Buffer
 
 ### -field Type
 
-Specifies the <a href="..\wdm\ne-wdm-_kbugcheck_dump_io_type.md">KBUGCHECK_DUMP_IO_TYPE</a> value that signifies the type of data to be written to the dump file.
+Specifies the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551871">KBUGCHECK_DUMP_IO_TYPE</a> value that signifies the type of data to be written to the dump file.
 
 
 ## -remarks
@@ -102,16 +89,15 @@ For information about how this structure is used, see <a href="https://msdn.micr
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540677">BugCheckDumpIoCallback</a>
 
 
 
-<a href="..\wdm\ne-wdm-_kbugcheck_dump_io_type.md">KBUGCHECK_DUMP_IO_TYPE</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551871">KBUGCHECK_DUMP_IO_TYPE</a>
  
 
  
-
 

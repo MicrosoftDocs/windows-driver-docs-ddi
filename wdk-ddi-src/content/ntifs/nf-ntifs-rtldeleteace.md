@@ -7,7 +7,7 @@ old-location: ifsk\rtldeleteace.htm
 old-project: ifsk
 ms.assetid: 2bf90d1d-887f-4d0c-8d79-e102a14dfe71
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: RtlDeleteAce, RtlDeleteAce routine [Installable File System Drivers], ifsk.rtldeleteace, ntifs/RtlDeleteAce, rtlref_68fe46f1-318a-48c6-9004-c338f52f41a5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,17 +50,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>RtlDeleteAce</b> routine deletes an access control entry (ACE) from a specified access control list (ACL).
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlDeleteAce(
-  _Inout_ PACL  Acl,
-  _In_    ULONG AceIndex
-);
-````
 
 
 ## -parameters
@@ -122,11 +111,11 @@ STATUS_INVALID_PARAMETER is an error code.
 
 
 
-For information about calculating the size of an ACL, see the Remarks section of the reference entry for <a href="..\ntifs\nf-ntifs-rtlcreateacl.md">RtlCreateAcl</a>. 
+For information about calculating the size of an ACL, see the Remarks section of the reference entry for <a href="https://msdn.microsoft.com/library/windows/hardware/ff552151">RtlCreateAcl</a>. 
 
-To add an ACE to an ACL, use <a href="..\ntifs\nf-ntifs-rtladdace.md">RtlAddAce</a>. 
+To add an ACE to an ACL, use <a href="https://msdn.microsoft.com/library/windows/hardware/ff552101">RtlAddAce</a>. 
 
-To obtain a pointer to an ACE in an ACL, use <a href="..\ntifs\nf-ntifs-rtlgetace.md">RtlGetAce</a>. 
+To obtain a pointer to an ACE in an ACL, use <a href="https://msdn.microsoft.com/library/windows/hardware/ff552288">RtlGetAce</a>. 
 
 For more information about security and access control, see the documentation on these topics in the Microsoft Windows SDK. 
 
@@ -135,11 +124,6 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtlcreateacl.md">RtlCreateAcl</a>
-
-
-
-<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
 
 
 
@@ -147,16 +131,20 @@ For more information about security and access control, see the documentation on
 
 
 
-<a href="..\ntifs\nf-ntifs-rtlgetace.md">RtlGetAce</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538866">ACL</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-rtladdace.md">RtlAddAce</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552101">RtlAddAce</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552151">RtlCreateAcl</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552288">RtlGetAce</a>
  
 
  
-
 

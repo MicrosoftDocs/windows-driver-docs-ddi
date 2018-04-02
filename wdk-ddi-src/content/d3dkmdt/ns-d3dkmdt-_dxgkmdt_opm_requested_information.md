@@ -7,7 +7,7 @@ old-location: display\dxgkmdt_opm_requested_information.htm
 old-project: display
 ms.assetid: c483786a-be8c-4ae3-a48c-45064ce81939
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PDXGKMDT_OPM_REQUESTED_INFORMATION, DXGKMDT_OPM_REQUESTED_INFORMATION, DXGKMDT_OPM_REQUESTED_INFORMATION structure [Display Devices], DmStructs_671b07eb-3d44-4c06-863a-8bd74f10ee4b.xml, PDXGKMDT_OPM_REQUESTED_INFORMATION, PDXGKMDT_OPM_REQUESTED_INFORMATION structure pointer [Display Devices], _DXGKMDT_OPM_REQUESTED_INFORMATION, d3dkmdt/DXGKMDT_OPM_REQUESTED_INFORMATION, d3dkmdt/PDXGKMDT_OPM_REQUESTED_INFORMATION, display.dxgkmdt_opm_requested_information"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,19 +49,7 @@ req.typenames: DXGKMDT_OPM_REQUESTED_INFORMATION, *PDXGKMDT_OPM_REQUESTED_INFORM
 ## -description
 
 
-The DXGKMDT_OPM_REQUESTED_INFORMATION structure contains information that was requested in a call to the <a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_information.md">DxgkDdiOPMGetInformation</a> or <a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_copp_compatible_information.md">DxgkDdiOPMGetCOPPCompatibleInformation</a> function.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGKMDT_OPM_REQUESTED_INFORMATION {
-  DXGKMDT_OPM_OMAC omac;
-  ULONG            cbRequestedInformationSize;
-  BYTE             abRequestedInformation[DXGKMDT_OPM_REQUESTED_INFORMATION_SIZE];
-} DXGKMDT_OPM_REQUESTED_INFORMATION, *PDXGKMDT_OPM_REQUESTED_INFORMATION;
-````
+The DXGKMDT_OPM_REQUESTED_INFORMATION structure contains information that was requested in a call to the <a href="https://msdn.microsoft.com/3d6559e5-776e-4fc0-b99a-8818cbcc289d">DxgkDdiOPMGetInformation</a> or <a href="https://msdn.microsoft.com/9f15df1e-bdf5-4634-97f1-78515664b594">DxgkDdiOPMGetCOPPCompatibleInformation</a> function.
 
 
 ## -struct-fields
@@ -71,13 +59,13 @@ typedef struct _DXGKMDT_OPM_REQUESTED_INFORMATION {
 
 ### -field omac
 
-A <a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_omac.md">DXGKMDT_OPM_OMAC</a> structure that contains a One-key Cipher Block Chaining (CBC)-mode message authentication code (OMAC) for message authenticity. For more information about OMAC, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=70417">OMAC-1 algorithm</a>. The OMAC-1 parameters that OPM and COPP use are:
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff560887">DXGKMDT_OPM_OMAC</a> structure that contains a One-key Cipher Block Chaining (CBC)-mode message authentication code (OMAC) for message authenticity. For more information about OMAC, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=70417">OMAC-1 algorithm</a>. The OMAC-1 parameters that OPM and COPP use are:
 
 <i>E</i> = AES (Advanced Encryption Standard)
 
 <i>t</i> = 128 bits
 
-<i>K</i> = The 128-bit key that the display miniport driver receives when <a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_set_signing_key_and_sequence_numbers.md">DxgkDdiOPMSetSigningKeyAndSequenceNumbers</a> is called.
+<i>K</i> = The 128-bit key that the display miniport driver receives when <a href="https://msdn.microsoft.com/285521c7-4034-4db8-9441-6c4eaee27ee3">DxgkDdiOPMSetSigningKeyAndSequenceNumbers</a> is called.
 
 <i>n</i> = 128 bits 
 
@@ -93,7 +81,7 @@ The size, in bytes, of the valid data that the <b>abRequestedInformation</b> mem
 
 A 4076-byte array that specifies the information that is retrieved from a protected output object.
 
-To return the requested information, the display miniport driver should cast <b>abRequestedInformation</b> to one of the following structures, depending on the GUID that was specified in the <b>guidInformation</b> member of the <a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_get_info_parameters.md">DXGKMDT_OPM_GET_INFO_PARAMETERS</a> or <a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_copp_compatible_get_info_parameters.md">DXGKMDT_OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS</a> structure that the <i>Parameters</i> parameter of <a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_information.md">DxgkDdiOPMGetInformation</a> or <a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_copp_compatible_information.md">DxgkDdiOPMGetCOPPCompatibleInformation</a> points to. As an example, the DXGKMDT_OPM_GET_CONNECTED_HDCP_DEVICE_INFORMATION GUID indicates the <a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_connected_hdcp_device_information.md">DXGKMDT_OPM_CONNECTED_HDCP_DEVICE_INFORMATION</a> structure.
+To return the requested information, the display miniport driver should cast <b>abRequestedInformation</b> to one of the following structures, depending on the GUID that was specified in the <b>guidInformation</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560868">DXGKMDT_OPM_GET_INFO_PARAMETERS</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff560859">DXGKMDT_OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS</a> structure that the <i>Parameters</i> parameter of <a href="https://msdn.microsoft.com/3d6559e5-776e-4fc0-b99a-8818cbcc289d">DxgkDdiOPMGetInformation</a> or <a href="https://msdn.microsoft.com/9f15df1e-bdf5-4634-97f1-78515664b594">DxgkDdiOPMGetCOPPCompatibleInformation</a> points to. As an example, the DXGKMDT_OPM_GET_CONNECTED_HDCP_DEVICE_INFORMATION GUID indicates the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560854">DXGKMDT_OPM_CONNECTED_HDCP_DEVICE_INFORMATION</a> structure.
 
 <table>
 <tr>
@@ -112,7 +100,7 @@ To return the requested information, the display miniport driver should cast <b>
 </td>
 <td>
 
-<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_standard_information.md">DXGKMDT_OPM_STANDARD_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560925">DXGKMDT_OPM_STANDARD_INFORMATION</a>
 
 
 </td>
@@ -124,7 +112,7 @@ DXGKMDT_OPM_GET_ACTUAL_OUTPUT_FORMAT
 </td>
 <td>
 
-<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_actual_output_format.md">DXGKMDT_OPM_ACTUAL_OUTPUT_FORMAT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560840">DXGKMDT_OPM_ACTUAL_OUTPUT_FORMAT</a>
 
 
 </td>
@@ -138,7 +126,7 @@ DXGKMDT_OPM_GET_OUTPUT_ID
 Supported in Windows 7 and later versions.
 
 
-<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_output_id.md">DXGKMDT_OPM_OUTPUT_ID</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560890">DXGKMDT_OPM_OUTPUT_ID</a>
 
 
 </td>
@@ -150,7 +138,7 @@ DXGKMDT_OPM_GET_ACP_AND_CGMSA_SIGNALING
 </td>
 <td>
 
-<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_acp_and_cgmsa_signaling.md">DXGKMDT_OPM_ACP_AND_CGMSA_SIGNALING</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560830">DXGKMDT_OPM_ACP_AND_CGMSA_SIGNALING</a>
 
 
 </td>
@@ -164,7 +152,7 @@ _HDCP_DEVICE_INFORMATION
 </td>
 <td>
 
-<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_connected_hdcp_device_information.md">DXGKMDT_OPM_CONNECTED_HDCP_DEVICE_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560854">DXGKMDT_OPM_CONNECTED_HDCP_DEVICE_INFORMATION</a>
 
 
 </td>
@@ -175,48 +163,47 @@ _HDCP_DEVICE_INFORMATION
 
 ## -see-also
 
-<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_get_info_parameters.md">DXGKMDT_OPM_GET_INFO_PARAMETERS</a>
 
 
 
-<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_connected_hdcp_device_information.md">DXGKMDT_OPM_CONNECTED_HDCP_DEVICE_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560830">DXGKMDT_OPM_ACP_AND_CGMSA_SIGNALING</a>
 
 
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_copp_compatible_information.md">DxgkDdiOPMGetCOPPCompatibleInformation</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560840">DXGKMDT_OPM_ACTUAL_OUTPUT_FORMAT</a>
 
 
 
-<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_output_id.md">DXGKMDT_OPM_OUTPUT_ID</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560854">DXGKMDT_OPM_CONNECTED_HDCP_DEVICE_INFORMATION</a>
 
 
 
-<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_copp_compatible_get_info_parameters.md">DXGKMDT_OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560859">DXGKMDT_OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS</a>
 
 
 
-<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_acp_and_cgmsa_signaling.md">DXGKMDT_OPM_ACP_AND_CGMSA_SIGNALING</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560868">DXGKMDT_OPM_GET_INFO_PARAMETERS</a>
 
 
 
-<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_actual_output_format.md">DXGKMDT_OPM_ACTUAL_OUTPUT_FORMAT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560887">DXGKMDT_OPM_OMAC</a>
 
 
 
-<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_omac.md">DXGKMDT_OPM_OMAC</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560890">DXGKMDT_OPM_OUTPUT_ID</a>
 
 
 
-<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_standard_information.md">DXGKMDT_OPM_STANDARD_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560925">DXGKMDT_OPM_STANDARD_INFORMATION</a>
 
 
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_information.md">DxgkDdiOPMGetInformation</a>
+<a href="https://msdn.microsoft.com/9f15df1e-bdf5-4634-97f1-78515664b594">DxgkDdiOPMGetCOPPCompatibleInformation</a>
 
 
 
+<a href="https://msdn.microsoft.com/3d6559e5-776e-4fc0-b99a-8818cbcc289d">DxgkDdiOPMGetInformation</a>
  
 
  
-
 

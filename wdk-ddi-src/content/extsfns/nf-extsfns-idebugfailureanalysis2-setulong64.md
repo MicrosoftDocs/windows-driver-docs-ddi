@@ -7,7 +7,7 @@ old-location: debugger\idebugfailureanalysis2_setulong64.htm
 old-project: debugger
 ms.assetid: C4F293C1-D52C-4584-A8CE-98F14F3309DD
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: IDebugFailureAnalysis2, IDebugFailureAnalysis2 interface [Windows Debugging], SetUlong64 method, IDebugFailureAnalysis2::SetUlong64, SetUlong64 method [Windows Debugging], SetUlong64 method [Windows Debugging], IDebugFailureAnalysis2 interface, SetUlong64,IDebugFailureAnalysis2.SetUlong64, debugger.idebugfailureanalysis2_setextensionulong64, debugger.idebugfailureanalysis2_setulong64, extsfns/IDebugFailureAnalysis2::SetUlong64
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,18 +49,7 @@ req.typenames: FA_EXTENSION_PLUGIN_PHASE
 ## -description
 
 
-The <b>SetUlong64</b> method searches a <a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">DebugFailureAnalysis</a> object for the first <a href="https://msdn.microsoft.com/759DE159-F2A8-4BB1-AAF5-B2B91C4F91B0">FA entry</a> that has a specified tag. If it finds an FA entry with the specified tag, it sets (overwrites) the data block of the FA entry to a specified <b>ULONG64</b> value.  If this method does not find an <a href="https://msdn.microsoft.com/759DE159-F2A8-4BB1-AAF5-B2B91C4F91B0">FA entry</a> that has the specified tag, it creates a new FA entry with that tag and sets the data block of the new FA entry to the specified <b>ULONG64</b> value.
-
-
-## -syntax
-
-
-````
-FA_ENTRY SetUlong64(
-       FA_TAG  Tag,
-  [in] ULONG64 Value
-);
-````
+The <b>SetUlong64</b> method searches a <a href="https://msdn.microsoft.com/0B44FCB9-D23F-4630-9F9A-FBAD46712B14">DebugFailureAnalysis</a> object for the first <a href="https://msdn.microsoft.com/759DE159-F2A8-4BB1-AAF5-B2B91C4F91B0">FA entry</a> that has a specified tag. If it finds an FA entry with the specified tag, it sets (overwrites) the data block of the FA entry to a specified <b>ULONG64</b> value.  If this method does not find an <a href="https://msdn.microsoft.com/759DE159-F2A8-4BB1-AAF5-B2B91C4F91B0">FA entry</a> that has the specified tag, it creates a new FA entry with that tag and sets the data block of the new FA entry to the specified <b>ULONG64</b> value.
 
 
 ## -parameters
@@ -82,7 +71,7 @@ The <b>ULONG64</b> value to be written to the data block of the new or existing 
 
 
 
-If this method succeeds, it returns a pointer to the new or existing <a href="..\extsfns\ns-extsfns-_fa_entry.md">FA_ENTRY</a> structure. Otherwise, it returns <b>NULL</b>.
+If this method succeeds, it returns a pointer to the new or existing <a href="https://msdn.microsoft.com/library/windows/hardware/jj991808">FA_ENTRY</a> structure. Otherwise, it returns <b>NULL</b>.
 
 
 
@@ -100,11 +89,6 @@ If this method does not find an <a href="https://msdn.microsoft.com/759DE159-F2A
 
 ## -see-also
 
-<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
-
-
-
-<a href="https://msdn.microsoft.com/7648F789-85D5-4247-90DD-2EAA43543483">Writing an Analysis Extension Plug-in to Extend !analyze</a>
 
 
 
@@ -116,12 +100,16 @@ If this method does not find an <a href="https://msdn.microsoft.com/759DE159-F2A
 
 
 
-<a href="..\extsfns\nc-extsfns-ext_analysis_plugin.md">_EFN_Analyze</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj983405">IDebugFailureAnalysis2</a>
 
 
 
+<a href="https://msdn.microsoft.com/7648F789-85D5-4247-90DD-2EAA43543483">Writing an Analysis Extension Plug-in to Extend !analyze</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj983432">_EFN_Analyze</a>
  
 
  
-
 

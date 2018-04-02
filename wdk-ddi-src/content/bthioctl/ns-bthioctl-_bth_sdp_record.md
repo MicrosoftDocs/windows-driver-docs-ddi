@@ -53,20 +53,6 @@ The BTH_SDP_RECORD structure contains information about an SDP record that is to
   local SDP server.
 
 
-## -syntax
-
-
-````
-typedef struct _BTH_SDP_RECORD {
-  ULONG fSecurity;
-  ULONG fOptions;
-  ULONG fCodService;
-  ULONG recordLength;
-  UCHAR record[1];
-} BTH_SDP_RECORD, *PBTH_SDP_RECORD;
-````
-
-
 ## -struct-fields
 
 
@@ -235,7 +221,7 @@ The size, in bytes, of the record.
 
 
 This structure is passed as the input buffer and output buffer of 
-    <a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_submit_record_with_info.md">
+    <a href="https://msdn.microsoft.com/774d1bda-2d9b-4ab4-97cf-b358471d8716">
     IOCTL_BTH_SDP_SUBMIT_RECORD_WITH_INFO</a>.
 
 
@@ -243,13 +229,12 @@ This structure is passed as the input buffer and output buffer of
 
 ## -see-also
 
-<a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_submit_record_with_info.md">
+
+
+
+<a href="https://msdn.microsoft.com/774d1bda-2d9b-4ab4-97cf-b358471d8716">
    IOCTL_BTH_SDP_SUBMIT_RECORD_WITH_INFO</a>
-
-
-
  
 
  
-
 

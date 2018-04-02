@@ -7,7 +7,7 @@ old-location: netvista\rilsmsmsginflags.htm
 old-project: netvista
 ms.assetid: aaa7967a-dfbc-4c4c-a309-095628fae6c0
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: RILSMSMSGINFLAGS, RILSMSMSGINFLAGS enumeration [Network Drivers Starting with Windows Vista], RIL_SMSMSGIN_ALL, RIL_SMSMSGIN_IMS, netvista.rilsmsmsginflags, ntddrilapitypes/RILSMSMSGINFLAGS, ntddrilapitypes/RIL_SMSMSGIN_ALL, ntddrilapitypes/RIL_SMSMSGIN_IMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,17 +50,6 @@ req.typenames: RILSMSMSGINFLAGS
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef enum _RILSMSMSGINFLAGS { 
-  RIL_SMSMSGIN_IMS,
-  RIL_SMSMSGIN_ALL
-} RILSMSMSGINFLAGS;
-````
 
 
 ## -enum-fields

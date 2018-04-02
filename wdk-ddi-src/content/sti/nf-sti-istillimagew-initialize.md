@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The <b>IStillImage::Initialize</b> method initializes an instance of the COM object that defines the <b>IStillImage</b> COM interface. <i>This method is for internal system use only</i>.
 
 
-## -syntax
-
-
-````
-HRESULT Initialize(
-  [in] HINSTANCE hinst,
-       DWORD     dwVersion
-);
-````
-
-
 ## -parameters
 
 

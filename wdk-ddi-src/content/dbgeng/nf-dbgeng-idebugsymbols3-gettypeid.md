@@ -7,7 +7,7 @@ old-location: debugger\gettypeid.htm
 old-project: debugger
 ms.assetid: 4bc82faf-a5f9-4363-8317-ad685d5b2166
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: GetTypeId method [Windows Debugging], GetTypeId method [Windows Debugging], IDebugSymbols interface, GetTypeId method [Windows Debugging], IDebugSymbols2 interface, GetTypeId method [Windows Debugging], IDebugSymbols3 interface, GetTypeId,IDebugSymbols3.GetTypeId, IDebugSymbols interface [Windows Debugging], GetTypeId method, IDebugSymbols2 interface [Windows Debugging], GetTypeId method, IDebugSymbols2::GetTypeId, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetTypeId method, IDebugSymbols3::GetTypeId, IDebugSymbols::GetTypeId, IDebugSymbols_cf0d81fd-9bd1-4b90-a7d5-99f1cb225036.xml, dbgeng/IDebugSymbols2::GetTypeId, dbgeng/IDebugSymbols3::GetTypeId, dbgeng/IDebugSymbols::GetTypeId, debugger.gettypeid
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,18 +52,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetTypeId</b>  method looks up the specified type and return its type ID.
-
-
-## -syntax
-
-
-````
-HRESULT GetTypeId(
-  [in]  ULONG64 Module,
-  [in]  PCSTR   Name,
-  [out] PULONG  TypeId
-);
-````
 
 
 ## -parameters
@@ -143,11 +131,10 @@ For more information about symbols and symbol names, see <a href="https://msdn.m
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548062">GetOffsetTypeId</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 
 
@@ -155,16 +142,16 @@ For more information about symbols and symbol names, see <a href="https://msdn.m
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550856">IDebugSymbols</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550864">IDebugSymbols2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550870">IDebugSymbols3</a>
  
 
  
-
 

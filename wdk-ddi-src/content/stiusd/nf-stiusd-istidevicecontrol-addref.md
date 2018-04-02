@@ -53,14 +53,6 @@ req.product: Windows 10 or later.
 The <b>IStiDeviceControl::AddRef</b> method increments the reference count for the <b>IStiDeviceControl</b> interface.
 
 
-## -syntax
-
-
-````
-HRESULT AddRef();
-````
-
-
 ## -parameters
 
 
@@ -90,16 +82,15 @@ A still image minidriver receives an <b>IStiDeviceControl</b> interface pointer 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/de58597a-d10a-45b3-bf75-539e5cd00535">IStiDeviceControl</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543725">IStiDeviceControl::Release</a>
-
-
-
  
 
  
-
 

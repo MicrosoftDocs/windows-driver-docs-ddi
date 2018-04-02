@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 The PDEV_ADJUST_PAPER_PHYSICAL_SIZE structure specifies a paper size value.
 
 
-## -syntax
-
-
-````
-typedef struct _PDEV_ADJUST_PHYSICAL_PAPER_SIZE {
-  SIZEL szlPhysicalPaperSize;
-} PDEV_ADJUST_PHYSICAL_PAPER_SIZE, *PPDEV_ADJUST_PHYSICAL_PAPER_SIZE;
-````
-
-
 ## -struct-fields
 
 

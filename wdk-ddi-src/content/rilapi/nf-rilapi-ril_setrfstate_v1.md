@@ -7,7 +7,7 @@ old-location: netvista\ril_setrfstate_v1.htm
 old-project: netvista
 ms.assetid: c4cc9119-6e95-4c76-a320-536cc2609e3e
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: RIL_SetRFState_V1, RIL_SetRFState_V1 method [Network Drivers Starting with Windows Vista], netvista.ril_setrfstate_v1, rilapi/RIL_SetRFState_V1
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ api_name:
 -	RIL_SetRFState_V1
 product: Windows
 targetos: Windows
-req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
+req.typenames: PTP_VENDOR_DATA_OUT, *PPTP_VENDOR_DATA_OUT
 req.product: Windows 10 or later.
 ---
 
@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
             
-
-
-## -syntax
-
-
-````
-HRESULT  RIL_SetRFState_V1(
-   HRIL   hRil,
-   LPVOID lpContext,
-   DWORD  dwRFState
-);
-````
 
 
 ## -parameters

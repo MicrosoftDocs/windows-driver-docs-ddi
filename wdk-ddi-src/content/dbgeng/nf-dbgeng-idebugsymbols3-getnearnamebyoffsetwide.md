@@ -7,7 +7,7 @@ old-location: debugger\getnearnamebyoffsetwide.htm
 old-project: debugger
 ms.assetid: 943a9139-f3b8-468e-9357-26b7b6bfed32
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: GetNearNameByOffsetWide method [Windows Debugging], GetNearNameByOffsetWide method [Windows Debugging], IDebugSymbols3 interface, GetNearNameByOffsetWide,IDebugSymbols3.GetNearNameByOffsetWide, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetNearNameByOffsetWide method, IDebugSymbols3::GetNearNameByOffsetWide, dbgeng/IDebugSymbols3::GetNearNameByOffsetWide, debugger.getnearnamebyoffsetwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,21 +50,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetNearNameByOffsetWide</b>  method returns the name of a symbol that is located near the specified location.
-
-
-## -syntax
-
-
-````
-HRESULT GetNearNameByOffsetWide(
-  [in]            ULONG64  Offset,
-  [in]            LONG     Delta,
-  [out, optional] PWSTR    NameBuffer,
-  [in]            ULONG    NameBufferSize,
-  [out, optional] PULONG   NameSize,
-  [out, optional] PULONG64 Displacement
-);
-````
 
 
 ## -parameters
@@ -167,11 +152,6 @@ For more information about symbols and symbol names, see <a href="https://msdn.m
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548035">GetOffsetByName</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 
 
@@ -179,8 +159,12 @@ For more information about symbols and symbol names, see <a href="https://msdn.m
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548035">GetOffsetByName</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550870">IDebugSymbols3</a>
  
 
  
-
 

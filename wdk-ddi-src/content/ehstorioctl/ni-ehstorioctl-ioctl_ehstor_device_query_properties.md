@@ -7,7 +7,7 @@ old-location: storage\ioctl_ehstor_device_query_properties.htm
 old-project: storage
 ms.assetid: 2F9B880F-7F3A-4B2B-816E-AD85ADFB280B
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_EHSTOR_DEVICE_QUERY_PROPERTIES, IOCTL_EHSTOR_DEVICE_QUERY_PROPERTIES control code [Storage Devices], ehstorioctl/IOCTL_EHSTOR_DEVICE_QUERY_PROPERTIES, storage.ioctl_ehstor_device_query_properties
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -137,12 +137,11 @@ Currently, bytes per sector is the only property available in <b>EHSTOR_DEVICE_P
 
 ## -see-also
 
-<a href="..\ehstorioctl\ns-ehstorioctl-tagact_authz_state.md">SILO_DRIVER_CAPABILITES</a>
 
 
 
+<a href="https://msdn.microsoft.com/32bb774f-b1eb-4198-8e4c-febcac83153d">SILO_DRIVER_CAPABILITES</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: kernel\pep_ppm_platform_state_residency.htm
 old-project: kernel
 ms.assetid: 35DB4043-F1B6-43C0-B8E7-FCEFF1E7E459
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*PPEP_PPM_PLATFORM_STATE_RESIDENCY, PEP_PPM_PLATFORM_STATE_RESIDENCY, PEP_PPM_PLATFORM_STATE_RESIDENCY structure [Kernel-Mode Driver Architecture], PPEP_PPM_PLATFORM_STATE_RESIDENCY, PPEP_PPM_PLATFORM_STATE_RESIDENCY structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_PLATFORM_STATE_RESIDENCY, kernel.pep_ppm_platform_state_residency, pepfx/PEP_PPM_PLATFORM_STATE_RESIDENCY, pepfx/PPEP_PPM_PLATFORM_STATE_RESIDENCY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,17 +52,6 @@ req.typenames: PEP_PPM_PLATFORM_STATE_RESIDENCY, *PPEP_PPM_PLATFORM_STATE_RESIDE
 The <b>PEP_PPM_PLATFORM_STATE_RESIDENCY</b> structure specifies the accumulated residency time and transition count for a particular platform idle state.
 
 
-## -syntax
-
-
-````
-typedef struct _PEP_PPM_PLATFORM_STATE_RESIDENCY {
-  ULONG64 Residency;
-  ULONG64 TransitionCount;
-} PEP_PPM_PLATFORM_STATE_RESIDENCY, *PPEP_PPM_PLATFORM_STATE_RESIDENCY;
-````
-
-
 ## -struct-fields
 
 
@@ -82,19 +71,18 @@ The total number of times that the platform has entered this idle state since sy
 
 
 
-The <b>States</b> member of the <a href="..\pepfx\ns-pepfx-_pep_ppm_platform_state_residencies.md">PEP_PPM_PLATFORM_STATE_RESIDENCIES</a> structure is a pointer to an array of <b>PEP_PPM_PLATFORM_STATE_RESIDENCY</b> structures.
+The <b>States</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186817">PEP_PPM_PLATFORM_STATE_RESIDENCIES</a> structure is a pointer to an array of <b>PEP_PPM_PLATFORM_STATE_RESIDENCY</b> structures.
 
 
 
 
 ## -see-also
 
-<a href="..\pepfx\ns-pepfx-_pep_ppm_platform_state_residencies.md">PEP_PPM_PLATFORM_STATE_RESIDENCIES</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186817">PEP_PPM_PLATFORM_STATE_RESIDENCIES</a>
  
 
  
-
 

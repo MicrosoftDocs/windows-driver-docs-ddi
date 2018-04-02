@@ -2,7 +2,7 @@
 UID: NA:ntddndis
 ms.assetid: 3070c304-be06-3c47-8296-026e9700c955
 ms.author: windowsdriverdev
-ms.date: 03/13/18
+ms.date: 02/27/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -186,7 +186,6 @@ Ntddndis.h contain these programming interfaces:
 | [_NDIS_RECEIVE_QUEUE_OPERATIONAL_STATE enumeration](ne-ntddndis-_ndis_receive_queue_operational_state.md) | The NDIS_RECEIVE_QUEUE_OPERATIONAL_STATE enumeration identifies the current queue state of a receive queue. |
 | [_NDIS_RECEIVE_QUEUE_TYPE enumeration](ne-ntddndis-_ndis_receive_queue_type.md) | The NDIS_RECEIVE_QUEUE_TYPE enumeration identifies the type of a receive queue. |
 | [_NDIS_REQUEST_TYPE enumeration](ne-ntddndis-_ndis_request_type.md) | The NDIS_REQUEST_TYPE enumeration identifies the request type in an OID request. |
-| [_NDIS_RSS_PROFILE enumeration](ne-ntddndis-_ndis_rss_profile.md) | This enumeration is not supported. |
 | [_NDIS_SWITCH_FEATURE_STATUS_TYPE enumeration](ne-ntddndis-_ndis_switch_feature_status_type.md) | The NDIS_SWITCH_FEATURE_STATUS_TYPE enumeration specifies the type of status information for a custom policy property, or feature, of a Hyper-V extensible switch. |
 | [_NDIS_SWITCH_NIC_STATE enumeration](ne-ntddndis-_ndis_switch_nic_state.md) | The NDIS_SWITCH_NIC_STATE enumeration specifies the current state of the Hyper-V extensible switch network adapter. |
 | [_NDIS_SWITCH_NIC_TYPE enumeration](ne-ntddndis-_ndis_switch_nic_type.md) | The NDIS_SWITCH_NIC_TYPE enumeration specifies the type of the virtual network adapter that is attached to a Hyper-V extensible switch port. |

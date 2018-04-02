@@ -53,17 +53,6 @@ req.typenames:
 The <b>KsCreateDefaultSecurity </b>function creates a security descriptor with default security, optionally inheriting parameters from a parent security descriptor.
 
 
-## -syntax
-
-
-````
-NTSTATUS KsCreateDefaultSecurity(
-  _In_opt_ PSECURITY_DESCRIPTOR ParentSecurity,
-  _Out_    PSECURITY_DESCRIPTOR *DefaultSecurity
-);
-````
-
-
 ## -parameters
 
 

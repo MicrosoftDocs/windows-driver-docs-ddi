@@ -7,7 +7,7 @@ old-location: display\d3d11_1ddi_omac.htm
 old-project: display
 ms.assetid: 6807f32a-0e63-4603-abfb-b35d0d0d5f8c
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3D11_1DDI_OMAC, D3D11_1DDI_OMAC structure [Display Devices], d3d10umddi/D3D11_1DDI_OMAC, display.d3d11_1ddi_omac
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,16 +50,6 @@ req.typenames: D3D11_1DDI_OMAC
 
 
 Contains a Message Authentication Code (MAC).
-
-
-## -syntax
-
-
-````
-typedef struct D3D11_1DDI_OMAC {
-  BYTE Omac[D3D_OMAC_SIZE];
-} D3D11_1DDI_OMAC;
-````
 
 
 ## -struct-fields

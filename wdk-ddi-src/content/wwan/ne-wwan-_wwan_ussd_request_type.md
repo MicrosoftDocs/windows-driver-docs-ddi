@@ -7,7 +7,7 @@ old-location: netvista\wwan_ussd_request_type.htm
 old-project: netvista
 ms.assetid: 773490EE-ECFC-4089-869D-19683A76E4FA
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PWWAN_USSD_REQUEST_TYPE, WWAN_USSD_REQUEST_TYPE, WWAN_USSD_REQUEST_TYPE enumeration [Network Drivers Starting with Windows Vista], WwanUssdRequestCancel, WwanUssdRequestContinue, WwanUssdRequestInitiate, _WWAN_USSD_REQUEST_TYPE, netvista.wwan_ussd_request_type, wwan/WWAN_USSD_REQUEST_TYPE, wwan/WwanUssdRequestCancel, wwan/WwanUssdRequestContinue, wwan/WwanUssdRequestInitiate"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,18 +51,6 @@ req.product: Windows 10 or later.
 
 
 The WWAN_USSD_REQUEST_TYPE enumeration lists the different types of Unstructured Supplementary Service Data (USSD) session requests.
-
-
-## -syntax
-
-
-````
-typedef enum _WWAN_USSD_REQUEST_TYPE { 
-  WwanUssdRequestInitiate  = 0,
-  WwanUssdRequestContinue  = 1,
-  WwanUssdRequestCancel    = 2
-} WWAN_USSD_REQUEST_TYPE;
-````
 
 
 ## -enum-fields

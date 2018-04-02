@@ -7,7 +7,7 @@ old-location: audio\hdaudio_codec_command.htm
 old-project: audio
 ms.assetid: 803e3506-fb63-4d64-b562-1956e99f9d9b
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/19/2018
 ms.keywords: "*PHDAUDIO_CODEC_COMMAND, HDAUDIO_CODEC_COMMAND, HDAUDIO_CODEC_COMMAND structure [Audio Devices], PHDAUDIO_CODEC_COMMAND, PHDAUDIO_CODEC_COMMAND structure pointer [Audio Devices], _HDAUDIO_CODEC_COMMAND, aud-prop2_9e7db610-d310-4285-8556-7a88567c22b6.xml, audio.hdaudio_codec_command, hdaudio/HDAUDIO_CODEC_COMMAND, hdaudio/PHDAUDIO_CODEC_COMMAND"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,30 +50,6 @@ req.typenames: HDAUDIO_CODEC_COMMAND, *PHDAUDIO_CODEC_COMMAND
 
 
 The HDAUDIO_CODEC_COMMAND structure specifies a codec command.
-
-
-## -syntax
-
-
-````
-typedef struct _HDAUDIO_CODEC_COMMAND {
-  union {
-    struct {
-      ULONG Data  :8;
-      ULONG VerbId  :12;
-      ULONG Node  :8;
-      ULONG CodecAddress  :4;
-    } Verb8;
-    struct {
-      ULONG Data  :16;
-      ULONG VerbId  :4;
-      ULONG Node  :8;
-      ULONG CodecAddress  :4;
-    } Verb16;
-    ULONG  Command;
-  };
-} HDAUDIO_CODEC_COMMAND, *PHDAUDIO_CODEC_COMMAND;
-````
 
 
 ## -struct-fields
@@ -144,7 +120,7 @@ Specifies a 32-bit codec command that contains payload data, a verb identifier, 
 
 
 
-Clients call the <a href="..\hdaudio\nc-hdaudio-ptransfer_codec_verbs.md">TransferCodecVerbs</a> routine to pass commands to codecs. The commands are in the <a href="..\hdaudio\ns-hdaudio-_hdaudio_codec_transfer.md">HDAUDIO_CODEC_TRANSFER</a> structures that clients pass to this routine as call parameters. Before calling <b>TransferCodecVerbs</b>, function drivers can use the HDAUDIO_CODEC_COMMAND structure to encode the codec commands.
+Clients call the <a href="https://msdn.microsoft.com/0ba92f5c-c4a3-48de-b8af-9c444b2e65b5">TransferCodecVerbs</a> routine to pass commands to codecs. The commands are in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536424">HDAUDIO_CODEC_TRANSFER</a> structures that clients pass to this routine as call parameters. Before calling <b>TransferCodecVerbs</b>, function drivers can use the HDAUDIO_CODEC_COMMAND structure to encode the codec commands.
 
 The validity of individual members depends on the type of command sent.
 
@@ -153,16 +129,15 @@ The validity of individual members depends on the type of command sent.
 
 ## -see-also
 
-<a href="..\hdaudio\ns-hdaudio-_hdaudio_codec_transfer.md">HDAUDIO_CODEC_TRANSFER</a>
 
 
 
-<a href="..\hdaudio\nc-hdaudio-ptransfer_codec_verbs.md">TransferCodecVerbs</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536424">HDAUDIO_CODEC_TRANSFER</a>
 
 
 
+<a href="https://msdn.microsoft.com/0ba92f5c-c4a3-48de-b8af-9c444b2e65b5">TransferCodecVerbs</a>
  
 
  
-
 

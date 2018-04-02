@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 Sets the range of print jobs being monitored.
 
 
-## -syntax
-
-
-````
-HRESULT SetViewRange(
-  [in] ULONG ulViewOffset,
-  [in] ULONG ulViewSize
-);
-````
-
-
 ## -parameters
 
 
@@ -101,11 +90,6 @@ Invoking this method causes the events for status change to the jobs to be fired
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/D964A0C4-041A-47BD-87AB-4AF523939DF0">IPrinterQueueViewEvent::OnChanged</a>
-
-
-
-<a href="..\printerextension\nn-printerextension-iprinterqueueview.md">IPrinterQueueView</a>
 
 
 
@@ -113,8 +97,12 @@ Invoking this method causes the events for status change to the jobs to be fired
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265392">IPrinterQueueView</a>
+
+
+
+<a href="https://msdn.microsoft.com/D964A0C4-041A-47BD-87AB-4AF523939DF0">IPrinterQueueViewEvent::OnChanged</a>
  
 
  
-
 

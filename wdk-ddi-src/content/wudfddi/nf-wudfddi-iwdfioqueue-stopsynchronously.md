@@ -55,14 +55,6 @@ req.product: Windows 10 or later.
 The <b>StopSynchronously</b> method prevents an I/O queue from delivering I/O requests, but the queue receives and stores new requests. The method returns after all delivered requests have been canceled or completed.
 
 
-## -syntax
-
-
-````
-void  StopSynchronously();
-````
-
-
 ## -parameters
 
 
@@ -92,16 +84,15 @@ The <b>StopSynchronously</b> method enables the queue to receive new requests, e
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558943">IWDFIoQueue</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558980">IWDFIoQueue::Stop</a>
-
-
-
  
 
  
-
 

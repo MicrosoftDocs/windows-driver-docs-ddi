@@ -7,7 +7,7 @@ old-location: netvista\close_ndk_adapter_handler.htm
 old-project: netvista
 ms.assetid: 9D5980F1-A244-4C5C-B032-68C10BF9D6E7
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: CLOSE_NDK_ADAPTER_HANDLER, CloseNdkAdapterHandler, CloseNdkAdapterHandler callback function [Network Drivers Starting with Windows Vista], ndisndk/CloseNdkAdapterHandler, netvista.close_ndk_adapter_handler
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,20 +52,6 @@ req.typenames: TCP_OFFLOAD_STATS, *PTCP_OFFLOAD_STATS
 The <i>CloseNDKAdapterHandler</i> (<i>CLOSE_NDK_ADAPTER_HANDLER</i>) function closes an NDK adapter instance on an NDK-capable NDIS miniport adapter.
 
 
-## -prototype
-
-
-````
-CLOSE_NDK_ADAPTER_HANDLER CloseNdkAdapterHandler;
-
-VOID CloseNdkAdapterHandler(
-  _In_ NDIS_HANDLE MiniportAdapterContext,
-  _In_ NDK_ADAPTER *pNdkAdapter
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -73,12 +59,12 @@ VOID CloseNdkAdapterHandler(
 
 ### -param MiniportAdapterContext [in]
 
-A handle to a context area that the miniport driver allocated in its <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a> function. The miniport driver uses this context area to maintain state information for an NDIS  miniport adapter.
+A handle to a context area that the miniport driver allocated in its <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a> function. The miniport driver uses this context area to maintain state information for an NDIS  miniport adapter.
 
 
 ### -param *pNdkAdapter [in]
 
-A pointer to the <a href="..\ndkpi\ns-ndkpi-_ndk_adapter.md">NDK_ADAPTER</a> instance to close.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439848">NDK_ADAPTER</a> instance to close.
 
 
 ## -returns
@@ -94,32 +80,31 @@ None
 
 
 
-The <i>CLOSE_NDK_ADAPTER_HANDLER</i> function closes an <a href="..\ndkpi\ns-ndkpi-_ndk_adapter.md">NDK_ADAPTER</a> instance on an NDK-capable NDIS miniport adapter.
- The miniport driver previously opened the  NDK_ADAPTER instance by calling the <a href="..\ndisndk\nc-ndisndk-open_ndk_adapter_handler.md">OPEN_NDK_ADAPTER_HANDLER</a> function.
+The <i>CLOSE_NDK_ADAPTER_HANDLER</i> function closes an <a href="https://msdn.microsoft.com/library/windows/hardware/hh439848">NDK_ADAPTER</a> instance on an NDK-capable NDIS miniport adapter.
+ The miniport driver previously opened the  NDK_ADAPTER instance by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/hh440105">OPEN_NDK_ADAPTER_HANDLER</a> function.
 
 
 
 
 ## -see-also
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_adapter.md">NDK_ADAPTER</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>
 
 
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_adapter_dispatch.md">NDK_ADAPTER_DISPATCH</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439848">NDK_ADAPTER</a>
 
 
 
-<a href="..\ndisndk\nc-ndisndk-open_ndk_adapter_handler.md">OPEN_NDK_ADAPTER_HANDLER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439850">NDK_ADAPTER_DISPATCH</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh440105">OPEN_NDK_ADAPTER_HANDLER</a>
  
 
  
-
 

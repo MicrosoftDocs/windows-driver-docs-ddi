@@ -7,7 +7,7 @@ old-location: display\dxvaddi_videodesc.htm
 old-project: display
 ms.assetid: 19121888-ad5c-4596-a7ec-a95fbffda685
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXVA2_Structs_7e8c3d70-50a3-48f7-bc5e-4280a599e43d.xml, DXVADDI_VIDEODESC, DXVADDI_VIDEODESC structure [Display Devices], _DXVADDI_VIDEODESC, d3dumddi/DXVADDI_VIDEODESC, display.dxvaddi_videodesc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,23 +52,6 @@ req.typenames: DXVADDI_VIDEODESC
 The DXVADDI_VIDEODESC structure describes a video stream.
 
 
-## -syntax
-
-
-````
-typedef struct _DXVADDI_VIDEODESC {
-  UINT                   SampleWidth;
-  UINT                   SampleHeight;
-  DXVADDI_EXTENDEDFORMAT SampleFormat;
-  D3DDDIFORMAT           Format;
-  DXVADDI_FREQUENCY      InputSampleFreq;
-  DXVADDI_FREQUENCY      OutputFrameFreq;
-  UINT                   UABProtectionLevel;
-  UINT                   Reserved;
-} DXVADDI_VIDEODESC;
-````
-
-
 ## -struct-fields
 
 
@@ -86,17 +69,17 @@ typedef struct _DXVADDI_VIDEODESC {
 
 ### -field SampleFormat
 
-[in] A <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_extendedformat.md">DXVADDI_EXTENDEDFORMAT</a> structure that describes the extended format of the video sample.
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff562904">DXVADDI_EXTENDEDFORMAT</a> structure that describes the extended format of the video sample.
 
 
 ### -field Format
 
-[in] A <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a> structure that describes the extended format of the video sample.
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff544312">D3DDDIFORMAT</a> structure that describes the extended format of the video sample.
 
 
 ### -field InputSampleFreq
 
-[in] A <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_frequency.md">DXVADDI_FREQUENCY</a> structure that defines the frequency of incoming video.
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff562911">DXVADDI_FREQUENCY</a> structure that defines the frequency of incoming video.
 
 
 ### -field OutputFrameFreq
@@ -116,20 +99,19 @@ typedef struct _DXVADDI_VIDEODESC {
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_extendedformat.md">DXVADDI_EXTENDEDFORMAT</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_frequency.md">DXVADDI_FREQUENCY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544312">D3DDDIFORMAT</a>
 
 
 
-<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562904">DXVADDI_EXTENDEDFORMAT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562911">DXVADDI_FREQUENCY</a>
  
 
  
-
 

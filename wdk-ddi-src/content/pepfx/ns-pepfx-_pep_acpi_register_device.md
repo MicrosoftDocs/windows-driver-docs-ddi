@@ -7,7 +7,7 @@ old-location: kernel\pep_acpi_register_device.htm
 old-project: kernel
 ms.assetid: 96FB6959-1583-42E0-9851-A09AE0CB73DB
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*PPEP_ACPI_REGISTER_DEVICE, PEP_ACPI_REGISTER_DEVICE, PEP_ACPI_REGISTER_DEVICE structure [Kernel-Mode Driver Architecture], PPEP_ACPI_REGISTER_DEVICE, PPEP_ACPI_REGISTER_DEVICE structure pointer [Kernel-Mode Driver Architecture], _PEP_ACPI_REGISTER_DEVICE, kernel.pep_acpi_register_device, pepfx/PEP_ACPI_REGISTER_DEVICE, pepfx/PPEP_ACPI_REGISTER_DEVICE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,20 +52,6 @@ req.typenames: PEP_ACPI_REGISTER_DEVICE, *PPEP_ACPI_REGISTER_DEVICE
 The <b>PEP_ACPI_REGISTER_DEVICE</b> structure contains registration information about a device for which the platform extension plug-in (PEP) is to provide ACPI services.
 
 
-## -syntax
-
-
-````
-typedef struct _PEP_ACPI_REGISTER_DEVICE {
-  PANSI_STRING AcpiDeviceName;
-  ULONG        InputFlags;
-  POHANDLE     KernelHandle;
-  PEPHANDLE    DeviceHandle;
-  ULONG        OutputFlags;
-} PEP_ACPI_REGISTER_DEVICE, *PPEP_ACPI_REGISTER_DEVICE;
-````
-
-
 ## -struct-fields
 
 
@@ -73,7 +59,7 @@ typedef struct _PEP_ACPI_REGISTER_DEVICE {
 
 ### -field AcpiDeviceName
 
-[in] An <a href="https://msdn.microsoft.com/library/windows/hardware/ff540605">ANSI_STRING</a> structure that contains the fully qualified BIOS name for the device. The same name was previously supplied as an input value in the <a href="..\pepfx\ns-pepfx-_pep_acpi_prepare_device.md">PEP_ACPI_PREPARE_DEVICE</a> notification for the device. This name specifies the path and name of the device in the ACPI namespace. For more information, see <a href="https://msdn.microsoft.com/fe0553df-a5b9-46c4-8e1d-8b89a7d4ad67">Enumerating Child Devices and Control Methods</a>.
+[in] An <a href="https://msdn.microsoft.com/library/windows/hardware/ff540605">ANSI_STRING</a> structure that contains the fully qualified BIOS name for the device. The same name was previously supplied as an input value in the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186686">PEP_ACPI_PREPARE_DEVICE</a> notification for the device. This name specifies the path and name of the device in the ACPI namespace. For more information, see <a href="https://msdn.microsoft.com/fe0553df-a5b9-46c4-8e1d-8b89a7d4ad67">Enumerating Child Devices and Control Methods</a>.
 
 
 ### -field InputFlags
@@ -107,7 +93,6 @@ This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/
 
 ## -see-also
 
-<a href="..\pepfx\ns-pepfx-_pep_acpi_prepare_device.md">PEP_ACPI_PREPARE_DEVICE</a>
 
 
 
@@ -115,7 +100,7 @@ This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186689">PEP_NOTIFY_ACPI_REGISTER_DEVICE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186686">PEP_ACPI_PREPARE_DEVICE</a>
 
 
 
@@ -123,8 +108,8 @@ This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/
 
 
 
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186689">PEP_NOTIFY_ACPI_REGISTER_DEVICE</a>
  
 
  
-
 

@@ -52,16 +52,6 @@ req.typenames: EXpsFontRestriction
 The <code>GetXpsPart</code> method retrieves several objects that make up an XPS document.
 
 
-## -syntax
-
-
-````
-HRESULT GetXpsPart(
-  [out] IUnknown **ppIXpsPart
-);
-````
-
-
 ## -parameters
 
 

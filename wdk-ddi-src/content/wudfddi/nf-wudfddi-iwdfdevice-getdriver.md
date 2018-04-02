@@ -55,16 +55,6 @@ req.product: Windows 10 or later.
 The <b>GetDriver</b> method retrieves the interface to the parent driver object of a device instance.
 
 
-## -syntax
-
-
-````
-void GetDriver(
-  [out] IWDFDriver **ppWdfDriver
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +62,7 @@ void GetDriver(
 
 ### -param ppWdfDriver [out]
 
-A pointer to a variable that receives a pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfdriver.md">IWDFDriver</a> interface for the parent driver object.
+A pointer to a variable that receives a pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558893">IWDFDriver</a> interface for the parent driver object.
 
 
 ## -returns
@@ -95,16 +85,15 @@ For a code example of how to use the GetDriver method, see <a href="https://msdn
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdriver.md">IWDFDriver</a>
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556917">IWDFDevice</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558893">IWDFDriver</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: kernel\rtlclearbits.htm
 old-project: kernel
 ms.assetid: 2c332700-7778-4342-b99b-093142496624
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: RtlClearBits, RtlClearBits routine [Kernel-Mode Driver Architecture], k109_ee20da99-4d30-46dc-99c1-d3d8dfa92d08.xml, kernel.rtlclearbits, wdm/RtlClearBits
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 The <b>RtlClearBits</b> routine sets all bits in the specified range of bits in the bitmap to zero.
 
 
-## -syntax
-
-
-````
-VOID RtlClearBits(
-  _In_ PRTL_BITMAP BitMapHeader,
-  _In_ ULONG       StartingIndex,
-  _In_ ULONG       NumberToClear
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +60,7 @@ VOID RtlClearBits(
 
 ### -param BitMapHeader [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563614">RTL_BITMAP</a> structure that describes the bitmap. This structure must have been initialized by the <a href="..\wdm\nf-wdm-rtlinitializebitmap.md">RtlInitializeBitMap</a> routine.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563614">RTL_BITMAP</a> structure that describes the bitmap. This structure must have been initialized by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561925">RtlInitializeBitMap</a> routine.
 
 
 ### -param StartingIndex [in]
@@ -100,7 +88,7 @@ This routine does not return a value.
 
 If the <i>NumberToClear</i> parameter is zero, <b>RtlClearBits</b> simply returns control without clearing any bits.
 
-The sum (<i>StartingIndex</i> + <i>NumberToClear</i>) must not exceed the <i>SizeOfBitMap</i> parameter value specified in the <a href="..\wdm\nf-wdm-rtlinitializebitmap.md">RtlInitializeBitMap</a> call that initialized the bitmap.
+The sum (<i>StartingIndex</i> + <i>NumberToClear</i>) must not exceed the <i>SizeOfBitMap</i> parameter value specified in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561925">RtlInitializeBitMap</a> call that initialized the bitmap.
 
 Callers of <b>RtlClearBits</b> must be running at IRQL &lt;= APC_LEVEL if the memory that contains the bitmap is pageable or the memory at <i>BitMapHeader</i> is pageable. Otherwise, <b>RtlClearBits</b> can be called at any IRQL.
 
@@ -109,36 +97,35 @@ Callers of <b>RtlClearBits</b> must be running at IRQL &lt;= APC_LEVEL if the me
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563614">RTL_BITMAP</a>
 
 
 
-<a href="..\wdm\nf-wdm-rtlinitializebitmap.md">RtlInitializeBitMap</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561745">RtlAreBitsSet</a>
 
 
 
-<a href="..\wdm\nf-wdm-rtlarebitsset.md">RtlAreBitsSet</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561755">RtlClearAllBits</a>
 
 
 
-<a href="..\wdm\nf-wdm-rtlfindsetbitsandclear.md">RtlFindSetBitsAndClear</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561890">RtlFindSetBits</a>
 
 
 
-<a href="..\wdm\nf-wdm-rtlnumberofsetbits.md">RtlNumberOfSetBits</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561895">RtlFindSetBitsAndClear</a>
 
 
 
-<a href="..\wdm\nf-wdm-rtlfindsetbits.md">RtlFindSetBits</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561925">RtlInitializeBitMap</a>
 
 
 
-<a href="..\wdm\nf-wdm-rtlclearallbits.md">RtlClearAllBits</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562037">RtlNumberOfSetBits</a>
  
 
  
-
 

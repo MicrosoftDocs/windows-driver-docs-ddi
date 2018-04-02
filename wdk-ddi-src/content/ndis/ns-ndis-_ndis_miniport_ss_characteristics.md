@@ -7,7 +7,7 @@ old-location: netvista\ndis_miniport_ss_characteristics.htm
 old-project: netvista
 ms.assetid: 325E5717-6B84-45AE-85D4-BA1839DB76A2
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PNDIS_MINIPORT_SS_CHARACTERISTICS, NDIS_MINIPORT_SS_CHARACTERISTICS, NDIS_MINIPORT_SS_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], PNDIS_MINIPORT_SS_CHARACTERISTICS, PNDIS_MINIPORT_SS_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_MINIPORT_SS_CHARACTERISTICS, ndis/NDIS_MINIPORT_SS_CHARACTERISTICS, ndis/PNDIS_MINIPORT_SS_CHARACTERISTICS, netvista.ndis_miniport_ss_characteristics"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -55,19 +55,6 @@ The <b>NDIS_MINIPORT_SS_CHARACTERISTICS</b> structure specifies the pointers to 
 
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_MINIPORT_SS_CHARACTERISTICS {
-  NDIS_OBJECT_HEADER                        Header;
-  ULONG                                     Flags;
-  MINIPORT_IDLE_NOTIFICATION_HANDLER        IdleNotificationHandler;
-  MINIPORT_CANCEL_IDLE_NOTIFICATION_HANDLER CancelIdleNotificationHandler;
-} NDIS_MINIPORT_SS_CHARACTERISTICS, *PNDIS_MINIPORT_SS_CHARACTERISTICS;
-````
-
-
 ## -struct-fields
 
 
@@ -75,7 +62,7 @@ typedef struct _NDIS_MINIPORT_SS_CHARACTERISTICS {
 
 ### -field Header
 
-The type, revision, and size of the <b>NDIS_MINIPORT_SS_CHARACTERISTICS</b> structure. This member is formatted as an <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
+The type, revision, and size of the <b>NDIS_MINIPORT_SS_CHARACTERISTICS</b> structure. This member is formatted as an <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure.
 
 The miniport driver must set the <b>Type</b> member of <b>Header</b> to NDIS_OBJECT_TYPE_MINIPORT_SS_CHARACTERISTICS. To specify the version of the <b>NDIS_MINIPORT_SS_CHARACTERISTICS</b> structure, the driver must set the <b>Revision</b> member of <b>Header</b> to the following value: 
 
@@ -97,12 +84,12 @@ Set the <b>Size</b> member to NDIS_SIZEOF_MINIPORT_SS_CHARACTERISTICS_REVISION_1
 
 ### -field IdleNotificationHandler
 
-A pointer to the miniport driver's <a href="..\ndis\nc-ndis-miniport_idle_notification.md">MiniportIdleNotification</a> function.
+A pointer to the miniport driver's <a href="https://msdn.microsoft.com/D679DEF0-1229-4731-8024-4DEDAE5B0185">MiniportIdleNotification</a> function.
 
 
 ### -field CancelIdleNotificationHandler
 
-A pointer to the miniport driver's <a href="..\ndis\nc-ndis-miniport_cancel_idle_notification.md">MiniportCancelIdleNotification</a> function.
+A pointer to the miniport driver's <a href="https://msdn.microsoft.com/9965E4EA-10E3-4240-9E4F-D3B49B8F9593">MiniportCancelIdleNotification</a> function.
 
 
 ## -remarks
@@ -117,7 +104,7 @@ The miniport driver initializes an <b>NDIS_MINIPORT_SS_CHARACTERISTICS</b> struc
 
 </li>
 <li>
-The miniport driver  then calls <a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a> and sets the <i>OptionalHandlers</i> parameter to a pointer to the <b>NDIS_MINIPORT_SS_CHARACTERISTICS</b> structure.
+The miniport driver  then calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff564550">NdisSetOptionalHandlers</a> and sets the <i>OptionalHandlers</i> parameter to a pointer to the <b>NDIS_MINIPORT_SS_CHARACTERISTICS</b> structure.
 
 </li>
 </ol>
@@ -128,23 +115,6 @@ For more information on how to handle idle notifications for NDIS selective susp
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">MiniportSetOptions</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_cancel_idle_notification.md">MiniportCancelIdleNotification</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_idle_notification.md">MiniportIdleNotification</a>
 
 
 
@@ -152,8 +122,24 @@ For more information on how to handle idle notifications for NDIS selective susp
 
 
 
+<a href="https://msdn.microsoft.com/9965E4EA-10E3-4240-9E4F-D3B49B8F9593">MiniportCancelIdleNotification</a>
+
+
+
+<a href="https://msdn.microsoft.com/D679DEF0-1229-4731-8024-4DEDAE5B0185">MiniportIdleNotification</a>
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">MiniportSetOptions</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564550">NdisSetOptionalHandlers</a>
  
 
  
-
 

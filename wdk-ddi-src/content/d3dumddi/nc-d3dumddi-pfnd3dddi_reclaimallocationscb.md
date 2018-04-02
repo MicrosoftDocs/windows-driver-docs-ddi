@@ -7,7 +7,7 @@ old-location: display\pfnreclaimallocationscb.htm
 old-project: display
 ms.assetid: BAC27F24-B348-48D5-9E9B-20897B4D8E2D
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3DDDI_RECLAIMALLOCATIONSCB, d3dumddi/pfnReclaimAllocationsCb, display.pfnreclaimallocationscb, pfnReclaimAllocationsCb, pfnReclaimAllocationsCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,20 +52,6 @@ req.typenames: DXGK_PTE
 Called by the user-mode display driver   to reclaim video memory allocations that were previously offered  for reuse.
 
 
-## -prototype
-
-
-````
-PFND3DDDI_RECLAIMALLOCATIONSCB pfnReclaimAllocationsCb;
-
-__checkReturn HRESULT APIENTRY pfnReclaimAllocationsCb(
-  _In_       HANDLE                      hDevice,
-  _In_ const D3DDDICB_RECLAIMALLOCATIONS *pData
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -87,7 +73,7 @@ __checkReturn HRESULT APIENTRY pfnReclaimAllocationsCb(
 
 #### - pData [in]
 
- A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_reclaimallocations.md">D3DDDICB_RECLAIMALLOCATIONS</a> structure that defines the allocations to reclaim.
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh451159">D3DDDICB_RECLAIMALLOCATIONS</a> structure that defines the allocations to reclaim.
 
 
 ## -returns
@@ -145,20 +131,19 @@ The video memory manager or display miniport driver could not complete the opera
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicecallbacks.md">D3DDDI_DEVICECALLBACKS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451159">D3DDDICB_RECLAIMALLOCATIONS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544512">D3DDDI_DEVICECALLBACKS</a>
 
 
 
 <a href="https://msdn.microsoft.com/AF3DCD16-9F8C-442A-A9A5-9EA2BD1C3B84">pfnReclaimResources</a>
-
-
-
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_reclaimallocations.md">D3DDDICB_RECLAIMALLOCATIONS</a>
-
-
-
  
 
  
-
 

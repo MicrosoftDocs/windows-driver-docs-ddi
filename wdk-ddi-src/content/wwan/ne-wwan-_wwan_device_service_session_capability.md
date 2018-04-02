@@ -7,7 +7,7 @@ old-location: netvista\wwan_device_service_session_capability.htm
 old-project: netvista
 ms.assetid: 57B41604-0189-48ED-847F-74C09C7746E8
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PWWAN_DEVICE_SERVICE_SESSION_CAPABILITY, WWAN_DEVICE_SERVICE_SESSION_CAPABILITY, WWAN_DEVICE_SERVICE_SESSION_CAPABILITY enumeration [Network Drivers Starting with Windows Vista], WwanDeviceServiceSessionNotSupported, WwanDeviceServiceSessionReadSupported, WwanDeviceServiceSessionWriteSupported, _WWAN_DEVICE_SERVICE_SESSION_CAPABILITY, netvista.wwan_device_service_session_capability, wwan/WWAN_DEVICE_SERVICE_SESSION_CAPABILITY, wwan/WwanDeviceServiceSessionNotSupported, wwan/WwanDeviceServiceSessionReadSupported, wwan/WwanDeviceServiceSessionWriteSupported"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 The WWAN_DEVICE_SERVICE_SESSION_CAPABILITY enumeration lists the different device service session operations that are supported by the device service.
 
 
-## -syntax
-
-
-````
-typedef enum _WWAN_DEVICE_SERVICE_SESSION_CAPABILITY { 
-  WwanDeviceServiceSessionNotSupported    = 0x00,
-  WwanDeviceServiceSessionWriteSupported  = 0x01,
-  WwanDeviceServiceSessionReadSupported   = 0x02
-} WWAN_DEVICE_SERVICE_SESSION_CAPABILITY;
-````
-
-
 ## -enum-fields
 
 
@@ -87,12 +75,11 @@ The device service supports read indication  notifications on a session for data
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_device_service_entry.md">WWAN_DEVICE_SERVICE_ENTRY</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh831870">WWAN_DEVICE_SERVICE_ENTRY</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: display\dxgkcbwritedevicespace.htm
 old-project: display
 ms.assetid: 797d6b0c-91a4-4923-ad40-937cfde50067
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKCB_WRITE_DEVICE_SPACE, DpFunctions_947b42ba-4121-4f21-b361-29a63278feb0.xml, DxgkCbWriteDeviceSpace, DxgkCbWriteDeviceSpace callback function [Display Devices], display.dxgkcbwritedevicespace, dispmprt/DxgkCbWriteDeviceSpace
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,24 +52,6 @@ req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 The <b>DxgkCbWriteDeviceSpace</b> function writes to a device configuration space or the expansion ROM of a display adapter.
 
 
-## -prototype
-
-
-````
-DXGKCB_WRITE_DEVICE_SPACE DxgkCbWriteDeviceSpace;
-
-NTSTATUS DxgkCbWriteDeviceSpace(
-  _In_  HANDLE DeviceHandle,
-  _In_  ULONG  DataType,
-  _In_  PVOID  Buffer,
-  _In_  ULONG  Offset,
-  _In_  ULONG  Length,
-  _Out_ PULONG BytesWritten
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -77,7 +59,7 @@ NTSTATUS DxgkCbWriteDeviceSpace(
 
 ### -param DeviceHandle [in]
 
-A handle that represents a display adapter. The display miniport driver previously obtained this handle in the <b>DeviceHandle</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560942">DXGKRNL_INTERFACE</a> structure that was passed to <a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a>.
+A handle that represents a display adapter. The display miniport driver previously obtained this handle in the <b>DeviceHandle</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560942">DXGKRNL_INTERFACE</a> structure that was passed to <a href="https://msdn.microsoft.com/ffacbb39-2581-4207-841d-28ce57fbc64d">DxgkDdiStartDevice</a>.
 
 
 ### -param DataType [in]
@@ -183,12 +165,11 @@ A pointer to a ULONG-typed variable that receives the number of bytes actually w
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkcb_read_device_space.md">DxgkCbReadDeviceSpace</a>
 
 
 
+<a href="https://msdn.microsoft.com/118ea0b9-6463-4050-9f33-192a3d42fdce">DxgkCbReadDeviceSpace</a>
  
 
  
-
 

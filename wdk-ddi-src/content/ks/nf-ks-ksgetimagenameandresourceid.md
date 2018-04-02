@@ -53,19 +53,6 @@ req.typenames:
 The <b>KsGetImageNameAndResourceId</b> function returns the image name and resource identifier that corresponds to the <i>RegKey </i>handle. 
 
 
-## -syntax
-
-
-````
-NTSTATUS KsGetImageNameAndResourceId(
-  _In_  HANDLE          RegKey,
-  _Out_ PUNICODE_STRING ImageName,
-  _Out_ PULONG_PTR      ResourceId,
-  _Out_ PULONG          ValueType
-);
-````
-
-
 ## -parameters
 
 
@@ -102,12 +89,11 @@ Pointer to a location into which the function returns the value type of the spec
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksmapmodulename.md">KsMapModuleName</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563391">KsMapModuleName</a>
  
 
  
-
 

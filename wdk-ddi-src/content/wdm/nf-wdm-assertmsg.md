@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 <b>ASSERTMSG</b> tests an expression. If the expression is false, it breaks into the kernel debugger and sends it the specified message.
 
 
-## -syntax
-
-
-````
-VOID ASSERTMSG(
-    Message,
-    Expression
-);
-````
-
-
 ## -parameters
 
 
@@ -110,12 +99,11 @@ If <i>Expression</i> evaluates to <b>FALSE</b>, a message is displayed in the De
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff542107">ASSERT</a>
-
-
-
  
 
  
-
 

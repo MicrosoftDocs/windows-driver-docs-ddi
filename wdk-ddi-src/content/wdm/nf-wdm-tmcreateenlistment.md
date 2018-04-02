@@ -7,7 +7,7 @@ old-location: kernel\tmcreateenlistment.htm
 old-project: kernel
 ms.assetid: 84fcbc30-993c-430b-a8b9-aefca44e478e
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: TmCreateEnlistment, TmCreateEnlistment routine [Kernel-Mode Driver Architecture], kernel.tmcreateenlistment, ktm_ref_79bc27ad-3c37-4396-9c9d-5bc429299db4.xml, wdm/TmCreateEnlistment
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -55,24 +55,6 @@ req.product: Windows 10 or later.
 The <b>TmCreateEnlistment</b> routine creates a new <a href="https://msdn.microsoft.com/80e61475-4bb7-4eaa-b9f1-ff95eac9bc77">enlistment object</a> for a transaction.
 
 
-## -syntax
-
-
-````
-NTSTATUS TmCreateEnlistment(
-  _Out_    PHANDLE            EnlistmentHandle,
-  _In_     KPROCESSOR_MODE    PreviousMode,
-  _In_     ACCESS_MASK        DesiredAccess,
-  _In_     POBJECT_ATTRIBUTES ObjectAttributes,
-  _In_     PRKRESOURCEMANAGER ResourceManager,
-  _In_     PKTRANSACTION      Transaction,
-  _In_opt_ ULONG              CreateOptions,
-  _In_     NOTIFICATION_MASK  NotificationMask,
-  _In_opt_ PVOID              EnlistmentKey
-);
-````
-
-
 ## -parameters
 
 
@@ -90,22 +72,22 @@ The processor mode of the process that will use the enlistment handle to access 
 
 ### -param DesiredAccess [in]
 
-An <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a> value that specifies the caller's requested access to the enlistment object. For more information about this parameter, see the description of the <i>DesiredAccess</i> parameter for <a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>.
+An <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a> value that specifies the caller's requested access to the enlistment object. For more information about this parameter, see the description of the <i>DesiredAccess</i> parameter for <a href="https://msdn.microsoft.com/library/windows/hardware/ff566422">ZwCreateEnlistment</a>.
 
 
 ### -param ObjectAttributes [in]
 
-A pointer to an <a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a> structure that specifies the object name and other attributes. Use the <a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a> routine to initialize this structure. If the caller is not running in a system thread context, it must set the OBJ_KERNEL_HANDLE attribute when it calls <b>InitializeObjectAttributes</b>. This parameter is optional and can be <b>NULL</b>. 
+A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff557749">OBJECT_ATTRIBUTES</a> structure that specifies the object name and other attributes. Use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547804">InitializeObjectAttributes</a> routine to initialize this structure. If the caller is not running in a system thread context, it must set the OBJ_KERNEL_HANDLE attribute when it calls <b>InitializeObjectAttributes</b>. This parameter is optional and can be <b>NULL</b>. 
 
 
 ### -param ResourceManager [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/b44f2035-ee9f-453b-b12d-89ca36a8b280">resource manager object</a>. To obtain this pointer, your component must call <a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a> and supply the object handle that a previous call to <a href="..\wdm\nf-wdm-zwcreateresourcemanager.md">ZwCreateResourceManager</a> or <a href="..\wdm\nf-wdm-zwopenresourcemanager.md">ZwOpenResourceManager</a> provided.
+A pointer to a <a href="https://msdn.microsoft.com/b44f2035-ee9f-453b-b12d-89ca36a8b280">resource manager object</a>. To obtain this pointer, your component must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff558679">ObReferenceObjectByHandle</a> and supply the object handle that a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff566427">ZwCreateResourceManager</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff567026">ZwOpenResourceManager</a> provided.
 
 
 ### -param Transaction [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/124105bd-70be-49b1-8ea4-af6ba1f3cf16">transaction object</a>. To obtain this pointer, your component must call <a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a> and supply the object handle that a previous call to <a href="..\wdm\nf-wdm-zwcreatetransaction.md">ZwCreateTransaction</a> or <a href="..\wdm\nf-wdm-zwopentransaction.md">ZwOpenTransaction</a> provided. KTM adds this transaction to the list of transactions that the calling resource manager is handling.
+A pointer to a <a href="https://msdn.microsoft.com/124105bd-70be-49b1-8ea4-af6ba1f3cf16">transaction object</a>. To obtain this pointer, your component must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff558679">ObReferenceObjectByHandle</a> and supply the object handle that a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff566429">ZwCreateTransaction</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff567033">ZwOpenTransaction</a> provided. KTM adds this transaction to the list of transactions that the calling resource manager is handling.
 
 
 ### -param CreateOptions [in, optional]
@@ -140,7 +122,7 @@ A bitwise OR of the TRANSACTION_NOTIFY_<i>XXX</i> values that are defined in Ktm
 
 ### -param EnlistmentKey [in, optional]
 
-A pointer to caller-defined information that uniquely identifies the enlistment. The resource manager receives this pointer when it calls <a href="..\wdm\nf-wdm-zwgetnotificationresourcemanager.md">ZwGetNotificationResourceManager</a> or when KTM calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561077">ResourceManagerNotification</a> callback routine. The resource manager can maintain a reference count for this key by calling <a href="..\wdm\nf-wdm-tmreferenceenlistmentkey.md">TmReferenceEnlistmentKey</a> and <a href="..\wdm\nf-wdm-tmdereferenceenlistmentkey.md">TmDereferenceEnlistmentKey</a>. This parameter is optional and can be <b>NULL</b>. 
+A pointer to caller-defined information that uniquely identifies the enlistment. The resource manager receives this pointer when it calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff566467">ZwGetNotificationResourceManager</a> or when KTM calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561077">ResourceManagerNotification</a> callback routine. The resource manager can maintain a reference count for this key by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff564726">TmReferenceEnlistmentKey</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff564671">TmDereferenceEnlistmentKey</a>. This parameter is optional and can be <b>NULL</b>. 
 
 
 ## -returns
@@ -243,7 +225,7 @@ The routine might return other <a href="https://msdn.microsoft.com/library/windo
 
 
 
-The <b>TmCreateEnlistment</b> routine is a pointer-based version of the <a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a> routine.
+The <b>TmCreateEnlistment</b> routine is a pointer-based version of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566422">ZwCreateEnlistment</a> routine.
 
 For information about when to use KTM's <b>Tm<i>Xxx</i></b> routines instead of <b>Zw<i>Xxx</i></b> routines, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565567">Using TmXxx Routines</a>.
 
@@ -252,11 +234,6 @@ For information about when to use KTM's <b>Tm<i>Xxx</i></b> routines instead of 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwopentransaction.md">ZwOpenTransaction</a>
 
 
 
@@ -264,31 +241,15 @@ For information about when to use KTM's <b>Tm<i>Xxx</i></b> routines instead of 
 
 
 
-<a href="..\wdm\nf-wdm-zwopenresourcemanager.md">ZwOpenResourceManager</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547804">InitializeObjectAttributes</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwcreateresourcemanager.md">ZwCreateResourceManager</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557749">OBJECT_ATTRIBUTES</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwgetnotificationresourcemanager.md">ZwGetNotificationResourceManager</a>
-
-
-
-<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
-
-
-
-<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
-
-
-
-<a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwcreatetransaction.md">ZwCreateTransaction</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558679">ObReferenceObjectByHandle</a>
 
 
 
@@ -296,8 +257,28 @@ For information about when to use KTM's <b>Tm<i>Xxx</i></b> routines instead of 
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566422">ZwCreateEnlistment</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566427">ZwCreateResourceManager</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566429">ZwCreateTransaction</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566467">ZwGetNotificationResourceManager</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567026">ZwOpenResourceManager</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567033">ZwOpenTransaction</a>
  
 
  
-
 

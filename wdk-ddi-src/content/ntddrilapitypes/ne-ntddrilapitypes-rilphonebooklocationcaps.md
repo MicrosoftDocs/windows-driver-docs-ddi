@@ -7,7 +7,7 @@ old-location: netvista\rilphonebooklocationcaps.htm
 old-project: netvista
 ms.assetid: df2f059c-d1c3-4716-8254-47c71f0b4a7c
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: RILPHONEBOOKLOCATIONCAPS, RILPHONEBOOKLOCATIONCAPS enumeration [Network Drivers Starting with Windows Vista], RIL_CAPS_PBLOC_ALL, RIL_CAPS_PBLOC_OWNNUMBERS, RIL_CAPS_PBLOC_UICCFIXDIALING, RIL_CAPS_PBLOC_UICCPHONEBOOK, RIL_CAPS_PBLOC_UICCSERVICEDIALING, netvista.rilphonebooklocationcaps, ntddrilapitypes/RILPHONEBOOKLOCATIONCAPS, ntddrilapitypes/RIL_CAPS_PBLOC_ALL, ntddrilapitypes/RIL_CAPS_PBLOC_OWNNUMBERS, ntddrilapitypes/RIL_CAPS_PBLOC_UICCFIXDIALING, ntddrilapitypes/RIL_CAPS_PBLOC_UICCPHONEBOOK, ntddrilapitypes/RIL_CAPS_PBLOC_UICCSERVICEDIALING
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,20 +50,6 @@ req.typenames: RILPHONEBOOKLOCATIONCAPS
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef enum _RILPHONEBOOKLOCATIONCAPS { 
-  RIL_CAPS_PBLOC_UICCFIXDIALING,
-  RIL_CAPS_PBLOC_OWNNUMBERS,
-  RIL_CAPS_PBLOC_UICCPHONEBOOK,
-  RIL_CAPS_PBLOC_UICCSERVICEDIALING,
-  RIL_CAPS_PBLOC_ALL
-} RILPHONEBOOKLOCATIONCAPS;
-````
 
 
 ## -enum-fields

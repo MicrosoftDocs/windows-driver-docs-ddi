@@ -7,7 +7,7 @@ old-location: netvista\ndiswditxreleaseframesindication.htm
 old-project: netvista
 ms.assetid: 1324D516-8AEF-4357-86EC-81F6EBDC8FB9
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NDIS_WDI_TX_RELEASE_FRAMES_IND, NdisWdiTxReleaseFrameIndication, NdisWdiTxReleaseFrameIndication callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiTxReleaseFrameIndication, netvista.ndiswditxreleaseframesindication
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,26 +51,7 @@ req.typenames: SYNTH_STATS, *PSYNTH_STATS
 
 The NdisWdiTxReleaseFrameIndication callback function releases up to a specified number or aggregate cost of frames queued to a given peer-TID combination when transmission is paused.  If the specified queues are not paused, none of the NET_BUFFER_LISTs are released.
 
-This is a callback inside <a href="..\dot11wdi\ns-dot11wdi-_ndis_wdi_data_api.md">NDIS_WDI_DATA_API</a>.
-
-
-## -prototype
-
-
-````
-NDIS_WDI_TX_RELEASE_FRAMES_IND NdisWdiTxReleaseFrameIndication;
-
-VOID NdisWdiTxReleaseFrameIndication(
-  _In_  NDIS_HANDLE      NdisMiniportDataPathHandle,
-  _In_  WDI_PORT_ID      PortId,
-  _In_  WDI_PEER_ID      PeerId,
-  _In_  UINT32           ExTidBitmask,
-  _In_  UINT8            MaxNumFrames,
-  _In_  UINT16           Credit,
-  _Out_ PNET_BUFFER_LIST *ppNBL
-)
-{ ... }
-````
+This is a callback inside <a href="https://msdn.microsoft.com/library/windows/hardware/mt297620">NDIS_WDI_DATA_API</a>.
 
 
 ## -parameters
@@ -80,7 +61,7 @@ VOID NdisWdiTxReleaseFrameIndication(
 
 ### -param NdisMiniportDataPathHandle [in]
 
-The NdisMiniportDataPathHandle passed to the IHV miniport in <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_tal_txrx_initialize.md">MiniportWdiTalTxRxInitialize</a>.
+The NdisMiniportDataPathHandle passed to the IHV miniport in <a href="https://msdn.microsoft.com/C297D681-D43F-4105-9E08-7FF42807E9A0">MiniportWdiTalTxRxInitialize</a>.
 
 
 ### -param PortId [in]
@@ -110,7 +91,7 @@ Credit. <i>Credit</i> is ignored if it is set to <b>WDI_TX_CREDIT_INVALID</b> (0
 
 ### -param *ppNBL [out]
 
-Pointer to a pointer to a <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> chain of released frames.
+Pointer to a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> chain of released frames.
 
 
 ## -returns
@@ -126,22 +107,29 @@ This callback function does not return a value.
 
 
 
-if one of the specified queues is paused with <b>WDI_TX_PAUSE_REASON_PS</b>, the TAL/Target does not issue this indication until it has received a <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_tx_tal_queue_in_order.md">MiniportWdiTxTalQueueInOrder</a> indication for that queue.
+if one of the specified queues is paused with <b>WDI_TX_PAUSE_REASON_PS</b>, the TAL/Target does not issue this indication until it has received a <a href="https://msdn.microsoft.com/E82E19EA-4336-49DE-9CE4-DFBA0A347DFE">MiniportWdiTxTalQueueInOrder</a> indication for that queue.
 
 This indication is only allowed when <b>TargetPriorityQueueing</b> is false.
 
-The TxMgr may return a list of <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> that exceed the limit of the number of frames or frame cost. This only happens if the frames are being requeued after being send completed with status of Postponed and with identical sequence number, which indicates they were originally transmitted as part of a single A-MSDU.
+The TxMgr may return a list of <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> that exceed the limit of the number of frames or frame cost. This only happens if the frames are being requeued after being send completed with status of Postponed and with identical sequence number, which indicates they were originally transmitted as part of a single A-MSDU.
 
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt269099">WDI_PORT_ID</a>
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+<a href="https://msdn.microsoft.com/E82E19EA-4336-49DE-9CE4-DFBA0A347DFE">MiniportWdiTxTalQueueInOrder</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt297620">NDIS_WDI_DATA_API</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a>
 
 
 
@@ -149,24 +137,16 @@ The TxMgr may return a list of <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET
 
 
 
-<a href="..\dot11wdi\ns-dot11wdi-_ndis_wdi_data_api.md">NDIS_WDI_DATA_API</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt269099">WDI_PORT_ID</a>
 
 
 
-<a href="..\dot11wdi\ns-dot11wdi-_wdi_txrx_target_capabilities.md">WDI_TXRX_CAPABILITIES</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn898187">WDI_TXRX_CAPABILITIES</a>
 
 
 
-<a href="..\dot11wdi\ne-dot11wdi-_wdi_tx_pause_reason.md">WDI_TX_PAUSE_REASON</a>
-
-
-
-<a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_tx_tal_queue_in_order.md">MiniportWdiTxTalQueueInOrder</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn898196">WDI_TX_PAUSE_REASON</a>
  
 
  
-
 

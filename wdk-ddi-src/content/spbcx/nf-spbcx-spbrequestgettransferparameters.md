@@ -54,19 +54,6 @@ req.product: Windows 10 or later.
 The <b>SpbRequestGetTransferParameters</b> method retrieves the transfer parameters for an individual transfer in an <a href="https://msdn.microsoft.com/7415DB28-5E93-4F47-B169-7C652969D4C7">I/O transfer sequence</a>.
 
 
-## -syntax
-
-
-````
-void SpbRequestGetTransferParameters(
-  _In_      SPBREQUEST              SpbRequest,
-  _In_      ULONG                   Index,
-  _Out_opt_ SPB_TRANSFER_DESCRIPTOR *TransferDescriptor,
-  _Out_opt_ PMDL                    *TransferBuffer
-);
-````
-
-
 ## -parameters
 
 
@@ -156,6 +143,9 @@ for (ULONG i = 0; i &lt; parameters.SequenceCount; i += 1)
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh450857">IOCTL_SPB_EXECUTE_SEQUENCE</a>
 
 
@@ -164,7 +154,7 @@ for (ULONG i = 0; i &lt; parameters.SequenceCount; i += 1)
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450922">SpbRequestGetParameters</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406218">SPB_TRANSFER_DESCRIPTOR</a>
 
 
 
@@ -172,12 +162,8 @@ for (ULONG i = 0; i &lt; parameters.SequenceCount; i += 1)
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406218">SPB_TRANSFER_DESCRIPTOR</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450922">SpbRequestGetParameters</a>
  
 
  
-
 

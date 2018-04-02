@@ -56,16 +56,6 @@ req.product: Windows 10 or later.
 The <b>WdfDmaTransactionRelease</b> method terminates a specified DMA transaction without deleting the associated DMA transaction object.  
 
 
-## -syntax
-
-
-````
-NTSTATUS WdfDmaTransactionRelease(
-  _In_ WDFDMATRANSACTION DmaTransaction
-);
-````
-
-
 ## -parameters
 
 
@@ -73,7 +63,7 @@ NTSTATUS WdfDmaTransactionRelease(
 
 ### -param DmaTransaction [in]
 
-A handle to a DMA transaction object that the driver obtained from a previous call to <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioncreate.md">WdfDmaTransactionCreate</a>.
+A handle to a DMA transaction object that the driver obtained from a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff547027">WdfDmaTransactionCreate</a>.
 
 
 ## -returns
@@ -117,7 +107,7 @@ A bug check occurs if the driver supplies an invalid object handle.
 The <b>WdfDmaTransactionRelease</b> method flushes transfer buffers and releases all of the system resources that are associated with the DMA transaction. The transaction object is not deleted and can be reused. For more information about reusing transaction objects, see <a href="https://msdn.microsoft.com/4adb8653-48b6-4e22-aba3-b909c95b8d15">Reusing DMA Transaction Objects</a>.
 
 
-          If <b>WdfDmaTransactionInitialize<i>Xxx</i></b> returns success but <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionexecute.md">WdfDmaTransactionExecute</a> returns an error value, your driver must call <b>WdfDmaTransactionRelease</b>.
+          If <b>WdfDmaTransactionInitialize<i>Xxx</i></b> returns success but <a href="https://msdn.microsoft.com/library/windows/hardware/ff547062">WdfDmaTransactionExecute</a> returns an error value, your driver must call <b>WdfDmaTransactionRelease</b>.
 
 
 #### Examples
@@ -141,12 +131,11 @@ status = WdfDmaTransactionRelease(dmaTransaction);</pre>
 
 ## -see-also
 
-<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioncreate.md">WdfDmaTransactionCreate</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547027">WdfDmaTransactionCreate</a>
  
 
  
-
 

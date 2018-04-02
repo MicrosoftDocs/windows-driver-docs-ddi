@@ -55,19 +55,6 @@ req.product: Windows 10 or later.
 The <b>WDF_KPROCESSOR_MODE</b> enumeration type identifies the processor modes in which a thread can execute.
 
 
-## -syntax
-
-
-````
-typedef enum _WDF_KPROCESSOR_MODE { 
-  WdfKProcessorModeInvalid  = 0,
-  WdfKernelMode             = 1,
-  WdfUserMode               = 2,
-  WdfKProcessorModeMaximum  = 3
-} WDF_KPROCESSOR_MODE, *PWDF_KPROCESSOR_MODE;
-````
-
-
 ## -enum-fields
 
 
@@ -104,12 +91,11 @@ The <b>WDF_KPROCESSOR_MODE</b> enumeration type is return type for <a href="http
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559002">IWDFIoRequest2::GetRequestorMode</a>
-
-
-
  
 
  
-
 

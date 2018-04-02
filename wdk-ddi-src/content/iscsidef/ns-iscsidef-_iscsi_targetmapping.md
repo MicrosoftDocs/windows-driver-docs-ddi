@@ -7,7 +7,7 @@ old-location: storage\iscsi_targetmapping.htm
 old-project: storage
 ms.assetid: 9b8c5024-5d37-4f85-be00-1a60dd9ab323
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PISCSI_TargetMapping, ISCSI_TargetMapping, ISCSI_TargetMapping structure [Storage Devices], PISCSI_TargetMapping, PISCSI_TargetMapping structure pointer [Storage Devices], _ISCSI_TargetMapping, iscsidef/ISCSI_TargetMapping, iscsidef/PISCSI_TargetMapping, storage.iscsi_targetmapping, structs-iSCSI_5512347c-9b89-4d14-9c84-4e7b9191dbfa.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,23 +52,6 @@ req.typenames: ISCSI_TargetMapping, *PISCSI_TargetMapping
 The ISCSI_TargetMapping structure maps a collection of logical unit numbers (LUNs) that are locally defined to a group of 64-bit iSCSI logical unit numbers. 
 
 
-## -syntax
-
-
-````
-typedef struct _ISCSI_TargetMapping {
-  ULONG         OSBus;
-  ULONG         OSTarget;
-  ULONGLONG     UniqueSessionId;
-  ULONG         LUNCount;
-  WCHAR         TargetName[223 + 1];
-  BOOLEAN       FromPersistentLogin;
-  ULONGLONG     Reserved;
-  ISCSI_LUNList LUNList[1];
-} ISCSI_TargetMapping, *PISCSI_TargetMapping;
-````
-
-
 ## -struct-fields
 
 
@@ -111,7 +94,7 @@ Reserved for Microsoft use only.
 
 ### -field LUNList
 
-A <a href="..\iscsidef\ns-iscsidef-_iscsi_lunlist.md">ISCSI_LUNList</a> structure that holds a list of LUNs that are associated with the target device.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff561544">ISCSI_LUNList</a> structure that holds a list of LUNs that are associated with the target device.
 
 
 ## -remarks
@@ -127,11 +110,6 @@ Management applications can use the ISCSI_TargetMapping structure to specify a l
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
-
-
-
-<a href="..\iscsidef\ns-iscsidef-_iscsi_lunlist.md">ISCSI_LUNList</a>
 
 
 
@@ -139,12 +117,16 @@ Management applications can use the ISCSI_TargetMapping structure to specify a l
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561544">ISCSI_LUNList</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561573">ISCSI_TargetMapping WMI Class</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
  
 
  
-
 

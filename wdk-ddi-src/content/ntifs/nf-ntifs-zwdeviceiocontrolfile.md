@@ -7,7 +7,7 @@ old-location: kernel\zwdeviceiocontrolfile.htm
 old-project: kernel
 ms.assetid: 4dc38fcd-4b87-4c34-8ae2-685bf47e3fde
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: NtDeviceIoControlFile, ZwDeviceIoControlFile, ZwDeviceIoControlFile routine [Kernel-Mode Driver Architecture], k111_03e754fc-b6b5-4266-9be1-452d5ba5331c.xml, kernel.zwdeviceiocontrolfile, ntifs/NtDeviceIoControlFile, ntifs/ZwDeviceIoControlFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,25 +53,6 @@ req.typenames: TOKEN_TYPE
 The <b>ZwDeviceIoControlFile</b> routine sends a control code directly to a specified device driver, causing the corresponding driver to perform the specified operation.
 
 
-## -syntax
-
-
-````
-NTSTATUS ZwDeviceIoControlFile(
-  _In_      HANDLE           FileHandle,
-  _In_opt_  HANDLE           Event,
-  _In_opt_  PIO_APC_ROUTINE  ApcRoutine,
-  _In_opt_  PVOID            ApcContext,
-  _Out_     PIO_STATUS_BLOCK IoStatusBlock,
-  _In_      ULONG            IoControlCode,
-  _In_opt_  PVOID            InputBuffer,
-  _In_      ULONG            InputBufferLength,
-  _Out_opt_ PVOID            OutputBuffer,
-  _In_      ULONG            OutputBufferLength
-);
-````
-
-
 ## -parameters
 
 
@@ -79,7 +60,7 @@ NTSTATUS ZwDeviceIoControlFile(
 
 ### -param FileHandle [in]
 
-Handle returned by <a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a> or <a href="..\wdm\nf-wdm-zwopenfile.md">ZwOpenFile</a> for the file object representing the device to which the control information should be given or from which information should be returned. The file object must have been opened for asynchronous I/O if the caller specifies an <i>Event</i>, <i>ApcRoutine</i>, and an APC context (in <i>ApcContext</i>), or a completion context (in <i>ApcContext</i>). For I/O to an underlying mass-storage device, the file object must have been opened for Direct Access to Storage Device (DASD) access.
+Handle returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff566424">ZwCreateFile</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff567011">ZwOpenFile</a> for the file object representing the device to which the control information should be given or from which information should be returned. The file object must have been opened for asynchronous I/O if the caller specifies an <i>Event</i>, <i>ApcRoutine</i>, and an APC context (in <i>ApcContext</i>), or a completion context (in <i>ApcContext</i>). For I/O to an underlying mass-storage device, the file object must have been opened for Direct Access to Storage Device (DASD) access.
 
 
 ### -param Event [in, optional]
@@ -148,7 +129,7 @@ For more information about system-defined IOCTL_<i>XXX</i> codes, and about defi
 
 If the caller opened the file for asynchronous I/O (with neither FILE_SYNCHRONOUS_<i>XXX</i> create/open option set), the specified event, if any, will be set to the signaled state when the device control operation completes. Otherwise, the file object specified by <i>FileHandle</i> will be set to the signaled state. If an <i>ApcRoutine</i> was specified, it is called with the <i>ApcContext</i> and <i>IoStatusBlock</i> pointers.
 
-Minifilters should use <a href="..\fltkernel\nf-fltkernel-fltdeviceiocontrolfile.md">FltDeviceIoControlFile</a> instead of <b>ZwDeviceIoControlFile</b>.
+Minifilters should use <a href="https://msdn.microsoft.com/library/windows/hardware/ff542046">FltDeviceIoControlFile</a> instead of <b>ZwDeviceIoControlFile</b>.
 
 Callers of <b>ZwDeviceIoControlFile</b> must be running at IRQL = PASSIVE_LEVEL and <a href="https://msdn.microsoft.com/0578df31-1467-4bad-ba62-081d61278deb">with special kernel APCs enabled</a>.
 
@@ -161,31 +142,26 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iobuilddeviceiocontrolrequest.md">IoBuildDeviceIoControlRequest</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwopenfile.md">ZwOpenFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542046">FltDeviceIoControlFile</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548310">IoBuildAsynchronousFsdRequest</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548318">IoBuildDeviceIoControlRequest</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltdeviceiocontrolfile.md">FltDeviceIoControlFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548330">IoBuildSynchronousFsdRequest</a>
 
 
 
-<a href="..\wdm\nf-wdm-iobuildasynchronousfsdrequest.md">IoBuildAsynchronousFsdRequest</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548336">IoCallDriver</a>
 
 
 
@@ -193,16 +169,20 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="..\wdm\nf-wdm-iobuildsynchronousfsdrequest.md">IoBuildSynchronousFsdRequest</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
 
 
-<a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566417">ZwClose</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566424">ZwCreateFile</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567011">ZwOpenFile</a>
  
 
  
-
 

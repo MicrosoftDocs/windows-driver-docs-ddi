@@ -53,16 +53,6 @@ req.typenames:
 The <b>KsQueryObjectAccessMask</b> function returns the access originally granted to the first client that created a handle on the associated object. Access cannot be changed by duplicating handles.
 
 
-## -syntax
-
-
-````
-ACCESS_MASK KsQueryObjectAccessMask(
-  _In_ KSOBJECT_HEADER Header
-);
-````
-
-
 ## -parameters
 
 
@@ -84,12 +74,11 @@ The <b>KsQueryObjectAccessMask</b> function returns an access mask.
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksallocateobjectheader.md">KsAllocateObjectHeader</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560972">KsAllocateObjectHeader</a>
  
 
  
-
 

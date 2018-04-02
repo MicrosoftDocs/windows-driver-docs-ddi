@@ -52,24 +52,6 @@ req.typenames: KSPROPERTY_TUNER_MODE_CAPS_S, *PKSPROPERTY_TUNER_MODE_CAPS_S
 The KS_PROPERTY_TUNER_MODE_CAPS_S structure describes the capabilities of TV and radio tuner devices.
 
 
-## -syntax
-
-
-````
-typedef struct {
-  KSPROPERTY Property;
-  ULONG      Mode;
-  ULONG      StandardsSupported;
-  ULONG      MinFrequency;
-  ULONG      MaxFrequency;
-  ULONG      TuningGranularity;
-  ULONG      NumberOfInputs;
-  ULONG      SettlingTime;
-  ULONG      Strategy;
-} KSPROPERTY_TUNER_MODE_CAPS_S, *PKSPROPERTY_TUNER_MODE_CAPS_S;
-````
-
-
 ## -struct-fields
 
 
@@ -145,7 +127,7 @@ Indicates that the tuner is capable of tuning Advanced Television Systems Commit
 
 ### -field StandardsSupported
 
-Describes the analog video standards supported. If <b>Mode</b> is set to KSPROPERTY_TUNER_MODE_TV, this member may be set to one or more (logically ORed) values from the <a href="..\ksmedia\ne-ksmedia-ks_analogvideostandard.md">KS_AnalogVideoStandard</a> enumeration.
+Describes the analog video standards supported. If <b>Mode</b> is set to KSPROPERTY_TUNER_MODE_TV, this member may be set to one or more (logically ORed) values from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567297">KS_AnalogVideoStandard</a> enumeration.
 
 
 ### -field MinFrequency
@@ -175,7 +157,7 @@ Specifies the time, in milliseconds, for a new frequency setting to become stabl
 
 ### -field Strategy
 
-Specifies the tuning method. This member must be set to only one of the values from the <a href="..\ksmedia\ne-ksmedia-ks_tuner_strategy.md">KS_TUNER_STRATEGY</a> enumeration.
+Specifies the tuning method. This member must be set to only one of the values from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567687">KS_TUNER_STRATEGY</a> enumeration.
 
 
 ## -remarks
@@ -189,15 +171,6 @@ The minidriver fills in the mode capabilities for the requested tuner mode.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567800">PROPSETID_TUNER</a>
-
-
-
-<a href="..\ksmedia\ne-ksmedia-ks_analogvideostandard.md">KS_AnalogVideoStandard</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565865">KSPROPERTY_TUNER_MODE_CAPS</a>
 
 
 
@@ -205,12 +178,20 @@ The minidriver fills in the mode capabilities for the requested tuner mode.
 
 
 
-<a href="..\ksmedia\ne-ksmedia-ks_tuner_strategy.md">KS_TUNER_STRATEGY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565865">KSPROPERTY_TUNER_MODE_CAPS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567297">KS_AnalogVideoStandard</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567687">KS_TUNER_STRATEGY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567800">PROPSETID_TUNER</a>
  
 
  
-
 

@@ -50,32 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The HW_STREAM_INFORMATION structure describes the kernel streaming semantics supported by individual streams, as part of an <a href="..\strmini\ns-strmini-_hw_stream_descriptor.md">HW_STREAM_DESCRIPTOR</a> structure.
-
-
-## -syntax
-
-
-````
-typedef struct _HW_STREAM_INFORMATION {
-  ULONG              NumberOfPossibleInstances;
-  KSPIN_DATAFLOW     DataFlow;
-  BOOLEAN            DataAccessible;
-  ULONG              NumberOfFormatArrayEntries;
-  PKSDATAFORMAT      *StreamFormatsArray;
-  PVOID              ClassReserved[4];
-  ULONG              NumStreamPropArrayEntries;
-  PKSPROPERTY_SET    StreamPropertiesArray;
-  ULONG              NumStreamEventArrayEntries;
-  PKSEVENT_SET       StreamEventsArray;
-  GUID               *Category;
-  GUID               *Name;
-  ULONG              MediumsCount;
-  const KSPIN_MEDIUM *Mediums;
-  BOOLEAN            BridgeStream;
-  ULONG              Reserved[2];
-} HW_STREAM_INFORMATION, *PHW_STREAM_INFORMATION;
-````
+The HW_STREAM_INFORMATION structure describes the kernel streaming semantics supported by individual streams, as part of an <a href="https://msdn.microsoft.com/library/windows/hardware/ff559686">HW_STREAM_DESCRIPTOR</a> structure.
 
 
 ## -struct-fields
@@ -169,25 +144,24 @@ Reserved for use by the class driver. Do not use.
 
 
 
-The class driver uses the elements of HW_STREAM_INFORMATION to handle the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566584">KSPROPSETID_Pin</a> property requests. The index within the <a href="..\strmini\ns-strmini-_hw_stream_descriptor.md">HW_STREAM_DESCRIPTOR</a> structure serves as the pin type ID number.
+The class driver uses the elements of HW_STREAM_INFORMATION to handle the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566584">KSPROPSETID_Pin</a> property requests. The index within the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559686">HW_STREAM_DESCRIPTOR</a> structure serves as the pin type ID number.
 
-Note that the class driver does not use this data to handle the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565198">KSPROPERTY_PIN_DATAINTERSECTION</a> property. See <a href="..\strmini\ns-strmini-_stream_data_intersect_info.md">STREAM_DATA_INTERSECT_INFO</a> for a description of how the class driver handles this property.
+Note that the class driver does not use this data to handle the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565198">KSPROPERTY_PIN_DATAINTERSECTION</a> property. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff568299">STREAM_DATA_INTERSECT_INFO</a> for a description of how the class driver handles this property.
 
 
 
 
 ## -see-also
 
-<a href="..\strmini\ns-strmini-_hw_stream_header.md">HW_STREAM_HEADER</a>
 
 
 
-<a href="..\strmini\ns-strmini-_hw_stream_descriptor.md">HW_STREAM_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559686">HW_STREAM_DESCRIPTOR</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559690">HW_STREAM_HEADER</a>
  
 
  
-
 

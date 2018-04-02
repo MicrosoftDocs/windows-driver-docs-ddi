@@ -7,7 +7,7 @@ old-location: display\d3dkmt_sharedprimaryunlocknotification.htm
 old-project: display
 ms.assetid: 294fe805-4dce-4d0e-b0dd-9279a1ef9514
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION, D3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION structure [Display Devices], OpenGL_Structs_1766625b-9d47-4e86-9f24-08706541c167.xml, _D3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION, d3dkmthk/D3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION, display.d3dkmt_sharedprimaryunlocknotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,17 +52,6 @@ req.typenames: D3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION
 The D3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION structure describes the shared primary surface that an application just unlocked.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION {
-  LUID                           AdapterLuid;
-  D3DDDI_VIDEO_PRESENT_SOURCE_ID VidPnSourceId;
-} D3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION;
-````
-
-
 ## -struct-fields
 
 
@@ -70,7 +59,7 @@ typedef struct _D3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION {
 
 ### -field AdapterLuid
 
-[in] The locally unique identifier (<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>) of the graphics adapter on which the GDI shared primary surface exists.
+[in] The locally unique identifier (<a href="https://msdn.microsoft.com/library/windows/hardware/ff557080">LUID</a>) of the graphics adapter on which the GDI shared primary surface exists.
 
 
 ### -field VidPnSourceId
@@ -80,12 +69,11 @@ typedef struct _D3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION {
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtsharedprimaryunlocknotification.md">D3DKMTSharedPrimaryUnLockNotification</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547214">D3DKMTSharedPrimaryUnLockNotification</a>
  
 
  
-
 

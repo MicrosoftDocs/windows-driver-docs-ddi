@@ -7,7 +7,7 @@ old-location: debugger\addflags.htm
 old-project: debugger
 ms.assetid: 92161111-5e02-4a97-9656-9a297e9ea1af
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: AddFlags method [Windows Debugging], AddFlags method [Windows Debugging], IDebugBreakpoint interface, AddFlags method [Windows Debugging], IDebugBreakpoint2 interface, AddFlags,IDebugBreakpoint2.AddFlags, ComOther_2becec27-600b-4d57-93b0-8a794ff2f068.xml, IDebugBreakpoint interface [Windows Debugging], AddFlags method, IDebugBreakpoint2, IDebugBreakpoint2 interface [Windows Debugging], AddFlags method, IDebugBreakpoint2::AddFlags, IDebugBreakpoint::AddFlags, dbgeng/IDebugBreakpoint2::AddFlags, dbgeng/IDebugBreakpoint::AddFlags, debugger.addflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,16 +51,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>AddFlags</b> method adds flags to a <a href="https://msdn.microsoft.com/5ba110fc-1a12-4cbd-adc9-ef9441e257cb">breakpoint</a>.
-
-
-## -syntax
-
-
-````
-HRESULT AddFlags(
-  [in] ULONG Flags
-);
-````
 
 
 ## -parameters

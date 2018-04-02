@@ -70,7 +70,7 @@ None
 ### -output-buffer
 
 
-<a href="..\nfcradiodev\ns-nfcradiodev-_nfcrm_radio_state.md"> NFCRM_RADIO_STATE structure</a>
+<a href="https://msdn.microsoft.com/414486ED-464D-4CAF-95C2-9AC59D608816"> NFCRM_RADIO_STATE structure</a>
 
 
 

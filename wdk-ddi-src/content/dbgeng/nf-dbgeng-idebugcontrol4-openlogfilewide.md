@@ -7,7 +7,7 @@ old-location: debugger\openlogfilewide.htm
 old-project: debugger
 ms.assetid: 1e69812e-077e-476f-a253-f0c39575eb32
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: IDebugControl4, IDebugControl4 interface [Windows Debugging], OpenLogFileWide method, IDebugControl4::OpenLogFileWide, OpenLogFileWide method [Windows Debugging], OpenLogFileWide method [Windows Debugging], IDebugControl4 interface, OpenLogFileWide,IDebugControl4.OpenLogFileWide, dbgeng/IDebugControl4::OpenLogFileWide, debugger.openlogfilewide
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,17 +50,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>OpenLogFileWide</b>  method opens a log file that will receive output from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539140">client objects</a>.
-
-
-## -syntax
-
-
-````
-HRESULT OpenLogFileWide(
-  [in] PCWSTR File,
-  [in] BOOL   Append
-);
-````
 
 
 ## -parameters
@@ -121,23 +110,6 @@ For more information about log files, see <a href="https://msdn.microsoft.com/li
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556734">SetLogMask</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564018">.logopen (Open Log File)</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547066">GetLogMask</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547016">GetLogFile</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
 
 
 
@@ -145,7 +117,23 @@ For more information about log files, see <a href="https://msdn.microsoft.com/li
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564018">.logopen (Open Log File)</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539148">CloseLogFile</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547016">GetLogFile</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547066">GetLogMask</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550526">IDebugControl4</a>
 
 
 
@@ -153,8 +141,8 @@ For more information about log files, see <a href="https://msdn.microsoft.com/li
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556734">SetLogMask</a>
  
 
  
-
 

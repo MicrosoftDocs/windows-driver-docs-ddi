@@ -52,20 +52,6 @@ req.typenames: CMP_CONNECT_VER3, *PCMP_CONNECT_VER3
 This structure contains information for a connection request.
 
 
-## -syntax
-
-
-````
-typedef struct _CMP_CONNECT_VER3 {
-  HANDLE               hOutputPlug;
-  HANDLE               hInputPlug;
-  CMP_CONNECT_TYPE     Type;
-  CIP_DATA_FORMAT_VER3 Format;
-  HANDLE               hConnect;
-} CMP_CONNECT_VER3, *PCMP_CONNECT_VER3;
-````
-
-
 ## -struct-fields
 
 
@@ -98,12 +84,11 @@ The handle for the created connection.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537008">AV_61883_REQUEST</a>
-
-
-
  
 
  
-
 

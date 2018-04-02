@@ -2,7 +2,7 @@
 UID: NA:61883
 ms.assetid: e401eb24-793e-3800-b0b7-55496f44fbb8
 ms.author: windowsdriverdev
-ms.date: 03/13/18
+ms.date: 02/27/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

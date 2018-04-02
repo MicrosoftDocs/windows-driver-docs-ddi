@@ -52,16 +52,6 @@ req.typenames: EXpsFontRestriction
 The <b>GetThumbnailProperties</b> method gets the thumbnail properties.
 
 
-## -syntax
-
-
-````
-HRESULT GetThumbnailProperties(
-  [out] BSTR *pContentType
-);
-````
-
-
 ## -parameters
 
 

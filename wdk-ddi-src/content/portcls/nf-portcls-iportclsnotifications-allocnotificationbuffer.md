@@ -7,7 +7,7 @@ old-location: audio\iportclsnotifications_allocnotification.htm
 old-project: audio
 ms.assetid: 23DBA3D8-FC27-4F5D-9F1C-A22B6C2856D2
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/19/2018
 ms.keywords: AllocNotificationBuffer method [Audio Devices], AllocNotificationBuffer method [Audio Devices], IPortClsNotifications interface, AllocNotificationBuffer,IPortClsNotifications.AllocNotificationBuffer, IPortClsNotifications, IPortClsNotifications interface [Audio Devices], AllocNotificationBuffer method, IPortClsNotifications::AllocNotificationBuffer, audio.iportclsnotifications_allocnotification, portcls/IPortClsNotifications::AllocNotificationBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -55,18 +55,6 @@ Allocates a buffer of the specified size, in the specified memory pool, for use 
 For more information about audio modules, see <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/audio/implementing-audio-module-communication">Implementing Audio Module Discovery</a>. 
 
 
-## -syntax
-
-
-````
-NTSTATUS  AllocNotificationBuffer(
-  [in]  POOL_TYPE       PoolType,
-  [in]  USHORT          NumberOfBytes,
-  [out] PPCNOTIFICATION *NotificationBuffer
-);
-````
-
-
 ## -parameters
 
 
@@ -84,7 +72,7 @@ Number of bytes to allocate.
 
 ### -param NotificationBuffer [out]
 
-Pointer to a <a href="..\portcls\ns-portcls-_pcnotification_buffer.md">PCNOTIFICATION_BUFFER</a> which the method writes the address of the allocated notification.
+Pointer to a <a href="https://msdn.microsoft.com/EEE091E4-29D1-4C6F-B543-C54736660CCA">PCNOTIFICATION_BUFFER</a> which the method writes the address of the allocated notification.
 
 
 ## -returns
@@ -117,12 +105,11 @@ Callers of <b>AllocNotificationBuffer</b> must be running at IRQL &lt;= DISPATCH
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iportclsnotifications.md">IPortClsNotifications</a>
 
 
 
+<a href="https://msdn.microsoft.com/03F65E4E-C942-4748-8D3E-938A6AC51B2A">IPortClsNotifications</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: kernel\exraisedatatypemisalignment.htm
 old-project: kernel
 ms.assetid: 5c8bfd13-31e0-461f-93d2-53ce15c53cdb
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: ExRaiseDatatypeMisalignment, ExRaiseDatatypeMisalignment routine [Kernel-Mode Driver Architecture], k102_ff274a50-ae59-4591-9484-6bc068601ee8.xml, kernel.exraisedatatypemisalignment, ntddk/ExRaiseDatatypeMisalignment
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,14 +52,6 @@ req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 The <b>ExRaiseDatatypeMisalignment</b> routine can be used with structured exception handling to throw a driver-determined exception for a misaligned data type that occurs when a driver processes I/O requests.
 
 
-## -syntax
-
-
-````
-VOID ExRaiseDatatypeMisalignment(void);
-````
-
-
 ## -parameters
 
 
@@ -89,24 +81,23 @@ Because <b>ExRaiseDatatypeMisalignment</b> can only be used at IRQL = PASSIVE_LE
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-exraiseaccessviolation.md">ExRaiseAccessViolation</a>
 
 
 
-<a href="..\wdm\nf-wdm-exraisestatus.md">ExRaiseStatus</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545509">ExRaiseAccessViolation</a>
 
 
 
-<a href="..\wdm\nf-wdm-ioallocateerrorlogentry.md">IoAllocateErrorLogEntry</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545529">ExRaiseStatus</a>
 
 
 
-<a href="..\wdm\nf-wdm-kebugcheckex.md">KeBugCheckEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548245">IoAllocateErrorLogEntry</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551961">KeBugCheckEx</a>
  
 
  
-
 

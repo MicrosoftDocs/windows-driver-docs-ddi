@@ -7,7 +7,7 @@ old-location: storage\disk_controller_number.htm
 old-project: storage
 ms.assetid: 5dc9f04b-8d7c-4ac7-9518-8836d56d5eed
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PDISK_CONTROLLER_NUMBER, DISK_CONTROLLER_NUMBER, DISK_CONTROLLER_NUMBER structure [Storage Devices], PDISK_CONTROLLER_NUMBER, PDISK_CONTROLLER_NUMBER structure pointer [Storage Devices], _DISK_CONTROLLER_NUMBER, ntdddisk/DISK_CONTROLLER_NUMBER, ntdddisk/PDISK_CONTROLLER_NUMBER, storage.disk_controller_number, structs-disk_5cf21b24-f10f-4484-bb76-22dff0b4e32c.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,17 +52,6 @@ req.typenames: DISK_CONTROLLER_NUMBER, *PDISK_CONTROLLER_NUMBER
 DISK_CONTROLLER_NUMBER is used with IOCTL_DISK_CONTROLLER_NUMBER to retrieve the controller number and disk number of an IDE disk. 
 
 
-## -syntax
-
-
-````
-typedef struct _DISK_CONTROLLER_NUMBER {
-  ULONG ControllerNumber;
-  ULONG DiskNumber;
-} DISK_CONTROLLER_NUMBER, *PDISK_CONTROLLER_NUMBER;
-````
-
-
 ## -struct-fields
 
 
@@ -89,12 +78,11 @@ After DISK_CONTROLLER_NUMBER receives the controller number and the disk number,
 
 ## -see-also
 
-<a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_controller_number.md">IOCTL_DISK_CONTROLLER_NUMBER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559430">IOCTL_DISK_CONTROLLER_NUMBER</a>
  
 
  
-
 

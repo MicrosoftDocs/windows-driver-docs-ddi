@@ -7,7 +7,7 @@ old-location: storage\storportconvertulongtophysicaladdress.htm
 old-project: storage
 ms.assetid: 772ca60b-a957-47de-b95d-486497b295ce
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: StorPortConvertUlongToPhysicalAddress, StorPortConvertUlongToPhysicalAddress routine [Storage Devices], storage.storportconvertulongtophysicaladdress, storport/StorPortConvertUlongToPhysicalAddress, storprt_c0da13f0-81f8-48ae-93e2-8af7bcedf4dc.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>StorPortConvertUlongToPhysicalAddress</b> routine converts an unsigned long address into a physical address.
-
-
-## -syntax
-
-
-````
-STORPORT_API STOR_PHYSICAL_ADDRESS StorPortConvertUlongToPhysicalAddress(
-  _In_ ULONG_PTR UlongAddress
-);
-````
 
 
 ## -parameters

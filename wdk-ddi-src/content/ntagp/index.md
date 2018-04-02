@@ -2,7 +2,7 @@
 UID: NA:ntagp
 ms.assetid: 5fdb216f-d472-3f85-896e-105544ba76d0
 ms.author: windowsdriverdev
-ms.date: 03/13/18
+ms.date: 03/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -13,7 +13,6 @@ ms.topic: portal
 
 
 
-This header is used by unknown technology.
+This header is used by display. For more information, see:
 
-Ntagp.h contain these programming interfaces:
-
+- [Display](../_display/index.md)

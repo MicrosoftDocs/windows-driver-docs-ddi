@@ -7,7 +7,7 @@ old-location: buses\tristate.htm
 old-project: usbref
 ms.assetid: 16D8981B-53D3-4886-A85F-B487701ED172
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: TRISTATE, TRISTATE enumeration [Buses], TriStateFalse, TriStateTrue, TriStateUnknown, _TRISTATE, buses.tristate, ucxroothub/TRISTATE, ucxroothub/TriStateFalse, ucxroothub/TriStateTrue, ucxroothub/TriStateUnknown
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,18 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>TRISTATE</b> enumeration indicates generic state values for true or false.
-
-
-## -syntax
-
-
-````
-typedef enum _TRISTATE { 
-  TriStateUnknown  = u,
-  TriStateFalse    = f,
-  TriStateTrue     = t
-} TRISTATE;
-````
 
 
 ## -enum-fields

@@ -7,7 +7,7 @@ old-location: netvista\ndisfindicatestatus.htm
 old-project: netvista
 ms.assetid: fd81d777-8479-41e3-8f71-e5f4134b60a0
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NdisFIndicateStatus, NdisFIndicateStatus function [Network Drivers Starting with Windows Vista], ndis/NdisFIndicateStatus, ndis_status_ref_e649b130-878b-4019-b377-dd099de6eb8e.xml, netvista.ndisfindicatestatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -55,17 +55,6 @@ The
   originates a status indication.
 
 
-## -syntax
-
-
-````
-VOID NdisFIndicateStatus(
-  _In_ NDIS_HANDLE             NdisFilterHandle,
-  _In_ PNDIS_STATUS_INDICATION StatusIndication
-);
-````
-
-
 ## -parameters
 
 
@@ -75,13 +64,13 @@ VOID NdisFIndicateStatus(
 
 The NDIS handle that identifies this filter module. NDIS passed the handle to the filter driver in
      a call to the 
-     <a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a> function.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a> function.
 
 
 ### -param StatusIndication [in]
 
 A pointer to an 
-     <a href="..\ndis\ns-ndis-_ndis_status_indication.md">NDIS_STATUS_INDICATION</a> structure
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff567373">NDIS_STATUS_INDICATION</a> structure
      that contains the status information.
 
 
@@ -100,7 +89,7 @@ None
 
 Filter drivers can call 
     <b>NdisFIndicateStatus</b> from the 
-    <a href="..\ndis\nc-ndis-filter_status.md">FilterStatus</a> function, to pass on a
+    <a href="https://msdn.microsoft.com/051ce37c-a7a5-4367-9495-023fc51349ba">FilterStatus</a> function, to pass on a
     filtered status indication to overlying drivers.
 
 To originate status indications, filter drivers call 
@@ -109,38 +98,37 @@ To originate status indications, filter drivers call
 
 A filter driver can call 
     <b>NdisFIndicateStatus</b> after setting its registration attributes and the 
-    <a href="..\ndis\nf-ndis-ndisfsetattributes.md">NdisFSetAttributes</a> function returns.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff562619">NdisFSetAttributes</a> function returns.
     The driver must not call 
     <b>NdisFIndicateStatus</b> after it returns from the 
-    <a href="..\ndis\nc-ndis-filter_detach.md">FilterDetach</a> function.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff540475">FilterDetach</a> function.
 
 
 
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisfsetattributes.md">NdisFSetAttributes</a>
 
 
 
-<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a>
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_status_indication.md">NDIS_STATUS_INDICATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540475">FilterDetach</a>
 
 
 
-<a href="..\ndis\nc-ndis-filter_detach.md">FilterDetach</a>
+<a href="https://msdn.microsoft.com/051ce37c-a7a5-4367-9495-023fc51349ba">FilterStatus</a>
 
 
 
-<a href="..\ndis\nc-ndis-filter_status.md">FilterStatus</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567373">NDIS_STATUS_INDICATION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562619">NdisFSetAttributes</a>
  
 
  
-
 

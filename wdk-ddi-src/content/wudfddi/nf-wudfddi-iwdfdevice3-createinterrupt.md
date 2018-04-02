@@ -56,17 +56,6 @@ The <b>CreateInterrupt</b> method creates a framework interrupt object.
 
 
 
-## -syntax
-
-
-````
-HRESULT CreateInterrupt(
-  [in]  PWUDF_INTERRUPT_CONFIG *Configuration,
-  [out] IWDFInterrupt          **ppInterrupt
-);
-````
-
-
 ## -parameters
 
 
@@ -74,12 +63,12 @@ HRESULT CreateInterrupt(
 
 ### -param Configuration [in]
 
-A pointer to a <a href="..\wudfinterrupt\ns-wudfinterrupt-_wudf_interrupt_config.md">WUDF_INTERRUPT_CONFIG</a> structure that was initialized by a call to the <a href="..\wudfinterrupt\nf-wudfinterrupt-wudf_interrupt_config_init.md">WUDF_INTERRUPT_CONFIG_INIT</a> macro.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh464084">WUDF_INTERRUPT_CONFIG</a> structure that was initialized by a call to the <a href="https://msdn.microsoft.com/library/windows/hardware/hh464089">WUDF_INTERRUPT_CONFIG_INIT</a> macro.
 
 
 ### -param ppInterrupt [out]
 
-A pointer to a buffer that receives a pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfinterrupt.md">IWDFInterrupt</a>  interface for the new interrupt object.
+A pointer to a buffer that receives a pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451283">IWDFInterrupt</a>  interface for the new interrupt object.
 
 
 ## -returns
@@ -141,20 +130,19 @@ hr = pDevice-&gt;Create(&amp;interruptConfig,
 
 ## -see-also
 
-<a href="..\wudfinterrupt\nf-wudfinterrupt-wudf_interrupt_config_init.md">WUDF_INTERRUPT_CONFIG_INIT</a>
 
 
 
-<a href="..\wudfinterrupt\ns-wudfinterrupt-_wudf_interrupt_config.md">WUDF_INTERRUPT_CONFIG</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451197">IWDFDevice3</a>
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice3.md">IWDFDevice3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh464084">WUDF_INTERRUPT_CONFIG</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh464089">WUDF_INTERRUPT_CONFIG_INIT</a>
  
 
  
-
 

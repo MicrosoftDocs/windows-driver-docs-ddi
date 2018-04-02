@@ -7,7 +7,7 @@ old-location: kernel\rtllongtoulongptr.htm
 old-project: kernel
 ms.assetid: D05EDC76-7A3E-4A9F-8950-8E54CDD16016
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: RtlLongToULongPtr, RtlLongToULongPtr function [Kernel-Mode Driver Architecture], kernel.rtllongtoulongptr, ntintsafe/RtlLongToULongPtr
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,17 +50,6 @@ req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 
 
 Converts a value of type <b>LONG</b> to a value of type <b>ULONG_PTR</b>.
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlLongToULongPtr(
-  _In_  LONG      ulOperand,
-  _Out_ ULONG_PTR *pusResult
-);
-````
 
 
 ## -parameters

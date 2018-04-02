@@ -7,7 +7,7 @@ old-location: display\checkdirectflipsupport_d3d11_1_.htm
 old-project: display
 ms.assetid: 2acf84cb-5e51-4aa8-96ce-96abc6ceec8c
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: CheckDirectFlipSupport(D3D11_1), CheckDirectFlipSupport(D3D11_1) callback function [Display Devices], PFND3D11_1DDI_CHECKDIRECTFLIPSUPPORT, d3d10umddi/CheckDirectFlipSupport(D3D11_1), display.checkdirectflipsupport_d3d11_1_, display.pfncheckdirectflipsupport
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,32 +52,18 @@ req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 Called by the Desktop Window Manager (DWM) to verify that the user-mode driver supports Direct Flip operations, in which video memory is seamlessly flipped between an application's managed primary allocations and the DWM's managed primary allocations.
 
 
-## -prototype
-
-
-````
-PFND3D11_1DDI_CHECKDIRECTFLIPSUPPORT CheckDirectFlipSupport(D3D11_1);
-
-VOID APIENTRY* CheckDirectFlipSupport(D3D11_1)(
-        D3D10DDI_HDEVICE   hDevice,
-        D3D10DDI_HRESOURCE hResource1,
-        D3D10DDI_HRESOURCE hResource2,
-        UINT               CheckDirectFlipFlags,
-  _Out_ BOOL               *pSupported
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
 
 
-### -param D3D10DDI_HDEVICE
+### -param Arg1
 
 
-### -param D3D10DDI_HRESOURCE
+### -param Arg2
+
+
+### -param Arg3
 
 
 ### -param CheckDirectFlipFlags
@@ -126,34 +112,33 @@ The user-mode driver should ensure that the managed primary allocations of the a
 <li>Stereo resources.</li>
 <li>Multiple Sample Anti Aliasing (MSAA) formats.</li>
 <li>Swizzle formats. If the swizzle can only be changed at every VSync interval, ensure that the <i>CheckDirectFlipFlags</i> parameter does not have a value of <b>D3D11_1DDI_CHECK_DIRECT_FLIP_IMMEDIATE</b>.</li>
-<li>Both managed primary allocations should be created using the same <b>VidPnSourceId</b> value in the <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_allocationinfo.md">D3DDDI_ALLOCATIONINFO</a> structure.</li>
+<li>Both managed primary allocations should be created using the same <b>VidPnSourceId</b> value in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544364">D3DDDI_ALLOCATIONINFO</a> structure.</li>
 <li>Display adapter configurations are linked.</li>
 </ul>
-The user-mode driver might need to call the kernel-mode driver to perform these validations. To do this, call the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_escapecb.md">pfnEscapeCb</a> callback function and then call the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_gethandledata.md">DxgkCbGetHandleData</a> function to access the kernel-mode driver's resource allocation data.
+The user-mode driver might need to call the kernel-mode driver to perform these validations. To do this, call the <a href="https://msdn.microsoft.com/66c0347f-2cf3-42fc-8641-47c731e958c9">pfnEscapeCb</a> callback function and then call the <a href="https://msdn.microsoft.com/144429e5-34e6-4416-980e-2838e8f9e415">DxgkCbGetHandleData</a> function to access the kernel-mode driver's resource allocation data.
 
 
 
 
 ## -see-also
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_allocationinfo.md">D3DDDI_ALLOCATIONINFO</a>
 
 
 
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1_ddi_check_direct_flip_flags.md">D3D11_1_DDI_CHECK_DIRECT_FLIP_FLAGS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451044">D3D11_1_DDI_CHECK_DIRECT_FLIP_FLAGS</a>
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_gethandledata.md">DxgkCbGetHandleData</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544364">D3DDDI_ALLOCATIONINFO</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_escapecb.md">pfnEscapeCb</a>
+<a href="https://msdn.microsoft.com/144429e5-34e6-4416-980e-2838e8f9e415">DxgkCbGetHandleData</a>
 
 
 
+<a href="https://msdn.microsoft.com/66c0347f-2cf3-42fc-8641-47c731e958c9">pfnEscapeCb</a>
  
 
  
-
 

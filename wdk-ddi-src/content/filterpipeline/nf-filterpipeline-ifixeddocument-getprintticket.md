@@ -52,16 +52,6 @@ req.typenames: EXpsFontRestriction
 The <b>GetPrintTicket</b> method gets the print ticket object for the fixed document.
 
 
-## -syntax
-
-
-````
-HRESULT GetPrintTicket(
-  [out] IPartPrintTicket **ppPrintTicket
-);
-````
-
-
 ## -parameters
 
 

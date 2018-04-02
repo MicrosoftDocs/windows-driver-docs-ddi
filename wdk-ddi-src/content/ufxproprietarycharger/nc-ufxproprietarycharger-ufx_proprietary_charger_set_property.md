@@ -7,7 +7,7 @@ old-location: buses\ufx_proprietary_charger_set_property.htm
 old-project: usbref
 ms.assetid: 504878FA-3234-4BE7-95D9-6CCE08DB4D8A
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: PFN_UFX_PROPRIETARY_CHARGER_SET_PROPERTY, PFN_UFX_PROPRIETARY_CHARGER_SET_PROPERTY callback function pointer [Buses], UFX_PROPRIETARY_CHARGER_SET_PROPERTY, UfxProprietaryChargerSetProperty, UfxProprietaryChargerSetProperty callback function [Buses], buses.ufx_proprietary_charger_set_property, ufxproprietarycharger/UfxProprietaryChargerSetProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,22 +53,6 @@ req.product: Windows 10 or later.
 The filter driver's implementation to set a configurable property on the charger.
 
 
-## -prototype
-
-
-````
-UFX_PROPRIETARY_CHARGER_SET_PROPERTY UfxProprietaryChargerSetProperty;
-
-NTSTATUS UfxProprietaryChargerSetProperty(
-  _In_ PVOID                                 Context,
-  _In_ PCONFIGURABLE_CHARGER_PROPERTY_HEADER Property
-)
-{ ... }
-
-typedef UFX_PROPRIETARY_CHARGER_SET_PROPERTY PFN_UFX_PROPRIETARY_CHARGER_SET_PROPERTY;
-````
-
-
 ## -parameters
 
 
@@ -106,12 +90,11 @@ In this callback function, the driver sets the specified property value. For exa
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/05D2B46A-282C-4B75-9F5C-2FC0AF344AB9">USB filter driver for supporting proprietary chargers</a>
-
-
-
  
 
  
-
 

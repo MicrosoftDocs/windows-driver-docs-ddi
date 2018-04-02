@@ -55,14 +55,6 @@ req.product: Windows 10 or later.
 The <b>Requeue</b> method returns an I/O request to the head of the I/O queue from which it was delivered to the driver.
 
 
-## -syntax
-
-
-````
-HRESULT Requeue();
-````
-
-
 ## -parameters
 
 
@@ -178,16 +170,15 @@ CMyQueue::OnStateChange(
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558967">IWDFIoQueue::RetrieveNextRequest</a>
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest2.md">IWDFIoRequest2</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558988">IWDFIoRequest2</a>
  
 
  
-
 

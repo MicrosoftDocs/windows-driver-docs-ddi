@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 PosCxRetainDevice is called to extend the ownership of the device.
 
 
-## -syntax
-
-
-````
-NTSTATUS PosCxRetainDevice(
-  _In_ WDFDEVICE  device,
-  _In_ WDFREQUEST request
-);
-````
-
-
 ## -parameters
 
 

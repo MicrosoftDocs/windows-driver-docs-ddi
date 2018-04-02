@@ -7,7 +7,7 @@ old-location: storage\storage_physical_device_data.htm
 old-project: storage
 ms.assetid: 9D8E67D1-EB7C-4EED-8BDD-43D5E012B99C
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSTORAGE_PHYSICAL_DEVICE_DATA, PSTORAGE_PHYSICAL_DEVICE_DATA, PSTORAGE_PHYSICAL_DEVICE_DATA structure pointer [Storage Devices], STORAGE_PHYSICAL_DEVICE_DATA, STORAGE_PHYSICAL_DEVICE_DATA structure [Storage Devices], _STORAGE_PHYSICAL_DEVICE_DATA, ntddstor/PSTORAGE_PHYSICAL_DEVICE_DATA, ntddstor/STORAGE_PHYSICAL_DEVICE_DATA, storage.storage_physical_device_data"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,27 +52,6 @@ req.typenames: STORAGE_PHYSICAL_DEVICE_DATA, *PSTORAGE_PHYSICAL_DEVICE_DATA
 Specifies the physical device data of a storage device.
 
 
-## -syntax
-
-
-````
-typedef struct _STORAGE_PHYSICAL_DEVICE_DATA {
-  ULONG                           DeviceId;
-  ULONG                           Role;
-  STORAGE_COMPONENT_HEALTH_STATUS HealthStatus;
-  STORAGE_PROTOCOL_TYPE           CommandProtocol;
-  STORAGE_SPEC_VERSION            SpecVersion;
-  STORAGE_DEVICE_FORM_FACTOR      FormFactor;
-  UCHAR                           Vendor[8];
-  UCHAR                           Model[40];
-  UCHAR                           FirmwareRevision[16];
-  ULONGLONG                       Capacity;
-  UCHAR                           PhysicalLocation[32];
-  ULONG                           Reserved[2];
-} STORAGE_PHYSICAL_DEVICE_DATA, *PSTORAGE_PHYSICAL_DEVICE_DATA;
-````
-
-
 ## -struct-fields
 
 
@@ -90,22 +69,22 @@ The role of the storage device. A bitmask can be use to specify multiple roles, 
 
 ### -field HealthStatus
 
-Indicates the health status of a storage device, of type <a href="..\ntddstor\ne-ntddstor-_storage_component_health_status.md">STORAGE_COMPONENT_HEALTH_STATUS</a>.
+Indicates the health status of a storage device, of type <a href="https://msdn.microsoft.com/library/windows/hardware/mt653957">STORAGE_COMPONENT_HEALTH_STATUS</a>.
 
 
 ### -field CommandProtocol
 
-Specifies the storage command protocols that are used between software and hardware, of type <a href="..\ntddstor\ne-ntddstor-_storage_protocol_type.md">STORAGE_PROTOCOL_TYPE</a>.
+Specifies the storage command protocols that are used between software and hardware, of type <a href="https://msdn.microsoft.com/library/windows/hardware/dn931818">STORAGE_PROTOCOL_TYPE</a>.
 
 
 ### -field SpecVersion
 
-Indicates the specification of the storage device, of type <a href="..\ntddstor\ns-ntddstor-_storage_spec_version.md">STORAGE_SPEC_VERSION</a>.
+Indicates the specification of the storage device, of type <a href="https://msdn.microsoft.com/library/windows/hardware/mt653963">STORAGE_SPEC_VERSION</a>.
 
 
 ### -field FormFactor
 
-Indicates the form factor of a storage device, of type <a href="..\ntddstor\ne-ntddstor-_storage_device_form_factor.md">STORAGE_DEVICE_FORM_FACTOR</a>.
+Indicates the form factor of a storage device, of type <a href="https://msdn.microsoft.com/library/windows/hardware/mt653958">STORAGE_DEVICE_FORM_FACTOR</a>.
 
 
 ### -field Vendor

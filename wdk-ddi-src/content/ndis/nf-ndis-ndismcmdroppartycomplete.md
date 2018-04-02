@@ -7,7 +7,7 @@ old-location: netvista\ndismcmdroppartycomplete.htm
 old-project: netvista
 ms.assetid: ba0e11d9-3bb1-412c-9b33-9362d774adee
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NdisMCmDropPartyComplete, NdisMCmDropPartyComplete macro [Network Drivers Starting with Windows Vista], condis_mcm_ref_61bf04f0-c6cd-445f-8e4a-512884b96902.xml, ndis/NdisMCmDropPartyComplete, netvista.ndismcmdroppartycomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,17 +53,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
   previously returned NDIS_STATUS_PENDING, to remove a party from a multipoint VC.
 
 
-## -syntax
-
-
-````
-VOID NdisMCmDropPartyComplete(
-  [in] NDIS_STATUS Status,
-  [in] NDIS_HANDLE NdisPartyHandle
-);
-````
-
-
 ## -parameters
 
 
@@ -88,7 +77,7 @@ TBD
 Specifies the handle to the party that the client requested be dropped. The MCM driver obtained
      this handle from its per-party state area designated by 
      <i>CallMgrPartyContext</i> that was passed as an input parameter to its 
-     <a href="..\ndis\nc-ndis-protocol_cm_drop_party.md">
+     <a href="https://msdn.microsoft.com/be0fce3e-7308-42fa-b63a-4d5cfec7ea6c">
      ProtocolCmDropParty</a> function.
 
 
@@ -108,10 +97,10 @@ An MCM driver must call
     <i>ProtocolCmDropParty</i> function previously returned NDIS_STATUS_PENDING for the given 
     <i>NdisPartyHandle</i> . Neither NDIS nor the client, which initiated the pended drop-party operation with
     a call to 
-    <a href="..\ndis\nf-ndis-ndiscldropparty.md">NdisClDropParty</a>, can release the
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561629">NdisClDropParty</a>, can release the
     resources they allocated to maintain per-party state until the MCM driver's call to 
     <b>NdisMCmDropPartyComplete</b> causes a call to that client's 
-    <a href="..\ndis\nc-ndis-protocol_cl_drop_party_complete.md">
+    <a href="https://msdn.microsoft.com/c916f379-393c-41d7-ab30-2f3181c3ada6">
     ProtocolClDropPartyComplete</a> function.
 
 If it passes NDIS_STATUS_SUCCESS for the 
@@ -131,24 +120,23 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndiscmdroppartycomplete.md">NdisCmDropPartyComplete</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiscldropparty.md">NdisClDropParty</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561629">NdisClDropParty</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_cm_drop_party.md">ProtocolCmDropParty</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561674">NdisCmDropPartyComplete</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_cl_drop_party_complete.md">ProtocolClDropPartyComplete</a>
+<a href="https://msdn.microsoft.com/c916f379-393c-41d7-ab30-2f3181c3ada6">ProtocolClDropPartyComplete</a>
 
 
 
+<a href="https://msdn.microsoft.com/be0fce3e-7308-42fa-b63a-4d5cfec7ea6c">ProtocolCmDropParty</a>
  
 
  
-
 

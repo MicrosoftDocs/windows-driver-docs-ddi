@@ -3,12 +3,12 @@ UID: NS:gnssdriver.GNSS_FIXDATA
 title: GNSS_FIXDATA
 author: windows-driver-content
 description: This structure defines the specific data elements associated with a GNSS fix returned from the driver.
-old-location: gnss\gnss_fixdata.htm
-old-project: gnss
+old-location: sensors\gnss_fixdata.htm
+old-project: sensors
 ms.assetid: 2939F01A-2F1C-4434-BAE1-59F1F320BD44
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: "*PGNSS_FIXDATA, GNSS_FIXDATA, GNSS_FIXDATA structure [Sensor Devices], PGNSS_FIXDATA, PGNSS_FIXDATA structure pointer [Sensor Devices], gnss.gnss_fixdata, gnssdriver/GNSS_FIXDATA, gnssdriver/PGNSS_FIXDATA"
+ms.date: 2/22/2018
+ms.keywords: "*PGNSS_FIXDATA, GNSS_FIXDATA, GNSS_FIXDATA structure [Sensor Devices], PGNSS_FIXDATA, PGNSS_FIXDATA structure pointer [Sensor Devices], gnssdriver/GNSS_FIXDATA, gnssdriver/PGNSS_FIXDATA, sensors.gnss_fixdata"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -50,25 +50,6 @@ req.typenames: GNSS_FIXDATA, *PGNSS_FIXDATA
 
 
 This structure defines the specific data elements associated with a GNSS fix returned from the driver.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  ULONG                  Size;
-  ULONG                  Version;
-  ULONG                  FixSessionID;
-  FILETIME               FixTimeStamp;
-  BOOL                   IsFinalFix;
-  NTSTATUS               FixStatus;
-  ULONG                  FixLevelOfDetails;
-  GNSS_FIXDATA_BASIC     BasicData;
-  GNSS_FIXDATA_ACCURACY  AccuracyData;
-  GNSS_FIXDATA_SATELLITE SatelliteData;
-} GNSS_FIXDATA, *PGNSS_FIXDATA;
-````
 
 
 ## -struct-fields

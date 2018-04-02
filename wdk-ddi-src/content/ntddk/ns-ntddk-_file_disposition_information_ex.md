@@ -7,7 +7,7 @@ old-location: ifsk\file_disposition_information_ex.htm
 old-project: ifsk
 ms.assetid: CCFE4B09-F942-4D89-9013-159066D8E37A
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: "*PFILE_DISPOSITION_INFORMATION_EX, FILE_DISPOSITION_INFORMATION_EX, FILE_DISPOSITION_INFORMATION_EX structure [Installable File System Drivers], PFILE_DISPOSITION_INFORMATION_EX, PFILE_DISPOSITION_INFORMATION_EX structure pointer [Installable File System Drivers], _FILE_DISPOSITION_INFORMATION_EX, ifsk.file_disposition_information_ex, ntddk/FILE_DISPOSITION_INFORMATION_EX, ntddk/PFILE_DISPOSITION_INFORMATION_EX"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,16 +50,6 @@ req.typenames: FILE_DISPOSITION_INFORMATION_EX, *PFILE_DISPOSITION_INFORMATION_E
 
 
 The <b>FILE_DISPOSITION_INFORMATION_EX</b> structure is used as an argument to the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567096">ZwSetInformationFileEx</a> routine and indicates how the operating system should delete a file.
-
-
-## -syntax
-
-
-````
-typedef struct _FILE_DISPOSITION_INFORMATION_EX {
-   Flags;
-} FILE_DISPOSITION_INFORMATION_EX, *PFILE_DISPOSITION_INFORMATION_EX;
-````
 
 
 ## -struct-fields
@@ -122,16 +112,15 @@ Normally a file marked for deletion is not actually deleted until all open handl
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566417">ZwClose</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567096">ZwSetInformationFile</a>
  
 
  
-
 

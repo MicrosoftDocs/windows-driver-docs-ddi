@@ -7,7 +7,7 @@ old-location: kernel\kesethardwarecounterconfiguration.htm
 old-project: kernel
 ms.assetid: 9677dbd7-4b6f-49a9-ac38-fdcbaeb3a6f8
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: KeSetHardwareCounterConfiguration, KeSetHardwareCounterConfiguration routine [Kernel-Mode Driver Architecture], k105_2cf79626-ed0d-4a15-bd9f-22b669ffde98.xml, kernel.kesethardwarecounterconfiguration, ntddk/KeSetHardwareCounterConfiguration
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,17 +52,6 @@ req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 The <b>KeSetHardwareCounterConfiguration</b> routine specifies a list of hardware counters to use for thread profiling.
 
 
-## -syntax
-
-
-````
-NTSTATUS KeSetHardwareCounterConfiguration(
-  _In_ PHARDWARE_COUNTER CounterArray,
-  _In_ ULONG             Count
-);
-````
-
-
 ## -parameters
 
 
@@ -70,7 +59,7 @@ NTSTATUS KeSetHardwareCounterConfiguration(
 
 ### -param CounterArray [in]
 
-A pointer to a <a href="..\ntddk\ns-ntddk-_hardware_counter.md">HARDWARE_COUNTER</a> array that describes the hardware counter configuration to use for thread profiling. Each array element is a structure that describes a hardware counter. Before the routine returns, it copies the contents of this array into its internal data structures.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff546980">HARDWARE_COUNTER</a> array that describes the hardware counter configuration to use for thread profiling. Each array element is a structure that describes a hardware counter. Before the routine returns, it copies the contents of this array into its internal data structures.
 
 
 ### -param Count [in]
@@ -144,9 +133,9 @@ Set <i>Count</i> = 0 to specify an empty hardware counter configuration. This co
 
 The effect of a successful <b>KeSetHardwareCounterConfiguration</b> call is global. If a thread in any process is profiled, the profiler uses the hardware counter configuration that was set by the last call to <b>KeSetHardwareCounterConfiguration</b>. In a multiprocessor system, a <b>KeSetHardwareCounterConfiguration</b> call sets the hardware counter configuration to use for thread profiling across all processors in the system, although each processor uses its own set of hardware counters.
 
-To avoid resource conflicts, all drivers that use counter resources should use the <a href="..\ntddk\nf-ntddk-halallocatehardwarecounters.md">HalAllocateHardwareCounters</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff546593">HalFreeHardwareCounters</a> routines to coordinate their sharing of these resources.
+To avoid resource conflicts, all drivers that use counter resources should use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546577">HalAllocateHardwareCounters</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff546593">HalFreeHardwareCounters</a> routines to coordinate their sharing of these resources.
 
-To query the operating system for the hardware counter configuration that is currently in effect for thread profiling, call the <a href="..\ntddk\nf-ntddk-kequeryhardwarecounterconfiguration.md">KeQueryHardwareCounterConfiguration</a> routine.
+To query the operating system for the hardware counter configuration that is currently in effect for thread profiling, call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553014">KeQueryHardwareCounterConfiguration</a> routine.
 
 Virtualization software typically does not virtualize hardware performance counters. Thus, hardware performance counters are unlikely to be available in a virtual machine.
 
@@ -155,11 +144,14 @@ Virtualization software typically does not virtualize hardware performance count
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_hardware_counter.md">HARDWARE_COUNTER</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-halallocatehardwarecounters.md">HalAllocateHardwareCounters</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546980">HARDWARE_COUNTER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546577">HalAllocateHardwareCounters</a>
 
 
 
@@ -167,12 +159,8 @@ Virtualization software typically does not virtualize hardware performance count
 
 
 
-<a href="..\ntddk\nf-ntddk-kequeryhardwarecounterconfiguration.md">KeQueryHardwareCounterConfiguration</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553014">KeQueryHardwareCounterConfiguration</a>
  
 
  
-
 

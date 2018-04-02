@@ -107,11 +107,11 @@ These bit flags are used by the intersect handler to determine plug compatibilit
 
 ## -see-also
 
-<a href="..\avc\nc-avc-pfnavcintersecthandler.md">AV/C Intersect Handler</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554154">AVC_FUNCTION_GET_CONNECTINFO</a>
+
+
+
+<a href="..\avc\nc-avc-pfnavcintersecthandler.md">AV/C Intersect Handler</a>
 
 
 

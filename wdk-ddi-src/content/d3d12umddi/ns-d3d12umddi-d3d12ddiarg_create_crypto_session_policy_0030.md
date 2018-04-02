@@ -7,7 +7,7 @@ old-location: display\d3d12ddiarg-create-crypto-session-policy-0030.htm
 old-project: display
 ms.assetid: b7574112-2cac-4bec-9039-9afeef4d2f51
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3D12DDIARG_CREATE_CRYPTO_SESSION_POLICY_0030, D3D12DDIARG_CREATE_CRYPTO_SESSION_POLICY_0030 structure [Display Devices], d3d12umddi/D3D12DDIARG_CREATE_CRYPTO_SESSION_POLICY_0030, display.d3d12ddiarg-create-crypto-session-policy-0030
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,17 +50,6 @@ req.typenames: D3D12DDIARG_CREATE_CRYPTO_SESSION_POLICY_0030
 
 
 Creates a crypto session policy.
-
-
-## -syntax
-
-
-````
-typedef struct _D3D12DDIARG_CREATE_CRYPTO_SESSION_POLICY_0030 {
-  const void *  pKeyInfo;
-  UINT          KeyInfoSize;
-} D3D12DDIARG_CREATE_CRYPTO_SESSION_POLICY_0030, D3D12DDIARG_CREATE_CRYPTO_SESSION_POLICY_0030;
-````
 
 
 ## -struct-fields

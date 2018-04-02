@@ -7,7 +7,7 @@ old-location: netvista\ndis_nic_switch_delete_vport_parameters.htm
 old-project: netvista
 ms.assetid: 7cbdaa08-51c9-495d-a5c7-bb2c4009d7a4
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PNDIS_NIC_SWITCH_DELETE_VPORT_PARAMETERS, NDIS_NIC_SWITCH_DELETE_VPORT_PARAMETERS, NDIS_NIC_SWITCH_DELETE_VPORT_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_NIC_SWITCH_DELETE_VPORT_PARAMETERS, PNDIS_NIC_SWITCH_DELETE_VPORT_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_NIC_SWITCH_DELETE_VPORT_PARAMETERS, netvista.ndis_nic_switch_delete_vport_parameters, ntddndis/NDIS_NIC_SWITCH_DELETE_VPORT_PARAMETERS, ntddndis/PNDIS_NIC_SWITCH_DELETE_VPORT_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,18 +52,6 @@ req.typenames: NDIS_NIC_SWITCH_DELETE_VPORT_PARAMETERS, *PNDIS_NIC_SWITCH_DELETE
 The <b>NDIS_NIC_SWITCH_DELETE_VPORT_PARAMETERS</b> structure specifies the information about a virtual port (VPort) that will be deleted from a network adapter switch on the network adapter. 
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_NIC_SWITCH_DELETE_VPORT_PARAMETERS {
-  NDIS_OBJECT_HEADER       Header;
-  ULONG                    Flags;
-  NDIS_NIC_SWITCH_VPORT_ID VPortId;
-} NDIS_NIC_SWITCH_DELETE_VPORT_PARAMETERS, *PNDIS_NIC_SWITCH_DELETE_VPORT_PARAMETERS;
-````
-
-
 ## -struct-fields
 
 
@@ -71,7 +59,7 @@ typedef struct _NDIS_NIC_SWITCH_DELETE_VPORT_PARAMETERS {
 
 ### -field Header
 
-The type, revision, and size of the <b>NDIS_NIC_SWITCH_DELETE_VPORT_PARAMETERS</b> structure. This member is formatted as an <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
+The type, revision, and size of the <b>NDIS_NIC_SWITCH_DELETE_VPORT_PARAMETERS</b> structure. This member is formatted as an <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure.
 
 The miniport driver must set the <b>Type</b> member of <b>Header</b> to NDIS_OBJECT_TYPE_DEFAULT. To specify the version of the <b>NDIS_NIC_SWITCH_DELETE_VPORT_PARAMETERS</b> structure, the driver must set the <b>Revision</b> member of <b>Header</b> to the following value: 
 
@@ -109,15 +97,6 @@ The NDIS_NIC_SWITCH_DELETE_PORT_PARAMETERS structure is used in OID set requests
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451818">OID_NIC_SWITCH_DELETE_VPORT</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451816">OID_NIC_SWITCH_CREATE_VPORT</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
@@ -125,8 +104,16 @@ The NDIS_NIC_SWITCH_DELETE_PORT_PARAMETERS structure is used in OID set requests
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451816">OID_NIC_SWITCH_CREATE_VPORT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451818">OID_NIC_SWITCH_DELETE_VPORT</a>
  
 
  
-
 

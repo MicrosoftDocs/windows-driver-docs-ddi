@@ -55,17 +55,6 @@ req.product: Windows 10 or later.
 The <b>SetNamedValue</b> method sets the value of a property.
 
 
-## -syntax
-
-
-````
-HRESULT SetNamedValue(
-  [in]       LPCWSTR     pszName,
-  [in] const PROPVARIANT *pv
-);
-````
-
-
 ## -parameters
 
 
@@ -199,12 +188,11 @@ For more information, see <a href="https://docs.microsoft.com/en-us/windows-hard
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfnamedpropertystore.md">IWDFNamedPropertyStore</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560164">IWDFNamedPropertyStore</a>
  
 
  
-
 

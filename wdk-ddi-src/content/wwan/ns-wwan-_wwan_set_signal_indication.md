@@ -7,7 +7,7 @@ old-location: netvista\wwan_set_signal_indication.htm
 old-project: netvista
 ms.assetid: 266ec8f5-f6ec-47e5-b433-4f570f2d43d2
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PWWAN_SET_SIGNAL_INDICATION, PWWAN_SET_SIGNAL_INDICATION, PWWAN_SET_SIGNAL_INDICATION structure pointer [Network Drivers Starting with Windows Vista], WWAN_SET_SIGNAL_INDICATION, WWAN_SET_SIGNAL_INDICATION structure [Network Drivers Starting with Windows Vista], WwanRef_fa4b9dee-5b46-47f2-8674-d8fa78351d86.xml, _WWAN_SET_SIGNAL_INDICATION, netvista.wwan_set_signal_indication, wwan/PWWAN_SET_SIGNAL_INDICATION, wwan/WWAN_SET_SIGNAL_INDICATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -54,17 +54,6 @@ The WWAN_SET_SIGNAL_INDICATION structure represents the frequency of RSSI interv
   notifications.
 
 
-## -syntax
-
-
-````
-typedef struct _WWAN_SET_SIGNAL_INDICATION {
-  ULONG RssiInterval;
-  ULONG RssiThreshold;
-} WWAN_SET_SIGNAL_INDICATION, *PWWAN_SET_SIGNAL_INDICATION;
-````
-
-
 ## -struct-fields
 
 
@@ -104,13 +93,12 @@ The miniport driver can always switch to its device-specific default reporting i
 
 ## -see-also
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_set_signal_indication.md">
+
+
+
+<a href="https://msdn.microsoft.com/6ef6fdd4-7d52-436a-96ee-ed83fab33e7b">
    NDIS_WWAN_SET_SIGNAL_INDICATION</a>
-
-
-
  
 
  
-
 

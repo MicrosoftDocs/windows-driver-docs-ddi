@@ -7,7 +7,7 @@ old-location: storage\msiscsi_requesttimestatistics.htm
 old-project: storage
 ms.assetid: fb884cff-dedb-44cf-b9ea-306bfa66b06f
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PMSiSCSI_RequestTimeStatistics, MSiSCSI_RequestTimeStatistics, MSiSCSI_RequestTimeStatistics structure [Storage Devices], PMSiSCSI_RequestTimeStatistics, PMSiSCSI_RequestTimeStatistics structure pointer [Storage Devices], _MSiSCSI_RequestTimeStatistics, iscsiprf/MSiSCSI_RequestTimeStatistics, iscsiprf/PMSiSCSI_RequestTimeStatistics, storage.msiscsi_requesttimestatistics, structs-iSCSI_32f6d3e4-d3d4-431d-aff0-f956aa2c1594.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,21 +52,6 @@ req.typenames: MSiSCSI_RequestTimeStatistics, *PMSiSCSI_RequestTimeStatistics
 The MSiSCSI_RequestTimeStatistics structure is used by iSCSI initiators to report request time statistics.
 
 
-## -syntax
-
-
-````
-typedef struct _MSiSCSI_RequestTimeStatistics {
-  WCHAR     iSCSIName[223 + 1];
-  USHORT    CID;
-  ULONGLONG USID;
-  ULONGLONG UniqueAdapterId;
-  ULONG     MaximumProcessingTime;
-  ULONG     AverageProcessingTime;
-} MSiSCSI_RequestTimeStatistics, *PMSiSCSI_RequestTimeStatistics;
-````
-
-
 ## -struct-fields
 
 
@@ -89,7 +74,7 @@ The iSCSI session ID for this connection instance. This ID is an internal value 
 
 ### -field UniqueAdapterId
 
-A 64-bit integer that uniquely identifies an HBA initiator and a loaded instance of a storage miniport driver that manages the HBA. The initiator should use the address of the adapter extension or another address that the device driver owns to construct this identifier (ID). The initiator reports this value in the UniqueAdapterId member of the <a href="..\iscsimgt\ns-iscsimgt-_msiscsi_hbainformation.md">MSiSCSI_HBAInformation</a> structure.
+A 64-bit integer that uniquely identifies an HBA initiator and a loaded instance of a storage miniport driver that manages the HBA. The initiator should use the address of the adapter extension or another address that the device driver owns to construct this identifier (ID). The initiator reports this value in the UniqueAdapterId member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563012">MSiSCSI_HBAInformation</a> structure.
 
 
 ### -field MaximumProcessingTime
@@ -113,11 +98,6 @@ It is optional that you implement this class.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
-
-
-
-<a href="..\iscsimgt\ns-iscsimgt-_msiscsi_hbainformation.md">MSiSCSI_HBAInformation</a>
 
 
 
@@ -125,8 +105,12 @@ It is optional that you implement this class.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563012">MSiSCSI_HBAInformation</a>
  
 
  
-
 

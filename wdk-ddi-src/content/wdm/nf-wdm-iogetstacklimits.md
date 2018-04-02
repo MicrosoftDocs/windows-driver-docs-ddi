@@ -7,7 +7,7 @@ old-location: kernel\iogetstacklimits.htm
 old-project: kernel
 ms.assetid: aaa10cb2-16cb-40a8-ad72-9715da311957
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: IoGetStackLimits, IoGetStackLimits routine [Kernel-Mode Driver Architecture], k104_2688546a-d427-4d20-bc67-278b0fc20f45.xml, kernel.iogetstacklimits, wdm/IoGetStackLimits
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The <b>IoGetStackLimits</b> routine returns the boundaries of the current thread's stack frame.
 
 
-## -syntax
-
-
-````
-VOID IoGetStackLimits(
-  _Out_ PULONG_PTR LowLimit,
-  _Out_ PULONG_PTR HighLimit
-);
-````
-
-
 ## -parameters
 
 
@@ -101,16 +90,15 @@ In Windows Server 2003 Service Pack 1 (SP1) and later versions of Windows, calle
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iogetinitialstack.md">IoGetInitialStack</a>
 
 
 
-<a href="..\wdm\nf-wdm-iogetremainingstacksize.md">IoGetRemainingStackSize</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549247">IoGetInitialStack</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549286">IoGetRemainingStackSize</a>
  
 
  
-
 

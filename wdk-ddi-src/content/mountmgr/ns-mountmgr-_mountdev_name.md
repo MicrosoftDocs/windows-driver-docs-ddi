@@ -7,7 +7,7 @@ old-location: storage\mountdev_name.htm
 old-project: storage
 ms.assetid: 26f5e98d-0709-403a-abcf-776c117d4f38
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PMOUNTDEV_NAME, MOUNTDEV_NAME, MOUNTDEV_NAME structure [Storage Devices], PMOUNTDEV_NAME, PMOUNTDEV_NAME structure pointer [Storage Devices], _MOUNTDEV_NAME, mountmgr/MOUNTDEV_NAME, mountmgr/PMOUNTDEV_NAME, storage.mountdev_name, structs-mntmgr_b7eec4f5-e4fc-4931-82e5-c6ac5cd4b48f.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,17 +52,6 @@ req.typenames: MOUNTDEV_NAME, *PMOUNTDEV_NAME
 The MOUNTDEV_NAME structure holds the name of a device. 
 
 
-## -syntax
-
-
-````
-typedef struct _MOUNTDEV_NAME {
-  USHORT NameLength;
-  WCHAR  Name[1];
-} MOUNTDEV_NAME, *PMOUNTDEV_NAME;
-````
-
-
 ## -struct-fields
 
 
@@ -80,20 +69,19 @@ Contains a variable-sized array of wide characters that holds the name of the de
 
 ## -see-also
 
-<a href="..\mountdev\ni-mountdev-ioctl_mountdev_link_created.md">IOCTL_MOUNTDEV_LINK_CREATED</a>
 
 
 
-<a href="..\mountdev\ni-mountdev-ioctl_mountdev_link_deleted.md">IOCTL_MOUNTDEV_LINK_DELETED</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560434">IOCTL_MOUNTDEV_LINK_CREATED</a>
 
 
 
-<a href="..\mountmgr\ni-mountmgr-ioctl_mountdev_query_device_name.md">IOCTL_MOUNTDEV_QUERY_DEVICE_NAME</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560436">IOCTL_MOUNTDEV_LINK_DELETED</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560437">IOCTL_MOUNTDEV_QUERY_DEVICE_NAME</a>
  
 
  
-
 

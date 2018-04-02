@@ -7,7 +7,7 @@ old-location: kernel\physical_counter_resource_descriptor.htm
 old-project: kernel
 ms.assetid: 9b4c35a1-04b9-4d4d-9a57-2f5711ec7418
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*PPHYSICAL_COUNTER_RESOURCE_DESCRIPTOR, PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR, PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR structure [Kernel-Mode Driver Architecture], PPHYSICAL_COUNTER_RESOURCE_DESCRIPTOR, PPHYSICAL_COUNTER_RESOURCE_DESCRIPTOR structure pointer [Kernel-Mode Driver Architecture], _PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR, kernel.physical_counter_resource_descriptor, kstruct_c_d1ca3bce-f598-4c61-9832-defae021d224.xml, ntddk/PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR, ntddk/PPHYSICAL_COUNTER_RESOURCE_DESCRIPTOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,25 +52,6 @@ req.typenames: PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR, *PPHYSICAL_COUNTER_RESOURCE
 The <b>PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR</b> structure describes the counter resources available on the platform.
 
 
-## -syntax
-
-
-````
-typedef struct _PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR {
-  PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE Type;
-  ULONG                                     Flags;
-  union {
-    ULONG  CounterIndex;
-    ULONG  ExtendedRegisterAddress;
-    struct {
-      ULONG Begin;
-      ULONG End;
-    } Range;
-  } u;
-} PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR, *PPHYSICAL_COUNTER_RESOURCE_DESCRIPTOR;
-````
-
-
 ## -struct-fields
 
 
@@ -78,7 +59,7 @@ typedef struct _PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR {
 
 ### -field Type
 
-Indicates the type of counter resource described by the structure. Set this parameter to one of the following <a href="..\ntddk\ne-ntddk-_physical_counter_resource_descriptor_type.md">PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE</a> enumeration constants:
+Indicates the type of counter resource described by the structure. Set this parameter to one of the following <a href="https://msdn.microsoft.com/library/windows/hardware/ff558797">PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE</a> enumeration constants:
 
 <ul>
 <li>
@@ -142,23 +123,22 @@ The ending counter index of a block of contiguous counters.
 
 Most processors have performance monitor units that contain a number of hardware counters for measuring various aspects of system performance. The <b>PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR</b> structure describes a counter resource, which can be a single hardware counter, a block of contiguous counters, or a counter overflow interrupt. This structure's <b>Type</b> member indicates which type of counter resource is described by the structure.
 
-To specify a set of counter resources, a kernel-mode client can provide an array of <b>PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR</b> structures. A <a href="..\ntddk\ns-ntddk-_physical_counter_resource_list.md">PHYSICAL_COUNTER_RESOURCE_LIST</a> structure serves as a header for the array. The client can allocate and free the set of counter resources described by the array as a single unit.
+To specify a set of counter resources, a kernel-mode client can provide an array of <b>PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR</b> structures. A <a href="https://msdn.microsoft.com/library/windows/hardware/ff558798">PHYSICAL_COUNTER_RESOURCE_LIST</a> structure serves as a header for the array. The client can allocate and free the set of counter resources described by the array as a single unit.
 
 
 
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_physical_counter_resource_list.md">PHYSICAL_COUNTER_RESOURCE_LIST</a>
 
 
 
-<a href="..\ntddk\ne-ntddk-_physical_counter_resource_descriptor_type.md">PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558797">PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558798">PHYSICAL_COUNTER_RESOURCE_LIST</a>
  
 
  
-
 

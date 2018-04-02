@@ -52,19 +52,6 @@ req.product: Windows 10 or later.
 
 
 
-## -syntax
-
-
-````
-INT APIENTRY OEMCommandCallback(
-       PDEVOBJ                     pdevobj,
-       DWORD                       dwCallbackID,
-       DWORD                       dwCount,
-  _In_ _reads_opt_(dwCount) PDWORD pdwParams
-);
-````
-
-
 ## -parameters
 
 

@@ -53,17 +53,6 @@ req.typenames:
 The <b>KsFilterFactorySetDeviceClassesState</b> function enables or disables the device classes that have been registered by a given filter factory.
 
 
-## -syntax
-
-
-````
-NTSTATUS KsFilterFactorySetDeviceClassesState(
-  _In_ PKSFILTERFACTORY FilterFactory,
-  _In_ BOOLEAN          NewState
-);
-````
-
-
 ## -parameters
 
 
@@ -71,7 +60,7 @@ NTSTATUS KsFilterFactorySetDeviceClassesState(
 
 ### -param FilterFactory [in]
 
-A pointer to the <a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a> for which to change device class status.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562530">KSFILTERFACTORY</a> for which to change device class status.
 
 
 ### -param NewState [in]

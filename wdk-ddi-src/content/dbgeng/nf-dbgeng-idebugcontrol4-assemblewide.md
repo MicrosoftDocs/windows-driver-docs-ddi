@@ -7,7 +7,7 @@ old-location: debugger\assemblewide.htm
 old-project: debugger
 ms.assetid: 6ba291d7-c3e7-4f76-afc3-bf200bae2a8f
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: AssembleWide method [Windows Debugging], AssembleWide method [Windows Debugging], IDebugControl4 interface, AssembleWide,IDebugControl4.AssembleWide, IDebugControl4, IDebugControl4 interface [Windows Debugging], AssembleWide method, IDebugControl4::AssembleWide, dbgeng/IDebugControl4::AssembleWide, debugger.assemblewide
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,18 +50,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>AssembleWide</b> method assembles a single processor instruction.  The assembled instruction is placed in the target's memory.
-
-
-## -syntax
-
-
-````
-HRESULT AssembleWide(
-  [in]  ULONG64  Offset,
-  [in]  PCWSTR   Instr,
-  [out] PULONG64 EndOffset
-);
-````
 
 
 ## -parameters
@@ -130,11 +118,6 @@ For an overview of using assembly in debugger applications, see <a href="https:/
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545605">GetAssemblyOptions</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
 
 
 
@@ -142,8 +125,12 @@ For an overview of using assembly in debugger applications, see <a href="https:/
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545605">GetAssemblyOptions</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550526">IDebugControl4</a>
  
 
  
-
 

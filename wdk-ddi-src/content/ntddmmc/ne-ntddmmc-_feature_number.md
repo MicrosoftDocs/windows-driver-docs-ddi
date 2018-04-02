@@ -7,7 +7,7 @@ old-location: storage\feature_number.htm
 old-project: storage
 ms.assetid: f139da57-1527-476d-8e9f-0b96876adecf
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PFEATURE_NUMBER, FEATURE_NUMBER, FEATURE_NUMBER enumeration [Storage Devices], FeatureAACS, FeatureBDRPseudoOverwrite, FeatureBDRead, FeatureBDWrite, FeatureCDAudioAnalogPlay, FeatureCDRWMediaWriteSupport, FeatureCdMastering, FeatureCdRead, FeatureCdTrackAtOnce, FeatureCdrwCAVWrite, FeatureCore, FeatureDDCDRWWrite, FeatureDDCDRWrite, FeatureDDCDRead, FeatureDefectManagement, FeatureDiscControlBlocks, FeatureDvdCPRM, FeatureDvdCSS, FeatureDvdPlusR, FeatureDvdPlusRDualLayer, FeatureDvdPlusRW, FeatureDvdPlusRWDualLayer, FeatureDvdRead, FeatureDvdRecordableWrite, FeatureEmbeddedChanger, FeatureEnhancedDefectReporting, FeatureFirmwareDate, FeatureFormattable, FeatureHDDVDRead, FeatureHDDVDWrite, FeatureHybridDisc, FeatureIncrementalStreamingWritable, FeatureLayerJumpRecording, FeatureLogicalUnitSerialNumber, FeatureMediaSerialNumber, FeatureMicrocodeUpgrade, FeatureMorphing, FeatureMrw, FeatureMultiRead, FeaturePowerManagement, FeatureProfileList, FeatureRandomReadable, FeatureRandomWritable, FeatureRealTimeStreaming, FeatureRemovableMedium, FeatureRestrictedOverwrite, FeatureRigidRestrictedOverwrite, FeatureSMART, FeatureSectorErasable, FeatureTSR, FeatureTimeout, FeatureVCPS, FeatureWriteOnce, FeatureWriteProtect, PFEATURE_NUMBER, PFEATURE_NUMBER enumeration pointer [Storage Devices], _FEATURE_NUMBER, ntddmmc/FEATURE_NUMBER, ntddmmc/FeatureAACS, ntddmmc/FeatureBDRPseudoOverwrite, ntddmmc/FeatureBDRead, ntddmmc/FeatureBDWrite, ntddmmc/FeatureCDAudioAnalogPlay, ntddmmc/FeatureCDRWMediaWriteSupport, ntddmmc/FeatureCdMastering, ntddmmc/FeatureCdRead, ntddmmc/FeatureCdTrackAtOnce, ntddmmc/FeatureCdrwCAVWrite, ntddmmc/FeatureCore, ntddmmc/FeatureDDCDRWWrite, ntddmmc/FeatureDDCDRWrite, ntddmmc/FeatureDDCDRead, ntddmmc/FeatureDefectManagement, ntddmmc/FeatureDiscControlBlocks, ntddmmc/FeatureDvdCPRM, ntddmmc/FeatureDvdCSS, ntddmmc/FeatureDvdPlusR, ntddmmc/FeatureDvdPlusRDualLayer, ntddmmc/FeatureDvdPlusRW, ntddmmc/FeatureDvdPlusRWDualLayer, ntddmmc/FeatureDvdRead, ntddmmc/FeatureDvdRecordableWrite, ntddmmc/FeatureEmbeddedChanger, ntddmmc/FeatureEnhancedDefectReporting, ntddmmc/FeatureFirmwareDate, ntddmmc/FeatureFormattable, ntddmmc/FeatureHDDVDRead, ntddmmc/FeatureHDDVDWrite, ntddmmc/FeatureHybridDisc, ntddmmc/FeatureIncrementalStreamingWritable, ntddmmc/FeatureLayerJumpRecording, ntddmmc/FeatureLogicalUnitSerialNumber, ntddmmc/FeatureMediaSerialNumber, ntddmmc/FeatureMicrocodeUpgrade, ntddmmc/FeatureMorphing, ntddmmc/FeatureMrw, ntddmmc/FeatureMultiRead, ntddmmc/FeaturePowerManagement, ntddmmc/FeatureProfileList, ntddmmc/FeatureRandomReadable, ntddmmc/FeatureRandomWritable, ntddmmc/FeatureRealTimeStreaming, ntddmmc/FeatureRemovableMedium, ntddmmc/FeatureRestrictedOverwrite, ntddmmc/FeatureRigidRestrictedOverwrite, ntddmmc/FeatureSMART, ntddmmc/FeatureSectorErasable, ntddmmc/FeatureTSR, ntddmmc/FeatureTimeout, ntddmmc/FeatureVCPS, ntddmmc/FeatureWriteOnce, ntddmmc/FeatureWriteProtect, ntddmmc/PFEATURE_NUMBER, storage.feature_number, structs-CD-ROM_6d75ed9b-8d13-4715-ae9a-51bc2a6025f0.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,69 +50,6 @@ req.typenames: FEATURE_NUMBER, *PFEATURE_NUMBER
 
 
 The FEATURE_NUMBER enumeration provides a list of the features that are defined by the <i>SCSI Multimedia - 4 (MMC-4)</i> specification. 
-
-
-## -syntax
-
-
-````
-typedef enum _FEATURE_NUMBER { 
-  FeatureProfileList                   = 0x0000,
-  FeatureCore                          = 0x0001,
-  FeatureMorphing                      = 0x0002,
-  FeatureRemovableMedium               = 0x0003,
-  FeatureWriteProtect                  = 0x0004,
-  FeatureRandomReadable                = 0x0010,
-  FeatureMultiRead                     = 0x001D,
-  FeatureCdRead                        = 0x001E,
-  FeatureDvdRead                       = 0x001F,
-  FeatureRandomWritable                = 0x0020,
-  FeatureIncrementalStreamingWritable  = 0x0021,
-  FeatureSectorErasable                = 0x0022,
-  FeatureFormattable                   = 0x0023,
-  FeatureDefectManagement              = 0x0024,
-  FeatureWriteOnce                     = 0x0025,
-  FeatureRestrictedOverwrite           = 0x0026,
-  FeatureCdrwCAVWrite                  = 0x0027,
-  FeatureMrw                           = 0x0028,
-  FeatureEnhancedDefectReporting       = 0x0029,
-  FeatureDvdPlusRW                     = 0x002A,
-  FeatureDvdPlusR                      = 0x002B,
-  FeatureRigidRestrictedOverwrite      = 0x002C,
-  FeatureCdTrackAtOnce                 = 0x002D,
-  FeatureCdMastering                   = 0x002E,
-  FeatureDvdRecordableWrite            = 0x002F,
-  FeatureDDCDRead                      = 0x0030,
-  FeatureDDCDRWrite                    = 0x0031,
-  FeatureDDCDRWWrite                   = 0x0032,
-  FeatureLayerJumpRecording            = 0x0033,
-  FeatureCDRWMediaWriteSupport         = 0x0037,
-  FeatureBDRPseudoOverwrite            = 0x0038,
-  FeatureDvdPlusRWDualLayer            = 0x003A,
-  FeatureDvdPlusRDualLayer             = 0x003B,
-  FeatureBDRead                        = 0x0040,
-  FeatureBDWrite                       = 0x0041,
-  FeatureTSR                           = 0x0042,
-  FeatureHDDVDRead                     = 0x0050,
-  FeatureHDDVDWrite                    = 0x0051,
-  FeatureHybridDisc                    = 0x0080,
-  FeaturePowerManagement               = 0x0100,
-  FeatureSMART                         = 0x0101,
-  FeatureEmbeddedChanger               = 0x0102,
-  FeatureCDAudioAnalogPlay             = 0x0103,
-  FeatureMicrocodeUpgrade              = 0x0104,
-  FeatureTimeout                       = 0x0105,
-  FeatureDvdCSS                        = 0x0106,
-  FeatureRealTimeStreaming             = 0x0107,
-  FeatureLogicalUnitSerialNumber       = 0x0108,
-  FeatureMediaSerialNumber             = 0x0109,
-  FeatureDiscControlBlocks             = 0x010A,
-  FeatureDvdCPRM                       = 0x010B,
-  FeatureFirmwareDate                  = 0x010C,
-  FeatureAACS                          = 0x010D,
-  FeatureVCPS                          = 0x0110
-} FEATURE_NUMBER, *PFEATURE_NUMBER;
-````
 
 
 ## -enum-fields
@@ -374,12 +311,11 @@ Reserved 0x0111 - 0xfeff
 
 ## -see-also
 
-<a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553848">FEATURE_HEADER</a>
  
 
  
-
 

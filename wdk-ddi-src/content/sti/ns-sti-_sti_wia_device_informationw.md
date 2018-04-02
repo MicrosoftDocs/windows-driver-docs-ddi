@@ -53,27 +53,6 @@ req.product: Windows 10 or later.
 The STI_WIA_DEVICE_INFORMATION structure contains device information.
 
 
-## -syntax
-
-
-````
-typedef struct _STI_WIA_DEVICE_INFORMATION {
-  DWORD           dwSize;
-  STI_DEVICE_TYPE DeviceType;
-  TCHAR           szDeviceInternalName[STI_MAX_INTERNAL_NAME_LENGTH];
-  STI_DEV_CAPS    DeviceCapabilities;
-  DWORD           dwHardwareConfiguration;
-  LPTSTR          pszVendorDescription;
-  LPTSTR          pszDeviceDescription;
-  LPTSTR          pszPortName;
-  LPTSTR          pszPropProvider;
-  LPTSTR          pszLocalName;
-  LPTSTR          pszUiDll;
-  LPTSTR          pszServer;
-} STI_WIA_DEVICE_INFORMATION, *PSTI_WIA_DEVICE_INFORMATION;
-````
-
-
 ## -struct-fields
 
 
@@ -96,7 +75,7 @@ Character array containing the device's internal name string, used for reference
 
 ### -field DeviceCapabilities
 
-A structure of type <a href="..\sti\ns-sti-_sti_dev_caps.md">STI_DEV_CAPS</a>.
+A structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff548380">STI_DEV_CAPS</a>.
 
 
 ### -field dwHardwareConfiguration

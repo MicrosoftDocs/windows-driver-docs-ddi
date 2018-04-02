@@ -3,12 +3,12 @@ UID: NI:gnssdriver.IOCTL_GNSS_DELETE_GEOFENCE
 title: IOCTL_GNSS_DELETE_GEOFENCE
 author: windows-driver-content
 description: The IOCTL_GNSS_DELETE_GEOFENCE control code is used by the GNSS adapter to delete a previously created geofence.
-old-location: gnss\ioctl_gnss_delete_geofence.htm
-old-project: gnss
+old-location: sensors\ioctl_gnss_delete_geofence.htm
+old-project: sensors
 ms.assetid: BF50E28A-56CF-4718-93BB-CCC3DFE84072
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IOCTL_GNSS_DELETE_GEOFENCE, IOCTL_GNSS_DELETE_GEOFENCE control code [Sensor Devices], gnss.ioctl_gnss_delete_geofence, gnssdriver/IOCTL_GNSS_DELETE_GEOFENCE
+ms.date: 2/22/2018
+ms.keywords: IOCTL_GNSS_DELETE_GEOFENCE, IOCTL_GNSS_DELETE_GEOFENCE control code [Sensor Devices], gnssdriver/IOCTL_GNSS_DELETE_GEOFENCE, sensors.ioctl_gnss_delete_geofence
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -63,7 +63,7 @@ The <b>IOCTL_GNSS_DELETE_GEOFENCE</b> control code is used by the GNSS adapter t
 
 ### -input-buffer
 
-A pointer to a <a href="..\gnssdriver\ns-gnssdriver-gnss_geofence_delete_param.md">GNSS_GEOFENCE_DELETE_PARAM</a> structure that defines the geofence to be deleted.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn925168">GNSS_GEOFENCE_DELETE_PARAM</a> structure that defines the geofence to be deleted.
 
 
 
@@ -137,7 +137,6 @@ If the geofence is successfully removed, the driver returns STATUS_SUCCESS. If t
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
 
 
 
@@ -145,14 +144,15 @@ If the geofence is successfully removed, the driver returns STATUS_SUCCESS. If t
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548651">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548656">WdfIoTargetSendInternalIoctlSynchronously</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548660">WdfIoTargetSendIoctlSynchronously</a>
  
 
  

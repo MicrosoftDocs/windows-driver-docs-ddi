@@ -7,7 +7,7 @@ old-location: debugger\gettextreplacement.htm
 old-project: debugger
 ms.assetid: 8d5531ac-afa1-4928-8ea6-8be4663cf06a
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: GetTextReplacement method [Windows Debugging], GetTextReplacement method [Windows Debugging], IDebugControl2 interface, GetTextReplacement method [Windows Debugging], IDebugControl3 interface, GetTextReplacement,IDebugControl2.GetTextReplacement, IDebugControl2, IDebugControl2 interface [Windows Debugging], GetTextReplacement method, IDebugControl2::GetTextReplacement, IDebugControl3 interface [Windows Debugging], GetTextReplacement method, IDebugControl3::GetTextReplacement, IDebugControl_d21af006-aa5b-4faf-abba-3f28f338b6bd.xml, dbgeng/IDebugControl2::GetTextReplacement, dbgeng/IDebugControl3::GetTextReplacement, debugger.gettextreplacement
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,23 +51,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetTextReplacement</b>  method returns the value of a user-named alias or an automatic alias.  
-
-
-## -syntax
-
-
-````
-HRESULT GetTextReplacement(
-  [in, optional]  PCSTR  SrcText,
-  [in]            ULONG  Index,
-  [out, optional] PSTR   SrcBuffer,
-  [in]            ULONG  SrcBufferSize,
-  [out, optional] PULONG SrcSize,
-  [out, optional] PSTR   DstBuffer,
-  [in]            ULONG  DstBufferSize,
-  [out, optional] PULONG DstSize
-);
-````
 
 
 ## -parameters
@@ -156,15 +139,6 @@ For an overview of aliases used by the <a href="https://msdn.microsoft.com/fa52a
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553268">OutputTextReplacements</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549270">GetTextMacro</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538014">al (List Aliases)</a>
 
 
 
@@ -172,7 +146,19 @@ For an overview of aliases used by the <a href="https://msdn.microsoft.com/fa52a
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549270">GetTextMacro</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550512">IDebugControl2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550519">IDebugControl3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553268">OutputTextReplacements</a>
 
 
 
@@ -180,12 +166,8 @@ For an overview of aliases used by the <a href="https://msdn.microsoft.com/fa52a
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538014">al (List Aliases)</a>
  
 
  
-
 

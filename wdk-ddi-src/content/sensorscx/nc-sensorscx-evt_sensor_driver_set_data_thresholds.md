@@ -53,20 +53,6 @@ req.product: Windows 10 or later.
 This callback function handles IOCTLs outside of the class extension.
 
 
-## -prototype
-
-
-````
-NTSTATUS EvtSensorSetDataThresholds(
-  _In_ SENSOROBJECT Sensor,
-  _In_ WDFREQUEST   Request,
-  _In_ size_t       OutputBufferLength,
-  _In_ size_t       InputBufferLength,
-  _In_ ULONG        IoControlCode
-);
-````
-
-
 ## -parameters
 
 
@@ -86,16 +72,6 @@ A reference to a sensor object.
 
 
 
-#### - Request [in]
-
-A handle to a framework request object that represents the I/O request.
-
-
-#### - OutputBufferLength [in]
-
-The length of the output buffer (in bytes).
-
-
 #### - InputBufferLength [in]
 
 The length of the input buffer (in bytes).
@@ -104,6 +80,16 @@ The length of the input buffer (in bytes).
 #### - IoControlCode [in]
 
 The code that indicates which device I/O control function is to be executed.
+
+
+#### - OutputBufferLength [in]
+
+The length of the output buffer (in bytes).
+
+
+#### - Request [in]
+
+A handle to a framework request object that represents the I/O request.
 
 
 ## -returns

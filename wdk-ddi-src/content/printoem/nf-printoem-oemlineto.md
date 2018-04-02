@@ -53,24 +53,6 @@ req.product: Windows 10 or later.
 The <code>OEMLineTo</code> function draws a single, solid, integer-only cosmetic line.
 
 
-## -syntax
-
-
-````
-BOOL APIENTRY OEMLineTo(
-   SURFOBJ  *pso,
-   CLIPOBJ  *pco,
-   BRUSHOBJ *pbo,
-   LONG     x1,
-   LONG     y1,
-   LONG     x2,
-   LONG     y2,
-   RECTL    *prclBounds,
-   MIX      mix
-);
-````
-
-
 ## -parameters
 
 

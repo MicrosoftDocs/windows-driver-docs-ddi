@@ -7,7 +7,7 @@ old-location: kernel\rtlinttouint8.htm
 old-project: kernel
 ms.assetid: BD5F605A-0E0F-4D68-8905-6FCEC9DD7F15
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: RtlIntToUInt8, RtlIntToUInt8 function [Kernel-Mode Driver Architecture], kernel.rtlinttouint8, ntintsafe/RtlIntToUInt8
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,17 +50,6 @@ req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 
 
 Converts a value of type <b>INT</b> to a value of type <b>UINT8</b>.
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlIntToUInt8(
-  _In_  INT   iOperand,
-  _Out_ UINT8 *pui8Result
-);
-````
 
 
 ## -parameters

@@ -7,7 +7,7 @@ old-location: netvista\ndisclderegistersap.htm
 old-project: netvista
 ms.assetid: ee3eb668-04f5-4731-b0bd-5cc8a9d4407f
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NdisClDeregisterSap, NdisClDeregisterSap function [Network Drivers Starting with Windows Vista], condis_client_ref_44c25719-9fbb-496b-97f6-f897cfe2b346.xml, ndis/NdisClDeregisterSap, netvista.ndisclderegistersap
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,16 +53,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 <b>NdisClDeregisterSap</b> releases a previously registered SAP.
 
 
-## -syntax
-
-
-````
-NDIS_STATUS NdisClDeregisterSap(
-  _In_ NDIS_HANDLE NdisSapHandle
-);
-````
-
-
 ## -parameters
 
 
@@ -93,10 +83,10 @@ Specifies the handle returned by
 </td>
 <td width="60%">
 The call manager's 
-       <a href="..\ndis\nc-ndis-protocol_cm_deregister_sap.md">
+       <a href="https://msdn.microsoft.com/738c426e-aa4f-4f59-b955-fbf67071303f">
        ProtocolCmDeregisterSap</a> function has been called to complete the requested operation. NDIS calls
        the client's 
-       <a href="..\ndis\nc-ndis-protocol_cl_deregister_sap_complete.md">
+       <a href="https://msdn.microsoft.com/93f8f74a-8ad4-42ea-83cf-ddfcd7f55ce6">
        ProtocolClDeregisterSapComplete</a> function when this operation is completed.
 
 </td>
@@ -138,29 +128,28 @@ The client should consider the given
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_cm_deregister_sap.md">ProtocolCmDeregisterSap</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisclregistersap.md">NdisClRegisterSap</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561648">NdisClRegisterSap</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiscmregistersapcomplete.md">NdisCmRegisterSapComplete</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561689">NdisCmRegisterSapComplete</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_unbind_adapter_ex.md">ProtocolUnbindAdapterEx</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_cl_deregister_sap_complete.md">
+<a href="https://msdn.microsoft.com/93f8f74a-8ad4-42ea-83cf-ddfcd7f55ce6">
    ProtocolClDeregisterSapComplete</a>
 
 
 
+<a href="https://msdn.microsoft.com/738c426e-aa4f-4f59-b955-fbf67071303f">ProtocolCmDeregisterSap</a>
+
+
+
+<a href="https://msdn.microsoft.com/19fa7be2-acb9-42f6-bd9f-5be3e3c8b5fa">ProtocolUnbindAdapterEx</a>
  
 
  
-
 

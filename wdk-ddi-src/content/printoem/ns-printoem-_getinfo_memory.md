@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The GETINFO_MEMORY structure is used as input to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563594">UNIFONTOBJ_GetInfo</a> callback function.
 
 
-## -syntax
-
-
-````
-typedef struct _GETINFO_MEMORY {
-  DWORD dwSize;
-  DWORD dwRemainingMemory;
-} GETINFO_MEMORY, *PGETINFO_MEMORY;
-````
-
-
 ## -struct-fields
 
 
@@ -90,12 +79,11 @@ To obtain Unidrv's calculation of the amount of printer memory currently availab
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563594">UNIFONTOBJ_GetInfo</a>
-
-
-
  
 
  
-
 

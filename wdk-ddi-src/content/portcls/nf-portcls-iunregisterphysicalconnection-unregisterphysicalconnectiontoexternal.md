@@ -7,7 +7,7 @@ old-location: audio\iunregisterphysicalconnection_unregisterphysicalconnectionto
 old-project: audio
 ms.assetid: 250bf99c-d5fa-459b-bd94-d438368379f1
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/19/2018
 ms.keywords: IUnregisterPhysicalConnection, IUnregisterPhysicalConnection interface [Audio Devices], UnregisterPhysicalConnectionToExternal method, IUnregisterPhysicalConnection::UnregisterPhysicalConnectionToExternal, UnregisterPhysicalConnectionToExternal method [Audio Devices], UnregisterPhysicalConnectionToExternal method [Audio Devices], IUnregisterPhysicalConnection interface, UnregisterPhysicalConnectionToExternal,IUnregisterPhysicalConnection.UnregisterPhysicalConnectionToExternal, audio.iunregisterphysicalconnection_unregisterphysicalconnectiontoexternal, audmp-routines_9c455ca4-88c6-46a3-9ec6-a5f176802947.xml, portcls/IUnregisterPhysicalConnection::UnregisterPhysicalConnectionToExternal
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,21 +49,7 @@ req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ## -description
 
 
-The <code>UnregisterPhysicalConnectionToExternal</code> method deletes the registration of a physical connection that was registered by a previous call to <a href="..\portcls\nf-portcls-pcregisterphysicalconnectiontoexternal.md">PcRegisterPhysicalConnectionToExternal</a>.
-
-
-## -syntax
-
-
-````
-NTSTATUS UnregisterPhysicalConnectionToExternal(
-  [in] PDEVICE_OBJECT  DeviceObject,
-  [in] PUNKNOWN        FromUnknown,
-  [in] ULONG           FromPin,
-  [in] PUNICODE_STRING ToString,
-  [in] ULONG           ToPin
-);
-````
+The <code>UnregisterPhysicalConnectionToExternal</code> method deletes the registration of a physical connection that was registered by a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff537729">PcRegisterPhysicalConnectionToExternal</a>.
 
 
 ## -parameters
@@ -73,12 +59,12 @@ NTSTATUS UnregisterPhysicalConnectionToExternal(
 
 ### -param DeviceObject [in]
 
-Pointer to the device object for the adapter device. This parameter must point to a system structure of type <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>.
+Pointer to the device object for the adapter device. This parameter must point to a system structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>.
 
 
 ### -param FromUnknown [in]
 
-Pointer to the <a href="..\portcls\nn-portcls-iport.md">IPort</a> interface of a port driver object. The port driver object that is associated with <i>FromUnknown</i> is bound to the subdevice that supplies the connection's data source pin.
+Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536842">IPort</a> interface of a port driver object. The port driver object that is associated with <i>FromUnknown</i> is bound to the subdevice that supplies the connection's data source pin.
 
 
 ### -param FromPin [in]
@@ -116,24 +102,23 @@ For more information, see <a href="https://msdn.microsoft.com/d8ebd6d9-37ed-4890
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iport.md">IPort</a>
 
 
 
-<a href="..\portcls\nf-portcls-pcregisterphysicalconnectiontoexternal.md">PcRegisterPhysicalConnectionToExternal</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>
 
 
 
-<a href="..\portcls\nn-portcls-iunregisterphysicalconnection.md">IUnregisterPhysicalConnection</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536842">IPort</a>
 
 
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537022">IUnregisterPhysicalConnection</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537729">PcRegisterPhysicalConnectionToExternal</a>
  
 
  
-
 

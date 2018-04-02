@@ -7,7 +7,7 @@ old-location: display\d3dkmt_getmultisamplemethodlist.htm
 old-project: display
 ms.assetid: 138f6f75-3986-42f8-840c-d48edb271203
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMT_GETMULTISAMPLEMETHODLIST, D3DKMT_GETMULTISAMPLEMETHODLIST structure [Display Devices], OpenGL_Structs_ccb62d63-4a70-4fb4-b6db-d8a5e585b222.xml, _D3DKMT_GETMULTISAMPLEMETHODLIST, d3dkmthk/D3DKMT_GETMULTISAMPLEMETHODLIST, display.d3dkmt_getmultisamplemethodlist
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,22 +52,6 @@ req.typenames: D3DKMT_GETMULTISAMPLEMETHODLIST
 The D3DKMT_GETMULTISAMPLEMETHODLIST structure describes parameters to retrieve the list of multiple-sample methods for an allocation.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_GETMULTISAMPLEMETHODLIST {
-  D3DKMT_HANDLE                  hAdapter;
-  D3DDDI_VIDEO_PRESENT_SOURCE_ID VidPnSourceId;
-  UINT                           Width;
-  UINT                           Height;
-  D3DDDIFORMAT                   Format;
-  D3DKMT_MULTISAMPLEMETHOD       *pMethodList;
-  UINT                           MethodCount;
-} D3DKMT_GETMULTISAMPLEMETHODLIST;
-````
-
-
 ## -struct-fields
 
 
@@ -95,12 +79,12 @@ typedef struct _D3DKMT_GETMULTISAMPLEMETHODLIST {
 
 ### -field Format
 
-[in] A <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>-typed value that indicates the pixel format of the allocation.
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff544312">D3DDDIFORMAT</a>-typed value that indicates the pixel format of the allocation.
 
 
 ### -field pMethodList
 
-[out] An array of <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_multisamplemethod.md">D3DKMT_MULTISAMPLEMETHOD</a> structures that describe the list of multiple-sampling methods used for the allocation; otherwise, this member is <b>NULL</b>.
+[out] An array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff548098">D3DKMT_MULTISAMPLEMETHOD</a> structures that describe the list of multiple-sampling methods used for the allocation; otherwise, this member is <b>NULL</b>.
 
 
 ### -field MethodCount
@@ -119,20 +103,19 @@ If the runtime returns a non-<b>NULL</b> value in <b>pMethodList</b>, the runtim
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_multisamplemethod.md">D3DKMT_MULTISAMPLEMETHOD</a>
 
 
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtgetmultisamplemethodlist.md">D3DKMTGetMultisampleMethodList</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544312">D3DDDIFORMAT</a>
 
 
 
-<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546975">D3DKMTGetMultisampleMethodList</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548098">D3DKMT_MULTISAMPLEMETHOD</a>
  
 
  
-
 

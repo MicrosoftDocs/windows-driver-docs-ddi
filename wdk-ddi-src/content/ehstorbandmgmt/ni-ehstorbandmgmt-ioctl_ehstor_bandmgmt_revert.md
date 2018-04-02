@@ -7,7 +7,7 @@ old-location: storage\ioctl_ehstor_bandmgmt_revert.htm
 old-project: storage
 ms.assetid: 981655A8-B6DC-4720-8D2E-B42AA0859FB2
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_EHSTOR_BANDMGMT_REVERT, IOCTL_EHSTOR_BANDMGMT_REVERT control code [Storage Devices], ehstorbandmgmt/IOCTL_EHSTOR_BANDMGMT_REVERT, storage.ioctl_ehstor_bandmgmt_revert
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -216,23 +216,22 @@ One of the following values can be returned in the <b>Status</b> field.
 
 
 
-On successful return from an  <b>IOCTL_EHSTOR_BANDMGMT_REVERT</b> request, the storage device will return to an inactive security state and all band management IOCTLs, except for <a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_query_capabilities.md">IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES</a> and <a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_activate.md">IOCTL_EHSTOR_BANDMGMT_ACTIVATE</a>, become unavailable.
+On successful return from an  <b>IOCTL_EHSTOR_BANDMGMT_REVERT</b> request, the storage device will return to an inactive security state and all band management IOCTLs, except for <a href="https://msdn.microsoft.com/library/windows/hardware/hh451390">IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/hh451367">IOCTL_EHSTOR_BANDMGMT_ACTIVATE</a>, become unavailable.
 
 
 
 
 ## -see-also
 
-<a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_activate.md">IOCTL_EHSTOR_BANDMGMT_ACTIVATE</a>
 
 
 
-<a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_query_capabilities.md">IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451367">IOCTL_EHSTOR_BANDMGMT_ACTIVATE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451390">IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES</a>
  
 
  
-
 

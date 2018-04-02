@@ -7,7 +7,7 @@ old-location: netvista\protocolopenadaptercompleteex.htm
 old-project: netvista
 ms.assetid: 59d18822-8ce2-4506-90d7-9f1cdc7a9e10
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: PROTOCOL_OPEN_ADAPTER_COMPLETE_EX, ProtocolOpenAdapterCompleteEx, ProtocolOpenAdapterCompleteEx callback function [Network Drivers Starting with Windows Vista], ndis/ProtocolOpenAdapterCompleteEx, netvista.protocolopenadaptercompleteex, protocol_functions_ref_d47f5a23-aa11-4fc8-9dec-a1ecb3184d9a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,24 +51,10 @@ req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
 
 NDIS calls a protocol driver's 
   <i>ProtocolOpenAdapterCompleteEx</i> function to complete an open adapter operation for which the 
-  <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a> function returned
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff563715">NdisOpenAdapterEx</a> function returned
   NDIS_STATUS_PENDING.
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>PROTOCOL_OPEN_ADAPTER_COMPLETE_EX</b> type. For more
    information, see the following Examples section.</div><div> </div>
-
-## -prototype
-
-
-````
-PROTOCOL_OPEN_ADAPTER_COMPLETE_EX ProtocolOpenAdapterCompleteEx;
-
-VOID ProtocolOpenAdapterCompleteEx(
-  _In_ NDIS_HANDLE ProtocolBindingContext,
-  _In_ NDIS_STATUS Status
-)
-{ ... }
-````
-
 
 ## -parameters
 
@@ -105,8 +91,8 @@ None
 
 The 
     <i>ProtocolOpenAdapterCompleteEx</i> function is required. A protocol driver calls the 
-    <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a> function from its 
-    <a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a> function.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff563715">NdisOpenAdapterEx</a> function from its 
+    <a href="https://msdn.microsoft.com/1958722e-012e-4110-a82c-751744bcf9b5">ProtocolBindAdapterEx</a> function.
     NDIS calls the driver's 
     <i>ProtocolOpenAdapterCompleteEx</i> function after a pending open operation is complete.
 
@@ -125,7 +111,7 @@ If the
 If
     <i>ProtocolBindAdapterEx</i> returned NDIS_STATUS_PENDING,
     <i>ProtocolOpenAdapterCompleteEx</i> can call the 
-    <a href="..\ndis\nf-ndis-ndiscompletebindadapterex.md">
+    <a href="https://msdn.microsoft.com/e52c7aeb-bbd8-402e-94af-f74df6deb23c">
     NdisCompleteBindAdapterEx</a> function to complete the binding operation. In this case, 
     <i>ProtocolOpenAdapterCompleteEx</i> passes 
     <b>NdisCompleteBindAdapterEx</b> the 
@@ -180,20 +166,19 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561702">NdisCompleteBindAdapterEx</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiscompletebindadapterex.md">NdisCompleteBindAdapterEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563715">NdisOpenAdapterEx</a>
 
 
 
+<a href="https://msdn.microsoft.com/1958722e-012e-4110-a82c-751744bcf9b5">ProtocolBindAdapterEx</a>
  
 
  
-
 

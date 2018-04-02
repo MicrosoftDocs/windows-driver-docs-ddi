@@ -52,19 +52,6 @@ req.typenames: PosBarcodeScannerCapabilitiesType
 This structure defines the type of scanner capabilities that a device supports such as whether the device supports statistics reporting and image preview.
 
 
-## -syntax
-
-
-````
-typedef struct _PosBarcodeScannerCapabilitiesType {
-  UnifiedPosPowerReportingType PowerReportingType;
-  LONG                         IsStatisticsReportingSupported;
-  LONG                         IsStatisticsUpdatingSupported;
-  LONG                         IsImagePreviewSupported;
-} PosBarcodeScannerCapabilitiesType;
-````
-
-
 ## -struct-fields
 
 
@@ -72,17 +59,17 @@ typedef struct _PosBarcodeScannerCapabilitiesType {
 
 ### -field PowerReportingType
 
-A <a href="..\pointofservicecommontypes\ne-pointofservicecommontypes-driverunifiedpospowerreportingtype.md">UnifiedPosPowerReportingType</a> that indicates whether the device supports standard or advanced power reporting.
+A <a href="https://msdn.microsoft.com/e0263969-1c6a-4805-a647-d4b9df83ef71">UnifiedPosPowerReportingType</a> that indicates whether the device supports standard or advanced power reporting.
 
 
 ### -field IsStatisticsReportingSupported
 
-Indicates whether <a href="..\pointofservicedriverinterface\ni-pointofservicedriverinterface-ioctl_point_of_service_retrieve_statistics.md">IOCTL_POINT_OF_SERVICE_RETRIEVE_STATISTICS</a> is supported.
+Indicates whether <a href="https://msdn.microsoft.com/library/windows/hardware/dn772120">IOCTL_POINT_OF_SERVICE_RETRIEVE_STATISTICS</a> is supported.
 
 
 ### -field IsStatisticsUpdatingSupported
 
-Indicates whether <a href="..\pointofservicedriverinterface\ni-pointofservicedriverinterface-ioctl_point_of_service_update_statistics.md">IOCTL_POINT_OF_SERVICE_UPDATE_STATISTICS</a> is supported. 
+Indicates whether <a href="https://msdn.microsoft.com/library/windows/hardware/dn772126">IOCTL_POINT_OF_SERVICE_UPDATE_STATISTICS</a> is supported. 
 
 
 ### -field IsImagePreviewSupported

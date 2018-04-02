@@ -55,14 +55,6 @@ req.product: Windows 10 or later.
 The <b>GetType</b> method retrieves the type of a USB pipe.
 
 
-## -syntax
-
-
-````
-USBD_PIPE_TYPE  GetType();
-````
-
-
 ## -parameters
 
 
@@ -92,16 +84,15 @@ For a code example of how to use the <b>GetType</b> method, see <a href="https:/
 
 ## -see-also
 
-<a href="..\wudfusb\nn-wudfusb-iwdfusbtargetpipe.md">IWDFUsbTargetPipe</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560391">IWDFUsbTargetPipe</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560403">IWDFUsbTargetPipe::GetInformation</a>
-
-
-
  
 
  
-
 

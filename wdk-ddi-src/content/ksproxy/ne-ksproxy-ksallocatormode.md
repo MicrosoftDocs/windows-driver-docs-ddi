@@ -52,17 +52,6 @@ req.typenames: KSALLOCATORMODE
 
 
 
-## -syntax
-
-
-````
-typedef enum  { 
-  KsAllocatorMode_User,
-  KsAllocatorMode_Kernel
-} KSALLOCATORMODE;
-````
-
-
 ## -enum-fields
 
 

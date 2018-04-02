@@ -55,14 +55,6 @@ req.product: Windows 10 or later.
 The <b>GetInformation</b> method retrieves information that is associated with the completion of an I/O request.
 
 
-## -syntax
-
-
-````
-ULONG_PTR GetInformation();
-````
-
-
 ## -parameters
 
 
@@ -81,12 +73,11 @@ ULONG_PTR GetInformation();
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfrequestcompletionparams.md">IWDFRequestCompletionParams</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560292">IWDFRequestCompletionParams</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: storage\getfc4statistics_out.htm
 old-project: storage
 ms.assetid: fc747ff1-cc84-4863-a66a-ae172f45f2bd
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PGetFC4Statistics_OUT, GetFC4Statistics_OUT, GetFC4Statistics_OUT structure [Storage Devices], PGetFC4Statistics_OUT, PGetFC4Statistics_OUT structure pointer [Storage Devices], _GetFC4Statistics_OUT, hbapiwmi/GetFC4Statistics_OUT, hbapiwmi/PGetFC4Statistics_OUT, storage.getfc4statistics_out, structs-Fibre_2a49fe85-534d-42df-8d8f-d07d0c4a7193.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,17 +52,6 @@ req.typenames: GetFC4Statistics_OUT, *PGetFC4Statistics_OUT
 The GetFC4Statistics_OUT structure is used to report the output parameter data of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553949">GetFC4Statistics</a> WMI method to the WMI client.
 
 
-## -syntax
-
-
-````
-typedef struct _GetFC4Statistics_OUT {
-  ULONG              HBAStatus;
-  MSFC_FC4STATISTICS FC4Statistics;
-} GetFC4Statistics_OUT, *PGetFC4Statistics_OUT;
-````
-
-
 ## -struct-fields
 
 
@@ -75,7 +64,7 @@ Contains a value associated with the WMI class qualifier <a href="https://msdn.m
 
 ### -field FC4Statistics
 
-Contains a structure of type <a href="..\hbapiwmi\ns-hbapiwmi-_msfc_fc4statistics.md">MSFC_FC4STATISTICS</a> that holds statistics for the specified FC-4 protocol. 
+Contains a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff562492">MSFC_FC4STATISTICS</a> that holds statistics for the specified FC-4 protocol. 
 
 
 ## -remarks
@@ -91,12 +80,11 @@ The WMI tool suite generates a declaration of the GetFC4Statistics_OUT structure
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553949">GetFC4Statistics</a>
-
-
-
  
 
  
-
 

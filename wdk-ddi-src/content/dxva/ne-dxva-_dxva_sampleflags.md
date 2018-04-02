@@ -7,7 +7,7 @@ old-location: display\dxva_sampleflags.htm
 old-project: display
 ms.assetid: 24f77f16-e043-4d58-87ef-6c834e61cb5d
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXVA_SampleFlag_ColorData_Changed, DXVA_SampleFlag_DstRect_Changed, DXVA_SampleFlag_Palette_Changed, DXVA_SampleFlag_SrcRect_Changed, DXVA_SampleFlags, DXVA_SampleFlags enumeration [Display Devices], DXVA_SampleFlagsMask, _DXVA_SampleFlags, display.dxva_sampleflags, dxva/DXVA_SampleFlag_ColorData_Changed, dxva/DXVA_SampleFlag_DstRect_Changed, dxva/DXVA_SampleFlag_Palette_Changed, dxva/DXVA_SampleFlag_SrcRect_Changed, dxva/DXVA_SampleFlags, dxva/DXVA_SampleFlagsMask, dxvaref_b74a9819-950e-40cc-bf3c-eebb797862f7.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,20 +52,6 @@ req.typenames: DXVA_SampleFlags
 The DXVA_SampleFlags enumeration type contains a collection of flags that identify changes in the current sample frame from the previous sample frame.
 
 
-## -syntax
-
-
-````
-typedef enum _DXVA_SampleFlags { 
-  DXVA_SampleFlagsMask               = DXVABit(3)|DXVABit(2)|DXVABit(1)|DXVABit(0),
-  DXVA_SampleFlag_Palette_Changed    = 0x0001,
-  DXVA_SampleFlag_SrcRect_Changed    = 0x0002,
-  DXVA_SampleFlag_DstRect_Changed    = 0x0004,
-  DXVA_SampleFlag_ColorData_Changed  = 0x0008
-} DXVA_SampleFlags;
-````
-
-
 ## -enum-fields
 
 
@@ -98,7 +84,10 @@ Indicates that the color data of the sample frame changed.
 
 ## -see-also
 
-<a href="..\dxva\ns-dxva-_dxva_deinterlacebltex.md">DXVA_DeinterlaceBltEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563915">DXVA_DeinterlaceBltEx</a>
 
 
 
@@ -106,12 +95,8 @@ Indicates that the color data of the sample frame changed.
 
 
 
-<a href="..\dxva\ns-dxva-_dxva_videosample2.md">DXVA_VideoSample2</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564092">DXVA_VideoSample2</a>
  
 
  
-
 

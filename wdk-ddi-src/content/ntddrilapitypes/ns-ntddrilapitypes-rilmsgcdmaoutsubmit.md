@@ -7,7 +7,7 @@ old-location: netvista\rilmsgcdmaoutsubmit.htm
 old-project: netvista
 ms.assetid: 3ed93cff-7974-4cf9-9b89-f4a8e52c4c3d
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*LPRILMSGCDMAOUTSUBMIT, RILMSGCDMAOUTSUBMIT, RILMSGCDMAOUTSUBMIT structure [Network Drivers Starting with Windows Vista], netvista.rilmsgcdmaoutsubmit, ntddrilapitypes/RILMSGCDMAOUTSUBMIT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,38 +50,6 @@ req.typenames: RILMSGCDMAOUTSUBMIT, *LPRILMSGCDMAOUTSUBMIT
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef struct _RILMSGCDMAOUTSUBMIT {
-  RILADDRESS                raDestAddress;
-  RILSUBADDRESS             rsaDestSubaddr;
-  BOOL                      bDigit;
-  RILSYSTEMTIME             stValidityPeriodAbs;
-  RILSYSTEMTIME             stValidityPeriodRel;
-  RILSYSTEMTIME             stDeferredDelTimeAbs;
-  RILSYSTEMTIME             stDeferredDelTimeRel;
-  BOOL                      bDeliveryAckRequest;
-  BOOL                      bUserAckRequest;
-  BOOL                      bBearerReplyRequest;
-  DWORD                     dwReplySeqNumber;
-  RILMSGCDMAMSGDISPLAYMODE  dwMsgDisplayMode;
-  RILADDRESS                raCallBackNumber;
-  RILMSGCDMAMSGPRIORITY     dwMsgPriority;
-  RILMSGCDMAMSGPRIVACY      dwMsgPrivacy;
-  DWORD                     dwTeleservice;
-  DWORD                     dwMsgID;
-  RILMSGCDMALANGUAGE        dwMsgLang;
-  RILMSGCDMAMSGENCODING     dwMsgEncoding;
-  DWORD                     cbHdrLength;
-  DWORD                     cchMsgLength;
-  BYTE [140]                rgbHdr;
-  BYTE [256]                rgbMsg;
-} RILMSGCDMAOUTSUBMIT, RILMSGCDMAOUTSUBMIT;
-````
 
 
 ## -struct-fields

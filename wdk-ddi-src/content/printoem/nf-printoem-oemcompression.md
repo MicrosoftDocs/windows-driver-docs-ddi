@@ -52,20 +52,6 @@ req.product: Windows 10 or later.
 
 
 
-## -syntax
-
-
-````
-INT APIENTRY OEMCompression(
-        PDEVOBJ                        pdevobj,
-  _In_  _reads_bytes_(dwInLen) PBYTE   pInBuf,
-  _Out_ _writes_bytes_(dwOutLen) PBYTE pOutBuf,
-        DWORD                          dwInLen,
-        DWORD                          dwOutLen
-);
-````
-
-
 ## -parameters
 
 

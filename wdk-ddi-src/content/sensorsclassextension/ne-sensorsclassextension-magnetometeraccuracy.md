@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 Specifies the accuracy of the magnetometer.
 
 
-## -syntax
-
-
-````
-typedef enum _MagnetometerAccuracy { 
-  Unknown      = 0,
-  Unreliable   = 1,
-  Approximate  = 2,
-  High         = 3
-} MagnetometerAccuracy;
-````
-
-
 ## -enum-fields
 
 
@@ -118,12 +105,11 @@ Apps that need calibration may periodically ask the user to calibrate the device
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn946698">Sensor Properties</a>
-
-
-
  
 
  
-
 

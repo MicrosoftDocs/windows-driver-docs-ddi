@@ -2,7 +2,7 @@
 UID: NA:ucxusbdevice
 ms.assetid: 2cf71389-08f1-3c73-b478-7efa6045e05e
 ms.author: windowsdriverdev
-ms.date: 03/13/18
+ms.date: 02/27/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

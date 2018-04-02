@@ -7,7 +7,7 @@ old-location: buses\ioctl_ucmtcpci_port_controller_set_transmit.htm
 old-project: usbref
 ms.assetid: 5E833F26-2BEC-4021-8D19-F9EFD49C7584
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_TRANSMIT, IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_TRANSMIT control code [Buses], buses.ioctl_ucmtcpci_port_controller_set_transmit, ucmtcpciportcontrollerrequests/IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_TRANSMIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -60,12 +60,12 @@ Sets the TRANSMIT Register defined as per the Universal Serial Bus Type-C Port C
 
 ### -input-buffer
 
-A pointer to a <a href="..\ucmtcpciportcontrollerrequests\ns-ucmtcpciportcontrollerrequests-_ucmtcpci_port_controller_set_transmit_in_params.md">UCMTCPCI_PORT_CONTROLLER_SET_TRANSMIT_IN_PARAMS</a> structure that contains the value to set in the TRANSMIT Register. To get the structure, call <a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveinputbuffer.md">WdfRequestRetrieveInputBuffer</a> by passing the received framework request object. This structure is declared in UcmTcpciSpec.h.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/mt805887">UCMTCPCI_PORT_CONTROLLER_SET_TRANSMIT_IN_PARAMS</a> structure that contains the value to set in the TRANSMIT Register. To get the structure, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff550014">WdfRequestRetrieveInputBuffer</a> by passing the received framework request object. This structure is declared in UcmTcpciSpec.h.
 
 
 ### -input-buffer-length
 
-The size of the <a href="..\ucmtcpciportcontrollerrequests\ns-ucmtcpciportcontrollerrequests-_ucmtcpci_port_controller_set_transmit_in_params.md">UCMTCPCI_PORT_CONTROLLER_SET_TRANSMIT_IN_PARAMS</a> structure.
+The size of the <a href="https://msdn.microsoft.com/library/windows/hardware/mt805887">UCMTCPCI_PORT_CONTROLLER_SET_TRANSMIT_IN_PARAMS</a> structure.
 
 
 ### -output-buffer
@@ -113,14 +113,13 @@ The size of the <a href="..\ucmtcpciportcontrollerrequests\ns-ucmtcpciportcontro
 
 
 
-The UcmTcpciCx class extension sends this IOCTL request to set the TRANSMIT Register. The value to set is provided in the supplied structure. After setting the value in the register, client driver must call <a href="..\wdfrequest\nf-wdfrequest-wdfrequestcomplete.md">WdfRequestComplete</a> to complete the request.
+The UcmTcpciCx class extension sends this IOCTL request to set the TRANSMIT Register. The value to set is provided in the supplied structure. After setting the value in the register, client driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff549945">WdfRequestComplete</a> to complete the request.
 
 
 
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
 
 
 
@@ -128,16 +127,16 @@ The UcmTcpciCx class extension sends this IOCTL request to set the TRANSMIT Regi
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548651">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548656">WdfIoTargetSendInternalIoctlSynchronously</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548660">WdfIoTargetSendIoctlSynchronously</a>
  
 
  
-
 

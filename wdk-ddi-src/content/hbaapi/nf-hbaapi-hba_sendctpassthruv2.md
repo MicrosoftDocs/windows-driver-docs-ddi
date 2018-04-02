@@ -7,7 +7,7 @@ old-location: storage\hba_sendctpassthruv2.htm
 old-project: storage
 ms.assetid: 95526c2d-19bf-4f4a-abfa-e5be73c1a6a5
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: HBA_SendCTPassThruV2, HBA_SendCTPassThruV2 routine [Storage Devices], fibreHBA_rtns_8ed894f5-3f6c-4b71-a149-8e5624643aa0.xml, hbaapi/HBA_SendCTPassThruV2, storage.hba_sendctpassthruv2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,21 +52,6 @@ req.typenames: HBA_WWNTYPE
 The <b>HBA_SendCTPassThruV2</b> routine sends a common transport (CT) pass-through command through the indicated port. 
 
 
-## -syntax
-
-
-````
-HBA_STATUS HBA_API HBA_SendCTPassThruV2(
-  _In_    HBA_HANDLE HbaHandle,
-  _In_    HBA_WWN    HbaPortWWN,
-  _In_    void       *pReqBuffer,
-  _In_    HBA_UINT32 ReqBufferSize,
-  _Out_   void       *pRspBuffer,
-  _Inout_ HBA_UINT32 *RspBufferSize
-);
-````
-
-
 ## -parameters
 
 
@@ -106,7 +91,7 @@ TBD
 
 #### - HbaHandle [in]
 
-Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a> that identifies the HBA that will route the CT command. The HBA routes the CT command to the server that runs the service requested by the CT command. 
+Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a> that identifies the HBA that will route the CT command. The HBA routes the CT command to the server that runs the service requested by the CT command. 
 
 
 #### - RspBufferSize [in, out]
@@ -127,7 +112,7 @@ The <b>HBA_SendCTPassThruV2</b> routine returns a value of type <a href="https:/
 
 
 
-The <b>HBA_SendCTPassThruV2</b> library routine is identical to the <a href="..\hbaapi\nf-hbaapi-hba_sendctpassthru.md">HBA_SendCTPassThru</a> routine, except that <b>HBA_SendCTPassThruV2</b> allows the caller to specify the port through which the CT command will be issued. 
+The <b>HBA_SendCTPassThruV2</b> library routine is identical to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557207">HBA_SendCTPassThru</a> routine, except that <b>HBA_SendCTPassThruV2</b> allows the caller to specify the port through which the CT command will be issued. 
 
 The <b>HBA_SendCTPassThruV2</b> library routine serves a purpose very similar to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565409">SendCTPassThru</a> WMI method. 
 
@@ -138,11 +123,10 @@ A CT command can request services that distribute encryption keys, IP addresses,
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565409">SendCTPassThru</a>
 
 
 
-<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a>
 
 
 
@@ -150,12 +134,12 @@ A CT command can request services that distribute encryption keys, IP addresses,
 
 
 
-<a href="..\hbaapi\nf-hbaapi-hba_sendctpassthru.md">HBA_SendCTPassThru</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557207">HBA_SendCTPassThru</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565409">SendCTPassThru</a>
  
 
  
-
 

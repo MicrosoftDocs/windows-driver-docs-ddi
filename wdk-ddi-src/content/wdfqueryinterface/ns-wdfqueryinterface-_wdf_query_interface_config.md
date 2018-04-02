@@ -55,21 +55,6 @@ req.product: Windows 10 or later.
 The <b>WDF_QUERY_INTERFACE_CONFIG</b> structure describes a driver-defined interface.
 
 
-## -syntax
-
-
-````
-typedef struct _WDF_QUERY_INTERFACE_CONFIG {
-  ULONG                                          Size;
-  PINTERFACE                                     Interface;
-  const GUID                                     *InterfaceType;
-  BOOLEAN                                        SendQueryToParentStack;
-  PFN_WDF_DEVICE_PROCESS_QUERY_INTERFACE_REQUEST EvtDeviceProcessQueryInterfaceRequest;
-  BOOLEAN                                        ImportInterface;
-} WDF_QUERY_INTERFACE_CONFIG, *PWDF_QUERY_INTERFACE_CONFIG;
-````
-
-
 ## -struct-fields
 
 
@@ -82,7 +67,7 @@ The size, in bytes, of this structure.
 
 ### -field Interface
 
-A pointer to an <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a> structure that describes the driver-defined interface. 
+A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/dn895657">INTERFACE</a> structure that describes the driver-defined interface. 
 
 
 ### -field InterfaceType
@@ -92,7 +77,7 @@ A pointer to the GUID that identifies the interface.
 
 ### -field SendQueryToParentStack
 
-If <b>TRUE</b>, and if your driver specifies a device object that represents a physical device object (PDO) when it calls <a href="..\wdfqueryinterface\nf-wdfqueryinterface-wdfdeviceaddqueryinterface.md">WdfDeviceAddQueryInterface</a>, the framework sends requests for the interface to the top of the parent device's driver stack. If this member is <b>FALSE</b>, or if the device object does not represent a PDO, the framework does not send requests to the parent device's stack. For more information, see the following Remarks section.
+If <b>TRUE</b>, and if your driver specifies a device object that represents a physical device object (PDO) when it calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff545870">WdfDeviceAddQueryInterface</a>, the framework sends requests for the interface to the top of the parent device's driver stack. If this member is <b>FALSE</b>, or if the device object does not represent a PDO, the framework does not send requests to the parent device's stack. For more information, see the following Remarks section.
 
 
 ### -field EvtDeviceProcessQueryInterfaceRequest
@@ -111,9 +96,9 @@ If this member is <b>FALSE</b>, the interface supports one-way communication fro
 
 
 
-The <b>WDF_QUERY_INTERFACE_CONFIG</b> structure is used as input to the <a href="..\wdfqueryinterface\nf-wdfqueryinterface-wdfdeviceaddqueryinterface.md">WdfDeviceAddQueryInterface</a> method. 
+The <b>WDF_QUERY_INTERFACE_CONFIG</b> structure is used as input to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff545870">WdfDeviceAddQueryInterface</a> method. 
 
-For each driver-defined interface that your driver exports, you must allocate a WDF_QUERY_INTERFACE_CONFIG structure that represents the interface. Other drivers can request access to the interface by calling <a href="..\wdffdo\nf-wdffdo-wdffdoqueryforinterface.md">WdfFdoQueryForInterface</a>. 
+For each driver-defined interface that your driver exports, you must allocate a WDF_QUERY_INTERFACE_CONFIG structure that represents the interface. Other drivers can request access to the interface by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff547289">WdfFdoQueryForInterface</a>. 
 
 If you want your interface to support two-way communication between the requesting driver and your driver, set the <b>ImportInterface</b> member to <b>TRUE</b>. If <b>ImportInterface</b> is <b>TRUE</b>, the structure that is provided by the requesting driver can contain data that your driver can read. In this case:
 
@@ -123,7 +108,7 @@ The <a href="https://msdn.microsoft.com/b56fef85-4058-4942-90c0-36646164cd3e">Ev
 
 </li>
 <li>
-Because the <a href="https://msdn.microsoft.com/b56fef85-4058-4942-90c0-36646164cd3e">EvtDeviceProcessQueryInterfaceRequest</a> callback function provides the interface to the requesting driver, the <b>Interface</b> member of <b>WDF_QUERY_INTERFACE_CONFIG</b> can be <b>NULL</b>. If you provide a non-<b>NULL</b> pointer, the framework verifies that the size and version values that the requesting driver supplies are equal to or less than the values in your <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a> structure. If either of these values are greater, the framework rejects the request. If you do not provide a value for <b>Interface</b>, your <i>EvtDeviceProcessQueryInterfaceRequest</i> callback function must verify those values.
+Because the <a href="https://msdn.microsoft.com/b56fef85-4058-4942-90c0-36646164cd3e">EvtDeviceProcessQueryInterfaceRequest</a> callback function provides the interface to the requesting driver, the <b>Interface</b> member of <b>WDF_QUERY_INTERFACE_CONFIG</b> can be <b>NULL</b>. If you provide a non-<b>NULL</b> pointer, the framework verifies that the size and version values that the requesting driver supplies are equal to or less than the values in your <a href="https://msdn.microsoft.com/library/windows/hardware/dn895657">INTERFACE</a> structure. If either of these values are greater, the framework rejects the request. If you do not provide a value for <b>Interface</b>, your <i>EvtDeviceProcessQueryInterfaceRequest</i> callback function must verify those values.
 
 </li>
 </ul>
@@ -143,11 +128,11 @@ Additionally, the <b>Interface</b> member can be <b>NULL</b> if the value of the
 
 If the <b>Interface</b> member is non-<b>NULL</b>, the framework copies the value to internal storage space. Therefore, the driver can allocate the INTERFACE structure in local, temporary storage space.
 
-When your driver calls <a href="..\wdfqueryinterface\nf-wdfqueryinterface-wdfdeviceaddqueryinterface.md">WdfDeviceAddQueryInterface</a>, it can associate the interface with a framework device object that represents either a functional device object (FDO) or a physical device object (PDO). If the driver associates the interface with a PDO, it can set the <b>SendQueryToParentStack</b> member of the <b>WDF_QUERY_INTERFACE_CONFIG</b> structure to <b>TRUE</b>. When the framework intercepts a request for the interface, it checks the <b>SendQueryToParentStack</b> member and, if it is set to <b>TRUE</b>, the framework sends the request to the top of the driver stack of the PDO's parent. As a result, the request travels down two driver stacks: first, the stack that contains the driver that is requesting the interface and, second, the stack of the parent of the interface's device.
+When your driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff545870">WdfDeviceAddQueryInterface</a>, it can associate the interface with a framework device object that represents either a functional device object (FDO) or a physical device object (PDO). If the driver associates the interface with a PDO, it can set the <b>SendQueryToParentStack</b> member of the <b>WDF_QUERY_INTERFACE_CONFIG</b> structure to <b>TRUE</b>. When the framework intercepts a request for the interface, it checks the <b>SendQueryToParentStack</b> member and, if it is set to <b>TRUE</b>, the framework sends the request to the top of the driver stack of the PDO's parent. As a result, the request travels down two driver stacks: first, the stack that contains the driver that is requesting the interface and, second, the stack of the parent of the interface's device.
 
-The framework provides two reference/dereference methods that you can use with your interfaces by specifying their addresses for the <b>InterfaceReference</b> and <b>InterfaceDereference</b> members of the <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a> structure. For more information about these methods, see <a href="..\wdfqueryinterface\nf-wdfqueryinterface-wdfdeviceinterfacereferencenoop.md">WdfDeviceInterfaceReferenceNoOp</a> and <a href="..\wdfqueryinterface\nf-wdfqueryinterface-wdfdeviceinterfacedereferencenoop.md">WdfDeviceInterfaceDereferenceNoOp</a>.
+The framework provides two reference/dereference methods that you can use with your interfaces by specifying their addresses for the <b>InterfaceReference</b> and <b>InterfaceDereference</b> members of the <a href="https://msdn.microsoft.com/library/windows/hardware/dn895657">INTERFACE</a> structure. For more information about these methods, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff546796">WdfDeviceInterfaceReferenceNoOp</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff546790">WdfDeviceInterfaceDereferenceNoOp</a>.
 
-Drivers should initialize this structure by calling <a href="..\wdfqueryinterface\nf-wdfqueryinterface-wdf_query_interface_config_init.md">WDF_QUERY_INTERFACE_CONFIG_INIT</a>.
+Drivers should initialize this structure by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff552443">WDF_QUERY_INTERFACE_CONFIG_INIT</a>.
 
 For more information about driver-defined interfaces, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-driver-defined-interfaces">Using Driver-Defined Interfaces</a>.
 
@@ -156,27 +141,6 @@ For more information about driver-defined interfaces, see <a href="https://docs.
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
-
-
-
-<a href="..\wdfqueryinterface\nf-wdfqueryinterface-wdf_query_interface_config_init.md">WDF_QUERY_INTERFACE_CONFIG_INIT</a>
-
-
-
-<a href="..\wdfqueryinterface\nf-wdfqueryinterface-wdfdeviceinterfacedereferencenoop.md">WdfDeviceInterfaceDereferenceNoOp</a>
-
-
-
-<a href="..\wdfqueryinterface\nf-wdfqueryinterface-wdfdeviceinterfacereferencenoop.md">WdfDeviceInterfaceReferenceNoOp</a>
-
-
-
-<a href="..\wdffdo\nf-wdffdo-wdffdoqueryforinterface.md">WdfFdoQueryForInterface</a>
-
-
-
-<a href="..\wdfqueryinterface\nf-wdfqueryinterface-wdfdeviceaddqueryinterface.md">WdfDeviceAddQueryInterface</a>
 
 
 
@@ -184,8 +148,28 @@ For more information about driver-defined interfaces, see <a href="https://docs.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn895657">INTERFACE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552443">WDF_QUERY_INTERFACE_CONFIG_INIT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545870">WdfDeviceAddQueryInterface</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546790">WdfDeviceInterfaceDereferenceNoOp</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546796">WdfDeviceInterfaceReferenceNoOp</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547289">WdfFdoQueryForInterface</a>
  
 
  
-
 

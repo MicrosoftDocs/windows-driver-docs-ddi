@@ -7,7 +7,7 @@ old-location: netvista\ndk_logical_address_mapping.htm
 old-project: netvista
 ms.assetid: 7FB34813-5F89-4B9C-9594-B23E7D4736C6
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NDK_LOGICAL_ADDRESS_MAPPING, NDK_LOGICAL_ADDRESS_MAPPING structure [Network Drivers Starting with Windows Vista], PNDK_LOGICAL_ADDRESS_MAPPING, PNDK_LOGICAL_ADDRESS_MAPPING structure pointer [Network Drivers Starting with Windows Vista], _NDK_LOGICAL_ADDRESS_MAPPING, ndkpi/NDK_LOGICAL_ADDRESS_MAPPING, ndkpi/PNDK_LOGICAL_ADDRESS_MAPPING, netvista.ndk_logical_address_mapping
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,18 +52,6 @@ req.typenames: NDK_LOGICAL_ADDRESS_MAPPING
 The <b>NDK_LOGICAL_ADDRESS_MAPPING</b> structure contains an array of adapter logical addresses.
 
 
-## -syntax
-
-
-````
-typedef struct _NDK_LOGICAL_ADDRESS_MAPPING {
-  PVOID               AdapterContext;
-  ULONG               AdapterPageCount;
-  NDK_LOGICAL_ADDRESS AdapterPageArray[1];
-} NDK_LOGICAL_ADDRESS_MAPPING, *PNDK_LOGICAL_ADDRESS_MAPPING;
-````
-
-
 ## -struct-fields
 
 
@@ -91,23 +79,22 @@ The <b>NDK_LOGICAL_ADDRESS</b> datatype is defined as follows:
 
 
 
-<b>NDK_LOGICAL_ADDRESS_MAPPING</b> represents an adapter's view of physical memory. See <a href="..\ndkpi\nc-ndkpi-ndk_fn_build_lam.md">NDK_FN_BUILD_LAM</a> and <a href="..\ndkpi\nc-ndkpi-ndk_fn_release_lam.md">NDK_FN_RELEASE_LAM</a> for more information.
+<b>NDK_LOGICAL_ADDRESS_MAPPING</b> represents an adapter's view of physical memory. See <a href="https://msdn.microsoft.com/library/windows/hardware/hh439860">NDK_FN_BUILD_LAM</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/hh439910">NDK_FN_RELEASE_LAM</a> for more information.
 
 
 
 
 ## -see-also
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_build_lam.md">NDK_FN_BUILD_LAM</a>
 
 
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_release_lam.md">NDK_FN_RELEASE_LAM</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439860">NDK_FN_BUILD_LAM</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439910">NDK_FN_RELEASE_LAM</a>
  
 
  
-
 

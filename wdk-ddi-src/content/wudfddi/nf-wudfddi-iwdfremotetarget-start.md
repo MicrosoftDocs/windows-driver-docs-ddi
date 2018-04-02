@@ -55,14 +55,6 @@ req.product: Windows 10 or later.
 The <b>IWDFRemoteTarget::Start</b> method restarts a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/general-i-o-targets-in-umdf">remote I/O target</a> that is stopped.
 
 
-## -syntax
-
-
-````
-HRESULT Start();
-````
-
-
 ## -parameters
 
 
@@ -135,16 +127,15 @@ The following code example restarts a remote I/O target.
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfremotetarget.md">IWDFRemoteTarget</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560247">IWDFRemoteTarget</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560289">IWDFRemoteTarget::Stop</a>
-
-
-
  
 
  
-
 

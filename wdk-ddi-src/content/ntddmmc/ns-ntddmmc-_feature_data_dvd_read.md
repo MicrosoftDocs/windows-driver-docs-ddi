@@ -7,7 +7,7 @@ old-location: storage\feature_data_dvd_read.htm
 old-project: storage
 ms.assetid: 489d3edc-4966-481e-b5c8-6979173e9341
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PFEATURE_DATA_DVD_READ, FEATURE_DATA_DVD_READ, FEATURE_DATA_DVD_READ structure [Storage Devices], PFEATURE_DATA_DVD_READ, PFEATURE_DATA_DVD_READ structure pointer [Storage Devices], _FEATURE_DATA_DVD_READ, ntddmmc/FEATURE_DATA_DVD_READ, ntddmmc/PFEATURE_DATA_DVD_READ, storage.feature_data_dvd_read, structs-CD-ROM_94af17d0-72ec-4248-9035-4050f6e3c275.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,22 +52,6 @@ req.typenames: FEATURE_DATA_DVD_READ, *PFEATURE_DATA_DVD_READ
 The FEATURE_DATA_DVD_READ structure contains information about the DVD Read feature.
 
 
-## -syntax
-
-
-````
-typedef struct _FEATURE_DATA_DVD_READ {
-  FEATURE_HEADER Header;
-  UCHAR          Multi110  :1;
-  UCHAR          Reserved1  :7;
-  UCHAR          Reserved2;
-  UCHAR          DualDashR  :1;
-  UCHAR          Reserved3  :7;
-  UCHAR          Reserved4;
-} FEATURE_DATA_DVD_READ, *PFEATURE_DATA_DVD_READ;
-````
-
-
 ## -struct-fields
 
 
@@ -75,7 +59,7 @@ typedef struct _FEATURE_DATA_DVD_READ {
 
 ### -field Header
 
-Contains a <a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a> structure with header information for this feature descriptor. 
+Contains a <a href="https://msdn.microsoft.com/library/windows/hardware/ff553848">FEATURE_HEADER</a> structure with header information for this feature descriptor. 
 
 
 ### -field Multi110
@@ -102,23 +86,22 @@ Contains a <a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
 
 This structure holds data for the feature named "DVD Read" by the <i>SCSI Multimedia - 4 (MMC-4)</i> specification. Devices that support this feature can read DVD-specific information from the media.
 
-When queried, devices supporting this feature must return the information indicated in <a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>. No other feature-specific information is required. 
+When queried, devices supporting this feature must return the information indicated in <a href="https://msdn.microsoft.com/library/windows/hardware/ff553848">FEATURE_HEADER</a>. No other feature-specific information is required. 
 
 
 
 
 ## -see-also
 
-<a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
 
 
 
-<a href="..\ntddmmc\ne-ntddmmc-_feature_number.md">FEATURE_NUMBER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553848">FEATURE_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553850">FEATURE_NUMBER</a>
  
 
  
-
 

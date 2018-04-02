@@ -55,16 +55,6 @@ req.product: Windows 10 or later.
 The <b>OnSelfManagedIoStop</b> method is not used in the current version of the UMDF.
 
 
-## -syntax
-
-
-````
-HRESULT OnSelfManagedIoStop(
-  [in] IWDFDevice *pWdfDevice
-);
-````
-
-
 ## -parameters
 
 

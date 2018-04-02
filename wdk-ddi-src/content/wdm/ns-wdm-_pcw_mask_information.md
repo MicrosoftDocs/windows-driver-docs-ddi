@@ -50,22 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The PCW_MASK_INFORMATION structure supplies details about the notification to send to the provider. This information is passed as part of the <i>Info</i> parameter to the <a href="..\wdm\nc-wdm-pcw_callback.md">PcwCallback</a> function. This mask information is included in PCW_CALLBACK_INFORMATION.
-
-
-## -syntax
-
-
-````
-typedef struct _PCW_MASK_INFORMATION {
-  ULONG64          CounterMask;
-  PCUNICODE_STRING InstanceMask;
-  ULONG            InstanceId;
-  BOOLEAN          CollectMultiple;
-  PPCW_BUFFER      Buffer;
-  PKEVENT          CancelEvent;
-} PCW_MASK_INFORMATION, *PPCW_MASK_INFORMATION;
-````
+The PCW_MASK_INFORMATION structure supplies details about the notification to send to the provider. This information is passed as part of the <i>Info</i> parameter to the <a href="https://msdn.microsoft.com/5058fc17-1016-45bc-a6ea-5e2458824e7b">PcwCallback</a> function. This mask information is included in PCW_CALLBACK_INFORMATION.
 
 
 ## -struct-fields

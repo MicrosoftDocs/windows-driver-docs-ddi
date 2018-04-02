@@ -7,7 +7,7 @@ old-location: ifsk\rxcebuildtransport.htm
 old-project: ifsk
 ms.assetid: 019cc9b7-13f7-4925-af98-5df0e8556e1c
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: RxCeBuildTransport, RxCeBuildTransport function [Installable File System Drivers], ifsk.rxcebuildtransport, rxce/RxCeBuildTransport, rxref_8251916d-7a85-4e6d-8ca1-2deacf4a389a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,18 +51,6 @@ req.product: Windows 10 or later.
 
 
 <b>RxCeBuildTransport</b> binds an RDBSS transport object to a specified transport name.
-
-
-## -syntax
-
-
-````
-NTSTATUS RxCeBuildTransport(
-  _In_ PRXCE_TRANSPORT pTransport,
-  _In_ PUNICODE_STRING pTransportName,
-  _In_ ULONG           QualityOfService
-);
-````
 
 
 ## -parameters
@@ -142,12 +130,11 @@ The connection engine routines in RDBSS do not participate in the computation of
 
 ## -see-also
 
-<a href="..\rxce\nf-rxce-rxceteardowntransport.md">RxCeTearDownTransport</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554328">RxCeTearDownTransport</a>
  
 
  
-
 

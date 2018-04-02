@@ -55,18 +55,6 @@ req.product: Windows 10 or later.
 The <b>WDF_WRITE_REGISTER_ULONG</b> routine writes a ULONG value to the specified address.
 
 
-## -syntax
-
-
-````
-void WDF_WRITE_REGISTER_ULONG(
-  _In_ WDFDEVICE Device,
-  _In_ PULONG    Register,
-  _In_ ULONG     Value
-);
-````
-
-
 ## -parameters
 
 

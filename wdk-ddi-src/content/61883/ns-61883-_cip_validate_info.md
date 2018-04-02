@@ -52,19 +52,6 @@ req.typenames: CIP_VALIDATE_INFO, *PCIP_VALIDATE_INFO
 The CIP_VALIDATE_INFO structure contains information about the frame. 
 
 
-## -syntax
-
-
-````
-typedef struct _CIP_VALIDATE_INFO {
-  HANDLE     hConnect;
-  PVOID      Context;
-  CYCLE_TIME TimeStamp;
-  PUCHAR     Packet;
-} CIP_VALIDATE_INFO, *PCIP_VALIDATE_INFO;
-````
-
-
 ## -struct-fields
 
 
@@ -101,12 +88,11 @@ The IEC-61883 protocol driver allocates and initializes this structure from the 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537045">CIP_FRAME</a>
-
-
-
  
 
  
-
 

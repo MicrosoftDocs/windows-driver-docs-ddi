@@ -7,7 +7,7 @@ old-location: ifsk\fsrtlcheckoplock.htm
 old-project: ifsk
 ms.assetid: e1430ef2-fb94-4f0d-bdc8-59b423fe9c8c
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FsRtlCheckOplock, FsRtlCheckOplock routine [Installable File System Drivers], fsrtlref_c11dbb80-c7a8-437d-bb6b-661edcf2f24a.xml, ifsk.fsrtlcheckoplock, rxprocs/FsRtlCheckOplock
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,20 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>FsRtlCheckOplock</b> routine synchronizes the IRP for a file I/O operation with the file's current opportunistic lock (oplock) state. 
-
-
-## -syntax
-
-
-````
-NTSTATUS FsRtlCheckOplock(
-  _In_     POPLOCK                       Oplock,
-  _In_     PIRP                          Irp,
-  _In_opt_ PVOID                         Context,
-  _In_opt_ POPLOCK_WAIT_COMPLETE_ROUTINE CompletionRoutine,
-  _In_opt_ POPLOCK_FS_PREPOST_IRP        PostIrpRoutine
-);
-````
 
 
 ## -parameters
@@ -138,6 +124,16 @@ A context information pointer that was passed in the <i>Context</i> parameter to
 A pointer to the IRP for the I/O operation. 
 
 
+##### - CompletionRoutine.Context
+
+A context information pointer that was passed in the <i>Context</i> parameter to <b>FsRtlCheckOplock</b>. 
+
+
+##### - CompletionRoutine.Irp
+
+A pointer to the IRP for the I/O operation. 
+
+
 #### - Context [in, optional]
 
 A pointer to caller-defined context information to be passed to the callback routines that the <i>CompletionRoutine</i> and <i>PostIrpRoutine </i>parameters point to. 
@@ -150,7 +146,7 @@ A pointer to the IRP for the I/O operation.
 
 #### - Oplock [in]
 
-An opaque opportunistic lock pointer for the file. This pointer must have been initialized by a previous call to <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializeoplock.md">FsRtlInitializeOplock</a>. 
+An opaque opportunistic lock pointer for the file. This pointer must have been initialized by a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff546150">FsRtlInitializeOplock</a>. 
 
 
 #### - PostIrpRoutine [in, optional]
@@ -184,6 +180,16 @@ A context information pointer that was passed in the <i>Context</i> parameter to
 
 
 #### Irp
+
+A pointer to the IRP for the I/O operation. 
+
+
+##### - PostIrpRoutine.Context
+
+A context information pointer that was passed in the <i>Context</i> parameter to <b>FsRtlCheckOplock</b>. 
+
+
+##### - PostIrpRoutine.Irp
 
 A pointer to the IRP for the I/O operation. 
 
@@ -224,22 +230,17 @@ IRP_MJ_WRITE
 
 For detailed information about opportunistic locks, see the Microsoft Windows SDK documentation. 
 
-Minifilters should call <a href="..\fltkernel\nf-fltkernel-fltcheckoplock.md">FltCheckOplock</a> instead of <b>FsRtlCheckOplock</b>. 
+Minifilters should call <a href="https://msdn.microsoft.com/library/windows/hardware/ff541844">FltCheckOplock</a> instead of <b>FsRtlCheckOplock</b>. 
 
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545518">FSCTL_REQUEST_FILTER_OPLOCK</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializeoplock.md">FsRtlInitializeOplock</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545538">FSCTL_REQUEST_OPLOCK_LEVEL_1</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545462">FSCTL_OPBATCH_ACK_CLOSE_PENDING</a>
 
 
 
@@ -251,27 +252,7 @@ Minifilters should call <a href="..\fltkernel\nf-fltkernel-fltcheckoplock.md">Fl
 
 
 
-<a href="..\rxprocs\nf-rxprocs-fsrtloplockisfastiopossible.md">FsRtlOplockIsFastIoPossible</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltcheckoplock.md">FltCheckOplock</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtluninitializeoplock.md">FsRtlUninitializeOplock</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545462">FSCTL_OPBATCH_ACK_CLOSE_PENDING</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545546">FSCTL_REQUEST_OPLOCK_LEVEL_2</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlcurrentbatchoplock.md">FsRtlCurrentBatchOplock</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545485">FSCTL_OPLOCK_BREAK_NOTIFY</a>
 
 
 
@@ -279,16 +260,40 @@ Minifilters should call <a href="..\fltkernel\nf-fltkernel-fltcheckoplock.md">Fl
 
 
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtloplockfsctrl~r2.md">FsRtlOplockFsctrl</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545518">FSCTL_REQUEST_FILTER_OPLOCK</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545485">FSCTL_OPLOCK_BREAK_NOTIFY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545538">FSCTL_REQUEST_OPLOCK_LEVEL_1</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545546">FSCTL_REQUEST_OPLOCK_LEVEL_2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541844">FltCheckOplock</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545825">FsRtlCurrentBatchOplock</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546150">FsRtlInitializeOplock</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547112">FsRtlOplockFsctrl</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547120">FsRtlOplockIsFastIoPossible</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547328">FsRtlUninitializeOplock</a>
  
 
  
-
 

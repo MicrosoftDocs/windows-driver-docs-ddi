@@ -52,26 +52,6 @@ req.typenames: CLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT, *PCLIENT_CONTROLL
 The <b>CLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT</b> structure contains a set of general-purpose I/O (GPIO) controller attributes that were requested by the GPIO framework extension (GpioClx).
 
 
-## -syntax
-
-
-````
-typedef struct _CLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT {
-  USHORT Version;
-  USHORT Size;
-  union {
-    CLIENT_QUERY_BANK_POWER_INFORMATION_OUTPUT BankPowerInformation;
-    struct {
-      ULONG ResourceMapping[ANYSIZE_ARRAY];
-    } BankInterruptBinding;
-    struct {
-      BOOLEAN Mapping[ANYSIZE_ARRAY];
-    } ControllerFunctionBankMapping;
-  };
-} CLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT, *PCLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT;
-````
-
-
 ## -struct-fields
 
 
@@ -157,11 +137,6 @@ The optional <i>OutputBuffer</i> parameter of the <a href="https://msdn.microsof
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh698241">CLIENT_QuerySetControllerInformation</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh698242">CLIENT_QUERY_BANK_POWER_INFORMATION_OUTPUT</a>
 
 
 
@@ -169,8 +144,12 @@ The optional <i>OutputBuffer</i> parameter of the <a href="https://msdn.microsof
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh698242">CLIENT_QUERY_BANK_POWER_INFORMATION_OUTPUT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh698241">CLIENT_QuerySetControllerInformation</a>
  
 
  
-
 

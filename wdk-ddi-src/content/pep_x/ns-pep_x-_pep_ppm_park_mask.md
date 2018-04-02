@@ -7,7 +7,7 @@ old-location: kernel\pep_ppm_park_mask.htm
 old-project: kernel
 ms.assetid: 528576FD-BDB2-4772-9151-A1C855BA953E
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*PPEP_PPM_PARK_MASK, PEP_PPM_PARK_MASK, PEP_PPM_PARK_MASK structure [Kernel-Mode Driver Architecture], PPEP_PPM_PARK_MASK, PPEP_PPM_PARK_MASK structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_PARK_MASK, kernel.pep_ppm_park_mask, pepfx/PEP_PPM_PARK_MASK, pepfx/PPEP_PPM_PARK_MASK"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,18 +52,6 @@ req.typenames: PEP_PPM_PARK_MASK, *PPEP_PPM_PARK_MASK, PEP_PPM_PARK_MASK, *PPEP_
 The <b>PEP_PROCESSOR_PARK_MASK</b> structure contains the current core parking mask.
 
 
-## -syntax
-
-
-````
-typedef struct _PEP_PPM_PARK_MASK {
-  ULONG                                              Count;
-  ULONGLONG                                          EvaluationTime;
-  _Field_size_full_(Count) PPEP_PROCESSOR_PARK_STATE Processors;
-} PEP_PPM_PARK_MASK, *PPEP_PPM_PARK_MASK;
-````
-
-
 ## -struct-fields
 
 
@@ -99,18 +87,27 @@ The Processors array is guaranteed to contain the processors in increasing order
 
 
 
+##### - Processors.On input
+
+Indicates the OS parking preference for each processor.
+
+
+##### - Processors.On output
+
+Returns the PEP parking preference for each processor.
+
+
 ## -see-also
+
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt186768">PEP_NOTIFY_PPM_PARK_MASK notification</a>
 
 
 
-<a href="..\pepfx\ns-pepfx-_pep_processor_park_state.md">PEP_PROCESSOR_PARK_STATE</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186838">PEP_PROCESSOR_PARK_STATE</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: ifsk\srv_open_ecp_context.htm
 old-project: ifsk
 ms.assetid: 6860f512-758d-4a75-88e4-17310b3e6349
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSRV_OPEN_ECP_CONTEXT, ECP_Structures_1a5afc2a-f4a5-4f86-ac30-2e206778acc0.xml, PSRV_OPEN_ECP_CONTEXT, PSRV_OPEN_ECP_CONTEXT structure pointer [Installable File System Drivers], SRV_OPEN_ECP_CONTEXT, SRV_OPEN_ECP_CONTEXT structure [Installable File System Drivers], _SRV_OPEN_ECP_CONTEXT, ifsk.srv_open_ecp_context, ntifs/PSRV_OPEN_ECP_CONTEXT, ntifs/SRV_OPEN_ECP_CONTEXT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,20 +52,6 @@ req.typenames: SRV_OPEN_ECP_CONTEXT, *PSRV_OPEN_ECP_CONTEXT
 The SRV_OPEN_ECP_CONTEXT structure is used by a server to conditionally open files in response to client requests. 
 
 
-## -syntax
-
-
-````
-typedef struct _SRV_OPEN_ECP_CONTEXT {
-  PUNICODE_STRING       ShareName;
-  PSOCKADDR_STORAGE_NFS SocketAddress;
-  BOOLEAN               OplockBlockState;
-  BOOLEAN               OplockAppState;
-  BOOLEAN               OplockFinalState;
-} SRV_OPEN_ECP_CONTEXT, *PSRV_OPEN_ECP_CONTEXT;
-````
-
-
 ## -struct-fields
 
 
@@ -73,7 +59,7 @@ typedef struct _SRV_OPEN_ECP_CONTEXT {
 
 ### -field ShareName
 
-A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that supplies the share name for the server that contains the files to be open. 
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure that supplies the share name for the server that contains the files to be open. 
 
 
 ### -field SocketAddress
@@ -123,16 +109,15 @@ The oplock state values (<b>OplockBlockState</b>, <b>OplockAppState</b>, and <b>
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff570825">SOCKADDR_STORAGE</a>
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
  
 
  
-
 

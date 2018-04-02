@@ -7,7 +7,7 @@ old-location: display\querydlistforapplication1.htm
 old-project: display
 ms.assetid: 4F27E884-D21C-483D-9E53-02D405D02F10
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3DDDI_QUERYDLISTFORAPPLICATION1, QueryDListForApplication, QueryDListForApplication callback function [Display Devices], d3dumddi/QueryDListForApplication, display.querydlistforapplication1
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,21 +52,6 @@ req.typenames: DXGK_PTE
 Called during Microsoft Direct3D initialization on a <a href="https://msdn.microsoft.com/ECBB0AA7-50C2-41C8-9DC6-6EEFC5CEEB15">hybrid system</a> to determine which GPU an application should run on. A <i>dList</i> is a list of applications that need cross-adapter shared surfaces for high-performance rendering on the discrete GPU.
 
 
-## -prototype
-
-
-````
-PFND3DDDI_QUERYDLISTFORAPPLICATION1 QueryDListForApplication;
-
-HRESULT APIENTRY* QueryDListForApplication(
-  _Out_ BOOL               *pDefaultToDiscrete,
-  _In_  HANDLE             hAdapter,
-  _In_  PFND3DDDI_ESCAPECB pfnEscapeCB
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -75,10 +60,10 @@ HRESULT APIENTRY* QueryDListForApplication(
 ### -param *
 
 
-### -param HANDLE
+### -param Arg1
 
 
-### -param PFND3DDDI_ESCAPECB
+### -param Arg2
 
 
 
@@ -99,7 +84,7 @@ If <b>TRUE</b>, the application should be run on the discrete GPU. Otherwise, th
 
 #### - pfnEscapeCB [in]
 
-A function pointer to a <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_escapecb.md">pfnEscapeCb</a> callback function that shares info with the display miniport driver.
+A function pointer to a <a href="https://msdn.microsoft.com/66c0347f-2cf3-42fc-8641-47c731e958c9">pfnEscapeCb</a> callback function that shares info with the display miniport driver.
 
 
 ## -returns
@@ -124,12 +109,11 @@ For more general information on hybrid systems, see <a href="https://msdn.micros
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_escapecb.md">pfnEscapeCb</a>
 
 
 
+<a href="https://msdn.microsoft.com/66c0347f-2cf3-42fc-8641-47c731e958c9">pfnEscapeCb</a>
  
 
  
-
 

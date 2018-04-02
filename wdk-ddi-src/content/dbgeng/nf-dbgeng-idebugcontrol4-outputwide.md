@@ -7,7 +7,7 @@ old-location: debugger\outputwide.htm
 old-project: debugger
 ms.assetid: d89ed38b-f2ab-495f-b7e6-7f58b9adc958
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: ControlledOutputWide method [Windows Debugging], ControlledOutputWide method [Windows Debugging], IDebugControl4 interface, IDebugControl4, IDebugControl4 interface [Windows Debugging], ControlledOutputWide method, IDebugControl4::ControlledOutputWide, IDebugControl4::OutputWide, OutputWide,IDebugControl4.OutputWide, dbgeng/IDebugControl4::ControlledOutputWide, debugger.outputwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,18 +50,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>OutputWide</b>  method formats a string and send the result to <a href="https://msdn.microsoft.com/7a23ee09-0314-400a-8152-eef49a225427">output callbacks</a> that have been registered with the engine's clients.
-
-
-## -syntax
-
-
-````
-HRESULT ControlledOutputWide(
-  [in] ULONG  Mask,
-  [in] ULONG  Format,
-  [in] PCWSTR ...
-);
-````
 
 
 ## -parameters
@@ -304,7 +292,6 @@ When generating very large output strings, it is possible to reach the limits of
 
 ## -see-also
 
-<a href="..\wdbgexts\nc-wdbgexts-pwindbg_output_routine.md">dprintf</a>
 
 
 
@@ -312,20 +299,20 @@ When generating very large output strings, it is possible to reach the limits of
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553280">OutputVaList</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539248">ControlledOutput</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550526">IDebugControl4</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553280">OutputVaList</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542750">dprintf</a>
  
 
  
-
 

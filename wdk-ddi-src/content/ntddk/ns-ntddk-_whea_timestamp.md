@@ -52,27 +52,6 @@ req.typenames: WHEA_TIMESTAMP, *PWHEA_TIMESTAMP
 The WHEA_TIMESTAMP union describes the time that an error was reported to the operating system.
 
 
-## -syntax
-
-
-````
-typedef union _WHEA_TIMESTAMP {
-  struct {
-    ULONGLONG Seconds  :8;
-    ULONGLONG Minutes  :8;
-    ULONGLONG Hours  :8;
-    ULONGLONG Precise  :1;
-    ULONGLONG Reserved  :7;
-    ULONGLONG Day  :8;
-    ULONGLONG Month  :8;
-    ULONGLONG Year  :8;
-    ULONGLONG Century  :8;
-  };
-  LARGE_INTEGER AsLARGE_INTEGER;
-} WHEA_TIMESTAMP, *PWHEA_TIMESTAMP;
-````
-
-
 ## -struct-fields
 
 
@@ -139,19 +118,18 @@ The year within the century.
 
 
 
-A WHEA_TIMESTAMP union is contained within the <a href="..\ntddk\ns-ntddk-_whea_error_record_header.md">WHEA_ERROR_RECORD_HEADER</a> structure.
+A WHEA_TIMESTAMP union is contained within the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560487">WHEA_ERROR_RECORD_HEADER</a> structure.
 
 
 
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_whea_error_record_header.md">WHEA_ERROR_RECORD_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560487">WHEA_ERROR_RECORD_HEADER</a>
  
 
  
-
 

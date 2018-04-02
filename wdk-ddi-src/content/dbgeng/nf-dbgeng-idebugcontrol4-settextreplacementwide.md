@@ -7,7 +7,7 @@ old-location: debugger\settextreplacementwide.htm
 old-project: debugger
 ms.assetid: bbd3fbc0-6dbe-4200-8fe8-e7ca9e4c9478
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: IDebugControl4, IDebugControl4 interface [Windows Debugging], SetTextReplacementWide method, IDebugControl4::SetTextReplacementWide, SetTextReplacementWide method [Windows Debugging], SetTextReplacementWide method [Windows Debugging], IDebugControl4 interface, SetTextReplacementWide,IDebugControl4.SetTextReplacementWide, dbgeng/IDebugControl4::SetTextReplacementWide, debugger.settextreplacementwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,17 +50,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>SetTextReplacementWide</b>  method sets the value of a user-named alias.  
-
-
-## -syntax
-
-
-````
-HRESULT SetTextReplacementWide(
-  [in]           PCWSTR SrcText,
-  [in, optional] PCWSTR DstText
-);
-````
 
 
 ## -parameters
@@ -123,23 +112,6 @@ For an overview of aliases used by the <a href="https://msdn.microsoft.com/fa52a
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556809">SetTextMacro</a>
-
-
-
-<a href="https://msdn.microsoft.com/6e42122b-5a18-403b-a19a-1346bea8da12">as, aS (Set Alias)</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553268">OutputTextReplacements</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537997">ad (Delete Alias)</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
 
 
 
@@ -147,12 +119,28 @@ For an overview of aliases used by the <a href="https://msdn.microsoft.com/fa52a
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550526">IDebugControl4</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553268">OutputTextReplacements</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554548">RemoveTextReplacements</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556809">SetTextMacro</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537997">ad (Delete Alias)</a>
+
+
+
+<a href="https://msdn.microsoft.com/6e42122b-5a18-403b-a19a-1346bea8da12">as, aS (Set Alias)</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: storage\hba_libraryattributes.htm
 old-project: storage
 ms.assetid: 9dc03c5d-5e14-4399-b282-f0385a85a16c
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PHBA_LIBRARYATTRIBUTES, HBA_LIBRARYATTRIBUTES, HBA_LIBRARYATTRIBUTES structure [Storage Devices], HBA_LibraryAttributes, HBA_LibraryAttributes structure [Storage Devices], PHBA_LIBRARYATTRIBUTES, PHBA_LIBRARYATTRIBUTES structure pointer [Storage Devices], hbaapi/HBA_LibraryAttributes, hbaapi/PHBA_LIBRARYATTRIBUTES, storage.hba_libraryattributes, structs-Fibre_1be227ba-622d-475f-811e-2d65de5cbaa8.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,20 +50,6 @@ req.typenames: HBA_LIBRARYATTRIBUTES, *PHBA_LIBRARYATTRIBUTES
 
 
 The HBA_LibraryAttributes structure holds the library attributes.
-
-
-## -syntax
-
-
-````
-typedef struct HBA_LibraryAttributes {
-  HBA_BOOLEAN final;
-  char        LibPath[256];
-  char        VName[256];
-  char        VVersion[256];
-  struct tm  build_date;
-} HBA_LIBRARYATTRIBUTES, *PHBA_LIBRARYATTRIBUTES;
-````
 
 
 ## -struct-fields

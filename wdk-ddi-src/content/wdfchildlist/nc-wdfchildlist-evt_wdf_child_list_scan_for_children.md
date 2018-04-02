@@ -55,19 +55,6 @@ req.product: Windows 10 or later.
 A driver's <i>EvtChildListScanForChildren</i> event callback function must report all of the child devices that are present. 
 
 
-## -prototype
-
-
-````
-EVT_WDF_CHILD_LIST_SCAN_FOR_CHILDREN EvtChildListScanForChildren;
-
-VOID EvtChildListScanForChildren(
-  _In_ WDFCHILDLIST ChildList
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -91,7 +78,7 @@ None
 
 
 
-If a bus driver is using <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/dynamic-enumeration">dynamic enumeration</a>, it can register an <i>EvtChildListScanForChildren</i> callback function by calling <a href="..\wdffdo\nf-wdffdo-wdffdoinitsetdefaultchildlistconfig.md">WdfFdoInitSetDefaultChildListConfig</a> or <a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistcreate.md">WdfChildListCreate</a>.
+If a bus driver is using <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/dynamic-enumeration">dynamic enumeration</a>, it can register an <i>EvtChildListScanForChildren</i> callback function by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff547258">WdfFdoInitSetDefaultChildListConfig</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff545615">WdfChildListCreate</a>.
 
 If a driver provides an <i>EvtChildListScanForChildren</i> callback function, the framework calls it each time the parent device enters its working (D0) state. (For more information about when this callback function is called, see <a href="https://msdn.microsoft.com/9175ce95-196d-44bd-b31c-88386fa0d3d3">PnP and Power Management Scenarios</a>.)
 
@@ -99,15 +86,15 @@ The driver must report all of its child devices by doing the following:
 
 <ol>
 <li>
-Calling <a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistbeginscan.md">WdfChildListBeginScan</a>, which marks all previously reported child devices as missing. 
+Calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff545608">WdfChildListBeginScan</a>, which marks all previously reported child devices as missing. 
 
 </li>
 <li>
-Detecting child devices and calling <a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistaddorupdatechilddescriptionaspresent.md">WdfChildListAddOrUpdateChildDescriptionAsPresent</a> for each detected device.
+Detecting child devices and calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff545591">WdfChildListAddOrUpdateChildDescriptionAsPresent</a> for each detected device.
 
 </li>
 <li>
-Calling <a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistendscan.md">WdfChildListEndScan</a>, which informs the PnP manager of the reported child devices. 
+Calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff545626">WdfChildListEndScan</a>, which informs the PnP manager of the reported child devices. 
 
 </li>
 </ol>
@@ -158,28 +145,27 @@ The <b>EVT_WDF_CHILD_LIST_SCAN_FOR_CHILDREN</b> function type is defined in the 
 
 ## -see-also
 
-<a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistaddorupdatechilddescriptionaspresent.md">WdfChildListAddOrUpdateChildDescriptionAsPresent</a>
 
 
 
-<a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistbeginscan.md">WdfChildListBeginScan</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545591">WdfChildListAddOrUpdateChildDescriptionAsPresent</a>
 
 
 
-<a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistcreate.md">WdfChildListCreate</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545608">WdfChildListBeginScan</a>
 
 
 
-<a href="..\wdffdo\nf-wdffdo-wdffdoinitsetdefaultchildlistconfig.md">WdfFdoInitSetDefaultChildListConfig</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545615">WdfChildListCreate</a>
 
 
 
-<a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistendscan.md">WdfChildListEndScan</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545626">WdfChildListEndScan</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547258">WdfFdoInitSetDefaultChildListConfig</a>
  
 
  
-
 

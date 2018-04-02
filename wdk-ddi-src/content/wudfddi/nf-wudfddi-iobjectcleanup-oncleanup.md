@@ -55,16 +55,6 @@ req.product: Windows 10 or later.
 The <b>OnCleanup</b> method releases any references to a WDF object to prevent interface leakage.
 
 
-## -syntax
-
-
-````
-void OnCleanup(
-  [in] IWDFObject *pWdfObject
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +62,7 @@ void OnCleanup(
 
 ### -param pWdfObject [in]
 
-A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfobject.md">IWDFObject</a> interface of a object that is about to be released.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560200">IWDFObject</a> interface of a object that is about to be released.
 
 
 ## -returns
@@ -90,7 +80,7 @@ None
 
 The framework calls <b>OnCleanup</b> as part of a WDF object destruction sequence. The framework calls <b>OnCleanup</b> before the WDF object is destroyed.
 
-A driver can register the <a href="..\wudfddi\nn-wudfddi-iobjectcleanup.md">IObjectCleanup</a> interface when the driver calls any of the following methods that creates a WDF object or that assigns a context to the WDF object: 
+A driver can register the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556754">IObjectCleanup</a> interface when the driver calls any of the following methods that creates a WDF object or that assigns a context to the WDF object: 
 
 <ul>
 <li>
@@ -141,27 +131,14 @@ A driver can register the <a href="..\wudfddi\nn-wudfddi-iobjectcleanup.md">IObj
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iobjectcleanup.md">IObjectCleanup</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556754">IObjectCleanup</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557020">IWDFDevice::CreateIoQueue</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560208">IWDFObject::AssignContext</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558905">IWDFDriver::CreateWdfMemory</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558906">IWDFDriver::CreateWdfObject</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558902">IWDFDriver::CreatePreallocatedWdfMemory</a>
 
 
 
@@ -173,12 +150,24 @@ A driver can register the <a href="..\wudfddi\nn-wudfddi-iobjectcleanup.md">IObj
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfobject.md">IWDFObject</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558902">IWDFDriver::CreatePreallocatedWdfMemory</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558905">IWDFDriver::CreateWdfMemory</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558906">IWDFDriver::CreateWdfObject</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560200">IWDFObject</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560208">IWDFObject::AssignContext</a>
  
 
  
-
 

@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 For internal use only.
 
 
-## -syntax
-
-
-````
-NTSTATUS WdfDeviceRetrieveCompanionTarget(
-  _In_  WDFDEVICE          Device,
-  _Out_ WDFCOMPANIONTARGET *CompanionTarget
-);
-````
-
-
 ## -parameters
 
 

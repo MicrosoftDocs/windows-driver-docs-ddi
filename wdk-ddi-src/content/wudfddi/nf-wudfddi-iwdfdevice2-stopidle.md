@@ -55,16 +55,6 @@ req.product: Windows 10 or later.
 The <b>StopIdle</b> method informs the framework that the device must be placed in its working (D0) power state.
 
 
-## -syntax
-
-
-````
-HRESULT StopIdle(
-  [in] BOOL WaitForD0
-);
-````
-
-
 ## -parameters
 
 
@@ -152,7 +142,7 @@ For more information about <b>StopIdle</b> and <a href="https://msdn.microsoft.c
 
 #### Examples
 
-The following code example obtains the <a href="..\wudfddi\nn-wudfddi-iwdfdevice2.md">IWDFDevice2</a> interface and then calls <b>StopIdle</b>. <b>StopIdle</b> will return after the device enters the D0 device power state.
+The following code example obtains the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556918">IWDFDevice2</a> interface and then calls <b>StopIdle</b>. <b>StopIdle</b> will return after the device enters the D0 device power state.
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -182,16 +172,15 @@ The following code example obtains the <a href="..\wudfddi\nn-wudfddi-iwdfdevice
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556918">IWDFDevice2</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556943">IWDFDevice2::ResumeIdle</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice2.md">IWDFDevice2</a>
-
-
-
  
 
  
-
 

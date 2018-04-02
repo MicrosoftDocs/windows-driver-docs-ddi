@@ -7,7 +7,7 @@ old-location: buses\evt_ufx_device_test_mode_set.htm
 old-project: usbref
 ms.assetid: 24B17B8E-C2F0-4CA8-AA9D-5EE86EB20CCC
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: EVT_UFX_DEVICE_TEST_MODE_SET, EvtUfxDeviceTestModeSet, EvtUfxDeviceTestModeSet callback function [Buses], PFN_UFX_DEVICE_TEST_MODE_SET, PFN_UFX_DEVICE_TEST_MODE_SET callback function pointer [Buses], buses.evt_ufx_device_test_mode_set, ufxclient/EvtUfxDeviceTestModeSet
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,22 +53,6 @@ req.product: Windows 10 or later.
 The client driver's implementation to set the test mode of the function controller.
 
 
-## -prototype
-
-
-````
-EVT_UFX_DEVICE_TEST_MODE_SET EvtUfxDeviceTestModeSet;
-
-void EvtUfxDeviceTestModeSet(
-  _In_ UFXDEVICE UfxDevice,
-  _In_ ULONG     TestMode
-)
-{ ... }
-
-typedef EVT_UFX_DEVICE_TEST_MODE_SET PFN_UFX_DEVICE_TEST_MODE_SET;
-````
-
-
 ## -parameters
 
 
@@ -100,7 +84,7 @@ Test mode selector value as defined by the USB 2.0 Specification.  These values 
 
 #### - UfxDevice [in]
 
-The handle to a  USB device object that the client driver received in a previous call to  the <a href="..\ufxclient\nf-ufxclient-ufxdevicecreate.md">UfxDeviceCreate</a>.
+The handle to a  USB device object that the client driver received in a previous call to  the <a href="https://msdn.microsoft.com/library/windows/hardware/mt187951">UfxDeviceCreate</a>.
 
 
 ## -returns
@@ -116,9 +100,9 @@ This callback function does not return a value.
 
 
 
-The client driver for the function host controller registers its <i>EVT_UFX_DEVICE_TEST_MODE_SET</i> implementation with the USB function class extension (UFX) by calling the <a href="..\ufxclient\nf-ufxclient-ufxdevicecreate.md">UfxDeviceCreate</a> method.
+The client driver for the function host controller registers its <i>EVT_UFX_DEVICE_TEST_MODE_SET</i> implementation with the USB function class extension (UFX) by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/mt187951">UfxDeviceCreate</a> method.
 
-The client driver indicates completion of this event by calling the <a href="..\ufxclient\nf-ufxclient-ufxdeviceeventcomplete.md">UfxDeviceEventComplete</a> method.
+The client driver indicates completion of this event by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/mt187952">UfxDeviceEventComplete</a> method.
 
 
 #### Examples
@@ -178,16 +162,15 @@ Arguments:
 
 ## -see-also
 
-<a href="..\ufxclient\nf-ufxclient-ufxdeviceeventcomplete.md">UfxDeviceEventComplete</a>
 
 
 
-<a href="..\ufxclient\nf-ufxclient-ufxdevicecreate.md">UfxDeviceCreate</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt187951">UfxDeviceCreate</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt187952">UfxDeviceEventComplete</a>
  
 
  
-
 

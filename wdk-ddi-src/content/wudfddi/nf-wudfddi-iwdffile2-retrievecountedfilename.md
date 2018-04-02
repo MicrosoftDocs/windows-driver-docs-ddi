@@ -55,17 +55,6 @@ req.product: Windows 10 or later.
 The <b>RetrieveCountedFileName</b> method retrieves the full counted file name for a file that is associated with a device. 
 
 
-## -syntax
-
-
-````
-HRESULT RetrieveCountedFileName(
-  [out]     WCHAR *pCountedFileName,
-  [in, out] DWORD *pdwCountedFileNameLength
-);
-````
-
-
 ## -parameters
 
 
@@ -165,7 +154,7 @@ The driver calls <b>RetrieveCountedFileName</b> again to obtain the file name st
 
 #### Examples
 
-The following code example obtains the <a href="..\wudfddi\nn-wudfddi-iwdffile2.md">IWDFFile2</a> interface from the <a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a> interface that a driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff556841">IQueueCallbackCreate::OnCreateFile</a> callback function receives. The example calls <b>RetrieveCountedFileName</b> twice--once to obtain the file name's length and once to retrieve the file name string.
+The following code example obtains the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558915">IWDFFile2</a> interface from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558912">IWDFFile</a> interface that a driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff556841">IQueueCallbackCreate::OnCreateFile</a> callback function receives. The example calls <b>RetrieveCountedFileName</b> twice--once to obtain the file name's length and once to retrieve the file name string.
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -233,16 +222,15 @@ CMyQueue::OnCreateFile(
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdffile2.md">IWDFFile2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558915">IWDFFile2</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558939">IWDFFile::RetrieveFileName</a>
-
-
-
  
 
  
-
 

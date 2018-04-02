@@ -52,16 +52,6 @@ req.typenames: KSWAVE_COMPATCAPS, *PKSWAVE_COMPATCAPS
 The KSWAVE_COMPATCAPS structure is used to describe the compatible capabilities of a device.
 
 
-## -syntax
-
-
-````
-typedef struct {
-  ULONG ulDeviceType;
-} KSWAVE_COMPATCAPS, *PKSWAVE_COMPATCAPS;
-````
-
-
 ## -struct-fields
 
 
@@ -111,12 +101,11 @@ This structure is used by the <a href="https://msdn.microsoft.com/library/window
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566516">KSPROPERTY_WAVE_COMPATIBLE_CAPABILITIES</a>
-
-
-
  
 
  
-
 

@@ -52,16 +52,6 @@ req.typenames: EXpsFontRestriction
 The <b>SetFontContent</b> method sets the content of the font.
 
 
-## -syntax
-
-
-````
-HRESULT SetFontContent(
-  [in] const wchar_t *contentType
-);
-````
-
-
 ## -parameters
 
 

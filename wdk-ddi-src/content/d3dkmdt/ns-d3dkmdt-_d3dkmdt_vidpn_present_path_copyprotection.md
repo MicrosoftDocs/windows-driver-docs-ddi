@@ -7,7 +7,7 @@ old-location: display\d3dkmdt_vidpn_present_path_copyprotection.htm
 old-project: display
 ms.assetid: 661e70c6-d99e-4c5a-ad88-3dd854747de4
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION, D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION structure [Display Devices], DmStructs_512b61d6-627d-4423-93ba-0f28ac340e51.xml, _D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION, d3dkmdt/D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION, display.d3dkmdt_vidpn_present_path_copyprotection
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,19 +52,6 @@ req.typenames: D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION
 The D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION structure contains information about the copy protection that is supported (as well as the copy protection that is currently active) on a particular VidPN present path.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION {
-  D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_TYPE    CopyProtectionType;
-  UINT                                              APSTriggerBits;
-  BYTE                                              OEMCopyProtection[D3DKMDT_MACROVISION_OEMCOPYPROTECTION_SIZE];
-  D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_SUPPORT CopyProtectionSupport;
-} D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION;
-````
-
-
 ## -struct-fields
 
 
@@ -72,7 +59,7 @@ typedef struct _D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION {
 
 ### -field CopyProtectionType
 
-A value from the <a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_vidpn_present_path_copyprotection_type.md">D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_TYPE</a> enumeration that indicates the type of copy protection that is active on the path.
+A value from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546692">D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_TYPE</a> enumeration that indicates the type of copy protection that is active on the path.
 
 
 ### -field APSTriggerBits
@@ -87,14 +74,14 @@ Reserved for future use.
 
 ### -field CopyProtectionSupport
 
-A <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_present_path_copyprotection_support.md">D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_SUPPORT</a> structure that indicates the types of copy protection that are supported by the path.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff546677">D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_SUPPORT</a> structure that indicates the types of copy protection that are supported by the path.
 
 
 ## -remarks
 
 
 
-The <b>CopyProtection</b> member of the  <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_present_path.md">D3DKMDT_VIDPN_PRESENT_PATH</a> structure is a D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION structure.
+The <b>CopyProtection</b> member of the  <a href="https://msdn.microsoft.com/library/windows/hardware/ff546647">D3DKMDT_VIDPN_PRESENT_PATH</a> structure is a D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION structure.
 
 
 

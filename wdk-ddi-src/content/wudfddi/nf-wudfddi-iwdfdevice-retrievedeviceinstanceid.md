@@ -55,17 +55,6 @@ req.product: Windows 10 or later.
 The <b>RetrieveDeviceInstanceId</b> method retrieves the identifier of an instance of a device.
 
 
-## -syntax
-
-
-````
-HRESULT RetrieveDeviceInstanceId(
-  [out, optional] PWSTR Buffer,
-  [in, out]       DWORD *pdwSizeInChars
-);
-````
-
-
 ## -parameters
 
 
@@ -109,12 +98,11 @@ If <i>Buffer</i> is non-<b>NULL</b>, the framework returns the size, in characte
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556917">IWDFDevice</a>
  
 
  
-
 

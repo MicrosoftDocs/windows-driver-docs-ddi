@@ -7,7 +7,7 @@ old-location: display\d3dddiarg_setdisplaymode.htm
 old-project: display
 ms.assetid: 4dd4c02f-af44-4b02-a646-b7648b430b89
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDIARG_SETDISPLAYMODE, D3DDDIARG_SETDISPLAYMODE structure [Display Devices], UMDisplayDriver_param_Structs_89fc526d-719f-43b5-b195-47a199a290ec.xml, _D3DDDIARG_SETDISPLAYMODE, d3dumddi/D3DDDIARG_SETDISPLAYMODE, display.d3dddiarg_setdisplaymode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,17 +52,6 @@ req.typenames: D3DDDIARG_SETDISPLAYMODE
 The D3DDDIARG_SETDISPLAYMODE structure describes parameters for setting the display mode. 
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_SETDISPLAYMODE {
-  HANDLE hResource;
-  UINT   SubResourceIndex;
-} D3DDDIARG_SETDISPLAYMODE;
-````
-
-
 ## -struct-fields
 
 
@@ -80,12 +69,11 @@ typedef struct _D3DDDIARG_SETDISPLAYMODE {
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setdisplaymode.md">SetDisplayMode</a>
 
 
 
+<a href="https://msdn.microsoft.com/d0e409fe-1c64-4468-b52e-b0ede39f6601">SetDisplayMode</a>
  
 
  
-
 

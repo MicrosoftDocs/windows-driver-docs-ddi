@@ -7,7 +7,7 @@ old-location: netvista\ndk_fn_request_completion.htm
 old-project: netvista
 ms.assetid: EB507DE2-354C-41D2-9BEE-091C4AE299EC
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NDK_FN_REQUEST_COMPLETION, NdkRequestCompletion, NdkRequestCompletion callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkRequestCompletion, netvista.ndk_fn_request_completion
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,20 +52,6 @@ req.typenames: NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS
 The <i>NdkRequestCompletion</i> (<i>NDK_FN_REQUEST_COMPLETION</i>) function completes a pending NDK request.
 
 
-## -prototype
-
-
-````
-NDK_FN_REQUEST_COMPLETION NdkRequestCompletion;
-
-VOID NdkRequestCompletion(
-  _In_opt_ PVOID    Context,
-  _In_     NTSTATUS Status
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -78,7 +64,7 @@ The context value passed to the NDK provider when a consumer calls an asynchrono
 
 ### -param Status [in]
 
-The asynchronous completion status for the request. See the asynchronous request  functions (for example, <a href="..\ndkpi\nc-ndkpi-ndk_fn_accept.md">NDK_FN_ACCEPT</a>) for completion status codes that can be returned for each type of request.
+The asynchronous completion status for the request. See the asynchronous request  functions (for example, <a href="https://msdn.microsoft.com/library/windows/hardware/hh439857">NDK_FN_ACCEPT</a>) for completion status codes that can be returned for each type of request.
 
 
 ## -returns
@@ -101,12 +87,11 @@ Many NDK requests can be completed asynchronously. Asynchronous request function
 
 ## -see-also
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_accept.md">NDK_FN_ACCEPT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439857">NDK_FN_ACCEPT</a>
  
 
  
-
 

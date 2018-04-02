@@ -54,17 +54,6 @@ This structure is used to set unit information.
 The Av61883_SetUnitInfo request sets the parameters that the IEC-61883 protocol driver should use when capturing and transmitting isochronous packets. 
 
 
-## -syntax
-
-
-````
-typedef struct _SET_UNIT_INFO {
-  ULONG nLevel;
-  PVOID Information;
-} SET_UNIT_INFO, *PSET_UNIT_INFO;
-````
-
-
 ## -struct-fields
 
 
@@ -103,12 +92,11 @@ If an incorrect parameter is passed in, the protocol driver sets <b>Irp-&gt;IoSt
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537008">AV_61883_REQUEST</a>
-
-
-
  
 
  
-
 

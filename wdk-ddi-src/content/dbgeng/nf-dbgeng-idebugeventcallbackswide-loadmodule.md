@@ -7,7 +7,7 @@ old-location: debugger\idebugeventcallbackswide_loadmodule.htm
 old-project: debugger
 ms.assetid: 03a76d41-3af1-48a9-832a-1c255a8b0cc4
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: IDebugEventCallbacksWide, IDebugEventCallbacksWide interface [Windows Debugging], LoadModule method, IDebugEventCallbacksWide::LoadModule, LoadModule method [Windows Debugging], LoadModule method [Windows Debugging], IDebugEventCallbacksWide interface, LoadModule,IDebugEventCallbacksWide.LoadModule, dbgeng/IDebugEventCallbacksWide::LoadModule, debugger.idebugeventcallbackswide_loadmodule
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,22 +50,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>LoadModule</b> callback method is called by the engine when a module-load debugging event occurs in the target.
-
-
-## -syntax
-
-
-````
-HRESULT LoadModule(
-  [in]           ULONG64 ImageFileHandle,
-  [in]           ULONG64 BaseOffset,
-  [in]           ULONG   ModuleSize,
-  [in, optional] PCWSTR  ModuleName,
-  [in, optional] PCWSTR  ImageName,
-  [in]           ULONG   CheckSum,
-  [in]           ULONG   TimeDateStamp
-);
-````
 
 
 ## -parameters

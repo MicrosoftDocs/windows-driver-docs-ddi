@@ -7,7 +7,7 @@ old-location: netvista\rilsmsreadystate.htm
 old-project: netvista
 ms.assetid: f37b1e31-d0fa-4b0a-bab6-131b3bf1bdcd
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: RILSMSREADYSTATE, RILSMSREADYSTATE enumeration [Network Drivers Starting with Windows Vista], RIL_SMSREADYSTATE_ALL, RIL_SMSREADY_SERVICEREADY_3GPP2, RIL_SMSREADY_UICCREADY, netvista.rilsmsreadystate, ntddrilapitypes/RILSMSREADYSTATE, ntddrilapitypes/RIL_SMSREADYSTATE_ALL, ntddrilapitypes/RIL_SMSREADY_SERVICEREADY_3GPP2, ntddrilapitypes/RIL_SMSREADY_UICCREADY
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,18 +51,6 @@ req.product: Windows 10 or later.
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef enum _RILSMSREADYSTATE { 
-  RIL_SMSREADY_SERVICEREADY_3GPP2,
-  RIL_SMSREADY_UICCREADY,
-  RIL_SMSREADYSTATE_ALL
-} RILSMSREADYSTATE;
-````
 
 
 ## -enum-fields

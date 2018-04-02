@@ -7,7 +7,7 @@ old-location: display\dxgkddiadddevice.htm
 old-project: display
 ms.assetid: 5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_ADD_DEVICE, DmFunctions_83323c62-42ac-45f5-80c8-b914fda642b5.xml, DxgkDdiAddDevice, DxgkDdiAddDevice callback function [Display Devices], display.dxgkddiadddevice, dispmprt/DxgkDdiAddDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,20 +52,6 @@ req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 The <i>DxgkDdiAddDevice</i> function creates a context block for a display adapter and returns a handle that represents the display adapter.
 
 
-## -prototype
-
-
-````
-DXGKDDI_ADD_DEVICE DxgkDdiAddDevice;
-
-NTSTATUS DxgkDdiAddDevice(
-  _In_  const PDEVICE_OBJECT PhysicalDeviceObject,
-  _Out_       PVOID          *MiniportDeviceContext
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -98,23 +84,23 @@ The <i>DxgkDdiAddDevice</i> function allocates a private context block that is a
 
 <ul>
 <li>
-The display port driver supplies the handle in the <i>MiniportDeviceContext</i> parameter of the <a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a> function. 
+The display port driver supplies the handle in the <i>MiniportDeviceContext</i> parameter of the <a href="https://msdn.microsoft.com/ffacbb39-2581-4207-841d-28ce57fbc64d">DxgkDdiStartDevice</a> function. 
 
 </li>
 <li>
-The VidPN manager supplies the handle in the <i>hAdapter</i> parameter of the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_issupportedvidpn.md">DxgkDdiIsSupportedVidPn</a> function. 
+The VidPN manager supplies the handle in the <i>hAdapter</i> parameter of the <a href="https://msdn.microsoft.com/96e96366-6306-4d20-8752-e942f2ed4069">DxgkDdiIsSupportedVidPn</a> function. 
 
 </li>
 <li>
-The DirectX graphics core supplies the handle in the <i>hAdapter</i> parameter of the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryadapterinfo.md">DxgkDdiQueryAdapterInfo</a> function.
+The DirectX graphics core supplies the handle in the <i>hAdapter</i> parameter of the <a href="https://msdn.microsoft.com/f2f4c54c-7413-48e5-a165-d71f35642b6c">DxgkDdiQueryAdapterInfo</a> function.
 
 </li>
 </ul>
 Do not be confused by the fact that sometimes the handle is named <i>MiniportDeviceContext</i> and sometimes it is named <i>hAdapter</i>. Also, do not confuse this handle with the <i>hDevice</i> parameter that is passed to certain display miniport driver functions.
 
-Some display adapter cards have two or more PCI functions that play the role of display adapter. For example, certain older cards implement multiple views by having a separate PCI function for each view. The display port driver calls<i> DxgkDdiAddDevice</i> once for each of those PCI functions, at which time the display miniport driver can indicate that it supports the PCI function (by setting <i>MiniportDeviceContext</i> to a nonzero value) or that it does not support the PCI function (by setting <i>MiniportDeviceContext</i> to <b>NULL</b>). To get information about a particular PCI function, the display miniport driver can pass <i>PhysicalDeviceObject</i> to <a href="..\wdm\nf-wdm-iogetdeviceproperty.md">IoGetDeviceProperty</a>.
+Some display adapter cards have two or more PCI functions that play the role of display adapter. For example, certain older cards implement multiple views by having a separate PCI function for each view. The display port driver calls<i> DxgkDdiAddDevice</i> once for each of those PCI functions, at which time the display miniport driver can indicate that it supports the PCI function (by setting <i>MiniportDeviceContext</i> to a nonzero value) or that it does not support the PCI function (by setting <i>MiniportDeviceContext</i> to <b>NULL</b>). To get information about a particular PCI function, the display miniport driver can pass <i>PhysicalDeviceObject</i> to <a href="https://msdn.microsoft.com/library/windows/hardware/ff549203">IoGetDeviceProperty</a>.
 
-In <a href="..\dispmprt\nc-dispmprt-dxgkddi_remove_device.md">DxgkDdiRemoveDevice</a>, free your context block and any other resources you allocate during <i>DxgkDdiAddDevice</i>.
+In <a href="https://msdn.microsoft.com/0d5f96e8-dcb3-49e5-8347-ba20d757618b">DxgkDdiRemoveDevice</a>, free your context block and any other resources you allocate during <i>DxgkDdiAddDevice</i>.
 
 The <i>DxgkDdiAddDevice</i> function should be made pageable.
 
@@ -123,16 +109,15 @@ The <i>DxgkDdiAddDevice</i> function should be made pageable.
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a>
 
 
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_remove_device.md">DxgkDdiRemoveDevice</a>
+<a href="https://msdn.microsoft.com/0d5f96e8-dcb3-49e5-8347-ba20d757618b">DxgkDdiRemoveDevice</a>
 
 
 
+<a href="https://msdn.microsoft.com/ffacbb39-2581-4207-841d-28ce57fbc64d">DxgkDdiStartDevice</a>
  
 
  
-
 

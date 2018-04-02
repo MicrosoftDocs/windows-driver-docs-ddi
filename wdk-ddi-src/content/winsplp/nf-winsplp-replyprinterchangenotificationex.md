@@ -53,20 +53,6 @@ req.product: Windows 10 or later.
 
 
 
-## -syntax
-
-
-````
- WINAPI ReplyPrinterChangeNotificationEx(
-  _In_  HANDLE    hNotify,
-        DWORD     dwColor,
-        DWORD     fdwFlags,
-  _Out_ PDWORD    pdwResult,
-  _In_  PVOID     pPrinterNotifyInfo
-);
-````
-
-
 ## -parameters
 
 

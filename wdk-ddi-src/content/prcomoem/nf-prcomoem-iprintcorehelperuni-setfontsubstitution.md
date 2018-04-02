@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The <code>IPrintCoreHelperUni::SetFontSubstitution</code> method specifies the device font to print in place of a given TrueType font. 
 
 
-## -syntax
-
-
-````
-STDMETHOD SetFontSubstitution(
-  [in] PCWSTR pszTrueTypeFontName,
-  [in] PCWSTR pszDevFontName
-);
-````
-
-
 ## -parameters
 
 
@@ -166,16 +155,15 @@ To obtain a list of valid device fonts, create an information context for the cu
 
 ## -see-also
 
-<a href="..\prcomoem\nn-prcomoem-iprintcorehelperuni.md">IPrintCoreHelperUni</a>
+
+
+
+<a href="https://msdn.microsoft.com/e581d190-8185-45c1-80c7-ff8eb305360e">IPrintCoreHelperUni</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552936">IPrintCoreHelperUni::GetFontSubstitution</a>
-
-
-
  
 
  
-
 

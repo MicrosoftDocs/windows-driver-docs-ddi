@@ -2,7 +2,7 @@
 UID: NA:wdfwmi
 ms.assetid: f6142e9e-3851-3bdb-bd51-152563a407ff
 ms.author: windowsdriverdev
-ms.date: 03/13/18
+ms.date: 02/27/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

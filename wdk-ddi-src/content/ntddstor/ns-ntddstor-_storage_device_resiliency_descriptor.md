@@ -7,7 +7,7 @@ old-location: storage\storage_device_resiliency_descriptor.htm
 old-project: storage
 ms.assetid: 71351CB7-1295-4797-802C-23A6B1C2C53F
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PSTORAGE_DEVICE_RESILIENCY_DESCRIPTOR, PSTORAGE_DEVICE_RESILIENCY_DESCRIPTOR structure pointer [Storage Devices], STORAGE_DEVICE_RESILIENCY_DESCRIPTOR, STORAGE_DEVICE_RESILIENCY_DESCRIPTOR structure [Storage Devices], _STORAGE_DEVICE_RESILIENCY_DESCRIPTOR, ntddstor/PSTORAGE_DEVICE_RESILIENCY_DESCRIPTOR, ntddstor/STORAGE_DEVICE_RESILIENCY_DESCRIPTOR, storage.storage_device_resiliency_descriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,23 +50,6 @@ req.typenames: STORAGE_DEVICE_RESILIENCY_DESCRIPTOR, PSTORAGE_DEVICE_RESILIENCY_
 
 
 Reserved for system use.
-
-
-## -syntax
-
-
-````
-typedef struct _STORAGE_DEVICE_RESILIENCY_DESCRIPTOR {
-  ULONG Version;
-  ULONG Size;
-  ULONG NameOffset;
-  ULONG NumberOfLogicalCopies;
-  ULONG NumberOfPhysicalCopies;
-  ULONG PhysicalDiskRedundancy;
-  ULONG NumberOfColumns;
-  ULONG Interleave;
-} STORAGE_DEVICE_RESILIENCY_DESCRIPTOR, *PSTORAGE_DEVICE_RESILIENCY_DESCRIPTOR;
-````
 
 
 ## -struct-fields
@@ -121,12 +104,11 @@ Size of a stripe unit of the storage device, in bytes. This is also referred to 
 
 ## -see-also
 
-<a href="..\ntddstor\ni-ntddstor-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560590">IOCTL_STORAGE_QUERY_PROPERTY</a>
  
 
  
-
 

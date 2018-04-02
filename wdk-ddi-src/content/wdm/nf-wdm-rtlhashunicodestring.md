@@ -7,7 +7,7 @@ old-location: kernel\rtlhashunicodestring.htm
 old-project: kernel
 ms.assetid: 69a18c4a-9e28-47fb-9d2e-206d660eea6c
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: RtlHashUnicodeString, RtlHashUnicodeString routine [Kernel-Mode Driver Architecture], k109_090277b1-32f6-4c3d-b1fc-bacec35efc1d.xml, kernel.rtlhashunicodestring, wdm/RtlHashUnicodeString
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 The <b>RtlHashUnicodeString </b>routine creates a hash value from a given Unicode string and hash algorithm.
 
 
-## -syntax
-
-
-````
-NTSTATUS RtlHashUnicodeString(
-  _In_  PCUNICODE_STRING String,
-  _In_  BOOLEAN          CaseInSensitive,
-  _In_  ULONG            HashAlgorithm,
-  _Out_ PULONG           HashValue
-);
-````
-
-
 ## -parameters
 
 
@@ -73,7 +60,7 @@ NTSTATUS RtlHashUnicodeString(
 
 ### -param String [in]
 
-A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that contains the Unicode string to be converted to a hash value.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure that contains the Unicode string to be converted to a hash value.
 
 
 ### -param CaseInSensitive [in]
@@ -102,12 +89,11 @@ A pointer to a ULONG variable that receives the hash value.
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: kernel\ioacquireremovelock.htm
 old-project: kernel
 ms.assetid: 46398050-7f06-4d64-8b27-12e529884cb2
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: IoAcquireRemoveLock, IoAcquireRemoveLock routine [Kernel-Mode Driver Architecture], k104_3df0773a-09a7-40cd-8e32-58d89cf551b1.xml, kernel.ioacquireremovelock, wdm/IoAcquireRemoveLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -54,17 +54,6 @@ The <b>IoAcquireRemoveLock</b> routine increments the count for a remove lock,
    indicating that the associated device object should not be detached from the device stack or deleted.
 
 
-## -syntax
-
-
-````
-NTSTATUS IoAcquireRemoveLock(
-  _In_     PIO_REMOVE_LOCK RemoveLock,
-  _In_opt_ PVOID           Tag
-);
-````
-
-
 ## -parameters
 
 
@@ -74,7 +63,7 @@ NTSTATUS IoAcquireRemoveLock(
 
 Pointer to an <b>IO_REMOVE_LOCK</b> structure that the caller initialized with a 
       previous call to 
-      <a href="..\wdm\nf-wdm-ioinitializeremovelock.md">IoInitializeRemoveLock</a>.
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff549324">IoInitializeRemoveLock</a>.
 
 
 ### -param Tag [in, optional]
@@ -86,7 +75,7 @@ Optionally points to a caller-supplied tag that identifies this instance of acqu
 If a driver specifies a <i>Tag</i> on a call to 
        <b>IoAcquireRemoveLock</b>, the driver must supply the same 
        <i>Tag</i> in the corresponding call to 
-       <a href="..\wdm\nf-wdm-ioreleaseremovelock.md">IoReleaseRemoveLock</a>.
+       <a href="https://msdn.microsoft.com/library/windows/hardware/ff549560">IoReleaseRemoveLock</a>.
 
 The <i>Tag</i> does not have to be unique, but should be something meaningful during 
        debugging.
@@ -99,10 +88,10 @@ The I/O system uses this parameter on checked builds only.
 
 
 A driver must initialize a remove lock with a call to 
-     <a href="..\wdm\nf-wdm-ioinitializeremovelock.md">IoInitializeRemoveLock</a> before using the 
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff549324">IoInitializeRemoveLock</a> before using the 
      lock.
 
-A driver must call <a href="..\wdm\nf-wdm-ioreleaseremovelock.md">IoReleaseRemoveLock</a> to 
+A driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff549560">IoReleaseRemoveLock</a> to 
      release the lock when it is no longer needed.
 
 For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565504">Using Remove Locks</a>.
@@ -112,20 +101,19 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-ioinitializeremovelock.md">IoInitializeRemoveLock</a>
 
 
 
-<a href="..\wdm\nf-wdm-ioreleaseremovelockandwait.md">IoReleaseRemoveLockAndWait</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549324">IoInitializeRemoveLock</a>
 
 
 
-<a href="..\wdm\nf-wdm-ioreleaseremovelock.md">IoReleaseRemoveLock</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549560">IoReleaseRemoveLock</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549567">IoReleaseRemoveLockAndWait</a>
  
 
  
-
 

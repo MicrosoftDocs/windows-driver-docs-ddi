@@ -50,17 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-Gets a pointer to the enumerants of <a href="..\printerextension\nn-printerextension-iprinterextensioncontextcollection.md">IPrinterExtensionContextCollection</a> objects.
-
-
-## -syntax
-
-
-````
-HRESULT NewEnum(
-  [out, retval] IUnknown **ppUnk
-);
-````
+Gets a pointer to the enumerants of <a href="https://msdn.microsoft.com/library/windows/hardware/hh846191">IPrinterExtensionContextCollection</a> objects.
 
 
 ## -parameters
@@ -82,12 +72,11 @@ Returns an <b>HRESULT</b> value. If the property call was not successful,  it re
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprinterextensioncontextcollection.md">IPrinterExtensionContextCollection</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh846191">IPrinterExtensionContextCollection</a>
  
 
  
-
 

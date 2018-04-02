@@ -7,7 +7,7 @@ old-location: display\dxgi_ddi_arg_setdisplaymode.htm
 old-project: display
 ms.assetid: eb2b7470-cd23-4e0c-a887-42c47b881607
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGI_DDI_ARG_SETDISPLAYMODE, DXGI_DDI_ARG_SETDISPLAYMODE structure [Display Devices], UMDisplayDriver_Dx10param_Structs_b8b2ebc4-123c-42bd-abd5-3bf1bff47ee0.xml, display.dxgi_ddi_arg_setdisplaymode, dxgiddi/DXGI_DDI_ARG_SETDISPLAYMODE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,18 +52,6 @@ req.typenames: DXGI_DDI_ARG_SETDISPLAYMODE
 The DXGI_DDI_ARG_SETDISPLAYMODE structure describes parameters for setting the display mode. 
 
 
-## -syntax
-
-
-````
-typedef struct DXGI_DDI_ARG_SETDISPLAYMODE {
-  DXGI_DDI_HDEVICE   hDevice;
-  DXGI_DDI_HRESOURCE hResource;
-  UINT               SubResourceIndex;
-} DXGI_DDI_ARG_SETDISPLAYMODE;
-````
-
-
 ## -struct-fields
 
 
@@ -71,7 +59,7 @@ typedef struct DXGI_DDI_ARG_SETDISPLAYMODE {
 
 ### -field hDevice
 
-[in] A handle to the display device (graphics context) on which the driver sets the display mode. The Direct3D runtime passes this handle to the driver in the <b>hDrvDevice</b> member of the <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createdevice.md">D3D10DDIARG_CREATEDEVICE</a> structure when the runtime calls the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a> function to create the display device. 
+[in] A handle to the display device (graphics context) on which the driver sets the display mode. The Direct3D runtime passes this handle to the driver in the <b>hDrvDevice</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541664">D3D10DDIARG_CREATEDEVICE</a> structure when the runtime calls the driver's <a href="https://msdn.microsoft.com/c69eedb1-c975-412c-aa9f-cf64a702f937">CreateDevice(D3D10)</a> function to create the display device. 
 
 
 ### -field hResource
@@ -86,12 +74,11 @@ typedef struct DXGI_DDI_ARG_SETDISPLAYMODE {
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569536">SetDisplayModeDXGI</a>
-
-
-
  
 
  
-
 

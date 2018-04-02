@@ -52,18 +52,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 
-## -syntax
-
-
-````
-typedef struct _DOT4_ACTIVITY {
-  ULONG          ulMessage;
-  ULONG          ulByteCount;
-  CHANNEL_HANDLE hChannel;
-} DOT4_ACTIVITY, *PDOT4_ACTIVITY;
-````
-
-
 ## -struct-fields
 
 

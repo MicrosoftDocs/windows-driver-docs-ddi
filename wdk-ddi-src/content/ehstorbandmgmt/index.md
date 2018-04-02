@@ -2,7 +2,7 @@
 UID: NA:ehstorbandmgmt
 ms.assetid: 5620fe38-a1b7-3b18-8f1d-4366b8866138
 ms.author: windowsdriverdev
-ms.date: 03/13/18
+ms.date: 02/27/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

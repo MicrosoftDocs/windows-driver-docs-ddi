@@ -7,7 +7,7 @@ old-location: display\d3dhal_dp2pixelshader.htm
 old-project: display
 ms.assetid: 820e7667-3adf-49c9-ab44-303f6ea7f4b2
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*LPD3DHAL_DP2PIXELSHADER, D3DHAL_DP2PIXELSHADER, D3DHAL_DP2PIXELSHADER structure [Display Devices], LPD3DHAL_DP2PIXELSHADER, LPD3DHAL_DP2PIXELSHADER structure pointer [Display Devices], _D3DHAL_DP2PIXELSHADER, d3dhal/D3DHAL_DP2PIXELSHADER, d3dhal/LPD3DHAL_DP2PIXELSHADER, d3dstrct_f9a920b0-9018-4b87-ab28-d0b50753195b.xml, display.d3dhal_dp2pixelshader"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,17 +53,7 @@ req.typenames: D3DHAL_DP2PIXELSHADER
    DirectX 8.0 and later versions only.
    
 
-The D3DHAL_DP2PIXELSHADER structure is used to set the current pixel shader, or delete a pixel shader, depending on the opcode received (D3DDP2OP_SETPIXELSHADER or D3DDP2OP_DELETEPIXELSHADER) by <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DHAL_DP2PIXELSHADER {
-  DWORD dwHandle;
-} D3DHAL_DP2PIXELSHADER, *LPD3DHAL_DP2PIXELSHADER;
-````
+The D3DHAL_DP2PIXELSHADER structure is used to set the current pixel shader, or delete a pixel shader, depending on the opcode received (D3DDP2OP_SETPIXELSHADER or D3DDP2OP_DELETEPIXELSHADER) by <a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a>.
 
 
 ## -struct-fields
@@ -89,20 +79,19 @@ When switching between programmable shaders, any constant register that has a va
 
 ## -see-also
 
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
 
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2createpixelshader.md">D3DHAL_DP2CREATEPIXELSHADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545467">D3DHAL_DP2CREATEPIXELSHADER</a>
 
 
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2setpixelshaderconst.md">D3DHAL_DP2SETPIXELSHADERCONST</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545752">D3DHAL_DP2SETPIXELSHADERCONST</a>
 
 
 
+<a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a>
  
 
  
-
 

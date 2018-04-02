@@ -52,18 +52,6 @@ req.typenames: KS_TUNER_STRATEGY
 The KS_TUNER_STRATEGY enumeration defines tuning method strategies.
 
 
-## -syntax
-
-
-````
-typedef enum  { 
-  KS_TUNER_STRATEGY_PLL              = 0X01,
-  KS_TUNER_STRATEGY_SIGNAL_STRENGTH  = 0X02,
-  KS_TUNER_STRATEGY_DRIVER_TUNES     = 0X04
-} KS_TUNER_STRATEGY;
-````
-
-
 ## -enum-fields
 
 
@@ -86,12 +74,11 @@ The minidriver has total control over the fine tuning process. No fine tuning is
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-ksproperty_tuner_mode_caps_s.md">KSPROPERTY_TUNER_MODE_CAPS_S</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565872">KSPROPERTY_TUNER_MODE_CAPS_S</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: audio\pfndrmforwardcontenttodeviceobject.htm
 old-project: audio
 ms.assetid: A6256D6D-A952-4E10-B8E7-A28E3D8D9585
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/19/2018
 ms.keywords: DRMForwardContentToDeviceObject, DRMForwardContentToDeviceObject callback function [Audio Devices], PFNDRMFORWARDCONTENTTODEVICEOBJECT, audio.pfndrmforwardcontenttodeviceobject, drmk/DRMForwardContentToDeviceObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,23 +50,6 @@ req.typenames: WDI_TX_METADATA, *PWDI_TX_METADATA
 
 
 This callback function is reserved for system use.
-
-
-## -prototype
-
-
-````
-PFNDRMFORWARDCONTENTTODEVICEOBJECT DRMForwardContentToDeviceObject;
-
-NTSTATUS DRMForwardContentToDeviceObject(
-  _In_ ULONG        ContentId,
-  _In_ PVOID        Reserved,
-  _In_ PCDRMFORWARD DrmForward
-)
-{ ... }
-
-typedef PFNDRMFORWARDCONTENTTODEVICEOBJECT DRMForwardContentToDeviceObject;
-````
 
 
 ## -parameters

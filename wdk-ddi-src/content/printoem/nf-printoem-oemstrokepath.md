@@ -53,23 +53,6 @@ req.product: Windows 10 or later.
 The <code>OEMStrokePath</code> function strokes a path.
 
 
-## -syntax
-
-
-````
-BOOL APIENTRY OEMStrokePath(
-   SURFOBJ   *pso,
-   PATHOBJ   *ppo,
-   CLIPOBJ   *pco,
-   XFORMOBJ  *pxo,
-   BRUSHOBJ  *pbo,
-   POINTL    *pptlBrushOrg,
-   LINEATTRS *plineattrs,
-   MIX       mix
-);
-````
-
-
 ## -parameters
 
 

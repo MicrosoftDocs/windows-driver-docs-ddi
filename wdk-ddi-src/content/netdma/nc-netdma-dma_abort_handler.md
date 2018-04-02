@@ -7,7 +7,7 @@ old-location: netvista\providerabortdma.htm
 old-project: netvista
 ms.assetid: b9c23f36-0885-49fd-b92e-dac38d5f363f
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: DMA_ABORT_HANDLER, ProviderAbortDma, ProviderAbortDma callback function [Network Drivers Starting with Windows Vista], netdma/ProviderAbortDma, netdma_ref_b030a880-2a65-4fef-9f91-4a4bc4fa17b5.xml, netvista.providerabortdma
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -55,19 +55,6 @@ in Windows 8 and later.</div><div> </div>The
   <i>ProviderAbortDma</i> function cancels any DMA transfers that are associated with a DMA channel.
 
 
-## -prototype
-
-
-````
-DMA_ABORT_HANDLER ProviderAbortDma;
-
-NTSTATUS ProviderAbortDma(
-  _In_ PVOID ProviderChannelContext
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -78,7 +65,7 @@ NTSTATUS ProviderAbortDma(
 A pointer that identifies a DMA channel's context area. The DMA provider returned this handle to
      NetDMA at the location that is specified in the 
      <i>pProviderChannelContext</i> parameter of the 
-     <a href="..\netdma\nc-netdma-dma_channel_allocate_handler.md">
+     <a href="https://msdn.microsoft.com/42bc0e08-3d85-424f-aaa4-4df788d3706a">
      ProviderAllocateDmaChannel</a> function.
 
 
@@ -137,14 +124,14 @@ In
     <b>NetDmaTransferStatusHalted</b> status in the address that is specified in the 
     <b>CompletionVirtualAddress</b> and 
     <b>CompletionPhysicalAddress</b> members in the 
-    <a href="..\netdma\ns-netdma-_net_dma_channel_parameters.md">
+    <a href="https://msdn.microsoft.com/0d09a9e9-06c5-4026-9053-ac74a59509cc">
     NET_DMA_CHANNEL_PARAMETERS</a> structure.
 
 After the abort operation completes, the DMA channel must be ready for the NetDMA interface to call
     the 
-    <a href="..\netdma\nc-netdma-dma_start_handler.md">ProviderStartDma</a> function. The NetDMA
+    <a href="https://msdn.microsoft.com/0926e8c4-f2ca-401f-abe8-76aec359a1e2">ProviderStartDma</a> function. The NetDMA
     interface will not call the 
-    <a href="..\netdma\nc-netdma-dma_append_handler.md">ProviderAppendDma</a> function until after
+    <a href="https://msdn.microsoft.com/51de8ddf-cbfc-4e49-b44a-207307a937e7">ProviderAppendDma</a> function until after
     the transfer is restarted.
 
 NetDMA calls 
@@ -155,24 +142,23 @@ NetDMA calls
 
 ## -see-also
 
-<a href="..\netdma\nc-netdma-dma_start_handler.md">ProviderStartDma</a>
 
 
 
-<a href="..\netdma\nc-netdma-dma_channel_allocate_handler.md">ProviderAllocateDmaChannel</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568732">NET_DMA_CHANNEL_PARAMETERS</a>
 
 
 
-<a href="..\netdma\ns-netdma-_net_dma_channel_parameters.md">NET_DMA_CHANNEL_PARAMETERS</a>
+<a href="https://msdn.microsoft.com/42bc0e08-3d85-424f-aaa4-4df788d3706a">ProviderAllocateDmaChannel</a>
 
 
 
-<a href="..\netdma\nc-netdma-dma_append_handler.md">ProviderAppendDma</a>
+<a href="https://msdn.microsoft.com/51de8ddf-cbfc-4e49-b44a-207307a937e7">ProviderAppendDma</a>
 
 
 
+<a href="https://msdn.microsoft.com/0926e8c4-f2ca-401f-abe8-76aec359a1e2">ProviderStartDma</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: netvista\ril_setslotpower.htm
 old-project: netvista
 ms.assetid: c7e12c2a-3382-478b-a306-7c86c93d45d0
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: RIL_SetSlotPower, RIL_SetSlotPower method [Network Drivers Starting with Windows Vista], netvista.ril_setslotpower, rilapi/RIL_SetSlotPower
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ api_name:
 -	RIL_SetSlotPower
 product: Windows
 targetos: Windows
-req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
+req.typenames: PTP_VENDOR_DATA_OUT, *PPTP_VENDOR_DATA_OUT
 req.product: Windows 10 or later.
 ---
 
@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
             
-
-
-## -syntax
-
-
-````
-HRESULT  RIL_SetSlotPower(
-   HRIL   hRil,
-   LPVOID lpContext,
-   DWORD  dwSlotIndex,
-   BOOL   fPowerOn
-);
-````
 
 
 ## -parameters

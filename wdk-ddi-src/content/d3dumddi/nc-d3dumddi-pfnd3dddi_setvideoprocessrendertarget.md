@@ -7,7 +7,7 @@ old-location: display\setvideoprocessrendertarget.htm
 old-project: display
 ms.assetid: 8aa7e23e-f52e-4252-9f22-56ce523f6cba
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3DDDI_SETVIDEOPROCESSRENDERTARGET, SetVideoProcessRenderTarget, SetVideoProcessRenderTarget callback function [Display Devices], UserModeDisplayDriver_Functions_8ce2d981-2c69-45e9-a2e2-eba9026be1a0.xml, d3dumddi/SetVideoProcessRenderTarget, display.setvideoprocessrendertarget
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,20 +52,6 @@ req.typenames: DXGK_PTE
 The <i>SetVideoProcessRenderTarget</i> function sets the render target surface that is used for video processing.
 
 
-## -prototype
-
-
-````
-PFND3DDDI_SETVIDEOPROCESSRENDERTARGET SetVideoProcessRenderTarget;
-
-__checkReturn HRESULT APIENTRY SetVideoProcessRenderTarget(
-  _In_       HANDLE                                hDevice,
-  _In_ const D3DDDIARG_SETVIDEOPROCESSRENDERTARGET *pData
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -87,7 +73,7 @@ __checkReturn HRESULT APIENTRY SetVideoProcessRenderTarget(
 
 #### - pData [in]
 
- A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_setvideoprocessrendertarget.md">D3DDDIARG_SETVIDEOPROCESSRENDERTARGET</a> structure that describes the render target surface that is used for video processing.
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543372">D3DDDIARG_SETVIDEOPROCESSRENDERTARGET</a> structure that describes the render target surface that is used for video processing.
 
 
 ## -returns
@@ -133,29 +119,28 @@ The render target surface is successfully set.
 
 
 
-<i>SetVideoProcessRenderTarget</i> can be called only outside of a <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_videoprocessbeginframe.md">VideoProcessBeginFrame</a>/<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_videoprocessendframe.md">VideoProcessEndFrame</a> block. 
+<i>SetVideoProcessRenderTarget</i> can be called only outside of a <a href="https://msdn.microsoft.com/1b7b1774-3144-4929-83d8-c52a7de6936d">VideoProcessBeginFrame</a>/<a href="https://msdn.microsoft.com/a5be6834-bb27-4da0-8802-25a9ca58c101">VideoProcessEndFrame</a> block. 
 
-All video processing render targets are created by setting the <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_resourceflags.md">D3DDDI_RESOURCEFLAGS</a>.<b>VideoProcessRenderTarget</b> bit-field flag in the <b>Flags</b> member of the <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddiarg_createresource.md">D3DDDIARG_CREATERESOURCE</a> structure in a call to the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createresource.md">CreateResource</a> function. 
+All video processing render targets are created by setting the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544644">D3DDDI_RESOURCEFLAGS</a>.<b>VideoProcessRenderTarget</b> bit-field flag in the <b>Flags</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff542963">D3DDDIARG_CREATERESOURCE</a> structure in a call to the <a href="https://msdn.microsoft.com/5b74c989-1a62-4415-a19a-dd0ba2fcff83">CreateResource</a> function. 
 
 
 
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
 
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_resourceflags.md">D3DDDI_RESOURCEFLAGS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543372">D3DDDIARG_SETVIDEOPROCESSRENDERTARGET</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_setvideoprocessrendertarget.md">D3DDDIARG_SETVIDEOPROCESSRENDERTARGET</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544519">D3DDDI_DEVICEFUNCS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544644">D3DDDI_RESOURCEFLAGS</a>
  
 
  
-
 

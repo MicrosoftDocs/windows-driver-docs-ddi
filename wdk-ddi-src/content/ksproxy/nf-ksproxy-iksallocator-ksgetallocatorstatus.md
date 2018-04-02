@@ -54,16 +54,6 @@ req.typenames: PIPE_STATE
 Retrieves the status of an allocator.
 
 
-## -syntax
-
-
-````
-HRESULT KsGetAllocatorStatus(
-    
-);
-````
-
-
 ## -parameters
 
 
@@ -87,12 +77,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\ksproxy\nn-ksproxy-iksallocator.md">IKsAllocator</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559719">IKsAllocator</a>
  
 
  
-
 

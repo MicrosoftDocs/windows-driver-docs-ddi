@@ -7,7 +7,7 @@ old-location: display\dxvaddi_videotransfermatrix.htm
 old-project: display
 ms.assetid: ef1f3c9b-70e5-48bd-b9f4-60ec661dc880
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXVA2_Structs_af3c1fd4-43c5-4700-b88e-46f54feed5d2.xml, DXVADDI_VIDEOTRANSFERMATRIX, DXVADDI_VIDEOTRANSFERMATRIX enumeration [Display Devices], DXVADDI_VideoTransferMatrixMask, DXVADDI_VideoTransferMatrix_BT601, DXVADDI_VideoTransferMatrix_BT709, DXVADDI_VideoTransferMatrix_SMPTE240M, DXVADDI_VideoTransferMatrix_Unknown, _DXVADDI_VIDEOTRANSFERMATRIX, d3dumddi/DXVADDI_VIDEOTRANSFERMATRIX, d3dumddi/DXVADDI_VideoTransferMatrixMask, d3dumddi/DXVADDI_VideoTransferMatrix_BT601, d3dumddi/DXVADDI_VideoTransferMatrix_BT709, d3dumddi/DXVADDI_VideoTransferMatrix_SMPTE240M, d3dumddi/DXVADDI_VideoTransferMatrix_Unknown, display.dxvaddi_videotransfermatrix
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,20 +52,6 @@ req.typenames: DXVADDI_VIDEOTRANSFERMATRIX
 The DXVADDI_VIDEOTRANSFERMATRIX enumeration type contains values that identify the conversion matrix from Y'Cb'Cr' to (studio) R'G'B'.
 
 
-## -syntax
-
-
-````
-typedef enum _DXVADDI_VIDEOTRANSFERMATRIX { 
-  DXVADDI_VideoTransferMatrixMask        = 0x07,
-  DXVADDI_VideoTransferMatrix_Unknown    = 0,
-  DXVADDI_VideoTransferMatrix_BT709      = 1,
-  DXVADDI_VideoTransferMatrix_BT601      = 2,
-  DXVADDI_VideoTransferMatrix_SMPTE240M  = 3
-} DXVADDI_VIDEOTRANSFERMATRIX;
-````
-
-
 ## -enum-fields
 
 
@@ -100,19 +86,18 @@ Specifies a HD video standard that is rarely used in Japan.
 
 
 
-One of the values of DXVADDI_VIDEOTRANSFERMATRIX can be specified in the <b>VideoTransferMatrix</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_extendedformat.md">DXVADDI_EXTENDEDFORMAT</a> structure.
+One of the values of DXVADDI_VIDEOTRANSFERMATRIX can be specified in the <b>VideoTransferMatrix</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562904">DXVADDI_EXTENDEDFORMAT</a> structure.
 
 
 
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_extendedformat.md">DXVADDI_EXTENDEDFORMAT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562904">DXVADDI_EXTENDEDFORMAT</a>
  
 
  
-
 

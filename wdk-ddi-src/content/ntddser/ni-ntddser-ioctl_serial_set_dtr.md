@@ -53,7 +53,7 @@ The <b>IOCTL_SERIAL_SET_DTR</b> request sets DTR (data terminal ready).
 
 If the handshake flow control of the device is configured to automatically use DTR, a client cannot clear or set DTR.
 
-To clear DTR, a client can use an <a href="..\ntddser\ni-ntddser-ioctl_serial_clr_dtr.md">IOCTL_SERIAL_CLR_DTR</a> request.
+To clear DTR, a client can use an <a href="https://msdn.microsoft.com/library/windows/hardware/ff546541">IOCTL_SERIAL_CLR_DTR</a> request.
 
 
 ## -ioctlparameters
@@ -108,12 +108,11 @@ The <b>Status</b> member is set to one of the <a href="https://docs.microsoft.co
 
 ## -see-also
 
-<a href="..\ntddser\ni-ntddser-ioctl_serial_clr_dtr.md">IOCTL_SERIAL_CLR_DTR</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546541">IOCTL_SERIAL_CLR_DTR</a>
  
 
  
-
 

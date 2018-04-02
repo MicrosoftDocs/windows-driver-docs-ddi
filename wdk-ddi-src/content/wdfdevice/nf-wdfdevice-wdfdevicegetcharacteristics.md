@@ -56,16 +56,6 @@ req.product: Windows 10 or later.
 The <b>WdfDeviceGetCharacteristics</b> method returns device characteristics for a specified device.
 
 
-## -syntax
-
-
-````
-ULONG WdfDeviceGetCharacteristics(
-  _In_ WDFDEVICE Device
-);
-````
-
-
 ## -parameters
 
 
@@ -80,7 +70,7 @@ A handle to a framework device object.
 
 
 
-A bitwise OR of system-defined constants that represent device characteristics. For more information, see the <b>Characteristics</b> member of the <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure.
+A bitwise OR of system-defined constants that represent device characteristics. For more information, see the <b>Characteristics</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a> structure.
 
 A bug check occurs if the driver supplies an invalid object handle.
 
@@ -89,16 +79,15 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 ## -see-also
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicesetcharacteristics.md">WdfDeviceSetCharacteristics</a>
 
 
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetcharacteristics.md">WdfDeviceInitSetCharacteristics</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546074">WdfDeviceInitSetCharacteristics</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546872">WdfDeviceSetCharacteristics</a>
  
 
  
-
 

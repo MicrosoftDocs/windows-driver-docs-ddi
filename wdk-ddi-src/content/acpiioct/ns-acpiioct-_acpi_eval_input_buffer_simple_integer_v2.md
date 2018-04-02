@@ -52,21 +52,6 @@ req.typenames: ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V2, *PACPI_EVAL_INPUT_BUFFE
 This topic describes the  <b>ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V2</b> structure.
 
 
-## -syntax
-
-
-````
-typedef struct _ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V2 {
-  ULONG Signature;
-  union {
-    UCHAR MethodName[4];
-    ULONG MethodNameAsUlong;
-  } DUMMYUNIONNAME;
-  ULONG IntegerArgument;
-} ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V2, *PACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V2;
-````
-
-
 ## -struct-fields
 
 

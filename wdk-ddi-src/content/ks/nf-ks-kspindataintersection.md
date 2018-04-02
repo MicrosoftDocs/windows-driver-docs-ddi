@@ -50,22 +50,7 @@ req.typenames:
 ## -description
 
 
-The <b>KsPinDataIntersection</b> function handles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565198">KSPROPERTY_PIN_DATAINTERSECTION</a> property through a callback function and performs much of the initial validation of the parameters that are passed. <b>KsPinDataIntersection</b> calls the minidriver-defined <a href="..\ks\nc-ks-pfnksintersecthandler.md">KStrIntersectHandler</a> callback function with each potential data range after matching it to the list of data ranges assigned to that pin factory.
-
-
-## -syntax
-
-
-````
-NTSTATUS KsPinDataIntersection(
-  _In_            PIRP                  Irp ,
-  _In_            PKSP_PIN              Pin ,
-  _Out_opt_       PVOID                 Data ,
-  _In_            ULONG                 DescriptorsCount ,
-  _In_      const KSPIN_DESCRIPTOR      *Descriptor ,
-  _In_            PFNKSINTERSECTHANDLER IntersectHandler 
-);
-````
+The <b>KsPinDataIntersection</b> function handles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565198">KSPROPERTY_PIN_DATAINTERSECTION</a> property through a callback function and performs much of the initial validation of the parameters that are passed. <b>KsPinDataIntersection</b> calls the minidriver-defined <a href="https://msdn.microsoft.com/library/windows/hardware/ff567182">KStrIntersectHandler</a> callback function with each potential data range after matching it to the list of data ranges assigned to that pin factory.
 
 
 ## -parameters
@@ -100,7 +85,7 @@ Specifies the pointer to the list of pin information structures.
 
 ### -param IntersectHandler [in]
 
-Specifies the minidriver-defined <a href="..\ks\nc-ks-pfnksintersecthandler.md">KStrIntersectHandler</a> callback function to compare a data range.
+Specifies the minidriver-defined <a href="https://msdn.microsoft.com/library/windows/hardware/ff567182">KStrIntersectHandler</a> callback function to compare a data range.
 
 
 ## -returns
@@ -109,7 +94,7 @@ Specifies the minidriver-defined <a href="..\ks\nc-ks-pfnksintersecthandler.md">
 
 The <b>KsPinDataIntersection</b> function returns STATUS_SUCCESS if a matching range is found, STATUS_NO_MATCH if no matching range was found, or an error specific to the property being handled. The minidriver-defined <i><u>KStrIntersectHandler</u></i> intersection handler provided to <b>KsPinDataIntersection</b> is called with each data range supplied by the caller until either a match is found or an error occurs.
 
-Note that the minidriver-defined <a href="..\ks\nc-ks-pfnksintersecthandler.md">KStrIntersectHandler</a> callback function has its own set of return values.
+Note that the minidriver-defined <a href="https://msdn.microsoft.com/library/windows/hardware/ff567182">KStrIntersectHandler</a> callback function has its own set of return values.
 
 
 
@@ -127,16 +112,15 @@ A match can occur under three conditions: if the major format of the range passe
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561658">KSDATARANGE</a>
 
 
 
-<a href="..\ks\nc-ks-pfnksintersecthandler.md">KStrIntersectHandler</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567182">KStrIntersectHandler</a>
  
 
  
-
 

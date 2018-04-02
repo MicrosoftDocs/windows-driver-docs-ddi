@@ -7,7 +7,7 @@ old-location: display\iddcx_cursor_shape_info.htm
 old-project: display
 ms.assetid: 58ed8f04-616f-4eea-b6e1-07f322c37dbb
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IDDCX_CURSOR_SHAPE_INFO, IDDCX_CURSOR_SHAPE_INFO structure [Display Devices], display.iddcx_cursor_shape_info, iddcx/IDDCX_CURSOR_SHAPE_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,23 +50,6 @@ req.typenames:
 
 
 Gives information about the shape of the cursor.
-
-
-## -syntax
-
-
-````
-typedef struct IDDCX_CURSOR_SHAPE_INFO {
-  UINT                    Size;
-  UINT                    ShapeId;
-  IDDCX_CURSOR_SHAPE_TYPE CursorType;
-  UINT                    Width;
-  UINT                    Height;
-  UINT                    Pitch;
-  UINT                    XHot;
-  UINT                    YHot;
-} IDDCX_CURSOR_SHAPE_INFO, *IDDCX_CURSOR_SHAPE_INFO;
-````
 
 
 ## -struct-fields

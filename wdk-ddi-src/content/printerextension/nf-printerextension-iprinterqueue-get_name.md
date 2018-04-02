@@ -56,27 +56,16 @@ Gets the name of the printer for this print queue.
 This property is read-only.
 
 
-## -syntax
-
-
-````
-HRESULT get_Name(
-  [out, retval] BSTR *pbstrName
-);
-````
-
-
 ## -parameters
 
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprinterqueue.md">IPrinterQueue</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439635">IPrinterQueue</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: kernel\setd3coldsupport.htm
 old-project: kernel
 ms.assetid: 423C621D-0AE3-468A-94A0-AA3922B410F0
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: SET_D3COLD_SUPPORT, SetD3ColdSupport, SetD3ColdSupport routine [Kernel-Mode Driver Architecture], kernel.setd3coldsupport, wdm/SetD3ColdSupport
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,20 +53,6 @@ req.product: Windows 10 or later.
 The <i>SetD3ColdSupport</i> routine enables or disables transitions to the D3cold device power state.
 
 
-## -prototype
-
-
-````
-SET_D3COLD_SUPPORT SetD3ColdSupport;
-
-VOID SetD3ColdSupport(
-  _In_opt_ PVOID   Context,
-  _In_     BOOLEAN D3ColdSupport
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -74,7 +60,7 @@ VOID SetD3ColdSupport(
 
 ### -param Context [in, optional]
 
-A pointer to interface-specific context information. The caller sets this parameter to the value of the <b>Context</b> member of the <a href="..\wdm\ns-wdm-_d3cold_support_interface.md">D3COLD_SUPPORT_INTERFACE</a> structure for the interface.
+A pointer to interface-specific context information. The caller sets this parameter to the value of the <b>Context</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh967706">D3COLD_SUPPORT_INTERFACE</a> structure for the interface.
 
 
 ### -param D3ColdSupport [in]
@@ -99,7 +85,7 @@ The driver that is the power policy owner (PPO) for a device can call this routi
 
 If a device must be able to signal a wake event from any low-power Dx state that it enters, the driver for this device should not enable transitions to the D3cold substate unless the device can signal a wake event from this substate. Otherwise, after entering D3cold, the device will be unavailable until the computer restarts or wakes from a sleeping state.
 
-The driver for the device can call the <a href="..\wdm\nc-wdm-get_idle_wake_info.md">GetIdleWakeInfo</a> routine to determine whether the device can signal a wake event from D3cold.
+The driver for the device can call the <a href="https://msdn.microsoft.com/library/windows/hardware/hh967712">GetIdleWakeInfo</a> routine to determine whether the device can signal a wake event from D3cold.
 
 If necessary, the driver for a device can make a series of <i>SetD3ColdSupport</i> calls to alternately enable and disable D3cold transitions in response to dynamically changing conditions.
 
@@ -111,7 +97,7 @@ When a device moves from D3hot to D3cold, it probably does so because the power 
 
 The only device driver that expects this power state change is the driver that requested the change. The drivers for the other devices must receive notification of this change so that they can properly initialize their devices to operate in D0. Only a driver that can receive this notification should enable its device to enter D3cold. Otherwise, the driver will not know when the device enters D0.
 
-Starting with Windows 8, a WDM driver can register its device with the power framework (PoFx) and be notified by the <a href="https://msdn.microsoft.com/library/windows/hardware/hh450949">DevicePowerRequiredCallback</a> routine when the device enters D0. Similarly, a KMDF driver can register its device with PoFx and be notified by the <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_d0_entry.md">EvtDeviceD0Entry</a> event callback.
+Starting with Windows 8, a WDM driver can register its device with the power framework (PoFx) and be notified by the <a href="https://msdn.microsoft.com/library/windows/hardware/hh450949">DevicePowerRequiredCallback</a> routine when the device enters D0. Similarly, a KMDF driver can register its device with PoFx and be notified by the <a href="https://msdn.microsoft.com/0cfabb0f-2d5e-4445-8683-d2916de5b549">EvtDeviceD0Entry</a> event callback.
 
 A driver that does not register its device with PoFx can still be notified of a transition to D0 if the device is armed for wake. When the bus drivers turn on the power to the device, they complete the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff551766">IRP_MN_WAIT_WAKE</a> request. In response, the driver initializes its device to operate in D0.
 
@@ -119,7 +105,7 @@ After a power source shared by several devices turns on, the device whose driver
 
 If the driver calls <i>SetD3ColdSupport</i> to disable transitions to D3cold, D0 is the only device power state that the device can enter from D3hot.
 
-If the driver calls <i>SetD3ColdSupport</i> to enable transitions to D3cold, these transitions might be disabled for other reasons. The driver can call the <a href="..\wdm\nc-wdm-get_d3cold_capability.md">GetD3ColdCapability</a> routine to determine whether the device is capable of entering the D3cold substate. However, a driver might not need this information. If a device is not capable of entering D3cold, calls to <i>SetD3ColdSupport</i> have no effect, but are harmless.
+If the driver calls <i>SetD3ColdSupport</i> to enable transitions to D3cold, these transitions might be disabled for other reasons. The driver can call the <a href="https://msdn.microsoft.com/library/windows/hardware/hh967711">GetD3ColdCapability</a> routine to determine whether the device is capable of entering the D3cold substate. However, a driver might not need this information. If a device is not capable of entering D3cold, calls to <i>SetD3ColdSupport</i> have no effect, but are harmless.
 
 The <i>SetD3ColdSupport</i> routine affects only D3hot-to-D3cold transitions that might occur when the computer is in (and is not preparing to exit) the S0 state. This routine has no effect on the case in which the computer is preparing to exit S0 and enter a low-power system state. A device in the D3hot substate might always enter the D3cold substate just before the computer enters a system low-power state.
 
@@ -144,11 +130,10 @@ Windows 8 is the first version of Windows to support devices that can enter and
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551766">IRP_MN_WAIT_WAKE</a>
 
 
 
-<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_d0_entry.md">EvtDeviceD0Entry</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh967706">D3COLD_SUPPORT_INTERFACE</a>
 
 
 
@@ -156,16 +141,16 @@ Windows 8 is the first version of Windows to support devices that can enter and
 
 
 
-<a href="..\wdm\ns-wdm-_d3cold_support_interface.md">D3COLD_SUPPORT_INTERFACE</a>
+<a href="https://msdn.microsoft.com/0cfabb0f-2d5e-4445-8683-d2916de5b549">EvtDeviceD0Entry</a>
 
 
 
-<a href="..\wdm\nc-wdm-get_d3cold_capability.md">GetD3ColdCapability</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh967711">GetD3ColdCapability</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551766">IRP_MN_WAIT_WAKE</a>
  
 
  
-
 

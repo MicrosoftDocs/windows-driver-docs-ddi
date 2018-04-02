@@ -52,17 +52,6 @@ req.typenames: KS_DATAFORMAT_VIDEOINFO_PALETTE, *PKS_DATAFORMAT_VIDEOINFO_PALETT
 The KS_DATAFORMAT_VIDEOINFO_PALETTE structure describes color palette information.
 
 
-## -syntax
-
-
-````
-typedef struct tagKS_DATAFORMAT_VIDEOINFO_PALETTE {
-  KSDATAFORMAT DataFormat;
-  KS_VIDEOINFO VideoInfo;
-} KS_DATAFORMAT_VIDEOINFO_PALETTE, *PKS_DATAFORMAT_VIDEOINFO_PALETTE;
-````
-
-
 ## -struct-fields
 
 
@@ -80,16 +69,15 @@ Specifies the details of the video stream.
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
 
 
 
-<a href="..\ksmedia\ns-ksmedia-tagks_videoinfo.md">KS_VIDEOINFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561656">KSDATAFORMAT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567698">KS_VIDEOINFO</a>
  
 
  
-
 

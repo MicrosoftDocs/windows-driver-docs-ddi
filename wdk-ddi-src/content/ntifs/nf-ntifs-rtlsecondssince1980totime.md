@@ -7,7 +7,7 @@ old-location: ifsk\rtlsecondssince1980totime.htm
 old-project: ifsk
 ms.assetid: 2552df19-424e-43ba-9c8d-431123353d4a
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: RtlSecondsSince1980ToTime, RtlSecondsSince1980ToTime routine [Installable File System Drivers], ifsk.rtlsecondssince1980totime, ntifs/RtlSecondsSince1980ToTime, rtlref_1896255f-11a2-445f-999a-95da533908d8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,17 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>RtlSecondsSince1980ToTime</b> routine converts the elapsed time, in seconds, since the beginning of 1980 to an absolute system time value. 
 
 
-## -syntax
-
-
-````
-VOID RtlSecondsSince1980ToTime(
-  _In_  ULONG          ElapsedSeconds,
-  _Out_ PLARGE_INTEGER Time
-);
-````
-
-
 ## -parameters
 
 
@@ -100,24 +89,23 @@ For more information about converting time values, see <a href="https://msdn.mic
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtltimetosecondssince1980.md">RtlTimeToSecondsSince1980</a>
 
 
 
-<a href="..\wdm\nf-wdm-rtltimetotimefields.md">RtlTimeToTimeFields</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553204">RtlSecondsSince1970ToTime</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-rtlsecondssince1970totime.md">RtlSecondsSince1970ToTime</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562879">RtlTimeFieldsToTime</a>
 
 
 
-<a href="..\wdm\nf-wdm-rtltimefieldstotime.md">RtlTimeFieldsToTime</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553244">RtlTimeToSecondsSince1980</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562884">RtlTimeToTimeFields</a>
  
 
  
-
 

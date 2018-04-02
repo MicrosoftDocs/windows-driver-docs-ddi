@@ -7,7 +7,7 @@ old-location: kernel\xvariable_name.htm
 old-project: kernel
 ms.assetid: DF02AB1E-6803-492C-9261-400177497195
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*PSYSENV_VARIABLE_NAME, *PXVARIABLE_NAME, PXVARIABLE_NAME, PXVARIABLE_NAME structure pointer [Kernel-Mode Driver Architecture], SYSENV_VARIABLE_NAME, XVARIABLE_NAME, XVARIABLE_NAME structure [Kernel-Mode Driver Architecture], _XVARIABLE_NAME, kernel.xvariable_name, ntddsysenv/PXVARIABLE_NAME, ntddsysenv/XVARIABLE_NAME"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,19 +50,7 @@ req.typenames: XVARIABLE_NAME, *PXVARIABLE_NAME
 
 
 Stores the name of a system environment variable using
-    SysEnv device. This structure is used in the <a href="..\ntddsysenv\ni-ntddsysenv-ioctl_sysenv_enum_variables.md">IOCTL_SYSENV_ENUM_VARIABLES</a> request.
-
-
-## -syntax
-
-
-````
-typedef struct _XVARIABLE_NAME {
-  ULONG NextEntryOffset;
-  GUID  VendorGuid;
-  WCHAR Name[ANYSIZE_ARRAY];
-} XVARIABLE_NAME, *PXVARIABLE_NAME;
-````
+    SysEnv device. This structure is used in the <a href="https://msdn.microsoft.com/library/windows/hardware/mt791525">IOCTL_SYSENV_ENUM_VARIABLES</a> request.
 
 
 ## -struct-fields
@@ -72,7 +60,7 @@ typedef struct _XVARIABLE_NAME {
 
 ### -field NextEntryOffset
 
-The location of the next entry in the array of <b>XVARIABLE_NAME</b> structures reprieved by the  <a href="..\ntddsysenv\ni-ntddsysenv-ioctl_sysenv_enum_variables.md">IOCTL_SYSENV_ENUM_VARIABLES</a> request.
+The location of the next entry in the array of <b>XVARIABLE_NAME</b> structures reprieved by the  <a href="https://msdn.microsoft.com/library/windows/hardware/mt791525">IOCTL_SYSENV_ENUM_VARIABLES</a> request.
 
 
 ### -field VendorGuid
@@ -87,12 +75,11 @@ Name of the system environment variable.
 
 ## -see-also
 
-<a href="..\ntddsysenv\ni-ntddsysenv-ioctl_sysenv_enum_variables.md">IOCTL_SYSENV_ENUM_VARIABLES</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt791525">IOCTL_SYSENV_ENUM_VARIABLES</a>
  
 
  
-
 

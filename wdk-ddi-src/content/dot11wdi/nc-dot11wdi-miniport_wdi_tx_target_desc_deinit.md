@@ -7,7 +7,7 @@ old-location: netvista\miniportwditxtargetdescdeinit.htm
 old-project: netvista
 ms.assetid: C7C6C175-5E9D-4C6B-8A6B-F903DDE4DC78
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: MINIPORT_WDI_TX_TARGET_DESC_DEINIT, MiniportWdiTxTargetDescDeInit, MiniportWdiTxTargetDescDeInit callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiTxTargetDescDeInit, netvista.miniportwditxtargetdescdeinit
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,25 +50,11 @@ req.typenames: SYNTH_STATS, *PSYNTH_STATS
 
 
 The 
-  <i>MINIPORT_WDI_TX_TARGET_DESC_DEINIT</i> callback function informs the TxEngine that the target TX descriptors associated with the <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> (NBLs) in the NBL chain are no longer needed and can be freed.
+  <i>MINIPORT_WDI_TX_TARGET_DESC_DEINIT</i> callback function informs the TxEngine that the target TX descriptors associated with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> (NBLs) in the NBL chain are no longer needed and can be freed.
 
-This is a WDI miniport handler inside <a href="..\dot11wdi\ns-dot11wdi-_ndis_miniport_wdi_data_handlers.md">NDIS_MINIPORT_WDI_DATA_HANDLERS</a>.
+This is a WDI miniport handler inside <a href="https://msdn.microsoft.com/library/windows/hardware/mt297618">NDIS_MINIPORT_WDI_DATA_HANDLERS</a>.
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>MINIPORT_WDI_TX_TARGET_DESC_DEINIT</b> type. For more
    information, see the following Examples section.</div><div> </div>
-
-## -prototype
-
-
-````
-MINIPORT_WDI_TX_TARGET_DESC_DEINIT MiniportWdiTxTargetDescDeInit;
-
-VOID MiniportWdiTxTargetDescDeInit(
-  _In_ TAL_TXRX_HANDLE  MiniportTalTxRxContext,
-  _In_ PNET_BUFFER_LIST pNBL
-)
-{ ... }
-````
-
 
 ## -parameters
 
@@ -77,12 +63,12 @@ VOID MiniportWdiTxTargetDescDeInit(
 
 ### -param MiniportTalTxRxContext [in]
 
-TAL device handle returned by the IHV miniport in the <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_tal_txrx_initialize.md">MINIPORT_WDI_TAL_TXRX_INITIALIZE</a> callback function.
+TAL device handle returned by the IHV miniport in the <a href="https://msdn.microsoft.com/library/windows/hardware/mt297580">MINIPORT_WDI_TAL_TXRX_INITIALIZE</a> callback function.
 
 
 ### -param pNBL [in]
 
-Pointer to a <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> chain.
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> chain.
 
 
 ## -returns
@@ -99,7 +85,7 @@ This callback function does not return a value.
 
 
 <div class="alert"><b>Important</b>  The IHV miniport is not permitted to make any indication in the context of this call.
-The TxMgr serializes calls to <a href="..\dot11wdi\ns-dot11wdi-_ndis_miniport_wdi_data_handlers.md">TxTargetDescDeInitHandler</a>.</div>
+The TxMgr serializes calls to <a href="https://msdn.microsoft.com/DBDB5F08-9988-4D9B-A731-DA65BBA67813">TxTargetDescDeInitHandler</a>.</div>
 <div> </div>
 
 #### Examples
@@ -145,15 +131,14 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/8DF3E82E-761E-4A90-A789-1CB8EE8F0377">WDI TX path</a>
 
 
 
-<a href="..\dot11wdi\ns-dot11wdi-_ndis_miniport_wdi_data_handlers.md">NDIS_MINIPORT_WDI_DATA_HANDLERS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt297618">NDIS_MINIPORT_WDI_DATA_HANDLERS</a>
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a>
 
 
 
@@ -161,8 +146,8 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
+<a href="https://msdn.microsoft.com/8DF3E82E-761E-4A90-A789-1CB8EE8F0377">WDI TX path</a>
  
 
  
-
 

@@ -3,12 +3,12 @@ UID: NS:gnssdriver.GNSS_EVENT
 title: GNSS_EVENT
 author: windows-driver-content
 description: This structure defines the information required for a GNSS event.
-old-location: gnss\gnss_event.htm
-old-project: gnss
+old-location: sensors\gnss_event.htm
+old-project: sensors
 ms.assetid: FECF2444-CFF7-4B4D-AC3A-D3DD9B045AFD
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: "*PGNSS_EVENT, GNSS_EVENT, GNSS_EVENT structure [Sensor Devices], PGNSS_EVENT, PGNSS_EVENT structure pointer [Sensor Devices], gnss.gnss_event, gnssdriver/GNSS_EVENT, gnssdriver/PGNSS_EVENT"
+ms.date: 2/22/2018
+ms.keywords: "*PGNSS_EVENT, GNSS_EVENT, GNSS_EVENT structure [Sensor Devices], PGNSS_EVENT, PGNSS_EVENT structure pointer [Sensor Devices], gnssdriver/GNSS_EVENT, gnssdriver/PGNSS_EVENT, sensors.gnss_event"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -50,32 +50,6 @@ req.typenames: GNSS_EVENT, *PGNSS_EVENT
 
 
 This structure defines the information required for a  GNSS event.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  ULONG           Size;
-  ULONG           Version;
-  GNSS_EVENT_TYPE EventType;
-  ULONG           EventDataSize;
-  BYTE            Unused[512];
-  union {
-    GNSS_FIXDATA                       FixData;
-    GNSS_AGNSS_REQUEST_PARAM           AgnssRequest;
-    GNSS_NI_REQUEST_PARAM              NiRequest;
-    GNSS_ERRORINFO                     ErrorInformation;
-    GNSS_NMEA_DATA                     NmeaData;
-    GNSS_GEOFENCE_ALERT_DATA           GeofenceAlertData;
-    GNSS_BREADCRUMBING_ALERT_DATA      BreadcrumbAlertData;
-    GNSS_GEOFENCES_TRACKINGSTATUS_DATA GeofencesTrackingStatus;
-    GNSS_DRIVER_REQUEST_DATA           DriverRequestData;
-    BYTE                               CustomData[ANYSIZE_ARRAY];
-  };
-} GNSS_EVENT, *PGNSS_EVENT;
-````
 
 
 ## -struct-fields

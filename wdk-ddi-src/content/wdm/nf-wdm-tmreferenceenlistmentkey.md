@@ -7,7 +7,7 @@ old-location: kernel\tmreferenceenlistmentkey.htm
 old-project: kernel
 ms.assetid: c4fd9a56-8743-4099-b261-43c1afc2a5f1
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: TmReferenceEnlistmentKey, TmReferenceEnlistmentKey routine [Kernel-Mode Driver Architecture], kernel.tmreferenceenlistmentkey, ktm_ref_9e57ee05-1004-4d3d-9fa6-9eb473057bbf.xml, wdm/TmReferenceEnlistmentKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -55,17 +55,6 @@ req.product: Windows 10 or later.
 The <b>TmReferenceEnlistmentKey</b> routine increments the reference count for the key of a specified <a href="https://msdn.microsoft.com/80e61475-4bb7-4eaa-b9f1-ff95eac9bc77">enlistment object</a> and retrieves the key.
 
 
-## -syntax
-
-
-````
-NTSTATUS TmReferenceEnlistmentKey(
-  _In_  PKENLISTMENT Enlistment,
-  _Out_ PVOID        *Key
-);
-````
-
-
 ## -parameters
 
 
@@ -73,12 +62,12 @@ NTSTATUS TmReferenceEnlistmentKey(
 
 ### -param Enlistment [in]
 
-A pointer to an enlistment object. Your component can receive this pointer as input to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff561077">ResourceManagerNotification</a> callback routine. Alternatively, your component can call <a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a> and supply the object handle that a previous call to <a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>, <a href="..\wdm\nf-wdm-tmcreateenlistment.md">TmCreateEnlistment</a>, or <a href="..\wdm\nf-wdm-zwopenenlistment.md">ZwOpenEnlistment</a> provided.
+A pointer to an enlistment object. Your component can receive this pointer as input to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff561077">ResourceManagerNotification</a> callback routine. Alternatively, your component can call <a href="https://msdn.microsoft.com/library/windows/hardware/ff558679">ObReferenceObjectByHandle</a> and supply the object handle that a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff566422">ZwCreateEnlistment</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff564669">TmCreateEnlistment</a>, or <a href="https://msdn.microsoft.com/library/windows/hardware/ff567008">ZwOpenEnlistment</a> provided.
 
 
 ### -param Key [out]
 
-A pointer to a variable that receives the enlistment object's enlistment key. The caller assigns an enlistment key when it calls <a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a> or <a href="..\wdm\nf-wdm-tmcreateenlistment.md">TmCreateEnlistment</a>.
+A pointer to a variable that receives the enlistment object's enlistment key. The caller assigns an enlistment key when it calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff566422">ZwCreateEnlistment</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff564669">TmCreateEnlistment</a>.
 
 
 ## -returns
@@ -137,9 +126,9 @@ The routine might return other <a href="https://msdn.microsoft.com/library/windo
 
 
 
-The <b>TmReferenceEnlistmentKey</b> routine increments the reference count for an enlistment object's key value, and the <a href="..\wdm\nf-wdm-tmdereferenceenlistmentkey.md">TmDereferenceEnlistmentKey</a> routine decrements the count. 
+The <b>TmReferenceEnlistmentKey</b> routine increments the reference count for an enlistment object's key value, and the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564671">TmDereferenceEnlistmentKey</a> routine decrements the count. 
 
-If a resource manager has defined a key value for an enlistment, the resource manager receives the key value when it calls <a href="..\wdm\nf-wdm-zwgetnotificationresourcemanager.md">ZwGetNotificationResourceManager</a> or when KTM calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561077">ResourceManagerNotification</a> callback routine.
+If a resource manager has defined a key value for an enlistment, the resource manager receives the key value when it calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff566467">ZwGetNotificationResourceManager</a> or when KTM calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561077">ResourceManagerNotification</a> callback routine.
 
 While a resource manager is processing a notification, it might use the key as a pointer to a temporary memory allocation, and it might use the reference count to determine when it should deallocate the memory.
 
@@ -150,23 +139,10 @@ For information about when to use KTM's <b>Tm<i>Xxx</i></b> routines instead of 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-tmcreateenlistment.md">TmCreateEnlistment</a>
 
 
 
-<a href="..\wdm\nf-wdm-tmdereferenceenlistmentkey.md">TmDereferenceEnlistmentKey</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>
-
-
-
-<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwopenenlistment.md">ZwOpenEnlistment</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558679">ObReferenceObjectByHandle</a>
 
 
 
@@ -174,8 +150,20 @@ For information about when to use KTM's <b>Tm<i>Xxx</i></b> routines instead of 
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564669">TmCreateEnlistment</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564671">TmDereferenceEnlistmentKey</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566422">ZwCreateEnlistment</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567008">ZwOpenEnlistment</a>
  
 
  
-
 

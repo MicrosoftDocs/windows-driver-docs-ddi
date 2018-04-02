@@ -7,7 +7,7 @@ old-location: netvista\wdi_frame_payload_type.htm
 old-project: netvista
 ms.assetid: 28aef1bd-915a-4f05-a4b0-bec63ddfdfb5
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: WDI_FRAME_MSDU, WDI_FRAME_MSDU_FRAGMENT, WDI_FRAME_PAYLOAD_TYPE, WDI_FRAME_PAYLOAD_TYPE enumeration [Network Drivers Starting with Windows Vista], _WDI_FRAME_PAYLOAD_TYPE, dot11wdi/WDI_FRAME_MSDU, dot11wdi/WDI_FRAME_MSDU_FRAGMENT, dot11wdi/WDI_FRAME_PAYLOAD_TYPE, netvista.wdi_frame_payload_type, netvista.wifi_frame_payload_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,17 +50,6 @@ req.typenames: WDI_FRAME_PAYLOAD_TYPE
 
 
 The WDI_FRAME_PAYLOAD_TYPE enumeration defines the frame payload type.
-
-
-## -syntax
-
-
-````
-typedef enum _WDI_FRAME_PAYLOAD_TYPE { 
-  WDI_FRAME_MSDU           = 0,
-  WDI_FRAME_MSDU_FRAGMENT  = 1
-} WDI_FRAME_PAYLOAD_TYPE;
-````
 
 
 ## -enum-fields

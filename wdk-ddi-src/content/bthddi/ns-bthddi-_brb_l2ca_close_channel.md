@@ -52,18 +52,6 @@ req.typenames:
 The _BRB_L2CA_CLOSE_CHANNEL structure describes an open L2CAP channel to close.
 
 
-## -syntax
-
-
-````
-struct _BRB_L2CA_CLOSE_CHANNEL {
-  BRB_HEADER           Hdr;
-  BTH_ADDR             BtAddress;
-  L2CAP_CHANNEL_HANDLE ChannelHandle;
-};
-````
-
-
 ## -struct-fields
 
 
@@ -72,7 +60,7 @@ struct _BRB_L2CA_CLOSE_CHANNEL {
 ### -field Hdr
 
 A 
-     <a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a> structure that contains information
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536612">BRB_HEADER</a> structure that contains information
      about the current BRB.
 
 
@@ -106,6 +94,13 @@ A <b>BRB_L2CA_CLOSE_CHANNEL</b> request can be made for a channel that was initi
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536612">BRB_HEADER</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536614">BRB_L2CA_CLOSE_CHANNEL</a>
 
 
@@ -116,15 +111,7 @@ A <b>BRB_L2CA_CLOSE_CHANNEL</b> request can be made for a channel that was initi
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536616">
    BRB_L2CA_OPEN_CHANNEL_RESPONSE</a>
-
-
-
-<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
-
-
-
  
 
  
-
 

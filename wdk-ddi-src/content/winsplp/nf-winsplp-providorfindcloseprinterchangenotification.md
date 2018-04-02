@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 
 
 
-## -syntax
-
-
-````
-BOOL WINAPI ProvidorFindClosePrinterChangeNotification(
-  _In_ HANDLE hPrinter
-);
-````
-
-
 ## -parameters
 
 

@@ -52,18 +52,6 @@ req.typenames: PosStatisticsHeader
 This structure defines Unified Point of Service (UPOS) standard information about a device. This structure is the header for an incoming statistic.
 
 
-## -syntax
-
-
-````
-typedef struct _PosStatisticsHeader {
-  UINT32               EntryCount;
-  PosDeviceInformation DeviceInformation;
-  UINT32               DataLength;
-} PosStatisticsHeader;
-````
-
-
 ## -struct-fields
 
 
@@ -76,10 +64,10 @@ Indicates the number of statistics that follow this header.
 
 ### -field DeviceInformation
 
-A <a href="..\pointofservicecommontypes\ns-pointofservicecommontypes-_posdeviceinformation.md">PosDeviceInformation</a> structure that contains UPOS standard information about the device, such as its category, manufacturer, and firmware revision. 
+A <a href="https://msdn.microsoft.com/library/windows/hardware/dn772217">PosDeviceInformation</a> structure that contains UPOS standard information about the device, such as its category, manufacturer, and firmware revision. 
 
 
 ### -field DataLength
 
-Indicates the length, in bytes, of the <b>PosStatisticsHeader</b> and the buffer of <a href="..\pointofservicedriverinterface\ns-pointofservicedriverinterface-_posvaluestatisticsentry.md">PosValueStatisticsEntry</a> that follow this structure in memory.
+Indicates the length, in bytes, of the <b>PosStatisticsHeader</b> and the buffer of <a href="https://msdn.microsoft.com/library/windows/hardware/dn772322">PosValueStatisticsEntry</a> that follow this structure in memory.
 

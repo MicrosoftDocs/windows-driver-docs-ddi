@@ -56,16 +56,6 @@ Gets the setting that indicates whether or not to show the print UI.
 This property is read-only.
 
 
-## -syntax
-
-
-````
-HRESULT get_DisplayUI(
-  [out, retval] BOOL *pbShow
-);
-````
-
-
 ## -parameters
 
 
@@ -80,12 +70,11 @@ Note that the <b>DisplayUI</b> property  corresponds to the psk:DisplayUI elemen
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintschemafeature.md">IPrintSchemaFeature</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451284">IPrintSchemaFeature</a>
  
 
  
-
 

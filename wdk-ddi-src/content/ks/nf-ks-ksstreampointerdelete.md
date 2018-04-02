@@ -53,16 +53,6 @@ req.typenames:
 The<b> KsStreamPointerDelete </b>function deletes a clone stream pointer, releasing a reference on the frame to which this stream pointer referred.
 
 
-## -syntax
-
-
-````
-void KsStreamPointerDelete(
-  _In_ PKSSTREAM_POINTER StreamPointer
-);
-````
-
-
 ## -parameters
 
 
@@ -70,7 +60,7 @@ void KsStreamPointerDelete(
 
 ### -param StreamPointer [in]
 
-A pointer to a <a href="..\ks\ns-ks-_ksstream_pointer.md">KSSTREAM_POINTER</a> structure representing the clone stream pointer to delete. Must be a clone stream pointer; cannot be the leading or trailing edge stream pointer.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff567139">KSSTREAM_POINTER</a> structure representing the clone stream pointer to delete. Must be a clone stream pointer; cannot be the leading or trailing edge stream pointer.
 
 
 ## -returns
@@ -97,20 +87,19 @@ Also see <a href="https://msdn.microsoft.com/4bac68a0-34d2-431a-9ed9-8a42751a736
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kspingettrailingedgestreampointer.md">KsPinGetTrailingEdgeStreamPointer</a>
 
 
 
-<a href="..\ks\nf-ks-ksstreampointerclone.md">KsStreamPointerClone</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563513">KsPinGetLeadingEdgeStreamPointer</a>
 
 
 
-<a href="..\ks\nf-ks-kspingetleadingedgestreampointer.md">KsPinGetLeadingEdgeStreamPointer</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563518">KsPinGetTrailingEdgeStreamPointer</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn892389">KsStreamPointerClone</a>
  
 
  
-
 

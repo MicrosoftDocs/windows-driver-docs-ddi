@@ -7,7 +7,7 @@ old-location: debugger\getsymbolentriesbyname.htm
 old-project: debugger
 ms.assetid: 90e6c1aa-30d5-40e7-bc35-92b0359485e0
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: GetSymbolEntriesByName method [Windows Debugging], GetSymbolEntriesByName method [Windows Debugging], IDebugSymbols3 interface, GetSymbolEntriesByName,IDebugSymbols3.GetSymbolEntriesByName, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetSymbolEntriesByName method, IDebugSymbols3::GetSymbolEntriesByName, IDebugSymbols_4c157d74-d5e8-43d5-87f9-5ad089adb4a0.xml, dbgeng/IDebugSymbols3::GetSymbolEntriesByName, debugger.getsymbolentriesbyname
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,20 +52,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 The <b>GetSymbolEntriesByName</b>  method returns the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558824">symbols</a> whose names match a given pattern.
 
 
-## -syntax
-
-
-````
-HRESULT GetSymbolEntriesByName(
-  [in]            PCSTR                Symbol,
-  [in]            ULONG                Flags,
-  [out, optional] PDEBUG_MODULE_AND_ID Ids,
-  [in]            ULONG                IdsCount,
-  [out, optional] PULONG               Entries
-);
-````
-
-
 ## -parameters
 
 
@@ -83,7 +69,7 @@ Set to zero.
 
 ### -param Ids [out, optional]
 
-Receives the symbols.  This is an array of <i>IdsCount</i> entries of type <a href="..\dbgeng\ns-dbgeng-_debug_module_and_id.md">DEBUG_MODULE_AND_ID</a>.  If <i>Ids</i> is <b>NULL</b>, this information is not returned.
+Receives the symbols.  This is an array of <i>IdsCount</i> entries of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff541511">DEBUG_MODULE_AND_ID</a>.  If <i>Ids</i> is <b>NULL</b>, this information is not returned.
 
 
 ### -param IdsCount [in]
@@ -135,7 +121,6 @@ For more information about symbols, see <a href="https://msdn.microsoft.com/libr
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 
 
@@ -143,8 +128,8 @@ For more information about symbols, see <a href="https://msdn.microsoft.com/libr
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550870">IDebugSymbols3</a>
  
 
  
-
 

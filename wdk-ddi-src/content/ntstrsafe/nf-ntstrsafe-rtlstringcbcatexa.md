@@ -7,7 +7,7 @@ old-location: kernel\rtlstringcbcatex.htm
 old-project: kernel
 ms.assetid: 9105d6b5-bee3-4fcd-b548-4d403731654d
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: RtlStringCbCatEx, RtlStringCbCatExA, RtlStringCbCatExW, RtlStringCbCatExW function [Kernel-Mode Driver Architecture], STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, kernel.rtlstringcbcatex, ntstrsafe/RtlStringCbCatExA, ntstrsafe/RtlStringCbCatExW, safestrings_fd0da08e-4624-41e0-be56-e9018e615725.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,21 +53,6 @@ req.typenames: SYSTEM_POWER_STATE_CONTEXT, *PSYSTEM_POWER_STATE_CONTEXT
 
 
 The <b>RtlStringCbCatExW</b> and <b>RtlStringCbCatExA</b> functions concatenate two byte-counted strings. 
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlStringCbCatExW(
-  _Inout_opt_ LPTSTR  pszDest,
-  _In_        size_t  cbDest,
-  _In_opt_    LPCTSTR pszSrc,
-  _Out_opt_   LPTSTR  *ppszDestEnd,
-  _Out_opt_   size_t  *pcbRemaining,
-  _In_        DWORD   dwFlags
-);
-````
 
 
 ## -parameters
@@ -245,7 +230,7 @@ The function returns the STATUS_INVALID_PARAMETER when:
 </ul>
 Because <b>RtlStringCbCatExW</b> and <b>RtlStringCbCatExA </b>receive the size of the destination buffer as input, they will not write past the end of the buffer. 
 
-<b>RtlStringCbCatEx</b> adds to the functionality of <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbcatw.md">RtlStringCbCat</a> by returning a pointer to the end of the destination string, as well as the number of bytes left unused in that string. Flags can also be passed to the function for additional control.
+<b>RtlStringCbCatEx</b> adds to the functionality of <a href="https://msdn.microsoft.com/library/windows/hardware/ff562795">RtlStringCbCat</a> by returning a pointer to the end of the destination string, as well as the number of bytes left unused in that string. Flags can also be passed to the function for additional control.
 
 Use <b>RtlStringCbCatExW</b> to handle Unicode strings and <b>RtlStringCbCatExA</b> to handle ANSI strings. The form to use is determined by your data, as shown in the following table.
 
@@ -297,20 +282,19 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbcatnexw.md">RtlStringCbCatNEx</a>
 
 
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchcatexw.md">RtlStringCchCatEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562795">RtlStringCbCat</a>
 
 
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbcatw.md">RtlStringCbCat</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562802">RtlStringCbCatNEx</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562835">RtlStringCchCatEx</a>
  
 
  
-
 

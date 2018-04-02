@@ -7,7 +7,7 @@ old-location: ifsk\rtlinitcodepagetable.htm
 old-project: ifsk
 ms.assetid: 247d2694-f43f-4c30-9831-7110a1f29935
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: RtlInitCodePageTable, RtlInitCodePageTable function [Installable File System Drivers], ifsk.rtlinitcodepagetable, ntifs/RtlInitCodePageTable, rtlref_e8e23ed7-9655-4aba-a5fa-3096995aafd9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,16 +50,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>RtlInitCodePageTable</b> routine is reserved for system use. 
-
-
-## -syntax
-
-
-````
-  RtlInitCodePageTable(
-    
-);
-````
 
 
 ## -parameters

@@ -7,7 +7,7 @@ old-location: kernel\kesetsystemaffinitythreadex.htm
 old-project: kernel
 ms.assetid: db7980c1-3da6-408e-a3a4-509bc9c0ef2e
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: KeSetSystemAffinityThreadEx, KeSetSystemAffinityThreadEx routine [Kernel-Mode Driver Architecture], k105_7718d4aa-a4f5-44ff-9663-c5f91810644f.xml, kernel.kesetsystemaffinitythreadex, wdm/KeSetSystemAffinityThreadEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,16 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>KeSetSystemAffinityThreadEx</b> routine sets the system affinity of the current thread.
-
-
-## -syntax
-
-
-````
-KAFFINITY KeSetSystemAffinityThreadEx(
-  _In_ KAFFINITY Affinity
-);
-````
 
 
 ## -parameters
@@ -110,7 +100,7 @@ At least one of the processors that is specified in the <i>Affinity</i> value is
 </ul>
 If either of these conditions is not met, the call to <b>KeSetSystemAffinityThreadEx</b> has no effect.
 
-Windows 7 and later versions of Windows support processor groups. Drivers that are designed to handle information about processor groups should use the <a href="..\wdm\nf-wdm-kesetsystemgroupaffinitythread.md">KeSetSystemGroupAffinityThread</a> routine, which specifies a processor group, instead of <b>KeSetSystemAffinityThreadEx</b>, which does not. However, the implementation of <b>KeSetSystemAffinityThreadEx</b> in Windows 7 and later versions of Windows provides compatibility for drivers that were written for earlier versions of Windows, which do not support processor groups. In this implementation, <b>KeSetSystemAffinityThreadEx</b> assigns the thread to group 0, and uses the affinity mask to specify a set of logical processors in this group on which the thread can run. The routine returns the previous group-relative affinity mask, but not the previous group.
+Windows 7 and later versions of Windows support processor groups. Drivers that are designed to handle information about processor groups should use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553275">KeSetSystemGroupAffinityThread</a> routine, which specifies a processor group, instead of <b>KeSetSystemAffinityThreadEx</b>, which does not. However, the implementation of <b>KeSetSystemAffinityThreadEx</b> in Windows 7 and later versions of Windows provides compatibility for drivers that were written for earlier versions of Windows, which do not support processor groups. In this implementation, <b>KeSetSystemAffinityThreadEx</b> assigns the thread to group 0, and uses the affinity mask to specify a set of logical processors in this group on which the thread can run. The routine returns the previous group-relative affinity mask, but not the previous group.
 
 If <b>KeSetSystemAffinityThreadEx</b> is called at IRQL &lt;= APC_LEVEL and the call is successful, the new affinity mask takes effect immediately. When the call returns, the calling thread is already running on a processor that is specified in the new affinity mask. If <b>KeSetSystemAffinityThreadEx</b> is called at IRQL = DISPATCH_LEVEL and the call is successful, the pending processor change is deferred until the caller lowers the IRQL below DISPATCH_LEVEL.
 
@@ -119,7 +109,6 @@ If <b>KeSetSystemAffinityThreadEx</b> is called at IRQL &lt;= APC_LEVEL and the 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kesetsystemgroupaffinitythread.md">KeSetSystemGroupAffinityThread</a>
 
 
 
@@ -127,16 +116,16 @@ If <b>KeSetSystemAffinityThreadEx</b> is called at IRQL &lt;= APC_LEVEL and the 
 
 
 
-<a href="..\wdm\nf-wdm-kereverttouseraffinitythreadex.md">KeRevertToUserAffinityThreadEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553190">KeRevertToUserAffinityThreadEx</a>
 
 
 
-<a href="..\wdm\nf-wdm-kesetsystemaffinitythread.md">KeSetSystemAffinityThread</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553267">KeSetSystemAffinityThread</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553275">KeSetSystemGroupAffinityThread</a>
  
 
  
-
 

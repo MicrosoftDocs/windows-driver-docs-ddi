@@ -7,7 +7,7 @@ old-location: audio\idrmaudiostream_setcontentid.htm
 old-project: audio
 ms.assetid: 0e9d13e8-c351-4730-8f00-6c149f824af0
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/19/2018
 ms.keywords: IDrmAudioStream, IDrmAudioStream interface [Audio Devices], SetContentId method, IDrmAudioStream::SetContentId, SetContentId method [Audio Devices], SetContentId method [Audio Devices], IDrmAudioStream interface, SetContentId,IDrmAudioStream.SetContentId, audio.idrmaudiostream_setcontentid, audmp-routines_66106418-566d-4203-a6d6-faae74a6db13.xml, drmk/IDrmAudioStream::SetContentId
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,17 +52,6 @@ req.typenames: WDI_TX_METADATA, *PWDI_TX_METADATA
 The <code>SetContentId</code> method sets the DRM content ID and its assigned DRM content rights on a KS audio stream.
 
 
-## -syntax
-
-
-````
-NTSTATUS SetContentId(
-  [in] ULONG       ContentId,
-  [in] PCDRMRIGHTS DrmRights
-);
-````
-
-
 ## -parameters
 
 
@@ -75,7 +64,7 @@ Specifies the DRM content ID. This parameter is an identifier that the DRM syste
 
 ### -param DrmRights [in]
 
-Pointer to a <a href="..\drmk\ns-drmk-tagdrmrights.md">DRMRIGHTS</a> structure specifying the rights granted by the content provider to the user for playing and copying DRM-protected content in this stream.
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff536355">DRMRIGHTS</a> structure specifying the rights granted by the content provider to the user for playing and copying DRM-protected content in this stream.
 
 
 ## -returns
@@ -104,36 +93,35 @@ For more information about using this method, see <a href="https://msdn.microsof
 
 ## -see-also
 
-<a href="..\drmk\nf-drmk-drmcreatecontentmixed.md">DrmCreateContentMixed</a>
 
 
 
-<a href="..\drmk\nn-drmk-idrmaudiostream.md">IDrmAudioStream</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536355">DRMRIGHTS</a>
 
 
 
-<a href="..\drmk\nf-drmk-drmforwardcontenttointerface.md">DrmForwardContentToInterface</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536348">DrmCreateContentMixed</a>
 
 
 
-<a href="..\drmk\nf-drmk-drmdestroycontent.md">DrmDestroyContent</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536349">DrmDestroyContent</a>
 
 
 
-<a href="..\drmk\nf-drmk-drmgetcontentrights.md">DrmGetContentRights</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536352">DrmForwardContentToFileObject</a>
 
 
 
-<a href="..\drmk\ns-drmk-tagdrmrights.md">DRMRIGHTS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536353">DrmForwardContentToInterface</a>
 
 
 
-<a href="..\drmk\nf-drmk-drmforwardcontenttofileobject.md">DrmForwardContentToFileObject</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536354">DrmGetContentRights</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536568">IDrmAudioStream</a>
  
 
  
-
 

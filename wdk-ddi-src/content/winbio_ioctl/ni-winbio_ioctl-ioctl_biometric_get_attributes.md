@@ -70,7 +70,7 @@ None.
 
 ### -output-buffer
 
-The <b>AssociatedIrp</b>.<b>SystemBuffer</b> member points to a buffer that contains a <a href="..\winbio_ioctl\ns-winbio_ioctl-_winbio_sensor_attributes.md">WINBIO_SENSOR_ATTRIBUTES</a> structure.
+The <b>AssociatedIrp</b>.<b>SystemBuffer</b> member points to a buffer that contains a <a href="https://msdn.microsoft.com/library/windows/hardware/ff536475">WINBIO_SENSOR_ATTRIBUTES</a> structure.
 
 
 ### -output-buffer-length
@@ -165,7 +165,7 @@ Any other failure that prevents the payload from being filled in.
 
 
 
-If the vendor-supplied driver passes back the entire payload, it should fill in the <b>WinBioHresult</b> member of <a href="..\winbio_ioctl\ns-winbio_ioctl-_winbio_sensor_attributes.md">WINBIO_SENSOR_ATTRIBUTES</a> with an HRESULT value indicating the status of the biometric operation.
+If the vendor-supplied driver passes back the entire payload, it should fill in the <b>WinBioHresult</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff536475">WINBIO_SENSOR_ATTRIBUTES</a> with an HRESULT value indicating the status of the biometric operation.
 
 
 

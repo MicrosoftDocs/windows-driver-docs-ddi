@@ -7,7 +7,7 @@ old-location: netvista\wwan_set_register_state.htm
 old-project: netvista
 ms.assetid: 617e80c2-2823-4393-81eb-b2cbd2b21be8
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PWWAN_SET_REGISTER_STATE, PWWAN_SET_REGISTER_STATE, PWWAN_SET_REGISTER_STATE structure pointer [Network Drivers Starting with Windows Vista], WWAN_SET_REGISTER_STATE, WWAN_SET_REGISTER_STATE structure [Network Drivers Starting with Windows Vista], WwanRef_17ed9aa3-5b69-4f1a-8c7e-fa39d6146615.xml, _WWAN_SET_REGISTER_STATE, netvista.wwan_set_register_state, wwan/PWWAN_SET_REGISTER_STATE, wwan/WWAN_SET_REGISTER_STATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -54,18 +54,6 @@ The WWAN_SET_REGISTER_STATE structure represents the command to set the MB devic
   and the network provider it should register with.
 
 
-## -syntax
-
-
-````
-typedef struct _WWAN_SET_REGISTER_STATE {
-  WCHAR                ProviderId[WWAN_PROVIDERID_LEN];
-  WWAN_REGISTER_ACTION RegisterAction;
-  ULONG                WwanDataClass;
-} WWAN_SET_REGISTER_STATE, *PWWAN_SET_REGISTER_STATE;
-````
-
-
 ## -struct-fields
 
 
@@ -101,7 +89,7 @@ The registration action that the miniport driver is requested to perform. If thi
 A bitmap that represents the data access technologies that are preferred for a connection. For a
      detailed list of values, see the 
      <b>WwanDataClass</b> member of 
-     <a href="..\wwan\ns-wwan-_wwan_device_caps.md">WWAN_DEVICE_CAPS</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571204">WWAN_DEVICE_CAPS</a>.
      
 
 When multiple data-classes are set as preferred, miniport drivers are expected register to the
@@ -112,16 +100,15 @@ When multiple data-classes are set as preferred, miniport drivers are expected r
 
 ## -see-also
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_set_register_state.md">NDIS_WWAN_SET_REGISTER_STATE</a>
 
 
 
-<a href="..\wwan\ne-wwan-_wwan_register_action.md">WWAN_REGISTER_ACTION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567926">NDIS_WWAN_SET_REGISTER_STATE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571228">WWAN_REGISTER_ACTION</a>
  
 
  
-
 

@@ -55,17 +55,6 @@ req.product: Windows 10 or later.
 The <b>WdfObjectGetTypedContextWorker</b> method is reserved for internal use only. Use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548749">WdfObjectGetTypedContext</a> macro instead.
 
 
-## -syntax
-
-
-````
-PVOID WdfObjectGetTypedContextWorker(
-  _In_ WDFOBJECT                      Handle,
-  _In_ PCWDF_OBJECT_CONTEXT_TYPE_INFO TypeInfo
-);
-````
-
-
 ## -parameters
 
 

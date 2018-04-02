@@ -7,7 +7,7 @@ old-location: storage\dsmsetloadbalancepolicy_out.htm
 old-project: storage
 ms.assetid: d3479656-310f-4e2d-a671-296bc3e2f1ab
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PDsmSetLoadBalancePolicy_OUT, DsmSetLoadBalancePolicy_OUT, DsmSetLoadBalancePolicy_OUT structure [Storage Devices], PDsmSetLoadBalancePolicy_OUT, PDsmSetLoadBalancePolicy_OUT structure pointer [Storage Devices], _DsmSetLoadBalancePolicy_OUT, mpiodisk/DsmSetLoadBalancePolicy_OUT, mpiodisk/PDsmSetLoadBalancePolicy_OUT, storage.dsmsetloadbalancepolicy_out, structs-scsibus_f22d33bc-ce52-4369-8dd2-085c393a9107.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,16 +50,6 @@ req.typenames: DsmSetLoadBalancePolicy_OUT, *PDsmSetLoadBalancePolicy_OUT
 
 
 The <b>DsmSetLoadBalancePolicy_OUT</b> structure reports the output parameter of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552670">DsmSetLoadBalancePolicy</a> method.
-
-
-## -syntax
-
-
-````
-typedef struct _DsmSetLoadBalancePolicy_OUT {
-  ULONG Status;
-} DsmSetLoadBalancePolicy_OUT, *PDsmSetLoadBalancePolicy_OUT;
-````
 
 
 ## -struct-fields

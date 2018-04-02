@@ -52,17 +52,6 @@ req.typenames: BDA_USERACTIVITY_INTERVAL, *P_BDA_USERACTIVITY_INTERVAL
 
 
 
-## -syntax
-
-
-````
-typedef struct _BDA_USERACTIVITY_INTERVAL {
-  PBDARESULT lResult;
-  ULONG      ulActivityInterval;
-} BDA_USERACTIVITY_INTERVAL, *P_BDA_USERACTIVITY_INTERVAL;
-````
-
-
 ## -struct-fields
 
 

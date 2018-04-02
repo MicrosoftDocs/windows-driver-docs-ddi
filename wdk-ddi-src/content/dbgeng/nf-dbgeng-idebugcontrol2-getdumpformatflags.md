@@ -7,7 +7,7 @@ old-location: debugger\getdumpformatflags.htm
 old-project: debugger
 ms.assetid: 86070c36-6702-42c8-b4fe-b3ef15ba418f
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: GetDumpFormatFlags method [Windows Debugging], GetDumpFormatFlags method [Windows Debugging], IDebugControl2 interface, GetDumpFormatFlags method [Windows Debugging], IDebugControl3 interface, GetDumpFormatFlags,IDebugControl2.GetDumpFormatFlags, IDebugControl2, IDebugControl2 interface [Windows Debugging], GetDumpFormatFlags method, IDebugControl2::GetDumpFormatFlags, IDebugControl3 interface [Windows Debugging], GetDumpFormatFlags method, IDebugControl3::GetDumpFormatFlags, IDebugControl_fc8bec39-ffc3-46bd-9d18-954f0420906f.xml, dbgeng/IDebugControl2::GetDumpFormatFlags, dbgeng/IDebugControl3::GetDumpFormatFlags, debugger.getdumpformatflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,16 +51,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetDumpFormatFlags</b> method returns the flags that describe what information is available in a dump file target.
-
-
-## -syntax
-
-
-````
-HRESULT GetDumpFormatFlags(
-  [out] PULONG FormatFlags
-);
-````
 
 
 ## -parameters
@@ -112,11 +102,14 @@ This method is only available when debugging crash dump files.  If the crash dum
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561389">WriteDumpFileWide</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550512">IDebugControl2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550519">IDebugControl3</a>
 
 
 
@@ -124,12 +117,8 @@ This method is only available when debugging crash dump files.  If the crash dum
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561389">WriteDumpFileWide</a>
  
 
  
-
 

@@ -52,17 +52,6 @@ req.typenames: CIP_CANCEL_FRAME, *PCIP_CANCEL_FRAME
 This structure is the input buffer in a cancel frame request. The request cancels an attached frame buffer. A frame can be canceled while the stream is running. If the canceled frame has already been sent, the protocol driver sets a status of STATUS_NOT_FOUND.
 
 
-## -syntax
-
-
-````
-typedef struct _CIP_CANCEL_FRAME {
-  HANDLE     hConnect;
-  PCIP_FRAME Frame;
-} CIP_CANCEL_FRAME, *PCIP_CANCEL_FRAME;
-````
-
-
 ## -struct-fields
 
 
@@ -80,12 +69,11 @@ Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff5370
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537008">AV_61883_REQUEST</a>
-
-
-
  
 
  
-
 

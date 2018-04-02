@@ -7,7 +7,7 @@ old-location: storage\storage_adapter_descriptor.htm
 old-project: storage
 ms.assetid: 83ef2a1a-f95e-4b05-8911-e5e900192630
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PSTORAGE_ADAPTER_DESCRIPTOR, PSTORAGE_ADAPTER_DESCRIPTOR structure pointer [Storage Devices], SRB_TYPE_SCSI_REQUEST_BLOCK, SRB_TYPE_STORAGE_REQUEST_BLOCK, STORAGE_ADAPTER_DESCRIPTOR, STORAGE_ADAPTER_DESCRIPTOR structure [Storage Devices], STORAGE_ADDRESS_TYPE_BTL8, _STORAGE_ADAPTER_DESCRIPTOR, ntddstor/PSTORAGE_ADAPTER_DESCRIPTOR, ntddstor/STORAGE_ADAPTER_DESCRIPTOR, storage.storage_adapter_descriptor, structs-general_196c7640-0a2d-4567-8958-1244c46b84a6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,30 +49,7 @@ req.typenames: STORAGE_ADAPTER_DESCRIPTOR, PSTORAGE_ADAPTER_DESCRIPTOR
 ## -description
 
 
-The <b>STORAGE_ADAPTER_DESCRIPTOR</b> structure is used in conjunction with the <a href="..\ntddstor\ni-ntddstor-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a> request to retrieve the storage adapter descriptor data for a device. 
-
-
-## -syntax
-
-
-````
-typedef struct _STORAGE_ADAPTER_DESCRIPTOR {
-  ULONG   Version;
-  ULONG   Size;
-  ULONG   MaximumTransferLength;
-  ULONG   MaximumPhysicalPages;
-  ULONG   AlignmentMask;
-  BOOLEAN AdapterUsesPio;
-  BOOLEAN AdapterScansDown;
-  BOOLEAN CommandQueueing;
-  BOOLEAN AcceleratedTransfer;
-  UCHAR   BusType;
-  USHORT  BusMajorVersion;
-  USHORT  BusMinorVersion;
-  UCHAR   SrbType;
-  UCHAR   AddressType;
-} STORAGE_ADAPTER_DESCRIPTOR, *PSTORAGE_ADAPTER_DESCRIPTOR;
-````
+The <b>STORAGE_ADAPTER_DESCRIPTOR</b> structure is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560590">IOCTL_STORAGE_QUERY_PROPERTY</a> request to retrieve the storage adapter descriptor data for a device. 
 
 
 ## -struct-fields
@@ -204,7 +181,7 @@ This member is valid starting with Windows 8.
 
 
 
-Storage class drivers issue a device-control request with the I/O control code <a href="..\ntddstor\ni-ntddstor-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a> to retrieve this structure, which contains configuration information from the HBA for data transfer operations. The structure can be retrieved either from the device object for the bus or from a functional device object (FDO), which forwards the request to the underlying bus.
+Storage class drivers issue a device-control request with the I/O control code <a href="https://msdn.microsoft.com/library/windows/hardware/ff560590">IOCTL_STORAGE_QUERY_PROPERTY</a> to retrieve this structure, which contains configuration information from the HBA for data transfer operations. The structure can be retrieved either from the device object for the bus or from a functional device object (FDO), which forwards the request to the underlying bus.
 
 If excessive protocol errors occur on an HBA that supports synchronous transfers (<b>AcceleratedTransfer</b> is <b>TRUE</b>), the storage class driver can disable synchronous transfers by setting SRB_FLAGS_DISABLE_SYNCH_TRANSFER in SRBs.
 
@@ -213,32 +190,31 @@ If excessive protocol errors occur on an HBA that supports synchronous transfers
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iobuilddeviceiocontrolrequest.md">IoBuildDeviceIoControlRequest</a>
 
 
 
-<a href="..\ntddstor\ns-ntddstor-_storage_adapter_descriptor.md">STORAGE_ADAPTER_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560590">IOCTL_STORAGE_QUERY_PROPERTY</a>
 
 
 
-<a href="..\ntddstor\ns-ntddstor-_storage_descriptor_header.md">STORAGE_DESCRIPTOR_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548318">IoBuildDeviceIoControlRequest</a>
 
 
 
-<a href="..\ntddstor\ns-ntddstor-_storage_device_descriptor.md">STORAGE_DEVICE_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566346">STORAGE_ADAPTER_DESCRIPTOR</a>
 
 
 
-<a href="..\ntddstor\ni-ntddstor-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566968">STORAGE_DESCRIPTOR_HEADER</a>
 
 
 
-<a href="..\ntddstor\ns-ntddstor-_storage_device_id_descriptor.md">STORAGE_DEVICE_ID_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566971">STORAGE_DEVICE_DESCRIPTOR</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566972">STORAGE_DEVICE_ID_DESCRIPTOR</a>
  
 
  
-
 

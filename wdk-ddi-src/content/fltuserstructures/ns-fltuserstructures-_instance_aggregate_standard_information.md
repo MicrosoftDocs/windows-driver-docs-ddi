@@ -7,7 +7,7 @@ old-location: ifsk\instance_aggregate_standard_information.htm
 old-project: ifsk
 ms.assetid: 35311ee7-d023-4b04-b510-a949ab9a40ca
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: "*PINSTANCE_AGGREGATE_STANDARD_INFORMATION, FltSystemStructures_b1c8bf6f-d693-4f15-ad58-9e31d593464b.xml, INSTANCE_AGGREGATE_STANDARD_INFORMATION, INSTANCE_AGGREGATE_STANDARD_INFORMATION structure [Installable File System Drivers], PINSTANCE_AGGREGATE_STANDARD_INFORMATION, PINSTANCE_AGGREGATE_STANDARD_INFORMATION structure pointer [Installable File System Drivers], SUPPORTED_FS_FEATURES_OFFLOAD_READ, SUPPORTED_FS_FEATURES_OFFLOAD_WRITE, _INSTANCE_AGGREGATE_STANDARD_INFORMATION, fltuserstructures/INSTANCE_AGGREGATE_STANDARD_INFORMATION, fltuserstructures/PINSTANCE_AGGREGATE_STANDARD_INFORMATION, ifsk.instance_aggregate_standard_information"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,47 +50,6 @@ req.typenames: INSTANCE_AGGREGATE_STANDARD_INFORMATION, *PINSTANCE_AGGREGATE_STA
 
 
 The caller-allocated INSTANCE_AGGREGATE_STANDARD_INFORMATION structure contains information for either a minifilter driver instance or a legacy filter driver.
-
-
-## -syntax
-
-
-````
-typedef struct _INSTANCE_AGGREGATE_STANDARD_INFORMATION {
-  ULONG NextEntryOffset;
-  ULONG Flags;
-  union {
-    struct {
-      ULONG               Flags;
-      ULONG               FrameID;
-      FLT_FILESYSTEM_TYPE VolumeFileSystemType;
-      USHORT              InstanceNameLength;
-      USHORT              InstanceNameBufferOffset;
-      USHORT              AltitudeLength;
-      USHORT              AltitudeBufferOffset;
-      USHORT              VolumeNameLength;
-      USHORT              VolumeNameBufferOffset;
-      USHORT              FilterNameLength;
-      USHORT              FilterNameBufferOffset;
-#if FLT_MGR_WIN8
-      ULONG               SupportedFeatures;
-    } MiniFilter;
-#endif 
-    struct {
-      ULONG  Flags;
-      USHORT AltitudeLength;
-      USHORT AltitudeBufferOffset;
-      USHORT VolumeNameLength;
-      USHORT VolumeNameBufferOffset;
-      USHORT FilterNameLength;
-      USHORT FilterNameBufferOffset;
-#if FLT_MGR_WIN8
-      ULONG  SupportedFeatures;
-#endif 
-    } LegacyFilter;
-  } Type;
-} INSTANCE_AGGREGATE_STANDARD_INFORMATION, *PINSTANCE_AGGREGATE_STANDARD_INFORMATION;
-````
 
 
 ## -struct-fields
@@ -168,7 +127,7 @@ Zero-based index used to identify the filter manager frame that the minifilter i
 
 ### -field Type.MiniFilter.VolumeFileSystemType
 
-Identifies the type of file system the minifilter instance is attached to.  The possible values for this member are listed in <a href="..\fltuserstructures\ne-fltuserstructures-_flt_filesystem_type.md">FLT_FILESYSTEM_TYPE</a>.
+Identifies the type of file system the minifilter instance is attached to.  The possible values for this member are listed in <a href="https://msdn.microsoft.com/library/windows/hardware/ff625876">FLT_FILESYSTEM_TYPE</a>.
 
 
 ### -field Type.MiniFilter.InstanceNameLength
@@ -390,19 +349,19 @@ A structure of type INSTANCE_AGGREGATE_STANDARD_INFORMATION can be allocated fro
 </li>
 <li>
 
-<a href="..\fltkernel\nf-fltkernel-fltenumerateinstanceinformationbyfilter.md">FltEnumerateInstanceInformationByFilter</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542071">FltEnumerateInstanceInformationByFilter</a>
 
 
 </li>
 <li>
 
-<a href="..\fltkernel\nf-fltkernel-fltenumerateinstanceinformationbyvolume.md">FltEnumerateInstanceInformationByVolume</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542082">FltEnumerateInstanceInformationByVolume</a>
 
 
 </li>
 <li>
 
-<a href="..\fltkernel\nf-fltkernel-fltgetinstanceinformation.md">FltGetInstanceInformation</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543062">FltGetInstanceInformation</a>
 
 
 </li>
@@ -414,39 +373,6 @@ The INSTANCE_AGGREGATE_STANDARD_INFORMATION structure must be aligned on a LONGL
 
 ## -see-also
 
-<a href="..\fltuserstructures\ns-fltuserstructures-_instance_basic_information.md">INSTANCE_BASIC_INFORMATION</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltenumerateinstanceinformationbyvolume.md">FltEnumerateInstanceInformationByVolume</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541493">FilterInstanceFindNext</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541541">FilterVolumeInstanceFindFirst</a>
-
-
-
-<a href="..\fltuserstructures\ns-fltuserstructures-_instance_full_information.md">INSTANCE_FULL_INFORMATION</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541499">FilterInstanceGetInformation</a>
-
-
-
-<a href="..\fltuserstructures\ns-fltuserstructures-_instance_partial_information.md">INSTANCE_PARTIAL_INFORMATION</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltenumerateinstanceinformationbyfilter.md">FltEnumerateInstanceInformationByFilter</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltgetinstanceinformation.md">FltGetInstanceInformation</a>
 
 
 
@@ -454,12 +380,44 @@ The INSTANCE_AGGREGATE_STANDARD_INFORMATION structure must be aligned on a LONGL
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541493">FilterInstanceFindNext</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541499">FilterInstanceGetInformation</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541541">FilterVolumeInstanceFindFirst</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff541551">FilterVolumeInstanceFindNext</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542071">FltEnumerateInstanceInformationByFilter</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542082">FltEnumerateInstanceInformationByVolume</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543062">FltGetInstanceInformation</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548176">INSTANCE_BASIC_INFORMATION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548185">INSTANCE_FULL_INFORMATION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548190">INSTANCE_PARTIAL_INFORMATION</a>
  
 
  
-
 

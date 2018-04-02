@@ -7,7 +7,7 @@ old-location: dtf\iwdtfsimpleiostressaction2_waitasynccompletion.htm
 old-project: dtf
 ms.assetid: 7aaf56cf-ba31-495b-9f54-35e9238f188a
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/29/2018
 ms.keywords: IWDTFSimpleIOStressAction2, IWDTFSimpleIOStressAction2 interface [Windows Device Testing Framework], WaitAsyncCompletion method, IWDTFSimpleIOStressAction2::WaitAsyncCompletion, Microsoft.WDTF.IWDTFSimpleIOStressAction2.WaitAsyncCompletion, Microsoft::WDTF::IWDTFSimpleIOStressAction2::WaitAsyncCompletion, WaitAsyncCompletion method [Windows Device Testing Framework], WaitAsyncCompletion method [Windows Device Testing Framework], IWDTFSimpleIOStressAction2 interface, WaitAsyncCompletion,IWDTFSimpleIOStressAction2.WaitAsyncCompletion, dtf.iwdtfsimpleiostressaction2_waitasynccompletion, wdtfinterfaces/IWDTFSimpleIOStressAction2::WaitAsyncCompletion
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 Waits for the completion of any of the asynchronous events.
 
 
-## -syntax
-
-
-````
-HRESULT WaitAsyncCompletion(
-  [out, retval] VARIANT_BOOL *pResult
-);
-````
-
-
 ## -parameters
 
 
@@ -84,12 +74,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\wdtfinterfaces\nn-wdtfinterfaces-iwdtfsimpleiostressaction2.md">IWDTFSimpleIOStressAction2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451157">IWDTFSimpleIOStressAction2</a>
  
 
  
-
 

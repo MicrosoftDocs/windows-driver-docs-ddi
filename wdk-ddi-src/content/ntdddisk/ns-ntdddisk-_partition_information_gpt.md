@@ -7,7 +7,7 @@ old-location: storage\partition_information_gpt.htm
 old-project: storage
 ms.assetid: f2d76b4c-7acd-4701-b978-3d29dc8cde0b
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PPARTITION_INFORMATION_GPT, PARTITION_INFORMATION_GPT, PARTITION_INFORMATION_GPT structure [Storage Devices], PPARTITION_INFORMATION_GPT, PPARTITION_INFORMATION_GPT structure pointer [Storage Devices], SET_PARTITION_INFORMATION_GPT, _PARTITION_INFORMATION_GPT, ntdddisk/PARTITION_INFORMATION_GPT, ntdddisk/PPARTITION_INFORMATION_GPT, storage.partition_information_gpt, structs-disk_dad0a2a5-4351-4940-af39-28f7a4005c14.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,19 +52,6 @@ req.typenames: PARTITION_INFORMATION_GPT, *PPARTITION_INFORMATION_GPT
 PARTITION_INFORMATION_GPT contains information for a GUID Partition Table partition that is not held in common with a Master Boot Record partition.
 
 
-## -syntax
-
-
-````
-typedef struct _PARTITION_INFORMATION_GPT {
-  GUID    PartitionType;
-  GUID    PartitionId;
-  ULONG64 Attributes;
-  WCHAR   Name[36];
-} PARTITION_INFORMATION_GPT, *PPARTITION_INFORMATION_GPT;
-````
-
-
 ## -struct-fields
 
 
@@ -92,16 +79,15 @@ Specifies the partition name in Unicode.
 
 ## -see-also
 
-<a href="..\ntdddisk\ns-ntdddisk-_partition_information_ex.md">PARTITION_INFORMATION_EX</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-ioreadpartitiontableex.md">IoReadPartitionTableEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561454">IoReadPartitionTableEx</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563754">PARTITION_INFORMATION_EX</a>
  
 
  
-
 

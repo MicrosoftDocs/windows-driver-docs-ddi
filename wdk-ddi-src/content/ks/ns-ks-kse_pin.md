@@ -52,18 +52,6 @@ req.typenames: KSE_PIN, *PKSE_PIN
 
 
 
-## -syntax
-
-
-````
-typedef struct {
-  ULONG Event;
-  ULONG PinId;
-  ULONG Reserved;
-} KSE_PIN, *PKSE_PIN;
-````
-
-
 ## -struct-fields
 
 

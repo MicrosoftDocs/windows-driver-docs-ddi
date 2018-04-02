@@ -7,7 +7,7 @@ old-location: storage\ioctl_dvd_get_region.htm
 old-project: storage
 ms.assetid: 2c3d6962-1d72-47e7-aa7c-226e5a3aa3d4
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_DVD_GET_REGION, IOCTL_DVD_GET_REGION control code [Storage Devices], k307_74494f73-c80e-4ca6-adec-03d4ca6d335e.xml, ntddcdvd/IOCTL_DVD_GET_REGION, storage.ioctl_dvd_get_region
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.typenames: DVD_STRUCTURE_FORMAT, *PDVD_STRUCTURE_FORMAT
 
 
 
-Returns Region Playback Control (RPC) information for a DVD device, such as whether the player supports the RPC2 standard, the current region code of the player, and the remaining number of times the player's region code can be changed by the user. This IOCTL also indicates the region code of the currently mounted disc. This only works if a DVD is in the drive. The <a href="..\ntddcdvd\ni-ntddcdvd-ioctl_dvd_read_key.md">IOCTL_DVD_READ_KEY</a> operation should be used to obtain only the device region code. If the drive region has not been set previously (if it is still at factory default) and if the inserted media has a region, the device region will be set to the current media region.
+Returns Region Playback Control (RPC) information for a DVD device, such as whether the player supports the RPC2 standard, the current region code of the player, and the remaining number of times the player's region code can be changed by the user. This IOCTL also indicates the region code of the currently mounted disc. This only works if a DVD is in the drive. The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560425">IOCTL_DVD_READ_KEY</a> operation should be used to obtain only the device region code. If the drive region has not been set previously (if it is still at factory default) and if the inserted media has a region, the device region will be set to the current media region.
 
 
 
@@ -72,7 +72,7 @@ None.
 
 ### -output-buffer
 
-The driver returns the <a href="..\ntddcdvd\ns-ntddcdvd-_dvd_region.md">DVD_REGION</a> data in the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>.
+The driver returns the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553741">DVD_REGION</a> data in the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>.
 
 
 ### -output-buffer-length
@@ -105,12 +105,11 @@ The <b>Information</b> field is set to the number of bytes transferred. The <b>S
 
 ## -see-also
 
-<a href="..\ntddcdvd\ns-ntddcdvd-_dvd_region.md">DVD_REGION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553741">DVD_REGION</a>
  
 
  
-
 

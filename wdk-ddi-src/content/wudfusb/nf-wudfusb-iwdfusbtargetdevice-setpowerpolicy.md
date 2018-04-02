@@ -55,18 +55,6 @@ req.product: Windows 10 or later.
 The <b>SetPowerPolicy</b> method sets the WinUsb power policy.
 
 
-## -syntax
-
-
-````
-HRESULT SetPowerPolicy(
-  [in] ULONG PolicyType,
-  [in] ULONG ValueLength,
-  [in] PVOID Value
-);
-````
-
-
 ## -parameters
 
 
@@ -156,7 +144,10 @@ The <b>SetPowerPolicy</b> method generates a UMDF request and synchronously send
 
 ## -see-also
 
-<a href="..\wudfusb\nn-wudfusb-iwdfusbtargetdevice.md">IWDFUsbTargetDevice</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560362">IWDFUsbTargetDevice</a>
 
 
 
@@ -165,11 +156,7 @@ The <b>SetPowerPolicy</b> method generates a UMDF request and synchronously send
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540309">WinUsb_SetPowerPolicy</a>
-
-
-
  
 
  
-
 

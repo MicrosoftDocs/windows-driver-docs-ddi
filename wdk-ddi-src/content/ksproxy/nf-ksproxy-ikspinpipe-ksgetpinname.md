@@ -54,16 +54,6 @@ req.typenames: PIPE_STATE
 Returns the name of a pin. 
 
 
-## -syntax
-
-
-````
-HRESULT KsGetPinName(
-    
-);
-````
-
-
 ## -parameters
 
 
@@ -82,12 +72,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\ksproxy\nn-ksproxy-ikspinpipe.md">IKsPinPipe</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559922">IKsPinPipe</a>
  
 
  
-
 

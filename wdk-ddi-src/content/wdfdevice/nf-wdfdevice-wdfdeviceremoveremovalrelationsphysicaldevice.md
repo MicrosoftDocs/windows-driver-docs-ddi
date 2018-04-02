@@ -56,17 +56,6 @@ req.product: Windows 10 or later.
 The <b>WdfDeviceRemoveRemovalRelationsPhysicalDevice</b> method removes a specified device from the list of devices that must be removed when another specified device is removed. 
 
 
-## -syntax
-
-
-````
-VOID WdfDeviceRemoveRemovalRelationsPhysicalDevice(
-  _In_ WDFDEVICE      Device,
-  _In_ PDEVICE_OBJECT PhysicalDevice
-);
-````
-
-
 ## -parameters
 
 
@@ -79,7 +68,7 @@ A handle to a framework device object.
 
 ### -param PhysicalDevice [in]
 
-A pointer to a caller-supplied <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure that represents a physical device object (PDO).
+A pointer to a caller-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a> structure that represents a physical device object (PDO).
 
 
 ## -returns
@@ -95,16 +84,15 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 ## -see-also
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceclearremovalrelationsdevices.md">WdfDeviceClearRemovalRelationsDevices</a>
 
 
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceaddremovalrelationsphysicaldevice.md">WdfDeviceAddRemovalRelationsPhysicalDevice</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545875">WdfDeviceAddRemovalRelationsPhysicalDevice</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545914">WdfDeviceClearRemovalRelationsDevices</a>
  
 
  
-
 

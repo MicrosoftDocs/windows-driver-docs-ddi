@@ -52,17 +52,6 @@ req.typenames: MSR_SUPPORTED_CARD_TYPES, *PMSR_SUPPORTED_CARD_TYPES
 This structure defines the types of magnetic stripe cards supported by the reader.
 
 
-## -syntax
-
-
-````
-typedef struct _MSR_SUPPORTED_CARD_TYPES {
-  unsigned char Count;
-  unsigned int  CardTypes[MSR_CARD_TYPE_MAX_COUNT];
-} MSR_SUPPORTED_CARD_TYPES, *PMSR_SUPPORTED_CARD_TYPES;
-````
-
-
 ## -struct-fields
 
 

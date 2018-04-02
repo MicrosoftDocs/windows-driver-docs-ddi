@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 The driver can use this routine to decrement the reference count of the PDO.
 
 
-## -prototype
-
-
-````
-PFNDEREFERENCEDEVICEOBJECT KStrDereferenceDeviceObject;
-
-VOID KStrDereferenceDeviceObject(
-  _In_ PVOID Context
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -89,7 +76,7 @@ Returns STATUS_SUCCESS if the request is handled. Otherwise returns an appropria
 
 
 
-Minidrivers access this method through the <b>DereferenceDeviceObject</b> member of the <a href="..\ks\ns-ks-bus_interface_reference.md">BUS_INTERFACE_REFERENCE</a> structure.
+Minidrivers access this method through the <b>DereferenceDeviceObject</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557584">BUS_INTERFACE_REFERENCE</a> structure.
 
 When the PDO's reference count is 0, it becomes eligible for removal. Note that this condition does not guarantee removal.
 

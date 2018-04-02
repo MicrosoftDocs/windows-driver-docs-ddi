@@ -7,7 +7,7 @@ old-location: netvista\rildisplayinfoparammask.htm
 old-project: netvista
 ms.assetid: deb9da97-7a61-4642-bebd-ab0e4082b410
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: RILDISPLAYINFOPARAMMASK, RILDISPLAYINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_DISPLAY_ALL, RIL_PARAM_DISPLAY_MESSAGE, RIL_PARAM_DISPLAY_MESSAGESIZE, RIL_PARAM_DISPLAY_TAG, RIL_PARAM_DISPLAY_TYPE, netvista.rildisplayinfoparammask, ntddrilapitypes/RILDISPLAYINFOPARAMMASK, ntddrilapitypes/RIL_PARAM_DISPLAY_ALL, ntddrilapitypes/RIL_PARAM_DISPLAY_MESSAGE, ntddrilapitypes/RIL_PARAM_DISPLAY_MESSAGESIZE, ntddrilapitypes/RIL_PARAM_DISPLAY_TAG, ntddrilapitypes/RIL_PARAM_DISPLAY_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,20 +51,6 @@ req.product: Windows 10 or later.
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef enum _RILDISPLAYINFOPARAMMASK { 
-  RIL_PARAM_DISPLAY_TYPE,
-  RIL_PARAM_DISPLAY_TAG,
-  RIL_PARAM_DISPLAY_MESSAGESIZE,
-  RIL_PARAM_DISPLAY_MESSAGE,
-  RIL_PARAM_DISPLAY_ALL
-} RILDISPLAYINFOPARAMMASK;
-````
 
 
 ## -enum-fields

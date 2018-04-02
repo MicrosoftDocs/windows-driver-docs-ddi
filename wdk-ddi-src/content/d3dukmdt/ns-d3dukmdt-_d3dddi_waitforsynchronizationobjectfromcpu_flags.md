@@ -7,7 +7,7 @@ old-location: display\d3dddi_waitforsynchronizationobjectfromcpu_flags.htm
 old-project: display
 ms.assetid: 2283D20F-D256-48E5-BFD2-D3ACACD7BF1C
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDI_WAITFORSYNCHRONIZATIONOBJECTFROMCPU_FLAGS, D3DDDI_WAITFORSYNCHRONIZATIONOBJECTFROMCPU_FLAGS structure [Display Devices], _D3DDDI_WAITFORSYNCHRONIZATIONOBJECTFROMCPU_FLAGS, d3dukmdt/D3DDDI_WAITFORSYNCHRONIZATIONOBJECTFROMCPU_FLAGS, display.d3dddi_waitforsynchronizationobjectfromcpu_flags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,22 +50,6 @@ req.typenames: D3DDDI_WAITFORSYNCHRONIZATIONOBJECTFROMCPU_FLAGS
 
 
 <b>D3DDDI_WAITFORSYNCHRONIZATIONOBJECTFROMCPU_FLAGS</b> describes the type of input synchronization objects to wait for.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DDDI_WAITFORSYNCHRONIZATIONOBJECTFROMCPU_FLAGS {
-  union {
-    struct {
-      UINT WaitAny  :1;
-      UINT Reserved  :31;
-    };
-    UINT Value;
-  };
-} D3DDDI_WAITFORSYNCHRONIZATIONOBJECTFROMCPU_FLAGS;
-````
 
 
 ## -struct-fields

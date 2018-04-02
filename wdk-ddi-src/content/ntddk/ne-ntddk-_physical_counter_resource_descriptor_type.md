@@ -7,7 +7,7 @@ old-location: kernel\physical_counter_resource_descriptor_type.htm
 old-project: kernel
 ms.assetid: 58fa1312-eb21-405d-85de-59ea69d9447f
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE, PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE enumeration [Kernel-Mode Driver Architecture], ResourceTypeExtendedCounterConfiguration, ResourceTypeMax, ResourceTypeOverflow, ResourceTypeRange, ResourceTypeSingle, _PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE, kernel.physical_counter_resource_descriptor_type, ntddk/PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE, ntddk/ResourceTypeExtendedCounterConfiguration, ntddk/ResourceTypeMax, ntddk/ResourceTypeOverflow, ntddk/ResourceTypeRange, ntddk/ResourceTypeSingle, sysenum_cb8d2405-4299-4e91-9f55-dc9c84587148.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,21 +49,7 @@ req.typenames: PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE
 ## -description
 
 
-The <b>PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE</b> enumeration contains constants that indicate the type of hardware performance counter resource that is described by a <a href="..\ntddk\ns-ntddk-_physical_counter_resource_descriptor.md">PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR</a> structure.
-
-
-## -syntax
-
-
-````
-typedef enum _PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE { 
-  ResourceTypeSingle                        = 0,
-  ResourceTypeRange                         = 1,
-  ResourceTypeExtendedCounterConfiguration  = 2,
-  ResourceTypeOverflow                      = 3,
-  ResourceTypeMax                           = 4
-} PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE;
-````
+The <b>PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE</b> enumeration contains constants that indicate the type of hardware performance counter resource that is described by a <a href="https://msdn.microsoft.com/library/windows/hardware/ff558796">PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR</a> structure.
 
 
 ## -enum-fields
@@ -107,12 +93,11 @@ The <b>Type</b> member of a <b>PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR</b> structur
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_physical_counter_resource_descriptor.md">PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558796">PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR</a>
  
 
  
-
 

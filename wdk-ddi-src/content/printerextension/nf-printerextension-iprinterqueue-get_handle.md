@@ -56,27 +56,16 @@ Gets the underlying native handle for this print queue.
 This property is read-only.
 
 
-## -syntax
-
-
-````
-HRESULT get_Handle(
-  [out, retval] HANDLE *phPrinter
-);
-````
-
-
 ## -parameters
 
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprinterqueue.md">IPrinterQueue</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439635">IPrinterQueue</a>
  
 
  
-
 

@@ -55,18 +55,6 @@ req.product: Windows 10 or later.
 The <b>WdfDriverRegisterTraceInfo</b> method is reserved for internal use only.
 
 
-## -syntax
-
-
-````
-NTSTATUS WdfDriverRegisterTraceInfo(
-  _In_ PDRIVER_OBJECT         DriverObject,
-  _In_ PFN_WDF_TRACE_CALLBACK EvtTraceCallback,
-  _In_ PVOID                  ControlBlock
-);
-````
-
-
 ## -parameters
 
 

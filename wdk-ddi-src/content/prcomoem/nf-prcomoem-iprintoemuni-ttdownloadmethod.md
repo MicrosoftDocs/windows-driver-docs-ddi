@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 The <code>IPrintOemUni::TTDownloadMethod</code> method enables a rendering plug-in to indicate the format that Unidrv should use for a specified TrueType soft font.
 
 
-## -syntax
-
-
-````
-HRESULT TTDownloadMethod(
-        PDEVOBJ     pdevobj,
-        PUNIFONTOBJ pUFObj,
-  [out] DWORD       *pdwResult
-);
-````
-
-
 ## -parameters
 
 
@@ -72,12 +60,12 @@ HRESULT TTDownloadMethod(
 
 ### -param pdevobj
 
-Caller-supplied pointer to a <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a> structure.
+Caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547573">DEVOBJ</a> structure.
 
 
 ### -param pUFObj
 
-Caller-supplied pointer to a <a href="..\printoem\ns-printoem-_unifontobj.md">UNIFONTOBJ</a> structure.
+Caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563590">UNIFONTOBJ</a> structure.
 
 
 ### -param pdwResult [out]
@@ -202,7 +190,10 @@ For additional information see <a href="https://msdn.microsoft.com/6e643703-ace1
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554253">IPrintOemUni::GetImplementedMethod</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547573">DEVOBJ</a>
 
 
 
@@ -210,20 +201,16 @@ For additional information see <a href="https://msdn.microsoft.com/6e643703-ace1
 
 
 
-<a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a>
+<a href="https://msdn.microsoft.com/097366a0-2ded-435c-9b63-2b736b716032">IPrintOemUni</a>
 
 
 
-<a href="..\printoem\ns-printoem-_unifontobj.md">UNIFONTOBJ</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554253">IPrintOemUni::GetImplementedMethod</a>
 
 
 
-<a href="..\prcomoem\nn-prcomoem-iprintoemuni.md">IPrintOemUni</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563590">UNIFONTOBJ</a>
  
 
  
-
 

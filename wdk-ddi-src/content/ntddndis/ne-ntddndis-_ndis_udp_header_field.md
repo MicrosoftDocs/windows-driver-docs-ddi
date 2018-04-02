@@ -7,7 +7,7 @@ old-location: netvista\ndis_udp_header_field.htm
 old-project: netvista
 ms.assetid: 8AB1661D-A7DF-4178-8D1A-87A3AF9C4316
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PNDIS_UDP_HEADER_FIELD, NDIS_UDP_HEADER_FIELD, NDIS_UDP_HEADER_FIELD enumeration [Network Drivers Starting with Windows Vista], NdisUdpHeaderFieldDestinationPort, NdisUdpHeaderFieldMaximum, NdisUdpHeaderFieldUndefined, PNDIS_UDP_HEADER_FIELD, PNDIS_UDP_HEADER_FIELD enumeration pointer [Network Drivers Starting with Windows Vista], _NDIS_UDP_HEADER_FIELD, netvista.ndis_udp_header_field, ntddndis/NDIS_UDP_HEADER_FIELD, ntddndis/NdisUdpHeaderFieldDestinationPort, ntddndis/NdisUdpHeaderFieldMaximum, ntddndis/NdisUdpHeaderFieldUndefined, ntddndis/PNDIS_UDP_HEADER_FIELD"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,18 +53,6 @@ The <b>NDIS_UDP_HEADER_FIELD</b> enumeration identifies the type of a field in a
 (UDP) header to be filtered.
 
 
-## -syntax
-
-
-````
-typedef enum _NDIS_UDP_HEADER_FIELD { 
-  NdisUdpHeaderFieldUndefined,
-  NdisUdpHeaderFieldDestinationPort,
-  NdisUdpHeaderFieldMaximum
-} NDIS_UDP_HEADER_FIELD, *PNDIS_UDP_HEADER_FIELD;
-````
-
-
 ## -enum-fields
 
 
@@ -91,7 +79,7 @@ The maximum value for this enumeration. This value might change in future versio
 
 
 The <b>NDIS_UDP_HEADER_FIELD</b> enumeration is used in the 
-    <a href="..\ntddndis\ns-ntddndis-_ndis_receive_filter_field_parameters.md">
+    <a href="https://msdn.microsoft.com/3d387fe9-a7cc-4034-b31e-ba1359db2ae1">
     NDIS_RECEIVE_FILTER_FIELD_PARAMETERS</a> structure.
 
 
@@ -99,13 +87,12 @@ The <b>NDIS_UDP_HEADER_FIELD</b> enumeration is used in the
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_receive_filter_field_parameters.md">
+
+
+
+<a href="https://msdn.microsoft.com/3d387fe9-a7cc-4034-b31e-ba1359db2ae1">
    NDIS_RECEIVE_FILTER_FIELD_PARAMETERS</a>
-
-
-
  
 
  
-
 

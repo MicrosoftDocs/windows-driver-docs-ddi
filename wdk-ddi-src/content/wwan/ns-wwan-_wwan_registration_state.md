@@ -7,7 +7,7 @@ old-location: netvista\wwan_registration_state.htm
 old-project: netvista
 ms.assetid: 72a41403-9e22-4212-955a-16e243f7af1d
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PWWAN_REGISTRATION_STATE, PWWAN_REGISTRATION_STATE, PWWAN_REGISTRATION_STATE structure pointer [Network Drivers Starting with Windows Vista], WWAN_REGISTRATION_STATE, WWAN_REGISTRATION_STATE structure [Network Drivers Starting with Windows Vista], WwanRef_ff7f3a8a-853b-43e3-95fb-ed4320806ad2.xml, _WWAN_REGISTRATION_STATE, netvista.wwan_registration_state, wwan/PWWAN_REGISTRATION_STATE, wwan/WWAN_REGISTRATION_STATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,23 +53,6 @@ req.product: Windows 10 or later.
 The WWAN_REGISTRATION_STATE structure represents the registration state of the MB device.
 
 
-## -syntax
-
-
-````
-typedef struct _WWAN_REGISTRATION_STATE {
-  ULONG               uNwError;
-  WWAN_REGISTER_STATE RegisterState;
-  WWAN_REGISTER_MODE  RegisterMode;
-  WCHAR               ProviderId[WWAN_PROVIDERID_LEN];
-  WCHAR               ProviderName[WWAN_PROVIDERNAME_LEN];
-  WCHAR               RoamingText[WWAN_ROAMTEXT_LEN];
-  DWORD               WwanRegFlags;
-  WWAN_CELLULAR_CLASS CurrentCellularClass;
-} WWAN_REGISTRATION_STATE, *PWWAN_REGISTRATION_STATE;
-````
-
-
 ## -struct-fields
 
 
@@ -85,7 +68,7 @@ A network specific error, in the event of a registration failure. For more infor
 ### -field RegisterState
 
 The registration state of the device. For a list of defined values, see 
-     <a href="..\wwan\ne-wwan-_wwan_register_state.md">WWAN_REGISTER_STATE</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571230">WWAN_REGISTER_STATE</a>.
      
 
 The 
@@ -99,7 +82,7 @@ The
 ### -field RegisterMode
 
 The registration mode of the device. For a list of defined values, see 
-     <a href="..\wwan\ne-wwan-_wwan_register_mode.md">WWAN_REGISTER_MODE</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571229">WWAN_REGISTER_MODE</a>.
 
 
 ### -field ProviderId
@@ -273,20 +256,19 @@ Miniport drivers connected to a multi-mode network should indicate the cellular 
 
 ## -see-also
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_registration_state.md">NDIS_WWAN_REGISTRATION_STATE</a>
 
 
 
-<a href="..\wwan\ne-wwan-_wwan_register_mode.md">WWAN_REGISTER_MODE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567917">NDIS_WWAN_REGISTRATION_STATE</a>
 
 
 
-<a href="..\wwan\ne-wwan-_wwan_register_state.md">WWAN_REGISTER_STATE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571229">WWAN_REGISTER_MODE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571230">WWAN_REGISTER_STATE</a>
  
 
  
-
 

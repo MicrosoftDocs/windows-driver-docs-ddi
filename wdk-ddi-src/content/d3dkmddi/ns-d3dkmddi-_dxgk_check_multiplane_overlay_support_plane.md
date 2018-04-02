@@ -7,7 +7,7 @@ old-location: display\dxgk_check_multiplane_overlay_support_plane.htm
 old-project: display
 ms.assetid: 28CC4BE1-D4C1-4D22-885B-D50BE5AD6EE6
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE, DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE structure [Display Devices], _DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE, d3dkmddi/DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE, display.dxgk_check_multiplane_overlay_support_plane
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,18 +52,6 @@ req.typenames: DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE
 Specifies the support attributes that the hardware provides for multiplane overlays.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE {
-  HANDLE                             hAllocation;
-  D3DDDI_VIDEO_PRESENT_SOURCE_ID     VidPnSourceId;
-  DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES PlaneAttributes;
-} DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE;
-````
-
-
 ## -struct-fields
 
 
@@ -81,17 +69,16 @@ typedef struct _DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE {
 
 ### -field PlaneAttributes
 
-A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_multiplane_overlay_attributes.md">DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES</a> structure that specifies overlay plane attributes.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/hh780301">DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES</a> structure that specifies overlay plane attributes.
 
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_multiplane_overlay_attributes.md">DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh780301">DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: storage\ioctl_cdrom_get_drive_geometry.htm
 old-project: storage
 ms.assetid: ed9738cb-7016-417b-baae-b8d4242a384e
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_CDROM_GET_DRIVE_GEOMETRY, IOCTL_CDROM_GET_DRIVE_GEOMETRY control code [Storage Devices], k307_f082c6e5-9d9a-4a11-a363-710f30cf3881.xml, ntddcdrm/IOCTL_CDROM_GET_DRIVE_GEOMETRY, storage.ioctl_cdrom_get_drive_geometry
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -72,7 +72,7 @@ None.
 
 ### -output-buffer
 
-The driver returns the <a href="..\ntdddisk\ns-ntdddisk-_disk_geometry.md">DISK_GEOMETRY</a>-type information in the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>.
+The driver returns the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552613">DISK_GEOMETRY</a>-type information in the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>.
 
 
 ### -output-buffer-length
@@ -105,16 +105,15 @@ The driver returns the <a href="..\ntdddisk\ns-ntdddisk-_disk_geometry.md">DISK_
 
 ## -see-also
 
-<a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_get_drive_geometry_ex.md">IOCTL_CDROM_GET_DRIVE_GEOMETRY_EX</a>
 
 
 
-<a href="..\ntdddisk\ns-ntdddisk-_disk_geometry.md">DISK_GEOMETRY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552613">DISK_GEOMETRY</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559343">IOCTL_CDROM_GET_DRIVE_GEOMETRY_EX</a>
  
 
  
-
 

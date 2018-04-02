@@ -7,7 +7,7 @@ old-location: display\clear.htm
 old-project: display
 ms.assetid: 1cfb5f5b-8d46-4a38-8f16-b1cecaac948a
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: Clear, Clear callback function [Display Devices], PFND3DDDI_CLEAR, UserModeDisplayDriver_Functions_fc47f935-b69f-4e51-be36-73f0b89f44cf.xml, d3dumddi/Clear, display.clear
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,22 +52,6 @@ req.typenames: DXGK_PTE
 The <b>Clear</b> function performs hardware-assisted clearing on the rendering target, depth buffer, or stencil buffer.
 
 
-## -prototype
-
-
-````
-PFND3DDDI_CLEAR Clear;
-
-__checkReturn HRESULT APIENTRY Clear(
-  _In_       HANDLE          hDevice,
-  _In_ const D3DDDIARG_CLEAR *pData,
-  _In_       UINT            NumRect,
-  _In_ const RECT            *pRect
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -87,7 +71,7 @@ __checkReturn HRESULT APIENTRY Clear(
 
 
 
-### -param UINT
+### -param Arg1
 
 
 #### - NumRect [in]
@@ -97,7 +81,7 @@ __checkReturn HRESULT APIENTRY Clear(
 
 #### - pData [in]
 
- A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_clear.md">D3DDDIARG_CLEAR</a> structure that describes the parameters of the hardware-assisted clearing operation.
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542903">D3DDDIARG_CLEAR</a> structure that describes the parameters of the hardware-assisted clearing operation.
 
 
 #### - pRect [in]
@@ -118,7 +102,7 @@ __checkReturn HRESULT APIENTRY Clear(
 
 
 
-How the driver performs the clear operation depends on the number of rectangular areas that are specified in the <i>NumRect</i> parameter and the values that are set in the <b>Flags</b> member of <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_clear.md">D3DDDIARG_CLEAR</a>. The D3DCLEAR_TARGET, D3DCLEAR_STENCIL, and D3DCLEAR_ZBUFFER values (defined in <i>D3d8types.h</i>) indicate the type of buffer to clear. The D3DCLEAR_COMPUTERECTS value (defined in <i>D3dhal.h</i>) indicates how to clear the buffer. The following settings indicate how the driver should clear the specified buffer type:
+How the driver performs the clear operation depends on the number of rectangular areas that are specified in the <i>NumRect</i> parameter and the values that are set in the <b>Flags</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff542903">D3DDDIARG_CLEAR</a>. The D3DCLEAR_TARGET, D3DCLEAR_STENCIL, and D3DCLEAR_ZBUFFER values (defined in <i>D3d8types.h</i>) indicate the type of buffer to clear. The D3DCLEAR_COMPUTERECTS value (defined in <i>D3dhal.h</i>) indicates how to clear the buffer. The following settings indicate how the driver should clear the specified buffer type:
 
 <ul>
 <li>
@@ -143,20 +127,19 @@ If <i>NumRect</i> is set to a value greater than 0 (<i>NumRect</i> &gt; 0) and D
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_clear.md">D3DDDIARG_CLEAR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542903">D3DDDIARG_CLEAR</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544519">D3DDDI_DEVICEFUNCS</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
-
-
-
  
 
  
-
 

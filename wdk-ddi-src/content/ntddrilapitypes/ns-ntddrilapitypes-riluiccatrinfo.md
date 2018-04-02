@@ -7,7 +7,7 @@ old-location: netvista\riluiccatrinfo.htm
 old-project: netvista
 ms.assetid: 84ced2d3-43a9-42ef-b8fb-592dc960b01b
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*LPRILUICCATRINFO, RILUICCATRINFO, RILUICCATRINFO structure [Network Drivers Starting with Windows Vista], netvista.riluiccatrinfo, ntddrilapitypes/RILUICCATRINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,17 +50,6 @@ req.typenames: RILUICCATRINFO, *LPRILUICCATRINFO
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef struct _RILUICCATRINFO {
-  DWORD     dwATRlength;
-  BYTE [36] bATR;
-} RILUICCATRINFO, RILUICCATRINFO;
-````
 
 
 ## -struct-fields

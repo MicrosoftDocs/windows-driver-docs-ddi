@@ -7,7 +7,7 @@ old-location: netvista\ndk_fn_resize_cq.htm
 old-project: netvista
 ms.assetid: DFAEAA42-B1B5-43AA-A573-8434FAF3B446
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NDK_FN_RESIZE_CQ, NdkResizeCq, NdkResizeCq callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkResizeCq, netvista.ndk_fn_resize_cq
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,22 +52,6 @@ req.typenames: NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS
 The <i>NdkResizeCq</i> (<i>NDK_FN_RESIZE_CQ</i>) function changes the size of an NDK completion queue (CQ).
 
 
-## -prototype
-
-
-````
-NDK_FN_RESIZE_CQ NdkResizeCq;
-
-NTSTATUS NdkResizeCq(
-  _In_     NDK_CQ                    *pNdkCq,
-  _In_     ULONG                     CqDepth,
-  _In_     NDK_FN_REQUEST_COMPLETION RequestCompletion,
-  _In_opt_ PVOID                     RequestContext
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -76,7 +60,7 @@ NTSTATUS NdkResizeCq(
 ### -param *pNdkCq [in]
 
 
-A pointer to an NDK completion queue (CQ) object (<a href="..\ndkpi\ns-ndkpi-_ndk_cq.md">NDK_CQ</a>).
+A pointer to an NDK completion queue (CQ) object (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439854">NDK_CQ</a>).
 
 
 ### -param CqDepth [in]
@@ -87,7 +71,7 @@ The new number of completion entries that the CQ can hold. The CQ size must be  
 
 ### -param RequestCompletion [in]
 
-A pointer to an <i>NdkRequestCompletion</i> (<a href="..\ndkpi\nc-ndkpi-ndk_fn_request_completion.md">NDK_FN_REQUEST_COMPLETION</a>) function.
+A pointer to an <i>NdkRequestCompletion</i> (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439912">NDK_FN_REQUEST_COMPLETION</a>) function.
 
 
 ### -param RequestContext [in, optional]
@@ -125,7 +109,7 @@ The CQ was resized successfully.
 </dl>
 </td>
 <td width="60%">
- The operation is pending and will be completed later. The driver will call the specified <i>RequestCompletion</i> (<a href="..\ndkpi\nc-ndkpi-ndk_fn_request_completion.md">NDK_FN_REQUEST_COMPLETION</a>) function to complete the pending operation.
+ The operation is pending and will be completed later. The driver will call the specified <i>RequestCompletion</i> (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439912">NDK_FN_REQUEST_COMPLETION</a>) function to complete the pending operation.
  
 
 </td>
@@ -182,7 +166,6 @@ An error occurred.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439851">NDK_ADAPTER_INFO</a>
 
 
 
@@ -190,20 +173,20 @@ An error occurred.
 
 
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_request_completion.md">NDK_FN_REQUEST_COMPLETION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439851">NDK_ADAPTER_INFO</a>
 
 
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_cq.md">NDK_CQ</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439854">NDK_CQ</a>
 
 
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_cq_dispatch.md">NDK_CQ_DISPATCH</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439855">NDK_CQ_DISPATCH</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439912">NDK_FN_REQUEST_COMPLETION</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: netvista\rilcbmsgconfigparammask.htm
 old-project: netvista
 ms.assetid: 86bbc3ef-c76c-4abd-bfcb-56c804c12b1f
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: RILCBMSGCONFIGPARAMMASK, RILCBMSGCONFIGPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_CBMC_ALL, RIL_PARAM_CBMC_CDMAINFO, RIL_PARAM_CBMC_CDMASIZE, RIL_PARAM_CBMC_GWLINFO, netvista.rilcbmsgconfigparammask, ntddrilapitypes/RILCBMSGCONFIGPARAMMASK, ntddrilapitypes/RIL_PARAM_CBMC_ALL, ntddrilapitypes/RIL_PARAM_CBMC_CDMAINFO, ntddrilapitypes/RIL_PARAM_CBMC_CDMASIZE, ntddrilapitypes/RIL_PARAM_CBMC_GWLINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,19 +51,6 @@ req.product: Windows 10 or later.
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef enum _RILCBMSGCONFIGPARAMMASK { 
-  RIL_PARAM_CBMC_GWLINFO,
-  RIL_PARAM_CBMC_CDMASIZE,
-  RIL_PARAM_CBMC_CDMAINFO,
-  RIL_PARAM_CBMC_ALL
-} RILCBMSGCONFIGPARAMMASK;
-````
 
 
 ## -enum-fields

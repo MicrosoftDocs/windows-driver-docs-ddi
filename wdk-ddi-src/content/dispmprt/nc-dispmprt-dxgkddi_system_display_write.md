@@ -7,7 +7,7 @@ old-location: display\dxgkddisystemdisplaywrite.htm
 old-project: display
 ms.assetid: 5C0F9878-522C-4DDE-A790-54C94880F119
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_SYSTEM_DISPLAY_WRITE, DxgkDdiSystemDisplayWrite, DxgkDdiSystemDisplayWrite callback function [Display Devices], display.dxgkddisystemdisplaywrite, dispmprt/DxgkDdiSystemDisplayWrite
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,26 +51,7 @@ req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 
 Called by the operating system to request the display miniport driver to write an image block to the display device.
 
-Starting with Windows 8, the operating system calls this function during a bugcheck operation following a system stop error. The operating system calls this function only if the display device was previously reset through a call to <a href="..\dispmprt\nc-dispmprt-dxgkddi_system_display_enable.md">DxgkDdiSystemDisplayEnable</a>.
-
-
-## -prototype
-
-
-````
-DXGKDDI_SYSTEM_DISPLAY_WRITE DxgkDdiSystemDisplayWrite;
-
-VOID* DxgkDdiSystemDisplayWrite(
-  _In_ PVOID MiniportDeviceContext,
-  _In_ PVOID Source,
-  _In_ UINT  SourceWidth,
-  _In_ UINT  SourceHeight,
-  _In_ UINT  SourceStride,
-  _In_ UINT  PositionX,
-  _In_ UINT  PositionY
-)
-{ ... }
-````
+Starting with Windows 8, the operating system calls this function during a bugcheck operation following a system stop error. The operating system calls this function only if the display device was previously reset through a call to <a href="https://msdn.microsoft.com/D938F7F4-E1FA-4C63-A31D-5ED160276565">DxgkDdiSystemDisplayEnable</a>.
 
 
 ## -parameters
@@ -80,7 +61,7 @@ VOID* DxgkDdiSystemDisplayWrite(
 
 ### -param MiniportDeviceContext [in]
 
-A handle to a context block that is associated with a display adapter. The display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function previously provided this handle to the Microsoft DirectX graphics kernel subsystem.
+A handle to a context block that is associated with a display adapter. The display miniport driver's <a href="https://msdn.microsoft.com/5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea">DxgkDdiAddDevice</a> function previously provided this handle to the Microsoft DirectX graphics kernel subsystem.
 
 
 
@@ -133,7 +114,7 @@ The display miniport driver must follow these guidelines when its <i>DxgkDdiSyst
 
 <ul>
 <li>
-The color format of the source image is always in the <b>D3DDDIFMT_R8G8B8</b> (24 bits per pixel) or <b>D3DDDIFMT_A8R8G8B8</b> (32 bpp) formats of the <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a> enumeration. The display miniport driver had previously set the display mode to enable write operations in this format when its <a href="..\dispmprt\nc-dispmprt-dxgkddi_system_display_enable.md">DxgkDdiSystemDisplayEnable</a> was called.
+The color format of the source image is always in the <b>D3DDDIFMT_R8G8B8</b> (24 bits per pixel) or <b>D3DDDIFMT_A8R8G8B8</b> (32 bpp) formats of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544312">D3DDDIFORMAT</a> enumeration. The display miniport driver had previously set the display mode to enable write operations in this format when its <a href="https://msdn.microsoft.com/D938F7F4-E1FA-4C63-A31D-5ED160276565">DxgkDdiSystemDisplayEnable</a> was called.
 
 </li>
 <li>
@@ -157,15 +138,6 @@ Windows kernel-mode functions might not be available while this function is bein
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
-
-
-
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_stop_device_and_release_post_display_ownership.md">DxgkDdiStopDeviceAndReleasePostDisplayOwnership</a>
-
-
-
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_system_display_enable.md">DxgkDdiSystemDisplayEnable</a>
 
 
 
@@ -173,8 +145,16 @@ Windows kernel-mode functions might not be available while this function is bein
 
 
 
+<a href="https://msdn.microsoft.com/5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea">DxgkDdiAddDevice</a>
+
+
+
+<a href="https://msdn.microsoft.com/6AF170BF-C422-4340-8935-31A4D4F3EFA5">DxgkDdiStopDeviceAndReleasePostDisplayOwnership</a>
+
+
+
+<a href="https://msdn.microsoft.com/D938F7F4-E1FA-4C63-A31D-5ED160276565">DxgkDdiSystemDisplayEnable</a>
  
 
  
-
 

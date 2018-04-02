@@ -7,7 +7,7 @@ old-location: storage\ioctl_scsi_pass_through_direct_ex.htm
 old-project: storage
 ms.assetid: FB210147-9CF3-4D32-884E-256BEAFAE6C4
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_SCSI_PASS_THROUGH_DIRECT_EX, IOCTL_SCSI_PASS_THROUGH_DIRECT_EX control code [Storage Devices], ntddscsi/IOCTL_SCSI_PASS_THROUGH_DIRECT_EX, storage.ioctl_scsi_pass_through_direct_ex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -81,20 +81,20 @@ Storage class drivers set the minor IRP number to IRP_MN_SCSI_CLASS to indicate 
 ### -input-buffer
 
 <i>
-       Parameters.DeviceIoControl.InputBufferLength</i> indicates the size, in bytes, of the buffer at <i>Irp-&gt;AssociatedIrp.SystemBuffer</i>, which must be at least (<i>sense data size</i> + <b>sizeof</b>(SCSI_PASS_THROUGH_DIRECT_EX)). The size of the <a href="..\ntddscsi\ns-ntddscsi-_scsi_pass_through_direct_ex.md">SCSI_PASS_THROUGH_DIRECT_EX</a> structure is fixed.
+       Parameters.DeviceIoControl.InputBufferLength</i> indicates the size, in bytes, of the buffer at <i>Irp-&gt;AssociatedIrp.SystemBuffer</i>, which must be at least (<i>sense data size</i> + <b>sizeof</b>(SCSI_PASS_THROUGH_DIRECT_EX)). The size of the <a href="https://msdn.microsoft.com/library/windows/hardware/jj553713">SCSI_PASS_THROUGH_DIRECT_EX</a> structure is fixed.
 
-This structure includes a SCSI CDB, which must be initialized by the caller except for the path, target ID, and LUN, which are filled in by the port driver. For a data-out command, the data to be transferred must be in an adapter device aligned buffer. The <b>DataInBuffer</b> member of <a href="..\ntddscsi\ns-ntddscsi-_scsi_pass_through_direct_ex.md">SCSI_PASS_THROUGH_DIRECT_EX</a> is a pointer to this adapter device aligned buffer. The caller must allocate additional storage, following the <b>SCSI_PASS_THROUGH_DIRECT_EX</b> structure, if the caller asks for request-sense data.
+This structure includes a SCSI CDB, which must be initialized by the caller except for the path, target ID, and LUN, which are filled in by the port driver. For a data-out command, the data to be transferred must be in an adapter device aligned buffer. The <b>DataInBuffer</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/jj553713">SCSI_PASS_THROUGH_DIRECT_EX</a> is a pointer to this adapter device aligned buffer. The caller must allocate additional storage, following the <b>SCSI_PASS_THROUGH_DIRECT_EX</b> structure, if the caller asks for request-sense data.
 
 
 ### -input-buffer-length
 
 <i>
-       Parameters.DeviceIoControl.InputBufferLength</i> indicates the size, in bytes, of the buffer at <i>Irp-&gt;AssociatedIrp.SystemBuffer</i>, which must be at least (<i>sense data size</i> + <b>sizeof</b>(SCSI_PASS_THROUGH_DIRECT_EX)). The size of the <a href="..\ntddscsi\ns-ntddscsi-_scsi_pass_through_direct_ex.md">SCSI_PASS_THROUGH_DIRECT_EX</a> structure is fixed.
+       Parameters.DeviceIoControl.InputBufferLength</i> indicates the size, in bytes, of the buffer at <i>Irp-&gt;AssociatedIrp.SystemBuffer</i>, which must be at least (<i>sense data size</i> + <b>sizeof</b>(SCSI_PASS_THROUGH_DIRECT_EX)). The size of the <a href="https://msdn.microsoft.com/library/windows/hardware/jj553713">SCSI_PASS_THROUGH_DIRECT_EX</a> structure is fixed.
 
 
 ### -output-buffer
 
-The port driver returns any request-sense data and the <a href="..\ntddscsi\ns-ntddscsi-_scsi_pass_through_direct_ex.md">SCSI_PASS_THROUGH_DIRECT_EX</a> structure to the buffer at <i>Irp-&gt;AssociatedIrp.SystemBuffer</i>. 
+The port driver returns any request-sense data and the <a href="https://msdn.microsoft.com/library/windows/hardware/jj553713">SCSI_PASS_THROUGH_DIRECT_EX</a> structure to the buffer at <i>Irp-&gt;AssociatedIrp.SystemBuffer</i>. 
 
 
 ### -output-buffer-length
@@ -122,7 +122,7 @@ The port driver returns any request-sense data and the <a href="..\ntddscsi\ns-n
 
 ### -status-block
 
-The <b>Information</b> field is set to the number of bytes returned in the output buffer at <i>Irp-&gt;AssociatedIrp.SystemBuffer</i>. The <b>Status</b> field is set to <b>STATUS_SUCCESS</b>, or possibly to <b>STATUS_BUFFER_TOO_SMALL</b> or <b>STATUS_INVALID_PARAMETER</b> if the input <b>Length</b> value in <a href="..\ntddscsi\ns-ntddscsi-_scsi_pass_through_direct_ex.md">SCSI_PASS_THROUGH_DIRECT_EX</a> is improperly set or the buffer specified in  <b>DataInBuffer</b> is not properly device aligned.
+The <b>Information</b> field is set to the number of bytes returned in the output buffer at <i>Irp-&gt;AssociatedIrp.SystemBuffer</i>. The <b>Status</b> field is set to <b>STATUS_SUCCESS</b>, or possibly to <b>STATUS_BUFFER_TOO_SMALL</b> or <b>STATUS_INVALID_PARAMETER</b> if the input <b>Length</b> value in <a href="https://msdn.microsoft.com/library/windows/hardware/jj553713">SCSI_PASS_THROUGH_DIRECT_EX</a> is improperly set or the buffer specified in  <b>DataInBuffer</b> is not properly device aligned.
 
 
 
@@ -130,7 +130,7 @@ The <b>Information</b> field is set to the number of bytes returned in the outpu
 
 
 
-For data transfer operations, a buffer with alignment  matching the adapter device  is required. Applications can retrieve the device alignment mask by issuing an <a href="..\ntddstor\ni-ntddstor-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a> control code request with a query type of <b>PropertyStandardQuery</b> and property id of <b>StorageAdapterProperty</b>. The alignment mask is found in the <b>AlignmentMask</b> member of the <a href="..\ntddstor\ns-ntddstor-_storage_adapter_descriptor.md">STORAGE_ADAPTER_DESCRIPTOR</a> structure that is returned. Drivers may also use the value in the <b>AlignmentMask</b> member of the adapter's <i>DeviceObject</i>.
+For data transfer operations, a buffer with alignment  matching the adapter device  is required. Applications can retrieve the device alignment mask by issuing an <a href="https://msdn.microsoft.com/library/windows/hardware/ff560590">IOCTL_STORAGE_QUERY_PROPERTY</a> control code request with a query type of <b>PropertyStandardQuery</b> and property id of <b>StorageAdapterProperty</b>. The alignment mask is found in the <b>AlignmentMask</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566346">STORAGE_ADAPTER_DESCRIPTOR</a> structure that is returned. Drivers may also use the value in the <b>AlignmentMask</b> member of the adapter's <i>DeviceObject</i>.
 
 In the following  example function, a   buffer is prepared as a device  aligned data transfer buffer.
 
@@ -168,27 +168,26 @@ PVOID AllocateAlignedBuffer(ULONG size, ULONG AlignmentMask, PVOID *pUnAlignedBu
 </td>
 </tr>
 </table></span></div>
-In order to issue an <b>IOCTL_SCSI_PASS_THROUGH_DIRECT_EX</b> request, the underlying storage device must support extended SRBs. This means that the supported SRB type is <b>SRB_TYPE_STORAGE_REQUEST_BLOCK</b>. An application can query for SRB support with the <b>IOCTL_STORAGE_QUERY_PROPERTY</b> request with a query type of <b>PropertyStandardQuery</b> and a property type of <b>StorageDeviceProperty</b>. The <b>SrbType</b> member returned in the <a href="..\ntddstor\ns-ntddstor-_storage_adapter_descriptor.md">STORAGE_ADAPTER_DESCRIPTIOR</a> structure will indicate either <b>SRB_TYPE_SCSI_REQUEST_BLOCK</b> or <b>SRB_TYPE_STORAGE_REQUEST_BLOCK</b>.
+In order to issue an <b>IOCTL_SCSI_PASS_THROUGH_DIRECT_EX</b> request, the underlying storage device must support extended SRBs. This means that the supported SRB type is <b>SRB_TYPE_STORAGE_REQUEST_BLOCK</b>. An application can query for SRB support with the <b>IOCTL_STORAGE_QUERY_PROPERTY</b> request with a query type of <b>PropertyStandardQuery</b> and a property type of <b>StorageDeviceProperty</b>. The <b>SrbType</b> member returned in the <a href="https://msdn.microsoft.com/83ef2a1a-f95e-4b05-8911-e5e900192630">STORAGE_ADAPTER_DESCRIPTIOR</a> structure will indicate either <b>SRB_TYPE_SCSI_REQUEST_BLOCK</b> or <b>SRB_TYPE_STORAGE_REQUEST_BLOCK</b>.
 
 
 
 
 ## -see-also
 
-<a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_pass_through_ex.md">IOCTL_SCSI_PASS_THROUGH_EX</a>
 
 
 
-<a href="..\ntddscsi\ns-ntddscsi-_scsi_pass_through_direct_ex.md">SCSI_PASS_THROUGH_DIRECT_EX</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj602801">IOCTL_SCSI_PASS_THROUGH_EX</a>
 
 
 
-<a href="..\ntddstor\ni-ntddstor-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560590">IOCTL_STORAGE_QUERY_PROPERTY</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj553713">SCSI_PASS_THROUGH_DIRECT_EX</a>
  
 
  
-
 

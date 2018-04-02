@@ -2,7 +2,7 @@
 UID: NA:ucxendpoint
 ms.assetid: f85771e9-a9a2-3525-a86f-44c04d24a9a4
 ms.author: windowsdriverdev
-ms.date: 03/13/18
+ms.date: 02/27/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

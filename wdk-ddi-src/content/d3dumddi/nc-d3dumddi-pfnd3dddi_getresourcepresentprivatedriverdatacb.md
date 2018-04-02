@@ -7,7 +7,7 @@ old-location: display\pfngetresourcepresentprivatedriverdatacb.htm
 old-project: display
 ms.assetid: D4F0F272-60DC-4060-9762-3DB49236CE62
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATACB, d3dumddi/pfnGetResourcePresentPrivateDriverDataCb, display.pfngetresourcepresentprivatedriverdatacb, pfnGetResourcePresentPrivateDriverDataCb, pfnGetResourcePresentPrivateDriverDataCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,20 +53,6 @@ req.typenames: DXGK_PTE
 
 
 
-## -prototype
-
-
-````
-PFND3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATACB pfnGetResourcePresentPrivateDriverDataCb;
-
-HRESULT APIENTRY CALLBACK* pfnGetResourcePresentPrivateDriverDataCb(
-  _In_    HANDLE                                     hDevice,
-  _Inout_ D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA *pData
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -88,7 +74,7 @@ A handle to the display device.
 
 #### - pData [in, out]
 
-A pointer to a <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_getresourcepresentprivatedriverdata.md">D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA</a> structure that describes the operation to perform and contains the results.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn701957">D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA</a> structure that describes the operation to perform and contains the results.
 
 
 
@@ -120,7 +106,7 @@ The operation completed successfully.
 </dl>
 </td>
 <td width="60%">
-The value of <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_getresourcepresentprivatedriverdata.md">D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA</a>::<b>PrivateDriverDataSize</b> was zero or was insufficient to hold the data. When control returns to the caller, <b>PrivateDriverDataSize</b> will contain the required buffer size.
+The value of <a href="https://msdn.microsoft.com/library/windows/hardware/dn701957">D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA</a>::<b>PrivateDriverDataSize</b> was zero or was insufficient to hold the data. When control returns to the caller, <b>PrivateDriverDataSize</b> will contain the required buffer size.
 
 </td>
 </tr>

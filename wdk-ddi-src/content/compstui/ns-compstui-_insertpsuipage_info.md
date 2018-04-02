@@ -52,21 +52,6 @@ req.typenames: INSERTPSUIPAGE_INFO, *PINSERTPSUIPAGE_INFO
 The INSERTPSUIPAGE_INFO structure is used as an input parameter to CPSUI's <a href="https://msdn.microsoft.com/library/windows/hardware/ff546207">ComPropSheet</a> function, if the function code is <a href="https://msdn.microsoft.com/library/windows/hardware/ff546414">CPSFUNC_INSERT_PSUIPAGE</a>. All member values must be supplied by the <b>ComPropSheet</b> caller.
 
 
-## -syntax
-
-
-````
-typedef struct _INSERTPSUIPAGE_INFO {
-  WORD      cbSize;
-  BYTE      Type;
-  BYTE      Mode;
-  ULONG_PTR dwData1;
-  ULONG_PTR dwData2;
-  ULONG_PTR dwData3;
-} INSERTPSUIPAGE_INFO, *PINSERTPSUIPAGE_INFO;
-````
-
-
 ## -struct-fields
 
 
@@ -87,7 +72,7 @@ Caller-supplied integer value indicating the type of insertion being requested. 
 
 #### PSUIPAGEINSERT_DLL
 
-CPSUI calls the specified <a href="..\compstui\nc-compstui-pfnpropsheetui.md">PFNPROPSHEETUI</a> typed function, with a reason value of PROPSHEETUI_REASON_INIT. The function is contained in a separate DLL.
+CPSUI calls the specified <a href="https://msdn.microsoft.com/library/windows/hardware/ff559812">PFNPROPSHEETUI</a> typed function, with a reason value of PROPSHEETUI_REASON_INIT. The function is contained in a separate DLL.
 
 
 
@@ -113,7 +98,7 @@ CPSUI inserts a page that has been created by calling <b>CreatePropertySheetPage
 
 #### PSUIPAGEINSERT_PCOMPROPSHEETUI
 
-CPSUI inserts pages described by a <a href="..\compstui\ns-compstui-_compropsheetui.md">COMPROPSHEETUI</a> structure.
+CPSUI inserts pages described by a <a href="https://msdn.microsoft.com/library/windows/hardware/ff546211">COMPROPSHEETUI</a> structure.
 
 (This is equivalent to calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff546207">ComPropSheet</a> with a function code of <a href="https://msdn.microsoft.com/library/windows/hardware/ff546388">CPSFUNC_ADD_PCOMPROPSHEETUI</a>.)
 
@@ -123,7 +108,7 @@ CPSUI inserts pages described by a <a href="..\compstui\ns-compstui-_compropshee
 
 #### PSUIPAGEINSERT_PFNPROPSHEETUI
 
-CPSUI calls the specified <a href="..\compstui\nc-compstui-pfnpropsheetui.md">PFNPROPSHEETUI</a> typed function, with a reason value of PROPSHEETUI_REASON_INIT.
+CPSUI calls the specified <a href="https://msdn.microsoft.com/library/windows/hardware/ff559812">PFNPROPSHEETUI</a> typed function, with a reason value of PROPSHEETUI_REASON_INIT.
 
 (This is equivalent to calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff546207">ComPropSheet</a> with a function code of <a href="https://msdn.microsoft.com/library/windows/hardware/ff546391">CPSFUNC_ADD_PFNPROPSHEETUI</a>.)
 
@@ -207,7 +192,7 @@ Caller-supplied values that depend on the contents of the <b>Type</b> member, as
 
 dwData1 - Caller-supplied pointer to a NULL-terminated string representing the DLL path name.
 
-dwData2 - Caller-supplied pointer to a NULL-terminated string representing the name of a <a href="..\compstui\nc-compstui-pfnpropsheetui.md">PFNPROPSHEETUI</a> typed function, contained in the specified DLL.
+dwData2 - Caller-supplied pointer to a NULL-terminated string representing the name of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff559812">PFNPROPSHEETUI</a> typed function, contained in the specified DLL.
 
 dwData3 - Caller-supplied 32-bit value, passed to the PFNPROPSHEETUI-typed function for its <i>lParam</i> parameter.
 

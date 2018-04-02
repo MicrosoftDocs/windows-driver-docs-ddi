@@ -7,7 +7,7 @@ old-location: netvista\vmbchanneldeletegpadl.htm
 old-project: netvista
 ms.assetid: B1446A29-F2C1-4F08-8B38-5BE9188F5132
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: VmbChannelDeleteGpadl, VmbChannelDeleteGpadl function [Network Drivers Starting with Windows Vista], netvista.vmbchanneldeletegpadl, vmbuskernelmodeclientlibapi/VmbChannelDeleteGpadl
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,19 +53,8 @@ req.product: Windows 10 or later.
 
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
-The <b>VmbChannelDeleteGpadl</b> function deletes a Guest Physical Address Descriptor List (GPADL) mapped by the <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelcreategpadlfrommdl.md">VmbChannelCreateGpadlFromMdl</a> or
-<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelcreategpadlfrombuffer.md">VmbChannelCreateGpadlFromBuffer</a> functions. If the GPADL is currently mapped to the server, this function is blocked until the GPADL is unmapped.
-
-
-## -syntax
-
-
-````
-VOID VmbChannelDeleteGpadl(
-  _In_ VMBCHANNEL Channel,
-  _In_ UINT32     GpadlHandle
-);
-````
+The <b>VmbChannelDeleteGpadl</b> function deletes a Guest Physical Address Descriptor List (GPADL) mapped by the <a href="https://msdn.microsoft.com/6C63E250-1A11-45E8-B535-263806DA4A33">VmbChannelCreateGpadlFromMdl</a> or
+<a href="https://msdn.microsoft.com/B45E2463-1EBC-4F32-B3AD-8331E664BB24">VmbChannelCreateGpadlFromBuffer</a> functions. If the GPADL is currently mapped to the server, this function is blocked until the GPADL is unmapped.
 
 
 ## -parameters
@@ -94,16 +83,15 @@ This function does not return a value.
 
 ## -see-also
 
-<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelcreategpadlfrommdl.md">VmbChannelCreateGpadlFromMdl</a>
 
 
 
-<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelcreategpadlfrombuffer.md">VmbChannelCreateGpadlFromBuffer</a>
+<a href="https://msdn.microsoft.com/B45E2463-1EBC-4F32-B3AD-8331E664BB24">VmbChannelCreateGpadlFromBuffer</a>
 
 
 
+<a href="https://msdn.microsoft.com/6C63E250-1A11-45E8-B535-263806DA4A33">VmbChannelCreateGpadlFromMdl</a>
  
 
  
-
 

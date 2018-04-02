@@ -7,7 +7,7 @@ old-location: storage\dsm_load_balance_policy_v2.htm
 old-project: storage
 ms.assetid: b1522320-110c-46dc-be50-df7c05d61351
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PDSM_Load_Balance_Policy_V2, DSM_Load_Balance_Policy_V2, DSM_Load_Balance_Policy_V2 structure [Storage Devices], PDSM_Load_Balance_Policy_V2, PDSM_Load_Balance_Policy_V2 structure pointer [Storage Devices], _DSM_Load_Balance_Policy_V2, mpiodisk/DSM_Load_Balance_Policy_V2, mpiodisk/PDSM_Load_Balance_Policy_V2, storage.dsm_load_balance_policy_v2, structs-scsibus_f53c7618-49ab-452b-97e7-402d9392a419.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,20 +50,6 @@ req.typenames: DSM_Load_Balance_Policy_V2, *PDSM_Load_Balance_Policy_V2
 
 
 The DSM_Load_Balance_Policy_V2 structure is used to represent a load balance policy that is applied to a LUN. It is similar to the DSM_Load_Balance_Policy structure, except that it uses the MPIO_DSM_Path_V2 structure to capture and expose path information.
-
-
-## -syntax
-
-
-````
-typedef struct _DSM_Load_Balance_Policy_V2 {
-  ULONG            Version;
-  ULONG            LoadBalancePolicy;
-  ULONG            DSMPathCount;
-  ULONG            Reserved;
-  MPIO_DSM_Path_V2 DSM_Paths[1];
-} DSM_Load_Balance_Policy_V2, *PDSM_Load_Balance_Policy_V2;
-````
 
 
 ## -struct-fields

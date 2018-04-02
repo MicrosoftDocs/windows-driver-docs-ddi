@@ -55,19 +55,6 @@ req.product: Windows 10 or later.
 The <b>WDF_DEVICE_IO_BUFFER_RETRIEVAL</b> enumeration is used to specify when UMDF makes an I/O request's buffers available to the driver.
 
 
-## -syntax
-
-
-````
-typedef enum _WDF_DEVICE_IO_BUFFER_RETRIEVAL { 
-  WdfDeviceIoBufferRetrievalInvalid          = 0x00,
-  WdfDeviceIoBufferRetrievalCopyImmediately  = 0x01,
-  WdfDeviceIoBufferRetrievalDeferred         = 0x02,
-  WdfDeviceIoBufferRetrievalMaximum          = 0x3
-} WDF_DEVICE_IO_BUFFER_RETRIEVAL, *PWDF_DEVICE_IO_BUFFER_RETRIEVAL;
-````
-
-
 ## -enum-fields
 
 
@@ -130,12 +117,11 @@ For more information about accessing an I/O request's data buffers, see <a href=
 
 ## -see-also
 
-<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_device_io_type.md">WDF_DEVICE_IO_TYPE (UMDF)</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561404">WDF_DEVICE_IO_TYPE (UMDF)</a>
  
 
  
-
 

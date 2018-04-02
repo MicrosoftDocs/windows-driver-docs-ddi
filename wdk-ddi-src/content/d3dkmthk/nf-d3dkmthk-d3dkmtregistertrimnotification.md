@@ -7,7 +7,7 @@ old-location: display\d3dkmtregistertrimnotification.htm
 old-project: display
 ms.assetid: 4D35ED8F-2D1E-4C0B-8302-CE651D47AF10
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMTRegisterTrimNotification, D3DKMTRegisterTrimNotification function [Display Devices], d3dkmthk/D3DKMTRegisterTrimNotification, display.d3dkmtregistertrimnotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -54,26 +54,21 @@ req.typenames: D3DKMT_DRIVERVERSION
 <b>D3DKMTRegisterTrimNotification</b> is used by a kernel mode video memory manager to register and implement a callback for each kernel mode device to receive notifications from a graphics framework (such as OpenGL).
 <div class="alert"><b>Note</b>  The callback must be unregistered prior to unloading the module that contains the callback function and destroying the registered kernel mode device.</div><div> </div>
 
-## -syntax
-
-
-````
-EXTERN_C _Check_return_ NTSTATUS APIENTRY D3DKMTRegisterTrimNotification(
-  _Inout_ D3DKMT_REGISTERTRIMNOTIFICATION *pData
-);
-````
-
-
 ## -parameters
 
 
+
+
+### -param Arg1
+
+TBD
 
 
 
 
 #### - pData [in, out]
 
-A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_registertrimnotification.md">D3DKMT_REGISTERTRIMNOTIFICATION</a> structure that describes the operation.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn906802">D3DKMT_REGISTERTRIMNOTIFICATION</a> structure that describes the operation.
 
 
 ## -returns
@@ -120,16 +115,15 @@ This function might also return other <b>NTSTATUS</b> values.
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtunregistertrimnotification.md">D3DKMTUnregisterTrimNotification</a>
 
 
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_registertrimnotification.md">D3DKMT_REGISTERTRIMNOTIFICATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn906787">D3DKMTUnregisterTrimNotification</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn906802">D3DKMT_REGISTERTRIMNOTIFICATION</a>
  
 
  
-
 

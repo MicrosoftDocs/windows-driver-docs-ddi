@@ -56,16 +56,6 @@ The <b>RangeMin</b> property gets the minimum value of the allowed data range.
 This property is read-only.
 
 
-## -syntax
-
-
-````
-HRESULT get_RangeMin(
-  [out, retval] INT *pRangeMin
-);
-````
-
-
 ## -parameters
 
 
@@ -82,12 +72,11 @@ For the <b>PrintSchemaParameterDataType_NumericString</b> and <b>PrintSchemaPara
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintschemaparameterdefinition.md">IPrintSchemaParameterDefinition</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn465890">IPrintSchemaParameterDefinition</a>
  
 
  
-
 

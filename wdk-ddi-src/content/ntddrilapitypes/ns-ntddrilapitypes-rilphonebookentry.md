@@ -7,7 +7,7 @@ old-location: netvista\rilphonebookentry.htm
 old-project: netvista
 ms.assetid: 2741d992-624a-4fd1-a1b5-57fb39c42f84
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*LPRILPHONEBOOKENTRY, RILPHONEBOOKENTRY, RILPHONEBOOKENTRY structure [Network Drivers Starting with Windows Vista], netvista.rilphonebookentry, ntddrilapitypes/RILPHONEBOOKENTRY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,29 +50,6 @@ req.typenames: RILPHONEBOOKENTRY, *LPRILPHONEBOOKENTRY
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef struct _RILPHONEBOOKENTRY {
-  DWORD       cbSize;
-  DWORD       dwParams;
-  DWORD       dwIndex;
-  RILADDRESS  raAddress;
-  WCHAR [256] wszText;
-  WCHAR [256] wszSecondName;
-  DWORD       dwGroupIdCount;
-  DWORD [10]  rgdwGroupId;
-  DWORD       dwAdditionalNumCount;
-  DWORD       dwAdditionalNumSize;
-  DWORD       dwAdditionalNumOffset;
-  DWORD       dwEmailCount;
-  DWORD       dwEmailSize;
-  DWORD       dwEmailOffset;
-} RILPHONEBOOKENTRY, RILPHONEBOOKENTRY;
-````
 
 
 ## -struct-fields

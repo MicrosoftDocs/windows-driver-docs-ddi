@@ -102,12 +102,11 @@ A driver registers the <b>IPnpCallbackHardware</b> interface when the driver cal
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-ipnpcallbackhardware2.md">IPnpCallbackHardware2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439727">IPnpCallbackHardware2</a>
  
 
  
-
 

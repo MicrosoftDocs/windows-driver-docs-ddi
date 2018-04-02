@@ -7,7 +7,7 @@ old-location: kernel\write_register_buffer_ulong.htm
 old-project: kernel
 ms.assetid: dae9cc3d-b793-4f2a-99a6-1f77af396110
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: WRITE_REGISTER_BUFFER_ULONG, WRITE_REGISTER_BUFFER_ULONG routine [Kernel-Mode Driver Architecture], k103_9ef495b2-fe86-484a-bec2-5390df6ee246.xml, kernel.write_register_buffer_ulong, wdm/WRITE_REGISTER_BUFFER_ULONG
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,18 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>WRITE_REGISTER_BUFFER_ULONG</b> routine writes a number of ULONG values from a buffer to the specified register.
-
-
-## -syntax
-
-
-````
-VOID WRITE_REGISTER_BUFFER_ULONG(
-  _In_ PULONG Register,
-  _In_ PULONG Buffer,
-  _In_ ULONG  Count
-);
-````
 
 
 ## -parameters

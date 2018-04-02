@@ -7,7 +7,7 @@ old-location: storage\hba_mgmtinfo.htm
 old-project: storage
 ms.assetid: a4ccb122-ae90-4b06-a40d-21f131add99b
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PHBA_MGMTINFO, HBA_MGMTINFO, HBA_MGMTINFO structure [Storage Devices], HBA_MgmtInfo, HBA_MgmtInfo structure [Storage Devices], PHBA_MGMTINFO, PHBA_MGMTINFO structure pointer [Storage Devices], hbaapi/HBA_MgmtInfo, hbaapi/PHBA_MGMTINFO, storage.hba_mgmtinfo, structs-Fibre_d7bcdc56-a999-4d0b-b7f0-88fe53b349b1.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,25 +49,7 @@ req.typenames: HBA_MGMTINFO, *PHBA_MGMTINFO
 ## -description
 
 
-The HBA_MgmtInfo structure is used in conjunction with the <a href="..\hbaapi\nf-hbaapi-hba_setrnidmgmtinfo.md">HBA_SetRNIDMgmtInfo</a> routine to program the HBA to return the indicated request node identification information data (RNID). 
-
-
-## -syntax
-
-
-````
-typedef struct HBA_MgmtInfo {
-  HBA_WWN    wwn;
-  HBA_UINT32 unittype;
-  HBA_UINT32 PortId;
-  HBA_UINT32 NumberOfAttachedNodes;
-  HBA_UINT16 IPVersion;
-  HBA_UINT16 UDPPort;
-  HBA_UINT8  IPAddress[16];
-  HBA_UINT16 reserved;
-  HBA_UINT16 TopologyDiscoveryFlags;
-} HBA_MGMTINFO, *PHBA_MGMTINFO;
-````
+The HBA_MgmtInfo structure is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557231">HBA_SetRNIDMgmtInfo</a> routine to program the HBA to return the indicated request node identification information data (RNID). 
 
 
 ## -struct-fields
@@ -122,16 +104,15 @@ Contains the topology discovery flags. For an explanation of this member, see th
 
 ## -see-also
 
-<a href="..\hbaapi\nf-hbaapi-hba_setrnidmgmtinfo.md">HBA_SetRNIDMgmtInfo</a>
 
 
 
-<a href="..\hbaapi\nf-hbaapi-hba_getrnidmgmtinfo.md">HBA_GetRNIDMgmtInfo</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556109">HBA_GetRNIDMgmtInfo</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557231">HBA_SetRNIDMgmtInfo</a>
  
 
  
-
 

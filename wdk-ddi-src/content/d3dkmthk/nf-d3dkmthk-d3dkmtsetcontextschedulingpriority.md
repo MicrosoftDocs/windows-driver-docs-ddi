@@ -7,7 +7,7 @@ old-location: display\d3dkmtsetcontextschedulingpriority.htm
 old-project: display
 ms.assetid: 781d5a78-a3e2-4cac-868d-c4ae8b39b2fc
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMTSetContextSchedulingPriority, D3DKMTSetContextSchedulingPriority function [Display Devices], OpenGL_Functions_f9314ed6-8aad-4c55-b42a-f1223dada5bc.xml, d3dkmthk/D3DKMTSetContextSchedulingPriority, display.d3dkmtsetcontextschedulingpriority
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -55,16 +55,6 @@ req.typenames: D3DKMT_DRIVERVERSION
 The <b>D3DKMTSetContextSchedulingPriority</b> function sets the scheduling priority for a device context.
 
 
-## -syntax
-
-
-````
-NTSTATUS APIENTRY D3DKMTSetContextSchedulingPriority(
-  _In_ const D3DKMT_SETCONTEXTSCHEDULINGPRIORITY *pData
-);
-````
-
-
 ## -parameters
 
 
@@ -79,7 +69,7 @@ TBD
 
 #### - pData [in]
 
-A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_setcontextschedulingpriority.md">D3DKMT_SETCONTEXTSCHEDULINGPRIORITY</a> structure that describes parameters for setting the scheduling priority for a device context.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548267">D3DKMT_SETCONTEXTSCHEDULINGPRIORITY</a> structure that describes parameters for setting the scheduling priority for a device context.
 
 
 ## -returns
@@ -125,12 +115,11 @@ This function might also return other NTSTATUS values.
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_setcontextschedulingpriority.md">D3DKMT_SETCONTEXTSCHEDULINGPRIORITY</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548267">D3DKMT_SETCONTEXTSCHEDULINGPRIORITY</a>
  
 
  
-
 

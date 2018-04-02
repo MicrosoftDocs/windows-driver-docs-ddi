@@ -52,17 +52,6 @@ req.typenames: CMP_PLUG_TYPE
 This enumeration specifies the type of a plug.
 
 
-## -syntax
-
-
-````
-typedef enum  { 
-  CMP_PlugOut  = 0,
-  CMP_PlugIn
-} CMP_PLUG_TYPE;
-````
-
-
 ## -enum-fields
 
 
@@ -80,12 +69,11 @@ An in plug.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537008">AV_61883_REQUEST</a>
-
-
-
  
 
  
-
 

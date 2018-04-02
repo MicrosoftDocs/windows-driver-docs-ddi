@@ -7,7 +7,7 @@ old-location: display\dxgkddi_updatehwcontextstate.htm
 old-project: display
 ms.assetid: 1187A302-CD7D-418E-B48F-74D1FF29C991
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_UPDATEHWCONTEXTSTATE, DXGKDDI_UPDATEHWCONTEXTSTATE callback function [Display Devices], d3dkmddi/DXGKDDI_UPDATEHWCONTEXTSTATE, display.dxgkddi_updatehwcontextstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,17 +50,6 @@ req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 
 
 Used to update the hardware context state.
-
-
-## -prototype
-
-
-````
-NTSTATUS APIENTRY DXGKDDI_UPDATEHWCONTEXTSTATE(
-  _In_ const HANDLE                        hAdapter,
-  _In_ const PDXGKARG_UPDATEHWCONTEXTSTATE pUpdateHwContextState
-);
-````
 
 
 ## -parameters

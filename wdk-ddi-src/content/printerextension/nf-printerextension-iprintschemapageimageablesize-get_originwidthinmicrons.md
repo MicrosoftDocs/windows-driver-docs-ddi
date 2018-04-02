@@ -56,27 +56,16 @@ Gets the horizontal origin of the imageable area relative to the application med
 This property is read-only.
 
 
-## -syntax
-
-
-````
-HRESULT get_OriginWidthInMicrons(
-  [out, retval] ULONG *pulOriginWidth
-);
-````
-
-
 ## -parameters
 
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintschemapageimageablesize.md">IPrintSchemaPageImageableSize</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451366">IPrintSchemaPageImageableSize</a>
  
 
  
-
 

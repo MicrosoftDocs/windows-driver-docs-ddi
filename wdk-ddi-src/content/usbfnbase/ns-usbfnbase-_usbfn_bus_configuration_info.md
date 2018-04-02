@@ -7,7 +7,7 @@ old-location: buses\usbfn_bus_configuration_info.htm
 old-project: usbref
 ms.assetid: 26F11BC8-0F43-4E52-B2E1-2C3C6B327CF0
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PUSBFN_BUS_CONFIGURATION_INFO, PUSBFN_BUS_CONFIGURATION_INFO, PUSBFN_BUS_CONFIGURATION_INFO structure pointer [Buses], USBFN_BUS_CONFIGURATION_INFO, USBFN_BUS_CONFIGURATION_INFO structure [Buses], _USBFN_BUS_CONFIGURATION_INFO, buses.usbfn_bus_configuration_info, usbfnbase/PUSBFN_BUS_CONFIGURATION_INFO, usbfnbase/USBFN_BUS_CONFIGURATION_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,18 +52,6 @@ req.product: Windows 10 or later.
 
 Configuration packet that stores information about 
 an available USB configuration.
-
-
-## -syntax
-
-
-````
-typedef struct _USBFN_BUS_CONFIGURATION_INFO {
-  WCHAR    ConfigurationName[MAX_CONFIGURATION_NAME_LENGTH];
-  BOOLEAN  IsCurrent;
-  BOOLEAN  IsActive;
-} USBFN_BUS_CONFIGURATION_INFO, *PUSBFN_BUS_CONFIGURATION_INFO;
-````
 
 
 ## -struct-fields

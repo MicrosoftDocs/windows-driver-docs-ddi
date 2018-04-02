@@ -7,7 +7,7 @@ old-location: storage\dump_unload.htm
 old-project: storage
 ms.assetid: 51a04ca9-4ccd-409e-b47a-1105637e6f6f
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: Dump_Unload, Dump_Unload routine [Storage Devices], PDUMP_UNLOAD, filter_rtns_01414353-4ca7-409e-a360-a7ad69a57b40.xml, ntdddump/Dump_Unload, storage.dump_unload
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,19 +52,6 @@ req.typenames: VERIFY_INFORMATION, *PVERIFY_INFORMATION
 The <i>Dump_Unload</i> callback routine is called when the dump stack is unloaded. For the dump stack, this routine is called when the crash dump functionality is disabled. For the hibernation stack, this routine is called after the system resumes from hibernation. This gives the filter driver an opportunity to free any resources that it may have allocated or do any clean-up required by the filter driver.
 
 
-## -prototype
-
-
-````
-PDUMP_UNLOAD Dump_Unload;
-
-NTSTATUS Dump_Unload(
-  _In_ PFILTER_EXTENSION FilterExtension
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -72,7 +59,7 @@ NTSTATUS Dump_Unload(
 
 ### -param FilterExtension [in]
 
-A pointer to a <a href="..\ntdddump\ns-ntdddump-_filter_extension.md">FILTER_EXTENSION</a> structure.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff553862">FILTER_EXTENSION</a> structure.
 
 
 ## -returns
@@ -86,12 +73,11 @@ If the routine succeeds, it must return STATUS_SUCCESS. Otherwise, it must retur
 
 ## -see-also
 
-<a href="..\ntdddump\ns-ntdddump-_filter_extension.md">FILTER_EXTENSION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553862">FILTER_EXTENSION</a>
  
 
  
-
 

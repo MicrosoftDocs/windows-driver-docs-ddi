@@ -7,7 +7,7 @@ old-location: display\d3dddicb_destroyhwcontext.htm
 old-project: display
 ms.assetid: 9040AEAF-3F66-4F76-B9CD-36370BC2F5B6
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDICB_DESTROYHWCONTEXT, D3DDDICB_DESTROYHWCONTEXT structure [Display Devices], _D3DDDICB_DESTROYHWCONTEXT, d3dumddi/D3DDDICB_DESTROYHWCONTEXT, display.d3dddicb_destroyhwcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,16 +50,6 @@ req.typenames: D3DDDICB_DESTROYHWCONTEXT
 
 
 A structure that holds information to destroy a hardware context.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DDDICB_DESTROYHWCONTEXT {
-  HANDLE hHwContext;
-} D3DDDICB_DESTROYHWCONTEXT;
-````
 
 
 ## -struct-fields

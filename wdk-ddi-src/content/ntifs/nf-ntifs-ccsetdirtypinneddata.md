@@ -7,7 +7,7 @@ old-location: ifsk\ccsetdirtypinneddata.htm
 old-project: ifsk
 ms.assetid: f621a54f-ed40-4ec7-8678-7c72fcd9e704
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: CcSetDirtyPinnedData, CcSetDirtyPinnedData routine [Installable File System Drivers], ccref_2cd7571b-289f-4510-a5de-f4e38eb049a2.xml, ifsk.ccsetdirtypinneddata, ntifs/CcSetDirtyPinnedData
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,17 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>CcSetDirtyPinnedData</b> routine marks as dirty the buffer control block (BCB) for a pinned buffer whose contents have been modified.
 
 
-## -syntax
-
-
-````
-VOID CcSetDirtyPinnedData(
-  _In_     PVOID          BcbVoid,
-  _In_opt_ PLARGE_INTEGER Lsn
-);
-````
-
-
 ## -parameters
 
 
@@ -91,35 +80,34 @@ None
 
 
 
-<b>CcSetDirtyPinnedData</b> marks the BCB as dirty, so that the contents of the pinned buffer will be lazy-written to disk. Even if the flush operation is to be performed by some means other than the lazy writer, <b>CcSetDirtyPinnedData</b> should be called whenever the contents of a pinned buffer are modified. This is especially important if the buffer was pinned only for read access (by <a href="..\ntifs\nf-ntifs-ccpinread.md">CcPinRead</a> or <a href="..\ntifs\nf-ntifs-ccpinmappeddata.md">CcPinMappedData</a>). Although buffers that are pinned only for read access can be modified, their contents are not automatically flushed to disk unless the buffers have been marked as dirty by calling <b>CcSetDirtyPinnedData</b>.
+<b>CcSetDirtyPinnedData</b> marks the BCB as dirty, so that the contents of the pinned buffer will be lazy-written to disk. Even if the flush operation is to be performed by some means other than the lazy writer, <b>CcSetDirtyPinnedData</b> should be called whenever the contents of a pinned buffer are modified. This is especially important if the buffer was pinned only for read access (by <a href="https://msdn.microsoft.com/library/windows/hardware/ff539180">CcPinRead</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff539176">CcPinMappedData</a>). Although buffers that are pinned only for read access can be modified, their contents are not automatically flushed to disk unless the buffers have been marked as dirty by calling <b>CcSetDirtyPinnedData</b>.
 
 
 
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ccunpindata.md">CcUnpinData</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-ccpinread.md">CcPinRead</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539155">CcMapData</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-ccmapdata.md">CcMapData</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539176">CcPinMappedData</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-ccpreparepinwrite.md">CcPreparePinWrite</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539180">CcPinRead</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-ccpinmappeddata.md">CcPinMappedData</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539183">CcPreparePinWrite</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539228">CcUnpinData</a>
  
 
  
-
 

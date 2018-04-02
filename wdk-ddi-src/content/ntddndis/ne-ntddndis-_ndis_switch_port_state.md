@@ -7,7 +7,7 @@ old-location: netvista\ndis_switch_port_state.htm
 old-project: netvista
 ms.assetid: BEF37F32-036D-4381-93B3-C159ABCFC3F9
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NDIS_SWITCH_PORT_STATE, NDIS_SWITCH_PORT_STATE enumeration [Network Drivers Starting with Windows Vista], NdisSwitchPortStateCreated, NdisSwitchPortStateDeleted, NdisSwitchPortStateTeardown, NdisSwitchPortStateUnknown, _NDIS_SWITCH_PORT_STATE, netvista.ndis_switch_port_state, ntddndis/NDIS_SWITCH_PORT_STATE, ntddndis/NdisSwitchPortStateCreated, ntddndis/NdisSwitchPortStateDeleted, ntddndis/NdisSwitchPortStateTeardown, ntddndis/NdisSwitchPortStateUnknown
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,19 +52,6 @@ req.typenames: NDIS_SWITCH_PORT_STATE
 The <b>NDIS_SWITCH_PORT_STATE</b> enumeration specifies the current state of the Hyper-V extensible switch port. 
 
 
-## -syntax
-
-
-````
-typedef enum _NDIS_SWITCH_PORT_STATE { 
-  NdisSwitchPortStateUnknown   = 0,
-  NdisSwitchPortStateCreated   = 1,
-  NdisSwitchPortStateTeardown  = 2,
-  NdisSwitchPortStateDeleted   = 3
-} NDIS_SWITCH_PORT_STATE;
-````
-
-
 ## -enum-fields
 
 
@@ -94,7 +81,7 @@ This value specifies that the port has been deleted.
 
 
 
-The <b>PortState</b>  member of the <a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_parameters.md">NDIS_SWITCH_PORT_PARAMETER</a> structure is an <b>NDIS_SWITCH_PORT_STATE</b> enumeration data type. 
+The <b>PortState</b>  member of the <a href="https://msdn.microsoft.com/E68A9018-1E79-4DA6-8C7A-434A2468169F">NDIS_SWITCH_PORT_PARAMETER</a> structure is an <b>NDIS_SWITCH_PORT_STATE</b> enumeration data type. 
 
 
 For more information about extensible switch port states, see <a href="https://msdn.microsoft.com/FD6B6014-B840-4EC8-96F4-34C08EC303EA">Overview of Hyper-V Extensible Switch Ports</a>. 
@@ -105,7 +92,6 @@ For more information about extensible switch port states, see <a href="https://m
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_parameters.md">NDIS_SWITCH_PORT_PARAMETER</a>
 
 
 
@@ -113,8 +99,8 @@ For more information about extensible switch port states, see <a href="https://m
 
 
 
+<a href="https://msdn.microsoft.com/E68A9018-1E79-4DA6-8C7A-434A2468169F">NDIS_SWITCH_PORT_PARAMETER</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: kernel\pep_ppm_initiate_wake.htm
 old-project: kernel
 ms.assetid: 7627521D-4715-47D8-8268-6C9B218FFA6F
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*PPEP_PPM_INITIATE_WAKE, PEP_PPM_INITIATE_WAKE, PEP_PPM_INITIATE_WAKE structure [Kernel-Mode Driver Architecture], PPEP_PPM_INITIATE_WAKE, PPEP_PPM_INITIATE_WAKE structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_INITIATE_WAKE, kernel.pep_ppm_initiate_wake, pepfx/PEP_PPM_INITIATE_WAKE, pepfx/PPEP_PPM_INITIATE_WAKE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,16 +52,6 @@ req.typenames: PEP_PPM_INITIATE_WAKE, *PPEP_PPM_INITIATE_WAKE, PEP_PPM_INITIATE_
 The <b>PEP_PPM_INITIATE_WAKE</b> structure indicates whether a processor requires an interrupt to wake up from an idle state.
 
 
-## -syntax
-
-
-````
-typedef struct _PEP_PPM_INITIATE_WAKE {
-  BOOLEAN NeedInterruptForCompletion;
-} PEP_PPM_INITIATE_WAKE, *PPEP_PPM_INITIATE_WAKE;
-````
-
-
 ## -struct-fields
 
 
@@ -87,16 +77,15 @@ The PEP should set the <b>NeedInterruptForCompletion</b> member to <b>FALSE</b> 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt186627">AcceptProcessorNotification</a>
 
 
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186809">PEP_NOTIFY_PPM_INITIATE_WAKE</a>
-
-
-
  
 
  
-
 

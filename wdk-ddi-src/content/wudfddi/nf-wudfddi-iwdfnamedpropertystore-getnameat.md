@@ -55,17 +55,6 @@ req.product: Windows 10 or later.
 The <b>GetNameAt</b> method retrieves the name of a property.
 
 
-## -syntax
-
-
-````
-HRESULT GetNameAt(
-  [in]  DWORD iProp,
-  [out] PWSTR *ppwszName
-);
-````
-
-
 ## -parameters
 
 
@@ -101,12 +90,11 @@ For more information, see <a href="https://docs.microsoft.com/en-us/windows-hard
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfnamedpropertystore.md">IWDFNamedPropertyStore</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560164">IWDFNamedPropertyStore</a>
  
 
  
-
 

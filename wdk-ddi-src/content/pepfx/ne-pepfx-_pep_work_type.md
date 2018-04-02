@@ -7,7 +7,7 @@ old-location: kernel\pep_work_type.htm
 old-project: kernel
 ms.assetid: 5AED6B9E-5DB8-44AF-925C-4B587D100040
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*PPEP_WORK_TYPE, PEP_WORK_TYPE, PEP_WORK_TYPE enumeration [Kernel-Mode Driver Architecture], PepWorkAcpiEvaluateControlMethodComplete, PepWorkAcpiNotify, PepWorkActiveComplete, PepWorkCompleteIdleState, PepWorkCompletePerfState, PepWorkDeviceIdle, PepWorkDevicePower, PepWorkMax, PepWorkRequestIdleState, PepWorkRequestPowerControl, _PEP_WORK_TYPE, kernel.pep_work_type, pepfx/PEP_WORK_TYPE, pepfx/PepWorkAcpiEvaluateControlMethodComplete, pepfx/PepWorkAcpiNotify, pepfx/PepWorkActiveComplete, pepfx/PepWorkCompleteIdleState, pepfx/PepWorkCompletePerfState, pepfx/PepWorkDeviceIdle, pepfx/PepWorkDevicePower, pepfx/PepWorkMax, pepfx/PepWorkRequestIdleState, pepfx/PepWorkRequestPowerControl"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: See Remarks.
+req.irql: PASSIVE_LEVEL
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -50,25 +50,6 @@ req.typenames: PEP_WORK_TYPE, *PPEP_WORK_TYPE
 
 
 The <b>PEP_WORK_TYPE</b> enumeration describes the type of work that the platform extension plug-in (PEP) is requesting.
-
-
-## -syntax
-
-
-````
-typedef enum _PEP_WORK_TYPE { 
-  PepWorkActiveComplete,
-  PepWorkRequestIdleState,
-  PepWorkDevicePower,
-  PepWorkRequestPowerControl,
-  PepWorkDeviceIdle,
-  PepWorkCompleteIdleState,
-  PepWorkCompletePerfState,
-  PepWorkAcpiNotify,
-  PepWorkAcpiEvaluateControlMethodComplete,
-  PepWorkMax
-} PEP_WORK_TYPE;
-````
 
 
 ## -enum-fields
@@ -130,14 +111,17 @@ Reserved for use by the operating system.
 
 
 
-This enumeration is used by the <a href="..\pepfx\ns-pepfx-_pep_work_information.md">PEP_WORK_INFORMATION</a> structure to describe the type of work item that the PEP is requesting.
+This enumeration is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186864">PEP_WORK_INFORMATION</a> structure to describe the type of work item that the PEP is requesting.
 
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439564">PowerControlCallback</a>
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186759">PEP_DPM_NOTIFY_COMPONENT_IDLE_STATE</a>
 
 
 
@@ -149,16 +133,12 @@ This enumeration is used by the <a href="..\pepfx\ns-pepfx-_pep_work_information
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186759">PEP_DPM_NOTIFY_COMPONENT_IDLE_STATE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186864">PEP_WORK_INFORMATION</a>
 
 
 
-<a href="..\pepfx\ns-pepfx-_pep_work_information.md">PEP_WORK_INFORMATION</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439564">PowerControlCallback</a>
  
 
  
-
 

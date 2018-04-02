@@ -52,23 +52,6 @@ req.product: Windows 10 or later.
 
 
 
-## -syntax
-
-
-````
-BOOL APIENTRY OEMQueryColorProfile(
-        HANDLE                               hPrinter,
-        POEMUIOBJ                            poemuiobj,
-        PDEVMODE                             pPublicDM,
-        PVOID                                pOEMDM,
-        ULONG                                ulQueryMode,
-  _Out_ _writes_bytes_(*pcbProfileData) VOID *pvProfileData,
-  _Out_ ULONG                                *pcbProfileData,
-  _Out_ FLONG                                *pflProfileData
-);
-````
-
-
 ## -parameters
 
 

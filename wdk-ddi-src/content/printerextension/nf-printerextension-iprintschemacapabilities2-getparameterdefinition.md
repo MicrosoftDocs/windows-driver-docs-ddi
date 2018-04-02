@@ -50,21 +50,9 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>GetParameterDefinition</b> method retrieves the <a href="..\printerextension\nn-printerextension-iprintschemaparameterdefinition.md">IPrintSchemaParameterDefinition</a> object, and it  represents the &lt;psf:ParameterDef&gt; element in the PrintCapabilites XML.
+The <b>GetParameterDefinition</b> method retrieves the <a href="https://msdn.microsoft.com/library/windows/hardware/dn465890">IPrintSchemaParameterDefinition</a> object, and it  represents the &lt;psf:ParameterDef&gt; element in the PrintCapabilites XML.
 
  The keyword name and keyword namespace URI specify the <b>IPrintSchemaParameterDefinition</b> object to be retrieved.
-
-
-## -syntax
-
-
-````
-HRESULT GetParameterDefinition(
-  [in]          BSTR                            bstrName,
-  [in]          BSTR                            bstrNamespaceUri,
-  [out, retval] IPrintSchemaParameterDefinition **ppParameterDefinition
-);
-````
 
 
 ## -parameters
@@ -111,20 +99,19 @@ For more information about the data types that you can use with the &lt;psf:Para
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintschemaparameterdefinition.md">IPrintSchemaParameterDefinition</a>
 
 
 
-<a href="..\printerextension\nn-printerextension-iprintschemacapabilities2.md">IPrintSchemaCapabilities2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn465887">IPrintSchemaCapabilities2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn465890">IPrintSchemaParameterDefinition</a>
 
 
 
 <a href="http://msdn.microsoft.com/en-us/library/windows/hardware/gg463385.aspx">Print Schema Specification</a>
-
-
-
  
 
  
-
 

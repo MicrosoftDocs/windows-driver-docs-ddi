@@ -7,7 +7,7 @@ old-location: buses\ucm_connector_pd_config.htm
 old-project: usbref
 ms.assetid: 9DE2AF2D-D6B5-4FC4-8871-246F3661980F
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PUCM_CONNECTOR_PD_CONFIG, PUCM_CONNECTOR_PD_CONFIG, PUCM_CONNECTOR_PD_CONFIG structure pointer [Buses], UCM_CONNECTOR_PD_CONFIG, UCM_CONNECTOR_PD_CONFIG structure [Buses], _UCM_CONNECTOR_PD_CONFIG, buses.ucm_connector_pd_config, ucmmanager/PUCM_CONNECTOR_PD_CONFIG, ucmmanager/UCM_CONNECTOR_PD_CONFIG"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 Describes the Power Delivery 2.0 capabilities of the connector.
 
 
-## -syntax
-
-
-````
-typedef struct _UCM_CONNECTOR_PD_CONFIG {
-  ULONG                            Size;
-  BOOLEAN                          IsSupported;
-  ULONG                            SupportedPowerRoles;
-  PFN_UCM_CONNECTOR_SET_POWER_ROLE EvtSetPowerRole;
-} UCM_CONNECTOR_PD_CONFIG, *PUCM_CONNECTOR_PD_CONFIG;
-````
-
-
 ## -struct-fields
 
 
@@ -85,31 +72,30 @@ If FALSE, a PD role is not supported.
 
 ### -field SupportedPowerRoles
 
-Indicates the operating mode of the connector. This value is a bitwise OR of <a href="..\ucmtypes\ne-ucmtypes-_ucm_power_role.md">UCM_POWER_ROLE</a>-typed flags.
+Indicates the operating mode of the connector. This value is a bitwise OR of <a href="https://msdn.microsoft.com/library/windows/hardware/mt187944">UCM_POWER_ROLE</a>-typed flags.
 
 
 ### -field EvtSetPowerRole
 
-A pointer to the Policy Manager's implementation of the <a href="..\ucmmanager\nc-ucmmanager-evt_ucm_connector_set_power_role.md">EVT_UCM_CONNECTOR_SET_POWER_ROLE</a> event callback.
+A pointer to the Policy Manager's implementation of the <a href="https://msdn.microsoft.com/library/windows/hardware/mt187819">EVT_UCM_CONNECTOR_SET_POWER_ROLE</a> event callback.
 
 
 ## -remarks
 
 
 
-Initialize this structure by calling <a href="..\ucmmanager\nf-ucmmanager-ucm_connector_pd_config_init.md">UCM_CONNECTOR_PD_CONFIG_INIT</a>. An initialized <a href="..\ucmmanager\ns-ucmmanager-_ucm_connector_typec_config.md">UCM_CONNECTOR_TYPEC_CONFIG</a> structure is set to the <b>PdConfig</b> member of the <a href="..\ucmmanager\ns-ucmmanager-_ucm_connector_config.md">UCM_CONNECTOR_CONFIG</a> structure, which is an input parameter value to <a href="..\ucmmanager\nf-ucmmanager-ucmconnectorcreate.md">UcmConnectorCreate</a> that is called by Policy Manager to create a connector object.
+Initialize this structure by calling <a href="https://msdn.microsoft.com/library/windows/hardware/mt187925">UCM_CONNECTOR_PD_CONFIG_INIT</a>. An initialized <a href="https://msdn.microsoft.com/library/windows/hardware/mt187930">UCM_CONNECTOR_TYPEC_CONFIG</a> structure is set to the <b>PdConfig</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/mt187922">UCM_CONNECTOR_CONFIG</a> structure, which is an input parameter value to <a href="https://msdn.microsoft.com/library/windows/hardware/mt187909">UcmConnectorCreate</a> that is called by Policy Manager to create a connector object.
 
 
 
 
 ## -see-also
 
-<a href="..\ucmmanager\nf-ucmmanager-ucmconnectorcreate.md">UcmConnectorCreate</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt187909">UcmConnectorCreate</a>
  
 
  
-
 

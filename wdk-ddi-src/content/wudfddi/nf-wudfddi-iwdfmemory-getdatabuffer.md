@@ -55,16 +55,6 @@ req.product: Windows 10 or later.
 The <b>GetDataBuffer</b> method retrieves the data buffer that is associated with a memory object.
 
 
-## -syntax
-
-
-````
-void* GetDataBuffer(
-  [out, optional] SIZE_T *pBufferSize
-);
-````
-
-
 ## -parameters
 
 
@@ -104,12 +94,11 @@ For a code example of how to use the <b>GetDataBuffer</b> method, see <a href="h
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559249">IWDFMemory</a>
  
 
  
-
 

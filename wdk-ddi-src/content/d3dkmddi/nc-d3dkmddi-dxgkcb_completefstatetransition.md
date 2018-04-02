@@ -7,7 +7,7 @@ old-location: display\dxgkcbcompletefstatetransition.htm
 old-project: display
 ms.assetid: 69a6d9bc-44a9-4204-988e-e11c80f67f28
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKCB_COMPLETEFSTATETRANSITION, DxgkCbCompleteFStateTransition, DxgkCbCompleteFStateTransition callback function [Display Devices], PDXGKCB_COMPLETEFSTATETRANSITION, d3dkmddi/DxgkCbCompleteFStateTransition, display.dxgkcbcompletefstatetransition
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,20 +52,6 @@ req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 Called by a Windows Display Driver Model (WDDM) 1.2 or later display miniport driver to notify the port driver that a power component has completed the F-state transition.
 
 
-## -prototype
-
-
-````
-DXGKCB_COMPLETEFSTATETRANSITION DxgkCbCompleteFStateTransition;
-
-VOID APIENTRY CALLBACK* DxgkCbCompleteFStateTransition(
-  _In_ const HANDLE hAdapter,
-             UINT   ComponentIndex
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -73,12 +59,12 @@ VOID APIENTRY CALLBACK* DxgkCbCompleteFStateTransition(
 
 ### -param hAdapter [in]
 
-A handle to the display adapter. The display miniport driver receives the handle from the <b>DeviceHandle</b> member of the <a href="..\dispmprt\ns-dispmprt-_dxgkrnl_interface.md">DXGKRNL_INTERFACE</a> structure in a call to its <a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a> function.
+A handle to the display adapter. The display miniport driver receives the handle from the <b>DeviceHandle</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560942">DXGKRNL_INTERFACE</a> structure in a call to its <a href="https://msdn.microsoft.com/ffacbb39-2581-4207-841d-28ce57fbc64d">DxgkDdiStartDevice</a> function.
 
 
 ### -param ComponentIndex
 
-The power component index specified by  <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_queryadapterinfo.md">DXGKARG_QUERYADAPTERINFO</a>.<b>pInputData</b> in a call to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryadapterinfo.md">DxgkDdiQueryAdapterInfo</a> function.
+The power component index specified by  <a href="https://msdn.microsoft.com/library/windows/hardware/ff557621">DXGKARG_QUERYADAPTERINFO</a>.<b>pInputData</b> in a call to the <a href="https://msdn.microsoft.com/f2f4c54c-7413-48e5-a165-d71f35642b6c">DxgkDdiQueryAdapterInfo</a> function.
 
 
 ## -returns
@@ -94,9 +80,9 @@ This callback function does not return a value.
 
 
 
-During component registration the display miniport driver should indicate all power components for which it will need to call the <i>DxgkCbCompleteFStateTransition</i> function by setting the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_power_component_flags.md">DXGK_POWER_COMPONENT_FLAGS</a>.<b>DriverCompletesFStateTransition</b> member to 1. When this member is set, the driver must call this function either synchronously or asynchronously. Conversely, if this member is not set, the driver should not call this function.
+During component registration the display miniport driver should indicate all power components for which it will need to call the <i>DxgkCbCompleteFStateTransition</i> function by setting the <a href="https://msdn.microsoft.com/library/windows/hardware/hh464063">DXGK_POWER_COMPONENT_FLAGS</a>.<b>DriverCompletesFStateTransition</b> member to 1. When this member is set, the driver must call this function either synchronously or asynchronously. Conversely, if this member is not set, the driver should not call this function.
 
-<div class="alert"><b>Note</b>  If the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_power_component_flags.md">DXGK_POWER_COMPONENT_FLAGS</a>.<b>DriverCompletesFStateTransition</b> member has been set but the driver does not call this function, deadlocks might occur.</div>
+<div class="alert"><b>Note</b>  If the <a href="https://msdn.microsoft.com/library/windows/hardware/hh464063">DXGK_POWER_COMPONENT_FLAGS</a>.<b>DriverCompletesFStateTransition</b> member has been set but the driver does not call this function, deadlocks might occur.</div>
 <div> </div>
 The Windows power management framework guarantees that no new transition request will be sent for the component until this function is called.
 
@@ -107,12 +93,11 @@ Usually the port driver expects that when this function returns, the F-state tra
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_power_component_flags.md">DXGK_POWER_COMPONENT_FLAGS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh464063">DXGK_POWER_COMPONENT_FLAGS</a>
  
 
  
-
 

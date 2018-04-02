@@ -7,7 +7,7 @@ old-location: dtf\iwdtflog2_outputerror.htm
 old-project: dtf
 ms.assetid: 6a85b0a6-0dff-4dea-86a1-93fd4258900e
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/29/2018
 ms.keywords: IWDTFLOG2, IWDTFLOG2 interface [Windows Device Testing Framework], OutputError method, IWDTFLOG2::OutputError, Microsoft.WDTF.IWDTFLOG2.OutputError, Microsoft::WDTF::IWDTFLOG2::OutputError, OutputError method [Windows Device Testing Framework], OutputError method [Windows Device Testing Framework], IWDTFLOG2 interface, OutputError,IWDTFLOG2.OutputError, dtf.iwdtflog2_outputerror, wdtf/IWDTFLOG2::OutputError
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 Writes an error entry to the test case log.
 
 
-## -syntax
-
-
-````
-HRESULT OutputError(
-  [in] BSTR sErrorString
-);
-````
-
-
 ## -parameters
 
 
@@ -84,12 +74,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\wdtf\nn-wdtf-iwdtflog2.md">IWDTFLOG2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451011">IWDTFLOG2</a>
  
 
  
-
 

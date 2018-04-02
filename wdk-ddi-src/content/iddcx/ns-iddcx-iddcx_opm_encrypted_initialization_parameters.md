@@ -7,7 +7,7 @@ old-location: display\iddcx_opm_encrypted_initialization_parameters.htm
 old-project: display
 ms.assetid: d1df3fc1-2d23-4e90-b663-6322ba4e1eff
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IDDCX_OPM_ENCRYPTED_INITIALIZATION_PARAMETERS, IDDCX_OPM_ENCRYPTED_INITIALIZATION_PARAMETERS structure [Display Devices], display.iddcx_opm_encrypted_initialization_parameters, iddcx/IDDCX_OPM_ENCRYPTED_INITIALIZATION_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,17 +51,6 @@ req.typenames:
 
 Gives information about the OPM encrypted initialization parameters.
              
-
-
-## -syntax
-
-
-````
-typedef struct IDDCX_OPM_ENCRYPTED_INITIALIZATION_PARAMETERS {
-  UINT                                    Size;
-  OPM_ENCRYPTED_INITIALIZATION_PARAMETERS EncryptedParameters;
-} IDDCX_OPM_ENCRYPTED_INITIALIZATION_PARAMETERS, *IDDCX_OPM_ENCRYPTED_INITIALIZATION_PARAMETERS;
-````
 
 
 ## -struct-fields

@@ -55,17 +55,6 @@ req.product: Windows 10 or later.
 The <b>GdiResetDCEMF</b> function resets a printer's device context during playback of a spooled EMF print job.
 
 
-## -syntax
-
-
-````
-BOOL GdiResetDCEMF(
-   HANDLE    SpoolFileHandle,
-   PDEVMODEW pCurrDM
-);
-````
-
-
 ## -parameters
 
 
@@ -73,12 +62,12 @@ BOOL GdiResetDCEMF(
 
 ### -param SpoolFileHandle
 
-Caller-supplied spool file handle, obtained by a previous call to <a href="..\winppi\nf-winppi-gdigetspoolfilehandle.md">GdiGetSpoolFileHandle</a>.
+Caller-supplied spool file handle, obtained by a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff549517">GdiGetSpoolFileHandle</a>.
 
 
 ### -param pCurrDM
 
-Caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a> structure, obtained by a previous call to <a href="..\winppi\nf-winppi-gdigetdevmodeforpage.md">GdiGetDevmodeForPage</a>.
+Caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a> structure, obtained by a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff549478">GdiGetDevmodeForPage</a>.
 
 
 ## -returns
@@ -94,9 +83,9 @@ If the operation succeeds, the function returns <b>TRUE</b>. Otherwise the funct
 
 
 
-The <b>GdiResetDCEMF</b> function is exported by gdi32.dll for use within a print processor's <a href="..\winsplp\nf-winsplp-printdocumentonprintprocessor.md">PrintDocumentOnPrintProcessor</a> function.
+The <b>GdiResetDCEMF</b> function is exported by gdi32.dll for use within a print processor's <a href="https://msdn.microsoft.com/library/windows/hardware/ff560724">PrintDocumentOnPrintProcessor</a> function.
 
-Print processors must call <b>GdiResetDCEMF</b> whenever it is necessary to reset the printer's device context. The function must be called whenever the <a href="..\winppi\nf-winppi-gdigetdevmodeforpage.md">GdiGetDevmodeForPage</a> function indicates that the current document page's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a> structure is not identical to that of the previous document page.
+Print processors must call <b>GdiResetDCEMF</b> whenever it is necessary to reset the printer's device context. The function must be called whenever the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549478">GdiGetDevmodeForPage</a> function indicates that the current document page's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a> structure is not identical to that of the previous document page.
 
 For additional information, see <a href="https://msdn.microsoft.com/2ad62308-ab42-4475-ac42-f753d5091251">Using GDI Functions in Print Processors</a>.
 

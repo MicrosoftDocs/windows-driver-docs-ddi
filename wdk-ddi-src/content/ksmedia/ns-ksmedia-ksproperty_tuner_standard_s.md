@@ -52,17 +52,6 @@ req.typenames: KSPROPERTY_TUNER_STANDARD_S, *PKSPROPERTY_TUNER_STANDARD_S
 The KSPROPERTY_TUNER_STANDARD_S structure describe the standard of a TV tuner device, such as PAL, NTSC or SECAM.
 
 
-## -syntax
-
-
-````
-typedef struct {
-  KSPROPERTY Property;
-  ULONG      Standard;
-} KSPROPERTY_TUNER_STANDARD_S, *PKSPROPERTY_TUNER_STANDARD_S;
-````
-
-
 ## -struct-fields
 
 
@@ -75,20 +64,15 @@ Specifies an initialized <a href="https://msdn.microsoft.com/library/windows/har
 
 ### -field Standard
 
-Describes an analog video standard. This member may be set to one or more (logically ORed) values from the <a href="..\ksmedia\ne-ksmedia-ks_analogvideostandard.md">KS_AnalogVideoStandard</a> enumeration.
+Describes an analog video standard. This member may be set to one or more (logically ORed) values from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567297">KS_AnalogVideoStandard</a> enumeration.
 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567800">PROPSETID_TUNER</a>
-
-
-
-<a href="..\ksmedia\ne-ksmedia-ks_analogvideostandard.md">KS_AnalogVideoStandard</a>
 
 
 
@@ -96,8 +80,12 @@ Describes an analog video standard. This member may be set to one or more (logic
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567297">KS_AnalogVideoStandard</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567800">PROPSETID_TUNER</a>
  
 
  
-
 

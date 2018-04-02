@@ -7,7 +7,7 @@ old-location: ifsk\keremovequeue.htm
 old-project: ifsk
 ms.assetid: 475e352a-b6ea-4e37-ad46-e94284caa105
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: KeRemoveQueue, KeRemoveQueue routine [Installable File System Drivers], ifsk.keremovequeue, keref_99014b0b-5ca1-4cda-8422-fc3819f42d8b.xml, ntifs/KeRemoveQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,18 +50,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>KeRemoveQueue</b> routine gives the calling thread a pointer to a dequeued entry from the given queue object or allows the caller to wait, up to an optional timeout interval, on the queue object. 
-
-
-## -syntax
-
-
-````
-PLIST_ENTRY KeRemoveQueue(
-  _Inout_  PRKQUEUE        Queue,
-  _In_     KPROCESSOR_MODE WaitMode,
-  _In_opt_ PLARGE_INTEGER  Timeout
-);
-````
 
 
 ## -parameters
@@ -119,16 +107,15 @@ For more information about using driver-managed internal queues, see <a href="ht
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-keinsertheadqueue.md">KeInsertHeadQueue</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-keinsertqueue.md">KeInsertQueue</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549559">KeInsertHeadQueue</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549570">KeInsertQueue</a>
  
 
  
-
 

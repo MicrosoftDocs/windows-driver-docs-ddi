@@ -52,17 +52,6 @@ req.typenames: EXpsFontRestriction
 The <b>GetFontProperties</b> method gets the font properties.
 
 
-## -syntax
-
-
-````
-HRESULT GetFontProperties(
-  [out] BSTR            *pContentType,
-  [out] EXpsFontOptions *pFontOptions
-);
-````
-
-
 ## -parameters
 
 

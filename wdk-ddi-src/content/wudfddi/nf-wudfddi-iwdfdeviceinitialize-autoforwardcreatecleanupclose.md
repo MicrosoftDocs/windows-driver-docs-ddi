@@ -55,16 +55,6 @@ req.product: Windows 10 or later.
 The <b>AutoForwardCreateCleanupClose</b> method controls when create, cleanup, and close notifications are forwarded to the next lower driver in the device stack.
 
 
-## -syntax
-
-
-````
-void AutoForwardCreateCleanupClose(
-  [in] WDF_TRI_STATE State
-);
-````
-
-
 ## -parameters
 
 
@@ -147,7 +137,6 @@ For more information about how a UMDF driver uses <b>AutoForwardCreateCleanupClo
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdeviceinitialize.md">IWDFDeviceInitialize</a>
 
 
 
@@ -163,8 +152,8 @@ For more information about how a UMDF driver uses <b>AutoForwardCreateCleanupClo
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556965">IWDFDeviceInitialize</a>
  
 
  
-
 

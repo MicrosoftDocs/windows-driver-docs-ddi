@@ -7,7 +7,7 @@ old-location: kernel\pep_ppm_perf_set.htm
 old-project: kernel
 ms.assetid: BA2495F6-09E8-4AF9-9489-E745B759F999
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*PPEP_PPM_PERF_SET, PEP_PPM_PERF_SET, PEP_PPM_PERF_SET structure [Kernel-Mode Driver Architecture], PPEP_PPM_PERF_SET, PPEP_PPM_PERF_SET structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_PERF_SET, kernel.pep_ppm_perf_set, pepfx/PEP_PPM_PERF_SET, pepfx/PPEP_PPM_PERF_SET"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,20 +50,6 @@ req.typenames: PEP_PPM_PERF_SET, *PPEP_PPM_PERF_SET
 
 
 The <b>PEP_PPM_PERF_SET</b> structure specifies the new performance level that the operating system is requesting for the processor.
-
-
-## -syntax
-
-
-````
-typedef struct _PEP_PPM_PERF_SET {
-  ULONG MinimumPerformance;
-  ULONG MaximumPerformance;
-  ULONG DesiredPerformance;
-  ULONG TimeWindow;
-  ULONG PerformanceTolerance;
-} PEP_PPM_PERF_SET, *PPEP_PPM_PERF_SET;
-````
 
 
 ## -struct-fields
@@ -109,7 +95,6 @@ Processor performance levels are specified in platform-specific units. For examp
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt629132">Platform Performance Thresholds</a>
 
 
 
@@ -117,8 +102,8 @@ Processor performance levels are specified in platform-specific units. For examp
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt629132">Platform Performance Thresholds</a>
  
 
  
-
 

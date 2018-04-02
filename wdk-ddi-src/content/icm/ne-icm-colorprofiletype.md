@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -52,19 +52,6 @@ req.typenames: COLORPROFILETYPE
 The COLORPROFILETYPE enumeration is used to specify the type of color profile.
 
 
-## -syntax
-
-
-````
-typedef enum  { 
-  CPT_ICC   = 0,
-  CPT_DMP   = 1,
-  CPT_CAMP  = 2,
-  CPT_GMMP  = 3
-} COLORPROFILETYPE;
-````
-
-
 ## -enum-fields
 
 
@@ -72,22 +59,22 @@ typedef enum  {
 
 ### -field CPT_ICC
 
-Specifies an ICC profile. If this value is specified, only the CPST_RGB_WORKING_SPACE and CPST_CUSTOM_WORKING_SPACE values of <a href="..\icm\ne-icm-colorprofilesubtype.md">COLORPROFILESUBTYPE</a> are valid.
+Specifies an ICC profile. If this value is specified, only the CPST_RGB_WORKING_SPACE and CPST_CUSTOM_WORKING_SPACE values of <a href="https://msdn.microsoft.com/library/windows/hardware/ff546012">COLORPROFILESUBTYPE</a> are valid.
 
 
 ### -field CPT_DMP
 
-Specifies a WCS device model profile (DMP). If this value is specified, only the CPST_RGB_WORKING_SPACE and CPST_CUSTOM_WORKING_SPACE values of <a href="..\icm\ne-icm-colorprofilesubtype.md">COLORPROFILESUBTYPE</a> are valid.
+Specifies a WCS device model profile (DMP). If this value is specified, only the CPST_RGB_WORKING_SPACE and CPST_CUSTOM_WORKING_SPACE values of <a href="https://msdn.microsoft.com/library/windows/hardware/ff546012">COLORPROFILESUBTYPE</a> are valid.
 
 
 ### -field CPT_CAMP
 
-Specifies a WCS color appearance model profile (CAMP). If this value is specified, only the CPST_NONE value of <a href="..\icm\ne-icm-colorprofilesubtype.md">COLORPROFILESUBTYPE</a> is valid.
+Specifies a WCS color appearance model profile (CAMP). If this value is specified, only the CPST_NONE value of <a href="https://msdn.microsoft.com/library/windows/hardware/ff546012">COLORPROFILESUBTYPE</a> is valid.
 
 
 ### -field CPT_GMMP
 
-Specifies a WCS gamut map model profile (GMMP). If this value is specified, only the CPST_PERCEPTUAL, CPST_SATURATION, CPST_RELATIVE_COLORIMETRIC, and CPST_ABSOLUTE_COLORIMETRIC values of <a href="..\icm\ne-icm-colorprofilesubtype.md">COLORPROFILESUBTYPE</a> are valid. Any one of these values may optionally be combined (in a bitwise OR operation) with CPST_DEFAULT.
+Specifies a WCS gamut map model profile (GMMP). If this value is specified, only the CPST_PERCEPTUAL, CPST_SATURATION, CPST_RELATIVE_COLORIMETRIC, and CPST_ABSOLUTE_COLORIMETRIC values of <a href="https://msdn.microsoft.com/library/windows/hardware/ff546012">COLORPROFILESUBTYPE</a> are valid. Any one of these values may optionally be combined (in a bitwise OR operation) with CPST_DEFAULT.
 
 
 ## -remarks
@@ -111,12 +98,11 @@ The PCOLORPROFILETYPE and LPCOLORPROFILETYPE data types are defined as pointers 
 
 ## -see-also
 
-<a href="..\icm\ne-icm-colorprofilesubtype.md">COLORPROFILESUBTYPE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546012">COLORPROFILESUBTYPE</a>
  
 
  
-
 

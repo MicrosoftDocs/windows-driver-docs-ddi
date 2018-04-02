@@ -52,24 +52,6 @@ req.product: Windows 10 or later.
 
 
 
-## -syntax
-
-
-````
-PDEVOEM APIENTRY OEMEnablePDEV(
-          PDEVOBJ                            pdevobj,
-  _In_    PWSTR                              pPrinterName,
-          ULONG                              cPatterns,
-  _In_    _updates_(cPatterns) HSURF         *phsurfPatterns,
-          ULONG                              cjGdiInfo,
-  _Inout_ _updates_bytes_(cjGdiInfo) GDIINFO *pGdiInfo,
-          ULONG                              cjDevInfo,
-  _Inout_ _updates_bytes_(cjDevInfo) DEVINFO *pDevInfo,
-  _In_    DRVENABLEDATA                      *pded
-);
-````
-
-
 ## -parameters
 
 

@@ -53,16 +53,6 @@ req.typenames:
 The <b>KsQueryObjectCreateItem</b> function returns the create item assigned to the object when created.
 
 
-## -syntax
-
-
-````
-PKSOBJECT_CREATE_ITEM KsQueryObjectCreateItem(
-  _In_ KSOBJECT_HEADER Header
-);
-````
-
-
 ## -parameters
 
 

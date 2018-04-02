@@ -7,7 +7,7 @@ old-location: audio\ksds3d_listener_all.htm
 old-project: audio
 ms.assetid: 6bff18d1-77bf-49c0-af9c-aa1abbfbfa53
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/19/2018
 ms.keywords: "*PKSDS3D_LISTENER_ALL, KSDS3D_LISTENER_ALL, KSDS3D_LISTENER_ALL structure [Audio Devices], PKSDS3D_LISTENER_ALL, PKSDS3D_LISTENER_ALL structure pointer [Audio Devices], aud-prop_1fd24ba2-9b2d-4ee2-b40c-eb7812597da0.xml, audio.ksds3d_listener_all, ksmedia/KSDS3D_LISTENER_ALL, ksmedia/PKSDS3D_LISTENER_ALL"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,22 +52,6 @@ req.typenames: KSDS3D_LISTENER_ALL, *PKSDS3D_LISTENER_ALL
 The KSDS3D_LISTENER_ALL structure specifies all the properties of the DirectSound 3D listener. This structure is used to get or set the data value for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537334">KSPROPERTY_DIRECTSOUND3DLISTENER_ALL</a> property.
 
 
-## -syntax
-
-
-````
-typedef struct {
-  DS3DVECTOR Position;
-  DS3DVECTOR Velocity;
-  DS3DVECTOR OrientFront;
-  DS3DVECTOR OrientTop;
-  FLOAT      DistanceFactor;
-  FLOAT      RolloffFactor;
-  FLOAT      DopplerFactor;
-} KSDS3D_LISTENER_ALL, *PKSDS3D_LISTENER_ALL;
-````
-
-
 ## -struct-fields
 
 
@@ -75,7 +59,7 @@ typedef struct {
 
 ### -field Position
 
-Specifies the position vector of the 3D listener. This member is a structure of type <a href="..\ksmedia\ns-ksmedia-_ds3dvector.md">DS3DVECTOR</a>.
+Specifies the position vector of the 3D listener. This member is a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff536367">DS3DVECTOR</a>.
 
 
 ### -field Velocity
@@ -121,16 +105,15 @@ DirectSound uses this property to implement the <b>IDirectSound3DListener::GetAl
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-_ds3dvector.md">DS3DVECTOR</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536367">DS3DVECTOR</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537334">KSPROPERTY_DIRECTSOUND3DLISTENER_ALL</a>
-
-
-
  
 
  
-
 

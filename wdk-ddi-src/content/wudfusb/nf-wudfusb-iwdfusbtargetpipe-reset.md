@@ -55,14 +55,6 @@ req.product: Windows 10 or later.
 The <b>Reset</b> method resets the data toggle and clears the stall condition on a USB pipe.
 
 
-## -syntax
-
-
-````
-HRESULT  Reset();
-````
-
-
 ## -parameters
 
 
@@ -135,16 +127,15 @@ For more information about how <b>Reset</b> works, see the <a href="https://msdn
 
 ## -see-also
 
-<a href="..\wudfusb\nn-wudfusb-iwdfusbtargetpipe.md">IWDFUsbTargetPipe</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560391">IWDFUsbTargetPipe</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540300">WinUsb_ResetPipe</a>
-
-
-
  
 
  
-
 

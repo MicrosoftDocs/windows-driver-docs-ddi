@@ -7,7 +7,7 @@ old-location: display\updatepalette.htm
 old-project: display
 ms.assetid: 7c22e0c9-cc24-4398-88b7-c91855cbc731
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3DDDI_UPDATEPALETTE, UpdatePalette, UpdatePalette callback function [Display Devices], UserModeDisplayDriver_Functions_d3b21e65-68dc-44d9-b5b3-96f37588965e.xml, d3dumddi/UpdatePalette, display.updatepalette
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,21 +52,6 @@ req.typenames: DXGK_PTE
 The <i>UpdatePalette</i> function updates a texture palette.
 
 
-## -prototype
-
-
-````
-PFND3DDDI_UPDATEPALETTE UpdatePalette;
-
-__checkReturn HRESULT APIENTRY UpdatePalette(
-  _In_       HANDLE                  hDevice,
-  _In_ const D3DDDIARG_UPDATEPALETTE *pData,
-  _In_ const PALETTEENTRY            *pPaletteData
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -88,7 +73,7 @@ __checkReturn HRESULT APIENTRY UpdatePalette(
 
 #### - pData [in]
 
- A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_updatepalette.md">D3DDDIARG_UPDATEPALETTE</a> structure that describes parameters for the palette-update operation.
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff544093">D3DDDIARG_UPDATEPALETTE</a> structure that describes parameters for the palette-update operation.
 
 
 #### - pPaletteData [in]
@@ -111,7 +96,7 @@ __checkReturn HRESULT APIENTRY UpdatePalette(
 
 The palette data in the array that is specified by <i>pPaletteData</i> consists of one UINT value for each palette entry (PALETTEENTRY structure). The palette entry is in ARGB format, with 8 bits for each of the four channels.
 
-The user-mode display driver uses the following members of the <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_updatepalette.md">D3DDDIARG_UPDATEPALETTE</a> structure that is pointed to by <i>pData</i> to update the texture palette: 
+The user-mode display driver uses the following members of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544093">D3DDDIARG_UPDATEPALETTE</a> structure that is pointed to by <i>pData</i> to update the texture palette: 
 
 <ul>
 <li>
@@ -132,16 +117,15 @@ The <b>NumEntries</b> member specifies the number of entries in the array at <i>
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_updatepalette.md">D3DDDIARG_UPDATEPALETTE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544093">D3DDDIARG_UPDATEPALETTE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544519">D3DDDI_DEVICEFUNCS</a>
  
 
  
-
 

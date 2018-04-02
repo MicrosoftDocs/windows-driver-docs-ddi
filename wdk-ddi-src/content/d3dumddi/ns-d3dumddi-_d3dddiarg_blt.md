@@ -7,7 +7,7 @@ old-location: display\d3dddiarg_blt.htm
 old-project: display
 ms.assetid: 9663d0fe-7397-49d7-b860-e466a9311aca
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDIARG_BLT, D3DDDIARG_BLT structure [Display Devices], UMDisplayDriver_param_Structs_1c7d23e1-c05e-42b6-802e-4a69a80006c8.xml, _D3DDDIARG_BLT, d3dumddi/D3DDDIARG_BLT, display.d3dddiarg_blt
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,23 +52,6 @@ req.typenames: D3DDDIARG_BLT
 The D3DDDIARG_BLT structure describes the parameters of a bit-block transfer (bitblt). 
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_BLT {
-  HANDLE          hSrcResource;
-  UINT            SrcSubResourceIndex;
-  RECT            SrcRect;
-  HANDLE          hDstResource;
-  UINT            DstSubResourceIndex;
-  RECT            DstRect;
-  UINT            ColorKey;
-  D3DDDI_BLTFLAGS Flags;
-} D3DDDIARG_BLT;
-````
-
-
 ## -struct-fields
 
 
@@ -111,7 +94,7 @@ typedef struct _D3DDDIARG_BLT {
 
 ### -field Flags
 
-[in] A <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_bltflags.md">D3DDDI_BLTFLAGS</a> structure that identifies the type of bitblt to perform. Note that some bit-field flags in this structure are mutually exclusive with other flags. For more information about these flags, see the following Remarks section.
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff544379">D3DDDI_BLTFLAGS</a> structure that identifies the type of bitblt to perform. Note that some bit-field flags in this structure are mutually exclusive with other flags. For more information about these flags, see the following Remarks section.
 
 
 ## -remarks
@@ -127,20 +110,19 @@ The <b>SrcColorKey</b> and <b>DstColorKey</b> bit-field flags are never set simu
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_bltflags.md">D3DDDI_BLTFLAGS</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_blt.md">Blt</a>
+<a href="https://msdn.microsoft.com/e87576c6-0173-4d8e-bbaf-b82e2907140a">Blt</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544379">D3DDDI_BLTFLAGS</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
-
-
-
  
 
  
-
 

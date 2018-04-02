@@ -7,7 +7,7 @@ old-location: display\dxgk_display_technology.htm
 old-project: display
 ms.assetid: 4612213A-E79F-4C3B-95B4-8C83C0B5FB32
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PDXGK_DISPLAY_TECHNOLOGY, DXGK_DISPLAY_TECHNOLOGY, DXGK_DISPLAY_TECHNOLOGY enumeration [Display Devices], DXGK_DT_INVALID, DXGK_DT_LCD, DXGK_DT_OLED, DXGK_DT_OTHER, PDXGK_DISPLAY_TECHNOLOGY, PDXGK_DISPLAY_TECHNOLOGY enumeration pointer [Display Devices], _DXGK_DISPLAY_TECHNOLOGY, d3dkmdt/DXGK_DISPLAY_TECHNOLOGY, d3dkmdt/DXGK_DT_INVALID, d3dkmdt/DXGK_DT_LCD, d3dkmdt/DXGK_DT_OLED, d3dkmdt/DXGK_DT_OTHER, d3dkmdt/PDXGK_DISPLAY_TECHNOLOGY, display.dxgk_display_technology"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,19 +50,6 @@ req.typenames: DXGK_DISPLAY_TECHNOLOGY, *PDXGK_DISPLAY_TECHNOLOGY
 
 
 Enum used to specify the display technology being used.
-
-
-## -syntax
-
-
-````
-typedef enum _DXGK_DISPLAY_TECHNOLOGY { 
-  DXGK_DT_INVALID  = 0,
-  DXGK_DT_OTHER,
-  DXGK_DT_LCD,
-  DXGK_DT_OLED
-} DXGK_DISPLAY_TECHNOLOGY, *PDXGK_DISPLAY_TECHNOLOGY ;
-````
 
 
 ## -enum-fields

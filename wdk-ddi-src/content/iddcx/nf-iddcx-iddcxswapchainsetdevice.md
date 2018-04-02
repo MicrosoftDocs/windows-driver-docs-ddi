@@ -7,7 +7,7 @@ old-location: display\iddcxswapchainsetdevice.htm
 old-project: display
 ms.assetid: f1e96d8a-910e-4808-b9a3-e8c530158872
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IddCxSwapChainSetDevice, IddCxSwapChainSetDevice method [Display Devices], display.iddcxswapchainsetdevice, iddcx/IddCxSwapChainSetDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,17 +52,6 @@ req.typenames:
 An OS callback function the driver calls within its SetSwapChain routine to setup the swap-chain with a particular DXGI device.
 
                 
-
-
-## -syntax
-
-
-````
-HRESULT IddCxSwapChainSetDevice(
-  _In_ IDDCX_SWAPCHAIN              SwapChainObject,
-  _In_ IDARG_IN_SWAPCHAINSETDEVICE* pInArgs
-);
-````
 
 
 ## -parameters

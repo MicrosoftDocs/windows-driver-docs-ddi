@@ -7,7 +7,7 @@ old-location: storage\storportallocatehostmemorybuffer.htm
 old-project: storage
 ms.assetid: B8413B02-32A6-40AE-9DD2-C25AD2D2D45C
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: StorPortAllocateHostMemoryBuffer, StorPortAllocateHostMemoryBuffer routine [Storage Devices], storage.storportallocatehostmemorybuffer, storport/StorPortAllocateHostMemoryBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -64,25 +64,6 @@ Depending on the allocation policy, this function may allocate as much as
     ranges as possible, but it may have to use multiple physical address ranges
     to satisfy the desired HMB size.
 
-
-
-## -syntax
-
-
-````
-ULONG StorPortAllocateHostMemoryBuffer(
-  _In_     PVOID                                                                                 HwDeviceExtension,
-  _In_     SIZE_T                                                                                MinimumBytes,
-  _In_     SIZE_T                                                                                PreferredBytes,
-  _In_     ULONGLONG                                                                             UtilizationBytes,
-  _In_     ULONG                                                                                 AlignmentBytes,
-  _In_     PHYSICAL_ADDRESS                                                                      LowestAcceptableAddress,
-  _In_     PHYSICAL_ADDRESS                                                                      HighestAcceptableAddress,
-  _In_opt_ PHYSICAL_ADDRESS                                                                      BoundaryAddressMultiple,
-           _Out_writes_to_(*PhysicalAddressRangeCount, *PhysicalAddressRangeCount) PACCESS_RANGE PhysicalAddressRanges,
-  _Inout_  PULONG                                                                                PhysicalAddressRangeCount
-);
-````
 
 
 ## -parameters
@@ -213,12 +194,11 @@ The host memory buffer could not be allocated.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/686D141E-E6EA-4BB6-8556-0ECAC592E8F0">StorPortFreeHostMemoryBuffer</a>
-
-
-
  
 
  
-
 

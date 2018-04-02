@@ -7,7 +7,7 @@ old-location: ifsk\fsrtlchecklockforreadaccess.htm
 old-project: ifsk
 ms.assetid: 3734b286-b5cb-4906-9947-3ad23ef54267
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FsRtlCheckLockForReadAccess, FsRtlCheckLockForReadAccess routine [Installable File System Drivers], fsrtlref_6ec3721a-c748-40c2-8469-336a56fd9eb6.xml, ifsk.fsrtlchecklockforreadaccess, ntifs/FsRtlCheckLockForReadAccess
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,17 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>FsRtlCheckLockForReadAccess</b> routine determines whether the process associated with a given IRP has read access to a locked region of a file.
 
 
-## -syntax
-
-
-````
-BOOLEAN FsRtlCheckLockForReadAccess(
-  _In_ PFILE_LOCK FileLock,
-  _In_ PIRP       Irp
-);
-````
-
-
 ## -parameters
 
 
@@ -70,7 +59,7 @@ BOOLEAN FsRtlCheckLockForReadAccess(
 
 ### -param FileLock [in]
 
-Pointer to the FILE_LOCK structure for the file. This structure must have been initialized by a previous call to <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock~r1.md">FsRtlAllocateFileLock</a> or <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock~r2.md">FsRtlInitializeFileLock</a>.
+Pointer to the FILE_LOCK structure for the file. This structure must have been initialized by a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff545640">FsRtlAllocateFileLock</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff546122">FsRtlInitializeFileLock</a>.
 
 
 ### -param Irp [in]
@@ -99,39 +88,38 @@ On Microsoft Windows 2000 and earlier, <b>FsRtlCheckLockForReadAccess</b> checks
 
 <b>FsRtlCheckLockForReadAccess</b> does not complete the IRP specified by <i>Irp</i>. 
 
-Minifilters must call <a href="..\fltkernel\nf-fltkernel-fltchecklockforreadaccess.md">FltCheckLockForReadAccess</a> instead of <b>FsRtlCheckLockForReadAccess</b>. 
+Minifilters must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff541834">FltCheckLockForReadAccess</a> instead of <b>FsRtlCheckLockForReadAccess</b>. 
 
 
 
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock~r2.md">FsRtlInitializeFileLock</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlfastchecklockforread~r5.md">FsRtlFastCheckLockForRead</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541834">FltCheckLockForReadAccess</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltchecklockforreadaccess.md">FltCheckLockForReadAccess</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545640">FsRtlAllocateFileLock</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlprocessfilelock~r2.md">FsRtlProcessFileLock</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545760">FsRtlCheckLockForWriteAccess</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock~r1.md">FsRtlAllocateFileLock</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545918">FsRtlFastCheckLockForRead</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlchecklockforwriteaccess~r1.md">FsRtlCheckLockForWriteAccess</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546122">FsRtlInitializeFileLock</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547166">FsRtlProcessFileLock</a>
  
 
  
-
 

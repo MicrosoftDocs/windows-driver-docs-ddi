@@ -7,7 +7,7 @@ old-location: storage\msiscsi_lunmappinginformation.htm
 old-project: storage
 ms.assetid: abe4b0fe-3918-4139-9c35-d9399287ce03
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PMSiSCSI_LUNMappingInformation, MSiSCSI_LUNMappingInformation, MSiSCSI_LUNMappingInformation structure [Storage Devices], PMSiSCSI_LUNMappingInformation, PMSiSCSI_LUNMappingInformation structure pointer [Storage Devices], _MSiSCSI_LUNMappingInformation, iscsiop/MSiSCSI_LUNMappingInformation, iscsiop/PMSiSCSI_LUNMappingInformation, storage.msiscsi_lunmappinginformation, structs-iSCSI_390283b1-22d6-4012-834f-1b3ef3328da0.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,20 +52,6 @@ req.typenames: MSiSCSI_LUNMappingInformation, *PMSiSCSI_LUNMappingInformation
 This MSiSCSI_LUNMappingInformation structure provides the SCSI address information that the operating system assigns to a particular logical unit.
 
 
-## -syntax
-
-
-````
-typedef struct _MSiSCSI_LUNMappingInformation {
-  ULONGLONG UniqueAdapterId;
-  ULONGLONG UniqueSessionId;
-  ULONG     OSBus;
-  ULONG     OSTarget;
-  ULONG     OSLUN;
-} MSiSCSI_LUNMappingInformation, *PMSiSCSI_LUNMappingInformation;
-````
-
-
 ## -struct-fields
 
 
@@ -73,7 +59,7 @@ typedef struct _MSiSCSI_LUNMappingInformation {
 
 ### -field UniqueAdapterId
 
-A 64-bit integer that uniquely identifies an HBA initiator and a loaded instance of a storage miniport driver that manages the HBA. The initiator should use the address of the adapter extension or another address that the device driver owns to construct this identifier (ID). The initiator reports this value in the <b>UniqueAdapterId</b> member of the <a href="..\iscsimgt\ns-iscsimgt-_msiscsi_hbainformation.md">MSiSCSI_HBAInformation</a> structure.
+A 64-bit integer that uniquely identifies an HBA initiator and a loaded instance of a storage miniport driver that manages the HBA. The initiator should use the address of the adapter extension or another address that the device driver owns to construct this identifier (ID). The initiator reports this value in the <b>UniqueAdapterId</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563012">MSiSCSI_HBAInformation</a> structure.
 
 
 ### -field UniqueSessionId
@@ -107,15 +93,6 @@ You must implement this class.
 
 ## -see-also
 
-<a href="..\iscsiop\ns-iscsiop-_msiscsi_targetmappings.md">MSiSCSI_TargetMappings</a>
-
-
-
-<a href="..\iscsimgt\ns-iscsimgt-_msiscsi_hbainformation.md">MSiSCSI_HBAInformation</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
 
 
 
@@ -123,12 +100,20 @@ You must implement this class.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563012">MSiSCSI_HBAInformation</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563067">MSiSCSI_LUNMappingInformation WMI Class</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563144">MSiSCSI_TargetMappings</a>
  
 
  
-
 

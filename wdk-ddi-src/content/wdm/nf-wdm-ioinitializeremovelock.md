@@ -7,7 +7,7 @@ old-location: kernel\ioinitializeremovelock.htm
 old-project: kernel
 ms.assetid: d85bab78-0e9e-4e71-a09b-40954df81c87
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: IoInitializeRemoveLock, IoInitializeRemoveLock routine [Kernel-Mode Driver Architecture], k104_b9b844b1-4bb4-4a52-8274-c5a3441f6267.xml, kernel.ioinitializeremovelock, wdm/IoInitializeRemoveLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 The <b>IoInitializeRemoveLock</b> routine initializes a remove lock for a device object.
 
 
-## -syntax
-
-
-````
-VOID IoInitializeRemoveLock(
-  _In_ PIO_REMOVE_LOCK Lock,
-  _In_ ULONG           AllocateTag,
-  _In_ ULONG           MaxLockedMinutes,
-  _In_ ULONG           HighWatermark
-);
-````
-
-
 ## -parameters
 
 
@@ -97,7 +84,7 @@ TBD
 
 #### - AllocateTag [in]
 
-Specifies a tag to identify the creator of the lock. Driver writers typically use a 4-character string, specified in reverse order, like the tags used for <a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>.
+Specifies a tag to identify the creator of the lock. Driver writers typically use a 4-character string, specified in reverse order, like the tags used for <a href="https://msdn.microsoft.com/library/windows/hardware/ff544520">ExAllocatePoolWithTag</a>.
 
 The I/O system uses this parameter if <a href="https://msdn.microsoft.com/library/windows/hardware/ff557262">Driver Verifier</a> is enabled, and on checked builds regardless of whether Driver Verifier is enabled. The caller should always supply a nonzero tag value for this parameter, for both free and checked builds.
 
@@ -135,24 +122,23 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-ioinitializeremovelock.md">IoInitializeRemoveLock</a>
 
 
 
-<a href="..\wdm\nf-wdm-ioreleaseremovelock.md">IoReleaseRemoveLock</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548204">IoAcquireRemoveLock</a>
 
 
 
-<a href="..\wdm\nf-wdm-ioacquireremovelock.md">IoAcquireRemoveLock</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549324">IoInitializeRemoveLock</a>
 
 
 
-<a href="..\wdm\nf-wdm-ioreleaseremovelockandwait.md">IoReleaseRemoveLockAndWait</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549560">IoReleaseRemoveLock</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549567">IoReleaseRemoveLockAndWait</a>
  
 
  
-
 

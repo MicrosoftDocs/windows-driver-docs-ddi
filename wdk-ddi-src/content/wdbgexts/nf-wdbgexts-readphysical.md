@@ -7,7 +7,7 @@ old-location: debugger\readphysical.htm
 old-project: debugger
 ms.assetid: 02ca3358-7740-4eda-ab7c-f4b8a88389c2
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: ReadPhysical, ReadPhysical function [Windows Debugging], WdbgExts_Ref_4eaa6edb-2297-4454-b4aa-ea69aa5a073c.xml, debugger.readphysical, wdbgexts/ReadPhysical
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,19 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>ReadPhysical</b> function reads from physical memory.
-
-
-## -syntax
-
-
-````
-__inline VOID ReadPhysical(
-   ULONG64 address,
-   PVOID   buf,
-   ULONG   size,
-   PULONG  sizer
-);
-````
 
 
 ## -parameters

@@ -7,7 +7,7 @@ old-location: storage\msfc_fcadapterhbaattributes.htm
 old-project: storage
 ms.assetid: 5efe0ede-b55f-499e-9f95-66652cd8a872
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PMSFC_FCAdapterHBAAttributes, MSFC_FCAdapterHBAAttributes, MSFC_FCAdapterHBAAttributes structure [Storage Devices], PMSFC_FCAdapterHBAAttributes, PMSFC_FCAdapterHBAAttributes structure pointer [Storage Devices], _MSFC_FCAdapterHBAAttributes, hbapiwmi/MSFC_FCAdapterHBAAttributes, hbapiwmi/PMSFC_FCAdapterHBAAttributes, storage.msfc_fcadapterhbaattributes, structs-Fibre_07d902b9-2da0-4bca-94ab-db837beff481.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,31 +50,6 @@ req.typenames: MSFC_FCAdapterHBAAttributes, *PMSFC_FCAdapterHBAAttributes
 
 
 The MSFC_FCAdapterHBAAttributes structure is used by a WMI provider to expose attribute information associated with a fibre channel adapter. 
-
-
-## -syntax
-
-
-````
-typedef struct _MSFC_FCAdapterHBAAttributes {
-  ULONGLONG UniqueAdapterId;
-  ULONG     HBAStatus;
-  UCHAR     NodeWWN[8];
-  ULONG     VendorSpecificID;
-  ULONG     NumberOfPorts;
-  WCHAR     Manufacturer[64 + 1];
-  WCHAR     SerialNumber[64 + 1];
-  WCHAR     Model[256 + 1];
-  WCHAR     ModelDescription[256 + 1];
-  WCHAR     NodeSymbolicName[256 + 1];
-  WCHAR     HardwareVersion[256 + 1];
-  WCHAR     DriverVersion[256 + 1];
-  WCHAR     OptionROMVersion[256 + 1];
-  WCHAR     FirmwareVersion[256 + 1];
-  WCHAR     DriverName[256 + 1];
-  WCHAR     MfgDomain[256 + 1];
-} MSFC_FCAdapterHBAAttributes, *PMSFC_FCAdapterHBAAttributes;
-````
 
 
 ## -struct-fields
@@ -164,16 +139,15 @@ Contains the name of the HBA manufacturer.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff562497">MSFC_FCAdapterHBAAttributes WMI Class</a>
-
-
-
  
 
  
-
 

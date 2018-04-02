@@ -7,7 +7,7 @@ old-location: display\d3d10_ddi_query_data_so_statistics.htm
 old-project: display
 ms.assetid: 641c8f8d-e398-4ca4-9e28-bba2ef7d1bd3
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3D10_DDI_QUERY_DATA_SO_STATISTICS, D3D10_DDI_QUERY_DATA_SO_STATISTICS structure [Display Devices], UMDisplayDriver_Dx10param_Structs_3748a5db-9ce8-4763-baac-4110b754188d.xml, d3d10umddi/D3D10_DDI_QUERY_DATA_SO_STATISTICS, display.d3d10_ddi_query_data_so_statistics
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,20 +49,9 @@ req.typenames: D3D10_DDI_QUERY_DATA_SO_STATISTICS
 ## -description
 
 
-The D3D10_DDI_QUERY_DATA_SO_STATISTICS structure describes stream output statistics that is used in a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createquery.md">CreateQuery(D3D10)</a> function to create a D3D10DDI_QUERY_STREAMOUTPUTSTATS 
+The D3D10_DDI_QUERY_DATA_SO_STATISTICS structure describes stream output statistics that is used in a call to the <a href="https://msdn.microsoft.com/abe6a82f-1613-4c74-9e81-01939db74bfd">CreateQuery(D3D10)</a> function to create a D3D10DDI_QUERY_STREAMOUTPUTSTATS 
 
-query type and in a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_querygetdata.md">QueryGetData</a> function to return information about the query. 
-
-
-## -syntax
-
-
-````
-typedef struct D3D10_DDI_QUERY_DATA_SO_STATISTICS {
-  UINT64 NumPrimitivesWritten;
-  UINT64 PrimitivesStorageNeeded;
-} D3D10_DDI_QUERY_DATA_SO_STATISTICS;
-````
+query type and in a call to the <a href="https://msdn.microsoft.com/78ee9813-e23e-4d46-acc4-f2fa88559b03">QueryGetData</a> function to return information about the query. 
 
 
 ## -struct-fields
@@ -84,27 +73,26 @@ The number of primitives that would have been written to the stream output resou
 
 
 
-The driver associates a D3D10_DDI_QUERY_DATA_SO_STATISTICS structure with the D3D10DDI_QUERY_STREAMOUTPUTSTATS query type value from the <a href="..\d3d10umddi\ne-d3d10umddi-d3d10ddi_query.md">D3D10DDI_QUERY</a> enumeration.
+The driver associates a D3D10_DDI_QUERY_DATA_SO_STATISTICS structure with the D3D10DDI_QUERY_STREAMOUTPUTSTATS query type value from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541850">D3D10DDI_QUERY</a> enumeration.
 
 
 
 
 ## -see-also
 
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d10ddi_query.md">D3D10DDI_QUERY</a>
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_querygetdata.md">QueryGetData</a>
+<a href="https://msdn.microsoft.com/abe6a82f-1613-4c74-9e81-01939db74bfd">CreateQuery(D3D10)</a>
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createquery.md">CreateQuery(D3D10)</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541850">D3D10DDI_QUERY</a>
 
 
 
+<a href="https://msdn.microsoft.com/78ee9813-e23e-4d46-acc4-f2fa88559b03">QueryGetData</a>
  
 
  
-
 

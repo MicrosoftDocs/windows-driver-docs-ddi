@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 Invoked when the Bidi “Set”” operation is completed.
 
 
-## -syntax
-
-
-````
-HRESULT Completed(
-  [in] BSTR    bstrResponse,
-  [in] HRESULT hrStatus
-);
-````
-
-
 ## -parameters
 
 
@@ -90,12 +79,11 @@ This method returns the appropriate <b>HRESULT</b> value.
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprinterbidisetrequestcallback.md">IPrinterBidiSetRequestCallback</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265385">IPrinterBidiSetRequestCallback</a>
  
 
  
-
 

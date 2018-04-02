@@ -7,7 +7,7 @@ old-location: dtf\iwdtfsystemaction2_getnextsleepstate.htm
 old-project: dtf
 ms.assetid: B90D7C3D-0370-48A1-90DC-FC14477DA835
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/29/2018
 ms.keywords: GetNextSleepState method [Windows Device Testing Framework], GetNextSleepState method [Windows Device Testing Framework], IWDTFSystemAction2 interface, GetNextSleepState,IWDTFSystemAction2.GetNextSleepState, IWDTFSystemAction2, IWDTFSystemAction2 interface [Windows Device Testing Framework], GetNextSleepState method, IWDTFSystemAction2::GetNextSleepState, Microsoft.WDTF.IWDTFSystemAction2.GetNextSleepState, Microsoft::WDTF::IWDTFSystemAction2::GetNextSleepState, dtf.iwdtfsystemaction2_getnextsleepstate, wdtfsystemaction/IWDTFSystemAction2::GetNextSleepState
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 Returns the next supported sleep state.
 
 
-## -syntax
-
-
-````
-HRESULT GetNextSleepState(
-  [out, retval] LONG *pnSleepState
-);
-````
-
-
 ## -parameters
 
 
@@ -84,12 +74,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\wdtfsystemaction\nn-wdtfsystemaction-iwdtfsystemaction2.md">IWDTFSystemAction2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439302">IWDTFSystemAction2</a>
  
 
  
-
 

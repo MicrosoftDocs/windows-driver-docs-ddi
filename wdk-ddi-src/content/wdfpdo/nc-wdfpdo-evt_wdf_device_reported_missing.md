@@ -56,19 +56,6 @@ req.product: Windows 10 or later.
    A bus driver's <i>EvtDeviceReportedMissing</i> event callback function informs the driver that the framework has reported the physical device object (PDO) missing to the Plug and Play manager.
 
 
-## -prototype
-
-
-````
-EVT_WDF_DEVICE_REPORTED_MISSING EvtDeviceReportedMissing;
-
-void EvtDeviceReportedMissing(
-  _In_ WDFDEVICE Device
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -92,7 +79,7 @@ This callback function does not return a value.
 
 
 
-Framework-based bus drivers can provide an <i>EvtDeviceReportedMissing</i> callback function. To register this callback function, the bus driver must call <a href="..\wdfpdo\nf-wdfpdo-wdfpdoinitseteventcallbacks.md">WdfPdoInitSetEventCallbacks</a>.
+Framework-based bus drivers can provide an <i>EvtDeviceReportedMissing</i> callback function. To register this callback function, the bus driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff548805">WdfPdoInitSetEventCallbacks</a>.
 
 The framework calls <i>EvtDeviceReportedMissing</i> when processing a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551670">IRP_MN_QUERY_DEVICE_RELATIONS</a> request for <b>BusRelations</b> from the PnP manager.
 
@@ -139,12 +126,11 @@ The <b>EVT_WDF_DEVICE_REPORTED_MISSING</b> function type is defined in the Wdfpd
 
 ## -see-also
 
-<a href="..\wdfpdo\nf-wdfpdo-wdfpdoinitseteventcallbacks.md">WdfPdoInitSetEventCallbacks</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548805">WdfPdoInitSetEventCallbacks</a>
  
 
  
-
 

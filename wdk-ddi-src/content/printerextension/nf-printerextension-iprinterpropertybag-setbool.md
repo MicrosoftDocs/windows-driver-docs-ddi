@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 Writes a specified boolean property value.
 
 
-## -syntax
-
-
-````
-HRESULT SetBool(
-  [in] BSTR bstrName,
-  [in] BOOL bValue
-);
-````
-
-
 ## -parameters
 
 
@@ -105,12 +94,11 @@ A call to set a property on a queue property bag will fail with ERROR_ACCESS_DEN
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprinterpropertybag.md">IPrinterPropertyBag</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439547">IPrinterPropertyBag</a>
  
 
  
-
 

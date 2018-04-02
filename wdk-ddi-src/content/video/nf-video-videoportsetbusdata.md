@@ -7,7 +7,7 @@ old-location: display\videoportsetbusdata.htm
 old-project: display
 ms.assetid: 2a9ce391-718e-4be0-9699-7612b63d31f0
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: VideoPortSetBusData, VideoPortSetBusData function [Display Devices], VideoPort_Functions_e7db4c76-eae1-4e06-9969-1e2b8fc71faf.xml, display.videoportsetbusdata, video/VideoPortSetBusData
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,21 +53,6 @@ req.product: Windows 10 or later.
 The <b>VideoPortSetBusData</b> function sets bus-configuration data for an adapter on a dynamically configurable I/O bus with a published, standard interface.
 
 
-## -syntax
-
-
-````
-ULONG VideoPortSetBusData(
-       PVOID         HwDeviceExtension,
-       BUS_DATA_TYPE BusDataType,
-       ULONG         SlotNumber,
-  _In_ PVOID         Buffer,
-       ULONG         Offset,
-       ULONG         Length
-);
-````
-
-
 ## -parameters
 
 
@@ -94,7 +79,7 @@ For a <i>BusDataType</i> value of <b>Cmos</b>, specifies the location of the dev
 
 Pointer to a caller-supplied storage area with configuration information specific to <i>BusDataType</i>.
 
-When <b>PCIConfiguration</b> is specified, the buffer contains some or all of the <a href="..\wdm\ns-wdm-_pci_common_config.md">PCI_COMMON_CONFIG</a> information for the given <i>SlotNumber</i>. The specified <i>Offset</i> and <i>Length</i> determine how much information is supplied.
+When <b>PCIConfiguration</b> is specified, the buffer contains some or all of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537455">PCI_COMMON_CONFIG</a> information for the given <i>SlotNumber</i>. The specified <i>Offset</i> and <i>Length</i> determine how much information is supplied.
 
 
 ### -param Offset
@@ -122,32 +107,15 @@ Specifies the number of bytes in <i>Buffer</i>.
 
 Miniport drivers of adapters on a PCI bus seldom call <b>VideoPortSetBusData</b>, unless unusual circumstances or the nature of a particular driver's video adapter requires such a call.
 
-For example, a miniport driver might call <b>VideoPortSetBusData</b> to clear a bit in the PCI status register if its adapter signals a target abort during initialization. If a PCI video adapter must be configured with device-specific data, its driver also calls this function. In either case, such a driver is then likely to call <a href="..\video\nf-video-videoportgetaccessranges.md">VideoPortGetAccessRanges</a> with a <i>RequestedResources</i> pointer to a driver-supplied array of resource descriptors.
+For example, a miniport driver might call <b>VideoPortSetBusData</b> to clear a bit in the PCI status register if its adapter signals a target abort during initialization. If a PCI video adapter must be configured with device-specific data, its driver also calls this function. In either case, such a driver is then likely to call <a href="https://msdn.microsoft.com/library/windows/hardware/ff570302">VideoPortGetAccessRanges</a> with a <i>RequestedResources</i> pointer to a driver-supplied array of resource descriptors.
 
-<b>VideoPortSetBusData</b> cannot be called from a miniport driver's <a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a> or <a href="..\video\nc-video-pvideo_hw_timer.md">HwVidTimer</a> functions, or from <a href="..\video\nf-video-videoportqueuedpc.md">VideoPortQueueDpc</a>, or from a callback to <a href="..\video\nf-video-videoportsynchronizeexecution.md">VideoPortSynchronizeExecution</a>. 
+<b>VideoPortSetBusData</b> cannot be called from a miniport driver's <a href="https://msdn.microsoft.com/523471e3-cf1e-48d2-b5f0-2f8d19ad71e0">HwVidInterrupt</a> or <a href="https://msdn.microsoft.com/bd41bbbf-4ec8-4e6c-8620-d8a9fe0b8bad">HwVidTimer</a> functions, or from <a href="https://msdn.microsoft.com/library/windows/hardware/ff570339">VideoPortQueueDpc</a>, or from a callback to <a href="https://msdn.microsoft.com/library/windows/hardware/ff570372">VideoPortSynchronizeExecution</a>. 
 
 
 
 
 ## -see-also
 
-<a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
-
-
-
-<a href="..\wdm\ns-wdm-_pci_common_config.md">PCI_COMMON_CONFIG</a>
-
-
-
-<a href="..\video\nf-video-videoportgetbusdata.md">VideoPortGetBusData</a>
-
-
-
-<a href="..\video\nf-video-videoportgetaccessranges.md">VideoPortGetAccessRanges</a>
-
-
-
-<a href="..\wdm\ns-wdm-_pci_slot_number.md">PCI_SLOT_NUMBER</a>
 
 
 
@@ -155,8 +123,24 @@ For example, a miniport driver might call <b>VideoPortSetBusData</b> to clear a 
 
 
 
+<a href="https://msdn.microsoft.com/8c880eff-4b4c-439e-9239-f2343c1fe084">HwVidFindAdapter</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537455">PCI_COMMON_CONFIG</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558790">PCI_SLOT_NUMBER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570302">VideoPortGetAccessRanges</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570306">VideoPortGetBusData</a>
  
 
  
-
 

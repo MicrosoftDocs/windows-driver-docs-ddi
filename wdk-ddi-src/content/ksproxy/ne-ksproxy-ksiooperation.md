@@ -52,17 +52,6 @@ req.typenames: KSIOOPERATION
 
 
 
-## -syntax
-
-
-````
-typedef enum  { 
-  KsIoOperation_Write,
-  KsIoOperation_Read
-} KSIOOPERATION;
-````
-
-
 ## -enum-fields
 
 

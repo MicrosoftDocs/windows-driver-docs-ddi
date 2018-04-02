@@ -55,17 +55,6 @@ req.product: Windows 10 or later.
 The <b>FormatRequestForFlush</b> method builds an I/O request for a flush operation but does not send the request to an I/O target.
 
 
-## -syntax
-
-
-````
-HRESULT FormatRequestForFlush(
-  [in]           IWDFIoRequest *pRequest,
-  [in, optional] IWDFFile      *pFile
-);
-````
-
-
 ## -parameters
 
 
@@ -73,12 +62,12 @@ HRESULT FormatRequestForFlush(
 
 ### -param pRequest [in]
 
-A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a> interface of the request object that represents the I/O request. 
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558985">IWDFIoRequest</a> interface of the request object that represents the I/O request. 
 
 
 ### -param pFile [in, optional]
 
-A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a> interface of the file object that is associated with the I/O request. This parameter is optional and can be <b>NULL</b>, but it is required for the default I/O target.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558912">IWDFFile</a> interface of the file object that is associated with the I/O request. This parameter is optional and can be <b>NULL</b>, but it is required for the default I/O target.
 
 
 ## -returns
@@ -185,7 +174,6 @@ CMyQueue::OnDefaultIoHandler(
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiotarget2.md">IWDFIoTarget2</a>
 
 
 
@@ -197,8 +185,8 @@ CMyQueue::OnDefaultIoHandler(
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559175">IWDFIoTarget2</a>
  
 
  
-
 

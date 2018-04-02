@@ -7,7 +7,7 @@ old-location: display\d3dwddm1_3ddi_tile_region_size.htm
 old-project: display
 ms.assetid: 276ED4AC-15D9-4550-AC51-83320DE9D5B2
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DWDDM1_3DDI_TILE_REGION_SIZE, D3DWDDM1_3DDI_TILE_REGION_SIZE structure [Display Devices], d3d10umddi/D3DWDDM1_3DDI_TILE_REGION_SIZE, display.d3dwddm1_3ddi_tile_region_size
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,20 +50,6 @@ req.typenames: D3DWDDM1_3DDI_TILE_REGION_SIZE
 
 
 Specifies a tiled region.
-
-
-## -syntax
-
-
-````
-typedef struct D3DWDDM1_3DDI_TILE_REGION_SIZE {
-  UINT   NumTiles;
-  BOOL   bUseBox;
-  UINT   Width;
-  UINT16 Height;
-  UINT16 Depth;
-} D3DWDDM1_3DDI_TILE_REGION_SIZE;
-````
 
 
 ## -struct-fields

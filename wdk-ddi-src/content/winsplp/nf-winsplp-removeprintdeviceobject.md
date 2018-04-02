@@ -55,16 +55,6 @@ req.product: Windows 10 or later.
 </div><div> </div>The <b>RemovePrintDeviceObject</b> function removes a device object from a print provider queue.
 
 
-## -syntax
-
-
-````
-HRESULT WINAPI RemovePrintDeviceObject(
-  _In_ HANDLE hDeviceObject
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +62,7 @@ HRESULT WINAPI RemovePrintDeviceObject(
 
 ### -param hDeviceObject [in]
 
-The HANDLE to the device object to be removed. This should be a device object that was  created with <a href="..\winsplp\nf-winsplp-addprintdeviceobject.md">AddPrintDeviceObject</a>.
+The HANDLE to the device object to be removed. This should be a device object that was  created with <a href="https://msdn.microsoft.com/library/windows/hardware/dn917890">AddPrintDeviceObject</a>.
 
 
 ## -returns
@@ -97,12 +87,11 @@ Call <b>RemovePrintDeviceObject</b> to remove the device object for a printer th
 
 ## -see-also
 
-<a href="..\winsplp\nf-winsplp-addprintdeviceobject.md">AddPrintDeviceObject</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn917890">AddPrintDeviceObject</a>
  
 
  
-
 

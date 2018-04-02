@@ -52,16 +52,6 @@ req.typenames: LineDisplaySizeInPixelsType
 This structure is not implemented.
 
 
-## -syntax
-
-
-````
-typedef struct _LineDisplaySizeInPixelsType {
-   ...;
-} LineDisplaySizeInPixelsType, *PLineDisplaySizeInPixelsType;
-````
-
-
 ## -struct-fields
 
 

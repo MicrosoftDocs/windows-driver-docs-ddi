@@ -52,17 +52,6 @@ req.product: Windows 10 or later.
 
 
 
-## -syntax
-
-
-````
-DWORD APIENTRY OEMTTDownloadMethod(
-   PDEVOBJ     pdevobj,
-   PUNIFONTOBJ pUFObj
-);
-````
-
-
 ## -parameters
 
 

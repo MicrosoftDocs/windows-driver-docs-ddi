@@ -7,7 +7,7 @@ old-location: netvista\rilwriteadditionalnumberstringparams.htm
 old-project: netvista
 ms.assetid: 2adcf421-c651-46a5-b82a-db62591e69f0
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*LPRILWRITEADDITIONALNUMBERSTRINGPARAMS, RILWRITEADDITIONALNUMBERSTRINGPARAMS, RILWRITEADDITIONALNUMBERSTRINGPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilwriteadditionalnumberstringparams, ntddrilapitypes/RILWRITEADDITIONALNUMBERSTRINGPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,17 +50,6 @@ req.typenames: RILWRITEADDITIONALNUMBERSTRINGPARAMS, *LPRILWRITEADDITIONALNUMBER
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef struct _RILWRITEADDITIONALNUMBERSTRINGPARAMS {
-  HUICCAPP                            hUiccApp;
-  RILPHONEBOOKADDITIONALNUMBERSTRING  RilPBANS;
-} RILWRITEADDITIONALNUMBERSTRINGPARAMS, RILWRITEADDITIONALNUMBERSTRINGPARAMS;
-````
 
 
 ## -struct-fields

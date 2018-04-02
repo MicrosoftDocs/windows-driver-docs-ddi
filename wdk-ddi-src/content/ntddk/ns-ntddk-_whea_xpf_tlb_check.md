@@ -52,36 +52,6 @@ req.typenames: WHEA_XPF_TLB_CHECK, *PWHEA_XPF_TLB_CHECK
 The WHEA_XPF_TLB_CHECK union describes translation lookaside buffer (TLB) error information for an x86 or x64 processor.
 
 
-## -syntax
-
-
-````
-typedef union _WHEA_XPF_TLB_CHECK {
-  struct {
-    ULONGLONG TransactionTypeValid  :1;
-    ULONGLONG OperationValid  :1;
-    ULONGLONG LevelValid  :1;
-    ULONGLONG ProcessorContextCorruptValid  :1;
-    ULONGLONG UncorrectedValid  :1;
-    ULONGLONG PreciseIPValid  :1;
-    ULONGLONG RestartableIPValid  :1;
-    ULONGLONG OverflowValid  :1;
-    ULONGLONG ReservedValid  :8;
-    ULONGLONG TransactionType  :2;
-    ULONGLONG Operation  :4;
-    ULONGLONG Level  :3;
-    ULONGLONG ProcessorContextCorrupt  :1;
-    ULONGLONG Uncorrected  :1;
-    ULONGLONG PreciseIP  :1;
-    ULONGLONG RestartableIP  :1;
-    ULONGLONG Overflow  :1;
-    ULONGLONG Reserved  :34;
-  };
-  ULONGLONG XpfTLBCheck;
-} WHEA_XPF_TLB_CHECK, *PWHEA_XPF_TLB_CHECK;
-````
-
-
 ## -struct-fields
 
 
@@ -179,7 +149,7 @@ A single bit that indicates that the <b>Overflow</b> member contains valid data.
 
 #### - PreciseIP
 
-A single bit that indicates that the instruction pointer that is specified in the <b>InstructionPointer</b> member of the <a href="..\ntddk\ns-ntddk-_whea_xpf_procinfo.md">WHEA_XPF_PROCINFO</a> structure that contains this WHEA_XPF_TLB_CHECK union is directly associated with the error.
+A single bit that indicates that the instruction pointer that is specified in the <b>InstructionPointer</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560661">WHEA_XPF_PROCINFO</a> structure that contains this WHEA_XPF_TLB_CHECK union is directly associated with the error.
 
 This member contains valid data only if the <b>PreciseIPValid</b> bit is set.
 
@@ -213,7 +183,7 @@ Reserved for system use.
 
 #### - RestartableIP
 
-A single bit that indicates that program execution can be restarted reliably at the instruction pointer that is specified in the <b>InstructionPointer</b> member of the <a href="..\ntddk\ns-ntddk-_whea_xpf_procinfo.md">WHEA_XPF_PROCINFO</a> union that contains this WHEA_XPF_TLB_CHECK structure.
+A single bit that indicates that program execution can be restarted reliably at the instruction pointer that is specified in the <b>InstructionPointer</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560661">WHEA_XPF_PROCINFO</a> union that contains this WHEA_XPF_TLB_CHECK structure.
 
 This member contains valid data only if the <b>RestartableIPValid</b> bit is set.
 
@@ -271,19 +241,18 @@ A single bit that indicates that the <b>Uncorrected</b> member contains valid da
 
 
 
-If the <b>CheckInfoId</b> member of a <a href="..\ntddk\ns-ntddk-_whea_xpf_procinfo.md">WHEA_XPF_PROCINFO</a> structure contains WHEA_TLBCHECK_GUID, the <b>CheckInfo</b> member of the WHEA_XPF_PROCINFO structure contains a WHEA_XPF_TLB_CHECK union.
+If the <b>CheckInfoId</b> member of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff560661">WHEA_XPF_PROCINFO</a> structure contains WHEA_TLBCHECK_GUID, the <b>CheckInfo</b> member of the WHEA_XPF_PROCINFO structure contains a WHEA_XPF_TLB_CHECK union.
 
 
 
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_whea_xpf_procinfo.md">WHEA_XPF_PROCINFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560661">WHEA_XPF_PROCINFO</a>
  
 
  
-
 

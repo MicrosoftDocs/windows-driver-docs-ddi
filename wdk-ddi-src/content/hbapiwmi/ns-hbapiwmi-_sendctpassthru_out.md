@@ -7,7 +7,7 @@ old-location: storage\sendctpassthru_out.htm
 old-project: storage
 ms.assetid: f9340f0d-4f70-4751-b339-de11ee13a469
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSendCTPassThru_OUT, PSendCTPassThru_OUT, PSendCTPassThru_OUT structure pointer [Storage Devices], SendCTPassThru_OUT, SendCTPassThru_OUT structure [Storage Devices], _SendCTPassThru_OUT, hbapiwmi/PSendCTPassThru_OUT, hbapiwmi/SendCTPassThru_OUT, storage.sendctpassthru_out, structs-Fibre_f795d452-fb3f-4236-a543-d0f80f94c14f.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,19 +52,6 @@ req.typenames: SendCTPassThru_OUT, *PSendCTPassThru_OUT
 The SendCTPassThru_OUT structure is used to report the output parameter data of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565409">SendCTPassThru</a> WMI method to the WMI client.
 
 
-## -syntax
-
-
-````
-typedef struct _SendCTPassThru_OUT {
-  ULONG HBAStatus;
-  ULONG TotalResponseBufferCount;
-  ULONG ActualResponseBufferCount;
-  UCHAR ResponseBuffer[1];
-} SendCTPassThru_OUT, *PSendCTPassThru_OUT;
-````
-
-
 ## -struct-fields
 
 
@@ -101,12 +88,11 @@ The WMI tool suite generates a declaration of the SendCTPassThru_OUT structure i
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565409">SendCTPassThru</a>
-
-
-
  
 
  
-
 

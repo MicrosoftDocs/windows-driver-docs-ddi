@@ -7,7 +7,7 @@ old-location: storage\disk_copy_data_parameters.htm
 old-project: storage
 ms.assetid: 17d75b0e-2521-441f-99ea-75d2ea1d52b3
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PDISK_COPY_DATA_PARAMETERS, DISK_COPY_DATA_PARAMETERS, DISK_COPY_DATA_PARAMETERS structure [Storage Devices], PDISK_COPY_DATA_PARAMETERS, PDISK_COPY_DATA_PARAMETERS structure pointer [Storage Devices], _DISK_COPY_DATA_PARAMETERS, ntdddisk/DISK_COPY_DATA_PARAMETERS, ntdddisk/PDISK_COPY_DATA_PARAMETERS, storage.disk_copy_data_parameters, structs-disk_3b1d751a-57a0-47a6-accd-f895fdb9bb61.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,19 +52,6 @@ req.typenames: DISK_COPY_DATA_PARAMETERS, *PDISK_COPY_DATA_PARAMETERS
 DISK_COPY_DATA_PARAMETERS is used with IOCTL_DISK_COPY_DATA to copy data from one area of the disk to another.
 
 
-## -syntax
-
-
-````
-typedef struct _DISK_COPY_DATA_PARAMETERS {
-  LARGE_INTEGER SourceOffset;
-  LARGE_INTEGER DestinationOffset;
-  LARGE_INTEGER CopyLength;
-  ULONGLONG     Reserved;
-} DISK_COPY_DATA_PARAMETERS, *PDISK_COPY_DATA_PARAMETERS;
-````
-
-
 ## -struct-fields
 
 
@@ -101,12 +88,11 @@ The source and destination areas must not overlap.
 
 ## -see-also
 
-<a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_copy_data.md">IOCTL_DISK_COPY_DATA</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559434">IOCTL_DISK_COPY_DATA</a>
  
 
  
-
 

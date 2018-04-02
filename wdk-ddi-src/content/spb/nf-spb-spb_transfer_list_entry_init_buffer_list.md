@@ -56,19 +56,6 @@ The <b>SPB_TRANSFER_LIST_ENTRY_INIT_BUFFER_LIST</b> function returns an <a href=
 
 
 
-## -syntax
-
-
-````
-SPB_TRANSFER_LIST_ENTRY SPB_TRANSFER_LIST_ENTRY_INIT_BUFFER_LIST(
-  _In_ SPB_TRANSFER_DIRECTION         Direction,
-  _In_ ULONG                          DelayInUs,
-  _In_ SPB_TRANSFER_BUFFER_LIST_ENTRY BufferList[],
-  _In_ ULONG                          BufferListCe
-);
-````
-
-
 ## -parameters
 
 
@@ -116,6 +103,9 @@ This initialization function returns an unnamed local variable of type <b>SPB_TR
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406215">SPB_TRANSFER_BUFFER</a>
 
 
@@ -124,16 +114,12 @@ This initialization function returns an unnamed local variable of type <b>SPB_TR
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406223">SPB_TRANSFER_LIST_ENTRY</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406217">SPB_TRANSFER_BUFFER_LIST_ENTRY</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406223">SPB_TRANSFER_LIST_ENTRY</a>
  
 
  
-
 

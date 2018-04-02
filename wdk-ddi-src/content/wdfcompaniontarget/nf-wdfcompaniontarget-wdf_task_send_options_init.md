@@ -54,17 +54,6 @@ req.product: Windows 10 or later.
 			For internal use only.
 
 
-## -syntax
-
-
-````
-FORCEINLINE VOID WDF_TASK_SEND_OPTIONS_INIT(
-  _Out_ PWDF_TASK_SEND_OPTIONS Options,
-  _In_  ULONG                  Flags
-);
-````
-
-
 ## -parameters
 
 

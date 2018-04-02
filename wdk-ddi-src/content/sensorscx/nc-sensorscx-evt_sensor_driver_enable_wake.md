@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 Callback to enable wake for the sensor. 
 
 
-## -prototype
-
-
-````
-NTSTATUS CALLBACK EVT_SENSOR_DRIVER_ENABLE_WAKE(
-  _In_ SENSOROBJECT Sensor
-);
-````
-
-
 ## -parameters
 
 

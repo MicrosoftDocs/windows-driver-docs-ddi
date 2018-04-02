@@ -55,14 +55,6 @@ req.product: Windows 10 or later.
 The <b>GetParentObject</b> method returns the parent framework object of this interface's  work item.
 
 
-## -syntax
-
-
-````
-IWDFObject* GetParentObject();
-````
-
-
 ## -parameters
 
 
@@ -90,12 +82,11 @@ For more information, see <a href="https://msdn.microsoft.com/4617A33F-9026-45FF
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfworkitem.md">IWDFWorkItem</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406734">IWDFWorkItem</a>
  
 
  
-
 

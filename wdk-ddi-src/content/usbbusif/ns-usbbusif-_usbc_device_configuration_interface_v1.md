@@ -7,7 +7,7 @@ old-location: buses\usbc_device_configuration_interface_v1.htm
 old-project: usbref
 ms.assetid: 86e8946f-f87f-40d4-bd02-6e4befe847e0
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PUSBC_DEVICE_CONFIGURATION_INTERFACE_V1, PUSBC_DEVICE_CONFIGURATION_INTERFACE_V1, PUSBC_DEVICE_CONFIGURATION_INTERFACE_V1 structure pointer [Buses], USBC_DEVICE_CONFIGURATION_INTERFACE_V1, USBC_DEVICE_CONFIGURATION_INTERFACE_V1 structure [Buses], _USBC_DEVICE_CONFIGURATION_INTERFACE_V1, buses.usbc_device_configuration_interface_v1, usbbusif/PUSBC_DEVICE_CONFIGURATION_INTERFACE_V1, usbbusif/USBC_DEVICE_CONFIGURATION_INTERFACE_V1, usbinterKR_f3f8ee06-a861-4787-a611-766308347395.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,23 +53,6 @@ req.product: Windows 10 or later.
 The <b>USBC_DEVICE_CONFIGURATION_INTERFACE_V1</b> structure is exposed by the vendor-supplied filter drivers to assist the USB generic parent driver in defining interface collections.
 
 
-## -syntax
-
-
-````
-typedef struct _USBC_DEVICE_CONFIGURATION_INTERFACE_V1 {
-  USHORT                     Size;
-  USHORT                     Version;
-  PVOID                      Context;
-  PINTERFACE_REFERENCE       InterfaceReference;
-  PINTERFACE_DEREFERENCE     InterfaceDereference;
-  USBC_START_DEVICE_CALLBACK StartDeviceCallback;
-  USBC_PDO_ENABLE_CALLBACK   PdoEnableCallback;
-  PVOID                      Reserved[8];
-} USBC_DEVICE_CONFIGURATION_INTERFACE_V1, *PUSBC_DEVICE_CONFIGURATION_INTERFACE_V1;
-````
-
-
 ## -struct-fields
 
 
@@ -87,22 +70,22 @@ The version of the interface.
 
 ### -field Context
 
-The USB generic parent driver does not use this member. It is populated by the vendor supplied filter driver and may be used to track instance information for the bus interface. It is passed as a parameter to <a href="..\wudfwdm\nc-wudfwdm-pinterface_reference.md">InterfaceReference</a> and <a href="..\wudfwdm\nc-wudfwdm-pinterface_dereference.md">InterfaceDereference</a>. 
+The USB generic parent driver does not use this member. It is populated by the vendor supplied filter driver and may be used to track instance information for the bus interface. It is passed as a parameter to <a href="https://msdn.microsoft.com/library/windows/hardware/ff547833">InterfaceReference</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff547829">InterfaceDereference</a>. 
 
 
 ### -field InterfaceReference
 
-Pointer to a routine that increments the number of references to this interface. For more information about this routine, see <a href="..\wudfwdm\nc-wudfwdm-pinterface_reference.md">InterfaceReference</a>. 
+Pointer to a routine that increments the number of references to this interface. For more information about this routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff547833">InterfaceReference</a>. 
 
 
 ### -field InterfaceDereference
 
-Pointer to a routine that decrements the number of references to this interface. For more information about this routine, see <a href="..\wudfwdm\nc-wudfwdm-pinterface_dereference.md">InterfaceDereference</a>. 
+Pointer to a routine that decrements the number of references to this interface. For more information about this routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff547829">InterfaceDereference</a>. 
 
 
 ### -field StartDeviceCallback
 
-Pointer to the callback routine that the filter driver furnishes to the USB generic parent driver to assist in defining interface collections on a device. For more information, see <a href="..\usbbusif\nc-usbbusif-usbc_start_device_callback.md">USBC_START_DEVICE_CALLBACK</a>.
+Pointer to the callback routine that the filter driver furnishes to the USB generic parent driver to assist in defining interface collections on a device. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff539007">USBC_START_DEVICE_CALLBACK</a>.
 
 
 ### -field PdoEnableCallback
@@ -117,7 +100,6 @@ Reserved.
 
 ## -see-also
 
-<a href="..\usbbusif\nc-usbbusif-usbc_start_device_callback.md">USBC_START_DEVICE_CALLBACK</a>
 
 
 
@@ -129,8 +111,8 @@ Reserved.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539007">USBC_START_DEVICE_CALLBACK</a>
  
 
  
-
 

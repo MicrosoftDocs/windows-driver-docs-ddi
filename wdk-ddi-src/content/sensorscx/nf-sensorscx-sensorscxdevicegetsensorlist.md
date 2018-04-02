@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 This function returns a list of sensor instances associated with a WDFDEVICE.
 
 
-## -syntax
-
-
-````
-FORCEINLINE NTSTATUS Syntax(
-  _In_    WDFDEVICE                          FxDevice,
-  _Out_   _writes_(*pListCount) SENSOROBJECT *pSensorList,
-  _Inout_ PULONG                             pListCount
-);
-````
-
-
 ## -parameters
 
 

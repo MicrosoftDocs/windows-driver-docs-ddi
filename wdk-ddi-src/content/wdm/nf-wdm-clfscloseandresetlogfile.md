@@ -7,7 +7,7 @@ old-location: kernel\clfscloseandresetlogfile.htm
 old-project: kernel
 ms.assetid: 5b52a012-1e3e-4d1f-8780-a7015b2f3c5f
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: ClfsCloseAndResetLogFile, ClfsCloseAndResetLogFile routine [Kernel-Mode Driver Architecture], Clfs_79ba6a07-3da2-40e8-9e7c-6b299ef55d63.xml, kernel.clfscloseandresetlogfile, wdm/ClfsCloseAndResetLogFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -54,16 +54,6 @@ req.product: Windows 10 or later.
 The <b>ClfsCloseAndResetLogFile</b> routine releases all references to a specified log file object and marks its associated stream for reset.
 
 
-## -syntax
-
-
-````
-NTSTATUS ClfsCloseAndResetLogFile(
-  _In_ PLOG_FILE_OBJECT plfoLog
-);
-````
-
-
 ## -parameters
 
 
@@ -71,7 +61,7 @@ NTSTATUS ClfsCloseAndResetLogFile(
 
 ### -param plfoLog [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff554316">LOG_FILE_OBJECT</a> structure for which references will be released. The caller previously obtained this pointer by calling <a href="..\wdm\nf-wdm-clfscreatelogfile.md">ClfsCreateLogFile</a>.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff554316">LOG_FILE_OBJECT</a> structure for which references will be released. The caller previously obtained this pointer by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff540792">ClfsCreateLogFile</a>.
 
 
 ## -returns
@@ -89,7 +79,7 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff55
 
 <b>ClfsCloseAndResetLogFile</b> releases all references, acquired by CLFS, to the specified log file object. Typically, the client will not have acquired any additional references to the log file object. However, if the client has obtained additional refereces, it is the client's responsibility to release them.
 
-<b>ClfsCloseAndResetLogFile</b> causes the specified log file object's reference count to drop to zero, at which time the log file object is closed (that is, its memory is deallocated). The stream represented by the log file object might not be reset, however, because there could be other log file objects that represent the same stream. The stream is reset after all log file objects that represent the stream are closed (for example by calls to <a href="..\wdm\nf-wdm-clfscloselogfileobject.md">ClfsCloseLogFileObject</a>).
+<b>ClfsCloseAndResetLogFile</b> causes the specified log file object's reference count to drop to zero, at which time the log file object is closed (that is, its memory is deallocated). The stream represented by the log file object might not be reset, however, because there could be other log file objects that represent the same stream. The stream is reset after all log file objects that represent the stream are closed (for example by calls to <a href="https://msdn.microsoft.com/library/windows/hardware/ff540789">ClfsCloseLogFileObject</a>).
 
 A reset stream is like a newly created stream that has never had any records written to it.
 
@@ -104,20 +94,19 @@ For an explanation of CLFS concepts and terminology, see <a href="https://msdn.m
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-clfsdeletelogfile.md">ClfsDeleteLogFile</a>
 
 
 
-<a href="..\wdm\nf-wdm-clfsdeletelogbypointer.md">ClfsDeleteLogByPointer</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540789">ClfsCloseLogFileObject</a>
 
 
 
-<a href="..\wdm\nf-wdm-clfscloselogfileobject.md">ClfsCloseLogFileObject</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541529">ClfsDeleteLogByPointer</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541539">ClfsDeleteLogFile</a>
  
 
  
-
 

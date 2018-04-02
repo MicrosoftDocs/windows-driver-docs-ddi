@@ -7,7 +7,7 @@ old-location: audio\iregistrykey_enumeratekey.htm
 old-project: audio
 ms.assetid: 2438c994-a283-49fe-a39b-99de678df2e2
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/19/2018
 ms.keywords: EnumerateKey method [Audio Devices], EnumerateKey method [Audio Devices], IRegistryKey interface, EnumerateKey,IRegistryKey.EnumerateKey, IRegistryKey, IRegistryKey interface [Audio Devices], EnumerateKey method, IRegistryKey::EnumerateKey, audio.iregistrykey_enumeratekey, audmp-routines_ef31b848-c963-4327-ba86-bca98383ad90.xml, portcls/IRegistryKey::EnumerateKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,20 +52,6 @@ req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 The <code>EnumerateKey</code> method returns information about the subkeys of the open key.
 
 
-## -syntax
-
-
-````
-NTSTATUS EnumerateKey(
-  [in]  ULONG                 Index,
-  [in]  KEY_INFORMATION_CLASS KeyInformationClass,
-  [out] PVOID                 KeyInformation,
-  [in]  ULONG                 Length,
-  [out] PULONG                ResultLength
-);
-````
-
-
 ## -parameters
 
 
@@ -97,7 +83,7 @@ Specifies the type of information to be returned in the buffer. Set this paramet
 
 ### -param KeyInformation [out]
 
-Pointer to the key information buffer. This parameter points to a caller-allocated buffer into which the method writes the requested data. The buffer contains a structure of type <a href="..\wdm\ns-wdm-_key_basic_information.md">KEY_BASIC_INFORMATION</a>, <a href="..\wdm\ns-wdm-_key_full_information.md">KEY_FULL_INFORMATION</a>, or <a href="..\wdm\ns-wdm-_key_node_information.md">KEY_NODE_INFORMATION</a>, depending on the value of <i>KeyInformationClass</i>. The structure is followed by a string of Unicode characters whose size depends on the type of information being requested about the key.
+Pointer to the key information buffer. This parameter points to a caller-allocated buffer into which the method writes the requested data. The buffer contains a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff553355">KEY_BASIC_INFORMATION</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff553367">KEY_FULL_INFORMATION</a>, or <a href="https://msdn.microsoft.com/library/windows/hardware/ff553392">KEY_NODE_INFORMATION</a>, depending on the value of <i>KeyInformationClass</i>. The structure is followed by a string of Unicode characters whose size depends on the type of information being requested about the key.
 
 
 ### -param Length [in]
@@ -151,28 +137,27 @@ Indicates that no more subkeys are available (subkey index is larger than or equ
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_key_full_information.md">KEY_FULL_INFORMATION</a>
 
 
 
-<a href="..\wdm\ns-wdm-_key_basic_information.md">KEY_BASIC_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536965">IRegistryKey</a>
 
 
 
-<a href="..\wdm\ns-wdm-_key_node_information.md">KEY_NODE_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553355">KEY_BASIC_INFORMATION</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwenumeratekey.md">ZwEnumerateKey</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553367">KEY_FULL_INFORMATION</a>
 
 
 
-<a href="..\portcls\nn-portcls-iregistrykey.md">IRegistryKey</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553392">KEY_NODE_INFORMATION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566447">ZwEnumerateKey</a>
  
 
  
-
 

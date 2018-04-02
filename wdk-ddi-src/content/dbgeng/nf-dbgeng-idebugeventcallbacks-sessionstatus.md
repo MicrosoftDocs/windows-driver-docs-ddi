@@ -7,7 +7,7 @@ old-location: debugger\idebugeventcallbacks_sessionstatus.htm
 old-project: debugger
 ms.assetid: 127c4e48-87db-4735-8d3d-e01fed6a9cf0
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: ComCallbacks_72cb31db-cc24-41b7-b891-65921c50ce12.xml, IDebugEventCallbacks, IDebugEventCallbacks interface [Windows Debugging], SessionStatus method, IDebugEventCallbacks::SessionStatus, SessionStatus method [Windows Debugging], SessionStatus method [Windows Debugging], IDebugEventCallbacks interface, SessionStatus,IDebugEventCallbacks.SessionStatus, dbgeng/IDebugEventCallbacks::SessionStatus, debugger.idebugeventcallbacks_sessionstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,16 +50,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>SessionStatus</b> callback method is called by the engine when a change occurs in the debugger session.
-
-
-## -syntax
-
-
-````
-HRESULT SessionStatus(
-  [in] ULONG Status
-);
-````
 
 
 ## -parameters
@@ -175,7 +165,7 @@ This method's return value is ignored by the engine.
 
 This method is only called by the engine if the DEBUG_EVENT_SESSION_STATUS flag is set in the mask returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff550737">IDebugEventCallbacks::GetInterestMask</a>.
 
-After the engine has notified all the event callbacks of the change in the session status, it will also notify any loaded <a href="https://msdn.microsoft.com/fa52a1f0-9397-48a5-acbd-ce5347c0baef">extensions</a> that export the <a href="..\dbgeng\nc-dbgeng-pdebug_extension_notify.md">DebugExtensionNotify</a> callback method.  The value that it passes to the extensions depends on the value of <i>Status</i>.  If <i>Status</i> is DEBUG_SESSION_ACTIVE, it passes DEBUG_SESSION_ACTIVE; otherwise, it passes DEBUG_SESSION_INACTIVE.
+After the engine has notified all the event callbacks of the change in the session status, it will also notify any loaded <a href="https://msdn.microsoft.com/fa52a1f0-9397-48a5-acbd-ce5347c0baef">extensions</a> that export the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540478">DebugExtensionNotify</a> callback method.  The value that it passes to the extensions depends on the value of <i>Status</i>.  If <i>Status</i> is DEBUG_SESSION_ACTIVE, it passes DEBUG_SESSION_ACTIVE; otherwise, it passes DEBUG_SESSION_INACTIVE.
 
 In the DEBUG_SESSION_ACTIVE case, the engine follows the debugger session change notification with a target state change notification by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff550678">IDebugEventCallbacks::ChangeDebuggeeState</a> on the event callbacks and passing DEBUG_CDS_ALL in the <i>Flags</i> parameter.  In all other cases, the engine precedes this notification with an engine state change notification by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff550683">IDebugEventCallbacks::ChangeEngineState</a> on the event callbacks and passing DEBUG_CES_EXECUTION_STATUS in the <i>Flags</i> parameter.
 

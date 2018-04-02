@@ -52,17 +52,6 @@ req.typenames: KSRATE_CAPABILITY, *PKSRATE_CAPABILITY
 The client uses the KSRATE_CAPABILITY structure in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff565756">KSPROPERTY_STREAM_RATECAPABILITY</a> property request.
 
 
-## -syntax
-
-
-````
-typedef struct {
-  KSPROPERTY Property;
-  KSRATE     Rate;
-} KSRATE_CAPABILITY, *PKSRATE_CAPABILITY;
-````
-
-
 ## -struct-fields
 
 
@@ -75,5 +64,5 @@ A structure of type <a href="https://msdn.microsoft.com/library/windows/hardware
 
 ### -field Rate
 
-A structure of type <a href="..\ks\ns-ks-ksrate.md">KSRATE</a> that specifies the requested rate.
+A structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff566752">KSRATE</a> that specifies the requested rate.
 

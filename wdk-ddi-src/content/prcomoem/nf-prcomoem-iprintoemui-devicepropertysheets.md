@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The <code>IPrintOemUI::DevicePropertySheets</code> method allows a user interface plug-in to append a new page to a printer device's printer property sheet.
 
 
-## -syntax
-
-
-````
-HRESULT DevicePropertySheets(
-   PPROPSHEETUI_INFO pPSUIInfo,
-   LPARAM            lParam
-);
-````
-
-
 ## -parameters
 
 
@@ -71,12 +60,12 @@ HRESULT DevicePropertySheets(
 
 ### -param pPSUIInfo
 
-Caller-supplied pointer to a <a href="..\compstui\ns-compstui-_propsheetui_info.md">PROPSHEETUI_INFO</a> structure.
+Caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff561767">PROPSHEETUI_INFO</a> structure.
 
 
 ### -param lParam
 
-Caller-supplied value that depends on the reason value in <i>pPSUIInfo</i>--&gt;<b>Reason</b>. The reason value can be one of the following constants, which are defined in compstui.h. For more information about these constants, see the Remarks section and <i>lParam</i> parameter description in the <a href="..\compstui\nc-compstui-pfnpropsheetui.md">PFNPROPSHEETUI</a> function type.
+Caller-supplied value that depends on the reason value in <i>pPSUIInfo</i>--&gt;<b>Reason</b>. The reason value can be one of the following constants, which are defined in compstui.h. For more information about these constants, see the Remarks section and <i>lParam</i> parameter description in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559812">PFNPROPSHEETUI</a> function type.
 
 PROPSHEETUI_REASON_DESTROY
 
@@ -93,7 +82,7 @@ PROPSHEETUI_REASON_SET_RESULT
 
 
 
-The return value depends on the contents of PROPSHEETUI_INFO structure's <b>Reason</b> member. For more information, see the description of <a href="..\winddiui\nf-winddiui-drvdevicepropertysheets.md">DrvDevicePropertySheets</a>.
+The return value depends on the contents of PROPSHEETUI_INFO structure's <b>Reason</b> member. For more information, see the description of <a href="https://msdn.microsoft.com/library/windows/hardware/ff548542">DrvDevicePropertySheets</a>.
 
 
 
@@ -102,13 +91,13 @@ The return value depends on the contents of PROPSHEETUI_INFO structure's <b>Reas
 
 
 
-A user interface plug-in's <code>IPrintOemUI::DevicePropertySheets</code> method performs the same types of operations as the <a href="..\winddiui\nf-winddiui-drvdevicepropertysheets.md">DrvDevicePropertySheets</a> function that is exported by user-mode printer interface DLLs. Both functions have the same input parameters.
+A user interface plug-in's <code>IPrintOemUI::DevicePropertySheets</code> method performs the same types of operations as the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548542">DrvDevicePropertySheets</a> function that is exported by user-mode printer interface DLLs. Both functions have the same input parameters.
 
 If you provide a user interface plug-in, the <code>IPrintOemUI::DevicePropertySheets</code> method is called after the driver's <b>DrvDevicePropertySheets</b> function is called.
 
-When <code>IPrintOemUI::DevicePropertySheets</code> is called, the <b>lParamInit</b> member of the <a href="..\compstui\ns-compstui-_propsheetui_info.md">PROPSHEETUI_INFO</a> structure contains the address of an <a href="..\printoem\ns-printoem-_oemuipsparam.md">OEMUIPSPARAM</a> structure.
+When <code>IPrintOemUI::DevicePropertySheets</code> is called, the <b>lParamInit</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561767">PROPSHEETUI_INFO</a> structure contains the address of an <a href="https://msdn.microsoft.com/library/windows/hardware/ff559576">OEMUIPSPARAM</a> structure.
 
-If you implement this method, you typically also supply a <a href="..\compstui\nc-compstui-_cpsuicallback.md">_CPSUICALLBACK</a>-typed callback function to handle user modifications. This callback function must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff553115">IPrintOemDriverUI::DrvUpdateUISetting</a> to inform the driver when the value associated with a user interface setting has been modified, if the value is stored in the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a> structure (instead of the plug-in's private DEVMODEW members) or in registry keys.
+If you implement this method, you typically also supply a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564313">_CPSUICALLBACK</a>-typed callback function to handle user modifications. This callback function must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff553115">IPrintOemDriverUI::DrvUpdateUISetting</a> to inform the driver when the value associated with a user interface setting has been modified, if the value is stored in the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a> structure (instead of the plug-in's private DEVMODEW members) or in registry keys.
 
 If <code>IPrintOemUI::DevicePropertySheets</code> methods are exported by multiple user interface plug-ins, the methods are called in the order that the plug-ins are specified for installation.
 
@@ -121,15 +110,14 @@ For more information about creating and installing user interface plug-ins, see 
 
 ## -see-also
 
-<a href="..\compstui\nc-compstui-pfnpropsheetui.md">PFNPROPSHEETUI</a>
 
 
 
-<a href="..\prcomoem\nn-prcomoem-iprintoemui.md">IPrintOemUI</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548542">DrvDevicePropertySheets</a>
 
 
 
-<a href="..\winddiui\nf-winddiui-drvdevicepropertysheets.md">DrvDevicePropertySheets</a>
+<a href="https://msdn.microsoft.com/0ef635dd-9598-4356-94fc-7e5237df9bd9">IPrintOemUI</a>
 
 
 
@@ -137,8 +125,8 @@ For more information about creating and installing user interface plug-ins, see 
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559812">PFNPROPSHEETUI</a>
  
 
  
-
 

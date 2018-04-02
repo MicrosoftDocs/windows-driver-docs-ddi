@@ -53,21 +53,6 @@ req.product: Windows 10 or later.
 The <code>IPrintCoreUI2::EnumConstrainedOptions</code> method determines which options of a feature are constrained.
 
 
-## -syntax
-
-
-````
-HRESULT EnumConstrainedOptions(
-  [in]  POEMUIOBJ poemuiobj,
-  [in]  DWORD     dwFlags,
-  [in]  PCSTR     pszFeatureKeyword,
-  [out] PSTR      pmszConstrainedOptionList,
-  [in]  DWORD     cbSize,
-  [out] PDWORD    pcbNeeded
-);
-````
-
-
 ## -parameters
 
 
@@ -75,7 +60,7 @@ HRESULT EnumConstrainedOptions(
 
 ### -param poemuiobj [in]
 
-Pointer to the current context, an <a href="..\printoem\ns-printoem-_oemuiobj.md">OEMUIOBJ</a> structure.
+Pointer to the current context, an <a href="https://msdn.microsoft.com/library/windows/hardware/ff559571">OEMUIOBJ</a> structure.
 
 
 ### -param dwFlags [in]
@@ -196,7 +181,10 @@ To reduce the need to make two calls per data access, pass the method an output 
 
 ## -see-also
 
-<a href="..\prcomoem\nn-prcomoem-iprintcoreui2.md">IPrintCoreUI2</a>
+
+
+
+<a href="https://msdn.microsoft.com/e2d2e486-d69d-4a6d-aaab-a7b8806665b4">IPrintCoreUI2</a>
 
 
 
@@ -208,16 +196,12 @@ To reduce the need to make two calls per data access, pass the method an output 
 
 
 
-<a href="..\printoem\ns-printoem-_oemuiobj.md">OEMUIOBJ</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554173">IPrintOemUI::DocumentPropertySheets</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559571">OEMUIOBJ</a>
  
 
  
-
 

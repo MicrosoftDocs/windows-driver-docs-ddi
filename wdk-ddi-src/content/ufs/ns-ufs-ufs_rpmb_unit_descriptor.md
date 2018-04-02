@@ -7,7 +7,7 @@ old-location: storage\ufs_rpmb_unit_descriptor.htm
 old-project: storage
 ms.assetid: 19A066BD-1099-475C-BF81-F1BE7C7778E5
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PUFS_RPMB_UNIT_DESCRIPTOR, PUFS_RPMB_UNIT_DESCRIPTOR, PUFS_RPMB_UNIT_DESCRIPTOR structure pointer [Storage Devices], UFS_RPMB_UNIT_DESCRIPTOR, UFS_RPMB_UNIT_DESCRIPTOR structure [Storage Devices], storage.ufs_rpmb_unit_descriptor, ufs/PUFS_RPMB_UNIT_DESCRIPTOR, ufs/UFS_RPMB_UNIT_DESCRIPTOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,31 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>UFS_RPMB_UNIT_DESCRIPTOR</b> structure describes the contents of a Replay Protected Memory Block (RBMB) Unit.
-
-
-## -syntax
-
-
-````
-typedef struct _UFS_RPMB_UNIT_DESCRIPTOR {
-  UCHAR bLength;
-  UCHAR bDescriptorIDN;
-  UCHAR bUnitIndex;
-  UCHAR bLUEnable;
-  UCHAR bBootLUNID;
-  UCHAR bLUWriteProtect;
-  UCHAR bLUQueueDepth;
-  UCHAR bPSASensitive;
-  UCHAR bMemoryType;
-  UCHAR Reserved;
-  UCHAR  bLogicalBlockSize;
-  UCHAR qLogicalBlockCount[8];
-  UCHAR dEraseBlockSize[4];
-  UCHAR bProvisioningType;
-  UCHAR qPhyMemResourceCount[8];
-  UCHAR Reserved[3];
-} UFS_RPMB_UNIT_DESCRIPTOR, *PUFS_RPMB_UNIT_DESCRIPTOR;
-````
 
 
 ## -struct-fields

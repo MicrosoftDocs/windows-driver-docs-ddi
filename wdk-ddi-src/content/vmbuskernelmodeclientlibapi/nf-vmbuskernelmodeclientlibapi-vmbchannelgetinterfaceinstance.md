@@ -7,7 +7,7 @@ old-location: netvista\vmbchannelgetinterfaceinstance.htm
 old-project: netvista
 ms.assetid: BEE9581A-5FC4-4C5B-B428-B782E59720C3
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: VmbChannelGetInterfaceInstance, VmbChannelGetInterfaceInstance function [Network Drivers Starting with Windows Vista], netvista.vmbchannelgetinterfaceinstance, vmbuskernelmodeclientlibapi/VmbChannelGetInterfaceInstance
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -54,17 +54,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 The <b>VmbChannelGetInterfaceInstance</b> function gets the active interface instance, which is a GUID that uniquely identifies a channel.
-
-
-## -syntax
-
-
-````
-VOID VmbChannelGetInterfaceInstance(
-  _In_  VMBCHANNEL Channel,
-  _Out_ LPGUID     InterfaceInstance
-);
-````
 
 
 ## -parameters

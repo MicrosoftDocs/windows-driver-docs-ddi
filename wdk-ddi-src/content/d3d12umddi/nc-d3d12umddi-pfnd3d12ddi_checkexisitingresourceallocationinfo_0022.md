@@ -7,7 +7,7 @@ old-location: display\pfnd3d12ddi_checkexisitingresourceallocationinfo_0022.htm
 old-project: display
 ms.assetid: 428F23B4-3032-4BD9-A1C1-104BB2648F89
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3D12DDI_CHECKEXISITINGRESOURCEALLOCATIONINFO_0022, d3d12umddi/pfnCheckExistingResourceAllocationInfo, display.pfnd3d12ddi_checkexisitingresourceallocationinfo_0022, pfnCheckExistingResourceAllocationInfo, pfnCheckExistingResourceAllocationInfo callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,30 +52,15 @@ req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
 The <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt799844">pfnCheckExistingResourceAllocationInfo</a> callback function supports checking existing resource allocation information.
 
 
-## -prototype
-
-
-````
-PFND3D12DDI_CHECKEXISITINGRESOURCEALLOCATIONINFO_0022 pfnCheckExistingResourceAllocationInfo;
-
-VOID APIENTRY* pfnCheckExistingResourceAllocationInfo(
-        D3D10DDI_HDEVICE                       hDevice,
-        D3D10DDI_HRESOURCE                     hResource,
-  _Out_ D3D12DDI_RESOURCE_ALLOCATION_INFO_0022 *pInfo
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
 
 
-### -param D3D12DDI_HDEVICE
+### -param Arg1
 
 
-### -param D3D12DDI_HRESOURCE
+### -param Arg2
 
 
 ### -param *
@@ -115,19 +100,18 @@ This callback function does not return a value.
 
 
 
-This callback function is part of a two step process of resource creation. After the <a href="..\d3d12umddi\nc-d3d12umddi-pfnd3d12ddi_checkresourceallocationinfo_0022.md">pfnCheckResourceAllocationInfo</a> callback function, the resource is created. During resource creation, the layout is never _UNDEFINED, since the driver will have returned a resolved texture layout. 
+This callback function is part of a two step process of resource creation. After the <a href="https://msdn.microsoft.com/9B223440-7462-4DF1-990B-82115DE50D67">pfnCheckResourceAllocationInfo</a> callback function, the resource is created. During resource creation, the layout is never _UNDEFINED, since the driver will have returned a resolved texture layout. 
 
 
 
 
 ## -see-also
 
-<a href="..\d3d12umddi\nc-d3d12umddi-pfnd3d12ddi_checkresourceallocationinfo_0022.md">pfnCheckResourceAllocationInfo</a>
 
 
 
+<a href="https://msdn.microsoft.com/9B223440-7462-4DF1-990B-82115DE50D67">pfnCheckResourceAllocationInfo</a>
  
 
  
-
 

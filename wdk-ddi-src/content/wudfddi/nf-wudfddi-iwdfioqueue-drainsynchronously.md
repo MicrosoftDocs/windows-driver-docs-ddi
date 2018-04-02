@@ -55,14 +55,6 @@ req.product: Windows 10 or later.
 The <b>DrainSynchronously</b> method directs the queue to reject new incoming I/O requests and allows already-queued requests to be delivered to the driver for processing. This method returns after all requests are completed or canceled.
 
 
-## -syntax
-
-
-````
-void  DrainSynchronously();
-````
-
-
 ## -parameters
 
 
@@ -90,16 +82,15 @@ The <b>DrainSynchronously</b> method is a synchronous version of the <a href="ht
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558943">IWDFIoQueue</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558951">IWDFIoQueue::Drain</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
-
-
-
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: display\d3dddiarg_stateset.htm
 old-project: display
 ms.assetid: 0e2d7e78-bdf1-4582-a95c-1cbdd498c200
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDIARG_STATESET, D3DDDIARG_STATESET structure [Display Devices], UMDisplayDriver_param_Structs_926f9aca-1ecc-4086-88b7-0d07df9a05ae.xml, _D3DDDIARG_STATESET, d3dumddi/D3DDDIARG_STATESET, display.d3dddiarg_stateset
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,18 +50,6 @@ req.typenames: D3DDDIARG_STATESET
 
 
 The D3DDDIARG_STATESET structure describes how to set a state block.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_STATESET {
-  UINT              Operation;
-  D3DSTATEBLOCKTYPE StateBlockType;
-  HANDLE            hStateSet;
-} D3DDDIARG_STATESET;
-````
 
 
 ## -struct-fields
@@ -415,7 +403,7 @@ No predefined state group is specified.
 
 [in/out] A handle to the state block that is manipulated by the operation that is specified in the <b>Operation</b> member.
 
-A state-block handle is passed in a call to the user-mode display driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_stateset.md">StateSet</a> function when <b>Operation</b> is set to D3DHAL_STATESETEXECUTE.
+A state-block handle is passed in a call to the user-mode display driver's <a href="https://msdn.microsoft.com/2c298de6-a3d9-45c7-ab60-dc9124eed1bb">StateSet</a> function when <b>Operation</b> is set to D3DHAL_STATESETEXECUTE.
 
 The <i>StateSet</i> function returns the state-block handle when <b>Operation</b> is set to D3DHAL_STATESETBEGIN and D3DHAL_STATESETCREATE.
 
@@ -433,12 +421,11 @@ The <b>StateBlockType</b> member is valid only for D3DHAL_STATESETBEGIN, D3DHAL_
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_stateset.md">StateSet</a>
 
 
 
+<a href="https://msdn.microsoft.com/2c298de6-a3d9-45c7-ab60-dc9124eed1bb">StateSet</a>
  
 
  
-
 

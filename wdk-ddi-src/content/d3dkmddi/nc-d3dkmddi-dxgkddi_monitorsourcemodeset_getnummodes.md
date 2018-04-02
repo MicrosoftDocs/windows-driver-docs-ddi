@@ -7,7 +7,7 @@ old-location: display\dxgk_monitorsourcemodeset_interface_pfngetnummodes.htm
 old-project: display
 ms.assetid: 58daf5be-45c5-493b-9d51-ef48bb123dce
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_MONITORSOURCEMODESET_GETNUMMODES, VidPnFunctions_ac29494d-c35e-46bb-bfc1-6aaf70edbc2d.xml, d3dkmddi/pfnGetNumModes, display.dxgk_monitorsourcemodeset_interface_pfngetnummodes, pfnGetNumModes, pfnGetNumModes callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,20 +52,6 @@ req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 The <b>pfnGetNumModes</b> function returns the number modes in a specified monitor source mode set.
 
 
-## -prototype
-
-
-````
-DXGKDDI_MONITORSOURCEMODESET_GETNUMMODES pfnGetNumModes;
-
-NTSTATUS APIENTRY pfnGetNumModes(
-  _In_  const D3DKMDT_HMONITORSOURCEMODESET hMonitorSourceModeSet,
-  _Out_ const SIZE_T CONST                  *pNumMonitorSourceModes
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -73,7 +59,7 @@ NTSTATUS APIENTRY pfnGetNumModes(
 
 ### -param hMonitorSourceModeSet [in]
 
-A handle to a monitor source mode set object. The display miniport driver previously obtained this handle by calling the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_monitor_acquiremonitorsourcemodeset.md">pfnAcquireMonitorSourceModeSet</a> function of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568433">Monitor interface</a>.
+A handle to a monitor source mode set object. The display miniport driver previously obtained this handle by calling the <a href="https://msdn.microsoft.com/a64197c0-a61f-4989-9b68-4e06b1a69fd4">pfnAcquireMonitorSourceModeSet</a> function of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568433">Monitor interface</a>.
 
 
 ### -param pNumMonitorSourceModes [out]
@@ -131,16 +117,15 @@ The D3DKMDT_HMONITORSOURCEMODESET data type is defined in <i>D3dkmdt.h</i>.
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_monitorsourcemodeset_acquirenextmodeinfo.md">pfnAcquireNextModeInfo</a>
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_monitorsourcemodeset_acquirefirstmodeinfo.md">pfnAcquireFirstModeInfo</a>
+<a href="https://msdn.microsoft.com/d448c3f4-7adb-4ceb-8c42-8cba3d2cfeae">pfnAcquireFirstModeInfo</a>
 
 
 
+<a href="https://msdn.microsoft.com/55c629c5-1d73-40dd-a5aa-73ddcc5236b5">pfnAcquireNextModeInfo</a>
  
 
  
-
 

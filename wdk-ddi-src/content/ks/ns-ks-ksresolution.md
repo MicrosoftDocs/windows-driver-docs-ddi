@@ -52,17 +52,6 @@ req.typenames: KSRESOLUTION, *PKSRESOLUTION
 The KSRESOLUTION structure specifies granularity and error of a kernel streaming clock.
 
 
-## -syntax
-
-
-````
-typedef struct {
-  LONGLONG Granularity;
-  LONGLONG Error;
-} KSRESOLUTION, *PKSRESOLUTION;
-````
-
-
 ## -struct-fields
 
 
@@ -89,12 +78,11 @@ Vendors can supply a structure of type KSRESOLUTION in a <a href="https://msdn.m
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565092">KSPROPERTY_CLOCK_RESOLUTION</a>
-
-
-
  
 
  
-
 

@@ -52,16 +52,6 @@ req.typenames: HIDP_REPORT_TYPE
 The <b>HidP_UsageAndPageListDifference</b> routine is not implemented.
 
 
-## -syntax
-
-
-````
- HidP_UsageAndPageListDifference(
-    
-);
-````
-
-
 ## -parameters
 
 

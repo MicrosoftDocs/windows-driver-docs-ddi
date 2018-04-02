@@ -55,17 +55,6 @@ req.product: Windows 10 or later.
 The <b>RetrieveVersionString</b> method retrieves the version of the framework.
 
 
-## -syntax
-
-
-````
-HRESULT RetrieveVersionString(
-  [out]     PWSTR pVersion,
-  [in, out] DWORD *pdwVersionLength
-);
-````
-
-
 ## -parameters
 
 

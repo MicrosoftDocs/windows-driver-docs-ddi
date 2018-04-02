@@ -7,7 +7,7 @@ old-location: dtf\itracer.htm
 old-project: dtf
 ms.assetid: 3873ed15-cb68-4442-8b4d-e4b370d29728
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/29/2018
 ms.keywords: ITracer, ITracer interface [Windows Device Testing Framework], ITracer interface [Windows Device Testing Framework], described, ITracer_dcaa8d23-ed67-4084-b214-0e2506076e77.xml, dtf.itracer, wdtf/ITracer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -84,9 +84,9 @@ Retrieves the tracing bit mask for this coclass, given a specified trace-level.
 
 
 
-You will typically never see the <b>ITracer</b> interface. In fact, even if you are building WDTF action plug-ins, you will probably not need to use this interface. <b>ITracer</b> is implemented in WDTF.dll and provides the global definitions for the specific settings that are associated with each <a href="..\wdtf\ne-wdtf-__midl___midl_itf_wdtf_0000_0001_0001.md">TTraceLevel </a> enumeration value.
+You will typically never see the <b>ITracer</b> interface. In fact, even if you are building WDTF action plug-ins, you will probably not need to use this interface. <b>ITracer</b> is implemented in WDTF.dll and provides the global definitions for the specific settings that are associated with each <a href="https://msdn.microsoft.com/d1bc1775-cb0f-468e-938b-b3ed95e80b5b">TTraceLevel </a> enumeration value.
 
-The following table describes the internal flags for WDTF tracing. The individual levels within the <a href="..\wdtf\ne-wdtf-__midl___midl_itf_wdtf_0000_0001_0001.md">TTraceLevel</a> enumeration correspond to a set of internal tracing flags. The registry key that is listed in TraceLevel Path (in the following Implementation Details section) contains the bit masks for each TTraceLevel, as the following table shows.
+The following table describes the internal flags for WDTF tracing. The individual levels within the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539616">TTraceLevel</a> enumeration correspond to a set of internal tracing flags. The registry key that is listed in TraceLevel Path (in the following Implementation Details section) contains the bit masks for each TTraceLevel, as the following table shows.
 
 Trace2_Medium contains all of the Trace1_Low flags, and Trace3_High contains all of the Trace2_Medium flags.
 
@@ -329,16 +329,15 @@ TraceLevel Path: HKCR\WDTF.Tracer.1\
 
 ## -see-also
 
-<a href="..\wdtf\ne-wdtf-__midl___midl_itf_wdtf_0000_0001_0001.md">TTraceLevel</a>
 
 
 
-<a href="..\wdtf\nn-wdtf-itracing.md">ITracing</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539519">ITracing</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539616">TTraceLevel</a>
  
 
  
-
 

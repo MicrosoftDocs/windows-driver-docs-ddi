@@ -7,7 +7,7 @@ old-location: display\d3dddiarg_rename.htm
 old-project: display
 ms.assetid: 3ecddaf4-bce7-4ea0-b53d-e4872fa21f81
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDIARG_RENAME, D3DDDIARG_RENAME structure [Display Devices], UMDisplayDriver_param_Structs_5acf671e-94e3-4752-89c1-b3c9e33cba7a.xml, _D3DDDIARG_RENAME, d3dumddi/D3DDDIARG_RENAME, display.d3dddiarg_rename
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,21 +52,6 @@ req.typenames: D3DDDIARG_RENAME
 The D3DDDIARG_RENAME structure describes a resource or a surface within the resource to rename with a new allocation. 
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_RENAME {
-  HANDLE                 hResource;
-  UINT                   SubResourceIndex;
-  HANDLE                 hCookie;
-#if (D3D_UMD_INTERFACE_VERSION >= D3D_UMD_INTERFACE_VERSION_WIN7)
-  D3DGPU_VIRTUAL_ADDRESS GpuVirtualAddress;
-#endif 
-} D3DDDIARG_RENAME;
-````
-
-
 ## -struct-fields
 
 
@@ -84,7 +69,7 @@ typedef struct _D3DDDIARG_RENAME {
 
 ### -field hCookie
 
-[in] A handle that represents the renamed surface instance that the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lockasync.md">LockAsync</a> function previously returned. 
+[in] A handle that represents the renamed surface instance that the <a href="https://msdn.microsoft.com/c8f76ebe-947a-45e4-abbc-f6020da929e8">LockAsync</a> function previously returned. 
 
 
 ### -field GpuVirtualAddress
@@ -96,16 +81,15 @@ This member is available beginning with Windows 7.
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rename.md">Rename</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lockasync.md">LockAsync</a>
+<a href="https://msdn.microsoft.com/c8f76ebe-947a-45e4-abbc-f6020da929e8">LockAsync</a>
 
 
 
+<a href="https://msdn.microsoft.com/60f733e1-d376-4372-b1cc-39508b3a98e5">Rename</a>
  
 
  
-
 

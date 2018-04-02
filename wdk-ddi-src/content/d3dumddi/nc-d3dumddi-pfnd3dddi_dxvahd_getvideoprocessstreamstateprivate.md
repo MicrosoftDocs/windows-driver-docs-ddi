@@ -7,7 +7,7 @@ old-location: display\getvideoprocessstreamstateprivate.htm
 old-project: display
 ms.assetid: 0503b382-8ed3-461e-906f-27953ac5f757
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: GetVideoProcessStreamStatePrivate, GetVideoProcessStreamStatePrivate callback function [Display Devices], PFND3DDDI_DXVAHD_GETVIDEOPROCESSSTREAMSTATEPRIVATE, UserModeDisplayDriver_Functions_1016a4a3-3988-40ef-9ef9-f62a20651aaa.xml, d3dumddi/GetVideoProcessStreamStatePrivate, display.getvideoprocessstreamstateprivate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,26 +52,12 @@ req.typenames: DXGK_PTE
 The <i>GetVideoProcessStreamStatePrivate</i> function retrieves the private stream-state data for a video processor. 
 
 
-## -prototype
-
-
-````
-PFND3DDDI_DXVAHD_GETVIDEOPROCESSSTREAMSTATEPRIVATE GetVideoProcessStreamStatePrivate;
-
-__checkReturn HRESULT APIENTRY GetVideoProcessStreamStatePrivate(
-  _In_    HANDLE                                             hDevice,
-  _Inout_ D3DDDIARG_DXVAHD_GETVIDEOPROCESSSTREAMSTATEPRIVATE *pData
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
 
 
-### -param HANDLE
+### -param Arg1
 
 
 ### -param *
@@ -90,7 +76,7 @@ __checkReturn HRESULT APIENTRY GetVideoProcessStreamStatePrivate(
 
 #### - pData [in, out]
 
- A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_dxvahd_getvideoprocessstreamstateprivate.md">D3DDDIARG_DXVAHD_GETVIDEOPROCESSSTREAMSTATEPRIVATE</a> structure that describes the private stream-state data to retrieve. 
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543089">D3DDDIARG_DXVAHD_GETVIDEOPROCESSSTREAMSTATEPRIVATE</a> structure that describes the private stream-state data to retrieve. 
 
 
 ## -returns
@@ -134,12 +120,11 @@ The stream-state data is successfully retrieved.
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_dxvahd_getvideoprocessstreamstateprivate.md">D3DDDIARG_DXVAHD_GETVIDEOPROCESSSTREAMSTATEPRIVATE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543089">D3DDDIARG_DXVAHD_GETVIDEOPROCESSSTREAMSTATEPRIVATE</a>
  
 
  
-
 

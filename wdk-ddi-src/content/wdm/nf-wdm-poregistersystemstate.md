@@ -7,7 +7,7 @@ old-location: kernel\poregistersystemstate.htm
 old-project: kernel
 ms.assetid: 851c694f-6c47-498c-8035-132a63c0fa62
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: PoRegisterSystemState, PoRegisterSystemState routine [Kernel-Mode Driver Architecture], kernel.poregistersystemstate, portn_477a2d72-00f7-45a1-b7ca-504b741c5fe0.xml, wdm/PoRegisterSystemState
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The <b>PoRegisterSystemState</b> routine registers the system as busy due to certain activity.
 
 
-## -syntax
-
-
-````
-PVOID PoRegisterSystemState(
-  _Inout_ PVOID           StateHandle,
-  _In_    EXECUTION_STATE Flags
-);
-````
-
-
 ## -parameters
 
 
@@ -105,6 +94,26 @@ A user is present.
 The settings are continuous and should remain in effect until explicitly changed.
 
 
+##### - Flags.ES_CONTINUOUS
+
+The settings are continuous and should remain in effect until explicitly changed.
+
+
+##### - Flags.ES_DISPLAY_REQUIRED
+
+Use of the display is required.
+
+
+##### - Flags.ES_SYSTEM_REQUIRED
+
+The system is not idle, regardless of apparent load.
+
+
+##### - Flags.ES_USER_PRESENT
+
+A user is present.
+
+
 ## -returns
 
 
@@ -118,7 +127,7 @@ The settings are continuous and should remain in effect until explicitly changed
 
 
 
-<b>PoRegisterSystemState</b> registers the system busy state as indicated by the flags. The registration persists until the caller explicitly changes it with another call to <b>PoRegisterSystemState</b> or cancels it with a call to <a href="..\wdm\nf-wdm-pounregistersystemstate.md">PoUnregisterSystemState</a>.
+<b>PoRegisterSystemState</b> registers the system busy state as indicated by the flags. The registration persists until the caller explicitly changes it with another call to <b>PoRegisterSystemState</b> or cancels it with a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff559794">PoUnregisterSystemState</a>.
 
 The <i>Flags</i> parameter specifies the type of activity in progress. Drivers can specify any combination of the flags.
 
@@ -126,23 +135,22 @@ Setting ES_CONTINUOUS makes the busy state persist until a driver explicitly cha
 
 A driver can set the system busy state to request that the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559829">power manager</a> avoid system power state transitions out of the system working state (S0) while driver activity is occurring. Note, however, that under some circumstances (such as a critically low battery) the power manager may override this request and put the system to sleep anyway.
 
-To set the system power state, call <a href="..\wdm\nf-wdm-posetsystemstate.md">PoSetSystemState</a>.
+To set the system power state, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff559768">PoSetSystemState</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-posetsystemstate.md">PoSetSystemState</a>
 
 
 
-<a href="..\wdm\nf-wdm-pounregistersystemstate.md">PoUnregisterSystemState</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559768">PoSetSystemState</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559794">PoUnregisterSystemState</a>
  
 
  
-
 

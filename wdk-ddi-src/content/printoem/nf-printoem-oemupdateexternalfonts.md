@@ -52,18 +52,6 @@ req.product: Windows 10 or later.
 
 
 
-## -syntax
-
-
-````
-BOOL APIENTRY OEMUpdateExternalFonts(
-   HANDLE hPrinter,
-   HANDLE hHeap,
-   PWSTR  pwstrCartridges
-);
-````
-
-
 ## -parameters
 
 

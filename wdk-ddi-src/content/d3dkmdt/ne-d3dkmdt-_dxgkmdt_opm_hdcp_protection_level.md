@@ -7,7 +7,7 @@ old-location: display\dxgkmdt_opm_hdcp_protection_level.htm
 old-project: display
 ms.assetid: e0d38f3b-19da-4118-a1d9-7d5a00bcad26
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKMDT_OPM_HDCP_FORCE_ULONG, DXGKMDT_OPM_HDCP_OFF, DXGKMDT_OPM_HDCP_ON, DXGKMDT_OPM_HDCP_PROTECTION_LEVEL, DXGKMDT_OPM_HDCP_PROTECTION_LEVEL enumeration [Display Devices], DmEnums_5df35ab3-a367-45c3-b03c-12b3d733f244.xml, _DXGKMDT_OPM_HDCP_PROTECTION_LEVEL, d3dkmdt/DXGKMDT_OPM_HDCP_FORCE_ULONG, d3dkmdt/DXGKMDT_OPM_HDCP_OFF, d3dkmdt/DXGKMDT_OPM_HDCP_ON, d3dkmdt/DXGKMDT_OPM_HDCP_PROTECTION_LEVEL, display.dxgkmdt_opm_hdcp_protection_level
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,18 +52,6 @@ req.typenames: DXGKMDT_OPM_HDCP_PROTECTION_LEVEL
 The DXGKMDT_OPM_HDCP_PROTECTION_LEVEL enumeration indicates the protection levels for a protected output that supports High-bandwidth Digital Content Protection (HDCP). 
 
 
-## -syntax
-
-
-````
-typedef enum _DXGKMDT_OPM_HDCP_PROTECTION_LEVEL { 
-  DXGKMDT_OPM_HDCP_OFF          = 0,
-  DXGKMDT_OPM_HDCP_ON           = 1,
-  DXGKMDT_OPM_HDCP_FORCE_ULONG  = 0x7fffffff
-} DXGKMDT_OPM_HDCP_PROTECTION_LEVEL;
-````
-
-
 ## -enum-fields
 
 
@@ -95,28 +83,27 @@ HDCP protects digital video signals from digital video output connectors. Curren
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_copp_compatible_information.md">DxgkDdiOPMGetCOPPCompatibleInformation</a>
 
 
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_configure_protected_output.md">DxgkDdiOPMConfigureProtectedOutput</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560921">DXGKMDT_OPM_SET_PROTECTION_LEVEL_PARAMETERS</a>
 
 
 
-<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_set_protection_level_parameters.md">DXGKMDT_OPM_SET_PROTECTION_LEVEL_PARAMETERS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560925">DXGKMDT_OPM_STANDARD_INFORMATION</a>
 
 
 
-<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_standard_information.md">DXGKMDT_OPM_STANDARD_INFORMATION</a>
+<a href="https://msdn.microsoft.com/a7829587-c1e7-43ec-a0bb-92bca94b7c3d">DxgkDdiOPMConfigureProtectedOutput</a>
 
 
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_information.md">DxgkDdiOPMGetInformation</a>
+<a href="https://msdn.microsoft.com/9f15df1e-bdf5-4634-97f1-78515664b594">DxgkDdiOPMGetCOPPCompatibleInformation</a>
 
 
 
+<a href="https://msdn.microsoft.com/3d6559e5-776e-4fc0-b99a-8818cbcc289d">DxgkDdiOPMGetInformation</a>
  
 
  
-
 

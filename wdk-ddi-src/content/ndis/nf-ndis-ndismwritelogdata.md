@@ -7,7 +7,7 @@ old-location: netvista\ndismwritelogdata.htm
 old-project: netvista
 ms.assetid: 38923308-0268-49b3-9f9d-0fa2b62f7533
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NdisMWriteLogData, NdisMWriteLogData function [Network Drivers Starting with Windows Vista], miniport_logging_ref_ca57cae5-4951-4c02-a745-d668bc8ec663.xml, ndis/NdisMWriteLogData, netvista.ndismwritelogdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -54,18 +54,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
   by a driver-dedicated Win32 application.
 
 
-## -syntax
-
-
-````
-NDIS_STATUS NdisMWriteLogData(
-  _In_ NDIS_HANDLE LogHandle,
-  _In_ PVOID       LogBuffer,
-  _In_ UINT        LogBufferSize
-);
-````
-
-
 ## -parameters
 
 
@@ -74,7 +62,7 @@ NDIS_STATUS NdisMWriteLogData(
 ### -param LogHandle [in]
 
 Specifies the handle returned by 
-     <a href="..\ndis\nf-ndis-ndismcreatelog.md">NdisMCreateLog</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff563572">NdisMCreateLog</a>.
 
 
 ### -param LogBuffer [in]
@@ -161,34 +149,33 @@ Consequently, an application reading an NDIS log must collect retrieved data int
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismcloselog.md">NdisMCloseLog</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisallocatefromnpagedlookasidelist.md">
+<a href="https://msdn.microsoft.com/df690a05-359d-44f0-b063-4fc21d6c4d76">
    NdisAllocateFromNPagedLookasideList</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisallocatememorywithtagpriority.md">
+<a href="https://msdn.microsoft.com/aac4049c-a876-4bbb-ba3b-fa36c299e1c7">
    NdisAllocateMemoryWithTagPriority</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisreleasespinlock.md">NdisReleaseSpinLock</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562790">NdisMCloseLog</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismcreatelog.md">NdisMCreateLog</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563572">NdisMCreateLog</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismflushlog.md">NdisMFlushLog</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563584">NdisMFlushLog</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564524">NdisReleaseSpinLock</a>
  
 
  
-
 

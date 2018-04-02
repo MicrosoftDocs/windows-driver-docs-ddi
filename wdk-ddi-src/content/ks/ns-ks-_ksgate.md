@@ -52,17 +52,6 @@ req.typenames: KSGATE, *PKSGATE
 The KSGATE structure describes an AVStream gate object.
 
 
-## -syntax
-
-
-````
-typedef struct _KSGATE {
-  LONG    Count;
-  PKSGATE NextGate;
-} KSGATE, *PKSGATE;
-````
-
-
 ## -struct-fields
 
 
@@ -92,24 +81,23 @@ All of the manipulations of <b>Count</b> are done using interlocked functions to
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksgateinitializeand.md">KsGateInitializeAnd</a>
 
 
 
-<a href="..\ks\nf-ks-ksgateinitializeor.md">KsGateInitializeOr</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562566">KSGATE</a>
 
 
 
-<a href="..\ks\nf-ks-ksgateinitialize.md">KsGateInitialize</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562573">KsGateInitialize</a>
 
 
 
-<a href="..\ks\ns-ks-_ksgate.md">KSGATE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562574">KsGateInitializeAnd</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562576">KsGateInitializeOr</a>
  
 
  
-
 

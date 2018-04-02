@@ -55,19 +55,6 @@ req.product: Windows 10 or later.
 The <b>SECURITY_IMPERSONATION_LEVEL</b> enumeration contains values that identify security impersonation levels.
 
 
-## -syntax
-
-
-````
-typedef enum _SECURITY_IMPERSONATION_LEVEL { 
-  SecurityAnonymous       = 0,
-  SecurityIdentification  = ( SecurityAnonymous + 1 ),
-  SecurityImpersonation   = ( SecurityIdentification + 1 ),
-  SecurityDelegation      = ( SecurityImpersonation + 1 )
-} SECURITY_IMPERSONATION_LEVEL;
-````
-
-
 ## -enum-fields
 
 
@@ -108,12 +95,11 @@ For more information about the security impersonation levels, see the <b>SECURIT
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559136">IWDFIoRequest::Impersonate</a>
-
-
-
  
 
  
-
 

@@ -52,17 +52,6 @@ req.typenames: KS_DVDCOPY_CHLGKEY, *PKS_DVDCOPY_CHLGKEY
 The KS_DVDCOPY_CHLGKEY structure is used to describe the challenge key information for the DVD copyright protection authentication process.
 
 
-## -syntax
-
-
-````
-typedef struct _KS_DVDCOPY_CHLGKEY {
-  BYTE ChlgKey[10];
-  BYTE Reserved[2];
-} KS_DVDCOPY_CHLGKEY, *PKS_DVDCOPY_CHLGKEY;
-````
-
-
 ## -struct-fields
 
 
@@ -91,12 +80,11 @@ For more information, see <a href="https://msdn.microsoft.com/ff9cf8c8-7c8f-485c
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565140">KSPROPERTY_DVDCOPY_CHLG_KEY</a>
-
-
-
  
 
  
-
 

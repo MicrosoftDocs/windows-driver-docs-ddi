@@ -7,7 +7,7 @@ old-location: ifsk\fltcancellablewaitformultipleobjects.htm
 old-project: ifsk
 ms.assetid: 0afe431d-55dd-4aaa-bcbc-467ac3a7b604
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FltApiRef_a_to_d_3f130d06-8af0-46c1-9db3-bd70d1cbabe1.xml, FltCancellableWaitForMultipleObjects, FltCancellableWaitForMultipleObjects function [Installable File System Drivers], ifsk.fltcancellablewaitformultipleobjects, ntifs/FltCancellableWaitForMultipleObjects
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,21 +53,6 @@ req.typenames: EXpsFontRestriction
 The <b>FltCancellableWaitForMultipleObjects</b> executes a cancelable wait operation (a wait that can be terminated) on one or more dispatcher objects.
 
 
-## -syntax
-
-
-````
-NTSTATUS   FltCancellableWaitForMultipleObjects(
-  _In_     ULONG              Count,
-  _In_     PVOID              ObjectArray[],
-  _In_     WAIT_TYPE          WaitType,
-  _In_opt_ PLARGE_INTEGER     Timeout,
-  _In_opt_ PKWAIT_BLOCK       WaitBlockArray,
-  _In_     PFLT_CALLBACK_DATA CallbackData
-);
-````
-
-
 ## -parameters
 
 
@@ -108,7 +93,7 @@ If Count &lt;= THREAD_WAIT_OBJECTS, WaitBlockArray can be <b>NULL</b>. Otherwise
 
 ### -param CallbackData [in]
 
-A pointer to the <a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a> structure that represents the I/O operation that was issued by the user and that can be canceled by the user. The caller must ensure that the I/O operation will remain valid for the duration of this routine and that the I/O must not have a cancel routine set (for example, <a href="..\fltkernel\nf-fltkernel-fltsetcancelcompletion.md">FltSetCancelCompletion</a> function must not have been called on the I/O operation). Note that the <i>CallbackData</i> must be held by the caller as it cannot be passed to a lower-level driver. 
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544620">FLT_CALLBACK_DATA</a> structure that represents the I/O operation that was issued by the user and that can be canceled by the user. The caller must ensure that the I/O operation will remain valid for the duration of this routine and that the I/O must not have a cancel routine set (for example, <a href="https://msdn.microsoft.com/library/windows/hardware/ff544390">FltSetCancelCompletion</a> function must not have been called on the I/O operation). Note that the <i>CallbackData</i> must be held by the caller as it cannot be passed to a lower-level driver. 
 
 
 ## -returns
@@ -173,7 +158,7 @@ The caller attempted to wait for a mutex that has been abandoned. The lower six 
 </dl>
 </td>
 <td width="60%">
-The wait was interrupted by a pending cancel request on the I/O operation. Note that this value is returned only if <i>CallbackData</i> that corresponds to an IRP based operation is passed to <a href="..\fltkernel\nf-fltkernel-fltcancellablewaitformultipleobjects.md">FltCancellableWaitForMultipleObjects</a> and the I/O was canceled by a routine such as <a href="..\fltkernel\nf-fltkernel-fltcancelio.md">FltCancelIo</a>.
+The wait was interrupted by a pending cancel request on the I/O operation. Note that this value is returned only if <i>CallbackData</i> that corresponds to an IRP based operation is passed to <a href="https://msdn.microsoft.com/library/windows/hardware/ff541786">FltCancellableWaitForMultipleObjects</a> and the I/O was canceled by a routine such as <a href="https://msdn.microsoft.com/library/windows/hardware/ff541785">FltCancelIo</a>.
 
 </td>
 </tr>
@@ -202,7 +187,7 @@ Note that the NT_SUCCESS macro returns <b>FALSE</b> ("failure") for the STATUS_C
 
 
 
-The <b>FltCancellableWaitForMultipleObjects</b> executes a cancelable wait operation on dispatcher objects. If the user or the application terminates the thread, or if an I/O operation associated with the thread was canceled by a routine such as <a href="..\fltkernel\nf-fltkernel-fltcancelio.md">FltCancelIo</a>, the wait is canceled.
+The <b>FltCancellableWaitForMultipleObjects</b> executes a cancelable wait operation on dispatcher objects. If the user or the application terminates the thread, or if an I/O operation associated with the thread was canceled by a routine such as <a href="https://msdn.microsoft.com/library/windows/hardware/ff541785">FltCancelIo</a>, the wait is canceled.
 
 The routine is designed to support the <a href="https://msdn.microsoft.com/library/windows/hardware/dn613954">I/O Completion/Cancellation Guidelines</a>. The goal of these guidelines is to allow users to quickly terminate applications. This, in turn, requires that applications have the ability to quickly terminate threads that are executing I/O and any current I/O operations. This routine provides a way for user threads to block (that is, wait) in the kernel for I/O completion, dispatcher objects, or synchronization variables in a way that allows the wait to be readily canceled. This routine also permits the thread's wait to be terminated if the thread is terminated by a user or an application.
 
@@ -218,7 +203,7 @@ A special consideration applies when one or more of the elements in the <i>Objec
 
 A mutex can be recursively acquired only MINLONG times. If this limit is exceeded, the routine raises a STATUS_MUTANT_LIMIT_EXCEEDED exception. 
 
-The <b>FltCancellableWaitForMultipleObjects</b> routine must be called at IRQL PASSIVE_LEVEL if the <i>CallbackData</i> parameter represents a valid filter manager IRP. Otherwise, the routine can be called at IRQL less or equal to APC_LEVEL. Normal kernel APCs can be disabled by the caller, if needed, by calling the <a href="..\wdm\nf-wdm-keentercriticalregion.md">KeEnterCriticalRegion</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff545900">FsRtlEnterFileSystem</a> routines. However, special kernel APCs must not be disabled. 
+The <b>FltCancellableWaitForMultipleObjects</b> routine must be called at IRQL PASSIVE_LEVEL if the <i>CallbackData</i> parameter represents a valid filter manager IRP. Otherwise, the routine can be called at IRQL less or equal to APC_LEVEL. Normal kernel APCs can be disabled by the caller, if needed, by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552021">KeEnterCriticalRegion</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff545900">FsRtlEnterFileSystem</a> routines. However, special kernel APCs must not be disabled. 
 
 <b>FltCancellableWaitForMultipleObjects</b> will assert on debug builds if the <i>CallbackData</i> represents a Filter Manager IRP operation, but the IRP in the <i>CallbackData</i> structure is <b>NULL</b>.
 
@@ -227,27 +212,42 @@ The <b>FltCancellableWaitForMultipleObjects</b> routine must be called at IRQL P
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-keinitializetimer.md">KeInitializeTimer</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-fsrtlcancellablewaitformultipleobjects.md">FsRtlCancellableWaitForMultipleObjects</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545293">ExInitializeFastMutex</a>
 
 
 
-<a href="..\wdm\nf-wdm-exinitializefastmutex.md">ExInitializeFastMutex</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541785">FltCancelIo</a>
 
 
 
-<a href="..\wdm\nf-wdm-keinitializesemaphore.md">KeInitializeSemaphore</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541791">FltCancellableWaitForSingleObject</a>
 
 
 
-<a href="..\wdm\nf-wdm-keinitializemutex.md">KeInitializeMutex</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544390">FltSetCancelCompletion</a>
 
 
 
-<a href="..\wdm\nf-wdm-keinitializeevent.md">KeInitializeEvent</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545731">FsRtlCancellableWaitForMultipleObjects</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552137">KeInitializeEvent</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552147">KeInitializeMutex</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552150">KeInitializeSemaphore</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552168">KeInitializeTimer</a>
 
 
 
@@ -255,28 +255,12 @@ The <b>FltCancellableWaitForMultipleObjects</b> routine must be called at IRQL P
 
 
 
-<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553344">KeWaitForMutexObject</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltsetcancelcompletion.md">FltSetCancelCompletion</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltcancelio.md">FltCancelIo</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltcancellablewaitforsingleobject.md">FltCancellableWaitForSingleObject</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553350">KeWaitForSingleObject</a>
  
 
  
-
 

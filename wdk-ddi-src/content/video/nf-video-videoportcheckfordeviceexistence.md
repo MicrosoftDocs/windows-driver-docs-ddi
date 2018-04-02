@@ -7,7 +7,7 @@ old-location: display\videoportcheckfordeviceexistence.htm
 old-project: display
 ms.assetid: 2e0480a5-39d3-4977-9c0f-508bcf6c29a8
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: VideoPortCheckForDeviceExistence, VideoPortCheckForDeviceExistence function [Display Devices], VideoPort_Functions_3cb7198b-a2fe-423c-b0f3-11a154d087af.xml, display.videoportcheckfordeviceexistence, video/VideoPortCheckForDeviceExistence
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,22 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>VideoPortCheckForDeviceExistence</b> function determines whether the specified PCI device exists in the system.
-
-
-## -syntax
-
-
-````
-BOOLEAN VideoPortCheckForDeviceExistence(
-  _In_ PVOID  HwDeviceExtension,
-  _In_ USHORT VendorId,
-  _In_ USHORT DeviceId,
-  _In_ UCHAR  RevisionId,
-  _In_ USHORT SubVendorId,
-  _In_ USHORT SubSystemId,
-  _In_ ULONG  Flags
-);
-````
 
 
 ## -parameters

@@ -7,7 +7,7 @@ old-location: netvista\wdi_connection_quality_hint.htm
 old-project: netvista
 ms.assetid: D83AE2BE-1273-48A1-A42C-C2EADA07D9C0
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: WDI_CONNECTION_QUALITY_AUTO_POWER_SAVE, WDI_CONNECTION_QUALITY_HIGH_CHANNEL_AVAILABILITY, WDI_CONNECTION_QUALITY_HIGH_THROUGHPUT, WDI_CONNECTION_QUALITY_HINT, WDI_CONNECTION_QUALITY_HINT enumeration [Device and Driver Installation], WDI_CONNECTION_QUALITY_LOW_LATENCY, _WDI_CONNECTION_QUALITY_HINT, devinst.wfi_connection_quality_hint, netvista.wdi_connection_quality_hint, wditypes/WDI_CONNECTION_QUALITY_AUTO_POWER_SAVE, wditypes/WDI_CONNECTION_QUALITY_HIGH_CHANNEL_AVAILABILITY, wditypes/WDI_CONNECTION_QUALITY_HIGH_THROUGHPUT, wditypes/WDI_CONNECTION_QUALITY_HINT, wditypes/WDI_CONNECTION_QUALITY_LOW_LATENCY
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,19 +51,6 @@ req.product: Windows 10 or later.
 
 
 The WDI_CONNECTION_QUALITY_HINT enumeration defines the Wi-Fi connection quality hints.
-
-
-## -syntax
-
-
-````
-typedef enum _WDI_CONNECTION_QUALITY_HINT { 
-  WDI_CONNECTION_QUALITY_AUTO_POWER_SAVE            = 1,
-  WDI_CONNECTION_QUALITY_LOW_LATENCY                = 2,
-  WDI_CONNECTION_QUALITY_HIGH_THROUGHPUT            = 3,
-  WDI_CONNECTION_QUALITY_HIGH_CHANNEL_AVAILABILITY  = 4
-} WDI_CONNECTION_QUALITY_HINT;
-````
 
 
 ## -enum-fields

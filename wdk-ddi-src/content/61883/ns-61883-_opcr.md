@@ -52,23 +52,6 @@ req.typenames: OPCR, *POPCR
 The OPCR structure contains initialization values for an output plug. 
 
 
-## -syntax
-
-
-````
-typedef struct _OPCR {
-  ULONG Payload  :10;
-  ULONG OverheadID  :4;
-  ULONG DataRate  :2;
-  ULONG Channel  :6;
-  ULONG Reserved  :2;
-  ULONG PPCCounter  :6;
-  ULONG BCCCounter  :1;
-  ULONG OnLine  :1;
-} OPCR, *POPCR;
-````
-
-
 ## -struct-fields
 
 
@@ -116,12 +99,11 @@ Indicates, when one, that the corresponding output plug is on-line. When zero it
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537010">AV_PCR</a>
-
-
-
  
 
  
-
 

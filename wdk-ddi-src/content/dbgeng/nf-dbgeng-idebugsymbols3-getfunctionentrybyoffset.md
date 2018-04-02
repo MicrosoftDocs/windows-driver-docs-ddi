@@ -7,7 +7,7 @@ old-location: debugger\getfunctionentrybyoffset.htm
 old-project: debugger
 ms.assetid: 6b1fa9fc-f033-4d93-a2ec-f31159d6a69d
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: GetFunctionEntryByOffset method [Windows Debugging], GetFunctionEntryByOffset method [Windows Debugging], IDebugSymbols3 interface, GetFunctionEntryByOffset,IDebugSymbols3.GetFunctionEntryByOffset, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetFunctionEntryByOffset method, IDebugSymbols3::GetFunctionEntryByOffset, IDebugSymbols_2f48c855-76e5-421c-8890-9a96a0468783.xml, dbgeng/IDebugSymbols3::GetFunctionEntryByOffset, debugger.getfunctionentrybyoffset
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,20 +52,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 The <b>GetFunctionEntryByOffset</b> method returns the function entry information for a function.
 
 
-## -syntax
-
-
-````
-HRESULT GetFunctionEntryByOffset(
-  [in]            ULONG64 Offset,
-  [in]            ULONG   Flags,
-  [out, optional] PVOID   Buffer,
-  [in]            ULONG   BufferSize,
-  [out, optional] PULONG  BufferNeeded
-);
-````
-
-
 ## -parameters
 
 
@@ -73,7 +59,7 @@ HRESULT GetFunctionEntryByOffset(
 
 ### -param Offset [in]
 
-Specifies a location in the current process's virtual address space of the function's implementation.  This is the value returned in the <i>Offset</i> parameter of <a href="https://msdn.microsoft.com/library/windows/hardware/ff547856">GetNextSymbolMatch</a> and <a href="https://msdn.microsoft.com/da3ddebc-109e-43fb-a0e9-fd89d90dbbc7">IDebugSymbolGroup::GetSymbolOffset</a>, and the value of the <b>Offset</b> field in the <a href="..\dbgeng\ns-dbgeng-_debug_symbol_entry.md">DEBUG_SYMBOL_ENTRY</a> structure.
+Specifies a location in the current process's virtual address space of the function's implementation.  This is the value returned in the <i>Offset</i> parameter of <a href="https://msdn.microsoft.com/library/windows/hardware/ff547856">GetNextSymbolMatch</a> and <a href="https://msdn.microsoft.com/da3ddebc-109e-43fb-a0e9-fd89d90dbbc7">IDebugSymbolGroup::GetSymbolOffset</a>, and the value of the <b>Offset</b> field in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541662">DEBUG_SYMBOL_ENTRY</a> structure.
 
 
 ### -param Flags [in]
@@ -161,15 +147,14 @@ For more information about symbols, see <a href="https://msdn.microsoft.com/libr
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541662">DEBUG_SYMBOL_ENTRY</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547856">GetNextSymbolMatch</a>
-
-
-
-<a href="..\dbgeng\ns-dbgeng-_debug_symbol_entry.md">DEBUG_SYMBOL_ENTRY</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 
 
@@ -177,8 +162,8 @@ For more information about symbols, see <a href="https://msdn.microsoft.com/libr
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550870">IDebugSymbols3</a>
  
 
  
-
 

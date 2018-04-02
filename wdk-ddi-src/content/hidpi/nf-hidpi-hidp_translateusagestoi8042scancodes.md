@@ -53,21 +53,6 @@ req.typenames: HIDP_REPORT_TYPE
 The <b>HidP_TranslateUsagesToI8042ScanCodes</b> routine maps a list of <a href="https://msdn.microsoft.com/84fed314-3554-4291-b51c-734d874a4bab">HID usages</a> on the HID_USAGE_PAGE_KEYBOARD usage page to their respective PS/2 scan codes (Scan Code Set 1).
 
 
-## -syntax
-
-
-````
-NTSTATUS __stdcall HidP_TranslateUsagesToI8042ScanCodes(
-  _In_     PUSAGE                        ChangedUsageList,
-  _In_     ULONG                         UsageListLength,
-  _In_     HIDP_KEYBOARD_DIRECTION       KeyAction,
-  _Inout_  PHIDP_KEYBOARD_MODIFIER_STATE ModifierState,
-  _In_     PHIDP_INSERT_SCANCODES        InsertCodesProcedure,
-  _In_opt_ PVOID                         InsertCodesContext
-);
-````
-
-
 ## -parameters
 
 
@@ -248,7 +233,7 @@ Prior to beginning a processing loop, the processing code typically allocates an
 <li>
 A previous usage list, current usage list, break usage list, and a make usage list.
 
-Each list is a zero-initialized array of usages. To ensure that the processing code maps all the usages that can change between consecutive HID input reports, the processing code must set the number of elements in each list to the maximum number of usages that <a href="..\hidpi\nf-hidpi-hidp_getusages.md">HidP_GetUsages</a> can return for the HID_USAGE_PAGE_KEYBOARD usage page. This number is obtained using <a href="..\hidpi\nf-hidpi-hidp_maxusagelistlength.md">HidP_MaxUsageListLength</a>.
+Each list is a zero-initialized array of usages. To ensure that the processing code maps all the usages that can change between consecutive HID input reports, the processing code must set the number of elements in each list to the maximum number of usages that <a href="https://msdn.microsoft.com/library/windows/hardware/ff539742">HidP_GetUsages</a> can return for the HID_USAGE_PAGE_KEYBOARD usage page. This number is obtained using <a href="https://msdn.microsoft.com/library/windows/hardware/ff539770">HidP_MaxUsageListLength</a>.
 
 </li>
 <li>
@@ -289,20 +274,19 @@ For information about the mapping between HID usages and PS/2 keyboard scan code
 
 ## -see-also
 
-<a href="..\hidpi\nf-hidpi-hidp_maxusagelistlength.md">HidP_MaxUsageListLength</a>
 
 
 
-<a href="..\hidpi\nf-hidpi-hidp_getusages.md">HidP_GetUsages</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539742">HidP_GetUsages</a>
 
 
 
-<a href="..\hidpi\nf-hidpi-hidp_usagelistdifference.md">HidP_UsageListDifference</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539770">HidP_MaxUsageListLength</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539826">HidP_UsageListDifference</a>
  
 
  
-
 

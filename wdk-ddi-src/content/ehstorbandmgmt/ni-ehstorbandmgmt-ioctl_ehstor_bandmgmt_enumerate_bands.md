@@ -7,7 +7,7 @@ old-location: storage\ioctl_ehstor_bandmgmt_enumerate_bands.htm
 old-project: storage
 ms.assetid: 80F7546C-3683-460B-A0D9-AD41386E6195
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS, IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS control code [Storage Devices], ehstorbandmgmt/IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS, storage.ioctl_ehstor_bandmgmt_enumerate_bands
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,7 +59,7 @@ This <b>IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS</b> request is sent to retrieve th
 
 ### -input-buffer
 
-The buffer at <i>Irp-&gt;AssociatedIrp.SystemBuffer</i> must contain an <a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_enumerate_bands_parameters.md">ENUMERATE_BANDS_PARAMETERS</a> structure. 
+The buffer at <i>Irp-&gt;AssociatedIrp.SystemBuffer</i> must contain an <a href="https://msdn.microsoft.com/library/windows/hardware/hh439719">ENUMERATE_BANDS_PARAMETERS</a> structure. 
 
 
 ### -input-buffer-length
@@ -69,12 +69,12 @@ The buffer at <i>Irp-&gt;AssociatedIrp.SystemBuffer</i> must contain an <a href=
 
 ### -output-buffer
 
-The buffer at <i>Irp-&gt;AssociatedIrp.SystemBuffer</i> contains a <a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_enumerate_bands_parameters.md">BAND_TABLE</a> structure followed by <b>BandTableEntryCount</b> band entries.
+The buffer at <i>Irp-&gt;AssociatedIrp.SystemBuffer</i> contains a <a href="https://msdn.microsoft.com/library/windows/hardware/hh439573">BAND_TABLE</a> structure followed by <b>BandTableEntryCount</b> band entries.
 
 
 ### -output-buffer-length
 
-The length of a <a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_enumerate_bands_parameters.md">BAND_TABLE</a> structure followed by <b>BandTableEntryCount</b> band entries.
+The length of a <a href="https://msdn.microsoft.com/library/windows/hardware/hh439573">BAND_TABLE</a> structure followed by <b>BandTableEntryCount</b> band entries.
 
 
 ### -in-out-buffer
@@ -151,16 +151,15 @@ A driver or application can query for the necessary output buffer size by settin
 
 ## -see-also
 
-<a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_enumerate_bands_parameters.md">BAND_TABLE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439573">BAND_TABLE</a>
 
 
 
 <b>ENUMERATE_BANDS_PARAMETERS</b>
-
-
-
  
 
  
-
 

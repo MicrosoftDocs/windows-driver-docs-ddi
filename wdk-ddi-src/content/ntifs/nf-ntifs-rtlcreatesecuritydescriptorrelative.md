@@ -7,7 +7,7 @@ old-location: ifsk\rtlcreatesecuritydescriptorrelative.htm
 old-project: ifsk
 ms.assetid: feb9600a-e8ce-449a-8da8-2d9a2f10f581
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: RtlCreateSecurityDescriptorRelative, RtlCreateSecurityDescriptorRelative routine [Installable File System Drivers], ifsk.rtlcreatesecuritydescriptorrelative, ntifs/RtlCreateSecurityDescriptorRelative, rtlref_3130b278-4976-4371-952f-ab6fddeda7a9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,17 +50,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>RtlCreateSecurityDescriptorRelative</b> routine initializes a new security descriptor in self-relative format. On return, the security descriptor is initialized with no system ACL (SACL), no discretionary ACL (DACL), no owner, no primary group, and all control flags set to zero.
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlCreateSecurityDescriptorRelative(
-  _Out_ PISECURITY_DESCRIPTOR_RELATIVE SecurityDescriptor,
-  _In_  ULONG                          Revision
-);
-````
 
 
 ## -parameters
@@ -130,32 +119,31 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlvalidsecuritydescriptor.md">RtlValidSecurityDescriptor</a>
 
 
 
-<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538866">ACL</a>
 
 
 
-<a href="..\wdm\nf-wdm-rtllengthsecuritydescriptor.md">RtlLengthSecurityDescriptor</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561827">RtlCreateSecurityDescriptor</a>
 
 
 
-<a href="..\wdm\nf-wdm-rtlcreatesecuritydescriptor.md">RtlCreateSecurityDescriptor</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562025">RtlLengthSecurityDescriptor</a>
 
 
 
-<a href="..\wdm\nf-wdm-rtlsetdaclsecuritydescriptor.md">RtlSetDaclSecurityDescriptor</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562781">RtlSetDaclSecurityDescriptor</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-rtlsetownersecuritydescriptor.md">RtlSetOwnerSecurityDescriptor</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553220">RtlSetOwnerSecurityDescriptor</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563024">RtlValidSecurityDescriptor</a>
  
 
  
-
 

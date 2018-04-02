@@ -54,20 +54,6 @@ req.product: Windows 10 or later.
 The <b>USBCAMD_GetRegistryKeyValue</b> function retrieves the device-instance-specific registry key value.
 
 
-## -syntax
-
-
-````
-NTSTATUS USBCAMD_GetRegistryKeyValue(
-  _In_ HANDLE Handle,
-  _In_ PWCHAR KeyNameString,
-  _In_ ULONG  KeyNameStringLength,
-  _In_ PVOID  Data,
-  _In_ ULONG  DataLength
-);
-````
-
-
 ## -parameters
 
 

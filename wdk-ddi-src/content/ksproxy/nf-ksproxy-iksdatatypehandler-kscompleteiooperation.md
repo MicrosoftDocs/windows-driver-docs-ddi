@@ -52,19 +52,6 @@ req.typenames: PIPE_STATE
 The <b>KsCompleteIoOperation</b> method cleans up the extended header and completes the input and output (I/O) operation. 
 
 
-## -syntax
-
-
-````
-HRESULT KsCompleteIoOperation(
-  [in, out] IMediaSample  *Sample,
-  [in, out] PVOID         StreamHeader,
-  [in]      KSIOOPERATION IoOperation,
-  [in]      BOOL          Cancelled
-);
-````
-
-
 ## -parameters
 
 
@@ -140,12 +127,11 @@ For more information about <b>IMediaSample</b>, see the Microsoft Windows SDK do
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559836">IKsDataTypeHandler::KsQueryExtendedSize</a>
-
-
-
  
 
  
-
 

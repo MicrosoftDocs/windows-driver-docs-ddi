@@ -7,7 +7,7 @@ old-location: kernel\pep_ppm_idle_execute.htm
 old-project: kernel
 ms.assetid: 88BE0C4E-0607-48D6-B0E1-7B35BFD70AD4
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*PPEP_PPM_IDLE_EXECUTE, PEP_PPM_IDLE_EXECUTE, PEP_PPM_IDLE_EXECUTE structure [Kernel-Mode Driver Architecture], PPEP_PPM_IDLE_EXECUTE, PPEP_PPM_IDLE_EXECUTE structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_IDLE_EXECUTE, kernel.pep_ppm_idle_execute, pepfx/PEP_PPM_IDLE_EXECUTE, pepfx/PPEP_PPM_IDLE_EXECUTE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,18 +52,6 @@ req.typenames: PEP_PPM_IDLE_EXECUTE, *PPEP_PPM_IDLE_EXECUTE
 The <b>PEP_PPM_IDLE_EXECUTE</b> structure specifies the idle state that the processor is to enter.
 
 
-## -syntax
-
-
-````
-typedef struct _PEP_PPM_IDLE_EXECUTE {
-  NTSTATUS Status;
-  ULONG    ProcessorState;
-  ULONG    PlatformState;
-} PEP_PPM_IDLE_EXECUTE, *PPEP_PPM_IDLE_EXECUTE;
-````
-
-
 ## -struct-fields
 
 
@@ -95,11 +83,10 @@ This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186807">PEP_NOTIFY_PPM_IDLE_EXECUTE</a>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186826">PEP_NOTIFY_PPM_QUERY_PLATFORM_STATES</a>
 
 
 
@@ -107,8 +94,8 @@ This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/
 
 
 
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186826">PEP_NOTIFY_PPM_QUERY_PLATFORM_STATES</a>
  
 
  
-
 

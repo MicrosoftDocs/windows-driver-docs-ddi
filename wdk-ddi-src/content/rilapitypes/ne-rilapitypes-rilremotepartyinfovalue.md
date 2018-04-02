@@ -7,7 +7,7 @@ old-location: netvista\rilremotepartyinfovalue.htm
 old-project: netvista
 ms.assetid: 9cc766c4-a2c0-4b84-a4d8-b005cddd9eea
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: RILREMOTEPARTYINFOVALUE, RILREMOTEPARTYINFOVALUE enumeration [Network Drivers Starting with Windows Vista], RIL_REMOTEPARTYINFO_MAX, RIL_REMOTEPARTYINFO_UNAVAILABLE, RIL_REMOTEPARTYINFO_WITHHELD, netvista.rilremotepartyinfovalue, ntddrilapitypes/RILREMOTEPARTYINFOVALUE, ntddrilapitypes/RIL_REMOTEPARTYINFO_MAX, ntddrilapitypes/RIL_REMOTEPARTYINFO_UNAVAILABLE, ntddrilapitypes/RIL_REMOTEPARTYINFO_WITHHELD
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,18 +51,6 @@ req.product: Windows 10 or later.
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef enum _RILREMOTEPARTYINFOVALUE { 
-  RIL_REMOTEPARTYINFO_WITHHELD,
-  RIL_REMOTEPARTYINFO_UNAVAILABLE,
-  RIL_REMOTEPARTYINFO_MAX
-} RILREMOTEPARTYINFOVALUE;
-````
 
 
 ## -enum-fields

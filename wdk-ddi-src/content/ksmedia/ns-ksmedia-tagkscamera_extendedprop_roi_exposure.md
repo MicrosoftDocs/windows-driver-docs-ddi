@@ -52,17 +52,6 @@ req.typenames: KSCAMERA_EXTENDEDPROP_ROI_EXPOSURE, *PKSCAMERA_EXTENDEDPROP_ROI_E
 This structure contains the ROI info structure for exposure.
 
 
-## -syntax
-
-
-````
-typedef struct tagKSCAMERA_EXTENDEDPROP_ROI_EXPOSURE {
-  KSCAMERA_EXTENDEDPROP_ROI_INFO ROIInfo;
-  ULONGLONG                      Reserved;
-} KSCAMERA_EXTENDEDPROP_ROI_EXPOSURE, *PKSCAMERA_EXTENDEDPROP_ROI_EXPOSURE;
-````
-
-
 ## -struct-fields
 
 
@@ -70,7 +59,7 @@ typedef struct tagKSCAMERA_EXTENDEDPROP_ROI_EXPOSURE {
 
 ### -field ROIInfo
 
-See the <a href="..\ksmedia\ns-ksmedia-tagkscamera_extendedprop_roi_info.md">KSCAMERA_EXTENDEDPROP_ROI_INFO</a> structure for more information.
+See the <a href="https://msdn.microsoft.com/library/windows/hardware/dn925167">KSCAMERA_EXTENDEDPROP_ROI_INFO</a> structure for more information.
 
 
 ### -field Reserved

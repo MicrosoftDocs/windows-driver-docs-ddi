@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 Reads a string property.
 
 
-## -syntax
-
-
-````
-HRESULT GetString(
-  [in]          BSTR bstrName,
-  [out, retval] BSTR *pbstrValue
-);
-````
-
-
 ## -parameters
 
 
@@ -90,12 +79,11 @@ This method returns an <b>HRESULT</b> value.
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprinterpropertybag.md">IPrinterPropertyBag</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439547">IPrinterPropertyBag</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: display\d3dkmtgetprocessschedulingpriorityclass.htm
 old-project: display
 ms.assetid: 994df4be-d0ce-4f64-91f5-b5516ce947ec
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMTGetProcessSchedulingPriorityClass, D3DKMTGetProcessSchedulingPriorityClass function [Display Devices], OpenGL_Functions_7af39e72-516e-440a-b4be-f0b3f82156d0.xml, d3dkmthk/D3DKMTGetProcessSchedulingPriorityClass, display.d3dkmtgetprocessschedulingpriorityclass
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -55,17 +55,6 @@ req.typenames: D3DKMT_DRIVERVERSION
 The <b>D3DKMTGetProcessSchedulingPriorityClass</b> function retrieves the scheduling priority for a process.
 
 
-## -syntax
-
-
-````
-NTSTATUS D3DKMTGetProcessSchedulingPriorityClass(
-  _In_  HANDLE                         hProcess,
-  _Out_ D3DKMT_SCHEDULINGPRIORITYCLASS *pPriority
-);
-````
-
-
 ## -parameters
 
 
@@ -85,7 +74,7 @@ A handle to the process for which scheduling priority is set.
 
 #### - pPriority [out]
 
-A pointer to a variable that receives a <a href="..\d3dkmthk\ne-d3dkmthk-_d3dkmt_schedulingpriorityclass.md">D3DKMT_SCHEDULINGPRIORITYCLASS</a>-typed value that indicates the priority level for the process.
+A pointer to a variable that receives a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548248">D3DKMT_SCHEDULINGPRIORITYCLASS</a>-typed value that indicates the priority level for the process.
 
 
 ## -returns
@@ -131,16 +120,15 @@ This function might also return other <b>NTSTATUS</b> values.
 
 ## -see-also
 
-<a href="..\d3dkmthk\ne-d3dkmthk-_d3dkmt_schedulingpriorityclass.md">D3DKMT_SCHEDULINGPRIORITYCLASS</a>
 
 
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtsetprocessschedulingpriorityclass.md">D3DKMTSetProcessSchedulingPriorityClass</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547182">D3DKMTSetProcessSchedulingPriorityClass</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548248">D3DKMT_SCHEDULINGPRIORITYCLASS</a>
  
 
  
-
 

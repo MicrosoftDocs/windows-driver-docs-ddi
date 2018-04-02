@@ -7,7 +7,7 @@ old-location: netvista\ndis_wwan_supported_device_services.htm
 old-project: netvista
 ms.assetid: C94C4426-A487-422D-B84E-B29C2AD7BF0C
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PNDIS_WWAN_SUPPORTED_DEVICE_SERVICES, NDIS_WWAN_SUPPORTED_DEVICE_SERVICES, NDIS_WWAN_SUPPORTED_DEVICE_SERVICES structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SUPPORTED_DEVICE_SERVICES, PNDIS_WWAN_SUPPORTED_DEVICE_SERVICES structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_SUPPORTED_DEVICE_SERVICES, ndiswwan/NDIS_WWAN_SUPPORTED_DEVICE_SERVICES, ndiswwan/PNDIS_WWAN_SUPPORTED_DEVICE_SERVICES, netvista.ndis_wwan_supported_device_services"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,18 +50,6 @@ req.typenames: NDIS_WWAN_SUPPORTED_DEVICE_SERVICES, *PNDIS_WWAN_SUPPORTED_DEVICE
 
 
 The NDIS_WWAN_SUPPORTED_DEVICE_SERVICES structure describes a list of supported device services.
-
-
-## -syntax
-
-
-````
-typedef struct _NDIS_WWAN_SUPPORTED_DEVICE_SERVICES {
-  NDIS_OBJECT_HEADER             Header;
-  WWAN_STATUS                    uStatus;
-  WWAN_SUPPORTED_DEVICE_SERVICES DeviceServices;
-} NDIS_WWAN_SUPPORTED_DEVICE_SERVICES, *PNDIS_WWAN_SUPPORTED_DEVICE_SERVICES;
-````
 
 
 ## -struct-fields
@@ -117,7 +105,7 @@ sizeof(NDIS_WWAN_SUPPORTED_DEVICE_SERVICES)
  
 
 For more information about these members, see 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field uStatus
@@ -127,17 +115,16 @@ The status of the device services query operation.
 
 ### -field DeviceServices
 
-This member points to the list of the <a href="..\wwan\ns-wwan-_wwan_supported_device_services.md">WWAN_SUPPORTED_DEVICE_SERVICES</a> structure that represents the list of supported device services and information about themby using the WWAN_LIST_HEADER structure
+This member points to the list of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh831880">WWAN_SUPPORTED_DEVICE_SERVICES</a> structure that represents the list of supported device services and information about themby using the WWAN_LIST_HEADER structure
 
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_supported_device_services.md">WWAN_SUPPORTED_DEVICE_SERVICES</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh831880">WWAN_SUPPORTED_DEVICE_SERVICES</a>
  
 
  
-
 

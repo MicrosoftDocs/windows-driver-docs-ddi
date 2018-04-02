@@ -7,7 +7,7 @@ old-location: display\miracast_session_info.htm
 old-project: display
 ms.assetid: 48F3CB86-5181-4E1E-9E7F-88FB2CD3640A
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: MIRACAST_SESSION_INFO, MIRACAST_SESSION_INFO union [Display Devices], display.miracast_session_info, netdispumdddi/MIRACAST_SESSION_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,21 +50,6 @@ req.typenames: MIRACAST_SESSION_INFO
 
 
 Contains info on a wireless display (Miracast) connected session.
-
-
-## -syntax
-
-
-````
-typedef union {
-  struct {
-    UINT MonitorConnected  :1;
-    UINT ReducedModeListDueToBandwidth  :1;
-    UINT Reserved  :30;
-  };
-  UINT Value;
-} MIRACAST_SESSION_INFO;
-````
 
 
 ## -struct-fields

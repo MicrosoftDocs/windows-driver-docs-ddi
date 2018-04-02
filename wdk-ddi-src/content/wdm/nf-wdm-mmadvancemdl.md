@@ -7,7 +7,7 @@ old-location: kernel\mmadvancemdl.htm
 old-project: kernel
 ms.assetid: 93e84c80-d671-4f04-8532-6c374e1ae72b
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: MmAdvanceMdl, MmAdvanceMdl routine [Kernel-Mode Driver Architecture], k106_14f78a97-f29c-4996-b8aa-94a04b62f11c.xml, kernel.mmadvancemdl, wdm/MmAdvanceMdl
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>MmAdvanceMdl</b> routine advances the beginning of an MDL's virtual memory range by the specified number of bytes.
-
-
-## -syntax
-
-
-````
-NTSTATUS MmAdvanceMdl(
-  _Inout_ PMDLX Mdl,
-  _In_    ULONG NumberOfBytes
-);
-````
 
 
 ## -parameters
@@ -136,7 +125,7 @@ The higher-level driver, in its own I/O handling, can only complete certain I/O 
 
 </li>
 <li>
-The higher-level driver already tried and failed to allocate a new MDL to transfer a data fragment from an incomplete I/O request. (If the driver succeeds in allocating a new MDL, it must use that MDL and <a href="..\wdm\nf-wdm-iobuildpartialmdl.md">IoBuildPartialMdl</a> to perform the I/O request instead of <b>MmAdvanceMdl</b>.)
+The higher-level driver already tried and failed to allocate a new MDL to transfer a data fragment from an incomplete I/O request. (If the driver succeeds in allocating a new MDL, it must use that MDL and <a href="https://msdn.microsoft.com/library/windows/hardware/ff548324">IoBuildPartialMdl</a> to perform the I/O request instead of <b>MmAdvanceMdl</b>.)
 
 </li>
 <li>
@@ -151,12 +140,11 @@ Drivers that do not satisfy these conditions must instead use the <b>IoBuildPart
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iobuildpartialmdl.md">IoBuildPartialMdl</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548324">IoBuildPartialMdl</a>
  
 
  
-
 

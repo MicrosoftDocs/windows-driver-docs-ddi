@@ -7,7 +7,7 @@ old-location: display\dxgkddiescape.htm
 old-project: display
 ms.assetid: 79a524cd-dec1-4ea8-a660-d9d9c644e162
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_ESCAPE, DmFunctions_41056daa-dfeb-4ba3-b453-b8d5dd94e8a3.xml, DxgkDdiEscape, DxgkDdiEscape callback function [Display Devices], d3dkmddi/DxgkDdiEscape, display.dxgkddiescape
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,20 +52,6 @@ req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 The <i>DxgkDdiEscape</i> function shares information with the user-mode display driver.
 
 
-## -prototype
-
-
-````
-DXGKDDI_ESCAPE DxgkDdiEscape;
-
-NTSTATUS APIENTRY DxgkDdiEscape(
-  _In_ const HANDLE         hAdapter,
-  _In_ const DXGKARG_ESCAPE *pEscape
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -73,14 +59,14 @@ NTSTATUS APIENTRY DxgkDdiEscape(
 
 ### -param hAdapter [in]
 
-[in] A handle to a context block that is associated with a display adapter. The display miniport driver previously provided this handle to the Microsoft DirectX graphics kernel subsystem in the <i>MiniportDeviceContext</i> output parameter of the <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function.
+[in] A handle to a context block that is associated with a display adapter. The display miniport driver previously provided this handle to the Microsoft DirectX graphics kernel subsystem in the <i>MiniportDeviceContext</i> output parameter of the <a href="https://msdn.microsoft.com/5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea">DxgkDdiAddDevice</a> function.
 
 
 ### -param pEscape [in]
 
-[in] A pointer to a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_escape.md">DXGKARG_ESCAPE</a> structure that contains information about the shared information.
+[in] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff557588">DXGKARG_ESCAPE</a> structure that contains information about the shared information.
 
-<div class="alert"><b>Note</b>  In order for the <b>DxgkDdiEscape</b> call to be made under the second level, the <b>HardwareAccess</b> flag must be set within the <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_escapeflags.md">D3DDDI_ESCAPEFLAGS</a> structure that is a member of <i>DXGKARG_ESCAPE</i>. If this flag is not set, then the call will fail.</div>
+<div class="alert"><b>Note</b>  In order for the <b>DxgkDdiEscape</b> call to be made under the second level, the <b>HardwareAccess</b> flag must be set within the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544541">D3DDDI_ESCAPEFLAGS</a> structure that is a member of <i>DXGKARG_ESCAPE</i>. If this flag is not set, then the call will fail.</div>
 <div> </div>
 
 ## -returns
@@ -179,20 +165,19 @@ The DirectX graphics kernel subsystem calls the display miniport driver's <i>Dxg
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_escape.md">DXGKARG_ESCAPE</a>
 
 
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557588">DXGKARG_ESCAPE</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_escapecb.md">pfnEscapeCb</a>
+<a href="https://msdn.microsoft.com/5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea">DxgkDdiAddDevice</a>
 
 
 
+<a href="https://msdn.microsoft.com/66c0347f-2cf3-42fc-8641-47c731e958c9">pfnEscapeCb</a>
  
 
  
-
 

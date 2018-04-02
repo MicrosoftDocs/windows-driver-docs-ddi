@@ -7,7 +7,7 @@ old-location: netvista\rilsetuicclockenabledparams.htm
 old-project: netvista
 ms.assetid: 03df5865-a383-447b-8e80-671ba7a3a60e
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*LPRILSETUICCLOCKENABLEDPARAMS, RILSETUICCLOCKENABLEDPARAMS, RILSETUICCLOCKENABLEDPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsetuicclockenabledparams, ntddrilapitypes/RILSETUICCLOCKENABLEDPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef struct _RILSETUICCLOCKENABLEDPARAMS {
-  RILUICCLOCKCREDENTIAL  lockCredential;
-  BOOL                   fEnable;
-} RILSETUICCLOCKENABLEDPARAMS, RILSETUICCLOCKENABLEDPARAMS;
-````
 
 
 ## -struct-fields

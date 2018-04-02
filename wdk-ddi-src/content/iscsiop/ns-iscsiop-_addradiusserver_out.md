@@ -7,7 +7,7 @@ old-location: storage\addradiusserver_out.htm
 old-project: storage
 ms.assetid: 512e66f6-d91f-4351-ba55-02ae3e84102e
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PAddRADIUSServer_OUT, AddRADIUSServer_OUT, AddRADIUSServer_OUT structure [Storage Devices], PAddRADIUSServer_OUT, PAddRADIUSServer_OUT structure pointer [Storage Devices], _AddRADIUSServer_OUT, iscsiop/AddRADIUSServer_OUT, iscsiop/PAddRADIUSServer_OUT, storage.addradiusserver_out, structs-iSCSI_4dd737cb-21a3-4f49-acbe-d40b5b172f3f.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,16 +52,6 @@ req.typenames: AddRADIUSServer_OUT, *PAddRADIUSServer_OUT
 The AddRADIUSServer_OUT structure holds the output data for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550133">AddRADIUSServer</a> method.
 
 
-## -syntax
-
-
-````
-typedef struct _AddRADIUSServer_OUT {
-  ULONG Status;
-} AddRADIUSServer_OUT, *PAddRADIUSServer_OUT;
-````
-
-
 ## -struct-fields
 
 
@@ -83,7 +73,6 @@ It is optional that you implement this method.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
 
 
 
@@ -91,16 +80,16 @@ It is optional that you implement this method.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550134">AddRADIUSServer_IN</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563091">MSiSCSI_Operations WMI Class</a>
-
-
-
-<a href="..\iscsiop\ns-iscsiop-_addradiusserver_in.md">AddRADIUSServer_IN</a>
-
-
-
  
 
  
-
 

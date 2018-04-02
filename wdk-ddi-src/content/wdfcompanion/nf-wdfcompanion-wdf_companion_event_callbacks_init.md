@@ -54,16 +54,6 @@ req.product: Windows 10 or later.
 			For internal use only.
 
 
-## -syntax
-
-
-````
-FORCEINLINE VOID WDF_COMPANION_EVENT_CALLBACKS_INIT(
-  _Out_ PWDF_COMPANION_EVENT_CALLBACKS Callbacks
-);
-````
-
-
 ## -parameters
 
 

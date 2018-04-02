@@ -7,7 +7,7 @@ old-location: kernel\rtlulongadd.htm
 old-project: kernel
 ms.assetid: 03E5C0DB-E245-43E2-80C0-0C1D67673038
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: RtlULongAdd, RtlULongAdd function [Kernel-Mode Driver Architecture], kernel.rtlulongadd, ntintsafe/RtlULongAdd
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,18 +50,6 @@ req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 
 
 Adds two values of type <b>ULONG</b>.
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlULongAdd(
-  _In_  ULONG ulAugend,
-  _In_  ULONG ulAddend,
-  _Out_ ULONG *pulResult
-);
-````
 
 
 ## -parameters

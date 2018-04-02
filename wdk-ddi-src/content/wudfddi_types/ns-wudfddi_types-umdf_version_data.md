@@ -55,18 +55,6 @@ req.product: Windows 10 or later.
 The <b>UMDF_VERSION_DATA</b> structure describes a version of the framework.
 
 
-## -syntax
-
-
-````
-typedef struct UMDF_VERSION_DATA {
-  ULONG MajorNumber;
-  ULONG MinorNumber;
-  ULONG ServiceNumber;
-} UMDF_VERSION_DATA, *PUMDF_VERSION_DATA;
-````
-
-
 ## -struct-fields
 
 
@@ -131,7 +119,6 @@ Header:
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh780327">Microsoft_WDF_UMDF_Version</a>
 
 
 
@@ -139,8 +126,8 @@ Header:
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh780327">Microsoft_WDF_UMDF_Version</a>
  
 
  
-
 

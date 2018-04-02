@@ -7,7 +7,7 @@ old-location: storage\hba_fcpscsientry.htm
 old-project: storage
 ms.assetid: 19e40a1b-fcbf-4510-a7c0-aa9a61f2f651
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PHBA_FCPSCSIENTRY, HBA_FCPSCSIENTRY, HBA_FCPSCSIENTRY structure [Storage Devices], HBA_FcpScsiEntry, HBA_FcpScsiEntry structure [Storage Devices], PHBA_FCPSCSIENTRY, PHBA_FCPSCSIENTRY structure pointer [Storage Devices], hbaapi/HBA_FcpScsiEntry, hbaapi/PHBA_FCPSCSIENTRY, storage.hba_fcpscsientry, structs-Fibre_32b32b55-43e6-484c-a7fb-5c477864b735.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,17 +52,6 @@ req.typenames: HBA_FCPSCSIENTRY, *PHBA_FCPSCSIENTRY
 The HBA_FcpScsiEntry structure defines a mapping between an operating system identifier for a logical unit and the corresponding fibre channel protocol (FCP) identifier for the logical unit. 
 
 
-## -syntax
-
-
-````
-typedef struct HBA_FcpScsiEntry {
-  HBA_SCSIID ScsiId;
-  HBA_FCPID  FcpId;
-} HBA_FCPSCSIENTRY, *PHBA_FCPSCSIENTRY;
-````
-
-
 ## -struct-fields
 
 
@@ -70,26 +59,25 @@ typedef struct HBA_FcpScsiEntry {
 
 ### -field ScsiId
 
-Contains a structure of type <a href="..\hbaapi\ns-hbaapi-hba_scsiid.md">HBA_ScsiId</a> that holds information that the operating system uses to identify a SCSI device. 
+Contains a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff557191">HBA_ScsiId</a> that holds information that the operating system uses to identify a SCSI device. 
 
 
 ### -field FcpId
 
-Contains a structure of type <a href="..\hbaapi\ns-hbaapi-hba_fcpid.md">HBA_FcpId</a> that uniquely identifies the device anywhere on the fibre channel network. 
+Contains a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff556062">HBA_FcpId</a> that uniquely identifies the device anywhere on the fibre channel network. 
 
 
 ## -see-also
 
-<a href="..\hbaapi\ns-hbaapi-hba_scsiid.md">HBA_ScsiId</a>
 
 
 
-<a href="..\hbaapi\ns-hbaapi-hba_fcpid.md">HBA_FcpId</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556062">HBA_FcpId</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557191">HBA_ScsiId</a>
  
 
  
-
 

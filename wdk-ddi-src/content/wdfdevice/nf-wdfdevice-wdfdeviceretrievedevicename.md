@@ -56,17 +56,6 @@ req.product: Windows 10 or later.
 The <b>WdfDeviceRetrieveDeviceName</b> method returns the device name for a specified device.
 
 
-## -syntax
-
-
-````
-NTSTATUS WdfDeviceRetrieveDeviceName(
-  _In_ WDFDEVICE Device,
-  _In_ WDFSTRING String
-);
-````
-
-
 ## -parameters
 
 
@@ -118,9 +107,9 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
-The <b>WdfDeviceRetrieveDeviceName</b> method returns the device name that the driver specified in a previous call to <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitassignname.md">WdfDeviceInitAssignName</a>.
+The <b>WdfDeviceRetrieveDeviceName</b> method returns the device name that the driver specified in a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff546029">WdfDeviceInitAssignName</a>.
 
-To obtain the device name string from the string object, the driver can call <a href="..\wdfstring\nf-wdfstring-wdfstringgetunicodestring.md">WdfStringGetUnicodeString</a>.
+To obtain the device name string from the string object, the driver can call <a href="https://msdn.microsoft.com/library/windows/hardware/ff550049">WdfStringGetUnicodeString</a>.
 
 
 #### Examples
@@ -158,20 +147,19 @@ if (NT_SUCCESS(status)) {
 
 ## -see-also
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicequeryproperty.md">WdfDeviceQueryProperty</a>
 
 
 
-<a href="..\wdfstring\nf-wdfstring-wdfstringcreate.md">WdfStringCreate</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546029">WdfDeviceInitAssignName</a>
 
 
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitassignname.md">WdfDeviceInitAssignName</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546820">WdfDeviceQueryProperty</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550046">WdfStringCreate</a>
  
 
  
-
 

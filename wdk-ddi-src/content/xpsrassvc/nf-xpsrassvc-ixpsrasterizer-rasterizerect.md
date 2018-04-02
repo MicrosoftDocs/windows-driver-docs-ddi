@@ -53,21 +53,6 @@ req.product: Windows 10 or later.
 The <code>RasterizeRect</code> method rasterizes an axis-aligned, rectangular region of an XPS fixed page.
 
 
-## -syntax
-
-
-````
-HRESULT RasterizeRect(
-  [in]            INT                                x,
-  [in]            INT                                y,
-  [in]            INT                                width,
-  [in]            INT                                height,
-  [in, optional]  IXpsRasterizerNotificationCallback *notificationCallback,
-  [out, optional] IWICBitmap                         **bitmap
-);
-````
-
-
 ## -parameters
 
 
@@ -95,7 +80,7 @@ The height, in pixels, of the output bitmap.
 
 ### -param notificationCallback [in, optional]
 
-Pointer to the <a href="..\xpsrassvc\nn-xpsrassvc-ixpsrasterizernotificationcallback.md">IXpsRasterizerNotificationCallback</a> interface of a notification object that is implemented by the caller. This parameter is optional and can be <b>NULL</b> if the caller does not require notification callbacks.
+Pointer to the <a href="https://msdn.microsoft.com/7616b5c7-a21f-4db1-923b-ebf2a039b5ec">IXpsRasterizerNotificationCallback</a> interface of a notification object that is implemented by the caller. This parameter is optional and can be <b>NULL</b> if the caller does not require notification callbacks.
 
 
 ### -param bitmap [out, optional]
@@ -181,19 +166,6 @@ For a code example that calls the <code>RasterizeRect</code> method, see the XPS
 
 ## -see-also
 
-<a href="..\xpsrassvc\nn-xpsrassvc-ixpsrasterizernotificationcallback.md">IXpsRasterizerNotificationCallback</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556350">IXpsRasterizationFactory::CreateRasterizer</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556366">IXpsRasterizer::SetMinimalLineWidth</a>
-
-
-
-<a href="..\xpsrassvc\nn-xpsrassvc-ixpsrasterizer.md">IXpsRasterizer</a>
 
 
 
@@ -201,8 +173,20 @@ For a code example that calls the <code>RasterizeRect</code> method, see the XPS
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556350">IXpsRasterizationFactory::CreateRasterizer</a>
+
+
+
+<a href="https://msdn.microsoft.com/1ef99120-2b3b-45aa-bcf7-16bcb9656089">IXpsRasterizer</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556366">IXpsRasterizer::SetMinimalLineWidth</a>
+
+
+
+<a href="https://msdn.microsoft.com/7616b5c7-a21f-4db1-923b-ebf2a039b5ec">IXpsRasterizerNotificationCallback</a>
  
 
  
-
 

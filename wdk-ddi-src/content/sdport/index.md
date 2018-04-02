@@ -2,7 +2,7 @@
 UID: NA:sdport
 ms.assetid: 92532f91-a3bc-35e8-b4eb-e62a32b3517b
 ms.author: windowsdriverdev
-ms.date: 03/13/18
+ms.date: 03/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -13,7 +13,6 @@ ms.topic: portal
 
 
 
-This header is used by unknown technology.
+This header is used by sd. For more information, see:
 
-Sdport.h contain these programming interfaces:
-
+- [Secure Digital (SD) card](../_sd/index.md)

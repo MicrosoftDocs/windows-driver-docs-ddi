@@ -58,16 +58,6 @@ req.product: Windows 10 or later.
 The <b>WdfDeviceGetDriver</b> method returns a handle to the framework driver object that is associated with a specified framework device object.
 
 
-## -syntax
-
-
-````
-WDFDRIVER WdfDeviceGetDriver(
-  _In_ WDFDEVICE Device
-);
-````
-
-
 ## -parameters
 
 
@@ -91,12 +81,11 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 ## -see-also
 
-<a href="..\wdfdriver\nf-wdfdriver-wdfdrivergetregistrypath.md">WdfDriverGetRegistryPath</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547187">WdfDriverGetRegistryPath</a>
  
 
  
-
 

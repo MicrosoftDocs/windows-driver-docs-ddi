@@ -7,7 +7,7 @@ old-location: ifsk\fltfreesecuritydescriptor.htm
 old-project: ifsk
 ms.assetid: ebf7ad37-6c3b-4216-87e6-ea5d6a0cba20
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FltApiRef_e_to_o_ee21346e-6629-4ffd-bf82-b3915f4e1649.xml, FltFreeSecurityDescriptor, FltFreeSecurityDescriptor routine [Installable File System Drivers], fltkernel/FltFreeSecurityDescriptor, ifsk.fltfreesecuritydescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,17 +49,7 @@ req.typenames: EXpsFontRestriction
 ## -description
 
 
-<b>FltFreeSecurityDescriptor</b> frees a security descriptor allocated by the <a href="..\fltkernel\nf-fltkernel-fltbuilddefaultsecuritydescriptor.md">FltBuildDefaultSecurityDescriptor</a> routine. 
-
-
-## -syntax
-
-
-````
-VOID FltFreeSecurityDescriptor(
-  _In_ PSECURITY_DESCRIPTOR SecurityDescriptor
-);
-````
+<b>FltFreeSecurityDescriptor</b> frees a security descriptor allocated by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541778">FltBuildDefaultSecurityDescriptor</a> routine. 
 
 
 ## -parameters
@@ -69,7 +59,7 @@ VOID FltFreeSecurityDescriptor(
 
 ### -param SecurityDescriptor [in]
 
-Opaque pointer to the security descriptor (<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>) to be freed. 
+Opaque pointer to the security descriptor (<a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a>) to be freed. 
 
 
 ## -returns
@@ -85,23 +75,22 @@ None
 
 
 
-<b>FltFreeSecurityDescriptor</b> should only be used to free a security descriptor that was allocated by a previous call to <a href="..\fltkernel\nf-fltkernel-fltbuilddefaultsecuritydescriptor.md">FltBuildDefaultSecurityDescriptor</a>. 
+<b>FltFreeSecurityDescriptor</b> should only be used to free a security descriptor that was allocated by a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff541778">FltBuildDefaultSecurityDescriptor</a>. 
 
 
 
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltbuilddefaultsecuritydescriptor.md">FltBuildDefaultSecurityDescriptor</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541778">FltBuildDefaultSecurityDescriptor</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a>
  
 
  
-
 

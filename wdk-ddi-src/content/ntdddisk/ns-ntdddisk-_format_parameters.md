@@ -7,7 +7,7 @@ old-location: storage\format_parameters.htm
 old-project: storage
 ms.assetid: 9c92e010-35d7-40ff-8025-51e945861b9c
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PFORMAT_PARAMETERS, FORMAT_PARAMETERS, FORMAT_PARAMETERS structure [Storage Devices], PFORMAT_PARAMETERS, PFORMAT_PARAMETERS structure pointer [Storage Devices], _FORMAT_PARAMETERS, ntdddisk/FORMAT_PARAMETERS, ntdddisk/PFORMAT_PARAMETERS, storage.format_parameters, structs-disk_063eb997-3411-4101-9cde-4417647eb53f.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,21 +49,7 @@ req.typenames: FORMAT_PARAMETERS, *PFORMAT_PARAMETERS
 ## -description
 
 
-The FORMAT_PARAMETERS structure is used in conjunction with the <a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_format_tracks.md">IOCTL_DISK_FORMAT_TRACKS</a> request to format the specified set of contiguous tracks on the disk. 
-
-
-## -syntax
-
-
-````
-typedef struct _FORMAT_PARAMETERS {
-  MEDIA_TYPE MediaType;
-  ULONG      StartCylinderNumber;
-  ULONG      EndCylinderNumber;
-  ULONG      StartHeadNumber;
-  ULONG      EndHeadNumber;
-} FORMAT_PARAMETERS, *PFORMAT_PARAMETERS;
-````
+The FORMAT_PARAMETERS structure is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559447">IOCTL_DISK_FORMAT_TRACKS</a> request to format the specified set of contiguous tracks on the disk. 
 
 
 ## -struct-fields
@@ -98,16 +84,15 @@ Indicates the number of the head where the formatting should end.
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559447">IOCTL_DISK_FORMAT_TRACKS</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff562216">MEDIA_TYPE</a>
-
-
-
-<a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_format_tracks.md">IOCTL_DISK_FORMAT_TRACKS</a>
-
-
-
  
 
  
-
 

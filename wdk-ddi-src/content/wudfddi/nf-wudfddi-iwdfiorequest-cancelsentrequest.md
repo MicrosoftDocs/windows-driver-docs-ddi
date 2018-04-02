@@ -55,14 +55,6 @@ req.product: Windows 10 or later.
 The <b>CancelSentRequest</b> method attempts to cancel the I/O request that the driver previously submitted to an I/O target.
 
 
-## -syntax
-
-
-````
-BOOL  CancelSentRequest();
-````
-
-
 ## -parameters
 
 
@@ -87,14 +79,25 @@ A driver can call <b>CancelSentRequest</b> to attempt to cancel the I/O request 
 
 If the request is in the I/O target's queue, the framework cancels the request. If the framework already delivered the request to the I/O target's driver, and if that driver previously called <a href="https://msdn.microsoft.com/library/windows/hardware/ff559146">IWDFIoRequest::MarkCancelable</a> to enabling canceling, the framework calls that driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff556903">IRequestCallbackCancel::OnCancel</a> method. If the target's driver did not call <b>IWDFIoRequest::MarkCancelable</b>, the request is not canceled unless the request subsequently becomes cancelable.
 
-If the driver previously registered the <a href="..\wudfddi\nn-wudfddi-irequestcallbackrequestcompletion.md">IRequestCallbackRequestCompletion</a> interface for the request's completion routine, the framework calls the completion routine after the request is canceled.
+If the driver previously registered the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556904">IRequestCallbackRequestCompletion</a> interface for the request's completion routine, the framework calls the completion routine after the request is canceled.
 
 
 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556903">IRequestCallbackCancel::OnCancel</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556904">IRequestCallbackRequestCompletion</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558985">IWDFIoRequest</a>
 
 
 
@@ -102,20 +105,8 @@ If the driver previously registered the <a href="..\wudfddi\nn-wudfddi-irequestc
 
 
 
-<a href="..\wudfddi\nn-wudfddi-irequestcallbackrequestcompletion.md">IRequestCallbackRequestCompletion</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559149">IWDFIoRequest::Send</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
-
-
-
  
 
  
-
 

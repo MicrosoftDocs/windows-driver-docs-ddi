@@ -7,7 +7,7 @@ old-location: debugger\checkcontrolc.htm
 old-project: debugger
 ms.assetid: 4737870f-3408-4859-9e20-7b69c78f5a3c
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: CheckControlC, CheckControlC callback function [Windows Debugging], PWINDBG_CHECK_CONTROL_C, WdbgExts_Ref_532229fc-40f0-4226-92af-09ecc5387096.xml, debugger.checkcontrolc, wdbgexts/CheckControlC
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,14 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>PWINDBG_CHECK_CONTROL_C</b> (<b>CheckControlC</b>) function checks to see if the user pressed CTRL+C. Use <b>PWINDBG_CHECK_CONTROL_C</b> in all loops to allow the user to press CTRL+C to end long processes.
-
-
-## -prototype
-
-
-````
-ULONG  CheckControlC(void);
-````
 
 
 ## -parameters

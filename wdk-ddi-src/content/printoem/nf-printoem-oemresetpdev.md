@@ -52,17 +52,6 @@ req.product: Windows 10 or later.
 
 
 
-## -syntax
-
-
-````
-BOOL APIENTRY OEMResetPDEV(
-   PDEVOBJ pdevobjOld,
-   PDEVOBJ pdevobjNew
-);
-````
-
-
 ## -parameters
 
 

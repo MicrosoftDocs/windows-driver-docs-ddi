@@ -52,21 +52,6 @@ req.typenames: OPTCOMBO, *POPTCOMBO
 
 
 
-## -syntax
-
-
-````
-typedef struct _OPTCOMBO {
-  WORD      cbSize;
-  BYTE      Flags;
-  WORD      cListItem;
-  POPTPARAM pListItem;
-  LONG      Sel;
-  LONG      dwReserved[3];
-} OPTCOMBO, *POPTCOMBO;
-````
-
-
 ## -struct-fields
 
 

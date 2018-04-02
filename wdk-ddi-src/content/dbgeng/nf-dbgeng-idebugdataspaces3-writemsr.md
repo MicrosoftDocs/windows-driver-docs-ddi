@@ -7,7 +7,7 @@ old-location: debugger\writemsr2.htm
 old-project: debugger
 ms.assetid: c9838b9e-b390-455d-98d6-249a49c9165d
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: IDebugDataSpaces interface [Windows Debugging], WriteMsr method, IDebugDataSpaces2 interface [Windows Debugging], WriteMsr method, IDebugDataSpaces2::WriteMsr, IDebugDataSpaces3, IDebugDataSpaces3 interface [Windows Debugging], WriteMsr method, IDebugDataSpaces3::WriteMsr, IDebugDataSpaces4 interface [Windows Debugging], WriteMsr method, IDebugDataSpaces4::WriteMsr, IDebugDataSpaces::WriteMsr, IDebugDataSpaces_b0b0220e-66d2-4d96-b4bf-3016b0ed677c.xml, WriteMsr method [Windows Debugging], WriteMsr method [Windows Debugging], IDebugDataSpaces interface, WriteMsr method [Windows Debugging], IDebugDataSpaces2 interface, WriteMsr method [Windows Debugging], IDebugDataSpaces3 interface, WriteMsr method [Windows Debugging], IDebugDataSpaces4 interface, WriteMsr,IDebugDataSpaces3.WriteMsr, dbgeng/IDebugDataSpaces2::WriteMsr, dbgeng/IDebugDataSpaces3::WriteMsr, dbgeng/IDebugDataSpaces4::WriteMsr, dbgeng/IDebugDataSpaces::WriteMsr, debugger.writemsr2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,17 +53,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>WriteMsr</b> method writes a value to the specified Model-Specific Register (MSR).
-
-
-## -syntax
-
-
-````
-HRESULT WriteMsr(
-   ULONG   Msr,
-   ULONG64 Value
-);
-````
 
 
 ## -parameters

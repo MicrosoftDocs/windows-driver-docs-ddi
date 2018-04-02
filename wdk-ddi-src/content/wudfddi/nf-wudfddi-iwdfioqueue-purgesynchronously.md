@@ -55,14 +55,6 @@ req.product: Windows 10 or later.
 The <b>PurgeSynchronously</b> method directs the framework to reject new incoming I/O requests and to cancel all outstanding requests. The method returns after all outstanding requests are canceled.
 
 
-## -syntax
-
-
-````
-void  PurgeSynchronously();
-````
-
-
 ## -parameters
 
 
@@ -92,11 +84,6 @@ The <b>PurgeSynchronously</b> method is a synchronous version of the <a href="ht
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558962">IWDFIoQueue::Purge</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
 
 
 
@@ -104,8 +91,12 @@ The <b>PurgeSynchronously</b> method is a synchronous version of the <a href="ht
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558943">IWDFIoQueue</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558962">IWDFIoQueue::Purge</a>
  
 
  
-
 

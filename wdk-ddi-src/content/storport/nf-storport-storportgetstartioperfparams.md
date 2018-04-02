@@ -7,7 +7,7 @@ old-location: storage\storportgetstartioperfparams.htm
 old-project: storage
 ms.assetid: c3314ac6-2b46-417f-a87b-64e27df9686d
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: StorPortGetStartIoPerfParams, StorPortGetStartIoPerfParams routine [Storage Devices], storage.storportgetstartioperfparams, storport/StorPortGetStartIoPerfParams, storprt_ad7184c9-2f69-4571-ba56-28b5a3b353d7.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,19 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>StorPortGetStartIoPerfParams</b> routine places the performance parameters for a given I/O request in a <a href="..\storport\ns-storport-_startio_performance_parameters.md">STARTIO_PERFORMANCE_PARAMETERS</a> structure.
-
-
-## -syntax
-
-
-````
-ULONG StorPortGetStartIoPerfParams(
-  _In_    PVOID                           HwDeviceExtension,
-  _In_    PSCSI_REQUEST_BLOCK             Srb,
-  _Inout_ PSTARTIO_PERFORMANCE_PARAMETERS StartIoPerfParams
-);
-````
+The <b>StorPortGetStartIoPerfParams</b> routine places the performance parameters for a given I/O request in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff566342">STARTIO_PERFORMANCE_PARAMETERS</a> structure.
 
 
 ## -parameters
@@ -77,7 +65,7 @@ A pointer to the hardware device extension for the host bus adapter (HBA).
 
 ### -param Srb [in]
 
-The SRB pointer that was passed in to the  <a href="..\storport\nc-storport-hw_startio.md">HwStorStartIo</a> routine that was supplied by the miniport driver. This parameter must not be <b>NULL</b>.
+The SRB pointer that was passed in to the  <a href="https://msdn.microsoft.com/library/windows/hardware/ff557423">HwStorStartIo</a> routine that was supplied by the miniport driver. This parameter must not be <b>NULL</b>.
 
 
 ### -param StartIoPerfParams [in, out]
@@ -151,27 +139,26 @@ The structure pointed to by <i>StartIoPerfParams</i> is not valid because the va
 
 
 
-Starting in Windows 8, the <i>Srb</i> parameter may point to either <a href="..\storport\ns-storport-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a> or <a href="..\storport\ns-storport-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>. If the function identifier in the <b>Function</b> field of <i>Srb</i> is <b>SRB_FUNCTION_STORAGE_REQUEST_BLOCK</b>, the SRB is a <b>STORAGE_REQUEST_BLOCK</b> request structure.
+Starting in Windows 8, the <i>Srb</i> parameter may point to either <a href="https://msdn.microsoft.com/library/windows/hardware/ff565393">SCSI_REQUEST_BLOCK</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/hh451474">STORAGE_REQUEST_BLOCK</a>. If the function identifier in the <b>Function</b> field of <i>Srb</i> is <b>SRB_FUNCTION_STORAGE_REQUEST_BLOCK</b>, the SRB is a <b>STORAGE_REQUEST_BLOCK</b> request structure.
 
 
 
 
 ## -see-also
 
-<a href="..\storport\ns-storport-_startio_performance_parameters.md">STARTIO_PERFORMANCE_PARAMETERS</a>
 
 
 
-<a href="..\storport\ns-storport-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565393">SCSI_REQUEST_BLOCK</a>
 
 
 
-<a href="..\storport\ns-storport-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566342">STARTIO_PERFORMANCE_PARAMETERS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451474">STORAGE_REQUEST_BLOCK</a>
  
 
  
-
 

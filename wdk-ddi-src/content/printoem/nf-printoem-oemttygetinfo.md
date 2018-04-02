@@ -52,20 +52,6 @@ req.product: Windows 10 or later.
 
 
 
-## -syntax
-
-
-````
-INT APIENTRY OEMTTYGetInfo(
-        PDEVOBJ                      pdevobj,
-        DWORD                        dwInfoIndex,
-  _Out_ _writes_bytes_(dwSize) PVOID pOutputBuf,
-        DWORD                        dwSize,
-  _Out_ DWORD                        *pcbcNeeded
-);
-````
-
-
 ## -parameters
 
 

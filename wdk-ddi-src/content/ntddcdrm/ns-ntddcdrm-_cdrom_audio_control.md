@@ -7,7 +7,7 @@ old-location: storage\cdrom_audio_control.htm
 old-project: storage
 ms.assetid: f99ad24d-e1cf-4381-93b9-c10e4b19b401
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PCDROM_AUDIO_CONTROL, CDROM_AUDIO_CONTROL, CDROM_AUDIO_CONTROL structure [Storage Devices], PCDROM_AUDIO_CONTROL, PCDROM_AUDIO_CONTROL structure pointer [Storage Devices], _CDROM_AUDIO_CONTROL, ntddcdrm/CDROM_AUDIO_CONTROL, ntddcdrm/PCDROM_AUDIO_CONTROL, storage.cdrom_audio_control, structs-CD-ROM_aac7f375-669d-4188-94bf-0f61c0fbf376.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,17 +52,6 @@ req.typenames: CDROM_AUDIO_CONTROL, *PCDROM_AUDIO_CONTROL
 The CDROM_AUDIO_CONTROL structure is used in conjunction with the IOCTL_CDROM_GET_CONTROL request to report the audio playback mode. 
 
 
-## -syntax
-
-
-````
-typedef struct _CDROM_AUDIO_CONTROL {
-  UCHAR  LbaFormat;
-  USHORT LogicalBlocksPerSecond;
-} CDROM_AUDIO_CONTROL, *PCDROM_AUDIO_CONTROL;
-````
-
-
 ## -struct-fields
 
 
@@ -80,12 +69,11 @@ Contains the number of logical blocks per second.
 
 ## -see-also
 
-<a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_get_control.md">IOCTL_CDROM_GET_CONTROL</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559336">IOCTL_CDROM_GET_CONTROL</a>
  
 
  
-
 

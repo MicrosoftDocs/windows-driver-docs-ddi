@@ -7,7 +7,7 @@ old-location: display\dxgkddisetvidpnsourceaddresswithmultiplaneoverlay.htm
 old-project: display
 ms.assetid: 95108e45-1a3a-4a75-8719-0caadb911469
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY, DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay, DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay callback function [Display Devices], d3dkmddi/DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay, display.dxgkddisetvidpnsourceaddresswithmultiplaneoverlay
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,20 +52,6 @@ req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 Sets the addresses of multiple surfaces, including the Desktop Window Manager (DWM)'s swapchain, that are associated with a particular video present source. This function is used to present multiple surfaces (including the DWM’s swapchain) to the screen.
 
 
-## -prototype
-
-
-````
-DXGKDDI_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay;
-
-_Check_return_ NTSTATUS APIENTRY* DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay(
-  _In_ const HANDLE                                             hAdapter,
-  _In_ const DXGKARG_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY *pSetVidPnSourceAddressWithMultiPlaneOverlay
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -75,12 +61,12 @@ _Check_return_ NTSTATUS APIENTRY* DxgkDdiSetVidPnSourceAddressWithMultiPlaneOver
 
 A handle to a context block that is associated with a display adapter.
 
-The display miniport driver previously provided this handle to the DirectX graphics kernel subsystem in the <i>MiniportDeviceContext</i> output parameter of the <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function.
+The display miniport driver previously provided this handle to the DirectX graphics kernel subsystem in the <i>MiniportDeviceContext</i> output parameter of the <a href="https://msdn.microsoft.com/5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea">DxgkDdiAddDevice</a> function.
 
 
 ### -param pSetVidPnSourceAddressWithMultiPlaneOverlay [in]
 
-A pointer to a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_setvidpnsourceaddresswithmultiplaneoverlay.md">DXGKARG_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY</a> structure that defines multiplane overlays that are enabled for  display.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh780296">DXGKARG_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY</a> structure that defines multiplane overlays that are enabled for  display.
 
 
 ## -returns
@@ -103,16 +89,15 @@ See requirements on calling this function in <a href="https://msdn.microsoft.com
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_setvidpnsourceaddresswithmultiplaneoverlay.md">DXGKARG_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh780296">DXGKARG_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY</a>
 
 
 
+<a href="https://msdn.microsoft.com/5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea">DxgkDdiAddDevice</a>
  
 
  
-
 

@@ -57,17 +57,6 @@ req.product: Windows 10 or later.
       It first searches the control pending events database, and then the data pending event database.
 
 
-## -syntax
-
-
-````
-NTSTATUS PosCxGetPendingEvent(
-  _In_ WDFDEVICE  device,
-  _In_ WDFREQUEST request
-);
-````
-
-
 ## -parameters
 
 

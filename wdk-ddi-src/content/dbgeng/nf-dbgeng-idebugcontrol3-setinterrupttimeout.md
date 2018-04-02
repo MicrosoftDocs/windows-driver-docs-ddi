@@ -7,7 +7,7 @@ old-location: debugger\setinterrupttimeout.htm
 old-project: debugger
 ms.assetid: 93bc2a07-a6f7-45df-945d-81c6c53adb47
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: IDebugControl interface [Windows Debugging], SetInterruptTimeout method, IDebugControl2 interface [Windows Debugging], SetInterruptTimeout method, IDebugControl2::SetInterruptTimeout, IDebugControl3, IDebugControl3 interface [Windows Debugging], SetInterruptTimeout method, IDebugControl3::SetInterruptTimeout, IDebugControl::SetInterruptTimeout, IDebugControl_c16219f4-97b7-451d-8f04-30aa262667f6.xml, SetInterruptTimeout method [Windows Debugging], SetInterruptTimeout method [Windows Debugging], IDebugControl interface, SetInterruptTimeout method [Windows Debugging], IDebugControl2 interface, SetInterruptTimeout method [Windows Debugging], IDebugControl3 interface, SetInterruptTimeout,IDebugControl3.SetInterruptTimeout, dbgeng/IDebugControl2::SetInterruptTimeout, dbgeng/IDebugControl3::SetInterruptTimeout, dbgeng/IDebugControl::SetInterruptTimeout, debugger.setinterrupttimeout
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,16 +52,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>SetInterruptTimeout</b> method sets the number of seconds that the <a href="https://msdn.microsoft.com/fa52a1f0-9397-48a5-acbd-ce5347c0baef">debugger engine</a> should wait when requesting a break into the debugger.
-
-
-## -syntax
-
-
-````
-HRESULT SetInterruptTimeout(
-  [in] ULONG Seconds
-);
-````
 
 
 ## -parameters
@@ -117,15 +107,22 @@ Most targets do not support interrupt time-outs.  Live user-mode debugging is on
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546955">GetInterruptTimeout</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556722">SetInterrupt</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550508">IDebugControl</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550512">IDebugControl2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550519">IDebugControl3</a>
 
 
 
@@ -133,16 +130,8 @@ Most targets do not support interrupt time-outs.  Live user-mode debugging is on
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556722">SetInterrupt</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: debugger\idebugclient4.htm
 old-project: debugger
 ms.assetid: fcfa64f3-6cdf-4e5a-bb02-13a748fd6dda
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: IDebugClient4, IDebugClient4 interface [Windows Debugging], IDebugClient4 interface [Windows Debugging], described, dbgeng/IDebugClient4, debugger.idebugclient4
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,7 +53,7 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugClient4</b> interface inherits from <a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>. <b>IDebugClient4</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugClient4</b> interface inherits from <a href="https://msdn.microsoft.com/library/windows/hardware/ff550488">IDebugClient3</a>. <b>IDebugClient4</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -128,16 +128,15 @@ Creates a user-mode or kernel-mode crash dump file.
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550488">IDebugClient3</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550497">IDebugClient5</a>
  
 
  
-
 

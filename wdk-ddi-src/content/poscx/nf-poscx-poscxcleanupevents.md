@@ -55,17 +55,6 @@ req.product: Windows 10 or later.
       caller, identified by the open instance.
 
 
-## -syntax
-
-
-````
-VOID PosCxCleanupEvents(
-  _In_ WDFDEVICE     device,
-  _In_ WDFFILEOBJECT fileObject
-);
-````
-
-
 ## -parameters
 
 

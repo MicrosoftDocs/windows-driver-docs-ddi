@@ -52,20 +52,6 @@ req.typenames: KSPROPERTY_TUNER_STATUS_S, *PKSPROPERTY_TUNER_STATUS_S
 The KSPROPERTY_TUNER_STATUS_S structure describes the progress of a tuning operation for TV and radio tuner devices, including present tuning frequency.
 
 
-## -syntax
-
-
-````
-typedef struct {
-  KSPROPERTY Property;
-  ULONG      CurrentFrequency;
-  ULONG      PLLOffset;
-  ULONG      SignalStrength;
-  ULONG      Busy;
-} KSPROPERTY_TUNER_STATUS_S, *PKSPROPERTY_TUNER_STATUS_S;
-````
-
-
 ## -struct-fields
 
 
@@ -203,11 +189,6 @@ For more information about the <b>PLLOffset</b> and <b>SignalStrength</b> member
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565921">KSPROPERTY_TUNER_STATUS</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567800">PROPSETID_TUNER</a>
 
 
 
@@ -215,8 +196,12 @@ For more information about the <b>PLLOffset</b> and <b>SignalStrength</b> member
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565921">KSPROPERTY_TUNER_STATUS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567800">PROPSETID_TUNER</a>
  
 
  
-
 

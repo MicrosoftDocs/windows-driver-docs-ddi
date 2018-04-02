@@ -7,7 +7,7 @@ old-location: netvista\ndis_link_speed.htm
 old-project: netvista
 ms.assetid: d11155a3-b455-4c6e-83b8-7a86d8fd2aa1
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PNDIS_LINK_SPEED, NDIS_LINK_SPEED, NDIS_LINK_SPEED structure [Network Drivers Starting with Windows Vista], PNDIS_LINK_SPEED, PNDIS_LINK_SPEED structure pointer [Network Drivers Starting with Windows Vista], _NDIS_LINK_SPEED, netvista.ndis_link_speed, ntddndis/NDIS_LINK_SPEED, ntddndis/PNDIS_LINK_SPEED, oid_structures_ref_c610b58c-eead-4483-96ab-c3fd62c1e846.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -54,17 +54,6 @@ The NDIS_LINK_SPEED structure specifies transmit and receive link speeds.
   
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_LINK_SPEED {
-  ULONG64 XmitLinkSpeed;
-  ULONG64 RcvLinkSpeed;
-} NDIS_LINK_SPEED, *PNDIS_LINK_SPEED;
-````
-
-
 ## -struct-fields
 
 
@@ -95,16 +84,15 @@ The NDIS_LINK_SPEED structure specifies link speeds in the
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569594">OID_GEN_LINK_SPEED_EX</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569602">OID_GEN_MAX_LINK_SPEED</a>
-
-
-
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: display\d3dhal_dp2texblt.htm
 old-project: display
 ms.assetid: e240fb49-26e6-4d30-b579-03824ac8b67f
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*LPD3DHAL_DP2TEXBLT, D3DHAL_DP2TEXBLT, D3DHAL_DP2TEXBLT structure [Display Devices], LPD3DHAL_DP2TEXBLT, LPD3DHAL_DP2TEXBLT structure pointer [Display Devices], _D3DHAL_DP2TEXBLT, d3dhal/D3DHAL_DP2TEXBLT, d3dhal/LPD3DHAL_DP2TEXBLT, d3dstrct_80dddffa-3403-4e1e-a1cc-1cbbfdad09a8.xml, display.d3dhal_dp2texblt"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,21 +49,7 @@ req.typenames: D3DHAL_DP2TEXBLT
 ## -description
 
 
-The D3DHAL_DP2TEXBLT structure is used for texture blts when <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a> responds to the D3DDP2OP_TEXBLT command token.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DHAL_DP2TEXBLT {
-  DWORD dwDDDestSurface;
-  DWORD dwDDSrcSurface;
-  POINT pDest;
-  RECTL rSrc;
-  DWORD dwFlags;
-} D3DHAL_DP2TEXBLT, *LPD3DHAL_DP2TEXBLT;
-````
+The D3DHAL_DP2TEXBLT structure is used for texture blts when <a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a> responds to the D3DDP2OP_TEXBLT command token.
 
 
 ## -struct-fields
@@ -104,7 +90,7 @@ The <a href="https://msdn.microsoft.com/dd07e49c-ec1f-4ba6-8b17-80ce6d3c5813">D3
 
 The D3DHAL_DP2TEXBLT structure is used with a D3DDP2OP_TEXBLT command stream token to inform the drivers to perform a blt operation from a source texture to a destination texture. A texture can also be cubic environment map. The driver should copy a rectangle specified by <b>rSrc</b> in the source texture to the location specified by <b>pDest</b> in the destination texture. The destination and source textures are identified by handles that the driver was notified with during texture creation time. If the driver is capable of managing textures, then it is possible that the destination handle is 0. This indicates to the driver that it should preload the texture into video memory (or wherever the hardware efficiently textures from). In this case, the driver can ignore <b>rSrc</b> and <b>pDest</b>. 
 
-Note that for MIP mapped textures, only one D3DDP2OP_TEXBLT instruction is inserted into the <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a> command stream. In this case, the driver is expected to blt all the MIP map levels present in the texture. The regions to be copied in MIP map sublevels can be obtained by dividing <b>rSrc</b> and<b>pDest</b> by 2 at each level. 
+Note that for MIP mapped textures, only one D3DDP2OP_TEXBLT instruction is inserted into the <a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a> command stream. In this case, the driver is expected to blt all the MIP map levels present in the texture. The regions to be copied in MIP map sublevels can be obtained by dividing <b>rSrc</b> and<b>pDest</b> by 2 at each level. 
 
 It is possible that the source and destination textures may contain different numbers of MIP map levels. In this case, the driver is expected to blt the common levels. For example, if a 256x256 source texture has 8 MIP map levels, and if the destination is a 64x64 texture with 6 levels, then the driver should blt the 6 corresponding levels from the source. The driver can expect the dimensions of the top MIP level of the destination texture to always be less than or equal to the dimensions of the top MIP level of the source texture. 
 
@@ -140,7 +126,6 @@ rect.bottom = ((bottom - rect.top ) &lt; 1) ? (rect.top + 1) : (bottom); </pre>
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/dd07e49c-ec1f-4ba6-8b17-80ce6d3c5813">D3dCreateSurfaceEx</a>
 
 
 
@@ -148,12 +133,12 @@ D3DDP2OP_TEXBLT
 
 
 
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
+<a href="https://msdn.microsoft.com/dd07e49c-ec1f-4ba6-8b17-80ce6d3c5813">D3dCreateSurfaceEx</a>
 
 
 
+<a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a>
  
 
  
-
 

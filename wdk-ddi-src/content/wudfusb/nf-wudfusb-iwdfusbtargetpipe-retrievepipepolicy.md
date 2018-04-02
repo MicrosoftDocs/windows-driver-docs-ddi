@@ -55,18 +55,6 @@ req.product: Windows 10 or later.
 The <b>RetrievePipePolicy</b> method retrieves a WinUsb pipe policy.
 
 
-## -syntax
-
-
-````
-HRESULT RetrievePipePolicy(
-  [in]      ULONG PolicyType,
-  [in, out] ULONG *ValueLength,
-  [out]     PVOID Value
-);
-````
-
-
 ## -parameters
 
 
@@ -156,11 +144,10 @@ The <b>RetrievePipePolicy</b> method generates a UMDF request and synchronously 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540266">WinUsb_GetPipePolicy</a>
 
 
 
-<a href="..\wudfusb\nn-wudfusb-iwdfusbtargetpipe.md">IWDFUsbTargetPipe</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560391">IWDFUsbTargetPipe</a>
 
 
 
@@ -168,8 +155,8 @@ The <b>RetrievePipePolicy</b> method generates a UMDF request and synchronously 
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540266">WinUsb_GetPipePolicy</a>
  
 
  
-
 

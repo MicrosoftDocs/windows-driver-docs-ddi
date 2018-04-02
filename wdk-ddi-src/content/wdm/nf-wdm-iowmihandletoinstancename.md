@@ -7,7 +7,7 @@ old-location: kernel\iowmihandletoinstancename.htm
 old-project: kernel
 ms.assetid: e9d8fde5-81b7-480b-8d7c-0005fd1868fb
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: IoWMIHandleToInstanceName, IoWMIHandleToInstanceName routine [Kernel-Mode Driver Architecture], k104_7d97f756-2f7f-4788-bcbc-368e08b6b86f.xml, kernel.iowmihandletoinstancename, wdm/IoWMIHandleToInstanceName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 The <b>IoWMIHandleToInstanceName</b> routine determines the instance name for the WMI class instance implemented by the driver that is specified by a file handle.
 
 
-## -syntax
-
-
-````
-NTSTATUS IoWMIHandleToInstanceName(
-  _In_  PVOID           DataBlockObject,
-  _In_  HANDLE          FileHandle,
-  _Out_ PUNICODE_STRING InstanceName
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +60,7 @@ NTSTATUS IoWMIHandleToInstanceName(
 
 ### -param DataBlockObject [in]
 
-Pointer to a WMI data block object. The caller opens the data block object for the WMI class with the <a href="..\wdm\nf-wdm-iowmiopenblock.md">IoWMIOpenBlock</a> routine. 
+Pointer to a WMI data block object. The caller opens the data block object for the WMI class with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550453">IoWMIOpenBlock</a> routine. 
 
 
 ### -param FileHandle [in]
@@ -82,7 +70,7 @@ Specifies a file handle. The routine returns the instance name corresponding to 
 
 ### -param InstanceName [out]
 
-Pointer to the <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that the routine uses to return the instance name. The caller frees the returned buffer within <b>UNICODE_STRING</b>. 
+Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure that the routine uses to return the instance name. The caller frees the returned buffer within <b>UNICODE_STRING</b>. 
 
 
 ## -returns
@@ -126,20 +114,19 @@ The driver does not implement any instances of the WMI class specified by <i>Dat
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iowmiopenblock.md">IoWMIOpenBlock</a>
 
 
 
-<a href="..\wdm\nf-wdm-iowmideviceobjecttoinstancename.md">IoWMIDeviceObjectToInstanceName</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>
 
 
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550432">IoWMIDeviceObjectToInstanceName</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550453">IoWMIOpenBlock</a>
  
 
  
-
 

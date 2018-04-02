@@ -55,17 +55,6 @@ req.product: Windows 10 or later.
 The <b>WDF_READ_REGISTER_ULONG</b> function reads a ULONG value from the specified register address.
 
 
-## -syntax
-
-
-````
-ULONG WDF_READ_REGISTER_ULONG(
-  _In_ WDFDEVICE Device,
-  _In_ PULONG    Register
-);
-````
-
-
 ## -parameters
 
 

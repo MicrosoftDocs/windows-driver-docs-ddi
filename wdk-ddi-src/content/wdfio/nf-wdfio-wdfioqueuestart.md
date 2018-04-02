@@ -58,16 +58,6 @@ req.product: Windows 10 or later.
 The <b>WdfIoQueueStart</b> method enables an I/O queue to start receiving and delivering new I/O requests.
 
 
-## -syntax
-
-
-````
-VOID WdfIoQueueStart(
-  _In_ WDFQUEUE Queue
-);
-````
-
-
 ## -parameters
 
 
@@ -124,16 +114,15 @@ WdfIoQueueStart(ReadQueue);</pre>
 
 ## -see-also
 
-<a href="..\wdfio\nf-wdfio-wdfioqueuestop.md">WdfIoQueueStop</a>
 
 
 
-<a href="..\wdfio\nf-wdfio-wdfioqueuepurge.md">WdfIoQueuePurge</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548442">WdfIoQueuePurge</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548482">WdfIoQueueStop</a>
  
 
  
-
 

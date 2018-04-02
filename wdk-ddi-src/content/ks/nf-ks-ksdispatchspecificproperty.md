@@ -55,14 +55,6 @@ The <b>KsDispatchSpecificProperty</b> function dispatches the property to a spec
 This function can only be called at PASSIVE_LEVEL.
 
 
-## -syntax
-
-
-````
-KSDDKAPI NTSTATUS NTAPI KsDispatchSpecificProperty(void);
-````
-
-
 ## -parameters
 
 
@@ -100,12 +92,11 @@ The <b>KsDispatchSpecificProperty</b> function is intended for additional proces
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kspropertyhandler.md">KsPropertyHandler</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564263">KsPropertyHandler</a>
  
 
  
-
 

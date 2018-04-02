@@ -7,7 +7,7 @@ old-location: display\d3d12ddi_query_data_video_decode_statistics.htm
 old-project: display
 ms.assetid: F58AB9E1-4061-46B8-8137-319DF30D9CA7
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3D12DDI_QUERY_DATA_VIDEO_DECODE_STATISTICS_0022, D3D12DDI_QUERY_DATA_VIDEO_DECODE_STATISTICS_0022 structure [Display Devices], d3d12umddi/D3D12DDI_QUERY_DATA_VIDEO_DECODE_STATISTICS_0022, display.d3d12ddi_query_data_video_decode_statistics
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,19 +52,6 @@ req.typenames: D3D12DDI_QUERY_DATA_VIDEO_DECODE_STATISTICS_0022
 Video decode statistics for a query.
 
 
-## -syntax
-
-
-````
-typedef struct D3D12DDI_QUERY_DATA_VIDEO_DECODE_STATISTICS_0022 {
-  UINT64        Status;
-  UINT64        NumMacroblocksAffected;
-  DXGI_RATIONAL FrameRate;
-  UINT          BitRate;
-} D3D12DDI_QUERY_DATA_VIDEO_DECODE_STATISTICS_0022;
-````
-
-
 ## -struct-fields
 
 
@@ -72,7 +59,7 @@ typedef struct D3D12DDI_QUERY_DATA_VIDEO_DECODE_STATISTICS_0022 {
 
 ### -field Status
 
-Specifies the status of an operation as a <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_decode_status_0020.md">D3D12DDI_VIDEO_DECODE_STATUS</a> value.
+Specifies the status of an operation as a <a href="https://msdn.microsoft.com/E7A3944D-142E-450C-B9EE-9190BF264C60">D3D12DDI_VIDEO_DECODE_STATUS</a> value.
 
 
 ### -field NumMacroblocksAffected
@@ -92,12 +79,11 @@ For all other <b>Status</b> values, <b>BitRate</b> is not used and is set to zer
 
 ## -see-also
 
-<a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_decode_status_0020.md">D3D12DDI_VIDEO_DECODE_STATUS</a>
 
 
 
+<a href="https://msdn.microsoft.com/E7A3944D-142E-450C-B9EE-9190BF264C60">D3D12DDI_VIDEO_DECODE_STATUS</a>
  
 
  
-
 

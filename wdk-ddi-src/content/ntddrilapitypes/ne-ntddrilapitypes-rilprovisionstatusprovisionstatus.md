@@ -7,7 +7,7 @@ old-location: netvista\rilprovisionstatusprovisionstatus.htm
 old-project: netvista
 ms.assetid: ed7fc20a-b5d5-4dc6-ab95-5ee9258dbdae
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: RILPROVISIONSTATUSPROVISIONSTATUS, RILPROVISIONSTATUSPROVISIONSTATUS enumeration [Network Drivers Starting with Windows Vista], RIL_PROVISIONSTAT_BIP_STARTED, RIL_PROVISIONSTAT_BIP_SUCCESS, RIL_PROVISIONSTAT_FAILURE_END, RIL_PROVISIONSTAT_FAILURE_RETRY, RIL_PROVISIONSTAT_MAX, RIL_PROVISIONSTAT_NEEDED, RIL_PROVISIONSTAT_SUCCESS, netvista.rilprovisionstatusprovisionstatus, ntddrilapitypes/RILPROVISIONSTATUSPROVISIONSTATUS, ntddrilapitypes/RIL_PROVISIONSTAT_BIP_STARTED, ntddrilapitypes/RIL_PROVISIONSTAT_BIP_SUCCESS, ntddrilapitypes/RIL_PROVISIONSTAT_FAILURE_END, ntddrilapitypes/RIL_PROVISIONSTAT_FAILURE_RETRY, ntddrilapitypes/RIL_PROVISIONSTAT_MAX, ntddrilapitypes/RIL_PROVISIONSTAT_NEEDED, ntddrilapitypes/RIL_PROVISIONSTAT_SUCCESS
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,22 +50,6 @@ req.typenames: RILPROVISIONSTATUSPROVISIONSTATUS
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef enum _RILPROVISIONSTATUSPROVISIONSTATUS { 
-  RIL_PROVISIONSTAT_SUCCESS,
-  RIL_PROVISIONSTAT_FAILURE_END,
-  RIL_PROVISIONSTAT_FAILURE_RETRY,
-  RIL_PROVISIONSTAT_NEEDED,
-  RIL_PROVISIONSTAT_BIP_STARTED,
-  RIL_PROVISIONSTAT_BIP_SUCCESS,
-  RIL_PROVISIONSTAT_MAX
-} RILPROVISIONSTATUSPROVISIONSTATUS;
-````
 
 
 ## -enum-fields

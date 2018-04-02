@@ -52,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 
-## -syntax
-
-
-````
-VOID APIENTRY OEMDisablePDEV(
-   PDEVOBJ pdevobj
-);
-````
-
-
 ## -parameters
 
 

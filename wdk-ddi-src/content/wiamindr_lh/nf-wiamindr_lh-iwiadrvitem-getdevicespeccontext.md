@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 The<b> IWiaDrvItem::GetDeviceSpecContext</b> method gets a device-specific context.
 
 
-## -syntax
-
-
-````
-HRESULT GetDeviceSpecContext(
-  [out, optional] BYTE **ppSpecContext
-);
-````
-
-
 ## -parameters
 
 
@@ -93,23 +83,22 @@ If the method succeeds, it stores a pointer to the device-specific context in <i
 
 
 
-Minidrivers typically use this method to obtain a pointer to a device-specific context associated with an <b>IWiaDrvItem</b> item. The device-specific context is associated with the item when the item is created using the driver services library function <a href="..\wiamdef\nf-wiamdef-wiascreatedrvitem.md">wiasCreateDrvItem</a>.
+Minidrivers typically use this method to obtain a pointer to a device-specific context associated with an <b>IWiaDrvItem</b> item. The device-specific context is associated with the item when the item is created using the driver services library function <a href="https://msdn.microsoft.com/library/windows/hardware/ff549160">wiasCreateDrvItem</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\wiamdef\nf-wiamdef-wiascreatedrvitem.md">wiasCreateDrvItem</a>
 
 
 
-<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiadrvitem.md">IWiaDrvItem</a>
+<a href="https://msdn.microsoft.com/0609e1b2-48df-413c-90bd-d7ddea26510a">IWiaDrvItem</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549160">wiasCreateDrvItem</a>
  
 
  
-
 

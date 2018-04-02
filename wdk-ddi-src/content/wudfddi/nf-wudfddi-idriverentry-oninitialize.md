@@ -55,16 +55,6 @@ req.product: Windows 10 or later.
 The <b>OnInitialize</b> method performs any operations that are necessary to initialize a driver.
 
 
-## -syntax
-
-
-````
-HRESULT OnInitialize(
-  [in] IWDFDriver *pWdfDriver
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +62,7 @@ HRESULT OnInitialize(
 
 ### -param pWdfDriver [in]
 
-A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfdriver.md">IWDFDriver</a> interface for the framework driver object that represents the driver that is loaded in the host process.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558893">IWDFDriver</a> interface for the framework driver object that represents the driver that is loaded in the host process.
 
 
 ## -returns
@@ -88,23 +78,22 @@ A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfdriver.md">IWDFDriver</a> in
 
 
 
-The framework creates a new driver object for each driver that is loaded in the driver host process. When a driver enters the system, the framework calls <b>OnInitialize</b> to notify the driver and passes the <a href="..\wudfddi\nn-wudfddi-iwdfdriver.md">IWDFDriver</a> interface in the call. 
+The framework creates a new driver object for each driver that is loaded in the driver host process. When a driver enters the system, the framework calls <b>OnInitialize</b> to notify the driver and passes the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558893">IWDFDriver</a> interface in the call. 
 
 
 
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdriver.md">IWDFDriver</a>
 
 
 
-<a href="..\wudfddi\nn-wudfddi-idriverentry.md">IDriverEntry</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554885">IDriverEntry</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558893">IWDFDriver</a>
  
 
  
-
 

@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 
 
 
-## -syntax
-
-
-````
-typedef struct {
-  ULONG                    numberOfProperties;
-  PrintNamedProperty       *propertiesCollection;
-} PrintPropertiesCollection;
-````
-
-
 ## -struct-fields
 
 

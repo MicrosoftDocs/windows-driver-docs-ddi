@@ -7,7 +7,7 @@ old-location: display\d3dwddm1_3ddi_d3d11_options_data1.htm
 old-project: display
 ms.assetid: 822819CE-DF40-4AFD-966A-DA5C433646D7
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DWDDM1_3DDI_D3D11_OPTIONS_DATA1, D3DWDDM1_3DDI_D3D11_OPTIONS_DATA1 structure [Display Devices], d3d10umddi/D3DWDDM1_3DDI_D3D11_OPTIONS_DATA1, display.d3dwddm1_3ddi_d3d11_options_data1
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,16 +52,6 @@ req.typenames: D3DWDDM1_3DDI_D3D11_OPTIONS_DATA1
 Specifies the level of support by the hardware and user-mode display driver for tiled resources.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DWDDM1_3DDI_D3D11_OPTIONS_DATA1 {
-  UINT TiledResourcesSupportFlags;
-} D3DWDDM1_3DDI_D3D11_OPTIONS_DATA1;
-````
-
-
 ## -struct-fields
 
 
@@ -69,17 +59,16 @@ typedef struct _D3DWDDM1_3DDI_D3D11_OPTIONS_DATA1 {
 
 ### -field TiledResourcesSupportFlags
 
-A value from the <a href="..\d3d10umddi\ne-d3d10umddi-d3dwddm1_3ddi_tiled_resources_support_flag.md">D3DWDDM1_3DDI_TILED_RESOURCES_SUPPORT_FLAG</a> enumeration that indicates the level of support  for tiled resources.
+A value from the <a href="https://msdn.microsoft.com/library/windows/hardware/dn475745">D3DWDDM1_3DDI_TILED_RESOURCES_SUPPORT_FLAG</a> enumeration that indicates the level of support  for tiled resources.
 
 
 ## -see-also
 
-<a href="..\d3d10umddi\ne-d3d10umddi-d3dwddm1_3ddi_tiled_resources_support_flag.md">D3DWDDM1_3DDI_TILED_RESOURCES_SUPPORT_FLAG</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn475745">D3DWDDM1_3DDI_TILED_RESOURCES_SUPPORT_FLAG</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: storage\storage_physical_topology_descriptor.htm
 old-project: storage
 ms.assetid: FD5714DF-9D34-4396-86BC-40054C199A0E
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSTORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR, PSTORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR, PSTORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR structure pointer [Storage Devices], STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR, STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR structure [Storage Devices], _STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR, ntddstor/PSTORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR, ntddstor/STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR, storage.storage_physical_topology_descriptor"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,20 +50,6 @@ req.typenames: STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR, *PSTORAGE_PHYSICAL_TOPOLOGY
 
 
 Describes the physical topology of storage in a system.
-
-
-## -syntax
-
-
-````
-typedef struct _STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR {
-  ULONG                      Version;
-  ULONG                      Size;
-  ULONG                      NodeCount;
-  ULONG                      Reserved;
-  STORAGE_PHYSICAL_NODE_DATA Node[ANYSIZE_ARRAY];
-} STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR, *PSTORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR;
-````
 
 
 ## -struct-fields

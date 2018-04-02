@@ -7,7 +7,7 @@ old-location: display\pfnd3d12ddi_create_pipeline_state_0033.htm
 old-project: display
 ms.assetid: F8255544-D5B6-4692-BDC0-EF5A2B856153
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3D12DDI_CREATE_PIPELINE_STATE_0033, PFND3D12DDI_CREATE_PIPELINE_STATE_0033 entry point [Display Devices], d3d12umddi/PFND3D12DDI_CREATE_PIPELINE_STATE_0033, display.pfnd3d12ddi_create_pipeline_state_0033
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,34 +52,21 @@ req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
 Used to create a pipeline state.
 
 
-## -prototype
-
-
-````
-HRESULT APIENTRY* PFND3D12DDI_CREATE_PIPELINE_STATE_0033(
-             D3D12DDI_HDEVICE                       d3d12ddi_hdevice,
-  _In_ const D3D12DDIARG_CREATE_PIPELINE_STATE_0033 *d3d12ddiarg_create_pipeline_state_0033,
-             D3D12DDI_HPIPELINESTATE                d3d12ddi_hpipelinestate,
-             D3D12DDI_HRTPIPELINESTATE              d3d12ddi_hrtpipelinestate
-);
-````
-
-
 ## -parameters
 
 
 
 
-### -param D3D12DDI_HDEVICE
+### -param Arg1
 
 
 ### -param *
 
 
-### -param D3D12DDI_HPIPELINESTATE
+### -param Arg2
 
 
-### -param D3D12DDI_HRTPIPELINESTATE
+### -param Arg3
 
 
 

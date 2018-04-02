@@ -7,7 +7,7 @@ old-location: netvista\wwan_radio_state.htm
 old-project: netvista
 ms.assetid: 15c02819-bae8-48f5-8782-97823b6907bd
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PWWAN_RADIO_STATE, PWWAN_RADIO_STATE, PWWAN_RADIO_STATE structure pointer [Network Drivers Starting with Windows Vista], WWAN_RADIO_STATE, WWAN_RADIO_STATE structure [Network Drivers Starting with Windows Vista], WwanRef_b1ea0ea1-b23f-4e5c-9528-659e1f6e4162.xml, _WWAN_RADIO_STATE, netvista.wwan_radio_state, wwan/PWWAN_RADIO_STATE, wwan/WWAN_RADIO_STATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,17 +52,6 @@ req.product: Windows 10 or later.
 
 The WWAN_RADIO_STATE structure represents the hardware-based and software-based radio power states of
   the MB device.
-
-
-## -syntax
-
-
-````
-typedef struct _WWAN_RADIO_STATE {
-  WWAN_RADIO HwRadioState;
-  WWAN_RADIO SwRadioState;
-} WWAN_RADIO_STATE, *PWWAN_RADIO_STATE;
-````
 
 
 ## -struct-fields
@@ -230,16 +219,15 @@ The miniport driver should send all applicable status indications such as
 
 ## -see-also
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_radio_state.md">NDIS_WWAN_RADIO_STATE</a>
 
 
 
-<a href="..\wwan\ne-wwan-_wwan_radio.md">WWAN_RADIO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567915">NDIS_WWAN_RADIO_STATE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571224">WWAN_RADIO</a>
  
 
  
-
 

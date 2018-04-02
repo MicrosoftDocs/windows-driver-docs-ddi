@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 The <b>SPB_TRANSFER_LIST_ENTRY</b> structure describes a single transfer in an <a href="https://msdn.microsoft.com/7415DB28-5E93-4F47-B169-7C652969D4C7">I/O transfer sequence</a>.
 
 
-## -syntax
-
-
-````
-typedef struct SPB_TRANSFER_LIST_ENTRY {
-  SPB_TRANSFER_DIRECTION Direction;
-  ULONG                  DelayInUs;
-  SPB_TRANSFER_BUFFER    Buffer;
-} SPB_TRANSFER_LIST_ENTRY, *PSPB_TRANSFER_LIST_ENTRY;
-````
-
-
 ## -struct-fields
 
 
@@ -100,11 +88,10 @@ To request an I/O transfer sequence for a target device on the bus, a client (pe
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh450857">IOCTL_SPB_EXECUTE_SEQUENCE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406221">SPB_TRANSFER_LIST</a>
 
 
 
@@ -112,16 +99,16 @@ To request an I/O transfer sequence for a target device on the bus, a client (pe
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406220">SPB_TRANSFER_DIRECTION</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406218">SPB_TRANSFER_DESCRIPTOR</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406220">SPB_TRANSFER_DIRECTION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406221">SPB_TRANSFER_LIST</a>
  
 
  
-
 

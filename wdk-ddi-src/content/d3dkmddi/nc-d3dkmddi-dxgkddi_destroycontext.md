@@ -7,7 +7,7 @@ old-location: display\dxgkddidestroycontext.htm
 old-project: display
 ms.assetid: c21f62ab-c52e-43a2-a3a1-6fd6e5fbde01
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_DESTROYCONTEXT, DmFunctions_b8cd0b48-a87b-4e6f-8811-49a1e0f46f2f.xml, DxgkDdiDestroyContext, DxgkDdiDestroyContext callback function [Display Devices], d3dkmddi/DxgkDdiDestroyContext, display.dxgkddidestroycontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,19 +52,6 @@ req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 The <i>DxgkDdiDestroyContext</i> function destroys the specified graphics processing unit (GPU) context.
 
 
-## -prototype
-
-
-````
-DXGKDDI_DESTROYCONTEXT DxgkDdiDestroyContext;
-
-NTSTATUS APIENTRY DxgkDdiDestroyContext(
-  _In_ const HANDLE hContext
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -72,7 +59,7 @@ NTSTATUS APIENTRY DxgkDdiDestroyContext(
 
 ### -param hContext [in]
 
-[in] A handle to the context to destroy. The display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createcontext.md">DxgkDdiCreateContext</a> function previously returned this handle in the <b>hContext</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createcontext.md">DXGKARG_CREATECONTEXT</a> structure that the <i>pCreateContext</i> parameter of <i>DxgkDdiCreateContext </i>points to. 
+[in] A handle to the context to destroy. The display miniport driver's <a href="https://msdn.microsoft.com/aea21a36-f3d5-4541-bd2d-aa026668c562">DxgkDdiCreateContext</a> function previously returned this handle in the <b>hContext</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557567">DXGKARG_CREATECONTEXT</a> structure that the <i>pCreateContext</i> parameter of <i>DxgkDdiCreateContext </i>points to. 
 
 
 ## -returns
@@ -97,16 +84,15 @@ A driver should free all resources that it allocated for the context and clean u
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createcontext.md">DXGKARG_CREATECONTEXT</a>
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createcontext.md">DxgkDdiCreateContext</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557567">DXGKARG_CREATECONTEXT</a>
 
 
 
+<a href="https://msdn.microsoft.com/aea21a36-f3d5-4541-bd2d-aa026668c562">DxgkDdiCreateContext</a>
  
 
  
-
 

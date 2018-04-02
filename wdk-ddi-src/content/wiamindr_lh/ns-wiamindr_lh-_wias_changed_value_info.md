@@ -53,29 +53,6 @@ req.product: Windows 10 or later.
 The WIAS_CHANGED_VALUE_INFO structure is used to store the current and previous values of a property.
 
 
-## -syntax
-
-
-````
-typedef struct _WIAS_CHANGED_VALUE_INFO {
-  BOOL  bChanged;
-  LONG  vt;
-  union {
-    LONG  lVal;
-    FLOAT fltVal;
-    BSTR  bstrVal;
-    GUID  guidVal;
-  } Old;
-  union {
-    LONG  lVal;
-    FLOAT fltVal;
-    BSTR  bstrVal;
-    GUID  guidVal;
-  } Current;
-} WIAS_CHANGED_VALUE_INFO, *PWIAS_CHANGED_VALUE_INFO;
-````
-
-
 ## -struct-fields
 
 
@@ -128,28 +105,27 @@ The <b>wiasGetChangedValue</b><i>Xxx</i> functions, use this structure to determ
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545017">IWiaMiniDrv::drvValidateItemProperties</a>
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiasgetchangedvalueguid.md">wiasGetChangedValueGuid</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549200">wiasGetChangedValueFloat</a>
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiasgetchangedvaluefloat.md">wiasGetChangedValueFloat</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549211">wiasGetChangedValueGuid</a>
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiasgetchangedvaluestr.md">wiasGetChangedValueStr</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549214">wiasGetChangedValueLong</a>
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiasgetchangedvaluelong.md">wiasGetChangedValueLong</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549219">wiasGetChangedValueStr</a>
  
 
  
-
 

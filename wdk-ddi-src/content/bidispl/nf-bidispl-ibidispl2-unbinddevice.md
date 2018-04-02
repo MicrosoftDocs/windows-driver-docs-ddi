@@ -52,14 +52,6 @@ req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
 The <b>UnbindDevice</b> method releases a printer from a bidirectional printer communication (bidi communication) request.
 
 
-## -syntax
-
-
-````
-HRESULT UnbindDevice();
-````
-
-
 ## -parameters
 
 
@@ -119,7 +111,6 @@ The <b>HRESULT</b> contains an error code that corresponds to the last error.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/42b5e6cf-b434-4734-86f3-b3b9d15ea468">Print Spooler Components</a>
 
 
 
@@ -131,12 +122,12 @@ The <b>HRESULT</b> contains an error code that corresponds to the last error.
 
 
 
-<a href="..\bidispl\nn-bidispl-ibidispl2.md">IBidiSpl2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dd144981">IBidiSpl2</a>
 
 
 
+<a href="https://msdn.microsoft.com/42b5e6cf-b434-4734-86f3-b3b9d15ea468">Print Spooler Components</a>
  
 
  
-
 

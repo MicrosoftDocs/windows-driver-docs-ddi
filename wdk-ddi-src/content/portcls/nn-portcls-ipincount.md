@@ -7,7 +7,7 @@ old-location: audio\ipincount.htm
 old-project: audio
 ms.assetid: 9e02584a-4c65-4400-b06e-58ba095c8dd0
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/19/2018
 ms.keywords: IPinCount, IPinCount interface [Audio Devices], IPinCount interface [Audio Devices], described, audio.ipincount, audmp-routines_05698591-4c80-4f02-a420-a87afff949ad.xml, portcls/IPinCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,7 +69,7 @@ When opening a "heavyweight" stream, the miniport driver might need to decrement
 
 The process is reversed when a "heavyweight" stream is closed. The available pin count might increase by more than one in order to reflect the fact that two or more "lightweight" streams can be created from the newly freed resources.
 
-If a miniport driver does not support the <code>IPinCount</code> interface, the port driver uses the statically initialized pin counts in the filter's <a href="..\portcls\ns-portcls-__unnamed_struct_0cb6_7.md">PCPIN_DESCRIPTOR</a> array.
+If a miniport driver does not support the <code>IPinCount</code> interface, the port driver uses the statically initialized pin counts in the filter's <a href="https://msdn.microsoft.com/library/windows/hardware/ff537721">PCPIN_DESCRIPTOR</a> array.
 
 The <code>IPinCount</code> interface provides a single method. The port driver that is bound to the miniport driver calls this method in response to a pin-count query.
 

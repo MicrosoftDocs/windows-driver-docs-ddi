@@ -53,16 +53,6 @@ req.typenames: IRB_REQ_ISOCH_QUERY_CURRENT_CYCLE_TIME
 <b>IsochQueryCurrentCycleTime</b> request.
 
 
-## -syntax
-
-
-````
-typedef struct _IRB_REQ_ISOCH_QUERY_CURRENT_CYCLE_TIME {
-  CYCLE_TIME CycleTime;
-} IRB_REQ_ISOCH_QUERY_CURRENT_CYCLE_TIME;
-````
-
-
 ## -struct-fields
 
 

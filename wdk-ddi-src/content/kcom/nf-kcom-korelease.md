@@ -55,16 +55,6 @@ req.typenames: CONNECT_DATA, *PCONNECT_DATA
 The <b>KoRelease</b> function decrements the reference count for the calling interface on an object. 
 
 
-## -syntax
-
-
-````
-void KoRelease(
-  _In_ REFCLSID ClassId
-);
-````
-
-
 ## -parameters
 
 

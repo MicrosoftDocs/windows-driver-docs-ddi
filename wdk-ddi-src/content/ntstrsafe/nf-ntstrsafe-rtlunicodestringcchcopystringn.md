@@ -7,7 +7,7 @@ old-location: kernel\rtlunicodestringcchcopystringn.htm
 old-project: kernel
 ms.assetid: 28ff3697-e2b3-4818-99d3-0b1f7a098282
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: RtlUnicodeStringCchCopyStringN, RtlUnicodeStringCchCopyStringN function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringcchcopystringn, ntstrsafe/RtlUnicodeStringCchCopyStringN, safestrings_d48eb8f3-535f-4829-aed4-6bde1b4733e3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,19 +50,7 @@ req.typenames: SYSTEM_POWER_STATE_CONTEXT, *PSYSTEM_POWER_STATE_CONTEXT
 ## -description
 
 
-The <b>RtlUnicodeStringCchCopyStringN</b> function copies a string into a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure while limiting the size of the copied string.
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlUnicodeStringCchCopyStringN(
-  _Out_ PUNICODE_STRING  DestinationString,
-  _In_  NTSTRSAFE_PCWSTR pszSrc,
-  _In_  size_t           cchToCopy
-);
-````
+The <b>RtlUnicodeStringCchCopyStringN</b> function copies a string into a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure while limiting the size of the copied string.
 
 
 ## -parameters
@@ -154,7 +142,7 @@ The <b>RtlUnicodeStringCchCopyN</b> function uses the destination buffer's size 
 
 If the source and destination strings overlap, the behavior of the function is undefined.
 
-The <i>pszSrc </i>and <i>DestinationString</i> pointers cannot be <b>NULL</b>. If you need to handle <b>NULL</b> pointer values, use the <a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringcchcopynex.md">RtlUnicodeStringCchCopyNEx</a> function.
+The <i>pszSrc </i>and <i>DestinationString</i> pointers cannot be <b>NULL</b>. If you need to handle <b>NULL</b> pointer values, use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562931">RtlUnicodeStringCchCopyNEx</a> function.
 
 For more information about the safe string functions, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565508">Using Safe String Functions</a>. 
 
@@ -163,20 +151,19 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringcchcopynex.md">RtlUnicodeStringCchCopyNEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562928">RtlUnicodeStringCchCopyN</a>
 
 
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringcchcopyn.md">RtlUnicodeStringCchCopyN</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562931">RtlUnicodeStringCchCopyNEx</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
  
 
  
-
 

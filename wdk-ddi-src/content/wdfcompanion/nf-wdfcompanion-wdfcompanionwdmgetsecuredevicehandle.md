@@ -54,16 +54,6 @@ req.product: Windows 10 or later.
 			For internal use only.
 
 
-## -syntax
-
-
-````
-HANDLE WdfCompanionWdmGetSecureDeviceHandle(
-  _In_ WDFCOMPANION Companion
-);
-````
-
-
 ## -parameters
 
 

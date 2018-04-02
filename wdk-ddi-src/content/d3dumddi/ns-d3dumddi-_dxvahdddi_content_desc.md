@@ -7,7 +7,7 @@ old-location: display\dxvahdddi_content_desc.htm
 old-project: display
 ms.assetid: 635a4a47-11b8-4d78-871e-21ee438880df
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXVA2_Structs_8b90044d-bce5-49b0-b6ff-be34ab09a62e.xml, DXVAHDDDI_CONTENT_DESC, DXVAHDDDI_CONTENT_DESC structure [Display Devices], _DXVAHDDDI_CONTENT_DESC, d3dumddi/DXVAHDDDI_CONTENT_DESC, display.dxvahdddi_content_desc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,22 +52,6 @@ req.typenames: DXVAHDDDI_CONTENT_DESC
 The DXVAHDDDI_CONTENT_DESC structure describes the video content that a decode device processes. 
 
 
-## -syntax
-
-
-````
-typedef struct _DXVAHDDDI_CONTENT_DESC {
-  DXVAHDDDI_FRAME_FORMAT InputFrameFormat;
-  DXVAHDDDI_RATIONAL     InputFrameRate;
-  UINT                   InputWidth;
-  UINT                   InputHeight;
-  DXVAHDDDI_RATIONAL     OutputFrameRate;
-  UINT                   OutputWidth;
-  UINT                   OutputHeight;
-} DXVAHDDDI_CONTENT_DESC;
-````
-
-
 ## -struct-fields
 
 
@@ -75,13 +59,13 @@ typedef struct _DXVAHDDDI_CONTENT_DESC {
 
 ### -field InputFrameFormat
 
-[in] A <a href="..\d3dumddi\ne-d3dumddi-_dxvahdddi_frame_format.md">DXVAHDDDI_FRAME_FORMAT</a>-typed value that indicates the frame format of the input video stream. 
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff563056">DXVAHDDDI_FRAME_FORMAT</a>-typed value that indicates the frame format of the input video stream. 
 
 
 ### -field InputFrameRate
 
 
-      [in] A <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_rational.md">DXVAHDDDI_RATIONAL</a> structure that specifies a fractional value that represents the frame rate of the input video stream. 
+      [in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff563064">DXVAHDDDI_RATIONAL</a> structure that specifies a fractional value that represents the frame rate of the input video stream. 
      
 
 
@@ -98,7 +82,7 @@ typedef struct _DXVAHDDDI_CONTENT_DESC {
 ### -field OutputFrameRate
 
 
-      [in] A <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_rational.md">DXVAHDDDI_RATIONAL</a> structure that specifies a fractional value that represents the frame rate of the output. 
+      [in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff563064">DXVAHDDDI_RATIONAL</a> structure that specifies a fractional value that represents the frame rate of the output. 
      
 
 
@@ -123,16 +107,15 @@ The driver can use the information in the members of DXVAHDDDI_CONTENT_DESC to o
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_rational.md">DXVAHDDDI_RATIONAL</a>
 
 
 
-<a href="..\d3dumddi\ne-d3dumddi-_dxvahdddi_frame_format.md">DXVAHDDDI_FRAME_FORMAT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563056">DXVAHDDDI_FRAME_FORMAT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563064">DXVAHDDDI_RATIONAL</a>
  
 
  
-
 

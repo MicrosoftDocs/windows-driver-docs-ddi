@@ -55,7 +55,7 @@ Provides the primary method to access PrintCapabilities.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrintSchemaCapabilities</b> interface inherits from <a href="..\printerextension\nn-printerextension-iprintschemaelement.md">IPrintSchemaElement</a>. <b>IPrintSchemaCapabilities</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrintSchemaCapabilities</b> interface inherits from <a href="https://msdn.microsoft.com/library/windows/hardware/hh451270">IPrintSchemaElement</a>. <b>IPrintSchemaCapabilities</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -101,7 +101,7 @@ Gets all the options of a feature.
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451248">GetSelectedOptionInPrintTicket</a>
 </td>
 <td align="left" width="63%">
-Gets the selected option for a feature in <a href="..\printerextension\nn-printerextension-iprintschematicket.md">IPrintSchemaTicket</a>.
+Gets the selected option for a feature in <a href="https://msdn.microsoft.com/library/windows/hardware/hh451398">IPrintSchemaTicket</a>.
 
 </td>
 </tr>
@@ -175,11 +175,6 @@ To obtain an IXMLDOMDocument2 object for the PrintCapabilities object, you must 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/5556BD5E-6489-4CCF-8C62-DDA53AD9F368">IPrintSchemaTicket_GetCapabilities</a>
-
-
-
-<a href="..\printerextension\nn-printerextension-iprintschemaelement.md">IPrintSchemaElement</a>
 
 
 
@@ -187,7 +182,7 @@ To obtain an IXMLDOMDocument2 object for the PrintCapabilities object, you must 
 
 
 
-<a href="..\printerextension\nn-printerextension-iprintschematicket.md">IPrintSchemaTicket</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451270">IPrintSchemaElement</a>
 
 
 
@@ -195,12 +190,16 @@ To obtain an IXMLDOMDocument2 object for the PrintCapabilities object, you must 
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451398">IPrintSchemaTicket</a>
+
+
+
+<a href="https://msdn.microsoft.com/5556BD5E-6489-4CCF-8C62-DDA53AD9F368">IPrintSchemaTicket_GetCapabilities</a>
+
+
+
 <a href="https://msdn.microsoft.com/5C587AF2-C51E-4728-A214-7FC1F8A6E445">V4 Printer Driver Localization</a>
-
-
-
  
 
  
-
 

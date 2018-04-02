@@ -7,7 +7,7 @@ old-location: kernel\rtlushorttoshort.htm
 old-project: kernel
 ms.assetid: 055B5605-2EBB-4B09-9C21-A8288D0DB3CD
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: RtlUShortToShort, RtlUShortToShort function [Kernel-Mode Driver Architecture], kernel.rtlushorttoshort, ntintsafe/RtlUShortToShort
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,17 +50,6 @@ req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 
 
 Converts a value of type <b>USHORT</b> to a value of type <b>SHORT</b>.
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlUShortToShort(
-  _In_  USHORT usOperand,
-  _Out_ SHORT  *psResult
-);
-````
 
 
 ## -parameters

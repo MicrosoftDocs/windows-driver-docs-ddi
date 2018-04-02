@@ -7,7 +7,7 @@ old-location: buses\evt_ucx_roothub_get_20port_info.htm
 old-project: usbref
 ms.assetid: c4a328fb-ffbf-4da4-b52d-6cea58e56b5e
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: EVT_UCX_ROOTHUB_GET_20PORT_INFO, EvtUcxRootHubGet20PortInfo, EvtUcxRootHubGet20PortInfo callback function [Buses], PEVT_UCX_ROOTHUB_GET_20PORT_INFO, PEVT_UCX_ROOTHUB_GET_20PORT_INFO callback function pointer [Buses], buses.evt_ucx_roothub_get_20port_info, ucxroothub/EvtUcxRootHubGet20PortInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,22 +53,6 @@ req.product: Windows 10 or later.
 The client driver's implementation that UCX calls when it receives a request for information about USB  2.0 ports on the  root hub.
 
 
-## -prototype
-
-
-````
-EVT_UCX_ROOTHUB_GET_20PORT_INFO EvtUcxRootHubGet20PortInfo;
-
-VOID EvtUcxRootHubGet20PortInfo(
-  _In_ UCXROOTHUB UcxRootHub,
-  _In_ WDFREQUEST Request
-)
-{ ... }
-
-typedef EVT_UCX_ROOTHUB_GET_20PORT_INFO PEVT_UCX_ROOTHUB_GET_20PORT_INFO;
-````
-
-
 ## -parameters
 
 
@@ -81,7 +65,7 @@ A handle to a UCX object that represents the root hub.
 
 ### -param Request [in]
 
-A structure of type <a href="..\ucxroothub\ns-ucxroothub-_roothub_20port_info.md">_ROOTHUB_20PORT_INFO</a>.
+A structure of type <a href="https://msdn.microsoft.com/AA71D015-B047-497C-A9E1-32E5E73AD0C2">_ROOTHUB_20PORT_INFO</a>.
 
 
 ## -returns
@@ -100,7 +84,7 @@ This callback function does not return a value.
 The UCX client driver registers this callback function with the USB host controller extension (UCX) by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/mt188048">UcxRootHubCreate</a>
  method.
 
- The <b>PortInfoArray</b> array of the <a href="..\ucxroothub\ns-ucxroothub-_roothub_20ports_info.md">_ROOTHUB_20PORTS_INFO</a> structure
+ The <b>PortInfoArray</b> array of the <a href="https://msdn.microsoft.com/FBFDF368-8DB9-4ACE-851D-6A178FB3E019">_ROOTHUB_20PORTS_INFO</a> structure
     contains a list of USB 2.0 ports that the root hub supports.
 
 The client driver returns completion status in <i>Request</i> and in the USBD_STATUS
@@ -179,12 +163,11 @@ RootHub_EvtRootHubGet20PortInfoEnd:
 
 ## -see-also
 
-<a href="..\ucxroothub\ns-ucxroothub-_roothub_20ports_info.md">_ROOTHUB_20PORTS_INFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/FBFDF368-8DB9-4ACE-851D-6A178FB3E019">_ROOTHUB_20PORTS_INFO</a>
  
 
  
-
 

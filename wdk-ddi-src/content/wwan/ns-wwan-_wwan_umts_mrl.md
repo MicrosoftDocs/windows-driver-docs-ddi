@@ -7,7 +7,7 @@ old-location: netvista\wwan_umts_mrl.htm
 old-project: netvista
 ms.assetid: B62F63EB-747A-4672-9A79-5065A8BC04D1
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PWWAN_UMTS_MRL, PWWAN_UMTS_MRL, PWWAN_UMTS_MRL structure pointer [Network Drivers Starting with Windows Vista], WWAN_UMTS_MRL, WWAN_UMTS_MRL structure [Network Drivers Starting with Windows Vista], _WWAN_UMTS_MRL, netvista.wwan_umts_mrl, wwan/PWWAN_UMTS_MRL, wwan/WWAN_UMTS_MRL"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The <b>WWAN_UMTS_MRL</b> structure contains the measured results list (MRL) of neighboring UMTS cells.
 
 
-## -syntax
-
-
-````
-typedef struct _WWAN_UMTS_MRL {
-  ULONG ElementCount;
-  BYTE  UMTSMrl[ANYSIZE_ARRAY];
-} WWAN_UMTS_MRL, *PWWAN_UMTS_MRL;
-````
-
-
 ## -struct-fields
 
 
@@ -83,16 +72,11 @@ The count of MRL entries following this member.
 
 #### - UMTSMrl[ANYSIZE_ARRAY]
 
-The array of MRL records, each specified as a <a href="..\wwan\ns-wwan-_wwan_umts_mrl_info.md">WWAN_UMTS_MRL_INFO</a> structure.
+The array of MRL records, each specified as a <a href="https://msdn.microsoft.com/C1129291-D0E7-48F6-B317-1A0BCB6D25DC">WWAN_UMTS_MRL_INFO</a> structure.
 
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_umts_mrl_info.md">WWAN_UMTS_MRL_INFO</a>
-
-
-
-<a href="..\wwan\ns-wwan-_wwan_umts_serving_cell_info.md">WWAN_UMTS_SERVING_CELL_INFO</a>
 
 
 
@@ -100,12 +84,16 @@ The array of MRL records, each specified as a <a href="..\wwan\ns-wwan-_wwan_umt
 
 
 
-<a href="..\wwan\ns-wwan-_wwan_base_stations_info.md">WWAN_BASE_STATIONS_INFO</a>
+<a href="https://msdn.microsoft.com/66460B28-C2B4-4F05-A133-31A753AF9489">WWAN_BASE_STATIONS_INFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/C1129291-D0E7-48F6-B317-1A0BCB6D25DC">WWAN_UMTS_MRL_INFO</a>
+
+
+
+<a href="https://msdn.microsoft.com/62257D65-DCB9-43C3-A862-DAB31C27EF0A">WWAN_UMTS_SERVING_CELL_INFO</a>
  
 
  
-
 

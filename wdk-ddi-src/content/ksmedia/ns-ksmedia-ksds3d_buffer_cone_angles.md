@@ -7,7 +7,7 @@ old-location: audio\ksds3d_buffer_cone_angles.htm
 old-project: audio
 ms.assetid: 702d3698-396d-4609-a082-74290d2ccb41
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/19/2018
 ms.keywords: "*PKSDS3D_BUFFER_CONE_ANGLES, KSDS3D_BUFFER_CONE_ANGLES, KSDS3D_BUFFER_CONE_ANGLES structure [Audio Devices], PKSDS3D_BUFFER_CONE_ANGLES, PKSDS3D_BUFFER_CONE_ANGLES structure pointer [Audio Devices], aud-prop_6b484499-7859-4c81-828d-35c2dc0dc070.xml, audio.ksds3d_buffer_cone_angles, ksmedia/KSDS3D_BUFFER_CONE_ANGLES, ksmedia/PKSDS3D_BUFFER_CONE_ANGLES"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,17 +52,6 @@ req.typenames: KSDS3D_BUFFER_CONE_ANGLES, *PKSDS3D_BUFFER_CONE_ANGLES
 A KSDS3D_BUFFER_CONE_ANGLES structure specifies the inside and outside cone angles.
 
 
-## -syntax
-
-
-````
-typedef struct {
-  ULONG InsideConeAngle;
-  ULONG OutsideConeAngle;
-} KSDS3D_BUFFER_CONE_ANGLES, *PKSDS3D_BUFFER_CONE_ANGLES;
-````
-
-
 ## -struct-fields
 
 
@@ -89,12 +78,11 @@ This structure is used to set or get the data value for the <a href="https://msd
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537318">KSPROPERTY_DIRECTSOUND3DBUFFER_CONEANGLES</a>
-
-
-
  
 
  
-
 

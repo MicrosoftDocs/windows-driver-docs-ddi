@@ -7,7 +7,7 @@ old-location: netvista\wsk_datagram_indication.htm
 old-project: netvista
 ms.assetid: 061db3ca-80ed-419e-8cca-f49d1498b780
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PWSK_DATAGRAM_INDICATION, PWSK_DATAGRAM_INDICATION, PWSK_DATAGRAM_INDICATION structure pointer [Network Drivers Starting with Windows Vista], WSK_DATAGRAM_INDICATION, WSK_DATAGRAM_INDICATION structure [Network Drivers Starting with Windows Vista], _WSK_DATAGRAM_INDICATION, netvista.wsk_datagram_indication, wsk/PWSK_DATAGRAM_INDICATION, wsk/WSK_DATAGRAM_INDICATION, wskref_1e0fb168-6e03-4b73-8bb4-e3bce0c94b02.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,20 +52,6 @@ req.product: Windows 10 or later.
 
 The WSK_DATAGRAM_INDICATION structure describes a datagram that has been received on a datagram
   socket.
-
-
-## -syntax
-
-
-````
-typedef struct _WSK_DATAGRAM_INDICATION {
-  struct _WSK_DATAGRAM_INDICATION  *Next;
-  WSK_BUF                         Buffer;
-  PCMSGHDR                        ControlInfo;
-  ULONG                           ControlInfoLength;
-  PSOCKADDR                       RemoteAddress;
-} WSK_DATAGRAM_INDICATION, *PWSK_DATAGRAM_INDICATION;
-````
 
 
 ## -struct-fields
@@ -113,7 +99,7 @@ A pointer to a buffer that contains the remote transport address from which the 
 
 The WSK subsystem passes a pointer to a WSK_DATAGRAM_INDICATION structure as the 
     <i>DataIndication</i> parameter when it calls a datagram socket's 
-    <a href="..\wsk\nc-wsk-pfn_wsk_receive_from_event.md">WskReceiveFromEvent</a> event callback
+    <a href="https://msdn.microsoft.com/1cdb8a70-54fe-44a6-a16c-71cbf6a49ef2">WskReceiveFromEvent</a> event callback
     function.
 
 
@@ -121,7 +107,6 @@ The WSK subsystem passes a pointer to a WSK_DATAGRAM_INDICATION structure as the
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">SOCKADDR</a>
 
 
 
@@ -129,20 +114,20 @@ The WSK subsystem passes a pointer to a WSK_DATAGRAM_INDICATION structure as the
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_receive_from_event.md">WskReceiveFromEvent</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">SOCKADDR</a>
 
 
 
-<a href="..\wsk\ns-wsk-_wsk_buf.md">WSK_BUF</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571153">WSK_BUF</a>
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_release_data_indication_list.md">WskRelease</a>
+<a href="https://msdn.microsoft.com/1cdb8a70-54fe-44a6-a16c-71cbf6a49ef2">WskReceiveFromEvent</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571144">WskRelease</a>
  
 
  
-
 

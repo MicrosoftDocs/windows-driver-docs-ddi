@@ -7,7 +7,7 @@ old-location: netvista\ndk_fn_create_completion.htm
 old-project: netvista
 ms.assetid: C7A2792C-FDAE-4525-A8B1-7F8F6BA8249A
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NDK_FN_CREATE_COMPLETION, NdkCreateCompletion, NdkCreateCompletion callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkCreateCompletion, netvista.ndk_fn_create_completion
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,21 +52,6 @@ req.typenames: NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS
 The <i>NdkCreateCompletion</i> (<i>NDK_FN_CREATE_COMPLETION</i>) function completes the creation of an NDK object.
 
 
-## -prototype
-
-
-````
-NDK_FN_CREATE_COMPLETION NdkCreateCompletion;
-
-VOID NdkCreateCompletion(
-  _In_opt_ PVOID             Context,
-  _In_     NTSTATUS          Status,
-  _In_     NDK_OBJECT_HEADER *pNdkObject
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -79,12 +64,12 @@ The context value passed to the NDK provider when a consumer calls an object cre
 
 ### -param Status [in]
 
-The asynchronous completion status for the create request. See the object creation functions (for example, <a href="..\ndkpi\nc-ndkpi-ndk_fn_create_cq.md">NDK_FN_CREATE_CQ</a>) for completion status codes that can be returned for each type of object.
+The asynchronous completion status for the create request. See the object creation functions (for example, <a href="https://msdn.microsoft.com/library/windows/hardware/hh439873">NDK_FN_CREATE_CQ</a>) for completion status codes that can be returned for each type of object.
 
 
 ### -param *pNdkObject [in]
 
-A pointer to an NDK object header (<a href="..\ndkpi\ns-ndkpi-_ndk_object_header.md">NDK_OBJECT_HEADER</a>).
+A pointer to an NDK object header (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439928">NDK_OBJECT_HEADER</a>).
 
 
 ## -returns
@@ -115,11 +100,6 @@ For create requests that return STATUS_PENDING and later complete with STATUS_SU
 
 ## -see-also
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_connector.md">NDK_FN_CREATE_CONNECTOR</a>
-
-
-
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_shared_endpoint.md">NDK_FN_CREATE_SHARED_ENDPOINT</a>
 
 
 
@@ -127,44 +107,48 @@ For create requests that return STATUS_PENDING and later complete with STATUS_SU
 
 
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_mw.md">NDK_FN_CREATE_MW</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439872">NDK_FN_CREATE_CONNECTOR</a>
 
 
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_mr.md">NDK_FN_CREATE_MR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439873">NDK_FN_CREATE_CQ</a>
 
 
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_srq.md">NDK_FN_CREATE_SRQ</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439874">NDK_FN_CREATE_LISTENER</a>
 
 
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_qp.md">NDK_FN_CREATE_QP</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439875">NDK_FN_CREATE_MR</a>
 
 
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_cq.md">NDK_FN_CREATE_CQ</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439876">NDK_FN_CREATE_MW</a>
 
 
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_qp_with_srq.md">NDK_FN_CREATE_QP_WITH_SRQ</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439877">NDK_FN_CREATE_PD</a>
 
 
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_pd.md">NDK_FN_CREATE_PD</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439878">NDK_FN_CREATE_QP</a>
 
 
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_listener.md">NDK_FN_CREATE_LISTENER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439880">NDK_FN_CREATE_QP_WITH_SRQ</a>
 
 
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_object_header.md">NDK_OBJECT_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439882">NDK_FN_CREATE_SHARED_ENDPOINT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439883">NDK_FN_CREATE_SRQ</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439928">NDK_OBJECT_HEADER</a>
  
 
  
-
 

@@ -52,31 +52,6 @@ req.typenames: COMPROPSHEETUI, *PCOMPROPSHEETUI
 The COMPROPSHEETUI structure is used as an input parameter to CPSUI's <a href="https://msdn.microsoft.com/library/windows/hardware/ff546207">ComPropSheet</a> function, if the function code is <a href="https://msdn.microsoft.com/library/windows/hardware/ff546388">CPSFUNC_ADD_PCOMPROPSHEETUI</a>. All structure members must be supplied by the caller of <i>ComPropSheet</i>.
 
 
-## -syntax
-
-
-````
-typedef struct _COMPROPSHEETUI {
-  WORD           cbSize;
-  WORD           Flags;
-  HINSTANCE      hInstCaller;
-  LPTSTR         pCallerName;
-  ULONG_PTR      UserData;
-  LPTSTR         pHelpFile;
-  _CPSUICALLBACK pfnCallBack;
-  POPTITEM       pOptItem;
-  PDLGPAGE       pDlgPage;
-  WORD           cOptItem;
-  WORD           cDlgPage;
-  ULONG_PTR      IconID;
-  LPTSTR         pOptItemName;
-  WORD           CallerVersion;
-  WORD           OptItemVersion;
-  ULONG_PTR      dwReserved[4];
-} COMPROPSHEETUI, *PCOMPROPSHEETUI;
-````
-
-
 ## -struct-fields
 
 
@@ -130,31 +105,31 @@ Caller-supplied pointer to a NULL-terminated text string representing the applic
 
 ### -field UserData
 
-Optional caller-supplied value, which CPSUI places in a <a href="..\compstui\ns-compstui-_cpsuicbparam.md">CPSUICBPARAM</a> structure's <b>UserData</b> member when calling the function pointed to by <b>pfnCallBack</b>.
+Optional caller-supplied value, which CPSUI places in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547088">CPSUICBPARAM</a> structure's <b>UserData</b> member when calling the function pointed to by <b>pfnCallBack</b>.
 
 
 ### -field pHelpFile
 
 Caller-supplied pointer to a NULL-terminated text string representing a path to a help file. For printer interface DLLs, this is typically the help file path obtained by calling GetPrinterDriver (described in the Microsoft Windows SDK documentation).
 
-The help file is indexed by values contained in the <b>HelpIndex</b> member of <a href="..\compstui\ns-compstui-_optitem.md">OPTITEM</a> structures.
+The help file is indexed by values contained in the <b>HelpIndex</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff559656">OPTITEM</a> structures.
 
 
 ### -field pfnCallBack
 
-Caller-supplied pointer to a <a href="..\compstui\nc-compstui-_cpsuicallback.md">_CPSUICALLBACK</a>-typed callback function, which CPSUI calls when a user modifies the page's option values.
+Caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564313">_CPSUICALLBACK</a>-typed callback function, which CPSUI calls when a user modifies the page's option values.
 
-Can be used only if <b>pDlgPage</b> identifies a CPSUI-supplied <a href="..\compstui\ns-compstui-_dlgpage.md">DLGPAGE</a> structure, or if the <b>DlgProc</b> member of an application-supplied DLGPAGE structure is <b>NULL</b>.
+Can be used only if <b>pDlgPage</b> identifies a CPSUI-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff547607">DLGPAGE</a> structure, or if the <b>DlgProc</b> member of an application-supplied DLGPAGE structure is <b>NULL</b>.
 
 
 ### -field pOptItem
 
-Caller-supplied pointer to an array of <a href="..\compstui\ns-compstui-_optitem.md">OPTITEM</a> structures describing the page's options.
+Caller-supplied pointer to an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff559656">OPTITEM</a> structures describing the page's options.
 
 
 ### -field pDlgPage
 
-This member specifies <a href="..\compstui\ns-compstui-_dlgpage.md">DLGPAGE</a> structures that describe pages to be added to the property sheet. It can be either of the following:
+This member specifies <a href="https://msdn.microsoft.com/library/windows/hardware/ff547607">DLGPAGE</a> structures that describe pages to be added to the property sheet. It can be either of the following:
 
 <ul>
 <li>
@@ -169,7 +144,7 @@ One of the pointers that is described in the following list. These pointers refe
 <dd>
 Defines one treeview page whose tab reads <b>Advanced</b>.
 
-For use only by a <a href="..\winddiui\nf-winddiui-drvdocumentpropertysheets.md">DrvDocumentPropertySheets</a> function.
+For use only by a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548548">DrvDocumentPropertySheets</a> function.
 
 </dd>
 </dl>
@@ -180,7 +155,7 @@ For use only by a <a href="..\winddiui\nf-winddiui-drvdocumentpropertysheets.md"
 <dd>
 Defines three pages, whose tabs are <b>Layout</b>, <b>Paper/Quality</b>, and <b>Advanced</b>. The <b>Advanced</b> page is a treeview.
 
-For use only by a <a href="..\winddiui\nf-winddiui-drvdocumentpropertysheets.md">DrvDocumentPropertySheets</a> function.
+For use only by a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548548">DrvDocumentPropertySheets</a> function.
 
 </dd>
 </dl>
@@ -191,7 +166,7 @@ For use only by a <a href="..\winddiui\nf-winddiui-drvdocumentpropertysheets.md"
 <dd>
 Defines one treeview page whose tab reads <b>Device Settings</b>.
 
-For use only by a <a href="..\winddiui\nf-winddiui-drvdevicepropertysheets.md">DrvDevicePropertySheets</a> function.
+For use only by a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548542">DrvDevicePropertySheets</a> function.
 
 </dd>
 </dl>
@@ -211,12 +186,12 @@ Defines one treeview page.
 
 ### -field cOptItem
 
-Caller-supplied number of <a href="..\compstui\ns-compstui-_optitem.md">OPTITEM</a> structures pointed to by <b>pOptItem</b>.
+Caller-supplied number of <a href="https://msdn.microsoft.com/library/windows/hardware/ff559656">OPTITEM</a> structures pointed to by <b>pOptItem</b>.
 
 
 ### -field cDlgPage
 
-Caller-supplied number of <a href="..\compstui\ns-compstui-_dlgpage.md">DLGPAGE</a> structures pointed to by <b>pDlgPage</b>. Not used if <b>pDlgPage</b> specifies a predefined CPSUI_PDLGPAGE-prefixed structure.
+Caller-supplied number of <a href="https://msdn.microsoft.com/library/windows/hardware/ff547607">DLGPAGE</a> structures pointed to by <b>pDlgPage</b>. Not used if <b>pDlgPage</b> specifies a predefined CPSUI_PDLGPAGE-prefixed structure.
 
 
 ### -field IconID

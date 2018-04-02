@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 The class driver calls the minidriver's <i>StrMiniCancelPacket</i> routine to signal that a stream request has been canceled.
 
 
-## -prototype
-
-
-````
-PHW_CANCEL_SRB StrMiniCancelPacket;
-
-VOID StrMiniCancelPacket(
-  _In_ PHW_STREAM_REQUEST_BLOCK pSrb
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -98,9 +85,9 @@ None
 
 
 
-The minidriver specifies this routine in the <b>HwCancelPacket</b> member of its <a href="..\strmini\ns-strmini-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a> structure. The minidriver passes this structure to the class driver when it registers itself by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff568263">StreamClassRegisterMinidriver</a>.
+The minidriver specifies this routine in the <b>HwCancelPacket</b> member of its <a href="https://msdn.microsoft.com/library/windows/hardware/ff559682">HW_INITIALIZATION_DATA</a> structure. The minidriver passes this structure to the class driver when it registers itself by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff568263">StreamClassRegisterMinidriver</a>.
 
-Minidrivers that rely on the class driver to handle synchronization should, once they have successfully canceled a request, signal to the class driver that they are ready for another request by using <a href="..\strmini\nf-strmini-streamclassstreamnotification.md">StreamClassStreamNotification</a> or <a href="..\strmini\nf-strmini-streamclassdevicenotification.md">StreamClassDeviceNotification</a> with the appropriate <b>ReadyForNext</b><i>Xxx</i><b>Request</b>.
+Minidrivers that rely on the class driver to handle synchronization should, once they have successfully canceled a request, signal to the class driver that they are ready for another request by using <a href="https://msdn.microsoft.com/library/windows/hardware/ff568266">StreamClassStreamNotification</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff568239">StreamClassDeviceNotification</a> with the appropriate <b>ReadyForNext</b><i>Xxx</i><b>Request</b>.
 
 
 

@@ -7,7 +7,7 @@ old-location: netvista\ndiswriteeventlogentry.htm
 old-project: netvista
 ms.assetid: 1f3fbcf1-e6f4-4117-a795-f4b14ef9fc96
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NdisWriteEventLogEntry, NdisWriteEventLogEntry function [Network Drivers Starting with Windows Vista], miniport_logging_ref_435a14ad-ae5a-4ff9-80a9-2c41966ed8ba.xml, ndis/NdisWriteEventLogEntry, netvista.ndiswriteeventlogentry
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,22 +51,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 
 
 <b>NdisWriteEventLogEntry</b> logs an event to the Win32 event log.
-
-
-## -syntax
-
-
-````
-NDIS_STATUS NdisWriteEventLogEntry(
-  _In_     PVOID       LogHandle,
-  _In_     NDIS_STATUS EventCode,
-  _In_     ULONG       UniqueEventValue,
-  _In_     USHORT      NumStrings,
-  _In_opt_ PVOID       StringsList,
-  _In_     ULONG       DataSize,
-  _In_opt_ PVOID       Data
-);
-````
 
 
 ## -parameters
@@ -205,24 +189,23 @@ The system limits the total size of the optional data supplied to
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_reset.md">MiniportResetEx</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
+<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<a href="https://msdn.microsoft.com/15f82163-a1b5-4cef-a53e-8a97adb2cd92">MiniportResetEx</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiswriteerrorlogentry.md">NdisWriteErrorLogEntry</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563672">NdisMSetMiniportAttributes</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564663">NdisWriteErrorLogEntry</a>
  
 
  
-
 

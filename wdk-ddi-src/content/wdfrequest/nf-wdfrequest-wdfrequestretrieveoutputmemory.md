@@ -58,17 +58,6 @@ req.product: Windows 10 or later.
 The <b>WdfRequestRetrieveOutputMemory</b> method retrieves a handle to a framework memory object that represents an I/O request's output buffer.
 
 
-## -syntax
-
-
-````
-NTSTATUS WdfRequestRetrieveOutputMemory(
-  _In_  WDFREQUEST Request,
-  _Out_ WDFMEMORY  *Memory
-);
-````
-
-
 ## -parameters
 
 
@@ -171,18 +160,18 @@ A request's output buffer receives information, such as data from a disk, that t
 
 The <b>WdfRequestRetrieveOutputMemory</b> method retrieves the output buffer for I/O requests that use the <a href="https://msdn.microsoft.com/f95a0aec-65f9-44c9-8ae5-11bb4d832752">buffered I/O</a> method or the <a href="https://msdn.microsoft.com/f95a0aec-65f9-44c9-8ae5-11bb4d832752">direct I/O</a> method for accessing data buffers. If the request's I/O control code is <a href="https://msdn.microsoft.com/library/windows/hardware/ff550766">IRP_MJ_INTERNAL_DEVICE_CONTROL</a>, or if the request came from another kernel-mode driver, <b>WdfRequestRetrieveOutputMemory</b> also supports I/O requests that use <a href="https://msdn.microsoft.com/f95a0aec-65f9-44c9-8ae5-11bb4d832752">neither buffered nor direct I/O</a>. 
 
-If <b>WdfRequestRetrieveOutputMemory</b> returns STATUS_SUCCESS, the driver receives a handle to a framework memory object that represents the output buffer. To access the buffer, the driver must call <a href="..\wdfmemory\nf-wdfmemory-wdfmemorygetbuffer.md">WdfMemoryGetBuffer</a>. 
+If <b>WdfRequestRetrieveOutputMemory</b> returns STATUS_SUCCESS, the driver receives a handle to a framework memory object that represents the output buffer. To access the buffer, the driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff548715">WdfMemoryGetBuffer</a>. 
 
 The driver can access the retrieved framework memory object until it <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/completing-i-o-requests">completes the I/O request</a> that the <i>Request</i> parameter represents.
 
-Instead of calling <b>WdfRequestRetrieveOutputMemory</b>, the driver can call <a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveoutputbuffer.md">WdfRequestRetrieveOutputBuffer</a>, which retrieves the buffer's address and length.
+Instead of calling <b>WdfRequestRetrieveOutputMemory</b>, the driver can call <a href="https://msdn.microsoft.com/library/windows/hardware/ff550018">WdfRequestRetrieveOutputBuffer</a>, which retrieves the buffer's address and length.
 
 For more information about <b>WdfRequestRetrieveOutputMemory</b>, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/accessing-data-buffers-in-wdf-drivers">Accessing Data Buffers in Framework-Based Drivers</a>.
 
 
 #### Examples
 
-The following code example shows how an <a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_io_read.md">EvtIoRead</a> callback function can obtain a handle to the framework memory object that represents a read request's output buffer. The example then formats and sends the read request to a USB I/O target. 
+The following code example shows how an <a href="https://msdn.microsoft.com/d6fbb153-1355-4e94-b5d3-a218bd8c565d">EvtIoRead</a> callback function can obtain a handle to the framework memory object that represents a read request's output buffer. The example then formats and sends the read request to a USB I/O target. 
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -268,20 +257,19 @@ Exit:
 
 ## -see-also
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveinputmemory.md">WdfRequestRetrieveInputMemory</a>
 
 
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveoutputbuffer.md">WdfRequestRetrieveOutputBuffer</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548715">WdfMemoryGetBuffer</a>
 
 
 
-<a href="..\wdfmemory\nf-wdfmemory-wdfmemorygetbuffer.md">WdfMemoryGetBuffer</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550015">WdfRequestRetrieveInputMemory</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550018">WdfRequestRetrieveOutputBuffer</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: audio\iminiportstreamaudioenginenode_setstreamchannelvolume.htm
 old-project: audio
 ms.assetid: 0110979E-8C57-4394-B43E-BCC7B178A0AF
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/19/2018
 ms.keywords: IMiniportStreamAudioEngineNode, IMiniportStreamAudioEngineNode interface [Audio Devices], SetStreamChannelVolume method, IMiniportStreamAudioEngineNode::SetStreamChannelVolume, SetStreamChannelVolume method [Audio Devices], SetStreamChannelVolume method [Audio Devices], IMiniportStreamAudioEngineNode interface, SetStreamChannelVolume,IMiniportStreamAudioEngineNode.SetStreamChannelVolume, audio.iminiportstreamaudioenginenode_setstreamchannelvolume, portcls/IMiniportStreamAudioEngineNode::SetStreamChannelVolume
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,19 +52,6 @@ req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 Sets the volume level to be applied to the audio stream.
 
 
-## -syntax
-
-
-````
-NTSTATUS SetStreamChannelVolume(
-  [in] UINT32           Channel,
-  [in] LONG             TargetVolume,
-  [in] AUDIO_CURVE_TYPE CurveType,
-  [in] ULONGLONG        CurveDuration
-);
-````
-
-
 ## -parameters
 
 
@@ -82,7 +69,7 @@ The volume level to be applied to the audio stream.
 
 ### -param CurveType [in]
 
-The curve algorithm that will be used  to set the volume level. The curve types are represented by the members of the <a href="..\ksmedia\ne-ksmedia-audio_curve_type.md">AUDIO_CURVE_TYPE</a> enum.
+The curve algorithm that will be used  to set the volume level. The curve types are represented by the members of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh831852">AUDIO_CURVE_TYPE</a> enum.
 
 
 ### -param CurveDuration [in]
@@ -103,12 +90,11 @@ code.
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iminiportstreamaudioenginenode.md">IMiniportStreamAudioEngineNode</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265090">IMiniportStreamAudioEngineNode</a>
  
 
  
-
 

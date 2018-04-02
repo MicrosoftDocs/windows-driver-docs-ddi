@@ -7,7 +7,7 @@ old-location: display\stateset.htm
 old-project: display
 ms.assetid: 2c298de6-a3d9-45c7-ab60-dc9124eed1bb
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3DDDI_STATESET, StateSet, StateSet callback function [Display Devices], UserModeDisplayDriver_Functions_ca9843ce-a32d-4d81-844a-213b7fe6c6e0.xml, d3dumddi/StateSet, display.stateset
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,20 +52,6 @@ req.typenames: DXGK_PTE
 The <i>StateSet</i> function sets a state block.
 
 
-## -prototype
-
-
-````
-PFND3DDDI_STATESET StateSet;
-
-__checkReturn HRESULT APIENTRY StateSet(
-  _In_ HANDLE             hDevice,
-  _In_ D3DDDIARG_STATESET *pData
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -87,7 +73,7 @@ __checkReturn HRESULT APIENTRY StateSet(
 
 #### - pData [in]
 
- A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_stateset.md">D3DDDIARG_STATESET</a> structure that describes how to set the state block.
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543380">D3DDDIARG_STATESET</a> structure that describes how to set the state block.
 
 
 ## -returns
@@ -101,16 +87,15 @@ __checkReturn HRESULT APIENTRY StateSet(
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_stateset.md">D3DDDIARG_STATESET</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543380">D3DDDIARG_STATESET</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544519">D3DDDI_DEVICEFUNCS</a>
  
 
  
-
 

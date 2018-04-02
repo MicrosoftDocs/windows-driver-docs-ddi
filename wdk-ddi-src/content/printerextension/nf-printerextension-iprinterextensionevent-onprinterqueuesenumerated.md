@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 Called when printer queues are enumerated.
 
 
-## -syntax
-
-
-````
-HRESULT OnPrinterQueuesEnumerated(
-  [in] IPrinterExtensionContextCollection *pContextCollection
-);
-````
-
-
 ## -parameters
 
 
@@ -70,7 +60,7 @@ HRESULT OnPrinterQueuesEnumerated(
 
 ### -param pContextCollection [in]
 
-Pointer to <a href="..\printerextension\nn-printerextension-iprinterextensioncontextcollection.md">IPrinterExtensionContextCollection</a> object.
+Pointer to <a href="https://msdn.microsoft.com/library/windows/hardware/hh846191">IPrinterExtensionContextCollection</a> object.
 
 
 ## -returns
@@ -93,20 +83,19 @@ This method returns an <b>HRESULT</b> value.
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprinterextensioncontextcollection.md">IPrinterExtensionContextCollection</a>
 
 
 
-<a href="..\printerextension\nn-printerextension-iprinterextensioncontext.md">IPrinterExtensionContext</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406649">IPrinterExtensionContext</a>
 
 
 
-<a href="..\printerextension\nn-printerextension-iprinterextensionevent.md">IPrinterExtensionEvent</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh846191">IPrinterExtensionContextCollection</a>
 
 
 
+<a href="https://msdn.microsoft.com/A0F4DB51-D68E-4516-833A-7E984247796B">IPrinterExtensionEvent</a>
  
 
  
-
 

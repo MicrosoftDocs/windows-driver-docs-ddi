@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: Microsoft.WDTF
 req.assembly: WDTF.Interop.metadata_dll
 req.type-library: 
-req.lib: 
+req.lib: wdtf.h
 req.dll: 
 req.irql: 
 topic_type:

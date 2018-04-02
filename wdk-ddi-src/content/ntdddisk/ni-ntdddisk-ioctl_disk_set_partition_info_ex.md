@@ -7,7 +7,7 @@ old-location: storage\ioctl_disk_set_partition_info_ex.htm
 old-project: storage
 ms.assetid: 80558175-4d34-4011-a5b3-b6475b5e0d15
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_DISK_SET_PARTITION_INFO_EX, IOCTL_DISK_SET_PARTITION_INFO_EX control code [Storage Devices], k307_5fc1358c-2216-41c9-a934-9a5cbed9a6fc.xml, ntdddisk/IOCTL_DISK_SET_PARTITION_INFO_EX, storage.ioctl_disk_set_partition_info_ex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -62,7 +62,7 @@ Changes the partition type of the specified disk partition. (Floppy drivers need
 
 ### -input-buffer
 
-The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains the <a href="..\ntdddisk\ns-ntdddisk-_set_partition_information_ex.md">SET_PARTITION_INFORMATION_EX</a> to be set. 
+The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566194">SET_PARTITION_INFORMATION_EX</a> to be set. 
 
 
 ### -input-buffer-length
@@ -105,12 +105,11 @@ The <b>Information</b> field is set to zero. The <b>Status</b> field can be set 
 
 ## -see-also
 
-<a href="..\ntdddisk\ns-ntdddisk-_set_partition_information_ex.md">SET_PARTITION_INFORMATION_EX</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566194">SET_PARTITION_INFORMATION_EX</a>
  
 
  
-
 

@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 The PCW_COUNTER_DESCRIPTOR structure supplies details about the notification to send.
 
 
-## -syntax
-
-
-````
-typedef struct _PCW_COUNTER_DESCRIPTOR {
-  USHORT Id;
-  USHORT StructIndex;
-  USHORT Offset;
-  USHORT Size;
-} PCW_COUNTER_DESCRIPTOR, *PPCW_COUNTER_DESCRIPTOR;
-````
-
-
 ## -struct-fields
 
 

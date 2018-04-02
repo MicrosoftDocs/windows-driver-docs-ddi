@@ -58,16 +58,6 @@ req.product: Windows 10 or later.
 The <b>WdfRequestGetStatus</b> method returns the status of an I/O request.
 
 
-## -syntax
-
-
-````
-NTSTATUS WdfRequestGetStatus(
-  _In_ WDFREQUEST Request
-);
-````
-
-
 ## -parameters
 
 
@@ -99,22 +89,22 @@ The <b>WdfRequestGetStatus</b> method returns one of the following:
 
 <ul>
 <li>
-If a driver's call to <a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a> succeeds, <b>WdfRequestGetStatus</b> returns the status value that is set by the driver that calls <a href="..\wdfrequest\nf-wdfrequest-wdfrequestcomplete.md">WdfRequestComplete</a> to complete the specified request. The driver typically calls <b>WdfRequestGetStatus</b> from within a <a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_completion_routine.md">CompletionRoutine</a> callback function.
+If a driver's call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff550027">WdfRequestSend</a> succeeds, <b>WdfRequestGetStatus</b> returns the status value that is set by the driver that calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff549945">WdfRequestComplete</a> to complete the specified request. The driver typically calls <b>WdfRequestGetStatus</b> from within a <a href="https://msdn.microsoft.com/7d3eb4d6-9fc7-4924-9b95-f5824713049b">CompletionRoutine</a> callback function.
 
 </li>
 <li>
-If a driver's call to <a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a> fails, <b>WdfRequestGetStatus</b> returns a status value that the framework has set to describe the failure. The driver can call <b>WdfRequestGetStatus</b> immediately after calling <b>WdfRequestSend</b>.
+If a driver's call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff550027">WdfRequestSend</a> fails, <b>WdfRequestGetStatus</b> returns a status value that the framework has set to describe the failure. The driver can call <b>WdfRequestGetStatus</b> immediately after calling <b>WdfRequestSend</b>.
 
 </li>
 </ul>
-If the driver sets the <a href="..\wdfrequest\ne-wdfrequest-_wdf_request_send_options_flags.md">WDF_REQUEST_SEND_OPTION_SYNCHRONOUS</a> flag for a request when calling <a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a>, the driver can call <b>WdfRequestGetStatus</b> immediately after calling <b>WdfRequestSend</b>, whether the call to <b>WdfRequestSend</b> succeeds or fails.
+If the driver sets the <a href="https://msdn.microsoft.com/68be1034-62f0-4444-b4c9-097277a7561f">WDF_REQUEST_SEND_OPTION_SYNCHRONOUS</a> flag for a request when calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff550027">WdfRequestSend</a>, the driver can call <b>WdfRequestGetStatus</b> immediately after calling <b>WdfRequestSend</b>, whether the call to <b>WdfRequestSend</b> succeeds or fails.
 
 For more information about request completion, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/completing-i-o-requests">Completing I/O Requests</a>.
 
 
 #### Examples
 
-The following code example is from the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/sample-kmdf-drivers">KbFiltr</a> sample driver. This example sends an I/O request to an I/O target. If <a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a> fails, the example uses the <b>WdfRequestGetStatus</b> return value as input to <a href="..\wdfrequest\nf-wdfrequest-wdfrequestcomplete.md">WdfRequestComplete</a>. 
+The following code example is from the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/sample-kmdf-drivers">KbFiltr</a> sample driver. This example sends an I/O request to an I/O target. If <a href="https://msdn.microsoft.com/library/windows/hardware/ff550027">WdfRequestSend</a> fails, the example uses the <b>WdfRequestGetStatus</b> return value as input to <a href="https://msdn.microsoft.com/library/windows/hardware/ff549945">WdfRequestComplete</a>. 
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -161,20 +151,19 @@ KbFilter_ForwardRequest(
 
 ## -see-also
 
-<a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_completion_routine.md">CompletionRoutine</a>
 
 
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcomplete.md">WdfRequestComplete</a>
+<a href="https://msdn.microsoft.com/7d3eb4d6-9fc7-4924-9b95-f5824713049b">CompletionRoutine</a>
 
 
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549945">WdfRequestComplete</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550027">WdfRequestSend</a>
  
 
  
-
 

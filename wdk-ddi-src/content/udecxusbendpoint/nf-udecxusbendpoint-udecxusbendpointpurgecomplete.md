@@ -7,7 +7,7 @@ old-location: buses\udecxusbendpointpurgecomplete.htm
 old-project: usbref
 ms.assetid: 91257BC3-C469-44D5-96E2-D1FA599963F1
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: UdecxUsbEndpointPurgeComplete, UdecxUsbEndpointPurgeComplete function [Buses], buses.udecxusbendpointpurgecomplete, udecxusbendpoint/UdecxUsbEndpointPurgeComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -54,16 +54,6 @@ req.product: Windows 10 or later.
 Completes an asynchronous request for canceling all I/O requests queued to the specified endpoint. 
 
 
-## -syntax
-
-
-````
-FORCEINLINE void UdecxUsbEndpointPurgeComplete(
-  _In_ UDECXUSBENDPOINT UdecxUsbEndpoint
-);
-````
-
-
 ## -parameters
 
 
@@ -71,7 +61,7 @@ FORCEINLINE void UdecxUsbEndpointPurgeComplete(
 
 ### -param UdecxUsbEndpoint [in]
 
-A handle to a UDE endpoint object. The client driver retrieved this pointer in the previous call to <a href="..\udecxusbendpoint\nf-udecxusbendpoint-udecxusbendpointcreate.md">UdecxUsbEndpointCreate</a>.
+A handle to a UDE endpoint object. The client driver retrieved this pointer in the previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/mt627983">UdecxUsbEndpointCreate</a>.
 
 
 ## -returns
@@ -85,11 +75,6 @@ This function does not return a value.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
-
-
-
-<a href="..\udecxusbendpoint\nc-udecxusbendpoint-evt_udecx_usb_endpoint_purge.md">EVT_UDECX_USB_ENDPOINT_PURGE</a>
 
 
 
@@ -97,8 +82,12 @@ This function does not return a value.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595916">EVT_UDECX_USB_ENDPOINT_PURGE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
  
 
  
-
 

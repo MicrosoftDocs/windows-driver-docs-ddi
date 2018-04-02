@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 
 
 
-## -syntax
-
-
-````
-BOOL WINAPI DeletePrinterIC(
-  _In_ HANDLE hPrinterIC
-);
-````
-
-
 ## -parameters
 
 

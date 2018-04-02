@@ -7,7 +7,7 @@ old-location: kernel\pep_acpi_initialize_extended_memory_resource.htm
 old-project: kernel
 ms.assetid: F566E078-9446-49E1-9325-AF65F3ABB6B9
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: PEP_ACPI_INITIALIZE_EXTENDED_MEMORY_RESOURCE, PEP_ACPI_INITIALIZE_EXTENDED_MEMORY_RESOURCE function [Kernel-Mode Driver Architecture], kernel.pep_acpi_initialize_extended_memory_resource, pepfx/PEP_ACPI_INITIALIZE_EXTENDED_MEMORY_RESOURCE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,32 +49,7 @@ req.typenames: PEP_WORK_TYPE, *PPEP_WORK_TYPE, PEP_WORK_TYPE, *PPEP_WORK_TYPE
 ## -description
 
 
-The <b>PEP_ACPI_INITIALIZE_EXTENDED_MEMORY_RESOURCE</b> function initializes a platform extension plug-in's (PEP) <a href="..\pepfx\ns-pepfx-_pep_acpi_extended_address.md">PEP_ACPI_EXTENDED_ADDRESS</a> structure.
-
-
-## -syntax
-
-
-````
-FORCEINLINE VOID PEP_ACPI_INITIALIZE_EXTENDED_MEMORY_RESOURCE(
-  _In_  BOOLEAN            ResourceUsage,
-  _In_  UCHAR              Decode,
-  _In_  BOOLEAN            IsMinFixed,
-  _In_  BOOLEAN            IsMaxFixed,
-  _In_  UCHAR              Cacheable,
-  _In_  BOOLEAN            ReadWrite,
-  _In_  ULONGLONG          AddressGranularity,
-  _In_  ULONGLONG          AddressMinimum,
-  _In_  ULONGLONG          AddressMaximum,
-  _In_  ULONGLONG          AddressTranslation,
-  _In_  ULONGLONG          RangeLength,
-  _In_  ULONGLONG          TypeSpecificAttributes,
-  _In_  PUNICODE_STRING    DescriptorName,
-  _In_  UCHAR              MemoryRangeType,
-  _In_  BOOLEAN            TanslationTypeNonStatic,
-  _Out_ PPEP_ACPI_RESOURCE Resource
-);
-````
+The <b>PEP_ACPI_INITIALIZE_EXTENDED_MEMORY_RESOURCE</b> function initializes a platform extension plug-in's (PEP) <a href="https://msdn.microsoft.com/library/windows/hardware/mt186670">PEP_ACPI_EXTENDED_ADDRESS</a> structure.
 
 
 ## -parameters
@@ -84,7 +59,7 @@ FORCEINLINE VOID PEP_ACPI_INITIALIZE_EXTENDED_MEMORY_RESOURCE(
 
 ### -param ResourceUsage [in]
 
-This parameter is copied into the <b>GeneralFlags</b> member of the initialized <a href="..\pepfx\ns-pepfx-_pep_acpi_extended_address.md">PEP_ACPI_EXTENDED_ADDRESS</a> structure.
+This parameter is copied into the <b>GeneralFlags</b> member of the initialized <a href="https://msdn.microsoft.com/library/windows/hardware/mt186670">PEP_ACPI_EXTENDED_ADDRESS</a> structure.
 
 
 ### -param Decode [in]
@@ -272,7 +247,7 @@ TBD
 
 ### -param Resource [out]
 
-This is cast to *<a href="..\pepfx\ns-pepfx-_pep_acpi_extended_address.md">PEP_ACPI_EXTENDED_ADDRESS</a>.
+This is cast to *<a href="https://msdn.microsoft.com/library/windows/hardware/mt186670">PEP_ACPI_EXTENDED_ADDRESS</a>.
 
 
 #### - TanslationTypeNonStatic [in]
@@ -291,12 +266,11 @@ This function does not return a value.
 
 ## -see-also
 
-<a href="..\pepfx\ns-pepfx-_pep_acpi_extended_address.md">PEP_ACPI_EXTENDED_ADDRESS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186670">PEP_ACPI_EXTENDED_ADDRESS</a>
  
 
  
-
 

@@ -52,35 +52,6 @@ req.typenames: KSWAVE_OUTPUT_CAPABILITIES, *PKSWAVE_OUTPUT_CAPABILITIES
 The KSWAVE_OUTPUT_CAPABILITIES structure is used to describe the output capabilities of a device.
 
 
-## -syntax
-
-
-````
-typedef struct {
-  ULONG MaximumChannelsPerConnection;
-  ULONG MinimumBitsPerSample;
-  ULONG MaximumBitsPerSample;
-  ULONG MinimumSampleFrequency;
-  ULONG MaximumSampleFrequency;
-  ULONG TotalConnections;
-  ULONG StaticConnections;
-  ULONG StreamingConnections;
-  ULONG ActiveConnections;
-  ULONG ActiveStaticConnections;
-  ULONG ActiveStreamingConnections;
-  ULONG Total3DConnections;
-  ULONG Static3DConnections;
-  ULONG Streaming3DConnections;
-  ULONG Active3DConnections;
-  ULONG ActiveStatic3DConnections;
-  ULONG ActiveStreaming3DConnections;
-  ULONG TotalSampleMemory;
-  ULONG FreeSampleMemory;
-  ULONG LargestFreeContiguousSampleMemory;
-} KSWAVE_OUTPUT_CAPABILITIES, *PKSWAVE_OUTPUT_CAPABILITIES;
-````
-
-
 ## -struct-fields
 
 
@@ -197,12 +168,11 @@ This structure is used by the <a href="https://msdn.microsoft.com/library/window
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566523">KSPROPERTY_WAVE_OUTPUT_CAPABILITIES</a>
-
-
-
  
 
  
-
 

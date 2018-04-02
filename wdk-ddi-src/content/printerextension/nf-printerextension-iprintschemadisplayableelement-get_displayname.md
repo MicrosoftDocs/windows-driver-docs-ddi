@@ -56,27 +56,16 @@ Gets a displayable string for this item.
 This property is read-only.
 
 
-## -syntax
-
-
-````
-HRESULT get_DisplayName(
-  [out, retval] BSTR *pbstrDisplayName
-);
-````
-
-
 ## -parameters
 
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintschemadisplayableelement.md">IPrintSchemaDisplayableElement</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451262">IPrintSchemaDisplayableElement</a>
  
 
  
-
 

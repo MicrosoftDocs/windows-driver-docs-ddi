@@ -7,7 +7,7 @@ old-location: dtf\iwdtfsimulatedbatterysystemaction.htm
 old-project: dtf
 ms.assetid: 38df72bd-5206-4655-846c-ae925ed648eb
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/29/2018
 ms.keywords: IWDTFSimulatedBatterySystemAction, IWDTFSimulatedBatterySystemAction interface [Windows Device Testing Framework], IWDTFSimulatedBatterySystemAction interface [Windows Device Testing Framework], described, dtf.iwdtfsimulatedbatterysystemaction, wdtfsimulatedbatterysystemaction/IWDTFSimulatedBatterySystemAction
 ms.prod: windows-hardware
 ms.technology: windows-devices

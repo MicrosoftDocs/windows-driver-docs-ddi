@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 The WIDTHRUN structure is used to define the contents of <a href="https://msdn.microsoft.com/6e643703-ace1-4660-990c-3a9ca735829d">Unidrv font metrics files</a> (.ufm files).
 
 
-## -syntax
-
-
-````
-typedef struct _WIDTHRUN {
-  WORD  wStartGlyph;
-  WORD  wGlyphCount;
-  DWORD loCharWidthOffset;
-} WIDTHRUN, *PWIDTHRUN;
-````
-
-
 ## -struct-fields
 
 
@@ -82,14 +70,14 @@ Specifies the number of glyphs represented by the width run.
 
 ### -field loCharWidthOffset
 
-Specifies the offset from the beginning of a <a href="..\prntfont\ns-prntfont-_widthtable.md">WIDTHTABLE</a> structure to the location containing the width of the set of glyphs contained in the width run.
+Specifies the offset from the beginning of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563774">WIDTHTABLE</a> structure to the location containing the width of the set of glyphs contained in the width run.
 
 
 ## -remarks
 
 
 
-A width run describes the widths of a set of adjacent glyphs. Sets of width runs are described by an array of WIDTHRUN elements. The array is contained in a <a href="..\prntfont\ns-prntfont-_widthtable.md">WIDTHTABLE</a> structure.
+A width run describes the widths of a set of adjacent glyphs. Sets of width runs are described by an array of WIDTHRUN elements. The array is contained in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563774">WIDTHTABLE</a> structure.
 
 Index values contained in <b>dwStartGlyph</b> are integers, starting with 1, with each glyph in the font having an index. That is, the first glyph in the font is assigned an index value of 1, the next glyph's index is 2, and so on.
 
@@ -126,16 +114,15 @@ For East Asian device fonts, the <b>fwdAveCharWidth</b> and <b>fwdMaxCharInc</b>
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567418">IFIMETRICS</a>
 
 
 
-<a href="..\prntfont\ns-prntfont-_widthtable.md">WIDTHTABLE</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563774">WIDTHTABLE</a>
  
 
  
-
 

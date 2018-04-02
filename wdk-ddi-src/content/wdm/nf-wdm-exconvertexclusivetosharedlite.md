@@ -7,7 +7,7 @@ old-location: kernel\exconvertexclusivetosharedlite.htm
 old-project: kernel
 ms.assetid: 140de330-7e6d-4f23-96cb-ea1228c8036c
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: ExConvertExclusiveToSharedLite, ExConvertExclusiveToSharedLite routine [Kernel-Mode Driver Architecture], k102_3c58f8e7-3da6-413d-9662-89a29928a6c1.xml, kernel.exconvertexclusivetosharedlite, wdm/ExConvertExclusiveToSharedLite
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 The <b>ExConvertExclusiveToSharedLite</b> routine converts a given resource from acquired for exclusive access to acquired for shared access.
 
 
-## -syntax
-
-
-````
-VOID ExConvertExclusiveToSharedLite(
-  _Inout_ PERESOURCE Resource
-);
-````
-
-
 ## -parameters
 
 
@@ -93,12 +83,11 @@ The caller must have exclusive access to the given resource. During this convers
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exisresourceacquiredexclusivelite.md">ExIsResourceAcquiredExclusiveLite</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545458">ExIsResourceAcquiredExclusiveLite</a>
  
 
  
-
 

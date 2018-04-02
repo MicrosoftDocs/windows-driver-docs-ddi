@@ -55,17 +55,6 @@ req.product: Windows 10 or later.
 The <b>CompleteWithInformation</b> method completes a request with the supplied information.
 
 
-## -syntax
-
-
-````
-void CompleteWithInformation(
-  [in] HRESULT CompletionStatus,
-  [in] SIZE_T  Information
-);
-````
-
-
 ## -parameters
 
 
@@ -105,7 +94,10 @@ For a code example of how to use the <b>CompleteWithInformation</b> method, see 
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558985">IWDFIoRequest</a>
 
 
 
@@ -114,11 +106,7 @@ For a code example of how to use the <b>CompleteWithInformation</b> method, see 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559149">IWDFIoRequest::Send</a>
-
-
-
  
 
  
-
 

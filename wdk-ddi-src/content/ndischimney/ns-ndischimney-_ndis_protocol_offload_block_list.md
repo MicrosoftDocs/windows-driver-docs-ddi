@@ -7,7 +7,7 @@ old-location: netvista\ndis_protocol_offload_block_list.htm
 old-project: netvista
 ms.assetid: 64febd55-1ab8-4e2e-b738-340167866333
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PNDIS_PROTOCOL_OFFLOAD_BLOCK_LIST, NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST, NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST structure [Network Drivers Starting with Windows Vista], PNDIS_PROTOCOL_OFFLOAD_BLOCK_LIST, PNDIS_PROTOCOL_OFFLOAD_BLOCK_LIST structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST, ndischimney/NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST, ndischimney/PNDIS_PROTOCOL_OFFLOAD_BLOCK_LIST, netvista.ndis_protocol_offload_block_list, tcp_chim_struct_77380eae-055d-471e-a94a-67575124981b.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -54,28 +54,6 @@ req.typenames: NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST, *PNDIS_PROTOCOL_OFFLOAD_BLOCK_L
 The NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST structure.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST {
-  NDIS_OBJECT_HEADER                       Header;
-  struct _NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST  *NextBlock;
-  struct _NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST  *DependentBlockList;
-  NDIS_STATUS                              Status;
-  PVOID                                    NdisReserved[3];
-  PNDIS_OFFLOAD_HANDLE                     OffloadHandle;
-  PVOID                                    ProtocolReserved[2];
-  PVOID                                    MiniportReserved[2];
-  PVOID                                    ImReserved[2];
-  PVOID                                    Scratch[2];
-  PVOID                                    SourceHandle;
-  NDIS_PORT_NUMBER                         PortNumber;
-  PNET_BUFFER_LIST                         NetBufferListChain;
-} NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST, *PNDIS_PROTOCOL_OFFLOAD_BLOCK_LIST;
-````
-
-
 ## -struct-fields
 
 
@@ -84,7 +62,7 @@ typedef struct _NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST {
 ### -field Header
 
 The header of the NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST structure. The header is formatted as an 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure. The
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure. The
      NDIS_OBJECT_HEADER structure contains the revision number of the NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST
      structure, the type of offload state that immediately follows the NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST
      structure in memory, and the size of the NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST structure, including the
@@ -105,7 +83,7 @@ The following OFFLOAD_STATE_TYPE values are supported:
 #### NeighborOffloadConstState
 
 Specifies the constant neighbor state. This state is formatted as a 
-       <a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_const.md">
+       <a href="https://msdn.microsoft.com/1c79a3d6-c365-4740-a2e0-94333b70d8cc">
        NEIGHBOR_OFFLOAD_STATE_CONST</a> structure.
 
 
@@ -113,7 +91,7 @@ Specifies the constant neighbor state. This state is formatted as a
 #### NeighborOffloadCachedState
 
 Specifies the cached neighbor state. This state is formatted as a 
-       <a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_cached.md">
+       <a href="https://msdn.microsoft.com/5dedffa8-9745-4668-8646-0e896942b9c8">
        NEIGHBOR_OFFLOAD_STATE_CACHED</a> structure.
 
 
@@ -121,7 +99,7 @@ Specifies the cached neighbor state. This state is formatted as a
 #### NeighborOffloadDelegatedState
 
 Specifies the delegated neighbor state. This state is formatted as a 
-       <a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_delegated.md">
+       <a href="https://msdn.microsoft.com/94a35d0f-3585-45d0-bba8-0b4a8ebbe883">
        NEIGHBOR_OFFLOAD_STATE_DELEGATED</a> structure.
 
 
@@ -138,7 +116,7 @@ Specifies all of the neighbor state, including the constant, cached, and delegat
 #### Ip4OffloadConstState
 
 Specifies the constant path state (IPv4). This state is formatted as a 
-       <a href="..\ndischimney\ns-ndischimney-_path_offload_state_const.md">
+       <a href="https://msdn.microsoft.com/a71f70f6-7731-457b-bd6d-b4a649f76f8b">
        PATH_OFFLOAD_STATE_CONST</a> structure.
 
 
@@ -146,7 +124,7 @@ Specifies the constant path state (IPv4). This state is formatted as a
 #### Ip4OffloadCachedState
 
 Specifies the cached path state (IPv4). This state is formatted as a 
-       <a href="..\ndischimney\ns-ndischimney-_path_offload_state_cached.md">
+       <a href="https://msdn.microsoft.com/5afd2499-3f47-481e-9d20-770842f79677">
        PATH_OFFLOAD_STATE_CACHED</a> structure.
 
 
@@ -154,7 +132,7 @@ Specifies the cached path state (IPv4). This state is formatted as a
 #### Ip4OffloadDelegatedState
 
 Specifies the delegated path state (IPv4). This state is formatted as a 
-       <a href="..\ndischimney\ns-ndischimney-_path_offload_state_delegated.md">
+       <a href="https://msdn.microsoft.com/3a1603ec-639f-4899-8889-3c7ed2cfe375">
        PATH_OFFLOAD_STATE_DELEGATED</a> structure. Currently there is no delegated path state. The
        PATH_OFFLOAD_STATE_DELEGATED structure does not contain any variables.
 
@@ -201,7 +179,7 @@ Specifies all of the path state (IPv6), including the constant, cached, and dele
 #### TcpOffloadConstState
 
 Specifies the constant TCP state. This state is formatted as a 
-       <a href="..\ndischimney\ns-ndischimney-_tcp_offload_state_const.md">
+       <a href="https://msdn.microsoft.com/3e80f963-a494-475a-a246-abe5674dbcb6">
        TCP_OFFLOAD_STATE_CONST</a> structure.
 
 
@@ -209,7 +187,7 @@ Specifies the constant TCP state. This state is formatted as a
 #### TcpOffloadCachedState
 
 Specifies the cached TCP state. This state is formatted as a 
-       <a href="..\ndischimney\ns-ndischimney-_tcp_offload_state_cached.md">
+       <a href="https://msdn.microsoft.com/953154eb-e6f3-4013-a68f-1a358953c7ad">
        TCP_OFFLOAD_STATE_CACHED</a> structure.
 
 
@@ -217,7 +195,7 @@ Specifies the cached TCP state. This state is formatted as a
 #### TcpOffloadDelegatedState
 
 Specifies the delegated TCP state. This state is formatted as a 
-       <a href="..\ndischimney\ns-ndischimney-_tcp_offload_state_delegated.md">
+       <a href="https://msdn.microsoft.com/ab16cfa1-24f6-434a-a687-07e19172f185">
        TCP_OFFLOAD_STATE_DELEGATED</a> structure.
 
 
@@ -380,7 +358,7 @@ Query, update, invalidate, or terminate offload: Not an allowed status value.
 
 Initiate offload: The offload target failed to offload the state associated with the
        NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST structure because the host stack specified a non-<b>NULL</b><b>DlSourceAddress</b> member in the 
-       <a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_const.md">
+       <a href="https://msdn.microsoft.com/1c79a3d6-c365-4740-a2e0-94333b70d8cc">
        NEIGHBOR_OFFLOAD_STATE_CONST</a> structure, and the offload target either does not support
        configurable source MAC addresses or cannot accept additional source MAC addresses.
        
@@ -395,7 +373,7 @@ Initiate offload: The offload target failed to offload the state associated with
        NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST structure because the offload target could not allocate a data
        structure for the source IP address that is referenced by the 
        <b>SourceAddress</b> pointer in the 
-       <a href="..\ndischimney\ns-ndischimney-_path_offload_state_const.md">
+       <a href="https://msdn.microsoft.com/a71f70f6-7731-457b-bd6d-b4a649f76f8b">
        PATH_OFFLOAD_STATE_CONST</a> structure.
        
 
@@ -430,7 +408,7 @@ Query, update, invalidate, or terminate offload: Not an allowed status value.
 Initiate offload: The offload target failed to offload the state associated with the
        NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST structure because the 
        <b>InitialRcvWnd</b> member specified in the 
-       <a href="..\ndischimney\ns-ndischimney-_tcp_offload_state_cached.md">
+       <a href="https://msdn.microsoft.com/953154eb-e6f3-4013-a68f-1a358953c7ad">
        TCP_OFFLOAD_STATE_CACHED</a> structure is larger than the offload target can support.
        
 
@@ -474,7 +452,7 @@ Reserved for use by NDIS.
 ### -field OffloadHandle
 
 A pointer to an 
-     <a href="..\ndischimney\ns-ndischimney-_ndis_offload_handle.md">NDIS_OFFLOAD_HANDLE</a> structure. The
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566705">NDIS_OFFLOAD_HANDLE</a> structure. The
      NDIS_OFFLOAD_HANDLE structure represents a protocol or intermediate driver's context for an offloaded
      state object.
 
@@ -511,7 +489,7 @@ When propagating the completion of a state-manipulation operation, an intermedia
       
       <b>SourceHandle</b> that it stored in its IM call entry to the 
       <b>SourceHandle</b> member of the 
-      <a href="..\ndischimney\ns-ndischimney-_ndis_miniport_offload_block_list.md">
+      <a href="https://msdn.microsoft.com/ebc98e65-5d11-4c3d-aea1-dfad1434c093">
       NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a> structure that it passes to the NdisMXxxComplete function.
 
 
@@ -519,7 +497,7 @@ When propagating the completion of a state-manipulation operation, an intermedia
 
 A port number that identifies a miniport adapter port. To assign a miniport adapter port number,
      call the 
-     <a href="..\ndis\nf-ndis-ndismallocateport.md">NdisMAllocatePort</a> function. A zero
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff562779">NdisMAllocatePort</a> function. A zero
      value identifies the default port of a miniport adapter. Use the default port if the miniport driver has
      not allocated ports for the specified adapter.
 
@@ -532,10 +510,10 @@ When the protocol or intermediate driver specifies a <b>NULL</b> value,
 
 When a protocol or intermediate driver specifies a non-<b>NULL</b> value, 
       <b>NetBufferListChain</b> points to a 
-      <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure that can be a
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure that can be a
       stand-alone structure or the first structure in a linked list of such structures. Each NET_BUFFER_LIST
       structure in the linked list describes one 
-      <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structure. The NET_BUFFER structure
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structure. The NET_BUFFER structure
       maps to a chain of memory descriptor lists (MDLs). The NET_BUFFER_LIST and associated structures are
       locked so that they remain resident in physical memory. However, they are not mapped into system
       memory.
@@ -550,7 +528,7 @@ An offload target or intermediate driver can pass outstanding send data to the o
       host stack when terminating the offload of a TCP connection. In this case, the offload target specifies
       a non-<b>NULL</b> value for the 
       <b>NetBufferListChain</b> member when calling the 
-      <a href="..\ndischimney\nf-ndischimney-ndismterminateoffloadcomplete.md">
+      <a href="https://msdn.microsoft.com/d444eae5-2e7c-41f2-9fb2-55e172505cf6">
       NdisMTerminateOffloadComplete</a> function. If the offload target is not passing send data for a TCP
       connection that is being terminated, it specifies a <b>NULL</b> value for the 
       <b>NetBufferListChain</b> member.
@@ -561,7 +539,7 @@ An offload target or intermediate driver can pass outstanding send data to the o
 
 
 An intermediate driver creates an NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST structure from an 
-    <a href="..\ndischimney\ns-ndischimney-_ndis_miniport_offload_block_list.md">
+    <a href="https://msdn.microsoft.com/ebc98e65-5d11-4c3d-aea1-dfad1434c093">
     NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a> structure when 
     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff563771">propagating a
     state-manipulation operation</a>. When 
@@ -582,98 +560,97 @@ An NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST structure can be immediately followed in mem
 
 ## -see-also
 
-<a href="..\ndischimney\nc-ndischimney-initiate_offload_complete_handler.md">
-   ProtocolInitiateOffloadComplete</a>
 
 
 
-<a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_const.md">NEIGHBOR_OFFLOAD_STATE_CONST</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="..\ndischimney\nf-ndischimney-ndisqueryoffloadstate.md">NdisQueryOffload</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568323">NEIGHBOR_OFFLOAD_STATE_CACHED</a>
 
 
 
-<a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_cached.md">NEIGHBOR_OFFLOAD_STATE_CACHED</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568324">NEIGHBOR_OFFLOAD_STATE_CONST</a>
 
 
 
-<a href="..\ndischimney\ns-ndischimney-_tcp_offload_state_const.md">TCP_OFFLOAD_STATE_CONST</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismallocateport.md">NdisMAllocatePort</a>
-
-
-
-<a href="..\ndischimney\ns-ndischimney-_path_offload_state_const.md">PATH_OFFLOAD_STATE_CONST</a>
-
-
-
-<a href="..\ndischimney\nf-ndischimney-ndisinitiateoffload.md">NdisInitiateOffload</a>
-
-
-
-<a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_delegated.md">
+<a href="https://msdn.microsoft.com/94a35d0f-3585-45d0-bba8-0b4a8ebbe883">
    NEIGHBOR_OFFLOAD_STATE_DELEGATED</a>
 
 
 
-<a href="..\ndischimney\ns-ndischimney-_tcp_offload_state_cached.md">TCP_OFFLOAD_STATE_CACHED</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562743">NdisInitiateOffload</a>
 
 
 
-<a href="..\ndischimney\nc-ndischimney-query_offload_complete_handler.md">
-   ProtocolQueryOffloadComplete</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562774">NdisInvalidateOffload</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562779">NdisMAllocatePort</a>
 
 
 
-<a href="..\ndischimney\nc-ndischimney-terminate_offload_complete_handler.md">
-   ProtocolTerminateOffloadComplete</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563771">NdisQueryOffload</a>
 
 
 
-<a href="..\ndischimney\nc-ndischimney-invalidate_offload_complete_handler.md">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564615">NdisTerminateOffload</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564646">NdisUpdateOffload</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569983">PATH_OFFLOAD_STATE_CACHED</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569984">PATH_OFFLOAD_STATE_CONST</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569985">PATH_OFFLOAD_STATE_DELEGATED</a>
+
+
+
+<a href="https://msdn.microsoft.com/0300d841-b211-42f8-b60d-d7d37201e778">
+   ProtocolInitiateOffloadComplete</a>
+
+
+
+<a href="https://msdn.microsoft.com/6d2c71d0-9686-4eb5-9715-27de3dc8b390">
    ProtocolInvalidateOffloadComplete</a>
 
 
 
-<a href="..\ndischimney\nf-ndischimney-ndisterminateoffload.md">NdisTerminateOffload</a>
+<a href="https://msdn.microsoft.com/f521af88-eb96-4077-8882-9b1d02c6c87c">
+   ProtocolQueryOffloadComplete</a>
 
 
 
-<a href="..\ndischimney\ns-ndischimney-_tcp_offload_state_delegated.md">TCP_OFFLOAD_STATE_DELEGATED</a>
+<a href="https://msdn.microsoft.com/614d36e8-38ac-49a7-8711-7a6c6646309c">
+   ProtocolTerminateOffloadComplete</a>
 
 
 
-<a href="..\ndischimney\nc-ndischimney-update_offload_complete_handler.md">
+<a href="https://msdn.microsoft.com/3cd7a32a-d560-429b-b191-aeabb87433f3">
    ProtocolUpdateOffloadComplete</a>
 
 
 
-<a href="..\ndischimney\ns-ndischimney-_path_offload_state_delegated.md">PATH_OFFLOAD_STATE_DELEGATED</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570937">TCP_OFFLOAD_STATE_CACHED</a>
 
 
 
-<a href="..\ndischimney\nf-ndischimney-ndisinvalidateoffload.md">NdisInvalidateOffload</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570938">TCP_OFFLOAD_STATE_CONST</a>
 
 
 
-<a href="..\ndischimney\ns-ndischimney-_path_offload_state_cached.md">PATH_OFFLOAD_STATE_CACHED</a>
-
-
-
-<a href="..\ndischimney\nf-ndischimney-ndisupdateoffload.md">NdisUpdateOffload</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570939">TCP_OFFLOAD_STATE_DELEGATED</a>
  
 
  
-
 

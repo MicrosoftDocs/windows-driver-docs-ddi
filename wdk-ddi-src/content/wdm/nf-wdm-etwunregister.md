@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 The <b>EtwUnregister</b> function unregisters the event provider and must be called before the provider exits.
 
 
-## -syntax
-
-
-````
-NTSTATUS EtwUnregister(
-  _In_ REGHANDLE RegHandle
-);
-````
-
-
 ## -parameters
 
 
@@ -95,12 +85,11 @@ Callers of <b>EtwRegister</b> must be running at IRQL = PASSIVE_LEVEL in the con
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-etwregister.md">EtwRegister</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545603">EtwRegister</a>
  
 
  
-
 

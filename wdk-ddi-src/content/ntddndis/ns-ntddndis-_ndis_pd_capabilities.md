@@ -7,7 +7,7 @@ old-location: netvista\ndis_pd_capabilities.htm
 old-project: netvista
 ms.assetid: A31D3F92-FB03-489B-894D-5E2F76AC3A99
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NDIS_PD_CAPABILITIES, NDIS_PD_CAPABILITIES structure [Network Drivers Starting with Windows Vista], _NDIS_PD_CAPABILITIES, netvista.ndis_pd_capabilities, ntddndis/NDIS_PD_CAPABILITIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,34 +52,6 @@ req.typenames: NDIS_PD_CAPABILITIES
 This structure indicates the PD capabilities for a provider.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_PD_CAPABILITIES {
-  NDIS_OBJECT_HEADER Header;
-  ULONG              Flags;
-  ULONG              MaximumTxPartialBufferCount;
-  ULONG              MaximumRxPartialBufferCount;
-  UCHAR              RxFilterContextWidth;
-  UCHAR              DmaAddressWidth;
-  UCHAR              CapabilityFlags;
-  ULONG              MaxNumberOfRxQueues;
-  ULONG              MaxNumberOfTxQueues;
-  ULONG              MaxNumberOfRxQueuesForDefaultVport;
-  ULONG              MaxNumberOfTxQueuesForDefaultVport;
-  ULONG              MaxNumberOfRxQueuesPerNonDefaultVport;
-  ULONG              MaxNumberOfTxQueuesPerNonDefaultVport;
-  ULONG              ExactMatchProfileArrayOffset;
-  ULONG              ExactMatchProfileArrayNumElements;
-  ULONG              ExactMatchProfileArrayElementSize;
-  ULONG              WildcardMatchProfileArrayOffset;
-  ULONG              WildcardMatchProfileArrayNumElements;
-  ULONG              WildcardMatchProfileArrayElementSize;
-} NDIS_PD_CAPABILITIES;
-````
-
-
 ## -struct-fields
 
 
@@ -87,7 +59,7 @@ typedef struct _NDIS_PD_CAPABILITIES {
 
 ### -field Header
 
-The <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the <b>NDIS_PD_CAPABILITIES</b> structure. Set the members of this structure as follows:
+The <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure for the <b>NDIS_PD_CAPABILITIES</b> structure. Set the members of this structure as follows:
 
 <ul>
 <li><b>Type</b> = <b>NDIS_OBJECT_TYPE_DEFAULT</b></li>
@@ -102,12 +74,12 @@ This member is reserved and must be set to 0.
 
 ### -field MaximumTxPartialBufferCount
 
-The maximum partial transmit <a href="..\ndis\ns-ndis-_pd_buffer.md">PD_BUFFER</a> chain lengths supported by the provider.
+The maximum partial transmit <a href="https://msdn.microsoft.com/library/windows/hardware/dn931863">PD_BUFFER</a> chain lengths supported by the provider.
 
 
 ### -field MaximumRxPartialBufferCount
 
-The maximum partial receive <a href="..\ndis\ns-ndis-_pd_buffer.md">PD_BUFFER</a> chain lengths supported by the provider.
+The maximum partial receive <a href="https://msdn.microsoft.com/library/windows/hardware/dn931863">PD_BUFFER</a> chain lengths supported by the provider.
 
 
 ### -field RxFilterContextWidth
@@ -126,7 +98,7 @@ Flags that contain additional capabilities that the provider supports.
 </tr>
 <tr>
 <td><b>NDIS_PD_CAPS_RECEIVE_FILTER_COUNTERS_SUPPORTED</b></td>
-<td>This flag indicates that the provider supports creation of counters with the <b>PDCounterTypeReceiveFilter</b> type that is part of the <a href="..\ndis\ne-ndis-ndis_pd_counter_type.md">NDIS_PD_COUNTER</a> enumeration</td>
+<td>This flag indicates that the provider supports creation of counters with the <b>PDCounterTypeReceiveFilter</b> type that is part of the <a href="https://msdn.microsoft.com/36DA5A61-2DA4-4CD1-8BA5-74444DC002F0">NDIS_PD_COUNTER</a> enumeration</td>
 </tr>
 </table>
  
@@ -134,14 +106,14 @@ Flags that contain additional capabilities that the provider supports.
 
 ### -field MaxNumberOfRxQueues
 
-The maximum number of receive queues the provider supports. This is only relevant to queues created by the  <a href="..\ndis\nc-ndis-ndis_pd_allocate_queue.md">NdisPDAllocateQueue</a> routine, therefore this number is not accurate for the client because additional pre-existing RSS queues (that the client can request PD-mode access to using the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt808524(d=robot)">NdisPDOnRssReceiveQueues</a>) are not accounted for in the <i>NdisPDAllocateQueue</i> routine.
+The maximum number of receive queues the provider supports. This is only relevant to queues created by the  <a href="https://msdn.microsoft.com/E9091C69-0E21-40CC-B3D3-1F770ABA0D47">NdisPDAllocateQueue</a> routine, therefore this number is not accurate for the client because additional pre-existing RSS queues (that the client can request PD-mode access to using the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt808524(d=robot)">NdisPDOnRssReceiveQueues</a>) are not accounted for in the <i>NdisPDAllocateQueue</i> routine.
 
 It is possible for providers to set this value to 0, if it only supports clients to put pre-existing RSS queues into PD-mode using the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt808524(d=robot)">NdisPDOnRssReceiveQueues</a> routine.
 
 
 ### -field MaxNumberOfTxQueues
 
-The maximum number of transmit queues the provider can create using the <a href="..\ndis\nc-ndis-ndis_pd_allocate_queue.md">NdisPDAllocateQueue</a> routine. The provider must not set this value to 0.
+The maximum number of transmit queues the provider can create using the <a href="https://msdn.microsoft.com/E9091C69-0E21-40CC-B3D3-1F770ABA0D47">NdisPDAllocateQueue</a> routine. The provider must not set this value to 0.
 
 
 ### -field MaxNumberOfRxQueuesForDefaultVport
@@ -241,12 +213,11 @@ If a provider can partition Rx or Tx queues flexibly between virtual ports then 
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
  
 
  
-
 

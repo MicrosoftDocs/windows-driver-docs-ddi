@@ -7,7 +7,7 @@ old-location: display\d3dkmt_render.htm
 old-project: display
 ms.assetid: 8e45c4cb-3635-403b-8a91-71af6605c3be
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMT_RENDER, D3DKMT_RENDER structure [Display Devices], OpenGL_Structs_9da3b8d2-479c-4d6d-ba5c-70aa171121e3.xml, _D3DKMT_RENDER, d3dkmthk/D3DKMT_RENDER, display.d3dkmt_render
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,37 +52,6 @@ req.typenames: D3DKMT_RENDER
 The D3DKMT_RENDER structure describes the current command buffer to be rendered.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_RENDER {
-  union {
-    D3DKMT_HANDLE hDevice;
-    D3DKMT_HANDLE hContext;
-  };
-  UINT                     CommandOffset;
-  UINT                     CommandLength;
-  UINT                     AllocationCount;
-  UINT                     PatchLocationCount;
-  VOID                     *pNewCommandBuffer;
-  UINT                     NewCommandBufferSize;
-  D3DDDI_ALLOCATIONLIST    *pNewAllocationList;
-  UINT                     NewAllocationListSize;
-  D3DDDI_PATCHLOCATIONLIST *pNewPatchLocationList;
-  UINT                     NewPatchLocationListSize;
-  D3DKMT_RENDERFLAGS       Flags;
-  ULONGLONG                PresentHistoryToken;
-  ULONG                    BroadcastContextCount;
-  D3DKMT_HANDLE            BroadcastContext[D3DDDI_MAX_BROADCAST_CONTEXT];
-  ULONG                    QueuedBufferCount;
-  D3DGPU_VIRTUAL_ADDRESS   NewCommandBuffer;
-  VOID                     *pPrivateDriverData;
-  UINT                     PrivateDriverDataSize;
-} D3DKMT_RENDER;
-````
-
-
 ## -struct-fields
 
 
@@ -110,7 +79,7 @@ typedef struct _D3DKMT_RENDER {
 
 ### -field pNewCommandBuffer
 
-[out] A pointer to a command buffer that the OpenGL ICD receives to use in its next call to the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtrender.md">D3DKMTRender</a> function. The driver must always update its pointer to the command buffer after any call to <b>D3DKMTRender</b> regardless of whether the call is successful.
+[out] A pointer to a command buffer that the OpenGL ICD receives to use in its next call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547145">D3DKMTRender</a> function. The driver must always update its pointer to the command buffer after any call to <b>D3DKMTRender</b> regardless of whether the call is successful.
 
 Supported in Windows 7 and later versions:
 
@@ -126,7 +95,7 @@ Depending on current memory conditions the output size might not match the input
 
 ### -field pNewAllocationList
 
-[out] An array of <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_allocationlist.md">D3DDDI_ALLOCATIONLIST</a> structures that the OpenGL ICD receives to use as the allocation list in its next call to the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtrender.md">D3DKMTRender</a> function. The driver must always update its pointer to the allocation list after any call to <b>D3DKMTRender</b> regardless of whether the call is successful.
+[out] An array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff544375">D3DDDI_ALLOCATIONLIST</a> structures that the OpenGL ICD receives to use as the allocation list in its next call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547145">D3DKMTRender</a> function. The driver must always update its pointer to the allocation list after any call to <b>D3DKMTRender</b> regardless of whether the call is successful.
 
 Supported in Windows 7 and later versions:
 
@@ -142,7 +111,7 @@ Depending on current memory conditions the output size might not match the input
 
 ### -field pNewPatchLocationList
 
-[out] An array of <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_patchlocationlist.md">D3DDDI_PATCHLOCATIONLIST</a> structures that the OpenGL ICD receives to use as the patch-location list in its next call to the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtrender.md">D3DKMTRender</a> function. The driver must always update its pointer to the patch-location list after any call to <b>D3DKMTRender</b> regardless of whether the call is successful.
+[out] An array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff544630">D3DDDI_PATCHLOCATIONLIST</a> structures that the OpenGL ICD receives to use as the patch-location list in its next call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547145">D3DKMTRender</a> function. The driver must always update its pointer to the patch-location list after any call to <b>D3DKMTRender</b> regardless of whether the call is successful.
 
 
 ### -field NewPatchLocationListSize
@@ -154,12 +123,12 @@ Depending on current memory conditions the output size might not match the input
 
 ### -field Flags
 
-[in] A <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_renderflags.md">D3DKMT_RENDERFLAGS</a> structure that indicates the type of command buffer, in bit-field flags, to be rendered.
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff548244">D3DKMT_RENDERFLAGS</a> structure that indicates the type of command buffer, in bit-field flags, to be rendered.
 
 
 ### -field PresentHistoryToken
 
-[in] The present history token for redirected calls to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_present.md">DxgkDdiPresent</a> function.
+[in] The present history token for redirected calls to the display miniport driver's <a href="https://msdn.microsoft.com/1a46b129-1e78-44e6-a609-59eab206692b">DxgkDdiPresent</a> function.
 
 A <i>present history token</i> is a data packet that the rendering app submits to inform the Desktop Window Manager (DWM) that rendering is complete and the swap chain back buffer is ready to be presented.
 
@@ -183,7 +152,7 @@ The original context that the <b>hContext</b> member specifies and that owns the
 
 ### -field NewCommandBuffer
 
-[out] A pointer to a command buffer that the OpenGL ICD receives to use in its next call to the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtrender.md">D3DKMTRender</a> function. The driver must always update its pointer to the command buffer after any call to <b>D3DKMTRender</b> regardless of whether the call is successful.
+[out] A pointer to a command buffer that the OpenGL ICD receives to use in its next call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547145">D3DKMTRender</a> function. The driver must always update its pointer to the command buffer after any call to <b>D3DKMTRender</b> regardless of whether the call is successful.
 
 Supported in Windows 7 and later versions:
 
@@ -211,25 +180,24 @@ This member is available beginning with Windows 7.
 
 #### - hDevice
 
-[in] A D3DKMT_HANDLE data type that represents a kernel-mode handle to the device that the command buffer is rendered to. A device handle is supplied to the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtrender.md">D3DKMTRender</a> function in the union that D3DKMT_RENDER contains for compatibility with Microsoft Direct3D version 10.
+[in] A D3DKMT_HANDLE data type that represents a kernel-mode handle to the device that the command buffer is rendered to. A device handle is supplied to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547145">D3DKMTRender</a> function in the union that D3DKMT_RENDER contains for compatibility with Microsoft Direct3D version 10.
 
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_present.md">DxgkDdiPresent</a>
 
 
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtrender.md">D3DKMTRender</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547145">D3DKMTRender</a>
 
 
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_renderflags.md">D3DKMT_RENDERFLAGS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548244">D3DKMT_RENDERFLAGS</a>
 
 
 
+<a href="https://msdn.microsoft.com/1a46b129-1e78-44e6-a609-59eab206692b">DxgkDdiPresent</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: netvista\rilradiostateitemid.htm
 old-project: netvista
 ms.assetid: 2aec37af-fd7d-44c6-a728-889dd75012cb
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: RILRADIOSTATEITEMID, RILRADIOSTATEITEMID enumeration [Network Drivers Starting with Windows Vista], netvista.rilradiostateitemid, ntddrilapitypes/RILRADIOSTATEITEMID
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,15 +51,6 @@ req.product: Windows 10 or later.
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef enum _RILRADIOSTATEITEMID { 
-} RILRADIOSTATEITEMID;
-````
 
 
 ## -enum-fields

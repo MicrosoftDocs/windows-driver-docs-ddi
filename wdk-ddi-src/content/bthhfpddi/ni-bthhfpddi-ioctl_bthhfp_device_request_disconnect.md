@@ -7,7 +7,7 @@ old-location: audio\ioctl_bthhfp_device_request_disconnect.htm
 old-project: audio
 ms.assetid: BC28F8FC-5C0A-4999-89C1-FE25FD68B9FF
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/19/2018
 ms.keywords: IOCTL_BTHHFP_DEVICE_REQUEST_DISCONNECT, IOCTL_BTHHFP_DEVICE_REQUEST_DISCONNECT control code [Audio Devices], audio.ioctl_bthhfp_device_request_disconnect, bthhfpddi/IOCTL_BTHHFP_DEVICE_REQUEST_DISCONNECT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -105,7 +105,7 @@ N/A
 
 
 
-This request initiates the process to disconnect the Service Level Connection and ends without waiting for the disconnection to complete. Connection status can be determined using <a href="..\bthhfpddi\ni-bthhfpddi-ioctl_bthhfp_device_get_connection_status_update.md">IOCTL_BTHHFP_DEVICE_GET_CONNECTION_STATUS_UPDATE</a>.
+This request initiates the process to disconnect the Service Level Connection and ends without waiting for the disconnection to complete. Connection status can be determined using <a href="https://msdn.microsoft.com/library/windows/hardware/dn265106">IOCTL_BTHHFP_DEVICE_GET_CONNECTION_STATUS_UPDATE</a>.
 
 The audio driver sends this request from its handler for the <a href="https://msdn.microsoft.com/library/windows/hardware/hh706181">KSPROPERTY_ONESHOT_DISCONNECT</a> KS property.
 
@@ -114,20 +114,19 @@ The audio driver sends this request from its handler for the <a href="https://ms
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn302027">Bluetooth HFP DDI IOCTLs</a>
 
 
 
-<a href="..\bthhfpddi\ni-bthhfpddi-ioctl_bthhfp_device_get_connection_status_update.md">IOCTL_BTHHFP_DEVICE_GET_CONNECTION_STATUS_UPDATE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265106">IOCTL_BTHHFP_DEVICE_GET_CONNECTION_STATUS_UPDATE</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh706181">KSPROPERTY_ONESHOT_DISCONNECT</a>
-
-
-
  
 
  
-
 

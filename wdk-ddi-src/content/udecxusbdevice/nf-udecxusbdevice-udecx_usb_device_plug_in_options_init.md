@@ -7,7 +7,7 @@ old-location: buses\udecx_usb_device_plug_in_options_init.htm
 old-project: usbref
 ms.assetid: 3188E2EE-E011-476D-9DDC-1DF61ECF9413
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: UDECX_USB_DEVICE_PLUG_IN_OPTIONS_INIT, UDECX_USB_DEVICE_PLUG_IN_OPTIONS_INIT function [Buses], buses.udecx_usb_device_plug_in_options_init, udecxusbdevice/UDECX_USB_DEVICE_PLUG_IN_OPTIONS_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,17 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-Initializes a <a href="..\udecxusbdevice\ns-udecxusbdevice-_udecx_usb_device_plug_in_options.md">UDECX_USB_DEVICE_PLUG_IN_OPTIONS</a> structure.
-
-
-## -syntax
-
-
-````
-FORCEINLINE void UDECX_USB_DEVICE_PLUG_IN_OPTIONS_INIT(
-  _Out_ PUDECX_USB_DEVICE_PLUG_IN_OPTIONS Options
-);
-````
+Initializes a <a href="https://msdn.microsoft.com/library/windows/hardware/mt627998">UDECX_USB_DEVICE_PLUG_IN_OPTIONS</a> structure.
 
 
 ## -parameters
@@ -71,7 +61,7 @@ FORCEINLINE void UDECX_USB_DEVICE_PLUG_IN_OPTIONS_INIT(
 
 ### -param Options [out]
 
-A pointer to a <a href="..\udecxusbdevice\ns-udecxusbdevice-_udecx_usb_device_plug_in_options.md">UDECX_USB_DEVICE_PLUG_IN_OPTIONS</a> structure to initialize.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/mt627998">UDECX_USB_DEVICE_PLUG_IN_OPTIONS</a> structure to initialize.
 
 
 ## -returns
@@ -94,12 +84,11 @@ The method initializes <b>Usb20PortNumber</b> and <b>Usb30PortNumber</b>  to 0. 
 
 ## -see-also
 
-<a href="..\udecxusbdevice\nf-udecxusbdevice-udecxusbdeviceplugin.md">UdecxUsbDevicePlugIn</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt627975">UdecxUsbDevicePlugIn</a>
  
 
  
-
 

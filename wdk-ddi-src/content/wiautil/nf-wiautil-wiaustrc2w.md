@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 The <b>wiauStrC2W</b> function converts an ANSI character string to a Unicode string.
 
 
-## -syntax
-
-
-````
-HRESULT _stdcall wiauStrC2W(
-  _In_  CHAR  *pszSrc,
-  _Out_ WCHAR *pwszDst,
-        INT   iSize
-);
-````
-
-
 ## -parameters
 
 
@@ -96,20 +84,19 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
 ## -see-also
 
-<a href="..\wiautil\nf-wiautil-wiaustrw2w.md">wiauStrW2W</a>
 
 
 
-<a href="..\wiautil\nf-wiautil-wiaustrc2c.md">wiauStrC2C</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550183">wiauStrC2C</a>
 
 
 
-<a href="..\wiautil\nf-wiautil-wiaustrw2c.md">wiauStrW2C</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550187">wiauStrW2C</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550189">wiauStrW2W</a>
  
 
  
-
 

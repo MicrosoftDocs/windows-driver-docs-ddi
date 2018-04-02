@@ -7,7 +7,7 @@ old-location: storage\feature_data_write_once.htm
 old-project: storage
 ms.assetid: d8352a73-6b3e-4890-a4ae-000d453d1143
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PFEATURE_DATA_WRITE_ONCE, FEATURE_DATA_WRITE_ONCE, FEATURE_DATA_WRITE_ONCE structure [Storage Devices], PFEATURE_DATA_WRITE_ONCE, PFEATURE_DATA_WRITE_ONCE structure pointer [Storage Devices], _FEATURE_DATA_WRITE_ONCE, ntddmmc/FEATURE_DATA_WRITE_ONCE, ntddmmc/PFEATURE_DATA_WRITE_ONCE, storage.feature_data_write_once, structs-CD-ROM_d10e83bf-73ef-43e2-901f-20ca3edea1ac.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,21 +52,6 @@ req.typenames: FEATURE_DATA_WRITE_ONCE, *PFEATURE_DATA_WRITE_ONCE
 The FEATURE_DATA_WRITE_ONCE structure holds information for the Write Once feature.
 
 
-## -syntax
-
-
-````
-typedef struct _FEATURE_DATA_WRITE_ONCE {
-  FEATURE_HEADER Header;
-  UCHAR          LogicalBlockSize[4];
-  UCHAR          Blocking[2];
-  UCHAR          ErrorRecoveryPagePresent  :1;
-  UCHAR          Reserved1  :7;
-  UCHAR          Reserved2;
-} FEATURE_DATA_WRITE_ONCE, *PFEATURE_DATA_WRITE_ONCE;
-````
-
-
 ## -struct-fields
 
 
@@ -74,7 +59,7 @@ typedef struct _FEATURE_DATA_WRITE_ONCE {
 
 ### -field Header
 
-Contains a <a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a> structure with header information for this feature descriptor. 
+Contains a <a href="https://msdn.microsoft.com/library/windows/hardware/ff553848">FEATURE_HEADER</a> structure with header information for this feature descriptor. 
 
 
 ### -field LogicalBlockSize
@@ -113,16 +98,15 @@ This structure holds data for the feature named "Write Once" by the <i>MMC-3 </i
 
 ## -see-also
 
-<a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
 
 
 
-<a href="..\ntddmmc\ne-ntddmmc-_feature_number.md">FEATURE_NUMBER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553848">FEATURE_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553850">FEATURE_NUMBER</a>
  
 
  
-
 

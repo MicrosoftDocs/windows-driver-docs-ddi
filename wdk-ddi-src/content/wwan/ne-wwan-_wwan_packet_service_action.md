@@ -7,7 +7,7 @@ old-location: netvista\wwan_packet_service_action.htm
 old-project: netvista
 ms.assetid: 976e0d67-a03c-4545-b165-4b48062c03b7
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PWWAN_PACKET_SERVICE_ACTION, PWWAN_PACKET_SERVICE_ACTION, PWWAN_PACKET_SERVICE_ACTION enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_PACKET_SERVICE_ACTION, WWAN_PACKET_SERVICE_ACTION enumeration [Network Drivers Starting with Windows Vista], WwanPacketServiceActionAttach, WwanPacketServiceActionDetach, WwanRef_6ab5ff1d-9b6c-4018-8d3b-7753ebca12e4.xml, _WWAN_PACKET_SERVICE_ACTION, netvista.wwan_packet_service_action, wwan/PWWAN_PACKET_SERVICE_ACTION, wwan/WWAN_PACKET_SERVICE_ACTION, wwan/WwanPacketServiceActionAttach, wwan/WwanPacketServiceActionDetach"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The WWAN_PACKET_SERVICE_ACTION enumeration lists different packet service actions.
 
 
-## -syntax
-
-
-````
-typedef enum _WWAN_PACKET_SERVICE_ACTION { 
-  WwanPacketServiceActionAttach  = 0,
-  WwanPacketServiceActionDetach
-} WWAN_PACKET_SERVICE_ACTION, *PWWAN_PACKET_SERVICE_ACTION;
-````
-
-
 ## -enum-fields
 
 
@@ -81,12 +70,11 @@ Packet-detach from the registered provider.
 
 ## -see-also
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_set_packet_service.md">NDIS_WWAN_SET_PACKET_SERVICE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567921">NDIS_WWAN_SET_PACKET_SERVICE</a>
  
 
  
-
 

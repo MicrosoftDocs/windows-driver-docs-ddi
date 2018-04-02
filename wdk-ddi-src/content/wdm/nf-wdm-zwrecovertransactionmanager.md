@@ -7,7 +7,7 @@ old-location: kernel\zwrecovertransactionmanager.htm
 old-project: kernel
 ms.assetid: 20284cad-5d65-4d22-98fa-6b6c5f6b422d
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: NtRecoverTransactionManager, ZwRecoverTransactionManager, ZwRecoverTransactionManager routine [Kernel-Mode Driver Architecture], kernel.zwrecovertransactionmanager, ktm_ref_8ff406ba-2e7b-453e-8fc7-12e88a3bf41e.xml, wdm/NtRecoverTransactionManager, wdm/ZwRecoverTransactionManager
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -54,16 +54,6 @@ req.product: Windows 10 or later.
 The <b>ZwRecoverTransactionManager</b> routine reconstructs the state of the transaction manager object (including all transactions, enlistments, and resource managers) from the recovery information that is in the log stream.
 
 
-## -syntax
-
-
-````
-NTSTATUS ZwRecoverTransactionManager(
-  _In_ HANDLE TransactionManagerHandle
-);
-````
-
-
 ## -parameters
 
 
@@ -71,7 +61,7 @@ NTSTATUS ZwRecoverTransactionManager(
 
 ### -param TransactionManagerHandle [in]
 
-A handle to a <a href="https://msdn.microsoft.com/af53cda4-e2ab-47df-9311-a4da2a2ee08d">transaction manager object</a> that was obtained by a previous call to <a href="..\wdm\nf-wdm-zwcreatetransactionmanager.md">ZwCreateTransactionManager</a> or <a href="..\wdm\nf-wdm-zwopentransactionmanager.md">ZwOpenTransactionManager</a>. The handle must have TRANSACTIONMANAGER_RECOVER access to the object.
+A handle to a <a href="https://msdn.microsoft.com/af53cda4-e2ab-47df-9311-a4da2a2ee08d">transaction manager object</a> that was obtained by a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff566430">ZwCreateTransactionManager</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff567035">ZwOpenTransactionManager</a>. The handle must have TRANSACTIONMANAGER_RECOVER access to the object.
 
 
 ## -returns
@@ -154,9 +144,9 @@ The routine might return other <a href="https://msdn.microsoft.com/library/windo
 
 The <b>ZwRecoverTransactionManager</b> routine tries to reconstruct the state of the transaction manager object, including all transactions, enlistments, and resource managers, from the recovery information that is in the object's log stream, beginning at the last <a href="https://msdn.microsoft.com/310545f6-d10d-481e-829d-287b045b98cd">restart area</a> that KTM created and ending at the stream's end.
 
-To recover up to a specific virtual time, use the <a href="..\wdm\nf-wdm-zwrollforwardtransactionmanager.md">ZwRollforwardTransactionManager</a> routine instead of <b>ZwRecoverTransactionManager</b>.
+To recover up to a specific virtual time, use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567089">ZwRollforwardTransactionManager</a> routine instead of <b>ZwRecoverTransactionManager</b>.
 
-Your TPS component must call <b>ZwRecoverTransactionManager</b> after it has called <a href="..\wdm\nf-wdm-zwcreatetransactionmanager.md">ZwCreateTransactionManager</a> or <a href="..\wdm\nf-wdm-zwopentransactionmanager.md">ZwOpenTransactionManager</a>.
+Your TPS component must call <b>ZwRecoverTransactionManager</b> after it has called <a href="https://msdn.microsoft.com/library/windows/hardware/ff566430">ZwCreateTransactionManager</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff567035">ZwOpenTransactionManager</a>.
 
 For more information about recovery operations, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff546922">Handling Recovery Operations</a>.
 
@@ -169,7 +159,10 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwrollforwardtransactionmanager.md">ZwRollforwardTransactionManager</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564722">TmRecoverTransactionManager</a>
 
 
 
@@ -177,20 +170,16 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="..\wdm\nf-wdm-zwopentransactionmanager.md">ZwOpenTransactionManager</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566430">ZwCreateTransactionManager</a>
 
 
 
-<a href="..\wdm\nf-wdm-tmrecovertransactionmanager.md">TmRecoverTransactionManager</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567035">ZwOpenTransactionManager</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwcreatetransactionmanager.md">ZwCreateTransactionManager</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567089">ZwRollforwardTransactionManager</a>
  
 
  
-
 

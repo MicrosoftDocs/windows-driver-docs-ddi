@@ -7,7 +7,7 @@ old-location: ifsk\rtlcapturecontext.htm
 old-project: ifsk
 ms.assetid: c3edd10c-ea4f-4e2d-96f2-3d1cb3804512
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: RtlCaptureContext, RtlCaptureContext function [Installable File System Drivers], ifsk.rtlcapturecontext, ntifs/RtlCaptureContext, rtlref_efe764ec-89fb-43bc-945d-7fee4594c284.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -55,16 +55,6 @@ req.typenames: TOKEN_TYPE
 The <b>RtlCaptureContext </b>function retrieves a context record in the context of the caller.
 
 
-## -syntax
-
-
-````
-VOID RtlCaptureContext(
-  _Out_ PCONTEXT ContextRecord
-);
-````
-
-
 ## -parameters
 
 
@@ -97,12 +87,11 @@ For kernel-mode code, the CONTEXT structure is defined in <i>Ntddk.h</i>. For mo
 
 ## -see-also
 
+
+
+
 <a href="http://go.microsoft.com/fwlink/p/?linkid=132119">CONTEXT</a>
-
-
-
  
 
  
-
 

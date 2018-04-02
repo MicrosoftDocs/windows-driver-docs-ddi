@@ -7,7 +7,7 @@ old-location: debugger\readvirtual.htm
 old-project: debugger
 ms.assetid: 083b0ab5-e2b9-4dcb-b17d-ab2ebde48665
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: IDebugDataSpaces, IDebugDataSpaces interface [Windows Debugging], ReadVirtual method, IDebugDataSpaces2 interface [Windows Debugging], ReadVirtual method, IDebugDataSpaces2::ReadVirtual, IDebugDataSpaces3 interface [Windows Debugging], ReadVirtual method, IDebugDataSpaces3::ReadVirtual, IDebugDataSpaces4 interface [Windows Debugging], ReadVirtual method, IDebugDataSpaces4::ReadVirtual, IDebugDataSpaces::ReadVirtual, IDebugDataSpaces_8f9b4f7a-04c6-4775-9d15-a4e1c56ca48c.xml, ReadVirtual method [Windows Debugging], ReadVirtual method [Windows Debugging], IDebugDataSpaces interface, ReadVirtual method [Windows Debugging], IDebugDataSpaces2 interface, ReadVirtual method [Windows Debugging], IDebugDataSpaces3 interface, ReadVirtual method [Windows Debugging], IDebugDataSpaces4 interface, ReadVirtual,IDebugDataSpaces.ReadVirtual, dbgeng/IDebugDataSpaces2::ReadVirtual, dbgeng/IDebugDataSpaces3::ReadVirtual, dbgeng/IDebugDataSpaces4::ReadVirtual, dbgeng/IDebugDataSpaces::ReadVirtual, debugger.readvirtual
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,19 +53,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>ReadVirtual</b> method reads memory from the target's virtual address space.
-
-
-## -syntax
-
-
-````
-HRESULT ReadVirtual(
-  [in]            ULONG64 Offset,
-  [out]           PVOID   Buffer,
-  [in]            ULONG   BufferSize,
-  [out, optional] PULONG  BytesRead
-);
-````
 
 
 ## -parameters
@@ -136,11 +123,22 @@ When reading memory that contains pointers, these pointers are for the target's 
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces2.md">IDebugDataSpaces2</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces4.md">IDebugDataSpaces4</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550528">IDebugDataSpaces</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550531">IDebugDataSpaces2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550537">IDebugDataSpaces3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550546">IDebugDataSpaces4</a>
 
 
 
@@ -148,20 +146,8 @@ When reading memory that contains pointers, these pointers are for the target's 
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces3.md">IDebugDataSpaces3</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561468">WriteVirtual</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces.md">IDebugDataSpaces</a>
-
-
-
  
 
  
-
 

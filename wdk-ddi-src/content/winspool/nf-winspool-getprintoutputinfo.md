@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 
 
 
-## -syntax
-
-
-````
-HRESULT WINAPI GetPrintOutputInfo(
-  _In_  HWND    hWnd,
-  _In_  PCWSTR  pszPrinter,
-  _Out_ HANDLE  *phFile,
-  _Out_ PWSTR   *ppszOutputFile
-);
-````
-
-
 ## -parameters
 
 

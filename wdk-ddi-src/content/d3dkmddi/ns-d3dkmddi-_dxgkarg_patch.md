@@ -7,7 +7,7 @@ old-location: display\dxgkarg_patch.htm
 old-project: display
 ms.assetid: 37ca2208-253c-417e-a44c-fd1303d5f3dc
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKARG_PATCH, DXGKARG_PATCH structure [Display Devices], DmStructs_1fd78713-859f-4584-a696-e89976b58ab7.xml, _DXGKARG_PATCH, d3dkmddi/DXGKARG_PATCH, display.dxgkarg_patch
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,38 +52,6 @@ req.typenames: DXGKARG_PATCH
 The DXGKARG_PATCH structure describes a direct memory access (DMA) buffer that requires patching (that is, requires the assignment of physical addresses).
 
 
-## -syntax
-
-
-````
-typedef struct _DXGKARG_PATCH {
-  union {
-    HANDLE hDevice;
-    HANDLE hContext;
-  };
-  UINT                           DmaBufferSegmentId;
-  PHYSICAL_ADDRESS               DmaBufferPhysicalAddress;
-  VOID                           *pDmaBuffer;
-  UINT                           DmaBufferSize;
-  UINT                           DmaBufferSubmissionStartOffset;
-  UINT                           DmaBufferSubmissionEndOffset;
-  VOID                           *pDmaBufferPrivateData;
-  UINT                           DmaBufferPrivateDataSize;
-  UINT                           DmaBufferPrivateDataSubmissionStartOffset;
-  UINT                           DmaBufferPrivateDataSubmissionEndOffset;
-  const DXGK_ALLOCATIONLIST      *pAllocationList;
-  UINT                           AllocationListSize;
-  const D3DDDI_PATCHLOCATIONLIST *pPatchLocationList;
-  UINT                           PatchLocationListSize;
-  UINT                           PatchLocationListSubmissionStart;
-  UINT                           PatchLocationListSubmissionLength;
-  UINT                           SubmissionFenceId;
-  DXGK_PATCHFLAGS                Flags;
-  UINT                           EngineOrdinal;
-} DXGKARG_PATCH;
-````
-
-
 ## -struct-fields
 
 
@@ -93,7 +61,7 @@ typedef struct _DXGKARG_PATCH {
 
 [in] The identifier of the memory segment that the DMA buffer was paged in. 
 
-The identifier can be zero if the driver indicated not to map the DMA buffer into the segment by setting the <b>DmaBufferSegmentSet</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_contextinfo.md">DXGK_CONTEXTINFO</a> structure to 0 in a call to the driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createcontext.md">DxgkDdiCreateContext</a> function. If <b>DmaBufferSegmentId</b> is zero, the DMA buffer was allocated as a contiguous block of system memory. 
+The identifier can be zero if the driver indicated not to map the DMA buffer into the segment by setting the <b>DmaBufferSegmentSet</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561019">DXGK_CONTEXTINFO</a> structure to 0 in a call to the driver's <a href="https://msdn.microsoft.com/aea21a36-f3d5-4541-bd2d-aa026668c562">DxgkDdiCreateContext</a> function. If <b>DmaBufferSegmentId</b> is zero, the DMA buffer was allocated as a contiguous block of system memory. 
 
 
 ### -field DmaBufferPhysicalAddress
@@ -133,7 +101,7 @@ Note that <b>DmaBufferSize</b> represents the entire length of the DMA buffer; h
 
 [in] A pointer to the driver-resident private data that is associated with the DMA buffer that <b>pDmaBuffer</b> points to. 
 
-For paging operations, a single paging buffer is used for multiple independent submissions. In that scenario, the driver can indicate—by returning the appropriate private driver data pointer in a call to its <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_buildpagingbuffer.md">DxgkDdiBuildPagingBuffer</a> function—to have either a single driver private data range for all submissions or one for each submission. 
+For paging operations, a single paging buffer is used for multiple independent submissions. In that scenario, the driver can indicate—by returning the appropriate private driver data pointer in a call to its <a href="https://msdn.microsoft.com/d315ff53-4a9f-46a3-ad74-d65a5eb72de1">DxgkDdiBuildPagingBuffer</a> function—to have either a single driver private data range for all submissions or one for each submission. 
 
 
 ### -field DmaBufferPrivateDataSize
@@ -155,7 +123,7 @@ Note that <b>DmaBufferPrivateDataSize</b> represents the entire length of the pr
 
 ### -field pAllocationList
 
-[in] A pointer to an array of <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationlist.md">DXGK_ALLOCATIONLIST</a> structures for the list of allocations that is associated with the DMA buffer that <b>pDmaBuffer</b> points to. 
+[in] A pointer to an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff560975">DXGK_ALLOCATIONLIST</a> structures for the list of allocations that is associated with the DMA buffer that <b>pDmaBuffer</b> points to. 
 
 For paging operations, <b>pAllocationList</b> is <b>NULL</b> because paging buffers are not associated with allocation lists. 
 
@@ -171,7 +139,7 @@ Note that for paging operations <b>AllocationListSize</b> is zero because paging
 
 ### -field pPatchLocationList
 
-[in] A pointer to an array of <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_patchlocationlist.md">D3DDDI_PATCHLOCATIONLIST</a> structures for the list of patch locations that is associated with the DMA buffer that <b>pDmaBuffer</b> points to.
+[in] A pointer to an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff544630">D3DDDI_PATCHLOCATIONLIST</a> structures for the list of patch locations that is associated with the DMA buffer that <b>pDmaBuffer</b> points to.
 
 Note that the array can begin with an element that is before the range that is used to patch the DMA buffer.
 
@@ -208,7 +176,7 @@ For paging operations, <b>PatchLocationListSubmissionLength</b> is zero.
 
 ### -field Flags
 
-[in] A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_patchflags.md">DXGK_PATCHFLAGS</a> structure that identifies information about the DMA buffer that requires patching.
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff561992">DXGK_PATCHFLAGS</a> structure that identifies information about the DMA buffer that requires patching.
 
 
 ### -field EngineOrdinal
@@ -218,14 +186,14 @@ For paging operations, <b>PatchLocationListSubmissionLength</b> is zero.
 
 #### - hContext
 
-[in] If the driver is multiple-engine aware (that is, the driver supports context creation), a handle to the device context that the submission request originated from. A context handle is supplied to the driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_patch.md">DxgkDdiPatch</a> function in the union that DXGKARG_PATCH contains. 
+[in] If the driver is multiple-engine aware (that is, the driver supports context creation), a handle to the device context that the submission request originated from. A context handle is supplied to the driver's <a href="https://msdn.microsoft.com/363be784-0e3b-4f9a-a643-80857478bbae">DxgkDdiPatch</a> function in the union that DXGKARG_PATCH contains. 
 
 For some paging operations, <b>hContext</b> is <b>NULL</b> (for example, paging operations that evict the content of the entire frame buffer during power management). Paging operations are indicated by the <b>Paging</b> bit-field flag in the <b>Flags</b> member.
 
 
 #### - hDevice
 
-[in] If a driver is not multiple-engine aware (that is, the driver does not support context creation), a handle to the display device (graphics context) that the submission request originated from. A device handle is supplied to the driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_patch.md">DxgkDdiPatch</a> function in the union that DXGKARG_PATCH contains.
+[in] If a driver is not multiple-engine aware (that is, the driver does not support context creation), a handle to the display device (graphics context) that the submission request originated from. A device handle is supplied to the driver's <a href="https://msdn.microsoft.com/363be784-0e3b-4f9a-a643-80857478bbae">DxgkDdiPatch</a> function in the union that DXGKARG_PATCH contains.
 
 For some paging operations, <b>hDevice</b> is <b>NULL</b> (for example, paging operations that evict the content of the entire frame buffer during power management). Paging operations are indicated by the <b>Paging</b> bit-field flag in the <b>Flags</b> member. 
 
@@ -234,59 +202,58 @@ For some paging operations, <b>hDevice</b> is <b>NULL</b> (for example, paging o
 
 
 
-The display miniport driver returns an array in the <b>pAllocationList</b> member of a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_present.md">DXGKARG_PRESENT</a> or <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_render.md">DXGKARG_RENDER</a> structure from its <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_present.md">DxgkDdiPresent</a> or <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_render.md">DxgkDdiRender</a> function after it translates the command buffer to a direct memory access (DMA) buffer. The video memory manager assigns physical addresses to the <b>PhysicalAddress</b> members of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationlist.md">DXGK_ALLOCATIONLIST</a> structures in the array and passes this array to the driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_patch.md">DxgkDdiPatch</a> function. <b>DxgkDdiPatch</b> patches places in the DMA buffer with these physical addresses.
+The display miniport driver returns an array in the <b>pAllocationList</b> member of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff557618">DXGKARG_PRESENT</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff557648">DXGKARG_RENDER</a> structure from its <a href="https://msdn.microsoft.com/1a46b129-1e78-44e6-a609-59eab206692b">DxgkDdiPresent</a> or <a href="https://msdn.microsoft.com/fd634768-5e1e-4f40-82fd-5ef69148c3d7">DxgkDdiRender</a> function after it translates the command buffer to a direct memory access (DMA) buffer. The video memory manager assigns physical addresses to the <b>PhysicalAddress</b> members of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560975">DXGK_ALLOCATIONLIST</a> structures in the array and passes this array to the driver's <a href="https://msdn.microsoft.com/363be784-0e3b-4f9a-a643-80857478bbae">DxgkDdiPatch</a> function. <b>DxgkDdiPatch</b> patches places in the DMA buffer with these physical addresses.
 
 
 
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationlist.md">DXGK_ALLOCATIONLIST</a>
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_patch.md">DxgkDdiPatch</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544630">D3DDDI_PATCHLOCATIONLIST</a>
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createcontext.md">DxgkDdiCreateContext</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557618">DXGKARG_PRESENT</a>
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_render.md">DxgkDdiRender</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557648">DXGKARG_RENDER</a>
 
 
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_patchlocationlist.md">D3DDDI_PATCHLOCATIONLIST</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560975">DXGK_ALLOCATIONLIST</a>
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_contextinfo.md">DXGK_CONTEXTINFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561019">DXGK_CONTEXTINFO</a>
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_render.md">DXGKARG_RENDER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561992">DXGK_PATCHFLAGS</a>
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_present.md">DxgkDdiPresent</a>
+<a href="https://msdn.microsoft.com/d315ff53-4a9f-46a3-ad74-d65a5eb72de1">DxgkDdiBuildPagingBuffer</a>
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_present.md">DXGKARG_PRESENT</a>
+<a href="https://msdn.microsoft.com/aea21a36-f3d5-4541-bd2d-aa026668c562">DxgkDdiCreateContext</a>
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_buildpagingbuffer.md">DxgkDdiBuildPagingBuffer</a>
+<a href="https://msdn.microsoft.com/363be784-0e3b-4f9a-a643-80857478bbae">DxgkDdiPatch</a>
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_patchflags.md">DXGK_PATCHFLAGS</a>
+<a href="https://msdn.microsoft.com/1a46b129-1e78-44e6-a609-59eab206692b">DxgkDdiPresent</a>
 
 
 
+<a href="https://msdn.microsoft.com/fd634768-5e1e-4f40-82fd-5ef69148c3d7">DxgkDdiRender</a>
  
 
  
-
 

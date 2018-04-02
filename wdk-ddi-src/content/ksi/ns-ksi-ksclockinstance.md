@@ -52,18 +52,6 @@ req.typenames: KSCLOCKINSTANCE, *PKSCLOCKINSTANCE
 
 
 
-## -syntax
-
-
-````
-typedef struct {
-  KSOBJECT_HEADER  Header;
-  PKISDEFAULTCLOCK DefaultClock;
-  ULONG            Reserved;
-} KSCLOCKINSTANCE, *PKSCLOCKINSTANCE;
-````
-
-
 ## -struct-fields
 
 

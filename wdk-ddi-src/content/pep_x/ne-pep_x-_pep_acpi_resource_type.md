@@ -7,7 +7,7 @@ old-location: kernel\pep_acpi_resource_type.htm
 old-project: kernel
 ms.assetid: C67FA5DF-D2E4-4F00-B22F-9218F0012708
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: PEP_ACPI_RESOURCE_TYPE, PEP_ACPI_RESOURCE_TYPE enumeration [Kernel-Mode Driver Architecture], PepAcpiExtendedIo, PepAcpiExtendedMemory, PepAcpiGpioInt, PepAcpiGpioIo, PepAcpiInterrupt, PepAcpiIoPort, PepAcpiMemory, PepAcpiSpbI2c, PepAcpiSpbSpi, PepAcpiSpbUart, _PEP_ACPI_RESOURCE_TYPE, kernel.pep_acpi_resource_type, pepfx/PEP_ACPI_RESOURCE_TYPE, pepfx/PepAcpiExtendedIo, pepfx/PepAcpiExtendedMemory, pepfx/PepAcpiGpioInt, pepfx/PepAcpiGpioIo, pepfx/PepAcpiInterrupt, pepfx/PepAcpiIoPort, pepfx/PepAcpiMemory, pepfx/PepAcpiSpbI2c, pepfx/PepAcpiSpbSpi, pepfx/PepAcpiSpbUart
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: See Remarks.
+req.irql: PASSIVE_LEVEL
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -49,26 +49,7 @@ req.typenames: PEP_ACPI_RESOURCE_TYPE, PEP_ACPI_RESOURCE_TYPE
 ## -description
 
 
-The <b>PEP_ACPI_RESOURCE_TYPE</b> enumeration is used to identify the type of ACPI resource that is contained in the <a href="..\pepfx\ns-pepfx-_pep_acpi_resource.md">PEP_ACPI_RESOURCE</a> union. 
-
-
-## -syntax
-
-
-````
-typedef enum _PEP_ACPI_RESOURCE_TYPE { 
-  PepAcpiMemory,
-  PepAcpiIoPort,
-  PepAcpiInterrupt,
-  PepAcpiGpioIo,
-  PepAcpiGpioInt,
-  PepAcpiSpbI2c,
-  PepAcpiSpbSpi,
-  PepAcpiSpbUart,
-  PepAcpiExtendedMemory,
-  PepAcpiExtendedIo
-} PEP_ACPI_RESOURCE_TYPE;
-````
+The <b>PEP_ACPI_RESOURCE_TYPE</b> enumeration is used to identify the type of ACPI resource that is contained in the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186691">PEP_ACPI_RESOURCE</a> union. 
 
 
 ## -enum-fields
@@ -128,16 +109,15 @@ Indicates that the resource is an ACPI extended IO resource.
 
 ## -see-also
 
-<a href="..\pepfx\ns-pepfx-_pep_acpi_resource.md">PEP_ACPI_RESOURCE</a>
 
 
 
-<a href="..\pepfx\ns-pepfx-_pep_acpi_request_convert_to_bios_resources.md">PEP_ACPI_REQUEST_CONVERT_TO_BIOS_RESOURCES</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186690">PEP_ACPI_REQUEST_CONVERT_TO_BIOS_RESOURCES</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186691">PEP_ACPI_RESOURCE</a>
  
 
  
-
 

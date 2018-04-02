@@ -7,7 +7,7 @@ old-location: netvista\vmbchannelpacketcomplete.htm
 old-project: netvista
 ms.assetid: 1DC215DF-1F53-4910-84D5-17E13BE6202A
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: VmbChannelPacketComplete, VmbChannelPacketComplete function [Network Drivers Starting with Windows Vista], netvista.vmbchannelpacketcomplete, vmbuskernelmodeclientlibapi/VmbChannelPacketComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -56,18 +56,6 @@ req.product: Windows 10 or later.
 The <b>VmbChannelPacketComplete</b>  function cleans up any
 outstanding memory mappings, releases any buffers in use, and, if the opposite endpoint requested a completion packet, sends a
 completion packet. 
-
-
-## -syntax
-
-
-````
-VOID VmbChannelPacketComplete(
-  _In_ VMBPACKETCOMPLETION             PacketCompletionContext,
-  _In_ reads_bytes_opt_(BufSize) PVOID PacketCompletionBuffer,
-  _In_ UINT32                          BufSize
-);
-````
 
 
 ## -parameters

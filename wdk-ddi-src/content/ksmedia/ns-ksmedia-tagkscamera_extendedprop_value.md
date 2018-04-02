@@ -52,23 +52,6 @@ req.typenames: KSCAMERA_EXTENDEDPROP_VALUE, *PKSCAMERA_EXTENDEDPROP_VALUE
 The <b>KSCAMERA_EXTENDEDPROP_VALUE</b> structure is a data type union used to express an extended property value.
 
 
-## -syntax
-
-
-````
-typedef struct _KSCAMERA_EXTENDEDPROP_VALUE {
-  union {
-    double        dbl;
-    ULONGLONG     ull;
-    ULONG         ul;
-    LARGE_INTEGER ratio;
-    LONG          l;
-    LONG          ll;
-  } Value;
-} KSCAMERA_EXTENDEDPROP_VALUE, *PKSCAMERA_EXTENDEDPROP_VALUE;
-````
-
-
 ## -struct-fields
 
 
@@ -117,12 +100,11 @@ The extended property expressed as a <b>LONGLONG</b> value.
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-tagkscamera_extendedprop_header.md">KSCAMERA_EXTENDEDPROP_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn567563">KSCAMERA_EXTENDEDPROP_HEADER</a>
  
 
  
-
 

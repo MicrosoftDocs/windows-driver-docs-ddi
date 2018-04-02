@@ -7,7 +7,7 @@ old-location: ifsk\rxindicatechangeofbufferingstateforsrvopen.htm
 old-project: ifsk
 ms.assetid: 70efd8d7-c275-440e-a4df-f41b799a63f0
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: RxIndicateChangeOfBufferingStateForSrvOpen, RxIndicateChangeOfBufferingStateForSrvOpen function [Installable File System Drivers], ifsk.rxindicatechangeofbufferingstateforsrvopen, rxprocs/RxIndicateChangeOfBufferingStateForSrvOpen, rxref_6fc017ff-369c-47c3-8a5c-45f808d1d86c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,19 +51,6 @@ req.product: Windows 10 or later.
 
 
 <b>RxIndicateChangeOfBufferingStateForSrvOpen</b> is called to register a change buffering state request (an oplock break indication, for example) for later processing. If the necessary preconditions are satisfied, the oplock is processed further. 
-
-
-## -syntax
-
-
-````
-VOID RxIndicateChangeOfBufferingStateForSrvOpen(
-   PMRX_SRV_CALL SrvCall,
-   PMRX_SRV_OPEN SrvOpen,
-   PVOID         SrvOpenKey,
-   PVOID         MRxContext
-);
-````
 
 
 ## -parameters
@@ -128,20 +115,19 @@ If a buffering state request can be processed immediately instead of being queue
 
 ## -see-also
 
-<a href="..\rxprocs\nf-rxprocs-rxchangebufferingstate.md">RxChangeBufferingState</a>
 
 
 
-<a href="..\rxcontx\ns-rxcontx-_rx_context.md">RX_CONTEXT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554751">RX_CONTEXT</a>
 
 
 
-<a href="..\rxprocs\nf-rxprocs-rxindicatechangeofbufferingstate.md">RxIndicateChangeOfBufferingState</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554335">RxChangeBufferingState</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554485">RxIndicateChangeOfBufferingState</a>
  
 
  
-
 

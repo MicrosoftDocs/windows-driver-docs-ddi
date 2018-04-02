@@ -56,16 +56,6 @@ req.product: Windows 10 or later.
 The <b>WdfPdoGetParent</b> method returns a handle to the framework device object that represents the parent device of a specified device.
 
 
-## -syntax
-
-
-````
-WDFDEVICE WdfPdoGetParent(
-  _In_ WDFDEVICE Device
-);
-````
-
-
 ## -parameters
 
 

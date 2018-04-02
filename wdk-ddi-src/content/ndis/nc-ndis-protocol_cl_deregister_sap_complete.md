@@ -7,7 +7,7 @@ old-location: netvista\protocolclderegistersapcomplete.htm
 old-project: netvista
 ms.assetid: 93f8f74a-8ad4-42ea-83cf-ddfcd7f55ce6
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: PROTOCOL_CL_DEREGISTER_SAP_COMPLETE, ProtocolClDeregisterSapComplete, ProtocolClDeregisterSapComplete callback function [Network Drivers Starting with Windows Vista], condis_client_ref_7f2820e8-9dcb-494c-80f6-eac5aa96d869.xml, ndis/ProtocolClDeregisterSapComplete, netvista.protocolclderegistersapcomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -54,25 +54,11 @@ The
   Connection-oriented NDIS clients that accept incoming calls must have 
   <i>ProtocolClDeregisterSapComplete</i> functions to complete the asynchronous operations that they initiate
   with 
-  <a href="..\ndis\nf-ndis-ndisclderegistersap.md">NdisClDeregisterSap</a>. Otherwise, such a
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff561628">NdisClDeregisterSap</a>. Otherwise, such a
   protocol driver's registered 
   <i>ProtocolClDeregisterSapComplete</i> function can simply return control.
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>PROTOCOL_CL_DEREGISTER_SAP_COMPLETE</b> type.
    For more information, see the following Examples section.</div><div> </div>
-
-## -prototype
-
-
-````
-PROTOCOL_CL_DEREGISTER_SAP_COMPLETE ProtocolClDeregisterSapComplete;
-
-VOID ProtocolClDeregisterSapComplete(
-  _In_ NDIS_STATUS Status,
-  _In_ NDIS_HANDLE ProtocolSapContext
-)
-{ ... }
-````
-
 
 ## -parameters
 
@@ -102,7 +88,7 @@ The SAP was closed. The
 
 NDIS had marked the state of the AF as "closing," so the associated SAP represented by the 
        <i>NdisSapHandle</i> was already released when the client's call to 
-       <a href="..\ndis\nf-ndis-ndisclderegistersap.md">
+       <a href="https://msdn.microsoft.com/ee3eb668-04f5-4731-b0bd-5cc8a9d4407f">
        NdisClDeregisterSap</a> occurred.
 
 
@@ -111,7 +97,7 @@ NDIS had marked the state of the AF as "closing," so the associated SAP represen
 
 The call manager failed the request to close the SAP for some CM-determined reason, and NDIS
        propagated the status returned by its 
-       <a href="..\ndis\nc-ndis-protocol_cm_deregister_sap.md">
+       <a href="https://msdn.microsoft.com/738c426e-aa4f-4f59-b955-fbf67071303f">
        ProtocolCmDeregisterSap</a> function to the client.
 
 
@@ -137,7 +123,7 @@ None
 
 A call to 
     <i>ProtocolClDeregisterSapComplete</i> indicates that the client's preceding call to 
-    <a href="..\ndis\nf-ndis-ndisclderegistersap.md">NdisClDeregisterSap</a> has been processed
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561628">NdisClDeregisterSap</a> has been processed
     by the call manager.
 
 Unless the call manager failed the deregistration for some CM-determined reason, the client should
@@ -146,7 +132,7 @@ Unless the call manager failed the deregistration for some CM-determined reason,
     <i>ProtocolClDeregisterSapComplete</i> is called. Consequently, 
     <i>ProtocolClDeregisterSapComplete</i> can release the per-SAP context area that the client allocated or
     prepare it for reuse in a subsequent call to 
-    <a href="..\ndis\nf-ndis-ndisclregistersap.md">NdisClRegisterSap</a>.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561648">NdisClRegisterSap</a>.
 
 <h3><a id="Examples"></a><a id="examples"></a><a id="EXAMPLES"></a>Examples</h3>
 To define a <i>ProtocolClDeregisterSapComplete</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
@@ -190,37 +176,36 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndiscmderegistersapcomplete.md">NdisCmDeregisterSapComplete</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_cm_deregister_sap.md">ProtocolCmDeregisterSap</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561628">NdisClDeregisterSap</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisclregistersap.md">NdisClRegisterSap</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561648">NdisClRegisterSap</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisfreememory.md">NdisFreeMemory</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561659">NdisCmDeregisterSapComplete</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisfreetonpagedlookasidelist.md">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562577">NdisFreeMemory</a>
+
+
+
+<a href="https://msdn.microsoft.com/2405a405-177a-420a-9628-a340e0d0acb3">
    NdisFreeToNPagedLookasideList</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismcmderegistersapcomplete.md">NdisMCmDeregisterSapComplete</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562821">NdisMCmDeregisterSapComplete</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisclderegistersap.md">NdisClDeregisterSap</a>
-
-
-
+<a href="https://msdn.microsoft.com/738c426e-aa4f-4f59-b955-fbf67071303f">ProtocolCmDeregisterSap</a>
  
 
  
-
 

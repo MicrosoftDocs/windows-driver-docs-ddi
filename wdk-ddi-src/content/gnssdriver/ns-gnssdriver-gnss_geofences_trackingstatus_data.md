@@ -3,12 +3,12 @@ UID: NS:gnssdriver.GNSS_GEOFENCES_TRACKINGSTATUS_DATA
 title: GNSS_GEOFENCES_TRACKINGSTATUS_DATA
 author: windows-driver-content
 description: This structure is used by the GNSS engine to notify of any changes in the tracking status while tracking a set of previously created geofences.
-old-location: gnss\gnss_geofences_trackingstatus_data.htm
-old-project: gnss
+old-location: sensors\gnss_geofences_trackingstatus_data.htm
+old-project: sensors
 ms.assetid: 65E59305-B1D9-4255-926A-A72F3B4887AF
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: "*PGNSS_GEOFENCES_TRACKINGSTATUS_DATA, GNSS_GEOFENCES_TRACKINGSTATUS_DATA, GNSS_GEOFENCES_TRACKINGSTATUS_DATA structure [Sensor Devices], PGNSS_GEOFENCES_TRACKINGSTATUS_DATA, PGNSS_GEOFENCES_TRACKINGSTATUS_DATA structure pointer [Sensor Devices], gnss.gnss_geofences_trackingstatus_data, gnssdriver/GNSS_GEOFENCES_TRACKINGSTATUS_DATA, gnssdriver/PGNSS_GEOFENCES_TRACKINGSTATUS_DATA"
+ms.date: 2/22/2018
+ms.keywords: "*PGNSS_GEOFENCES_TRACKINGSTATUS_DATA, GNSS_GEOFENCES_TRACKINGSTATUS_DATA, GNSS_GEOFENCES_TRACKINGSTATUS_DATA structure [Sensor Devices], PGNSS_GEOFENCES_TRACKINGSTATUS_DATA, PGNSS_GEOFENCES_TRACKINGSTATUS_DATA structure pointer [Sensor Devices], gnssdriver/GNSS_GEOFENCES_TRACKINGSTATUS_DATA, gnssdriver/PGNSS_GEOFENCES_TRACKINGSTATUS_DATA, sensors.gnss_geofences_trackingstatus_data"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -50,20 +50,6 @@ req.typenames: GNSS_GEOFENCES_TRACKINGSTATUS_DATA, *PGNSS_GEOFENCES_TRACKINGSTAT
 
 
 This structure is used by the GNSS engine to notify of any changes in the tracking status while tracking a set of previously created geofences.
-
-
-## -syntax
-
-
-````
-typedef struct _GNSS_GEOFENCES_TRACKINGSTATUS_DATA {
-  ULONG    Size;
-  ULONG    Version;
-  NTSTATUS Status;
-  FILETIME StatusTimeStamp;
-  BYTE     Unused[512];
-} GNSS_GEOFENCES_TRACKINGSTATUS_DATA, *PGNSS_GEOFENCES_TRACKINGSTATUS_DATA;
-````
 
 
 ## -struct-fields

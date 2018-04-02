@@ -124,12 +124,11 @@ Be aware that when your driver uses the smart card driver library, you should st
 
 ## -see-also
 
-<a href="..\winsmcrd\ni-winsmcrd-ioctl_smartcard_get_state.md">IOCTL_SMARTCARD_GET_STATE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn905519">IOCTL_SMARTCARD_GET_STATE</a>
  
 
  
-
 

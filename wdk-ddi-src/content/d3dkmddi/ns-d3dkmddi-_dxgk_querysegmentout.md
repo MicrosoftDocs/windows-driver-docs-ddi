@@ -7,7 +7,7 @@ old-location: display\dxgk_querysegmentout.htm
 old-project: display
 ms.assetid: df640b7a-865a-4a8b-94be-ebc60e44cf72
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGK_QUERYSEGMENTOUT, DXGK_QUERYSEGMENTOUT structure [Display Devices], DmStructs_69650838-cd41-4786-aa3c-b2617b7d97b4.xml, _DXGK_QUERYSEGMENTOUT, d3dkmddi/DXGK_QUERYSEGMENTOUT, display.dxgk_querysegmentout
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,21 +49,7 @@ req.typenames: DXGK_QUERYSEGMENTOUT
 ## -description
 
 
-The DXGK_QUERYSEGMENTOUT structure describes memory-segment information that the display miniport driver should return from a call to its <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryadapterinfo.md">DxgkDdiQueryAdapterInfo</a> function. 
-
-
-## -syntax
-
-
-````
-typedef struct _DXGK_QUERYSEGMENTOUT {
-  UINT                   NbSegment;
-  DXGK_SEGMENTDESCRIPTOR *pSegmentDescriptor;
-  UINT                   PagingBufferSegmentId;
-  UINT                   PagingBufferSize;
-  UINT                   PagingBufferPrivateDataSize;
-} DXGK_QUERYSEGMENTOUT;
-````
+The DXGK_QUERYSEGMENTOUT structure describes memory-segment information that the display miniport driver should return from a call to its <a href="https://msdn.microsoft.com/f2f4c54c-7413-48e5-a165-d71f35642b6c">DxgkDdiQueryAdapterInfo</a> function. 
 
 
 ## -struct-fields
@@ -78,7 +64,7 @@ typedef struct _DXGK_QUERYSEGMENTOUT {
 
 ### -field pSegmentDescriptor
 
-[out] An array of <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_segmentdescriptor.md">DXGK_SEGMENTDESCRIPTOR</a> structures that the driver populates with information about the segments it supports. The size of the array is the value that <b>NbSegment</b> specifies.
+[out] An array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff562035">DXGK_SEGMENTDESCRIPTOR</a> structures that the driver populates with information about the segments it supports. The size of the array is the value that <b>NbSegment</b> specifies.
 
 
 ### -field PagingBufferSegmentId
@@ -109,24 +95,23 @@ The video memory manager allocates a paging buffer either from an aperture segme
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryadapterinfo.md">DxgkDdiQueryAdapterInfo</a>
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_querysegmentin.md">DXGK_QUERYSEGMENTIN</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557621">DXGKARG_QUERYADAPTERINFO</a>
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_segmentdescriptor.md">DXGK_SEGMENTDESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562015">DXGK_QUERYSEGMENTIN</a>
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_queryadapterinfo.md">DXGKARG_QUERYADAPTERINFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562035">DXGK_SEGMENTDESCRIPTOR</a>
 
 
 
+<a href="https://msdn.microsoft.com/f2f4c54c-7413-48e5-a165-d71f35642b6c">DxgkDdiQueryAdapterInfo</a>
  
 
  
-
 

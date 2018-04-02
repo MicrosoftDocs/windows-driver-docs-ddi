@@ -54,17 +54,6 @@ req.product: Windows 10 or later.
 			For internal use only.
 
 
-## -syntax
-
-
-````
-VOID WdfDeviceInitSetCompanionEventCallbacks(
-  _In_ PWDFDEVICE_INIT                DeviceInit,
-  _In_ PWDF_COMPANION_EVENT_CALLBACKS CompanionEventCallbacks
-);
-````
-
-
 ## -parameters
 
 

@@ -7,7 +7,7 @@ old-location: storage\volume_read_plex_input.htm
 old-project: storage
 ms.assetid: 1d53c658-9912-4912-a74f-f7b93367b9e2
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PVOLUME_READ_PLEX_INPUT, PVOLUME_READ_PLEX_INPUT, PVOLUME_READ_PLEX_INPUT structure pointer [Storage Devices], VOLUME_READ_PLEX_INPUT, VOLUME_READ_PLEX_INPUT structure [Storage Devices], _VOLUME_READ_PLEX_INPUT, ntddvol/PVOLUME_READ_PLEX_INPUT, ntddvol/VOLUME_READ_PLEX_INPUT, storage.volume_read_plex_input, structs-volumemgr_26a6ef07-d18e-45bd-b4c3-532d7daadc5c.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,19 +49,7 @@ req.typenames: VOLUME_READ_PLEX_INPUT, *PVOLUME_READ_PLEX_INPUT
 ## -description
 
 
-This structure is used in conjunction with <a href="..\ntddvol\ni-ntddvol-ioctl_volume_read_plex.md">IOCTL_VOLUME_READ_PLEX</a> to read data from a specific <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">plex</a> in a volume. 
-
-
-## -syntax
-
-
-````
-typedef struct _VOLUME_READ_PLEX_INPUT {
-  LARGE_INTEGER ByteOffset;
-  ULONG         Length;
-  ULONG         PlexNumber;
-} VOLUME_READ_PLEX_INPUT, *PVOLUME_READ_PLEX_INPUT;
-````
+This structure is used in conjunction with <a href="https://msdn.microsoft.com/library/windows/hardware/ff561442">IOCTL_VOLUME_READ_PLEX</a> to read data from a specific <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">plex</a> in a volume. 
 
 
 ## -struct-fields
@@ -86,12 +74,11 @@ Supplies the zero-based plex number.
 
 ## -see-also
 
-<a href="..\ntddvol\ni-ntddvol-ioctl_volume_read_plex.md">IOCTL_VOLUME_READ_PLEX</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561442">IOCTL_VOLUME_READ_PLEX</a>
  
 
  
-
 

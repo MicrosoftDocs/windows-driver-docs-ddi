@@ -52,23 +52,6 @@ req.typenames: KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_S, *PKSPROPERTY_CAMER
 Describes region of interest (ROI) control properties in the <b>PROPSETID_VIDCAP_CAMERACONTROL_REGION_OF_INTEREST</b> camera control property set. The region of interest is a rectangle in the image that is used to focus the camera. This structure specifies property values that are used in requests to the camera driver.
 
 
-## -syntax
-
-
-````
-typedef struct {
-  RECT  FocusRect;
-  BOOL  AutoFocusLock;
-  BOOL  AutoExposureLock;
-  BOOL  AutoWhitebalanceLock;
-  union {
-    ULONG Capabilities;
-    ULONG Configuration;
-  };
-} KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_S, *PKSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_S;
-````
-
-
 ## -struct-fields
 
 
@@ -206,16 +189,15 @@ Enable convergence of objects in the region
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/jj156041">KSPROPERTY_CAMERACONTROL_FLASH_PROPERTY</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
-
-
-
  
 
  
-
 

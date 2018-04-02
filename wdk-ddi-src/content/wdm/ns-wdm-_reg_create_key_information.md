@@ -7,7 +7,7 @@ old-location: kernel\reg_create_key_information.htm
 old-project: kernel
 ms.assetid: 5609a2c4-71db-432a-8a39-e407130a6e4c
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*PREG_CREATE_KEY_INFORMATION, *PREG_OPEN_KEY_INFORMATION, PREG_CREATE_KEY_INFORMATION, PREG_CREATE_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], PREG_OPEN_KEY_INFORMATION, PREG_OPEN_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], REG_CREATE_KEY_INFORMATION, REG_CREATE_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], REG_OPEN_KEY_INFORMATION, REG_OPEN_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], _REG_CREATE_KEY_INFORMATION, kernel.reg_create_key_information, kstruct_d_08c0de2c-94fb-4c4f-888c-e3485f213224.xml, wdm/PREG_CREATE_KEY_INFORMATION, wdm/PREG_OPEN_KEY_INFORMATION, wdm/REG_CREATE_KEY_INFORMATION, wdm/REG_OPEN_KEY_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,31 +51,7 @@ req.product: Windows 10 or later.
 
 
 The <b>REG_CREATE_KEY_INFORMATION</b> structure contains information that a driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a> routine can use when a registry key that is being created.
-<div class="alert"><b>Note</b>  Starting with Windows 7, the V1 version of this structure, <a href="..\wdm\ns-wdm-_reg_create_key_information_v1.md">REG_CREATE_KEY_INFORMATION_V1</a>, is used instead.</div><div> </div>
-
-## -syntax
-
-
-````
-typedef struct _REG_CREATE_KEY_INFORMATION {
-  PUNICODE_STRING CompleteName;
-  PVOID           RootObject;
-  PVOID           ObjectType;
-  ULONG           CreateOptions;
-  PUNICODE_STRING Class;
-  PVOID           SecurityDescriptor;
-  PVOID           SecurityQualityOfService;
-  ACCESS_MASK     DesiredAccess;
-  ACCESS_MASK     GrantedAccess;
-  PULONG          Disposition;
-  PVOID           *ResultObject;
-  PVOID           CallContext;
-  PVOID           RootObjectContext;
-  PVOID           Transaction;
-  PVOID           Reserved;
-} REG_CREATE_KEY_INFORMATION, REG_OPEN_KEY_INFORMATION, *PREG_CREATE_KEY_INFORMATION, *PREG_OPEN_KEY_INFORMATION;
-````
-
+<div class="alert"><b>Note</b>  Starting with Windows 7, the V1 version of this structure, <a href="https://msdn.microsoft.com/library/windows/hardware/ff560922">REG_CREATE_KEY_INFORMATION_V1</a>, is used instead.</div><div> </div>
 
 ## -struct-fields
 
@@ -84,7 +60,7 @@ typedef struct _REG_CREATE_KEY_INFORMATION {
 
 ### -field CompleteName
 
-A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that contains the path of the new registry key. The path can be absolute or relative. If the path is absolute, this structure contains a fully qualified path that starts with the "\" character. For an absolute path, the <b>RootObject</b> member specifies the <b>\REGISTRY</b> key, which is the root directory of the registry tree. If the path is relative, the path starts with a character other than "\", and is relative to the key that is specified by the <i>RootObject</i> member.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure that contains the path of the new registry key. The path can be absolute or relative. If the path is absolute, this structure contains a fully qualified path that starts with the "\" character. For an absolute path, the <b>RootObject</b> member specifies the <b>\REGISTRY</b> key, which is the root directory of the registry tree. If the path is relative, the path starts with a character other than "\", and is relative to the key that is specified by the <i>RootObject</i> member.
 
 
 ### -field RootObject
@@ -99,17 +75,17 @@ The <b>ObjectType</b> member is reserved for internal use. Drivers must not acce
 
 ### -field CreateOptions
 
-A bitwise OR of flags. For more information about these flags, see the <i>CreateOptions</i> parameter of the <a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a> routine. This member is defined starting with Windows Vista.
+A bitwise OR of flags. For more information about these flags, see the <i>CreateOptions</i> parameter of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566425">ZwCreateKey</a> routine. This member is defined starting with Windows Vista.
 
 
 ### -field Class
 
-A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that identifies the key's object class. For more information about this member, see the <i>Class</i> parameter of the <a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a> routine. This member is defined starting with Windows Vista.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure that identifies the key's object class. For more information about this member, see the <i>Class</i> parameter of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566425">ZwCreateKey</a> routine. This member is defined starting with Windows Vista.
 
 
 ### -field SecurityDescriptor
 
-A pointer to a <a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a> structure that contains security information for the key object. This member is defined starting with Windows Vista.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a> structure that contains security information for the key object. This member is defined starting with Windows Vista.
 
 
 ### -field SecurityQualityOfService
@@ -129,7 +105,7 @@ An access mask that indicates the access rights that have been granted to the th
 
 ### -field Disposition
 
-A value that indicates whether the registry key was created. For more information about this member, see the <i>Disposition</i> parameter of the <a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a> routine and the following Remarks section. This member is defined starting with Windows Vista.
+A value that indicates whether the registry key was created. For more information about this member, see the <i>Disposition</i> parameter of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566425">ZwCreateKey</a> routine and the following Remarks section. This member is defined starting with Windows Vista.
 
 
 ### -field ResultObject
@@ -144,7 +120,7 @@ Optional driver-defined context information that the driver's <a href="https://m
 
 ### -field RootObjectContext
 
-A pointer to a driver-defined context information that the driver has associated with the root of the path for the registry object by calling <a href="..\wdm\nf-wdm-cmsetcallbackobjectcontext.md">CmSetCallbackObjectContext</a>. This member is defined starting with Windows Vista.
+A pointer to a driver-defined context information that the driver has associated with the root of the path for the registry object by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff541924">CmSetCallbackObjectContext</a>. This member is defined starting with Windows Vista.
 
 
 ### -field Transaction
@@ -154,7 +130,7 @@ A pointer to a transaction object that the operation is attempted on. If this me
 
 ### -field Reserved
 
-Starting with Windows Vista, if this member is 1, then it is safe to cast this structure to type <a href="..\wdm\ns-wdm-_reg_create_key_information_v1.md">REG_CREATE_KEY_INFORMATION_V1</a>, which contains additional parameters.
+Starting with Windows Vista, if this member is 1, then it is safe to cast this structure to type <a href="https://msdn.microsoft.com/library/windows/hardware/ff560922">REG_CREATE_KEY_INFORMATION_V1</a>, which contains additional parameters.
 
 In versions of Windows before Windows Vista, this member is always 0.
 
@@ -163,7 +139,7 @@ In versions of Windows before Windows Vista, this member is always 0.
 
 
 
-The configuration manager passes this structure to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a> routine every time a thread attempts to create a key—for example, when a user-mode thread calls <b>RegCreateKey</b> or <b>RegCreateKeyEx</b> or when a driver calls <a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a>.
+The configuration manager passes this structure to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a> routine every time a thread attempts to create a key—for example, when a user-mode thread calls <b>RegCreateKey</b> or <b>RegCreateKeyEx</b> or when a driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff566425">ZwCreateKey</a>.
 
 If the driver's <i>RegistryCallback</i> routine returns STATUS_CALLBACK_BYPASS for a <b>RegNtPreCreateKeyEx</b> notification, the driver must supply the <b>GrantedAccess</b>, <b>Disposition</b>, and <b>ResultObject</b> values.
 
@@ -174,19 +150,14 @@ For more information about registry filtering operations, see <a href="https://m
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560922">REG_CREATE_KEY_INFORMATION_V1</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a>
-
-
-
-<a href="..\wdm\ns-wdm-_reg_create_key_information_v1.md">REG_CREATE_KEY_INFORMATION_V1</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560971">REG_POST_OPERATION_INFORMATION</a>
 
 
 
@@ -194,12 +165,16 @@ For more information about registry filtering operations, see <a href="https://m
 
 
 
-<a href="..\wdm\ns-wdm-_reg_post_operation_information.md">REG_POST_OPERATION_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566425">ZwCreateKey</a>
  
 
  
-
 

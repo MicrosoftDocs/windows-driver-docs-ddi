@@ -56,30 +56,6 @@ If the allocation is specified with no notification options and no <b>RequiredOf
 The caller must create this IRB as usual, but instead use the physical mapping routine provided by the port driver in order to use this request. If it uses <b>IoCallDriver</b>, the caller cannot specify <b>Context</b> and <b>Callback</b> for a physical address, and it has to block.
 
 
-## -syntax
-
-
-````
-typedef struct {
-  PMDL           Mdl;
-  ULONG          fulFlags;
-  ULONG          nLength;
-  ULONG          MaxSegmentSize;
-  ULONG          fulAccessType;
-  ULONG          fulNotificationOptions;
-  PVOID          Callback;
-  PVOID          Context;
-  ADDRESS_OFFSET Required1394Offset;
-  PSLIST_HEADER  FifoSListHead;
-  PKSPIN_LOCK    FifoSpinLock;
-  ULONG          AddressesReturned;
-  PADDRESS_RANGE p1394AddressRange;
-  HANDLE         hAddressRange;
-  PVOID          DeviceExtension;
-} IRB_REQ_ALLOCATE_ADDRESS_RANGE;
-````
-
-
 ## -struct-fields
 
 
@@ -87,7 +63,7 @@ typedef struct {
 
 ### -field Mdl
 
-If non-<b>NULL</b>, points to the MDL that describes the application's buffer where asynchronous operations are to be read, written, or locked. The memory for the MDL must be allocated from nonpaged pool or locked down by means of a call to <a href="..\wdm\nf-wdm-mmprobeandlockpages.md">MmProbeAndLockPages</a>. If the driver specifies <b>u.AllocateAddressRange.Mdl</b>, then <b>u.AllocateAddressRange.FifoSListHead</b> and <b>u.AllocateAddressRange.FifoSpinLock</b> must be <b>NULL</b>.
+If non-<b>NULL</b>, points to the MDL that describes the application's buffer where asynchronous operations are to be read, written, or locked. The memory for the MDL must be allocated from nonpaged pool or locked down by means of a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff554664">MmProbeAndLockPages</a>. If the driver specifies <b>u.AllocateAddressRange.Mdl</b>, then <b>u.AllocateAddressRange.FifoSListHead</b> and <b>u.AllocateAddressRange.FifoSpinLock</b> must be <b>NULL</b>.
 
 
 ### -field fulFlags

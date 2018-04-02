@@ -2,13 +2,13 @@
 UID: NF:printerextension.IPrinterScriptContext.get_UserProperties
 title: IPrinterScriptContext::get_UserProperties method
 author: windows-driver-content
-description: Gets the user property bag for this app.
-old-location: print\iprinterextensioncontext_userproperties.htm
+description: Provides access to the user property bag, if the property bag is present.
+old-location: print\iprinterscriptcontext_userproperties.htm
 old-project: print
-ms.assetid: 21B370C9-BDF7-42A6-B0CC-BC9B19F9D2D5
+ms.assetid: 6F181350-41A3-4592-BB72-1E3AD6FEC748
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IPrinterExtensionContext interface [Print Devices], UserProperties property, IPrinterExtensionContext.UserProperties, IPrinterExtensionContext::get_UserProperties, IPrinterScriptContext, IPrinterScriptContext::get_UserProperties, UserProperties property [Print Devices], UserProperties property [Print Devices], IPrinterExtensionContext interface, get_UserProperties, get_UserProperties,IPrinterScriptContext.get_UserProperties, print.iprinterextensioncontext_userproperties, printerextension/IPrinterExtensionContext::UserProperties, printerextension/IPrinterExtensionContext::get_UserProperties
+ms.keywords: IPrinterScriptContext, IPrinterScriptContext interface [Print Devices], UserProperties property, IPrinterScriptContext.UserProperties, IPrinterScriptContext::get_UserProperties, UserProperties property [Print Devices], UserProperties property [Print Devices], IPrinterScriptContext interface, get_UserProperties, get_UserProperties,IPrinterScriptContext.get_UserProperties, print.iprinterscriptcontext_userproperties, printerextension/IPrinterScriptContext::UserProperties, printerextension/IPrinterScriptContext::get_UserProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -37,8 +37,8 @@ api_type:
 api_location:
 -	Printerextension.h
 api_name:
--	IPrinterExtensionContext.UserProperties
--	IPrinterExtensionContext.get_UserProperties
+-	IPrinterScriptContext.UserProperties
+-	IPrinterScriptContext.get_UserProperties
 product: Windows
 targetos: Windows
 req.typenames: PrintSchemaSelectionType
@@ -51,36 +51,36 @@ req.product: Windows 10 or later.
 ## -description
 
 
-Gets the user property bag for this app.
+Provides access to the user property bag, if the property bag is present.
 
 This property is read-only.
-
-
-## -syntax
-
-
-````
-HRESULT get_UserProperties(
-  [out, retval] IPrinterPropertyBag **ppPropertyBag
-);
-````
 
 
 ## -parameters
 
 
+## -remarks
+
+
+
+The user property bag is not available in (constraint) JavaScript functions when the functions are called during de-spooling. Therefore JavaScript functions should be designed to handle the situation when there is  a failure to retrieve the user property bag.
+
+<div class="alert"><b>Note</b>  Although the <b>UserProperties</b> property is read-only, the user property bag is a read/write property bag.</div>
+<div> </div>
+
+
+
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprinterextensioncontext.md">IPrinterExtensionContext</a>
 
 
 
-<a href="..\printerextension\nn-printerextension-iprinterpropertybag.md">IPrinterPropertyBag</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh768279">IPrinterScriptContext</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh973217">IPrinterScriptablePropertyBag</a>
  
 
  
-
 

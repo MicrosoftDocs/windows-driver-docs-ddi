@@ -49,7 +49,7 @@ req.typenames: UNIT_ISOCH_PARAMS, *PUNIT_ISOCH_PARAMS
 ## -description
 
 
-A driver for a device can use the IOCTL_ACPI_EVAL_METHOD device control request to synchronously evaluate an ACPI control method that is supported by the device. The driver should call <a href="..\wdm\nf-wdm-iobuilddeviceiocontrolrequest.md">IoBuildDeviceIoControlRequest</a> and pass the following input and output parameters to build this request.
+A driver for a device can use the IOCTL_ACPI_EVAL_METHOD device control request to synchronously evaluate an ACPI control method that is supported by the device. The driver should call <a href="https://msdn.microsoft.com/library/windows/hardware/ff548318">IoBuildDeviceIoControlRequest</a> and pass the following input and output parameters to build this request.
 
 
 ## -ioctlparameters
@@ -103,11 +103,11 @@ Set the <b>IoBuildDeviceIoControlRequest</b> output parameters as follows:
 
 <ul>
 <li>
-<i>OutputBuffer</i> supplies a pointer to an <a href="..\acpiioct\ns-acpiioct-_acpi_eval_output_buffer_v1.md">ACPI_EVAL_OUTPUT_BUFFER</a> structure that contains the output arguments from the control method.
+<i>OutputBuffer</i> supplies a pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff536123">ACPI_EVAL_OUTPUT_BUFFER</a> structure that contains the output arguments from the control method.
 
 </li>
 <li>
-<i>IoStatusBlock</i> is set to an <a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure.
+<i>IoStatusBlock</i> is set to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550671">IO_STATUS_BLOCK</a> structure.
 
 </li>
 </ul>
@@ -151,28 +151,28 @@ A driver for a device can use IOCTL_ACPI_EVAL_METHOD to synchronously evaluate a
 IOCTL_ACPI_EVAL_METHOD supports the following types of input buffer structures:
 
 
-<a href="..\acpiioct\ns-acpiioct-_acpi_eval_input_buffer_v1.md">ACPI_EVAL_INPUT_BUFFER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536115">ACPI_EVAL_INPUT_BUFFER</a>
 
 
 
-<a href="..\acpiioct\ns-acpiioct-_acpi_eval_input_buffer_simple_integer_v1.md">ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536119">ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER</a>
 
 
 
-<a href="..\acpiioct\ns-acpiioct-_acpi_eval_input_buffer_simple_string_v1.md">ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536121">ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING</a>
 
 
 
-<a href="..\acpiioct\ns-acpiioct-_acpi_eval_input_buffer_complex_v1.md">ACPI_EVAL_INPUT_BUFFER_COMPLEX</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536116">ACPI_EVAL_INPUT_BUFFER_COMPLEX</a>
 
 
-The output arguments from the control method are returned in the variable-length <a href="..\acpiioct\ns-acpiioct-_acpi_eval_output_buffer_v1.md">ACPI_EVAL_OUTPUT_BUFFER</a> structure that is supplied by the <i>OutBuffer</i> pointer. The ACPI_EVAL_OUTPUT_BUFFER includes an array of variable-length <a href="..\acpiioct\ns-acpiioct-_acpi_method_argument_v1.md">ACPI_METHOD_ARGUMENT</a> structures, each of which returns an output argument.
+The output arguments from the control method are returned in the variable-length <a href="https://msdn.microsoft.com/library/windows/hardware/ff536123">ACPI_EVAL_OUTPUT_BUFFER</a> structure that is supplied by the <i>OutBuffer</i> pointer. The ACPI_EVAL_OUTPUT_BUFFER includes an array of variable-length <a href="https://msdn.microsoft.com/library/windows/hardware/ff536125">ACPI_METHOD_ARGUMENT</a> structures, each of which returns an output argument.
 
 For more information about how to synchronously evaluate control methods, see <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/acpi/evaluating-acpi-control-methods-synchronously">Evaluating ACPI Control Methods Synchronously</a>.
 
-Starting with Windows Server 2008 and Windows Vista, a driver can also use an <a href="..\acpiioct\ni-acpiioct-ioctl_acpi_eval_method_ex.md">IOCTL_ACPI_EVAL_METHOD_EX</a> request to synchronously evaluate a control method that is not an immediate child object of a device.
+Starting with Windows Server 2008 and Windows Vista, a driver can also use an <a href="https://msdn.microsoft.com/library/windows/hardware/ff536149">IOCTL_ACPI_EVAL_METHOD_EX</a> request to synchronously evaluate a control method that is not an immediate child object of a device.
 
-For information about how to evaluate an ACPI control method asynchronously starting on Windows Server 2008 and Windows Vista, see <a href="..\acpiioct\ni-acpiioct-ioctl_acpi_async_eval_method.md">IOCTL_ACPI_ASYNC_EVAL_METHOD</a> and <a href="..\acpiioct\ni-acpiioct-ioctl_acpi_async_eval_method_ex.md">IOCTL_ACPI_ASYNC_EVAL_METHOD_EX</a>.
+For information about how to evaluate an ACPI control method asynchronously starting on Windows Server 2008 and Windows Vista, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff536145">IOCTL_ACPI_ASYNC_EVAL_METHOD</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff536146">IOCTL_ACPI_ASYNC_EVAL_METHOD_EX</a>.
 
 IOCTL_ACPI_EVAL_METHOD can be used only at IRQL &lt; DISPATCH_LEVEL.
 
@@ -181,44 +181,43 @@ IOCTL_ACPI_EVAL_METHOD can be used only at IRQL &lt; DISPATCH_LEVEL.
 
 ## -see-also
 
-<a href="..\acpiioct\ns-acpiioct-_acpi_eval_input_buffer_simple_integer_v1.md">ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER</a>
 
 
 
-<a href="..\acpiioct\ni-acpiioct-ioctl_acpi_eval_method_ex.md">IOCTL_ACPI_EVAL_METHOD_EX</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536115">ACPI_EVAL_INPUT_BUFFER</a>
 
 
 
-<a href="..\acpiioct\ns-acpiioct-_acpi_eval_input_buffer_complex_v1.md">ACPI_EVAL_INPUT_BUFFER_COMPLEX</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536116">ACPI_EVAL_INPUT_BUFFER_COMPLEX</a>
 
 
 
-<a href="..\acpiioct\ni-acpiioct-ioctl_acpi_async_eval_method_ex.md">IOCTL_ACPI_ASYNC_EVAL_METHOD_EX</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536119">ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER</a>
 
 
 
-<a href="..\acpiioct\ns-acpiioct-_acpi_eval_output_buffer_v1.md">ACPI_EVAL_OUTPUT_BUFFER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536121">ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING</a>
 
 
 
-<a href="..\acpiioct\ns-acpiioct-_acpi_eval_input_buffer_simple_string_v1.md">ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536123">ACPI_EVAL_OUTPUT_BUFFER</a>
 
 
 
-<a href="..\acpiioct\ns-acpiioct-_acpi_method_argument_v1.md">ACPI_METHOD_ARGUMENT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536125">ACPI_METHOD_ARGUMENT</a>
 
 
 
-<a href="..\acpiioct\ns-acpiioct-_acpi_eval_input_buffer_v1.md">ACPI_EVAL_INPUT_BUFFER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536145">IOCTL_ACPI_ASYNC_EVAL_METHOD</a>
 
 
 
-<a href="..\acpiioct\ni-acpiioct-ioctl_acpi_async_eval_method.md">IOCTL_ACPI_ASYNC_EVAL_METHOD</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536146">IOCTL_ACPI_ASYNC_EVAL_METHOD_EX</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536149">IOCTL_ACPI_EVAL_METHOD_EX</a>
  
 
  
-
 

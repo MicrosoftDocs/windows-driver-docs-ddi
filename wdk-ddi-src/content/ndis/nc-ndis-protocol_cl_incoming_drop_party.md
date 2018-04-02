@@ -7,7 +7,7 @@ old-location: netvista\protocolclincomingdropparty.htm
 old-project: netvista
 ms.assetid: 3815ca4b-f4bc-4de9-a28a-5d3ee20bcdd8
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: PROTOCOL_CL_INCOMING_DROP_PARTY, ProtocolClIncomingDropParty, ProtocolClIncomingDropParty callback function [Network Drivers Starting with Windows Vista], condis_client_ref_ac4b9f43-23f6-4300-8110-1589cecffe21.xml, ndis/ProtocolClIncomingDropParty, netvista.protocolclincomingdropparty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -57,22 +57,6 @@ The
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>PROTOCOL_CL_INCOMING_DROP_PARTY</b> type.
    For more information, see the following Examples section.</div><div> </div>
 
-## -prototype
-
-
-````
-PROTOCOL_CL_INCOMING_DROP_PARTY ProtocolClIncomingDropParty;
-
-VOID ProtocolClIncomingDropParty(
-  _In_ NDIS_STATUS DropStatus,
-  _In_ NDIS_HANDLE ProtocolPartyContext,
-  _In_ PVOID       CloseData,
-  _In_ UINT        Size
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -90,8 +74,8 @@ Indicates the reason for the party to be dropped. Usually, this is NDIS_STATUS_S
 
 Specifies the handle to the client's per-party context area for the party to be dropped. The
      client originally supplied this handle to NDIS when it called 
-     <a href="..\ndis\nf-ndis-ndiscladdparty.md">NdisClAddParty</a> or 
-     <a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff561625">NdisClAddParty</a> or 
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff561635">NdisClMakeCall</a>.
 
 
 ### -param CloseData [in]
@@ -148,14 +132,14 @@ In either case,
     <i>ProtocolClIncomingDropParty</i> should carry out any protocol-determined operations for dropping the
     party from the client's multipoint VC. 
     <i>ProtocolClIncomingDropParty</i> must call 
-    <a href="..\ndis\nf-ndis-ndiscldropparty.md">NdisClDropParty</a> or, if this is the last
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561629">NdisClDropParty</a> or, if this is the last
     remaining party on the client's multipoint VC, 
-    <a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561627">NdisClCloseCall</a>.
 
 <i>ProtocolClIncomingDropParty</i> should consider the 
     <i>NdisPartyHandle</i> that the client obtained from 
-    <a href="..\ndis\nf-ndis-ndiscladdparty.md">NdisClAddParty</a> or 
-    <a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a> invalid. 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561625">NdisClAddParty</a> or 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561635">NdisClMakeCall</a> invalid. 
     <i>ProtocolClIncomingDropParty</i> can either release the client's per-party context area or prepare it
     for reuse in a subsequent call to 
     <b>NdisClAddParty</b>.
@@ -204,43 +188,42 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndiscmdispatchincomingdropparty.md">
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561625">NdisClAddParty</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561627">NdisClCloseCall</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561629">NdisClDropParty</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561635">NdisClMakeCall</a>
+
+
+
+<a href="https://msdn.microsoft.com/9dce2b0a-1d0c-4c87-a32f-8bf72bb91cfe">
    NdisCmDispatchIncomingDropParty</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiscladdparty.md">NdisClAddParty</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562577">NdisFreeMemory</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisfreememory.md">NdisFreeMemory</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismcmdispatchincomingdropparty.md">
-   NdisMCmDispatchIncomingDropParty</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisfreetonpagedlookasidelist.md">
+<a href="https://msdn.microsoft.com/2405a405-177a-420a-9628-a340e0d0acb3">
    NdisFreeToNPagedLookasideList</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiscldropparty.md">NdisClDropParty</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
-
-
-
+<a href="https://msdn.microsoft.com/4549b6f4-5138-4724-959c-a36b38c319fd">
+   NdisMCmDispatchIncomingDropParty</a>
  
 
  
-
 

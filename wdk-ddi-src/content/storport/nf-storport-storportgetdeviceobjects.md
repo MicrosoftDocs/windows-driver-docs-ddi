@@ -7,7 +7,7 @@ old-location: storage\storportgetdeviceobjects.htm
 old-project: storage
 ms.assetid: e48b5048-5f5f-4efb-b7bf-2dd183074516
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: StorPortGetDeviceObjects, StorPortGetDeviceObjects routine [Storage Devices], storage.storportgetdeviceobjects, storport/StorPortGetDeviceObjects, storprt_219d8794-88c3-49c6-82ea-a19f75c3ad1f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,19 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>StorPortGetDeviceObjects</b> routine returns the device objects that are associated with the adapter device stack. The device objects that will be returned are the functional and physical device objects of the adapter and the device object to which the functional device object is attached. 
-
-
-## -syntax
-
-
-````
-ULONG StorPortGetDeviceObjects(
-  _In_  PVOID HwDeviceExtension,
-  _Out_ PVOID *AdapterDeviceObject,
-  _Out_ PVOID *PhysicalDeviceObject,
-  _Out_ PVOID *LowerDeviceObject
-);
-````
 
 
 ## -parameters

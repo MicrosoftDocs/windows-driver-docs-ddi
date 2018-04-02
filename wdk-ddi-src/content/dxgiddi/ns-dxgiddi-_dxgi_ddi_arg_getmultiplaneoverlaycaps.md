@@ -7,7 +7,7 @@ old-location: display\dxgi_ddi_arg_getmultiplaneoverlaycaps.htm
 old-project: display
 ms.assetid: 7e4f9610-52f4-4807-94f0-c408ecb0673c
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGI_DDI_ARG_GETMULTIPLANEOVERLAYCAPS, DXGI_DDI_ARG_GETMULTIPLANEOVERLAYCAPS structure [Display Devices], _DXGI_DDI_ARG_GETMULTIPLANEOVERLAYCAPS, display.dxgi_ddi_arg_getmultiplaneoverlaycaps, dxgiddi/DXGI_DDI_ARG_GETMULTIPLANEOVERLAYCAPS
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,18 +52,6 @@ req.typenames: DXGI_DDI_ARG_GETMULTIPLANEOVERLAYCAPS
 Used in a call to the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265493">pfnGetMultiPlaneOverlayCaps</a> function to get overlay plane capabilities.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGI_DDI_ARG_GETMULTIPLANEOVERLAYCAPS {
-  DXGI_DDI_HDEVICE                 hDevice;
-  D3DDDI_VIDEO_PRESENT_SOURCE_ID   VidPnSourceId;
-  DXGI_DDI_MULTIPLANE_OVERLAY_CAPS MultiPlaneOverlayCaps;
-} DXGI_DDI_ARG_GETMULTIPLANEOVERLAYCAPS;
-````
-
-
 ## -struct-fields
 
 
@@ -73,7 +61,7 @@ typedef struct _DXGI_DDI_ARG_GETMULTIPLANEOVERLAYCAPS {
 
 [in] A handle to the display device (graphics context) for which overlay plane capabilities are needed.
 
-The Direct3D runtime passed this handle to the driver in the <b>hDrvDevice</b> member of the <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createdevice.md">D3D10DDIARG_CREATEDEVICE</a> structure when it created the device by calling the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a> routine.
+The Direct3D runtime passed this handle to the driver in the <b>hDrvDevice</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541664">D3D10DDIARG_CREATEDEVICE</a> structure when it created the device by calling the <a href="https://msdn.microsoft.com/c69eedb1-c975-412c-aa9f-cf64a702f937">CreateDevice(D3D10)</a> routine.
 
 
 ### -field VidPnSourceId
@@ -90,29 +78,28 @@ The Direct3D runtime passed this handle to the driver in the <b>hDrvDevice</b> m
 
 #### - MultiPlaneOverlayCaps
 
-[out] The overlay plane capabilities, given as a <a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_multiplane_overlay_caps.md">DXGI_DDI_MULTIPLANE_OVERLAY_CAPS</a> structure.
+[out] The overlay plane capabilities, given as a <a href="https://msdn.microsoft.com/library/windows/hardware/hh780285">DXGI_DDI_MULTIPLANE_OVERLAY_CAPS</a> structure.
 
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/c69eedb1-c975-412c-aa9f-cf64a702f937">CreateDevice(D3D10)</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541664">D3D10DDIARG_CREATEDEVICE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh780285">DXGI_DDI_MULTIPLANE_OVERLAY_CAPS</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn265493">pfnGetMultiPlaneOverlayCaps</a>
-
-
-
-<a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_multiplane_overlay_caps.md">DXGI_DDI_MULTIPLANE_OVERLAY_CAPS</a>
-
-
-
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a>
-
-
-
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createdevice.md">D3D10DDIARG_CREATEDEVICE</a>
-
-
-
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: kernel\iosetiopriorityhint.htm
 old-project: kernel
 ms.assetid: ecd4ed14-b9f2-45ff-a42b-5c67f1ccfd91
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: IoSetIoPriorityHint, IoSetIoPriorityHint routine [Kernel-Mode Driver Architecture], k104_9d72dacc-03a6-4dda-8c2b-69b59a817392.xml, kernel.iosetiopriorityhint, wdm/IoSetIoPriorityHint
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The <b>IoSetIoPriorityHint</b> routine sets the <a href="https://msdn.microsoft.com/c34afff2-32f2-451b-ab16-ff048d5c3204">priority hint value</a> for an IRP.
 
 
-## -syntax
-
-
-````
-NTSTATUS IoSetIoPriorityHint(
-  _In_ PIRP             Irp,
-  _In_ IO_PRIORITY_HINT PriorityHint
-);
-````
-
-
 ## -parameters
 
 
@@ -76,7 +65,7 @@ Specifies the IRP to set the priority hint value for.
 
 ### -param PriorityHint [in]
 
-Specifies the <a href="..\wdm\ne-wdm-_io_priority_hint.md">IO_PRIORITY_HINT</a> value that indicates the new priority hint.
+Specifies the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550594">IO_PRIORITY_HINT</a> value that indicates the new priority hint.
 
 
 ## -returns
@@ -99,16 +88,15 @@ For more information about priority hints, see <a href="https://msdn.microsoft.c
 
 ## -see-also
 
-<a href="..\wdm\ne-wdm-_io_priority_hint.md">IO_PRIORITY_HINT</a>
 
 
 
-<a href="..\wdm\nf-wdm-iogetiopriorityhint.md">IoGetIoPriorityHint</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550594">IO_PRIORITY_HINT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549265">IoGetIoPriorityHint</a>
  
 
  
-
 

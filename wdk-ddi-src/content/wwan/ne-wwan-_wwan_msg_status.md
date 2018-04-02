@@ -7,7 +7,7 @@ old-location: netvista\wwan_msg_status.htm
 old-project: netvista
 ms.assetid: 60eb0494-fcc6-4546-a13a-b6d1dcf165e6
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PWWAN_MSG_STATUS, PWWAN_MSG_STATUS, PWWAN_MSG_STATUS enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_MSG_STATUS, WWAN_MSG_STATUS enumeration [Network Drivers Starting with Windows Vista], WwanMsgStatusDraft, WwanMsgStatusMax, WwanMsgStatusNew, WwanMsgStatusOld, WwanMsgStatusSent, WwanRef_2cd2fe07-ee6c-4193-960e-434e31561f9e.xml, _WWAN_MSG_STATUS, netvista.wwan_msg_status, wwan/PWWAN_MSG_STATUS, wwan/WWAN_MSG_STATUS, wwan/WwanMsgStatusDraft, wwan/WwanMsgStatusMax, wwan/WwanMsgStatusNew, wwan/WwanMsgStatusOld, wwan/WwanMsgStatusSent"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,20 +53,6 @@ req.product: Windows 10 or later.
 The WWAN_MSG_STATUS enumeration lists different SMS message statuses.
 
 
-## -syntax
-
-
-````
-typedef enum _WWAN_MSG_STATUS { 
-  WwanMsgStatusNew    = 0,
-  WwanMsgStatusOld,
-  WwanMsgStatusDraft,
-  WwanMsgStatusSent,
-  WwanMsgStatusMax
-} WWAN_MSG_STATUS, *PWWAN_MSG_STATUS;
-````
-
-
 ## -enum-fields
 
 
@@ -99,16 +85,15 @@ The total number of supported SMS message statuses.
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_sms_pdu_record.md">WWAN_SMS_PDU_RECORD</a>
 
 
 
-<a href="..\wwan\ns-wwan-_wwan_sms_cdma_record.md">WWAN_SMS_CDMA_RECORD</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571243">WWAN_SMS_CDMA_RECORD</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571248">WWAN_SMS_PDU_RECORD</a>
  
 
  
-
 

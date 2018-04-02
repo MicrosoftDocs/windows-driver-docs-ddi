@@ -57,16 +57,6 @@ req.product: Windows 10 or later.
   <b>SetActivityId</b> method associates an activity identifier with an I/O request.
 
 
-## -syntax
-
-
-````
-void SetActivityId(
-  [in] LPGUID ActivityId
-);
-````
-
-
 ## -parameters
 
 
@@ -98,7 +88,7 @@ The framework does not clear a request's activity identifier when the driver cal
 
 For more information about activity identifiers, see <a href="https://msdn.microsoft.com/2B70953F-5192-4654-9506-6A84373D20B4">Using Activity Identifiers</a>.
 
-The UMDF 2 equivalent of this method is <a href="..\wdfrequest\nf-wdfrequest-wdfrequestsetactivityid.md">WdfRequestSetActivityId</a>.
+The UMDF 2 equivalent of this method is <a href="https://msdn.microsoft.com/library/windows/hardware/dn265622">WdfRequestSetActivityId</a>.
 
 
 #### Examples
@@ -111,11 +101,10 @@ For a code example that uses <b>SetActivityId</b>, see <a href="https://msdn.mic
 
 ## -see-also
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestsetactivityid.md">WdfRequestSetActivityId</a>
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest3.md">IWDFIoRequest3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451337">IWDFIoRequest3</a>
 
 
 
@@ -123,8 +112,8 @@ For a code example that uses <b>SetActivityId</b>, see <a href="https://msdn.mic
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265622">WdfRequestSetActivityId</a>
  
 
  
-
 

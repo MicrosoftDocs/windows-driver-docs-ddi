@@ -52,24 +52,6 @@ req.typenames: WHEA_ERROR_PACKET_DATA_FORMAT, *PWHEA_ERROR_PACKET_DATA_FORMAT
 The WHEA_ERROR_PACKET_DATA_FORMAT enumeration defines the raw hardware error data format in a hardware error packet.
 
 
-## -syntax
-
-
-````
-typedef enum _WHEA_ERROR_PACKET_DATA_FORMAT { 
-  WheaDataFormatIPFSalRecord  = 0,
-  WheaDataFormatXPFMCA,
-  WheaDataFormatMemory,
-  WheaDataFormatPCIExpress,
-  WheaDataFormatNMIPort,
-  WheaDataFormatPCIXBus,
-  WheaDataFormatPCIXDevice,
-  WheaDataFormatGeneric,
-  WheaDataFormatMax
-} WHEA_ERROR_PACKET_DATA_FORMAT, *PWHEA_ERROR_PACKET_DATA_FORMAT;
-````
-
-
 ## -enum-fields
 
 
@@ -112,7 +94,7 @@ The raw data in the hardware error packet contains a PCI/PCI-X device error data
 
 ### -field WheaDataFormatGeneric
 
-The raw data in the hardware error packet is formatted as a <a href="..\ntddk\ns-ntddk-_whea_generic_error.md">WHEA_GENERIC_ERROR</a> structure.
+The raw data in the hardware error packet is formatted as a <a href="https://msdn.microsoft.com/library/windows/hardware/ff560524">WHEA_GENERIC_ERROR</a> structure.
 
 
 ### -field WheaDataFormatMax
@@ -124,27 +106,26 @@ The maximum number of formats of raw hardware error data.
 
 
 
-The <a href="..\ntddk\ns-ntddk-_whea_error_packet_v2.md">WHEA_ERROR_PACKET_V2</a> structure contains a member of type WHEA_ERROR_PACKET_DATA_FORMAT that specifies the format of the raw data that is contained in the hardware error packet.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560480">WHEA_ERROR_PACKET_V2</a> structure contains a member of type WHEA_ERROR_PACKET_DATA_FORMAT that specifies the format of the raw data that is contained in the hardware error packet.
 
 
 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537457">PCI_EXPRESS_AER_CAPABILITY</a>
 
 
 
-<a href="..\ntddk\ns-ntddk-_whea_generic_error.md">WHEA_GENERIC_ERROR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560480">WHEA_ERROR_PACKET_V2</a>
 
 
 
-<a href="..\ntddk\ns-ntddk-_whea_error_packet_v2.md">WHEA_ERROR_PACKET_V2</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560524">WHEA_GENERIC_ERROR</a>
  
 
  
-
 

@@ -55,16 +55,6 @@ req.product: Windows 10 or later.
 The <b>GetDefaultIoQueue</b> method retrieves the interface of the default I/O queue for a device.
 
 
-## -syntax
-
-
-````
-void GetDefaultIoQueue(
-  [out] IWDFIoQueue **ppWdfIoQueue
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +62,7 @@ void GetDefaultIoQueue(
 
 ### -param ppWdfIoQueue [out]
 
-A pointer to a variable that receives a pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a> interface for the default I/O queue object.
+A pointer to a variable that receives a pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558943">IWDFIoQueue</a> interface for the default I/O queue object.
 
 
 ## -returns
@@ -95,16 +85,15 @@ For more information about queue objects, see <a href="https://docs.microsoft.co
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556917">IWDFDevice</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558943">IWDFIoQueue</a>
  
 
  
-
 

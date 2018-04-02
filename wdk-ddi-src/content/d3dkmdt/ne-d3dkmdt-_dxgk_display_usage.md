@@ -7,7 +7,7 @@ old-location: display\dxgk_display_usage.htm
 old-project: display
 ms.assetid: 07B51679-4E9B-4360-AA4A-D5BD9BADB4FC
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PDXGK_DISPLAY_USAGE, DXGK_DISPLAY_USAGE, DXGK_DISPLAY_USAGE enumeration [Display Devices], DXGK_DU_AR, DXGK_DU_GENERIC, DXGK_DU_INVALID, DXGK_DU_VR, PDXGK_DISPLAY_USAGE, PDXGK_DISPLAY_USAGE enumeration pointer [Display Devices], _DXGK_DISPLAY_USAGE, d3dkmdt/DXGK_DISPLAY_USAGE, d3dkmdt/DXGK_DU_AR, d3dkmdt/DXGK_DU_GENERIC, d3dkmdt/DXGK_DU_INVALID, d3dkmdt/DXGK_DU_VR, d3dkmdt/PDXGK_DISPLAY_USAGE, display.dxgk_display_usage"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,19 +50,6 @@ req.typenames: DXGK_DISPLAY_USAGE, *PDXGK_DISPLAY_USAGE
 
 
 Enum used to specify the display type being used.
-
-
-## -syntax
-
-
-````
-typedef enum _DXGK_DISPLAY_USAGE { 
-  DXGK_DU_INVALID  = 0,
-  DXGK_DU_GENERIC,
-  DXGK_DU_AR,
-  DXGK_DU_VR
-} DXGK_DISPLAY_USAGE, *PDXGK_DISPLAY_USAGE;
-````
 
 
 ## -enum-fields

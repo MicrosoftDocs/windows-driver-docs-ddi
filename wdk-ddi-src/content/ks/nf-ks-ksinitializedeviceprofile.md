@@ -54,16 +54,6 @@ The <b>KsInitializeDeviceProfile</b> API must be called by all miniport drivers 
 
 
 
-## -syntax
-
-
-````
- __drv_maxIRQL(PASSIVE_LEVEL) KSDDKAPI NTSTATUS NTAPI KsInitializeDeviceProfile(
-  _In_ PKSFILTERFACTORY FilterFactory
-);
-````
-
-
 ## -parameters
 
 
@@ -71,7 +61,7 @@ The <b>KsInitializeDeviceProfile</b> API must be called by all miniport drivers 
 
 ### -param FilterFactory [in]
 
-This is the <a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a> that was created by the camera driver to uniquely identify the camera’s filter factory.
+This is the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562530">KSFILTERFACTORY</a> that was created by the camera driver to uniquely identify the camera’s filter factory.
 
 
 ## -returns
@@ -87,9 +77,9 @@ If the provided <b>KSFILTERFACTORY</b> does not contain a device interface assoc
 
 
 
-It is required that the <b>ReferenceGuid</b> field of the <a href="..\ks\ns-ks-_ksfilter_descriptor.md">KSFILTER_DESCRIPTOR</a> structure contained with the <b>KSFILTERFACTORY</b> be set with a unique GUID for this filter type.  And the <b>Flags</b> field of the <b>KSFILTER_DESCRIPTOR</b> has the <b>KSFILTER_FLAG_PRIORITIZE_REFERENCEGUID</b> flag set.
+It is required that the <b>ReferenceGuid</b> field of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562553">KSFILTER_DESCRIPTOR</a> structure contained with the <b>KSFILTERFACTORY</b> be set with a unique GUID for this filter type.  And the <b>Flags</b> field of the <b>KSFILTER_DESCRIPTOR</b> has the <b>KSFILTER_FLAG_PRIORITIZE_REFERENCEGUID</b> flag set.
 
-To delete all profiles from the profile store associated with the device interface for this <b>KSFILTERFACTORY</b>, the driver may call <b>KsInitializeDeviceProfile</b> followed immediately by <a href="..\ks\nf-ks-kspersistdeviceprofile.md">KsPersistDeviceProfile</a>.  This would result in an empty profile information, which would remove the profile information from the profile store.
+To delete all profiles from the profile store associated with the device interface for this <b>KSFILTERFACTORY</b>, the driver may call <b>KsInitializeDeviceProfile</b> followed immediately by <a href="https://msdn.microsoft.com/library/windows/hardware/dn917889">KsPersistDeviceProfile</a>.  This would result in an empty profile information, which would remove the profile information from the profile store.
 
 
 

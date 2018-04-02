@@ -7,7 +7,7 @@ old-location: display\d3dkmt_umd_driver_version.htm
 old-project: display
 ms.assetid: 0661a65d-5129-49f6-9400-70b8c8e8245f
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMT_UMD_DRIVER_VERSION, D3DKMT_UMD_DRIVER_VERSION structure [Display Devices], _D3DKMT_UMD_DRIVER_VERSION, d3dkmthk/D3DKMT_UMD_DRIVER_VERSION, display.d3dkmt_umd_driver_version
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,16 +50,6 @@ req.typenames: D3DKMT_UMD_DRIVER_VERSION
 
 
 Indicates the version number of the user-mode driver.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_UMD_DRIVER_VERSION {
-  LARGE_INTEGER DriverVersion;
-} D3DKMT_UMD_DRIVER_VERSION;
-````
 
 
 ## -struct-fields

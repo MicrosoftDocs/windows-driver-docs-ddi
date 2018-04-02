@@ -7,7 +7,7 @@ old-location: display\d3d11_1ddi_video_processor_output_rate.htm
 old-project: display
 ms.assetid: ff34c208-9b42-4f72-bb2a-43f3bb44fd68
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3D11_1DDI_VIDEO_PROCESSOR_OUTPUT_RATE, D3D11_1DDI_VIDEO_PROCESSOR_OUTPUT_RATE enumeration [Display Devices], D3D11_1DDI_VIDEO_PROCESSOR_OUTPUT_RATE_CUSTOM, D3D11_1DDI_VIDEO_PROCESSOR_OUTPUT_RATE_HALF, D3D11_1DDI_VIDEO_PROCESSOR_OUTPUT_RATE_NORMAL, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_OUTPUT_RATE, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_OUTPUT_RATE_CUSTOM, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_OUTPUT_RATE_HALF, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_OUTPUT_RATE_NORMAL, display.d3d11_1ddi_video_processor_output_rate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,18 +50,6 @@ req.typenames: D3D11_1DDI_VIDEO_PROCESSOR_OUTPUT_RATE
 
 
 Specifies the rate at which the video processor produces output frames from an input stream.
-
-
-## -syntax
-
-
-````
-typedef enum D3D11_1DDI_VIDEO_PROCESSOR_OUTPUT_RATE { 
-  D3D11_1DDI_VIDEO_PROCESSOR_OUTPUT_RATE_NORMAL  = 0,
-  D3D11_1DDI_VIDEO_PROCESSOR_OUTPUT_RATE_HALF    = 1,
-  D3D11_1DDI_VIDEO_PROCESSOR_OUTPUT_RATE_CUSTOM  = 2
-} D3D11_1DDI_VIDEO_PROCESSOR_OUTPUT_RATE;
-````
 
 
 ## -enum-fields

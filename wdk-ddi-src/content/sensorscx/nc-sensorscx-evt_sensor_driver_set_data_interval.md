@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 This callback function sets the data interval for a specified sensor.
 
 
-## -prototype
-
-
-````
-NTSTATUS EvtSensorSetDataInterval(
-  _In_ SENSOROBJECT Sensor,
-  _In_ PULONG       pDataRateMs
-);
-````
-
-
 ## -parameters
 
 

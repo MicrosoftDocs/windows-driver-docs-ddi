@@ -7,7 +7,7 @@ old-location: kernel\file_alignment_information.htm
 old-project: kernel
 ms.assetid: d3990d67-aa0c-4d17-9126-80fdcebbd306
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*PFILE_ALIGNMENT_INFORMATION, FILE_ALIGNMENT_INFORMATION, FILE_ALIGNMENT_INFORMATION structure [Kernel-Mode Driver Architecture], PFILE_ALIGNMENT_INFORMATION, PFILE_ALIGNMENT_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _FILE_ALIGNMENT_INFORMATION, kernel.file_alignment_information, kstruct_b_ce42b00c-17a9-4fcf-a6bb-ade557580e81.xml, ntddk/FILE_ALIGNMENT_INFORMATION, ntddk/PFILE_ALIGNMENT_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,17 +49,7 @@ req.typenames: FILE_ALIGNMENT_INFORMATION, *PFILE_ALIGNMENT_INFORMATION
 ## -description
 
 
-The <b>FILE_ALIGNMENT_INFORMATION</b> structure is used as an argument to the <a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a> routine.
-
-
-## -syntax
-
-
-````
-typedef struct _FILE_ALIGNMENT_INFORMATION {
-  ULONG AlignmentRequirement;
-} FILE_ALIGNMENT_INFORMATION, *PFILE_ALIGNMENT_INFORMATION;
-````
+The <b>FILE_ALIGNMENT_INFORMATION</b> structure is used as an argument to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567052">ZwQueryInformationFile</a> routine.
 
 
 ## -struct-fields
@@ -69,25 +59,24 @@ typedef struct _FILE_ALIGNMENT_INFORMATION {
 
 ### -field AlignmentRequirement
 
-The buffer alignment required by the underlying device. For a list of system-defined values, see <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>. The value must be one of the FILE_<i>XXX</i>_ALIGNMENT values defined in Wdm.h. For more information, see <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff547807">Initializing a Device Object</a>.
+The buffer alignment required by the underlying device. For a list of system-defined values, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>. The value must be one of the FILE_<i>XXX</i>_ALIGNMENT values defined in Wdm.h. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff547807">Initializing a Device Object</a>.
 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>
 
 
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567052">ZwQueryInformationFile</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567096">ZwSetInformationFile</a>
  
 
  
-
 

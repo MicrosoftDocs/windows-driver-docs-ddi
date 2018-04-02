@@ -7,7 +7,7 @@ old-location: kernel\zwopenkeytransacted.htm
 old-project: kernel
 ms.assetid: 9fd9aabd-3452-461d-b051-c3130b22ef5c
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: ZwOpenKeyTransacted, ZwOpenKeyTransacted routine [Kernel-Mode Driver Architecture], k111_e4192ee9-7dba-48d2-81be-38b33ff0b1d6.xml, kernel.zwopenkeytransacted, wdm/ZwOpenKeyTransacted
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 The <b>ZwOpenKeyTransacted</b> routine opens an existing registry key and associates the key with a transaction. 
 
 
-## -syntax
-
-
-````
-NTSTATUS ZwOpenKeyTransacted(
-  _Out_ PHANDLE            KeyHandle,
-  _In_  ACCESS_MASK        DesiredAccess,
-  _In_  POBJECT_ATTRIBUTES ObjectAttributes,
-  _In_  HANDLE             TransactionHandle
-);
-````
-
-
 ## -parameters
 
 
@@ -78,17 +65,17 @@ A pointer to a HANDLE variable into which the routine writes the handle to the k
 
 ### -param DesiredAccess [in]
 
-Specifies the type of access to the key that the caller requests. This parameter is an <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a> value. For more information, see the description of the <i>DesiredAccess</i> parameter of the <a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a> routine. 
+Specifies the type of access to the key that the caller requests. This parameter is an <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a> value. For more information, see the description of the <i>DesiredAccess</i> parameter of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566425">ZwCreateKey</a> routine. 
 
 
 ### -param ObjectAttributes [in]
 
-A pointer to the object attributes of the key being opened. This parameter points to an <a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a> structure that must have been previously initialized by the <a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a> routine. The caller must specify the name of the registry key as the <i>ObjectName</i> parameter in the call to <b>InitializeObjectAttributes</b>. If the caller is not running in a system thread context, it must set the OBJ_KERNEL_HANDLE attribute when it calls <b>InitializeObjectAttributes</b>. 
+A pointer to the object attributes of the key being opened. This parameter points to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff557749">OBJECT_ATTRIBUTES</a> structure that must have been previously initialized by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547804">InitializeObjectAttributes</a> routine. The caller must specify the name of the registry key as the <i>ObjectName</i> parameter in the call to <b>InitializeObjectAttributes</b>. If the caller is not running in a system thread context, it must set the OBJ_KERNEL_HANDLE attribute when it calls <b>InitializeObjectAttributes</b>. 
 
 
 ### -param TransactionHandle [in]
 
-A handle to a <a href="https://msdn.microsoft.com/124105bd-70be-49b1-8ea4-af6ba1f3cf16">transaction object</a>. To obtain this handle, you can call the <a href="..\wdm\nf-wdm-zwcreatetransaction.md">ZwCreateTransaction</a> routine. Or, if you have a pointer to a transaction object, you can supply the pointer to the <a href="..\ntifs\nf-ntifs-obopenobjectbypointer.md">ObOpenObjectByPointer</a> routine to obtain the corresponding transaction handle. 
+A handle to a <a href="https://msdn.microsoft.com/124105bd-70be-49b1-8ea4-af6ba1f3cf16">transaction object</a>. To obtain this handle, you can call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566429">ZwCreateTransaction</a> routine. Or, if you have a pointer to a transaction object, you can supply the pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550985">ObOpenObjectByPointer</a> routine to obtain the corresponding transaction handle. 
 
 
 ## -returns
@@ -169,15 +156,15 @@ A memory allocation operation failed.
 
 This routine provides a handle with which the caller can access a registry key. Additionally, this routine associates the key with an active transaction.
 
-After the handle that is pointed to by <i>KeyHandle</i> is no longer being used, the driver must call the <a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a> routine to close it.
+After the handle that is pointed to by <i>KeyHandle</i> is no longer being used, the driver must call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566417">ZwClose</a> routine to close it.
 
-If the specified key does not exist in the registry, <b>ZwOpenKeyTransacted</b> returns an error status value and does not supply a key handle. Unlike the <a href="..\wdm\nf-wdm-zwcreatekeytransacted.md">ZwCreateKeyTransacted</a> routine, the <b>ZwOpenKeyTransacted</b> routine does not create the specified key if the key does not exist. Both <b>ZwCreateKeyTransacted</b> and <b>ZwOpenKeyTransacted</b> associate a registry key with a transaction.
+If the specified key does not exist in the registry, <b>ZwOpenKeyTransacted</b> returns an error status value and does not supply a key handle. Unlike the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566426">ZwCreateKeyTransacted</a> routine, the <b>ZwOpenKeyTransacted</b> routine does not create the specified key if the key does not exist. Both <b>ZwCreateKeyTransacted</b> and <b>ZwOpenKeyTransacted</b> associate a registry key with a transaction.
 
-The <a href="..\wdm\nf-wdm-zwopenkey.md">ZwOpenKey</a> routine is similar to <b>ZwOpenKeyTransacted</b>, but does not associate a key with a transaction.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/ff567014">ZwOpenKey</a> routine is similar to <b>ZwOpenKeyTransacted</b>, but does not associate a key with a transaction.
 
 After a kernel-mode driver obtains a handle to a transaction (for example, by calling <b>ZwCreateTransaction</b>), the driver can perform a series of registry operations that are part of this transaction. The driver can close the transaction either by committing to the changes that were made in the transaction or by rolling back the transaction.
 
-After the driver successfully completes all registry operations that are part of a transaction, it can call the <a href="..\wdm\nf-wdm-zwcommittransaction.md">ZwCommitTransaction</a> routine to commit to the changes. The driver can call the <a href="..\wdm\nf-wdm-zwrollbacktransaction.md">ZwRollbackTransaction</a> routine to roll back the transaction.
+After the driver successfully completes all registry operations that are part of a transaction, it can call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566420">ZwCommitTransaction</a> routine to commit to the changes. The driver can call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567086">ZwRollbackTransaction</a> routine to roll back the transaction.
 
 During a transaction, a registry operation is part of the transaction if the system call that performs the operation meets either of the following conditions:
 
@@ -187,7 +174,7 @@ The call specifies, as an input parameter, the transaction handle. For example, 
 
 </li>
 <li>
-The call specifies, as an input parameter, a registry key handle that was obtained by a call to <b>ZwCreateKeyTransacted</b> or <b>ZwOpenKeyTransacted</b> to which the transaction handle was supplied. For example, a call to the <a href="..\wdm\nf-wdm-zwsetvaluekey.md">ZwSetValueKey</a> routine can use a key handle that was obtained in this way to set the value of a registry key as part of a transaction. 
+The call specifies, as an input parameter, a registry key handle that was obtained by a call to <b>ZwCreateKeyTransacted</b> or <b>ZwOpenKeyTransacted</b> to which the transaction handle was supplied. For example, a call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567109">ZwSetValueKey</a> routine can use a key handle that was obtained in this way to set the value of a registry key as part of a transaction. 
 
 </li>
 </ul>
@@ -204,15 +191,6 @@ For more information about how to work with registry keys in kernel mode, see <a
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwsetvaluekey.md">ZwSetValueKey</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwopenkey.md">ZwOpenKey</a>
 
 
 
@@ -220,44 +198,52 @@ For more information about how to work with registry keys in kernel mode, see <a
 
 
 
-<a href="..\wdm\nf-wdm-zwcommittransaction.md">ZwCommitTransaction</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547804">InitializeObjectAttributes</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwrollbacktransaction.md">ZwRollbackTransaction</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557749">OBJECT_ATTRIBUTES</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-obopenobjectbypointer.md">ObOpenObjectByPointer</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550985">ObOpenObjectByPointer</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwcreatekeytransacted.md">ZwCreateKeyTransacted</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566417">ZwClose</a>
 
 
 
-<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566420">ZwCommitTransaction</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566425">ZwCreateKey</a>
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566426">ZwCreateKeyTransacted</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwcreatetransaction.md">ZwCreateTransaction</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566429">ZwCreateTransaction</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwopenkeytransactedex.md">ZwOpenKeyTransactedEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567014">ZwOpenKey</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567020">ZwOpenKeyTransactedEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567086">ZwRollbackTransaction</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567109">ZwSetValueKey</a>
  
 
  
-
 

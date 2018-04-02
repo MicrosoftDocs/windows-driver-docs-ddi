@@ -7,7 +7,7 @@ old-location: kernel\power_request_type.htm
 old-project: kernel
 ms.assetid: 266cdf1a-6122-4f46-8e93-8f76fceb0180
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*PPOWER_REQUEST_TYPE, POWER_REQUEST_TYPE, POWER_REQUEST_TYPE enumeration [Kernel-Mode Driver Architecture], PPOWER_REQUEST_TYPE, PPOWER_REQUEST_TYPE enumeration pointer [Kernel-Mode Driver Architecture], PowerRequestAwayModeRequired, PowerRequestDisplayRequired, PowerRequestExecutionRequired, PowerRequestSystemRequired, _POWER_REQUEST_TYPE, kernel.power_request_type, sysenum_2d1a5da5-2541-4db1-bfde-2bd06f38b17c.xml, wdm/POWER_REQUEST_TYPE, wdm/PPOWER_REQUEST_TYPE, wdm/PowerRequestAwayModeRequired, wdm/PowerRequestDisplayRequired, wdm/PowerRequestExecutionRequired, wdm/PowerRequestSystemRequired"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,19 +52,6 @@ req.typenames: POWER_REQUEST_TYPE, *PPOWER_REQUEST_TYPE
 The <b>POWER_REQUEST_TYPE</b> enumeration indicates the power request type.
 
 
-## -syntax
-
-
-````
-typedef enum _POWER_REQUEST_TYPE { 
-  PowerRequestDisplayRequired,
-  PowerRequestSystemRequired,
-  PowerRequestAwayModeRequired,
-  PowerRequestExecutionRequired
-} POWER_REQUEST_TYPE, *PPOWER_REQUEST_TYPE;
-````
-
-
 ## -enum-fields
 
 
@@ -94,7 +81,7 @@ Not used by drivers. For more information, see Remarks.
 
 
 
-This enumeration is used by the kernel-mode <a href="..\wdm\nf-wdm-poclearpowerrequest.md">PoClearPowerRequest</a> and <a href="..\wdm\nf-wdm-posetpowerrequest.md">PoSetPowerRequest</a> routines. Drivers that call these routines must specify the <b>PowerRequestSystemRequired</b> enumeration value.
+This enumeration is used by the kernel-mode <a href="https://msdn.microsoft.com/library/windows/hardware/ff559658">PoClearPowerRequest</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff559762">PoSetPowerRequest</a> routines. Drivers that call these routines must specify the <b>PowerRequestSystemRequired</b> enumeration value.
 
 The other three enumeration values—<b>PowerRequestDisplayRequired</b>, <b>PowerRequestAwayModeRequired</b>, and <b>PowerRequestExecutionRequired</b>—are not used by drivers. Applications specify these power request types in calls to the <a href="https://msdn.microsoft.com/85249de8-5832-4f25-bbd9-3576cfd1caa0">PowerSetRequest</a> and <a href="https://msdn.microsoft.com/794248b1-5aa8-495e-aca6-1a1f35dc9c7f">PowerClearRequest</a> functions.
 
@@ -123,24 +110,23 @@ While a <b>PowerRequestExecutionRequired</b> power request is in effect, the cal
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559658">PoClearPowerRequest</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559762">PoSetPowerRequest</a>
+
+
+
 <a href="https://msdn.microsoft.com/794248b1-5aa8-495e-aca6-1a1f35dc9c7f">PowerClearRequest</a>
 
 
 
-<a href="..\wdm\nf-wdm-posetpowerrequest.md">PoSetPowerRequest</a>
-
-
-
-<a href="..\wdm\nf-wdm-poclearpowerrequest.md">PoClearPowerRequest</a>
-
-
-
 <a href="https://msdn.microsoft.com/85249de8-5832-4f25-bbd9-3576cfd1caa0">PowerSetRequest</a>
-
-
-
  
 
  
-
 

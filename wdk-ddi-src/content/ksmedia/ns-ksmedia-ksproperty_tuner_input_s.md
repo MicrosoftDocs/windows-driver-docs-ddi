@@ -52,17 +52,6 @@ req.typenames: KSPROPERTY_TUNER_INPUT_S, *PKSPROPERTY_TUNER_INPUT_S
 The KSPROPERTY_TUNER_INPUT_S structure describes the input connection index of a tuner device for devices that support multiple inputs.
 
 
-## -syntax
-
-
-````
-typedef struct {
-  KSPROPERTY Property;
-  ULONG      InputIndex;
-} KSPROPERTY_TUNER_INPUT_S, *PKSPROPERTY_TUNER_INPUT_S;
-````
-
-
 ## -struct-fields
 
 
@@ -80,11 +69,10 @@ Specifies the connection index to be used as the tuner input. This value should 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567800">PROPSETID_TUNER</a>
 
 
 
@@ -92,8 +80,8 @@ Specifies the connection index to be used as the tuner input. This value should 
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567800">PROPSETID_TUNER</a>
  
 
  
-
 

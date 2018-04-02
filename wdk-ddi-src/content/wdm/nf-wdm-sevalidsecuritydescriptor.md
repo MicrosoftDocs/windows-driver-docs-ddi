@@ -7,7 +7,7 @@ old-location: kernel\sevalidsecuritydescriptor.htm
 old-project: kernel
 ms.assetid: 14657843-bd48-4cab-b913-c95aeb6a6083
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: SeValidSecurityDescriptor, SeValidSecurityDescriptor routine [Kernel-Mode Driver Architecture], k110_f193d746-c75f-4003-a2b3-a6b752652f9b.xml, kernel.sevalidsecuritydescriptor, wdm/SeValidSecurityDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -54,17 +54,6 @@ req.product: Windows 10 or later.
    The <b>SeValidSecurityDescriptor</b> routine returns whether a given security descriptor is structurally valid. 
 
 
-## -syntax
-
-
-````
-BOOLEAN SeValidSecurityDescriptor(
-  _In_ ULONG                Length,
-  _In_ PSECURITY_DESCRIPTOR SecurityDescriptor
-);
-````
-
-
 ## -parameters
 
 
@@ -77,7 +66,7 @@ Specifies the size in bytes of the given security descriptor.
 
 ### -param SecurityDescriptor [in]
 
-Pointer to the self-relative <a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>, which must be buffered somewhere in system space.
+Pointer to the self-relative <a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a>, which must be buffered somewhere in system space.
 
 
 ## -returns
@@ -104,16 +93,15 @@ To validate a security descriptor that was passed in from user mode, call <b>Rtl
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
 
 
 
-<a href="..\wdm\nf-wdm-rtlvalidsecuritydescriptor.md">RtlValidSecurityDescriptor</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563024">RtlValidSecurityDescriptor</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a>
  
 
  
-
 

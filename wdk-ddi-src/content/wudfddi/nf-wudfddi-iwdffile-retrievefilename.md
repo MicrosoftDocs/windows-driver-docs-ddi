@@ -55,17 +55,6 @@ req.product: Windows 10 or later.
 The <b>RetrieveFileName</b> method retrieves the full name of the file that is associated with the underlying kernel-mode device.
 
 
-## -syntax
-
-
-````
-HRESULT RetrieveFileName(
-  [out]     PWSTR pFileName,
-  [in, out] DWORD *pdwFileNameLengthInChars
-);
-````
-
-
 ## -parameters
 
 
@@ -163,12 +152,11 @@ The following code example shows how to retrieve the name of a file.
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558912">IWDFFile</a>
  
 
  
-
 

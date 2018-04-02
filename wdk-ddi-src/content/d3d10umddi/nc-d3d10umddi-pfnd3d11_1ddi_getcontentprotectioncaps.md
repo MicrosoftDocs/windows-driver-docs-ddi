@@ -7,7 +7,7 @@ old-location: display\getcontentprotectioncaps.htm
 old-project: display
 ms.assetid: 51024d63-f58c-45a7-bd6f-9f24a6805878
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3D11_1DDI_GETCONTENTPROTECTIONCAPS, d3d10umddi/pfnGetContentProtectionCaps, display.getcontentprotectioncaps, pfnGetContentProtectionCaps, pfnGetContentProtectionCaps callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,22 +52,6 @@ req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 Queries the available content protection for a specified encryption algorithm and video decoder profile.
 
 
-## -prototype
-
-
-````
-PFND3D11_1DDI_GETCONTENTPROTECTIONCAPS pfnGetContentProtectionCaps;
-
-HRESULT APIENTRY* pfnGetContentProtectionCaps(
-  _In_        D3D10DDI_HDEVICE                         hDevice,
-  _In_  const GUID                                     *pCryptoType,
-  _In_  const GUID                                     *pDecodeProfile,
-  _Out_       D3D11_1DDI_VIDEO_CONTENT_PROTECTION_CAPS *pCaps
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -92,7 +76,7 @@ A pointer to a GUID that specifies the decoder profile to query.
 
 ### -param *pCaps [out]
 
-A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_content_protection_caps.md">D3D11_1DDI_VIDEO_CONTENT_PROTECTION_CAPS</a> structure that contains the protection capabilities for the specified encryption algorithm and decoder profile.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh450936">D3D11_1DDI_VIDEO_CONTENT_PROTECTION_CAPS</a> structure that contains the protection capabilities for the specified encryption algorithm and decoder profile.
 
 
 ## -returns
@@ -156,19 +140,18 @@ The <i>pCryptoType</i> parameter can contain one of the following values:
 
 </li>
 </ul>
-<div class="alert"><b>Note</b>  The Microsoft Direct3D runtime verifies that the  <i>pDecodeProfile</i> and <i>pCryptoType</i> parameter data is valid before it calls the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getcapturehandle.md">GetContentProtectionCaps</a> function.</div>
+<div class="alert"><b>Note</b>  The Microsoft Direct3D runtime verifies that the  <i>pDecodeProfile</i> and <i>pCryptoType</i> parameter data is valid before it calls the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451656">GetContentProtectionCaps</a> function.</div>
 <div> </div>
 
 
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_content_protection_caps.md">D3D11_1DDI_VIDEO_CONTENT_PROTECTION_CAPS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450936">D3D11_1DDI_VIDEO_CONTENT_PROTECTION_CAPS</a>
  
 
  
-
 

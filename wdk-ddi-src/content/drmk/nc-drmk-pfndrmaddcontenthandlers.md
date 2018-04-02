@@ -7,7 +7,7 @@ old-location: audio\pfndrmaddcontenthandlers.htm
 old-project: audio
 ms.assetid: 762604FC-34EA-41A1-9F2B-B3852AA4D167
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/19/2018
 ms.keywords: DRMAddContentHandlers, DRMAddContentHandlers callback function [Audio Devices], PFNDRMADDCONTENTHANDLERS, audio.pfndrmaddcontenthandlers, drmk/DRMAddContentHandlers
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,23 +50,6 @@ req.typenames: WDI_TX_METADATA, *PWDI_TX_METADATA
 
 
 This callback function is reserved for system use.
-
-
-## -prototype
-
-
-````
-PFNDRMADDCONTENTHANDLERS DRMAddContentHandlers;
-
-NTSTATUS DRMAddContentHandlers(
-  _In_ ULONG  ContentId,
-  _In_ PVOID  *paHandlers,
-  _In_ ULONG  NumHandlers
-)
-{ ... }
-
-typedef PFNDRMADDCONTENTHANDLERS DRMAddContentHandlers;
-````
 
 
 ## -parameters

@@ -54,18 +54,6 @@ The ENUMERATOR_TYPE enumeration type is used to determine whether the enumerated
   not be used by profile drivers.
 
 
-## -syntax
-
-
-````
-typedef enum _ENUMERATOR_TYPE { 
-  ENUMERATOR_TYPE_PROTOCOL  = 0,
-  ENUMERATOR_TYPE_SERVICE   = 1,
-  ENUMERATOR_TYPE_MAX       = 2
-} ENUMERATOR_TYPE, *PENUMERATOR_TYPE;
-````
-
-
 ## -enum-fields
 
 
@@ -80,7 +68,7 @@ For internal use only. Do not use.
 
 This value should be specified for profile drivers. For more information about how this value is
      used, see 
-     <a href="..\bthddi\ns-bthddi-_bth_enumerator_info.md">BTH_ENUMERATOR_INFO</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536643">BTH_ENUMERATOR_INFO</a>.
 
 
 ### -field ENUMERATOR_TYPE_DEVICE
@@ -97,8 +85,8 @@ For internal use only. Do not use.
 
 A value from this enumeration is returned as the 
     <b>EnumeratorType</b> member of the 
-    <a href="..\bthddi\ns-bthddi-_bth_enumerator_info.md">BTH_ENUMERATOR_INFO</a> structure, which the 
-    <a href="..\bthioctl\ni-bthioctl-ioctl_internal_bthenum_get_enuminfo.md">
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff536643">BTH_ENUMERATOR_INFO</a> structure, which the 
+    <a href="https://msdn.microsoft.com/43cd8e6b-5710-4308-a7c4-fb6f14940977">
     IOCTL_INTERNAL_BTHENUM_GET_ENUMINFO</a> returns in its output buffer.
 
 
@@ -106,17 +94,16 @@ A value from this enumeration is returned as the
 
 ## -see-also
 
-<a href="..\bthddi\ns-bthddi-_bth_enumerator_info.md">BTH_ENUMERATOR_INFO</a>
 
 
 
-<a href="..\bthioctl\ni-bthioctl-ioctl_internal_bthenum_get_enuminfo.md">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536643">BTH_ENUMERATOR_INFO</a>
+
+
+
+<a href="https://msdn.microsoft.com/43cd8e6b-5710-4308-a7c4-fb6f14940977">
    IOCTL_INTERNAL_BTHENUM_GET_ENUMINFO</a>
-
-
-
  
 
  
-
 

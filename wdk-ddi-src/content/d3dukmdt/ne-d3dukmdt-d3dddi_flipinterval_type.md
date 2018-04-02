@@ -7,7 +7,7 @@ old-location: display\d3dddi_flipinterval_type.htm
 old-project: display
 ms.assetid: fbfc270c-b8e3-4467-b99d-2d5932a50114
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDI_FLIPINTERVAL_FOUR, D3DDDI_FLIPINTERVAL_IMMEDIATE, D3DDDI_FLIPINTERVAL_ONE, D3DDDI_FLIPINTERVAL_THREE, D3DDDI_FLIPINTERVAL_TWO, D3DDDI_FLIPINTERVAL_TYPE, D3DDDI_FLIPINTERVAL_TYPE enumeration [Display Devices], D3D_other_Structs_389c16ef-e25c-498e-994f-324efb96052c.xml, d3dukmdt/D3DDDI_FLIPINTERVAL_FOUR, d3dukmdt/D3DDDI_FLIPINTERVAL_IMMEDIATE, d3dukmdt/D3DDDI_FLIPINTERVAL_ONE, d3dukmdt/D3DDDI_FLIPINTERVAL_THREE, d3dukmdt/D3DDDI_FLIPINTERVAL_TWO, d3dukmdt/D3DDDI_FLIPINTERVAL_TYPE, display.d3dddi_flipinterval_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,20 +52,6 @@ req.typenames: D3DDDI_FLIPINTERVAL_TYPE
 The D3DDDI_FLIPINTERVAL_TYPE enumeration type contains values that identify the type of flip that occurs in present operations.
 
 
-## -syntax
-
-
-````
-typedef enum D3DDDI_FLIPINTERVAL_TYPE { 
-  D3DDDI_FLIPINTERVAL_IMMEDIATE  = 0,
-  D3DDDI_FLIPINTERVAL_ONE        = 1,
-  D3DDDI_FLIPINTERVAL_TWO        = 2,
-  D3DDDI_FLIPINTERVAL_THREE      = 3,
-  D3DDDI_FLIPINTERVAL_FOUR       = 4
-} D3DDDI_FLIPINTERVAL_TYPE;
-````
-
-
 ## -enum-fields
 
 
@@ -103,12 +89,11 @@ Indicates to perform the flip on every fourth vertical sync.
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_present.md">DXGKARG_PRESENT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557618">DXGKARG_PRESENT</a>
  
 
  
-
 

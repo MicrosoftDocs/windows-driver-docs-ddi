@@ -7,7 +7,7 @@ old-location: storage\iscsi_loginoptions.htm
 old-project: storage
 ms.assetid: 2440999a-e10c-4a27-b076-a0b640c2ca7f
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PISCSI_LoginOptions, ISCSI_LoginOptions, ISCSI_LoginOptions structure [Storage Devices], PISCSI_LoginOptions, PISCSI_LoginOptions structure pointer [Storage Devices], _ISCSI_LoginOptions, iscsidef/ISCSI_LoginOptions, iscsidef/PISCSI_LoginOptions, storage.iscsi_loginoptions, structs-iSCSI_d6ba6d7e-95c3-42a4-bed9-c038c1702d59.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,23 +50,6 @@ req.typenames: ISCSI_LoginOptions, *PISCSI_LoginOptions
 
 
 The ISCSI_LoginOptions structure defines the characteristics of a logon session. The LoginToTarget_IN routines use these defined characteristics while it logs into an iSCSI target.
-
-
-## -syntax
-
-
-````
-typedef struct _ISCSI_LoginOptions {
-  ULONG InformationSpecified;
-  ULONG HeaderDigest;
-  ULONG DataDigest;
-  ULONG MaximumConnections;
-  ULONG DefaultTime2Wait;
-  ULONG DefaultTime2Retain;
-  ULONG LoginFlags;
-  ULONG AuthType;
-} ISCSI_LoginOptions, *PISCSI_LoginOptions;
-````
 
 
 ## -struct-fields
@@ -169,12 +152,12 @@ The password to be used during logon.
 
 ### -field HeaderDigest
 
-A <a href="..\iscsidef\ne-iscsidef-piscsi_digest_types.md">ISCSI_DIGEST_TYPES</a> value that indicates the method that the initiator uses to verify the integrity of the header digest in a logon PDU.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff561498">ISCSI_DIGEST_TYPES</a> value that indicates the method that the initiator uses to verify the integrity of the header digest in a logon PDU.
 
 
 ### -field DataDigest
 
-A <a href="..\iscsidef\ne-iscsidef-piscsi_digest_types.md">ISCSI_DIGEST_TYPES</a> value that indicates the method that the initiator uses to verify the integrity of the data digest in a logon PDU.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff561498">ISCSI_DIGEST_TYPES</a> value that indicates the method that the initiator uses to verify the integrity of the data digest in a logon PDU.
 
 
 ### -field MaximumConnections
@@ -267,25 +250,24 @@ Use RADIUS to verify CHAP response.
 
 ### -field AuthType
 
-A <a href="..\iscsidef\ne-iscsidef-piscsi_auth_types.md">ISCSI_AUTH_TYPES</a> value that indicates the authentication method that is used to establish a logon connection. 
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff561486">ISCSI_AUTH_TYPES</a> value that indicates the authentication method that is used to establish a logon connection. 
 
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561486">ISCSI_AUTH_TYPES</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561498">ISCSI_DIGEST_TYPES</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561543">ISCSI_LoginOptions WMI Class</a>
-
-
-
-<a href="..\iscsidef\ne-iscsidef-piscsi_auth_types.md">ISCSI_AUTH_TYPES</a>
-
-
-
-<a href="..\iscsidef\ne-iscsidef-piscsi_digest_types.md">ISCSI_DIGEST_TYPES</a>
-
-
-
  
 
  
-
 

@@ -55,18 +55,6 @@ This callback function returns a list of data fields supported by the specified 
 For more information about data fields, see <a href="https://msdn.microsoft.com/library/windows/hardware/dn946691">Sensor data fields</a>.
 
 
-## -prototype
-
-
-````
-NT_STATUS EvtSensorGetSupportedDataFields(
-  _In_        SENSOROBJECT          Sensor,
-  _Inout_opt_ PSENSOR_PROPERTY_LIST pDataFields,
-  _Out_       PULONG                pSize
-);
-````
-
-
 ## -parameters
 
 
@@ -79,7 +67,7 @@ A reference to a sensor object.
 
 ### -param pDataFields [in, out, optional]
 
-A list of data fields that are supported by the given <b>Sensor</b>. For more information, see <a href="..\sensorsdef\ns-sensorsdef-sensor_property_list.md">SENSOR_PROPERTY_LIST</a>.
+A list of data fields that are supported by the given <b>Sensor</b>. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/dn946699">SENSOR_PROPERTY_LIST</a>.
 
 
 ### -param pSize [out]
@@ -109,16 +97,15 @@ This function must be implemented by the driver and is called by the class exten
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn946699">SENSOR_PROPERTY_LIST</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn946691">Sensor data fields</a>
-
-
-
-<a href="..\sensorsdef\ns-sensorsdef-sensor_property_list.md">SENSOR_PROPERTY_LIST</a>
-
-
-
  
 
  
-
 

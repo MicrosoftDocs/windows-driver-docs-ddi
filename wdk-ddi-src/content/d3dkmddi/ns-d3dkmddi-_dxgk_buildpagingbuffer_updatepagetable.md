@@ -7,7 +7,7 @@ old-location: display\dxgk_buildpagingbuffer_updatepagetable.htm
 old-project: display
 ms.assetid: 734B2E28-75F8-49AE-AAAB-EB0C037C6432
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE, DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE structure [Display Devices], _DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE, d3dkmddi/DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE, display.dxgk_buildpagingbuffer_updatepagetable
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,29 +52,6 @@ req.typenames: DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE
 <b>DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE</b> is used as part of a page table update operation.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE {
-  UINT                        PageTableLevel;
-  HANDLE                      hAllocation;
-  DXGK_PAGETABLEUPDATEADDRESS PageTableAddress;
-  DXGK_PTE                    *pPageTableEntries;
-  UINT                        StartIndex;
-  UINT                        NumPageTableEntries;
-  UINT                        Reserved0;
-  DXGK_UPDATEPAGETABLEFLAGS   Flags;
-  UINT64                      DriverProtection;
-  UINT64                      AllocationOffsetInBytes;
-  HANDLE                      hProcess;
-  DXGK_PAGETABLEUPDATEMODE    UpdateMode;
-  DXGK_PTE                    *pPageTableEntries64KB;
-  D3DGPU_VIRTUAL_ADDRESS      FirstPteVirtualAddress;
-} DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE;
-````
-
-
 ## -struct-fields
 
 
@@ -87,7 +64,7 @@ Level of a page table, which is updated.
 
 ### -field hAllocation
 
-Kernel mode driver handle of an allocation, which is mapped by the page table entries. The handle is returned by the kernel mode driver from <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a>. The handle can be <b>NULL</b> for allocations, which do not have a kernel mode drver   handle (page tables, page directories, etc.).
+Kernel mode driver handle of an allocation, which is mapped by the page table entries. The handle is returned by the kernel mode driver from <a href="https://msdn.microsoft.com/a28287d6-4dfa-4db4-92df-bbcd9379a5b2">DxgkDdiCreateAllocation</a>. The handle can be <b>NULL</b> for allocations, which do not have a kernel mode drver   handle (page tables, page directories, etc.).
 
 
 ### -field PageTableAddress
@@ -118,7 +95,7 @@ This member is reserved and should be set to zero.
 ### -field Flags
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_updatepagetableflags.md">DXGK_UPDATEPAGETABLEFLAGS</a> structure describing the update operation.
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn914482">DXGK_UPDATEPAGETABLEFLAGS</a> structure describing the update operation.
 
 
 ### -field DriverProtection
@@ -133,7 +110,7 @@ When <b>hAllocation</b> is non-NULL, this field specifies the relative offset, i
 
 ### -field hProcess
 
-Kernel mode driver process handle for the process whose page table entries are updated. This is the value returned from <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createprocess.md">DxgkDdiCreateProcess</a>.
+Kernel mode driver process handle for the process whose page table entries are updated. This is the value returned from <a href="https://msdn.microsoft.com/E5AAEEB1-C29E-4AA7-9F8E-2C2DCFADED81">DxgkDdiCreateProcess</a>.
 
 
 ### -field UpdateMode

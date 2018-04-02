@@ -7,7 +7,7 @@ old-location: storage\stor_rich_device_description.htm
 old-project: storage
 ms.assetid: 765A420C-F406-4A46-BDCC-26A451549F8D
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSTOR_RICH_DEVICE_DESCRIPTION, PSTOR_RICH_DEVICE_DESCRIPTION, PSTOR_RICH_DEVICE_DESCRIPTION structure pointer [Storage Devices], STOR_RICH_DEVICE_DESCRIPTION, STOR_RICH_DEVICE_DESCRIPTION structure [Storage Devices], _STOR_RICH_DEVICE_DESCRIPTION, storage.stor_rich_device_description, storport/PSTOR_RICH_DEVICE_DESCRIPTION, storport/STOR_RICH_DEVICE_DESCRIPTION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,20 +53,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 The <b>STOR_RICH_DEVICE_DESCRIPTION</b> structure describes the attributes of the <b> physical device </b> for which a driver is requesting a DMA (direct memory access) adapter.
-
-
-## -syntax
-
-
-````
-typedef struct _STOR_RICH_DEVICE_DESCRIPTION {
-  ULONG Version;
-  ULONG Size;
-  Char  VendorId[STOR_VENDOR_ID_LENGTH +1];
-  Char  ModelNumber[STOR_MODEL_NUMBER_LENGTH + 1];
-  Char  FirmwareRevision[STOR_FIRMWARE_REVISION_LENGTH + 1];
-} STOR_RICH_DEVICE_DESCRIPTION, *PSTOR_RICH_DEVICE_DESCRIPTION;
-````
 
 
 ## -struct-fields
@@ -119,12 +105,11 @@ This is invoked during the Unit enumeration process or the device description up
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh920398">HwStorUnitControl</a>
-
-
-
  
 
  
-
 

@@ -53,24 +53,6 @@ req.product: Windows 10 or later.
 The UFF_FILEHEADER structure is used to define the contents of <a href="https://msdn.microsoft.com/6e643703-ace1-4660-990c-3a9ca735829d">Unidrv font format files</a> (.uff files).
 
 
-## -syntax
-
-
-````
-typedef struct _UFF_FILEHEADER {
-  DWORD dwSignature;
-  DWORD dwVersion;
-  DWORD dwSize;
-  DWORD nFonts;
-  DWORD nGlyphSets;
-  DWORD nVarData;
-  DWORD offFontDir;
-  DWORD dwFlags;
-  DWORD dwReserved[4];
-} UFF_FILEHEADER, *PUFF_FILEHEADER;
-````
-
-
 ## -struct-fields
 
 
@@ -93,7 +75,7 @@ Specifies the size, in bytes, of the UFF_FILEHEADER structure.
 
 ### -field nFonts
 
-Specifies the number of fonts specified within the .uff file and identified by <a href="..\prntfont\ns-prntfont-_data_header.md">DATA_HEADER</a> structures. This is also the number of <a href="..\prntfont\ns-prntfont-_uff_fontdirectory.md">UFF_FONTDIRECTORY</a> structures within the .uff file.
+Specifies the number of fonts specified within the .uff file and identified by <a href="https://msdn.microsoft.com/library/windows/hardware/ff547364">DATA_HEADER</a> structures. This is also the number of <a href="https://msdn.microsoft.com/library/windows/hardware/ff562866">UFF_FONTDIRECTORY</a> structures within the .uff file.
 
 
 ### -field nGlyphSets
@@ -108,7 +90,7 @@ Specifies the  number of variable data sections specified within the .uff file a
 
 ### -field offFontDir
 
-Specifies the offset, in bytes, from the beginning of the .uff file to the beginning of the first <a href="..\prntfont\ns-prntfont-_uff_fontdirectory.md">UFF_FONTDIRECTORY</a> structure.
+Specifies the offset, in bytes, from the beginning of the .uff file to the beginning of the first <a href="https://msdn.microsoft.com/library/windows/hardware/ff562866">UFF_FONTDIRECTORY</a> structure.
 
 
 ### -field dwFlags
@@ -141,16 +123,15 @@ Reserved. Must be set to zero.
 
 ## -see-also
 
-<a href="..\prntfont\ns-prntfont-_uff_fontdirectory.md">UFF_FONTDIRECTORY</a>
 
 
 
-<a href="..\prntfont\ns-prntfont-_data_header.md">DATA_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547364">DATA_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562866">UFF_FONTDIRECTORY</a>
  
 
  
-
 

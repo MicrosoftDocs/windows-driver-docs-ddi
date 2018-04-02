@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 
 
 
-## -syntax
-
-
-````
-HRESULT GetServerReferral(
-  [out] PWSTR *pStr
-);
-````
-
-
 ## -parameters
 
 
@@ -84,12 +74,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\prnasntp\nn-prnasntp-iprintasyncnotifyserverreferral.md">IPrintAsyncNotifyServerReferral</a>
 
 
 
+<a href="https://msdn.microsoft.com/46B3C57E-EE02-4821-9D5F-A2005CFC2998">IPrintAsyncNotifyServerReferral</a>
  
 
  
-
 

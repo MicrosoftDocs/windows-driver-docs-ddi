@@ -7,7 +7,7 @@ old-location: kernel\rtlprefixunicodestring.htm
 old-project: kernel
 ms.assetid: 9b26f4ed-6621-4dc5-8b60-9e4d3bf8d898
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: RtlPrefixUnicodeString, RtlPrefixUnicodeString routine [Kernel-Mode Driver Architecture], k109_b6130d6d-1a25-460b-a962-3b9353626768.xml, kernel.rtlprefixunicodestring, ntddk/RtlPrefixUnicodeString
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,18 +52,6 @@ req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 The <b>RtlPrefixUnicodeString</b> routine compares two Unicode strings to determine whether one string is a prefix of the other. 
 
 
-## -syntax
-
-
-````
-BOOLEAN RtlPrefixUnicodeString(
-  _In_ PCUNICODE_STRING String1,
-  _In_ PCUNICODE_STRING String2,
-  _In_ BOOLEAN          CaseInSensitive
-);
-````
-
-
 ## -parameters
 
 
@@ -95,12 +83,11 @@ If <b>TRUE</b>, case should be ignored when doing the comparison.
 
 ## -see-also
 
-<a href="..\wudfwdm\nf-wudfwdm-rtlcompareunicodestring.md">RtlCompareUnicodeString</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561782">RtlCompareUnicodeString</a>
  
 
  
-
 

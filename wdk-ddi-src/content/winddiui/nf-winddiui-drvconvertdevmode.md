@@ -53,20 +53,6 @@ req.product: Windows 10 or later.
 A printer interface DLL's <b>DrvConvertDevMode</b> function converts a printer's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a> structure from one version to another.
 
 
-## -syntax
-
-
-````
-BOOL DrvConvertDevMode(
-  _In_    LPTSTR   pPrinterName,
-  _In_    PDEVMODE pdmIn,
-  _Out_   PDEVMODE pdmOut,
-  _Inout_ PLONG    pcbNeeded,
-  _In_    DWORD    fMode
-);
-````
-
-
 ## -parameters
 
 

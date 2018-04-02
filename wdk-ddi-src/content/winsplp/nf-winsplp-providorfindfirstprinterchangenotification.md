@@ -53,21 +53,6 @@ req.product: Windows 10 or later.
 
 
 
-## -syntax
-
-
-````
-BOOL WINAPI ProvidorFindFirstPrinterChangeNotification(
-  _In_      HANDLE                   hPrinter,
-            DWORD                    fdwFlags,
-            DWORD                    fdwOptions,
-  _In_      HANDLE                   hNotify,
-  _In_opt_  PVOID                    pPrinterNotifyOptions,
-  _Out_opt_ PVOID                    pvReserved1
-);
-````
-
-
 ## -parameters
 
 

@@ -7,7 +7,7 @@ old-location: debugger\setsymboloptions.htm
 old-project: debugger
 ms.assetid: 06cfae40-eb32-4f9b-b7ad-266cb12f4a32
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: IDebugSymbols interface [Windows Debugging], SetSymbolOptions method, IDebugSymbols2 interface [Windows Debugging], SetSymbolOptions method, IDebugSymbols2::SetSymbolOptions, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], SetSymbolOptions method, IDebugSymbols3::SetSymbolOptions, IDebugSymbols::SetSymbolOptions, IDebugSymbols_56cfcd8d-304b-4433-beab-2fc3e58a54a4.xml, SetSymbolOptions method [Windows Debugging], SetSymbolOptions method [Windows Debugging], IDebugSymbols interface, SetSymbolOptions method [Windows Debugging], IDebugSymbols2 interface, SetSymbolOptions method [Windows Debugging], IDebugSymbols3 interface, SetSymbolOptions,IDebugSymbols3.SetSymbolOptions, dbgeng/IDebugSymbols2::SetSymbolOptions, dbgeng/IDebugSymbols3::SetSymbolOptions, dbgeng/IDebugSymbols::SetSymbolOptions, debugger.setsymboloptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -54,16 +54,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 The <b>SetSymbolOptions</b> method changes the engine's global symbol options.
 
 
-## -syntax
-
-
-````
-HRESULT SetSymbolOptions(
-  [in] ULONG Options
-);
-````
-
-
 ## -parameters
 
 
@@ -108,7 +98,7 @@ The method was successful.
 
 This method will set the engine's global symbol options to those specified in <i>Options</i>.  Unlike <a href="https://msdn.microsoft.com/library/windows/hardware/ff537930">AddSymbolOptions</a>, any symbol options not in the bit-set <i>Options</i> will be removed.
 
-After the symbol options have been changed, for each client the engine sends out notification to that client's <a href="..\dbgeng\nn-dbgeng-idebugeventcallbacks.md">IDebugEventCallbacks</a> by passing the DEBUG_CES_SYMBOL_OPTIONS flag to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550692">IDebugEventCallbacks::ChangeSymbolState</a> method.
+After the symbol options have been changed, for each client the engine sends out notification to that client's <a href="https://msdn.microsoft.com/library/windows/hardware/ff550550">IDebugEventCallbacks</a> by passing the DEBUG_CES_SYMBOL_OPTIONS flag to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550692">IDebugEventCallbacks::ChangeSymbolState</a> method.
 
 For more information about symbols, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558824">Symbols</a>.
 
@@ -117,7 +107,6 @@ For more information about symbols, see <a href="https://msdn.microsoft.com/libr
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 
 
@@ -125,24 +114,24 @@ For more information about symbols, see <a href="https://msdn.microsoft.com/libr
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554535">RemoveSymbolOptions</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549139">GetSymbolOptions</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550856">IDebugSymbols</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550864">IDebugSymbols2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550870">IDebugSymbols3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554535">RemoveSymbolOptions</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: kernel\file_is_remote_device_information.htm
 old-project: kernel
 ms.assetid: E1A82D24-A981-414A-83D8-E71F97E0301A
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*PFILE_IS_REMOTE_DEVICE_INFORMATION, FILE_IS_REMOTE_DEVICE_INFORMATION, FILE_IS_REMOTE_DEVICE_INFORMATION structure [Kernel-Mode Driver Architecture], PFILE_IS_REMOTE_DEVICE_INFORMATION, PFILE_IS_REMOTE_DEVICE_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _FILE_IS_REMOTE_DEVICE_INFORMATION, kernel.file_is_remote_device_information, wdm/FILE_IS_REMOTE_DEVICE_INFORMATION, wdm/PFILE_IS_REMOTE_DEVICE_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,17 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>FILE_IS_REMOTE_DEVICE_INFORMATION</b> structure is used as an argument to the <a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a> routine.
-
-
-## -syntax
-
-
-````
-typedef struct _FILE_IS_REMOTE_DEVICE_INFORMATION {
-  BOOLEAN IsRemote;
-} FILE_IS_REMOTE_DEVICE_INFORMATION, *PFILE_IS_REMOTE_DEVICE_INFORMATION;
-````
+The <b>FILE_IS_REMOTE_DEVICE_INFORMATION</b> structure is used as an argument to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567052">ZwQueryInformationFile</a> routine.
 
 
 ## -struct-fields
@@ -75,12 +65,11 @@ A value that indicates whether the file system that contains the file is a remot
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567052">ZwQueryInformationFile</a>
  
 
  
-
 

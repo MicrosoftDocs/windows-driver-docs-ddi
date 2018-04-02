@@ -7,7 +7,7 @@ old-location: display\d3dddicb_destroysynchronizationobject.htm
 old-project: display
 ms.assetid: d950e290-3acb-4a89-86a4-ae5117781998
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDICB_DESTROYSYNCHRONIZATIONOBJECT, D3DDDICB_DESTROYSYNCHRONIZATIONOBJECT structure [Display Devices], D3D_param_Structs_34603e42-8f8b-42cb-9191-988be4a8932d.xml, _D3DDDICB_DESTROYSYNCHRONIZATIONOBJECT, d3dumddi/D3DDDICB_DESTROYSYNCHRONIZATIONOBJECT, display.d3dddicb_destroysynchronizationobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,16 +52,6 @@ req.typenames: D3DDDICB_DESTROYSYNCHRONIZATIONOBJECT
 The D3DDDICB_DESTROYSYNCHRONIZATIONOBJECT structure contains the handle to a synchronization object to destroy.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDICB_DESTROYSYNCHRONIZATIONOBJECT {
-  D3DKMT_HANDLE hSyncObject;
-} D3DDDICB_DESTROYSYNCHRONIZATIONOBJECT;
-````
-
-
 ## -struct-fields
 
 
@@ -69,21 +59,20 @@ typedef struct _D3DDDICB_DESTROYSYNCHRONIZATIONOBJECT {
 
 ### -field hSyncObject
 
-[in] A D3DKMT_HANDLE value that represents the kernel-mode handle that the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createsynchronizationobjectcb.md">pfnCreateSynchronizationObjectCb</a> function returns and that identifies the kernel-mode synchronization object to destroy. 
+[in] A D3DKMT_HANDLE value that represents the kernel-mode handle that the <a href="https://msdn.microsoft.com/1b87d3cc-685a-4768-b4fd-dbe0a0cbec37">pfnCreateSynchronizationObjectCb</a> function returns and that identifies the kernel-mode synchronization object to destroy. 
 
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_destroysynchronizationobjectcb.md">pfnDestroySynchronizationObjectCb</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createsynchronizationobjectcb.md">pfnCreateSynchronizationObjectCb</a>
+<a href="https://msdn.microsoft.com/1b87d3cc-685a-4768-b4fd-dbe0a0cbec37">pfnCreateSynchronizationObjectCb</a>
 
 
 
+<a href="https://msdn.microsoft.com/7ba549a2-f165-4b5e-8cf4-ab707222532c">pfnDestroySynchronizationObjectCb</a>
  
 
  
-
 

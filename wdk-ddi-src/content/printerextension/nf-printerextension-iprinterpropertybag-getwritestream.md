@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 Gets a stream in order to write a stream property.
 
 
-## -syntax
-
-
-````
-HRESULT GetWriteStream(
-  [in]          BSTR     bstrName,
-  [out, retval] IStream **ppValueStream
-);
-````
-
-
 ## -parameters
 
 
@@ -106,12 +95,11 @@ This method does not work with non-stream properties.
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprinterpropertybag.md">IPrinterPropertyBag</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439547">IPrinterPropertyBag</a>
  
 
  
-
 

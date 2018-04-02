@@ -53,16 +53,6 @@ req.typenames:
 The<b> KsPinGetConnectedPinDeviceObject</b> function returns the device object at the top of the device stack corresponding to the sink pin attached to the source pin <i>Pin</i>.
 
 
-## -syntax
-
-
-````
-PDEVICE_OBJECT KsPinGetConnectedPinDeviceObject(
-  _In_ PKSPIN Pin
-);
-````
-
-
 ## -parameters
 
 
@@ -70,14 +60,14 @@ PDEVICE_OBJECT KsPinGetConnectedPinDeviceObject(
 
 ### -param Pin [in]
 
-A pointer to a <a href="..\ks\ns-ks-_kspin.md">KSPIN</a> structure that is the source pin for which to obtain the connected sink pin's device object.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563483">KSPIN</a> structure that is the source pin for which to obtain the connected sink pin's device object.
 
 
 ## -returns
 
 
 
-If <i>Pin</i> is a source pin, <b>KsPinGetConnectedPinDeviceObject</b> returns a pointer to the <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure at the top of the device stack on which the sink pin resides. Otherwise, it returns <b>NULL</b>.
+If <i>Pin</i> is a source pin, <b>KsPinGetConnectedPinDeviceObject</b> returns a pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a> structure at the top of the device stack on which the sink pin resides. Otherwise, it returns <b>NULL</b>.
 
 
 
@@ -93,12 +83,11 @@ The returned device object is not necessarily the functional device object (FDO)
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksgetdevicefordeviceobject.md">KsGetDeviceForDeviceObject</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562617">KsGetDeviceForDeviceObject</a>
  
 
  
-
 

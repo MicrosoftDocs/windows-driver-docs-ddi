@@ -52,20 +52,6 @@ req.typenames: IRB, *PIRB
 Drivers use this structure to pass most requests to IEEE 1394 bus driver.
 
 
-## -syntax
-
-
-````
-typedef struct _IRB {
-  ULONG     FunctionNumber;
-  ULONG     Flags;
-  ULONG_PTR BusReserved[IRB_BUS_RESERVED_SZ];
-  ULONG_PTR PortReserved[IRB_PORT_RESERVED_SZ];
-  union  u;
-} IRB, *PIRB;
-````
-
-
 ## -struct-fields
 
 
@@ -241,12 +227,11 @@ The <b>Parameters-&gt;Others.Arguments1</b> member of an <a href="https://msdn.m
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537232">IOCTL_1394_CLASS</a>
-
-
-
  
 
  
-
 

@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 A still image minidriver's <b>IStiUSD::RawWriteData</b> method writes data to a still image device.
 
 
-## -syntax
-
-
-````
-HRESULT RawWriteData(
-   LPVOID       lpBuffer,
-   DWORD        dwNumberOfBytes,
-   LPOVERLAPPED lpOverlapped
-);
-````
-
-
 ## -parameters
 
 
@@ -110,7 +98,6 @@ A still image minidriver typically implements this method by calling <b>WriteFil
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/62740263-5bbb-48e1-be3d-9ee9cb37d6b9">IStiUSD</a>
 
 
 
@@ -118,8 +105,8 @@ A still image minidriver typically implements this method by calling <b>WriteFil
 
 
 
+<a href="https://msdn.microsoft.com/62740263-5bbb-48e1-be3d-9ee9cb37d6b9">IStiUSD</a>
  
 
  
-
 

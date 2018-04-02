@@ -7,7 +7,7 @@ old-location: display\dxva_mbctrl_i_hostresiddiff_1.htm
 old-project: display
 ms.assetid: e2318d02-f52e-4b5b-86da-04df7b31b7d3
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*LPDXVA_MBctrl_I_HostResidDiff_1, DXVA_MBctrl_I_HostResidDiff_1, DXVA_MBctrl_I_HostResidDiff_1 structure [Display Devices], _DXVA_MBctrl_I_HostResidDiff_1, display.dxva_mbctrl_i_hostresiddiff_1, dxva/DXVA_MBctrl_I_HostResidDiff_1, dxvaref_9d7c8453-31ce-4788-908e-ac81c97d97f5.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,21 +50,6 @@ req.typenames: DXVA_MBctrl_I_HostResidDiff_1
 
 
 The DXVA_MBctrl_I_HostResidDiff_1 structure is sent once per macroblock by the host decoder to the accelerator to specify macroblock control commands for an <a href="https://msdn.microsoft.com/5a140cc0-ecc5-46ff-be3f-3c92f0f67dca">intra picture</a>.
-
-
-## -syntax
-
-
-````
-typedef struct _DXVA_MBctrl_I_HostResidDiff_1 {
-  WORD  wMBaddress;
-  WORD  wMBtype;
-  DWORD dwMB_SNL;
-  WORD  wPatternCode;
-  WORD  wPC_Overflow;
-  DWORD dwReservedBits2;
-} DXVA_MBctrl_I_HostResidDiff_1;
-````
 
 
 ## -struct-fields
@@ -120,7 +105,7 @@ Must be zero.
 
 Specifies whether spatial-domain residual difference decoded blocks are sent or whether transform coefficients are sent for off-host IDCT for the current macroblock.
 
-<i>HostResidDiff </i>is always equal to 1 in this structure. This flag must be zero if <b>bConfigResidDiffHost</b> is zero. This flag must be 1 if <b>bConfigResidDiffAccelerator</b> is zero. The <b>bConfigResidDiffHost</b> and <b>bConfigResidDiffAccelerator</b> members are contained in the <a href="..\dxva\ns-dxva-_dxva_configpicturedecode.md">DXVA_ConfigPictureDecode</a> structure.
+<i>HostResidDiff </i>is always equal to 1 in this structure. This flag must be zero if <b>bConfigResidDiffHost</b> is zero. This flag must be 1 if <b>bConfigResidDiffAccelerator</b> is zero. The <b>bConfigResidDiffHost</b> and <b>bConfigResidDiffAccelerator</b> members are contained in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563133">DXVA_ConfigPictureDecode</a> structure.
 
 </td>
 </tr>
@@ -237,7 +222,7 @@ Indicates whether residual difference data is sent for each block in the macrobl
 
 Bit (11-<i>i</i>) of <b>wPatternCode</b> (where bit zero is the least significant bit) indicates whether residual difference data is sent for block <i>i</i>, where <i>i</i> is the index of the block within the macroblock as specified in MPEG-2 figures 6-10, 6-11, and 6-12 (raster-scan order for Y, followed by 4:2:0 blocks of Cb in raster-scan order, followed by 4:2:0 blocks of Cr, followed by 4:2:2 blocks of Cb, followed by 4:2:2 blocks of Cr, followed by 4:4:4 blocks of Cb, followed by 4:4:4 blocks of Cr). The data for the coded blocks (those blocks having bit (11<i>i</i>) equal to 1) is found in the residual coding buffer in the same indexing order (increasing <i>i</i>). For 4:2:0 MPEG-2 data, the value of <b>wPatternCode</b> corresponds to shifting the decoded value of the CBP (coded block pattern) to the left by six bit positions (those lower bit positions being used for 4:2:2 and 4:4:4 chroma formats).
 
-If the <b>bConfigSpatialResidInterleaved</b> member of the <a href="..\dxva\ns-dxva-_dxva_configpicturedecode.md">DXVA_ConfigPictureDecode</a> structure is 1, host-based residual differences are sent in a chroma-interleaved form matching that of the YUV pixel format in use. In this case, each Cb and spatially corresponding Cr pair of blocks is treated as a single residual difference structure unit. This does not alter the value or meaning of <b>wPatternCode</b>, but it implies that both members of each pair of Cb and Cr data blocks are sent whenever either of these data blocks has the corresponding bit set in <b>wPatternCode</b>. If the bit in <b>wPatternCode</b> for a particular data block is zero, the corresponding residual difference data values must be sent as zero whenever this pairing necessitates sending a residual difference data block for a block with a <b>wPatternCode</b> bit equal to zero.
+If the <b>bConfigSpatialResidInterleaved</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563133">DXVA_ConfigPictureDecode</a> structure is 1, host-based residual differences are sent in a chroma-interleaved form matching that of the YUV pixel format in use. In this case, each Cb and spatially corresponding Cr pair of blocks is treated as a single residual difference structure unit. This does not alter the value or meaning of <b>wPatternCode</b>, but it implies that both members of each pair of Cb and Cr data blocks are sent whenever either of these data blocks has the corresponding bit set in <b>wPatternCode</b>. If the bit in <b>wPatternCode</b> for a particular data block is zero, the corresponding residual difference data values must be sent as zero whenever this pairing necessitates sending a residual difference data block for a block with a <b>wPatternCode</b> bit equal to zero.
 
 
 ### -field wPC_Overflow
@@ -261,24 +246,23 @@ Skipped macroblocks are not used by intra pictures, so the <i>MBskipsFollowing</
 
 ## -see-also
 
-<a href="..\dxva\ns-dxva-_dxva_pictureparameters.md">DXVA_PictureParameters</a>
 
 
 
-<a href="..\dxva\ns-dxva-_dxva_mbctrl_i_offhostidct_1.md">DXVA_MBctrl_I_OffHostIDCT_1</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563133">DXVA_ConfigPictureDecode</a>
 
 
 
-<a href="..\dxva\ns-dxva-_dxva_tcoefsingle.md">DXVA_TCoefSingle</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563989">DXVA_MBctrl_I_OffHostIDCT_1</a>
 
 
 
-<a href="..\dxva\ns-dxva-_dxva_configpicturedecode.md">DXVA_ConfigPictureDecode</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564012">DXVA_PictureParameters</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564060">DXVA_TCoefSingle</a>
  
 
  
-
 

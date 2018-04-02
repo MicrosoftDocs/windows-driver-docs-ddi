@@ -7,7 +7,7 @@ old-location: buses\udecxusbdeviceinitaddstringdescriptorraw.htm
 old-project: usbref
 ms.assetid: E4800343-E773-448D-B33E-2546ECDA4303
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: UdecxUsbDeviceInitAddStringDescriptorRaw, UdecxUsbDeviceInitAddStringDescriptorRaw function [Buses], buses.udecxusbdeviceinitaddstringdescriptorraw, udecxusbdevice/UdecxUsbDeviceInitAddStringDescriptorRaw
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -54,20 +54,6 @@ req.product: Windows 10 or later.
 Adds a USB string descriptor to the initialization parameters used to create a virtual USB device. 
 
 
-## -syntax
-
-
-````
-NTSTATUS UdecxUsbDeviceInitAddStringDescriptorRaw(
-  _Inout_ PUDECXUSBDEVICE_INIT            UdecxUsbDeviceInit,
-  _In_    reads_(DescriptorLength) PUCHAR Descriptor,
-  _In_    USHORT                          DescriptorLength,
-  _In_    UCHAR                           DescriptorIndex,
-  _In_    USHORT                          LanguageId
-);
-````
-
-
 ## -parameters
 
 
@@ -75,7 +61,7 @@ NTSTATUS UdecxUsbDeviceInitAddStringDescriptorRaw(
 
 ### -param UdecxUsbDeviceInit [in, out]
 
-A pointer to a WDF-allocated structure that contains initialization parameters for the virtual USB device.  The client driver retrieved this pointer in the previous call to <a href="..\udecxusbdevice\nf-udecxusbdevice-udecxusbdeviceinitallocate.md">UdecxUsbDeviceInitAllocate</a>. 
+A pointer to a WDF-allocated structure that contains initialization parameters for the virtual USB device.  The client driver retrieved this pointer in the previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/mt627968">UdecxUsbDeviceInitAllocate</a>. 
 
 
 ### -param Descriptor [in]
@@ -112,15 +98,6 @@ The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this met
 
 ## -see-also
 
-<a href="..\udecxusbdevice\nf-udecxusbdevice-udecxusbdeviceinitallocate.md">UdecxUsbDeviceInitAllocate</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540156">USB String Descriptors</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
 
 
 
@@ -128,8 +105,16 @@ The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this met
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540156">USB String Descriptors</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt627968">UdecxUsbDeviceInitAllocate</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
  
 
  
-
 

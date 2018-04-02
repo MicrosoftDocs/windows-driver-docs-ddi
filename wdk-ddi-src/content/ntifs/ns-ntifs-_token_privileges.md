@@ -7,7 +7,7 @@ old-location: ifsk\token_privileges.htm
 old-project: ifsk
 ms.assetid: f2f4b2b7-bec0-42c3-904b-cbc74ca76bb3
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: "*PTOKEN_PRIVILEGES, PTOKEN_PRIVILEGES, PTOKEN_PRIVILEGES structure pointer [Installable File System Drivers], TOKEN_PRIVILEGES, TOKEN_PRIVILEGES structure [Installable File System Drivers], _TOKEN_PRIVILEGES, ifsk.token_privileges, ntifs/PTOKEN_PRIVILEGES, ntifs/TOKEN_PRIVILEGES, securitystructures_3da1d9ba-6fa7-4b16-bdd7-416890b57f7e.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,17 +52,6 @@ req.typenames: TOKEN_PRIVILEGES, *PTOKEN_PRIVILEGES
 TOKEN_PRIVILEGES contains information about a set of privileges for an access token. 
 
 
-## -syntax
-
-
-````
-typedef struct _TOKEN_PRIVILEGES {
-  ULONG               PrivilegeCount;
-  LUID_AND_ATTRIBUTES Privileges[ANYSIZE_ARRAY];
-} TOKEN_PRIVILEGES, *PTOKEN_PRIVILEGES;
-````
-
-
 ## -struct-fields
 
 
@@ -80,40 +69,39 @@ Specifies an array of LUID_AND_ATTRIBUTES structures. Each structure contains th
 
 ## -see-also
 
-<a href="..\ntifs\ne-ntifs-_token_information_class.md">TOKEN_INFORMATION_CLASS</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-sefiltertoken.md">SeFilterToken</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557080">LUID</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-zwsetinformationtoken.md">ZwSetInformationToken</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549716">LUID_AND_ATTRIBUTES</a>
 
 
 
-<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-sequeryinformationtoken.md">SeQueryInformationToken</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556654">SeFilterToken</a>
 
 
 
-<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556690">SeQueryInformationToken</a>
 
 
 
-<a href="..\wdm\ns-wdm-_luid_and_attributes.md">LUID_AND_ATTRIBUTES</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556838">TOKEN_INFORMATION_CLASS</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-zwqueryinformationtoken.md">ZwQueryInformationToken</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567055">ZwQueryInformationToken</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567102">ZwSetInformationToken</a>
  
 
  
-
 

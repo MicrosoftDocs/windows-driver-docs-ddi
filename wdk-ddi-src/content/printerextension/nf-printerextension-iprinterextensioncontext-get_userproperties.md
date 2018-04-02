@@ -56,31 +56,20 @@ Gets the user property bag for this app.
 This property is read-only.
 
 
-## -syntax
-
-
-````
-HRESULT get_UserProperties(
-  [out, retval] IPrinterPropertyBag **ppPropertyBag
-);
-````
-
-
 ## -parameters
 
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprinterextensioncontext.md">IPrinterExtensionContext</a>
 
 
 
-<a href="..\printerextension\nn-printerextension-iprinterpropertybag.md">IPrinterPropertyBag</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406649">IPrinterExtensionContext</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439547">IPrinterPropertyBag</a>
  
 
  
-
 

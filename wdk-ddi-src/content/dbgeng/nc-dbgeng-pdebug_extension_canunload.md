@@ -7,7 +7,7 @@ old-location: debugger\debugextensioncanunload.htm
 old-project: debugger
 ms.assetid: 6CF651D7-7F5F-4622-8FDF-8BFF4E4A701D
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: DebugExtensionCanUnload, DebugExtensionCanUnload callback function [Windows Debugging], PDEBUG_EXTENSION_CANUNLOAD, dbgeng/DebugExtensionCanUnload, debugger.debugextensioncanunload
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -61,20 +61,12 @@ The <i>DebugExtensionCanUnload</i> callback function checks whether a debug exte
 </tr>
 </table></span></div>
 
-## -prototype
-
-
-````
- CALLBACK* PDEBUG_EXTENSION_CANUNLOAD DebugExtensionCanUnload;
-````
-
-
 ## -parameters
 
 
 
 
-### -param void
+### -param Arg1
 
 
 
@@ -115,7 +107,7 @@ Any other value indicates that the extension DLL was unable to initialize and th
 
 
 
-If present, this callback function is called between the <a href="..\dbgeng\nc-dbgeng-pdebug_extension_uninitialize.md">DebugExtensionUninitialize</a> callback function and actual unload of the DLL. The extension should return either <b>S_OK</b>, if no objects are present which would prevent unload of the extension, or <b>S_FALSE</b>, if there are still outstanding references to model objects in the debugger extension.
+If present, this callback function is called between the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540495">DebugExtensionUninitialize</a> callback function and actual unload of the DLL. The extension should return either <b>S_OK</b>, if no objects are present which would prevent unload of the extension, or <b>S_FALSE</b>, if there are still outstanding references to model objects in the debugger extension.
 
 This callback function is the debugger's equivalent of <a href="https://msdn.microsoft.com/a47df9eb-97cb-4875-a121-1dabe7bc9db6">DllCanUnloadNow</a> for extensions which manipulate the object model of the debugger.
 
@@ -126,16 +118,15 @@ This callback function is the debugger's equivalent of <a href="https://msdn.mic
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540495">DebugExtensionUninitialize</a>
+
+
+
 <a href="https://msdn.microsoft.com/a47df9eb-97cb-4875-a121-1dabe7bc9db6">DllCanUnloadNow</a>
-
-
-
-<a href="..\dbgeng\nc-dbgeng-pdebug_extension_uninitialize.md">DebugExtensionUninitialize</a>
-
-
-
  
 
  
-
 

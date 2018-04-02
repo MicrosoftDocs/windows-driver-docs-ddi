@@ -7,7 +7,7 @@ old-location: display\d3dddi_lockasyncflags.htm
 old-project: display
 ms.assetid: 0e6dd14c-5192-4c4b-9dcb-716989d24588
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDI_LOCKASYNCFLAGS, D3DDDI_LOCKASYNCFLAGS structure [Display Devices], D3D_other_Structs_765c2b3d-14e2-4eaf-978f-764263aa2a99.xml, _D3DDDI_LOCKASYNCFLAGS, d3dumddi/D3DDDI_LOCKASYNCFLAGS, display.d3dddi_lockasyncflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,28 +52,6 @@ req.typenames: D3DDDI_LOCKASYNCFLAGS
 The D3DDDI_LOCKASYNCFLAGS structure identifies how to lock a resource.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDI_LOCKASYNCFLAGS {
-  union {
-    struct {
-      UINT NoOverwrite  :1;
-      UINT Discard  :1;
-      UINT RangeValid  :1;
-      UINT AreaValid  :1;
-      UINT BoxValid  :1;
-      UINT NoExistingReferences  :1;
-      UINT NotifyOnly  :1;
-      UINT Reserved  :25;
-    };
-    UINT   Value;
-  };
-} D3DDDI_LOCKASYNCFLAGS;
-````
-
-
 ## -struct-fields
 
 
@@ -116,14 +94,14 @@ Setting this member is equivalent to setting the fifth bit of the 32-bit <b>Valu
 
 ### -field NoExistingReferences
 
-A UINT value that specifies whether the Microsoft Direct3D runtime has any queued references to the resource to be locked. If <b>NoExistingReferences</b> is set, the driver determines that no internally queued references to the resource are available. The driver can then set the <b>NoExistingReferences</b> bit-field flag of the <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_lock.md">D3DDDICB_LOCK</a> structure when the driver calls the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lockcb.md">pfnLockCb</a> function to perform a lock-discard operation. 
+A UINT value that specifies whether the Microsoft Direct3D runtime has any queued references to the resource to be locked. If <b>NoExistingReferences</b> is set, the driver determines that no internally queued references to the resource are available. The driver can then set the <b>NoExistingReferences</b> bit-field flag of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544205">D3DDDICB_LOCK</a> structure when the driver calls the <a href="https://msdn.microsoft.com/69022797-432a-410b-8cbf-e1ef7111e7ea">pfnLockCb</a> function to perform a lock-discard operation. 
 
 Setting this member is equivalent to setting the sixth bit of the 32-bit <b>Value</b> member (0x00000020).
 
 
 ### -field NotifyOnly
 
-A UINT value that specifies whether the lock call is for notification only. The Direct3D runtime sets <b>NotifyOnly</b> to <b>TRUE</b> when it locks runtime-allocated system memory surfaces. In this situation, the runtime ignores the pointer that the driver returns in the <b>pSurfData</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_lockasync.md">D3DDDIARG_LOCKASYNC</a> structure.
+A UINT value that specifies whether the lock call is for notification only. The Direct3D runtime sets <b>NotifyOnly</b> to <b>TRUE</b> when it locks runtime-allocated system memory surfaces. In this situation, the runtime ignores the pointer that the driver returns in the <b>pSurfData</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543213">D3DDDIARG_LOCKASYNC</a> structure.
 
 Setting this member is equivalent to setting the seventh bit of the 32-bit <b>Value</b> member (0x00000040).
 
@@ -140,12 +118,11 @@ A member in the union that is contained in D3DDDI_LOCKASYNCFLAGS that can hold o
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_lockasync.md">D3DDDIARG_LOCKASYNC</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543213">D3DDDIARG_LOCKASYNC</a>
  
 
  
-
 

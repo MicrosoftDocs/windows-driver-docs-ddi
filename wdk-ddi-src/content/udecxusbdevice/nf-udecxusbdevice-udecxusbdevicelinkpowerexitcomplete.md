@@ -7,7 +7,7 @@ old-location: buses\udecxusbdevicelinkpowerexitcomplete.htm
 old-project: usbref
 ms.assetid: EB41B75C-57E0-4E09-8A7A-2D6BB377ACE7
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: UdecxUsbDeviceLinkPowerExitComplete, UdecxUsbDeviceLinkPowerExitComplete function [Buses], buses.udecxusbdevicelinkpowerexitcomplete, udecxusbdevice/UdecxUsbDeviceLinkPowerExitComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -54,17 +54,6 @@ req.product: Windows 10 or later.
 Completes an asynchronous request for sending the device to a low power state.  
 
 
-## -syntax
-
-
-````
-void UdecxUsbDeviceLinkPowerExitComplete(
-  _In_ UDECXUSBDEVICE UdecxUsbDevice,
-  _In_ NTSTATUS       CompletionStatus
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +61,7 @@ void UdecxUsbDeviceLinkPowerExitComplete(
 
 ### -param UdecxUsbDevice [in]
 
-A handle to UDE device object. The client driver retrieved this pointer in the previous call to <a href="..\udecxusbdevice\nf-udecxusbdevice-udecxusbdevicecreate.md">UdecxUsbDeviceCreate</a>.
+A handle to UDE device object. The client driver retrieved this pointer in the previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/mt595959">UdecxUsbDeviceCreate</a>.
 
 
 ### -param CompletionStatus [in]
@@ -93,7 +82,7 @@ This function does not return a value.
 
 
 
-When the USB device emulation class extension (UdeCx) gets a request to send the device to a low power state, it invokes the client driver's implementation of the <a href="..\udecxusbdevice\nc-udecxusbdevice-evt_udecx_usb_device_d0_exit.md">EVT_UDECX_USB_DEVICE_D0_EXIT</a> callback function. 
+When the USB device emulation class extension (UdeCx) gets a request to send the device to a low power state, it invokes the client driver's implementation of the <a href="https://msdn.microsoft.com/library/windows/hardware/mt595911">EVT_UDECX_USB_DEVICE_D0_EXIT</a> callback function. 
 
 After the client driver has performed the necessary steps for sending the virtual USB device to low power state, the driver calls this method to notify the class extension that it has completed the power request.
 
@@ -102,11 +91,6 @@ After the client driver has performed the necessary steps for sending the virtua
 
 ## -see-also
 
-<a href="..\udecxusbdevice\nc-udecxusbdevice-evt_udecx_usb_device_d0_exit.md">EVT_UDECX_USB_DEVICE_D0_EXIT</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
 
 
 
@@ -114,8 +98,12 @@ After the client driver has performed the necessary steps for sending the virtua
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595911">EVT_UDECX_USB_DEVICE_D0_EXIT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
  
 
  
-
 

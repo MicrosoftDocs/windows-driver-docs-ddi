@@ -7,7 +7,7 @@ old-location: audio\ioctl_usbsbaud_get_volumepropertyvalues.htm
 old-project: audio
 ms.assetid: DDA15710-1C25-4E4F-995D-6FC33DC4ECA7
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/19/2018
 ms.keywords: IOCTL_USBSBAUD_GET_VOLUMEPROPERTYVALUES, IOCTL_USBSBAUD_GET_VOLUMEPROPERTYVALUES control code [Audio Devices], audio.ioctl_usbsbaud_get_volumepropertyvalues, usbsidebandaudio/IOCTL_USBSBAUD_GET_VOLUMEPROPERTYVALUES
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -106,7 +106,6 @@ TBD
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
 
 
 
@@ -114,16 +113,16 @@ TBD
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548651">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548656">WdfIoTargetSendInternalIoctlSynchronously</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548660">WdfIoTargetSendIoctlSynchronously</a>
  
 
  
-
 

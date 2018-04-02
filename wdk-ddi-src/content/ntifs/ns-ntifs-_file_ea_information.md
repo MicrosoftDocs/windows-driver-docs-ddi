@@ -7,7 +7,7 @@ old-location: kernel\file_ea_information.htm
 old-project: kernel
 ms.assetid: 1b27f26f-c98d-4979-b60e-0ed5965f637c
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*PFILE_EA_INFORMATION, FILE_EA_INFORMATION, FILE_EA_INFORMATION structure [Kernel-Mode Driver Architecture], PFILE_EA_INFORMATION, PFILE_EA_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _FILE_EA_INFORMATION, kernel.file_ea_information, kstruct_b_f78f051a-aa8f-4611-a699-1f706ac74f1f.xml, ntifs/FILE_EA_INFORMATION, ntifs/PFILE_EA_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,16 +52,6 @@ req.typenames: FILE_EA_INFORMATION, *PFILE_EA_INFORMATION
 The <b>FILE_EA_INFORMATION</b> structure is used to query for the size of the extended attributes (EA) for a file.
 
 
-## -syntax
-
-
-````
-typedef struct _FILE_EA_INFORMATION {
-  ULONG EaSize;
-} FILE_EA_INFORMATION, *PFILE_EA_INFORMATION;
-````
-
-
 ## -struct-fields
 
 
@@ -76,7 +66,7 @@ Specifies the combined length, in bytes, of the extended attributes for the file
 
 
 
-This structure is used by the <a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a> routine.
+This structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567052">ZwQueryInformationFile</a> routine.
 
 An extended attribute is a piece of application-specific metadata that an application can associate with a file that is not part of the file's data. In addition to the built-in attributes of a file, such as creation and modification times, applications can add non-file system attributes, such as the author's name and a description of the file content.
 
@@ -85,12 +75,11 @@ An extended attribute is a piece of application-specific metadata that an applic
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567052">ZwQueryInformationFile</a>
  
 
  
-
 

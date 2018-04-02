@@ -7,7 +7,7 @@ old-location: debugger\extremotelist_hasnode.htm
 old-project: debugger
 ms.assetid: 412a77c8-eb10-43c5-bc45-2c61858463a7
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: EngExtCpp_Ref_c97c7662-0bbc-4458-9b69-34805fe8c451.xml, ExtRemoteList, ExtRemoteList class [Windows Debugging], HasNode method, ExtRemoteList::HasNode, HasNode method [Windows Debugging], HasNode method [Windows Debugging], ExtRemoteList class, HasNode,ExtRemoteList.HasNode, debugger.extremotelist_hasnode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,14 +52,6 @@ req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 The <b>HasNode</b> method determines if there is a current item in the list iteration.
 
 
-## -syntax
-
-
-````
-bool HasNode();
-````
-
-
 ## -parameters
 
 
@@ -89,16 +81,15 @@ If this method returns <code>true</code>, <a href="https://msdn.microsoft.com/li
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544114">ExtRemoteList</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544129">ExtRemoteList::GetNodeOffset</a>
-
-
-
-<a href="..\engextcpp\nl-engextcpp-extremotelist.md">ExtRemoteList</a>
-
-
-
  
 
  
-
 

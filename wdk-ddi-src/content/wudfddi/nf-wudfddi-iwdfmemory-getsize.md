@@ -55,14 +55,6 @@ req.product: Windows 10 or later.
 The <b>GetSize</b> method retrieves the size of the data buffer that is associated with a memory object.
 
 
-## -syntax
-
-
-````
-SIZE_T  GetSize();
-````
-
-
 ## -parameters
 
 
@@ -81,12 +73,11 @@ SIZE_T  GetSize();
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559249">IWDFMemory</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: ifsk\fltgetcontextsex.htm
 old-project: ifsk
 ms.assetid: 99903B10-5FA8-430F-9E1F-90A45E07B7D0
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FltGetContextsEx, FltGetContextsEx routine [Installable File System Drivers], fltkernel/FltGetContextsEx, ifsk.fltgetcontextsex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,19 +52,6 @@ req.typenames: EXpsFontRestriction
 The <b>FltGetContextsEx</b> routine retrieves a minifilter driver's contexts for the objects related to the current operation. 
 
 
-## -syntax
-
-
-````
-VOID FltGetContextsEx(
-  _In_  PCFLT_RELATED_OBJECTS    FltObjects,
-  _In_  FLT_CONTEXT_TYPE         DesiredContexts,
-  _In_  SIZE_T                   ContextsSize,
-  _Out_ PFLT_RELATED_CONTEXTS_EX Contexts
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +59,7 @@ VOID FltGetContextsEx(
 
 ### -param FltObjects [in]
 
-Pointer to an <a href="..\fltkernel\ns-fltkernel-_flt_related_objects.md">FLT_RELATED_OBJECTS</a> structure containing opaque pointers for the objects related to the current operation. (For more information about this parameter, see the  Remarks section.) 
+Pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff544816">FLT_RELATED_OBJECTS</a> structure containing opaque pointers for the objects related to the current operation. (For more information about this parameter, see the  Remarks section.) 
 
 
 ### -param DesiredContexts [in]
@@ -98,12 +85,12 @@ FLT_SECTION_CONTEXT (Windows 8 and later only.)
 
 ### -param ContextsSize [in]
 
-The size, in bytes, of the <a href="..\fltkernel\ns-fltkernel-_flt_related_contexts_ex.md">FLT_RELATED_CONTEXTS_EX</a> structure pointed to by <i>Contexts</i>. Set to <b>sizeof</b>(FLT_RELATED_CONTEXTS_EX).
+The size, in bytes, of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh967703">FLT_RELATED_CONTEXTS_EX</a> structure pointed to by <i>Contexts</i>. Set to <b>sizeof</b>(FLT_RELATED_CONTEXTS_EX).
 
 
 ### -param Contexts [out]
 
-Pointer to a caller-allocated <a href="..\fltkernel\ns-fltkernel-_flt_related_contexts_ex.md">FLT_RELATED_CONTEXTS_EX</a> structure that receives the requested contexts. Contexts that are not requested, or requested but not found, are set to zero. 
+Pointer to a caller-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/hh967703">FLT_RELATED_CONTEXTS_EX</a> structure that receives the requested contexts. Contexts that are not requested, or requested but not found, are set to zero. 
 
 
 ## -returns
@@ -119,39 +106,39 @@ None
 
 
 
-A minifilter driver calls <b>FltGetContextsEx</b> to retrieve pointers to the minifilter driver's contexts for the objects in an <a href="..\fltkernel\ns-fltkernel-_flt_related_objects.md">FLT_RELATED_OBJECTS</a> structure. 
+A minifilter driver calls <b>FltGetContextsEx</b> to retrieve pointers to the minifilter driver's contexts for the objects in an <a href="https://msdn.microsoft.com/library/windows/hardware/ff544816">FLT_RELATED_OBJECTS</a> structure. 
 
-The following minifilter driver callback routine types receive a pointer to an <a href="..\fltkernel\ns-fltkernel-_flt_related_objects.md">FLT_RELATED_OBJECTS</a> structure as the <i>FltObjects</i> input parameter: 
-
-
-<a href="..\fltkernel\nc-fltkernel-pflt_pre_operation_callback.md">PFLT_PRE_OPERATION_CALLBACK</a>
+The following minifilter driver callback routine types receive a pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff544816">FLT_RELATED_OBJECTS</a> structure as the <i>FltObjects</i> input parameter: 
 
 
-
-<a href="..\fltkernel\nc-fltkernel-pflt_post_operation_callback.md">PFLT_POST_OPERATION_CALLBACK</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551109">PFLT_PRE_OPERATION_CALLBACK</a>
 
 
 
-<a href="..\fltkernel\nc-fltkernel-pflt_instance_setup_callback.md">PFLT_INSTANCE_SETUP_CALLBACK</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551107">PFLT_POST_OPERATION_CALLBACK</a>
 
 
 
-<a href="..\fltkernel\nc-fltkernel-pflt_instance_query_teardown_callback.md">PFLT_INSTANCE_QUERY_TEARDOWN_CALLBACK</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551096">PFLT_INSTANCE_SETUP_CALLBACK</a>
 
 
 
-<a href="..\fltkernel\nc-fltkernel-pflt_instance_teardown_callback.md">PFLT_INSTANCE_TEARDOWN_CALLBACK</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551095">PFLT_INSTANCE_QUERY_TEARDOWN_CALLBACK</a>
 
 
-<b>FltGetContextsEx</b> increments the reference count on each of the contexts returned in the <a href="..\fltkernel\ns-fltkernel-_flt_related_contexts_ex.md">FLT_RELATED_CONTEXTS_EX</a> structure that the <i>Contexts </i>parameter points to. Thus for every successful call to <b>FltGetContextsEx</b>, the caller must either: 
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551098">PFLT_INSTANCE_TEARDOWN_CALLBACK</a>
+
+
+<b>FltGetContextsEx</b> increments the reference count on each of the contexts returned in the <a href="https://msdn.microsoft.com/library/windows/hardware/hh967703">FLT_RELATED_CONTEXTS_EX</a> structure that the <i>Contexts </i>parameter points to. Thus for every successful call to <b>FltGetContextsEx</b>, the caller must either: 
 
 <ul>
 <li>
-Call <a href="..\fltkernel\nf-fltkernel-fltreleasecontextsex.md">FltReleaseContextsEx</a> for the entire structure that the <i>Contexts</i> parameter points to.
+Call <a href="https://msdn.microsoft.com/library/windows/hardware/hh967701">FltReleaseContextsEx</a> for the entire structure that the <i>Contexts</i> parameter points to.
 
 </li>
 <li>
-Call <a href="..\fltkernel\nf-fltkernel-fltreleasecontext.md">FltReleaseContext</a> for each of the contexts returned in the structure and set each context field returned in the structure to zero. 
+Call <a href="https://msdn.microsoft.com/library/windows/hardware/ff544314">FltReleaseContext</a> for each of the contexts returned in the structure and set each context field returned in the structure to zero. 
 
 </li>
 </ul>
@@ -160,48 +147,47 @@ Call <a href="..\fltkernel\nf-fltkernel-fltreleasecontext.md">FltReleaseContext<
 
 ## -see-also
 
-<a href="..\fltkernel\nc-fltkernel-pflt_instance_query_teardown_callback.md">PFLT_INSTANCE_QUERY_TEARDOWN_CALLBACK</a>
 
 
 
-<a href="..\fltkernel\ns-fltkernel-_flt_related_contexts_ex.md">FLT_RELATED_CONTEXTS_EX</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh967703">FLT_RELATED_CONTEXTS_EX</a>
 
 
 
-<a href="..\fltkernel\nc-fltkernel-pflt_post_operation_callback.md">PFLT_POST_OPERATION_CALLBACK</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544816">FLT_RELATED_OBJECTS</a>
 
 
 
-<a href="..\fltkernel\nc-fltkernel-pflt_pre_operation_callback.md">PFLT_PRE_OPERATION_CALLBACK</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544305">FltRegisterFilter</a>
 
 
 
-<a href="..\fltkernel\nc-fltkernel-pflt_instance_teardown_callback.md">PFLT_INSTANCE_TEARDOWN_CALLBACK</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544314">FltReleaseContext</a>
 
 
 
-<a href="..\fltkernel\ns-fltkernel-_flt_related_objects.md">FLT_RELATED_OBJECTS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh967701">FltReleaseContextsEx</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltreleasecontextsex.md">FltReleaseContextsEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551095">PFLT_INSTANCE_QUERY_TEARDOWN_CALLBACK</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltreleasecontext.md">FltReleaseContext</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551096">PFLT_INSTANCE_SETUP_CALLBACK</a>
 
 
 
-<a href="..\fltkernel\nc-fltkernel-pflt_instance_setup_callback.md">PFLT_INSTANCE_SETUP_CALLBACK</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551098">PFLT_INSTANCE_TEARDOWN_CALLBACK</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltregisterfilter.md">FltRegisterFilter</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551107">PFLT_POST_OPERATION_CALLBACK</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551109">PFLT_PRE_OPERATION_CALLBACK</a>
  
 
  
-
 

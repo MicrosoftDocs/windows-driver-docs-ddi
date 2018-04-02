@@ -52,17 +52,6 @@ req.typenames: KSCAMERA_EXTENDEDPROP_ROI_FOCUS, *PKSCAMERA_EXTENDEDPROP_ROI_FOCU
 This structure contains the ROI info structure for focus.
 
 
-## -syntax
-
-
-````
-typedef struct tagKSCAMERA_EXTENDEDPROP_ROI_FOCUS {
-  KSCAMERA_EXTENDEDPROP_ROI_INFO ROIInfo;
-  ULONGLONG                      Reserved;
-} KSCAMERA_EXTENDEDPROP_ROI_FOCUS, *PKSCAMERA_EXTENDEDPROP_ROI_FOCUS;
-````
-
-
 ## -struct-fields
 
 
@@ -70,7 +59,7 @@ typedef struct tagKSCAMERA_EXTENDEDPROP_ROI_FOCUS {
 
 ### -field ROIInfo
 
-See the <a href="..\ksmedia\ns-ksmedia-tagkscamera_extendedprop_roi_info.md">KSCAMERA_EXTENDEDPROP_ROI_INFO</a> structure for more information.
+See the <a href="https://msdn.microsoft.com/library/windows/hardware/dn925167">KSCAMERA_EXTENDEDPROP_ROI_INFO</a> structure for more information.
 
 
 ### -field Reserved

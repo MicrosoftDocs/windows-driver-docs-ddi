@@ -7,7 +7,7 @@ old-location: ifsk\fsrtlnotifyfullreportchange.htm
 old-project: ifsk
 ms.assetid: b0616127-6bbe-4f9b-87c6-3c7bebe60863
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FsRtlNotifyFullReportChange, FsRtlNotifyFullReportChange routine [Installable File System Drivers], fsrtlref_1107429f-a697-40a9-8336-b9a145b476b9.xml, ifsk.fsrtlnotifyfullreportchange, ntifs/FsRtlNotifyFullReportChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,24 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>FsRtlNotifyFullReportChange</b> routine completes pending notify change IRPs. 
 
 
-## -syntax
-
-
-````
-VOID FsRtlNotifyFullReportChange(
-  _In_     PNOTIFY_SYNC NotifySync,
-  _In_     PLIST_ENTRY  NotifyList,
-  _In_     PSTRING      FullTargetName,
-  _In_     USHORT       TargetNameOffset,
-  _In_opt_ PSTRING      StreamName,
-  _In_opt_ PSTRING      NormalizedParentName,
-  _In_     ULONG        FilterMatch,
-  _In_     ULONG        Action,
-  _In_opt_ PVOID        TargetContext
-);
-````
-
-
 ## -parameters
 
 
@@ -107,7 +89,7 @@ Optional pointer to an ANSI or Unicode string that contains the same path as in 
 
 ### -param FilterMatch [in]
 
-A bitmask of flags to be compared with the completion filter in the notify structure. If any of the corresponding bits in the completion filter are set, then a notify condition exists. For possible flag values, see the <i>CompletionFilter</i> parameter of <a href="..\rxprocs\nf-rxprocs-fsrtlnotifyfullchangedirectory.md">FsRtlNotifyFullChangeDirectory</a>.
+A bitmask of flags to be compared with the completion filter in the notify structure. If any of the corresponding bits in the completion filter are set, then a notify condition exists. For possible flag values, see the <i>CompletionFilter</i> parameter of <a href="https://msdn.microsoft.com/library/windows/hardware/ff547026">FsRtlNotifyFullChangeDirectory</a>.
 
 
 ### -param Action [in]
@@ -235,7 +217,7 @@ An object ID for a file could not be tunneled because the file already has an ob
 
 ### -param TargetContext [in, optional]
 
-Context pointer to pass to the file system if performing a traverse check in the case of a tree being watched. For more information, see the <i>TraverseCallback</i> parameter of <a href="..\rxprocs\nf-rxprocs-fsrtlnotifyfullchangedirectory.md">FsRtlNotifyFullChangeDirectory</a>.
+Context pointer to pass to the file system if performing a traverse check in the case of a tree being watched. For more information, see the <i>TraverseCallback</i> parameter of <a href="https://msdn.microsoft.com/library/windows/hardware/ff547026">FsRtlNotifyFullChangeDirectory</a>.
 
 
 ## -returns
@@ -260,12 +242,11 @@ None
 
 ## -see-also
 
-<a href="..\rxprocs\nf-rxprocs-fsrtlnotifyfullchangedirectory.md">FsRtlNotifyFullChangeDirectory</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547026">FsRtlNotifyFullChangeDirectory</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: storage\disk_signature.htm
 old-project: storage
 ms.assetid: f3fdb436-53b6-4fb3-8746-1f852f7d928a
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PDISK_SIGNATURE, DISK_SIGNATURE, DISK_SIGNATURE structure [Storage Devices], PDISK_SIGNATURE, PDISK_SIGNATURE structure pointer [Storage Devices], _DISK_SIGNATURE, ntddk/DISK_SIGNATURE, ntddk/PDISK_SIGNATURE, storage.disk_signature, structs-disk_6ea56db7-c886-43f2-b9ed-24b0f7e1cb6e.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,25 +52,6 @@ req.typenames: DISK_SIGNATURE, *PDISK_SIGNATURE
 DISK_SIGNATURE contains the disk signature information for a disk's partition table.
 
 
-## -syntax
-
-
-````
-typedef struct _DISK_SIGNATURE {
-  ULONG PartitionStyle;
-  union {
-    struct {
-      ULONG Signature;
-      ULONG CheckSum;
-    } Mbr;
-    struct {
-      GUID DiskId;
-    } Gpt;
-  };
-} DISK_SIGNATURE, *PDISK_SIGNATURE;
-````
-
-
 ## -struct-fields
 
 
@@ -104,12 +85,11 @@ Specifies the GUID that uniquely identifies the disk. The <b>Gpt</b> member of t
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-ioreaddisksignature.md">IoReadDiskSignature</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561447">IoReadDiskSignature</a>
  
 
  
-
 

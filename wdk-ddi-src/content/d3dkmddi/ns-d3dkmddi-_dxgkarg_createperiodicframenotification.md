@@ -7,7 +7,7 @@ old-location: display\dxgkarg_createperiodicframenotification.htm
 old-project: display
 ms.assetid: 455C3FBD-2E0D-4CD7-B753-E53ED58A7F6F
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*INOUT_PDXGKARG_CREATEPERIODICFRAMENOTIFICATION, DXGKARG_CREATEPERIODICFRAMENOTIFICATION, DXGKARG_CREATEPERIODICFRAMENOTIFICATION structure [Display Devices], _DXGKARG_CREATEPERIODICFRAMENOTIFICATION, d3dkmddi/DXGKARG_CREATEPERIODICFRAMENOTIFICATION, display.dxgkarg_createperiodicframenotification"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,20 +50,6 @@ req.typenames: DXGKARG_CREATEPERIODICFRAMENOTIFICATION
 
 
 The arguments needed to create a periodic frame notification.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGKARG_CREATEPERIODICFRAMENOTIFICATION {
-  HANDLE                         hAdapter;
-  D3DDDI_VIDEO_PRESENT_TARGET_ID VidPnTargetID;
-  UINT64                         Time;
-  UINT                           NotificationID;
-  HANDLE                         hNotification;
-} DXGKARG_CREATEPERIODICFRAMENOTIFICATION;
-````
 
 
 ## -struct-fields

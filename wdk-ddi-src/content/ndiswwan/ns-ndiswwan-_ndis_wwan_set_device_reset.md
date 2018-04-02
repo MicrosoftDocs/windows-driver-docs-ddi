@@ -7,7 +7,7 @@ old-location: netvista\ndis_wwan_set_device_reset.htm
 old-project: netvista
 ms.assetid: 73894308-CFE0-49EF-BB09-E104CEE9C746
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PNDIS_WWAN_SET_DEVICE_RESET, NDIS_WWAN_SET_DEVICE_RESET, NDIS_WWAN_SET_DEVICE_RESET structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SET_DEVICE_RESET, PNDIS_WWAN_SET_DEVICE_RESET structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_SET_DEVICE_RESET, ndiswwan/NDIS_WWAN_SET_DEVICE_RESET, ndiswwan/PNDIS_WWAN_SET_DEVICE_RESET, netvista.ndis_wwan_set_device_reset"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,16 +50,6 @@ req.typenames: NDIS_WWAN_SET_DEVICE_RESET, *PNDIS_WWAN_SET_DEVICE_RESET
 
 
 The <b>NDIS_WWAN_SET_DEVICE_RESET</b> structure represents a command to reset a modem device. It is sent as part of an <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-device-reset">OID_WWAN_DEVICE_RESET</a> set request.
-
-
-## -syntax
-
-
-````
-typedef struct _NDIS_WWAN_SET_DEVICE_RESET {
-  NDIS_OBJECT_HEADER Header;
-} NDIS_WWAN_SET_DEVICE_RESET, *PNDIS_WWAN_SET_DEVICE_RESET;
-````
 
 
 ## -struct-fields
@@ -115,25 +105,24 @@ sizeof(NDIS_WWAN_SET_DEVICE_RESET)
  
 
 For more information about these members, see 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>.
 
 
 ## -see-also
+
+
+
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-modem-reset-operations">MB modem reset operations</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-device-reset">OID_WWAN_DEVICE_RESET</a>
-
-
-
  
 
  
-
 

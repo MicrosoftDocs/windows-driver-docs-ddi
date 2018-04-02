@@ -7,7 +7,7 @@ old-location: display\dxgk_querysegmentout4.htm
 old-project: display
 ms.assetid: AE6988E6-81D7-47FB-986A-B5DEE9B7215B
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGK_QUERYSEGMENTOUT4, DXGK_QUERYSEGMENTOUT4 structure [Display Devices], _DXGK_QUERYSEGMENTOUT4, d3dkmddi/DXGK_QUERYSEGMENTOUT4, display.dxgk_querysegmentout4
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,21 +52,6 @@ req.typenames: DXGK_QUERYSEGMENTOUT4
 The <b>DXGK_QUERYSEGMENTOUT4</b> structure contains memory segment information  returned from the driver.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGK_QUERYSEGMENTOUT4 {
-  UINT   NbSegment;
-  BYTE   *pSegmentDescriptor;
-  UINT   PagingBufferSegmentId;
-  UINT   PagingBufferSize;
-  UINT   PagingBufferPrivateDataSize;
-  SIZE_T SegmentDescriptorStride;
-} DXGK_QUERYSEGMENTOUT4;
-````
-
-
 ## -struct-fields
 
 
@@ -74,12 +59,12 @@ typedef struct _DXGK_QUERYSEGMENTOUT4 {
 
 ### -field NbSegment
 
-Number of elements in the <b>pSegmentDescriptor</b> array. The <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryadapterinfo.md">DxgkDdiQueryAdapterInfo</a> (<b>DXGKQAITYPE_QUERYSEGMENT4</b>) will be called twice. First time, <b>NbSegment</b> will be set to 0. The driver should return <b>STATUS_SUCCESS</b> and set <b>NbSegment</b> to the number of GPU memory segments in the adapter without accessing any other member of the structure. Second time, the driver will be called with the reported number of segments and the driver should fill all required information.
+Number of elements in the <b>pSegmentDescriptor</b> array. The <a href="https://msdn.microsoft.com/f2f4c54c-7413-48e5-a165-d71f35642b6c">DxgkDdiQueryAdapterInfo</a> (<b>DXGKQAITYPE_QUERYSEGMENT4</b>) will be called twice. First time, <b>NbSegment</b> will be set to 0. The driver should return <b>STATUS_SUCCESS</b> and set <b>NbSegment</b> to the number of GPU memory segments in the adapter without accessing any other member of the structure. Second time, the driver will be called with the reported number of segments and the driver should fill all required information.
 
 
 ### -field pSegmentDescriptor
 
-Pointer to the array of <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_segmentdescriptor4.md">DXGK_SEGMENTDESCRIPTOR4</a> structures. The size of the array element is defined by <b>SegmentDescriptorStride</b>. The <b>pSegmentDescriptor</b> type has been changed to a <b>BYTE*</b> to help enforce the use of the stride as the method of iterating the array. The driver fills the array with information about each memory segment.
+Pointer to the array of <a href="https://msdn.microsoft.com/library/windows/hardware/dn906842">DXGK_SEGMENTDESCRIPTOR4</a> structures. The size of the array element is defined by <b>SegmentDescriptorStride</b>. The <b>pSegmentDescriptor</b> type has been changed to a <b>BYTE*</b> to help enforce the use of the stride as the method of iterating the array. The driver fills the array with information about each memory segment.
 
 
 ### -field PagingBufferSegmentId
@@ -104,12 +89,11 @@ Size of the elements in the <b>pSegmentDescriptor</b> array in bytes.
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_querysegmentin4.md">DXGK_QUERYSEGMENTIN4</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn906838">DXGK_QUERYSEGMENTIN4</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: netvista\rilmsgmwidetail.htm
 old-project: netvista
 ms.assetid: 69371414-9f4a-46a6-8622-5750db7a0c5b
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*LPRILMSGMWIDETAIL, RILMSGMWIDETAIL, RILMSGMWIDETAIL structure [Network Drivers Starting with Windows Vista], netvista.rilmsgmwidetail, ntddrilapitypes/RILMSGMWIDETAIL"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,22 +51,6 @@ req.product: Windows 10 or later.
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef struct _RILMSGMWIDETAIL {
-  RILMSGMWITYPE      dwMwiType;
-  RILMSGMWIPRIORITY  dwMwiPriority;
-  RILADDRESS         raToAddress;
-  RILADDRESS         raFromAddress;
-  RILSYSTEMTIME      stDateSent;
-  WCHAR [256]        wszSubject;
-  WCHAR [256]        wszMessageId;
-} RILMSGMWIDETAIL, RILMSGMWIDETAIL;
-````
 
 
 ## -struct-fields

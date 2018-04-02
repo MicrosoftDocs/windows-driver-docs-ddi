@@ -7,7 +7,7 @@ old-location: storage\stor_address.htm
 old-project: storage
 ms.assetid: 464AE3EA-D941-430F-8362-B66F4D00AE50
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSTOR_ADDRESS, PSTOR_ADDRESS, PSTOR_ADDRESS structure pointer [Storage Devices], STOR_ADDRESS, STOR_ADDRESS structure [Storage Devices], STOR_ADDRESS_TYPE_BTL8, STOR_ADDRESS_TYPE_UNKNOWN, _STOR_ADDRESS, storage.stor_address, storport/PSTOR_ADDRESS, storport/STOR_ADDRESS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,19 +52,6 @@ req.product: Windows 10 or later.
 
 
    A general structure for holding a storage device address.
-
-
-## -syntax
-
-
-````
-typedef struct _STOR_ADDRESS {
-  USHORT Type;
-  USHORT Port;
-  ULONG  AddressLength;
-  UCHAR  AddressData[ANYSIZE_ARRAY];
-} STOR_ADDRESS, *PSTOR_ADDRESS;
-````
 
 
 ## -struct-fields
@@ -122,16 +109,15 @@ The address data specific to an address type.
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportsetunitattributes.md">StorPortSetUnitAttributes</a>
 
 
 
-<a href="..\storport\ns-storport-_stor_addr_btl8.md">STOR_ADDR_BTL8</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451521">STOR_ADDR_BTL8</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj206452">StorPortSetUnitAttributes</a>
  
 
  
-
 

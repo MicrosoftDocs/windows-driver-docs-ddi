@@ -53,22 +53,6 @@ req.typenames: WCS_PROFILE_MANAGEMENT_SCOPE
 The <code>WcsOpenColorProfile</code> function creates a handle to a specified color profile.
 
 
-## -syntax
-
-
-````
-HPROFILE WINAPI WcsOpenColorProfile(
-  _In_     PROFILE pDMPProfile,
-  _In_opt_ PROFILE pCAMPProfile,
-  _In_opt_ PROFILE pGMMPProfile,
-  _In_     DWORD   dwDesiredAccess,
-  _In_     DWORD   dwShareMode,
-  _In_     DWORD   dwCreationMode,
-  _In_     DWORD   dwFlags
-);
-````
-
-
 ## -parameters
 
 
@@ -167,6 +151,31 @@ A flag value that specifies whether to use the embedded WCS profile. This parame
  
 
 
+##### - dwCreationMode.CREATE_ALWAYS
+
+Specifies that a new profile is to be created. If a profile already exists, it is overwritten.
+
+
+##### - dwCreationMode.CREATE_NEW
+
+Specifies that a new profile is to be created. The function fails if the profile already exists.
+
+
+##### - dwCreationMode.OPEN_ALWAYS
+
+Specifies that the profile is to be opened if an International Color Consortium (ICC) file exists. If an ICC profile does not exist, WCS creates a new ICC profile. The function will fail for WCS profiles if this flag is set and a WCS profile does not exist.
+
+
+##### - dwCreationMode.OPEN_EXISTING
+
+Specifies that the profile is to be opened. The function fails if the profile does not exist.
+
+
+##### - dwCreationMode.TRUNCATE_EXISTING
+
+Specifies that the profile is to be opened and truncated to zero bytes. The function fails if the profile does not exist.
+
+
 #### - dwDesiredAccess [in]
 
 A flag value that specifies how to access the given color profile. This parameter must take one of the following values:
@@ -184,6 +193,26 @@ Specifies that the color profile will be opened for read-only access.
 #### PROFILE_READWRITE
 
 Specifies that the color profile will be opened for both read and write access.  This flag value is ignored when a WCS profile is opened.
+
+
+##### - dwDesiredAccess.PROFILE_READ
+
+Specifies that the color profile will be opened for read-only access.
+
+
+##### - dwDesiredAccess.PROFILE_READWRITE
+
+Specifies that the color profile will be opened for both read and write access.  This flag value is ignored when a WCS profile is opened.
+
+
+##### - dwShareMode.FILE_SHARE_READ
+
+Specifies that other open operations can be performed on the profile for read access.
+
+
+##### - dwShareMode.FILE_SHARE_WRITE
+
+Specifies that other open operations can be performed on the profile for write access. This flag value is ignored when a WCS profile is opened.
 
 
 #### - pDMPProfile [in]
@@ -214,12 +243,11 @@ Use the <a href="http://go.microsoft.com/fwlink/p/?linkid=52323">CloseColorProfi
 
 ## -see-also
 
+
+
+
 <a href="http://go.microsoft.com/fwlink/p/?linkid=52323">CloseColorProfile</a>
-
-
-
  
 
  
-
 

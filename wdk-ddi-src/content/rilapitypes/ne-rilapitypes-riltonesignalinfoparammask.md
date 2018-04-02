@@ -7,7 +7,7 @@ old-location: netvista\riltonesignalinfoparammask.htm
 old-project: netvista
 ms.assetid: 5ebacb12-4ccd-4e92-ba73-b79c1969eb4f
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: RILTONESIGNALINFOPARAMMASK, RILTONESIGNALINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_TONESIGNAL_All, RIL_PARAM_TONESIGNAL_EXECUTOR, RIL_PARAM_TONESIGNAL_GPP2ISDNALERTING, RIL_PARAM_TONESIGNAL_GPP2TONE, netvista.riltonesignalinfoparammask, ntddrilapitypes/RILTONESIGNALINFOPARAMMASK, ntddrilapitypes/RIL_PARAM_TONESIGNAL_All, ntddrilapitypes/RIL_PARAM_TONESIGNAL_EXECUTOR, ntddrilapitypes/RIL_PARAM_TONESIGNAL_GPP2ISDNALERTING, ntddrilapitypes/RIL_PARAM_TONESIGNAL_GPP2TONE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,19 +51,6 @@ req.product: Windows 10 or later.
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef enum _RILTONESIGNALINFOPARAMMASK { 
-  RIL_PARAM_TONESIGNAL_GPP2TONE,
-  RIL_PARAM_TONESIGNAL_GPP2ISDNALERTING,
-  RIL_PARAM_TONESIGNAL_EXECUTOR,
-  RIL_PARAM_TONESIGNAL_All
-} RILTONESIGNALINFOPARAMMASK;
-````
 
 
 ## -enum-fields

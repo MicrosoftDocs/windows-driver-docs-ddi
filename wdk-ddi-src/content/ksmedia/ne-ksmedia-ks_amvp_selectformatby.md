@@ -52,18 +52,6 @@ req.typenames: KS_AMVP_SELECTFORMATBY
 The KS_AMVP_SELECTFORMATBY enumeration specifies the criteria that the Overlay Mixer Filter should use to select the video format.
 
 
-## -syntax
-
-
-````
-typedef enum  { 
-  KS_AMVP_DO_NOT_CARE           = 0,
-  KS_AMVP_BEST_BANDWIDTH        = 1,
-  KS_AMVP_INPUT_SAME_AS_OUTPUT  = 2
-} KS_AMVP_SELECTFORMATBY;
-````
-
-
 ## -enum-fields
 
 

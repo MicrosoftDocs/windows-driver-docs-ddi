@@ -7,7 +7,7 @@ old-location: netvista\ndis_receive_filter_global_parameters.htm
 old-project: netvista
 ms.assetid: 4ec36054-ba61-4862-b185-7473a6806804
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PNDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS, NDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS, NDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS, PNDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS, netvista.ndis_receive_filter_global_parameters, ntddndis/NDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS, ntddndis/PNDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS, virtual_machine_queue_ref_b51ed6bf-8c3c-41f5-a9ef-a5ec3a720ef2.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -71,19 +71,6 @@ NDIS receive filters are used in the following NDIS interfaces:
 </li>
 </ul>
 
-## -syntax
-
-
-````
-typedef struct _NDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS {
-  NDIS_OBJECT_HEADER Header;
-  ULONG              Flags;
-  ULONG              EnabledFilterTypes;
-  ULONG              EnabledQueueTypes;
-} NDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS, *PNDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS;
-````
-
-
 ## -struct-fields
 
 
@@ -92,7 +79,7 @@ typedef struct _NDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS {
 ### -field Header
 
 The 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure for the
      <b>NDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS</b> structure. The driver sets the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to NDIS_OBJECT_TYPE_DEFAULT.
@@ -171,17 +158,16 @@ The <b>NDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS</b> structure is used in the
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+
+
+
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-global-parameters">
    OID_RECEIVE_FILTER_GLOBAL_PARAMETERS</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
  
 
  
-
 

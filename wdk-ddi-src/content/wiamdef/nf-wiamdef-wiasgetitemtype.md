@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The <b>wiasGetItemType </b>function indicates the item type.
 
 
-## -syntax
-
-
-````
-HRESULT _stdcall wiasGetItemType(
-  _In_  BYTE *pWiasContext,
-  _Out_ LONG *plItemType
-);
-````
-
-
 ## -parameters
 
 

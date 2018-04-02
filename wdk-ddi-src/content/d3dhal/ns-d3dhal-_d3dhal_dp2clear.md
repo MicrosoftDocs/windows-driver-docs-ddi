@@ -7,7 +7,7 @@ old-location: display\d3dhal_dp2clear.htm
 old-project: display
 ms.assetid: 8cd81cae-8d6b-48d8-afdc-87e3a81653f4
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*LPD3DHAL_DP2CLEAR, D3DHAL_DP2CLEAR, D3DHAL_DP2CLEAR structure [Display Devices], LPD3DHAL_DP2CLEAR, LPD3DHAL_DP2CLEAR structure pointer [Display Devices], _D3DHAL_DP2CLEAR, d3dhal/D3DHAL_DP2CLEAR, d3dhal/LPD3DHAL_DP2CLEAR, d3dstrct_2caf8fa1-61b4-4659-af20-a72d6b36173a.xml, display.d3dhal_dp2clear"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,20 +50,6 @@ req.typenames: D3DHAL_DP2CLEAR
 
 
 D3DHAL_DP2CLEAR contains all of the information that the driver needs to perform hardware-assisted clearing on the rendering target, depth buffer or stencil buffer.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DHAL_DP2CLEAR {
-  DWORD    dwFlags;
-  DWORD    dwFillColor;
-  D3DVALUE dvFillDepth;
-  DWORD    dwFillStencil;
-  RECT     Rects[1];
-} D3DHAL_DP2CLEAR, *LPD3DHAL_DP2CLEAR;
-````
 
 
 ## -struct-fields
@@ -118,7 +104,7 @@ D3DCLEAR_COMPUTERECTS
 <td>
 DirectX 8.0 and later versions only.
 
-If this flag is set, the specified rectangles should be clipped against the current viewport. Furthermore, it is possible that when D3DCLEAR_COMPUTERECTS is specified the number of rectangles to clear can be zero (the number of rectangles to clear can be found in the <b>wStateCount</b>/<b>wPrimtiveCount</b> union of the <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a> structure for the clear). In this case the entire viewport should be cleared.
+If this flag is set, the specified rectangles should be clipped against the current viewport. Furthermore, it is possible that when D3DCLEAR_COMPUTERECTS is specified the number of rectangles to clear can be zero (the number of rectangles to clear can be found in the <b>wStateCount</b>/<b>wPrimtiveCount</b> union of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff545454">D3DHAL_DP2COMMAND</a> structure for the clear). In this case the entire viewport should be cleared.
 
 </td>
 </tr>
@@ -133,7 +119,7 @@ Specifies the color that the driver should clear the context's render target to.
 
 ### -field dvFillDepth
 
-Specifies the value that the driver should use to set the depth in the context's depth buffer. This member can be a value in the interval 0.0 to 1.0. The driver should convert this value to an integer using the <b>dwZBitMask</b> member of the depth buffer's <a href="..\ksmedia\ns-ksmedia-_ddpixelformat.md">DDPIXELFORMAT</a> structure.
+Specifies the value that the driver should use to set the depth in the context's depth buffer. This member can be a value in the interval 0.0 to 1.0. The driver should convert this value to an integer using the <b>dwZBitMask</b> member of the depth buffer's <a href="https://msdn.microsoft.com/library/windows/hardware/ff550274">DDPIXELFORMAT</a> structure.
 
 
 ### -field dwFillStencil
@@ -143,7 +129,7 @@ Specifies the value that the driver should clear the context's stencil buffer to
 
 ### -field Rects
 
-Specifies the rectangular areas of the buffer that the driver should clear. The rectangles are specified in screen coordinates. This member of the structure contains the first rectangle area to be blitted. The <b>wStateCount</b> member of the <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a> contains the total number of rectangle areas to be blitted. The other (<b>wStateCount</b>-1) RECT structures required follow the D3DHAL_DP2CLEAR structure without any padding.
+Specifies the rectangular areas of the buffer that the driver should clear. The rectangles are specified in screen coordinates. This member of the structure contains the first rectangle area to be blitted. The <b>wStateCount</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff545454">D3DHAL_DP2COMMAND</a> contains the total number of rectangle areas to be blitted. The other (<b>wStateCount</b>-1) RECT structures required follow the D3DHAL_DP2CLEAR structure without any padding.
 
 
 ## -remarks
@@ -161,11 +147,6 @@ Display drivers must convert input color values for the ARGB and YUV classes of 
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-_ddpixelformat.md">DDPIXELFORMAT</a>
-
-
-
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
 
 
 
@@ -173,8 +154,12 @@ D3DDP2OP_CLEAR
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545454">D3DHAL_DP2COMMAND</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550274">DDPIXELFORMAT</a>
  
 
  
-
 

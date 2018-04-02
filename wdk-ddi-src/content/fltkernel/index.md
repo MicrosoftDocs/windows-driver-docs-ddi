@@ -2,7 +2,7 @@
 UID: NA:fltkernel
 ms.assetid: 4bae9dcd-2c48-3a14-9947-7e0831da3b42
 ms.author: windowsdriverdev
-ms.date: 03/13/18
+ms.date: 02/27/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

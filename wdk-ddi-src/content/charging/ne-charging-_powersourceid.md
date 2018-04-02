@@ -52,15 +52,5 @@ req.typenames: POWERSOURCEID, *PPOWERSOURCEID
 This enum is for internal use only.
 
 
-## -syntax
-
-
-````
-enum  {
-
-};
-````
-
-
 ## -enum-fields
 

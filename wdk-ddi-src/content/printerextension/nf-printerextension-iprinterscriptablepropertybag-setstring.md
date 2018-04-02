@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 Writes a string property.
 
 
-## -syntax
-
-
-````
-HRESULT SetString(
-  [in] BSTR bstrName,
-  [in] BSTR bstrValue
-);
-````
-
-
 ## -parameters
 
 
@@ -99,12 +88,11 @@ A call to <b>SetString</b> will throw an exception, if the specified property is
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprinterscriptablepropertybag.md">IPrinterScriptablePropertyBag</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh973217">IPrinterScriptablePropertyBag</a>
  
 
  
-
 

@@ -52,22 +52,6 @@ req.product: Windows 10 or later.
 
 
 
-## -syntax
-
-
-````
-BOOL  APIENTRY OEMAlphaBlend(
-   SURFOBJ  *psoDest,
-   SURFOBJ  *psoSrc,
-   CLIPOBJ  *pco,
-   XLATEOBJ *pxlo,
-   RECTL    *prclDest,
-   RECTL    *prclSrc,
-   BLENDOBJ *pBlendObj
-);
-````
-
-
 ## -parameters
 
 

@@ -7,7 +7,7 @@ old-location: netvista\ndisreadregisteruchar.htm
 old-project: netvista
 ms.assetid: 1723672b-aff7-49ca-a027-14a6eb3c2196
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NdisReadRegisterUchar, NdisReadRegisterUchar macro [Network Drivers Starting with Windows Vista], miniport_register_ref_04023727-eaf7-45fb-b70d-5a67eda4a54d.xml, ndis/NdisReadRegisterUchar, netvista.ndisreadregisteruchar
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,17 +53,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
   register.
 
 
-## -syntax
-
-
-````
-VOID NdisReadRegisterUchar(
-  [in]  PUCHAR Register,
-  [out] PUCHAR Data
-);
-````
-
-
 ## -parameters
 
 
@@ -73,7 +62,7 @@ VOID NdisReadRegisterUchar(
 
 Pointer to the memory-mapped register. This virtual address must fall within a range returned by
      an initialization-time call to 
-     <a href="..\ndis\nf-ndis-ndismmapiospace.md">NdisMMapIoSpace</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/hh975119">NdisMMapIoSpace</a>.
 
 
 ### -param Data [out]
@@ -94,28 +83,27 @@ If a driver calls this function, a NIC's device registers must be mapped to nonc
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndiswriteregisteruchar.md">NdisWriteRegisterUchar</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismmapiospace.md">NdisMMapIoSpace</a>
+<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisreadregisterulong.md">NdisReadRegisterUlong</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh975119">NdisMMapIoSpace</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564514">NdisReadRegisterUlong</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisreadregisterushort.md">NdisReadRegisterUshort</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564515">NdisReadRegisterUshort</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564678">NdisWriteRegisterUchar</a>
  
 
  
-
 

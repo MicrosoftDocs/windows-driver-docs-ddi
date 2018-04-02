@@ -52,16 +52,6 @@ req.typenames: BDA_CAS_CLOSEMMIDATA, *PBDA_CAS_CLOSEMMIDATA
 
 
 
-## -syntax
-
-
-````
-typedef struct _BDA_CAS_CLOSEMMIDATA {
-  ULONG ulDialogNumber;
-} BDA_CAS_CLOSEMMIDATA, *PBDA_CAS_CLOSEMMIDATA;
-````
-
-
 ## -struct-fields
 
 

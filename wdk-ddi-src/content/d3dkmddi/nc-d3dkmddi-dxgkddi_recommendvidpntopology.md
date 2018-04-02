@@ -7,7 +7,7 @@ old-location: display\dxgkddirecommendvidpntopology.htm
 old-project: display
 ms.assetid: a7c31d2c-3893-4d25-837d-d4650aeb1cd1
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_RECOMMENDVIDPNTOPOLOGY, DmFunctions_8036db05-72c0-4b67-9151-a33da1df4fb8.xml, DxgkDdiRecommendVidPnTopology, DxgkDdiRecommendVidPnTopology callback function [Display Devices], d3dkmddi/DxgkDdiRecommendVidPnTopology, display.dxgkddirecommendvidpntopology
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,20 +52,6 @@ req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 The <i>DxgkDdiRecommendVidPnTopology</i> function creates the topology of a specified VidPN or augments the topology with a new path to video present targets.
 
 
-## -prototype
-
-
-````
-DXGKDDI_RECOMMENDVIDPNTOPOLOGY DxgkDdiRecommendVidPnTopology;
-
-NTSTATUS APIENTRY DxgkDdiRecommendVidPnTopology(
-  _In_ const HANDLE                               hAdapter,
-  _In_ const DXGKARG_RECOMMENDVIDPNTOPOLOGY CONST *pRecommendVidPnTopologyArg
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -73,7 +59,7 @@ NTSTATUS APIENTRY DxgkDdiRecommendVidPnTopology(
 
 ### -param hAdapter [in]
 
-A handle to a context block that is associated with a display adapter. The display miniport driver previously provided this handle to the Microsoft DirectX graphics kernel subsystem in the <i>MiniportDeviceContext</i> output parameter of the <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function.
+A handle to a context block that is associated with a display adapter. The display miniport driver previously provided this handle to the Microsoft DirectX graphics kernel subsystem in the <i>MiniportDeviceContext</i> output parameter of the <a href="https://msdn.microsoft.com/5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea">DxgkDdiAddDevice</a> function.
 
 
 ### -param pRecommendVidPnTopology
@@ -87,7 +73,7 @@ A handle to a context block that is associated with a display adapter. The displ
 
 #### - pRecommendVidPnTopologyArg [in]
 
-A pointer to a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_recommendvidpntopology.md">DXGKARG_RECOMMENDVIDPNTOPOLOGY</a> structure that contains function arguments.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff557639">DXGKARG_RECOMMENDVIDPNTOPOLOGY</a> structure that contains function arguments.
 
 
 ## -returns
@@ -165,12 +151,11 @@ The miniport driver should pass through any error code that it gets from the ope
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff570560">VidPn Topology Interface</a>
-
-
-
  
 
  
-
 

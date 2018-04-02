@@ -52,17 +52,6 @@ req.typenames: KSPROPERTY_ALLOCATOR_CONTROL_SURFACE_SIZE_S, *PKSPROPERTY_ALLOCAT
 The KSPROPERTY_ALLOCATOR_CONTROL_SURFACE_SIZE_S structure specifies the width and height of an overlay surface.
 
 
-## -syntax
-
-
-````
-typedef struct {
-  ULONG CX;
-  ULONG CY;
-} KSPROPERTY_ALLOCATOR_CONTROL_SURFACE_SIZE_S, *PKSPROPERTY_ALLOCATOR_CONTROL_SURFACE_SIZE_S;
-````
-
-
 ## -struct-fields
 
 
@@ -80,7 +69,6 @@ Specifies the height of the overlay surface
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567792">PROPSETID_ALLOCATOR_CONTROL</a>
 
 
 
@@ -88,8 +76,8 @@ Specifies the height of the overlay surface
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567792">PROPSETID_ALLOCATOR_CONTROL</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: storage\msfc_npivlunmappinginformation.htm
 old-project: storage
 ms.assetid: 5E8A2338-AF1E-41BE-870B-E1F1877DDEDD
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PMSFC_NPIVLUNMappingInformation, MSFC_NPIVLUNMappingInformation, MSFC_NPIVLUNMappingInformation structure [Storage Devices], PMSFC_NPIVLUNMappingInformation, PMSFC_NPIVLUNMappingInformation structure pointer [Storage Devices], _MSFC_NPIVLUNMappingInformation, npivwmi/MSFC_NPIVLUNMappingInformation, npivwmi/PMSFC_NPIVLUNMappingInformation, storage.msfc_npivlunmappinginformation"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,20 +52,6 @@ req.typenames: MSFC_NPIVLUNMappingInformation, *PMSFC_NPIVLUNMappingInformation
 The MSFC_NPIVLUNMappingInformation structure contains the Logical Unit Number (LUN) to virtual port mapping information.
 
 
-## -syntax
-
-
-````
-typedef struct _MSFC_NPIVLUNMappingInformation {
-  UCHAR WWPNVirtualPort[8];
-  UCHAR WWPNPhysicalPort[8];
-  UCHAR OSBus;
-  UCHAR OSTarget;
-  UCHAR OSLUN;
-} MSFC_NPIVLUNMappingInformation, *PMSFC_NPIVLUNMappingInformation;
-````
-
-
 ## -struct-fields
 
 
@@ -98,12 +84,11 @@ The LUN mapped to the virtual port.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh127627">MSFC_NPIVLUNMappingInformation WMI Class</a>
-
-
-
  
 
  
-
 

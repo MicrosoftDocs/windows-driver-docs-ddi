@@ -7,7 +7,7 @@ old-location: audio\ksds3d_hrtf_params_msg.htm
 old-project: audio
 ms.assetid: e746fc3d-ebfd-41a1-b640-6f803423bd95
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/19/2018
 ms.keywords: "*PKSDS3D_HRTF_PARAMS_MSG, KSDS3D_HRTF_PARAMS_MSG, KSDS3D_HRTF_PARAMS_MSG structure [Audio Devices], PKSDS3D_HRTF_PARAMS_MSG, PKSDS3D_HRTF_PARAMS_MSG structure pointer [Audio Devices], aud-prop_1f9e726f-d9b6-43e5-8c6e-82e645587ca4.xml, audio.ksds3d_hrtf_params_msg, ksmedia/KSDS3D_HRTF_PARAMS_MSG, ksmedia/PKSDS3D_HRTF_PARAMS_MSG"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,21 +50,6 @@ req.typenames: KSDS3D_HRTF_PARAMS_MSG, *PKSDS3D_HRTF_PARAMS_MSG
 
 
 The KSDS3D_HRTF_PARAMS_MSG structure specifies the parameter settings to apply to a head-relative transfer function (HRTF).
-
-
-## -syntax
-
-
-````
-typedef struct {
-  ULONG Size;
-  ULONG Enabled;
-  BOOL  SwapChannels;
-  BOOL  ZeroAzimuth;
-  BOOL  CrossFadeOutput;
-  ULONG FilterSize;
-} KSDS3D_HRTF_PARAMS_MSG, *PKSDS3D_HRTF_PARAMS_MSG;
-````
 
 
 ## -struct-fields
@@ -115,16 +100,15 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537357">KSPROPERTY_HRTF3D_PARAMS</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537482">KSPROPSETID_Hrtf3d</a>
-
-
-
  
 
  
-
 

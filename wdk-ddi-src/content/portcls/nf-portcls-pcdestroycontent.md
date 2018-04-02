@@ -7,7 +7,7 @@ old-location: audio\pcdestroycontent.htm
 old-project: audio
 ms.assetid: 742ee83c-3db4-4d77-a79d-28bcc405746d
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/19/2018
 ms.keywords: PcDestroyContent, PcDestroyContent function [Audio Devices], audio.pcdestroycontent, audpc-routines_8f5adcf6-89a7-4918-ac2e-78afa45c38c5.xml, portcls/PcDestroyContent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,17 +50,7 @@ req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ## -description
 
 
-The <b>PcDestroyContent</b> function deletes a DRM content ID that was created by <a href="..\portcls\nf-portcls-pccreatecontentmixed.md">PcCreateContentMixed</a>. Note that this function call is identical in operation to the <a href="..\drmk\nf-drmk-drmdestroycontent.md">DrmDestroyContent</a> function, and its parameter definitions and return value are also identical.
-
-
-## -syntax
-
-
-````
-PORTCLASSAPI NTSTATUS NTAPI  PcDestroyContent(
-  _In_ ULONG ContentId
-);
-````
+The <b>PcDestroyContent</b> function deletes a DRM content ID that was created by <a href="https://msdn.microsoft.com/library/windows/hardware/ff537689">PcCreateContentMixed</a>. Note that this function call is identical in operation to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536349">DrmDestroyContent</a> function, and its parameter definitions and return value are also identical.
 
 
 ## -parameters
@@ -77,7 +67,7 @@ Specifies a nonzero DRM content ID assigned to a KS audio stream by <b>DrmCreate
 
 
 
-See return value definition in <a href="..\drmk\nf-drmk-drmdestroycontent.md">DrmDestroyContent</a>.
+See return value definition in <a href="https://msdn.microsoft.com/library/windows/hardware/ff536349">DrmDestroyContent</a>.
 
 
 
@@ -86,23 +76,22 @@ See return value definition in <a href="..\drmk\nf-drmk-drmdestroycontent.md">Dr
 
 
 
-For more information, see the comments in <a href="..\drmk\nf-drmk-drmdestroycontent.md">DrmDestroyContent</a>.
+For more information, see the comments in <a href="https://msdn.microsoft.com/library/windows/hardware/ff536349">DrmDestroyContent</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\drmk\nf-drmk-drmdestroycontent.md">DrmDestroyContent</a>
 
 
 
-<a href="..\portcls\nf-portcls-pccreatecontentmixed.md">PcCreateContentMixed</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536349">DrmDestroyContent</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537689">PcCreateContentMixed</a>
  
 
  
-
 

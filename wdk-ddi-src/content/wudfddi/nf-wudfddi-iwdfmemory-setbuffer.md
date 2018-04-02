@@ -55,17 +55,6 @@ req.product: Windows 10 or later.
 The <b>SetBuffer</b> method assigns a specified buffer to a memory object that a driver created by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff558902">IWDFDriver::CreatePreallocatedWdfMemory</a>. 
 
 
-## -syntax
-
-
-````
-void SetBuffer(
-  [in] void   *Buffer,
-  [in] SIZE_T BufferSize
-);
-````
-
-
 ## -parameters
 
 
@@ -101,16 +90,15 @@ The <b>SetBuffer</b> method can assign a buffer to a memory object that <a href=
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558967">IWDFIoQueue::RetrieveNextRequest</a>
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559249">IWDFMemory</a>
  
 
  
-
 

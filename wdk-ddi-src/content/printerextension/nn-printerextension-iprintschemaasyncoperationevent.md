@@ -73,7 +73,7 @@ The <b>IPrintSchemaAsyncOperationEvent</b> interface has these methods.
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn265386">Completed</a>
 </td>
 <td align="left" width="63%">
-Is called when asynchronous PrintSchema operation that is represented by an <a href="..\printerextension\nn-printerextension-iprintschemaasyncoperation.md">IPrintSchemaAsyncOperation</a> context is completed.
+Is called when asynchronous PrintSchema operation that is represented by an <a href="https://msdn.microsoft.com/library/windows/hardware/hh451224">IPrintSchemaAsyncOperation</a> context is completed.
 
 </td>
 </tr>
@@ -84,7 +84,7 @@ Is called when asynchronous PrintSchema operation that is represented by an <a h
 
 
 
-An event sink that implements <b>IPrintSchemaAsyncOperationEvent</b> and the event source, <a href="..\printerextension\nn-printerextension-iprintschemaasyncoperation.md">IPrintSchemaAsyncOperation</a> are connected via the <a href="http://msdn.microsoft.com/en-us/library/windows/desktop/ms694318(v=vs.85).aspx">IConnectionPoint</a> mechanism. You must retrieve a pointer to the <b>IConnectionPoint</b> interface by invoking <b>QueryInterface</b> on the <b>IPrinterQueue</b> object.
+An event sink that implements <b>IPrintSchemaAsyncOperationEvent</b> and the event source, <a href="https://msdn.microsoft.com/library/windows/hardware/hh451224">IPrintSchemaAsyncOperation</a> are connected via the <a href="http://msdn.microsoft.com/en-us/library/windows/desktop/ms694318(v=vs.85).aspx">IConnectionPoint</a> mechanism. You must retrieve a pointer to the <b>IConnectionPoint</b> interface by invoking <b>QueryInterface</b> on the <b>IPrinterQueue</b> object.
 
 <div class="alert"><b>Note</b>  It is mandatory to implement <b>IDispatch::Invoke</b> on the event sink that implements <b>IPrinterQueueEvent</b>, since that is the mechanism via which events are raised. It is sufficient to provide stub implementations of the other methods on the <b>IDispatch</b> interface.
 </div>
@@ -94,7 +94,6 @@ An event sink that implements <b>IPrintSchemaAsyncOperationEvent</b> and the eve
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintschemaasyncoperation.md">IPrintSchemaAsyncOperation</a>
 
 
 
@@ -102,8 +101,8 @@ An event sink that implements <b>IPrintSchemaAsyncOperationEvent</b> and the eve
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451224">IPrintSchemaAsyncOperation</a>
  
 
  
-
 

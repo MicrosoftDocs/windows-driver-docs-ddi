@@ -108,6 +108,9 @@ Unbinds a printer.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
 
 
@@ -116,12 +119,8 @@ Unbinds a printer.
 
 
 
-<a href="..\bidispl\nn-bidispl-ibidirequestcontainer.md">IBidiSpl</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/dd144980">IBidiSpl</a>
  
 
  
-
 

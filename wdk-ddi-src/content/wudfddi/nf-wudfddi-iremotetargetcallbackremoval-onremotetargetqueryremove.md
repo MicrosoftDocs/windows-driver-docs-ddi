@@ -55,16 +55,6 @@ req.product: Windows 10 or later.
 A UMDF-based driver's <b>OnRemoteTargetQueryRemove</b> event callback function determines whether a remote I/O target's device can be stopped and removed.
 
 
-## -syntax
-
-
-````
-BOOL OnRemoteTargetQueryRemove(
-  [in] IWDFRemoteTarget *pWdfRemoteTarget
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +62,7 @@ BOOL OnRemoteTargetQueryRemove(
 
 ### -param pWdfRemoteTarget [in]
 
-A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfremotetarget.md">IWDFRemoteTarget</a> interface of a remote target object that represents a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/general-i-o-targets-in-umdf">remote I/O target</a>. The driver obtains this pointer when it calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff556928">IWDFDevice2::CreateRemoteTarget</a>.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560247">IWDFRemoteTarget</a> interface of a remote target object that represents a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/general-i-o-targets-in-umdf">remote I/O target</a>. The driver obtains this pointer when it calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff556928">IWDFDevice2::CreateRemoteTarget</a>.
 
 
 ## -returns
@@ -115,20 +105,19 @@ For more information about the <b>OnRemoteTargetQueryRemove</b> event callback f
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556894">IRemoteTargetCallbackRemoval</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556899">IRemoteTargetCallbackRemoval::OnRemoteTargetRemoveCanceled</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556900">IRemoteTargetCallbackRemoval::OnRemoteTargetRemoveComplete</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iremotetargetcallbackremoval.md">IRemoteTargetCallbackRemoval</a>
-
-
-
  
 
  
-
 

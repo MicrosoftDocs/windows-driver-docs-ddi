@@ -55,16 +55,6 @@ req.product: Windows 10 or later.
 The <b>RetrieveContext</b> method retrieves a context that was previously registered through the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560208">IWDFObject::AssignContext</a> method.
 
 
-## -syntax
-
-
-````
-HRESULT RetrieveContext(
-  [out] void **ppvContext
-);
-````
-
-
 ## -parameters
 
 
@@ -101,7 +91,6 @@ For a code example of how to use the <b>RetrieveContext</b> method, see <a href=
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560208">IWDFObject::AssignContext</a>
 
 
 
@@ -109,12 +98,12 @@ For a code example of how to use the <b>RetrieveContext</b> method, see <a href=
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfobject.md">IWDFObject</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560200">IWDFObject</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560208">IWDFObject::AssignContext</a>
  
 
  
-
 

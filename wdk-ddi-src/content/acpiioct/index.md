@@ -2,7 +2,7 @@
 UID: NA:acpiioct
 ms.assetid: 2ccdfa60-af1b-3b60-aaab-f9acba1872c6
 ms.author: windowsdriverdev
-ms.date: 03/13/18
+ms.date: 02/27/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

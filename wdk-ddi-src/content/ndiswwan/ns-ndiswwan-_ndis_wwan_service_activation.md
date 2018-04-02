@@ -7,7 +7,7 @@ old-location: netvista\ndis_wwan_service_activation.htm
 old-project: netvista
 ms.assetid: 0dbfa56f-a755-402d-b403-a04fc183c031
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PNDIS_WWAN_SERVICE_ACTIVATION, NDIS_WWAN_SERVICE_ACTIVATION, NDIS_WWAN_SERVICE_ACTIVATION structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SERVICE_ACTIVATION, PNDIS_WWAN_SERVICE_ACTIVATION structure pointer [Network Drivers Starting with Windows Vista], WwanRef_78a89315-d2f0-460f-9c8b-b6bf92d3b267.xml, _NDIS_WWAN_SERVICE_ACTIVATION, ndiswwan/NDIS_WWAN_SERVICE_ACTIVATION, ndiswwan/PNDIS_WWAN_SERVICE_ACTIVATION, netvista.ndis_wwan_service_activation"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,17 +51,6 @@ req.typenames: NDIS_WWAN_SERVICE_ACTIVATION, *PNDIS_WWAN_SERVICE_ACTIVATION
 
 The NDIS_WWAN_SERVICE_ACTIVATION structure represents the command that is used to set the service
   activation state of the MB device in order to obtain access to the provider's network.
-
-
-## -syntax
-
-
-````
-typedef struct _NDIS_WWAN_SERVICE_ACTIVATION {
-  NDIS_OBJECT_HEADER      Header;
-  WWAN_SERVICE_ACTIVATION ServiceActivation;
-} NDIS_WWAN_SERVICE_ACTIVATION, *PNDIS_WWAN_SERVICE_ACTIVATION;
-````
 
 
 ## -struct-fields
@@ -117,28 +106,27 @@ sizeof(NDIS_WWAN_SERVICE_ACTIVATION)
  
 
 For more information about these members, see 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field ServiceActivation
 
 A 
-     <a href="..\wwan\ns-wwan-_wwan_service_activation.md">WWAN_SERVICE_ACTIVATION</a> structure
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571232">WWAN_SERVICE_ACTIVATION</a> structure
      that represents the service activation state of the device.
 
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="..\wwan\ns-wwan-_wwan_service_activation.md">WWAN_SERVICE_ACTIVATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571232">WWAN_SERVICE_ACTIVATION</a>
  
 
  
-
 

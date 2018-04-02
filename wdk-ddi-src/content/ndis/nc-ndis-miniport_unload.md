@@ -7,7 +7,7 @@ old-location: netvista\miniportdriverunload.htm
 old-project: netvista
 ms.assetid: 25c803cf-f8a6-4e41-a731-c3ae7f1db211
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: MINIPORT_UNLOAD, MiniportDriverUnload, MiniportDriverUnload callback function [Network Drivers Starting with Windows Vista], miniport_functions_ref_8f9795d0-00aa-4059-8dbf-8f7eed303cae.xml, ndis/MiniportDriverUnload, netvista.miniportdriverunload
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -55,19 +55,6 @@ NDIS calls a miniport driver's
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>MINIPORT_UNLOAD</b> type. For more
    information, see the following Examples section.</div><div> </div>
 
-## -prototype
-
-
-````
-MINIPORT_UNLOAD MiniportDriverUnload;
-
-VOID MiniportDriverUnload(
-  _In_ PDRIVER_OBJECT DriverObject
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -76,7 +63,7 @@ VOID MiniportDriverUnload(
 ### -param DriverObject [in]
 
 A pointer to a 
-     <a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a> structure that is the driver's
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff544174">DRIVER_OBJECT</a> structure that is the driver's
      driver object.
 
 
@@ -95,7 +82,7 @@ None
 
 A driver specifies the 
     <i>MiniportDriverUnload</i> entry point when it calls the 
-    <a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">
+    <a href="https://msdn.microsoft.com/bed68aa8-499d-41fd-997b-a46316913cc8">
     NdisMRegisterMiniportDriver</a> function.
 
 The driver object that is associated with an NDIS miniport driver specifies an 
@@ -112,13 +99,13 @@ The functionality of the
     <b>DriverEntry</b> routine.
 
 A miniport driver calls the 
-    <a href="..\ndis\nf-ndis-ndismderegisterminiportdriver.md">
+    <a href="https://msdn.microsoft.com/c428e30d-ce86-4ca0-bc65-45d84a7c910e">
     NdisMDeregisterMiniportDriver</a> function from 
     <i>MiniportDriverUnload</i>.
 
 In addition to 
     <b>NdisMDeregisterMiniportDriver</b>, an intermediate driver also calls the 
-    <a href="..\ndis\nf-ndis-ndisderegisterprotocoldriver.md">
+    <a href="https://msdn.microsoft.com/792f8f89-ff2c-45d1-bb15-9fcdafd14231">
     NdisDeregisterProtocolDriver</a> function to deregister the protocol interface of the driver. 
     <i>MiniportDriverUnload</i> should also perform any necessary cleanup operations, such as deallocating any
     protocol driver interface resources.
@@ -126,7 +113,7 @@ In addition to
 If a miniport driver manages more than one device instance, such as a load-balancing driver, NDIS will
     not call 
     <i>MiniportDriverUnload</i> until after NDIS calls the 
-    <a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a> function one time for
+    <a href="https://msdn.microsoft.com/b8d452b4-bef3-4991-87cf-fac15bedfde4">MiniportHaltEx</a> function one time for
     each device instance.
 
 NDIS calls 
@@ -173,33 +160,32 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544174">DRIVER_OBJECT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564886">Unload</a>
+<a href="https://msdn.microsoft.com/b8d452b4-bef3-4991-87cf-fac15bedfde4">MiniportHaltEx</a>
 
 
 
-<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561743">NdisDeregisterProtocolDriver</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismderegisterminiportdriver.md">
+<a href="https://msdn.microsoft.com/c428e30d-ce86-4ca0-bc65-45d84a7c910e">
    NdisMDeregisterMiniportDriver</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisderegisterprotocoldriver.md">NdisDeregisterProtocolDriver</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563654">NdisMRegisterMiniportDriver</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564886">Unload</a>
  
 
  
-
 

@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The <code>IPrintOemPrintTicketProvider::CompletePrintCapabilities</code> method fills in the remaining entries of the specified print capabilities document. 
 
 
-## -syntax
-
-
-````
-HRESULT CompletePrintCapabilities(
-  [in]      IXMLDOMDocument2 *pPrintTicket,
-  [in, out] IXMLDOMDocument2 *pCapabilities
-);
-````
-
-
 ## -parameters
 
 

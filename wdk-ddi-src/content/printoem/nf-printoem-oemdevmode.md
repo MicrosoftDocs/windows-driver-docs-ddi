@@ -52,17 +52,6 @@ req.product: Windows 10 or later.
 
 
 
-## -syntax
-
-
-````
-BOOL APIENTRY OEMDevMode(
-   DWORD       dwMode,
-   POEMDMPARAM pOemDMParam
-);
-````
-
-
 ## -parameters
 
 

@@ -52,17 +52,6 @@ req.product: Windows 10 or later.
 
 
 
-## -syntax
-
-
-````
-LRESULT APIENTRY OEMDevicePropertySheets(
-   PPROPSHEETUI_INFO *pPSUIInfo,
-   LPARAM            lParam
-);
-````
-
-
 ## -parameters
 
 

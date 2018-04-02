@@ -7,7 +7,7 @@ old-location: kernel\rtlunicodestringcbcatstringn.htm
 old-project: kernel
 ms.assetid: bc2139d2-9d59-4d19-a4b5-ce0a993a9846
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: RtlUnicodeStringCbCatStringN, RtlUnicodeStringCbCatStringN function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringcbcatstringn, ntstrsafe/RtlUnicodeStringCbCatStringN, safestrings_54ef3816-fbca-461c-b250-4c0fca04c2ed.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,19 +50,7 @@ req.typenames: SYSTEM_POWER_STATE_CONTEXT, *PSYSTEM_POWER_STATE_CONTEXT
 ## -description
 
 
-The <b>RtlUnicodeStringCbCatStringN </b>function concatenates two strings when the destination string is contained in a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure, while limiting the size of the appended string.
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlUnicodeStringCbCatStringN(
-  _Inout_ PUNICODE_STRING  DestinationString,
-  _In_    NTSTRSAFE_PCWSTR pszSrc,
-  _In_    size_t           cbToAppend
-);
-````
+The <b>RtlUnicodeStringCbCatStringN </b>function concatenates two strings when the destination string is contained in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure, while limiting the size of the appended string.
 
 
 ## -parameters
@@ -154,7 +142,7 @@ The <b>RtlUnicodeStringCbCatStringN </b>function uses the destination buffer's s
 
 If the source and destination strings overlap, the behavior of the function is undefined.
 
-The <i>pszSrc</i> and <i>DestinationString</i> pointers cannot be <b>NULL</b>. If you need to handle <b>NULL</b> pointer values, use the <a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringcbcatstringnex.md">RtlUnicodeStringCbCatStringNEx</a> function.
+The <i>pszSrc</i> and <i>DestinationString</i> pointers cannot be <b>NULL</b>. If you need to handle <b>NULL</b> pointer values, use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562910">RtlUnicodeStringCbCatStringNEx</a> function.
 
 For more information about the safe string functions, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565508">Using Safe String Functions</a>. 
 
@@ -163,20 +151,19 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringcchcatstringn.md">RtlUnicodeStringCchCatStringN</a>
 
 
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringcbcatstringnex.md">RtlUnicodeStringCbCatStringNEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562910">RtlUnicodeStringCbCatStringNEx</a>
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562924">RtlUnicodeStringCchCatStringN</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
  
 
  
-
 

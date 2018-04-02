@@ -7,7 +7,7 @@ old-location: netvista\protocolcmmodifycallqos.htm
 old-project: netvista
 ms.assetid: 24523677-9f5a-4109-8484-95883a4d1bbf
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: PROTOCOL_CM_MODIFY_QOS_CALL, ProtocolCmModifyCallQoS, ProtocolCmModifyCallQoS callback function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_208d4e81-1f4f-46e9-9b78-7724504b68bc.xml, ndis/ProtocolCmModifyCallQoS, netvista.protocolcmmodifycallqos
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,20 +58,6 @@ The
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>PROTOCOL_CM_MODIFY_QOS_CALL</b> type.
    For more information, see the following Examples section.</div><div> </div>
 
-## -prototype
-
-
-````
-PROTOCOL_CM_MODIFY_QOS_CALL ProtocolCmModifyCallQoS;
-
-NDIS_STATUS ProtocolCmModifyCallQoS(
-  _In_ NDIS_HANDLE         CallMgrVcContext,
-  _In_ PCO_CALL_PARAMETERS CallParameters
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -81,7 +67,7 @@ NDIS_STATUS ProtocolCmModifyCallQoS(
 
 Specifies the handle to a call manager-allocated context area in which the call manager maintains
      its per-VC state. The call manager supplied this handle to NDIS for its 
-     <a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a> function.
+     <a href="https://msdn.microsoft.com/b086dd24-74f5-474a-8684-09bf92ac731b">ProtocolCoCreateVc</a> function.
 
 
 ### -param CallParameters [in]
@@ -125,7 +111,7 @@ Indicates that the call manager successfully changed the parameters of the call 
 Indicates that the call manager will complete the request to modify the call parameters
        asynchronously. When the call manager has completed all operations necessary to modify the call
        parameters, it must call 
-       <a href="..\ndis\nf-ndis-ndiscmmodifycallqoscomplete.md">
+       <a href="https://msdn.microsoft.com/8489dc63-8e92-45c9-b4a8-593b511743b0">
        NdisCmModifyCallQoSComplete</a>.
 
 </td>
@@ -182,16 +168,16 @@ Indicates that the call parameters could not be set to the call parameters provi
     connection. If the call manager is required to communicate with network control agents (in other words, a
     networking switch) it should use a virtual connection to the network control agents that it established
     in its 
-    <a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a> function.
+    <a href="https://msdn.microsoft.com/1958722e-012e-4110-a82c-751744bcf9b5">ProtocolBindAdapterEx</a> function.
     Stand-alone call managers communicated to the network agents by calling 
-    <a href="..\ndis\nf-ndis-ndiscosendnetbufferlists.md">NdisCoSendNetBufferLists</a>.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561728">NdisCoSendNetBufferLists</a>.
     Miniport drivers with integrated call-management support never call 
     <b>NdisCoSendNetBufferLists</b>. Instead, such a driver simply transfers the data over the network to the
     target network agent.
 
 After communicating with the network and if the changes were successful, the call manager must then
     call 
-    <a href="..\ndis\nf-ndis-ndiscmactivatevc.md">NdisCmActivateVc</a> with the new call
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561649">NdisCmActivateVc</a> with the new call
     parameters. This notifies NDIS and/or the connection-oriented miniport driver that the call parameters
     have changed and provides the miniport driver with an opportunity to validate those parameters.
 
@@ -241,24 +227,23 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiscmmodifycallqoscomplete.md">NdisCmModifyCallQoSComplete</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561649">NdisCmActivateVc</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiscmactivatevc.md">NdisCmActivateVc</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561679">NdisCmModifyCallQoSComplete</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiscosendnetbufferlists.md">NdisCoSendNetBufferLists</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561728">NdisCoSendNetBufferLists</a>
 
 
 
+<a href="https://msdn.microsoft.com/b086dd24-74f5-474a-8684-09bf92ac731b">ProtocolCoCreateVc</a>
  
 
  
-
 

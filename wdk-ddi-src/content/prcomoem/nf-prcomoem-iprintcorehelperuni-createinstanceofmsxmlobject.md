@@ -53,20 +53,6 @@ req.product: Windows 10 or later.
 The <code>IPrintCoreHelperUni::CreateInstanceOfMSXMLObject</code> method creates an instance of an MSXML object. 
 
 
-## -syntax
-
-
-````
-STDMETHOD CreateInstanceOfMSXMLObject(
-  [in]  REFCLSID  rclsid,
-  [in]  LPUNKNOWN pUnkOuter,
-  [in]  DWORD     dwClsContext,
-  [in]  REFIID    riid,
-  [out] LPVOID    *ppv
-);
-````
-
-
 ## -parameters
 
 

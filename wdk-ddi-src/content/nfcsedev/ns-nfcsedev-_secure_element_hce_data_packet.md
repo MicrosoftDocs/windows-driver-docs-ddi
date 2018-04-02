@@ -49,19 +49,7 @@ req.typenames: SECURE_ELEMENT_HCE_DATA_PACKET, *PSECURE_ELEMENT_HCE_DATA_PACKET
 ## -description
 
 
-<b>SECURE_ELEMENT_HCE_DATA_PACKET</b> is an input buffer to <a href="..\nfcsedev\ni-nfcsedev-ioctl_nfcse_hce_remote_send.md">IOCTL_NFCSE_HCE_REMOTE_SEND</a> and output buffer for <a href="..\nfcsedev\ni-nfcsedev-ioctl_nfcse_hce_remote_recv.md">IOCTL_NFCSE_HCE_REMOTE_RECV</a>.
-
-
-## -syntax
-
-
-````
-typedef struct _SECURE_ELEMENT_HCE_DATA_PACKET {
-  USHORT                             bConnectionId;
-  USHORT                             cbPayload;
-  _Field_size_bytes_(cbPayload) BYTE pbPayload[ANYSIZE_ARRAY];
-} SECURE_ELEMENT_HCE_DATA_PACKET, *PSECURE_ELEMENT_HCE_DATA_PACKET;
-````
+<b>SECURE_ELEMENT_HCE_DATA_PACKET</b> is an input buffer to <a href="https://msdn.microsoft.com/library/windows/hardware/dn905511">IOCTL_NFCSE_HCE_REMOTE_SEND</a> and output buffer for <a href="https://msdn.microsoft.com/library/windows/hardware/dn905510">IOCTL_NFCSE_HCE_REMOTE_RECV</a>.
 
 
 ## -struct-fields
@@ -71,7 +59,7 @@ typedef struct _SECURE_ELEMENT_HCE_DATA_PACKET {
 
 ### -field bConnectionId
 
-The ID of the connection established between the device and the smart card reader, on which to send and receive the HCE packet. This ID is also received from <a href="..\nfcsedev\ni-nfcsedev-ioctl_nfcse_get_next_event.md">IOCTL_NFCSE_GET_NEXT_EVENT</a> when the event type (<a href="..\nfcsedev\ne-nfcsedev-_secure_element_event_type.md">SECURE_ELEMENT_EVENT_TYPE</a>) is <b>HceActivated</b> or <b>HceDeactivated</b>. Then the <b>pbEventData</b> field of the returned <a href="..\nfcsedev\ns-nfcsedev-_secure_element_event_info.md">SECURE_ELEMENT_EVENT_INFO</a> structure is a <a href="..\nfcsedev\ns-nfcsedev-_secure_element_hce_activation_payload.md">SECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD</a> structure, which contains a <b>bConnectionId</b> member.
+The ID of the connection established between the device and the smart card reader, on which to send and receive the HCE packet. This ID is also received from <a href="https://msdn.microsoft.com/library/windows/hardware/dn905507">IOCTL_NFCSE_GET_NEXT_EVENT</a> when the event type (<a href="https://msdn.microsoft.com/library/windows/hardware/dn905623">SECURE_ELEMENT_EVENT_TYPE</a>) is <b>HceActivated</b> or <b>HceDeactivated</b>. Then the <b>pbEventData</b> field of the returned <a href="https://msdn.microsoft.com/library/windows/hardware/dn905590">SECURE_ELEMENT_EVENT_INFO</a> structure is a <a href="https://msdn.microsoft.com/library/windows/hardware/dn905592">SECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD</a> structure, which contains a <b>bConnectionId</b> member.
 
 
 ### -field cbPayload

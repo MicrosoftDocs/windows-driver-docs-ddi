@@ -7,7 +7,7 @@ old-location: debugger\idebugfailureanalysis2_getfailureclass.htm
 old-project: debugger
 ms.assetid: 4840F881-E3CB-4C89-AE2D-88610790C221
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: GetFailureClass method [Windows Debugging], GetFailureClass method [Windows Debugging], IDebugFailureAnalysis2 interface, GetFailureClass,IDebugFailureAnalysis2.GetFailureClass, IDebugFailureAnalysis2, IDebugFailureAnalysis2 interface [Windows Debugging], GetFailureClass method, IDebugFailureAnalysis2::GetFailureClass, debugger.idebugfailureanalysis2_getfailureclass, extsfns/IDebugFailureAnalysis2::GetFailureClass
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,15 +49,7 @@ req.typenames: FA_EXTENSION_PLUGIN_PHASE
 ## -description
 
 
-The <b>GetFailureClass</b> method gets the failure class of a <a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">DebugFailureAnalysis</a> object. The failure class indicates whether the debugging session  that created the <b>DebugFailureAnalysis</b> object is a kernel mode session or a user mode session.
-
-
-## -syntax
-
-
-````
-ULONG GetFailureClass();
-````
+The <b>GetFailureClass</b> method gets the failure class of a <a href="https://msdn.microsoft.com/0B44FCB9-D23F-4630-9F9A-FBAD46712B14">DebugFailureAnalysis</a> object. The failure class indicates whether the debugging session  that created the <b>DebugFailureAnalysis</b> object is a kernel mode session or a user mode session.
 
 
 ## -parameters
@@ -122,11 +114,6 @@ These return values are defined in dbgeng.h.
 
 ## -see-also
 
-<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
-
-
-
-<a href="https://msdn.microsoft.com/7648F789-85D5-4247-90DD-2EAA43543483">Writing an Analysis Extension Plug-in to Extend !analyze</a>
 
 
 
@@ -138,12 +125,16 @@ These return values are defined in dbgeng.h.
 
 
 
-<a href="..\extsfns\nc-extsfns-ext_analysis_plugin.md">_EFN_Analyze</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj983405">IDebugFailureAnalysis2</a>
 
 
 
+<a href="https://msdn.microsoft.com/7648F789-85D5-4247-90DD-2EAA43543483">Writing an Analysis Extension Plug-in to Extend !analyze</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj983432">_EFN_Analyze</a>
  
 
  
-
 

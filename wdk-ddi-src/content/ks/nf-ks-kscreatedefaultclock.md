@@ -55,17 +55,6 @@ Given an IRP_MJ_CREATE request, the <b>KsCreateDefaultClock</b> function creates
 The <b>KsCreateDefaultClock</b> function can only be called at PASSIVE_LEVEL.
 
 
-## -syntax
-
-
-````
-NTSTATUS KsCreateDefaultClock(
-  _In_ PIRP            Irp,
-  _In_ PKSDEFAULTCLOCK DefaultClock
-);
-````
-
-
 ## -parameters
 
 
@@ -101,12 +90,11 @@ The clock can be created after using <b>KsAllocateDefaultClock</b> to create and
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksallocatedefaultclock.md">KsAllocateDefaultClock</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560952">KsAllocateDefaultClock</a>
  
 
  
-
 

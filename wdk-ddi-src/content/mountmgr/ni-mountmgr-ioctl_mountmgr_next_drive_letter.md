@@ -7,7 +7,7 @@ old-location: storage\ioctl_mountmgr_next_drive_letter.htm
 old-project: storage
 ms.assetid: 7e3c5718-180c-435d-89ea-30a5cac325b2
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_MOUNTMGR_NEXT_DRIVE_LETTER, IOCTL_MOUNTMGR_NEXT_DRIVE_LETTER control code [Storage Devices], k307_c77572b5-04ff-453d-91a4-9f58c65930e0.xml, mountmgr/IOCTL_MOUNTMGR_NEXT_DRIVE_LETTER, storage.ioctl_mountmgr_next_drive_letter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,7 +59,7 @@ This IOCTL checks to see if the given volume has a drive letter. If it already h
 
 ### -input-buffer
 
-The mount manager client initializes the <a href="..\mountmgr\ns-mountmgr-_mountmgr_drive_letter_target.md">MOUNTMGR_DRIVE_LETTER_TARGET</a> structure, defined in <i>Mountmgr.h</i>, at the beginning of the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>. The client must insert the name of the target volume at the address pointed to by the <i>DeviceName[]</i> member of this structure. The target volume name is the name of the nonpersistent device object associated with the volume (for example, "\Device\HarddiskVolume1"). 
+The mount manager client initializes the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562285">MOUNTMGR_DRIVE_LETTER_TARGET</a> structure, defined in <i>Mountmgr.h</i>, at the beginning of the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>. The client must insert the name of the target volume at the address pointed to by the <i>DeviceName[]</i> member of this structure. The target volume name is the name of the nonpersistent device object associated with the volume (for example, "\Device\HarddiskVolume1"). 
 
 
 ### -input-buffer-length
@@ -69,7 +69,7 @@ The mount manager client initializes the <a href="..\mountmgr\ns-mountmgr-_mount
 
 ### -output-buffer
 
-The mount manager inserts either the current drive letter or the newly assigned drive letter (see previous discussion) in the <a href="..\mountmgr\ns-mountmgr-_mountmgr_drive_letter_information.md">MOUNTMGR_DRIVE_LETTER_INFORMATION</a> structure, defined in <i>Mountmgr.h</i>, at the beginning of the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>.
+The mount manager inserts either the current drive letter or the newly assigned drive letter (see previous discussion) in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562281">MOUNTMGR_DRIVE_LETTER_INFORMATION</a> structure, defined in <i>Mountmgr.h</i>, at the beginning of the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>.
 
 
 ### -output-buffer-length
@@ -104,12 +104,11 @@ If <b>InputBufferLength</b> is less than <b>sizeof</b>(MOUNTMGR_DRIVE_LETTER_TAR
 
 ## -see-also
 
-<a href="..\mountmgr\ns-mountmgr-_mountmgr_drive_letter_target.md">MOUNTMGR_DRIVE_LETTER_TARGET</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562285">MOUNTMGR_DRIVE_LETTER_TARGET</a>
  
 
  
-
 

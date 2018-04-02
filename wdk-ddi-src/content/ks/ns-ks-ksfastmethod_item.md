@@ -52,20 +52,6 @@ req.typenames: KSFASTMETHOD_ITEM, *PKSFASTMETHOD_ITEM
 Drivers provide a structure of type KSFASTMETHOD_ITEM to support fast I/O dispatching.
 
 
-## -syntax
-
-
-````
-typedef struct {
-  ULONG MethodId;
-  union {
-    PFNKSFASTHANDLER MethodHandler;
-    BOOLEAN          MethodSupported;
-  };
-} KSFASTMETHOD_ITEM, *PKSFASTMETHOD_ITEM;
-````
-
-
 ## -struct-fields
 
 
@@ -88,16 +74,15 @@ Set to <b>TRUE</b> if the method is supported, otherwise set to <b>FALSE</b>.
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksmethod_item.md">KSMETHOD_ITEM</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563420">KSMETHOD_ITEM</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567173">KStrFastHandler</a>
-
-
-
  
 
  
-
 

@@ -58,16 +58,6 @@ req.product: Windows 10 or later.
 The <b>WdfFileObjectGetDevice</b> method returns the framework device object that is associated with a specified framework file object.
 
 
-## -syntax
-
-
-````
-WDFDEVICE WdfFileObjectGetDevice(
-  _In_ WDFFILEOBJECT FileObject
-);
-````
-
-
 ## -parameters
 
 
@@ -100,7 +90,7 @@ For more information about framework file objects, see <a href="https://msdn.mic
 
 #### Examples
 
-The following code example shows how an <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_file_close.md">EvtFileClose</a> callback function can obtain the framework device object that is associated with a specified framework file object.
+The following code example shows how an <a href="https://msdn.microsoft.com/8ddcb9cb-d184-4ec8-a321-599394a8512e">EvtFileClose</a> callback function can obtain the framework device object that is associated with a specified framework file object.
 
 <div class="code"><span codelanguage=""><table>
 <tr>

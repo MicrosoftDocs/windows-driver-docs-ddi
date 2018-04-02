@@ -7,7 +7,7 @@ old-location: netvista\ril_deleteadditionalnumberstring.htm
 old-project: netvista
 ms.assetid: 6d115616-85d4-43f8-b0c8-ea5b5c2e4eff
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: RIL_DeleteAdditionalNumberString, RIL_DeleteAdditionalNumberString method [Network Drivers Starting with Windows Vista], netvista.ril_deleteadditionalnumberstring, rilapi/RIL_DeleteAdditionalNumberString
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ api_name:
 -	RIL_DeleteAdditionalNumberString
 product: Windows
 targetos: Windows
-req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
+req.typenames: PTP_VENDOR_DATA_OUT, *PPTP_VENDOR_DATA_OUT
 req.product: Windows 10 or later.
 ---
 
@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
             
-
-
-## -syntax
-
-
-````
-HRESULT  RIL_DeleteAdditionalNumberString(
-   HRIL     hRil,
-   LPVOID   lpContext,
-   HUICCAPP hUiccApp,
-   DWORD    dwNumId
-);
-````
 
 
 ## -parameters

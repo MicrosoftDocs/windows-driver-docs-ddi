@@ -7,7 +7,7 @@ old-location: debugger\extremotedata_getdouble.htm
 old-project: debugger
 ms.assetid: f8645e92-659f-42b8-a850-49a434ec2a67
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: EngExtCpp_Ref_8776e6fd-9e13-4502-a445-da65a8fcfe41.xml, ExtRemoteData, ExtRemoteData class [Windows Debugging], GetDouble method, ExtRemoteData::GetDouble, GetDouble method [Windows Debugging], GetDouble method [Windows Debugging], ExtRemoteData class, GetDouble,ExtRemoteData.GetDouble, debugger.extremotedata_getdouble
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,15 +49,7 @@ req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 ## -description
 
 
-The <b>GetDouble</b> method returns a <b>double</b> version of the <a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a> object, which represents the contents of the target's memory.
-
-
-## -syntax
-
-
-````
-double GetDouble();
-````
+The <b>GetDouble</b> method returns a <b>double</b> version of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544008">ExtRemoteData</a> object, which represents the contents of the target's memory.
 
 
 ## -parameters
@@ -71,7 +63,7 @@ double GetDouble();
 
 
 
-<b>GetDouble</b> returns the <b>double</b> version of the <a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a> object.
+<b>GetDouble</b> returns the <b>double</b> version of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544008">ExtRemoteData</a> object.
 
 
 
@@ -80,18 +72,17 @@ double GetDouble();
 
 
 
-The size of the memory represented by the <a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a> object must be <code>sizeof(double)</code>.
+The size of the memory represented by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544008">ExtRemoteData</a> object must be <code>sizeof(double)</code>.
 
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544028">ExtRemoteData::GetFloat</a>
 
 
 
-<a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544008">ExtRemoteData</a>
 
 
 
@@ -99,8 +90,8 @@ The size of the memory represented by the <a href="..\engextcpp\nl-engextcpp-ext
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544028">ExtRemoteData::GetFloat</a>
  
 
  
-
 

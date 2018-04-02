@@ -7,7 +7,7 @@ old-location: ifsk\fltlockuserbuffer.htm
 old-project: ifsk
 ms.assetid: ab8e873b-b16d-45fc-b732-6d390ae60ce9
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FltApiRef_e_to_o_7d39ba00-c97d-4adb-a0e1-a019ca4056b0.xml, FltLockUserBuffer, FltLockUserBuffer routine [Installable File System Drivers], fltkernel/FltLockUserBuffer, ifsk.fltlockuserbuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,16 +52,6 @@ req.typenames: EXpsFontRestriction
 The <b>FltLockUserBuffer</b> routine locks the user buffer for a given I/O operation. 
 
 
-## -syntax
-
-
-````
-NTSTATUS FltLockUserBuffer(
-  _In_ PFLT_CALLBACK_DATA CallbackData
-);
-````
-
-
 ## -parameters
 
 
@@ -69,7 +59,7 @@ NTSTATUS FltLockUserBuffer(
 
 ### -param CallbackData [in]
 
-Pointer to the callback data  structure for the I/O operation (<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>). 
+Pointer to the callback data  structure for the I/O operation (<a href="https://msdn.microsoft.com/library/windows/hardware/ff544620">FLT_CALLBACK_DATA</a>). 
 
 
 ## -returns
@@ -165,11 +155,11 @@ IRP_MJ_WRITE
 </ul>
 <b>FltLockUserBuffer</b> determines the appropriate access method (IoReadAccess, IoWriteAccess, or IoModifyAccess) to apply for the locked buffer based on the type of I/O operation. 
 
-<b>FltLockUserBuffer</b> sets the <b>MdlAddress</b> (or <b>OutputMdlAddress</b>) member  in the callback data parameter structure (<a href="..\fltkernel\ns-fltkernel-_flt_parameters.md">FLT_PARAMETERS</a>) to point to the MDL for the locked pages. If there is no MDL, <b>FltLockUserBuffer</b> allocates one. 
+<b>FltLockUserBuffer</b> sets the <b>MdlAddress</b> (or <b>OutputMdlAddress</b>) member  in the callback data parameter structure (<a href="https://msdn.microsoft.com/library/windows/hardware/ff544673">FLT_PARAMETERS</a>) to point to the MDL for the locked pages. If there is no MDL, <b>FltLockUserBuffer</b> allocates one. 
 
 If the callback data parameter structure contains a system buffer and does not contain a user buffer, <b>FltLockUserBuffer</b> locks the system buffer. If there is no MDL for the system buffer, <b>FltLockUserBuffer</b> allocates one. 
 
-If <b>FltLockUserBuffer</b> is called from a preoperation callback routine (<a href="..\fltkernel\nc-fltkernel-pflt_pre_operation_callback.md">PFLT_PRE_OPERATION_CALLBACK</a>) and it allocates an MDL, <b>FltLockUserBuffer</b> sets the FLTFL_CALLBACK_DATA_DIRTY flag in the callback data structure (<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>) so that the I/O system frees the MDL when the I/O operation is completed. 
+If <b>FltLockUserBuffer</b> is called from a preoperation callback routine (<a href="https://msdn.microsoft.com/library/windows/hardware/ff551109">PFLT_PRE_OPERATION_CALLBACK</a>) and it allocates an MDL, <b>FltLockUserBuffer</b> sets the FLTFL_CALLBACK_DATA_DIRTY flag in the callback data structure (<a href="https://msdn.microsoft.com/library/windows/hardware/ff544620">FLT_CALLBACK_DATA</a>) so that the I/O system frees the MDL when the I/O operation is completed. 
 
 To conserve system page table entries (PTE), <b>FltLockUserBuffer</b> does not map the locked pages. After calling <b>FltLockUserBuffer</b>, the caller must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff554559">MmGetSystemAddressForMdlSafe</a>, passing the <b>MdlAddress</b> (or <b>OutputMdlAddress</b>) member in the callback data parameter structure as the value of the <i>Mdl</i> parameter, to get a system buffer that represents this memory. 
 
@@ -186,35 +176,10 @@ When the callback data structure is freed, the locked buffer is automatically un
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544654">FLT_IS_IRP_OPERATION</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltdecodeparameters.md">FltDecodeParameters</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544781">FLT_PARAMETERS for IRP_MJ_SET_EA</a>
-
-
-
-<a href="..\fltkernel\ns-fltkernel-_flt_parameters.md">FLT_PARAMETERS</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554559">MmGetSystemAddressForMdlSafe</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544751">FLT_PARAMETERS for IRP_MJ_QUERY_EA</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544692">FLT_PARAMETERS for IRP_MJ_DEVICE_CONTROL and IRP_MJ_INTERNAL_DEVICE_CONTROL</a>
-
-
-
-<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544620">FLT_CALLBACK_DATA</a>
 
 
 
@@ -222,11 +187,7 @@ When the callback data structure is freed, the locked buffer is automatically un
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544808">FLT_PARAMETERS for IRP_MJ_WRITE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544759">FLT_PARAMETERS for IRP_MJ_QUERY_QUOTA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544654">FLT_IS_IRP_OPERATION</a>
 
 
 
@@ -234,23 +195,11 @@ When the callback data structure is freed, the locked buffer is automatically un
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544792">FLT_PARAMETERS for IRP_MJ_SET_QUOTA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544673">FLT_PARAMETERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544765">FLT_PARAMETERS for IRP_MJ_QUERY_SECURITY</a>
-
-
-
-<a href="..\fltkernel\nc-fltkernel-pflt_post_operation_callback.md">PFLT_POST_OPERATION_CALLBACK</a>
-
-
-
-<a href="..\fltkernel\nc-fltkernel-pflt_pre_operation_callback.md">PFLT_PRE_OPERATION_CALLBACK</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544770">FLT_PARAMETERS for IRP_MJ_READ</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544692">FLT_PARAMETERS for IRP_MJ_DEVICE_CONTROL and IRP_MJ_INTERNAL_DEVICE_CONTROL</a>
 
 
 
@@ -262,8 +211,48 @@ When the callback data structure is freed, the locked buffer is automatically un
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544751">FLT_PARAMETERS for IRP_MJ_QUERY_EA</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544759">FLT_PARAMETERS for IRP_MJ_QUERY_QUOTA</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544765">FLT_PARAMETERS for IRP_MJ_QUERY_SECURITY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544770">FLT_PARAMETERS for IRP_MJ_READ</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544781">FLT_PARAMETERS for IRP_MJ_SET_EA</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544792">FLT_PARAMETERS for IRP_MJ_SET_QUOTA</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544808">FLT_PARAMETERS for IRP_MJ_WRITE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541956">FltDecodeParameters</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554559">MmGetSystemAddressForMdlSafe</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551107">PFLT_POST_OPERATION_CALLBACK</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551109">PFLT_PRE_OPERATION_CALLBACK</a>
  
 
  
-
 

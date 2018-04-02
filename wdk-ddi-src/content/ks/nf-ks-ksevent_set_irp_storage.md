@@ -49,17 +49,7 @@ req.typenames:
 ## -description
 
 
-This macro retrieves a pointer to the <a href="..\ks\ns-ks-ksevent_set.md">KSEVENT_SET</a> structure stored in <i>Irp</i>. This information is initialized only for basic support requests; it is not initialized for enable requests.
-
-
-## -syntax
-
-
-````
- KSEVENT_SET_IRP_STORAGE(
-    Irp
-);
-````
+This macro retrieves a pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561867">KSEVENT_SET</a> structure stored in <i>Irp</i>. This information is initialized only for basic support requests; it is not initialized for enable requests.
 
 
 ## -parameters

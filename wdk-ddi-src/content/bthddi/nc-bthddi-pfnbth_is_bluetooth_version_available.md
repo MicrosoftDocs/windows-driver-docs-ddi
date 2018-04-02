@@ -54,20 +54,6 @@ The
   operating system.
 
 
-## -prototype
-
-
-````
-PFNBTH_IS_BLUETOOTH_VERSION_AVAILABLE IsBluetoothVersionAvailable;
-
-BOOLEAN IsBluetoothVersionAvailable(
-  _In_ UCHAR MajorVersion,
-  _In_ UCHAR MinorVersion
-)
-{ ... }
-````
-
-
 ## -parameters
 
 

@@ -7,7 +7,7 @@ old-location: netvista\rilmsgcdmamsgprivacy.htm
 old-project: netvista
 ms.assetid: 491b985f-c228-4f4b-88c1-fd678266dd9d
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: RILMSGCDMAMSGPRIVACY, RILMSGCDMAMSGPRIVACY enumeration [Network Drivers Starting with Windows Vista], RIL_MSGPRIVACYCLASS_CONFIDENTIAL, RIL_MSGPRIVACYCLASS_MAX, RIL_MSGPRIVACYCLASS_RESTRICTED, RIL_MSGPRIVACYCLASS_SECRET, netvista.rilmsgcdmamsgprivacy, ntddrilapitypes/RILMSGCDMAMSGPRIVACY, ntddrilapitypes/RIL_MSGPRIVACYCLASS_CONFIDENTIAL, ntddrilapitypes/RIL_MSGPRIVACYCLASS_MAX, ntddrilapitypes/RIL_MSGPRIVACYCLASS_RESTRICTED, ntddrilapitypes/RIL_MSGPRIVACYCLASS_SECRET
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,19 +50,6 @@ req.typenames: RILMSGCDMAMSGPRIVACY
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef enum _RILMSGCDMAMSGPRIVACY { 
-  RIL_MSGPRIVACYCLASS_RESTRICTED,
-  RIL_MSGPRIVACYCLASS_CONFIDENTIAL,
-  RIL_MSGPRIVACYCLASS_SECRET,
-  RIL_MSGPRIVACYCLASS_MAX
-} RILMSGCDMAMSGPRIVACY;
-````
 
 
 ## -enum-fields

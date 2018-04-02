@@ -7,7 +7,7 @@ old-location: netvista\wwan_pin_list.htm
 old-project: netvista
 ms.assetid: 7ddea69c-db40-4fae-9ca9-5eadc9b40b0c
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PWWAN_PIN_LIST, PWWAN_PIN_LIST, PWWAN_PIN_LIST structure pointer [Network Drivers Starting with Windows Vista], WWAN_PIN_LIST, WWAN_PIN_LIST structure [Network Drivers Starting with Windows Vista], WwanRef_b23c520d-20ea-4597-8dd2-2a1f9cd68938.xml, _WWAN_PIN_LIST, netvista.wwan_pin_list, wwan/PWWAN_PIN_LIST, wwan/WWAN_PIN_LIST"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,25 +52,6 @@ req.product: Windows 10 or later.
 
 The WWAN_PIN_LIST structure represents a list of descriptions of Personal Identification Numbers
   (PINs).
-
-
-## -syntax
-
-
-````
-typedef struct _WWAN_PIN_LIST {
-  WWAN_PIN_DESC WwanPinDescPin1;
-  WWAN_PIN_DESC WwanPinDescPin2;
-  WWAN_PIN_DESC WwanPinDescDeviceSimPin;
-  WWAN_PIN_DESC WwanPinDescDeviceFirstSimPin;
-  WWAN_PIN_DESC WwanPinDescNetworkPin;
-  WWAN_PIN_DESC WwanPinDescNetworkSubsetPin;
-  WWAN_PIN_DESC WwanPinDescSvcProviderPin;
-  WWAN_PIN_DESC WwanPinDescCorporatePin;
-  WWAN_PIN_DESC WwanPinDescSubsidyLock;
-  WWAN_PIN_DESC WwanPinDescCustom;
-} WWAN_PIN_LIST, *PWWAN_PIN_LIST;
-````
 
 
 ## -struct-fields
@@ -144,16 +125,15 @@ Description for custom PIN. This is a custom vendor-defined PIN type. It is not 
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_pin_desc.md">WWAN_PIN_DESC</a>
 
 
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_pin_list.md">NDIS_WWAN_PIN_LIST</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567912">NDIS_WWAN_PIN_LIST</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571214">WWAN_PIN_DESC</a>
  
 
  
-
 

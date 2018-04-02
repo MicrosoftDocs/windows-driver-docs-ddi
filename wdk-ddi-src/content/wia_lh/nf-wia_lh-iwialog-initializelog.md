@@ -55,16 +55,6 @@ Note that the <b>IWiaLog</b> interface is <b>obsolete</b> for Microsoft Windows 
 The <b>IWiaLog::InitializeLog</b> method initializes the <b>lWiaLog</b> interface.
 
 
-## -syntax
-
-
-````
-HRESULT InitializeLog(
-  [in] LONG hInstance
-);
-````
-
-
 ## -parameters
 
 

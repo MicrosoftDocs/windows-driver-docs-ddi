@@ -7,7 +7,7 @@ old-location: display\ioctl_video_set_color_registers.htm
 old-project: display
 ms.assetid: efaea94e-0cfd-49a7-b8dc-452aa006b024
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_VIDEO_SET_COLOR_REGISTERS, IOCTL_VIDEO_SET_COLOR_REGISTERS control code [Display Devices], Video_IOCTLs_29dd4eb9-3c05-4b2f-8572-66b7c599fef1.xml, display.ioctl_video_set_color_registers, ntddvdeo/IOCTL_VIDEO_SET_COLOR_REGISTERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -108,5 +108,5 @@ None
 
 ### -status-block
 
-The miniport driver does not set the <b>Information</b> member of the <a href="..\video\ns-video-_status_block.md">STATUS_BLOCK</a> structure.
+The miniport driver does not set the <b>Information</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569732">STATUS_BLOCK</a> structure.
 

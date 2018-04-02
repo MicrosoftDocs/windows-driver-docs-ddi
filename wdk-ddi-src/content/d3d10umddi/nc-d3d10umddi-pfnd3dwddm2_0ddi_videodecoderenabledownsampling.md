@@ -7,7 +7,7 @@ old-location: display\videodecoderenabledownsampling.htm
 old-project: display
 ms.assetid: 0817C977-1113-4953-B60C-A69185443335
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3DWDDM2_0DDI_VIDEODECODERENABLEDOWNSAMPLING, d3d10umddi/pfnVideoDecoderEnableDownsampling, display.videodecoderenabledownsampling, pfnVideoDecoderEnableDownsampling, pfnVideoDecoderEnableDownsampling callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,24 +52,6 @@ req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 Indicates that decoder down-sampling will be used and that the driver should allocate the appropriate reference frames.  Optional for Windows Display Driver Model (WDDM) 2.0 or later drivers.
 
 
-## -prototype
-
-
-````
-PFND3DWDDM2_0DDI_VIDEODECODERENABLEDOWNSAMPLING pfnVideoDecoderEnableDownsampling;
-
-HRESULT APIENTRY* pfnVideoDecoderEnableDownsampling(
-  _In_       D3D10DDI_HDEVICE              hDevice,
-  _In_       D3D11_1DDI_HDECODE            hDecoder,
-  _In_       D3DDDI_COLOR_SPACE_TYPE       InputColorSpace,
-  _In_ const D3D11_1DDI_VIDEO_DECODER_DESC *pOutputDesc,
-  _In_       D3DDDI_COLOR_SPACE_TYPE       OutputColorSpace,
-  _In_       UINT                          ReferenceFrameCount
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -77,7 +59,7 @@ HRESULT APIENTRY* pfnVideoDecoderEnableDownsampling(
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context). The Direct3D runtime passed the user-mode driver this handle as the <b>hDevice</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createdevice.md">D3DDDIARG_CREATEDEVICE</a> structure at device creation.
+ A handle to the display device (graphics context). The Direct3D runtime passed the user-mode driver this handle as the <b>hDevice</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff542931">D3DDDIARG_CREATEDEVICE</a> structure at device creation.
 
 
 ### -param hDecoder [in]
@@ -87,7 +69,7 @@ A handle to the decoder object.
 
 ### -param InputColorSpace [in]
 
-A <a href="..\d3dukmdt\ne-d3dukmdt-d3dddi_color_space_type.md">D3DDDI_COLOR_SPACE_TYPE</a> value that indicates the color space information of the reference frame data.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/dn906320">D3DDDI_COLOR_SPACE_TYPE</a> value that indicates the color space information of the reference frame data.
 
 
 ### -param *pOutputDesc [in]
@@ -101,7 +83,7 @@ Indicates the resolution and the format of the output/display frames.  This is t
 
 ### -param OutputColorSpace [in]
 
-A <a href="..\d3dukmdt\ne-d3dukmdt-d3dddi_color_space_type.md">D3DDDI_COLOR_SPACE_TYPE</a> value that indicates the color space information of the output/display frames.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/dn906320">D3DDDI_COLOR_SPACE_TYPE</a> value that indicates the color space information of the output/display frames.
 
 
 ### -param ReferenceFrameCount [in]
@@ -122,7 +104,7 @@ If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.co
 
 
 
-This function can only be called once, prior to the first <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videodecoderbeginframe.md">VideoDecoderBeginFrame</a> call.
+This function can only be called once, prior to the first <a href="https://msdn.microsoft.com/library/windows/hardware/hh451697">VideoDecoderBeginFrame</a> call.
 
 
 
@@ -130,20 +112,19 @@ This function can only be called once, prior to the first <a href="..\d3d10umddi
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createdevice.md">D3DDDIARG_CREATEDEVICE</a>
 
 
 
-<a href="..\d3dukmdt\ne-d3dukmdt-d3dddi_color_space_type.md">D3DDDI_COLOR_SPACE_TYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542931">D3DDDIARG_CREATEDEVICE</a>
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videodecoderbeginframe.md">VideoDecoderBeginFrame</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn906320">D3DDDI_COLOR_SPACE_TYPE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451697">VideoDecoderBeginFrame</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: kernel\iosetdeviceinterfacestate.htm
 old-project: kernel
 ms.assetid: 071b5f2a-7129-4de5-9577-f2aa22f23765
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: IoSetDeviceInterfaceState, IoSetDeviceInterfaceState routine [Kernel-Mode Driver Architecture], k104_da5493d0-6dd5-4404-a647-6c23825df29c.xml, kernel.iosetdeviceinterfacestate, wdm/IoSetDeviceInterfaceState
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The <b>IoSetDeviceInterfaceState</b> routine enables or disables an instance of a previously registered device interface class. 
 
 
-## -syntax
-
-
-````
-NTSTATUS IoSetDeviceInterfaceState(
-  _In_ PUNICODE_STRING SymbolicLinkName,
-  _In_ BOOLEAN         Enable
-);
-````
-
-
 ## -parameters
 
 
@@ -71,7 +60,7 @@ NTSTATUS IoSetDeviceInterfaceState(
 
 ### -param SymbolicLinkName [in]
 
-Pointer to a string that identifies the device interface instance that is being enabled or disabled. This string was obtained from a previous call to <a href="..\wdm\nf-wdm-ioregisterdeviceinterface.md">IoRegisterDeviceInterface</a> or <a href="..\wdm\nf-wdm-iogetdeviceinterfaces.md">IoGetDeviceInterfaces</a>. 
+Pointer to a string that identifies the device interface instance that is being enabled or disabled. This string was obtained from a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff549506">IoRegisterDeviceInterface</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff549186">IoGetDeviceInterfaces</a>. 
 
 
 ### -param Enable [in]
@@ -111,7 +100,7 @@ The caller tried to disable a device interface that was not enabled.
 
 
 
-<b>IoSetDeviceInterfaceState</b> enables an instance of a registered device interface for use by applications and other system components. The interface class must have been previously registered with <a href="..\wdm\nf-wdm-ioregisterdeviceinterface.md">IoRegisterDeviceInterface</a> or from user mode. 
+<b>IoSetDeviceInterfaceState</b> enables an instance of a registered device interface for use by applications and other system components. The interface class must have been previously registered with <a href="https://msdn.microsoft.com/library/windows/hardware/ff549506">IoRegisterDeviceInterface</a> or from user mode. 
 
 Applications and other system components can open only interfaces that are enabled.
 
@@ -132,15 +121,6 @@ Callers of <b>IoSetDeviceInterfaceState</b> must be running at IRQL = PASSIVE_LE
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-ioregisterdeviceinterface.md">IoRegisterDeviceInterface</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551760">IRP_MN_SURPRISE_REMOVAL</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551749">IRP_MN_START_DEVICE</a>
 
 
 
@@ -148,16 +128,24 @@ Callers of <b>IoSetDeviceInterfaceState</b> must be running at IRQL = PASSIVE_LE
 
 
 
-<a href="..\wdm\nf-wdm-iogetdeviceinterfaces.md">IoGetDeviceInterfaces</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551749">IRP_MN_START_DEVICE</a>
 
 
 
-<a href="..\wdm\nf-wdm-ioregisterplugplaynotification.md">IoRegisterPlugPlayNotification</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551760">IRP_MN_SURPRISE_REMOVAL</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549186">IoGetDeviceInterfaces</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549506">IoRegisterDeviceInterface</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549526">IoRegisterPlugPlayNotification</a>
  
 
  
-
 

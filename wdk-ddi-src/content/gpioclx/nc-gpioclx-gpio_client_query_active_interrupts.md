@@ -52,20 +52,6 @@ req.typenames: GNSS_V2UPL_NI_INFO, *PGNSS_V2UPL_NI_INFO
 The <i>CLIENT_QueryActiveInterrupts</i> event callback function queries the state of a set of general-purpose I/O (GPIO) pins that are configured as interrupt inputs.
 
 
-## -prototype
-
-
-````
-GPIO_CLIENT_QUERY_ACTIVE_INTERRUPTS CLIENT_QueryActiveInterrupts;
-
-NTSTATUS CLIENT_QueryActiveInterrupts(
-  _In_    PVOID                                    Context,
-  _Inout_ PGPIO_QUERY_ACTIVE_INTERRUPTS_PARAMETERS QueryActiveParameters
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -147,15 +133,6 @@ The GPIO_CLIENT_QUERY_ACTIVE_INTERRUPTS function type is defined in the Gpioclx.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh698253">GPIO_QUERY_ACTIVE_INTERRUPTS_PARAMETERS</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439479">GPIO_CLIENT_REGISTRATION_PACKET</a>
 
 
 
@@ -163,12 +140,20 @@ The GPIO_CLIENT_QUERY_ACTIVE_INTERRUPTS function type is defined in the Gpioclx.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439479">GPIO_CLIENT_REGISTRATION_PACKET</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439490">GPIO_CLX_RegisterClient</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh698253">GPIO_QUERY_ACTIVE_INTERRUPTS_PARAMETERS</a>
  
 
  
-
 

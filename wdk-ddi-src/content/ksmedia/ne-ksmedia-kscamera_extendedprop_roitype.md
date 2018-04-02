@@ -52,17 +52,6 @@ req.typenames: KSCAMERA_EXTENDEDPROP_ROITYPE
 This enumeration contains the ROI types.
 
 
-## -syntax
-
-
-````
-typedef enum  { 
-  KSCAMERA_EXTENDEDPROP_ROITYPE_UNKNOWN  = 0,
-  KSCAMERA_EXTENDEDPROP_ROITYPE_FACE
-} KSCAMERA_EXTENDEDPROP_ROITYPE;
-````
-
-
 ## -enum-fields
 
 

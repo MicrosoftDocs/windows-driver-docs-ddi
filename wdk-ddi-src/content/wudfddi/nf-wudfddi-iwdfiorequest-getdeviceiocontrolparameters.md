@@ -55,18 +55,6 @@ req.product: Windows 10 or later.
 The <b>GetDeviceIoControlParameters</b> method retrieves the request parameters for a device I/O control-type request.
 
 
-## -syntax
-
-
-````
-void  GetDeviceIoControlParameters(
-  [out] ULONG  *pControlCode,
-  [out] SIZE_T *pInBufferSize,
-  [out] SIZE_T *pOutBufferSize
-);
-````
-
-
 ## -parameters
 
 
@@ -115,11 +103,10 @@ Although the driver can optionally specify <b>NULL</b> for each of the <i>pContr
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559112">IWDFIoRequest::GetOutputMemory</a>
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558985">IWDFIoRequest</a>
 
 
 
@@ -127,8 +114,8 @@ Although the driver can optionally specify <b>NULL</b> for each of the <i>pContr
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559112">IWDFIoRequest::GetOutputMemory</a>
  
 
  
-
 

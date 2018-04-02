@@ -7,7 +7,7 @@ old-location: netvista\ndismcmmodifycallqoscomplete.htm
 old-project: netvista
 ms.assetid: 66157bc7-8094-481f-8aae-a438031b61d0
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NdisMCmModifyCallQoSComplete, NdisMCmModifyCallQoSComplete macro [Network Drivers Starting with Windows Vista], condis_mcm_ref_4b742f65-7e96-4e8b-aa3d-64f9c90aa4be.xml, ndis/NdisMCmModifyCallQoSComplete, netvista.ndismcmmodifycallqoscomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,18 +53,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
   driver previously returned NDIS_STATUS_PENDING, to modify the quality of service on a VC.
 
 
-## -syntax
-
-
-````
-VOID NdisMCmModifyCallQoSComplete(
-  [in] NDIS_STATUS         Status,
-  [in] NDIS_HANDLE         NdisVcHandle,
-  [in] PCO_CALL_PARAMETERS CallParameters
-);
-````
-
-
 ## -parameters
 
 
@@ -101,7 +89,7 @@ Pointer to a structure of type
 
 Specifies the handle to the VC, obtained from the per-VC state designated by the 
      <i>CallMgrVcContext</i> passed in to the MCM driver's 
-     <a href="..\ndis\nc-ndis-protocol_cm_modify_qos_call.md">
+     <a href="https://msdn.microsoft.com/24523677-9f5a-4109-8484-95883a4d1bbf">
      ProtocolCmModifyCallQoS</a> function for this request.
 
 
@@ -117,7 +105,7 @@ Specifies the final status of the client's request to modify the QoS on this VC,
 
 A call to 
     <b>NdisMCmModifyCallQoSComplete</b> causes NDIS to call the client's 
-    <a href="..\ndis\nc-ndis-protocol_cl_modify_call_qos_complete.md">
+    <a href="https://msdn.microsoft.com/0d925862-49af-4579-b877-c9a033e73be0">
     ProtocolClModifyCallQoSComplete</a> function.
 
 The MCM driver should call 
@@ -141,33 +129,32 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_cm_modify_qos_call.md">ProtocolCmModifyCallQoS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561636">NdisClModifyCallQoS</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_cl_modify_call_qos_complete.md">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561679">NdisCmModifyCallQosComplete</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562792">NdisMCmActivateVc</a>
+
+
+
+<a href="https://msdn.microsoft.com/0d925862-49af-4579-b877-c9a033e73be0">
    ProtocolClModifyCallQoSComplete</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismcmactivatevc.md">NdisMCmActivateVc</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisclmodifycallqos.md">NdisClModifyCallQoS</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiscmmodifycallqoscomplete.md">NdisCmModifyCallQosComplete</a>
-
-
-
+<a href="https://msdn.microsoft.com/24523677-9f5a-4109-8484-95883a4d1bbf">ProtocolCmModifyCallQoS</a>
  
 
  
-
 

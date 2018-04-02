@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The <b>wiasGetDrvItem </b>function retrieves a driver item.
 
 
-## -syntax
-
-
-````
-HRESULT _stdcall wiasGetDrvItem(
-  _In_  BYTE        *pWiasContext,
-  _Out_ IWiaDrvItem **ppDrvItem
-);
-````
-
-
 ## -parameters
 
 
@@ -83,7 +72,7 @@ TBD
 
 #### - ppDrvItem [out]
 
-Pointer to a memory location that receives the address of an <a href="..\wiamindr_lh\nn-wiamindr_lh-iwiadrvitem.md">IWiaDrvItem Interface</a>.
+Pointer to a memory location that receives the address of an <a href="https://msdn.microsoft.com/library/windows/hardware/ff543896">IWiaDrvItem Interface</a>.
 
 
 ## -returns
@@ -97,16 +86,15 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
 ## -see-also
 
-<a href="..\wiamdef\nf-wiamdef-wiascreatedrvitem.md">wiasCreateDrvItem</a>
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiasgetrootitem.md">wiasGetRootItem</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549160">wiasCreateDrvItem</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549264">wiasGetRootItem</a>
  
 
  
-
 

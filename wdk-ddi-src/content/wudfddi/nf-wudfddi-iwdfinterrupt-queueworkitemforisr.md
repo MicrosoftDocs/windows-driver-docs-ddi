@@ -55,14 +55,6 @@ req.product: Windows 10 or later.
 The <b>QueueWorkItemForIsr</b> method queues a work item to process interrupt-related work outside of the interrupt service routine.
 
 
-## -syntax
-
-
-````
-BOOLEAN QueueWorkItemForIsr();
-````
-
-
 ## -parameters
 
 
@@ -83,7 +75,7 @@ The method returns TRUE if a work item was successfully queued. If a work item i
 
 
 
-The driver provides a pointer to its <a href="..\wudfinterrupt\nc-wudfinterrupt-wudf_interrupt_workitem.md">OnInterruptWorkItem</a> callback function when it calls  <a href="https://msdn.microsoft.com/EE68BED8-5FDC-4590-8E95-B228F1DFD32D">IWDFDevice3::CreateInterrupt</a> to create the interrupt object.
+The driver provides a pointer to its <a href="https://msdn.microsoft.com/10677BC2-2A98-41C8-BAE9-1FA3689ACD93">OnInterruptWorkItem</a> callback function when it calls  <a href="https://msdn.microsoft.com/EE68BED8-5FDC-4590-8E95-B228F1DFD32D">IWDFDevice3::CreateInterrupt</a> to create the interrupt object.
 
 For more information about handling interrupts in UMDF drivers, see <a href="https://msdn.microsoft.com/25D526CF-7C37-4D10-B099-352933F92F98">Accessing Hardware and Handling Interrupts</a>.
 
@@ -92,11 +84,6 @@ For more information about handling interrupts in UMDF drivers, see <a href="htt
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfinterrupt.md">IWDFInterrupt</a>
-
-
-
-<a href="..\wudfinterrupt\nc-wudfinterrupt-wudf_interrupt_workitem.md">OnInterruptWorkItem</a>
 
 
 
@@ -104,8 +91,12 @@ For more information about handling interrupts in UMDF drivers, see <a href="htt
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451283">IWDFInterrupt</a>
+
+
+
+<a href="https://msdn.microsoft.com/10677BC2-2A98-41C8-BAE9-1FA3689ACD93">OnInterruptWorkItem</a>
  
 
  
-
 

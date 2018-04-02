@@ -53,17 +53,6 @@ req.typenames:
 The<b> KsPinGetReferenceClockInterface</b> function returns a COM style interface to the reference clock associated with <i>Pin</i>. This interface pointer will be an <b>IKsReferenceClock</b> interface.
 
 
-## -syntax
-
-
-````
-NTSTATUS KsPinGetReferenceClockInterface(
-  _In_  PKSPIN             Pin,
-  _Out_ PIKSREFERENCECLOCK *Interface
-);
-````
-
-
 ## -parameters
 
 
@@ -71,19 +60,19 @@ NTSTATUS KsPinGetReferenceClockInterface(
 
 ### -param Pin [in]
 
-A pointer to the <a href="..\ks\ns-ks-_kspin.md">KSPIN</a> structure for which to return the reference clock interface.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563483">KSPIN</a> structure for which to return the reference clock interface.
 
 
 ### -param Interface [out]
 
-A pointer to a memory location that receives the address of an <a href="..\ks\nn-ks-iksreferenceclock.md">IKsReferenceClock</a> interface. This is a COM style interface with an associated reference count. Minidrivers must release the interface when finished with it.
+A pointer to a memory location that receives the address of an <a href="https://msdn.microsoft.com/library/windows/hardware/ff560725">IKsReferenceClock</a> interface. This is a COM style interface with an associated reference count. Minidrivers must release the interface when finished with it.
 
 
 ## -returns
 
 
 
-<b>KsPinGetReferenceClockInterface</b> returns STATUS_SUCCESS and deposits the address of the  <a href="..\ks\nn-ks-iksreferenceclock.md">IKsReferenceClock</a> interface into <i>Interface</i> if the pin implements the clock or has received notification of the master clock through the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565713">KSPROPERTY_STREAM_MASTERCLOCK</a> property. Returns STATUS_DEVICE_NOT_READY if the pin has not yet received notification of the master clock.
+<b>KsPinGetReferenceClockInterface</b> returns STATUS_SUCCESS and deposits the address of the  <a href="https://msdn.microsoft.com/library/windows/hardware/ff560725">IKsReferenceClock</a> interface into <i>Interface</i> if the pin implements the clock or has received notification of the master clock through the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565713">KSPROPERTY_STREAM_MASTERCLOCK</a> property. Returns STATUS_DEVICE_NOT_READY if the pin has not yet received notification of the master clock.
 
 
 
@@ -94,47 +83,46 @@ A pointer to a memory location that receives the address of an <a href="..\ks\nn
 
 The most common time to call <b>KsPinGetReferenceClockInterface</b> is in a state transition to KSSTATE_ACQUIRE.
 
-See <a href="https://msdn.microsoft.com/fc1d5bca-72e3-48e2-b46f-09a13bba83b4">AVStream Clocks</a> for more information about using the <a href="..\ks\nn-ks-iksreferenceclock.md">IKsReferenceClock</a> interface that this routine returns.
+See <a href="https://msdn.microsoft.com/fc1d5bca-72e3-48e2-b46f-09a13bba83b4">AVStream Clocks</a> for more information about using the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560725">IKsReferenceClock</a> interface that this routine returns.
 
 
 
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksfiltergetouterunknown.md">KsFilterGetOuterUnknown</a>
 
 
 
-<a href="..\ks\nf-ks-kspingetconnectedfilterinterface.md">KsPinGetConnectedFilterInterface</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559766">IKsControl</a>
 
 
 
-<a href="..\ksproxy\nn-ksproxy-ikscontrol.md">IKsControl</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560725">IKsReferenceClock</a>
 
 
 
-<a href="..\ks\nn-ks-iksreferenceclock.md">IKsReferenceClock</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562547">KsFilterGetOuterUnknown</a>
 
 
 
-<a href="..\ks\nf-ks-ksregisteraggregatedclientunknown.md">KsRegisterAggregatedClientUnknown</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562655">KsGetOuterUnknown</a>
 
 
 
-<a href="..\ks\nf-ks-kspinsetpinclocktime.md">KsPinSetPinClockTime</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563506">KsPinGetConnectedFilterInterface</a>
 
 
 
-<a href="..\ks\nf-ks-kspingetconnectedpininterface.md">KsPinGetConnectedPinInterface</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563509">KsPinGetConnectedPinInterface</a>
 
 
 
-<a href="..\ks\nf-ks-ksgetouterunknown.md">KsGetOuterUnknown</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563528">KsPinSetPinClockTime</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566767">KsRegisterAggregatedClientUnknown</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: netvista\ndisfreescattergatherlist.htm
 old-project: netvista
 ms.assetid: 140be989-e578-4bfe-8b9e-56abb274933a
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NdisFreeScatterGatherList, NdisFreeScatterGatherList function [Network Drivers Starting with Windows Vista], ndis/NdisFreeScatterGatherList, ndis_shared_memory_ref_2376e740-d44c-4572-8731-7518d4765208.xml, netvista.ndisfreescattergatherlist
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -54,18 +54,6 @@ The
   <b>NdisFreeScatterGatherList</b> function frees a scatter/gather list.
 
 
-## -syntax
-
-
-````
-VOID NdisFreeScatterGatherList(
-  _In_ NDIS_HANDLE          NdisHandle,
-  _In_ PSCATTER_GATHER_LIST ScatterGatherListBuffer,
-  _In_ BOOLEAN              WriteToDevice
-);
-````
-
-
 ## -parameters
 
 
@@ -75,14 +63,14 @@ VOID NdisFreeScatterGatherList(
 
 An NDIS driver or instance handle that was obtained during caller initialization. This should be
      the same handle that was passed to the 
-     <a href="..\ndis\nf-ndis-ndisbuildscattergatherlist.md">
+     <a href="https://msdn.microsoft.com/439d68ec-9d27-484b-b6a3-9bae732d142e">
      NdisBuildScatterGatherList</a> function when the scatter/gather list was created.
 
 
 ### -param ScatterGatherListBuffer [in]
 
 A pointer to a caller-provided 
-     <a href="..\wdm\ns-wdm-_scatter_gather_list.md">SCATTER_GATHER_LIST</a> structure to free.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff563664">SCATTER_GATHER_LIST</a> structure to free.
      This must be the same buffer that was passed to the 
      <b>NdisBuildScatterGatherList</b> function when the scatter/gather list was allocated.
 
@@ -108,7 +96,7 @@ None
 
 NDIS drivers call the 
     <b>NdisFreeScatterGatherList</b> function to free a scatter/gather list that was created with the 
-    <a href="..\ndis\nf-ndis-ndisbuildscattergatherlist.md">
+    <a href="https://msdn.microsoft.com/439d68ec-9d27-484b-b6a3-9bae732d142e">
     NdisBuildScatterGatherList</a> function.
 
 
@@ -116,16 +104,15 @@ NDIS drivers call the
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_scatter_gather_list.md">SCATTER_GATHER_LIST</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisbuildscattergatherlist.md">NdisBuildScatterGatherList</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561620">NdisBuildScatterGatherList</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563664">SCATTER_GATHER_LIST</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: kernel\ext_set_parameters.htm
 old-project: kernel
 ms.assetid: 8872AA79-1D54-4952-A45E-A2DB97730CA7
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*PEXT_SET_PARAMETERS, *PKT2_SET_PARAMETERS, EXT_SET_PARAMETERS, EXT_SET_PARAMETERS structure [Kernel-Mode Driver Architecture], KT2_SET_PARAMETERS, PEXT_SET_PARAMETERS, PEXT_SET_PARAMETERS structure pointer [Kernel-Mode Driver Architecture], _EXT_SET_PARAMETERS_V0, kernel.ext_set_parameters, wdm/EXT_SET_PARAMETERS, wdm/PEXT_SET_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,19 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>EXT_SET_PARAMETERS</b> structure contains an extended set of parameters for the <a href="..\wdm\nf-wdm-exsettimer.md">ExSetTimer</a> routine.
-
-
-## -syntax
-
-
-````
-typedef struct _EXT_SET_PARAMETERS {
-  ULONG    Version;
-  ULONG    Reserved;
-  LONGLONG NoWakeTolerance;
-} EXT_SET_PARAMETERS, *PEXT_SET_PARAMETERS;
-````
+The <b>EXT_SET_PARAMETERS</b> structure contains an extended set of parameters for the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265188">ExSetTimer</a> routine.
 
 
 ## -struct-fields
@@ -72,7 +60,7 @@ typedef struct _EXT_SET_PARAMETERS {
 
 ### -field Version
 
-The version number of this <b>EXT_SET_PARAMETERS</b> structure. The <a href="..\wdm\nf-wdm-exinitializesettimerparameters.md">ExInitializeSetTimerParameters</a> routine sets this member to the correct version number.
+The version number of this <b>EXT_SET_PARAMETERS</b> structure. The <a href="https://msdn.microsoft.com/library/windows/hardware/dn265183">ExInitializeSetTimerParameters</a> routine sets this member to the correct version number.
 
 
 ### -field Reserved
@@ -91,7 +79,7 @@ Do not set this member to a negative value (other than EX_TIMER_UNLIMITED_TOLERA
 
 
 
-The <i>Parameters</i> parameter of the <a href="..\wdm\nf-wdm-exsettimer.md">ExSetTimer</a> routine is a pointer to an <b>EXT_SET_PARAMETERS</b> structure. Before passing an <b>EXT_SET_PARAMETERS</b> structure to this routine, call the <a href="..\wdm\nf-wdm-exinitializesettimerparameters.md">ExInitializeSetTimerParameters</a> routine to initialize the structure.
+The <i>Parameters</i> parameter of the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265188">ExSetTimer</a> routine is a pointer to an <b>EXT_SET_PARAMETERS</b> structure. Before passing an <b>EXT_SET_PARAMETERS</b> structure to this routine, call the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265183">ExInitializeSetTimerParameters</a> routine to initialize the structure.
 
 The <b>ExInitializeSetTimerParameters</b> routine sets the <b>NoWakeTolerance</b> member to zero, which means that the timer immediately wakes the processor if the timer reaches its expiration time when the processor is in a low-power state. To reduce power consumption, a driver can set this member to a nonzero value to extend the time that the processor spends in a low-power state.
 
@@ -100,16 +88,15 @@ The <b>ExInitializeSetTimerParameters</b> routine sets the <b>NoWakeTolerance</b
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exsettimer.md">ExSetTimer</a>
 
 
 
-<a href="..\wdm\nf-wdm-exinitializesettimerparameters.md">ExInitializeSetTimerParameters</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265183">ExInitializeSetTimerParameters</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265188">ExSetTimer</a>
  
 
  
-
 

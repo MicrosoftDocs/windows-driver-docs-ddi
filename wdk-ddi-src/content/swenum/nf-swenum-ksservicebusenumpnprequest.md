@@ -56,17 +56,6 @@ req.product: Windows 10 or later.
 The <b>KsServiceBusEnumPnpRequest</b> function services IRP_MJ_PNP requests on behalf of the demand-load bus enumerator object that was created with <b>KsCreateBusEnumObject</b>. 
 
 
-## -syntax
-
-
-````
-NTSTATUS KsServiceBusEnumPnpRequest(
-  _In_    PDEVICE_OBJECT DeviceObject,
-  _Inout_ PIRP           Irp
-);
-````
-
-
 ## -parameters
 
 
@@ -202,20 +191,19 @@ IRP_MN_QUERY_CAPABILITIES
 
 ## -see-also
 
-<a href="..\swenum\nf-swenum-ksservicebusenumcreaterequest.md">KsServiceBusEnumCreateRequest</a>
 
 
 
-<a href="..\swenum\nf-swenum-kscreatebusenumobject.md">KsCreateBusEnumObject</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561634">KsCreateBusEnumObject</a>
 
 
 
-<a href="..\swenum\nf-swenum-ksisbusenumchilddevice.md">KsIsBusEnumChildDevice</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563389">KsIsBusEnumChildDevice</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566814">KsServiceBusEnumCreateRequest</a>
  
 
  
-
 

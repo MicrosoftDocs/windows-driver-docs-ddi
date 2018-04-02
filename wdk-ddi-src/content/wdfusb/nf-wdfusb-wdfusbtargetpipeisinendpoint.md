@@ -58,16 +58,6 @@ req.product: Windows 10 or later.
 The <b>WdfUsbTargetPipeIsInEndpoint</b> method determines whether a specified USB pipe is connected to an input endpoint.
 
 
-## -syntax
-
-
-````
-BOOLEAN WdfUsbTargetPipeIsInEndpoint(
-  _In_ WDFUSBPIPE Pipe
-);
-````
-
-
 ## -parameters
 
 
@@ -75,7 +65,7 @@ BOOLEAN WdfUsbTargetPipeIsInEndpoint(
 
 ### -param Pipe [in]
 
-A handle to a framework pipe object that represents a bulk pipe or interrupt pipe and was obtained by calling <a href="..\wdfusb\nf-wdfusb-wdfusbinterfacegetconfiguredpipe.md">WdfUsbInterfaceGetConfiguredPipe</a>. 
+A handle to a framework pipe object that represents a bulk pipe or interrupt pipe and was obtained by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff550057">WdfUsbInterfaceGetConfiguredPipe</a>. 
 
 
 ## -returns
@@ -119,20 +109,19 @@ isInEndPoint = WdfUsbTargetPipeIsInEndpoint(usbPipe);</pre>
 
 ## -see-also
 
-<a href="..\wdfusb\nf-wdfusb-wdfusbtargetpipeisoutendpoint.md">WdfUsbTargetPipeIsOutEndpoint</a>
 
 
 
-<a href="..\wdfusb\nf-wdfusb-wdfusbinterfacegetconfiguredpipe.md">WdfUsbInterfaceGetConfiguredPipe</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553027">WDF_USB_PIPE_DIRECTION_IN</a>
 
 
 
-<a href="..\wdfusb\nf-wdfusb-wdf_usb_pipe_direction_in.md">WDF_USB_PIPE_DIRECTION_IN</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550057">WdfUsbInterfaceGetConfiguredPipe</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551153">WdfUsbTargetPipeIsOutEndpoint</a>
  
 
  
-
 

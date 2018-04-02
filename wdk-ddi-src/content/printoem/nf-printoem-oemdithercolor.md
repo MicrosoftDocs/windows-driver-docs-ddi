@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 The <code>OEMDitherColor</code> function requests the device to create a brush dithered against a device palette.
 
 
-## -syntax
-
-
-````
-ULONG APIENTRY OEMDitherColor(
-   DHPDEV dhpdev,
-   ULONG  iMode,
-   ULONG  rgbColor,
-   ULONG  *pulDither
-);
-````
-
-
 ## -parameters
 
 

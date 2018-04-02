@@ -7,7 +7,7 @@ old-location: display\dxgkddiflipoverlay.htm
 old-project: display
 ms.assetid: 9e35a48b-1741-4ee2-8e15-6ce51ad4c0ad
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_FLIPOVERLAY, DmFunctions_fac1657b-03ec-4d63-93d6-3458423a1fe9.xml, DxgkDdiFlipOverlay, DxgkDdiFlipOverlay callback function [Display Devices], d3dkmddi/DxgkDdiFlipOverlay, display.dxgkddiflipoverlay
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,20 +52,6 @@ req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 The <i>DxgkDdiFlipOverlay</i> function displays a new allocation by using the specified overlay.
 
 
-## -prototype
-
-
-````
-DXGKDDI_FLIPOVERLAY DxgkDdiFlipOverlay;
-
-NTSTATUS APIENTRY DxgkDdiFlipOverlay(
-  _In_ const HANDLE              hOverlay,
-  _In_ const DXGKARG_FLIPOVERLAY *pFlipOverlay
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -73,12 +59,12 @@ NTSTATUS APIENTRY DxgkDdiFlipOverlay(
 
 ### -param hOverlay [in]
 
-[in] A handle to the overlay to be flipped. The display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createoverlay.md">DxgkDdiCreateOverlay</a> function previously provided this handle to the Microsoft DirectX graphics kernel subsystem in the <b>hOverlay</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createoverlay.md">DXGKARG_CREATEOVERLAY</a> structure. 
+[in] A handle to the overlay to be flipped. The display miniport driver's <a href="https://msdn.microsoft.com/1ccdd16d-fd76-4039-b538-86c77b4e8cbb">DxgkDdiCreateOverlay</a> function previously provided this handle to the Microsoft DirectX graphics kernel subsystem in the <b>hOverlay</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557572">DXGKARG_CREATEOVERLAY</a> structure. 
 
 
 ### -param pFlipOverlay [in]
 
-[in] A pointer to a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_flipoverlay.md">DXGKARG_FLIPOVERLAY</a> structure that describes the new allocation to display by using the overlay.
+[in] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff557590">DXGKARG_FLIPOVERLAY</a> structure that describes the new allocation to display by using the overlay.
 
 
 ## -returns
@@ -153,20 +139,19 @@ The display miniport driver is not compatible with the user-mode display driver 
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createoverlay.md">DxgkDdiCreateOverlay</a>
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createoverlay.md">DXGKARG_CREATEOVERLAY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557572">DXGKARG_CREATEOVERLAY</a>
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_flipoverlay.md">DXGKARG_FLIPOVERLAY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557590">DXGKARG_FLIPOVERLAY</a>
 
 
 
+<a href="https://msdn.microsoft.com/1ccdd16d-fd76-4039-b538-86c77b4e8cbb">DxgkDdiCreateOverlay</a>
  
 
  
-
 

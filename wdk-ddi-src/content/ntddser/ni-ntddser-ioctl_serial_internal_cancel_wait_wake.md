@@ -107,12 +107,11 @@ The <b>Status</b> member is set to one of the <a href="https://docs.microsoft.co
 
 ## -see-also
 
-<a href="..\ntddser\ni-ntddser-ioctl_serial_internal_do_wait_wake.md">IOCTL_SERIAL_INTERNAL_DO_WAIT_WAKE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546636">IOCTL_SERIAL_INTERNAL_DO_WAIT_WAKE</a>
  
 
  
-
 

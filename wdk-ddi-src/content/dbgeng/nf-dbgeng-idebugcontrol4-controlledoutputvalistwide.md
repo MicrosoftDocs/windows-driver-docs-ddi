@@ -7,7 +7,7 @@ old-location: debugger\controlledoutputvalistwide.htm
 old-project: debugger
 ms.assetid: 8576a20b-bdb8-47d9-a21e-689a315c6886
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: ControlledOutputVaListWide method [Windows Debugging], ControlledOutputVaListWide method [Windows Debugging], IDebugControl4 interface, ControlledOutputVaListWide,IDebugControl4.ControlledOutputVaListWide, IDebugControl4, IDebugControl4 interface [Windows Debugging], ControlledOutputVaListWide method, IDebugControl4::ControlledOutputVaListWide, dbgeng/IDebugControl4::ControlledOutputVaListWide, debugger.controlledoutputvalistwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,19 +50,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>ControlledOutputVaListWide</b>  method formats a string and sends the result to <a href="https://msdn.microsoft.com/7a23ee09-0314-400a-8152-eef49a225427">output callbacks</a> that were registered with some of the engine's clients.
-
-
-## -syntax
-
-
-````
-HRESULT ControlledOutputVaListWide(
-  [in] ULONG   OutputControl,
-  [in] ULONG   Mask,
-  [in] PCWSTR  Format,
-  [in] va_list Args
-);
-````
 
 
 ## -parameters
@@ -473,7 +460,6 @@ The macros <b>va_list</b>, <b>va_start</b>, and <b>va_end</b> are defined in Std
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553280">OutputVaList</a>
 
 
 
@@ -481,16 +467,16 @@ The macros <b>va_list</b>, <b>va_start</b>, and <b>va_end</b> are defined in Std
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550526">IDebugControl4</a>
 
 
 
-<a href="..\wdbgexts\nc-wdbgexts-pwindbg_output_routine.md">dprintf</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553280">OutputVaList</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542750">dprintf</a>
  
 
  
-
 

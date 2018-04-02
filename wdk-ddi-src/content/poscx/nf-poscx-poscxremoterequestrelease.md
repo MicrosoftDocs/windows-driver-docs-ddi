@@ -54,17 +54,6 @@ PosCxRemoteRequestRelease is called whenever a remote device asks for
       the device to release.  This initiates claim negotiation.
 
 
-## -syntax
-
-
-````
-NTSTATUS PosCxRemoteRequestRelease(
-  _In_ WDFDEVICE device,
-  _In_ ULONG     deviceInterfaceTag
-);
-````
-
-
 ## -parameters
 
 

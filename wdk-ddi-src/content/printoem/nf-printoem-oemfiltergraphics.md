@@ -52,18 +52,6 @@ req.product: Windows 10 or later.
 
 
 
-## -syntax
-
-
-````
-BOOL APIENTRY OEMFilterGraphics(
-       PDEVOBJ                    pdevobj,
-  _In_ _reads_bytes_(dwLen) PBYTE pBuf,
-       DWORD                      dwLen
-);
-````
-
-
 ## -parameters
 
 

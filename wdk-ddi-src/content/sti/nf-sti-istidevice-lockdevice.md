@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 The <b>IStiDevice::LockDevice </b>method locks a device for exclusive use by the caller.
 
 
-## -syntax
-
-
-````
-HRESULT LockDevice(
-  [in] DWORD dwTimeOut
-);
-````
-
-
 ## -parameters
 
 

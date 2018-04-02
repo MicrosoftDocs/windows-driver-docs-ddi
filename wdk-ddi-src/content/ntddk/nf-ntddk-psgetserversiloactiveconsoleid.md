@@ -7,7 +7,7 @@ old-location: kernel\psgetserversiloactiveconsoleid.htm
 old-project: kernel
 ms.assetid: 66b3c35d-681c-464a-86fa-972825bf3e97
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: PsGetServerSiloActiveConsoleId, PsGetServerSiloActiveConsoleId method [Kernel-Mode Driver Architecture], kernel.psgetserversiloactiveconsoleid, ntddk/PsGetServerSiloActiveConsoleId
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,16 +53,6 @@ Gets the active console for the current server silo context
     for the supplied thread.
 			
             
-
-
-## -syntax
-
-
-````
-ULONG  PsGetServerSiloActiveConsoleId(
-   PESILO Silo
-);
-````
 
 
 ## -parameters

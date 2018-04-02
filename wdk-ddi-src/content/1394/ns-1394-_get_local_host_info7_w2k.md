@@ -52,17 +52,6 @@ req.typenames: GET_LOCAL_HOST_INFO7_W2K, *PGET_LOCAL_HOST_INFO7_W2K
 The GET_LOCAL_HOST_INFO7 structure contains the data returned by a <a href="https://msdn.microsoft.com/library/windows/hardware/ff537644">REQUEST_GET_LOCAL_HOST_INFO</a> request with <b>u.GetLocalHostInformation.nLevel</b> set to GET_HOST_DMA_CAPABILITIES.
 
 
-## -syntax
-
-
-````
-typedef struct _GET_LOCAL_HOST_INFO7 {
-  ULONG          HostDmaCapabilities;
-  ULARGE_INTEGER MaxDmaBufferSize;
-} GET_LOCAL_HOST_INFO7, *PGET_LOCAL_HOST_INFO7;
-````
-
-
 ## -struct-fields
 
 

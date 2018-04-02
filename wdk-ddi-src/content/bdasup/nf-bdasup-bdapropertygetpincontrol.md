@@ -53,18 +53,6 @@ req.typenames: KSP_BDA_NODE_PIN, *PKSP_BDA_NODE_PIN
 The <b>BdaPropertyGetPinControl</b> function retrieves either the identifier or type of a pin. 
 
 
-## -syntax
-
-
-````
-NTSTATUS BdaPropertyGetPinControl(
-  _In_      PIRP        Irp,
-  _In_      PKSPROPERTY pKSProperty,
-  _Out_opt_ ULONG       *pulProperty
-);
-````
-
-
 ## -parameters
 
 
@@ -110,11 +98,10 @@ A BDA minidriver calls the <b>BdaPropertyGetPinControl</b> function to retrieve 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564350">KSPROPERTY_BDA_PIN_TYPE</a>
 
 
 
@@ -122,12 +109,12 @@ A BDA minidriver calls the <b>BdaPropertyGetPinControl</b> function to retrieve 
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564350">KSPROPERTY_BDA_PIN_TYPE</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566552">KSPROPSETID_BdaPinControl</a>
-
-
-
  
 
  
-
 

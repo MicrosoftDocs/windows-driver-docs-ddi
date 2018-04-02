@@ -7,7 +7,7 @@ old-location: debugger\extremotetyped_gettypefieldoffset.htm
 old-project: debugger
 ms.assetid: 5f966bf0-2dc3-4422-bfec-09d1b136f9f0
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: EngExtCpp_Ref_f916dec8-a1be-4180-aa87-33136677949f.xml, ExtRemoteTyped, ExtRemoteTyped interface [Windows Debugging], GetTypeFieldOffset method, ExtRemoteTyped::GetTypeFieldOffset, GetTypeFieldOffset method [Windows Debugging], GetTypeFieldOffset method [Windows Debugging], ExtRemoteTyped interface, GetTypeFieldOffset,ExtRemoteTyped.GetTypeFieldOffset, debugger.extremotetyped_gettypefieldoffset
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,17 +50,6 @@ req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 
 
 The <b>GetTypeFieldOffset</b> static method returns the offset of a member within a structure.
-
-
-## -syntax
-
-
-````
-static ULONG GetTypeFieldOffset(
-  [in] PCSTR Type,
-  [in] PCSTR Field
-);
-````
 
 
 ## -parameters

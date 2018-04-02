@@ -7,7 +7,7 @@ old-location: display\d3d11_1ddiarg_createvideoprocessorenum.htm
 old-project: display
 ms.assetid: 7edcd852-429f-4059-92bb-99c7874a9357
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3D11_1DDIARG_CREATEVIDEOPROCESSORENUM, D3D11_1DDIARG_CREATEVIDEOPROCESSORENUM structure [Display Devices], d3d10umddi/D3D11_1DDIARG_CREATEVIDEOPROCESSORENUM, display.d3d11_1ddiarg_createvideoprocessorenum
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,16 +52,6 @@ req.typenames: D3D11_1DDIARG_CREATEVIDEOPROCESSORENUM
 Specifies the attributes of a video processor enumeration object.
 
 
-## -syntax
-
-
-````
-typedef struct D3D11_1DDIARG_CREATEVIDEOPROCESSORENUM {
-  D3D11_1DDI_VIDEO_PROCESSOR_CONTENT_DESC Desc;
-} D3D11_1DDIARG_CREATEVIDEOPROCESSORENUM;
-````
-
-
 ## -struct-fields
 
 
@@ -69,17 +59,16 @@ typedef struct D3D11_1DDIARG_CREATEVIDEOPROCESSORENUM {
 
 ### -field Desc
 
-A <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_processor_content_desc.md">D3D11_1DDI_VIDEO_PROCESSOR_CONTENT_DESC</a> structure that describes a video stream for a video processor.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/hh450972">D3D11_1DDI_VIDEO_PROCESSOR_CONTENT_DESC</a> structure that describes a video stream for a video processor.
 
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_processor_content_desc.md">D3D11_1DDI_VIDEO_PROCESSOR_CONTENT_DESC</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450972">D3D11_1DDI_VIDEO_PROCESSOR_CONTENT_DESC</a>
  
 
  
-
 

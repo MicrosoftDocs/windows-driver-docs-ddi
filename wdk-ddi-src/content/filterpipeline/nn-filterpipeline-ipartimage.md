@@ -54,7 +54,7 @@ The <b>IPartImage</b> interface is the abstraction for images in an XPS document
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPartImage</b> interface inherits from <a href="..\filterpipeline\nn-filterpipeline-ipartbase.md">IPartBase</a>. <b>IPartImage</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPartImage</b> interface inherits from <a href="https://msdn.microsoft.com/library/windows/hardware/ff551846">IPartBase</a>. <b>IPartImage</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -90,12 +90,11 @@ The <b>SetImageContent</b> method sets an image property that is based on the co
 
 ## -see-also
 
-<a href="..\filterpipeline\nn-filterpipeline-ipartbase.md">IPartBase</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551846">IPartBase</a>
  
 
  
-
 

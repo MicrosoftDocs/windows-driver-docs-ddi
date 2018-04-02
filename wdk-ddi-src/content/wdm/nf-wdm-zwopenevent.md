@@ -7,7 +7,7 @@ old-location: kernel\zwopenevent.htm
 old-project: kernel
 ms.assetid: 1facaf24-ed94-4516-b9d6-bdcd8ac4b9e9
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: NtOpenEvent, ZwOpenEvent, ZwOpenEvent routine [Kernel-Mode Driver Architecture], k111_b2349294-0e16-43ef-95cb-eecd213374b6.xml, kernel.zwopenevent, wdm/NtOpenEvent, wdm/ZwOpenEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -54,18 +54,6 @@ req.product: Windows 10 or later.
 The <b>ZwOpenEvent</b> routine opens a handle to an existing named event object with the specified desired access.
 
 
-## -syntax
-
-
-````
-NTSTATUS ZwOpenEvent(
-  _Out_ PHANDLE            EventHandle,
-  _In_  ACCESS_MASK        DesiredAccess,
-  _In_  POBJECT_ATTRIBUTES ObjectAttributes
-);
-````
-
-
 ## -parameters
 
 
@@ -103,7 +91,7 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCES
 
 ### -param ObjectAttributes [in]
 
-A pointer to the object attributes structure that the caller supplied to be used for the specified object. These attributes would include the <b>ObjectName</b> and the handle attributes, for example. This parameter is initialized by calling the <a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a> macro. 
+A pointer to the object attributes structure that the caller supplied to be used for the specified object. These attributes would include the <b>ObjectName</b> and the handle attributes, for example. This parameter is initialized by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547804">InitializeObjectAttributes</a> macro. 
 
 
 ## -returns
@@ -146,7 +134,7 @@ The <i>ObjectAttributes</i> structure was not supplied or contained an invalid p
 </dl>
 </td>
 <td width="60%">
-The <i>ObjectAttributes</i> parameter contained an <b>ObjectName</b> in the <a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a> structure that was invalid. 
+The <i>ObjectAttributes</i> parameter contained an <b>ObjectName</b> in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557749">OBJECT_ATTRIBUTES</a> structure that was invalid. 
 
 </td>
 </tr>
@@ -221,11 +209,6 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iocreatenotificationevent.md">IoCreateNotificationEvent</a>
-
-
-
-<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
 
 
 
@@ -233,7 +216,31 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="..\wdm\nf-wdm-keclearevent.md">KeClearEvent</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547804">InitializeObjectAttributes</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549039">IoCreateNotificationEvent</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549045">IoCreateSynchronizationEvent</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551980">KeClearEvent</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553176">KeResetEvent</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553253">KeSetEvent</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553350">KeWaitForSingleObject</a>
 
 
 
@@ -241,40 +248,20 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="..\wdm\nf-wdm-keresetevent.md">KeResetEvent</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566417">ZwClose</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-zwcreateevent.md">ZwCreateEvent</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566423">ZwCreateEvent</a>
 
 
 
-<a href="..\wdm\nf-wdm-iocreatesynchronizationevent.md">IoCreateSynchronizationEvent</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567092">ZwSetEvent</a>
 
 
 
-<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-zwwaitforsingleobject.md">ZwWaitForSingleObject</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-zwsetevent.md">ZwSetEvent</a>
-
-
-
-<a href="..\wdm\nf-wdm-kesetevent.md">KeSetEvent</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567120">ZwWaitForSingleObject</a>
  
 
  
-
 

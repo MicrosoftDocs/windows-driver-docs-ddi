@@ -7,7 +7,7 @@ old-location: debugger\getpseudodescription.htm
 old-project: debugger
 ms.assetid: dc1c7b8a-1233-4f22-8c5f-273f370a1e06
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: GetPseudoDescription method [Windows Debugging], GetPseudoDescription method [Windows Debugging], IDebugRegisters2 interface, GetPseudoDescription,IDebugRegisters2.GetPseudoDescription, IDebugRegisters2, IDebugRegisters2 interface [Windows Debugging], GetPseudoDescription method, IDebugRegisters2::GetPseudoDescription, IDebugRegisters_7b1f8069-32d0-4fb4-9cee-7fd045bae8d3.xml, dbgeng/IDebugRegisters2::GetPseudoDescription, debugger.getpseudodescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,21 +50,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetPseudoDescription</b>  method returns a description of a pseudo-register, including its name and type.
-
-
-## -syntax
-
-
-````
-HRESULT GetPseudoDescription(
-  [in]            ULONG    Register,
-  [out, optional] PSTR     NameBuffer,
-  [in]            ULONG    NameBufferSize,
-  [out, optional] PULONG   NameSize,
-  [out, optional] PULONG64 TypeModule,
-  [out, optional] PULONG   TypeId
-);
-````
 
 
 ## -parameters
@@ -147,18 +132,13 @@ The description for the register was not available
 
 Descriptions are not always available for all registers.  If a pseudo-register does not have a value - for example, <b>$eventip</b> will not have a value before an event has occurred - or a type cannot be determined for a pseudo-register, this method will return E_FAIL.
 
-For an overview of the <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRegisters</a> interface and other register-related methods, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554369">Registers</a>.
+For an overview of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550825">IDebugRegisters</a> interface and other register-related methods, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554369">Registers</a>.
 
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548206">GetPseudoIndexByName</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugregisters2.md">IDebugRegisters2</a>
 
 
 
@@ -166,8 +146,12 @@ For an overview of the <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRe
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548206">GetPseudoIndexByName</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550835">IDebugRegisters2</a>
  
 
  
-
 

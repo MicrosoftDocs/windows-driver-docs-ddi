@@ -144,12 +144,11 @@ The output buffer was sized incorrectly.
 
 ## -see-also
 
+
+
+
 <a href="http://go.microsoft.com/fwlink/p/?linkid=50713">BTH_DEVICE_INFO</a>
-
-
-
  
 
  
-
 

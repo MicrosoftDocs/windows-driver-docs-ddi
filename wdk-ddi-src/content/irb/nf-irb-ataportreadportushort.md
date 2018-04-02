@@ -7,7 +7,7 @@ old-location: storage\ataportreadportushort.htm
 old-project: storage
 ms.assetid: e2534e79-293e-41db-b874-3f39aa5af864
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: AtaPortReadPortUshort, AtaPortReadPortUshort routine [Storage Devices], atartns_935ac51b-c226-48d2-acf0-ae1cfe5bfd60.xml, irb/AtaPortReadPortUshort, storage.ataportreadportushort
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -55,16 +55,6 @@ req.typenames: IDE_POWER_STATE
 The <b>AtaPortReadPortUshort</b> routine reads a USHORT value from the HBA.
 <div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
-## -syntax
-
-
-````
-USHORT AtaPortReadPortUshort(
-  _In_ PUSHORT Port
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +62,7 @@ USHORT AtaPortReadPortUshort(
 
 ### -param Port [in]
 
-A pointer to the I/O port. The address value that is assigned to this parameter must be within the range of mapped I/O space addresses that are obtained by a call to <a href="..\irb\nf-irb-ataportgetdevicebase.md">AtaPortGetDeviceBase</a>.
+A pointer to the I/O port. The address value that is assigned to this parameter must be within the range of mapped I/O space addresses that are obtained by a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff550160">AtaPortGetDeviceBase</a>.
 
 
 ## -returns
@@ -86,20 +76,19 @@ A pointer to the I/O port. The address value that is assigned to this parameter 
 
 ## -see-also
 
-<a href="..\irb\nf-irb-ataportgetdevicebase.md">AtaPortGetDeviceBase</a>
 
 
 
-<a href="..\irb\nf-irb-ataportreadportulong.md">AtaPortReadPortUlong</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550160">AtaPortGetDeviceBase</a>
 
 
 
-<a href="..\irb\nf-irb-ataportreadportuchar.md">AtaPortReadPortUchar</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550182">AtaPortReadPortUchar</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550184">AtaPortReadPortUlong</a>
  
 
  
-
 

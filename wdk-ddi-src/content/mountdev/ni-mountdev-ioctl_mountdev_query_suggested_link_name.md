@@ -7,7 +7,7 @@ old-location: storage\ioctl_mountdev_query_suggested_link_name.htm
 old-project: storage
 ms.assetid: 4afd8c7a-b7b4-4a02-a270-d4e29f5329f9
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_MOUNTDEV_QUERY_SUGGESTED_LINK_NAME, IOCTL_MOUNTDEV_QUERY_SUGGESTED_LINK_NAME control code [Storage Devices], k307_90b74e7c-57f6-4738-8a5e-d947c29c5aab.xml, mountdev/IOCTL_MOUNTDEV_QUERY_SUGGESTED_LINK_NAME, storage.ioctl_mountdev_query_suggested_link_name
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -79,7 +79,7 @@ Drive letter names must include the full path of the symbolic link in object nam
 
 ### -output-buffer
 
-The client driver must place a variable-length structure of type <a href="..\mountdev\ns-mountdev-_mountdev_suggested_link_name.md">MOUNTDEV_SUGGESTED_LINK_NAME</a>, defined in <i>moundev.h</i>, at the beginning of the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>. Starting at the address of the structure member <i>Name</i>, the client driver must insert the suggested persistent name.
+The client driver must place a variable-length structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff562258">MOUNTDEV_SUGGESTED_LINK_NAME</a>, defined in <i>moundev.h</i>, at the beginning of the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>. Starting at the address of the structure member <i>Name</i>, the client driver must insert the suggested persistent name.
 
 
 ### -output-buffer-length
@@ -116,12 +116,11 @@ If <b>OutputBufferLength</b> is less than the total length of output data, the <
 
 ## -see-also
 
-<a href="..\mountdev\ns-mountdev-_mountdev_suggested_link_name.md">MOUNTDEV_SUGGESTED_LINK_NAME</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562258">MOUNTDEV_SUGGESTED_LINK_NAME</a>
  
 
  
-
 

@@ -53,22 +53,6 @@ req.product: Windows 10 or later.
 The <code>OEMFontManagement</code> function is an optional entry point provided for PostScript devices. 
 
 
-## -syntax
-
-
-````
-ULONG APIENTRY OEMFontManagement(
-        SURFOBJ                     *pso,
-        FONTOBJ                     *pfo,
-        ULONG                       iMode,
-        ULONG                       cjIn,
-  _In_  _reads_bytes_(cjIn) PVOID   pvIn,
-        ULONG                       cjOut,
-  _Out_ _writes_bytes_(cjOut) PVOID pvOut
-);
-````
-
-
 ## -parameters
 
 

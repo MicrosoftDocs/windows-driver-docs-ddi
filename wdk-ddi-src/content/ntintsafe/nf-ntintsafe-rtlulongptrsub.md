@@ -7,7 +7,7 @@ old-location: kernel\rtlulongptrsub.htm
 old-project: kernel
 ms.assetid: E8F9A1B0-5E87-4CB0-8C9E-5C2494F07C39
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: RtlULongPtrSub, RtlULongPtrSub function [Kernel-Mode Driver Architecture], kernel.rtlulongptrsub, ntintsafe/RtlULongPtrSub
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,18 +50,6 @@ req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 
 
 Subtracts one value of type <b>ULONG_PTR</b> from another.
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlULongPtrSub(
-  _In_  ULONG_PTR ulMinuend,
-  _In_  ULONG_PTR ulSubtrahend,
-  _Out_ ULONG_PTR *pulResult
-);
-````
 
 
 ## -parameters

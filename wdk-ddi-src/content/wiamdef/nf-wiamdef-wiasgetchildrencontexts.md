@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 The <b>wiasGetChildrenContexts</b> function retrieves an array of item contexts belonging to the current item's children.
 
 
-## -syntax
-
-
-````
-HRESULT _stdcall wiasGetChildrenContexts(
-  _In_  BYTE  *pParentContext,
-  _Out_ ULONG *pulNumChildren,
-  _Out_ BYTE  ***pppChildren
-);
-````
-
-
 ## -parameters
 
 

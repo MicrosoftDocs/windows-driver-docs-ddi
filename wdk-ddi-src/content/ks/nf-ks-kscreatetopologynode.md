@@ -53,19 +53,6 @@ req.typenames:
 The <b>KsCreateTopologyNode</b> function creates a handle to a topology node instance. The function can only be called at <b>PASSIVE_LEVEL</b>.
 
 
-## -syntax
-
-
-````
-NTSTATUS KsCreateTopologyNode(
-  _In_  HANDLE         ParentHandle,
-  _In_  PKSNODE_CREATE NodeCreate,
-  _In_  ACCESS_MASK    DesiredAccess,
-  _Out_ PHANDLE        NodeHandle
-);
-````
-
-
 ## -parameters
 
 
@@ -104,14 +91,13 @@ Returns <b>STATUS_SUCCESS</b>, or an error if unable to create a node.
 
 
 
-The <a href="..\ks\ns-ks-ksnode_create.md">KSNODE_CREATE</a> structure describes the set of information used to create the node handle.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/ff563471">KSNODE_CREATE</a> structure describes the set of information used to create the node handle.
 
 
 
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksnode_create.md">KSNODE_CREATE</a>
 
 
 
@@ -119,8 +105,8 @@ The <a href="..\ks\ns-ks-ksnode_create.md">KSNODE_CREATE</a> structure describes
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563471">KSNODE_CREATE</a>
  
 
  
-
 

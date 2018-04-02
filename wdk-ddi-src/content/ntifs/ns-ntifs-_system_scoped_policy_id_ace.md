@@ -7,7 +7,7 @@ old-location: ifsk\system_scoped_policy_id_ace.htm
 old-project: ifsk
 ms.assetid: 2867CA25-B140-4EBA-A8F9-57C12C3700CF
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSYSTEM_SCOPED_POLICY_ID_ACE, PSYSTEM_SCOPED_POLICY_ID_ACE, PSYSTEM_SCOPED_POLICY_ID_ACE structure pointer [Installable File System Drivers], SYSTEM_SCOPED_POLICY_ID_ACE, SYSTEM_SCOPED_POLICY_ID_ACE structure [Installable File System Drivers], _SYSTEM_SCOPED_POLICY_ID_ACE, ifsk.system_scoped_policy_id_ace, ntifs/PSYSTEM_SCOPED_POLICY_ID_ACE, ntifs/SYSTEM_SCOPED_POLICY_ID_ACE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,18 +52,6 @@ req.typenames: SYSTEM_SCOPED_POLICY_ID_ACE, *PSYSTEM_SCOPED_POLICY_ID_ACE
 The SYSTEM_SCOPED_POLICY_ID_ACE structure defines an access-control entry (ACE) for the system access-control list (ACL) specifying  rights for a scoped policy identifer. This ACE causes an audit message to be logged when an atrempt to gain access to an object  based on a configured policy scope.
 
 
-## -syntax
-
-
-````
-typedef struct _SYSTEM_SCOPED_POLICY_ID_ACE {
-  ACE_HEADER  Header;
-  ACCESS_MASK Mask;
-  ULONG       SidStart;
-} SYSTEM_SCOPED_POLICY_ID_ACE, *PSYSTEM_SCOPED_POLICY_ID_ACE;
-````
-
-
 ## -struct-fields
 
 
@@ -86,11 +74,10 @@ Specifies a SID. The SID represents a scoped policy configured to control access
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
-
-
-
-<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
 
 
 
@@ -98,16 +85,16 @@ Specifies a SID. The SID represents a scoped policy configured to control access
 
 
 
-<a href="..\ntifs\ns-ntifs-_ace_header.md">ACE_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538847">ACE_HEADER</a>
 
 
 
-<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538866">ACL</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a>
  
 
  
-
 

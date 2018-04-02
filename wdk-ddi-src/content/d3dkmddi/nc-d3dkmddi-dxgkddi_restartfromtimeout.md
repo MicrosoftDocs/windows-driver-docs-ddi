@@ -7,7 +7,7 @@ old-location: display\dxgkddirestartfromtimeout.htm
 old-project: display
 ms.assetid: 433babb7-9a53-4079-9a65-43a5ed0c201a
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_RESTARTFROMTIMEOUT, DmFunctions_ba675ea3-7f25-446f-bf13-af2228aa1e65.xml, DxgkDdiRestartFromTimeout, DxgkDdiRestartFromTimeout callback function [Display Devices], d3dkmddi/DxgkDdiRestartFromTimeout, display.dxgkddirestartfromtimeout
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,19 +52,6 @@ req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 The <i>DxgkDdiRestartFromTimeout</i> function indicates that the driver can access the graphics processing unit (GPU) again after the recovery from a hardware timeout has completed.
 
 
-## -prototype
-
-
-````
-DXGKDDI_RESTARTFROMTIMEOUT DxgkDdiRestartFromTimeout;
-
-NTSTATUS APIENTRY DxgkDdiRestartFromTimeout(
-  _In_ const HANDLE hAdapter
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -72,7 +59,7 @@ NTSTATUS APIENTRY DxgkDdiRestartFromTimeout(
 
 ### -param hAdapter [in]
 
-[in] A handle to a context block that is associated with a display adapter. The display miniport driver previously provided this handle to the Microsoft DirectX graphics kernel subsystem in the <i>MiniportDeviceContext</i> output parameter of the <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function.
+[in] A handle to a context block that is associated with a display adapter. The display miniport driver previously provided this handle to the Microsoft DirectX graphics kernel subsystem in the <i>MiniportDeviceContext</i> output parameter of the <a href="https://msdn.microsoft.com/5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea">DxgkDdiAddDevice</a> function.
 
 
 ## -returns
@@ -97,16 +84,15 @@ The operating system calls the <i>DxgkDdiRestartFromTimeout</i> function after t
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_resetfromtimeout.md">DxgkDdiResetFromTimeout</a>
+<a href="https://msdn.microsoft.com/5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea">DxgkDdiAddDevice</a>
 
 
 
+<a href="https://msdn.microsoft.com/b9bfc801-33f6-4911-ab7d-8e3c99a5e2e9">DxgkDdiResetFromTimeout</a>
  
 
  
-
 

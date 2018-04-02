@@ -7,7 +7,7 @@ old-location: display\dxgkarg_getscanline.htm
 old-project: display
 ms.assetid: 92138511-46cf-4c8b-84d0-a11fe9208be5
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*INOUT_PDXGKARG_GETSCANLINE, DXGKARG_GETSCANLINE, DXGKARG_GETSCANLINE structure [Display Devices], DmStructs_9e2cdcde-c2ca-4474-9c96-ee66a80f0295.xml, _DXGKARG_GETSCANLINE, d3dkmddi/DXGKARG_GETSCANLINE, display.dxgkarg_getscanline"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,18 +52,6 @@ req.typenames: DXGKARG_GETSCANLINE
 The DXGKARG_GETSCANLINE structure contains information about a video present target's vertical blanking status.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGKARG_GETSCANLINE {
-  D3DDDI_VIDEO_PRESENT_TARGET_ID VidPnTargetId;
-  BOOLEAN                        InVerticalBlank;
-  UINT                           ScanLine;
-} DXGKARG_GETSCANLINE;
-````
-
-
 ## -struct-fields
 
 
@@ -95,12 +83,11 @@ A video present path represents a connection between a video present source (vie
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_getscanline.md">DxgkDdiGetScanLine</a>
 
 
 
+<a href="https://msdn.microsoft.com/e37bb3c6-a0b6-409f-8a82-20ec7a931c6a">DxgkDdiGetScanLine</a>
  
 
  
-
 

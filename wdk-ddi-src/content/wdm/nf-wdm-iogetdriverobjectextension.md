@@ -7,7 +7,7 @@ old-location: kernel\iogetdriverobjectextension.htm
 old-project: kernel
 ms.assetid: ce983953-53fc-4a32-8072-8a9f74d11ae3
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: IoGetDriverObjectExtension, IoGetDriverObjectExtension routine [Kernel-Mode Driver Architecture], k104_37d4bd5d-6090-49b8-ab45-c898871f22e8.xml, kernel.iogetdriverobjectextension, wdm/IoGetDriverObjectExtension
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The <b>IoGetDriverObjectExtension</b> routine retrieves a previously allocated per-driver context area.
 
 
-## -syntax
-
-
-````
-PVOID IoGetDriverObjectExtension(
-  _In_ PDRIVER_OBJECT DriverObject,
-  _In_ PVOID          ClientIdentificationAddress
-);
-````
-
-
 ## -parameters
 
 
@@ -99,12 +88,11 @@ Drivers call <b>IoGetDriverObjectExtension</b> to retrieve a pointer to a previo
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-ioallocatedriverobjectextension.md">IoAllocateDriverObjectExtension</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548233">IoAllocateDriverObjectExtension</a>
  
 
  
-
 

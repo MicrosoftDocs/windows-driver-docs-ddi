@@ -7,7 +7,7 @@ old-location: netvista\wwan_sms_cdma_lang.htm
 old-project: netvista
 ms.assetid: 5294ce07-a4eb-4c21-88f1-04889dfbc1a1
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PWWAN_SMS_CDMA_LANG, PWWAN_SMS_CDMA_LANG, PWWAN_SMS_CDMA_LANG enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_SMS_CDMA_LANG, WWAN_SMS_CDMA_LANG enumeration [Network Drivers Starting with Windows Vista], WwanRef_21c9fcf4-07b0-43b3-86df-a2de613f5018.xml, WwanSmsCdmaLangChinese, WwanSmsCdmaLangEnglish, WwanSmsCdmaLangFrench, WwanSmsCdmaLangHebrew, WwanSmsCdmaLangJapanese, WwanSmsCdmaLangKorean, WwanSmsCdmaLangMax, WwanSmsCdmaLangSpanish, WwanSmsCdmaLangUnknown, _WWAN_SMS_CDMA_LANG, netvista.wwan_sms_cdma_lang, wwan/PWWAN_SMS_CDMA_LANG, wwan/WWAN_SMS_CDMA_LANG, wwan/WwanSmsCdmaLangChinese, wwan/WwanSmsCdmaLangEnglish, wwan/WwanSmsCdmaLangFrench, wwan/WwanSmsCdmaLangHebrew, wwan/WwanSmsCdmaLangJapanese, wwan/WwanSmsCdmaLangKorean, wwan/WwanSmsCdmaLangMax, wwan/WwanSmsCdmaLangSpanish, wwan/WwanSmsCdmaLangUnknown"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,24 +52,6 @@ req.product: Windows 10 or later.
 
 The WWAN_SMS_CDMA_LANG enumeration lists the different SMS CDMA languages that are supported by the
   MB device.
-
-
-## -syntax
-
-
-````
-typedef enum _WWAN_SMS_CDMA_LANG { 
-  WwanSmsCdmaLangUnknown   = 0,
-  WwanSmsCdmaLangEnglish,
-  WwanSmsCdmaLangFrench,
-  WwanSmsCdmaLangSpanish,
-  WwanSmsCdmaLangJapanese,
-  WwanSmsCdmaLangKorean,
-  WwanSmsCdmaLangChinese,
-  WwanSmsCdmaLangHebrew,
-  WwanSmsCdmaLangMax
-} WWAN_SMS_CDMA_LANG, *PWWAN_SMS_CDMA_LANG;
-````
 
 
 ## -enum-fields
@@ -124,16 +106,15 @@ The total number of supported SMS CDMA languages.
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_sms_send_cdma.md">WWAN_SMS_SEND_CDMA</a>
 
 
 
-<a href="..\wwan\ns-wwan-_wwan_sms_cdma_record.md">WWAN_SMS_CDMA_RECORD</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571243">WWAN_SMS_CDMA_RECORD</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571251">WWAN_SMS_SEND_CDMA</a>
  
 
  
-
 

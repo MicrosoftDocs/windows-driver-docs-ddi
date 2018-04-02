@@ -7,7 +7,7 @@ old-location: ifsk\rtldeleteelementgenerictable.htm
 old-project: ifsk
 ms.assetid: 3bf33ebb-bdb1-487d-b10f-1f00227d7128
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: RtlDeleteElementGenericTable, RtlDeleteElementGenericTable routine [Installable File System Drivers], ifsk.rtldeleteelementgenerictable, ntddk/RtlDeleteElementGenericTable, rtlref_914df898-52aa-48cd-80ae-f57ffc5e60dd.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,17 +52,6 @@ req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 The <b>RtlDeleteElementGenericTable</b> routine deletes an element from a generic table. 
 
 
-## -syntax
-
-
-````
-BOOLEAN RtlDeleteElementGenericTable(
-  _In_ PRTL_GENERIC_TABLE Table,
-  _In_ PVOID              Buffer
-);
-````
-
-
 ## -parameters
 
 
@@ -70,7 +59,7 @@ BOOLEAN RtlDeleteElementGenericTable(
 
 ### -param Table [in]
 
-A pointer to the generic table (<a href="..\ntddk\ns-ntddk-_rtl_generic_table.md">RTL_GENERIC_TABLE</a>). The table must have been initialized by calling <a href="..\ntddk\nf-ntddk-rtlinitializegenerictable.md">RtlInitializeGenericTable</a>.
+A pointer to the generic table (<a href="https://msdn.microsoft.com/library/windows/hardware/ff553345">RTL_GENERIC_TABLE</a>). The table must have been initialized by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff552989">RtlInitializeGenericTable</a>.
 
 
 ### -param Buffer [in]
@@ -91,7 +80,7 @@ A pointer to a caller-allocated buffer containing a value that uniquely identifi
 
 
 
-<b>RtlDeleteElementGenericTable</b> calls the <i>CompareRoutine</i> and <i>FreeRoutine</i> that were registered in the call to <a href="..\ntddk\nf-ntddk-rtlinitializegenerictable.md">RtlInitializeGenericTable</a>. 
+<b>RtlDeleteElementGenericTable</b> calls the <i>CompareRoutine</i> and <i>FreeRoutine</i> that were registered in the call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff552989">RtlInitializeGenericTable</a>. 
 
 Callers of the Rtl..GenericTable routines are responsible for exclusively synchronizing access to the generic table. An exclusive fast mutex is the most efficient synchronization mechanism to use for this purpose. 
 
@@ -99,7 +88,7 @@ By default, the operating system uses splay trees to implement generic tables. U
 
 #define RTL_USE_AVL_TABLES 0
 
-If RTL_USE_AVL_TABLES is not defined, you must use the AVL form of the generic table routines. For example, use the <a href="..\ntddk\nf-ntddk-rtldeleteelementgenerictableavl.md">RtlDeleteElementGenericTableAvl</a> routine instead of <b>RtlDeleteElementGenericTable</b>. In the call to <b>RtlDeleteElementGenericTableAvl</b>, the caller must pass a <a href="..\ntddk\ns-ntddk-_rtl_avl_table.md">RTL_AVL_TABLE</a> table structure rather than <a href="..\ntddk\ns-ntddk-_rtl_generic_table.md">RTL_GENERIC_TABLE</a>.
+If RTL_USE_AVL_TABLES is not defined, you must use the AVL form of the generic table routines. For example, use the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439514">RtlDeleteElementGenericTableAvl</a> routine instead of <b>RtlDeleteElementGenericTable</b>. In the call to <b>RtlDeleteElementGenericTableAvl</b>, the caller must pass a <a href="https://msdn.microsoft.com/library/windows/hardware/ff553327">RTL_AVL_TABLE</a> table structure rather than <a href="https://msdn.microsoft.com/library/windows/hardware/ff553345">RTL_GENERIC_TABLE</a>.
 
 Callers of <b>RtlDeleteElementGenericTable</b> must be running at IRQL &lt; DISPATCH_LEVEL if either of the following conditions holds:
 
@@ -118,16 +107,15 @@ The caller-supplied <i>CompareRoutine</i> or <i>FreeRoutine</i> contains pageabl
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-rtlinsertelementgenerictable.md">RtlInsertElementGenericTable</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlinitializegenerictable.md">RtlInitializeGenericTable</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552989">RtlInitializeGenericTable</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553024">RtlInsertElementGenericTable</a>
  
 
  
-
 

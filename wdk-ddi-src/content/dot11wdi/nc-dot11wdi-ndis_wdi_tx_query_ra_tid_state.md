@@ -7,7 +7,7 @@ old-location: netvista\ndiswditxqueryratidstate.htm
 old-project: netvista
 ms.assetid: 76949336-3349-4869-83C7-60D7D8A6BE24
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NDIS_WDI_TX_QUERY_RA_TID_STATE, NdisWdiTxQueryRATIDState, NdisWdiTxQueryRATIDState callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiTxQueryRATIDState, netvista.ndiswditxqueryratidstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,25 +51,7 @@ req.typenames: SYNTH_STATS, *PSYNTH_STATS
 
 The NdisWdiTxQueryRATIDState callback function is used by the TxEngine to query the state of a RA/TID or Port queue.
 
-This is a callback inside <a href="..\dot11wdi\ns-dot11wdi-_ndis_wdi_data_api.md">NDIS_WDI_DATA_API</a>.
-
-
-## -prototype
-
-
-````
-NDIS_WDI_TX_QUERY_RA_TID_STATE NdisWdiTxQueryRATIDState;
-
-VOID NdisWdiTxQueryRATIDState(
-  _In_  NDIS_HANDLE      NdisMiniportDataPathHandle,
-  _In_  WDI_PORT_ID      PortId,
-  _In_  WDI_PEER_ID      PeerId,
-  _In_  WDI_EXTENDED_TID ExTid,
-  _Out_ NDIS_STATUS      *pWifiStatus,
-  _Out_ PUINT16          pQueueLength
-)
-{ ... }
-````
+This is a callback inside <a href="https://msdn.microsoft.com/library/windows/hardware/mt297620">NDIS_WDI_DATA_API</a>.
 
 
 ## -parameters
@@ -79,7 +61,7 @@ VOID NdisWdiTxQueryRATIDState(
 
 ### -param NdisMiniportDataPathHandle [in]
 
-The NdisMiniportDataPathHandle passed to the IHV miniport in <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_tal_txrx_initialize.md">MiniportWdiTalTxRxInitialize</a>.
+The NdisMiniportDataPathHandle passed to the IHV miniport in <a href="https://msdn.microsoft.com/C297D681-D43F-4105-9E08-7FF42807E9A0">MiniportWdiTalTxRxInitialize</a>.
 
 
 ### -param PortId [in]
@@ -129,7 +111,10 @@ If <b>TargetPriorityQueueing</b> is true, <a href="https://msdn.microsoft.com/li
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt269099">WDI_PORT_ID</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt297620">NDIS_WDI_DATA_API</a>
 
 
 
@@ -141,16 +126,12 @@ If <b>TargetPriorityQueueing</b> is true, <a href="https://msdn.microsoft.com/li
 
 
 
-<a href="..\dot11wdi\ns-dot11wdi-_ndis_wdi_data_api.md">NDIS_WDI_DATA_API</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt269099">WDI_PORT_ID</a>
 
 
 
-<a href="..\dot11wdi\ns-dot11wdi-_wdi_txrx_target_capabilities.md">WDI_TXRX_CAPABILITIES</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn898187">WDI_TXRX_CAPABILITIES</a>
  
 
  
-
 

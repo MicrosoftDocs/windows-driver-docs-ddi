@@ -7,7 +7,7 @@ old-location: buses\usb_30_hub_descriptor.htm
 old-project: usbref
 ms.assetid: 5B910D0B-0D1D-45D8-B418-13DC00B3398A
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PUSB_30_HUB_DESCRIPTOR, PUSB_30_HUB_DESCRIPTOR, PUSB_30_HUB_DESCRIPTOR structure pointer [Buses], USB_30_HUB_DESCRIPTOR, USB_30_HUB_DESCRIPTOR structure [Buses], _USB_30_HUB_DESCRIPTOR, buses.usb_30_hub_descriptor, usbspec/PUSB_30_HUB_DESCRIPTOR, usbspec/USB_30_HUB_DESCRIPTOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,24 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>USB_30_HUB_DESCRIPTOR</b> structure contains  a SuperSpeed hub descriptor. For information about the structure  members, see <a href="http://www.usb.org/developers/docs/">Universal Serial Bus Revision 3.0 Specification</a>, 10.13.2.1 Hub Descriptor, Table 10-3. SuperSpeed Hub Descriptor.
-
-
-## -syntax
-
-
-````
-typedef struct _USB_30_HUB_DESCRIPTOR {
-  UCHAR  bLength;
-  UCHAR  bDescriptorType;
-  UCHAR  bNumberOfPorts;
-  USHORT wHubCharacteristics;
-  UCHAR  bPowerOnToPowerGood;
-  UCHAR  bHubControlCurrent;
-  UCHAR  bHubHdrDecLat;
-  USHORT wHubDelay;
-  USHORT DeviceRemovable;
-} USB_30_HUB_DESCRIPTOR, *PUSB_30_HUB_DESCRIPTOR;
-````
 
 
 ## -struct-fields
@@ -125,16 +107,15 @@ The    hub packet header decode latency.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
 
 
-<a href="..\usbioctl\ns-usbioctl-_usb_hub_information_ex.md">USB_HUB_INFORMATION_EX</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406262">USB_HUB_INFORMATION_EX</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: display\ddraw_caps.htm
 old-project: display
 ms.assetid: 023e3780-bc88-446b-b235-8853807fb05a
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3D_other_Structs_5e02fa0c-95ae-4b62-aaa3-7530aec9aee5.xml, DDRAW_CAPS, DDRAW_CAPS structure [Display Devices], _DDRAW_CAPS, d3dumddi/DDRAW_CAPS, display.ddraw_caps
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,20 +50,6 @@ req.typenames: DDRAW_CAPS
 
 
 The DDRAW_CAPS structure describes general Microsoft DirectDraw capabilities that the user-mode display driver supports.
-
-
-## -syntax
-
-
-````
-typedef struct _DDRAW_CAPS {
-  UINT Caps;
-  UINT Caps2;
-  UINT CKeyCaps;
-  UINT FxCaps;
-  UINT MaxVideoPorts;
-} DDRAW_CAPS;
-````
 
 
 ## -struct-fields
@@ -250,20 +236,19 @@ Bit-block transfers (bitblts) that flip the contents of the source surface to th
 
 ## -see-also
 
-<a href="..\d3dumddi\ne-d3dumddi-_d3dddicaps_type.md">D3DDDICAPS_TYPE</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getcaps.md">D3DDDIARG_GETCAPS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543148">D3DDDIARG_GETCAPS</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544132">D3DDDICAPS_TYPE</a>
 
 
 
+<a href="https://msdn.microsoft.com/cf6c61ce-7b53-46d0-b3ff-ed5b2b964c65">GetCaps</a>
  
 
  
-
 

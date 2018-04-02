@@ -55,16 +55,6 @@ req.product: Windows 10 or later.
 The <b>Reuse</b> method reinitializes a framework request object so that it can be reused.
 
 
-## -syntax
-
-
-````
-void Reuse(
-  [in] HRESULT hrNewStatus
-);
-````
-
-
 ## -parameters
 
 
@@ -99,7 +89,7 @@ For more information about <b>Reuse</b>, see <a href="https://msdn.microsoft.com
 
 #### Examples
 
-The following code example shows how an <a href="https://msdn.microsoft.com/library/windows/hardware/ff556905">IRequestCallbackRequestCompletion::OnCompletion</a> callback function can obtain the <a href="..\wudfddi\nn-wudfddi-iwdfiorequest2.md">IWDFIoRequest2</a> interface and then call <b>Reuse</b>.
+The following code example shows how an <a href="https://msdn.microsoft.com/library/windows/hardware/ff556905">IRequestCallbackRequestCompletion::OnCompletion</a> callback function can obtain the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558988">IWDFIoRequest2</a> interface and then call <b>Reuse</b>.
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -129,11 +119,6 @@ CMyRemoteDevice::OnCompletion(
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest2.md">IWDFIoRequest2</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559153">IWDFIoRequest::SetCompletionCallback</a>
 
 
 
@@ -141,8 +126,12 @@ CMyRemoteDevice::OnCompletion(
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558988">IWDFIoRequest2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559153">IWDFIoRequest::SetCompletionCallback</a>
  
 
  
-
 

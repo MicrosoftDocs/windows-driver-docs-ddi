@@ -52,16 +52,6 @@ req.typenames: PIPE_STATE
 The <b>KsIsMediaTypeInRanges</b> method validates that a media type is within the provided data ranges.
 
 
-## -syntax
-
-
-````
-HRESULT KsIsMediaTypeInRanges(
-  [in] PVOID DataRanges
-);
-````
-
-
 ## -parameters
 
 
@@ -69,7 +59,7 @@ HRESULT KsIsMediaTypeInRanges(
 
 ### -param DataRanges [in]
 
-Pointer to a buffer that contains a <a href="..\ks\ns-ks-ksmultiple_item.md">KSMULTIPLE_ITEM</a> structure, followed by a sequence of extensible <a href="https://msdn.microsoft.com/library/windows/hardware/ff561658">KSDATARANGE</a> structures, aligned on 64-bit boundaries. The KSMULTIPLE_ITEM structure is a header that describes the size of the buffer and the number of entries in the list that follows the header.
+Pointer to a buffer that contains a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563441">KSMULTIPLE_ITEM</a> structure, followed by a sequence of extensible <a href="https://msdn.microsoft.com/library/windows/hardware/ff561658">KSDATARANGE</a> structures, aligned on 64-bit boundaries. The KSMULTIPLE_ITEM structure is a header that describes the size of the buffer and the number of entries in the list that follows the header.
 
 
 ## -returns
@@ -92,11 +82,6 @@ A client first calls the <a href="https://msdn.microsoft.com/library/windows/har
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksmultiple_item.md">KSMULTIPLE_ITEM</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561658">KSDATARANGE</a>
 
 
 
@@ -104,8 +89,12 @@ A client first calls the <a href="https://msdn.microsoft.com/library/windows/har
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561658">KSDATARANGE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563441">KSMULTIPLE_ITEM</a>
  
 
  
-
 

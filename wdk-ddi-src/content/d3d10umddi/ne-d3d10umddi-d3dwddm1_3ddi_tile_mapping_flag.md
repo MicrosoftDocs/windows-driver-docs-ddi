@@ -7,7 +7,7 @@ old-location: display\d3dwddm1_3ddi_tile_mapping_flag.htm
 old-project: display
 ms.assetid: 1149547D-9165-42AA-B12A-5C7681A8EAC1
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DWDDM1_3DDI_TILE_MAPPING_FLAG, D3DWDDM1_3DDI_TILE_MAPPING_FLAG enumeration [Display Devices], D3DWDDM1_3DDI_TILE_MAPPING_NO_OVERWRITE, d3d10umddi/D3DWDDM1_3DDI_TILE_MAPPING_FLAG, d3d10umddi/D3DWDDM1_3DDI_TILE_MAPPING_NO_OVERWRITE, display.d3dwddm1_3ddi_tile_mapping_flag
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,17 +50,6 @@ req.typenames: D3DWDDM1_3DDI_TILE_MAPPING_FLAG
 
 
 Indicates how to update a tile mapping.
-
-
-## -syntax
-
-
-````
-enum D3DWDDM1_3DDI_TILE_MAPPING_FLAG {
-  D3DWDDM1_3DDI_TILE_MAPPING_NO_OVERWRITE  = 0x00000001 
-
-};
-````
 
 
 ## -enum-fields

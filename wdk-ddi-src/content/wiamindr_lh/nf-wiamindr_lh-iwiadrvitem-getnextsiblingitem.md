@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 The <b>IWiaDrvItem::GetNextSiblingItem</b> method gets the next sibling of the current item in an <b>IWiaDrvItem</b> folder.
 
 
-## -syntax
-
-
-````
-HRESULT GetNextSiblingItem(
-  [out, optional] IWiaDrvItem **ppISiblingItem
-);
-````
-
-
 ## -parameters
 
 
@@ -100,7 +90,10 @@ Minidrivers obtain a pointer to the first child item in a folder by calling <a h
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543892">IWiaDrvItem::GetParentItem</a>
+
+
+
+<a href="https://msdn.microsoft.com/0609e1b2-48df-413c-90bd-d7ddea26510a">IWiaDrvItem</a>
 
 
 
@@ -108,12 +101,8 @@ Minidrivers obtain a pointer to the first child item in a folder by calling <a h
 
 
 
-<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiadrvitem.md">IWiaDrvItem</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543892">IWiaDrvItem::GetParentItem</a>
  
 
  
-
 

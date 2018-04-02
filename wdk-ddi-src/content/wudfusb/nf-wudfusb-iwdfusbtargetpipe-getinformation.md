@@ -55,16 +55,6 @@ req.product: Windows 10 or later.
 The <b>GetInformation</b> method retrieves information about a USB pipe (endpoint).
 
 
-## -syntax
-
-
-````
-void GetInformation(
-  [out] PWINUSB_PIPE_INFORMATION pInfo
-);
-````
-
-
 ## -parameters
 
 
@@ -95,7 +85,6 @@ After a UMDF driver calls the <a href="https://msdn.microsoft.com/library/window
 
 ## -see-also
 
-<a href="..\wudfusb\nn-wudfusb-iwdfusbtargetpipe.md">IWDFUsbTargetPipe</a>
 
 
 
@@ -103,8 +92,8 @@ After a UMDF driver calls the <a href="https://msdn.microsoft.com/library/window
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560391">IWDFUsbTargetPipe</a>
  
 
  
-
 

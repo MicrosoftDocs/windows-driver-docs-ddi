@@ -7,7 +7,7 @@ old-location: buses\ufx_device_callbacks_init.htm
 old-project: usbref
 ms.assetid: D9E7D359-5FC8-44C8-ACA2-641DEFF17616
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: UFX_DEVICE_CALLBACKS_INIT, UFX_DEVICE_CALLBACKS_INIT function [Buses], buses.ufx_device_callbacks_init, ufxclient/UFX_DEVICE_CALLBACKS_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,17 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>UFX_DEVICE_CALLBACKS_INIT</b> macro initializes the <a href="..\ufxclient\ns-ufxclient-_ufx_device_callbacks.md">UFX_DEVICE_CALLBACKS</a> structure.
-
-
-## -syntax
-
-
-````
-FORCEINLINE void UFX_DEVICE_CALLBACKS_INIT(
-  _Out_ PUFX_DEVICE_CALLBACKS Callbacks
-);
-````
+The <b>UFX_DEVICE_CALLBACKS_INIT</b> macro initializes the <a href="https://msdn.microsoft.com/library/windows/hardware/mt187971">UFX_DEVICE_CALLBACKS</a> structure.
 
 
 ## -parameters
@@ -70,7 +60,7 @@ FORCEINLINE void UFX_DEVICE_CALLBACKS_INIT(
 
 ### -param Callbacks [out]
 
-A pointer to the <a href="..\ufxclient\ns-ufxclient-_ufx_device_callbacks.md">UFX_DEVICE_CALLBACKS</a> structure.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/mt187971">UFX_DEVICE_CALLBACKS</a> structure.
 
 
 ## -returns
@@ -86,9 +76,9 @@ This function does not return a value.
 
 
 
-The <b>UFX_DEVICE_CALLBACKS_INIT</b> macro will set all fields of the <a href="..\ufxclient\ns-ufxclient-_ufx_device_callbacks.md">UFX_DEVICE_CALLBACKS</a> structure to zero and set the <b>Size</b> field appropriately.
+The <b>UFX_DEVICE_CALLBACKS_INIT</b> macro will set all fields of the <a href="https://msdn.microsoft.com/library/windows/hardware/mt187971">UFX_DEVICE_CALLBACKS</a> structure to zero and set the <b>Size</b> field appropriately.
 
-The client driver uses the <b>UFX_DEVICE_CALLBACKS_INIT</b> macro the initialize the <a href="..\ufxclient\ns-ufxclient-_ufx_device_callbacks.md">UFX_DEVICE_CALLBACKS</a> structure prior to calling <a href="..\ufxclient\nf-ufxclient-ufxdevicecreate.md">UfxDeviceCreate</a>.
+The client driver uses the <b>UFX_DEVICE_CALLBACKS_INIT</b> macro the initialize the <a href="https://msdn.microsoft.com/library/windows/hardware/mt187971">UFX_DEVICE_CALLBACKS</a> structure prior to calling <a href="https://msdn.microsoft.com/library/windows/hardware/mt187951">UfxDeviceCreate</a>.
 
 
 

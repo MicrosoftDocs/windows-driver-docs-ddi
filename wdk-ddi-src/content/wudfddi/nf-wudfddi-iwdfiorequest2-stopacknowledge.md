@@ -55,16 +55,6 @@ req.product: Windows 10 or later.
 The <b>StopAcknowledge</b> method informs the framework that the driver has stopped processing a specified I/O request.
 
 
-## -syntax
-
-
-````
-void StopAcknowledge(
-  [in] BOOL Requeue
-);
-````
-
-
 ## -parameters
 
 
@@ -169,11 +159,6 @@ CMyReadWriteQueue::OnIoStop(
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556871">IQueueCallbackIoStop::OnIoStop</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest2.md">IWDFIoRequest2</a>
 
 
 
@@ -181,8 +166,12 @@ CMyReadWriteQueue::OnIoStop(
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556871">IQueueCallbackIoStop::OnIoStop</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558988">IWDFIoRequest2</a>
  
 
  
-
 

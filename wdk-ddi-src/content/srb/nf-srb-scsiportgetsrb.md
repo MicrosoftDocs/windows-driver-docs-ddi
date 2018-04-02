@@ -7,7 +7,7 @@ old-location: storage\scsiportgetsrb.htm
 old-project: storage
 ms.assetid: c8f0e47c-4d06-445f-a6dd-9bd80fc490bc
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: ScsiPortGetSrb, ScsiPortGetSrb routine [Storage Devices], scsiprt_28205a6f-8758-4aed-8fae-94a12c216cf4.xml, srb/ScsiPortGetSrb, storage.scsiportgetsrb
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -54,20 +54,6 @@ req.product: Windows 10 or later.
 The <b>ScsiPortGetSrb</b> routine returns a pointer to an active SCSI request for a particular logical unit.
 <div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
-## -syntax
-
-
-````
-PSCSI_REQUEST_BLOCK ScsiPortGetSrb(
-  _In_ PVOID DeviceExtension,
-  _In_ UCHAR PathId,
-  _In_ UCHAR TargetId,
-  _In_ UCHAR Lun,
-  _In_ LONG  QueueTag
-);
-````
-
-
 ## -parameters
 
 
@@ -109,12 +95,11 @@ Specifies the queue tag if the miniport driver handles tagged requests; SP_UNTAG
 
 ## -see-also
 
-<a href="..\storport\ns-storport-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565393">SCSI_REQUEST_BLOCK</a>
  
 
  
-
 

@@ -55,18 +55,6 @@ req.product: Windows 10 or later.
 The <b>GetReadParameters</b> method retrieves the request parameters for a read-type request.
 
 
-## -syntax
-
-
-````
-void  GetReadParameters(
-  [out] SIZE_T   *pSizeInBytes,
-  [out] LONGLONG *pllOffset,
-  [out] ULONG    *pulKey
-);
-````
-
-
 ## -parameters
 
 
@@ -124,16 +112,15 @@ Although the driver can optionally specify <b>NULL</b> for each of the <i>pSizeI
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558985">IWDFIoRequest</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559112">IWDFIoRequest::GetOutputMemory</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
-
-
-
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: kernel\zwquerysymboliclinkobject.htm
 old-project: kernel
 ms.assetid: 0294c840-2912-4137-886f-832e9f21bbea
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: NtQuerySymbolicLinkObject, ZwQuerySymbolicLinkObject, ZwQuerySymbolicLinkObject routine [Kernel-Mode Driver Architecture], k111_0909b6b6-fa4d-421f-b17f-8201a254990b.xml, kernel.zwquerysymboliclinkobject, wdm/NtQuerySymbolicLinkObject, wdm/ZwQuerySymbolicLinkObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -54,18 +54,6 @@ req.product: Windows 10 or later.
 The <b>ZwQuerySymbolicLinkObject</b> routine returns a Unicode string that contains the target of a symbolic link.
 
 
-## -syntax
-
-
-````
-NTSTATUS ZwQuerySymbolicLinkObject(
-  _In_      HANDLE          LinkHandle,
-  _Inout_   PUNICODE_STRING LinkTarget,
-  _Out_opt_ PULONG          ReturnedLength
-);
-````
-
-
 ## -parameters
 
 
@@ -73,7 +61,7 @@ NTSTATUS ZwQuerySymbolicLinkObject(
 
 ### -param LinkHandle [in]
 
-Handle to the symbolic-link object that you want to query. This handle is created by a successful call to <a href="..\wdm\nf-wdm-zwopensymboliclinkobject.md">ZwOpenSymbolicLinkObject</a>. 
+Handle to the symbolic-link object that you want to query. This handle is created by a successful call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff567030">ZwOpenSymbolicLinkObject</a>. 
 
 
 ### -param LinkTarget [in, out]
@@ -112,7 +100,6 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwopensymboliclinkobject.md">ZwOpenSymbolicLinkObject</a>
 
 
 
@@ -120,8 +107,8 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567030">ZwOpenSymbolicLinkObject</a>
  
 
  
-
 

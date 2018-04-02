@@ -7,7 +7,7 @@ old-location: display\cssetconstantbuffers.htm
 old-project: display
 ms.assetid: 159ee0ac-7ddf-4ffd-a07f-3d58130b90e8
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: CsSetConstantBuffers, CsSetConstantBuffers callback function [Display Devices], PFND3D10DDI_SETCONSTANTBUFFERS, UserModeDisplayDriverDx11_Functions_ae0b7e35-f8c5-428d-97d0-e22d5b609c72.xml, d3d10umddi/CsSetConstantBuffers, display.cssetconstantbuffers
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,28 +52,12 @@ req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 The <b>CsSetConstantBuffers</b> function sets constant buffers for a compute shader. 
 
 
-## -prototype
-
-
-````
-PFND3D10DDI_SETCONSTANTBUFFERS CsSetConstantBuffers;
-
-VOID APIENTRY CsSetConstantBuffers(
-  _In_       D3D10DDI_HDEVICE   hDevice,
-  _In_       UINT               StartBuffer,
-  _In_       UINT               NumBuffers,
-  _In_ const D3D10DDI_HRESOURCE *phBuffers
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
 
 
-### -param D3D10DDI_HDEVICE
+### -param Arg1
 
 
 ### -param StartSlot
@@ -114,7 +98,7 @@ VOID APIENTRY CsSetConstantBuffers(
 
 None
 
-The driver can use the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a> callback function to set an error code. For more information about setting error codes, see the following Remarks section.
+The driver can use the <a href="https://msdn.microsoft.com/968b04a7-8869-410c-a6fc-83d57726858f">pfnSetErrorCb</a> callback function to set an error code. For more information about setting error codes, see the following Remarks section.
 
 
 
@@ -125,23 +109,22 @@ The driver can use the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror
 
 Buffers that the <b>CsSetConstantBuffers</b> function specifies are created with the D3D10_BIND_CONSTANT_BUFFER flag. 
 
-The driver should not encounter any error, except for D3DDDIERR_DEVICEREMOVED. Therefore, if the driver passes any error, except for D3DDDIERR_DEVICEREMOVED, in a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a> function, the Direct3D runtime determines that the error is critical. Even if the device is removed, the driver is not required to return D3DDDIERR_DEVICEREMOVED; however, if device removal interferes with the operation of <b>CsSetConstantBuffers</b> (which typically should not happen), the driver can return D3DDDIERR_DEVICEREMOVED.
+The driver should not encounter any error, except for D3DDDIERR_DEVICEREMOVED. Therefore, if the driver passes any error, except for D3DDDIERR_DEVICEREMOVED, in a call to the <a href="https://msdn.microsoft.com/968b04a7-8869-410c-a6fc-83d57726858f">pfnSetErrorCb</a> function, the Direct3D runtime determines that the error is critical. Even if the device is removed, the driver is not required to return D3DDDIERR_DEVICEREMOVED; however, if device removal interferes with the operation of <b>CsSetConstantBuffers</b> (which typically should not happen), the driver can return D3DDDIERR_DEVICEREMOVED.
 
 
 
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddi_devicefuncs.md">D3D11DDI_DEVICEFUNCS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542141">D3D11DDI_DEVICEFUNCS</a>
 
 
 
+<a href="https://msdn.microsoft.com/968b04a7-8869-410c-a6fc-83d57726858f">pfnSetErrorCb</a>
  
 
  
-
 

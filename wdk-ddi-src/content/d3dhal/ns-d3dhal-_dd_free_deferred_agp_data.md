@@ -7,7 +7,7 @@ old-location: display\dd_free_deferred_agp_data.htm
 old-project: display
 ms.assetid: 38830856-1f66-44d6-9501-9454a31571b7
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DD_FREE_DEFERRED_AGP_DATA, DD_FREE_DEFERRED_AGP_DATA structure [Display Devices], _DD_FREE_DEFERRED_AGP_DATA, d3dhal/DD_FREE_DEFERRED_AGP_DATA, d3dstrct_06ad77f0-33c0-4297-a713-d23f0684dbee.xml, display.dd_free_deferred_agp_data
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -56,17 +56,6 @@ req.typenames: DD_FREE_DEFERRED_AGP_DATA
 DD_FREE_DEFERRED_AGP_DATA is the data structure pointed to by the <b>lpvData</b> field of <a href="https://msdn.microsoft.com/library/windows/hardware/ff551550">DD_GETDRIVERINFODATA</a> for D3DGDI2_TYPE_DEFER_AGP_FREES and D3DGDI2_TYPE_FREE_DEFERRED_AGP notifications.
 
 
-## -syntax
-
-
-````
-typedef struct _DD_FREE_DEFERRED_AGP_DATA {
-  DD_GETDRIVERINFO2DATA gdi2;
-  DWORD                 dwProcessId;
-} DD_FREE_DEFERRED_AGP_DATA;
-````
-
-
 ## -struct-fields
 
 
@@ -74,7 +63,7 @@ typedef struct _DD_FREE_DEFERRED_AGP_DATA {
 
 ### -field gdi2
 
-Specifies a <a href="..\d3dhal\ns-d3dhal-_dd_getdriverinfo2data.md">DD_GETDRIVERINFO2DATA</a> structure that contains the <b>GetDriverInfo2</b> data.
+Specifies a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551548">DD_GETDRIVERINFO2DATA</a> structure that contains the <b>GetDriverInfo2</b> data.
 
 
 ### -field dwProcessId
@@ -95,16 +84,15 @@ The driver receives a <b>GetDriverInfo2</b> call with D3DGDI2_TYPE_FREE_DEFERRED
 
 ## -see-also
 
-<a href="..\d3dhal\ns-d3dhal-_dd_getdriverinfo2data.md">DD_GETDRIVERINFO2DATA</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551548">DD_GETDRIVERINFO2DATA</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551550">DD_GETDRIVERINFODATA</a>
-
-
-
  
 
  
-
 

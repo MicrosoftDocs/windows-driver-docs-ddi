@@ -7,7 +7,7 @@ old-location: kernel\read_register_buffer_ulong.htm
 old-project: kernel
 ms.assetid: a80d361e-81d3-483c-8ddb-d5e5a69c8ba4
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: READ_REGISTER_BUFFER_ULONG, READ_REGISTER_BUFFER_ULONG routine [Kernel-Mode Driver Architecture], k103_8349c675-ef3b-441a-b11c-730cc43ee09a.xml, kernel.read_register_buffer_ulong, wdm/READ_REGISTER_BUFFER_ULONG
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,18 +50,6 @@ req.typenames: MEMORY_CACHING_TYPE
 
 
 The <b>READ_REGISTER_BUFFER_ULONG</b> routine reads a number of ULONG values from the specified register address into a buffer. 
-
-
-## -syntax
-
-
-````
-VOID READ_REGISTER_BUFFER_ULONG(
-  _In_  PULONG Register,
-  _Out_ PULONG Buffer,
-  _In_  ULONG  Count
-);
-````
 
 
 ## -parameters

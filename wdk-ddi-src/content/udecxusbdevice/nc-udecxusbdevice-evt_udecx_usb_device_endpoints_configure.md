@@ -7,7 +7,7 @@ old-location: buses\evt_udecx_usb_device_endpoints_configure.htm
 old-project: usbref
 ms.assetid: 5E425011-BFC7-434C-9D0A-DB4481EC315F
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: EVT_UDECX_USB_DEVICE_ENDPOINTS_CONFIGURE, EvtUsbDeviceEndpointsConfigure, EvtUsbDeviceEndpointsConfigure callback function [Buses], buses.evt_udecx_usb_device_endpoints_configure, udecxusbdevice/EvtUsbDeviceEndpointsConfigure
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,21 +53,6 @@ req.product: Windows 10 or later.
 The USB device emulation class extension (UdeCx) invokes this callback function to change the configuration by selecting an alternate setting, disabling current endpoints, or adding dynamic endpoints.
 
 
-## -prototype
-
-
-````
-EVT_UDECX_USB_DEVICE_ENDPOINTS_CONFIGURE EvtUsbDeviceEndpointsConfigure;
-
-void EvtUsbDeviceEndpointsConfigure(
-  _In_ UDECXUSBDEVICE                    UdecxUsbDevice,
-  _In_ WDFREQUEST                        Request,
-  _In_ PUDECX_ENDPOINTS_CONFIGURE_PARAMS Params
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -75,7 +60,7 @@ void EvtUsbDeviceEndpointsConfigure(
 
 ### -param UdecxUsbDevice [in]
 
-A handle to UDE device object. The client driver created this object in a previous call to <a href="..\udecxusbdevice\nf-udecxusbdevice-udecxusbdevicecreate.md">UdecxUsbDeviceCreate</a>.
+A handle to UDE device object. The client driver created this object in a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/mt595959">UdecxUsbDeviceCreate</a>.
 
 
 ### -param Request [in]
@@ -85,7 +70,7 @@ A handle to a framework request object that represents the request.
 
 ### -param Params [in]
 
-A pointer to a <a href="..\udecxusbdevice\ns-udecxusbdevice-_udecx_endpoints_configure_params.md">UDECX_ENDPOINTS_CONFIGURE_PARAMS</a> structure that describes the configuration options.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/mt627993">UDECX_ENDPOINTS_CONFIGURE_PARAMS</a> structure that describes the configuration options.
 
 
 ## -returns
@@ -101,11 +86,11 @@ This callback function does not return a value.
 
 
 
-The client driver registered this callback function in a previous call to <a href="..\udecxusbdevice\nf-udecxusbdevice-udecxusbdeviceinitsetstatechangecallbacks.md">UdecxUsbDeviceInitSetStateChangeCallbacks</a> by supplying a function pointer to its implementation.
+The client driver registered this callback function in a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/mt627972">UdecxUsbDeviceInitSetStateChangeCallbacks</a> by supplying a function pointer to its implementation.
 
 The class extension invokes this  callback function to request the client driver to configure one or more new endpoints into hardware, and/or informs the driver when one or more existing endpoints is no longer being used. 
 
-After creating endpoints, for each new endpoint, the client driver must call <a href="..\udecxusbendpoint\nf-udecxusbendpoint-udecxusbendpointsetwdfioqueue.md">UdecxUsbEndpointSetWdfIoQueue</a> before completing the request.
+After creating endpoints, for each new endpoint, the client driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/mt627988">UdecxUsbEndpointSetWdfIoQueue</a> before completing the request.
 
 
 After releasing endpoints, the client driver should not use framework queue objects associated with the endpoints. The class extension considers those queues as purged to prevent future requests.
@@ -121,11 +106,6 @@ This call is asynchronous. The client driver must signals completion with status
 
 ## -see-also
 
-<a href="..\udecxusbendpoint\nf-udecxusbendpoint-udecxusbendpointsetwdfioqueue.md">UdecxUsbEndpointSetWdfIoQueue</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
 
 
 
@@ -133,8 +113,12 @@ This call is asynchronous. The client driver must signals completion with status
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt627988">UdecxUsbEndpointSetWdfIoQueue</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
  
 
  
-
 

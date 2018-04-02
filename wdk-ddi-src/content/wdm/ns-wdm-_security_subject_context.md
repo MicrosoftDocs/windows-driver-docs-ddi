@@ -7,7 +7,7 @@ old-location: ifsk\security_subject_context.htm
 old-project: ifsk
 ms.assetid: c9879df5-38e9-4a9f-8196-8485e85b2933
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSECURITY_SUBJECT_CONTEXT, PSECURITY_SUBJECT_CONTEXT, PSECURITY_SUBJECT_CONTEXT structure pointer [Installable File System Drivers], SECURITY_SUBJECT_CONTEXT, SECURITY_SUBJECT_CONTEXT structure [Installable File System Drivers], _SECURITY_SUBJECT_CONTEXT, ifsk.security_subject_context, securitystructures_e91a762f-82dc-4319-a479-8de15bce2bfd.xml, wdm/PSECURITY_SUBJECT_CONTEXT, wdm/SECURITY_SUBJECT_CONTEXT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -57,19 +57,6 @@ Drivers are not to modify the SECURITY_SUBJECT_CONTEXT structure directly. To cr
 SECURITY_SUBJECT_CONTEXT
 
 
-## -syntax
-
-
-````
-typedef struct _SECURITY_SUBJECT_CONTEXT {
-  PACCESS_TOKEN                ClientToken;
-  SECURITY_IMPERSONATION_LEVEL ImpersonationLevel;
-  PACCESS_TOKEN                PrimaryToken;
-  PVOID                        ProcessAuditId;
-} SECURITY_SUBJECT_CONTEXT, *PSECURITY_SUBJECT_CONTEXT;
-````
-
-
 ## -struct-fields
 
 
@@ -89,68 +76,67 @@ typedef struct _SECURITY_SUBJECT_CONTEXT {
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-secreateclientsecurityfromsubjectcontext.md">SeCreateClientSecurityFromSubjectContext</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-sefiltertoken.md">SeFilterToken</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538840">ACCESS_STATE</a>
 
 
 
-<a href="..\wdm\nf-wdm-seunlocksubjectcontext.md">SeUnlockSubjectContext</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547026">FsRtlNotifyFullChangeDirectory</a>
 
 
 
-<a href="..\wdm\nf-wdm-sereleasesubjectcontext.md">SeReleaseSubjectContext</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556631">SECURITY_IMPERSONATION_LEVEL</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-seprivilegecheck.md">SePrivilegeCheck</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563674">SeAccessCheck</a>
 
 
 
-<a href="..\wdm\nf-wdm-secapturesubjectcontext.md">SeCaptureSubjectContext</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563676">SeAssignSecurity</a>
 
 
 
-<a href="..\wudfddi\ne-wudfddi-_security_impersonation_level.md">SECURITY_IMPERSONATION_LEVEL</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563679">SeAssignSecurityEx</a>
 
 
 
-<a href="..\wdm\nf-wdm-selocksubjectcontext.md">SeLockSubjectContext</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554778">SeAuditingFileOrGlobalEvents</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-seauditingfileorglobalevents.md">SeAuditingFileOrGlobalEvents</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554792">SeCaptureSubjectContext</a>
 
 
 
-<a href="..\wdm\nf-wdm-seaccesscheck.md">SeAccessCheck</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556598">SeCreateClientSecurityFromSubjectContext</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-sequerysubjectcontexttoken.md">SeQuerySubjectContextToken</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556654">SeFilterToken</a>
 
 
 
-<a href="..\wdm\nf-wdm-seassignsecurityex.md">SeAssignSecurityEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556675">SeLockSubjectContext</a>
 
 
 
-<a href="..\rxprocs\nf-rxprocs-fsrtlnotifyfullchangedirectory.md">FsRtlNotifyFullChangeDirectory</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556686">SePrivilegeCheck</a>
 
 
 
-<a href="..\wdm\ns-wdm-_access_state.md">ACCESS_STATE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556698">SeQuerySubjectContextToken</a>
 
 
 
-<a href="..\wdm\nf-wdm-seassignsecurity.md">SeAssignSecurity</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556704">SeReleaseSubjectContext</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556736">SeUnlockSubjectContext</a>
  
 
  
-
 

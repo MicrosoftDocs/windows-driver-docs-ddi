@@ -7,7 +7,7 @@ old-location: display\d3d10ddiarg_createrendertargetview.htm
 old-project: display
 ms.assetid: 2d21aacb-3b2b-4c33-ac35-9f15c1fa8171
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3D10DDIARG_CREATERENDERTARGETVIEW, D3D10DDIARG_CREATERENDERTARGETVIEW structure [Display Devices], UMDisplayDriver_Dx10param_Structs_615cce2f-8ea4-4adc-9d7a-907414217ffc.xml, d3d10umddi/D3D10DDIARG_CREATERENDERTARGETVIEW, display.d3d10ddiarg_createrendertargetview
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,25 +52,6 @@ req.typenames: D3D10DDIARG_CREATERENDERTARGETVIEW
 The D3D10DDIARG_CREATERENDERTARGETVIEW structure describes the render target view to create.
 
 
-## -syntax
-
-
-````
-typedef struct D3D10DDIARG_CREATERENDERTARGETVIEW {
-  D3D10DDI_HRESOURCE    hDrvResource;
-  DXGI_FORMAT           Format;
-  D3D10DDIRESOURCE_TYPE ResourceDimension;
-  union {
-    D3D10DDIARG_BUFFER_RENDERTARGETVIEW  Buffer;
-    D3D10DDIARG_TEX1D_RENDERTARGETVIEW   Tex1D;
-    D3D10DDIARG_TEX2D_RENDERTARGETVIEW   Tex2D;
-    D3D10DDIARG_TEX3D_RENDERTARGETVIEW   Tex3D;
-    D3D10DDIARG_TEXCUBE_RENDERTARGETVIEW TexCube;
-  };
-} D3D10DDIARG_CREATERENDERTARGETVIEW;
-````
-
-
 ## -struct-fields
 
 
@@ -93,65 +74,64 @@ typedef struct D3D10DDIARG_CREATERENDERTARGETVIEW {
 
 #### - Buffer
 
-[in] If the value in the <b>ResourceDimension</b> member is set to D3D10DDIRESOURCE_BUFFER, a member in the union that is contained in D3D10DDIARG_CREATERENDERTARGETVIEW that can hold a <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_buffer_rendertargetview.md">D3D10DDIARG_BUFFER_RENDERTARGETVIEW</a> structure for a buffer. 
+[in] If the value in the <b>ResourceDimension</b> member is set to D3D10DDIRESOURCE_BUFFER, a member in the union that is contained in D3D10DDIARG_CREATERENDERTARGETVIEW that can hold a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541640">D3D10DDIARG_BUFFER_RENDERTARGETVIEW</a> structure for a buffer. 
 
 
 #### - Tex1D
 
-[in] If the value in the <b>ResourceDimension</b> member is set to D3D10DDIRESOURCE_TEXTURE1D, a member in the union that is contained in D3D10DDIARG_CREATERENDERTARGETVIEW that can hold a <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_tex1d_rendertargetview.md">D3D10DDIARG_TEX1D_RENDERTARGETVIEW</a> structure for a one-dimensional texture. 
+[in] If the value in the <b>ResourceDimension</b> member is set to D3D10DDIRESOURCE_TEXTURE1D, a member in the union that is contained in D3D10DDIARG_CREATERENDERTARGETVIEW that can hold a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541755">D3D10DDIARG_TEX1D_RENDERTARGETVIEW</a> structure for a one-dimensional texture. 
 
 
 #### - Tex2D
 
-[in] If the value in the <b>ResourceDimension</b> member is set to D3D10DDIRESOURCE_TEXTURE2D, a member in the union that is contained in D3D10DDIARG_CREATERENDERTARGETVIEW that can hold a <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_tex2d_rendertargetview.md">D3D10DDIARG_TEX2D_RENDERTARGETVIEW</a> structure for a two-dimensional texture. 
+[in] If the value in the <b>ResourceDimension</b> member is set to D3D10DDIRESOURCE_TEXTURE2D, a member in the union that is contained in D3D10DDIARG_CREATERENDERTARGETVIEW that can hold a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541769">D3D10DDIARG_TEX2D_RENDERTARGETVIEW</a> structure for a two-dimensional texture. 
 
 
 #### - Tex3D
 
-[in] If the value in the <b>ResourceDimension</b> member is set to D3D10DDIRESOURCE_TEXTURE3D, a member in the union that is contained in D3D10DDIARG_CREATERENDERTARGETVIEW that can hold a <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_tex3d_rendertargetview.md">D3D10DDIARG_TEX3D_RENDERTARGETVIEW</a> structure for a three-dimensional texture. 
+[in] If the value in the <b>ResourceDimension</b> member is set to D3D10DDIRESOURCE_TEXTURE3D, a member in the union that is contained in D3D10DDIARG_CREATERENDERTARGETVIEW that can hold a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541781">D3D10DDIARG_TEX3D_RENDERTARGETVIEW</a> structure for a three-dimensional texture. 
 
 
 #### - TexCube
 
-[in] If the value in the <b>ResourceDimension</b> member is set to D3D10DDIRESOURCE_TEXTURECUBE, a member in the union that is contained in D3D10DDIARG_CREATERENDERTARGETVIEW that can hold a <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_texcube_rendertargetview.md">D3D10DDIARG_TEXCUBE_RENDERTARGETVIEW</a> structure for a cube texture. 
+[in] If the value in the <b>ResourceDimension</b> member is set to D3D10DDIRESOURCE_TEXTURECUBE, a member in the union that is contained in D3D10DDIARG_CREATERENDERTARGETVIEW that can hold a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541801">D3D10DDIARG_TEXCUBE_RENDERTARGETVIEW</a> structure for a cube texture. 
 
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_tex2d_rendertargetview.md">D3D10DDIARG_TEX2D_RENDERTARGETVIEW</a>
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_texcube_rendertargetview.md">D3D10DDIARG_TEXCUBE_RENDERTARGETVIEW</a>
+<a href="https://msdn.microsoft.com/14d85e4a-960c-4438-9360-a4f2677603b8">CalcPrivateRenderTargetViewSize</a>
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_tex3d_rendertargetview.md">D3D10DDIARG_TEX3D_RENDERTARGETVIEW</a>
+<a href="https://msdn.microsoft.com/bf9fc732-5f9a-4fee-8ea0-19b140789463">CreateRenderTargetView</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541640">D3D10DDIARG_BUFFER_RENDERTARGETVIEW</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541755">D3D10DDIARG_TEX1D_RENDERTARGETVIEW</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541769">D3D10DDIARG_TEX2D_RENDERTARGETVIEW</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541781">D3D10DDIARG_TEX3D_RENDERTARGETVIEW</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541801">D3D10DDIARG_TEXCUBE_RENDERTARGETVIEW</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff541810">D3D10DDIRESOURCE_TYPE</a>
-
-
-
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createrendertargetview.md">CreateRenderTargetView</a>
-
-
-
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_calcprivaterendertargetviewsize.md">CalcPrivateRenderTargetViewSize</a>
-
-
-
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_buffer_rendertargetview.md">D3D10DDIARG_BUFFER_RENDERTARGETVIEW</a>
-
-
-
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_tex1d_rendertargetview.md">D3D10DDIARG_TEX1D_RENDERTARGETVIEW</a>
-
-
-
  
 
  
-
 

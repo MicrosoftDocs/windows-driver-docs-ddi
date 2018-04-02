@@ -7,7 +7,7 @@ old-location: netvista\wwan_sms_pdu_record.htm
 old-project: netvista
 ms.assetid: 20200222-8539-497e-891e-2d29c3207c56
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PWWAN_SMS_PDU_RECORD, PWWAN_SMS_PDU_RECORD, PWWAN_SMS_PDU_RECORD structure pointer [Network Drivers Starting with Windows Vista], WWAN_SMS_PDU_RECORD, WWAN_SMS_PDU_RECORD structure [Network Drivers Starting with Windows Vista], WwanRef_b21c5d84-e8d4-4cf4-9942-f6f1a14c23c0.xml, _WWAN_SMS_PDU_RECORD, netvista.wwan_sms_pdu_record, wwan/PWWAN_SMS_PDU_RECORD, wwan/WWAN_SMS_PDU_RECORD"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,19 +51,6 @@ req.product: Windows 10 or later.
 
 
 The WWAN_SMS_PDU_RECORD structure represents a PDU-style SMS message record.
-
-
-## -syntax
-
-
-````
-typedef struct _WWAN_SMS_PDU_RECORD {
-  ULONG           MessageIndex;
-  WWAN_MSG_STATUS MsgStatus;
-  BYTE            Size;
-  CHAR            PduData[WWAN_SMS_PDU_HEX_BUF_LEN];
-} WWAN_SMS_PDU_RECORD, *PWWAN_SMS_PDU_RECORD;
-````
 
 
 ## -struct-fields
@@ -115,12 +102,11 @@ For CDMA-based devices that support reading SMS messages in binary format (as re
 
 ## -see-also
 
-<a href="..\wwan\ne-wwan-_wwan_msg_status.md">WWAN_MSG_STATUS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571209">WWAN_MSG_STATUS</a>
  
 
  
-
 

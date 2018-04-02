@@ -52,17 +52,6 @@ req.typenames: EXpsFontOptions
 The EXpsFontOptions enumeration describes the font options for an XPS part.
 
 
-## -syntax
-
-
-````
-typedef enum  { 
-  Font_Normal,
-  Font_Obfusticate
-} EXpsFontOptions;
-````
-
-
 ## -enum-fields
 
 

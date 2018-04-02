@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 The <b>IPrintCoreHelperPS::EnumOptions</b> method gets a list of available options for the given feature. 
 
 
-## -syntax
-
-
-````
-STDMETHOD EnumOptions(
-  [in]  PCSTR pszFeatureKeyword,
-  [out] PCSTR *pOptionList[],
-  [out] DWORD *pdwNumOptions
-);
-````
-
-
 ## -parameters
 
 
@@ -110,11 +98,10 @@ When <b>IPrintCoreHelperPS::EnumOptions</b> returns, the option list contains al
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551977">IPrintCoreHelperPS::EnumFeatures</a>
 
 
 
-<a href="..\prcomoem\nn-prcomoem-iprintcorehelperps.md">IPrintCoreHelperPS</a>
+<a href="https://msdn.microsoft.com/2be594f1-1eb1-42e0-a345-ee7edf4d96dd">IPrintCoreHelperPS</a>
 
 
 
@@ -122,8 +109,8 @@ When <b>IPrintCoreHelperPS::EnumOptions</b> returns, the option list contains al
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551977">IPrintCoreHelperPS::EnumFeatures</a>
  
 
  
-
 

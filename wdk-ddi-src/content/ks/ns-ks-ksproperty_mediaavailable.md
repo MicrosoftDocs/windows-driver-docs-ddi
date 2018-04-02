@@ -52,17 +52,6 @@ req.typenames: KSPROPERTY_MEDIAAVAILABLE, *PKSPROPERTY_MEDIAAVAILABLE
 The KSPROPERTY_MEDIAAVAILABLE structure specifies the media time span (the time span that a client can seek within) that is currently available on a filter. KSPROPERTY_MEDIAAVAILABLE is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565179">KSPROPERTY_MEDIASEEKING_AVAILABLE</a> property request.
 
 
-## -syntax
-
-
-````
-typedef struct {
-  LONGLONG Earliest;
-  LONGLONG Latest;
-} KSPROPERTY_MEDIAAVAILABLE, *PKSPROPERTY_MEDIAAVAILABLE;
-````
-
-
 ## -struct-fields
 
 
@@ -89,12 +78,11 @@ This structure corresponds with DirectShow's <b>IMediaSeeking::GetAvailable</b>.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565179">KSPROPERTY_MEDIASEEKING_AVAILABLE</a>
-
-
-
  
 
  
-
 

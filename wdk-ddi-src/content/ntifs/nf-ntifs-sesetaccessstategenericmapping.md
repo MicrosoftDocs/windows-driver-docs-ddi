@@ -7,7 +7,7 @@ old-location: ifsk\sesetaccessstategenericmapping.htm
 old-project: ifsk
 ms.assetid: b9a5ca5c-2d1c-4974-bef8-6003a4d6e864
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: SeSetAccessStateGenericMapping, SeSetAccessStateGenericMapping routine [Installable File System Drivers], ifsk.sesetaccessstategenericmapping, ntifs/SeSetAccessStateGenericMapping, seref_41bfccdf-c133-4587-9d9e-a328eedbd28b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,17 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>SeSetAccessStateGenericMapping</b> routine sets the generic mapping field of an ACCESS_STATE structure.
 
 
-## -syntax
-
-
-````
-VOID SeSetAccessStateGenericMapping(
-  _Inout_ PACCESS_STATE    AccessState,
-  _In_    PGENERIC_MAPPING GenericMapping
-);
-````
-
-
 ## -parameters
 
 
@@ -102,20 +91,19 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_access_state.md">ACCESS_STATE</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-seappendprivileges.md">SeAppendPrivileges</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538840">ACCESS_STATE</a>
 
 
 
-<a href="..\wdm\ns-wdm-_generic_mapping.md">GENERIC_MAPPING</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546526">GENERIC_MAPPING</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554762">SeAppendPrivileges</a>
  
 
  
-
 

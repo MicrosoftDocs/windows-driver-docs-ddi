@@ -7,7 +7,7 @@ old-location: storage\filter_dump_type.htm
 old-project: storage
 ms.assetid: 396aec33-b4b4-4b4e-9890-b4aa829c3bbd
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PFILTER_DUMP_TYPE, DumpTypeCrashdump, DumpTypeHibernation, DumpTypeUndefined, FILTER_DUMP_TYPE, FILTER_DUMP_TYPE enumeration [Storage Devices], PFILTER_DUMP_TYPE, PFILTER_DUMP_TYPE enumeration pointer [Storage Devices], _FILTER_DUMP_TYPE, ntdddump/DumpTypeCrashdump, ntdddump/DumpTypeHibernation, ntdddump/DumpTypeUndefined, ntdddump/FILTER_DUMP_TYPE, ntdddump/PFILTER_DUMP_TYPE, storage.filter_dump_type, structs-filter_b7846186-0937-4996-984e-398636fc7b2f.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,18 +50,6 @@ req.typenames: FILTER_DUMP_TYPE, *PFILTER_DUMP_TYPE
 
 
 The FILTER_DUMP_TYPE enumeration indicates the type of dump stack that this instance of the filter driver is loaded on.
-
-
-## -syntax
-
-
-````
-typedef enum _FILTER_DUMP_TYPE { 
-  DumpTypeUndefined    = 0,
-  DumpTypeCrashdump    = 1,
-  DumpTypeHibernation  = 2
-} FILTER_DUMP_TYPE, *PFILTER_DUMP_TYPE;
-````
 
 
 ## -enum-fields

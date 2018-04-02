@@ -7,7 +7,7 @@ old-location: audio\ksaudio_mic_array_geometry.htm
 old-project: audio
 ms.assetid: 49b8f602-8f82-4445-98f2-a63563689561
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/19/2018
 ms.keywords: "*PKSAUDIO_MIC_ARRAY_GEOMETRY, KSAUDIO_MIC_ARRAY_GEOMETRY, KSAUDIO_MIC_ARRAY_GEOMETRY structure [Audio Devices], PKSAUDIO_MIC_ARRAY_GEOMETRY, PKSAUDIO_MIC_ARRAY_GEOMETRY structure pointer [Audio Devices], aud-prop_b25763af-a8d5-4335-ae71-f3bc59218201.xml, audio.ksaudio_mic_array_geometry, ksmedia/KSAUDIO_MIC_ARRAY_GEOMETRY, ksmedia/PKSAUDIO_MIC_ARRAY_GEOMETRY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,26 +49,7 @@ req.typenames: KSAUDIO_MIC_ARRAY_GEOMETRY, *PKSAUDIO_MIC_ARRAY_GEOMETRY
 ## -description
 
 
-The KSAUDIO_MIC_ARRAY_GEOMETRY structure specifies the type and the geometry of the microphone array. The <b>usNumberOfMicrophones</b> member indicates the number of microphones in the physical array. The KsMicCoord member is a variable of type <a href="..\ksmedia\ns-ksmedia-ksaudio_microphone_coordinates.md">KSAUDIO_MICROPHONE_COORDINATES</a> and it is an array of structures. The number of entries in this array is given by the value of the <b>usNumberOfMicrophones</b> member.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  USHORT                         usVersion;
-  USHORT                         usMicArrayType;
-  SHORT                          wVerticalAngleBegin;
-  SHORT                          wVerticalAngleEnd;
-  SHORT                          wHorizontalAngleBegin;
-  SHORT                          wHorizontalAngleEnd;
-  USHORT                         usFrequencyBandLo;
-  USHORT                         usFrequencyBandHi;
-  USHORT                         usNumberOfMicrophones;
-  KSAUDIO_MICROPHONE_COORDINATES KsMicCoord[1];
-} KSAUDIO_MIC_ARRAY_GEOMETRY, *PKSAUDIO_MIC_ARRAY_GEOMETRY;
-````
+The KSAUDIO_MIC_ARRAY_GEOMETRY structure specifies the type and the geometry of the microphone array. The <b>usNumberOfMicrophones</b> member indicates the number of microphones in the physical array. The KsMicCoord member is a variable of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff537086">KSAUDIO_MICROPHONE_COORDINATES</a> and it is an array of structures. The number of entries in this array is given by the value of the <b>usNumberOfMicrophones</b> member.
 
 
 ## -struct-fields
@@ -191,12 +172,11 @@ For more information about how to process a microphone array in Windows Vista, s
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-ksaudio_microphone_coordinates.md">KSAUDIO_MICROPHONE_COORDINATES</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537086">KSAUDIO_MICROPHONE_COORDINATES</a>
  
 
  
-
 

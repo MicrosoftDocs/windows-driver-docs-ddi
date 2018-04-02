@@ -7,7 +7,7 @@ old-location: netvista\wwan_pin_desc.htm
 old-project: netvista
 ms.assetid: a88f56eb-b527-4c7c-8f59-650dd10c671e
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PWWAN_PIN_DESC, PWWAN_PIN_DESC, PWWAN_PIN_DESC structure pointer [Network Drivers Starting with Windows Vista], WWAN_PIN_DESC, WWAN_PIN_DESC structure [Network Drivers Starting with Windows Vista], WwanRef_a0c1c3f2-0fcd-465f-bab6-5fa4887159b8.xml, _WWAN_PIN_DESC, netvista.wwan_pin_desc, wwan/PWWAN_PIN_DESC, wwan/WWAN_PIN_DESC"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -54,19 +54,6 @@ The WWAN_PIN_DESC structure represents the description or current status for a P
   Identification Number (PIN).
 
 
-## -syntax
-
-
-````
-typedef struct _WWAN_PIN_DESC {
-  WWAN_PIN_MODE   PinMode;
-  WWAN_PIN_FORMAT PinFormat;
-  ULONG           PinLengthMin;
-  ULONG           PinLengthMax;
-} WWAN_PIN_DESC, *PWWAN_PIN_DESC;
-````
-
-
 ## -struct-fields
 
 
@@ -100,20 +87,19 @@ The maximum number of characters in the PIN. Miniport drivers should not specify
 
 ## -see-also
 
-<a href="..\wwan\ne-wwan-_wwan_pin_mode.md">WWAN_PIN_MODE</a>
 
 
 
-<a href="..\wwan\ns-wwan-_wwan_pin_list.md">WWAN_PIN_LIST</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571215">WWAN_PIN_FORMAT</a>
 
 
 
-<a href="..\wwan\ne-wwan-_wwan_pin_format.md">WWAN_PIN_FORMAT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571217">WWAN_PIN_LIST</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571218">WWAN_PIN_MODE</a>
  
 
  
-
 

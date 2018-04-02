@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 
 
 
-## -syntax
-
-
-````
-BOOL WINAPI DevQueryPrint(
-  _In_  HANDLE    hPrinter,
-  _In_  LPDEVMODE pDevMode,
-  _Out_ DWORD     *pResID
-);
-````
-
-
 ## -parameters
 
 

@@ -55,17 +55,6 @@ req.product: Windows 10 or later.
 A driver's <b>OnD0EntryPostInterruptsEnabled</b> event callback function performs device-specific operations that are required when the driver enables the device's hardware interrupts.
 
 
-## -syntax
-
-
-````
-HRESULT OnD0EntryPostInterruptsEnabled(
-  [in] IWDFDevice3            *pInterrupt,
-  [in] WDF_POWER_DEVICE_STATE PreviousState
-);
-````
-
-
 ## -parameters
 
 
@@ -78,12 +67,12 @@ HRESULT OnD0EntryPostInterruptsEnabled(
 
 ### -param PreviousState [in]
 
-A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_power_device_state.md">WDF_POWER_DEVICE_STATE</a>-typed enumerator that identifies the previous device power state.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff552421">WDF_POWER_DEVICE_STATE</a>-typed enumerator that identifies the previous device power state.
 
 
 #### - pInterrupt [in]
 
-A pointer to <a href="..\wudfddi\nn-wudfddi-iwdfdevice3.md">IWDFDevice3</a> interface.
+A pointer to <a href="https://msdn.microsoft.com/library/windows/hardware/hh451197">IWDFDevice3</a> interface.
 
 
 ## -returns
@@ -106,16 +95,15 @@ For more information, see <a href="https://msdn.microsoft.com/432907e7-05a3-4a99
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439744">IPnpCallbackHardwareInterrupt</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439755">OnD0ExitPreInterruptsDisabled</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-ipnpcallbackhardwareinterrupt.md">IPnpCallbackHardwareInterrupt</a>
-
-
-
  
 
  
-
 

@@ -53,20 +53,6 @@ req.product: Windows 10 or later.
 The <b>IWiaMiniDrv::drvGetCapabilities</b> method returns an array of events and commands that a device supports.
 
 
-## -syntax
-
-
-````
-HRESULT drvGetCapabilities(
-  [in]            BYTE            *pWiasContext,
-  [in]            LONG            lFlags,
-  [out]           LONG            *pcelt,
-  [out, optional] WIA_DEV_CAP_DRV **ppCapabilities,
-  [out]           LONG            *plDevErrVal
-);
-````
-
-
 ## -parameters
 
 
@@ -149,7 +135,7 @@ Points to a memory location that will receive a status code for this method. If 
 
 #### - ppCapabilities [out, optional]
 
-Points to a memory location that will receive the address of the first element of an array of <a href="..\wiamindr_lh\ns-wiamindr_lh-_wia_dev_cap_drv.md">WIA_DEV_CAP_DRV</a> structures that contain the GUIDs of events and commands that the device supports. 
+Points to a memory location that will receive the address of the first element of an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff550233">WIA_DEV_CAP_DRV</a> structures that contain the GUIDs of events and commands that the device supports. 
 
 
 ## -returns
@@ -176,7 +162,10 @@ The <i>Wiadef.h</i> header lists several predefined commands and events.
 
 ## -see-also
 
-<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrv.md">IWiaMiniDrv</a>
+
+
+
+<a href="https://msdn.microsoft.com/15068d10-5e24-427c-9684-24ce67b75ada">IWiaMiniDrv</a>
 
 
 
@@ -184,12 +173,8 @@ The <i>Wiadef.h</i> header lists several predefined commands and events.
 
 
 
-<a href="..\wiamindr_lh\ns-wiamindr_lh-_wia_dev_cap_drv.md">WIA_DEV_CAP_DRV</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550233">WIA_DEV_CAP_DRV</a>
  
 
  
-
 

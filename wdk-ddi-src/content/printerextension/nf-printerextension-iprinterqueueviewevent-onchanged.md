@@ -50,20 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-Provides an <a href="..\printerextension\nn-printerextension-iprintjobcollection.md">IPrintJobCollection</a> object that provides a snapshot of a range of print jobs in the queue.
-
-
-## -syntax
-
-
-````
-HRESULT OnChanged(
-  [in] IPrintJobCollection *pCollection,
-  [in] ULONG               ulViewOffset,
-  [in] ULONG               ulViewSize,
-  [in] ULONG               ulCountJobsInPrintQueue
-);
-````
+Provides an <a href="https://msdn.microsoft.com/library/windows/hardware/dn265397">IPrintJobCollection</a> object that provides a snapshot of a range of print jobs in the queue.
 
 
 ## -parameters
@@ -73,7 +60,7 @@ HRESULT OnChanged(
 
 ### -param pCollection [in]
 
-An <a href="..\printerextension\nn-printerextension-iprintjobcollection.md">IPrintJobCollection</a> object.
+An <a href="https://msdn.microsoft.com/library/windows/hardware/dn265397">IPrintJobCollection</a> object.
 
 
 ### -param ulViewOffset [in]
@@ -104,31 +91,30 @@ This method returns the appropriate <b>HRESULT</b> value.
 
 
 
-The job range is controlled by the <a href="..\printerextension\nn-printerextension-iprinterqueueview.md">IPrinterQueueView</a> interface. Additionally, this method provides the current number of jobs in the print queue, and the indices of the job range being monitored. Information about the number of jobs, and the indices of the jobs is provided in response to the <a href="https://msdn.microsoft.com/DB3C0439-EB82-4E49-8FEA-003C1B4A9EE0">IPrinterQueueView::SetViewRange</a> method being invoked.
+The job range is controlled by the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265392">IPrinterQueueView</a> interface. Additionally, this method provides the current number of jobs in the print queue, and the indices of the job range being monitored. Information about the number of jobs, and the indices of the jobs is provided in response to the <a href="https://msdn.microsoft.com/DB3C0439-EB82-4E49-8FEA-003C1B4A9EE0">IPrinterQueueView::SetViewRange</a> method being invoked.
 
 
 
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265397">IPrintJobCollection</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265392">IPrinterQueueView</a>
+
+
+
 <a href="https://msdn.microsoft.com/DB3C0439-EB82-4E49-8FEA-003C1B4A9EE0">IPrinterQueueView::SetViewRange</a>
 
 
 
-<a href="..\printerextension\nn-printerextension-iprintjobcollection.md">IPrintJobCollection</a>
-
-
-
-<a href="..\printerextension\nn-printerextension-iprinterqueueview.md">IPrinterQueueView</a>
-
-
-
-<a href="..\printerextension\nn-printerextension-iprinterqueueviewevent.md">IPrinterQueueViewEvent</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265393">IPrinterQueueViewEvent</a>
  
 
  
-
 

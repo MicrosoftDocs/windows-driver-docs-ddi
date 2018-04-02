@@ -95,16 +95,15 @@ And also, note that job enumeration starts when the first event handler is added
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/D964A0C4-041A-47BD-87AB-4AF523939DF0">IPrinterQueueViewEvent::OnChanged</a>
 
 
 
 <a href="https://msdn.microsoft.com/D1236DD2-D4AD-4615-9036-7EC75D6CADCE">Job Management</a>
-
-
-
  
 
  
-
 

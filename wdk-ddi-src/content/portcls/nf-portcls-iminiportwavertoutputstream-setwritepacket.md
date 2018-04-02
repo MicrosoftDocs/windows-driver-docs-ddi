@@ -7,7 +7,7 @@ old-location: audio\iminiportwavertoutputstream_setwritepacket.htm
 old-project: audio
 ms.assetid: 28C73FBA-9122-4CFD-959E-495062CEEF41
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/19/2018
 ms.keywords: IMiniportWaveRTOutputStream, IMiniportWaveRTOutputStream interface [Audio Devices], SetWritePacket method, IMiniportWaveRTOutputStream::SetWritePacket, SetWritePacket method [Audio Devices], SetWritePacket method [Audio Devices], IMiniportWaveRTOutputStream interface, SetWritePacket,IMiniportWaveRTOutputStream.SetWritePacket, audio.iminiportwavertoutputstream_setwritepacket, portcls/IMiniportWaveRTOutputStream::SetWritePacket
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,18 +50,6 @@ req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 
 
 SetWritePacket informs the driver that the OS has written valid data to the WaveRT buffer. 
-
-
-## -syntax
-
-
-````
-NTSTATUS SetWritePacket(
-  [in] ULONG     PacketNumber,
-  [in] DWORD     Flags,
-  [in] ULONGLONG EosPacketLength
-);
-````
 
 
 ## -parameters
@@ -132,12 +120,11 @@ Depending on hardware capabilities, if the KSSTREAM_HEADER_OPTIONSF_ENDOFSTREAM 
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iminiportwavertoutputstream.md">IMiniportWaveRTOutputStream</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn946534">IMiniportWaveRTOutputStream</a>
  
 
  
-
 

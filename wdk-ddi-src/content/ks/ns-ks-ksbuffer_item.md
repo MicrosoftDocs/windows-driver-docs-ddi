@@ -52,17 +52,6 @@ req.typenames: KSBUFFER_ITEM, *PKSBUFFER_ITEM
 The KSBUFFER_ITEM structure is used to store a list of data buffers copied from the event source, which can be retrieved by the event sink through KSEVENT_TYPE_QUERYBUFFER.
 
 
-## -syntax
-
-
-````
-typedef struct {
-  KSDPC_ITEM DpcItem;
-  LIST_ENTRY BufferList;
-} KSBUFFER_ITEM, *PKSBUFFER_ITEM;
-````
-
-
 ## -struct-fields
 
 
@@ -70,12 +59,12 @@ typedef struct {
 
 ### -field DpcItem
 
-A structure of type <a href="..\ks\ns-ks-ksdpc_item.md">KSDPC_ITEM</a>. May be used by internal DPCs; do not use for data buffering.
+A structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff561726">KSDPC_ITEM</a>. May be used by internal DPCs; do not use for data buffering.
 
 
 ### -field BufferList
 
-Specifies the head of a list of pool allocated buffers that are created by calls to <a href="..\ks\nf-ks-ksgeneratedataevent.md">KsGenerateDataEvent</a> for events that have buffering enabled.
+Specifies the head of a list of pool allocated buffers that are created by calls to <a href="https://msdn.microsoft.com/library/windows/hardware/ff562593">KsGenerateDataEvent</a> for events that have buffering enabled.
 
 
 ## -remarks
@@ -89,16 +78,15 @@ KSBUFFER_ITEM extends the normal deferred procedure call (DPC) structure, which 
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksgeneratedataevent.md">KsGenerateDataEvent</a>
 
 
 
-<a href="..\ks\ns-ks-ksdpc_item.md">KSDPC_ITEM</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561726">KSDPC_ITEM</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562593">KsGenerateDataEvent</a>
  
 
  
-
 

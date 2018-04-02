@@ -7,7 +7,7 @@ old-location: display\dxgk_cpuhostaperture.htm
 old-project: display
 ms.assetid: BBB9D8F6-0EF8-4B34-B79E-8742BB7575D4
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGK_CPUHOSTAPERTURE, DXGK_CPUHOSTAPERTURE structure [Display Devices], _DXGK_CPUHOSTAPERTURE, d3dkmddi/DXGK_CPUHOSTAPERTURE, display.dxgk_cpuhostaperture
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,17 +50,6 @@ req.typenames: DXGK_CPUHOSTAPERTURE
 
 
 <b>DXGK_CPUHOSTAPERTURE</b> describes a memory segment supporting a CPU host aperture.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGK_CPUHOSTAPERTURE {
-  UINT64 PhysicalAddress;
-  UINT32 SizeInPages;
-} DXGK_CPUHOSTAPERTURE;
-````
 
 
 ## -struct-fields

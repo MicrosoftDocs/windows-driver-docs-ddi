@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 The <b>wiauDbgSetFlags</b> function sets debugging flags.
 
 
-## -syntax
-
-
-````
-inline DWORD __stdcall wiauDbgSetFlags(
-   DWORD flags
-);
-````
-
-
 ## -parameters
 
 
@@ -202,12 +192,11 @@ Log warning messages.
 
 ## -see-also
 
-<a href="..\wiautil\nf-wiautil-wiaudbgflags.md">wiauDbgFlags</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549643">wiauDbgFlags</a>
  
 
  
-
 

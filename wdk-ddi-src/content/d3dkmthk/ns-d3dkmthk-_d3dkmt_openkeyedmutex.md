@@ -7,7 +7,7 @@ old-location: display\d3dkmt_openkeyedmutex.htm
 old-project: display
 ms.assetid: c5200822-b393-4ba1-8d2a-d4ab98ffcf1d
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMT_OPENKEYEDMUTEX, D3DKMT_OPENKEYEDMUTEX structure [Display Devices], OpenGL_Structs_78a96126-b992-431f-9e91-c08c61694732.xml, _D3DKMT_OPENKEYEDMUTEX, d3dkmthk/D3DKMT_OPENKEYEDMUTEX, display.d3dkmt_openkeyedmutex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,18 +49,7 @@ req.typenames: D3DKMT_OPENKEYEDMUTEX
 ## -description
 
 
-The D3DKMT_OPENKEYEDMUTEX structure describes a keyed mutex that the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtopenkeyedmutex.md">D3DKMTOpenKeyedMutex</a> function opens. 
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_OPENKEYEDMUTEX {
-  D3DKMT_HANDLE hSharedHandle;
-  D3DKMT_HANDLE hKeyedMutex;
-} D3DKMT_OPENKEYEDMUTEX;
-````
+The D3DKMT_OPENKEYEDMUTEX structure describes a keyed mutex that the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547054">D3DKMTOpenKeyedMutex</a> function opens. 
 
 
 ## -struct-fields
@@ -80,12 +69,11 @@ typedef struct _D3DKMT_OPENKEYEDMUTEX {
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtopenkeyedmutex.md">D3DKMTOpenKeyedMutex</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547054">D3DKMTOpenKeyedMutex</a>
  
 
  
-
 

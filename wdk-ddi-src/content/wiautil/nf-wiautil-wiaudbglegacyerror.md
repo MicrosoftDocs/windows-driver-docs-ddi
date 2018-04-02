@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 The <b>wiauDbgLegacyError</b> function logs an error message.
 
 
-## -syntax
-
-
-````
-inline void __stdcall wiauDbgLegacyError(
-   LPCSTR   fmt, ...
-);
-````
-
-
 ## -parameters
 
 
@@ -98,19 +88,18 @@ None
 
 
 
-The <b>wiauDbgLegacyError</b> function is identical to the <a href="..\wiautil\nf-wiautil-wiaudbgerror.md">wiauDbgError</a> function except that the latter function has an additional parameter used to identify the function or method that is active when the function is called.
+The <b>wiauDbgLegacyError</b> function is identical to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549633">wiauDbgError</a> function except that the latter function has an additional parameter used to identify the function or method that is active when the function is called.
 
 
 
 
 ## -see-also
 
-<a href="..\wiautil\nf-wiautil-wiaudbgerror.md">wiauDbgError</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549633">wiauDbgError</a>
  
 
  
-
 

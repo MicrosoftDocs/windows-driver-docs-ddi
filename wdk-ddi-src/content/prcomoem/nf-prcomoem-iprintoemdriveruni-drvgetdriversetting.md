@@ -53,21 +53,6 @@ req.product: Windows 10 or later.
 The <code>IPrintOemDriverUni::DrvGetDriverSetting</code> method is provided by the Unidrv driver so that rendering plug-ins can obtain the current status of printer features and other internal information.
 
 
-## -syntax
-
-
-````
-HRESULT DrvGetDriverSetting(
-   PVOID  pdriverobj,
-   PCSTR  Feature,
-   PVOID  pOutput,
-   DWORD  cbSize,
-   PDWORD pcbNeeded,
-   PDWORD pdwOptionsReturned
-);
-````
-
-
 ## -parameters
 
 
@@ -75,7 +60,7 @@ HRESULT DrvGetDriverSetting(
 
 ### -param pdriverobj
 
-Caller-supplied pointer to a <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a> structure.
+Caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547573">DEVOBJ</a> structure.
 
 
 ### -param Feature

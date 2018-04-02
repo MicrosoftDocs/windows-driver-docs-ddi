@@ -7,7 +7,7 @@ old-location: buses\udecxusbdevicelinkpowerentrycomplete.htm
 old-project: usbref
 ms.assetid: 0B8FF9EB-63E5-4532-B13C-CF0FF04D9A53
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: UdecxUsbDeviceLinkPowerEntryComplete, UdecxUsbDeviceLinkPowerEntryComplete function [Buses], buses.udecxusbdevicelinkpowerentrycomplete, udecxusbdevice/UdecxUsbDeviceLinkPowerEntryComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -54,17 +54,6 @@ req.product: Windows 10 or later.
 Completes an asynchronous request for bringing the device out of a low power state.  
 
 
-## -syntax
-
-
-````
-void UdecxUsbDeviceLinkPowerEntryComplete(
-  _In_ UDECXUSBDEVICE UdecxUsbDevice,
-  _In_ NTSTATUS       CompletionStatus
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +61,7 @@ void UdecxUsbDeviceLinkPowerEntryComplete(
 
 ### -param UdecxUsbDevice [in]
 
-A handle to UDE device object. The client driver retrieved this pointer in the previous call to <a href="..\udecxusbdevice\nf-udecxusbdevice-udecxusbdevicecreate.md">UdecxUsbDeviceCreate</a>.
+A handle to UDE device object. The client driver retrieved this pointer in the previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/mt595959">UdecxUsbDeviceCreate</a>.
 
 
 ### -param CompletionStatus [in]
@@ -93,7 +82,7 @@ This function does not return a value.
 
 
 
-When the USB device emulation class extension (UdeCx) gets a request to bring the device from low power state and enter working state, it invokes the client driver's implementation of the <a href="..\udecxusbdevice\nc-udecxusbdevice-evt_udecx_usb_device_d0_entry.md">EVT_UDECX_USB_DEVICE_D0_ENTRY</a> callback function. 
+When the USB device emulation class extension (UdeCx) gets a request to bring the device from low power state and enter working state, it invokes the client driver's implementation of the <a href="https://msdn.microsoft.com/library/windows/hardware/mt595910">EVT_UDECX_USB_DEVICE_D0_ENTRY</a> callback function. 
 
 After the client driver has performed the necessary steps for bringing the virtual USB device to working state, the driver calls this method to notify the class extension that it has completed the power request.
 
@@ -102,11 +91,6 @@ After the client driver has performed the necessary steps for bringing the virtu
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
-
-
-
-<a href="..\udecxusbdevice\nc-udecxusbdevice-evt_udecx_usb_device_d0_entry.md">EVT_UDECX_USB_DEVICE_D0_ENTRY</a>
 
 
 
@@ -114,8 +98,12 @@ After the client driver has performed the necessary steps for bringing the virtu
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595910">EVT_UDECX_USB_DEVICE_D0_ENTRY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
  
 
  
-
 

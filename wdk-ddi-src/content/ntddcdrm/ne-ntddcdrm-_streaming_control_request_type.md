@@ -7,7 +7,7 @@ old-location: storage\streaming_control_request_type.htm
 old-project: storage
 ms.assetid: A17F0E3C-402B-4484-B4AE-0583773AEDA8
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSTREAMING_CONTROL_REQUEST_TYPE, CdromStreamingDisable, CdromStreamingEnableForReadOnly, CdromStreamingEnableForReadWrite, CdromStreamingEnableForWriteOnly, PSTREAMING_CONTROL_REQUEST_TYPE, PSTREAMING_CONTROL_REQUEST_TYPE enumeration pointer [Storage Devices], STREAMING_CONTROL_REQUEST_TYPE, STREAMING_CONTROL_REQUEST_TYPE enumeration [Storage Devices], _STREAMING_CONTROL_REQUEST_TYPE, ntddcdrm/ CdromStreamingEnableForWriteOnly, ntddcdrm/CdromStreamingDisable, ntddcdrm/CdromStreamingEnableForReadOnly, ntddcdrm/CdromStreamingEnableForReadWrite, ntddcdrm/PSTREAMING_CONTROL_REQUEST_TYPE, ntddcdrm/STREAMING_CONTROL_REQUEST_TYPE, storage.streaming_control_request_type"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,20 +49,7 @@ req.typenames: STREAMING_CONTROL_REQUEST_TYPE, *PSTREAMING_CONTROL_REQUEST_TYPE
 ## -description
 
 
-The STREAMING_CONTROL_REQUEST_TYPE enumeration defines the CDROM streaming modes. This enumeration is a member of the <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_streaming_control.md">CDROM_STREAMING_CONTROL</a> structure, the input parameter to the <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_enable_streaming.md">IOCTL_CDROM_ENABLE_STREAMING</a> I/O control code, which is used to enable or disable CDROM streaming. 
-
-
-## -syntax
-
-
-````
-typedef enum _STREAMING_CONTROL_REQUEST_TYPE { 
-  CdromStreamingDisable                  = 1,
-  CdromStreamingEnableForReadOnly        = 2,
-      CdromStreamingEnableForWriteOnly   = 3,
-  CdromStreamingEnableForReadWrite       = 4
-} STREAMING_CONTROL_REQUEST_TYPE, *PSTREAMING_CONTROL_REQUEST_TYPE;
-````
+The STREAMING_CONTROL_REQUEST_TYPE enumeration defines the CDROM streaming modes. This enumeration is a member of the <a href="https://msdn.microsoft.com/library/windows/hardware/gg441238">CDROM_STREAMING_CONTROL</a> structure, the input parameter to the <a href="https://msdn.microsoft.com/library/windows/hardware/gg441241">IOCTL_CDROM_ENABLE_STREAMING</a> I/O control code, which is used to enable or disable CDROM streaming. 
 
 
 ## -enum-fields
@@ -92,16 +79,15 @@ Streaming read and streaming write requests will be enabled for the requested fi
 
 ## -see-also
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_streaming_control.md">CDROM_STREAMING_CONTROL</a>
 
 
 
-<a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_enable_streaming.md">IOCTL_CDROM_ENABLE_STREAMING</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/gg441238">CDROM_STREAMING_CONTROL</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/gg441241">IOCTL_CDROM_ENABLE_STREAMING</a>
  
 
  
-
 

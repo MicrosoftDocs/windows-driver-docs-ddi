@@ -7,7 +7,7 @@ old-location: netvista\ndisrawreadportbufferulong.htm
 old-project: netvista
 ms.assetid: 86a0b7c4-ef3a-4dd9-961d-35f96182e30c
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NdisRawReadPortBufferUlong, NdisRawReadPortBufferUlong macro [Network Drivers Starting with Windows Vista], miniport_port_raw_ref_0696e0e4-976c-4d17-a482-054d5d441608.xml, ndis/NdisRawReadPortBufferUlong, netvista.ndisrawreadportbufferulong
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,18 +52,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 <b>NdisRawReadPortBufferUlong</b> reads a specified number of ULONGs into a caller-supplied buffer.
 
 
-## -syntax
-
-
-````
-VOID NdisRawReadPortBufferUlong(
-  [in]  ULONG_PTR Port,
-  [out] PULONG    Buffer,
-  [in]  ULONG     Length
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +60,7 @@ VOID NdisRawReadPortBufferUlong(
 ### -param Port [in]
 
 Specifies the I/O port. This address falls in a range that was mapped during initialization with 
-     <a href="..\ndis\nf-ndis-ndismregisterioportrange.md">
+     <a href="https://msdn.microsoft.com/3e7fc02b-9562-44b9-8659-793a1d96d1e9">
      NdisMRegisterIoPortRange</a>.
 
 
@@ -102,32 +90,31 @@ Specifies how many ULONGs to transfer from the NIC.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisrawwriteportbufferulong.md">NdisRawWritePortBufferUlong</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisrawreadportbufferushort.md">NdisRawReadPortBufferUshort</a>
+<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisrawreadportulong.md">NdisRawReadPortUlong</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh975121">NdisMRegisterIoPortRange</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismregisterioportrange.md">NdisMRegisterIoPortRange</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563782">NdisRawReadPortBufferUchar</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563791">NdisRawReadPortBufferUshort</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisrawreadportbufferuchar.md">NdisRawReadPortBufferUchar</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563801">NdisRawReadPortUlong</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563816">NdisRawWritePortBufferUlong</a>
  
 
  
-
 

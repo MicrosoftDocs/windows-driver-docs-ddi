@@ -7,7 +7,7 @@ old-location: buses\ucx_usbdevice_characteristic.htm
 old-project: usbref
 ms.assetid: 31BF5607-51EA-4FBF-A754-872FBD45915D
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PUCX_USBDEVICE_CHARACTERISTIC, PUCX_USBDEVICE_CHARACTERISTIC, PUCX_USBDEVICE_CHARACTERISTIC structure pointer [Buses], UCX_USBDEVICE_CHARACTERISTIC, UCX_USBDEVICE_CHARACTERISTIC structure [Buses], _UCX_USBDEVICE_CHARACTERISTIC, buses.ucx_usbdevice_characteristic, ucxusbdevice/PUCX_USBDEVICE_CHARACTERISTIC, ucxusbdevice/UCX_USBDEVICE_CHARACTERISTIC"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,20 +53,6 @@ req.product: Windows 10 or later.
 Stores the characteristics of an device. 
 
 
-## -syntax
-
-
-````
-typedef struct _UCX_USBDEVICE_CHARACTERISTIC {
-  ULONG                             Size;
-  UCX_USBDEVICE_CHARACTERISTIC_TYPE CharacteristicType;
-  union {
-    UCX_USBDEVICE_CHARACTERISTIC_PATH_DELAY PathDelay;
-  };
-} UCX_USBDEVICE_CHARACTERISTIC, *PUCX_USBDEVICE_CHARACTERISTIC;
-````
-
-
 ## -struct-fields
 
 
@@ -79,22 +65,21 @@ Size of this structure.
 
 ### -field CharacteristicType
 
-A <a href="..\ucxusbdevice\ne-ucxusbdevice-_ucx_usbdevice_characteristic_type.md">UCX_USBDEVICE_CHARACTERISTIC_TYPE</a>-type value that indicates the type of device characteristic.
+A <a href="https://msdn.microsoft.com/86FA72CC-C23F-40B9-9FDD-80C3B0D5EA73">UCX_USBDEVICE_CHARACTERISTIC_TYPE</a>-type value that indicates the type of device characteristic.
 
 
 #### - PathDelay
 
-A <a href="..\ucxusbdevice\ns-ucxusbdevice-_ucx_usbdevice_characteristic_path_delay.md">UCX_USBDEVICE_CHARACTERISTIC_PATH_DELAY</a>-typed value that indicates the path delay values for the endpoint.
+A <a href="https://msdn.microsoft.com/135D6C04-3520-46C2-BC64-DF0119578E6F">UCX_USBDEVICE_CHARACTERISTIC_PATH_DELAY</a>-typed value that indicates the path delay values for the endpoint.
 
 
 ## -see-also
 
-<a href="..\ucxusbdevice\nc-ucxusbdevice-evt_ucx_usbdevice_get_characteristic.md">EVT_UCX_USBDEVICE_GET_CHARACTERISTIC</a>
 
 
 
+<a href="https://msdn.microsoft.com/EE8568F6-3D88-477E-9F0D-044D014EBCF3">EVT_UCX_USBDEVICE_GET_CHARACTERISTIC</a>
  
 
  
-
 

@@ -55,14 +55,6 @@ req.product: Windows 10 or later.
 The <b>Start</b> method starts sending queued requests to a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/general-i-o-targets-in-umdf">local  I/O target</a>.
 
 
-## -syntax
-
-
-````
-HRESULT Start();
-````
-
-
 ## -parameters
 
 
@@ -117,7 +109,7 @@ For more information about I/O targets, see <a href="https://docs.microsoft.com/
 
 #### Examples
 
-The following code example first shows how a driver can obtain the <a href="..\wudfddi\nn-wudfddi-iwdfiotargetstatemanagement.md">IWDFIoTargetStateManagement</a> interface for a USB pipe object. The code example then  shows how an <a href="https://msdn.microsoft.com/library/windows/hardware/ff556799">IPnpCallback::OnD0Entry</a> callback function can call <b>Start</b>, if the driver uses a continuous reader for the USB pipe. 
+The following code example first shows how a driver can obtain the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559198">IWDFIoTargetStateManagement</a> interface for a USB pipe object. The code example then  shows how an <a href="https://msdn.microsoft.com/library/windows/hardware/ff556799">IPnpCallback::OnD0Entry</a> callback function can call <b>Start</b>, if the driver uses a continuous reader for the USB pipe. 
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -182,16 +174,15 @@ CMyDevice::OnD0Entry(
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559198">IWDFIoTargetStateManagement</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560289">IWDFRemoteTarget::Stop</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iwdfiotargetstatemanagement.md">IWDFIoTargetStateManagement</a>
-
-
-
  
 
  
-
 

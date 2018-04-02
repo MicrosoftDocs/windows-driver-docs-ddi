@@ -53,16 +53,6 @@ req.typenames:
 The<b> KsStreamPointerCancelTimeout </b>function cancels a previously scheduled time-out callback on the specified stream pointer.
 
 
-## -syntax
-
-
-````
-void KsStreamPointerCancelTimeout(
-  _In_ PKSSTREAM_POINTER StreamPointer
-);
-````
-
-
 ## -parameters
 
 
@@ -70,7 +60,7 @@ void KsStreamPointerCancelTimeout(
 
 ### -param StreamPointer [in]
 
-A pointer to a <a href="..\ks\ns-ks-_ksstream_pointer.md">KSSTREAM_POINTER</a> structure representing the stream pointer for which to cancel a registered time-out callback.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff567139">KSSTREAM_POINTER</a> structure representing the stream pointer for which to cancel a registered time-out callback.
 
 
 ## -returns
@@ -86,7 +76,7 @@ None
 
 
 
-Minidrivers should use <a href="..\ks\nf-ks-ksstreampointerscheduletimeout.md">KsStreamPointerScheduleTimeout</a> to schedule a time-out callback on a specified stream pointer.
+Minidrivers should use <a href="https://msdn.microsoft.com/library/windows/hardware/ff567135">KsStreamPointerScheduleTimeout</a> to schedule a time-out callback on a specified stream pointer.
 
 The <b>KsStreamPointerCancelTimeout</b> function does not affect stream pointers that have no currently scheduled time-out callback.
 
@@ -95,16 +85,15 @@ The <b>KsStreamPointerCancelTimeout</b> function does not affect stream pointers
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksstreampointerscheduletimeout.md">KsStreamPointerScheduleTimeout</a>
 
 
 
-<a href="..\ks\nf-ks-kspingetfirstclonestreampointer.md">KsPinGetFirstCloneStreamPointer</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563512">KsPinGetFirstCloneStreamPointer</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567135">KsStreamPointerScheduleTimeout</a>
  
 
  
-
 

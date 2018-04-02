@@ -7,7 +7,7 @@ old-location: display\drawindexedprimitive2.htm
 old-project: display
 ms.assetid: f12af70c-a6f2-42da-be62-1cfeb90b6239
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DrawIndexedPrimitive2, DrawIndexedPrimitive2 callback function [Display Devices], PFND3DDDI_DRAWINDEXEDPRIMITIVE2, UserModeDisplayDriver_Functions_55bb1ac5-49e3-428b-9737-ffe0577e6bba.xml, d3dumddi/DrawIndexedPrimitive2, display.drawindexedprimitive2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,23 +52,6 @@ req.typenames: DXGK_PTE
 The <b>DrawIndexedPrimitive2</b> function draws indexed primitives that the Microsoft Direct3D runtime has transformed the index data in.
 
 
-## -prototype
-
-
-````
-PFND3DDDI_DRAWINDEXEDPRIMITIVE2 DrawIndexedPrimitive2;
-
-__checkReturn HRESULT APIENTRY DrawIndexedPrimitive2(
-  _In_           HANDLE                          hDevice,
-  _In_     const D3DDDIARG_DRAWINDEXEDPRIMITIVE2 *pData,
-  _In_           UINT                            dwIndicesSize,
-  _In_     const VOID                            *pIndexBuffer,
-  _In_opt_ const UINT                            *pFlagBuffer
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -88,7 +71,7 @@ __checkReturn HRESULT APIENTRY DrawIndexedPrimitive2(
 
 
 
-### -param UINT
+### -param Arg1
 
 
 #### - dwIndicesSize [in]
@@ -98,7 +81,7 @@ __checkReturn HRESULT APIENTRY DrawIndexedPrimitive2(
 
 #### - pData [in]
 
- A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_drawindexedprimitive2.md">D3DDDIARG_DRAWINDEXEDPRIMITIVE2</a> structure that describes the primitive to draw.
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543054">D3DDDIARG_DRAWINDEXEDPRIMITIVE2</a> structure that describes the primitive to draw.
 
 
 #### - pFlagBuffer [in, optional]
@@ -128,27 +111,26 @@ If the pointer is <b>NULL</b>, the user-mode display driver should use its fast 
 
 Stream zero contains transform indices and is the only stream that should be accessed. 
 
-When the Microsoft Direct3D runtime specifies triangle-edge flags in the value that the <i>pFlagBuffer</i> parameter points to, the runtime also specifies to draw only one triangle (that is, the runtime specifies the D3DPT_TRIANGLELIST value in the <b>PrimitiveType</b> member and 0x00000001 in the <b>PrimitiveCount</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_drawindexedprimitive2.md">D3DDDIARG_DRAWINDEXEDPRIMITIVE2</a> structure that the <i>pData</i> parameter points to).
+When the Microsoft Direct3D runtime specifies triangle-edge flags in the value that the <i>pFlagBuffer</i> parameter points to, the runtime also specifies to draw only one triangle (that is, the runtime specifies the D3DPT_TRIANGLELIST value in the <b>PrimitiveType</b> member and 0x00000001 in the <b>PrimitiveCount</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543054">D3DDDIARG_DRAWINDEXEDPRIMITIVE2</a> structure that the <i>pData</i> parameter points to).
 
 
 
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_drawindexedprimitive.md">DrawIndexedPrimitive</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543054">D3DDDIARG_DRAWINDEXEDPRIMITIVE2</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_drawindexedprimitive2.md">D3DDDIARG_DRAWINDEXEDPRIMITIVE2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544519">D3DDDI_DEVICEFUNCS</a>
 
 
 
+<a href="https://msdn.microsoft.com/12bb6274-d042-43bb-b9f5-1417f42da729">DrawIndexedPrimitive</a>
  
 
  
-
 

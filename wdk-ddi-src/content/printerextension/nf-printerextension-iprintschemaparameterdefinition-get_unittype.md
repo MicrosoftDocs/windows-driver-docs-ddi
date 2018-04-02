@@ -56,27 +56,16 @@ The <b>UnitType</b> property gets the unit type.
 This property is read-only.
 
 
-## -syntax
-
-
-````
-HRESULT get_UnitType(
-  [out, retval] BSTR *pbstrUnitType
-);
-````
-
-
 ## -parameters
 
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintschemaparameterdefinition.md">IPrintSchemaParameterDefinition</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn465890">IPrintSchemaParameterDefinition</a>
  
 
  
-
 

@@ -52,19 +52,6 @@ req.product: Windows 10 or later.
 
 
 
-## -syntax
-
-
-````
-BOOL APIENTRY OEMPDriverEvent(
-   DWORD  dwDriverEvent,
-   DWORD  dwLevel,
-   LPBYTE pDriverInfo,
-   LPARAM lParam
-);
-````
-
-
 ## -parameters
 
 

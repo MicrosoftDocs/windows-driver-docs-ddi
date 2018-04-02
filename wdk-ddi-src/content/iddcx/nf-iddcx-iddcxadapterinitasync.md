@@ -7,7 +7,7 @@ old-location: display\iddcxadapterinitasync.htm
 old-project: display
 ms.assetid: c23d0d24-b043-4e39-afd3-abab6bb84769
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IddCxAdapterInitAsync, IddCxAdapterInitAsync method [Display Devices], display.iddcxadapterinitasync, iddcx/IddCxAdapterInitAsync
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,17 +52,6 @@ req.typenames:
 An asynchronous initiation function called by the driver to create a WDDM graphics adapter.
 
                 
-
-
-## -syntax
-
-
-````
-NTSTATUS IddCxAdapterInitAsync(
-  _In_  const IDARG_IN_ADAPTER_INIT*  pInArgs,
-  _Out_       IDARG_OUT_ADAPTER_INIT* pOutArgs
-);
-````
 
 
 ## -parameters

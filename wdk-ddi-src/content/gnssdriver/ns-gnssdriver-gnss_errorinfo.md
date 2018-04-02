@@ -3,12 +3,12 @@ UID: NS:gnssdriver.GNSS_ERRORINFO
 title: GNSS_ERRORINFO
 author: windows-driver-content
 description: This structure contains error information.
-old-location: gnss\gnss_errorinfo.htm
-old-project: gnss
+old-location: sensors\gnss_errorinfo.htm
+old-project: sensors
 ms.assetid: 754CD1DD-88E6-4E02-8E24-1939222FE326
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: "*PGNSS_ERRORINFO, GNSS_ERRORINFO, GNSS_ERRORINFO structure [Sensor Devices], PGNSS_ERRORINFO, PGNSS_ERRORINFO structure pointer [Sensor Devices], gnss.gnss_errorinfo, gnssdriver/GNSS_ERRORINFO, gnssdriver/PGNSS_ERRORINFO"
+ms.date: 2/22/2018
+ms.keywords: "*PGNSS_ERRORINFO, GNSS_ERRORINFO, GNSS_ERRORINFO structure [Sensor Devices], PGNSS_ERRORINFO, PGNSS_ERRORINFO structure pointer [Sensor Devices], gnssdriver/GNSS_ERRORINFO, gnssdriver/PGNSS_ERRORINFO, sensors.gnss_errorinfo"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -50,21 +50,6 @@ req.typenames: GNSS_ERRORINFO, *PGNSS_ERRORINFO
 
 
 This structure contains error information.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  ULONG Size;
-  ULONG Version;
-  ULONG ErrorCode;
-  BOOL  IsRecoverable;
-  WCHAR ErrorDescription[256];
-  BYTE  Unused[512];
-} GNSS_ERRORINFO, *PGNSS_ERRORINFO;
-````
 
 
 ## -struct-fields

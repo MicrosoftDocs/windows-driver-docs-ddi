@@ -52,18 +52,6 @@ req.product: Windows 10 or later.
 
 
 
-## -syntax
-
-
-````
-VOID APIENTRY OEMSendFontCmd(
-   PDEVOBJ      pdevobj,
-   PUNIFONTOBJ  pUFObj,
-   PFINVOCATION pFInv
-);
-````
-
-
 ## -parameters
 
 

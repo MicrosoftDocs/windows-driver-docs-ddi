@@ -7,7 +7,7 @@ old-location: buses\ioctl_internal_usb_get_controller_name.htm
 old-project: usbref
 ms.assetid: 52390982-febe-4d6d-b53a-160fb281b099
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_INTERNAL_USB_GET_CONTROLLER_NAME, IOCTL_INTERNAL_USB_GET_CONTROLLER_NAME control code [Buses], buses.ioctl_internal_usb_get_controller_name, usbioctl/IOCTL_INTERNAL_USB_GET_CONTROLLER_NAME, usbirp_36fbf149-8f7d-46ac-9ef3-017cbb000e1c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -65,7 +65,7 @@ The <b>IOCTL_INTERNAL_USB_GET_CONTROLLER_NAME</b> I/O request queries the bus dr
 
 ### -input-buffer
 
-<b>Parameters.Others.Argument1</b> should be a pointer to a <a href="..\usbioctl\ns-usbioctl-_usb_hub_name.md">USB_HUB_NAME</a> structure that will be filled in with the name of the host controller.
+<b>Parameters.Others.Argument1</b> should be a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540025">USB_HUB_NAME</a> structure that will be filled in with the name of the host controller.
 
 
 ### -input-buffer-length
@@ -110,7 +110,7 @@ The bus or port driver sets <b>Irp-&gt;IoStatus.Status</b> to STATUS_SUCCESS or 
 
 
 
-The caller must supply a buffer that is large enough to hold a <a href="..\usbioctl\ns-usbioctl-_usb_hub_name.md">USB_HUB_NAME</a> structure. The  <b>Parameters.Others.Argument2</b> value indicates size of that buffer. Upon successful completion, the <b>HubName</b> member of <b>USB_HUB_NAME</b> contains the name of the controller and the <b>ActualLength</b> member indicates the length of the controller name string. Note that <b>ActualLength</b> does not indicate the size of the entire <b>USB_HUB_NAME</b> structure. If the buffer supplied in <b>Parameters.Others.Argument1</b> is not large enough to hold the string, the <b>HubName</b> value might show a truncated string.
+The caller must supply a buffer that is large enough to hold a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540025">USB_HUB_NAME</a> structure. The  <b>Parameters.Others.Argument2</b> value indicates size of that buffer. Upon successful completion, the <b>HubName</b> member of <b>USB_HUB_NAME</b> contains the name of the controller and the <b>ActualLength</b> member indicates the length of the controller name string. Note that <b>ActualLength</b> does not indicate the size of the entire <b>USB_HUB_NAME</b> structure. If the buffer supplied in <b>Parameters.Others.Argument1</b> is not large enough to hold the string, the <b>HubName</b> value might show a truncated string.
 
 To obtain the size of the buffer required to hold the string, send the request twice. In the first request, specify a buffer that is at least <code>sizeof(USB_HUB_NAME)</code> bytes. Otherwise, <b>ActualLength</b> does not indicate the correct length of the string and the request fails with STATUS_BUFFER_TOO_SMALL.
 
@@ -121,12 +121,11 @@ After the first request completes successfully, allocate a buffer of <code>Actua
 
 ## -see-also
 
-<a href="..\usbioctl\ns-usbioctl-_usb_hub_name.md">USB_HUB_NAME</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540025">USB_HUB_NAME</a>
  
 
  
-
 

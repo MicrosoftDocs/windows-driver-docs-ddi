@@ -52,31 +52,6 @@ req.typenames: KSPROPERTY_ITEM, *PKSPROPERTY_ITEM
 Drivers use the KSPROPERTY_ITEM structure to describe how they support a property in a property set.
 
 
-## -syntax
-
-
-````
-typedef struct {
-  ULONG                   PropertyId;
-  union {
-    PFNKSHANDLER GetPropertyHandler;
-    BOOLEAN      GetSupported;
-  };
-  ULONG                   MinProperty;
-  ULONG                   MinData;
-  union {
-    PFNKSHANDLER SetPropertyHandler;
-    BOOLEAN      SetSupported;
-  };
-  const KSPROPERTY_VALUES *Values;
-  ULONG                   RelationsCount;
-  const KSPROPERTY        *Relations;
-  PFNKSHANDLER            SupportHandler;
-  ULONG                   SerializedSize;
-} KSPROPERTY_ITEM, *PKSPROPERTY_ITEM;
-````
-
-
 ## -struct-fields
 
 
@@ -99,7 +74,7 @@ Specifies the minimum buffer length to hold the data read from or written to thi
 
 ### -field Values
 
-Pointer to a structure of type <a href="..\ks\ns-ks-ksproperty_values.md">KSPROPERTY_VALUES</a>. Specifies the acceptable and/or default values for the property. These are the same as the values reported by a driver in response to an IOCTL_KS_PROPERTY request with the KSPROPERTY_TYPE_BASICSUPPORT and KSPROPERTY_TYPE_DEFAULTVALUES flags set.
+Pointer to a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff565966">KSPROPERTY_VALUES</a>. Specifies the acceptable and/or default values for the property. These are the same as the values reported by a driver in response to an IOCTL_KS_PROPERTY request with the KSPROPERTY_TYPE_BASICSUPPORT and KSPROPERTY_TYPE_DEFAULTVALUES flags set.
 
 
 ### -field RelationsCount
@@ -146,7 +121,7 @@ Set to <b>TRUE</b> if this property supports set requests, <b>FALSE</b> if it do
 
 
 
-Stream class minidrivers use KSPROPERTY_ITEM to describe to the client how to fulfill property requests on each property within a set. Handling for the property set as a whole is specified in the <a href="..\ks\ns-ks-ksproperty_set.md">KSPROPERTY_SET</a> structure, which contains pointers to arrays of KSPROPERTY_ITEM structures.
+Stream class minidrivers use KSPROPERTY_ITEM to describe to the client how to fulfill property requests on each property within a set. Handling for the property set as a whole is specified in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565617">KSPROPERTY_SET</a> structure, which contains pointers to arrays of KSPROPERTY_ITEM structures.
 
 The stream class driver handles property requests on behalf of the minidriver. When the stream class driver requires more information from the minidriver, it passes an SRB_XXX request to one of the minidriver's <b>StrMiniReceiveXXXRequest</b> routines. The stream class driver handles the different request types as listed in the following table.
 
@@ -191,7 +166,7 @@ KSPROPERTY_TYPE_SETSUPPORT
 
 </td>
 <td>
-The stream class driver completes the property request IRP as STATUS_SUCCESS only if the driver supplies an entry for the property set within its <a href="..\ks\ns-ks-ksproperty_set.md">KSPROPERTY_SET</a> structure.
+The stream class driver completes the property request IRP as STATUS_SUCCESS only if the driver supplies an entry for the property set within its <a href="https://msdn.microsoft.com/library/windows/hardware/ff565617">KSPROPERTY_SET</a> structure.
 
 </td>
 </tr>
@@ -218,7 +193,7 @@ The stream class driver uses the <b>Relations</b> member to determine what prope
 </table>
  
 
-If the client specifies KSPROPERTY_TYPE_DEFAULTVALUES, the driver uses the data buffer to return a description of its value type, including possibly its allowed range and default value. This flag is similar in result to KSPROPERTY_TYPE_BASICSUPPORT, except that any values returned are those that have been marked with KSPROPERTY_MEMBER_FLAG_DEFAULT in the <b>Flags</b> member of the structure <a href="..\ks\ns-ks-ksproperty_membersheader.md">KSPROPERTY_MEMBERSHEADER</a>.
+If the client specifies KSPROPERTY_TYPE_DEFAULTVALUES, the driver uses the data buffer to return a description of its value type, including possibly its allowed range and default value. This flag is similar in result to KSPROPERTY_TYPE_BASICSUPPORT, except that any values returned are those that have been marked with KSPROPERTY_MEMBER_FLAG_DEFAULT in the <b>Flags</b> member of the structure <a href="https://msdn.microsoft.com/library/windows/hardware/ff565189">KSPROPERTY_MEMBERSHEADER</a>.
 
 For more information, see <a href="https://msdn.microsoft.com/a385929e-1934-4d88-aaf9-ff1ddbfd30f7">KS Properties</a>.
 
@@ -227,15 +202,26 @@ For more information, see <a href="https://msdn.microsoft.com/a385929e-1934-4d88
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksproperty_set.md">KSPROPERTY_SET</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568175">SRB_GET_STREAM_PROPERTY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565617">KSPROPERTY_SET</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565966">KSPROPERTY_VALUES</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568170">SRB_GET_DEVICE_PROPERTY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568175">SRB_GET_STREAM_PROPERTY</a>
 
 
 
@@ -244,19 +230,7 @@ For more information, see <a href="https://msdn.microsoft.com/a385929e-1934-4d88
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568207">SRB_SET_STREAM_PROPERTY</a>
-
-
-
-<a href="..\ks\ns-ks-ksproperty_values.md">KSPROPERTY_VALUES</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
-
-
-
  
 
  
-
 

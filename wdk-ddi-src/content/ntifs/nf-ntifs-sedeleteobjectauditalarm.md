@@ -7,7 +7,7 @@ old-location: ifsk\sedeleteobjectauditalarm.htm
 old-project: ifsk
 ms.assetid: 3d0a26e2-60d4-437e-b5cc-3ca7afee8f5a
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: SeDeleteObjectAuditAlarm, SeDeleteObjectAuditAlarm routine [Installable File System Drivers], ifsk.sedeleteobjectauditalarm, ntifs/SeDeleteObjectAuditAlarm, seref_eb1715b3-9c8b-4848-8cc8-3809d0d35d9e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,17 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>SeDeleteObjectAuditAlarm</b> routine generates audit and alarm messages for an object that is marked for deletion.
 
 
-## -syntax
-
-
-````
-VOID SeDeleteObjectAuditAlarm(
-  _In_ PVOID  Object,
-  _In_ HANDLE Handle
-);
-````
-
-
 ## -parameters
 
 
@@ -100,24 +89,23 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-seopenobjectauditalarm.md">SeOpenObjectAuditAlarm</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-seauditingfileevents.md">SeAuditingFileEvents</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554770">SeAuditingFileEvents</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-seauditingfileorglobalevents.md">SeAuditingFileOrGlobalEvents</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554778">SeAuditingFileOrGlobalEvents</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-seopenobjectfordeleteauditalarm.md">SeOpenObjectForDeleteAuditAlarm</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556682">SeOpenObjectAuditAlarm</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556685">SeOpenObjectForDeleteAuditAlarm</a>
  
 
  
-
 

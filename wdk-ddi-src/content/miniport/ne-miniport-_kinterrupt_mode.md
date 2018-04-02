@@ -7,7 +7,7 @@ old-location: kernel\kinterrupt_mode.htm
 old-project: kernel
 ms.assetid: 2f00fe3f-d73d-4f0f-a1dd-ae72fa57e55d
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: KINTERRUPT_MODE, KINTERRUPT_MODE enumeration [Kernel-Mode Driver Architecture], Latched, LevelSensitive, _KINTERRUPT_MODE, kernel.kinterrupt_mode, sysenum_35275927-b863-496a-8193-579f9d1d3a22.xml, wdm/KINTERRUPT_MODE, wdm/Latched, wdm/LevelSensitive
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,17 +52,6 @@ req.typenames: KINTERRUPT_MODE
 The <b>KINTERRUPT_MODE</b> enumeration type indicates whether an interrupt is level-triggered or edge-triggered.
 
 
-## -syntax
-
-
-````
-typedef enum _KINTERRUPT_MODE { 
-  LevelSensitive  = 0,
-  Latched         = 1
-} KINTERRUPT_MODE;
-````
-
-
 ## -enum-fields
 
 
@@ -89,20 +78,19 @@ The interrupt mode is an electrical characteristic of the interrupt. A device si
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-ioconnectinterrupt.md">IoConnectInterrupt</a>
 
 
 
-<a href="..\wdm\ne-wdm-_kinterrupt_polarity.md">KINTERRUPT_POLARITY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548371">IoConnectInterrupt</a>
 
 
 
-<a href="..\wdm\nf-wdm-ioconnectinterruptex.md">IoConnectInterruptEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548378">IoConnectInterruptEx</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554243">KINTERRUPT_POLARITY</a>
  
 
  
-
 

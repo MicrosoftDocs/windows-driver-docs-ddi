@@ -53,20 +53,6 @@ req.product: Windows 10 or later.
 The <i>EvtSerCxApplyConfig</i> event callback function instructs the serial controller driver to apply a list of configuration settings to the serial controller hardware.
 
 
-## -prototype
-
-
-````
-EVT_SERCX_APPLY_CONFIG EvtSerCxApplyConfig;
-
-NTSTATUS EvtSerCxApplyConfig(
-  _In_ WDFDEVICE Device,
-  _In_ PVOID     ConnectionParameters
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -95,15 +81,15 @@ The <i>EvtSerCxApplyConfig</i> function returns STATUS_SUCCESS if the call is su
 
 
 
-SerCx calls this function during initialization of the serial controller to ensure that the hardware is in a valid initial state. Additionally, this function is called whenever a client sends an <a href="..\ntddser\ni-ntddser-ioctl_serial_apply_default_configuration.md">IOCTL_SERIAL_APPLY_DEFAULT_CONFIGURATION</a> I/O control request to the controller.
+SerCx calls this function during initialization of the serial controller to ensure that the hardware is in a valid initial state. Additionally, this function is called whenever a client sends an <a href="https://msdn.microsoft.com/library/windows/hardware/hh406621">IOCTL_SERIAL_APPLY_DEFAULT_CONFIGURATION</a> I/O control request to the controller.
 
 SerCx obtains these configuration parameters from the ACPI resource descriptor for the serial controller device. The data format that the ACPI firmware uses to store these configuration settings should be the same data format that is expected by the serial controller driver.
 
 When a client sends an <b>IOCTL_SERIAL_APPLY_DEFAULT_CONFIGURATION</b> request to a serial port that is managed by SerCx, SerCx determines whether the serial controller driver for the serial port supports the <i>EvtSerCxApplyConfig</i> callback, and whether the ACPI resource descriptor for the serial port provides default connection settings. If not, SerCx completes the request with error status code STATUS_NOT_SUPPORTED. Otherwise, SerCx passes the connection parameters to the driver's <i>EvtSerCxApplyConfig</i> callback function. After this callback returns, SerCx completes the request and uses the return value from the callback as the status code for the request.
 
-If a serial controller driver needs to obtain the default connection parameters at a time other than during an <i>EvtSerCxApplyConfig</i> callback, the driver can call the <a href="..\sercx\nf-sercx-sercxgetconnectionparameters.md">SerCxGetConnectionParameters</a> method.
+If a serial controller driver needs to obtain the default connection parameters at a time other than during an <i>EvtSerCxApplyConfig</i> callback, the driver can call the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406698">SerCxGetConnectionParameters</a> method.
 
-To register an <i>EvtSerCxApplyConfig</i> callback function, the driver must call the <a href="..\sercx\nf-sercx-sercxinitialize.md">SerCxInitialize</a> method.
+To register an <i>EvtSerCxApplyConfig</i> callback function, the driver must call the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406711">SerCxInitialize</a> method.
 
 
 #### Examples
@@ -254,20 +240,19 @@ The PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER and PPNP_SERIAL_BUS_DESCRIPTOR
 
 ## -see-also
 
-<a href="..\sercx\nf-sercx-sercxgetconnectionparameters.md">SerCxGetConnectionParameters</a>
 
 
 
-<a href="..\sercx\nf-sercx-sercxinitialize.md">SerCxInitialize</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406621">IOCTL_SERIAL_APPLY_DEFAULT_CONFIGURATION</a>
 
 
 
-<a href="..\ntddser\ni-ntddser-ioctl_serial_apply_default_configuration.md">IOCTL_SERIAL_APPLY_DEFAULT_CONFIGURATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406698">SerCxGetConnectionParameters</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406711">SerCxInitialize</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: netvista\ndisfreturnnetbufferlists.htm
 old-project: netvista
 ms.assetid: 083cf25d-7436-4c4e-b29a-c9a2702b136d
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NdisFReturnNetBufferLists, NdisFReturnNetBufferLists function [Network Drivers Starting with Windows Vista], filter_ndis_functions_ref_3473c0c3-077c-4df7-b9d4-8392cf1ed918.xml, ndis/NdisFReturnNetBufferLists, netvista.ndisfreturnnetbufferlists
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,21 +52,9 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 
 Filter drivers call
   <b>NdisFReturnNetBufferLists</b> to release the ownership of one or more 
-  <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures and their
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structures and their
   associated 
-  <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structures.
-
-
-## -syntax
-
-
-````
-VOID NdisFReturnNetBufferLists(
-  _In_ NDIS_HANDLE      NdisFilterHandle,
-  _In_ PNET_BUFFER_LIST NetBufferLists,
-  _In_ ULONG            ReturnFlags
-);
-````
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structures.
 
 
 ## -parameters
@@ -78,14 +66,14 @@ VOID NdisFReturnNetBufferLists(
 
 The NDIS handle that identifies this filter module. NDIS passed the handle to the filter driver in
      a call to the 
-     <a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a> function.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a> function.
 
 
 ### -param NetBufferLists [in]
 
 A pointer to a linked list of NET_BUFFER_LIST structures that are to be returned to the underlying
      driver. The linked list can contain NET_BUFFER_LIST structures from multiple previous calls to the 
-     <a href="..\ndis\nc-ndis-filter_receive_net_buffer_lists.md">
+     <a href="https://msdn.microsoft.com/6359c2a7-1208-41ea-bbf9-015c91b6e8f6">
      FilterReceiveNetBufferLists</a> function.
 
 
@@ -107,11 +95,11 @@ Specifies that the current IRQL is DISPATCH_LEVEL. For more information about th
 
 #### NDIS_RETURN_FLAGS_SWITCH_SINGLE_SOURCE
 
-If this flag is set, all packets in a linked list of <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures originated from the same Hyper-V extensible switch source port.
+If this flag is set, all packets in a linked list of <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structures originated from the same Hyper-V extensible switch source port.
 
 For more information, see <a href="https://msdn.microsoft.com/FBA506EC-4E9F-4964-9C9C-FF4910DDA908">Hyper-V Extensible Switch Send and Receive Flags</a>.
 
-<div class="alert"><b>Note</b>  If each packet in the linked list of <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures uses the same source port, the extension should set the <b>NDIS_RECEIVE_FLAGS_SWITCH_SINGLE_SOURCE</b> flag in the <i>ReceiveFlags</i> parameter of <a href="..\ndis\nf-ndis-ndisfindicatereceivenetbufferlists.md">NdisFIndicateReceiveNetBufferLists</a>  when it sends the request.</div>
+<div class="alert"><b>Note</b>  If each packet in the linked list of <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structures uses the same source port, the extension should set the <b>NDIS_RECEIVE_FLAGS_SWITCH_SINGLE_SOURCE</b> flag in the <i>ReceiveFlags</i> parameter of <a href="https://msdn.microsoft.com/library/windows/hardware/ff561820">NdisFIndicateReceiveNetBufferLists</a>  when it sends the request.</div>
 <div> </div>
 
 ## -returns
@@ -129,10 +117,10 @@ None
 
 If the NDIS_RECEIVE_FLAGS_RESOURCES flag in the 
     <i>ReceiveFlags</i> parameter that NDIS passed to the 
-    <a href="..\ndis\nc-ndis-filter_receive_net_buffer_lists.md">
+    <a href="https://msdn.microsoft.com/6359c2a7-1208-41ea-bbf9-015c91b6e8f6">
     FilterReceiveNetBufferLists</a> function was not set, the filter driver must call the 
     <b>NdisFReturnNetBufferLists</b> function to return the 
-    <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures and associated
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structures and associated
     data. After the filter driver calls 
     <b>NdisFReturnNetBufferLists</b>, NDIS returns the data to the underlying driver.
 
@@ -141,24 +129,23 @@ If the NDIS_RECEIVE_FLAGS_RESOURCES flag in the
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a>
 
 
 
-<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
+<a href="https://msdn.microsoft.com/6359c2a7-1208-41ea-bbf9-015c91b6e8f6">FilterReceiveNetBufferLists</a>
 
 
 
-<a href="..\ndis\nc-ndis-filter_receive_net_buffer_lists.md">FilterReceiveNetBufferLists</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a>
  
 
  
-
 

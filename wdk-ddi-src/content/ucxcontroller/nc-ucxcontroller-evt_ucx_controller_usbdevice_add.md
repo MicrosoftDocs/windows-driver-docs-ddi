@@ -7,7 +7,7 @@ old-location: buses\evt_ucx_controller_usbdevice_add.htm
 old-project: usbref
 ms.assetid: 0f89b57a-3374-4f40-88b5-43d233ba0e47
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: EVT_UCX_CONTROLLER_USBDEVICE_ADD, EvtUcxControllerUsbDeviceAdd, EvtUcxControllerUsbDeviceAdd callback function [Buses], PEVT_UCX_CONTROLLER_USBDEVICE_ADD, PEVT_UCX_CONTROLLER_USBDEVICE_ADD callback function pointer [Buses], buses.evt_ucx_controller_usbdevice_add, ucxcontroller/EvtUcxControllerUsbDeviceAdd
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,23 +53,6 @@ req.product: Windows 10 or later.
 The client driver's implementation that UCX calls when a new USB device is detected.
 
 
-## -prototype
-
-
-````
-EVT_UCX_CONTROLLER_USBDEVICE_ADD EvtUcxControllerUsbDeviceAdd;
-
-NTSTATUS EvtUcxControllerUsbDeviceAdd(
-  _In_ UCXCONTROLLER      UcxController,
-  _In_ PUCXUSBDEVICE_INFO UcxUsbDeviceInfo,
-  _In_ PUCXUSBDEVICE_INIT UsbDeviceInit
-)
-{ ... }
-
-typedef EVT_UCX_CONTROLLER_USBDEVICE_ADD PEVT_UCX_CONTROLLER_USBDEVICE_ADD;
-````
-
-
 ## -parameters
 
 
@@ -82,7 +65,7 @@ typedef EVT_UCX_CONTROLLER_USBDEVICE_ADD PEVT_UCX_CONTROLLER_USBDEVICE_ADD;
 
 ### -param UcxUsbDeviceInfo [in]
 
-Pointer to a <a href="..\ucxusbdevice\ns-ucxusbdevice-_ucxusbdevice_info.md">UCXUSBDEVICE_INFO</a> structure.
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/mt188055">UCXUSBDEVICE_INFO</a> structure.
 
 
 ### -param UsbDeviceInit [in]
@@ -109,7 +92,7 @@ The UCX client driver registers its <i>EVT_UCX_CONTROLLER_USBDEVICE_ADD</i> impl
 
 This callback function creates a new USB device object and registers the
     USB device object callback functions by calling
-    <a href="..\ucxusbdevice\nf-ucxusbdevice-ucxusbdevicecreate.md">UcxUsbDeviceCreate</a>.  The function may need to allocate the common buffer that will be
+    <a href="https://msdn.microsoft.com/library/windows/hardware/mt188052">UcxUsbDeviceCreate</a>.  The function may need to allocate the common buffer that will be
     used as the device context.
 
 
@@ -189,12 +172,11 @@ EvtControllerUsbDeviceAddEnd:
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt188033">UcxControllerCreate</a>
-
-
-
  
 
  
-
 

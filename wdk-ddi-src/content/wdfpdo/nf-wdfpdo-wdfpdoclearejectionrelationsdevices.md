@@ -56,16 +56,6 @@ req.product: Windows 10 or later.
 The <b>WdfPdoClearEjectionRelationsDevices</b> method removes all devices from the list of devices that must be ejected when a specified device is ejected. 
 
 
-## -syntax
-
-
-````
-VOID WdfPdoClearEjectionRelationsDevices(
-  _In_ WDFDEVICE Device
-);
-````
-
-
 ## -parameters
 
 
@@ -113,16 +103,15 @@ The following code example clears the specified device's list of ejection relati
 
 ## -see-also
 
-<a href="..\wdfpdo\nf-wdfpdo-wdfpdoaddejectionrelationsphysicaldevice.md">WdfPdoAddEjectionRelationsPhysicalDevice</a>
 
 
 
-<a href="..\wdfpdo\nf-wdfpdo-wdfpdoremoveejectionrelationsphysicaldevice.md">WdfPdoRemoveEjectionRelationsPhysicalDevice</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548770">WdfPdoAddEjectionRelationsPhysicalDevice</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548814">WdfPdoRemoveEjectionRelationsPhysicalDevice</a>
  
 
  
-
 

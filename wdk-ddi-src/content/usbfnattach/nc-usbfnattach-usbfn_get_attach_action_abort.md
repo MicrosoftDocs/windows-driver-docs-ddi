@@ -7,7 +7,7 @@ old-location: buses\usbfn_get_attach_action_abort.htm
 old-project: usbref
 ms.assetid: 0A44551A-F379-442D-99E9-87231F5FB178
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: USBFN_GET_ATTACH_ACTION_ABORT, USBFN_SET_DEVICE_STATE, USBFN_SET_DEVICE_STATE callback function [Buses], UsbFnGetAttachActionAbort, UsbFnGetAttachActionAbort callback function [Buses], buses.usbfn_get_attach_action_abort, usbfnattach/UsbFnGetAttachActionAbort
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,21 +51,6 @@ req.product: Windows 10 or later.
 
 
 The filter driver's implementation to abort an attach-detect operation.
-
-
-## -prototype
-
-
-````
-USBFN_GET_ATTACH_ACTION_ABORT UsbFnGetAttachActionAbort;
-
-NTSTATUS UsbFnGetAttachActionAbort(
-  _In_ PVOID Context
-)
-{ ... }
-
-typedef PFN_USBFN_SET_DEVICE_STATE USBFN_SET_DEVICE_STATE;
-````
 
 
 ## -parameters
@@ -128,12 +113,11 @@ UsbLowerFilter_GetAttachActionAbortOperation(
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/05D2B46A-282C-4B75-9F5C-2FC0AF344AB9">USB filter driver for supporting proprietary chargers</a>
-
-
-
  
 
  
-
 

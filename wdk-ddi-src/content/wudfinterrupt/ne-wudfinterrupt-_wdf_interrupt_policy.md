@@ -52,22 +52,7 @@ req.product: Windows 10 or later.
 
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
-The <a href="..\wudfinterrupt\ne-wudfinterrupt-_wdf_interrupt_policy.md">WDF_INTERRUPT_POLICY</a> enumeration type identifies the affinity policies that the Plug and Play (PnP) manager can use when it assigns a device's interrupts to the processors of a multiprocessor system.
-
-
-## -syntax
-
-
-````
-typedef enum _WDF_INTERRUPT_POLICY { 
-  WdfIrqPolicyMachineDefault                     = 0,
-  WdfIrqPolicyAllCloseProcessors                 = 1,
-  WdfIrqPolicyOneCloseProcessor                  = 2,
-  WdfIrqPolicyAllProcessorsInMachine             = 3,
-  WdfIrqPolicySpecifiedProcessors                = 4,
-  WdfIrqPolicySpreadMessagesAcrossAllProcessors  = 5
-} WDF_INTERRUPT_POLICY, *PWDF_INTERRUPT_POLICY;
-````
+The <a href="https://msdn.microsoft.com/library/windows/hardware/hh464032">WDF_INTERRUPT_POLICY</a> enumeration type identifies the affinity policies that the Plug and Play (PnP) manager can use when it assigns a device's interrupts to the processors of a multiprocessor system.
 
 
 ## -enum-fields
@@ -109,19 +94,18 @@ The PnP manager should assign different message-based interrupts to different pr
 
 
 
-The <a href="..\wudfinterrupt\ne-wudfinterrupt-_wdf_interrupt_policy.md">WDF_INTERRUPT_POLICY</a> enumeration type is used as input to the <a href="https://msdn.microsoft.com/EDBCBB37-41A4-4234-BE8C-4C8739BC287B">IWDFInterrupt::SetPolicy</a> method.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/hh464032">WDF_INTERRUPT_POLICY</a> enumeration type is used as input to the <a href="https://msdn.microsoft.com/EDBCBB37-41A4-4234-BE8C-4C8739BC287B">IWDFInterrupt::SetPolicy</a> method.
 
 
 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/EDBCBB37-41A4-4234-BE8C-4C8739BC287B">IWDFInterrupt::SetPolicy</a>
-
-
-
  
 
  
-
 

@@ -52,17 +52,6 @@ req.typenames: KSOBJECT_CREATE, *PKSOBJECT_CREATE
 The KSOBJECT_CREATE structure contains an array of create handlers for base object classes supported by this device object.
 
 
-## -syntax
-
-
-````
-typedef struct {
-  ULONG                 CreateItemsCount;
-  PKSOBJECT_CREATE_ITEM CreateItemsList;
-} KSOBJECT_CREATE, *PKSOBJECT_CREATE;
-````
-
-
 ## -struct-fields
 
 
@@ -75,17 +64,16 @@ Contains the number of items in the following array.
 
 ### -field CreateItemsList
 
-Points to an array of <a href="..\ks\ns-ks-ksobject_create_item.md">KSOBJECT_CREATE_ITEM</a> structures for base object classes supported by this device object.
+Points to an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff563479">KSOBJECT_CREATE_ITEM</a> structures for base object classes supported by this device object.
 
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksobject_create_item.md">KSOBJECT_CREATE_ITEM</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563479">KSOBJECT_CREATE_ITEM</a>
  
 
  
-
 

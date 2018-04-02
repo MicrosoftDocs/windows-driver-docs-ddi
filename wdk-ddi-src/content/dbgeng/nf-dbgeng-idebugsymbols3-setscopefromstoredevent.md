@@ -7,7 +7,7 @@ old-location: debugger\setscopefromstoredevent.htm
 old-project: debugger
 ms.assetid: 34c50e32-37c8-4e6a-a666-fce8880cb000
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], SetScopeFromStoredEvent method, IDebugSymbols3::SetScopeFromStoredEvent, IDebugSymbols_710b59d8-620b-479f-bfeb-dd1196cd2dbc.xml, SetScopeFromStoredEvent method [Windows Debugging], SetScopeFromStoredEvent method [Windows Debugging], IDebugSymbols3 interface, SetScopeFromStoredEvent,IDebugSymbols3.SetScopeFromStoredEvent, dbgeng/IDebugSymbols3::SetScopeFromStoredEvent, debugger.setscopefromstoredevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,14 +50,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>SetScopeFromStoredEvent</b> method sets the current scope to the scope of the stored event.
-
-
-## -syntax
-
-
-````
-HRESULT SetScopeFromStoredEvent();
-````
 
 
 ## -parameters
@@ -110,15 +102,6 @@ For more information about scopes, see <a href="https://msdn.microsoft.com/libra
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548431">GetStoredEventInformation</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556774">SetScopeFrameByIndex</a>
 
 
 
@@ -126,12 +109,20 @@ For more information about scopes, see <a href="https://msdn.microsoft.com/libra
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548431">GetStoredEventInformation</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550870">IDebugSymbols3</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556773">SetScope</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556774">SetScopeFrameByIndex</a>
  
 
  
-
 

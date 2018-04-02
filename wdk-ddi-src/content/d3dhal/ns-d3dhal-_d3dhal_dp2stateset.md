@@ -7,7 +7,7 @@ old-location: display\d3dhal_dp2stateset.htm
 old-project: display
 ms.assetid: 3405cca6-8d65-4879-98e8-3cd8f66003a5
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*LPD3DHAL_DP2STATESET, D3DHAL_DP2STATESET, D3DHAL_DP2STATESET structure [Display Devices], LPD3DHAL_DP2STATESET, LPD3DHAL_DP2STATESET structure pointer [Display Devices], _D3DHAL_DP2STATESET, d3dhal/D3DHAL_DP2STATESET, d3dhal/LPD3DHAL_DP2STATESET, d3dstrct_5aa94d41-9558-4d2d-ae6c-fb9d6e347fa5.xml, display.d3dhal_dp2stateset"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,18 +50,6 @@ req.typenames: D3DHAL_DP2STATESET
 
 
 The D3DHAL_DP2STATESET structure is used to inform the driver about stateset operations to perform.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DHAL_DP2STATESET {
-  DWORD             dwOperation;
-  DWORD             dwParam;
-  D3DSTATEBLOCKTYPE sbType;
-} D3DHAL_DP2STATESET, *LPD3DHAL_DP2STATESET;
-````
 
 
 ## -struct-fields

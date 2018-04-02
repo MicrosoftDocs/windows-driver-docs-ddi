@@ -7,7 +7,7 @@ old-location: storage\msiscsi_nicconfig.htm
 old-project: storage
 ms.assetid: ee40ea1f-fe9b-4126-b5b1-83f60cf51909
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PMSiSCSI_NICConfig, MSiSCSI_NICConfig, MSiSCSI_NICConfig structure [Storage Devices], PMSiSCSI_NICConfig, PMSiSCSI_NICConfig structure pointer [Storage Devices], _MSiSCSI_NICConfig, iscsicfg/MSiSCSI_NICConfig, iscsicfg/PMSiSCSI_NICConfig, storage.msiscsi_nicconfig, structs-iSCSI_2cddeb4e-7df2-4eda-ae9f-ca79c6005279.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,20 +52,6 @@ req.typenames: MSiSCSI_NICConfig, *PMSiSCSI_NICConfig
 The MSiSCSI_NICConfig structure describes the configuration of a network interface card (NIC) port.
 
 
-## -syntax
-
-
-````
-typedef struct _MSiSCSI_NICConfig {
-  ULONG LinkSpeed;
-  ULONG MaxLinkSpeed;
-  ULONG LinkState;
-  ULONG MaxFrameSize;
-  UCHAR MacAddress[6];
-} MSiSCSI_NICConfig, *PMSiSCSI_NICConfig;
-````
-
-
 ## -struct-fields
 
 
@@ -83,7 +69,7 @@ The maximum speed of the network link, in megabits per second (Mbps).
 
 ### -field LinkState
 
-A <a href="..\iscsicfg\ne-iscsicfg-piscsi_nic_linkstate.md">ISCSI_NIC_LINKSTATE</a> enumeration value that indicates whether the port is connected to the network or not.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff561549">ISCSI_NIC_LINKSTATE</a> enumeration value that indicates whether the port is connected to the network or not.
 
 
 ### -field MaxFrameSize
@@ -113,16 +99,15 @@ Initiators should register each instance of the MSiSCSI_NICConfig class by using
 
 ## -see-also
 
-<a href="..\iscsicfg\ne-iscsicfg-piscsi_nic_linkstate.md">ISCSI_NIC_LINKSTATE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561549">ISCSI_NIC_LINKSTATE</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563083">MSiSCSI_NICConfig WMI Class</a>
-
-
-
  
 
  
-
 

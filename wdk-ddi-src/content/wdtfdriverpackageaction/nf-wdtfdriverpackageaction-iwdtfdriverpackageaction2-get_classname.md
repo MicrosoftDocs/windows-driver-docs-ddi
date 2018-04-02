@@ -7,7 +7,7 @@ old-location: dtf\iwdtfdriverpackageaction2_classname.htm
 old-project: dtf
 ms.assetid: 8358cd45-62aa-41d8-a795-d42c53fdaf07
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/29/2018
 ms.keywords: ClassName property [Windows Device Testing Framework], ClassName property [Windows Device Testing Framework], IWDTFDriverPackageAction2 interface, IWDTFDriverPackageAction2, IWDTFDriverPackageAction2 interface [Windows Device Testing Framework], ClassName property, IWDTFDriverPackageAction2.ClassName, IWDTFDriverPackageAction2::get_ClassName, Microsoft.WDTF.IWDTFDriverPackageAction2.ClassName, Microsoft::WDTF::IWDTFDriverPackageAction2::ClassName, dtf.iwdtfdriverpackageaction2_classname, get_ClassName,IWDTFDriverPackageAction2.get_ClassName, wdtfdriverpackageaction/IWDTFDriverPackageAction2::ClassName, wdtfdriverpackageaction/IWDTFDriverPackageAction2::get_ClassName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -56,27 +56,16 @@ Gets the class name.
 This property is read-only.
 
 
-## -syntax
-
-
-````
-HRESULT get_ClassName(
-  [out, retval] BSTR *pVal
-);
-````
-
-
 ## -parameters
 
 
 ## -see-also
 
-<a href="..\wdtfdriverpackageaction\nn-wdtfdriverpackageaction-iwdtfdriverpackageaction2.md">IWDTFDriverPackageAction2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406427">IWDTFDriverPackageAction2</a>
  
 
  
-
 

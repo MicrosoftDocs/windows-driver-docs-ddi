@@ -52,17 +52,6 @@ req.typenames: BDA_SCAN_CAPABILTIES, *PBDA_SCAN_CAPABILTIES
 
 
 
-## -syntax
-
-
-````
-typedef struct _BDA_SCAN_CAPABILTIES {
-  PBDARESULT lResult;
-  UINT64     ul64AnalogStandardsSupported;
-} BDA_SCAN_CAPABILTIES, *PBDA_SCAN_CAPABILTIES;
-````
-
-
 ## -struct-fields
 
 

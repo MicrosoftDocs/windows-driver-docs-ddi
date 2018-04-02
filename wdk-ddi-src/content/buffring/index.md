@@ -2,7 +2,7 @@
 UID: NA:buffring
 ms.assetid: b6808d44-1971-3a86-9707-48bf1276b802
 ms.author: windowsdriverdev
-ms.date: 03/13/18
+ms.date: 03/21/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -13,7 +13,6 @@ ms.topic: portal
 
 
 
-This header is used by unknown technology.
+This header is used by kernel. For more information, see:
 
-Buffring.h contain these programming interfaces:
-
+- [Windows kernel](../_kernel/index.md)

@@ -7,7 +7,7 @@ old-location: display\dxvaddi_queryprocampinput.htm
 old-project: display
 ms.assetid: 9ba7c42a-4140-4d8c-abb3-ae5f9285dbd9
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXVA2_Structs_64cd50ed-940a-46a1-8a4d-b43d40e85b25.xml, DXVADDI_QUERYPROCAMPINPUT, DXVADDI_QUERYPROCAMPINPUT structure [Display Devices], _DXVADDI_QUERYPROCAMPINPUT, d3dumddi/DXVADDI_QUERYPROCAMPINPUT, display.dxvaddi_queryprocampinput
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,19 +52,6 @@ req.typenames: DXVADDI_QUERYPROCAMPINPUT
 The DXVADDI_QUERYPROCAMPINPUT structure describes a ProcAmp control property on a video stream that range information is requested for.
 
 
-## -syntax
-
-
-````
-typedef struct _DXVADDI_QUERYPROCAMPINPUT {
-  const GUID        *pVideoProcGuid;
-  DXVADDI_VIDEODESC VideoDesc;
-  D3DDDIFORMAT      RenderTargetFormat;
-  UINT              ProcAmpCap;
-} DXVADDI_QUERYPROCAMPINPUT;
-````
-
-
 ## -struct-fields
 
 
@@ -77,51 +64,50 @@ typedef struct _DXVADDI_QUERYPROCAMPINPUT {
 
 ### -field VideoDesc
 
-[in] A <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_videodesc.md">DXVADDI_VIDEODESC</a> structure that describes the video stream. 
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff562944">DXVADDI_VIDEODESC</a> structure that describes the video stream. 
 
 
 ### -field RenderTargetFormat
 
-[in] A <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>-typed value that indicates the pixel format of the render target for the video processing device.
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff544312">D3DDDIFORMAT</a>-typed value that indicates the pixel format of the render target for the video processing device.
 
 
 ### -field ProcAmpCap
 
-[in] A ProcAmp control property that range information is requested for. The ProcAmp control property can be one of the members of the <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_procampvalues.md">DXVADDI_PROCAMPVALUES</a> structure. 
+[in] A ProcAmp control property that range information is requested for. The ProcAmp control property can be one of the members of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562917">DXVADDI_PROCAMPVALUES</a> structure. 
 
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_valuerange.md">DXVADDI_VALUERANGE</a>
 
 
 
-<a href="..\d3dumddi\ne-d3dumddi-_d3dddicaps_type.md">D3DDDICAPS_TYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543148">D3DDDIARG_GETCAPS</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getcaps.md">D3DDDIARG_GETCAPS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544132">D3DDDICAPS_TYPE</a>
 
 
 
-<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544312">D3DDDIFORMAT</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562917">DXVADDI_PROCAMPVALUES</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_videodesc.md">DXVADDI_VIDEODESC</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562939">DXVADDI_VALUERANGE</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_procampvalues.md">DXVADDI_PROCAMPVALUES</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562944">DXVADDI_VIDEODESC</a>
 
 
 
+<a href="https://msdn.microsoft.com/cf6c61ce-7b53-46d0-b3ff-ed5b2b964c65">GetCaps</a>
  
 
  
-
 

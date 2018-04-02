@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 Used to stop a state change notification.
 
 
-## -prototype
-
-
-````
-NTSTATUS EvtSensorDriverStopStateChangeNotification(
-   SENSOROBJECT Sensors
-);
-````
-
-
 ## -parameters
 
 

@@ -55,16 +55,6 @@ Note that the <b>IWiaLog</b> interface is <b>obsolete </b>for Microsoft Windows 
 The <b>IWiaLog::hResult</b> method translates an HRESULT value into a string and writes the string to <i>Wiaservc.log</i>.
 
 
-## -syntax
-
-
-````
-HRESULT hResult(
-  [in] HRESULT hResult
-);
-````
-
-
 ## -parameters
 
 

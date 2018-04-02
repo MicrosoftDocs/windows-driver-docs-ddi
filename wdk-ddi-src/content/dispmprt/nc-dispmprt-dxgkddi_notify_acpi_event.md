@@ -7,7 +7,7 @@ old-location: display\dxgkddinotifyacpievent.htm
 old-project: display
 ms.assetid: fdefde51-0e90-4324-9c14-e8259fc872b3
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_NOTIFY_ACPI_EVENT, DmFunctions_de0d32a9-a592-4fe2-86e1-66a436be5874.xml, DxgkDdiNotifyAcpiEvent, DxgkDdiNotifyAcpiEvent callback function [Display Devices], display.dxgkddinotifyacpievent, dispmprt/DxgkDdiNotifyAcpiEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,23 +52,6 @@ req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 Notifies the display miniport driver about certain ACPI events.
 
 
-## -prototype
-
-
-````
-DXGKDDI_NOTIFY_ACPI_EVENT DxgkDdiNotifyAcpiEvent;
-
-NTSTATUS DxgkDdiNotifyAcpiEvent(
-  _In_  const PVOID           MiniportDeviceContext,
-  _In_        DXGK_EVENT_TYPE EventType,
-  _In_        ULONG           Event,
-  _In_        PVOID           Argument,
-  _Out_       PULONG          AcpiFlags
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -76,12 +59,12 @@ NTSTATUS DxgkDdiNotifyAcpiEvent(
 
 ### -param MiniportDeviceContext [in]
 
-A handle to a context block that represents a display adapter. The display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function previously provided this handle to the DirectX graphics kernel subsystem.
+A handle to a context block that represents a display adapter. The display miniport driver's <a href="https://msdn.microsoft.com/5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea">DxgkDdiAddDevice</a> function previously provided this handle to the DirectX graphics kernel subsystem.
 
 
 ### -param EventType [in]
 
-A <a href="..\dispmprt\ne-dispmprt-_dxgk_event_type.md">DXGK_EVENT_TYPE</a> enumerator that supplies the event type (<b>DpAcpiEvent</b>, <b>DpPowerStateEvent</b>, <b>DpDockingEvent</b>).
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff561067">DXGK_EVENT_TYPE</a> enumerator that supplies the event type (<b>DpAcpiEvent</b>, <b>DpPowerStateEvent</b>, <b>DpDockingEvent</b>).
 
 
 ### -param Event [in]
@@ -192,7 +175,7 @@ DXGK_ACPI_CHANGE_DISPLAY_MODE
 
 </td>
 <td>
-The display miniport driver makes a request to the operating system to call the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_recommendfunctionalvidpn.md">DxgkDdiRecommendFunctionalVidPn</a> function and then to initiate a mode change to the new recommended active video present network (VidPN). For example, the display miniport driver might make this request if the user has specified a mode change.
+The display miniport driver makes a request to the operating system to call the <a href="https://msdn.microsoft.com/320a77a7-d7d4-47b9-8a40-2b6e12819e4b">DxgkDdiRecommendFunctionalVidPn</a> function and then to initiate a mode change to the new recommended active video present network (VidPN). For example, the display miniport driver might make this request if the user has specified a mode change.
 
 </td>
 </tr>
@@ -234,12 +217,11 @@ This parameter is ignored if this function returns an error or if the display ad
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkcb_eval_acpi_method.md">DxgkCbEvalAcpiMethod</a>
 
 
 
+<a href="https://msdn.microsoft.com/ce54cf4e-5b50-4142-b3c7-ff29b7bdbb35">DxgkCbEvalAcpiMethod</a>
  
 
  
-
 

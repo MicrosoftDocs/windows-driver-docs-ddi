@@ -7,7 +7,7 @@ old-location: dtf\iwdtfdriverpackageaction2_compare.htm
 old-project: dtf
 ms.assetid: fa93d535-fe26-40cc-b08a-88841dcfdc96
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/29/2018
 ms.keywords: Compare method [Windows Device Testing Framework], Compare method [Windows Device Testing Framework], IWDTFDriverPackageAction2 interface, Compare,IWDTFDriverPackageAction2.Compare, IWDTFDriverPackageAction2, IWDTFDriverPackageAction2 interface [Windows Device Testing Framework], Compare method, IWDTFDriverPackageAction2::Compare, Microsoft.WDTF.IWDTFDriverPackageAction2.Compare, Microsoft::WDTF::IWDTFDriverPackageAction2::Compare, dtf.iwdtfdriverpackageaction2_compare, wdtfdriverpackageaction/IWDTFDriverPackageAction2::Compare
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 Compares two driver packages.
 
 
-## -syntax
-
-
-````
-HRESULT Compare(
-  [in]          IWDTFDriverPackageAction2 *pDp,
-  [out, retval] VARIANT_BOOL              *pbIsIdentical
-);
-````
-
-
 ## -parameters
 
 
@@ -91,12 +80,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\wdtfdriverpackageaction\nn-wdtfdriverpackageaction-iwdtfdriverpackageaction2.md">IWDTFDriverPackageAction2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406427">IWDTFDriverPackageAction2</a>
  
 
  
-
 

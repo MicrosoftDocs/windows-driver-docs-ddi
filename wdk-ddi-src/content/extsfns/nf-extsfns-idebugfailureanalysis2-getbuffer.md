@@ -7,7 +7,7 @@ old-location: debugger\idebugfailureanalysis2_getbuffer.htm
 old-project: debugger
 ms.assetid: 262B5237-86BF-43D6-A29A-A868663EA5D9
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: GetBuffer method [Windows Debugging], GetBuffer method [Windows Debugging], IDebugFailureAnalysis2 interface, GetBuffer,IDebugFailureAnalysis2.GetBuffer, IDebugFailureAnalysis2, IDebugFailureAnalysis2 interface [Windows Debugging], GetBuffer method, IDebugFailureAnalysis2::GetBuffer, debugger.idebugfailureanalysis2_getbuffer, extsfns/IDebugFailureAnalysis2::GetBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,19 +49,7 @@ req.typenames: FA_EXTENSION_PLUGIN_PHASE
 ## -description
 
 
-The <b>GetBuffer</b> method searches a <a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">DebugFailureAnalysis</a> object for the first <a href="https://msdn.microsoft.com/759DE159-F2A8-4BB1-AAF5-B2B91C4F91B0">FA entry</a> that has a specified tag. If it finds an FA entry with the specified tag, it gets the entry's data block.
-
-
-## -syntax
-
-
-````
-PFA_ENTRY GetBuffer(
-  [in]  FA_TAG Tag,
-  [out] PVOID  Buf,
-  [in]  ULONG  Size
-);
-````
+The <b>GetBuffer</b> method searches a <a href="https://msdn.microsoft.com/0B44FCB9-D23F-4630-9F9A-FBAD46712B14">DebugFailureAnalysis</a> object for the first <a href="https://msdn.microsoft.com/759DE159-F2A8-4BB1-AAF5-B2B91C4F91B0">FA entry</a> that has a specified tag. If it finds an FA entry with the specified tag, it gets the entry's data block.
 
 
 ## -parameters
@@ -88,7 +76,7 @@ The size, in bytes, of the buffer pointed to by <i>Buf</i>.
 
 
 
-If this method finds an <a href="https://msdn.microsoft.com/759DE159-F2A8-4BB1-AAF5-B2B91C4F91B0">FA entry</a> with the specified tag, and if it succeeds in getting the data block, it returns a pointer to the <a href="..\extsfns\ns-extsfns-_fa_entry.md">FA_ENTRY</a> structure. Otherwise, it returns <b>NULL</b>.
+If this method finds an <a href="https://msdn.microsoft.com/759DE159-F2A8-4BB1-AAF5-B2B91C4F91B0">FA entry</a> with the specified tag, and if it succeeds in getting the data block, it returns a pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/jj991808">FA_ENTRY</a> structure. Otherwise, it returns <b>NULL</b>.
 
 
 
@@ -97,22 +85,13 @@ If this method finds an <a href="https://msdn.microsoft.com/759DE159-F2A8-4BB1-A
 
 
 
-If this method finds an <a href="https://msdn.microsoft.com/759DE159-F2A8-4BB1-AAF5-B2B91C4F91B0">FA entry</a> with the specified tag, it checks to see whether the <b>DataSize</b> member of the <a href="..\extsfns\ns-extsfns-_fa_entry.md">FA_ENTRY</a> structure is equal to the value specified by the <i>Size</i> parameter. If <b>DataSize</b> is not equal to <i>Size</i>, this method returns <b>NULL</b> and does not get the data block.
+If this method finds an <a href="https://msdn.microsoft.com/759DE159-F2A8-4BB1-AAF5-B2B91C4F91B0">FA entry</a> with the specified tag, it checks to see whether the <b>DataSize</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/jj991808">FA_ENTRY</a> structure is equal to the value specified by the <i>Size</i> parameter. If <b>DataSize</b> is not equal to <i>Size</i>, this method returns <b>NULL</b> and does not get the data block.
 
 
 
 
 ## -see-also
 
-<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
-
-
-
-<a href="https://msdn.microsoft.com/7648F789-85D5-4247-90DD-2EAA43543483">Writing an Analysis Extension Plug-in to Extend !analyze</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj983423">SetBuffer</a>
 
 
 
@@ -120,12 +99,20 @@ If this method finds an <a href="https://msdn.microsoft.com/759DE159-F2A8-4BB1-A
 
 
 
-<a href="..\extsfns\nc-extsfns-ext_analysis_plugin.md">_EFN_Analyze</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj983405">IDebugFailureAnalysis2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj983423">SetBuffer</a>
+
+
+
+<a href="https://msdn.microsoft.com/7648F789-85D5-4247-90DD-2EAA43543483">Writing an Analysis Extension Plug-in to Extend !analyze</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj983432">_EFN_Analyze</a>
  
 
  
-
 

@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -50,17 +50,6 @@ req.typenames: WCS_PROFILE_MANAGEMENT_SCOPE
 
 
 The WCS_PROFILE_MANAGEMENT_SCOPE enumeration is used to specify the scope of a profile management operation, such as associating a profile with a device.
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  WCS_PROFILE_MANAGEMENT_SCOPE_SYSTEM_WIDE   = 0,
-  WCS_PROFILE_MANAGEMENT_SCOPE_CURRENT_USER  = 1
-} WCS_PROFILE_MANAGEMENT_SCOPE;
-````
 
 
 ## -enum-fields

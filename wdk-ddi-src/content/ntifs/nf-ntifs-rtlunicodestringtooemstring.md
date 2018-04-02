@@ -7,7 +7,7 @@ old-location: ifsk\rtlunicodestringtooemstring.htm
 old-project: ifsk
 ms.assetid: 59ef2d37-ad99-4b99-be31-521ac442daf4
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: RtlUnicodeStringToOemString, RtlUnicodeStringToOemString routine [Installable File System Drivers], ifsk.rtlunicodestringtooemstring, ntifs/RtlUnicodeStringToOemString, rtlref_a64bd432-8178-4b0c-9119-6cb5ab9bcd22.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,18 +50,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>RtlUnicodeStringToOemString</b> routine translates a given Unicode source string into an OEM string using the current system OEM code page. 
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlUnicodeStringToOemString(
-       POEM_STRING      DestinationString,
-  _In_ PCUNICODE_STRING SourceString,
-  _In_ BOOLEAN          AllocateDestinationString
-);
-````
 
 
 ## -parameters
@@ -108,11 +96,6 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtlfreeoemstring.md">RtlFreeOemString</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-rtlunicodestringtocountedoemstring.md">RtlUnicodeStringToCountedOemString</a>
 
 
 
@@ -120,24 +103,28 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 
 
-<a href="..\ntifs\nf-ntifs-rtlunicodetooemn.md">RtlUnicodeToOemN</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552281">RtlFreeOemString</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-rtlupcaseunicodestringtooemstring.md">RtlUpcaseUnicodeStringToOemString</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553251">RtlUnicodeStringToCountedOemString</a>
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553254">RtlUnicodeStringToOemSize</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-rtlunicodestringtooemsize.md">RtlUnicodeStringToOemSize</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553272">RtlUnicodeToOemN</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553282">RtlUpcaseUnicodeStringToOemString</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
  
 
  
-
 

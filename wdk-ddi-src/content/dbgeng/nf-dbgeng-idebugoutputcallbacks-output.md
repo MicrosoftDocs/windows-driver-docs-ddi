@@ -7,7 +7,7 @@ old-location: debugger\idebugoutputcallbacks_output.htm
 old-project: debugger
 ms.assetid: 6d0352ae-0376-4992-89ef-90702591042e
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: ComCallbacks_9b5e22d8-aa8d-498e-b3b5-ad6d73462db4.xml, IDebugOutputCallbacks, IDebugOutputCallbacks interface [Windows Debugging], Output method, IDebugOutputCallbacks::Output, Output method [Windows Debugging], Output method [Windows Debugging], IDebugOutputCallbacks interface, Output,IDebugOutputCallbacks.Output, dbgeng/IDebugOutputCallbacks::Output, debugger.idebugoutputcallbacks_output
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,17 +50,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>Output</b> callback method is called by the engine to send output from the client to the <b>IDebugOutputCallbacks</b>  object that is registered with the client.
-
-
-## -syntax
-
-
-````
-HRESULT Output(
-  [in] ULONG Mask,
-  [in] PCSTR Text
-);
-````
 
 
 ## -parameters

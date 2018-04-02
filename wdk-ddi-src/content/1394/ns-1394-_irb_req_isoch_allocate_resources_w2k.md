@@ -52,23 +52,6 @@ req.typenames: IRB_REQ_ISOCH_ALLOCATE_RESOURCES_W2K
 This structure contains the fields necessary for the 1394 bus driver to carry out a IsochAllocateResources request.
 
 
-## -syntax
-
-
-````
-typedef struct _IRB_REQ_ISOCH_ALLOCATE_RESOURCES_W2K {
-  ULONG  fulSpeed;
-  ULONG  fulFlags;
-  ULONG  nChannel;
-  ULONG  nMaxBytesPerFrame;
-  ULONG  nNumberOfBuffers;
-  ULONG  nMaxBufferSize;
-  ULONG  nQuadletsToStrip;
-  HANDLE hResource;
-} IRB_REQ_ISOCH_ALLOCATE_RESOURCES_W2K;
-````
-
-
 ## -struct-fields
 
 

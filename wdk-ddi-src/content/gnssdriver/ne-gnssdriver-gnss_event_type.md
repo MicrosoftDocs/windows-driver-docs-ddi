@@ -3,12 +3,12 @@ UID: NE:gnssdriver.GNSS_EVENT_TYPE
 title: GNSS_EVENT_TYPE
 author: windows-driver-content
 description: This enumeration indicates the type of an event and is used by the GNSS_EVENT structure.
-old-location: gnss\gnss_event_type.htm
-old-project: gnss
+old-location: sensors\gnss_event_type.htm
+old-project: sensors
 ms.assetid: BC862E22-992E-497D-B370-97ABE8897728
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: GNSS_EVENT_TYPE, GNSS_EVENT_TYPE enumeration [Sensor Devices], GNSS_Event_BreadcrumbAlertEvent, GNSS_Event_Custom, GNSS_Event_DriverRequest, GNSS_Event_Error, GNSS_Event_FixAvailable, GNSS_Event_GeofenceAlertData, GNSS_Event_GeofencesTrackingStatus, GNSS_Event_NiRequest, GNSS_Event_NmeaData, GNSS_Event_RequireAgnss, gnss.gnss_event_type, gnssdriver/GNSS_EVENT_TYPE, gnssdriver/GNSS_Event_BreadcrumbAlertEvent, gnssdriver/GNSS_Event_Custom, gnssdriver/GNSS_Event_DriverRequest, gnssdriver/GNSS_Event_Error, gnssdriver/GNSS_Event_FixAvailable, gnssdriver/GNSS_Event_GeofenceAlertData, gnssdriver/GNSS_Event_GeofencesTrackingStatus, gnssdriver/GNSS_Event_NiRequest, gnssdriver/GNSS_Event_NmeaData, gnssdriver/GNSS_Event_RequireAgnss
+ms.date: 2/22/2018
+ms.keywords: GNSS_EVENT_TYPE, GNSS_EVENT_TYPE enumeration [Sensor Devices], GNSS_Event_BreadcrumbAlertEvent, GNSS_Event_Custom, GNSS_Event_DriverRequest, GNSS_Event_Error, GNSS_Event_FixAvailable, GNSS_Event_GeofenceAlertData, GNSS_Event_GeofencesTrackingStatus, GNSS_Event_NiRequest, GNSS_Event_NmeaData, GNSS_Event_RequireAgnss, gnssdriver/GNSS_EVENT_TYPE, gnssdriver/GNSS_Event_BreadcrumbAlertEvent, gnssdriver/GNSS_Event_Custom, gnssdriver/GNSS_Event_DriverRequest, gnssdriver/GNSS_Event_Error, gnssdriver/GNSS_Event_FixAvailable, gnssdriver/GNSS_Event_GeofenceAlertData, gnssdriver/GNSS_Event_GeofencesTrackingStatus, gnssdriver/GNSS_Event_NiRequest, gnssdriver/GNSS_Event_NmeaData, gnssdriver/GNSS_Event_RequireAgnss, sensors.gnss_event_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -49,29 +49,10 @@ req.typenames: GNSS_EVENT_TYPE
 ## -description
 
 
-This enumeration indicates the type of an event and is used by the <a href="..\gnssdriver\ns-gnssdriver-gnss_event.md">GNSS_EVENT</a> structure.
+This enumeration indicates the type of an event and is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/dn925134">GNSS_EVENT</a> structure.
 
 The GNSS driver utilizes events to send solicited and unsolicited information to the GNSS adapter. Events can occur for various reasons, such as a driver request to the GNSS adapter for the injection of assistance data or for informational purposes.
 
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  GNSS_Event_FixAvailable             = 0x0001,
-  GNSS_Event_RequireAgnss             = 0x0002,
-  GNSS_Event_Error                    = 0x0003,
-  GNSS_Event_NiRequest                = 0x000C,
-  GNSS_Event_NmeaData                 = 0x000D,
-  GNSS_Event_GeofenceAlertData        = 0x000E,
-  GNSS_Event_GeofencesTrackingStatus  = 0x000F,
-  GNSS_Event_DriverRequest            = 0x0010,
-  GNSS_Event_BreadcrumbAlertEvent     = 0x0011,
-  GNSS_Event_Custom                   = 0x8000
-} GNSS_EVENT_TYPE;
-````
 
 
 ## -enum-fields
@@ -81,17 +62,17 @@ typedef enum  {
 
 ### -field GNSS_Event_FixAvailable
 
-This event is raised as a result of a prior <a href="..\gnssdriver\ni-gnssdriver-ioctl_gnss_get_fixdata.md">IOCTL_GNSS_GET_FIXDATA</a> call from the adapter. The GNSS driver raises this event when a fix is available for the adapter to collect. The fix data is included in the event data in form of <a href="..\gnssdriver\ns-gnssdriver-gnss_fixdata.md">GNSS_FIXDATA</a> structure.
+This event is raised as a result of a prior <a href="https://msdn.microsoft.com/library/windows/hardware/dn917731">IOCTL_GNSS_GET_FIXDATA</a> call from the adapter. The GNSS driver raises this event when a fix is available for the adapter to collect. The fix data is included in the event data in form of <a href="https://msdn.microsoft.com/library/windows/hardware/dn925139">GNSS_FIXDATA</a> structure.
 
 
 ### -field GNSS_Event_RequireAgnss
 
-This event is raised as a result of a prior <a href="..\gnssdriver\ni-gnssdriver-ioctl_gnss_listen_agnss.md">IOCTL_GNSS_LISTEN_AGNSS</a> call from the adapter. The driver raises this event whenever it needs injection of certain AGNSS assistance data. The specifics of the injection are available in the event data in form of <a href="..\gnssdriver\ns-gnssdriver-gnss_agnss_request_param.md">GNSS_AGNSS_REQUEST_PARAM</a> structure.
+This event is raised as a result of a prior <a href="https://msdn.microsoft.com/library/windows/hardware/dn917733">IOCTL_GNSS_LISTEN_AGNSS</a> call from the adapter. The driver raises this event whenever it needs injection of certain AGNSS assistance data. The specifics of the injection are available in the event data in form of <a href="https://msdn.microsoft.com/library/windows/hardware/dn925096">GNSS_AGNSS_REQUEST_PARAM</a> structure.
 
 
 ### -field GNSS_Event_Error
 
-This event is raised as a result of a prior <a href="..\gnssdriver\ni-gnssdriver-ioctl_gnss_listen_error.md">IOCTL_GNSS_LISTEN_ERROR</a> call from the adapter. The driver raises this event when an out-of-band error occurs that the adapter needs to be aware of. The error details are available in the event data in form of <a href="..\gnssdriver\ns-gnssdriver-gnss_errorinfo.md">GNSS_ERRORINFO</a> structure. The information can be used by Microsoft to capture telemetry data about what type of errors are seen in the field by different devices, and the data could be shared with OEMs/IHVs to help understand common issues and increase the quality of GNSS engine implementations.
+This event is raised as a result of a prior <a href="https://msdn.microsoft.com/4B08FB8D-8C4A-4C23-A809-11E7DF190236">IOCTL_GNSS_LISTEN_ERROR</a> call from the adapter. The driver raises this event when an out-of-band error occurs that the adapter needs to be aware of. The error details are available in the event data in form of <a href="https://msdn.microsoft.com/library/windows/hardware/dn925130">GNSS_ERRORINFO</a> structure. The information can be used by Microsoft to capture telemetry data about what type of errors are seen in the field by different devices, and the data could be shared with OEMs/IHVs to help understand common issues and increase the quality of GNSS engine implementations.
 
 
 ### -field GNSS_Event_NiRequest
@@ -101,7 +82,7 @@ This event is raised when the driver wants to notify an NI request. The HLOS wil
 
 ### -field GNSS_Event_NmeaData
 
-This event is raised as a result of a prior <a href="..\gnssdriver\ni-gnssdriver-ioctl_gnss_listen_nmea.md">IOCTL_GNSS_LISTEN_NMEA</a> call, if NMEA logging is enabled in the device. The GNSS driver raises this event when NMEA data is ready to be read by the calling client. The calling client will typically be a test tool. The NMEA sentences data is included in the event data in form of <a href="..\gnssdriver\ns-gnssdriver-gnss_nmea_data.md">GNSS_NMEA_DATA</a> structure.
+This event is raised as a result of a prior <a href="https://msdn.microsoft.com/library/windows/hardware/dn917739">IOCTL_GNSS_LISTEN_NMEA</a> call, if NMEA logging is enabled in the device. The GNSS driver raises this event when NMEA data is ready to be read by the calling client. The calling client will typically be a test tool. The NMEA sentences data is included in the event data in form of <a href="https://msdn.microsoft.com/library/windows/hardware/dn925202">GNSS_NMEA_DATA</a> structure.
 
 
 

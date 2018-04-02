@@ -53,18 +53,7 @@ req.product: Windows 10 or later.
 
 <p class="CCE_Message">[Applies to KMDF only]
 
-The <b>WdfDeviceInitSetIoInCallerContextCallback</b> method registers a driver's <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_io_in_caller_context.md">EvtIoInCallerContext</a> event callback function.
-
-
-## -syntax
-
-
-````
-VOID WdfDeviceInitSetIoInCallerContextCallback(
-  _In_ PWDFDEVICE_INIT              DeviceInit,
-  _In_ PFN_WDF_IO_IN_CALLER_CONTEXT EvtIoInCallerContext
-);
-````
+The <b>WdfDeviceInitSetIoInCallerContextCallback</b> method registers a driver's <a href="https://msdn.microsoft.com/b8bcea29-e404-490e-9d0c-02c96a5690ab">EvtIoInCallerContext</a> event callback function.
 
 
 ## -parameters
@@ -79,7 +68,7 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 ### -param EvtIoInCallerContext [in]
 
-A pointer to the driver's <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_io_in_caller_context.md">EvtIoInCallerContext</a> callback function.
+A pointer to the driver's <a href="https://msdn.microsoft.com/b8bcea29-e404-490e-9d0c-02c96a5690ab">EvtIoInCallerContext</a> callback function.
 
 
 ## -returns
@@ -95,14 +84,14 @@ None
 
 
 
-If a driver calls <b>WdfDeviceInitSetIoInCallerContextCallback</b>, it must do so before it calls <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>. For more information about calling <b>WdfDeviceCreate</b>, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/creating-a-framework-device-object">Creating a Framework Device Object</a>.
+If a driver calls <b>WdfDeviceInitSetIoInCallerContextCallback</b>, it must do so before it calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff545926">WdfDeviceCreate</a>. For more information about calling <b>WdfDeviceCreate</b>, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/creating-a-framework-device-object">Creating a Framework Device Object</a>.
 
-For more information about the <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_io_in_caller_context.md">EvtIoInCallerContext</a> event callback function, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/managing-i-o-queues">Intercepting an I/O Request before it is Queued</a>.
+For more information about the <a href="https://msdn.microsoft.com/b8bcea29-e404-490e-9d0c-02c96a5690ab">EvtIoInCallerContext</a> event callback function, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/managing-i-o-queues">Intercepting an I/O Request before it is Queued</a>.
 
 
 #### Examples
 
-The following code example registers a driver's <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_io_in_caller_context.md">EvtIoInCallerContext</a> event callback function.
+The following code example registers a driver's <a href="https://msdn.microsoft.com/b8bcea29-e404-490e-9d0c-02c96a5690ab">EvtIoInCallerContext</a> event callback function.
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -122,12 +111,11 @@ The following code example registers a driver's <a href="..\wdfdevice\nc-wdfdevi
 
 ## -see-also
 
-<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_io_in_caller_context.md">EvtIoInCallerContext</a>
 
 
 
+<a href="https://msdn.microsoft.com/b8bcea29-e404-490e-9d0c-02c96a5690ab">EvtIoInCallerContext</a>
  
 
  
-
 

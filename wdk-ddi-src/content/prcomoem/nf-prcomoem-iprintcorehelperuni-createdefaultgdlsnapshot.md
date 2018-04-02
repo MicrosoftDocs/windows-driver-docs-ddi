@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The <code>IPrintCoreHelperUni::CreateDefaultGDLSnapshot</code> method gets a GDL snapshot based on the driver default configuration.
 
 
-## -syntax
-
-
-````
-HRESULT CreateDefaultGDLSnapshot(
-  [in]  DWORD    dwFlags,
-  [out] LPSTREAM *ppSnapshotStream
-);
-````
-
-
 ## -parameters
 
 
@@ -90,16 +79,15 @@ A pointer to a stream that supplies the XML version of the GDL snapshot.
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/e581d190-8185-45c1-80c7-ff8eb305360e">IPrintCoreHelperUni</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552923">IPrintCoreHelperUni::CreateGDLSnapshot</a>
-
-
-
-<a href="..\prcomoem\nn-prcomoem-iprintcorehelperuni.md">IPrintCoreHelperUni</a>
-
-
-
  
 
  
-
 

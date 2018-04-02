@@ -7,7 +7,7 @@ old-location: netvista\ndisreadnetworkaddress.htm
 old-project: netvista
 ms.assetid: 42519c60-6dc6-4c20-a2e8-954d9610a982
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NdisReadNetworkAddress, NdisReadNetworkAddress function [Network Drivers Starting with Windows Vista], ndis/NdisReadNetworkAddress, ndis_configuration_ref_459fbfae-4235-4f60-9b10-02c60defc236.xml, netvista.ndisreadnetworkaddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -55,19 +55,6 @@ The
   the registry for a NIC when it was installed in the machine.
 
 
-## -syntax
-
-
-````
-VOID NdisReadNetworkAddress(
-  _Out_ PNDIS_STATUS Status,
-  _Out_ PVOID        *NetworkAddress,
-  _Out_ PUINT        NetworkAddressLength,
-  _In_  NDIS_HANDLE  ConfigurationHandle
-);
-````
-
-
 ## -parameters
 
 
@@ -112,7 +99,7 @@ A pointer to a caller-supplied variable in which this function returns the numbe
 ### -param ConfigurationHandle [in]
 
 The configuration handle returned by the 
-     <a href="..\ndis\nf-ndis-ndisopenconfigurationex.md">
+     <a href="https://msdn.microsoft.com/76539106-6d8d-4a80-9c74-a6a4ca37c40e">
      NdisOpenConfigurationEx</a> function.
 
 
@@ -135,7 +122,7 @@ None
     <b>NetworkAddress</b>, converts the value of this string-type entry into a sequence of byte integers, and
     stores the requested information internally. The storage that NDIS allocates for such an address remains
     valid until the miniport driver calls the 
-    <a href="..\ndis\nf-ndis-ndiscloseconfiguration.md">NdisCloseConfiguration</a> function,
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561642">NdisCloseConfiguration</a> function,
     which frees the memory.
 
 The caller cannot use the variable at 
@@ -173,16 +160,15 @@ Note that NDIS does not validate the value at
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisopenconfigurationex.md">NdisOpenConfigurationEx</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiscloseconfiguration.md">NdisCloseConfiguration</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561642">NdisCloseConfiguration</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh975122">NdisOpenConfigurationEx</a>
  
 
  
-
 

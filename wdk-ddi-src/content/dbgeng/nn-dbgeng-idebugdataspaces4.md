@@ -7,7 +7,7 @@ old-location: debugger\idebugdataspaces4.htm
 old-project: debugger
 ms.assetid: e03202a5-2e4a-43f8-8183-fdd26df6ff8f
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: IDebugDataSpaces4, IDebugDataSpaces4 interface [Windows Debugging], IDebugDataSpaces4 interface [Windows Debugging], described, dbgeng/IDebugDataSpaces4, debugger.idebugdataspaces4
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,7 +53,7 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugDataSpaces4</b> interface inherits from <a href="..\dbgeng\nn-dbgeng-idebugdataspaces3.md">IDebugDataSpaces3</a>. <b>IDebugDataSpaces4</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugDataSpaces4</b> interface inherits from <a href="https://msdn.microsoft.com/library/windows/hardware/ff550537">IDebugDataSpaces3</a>. <b>IDebugDataSpaces4</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -161,20 +161,19 @@ Writes data to the specified physical address in the target's memory.
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces.md">IDebugDataSpaces</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces2.md">IDebugDataSpaces2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550528">IDebugDataSpaces</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces3.md">IDebugDataSpaces3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550531">IDebugDataSpaces2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550537">IDebugDataSpaces3</a>
  
 
  
-
 

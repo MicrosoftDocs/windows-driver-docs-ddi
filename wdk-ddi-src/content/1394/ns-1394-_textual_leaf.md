@@ -52,20 +52,6 @@ req.typenames: TEXTUAL_LEAF, *PTEXTUAL_LEAF
 The TEXTUAL_LEAF structure describes the device description that can be stored in the Configuration ROM of devices that satisfy the PC 98 or PC 99 specifications.
 
 
-## -syntax
-
-
-````
-typedef struct _TEXTUAL_LEAF {
-  USHORT TL_CRC;
-  USHORT TL_Length;
-  ULONG  TL_Spec_Id;
-  ULONG  TL_Language_Id;
-  UCHAR  TL_Data;
-} TEXTUAL_LEAF, *PTEXTUAL_LEAF;
-````
-
-
 ## -struct-fields
 
 
@@ -98,12 +84,11 @@ Specifies a vendor-specified textual description of the device.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537642">REQUEST_GET_CONFIGURATION_INFO</a>
-
-
-
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: dtf\iwdtfdriversetupaction2_updatedriver.htm
 old-project: dtf
 ms.assetid: 4eb49aae-a7de-4038-9d57-003bb30d7ea8
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/29/2018
 ms.keywords: IWDTFDriverSetupAction2, IWDTFDriverSetupAction2 interface [Windows Device Testing Framework], UpdateDriver method, IWDTFDriverSetupAction2::UpdateDriver, Microsoft.WDTF.IWDTFDriverSetupAction2.UpdateDriver, Microsoft::WDTF::IWDTFDriverSetupAction2::UpdateDriver, UpdateDriver method [Windows Device Testing Framework], UpdateDriver method [Windows Device Testing Framework], IWDTFDriverSetupAction2 interface, UpdateDriver,IWDTFDriverSetupAction2.UpdateDriver, dtf.iwdtfdriversetupaction2_updatedriver, wdtfdriversetupdeviceaction/IWDTFDriverSetupAction2::UpdateDriver
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 Updates the target device with a driver from the driver package.
 
 
-## -syntax
-
-
-````
-HRESULT UpdateDriver(
-  [in]          IWDTFDriverPackageAction2 *pDp,
-  [out, retval] VARIANT_BOOL              *pbRebootRequired
-);
-````
-
-
 ## -parameters
 
 
@@ -97,12 +86,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\wdtfdriversetupdeviceaction\nn-wdtfdriversetupdeviceaction-iwdtfdriversetupaction2.md">IWDTFDriverSetupAction2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450938">IWDTFDriverSetupAction2</a>
  
 
  
-
 

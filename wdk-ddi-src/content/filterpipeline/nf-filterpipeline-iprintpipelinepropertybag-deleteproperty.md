@@ -52,16 +52,6 @@ req.typenames: EXpsFontRestriction
 The <code>DeleteProperty</code> method deletes a property from a property bag.
 
 
-## -syntax
-
-
-````
-BOOL DeleteProperty(
-  [in] const wchar_t *pszName
-);
-````
-
-
 ## -parameters
 
 

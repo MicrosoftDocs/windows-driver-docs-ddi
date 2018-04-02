@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The <b> 	SeEtwWriteKMCveEvent</b> function is a tracing function for publishing events when an attempted security vulnerability exploit is detected in your kernel-mode drivers.   
 
 
-## -syntax
-
-
-````
-__checkReturn HRESULT NTStatus SeEtwWriteKMCveEvent(
-  _In_     PCUNICODE_STRING CveId,
-  _In_opt_ PCUNICODE_STRING AdditionalDetails
-);
-````
-
-
 ## -parameters
 
 

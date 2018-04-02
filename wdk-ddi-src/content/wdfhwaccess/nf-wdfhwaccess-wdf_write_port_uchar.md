@@ -56,18 +56,6 @@ The <b>WDF_WRITE_PORT_UCHAR</b> function writes a byte to the specified port add
 
 
 
-## -syntax
-
-
-````
-void WDF_WRITE_PORT_UCHAR(
-  _In_ WDFDEVICE Device,
-  _In_ PUCHAR    Port,
-  _In_ UCHAR     Value
-);
-````
-
-
 ## -parameters
 
 

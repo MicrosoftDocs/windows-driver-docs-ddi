@@ -53,20 +53,6 @@ req.product: Windows 10 or later.
 This enumeration represents the step types reported by the pedometer.
 
 
-## -syntax
-
-
-````
-typedef enum _PEDOMETER_STEP_TYPE { 
-  PedometerStepType_Unknown      = 0x00,
-  PedometerStepType_Walking      = 0x01,
-  PedometerStepType_Running      = 0x02,
-  PedometerStepType_Max          = 1 << PedometerStepTypeCount,
-  PedometerStepType_Force_Dword  = 0xFFFFFFFF
-} PEDOMETER_STEP_TYPE;
-````
-
-
 ## -enum-fields
 
 
@@ -108,16 +94,15 @@ For more information about the sensor data fields that use this enumeration, see
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt138359">PEDOMETER_STEP_TYPE_COUNT</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn957076">Pedometer data fields</a>
-
-
-
-<a href="..\sensorsdef\ne-sensorsdef-pedometer_step_type_count.md">PEDOMETER_STEP_TYPE_COUNT</a>
-
-
-
  
 
  
-
 

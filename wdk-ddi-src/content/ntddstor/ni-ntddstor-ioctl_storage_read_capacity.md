@@ -7,7 +7,7 @@ old-location: storage\ioctl_storage_read_capacity.htm
 old-project: storage
 ms.assetid: FC4CFD33-5632-400A-90E5-583C6D6DFFD9
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_STORAGE_READ_CAPACITY, IOCTL_STORAGE_READ_CAPACITY control code [Storage Devices], ntddstor/IOCTL_STORAGE_READ_CAPACITY, storage.ioctl_storage_read_capacity
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -69,7 +69,7 @@ None.
 
 ### -output-buffer
 
-The buffer at <i>Irp-&gt;AssociatedIrp.SystemBuffer</i> contains a <a href="..\ntddstor\ns-ntddstor-_storage_read_capacity.md">STORAGE_READ_CAPACITY</a> structure.
+The buffer at <i>Irp-&gt;AssociatedIrp.SystemBuffer</i> contains a <a href="https://msdn.microsoft.com/library/windows/hardware/jj553716">STORAGE_READ_CAPACITY</a> structure.
 
 
 ### -output-buffer-length
@@ -111,12 +111,11 @@ A <b>IOCTL_STORAGE_READ_CAPACITY</b> request returns the disk capacity informati
 
 ## -see-also
 
-<a href="..\ntddstor\ns-ntddstor-_storage_read_capacity.md">STORAGE_READ_CAPACITY</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj553716">STORAGE_READ_CAPACITY</a>
  
 
  
-
 

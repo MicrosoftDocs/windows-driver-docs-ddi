@@ -7,7 +7,7 @@ old-location: display\pfnd3d12ddi_setviewinstancemask_0033.htm
 old-project: display
 ms.assetid: 0A41AC01-9F45-4026-9451-AEF2732C9084
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3D12DDI_SETVIEWINSTANCEMASK_0033, PFND3D12DDI_SETVIEWINSTANCEMASK_0033 callback function [Display Devices], d3d12umddi/PFND3D12DDI_SETVIEWINSTANCEMASK_0033, display.pfnd3d12ddi_setviewinstancemask_0033
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,23 +52,12 @@ req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
 Used to set a view instance mask.
 
 
-## -prototype
-
-
-````
-VOID APIENTRY* PFND3D12DDI_SETVIEWINSTANCEMASK_0033(
-   D3D12DDI_HCOMMANDLIST hCommandList,
-   UINT                  Mask
-);
-````
-
-
 ## -parameters
 
 
 
 
-### -param D3D12DDI_HCOMMANDLIST
+### -param Arg1
 
 
 ### -param Mask

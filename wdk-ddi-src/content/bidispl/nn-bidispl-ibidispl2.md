@@ -108,7 +108,6 @@ Releases a printer from a bidirectional communication request.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/42b5e6cf-b434-4734-86f3-b3b9d15ea468">Print Spooler Components</a>
 
 
 
@@ -120,8 +119,8 @@ Releases a printer from a bidirectional communication request.
 
 
 
+<a href="https://msdn.microsoft.com/42b5e6cf-b434-4734-86f3-b3b9d15ea468">Print Spooler Components</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: ifsk\rtlinsertelementgenerictable.htm
 old-project: ifsk
 ms.assetid: 2554a212-edc0-4641-98bb-2db36ff0266f
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: RtlInsertElementGenericTable, RtlInsertElementGenericTable routine [Installable File System Drivers], ifsk.rtlinsertelementgenerictable, ntddk/RtlInsertElementGenericTable, rtlref_62ab1129-906f-4ef7-b0d1-bec4bf6fce62.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,19 +52,6 @@ req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 The <b>RtlInsertElementGenericTable</b> routine adds a new element to a generic table. 
 
 
-## -syntax
-
-
-````
-PVOID RtlInsertElementGenericTable(
-  _In_      PRTL_GENERIC_TABLE Table,
-  _In_      PVOID              Buffer,
-  _In_      CLONG              BufferSize,
-  _Out_opt_ PBOOLEAN           NewElement
-);
-````
-
-
 ## -parameters
 
 
@@ -72,12 +59,12 @@ PVOID RtlInsertElementGenericTable(
 
 ### -param Table [in]
 
-Pointer to the generic table (<a href="..\ntddk\ns-ntddk-_rtl_generic_table.md">RTL_GENERIC_TABLE</a>). The table must have been initialized by calling <a href="..\ntddk\nf-ntddk-rtlinitializegenerictable.md">RtlInitializeGenericTable</a>.
+Pointer to the generic table (<a href="https://msdn.microsoft.com/library/windows/hardware/ff553345">RTL_GENERIC_TABLE</a>). The table must have been initialized by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff552989">RtlInitializeGenericTable</a>.
 
 
 ### -param Buffer [in]
 
-Pointer to a caller-allocated buffer containing data to be copied into the new element. For more information, see the description of <a href="..\ntddk\nf-ntddk-rtlinitializegenerictable.md">RtlInitializeGenericTable</a>. 
+Pointer to a caller-allocated buffer containing data to be copied into the new element. For more information, see the description of <a href="https://msdn.microsoft.com/library/windows/hardware/ff552989">RtlInitializeGenericTable</a>. 
 
 
 ### -param BufferSize [in]
@@ -103,7 +90,7 @@ Pointer to a variable that receives <b>TRUE</b> if a new element with the data a
 
 
 
-To insert an element, <b>RtlInsertElementGenericTable</b> calls the <i>CompareRoutine</i> and <i>AllocateRoutine</i> that were registered when the generic table was initialized by <a href="..\ntddk\nf-ntddk-rtlinitializegenerictable.md">RtlInitializeGenericTable</a>. After inserting the new element, <b>RtlInsertElementGenericTable</b> rebalances the splay link tree.
+To insert an element, <b>RtlInsertElementGenericTable</b> calls the <i>CompareRoutine</i> and <i>AllocateRoutine</i> that were registered when the generic table was initialized by <a href="https://msdn.microsoft.com/library/windows/hardware/ff552989">RtlInitializeGenericTable</a>. After inserting the new element, <b>RtlInsertElementGenericTable</b> rebalances the splay link tree.
 
 When a new element is inserted into the table, its data is copied from <i>Buffer</i> into the new element. Thus the pointer returned by <b>RtlInsertElementGenericTable</b> is never equal to <i>Buffer</i>. 
 
@@ -117,7 +104,7 @@ By default, the operating system uses splay trees to implement generic tables. U
 
 #define RTL_USE_AVL_TABLES 0
 
-If RTL_USE_AVL_TABLES is not defined, you must use the AVL form of the generic table routines. For example, use the <a href="..\ntddk\nf-ntddk-rtlinsertelementgenerictableavl.md">RtlInsertElementGenericTableAvl</a> routine instead of <b>RtlInsertElementGenericTable</b>. In the call to <b>RtlInsertElementGenericTableAvl</b>, the caller must pass a <a href="..\ntddk\ns-ntddk-_rtl_avl_table.md">RTL_AVL_TABLE</a> table structure rather than <a href="..\ntddk\ns-ntddk-_rtl_generic_table.md">RTL_GENERIC_TABLE</a>.
+If RTL_USE_AVL_TABLES is not defined, you must use the AVL form of the generic table routines. For example, use the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406468">RtlInsertElementGenericTableAvl</a> routine instead of <b>RtlInsertElementGenericTable</b>. In the call to <b>RtlInsertElementGenericTableAvl</b>, the caller must pass a <a href="https://msdn.microsoft.com/library/windows/hardware/ff553327">RTL_AVL_TABLE</a> table structure rather than <a href="https://msdn.microsoft.com/library/windows/hardware/ff553345">RTL_GENERIC_TABLE</a>.
 
 Callers of <b>RtlInsertElementGenericTable</b> must be running at IRQL &lt; DISPATCH_LEVEL if either of the following conditions holds:
 
@@ -136,16 +123,15 @@ The caller-supplied <i>CompareRoutine</i> or <i>AllocateRoutine</i> contains pag
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-rtlinitializegenerictable.md">RtlInitializeGenericTable</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-rtldeleteelementgenerictable.md">RtlDeleteElementGenericTable</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552209">RtlDeleteElementGenericTable</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552989">RtlInitializeGenericTable</a>
  
 
  
-
 

@@ -55,18 +55,6 @@ req.typenames: CONNECT_DATA, *PCONNECT_DATA
 The <b>KoDriverInitialize</b> function initializes a driver object to handle the kernel streaming interface. 
 
 
-## -syntax
-
-
-````
-NTSTATUS KoDriverInitialize(
-  _In_ PDRIVER_OBJECT        DriverObject,
-  _In_ PUNICODE_STRING       RegistryPathName,
-  _In_ KoCreateObjectHandler CreateObjectHandler
-);
-````
-
-
 ## -parameters
 
 

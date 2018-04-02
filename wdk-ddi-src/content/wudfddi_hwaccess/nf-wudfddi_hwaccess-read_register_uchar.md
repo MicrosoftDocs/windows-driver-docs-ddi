@@ -55,17 +55,6 @@ req.product: Windows 10 or later.
 The <b>READ_REGISTER_UCHAR</b> function reads a byte from the specified register address.
 
 
-## -syntax
-
-
-````
-UCHAR READ_REGISTER_UCHAR(
-  _In_ IWDFDevice3 *pDevice,
-  _In_ PUCHAR      Register
-);
-````
-
-
 ## -parameters
 
 
@@ -73,7 +62,7 @@ UCHAR READ_REGISTER_UCHAR(
 
 ### -param pDevice [in]
 
-Specifies a pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfdevice3.md">IWDFDevice3</a> interface for the device object of the device to access.
+Specifies a pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451197">IWDFDevice3</a> interface for the device object of the device to access.
 
 
 ### -param Register [in]

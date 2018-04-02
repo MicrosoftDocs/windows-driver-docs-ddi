@@ -7,7 +7,7 @@ old-location: netvista\ndis_shared_memory_parameters.htm
 old-project: netvista
 ms.assetid: 286b08f6-179e-426e-ae65-b108529d049a
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PNDIS_SHARED_MEMORY_PARAMETERS, NDIS_SHARED_MEMORY_PARAMETERS, NDIS_SHARED_MEMORY_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_SHARED_MEMORY_PARAMETERS, PNDIS_SHARED_MEMORY_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SHARED_MEMORY_PARAMETERS, ndis/NDIS_SHARED_MEMORY_PARAMETERS, ndis/PNDIS_SHARED_MEMORY_PARAMETERS, ndis_shared_memory_ref_76b2c89f-c221-42de-ae92-ad10cf2297f2.xml, netvista.ndis_shared_memory_parameters"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,28 +53,6 @@ The NDIS_SHARED_MEMORY_PARAMETERS structure specifies the shared memory paramete
   memory allocation request.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_SHARED_MEMORY_PARAMETERS {
-  NDIS_OBJECT_HEADER       Header;
-  ULONG                    Flags;
-  NDIS_RECEIVE_QUEUE_ID    QueueId;
-  NDIS_HANDLE              SharedMemoryHandle;
-  NODE_REQUIREMENT         PreferredNode;
-  NDIS_SHARED_MEMORY_USAGE Usage;
-  ULONG                    Length;
-  PVOID                    VirtualAddress;
-  ULONG                    SGListBufferLength;
-  PSCATTER_GATHER_LIST     SGListBuffer;
-#if (NDIS_SUPPORT_NDIS630)
-  NDIS_NIC_SWITCH_VPORT_ID VPortId;
-#endif 
-} NDIS_SHARED_MEMORY_PARAMETERS, *PNDIS_SHARED_MEMORY_PARAMETERS;
-````
-
-
 ## -struct-fields
 
 
@@ -82,7 +60,7 @@ typedef struct _NDIS_SHARED_MEMORY_PARAMETERS {
 
 ### -field Header
 
-The type, revision, and size of the NDIS_SHARED_MEMORY_PARAMETERS structure. This member is formatted as an <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
+The type, revision, and size of the NDIS_SHARED_MEMORY_PARAMETERS structure. This member is formatted as an <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure.
 
 The miniport driver must set the <b>Type</b> member of <b>Header</b> to NDIS_OBJECT_TYPE_DEFAULT. To specify the version of the NDIS_SHARED_MEMORY_PARAMETERS structure, the driver must set the <b>Revision</b> member of <b>Header</b> to one of the following values: 
 
@@ -132,7 +110,7 @@ An NDIS_RECEIVE_QUEUE_ID value that contains a virtual machine queue (VMQ) or si
 
 An NDIS_HANDLE value that identifies a block of shared memory. NDIS provides this handle before it
      returns from the 
-     <a href="..\ndis\nf-ndis-ndisallocatesharedmemory.md">
+     <a href="https://msdn.microsoft.com/1e4919df-7897-44c3-876f-0f1acfe6d5af">
      NdisAllocateSharedMemory</a> function.
 
 
@@ -144,7 +122,7 @@ A NODE_REQUIREMENT value that indicates the preferred node to use while allocati
 ### -field Usage
 
 An 
-     <a href="..\ndis\ne-ndis-_ndis_shared_memory_usage.md">NDIS_SHARED_MEMORY_USAGE</a> enumeration
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff567309">NDIS_SHARED_MEMORY_USAGE</a> enumeration
      value that specifies the purpose of the shared memory.
 
 
@@ -168,7 +146,7 @@ A ULONG value that contains the length, in bytes, of the scatter gather list buf
 ### -field SGListBuffer
 
 A pointer to a 
-     <a href="..\wdm\ns-wdm-_scatter_gather_list.md">SCATTER_GATHER_LIST</a> structure.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff563664">SCATTER_GATHER_LIST</a> structure.
 
 
 ### -field VPortId
@@ -188,9 +166,9 @@ The NDIS_SHARED_MEMORY_PARAMETERS structure specifies the shared memory paramete
     allocation request for a receive queue.
 
 NDIS drivers pass this structure to the 
-    <a href="..\ndis\nf-ndis-ndisallocatesharedmemory.md">NdisAllocateSharedMemory</a> function
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561616">NdisAllocateSharedMemory</a> function
     and NDIS passes this structure to the 
-    <a href="..\ndis\nc-ndis-allocate_shared_memory_handler.md">NetAllocateSharedMemory</a> function
+    <a href="https://msdn.microsoft.com/d85b4f28-707b-4525-afd8-83e1ceb2674e">NetAllocateSharedMemory</a> function
     (ALLOCATE_SHARED_MEMORY_HANDLER entry point).
 
 
@@ -198,28 +176,27 @@ NDIS drivers pass this structure to the
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="..\ndis\nc-ndis-allocate_shared_memory_handler.md">NetAllocateSharedMemory</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="..\ndis\ne-ndis-_ndis_shared_memory_usage.md">NDIS_SHARED_MEMORY_USAGE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567309">NDIS_SHARED_MEMORY_USAGE</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisallocatesharedmemory.md">NdisAllocateSharedMemory</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561616">NdisAllocateSharedMemory</a>
 
 
 
-<a href="..\wdm\ns-wdm-_scatter_gather_list.md">SCATTER_GATHER_LIST</a>
+<a href="https://msdn.microsoft.com/d85b4f28-707b-4525-afd8-83e1ceb2674e">NetAllocateSharedMemory</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563664">SCATTER_GATHER_LIST</a>
  
 
  
-
 

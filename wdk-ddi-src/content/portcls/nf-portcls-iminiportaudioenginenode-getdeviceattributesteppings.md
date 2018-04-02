@@ -7,7 +7,7 @@ old-location: audio\iminiportaudioenginenode_getdeviceattributesteppings.htm
 old-project: audio
 ms.assetid: 7AF6C9AF-8955-4F09-A42C-097B4AD1CD3A
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/19/2018
 ms.keywords: GetDeviceAttributeSteppings method [Audio Devices], GetDeviceAttributeSteppings method [Audio Devices], IMiniportAudioEngineNode interface, GetDeviceAttributeSteppings,IMiniportAudioEngineNode.GetDeviceAttributeSteppings, IMiniportAudioEngineNode, IMiniportAudioEngineNode interface [Audio Devices], GetDeviceAttributeSteppings method, IMiniportAudioEngineNode::GetDeviceAttributeSteppings, audio.iminiportaudioenginenode_getdeviceattributesteppings, portcls/IMiniportAudioEngineNode::GetDeviceAttributeSteppings
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,19 +52,6 @@ req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 Gets the allowed stepping value for the audio device attribute.
 
 
-## -syntax
-
-
-````
-NTSTATUS GetDeviceAttributeSteppings(
-  [in]  ULONG                     ulNodeId,
-  [in]  eChannelTargetType        targetType,
-  [out] PKSPROPERTY_STEPPING_LONG pKsPropStepLong,
-  [in]  UINT32                    ui32DataSize
-);
-````
-
-
 ## -parameters
 
 
@@ -77,7 +64,7 @@ The ID for the node that represents the audio device.
 
 ### -param targetType [in]
 
-An  <a href="..\portcls\ne-portcls-echanneltargettype.md">eChannelTargetType</a> enumerated value that specifies the type of target node. For example, a Volume or a Mute node.
+An  <a href="https://msdn.microsoft.com/library/windows/hardware/dn302034">eChannelTargetType</a> enumerated value that specifies the type of target node. For example, a Volume or a Mute node.
 
 
 ### -param pKsPropStepLong [out]
@@ -103,7 +90,10 @@ returns an appropriate error code.
 
 ## -see-also
 
-<a href="..\portcls\ne-portcls-echanneltargettype.md">eChannelTargetType</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn302040">IMiniportAudioEngineNode</a>
 
 
 
@@ -111,12 +101,8 @@ returns an appropriate error code.
 
 
 
-<a href="..\portcls\nn-portcls-iminiportaudioenginenode.md">IMiniportAudioEngineNode</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn302034">eChannelTargetType</a>
  
 
  
-
 

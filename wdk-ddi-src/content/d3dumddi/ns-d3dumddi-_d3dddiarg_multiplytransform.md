@@ -7,7 +7,7 @@ old-location: display\d3dddiarg_multiplytransform.htm
 old-project: display
 ms.assetid: 4f14532f-8937-4715-aa9f-e38f18179af7
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDIARG_MULTIPLYTRANSFORM, D3DDDIARG_MULTIPLYTRANSFORM structure [Display Devices], UMDisplayDriver_param_Structs_9bae119f-aead-46d7-8a10-18cd6e227102.xml, _D3DDDIARG_MULTIPLYTRANSFORM, d3dumddi/D3DDDIARG_MULTIPLYTRANSFORM, display.d3dddiarg_multiplytransform
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,17 +50,6 @@ req.typenames: D3DDDIARG_MULTIPLYTRANSFORM
 
 
 The D3DDDIARG_MULTIPLYTRANSFORM structure describes how to modify the current transform. 
-
-
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_MULTIPLYTRANSFORM {
-  D3DTRANSFORMSTATETYPE TransformType;
-  D3DMATRIX             Matrix;
-} D3DDDIARG_MULTIPLYTRANSFORM;
-````
 
 
 ## -struct-fields
@@ -120,19 +109,18 @@ World transformation
 
 
 
-The Microsoft Direct3D runtime uses D3DDDIARG_MULTIPLYTRANSFORM in a call to the user-mode display driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_multiplytransform.md">MultiplyTransform</a> function to inform the driver about modifications to the various transformation matrices.
+The Microsoft Direct3D runtime uses D3DDDIARG_MULTIPLYTRANSFORM in a call to the user-mode display driver's <a href="https://msdn.microsoft.com/69d94062-5655-4d49-a116-7fa7e2b51a91">MultiplyTransform</a> function to inform the driver about modifications to the various transformation matrices.
 
 
 
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_multiplytransform.md">MultiplyTransform</a>
 
 
 
+<a href="https://msdn.microsoft.com/69d94062-5655-4d49-a116-7fa7e2b51a91">MultiplyTransform</a>
  
 
  
-
 

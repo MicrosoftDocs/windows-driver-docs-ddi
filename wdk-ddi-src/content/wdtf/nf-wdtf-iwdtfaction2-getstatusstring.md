@@ -7,7 +7,7 @@ old-location: dtf\iwdtfaction2_getstatusstring.htm
 old-project: dtf
 ms.assetid: 21f7a3ea-5db9-4666-865c-c6b1ca9ba20f
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/29/2018
 ms.keywords: GetStatusString method [Windows Device Testing Framework], GetStatusString method [Windows Device Testing Framework], IWDTFAction2 interface, GetStatusString,IWDTFAction2.GetStatusString, IWDTFAction2, IWDTFAction2 interface [Windows Device Testing Framework], GetStatusString method, IWDTFAction2::GetStatusString, Microsoft.WDTF.IWDTFAction2.GetStatusString, Microsoft::WDTF::IWDTFAction2::GetStatusString, dtf.iwdtfaction2_getstatusstring, wdtf/IWDTFAction2::GetStatusString
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 Returns the status for the last operation as a string.
 
 
-## -syntax
-
-
-````
-HRESULT GetStatusString(
-  [out, retval] BSTR *pResult
-);
-````
-
-
 ## -parameters
 
 
@@ -84,12 +74,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\wdtf\nn-wdtf-iwdtfaction2.md">IWDTFAction2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406311">IWDTFAction2</a>
  
 
  
-
 

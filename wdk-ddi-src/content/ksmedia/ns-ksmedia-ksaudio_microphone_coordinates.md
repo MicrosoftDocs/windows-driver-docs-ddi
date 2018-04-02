@@ -7,7 +7,7 @@ old-location: audio\ksaudio_microphone_coordinates.htm
 old-project: audio
 ms.assetid: 443fb3c0-0e75-4abc-b44f-047752b3cab7
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/19/2018
 ms.keywords: "*PKSAUDIO_MICROPHONE_COORDINATES, KSAUDIO_MICROPHONE_COORDINATES, KSAUDIO_MICROPHONE_COORDINATES structure [Audio Devices], PKSAUDIO_MICROPHONE_COORDINATES, PKSAUDIO_MICROPHONE_COORDINATES structure pointer [Audio Devices], aud-prop_85a5f68f-13f2-4465-bb16-4d30e9c9d731.xml, audio.ksaudio_microphone_coordinates, ksmedia/KSAUDIO_MICROPHONE_COORDINATES, ksmedia/PKSAUDIO_MICROPHONE_COORDINATES"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,21 +50,6 @@ req.typenames: KSAUDIO_MICROPHONE_COORDINATES, *PKSAUDIO_MICROPHONE_COORDINATES
 
 
 The KSAUDIO_MICROPHONE_COORDINATES structure specifies the type and the coordinates of a single microphone in the microphone array.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  USHORT usType;
-  SHORT  wXCoord;
-  SHORT  wYCoord;
-  SHORT  wZCoord;
-  SHORT  wVerticalAngle;
-  SHORT  wHorizontalAngle;
-} KSAUDIO_MICROPHONE_COORDINATES, *PKSAUDIO_MICROPHONE_COORDINATES;
-````
 
 
 ## -struct-fields

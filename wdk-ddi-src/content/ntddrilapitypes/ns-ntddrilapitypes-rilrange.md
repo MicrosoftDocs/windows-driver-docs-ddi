@@ -7,7 +7,7 @@ old-location: netvista\rilrange.htm
 old-project: netvista
 ms.assetid: 2f704899-eb5e-4632-a76d-eb474f3273f9
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*LPRILRANGE, RILRANGE, RILRANGE structure [Network Drivers Starting with Windows Vista], netvista.rilrange, ntddrilapitypes/RILRANGE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,17 +50,6 @@ req.typenames: RILRANGE, *LPRILRANGE
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef struct _RILRANGE {
-  DWORD  dwMinValue;
-  DWORD  dwMaxValue;
-} RILRANGE, RILRANGE;
-````
 
 
 ## -struct-fields

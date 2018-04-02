@@ -7,7 +7,7 @@ old-location: kernel\zwunlockfile.htm
 old-project: kernel
 ms.assetid: dca3023b-99d5-471a-a5a2-8453c367ce9b
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: NtUnlockFile, ZwUnlockFile, ZwUnlockFile routine [Kernel-Mode Driver Architecture], k111_a77fe0ba-5252-4441-aaad-67d2bbae01cb.xml, kernel.zwunlockfile, ntifs/NtUnlockFile, ntifs/ZwUnlockFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,20 +53,6 @@ req.typenames: TOKEN_TYPE
 The <b>ZwUnlockFile</b> routine unlocks a byte-range lock in a file.
 
 
-## -syntax
-
-
-````
-NTSTATUS ZwUnlockFile(
-  _In_  HANDLE           FileHandle,
-  _Out_ PIO_STATUS_BLOCK IoStatusBlock,
-  _In_  PLARGE_INTEGER   ByteOffset,
-  _In_  PLARGE_INTEGER   Length,
-  _In_  ULONG            Key
-);
-````
-
-
 ## -parameters
 
 
@@ -79,7 +65,7 @@ A handle for the file object that represents the file whose byte range is to be 
 
 ### -param IoStatusBlock [out]
 
-A pointer to an <a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure that contains the final status.
+A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550671">IO_STATUS_BLOCK</a> structure that contains the final status.
 
 
 ### -param ByteOffset [in]
@@ -142,16 +128,15 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-zwlockfile.md">ZwLockFile</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566474">ZwLockFile</a>
  
 
  
-
 

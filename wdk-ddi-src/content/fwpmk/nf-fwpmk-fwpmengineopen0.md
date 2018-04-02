@@ -7,7 +7,7 @@ old-location: netvista\fwpmengineopen0.htm
 old-project: netvista
 ms.assetid: 4d805ffe-7cf9-4cbc-9077-e191ddc24ecd
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: FwpmEngineOpen0, FwpmEngineOpen0 function [Network Drivers Starting with Windows Vista], fwpmk/FwpmEngineOpen0, netvista.fwpmengineopen0, wfp_ref_2_funct_2_fwpm_29969a12-e73c-4b61-b940-e0da4b0be737.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,20 +53,6 @@ req.typenames: INSTANCE_PARTIAL_INFORMATION, PINSTANCE_PARTIAL_INFORMATION
 The 
   <b>FwpmEngineOpen0</b> function opens a session to the filter engine.
 <div class="alert"><b>Note</b>  <b>FwpmEngineOpen0</b> is a specific version of <b>FwpmEngineOpen</b>. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
-
-## -syntax
-
-
-````
-NTSTATUS NTAPI FwpmEngineOpen0(
-  _In_opt_ const wchar_t                   *serverName,
-  _In_           UINT32                    authnService,
-  _In_opt_       SEC_WINNT_AUTH_IDENTITY_W *authIdentity,
-  _In_opt_ const FWPM_SESSION0             *session,
-  _Out_          HANDLE                    *engineHandle
-);
-````
-
 
 ## -parameters
 
@@ -163,13 +149,13 @@ Callout drivers normally do not need to open a session to the filter engine beca
 For a callout driver to successfully open a session to the filter engine, the filter engine
     must be currently running at the time that the callout driver calls the 
     <b>FwpmEngineOpen0</b> function. A callout driver can call the 
-    <a href="..\fwpmk\nf-fwpmk-fwpmbfestateget0.md">FwpmBfeStateGet0</a> function to obtain the
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff550061">FwpmBfeStateGet0</a> function to obtain the
     current state of the filter engine. Before calling <b>FwpmBfeStateGet0</b>, the callout driver must call the 
-    <a href="..\fwpmk\nf-fwpmk-fwpmbfestatesubscribechanges0.md">FwpmBfeStateSubscribeChanges0</a> function to register a callback function that will be called whenever
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff550062">FwpmBfeStateSubscribeChanges0</a> function to register a callback function that will be called whenever
     there is a change in the state of the filter engine.
 
 After a callout driver has finished accessing the filter engine, it calls the 
-    <a href="..\fwpmk\nf-fwpmk-fwpmengineclose0.md">FwpmEngineClose0</a> function to close the
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff550072">FwpmEngineClose0</a> function to close the
     open session to the filter engine.
 
 
@@ -177,38 +163,37 @@ After a callout driver has finished accessing the filter engine, it calls the
 
 ## -see-also
 
-<a href="..\fwpmk\nf-fwpmk-fwpmcalloutadd0.md">FwpmCalloutAdd0</a>
 
 
 
-<a href="..\fwpmk\nf-fwpmk-fwpmcalloutdeletebykey0.md">FwpmCalloutDeleteByKey0</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550061">FwpmBfeStateGet0</a>
 
 
 
-<a href="..\fwpmk\nf-fwpmk-fwpmengineclose0.md">FwpmEngineClose0</a>
+<a href="https://msdn.microsoft.com/375af8a1-9e05-4830-9074-6313b4e082d9">
+   FwpmBfeStateSubscribeChanges0</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550067">FwpmCalloutAdd0</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550069">FwpmCalloutDeleteById0</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550071">FwpmCalloutDeleteByKey0</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550072">FwpmEngineClose0</a>
 
 
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/calling-other-windows-filtering-platform-functions">Other Windows Filtering
    Platform Functions</a>
-
-
-
-<a href="..\fwpmk\nf-fwpmk-fwpmcalloutdeletebyid0.md">FwpmCalloutDeleteById0</a>
-
-
-
-<a href="..\fwpmk\nf-fwpmk-fwpmbfestateget0.md">FwpmBfeStateGet0</a>
-
-
-
-<a href="..\fwpmk\nf-fwpmk-fwpmbfestatesubscribechanges0.md">
-   FwpmBfeStateSubscribeChanges0</a>
-
-
-
  
 
  
-
 

@@ -52,21 +52,6 @@ req.typenames: MsrTrackErrorType
 This enumeration defines the kinds of magnetic stripe reader track errors.
 
 
-## -syntax
-
-
-````
-typedef enum _MsrTrackErrorType { 
-  MsrTrackErrorType_Unknown             = -1,
-  MsrTrackErrorType_None                = 0,
-  MsrTrackErrorType_StartSentinelError  = 1,
-  MsrTrackErrorType_EndSentinelError    = 2,
-  MsrTrackErrorType_ParityError         = 3,
-  MsrTrackErrorType_LrcError            = 4
-} MsrTrackErrorType;
-````
-
-
 ## -enum-fields
 
 

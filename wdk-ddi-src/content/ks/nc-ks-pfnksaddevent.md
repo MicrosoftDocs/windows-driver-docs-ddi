@@ -52,21 +52,6 @@ req.typenames: SOUNDDETECTOR_PATTERNHEADER
 An AVStream minidriver's <i>AVStrMiniAddEvent</i> routine is called when a client registers to be notified of an event. This routine is optional.
 
 
-## -prototype
-
-
-````
-PFNKSADDEVENT AVStrMiniAddEvent;
-
-NTSTATUS AVStrMiniAddEvent(
-  _In_ PIRP                  Irp,
-  _In_ PKSEVENTDATA          EventData,
-  _In_ struct _KSEVENT_ENTRY *EventEntry
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -79,12 +64,12 @@ Specifies the IRP describing the event add request.
 
 ### -param EventData [in]
 
-Pointer to a <a href="..\ks\ns-ks-kseventdata.md">KSEVENTDATA</a> structure describing the notification method for this event.
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff561750">KSEVENTDATA</a> structure describing the notification method for this event.
 
 
 ### -param *EventEntry [in]
 
-Pointer to an AVStream-generated <a href="..\ks\ns-ks-_ksevent_entry.md">KSEVENT_ENTRY</a> structure describing how the event is triggered.
+Pointer to an AVStream-generated <a href="https://msdn.microsoft.com/library/windows/hardware/ff561853">KSEVENT_ENTRY</a> structure describing how the event is triggered.
 
 
 ## -returns
@@ -102,9 +87,9 @@ Pointer to an AVStream-generated <a href="..\ks\ns-ks-_ksevent_entry.md">KSEVENT
 
 If you do not provide an add event handler, AVStream adds the event to the object list. See <a href="https://msdn.microsoft.com/7add2055-8d3f-432d-8aa1-44459ac197dd">Event Handling in AVStream</a>.
 
-Frequently this callback implements vendor-specific behavior and then calls <a href="..\ks\nf-ks-ksfilteraddevent.md">KsFilterAddEvent</a> or <a href="..\ks\nf-ks-kspinaddevent.md">KsPinAddEvent</a>. The minidriver passes the <i>EventEntry</i> pointer received here in calls to <i>KsFilterAddEvent</i> or <i>KsPinAddEvent</i>.
+Frequently this callback implements vendor-specific behavior and then calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff562525">KsFilterAddEvent</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff563490">KsPinAddEvent</a>. The minidriver passes the <i>EventEntry</i> pointer received here in calls to <i>KsFilterAddEvent</i> or <i>KsPinAddEvent</i>.
 
-The minidriver specifies this routine's address in the <b>AddHandler</b> member of a <a href="..\ks\ns-ks-ksevent_item.md">KSEVENT_ITEM</a> structure. <a href="https://msdn.microsoft.com/7add2055-8d3f-432d-8aa1-44459ac197dd">Event Handling in AVStream</a> describes how the minidriver provides this structure to the class driver.
+The minidriver specifies this routine's address in the <b>AddHandler</b> member of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff561862">KSEVENT_ITEM</a> structure. <a href="https://msdn.microsoft.com/7add2055-8d3f-432d-8aa1-44459ac197dd">Event Handling in AVStream</a> describes how the minidriver provides this structure to the class driver.
 
 If an AVStream minidriver specifies <b>AddHandler</b> as non-NULL, AVStream does not add the item to the object's event list. If minidriver specifies an <b>AddHandler</b> and does not add the event to the object's event list through <b>KsDefaultAddEventHandler()</b> or a <b>Ks*AddEvent </b>call, the minidriver is responsible for cleaning up the event.
 
@@ -113,44 +98,43 @@ If an AVStream minidriver specifies <b>AddHandler</b> as non-NULL, AVStream does
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksevent_item.md">KSEVENT_ITEM</a>
 
 
 
-<a href="..\ks\nf-ks-kspingenerateevents.md">KsPinGenerateEvents</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556361">AVStrMiniRemoveEvent</a>
 
 
 
-<a href="..\ks\nf-ks-ksfilteraddevent.md">KsFilterAddEvent</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560990">KSAUTOMATION_TABLE</a>
 
 
 
-<a href="..\ks\ns-ks-_ksevent_entry.md">KSEVENT_ENTRY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561750">KSEVENTDATA</a>
 
 
 
-<a href="..\ks\ns-ks-ksautomation_table_.md">KSAUTOMATION_TABLE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561853">KSEVENT_ENTRY</a>
 
 
 
-<a href="..\ks\nf-ks-kspinaddevent.md">KsPinAddEvent</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561862">KSEVENT_ITEM</a>
 
 
 
-<a href="..\ks\nc-ks-pfnksremoveevent.md">AVStrMiniRemoveEvent</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562525">KsFilterAddEvent</a>
 
 
 
-<a href="..\ks\nf-ks-ksfiltergenerateevents.md">KsFilterGenerateEvents</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562541">KsFilterGenerateEvents</a>
 
 
 
-<a href="..\ks\ns-ks-kseventdata.md">KSEVENTDATA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563490">KsPinAddEvent</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563500">KsPinGenerateEvents</a>
  
 
  
-
 

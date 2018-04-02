@@ -53,20 +53,6 @@ req.product: Windows 10 or later.
 The <code>IPrintCoreUI2::SetOptions</code> method sets the driver's feature settings.
 
 
-## -syntax
-
-
-````
-HRESULT SetOptions(
-  [in]  POEMUIOBJ poemuiobj,
-  [in]  DWORD     dwFlags,
-  [in]  PCSTR     pmszFeatureOptionBuf,
-  [in]  DWORD     cbIn,
-  [out] PDWORD    pdwResult
-);
-````
-
-
 ## -parameters
 
 
@@ -74,7 +60,7 @@ HRESULT SetOptions(
 
 ### -param poemuiobj [in]
 
-Pointer to the current context, an <a href="..\printoem\ns-printoem-_oemuiobj.md">OEMUIOBJ</a> structure.
+Pointer to the current context, an <a href="https://msdn.microsoft.com/library/windows/hardware/ff559571">OEMUIOBJ</a> structure.
 
 
 ### -param dwFlags [in]
@@ -253,7 +239,10 @@ For more information, see <a href="https://msdn.microsoft.com/c8b5c235-0b74-47c8
 
 ## -see-also
 
-<a href="..\prcomoem\nn-prcomoem-iprintcoreui2.md">IPrintCoreUI2</a>
+
+
+
+<a href="https://msdn.microsoft.com/e2d2e486-d69d-4a6d-aaab-a7b8806665b4">IPrintCoreUI2</a>
 
 
 
@@ -265,16 +254,12 @@ For more information, see <a href="https://msdn.microsoft.com/c8b5c235-0b74-47c8
 
 
 
-<a href="..\printoem\ns-printoem-_oemuiobj.md">OEMUIOBJ</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554173">IPrintOemUI::DocumentPropertySheets</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559571">OEMUIOBJ</a>
  
 
  
-
 

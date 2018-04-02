@@ -54,16 +54,6 @@ req.product: Windows 10 or later.
 The <a href="https://msdn.microsoft.com/library/windows/hardware/ff545512">ISensorClassExtension::CleanupFile</a> method notifies the class extension about a file handle that closes and cancels all pending I/O requests, for the specified application.
 
 
-## -syntax
-
-
-````
-HRESULT CleanupFile(
-   IWDFFile * pWdfFile
-);
-````
-
-
 ## -parameters
 
 

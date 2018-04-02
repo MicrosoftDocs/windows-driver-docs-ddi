@@ -7,7 +7,7 @@ old-location: dtf\iwdtfenhanceddevicetestsupportaction2_skiprestart.htm
 old-project: dtf
 ms.assetid: e07c6246-f6f8-4335-9b2c-ae6c2673e188
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/29/2018
 ms.keywords: IWDTFEnhancedDeviceTestSupportAction2, IWDTFEnhancedDeviceTestSupportAction2 interface [Windows Device Testing Framework], SkipRestart property, IWDTFEnhancedDeviceTestSupportAction2.SkipRestart, IWDTFEnhancedDeviceTestSupportAction2::put_SkipRestart, Microsoft.WDTF.IWDTFEnhancedDeviceTestSupportAction2.SkipRestart, Microsoft::WDTF::IWDTFEnhancedDeviceTestSupportAction2::SkipRestart, SkipRestart property [Windows Device Testing Framework], SkipRestart property [Windows Device Testing Framework], IWDTFEnhancedDeviceTestSupportAction2 interface, dtf.iwdtfenhanceddevicetestsupportaction2_skiprestart, put_SkipRestart,IWDTFEnhancedDeviceTestSupportAction2.put_SkipRestart, wdtfedtaction/IWDTFEnhancedDeviceTestSupportAction2::SkipRestart, wdtfedtaction/IWDTFEnhancedDeviceTestSupportAction2::put_SkipRestart
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -56,16 +56,6 @@ Sets a value that indicates whether the target device should be restarted by def
 This property is write-only.
 
 
-## -syntax
-
-
-````
-HRESULT put_SkipRestart(
-  [in] VARIANT_BOOL bSkipRestart
-);
-````
-
-
 ## -parameters
 
 
@@ -82,12 +72,11 @@ attempt to restart the target device by default. Use this method to skip that st
 
 ## -see-also
 
-<a href="..\wdtfedtaction\nn-wdtfedtaction-iwdtfenhanceddevicetestsupportaction2.md">IWDTFEnhancedDeviceTestSupportAction2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450969">IWDTFEnhancedDeviceTestSupportAction2</a>
  
 
  
-
 

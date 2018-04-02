@@ -52,17 +52,6 @@ req.typenames: EXpsFontRestriction
 The <code>RequestShutdown</code> method requests that a pipeline be shut down.
 
 
-## -syntax
-
-
-````
-HRESULT RequestShutdown(
-  [in] HRESULT       hrReason,
-  [in] IImgErrorInfo *pReason
-);
-````
-
-
 ## -parameters
 
 
@@ -91,7 +80,7 @@ Not used. Set to <b>NULL</b>.
 
 
 
-A filter that uses the <a href="..\filterpipeline\nn-filterpipeline-ixpsdocumentconsumer.md">IXpsDocumentConsumer</a> interface must call <code>IPrintPipelineManagerControl::RequestShutdown</code> before it calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff556293">IXpsDocumentConsumer::CloseSender</a> to shut down the pipeline. Calling <b>IXpsDocumentConsumer::CloseSender</b> first can produce an invalid XPS document and cause an error. 
+A filter that uses the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556291">IXpsDocumentConsumer</a> interface must call <code>IPrintPipelineManagerControl::RequestShutdown</code> before it calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff556293">IXpsDocumentConsumer::CloseSender</a> to shut down the pipeline. Calling <b>IXpsDocumentConsumer::CloseSender</b> first can produce an invalid XPS document and cause an error. 
 
 
 

@@ -52,17 +52,6 @@ req.typenames: EXpsFontRestriction
 The <code>Current</code> method provides the current URI and part.
 
 
-## -syntax
-
-
-````
-HRESULT Current(
-  [out] BSTR     *pUri,
-  [out] IUnknown **ppXpsPart
-);
-````
-
-
 ## -parameters
 
 

@@ -52,20 +52,6 @@ req.typenames: SOUNDDETECTOR_PATTERNHEADER
 A streaming minidriver's <i>KStrIrpListCallback</i> routine is called to determine whether the passed in IRP should be moved from the source list to the destination list, or if IRP enumeration should be terminated.
 
 
-## -prototype
-
-
-````
-PFNKSIRPLISTCALLBACK KStrIrpListCallback;
-
-NTSTATUS KStrIrpListCallback(
-  _In_ PIRP  Irp,
-  _In_ PVOID Context
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -78,7 +64,7 @@ Pointer to the IRP to possibly move to the destination list from the source list
 
 ### -param Context [in]
 
-Passed from <a href="..\ks\nf-ks-ksmoveirpsoncancelablequeue.md">KsMoveIrpsOnCancelableQueue</a>.
+Passed from <a href="https://msdn.microsoft.com/library/windows/hardware/ff563434">KsMoveIrpsOnCancelableQueue</a>.
 
 
 ## -returns
@@ -103,12 +89,11 @@ Returns STATUS_SUCCESS to indicate the passed in IRP should be moved from the so
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksmoveirpsoncancelablequeue.md">KsMoveIrpsOnCancelableQueue</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563434">KsMoveIrpsOnCancelableQueue</a>
  
 
  
-
 

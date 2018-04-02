@@ -52,19 +52,6 @@ req.typenames: KS_DVD_YUV, *PKS_DVD_YUV
 The KS_DVD_YUV structure is used to describe a color in the YUV colorspace.
 
 
-## -syntax
-
-
-````
-typedef struct _KS_DVD_YUV {
-  UCHAR Reserved;
-  UCHAR Y;
-  UCHAR V;
-  UCHAR U;
-} KS_DVD_YUV, *PKS_DVD_YUV;
-````
-
-
 ## -struct-fields
 
 
@@ -101,12 +88,11 @@ The KS_DVD_YUV structure is used
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-_ks_dvd_ycrcb.md">KS_DVD_YCrCb</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567641">KS_DVD_YCrCb</a>
  
 
  
-
 

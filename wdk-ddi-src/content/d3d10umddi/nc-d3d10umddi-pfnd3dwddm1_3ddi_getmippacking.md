@@ -7,7 +7,7 @@ old-location: display\getmippacking.htm
 old-project: display
 ms.assetid: 8AF361B5-279D-4525-AD98-843A4A746201
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: GetMipPacking, GetMipPacking callback function [Display Devices], PFND3DWDDM1_3DDI_GETMIPPACKING, d3d10umddi/GetMipPacking, display.getmippacking
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,22 +52,6 @@ req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 For a given tiled resource, returns how many mips are packed, and how many tiles are needed to store all the packed mips.
 
 
-## -prototype
-
-
-````
-PFND3DWDDM1_3DDI_GETMIPPACKING GetMipPacking;
-
-VOID APIENTRY* GetMipPacking(
-        D3D10DDI_HDEVICE   hDevice,
-        D3D10DDI_HRESOURCE hTiledResource,
-  _Out_ UINT               *pNumPackedMips,
-  _Out_ UINT               *pNumTilesForPackedMips
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -103,7 +87,7 @@ This parameter is ignored if *<i>pNumPackedMips</i> returns zero.
 
 None
 
-The driver can use the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a> callback function to set an error code. The driver can set <b>E_INVALIDARG</b> if an input parameter does not exist or is <b>NULL</b>.
+The driver can use the <a href="https://msdn.microsoft.com/968b04a7-8869-410c-a6fc-83d57726858f">pfnSetErrorCb</a> callback function to set an error code. The driver can set <b>E_INVALIDARG</b> if an input parameter does not exist or is <b>NULL</b>.
 
 
 
@@ -134,12 +118,11 @@ in the packing overall), and thus loses some freedom.
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
 
 
 
+<a href="https://msdn.microsoft.com/968b04a7-8869-410c-a6fc-83d57726858f">pfnSetErrorCb</a>
  
 
  
-
 

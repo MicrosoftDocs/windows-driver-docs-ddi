@@ -7,7 +7,7 @@ old-location: debugger\idebugoutputcallbacks.htm
 old-project: debugger
 ms.assetid: 6b29e15c-3a9d-4d96-8b72-22064526ca75
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: ComCallbacks_ed6ca0bd-5599-426d-b089-18a12311eba0.xml, IDebugOutputCallbacks, IDebugOutputCallbacks interface [Windows Debugging], IDebugOutputCallbacks interface [Windows Debugging], described, dbgeng/IDebugOutputCallbacks, debugger.idebugoutputcallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -80,12 +80,11 @@ This method is called by the engine to send output from the client to the <b>IDe
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugoutputcallbackswide.md">IDebugOutputCallbacksWide</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550804">IDebugOutputCallbacksWide</a>
  
 
  
-
 

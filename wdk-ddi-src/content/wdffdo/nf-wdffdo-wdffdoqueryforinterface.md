@@ -56,21 +56,6 @@ req.product: Windows 10 or later.
 The <b>WdfFdoQueryForInterface</b> method obtains access to another driver's GUID-identified interface.
 
 
-## -syntax
-
-
-````
-NTSTATUS WdfFdoQueryForInterface(
-  _In_     WDFDEVICE  Device,
-  _In_     LPCGUID    InterfaceType,
-  _Out_    PINTERFACE Interface,
-  _In_     USHORT     Size,
-  _In_     USHORT     Version,
-  _In_opt_ PVOID      InterfaceSpecificData
-);
-````
-
-
 ## -parameters
 
 
@@ -88,7 +73,7 @@ A pointer to a GUID that identifies the interface.
 
 ### -param Interface [out]
 
-A pointer to a driver-allocated structure that receives the requested interface. This structure is defined by the driver that exports the requested interface and must begin with an <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a> structure.
+A pointer to a driver-allocated structure that receives the requested interface. This structure is defined by the driver that exports the requested interface and must begin with an <a href="https://msdn.microsoft.com/library/windows/hardware/dn895657">INTERFACE</a> structure.
 
 
 ### -param Size [in]
@@ -159,9 +144,9 @@ A system bug check occurs if the driver supplies an invalid object handle.
 
 
 
-Your driver can call <b>WdfFdoQueryForInterface</b> to obtain access to a driver-defined interface that was created by a driver that is in the same driver stack that your driver is in. To access a driver-defined interface that was created by a driver that is in a different driver stack, your driver must call <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetqueryforinterface.md">WdfIoTargetQueryForInterface</a>.
+Your driver can call <b>WdfFdoQueryForInterface</b> to obtain access to a driver-defined interface that was created by a driver that is in the same driver stack that your driver is in. To access a driver-defined interface that was created by a driver that is in a different driver stack, your driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff548640">WdfIoTargetQueryForInterface</a>.
 
-Framework-based drivers define interfaces by calling <a href="..\wdfqueryinterface\nf-wdfqueryinterface-wdfdeviceaddqueryinterface.md">WdfDeviceAddQueryInterface</a>. 
+Framework-based drivers define interfaces by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff545870">WdfDeviceAddQueryInterface</a>. 
 
 For more information about <b>WdfFdoQueryForInterface</b>, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-driver-defined-interfaces">Using Driver-Defined Interfaces</a>.
 
@@ -192,12 +177,11 @@ The following code example is from the <a href="https://docs.microsoft.com/en-us
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetqueryforinterface.md">WdfIoTargetQueryForInterface</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548640">WdfIoTargetQueryForInterface</a>
  
 
  
-
 

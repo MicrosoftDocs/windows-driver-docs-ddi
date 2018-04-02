@@ -7,7 +7,7 @@ old-location: netvista\ndiswriteregisteruchar.htm
 old-project: netvista
 ms.assetid: 8f720af6-d70a-4682-86f4-011e70a6f64f
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NdisWriteRegisterUchar, NdisWriteRegisterUchar macro [Network Drivers Starting with Windows Vista], miniport_register_ref_60f684ba-a2ca-4fa8-8a80-9e805fb5c453.xml, ndis/NdisWriteRegisterUchar, netvista.ndiswriteregisteruchar
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,17 +53,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
   register.
 
 
-## -syntax
-
-
-````
-VOID NdisWriteRegisterUchar(
-  [in] PUCHAR Register,
-  [in] UCHAR  Data
-);
-````
-
-
 ## -parameters
 
 
@@ -73,7 +62,7 @@ VOID NdisWriteRegisterUchar(
 
 Pointer to the memory-mapped register. This virtual address must fall within a range returned by
      an initialization-time call to 
-     <a href="..\ndis\nf-ndis-ndismmapiospace.md">NdisMMapIoSpace</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/hh975119">NdisMMapIoSpace</a>.
 
 
 ### -param Data [in]
@@ -94,28 +83,27 @@ If a driver calls this function, a NIC's device registers must be mapped to nonc
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismmapiospace.md">NdisMMapIoSpace</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiswriteregisterulong.md">NdisWriteRegisterUlong</a>
+<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiswriteregisterushort.md">NdisWriteRegisterUshort</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh975119">NdisMMapIoSpace</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564513">NdisReadRegisterUchar</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisreadregisteruchar.md">NdisReadRegisterUchar</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564683">NdisWriteRegisterUlong</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564685">NdisWriteRegisterUshort</a>
  
 
  
-
 

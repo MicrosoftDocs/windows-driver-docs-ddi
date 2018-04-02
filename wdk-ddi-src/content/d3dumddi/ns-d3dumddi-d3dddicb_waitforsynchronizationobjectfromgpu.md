@@ -7,7 +7,7 @@ old-location: display\d3dddicb_waitforsynchronizationobjectfromgpu.htm
 old-project: display
 ms.assetid: 2A441CEE-C138-4FF0-8865-04ABFB0F029C
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMGPU, D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMGPU structure [Display Devices], d3dumddi/D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMGPU, display.d3dddicb_waitforsynchronizationobjectfromgpu
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,24 +49,7 @@ req.typenames: D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMGPU
 ## -description
 
 
-<b>D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMGPU</b> is used with <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_waitforsynchronizationobjectfromgpucb.md">pfnWaitForSynchronizationObjectFromGpuCb</a> to wait for a monitored fence to reach a certain value.
-
-
-## -syntax
-
-
-````
-typedef struct D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMGPU {
-  HANDLE              hContext;
-  UINT                ObjectCount;
-  const D3DKMT_HANDLE *ObjectHandleArray;
-  union {
-    const UINT64 *MonitoredFenceValueArray;
-    UINT64       FenceValue;
-    UINT64       Reserved[8];
-  };
-} D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMGPU;
-````
+<b>D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMGPU</b> is used with <a href="https://msdn.microsoft.com/49023D25-D57E-418F-AD10-133377B90493">pfnWaitForSynchronizationObjectFromGpuCb</a> to wait for a monitored fence to reach a certain value.
 
 
 ## -struct-fields
@@ -106,12 +89,11 @@ This member is reserved and should be set to zero.
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_waitforsynchronizationobjectfromgpucb.md">pfnWaitForSynchronizationObjectFromGpuCb</a>
 
 
 
+<a href="https://msdn.microsoft.com/49023D25-D57E-418F-AD10-133377B90493">pfnWaitForSynchronizationObjectFromGpuCb</a>
  
 
  
-
 

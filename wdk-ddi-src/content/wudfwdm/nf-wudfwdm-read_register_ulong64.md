@@ -40,7 +40,7 @@ api_name:
 -	READ_REGISTER_ULONG64
 product: Windows
 targetos: Windows
-req.typenames: PO_FX_PERF_STATE_UNIT, *PPO_FX_PERF_STATE_UNIT
+req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
 
@@ -55,17 +55,6 @@ req.product: Windows 10 or later.
 The <b>READ_REGISTER_ULONG64</b> function reads a ULONG64 value from the specified register address.
 
 
-## -syntax
-
-
-````
-ULONG64 READ_REGISTER_ULONG64(
-  _In_ IWDFDevice3 *pDevice,
-  _In_ PULONG64    Register
-);
-````
-
-
 ## -parameters
 
 
@@ -78,7 +67,7 @@ A pointer to the register address, which must be a mapped range in memory space.
 
 #### - pDevice [in]
 
-Specifies a pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfdevice3.md">IWDFDevice3</a> interface for the device object of the device to access.
+Specifies a pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451197">IWDFDevice3</a> interface for the device object of the device to access.
 
 
 ## -returns

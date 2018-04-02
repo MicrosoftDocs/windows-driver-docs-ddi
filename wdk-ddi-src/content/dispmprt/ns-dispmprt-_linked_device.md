@@ -7,7 +7,7 @@ old-location: display\linked_device.htm
 old-project: display
 ms.assetid: 65289123-46b8-4a4b-985a-8087f4afd250
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PLINKED_DEVICE, DmStructs_3491af70-72fe-471c-b0f1-c00d6bffb242.xml, LINKED_DEVICE, LINKED_DEVICE structure [Display Devices], PLINKED_DEVICE, PLINKED_DEVICE structure pointer [Display Devices], _LINKED_DEVICE, display.linked_device, dispmprt/LINKED_DEVICE, dispmprt/PLINKED_DEVICE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,18 +52,6 @@ req.typenames: LINKED_DEVICE, *PLINKED_DEVICE
 The LINKED_DEVICE structure holds information that describes a linked display adapter configuration.
 
 
-## -syntax
-
-
-````
-typedef struct _LINKED_DEVICE {
-  ULONG   ChainUid;
-  ULONG   NumberOfLinksInChain;
-  BOOLEAN LeadLink;
-} LINKED_DEVICE, *PLINKED_DEVICE;
-````
-
-
 ## -struct-fields
 
 
@@ -88,19 +76,18 @@ A value that indicates the leading link in the chain of linked adapters. The val
 
 
 
-Prior to a call to <a href="..\dispmprt\nc-dispmprt-dxgkddi_link_device.md">DxgkDdiLinkDevice</a>, the display miniport driver should fill the LINKED_DEVICE structure with information about the linked adapter configuration.
+Prior to a call to <a href="https://msdn.microsoft.com/fb9b7c58-1c4f-42e4-a59f-4a529d3caca2">DxgkDdiLinkDevice</a>, the display miniport driver should fill the LINKED_DEVICE structure with information about the linked adapter configuration.
 
 
 
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_link_device.md">DxgkDdiLinkDevice</a>
 
 
 
+<a href="https://msdn.microsoft.com/fb9b7c58-1c4f-42e4-a59f-4a529d3caca2">DxgkDdiLinkDevice</a>
  
 
  
-
 

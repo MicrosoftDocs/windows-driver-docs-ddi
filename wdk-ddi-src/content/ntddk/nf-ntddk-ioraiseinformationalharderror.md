@@ -7,7 +7,7 @@ old-location: kernel\ioraiseinformationalharderror.htm
 old-project: kernel
 ms.assetid: 14e9a28c-65cc-4e90-8220-85f1981c8cd7
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: IoRaiseInformationalHardError, IoRaiseInformationalHardError routine [Kernel-Mode Driver Architecture], k104_7af16dc2-0500-411e-962a-7d8c1fe40ba0.xml, kernel.ioraiseinformationalharderror, ntddk/IoRaiseInformationalHardError
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,18 +50,6 @@ req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 
 
 The <b>IoRaiseInformationalHardError</b> routine sends a dialog box to the user, warning about a device I/O error that indicates why a user I/O request failed.
-
-
-## -syntax
-
-
-````
-BOOLEAN IoRaiseInformationalHardError(
-  _In_     NTSTATUS        ErrorStatus,
-  _In_opt_ PUNICODE_STRING String,
-  _In_opt_ PKTHREAD        Thread
-);
-````
 
 
 ## -parameters
@@ -107,7 +95,7 @@ A pointer to the thread whose IRP was failed due to the error specified by the <
 <li>If the <i>Thread</i> parameter specifies a thread that is running in the context of an application, the text shown in the dialog box is "ApplicationName.exe - System Error".</li>
 <li>If the <i>Thread</i> parameter is NULL or if it specifies a thread that is running in an arbitrary system context, the text shown in the dialog box is "System Process - System Error". Additionally, if the <i>ErrorStatus</i> value is defined in Ntstatus.h, the corresponding MessageText string is written to the event log.</li>
 </ul>
-If a previous call to the <a href="..\ntddk\nf-ntddk-iosetthreadharderrormode.md">IoSetThreadHardErrorMode</a> routine disabled hard errors for the specified thread, <b>IoRaiseInformationalHardError</b> returns <b>FALSE</b>.
+If a previous call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550342">IoSetThreadHardErrorMode</a> routine disabled hard errors for the specified thread, <b>IoRaiseInformationalHardError</b> returns <b>FALSE</b>.
 
 Starting with Windows Vista, if the routine is called from a thread in session 0 (that is, from any system thread), no dialog box appears when the routine succeeds and returns <b>TRUE</b>.
 
@@ -116,20 +104,19 @@ Starting with Windows Vista, if the routine is called from a thread in session 
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-iosetthreadharderrormode.md">IoSetThreadHardErrorMode</a>
 
 
 
-<a href="..\wdm\nf-wdm-psgetcurrentthread.md">PsGetCurrentThread</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549707">IoSetHardErrorOrVerifyDevice</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-iosetharderrororverifydevice.md">IoSetHardErrorOrVerifyDevice</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550342">IoSetThreadHardErrorMode</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559936">PsGetCurrentThread</a>
  
 
  
-
 

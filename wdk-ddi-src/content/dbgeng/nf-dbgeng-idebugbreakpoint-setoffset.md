@@ -7,7 +7,7 @@ old-location: debugger\setoffset.htm
 old-project: debugger
 ms.assetid: 25898500-f16e-4838-854f-5eb299727e2b
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: ComOther_bb0d9a70-c4b5-4883-9dab-37bf04848d8c.xml, IDebugBreakpoint, IDebugBreakpoint interface [Windows Debugging], SetOffset method, IDebugBreakpoint2 interface [Windows Debugging], SetOffset method, IDebugBreakpoint2::SetOffset, IDebugBreakpoint::SetOffset, SetOffset method [Windows Debugging], SetOffset method [Windows Debugging], IDebugBreakpoint interface, SetOffset method [Windows Debugging], IDebugBreakpoint2 interface, SetOffset,IDebugBreakpoint.SetOffset, dbgeng/IDebugBreakpoint2::SetOffset, dbgeng/IDebugBreakpoint::SetOffset, debugger.setoffset
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,16 +51,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>SetOffset</b> method sets the location that triggers a breakpoint.
-
-
-## -syntax
-
-
-````
-HRESULT SetOffset(
-  [in] ULONG64 Offset
-);
-````
 
 
 ## -parameters

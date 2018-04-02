@@ -7,7 +7,7 @@ old-location: kernel\resourcemanagernotification.htm
 old-project: kernel
 ms.assetid: 86d8632a-be39-46ed-8ec6-f65edb4bb017
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "(*PTM_RM_NOTIFICATION), (*PTM_RM_NOTIFICATION) callback function [Kernel-Mode Driver Architecture], PTM_RM_NOTIFICATION, kernel.resourcemanagernotification, ktm_ref_f4bc7393-b895-4a03-8eb6-b0a71f26e1d5.xml, wdm/(*PTM_RM_NOTIFICATION)"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,22 +53,6 @@ req.product: Windows 10 or later.
 A resource manager's <i>ResourceManagerNotification</i> callback routine receives and handles <a href="https://msdn.microsoft.com/library/windows/hardware/ff564815">transaction notifications</a>.
 
 
-## -prototype
-
-
-````
-NTSTATUS (*PTM_RM_NOTIFICATION)(
-  _In_    PKENLISTMENT   EnlistmentObject,
-  _In_    PVOID          RMContext,
-  _In_    PVOID          TransactionContext,
-  _In_    ULONG          TransactionNotification,
-  _Inout_ PLARGE_INTEGER TmVirtualClock,
-  _In_    ULONG          ArgumentLength,
-  _In_    PVOID          Argument
-);
-````
-
-
 ## -parameters
 
 
@@ -81,12 +65,12 @@ A pointer to an <a href="https://msdn.microsoft.com/80e61475-4bb7-4eaa-b9f1-ff95
 
 ### -param RMContext [in]
 
-The value that the resource manager previously specified for the <i>RMKey</i> parameter of the <a href="..\wdm\nf-wdm-tmenablecallbacks.md">TmEnableCallbacks</a> routine.
+The value that the resource manager previously specified for the <i>RMKey</i> parameter of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564676">TmEnableCallbacks</a> routine.
 
 
 ### -param TransactionContext [in]
 
-The value that the resource manager previously specified for the <i>EnlistmentKey</i> parameter of the <a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a> routine.
+The value that the resource manager previously specified for the <i>EnlistmentKey</i> parameter of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566422">ZwCreateEnlistment</a> routine.
 
 
 ### -param TransactionNotification [in]
@@ -130,7 +114,7 @@ If an error occurs, the callback routine must return a status value for which NT
 
 
 
-To register a <i>ResourceManagerNotification</i> callback routine, your resource manager must call <a href="..\wdm\nf-wdm-tmenablecallbacks.md">TmEnableCallbacks</a>.
+To register a <i>ResourceManagerNotification</i> callback routine, your resource manager must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff564676">TmEnableCallbacks</a>.
 
 Note that <i>ResourceManagerNotification</i> callback routines receive a pointer, instead of a handle, to an enlistment object. You can pass the enlistment object pointer to the enlistment object's <a href="https://msdn.microsoft.com/8bc763e9-e67c-4810-9901-e5dc1a1cfd0c">TmXxx routines</a>.
 
@@ -143,11 +127,6 @@ The <i>ResourceManagerNotification</i> callback routine is called at IRQL = PASS
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-tmenablecallbacks.md">TmEnableCallbacks</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>
 
 
 
@@ -155,12 +134,16 @@ The <i>ResourceManagerNotification</i> callback routine is called at IRQL = PASS
 
 
 
-<a href="..\wdm\nf-wdm-zwgetnotificationresourcemanager.md">ZwGetNotificationResourceManager</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564676">TmEnableCallbacks</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566422">ZwCreateEnlistment</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566467">ZwGetNotificationResourceManager</a>
  
 
  
-
 

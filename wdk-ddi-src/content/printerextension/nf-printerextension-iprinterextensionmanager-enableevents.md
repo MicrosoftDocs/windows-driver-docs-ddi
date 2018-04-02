@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 The EnableEvents method allows events to be generated for the specified printer driver until  <a href="https://msdn.microsoft.com/library/windows/hardware/hh406703">DisableEvents</a> is called. 
 
 
-## -syntax
-
-
-````
-HRESULT EnableEvents(
-  [in] GUID printerDriverId
-);
-````
-
-
 ## -parameters
 
 
@@ -95,12 +85,11 @@ In the case of a driver event like, for example, Print Preferences or Printer No
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprinterextensionmanager.md">IPrinterExtensionManager</a>
 
 
 
+<a href="https://msdn.microsoft.com/918AE3F6-2AC4-42AD-9581-E87AD7E79BAD">IPrinterExtensionManager</a>
  
 
  
-
 

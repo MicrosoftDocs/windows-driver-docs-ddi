@@ -7,7 +7,7 @@ old-location: audio\iportclsnotifications_freenotification.htm
 old-project: audio
 ms.assetid: 93EC2651-3C52-4810-9F7A-A81BC7DA20AF
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/19/2018
 ms.keywords: FreeNotificationBuffer method [Audio Devices], FreeNotificationBuffer method [Audio Devices], IPortClsNotifications interface, FreeNotificationBuffer,IPortClsNotifications.FreeNotificationBuffer, IPortClsNotifications, IPortClsNotifications interface [Audio Devices], FreeNotificationBuffer method, IPortClsNotifications::FreeNotificationBuffer, audio.iportclsnotifications_freenotification, portcls/IPortClsNotifications::FreeNotificationBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -55,16 +55,6 @@ Frees a previously allocated IPortClsNotifications buffer. The buffer is used in
 For more information about audio modules, see <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/audio/implementing-audio-module-communication">Implementing Audio Module Discovery</a>. 
 
 
-## -syntax
-
-
-````
-NTSTATUS  FreeNotificationBuffer(
-  [in] PPCNOTIFICATION NotificationBuffer
-);
-````
-
-
 ## -parameters
 
 
@@ -86,12 +76,11 @@ This function returns void.
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iportclsnotifications.md">IPortClsNotifications</a>
 
 
 
+<a href="https://msdn.microsoft.com/03F65E4E-C942-4748-8D3E-938A6AC51B2A">IPortClsNotifications</a>
  
 
  
-
 

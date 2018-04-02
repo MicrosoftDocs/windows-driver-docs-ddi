@@ -52,21 +52,6 @@ req.typenames: KSM_BDA_PIN, *PKSM_BDA_PIN
 The KSM_BDA_PIN structure describes a method request to create or delete a pin factory for a filter. 
 
 
-## -syntax
-
-
-````
-typedef struct _KSM_BDA_PIN {
-  KSMETHOD Method;
-  union {
-    ULONG PinId;
-    ULONG PinType;
-  };
-  ULONG    Reserved;
-} KSM_BDA_PIN, *PKSM_BDA_PIN;
-````
-
-
 ## -struct-fields
 
 
@@ -94,12 +79,11 @@ Member of the union in KSM_BDA_PIN that contains the value that specifies the pi
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563398">KSMETHOD</a>
-
-
-
  
 
  
-
 

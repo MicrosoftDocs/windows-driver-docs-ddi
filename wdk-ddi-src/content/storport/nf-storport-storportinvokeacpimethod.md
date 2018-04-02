@@ -7,7 +7,7 @@ old-location: storage\storportinvokeacpimethod.htm
 old-project: storage
 ms.assetid: 2A8EF694-B699-46A0-9B1D-B7D0831F3944
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: StorPortInvokeAcpiMethod, StorPortInvokeAcpiMethod routine [Storage Devices], storage.storportinvokeacpimethod, storport/StorPortInvokeAcpiMethod
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,23 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>StorPortInvokeAcpiMethod</b> routine executes an ACPI method for a storage device.
-
-
-## -syntax
-
-
-````
-ULONG StorPortInvokeAcpiMethod(
-  _In_      PVOID         HwDeviceExtension,
-  _In_opt_  PSTOR_ADDRESS Address,
-  _In_      ULONG         MethodName,
-  _In_opt_  PVOID         InputBuffer,
-  _In_      ULONG         InputBufferLength,
-  _In_opt_  PVOID         OutputBuffer,
-  _In_      ULONG         OutputBufferLength,
-  _Out_opt_ PULONG        BytesReturned
-);
-````
 
 
 ## -parameters

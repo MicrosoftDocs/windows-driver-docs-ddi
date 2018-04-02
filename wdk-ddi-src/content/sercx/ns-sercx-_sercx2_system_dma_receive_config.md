@@ -53,30 +53,6 @@ req.product: Windows 10 or later.
 The <b>SERCX2_SYSTEM_DMA_RECEIVE_CONFIG</b> structure contains information that version 2 of the serial framework extension (SerCx2) uses to configure a new system-DMA-receive object.
 
 
-## -syntax
-
-
-````
-typedef struct _SERCX2_SYSTEM_DMA_RECEIVE_CONFIG {
-  ULONG                                                      Size;
-  size_t                                                     MaximumTransferLength;
-  size_t                                                     MinimumTransactionLength;
-  ULONG                                                      DmaAlignment;
-  ULONG                                                      MaximumScatterGatherFragments;
-  DMA_WIDTH                                                  DmaWidth;
-  PHYSICAL_ADDRESS                                           DeviceAddress;
-  PCM_PARTIAL_RESOURCE_DESCRIPTOR                            DmaDescriptor;
-  ULONG                                                      MinimumTransferUnitOverride;
-  BOOLEAN                                                    Exclusive;
-  PFN_SERCX2_SYSTEM_DMA_RECEIVE_INITIALIZE_TRANSACTION       EvtSerCx2SystemDmaReceiveInitializeTransaction;
-  PFN_SERCX2_SYSTEM_DMA_RECEIVE_CLEANUP_TRANSACTION          EvtSerCx2SystemDmaReceiveCleanupTransaction;
-  PFN_SERCX2_SYSTEM_DMA_RECEIVE_CONFIGURE_DMA_CHANNEL        EvtSerCx2SystemDmaReceiveConfigureDmaChannel;
-  PFN_SERCX2_SYSTEM_DMA_RECEIVE_ENABLE_NEW_DATA_NOTIFICATION EvtSerCx2SystemDmaReceiveEnableNewDataNotification;
-  PFN_SERCX2_SYSTEM_DMA_RECEIVE_CANCEL_NEW_DATA_NOTIFICATION EvtSerCx2SystemDmaReceiveCancelNewDataNotification;
-} SERCX2_SYSTEM_DMA_RECEIVE_CONFIG, *PSERCX2_SYSTEM_DMA_RECEIVE_CONFIG;
-````
-
-
 ## -struct-fields
 
 
@@ -84,7 +60,7 @@ typedef struct _SERCX2_SYSTEM_DMA_RECEIVE_CONFIG {
 
 ### -field Size
 
-The size, in bytes, of this structure. The <a href="..\sercx\nf-sercx-sercx2systemdmareceivecreate.md">SerCx2SystemDmaReceiveCreate</a> method uses this member to determine which version of the structure the caller is using. The size of this structure might change in future versions of the Sercx.h header file.
+The size, in bytes, of this structure. The <a href="https://msdn.microsoft.com/library/windows/hardware/dn265279">SerCx2SystemDmaReceiveCreate</a> method uses this member to determine which version of the structure the caller is using. The size of this structure might change in future versions of the Sercx.h header file.
 
 
 ### -field MaximumTransferLength
@@ -114,17 +90,17 @@ The width of the data register at the address specified by <b>DeviceAddress</b>.
 
 ### -field DeviceAddress
 
-The translated address from which the DMA controller transfers. For more information, see the description of the <b>DeviceAddress</b> member in <a href="..\wdfdmaenabler\ns-wdfdmaenabler-_wdf_dma_system_profile_config.md">WDF_DMA_SYSTEM_PROFILE_CONFIG</a>.
+The translated address from which the DMA controller transfers. For more information, see the description of the <b>DeviceAddress</b> member in <a href="https://msdn.microsoft.com/library/windows/hardware/hh439495">WDF_DMA_SYSTEM_PROFILE_CONFIG</a>.
 
 
 ### -field DmaDescriptor
 
-A pointer to the <a href="..\wudfwdm\ns-wudfwdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure that describes the system DMA resource to use for receive transactions. The serial controller driver gets this structure from the raw resource list it receives in the <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_prepare_hardware.md">EvtDevicePrepareHardware</a> callback that starts the serial controller.
+A pointer to the <a href="https://msdn.microsoft.com/96bf7bab-b8f5-439c-8717-ea6956ed0213">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure that describes the system DMA resource to use for receive transactions. The serial controller driver gets this structure from the raw resource list it receives in the <a href="https://msdn.microsoft.com/a3d4a983-8a75-44be-bd72-8673d89f9f87">EvtDevicePrepareHardware</a> callback that starts the serial controller.
 
 
 ### -field MinimumTransferUnitOverride
 
-An override value to use in place of the default minimum transfer unit. The number of bytes specified by an element in a scatter/gather list must be an integer multiple of the minimum transfer unit. A value of zero indicates that the default minimum transfer unit should be used. For more information, see the description of the <b>MinimumTransferUnit</b> member in <a href="..\wdm\ns-wdm-_dma_adapter_info_v1.md">DMA_ADAPTER_INFO_V1</a>.
+An override value to use in place of the default minimum transfer unit. The number of bytes specified by an element in a scatter/gather list must be an integer multiple of the minimum transfer unit. A value of zero indicates that the default minimum transfer unit should be used. For more information, see the description of the <b>MinimumTransferUnit</b> member in <a href="https://msdn.microsoft.com/library/windows/hardware/hh450995">DMA_ADAPTER_INFO_V1</a>.
 
 
 ### -field Exclusive
@@ -140,81 +116,68 @@ Regardless of the value of this member, PIO-receive transactions are used to sav
 
 ### -field EvtSerCx2SystemDmaReceiveInitializeTransaction
 
-A pointer to the driver-implemented <a href="..\sercx\nc-sercx-evt_sercx2_system_dma_receive_initialize_transaction.md">EvtSerCx2SystemDmaReceiveInitializeTransaction</a> event callback function. This member is optional and can be set to <b>NULL</b> to indicate that the driver does not implement the function.
+A pointer to the driver-implemented <a href="https://msdn.microsoft.com/34E016AF-439C-44CC-A2AE-78CD7B2B5443">EvtSerCx2SystemDmaReceiveInitializeTransaction</a> event callback function. This member is optional and can be set to <b>NULL</b> to indicate that the driver does not implement the function.
 
 
 ### -field EvtSerCx2SystemDmaReceiveCleanupTransaction
 
-A pointer to the driver-implemented <a href="..\sercx\nc-sercx-evt_sercx2_system_dma_receive_cleanup_transaction.md">EvtSerCx2SystemDmaReceiveCleanupTransaction</a> event callback function. This member is optional and can be set to <b>NULL</b> to indicate that the driver does not implement the function.
+A pointer to the driver-implemented <a href="https://msdn.microsoft.com/66B15ED1-583D-418C-90C5-25BBBCEE7B5A">EvtSerCx2SystemDmaReceiveCleanupTransaction</a> event callback function. This member is optional and can be set to <b>NULL</b> to indicate that the driver does not implement the function.
 
 
 ### -field EvtSerCx2SystemDmaReceiveConfigureDmaChannel
 
-A pointer to the driver-implemented <a href="..\sercx\nc-sercx-evt_sercx2_system_dma_receive_configure_dma_channel.md">EvtSerCx2SystemDmaReceiveConfigureDmaChannel</a> event callback function. This member is optional and can be set to <b>NULL</b> to indicate that the driver does not implement the function.
+A pointer to the driver-implemented <a href="https://msdn.microsoft.com/7B5C7151-851C-4F56-BCC5-3AF47F298B23">EvtSerCx2SystemDmaReceiveConfigureDmaChannel</a> event callback function. This member is optional and can be set to <b>NULL</b> to indicate that the driver does not implement the function.
 
 
 ### -field EvtSerCx2SystemDmaReceiveEnableNewDataNotification
 
-A pointer to the driver-implemented <a href="..\sercx\nc-sercx-evt_sercx2_system_dma_receive_enable_new_data_notification.md">EvtSerCx2SystemDmaReceiveEnableNewDataNotification</a> event callback function. This member is optional and can be set to <b>NULL</b> to indicate that the driver does not implement the function. However, a driver that implements this function must also implement an <i>EvtSerCx2SystemDmaReceiveCancelNewDataNotification</i> function.
+A pointer to the driver-implemented <a href="https://msdn.microsoft.com/E2B7FE14-1D06-48E7-95FB-C103358340EA">EvtSerCx2SystemDmaReceiveEnableNewDataNotification</a> event callback function. This member is optional and can be set to <b>NULL</b> to indicate that the driver does not implement the function. However, a driver that implements this function must also implement an <i>EvtSerCx2SystemDmaReceiveCancelNewDataNotification</i> function.
 
 
 ### -field EvtSerCx2SystemDmaReceiveCancelNewDataNotification
 
-A pointer to the driver-implemented <a href="..\sercx\nc-sercx-evt_sercx2_system_dma_receive_cancel_new_data_notification.md">EvtSerCx2SystemDmaReceiveCancelNewDataNotification</a> event callback function. This member is optional and can be set to <b>NULL</b> to indicate that the driver does not implement the function. However, a driver that implements this function must also implement an <i>EvtSerCx2SystemDmaReceiveEnableNewDataNotification</i> function.
+A pointer to the driver-implemented <a href="https://msdn.microsoft.com/7C88F794-0C2B-4715-B09A-2AA49414F18A">EvtSerCx2SystemDmaReceiveCancelNewDataNotification</a> event callback function. This member is optional and can be set to <b>NULL</b> to indicate that the driver does not implement the function. However, a driver that implements this function must also implement an <i>EvtSerCx2SystemDmaReceiveEnableNewDataNotification</i> function.
 
 
 ## -remarks
 
 
 
-The <a href="..\sercx\nf-sercx-sercx2systemdmareceivecreate.md">SerCx2SystemDmaReceiveCreate</a> method accepts a pointer to a <b>SERCX2_SYSTEM_DMA_RECEIVE_CONFIG</b> structure as an input parameter. Before calling <b>SerCx2SystemDmaReceiveCreate</b>, call the <a href="..\sercx\nf-sercx-sercx2_system_dma_receive_config_init.md">SERCX2_SYSTEM_DMA_RECEIVE_CONFIG_INIT</a> or <a href="..\sercx\nf-sercx-sercx2_system_dma_receive_config_init_new_data_notification.md">SERCX2_SYSTEM_DMA_RECEIVE_CONFIG_INIT_NEW_DATA_NOTIFICATION</a> function to initialize this structure.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/dn265279">SerCx2SystemDmaReceiveCreate</a> method accepts a pointer to a <b>SERCX2_SYSTEM_DMA_RECEIVE_CONFIG</b> structure as an input parameter. Before calling <b>SerCx2SystemDmaReceiveCreate</b>, call the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265340">SERCX2_SYSTEM_DMA_RECEIVE_CONFIG_INIT</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/dn265341">SERCX2_SYSTEM_DMA_RECEIVE_CONFIG_INIT_NEW_DATA_NOTIFICATION</a> function to initialize this structure.
 
 
 
 
 ## -see-also
 
-<a href="..\sercx\nc-sercx-evt_sercx2_system_dma_receive_configure_dma_channel.md">EvtSerCx2SystemDmaReceiveConfigureDmaChannel</a>
 
 
 
-<a href="..\sercx\nc-sercx-evt_sercx2_system_dma_receive_enable_new_data_notification.md">EvtSerCx2SystemDmaReceiveEnableNewDataNotification</a>
+<a href="https://msdn.microsoft.com/96bf7bab-b8f5-439c-8717-ea6956ed0213">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
 
 
 
-<a href="..\sercx\nf-sercx-sercx2systemdmareceivecreate.md">SerCx2SystemDmaReceiveCreate</a>
+<a href="https://msdn.microsoft.com/a3d4a983-8a75-44be-bd72-8673d89f9f87">EvtDevicePrepareHardware</a>
 
 
 
-<a href="..\sercx\nf-sercx-sercx2_system_dma_receive_config_init_new_data_notification.md">SERCX2_SYSTEM_DMA_RECEIVE_CONFIG_INIT_NEW_DATA_NOTIFICATION</a>
+<a href="https://msdn.microsoft.com/7C88F794-0C2B-4715-B09A-2AA49414F18A">EvtSerCx2SystemDmaReceiveCancelNewDataNotification</a>
 
 
 
-<a href="..\sercx\nc-sercx-evt_sercx2_system_dma_receive_cancel_new_data_notification.md">EvtSerCx2SystemDmaReceiveCancelNewDataNotification</a>
+<a href="https://msdn.microsoft.com/66B15ED1-583D-418C-90C5-25BBBCEE7B5A">EvtSerCx2SystemDmaReceiveCleanupTransaction</a>
 
 
 
-<a href="..\sercx\nc-sercx-evt_sercx2_system_dma_receive_initialize_transaction.md">EvtSerCx2SystemDmaReceiveInitializeTransaction</a>
+<a href="https://msdn.microsoft.com/7B5C7151-851C-4F56-BCC5-3AF47F298B23">EvtSerCx2SystemDmaReceiveConfigureDmaChannel</a>
 
 
 
-<a href="..\sercx\nc-sercx-evt_sercx2_system_dma_receive_cleanup_transaction.md">EvtSerCx2SystemDmaReceiveCleanupTransaction</a>
+<a href="https://msdn.microsoft.com/E2B7FE14-1D06-48E7-95FB-C103358340EA">EvtSerCx2SystemDmaReceiveEnableNewDataNotification</a>
 
 
 
-<a href="..\sercx\nf-sercx-sercx2_system_dma_receive_config_init.md">SERCX2_SYSTEM_DMA_RECEIVE_CONFIG_INIT</a>
-
-
-
-<a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablersetmaximumscattergatherelements.md">WdfDmaEnablerSetMaximumScatterGatherElements</a>
-
-
-
-<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_prepare_hardware.md">EvtDevicePrepareHardware</a>
-
-
-
-<a href="..\wudfwdm\ns-wudfwdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/34E016AF-439C-44CC-A2AE-78CD7B2B5443">EvtSerCx2SystemDmaReceiveInitializeTransaction</a>
 
 
 
@@ -222,8 +185,20 @@ The <a href="..\sercx\nf-sercx-sercx2systemdmareceivecreate.md">SerCx2SystemDmaR
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265340">SERCX2_SYSTEM_DMA_RECEIVE_CONFIG_INIT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265341">SERCX2_SYSTEM_DMA_RECEIVE_CONFIG_INIT_NEW_DATA_NOTIFICATION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265279">SerCx2SystemDmaReceiveCreate</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547014">WdfDmaEnablerSetMaximumScatterGatherElements</a>
  
 
  
-
 

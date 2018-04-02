@@ -53,19 +53,6 @@ req.typenames:
 The <b>KsFreeEventList</b> function handles freeing all events from a specified list, with the assumption that these events are composed of <b>KSEVENT_ENTRY</b> structures. This function can only be called at PASSIVE_LEVEL.
 
 
-## -syntax
-
-
-````
-VOID KsFreeEventList(
-  _In_    PFILE_OBJECT      FileObject,
-  _Inout_ PLIST_ENTRY       EventsList,
-  _In_    KSEVENTS_LOCKTYPE EventsFlags,
-  _In_    PVOID             EventsLock
-);
-````
-
-
 ## -parameters
 
 
@@ -83,7 +70,7 @@ Points to the head of the list of KSEVENT_ENTRY items to be freed. If any events
 
 ### -param EventsFlags [in]
 
-Specifies a <a href="..\ks\ne-ks-ksevents_locktype.md">KSEVENTS_LOCKTYPE</a> flag specifying the type of exclusion lock to be used in accessing the event list. If no flag is set, then no lock is taken.
+Specifies a <a href="https://msdn.microsoft.com/library/windows/hardware/ff561784">KSEVENTS_LOCKTYPE</a> flag specifying the type of exclusion lock to be used in accessing the event list. If no flag is set, then no lock is taken.
 
 
 ### -param EventsLock [in]
@@ -111,12 +98,11 @@ The <b>KsFreeEventList</b> function calls the remove handler, and then it calls 
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksdiscardevent.md">KsDiscardEvent</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561697">KsDiscardEvent</a>
  
 
  
-
 

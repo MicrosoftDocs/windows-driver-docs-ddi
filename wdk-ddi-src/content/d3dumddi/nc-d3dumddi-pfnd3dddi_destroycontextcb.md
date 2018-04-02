@@ -7,7 +7,7 @@ old-location: display\pfndestroycontextcb.htm
 old-project: display
 ms.assetid: 6b65d75b-544b-4153-b821-d59d6f85673d
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3Druntime_Functions_61661c25-9c5c-4ca1-8015-a32ed840fd0a.xml, PFND3DDDI_DESTROYCONTEXTCB, d3dumddi/pfnDestroyContextCb, display.pfndestroycontextcb, pfnDestroyContextCb, pfnDestroyContextCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,20 +52,6 @@ req.typenames: DXGK_PTE
 The <b>pfnDestroyContextCb</b> function destroys the context that was created through a call to the <a href="https://msdn.microsoft.com/f3f5d6bc-3bc6-4214-830a-cffff01069cc">pfnCreateContextCb</a> function.
 
 
-## -prototype
-
-
-````
-PFND3DDDI_DESTROYCONTEXTCB pfnDestroyContextCb;
-
-_checkReturn HRESULT APIENTRY CALLBACK pfnDestroyContextCb(
-  _In_       HANDLE                  hDevice,
-  _In_ const D3DDDICB_DESTROYCONTEXT *pData
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -87,7 +73,7 @@ A handle to a display device (that is, the graphics context).
 
 #### - pData [in]
 
-A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_destroycontext.md">D3DDDICB_DESTROYCONTEXT</a> structure that contains a handle to the context to destroy.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff544169">D3DDDICB_DESTROYCONTEXT</a> structure that contains a handle to the context to destroy.
 
 
 ## -returns
@@ -163,16 +149,15 @@ The following code example shows how to destroy the default context for a displa
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_destroycontext.md">D3DDDICB_DESTROYCONTEXT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544169">D3DDDICB_DESTROYCONTEXT</a>
 
 
 
 <a href="https://msdn.microsoft.com/f3f5d6bc-3bc6-4214-830a-cffff01069cc">pfnCreateContextCb</a>
-
-
-
  
 
  
-
 

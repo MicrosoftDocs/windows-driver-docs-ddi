@@ -55,14 +55,6 @@ req.product: Windows 10 or later.
 The <b>Close</b> method closes a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/general-i-o-targets-in-umdf">remote I/O target</a>.
 
 
-## -syntax
-
-
-````
-HRESULT Close();
-````
-
-
 ## -parameters
 
 
@@ -126,16 +118,15 @@ CMyRemoteTarget::OnRemoteTargetRemoveComplete(
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfremotetarget.md">IWDFRemoteTarget</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560247">IWDFRemoteTarget</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560259">IWDFRemoteTarget::CloseForQueryRemove</a>
-
-
-
  
 
  
-
 

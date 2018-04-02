@@ -7,7 +7,7 @@ old-location: netvista\protocoluninstall.htm
 old-project: netvista
 ms.assetid: 959baf54-849c-4bb1-b4c5-4d5537e1d688
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: PROTOCOL_UNINSTALL, ProtocolUninstall, ProtocolUninstall callback function [Network Drivers Starting with Windows Vista], ndis/ProtocolUninstall, netvista.protocoluninstall, protocol_functions_ref_5c889ae3-39d9-43ff-84b5-8ecbb0b48be5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -55,17 +55,6 @@ NDIS calls a protocol driver's
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>PROTOCOL_UNINSTALL</b> type. For more
    information, see the following Examples section.</div><div> </div>
 
-## -prototype
-
-
-````
-PROTOCOL_UNINSTALL ProtocolUninstall;
-
-VOID ProtocolUninstall(void)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -93,15 +82,15 @@ None
 The 
     <i>ProtocolUninstall</i> function is optional. The protocol driver registered an entry point, if any, for
     this function in the 
-    <a href="..\ndis\ns-ndis-_ndis_protocol_driver_characteristics.md">
+    <a href="https://msdn.microsoft.com/db64c160-9db6-4b23-af14-e64acdb9ef57">
     NDIS_PROTOCOL_DRIVER_CHARACTERISTICS</a> structure that it passed to the 
-    <a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">
+    <a href="https://msdn.microsoft.com/b48571eb-13a2-4541-80ac-c8d31f378d37">
     NdisRegisterProtocolDriver</a> function.
 
 In response to a user request to uninstall a protocol driver, NDIS calls a protocol driver's 
     <i>ProtocolUninstall</i> function. NDIS calls 
     <i>ProtocolUninstall</i> after calling the protocol driver's 
-    <a href="..\ndis\nc-ndis-protocol_unbind_adapter_ex.md">
+    <a href="https://msdn.microsoft.com/19fa7be2-acb9-42f6-bd9f-5be3e3c8b5fa">
     ProtocolUnbindAdapterEx</a> function once for each bound adapter.
 
 <i>ProtocolUninstall</i> performs driver-determined cleanup operations. For example, 
@@ -109,16 +98,16 @@ In response to a user request to uninstall a protocol driver, NDIS calls a proto
     driver exported. Until all such handles are closed, the I/O manager will not call the 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff564886">Unload</a> routine that the protocol driver registered in
     the driver object passed to its 
-    <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine. After all the handles are
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine. After all the handles are
     closed, 
     <i>ProtocolUninstall</i> can call 
-    <a href="..\ndis\nf-ndis-ndisderegisterdeviceex.md">NdisDeregisterDeviceEx</a> to delete
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561741">NdisDeregisterDeviceEx</a> to delete
     any device objects created by the protocol driver.
 
 The protocol lower edge of an intermediate driver might require a 
     <i>ProtocolUninstall</i> function. The intermediate driver can release its protocol edge resources in 
     <i>ProtocolUninstall</i> before NDIS calls its 
-    <a href="..\ndis\nc-ndis-miniport_unload.md">MiniportDriverUnload</a> function.
+    <a href="https://msdn.microsoft.com/25c803cf-f8a6-4e41-a731-c3ae7f1db211">MiniportDriverUnload</a> function.
 
 NDIS calls
     <i>ProtocolUninstall</i> at IRQL = PASSIVE_LEVEL.
@@ -162,37 +151,36 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisderegisterdeviceex.md">NdisDeregisterDeviceEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564886">Unload</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_unbind_adapter_ex.md">ProtocolUnbindAdapterEx</a>
+<a href="https://msdn.microsoft.com/25c803cf-f8a6-4e41-a731-c3ae7f1db211">MiniportDriverUnload</a>
 
 
 
-<a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_unload.md">MiniportDriverUnload</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_protocol_driver_characteristics.md">
+<a href="https://msdn.microsoft.com/db64c160-9db6-4b23-af14-e64acdb9ef57">
    NDIS_PROTOCOL_DRIVER_CHARACTERISTICS</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">NdisRegisterProtocolDriver</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561741">NdisDeregisterDeviceEx</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564520">NdisRegisterProtocolDriver</a>
+
+
+
+<a href="https://msdn.microsoft.com/19fa7be2-acb9-42f6-bd9f-5be3e3c8b5fa">ProtocolUnbindAdapterEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564886">Unload</a>
  
 
  
-
 

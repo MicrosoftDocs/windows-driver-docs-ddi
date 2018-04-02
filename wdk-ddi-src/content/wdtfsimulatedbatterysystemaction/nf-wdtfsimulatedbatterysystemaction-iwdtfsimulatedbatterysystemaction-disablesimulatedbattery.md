@@ -7,7 +7,7 @@ old-location: dtf\iwdtfsimulatedbatterysystemaction_disablesimulatedbattery.htm
 old-project: dtf
 ms.assetid: 52ddeb83-8ac3-4e9d-84d8-dddfcc404b6e
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/29/2018
 ms.keywords: DisableSimulatedBattery method [Windows Device Testing Framework], DisableSimulatedBattery method [Windows Device Testing Framework], IWDTFSimulatedBatterySystemAction interface, DisableSimulatedBattery,IWDTFSimulatedBatterySystemAction.DisableSimulatedBattery, IWDTFSimulatedBatterySystemAction, IWDTFSimulatedBatterySystemAction interface [Windows Device Testing Framework], DisableSimulatedBattery method, IWDTFSimulatedBatterySystemAction::DisableSimulatedBattery, dtf.iwdtfsimulatedbatterysystemaction_disablesimulatedbattery, wdtfsimulatedbatterysystemaction/IWDTFSimulatedBatterySystemAction::DisableSimulatedBattery
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,16 +59,6 @@ Use this method is used to disable the simulated battery (uninstalls simulated
     battery device).  This does not restore the system to its original state, the <a href="https://msdn.microsoft.com/32748776-fe07-4f7e-bceb-5b554fa8f9f1">WDTFSimulatedBatterySystemAction::EnableRealBatteries</a> method must also be called.
 
 
-## -syntax
-
-
-````
-HRESULT DisableSimulatedBattery(
-  [out, retval] VARIANT_BOOL *pbSuccess
-);
-````
-
-
 ## -parameters
 
 
@@ -88,16 +78,15 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265160">IWDTFSimulatedBatterySystemAction</a>
+
+
+
 <a href="https://msdn.microsoft.com/32748776-fe07-4f7e-bceb-5b554fa8f9f1">WDTFSimulatedBatterySystemAction::EnableRealBatteries</a>
-
-
-
-<a href="..\wdtfsimulatedbatterysystemaction\nn-wdtfsimulatedbatterysystemaction-iwdtfsimulatedbatterysystemaction.md">IWDTFSimulatedBatterySystemAction</a>
-
-
-
  
 
  
-
 

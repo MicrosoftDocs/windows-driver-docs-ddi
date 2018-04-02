@@ -7,7 +7,7 @@ old-location: netvista\ndis_wwan_base_stations_info_req.htm
 old-project: netvista
 ms.assetid: 4327021B-93FB-4605-B7D1-A7A6D661C8DF
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PNDIS_WWAN_BASE_STATIONS_INFO_REQ, NDIS_WWAN_BASE_STATIONS_INFO_REQ, NDIS_WWAN_BASE_STATIONS_INFO_REQ structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_BASE_STATIONS_INFO_REQ, PNDIS_WWAN_BASE_STATIONS_INFO_REQ structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_BASE_STATIONS_INFO_REQ, ndiswwan/NDIS_WWAN_BASE_STATIONS_INFO_REQ, ndiswwan/PNDIS_WWAN_BASE_STATIONS_INFO_REQ, netvista.ndis_wwan_base_stations_info_req"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,17 +50,6 @@ req.typenames: NDIS_WWAN_BASE_STATIONS_INFO_REQ, *PNDIS_WWAN_BASE_STATIONS_INFO_
 
 
 The <b>NDIS_WWAN_BASE_STATIONS_INFO_REQ</b> structure is used in <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-base-stations-info">OID_WWAN_BASE_STATIONS_INFO</a> query requests to configure aspects of cellular base station information to be used in response.
-
-
-## -syntax
-
-
-````
-typedef struct _NDIS_WWAN_BASE_STATIONS_INFO_REQ {
-  NDIS_OBJECT_HEADER          Header;
-  WWAN_BASE_STATIONS_INFO_REQ BaseStationsInfoRequest;
-} NDIS_WWAN_BASE_STATIONS_INFO_REQ, *PNDIS_WWAN_BASE_STATIONS_INFO_REQ;
-````
 
 
 ## -struct-fields
@@ -116,25 +105,16 @@ sizeof(NDIS_WWAN_BASE_STATIONS_INFO_REQ)
  
 
 For more information about these members, see 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field BaseStationsInfoRequest
 
-A formatted <a href="..\wwan\ns-wwan-_wwan_base_stations_info_req.md">WWAN_BASE_STATIONS_INFO_REQ</a> structure that specifies the aspects of base stations information that are requested.
+A formatted <a href="https://msdn.microsoft.com/1948F98B-1F0B-4EB3-A2FF-01DA159B5EEB">WWAN_BASE_STATIONS_INFO_REQ</a> structure that specifies the aspects of base stations information that are requested.
 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-base-stations-info">OID_WWAN_BASE_STATIONS_INFO</a>
-
-
-
-<a href="..\wwan\ns-wwan-_wwan_base_stations_info_req.md">WWAN_BASE_STATIONS_INFO_REQ</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
@@ -142,8 +122,16 @@ A formatted <a href="..\wwan\ns-wwan-_wwan_base_stations_info_req.md">WWAN_BASE_
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-base-stations-info">OID_WWAN_BASE_STATIONS_INFO</a>
+
+
+
+<a href="https://msdn.microsoft.com/1948F98B-1F0B-4EB3-A2FF-01DA159B5EEB">WWAN_BASE_STATIONS_INFO_REQ</a>
  
 
  
-
 

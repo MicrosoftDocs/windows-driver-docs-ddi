@@ -7,7 +7,7 @@ old-location: kernel\clfslsngreater.htm
 old-project: kernel
 ms.assetid: 77ad073e-5dac-4d89-869e-547e1aec25da
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: ClfsLsnGreater, ClfsLsnGreater routine [Kernel-Mode Driver Architecture], Clfs_e258803f-9e95-4601-9b4e-2d775836864b.xml, kernel.clfslsngreater, wdm/ClfsLsnGreater
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -54,17 +54,6 @@ req.product: Windows 10 or later.
 The <b>ClfsLsnGreater</b> routine determines whether one LSN is greater than another LSN. The two LSNs must be from the same stream.
 
 
-## -syntax
-
-
-````
-BOOLEAN ClfsLsnGreater(
-  _In_ const CLFS_LSN *plsn1,
-  _In_ const CLFS_LSN *plsn2
-);
-````
-
-
 ## -parameters
 
 
@@ -72,12 +61,12 @@ BOOLEAN ClfsLsnGreater(
 
 ### -param plsn1 [in]
 
-A pointer to a <a href="..\wdm\ns-wdm-_cls_lsn.md">CLFS_LSN</a> structure that supplies one of the LSNs to be compared.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541824">CLFS_LSN</a> structure that supplies one of the LSNs to be compared.
 
 
 ### -param plsn2 [in]
 
-A pointer to a <a href="..\wdm\ns-wdm-_cls_lsn.md">CLFS_LSN</a> structure that supplies the other LSN to be compared.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541824">CLFS_LSN</a> structure that supplies the other LSN to be compared.
 
 
 ## -returns
@@ -95,7 +84,7 @@ A pointer to a <a href="..\wdm\ns-wdm-_cls_lsn.md">CLFS_LSN</a> structure that s
 
 CLFS_LSN_NULL (the smallest LSN) and CLFS_LSN_INVALID (larger than any valid LSN) are valid arguments to <b>ClfsLsnGreater</b>.
 
-LSNs from different streams are not comparable. Do not use <a href="..\wdm\nf-wdm-clfslsnequal.md">ClfsLsnEqual</a>, <b>ClfsLsnGreater</b>, and the like to compare LSNs from different streams.
+LSNs from different streams are not comparable. Do not use <a href="https://msdn.microsoft.com/library/windows/hardware/ff541590">ClfsLsnEqual</a>, <b>ClfsLsnGreater</b>, and the like to compare LSNs from different streams.
 
 For an explanation of CLFS concepts and terminology, see <a href="https://msdn.microsoft.com/a9685648-b08c-48ca-b020-e683068f2ea2">Common Log File System</a>. 
 
@@ -104,20 +93,19 @@ For an explanation of CLFS concepts and terminology, see <a href="https://msdn.m
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-clfslsnless.md">ClfsLsnLess</a>
 
 
 
-<a href="..\wdm\nf-wdm-clfslsnequal.md">ClfsLsnEqual</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541590">ClfsLsnEqual</a>
 
 
 
-<a href="..\wdm\nf-wdm-clfslsnnull.md">ClfsLsnNull</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541608">ClfsLsnLess</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541609">ClfsLsnNull</a>
  
 
  
-
 

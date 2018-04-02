@@ -7,7 +7,7 @@ old-location: display\d3dddiarg_setstreamsourcefreq.htm
 old-project: display
 ms.assetid: 16bf65c7-26b0-404c-97c0-48eeb7c10b03
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDIARG_SETSTREAMSOURCEFREQ, D3DDDIARG_SETSTREAMSOURCEFREQ structure [Display Devices], UMDisplayDriver_param_Structs_2f63624d-43d6-4b38-8f22-050dac4a4965.xml, _D3DDDIARG_SETSTREAMSOURCEFREQ, d3dumddi/D3DDDIARG_SETSTREAMSOURCEFREQ, display.d3dddiarg_setstreamsourcefreq
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,17 +52,6 @@ req.typenames: D3DDDIARG_SETSTREAMSOURCEFREQ
 The D3DDDIARG_SETSTREAMSOURCEFREQ structure describes how the frequency divisor for a portion of the vertex stream source is set. 
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_SETSTREAMSOURCEFREQ {
-  UINT Stream;
-  UINT Divider;
-} D3DDDIARG_SETSTREAMSOURCEFREQ;
-````
-
-
 ## -struct-fields
 
 
@@ -80,12 +69,11 @@ typedef struct _D3DDDIARG_SETSTREAMSOURCEFREQ {
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setstreamsourcefreq.md">SetStreamSourceFreq</a>
 
 
 
+<a href="https://msdn.microsoft.com/92cb270c-1548-4239-81cd-5b3483769fc8">SetStreamSourceFreq</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: display\d3d12ddi_texture_layout_caps_0001.htm
 old-project: display
 ms.assetid: CFA0C474-129A-4A05-B426-520B96C318D8
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3D12DDI_TEXTURE_LAYOUT_CAPS_0001, D3D12DDI_TEXTURE_LAYOUT_CAPS_0001 structure [Display Devices], d3d12umddi/D3D12DDI_TEXTURE_LAYOUT_CAPS_0001, display.d3d12ddi_texture_layout_caps_0001
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,18 +50,6 @@ req.typenames: D3D12DDI_TEXTURE_LAYOUT_CAPS_0001
 
 
 Specifies texture layout capabilities.
-
-
-## -syntax
-
-
-````
-typedef struct D3D12DDI_TEXTURE_LAYOUT_CAPS_0001 {
-  UINT DeviceDependentLayoutCount;
-  UINT DeviceDependentSwizzleCount;
-  BOOL Supports64KStandardSwizzle;
-} D3D12DDI_TEXTURE_LAYOUT_CAPS_0001;
-````
 
 
 ## -struct-fields

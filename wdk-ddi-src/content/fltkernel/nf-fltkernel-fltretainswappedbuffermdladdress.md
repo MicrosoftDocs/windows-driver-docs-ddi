@@ -7,7 +7,7 @@ old-location: ifsk\fltretainswappedbuffermdladdress.htm
 old-project: ifsk
 ms.assetid: 80498410-9617-414d-997c-0d55f891ba3c
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FltApiRef_p_to_z_3832baaa-37bc-47cc-9df4-12c92fd0ddd8.xml, FltRetainSwappedBufferMdlAddress, FltRetainSwappedBufferMdlAddress function [Installable File System Drivers], fltkernel/FltRetainSwappedBufferMdlAddress, ifsk.fltretainswappedbuffermdladdress
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,16 +52,6 @@ req.typenames: EXpsFontRestriction
 <b>FltRetainSwappedBufferMdlAddress</b> prevents the Filter Manager from freeing the memory descriptor list (MDL) for a buffer that was swapped in by a minifilter driver. 
 
 
-## -syntax
-
-
-````
-VOID FASTCALL FltRetainSwappedBufferMdlAddress(
-  _In_ PFLT_CALLBACK_DATA CallbackData
-);
-````
-
-
 ## -parameters
 
 
@@ -85,11 +75,11 @@ None
 
 
 
-When a minifilter driver swaps in a new buffer in a preoperation callback (<a href="..\fltkernel\nc-fltkernel-pflt_pre_operation_callback.md">PFLT_PRE_OPERATION_CALLBACK</a>) routine, the Filter Manager automatically frees the buffer's MDL when the corresponding postoperation (<a href="..\fltkernel\nc-fltkernel-pflt_post_operation_callback.md">PFLT_POST_OPERATION_CALLBACK</a>) callback routine returns. 
+When a minifilter driver swaps in a new buffer in a preoperation callback (<a href="https://msdn.microsoft.com/library/windows/hardware/ff551109">PFLT_PRE_OPERATION_CALLBACK</a>) routine, the Filter Manager automatically frees the buffer's MDL when the corresponding postoperation (<a href="https://msdn.microsoft.com/library/windows/hardware/ff551107">PFLT_POST_OPERATION_CALLBACK</a>) callback routine returns. 
 
 The minifilter driver can prevent the Filter Manager from freeing the MDL by calling <b>FltRetainSwappedBufferMdlAddress</b> from the postoperation callback routine. 
 
-After calling <b>FltRetainSwappedBufferMdlAddress</b>, the caller is responsible for freeing the MDL by calling a routine such as <a href="..\wdm\nf-wdm-iofreemdl.md">IoFreeMdl</a>. 
+After calling <b>FltRetainSwappedBufferMdlAddress</b>, the caller is responsible for freeing the MDL by calling a routine such as <a href="https://msdn.microsoft.com/library/windows/hardware/ff549126">IoFreeMdl</a>. 
 
 <b>FltRetainSwappedBufferMdlAddress</b> can only be called from a postoperation callback routine. 
 
@@ -98,28 +88,27 @@ After calling <b>FltRetainSwappedBufferMdlAddress</b>, the caller is responsible
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltdecodeparameters.md">FltDecodeParameters</a>
 
 
 
-<a href="..\wdm\nf-wdm-iofreemdl.md">IoFreeMdl</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541956">FltDecodeParameters</a>
 
 
 
-<a href="..\fltkernel\nc-fltkernel-pflt_post_operation_callback.md">PFLT_POST_OPERATION_CALLBACK</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543161">FltGetSwappedBufferMdlAddress</a>
 
 
 
-<a href="..\fltkernel\nc-fltkernel-pflt_pre_operation_callback.md">PFLT_PRE_OPERATION_CALLBACK</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549126">IoFreeMdl</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltgetswappedbuffermdladdress.md">FltGetSwappedBufferMdlAddress</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551107">PFLT_POST_OPERATION_CALLBACK</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551109">PFLT_PRE_OPERATION_CALLBACK</a>
  
 
  
-
 

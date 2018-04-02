@@ -7,7 +7,7 @@ old-location: ifsk\selocksubjectcontext.htm
 old-project: ifsk
 ms.assetid: 032e203a-9cb0-4232-91fc-883528e15a81
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: SeLockSubjectContext, SeLockSubjectContext routine [Installable File System Drivers], ifsk.selocksubjectcontext, ntifs/SeLockSubjectContext, seref_ea4696ab-8343-4d15-866c-15720d009db8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,16 +52,6 @@ req.typenames: TOKEN_TYPE
 The <b>SeLockSubjectContext</b> routine locks the primary and impersonation tokens of a captured subject context.
 
 
-## -syntax
-
-
-````
-VOID SeLockSubjectContext(
-  _In_ PSECURITY_SUBJECT_CONTEXT SubjectContext
-);
-````
-
-
 ## -parameters
 
 
@@ -98,20 +88,19 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_security_subject_context.md">SECURITY_SUBJECT_CONTEXT</a>
 
 
 
-<a href="..\wdm\nf-wdm-secapturesubjectcontext.md">SeCaptureSubjectContext</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563714">SECURITY_SUBJECT_CONTEXT</a>
 
 
 
-<a href="..\wdm\nf-wdm-seunlocksubjectcontext.md">SeUnlockSubjectContext</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554792">SeCaptureSubjectContext</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556736">SeUnlockSubjectContext</a>
  
 
  
-
 

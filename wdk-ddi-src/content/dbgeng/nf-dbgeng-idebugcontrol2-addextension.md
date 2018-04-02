@@ -7,7 +7,7 @@ old-location: debugger\addextension.htm
 old-project: debugger
 ms.assetid: 67dbc01a-83ee-4c7c-921e-f0945fbcc2ef
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: AddExtension method [Windows Debugging], AddExtension method [Windows Debugging], IDebugControl interface, AddExtension method [Windows Debugging], IDebugControl2 interface, AddExtension method [Windows Debugging], IDebugControl3 interface, AddExtension,IDebugControl2.AddExtension, IDebugControl interface [Windows Debugging], AddExtension method, IDebugControl2, IDebugControl2 interface [Windows Debugging], AddExtension method, IDebugControl2::AddExtension, IDebugControl3 interface [Windows Debugging], AddExtension method, IDebugControl3::AddExtension, IDebugControl::AddExtension, IDebugControl_9d85fcbb-1c02-4b5a-b9ab-c50b9b266d1d.xml, dbgeng/IDebugControl2::AddExtension, dbgeng/IDebugControl3::AddExtension, dbgeng/IDebugControl::AddExtension, debugger.addextension
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,18 +52,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>AddExtension</b>  method loads an extension library into the <a href="https://msdn.microsoft.com/fa52a1f0-9397-48a5-acbd-ce5347c0baef">debugger engine</a>.
-
-
-## -syntax
-
-
-````
-HRESULT AddExtension(
-  [in]  PCSTR    Path,
-  [in]  ULONG    Flags,
-  [out] PULONG64 Handle
-);
-````
 
 
 ## -parameters
@@ -129,7 +117,6 @@ For more information on using extension libraries, see <a href="https://msdn.mic
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
 
 
@@ -137,20 +124,20 @@ For more information on using extension libraries, see <a href="https://msdn.mic
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550508">IDebugControl</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550512">IDebugControl2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550519">IDebugControl3</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554497">RemoveExtension</a>
-
-
-
  
 
  
-
 

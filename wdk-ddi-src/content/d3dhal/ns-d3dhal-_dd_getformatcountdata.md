@@ -7,7 +7,7 @@ old-location: display\dd_getformatcountdata.htm
 old-project: display
 ms.assetid: 5f334f48-a262-4b09-98c4-766039de3f0e
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DD_GETFORMATCOUNTDATA, DD_GETFORMATCOUNTDATA structure [Display Devices], _DD_GETFORMATCOUNTDATA, d3dhal/DD_GETFORMATCOUNTDATA, d3dstrct_610983cc-4f8a-4c16-b60b-960dbf0c58e9.xml, display.dd_getformatcountdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -56,18 +56,6 @@ req.typenames: DD_GETFORMATCOUNTDATA
 DD_GETFORMATCOUNTDATA is the data structure pointed to by the <b>lpvData</b> field of <a href="https://msdn.microsoft.com/library/windows/hardware/ff551550">DD_GETDRIVERINFODATA</a> for DD_GETDRIVERINFO2DATA queries with the type D3DGDI2_TYPE_GETFORMATCOUNT.
 
 
-## -syntax
-
-
-````
-typedef struct _DD_GETFORMATCOUNTDATA {
-  DD_GETDRIVERINFO2DATA gdi2;
-  DWORD                 dwFormatCount;
-  DWORD                 dwReserved;
-} DD_GETFORMATCOUNTDATA;
-````
-
-
 ## -struct-fields
 
 
@@ -75,7 +63,7 @@ typedef struct _DD_GETFORMATCOUNTDATA {
 
 ### -field gdi2
 
-Specifies a <a href="..\d3dhal\ns-d3dhal-_dd_getdriverinfo2data.md">DD_GETDRIVERINFO2DATA</a> structure that contains the <b>GetDriverInfo2</b> data.
+Specifies a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551548">DD_GETDRIVERINFO2DATA</a> structure that contains the <b>GetDriverInfo2</b> data.
 
 
 ### -field dwFormatCount
@@ -101,16 +89,15 @@ To handle the D3DGDI2_TYPE_GETFORMATCOUNT request, the driver must store the num
 
 ## -see-also
 
-<a href="..\d3dhal\ns-d3dhal-_dd_getdriverinfo2data.md">DD_GETDRIVERINFO2DATA</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551548">DD_GETDRIVERINFO2DATA</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551550">DD_GETDRIVERINFODATA</a>
-
-
-
  
 
  
-
 

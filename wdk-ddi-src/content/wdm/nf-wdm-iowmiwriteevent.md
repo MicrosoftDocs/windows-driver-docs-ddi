@@ -7,7 +7,7 @@ old-location: kernel\iowmiwriteevent.htm
 old-project: kernel
 ms.assetid: 6b98861c-b108-4b07-b494-e3647d03de4c
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: IoWMIWriteEvent, IoWMIWriteEvent routine [Kernel-Mode Driver Architecture], k104_ec484b7e-1653-4054-8a54-021a94303ec4.xml, kernel.iowmiwriteevent, wdm/IoWMIWriteEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 The <b>IoWMIWriteEvent</b> routine delivers a given event to the user-mode WMI components for notification.
 
 
-## -syntax
-
-
-````
-NTSTATUS IoWMIWriteEvent(
-  _Inout_ PVOID WnodeEventItem
-);
-````
-
-
 ## -parameters
 
 
@@ -70,7 +60,7 @@ NTSTATUS IoWMIWriteEvent(
 
 ### -param WnodeEventItem [in, out]
 
-Pointer to a <a href="..\wmistr\ns-wmistr-tagwnode_event_item.md">WNODE_EVENT_ITEM</a> structure to be delivered to the user-mode WMI components that requested notification of the event. 
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff566373">WNODE_EVENT_ITEM</a> structure to be delivered to the user-mode WMI components that requested notification of the event. 
 
 
 ## -returns
@@ -142,23 +132,22 @@ The WNODE_EVENT_ITEM structure that is allocated by the caller and passed in <i>
 
 Drivers should only call <b>IoWMIWriteEvent</b> for events that have been enabled for WMI. This ensures that there is an event consumer waiting for indication on that event.
 
-Callers of this routine must be running at IRQL &lt;= APC_LEVEL, with one exception. When the <b>Flags</b> member of the <a href="..\wmistr\ns-wmistr-_wnode_header.md">WNODE_HEADER</a> structure contains WNODE_FLAG_TRACED_GUID, <b>IoWMIWriteEvent</b> can be called at any IRQL. (The <b>WNODE_HEADER</b> structure is a member of the <a href="..\wmistr\ns-wmistr-tagwnode_event_item.md">WNODE_EVENT_ITEM</a> structure that the <i>WnodeEventItem</i> parameter points to.)
+Callers of this routine must be running at IRQL &lt;= APC_LEVEL, with one exception. When the <b>Flags</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566375">WNODE_HEADER</a> structure contains WNODE_FLAG_TRACED_GUID, <b>IoWMIWriteEvent</b> can be called at any IRQL. (The <b>WNODE_HEADER</b> structure is a member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566373">WNODE_EVENT_ITEM</a> structure that the <i>WnodeEventItem</i> parameter points to.)
 
 
 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iowmideviceobjecttoproviderid.md">IoWmiDeviceObjectToProviderId</a>
 
 
 
-<a href="..\wmistr\ns-wmistr-tagwnode_event_item.md">WNODE_EVENT_ITEM</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550433">IoWmiDeviceObjectToProviderId</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566373">WNODE_EVENT_ITEM</a>
  
 
  
-
 

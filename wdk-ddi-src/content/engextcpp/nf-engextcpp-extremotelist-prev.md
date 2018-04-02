@@ -7,7 +7,7 @@ old-location: debugger\extremotelist_prev.htm
 old-project: debugger
 ms.assetid: 0dc65a1a-2188-417b-9f5c-4a3d2dc0bbb0
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: EngExtCpp_Ref_46ab35be-6259-4fe5-95fe-06c99244f6bb.xml, ExtRemoteList, ExtRemoteList class [Windows Debugging], Prev method, ExtRemoteList::Prev, Prev method [Windows Debugging], Prev method [Windows Debugging], ExtRemoteList class, Prev,ExtRemoteList.Prev, debugger.extremotelist_prev
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,14 +52,6 @@ req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 The <b>Prev</b> method changes the current item to the previous item in the list.
 
 
-## -syntax
-
-
-````
-void Prev();
-````
-
-
 ## -parameters
 
 
@@ -89,16 +81,15 @@ If <b>Prev</b> reaches the end of the list, subsequent calls to <a href="https:/
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544114">ExtRemoteList</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544136">ExtRemoteList::HasNode</a>
-
-
-
-<a href="..\engextcpp\nl-engextcpp-extremotelist.md">ExtRemoteList</a>
-
-
-
  
 
  
-
 

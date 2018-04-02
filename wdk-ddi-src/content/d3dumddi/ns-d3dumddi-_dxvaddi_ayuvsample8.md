@@ -7,7 +7,7 @@ old-location: display\dxvaddi_ayuvsample8.htm
 old-project: display
 ms.assetid: 0fce82e9-0932-4838-b247-af0b2b8642d3
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXVA2_Structs_0bf70816-64a3-44cb-864a-ad94d3c9fce9.xml, DXVADDI_AYUVSAMPLE8, DXVADDI_AYUVSAMPLE8 structure [Display Devices], _DXVADDI_AYUVSAMPLE8, d3dumddi/DXVADDI_AYUVSAMPLE8, display.dxvaddi_ayuvsample8
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,19 +50,6 @@ req.typenames: DXVADDI_AYUVSAMPLE8
 
 
 The DXVADDI_AYUVSAMPLE8 structure describes 8-bit Cr, Cb, and Y color values and an associated opacity.
-
-
-## -syntax
-
-
-````
-typedef struct _DXVADDI_AYUVSAMPLE8 {
-  UCHAR Cr;
-  UCHAR Cb;
-  UCHAR Y;
-  UCHAR Alpha;
-} DXVADDI_AYUVSAMPLE8;
-````
 
 
 ## -struct-fields
@@ -114,23 +101,22 @@ The color value is scaled according to ITU-R Rec. BT.601, which you can learn ab
 
 <div class="alert"><b>Note</b>    If the alpha-blending surface originates as a DVD video subpicture, the preferred method for converting from the 4-bit alpha that is used by DVD video to the 8-bit alpha that is specified by <b>Alpha</b> is to map a 4-bit alpha value of zero to an 8-bit alpha value of zero and to convert all of the nonzero 4-bit alphas to 8-bit alphas by performing a left shift of four places and adding the constant 15.</div>
 <div> </div>
-The width and height of the AYUV alpha-blending surface are specified in the associated <a href="https://msdn.microsoft.com/7d820491-2df2-4036-8f3d-e6bcff4cd1f6">buffer description list</a> that is defined by the <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_decodebufferdesc.md">DXVADDI_DECODEBUFFERDESC</a> structure.
+The width and height of the AYUV alpha-blending surface are specified in the associated <a href="https://msdn.microsoft.com/7d820491-2df2-4036-8f3d-e6bcff4cd1f6">buffer description list</a> that is defined by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562896">DXVADDI_DECODEBUFFERDESC</a> structure.
 
 
 
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_videodesc.md">DXVADDI_VIDEODESC</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_decodebufferdesc.md">DXVADDI_DECODEBUFFERDESC</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562896">DXVADDI_DECODEBUFFERDESC</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562944">DXVADDI_VIDEODESC</a>
  
 
  
-
 

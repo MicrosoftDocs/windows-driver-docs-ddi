@@ -7,7 +7,7 @@ old-location: display\d3d12ddicaps_umd_based_command_queue_priority_data_0023.ht
 old-project: display
 ms.assetid: B82C6050-689A-4D70-831A-B935EDBBC9AC
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3D12DDICAPS_UMD_BASED_COMMAND_QUEUE_PRIORITY_DATA_0023, D3D12DDICAPS_UMD_BASED_COMMAND_QUEUE_PRIORITY_DATA_0023 structure [Display Devices], d3d12umddi/D3D12DDICAPS_UMD_BASED_COMMAND_QUEUE_PRIORITY_DATA_0023, display.d3d12ddicaps_umd_based_command_queue_priority_data_0023
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,16 +50,6 @@ req.typenames: D3D12DDICAPS_UMD_BASED_COMMAND_QUEUE_PRIORITY_DATA_0023
 
 
 Contains  priority data for a user-mode driver (UMD)-based command queue.
-
-
-## -syntax
-
-
-````
-typedef struct D3D12DDICAPS_UMD_BASED_COMMAND_QUEUE_PRIORITY_DATA_0023 {
-  D3D12DDI_COMMAND_QUEUE_FLAGS SupportedQueueFlagsForGlobalRealtimeQueues;
-} D3D12DDICAPS_UMD_BASED_COMMAND_QUEUE_PRIORITY_DATA_0023;
-````
 
 
 ## -struct-fields

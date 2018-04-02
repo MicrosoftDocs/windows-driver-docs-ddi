@@ -89,11 +89,11 @@ The ISCSI_NIC_LINKSTATE enumeration is used with the <a href="https://msdn.micro
 
 ## -see-also
 
-<a href="..\iscsicfg\ns-iscsicfg-_msiscsi_nicconfig.md">MSiSCSI_NICConfig</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563083">MSiSCSI_NICConfig WMI Class</a>
+
+
+
+<a href="..\iscsicfg\ns-iscsicfg-_msiscsi_nicconfig.md">MSiSCSI_NICConfig</a>
 
 
 

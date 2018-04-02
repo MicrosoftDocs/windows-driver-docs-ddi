@@ -7,7 +7,7 @@ old-location: debugger\createprocess2.htm
 old-project: debugger
 ms.assetid: 6b10dcec-2c1a-4068-adb2-4f532ec0b897
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: CreateProcess2 method [Windows Debugging], CreateProcess2 method [Windows Debugging], IDebugClient5 interface, CreateProcess2,IDebugClient5.CreateProcess2, IDebugClient5, IDebugClient5 interface [Windows Debugging], CreateProcess2 method, IDebugClient5::CreateProcess2, IDebugClient_1cf74a01-b7bd-4899-8a17-4fc443ee0fbc.xml, dbgeng/IDebugClient5::CreateProcess2, debugger.createprocess2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,21 +52,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 The <b>CreateProcess2</b>  method executes the given command to create a new process.
 
 
-## -syntax
-
-
-````
-HRESULT CreateProcess2(
-  [in]           ULONG64 Server,
-  [in]           PSTR    CommandLine,
-  [in]           PVOID   OptionsBuffer,
-  [in]           ULONG   OptionsBufferSize,
-  [in, optional] PCSTR   InitialDirectory,
-  [in, optional] PCSTR   Environment
-);
-````
-
-
 ## -parameters
 
 
@@ -84,7 +69,7 @@ Specifies the command line to execute to create the new process.
 
 ### -param OptionsBuffer [in]
 
-Specifies the process creation options.  <i>OptionsBuffer</i> is a pointer to a <a href="..\dbgeng\ns-dbgeng-_debug_create_process_options.md">DEBUG_CREATE_PROCESS_OPTIONS</a> structure.
+Specifies the process creation options.  <i>OptionsBuffer</i> is a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541464">DEBUG_CREATE_PROCESS_OPTIONS</a> structure.
 
 
 ### -param OptionsBufferSize [in]
@@ -159,6 +144,21 @@ For more information about creating and attaching to live user-mode targets, see
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562280">.create (Create Process)</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537786">AbandonCurrentProcess</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538150">AttachProcess</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539237">ConnectProcessServer</a>
 
 
@@ -167,35 +167,7 @@ For more information about creating and attaching to live user-mode targets, see
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537786">AbandonCurrentProcess</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548265">GetRunningProcessSystemIds</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558866">TerminateCurrentProcess</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540055">CreateProcessAndAttach2</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562280">.create (Create Process)</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548243">GetRunningProcessDescription</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538150">AttachProcess</a>
 
 
 
@@ -203,8 +175,20 @@ For more information about creating and attaching to live user-mode targets, see
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548243">GetRunningProcessDescription</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548265">GetRunningProcessSystemIds</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550497">IDebugClient5</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558866">TerminateCurrentProcess</a>
  
 
  
-
 

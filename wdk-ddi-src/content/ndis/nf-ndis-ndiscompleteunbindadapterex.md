@@ -7,7 +7,7 @@ old-location: netvista\ndiscompleteunbindadapterex.htm
 old-project: netvista
 ms.assetid: 3a1daad4-d4b7-4950-be58-73612949fba9
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NdisCompleteUnbindAdapterEx, NdisCompleteUnbindAdapterEx function [Network Drivers Starting with Windows Vista], ndis/NdisCompleteUnbindAdapterEx, netvista.ndiscompleteunbindadapterex, protocol_ndis_functions_ref_3d1252b7-d653-4bd6-a105-b998ffed694c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,18 +52,8 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 
 A protocol driver calls the 
   <b>NdisCompleteUnbindAdapterEx</b> function to complete an unbind operation for which the driver's 
-  <a href="..\ndis\nc-ndis-protocol_unbind_adapter_ex.md">ProtocolUnbindAdapterEx</a> function
+  <a href="https://msdn.microsoft.com/19fa7be2-acb9-42f6-bd9f-5be3e3c8b5fa">ProtocolUnbindAdapterEx</a> function
   returned NDIS_STATUS_PENDING.
-
-
-## -syntax
-
-
-````
-VOID NdisCompleteUnbindAdapterEx(
-  _In_ NDIS_HANDLE UnbindContext
-);
-````
 
 
 ## -parameters
@@ -92,7 +82,7 @@ None
 
 
 When a protocol driver returns NDIS_STATUS_PENDING from its 
-    <a href="..\ndis\nc-ndis-protocol_unbind_adapter_ex.md">
+    <a href="https://msdn.microsoft.com/19fa7be2-acb9-42f6-bd9f-5be3e3c8b5fa">
     ProtocolUnbindAdapterEx</a> function, that driver must call 
     <b>NdisCompleteUnbindAdapterEx</b> after the unbind operation is completed.
 
@@ -112,20 +102,19 @@ On return from
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_unbind_adapter_ex.md">ProtocolUnbindAdapterEx</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563715">NdisOpenAdapterEx</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+<a href="https://msdn.microsoft.com/1958722e-012e-4110-a82c-751744bcf9b5">ProtocolBindAdapterEx</a>
 
 
 
+<a href="https://msdn.microsoft.com/19fa7be2-acb9-42f6-bd9f-5be3e3c8b5fa">ProtocolUnbindAdapterEx</a>
  
 
  
-
 

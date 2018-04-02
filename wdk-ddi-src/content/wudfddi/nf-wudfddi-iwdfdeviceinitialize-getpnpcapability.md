@@ -55,16 +55,6 @@ req.product: Windows 10 or later.
 The <b>GetPnpCapability</b> method determines the state of the specified  Plug and Play (PnP) capability.
 
 
-## -syntax
-
-
-````
-WDF_TRI_STATE GetPnpCapability(
-  [in] WDF_PNP_CAPABILITY Capability
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +62,7 @@ WDF_TRI_STATE GetPnpCapability(
 
 ### -param Capability [in]
 
-A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_pnp_capability.md">WDF_PNP_CAPABILITY</a>-typed value that identifies the PnP capability to retrieve status about. 
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff561428">WDF_PNP_CAPABILITY</a>-typed value that identifies the PnP capability to retrieve status about. 
 
 
 ## -returns
@@ -127,11 +117,10 @@ The capability is set.
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdeviceinitialize.md">IWDFDeviceInitialize</a>
 
 
 
-<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_pnp_capability.md">WDF_PNP_CAPABILITY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556965">IWDFDeviceInitialize</a>
 
 
 
@@ -139,8 +128,8 @@ The capability is set.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561428">WDF_PNP_CAPABILITY</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: display\dxgkmdt_opm_bus_type_and_implementation.htm
 old-project: display
 ms.assetid: 9023eee6-3832-4da6-8c11-319b048c8ada
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKMDT_OPM_BUS_IMPLEMENTATION_MODIFIER_DAUGHTER_BOARD_CONNECTOR, DXGKMDT_OPM_BUS_IMPLEMENTATION_MODIFIER_DAUGHTER_BOARD_CONNECTOR_INSIDE_OF_NUAE, DXGKMDT_OPM_BUS_IMPLEMENTATION_MODIFIER_INSIDE_OF_CHIPSET, DXGKMDT_OPM_BUS_IMPLEMENTATION_MODIFIER_NON_STANDARD, DXGKMDT_OPM_BUS_IMPLEMENTATION_MODIFIER_TRACKS_ON_MOTHER_BOARD_TO_CHIP, DXGKMDT_OPM_BUS_IMPLEMENTATION_MODIFIER_TRACKS_ON_MOTHER_BOARD_TO_SOCKET, DXGKMDT_OPM_BUS_TYPE_AGP, DXGKMDT_OPM_BUS_TYPE_AND_IMPLEMENTATION, DXGKMDT_OPM_BUS_TYPE_AND_IMPLEMENTATION enumeration [Display Devices], DXGKMDT_OPM_BUS_TYPE_OTHER, DXGKMDT_OPM_BUS_TYPE_PCI, DXGKMDT_OPM_BUS_TYPE_PCIEXPRESS, DXGKMDT_OPM_BUS_TYPE_PCIX, DXGKMDT_OPM_COPP_COMPATIBLE_BUS_TYPE_INTEGRATED, DmEnums_32fcacb0-7c75-4614-8e2d-82fc5ffa68b5.xml, _DXGKMDT_OPM_BUS_TYPE_AND_IMPLEMENTATION, d3dkmdt/DXGKMDT_OPM_BUS_IMPLEMENTATION_MODIFIER_DAUGHTER_BOARD_CONNECTOR, d3dkmdt/DXGKMDT_OPM_BUS_IMPLEMENTATION_MODIFIER_DAUGHTER_BOARD_CONNECTOR_INSIDE_OF_NUAE, d3dkmdt/DXGKMDT_OPM_BUS_IMPLEMENTATION_MODIFIER_INSIDE_OF_CHIPSET, d3dkmdt/DXGKMDT_OPM_BUS_IMPLEMENTATION_MODIFIER_NON_STANDARD, d3dkmdt/DXGKMDT_OPM_BUS_IMPLEMENTATION_MODIFIER_TRACKS_ON_MOTHER_BOARD_TO_CHIP, d3dkmdt/DXGKMDT_OPM_BUS_IMPLEMENTATION_MODIFIER_TRACKS_ON_MOTHER_BOARD_TO_SOCKET, d3dkmdt/DXGKMDT_OPM_BUS_TYPE_AGP, d3dkmdt/DXGKMDT_OPM_BUS_TYPE_AND_IMPLEMENTATION, d3dkmdt/DXGKMDT_OPM_BUS_TYPE_OTHER, d3dkmdt/DXGKMDT_OPM_BUS_TYPE_PCI, d3dkmdt/DXGKMDT_OPM_BUS_TYPE_PCIEXPRESS, d3dkmdt/DXGKMDT_OPM_BUS_TYPE_PCIX, d3dkmdt/DXGKMDT_OPM_COPP_COMPATIBLE_BUS_TYPE_INTEGRATED, display.dxgkmdt_opm_bus_type_and_implementation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,27 +50,6 @@ req.typenames: DXGKMDT_OPM_BUS_TYPE_AND_IMPLEMENTATION
 
 
 The DXGKMDT_OPM_BUS_TYPE_AND_IMPLEMENTATION enumeration contains values that indicate the type and implementation of the bus that connects a graphics adapter to a motherboard chipset's north bridge. These values let an OPM application determine if it must encrypt data when the data is transferred from a computer's main memory to the graphics adapter.
-
-
-## -syntax
-
-
-````
-typedef enum _DXGKMDT_OPM_BUS_TYPE_AND_IMPLEMENTATION { 
-  DXGKMDT_OPM_BUS_TYPE_OTHER                                                       = 0x00000000,
-  DXGKMDT_OPM_BUS_TYPE_PCI                                                         = 0x00000001,
-  DXGKMDT_OPM_BUS_TYPE_PCIX                                                        = 0x00000002,
-  DXGKMDT_OPM_BUS_TYPE_PCIEXPRESS                                                  = 0x00000003,
-  DXGKMDT_OPM_BUS_TYPE_AGP                                                         = 0x00000004,
-  DXGKMDT_OPM_BUS_IMPLEMENTATION_MODIFIER_INSIDE_OF_CHIPSET                        = 0x00010000,
-  DXGKMDT_OPM_BUS_IMPLEMENTATION_MODIFIER_TRACKS_ON_MOTHER_BOARD_TO_CHIP           = 0x00020000,
-  DXGKMDT_OPM_BUS_IMPLEMENTATION_MODIFIER_TRACKS_ON_MOTHER_BOARD_TO_SOCKET         = 0x00030000,
-  DXGKMDT_OPM_BUS_IMPLEMENTATION_MODIFIER_DAUGHTER_BOARD_CONNECTOR                 = 0x00040000,
-  DXGKMDT_OPM_BUS_IMPLEMENTATION_MODIFIER_DAUGHTER_BOARD_CONNECTOR_INSIDE_OF_NUAE  = 0x00050000,
-  DXGKMDT_OPM_BUS_IMPLEMENTATION_MODIFIER_NON_STANDARD                             = 0x80000000,
-  DXGKMDT_OPM_COPP_COMPATIBLE_BUS_TYPE_INTEGRATED                                  = 0x80000000
-} DXGKMDT_OPM_BUS_TYPE_AND_IMPLEMENTATION;
-````
 
 
 ## -enum-fields
@@ -135,7 +114,7 @@ Indicates that the graphics adapter is connected to the motherboard through a da
 
 ### -field DXGKMDT_OPM_COPP_COMPATIBLE_BUS_TYPE_INTEGRATED
 
-This value can only be set if an OPM-protected output has COPP semantics and should not be set if an OPM-protected output has OPM semantics. This value is equivalent to the <a href="https://msdn.microsoft.com/c9ff0fd3-c063-4450-ae66-54153b3dc53c">COPP</a> COPP_BusType_Integrated flag that is used in the <b>dwData</b> member of the <a href="..\dxva\ns-dxva-_dxva_coppstatusdata.md">DXVA_COPPStatusData</a> structure in the <a href="https://msdn.microsoft.com/24cb232b-e289-45c8-8d55-42614a4dfd54">Windows 2000 Display Driver Model</a>. 
+This value can only be set if an OPM-protected output has COPP semantics and should not be set if an OPM-protected output has OPM semantics. This value is equivalent to the <a href="https://msdn.microsoft.com/c9ff0fd3-c063-4450-ae66-54153b3dc53c">COPP</a> COPP_BusType_Integrated flag that is used in the <b>dwData</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563154">DXVA_COPPStatusData</a> structure in the <a href="https://msdn.microsoft.com/24cb232b-e289-45c8-8d55-42614a4dfd54">Windows 2000 Display Driver Model</a>. 
 
 
 ## -remarks
@@ -144,7 +123,7 @@ This value can only be set if an OPM-protected output has COPP semantics and sho
 
 A graphics adapter's display miniport driver should use one bus type (DXGKMDT_OPM_BUS_TYPE_Xxx) and can also use one optional implementation modifier (DXGKMDT_OPM_BUS_IMPLEMENTATION_MODIFIER_Xxx). A graphics adapter must report the DXGKMDT_OPM_BUS_TYPE_OTHER value if its bus cannot be described by any other bus-type value or a combination of a bus-type value and an implementation-modifier value.
 
-OPM stores a bus's characteristics in a 32-bit ULONG value. A graphics adapter's display miniport driver uses the bitwise OR operator (|) to combine a bus-type value, an optional implementation-modifier value, and, possibly, the DXGKMDT_OPM_BUS_IMPLEMENTATION_NON_STANDARD flag. The DXGKMDT_OPM_BUS_IMPLEMENTATION_NON_STANDARD value is optional and is set only if an implementation-modifier value is set. This 32-bit ULONG is used when the Microsoft DirectX graphics kernel subsystem (<i>Dxgkrnl.sys</i>) passes the DXGKMDT_OPM_GET_ADAPTER_BUS_TYPE GUID in a call to the <a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_information.md">DxgkDdiOPMGetInformation</a> or <a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_copp_compatible_information.md">DxgkDdiOPMGetCOPPCompatibleInformation</a> function. The driver sets this 32-bit ULONG in the <b>ulInformation</b> member of the <a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_standard_information.md">DXGKMDT_OPM_STANDARD_INFORMATION</a> structure that is retrieved in the <i>DxgkDdiOPMGetInformation</i> or <i>DxgkDdiOPMGetCOPPCompatibleInformation</i> call. For more information about retrieving the graphics adapter's bus type, see the <a href="https://msdn.microsoft.com/20e268b8-fea0-48dd-a3cd-3cbb4233ef99">Retrieving Information about a Protected Output</a> or <a href="https://msdn.microsoft.com/9114f232-4123-47a8-b43d-62d14b9f6b08">Retrieving COPP-Compatible Information about a Protected Output</a> section.
+OPM stores a bus's characteristics in a 32-bit ULONG value. A graphics adapter's display miniport driver uses the bitwise OR operator (|) to combine a bus-type value, an optional implementation-modifier value, and, possibly, the DXGKMDT_OPM_BUS_IMPLEMENTATION_NON_STANDARD flag. The DXGKMDT_OPM_BUS_IMPLEMENTATION_NON_STANDARD value is optional and is set only if an implementation-modifier value is set. This 32-bit ULONG is used when the Microsoft DirectX graphics kernel subsystem (<i>Dxgkrnl.sys</i>) passes the DXGKMDT_OPM_GET_ADAPTER_BUS_TYPE GUID in a call to the <a href="https://msdn.microsoft.com/3d6559e5-776e-4fc0-b99a-8818cbcc289d">DxgkDdiOPMGetInformation</a> or <a href="https://msdn.microsoft.com/9f15df1e-bdf5-4634-97f1-78515664b594">DxgkDdiOPMGetCOPPCompatibleInformation</a> function. The driver sets this 32-bit ULONG in the <b>ulInformation</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560925">DXGKMDT_OPM_STANDARD_INFORMATION</a> structure that is retrieved in the <i>DxgkDdiOPMGetInformation</i> or <i>DxgkDdiOPMGetCOPPCompatibleInformation</i> call. For more information about retrieving the graphics adapter's bus type, see the <a href="https://msdn.microsoft.com/20e268b8-fea0-48dd-a3cd-3cbb4233ef99">Retrieving Information about a Protected Output</a> or <a href="https://msdn.microsoft.com/9114f232-4123-47a8-b43d-62d14b9f6b08">Retrieving COPP-Compatible Information about a Protected Output</a> section.
 
 When a bus-type value (for example, DXGKMDT_OPM_BUS_TYPE_PCI) is combined with a bus-implementation modifier value (for example, DXGKMDT_OPM_BUS_IMPLEMENTATION_MODIFIER_TRACKS_ON_MOTHER_BOARD_TO_CHIP), the graphics adapter uses most of the PCI specification to communicate with the computer. However, the graphics adapter does not use a physical PCI connector. Basically, the only difference between a regular PCI graphics adapter and an adapter with the DXGKMDT_OPM_BUS_IMPLEMENTATION_MODIFIER_TRACKS_ON_MOTHER_BOARD_TO_CHIP modifier is that the former is on a card that can be plugged into a PCI slot and the later is directly connected to the motherboard and cannot be removed or upgraded by the user.
 
@@ -153,20 +132,19 @@ When a bus-type value (for example, DXGKMDT_OPM_BUS_TYPE_PCI) is combined with a
 
 ## -see-also
 
-<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_standard_information.md">DXGKMDT_OPM_STANDARD_INFORMATION</a>
 
 
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_copp_compatible_information.md">DxgkDdiOPMGetCOPPCompatibleInformation</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560925">DXGKMDT_OPM_STANDARD_INFORMATION</a>
 
 
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_information.md">DxgkDdiOPMGetInformation</a>
+<a href="https://msdn.microsoft.com/9f15df1e-bdf5-4634-97f1-78515664b594">DxgkDdiOPMGetCOPPCompatibleInformation</a>
 
 
 
+<a href="https://msdn.microsoft.com/3d6559e5-776e-4fc0-b99a-8818cbcc289d">DxgkDdiOPMGetInformation</a>
  
 
  
-
 

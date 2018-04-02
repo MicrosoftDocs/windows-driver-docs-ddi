@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 Obsolete. Do not use.
 
 
-## -syntax
-
-
-````
-  StreamClassReenumerateStreams(
-    
-);
-````
-
-
 ## -parameters
 
 

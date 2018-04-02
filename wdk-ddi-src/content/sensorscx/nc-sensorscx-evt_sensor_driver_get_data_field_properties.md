@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 This callback function returns the properties of a given data field associated with a sensor.
 
 
-## -prototype
-
-
-````
-NT_STATUS EvtSensorGetDataFieldProperties(
-  _In_        SENSOROBJECT            Sensor,
-  _In_        CONST                   *pDataField,
-  _Inout_opt_ PSENSOR_COLLECTION_LIST pProperties,
-  _Out_       PULONG                  pSize
-);
-````
-
-
 ## -parameters
 
 
@@ -83,7 +70,7 @@ A reference to a data field. For more information, see <a href="https://msdn.mic
 
 ### -param pProperties [in, out, optional]
 
-A list of properties and their values for the specified <b>Sensor</b>. For more information, see <a href="..\sensorsdef\ns-sensorsdef-sensor_collection_list.md">SENSOR_COLLECTION_LIST</a>.
+A list of properties and their values for the specified <b>Sensor</b>. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/dn957092">SENSOR_COLLECTION_LIST</a>.
 
 
 ### -param pSize [out]
@@ -113,20 +100,19 @@ This function must be implemented by the driver and is called by the class exten
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn957080">Proximity sensor data fields</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn957092">SENSOR_COLLECTION_LIST</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn946691">Sensor data fields</a>
-
-
-
-<a href="..\sensorsdef\ns-sensorsdef-sensor_collection_list.md">SENSOR_COLLECTION_LIST</a>
-
-
-
  
 
  
-
 

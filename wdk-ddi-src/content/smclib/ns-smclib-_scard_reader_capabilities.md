@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Any level (See Remarks section)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -51,41 +51,6 @@ req.product: Windows 10 or later.
 
 
 The SCARD_READER_CAPABILITIES structure holds state information about the smart card reader. 
-
-
-## -syntax
-
-
-````
-typedef struct {
-  ULONG  SupportedProtocols;
-  ULONG  ReaderType;
-  ULONG  Reserved;
-  ULONG  MechProperties;
-  ULONG  CurrentState;
-  ULONG  Channel;
-  struct {
-    ULONG Default;
-    ULONG Max;
-  } CLKFrequency;
-  struct {
-    ULONG Default;
-    ULONG Max;
-  } DataRate;
-  ULONG  MaxIFSD;
-  ULONG  PowerMgmtSupport;
-  ULONG  CardConfiscated;
-  struct {
-    PULONG List;
-    UCHAR  Entries;
-  } DataRatesSupported;
-  struct {
-    PULONG List;
-    UCHAR  Entries;
-  } CLKFrequenciesSupported;
-  UCHAR  Reserved1[100 - sizeof(ULONG) -  sizeof(struct _DataRatesSupported) - sizeof(struct _CLKFrequenciesSupported)];
-} SCARD_READER_CAPABILITIES, *PSCARD_READER_CAPABILITIES;
-````
 
 
 ## -struct-fields
@@ -331,7 +296,7 @@ A smart card is inserted and a protocol has been selected.
 </table>
  
 
-Access to this field must be sequentialized by using the spin lock pointed to by the <b>OsData-&gt;SpinLock</b> member of <a href="..\smclib\ns-smclib-_smartcard_extension.md">SMARTCARD_EXTENSION</a>. 
+Access to this field must be sequentialized by using the spin lock pointed to by the <b>OsData-&gt;SpinLock</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff548974">SMARTCARD_EXTENSION</a>. 
 
 
 ### -field Channel

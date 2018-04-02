@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 The <code>OEMSendPage</code> function is called by GDI when it has finished drawing a physical page, so that the driver can send the page to the printer.
 
 
-## -syntax
-
-
-````
-BOOL APIENTRY OEMSendPage(
-   SURFOBJ *pso
-);
-````
-
-
 ## -parameters
 
 

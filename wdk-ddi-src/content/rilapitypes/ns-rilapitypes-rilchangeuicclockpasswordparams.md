@@ -7,7 +7,7 @@ old-location: netvista\rilchangeuicclockpasswordparams.htm
 old-project: netvista
 ms.assetid: 00e2fe6f-fd8b-45d1-9fd2-d90c515c3571
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*LPRILCHANGEUICCLOCKPASSWORDPARAMS, RILCHANGEUICCLOCKPASSWORDPARAMS, RILCHANGEUICCLOCKPASSWORDPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilchangeuicclockpasswordparams, ntddrilapitypes/RILCHANGEUICCLOCKPASSWORDPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef struct _RILCHANGEUICCLOCKPASSWORDPARAMS {
-  RILUICCLOCKCREDENTIAL  lockCredential;
-  char [256]             szNewPassword;
-} RILCHANGEUICCLOCKPASSWORDPARAMS, RILCHANGEUICCLOCKPASSWORDPARAMS;
-````
 
 
 ## -struct-fields

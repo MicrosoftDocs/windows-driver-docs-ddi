@@ -7,7 +7,7 @@ old-location: netvista\ndiscocreatevc.htm
 old-project: netvista
 ms.assetid: ae9175e5-c1fc-44ae-a7c9-921ac8483e33
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NdisCoCreateVc, NdisCoCreateVc function [Network Drivers Starting with Windows Vista], condis_protocol_ref_6b168c4f-016d-4fa8-911a-d89fd9de2829.xml, ndis/NdisCoCreateVc, netvista.ndiscocreatevc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -54,19 +54,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
   a stand-alone call manager can dispatch incoming calls.
 
 
-## -syntax
-
-
-````
-NDIS_STATUS NdisCoCreateVc(
-  _In_     NDIS_HANDLE  NdisBindingHandle,
-  _In_opt_ NDIS_HANDLE  NdisAfHandle,
-  _In_     NDIS_HANDLE  ProtocolVcContext,
-  _Inout_  PNDIS_HANDLE NdisVcHandle
-);
-````
-
-
 ## -parameters
 
 
@@ -75,19 +62,19 @@ NDIS_STATUS NdisCoCreateVc(
 ### -param NdisBindingHandle [in]
 
 Specifies the handle returned by 
-     <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a> that identifies the
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff563715">NdisOpenAdapterEx</a> that identifies the
      target NIC or virtual adapter of the next-lower driver to which the caller is bound.
 
 
 ### -param NdisAfHandle [in, optional]
 
 Specifies the handle returned by 
-     <a href="..\ndis\nf-ndis-ndisclopenaddressfamilyex.md">NdisClOpenAddressFamilyEx</a> if
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff561639">NdisClOpenAddressFamilyEx</a> if
      the caller is a client. A call manager sets this parameter to <b>NULL</b> if it is creating a VC for itself,
      such as a VC to a network switch. When it creates a VC for incoming call notifications, a call manager
      passes the AF handle that it saved in its per-AF state designated by the 
      <i>CallMgrAfContext</i> that was passed as an input parameter to its 
-     <a href="..\ndis\nc-ndis-protocol_cm_reg_sap.md">
+     <a href="https://msdn.microsoft.com/3e3e7a0e-a8d2-40b2-895b-187d24867080">
      ProtocolCmRegisterSap</a> function.
 
 
@@ -191,8 +178,8 @@ Usually, callers of
     <b>NdisCoCreateVc</b> store the returned 
     <i>NdisVcHandle</i> in the caller-allocated state area at 
     <i>ProtocolVcContext</i> . NDIS passes this handle as an input parameter to the 
-    <a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a> and 
-    <a href="..\ndis\nc-ndis-miniport_co_create_vc.md">MiniportCoCreateVc</a> functions of the
+    <a href="https://msdn.microsoft.com/b086dd24-74f5-474a-8684-09bf92ac731b">ProtocolCoCreateVc</a> and 
+    <a href="https://msdn.microsoft.com/99eaba29-ce17-4e79-878e-5fdf7411e56c">MiniportCoCreateVc</a> functions of the
     other two drivers involved in each creation of a VC.
 
 To make an outgoing call, a client must call 
@@ -202,10 +189,10 @@ To make an outgoing call, a client must call
     <b>NdisCoCreateVc</b> returns control. If its call to 
     <b>NdisCoCreateVc</b> succeeds, the client can proceed in making an outgoing call, passing the returned 
     <i>NdisVcHandle</i> to 
-    <a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561635">NdisClMakeCall</a>.
 
 When its 
-    <a href="..\ndis\nc-ndis-protocol_co_receive_net_buffer_lists.md">
+    <a href="https://msdn.microsoft.com/1755804c-d82f-465d-862f-8a2340516f8e">
     ProtocolCoReceiveNetBufferLists</a> function processes the offer of an incoming call directed to one of
     its registered SAPs, a call manager must call 
     <b>NdisCoCreateVc</b> first. As a synchronous operation, NDIS calls the underlying miniport driver's 
@@ -215,59 +202,58 @@ When its
     <b>NdisCoCreateVc</b> succeeds, the call manager can proceed in notifying the appropriate client, passing
     the returned value at 
     <i>NdisVcHandle</i> to 
-    <a href="..\ndis\nf-ndis-ndiscmdispatchincomingcall.md">
+    <a href="https://msdn.microsoft.com/2172aeec-8502-414e-9d01-9292c0eb7ce8">
     NdisCmDispatchIncomingCall</a>.
 
 Stand-alone call managers, which register themselves with NDIS as protocol drivers, can call 
     <b>NdisCoCreateVc</b>. Connection-oriented miniport drivers that provide integrated call-management
     support call 
-    <a href="..\ndis\nf-ndis-ndismcmcreatevc.md">NdisMCmCreateVc</a>, instead.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff562812">NdisMCmCreateVc</a>, instead.
 
 
 
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_cm_reg_sap.md">ProtocolCmRegisterSap</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiscmdispatchincomingcall.md">NdisCmDispatchIncomingCall</a>
+<a href="https://msdn.microsoft.com/99eaba29-ce17-4e79-878e-5fdf7411e56c">MiniportCoCreateVc</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisallocatefromnpagedlookasidelist.md">
+<a href="https://msdn.microsoft.com/df690a05-359d-44f0-b063-4fc21d6c4d76">
    NdisAllocateFromNPagedLookasideList</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561635">NdisClMakeCall</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismcmcreatevc.md">NdisMCmCreateVc</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561664">NdisCmDispatchIncomingCall</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_co_create_vc.md">MiniportCoCreateVc</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561698">NdisCoDeleteVc</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiscodeletevc.md">NdisCoDeleteVc</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562812">NdisMCmCreateVc</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_co_receive_net_buffer_lists.md">
+<a href="https://msdn.microsoft.com/3e3e7a0e-a8d2-40b2-895b-187d24867080">ProtocolCmRegisterSap</a>
+
+
+
+<a href="https://msdn.microsoft.com/b086dd24-74f5-474a-8684-09bf92ac731b">ProtocolCoCreateVc</a>
+
+
+
+<a href="https://msdn.microsoft.com/1755804c-d82f-465d-862f-8a2340516f8e">
    ProtocolCoReceiveNetBufferLists</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
-
-
-
  
 
  
-
 

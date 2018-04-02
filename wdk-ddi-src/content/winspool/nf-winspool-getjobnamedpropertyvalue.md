@@ -55,19 +55,6 @@ Retrieves the value of the named property for the specified print job on the spe
 
 
 
-## -syntax
-
-
-````
-DWORD WINAPI GetJobNamedPropertyValue(
-  _In_  HANDLE             hPrinter,
-  _In_  DWORD              JobId,
-  _In_  PCWSTR             pszName,
-  _Out_ PrintPropertyValue *pValue
-);
-````
-
-
 ## -parameters
 
 
@@ -81,7 +68,7 @@ A handle to the printer object of interest. Use the <a href="https://msdn.micros
 
 ### -param JobId [in]
 
-Identifier that specifies the print job. You obtain a print job identifier by calling the <a href="https://msdn.microsoft.com/cfafa874-6022-4bf4-bf3d-096213eb0c98">AddJob</a> function or the <a href="..\printoem\nf-printoem-oemstartdoc.md">StartDoc</a> function. 
+Identifier that specifies the print job. You obtain a print job identifier by calling the <a href="https://msdn.microsoft.com/cfafa874-6022-4bf4-bf3d-096213eb0c98">AddJob</a> function or the <a href="https://msdn.microsoft.com/67580632-ff9a-4d29-8e4e-c21f04aa4b47">StartDoc</a> function. 
 
 
 
@@ -93,7 +80,7 @@ Name of the property whose value will be retrieved.
 
 ### -param pValue [out]
 
-Value of the named property. The caller needs to free this using the <a href="..\winspool\nf-winspool-freeprintpropertyvalue.md">FreePrintPropertyValue</a> function. 
+Value of the named property. The caller needs to free this using the <a href="https://msdn.microsoft.com/library/windows/hardware/mt299058">FreePrintPropertyValue</a> function. 
 
 
 

@@ -7,7 +7,7 @@ old-location: storage\ataportreleasequeuetag.htm
 old-project: storage
 ms.assetid: 54399050-740f-4af8-ad85-cd3060f14af4
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: AtaPortReleaseQueueTag, AtaPortReleaseQueueTag routine [Storage Devices], atartns_cfdd9be6-53b5-4c4a-ac61-bc6a3cf48ea5.xml, irb/AtaPortReleaseQueueTag, storage.ataportreleasequeuetag
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -55,19 +55,6 @@ req.typenames: IDE_POWER_STATE
 The <b>AtaPortReleaseQueueTag</b> routine releases the specified queue tag.
 <div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
-## -syntax
-
-
-````
-VOID AtaPortReleaseQueueTag(
-  _In_ PVOID ChannelExtension,
-  _In_ UCHAR TargetId,
-  _In_ UCHAR Lun,
-  _In_ UCHAR QueueTag
-);
-````
-
-
 ## -parameters
 
 
@@ -111,23 +98,22 @@ None
 
 
 
-The miniport driver should call <b>AtaPortReleaseQueueTag</b> to free allocated queue tags by using <a href="..\irb\nf-irb-ataportallocatequeuetag.md">AtaPortAllocateQueueTag</a>. 
+The miniport driver should call <b>AtaPortReleaseQueueTag</b> to free allocated queue tags by using <a href="https://msdn.microsoft.com/library/windows/hardware/ff550144">AtaPortAllocateQueueTag</a>. 
 
 
 
 
 ## -see-also
 
-<a href="..\irb\nf-irb-ataportinitializequeuetag.md">AtaPortInitializeQueueTag</a>
 
 
 
-<a href="..\irb\nf-irb-ataportallocatequeuetag.md">AtaPortAllocateQueueTag</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550144">AtaPortAllocateQueueTag</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550168">AtaPortInitializeQueueTag</a>
  
 
  
-
 

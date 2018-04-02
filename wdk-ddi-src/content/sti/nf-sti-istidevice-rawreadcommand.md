@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 The <b>IStiDevice::RawReadCommand</b> method reads command information from a still image device.
 
 
-## -syntax
-
-
-````
-HRESULT RawReadCommand(
-  [in, out]      LPVOID       lpBuffer,
-  [in, out]      LPDWORD      lpdwNumberOfBytes,
-  [in, optional] LPOVERLAPPED lpOverlapped
-);
-````
-
-
 ## -parameters
 
 

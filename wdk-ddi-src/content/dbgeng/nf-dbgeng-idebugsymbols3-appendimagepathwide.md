@@ -7,7 +7,7 @@ old-location: debugger\appendimagepathwide.htm
 old-project: debugger
 ms.assetid: 9a129ce5-4493-4838-9a6c-8a3c054e7c27
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: AppendImagePathWide method [Windows Debugging], AppendImagePathWide method [Windows Debugging], IDebugSymbols3 interface, AppendImagePathWide,IDebugSymbols3.AppendImagePathWide, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], AppendImagePathWide method, IDebugSymbols3::AppendImagePathWide, dbgeng/IDebugSymbols3::AppendImagePathWide, debugger.appendimagepathwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,16 +50,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>AppendImagePathWide</b>  method appends directories to the executable image path.
-
-
-## -syntax
-
-
-````
-HRESULT AppendImagePathWide(
-  [in] PCSTR Addition
-);
-````
 
 
 ## -parameters
@@ -113,11 +103,6 @@ The executable image path can consist of several directories separated by semico
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556708">SetImagePath</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 
 
@@ -125,8 +110,12 @@ The executable image path can consist of several directories separated by semico
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550870">IDebugSymbols3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556708">SetImagePath</a>
  
 
  
-
 

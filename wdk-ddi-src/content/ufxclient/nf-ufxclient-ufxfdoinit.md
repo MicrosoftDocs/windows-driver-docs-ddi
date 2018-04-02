@@ -7,7 +7,7 @@ old-location: buses\ufxfdoinit.htm
 old-project: usbref
 ms.assetid: 11CDA6DA-6B26-41BC-8F0B-2F18FC03B3C2
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: UfxFdoInit, UfxFdoInit method [Buses], buses.ufxfdoinit, ufxclient/UfxFdoInit
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,19 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-Initializes the WDFDEVICE_INIT structure that the client driver subsequently provides when it calls <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>.
-
-
-## -syntax
-
-
-````
-NTSTATUS UfxFdoInit(
-  [in]      WDFDRIVER              WdfDriver,
-  [in, out] PWDFDEVICE_INIT        DeviceInit,
-  [in, out] PWDF_OBJECT_ATTRIBUTES FdoAttributes
-);
-````
+Initializes the WDFDEVICE_INIT structure that the client driver subsequently provides when it calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff545926">WdfDeviceCreate</a>.
 
 
 ## -parameters
@@ -72,7 +60,7 @@ NTSTATUS UfxFdoInit(
 
 ### -param WdfDriver [in]
 
-A handle to the driver's WDF driver object that the driver obtained from a previous call to <a href="..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md">WdfDriverCreate</a> or <a href="..\wdfdriver\nf-wdfdriver-wdfgetdriver.md">WdfGetDriver</a>.
+A handle to the driver's WDF driver object that the driver obtained from a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff547175">WdfDriverCreate</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff547336">WdfGetDriver</a>.
 
 
 ### -param DeviceInit [in, out]
@@ -82,7 +70,7 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 ### -param FdoAttributes [in, out]
 
-A pointer to a caller-allocated <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure that describes object attributes for the 
+A pointer to a caller-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff552400">WDF_OBJECT_ATTRIBUTES</a> structure that describes object attributes for the 
 
 
 ## -returns
@@ -98,7 +86,7 @@ If the operation is successful, the method returns STATUS_SUCCESS, or another st
 
 
 
-The client driver receives a pointer to a framework-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a> structure in its <a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a> callback function.  It then calls <b>UfxFdoInit</b> with this pointer before calling <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a> to create the WDFDEVICE object.
+The client driver receives a pointer to a framework-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a> structure in its <a href="https://msdn.microsoft.com/b20db029-ee2c-4fb1-bd69-ccd2e37fdc9a">EvtDriverDeviceAdd</a> callback function.  It then calls <b>UfxFdoInit</b> with this pointer before calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff545926">WdfDeviceCreate</a> to create the WDFDEVICE object.
 
 By default, for WDF drivers, the device's function driver is the power policy owner.
 

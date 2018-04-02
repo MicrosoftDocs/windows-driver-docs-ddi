@@ -7,7 +7,7 @@ old-location: display\d3dkmtopenkeyedmutex.htm
 old-project: display
 ms.assetid: 309a43bf-5fad-409f-83e6-e88361b03827
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMTOpenKeyedMutex, D3DKMTOpenKeyedMutex function [Display Devices], OpenGL_Functions_6e2179a9-932f-4bd3-b222-4d5f1471636c.xml, d3dkmthk/D3DKMTOpenKeyedMutex, display.d3dkmtopenkeyedmutex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -55,26 +55,21 @@ req.typenames: D3DKMT_DRIVERVERSION
 The <b>D3DKMTOpenKeyedMutex</b> function opens a keyed mutex object.
 
 
-## -syntax
-
-
-````
-NTSTATUS D3DKMTOpenKeyedMutex(
-  _Inout_ D3DKMT_OPENKEYEDMUTEX *pData
-);
-````
-
-
 ## -parameters
 
 
+
+
+### -param Arg1
+
+TBD
 
 
 
 
 #### - pData [in, out]
 
- A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_openkeyedmutex.md">D3DKMT_OPENKEYEDMUTEX</a> structure that describes a keyed mutex object.
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548135">D3DKMT_OPENKEYEDMUTEX</a> structure that describes a keyed mutex object.
 
 
 ## -returns
@@ -130,7 +125,7 @@ Parameters were validated and determined to be incorrect.
 </td>
 <td width="60%">
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtopenkeyedmutex.md">D3DKMTOpenKeyedMutex</a> could not complete because of insufficient memory.
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547054">D3DKMTOpenKeyedMutex</a> could not complete because of insufficient memory.
 
 </td>
 </tr>
@@ -144,12 +139,11 @@ This function might also return other NTSTATUS values.
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_openkeyedmutex.md">D3DKMT_OPENKEYEDMUTEX</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548135">D3DKMT_OPENKEYEDMUTEX</a>
  
 
  
-
 

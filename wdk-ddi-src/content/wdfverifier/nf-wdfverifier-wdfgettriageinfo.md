@@ -55,14 +55,6 @@ req.product: Windows 10 or later.
 The <b>WdfGetTriageInfo</b> method is reserved for internal use only.
 
 
-## -syntax
-
-
-````
-PVOID WdfGetTriageInfo(void);
-````
-
-
 ## -parameters
 
 

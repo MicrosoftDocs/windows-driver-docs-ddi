@@ -49,7 +49,7 @@ req.typenames: HDAUDIO_STREAM_FORMAT, *PHDAUDIO_STREAM_FORMAT
 ## -description
 
 
-The IOCTL_HID_GET_COLLECTION_INFORMATION request obtains a <a href="https://msdn.microsoft.com/dcbee8e3-d03a-45c8-92e4-0897b9f55177">top-level collection's</a> <a href="..\hidclass\ns-hidclass-_hid_collection_information.md">HID_COLLECTION_INFORMATION</a> structure. This information includes the size, in bytes, of a collection's <a href="https://msdn.microsoft.com/50ac2877-4c45-4d55-b5cc-013486892fbf">preparsed data</a>.
+The IOCTL_HID_GET_COLLECTION_INFORMATION request obtains a <a href="https://msdn.microsoft.com/dcbee8e3-d03a-45c8-92e4-0897b9f55177">top-level collection's</a> <a href="https://msdn.microsoft.com/library/windows/hardware/ff539870">HID_COLLECTION_INFORMATION</a> structure. This information includes the size, in bytes, of a collection's <a href="https://msdn.microsoft.com/50ac2877-4c45-4d55-b5cc-013486892fbf">preparsed data</a>.
 
 For general information about HIDClass devices, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db-8cff-9fac30209952">HID Collections</a>. 
 
@@ -114,12 +114,11 @@ The HID class driver sets the following fields of <b>Irp-&gt;IoStatus</b>:
 
 ## -see-also
 
-<a href="..\hidclass\ns-hidclass-_hid_collection_information.md">HID_COLLECTION_INFORMATION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539870">HID_COLLECTION_INFORMATION</a>
  
 
  
-
 

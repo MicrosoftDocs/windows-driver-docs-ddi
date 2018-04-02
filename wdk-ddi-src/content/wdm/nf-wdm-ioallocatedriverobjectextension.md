@@ -7,7 +7,7 @@ old-location: kernel\ioallocatedriverobjectextension.htm
 old-project: kernel
 ms.assetid: e4e4e721-5b5c-48e8-99cb-d04c6b0eb807
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: IoAllocateDriverObjectExtension, IoAllocateDriverObjectExtension routine [Kernel-Mode Driver Architecture], k104_f7b420f3-bcd3-4be4-8f0d-e8d61314e880.xml, kernel.ioallocatedriverobjectextension, wdm/IoAllocateDriverObjectExtension
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,19 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>IoAllocateDriverObjectExtension</b> routine allocates a per-driver context area, called a <a href="https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3">driver object extension</a>, and assigns a unique identifier to it.
-
-
-## -syntax
-
-
-````
-NTSTATUS IoAllocateDriverObjectExtension(
-  _In_  PDRIVER_OBJECT DriverObject,
-  _In_  PVOID          ClientIdentificationAddress,
-  _In_  ULONG          DriverObjectExtensionSize,
-  _Out_ PVOID          *DriverObjectExtension
-);
-````
 
 
 ## -parameters
@@ -147,19 +134,18 @@ Indicates that a driver object extension with the given <i>ClientIdentificationA
 
 Memory allocated by the system for the driver object extension is resident storage and is accessible from any IRQL. The allocated storage is automatically freed by the I/O manager when the driver object is deleted.
 
-Callers of this routine must provide a unique identifier for <i>ClientIdentificationAddress</i>. To retrieve a pointer to the context area, a caller passes the <i>ClientIdentificationAddress</i> to <a href="..\wdm\nf-wdm-iogetdriverobjectextension.md">IoGetDriverObjectExtension</a>. 
+Callers of this routine must provide a unique identifier for <i>ClientIdentificationAddress</i>. To retrieve a pointer to the context area, a caller passes the <i>ClientIdentificationAddress</i> to <a href="https://msdn.microsoft.com/library/windows/hardware/ff549229">IoGetDriverObjectExtension</a>. 
 
 
 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iogetdriverobjectextension.md">IoGetDriverObjectExtension</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549229">IoGetDriverObjectExtension</a>
  
 
  
-
 

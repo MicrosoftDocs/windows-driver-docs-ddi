@@ -53,20 +53,6 @@ req.product: Windows 10 or later.
 For internal use only.
 
 
-## -syntax
-
-
-````
-typedef struct _WDF_COMPANION_EVENT_CALLBACKS {
-  ULONG                                   Size;
-  PFN_WDF_COMPANION_PRE_D0_ENTRY          EvtCompanionPreD0Entry;
-  PFN_WDF_COMPANION_POST_D0_EXIT          EvtCompanionPostD0Exit;
-  PFN_WDF_COMPANION_PRE_PREPARE_HARDWARE  EvtCompanionPrePrepareHardware;
-  PFN_WDF_COMPANION_POST_RELEASE_HARDWARE EvtCompanionPostReleaseHardware;
-} WDF_COMPANION_EVENT_CALLBACKS, *PWDF_COMPANION_EVENT_CALLBACKS;
-````
-
-
 ## -struct-fields
 
 

@@ -55,21 +55,6 @@ req.product: Windows 10 or later.
 The <b>WDF_FILEOBJECT_CLASS</b> enumeration defines values that identify whether a driver requires a framework file object to represent a file that an application or another driver is attempting to create or open. These values also specify where the framework can store the object's handle.
 
 
-## -syntax
-
-
-````
-typedef enum _WDF_FILEOBJECT_CLASS { 
-  WdfFileObjectInvalid                 = 0,
-  WdfFileObjectNotRequired             = 1,
-  WdfFileObjectWdfCanUseFsContext      = 2,
-  WdfFileObjectWdfCanUseFsContext2     = 3,
-  WdfFileObjectWdfCannotUseFsContexts  = 4,
-  WdfFileObjectCanBeOptional           = 0x80000000
-} WDF_FILEOBJECT_CLASS, *PWDF_FILEOBJECT_CLASS;
-````
-
-
 ## -enum-fields
 
 
@@ -87,7 +72,7 @@ The driver does not require a framework file object.
 
 ### -field WdfFileObjectWdfCanUseFsContext
 
-The driver requires a framework file object. The framework can store the object's handle in the <b>FsContext</b> member of the file's Windows Driver Model (WDM) <a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a> structure.
+The driver requires a framework file object. The framework can store the object's handle in the <b>FsContext</b> member of the file's Windows Driver Model (WDM) <a href="https://msdn.microsoft.com/library/windows/hardware/ff545834">FILE_OBJECT</a> structure.
 
 
 ### -field WdfFileObjectWdfCanUseFsContext2
@@ -115,11 +100,11 @@ The <b>WdfFileObjectCanBeOptional</b> value is available in version 1.9 and late
 
 
 
-The <b>WDF_FILEOBJECT_CLASS</b> enumeration is used in the <a href="..\wdfdevice\ns-wdfdevice-_wdf_fileobject_config.md">WDF_FILEOBJECT_CONFIG</a> structure.
+The <b>WDF_FILEOBJECT_CLASS</b> enumeration is used in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551319">WDF_FILEOBJECT_CONFIG</a> structure.
 
-If your driver calls <a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetfileobject.md">WdfRequestGetFileObject</a> to obtain framework file objects for I/O requests, and if you know that some of the WDM I/O request packets (IRPs) that your driver receives do not include WDM file objects, the driver can set the <b>WdfFileObjectCanBeOptional</b> bit flag. 
+If your driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff549963">WdfRequestGetFileObject</a> to obtain framework file objects for I/O requests, and if you know that some of the WDM I/O request packets (IRPs) that your driver receives do not include WDM file objects, the driver can set the <b>WdfFileObjectCanBeOptional</b> bit flag. 
 
-If your driver sets the <b>WdfFileObjectWdfCanUseFsContext</b>, <b>WdfFileObjectWdfCanUseFsContext2</b>, or <b>WdfFileObjectWdfCannotUseFsContexts</b> value and does <i>not</i> set the <b>WdfFileObjectCanBeOptional</b> bit flag, <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-kmdf-verifier">the framework's verifier</a> reports an error for the following cases when the driver calls the <a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetfileobject.md">WdfRequestGetFileObject</a> method: 
+If your driver sets the <b>WdfFileObjectWdfCanUseFsContext</b>, <b>WdfFileObjectWdfCanUseFsContext2</b>, or <b>WdfFileObjectWdfCannotUseFsContexts</b> value and does <i>not</i> set the <b>WdfFileObjectCanBeOptional</b> bit flag, <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-kmdf-verifier">the framework's verifier</a> reports an error for the following cases when the driver calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549963">WdfRequestGetFileObject</a> method: 
 
 <ul>
 <li>
@@ -138,16 +123,15 @@ If the <b>WdfFileObjectCanBeOptional</b> bit flag is set, the framework's verifi
 
 ## -see-also
 
-<a href="..\wdfdevice\ns-wdfdevice-_wdf_fileobject_config.md">WDF_FILEOBJECT_CONFIG</a>
 
 
 
-<a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545834">FILE_OBJECT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551319">WDF_FILEOBJECT_CONFIG</a>
  
 
  
-
 

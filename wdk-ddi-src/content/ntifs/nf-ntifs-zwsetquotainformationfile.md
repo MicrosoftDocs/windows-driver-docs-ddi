@@ -7,7 +7,7 @@ old-location: kernel\zwsetquotainformationfile.htm
 old-project: kernel
 ms.assetid: 40c7a74c-eace-4d01-8a55-2c3c8bace8fb
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: NtSetQuotaInformationFile, ZwSetQuotaInformationFile, ZwSetQuotaInformationFile routine [Kernel-Mode Driver Architecture], k111_87b6e79e-ecd9-47ff-8f0c-7502fc82b8af.xml, kernel.zwsetquotainformationfile, ntifs/NtSetQuotaInformationFile, ntifs/ZwSetQuotaInformationFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,19 +53,6 @@ req.typenames: TOKEN_TYPE
 The <b>ZwSetQuotaInformationFile</b> routine changes quota entries for the volume associated with the <i>FileHandle</i> parameter. All of the quota entries in the specified buffer are applied to the volume. 
 
 
-## -syntax
-
-
-````
-NTSTATUS ZwSetQuotaInformationFile(
-  _In_  HANDLE           FileHandle,
-  _Out_ PIO_STATUS_BLOCK IoStatusBlock,
-  _In_  PVOID            Buffer,
-  _In_  ULONG            Length
-);
-````
-
-
 ## -parameters
 
 
@@ -83,7 +70,7 @@ The address of the caller's I/O status block.
 
 ### -param Buffer [in]
 
-A buffer containing the new quota entries that should be applied to the volume. The quota information must be formatted as one or more <a href="..\ntifs\ns-ntifs-_file_quota_information.md">FILE_QUOTA_INFORMATION</a> structures. The <b>NextEntryOffset</b> field in the <b>FILE_QUOTA_INFORMATION</b> structure contains the offset, in bytes, of the next quota entry in the list. If there are no more entries after the current one, this member is zero.
+A buffer containing the new quota entries that should be applied to the volume. The quota information must be formatted as one or more <a href="https://msdn.microsoft.com/library/windows/hardware/ff540342">FILE_QUOTA_INFORMATION</a> structures. The <b>NextEntryOffset</b> field in the <b>FILE_QUOTA_INFORMATION</b> structure contains the offset, in bytes, of the next quota entry in the list. If there are no more entries after the current one, this member is zero.
 
 
 ### -param Length [in]
@@ -162,7 +149,18 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_file_get_quota_information.md">FILE_GET_QUOTA_INFORMATION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540298">FILE_GET_QUOTA_INFORMATION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540342">FILE_QUOTA_INFORMATION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550671">IO_STATUS_BLOCK</a>
 
 
 
@@ -170,32 +168,20 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_file_quota_information.md">FILE_QUOTA_INFORMATION</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-iocheckquotabuffervalidity.md">IoCheckQuotaBufferValidity</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549401">IRP_MJ_SET_QUOTA</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-zwqueryquotainformationfile.md">ZwQueryQuotaInformationFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548279">IoCheckQuotaBufferValidity</a>
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567064">ZwQueryQuotaInformationFile</a>
  
 
  
-
 

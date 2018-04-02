@@ -52,20 +52,6 @@ req.typenames: KS_VideoStreamingHints
 The KS_VideoStreamingHints enumeration defines video compression hints.
 
 
-## -syntax
-
-
-````
-typedef enum  { 
-  KS_StreamingHint_FrameInterval   = 0x0100,
-  KS_StreamingHint_KeyFrameRate    = 0x0200,
-  KS_StreamingHint_PFrameRate      = 0x0400,
-  KS_StreamingHint_CompQuality     = 0x0800,
-  KS_StreamingHint_CompWindowSize  = 0x1000
-} KS_VideoStreamingHints;
-````
-
-
 ## -enum-fields
 
 

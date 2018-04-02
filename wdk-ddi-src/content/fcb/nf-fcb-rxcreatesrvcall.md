@@ -7,7 +7,7 @@ old-location: ifsk\rxcreatesrvcall.htm
 old-project: ifsk
 ms.assetid: 0eda9724-686f-4681-a1f0-92bdc36e695d
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: RxCreateSrvCall, RxCreateSrvCall function [Installable File System Drivers], fcb/RxCreateSrvCall, ifsk.rxcreatesrvcall, rxref_ff4d3641-1ae5-43f1-9c49-0456d11f69b2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,19 +50,6 @@ req.typenames: FA_ENTRY, *PFA_ENTRY
 
 
 <b>RxCreateSrvCall</b> builds a SRV_CALL structure and inserts the name into the net name table maintained by RDBSS. 
-
-
-## -syntax
-
-
-````
-PSRV_CALL RxCreateSrvCall(
-  _In_     PRX_CONTEXT       RxContext,
-  _In_     PUNICODE_STRING   Name,
-  _In_opt_ PUNICODE_STRING   InnerNamePrefix,
-  _In_     PRX_CONNECTION_ID RxConnectionId
-);
-````
 
 
 ## -parameters
@@ -119,92 +106,91 @@ Before calling <b>RxCreateSrvCall</b>, a lock on the name table associated with 
 
 ## -see-also
 
-<a href="..\fcb\nf-fcb-rxcreatenetfobx.md">RxCreateNetFobx</a>
 
 
 
-<a href="..\rxprocs\nf-rxprocs-rxsetsrvcalldomainname.md">RxSetSrvCallDomainName</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554751">RX_CONTEXT</a>
 
 
 
-<a href="..\fcb\nf-fcb-rxfinishfcbinitialization.md">RxFinishFcbInitialization</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554356">RxCreateNetFcb</a>
 
 
 
-<a href="..\fcb\nf-fcb-rxfinalizenetfobx.md">RxFinalizeNetFobx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554358">RxCreateNetFobx</a>
 
 
 
-<a href="..\fcb\nf-fcb-rxcreatenetroot.md">RxCreateNetRoot</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554366">RxCreateNetRoot</a>
 
 
 
-<a href="..\rxcontx\ns-rxcontx-_rx_context.md">RX_CONTEXT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554376">RxCreateSrvOpen</a>
 
 
 
-<a href="..\fcb\nf-fcb-rxpreferencenetfcb.md">RxpReferenceNetFcb</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554380">RxCreateVNetRoot</a>
 
 
 
-<a href="..\rxprocs\nf-rxprocs-rxdereference.md">RxDereference</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554388">RxDereference</a>
 
 
 
-<a href="..\fcb\nf-fcb-rxcreatevnetroot.md">RxCreateVNetRoot</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554409">RxFinalizeConnection</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554412">RxFinalizeNetFcb</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554418">RxFinalizeNetFobx</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554421">RxFinalizeNetRoot</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554426">RxFinalizeSrvCall</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554432">RxFinalizeSrvOpen</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554450">RxFinalizeVNetRoot</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554454">RxFinishFcbInitialization</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554463">RxForceFinalizeAllVNetRoots</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554688">RxReference</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554728">RxSetSrvCallDomainName</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554608">RxpDereferenceNetFcb</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554627">RxpReferenceNetFcb</a>
 
 
 
 <a href="https://msdn.microsoft.com/9a3bb194-0289-47f4-a5c8-848d8d82cdd7">The SRV_CALL Structure</a>
-
-
-
-<a href="..\rxprocs\nf-rxprocs-rxforcefinalizeallvnetroots.md">RxForceFinalizeAllVNetRoots</a>
-
-
-
-<a href="..\rxprocs\nf-rxprocs-rxfinalizenetfcb.md">RxFinalizeNetFcb</a>
-
-
-
-<a href="..\fcb\nf-fcb-rxcreatesrvopen.md">RxCreateSrvOpen</a>
-
-
-
-<a href="..\fcb\nf-fcb-rxcreatenetfcb.md">RxCreateNetFcb</a>
-
-
-
-<a href="..\fcb\nf-fcb-rxpdereferencenetfcb.md">RxpDereferenceNetFcb</a>
-
-
-
-<a href="..\fcb\nf-fcb-rxfinalizesrvopen.md">RxFinalizeSrvOpen</a>
-
-
-
-<a href="..\rxprocs\nf-rxprocs-rxfinalizeconnection.md">RxFinalizeConnection</a>
-
-
-
-<a href="..\fcb\nf-fcb-rxfinalizenetroot.md">RxFinalizeNetRoot</a>
-
-
-
-<a href="..\fcb\nf-fcb-rxfinalizesrvcall.md">RxFinalizeSrvCall</a>
-
-
-
-<a href="..\rxprocs\nf-rxprocs-rxreference.md">RxReference</a>
-
-
-
-<a href="..\fcb\nf-fcb-rxfinalizevnetroot.md">RxFinalizeVNetRoot</a>
-
-
-
  
 
  
-
 

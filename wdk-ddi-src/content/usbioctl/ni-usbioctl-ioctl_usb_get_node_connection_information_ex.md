@@ -7,7 +7,7 @@ old-location: buses\ioctl_usb_get_node_connection_information_ex.htm
 old-project: usbref
 ms.assetid: d056dd82-815d-42da-8d2a-490474f68782
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX, IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX control code [Buses], buses.ioctl_usb_get_node_connection_information_ex, usbioctl/IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX, usbirp_61c188b5-2820-4601-b2de-08bf30109824.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -67,22 +67,22 @@ Client drivers must send this IOCTL at an IRQL of PASSIVE_LEVEL.
 
 ### -input-buffer
 
-The <b>AssociatedIrp.SystemBuffer</b> member points to a <a href="..\usbioctl\ns-usbioctl-_usb_node_connection_information_ex.md">USB_NODE_CONNECTION_INFORMATION_EX</a> structure. On input, the <b>ConnectionIndex</b> member of this structure must contain a number greater than or equal to 1 that indicates the number of the port whose connection information is to be reported. The hub driver returns connection information in the remaining members of <b>USB_NODE_CONNECTION_INFORMATION_EX</b>.
+The <b>AssociatedIrp.SystemBuffer</b> member points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540094">USB_NODE_CONNECTION_INFORMATION_EX</a> structure. On input, the <b>ConnectionIndex</b> member of this structure must contain a number greater than or equal to 1 that indicates the number of the port whose connection information is to be reported. The hub driver returns connection information in the remaining members of <b>USB_NODE_CONNECTION_INFORMATION_EX</b>.
 
 
 ### -input-buffer-length
 
-The size of a <a href="..\usbioctl\ns-usbioctl-_usb_node_connection_information_ex.md">USB_NODE_CONNECTION_INFORMATION_EX</a> structure.
+The size of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540094">USB_NODE_CONNECTION_INFORMATION_EX</a> structure.
 
 
 ### -output-buffer
 
-The USB hub driver will return information about the indicated connection in the <a href="..\usbioctl\ns-usbioctl-_usb_node_connection_information_ex.md">USB_NODE_CONNECTION_INFORMATION_EX</a> structure that is pointed to by <b>AssociatedIrp.SystemBuffer</b>.
+The USB hub driver will return information about the indicated connection in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540094">USB_NODE_CONNECTION_INFORMATION_EX</a> structure that is pointed to by <b>AssociatedIrp.SystemBuffer</b>.
 
 
 ### -output-buffer-length
 
-The size of a <a href="..\usbioctl\ns-usbioctl-_usb_node_connection_information_ex.md">USB_NODE_CONNECTION_INFORMATION_EX</a> structure.
+The size of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540094">USB_NODE_CONNECTION_INFORMATION_EX</a> structure.
 
 
 ### -in-out-buffer
@@ -110,16 +110,15 @@ The USB stack sets <b>Irp-&gt;IoStatus.Status</b> to STATUS_SUCCESS if the reque
 
 ## -see-also
 
-<a href="..\usbioctl\ns-usbioctl-_usb_node_connection_information.md">USB_NODE_CONNECTION_INFORMATION</a>
 
 
 
-<a href="..\usbioctl\ns-usbioctl-_usb_node_connection_information_ex.md">USB_NODE_CONNECTION_INFORMATION_EX</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540090">USB_NODE_CONNECTION_INFORMATION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540094">USB_NODE_CONNECTION_INFORMATION_EX</a>
  
 
  
-
 

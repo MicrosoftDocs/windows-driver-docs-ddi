@@ -7,7 +7,7 @@ old-location: kernel\rtlunicodestringcopystring.htm
 old-project: kernel
 ms.assetid: 7b33a311-7f00-4936-b4a9-727f66c12ef0
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: RtlUnicodeStringCopyString, RtlUnicodeStringCopyString function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringcopystring, ntstrsafe/RtlUnicodeStringCopyString, safestrings_6c994257-53af-4692-88a9-41b38ffd6bcd.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,18 +50,7 @@ req.typenames: SYSTEM_POWER_STATE_CONTEXT, *PSYSTEM_POWER_STATE_CONTEXT
 ## -description
 
 
-The <b>RtlUnicodeStringCopyString</b> function copies a string into a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure.
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlUnicodeStringCopyString(
-  _Out_ PUNICODE_STRING  DestinationString,
-  _In_  NTSTRSAFE_PCWSTR pszSrc
-);
-````
+The <b>RtlUnicodeStringCopyString</b> function copies a string into a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure.
 
 
 ## -parameters
@@ -147,7 +136,7 @@ The <b>RtlUnicodeStringCopyString</b> function uses the destination buffer's siz
 
 If the source and destination strings overlap, the behavior of the function is undefined.
 
-The <i>pszSrc</i> and <i>DestinationString</i> pointers cannot be <b>NULL</b>. If you need to handle <b>NULL</b> pointer values, use the <a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringcopystringex.md">RtlUnicodeStringCopyStringEx</a> function.
+The <i>pszSrc</i> and <i>DestinationString</i> pointers cannot be <b>NULL</b>. If you need to handle <b>NULL</b> pointer values, use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562950">RtlUnicodeStringCopyStringEx</a> function.
 
 For more information about the safe string functions, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565508">Using Safe String Functions</a>. 
 
@@ -156,16 +145,15 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringcopystringex.md">RtlUnicodeStringCopyStringEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562950">RtlUnicodeStringCopyStringEx</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
  
 
  
-
 

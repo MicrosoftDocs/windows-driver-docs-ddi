@@ -7,7 +7,7 @@ old-location: ifsk\wof_external_info.htm
 old-project: ifsk
 ms.assetid: 2522CDC6-C23A-4D9C-83BA-389B7D909619
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: "*PWOF_EXTERNAL_INFO, PWOF_EXTERNAL_INFO, PWOF_EXTERNAL_INFO structure pointer [Installable File System Drivers], WOF_EXTERNAL_INFO, WOF_EXTERNAL_INFO structure [Installable File System Drivers], _WOF_EXTERNAL_INFO, ifsk.wof_external_info, ntifs/PWOF_EXTERNAL_INFO, ntifs/WOF_EXTERNAL_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,17 +52,6 @@ req.typenames: WOF_EXTERNAL_INFO, *PWOF_EXTERNAL_INFO
 The <b>WOF_EXTERNAL_INFO</b> structure identifies a file backing provider and  the overlay service version it supports.
 
 
-## -syntax
-
-
-````
-typedef struct _WOF_EXTERNAL_INFO {
-  ULONG Version;
-  ULONG Provider;
-} WOF_EXTERNAL_INFO, *PWOF_EXTERNAL_INFO;
-````
-
-
 ## -struct-fields
 
 
@@ -80,16 +69,15 @@ The identifier of the data source provider. Valid provider identifiers  are WOF_
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_wof_version_info.md">WOF_VERSION_INFO</a>
 
 
 
-<a href="..\ntifs\ns-ntifs-_wof_external_file_id.md">WOF_EXTERNAL_FILE_ID</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt426741">WOF_EXTERNAL_FILE_ID</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt426742">WOF_VERSION_INFO</a>
  
 
  
-
 

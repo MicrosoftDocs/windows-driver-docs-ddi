@@ -55,18 +55,6 @@ req.product: Windows 10 or later.
 The <b>RetrieveDeviceInformation</b> method retrieves device information of the specified type.
 
 
-## -syntax
-
-
-````
-HRESULT RetrieveDeviceInformation(
-  [in]      ULONG InformationType,
-  [in, out] ULONG *BufferLength,
-  [out]     PVOID Buffer
-);
-````
-
-
 ## -parameters
 
 
@@ -161,16 +149,15 @@ For a code example of how to use the<b>RetrieveDeviceInformation</b> method, see
 
 ## -see-also
 
-<a href="..\wudfusb\nn-wudfusb-iwdfusbtargetdevice.md">IWDFUsbTargetDevice</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560362">IWDFUsbTargetDevice</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540290">WinUsb_QueryDeviceInformation</a>
-
-
-
  
 
  
-
 

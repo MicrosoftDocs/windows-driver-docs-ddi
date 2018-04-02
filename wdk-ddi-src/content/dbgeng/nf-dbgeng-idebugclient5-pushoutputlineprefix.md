@@ -7,7 +7,7 @@ old-location: debugger\idebugclient5_pushoutputlineprefix.htm
 old-project: debugger
 ms.assetid: 20446E2D-94D3-43D6-ABBF-2FA15F089659
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: IDebugClient5, IDebugClient5 interface [Windows Debugging], PushOutputLinePrefix method, IDebugClient5::PushOutputLinePrefix, PushOutputLinePrefix method [Windows Debugging], PushOutputLinePrefix method [Windows Debugging], IDebugClient5 interface, PushOutputLinePrefix,IDebugClient5.PushOutputLinePrefix, dbgeng/IDebugClient5::PushOutputLinePrefix, debugger.idebugclient5_pushoutputlineprefix
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,17 +52,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
     Saves an output line prefix.
 
 
-## -syntax
-
-
-````
-HRESULT PushOutputLinePrefix(
-  [in, optional] PCSTR    NewPrefix,
-  [out]          PULONG64 Handle
-);
-````
-
-
 ## -parameters
 
 
@@ -89,12 +78,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550497">IDebugClient5</a>
  
 
  
-
 

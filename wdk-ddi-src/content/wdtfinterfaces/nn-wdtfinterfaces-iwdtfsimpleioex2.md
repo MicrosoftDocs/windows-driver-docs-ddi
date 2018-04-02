@@ -7,7 +7,7 @@ old-location: dtf\iwdtfsimpleioex2.htm
 old-project: dtf
 ms.assetid: a916e6b1-692c-47e9-83cc-3aeae80fb624
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/29/2018
 ms.keywords: IWDTFSimpleIOEx2, IWDTFSimpleIOEx2 interface [Windows Device Testing Framework], IWDTFSimpleIOEx2 interface [Windows Device Testing Framework], described, Microsoft.WDTF.IWDTFSimpleIOEx2, dtf.iwdtfsimpleioex2, wdtfinterfaces/IWDTFSimpleIOEx2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -103,13 +103,13 @@ Performs a small amount of simple I/O to the device.
 
 
 The <b>IWDTFSimpleIOEx2</b> action interface acts on an instance of the 
-<a href="..\wdtf\nn-wdtf-iwdtftarget2.md">IWDTFTarget2</a> interface that is retrieved by querying the 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439367">IWDTFTarget2</a> interface that is retrieved by querying the 
 device depot. You can retrieve a target-specific implementation of an action interface by calling the 
 <a href="https://msdn.microsoft.com/dddd631e-7ccf-4554-9236-b567c5108fe2">IWDTFTarget2::GetInterface</a> method with the 
 desired WDTF <i>ProgID.</i>
 
 For an asynchronous interface for this same underlying functionality, 
-see <a href="..\wdtfinterfaces\nn-wdtfinterfaces-iwdtfsimpleiostressaction2.md">IWDTFSimpleIOStressAction2</a>. 
+see <a href="https://msdn.microsoft.com/library/windows/hardware/hh451157">IWDTFSimpleIOStressAction2</a>. 
 
 The <b>IWDTFSimpleIOEx2</b> action interface is compatible with the following device 
 classes:

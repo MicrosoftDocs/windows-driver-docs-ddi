@@ -7,7 +7,7 @@ old-location: audio\ksnodeproperty_audio_channel.htm
 old-project: audio
 ms.assetid: f76f5552-725b-4d8c-ab29-1f2de7bdc81f
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/19/2018
 ms.keywords: "*PKSNODEPROPERTY_AUDIO_CHANNEL, KSNODEPROPERTY_AUDIO_CHANNEL, KSNODEPROPERTY_AUDIO_CHANNEL structure [Audio Devices], PKSNODEPROPERTY_AUDIO_CHANNEL, PKSNODEPROPERTY_AUDIO_CHANNEL structure pointer [Audio Devices], aud-prop_a804d95b-c793-43c0-9579-af759c3c007f.xml, audio.ksnodeproperty_audio_channel, ksmedia/KSNODEPROPERTY_AUDIO_CHANNEL, ksmedia/PKSNODEPROPERTY_AUDIO_CHANNEL"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,18 +52,6 @@ req.typenames: KSNODEPROPERTY_AUDIO_CHANNEL, *PKSNODEPROPERTY_AUDIO_CHANNEL
 The KSNODEPROPERTY_AUDIO_CHANNEL structure specifies a property of a channel in a node.
 
 
-## -syntax
-
-
-````
-typedef struct {
-  KSNODEPROPERTY NodeProperty;
-  LONG           Channel;
-  ULONG          Reserved;
-} KSNODEPROPERTY_AUDIO_CHANNEL, *PKSNODEPROPERTY_AUDIO_CHANNEL;
-````
-
-
 ## -struct-fields
 
 
@@ -71,7 +59,7 @@ typedef struct {
 
 ### -field NodeProperty
 
-Specifies both the target node and the property to get or set. This member is a structure of type <a href="..\ksmedia\ns-ksmedia-ksnodeproperty.md">KSNODEPROPERTY</a>.
+Specifies both the target node and the property to get or set. This member is a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff537143">KSNODEPROPERTY</a>.
 
 
 ### -field Channel
@@ -88,16 +76,15 @@ Reserved for internal use by operating system. Do not use.
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-ksnodeproperty.md">KSNODEPROPERTY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537143">KSNODEPROPERTY</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh831855">KSPROPERTY_AUDIOENGINE_VOLUMELEVEL</a>
-
-
-
  
 
  
-
 

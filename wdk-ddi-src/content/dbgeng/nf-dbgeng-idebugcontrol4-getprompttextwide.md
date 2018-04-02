@@ -7,7 +7,7 @@ old-location: debugger\getprompttextwide.htm
 old-project: debugger
 ms.assetid: 10d5da82-8fbe-45fa-8051-42f6a1e3adce
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: GetPromptTextWide method [Windows Debugging], GetPromptTextWide method [Windows Debugging], IDebugControl4 interface, GetPromptTextWide,IDebugControl4.GetPromptTextWide, IDebugControl4, IDebugControl4 interface [Windows Debugging], GetPromptTextWide method, IDebugControl4::GetPromptTextWide, dbgeng/IDebugControl4::GetPromptTextWide, debugger.getprompttextwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,18 +50,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetPromptTextWide</b>  method returns the standard prompt text that will be prepended to the formatted output specified in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553227">OutputPrompt</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff553231">OutputPromptVaList</a> methods.
-
-
-## -syntax
-
-
-````
-HRESULT GetPromptTextWide(
-  [out, optional] PWSTR  Buffer,
-  [in]            ULONG  BufferSize,
-  [out, optional] PULONG TextSize
-);
-````
 
 
 ## -parameters
@@ -134,11 +122,10 @@ For more information about prompting the user, see <a href="https://msdn.microso
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553231">OutputPromptVaList</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550526">IDebugControl4</a>
 
 
 
@@ -146,8 +133,8 @@ For more information about prompting the user, see <a href="https://msdn.microso
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553231">OutputPromptVaList</a>
  
 
  
-
 

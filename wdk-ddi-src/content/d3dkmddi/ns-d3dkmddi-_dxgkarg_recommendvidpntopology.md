@@ -7,7 +7,7 @@ old-location: display\dxgkarg_recommendvidpntopology.htm
 old-project: display
 ms.assetid: 9a3efdc8-4534-4de6-89f8-42d94ba8b9a6
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKARG_RECOMMENDVIDPNTOPOLOGY, DXGKARG_RECOMMENDVIDPNTOPOLOGY structure [Display Devices], DmStructs_960673e2-caf0-4f46-9b8c-c1da025fb6bf.xml, _DXGKARG_RECOMMENDVIDPNTOPOLOGY, d3dkmddi/DXGKARG_RECOMMENDVIDPNTOPOLOGY, display.dxgkarg_recommendvidpntopology
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,20 +49,7 @@ req.typenames: DXGKARG_RECOMMENDVIDPNTOPOLOGY
 ## -description
 
 
-The DXGKARG_RECOMMENDVIDPNTOPOLOGY structure contains arguments for the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_recommendvidpntopology.md">DxgkDdiRecommendVidPnTopology</a> function.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGKARG_RECOMMENDVIDPNTOPOLOGY {
-  D3DKMDT_HVIDPN                     hVidPn;
-  D3DDDI_VIDEO_PRESENT_SOURCE_ID     VidPnSourceId;
-  DXGK_RECOMMENDVIDPNTOPOLOGY_REASON RequestReason;
-  D3DKMDT_HVIDPNTOPOLOGY             hFallbackTopology;
-} DXGKARG_RECOMMENDVIDPNTOPOLOGY;
-````
+The DXGKARG_RECOMMENDVIDPNTOPOLOGY structure contains arguments for the display miniport driver's <a href="https://msdn.microsoft.com/a7c31d2c-3893-4d25-837d-d4650aeb1cd1">DxgkDdiRecommendVidPnTopology</a> function.
 
 
 ## -struct-fields
@@ -83,7 +70,7 @@ D3DDDI_ID_ALL or the identifier of a particular video present source on the disp
 ### -field RequestReason
 
 
-      A value from the <a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_recommendvidpntopology_reason.md">DXGK_RECOMMENDVIDPNTOPOLOGY_REASON</a> enumeration that indicates the reason that the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_recommendvidpntopology.md">DxgkDdiRecommendVidPnTopology</a> function is being called.
+      A value from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562023">DXGK_RECOMMENDVIDPNTOPOLOGY_REASON</a> enumeration that indicates the reason that the <a href="https://msdn.microsoft.com/a7c31d2c-3893-4d25-837d-d4650aeb1cd1">DxgkDdiRecommendVidPnTopology</a> function is being called.
      
 
 
@@ -94,16 +81,15 @@ A handle to a VidPN topology object that represents the fallback VidPN topology 
 
 ## -see-also
 
-<a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_recommendvidpntopology_reason.md">DXGK_RECOMMENDVIDPNTOPOLOGY_REASON</a>
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_recommendvidpntopology.md">DxgkDdiRecommendVidPnTopology</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562023">DXGK_RECOMMENDVIDPNTOPOLOGY_REASON</a>
 
 
 
+<a href="https://msdn.microsoft.com/a7c31d2c-3893-4d25-837d-d4650aeb1cd1">DxgkDdiRecommendVidPnTopology</a>
  
 
  
-
 

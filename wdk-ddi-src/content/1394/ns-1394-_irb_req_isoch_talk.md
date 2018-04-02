@@ -52,18 +52,6 @@ req.typenames: IRB_REQ_ISOCH_TALK
 This structure contains the field necessary to carry out a IsochTalk request.
 
 
-## -syntax
-
-
-````
-typedef struct _IRB_REQ_ISOCH_TALK {
-  HANDLE     hResource;
-  ULONG      fulFlags;
-  CYCLE_TIME StartTime;
-} IRB_REQ_ISOCH_TALK;
-````
-
-
 ## -struct-fields
 
 

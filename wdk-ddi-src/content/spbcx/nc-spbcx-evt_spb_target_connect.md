@@ -53,20 +53,6 @@ req.product: Windows 10 or later.
 An SPB controller driver's <i>EvtSpbTargetConnect</i> event callback function opens a connection to a target device on the bus.
 
 
-## -prototype
-
-
-````
-EVT_SPB_TARGET_CONNECT EvtSpbTargetConnect;
-
-NTSTATUS EvtSpbTargetConnect(
-  _In_ WDFDEVICE Controller,
-  _In_ SPBTARGET Target
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -150,11 +136,14 @@ The EVT_SPB_TARGET_CONNECT function type is defined in the Spbcx.h header file. 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450919">SpbDeviceInitialize</a>
 
 
 
 <a href="https://msdn.microsoft.com/02756C35-E76C-42C0-80FA-359CADE224A1">EvtSpbTargetDisconnect</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>
 
 
 
@@ -166,12 +155,8 @@ The EVT_SPB_TARGET_CONNECT function type is defined in the Spbcx.h header file. 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450919">SpbDeviceInitialize</a>
  
 
  
-
 

@@ -52,18 +52,6 @@ req.typenames:
 The _BRB_SCO_CLOSE_CHANNEL structure describes a currently open SCO channel to close.
 
 
-## -syntax
-
-
-````
-struct _BRB_SCO_CLOSE_CHANNEL {
-  BRB_HEADER         Hdr;
-  BTH_ADDR           BtAddress;
-  SCO_CHANNEL_HANDLE ChannelHandle;
-};
-````
-
-
 ## -struct-fields
 
 
@@ -72,7 +60,7 @@ struct _BRB_SCO_CLOSE_CHANNEL {
 ### -field Hdr
 
 A 
-     <a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a> structure that contains information
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536612">BRB_HEADER</a> structure that contains information
      about the current BRB.
 
 
@@ -103,16 +91,15 @@ A <b>BRB_SCO_CLOSE_CHANNEL</b> request can be made for a channel that was initia
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536612">BRB_HEADER</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536622">BRB_SCO_CLOSE_CHANNEL</a>
-
-
-
-<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
-
-
-
  
 
  
-
 

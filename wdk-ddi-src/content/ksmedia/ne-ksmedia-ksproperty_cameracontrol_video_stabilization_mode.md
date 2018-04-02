@@ -52,16 +52,6 @@ req.typenames: KSPROPERTY_CAMERACONTROL_VIDEO_STABILIZATION_MODE
 Used to specify camera video stabilization.
 
 
-## -syntax
-
-
-````
-typedef enum  { 
-  KSPROPERTY_CAMERACONTROL_VIDEO_STABILIZATION_MODE_PROPERTY_ID  = 0
-} KSPROPERTY_CAMERACONTROL_VIDEO_STABILIZATION_MODE;
-````
-
-
 ## -enum-fields
 
 
@@ -74,12 +64,11 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/jj156043">KSPRO
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/jj156043">KSPROPERTY_CAMERACONTROL_VIDEO_STABILIZATION_MODE_PROPERTY</a>
-
-
-
  
 
  
-
 

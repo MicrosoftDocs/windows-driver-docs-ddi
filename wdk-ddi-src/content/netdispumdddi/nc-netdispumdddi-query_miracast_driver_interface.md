@@ -7,7 +7,7 @@ old-location: display\querymiracastdriverinterface.htm
 old-project: display
 ms.assetid: a8833f8c-7e3f-422c-922e-e75476358ee9
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: QUERY_MIRACAST_DRIVER_INTERFACE, QueryMiracastDriverInterface, QueryMiracastDriverInterface callback function [Display Devices], display.query_miracast_driver_interface, display.querymiracastdriverinterface, netdispumdddi/QueryMiracastDriverInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,22 +49,7 @@ req.typenames: NDK_SRQ_DISPATCH
 ## -description
 
 
-Called by the operating system to query the Miracast user-mode driver interface, <a href="..\netdispumdddi\ns-netdispumdddi-_miracast_driver_interface.md">MIRACAST_DRIVER_INTERFACE</a>.
-
-
-## -prototype
-
-
-````
-QUERY_MIRACAST_DRIVER_INTERFACE QueryMiracastDriverInterface;
-
-NTSTATUS QueryMiracastDriverInterface(
-  _In_  UINT MiracastDriverInterfaceVersion,
-  _In_  UINT MiracastDriverInterfaceSize,
-  _Out_ VOID *pMiracastDriverInterface
-)
-{ ... }
-````
+Called by the operating system to query the Miracast user-mode driver interface, <a href="https://msdn.microsoft.com/library/windows/hardware/dn265476">MIRACAST_DRIVER_INTERFACE</a>.
 
 
 ## -parameters
@@ -86,7 +71,7 @@ The size, supplied by the operating system, of the buffer pointed to by <i>pMira
 
 ### -param *pMiracastDriverInterface [out]
 
-A pointer to a buffer, supplied by the operating system, that holds the returned Miracast display driver interface, which is a structure of type <a href="..\netdispumdddi\ns-netdispumdddi-_miracast_driver_interface.md">MIRACAST_DRIVER_INTERFACE</a>.
+A pointer to a buffer, supplied by the operating system, that holds the returned Miracast display driver interface, which is a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/dn265476">MIRACAST_DRIVER_INTERFACE</a>.
 
 
 ## -returns
@@ -111,7 +96,6 @@ When the Miracast user-mode driver is loaded, the operating system calls the <a 
 
 ## -see-also
 
-<a href="..\netdispumdddi\ns-netdispumdddi-_miracast_driver_interface.md">MIRACAST_DRIVER_INTERFACE</a>
 
 
 
@@ -119,8 +103,8 @@ When the Miracast user-mode driver is loaded, the operating system calls the <a 
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265476">MIRACAST_DRIVER_INTERFACE</a>
  
 
  
-
 

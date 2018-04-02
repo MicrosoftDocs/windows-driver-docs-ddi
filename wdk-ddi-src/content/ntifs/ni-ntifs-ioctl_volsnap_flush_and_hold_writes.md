@@ -7,7 +7,7 @@ old-location: ifsk\ioctl_volsnap_flush_and_hold_writes.htm
 old-project: ifsk
 ms.assetid: c9189ca4-8b0e-470b-b027-f629ed243534
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_VOLSNAP_FLUSH_AND_HOLD_WRITES, IOCTL_VOLSNAP_FLUSH_AND_HOLD_WRITES control code [Installable File System Drivers], ifsk.ioctl_volsnap_flush_and_hold_writes, ioctl_ref_f21aed38-5d6d-4b8c-ac8a-6cd1738a3de7.xml, ntifs/IOCTL_VOLSNAP_FLUSH_AND_HOLD_WRITES
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -153,12 +153,11 @@ If this is a read-only volume, then there is normally nothing that a file system
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548649">IRP_MJ_DEVICE_CONTROL</a>
-
-
-
  
 
  
-
 

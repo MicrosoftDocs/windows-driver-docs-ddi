@@ -7,7 +7,7 @@ old-location: kernel\rtlulongtointptr.htm
 old-project: kernel
 ms.assetid: EEAA1C05-BB93-4D8A-9AD6-6F109BBE4FE0
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: RtlULongToIntPtr, RtlULongToIntPtr function [Kernel-Mode Driver Architecture], kernel.rtlulongtointptr, ntintsafe/RtlULongToIntPtr
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,17 +50,6 @@ req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 
 
 Converts a value of type <b>ULONG</b> to a value of type <b>INT_PTR</b>.
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlULongToIntPtr(
-  _In_  ULONG   ulOperand,
-  _Out_ INT_PTR *piResult
-);
-````
 
 
 ## -parameters

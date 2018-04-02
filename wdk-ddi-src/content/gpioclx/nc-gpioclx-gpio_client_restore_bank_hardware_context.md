@@ -52,20 +52,6 @@ req.typenames: GNSS_V2UPL_NI_INFO, *PGNSS_V2UPL_NI_INFO
 The <i>CLIENT_RestoreBankHardwareContext</i> event callback function restores the hardware context of a bank of general-purpose I/O (GPIO) pins.
 
 
-## -prototype
-
-
-````
-GPIO_CLIENT_RESTORE_BANK_HARDWARE_CONTEXT CLIENT_RestoreBankHardwareContext;
-
-NTSTATUS CLIENT_RestoreBankHardwareContext(
-  _In_ PVOID                                               Context,
-  _In_ PGPIO_SAVE_RESTORE_BANK_HARDWARE_CONTEXT_PARAMETERS Parameters
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -147,6 +133,13 @@ The GPIO_CLIENT_RESTORE_BANK_HARDWARE_CONTEXT function type is defined in the Gp
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
 
 
@@ -155,15 +148,7 @@ The GPIO_CLIENT_RESTORE_BANK_HARDWARE_CONTEXT function type is defined in the Gp
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh698257">GPIO_SAVE_RESTORE_BANK_HARDWARE_CONTEXT_PARAMETERS</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439479">GPIO_CLIENT_REGISTRATION_PACKET</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
 
 
 
@@ -171,8 +156,8 @@ The GPIO_CLIENT_RESTORE_BANK_HARDWARE_CONTEXT function type is defined in the Gp
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh698257">GPIO_SAVE_RESTORE_BANK_HARDWARE_CONTEXT_PARAMETERS</a>
  
 
  
-
 

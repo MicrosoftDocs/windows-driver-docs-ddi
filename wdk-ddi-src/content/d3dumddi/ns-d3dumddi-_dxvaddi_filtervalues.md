@@ -7,7 +7,7 @@ old-location: display\dxvaddi_filtervalues.htm
 old-project: display
 ms.assetid: 45273541-0638-4e8e-b6b7-5183b481ccc4
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXVA2_Structs_1425eb3e-586d-4777-be61-8a73148286d4.xml, DXVADDI_FILTERVALUES, DXVADDI_FILTERVALUES structure [Display Devices], _DXVADDI_FILTERVALUES, d3dumddi/DXVADDI_FILTERVALUES, display.dxvaddi_filtervalues
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,18 +52,6 @@ req.typenames: DXVADDI_FILTERVALUES
 The DXVADDI_FILTERVALUES structure describes values that are related to a filter.
 
 
-## -syntax
-
-
-````
-typedef struct _DXVADDI_FILTERVALUES {
-  DXVADDI_FIXED32 Level;
-  DXVADDI_FIXED32 Threshold;
-  DXVADDI_FIXED32 Radius;
-} DXVADDI_FILTERVALUES;
-````
-
-
 ## -struct-fields
 
 
@@ -71,27 +59,26 @@ typedef struct _DXVADDI_FILTERVALUES {
 
 ### -field Level
 
-[in] A <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_fixed32.md">DXVADDI_FIXED32</a> structure that specifies the level of the filter.
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff562909">DXVADDI_FIXED32</a> structure that specifies the level of the filter.
 
 
 ### -field Threshold
 
-[in] A <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_fixed32.md">DXVADDI_FIXED32</a> structure that specifies the threshold of the filter.
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff562909">DXVADDI_FIXED32</a> structure that specifies the threshold of the filter.
 
 
 ### -field Radius
 
-[in] A <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_fixed32.md">DXVADDI_FIXED32</a> structure that specifies the radius of the filter.
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff562909">DXVADDI_FIXED32</a> structure that specifies the radius of the filter.
 
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_videoprocessblt.md">D3DDDIARG_VIDEOPROCESSBLT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544102">D3DDDIARG_VIDEOPROCESSBLT</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: storage\storportallocatemdl.htm
 old-project: storage
 ms.assetid: 45450486-3264-4fc8-8051-f7c48997e3dd
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: StorPortAllocateMdl, StorPortAllocateMdl routine [Storage Devices], storage.storportallocatemdl, storport/StorPortAllocateMdl, storprt_d80c510f-4cc4-4687-ab5b-9b9b5cf399ce.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,19 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>StorPortAllocateMdl</b> routine allocates an MDL to describe the given non-paged pool memory.
-
-
-## -syntax
-
-
-````
-ULONG StorPortAllocateMdl(
-  _In_  PVOID HwDeviceExtension,
-  _In_  PVOID BufferPointer,
-  _In_  ULONG NumberOfBytes,
-  _Out_ PVOID *Mdl
-);
-````
 
 
 ## -parameters
@@ -169,7 +156,7 @@ Unable to allocate MDL to describe the given buffer.
 
 
 
-A miniport driver calls the <b>StorPortAllocateMdl</b> routine to allocate an MDL to describe a block of memory from the non-paged pool. To free the MDL, the miniport driver calls the <a href="..\storport\nf-storport-storportfreepool.md">StorPortFreeMdl</a> routine.
+A miniport driver calls the <b>StorPortAllocateMdl</b> routine to allocate an MDL to describe a block of memory from the non-paged pool. To free the MDL, the miniport driver calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567063">StorPortFreeMdl</a> routine.
 
 
 

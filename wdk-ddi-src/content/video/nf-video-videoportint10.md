@@ -7,7 +7,7 @@ old-location: display\videoportint10.htm
 old-project: display
 ms.assetid: 5743d84c-6132-4058-b517-250b5de9a6b5
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: VideoPortInt10, VideoPortInt10 function [Display Devices], VideoPort_Functions_681fc4cc-f8f5-4d26-b3eb-8f4098339470.xml, display.videoportint10, video/VideoPortInt10
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The <b>VideoPortInt10</b> function performs the equivalent of an MS-DOS INT10 operation, such as setting the video mode. <b>VideoPortInt10</b> runs the BIOS ROM code on the device.
 
 
-## -syntax
-
-
-````
-VP_STATUS VideoPortInt10(
-   PVOID                     HwDeviceExtension,
-   PVIDEO_X86_BIOS_ARGUMENTS BiosArguments
-);
-````
-
-
 ## -parameters
 
 
@@ -76,7 +65,7 @@ Pointer to the miniport driver's device extension.
 
 ### -param BiosArguments
 
-Pointer to a structure containing values for the x86 registers that should be set before making the BIOS call. The miniport driver should set any unused registers to zero. All values set up in the <a href="..\video\ns-video-_video_x86_bios_arguments.md">VIDEO_x86_BIOS_ARGUMENTS</a> structure are interpreted as immediate values.
+Pointer to a structure containing values for the x86 registers that should be set before making the BIOS call. The miniport driver should set any unused registers to zero. All values set up in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff570553">VIDEO_x86_BIOS_ARGUMENTS</a> structure are interpreted as immediate values.
 
 
 ## -returns
@@ -92,7 +81,7 @@ Pointer to a structure containing values for the x86 registers that should be se
 
 
 
-Generally, VGA-compatible miniport drivers, which support full-screen MS-DOS applications on x86-based machines, call <b>VideoPortInt10</b>. Such a driver's <a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a> function must have set up the <b>VdmPhysicalVideoMemoryAddress</b> and <b>VdmPhysicalVideoMemoryLength</b> for the range in the <a href="..\video\ns-video-_video_port_config_info.md">VIDEO_PORT_CONFIG_INFO</a> structure.
+Generally, VGA-compatible miniport drivers, which support full-screen MS-DOS applications on x86-based machines, call <b>VideoPortInt10</b>. Such a driver's <a href="https://msdn.microsoft.com/8c880eff-4b4c-439e-9239-f2343c1fe084">HwVidFindAdapter</a> function must have set up the <b>VdmPhysicalVideoMemoryAddress</b> and <b>VdmPhysicalVideoMemoryLength</b> for the range in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff570531">VIDEO_PORT_CONFIG_INFO</a> structure.
 
 However, other video miniport drivers also can call this function.
 
@@ -103,24 +92,23 @@ Because <b>VideoPortInt10</b> interprets the <i>BiosArgument</i> parameter value
 
 ## -see-also
 
-<a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
 
 
 
-<a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
+<a href="https://msdn.microsoft.com/8c880eff-4b4c-439e-9239-f2343c1fe084">HwVidFindAdapter</a>
 
 
 
-<a href="..\video\ns-video-_video_x86_bios_arguments.md">VIDEO_x86_BIOS_ARGUMENTS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570531">VIDEO_PORT_CONFIG_INFO</a>
 
 
 
-<a href="..\video\ns-video-_video_port_config_info.md">VIDEO_PORT_CONFIG_INFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570553">VIDEO_x86_BIOS_ARGUMENTS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570310">VideoPortGetDeviceBase</a>
  
 
  
-
 

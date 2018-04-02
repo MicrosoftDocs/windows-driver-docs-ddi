@@ -7,7 +7,7 @@ old-location: display\d3dwddm1_3ddi_tiled_resource_coordinate.htm
 old-project: display
 ms.assetid: A927CAF9-EF7F-47CC-9BDE-B6E13597368E
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DWDDM1_3DDI_TILED_RESOURCE_COORDINATE, D3DWDDM1_3DDI_TILED_RESOURCE_COORDINATE structure [Display Devices], d3d10umddi/D3DWDDM1_3DDI_TILED_RESOURCE_COORDINATE, display.d3dwddm1_3ddi_tiled_resource_coordinate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,19 +50,6 @@ req.typenames: D3DWDDM1_3DDI_TILED_RESOURCE_COORDINATE
 
 
 Specifies the (<i>x</i>, <i>y</i>, <i>z</i>) coordinate values below the index tiles  of a tiled resource, along with the respective subresource. Note that the coordinate values do not indicate pixels or bytes.
-
-
-## -syntax
-
-
-````
-typedef struct D3DWDDM1_3DDI_TILED_RESOURCE_COORDINATE {
-  UINT X;
-  UINT Y;
-  UINT Z;
-  UINT Subresource;
-} D3DWDDM1_3DDI_TILED_RESOURCE_COORDINATE;
-````
 
 
 ## -struct-fields

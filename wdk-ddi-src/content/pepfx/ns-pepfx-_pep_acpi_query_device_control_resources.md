@@ -7,7 +7,7 @@ old-location: kernel\pep_acpi_query_device_control_resources.htm
 old-project: kernel
 ms.assetid: 7DBDC5A7-1BF4-41B6-A72E-1B53CAC06823
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*PPEP_ACPI_QUERY_DEVICE_CONTROL_RESOURCES, PEP_ACPI_QUERY_DEVICE_CONTROL_RESOURCES, PEP_ACPI_QUERY_DEVICE_CONTROL_RESOURCES structure [Kernel-Mode Driver Architecture], _PEP_ACPI_QUERY_DEVICE_CONTROL_RESOURCES, kernel.pep_acpi_query_device_control_resources, pepfx/PEP_ACPI_QUERY_DEVICE_CONTROL_RESOURCES"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,20 +51,6 @@ req.typenames: PEP_ACPI_QUERY_DEVICE_CONTROL_RESOURCES, *PPEP_ACPI_QUERY_DEVICE_
 The <b>PEP_ACPI_QUERY_DEVICE_CONTROL_RESOURCES</b> structure contains a list of raw  resources that are needed to control power to the device.
 
 
-## -syntax
-
-
-````
-struct PEP_ACPI_QUERY_DEVICE_CONTROL_RESOURCES {
-  PEPHANDLE            DeviceHandle;
-  ULONG                RequestFlags;
-  NTSTATUS             Status;
-  SIZE_T               BiosResourcesSize;
-  ACPI_METHOD_ARGUMENT BiosResources;
-};
-````
-
-
 ## -struct-fields
 
 
@@ -94,7 +80,7 @@ If this buffer is not large enough to contain the <b>ACPI_METHOD_ARGUMENT</b> st
 
 ### -field BiosResources
 
-[in] An output buffer to which the PEP writes an <a href="..\acpiioct\ns-acpiioct-_acpi_method_argument_v1.md">ACPI_METHOD_ARGUMENT</a> structure that contains the requested resource list. The <b>Data</b> member of this structure is the first member in an array that might extend past the end of the structure. The buffer size specified by <b>BiosResourcesSize</b> includes both the <b>ACPI_METHOD_ARGUMENT</b> structure and any <b>Data</b> array elements that follow this structure. For more information, see TBD.
+[in] An output buffer to which the PEP writes an <a href="https://msdn.microsoft.com/library/windows/hardware/ff536125">ACPI_METHOD_ARGUMENT</a> structure that contains the requested resource list. The <b>Data</b> member of this structure is the first member in an array that might extend past the end of the structure. The buffer size specified by <b>BiosResourcesSize</b> includes both the <b>ACPI_METHOD_ARGUMENT</b> structure and any <b>Data</b> array elements that follow this structure. For more information, see TBD.
 
 
 ## -remarks
@@ -110,7 +96,10 @@ If the input value specified in the <b>BiosResourcesSize</b> member is less than
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186689">PEP_NOTIFY_ACPI_REGISTER_DEVICE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536125">ACPI_METHOD_ARGUMENT</a>
 
 
 
@@ -118,12 +107,8 @@ If the input value specified in the <b>BiosResourcesSize</b> member is less than
 
 
 
-<a href="..\acpiioct\ns-acpiioct-_acpi_method_argument_v1.md">ACPI_METHOD_ARGUMENT</a>
-
-
-
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186689">PEP_NOTIFY_ACPI_REGISTER_DEVICE</a>
  
 
  
-
 

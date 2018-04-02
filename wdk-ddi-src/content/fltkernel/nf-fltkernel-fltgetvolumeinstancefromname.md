@@ -7,7 +7,7 @@ old-location: ifsk\fltgetvolumeinstancefromname.htm
 old-project: ifsk
 ms.assetid: 25455faa-2197-4b2a-bce8-db9764153e51
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FltApiRef_e_to_o_78e7987d-7f24-4c51-b263-502005595c6d.xml, FltGetVolumeInstanceFromName, FltGetVolumeInstanceFromName routine [Installable File System Drivers], fltkernel/FltGetVolumeInstanceFromName, ifsk.fltgetvolumeinstancefromname
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,19 +52,6 @@ req.typenames: EXpsFontRestriction
 The <b>FltGetVolumeInstanceFromName</b> routine returns an opaque instance pointer for the given minifilter driver instance on the given volume. 
 
 
-## -syntax
-
-
-````
-NTSTATUS FltGetVolumeInstanceFromName(
-  _In_opt_ PFLT_FILTER      Filter,
-  _In_     PFLT_VOLUME      Volume,
-  _In_opt_ PCUNICODE_STRING InstanceName,
-  _Out_    PFLT_INSTANCE    *RetInstance
-);
-````
-
-
 ## -parameters
 
 
@@ -82,7 +69,7 @@ Opaque pointer for the volume that the instance is attached to. Must be a valid 
 
 ### -param InstanceName [in, optional]
 
-Pointer to a caller-allocated <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that contains the instance name for the instance on the volume. (This is the <i>InstanceName</i> value that was passed to <a href="..\fltkernel\nf-fltkernel-fltattachvolume.md">FltAttachVolume</a> or <a href="..\fltkernel\nf-fltkernel-fltattachvolumeataltitude.md">FltAttachVolumeAtAltitude</a> when the instance was created.) This parameter is optional and can be <b>NULL</b>. If it is <b>NULL</b>, <b>FltGetVolumeInstanceFromName</b> returns the highest matching instance that is found. 
+Pointer to a caller-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure that contains the instance name for the instance on the volume. (This is the <i>InstanceName</i> value that was passed to <a href="https://msdn.microsoft.com/library/windows/hardware/ff541772">FltAttachVolume</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff541775">FltAttachVolumeAtAltitude</a> when the instance was created.) This parameter is optional and can be <b>NULL</b>. If it is <b>NULL</b>, <b>FltGetVolumeInstanceFromName</b> returns the highest matching instance that is found. 
 
 
 ### -param RetInstance [out]
@@ -141,31 +128,30 @@ Altitude is specified by an <i>altitude string</i>, which is a counted Unicode s
 
 The string "03333" represents a higher altitude than "100.123456". (Leading and trailing zeros are ignored.) In other words, an instance whose altitude is "03333" is farther from the base file system than an instance whose altitude is "100.123456". However, this comparison is only meaningful if both instances are attached to the same volume. 
 
-<b>FltGetVolumeInstanceFromName</b> adds a rundown reference to the opaque instance pointer returned in the <i>RetInstance</i> parameter. When this pointer is no longer needed, the caller must release it by calling <a href="..\fltkernel\nf-fltkernel-fltobjectdereference.md">FltObjectDereference</a>. Thus every successful call to <b>FltGetVolumeInstanceFromName</b> must be matched by a subsequent call to <b>FltObjectDereference</b>. 
+<b>FltGetVolumeInstanceFromName</b> adds a rundown reference to the opaque instance pointer returned in the <i>RetInstance</i> parameter. When this pointer is no longer needed, the caller must release it by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff543378">FltObjectDereference</a>. Thus every successful call to <b>FltGetVolumeInstanceFromName</b> must be matched by a subsequent call to <b>FltObjectDereference</b>. 
 
 
 
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltattachvolume.md">FltAttachVolume</a>
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541772">FltAttachVolume</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltobjectdereference.md">FltObjectDereference</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541775">FltAttachVolumeAtAltitude</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltattachvolumeataltitude.md">FltAttachVolumeAtAltitude</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543378">FltObjectDereference</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
  
 
  
-
 

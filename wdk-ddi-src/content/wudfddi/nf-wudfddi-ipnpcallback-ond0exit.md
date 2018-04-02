@@ -55,17 +55,6 @@ req.product: Windows 10 or later.
 The <b>OnD0Exit</b> method notifies a driver when a device exits the D0 power state so that the driver can perform necessary operations,  such as disabling the device. 
 
 
-## -syntax
-
-
-````
-HRESULT OnD0Exit(
-  [in] IWDFDevice             *pWdfDevice,
-  [in] WDF_POWER_DEVICE_STATE newState
-);
-````
-
-
 ## -parameters
 
 
@@ -73,12 +62,12 @@ HRESULT OnD0Exit(
 
 ### -param pWdfDevice [in]
 
-A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a> interface for the device object of the device that exits the D0 power state.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556917">IWDFDevice</a> interface for the device object of the device that exits the D0 power state.
 
 
 ### -param newState [in]
 
-A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_power_device_state.md">WDF_POWER_DEVICE_STATE</a>-typed value that identifies the new power state that the device is set to after it exits the D0 power state.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff552421">WDF_POWER_DEVICE_STATE</a>-typed value that identifies the new power state that the device is set to after it exits the D0 power state.
 
 
 ## -returns
@@ -95,31 +84,30 @@ If the
 
 
 
-A driver registers the <a href="..\wudfddi\nn-wudfddi-ipnpcallback.md">IPnpCallback</a> interface when it calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a> method to create a device object. 
+A driver registers the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556762">IPnpCallback</a> interface when it calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a> method to create a device object. 
 
 
 
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556762">IPnpCallback</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556917">IWDFDevice</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>
 
 
 
-<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_power_device_state.md">WDF_POWER_DEVICE_STATE</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-ipnpcallback.md">IPnpCallback</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552421">WDF_POWER_DEVICE_STATE</a>
  
 
  
-
 

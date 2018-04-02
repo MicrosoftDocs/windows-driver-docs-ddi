@@ -7,7 +7,7 @@ old-location: audio\drmrights.htm
 old-project: audio
 ms.assetid: 890f996c-9216-4148-b198-538963101c2a
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/19/2018
 ms.keywords: "*PDRMRIGHTS, DRMRIGHTS, DRMRIGHTS structure [Audio Devices], PDRMRIGHTS, PDRMRIGHTS structure pointer [Audio Devices], aud-prop_75bfd78f-d56f-4e12-ba99-c4b5904b4da2.xml, audio.drmrights, drmk/DRMRIGHTS, drmk/PDRMRIGHTS, tagDRMRIGHTS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,18 +51,6 @@ req.typenames: DRMRIGHTS, *PDRMRIGHTS
 
 The <b>DRMRIGHTS</b> structure specifies the DRM content rights 
    assigned to a KS audio pin or to a port-class driver's stream object.
-
-
-## -syntax
-
-
-````
-typedef struct tagDRMRIGHTS {
-  BOOL  CopyProtect;
-  ULONG Reserved;
-  BOOL  DigitalOutputDisable;
-} DRMRIGHTS, *PDRMRIGHTS;
-````
 
 
 ## -struct-fields
@@ -266,32 +254,31 @@ This macro does not return a value.
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536348">DrmCreateContentMixed</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536349">DrmDestroyContent</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536352">DrmForwardContentToFileObject</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536353">DrmForwardContentToInterface</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536354">DrmGetContentRights</a>
+
+
+
 <a href="http://go.microsoft.com/fwlink/p/?linkid=158256">IEC 60958</a>
-
-
-
-<a href="..\drmk\nf-drmk-drmcreatecontentmixed.md">DrmCreateContentMixed</a>
-
-
-
-<a href="..\drmk\nf-drmk-drmforwardcontenttointerface.md">DrmForwardContentToInterface</a>
-
-
-
-<a href="..\drmk\nf-drmk-drmdestroycontent.md">DrmDestroyContent</a>
-
-
-
-<a href="..\drmk\nf-drmk-drmgetcontentrights.md">DrmGetContentRights</a>
-
-
-
-<a href="..\drmk\nf-drmk-drmforwardcontenttofileobject.md">DrmForwardContentToFileObject</a>
-
-
-
  
 
  
-
 

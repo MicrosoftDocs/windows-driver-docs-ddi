@@ -7,7 +7,7 @@ old-location: storage\set_band_security_parameters.htm
 old-project: storage
 ms.assetid: D1703D6F-A453-4E3E-8705-344469D61412
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSET_BAND_SECURITY_PARAMETERS, PSET_BAND_SECURITY_PARAMETERS, PSET_BAND_SECURITY_PARAMETERS structure pointer [Storage Devices], SETBANDSEC_AUTHKEY_CACHING_ENABLED, SET_BAND_SECURITY_PARAMETERS, SET_BAND_SECURITY_PARAMETERS structure [Storage Devices], _SET_BAND_SECURITY_PARAMETERS, ehstorbandmgmt/PSET_BAND_SECURITY_PARAMETERS, ehstorbandmgmt/SET_BAND_SECURITY_PARAMETERS, storage.set_band_security_parameters"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,23 +49,7 @@ req.typenames: SET_BAND_SECURITY_PARAMETERS, *PSET_BAND_SECURITY_PARAMETERS
 ## -description
 
 
-The parameters to set security properties for a band on a storage device for a <a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_set_band_security.md">IOCTL_EHSTOR_BANDMGMT_SET_BAND_SECURITY</a> request are specified in a <b>SET_BAND_SECURITY_PARAMETERS</b> structure.
-
-
-## -syntax
-
-
-````
-typedef struct _SET_BAND_SECURITY_PARAMETERS {
-  ULONG         StructSize;
-  ULONG         Flags;
-  ULONG         BandId;
-  LARGE_INTEGER BandStart;
-  ULONG         CurrentAuthKeyOffset;
-  ULONG         NewAuthKeyOffset;
-                BandSecurityInfoOffset;
-} SET_BAND_SECURITY_PARAMETERS, *PSET_BAND_SECURITY_PARAMETERS;
-````
+The parameters to set security properties for a band on a storage device for a <a href="https://msdn.microsoft.com/library/windows/hardware/hh451405">IOCTL_EHSTOR_BANDMGMT_SET_BAND_SECURITY</a> request are specified in a <b>SET_BAND_SECURITY_PARAMETERS</b> structure.
 
 
 ## -struct-fields
@@ -188,40 +172,39 @@ To assign a default authentication key to the band, set   <b>AuthKeyOffset</b> =
 
 ### -field BandSecurityInfoOffset
 
-The offset, in bytes, of a <a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_security_info.md">BAND_SECURITY_INFO</a> structure. The offset is from the beginning of <b>SET_BAND_SECURITY_PARAMETERS</b>.
+The offset, in bytes, of a <a href="https://msdn.microsoft.com/library/windows/hardware/hh439568">BAND_SECURITY_INFO</a> structure. The offset is from the beginning of <b>SET_BAND_SECURITY_PARAMETERS</b>.
 
 
 ## -remarks
 
 
 
- Precedence is given to <b>BandID</b> for band selection.  If <b>BandID</b>  is greater than   0 and  <b>BandID</b>  is less than the  <b>MaxBandCount</b> member of <a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_management_capabilities.md">BAND_MANAGEMENT_CAPABILITIES</a>, then   <b>BandID</b> is used as the only selection criteria for a band match. If  <b>BandID</b> == –1, then <b>BandStart</b> is used as  the match criteria to select a band. If no band matches either selection criteria, then STATUS_INVALID_PARAMETER is returned in the <i>IoStatus</i> block for <a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_set_band_security.md">IOCTL_EHSTOR_BANDMGMT_SET_BAND_SECURITY</a>.
+ Precedence is given to <b>BandID</b> for band selection.  If <b>BandID</b>  is greater than   0 and  <b>BandID</b>  is less than the  <b>MaxBandCount</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/hh439563">BAND_MANAGEMENT_CAPABILITIES</a>, then   <b>BandID</b> is used as the only selection criteria for a band match. If  <b>BandID</b> == –1, then <b>BandStart</b> is used as  the match criteria to select a band. If no band matches either selection criteria, then STATUS_INVALID_PARAMETER is returned in the <i>IoStatus</i> block for <a href="https://msdn.microsoft.com/library/windows/hardware/hh451405">IOCTL_EHSTOR_BANDMGMT_SET_BAND_SECURITY</a>.
 
-If <b>BandID</b> and <b>BandStart</b> are both set to –1,  then the <a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_set_band_security.md">IOCTL_EHSTOR_BANDMGMT_SET_BAND_SECURITY</a> request will change the properties of the global band.
+If <b>BandID</b> and <b>BandStart</b> are both set to –1,  then the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451405">IOCTL_EHSTOR_BANDMGMT_SET_BAND_SECURITY</a> request will change the properties of the global band.
 
-<b>NewAuthKeyOffset</b> and <b>BandSecurityInfoOffset</b> are optional depending on the requirements of the operation. If only the authentication key is changed, then <b>NewAuthKeyOffset</b> is set to the location of the <b>AUTH_KEY</b> structure for the new key and <b>BandSecurityInfoOffset</b> is set to zero. Similarly, if only security properties are changed, <b>BandSecurityInfoOffset</b> is set to the location of <a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_security_info.md">BAND_SECURITY_INFO</a> and <b>NewAuthKeyOffset</b> is set to 0.
+<b>NewAuthKeyOffset</b> and <b>BandSecurityInfoOffset</b> are optional depending on the requirements of the operation. If only the authentication key is changed, then <b>NewAuthKeyOffset</b> is set to the location of the <b>AUTH_KEY</b> structure for the new key and <b>BandSecurityInfoOffset</b> is set to zero. Similarly, if only security properties are changed, <b>BandSecurityInfoOffset</b> is set to the location of <a href="https://msdn.microsoft.com/library/windows/hardware/hh439568">BAND_SECURITY_INFO</a> and <b>NewAuthKeyOffset</b> is set to 0.
 
-The <b>CryptoAlgoIdType</b> and <b>CryptoAlgoOidString</b> members of the <a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_security_info.md">BAND_SECURITY_INFO</a> structure at <b>BandSecurityInfoOffset</b> are not used in a band creation request and must be set to 0.
+The <b>CryptoAlgoIdType</b> and <b>CryptoAlgoOidString</b> members of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439568">BAND_SECURITY_INFO</a> structure at <b>BandSecurityInfoOffset</b> are not used in a band creation request and must be set to 0.
 
 
 
 
 ## -see-also
 
-<a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_set_band_location.md">IOCTL_EHSTOR_BANDMGMT_SET_BAND_LOCATION</a>
 
 
 
-<a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_location_info.md">BAND_LOCATION_INFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439557">BAND_LOCATION_INFO</a>
 
 
 
-<a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_management_capabilities.md">BAND_MANAGEMENT_CAPABILITIES</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439563">BAND_MANAGEMENT_CAPABILITIES</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451397">IOCTL_EHSTOR_BANDMGMT_SET_BAND_LOCATION</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: buses\ucmtcpci_port_controller_displayport_pin_assignment.htm
 old-project: usbref
 ms.assetid: D5FC1963-4D68-4138-957B-3F39207C6D57
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_PIN_ASSIGNMENT, UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_PIN_ASSIGNMENT enumeration [Buses], UcmTcpciPortControllerDFPDPinAssignmentA, UcmTcpciPortControllerDFPDPinAssignmentB, UcmTcpciPortControllerDFPDPinAssignmentC, UcmTcpciPortControllerDFPDPinAssignmentD, UcmTcpciPortControllerDFPDPinAssignmentE, UcmTcpciPortControllerDFPDPinAssignmentF, UcmTcpciPortControllerPinAssignmentInvalid, UcmTcpciPortControllerUFPDPinAssignmentA, UcmTcpciPortControllerUFPDPinAssignmentB, UcmTcpciPortControllerUFPDPinAssignmentC, UcmTcpciPortControllerUFPDPinAssignmentD, UcmTcpciPortControllerUFPDPinAssignmentE, _UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_PIN_ASSIGNMENT, buses.ucmtcpci_port_controller_displayport_pin_assignment, ucmtcpciportcontrollerrequests/UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_PIN_ASSIGNMENT, ucmtcpciportcontrollerrequests/UcmTcpciPortControllerDFPDPinAssignmentA, ucmtcpciportcontrollerrequests/UcmTcpciPortControllerDFPDPinAssignmentB, ucmtcpciportcontrollerrequests/UcmTcpciPortControllerDFPDPinAssignmentC, ucmtcpciportcontrollerrequests/UcmTcpciPortControllerDFPDPinAssignmentD, ucmtcpciportcontrollerrequests/UcmTcpciPortControllerDFPDPinAssignmentE, ucmtcpciportcontrollerrequests/UcmTcpciPortControllerDFPDPinAssignmentF, ucmtcpciportcontrollerrequests/UcmTcpciPortControllerPinAssignmentInvalid, ucmtcpciportcontrollerrequests/UcmTcpciPortControllerUFPDPinAssignmentA, ucmtcpciportcontrollerrequests/UcmTcpciPortControllerUFPDPinAssignmentB, ucmtcpciportcontrollerrequests/UcmTcpciPortControllerUFPDPinAssignmentC, ucmtcpciportcontrollerrequests/UcmTcpciPortControllerUFPDPinAssignmentD, ucmtcpciportcontrollerrequests/UcmTcpciPortControllerUFPDPinAssignmentE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,27 +50,6 @@ req.product: Windows 10 or later.
 
 
 TBD
-
-
-## -syntax
-
-
-````
-typedef enum _UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_PIN_ASSIGNMENT { 
-  UcmTcpciPortControllerPinAssignmentInvalid  = 0x0,
-  UcmTcpciPortControllerDFPDPinAssignmentA    = ,
-  UcmTcpciPortControllerDFPDPinAssignmentB    = ,
-  UcmTcpciPortControllerDFPDPinAssignmentC    = ,
-  UcmTcpciPortControllerDFPDPinAssignmentD    = ,
-  UcmTcpciPortControllerDFPDPinAssignmentE    = ,
-  UcmTcpciPortControllerDFPDPinAssignmentF    = ,
-  UcmTcpciPortControllerUFPDPinAssignmentA    = ,
-  UcmTcpciPortControllerUFPDPinAssignmentB    = ,
-  UcmTcpciPortControllerUFPDPinAssignmentC    = ,
-  UcmTcpciPortControllerUFPDPinAssignmentD    = ,
-  UcmTcpciPortControllerUFPDPinAssignmentE    = 
-} UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_PIN_ASSIGNMENT;
-````
 
 
 ## -enum-fields

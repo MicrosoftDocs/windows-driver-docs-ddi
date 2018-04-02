@@ -7,7 +7,7 @@ old-location: storage\cdrom_toc.htm
 old-project: storage
 ms.assetid: 84312199-5055-41a1-9aa2-4ee91a15d5bf
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PCDROM_TOC, CDROM_TOC, CDROM_TOC structure [Storage Devices], PCDROM_TOC, PCDROM_TOC structure pointer [Storage Devices], _CDROM_TOC, ntddcdrm/CDROM_TOC, ntddcdrm/PCDROM_TOC, storage.cdrom_toc, structs-CD-ROM_943f0104-ee61-4f40-a1a1-8392a15f3fd1.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -49,20 +49,7 @@ req.typenames: CDROM_TOC, *PCDROM_TOC
 ## -description
 
 
-Device control IRPs with a control code of <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_read_toc_ex.md">IOCTL_CDROM_READ_TOC_EX</a> and a format of CDROM_READ_TOC_EX_FORMAT_TOC return their output data in this structure followed by a series of <a href="..\ntddcdrm\ns-ntddcdrm-_track_data.md">TRACK_DATA</a> structures.  
-
-
-## -syntax
-
-
-````
-typedef struct _CDROM_TOC {
-  UCHAR      Length[2];
-  UCHAR      FirstTrack;
-  UCHAR      LastTrack;
-  TRACK_DATA TrackData[MAXIMUM_NUMBER_TRACKS];
-} CDROM_TOC, *PCDROM_TOC;
-````
+Device control IRPs with a control code of <a href="https://msdn.microsoft.com/library/windows/hardware/ff559367">IOCTL_CDROM_READ_TOC_EX</a> and a format of CDROM_READ_TOC_EX_FORMAT_TOC return their output data in this structure followed by a series of <a href="https://msdn.microsoft.com/library/windows/hardware/ff567982">TRACK_DATA</a> structures.  
 
 
 ## -struct-fields
@@ -87,7 +74,7 @@ Indicates the last track number of the table of contents of the last complete se
 
 ### -field TrackData
 
-Pointer to an array of structures of type <a href="..\ntddcdrm\ns-ntddcdrm-_track_data.md">TRACK_DATA</a> that contain table of contents information for all the sessions on the disc.
+Pointer to an array of structures of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff567982">TRACK_DATA</a> that contain table of contents information for all the sessions on the disc.
 
 
 ## -remarks
@@ -101,20 +88,19 @@ The output data contains table of contents information for one or more of the sp
 
 ## -see-also
 
-<a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_read_toc_ex.md">IOCTL_CDROM_READ_TOC_EX</a>
 
 
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_track_data.md">TRACK_DATA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551366">CDROM_READ_TOC_EX</a>
 
 
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_read_toc_ex.md">CDROM_READ_TOC_EX</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559367">IOCTL_CDROM_READ_TOC_EX</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567982">TRACK_DATA</a>
  
 
  
-
 

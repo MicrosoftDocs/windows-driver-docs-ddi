@@ -7,7 +7,7 @@ old-location: storage\scsiportwriteportulong.htm
 old-project: storage
 ms.assetid: 9d2022b7-1e1e-4bc6-b306-84cc249644c5
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: ScsiPortWritePortUlong, ScsiPortWritePortUlong routine [Storage Devices], scsiprt_9a25b2e5-13e4-40f8-8475-dba34ad7ee3c.xml, srb/ScsiPortWritePortUlong, storage.scsiportwriteportulong
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -54,17 +54,6 @@ req.product: Windows 10 or later.
 The <b>ScsiPortWritePortUlong</b> routine transfers a ULONG value to the HBA.
 <div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
-## -syntax
-
-
-````
-VOID ScsiPortWritePortUlong(
-  _In_ PULONG Port,
-  _In_ ULONG  Value
-);
-````
-
-
 ## -parameters
 
 
@@ -82,12 +71,11 @@ Specifies the value to be written to the HBA's I/O port.
 
 ## -see-also
 
-<a href="..\srb\nf-srb-scsiportgetdevicebase.md">ScsiPortGetDeviceBase</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564629">ScsiPortGetDeviceBase</a>
  
 
  
-
 

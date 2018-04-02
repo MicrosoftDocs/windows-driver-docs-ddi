@@ -7,7 +7,7 @@ old-location: display\d3d11ddiarg_calcprivatedeferredcontextsize.htm
 old-project: display
 ms.assetid: 7889400e-bd26-43b5-a860-bea9f9217002
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3D11DDIARG_CALCPRIVATEDEFERREDCONTEXTSIZE, D3D11DDIARG_CALCPRIVATEDEFERREDCONTEXTSIZE structure [Display Devices], UMDisplayDriver_Dx11param_Structs_eca4d605-7188-46b1-b429-04094a9f7db6.xml, d3d10umddi/D3D11DDIARG_CALCPRIVATEDEFERREDCONTEXTSIZE, display.d3d11ddiarg_calcprivatedeferredcontextsize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,16 +52,6 @@ req.typenames: D3D11DDIARG_CALCPRIVATEDEFERREDCONTEXTSIZE
 The D3D11DDIARG_CALCPRIVATEDEFERREDCONTEXTSIZE structure describes the parameters that the user-mode display driver uses to calculate the size of a memory block that the driver requires to store frequently-accessed data. 
 
 
-## -syntax
-
-
-````
-typedef struct D3D11DDIARG_CALCPRIVATEDEFERREDCONTEXTSIZE {
-  UINT Flags;
-} D3D11DDIARG_CALCPRIVATEDEFERREDCONTEXTSIZE;
-````
-
-
 ## -struct-fields
 
 
@@ -89,7 +79,7 @@ This flag informs the user-mode display driver that the application is single th
 
 #### The flag that is set in the 0xE mask of the Flags member
 
-This flag represents the level of 3-D pipeline that the driver should support for the display device. The driver uses the following constant and macros to extract one of the values from the <a href="..\d3d10umddi\ne-d3d10umddi-d3d11ddi_3dpipelinelevel.md">D3D11DDI_3DPIPELINELEVEL</a> enumeration that represent the 3-D pipeline level to support. The value in the <b>Flags</b> member is formatted like the <b>Caps</b> member of the <a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddi_3dpipelinesupport_caps.md">D3D11DDI_3DPIPELINESUPPORT_CAPS</a> structure.
+This flag represents the level of 3-D pipeline that the driver should support for the display device. The driver uses the following constant and macros to extract one of the values from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff542126">D3D11DDI_3DPIPELINELEVEL</a> enumeration that represent the 3-D pipeline level to support. The value in the <b>Flags</b> member is formatted like the <b>Caps</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff542134">D3D11DDI_3DPIPELINESUPPORT_CAPS</a> structure.
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -108,16 +98,15 @@ This flag represents the level of 3-D pipeline that the driver should support fo
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddi_3dpipelinesupport_caps.md">D3D11DDI_3DPIPELINESUPPORT_CAPS</a>
 
 
 
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d11ddi_3dpipelinelevel.md">D3D11DDI_3DPIPELINELEVEL</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542126">D3D11DDI_3DPIPELINELEVEL</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542134">D3D11DDI_3DPIPELINESUPPORT_CAPS</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: debugger\outputserverswide.htm
 old-project: debugger
 ms.assetid: ce4b52af-17c6-41ed-95cb-09418137f049
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: IDebugClient5, IDebugClient5 interface [Windows Debugging], OutputServersWide method, IDebugClient5::OutputServersWide, OutputServersWide method [Windows Debugging], OutputServersWide method [Windows Debugging], IDebugClient5 interface, OutputServersWide,IDebugClient5.OutputServersWide, dbgeng/IDebugClient5::OutputServersWide, debugger.outputserverswide
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,18 +50,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>OutputServersWide</b> method lists the servers running on a given computer.
-
-
-## -syntax
-
-
-````
-HRESULT OutputServersWide(
-  [in] ULONG  OutputControl,
-  [in] PCWSTR Machine,
-  [in] ULONG  Flags
-);
-````
 
 
 ## -parameters
@@ -153,19 +141,18 @@ For more information about remote debugging, see <a href="https://msdn.microsoft
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539237">ConnectProcessServer</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558813">StartServer</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540465">DebugConnect</a>
 
 
 
-<a href="..\dbgeng\nf-dbgeng-debugconnect.md">DebugConnect</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550497">IDebugClient5</a>
 
 
 
@@ -173,8 +160,8 @@ For more information about remote debugging, see <a href="https://msdn.microsoft
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558813">StartServer</a>
  
 
  
-
 

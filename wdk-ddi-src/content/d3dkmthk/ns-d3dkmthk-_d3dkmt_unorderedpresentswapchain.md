@@ -7,7 +7,7 @@ old-location: display\d3dkmt-unorderedpresentswapchain.htm
 old-project: display
 ms.assetid: c8b13348-71a6-4981-8c99-6368fa0f01ff
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMT_UNORDEREDPRESENTSWAPCHAIN, D3DKMT_UNORDEREDPRESENTSWAPCHAIN structure [Display Devices], _D3DKMT_UNORDEREDPRESENTSWAPCHAIN, d3dkmthk/D3DKMT_UNORDEREDPRESENTSWAPCHAIN, display.d3dkmt-unorderedpresentswapchain
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,20 +50,6 @@ req.typenames: D3DKMT_UNORDEREDPRESENTSWAPCHAIN
 
 
 Used to store information about the swapchain being presented.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_UNORDEREDPRESENTSWAPCHAIN {
-  HANDLE hNtSwapChain;
-  BOOL   bProducer;
-  UINT   PresentBufferIdx;
-  UINT   MetaDataSize;
-  PVOID  pMetaData;
-} D3DKMT_UNORDEREDPRESENTSWAPCHAIN;
-````
 
 
 ## -struct-fields

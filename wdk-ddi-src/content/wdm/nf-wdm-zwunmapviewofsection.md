@@ -7,7 +7,7 @@ old-location: kernel\zwunmapviewofsection.htm
 old-project: kernel
 ms.assetid: ebc67162-4e36-4af8-bc3b-764633dcda5d
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: NtUnmapViewOfSection, ZwUnmapViewOfSection, ZwUnmapViewOfSection routine [Kernel-Mode Driver Architecture], k111_4353325c-d2a1-47b3-b58a-b62929c417f9.xml, kernel.zwunmapviewofsection, wdm/NtUnmapViewOfSection, wdm/ZwUnmapViewOfSection
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -54,17 +54,6 @@ req.product: Windows 10 or later.
 The <b>ZwUnmapViewOfSection</b> routine unmaps a <a href="https://msdn.microsoft.com/library/windows/hardware/dn927297">view</a> of a section from the virtual address space of a subject process.
 
 
-## -syntax
-
-
-````
-NTSTATUS ZwUnmapViewOfSection(
-  _In_     HANDLE ProcessHandle,
-  _In_opt_ PVOID  BaseAddress
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +61,7 @@ NTSTATUS ZwUnmapViewOfSection(
 
 ### -param ProcessHandle [in]
 
-Handle to a process object that was previously passed to <a href="..\wdm\nf-wdm-zwmapviewofsection.md">ZwMapViewOfSection</a>.
+Handle to a process object that was previously passed to <a href="https://msdn.microsoft.com/library/windows/hardware/ff566481">ZwMapViewOfSection</a>.
 
 
 ### -param BaseAddress [in, optional]
@@ -136,7 +125,6 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwopensection.md">ZwOpenSection</a>
 
 
 
@@ -144,12 +132,12 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="..\wdm\nf-wdm-zwmapviewofsection.md">ZwMapViewOfSection</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566481">ZwMapViewOfSection</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567029">ZwOpenSection</a>
  
 
  
-
 

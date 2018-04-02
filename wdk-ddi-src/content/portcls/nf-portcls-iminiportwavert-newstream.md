@@ -7,7 +7,7 @@ old-location: audio\iminiportwavert_newstream.htm
 old-project: audio
 ms.assetid: efd2eea8-2b05-49a2-b136-a3e1e3e739c5
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/19/2018
 ms.keywords: IMiniportWaveRT, IMiniportWaveRT interface [Audio Devices], NewStream method, IMiniportWaveRT::NewStream, NewStream method [Audio Devices], NewStream method [Audio Devices], IMiniportWaveRT interface, NewStream,IMiniportWaveRT.NewStream, audio.iminiportwavert_newstream, audmp-routines_f6e65bf7-d19d-42fc-a0f0-2d2c83e88250.xml, portcls/IMiniportWaveRT::NewStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,20 +52,6 @@ req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 The <code>NewStream</code> method creates a new instance of a WaveRT stream object.
 
 
-## -syntax
-
-
-````
-NTSTATUS NewStream(
-  [out] PMINIPORTWAVERTSTREAM *Stream,
-  [in]  PPORTWAVERTSTREAM     PortStream,
-  [in]  ULONG                 Pin,
-  [in]  BOOLEAN               Capture,
-  [in]  PKSDATAFORMAT         DataFormat
-);
-````
-
-
 ## -parameters
 
 
@@ -78,7 +64,7 @@ Output pointer for the new stream. This parameter points to a caller-allocated p
 
 ### -param PortStream [in]
 
-Pointer to the <a href="..\portcls\nn-portcls-iportwavertstream.md">IPortWaveRTStream</a>.
+Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536922">IPortWaveRTStream</a>.
 
 
 ### -param Pin [in]
@@ -93,7 +79,7 @@ Specifies a Boolean value that indicates whether to create a capture stream or a
 
 ### -param DataFormat [in]
 
-Pointer to a <a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a> structure that specifies the data format of the new stream. For more information, see the following Remarks section.
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff561656">KSDATAFORMAT</a> structure that specifies the data format of the new stream. For more information, see the following Remarks section.
 
 
 ## -returns
@@ -116,13 +102,13 @@ The <i>DataFormat</i> parameter, which specifies the data format of the stream, 
 <ul>
 <li>
 
-<a href="..\ksmedia\ns-ksmedia-ksdataformat_waveformatex.md">KSDATAFORMAT_WAVEFORMATEX</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537095">KSDATAFORMAT_WAVEFORMATEX</a>
 
 
 </li>
 <li>
 
-<a href="..\ksmedia\ns-ksmedia-ksdataformat_dsound.md">KSDATAFORMAT_DSOUND</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537094">KSDATAFORMAT_DSOUND</a>
 
 
 </li>
@@ -134,7 +120,14 @@ The <i>Stream</i> and <i>PortStream</i> parameters follow the reference-counting
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iminiportwavertstream.md">IPortWaveRTStream</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536737">IMiniportWaveRT</a>
+
+
+
+IMiniportWaveRTStream
 
 
 
@@ -146,16 +139,8 @@ The <i>Stream</i> and <i>PortStream</i> parameters follow the reference-counting
 
 
 
-IMiniportWaveRTStream
-
-
-
-<a href="..\portcls\nn-portcls-iminiportwavert.md">IMiniportWaveRT</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536922">IPortWaveRTStream</a>
  
 
  
-
 

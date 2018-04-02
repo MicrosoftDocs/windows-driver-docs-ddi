@@ -7,7 +7,7 @@ old-location: display\pfnd3dwddm2_2ddi_destroy_shadercache_session.htm
 old-project: display
 ms.assetid: 1C6AFC89-F740-4309-9389-BFB5C62FCA77
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3DWDDM2_2DDI_DESTROY_SHADERCACHE_SESSION, d3d10umddi/pfnDestroyShaderCacheSession, display.pfnd3dwddm2_2ddi_destroy_shadercache_session, pfnDestroyShaderCacheSession, pfnDestroyShaderCacheSession callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,29 +52,15 @@ req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 The <i>pfnDestroyShaderCacheSession</i> callback function destroys a shader cache session.
 
 
-## -prototype
-
-
-````
-PFND3DWDDM2_2DDI_DESTROY_SHADERCACHE_SESSION pfnDestroyShaderCacheSession;
-
-VOID APIENTRY* pfnDestroyShaderCacheSession(
-   D3D10DDI_HDEVICE            hDevice,
-   D3DWDDM2_2DDI_HCACHESESSION hCacheSession
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
 
 
-### -param D3D10DDI_HDEVICE
+### -param Arg1
 
 
-### -param D3DWDDM2_2DDI_HCACHESESSION
+### -param Arg2
 
 
 
@@ -106,19 +92,18 @@ This callback function does not return a value.
 
 
 
-Access this callback function by using the <a href="..\d3d10umddi\ns-d3d10umddi-d3dwddm2_2ddi_devicefuncs.md">D3DWDDM2_2DDI_DEVICEFUNCS</a> structure. 
+Access this callback function by using the <a href="https://msdn.microsoft.com/4E082193-70BA-4F36-9001-2A12014F3AC3">D3DWDDM2_2DDI_DEVICEFUNCS</a> structure. 
 
 
 
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3dwddm2_2ddi_devicefuncs.md">D3DWDDM2_2DDI_DEVICEFUNCS</a>
 
 
 
+<a href="https://msdn.microsoft.com/4E082193-70BA-4F36-9001-2A12014F3AC3">D3DWDDM2_2DDI_DEVICEFUNCS</a>
  
 
  
-
 

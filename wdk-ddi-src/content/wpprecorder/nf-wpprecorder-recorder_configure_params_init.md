@@ -50,17 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>RECORDER_CONFIGURE_PARAMS_INIT</b> function is used to initialize the <a href="..\wpprecorder\ns-wpprecorder-_recorder_configure_params.md">RECORDER_CONFIGURE_PARAMS</a> structure.
-
-
-## -syntax
-
-
-````
-FORCEINLINE void RECORDER_CONFIGURE_PARAMS_INIT(
-  _Out_ PRECORDER_CONFIGURE_PARAMS   Params
-);
-````
+The <b>RECORDER_CONFIGURE_PARAMS_INIT</b> function is used to initialize the <a href="https://msdn.microsoft.com/library/windows/hardware/dn914606">RECORDER_CONFIGURE_PARAMS</a> structure.
 
 
 ## -parameters
@@ -70,7 +60,7 @@ FORCEINLINE void RECORDER_CONFIGURE_PARAMS_INIT(
 
 ### -param Params [out]
 
-A pointer to the <a href="..\wpprecorder\ns-wpprecorder-_recorder_configure_params.md">RECORDER_CONFIGURE_PARAMS</a> structure to initialize.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/dn914606">RECORDER_CONFIGURE_PARAMS</a> structure to initialize.
 
 
 ## -returns
@@ -84,12 +74,11 @@ This function does not return a value.
 
 ## -see-also
 
-<a href="..\wpprecorder\ns-wpprecorder-_recorder_configure_params.md">RECORDER_CONFIGURE_PARAMS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn914606">RECORDER_CONFIGURE_PARAMS</a>
  
 
  
-
 

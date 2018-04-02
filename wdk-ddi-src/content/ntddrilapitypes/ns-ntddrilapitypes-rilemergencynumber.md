@@ -7,7 +7,7 @@ old-location: netvista\rilemergencynumber.htm
 old-project: netvista
 ms.assetid: 1725c893-1c36-40d2-99d7-e163020fc4fc
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*LPRILEMERGENCYNUMBER, RILEMERGENCYNUMBER, RILEMERGENCYNUMBER structure [Network Drivers Starting with Windows Vista], netvista.rilemergencynumber, ntddrilapitypes/RILEMERGENCYNUMBER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,21 +50,6 @@ req.typenames: RILEMERGENCYNUMBER, *LPRILEMERGENCYNUMBER
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef struct _RILEMERGENCYNUMBER {
-  DWORD     cbSize;
-  DWORD     dwParams;
-  DWORD     dwExecutor;
-  HUICCAPP  hUiccApp;
-  DWORD     dwCategory;
-  WCHAR [8] wszEmergencyNumber;
-} RILEMERGENCYNUMBER, RILEMERGENCYNUMBER;
-````
 
 
 ## -struct-fields

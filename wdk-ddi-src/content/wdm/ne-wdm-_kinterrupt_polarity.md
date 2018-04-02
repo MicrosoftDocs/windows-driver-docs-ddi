@@ -7,7 +7,7 @@ old-location: kernel\kinterrupt_polarity.htm
 old-project: kernel
 ms.assetid: 2fcc4597-b169-43a8-b2bb-dd2dd66f29dc
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*PKINTERRUPT_POLARITY, InterruptActiveBoth, InterruptActiveBothTriggerHigh, InterruptActiveBothTriggerLow, InterruptActiveHigh, InterruptActiveLow, InterruptFallingEdge, InterruptPolarityUnknown, InterruptRisingEdge, KINTERRUPT_POLARITY, KINTERRUPT_POLARITY enumeration [Kernel-Mode Driver Architecture], PKINTERRUPT_POLARITY, PKINTERRUPT_POLARITY enumeration pointer [Kernel-Mode Driver Architecture], _KINTERRUPT_POLARITY, kernel.kinterrupt_polarity, sysenum_56e5681d-ea77-4385-bd47-4add306a4fe8.xml, wdm/InterruptActiveBoth, wdm/InterruptActiveBothTriggerHigh, wdm/InterruptActiveBothTriggerLow, wdm/InterruptActiveHigh, wdm/InterruptActiveLow, wdm/InterruptFallingEdge, wdm/InterruptPolarityUnknown, wdm/InterruptRisingEdge, wdm/KINTERRUPT_POLARITY, wdm/PKINTERRUPT_POLARITY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,23 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>KINTERRUPT_POLARITY</b> enumeration indicates how a device signals an interrupt request on an interrupt line.
-
-
-## -syntax
-
-
-````
-typedef enum _KINTERRUPT_POLARITY { 
-  InterruptPolarityUnknown,
-  InterruptActiveHigh,
-  InterruptRisingEdge             = InterruptActiveHigh,
-  InterruptActiveLow,
-  InterruptFallingEdge            = InterruptActiveLow,
-  InterruptActiveBoth,
-  InterruptActiveBothTriggerLow   = InterruptActiveBoth,
-  InterruptActiveBothTriggerHigh
-} KINTERRUPT_POLARITY, *PKINTERRUPT_POLARITY;
-````
 
 
 ## -enum-fields
@@ -119,19 +102,18 @@ Reserved for use by the operating system.
 
 
 
-A <b>KINTERRUPT_POLARITY</b> enumeration constant is frequently used in conjunction with a <a href="..\wudfwdm\ne-wudfwdm-_kinterrupt_mode.md">KINTERRUPT_MODE</a> enumeration constant to describe an interrupt signal. A <b>KINTERRUPT_MODE</b> enumeration constant indicates whether the interrupt signal from a device is level-triggered or edge-triggered.
+A <b>KINTERRUPT_POLARITY</b> enumeration constant is frequently used in conjunction with a <a href="https://msdn.microsoft.com/library/windows/hardware/ff554239">KINTERRUPT_MODE</a> enumeration constant to describe an interrupt signal. A <b>KINTERRUPT_MODE</b> enumeration constant indicates whether the interrupt signal from a device is level-triggered or edge-triggered.
 
 
 
 
 ## -see-also
 
-<a href="..\wudfwdm\ne-wudfwdm-_kinterrupt_mode.md">KINTERRUPT_MODE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554239">KINTERRUPT_MODE</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: storage\storportinitialize.htm
 old-project: storage
 ms.assetid: b560ce42-3c5c-4766-bb9c-6590b7113ecd
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: StorPortInitialize, StorPortInitialize routine [Storage Devices], storage.storportinitialize, storport/StorPortInitialize, storprt_c60ad9af-507c-42e1-9f8a-04e3378bc37b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -54,19 +54,6 @@ req.product: Windows 10 or later.
 The <b>StorPortInitilize</b> routine initializes the port  driver parameters and extension data. <b>StorPortInitilize</b> also saves the adapter information provided from the miniport driver.
 
 
-## -syntax
-
-
-````
-STORPORT_API ULONG StorPortInitialize(
-  _In_     PVOID                   Argument1,
-  _In_     PVOID                   Argument2,
-  _In_     PHW_INITIALIZATION_DATA HwInitializationData,
-  _In_opt_ PVOID                   HwContext
-);
-````
-
-
 ## -parameters
 
 
@@ -74,22 +61,22 @@ STORPORT_API ULONG StorPortInitialize(
 
 ### -param Argument1 [in]
 
-The first pointer with which the operating system called the miniport's <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine. 
+The first pointer with which the operating system called the miniport's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine. 
 
 
 ### -param Argument2 [in]
 
-The second pointer with which the operating system called the miniports's <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine. 
+The second pointer with which the operating system called the miniports's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine. 
 
 
 ### -param HwInitializationData [in]
 
-Pointer to the initialization and configuration information set by the miniport driver in it's <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine. 
+Pointer to the initialization and configuration information set by the miniport driver in it's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine. 
 
 
 ### -param HwContext [in, optional]
 
-Is the address of a context value to be passed to the miniport driver's <a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a> routine. Only legacy miniport drivers that scan the bus for HBAs rather than receiving configuration information from the port driver can use this parameter to store state between calls to <b>HwStorFindAdapter</b>. 
+Is the address of a context value to be passed to the miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff557390">HwStorFindAdapter</a> routine. Only legacy miniport drivers that scan the bus for HBAs rather than receiving configuration information from the port driver can use this parameter to store state between calls to <b>HwStorFindAdapter</b>. 
 
 
 ## -returns
@@ -97,7 +84,7 @@ Is the address of a context value to be passed to the miniport driver's <a href=
 
 
 
-      The result of the initialization actions performed by <b>StorPortInitilize</b>. The miniport driver will return this value as the return value for its <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine.
+      The result of the initialization actions performed by <b>StorPortInitilize</b>. The miniport driver will return this value as the return value for its <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine.
 
 <b>StorPortInitilize</b> returns one of the following status codes:
 
@@ -179,27 +166,26 @@ The allocation failed for the driver object extension data.
 
 
 
-This routine must be called from the miniport driver's <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine.
+This routine must be called from the miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine.
 
 Because Storport miniport drivers must support PnP, the Storport driver does not use the <i>HwContext</i> parameter passed to <b>StorPortInitilize</b>.
 
-Every miniport driver's <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine must call <b>StorPortInitilize</b> after the miniport driver has first zeroed and then set the members of <a href="..\strmini\ns-strmini-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a>.
+Every miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine must call <b>StorPortInitilize</b> after the miniport driver has first zeroed and then set the members of <a href="https://msdn.microsoft.com/library/windows/hardware/ff559682">HW_INITIALIZATION_DATA</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\strmini\ns-strmini-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a>
 
 
 
-<a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559682">HW_INITIALIZATION_DATA</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557390">HwStorFindAdapter</a>
  
 
  
-
 

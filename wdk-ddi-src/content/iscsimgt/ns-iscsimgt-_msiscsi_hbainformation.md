@@ -7,7 +7,7 @@ old-location: storage\msiscsi_hbainformation.htm
 old-project: storage
 ms.assetid: ee2951e0-2632-44b0-870d-33d4d48ac8e8
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PMSiSCSI_HBAInformation, MSiSCSI_HBAInformation, MSiSCSI_HBAInformation structure [Storage Devices], PMSiSCSI_HBAInformation, PMSiSCSI_HBAInformation structure pointer [Storage Devices], _MSiSCSI_HBAInformation, iscsimgt/MSiSCSI_HBAInformation, iscsimgt/PMSiSCSI_HBAInformation, storage.msiscsi_hbainformation, structs-iSCSI_f6de2645-3ba4-444e-97a8-3115eb109a95.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,36 +50,6 @@ req.typenames: MSiSCSI_HBAInformation, *PMSiSCSI_HBAInformation
 
 
 The MSiSCSI_HBAInformation structure is used by storage miniport drivers to report information about the host bus adapters (HBAs) that they manage to the iSCSI initiator service.
-
-
-## -syntax
-
-
-````
-typedef struct _MSiSCSI_HBAInformation {
-  ULONGLONG UniqueAdapterId;
-  BOOLEAN   IntegratedTCPIP;
-  BOOLEAN   RequiresBinaryIpAddresses;
-  UCHAR     VersionMin;
-  UCHAR     VersionMax;
-  BOOLEAN   MultifunctionDevice;
-  BOOLEAN   CacheValid;
-  ULONG     NumberOfPorts;
-  ULONG     Status;
-  ULONG     FunctionalitySupported;
-  UCHAR     GenerationalGuid[16];
-  ULONG     MaxCDBLength;
-  BOOLEAN   BiDiScsiCommands;
-  WCHAR     VendorID[255 + 1];
-  WCHAR     VendorModel[255 + 1];
-  WCHAR     VendorVersion[255 + 1];
-  WCHAR     FirmwareVersion[255 + 1];
-  WCHAR     AsicVersion[255 + 1];
-  WCHAR     OptionRomVersion[255 + 1];
-  WCHAR     SerialNumber[255 + 1];
-  WCHAR     DriverName[255 + 1];
-} MSiSCSI_HBAInformation, *PMSiSCSI_HBAInformation;
-````
 
 
 ## -struct-fields
@@ -319,6 +289,9 @@ You must implement this class.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563017">MSiSCSI_HBAInformation WMI Class</a>
 
 
@@ -328,11 +301,7 @@ You must implement this class.
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565678">SetGenerationalGuid</a>
-
-
-
  
 
  
-
 

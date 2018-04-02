@@ -55,30 +55,6 @@ req.product: Windows 10 or later.
 The <b>WDF_MEMORY_DESCRIPTOR</b> structure describes a memory buffer.
 
 
-## -syntax
-
-
-````
-typedef struct _WDF_MEMORY_DESCRIPTOR {
-  WDF_MEMORY_DESCRIPTOR_TYPE Type;
-  union {
-    struct {
-      PVOID Buffer;
-      ULONG Length;
-    } BufferType;
-    struct {
-      PMDL  Mdl;
-      ULONG BufferLength;
-    } MdlType;
-    struct {
-      WDFMEMORY         Memory;
-      PWDFMEMORY_OFFSET Offsets;
-    } HandleType;
-  } u;
-} WDF_MEMORY_DESCRIPTOR, *PWDF_MEMORY_DESCRIPTOR;
-````
-
-
 ## -struct-fields
 
 
@@ -86,7 +62,7 @@ typedef struct _WDF_MEMORY_DESCRIPTOR {
 
 ### -field Type
 
-A <a href="..\wdfmemory\ne-wdfmemory-_wdf_memory_descriptor_type.md">WDF_MEMORY_DESCRIPTOR_TYPE</a>-typed value that identifies the type of buffer description that this <b>WDF_MEMORY_DESCRIPTOR</b> structure contains.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff552399">WDF_MEMORY_DESCRIPTOR_TYPE</a>-typed value that identifies the type of buffer description that this <b>WDF_MEMORY_DESCRIPTOR</b> structure contains.
 
 
 ### -field u
@@ -136,7 +112,7 @@ A handle to a framework memory object.
 
 ### -field u.HandleType.Offsets
 
-A pointer to a <a href="..\wdfmemory\ns-wdfmemory-_wdfmemory_offset.md">WDFMEMORY_OFFSET</a> structure that describes a subsection of the buffer that is represented by the memory object. 
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff561398">WDFMEMORY_OFFSET</a> structure that describes a subsection of the buffer that is represented by the memory object. 
 
 
 ## -remarks
@@ -145,24 +121,22 @@ A pointer to a <a href="..\wdfmemory\ns-wdfmemory-_wdfmemory_offset.md">WDFMEMOR
 
 The <b>WDF_MEMORY_DESCRIPTOR</b> structure is used as input to several of the framework's <a href="https://msdn.microsoft.com/29680C5C-C690-4560-B340-3565D219DFE8">I/O target object methods</a> and <a href="https://msdn.microsoft.com/CDD13B29-62C8-4CF7-9027-E55A5B37AA2E">USB device object methods</a>.
 
-To initialize a <b>WDF_MEMORY_DESCRIPTOR</b> structure, your driver should call <a href="..\wdfmemory\nf-wdfmemory-wdf_memory_descriptor_init_buffer.md">WDF_MEMORY_DESCRIPTOR_INIT_BUFFER</a>, or <a href="..\wdfmemory\nf-wdfmemory-wdf_memory_descriptor_init_mdl.md">WDF_MEMORY_DESCRIPTOR_INIT_MDL</a>, or <a href="..\wdfmemory\nf-wdfmemory-wdf_memory_descriptor_init_handle.md">WDF_MEMORY_DESCRIPTOR_INIT_HANDLE</a>.
+To initialize a <b>WDF_MEMORY_DESCRIPTOR</b> structure, your driver should call <a href="https://msdn.microsoft.com/library/windows/hardware/ff552393">WDF_MEMORY_DESCRIPTOR_INIT_BUFFER</a>, or <a href="https://msdn.microsoft.com/library/windows/hardware/ff552396">WDF_MEMORY_DESCRIPTOR_INIT_MDL</a>, or <a href="https://msdn.microsoft.com/library/windows/hardware/ff552395">WDF_MEMORY_DESCRIPTOR_INIT_HANDLE</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\wdfmemory\ns-wdfmemory-_wdfmemory_offset.md">WDFMEMORY_OFFSET</a>
-
-<a href="..\wdfmemory\ne-wdfmemory-_wdf_memory_descriptor_type.md">WDF_MEMORY_DESCRIPTOR_TYPE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561398">WDFMEMORY_OFFSET</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552399">WDF_MEMORY_DESCRIPTOR_TYPE</a>
  
 
  
-
 

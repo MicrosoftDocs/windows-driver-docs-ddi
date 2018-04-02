@@ -55,21 +55,6 @@ req.product: Windows 10 or later.
 A driver's <i>EvtDeviceUsageNotification</i> event callback function informs the driver when a device is being used for special files.
 
 
-## -prototype
-
-
-````
-EVT_WDF_DEVICE_USAGE_NOTIFICATION EvtDeviceUsageNotification;
-
-VOID EvtDeviceUsageNotification(
-  _In_ WDFDEVICE             Device,
-  _In_ WDF_SPECIAL_FILE_TYPE NotificationType,
-  _In_ BOOLEAN               IsInNotificationPath
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -82,7 +67,7 @@ A handle to a framework device object.
 
 ### -param NotificationType [in]
 
-A <a href="..\wdfdevice\ne-wdfdevice-_wdf_special_file_type.md">WDF_SPECIAL_FILE_TYPE</a>-typed value that identifies the type of special file that the system is storing on the specified device.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff552509">WDF_SPECIAL_FILE_TYPE</a>-typed value that identifies the type of special file that the system is storing on the specified device.
 
 
 ### -param IsInNotificationPath [in]
@@ -103,7 +88,7 @@ None
 
 
 
-To register an <i>EvtDeviceUsageNotification</i> callback function, a driver must call <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetpnppowereventcallbacks.md">WdfDeviceInitSetPnpPowerEventCallbacks</a>. 
+To register an <i>EvtDeviceUsageNotification</i> callback function, a driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff546135">WdfDeviceInitSetPnpPowerEventCallbacks</a>. 
 
 Your driver must provide an <i>EvtDeviceUsageNotification</i> callback function only if must provide driver-specific handling of special files. 
 

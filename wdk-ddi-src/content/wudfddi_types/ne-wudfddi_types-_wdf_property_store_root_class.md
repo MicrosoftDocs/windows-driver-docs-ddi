@@ -55,19 +55,6 @@ req.product: Windows 10 or later.
 The <b>WDF_PROPERTY_STORE_ROOT_CLASS</b> enumeration identifies the registry keys that UMDF property stores represent.
 
 
-## -syntax
-
-
-````
-typedef enum _WDF_PROPERTY_STORE_ROOT_CLASS { 
-  WdfPropertyStoreRootClassHardwareKey         = 0x00,
-  WdfPropertyStoreRootClassSoftwareKey         = 0x01,
-  WdfPropertyStoreRootClassDeviceInterfaceKey  = 0x02,
-  WdfPropertyStoreRootClassLegacyHardwareKey   = 0x03
-} WDF_PROPERTY_STORE_ROOT_CLASS;
-````
-
-
 ## -enum-fields
 
 
@@ -97,19 +84,18 @@ The property store represents the <a href="https://docs.microsoft.com/en-us/wind
 
 
 
-The <b>WDF_PROPERTY_STORE_ROOT_CLASS</b> enumeration is used in the <a href="..\wudfddi_types\ns-wudfddi_types-_wdf_property_store_root.md">WDF_PROPERTY_STORE_ROOT</a> structure.
+The <b>WDF_PROPERTY_STORE_ROOT_CLASS</b> enumeration is used in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561453">WDF_PROPERTY_STORE_ROOT</a> structure.
 
 
 
 
 ## -see-also
 
-<a href="..\wudfddi_types\ns-wudfddi_types-_wdf_property_store_root.md">WDF_PROPERTY_STORE_ROOT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561453">WDF_PROPERTY_STORE_ROOT</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: netvista\ndis_protocol_driver_characteristics.htm
 old-project: netvista
 ms.assetid: db64c160-9db6-4b23-af14-e64acdb9ef57
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PNDIS_PROTOCOL_DRIVER_CHARACTERISTICS, NDIS_PROTOCOL_DRIVER_CHARACTERISTICS, NDIS_PROTOCOL_DRIVER_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], PNDIS_PROTOCOL_DRIVER_CHARACTERISTICS, PNDIS_PROTOCOL_DRIVER_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PROTOCOL_DRIVER_CHARACTERISTICS, ndis/NDIS_PROTOCOL_DRIVER_CHARACTERISTICS, ndis/PNDIS_PROTOCOL_DRIVER_CHARACTERISTICS, netvista.ndis_protocol_driver_characteristics, protocol_structures_ref_57fab3c7-f838-4a3f-a818-04d26e38cdc0.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,36 +53,6 @@ To specify its driver characteristics, a protocol driver initializes an
   <b>NDIS_PROTOCOL_DRIVER_CHARACTERISTICS</b> structure and passes it to NDIS.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_PROTOCOL_DRIVER_CHARACTERISTICS {
-  NDIS_OBJECT_HEADER                     Header;
-  UCHAR                                  MajorNdisVersion;
-  UCHAR                                  MinorNdisVersion;
-  UCHAR                                  MajorDriverVersion;
-  UCHAR                                  MinorDriverVersion;
-  ULONG                                  Flags;
-  NDIS_STRING                            Name;
-  SET_OPTIONS_HANDLER                    SetOptionsHandler;
-  BIND_HANDLER_EX                        BindAdapterHandlerEx;
-  UNBIND_HANDLER_EX                      UnbindAdapterHandlerEx;
-  OPEN_ADAPTER_COMPLETE_HANDLER_EX       OpenAdapterCompleteHandlerEx;
-  CLOSE_ADAPTER_COMPLETE_HANDLER_EX      CloseAdapterCompleteHandlerEx;
-  NET_PNP_EVENT_HANDLER                  NetPnPEventHandler;
-  UNINSTALL_PROTOCOL_HANDLER             UninstallHandler;
-  OID_REQUEST_COMPLETE_HANDLER           OidRequestCompleteHandler;
-  STATUS_HANDLER_EX                      StatusHandlerEx;
-  RECEIVE_NET_BUFFER_LISTS_HANDLER       ReceiveNetBufferListsHandler;
-  SEND_NET_BUFFER_LISTS_COMPLETE_HANDLER SendNetBufferListsCompleteHandler;
-#if (NDIS_SUPPORT_NDIS61)
-  DIRECT_OID_REQUEST_COMPLETE_HANDLER    DirectOidRequestCompleteHandler;
-#endif 
-} NDIS_PROTOCOL_DRIVER_CHARACTERISTICS, *PNDIS_PROTOCOL_DRIVER_CHARACTERISTICS;
-````
-
-
 ## -struct-fields
 
 
@@ -91,7 +61,7 @@ typedef struct _NDIS_PROTOCOL_DRIVER_CHARACTERISTICS {
 ### -field Header
 
 The 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure for the
      <b>NDIS_PROTOCOL_DRIVER_CHARACTERISTICS</b> structure. Set the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to NDIS_OBJECT_TYPE_PROTOCOL_DRIVER_CHARACTERISTICS.
@@ -267,82 +237,82 @@ A Unicode string that is the service name of the protocol driver.
 ### -field SetOptionsHandler
 
 The entry point for the 
-     <a href="..\ndis\nc-ndis-set_options.md">ProtocolSetOptions</a> function.
+     <a href="https://msdn.microsoft.com/342e23ad-d38b-4100-949a-220b8fbdcf6e">ProtocolSetOptions</a> function.
 
 
 ### -field BindAdapterHandlerEx
 
 The entry point for the 
-     <a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">
+     <a href="https://msdn.microsoft.com/1958722e-012e-4110-a82c-751744bcf9b5">
      ProtocolBindAdapterEx</a> function.
 
 
 ### -field UnbindAdapterHandlerEx
 
 The entry point for the 
-     <a href="..\ndis\nc-ndis-protocol_unbind_adapter_ex.md">
+     <a href="https://msdn.microsoft.com/19fa7be2-acb9-42f6-bd9f-5be3e3c8b5fa">
      ProtocolUnbindAdapterEx</a> function.
 
 
 ### -field OpenAdapterCompleteHandlerEx
 
 The entry point for the 
-     <a href="..\ndis\nc-ndis-protocol_open_adapter_complete_ex.md">
+     <a href="https://msdn.microsoft.com/59d18822-8ce2-4506-90d7-9f1cdc7a9e10">
      ProtocolOpenAdapterCompleteEx</a> function.
 
 
 ### -field CloseAdapterCompleteHandlerEx
 
 The entry point for the 
-     <a href="..\ndis\nc-ndis-protocol_close_adapter_complete_ex.md">
+     <a href="https://msdn.microsoft.com/62cc047a-bc91-4e1e-817e-7fd509d4d90e">
      ProtocolCloseAdapterCompleteEx</a> function.
 
 
 ### -field NetPnPEventHandler
 
 The entry point of the caller's 
-     <a href="..\ndis\nc-ndis-protocol_net_pnp_event.md">ProtocolNetPnPEvent</a> function.
+     <a href="https://msdn.microsoft.com/3f50bcba-c7d2-4d81-bd8b-6080e08fbe74">ProtocolNetPnPEvent</a> function.
 
 
 ### -field UninstallHandler
 
 The entry point of the caller's 
-     <a href="..\ndis\nc-ndis-protocol_uninstall.md">ProtocolUninstall</a> function, if any,
+     <a href="https://msdn.microsoft.com/959baf54-849c-4bb1-b4c5-4d5537e1d688">ProtocolUninstall</a> function, if any,
      or <b>NULL</b>.
 
 
 ### -field OidRequestCompleteHandler
 
 The entry point of the caller's 
-     <a href="..\ndis\nc-ndis-protocol_oid_request_complete.md">
+     <a href="https://msdn.microsoft.com/2706577e-ba03-4347-9672-7303752ec0fe">
      ProtocolOidRequestComplete</a> function.
 
 
 ### -field StatusHandlerEx
 
 The entry point of the caller's 
-     <a href="..\ndis\nc-ndis-protocol_status_ex.md">ProtocolStatusEx</a> function, if any, or
+     <a href="https://msdn.microsoft.com/5bc5a24f-5f28-4502-8776-b1cf15fd8283">ProtocolStatusEx</a> function, if any, or
      <b>NULL</b>.
 
 
 ### -field ReceiveNetBufferListsHandler
 
 The entry point for the 
-     <a href="..\ndis\nc-ndis-protocol_receive_net_buffer_lists.md">
+     <a href="https://msdn.microsoft.com/c964b4b8-ab07-4a07-9965-5cc06c028c20">
      ProtocolReceiveNetBufferLists</a> function.
 
 
 ### -field SendNetBufferListsCompleteHandler
 
 The entry point for the 
-     <a href="..\ndis\nc-ndis-protocol_send_net_buffer_lists_complete.md">
+     <a href="https://msdn.microsoft.com/bc9197c5-ce0b-42b2-8225-fb9d83427ac8">
      ProtocolSendNetBufferListsComplete</a> function.
 
 
 ### -field DirectOidRequestCompleteHandler
 
 The entry point of the caller's 
-      <a href="..\ndis\nc-ndis-protocol_direct_oid_request_complete.md">
+      <a href="https://msdn.microsoft.com/6b23bbba-1b18-4da7-a45c-68df7c960aad">
       ProtocolDirectOidRequestComplete</a> function. This is an optional function. Set this entry point to
       <b>NULL</b> if the protocol driver does not support the direct OID request interface.
 
@@ -352,7 +322,7 @@ The entry point of the caller's
 
 
 A protocol driver calls the 
-    <a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">
+    <a href="https://msdn.microsoft.com/b48571eb-13a2-4541-80ac-c8d31f378d37">
     NdisRegisterProtocolDriver</a> function to register its characteristics, including the default entry
     points for its protocol driver functions (<i>ProtocolXxx</i>). The protocol driver initializes an <b>NDIS_PROTOCOL_DRIVER_CHARACTERISTICS</b> structure
     and passes a pointer to this structure in the 
@@ -364,65 +334,64 @@ A protocol driver calls the
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_uninstall.md">ProtocolUninstall</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_status_ex.md">ProtocolStatusEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564520">NdisRegisterProtocolDriver</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_unbind_adapter_ex.md">ProtocolUnbindAdapterEx</a>
+<a href="https://msdn.microsoft.com/1958722e-012e-4110-a82c-751744bcf9b5">ProtocolBindAdapterEx</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_receive_net_buffer_lists.md">
-   ProtocolReceiveNetBufferLists</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_open_adapter_complete_ex.md">
-   ProtocolOpenAdapterCompleteEx</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_oid_request_complete.md">ProtocolOidRequestComplete</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">NdisRegisterProtocolDriver</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_send_net_buffer_lists_complete.md">
-   ProtocolSendNetBufferListsComplete</a>
-
-
-
-<a href="..\ndis\nc-ndis-set_options.md">ProtocolSetOptions</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_direct_oid_request_complete.md">
-   ProtocolDirectOidRequestComplete</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_close_adapter_complete_ex.md">
+<a href="https://msdn.microsoft.com/62cc047a-bc91-4e1e-817e-7fd509d4d90e">
    ProtocolCloseAdapterCompleteEx</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_net_pnp_event.md">ProtocolNetPnPEvent</a>
+<a href="https://msdn.microsoft.com/6b23bbba-1b18-4da7-a45c-68df7c960aad">
+   ProtocolDirectOidRequestComplete</a>
 
 
 
+<a href="https://msdn.microsoft.com/3f50bcba-c7d2-4d81-bd8b-6080e08fbe74">ProtocolNetPnPEvent</a>
+
+
+
+<a href="https://msdn.microsoft.com/2706577e-ba03-4347-9672-7303752ec0fe">ProtocolOidRequestComplete</a>
+
+
+
+<a href="https://msdn.microsoft.com/59d18822-8ce2-4506-90d7-9f1cdc7a9e10">
+   ProtocolOpenAdapterCompleteEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/c964b4b8-ab07-4a07-9965-5cc06c028c20">
+   ProtocolReceiveNetBufferLists</a>
+
+
+
+<a href="https://msdn.microsoft.com/bc9197c5-ce0b-42b2-8225-fb9d83427ac8">
+   ProtocolSendNetBufferListsComplete</a>
+
+
+
+<a href="https://msdn.microsoft.com/342e23ad-d38b-4100-949a-220b8fbdcf6e">ProtocolSetOptions</a>
+
+
+
+<a href="https://msdn.microsoft.com/5bc5a24f-5f28-4502-8776-b1cf15fd8283">ProtocolStatusEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/19fa7be2-acb9-42f6-bd9f-5be3e3c8b5fa">ProtocolUnbindAdapterEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/959baf54-849c-4bb1-b4c5-4d5537e1d688">ProtocolUninstall</a>
  
 
  
-
 

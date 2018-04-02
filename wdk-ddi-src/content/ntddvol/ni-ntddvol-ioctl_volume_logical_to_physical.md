@@ -7,7 +7,7 @@ old-location: storage\ioctl_volume_logical_to_physical.htm
 old-project: storage
 ms.assetid: deadee81-4a6d-4c8b-80fd-46c29becc2cf
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_VOLUME_LOGICAL_TO_PHYSICAL, IOCTL_VOLUME_LOGICAL_TO_PHYSICAL control code [Storage Devices], k307_a96f1e34-902f-4d5f-8935-96a963cfa041.xml, ntddvol/IOCTL_VOLUME_LOGICAL_TO_PHYSICAL, storage.ioctl_volume_logical_to_physical
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -66,7 +66,7 @@ The volume manager supports this IOCTL for all types of basic and dynamic volume
 
 ### -input-buffer
 
-Caller inserts the <a href="..\ntddvol\ns-ntddvol-_volume_logical_offset.md">VOLUME_LOGICAL_OFFSET</a> structure containing the logical offset at the beginning of the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>. 
+Caller inserts the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568018">VOLUME_LOGICAL_OFFSET</a> structure containing the logical offset at the beginning of the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>. 
 
 
 ### -input-buffer-length
@@ -77,7 +77,7 @@ Caller inserts the <a href="..\ntddvol\ns-ntddvol-_volume_logical_offset.md">VOL
 
 ### -output-buffer
 
-The output buffer size must be large enough to hold the structure <a href="..\ntddvol\ns-ntddvol-_volume_physical_offsets.md">VOLUME_PHYSICAL_OFFSETS</a>, which contains a variable-length array of structures of type <a href="..\ntddvol\ns-ntddvol-_volume_physical_offset.md">VOLUME_PHYSICAL_OFFSET</a>. 
+The output buffer size must be large enough to hold the structure <a href="https://msdn.microsoft.com/library/windows/hardware/ff568024">VOLUME_PHYSICAL_OFFSETS</a>, which contains a variable-length array of structures of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff568023">VOLUME_PHYSICAL_OFFSET</a>. 
 
 The volume manager returns one or more physical offsets and disk numbers in the VOLUME_PHYSICAL_OFFSETS structure at the beginning of the buffer, at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>. 
 
@@ -126,24 +126,23 @@ The input buffer is too small.
 
 ## -see-also
 
-<a href="..\ntddvol\ns-ntddvol-_volume_physical_offset.md">VOLUME_PHYSICAL_OFFSET</a>
 
 
 
-<a href="..\ntddvol\ns-ntddvol-_volume_logical_offset.md">VOLUME_LOGICAL_OFFSET</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561438">IOCTL_VOLUME_PHYSICAL_TO_LOGICAL</a>
 
 
 
-<a href="..\ntddvol\ns-ntddvol-_volume_physical_offsets.md">VOLUME_PHYSICAL_OFFSETS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568018">VOLUME_LOGICAL_OFFSET</a>
 
 
 
-<a href="..\ntddvol\ni-ntddvol-ioctl_volume_physical_to_logical.md">IOCTL_VOLUME_PHYSICAL_TO_LOGICAL</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568023">VOLUME_PHYSICAL_OFFSET</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568024">VOLUME_PHYSICAL_OFFSETS</a>
  
 
  
-
 

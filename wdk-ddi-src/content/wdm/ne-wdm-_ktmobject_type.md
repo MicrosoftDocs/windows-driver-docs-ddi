@@ -7,7 +7,7 @@ old-location: kernel\ktmobject_type.htm
 old-project: kernel
 ms.assetid: 0ace1cdf-0a15-48bb-9444-c947239e453e
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*PKTMOBJECT_TYPE, KTMOBJECT_ENLISTMENT, KTMOBJECT_INVALID, KTMOBJECT_RESOURCE_MANAGER, KTMOBJECT_TRANSACTION, KTMOBJECT_TRANSACTION_MANAGER, KTMOBJECT_TYPE, KTMOBJECT_TYPE enumeration [Kernel-Mode Driver Architecture], PKTMOBJECT_TYPE, PKTMOBJECT_TYPE enumeration pointer [Kernel-Mode Driver Architecture], _KTMOBJECT_TYPE, kernel.ktmobject_type, ktm_ref_1f145c7b-775d-4d0f-b5cd-1e09f5c5b438.xml, wdm/KTMOBJECT_ENLISTMENT, wdm/KTMOBJECT_INVALID, wdm/KTMOBJECT_RESOURCE_MANAGER, wdm/KTMOBJECT_TRANSACTION, wdm/KTMOBJECT_TRANSACTION_MANAGER, wdm/KTMOBJECT_TYPE, wdm/PKTMOBJECT_TYPE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,20 +53,6 @@ req.product: Windows 10 or later.
 The <b>KTMOBJECT_TYPE</b> enumeration identifies the types of objects that KTM supports.
 
 
-## -syntax
-
-
-````
-typedef enum _KTMOBJECT_TYPE { 
-  KTMOBJECT_TRANSACTION          = 0,
-  KTMOBJECT_TRANSACTION_MANAGER  = 1,
-  KTMOBJECT_RESOURCE_MANAGER     = 2,
-  KTMOBJECT_ENLISTMENT           = 3,
-  KTMOBJECT_INVALID              = 4
-} KTMOBJECT_TYPE, *PKTMOBJECT_TYPE;
-````
-
-
 ## -enum-fields
 
 
@@ -101,7 +87,7 @@ Invalid object type.
 
 
 
-The <b>KTMOBJECT_TYPE</b> enumeration is used with the <a href="..\wdm\nf-wdm-zwenumeratetransactionobject.md">ZwEnumerateTransactionObject</a> routine.
+The <b>KTMOBJECT_TYPE</b> enumeration is used with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566450">ZwEnumerateTransactionObject</a> routine.
 
 For more information about KTM objects, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554272">KTM Objects</a>.
 
@@ -110,12 +96,11 @@ For more information about KTM objects, see <a href="https://msdn.microsoft.com/
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwenumeratetransactionobject.md">ZwEnumerateTransactionObject</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566450">ZwEnumerateTransactionObject</a>
  
 
  
-
 

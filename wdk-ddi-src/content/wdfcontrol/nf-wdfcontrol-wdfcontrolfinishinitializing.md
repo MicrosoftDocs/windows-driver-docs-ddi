@@ -56,16 +56,6 @@ req.product: Windows 10 or later.
 The <b>WdfControlFinishInitializing</b> method informs the framework that a driver has finished initializing a specified control device object.
 
 
-## -syntax
-
-
-````
-VOID WdfControlFinishInitializing(
-  _In_ WDFDEVICE Device
-);
-````
-
-
 ## -parameters
 
 
@@ -98,7 +88,7 @@ For more information about control device objects and calling <b>WdfControlFinis
 
 #### Examples
 
-For a code example that uses <b>WdfControlFinishInitializing</b>, see <a href="..\wdfcontrol\nf-wdfcontrol-wdfcontroldeviceinitallocate.md">WdfControlDeviceInitAllocate</a>.
+For a code example that uses <b>WdfControlFinishInitializing</b>, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff545841">WdfControlDeviceInitAllocate</a>.
 
 <div class="code"></div>
 
