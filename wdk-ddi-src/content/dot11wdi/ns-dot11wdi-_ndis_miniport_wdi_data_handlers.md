@@ -235,7 +235,4 @@ The entry point of the <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_tal_txrx_pe
 
 ### -field TxSuspectFrameAbortHandler
 
- 
-
-
-
+The entry point of the [MiniportWdiTxSuspectFrameAbort](nc-dot11wdi-miniport_wdi_tx_suspect_frame_list_abort.md) handler function.

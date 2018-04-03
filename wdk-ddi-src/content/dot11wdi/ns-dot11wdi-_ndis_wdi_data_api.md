@@ -188,7 +188,7 @@ The entry point of the <a href="..\dot11wdi\nc-dot11wdi-ndis_wdi_free_wdi_frame_
 
 ### -field TxQuerySuspectFrameCompleteStatus
 
- 
+The entry point of the [NdisWdiTxQuerySuspectFrameCompleteStatus](nc-dot11wdi-ndis_wdi_tx_query_suspect_frame_complete_status.md) callback function.
 
 
 
