@@ -2,7 +2,7 @@
 UID: TP:netvista
 ms.assetid: 81753000-e53e-3c99-bde3-5c662c944380
 ms.author: windowsdriverdev
-ms.date: 04/02/18
+ms.date: 04/03/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -57,7 +57,6 @@ To develop Networking drivers for Windows Vista and later, you need these header
  * [tlvgenerated_.hpp](..\tlvgenerated_\index.md)
  * [tlvgeneratorparser.hpp](..\tlvgeneratorparser\index.md)
  * [vmbuskernelmodeclientlibapi.h](..\vmbuskernelmodeclientlibapi\index.md)
- * [vmbuskernelmodeclientlibapi.w](..\vmbuskernelmodeclientlibapi\index.md)
  * [wditypes.hpp](..\wditypes\index.md)
  * [windot11.h](..\windot11\index.md)
  * [wlanihv.h](..\wlanihv\index.md)

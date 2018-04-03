@@ -2,7 +2,7 @@
 UID: NA:rxstruc
 ms.assetid: 65762d53-73cb-3de7-a883-98912cb2a1da
 ms.author: windowsdriverdev
-ms.date: 04/02/18
+ms.date: 04/03/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

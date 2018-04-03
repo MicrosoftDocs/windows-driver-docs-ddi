@@ -2,7 +2,7 @@
 UID: NA:kusbfnclasslib
 ms.assetid: e96da8f7-4968-3170-b9b0-7a75c68f7233
 ms.author: windowsdriverdev
-ms.date: 04/02/18
+ms.date: 04/03/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

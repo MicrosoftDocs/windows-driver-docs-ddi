@@ -2,7 +2,7 @@
 UID: NA:netpowersettings
 ms.assetid: b8e5f183-7059-3894-b4fe-bb5b6b4cf813
 ms.author: windowsdriverdev
-ms.date: 04/02/18
+ms.date: 04/03/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -2,7 +2,7 @@
 UID: NA:netdma
 ms.assetid: e5a964e4-9c67-3eff-81bc-8f64c553c920
 ms.author: windowsdriverdev
-ms.date: 04/02/18
+ms.date: 04/03/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

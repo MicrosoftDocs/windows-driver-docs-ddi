@@ -2,7 +2,7 @@
 UID: TP:audio
 ms.assetid: 91b97f1d-92f1-3c32-955a-dd6524d5b764
 ms.author: windowsdriverdev
-ms.date: 04/02/18
+ms.date: 04/03/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -23,7 +23,6 @@ To develop Audio, you need these headers:
  * [drmk.h](..\drmk\index.md)
  * [hdaudio.h](..\hdaudio\index.md)
  * [keyworddetectoroemadapter.h](..\keyworddetectoroemadapter\index.md)
- * [keyworddetectoroemadapter.idl](..\keyworddetectoroemadapter\index.md)
  * [ksmedia.h](..\ksmedia\index.md)
  * [portcls.h](..\portcls\index.md)
  * [punknown.h](..\punknown\index.md)

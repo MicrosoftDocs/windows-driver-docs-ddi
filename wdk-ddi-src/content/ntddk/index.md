@@ -2,7 +2,7 @@
 UID: NA:ntddk
 ms.assetid: 8dc3fa19-767c-3b6c-bd75-864cd70d19d4
 ms.author: windowsdriverdev
-ms.date: 04/02/18
+ms.date: 04/03/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

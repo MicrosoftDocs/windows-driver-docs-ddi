@@ -2,7 +2,7 @@
 UID: NA:ntddstor
 ms.assetid: 10772569-e4d6-31f4-93aa-6bf1fcf4cb77
 ms.author: windowsdriverdev
-ms.date: 04/02/18
+ms.date: 04/03/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

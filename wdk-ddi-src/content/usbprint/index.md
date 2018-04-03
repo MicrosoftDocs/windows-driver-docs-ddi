@@ -2,7 +2,7 @@
 UID: NA:usbprint
 ms.assetid: d4ccb935-1ce5-3e92-bd28-a309ad34ad92
 ms.author: windowsdriverdev
-ms.date: 04/02/18
+ms.date: 04/03/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

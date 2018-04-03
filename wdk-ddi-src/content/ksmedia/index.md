@@ -2,7 +2,7 @@
 UID: NA:ksmedia
 ms.assetid: 8877c4ae-aa0c-3131-b21b-33fa24797743
 ms.author: windowsdriverdev
-ms.date: 04/02/18
+ms.date: 04/03/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -2,7 +2,7 @@
 UID: NA:scsiscan
 ms.assetid: fb5a05ac-d1d3-3550-a11a-67ef84846ede
 ms.author: windowsdriverdev
-ms.date: 04/02/18
+ms.date: 04/03/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

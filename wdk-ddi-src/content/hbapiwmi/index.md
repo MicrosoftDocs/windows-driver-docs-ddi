@@ -2,7 +2,7 @@
 UID: NA:hbapiwmi
 ms.assetid: 2d111291-ad47-3189-aac5-bdd3b2a649a6
 ms.author: windowsdriverdev
-ms.date: 04/02/18
+ms.date: 04/03/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -2,7 +2,7 @@
 UID: NA:wdfverifier
 ms.assetid: 55be84a6-d71f-3bf0-bac1-713c4f0cd148
 ms.author: windowsdriverdev
-ms.date: 04/02/18
+ms.date: 04/03/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

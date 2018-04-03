@@ -2,7 +2,7 @@
 UID: NA:wdfcollection
 ms.assetid: a30797da-902a-3e14-b05b-15072073ad05
 ms.author: windowsdriverdev
-ms.date: 04/02/18
+ms.date: 04/03/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

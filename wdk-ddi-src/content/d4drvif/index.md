@@ -2,7 +2,7 @@
 UID: NA:d4drvif
 ms.assetid: caf37378-22f9-3683-8178-815716ae30bc
 ms.author: windowsdriverdev
-ms.date: 04/02/18
+ms.date: 04/03/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

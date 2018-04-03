@@ -2,7 +2,7 @@
 UID: NA:pointofservicedriverinterface
 ms.assetid: d8f3ae77-dab5-34d2-a88f-30aa2fd8701d
 ms.author: windowsdriverdev
-ms.date: 04/02/18
+ms.date: 04/03/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

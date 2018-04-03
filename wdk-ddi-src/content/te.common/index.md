@@ -2,7 +2,7 @@
 UID: NA:te.common
 ms.assetid: ee34926c-6509-3ac0-8354-3a6a867a4315
 ms.author: windowsdriverdev
-ms.date: 04/02/18
+ms.date: 04/03/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

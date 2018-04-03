@@ -2,7 +2,7 @@
 UID: NA:nfcradiodev
 ms.assetid: a2e40268-54ff-3618-9467-4f9e48215b04
 ms.author: windowsdriverdev
-ms.date: 04/02/18
+ms.date: 04/03/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

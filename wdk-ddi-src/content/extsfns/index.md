@@ -2,7 +2,7 @@
 UID: NA:extsfns
 ms.assetid: 65a44f62-6646-38b2-b962-e5ad09608ad4
 ms.author: windowsdriverdev
-ms.date: 04/02/18
+ms.date: 04/03/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

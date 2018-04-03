@@ -2,7 +2,7 @@
 UID: NA:evntrace
 ms.assetid: fcc3998f-48cb-304e-b1db-f412543a8d72
 ms.author: windowsdriverdev
-ms.date: 04/02/18
+ms.date: 04/03/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

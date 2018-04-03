@@ -2,7 +2,7 @@
 UID: NA:wiamindr_lh
 ms.assetid: 8bb4455b-7b9a-3281-8f57-256069118040
 ms.author: windowsdriverdev
-ms.date: 04/02/18
+ms.date: 04/03/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

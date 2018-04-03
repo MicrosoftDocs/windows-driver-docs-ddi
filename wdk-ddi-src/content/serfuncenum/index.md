@@ -2,7 +2,7 @@
 UID: NA:serfuncenum
 ms.assetid: 20d8601e-c681-324e-869b-dea7c43f02dd
 ms.author: windowsdriverdev
-ms.date: 04/02/18
+ms.date: 04/03/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
