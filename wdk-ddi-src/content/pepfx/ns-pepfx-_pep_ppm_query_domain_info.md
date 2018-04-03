@@ -99,6 +99,9 @@ If PROCESSOR_DOMAIN_COORDIANTION_HW_ALL coordination is not used: this field is 
 
 On output, this value is TRUE if the PEP supports the requirements of scheduler directed performance transitions for this domain, FALSE otherwise. 
 
+### -field AffinitizePerfSet
+
+
 
 ### -field WorstCaseTransitionLatency
 
