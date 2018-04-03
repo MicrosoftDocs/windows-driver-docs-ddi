@@ -57,8 +57,6 @@ The <b>DMA_OPERATIONS</b> structure provides a table of pointers to functions th
 ## -struct-fields
 
 
-
-
 ### -field Size
 
 The size, in bytes, of this <b>DMA_OPERATIONS</b> structure.
@@ -206,30 +204,30 @@ A pointer to a system-defined routine that cancels a mapped transfer. <b>CancelM
 
 ### -field AllocateDomainCommonBuffer
 
+A pointer to a [*PALLOCATE_DOMAIN_COMMON_BUFFER*](nc-wdm-pallocate_domain_common_buffer.md) callback routine to allocate a domain common buffer. This option is available in Windows 10 and later versions.
  
-
 
 ### -field FlushDmaBuffer
 
- 
+A pointer to a [*PFLUSH_DMA_BUFFER*](nc-wdm-pflush_dma_buffer.md) callback function that flushes any data remaining in the cache. This option is available in Windows 10 and later versions.
 
 
 ### -field JoinDmaDomain
-
- 
+A pointer to a [*PJOIN_DMA_DOMAIN*](nc-wdm-pjoin_dma_domain.md) callback function that joins the specified DMA domain. This option is available in Windows 10 and later versions.
 
 
 ### -field LeaveDmaDomain
 
- 
+A pointer to a [*PLEAVE_DMA_DOMAIN*](nc-wdm-pleave_dma_domain.md) callback function that leaves the specified DMA domain. This option is available in Windows 10 and later versions. 
 
 
 ### -field GetDmaDomain
 
+A pointer to the [*PGET_DMA_DOMAIN*](nc-wdm-pget_dma_domain.md) callback function that gets a handle to the DMA domain. This option is available in Windows 10 and later versions.
  
+### -field AllocateCommonBufferWithBounds
 
-
-
+A pointer to a [*PALLOCATE_COMMON_BUFFER_WITH_BOUNDS*](nc-wdm-pallocate_common_buffer_with_bounds.md) callback function that allocates the memory for a common buffer and maps it so that it can be accessed by a master device and the CPU. The common buffer can be bound by an optional minimum and maximum logical address. This option is available starting in Windows 10, version 1803.
 
 ## -remarks
 

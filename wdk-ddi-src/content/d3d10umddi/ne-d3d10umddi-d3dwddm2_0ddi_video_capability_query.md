@@ -17,18 +17,18 @@ req.include-header: D3d10umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -90,6 +90,9 @@ The input structure is of type <a href="https://msdn.microsoft.com/library/windo
 
 
 
+### -field D3DWDDM2_4DDI_VIDEO_CAPABILITY_QUERY_DECODER_HISTOGRAM
+
+Query driver for decoder histogram support. The associated data structure is D3DWDDM2_4DDI_VIDEO_CAPABILITY_DECODER_HISTOGRAM.
 
 ## -see-also
 

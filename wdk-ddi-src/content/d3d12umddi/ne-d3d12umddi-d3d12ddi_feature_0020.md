@@ -15,20 +15,20 @@ ms.topic: enum
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -50,7 +50,7 @@ req.typenames: D3D12DDI_FEATURE_0020
 ## -description
 
 
-Contains available features.
+Direct3D 12 feature options that are supported by the current graphics driver.
 
 
 ## -enum-fields
@@ -60,19 +60,25 @@ Contains available features.
 
 ### -field D3D12DDI_FEATURE_0020_VIDEO
 
-A feature. 
+Supports video.
 
 
 ### -field D3D12DDI_FEATURE_0020_PASS_EXPERIMENT
 
+Supports pass experiments.
 
 ### -field D3D12DDI_FEATURE_0021_SHADERCACHING
 
+Supports shader cache.
 
 ### -field D3D12DDI_FEATURE_0030_CONTENT_PROTECTION_RESOURCES
 
+Supports content protection resources.
 
 ### -field D3D12DDI_FEATURE_0030_CONTENT_PROTECTION_STREAMING
 
+Supports content protection streaming.
 
+### -field D3D12DDI_FEATURE_0033_METACOMMAND
 
+Supports meta-commands.

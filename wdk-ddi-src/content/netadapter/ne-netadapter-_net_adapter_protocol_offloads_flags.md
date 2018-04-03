@@ -1,0 +1,70 @@
+---
+UID: NE:netadapter._NET_ADAPTER_PROTOCOL_OFFLOADS_FLAGS
+title: _NET_ADAPTER_PROTOCOL_OFFLOADS_FLAGS
+author: windows-driver-content
+description: Specifies the low power protocol offload capabilities of a network adapter.
+ms.assetid: 06a56aed-bad4-499c-adb6-3aa677ea2e88
+ms.author: windowsdriverdev
+ms.date: 02/05/2018
+ms.topic: enum
+ms.keywords: _NET_ADAPTER_PROTOCOL_OFFLOADS_FLAGS, NET_ADAPTER_PROTOCOL_OFFLOADS_FLAGS, 
+ms.prod: windows-hardware
+ms.technology: windows-devices
+req.header: netadapter.h
+req.include-header:
+req.target-type:
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver: 1.21
+req.umdf-ver:
+req.ddi-compliance:
+req.max-support:
+req.alt-api:
+req.alt-loc:
+req.typenames: NET_ADAPTER_PROTOCOL_OFFLOADS_FLAGS
+topictype: 
+-	apiref
+apitype: 
+-	HeaderDef
+apilocation: 
+-	netadapter.h
+apiname: 
+-	NET_ADAPTER_PROTOCOL_OFFLOADS_FLAGS
+product: Windows
+targetos: Windows
+req.product: Windows 10 or later.
+---
+
+# _NET_ADAPTER_PROTOCOL_OFFLOADS_FLAGS enumeration
+
+## -description
+
+> [!WARNING]
+> Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
+>
+> NetAdapterCx is preview only in Windows 10, version 1803.
+
+Specifies the low power protocol offload capabilities of a network adapter.
+
+## -enum-fields
+
+### -field NET_ADAPTER_PROTOCOL_OFFLOAD_ARP : 
+If this bit is set, the overlying driver will request the network adapter to enable the ARP protocol offload capability. As soon as this protocol offload has been configured by a set request of [OID_PM_ADD_PROTOCOL_OFFLOAD](https://docs.microsoft.com/windows-hardware/drivers/network/oid-pm-add-protocol-offload), the driver should enable the network adapter to respond to IPv4 ARP packets while it is in a low-power state.
+
+### -field NET_ADAPTER_PROTOCOL_OFFLOAD_NS : 
+If this bit is set, the overlying driver will request the network adapter to enable the IPv6 Neighbor Solicitation (NS) protocol offload capability. As soon as this protocol offload has been configured by a set request of [OID_PM_ADD_PROTOCOL_OFFLOAD](https://docs.microsoft.com/windows-hardware/drivers/network/oid-pm-add-protocol-offload), the driver should enable the network adapter to respond to NS packets while it is in a low-power state.
+
+### -field NET_ADAPTER_PROTOCOL_OFFLOAD_80211_RSN_REKEY : 
+If this bit is set, the overlying driver will request the network adapter to enable the IEEE 802.11i Robust Security Network (RSN) protocol offload capability. As soon as this protocol offload has been configured by a set request of [OID_PM_ADD_PROTOCOL_OFFLOAD](https://docs.microsoft.com/windows-hardware/drivers/network/oid-pm-add-protocol-offload), the driver should enable the network adapter to respond to RSN re-key requests packets while it is in a low power state.
+
+## -remarks
+
+The **NET_ADAPTER_PROTOCOL_OFFLOADS_FLAGS** enumeration is used to specify protocol offload capabilities in the [NET_ADAPTER_POWER_CAPABILITIES](ns-netadapter-_net_adapter_power_capabilities.md) structure.
+
+The client driver passes an initialized **NET_ADAPTER_POWER_CAPABILITIES** structure as an input parameter value to [NetAdapterSetPowerCapabilities](nf-netadapter-netadaptersetpowercapabilities.md).
+
+The minimum NetAdapterCx version for **NET_ADAPTER_PROTOCOL_OFFLOADS_FLAGS** is 1.0.
+
+## -see-also
+
+[NDIS_PM_PARAMETERS](../ntddndis/ns-ntddndis-_ndis_pm_parameters.md)

@@ -38,4 +38,4 @@
 ### [_SRIOV_MITIGATED_RANGE_UPDATE_OUTPUT structure](../pcivirt/ns-pcivirt-_sriov_mitigated_range_update_output.md)
 ### [_SRIOV_PNP_EVENT_COMPLETE structure](../pcivirt/ns-pcivirt-_sriov_pnp_event_complete.md)
 ### [_SRIOV_PROXY_QUERY_LUID_OUTPUT structure](../pcivirt/ns-pcivirt-_sriov_proxy_query_luid_output.md)
-### [_VPCI_PNP_ID structure](../pcivirt/ns-pcivirt-_vpci_pnp_id.md)
+

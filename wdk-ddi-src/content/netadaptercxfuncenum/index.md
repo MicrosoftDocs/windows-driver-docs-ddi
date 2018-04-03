@@ -9,8 +9,10 @@ ms.technology: windows-devices
 ms.topic: portal
 ---
 
-# Netadaptercxfuncenum.h header
+## -description
 
+This header is used by NetAdapterCx client drivers. For more information, see
+- [Network Adapter WDF Class Extension (Cx)](https://docs.microsoft.com/windows-hardware/drivers/netcx/)
 
 ## -description
 
