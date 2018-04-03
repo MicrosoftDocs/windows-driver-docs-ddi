@@ -78,7 +78,7 @@ If STATUS_SUCCESS is returned,
 	  the following table.  Be aware that the buffer is allocated by 
 	  <b>SeQueryInformationToken</b> 
 	  from paged pool. This buffer must eventually be freed by the caller by 
-	  using either 
+	  using 
 	  <a href="https://msdn.microsoft.com/library/windows/hardware/ff544590">ExFreePool</a>.
 	  
 
