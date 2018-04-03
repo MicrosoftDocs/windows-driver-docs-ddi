@@ -2,7 +2,7 @@
 UID: TP:image
 ms.assetid: 7b3b278b-3cff-355c-a263-9be80b8afde3
 ms.author: windowsdriverdev
-ms.date: 02/27/18
+ms.date: 04/02/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -11,6 +11,7 @@ ms.topic: portal
 
 # Imaging devices
 
+## -description
 
 Overview of the Imaging devices technology.
 

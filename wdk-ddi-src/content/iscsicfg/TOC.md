@@ -1,5 +1,7 @@
 # [Storage](../_storage/index.md)
 ## [Iscsicfg.h](index.md)
+### [ISCSI_ENCRYPTION_TYPES enumeration](../iscsicfg/ne-iscsicfg-iscsi_encryption_types.md)
+### [ISCSI_NIC_LINKSTATE enumeration](../iscsicfg/ne-iscsicfg-iscsi_nic_linkstate.md)
 ### [*PISCSI_ENCRYPTION_TYPES enumeration](../iscsicfg/ne-iscsicfg-piscsi_encryption_types.md)
 ### [*PISCSI_NIC_LINKSTATE enumeration](../iscsicfg/ne-iscsicfg-piscsi_nic_linkstate.md)
 ### [_MSiSCSI_BootConfiguration structure](../iscsicfg/ns-iscsicfg-_msiscsi_bootconfiguration.md)

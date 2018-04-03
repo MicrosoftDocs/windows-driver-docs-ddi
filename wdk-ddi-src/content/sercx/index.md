@@ -2,7 +2,7 @@
 UID: NA:sercx
 ms.assetid: 742ea1bd-45ef-3fce-abc3-5de9640cf02d
 ms.author: windowsdriverdev
-ms.date: 02/27/18
+ms.date: 04/02/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -12,9 +12,12 @@ ms.topic: portal
 # Sercx.h header
 
 
+## -description
 
-This header is used by serports. For more information, see
-- [serports](../_serports/index.md)
+
+This header is used by serports. For more information, see:
+
+- [Serial port](../_serports/index.md)
 
 This section contains reference information about the device driver interface (DDI) of the serial framework extension. Starting with Windows 8.1, version 2 of the serial framework extension (SerCx2) is a system-supplied component. SerCx2 replaces version 1 of the serial framework extension (SerCx), which was introduced in Windows 8.
 

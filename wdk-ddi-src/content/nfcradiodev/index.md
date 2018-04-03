@@ -2,7 +2,7 @@
 UID: NA:nfcradiodev
 ms.assetid: a2e40268-54ff-3618-9467-4f9e48215b04
 ms.author: windowsdriverdev
-ms.date: 02/27/18
+ms.date: 04/02/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -12,8 +12,11 @@ ms.topic: portal
 # Nfcradiodev.h header
 
 
+## -description
 
-This header is used by Near field communications (NFC). For more information, see
+
+This header is used by nfpdrivers. For more information, see:
+
 - [Near field communications (NFC)](../_nfpdrivers/index.md)
 
 The Radio Management DDI allows callers to the NFC device driver to set the power state of the proximity and secure element radios of the NFC device.

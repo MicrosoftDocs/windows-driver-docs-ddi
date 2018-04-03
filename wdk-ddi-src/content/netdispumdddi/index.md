@@ -2,7 +2,7 @@
 UID: NA:netdispumdddi
 ms.assetid: 1d7e00a7-9659-3240-83d0-8e90cdbbd29a
 ms.author: windowsdriverdev
-ms.date: 02/27/18
+ms.date: 04/02/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -12,8 +12,11 @@ ms.topic: portal
 # Netdispumdddi.h header
 
 
+## -description
 
-This header is used by Display. For more information, see
+
+This header is used by display. For more information, see:
+
 - [Display](../_display/index.md)
 
 The reference pages in this section describe wireless display (Miracast) user-mode functions that the operating system  implements. Only Miracast user-mode drivers can call these functions. For functions that the Miracast user-mode driver implements, see Wireless Display (Miracast) Functions Implemented By User-Mode Drivers.
