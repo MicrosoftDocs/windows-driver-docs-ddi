@@ -45,11 +45,14 @@ For information about this structure, see PCI-SIG ENGINEERING CHANGE NOTICE titl
 ## -struct-fields
 
 ### -field Header
- 
+
+
 ### -field DvsecHeader1
  
-### -field DvsecHeader2
  
+### -field DvsecHeader2
+
+
 ### -field DvsecRegisters
  
 
