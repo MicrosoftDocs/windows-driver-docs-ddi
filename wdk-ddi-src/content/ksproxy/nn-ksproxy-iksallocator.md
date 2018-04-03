@@ -39,7 +39,8 @@ api_location:
 -	Ksproxy.dll
 api_name:
 -	IKsAllocator
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PIPE_STATE
 ---

@@ -7,7 +7,7 @@ old-location: storage\ioctl_tape_get_media_params.htm
 old-project: storage
 ms.assetid: 4fd09b30-d63b-4b7f-9f6c-ef028e5e549f
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_TAPE_GET_MEDIA_PARAMS, IOCTL_TAPE_GET_MEDIA_PARAMS control code [Storage Devices], k307_c8991fab-1c8d-4792-9ecc-6bb7e4643e68.xml, ntddtape/IOCTL_TAPE_GET_MEDIA_PARAMS, storage.ioctl_tape_get_media_params
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ntddtape.h
 api_name:
 -	IOCTL_TAPE_GET_MEDIA_PARAMS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TAPE_DRIVE_PROBLEM_TYPE
 ---
@@ -72,7 +73,7 @@ None.
 
 ### -output-buffer
 
-The driver returns the <a href="..\ntddtape\ns-ntddtape-_tape_get_media_parameters.md">TAPE_GET_MEDIA_PARAMETERS</a> data in the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>. For a description of the TAPE_GET_MEDIA_PARAMETERS structure, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff567937">TapeMiniGetMediaParameters</a>.
+The driver returns the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567965">TAPE_GET_MEDIA_PARAMETERS</a> data in the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>. For a description of the TAPE_GET_MEDIA_PARAMETERS structure, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff567937">TapeMiniGetMediaParameters</a>.
 
 
 ### -output-buffer-length
@@ -105,20 +106,19 @@ The <b>Information</b> field is set to the number of bytes returned. The <b>Stat
 
 ## -see-also
 
-<a href="..\ntddtape\ns-ntddtape-_tape_get_media_parameters.md">TAPE_GET_MEDIA_PARAMETERS</a>
 
 
 
-<a href="..\minitape\ne-minitape-_tape_status.md">TAPE_STATUS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567965">TAPE_GET_MEDIA_PARAMETERS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567975">TAPE_STATUS</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567937">TapeMiniGetMediaParameters</a>
-
-
-
  
 
  
-
 

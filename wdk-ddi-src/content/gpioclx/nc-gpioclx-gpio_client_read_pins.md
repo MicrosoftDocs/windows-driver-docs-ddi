@@ -38,7 +38,8 @@ api_location:
 -	Gpioclx.h
 api_name:
 -	CLIENT_ReadGpioPins
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GNSS_V2UPL_NI_INFO, *PGNSS_V2UPL_NI_INFO
 ---
@@ -50,20 +51,6 @@ req.typenames: GNSS_V2UPL_NI_INFO, *PGNSS_V2UPL_NI_INFO
 
 
 The <i>CLIENT_ReadGpioPins</i> event callback function reads a set of general-purpose I/O (GPIO) pins that are configured as data inputs.
-
-
-## -prototype
-
-
-````
-GPIO_CLIENT_READ_PINS CLIENT_ReadGpioPins;
-
-NTSTATUS CLIENT_ReadGpioPins(
-  _In_    PVOID                      Context,
-  _Inout_ PGPIO_READ_PINS_PARAMETERS ReadParameters
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -145,15 +132,6 @@ The GPIO_CLIENT_READ_PINS function type is defined in the Gpioclx.h header file.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh698255">GPIO_READ_PINS_PARAMETERS</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439479">GPIO_CLIENT_REGISTRATION_PACKET</a>
 
 
 
@@ -161,12 +139,20 @@ The GPIO_CLIENT_READ_PINS function type is defined in the Gpioclx.h header file.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439479">GPIO_CLIENT_REGISTRATION_PACKET</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439490">GPIO_CLX_RegisterClient</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh698255">GPIO_READ_PINS_PARAMETERS</a>
  
 
  
-
 

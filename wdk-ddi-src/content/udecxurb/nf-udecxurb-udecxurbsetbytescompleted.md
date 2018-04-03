@@ -7,7 +7,7 @@ old-location: buses\udecxurbsetbytescompleted.htm
 old-project: usbref
 ms.assetid: 86C320B0-F679-4A8E-9015-D2BD8059A6CD
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: UdecxUrbSetBytesCompleted, UdecxUrbSetBytesCompleted function [Buses], buses.udecxurbsetbytescompleted, udecxurb/UdecxUrbSetBytesCompleted
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Udecxstub.dll
 api_name:
 -	UdecxUrbSetBytesCompleted
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USB_DEVICE_PORT_PATH, *PUSB_DEVICE_PORT_PATH
 req.product: Windows 10 or later.
@@ -55,17 +56,6 @@ Sets the number of bytes transferred for the URB contained within a framework  r
 
 
 
-## -syntax
-
-
-````
-FORCEINLINE void UdecxUrbSetBytesCompleted(
-  _In_ WDFREQUEST Request,
-  _In_ PULONG     Length
-);
-````
-
-
 ## -parameters
 
 
@@ -73,7 +63,7 @@ FORCEINLINE void UdecxUrbSetBytesCompleted(
 
 ### -param Request [in]
 
-A handle to a framework request object that contains the <a href="..\usb\ns-usb-_urb.md">URB</a> for the transfer.
+A handle to a framework request object that contains the <a href="https://msdn.microsoft.com/library/windows/hardware/ff538923">URB</a> for the transfer.
 
 
 ### -param BytesCompleted
@@ -85,7 +75,7 @@ TBD
 
 #### - Length [in]
 
-The number of transferred bytes to set in the <a href="..\usb\ns-usb-_urb.md">URB</a>. This value must not be greater than the transfer buffer length.
+The number of transferred bytes to set in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff538923">URB</a>. This value must not be greater than the transfer buffer length.
 
 
 ## -returns
@@ -99,7 +89,6 @@ This function does not return a value.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
 
 
 
@@ -107,8 +96,8 @@ This function does not return a value.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
  
 
  
-
 

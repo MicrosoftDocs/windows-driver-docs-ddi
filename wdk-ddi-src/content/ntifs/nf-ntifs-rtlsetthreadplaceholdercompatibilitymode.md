@@ -7,7 +7,7 @@ old-location: ifsk\rtlsetthreadplaceholdercompatibilitymode.htm
 old-project: ifsk
 ms.assetid: 0EA209B7-20B9-418F-AD29-83520ED27DAB
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: RtlSetThreadPlaceholderCompatibilityMode, RtlSetThreadPlaceholderCompatibilityMode routine [Installable File System Drivers], ifsk.rtlsetthreadplaceholdercompatibilitymode, ntifs/RtlSetThreadPlaceholderCompatibilityMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ntifs.h
 api_name:
 -	RtlSetThreadPlaceholderCompatibilityMode
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -53,16 +54,6 @@ req.typenames: TOKEN_TYPE
 <b>RtlSetThreadPlaceholderCompatibilityMode</b> is a routine which sets the placeholder compatibility mode for the current thread. This allows a thread to explicitly request that placeholder files be either disguised or exposed, overriding the application’s default mode for that thread only.
 
 
-
-
-## -syntax
-
-
-````
-CHAR RtlSetThreadPlaceholderCompatibilityMode(
-  _In_ CHAR Mode
-);
-````
 
 
 ## -parameters
@@ -130,12 +121,11 @@ Most Windows applications see exposed placeholders by default.  For compatibilit
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtlquerythreadplaceholdercompatibilitymode.md">RtlQueryThreadPlaceholderCompatibilityMode</a>
 
 
 
+<a href="https://msdn.microsoft.com/A38B30F9-D55B-4CC2-9B71-3B597ACCE0EB">RtlQueryThreadPlaceholderCompatibilityMode</a>
  
 
  
-
 

@@ -38,7 +38,8 @@ api_location:
 -	D4drvif.h
 api_name:
 -	DOT4_DC_DESTROY_DATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_DC_DESTROY_DATA, *PDOT4_DC_DESTROY_DATA
 ---
@@ -50,16 +51,6 @@ req.typenames: DOT4_DC_DESTROY_DATA, *PDOT4_DC_DESTROY_DATA
 
 
 This topic describes the <b>DOT4_DC_DESTROY_DATA</b> structure.
-
-
-## -syntax
-
-
-````
-typedef struct _DOT4_DC_DESTROY_DATA {
-  unsigned char bHsid;
-} DOT4_DC_DESTROY_DATA, *PDOT4_DC_DESTROY_DATA;
-````
 
 
 ## -struct-fields

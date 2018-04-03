@@ -7,7 +7,7 @@ old-location: netvista\ndismresetcomplete.htm
 old-project: netvista
 ms.assetid: 3da12a14-a90a-46a6-b67e-55044fdc3ca1
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NdisMResetComplete, NdisMResetComplete function [Network Drivers Starting with Windows Vista], miniport_ndis_functions_ref_cea3e0dd-c6cb-49a7-86e3-68b779a355d2.xml, ndis/NdisMResetComplete, netvista.ndismresetcomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	ndis.dll
 api_name:
 -	NdisMResetComplete
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
@@ -53,18 +54,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 The 
   <b>NdisMResetComplete</b> function returns the final status of a reset request for which the miniport driver
   previously returned NDIS_STATUS_PENDING.
-
-
-## -syntax
-
-
-````
-VOID NdisMResetComplete(
-  _In_ NDIS_HANDLE MiniportAdapterHandle,
-  _In_ NDIS_STATUS Status,
-  _In_ BOOLEAN     AddressingReset
-);
-````
 
 
 ## -parameters
@@ -111,7 +100,7 @@ For more information, see
 #### - MiniportAdapterHandle [in]
 
 The miniport adapter handle that NDIS originally passed to the 
-     <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a> function.
+     <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a> function.
 
 
 #### - Status [in]
@@ -124,7 +113,7 @@ The final status of the reset operation just completed
 
 
 If the 
-    <a href="..\ndis\nc-ndis-miniport_reset.md">MiniportResetEx</a> function returns
+    <a href="https://msdn.microsoft.com/15f82163-a1b5-4cef-a53e-8a97adb2cd92">MiniportResetEx</a> function returns
     NDIS_STATUS_PENDING, the miniport driver must call 
     <b>NdisMResetComplete</b> when it completes the reset operation.
 
@@ -134,7 +123,7 @@ Some NICs lose all multicast address, packet filter, or functional address infor
     reset is issued. The driver of such a NIC sets 
     <i>AddressingReset</i> to <b>TRUE</b> when it calls 
     <b>NdisMResetComplete</b>, causing NDIS to call its 
-    <a href="..\ndis\nc-ndis-miniport_oid_request.md">MiniportOidRequest</a> function to
+    <a href="https://msdn.microsoft.com/733d84f5-c1d4-42a0-a59b-4ba50247f165">MiniportOidRequest</a> function to
     restore the addressing state. For more information, see 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff546572">Hardware Reset</a>.
 
@@ -150,20 +139,19 @@ In NDIS 6.0 and later, callers of
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_reset.md">MiniportResetEx</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_oid_request.md">MiniportOidRequest</a>
+<a href="https://msdn.microsoft.com/733d84f5-c1d4-42a0-a59b-4ba50247f165">MiniportOidRequest</a>
 
 
 
+<a href="https://msdn.microsoft.com/15f82163-a1b5-4cef-a53e-8a97adb2cd92">MiniportResetEx</a>
  
 
  
-
 

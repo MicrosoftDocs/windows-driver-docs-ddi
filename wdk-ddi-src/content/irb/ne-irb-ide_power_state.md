@@ -7,7 +7,7 @@ old-location: storage\ide_power_state.htm
 old-project: storage
 ms.assetid: b54655ac-b7ac-4026-9d9d-75dd139ac059
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IDE_POWER_STATE, IDE_POWER_STATE enumeration [Storage Devices], IdePowerD0, IdePowerD3, IdePowerUnSpecified, irb/IDE_POWER_STATE, irb/IdePowerD0, irb/IdePowerD3, irb/IdePowerUnSpecified, storage.ide_power_state, structs-ATA_82594916-763d-46c4-9a40-e1e4f0c32e13.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	irb.h
 api_name:
 -	IDE_POWER_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: IDE_POWER_STATE
 ---
@@ -51,18 +52,6 @@ req.typenames: IDE_POWER_STATE
 
 The IDE_POWER_STATE enumeration type indicates that power state of the device.
 <div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
-
-## -syntax
-
-
-````
-typedef enum  { 
-  IdePowerUnSpecified  = 0,
-  IdePowerD0           = 1,
-  IdePowerD3           = 2
-} IDE_POWER_STATE;
-````
-
 
 ## -enum-fields
 
@@ -88,19 +77,18 @@ Indicates a device power level of 3.
 
 
 
-The IDE_POWER_STATE enumeration type is used in conjunction with the <a href="..\irb\nf-irb-ataportrequestpowerstatechange.md">AtaPortRequestPowerStateChange</a> routine to request a power state transition for a device.
+The IDE_POWER_STATE enumeration type is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550220">AtaPortRequestPowerStateChange</a> routine to request a power state transition for a device.
 
 
 
 
 ## -see-also
 
-<a href="..\irb\nf-irb-ataportrequestpowerstatechange.md">AtaPortRequestPowerStateChange</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550220">AtaPortRequestPowerStateChange</a>
  
 
  
-
 

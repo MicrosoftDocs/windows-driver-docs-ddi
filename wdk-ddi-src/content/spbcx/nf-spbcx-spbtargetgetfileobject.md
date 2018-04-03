@@ -39,7 +39,8 @@ api_location:
 -	spbcxstubs.dll
 api_name:
 -	SpbTargetGetFileObject
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SPB_REQUEST_TYPE, *PSPB_REQUEST_TYPE
 req.product: Windows 10 or later.
@@ -52,16 +53,6 @@ req.product: Windows 10 or later.
 
 
 The <b>SpbTargetGetFileObject</b> method accepts, as an input parameter, an SPBTARGET handle to an open target device, and returns a WDFFILEOBJECT handle to this target.
-
-
-## -syntax
-
-
-````
-WDFFILEOBJECT SpbTargetGetFileObject(
-  _In_ SPBTARGET Target
-);
-````
 
 
 ## -parameters
@@ -100,11 +91,10 @@ After <b>SpbTargetGetFileObject</b> returns a WDFFILEOBJECT handle, there is no 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/D90DD169-A989-4D08-B1B8-BDE7EC9B7A82">EvtSpbTargetConnect</a>
-
-
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/spb/spbcx-object-handles">SPBTARGET</a>
 
 
 
@@ -112,8 +102,8 @@ After <b>SpbTargetGetFileObject</b> returns a WDFFILEOBJECT handle, there is no 
 
 
 
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/spb/spbcx-object-handles">SPBTARGET</a>
  
 
  
-
 

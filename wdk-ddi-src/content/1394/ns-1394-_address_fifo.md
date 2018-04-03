@@ -38,7 +38,8 @@ api_location:
 -	1394.h
 api_name:
 -	ADDRESS_FIFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: ADDRESS_FIFO, *PADDRESS_FIFO
 ---
@@ -50,17 +51,6 @@ req.typenames: ADDRESS_FIFO, *PADDRESS_FIFO
 
 
 The ADDRESS_FIFO structure is an entry in a singly-linked list of MDLs used by the REQUEST_ALLOCATE_ADDRESS_RANGE IEEE 1394 bus request.
-
-
-## -syntax
-
-
-````
-typedef struct _ADDRESS_FIFO {
-  SLIST_ENTRY FifoList;
-  PMDL        FifoMdl;
-} ADDRESS_FIFO, *PADDRESS_FIFO;
-````
 
 
 ## -struct-fields
@@ -80,16 +70,15 @@ Specifies the MDL for the FIFO element described by this entry of the list.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537437">NOTIFICATION_INFO</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537632">REQUEST_ALLOCATE_ADDRESS_RANGE</a>
-
-
-
  
 
  
-
 

@@ -38,7 +38,8 @@ api_location:
 -	printoem.h
 api_name:
 -	OEMFontInstallerDlgProc
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STDVARIABLEINDEX
 req.product: Windows 10 or later.
@@ -50,19 +51,6 @@ req.product: Windows 10 or later.
 ## -description
 
 
-
-
-## -syntax
-
-
-````
-INT_PTR APIENTRY OEMFontInstallerDlgProc(
-   HWND   hWnd,
-   UINT   usMsg,
-   WPARAM wParam,
-   LPARAM lParam
-);
-````
 
 
 ## -parameters

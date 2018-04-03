@@ -7,7 +7,7 @@ old-location: audio\pcgetcontentrights.htm
 old-project: audio
 ms.assetid: a4e8aee0-d3ac-4086-99a3-a0339b198372
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/19/2018
 ms.keywords: PcGetContentRights, PcGetContentRights function [Audio Devices], audio.pcgetcontentrights, audpc-routines_0f94b5f4-2667-488d-a191-4cf13a1f3a27.xml, portcls/PcGetContentRights
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Portcls.dll
 api_name:
 -	PcGetContentRights
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
@@ -50,18 +51,7 @@ req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ## -description
 
 
-The <b>PcGetContentRights</b> function retrieves the DRM content rights assigned to a DRM content ID. Note that this function call is identical in operation to the <a href="..\drmk\nf-drmk-drmgetcontentrights.md">DrmGetContentRights</a> function, and its parameter definitions and return value are also identical.
-
-
-## -syntax
-
-
-````
-PORTCLASSAPI NTSTATUS NTAPI  PcGetContentRights(
-  _In_  ULONG      ContentId,
-  _Out_ PDRMRIGHTS DrmRights
-);
-````
+The <b>PcGetContentRights</b> function retrieves the DRM content rights assigned to a DRM content ID. Note that this function call is identical in operation to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536354">DrmGetContentRights</a> function, and its parameter definitions and return value are also identical.
 
 
 ## -parameters
@@ -76,14 +66,14 @@ Specifies the DRM content ID. This parameter identifies a KS audio stream.
 
 ### -param DrmRights [out]
 
-Specifies the DRM content rights that are assigned to the stream that is identified by <i>ContentId</i>. This parameter is a pointer to a <a href="..\drmk\ns-drmk-tagdrmrights.md">DRMRIGHTS</a> structure.
+Specifies the DRM content rights that are assigned to the stream that is identified by <i>ContentId</i>. This parameter is a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff536355">DRMRIGHTS</a> structure.
 
 
 ## -returns
 
 
 
-See return value definition in <a href="..\drmk\nf-drmk-drmgetcontentrights.md">DrmGetContentRights</a>.
+See return value definition in <a href="https://msdn.microsoft.com/library/windows/hardware/ff536354">DrmGetContentRights</a>.
 
 
 
@@ -92,19 +82,18 @@ See return value definition in <a href="..\drmk\nf-drmk-drmgetcontentrights.md">
 
 
 
-For more information, see the comments in <a href="..\drmk\nf-drmk-drmgetcontentrights.md">DrmGetContentRights</a>.
+For more information, see the comments in <a href="https://msdn.microsoft.com/library/windows/hardware/ff536354">DrmGetContentRights</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\drmk\nf-drmk-drmgetcontentrights.md">DrmGetContentRights</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536354">DrmGetContentRights</a>
  
 
  
-
 

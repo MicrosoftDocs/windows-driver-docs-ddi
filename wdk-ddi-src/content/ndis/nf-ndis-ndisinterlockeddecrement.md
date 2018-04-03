@@ -7,7 +7,7 @@ old-location: netvista\ndisinterlockeddecrement.htm
 old-project: netvista
 ms.assetid: cf425cd6-88e6-479f-a5c7-364ae896145d
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NdisInterlockedDecrement, NdisInterlockedDecrement macro [Network Drivers Starting with Windows Vista], ndis/NdisInterlockedDecrement, ndis_interlocked_ref_bbf1ad9d-0f18-4746-9fa3-b2b2c4101a41.xml, netvista.ndisinterlockeddecrement
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	ndis.dll
 api_name:
 -	NdisInterlockedDecrement
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
@@ -53,16 +54,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 The 
   <b>NdisInterlockedDecrement</b> function decrements a caller-supplied variable of type LONG as an atomic
   operation.
-
-
-## -syntax
-
-
-````
-LONG NdisInterlockedDecrement(
-  [in] PLONG Addend
-);
-````
 
 
 ## -parameters
@@ -89,12 +80,11 @@ A pointer to the variable to be decremented.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisinterlockedincrement.md">NdisInterlockedIncrement</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562752">NdisInterlockedIncrement</a>
  
 
  
-
 

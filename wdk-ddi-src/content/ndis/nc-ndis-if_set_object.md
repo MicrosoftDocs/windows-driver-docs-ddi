@@ -7,7 +7,7 @@ old-location: netvista\providersetobject.htm
 old-project: netvista
 ms.assetid: e5dcb46e-5a8a-45b7-b6aa-150a9cec0155
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*IFP_SET_OBJECT, *IFP_SET_OBJECT callback function [Network Drivers Starting with Windows Vista], IF_SET_OBJECT, ProviderSetObject, ProviderSetObject callback function [Network Drivers Starting with Windows Vista], ndis/ProviderSetObject, net_if_provider_functions_ref_8da505c4-dd64-43c8-a6a4-ad13cc4b18d0.xml, netvista.providersetobject"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ndis.h
 api_name:
 -	*IFP_SET_OBJECT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
 ---
@@ -53,24 +54,6 @@ The
   <i>ProviderSetObject</i> function sets information that is associated with a network interface.
 
 
-## -prototype
-
-
-````
-IF_SET_OBJECT ProviderSetObject;
-
-NDIS_STATUS ProviderSetObject(
-  _In_ NDIS_HANDLE      ProviderIfContext,
-  _In_ NET_IF_OBJECT_ID ObjectId,
-  _In_ ULONG            InputBufferLength,
-  _In_ PVOID            pInputBuffer
-)
-{ ... }
-
-typedef IF_SET_OBJECT *IFP_SET_OBJECT;
-````
-
-
 ## -parameters
 
 
@@ -80,7 +63,7 @@ typedef IF_SET_OBJECT *IFP_SET_OBJECT;
 
 A handle that identifies the interface provider's context area for the interface. The interface
      provider passed this handle to NDIS in a call to the 
-     <a href="..\ndis\nf-ndis-ndisifregisterinterface.md">
+     <a href="https://msdn.microsoft.com/d0b0ada7-afb1-4cb7-ada6-7c5c7abe7d19">
      NdisIfRegisterInterface</a> function.
 
 
@@ -185,12 +168,11 @@ NDIS calls
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisifregisterinterface.md">NdisIfRegisterInterface</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562715">NdisIfRegisterInterface</a>
  
 
  
-
 

@@ -38,7 +38,8 @@ api_location:
 -	Wiaservc.dll
 api_name:
 -	wiasWritePropFloat
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2
 req.product: Windows 10 or later.
@@ -51,18 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>wiasWritePropFloat </b>function writes a single floating-point property value to a WIA item.
-
-
-## -syntax
-
-
-````
-HRESULT _stdcall wiasWritePropFloat(
-  _In_ BYTE   *pWiasContext,
-       PROPID propid,
-       float  fVal
-);
-````
 
 
 ## -parameters
@@ -96,28 +85,27 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
 ## -see-also
 
-<a href="..\wiamdef\nf-wiamdef-wiaswritepropbin.md">wiasWritePropBin</a>
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiaswritepropguid.md">wiasWritePropGuid</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549320">wiasReadPropFloat</a>
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiaswritepropstr.md">wiasWritePropStr</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549500">wiasWritePropBin</a>
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiasreadpropfloat.md">wiasReadPropFloat</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549512">wiasWritePropGuid</a>
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiaswriteproplong.md">wiasWritePropLong</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549515">wiasWritePropLong</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549525">wiasWritePropStr</a>
  
 
  
-
 

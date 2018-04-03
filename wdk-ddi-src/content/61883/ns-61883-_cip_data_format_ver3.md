@@ -38,7 +38,8 @@ api_location:
 -	61883.h
 api_name:
 -	CIP_DATA_FORMAT_VER3
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CIP_DATA_FORMAT_VER3, *PCIP_DATA_FORMAT_VER3
 ---
@@ -50,26 +51,6 @@ req.typenames: CIP_DATA_FORMAT_VER3, *PCIP_DATA_FORMAT_VER3
 
 
 This structure is used by  	<b>CipDataFormat</b>.
-
-
-## -syntax
-
-
-````
-typedef struct _CIP_DATA_FORMAT_VER3 {
-  UCHAR   FMT;
-  UCHAR   FDF_hi;
-  UCHAR   FDF_mid;
-  UCHAR   FDF_lo;
-  BOOLEAN bHeader;
-  UCHAR   Padding;
-  UCHAR   BlockSize;
-  UCHAR   Fraction;
-  ULONG   BlockPeriod;
-  ULONG   BlockPeriodRemainder;
-  ULONG   BlocksPerPacket;
-} CIP_DATA_FORMAT_VER3, *PCIP_DATA_FORMAT_VER3;
-````
 
 
 ## -struct-fields
@@ -134,12 +115,11 @@ This member is the number of blocks per packet; used for blocking mode only
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537008">AV_61883_REQUEST</a>
-
-
-
  
 
  
-
 

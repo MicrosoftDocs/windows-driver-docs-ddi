@@ -38,7 +38,8 @@ api_location:
 -	stiusd.h
 api_name:
 -	IStiDeviceControl.GetMyDeviceOpenMode
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STI_WIA_DEVICE_INFORMATIONW, *PSTI_WIA_DEVICE_INFORMATIONW
 req.product: Windows 10 or later.
@@ -51,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>IStiDeviceControl::GetMyDeviceOpenMode</b> method allows a still image minidriver to obtain the transfer mode that an application specified when it created an instance of a still image device.
-
-
-## -syntax
-
-
-````
-HRESULT GetMyDeviceOpenMode(
-   LPDWORD pdwOpenMode
-);
-````
 
 
 ## -parameters

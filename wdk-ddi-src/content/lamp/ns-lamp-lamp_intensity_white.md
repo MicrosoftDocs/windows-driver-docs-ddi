@@ -38,7 +38,8 @@ api_location:
 -	lamp.h
 api_name:
 -	LAMP_INTENSITY_WHITE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: LAMP_INTENSITY_WHITE
 ---
@@ -49,17 +50,7 @@ req.typenames: LAMP_INTENSITY_WHITE
 ## -description
 
 
-This structure is the I/O parameter type of <a href="..\lamp\ni-lamp-ioctl_lamp_get_intensity_white.md">IOCTL_LAMP_GET_INTENSITY_WHITE</a> and <a href="..\lamp\ni-lamp-ioctl_lamp_set_intensity_white.md">IOCTL_LAMP_SET_INTENSITY_WHITE</a>.
-
-
-## -syntax
-
-
-````
-typedef struct LAMP_INTENSITY_WHITE {
-  BYTE Value;
-} LAMP_INTENSITY_WHITE;
-````
+This structure is the I/O parameter type of <a href="https://msdn.microsoft.com/9B9FD4A1-F005-4CB8-80E3-D8AA74F6B9FB">IOCTL_LAMP_GET_INTENSITY_WHITE</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/dn925078">IOCTL_LAMP_SET_INTENSITY_WHITE</a>.
 
 
 ## -struct-fields

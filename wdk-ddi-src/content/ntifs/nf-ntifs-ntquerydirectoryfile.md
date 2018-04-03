@@ -7,7 +7,7 @@ old-location: kernel\zwquerydirectoryfile.htm
 old-project: kernel
 ms.assetid: 47e88095-fab3-4fa2-814e-db04ce864e7e
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: NtQueryDirectoryFile, ZwQueryDirectoryFile, ZwQueryDirectoryFile routine [Kernel-Mode Driver Architecture], k111_ffed894d-20dc-416e-8759-073a0cee3229.xml, kernel.zwquerydirectoryfile, ntifs/NtQueryDirectoryFile, ntifs/ZwQueryDirectoryFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	ZwQueryDirectoryFile
 -	NtQueryDirectoryFile
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -53,26 +54,6 @@ req.typenames: TOKEN_TYPE
 The <b>ZwQueryDirectoryFile</b> routine returns various kinds of information about files in the directory specified by a given file handle.
 
 
-## -syntax
-
-
-````
-NTSTATUS ZwQueryDirectoryFile(
-  _In_     HANDLE                 FileHandle,
-  _In_opt_ HANDLE                 Event,
-  _In_opt_ PIO_APC_ROUTINE        ApcRoutine,
-  _In_opt_ PVOID                  ApcContext,
-  _Out_    PIO_STATUS_BLOCK       IoStatusBlock,
-  _Out_    PVOID                  FileInformation,
-  _In_     ULONG                  Length,
-  _In_     FILE_INFORMATION_CLASS FileInformationClass,
-  _In_     BOOLEAN                ReturnSingleEntry,
-  _In_opt_ PUNICODE_STRING        FileName,
-  _In_     BOOLEAN                RestartScan
-);
-````
-
-
 ## -parameters
 
 
@@ -80,7 +61,7 @@ NTSTATUS ZwQueryDirectoryFile(
 
 ### -param FileHandle [in]
 
-A handle returned by <a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a> or <a href="..\wdm\nf-wdm-zwopenfile.md">ZwOpenFile</a> for the file object that represents the directory for which information is being requested. The file object must have been opened for asynchronous I/O if the caller specifies a non-<b>NULL</b> value for <i>Event</i> or <i>ApcRoutine</i>.
+A handle returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff566424">ZwCreateFile</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff567011">ZwOpenFile</a> for the file object that represents the directory for which information is being requested. The file object must have been opened for asynchronous I/O if the caller specifies a non-<b>NULL</b> value for <i>Event</i> or <i>ApcRoutine</i>.
 
 
 ### -param Event [in, optional]
@@ -102,7 +83,7 @@ This parameter is optional and can be <b>NULL</b>. It must be <b>NULL</b> if <i>
 
 ### -param IoStatusBlock [out]
 
-A pointer to an <a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure that receives the final completion status and information about the operation. For successful calls that return data, the number of bytes written to the <i>FileInformation</i> buffer is returned in the structure's <b>Information</b> member.
+A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550671">IO_STATUS_BLOCK</a> structure that receives the final completion status and information about the operation. For successful calls that return data, the number of bytes written to the <i>FileInformation</i> buffer is returned in the structure's <b>Information</b> member.
 
 
 ### -param FileInformation [out]
@@ -130,7 +111,7 @@ The type of information to be returned about files in the directory. One of the 
 
 </td>
 <td>
-Return a <a href="..\ntifs\ns-ntifs-_file_both_dir_information.md">FILE_BOTH_DIR_INFORMATION</a> structure for each file.
+Return a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540235">FILE_BOTH_DIR_INFORMATION</a> structure for each file.
 
 </td>
 </tr>
@@ -140,7 +121,7 @@ Return a <a href="..\ntifs\ns-ntifs-_file_both_dir_information.md">FILE_BOTH_DIR
 
 </td>
 <td>
-Return a <a href="..\ntifs\ns-ntifs-_file_directory_information.md">FILE_DIRECTORY_INFORMATION</a> structure for each file.
+Return a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540248">FILE_DIRECTORY_INFORMATION</a> structure for each file.
 
 </td>
 </tr>
@@ -150,7 +131,7 @@ Return a <a href="..\ntifs\ns-ntifs-_file_directory_information.md">FILE_DIRECTO
 
 </td>
 <td>
-Return a <a href="..\ntifs\ns-ntifs-_file_full_dir_information.md">FILE_FULL_DIR_INFORMATION</a> structure for each file.
+Return a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540289">FILE_FULL_DIR_INFORMATION</a> structure for each file.
 
 </td>
 </tr>
@@ -160,7 +141,7 @@ Return a <a href="..\ntifs\ns-ntifs-_file_full_dir_information.md">FILE_FULL_DIR
 
 </td>
 <td>
-Return a <a href="..\ntifs\ns-ntifs-_file_id_both_dir_information.md">FILE_ID_BOTH_DIR_INFORMATION</a> structure for each file.
+Return a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540303">FILE_ID_BOTH_DIR_INFORMATION</a> structure for each file.
 
 </td>
 </tr>
@@ -170,7 +151,7 @@ Return a <a href="..\ntifs\ns-ntifs-_file_id_both_dir_information.md">FILE_ID_BO
 
 </td>
 <td>
-Return a <a href="..\ntifs\ns-ntifs-_file_id_full_dir_information.md">FILE_ID_FULL_DIR_INFORMATION</a> structure for each file.
+Return a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540310">FILE_ID_FULL_DIR_INFORMATION</a> structure for each file.
 
 </td>
 </tr>
@@ -180,7 +161,7 @@ Return a <a href="..\ntifs\ns-ntifs-_file_id_full_dir_information.md">FILE_ID_FU
 
 </td>
 <td>
-Return a <a href="..\ntifs\ns-ntifs-_file_names_information.md">FILE_NAMES_INFORMATION</a> structure for each file.
+Return a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540329">FILE_NAMES_INFORMATION</a> structure for each file.
 
 </td>
 </tr>
@@ -190,7 +171,7 @@ Return a <a href="..\ntifs\ns-ntifs-_file_names_information.md">FILE_NAMES_INFOR
 
 </td>
 <td>
-Return a <a href="..\ntifs\ns-ntifs-_file_objectid_information.md">FILE_OBJECTID_INFORMATION</a> structure for each file. This information class is valid only for NTFS volumes on Windows 2000 and later versions of Windows.
+Return a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540335">FILE_OBJECTID_INFORMATION</a> structure for each file. This information class is valid only for NTFS volumes on Windows 2000 and later versions of Windows.
 
 </td>
 </tr>
@@ -200,7 +181,7 @@ Return a <a href="..\ntifs\ns-ntifs-_file_objectid_information.md">FILE_OBJECTID
 
 </td>
 <td>
-Return a single <a href="..\ntifs\ns-ntifs-_file_reparse_point_information.md">FILE_REPARSE_POINT_INFORMATION</a> structure for the directory.
+Return a single <a href="https://msdn.microsoft.com/library/windows/hardware/ff540354">FILE_REPARSE_POINT_INFORMATION</a> structure for the directory.
 
 </td>
 </tr>
@@ -293,23 +274,42 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwopenfile.md">ZwOpenFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540235">FILE_BOTH_DIR_INFORMATION</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540248">FILE_DIRECTORY_INFORMATION</a>
 
 
 
-<a href="..\ntifs\ns-ntifs-_file_objectid_information.md">FILE_OBJECTID_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540289">FILE_FULL_DIR_INFORMATION</a>
 
 
 
-<a href="..\ntifs\ns-ntifs-_file_id_both_dir_information.md">FILE_ID_BOTH_DIR_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540303">FILE_ID_BOTH_DIR_INFORMATION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540310">FILE_ID_FULL_DIR_INFORMATION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540329">FILE_NAMES_INFORMATION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540335">FILE_OBJECTID_INFORMATION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540354">FILE_REPARSE_POINT_INFORMATION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
 
 
 
@@ -317,32 +317,12 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="..\ntifs\ns-ntifs-_file_full_dir_information.md">FILE_FULL_DIR_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566424">ZwCreateFile</a>
 
 
 
-<a href="..\ntifs\ns-ntifs-_file_directory_information.md">FILE_DIRECTORY_INFORMATION</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_file_id_full_dir_information.md">FILE_ID_FULL_DIR_INFORMATION</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_file_names_information.md">FILE_NAMES_INFORMATION</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_file_reparse_point_information.md">FILE_REPARSE_POINT_INFORMATION</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_file_both_dir_information.md">FILE_BOTH_DIR_INFORMATION</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567011">ZwOpenFile</a>
  
 
  
-
 

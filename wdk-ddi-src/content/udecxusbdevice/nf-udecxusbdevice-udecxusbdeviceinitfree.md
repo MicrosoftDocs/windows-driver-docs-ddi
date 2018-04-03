@@ -7,7 +7,7 @@ old-location: buses\udecxusbdeviceinitfree.htm
 old-project: usbref
 ms.assetid: BBFB8DAD-C187-4EB9-8EB0-BE28284437E1
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: UdecxUsbDeviceInitFree, UdecxUsbDeviceInitFree function [Buses], buses.udecxusbdeviceinitfree, udecxusbdevice/UdecxUsbDeviceInitFree
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Udecxstub.dll
 api_name:
 -	UdecxUsbDeviceInitFree
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UDECX_USB_DEVICE_WAKE_SETTING, *PUDECX_USB_DEVICE_WAKE_SETTING
 req.product: Windows 10 or later.
@@ -51,17 +52,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-Releases the resources that were allocated by the <a href="..\udecxusbdevice\nf-udecxusbdevice-udecxusbdeviceinitallocate.md">UdecxUsbDeviceInitAllocate</a> call. 
-
-
-## -syntax
-
-
-````
-void UdecxUsbDeviceInitFree(
-  _Inout_ PUDECXUSBDEVICE_INIT UdecxUsbDeviceInit
-);
-````
+Releases the resources that were allocated by the <a href="https://msdn.microsoft.com/library/windows/hardware/mt627968">UdecxUsbDeviceInitAllocate</a> call. 
 
 
 ## -parameters
@@ -71,7 +62,7 @@ void UdecxUsbDeviceInitFree(
 
 ### -param UdecxUsbDeviceInit [in, out]
 
-A pointer to a WDF-allocated structure that contains initialization parameters for the virtual USB device.  The client driver retrieved this pointer in the previous call to <a href="..\udecxusbdevice\nf-udecxusbdevice-udecxusbdeviceinitallocate.md">UdecxUsbDeviceInitAllocate</a>. 
+A pointer to a WDF-allocated structure that contains initialization parameters for the virtual USB device.  The client driver retrieved this pointer in the previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/mt627968">UdecxUsbDeviceInitAllocate</a>. 
 
 
 ## -returns
@@ -85,7 +76,6 @@ This function does not return a value.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
 
 
 
@@ -93,8 +83,8 @@ This function does not return a value.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
  
 
  
-
 

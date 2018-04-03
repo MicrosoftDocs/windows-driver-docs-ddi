@@ -38,7 +38,8 @@ api_location:
 -	Spbcx.h
 api_name:
 -	SPB_CONNECTION_PARAMETERS_INIT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SPB_REQUEST_TYPE, *PSPB_REQUEST_TYPE
 req.product: Windows 10 or later.
@@ -51,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>SPB_CONNECTION_PARAMETERS_INIT</b> function initializes an  <a href="https://msdn.microsoft.com/library/windows/hardware/hh406204">SPB_CONNECTION_PARAMETERS</a> structure.
-
-
-## -syntax
-
-
-````
-VOID SPB_CONNECTION_PARAMETERS_INIT(
-  _Out_ SPB_CONNECTION_PARAMETERS *Parameters
-);
-````
 
 
 ## -parameters
@@ -93,7 +84,6 @@ Your SPB controller driver must use this function to initialize an <b>SPB_CONNEC
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450926">SpbTargetGetConnectionParameters</a>
 
 
 
@@ -101,8 +91,8 @@ Your SPB controller driver must use this function to initialize an <b>SPB_CONNEC
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450926">SpbTargetGetConnectionParameters</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: ifsk\rxceallocateirpwithmdl.htm
 old-project: ifsk
 ms.assetid: ffc6332b-7daa-4b23-8cf4-6077f7d1d40a
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: RxCeAllocateIrpWithMDL, RxCeAllocateIrpWithMDL function [Installable File System Drivers], ifsk.rxceallocateirpwithmdl, rxce/RxCeAllocateIrpWithMDL, rxref_8cb4dfd0-5789-4359-ad9f-bd1a9d460eb3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	rxce.h
 api_name:
 -	RxCeAllocateIrpWithMDL
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILWRITEPHONEBOOKENTRYPARAMS, *LPRILWRITEPHONEBOOKENTRYPARAMS
 req.product: Windows 10 or later.
@@ -51,18 +52,6 @@ req.product: Windows 10 or later.
 
 
 <b>RxCeAllocateIrpWithMDL</b> allocates an IRP and associates it with an existing memory descriptor list. 
-
-
-## -syntax
-
-
-````
-PIRP RxCeAllocateIrpWithMDL(
-  _In_ CCHAR   StackSize,
-  _In_ BOOLEAN ChargeQuota,
-  _In_ PMDL    Buffer
-);
-````
 
 
 ## -parameters
@@ -109,16 +98,15 @@ An IRP allocated with an associated memory descriptor list allocated with <b>RxC
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
 
 
 
-<a href="..\rxce\nf-rxce-rxcefreeirp.md">RxCeFreeIrp</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554414">MDL</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553448">RxCeFreeIrp</a>
  
 
  
-
 

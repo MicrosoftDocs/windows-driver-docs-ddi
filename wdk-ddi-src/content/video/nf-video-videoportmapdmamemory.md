@@ -7,7 +7,7 @@ old-location: display\videoportmapdmamemory.htm
 old-project: display
 ms.assetid: 51148c26-c10d-4c57-9e3e-c7d82d6a1c79
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: VideoPortMapDmaMemory, VideoPortMapDmaMemory function [Display Devices], VideoPort_Functions_f2a97e55-d165-4884-a121-52e98f8f46cd.xml, display.videoportmapdmamemory, video/VideoPortMapDmaMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Videoprt.sys
 api_name:
 -	VideoPortMapDmaMemory
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
 req.product: Windows 10 or later.
@@ -55,23 +56,6 @@ The <b>VideoPortMapDmaMemory</b> function is <b>obsolete</b> in Windows 2000 and
 <b>VideoPortMapDmaMemory</b> maps a range of memory for use in DMA transfers.
 
 
-## -syntax
-
-
-````
-PDMA VideoPortMapDmaMemory(
-  _In_    PVOID                 HwDeviceExtension,
-  _In_    PVIDEO_REQUEST_PACKET pVrp,
-  _In_    PHYSICAL_ADDRESS      BoardAddress,
-  _In_    PULONG                Length,
-  _In_    PULONG                InIoSpace,
-  _In_    PVOID                 MappedUserEvent,
-  _In_    PVOID                 DisplayDriverEvent,
-  _Inout_ PVOID                 *VirtualAddress
-);
-````
-
-
 ## -parameters
 
 
@@ -84,7 +68,7 @@ Pointer to the miniport driver's device extension.
 
 ### -param pVrp [in]
 
-Pointer to a <a href="..\video\ns-video-_video_request_packet.md">VIDEO_REQUEST_PACKET</a>.
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff570547">VIDEO_REQUEST_PACKET</a>.
 
 
 ### -param BoardAddress [in]

@@ -7,7 +7,7 @@ old-location: kernel\ioassignarcname.htm
 old-project: kernel
 ms.assetid: ef8a132a-f593-4a25-bb9e-b4ed57801db2
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: IoAssignArcName, IoAssignArcName routine [Kernel-Mode Driver Architecture], k104_ceeba02c-47cf-4c25-a339-d55ee9ebc216.xml, kernel.ioassignarcname, ntddk/IoAssignArcName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	IoAssignArcName
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
@@ -50,17 +51,6 @@ req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 
 
 The <b>IoAssignArcName</b> routine creates a symbolic link between the ARC name of a physical device and the name of the corresponding device object when it has been created.
-
-
-## -syntax
-
-
-````
-VOID IoAssignArcName(
-  _In_ PUNICODE_STRING ArcName,
-  _In_ PUNICODE_STRING DeviceName
-);
-````
 
 
 ## -parameters
@@ -89,12 +79,11 @@ Drivers of hard disk devices need not call this routine. Drivers of other mass s
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548397">IoCreateDevice</a>
  
 
  
-
 

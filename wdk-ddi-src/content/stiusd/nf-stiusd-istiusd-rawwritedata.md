@@ -38,7 +38,8 @@ api_location:
 -	stiusd.h
 api_name:
 -	IStiUSD.RawWriteData
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STI_WIA_DEVICE_INFORMATIONW, *PSTI_WIA_DEVICE_INFORMATIONW
 req.product: Windows 10 or later.
@@ -51,18 +52,6 @@ req.product: Windows 10 or later.
 
 
 A still image minidriver's <b>IStiUSD::RawWriteData</b> method writes data to a still image device.
-
-
-## -syntax
-
-
-````
-HRESULT RawWriteData(
-   LPVOID       lpBuffer,
-   DWORD        dwNumberOfBytes,
-   LPOVERLAPPED lpOverlapped
-);
-````
 
 
 ## -parameters
@@ -110,7 +99,6 @@ A still image minidriver typically implements this method by calling <b>WriteFil
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/62740263-5bbb-48e1-be3d-9ee9cb37d6b9">IStiUSD</a>
 
 
 
@@ -118,8 +106,8 @@ A still image minidriver typically implements this method by calling <b>WriteFil
 
 
 
+<a href="https://msdn.microsoft.com/62740263-5bbb-48e1-be3d-9ee9cb37d6b9">IStiUSD</a>
  
 
  
-
 

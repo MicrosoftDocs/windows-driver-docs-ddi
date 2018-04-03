@@ -7,7 +7,7 @@ old-location: display\d3d12ddi_video_process_support_flags.htm
 old-project: display
 ms.assetid: 2E6E1F22-C6E8-4290-A342-B01387633D43
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3D12DDI_VIDEO_PROCESS_SUPPORT_FLAGS_0022, D3D12DDI_VIDEO_PROCESS_SUPPORT_FLAGS_0022 enumeration [Display Devices], D3D12DDI_VIDEO_PROCESS_SUPPORT_FLAG_0022_NONE, D3D12DDI_VIDEO_PROCESS_SUPPORT_FLAG_0022_SUPPORTED, d3d12umddi/D3D12DDI_VIDEO_PROCESS_SUPPORT_FLAGS_0022, d3d12umddi/D3D12DDI_VIDEO_PROCESS_SUPPORT_FLAG_0022_NONE, d3d12umddi/D3D12DDI_VIDEO_PROCESS_SUPPORT_FLAG_0022_SUPPORTED, display.d3d12ddi_video_process_support_flags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3d12umddi.h
 api_name:
 -	D3D12DDI_VIDEO_PROCESS_SUPPORT_FLAGS_0022
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D12DDI_VIDEO_PROCESS_SUPPORT_FLAGS_0022
 ---
@@ -50,17 +51,6 @@ req.typenames: D3D12DDI_VIDEO_PROCESS_SUPPORT_FLAGS_0022
 
 
 Contains values that specify whether the conversion from the source format and color space to destination format and color space is supported.
-
-
-## -syntax
-
-
-````
-typedef enum D3D12DDI_VIDEO_PROCESS_SUPPORT_FLAGS_0022 { 
-  D3D12DDI_VIDEO_PROCESS_SUPPORT_FLAG_0022_NONE       = 0,
-  D3D12DDI_VIDEO_PROCESS_SUPPORT_FLAG_0022_SUPPORTED  = 0x1
-} D3D12DDI_VIDEO_PROCESS_SUPPORT_FLAGS_0022;
-````
 
 
 ## -enum-fields

@@ -7,7 +7,7 @@ old-location: netvista\miniportenablemessageinterrupt.htm
 old-project: netvista
 ms.assetid: b0e1bbef-8116-4455-aa5c-7f47386a3700
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: MINIPORT_ENABLE_MESSAGE_INTERRUPT, MiniportEnableMessageInterrupt, MiniportEnableMessageInterrupt callback function [Network Drivers Starting with Windows Vista], ndis/MiniportEnableMessageInterrupt, ndis_interrupts_miniport_functions_ref_cc88ce4b-e75b-4da8-89aa-3d449451a0d3.xml, netvista.miniportenablemessageinterrupt
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ndis.h
 api_name:
 -	MiniportEnableMessageInterrupt
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
 ---
@@ -55,20 +56,6 @@ NDIS can call a miniport driver's
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>MINIPORT_ENABLE_MESSAGE_INTERRUPT</b> type.
    For more information, see the following Examples section.</div><div> </div>
 
-## -prototype
-
-
-````
-MINIPORT_ENABLE_MESSAGE_INTERRUPT MiniportEnableMessageInterrupt;
-
-VOID MiniportEnableMessageInterrupt(
-  _In_ NDIS_HANDLE MiniportInterruptContext,
-  _In_ ULONG       MessageId
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -78,7 +65,7 @@ VOID MiniportEnableMessageInterrupt(
 
 A handle to a block of context information. The miniport driver supplied this handle in the 
      <i>MiniportInterruptContext</i> parameter that the miniport driver passed to the 
-     <a href="..\ndis\nf-ndis-ndismregisterinterruptex.md">
+     <a href="https://msdn.microsoft.com/db0b3d51-5bbb-45fb-8c45-dda8c2212b5f">
      NdisMRegisterInterruptEx</a> function.
 
 
@@ -86,9 +73,9 @@ A handle to a block of context information. The miniport driver supplied this ha
 
 A message-signaled interrupt. 
      <i>MessageId</i> is an index to the 
-     <a href="..\wdm\ns-wdm-_io_interrupt_message_info_entry.md">
+     <a href="https://msdn.microsoft.com/e5007381-2436-4eb6-85cd-7145361ab793">
      IO_INTERRUPT_MESSAGE_INFO_ENTRY</a> structures inside a 
-     <a href="..\wdm\ns-wdm-_io_interrupt_message_info.md">
+     <a href="https://msdn.microsoft.com/d740d55e-6549-494d-9b2a-39d5c2e670d3">
      IO_INTERRUPT_MESSAGE_INFO</a> structure. NDIS passes a pointer to the associated
      IO_INTERRUPT_MESSAGE_INFO structure at the 
      <b>MessageInfoTable</b> member when the driver successfully registers for MSI with the 
@@ -110,22 +97,22 @@ None
 
 A miniport driver must provide a
     <i>MiniportEnableMessageInterrupt</i> function if the driver calls the 
-    <a href="..\ndis\nf-ndis-ndismregisterinterruptex.md">NdisMRegisterInterruptEx</a> function
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff563649">NdisMRegisterInterruptEx</a> function
     to register an interrupt.
 
 Miniport drivers should disable and enable a message interrupt as explained in the 
-    <a href="..\ndis\nc-ndis-miniport_message_interrupt.md">MiniportMessageInterrupt</a> and 
-    <a href="..\ndis\nc-ndis-miniport_message_interrupt_dpc.md">
+    <a href="https://msdn.microsoft.com/ec2e6f49-dc40-48e8-96dc-c9440a6662a3">MiniportMessageInterrupt</a> and 
+    <a href="https://msdn.microsoft.com/c1eca20b-eda1-442c-8644-798fa864d5d7">
     MiniportMessageInterruptDpc</a> reference pages.
 
 NDIS calls the 
     <i>MiniportEnableMessageInterrupt</i> and 
-    <a href="..\ndis\nc-ndis-miniport_disable_message_interrupt.md">
+    <a href="https://msdn.microsoft.com/68d2076d-c991-4219-b6c3-2399ff5c11a3">
     MiniportDisableMessageInterrupt</a> functions to enable and disable a message interrupt for diagnostic
     and troubleshooting purposes. Typically, 
     <i>MiniportEnableMessageInterrupt</i> and 
     <i>MiniportDisableMessageInterrupt</i> access miniport driver resources that are shared by the 
-    <a href="..\ndis\nc-ndis-miniport_message_interrupt.md">
+    <a href="https://msdn.microsoft.com/ec2e6f49-dc40-48e8-96dc-c9440a6662a3">
     MiniportMessageInterrupt</a> function. Therefore, NDIS calls these handlers at DIRQL.
 
 <h3><a id="Examples"></a><a id="examples"></a><a id="EXAMPLES"></a>Examples</h3>
@@ -170,39 +157,38 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_io_interrupt_message_info.md">IO_INTERRUPT_MESSAGE_INFO</a>
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_miniport_interrupt_characteristics.md">
-   NDIS_MINIPORT_INTERRUPT_CHARACTERISTICS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550576">IO_INTERRUPT_MESSAGE_INFO</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismregisterinterruptex.md">NdisMRegisterInterruptEx</a>
-
-
-
-<a href="..\wdm\ns-wdm-_io_interrupt_message_info_entry.md">
+<a href="https://msdn.microsoft.com/e5007381-2436-4eb6-85cd-7145361ab793">
    IO_INTERRUPT_MESSAGE_INFO_ENTRY</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_disable_message_interrupt.md">
+<a href="https://msdn.microsoft.com/68d2076d-c991-4219-b6c3-2399ff5c11a3">
    MiniportDisableMessageInterrupt</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_message_interrupt.md">MiniportMessageInterrupt</a>
+<a href="https://msdn.microsoft.com/ec2e6f49-dc40-48e8-96dc-c9440a6662a3">MiniportMessageInterrupt</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_message_interrupt_dpc.md">MiniportMessageInterruptDPC</a>
+<a href="https://msdn.microsoft.com/c1eca20b-eda1-442c-8644-798fa864d5d7">MiniportMessageInterruptDPC</a>
 
 
 
+<a href="https://msdn.microsoft.com/f4176e2d-d8d2-4e75-bccb-0c452da4d703">
+   NDIS_MINIPORT_INTERRUPT_CHARACTERISTICS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563649">NdisMRegisterInterruptEx</a>
  
 
  
-
 

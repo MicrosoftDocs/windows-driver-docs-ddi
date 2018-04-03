@@ -38,7 +38,8 @@ api_location:
 -	poscx.h
 api_name:
 -	PosCxIsDeviceOwner
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: POS_CX_EVENT_PRIORITY
 req.product: Windows 10 or later.
@@ -53,17 +54,6 @@ req.product: Windows 10 or later.
 PosCxIsDeviceOwner checks if the caller currently owns the claim on the device.
 
 
-## -syntax
-
-
-````
-BOOLEAN PosCxIsDeviceOwner(
-  _In_ WDFDEVICE     device,
-  _In_ WDFFILEOBJECT fileObject
-);
-````
-
-
 ## -parameters
 
 
@@ -76,7 +66,7 @@ A handle to a framework device object that represents the device.
 
 ### -param fileObject [in]
 
-      A handle to a framework file object that identifies the caller, usually acquired with <a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetfileobject.md">WdfRequestGetFileObject</a>. If this parameter is NULL, <b>PosCxIsDeviceOwner</b> returns TRUE if the device is not currently owned.
+      A handle to a framework file object that identifies the caller, usually acquired with <a href="https://msdn.microsoft.com/library/windows/hardware/ff549963">WdfRequestGetFileObject</a>. If this parameter is NULL, <b>PosCxIsDeviceOwner</b> returns TRUE if the device is not currently owned.
 
 
 ## -returns

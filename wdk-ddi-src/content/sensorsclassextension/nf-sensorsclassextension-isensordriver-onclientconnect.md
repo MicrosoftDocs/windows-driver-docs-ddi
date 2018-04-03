@@ -39,7 +39,8 @@ api_location:
 -	SensorsClassExtension.dll
 api_name:
 -	OnClientConnect
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SensorConnectionType
 req.product: Windows 10 or later.
@@ -52,17 +53,6 @@ req.product: Windows 10 or later.
 
 
 The <a href="https://msdn.microsoft.com/library/windows/hardware/ff545573">ISensorDriver::OnClientConnect</a> method notifies the sensor driver that a client application has connected.
-
-
-## -syntax
-
-
-````
-HRESULT OnClientConnect(
-   IWDFFile * pClientFile,
-   LPWSTR     pwszSensorID
-);
-````
 
 
 ## -parameters

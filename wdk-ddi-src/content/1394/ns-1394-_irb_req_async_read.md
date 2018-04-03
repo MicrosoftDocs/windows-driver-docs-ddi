@@ -38,7 +38,8 @@ api_location:
 -	1394.h
 api_name:
 -	IRB_REQ_ASYNC_READ
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: IRB_REQ_ASYNC_READ
 ---
@@ -50,26 +51,6 @@ req.typenames: IRB_REQ_ASYNC_READ
 
 
 This structure contains the fields necessary for the 1394 stack to carry out an asynchronous read request.
-
-
-## -syntax
-
-
-````
-typedef struct _IRB_REQ_ASYNC_READ {
-  IO_ADDRESS DestinationAddress;
-  ULONG      nNumberOfBytesToRead;
-  ULONG      nBlockSize;
-  ULONG      fulFlags;
-  PMDL       Mdl;
-  ULONG      ulGeneration;
-  UCHAR      chPriority;
-  UCHAR      nSpeed;
-  UCHAR      tCode;
-  UCHAR      Reserved;
-  ULONG      ElapsedTime;
-} IRB_REQ_ASYNC_READ;
-````
 
 
 ## -struct-fields

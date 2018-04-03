@@ -38,7 +38,8 @@ api_location:
 -	Prnasntp.h
 api_name:
 -	IPrintAsyncNotify.CreatePrintAsyncNotifyRegistration
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USERDATA, *PUSERDATA
 req.product: Windows 10 or later.
@@ -51,20 +52,6 @@ req.product: Windows 10 or later.
 
 
 
-
-
-## -syntax
-
-
-````
-HRESULT CreatePrintAsyncNotifyRegistration(
-  [in]  PrintAsyncNotificationType        *pType,
-  [in]  PrintAsyncNotifyUserFilter        filter,
-  [in]  PrintAsyncNotifyConversationStyle pStyle,
-  [in]  IPrintAsyncNotifyCallback         *pCallback,
-  [out] IPrintAsyncNotifyRegistration     **ppRegistration
-);
-````
 
 
 ## -parameters
@@ -105,12 +92,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\prnasntp\nn-prnasntp-iprintasyncnotify.md">IPrintAsyncNotify</a>
 
 
 
+<a href="https://msdn.microsoft.com/7C12C528-03B2-42B7-A73D-21DF3FEF1505">IPrintAsyncNotify</a>
  
 
  
-
 

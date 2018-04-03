@@ -7,7 +7,7 @@ old-location: ifsk\rxlockenumerator.htm
 old-project: ifsk
 ms.assetid: 8d14604f-c9e5-4a2d-bb51-ef1925b39118
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: RxLockEnumerator, RxLockEnumerator function [Installable File System Drivers], ifsk.rxlockenumerator, rxprocs/RxLockEnumerator, rxref_62372da9-aa80-447e-8e79-6bc1f1c5cf54.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	rxprocs.h
 api_name:
 -	RxLockEnumerator
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RX_CONTEXT, *PRX_CONTEXT
 req.product: Windows 10 or later.
@@ -51,20 +52,6 @@ req.product: Windows 10 or later.
 
 
 <b>RxLockEnumerator</b> is called from a network mini-redirector to enumerate the file locks on an FCB.
-
-
-## -syntax
-
-
-````
-BOOLEAN RxLockEnumerator(
-  _Inout_ PMRX_SRV_OPEN  SrvOpen,
-  _Inout_ PVOID          *ContinuationHandle,
-  _Out_   PLARGE_INTEGER FileOffset,
-  _Out_   PLARGE_INTEGER LockRange,
-  _Out_   PBOOLEAN       IsLockExclusive
-);
-````
 
 
 ## -parameters
@@ -119,7 +106,6 @@ The <b>RxLockEnumerator</b> routine needs to allocate non-paged pool memory in o
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/6cf4c6f6-a21f-4919-92b5-2403b650d8d0">The SRV_OPEN Structure</a>
 
 
 
@@ -127,8 +113,8 @@ The <b>RxLockEnumerator</b> routine needs to allocate non-paged pool memory in o
 
 
 
+<a href="https://msdn.microsoft.com/6cf4c6f6-a21f-4919-92b5-2403b650d8d0">The SRV_OPEN Structure</a>
  
 
  
-
 

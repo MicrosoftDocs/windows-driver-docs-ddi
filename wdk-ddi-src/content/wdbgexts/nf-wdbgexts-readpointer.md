@@ -7,7 +7,7 @@ old-location: debugger\readpointer.htm
 old-project: debugger
 ms.assetid: 354b1854-2b3b-4fcf-81cb-fd24595cd9bb
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: ReadPointer, ReadPointer function [Windows Debugging], WdbgExts_Ref_3d78e28a-910f-4b82-a262-28d83d87c6f1.xml, debugger.readpointer, wdbgexts/ReadPointer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	wdbgexts.h
 api_name:
 -	ReadPointer
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXT_TDOP
 req.product: Windows 10 or later.
@@ -51,17 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>ReadPointer</b> function reads a pointer from the target.
-
-
-## -syntax
-
-
-````
-__inline ULONG ReadPointer(
-   ULONG64  Address,
-   PULONG64 Pointer
-);
-````
 
 
 ## -parameters
@@ -100,12 +90,11 @@ If you are writing a WdbgExts extension, include <b>wdbgexts.h</b>. If you are w
 
 ## -see-also
 
-<a href="..\wdbgexts\nf-wdbgexts-writepointer.md">WritePointer</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561450">WritePointer</a>
  
 
  
-
 

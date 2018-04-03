@@ -7,7 +7,7 @@ old-location: ifsk\rtlispartialplaceholderfileinfo.htm
 old-project: ifsk
 ms.assetid: B84CC8C1-639D-45B4-A2A4-03BA2F1FF04B
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: RtlIsPartialPlaceholderFileInfo, RtlIsPartialPlaceholderFileInfo routine [Installable File System Drivers], ifsk.rtlispartialplaceholderfileinfo, ntifs/RtlIsPartialPlaceholderFileInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ntifs.h
 api_name:
 -	RtlIsPartialPlaceholderFileInfo
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -51,18 +52,6 @@ req.typenames: TOKEN_TYPE
 
 The <b>RtlIsPartialPlaceholderFileInfo</b> routine determines if a file is a known type of placeholder, based on the information
     returned by <b>NtQueryInformationFile</b> or <b>NtQueryDirectoryFile</b>.
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlIsPartialPlaceholderFileInfo(
-  _In_   CONST VOID            *InfoBuffer,
-  _In_  FILE_INFORMATION_CLASS InfoClass,
-  _Out_ PBOOLEAN               IsPartialPlaceholder
-);
-````
 
 
 ## -parameters
@@ -110,12 +99,11 @@ Returns<b> STATUS_SUCCESS</b> if IsPartialPlaceholder is valid and not undefined
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtlispartialplaceholder.md">RtlIsPartialPlaceholder</a>
 
 
 
+<a href="https://msdn.microsoft.com/FB47F5BE-76B4-4A99-A15F-DE3E11D1DA2B">RtlIsPartialPlaceholder</a>
  
 
  
-
 

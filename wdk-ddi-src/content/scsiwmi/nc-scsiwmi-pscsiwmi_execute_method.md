@@ -7,7 +7,7 @@ old-location: storage\hwscsiwmiexecutemethod.htm
 old-project: storage
 ms.assetid: 67a82442-591e-4e52-aaaf-b3cdb68c483a
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: HwScsiWmiExecuteMethod, HwScsiWmiExecuteMethod callback function [Storage Devices], PSCSIWMI_EXECUTE_METHOD, Scsimini_a0b3e943-a363-478d-9d68-09acf0c5b591.xml, scsiwmi/HwScsiWmiExecuteMethod, storage.hwscsiwmiexecutemethod
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	scsiwmi.h
 api_name:
 -	HwScsiWmiExecuteMethod
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SCSISCAN_INFO, *PSCSISCAN_INFO
 req.product: Windows 10 or later.
@@ -53,23 +54,6 @@ req.product: Windows 10 or later.
 A miniport driver's <b>HwScsiWmiExecuteMethod</b> routine is called to execute a method associated with a data block. This routine is optional.
 <div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
-## -prototype
-
-
-````
-BOOLEAN HwScsiWmiExecuteMethod(
-  _In_    PVOID                    DeviceContext,
-  _In_    PSCSIWMI_REQUEST_CONTEXT RequestContext,
-  _In_    ULONG                    GuidIndex,
-  _In_    ULONG                    InstanceIndex,
-  _In_    ULONG                    MethodId,
-  _In_    ULONG                    InBufferSize,
-  _In_    ULONG                    OutBufferSize,
-  _Inout_ PUCHAR                   Buffer
-);
-````
-
-
 ## -parameters
 
 
@@ -77,17 +61,17 @@ BOOLEAN HwScsiWmiExecuteMethod(
 
 ### -param DeviceContext [in]
 
-Points to the miniport driver-defined context value passed to <a href="..\scsiwmi\nf-scsiwmi-scsiportwmidispatchfunction.md">ScsiPortWmiDispatchFunction</a>. 
+Points to the miniport driver-defined context value passed to <a href="https://msdn.microsoft.com/library/windows/hardware/ff564766">ScsiPortWmiDispatchFunction</a>. 
 
 
 ### -param RequestContext [in]
 
-Points to the SCSIWMI_REQUEST_CONTEXT structure that the miniport driver passed to <a href="..\scsiwmi\nf-scsiwmi-scsiportwmidispatchfunction.md">ScsiPortWmiDispatchFunction</a>. 
+Points to the SCSIWMI_REQUEST_CONTEXT structure that the miniport driver passed to <a href="https://msdn.microsoft.com/library/windows/hardware/ff564766">ScsiPortWmiDispatchFunction</a>. 
 
 
 ### -param GuidIndex [in]
 
-Specifies the data block by its index into the list of GUIDs in the SCSI_WMILIB_CONTEXT structure that the miniport driver passed to <a href="..\scsiwmi\nf-scsiwmi-scsiportwmidispatchfunction.md">ScsiPortWmiDispatchFunction</a>. 
+Specifies the data block by its index into the list of GUIDs in the SCSI_WMILIB_CONTEXT structure that the miniport driver passed to <a href="https://msdn.microsoft.com/library/windows/hardware/ff564766">ScsiPortWmiDispatchFunction</a>. 
 
 
 ### -param InstanceIndex [in]
@@ -119,7 +103,7 @@ Points to a buffer that holds the input data and receives the output data, if an
 
 
 
-<b>HwScsiWmiExecuteMethod</b> returns SRB_STATUS_PENDING if the request is pending, or a nonzero SRB status value if the request was completed.  The SRB status value returned by this routine is the same as what was passed in to <a href="..\scsiwmi\nf-scsiwmi-scsiportwmipostprocess.md">ScsiPortWmiPostProcess</a>. Although the return value data type is BOOLEAN, the <b>HwScsiWmiExecuteMethod</b> routine actually returns an SRB status value.
+<b>HwScsiWmiExecuteMethod</b> returns SRB_STATUS_PENDING if the request is pending, or a nonzero SRB status value if the request was completed.  The SRB status value returned by this routine is the same as what was passed in to <a href="https://msdn.microsoft.com/library/windows/hardware/ff564796">ScsiPortWmiPostProcess</a>. Although the return value data type is BOOLEAN, the <b>HwScsiWmiExecuteMethod</b> routine actually returns an SRB status value.
 
 
 
@@ -128,37 +112,36 @@ Points to a buffer that holds the input data and receives the output data, if an
 
 
 
-When a miniport driver receives an SRB in which the <b>Function</b> member is set to SRB_FUNCTION_WMI, it calls <a href="..\scsiwmi\nf-scsiwmi-scsiportwmidispatchfunction.md">ScsiPortWmiDispatchFunction</a> with a pointer to an initialized SCSI_WMILIB_CONTEXT structure and <i>MinorFunction</i> set to <b>Srb-&gt;WmiSubFunction</b>. The SCSI port driver calls the miniport driver's <b>HwScsiWmiExecuteMethod</b> routine if <i>MinorFunction</i> indicates a request to execute a method.
+When a miniport driver receives an SRB in which the <b>Function</b> member is set to SRB_FUNCTION_WMI, it calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff564766">ScsiPortWmiDispatchFunction</a> with a pointer to an initialized SCSI_WMILIB_CONTEXT structure and <i>MinorFunction</i> set to <b>Srb-&gt;WmiSubFunction</b>. The SCSI port driver calls the miniport driver's <b>HwScsiWmiExecuteMethod</b> routine if <i>MinorFunction</i> indicates a request to execute a method.
 
-If a miniport driver does not implement a <b>HwScsiWmiExecuteMethod</b> routine, it must set <b>ExecuteWmiMethod</b> to <b>NULL</b> in the SCSI_WMILIB_CONTEXT the miniport driver passes to <a href="..\scsiwmi\nf-scsiwmi-scsiportwmidispatchfunction.md">ScsiPortWmiDispatchFunction</a>. In this case, the port driver returns SRB_STATUS_ERROR to the caller.
+If a miniport driver does not implement a <b>HwScsiWmiExecuteMethod</b> routine, it must set <b>ExecuteWmiMethod</b> to <b>NULL</b> in the SCSI_WMILIB_CONTEXT the miniport driver passes to <a href="https://msdn.microsoft.com/library/windows/hardware/ff564766">ScsiPortWmiDispatchFunction</a>. In this case, the port driver returns SRB_STATUS_ERROR to the caller.
 
-If the method generates output, the miniport driver should check the size of the output buffer in <i>OutBufferSize</i> before performing any operation that might have side effects or that should not be performed twice. For example, if a method returns the values of a group of counters and then resets the counters, the miniport driver should check the buffer size before resetting the counters. This ensures that the port driver can safely resend the request with a larger buffer. If the buffer is too small, the miniport driver should call <a href="..\scsiwmi\nf-scsiwmi-scsiportwmipostprocess.md">ScsiPortWmiPostProcess</a> with SRB_STATUS_DATA_OVERRUN and the size of the output buffer needed to fulfill the request. 
+If the method generates output, the miniport driver should check the size of the output buffer in <i>OutBufferSize</i> before performing any operation that might have side effects or that should not be performed twice. For example, if a method returns the values of a group of counters and then resets the counters, the miniport driver should check the buffer size before resetting the counters. This ensures that the port driver can safely resend the request with a larger buffer. If the buffer is too small, the miniport driver should call <a href="https://msdn.microsoft.com/library/windows/hardware/ff564796">ScsiPortWmiPostProcess</a> with SRB_STATUS_DATA_OVERRUN and the size of the output buffer needed to fulfill the request. 
 
-The miniport driver executes the method and writes output, if any, to the buffer. Before returning from <b>HwScsiWmiExecuteMethod</b>, the miniport driver calls <a href="..\scsiwmi\nf-scsiwmi-scsiportwmipostprocess.md">ScsiPortWmiPostProcess</a> with an appropriate <i>SrbStatus</i> value and the number of bytes used in the output buffer.
+The miniport driver executes the method and writes output, if any, to the buffer. Before returning from <b>HwScsiWmiExecuteMethod</b>, the miniport driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff564796">ScsiPortWmiPostProcess</a> with an appropriate <i>SrbStatus</i> value and the number of bytes used in the output buffer.
 
 
 
 
 ## -see-also
 
-<a href="..\scsiwmi\ns-scsiwmi-scsiwmi_request_context.md">SCSIWMI_REQUEST_CONTEXT</a>
 
 
 
-<a href="..\scsiwmi\nf-scsiwmi-scsiportwmipostprocess.md">ScsiPortWmiPostProcess</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564946">SCSIWMI_REQUEST_CONTEXT</a>
 
 
 
-<a href="..\scsiwmi\ns-scsiwmi-_scsiwmilib_context.md">SCSI_WMILIB_CONTEXT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565395">SCSI_WMILIB_CONTEXT</a>
 
 
 
-<a href="..\scsiwmi\nf-scsiwmi-scsiportwmidispatchfunction.md">ScsiPortWmiDispatchFunction</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564766">ScsiPortWmiDispatchFunction</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564796">ScsiPortWmiPostProcess</a>
  
 
  
-
 

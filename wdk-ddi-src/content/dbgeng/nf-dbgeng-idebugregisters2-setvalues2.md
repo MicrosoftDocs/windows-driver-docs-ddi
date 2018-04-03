@@ -7,7 +7,7 @@ old-location: debugger\setvalues2.htm
 old-project: debugger
 ms.assetid: 9505a0ce-4f4e-43af-97a2-653b5776c423
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: IDebugRegisters2, IDebugRegisters2 interface [Windows Debugging], SetValues2 method, IDebugRegisters2::SetValues2, IDebugRegisters_4e5c8f37-a5ad-4083-adb9-e75ec18542b2.xml, SetValues2 method [Windows Debugging], SetValues2 method [Windows Debugging], IDebugRegisters2 interface, SetValues2,IDebugRegisters2.SetValues2, dbgeng/IDebugRegisters2::SetValues2, debugger.setvalues2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugRegisters2.SetValues2
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -50,20 +51,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>SetValues2</b> method sets the value of several of the target's <a href="https://msdn.microsoft.com/library/windows/hardware/ff554369">registers</a>.
-
-
-## -syntax
-
-
-````
-HRESULT SetValues2(
-  [in]           ULONG        Source,
-  [in]           ULONG        Count,
-  [in, optional] PULONG       Indices,
-  [in]           ULONG        Start,
-  [in]           PDEBUG_VALUE Values
-);
-````
 
 
 ## -parameters
@@ -135,7 +122,7 @@ If <i>Indices</i> is <b>NULL</b>, the registers will be set consecutively starti
 
 ### -param Values [in]
 
-An array that contains the values to which to set the registers.  The number of elements that this array holds is <i>Count</i>.  See <a href="..\dbgeng\ns-dbgeng-_debug_value.md">DEBUG_VALUE</a> for a description of this parameter type.
+An array that contains the values to which to set the registers.  The number of elements that this array holds is <i>Count</i>.  See <a href="https://msdn.microsoft.com/library/windows/hardware/ff541719">DEBUG_VALUE</a> for a description of this parameter type.
 
 
 ## -returns
@@ -178,27 +165,26 @@ When a subregister is altered, the register that contains it is also altered.
 
 The method <a href="https://msdn.microsoft.com/library/windows/hardware/ff556883">SetValues</a> performs the same task as this method but always uses the target as the register source.
 
-For an overview of the <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRegisters</a> interface and other register-related methods, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554369">Registers</a>.
+For an overview of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550825">IDebugRegisters</a> interface and other register-related methods, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554369">Registers</a>.
 
 
 
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550835">IDebugRegisters2</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff597642">SetValue</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugregisters2.md">IDebugRegisters2</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556883">SetValues</a>
-
-
-
  
 
  
-
 

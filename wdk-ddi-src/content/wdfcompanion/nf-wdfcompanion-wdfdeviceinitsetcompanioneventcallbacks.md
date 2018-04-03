@@ -38,7 +38,8 @@ api_location:
 -	wdfcompanion.h
 api_name:
 -	WdfDeviceInitSetCompanionEventCallbacks
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_TASK_QUEUE_DISPATCH_TYPE
 req.product: Windows 10 or later.
@@ -52,17 +53,6 @@ req.product: Windows 10 or later.
 
 
 			For internal use only.
-
-
-## -syntax
-
-
-````
-VOID WdfDeviceInitSetCompanionEventCallbacks(
-  _In_ PWDFDEVICE_INIT                DeviceInit,
-  _In_ PWDF_COMPANION_EVENT_CALLBACKS CompanionEventCallbacks
-);
-````
 
 
 ## -parameters

@@ -38,7 +38,8 @@ api_location:
 -	wlanihv.h
 api_name:
 -	DOT11EXT_IHV_HANDLERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT11EXT_IHV_HANDLERS, *PDOT11EXT_IHV_HANDLERS
 req.product: Windows 10 or later.

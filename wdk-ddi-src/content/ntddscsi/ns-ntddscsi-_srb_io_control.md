@@ -7,7 +7,7 @@ old-location: storage\srb_io_control.htm
 old-project: storage
 ms.assetid: 754d2a4c-6a22-4c25-87e2-e30e87b9c1ba
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSRB_IO_CONTROL, PSRB_IO_CONTROL, PSRB_IO_CONTROL structure pointer [Storage Devices], SRB_IO_CONTROL, SRB_IO_CONTROL structure [Storage Devices], _SRB_IO_CONTROL, ntddscsi/PSRB_IO_CONTROL, ntddscsi/SRB_IO_CONTROL, storage.srb_io_control, structs-scsibus_d7cd0432-d4be-4609-a3f9-91ef842caf7e.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddscsi.h
 api_name:
 -	SRB_IO_CONTROL
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SRB_IO_CONTROL, *PSRB_IO_CONTROL
 ---
@@ -50,21 +51,6 @@ req.typenames: SRB_IO_CONTROL, *PSRB_IO_CONTROL
 
 
 <div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
-
-## -syntax
-
-
-````
-typedef struct _SRB_IO_CONTROL {
-  ULONG HeaderLength;
-  UCHAR Signature[8];
-  ULONG Timeout;
-  ULONG ControlCode;
-  ULONG ReturnCode;
-  ULONG Length;
-} SRB_IO_CONTROL, *PSRB_IO_CONTROL;
-````
-
 
 ## -struct-fields
 
@@ -112,7 +98,6 @@ This structure is used by applications to send requests directly to an applicati
 
 ## -see-also
 
-<a href="..\storport\ns-storport-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
 
 
 
@@ -120,8 +105,8 @@ SCSI Port I/O Control Codes
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565393">SCSI_REQUEST_BLOCK</a>
  
 
  
-
 

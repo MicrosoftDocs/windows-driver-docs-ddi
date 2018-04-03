@@ -38,7 +38,8 @@ api_location:
 -	61883.h
 api_name:
 -	UNIT_ISOCH_PARAMS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UNIT_ISOCH_PARAMS, *PUNIT_ISOCH_PARAMS
 ---
@@ -50,19 +51,6 @@ req.typenames: UNIT_ISOCH_PARAMS, *PUNIT_ISOCH_PARAMS
 
 
 The UNIT_ISOCH_PARAMS structure is used to get or set the parameters that the IEC-61883 protocol driver uses when capturing or transmitting isochronous packets.
-
-
-## -syntax
-
-
-````
-typedef struct _UNIT_ISOCH_PARAMS {
-  ULONG RX_NumPackets;
-  ULONG RX_NumDescriptors;
-  ULONG TX_NumPackets;
-  ULONG TX_NumDescriptors;
-} UNIT_ISOCH_PARAMS, *PUNIT_ISOCH_PARAMS;
-````
 
 
 ## -struct-fields
@@ -101,7 +89,6 @@ The UNIT_ISOCH_PARAMS structure can be used with <a href="https://msdn.microsoft
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537002">Av61883_SetUnitInfo</a>
 
 
 
@@ -109,8 +96,8 @@ The UNIT_ISOCH_PARAMS structure can be used with <a href="https://msdn.microsoft
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537002">Av61883_SetUnitInfo</a>
  
 
  
-
 

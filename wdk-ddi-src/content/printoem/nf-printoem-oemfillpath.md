@@ -38,7 +38,8 @@ api_location:
 -	printoem.h
 api_name:
 -	OEMEscape
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STDVARIABLEINDEX
 req.product: Windows 10 or later.
@@ -51,22 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <code>OEMFillPath</code> function handles the filling of closed paths.
-
-
-## -syntax
-
-
-````
-BOOL APIENTRY OEMEscape(
-   SURFOBJ  *pso,
-   PATHOBJ  *ppo,
-   CLIPOBJ  *pco,
-   BRUSHOBJ *pbo,
-   POINTL   *pptlBrushOrg,
-   MIX      mix,
-   FLONG    flOptions
-);
-````
 
 
 ## -parameters

@@ -7,7 +7,7 @@ old-location: ifsk\se_token_user.htm
 old-project: ifsk
 ms.assetid: 3B870461-0C5D-46DF-A850-EB796AE5A4CB
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: PSE_TOKEN_USER, PSE_TOKEN_USER structure pointer [Installable File System Drivers], SE_TOKEN_USER, SE_TOKEN_USER structure [Installable File System Drivers], _SE_TOKEN_USER, ifsk.se_token_user, ntifs/PSE_TOKEN_USER, ntifs/SE_TOKEN_USER
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntifs.h
 api_name:
 -	SE_TOKEN_USER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SE_TOKEN_USER, PSE_TOKEN_USER
 ---
@@ -49,24 +50,7 @@ req.typenames: SE_TOKEN_USER, PSE_TOKEN_USER
 ## -description
 
 
-The <b>SE_TOKEN_USER</b> structure holds the maximum-sized valid user SID that can be returned by <a href="..\ntifs\nf-ntifs-sequeryinformationtoken.md">SeQueryInformationToken</a>, <a href="https://msdn.microsoft.com/e94de19c-de12-40fb-a72c-060f7ad12f75">GetTokenInformation</a>, or <a href="..\ntifs\nf-ntifs-zwqueryinformationtoken.md">ZwQueryInformationToken</a> with the TokenUser information class. This structure is suitable for stack allocation.
-
-
-## -syntax
-
-
-````
-typedef struct _SE_TOKEN_USER {
-  union {
-    TOKEN_USER         TokenUser;
-    SID_AND_ATTRIBUTES User;
-  };
-  union {
-    SID   Sid;
-    UCHAR Buffer[SECURITY_MAX_SID_SIZE];
-  };
-} SE_TOKEN_USER, *PSE_TOKEN_USER;
-````
+The <b>SE_TOKEN_USER</b> structure holds the maximum-sized valid user SID that can be returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff556690">SeQueryInformationToken</a>, <a href="https://msdn.microsoft.com/e94de19c-de12-40fb-a72c-060f7ad12f75">GetTokenInformation</a>, or <a href="https://msdn.microsoft.com/library/windows/hardware/ff567055">ZwQueryInformationToken</a> with the TokenUser information class. This structure is suitable for stack allocation.
 
 
 ## -struct-fields
@@ -108,11 +92,10 @@ Specifies an <b>SID_AND_ATTRIBUTES</b> structure representing the user associate
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
 
 
 
-<a href="..\ntifs\ns-ntifs-_token_user.md">TOKEN_USER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a>
 
 
 
@@ -120,8 +103,8 @@ Specifies an <b>SID_AND_ATTRIBUTES</b> structure representing the user associate
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556855">TOKEN_USER</a>
  
 
  
-
 

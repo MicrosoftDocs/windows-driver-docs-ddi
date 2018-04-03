@@ -7,7 +7,7 @@ old-location: netvista\ril_verifyuicclock.htm
 old-project: netvista
 ms.assetid: e32e4b7d-715b-4eae-832f-314980ab89b3
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: RIL_VerifyUiccLock, RIL_VerifyUiccLock method [Network Drivers Starting with Windows Vista], netvista.ril_verifyuicclock, rilapi/RIL_VerifyUiccLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	rilapi.h
 api_name:
 -	RIL_VerifyUiccLock
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
+req.typenames: PTP_VENDOR_DATA_OUT, *PPTP_VENDOR_DATA_OUT
 req.product: Windows 10 or later.
 ---
 
@@ -53,18 +54,6 @@ req.product: Windows 10 or later.
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
             
-
-
-## -syntax
-
-
-````
-HRESULT  RIL_VerifyUiccLock(
-   HRIL                         hRil,
-   LPVOID                       lpContext,
-   const RILUICCLOCKCREDENTIAL  lpVerification
-);
-````
 
 
 ## -parameters

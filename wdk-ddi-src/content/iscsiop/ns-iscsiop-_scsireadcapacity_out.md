@@ -7,7 +7,7 @@ old-location: storage\scsireadcapacity_out.htm
 old-project: storage
 ms.assetid: 3330379f-e484-4fd7-b914-fc969398b56b
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PScsiReadCapacity_OUT, PScsiReadCapacity_OUT, PScsiReadCapacity_OUT structure pointer [Storage Devices], ScsiReadCapacity_OUT, ScsiReadCapacity_OUT structure [Storage Devices], _ScsiReadCapacity_OUT, iscsiop/PScsiReadCapacity_OUT, iscsiop/ScsiReadCapacity_OUT, storage.scsireadcapacity_out, structs-iSCSI_48750b99-26df-4890-b906-fa487efc3797.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	iscsiop.h
 api_name:
 -	ScsiReadCapacity_OUT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: ScsiReadCapacity_OUT, *PScsiReadCapacity_OUT
 ---
@@ -50,20 +51,6 @@ req.typenames: ScsiReadCapacity_OUT, *PScsiReadCapacity_OUT
 
 
 The ScsiReadCapacity_OUT structure holds the output data for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564890">ScsiReadCapacity</a> method.
-
-
-## -syntax
-
-
-````
-typedef struct _ScsiReadCapacity_OUT {
-  ULONG Status;
-  ULONG ResponseBufferSize;
-  UCHAR ScsiStatus;
-  UCHAR SenseBuffer[18];
-  UCHAR ResponseBuffer[1];
-} ScsiReadCapacity_OUT, *PScsiReadCapacity_OUT;
-````
 
 
 ## -struct-fields
@@ -107,11 +94,10 @@ You must implement this method.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
-
-
-
-<a href="..\iscsiop\ns-iscsiop-_scsireadcapacity_in.md">ScsiReadCapacity_IN</a>
 
 
 
@@ -119,8 +105,8 @@ You must implement this method.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564897">ScsiReadCapacity_IN</a>
  
 
  
-
 

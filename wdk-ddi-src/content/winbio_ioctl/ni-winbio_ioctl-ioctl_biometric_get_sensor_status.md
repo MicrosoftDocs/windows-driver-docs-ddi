@@ -38,7 +38,8 @@ api_location:
 -	Winbio_ioctl.h
 api_name:
 -	IOCTL_BIOMETRIC_GET_SENSOR_STATUS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BMP_IMAGE_INFO, *PBMP_IMAGE_INFO
 req.product: Windows 10 or later.
@@ -70,12 +71,12 @@ None.
 
 ### -output-buffer
 
-The <b>AssociatedIrp</b>.<b>SystemBuffer</b> member points to a buffer that contains a <a href="..\winbio_ioctl\ns-winbio_ioctl-_winbio_diagnostics.md">WINBIO_DIAGNOSTICS</a> structure.
+The <b>AssociatedIrp</b>.<b>SystemBuffer</b> member points to a buffer that contains a <a href="https://msdn.microsoft.com/library/windows/hardware/ff536470">WINBIO_DIAGNOSTICS</a> structure.
 
 
 ### -output-buffer-length
 
-The length of a <a href="..\winbio_ioctl\ns-winbio_ioctl-_winbio_diagnostics.md">WINBIO_DIAGNOSTICS</a> structure.
+The length of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff536470">WINBIO_DIAGNOSTICS</a> structure.
 
 The vendor-supplied driver can optionally return a DWORD-sized buffer that specifies the buffer size necessary for the requested operation.
 

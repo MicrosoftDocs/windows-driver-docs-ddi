@@ -7,7 +7,7 @@ old-location: netvista\wdi_roam_trigger.htm
 old-project: netvista
 ms.assetid: 7AFA084B-5EFC-429B-B6D1-F4E484B16921
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: WDI_ROAM_TRIGGER, WDI_ROAM_TRIGGER enumeration [Network Drivers Starting with Windows Vista], WDI_ROAM_TRIGGER_CRITICAL_BSS_TRANSITION_REQUEST, WDI_ROAM_TRIGGER_OTHER, _WDI_ROAM_TRIGGER, netvista.wdi_roam_trigger, wditypes/WDI_ROAM_TRIGGER, wditypes/WDI_ROAM_TRIGGER_CRITICAL_BSS_TRANSITION_REQUEST, wditypes/WDI_ROAM_TRIGGER_OTHER
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	wditypes.hpp
 api_name:
 -	WDI_ROAM_TRIGGER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDI_ROAM_TRIGGER
 req.product: Windows 10 or later.
@@ -51,17 +52,6 @@ req.product: Windows 10 or later.
 
 
 The WDI_ROAM_TRIGGER enumeration defines roam triggers.
-
-
-## -syntax
-
-
-````
-typedef enum _WDI_ROAM_TRIGGER { 
-  WDI_ROAM_TRIGGER_OTHER                            = 0x00000000,
-  WDI_ROAM_TRIGGER_CRITICAL_BSS_TRANSITION_REQUEST  = 0x00000001
-} WDI_ROAM_TRIGGER;
-````
 
 
 ## -enum-fields

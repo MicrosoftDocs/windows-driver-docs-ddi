@@ -38,7 +38,8 @@ api_location:
 -	filterpipeline.h
 api_name:
 -	IPartImage.GetImageProperties
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
@@ -50,16 +51,6 @@ req.typenames: EXpsFontRestriction
 
 
 The <b>GetImageProperties</b> method gets an image property that is based on the content type.
-
-
-## -syntax
-
-
-````
-HRESULT GetImageProperties(
-  [out] BSTR *pContentType
-);
-````
 
 
 ## -parameters

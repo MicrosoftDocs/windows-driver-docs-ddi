@@ -7,7 +7,7 @@ old-location: audio\iminiportstreamaudioenginenode_getstreamchannelvolume.htm
 old-project: audio
 ms.assetid: 0BD6FCB7-1705-4343-AD41-7362FE095ECB
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/19/2018
 ms.keywords: GetStreamChannelVolume method [Audio Devices], GetStreamChannelVolume method [Audio Devices], IMiniportStreamAudioEngineNode interface, GetStreamChannelVolume,IMiniportStreamAudioEngineNode.GetStreamChannelVolume, IMiniportStreamAudioEngineNode, IMiniportStreamAudioEngineNode interface [Audio Devices], GetStreamChannelVolume method, IMiniportStreamAudioEngineNode::GetStreamChannelVolume, audio.iminiportstreamaudioenginenode_getstreamchannelvolume, portcls/IMiniportStreamAudioEngineNode::GetStreamChannelVolume
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Portcls.h
 api_name:
 -	IMiniportStreamAudioEngineNode.GetStreamChannelVolume
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
@@ -50,17 +51,6 @@ req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 
 
 Gets the current volume level that is applied to the audio stream.
-
-
-## -syntax
-
-
-````
-NTSTATUS GetStreamChannelVolume(
-  [in]  UINT32  ulChannel,
-  [out] LONG   *plValue
-);
-````
 
 
 ## -parameters
@@ -91,12 +81,11 @@ code.
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iminiportstreamaudioenginenode.md">IMiniportStreamAudioEngineNode</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265090">IMiniportStreamAudioEngineNode</a>
  
 
  
-
 

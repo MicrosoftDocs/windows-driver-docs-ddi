@@ -7,7 +7,7 @@ old-location: display\d3dddiarg_copyflags.htm
 old-project: display
 ms.assetid: DA114D60-60EE-4D1D-B42C-A84CE54C8B95
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDIARG_COPYFLAGS, D3DDDIARG_COPYFLAGS structure [Display Devices], d3dumddi/D3DDDIARG_COPYFLAGS, display.d3dddiarg_copyflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3dumddi.h
 api_name:
 -	D3DDDIARG_COPYFLAGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDIARG_COPYFLAGS
 ---
@@ -50,25 +51,6 @@ req.typenames: D3DDDIARG_COPYFLAGS
 
 
 Describes how to handle the existing contents of a resource during a copy or update operation of a region within that resource. Used by Windows Display Driver Model (WDDM) 1.3 and later user-mode display drivers.
-
-
-## -syntax
-
-
-````
-typedef struct D3DDDIARG_COPYFLAGS {
-  union {
-    struct {
-      UINT NoOverwrite  :1;
-      UINT Discard  :1;
-      UINT Reserved1  :22;
-      UINT BoxValid  :1;
-      UINT Reserved2  :7;
-    };
-    UINT Value;
-  };
-} D3DDDIARG_COPYFLAGS;
-````
 
 
 ## -struct-fields
@@ -118,12 +100,11 @@ A member in the union that <b>D3DDDIARG_COPYFLAGS</b> contains that can hold a 3
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-d3dddiarg_updatesubresourceup.md">D3DDDIARG_UPDATESUBRESOURCEUP</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn449153">D3DDDIARG_UPDATESUBRESOURCEUP</a>
  
 
  
-
 

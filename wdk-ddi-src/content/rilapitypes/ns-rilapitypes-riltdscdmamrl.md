@@ -38,7 +38,8 @@ api_location:
 -	rilapitypes.h
 api_name:
 -	RILTDSCDMAMRL
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILTDSCDMAMRL, *LPRILTDSCDMAMRL
 req.product: Windows 10 or later.

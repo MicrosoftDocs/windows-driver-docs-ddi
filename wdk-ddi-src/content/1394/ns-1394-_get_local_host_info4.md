@@ -38,7 +38,8 @@ api_location:
 -	1394.h
 api_name:
 -	GET_LOCAL_HOST_INFO4
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GET_LOCAL_HOST_INFO4, *PGET_LOCAL_HOST_INFO4
 ---
@@ -50,17 +51,6 @@ req.typenames: GET_LOCAL_HOST_INFO4, *PGET_LOCAL_HOST_INFO4
 
 
 The GET_LOCAL_HOST_INFO4 structure contains the data returned by a <a href="https://msdn.microsoft.com/library/windows/hardware/ff537644">REQUEST_GET_LOCAL_HOST_INFO</a> request using <b>u.GetLocalHostInformation.nLevel</b> = GET_PHYS_ADDR_ROUTINE.
-
-
-## -syntax
-
-
-````
-typedef struct _GET_LOCAL_HOST_INFO4 {
-  PPORT_PHYS_ADDR_ROUTINE PhysAddrMappingRoutine;
-  PVOID                   Context;
-} GET_LOCAL_HOST_INFO4, *PGET_LOCAL_HOST_INFO4;
-````
 
 
 ## -struct-fields
@@ -96,7 +86,6 @@ Specifies the argument that should be passed as the Context argument of the phys
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537644">REQUEST_GET_LOCAL_HOST_INFO</a>
 
 
 
@@ -104,8 +93,8 @@ Specifies the argument that should be passed as the Context argument of the phys
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537644">REQUEST_GET_LOCAL_HOST_INFO</a>
  
 
  
-
 

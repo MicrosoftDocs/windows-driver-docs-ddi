@@ -38,7 +38,8 @@ api_location:
 -	Wiautil.h
 api_name:
 -	CWiauPropertyList.~CWiauPropertyList
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SKIP_AMOUNT
 req.product: Windows 10 or later.
@@ -51,14 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>CWiauPropertyList::~CWiauPropertyList</b> method is the destructor for the <b>CWiauPropertyList</b> class.
-
-
-## -syntax
-
-
-````
-void ~CWiauPropertyList();
-````
 
 
 ## -parameters
@@ -79,16 +72,15 @@ This method does not return a value.
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/4f11bec0-8ff4-4fa0-824c-71ce9774d5d1">CWiauPropertyList</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540389">CWiauPropertyList::CWiauPropertyList</a>
-
-
-
-<a href="..\wiautil\nl-wiautil-cwiaupropertylist.md">CWiauPropertyList</a>
-
-
-
  
 
  
-
 

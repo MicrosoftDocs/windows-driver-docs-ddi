@@ -7,7 +7,7 @@ old-location: display\d3dddiarg_updatesubresourceup.htm
 old-project: display
 ms.assetid: 27BE493F-8F70-4FBF-AA58-D6ACB27BFC2D
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDIARG_UPDATESUBRESOURCEUP, D3DDDIARG_UPDATESUBRESOURCEUP structure [Display Devices], d3dumddi/D3DDDIARG_UPDATESUBRESOURCEUP, display.d3dddiarg_updatesubresourceup
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3dumddi.h
 api_name:
 -	D3DDDIARG_UPDATESUBRESOURCEUP
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDIARG_UPDATESUBRESOURCEUP
 ---
@@ -50,22 +51,6 @@ req.typenames: D3DDDIARG_UPDATESUBRESOURCEUP
 
 
 Describes info that's used to update a destination subresource region from a source system-memory region. Used by Windows Display Driver Model (WDDM) 1.3 and later user-mode display drivers.
-
-
-## -syntax
-
-
-````
-typedef struct D3DDDIARG_UPDATESUBRESOURCEUP {
-  HANDLE              hResource;
-  UINT                SubResourceIndex;
-  D3DDDIBOX           DstBox;
-  const VOID          *pSysMemUP;
-  UINT                RowPitch;
-  UINT                DepthPitch;
-  D3DDDIARG_COPYFLAGS Flags;
-} D3DDDIARG_UPDATESUBRESOURCEUP;
-````
 
 
 ## -struct-fields
@@ -85,12 +70,12 @@ The index of the destination subresource to which data is to be copied.
 
 ### -field DstBox
 
-A destination region, of type  <a href="..\d3dumddi\ns-d3dumddi-_d3dddibox.md">D3DDDIBOX</a>, of the subresource to which data is to be copied. If <b>Flags</b>-&gt;<a href="..\d3dumddi\ns-d3dumddi-d3dddiarg_copyflags.md">BoxValid</a> is not set, the entire subresource must be updated.
+A destination region, of type  <a href="https://msdn.microsoft.com/library/windows/hardware/hh451148">D3DDDIBOX</a>, of the subresource to which data is to be copied. If <b>Flags</b>-&gt;<a href="https://msdn.microsoft.com/DA114D60-60EE-4D1D-B42C-A84CE54C8B95">BoxValid</a> is not set, the entire subresource must be updated.
 
 
 ### -field pSysMemUP
 
-A pointer to the beginning address of the source data that the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_updatesubresourceup.md">pfnUpdateSubresourceUP</a> function copies to update the destination subresouce.
+A pointer to the beginning address of the source data that the <a href="https://msdn.microsoft.com/5AF55FED-6FD6-41BE-A743-1E9D0EA51C9C">pfnUpdateSubresourceUP</a> function copies to update the destination subresouce.
 
 
 ### -field RowPitch
@@ -105,25 +90,24 @@ The offset, in bytes, to move to the next depth slice of source data.
 
 ### -field Flags
 
-A <a href="..\d3dumddi\ns-d3dumddi-d3dddiarg_copyflags.md">D3DDDIARG_COPYFLAGS</a> structure that specifies additional characteristics of the subresource update operation.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/dn449151">D3DDDIARG_COPYFLAGS</a> structure that specifies additional characteristics of the subresource update operation.
 
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-d3dddiarg_copyflags.md">D3DDDIARG_COPYFLAGS</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_updatesubresourceup.md">pfnUpdateSubresourceUP</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn449151">D3DDDIARG_COPYFLAGS</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddibox.md">D3DDDIBOX</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451148">D3DDDIBOX</a>
 
 
 
+<a href="https://msdn.microsoft.com/5AF55FED-6FD6-41BE-A743-1E9D0EA51C9C">pfnUpdateSubresourceUP</a>
  
 
  
-
 

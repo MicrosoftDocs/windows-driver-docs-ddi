@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KS_AMVPDATAINFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KS_AMVPDATAINFO, *PKS_AMVPDATAINFO
 ---
@@ -50,28 +51,6 @@ req.typenames: KS_AMVPDATAINFO, *PKS_AMVPDATAINFO
 
 
 The KS_AMVPDATAINFO structure is used to describe the properties of a video port.
-
-
-## -syntax
-
-
-````
-typedef struct tagKS_AMVPDATAINFO {
-  DWORD          dwSize;
-  DWORD          dwMicrosecondsPerField;
-  KS_AMVPDIMINFO amvpDimInfo;
-  DWORD          dwPictAspectRatioX;
-  DWORD          dwPictAspectRatioY;
-  BOOL           bEnableDoubleClock;
-  BOOL           bEnableVACT;
-  BOOL           bDataIsInterlaced;
-  LONG           lHalfLinesOdd;
-  BOOL           bFieldPolarityInverted;
-  DWORD          dwNumLinesInVREF;
-  LONG           lHalfLinesEven;
-  DWORD          dwReserved1;
-} KS_AMVPDATAINFO, *PKS_AMVPDATAINFO;
-````
 
 
 ## -struct-fields
@@ -155,12 +134,11 @@ This structure is used by the <a href="https://msdn.microsoft.com/library/window
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566513">KSPROPERTY_VPCONFIG_VPDATAINFO</a>
-
-
-
  
 
  
-
 

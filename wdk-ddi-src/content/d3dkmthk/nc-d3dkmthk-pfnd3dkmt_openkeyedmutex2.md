@@ -7,7 +7,7 @@ old-location: display\d3dkmtopenkeyedmutex2.htm
 old-project: display
 ms.assetid: 33140445-e312-4495-990a-033a87598fa1
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMTOpenKeyedMutex2, D3DKMTOpenKeyedMutex2 callback function [Display Devices], PFND3DKMT_OPENKEYEDMUTEX2, d3dkmthk/D3DKMTOpenKeyedMutex2, display.d3dkmtopenkeyedmutex2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3dkmthk.h
 api_name:
 -	D3DKMTOpenKeyedMutex2
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_TARGETMODE_DETAIL_TIMING
 ---
@@ -50,16 +51,6 @@ req.typenames: DXGK_TARGETMODE_DETAIL_TIMING
 
 
 Opens a keyed mutex object that includes private data.
-
-
-## -prototype
-
-
-````
-EXTERN_C _Check_return_ NTSTATUS APIENTRY D3DKMTOpenKeyedMutex2(
-  _Inout_ D3DKMT_OPENKEYEDMUTEX2 *pData
-);
-````
 
 
 ## -parameters
@@ -78,7 +69,7 @@ EXTERN_C _Check_return_ NTSTATUS APIENTRY D3DKMTOpenKeyedMutex2(
 
 #### - pData [in, out]
 
-A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_openkeyedmutex2.md">D3DKMT_OPENKEYEDMUTEX2</a> structure that describes a keyed mutex object that includes private data.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406490">D3DKMT_OPENKEYEDMUTEX2</a> structure that describes a keyed mutex object that includes private data.
 
 
 ## -returns
@@ -133,7 +124,7 @@ Parameters were validated and determined to be incorrect.
 </td>
 <td width="60%">
 
-<a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_openkeyedmutex2.md">D3DKMTOpenKeyedMutex2</a> could not complete because of insufficient memory.
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439405">D3DKMTOpenKeyedMutex2</a> could not complete because of insufficient memory.
 
 </td>
 </tr>
@@ -149,23 +140,22 @@ This function might also return other NTSTATUS values.
 
 
 
-<b>D3DKMTOpenKeyedMutex2</b> behaves like the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtopenkeyedmutex.md">D3DKMTOpenKeyedMutex</a> function but lets the caller specify private data to associate with the keyed mutex.
+<b>D3DKMTOpenKeyedMutex2</b> behaves like the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547054">D3DKMTOpenKeyedMutex</a> function but lets the caller specify private data to associate with the keyed mutex.
 
 
 
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtopenkeyedmutex.md">D3DKMTOpenKeyedMutex</a>
 
 
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_openkeyedmutex2.md">D3DKMT_OPENKEYEDMUTEX2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547054">D3DKMTOpenKeyedMutex</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406490">D3DKMT_OPENKEYEDMUTEX2</a>
  
 
  
-
 

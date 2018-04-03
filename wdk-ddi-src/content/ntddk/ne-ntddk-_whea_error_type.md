@@ -38,7 +38,8 @@ api_location:
 -	ntddk.h
 api_name:
 -	WHEA_ERROR_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WHEA_ERROR_TYPE, *PWHEA_ERROR_TYPE
 ---
@@ -50,22 +51,6 @@ req.typenames: WHEA_ERROR_TYPE, *PWHEA_ERROR_TYPE
 
 
 The WHEA_ERROR_TYPE enumeration defines the different types of hardware components that can report a hardware error.
-
-
-## -syntax
-
-
-````
-typedef enum _WHEA_ERROR_TYPE { 
-  WheaErrTypeProcessor   = 0,
-  WheaErrTypeMemory,
-  WheaErrTypePCIExpress,
-  WheaErrTypeNMI,
-  WheaErrTypePCIXBus,
-  WheaErrTypePCIXDevice,
-  WheaErrTypeGeneric
-} WHEA_ERROR_TYPE, *PWHEA_ERROR_TYPE;
-````
 
 
 ## -enum-fields
@@ -119,12 +104,11 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560465">WHEA_
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560465">WHEA_ERROR_PACKET</a>
-
-
-
  
 
  
-
 

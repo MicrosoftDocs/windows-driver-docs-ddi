@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	IPrintJob.SubmissionTime
 -	IPrintJob.get_SubmissionTime
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PrintSchemaSelectionType
 req.product: Windows 10 or later.
@@ -56,27 +57,16 @@ Gets the submission time, in the “DATE” format, provided in the user’s loc
 This property is read-only.
 
 
-## -syntax
-
-
-````
-HRESULT get_SubmissionTime(
-  [out, retval] DATE *pSubmissionTime
-);
-````
-
-
 ## -parameters
 
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintjob.md">IPrintJob</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265396">IPrintJob</a>
  
 
  
-
 

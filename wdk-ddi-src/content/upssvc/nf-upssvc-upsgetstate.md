@@ -38,7 +38,8 @@ api_location:
 -	Upssvc.h
 api_name:
 -	UPSGetState
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UMDETW_ALLOCATION_USAGE
 req.product: Windows 10 or later.
@@ -51,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>UPSGetState</b> function returns the operational state of the UPS.
-
-
-## -syntax
-
-
-````
-DWORD UPSGetState(
-   void 
-);
-````
 
 
 ## -parameters

@@ -7,7 +7,7 @@ old-location: display\dxgk_glitch_cause.htm
 old-project: display
 ms.assetid: A0356AE8-3A82-4722-9F46-8FE05646BF10
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGK_GLITCH_CAUSE, DXGK_GLITCH_CAUSE enumeration [Display Devices], DXGK_GLITCH_CAUSE_DRIVER_ERROR, DXGK_GLITCH_CAUSE_ENCODER_RECONFIG, DXGK_GLITCH_CAUSE_MEMORY_TIMING, DXGK_GLITCH_CAUSE_METADATA_CHANGE, DXGK_GLITCH_CAUSE_MODIFIED_WIRE_USAGE, DXGK_GLITCH_CAUSE_NONE, DXGK_GLITCH_CAUSE_PIPELINE_CHANGE, DXGK_GLITCH_CAUSE_TIMING_CHANGE, _DXGK_GLITCH_CAUSE, d3dkmddi/DXGK_GLITCH_CAUSE, d3dkmddi/DXGK_GLITCH_CAUSE_DRIVER_ERROR, d3dkmddi/DXGK_GLITCH_CAUSE_ENCODER_RECONFIG, d3dkmddi/DXGK_GLITCH_CAUSE_MEMORY_TIMING, d3dkmddi/DXGK_GLITCH_CAUSE_METADATA_CHANGE, d3dkmddi/DXGK_GLITCH_CAUSE_MODIFIED_WIRE_USAGE, d3dkmddi/DXGK_GLITCH_CAUSE_NONE, d3dkmddi/DXGK_GLITCH_CAUSE_PIPELINE_CHANGE, d3dkmddi/DXGK_GLITCH_CAUSE_TIMING_CHANGE, display.dxgk_glitch_cause
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGK_GLITCH_CAUSE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_GLITCH_CAUSE
 ---
@@ -50,23 +51,6 @@ req.typenames: DXGK_GLITCH_CAUSE
 
 
 Enumeration that describes what caused a glitch during a SetTimingsFromVidPn call.
-
-
-## -syntax
-
-
-````
-typedef enum _DXGK_GLITCH_CAUSE { 
-  DXGK_GLITCH_CAUSE_DRIVER_ERROR         = 0,
-  DXGK_GLITCH_CAUSE_TIMING_CHANGE        = 1,
-  DXGK_GLITCH_CAUSE_PIPELINE_CHANGE      = 2,
-  DXGK_GLITCH_CAUSE_MEMORY_TIMING        = 3,
-  DXGK_GLITCH_CAUSE_ENCODER_RECONFIG     = 4,
-  DXGK_GLITCH_CAUSE_MODIFIED_WIRE_USAGE  = 5,
-  DXGK_GLITCH_CAUSE_METADATA_CHANGE      = 6,
-  DXGK_GLITCH_CAUSE_NONE                 = 255
-} DXGK_GLITCH_CAUSE;
-````
 
 
 ## -enum-fields

@@ -7,7 +7,7 @@ old-location: kernel\counted_reason_context.htm
 old-project: kernel
 ms.assetid: beb17d50-d99a-4baf-99bd-9f42fbea0478
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*PCOUNTED_REASON_CONTEXT, COUNTED_REASON_CONTEXT, COUNTED_REASON_CONTEXT structure [Kernel-Mode Driver Architecture], PCOUNTED_REASON_CONTEXT, PCOUNTED_REASON_CONTEXT structure pointer [Kernel-Mode Driver Architecture], _COUNTED_REASON_CONTEXT, kernel.counted_reason_context, kstruct_a_52baf683-dfd2-4004-abed-e9ae6221c342.xml, wdm/COUNTED_REASON_CONTEXT, wdm/PCOUNTED_REASON_CONTEXT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	wdm.h
 api_name:
 -	COUNTED_REASON_CONTEXT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: COUNTED_REASON_CONTEXT, *PCOUNTED_REASON_CONTEXT
 req.product: Windows 10 or later.
@@ -51,26 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>COUNTED_REASON_CONTEXT</b> structure contains one or more strings that give reasons for a power request.
-
-
-## -syntax
-
-
-````
-typedef struct _COUNTED_REASON_CONTEXT {
-  ULONG Version;
-  ULONG Flags;
-  union {
-    struct {
-      UNICODE_STRING  ResourceFileName;
-      USHORT          ResourceReasonId;
-      ULONG           StringCount;
-      PUNICODE_STRING ReasonStrings;
-    };
-    UNICODE_STRING SimpleString;
-  };
-} COUNTED_REASON_CONTEXT, *PCOUNTED_REASON_CONTEXT;
-````
 
 
 ## -struct-fields
@@ -139,7 +120,7 @@ A pointer to a wide-character, null-terminated string that explains the reason f
 
 
 
-This structure is used by the <a href="..\wdm\nf-wdm-pocreatepowerrequest.md">PoCreatePowerRequest</a> routine.
+This structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559663">PoCreatePowerRequest</a> routine.
 
 The <a href="https://msdn.microsoft.com/library/windows/hardware/ff559829">power manager</a> uses the reason string or strings contained in this structure as a diagnostic aid during functional and performance testing.
 
@@ -152,12 +133,11 @@ The DIAGNOSTIC_REASON_DETAILED_STRING flag supports localization. If the localiz
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-pocreatepowerrequest.md">PoCreatePowerRequest</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559663">PoCreatePowerRequest</a>
  
 
  
-
 

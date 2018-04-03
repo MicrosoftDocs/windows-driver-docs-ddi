@@ -7,7 +7,7 @@ old-location: debugger\getspecificfilterargumentwide.htm
 old-project: debugger
 ms.assetid: 61537680-0453-4484-b07a-e0d90b45c412
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: GetSpecificFilterArgumentWide method [Windows Debugging], GetSpecificFilterArgumentWide method [Windows Debugging], IDebugControl4 interface, GetSpecificFilterArgumentWide,IDebugControl4.GetSpecificFilterArgumentWide, IDebugControl4, IDebugControl4 interface [Windows Debugging], GetSpecificFilterArgumentWide method, IDebugControl4::GetSpecificFilterArgumentWide, dbgeng/IDebugControl4::GetSpecificFilterArgumentWide, debugger.getspecificfilterargumentwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugControl4.GetSpecificFilterArgumentWide
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -50,19 +51,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetSpecificFilterArgumentWide</b>  method returns the value of filter argument for thespecific filters that have an argument.
-
-
-## -syntax
-
-
-````
-HRESULT GetSpecificFilterArgumentWide(
-  [in]            ULONG  Index,
-  [out, optional] PWSTR  Buffer,
-  [in]            ULONG  BufferSize,
-  [out, optional] PULONG ArgumentSize
-);
-````
 
 
 ## -parameters
@@ -140,11 +128,14 @@ For a list of specific filters that have argument and the interpretation of thos
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548398">GetSpecificFilterParameters</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550526">IDebugControl4</a>
 
 
 
@@ -153,11 +144,7 @@ For a list of specific filters that have argument and the interpretation of thos
 
 
 <a href="https://msdn.microsoft.com/fdb5059f-e7d9-4e14-aa3d-030e72c30732">sx, sxd, sxe, sxi, sxn (Set Exceptions)</a>
-
-
-
  
 
  
-
 

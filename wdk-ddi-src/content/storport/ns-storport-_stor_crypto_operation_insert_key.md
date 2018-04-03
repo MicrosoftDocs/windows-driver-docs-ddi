@@ -7,7 +7,7 @@ old-location: storage\stor_crypto_operation_insert_key.htm
 old-project: storage
 ms.assetid: C2E466F6-71E6-4A17-B625-291D9B91F4FF
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSTOR_CRYPTO_OPERATION_INSERT_KEY, PSTOR_CRYPTO_OPERATION_INSERT_KEY, PSTOR_CRYPTO_OPERATION_INSERT_KEY structure pointer [Storage Devices], STOR_CRYPTO_OPERATION_INSERT_KEY, STOR_CRYPTO_OPERATION_INSERT_KEY structure [Storage Devices], _STOR_CRYPTO_OPERATION_INSERT_KEY, storage.stor_crypto_operation_insert_key, storport/PSTOR_CRYPTO_OPERATION_INSERT_KEY, storport/STOR_CRYPTO_OPERATION_INSERT_KEY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Storport.h
 api_name:
 -	STOR_CRYPTO_OPERATION_INSERT_KEY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STOR_CRYPTO_OPERATION_INSERT_KEY, *PSTOR_CRYPTO_OPERATION_INSERT_KEY
 req.product: Windows 10 or later.
@@ -51,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 Reserved for system use.
-
-
-## -syntax
-
-
-````
-typedef struct _STOR_CRYPTO_OPERATION_INSERT_KEY {
-  ;      // Reserved for system use.
-} STOR_CRYPTO_OPERATION_INSERT_KEY, *PSTOR_CRYPTO_OPERATION_INSERT_KEY;
-````
 
 
 ## -struct-fields

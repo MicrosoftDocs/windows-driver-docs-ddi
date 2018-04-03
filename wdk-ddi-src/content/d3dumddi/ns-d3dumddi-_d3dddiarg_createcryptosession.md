@@ -7,7 +7,7 @@ old-location: display\d3dddiarg_createcryptosession.htm
 old-project: display
 ms.assetid: 45bc4d3f-d573-4a11-8d25-160cb8f233f4
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDIARG_CREATECRYPTOSESSION, D3DDDIARG_CREATECRYPTOSESSION structure [Display Devices], UMDisplayDriver_param_Structs_39cf7246-689d-47f2-99f8-dcc3b2018958.xml, _D3DDDIARG_CREATECRYPTOSESSION, d3dumddi/D3DDDIARG_CREATECRYPTOSESSION, display.d3dddiarg_createcryptosession
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	D3DDDIARG_CREATECRYPTOSESSION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDIARG_CREATECRYPTOSESSION
 ---
@@ -52,18 +53,6 @@ req.typenames: D3DDDIARG_CREATECRYPTOSESSION
 The D3DDDIARG_CREATECRYPTOSESSION structure describes an encryption session to create. 
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_CREATECRYPTOSESSION {
-  GUID   CryptoType;
-  GUID   DecodeProfile;
-  HANDLE hCryptoSession;
-} D3DDDIARG_CREATECRYPTOSESSION;
-````
-
-
 ## -struct-fields
 
 
@@ -71,7 +60,7 @@ typedef struct _D3DDDIARG_CREATECRYPTOSESSION {
 
 ### -field CryptoType
 
-[in] A GUID that indicates the encryption type, which the driver uses for the encryption session that the driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createcryptosession.md">CreateCryptoSession</a> function creates. The GUID can be one of the following:
+[in] A GUID that indicates the encryption type, which the driver uses for the encryption session that the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/hh451619">CreateCryptoSession</a> function creates. The GUID can be one of the following:
 
 
 
@@ -90,7 +79,7 @@ A GUID that indicates a proprietary encryption algorithm.
 
 ### -field DecodeProfile
 
- [in] A GUID that indicates the DirectX Video Acceleration (DirectX VA) decode profile that the driver uses for the encryption session that the driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createcryptosession.md">CreateCryptoSession</a> function creates. The driver uses this decode profile in conjunction with the encryption type that the <b>CryptoType</b> member specifies. 
+ [in] A GUID that indicates the DirectX Video Acceleration (DirectX VA) decode profile that the driver uses for the encryption session that the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/hh451619">CreateCryptoSession</a> function creates. The driver uses this decode profile in conjunction with the encryption type that the <b>CryptoType</b> member specifies. 
 
 
 ### -field hCryptoSession
@@ -100,12 +89,11 @@ A GUID that indicates a proprietary encryption algorithm.
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createcryptosession.md">CreateCryptoSession</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451619">CreateCryptoSession</a>
  
 
  
-
 

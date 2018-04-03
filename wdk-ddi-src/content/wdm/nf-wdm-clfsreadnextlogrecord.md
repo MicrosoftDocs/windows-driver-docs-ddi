@@ -7,7 +7,7 @@ old-location: kernel\clfsreadnextlogrecord.htm
 old-project: kernel
 ms.assetid: 4990f3d7-e48c-49ee-9384-4bcad93c9281
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: ClfsReadNextLogRecord, ClfsReadNextLogRecord routine [Kernel-Mode Driver Architecture], Clfs_4e00ce69-12c3-48c1-ba3b-1c85158afc12.xml, kernel.clfsreadnextlogrecord, wdm/ClfsReadNextLogRecord
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ext-MS-Win-fs-clfs-l1-1-0.dll
 api_name:
 -	ClfsReadNextLogRecord
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
@@ -54,23 +55,6 @@ req.product: Windows 10 or later.
 The <b>ClfsReadNextLogRecord</b> routine reads the next record in a sequence, relative to the current record in a read context.
 
 
-## -syntax
-
-
-````
-NTSTATUS ClfsReadNextLogRecord(
-  _Inout_  PVOID             pvReadContext,
-  _Out_    PVOID             *ppvBuffer,
-  _Out_    PULONG            pcbBuffer,
-  _Inout_  PCLFS_RECORD_TYPE peRecordType,
-  _In_opt_ PCLFS_LSN         plsnUser,
-  _Out_    PCLFS_LSN         plsnUndoNext,
-  _Out_    PCLFS_LSN         plsnPrevious,
-  _Out_    PCLFS_LSN         plsnRecord
-);
-````
-
-
 ## -parameters
 
 
@@ -78,7 +62,7 @@ NTSTATUS ClfsReadNextLogRecord(
 
 ### -param pvReadContext [in, out]
 
-A pointer to a read context that the caller previously obtained by calling <a href="..\wdm\nf-wdm-clfsreadlogrecord.md">ClfsReadLogRecord</a> or <a href="..\wdm\nf-wdm-clfsreadrestartarea.md">ClfsReadRestartArea</a>.
+A pointer to a read context that the caller previously obtained by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff541682">ClfsReadLogRecord</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff541709">ClfsReadRestartArea</a>.
 
 
 ### -param ppvBuffer [out]
@@ -136,7 +120,7 @@ The next record that is either a data record or a restart record.
 
 ### -param plsnUser [in, optional]
 
-A pointer to a <a href="..\wdm\ns-wdm-_cls_lsn.md">CLFS_LSN</a> structure that supplies the LSN of the record to be read. The specified record is read instead of the record that would have been read according to the mode (<b>ClfsContextUndoNext</b>, <b>ClfsContextPrevious</b>, or <b>ClfsContextForward</b>) of the read context (<i>pvReadContext</i>). The LSN supplied in <i>plsnUser</i> must be less than the current LSN of the read context. This parameter can be <b>NULL</b>.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541824">CLFS_LSN</a> structure that supplies the LSN of the record to be read. The specified record is read instead of the record that would have been read according to the mode (<b>ClfsContextUndoNext</b>, <b>ClfsContextPrevious</b>, or <b>ClfsContextForward</b>) of the read context (<i>pvReadContext</i>). The LSN supplied in <i>plsnUser</i> must be less than the current LSN of the read context. This parameter can be <b>NULL</b>.
 
 
 ### -param plsnUndoNext [out]
@@ -178,20 +162,19 @@ Read contexts are not thread-safe. Clients are responsible for serializing acces
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_cls_lsn.md">CLFS_LSN</a>
 
 
 
-<a href="..\wdm\nf-wdm-clfsreadlogrecord.md">ClfsReadLogRecord</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541824">CLFS_LSN</a>
 
 
 
-<a href="..\wdm\nf-wdm-clfsreadrestartarea.md">ClfsReadRestartArea</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541682">ClfsReadLogRecord</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541709">ClfsReadRestartArea</a>
  
 
  
-
 

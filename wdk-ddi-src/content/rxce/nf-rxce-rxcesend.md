@@ -7,7 +7,7 @@ old-location: ifsk\rxcesend.htm
 old-project: ifsk
 ms.assetid: bf1b9c63-6fc2-4006-8f9a-d4b50d61d270
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: RxCeSend, RxCeSend function [Installable File System Drivers], ifsk.rxcesend, rxce/RxCeSend, rxref_07c5b21c-253c-4032-a5e8-61c4e71450fb.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	rxce.h
 api_name:
 -	RxCeSend
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILWRITEPHONEBOOKENTRYPARAMS, *LPRILWRITEPHONEBOOKENTRYPARAMS
 req.product: Windows 10 or later.
@@ -51,20 +52,6 @@ req.product: Windows 10 or later.
 
 
 <b>RxCeSend</b> sends a transport service data unit (TSDU) along the specified connection on a virtual circuit.
-
-
-## -syntax
-
-
-````
-NTSTATUS RxCeSend(
-  _In_ PRXCE_VC pVc,
-  _In_ ULONG    SendOptions,
-  _In_ PMDL     pMdl,
-  _In_ ULONG    SendLength,
-  _In_ PVOID    pCompletionContext
-);
-````
 
 
 ## -parameters
@@ -198,16 +185,15 @@ The benefit of asynchronous and synchronous options depends on the underlying tr
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
 
 
 
-<a href="..\rxce\nf-rxce-rxcesenddatagram.md">RxCeSendDatagram</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554414">MDL</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553482">RxCeSendDatagram</a>
  
 
  
-
 

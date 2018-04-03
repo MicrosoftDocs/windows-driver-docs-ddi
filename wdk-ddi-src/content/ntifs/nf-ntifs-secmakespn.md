@@ -7,7 +7,7 @@ old-location: ifsk\secmakespn.htm
 old-project: ifsk
 ms.assetid: e294832a-f0f2-49ab-b215-7c0e67e5ec13
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: SecMakeSPN, SecMakeSPN function [Installable File System Drivers], ifsk.secmakespn, ksecddref_0225b4c1-8cfd-49cc-a69a-85da507c401e.xml, ntifs/SecMakeSPN
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ksecdd.dll
 api_name:
 -	SecMakeSPN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -51,23 +52,6 @@ req.typenames: TOKEN_TYPE
 
 
 <b>SecMakeSPN</b> creates a service provider name string that can be used when communicating with specific security service providers. 
-
-
-## -syntax
-
-
-````
-NTSTATUS SecMakeSPN(
-  _In_    PUNICODE_STRING ServiceClass,
-  _In_    PUNICODE_STRING ServiceName,
-  _In_    PUNICODE_STRING InstanceName,
-  _In_    USHORT          InstancePort,
-  _In_    PUNICODE_STRING Referrer,
-  _Inout_ PUNICODE_STRING Spn,
-  _Out_   PULONG          Length,
-  _In_    BOOLEAN         Allocate
-);
-````
 
 
 ## -parameters
@@ -176,16 +160,15 @@ The <i>Allocate</i> parameter was set to true, but the memory allocation request
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-secmakespnex2.md">SecMakeSPNEx2</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-secmakespnex.md">SecMakeSPNEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556585">SecMakeSPNEx</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556592">SecMakeSPNEx2</a>
  
 
  
-
 

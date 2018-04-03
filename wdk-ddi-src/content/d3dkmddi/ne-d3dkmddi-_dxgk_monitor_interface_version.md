@@ -7,7 +7,7 @@ old-location: display\dxgk_monitor_interface_version.htm
 old-project: display
 ms.assetid: 76af0d70-f9bb-4768-9bfd-f2aaeb212db0
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGK_MONITOR_INTERFACE_VERSION, DXGK_MONITOR_INTERFACE_VERSION enumeration [Display Devices], DXGK_MONITOR_INTERFACE_VERSION_UNINITIALIZED, DXGK_MONITOR_INTERFACE_VERSION_V1, DXGK_MONITOR_INTERFACE_VERSION_V2, DmEnums_4ec3a10c-c04f-431b-851d-908a5ff972a1.xml, _DXGK_MONITOR_INTERFACE_VERSION, d3dkmddi/DXGK_MONITOR_INTERFACE_VERSION, d3dkmddi/DXGK_MONITOR_INTERFACE_VERSION_UNINITIALIZED, d3dkmddi/DXGK_MONITOR_INTERFACE_VERSION_V1, d3dkmddi/DXGK_MONITOR_INTERFACE_VERSION_V2, display.dxgk_monitor_interface_version
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGK_MONITOR_INTERFACE_VERSION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_MONITOR_INTERFACE_VERSION
 ---
@@ -50,18 +51,6 @@ req.typenames: DXGK_MONITOR_INTERFACE_VERSION
 
 
 The <b>DXGK_MONITOR_INTERFACE_VERSION</b> enumeration indicates a particular version of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568433">Monitor interface</a>.
-
-
-## -syntax
-
-
-````
-typedef enum _DXGK_MONITOR_INTERFACE_VERSION { 
-  DXGK_MONITOR_INTERFACE_VERSION_UNINITIALIZED  = 0,
-  DXGK_MONITOR_INTERFACE_VERSION_V1             = 1,
-  DXGK_MONITOR_INTERFACE_VERSION_V2             = 2
-} DXGK_MONITOR_INTERFACE_VERSION;
-````
 
 
 ## -enum-fields
@@ -90,7 +79,7 @@ Indicates version 1, available in Windows Vista and later versions of the Window
 
 
 
-The <b>Version</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_monitor_interface.md">DXGK_MONITOR_INTERFACE</a> structure is a value from the <b>DXGK_MONITOR_INTERFACE_VERSION</b> enumeration.
+The <b>Version</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561949">DXGK_MONITOR_INTERFACE</a> structure is a value from the <b>DXGK_MONITOR_INTERFACE_VERSION</b> enumeration.
 
 
 

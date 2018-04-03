@@ -38,7 +38,8 @@ api_location:
 -	Wiaservc.dll
 api_name:
 -	wiasUpdateScanRect
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2
 req.product: Windows 10 or later.
@@ -53,19 +54,6 @@ req.product: Windows 10 or later.
 The <b>wiasUpdateScanRect</b> function updates the scanning area sizes of the scanning device.
 
 
-## -syntax
-
-
-````
-HRESULT _stdcall wiasUpdateScanRect(
-  _In_ BYTE                 *pWiasContext,
-  _In_ WIA_PROPERTY_CONTEXT *pContext,
-       LONG                 lWidth,
-       LONG                 lHeight
-);
-````
-
-
 ## -parameters
 
 
@@ -78,7 +66,7 @@ Pointer to a WIA item context.
 
 ### -param pContext [in]
 
-Pointer to a <a href="..\wiamindr_lh\ns-wiamindr_lh-_wia_property_context.md">WIA_PROPERTY_CONTEXT</a> structure containing the property context, created by a prior call to <a href="..\wiamdef\nf-wiamdef-wiascreatepropcontext.md">wiasCreatePropContext</a>.
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552749">WIA_PROPERTY_CONTEXT</a> structure containing the property context, created by a prior call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff549167">wiasCreatePropContext</a>.
 
 
 ### -param lWidth
@@ -111,16 +99,15 @@ This helper method is called to update the properties making up the scan rectang
 
 ## -see-also
 
-<a href="..\wiamindr_lh\ns-wiamindr_lh-_wia_property_context.md">WIA_PROPERTY_CONTEXT</a>
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiascreatepropcontext.md">wiasCreatePropContext</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552749">WIA_PROPERTY_CONTEXT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549167">wiasCreatePropContext</a>
  
 
  
-
 

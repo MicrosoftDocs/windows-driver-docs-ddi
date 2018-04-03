@@ -38,7 +38,8 @@ api_location:
 -	printoem.h
 api_name:
 -	OEMDownloadFontHeader
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STDVARIABLEINDEX
 req.product: Windows 10 or later.
@@ -50,17 +51,6 @@ req.product: Windows 10 or later.
 ## -description
 
 
-
-
-## -syntax
-
-
-````
-DWORD APIENTRY OEMDownloadFontHeader(
-   PDEVOBJ     pdevobj,
-   PUNIFONTOBJ pUFObj
-);
-````
 
 
 ## -parameters

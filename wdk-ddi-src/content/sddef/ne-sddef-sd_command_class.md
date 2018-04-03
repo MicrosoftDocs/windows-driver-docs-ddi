@@ -38,7 +38,8 @@ api_location:
 -	sddef.h
 api_name:
 -	SD_COMMAND_CLASS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SD_COMMAND_CLASS
 req.product: Windows 10 or later.
@@ -51,17 +52,6 @@ req.product: Windows 10 or later.
 
 
 The SD_COMMAND_CLASS enumeration lists the classes of Secure Digital (SD) card commands.
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  SDCC_STANDARD  = 0,
-  SDCC_APP_CMD   = 1
-} SD_COMMAND_CLASS;
-````
 
 
 ## -enum-fields
@@ -83,12 +73,11 @@ SD card drivers should not issue CMD55 (APP_CMD) commands through the SD bus int
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/7c49c394-d0b3-4594-a623-0a13825bdcec">SDCMD_DESCRIPTOR</a>
-
-
-
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: debugger\extremotedata_set_offset_bytes.htm
 old-project: debugger
 ms.assetid: 50b4bee4-3a8c-45a1-9a3f-b416aa8a19e5
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: ExtRemoteData, ExtRemoteData interface [Windows Debugging], Set method, ExtRemoteData::Set, Set method [Windows Debugging], Set method [Windows Debugging], ExtRemoteData interface, Set,ExtRemoteData.Set, debugger.extremotedata_set_offset_bytes, engextcpp/ExtRemoteData::Set
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	engextcpp.hpp
 api_name:
 -	ExtRemoteData.Set
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 ---
@@ -49,18 +50,7 @@ req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 ## -description
 
 
-The <b>Set</b> method sets the region of the target's memory represented by the <a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a> object.
-
-
-## -syntax
-
-
-````
-void Set(
-  [in] ULONG64 Offset,
-  [in] ULONG   Bytes
-);
-````
+The <b>Set</b> method sets the region of the target's memory represented by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544008">ExtRemoteData</a> object.
 
 
 ## -parameters
@@ -98,11 +88,10 @@ The <b>Set</b> method will read the contents of the specified region of memory a
 
 ## -see-also
 
-<a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a>
 
 
 
-<a href="https://msdn.microsoft.com/a335f881-7b6f-4069-87fe-c036867b0c77">ExtRemoteData::Set (Typed)</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544008">ExtRemoteData</a>
 
 
 
@@ -114,8 +103,8 @@ The <b>Set</b> method will read the contents of the specified region of memory a
 
 
 
+<a href="https://msdn.microsoft.com/a335f881-7b6f-4069-87fe-c036867b0c77">ExtRemoteData::Set (Typed)</a>
  
 
  
-
 

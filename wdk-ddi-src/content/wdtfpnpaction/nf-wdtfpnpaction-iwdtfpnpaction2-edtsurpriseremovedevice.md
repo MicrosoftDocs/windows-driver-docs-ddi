@@ -7,7 +7,7 @@ old-location: dtf\iwdtfpnpaction2_edtsurpriseremovedevice.htm
 old-project: dtf
 ms.assetid: 96bc080b-1ee2-4a32-be98-c58f6649e120
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/29/2018
 ms.keywords: EDTSurpriseRemoveDevice method [Windows Device Testing Framework], EDTSurpriseRemoveDevice method [Windows Device Testing Framework], IWDTFPNPAction2 interface, EDTSurpriseRemoveDevice,IWDTFPNPAction2.EDTSurpriseRemoveDevice, IWDTFPNPAction2, IWDTFPNPAction2 interface [Windows Device Testing Framework], EDTSurpriseRemoveDevice method, IWDTFPNPAction2::EDTSurpriseRemoveDevice, Microsoft.WDTF.IWDTFPNPAction2.EDTSurpriseRemoveDevice, Microsoft::WDTF::IWDTFPNPAction2::EDTSurpriseRemoveDevice, dtf.iwdtfpnpaction2_edtsurpriseremovedevice, wdtfpnpaction/IWDTFPNPAction2::EDTSurpriseRemoveDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	WDTFDriverPNPAction.Interop.dll
 api_name:
 -	IWDTFPNPAction2.EDTSurpriseRemoveDevice
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TTraceLevel
 req.product: Windows 10 or later.
@@ -51,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 Sends an IRP_MN_SURPRISE_REMOVAL event to the target device.
-
-
-## -syntax
-
-
-````
-HRESULT EDTSurpriseRemoveDevice(
-  [out, retval] VARIANT_BOOL *pbSuccess
-);
-````
 
 
 ## -parameters
@@ -99,12 +90,11 @@ the device unexpectedly fails or is removed.
 
 ## -see-also
 
-<a href="..\wdtfpnpaction\nn-wdtfpnpaction-iwdtfpnpaction2.md">IWDTFPNPAction2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451065">IWDTFPNPAction2</a>
  
 
  
-
 

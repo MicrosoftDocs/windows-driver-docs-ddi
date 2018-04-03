@@ -7,7 +7,7 @@ old-location: netvista\ndisretreatnetbufferdatastart.htm
 old-project: netvista
 ms.assetid: 4b58a1dc-8a5a-464b-a2a2-deb952febe25
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NdisRetreatNetBufferDataStart, NdisRetreatNetBufferDataStart function [Network Drivers Starting with Windows Vista], ndis/NdisRetreatNetBufferDataStart, ndis_netbuf_functions_ref_1075cc2e-490a-4b90-93d9-269e226e8dde.xml, netvista.ndisretreatnetbufferdatastart
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	ndis.dll
 api_name:
 -	NdisRetreatNetBufferDataStart
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
@@ -53,20 +54,7 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 Call the 
   <b>NdisRetreatNetBufferDataStart</b> function to access more 
   <i>used data space</i> in the MDL chain of a 
-  <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structure.
-
-
-## -syntax
-
-
-````
-NDIS_STATUS NdisRetreatNetBufferDataStart(
-  _In_     PNET_BUFFER                     NetBuffer,
-  _In_     ULONG                           DataOffsetDelta,
-  _In_     ULONG                           DataBackFill,
-  _In_opt_ NET_BUFFER_ALLOCATE_MDL_HANDLER AllocateMdlHandler
-);
-````
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structure.
 
 
 ## -parameters
@@ -97,7 +85,7 @@ If NDIS must allocate memory, this parameter specifies the amount of data space,
 ### -param AllocateMdlHandler [in, optional]
 
 An optional entry point for an 
-     <a href="..\ndis\nc-ndis-net_buffer_allocate_mdl_handler.md">NetAllocateMdl</a> function. If the caller
+     <a href="https://msdn.microsoft.com/14247f48-7ef8-481c-aa1e-e657475812fa">NetAllocateMdl</a> function. If the caller
      specifies an entry point for the 
      <i>NetAllocateMdl</i> function, NDIS calls 
      <i>NetAllocateMdl</i> to allocate an MDL and memory.
@@ -161,18 +149,18 @@ An optional entry point for an
 
 <b>NdisRetreatNetBufferDataStart</b> attempts to satisfy the request by reducing the value of the 
     <b>DataOffset</b> member of the 
-    <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structure.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structure.
 
 If there isn't enough 
     <i>unused data space</i>, this function allocates a new buffer and an MDL to describe the new buffer and
     chains the new MDL to the beginning of the MDL chain. NDIS calls the 
-    <a href="..\ndis\nc-ndis-net_buffer_allocate_mdl_handler.md">NetAllocateMdl</a> function specified at 
+    <a href="https://msdn.microsoft.com/14247f48-7ef8-481c-aa1e-e657475812fa">NetAllocateMdl</a> function specified at 
     <i>AllocateMdl</i> to allocate the MDL and memory. The 
     <i>NetAllocateMdl</i> function can use any allocation method that meets the
     driver's design requirements.
 
 Call the 
-    <a href="..\ndis\nf-ndis-ndisadvancenetbufferdatastart.md">
+    <a href="https://msdn.microsoft.com/49b69282-137d-4bb5-92f5-4d27cedbb6d4">
     NdisAdvanceNetBufferDataStart</a> function to release the 
     <i>used data space</i> that was added with 
     <b>NdisRetreatNetBufferDataStart</b>.
@@ -182,21 +170,20 @@ Call the
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisadvancenetbufferdatastart.md">
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a>
+
+
+
+<a href="https://msdn.microsoft.com/49b69282-137d-4bb5-92f5-4d27cedbb6d4">
    NdisAdvanceNetBufferDataStart</a>
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
-
-
-
-<a href="..\ndis\nc-ndis-net_buffer_allocate_mdl_handler.md">NetAllocateMdl</a>
-
-
-
+<a href="https://msdn.microsoft.com/14247f48-7ef8-481c-aa1e-e657475812fa">NetAllocateMdl</a>
  
 
  
-
 

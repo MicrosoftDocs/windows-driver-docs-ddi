@@ -38,7 +38,8 @@ api_location:
 -	avc.h
 api_name:
 -	AvcSubunitType
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: AvcSubunitType
 ---

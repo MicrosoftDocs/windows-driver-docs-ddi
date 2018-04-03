@@ -39,7 +39,8 @@ api_location:
 -	SensorsClassExtension.dll
 api_name:
 -	OnClientSubscribeToEvents
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SensorConnectionType
 req.product: Windows 10 or later.
@@ -52,17 +53,6 @@ req.product: Windows 10 or later.
 
 
 The <a href="https://msdn.microsoft.com/library/windows/hardware/ff545589">ISensorDriver::OnClientSubscribeToEvents</a> method notifies the sensor driver that an authorized client application is requesting event notifications.
-
-
-## -syntax
-
-
-````
-HRESULT OnClientSubscribeToEvents(
-   IWDFFile * pClientFile,
-   LPWSTR     pwszSensorID
-);
-````
 
 
 ## -parameters

@@ -38,7 +38,8 @@ api_location:
 -	winddiui.h
 api_name:
 -	DrvSplWritePrinter
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WINBIO_VERSION, *PWINBIO_VERSION
 req.product: Windows 10 or later.
@@ -51,19 +52,6 @@ req.product: Windows 10 or later.
 
 
 
-
-
-## -syntax
-
-
-````
-BOOL WINAPI DrvSplWritePrinter(
-   HANDLE  hDriver,
-   LPVOID  pBuf,
-   DWORD   cbBuf,
-   LPDWORD pcWritten
-);
-````
 
 
 ## -parameters

@@ -7,7 +7,7 @@ old-location: display\dxgkddi_createperiodicframenotification.htm
 old-project: display
 ms.assetid: EE11227A-E576-49C6-AEF1-CBE0AD788275
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_CREATEPERIODICFRAMENOTIFICATION, DXGKDDI_CREATEPERIODICFRAMENOTIFICATION callback function [Display Devices], d3dkmddi/DXGKDDI_CREATEPERIODICFRAMENOTIFICATION, display.dxgkddi_createperiodicframenotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGKDDI_CREATEPERIODICFRAMENOTIFICATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 ---
@@ -50,16 +51,6 @@ req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 
 
 Used to create a periodic frame notification.
-
-
-## -prototype
-
-
-````
-NTSTATUS APIENTRY DXGKDDI_CREATEPERIODICFRAMENOTIFICATION(
-  _In_ const PDXGKARG_CREATEPERIODICFRAMENOTIFICATION pCreatePeriodicFrameNotification
-);
-````
 
 
 ## -parameters

@@ -7,7 +7,7 @@ old-location: ifsk\file_full_dir_information.htm
 old-project: ifsk
 ms.assetid: 31b1c2f6-415b-4183-8016-51686c460889
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: "*PFILE_FULL_DIR_INFORMATION, FILE_FULL_DIR_INFORMATION, FILE_FULL_DIR_INFORMATION structure [Installable File System Drivers], PFILE_FULL_DIR_INFORMATION, PFILE_FULL_DIR_INFORMATION structure pointer [Installable File System Drivers], _FILE_FULL_DIR_INFORMATION, fileinformationstructures_2dfa5780-08bf-4cb8-96f6-c247baaa813a.xml, ifsk.file_full_dir_information, ntifs/FILE_FULL_DIR_INFORMATION, ntifs/PFILE_FULL_DIR_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntifs.h
 api_name:
 -	FILE_FULL_DIR_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FILE_FULL_DIR_INFORMATION, *PFILE_FULL_DIR_INFORMATION
 ---
@@ -50,27 +51,6 @@ req.typenames: FILE_FULL_DIR_INFORMATION, *PFILE_FULL_DIR_INFORMATION
 
 
 The FILE_FULL_DIR_INFORMATION structure is used to query detailed information for the files in a directory. 
-
-
-## -syntax
-
-
-````
-typedef struct _FILE_FULL_DIR_INFORMATION {
-  ULONG         NextEntryOffset;
-  ULONG         FileIndex;
-  LARGE_INTEGER CreationTime;
-  LARGE_INTEGER LastAccessTime;
-  LARGE_INTEGER LastWriteTime;
-  LARGE_INTEGER ChangeTime;
-  LARGE_INTEGER EndOfFile;
-  LARGE_INTEGER AllocationSize;
-  ULONG         FileAttributes;
-  ULONG         FileNameLength;
-  ULONG         EaSize;
-  WCHAR         FileName[1];
-} FILE_FULL_DIR_INFORMATION, *PFILE_FULL_DIR_INFORMATION;
-````
 
 
 ## -struct-fields
@@ -160,7 +140,7 @@ This information can be queried in either of the following ways:
 
 <ul>
 <li>
-Call <a href="..\ntifs\nf-ntifs-zwquerydirectoryfile.md">ZwQueryDirectoryFile</a>, passing FileFullDirectoryInformation as the value of <i>FileInformationClass</i> and passing a caller-allocated, FILE_FULL_DIR_INFORMATION-structured buffer as the value of <i>FileInformation</i>. 
+Call <a href="https://msdn.microsoft.com/library/windows/hardware/ff567047">ZwQueryDirectoryFile</a>, passing FileFullDirectoryInformation as the value of <i>FileInformationClass</i> and passing a caller-allocated, FILE_FULL_DIR_INFORMATION-structured buffer as the value of <i>FileInformation</i>. 
 
 </li>
 <li>
@@ -179,20 +159,19 @@ This structure must be aligned on a LONGLONG (8-byte) boundary. If a buffer cont
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547026">FsRtlNotifyFullChangeDirectory</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548658">IRP_MJ_DIRECTORY_CONTROL</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-zwquerydirectoryfile.md">ZwQueryDirectoryFile</a>
-
-
-
-<a href="..\rxprocs\nf-rxprocs-fsrtlnotifyfullchangedirectory.md">FsRtlNotifyFullChangeDirectory</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567047">ZwQueryDirectoryFile</a>
  
 
  
-
 

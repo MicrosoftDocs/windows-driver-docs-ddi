@@ -7,7 +7,7 @@ old-location: display\calcprivatedevicesize.htm
 old-project: display
 ms.assetid: 8221a99a-1b46-48ba-8930-ac973e009eee
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: CalcPrivateDeviceSize, CalcPrivateDeviceSize callback function [Display Devices], PFND3D10DDI_CALCPRIVATEDEVICESIZE, UserModeDisplayDriverDx10_Functions_0de51abc-5fe3-4d65-bd0a-cc4f32f08d81.xml, d3d10umddi/CalcPrivateDeviceSize, display.calcprivatedevicesize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3d10umddi.h
 api_name:
 -	CalcPrivateDeviceSize
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 ---
@@ -52,26 +53,12 @@ req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 The <b>CalcPrivateDeviceSize</b> function determines the size of a memory region that the user-mode display driver requires from the Microsoft Direct3D runtime to store frequently-accessed data. 
 
 
-## -prototype
-
-
-````
-PFND3D10DDI_CALCPRIVATEDEVICESIZE CalcPrivateDeviceSize;
-
-SIZE_T APIENTRY CalcPrivateDeviceSize(
-  _In_       D3D10DDI_HADAPTER                 hAdapter,
-  _In_ const D3D10DDIARG_CALCPRIVATEDEVICESIZE *pData
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
 
 
-### -param D3D10DDI_HADAPTER
+### -param Arg1
 
 
 ### -param *
@@ -90,7 +77,7 @@ SIZE_T APIENTRY CalcPrivateDeviceSize(
 
 #### - pData [in]
 
- A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_calcprivatedevicesize.md">D3D10DDIARG_CALCPRIVATEDEVICESIZE</a> structure that describes the parameters that the user-mode display driver uses to calculate the size of the memory region.
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541649">D3D10DDIARG_CALCPRIVATEDEVICESIZE</a> structure that describes the parameters that the user-mode display driver uses to calculate the size of the memory region.
 
 
 ## -returns
@@ -104,12 +91,11 @@ SIZE_T APIENTRY CalcPrivateDeviceSize(
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_calcprivatedevicesize.md">D3D10DDIARG_CALCPRIVATEDEVICESIZE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541649">D3D10DDIARG_CALCPRIVATEDEVICESIZE</a>
  
 
  
-
 

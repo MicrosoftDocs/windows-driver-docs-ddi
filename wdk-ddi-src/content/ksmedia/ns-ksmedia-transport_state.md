@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	TRANSPORT_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TRANSPORT_STATE, *PTRANSPORT_STATE
 ---
@@ -50,17 +51,6 @@ req.typenames: TRANSPORT_STATE, *PTRANSPORT_STATE
 
 
 The TRANSPORT_STATE structure 
-
-
-## -syntax
-
-
-````
-typedef struct {
-  ULONG Mode;
-  ULONG State;
-} TRANSPORT_STATE, *PTRANSPORT_STATE;
-````
 
 
 ## -struct-fields

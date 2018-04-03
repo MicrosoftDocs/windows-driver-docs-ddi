@@ -7,7 +7,7 @@ old-location: debugger\setsymbolpath.htm
 old-project: debugger
 ms.assetid: c003fb1d-b24b-4e79-b8f4-6ff425f77554
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: IDebugSymbols, IDebugSymbols interface [Windows Debugging], SetSymbolPath method, IDebugSymbols2 interface [Windows Debugging], SetSymbolPath method, IDebugSymbols2::SetSymbolPath, IDebugSymbols3 interface [Windows Debugging], SetSymbolPath method, IDebugSymbols3::SetSymbolPath, IDebugSymbols::SetSymbolPath, IDebugSymbols_b699ac62-be52-4f79-9762-8ed1274dfb41.xml, SetSymbolPath method [Windows Debugging], SetSymbolPath method [Windows Debugging], IDebugSymbols interface, SetSymbolPath method [Windows Debugging], IDebugSymbols2 interface, SetSymbolPath method [Windows Debugging], IDebugSymbols3 interface, SetSymbolPath,IDebugSymbols.SetSymbolPath, dbgeng/IDebugSymbols2::SetSymbolPath, dbgeng/IDebugSymbols3::SetSymbolPath, dbgeng/IDebugSymbols::SetSymbolPath, debugger.setsymbolpath
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,8 @@ api_name:
 -	IDebugSymbols.SetSymbolPath
 -	IDebugSymbols2.SetSymbolPath
 -	IDebugSymbols3.SetSymbolPath
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -52,16 +53,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>SetSymbolPath</b>  method sets the symbol path.
-
-
-## -syntax
-
-
-````
-HRESULT SetSymbolPath(
-  [in] PCSTR Path
-);
-````
 
 
 ## -parameters
@@ -113,11 +104,6 @@ For more information about manipulating the symbol path, see <a href="https://ms
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
 
 
 
@@ -129,12 +115,16 @@ For more information about manipulating the symbol path, see <a href="https://ms
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550856">IDebugSymbols</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550864">IDebugSymbols2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550870">IDebugSymbols3</a>
  
 
  
-
 

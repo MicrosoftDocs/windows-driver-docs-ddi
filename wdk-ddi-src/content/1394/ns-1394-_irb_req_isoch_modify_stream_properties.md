@@ -38,7 +38,8 @@ api_location:
 -	1394.h
 api_name:
 -	IRB_REQ_ISOCH_MODIFY_STREAM_PROPERTIES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: IRB_REQ_ISOCH_MODIFY_STREAM_PROPERTIES
 ---
@@ -55,18 +56,6 @@ resource, without the need to free and re-allocate the resource.
 The resource must not be streaming when this is issued. The caller should
 issue an ISOCH_STOP first and then an  ISOCH_START. Also, no buffer can be
 pending after the ISOCH_STOP and before this call is made.
-
-
-## -syntax
-
-
-````
-typedef struct _IRB_REQ_ISOCH_MODIFY_STREAM_PROPERTIES {
-  HANDLE         hResource;
-  ULARGE_INTEGER ChannelMask;
-  ULONG          fulSpeed;
-} IRB_REQ_ISOCH_MODIFY_STREAM_PROPERTIES;
-````
 
 
 ## -struct-fields

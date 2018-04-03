@@ -38,7 +38,8 @@ api_location:
 -	pointofservicedriverinterface.h
 api_name:
 -	IOCTL_POINT_OF_SERVICE_GET_DEVICE_BASICS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PosPropertyId
 ---
@@ -69,7 +70,7 @@ Size of the input buffer, in bytes. Set to sizeof(UINT32).
 
 ### -output-buffer
 
-Pointer to a buffer that receives a <a href="..\pointofservicedriverinterface\ns-pointofservicedriverinterface-_posdevicebasicstype.md">PosDeviceBasicsType</a>.
+Pointer to a buffer that receives a <a href="https://msdn.microsoft.com/library/windows/hardware/dn772213">PosDeviceBasicsType</a>.
 
 
 ### -output-buffer-length
@@ -121,7 +122,7 @@ There is insufficient memory.
 <h3><a id="Parameters"></a><a id="parameters"></a><a id="PARAMETERS"></a>Parameters</h3>
 
 
-Provide the version of the POS WinRT API to inform the driver which version of the runtime it is working with. This IOCTL returns the version of the driver in <a href="..\pointofservicedriverinterface\ns-pointofservicedriverinterface-_posdevicebasicstype.md">PosDeviceBasicsType</a>, so that you can have the driver version available in the runtime API if you wish to provide it.
+Provide the version of the POS WinRT API to inform the driver which version of the runtime it is working with. This IOCTL returns the version of the driver in <a href="https://msdn.microsoft.com/library/windows/hardware/dn772213">PosDeviceBasicsType</a>, so that you can have the driver version available in the runtime API if you wish to provide it.
 
 
 

@@ -1,13 +1,13 @@
 ---
 UID: NC:usbbusif.PUSB_BUSIFFN_GETUSBDI_VERSION
-title: USB_BUSIFFN_GETUSBDI_VERSION
+title: PUSB_BUSIFFN_GETUSBDI_VERSION
 author: windows-driver-content
 description: The GetUSBDIVersion routine returns the USB interface version number and the version number of the USB specification that defines the interface, along with information about host controller capabilities.
 old-location: buses\getusbdiversion.htm
 old-project: usbref
 ms.assetid: 05a22049-5165-41a3-aa6f-134c5d1b6c15
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: GetUSBDIVersion, GetUSBDIVersion callback function [Buses], PUSB_BUSIFFN_GETUSBDI_VERSION, USB_BUSIFFN_GETUSBDI_VERSION, buses.getusbdiversion, usbbusif/GetUSBDIVersion, usbinterKR_48f5b2a5-9cd8-46c2-abf9-313469817541.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	usbbusif.h
 api_name:
 -	GetUSBDIVersion
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USBD_VERSION_INFORMATION, *PUSBD_VERSION_INFORMATION
 req.product: Windows 10 or later.
@@ -51,22 +52,7 @@ req.product: Windows 10 or later.
 
 
 The <b>GetUSBDIVersion</b> routine returns the USB interface version number and the version number of the USB specification that defines the interface, along with information about host controller capabilities. 
-<div class="alert"><b>Note</b>  <a href="..\usbdlib\nf-usbdlib-usbd_isinterfaceversionsupported.md">USBD_IsInterfaceVersionSupported</a> replaces the <b>GetUSBDIVersion</b>  routine. To determine the capabilities of the host controller and the underlying USB driver stack, call <a href="..\usbdlib\nf-usbdlib-usbd_queryusbcapability.md">USBD_QueryUsbCapability</a>.</div><div> </div>
-
-## -prototype
-
-
-````
-USB_BUSIFFN_GETUSBDI_VERSION GetUSBDIVersion;
-
-VOID GetUSBDIVersion(
-  _In_      PVOID                     BusContext,
-  _Out_opt_ PUSBD_VERSION_INFORMATION VersionInformation,
-  _Out_opt_ PULONG                    HcdCapabilities
-)
-{ ... }
-````
-
+<div class="alert"><b>Note</b>  <a href="https://msdn.microsoft.com/library/windows/hardware/hh406233">USBD_IsInterfaceVersionSupported</a> replaces the <b>GetUSBDIVersion</b>  routine. To determine the capabilities of the host controller and the underlying USB driver stack, call <a href="https://msdn.microsoft.com/library/windows/hardware/hh406230">USBD_QueryUsbCapability</a>.</div><div> </div>
 
 ## -parameters
 
@@ -83,17 +69,17 @@ VOID GetUSBDIVersion(
 
 #### - BusContext [in]
 
-Handle returned in the <b>BusContext</b> member of the <a href="..\usbbusif\ns-usbbusif-_usb_bus_interface_usbdi_v0.md">USB_BUS_INTERFACE_USBDI_V0</a> structure by an IRP_MN_QUERY_INTERFACE request. 
-
-
-#### - VersionInformation [out, optional]
-
-Returns a pointer to a <a href="..\usb\ns-usb-_usbd_version_information.md">USBD_VERSION_INFORMATION</a> structure that contains the USB interface version number and the USB specification version number. 
+Handle returned in the <b>BusContext</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539210">USB_BUS_INTERFACE_USBDI_V0</a> structure by an IRP_MN_QUERY_INTERFACE request. 
 
 
 #### - HcdCapabilities [out, optional]
 
 Returns the host capability flags. Currently, no host capability flags are reported.
+
+
+#### - VersionInformation [out, optional]
+
+Returns a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff539149">USBD_VERSION_INFORMATION</a> structure that contains the USB interface version number and the USB specification version number. 
 
 
 ## -returns
@@ -109,7 +95,7 @@ This callback function does not return a value.
 
 
 
-The function returns the highest USBDI Interface Version supported by the port driver. This function replaces the <a href="..\usbdlib\nf-usbdlib-usbd_getusbdiversion.md">USBD_GetUSBDIVersion</a> library function provided by usbd.sys. 
+The function returns the highest USBDI Interface Version supported by the port driver. This function replaces the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539063">USBD_GetUSBDIVersion</a> library function provided by usbd.sys. 
 
 The function definition that is provided on this reference page is an example function whose parameters are just placeholder names. The actual prototype of the function is declared in usbbusif.h as follows:
 
@@ -124,20 +110,19 @@ The function definition that is provided on this reference page is an example fu
 
 ## -see-also
 
-<a href="..\usbdlib\nf-usbdlib-usbd_getusbdiversion.md">USBD_GetUSBDIVersion</a>
 
 
 
-<a href="..\usb\ns-usb-_usbd_version_information.md">USBD_VERSION_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539063">USBD_GetUSBDIVersion</a>
 
 
 
-<a href="..\usbbusif\ns-usbbusif-_usb_bus_interface_usbdi_v0.md">USB_BUS_INTERFACE_USBDI_V0</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539149">USBD_VERSION_INFORMATION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539210">USB_BUS_INTERFACE_USBDI_V0</a>
  
 
  
-
 

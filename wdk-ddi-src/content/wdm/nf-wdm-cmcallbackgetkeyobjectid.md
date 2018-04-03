@@ -7,7 +7,7 @@ old-location: kernel\cmcallbackgetkeyobjectid.htm
 old-project: kernel
 ms.assetid: e8db3009-7941-4fcc-a888-22c887bf59d5
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: CmCallbackGetKeyObjectID, CmCallbackGetKeyObjectID routine [Kernel-Mode Driver Architecture], ConfigMgrRef_dbab8a69-78b4-4ae8-8409-e62e62ea8b9e.xml, kernel.cmcallbackgetkeyobjectid, wdm/CmCallbackGetKeyObjectID
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	CmCallbackGetKeyObjectID
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
@@ -51,20 +52,7 @@ req.product: Windows 10 or later.
 
 
 The <b>CmCallbackGetKeyObjectID</b> routine retrieves the unique identifier and object name that are associated with a specified registry key object.
-<div class="alert"><b>Note</b>  Starting with Windows 8, registry filter drivers should call the <a href="..\wdm\nf-wdm-cmcallbackgetkeyobjectidex.md">CmCallbackGetKeyObjectIDEx</a> routine instead of <b>CmCallbackGetKeyObjectID</b>. For more information, see Remarks.</div><div> </div>
-
-## -syntax
-
-
-````
-NTSTATUS CmCallbackGetKeyObjectID(
-  _In_      PLARGE_INTEGER   Cookie,
-  _In_      PVOID            Object,
-  _Out_opt_ PULONG_PTR       ObjectID,
-  _Out_opt_ PCUNICODE_STRING *ObjectName
-);
-````
-
+<div class="alert"><b>Note</b>  Starting with Windows 8, registry filter drivers should call the <a href="https://msdn.microsoft.com/library/windows/hardware/jj215789">CmCallbackGetKeyObjectIDEx</a> routine instead of <b>CmCallbackGetKeyObjectID</b>. For more information, see Remarks.</div><div> </div>
 
 ## -parameters
 
@@ -73,7 +61,7 @@ NTSTATUS CmCallbackGetKeyObjectID(
 
 ### -param Cookie [in]
 
-The cookie value that the driver previously obtained by calling the <a href="..\wdm\nf-wdm-cmregistercallback.md">CmRegisterCallback</a> or <a href="..\wdm\nf-wdm-cmregistercallbackex.md">CmRegisterCallbackEx</a> routine.
+The cookie value that the driver previously obtained by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541918">CmRegisterCallback</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff541921">CmRegisterCallbackEx</a> routine.
 
 
 ### -param Object [in]
@@ -90,7 +78,7 @@ A pointer to a location that receives a pointer to the unique identifier that re
 
 ### -param ObjectName [out, optional]
 
-A pointer to a location that receives a pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure. This structure contains the object name of the registry key object that <i>Object</i> specifies. The object name is actually the full path name of the registry key that the object represents. The caller must not write to this <b>UNICODE_STRING</b> structure or free it. This parameter is optional and can be <b>NULL</b>.
+A pointer to a location that receives a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure. This structure contains the object name of the registry key object that <i>Object</i> specifies. The object name is actually the full path name of the registry key that the object represents. The caller must not write to this <b>UNICODE_STRING</b> structure or free it. This parameter is optional and can be <b>NULL</b>.
 
 
 ## -returns
@@ -125,7 +113,7 @@ The <i>Cookie</i> or <i>Object</i> parameter is invalid.
 
 
 
-The <b>CmCallbackGetKeyObjectID</b> routine is available starting with Windows Vista. An improved version of this routine, <a href="..\wdm\nf-wdm-cmcallbackgetkeyobjectidex.md">CmCallbackGetKeyObjectIDEx</a>, is available starting with Windows 8. Drivers that run only in Windows 8 and later versions of Windows should call <b>CmCallbackGetKeyObjectIDEx</b> instead of <b>CmCallbackGetKeyObjectID</b>.
+The <b>CmCallbackGetKeyObjectID</b> routine is available starting with Windows Vista. An improved version of this routine, <a href="https://msdn.microsoft.com/library/windows/hardware/jj215789">CmCallbackGetKeyObjectIDEx</a>, is available starting with Windows 8. Drivers that run only in Windows 8 and later versions of Windows should call <b>CmCallbackGetKeyObjectIDEx</b> instead of <b>CmCallbackGetKeyObjectID</b>.
 
 Drivers can use <b>CmCallbackGetKeyObjectID</b> to obtain the registry key identifier, the object name, or both, by supplying non-<b>NULL</b> values for the <i>ObjectID</i> or <i>ObjectName</i> parameters.
 
@@ -142,19 +130,18 @@ For more information about <b>CmCallbackGetKeyObjectID</b> and registry filterin
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 
-<a href="..\wdm\nf-wdm-cmregistercallback.md">CmRegisterCallback</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj215789">CmCallbackGetKeyObjectIDEx</a>
 
 
 
-<a href="..\wdm\nf-wdm-cmregistercallbackex.md">CmRegisterCallbackEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541918">CmRegisterCallback</a>
 
 
 
-<a href="..\wdm\nf-wdm-cmcallbackgetkeyobjectidex.md">CmCallbackGetKeyObjectIDEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541921">CmRegisterCallbackEx</a>
 
 
 
@@ -162,8 +149,8 @@ For more information about <b>CmCallbackGetKeyObjectID</b> and registry filterin
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
  
 
  
-
 

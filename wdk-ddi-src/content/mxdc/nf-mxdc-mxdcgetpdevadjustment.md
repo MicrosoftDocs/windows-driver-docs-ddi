@@ -38,7 +38,8 @@ api_location:
 -	mxdc.h
 api_name:
 -	MxdcGetPDEVAdjustment
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
 ---
@@ -50,22 +51,6 @@ req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
 
 
 The <code>MxdcGetPDEVAdjustment</code> function is exported by a printer interface DLL and supplies printer configuration data for the Microsoft XPS Document Converter (MXDC).
-
-
-## -syntax
-
-
-````
-HRESULT MxdcGetPDEVAdjustment(
-  _In_           HANDLE                    hPrinter,
-  _In_           ULONG                     cbDevMode,
-  _In_     const DEVMODE                   *pDevMode,
-  _In_           ULONG                     cbIn,
-  _In_opt_ const VOID                      *pvIn,
-  _In_           ULONG                     cbPrintPropertiesCollection,
-  _Inout_        PrintPropertiesCollection *pOut
-);
-````
 
 
 ## -parameters
@@ -432,6 +417,9 @@ All rotation will be done on the imageable area. If a configuration component (U
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556211">DrvEnablePDEV</a>
 
 
@@ -440,12 +428,8 @@ All rotation will be done on the imageable area. If a configuration component (U
 
 
 
-<a href="..\prcomoem\nn-prcomoem-iprintoemuimxdc.md">IPrintOemUIMXDC Interface</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554157">IPrintOemUIMXDC Interface</a>
  
 
  
-
 

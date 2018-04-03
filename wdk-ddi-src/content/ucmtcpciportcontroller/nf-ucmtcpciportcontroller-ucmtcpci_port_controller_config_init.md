@@ -7,7 +7,7 @@ old-location: buses\ucmtcpci_port_controller_config_init.htm
 old-project: usbref
 ms.assetid: 8e9718e1-2f7c-4322-a34d-2faa45f4f97e
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: UCMTCPCI_PORT_CONTROLLER_CONFIG_INIT, UCMTCPCI_PORT_CONTROLLER_CONFIG_INIT method [Buses], buses.ucmtcpci_port_controller_config_init, ucmtcpciportcontroller/UCMTCPCI_PORT_CONTROLLER_CONFIG_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ucmtcpciportcontroller.h
 api_name:
 -	UCMTCPCI_PORT_CONTROLLER_CONFIG_INIT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UCMTCPCI_PORT_CONTROLLER_ALERT_TYPE
 req.product: Windows 10 or later.
@@ -51,20 +52,8 @@ req.product: Windows 10 or later.
 
 
 
-                        Initializes the <a href="..\ucmtcpciportcontroller\ns-ucmtcpciportcontroller-_ucmtcpci_port_controller_config.md">UCMTCPCI_PORT_CONTROLLER_CONFIG</a> structure.
+                        Initializes the <a href="https://msdn.microsoft.com/library/windows/hardware/mt805900">UCMTCPCI_PORT_CONTROLLER_CONFIG</a> structure.
                 
-
-
-## -syntax
-
-
-````
-VOID UCMTCPCI_PORT_CONTROLLER_CONFIG_INIT(
-  _Out_ PUCMTCPCI_PORT_CONTROLLER_CONFIG         Config,
-  _In_  PUCMTCPCI_PORT_CONTROLLER_IDENTIFICATION Identification,
-  _In_  PUCMTCPCI_PORT_CONTROLLER_CAPABILITIES   Capabilities
-);
-````
 
 
 ## -parameters
@@ -74,18 +63,18 @@ VOID UCMTCPCI_PORT_CONTROLLER_CONFIG_INIT(
 
 ### -param Config [out]
 
-A pointer to the driver-allocated <a href="..\ucmtcpciportcontroller\ns-ucmtcpciportcontroller-_ucmtcpci_port_controller_config.md">UCMTCPCI_PORT_CONTROLLER_CONFIG</a> structure.
+A pointer to the driver-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/mt805900">UCMTCPCI_PORT_CONTROLLER_CONFIG</a> structure.
 
 
 ### -param Identification [in]
 
-A pointer to the <a href="..\ucmtcpciportcontroller\ns-ucmtcpciportcontroller-_ucmtcpci_port_controller_identification.md">UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION</a> structure.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/mt805879">UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION</a> structure.
 
 
 ### -param Capabilities [in]
 
  A pointer to the 
-                 <a href="..\ucmtcpciportcontroller\ns-ucmtcpciportcontroller-_ucmtcpci_port_controller_capabilities.md">UCMTCPCI_PORT_CONTROLLER_CAPABILITIES</a> structure.
+                 <a href="https://msdn.microsoft.com/library/windows/hardware/mt805870">UCMTCPCI_PORT_CONTROLLER_CAPABILITIES</a> structure.
 
 
 ## -returns
@@ -99,12 +88,11 @@ This method does not return a value.
 
 ## -see-also
 
-<a href="..\ucmtcpciportcontroller\nf-ucmtcpciportcontroller-ucmtcpciportcontrollercreate.md">UcmTcpciPortControllerCreate</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt805844">UcmTcpciPortControllerCreate</a>
  
 
  
-
 

@@ -38,7 +38,8 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFUsbTargetDevice.GetNumInterfaces
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
@@ -55,14 +56,6 @@ req.product: Windows 10 or later.
 The <b>GetNumInterfaces</b> method retrieves the number of USB interfaces for the USB device.
 
 
-## -syntax
-
-
-````
-UCHAR GetNumInterfaces();
-````
-
-
 ## -parameters
 
 
@@ -74,7 +67,7 @@ UCHAR GetNumInterfaces();
 
 
 
-<b>GetNumInterfaces</b> returns the number of <a href="..\wudfusb\nn-wudfusb-iwdfusbinterface.md">IWDFUsbInterface</a> interfaces for the USB device in the default configuration. The default configuration is identified by index zero.
+<b>GetNumInterfaces</b> returns the number of <a href="https://msdn.microsoft.com/library/windows/hardware/ff560312">IWDFUsbInterface</a> interfaces for the USB device in the default configuration. The default configuration is identified by index zero.
 
 
 
@@ -105,16 +98,15 @@ The following code example retrieves the number of USB interfaces for the USB de
 
 ## -see-also
 
-<a href="..\wudfusb\nn-wudfusb-iwdfusbtargetdevice.md">IWDFUsbTargetDevice</a>
 
 
 
-<a href="..\wudfusb\nn-wudfusb-iwdfusbinterface.md">IWDFUsbInterface</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560312">IWDFUsbInterface</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560362">IWDFUsbTargetDevice</a>
  
 
  
-
 

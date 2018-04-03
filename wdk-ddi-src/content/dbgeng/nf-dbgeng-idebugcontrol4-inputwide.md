@@ -7,7 +7,7 @@ old-location: debugger\inputwide.htm
 old-project: debugger
 ms.assetid: 79997d8c-4641-4953-a1a2-e5bde88cbc3f
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: IDebugControl4, IDebugControl4 interface [Windows Debugging], InputWide method, IDebugControl4::InputWide, InputWide method [Windows Debugging], InputWide method [Windows Debugging], IDebugControl4 interface, InputWide,IDebugControl4.InputWide, dbgeng/IDebugControl4::InputWide, debugger.inputwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugControl4.InputWide
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -50,18 +51,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>InputWide</b>  method requests an input string from the <a href="https://msdn.microsoft.com/fa52a1f0-9397-48a5-acbd-ce5347c0baef">debugger engine</a>.
-
-
-## -syntax
-
-
-````
-HRESULT InputWide(
-  [out]           PWSTR  Buffer,
-  [in]            ULONG  BufferSize,
-  [out, optional] PULONG InputSize
-);
-````
 
 
 ## -parameters

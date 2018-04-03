@@ -7,7 +7,7 @@ old-location: debugger\outputpromptwide.htm
 old-project: debugger
 ms.assetid: c9b2eecf-fa9d-442e-9875-d068add25289
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: IDebugControl4, IDebugControl4 interface [Windows Debugging], OutputPromptWide method, IDebugControl4::OutputPromptWide, OutputPromptWide method [Windows Debugging], OutputPromptWide method [Windows Debugging], IDebugControl4 interface, OutputPromptWide,IDebugControl4.OutputPromptWide, dbgeng/IDebugControl4::OutputPromptWide, debugger.outputpromptwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Dbgeng.h
 api_name:
 -	IDebugControl4.OutputPromptWide
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -50,18 +51,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>OutputPromptWide</b>  method formats and sends a user prompt to the <a href="https://msdn.microsoft.com/9090a465-b6ab-4e99-8155-b0abdb729468">output callback objects</a>.
-
-
-## -syntax
-
-
-````
-HRESULT OutputPromptWide(
-  [in]           ULONG  OutputControl,
-  [in, optional] PCWSTR Format,
-                        ...
-);
-````
 
 
 ## -parameters
@@ -312,7 +301,6 @@ For more information about prompting the user, see <a href="https://msdn.microso
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548180">GetPromptText</a>
 
 
 
@@ -320,20 +308,20 @@ For more information about prompting the user, see <a href="https://msdn.microso
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553231">OutputPromptVaList</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff541518">DEBUG_OUTPUT_XXX</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548180">GetPromptText</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550526">IDebugControl4</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553231">OutputPromptVaList</a>
  
 
  
-
 

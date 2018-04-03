@@ -7,7 +7,7 @@ old-location: buses\ufx_device_capabilities_init.htm
 old-project: usbref
 ms.assetid: 7C55EB8D-1B68-484A-B95A-E0150FBA9AB8
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: UFX_DEVICE_CAPABILITIES_INIT, UFX_DEVICE_CAPABILITIES_INIT function [Buses], buses.ufx_device_capabilities_init, ufxclient/UFX_DEVICE_CAPABILITIES_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: ufxstub.lib
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	ufxclient.h
 api_name:
 -	UFX_DEVICE_CAPABILITIES_INIT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UFX_HARDWARE_FAILURE_CONTEXT, *PUFX_HARDWARE_FAILURE_CONTEXT
 req.product: Windows 10 or later.
@@ -50,17 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>UFX_DEVICE_CAPABILITIES_INIT</b> macro the initializes the <a href="..\ufxbase\ns-ufxbase-_ufx_device_capabilities.md">UFX_DEVICE_CAPABILITIES</a> structure.
-
-
-## -syntax
-
-
-````
-void UFX_DEVICE_CAPABILITIES_INIT(
-  _Out_ PUFX_DEVICE_CAPABILITIES Capabilities
-);
-````
+The <b>UFX_DEVICE_CAPABILITIES_INIT</b> macro the initializes the <a href="https://msdn.microsoft.com/library/windows/hardware/mt187973">UFX_DEVICE_CAPABILITIES</a> structure.
 
 
 ## -parameters
@@ -70,7 +61,7 @@ void UFX_DEVICE_CAPABILITIES_INIT(
 
 ### -param Capabilities [out]
 
-Pointer to the <a href="..\ufxbase\ns-ufxbase-_ufx_device_capabilities.md">UFX_DEVICE_CAPABILITIES</a> structure.
+Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/mt187973">UFX_DEVICE_CAPABILITIES</a> structure.
 
 
 ## -returns

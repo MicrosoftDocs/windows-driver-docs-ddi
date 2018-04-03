@@ -39,7 +39,8 @@ api_location:
 -	Wdf01000.sys.dll
 api_name:
 -	WdfDmaTransactionInitializeUsingOffset
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_DMA_SYSTEM_PROFILE_CONFIG, *PWDF_DMA_SYSTEM_PROFILE_CONFIG
 req.product: Windows 10 or later.
@@ -57,21 +58,6 @@ The
    <b>WdfDmaTransactionInitializeUsingOffset</b> method initializes a specified DMA transaction by using a byte offset into an MDL chain.
 
 
-## -syntax
-
-
-````
-NTSTATUS WdfDmaTransactionInitializeUsingOffset(
-  _In_ WDFDMATRANSACTION   DmaTransaction,
-  _In_ PFN_WDF_PROGRAM_DMA EvtProgramDmaFunction,
-  _In_ WDF_DMA_DIRECTION   DmaDirection,
-  _In_ PMDL                Mdl,
-  _In_ size_t              Offset,
-  _In_ size_t              Length
-);
-````
-
-
 ## -parameters
 
 
@@ -79,7 +65,7 @@ NTSTATUS WdfDmaTransactionInitializeUsingOffset(
 
 ### -param DmaTransaction [in]
 
-A handle to a DMA transaction object that the driver obtained from a previous call to <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioncreate.md">WdfDmaTransactionCreate</a>.
+A handle to a DMA transaction object that the driver obtained from a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff547027">WdfDmaTransactionCreate</a>.
 
 
 ### -param EvtProgramDmaFunction [in]
@@ -89,7 +75,7 @@ A pointer to the driver's <a href="https://msdn.microsoft.com/c01b94b2-aabf-47dd
 
 ### -param DmaDirection [in]
 
-A <a href="..\wdfdmaenabler\ne-wdfdmaenabler-_wdf_dma_direction.md">WDF_DMA_DIRECTION</a>-typed value.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff551288">WDF_DMA_DIRECTION</a>-typed value.
 
 
 ### -param Mdl [in]
@@ -111,7 +97,7 @@ The number of bytes to be transferred. This value must be greater than zero.
 
 
 
-<b>WdfDmaTransactionInitializeUsingOffset</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, the method might return one of the values described in the Return values section of <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioninitialize.md">WdfDmaTransactionInitialize</a>.
+<b>WdfDmaTransactionInitializeUsingOffset</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, the method might return one of the values described in the Return values section of <a href="https://msdn.microsoft.com/library/windows/hardware/ff547099">WdfDmaTransactionInitialize</a>.
 
 This method also might return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
 
@@ -126,7 +112,7 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
-<b>WdfDmaTransactionInitializeUsingOffset</b> is equivalent to <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioninitialize.md">WdfDmaTransactionInitialize</a> except that it takes an offset into the buffer described by the MDL chain rather than a virtual address.
+<b>WdfDmaTransactionInitializeUsingOffset</b> is equivalent to <a href="https://msdn.microsoft.com/library/windows/hardware/ff547099">WdfDmaTransactionInitialize</a> except that it takes an offset into the buffer described by the MDL chain rather than a virtual address.
 
 The driver can specify an MDL chain in the <i>Mdl</i> parameter of this method. An MDL chain is a sequence of MDL structures that the driver chained together using the <b>Next</b> member of the MDL structure.
 
@@ -135,12 +121,11 @@ The driver can specify an MDL chain in the <i>Mdl</i> parameter of this method. 
 
 ## -see-also
 
-<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioninitialize.md">WdfDmaTransactionInitialize</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547099">WdfDmaTransactionInitialize</a>
  
 
  
-
 

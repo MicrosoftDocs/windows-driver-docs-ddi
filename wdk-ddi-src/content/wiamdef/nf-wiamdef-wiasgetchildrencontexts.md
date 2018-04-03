@@ -38,7 +38,8 @@ api_location:
 -	Wiaservc.dll
 api_name:
 -	wiasGetChildrenContexts
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2
 req.product: Windows 10 or later.
@@ -51,18 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>wiasGetChildrenContexts</b> function retrieves an array of item contexts belonging to the current item's children.
-
-
-## -syntax
-
-
-````
-HRESULT _stdcall wiasGetChildrenContexts(
-  _In_  BYTE  *pParentContext,
-  _Out_ ULONG *pulNumChildren,
-  _Out_ BYTE  ***pppChildren
-);
-````
 
 
 ## -parameters

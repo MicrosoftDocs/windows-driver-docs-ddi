@@ -38,7 +38,8 @@ api_location:
 -	printoem.h
 api_name:
 -	DrvWriteSpoolBuf
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PrintSchemaSelectionType
 req.product: Windows 10 or later.
@@ -54,22 +55,7 @@ The <b>DrvWriteSpoolBuf</b> function pointed to by this function pointer is obso
 
  Windows 2000 and later render plug-ins should use <a href="https://msdn.microsoft.com/library/windows/hardware/ff553138">IPrintOemDriverUni::DrvWriteSpoolBuf</a> (Unidrv plug-ins), <a href="https://msdn.microsoft.com/library/windows/hardware/ff553103">IPrintOemDriverPS::DrvWriteSpoolBuf</a> (Pscript plug-ins), or <a href="https://msdn.microsoft.com/library/windows/hardware/ff552978">IPrintCorePS2::DrvWriteSpoolBuf</a> (Pscript plug-ins). 
 
-This function pointer prototype defines the <b>DrvWriteSpoolBuf</b> member of the <a href="..\printoem\ns-printoem-_drvprocs.md">DRVPROCS</a> structure.
-
-
-## -prototype
-
-
-````
-PFN_DrvWriteSpoolBuf DrvWriteSpoolBuf;
-
-DWORD APIENTRY* DrvWriteSpoolBuf(
-   PDEVOBJ                        pdevobj,
-   _In_reads_bytes_(cbSize) PVOID pBuffer,
-   DWORD                          cbSize
-)
-{ ... }
-````
+This function pointer prototype defines the <b>DrvWriteSpoolBuf</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548571">DRVPROCS</a> structure.
 
 
 ## -parameters

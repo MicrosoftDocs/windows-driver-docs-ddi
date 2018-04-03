@@ -7,7 +7,7 @@ old-location: kernel\kequeryactivegroupcount.htm
 old-project: kernel
 ms.assetid: a5447dd8-6a4f-4686-b4e3-7deb4b61ff92
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: KeQueryActiveGroupCount, KeQueryActiveGroupCount routine [Kernel-Mode Driver Architecture], k105_29b5c7ca-1596-4a3e-8cda-20c6ccec4ebb.xml, kernel.kequeryactivegroupcount, wdm/KeQueryActiveGroupCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	KeQueryActiveGroupCount
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
@@ -50,14 +51,6 @@ req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 
 
 The <b>KeQueryActiveGroupCount</b> routine returns the number of active processor groups in a multiprocessor system.
-
-
-## -syntax
-
-
-````
-USHORT KeQueryActiveGroupCount(void);
-````
 
 
 ## -parameters
@@ -86,9 +79,9 @@ An active logical processor is a logical processor that Windows has started up a
 
 Thus, the number of active processors in a multiprocessor system can increase between system startup and shutdown, but this number never decreases. Similarly, the number of active groups in the system can increase if a processor is dynamically added to an inactive group while the system is running. The number of active groups never decreases.
 
-In contrast, the value that is returned by <a href="..\wdm\nf-wdm-kequerymaximumgroupcount.md">KeQueryMaximumGroupCount</a> remains constant during runtime. This value is the maximum number of groups that the system can have.
+In contrast, the value that is returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff553035">KeQueryMaximumGroupCount</a> remains constant during runtime. This value is the maximum number of groups that the system can have.
 
-Call the <a href="..\wdm\nf-wdm-kequeryactiveprocessorcountex.md">KeQueryActiveProcessorCountEx</a> routine to determine the number of active logical processors in a particular group.
+Call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552993">KeQueryActiveProcessorCountEx</a> routine to determine the number of active logical processors in a particular group.
 
 Windows 7 is the first version of Windows to support processor groups. In Windows 7, only 64-bit versions of Windows support multiple groups; 32-bit versions of Windows support only one group. If a multiprocessor system is running a 64-bit version of Windows and contains no more than 64 logical processors, Windows assigns all processors to group 0. A multiprocessor system that is running a 32-bit version of Windows can contain no more than 32 processors.
 
@@ -97,16 +90,15 @@ Windows 7 is the first version of Windows to support processor groups. In Windo
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kequeryactiveprocessorcountex.md">KeQueryActiveProcessorCountEx</a>
 
 
 
-<a href="..\wdm\nf-wdm-kequerymaximumgroupcount.md">KeQueryMaximumGroupCount</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552993">KeQueryActiveProcessorCountEx</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553035">KeQueryMaximumGroupCount</a>
  
 
  
-
 

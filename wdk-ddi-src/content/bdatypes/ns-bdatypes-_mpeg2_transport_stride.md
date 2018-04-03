@@ -38,7 +38,8 @@ api_location:
 -	bdatypes.h
 api_name:
 -	MPEG2_TRANSPORT_STRIDE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
 ---
@@ -50,18 +51,6 @@ req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
 
 
 The MPEG2_TRANSPORT_STRIDE structure describes the format block of the MPEG2 transport stride. 
-
-
-## -syntax
-
-
-````
-typedef struct _MPEG2_TRANSPORT_STRIDE {
-  DWORD dwOffset;
-  DWORD dwPacketLength;
-  DWORD dwStride;
-} MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE;
-````
 
 
 ## -struct-fields

@@ -39,7 +39,8 @@ api_location:
 -	nfccxstub.dll
 api_name:
 -	NFC_CX_CLIENT_CONFIG_INIT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NFC_CX_TRANSPORT_TYPE, *PNFC_CX_TRANSPORT_TYPE
 ---
@@ -50,18 +51,7 @@ req.typenames: NFC_CX_TRANSPORT_TYPE, *PNFC_CX_TRANSPORT_TYPE
 ## -description
 
 
-The <b>NFC_CX_CLIENT_CONFIG_INIT</b> function initializes the <a href="..\nfccx\ns-nfccx-_nfc_cx_client_config.md">NFC_CX_CLIENT_CONFIG</a> structure.
-
-
-## -syntax
-
-
-````
-FORCEINLINE VOID  NFC_CX_CLIENT_CONFIG_INIT(
-  _Out_ PNFC_CX_CLIENT_CONFIG Config,
-  _In_  NFC_CX_TRANSPORT_TYPE BusType
-);
-````
+The <b>NFC_CX_CLIENT_CONFIG_INIT</b> function initializes the <a href="https://msdn.microsoft.com/library/windows/hardware/dn905540">NFC_CX_CLIENT_CONFIG</a> structure.
 
 
 ## -parameters
@@ -71,12 +61,12 @@ FORCEINLINE VOID  NFC_CX_CLIENT_CONFIG_INIT(
 
 ### -param Config [out]
 
-A pointer to an <a href="..\nfccx\ns-nfccx-_nfc_cx_client_config.md">NFC_CX_CLIENT_CONFIG</a> structure. 
+A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/dn905540">NFC_CX_CLIENT_CONFIG</a> structure. 
 
 
 ### -param BusType [in]
 
-An <a href="..\nfccx\ne-nfccx-_nfc_cx_transport_type.md">NFC_CX_TRANSPORT_TYPE</a> enumeration. 
+An <a href="https://msdn.microsoft.com/library/windows/hardware/dn905564">NFC_CX_TRANSPORT_TYPE</a> enumeration. 
 
 
 ## -returns
@@ -90,16 +80,15 @@ This function does not return a value.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
 
 
 
 <a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
-
-
-
  
 
  
-
 

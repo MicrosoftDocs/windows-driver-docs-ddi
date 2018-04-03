@@ -38,7 +38,8 @@ api_location:
 -	wiamindr_lh.h
 api_name:
 -	IWiaDrvItem.RemoveItemFromFolder
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SCANWINDOW, *PSCANWINDOW
 req.product: Windows 10 or later.
@@ -51,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>IWiaDrvItem::RemoveItemFromFolder</b> method removes an item from a parent folder.
-
-
-## -syntax
-
-
-````
-HRESULT RemoveItemFromFolder(
-  [in] LONG lReason
-);
-````
 
 
 ## -parameters
@@ -128,16 +119,15 @@ After the item has been removed from the folder, it can no longer be used for de
 
 ## -see-also
 
-<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiadrvitem.md">IWiaDrvItem</a>
+
+
+
+<a href="https://msdn.microsoft.com/0609e1b2-48df-413c-90bd-d7ddea26510a">IWiaDrvItem</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543856">IWiaDrvItem::AddItemToFolder</a>
-
-
-
  
 
  
-
 

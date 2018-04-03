@@ -7,7 +7,7 @@ old-location: kernel\reg_save_key_information.htm
 old-project: kernel
 ms.assetid: 911e1035-4415-43c1-9e9c-cc8feab2bd97
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*PREG_SAVE_KEY_INFORMATION, PREG_SAVE_KEY_INFORMATION, PREG_SAVE_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], REG_SAVE_KEY_INFORMATION, REG_SAVE_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], _REG_SAVE_KEY_INFORMATION, kernel.reg_save_key_information, kstruct_d_7da1ebfa-ae75-4b84-8941-87004f965404.xml, wdm/PREG_SAVE_KEY_INFORMATION, wdm/REG_SAVE_KEY_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	REG_SAVE_KEY_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: REG_SAVE_KEY_INFORMATION, *PREG_SAVE_KEY_INFORMATION
 req.product: Windows 10 or later.
@@ -51,21 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>REG_SAVE_KEY_INFORMATION</b> structure contains the information for a registry key that is about to be saved.
-
-
-## -syntax
-
-
-````
-typedef struct _REG_SAVE_KEY_INFORMATION {
-  PVOID  Object;
-  HANDLE FileHandle;
-  ULONG  Format;
-  PVOID  CallContext;
-  PVOID  ObjectContext;
-  PVOID  Reserved;
-} REG_SAVE_KEY_INFORMATION, *PREG_SAVE_KEY_INFORMATION;
-````
 
 
 ## -struct-fields
@@ -115,7 +101,7 @@ Optional driver-defined context information that the driver's <a href="https://m
 
 ### -field ObjectContext
 
-A pointer to driver-defined context information, which the driver has associated with a registry object by calling <a href="..\wdm\nf-wdm-cmsetcallbackobjectcontext.md">CmSetCallbackObjectContext</a>. This member is defined starting with Windows Vista.
+A pointer to driver-defined context information, which the driver has associated with a registry object by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff541924">CmSetCallbackObjectContext</a>. This member is defined starting with Windows Vista.
 
 
 ### -field Reserved
@@ -136,16 +122,15 @@ For more information about registry filtering operations, see <a href="https://m
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-cmsetcallbackobjectcontext.md">CmSetCallbackObjectContext</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541924">CmSetCallbackObjectContext</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a>
-
-
-
  
 
  
-
 

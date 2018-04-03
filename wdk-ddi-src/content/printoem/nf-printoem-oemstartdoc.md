@@ -38,7 +38,8 @@ api_location:
 -	printoem.h
 api_name:
 -	OEMStartDoc
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STDVARIABLEINDEX
 req.product: Windows 10 or later.
@@ -51,18 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <code>OEMStartDoc</code> function is called by GDI when it is ready to start sending a document to the driver for rendering.
-
-
-## -syntax
-
-
-````
-BOOL APIENTRY OEMStartDoc(
-       SURFOBJ *pso,
-  _In_ PWSTR   pwszDocName,
-       DWORD   dwJobId
-);
-````
 
 
 ## -parameters

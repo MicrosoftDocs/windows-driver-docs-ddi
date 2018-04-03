@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: Microsoft.WDTF
 req.assembly: WDTFDriverEDTAction.Interop.dll
 req.type-library: 
-req.lib: 
+req.lib: wdtfedtaction.h
 req.dll: 
 req.irql: 
 topic_type:
@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	IWDTFEnhancedDeviceTestSupportAction2.SkipRestart
 -	IWDTFEnhancedDeviceTestSupportAction2.put_SkipRestart
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TTraceLevel
 req.product: Windows 10 or later.

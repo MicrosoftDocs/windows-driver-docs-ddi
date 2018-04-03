@@ -38,7 +38,8 @@ api_location:
 -	ksproxy.h
 api_name:
 -	IKsControl.KsMethod
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PIPE_STATE
 ---
@@ -50,20 +51,6 @@ req.typenames: PIPE_STATE
 
 
 The <b>KsMethod</b> method sends a method to a KS object, along with any other defined support operations available on a method set. 
-
-
-## -syntax
-
-
-````
-HRESULT KsMethod(
-  [in]      PKSMETHOD Method,
-  [in]      ULONG     MethodLength,
-  [in, out] LPVOID    MethodData,
-  [in]      ULONG     DataLength,
-  [in, out] ULONG     *BytesReturned
-);
-````
 
 
 ## -parameters
@@ -118,12 +105,11 @@ To determine the buffer size that is required for a specific method request, you
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563398">KSMETHOD</a>
-
-
-
  
 
  
-
 

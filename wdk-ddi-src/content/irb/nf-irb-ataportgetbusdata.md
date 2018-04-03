@@ -7,7 +7,7 @@ old-location: storage\ataportgetbusdata.htm
 old-project: storage
 ms.assetid: bfff10ab-7e15-4db3-b808-947d61844bc0
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: AtaPortGetBusData, AtaPortGetBusData routine [Storage Devices], atartns_a137d697-85fa-4d99-964f-94e9bcbb6b7b.xml, irb/AtaPortGetBusData, storage.ataportgetbusdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Pciidex.dll
 api_name:
 -	AtaPortGetBusData
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: IDE_POWER_STATE
 ---
@@ -52,19 +53,6 @@ req.typenames: IDE_POWER_STATE
 
 The <b>AtaPortGetBusData</b> routine retrieves data from the location that is specified by <i>ConfigDataOffset</i> within the device's PCI configuration space.
 <div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
-
-## -syntax
-
-
-````
-ULONG AtaPortGetBusData(
-  _In_ PVOID ControllerExtension,
-  _In_ PVOID Buffer,
-  _In_ ULONG ConfigDataOffset,
-  _In_ ULONG BufferLength
-);
-````
-
 
 ## -parameters
 
@@ -111,12 +99,11 @@ Specifies the length, in bytes, of the buffer.
 
 ## -see-also
 
-<a href="..\irb\nf-irb-ataportsetbusdata.md">AtaPortSetBusData</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550232">AtaPortSetBusData</a>
  
 
  
-
 

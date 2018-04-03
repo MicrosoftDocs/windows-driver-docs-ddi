@@ -7,7 +7,7 @@ old-location: storage\msiscsi_targetmappings.htm
 old-project: storage
 ms.assetid: 6bddeaeb-9913-4c90-b8ac-3a9f7b384b80
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PMSiSCSI_TargetMappings, MSiSCSI_TargetMappings, MSiSCSI_TargetMappings structure [Storage Devices], PMSiSCSI_TargetMappings, PMSiSCSI_TargetMappings structure pointer [Storage Devices], _MSiSCSI_TargetMappings, iscsiop/MSiSCSI_TargetMappings, iscsiop/PMSiSCSI_TargetMappings, storage.msiscsi_targetmappings, structs-iSCSI_b8a3267a-8bab-4be6-9f3c-4086cc54f0f5.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	iscsiop.h
 api_name:
 -	MSiSCSI_TargetMappings
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MSiSCSI_TargetMappings, *PMSiSCSI_TargetMappings
 ---
@@ -52,19 +53,6 @@ req.typenames: MSiSCSI_TargetMappings, *PMSiSCSI_TargetMappings
 The MSiSCSI_TargetMappings structure contains a set of logical unit number (LUN) mappings that are associated with an initiator instance. 
 
 
-## -syntax
-
-
-````
-typedef struct _MSiSCSI_TargetMappings {
-  ULONGLONG           UniqueAdapterId;
-  ULONG               TargetMappingCount;
-  ULONG               Reserved;
-  ISCSI_TargetMapping TargetMappings[1];
-} MSiSCSI_TargetMappings, *PMSiSCSI_TargetMappings;
-````
-
-
 ## -struct-fields
 
 
@@ -72,7 +60,7 @@ typedef struct _MSiSCSI_TargetMappings {
 
 ### -field UniqueAdapterId
 
-A 64-bit integer that uniquely identifies an HBA initiator and a loaded instance of a storage miniport driver that manages the HBA. The initiator should use the address of the adapter extension or another address that the device driver owns to construct this identifier (ID). The initiator reports this value in the <b>UniqueAdapterId</b> member of the <a href="..\iscsimgt\ns-iscsimgt-_msiscsi_hbainformation.md">MSiSCSI_HBAInformation</a> structure.
+A 64-bit integer that uniquely identifies an HBA initiator and a loaded instance of a storage miniport driver that manages the HBA. The initiator should use the address of the adapter extension or another address that the device driver owns to construct this identifier (ID). The initiator reports this value in the <b>UniqueAdapterId</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563012">MSiSCSI_HBAInformation</a> structure.
 
 
 ### -field TargetMappingCount
@@ -87,7 +75,7 @@ Reserved for Microsoft use only.
 
 ### -field TargetMappings
 
-A variable-length array of <a href="..\iscsidef\ns-iscsidef-_iscsi_targetmapping.md">ISCSI_TargetMapping</a> structures, each of which provides a list of LUN mappings that are associated with a particular iSCSI session that is associated with the adapter ID.
+A variable-length array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff561572">ISCSI_TargetMapping</a> structures, each of which provides a list of LUN mappings that are associated with a particular iSCSI session that is associated with the adapter ID.
 
 
 ## -remarks
@@ -101,20 +89,19 @@ You must implement this class.
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561572">ISCSI_TargetMapping</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563012">MSiSCSI_HBAInformation</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563147">MSiSCSI_TargetMappings WMI Class</a>
-
-
-
-<a href="..\iscsidef\ns-iscsidef-_iscsi_targetmapping.md">ISCSI_TargetMapping</a>
-
-
-
-<a href="..\iscsimgt\ns-iscsimgt-_msiscsi_hbainformation.md">MSiSCSI_HBAInformation</a>
-
-
-
  
 
  
-
 

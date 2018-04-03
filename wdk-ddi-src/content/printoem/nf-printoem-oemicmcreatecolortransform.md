@@ -38,7 +38,8 @@ api_location:
 -	printoem.h
 api_name:
 -	OEMIcmCreateColorTransform
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STDVARIABLEINDEX
 req.product: Windows 10 or later.
@@ -51,24 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <code>OEMIcmCreateColorTransform</code> function creates an ICM color transform.
-
-
-## -syntax
-
-
-````
-HANDLE APIENTRY OEMIcmCreateColorTransform(
-           DHPDEV                                   dhpdev,
-           LPLOGCOLORSPACEW                         pLogColorSpace,
-  _In_opt_ _reads_bytes_(cjSourceProfile) PVOID     pvSourceProfile,
-           ULONG                                    cjSourceProfile,
-  _In_     _reads_bytes_(cjDestProfile) PVOID       pvDestProfile,
-           ULONG                                    cjDestProfile,
-  _In_opt_ _reads_bytes_opt_(cjTargetProfile) PVOID pvTargetProfile,
-           ULONG                                    cjTargetProfile,
-           POINTL                                   dwReserved
-);
-````
 
 
 ## -parameters

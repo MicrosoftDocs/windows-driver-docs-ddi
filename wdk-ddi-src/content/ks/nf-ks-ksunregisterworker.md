@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsUnregisterWorker
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,16 +52,6 @@ req.typenames:
 
 
 The <b>KsUnregisterWorker</b> function allows clients to unregister a worker. The function can destroy threads, depending on the number of threads in use. This must only be used after successful execution of <b>KsRegisterWorker</b>. The function can only be called at PASSIVE_LEVEL.
-
-
-## -syntax
-
-
-````
-VOID KsUnregisterWorker(
-  _In_ PKSWORKER Worker
-);
-````
 
 
 ## -parameters

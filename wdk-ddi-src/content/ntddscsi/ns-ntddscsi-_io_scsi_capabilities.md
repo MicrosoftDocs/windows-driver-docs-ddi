@@ -7,7 +7,7 @@ old-location: storage\io_scsi_capabilities.htm
 old-project: storage
 ms.assetid: cc348bc8-137a-4abd-9f0e-4c5fb521428f
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PIO_SCSI_CAPABILITIES, IO_SCSI_CAPABILITIES, IO_SCSI_CAPABILITIES structure [Storage Devices], PIO_SCSI_CAPABILITIES, PIO_SCSI_CAPABILITIES structure pointer [Storage Devices], _IO_SCSI_CAPABILITIES, ntddscsi/IO_SCSI_CAPABILITIES, ntddscsi/PIO_SCSI_CAPABILITIES, storage.io_scsi_capabilities, structs-scsibus_9329ca36-3fe4-4d9a-a3c7-f63a216244b5.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddscsi.h
 api_name:
 -	IO_SCSI_CAPABILITIES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: IO_SCSI_CAPABILITIES, *PIO_SCSI_CAPABILITIES
 ---
@@ -49,25 +50,8 @@ req.typenames: IO_SCSI_CAPABILITIES, *PIO_SCSI_CAPABILITIES
 ## -description
 
 
-The IO_SCSI_CAPABILITIES structure is used in conjunction with the <a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_get_capabilities.md">IOCTL_SCSI_GET_CAPABILITIES</a> request to retrieve the capabilities and limitations of the underlying SCSI host adapter.
+The IO_SCSI_CAPABILITIES structure is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560502">IOCTL_SCSI_GET_CAPABILITIES</a> request to retrieve the capabilities and limitations of the underlying SCSI host adapter.
 <div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
-
-## -syntax
-
-
-````
-typedef struct _IO_SCSI_CAPABILITIES {
-  ULONG   Length;
-  ULONG   MaximumTransferLength;
-  ULONG   MaximumPhysicalPages;
-  ULONG   SupportedAsynchronousEvents;
-  ULONG   AlignmentMask;
-  BOOLEAN TaggedQueuing;
-  BOOLEAN AdapterScansDown;
-  BOOLEAN AdapterUsesPio;
-} IO_SCSI_CAPABILITIES, *PIO_SCSI_CAPABILITIES;
-````
-
 
 ## -struct-fields
 
@@ -116,12 +100,11 @@ When <b>TRUE</b>, indicates that the host adapter uses programmed I/O.
 
 ## -see-also
 
-<a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_get_capabilities.md">IOCTL_SCSI_GET_CAPABILITIES</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560502">IOCTL_SCSI_GET_CAPABILITIES</a>
  
 
  
-
 

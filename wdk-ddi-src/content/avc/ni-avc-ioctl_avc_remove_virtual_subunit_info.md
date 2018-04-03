@@ -38,13 +38,19 @@ api_location:
 -	avc.h
 api_name:
 -	IOCTL_AVC_REMOVE_VIRTUAL_SUBUNIT_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: AVC_FUNCTION
 ---
 
 # IOCTL_AVC_REMOVE_VIRTUAL_SUBUNIT_INFO IOCTL
 
+
+##  Major Code: 
+
+
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -184,11 +190,11 @@ Must be called at IRQL = PASSIVE_LEVEL.
 
 ## -see-also
 
-<a href="..\avc\ni-avc-ioctl_avc_class.md">IOCTL_AVC_CLASS</a>
-
-
-
 <a href="..\avc\ns-avc-_avc_subunit_addr_spec.md">AVC_SUBUNIT_ADDR_SPEC</a>
+
+
+
+<a href="..\avc\ni-avc-ioctl_avc_class.md">IOCTL_AVC_CLASS</a>
 
 
 

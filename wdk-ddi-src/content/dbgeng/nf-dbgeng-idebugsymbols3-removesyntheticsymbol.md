@@ -7,7 +7,7 @@ old-location: debugger\removesyntheticsymbol.htm
 old-project: debugger
 ms.assetid: 07825be3-84a1-4aab-a9f0-22a45f636a04
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], RemoveSyntheticSymbol method, IDebugSymbols3::RemoveSyntheticSymbol, IDebugSymbols_dc1ccbc7-17e4-4424-8a3d-fbb7f16d3c3b.xml, RemoveSyntheticSymbol method [Windows Debugging], RemoveSyntheticSymbol method [Windows Debugging], IDebugSymbols3 interface, RemoveSyntheticSymbol,IDebugSymbols3.RemoveSyntheticSymbol, dbgeng/IDebugSymbols3::RemoveSyntheticSymbol, debugger.removesyntheticsymbol
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugSymbols3.RemoveSyntheticSymbol
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -52,16 +53,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 The <b>RemoveSyntheticSymbol</b> method removes a synthetic symbol from a module in the current process.
 
 
-## -syntax
-
-
-````
-HRESULT RemoveSyntheticSymbol(
-  [in] PDEBUG_MODULE_AND_ID Id
-);
-````
-
-
 ## -parameters
 
 
@@ -69,7 +60,7 @@ HRESULT RemoveSyntheticSymbol(
 
 ### -param Id [in]
 
-Specifies the synthetic symbol to remove.  This must be the same value returned in the <i>Id</i> parameter of <a href="https://msdn.microsoft.com/library/windows/hardware/ff537943">AddSyntheticSymbol</a>.  See <a href="..\dbgeng\ns-dbgeng-_debug_module_and_id.md">DEBUG_MODULE_AND_ID</a> for details about the type of this parameter.
+Specifies the synthetic symbol to remove.  This must be the same value returned in the <i>Id</i> parameter of <a href="https://msdn.microsoft.com/library/windows/hardware/ff537943">AddSyntheticSymbol</a>.  See <a href="https://msdn.microsoft.com/library/windows/hardware/ff541511">DEBUG_MODULE_AND_ID</a> for details about the type of this parameter.
 
 
 ## -returns
@@ -124,20 +115,19 @@ For more information about synthetic symbols, see Synthetic Symbols.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537943">AddSyntheticSymbol</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550870">IDebugSymbols3</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554536">RemoveSyntheticModule</a>
-
-
-
  
 
  
-
 

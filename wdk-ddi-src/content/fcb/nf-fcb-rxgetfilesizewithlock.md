@@ -7,7 +7,7 @@ old-location: ifsk\rxgetfilesizewithlock.htm
 old-project: ifsk
 ms.assetid: f58c2a7a-0782-47a7-84e6-98df541c875d
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: RxGetFileSizeWithLock, RxGetFileSizeWithLock function [Installable File System Drivers], fcb/RxGetFileSizeWithLock, ifsk.rxgetfilesizewithlock, rxref_15aee1e0-d82a-45ea-ad0b-e610347c62fe.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	fcb.h
 api_name:
 -	RxGetFileSizeWithLock
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FA_ENTRY, *PFA_ENTRY
 ---
@@ -50,17 +51,6 @@ req.typenames: FA_ENTRY, *PFA_ENTRY
 
 
 <b>RxGetFileSizeWithLock</b> gets the file size in the FCB structure using a lock to ensure that the 64-bit value is read consistently.
-
-
-## -syntax
-
-
-````
-VOID RxGetFileSizeWithLock(
-  _In_  PFCB      Fcb,
-  _Out_ PLONGLONG FileSize
-);
-````
 
 
 ## -parameters
@@ -102,6 +92,9 @@ These IRPs will normally result in a call to one of the <b>MRxQueryFileInfo, MRx
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550770">MRxQueryFileInfo</a>
 
 
@@ -111,11 +104,7 @@ These IRPs will normally result in a call to one of the <b>MRxQueryFileInfo, MRx
 
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/the-fcb-structure">The FCB Structure</a>
-
-
-
  
 
  
-
 

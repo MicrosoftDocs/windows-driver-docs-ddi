@@ -7,7 +7,7 @@ old-location: storage\storportfreehostmemorybuffer.htm
 old-project: storage
 ms.assetid: 686D141E-E6EA-4BB6-8556-0ECAC592E8F0
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: StorPortFreeHostMemoryBuffer, StorPortFreeHostMemoryBuffer routine [Storage Devices], storage.storportfreehostmemorybuffer, storport/StorPortFreeHostMemoryBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	storport.h
 api_name:
 -	StorPortFreeHostMemoryBuffer
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STOR_SPINLOCK
 req.product: Windows 10 or later.
@@ -52,18 +53,6 @@ req.product: Windows 10 or later.
 
 The <b>StorPortFreeHostMemoryBuffer</b> routine frees the physically contiguous memory
     that was allocated to be used for a Host Memory Buffer (HMB) 
-
-
-## -syntax
-
-
-````
-ULONG StorPortFreeHostMemoryBuffer(
-  _In_ PVOID                                               HwDeviceExtension,
-       _In_reads_(PhysicalAddressRangeCount) PACCESS_RANGE PhysicalAddressRanges,
-  _In_ ULONG                                               PhysicalAddressRangeCount
-);
-````
 
 
 ## -parameters
@@ -128,12 +117,11 @@ The host memory buffer was not valid (likely already freed).
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/B8413B02-32A6-40AE-9DD2-C25AD2D2D45C">StorPortAllocateHostMemoryBuffer</a>
-
-
-
  
 
  
-
 

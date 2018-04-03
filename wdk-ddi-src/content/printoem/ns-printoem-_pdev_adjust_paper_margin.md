@@ -38,7 +38,8 @@ api_location:
 -	printoem.h
 api_name:
 -	PDEV_ADJUST_PAPER_MARGIN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PDEV_ADJUST_PAPER_MARGIN
 req.product: Windows 10 or later.
@@ -51,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 The PDEV_ADJUST_PAPER_MARGIN structure specifies the imageable printing area.
-
-
-## -syntax
-
-
-````
-typedef struct _PDEV_ADJUST_PAPER_MARGIN {
-  RECTL rcImageableArea;
-} PDEV_ADJUST_PAPER_MARGIN;
-````
 
 
 ## -struct-fields
@@ -86,7 +77,6 @@ The <i>pBuf</i> parameter of the <a href="https://msdn.microsoft.com/library/win
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569236">RECTL</a>
 
 
 
@@ -94,8 +84,8 @@ The <i>pBuf</i> parameter of the <a href="https://msdn.microsoft.com/library/win
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569236">RECTL</a>
  
 
  
-
 

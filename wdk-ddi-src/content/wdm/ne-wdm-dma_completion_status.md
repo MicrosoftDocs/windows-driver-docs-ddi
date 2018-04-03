@@ -7,7 +7,7 @@ old-location: kernel\dma_completion_status.htm
 old-project: kernel
 ms.assetid: 12F6E1F5-15F9-42BE-8C47-C9A561513717
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: DMA_COMPLETION_STATUS, DMA_COMPLETION_STATUS enumeration [Kernel-Mode Driver Architecture], DmaAborted, DmaCancelled, DmaComplete, DmaError, kernel.dma_completion_status, wdm/DMA_COMPLETION_STATUS, wdm/DmaAborted, wdm/DmaCancelled, wdm/DmaComplete, wdm/DmaError
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	DMA_COMPLETION_STATUS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DMA_COMPLETION_STATUS
 req.product: Windows 10 or later.
@@ -54,19 +55,6 @@ req.product: Windows 10 or later.
 The <b>DMA_COMPLETION_STATUS</b> enumeration describes the completion status of a DMA transfer.
 
 
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  DmaComplete,
-  DmaAborted,
-  DmaError,
-  DmaCancelled
-} DMA_COMPLETION_STATUS;
-````
 
 
 ## -enum-fields
@@ -105,12 +93,11 @@ The <i>Status</i> parameter of the <a href="https://msdn.microsoft.com/library/w
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh450991">DmaCompletionRoutine</a>
-
-
-
  
 
  
-
 

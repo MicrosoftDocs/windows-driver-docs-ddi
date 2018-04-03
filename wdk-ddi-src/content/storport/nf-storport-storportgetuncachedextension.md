@@ -7,7 +7,7 @@ old-location: storage\storportgetuncachedextension.htm
 old-project: storage
 ms.assetid: d5fa83d6-d733-4fff-89a9-f519ed608e57
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: StorPortGetUncachedExtension, StorPortGetUncachedExtension routine [Storage Devices], storage.storportgetuncachedextension, storport/StorPortGetUncachedExtension, storprt_f3acfe04-374f-47d9-8e8f-7f7f8ee8a1d3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Storport.dll
 api_name:
 -	StorPortGetUncachedExtension
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STOR_SPINLOCK
 req.product: Windows 10 or later.
@@ -54,18 +55,6 @@ req.product: Windows 10 or later.
 The <b>StorPortGetUncachedExtension</b> routine allocates an uncached common buffer to be shared by the CPU and the device. 
 
 
-## -syntax
-
-
-````
-PVOID StorPortGetUncachedExtension(
-   IN PVOID                           HwDeviceExtension,
-   IN PPORT_CONFIGURATION_INFORMATION ConfigInfo,
-   ULONG                              NumberOfBytes
-);
-````
-
-
 ## -parameters
 
 
@@ -73,7 +62,7 @@ PVOID StorPortGetUncachedExtension(
 
 ### -param HwDeviceExtension
 
-A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls <a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>. The port driver frees this memory when it removes the device. 
+A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff567108">StorPortInitialize</a>. The port driver frees this memory when it removes the device. 
 
 
 ### -param ConfigInfo
@@ -108,12 +97,11 @@ Bus-master devices use common buffer space for DMA transfers.
 
 ## -see-also
 
-<a href="..\srb\nf-srb-scsiportgetuncachedextension.md">ScsiPortGetUncachedExtension</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564639">ScsiPortGetUncachedExtension</a>
  
 
  
-
 

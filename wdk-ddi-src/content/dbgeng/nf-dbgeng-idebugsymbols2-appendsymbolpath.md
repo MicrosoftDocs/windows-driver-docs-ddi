@@ -7,7 +7,7 @@ old-location: debugger\appendsymbolpath.htm
 old-project: debugger
 ms.assetid: 99a0ded5-2a73-40c9-99f4-82d31395aa62
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: AppendSymbolPath method [Windows Debugging], AppendSymbolPath method [Windows Debugging], IDebugSymbols interface, AppendSymbolPath method [Windows Debugging], IDebugSymbols2 interface, AppendSymbolPath method [Windows Debugging], IDebugSymbols3 interface, AppendSymbolPath,IDebugSymbols2.AppendSymbolPath, IDebugSymbols interface [Windows Debugging], AppendSymbolPath method, IDebugSymbols2, IDebugSymbols2 interface [Windows Debugging], AppendSymbolPath method, IDebugSymbols2::AppendSymbolPath, IDebugSymbols3 interface [Windows Debugging], AppendSymbolPath method, IDebugSymbols3::AppendSymbolPath, IDebugSymbols::AppendSymbolPath, IDebugSymbols_cc73a8f6-3cf1-40a1-8cb5-712eeca0b883.xml, dbgeng/IDebugSymbols2::AppendSymbolPath, dbgeng/IDebugSymbols3::AppendSymbolPath, dbgeng/IDebugSymbols::AppendSymbolPath, debugger.appendsymbolpath
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,8 @@ api_name:
 -	IDebugSymbols.AppendSymbolPath
 -	IDebugSymbols2.AppendSymbolPath
 -	IDebugSymbols3.AppendSymbolPath
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -52,16 +53,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>AppendSymbolPath</b>  method appends directories to the symbol path.
-
-
-## -syntax
-
-
-````
-HRESULT AppendSymbolPath(
-  [in] PCSTR Addition
-);
-````
 
 
 ## -parameters
@@ -113,15 +104,6 @@ For more information about manipulating the symbol path, see <a href="https://ms
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556802">SetSymbolPath</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
 
 
 
@@ -129,12 +111,20 @@ For more information about manipulating the symbol path, see <a href="https://ms
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550856">IDebugSymbols</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550864">IDebugSymbols2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550870">IDebugSymbols3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556802">SetSymbolPath</a>
  
 
  
-
 

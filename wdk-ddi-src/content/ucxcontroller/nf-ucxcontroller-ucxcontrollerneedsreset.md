@@ -7,7 +7,7 @@ old-location: buses\_ucxcontrollerneedsreset.htm
 old-project: usbref
 ms.assetid: FAE099E4-6BE9-4637-934F-9F86FFDCAA6A
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: UcxControllerNeedsReset, UcxControllerNeedsReset method [Buses], buses._ucxcontrollerneedsreset, ucxcontroller/UcxControllerNeedsReset
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ucxcontroller.h
 api_name:
 -	UcxControllerNeedsReset
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UCX_CONTROLLER_STATE
 req.product: Windows 10 or later.
@@ -53,16 +54,6 @@ req.product: Windows 10 or later.
 Initiates a non-Plug and Play (PnP) controller reset operation by queuing an event 
         into the controller reset state machine.
 
-
-
-## -syntax
-
-
-````
-BOOL UcxControllerNeedsReset(
-  [in] UCXCONTROLLER Controller
-);
-````
 
 
 ## -parameters
@@ -86,12 +77,11 @@ If the operation is successful, the method returns TRUE. Otherwise it returns FA
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt188033">UcxControllerCreate</a>
-
-
-
  
 
  
-
 

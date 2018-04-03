@@ -7,7 +7,7 @@ old-location: debugger\setspecificfilterargument.htm
 old-project: debugger
 ms.assetid: 99731ad4-1023-4225-a133-3cb73e3ad07f
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: IDebugControl, IDebugControl interface [Windows Debugging], SetSpecificFilterArgument method, IDebugControl2 interface [Windows Debugging], SetSpecificFilterArgument method, IDebugControl2::SetSpecificFilterArgument, IDebugControl3 interface [Windows Debugging], SetSpecificFilterArgument method, IDebugControl3::SetSpecificFilterArgument, IDebugControl::SetSpecificFilterArgument, IDebugControl_a7f790fa-29f1-46f2-9163-a4b99f4880da.xml, SetSpecificFilterArgument method [Windows Debugging], SetSpecificFilterArgument method [Windows Debugging], IDebugControl interface, SetSpecificFilterArgument method [Windows Debugging], IDebugControl2 interface, SetSpecificFilterArgument method [Windows Debugging], IDebugControl3 interface, SetSpecificFilterArgument,IDebugControl.SetSpecificFilterArgument, dbgeng/IDebugControl2::SetSpecificFilterArgument, dbgeng/IDebugControl3::SetSpecificFilterArgument, dbgeng/IDebugControl::SetSpecificFilterArgument, debugger.setspecificfilterargument
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,8 @@ api_name:
 -	IDebugControl.SetSpecificFilterArgument
 -	IDebugControl2.SetSpecificFilterArgument
 -	IDebugControl3.SetSpecificFilterArgument
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -52,17 +53,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>SetSpecificFilterArgument</b>  method sets the value of filter argument for the specific filters that can have an argument.
-
-
-## -syntax
-
-
-````
-HRESULT SetSpecificFilterArgument(
-  [in] ULONG Index,
-  [in] PCSTR Argument
-);
-````
 
 
 ## -parameters
@@ -130,19 +120,6 @@ For a list of specific filters that have argument and the interpretation of thos
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
-
-
-
-<a href="https://msdn.microsoft.com/fdb5059f-e7d9-4e14-aa3d-030e72c30732">sx, sxd, sxe, sxi, sxn (Set Exceptions)</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
 
 
@@ -150,8 +127,20 @@ For a list of specific filters that have argument and the interpretation of thos
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550508">IDebugControl</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550512">IDebugControl2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550519">IDebugControl3</a>
+
+
+
+<a href="https://msdn.microsoft.com/fdb5059f-e7d9-4e14-aa3d-030e72c30732">sx, sxd, sxe, sxi, sxn (Set Exceptions)</a>
  
 
  
-
 

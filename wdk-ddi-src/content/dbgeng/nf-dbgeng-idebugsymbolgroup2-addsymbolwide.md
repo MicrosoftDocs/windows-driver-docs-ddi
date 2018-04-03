@@ -7,7 +7,7 @@ old-location: debugger\addsymbolwide.htm
 old-project: debugger
 ms.assetid: 1c363649-4eff-4ad1-bc31-b060e2eb15d5
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: AddSymbolWide method [Windows Debugging], AddSymbolWide method [Windows Debugging], IDebugSymbolGroup2 interface, AddSymbolWide,IDebugSymbolGroup2.AddSymbolWide, IDebugSymbolGroup2, IDebugSymbolGroup2 interface [Windows Debugging], AddSymbolWide method, IDebugSymbolGroup2::AddSymbolWide, dbgeng/IDebugSymbolGroup2::AddSymbolWide, debugger.addsymbolwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Dbgeng.h
 api_name:
 -	IDebugSymbolGroup2.AddSymbolWide
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -50,17 +51,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>AddSymbolWide</b> method adds a symbol to a <a href="https://msdn.microsoft.com/94cbf33b-e975-49eb-a266-774798955a48">symbol group</a>.
-
-
-## -syntax
-
-
-````
-HRESULT AddSymbolWide(
-  [in]      PCWSTR Name,
-  [in, out] PULONG Index
-);
-````
 
 
 ## -parameters
@@ -123,7 +113,14 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550846">IDebugSymbolGroup2</a>
 
 
 
@@ -132,15 +129,7 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554518">RemoveSymbolByName</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
-
-
-
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: netvista\protocoltcpoffloaddisconnectcomplete.htm
 old-project: netvista
 ms.assetid: 56244148-638f-4d93-82a6-2cced9744046
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: ProtocolTcpOffloadDisconnectComplete, ProtocolTcpOffloadDisconnectComplete callback function [Network Drivers Starting with Windows Vista], TCP_OFFLOAD_DISCONNECT_COMPLETE_HANDLER, ndischimney/ProtocolTcpOffloadDisconnectComplete, netvista.protocoltcpoffloaddisconnectcomplete, tcp_chim_protocol_func_fadc0ea9-acd8-489d-886c-213b909d93b3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ndischimney.h
 api_name:
 -	ProtocolTcpOffloadDisconnectComplete
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PD_BUFFER_VIRTUAL_SUBNET_INFO
 ---
@@ -54,22 +55,8 @@ req.typenames: PD_BUFFER_VIRTUAL_SUBNET_INFO
 NDIS calls a protocol driver's or intermediate driver's 
   <i>ProtocolTcpOffloadDisconnectComplete</i> function to complete a disconnect operation that the driver
   previously initiated by calling the 
-  <a href="..\ndischimney\nf-ndischimney-ndisoffloadtcpdisconnect.md">
+  <a href="https://msdn.microsoft.com/f8abff30-b641-4581-8532-8292993ca9f6">
   NdisOffloadTcpDisconnect</a> function.
-
-
-## -prototype
-
-
-````
-TCP_OFFLOAD_DISCONNECT_COMPLETE_HANDLER ProtocolTcpOffloadDisconnectComplete;
-
-VOID ProtocolTcpOffloadDisconnectComplete(
-  _In_ NDIS_HANDLE      ProtocolBindingContext,
-  _In_ PNET_BUFFER_LIST NetBufferList
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -82,15 +69,15 @@ VOID ProtocolTcpOffloadDisconnectComplete(
 A handle to a context area allocated by the protocol driver. The driver maintains the per binding
      context information in this context area. The driver supplied this handle to NDIS when the driver called
      the 
-     <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a> function.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff563715">NdisOpenAdapterEx</a> function.
 
 
 ### -param NetBufferList [in]
 
 When non-NULL, a pointer to a single 
-     <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure. The driver
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure. The driver
      supplied this pointer as an input parameter in a previous call to the 
-     <a href="..\ndischimney\nf-ndischimney-ndisoffloadtcpdisconnect.md">
+     <a href="https://msdn.microsoft.com/f8abff30-b641-4581-8532-8292993ca9f6">
      NdisOffloadTcpDisconnect</a> function.
 
 
@@ -108,7 +95,7 @@ None
 
 
 In response to an underlying driver's or offload target's call to the 
-    <a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_disconnect_complete.md">
+    <a href="https://msdn.microsoft.com/e862d9fe-a60c-4397-95ce-62aa1ef17eae">
     NdisTcpOffloadDisconnectComplete</a> function, NDIS calls the overlying protocol driver's or
     intermediate driver's 
     <i>ProtocolTcpOffloadDisconnectComplete</i> function.
@@ -150,30 +137,29 @@ Note that, if an intermediate driver exports more than one interface to overlyin
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
-
-
-<a href="..\ndischimney\nf-ndischimney-ndisoffloadtcpdisconnect.md">NdisOffloadTcpDisconnect</a>
-
-
-
-<a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_disconnect_complete.md">
-   NdisTcpOffloadDisconnectComplete</a>
-
-
-
-<a href="..\ndischimney\nc-ndischimney-w_tcp_offload_disconnect_handler.md">
+<a href="https://msdn.microsoft.com/f8be12a9-c2c0-4a22-8a57-58c8b27ef69e">
    MiniportTcpOffloadDisconnect</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563696">NdisOffloadTcpDisconnect</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563715">NdisOpenAdapterEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/e862d9fe-a60c-4397-95ce-62aa1ef17eae">
+   NdisTcpOffloadDisconnectComplete</a>
  
 
  
-
 

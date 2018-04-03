@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KS_AMPixAspectRatio
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KS_AMPixAspectRatio
 ---
@@ -50,19 +51,6 @@ req.typenames: KS_AMPixAspectRatio
 
 
 The KS_AMPixAspectRatio enumeration defines the pixel aspect ratio that corresponds to a 720  480 NTSC video signal or a 720 × 576 PAL video signal.
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  KS_PixAspectRatio_NTSC4x3   = 0,
-  KS_PixAspectRatio_NTSC16x9  = 1,
-  KS_PixAspectRatio_PAL4x3    = 2,
-  KS_PixAspectRatio_PAL16x9   = 3
-} KS_AMPixAspectRatio;
-````
 
 
 ## -enum-fields

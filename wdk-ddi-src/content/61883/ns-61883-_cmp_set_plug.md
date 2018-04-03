@@ -38,7 +38,8 @@ api_location:
 -	61883.h
 api_name:
 -	CMP_SET_PLUG
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CMP_SET_PLUG, *PCMP_SET_PLUG
 ---
@@ -50,17 +51,6 @@ req.typenames: CMP_SET_PLUG, *PCMP_SET_PLUG
 
 
 This structure is used to assign settings to a plug.he  request changes transmission settings for a plug control register. Only a driver that created a plug is allowed to set the contents of that plug. 
-
-
-## -syntax
-
-
-````
-typedef struct _CMP_SET_PLUG {
-  HANDLE hPlug;
-  AV_PCR Pcr;
-} CMP_SET_PLUG, *PCMP_SET_PLUG;
-````
 
 
 ## -struct-fields
@@ -93,12 +83,11 @@ If a driver attempts to set the contents of a plug register it did not create, t
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537008">AV_61883_REQUEST</a>
-
-
-
  
 
  
-
 

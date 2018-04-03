@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	IPrintSchemaTicket.JobCopiesAllDocuments
 -	IPrintSchemaTicket.get_JobCopiesAllDocuments
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PrintSchemaSelectionType
 req.product: Windows 10 or later.
@@ -56,27 +57,16 @@ Gets the copy count.
 This property is read-only.
 
 
-## -syntax
-
-
-````
-HRESULT get_JobCopiesAllDocuments(
-  [out, retval] ULONG *pulJobCopiesAllDocuments
-);
-````
-
-
 ## -parameters
 
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintschematicket.md">IPrintSchemaTicket</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451398">IPrintSchemaTicket</a>
  
 
  
-
 

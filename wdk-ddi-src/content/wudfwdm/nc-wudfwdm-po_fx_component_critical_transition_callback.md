@@ -7,7 +7,7 @@ old-location: kernel\componentcriticaltransitioncallback.htm
 old-project: kernel
 ms.assetid: 6E551951-E903-4970-8B30-6780C9FF4FC6
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 2/24/2018
 ms.keywords: ComponentCriticalTransitionCallback, ComponentCriticalTransitionCallback routine [Kernel-Mode Driver Architecture], PO_FX_COMPONENT_CRITICAL_TRANSITION_CALLBACK, kernel.componentcriticaltransitioncallback, wdm/ComponentCriticalTransitionCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	ComponentCriticalTransitionCallback
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
@@ -127,5 +128,6 @@ A PEP can call this routine at IRQL TBD.
  
 
  
+
 
 

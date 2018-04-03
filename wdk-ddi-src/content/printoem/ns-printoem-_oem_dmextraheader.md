@@ -38,7 +38,8 @@ api_location:
 -	printoem.h
 api_name:
 -	OEM_DMEXTRAHEADER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OEM_DMEXTRAHEADER, *POEM_DMEXTRAHEADER
 req.product: Windows 10 or later.
@@ -51,18 +52,6 @@ req.product: Windows 10 or later.
 
 
 The OEM_DMEXTRAHEADER structure must be used to define the first members of a set of private <a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a> structure members.
-
-
-## -syntax
-
-
-````
-typedef struct _OEM_DMEXTRAHEADER {
-  DWORD dwSize;
-  DWORD dwSignature;
-  DWORD dwVersion;
-} OEM_DMEXTRAHEADER, *POEM_DMEXTRAHEADER;
-````
 
 
 ## -struct-fields

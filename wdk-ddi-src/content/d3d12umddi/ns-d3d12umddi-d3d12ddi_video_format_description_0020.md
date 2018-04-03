@@ -7,7 +7,7 @@ old-location: display\d3d12ddi_video_format_description.htm
 old-project: display
 ms.assetid: 47C0C369-B31B-4291-A420-A1E75BA990CF
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3D12DDI_VIDEO_FORMAT_DESCRIPTION_0020, D3D12DDI_VIDEO_FORMAT_DESCRIPTION_0020 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_FORMAT_DESCRIPTION_0020, display.d3d12ddi_video_format_description
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3d12umddi.h
 api_name:
 -	D3D12DDI_VIDEO_FORMAT_DESCRIPTION_0020
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D12DDI_VIDEO_FORMAT_DESCRIPTION_0020
 ---
@@ -50,17 +51,6 @@ req.typenames: D3D12DDI_VIDEO_FORMAT_DESCRIPTION_0020
 
 
 Defines the combination of a pixel format and color space for a resource content description.
-
-
-## -syntax
-
-
-````
-typedef struct D3D12DDI_VIDEO_FORMAT_DESCRIPTION_0020 {
-  DXGI_FORMAT           Format;
-  DXGI_COLOR_SPACE_TYPE ColorSpace;
-} D3D12DDI_VIDEO_FORMAT_DESCRIPTION_0020;
-````
 
 
 ## -struct-fields
@@ -93,7 +83,6 @@ The one exception is that all drivers are required to support a conversion to re
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a>
 
 
 
@@ -101,8 +90,8 @@ The one exception is that all drivers are required to support a conversion to re
 
 
 
+<a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a>
  
 
  
-
 

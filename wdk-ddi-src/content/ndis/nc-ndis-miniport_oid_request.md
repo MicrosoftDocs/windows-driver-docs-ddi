@@ -7,7 +7,7 @@ old-location: netvista\miniportoidrequest.htm
 old-project: netvista
 ms.assetid: 733d84f5-c1d4-42a0-a59b-4ba50247f165
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: MINIPORT_OID_REQUEST, MiniportOidRequest, MiniportOidRequest callback function [Network Drivers Starting with Windows Vista], ndis/MiniportOidRequest, ndis_request_ref_a05061c1-4fa7-485a-9751-05b146e8f961.xml, netvista.miniportoidrequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ndis.h
 api_name:
 -	MiniportOidRequest
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
 ---
@@ -54,20 +55,6 @@ NDIS calls a miniport driver's
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>MINIPORT_OID_REQUEST</b> type. For more
    information, see the following Examples section.</div><div> </div>
 
-## -prototype
-
-
-````
-MINIPORT_OID_REQUEST MiniportOidRequest;
-
-NDIS_STATUS MiniportOidRequest(
-  _In_ NDIS_HANDLE       MiniportAdapterContext,
-  _In_ PNDIS_OID_REQUEST OidRequest
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -76,14 +63,14 @@ NDIS_STATUS MiniportOidRequest(
 ### -param MiniportAdapterContext [in]
 
 A handle to a context area that the miniport driver allocated in its 
-     <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a> function.
+     <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a> function.
      The miniport driver uses this context area to maintain state information for a miniport adapter.
 
 
 ### -param OidRequest [in]
 
 A pointer to an 
-     <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a> structure that contains
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a> structure that contains
      both the buffer and the request packet for the miniport driver to handle. Depending on the request, the
      driver returns requested information in the structure provided.
 
@@ -119,7 +106,7 @@ The miniport driver has either set or obtained the data as requested.
 <td width="60%">
 The miniport driver will complete the request asynchronously. After the miniport driver has
        completed all processing, it must call the 
-       <a href="..\ndis\nf-ndis-ndismoidrequestcomplete.md">
+       <a href="https://msdn.microsoft.com/30d060d0-05a3-42b5-b5ff-2f2b12873ca9">
        NdisMOidRequestComplete</a> function to inform NDIS that the request is complete.
 
 </td>
@@ -194,9 +181,9 @@ One or more of the parameters specified for the request at
 </td>
 <td width="60%">
 After calling the 
-       <a href="..\ndis\nc-ndis-miniport_device_pnp_event_notify.md">
+       <a href="https://msdn.microsoft.com/e41240c0-17be-42ef-a72c-c5311115cf64">
        MiniportDevicePnPEventNotify</a> function to indicate a surprise removal, NDIS calls the driver's 
-       <a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a> function. If the
+       <a href="https://msdn.microsoft.com/b8d452b4-bef3-4991-87cf-fac15bedfde4">MiniportHaltEx</a> function. If the
        driver receives any OID requests before NDIS calls 
        <i>MiniportHaltEx</i>, it should immediately complete such requests with a status value of
        NDIS_STATUS_NOT_ACCEPTED.
@@ -211,7 +198,7 @@ After calling the
 </td>
 <td width="60%">
 The miniport driver stopped processing the request. For example, NDIS called the 
-       <a href="..\ndis\nc-ndis-miniport_reset.md">MiniportResetEx</a> function.
+       <a href="https://msdn.microsoft.com/15f82163-a1b5-4cef-a53e-8a97adb2cd92">MiniportResetEx</a> function.
 
 </td>
 </tr>
@@ -226,8 +213,8 @@ The miniport driver will provide an OID completion status with a subsequent stat
        miniport driver cannot return NDIS_STATUS_INDICATION_REQUIRED unless the particular OID allows it. To
        determine if this status is allowed, see the OID reference page.. For more information about
        NDIS_STATUS_INDICATION_REQUIRED, see 
-       <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a> and 
-       <a href="..\ndis\ns-ndis-_ndis_status_indication.md">NDIS_STATUS_INDICATION</a>.
+       <a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a> and 
+       <a href="https://msdn.microsoft.com/library/windows/hardware/ff567373">NDIS_STATUS_INDICATION</a>.
 
 </td>
 </tr>
@@ -243,13 +230,13 @@ The miniport driver will provide an OID completion status with a subsequent stat
 
 A driver specifies the 
     <i>MiniportOidRequest</i> entry point when it calls the 
-    <a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">
+    <a href="https://msdn.microsoft.com/bed68aa8-499d-41fd-997b-a46316913cc8">
     NdisMRegisterMiniportDriver</a> function.
 
 NDIS calls the 
     <i>MiniportOidRequest</i> function either on its own behalf or on behalf of a bound protocol driver that
     called the 
-    <a href="..\ndis\nf-ndis-ndisoidrequest.md">NdisOidRequest</a> function. Miniport drivers
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff563710">NdisOidRequest</a> function. Miniport drivers
     should examine the request supplied at 
     <i>OidRequest</i> and take the action requested. For more information about the OIDs that miniport drivers
     handle, see 
@@ -317,49 +304,48 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismoidrequestcomplete.md">NdisMOidRequestComplete</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_reset.md">MiniportResetEx</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_oid_request.md">MiniportOidRequest</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisoidrequest.md">NdisOidRequest</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_status_indication.md">NDIS_STATUS_INDICATION</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_device_pnp_event_notify.md">
+<a href="https://msdn.microsoft.com/e41240c0-17be-42ef-a72c-c5311115cf64">
    MiniportDevicePnPEventNotify</a>
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
+<a href="https://msdn.microsoft.com/b8d452b4-bef3-4991-87cf-fac15bedfde4">MiniportHaltEx</a>
 
 
 
+<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/733d84f5-c1d4-42a0-a59b-4ba50247f165">MiniportOidRequest</a>
+
+
+
+<a href="https://msdn.microsoft.com/15f82163-a1b5-4cef-a53e-8a97adb2cd92">MiniportResetEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567373">NDIS_STATUS_INDICATION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563622">NdisMOidRequestComplete</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563654">NdisMRegisterMiniportDriver</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563710">NdisOidRequest</a>
  
 
  
-
 

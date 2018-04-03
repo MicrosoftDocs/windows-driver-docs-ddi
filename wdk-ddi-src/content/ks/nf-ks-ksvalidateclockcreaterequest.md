@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsValidateClockCreateRequest
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -53,17 +54,6 @@ req.typenames:
 The <b>KsValidateClockCreateRequest</b> function validates the clock creation request and returns the create structure associated with the request.
 
 This can only be called at PASSIVE_LEVEL.
-
-
-## -syntax
-
-
-````
-NTSTATUS KsValidateClockCreateRequest(
-  _In_  PIRP            lrp,
-  _Out_ PKSCLOCK_CREATE *ClockCreate
-);
-````
 
 
 ## -parameters

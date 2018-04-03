@@ -7,7 +7,7 @@ old-location: storage\storportfreetimer.htm
 old-project: storage
 ms.assetid: AF6B1693-6242-4F09-8226-472E75B809F3
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: StorPortFreeTimer, StorPortFreeTimer routine [Storage Devices], storage.storportfreetimer, storport/StorPortFreeTimer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	storport.h
 api_name:
 -	StorPortFreeTimer
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STOR_SPINLOCK
 req.product: Windows 10 or later.
@@ -50,18 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-Frees a Storport timer context object previously created by the <a href="..\storport\nf-storport-storportinitializetimer.md">StorPortInitializeTimer</a> routine.
-
-
-## -syntax
-
-
-````
-ULONG StorPortFreeTimer(
-  _In_ PVOID HwDeviceExtension,
-  _In_ PVOID TimerHandle
-);
-````
+Frees a Storport timer context object previously created by the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451483">StorPortInitializeTimer</a> routine.
 
 
 ## -parameters
@@ -76,7 +66,7 @@ A pointer to the hardware device extension for the host bus adapter (HBA).
 
 ### -param TimerHandle [in]
 
-A pointer to an opaque buffer for the timer context returned by <a href="..\storport\nf-storport-storportinitializetimer.md">StorPortInitializeTimer</a>.
+A pointer to an opaque buffer for the timer context returned by <a href="https://msdn.microsoft.com/library/windows/hardware/hh451483">StorPortInitializeTimer</a>.
 
 
 ## -returns
@@ -162,20 +152,19 @@ Miniports should call <b>StorPortFreeTimer</b> whenever a work item is no longer
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportrequesttimer.md">StorPortRequestTimer</a>
 
 
 
-<a href="..\storport\nf-storport-storportinitializetimer.md">StorPortInitializeTimer</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557365">HwStorAdapterControl</a>
 
 
 
-<a href="..\storport\nc-storport-hw_adapter_control.md">HwStorAdapterControl</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451483">StorPortInitializeTimer</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451511">StorPortRequestTimer</a>
  
 
  
-
 

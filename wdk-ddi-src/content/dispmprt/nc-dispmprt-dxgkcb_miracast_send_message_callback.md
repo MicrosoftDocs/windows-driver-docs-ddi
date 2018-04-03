@@ -7,7 +7,7 @@ old-location: display\dxgkcbmiracastsendmessagecallback.htm
 old-project: display
 ms.assetid: 2DD7D46A-2E2B-482D-BFD6-D0AFD975107E
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKCB_MIRACAST_SEND_MESSAGE_CALLBACK, DxgkCbMiracastSendMessageCallback, DxgkCbMiracastSendMessageCallback callback function [Display Devices], display.dxgkcbmiracastsendmessagecallback, dispmprt/DxgkCbMiracastSendMessageCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Dispmprt.h
 api_name:
 -	DxgkCbMiracastSendMessageCallback
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 ---
@@ -49,21 +50,7 @@ req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 ## -description
 
 
-Called in kernel mode when the message that was sent to the user-mode  driver with a call to the <a href="..\dispmprt\nc-dispmprt-dxgkcb_miracast_send_message.md">DxgkCbMiracastSendMessage</a> function has completed or has been canceled.
-
-
-## -prototype
-
-
-````
-DXGKCB_MIRACAST_SEND_MESSAGE_CALLBACK DxgkCbMiracastSendMessageCallback;
-
-VOID* DxgkCbMiracastSendMessageCallback(
-  _In_ PVOID            CallbackContext,
-  _In_ PIO_STATUS_BLOCK pIoStatusBlock
-)
-{ ... }
-````
+Called in kernel mode when the message that was sent to the user-mode  driver with a call to the <a href="https://msdn.microsoft.com/E8C3B9E3-854C-488D-809B-0F0893591352">DxgkCbMiracastSendMessage</a> function has completed or has been canceled.
 
 
 ## -parameters
@@ -78,7 +65,7 @@ A pointer to the driver-supplied callback context. The operating system passes t
 
 ### -param pIoStatusBlock [in]
 
-A pointer to a driver-supplied buffer to hold the returned <a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure for the completed or canceled user-mode message. This structure holds the status of the I/O call and the number of bytes that the user-mode driver wrote to the output buffer.
+A pointer to a driver-supplied buffer to hold the returned <a href="https://msdn.microsoft.com/library/windows/hardware/ff550671">IO_STATUS_BLOCK</a> structure for the completed or canceled user-mode message. This structure holds the status of the I/O call and the number of bytes that the user-mode driver wrote to the output buffer.
 
 
 ## -returns
@@ -104,16 +91,15 @@ The operating system guarantees that this function follows the zero level synchr
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a>
 
 
 
-<a href="..\dispmprt\nc-dispmprt-dxgkcb_miracast_send_message.md">DxgkCbMiracastSendMessage</a>
+<a href="https://msdn.microsoft.com/E8C3B9E3-854C-488D-809B-0F0893591352">DxgkCbMiracastSendMessage</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550671">IO_STATUS_BLOCK</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: netvista\wwan_modem_config_mode.htm
 old-project: netvista
 ms.assetid: 1AA3EDCC-EB6E-4118-8081-CA1914140683
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PWWAN_MODEM_CONFIG_MODE, PWWAN_MODEM_CONFIG_MODE, PWWAN_MODEM_CONFIG_MODE enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_MODEM_CONFIG_MODE, WWAN_MODEM_CONFIG_MODE enumeration [Network Drivers Starting with Windows Vista], WwanModemConfigModeHostCentric, WwanModemConfigModeMax, WwanModemConfigModeModemCentric, WwanModemConfigModeUnknown, _WWAN_MODEM_CONFIG_MODE, netvista.wwan_modem_config_mode, wwan/PWWAN_MODEM_CONFIG_MODE, wwan/WWAN_MODEM_CONFIG_MODE, wwan/WwanModemConfigModeHostCentric, wwan/WwanModemConfigModeMax, wwan/WwanModemConfigModeModemCentric, wwan/WwanModemConfigModeUnknown"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	wwan.h
 api_name:
 -	WWAN_MODEM_CONFIG_MODE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WWAN_MODEM_CONFIG_MODE, *PWWAN_MODEM_CONFIG_MODE
 req.product: Windows 10 or later.
@@ -51,19 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>WWAN_MODEM_CONFIG_MODE</b> enumeration lists modem configuration modes.
-
-
-## -syntax
-
-
-````
-typedef enum _WWAN_MODEM_CONFIG_MODE { 
-  WwanModemConfigModeUnknown       = 0,
-  WwanModemConfigModeModemCentric,
-  WwanModemConfigModeHostCentric,
-  WwanModemConfigModeMax
-} WWAN_MODEM_CONFIG_MODE, *PWWAN_MODEM_CONFIG_MODE;
-````
 
 
 ## -enum-fields
@@ -103,12 +91,11 @@ The modem configuration mode shall not change during runtime. If a change is det
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_modem_config_info.md">WWAN_MODEM_CONFIG_INFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/14FBFA51-F4A5-417A-8905-241CEA543774">WWAN_MODEM_CONFIG_INFO</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: audio\ksrtaudio_getreadpacket_info.htm
 old-project: audio
 ms.assetid: 0157FA09-C227-4BB2-BB75-0AB5802BC150
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/19/2018
 ms.keywords: "*PKSRTAUDIO_GETREADPACKET_INFO, KSRTAUDIO_GETREADPACKET_INFO, KSRTAUDIO_GETREADPACKET_INFO structure [Audio Devices], PKSRTAUDIO_GETREADPACKET_INFO, PKSRTAUDIO_GETREADPACKET_INFO structure pointer [Audio Devices], audio.ksrtaudio_getreadpacket_info, ksmedia/KSRTAUDIO_GETREADPACKET_INFO, ksmedia/PKSRTAUDIO_GETREADPACKET_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KSRTAUDIO_GETREADPACKET_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSRTAUDIO_GETREADPACKET_INFO, *PKSRTAUDIO_GETREADPACKET_INFO
 ---
@@ -50,19 +51,6 @@ req.typenames: KSRTAUDIO_GETREADPACKET_INFO, *PKSRTAUDIO_GETREADPACKET_INFO
 
 
 The KSRTAUDIO_GETREADPACKET_INFO structure describes information for an audio packet.
-
-
-## -syntax
-
-
-````
-typedef struct _KSRTAUDIO_GETREADPACKET_INFO {
-  ULONG                PacketNumber;
-  DWORD                Flags;
-   ULONG64      PerformanceCounterValue;
-  BOOL                  MoreData;
-} KSRTAUDIO_GETREADPACKET_INFO, *PKSRTAUDIO_GETREADPACKET_INFO;
-````
 
 
 ## -struct-fields
@@ -92,12 +80,11 @@ Returns TRUE if there is more data ready immediately. The OS may optionally imme
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt786974">KSPROPERTY_RTAUDIO_GETREADPACKET</a>
-
-
-
  
 
  
-
 

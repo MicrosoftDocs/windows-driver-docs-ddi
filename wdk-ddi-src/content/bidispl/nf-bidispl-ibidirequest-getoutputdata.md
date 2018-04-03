@@ -38,7 +38,8 @@ api_location:
 -	bidispl.dll
 api_name:
 -	IBidiRequest.GetOutputData
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
 ---
@@ -50,20 +51,6 @@ req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
 
 
 The <b>GetOutputData</b> method gets the specified output data coming back from the printer.
-
-
-## -syntax
-
-
-````
-HRESULT GetOutputData(
-  [in]  const DWORD  dwIndex,
-  [out]       LPWSTR *ppszSchema,
-  [out]       DWORD  *pdwType,
-  [out]       BYTE   **ppData,
-  [out]       ULONG  *uSize
-);
-````
 
 
 ## -parameters
@@ -258,7 +245,6 @@ If an application calls <b>GetOutputData</b> with the same index twice, the inte
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/4c857ff4-02c1-487b-bdb0-44d62a4cf4a1">GetEnumCount</a>
 
 
 
@@ -270,12 +256,12 @@ If an application calls <b>GetOutputData</b> with the same index twice, the inte
 
 
 
-<a href="..\bidispl\nn-bidispl-ibidirequest.md">IBidiRequest</a>
+<a href="https://msdn.microsoft.com/4c857ff4-02c1-487b-bdb0-44d62a4cf4a1">GetEnumCount</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dd144969">IBidiRequest</a>
  
 
  
-
 

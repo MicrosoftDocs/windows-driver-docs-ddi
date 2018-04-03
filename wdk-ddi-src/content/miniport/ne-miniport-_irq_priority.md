@@ -7,7 +7,7 @@ old-location: kernel\irq_priority.htm
 old-project: kernel
 ms.assetid: 1dee65e7-27fb-4665-82e2-d7cb3c223f87
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*PIRQ_PRIORITY, IRQ_PRIORITY, IRQ_PRIORITY enumeration [Kernel-Mode Driver Architecture], IrqPriorityHigh, IrqPriorityLow, IrqPriorityNormal, IrqPriorityUndefined, PIRQ_PRIORITY, PIRQ_PRIORITY enumeration pointer [Kernel-Mode Driver Architecture], _IRQ_PRIORITY, kernel.irq_priority, sysenum_a5a51a77-ee9c-4e74-9ee4-b097eb361c18.xml, wdm/IRQ_PRIORITY, wdm/IrqPriorityHigh, wdm/IrqPriorityLow, wdm/IrqPriorityNormal, wdm/IrqPriorityUndefined, wdm/PIRQ_PRIORITY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	wdm.h
 api_name:
 -	IRQ_PRIORITY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: IRQ_PRIORITY, *PIRQ_PRIORITY
 ---
@@ -50,19 +51,6 @@ req.typenames: IRQ_PRIORITY, *PIRQ_PRIORITY
 
 
 The <b>IRQ_PRIORITY</b> enumeration type indicates the priority the system should give to servicing a device's interrupts.
-
-
-## -syntax
-
-
-````
-typedef enum _IRQ_PRIORITY { 
-  IrqPriorityUndefined  = 0,
-  IrqPriorityLow        = 1,
-  IrqPriorityNormal     = 2,
-  IrqPriorityHigh       = 3
-} IRQ_PRIORITY, *PIRQ_PRIORITY;
-````
 
 
 ## -enum-fields
@@ -101,12 +89,11 @@ The system uses <b>IRQ_PRIORITY</b> to assign IRQLs for devices. For example, it
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a>
 
 
 
+<a href="https://msdn.microsoft.com/03e3a656-c691-4aff-bcc8-4e0bc8390fd7">IO_RESOURCE_DESCRIPTOR</a>
  
 
  
-
 

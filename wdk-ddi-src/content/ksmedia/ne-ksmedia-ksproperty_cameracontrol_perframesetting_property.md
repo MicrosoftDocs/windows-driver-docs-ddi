@@ -38,7 +38,8 @@ api_location:
 -	Ksmedia.h
 api_name:
 -	KSPROPERTY_CAMERACONTROL_PERFRAMESETTING_PROPERTY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSPROPERTY_CAMERACONTROL_PERFRAMESETTING_PROPERTY
 ---
@@ -50,18 +51,6 @@ req.typenames: KSPROPERTY_CAMERACONTROL_PERFRAMESETTING_PROPERTY
 
 
 This enumeration contains the property IDs defined for the per-frame property set.
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  KSPROPERTY_CAMERACONTROL_PERFRAMESETTING_CAPABILITY  = 0,
-  KSPROPERTY_CAMERACONTROL_PERFRAMESETTING_SET,
-  KSPROPERTY_CAMERACONTROL_PERFRAMESETTING_CLEAR
-} KSPROPERTY_CAMERACONTROL_PERFRAMESETTING_PROPERTY;
-````
 
 
 ## -enum-fields

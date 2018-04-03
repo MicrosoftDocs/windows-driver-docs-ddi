@@ -7,7 +7,7 @@ old-location: kernel\io_connect_interrupt_parameters.htm
 old-project: kernel
 ms.assetid: 450c2e2b-56fa-4896-ba81-0f84f7e3051d
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*PIO_CONNECT_INTERRUPT_PARAMETERS, IO_CONNECT_INTERRUPT_PARAMETERS, IO_CONNECT_INTERRUPT_PARAMETERS structure [Kernel-Mode Driver Architecture], PIO_CONNECT_INTERRUPT_PARAMETERS, PIO_CONNECT_INTERRUPT_PARAMETERS structure pointer [Kernel-Mode Driver Architecture], _IO_CONNECT_INTERRUPT_PARAMETERS, kernel.io_connect_interrupt_parameters, kstruct_b_c3854cf4-b084-42f4-9f3b-92a96fc741c1.xml, wdm/IO_CONNECT_INTERRUPT_PARAMETERS, wdm/PIO_CONNECT_INTERRUPT_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	IO_CONNECT_INTERRUPT_PARAMETERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: IO_CONNECT_INTERRUPT_PARAMETERS, *PIO_CONNECT_INTERRUPT_PARAMETERS
 req.product: Windows 10 or later.
@@ -50,57 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>IO_CONNECT_INTERRUPT_PARAMETERS</b> structure contains the parameters that a driver supplies to the <a href="..\wdm\nf-wdm-ioconnectinterruptex.md">IoConnectInterruptEx</a> routine to register an interrupt service routine (ISR).
-
-
-## -syntax
-
-
-````
-typedef struct _IO_CONNECT_INTERRUPT_PARAMETERS {
-  ULONG Version;
-  union {
-    struct {
-      PDEVICE_OBJECT    PhysicalDeviceObject;
-      PKINTERRUPT       *InterruptObject;
-      PKSERVICE_ROUTINE ServiceRoutine;
-      PVOID             ServiceContext;
-      PKSPIN_LOCK       SpinLock;
-      KIRQL             SynchronizeIrql;
-      BOOLEAN           FloatingSave;
-      BOOLEAN           ShareVector;
-      ULONG             Vector;
-      KIRQL             Irql;
-      KINTERRUPT_MODE   InterruptMode;
-      KAFFINITY         ProcessorEnableMask;
-      USHORT            Group;
-    } FullySpecified;
-    struct {
-      PDEVICE_OBJECT    PhysicalDeviceObject;
-      PKINTERRUPT       *InterruptObject;
-      PKSERVICE_ROUTINE ServiceRoutine;
-      PVOID             ServiceContext;
-      PKSPIN_LOCK       SpinLock;
-      KIRQL             SynchronizeIrql;
-      BOOLEAN           FloatingSave;
-    } LineBased;
-    struct {
-      PDEVICE_OBJECT            PhysicalDeviceObject;
-      union {
-        PVOID                      *Generic;
-        PIO_INTERRUPT_MESSAGE_INFO *InterruptMessageTable;
-        PKINTERRUPT                *InterruptObject;
-      } ConnectionContext;
-      PKMESSAGE_SERVICE_ROUTINE MessageServiceRoutine;
-      PVOID                     ServiceContext;
-      PKSPIN_LOCK               SpinLock;
-      KIRQL                     SynchronizeIrql;
-      BOOLEAN                   FloatingSave;
-      PKSERVICE_ROUTINE         FallBackServiceRoutine;
-    } MessageBased;
-  };
-} IO_CONNECT_INTERRUPT_PARAMETERS, *PIO_CONNECT_INTERRUPT_PARAMETERS;
-````
+The <b>IO_CONNECT_INTERRUPT_PARAMETERS</b> structure contains the parameters that a driver supplies to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548378">IoConnectInterruptEx</a> routine to register an interrupt service routine (ISR).
 
 
 ## -struct-fields
@@ -193,7 +144,7 @@ The caller specified CONNECT_MESSAGE_BASED and the caller's <i>InterruptMessageS
 
 #### - FullySpecified
 
-Specifies the additional parameters of the operation to be performed by <a href="..\wdm\nf-wdm-ioconnectinterruptex.md">IoConnectInterruptEx</a> when <b>Version</b> has a value of CONNECT_FULLY_SPECIFIED (or CONNECT_FULLY_SPECIFIED_GROUP if the <b>Group</b> member is used). For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565520">Using the CONNECT_FULLY_SPECIFIED Version of IoConnectInterruptEx</a>.
+Specifies the additional parameters of the operation to be performed by <a href="https://msdn.microsoft.com/library/windows/hardware/ff548378">IoConnectInterruptEx</a> when <b>Version</b> has a value of CONNECT_FULLY_SPECIFIED (or CONNECT_FULLY_SPECIFIED_GROUP if the <b>Group</b> member is used). For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565520">Using the CONNECT_FULLY_SPECIFIED Version of IoConnectInterruptEx</a>.
 
 
 
@@ -223,13 +174,13 @@ Specifies the value to be passed as the <i>ServiceContext</i> parameter of the <
 
 #### SpinLock
 
-Either a pointer to a spin lock to serve as the interrupt spin lock for the set of interrupts, or <b>NULL</b>. If <b>NULL</b>, the system allocates a spin lock to serve as the interrupt spin lock. If non-<b>NULL</b>, you should have initialized the spin lock with <a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>.
+Either a pointer to a spin lock to serve as the interrupt spin lock for the set of interrupts, or <b>NULL</b>. If <b>NULL</b>, the system allocates a spin lock to serve as the interrupt spin lock. If non-<b>NULL</b>, you should have initialized the spin lock with <a href="https://msdn.microsoft.com/library/windows/hardware/ff552160">KeInitializeSpinLock</a>.
 
 
 
 #### SynchronizeIrql
 
-Specifies the DIRQL at which the ISR will run. If the ISR handles more than one interrupt vector or the driver has more than one ISR, this value must be the maximum IRQL of the set of interrupts. The IRQL for an interrupt is passed in the <b>CmResourceTypeInterrupt</b> resource at the <b>u.Interrupt.Level</b> member of <a href="..\wudfwdm\ns-wudfwdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>. Otherwise, the <b>Irql</b> and <b>SynchronizeIrql</b> values are identical.
+Specifies the DIRQL at which the ISR will run. If the ISR handles more than one interrupt vector or the driver has more than one ISR, this value must be the maximum IRQL of the set of interrupts. The IRQL for an interrupt is passed in the <b>CmResourceTypeInterrupt</b> resource at the <b>u.Interrupt.Level</b> member of <a href="https://msdn.microsoft.com/96bf7bab-b8f5-439c-8717-ea6956ed0213">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>. Otherwise, the <b>Irql</b> and <b>SynchronizeIrql</b> values are identical.
 
 
 
@@ -253,13 +204,13 @@ Specifies the interrupt vector passed in the <b>CmResourceTypeInterrupt</b> reso
 
 #### Irql
 
-Specifies the DIRQL passed in the <b>CmResourceTypeInterrupt</b> resource at the <b>u.Interrupt.Level</b> member of <a href="..\wudfwdm\ns-wudfwdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>. Starting with Windows 8, a driver can register an ISR that runs at passive level by setting <b>Irql</b> and <b>SynchronizeIrql</b> to PASSIVE_LEVEL, and setting <b>SpinLock</b> to <b>NULL</b>. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/hh698277">Using Passive-Level Interrupt Service Routines</a>.
+Specifies the DIRQL passed in the <b>CmResourceTypeInterrupt</b> resource at the <b>u.Interrupt.Level</b> member of <a href="https://msdn.microsoft.com/96bf7bab-b8f5-439c-8717-ea6956ed0213">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>. Starting with Windows 8, a driver can register an ISR that runs at passive level by setting <b>Irql</b> and <b>SynchronizeIrql</b> to PASSIVE_LEVEL, and setting <b>SpinLock</b> to <b>NULL</b>. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/hh698277">Using Passive-Level Interrupt Service Routines</a>.
 
 
 
 #### InterruptMode
 
-Specifies a <a href="..\wudfwdm\ne-wudfwdm-_kinterrupt_mode.md">KINTERRUPT_MODE</a> that determines whether the interrupt is level-triggered (<b>InterruptMode</b> = <b>LevelSensitive</b>) or edge-triggered (<b>InterruptMode</b> = <b>Latched</b>). For shared interrupt lines from a PCI bus, specify <b>LevelSensitive</b>. For PCI message-signaled interrupts, specify <b>Latched</b>.
+Specifies a <a href="https://msdn.microsoft.com/library/windows/hardware/ff554239">KINTERRUPT_MODE</a> that determines whether the interrupt is level-triggered (<b>InterruptMode</b> = <b>LevelSensitive</b>) or edge-triggered (<b>InterruptMode</b> = <b>Latched</b>). For shared interrupt lines from a PCI bus, specify <b>LevelSensitive</b>. For PCI message-signaled interrupts, specify <b>Latched</b>.
 
 
 
@@ -276,7 +227,7 @@ Specifies a group number that identifies the processor group to which the interr
 
 #### - LineBased
 
-Specifies the additional parameters of the operation to be performed by <a href="..\wdm\nf-wdm-ioconnectinterruptex.md">IoConnectInterruptEx</a> when <b>Version</b> has a value of CONNECT_LINE_BASED. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565525">Using the CONNECT_LINE_BASED Version of IoConnectInterruptEx</a>.
+Specifies the additional parameters of the operation to be performed by <a href="https://msdn.microsoft.com/library/windows/hardware/ff548378">IoConnectInterruptEx</a> when <b>Version</b> has a value of CONNECT_LINE_BASED. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565525">Using the CONNECT_LINE_BASED Version of IoConnectInterruptEx</a>.
 
 
 
@@ -306,7 +257,7 @@ Specifies the value to be passed as the <i>ServiceContext</i> parameter of the <
 
 #### SpinLock
 
-Either a pointer to a spin lock to serve as the interrupt spin lock for the set of interrupts, or <b>NULL</b>. If <b>NULL</b>, the system allocates a spin lock to serve as the interrupt spin lock. If non-<b>NULL</b>, you should have initialized the spin lock with <a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>.
+Either a pointer to a spin lock to serve as the interrupt spin lock for the set of interrupts, or <b>NULL</b>. If <b>NULL</b>, the system allocates a spin lock to serve as the interrupt spin lock. If non-<b>NULL</b>, you should have initialized the spin lock with <a href="https://msdn.microsoft.com/library/windows/hardware/ff552160">KeInitializeSpinLock</a>.
 
 
 
@@ -323,7 +274,7 @@ Specifies if the system saves the processor's floating-point state when the inte
 
 #### - MessageBased
 
-Specifies the additional parameters of the operation to be performed by <a href="..\wdm\nf-wdm-ioconnectinterruptex.md">IoConnectInterruptEx</a> when <b>Version</b> has a value of CONNECT_MESSAGE_BASED. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565530">Using the CONNECT_MESSAGE_BASED Version of IoConnectInterruptEx</a>.
+Specifies the additional parameters of the operation to be performed by <a href="https://msdn.microsoft.com/library/windows/hardware/ff548378">IoConnectInterruptEx</a> when <b>Version</b> has a value of CONNECT_MESSAGE_BASED. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565530">Using the CONNECT_MESSAGE_BASED Version of IoConnectInterruptEx</a>.
 
 
 
@@ -335,7 +286,7 @@ A pointer to the PDO of the device.
 
 #### ConnectionContext
 
-A pointer to a location that receives a pointer to the connection context. If on return <b>Version</b> has a value of CONNECT_LINE_BASED, the routine provides a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff554237">KINTERRUPT</a> structure. If on return <b>Version</b> has a value of CONNECT_MESSAGE_BASED, the routine provides a pointer to an <a href="..\wdm\ns-wdm-_io_interrupt_message_info.md">IO_INTERRUPT_MESSAGE_INFO</a> structure. 
+A pointer to a location that receives a pointer to the connection context. If on return <b>Version</b> has a value of CONNECT_LINE_BASED, the routine provides a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff554237">KINTERRUPT</a> structure. If on return <b>Version</b> has a value of CONNECT_MESSAGE_BASED, the routine provides a pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550576">IO_INTERRUPT_MESSAGE_INFO</a> structure. 
 
 To minimize casting, <b>ConnectionContext</b> is defined as a union. Use <b>ConnectionContext.Generic</b> to treat the location as a PVOID. Use <b>ConnectionContext.InterruptObject</b> and <b>ConnectionContext.InterruptMessageTable</b> to treat the location as a PKINTERRUPT or PIO_INTERRUPT_MESSAGE_INFO variable respectively.
 
@@ -373,7 +324,7 @@ Specifies the value to be passed as the <i>ServiceContext</i> parameter of the <
 
 #### SpinLock
 
-Either a pointer to a spin lock to serve as the interrupt spin lock for the set of interrupts, or <b>NULL</b>. If <b>NULL</b>, the system allocates a spin lock to serve as the interrupt spin lock. If non-<b>NULL</b>, you should have initialized the spin lock with <a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>.
+Either a pointer to a spin lock to serve as the interrupt spin lock for the set of interrupts, or <b>NULL</b>. If <b>NULL</b>, the system allocates a spin lock to serve as the interrupt spin lock. If non-<b>NULL</b>, you should have initialized the spin lock with <a href="https://msdn.microsoft.com/library/windows/hardware/ff552160">KeInitializeSpinLock</a>.
 
 
 
@@ -398,21 +349,18 @@ A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff5
 
 
 
-The <a href="..\wdm\nf-wdm-ioconnectinterruptex.md">IoConnectInterruptEx</a> routine takes a single <i>Parameters</i> parameter, which points to an <b>IO_CONNECT_INTERRUPT_PARAMETERS</b> structure that contains all of the parameters of the operation.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/ff548378">IoConnectInterruptEx</a> routine takes a single <i>Parameters</i> parameter, which points to an <b>IO_CONNECT_INTERRUPT_PARAMETERS</b> structure that contains all of the parameters of the operation.
 
 
 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-ioconnectinterruptex.md">IoConnectInterruptEx</a>
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/using-the-connect-message-based-version-of-ioconnectinterruptex">Using the CONNECT_MESSAGE_BASED Version of IoConnectInterruptEx</a>
-  
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548378">IoConnectInterruptEx</a>
  
 
  
-
 

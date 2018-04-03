@@ -7,7 +7,7 @@ old-location: kernel\zwunloaddriver.htm
 old-project: kernel
 ms.assetid: 4fbb4d4b-b98a-4d10-b9b2-7ad8fc4ada6e
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: NtUnloadDriver, ZwUnloadDriver, ZwUnloadDriver routine [Kernel-Mode Driver Architecture], k111_72ac4415-d46c-4ea2-9d6c-d66903082808.xml, kernel.zwunloaddriver, wdm/NtUnloadDriver, wdm/ZwUnloadDriver
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	ZwUnloadDriver
 -	NtUnloadDriver
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
@@ -52,16 +53,6 @@ req.product: Windows 10 or later.
 
 
 The <b>ZwUnloadDriver</b> routine unloads a driver from the system. <i>Use this routine with extreme caution. (See the following </i><b>Remarks</b><i> section.)</i>
-
-
-## -syntax
-
-
-````
-NTSTATUS ZwUnloadDriver(
-  _In_ PUNICODE_STRING DriverServiceName
-);
-````
 
 
 ## -parameters
@@ -93,7 +84,7 @@ Pointer to a counted Unicode string that specifies a path to the driver's regist
 
 If <i>DriverName</i> is the name of a PnP device driver, <b>ZwUnloadDriver</b> returns STATUS_INVALID_DEVICE_REQUEST and does not unload the driver. 
 
-A minifilter should use <a href="..\fltkernel\nf-fltkernel-fltunloadfilter.md">FltUnloadFilter</a> instead of <b>ZwUnloadDriver</b> to unload a supporting minifilter. 
+A minifilter should use <a href="https://msdn.microsoft.com/library/windows/hardware/ff544602">FltUnloadFilter</a> instead of <b>ZwUnloadDriver</b> to unload a supporting minifilter. 
 
 <div class="alert"><b>Note</b>  If the call to the <b>ZwUnloadDriver</b> function occurs in user mode, you should use the name "<a href="https://msdn.microsoft.com/library/windows/hardware/ff557701">NtUnloadDriver</a>" instead of "<b>ZwUnloadDriver</b>".</div>
 <div> </div>
@@ -104,15 +95,18 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwloaddriver.md">ZwLoadDriver</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544602">FltUnloadFilter</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltunloadfilter.md">FltUnloadFilter</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561934">RtlInitUnicodeString</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
 
 
 
@@ -120,12 +114,8 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="..\wudfwdm\nf-wudfwdm-rtlinitunicodestring.md">RtlInitUnicodeString</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566470">ZwLoadDriver</a>
  
 
  
-
 

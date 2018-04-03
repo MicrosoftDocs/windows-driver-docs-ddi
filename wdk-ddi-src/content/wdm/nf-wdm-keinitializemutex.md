@@ -7,7 +7,7 @@ old-location: kernel\keinitializemutex.htm
 old-project: kernel
 ms.assetid: dca6c4a7-66e0-4bdd-9fdd-a32d49836980
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: KeInitializeMutex, KeInitializeMutex routine [Kernel-Mode Driver Architecture], k105_0e268ff3-6e9d-41ab-acfd-0bb71e973115.xml, kernel.keinitializemutex, wdm/KeInitializeMutex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	KeInitializeMutex
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
@@ -51,17 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>KeInitializeMutex</b> routine initializes a mutex object, setting it to a signaled state.
-
-
-## -syntax
-
-
-````
-VOID KeInitializeMutex(
-  _Out_ PRKMUTEX Mutex,
-  _In_  ULONG    Level
-);
-````
 
 
 ## -parameters
@@ -105,19 +95,22 @@ For more information about mutex objects, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kereadstatemutex.md">KeReadStateMutex</a>
 
 
 
-<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545293">ExInitializeFastMutex</a>
 
 
 
-<a href="..\wdm\nf-wdm-exinitializefastmutex.md">ExInitializeFastMutex</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553094">KeReadStateMutex</a>
 
 
 
-<a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553140">KeReleaseMutex</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553324">KeWaitForMultipleObjects</a>
 
 
 
@@ -125,12 +118,8 @@ For more information about mutex objects, see <a href="https://msdn.microsoft.co
 
 
 
-<a href="..\wdm\nf-wdm-kereleasemutex.md">KeReleaseMutex</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553350">KeWaitForSingleObject</a>
  
 
  
-
 

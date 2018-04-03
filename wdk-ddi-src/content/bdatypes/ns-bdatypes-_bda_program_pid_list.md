@@ -38,7 +38,8 @@ api_location:
 -	bdatypes.h
 api_name:
 -	BDA_PROGRAM_PID_LIST
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BDA_PROGRAM_PID_LIST, *PBDA_PROGRAM_PID_LIST
 ---
@@ -50,18 +51,6 @@ req.typenames: BDA_PROGRAM_PID_LIST, *PBDA_PROGRAM_PID_LIST
 
 
 The BDA_PROGRAM_PID_LIST structure describes data of a specific program to view. This data consists of packets that are identified with packet identifiers (PID). 
-
-
-## -syntax
-
-
-````
-typedef struct _BDA_PROGRAM_PID_LIST {
-  ULONG ulProgramNumber;
-  ULONG ulcPIDs;
-  ULONG ulPID[MIN_DIMENSION];
-} BDA_PROGRAM_PID_LIST, *PBDA_PROGRAM_PID_LIST;
-````
 
 
 ## -struct-fields
@@ -86,7 +75,6 @@ Array of PIDs that identify packets of program data.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566536">KSPROPSETID_BdaCA</a>
 
 
 
@@ -94,8 +82,8 @@ Array of PIDs that identify packets of program data.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566536">KSPROPSETID_BdaCA</a>
  
 
  
-
 

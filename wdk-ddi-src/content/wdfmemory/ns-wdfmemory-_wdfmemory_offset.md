@@ -38,7 +38,8 @@ api_location:
 -	wdfmemory.h
 api_name:
 -	WDFMEMORY_OFFSET
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDFMEMORY_OFFSET, *PWDFMEMORY_OFFSET
 req.product: Windows 10 or later.
@@ -53,17 +54,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WDFMEMORY_OFFSET</b> structure identifies a subsection of a memory object's buffer.
-
-
-## -syntax
-
-
-````
-typedef struct _WDFMEMORY_OFFSET {
-  size_t BufferOffset;
-  size_t BufferLength;
-} WDFMEMORY_OFFSET, *PWDFMEMORY_OFFSET;
-````
 
 
 ## -struct-fields
@@ -85,19 +75,18 @@ The length, in bytes, of the buffer's subsection. A value of zero represents the
 
 
 
-The <b>WDFMEMORY_OFFSET</b> structure is used as a member of the <a href="..\wdfmemory\ns-wdfmemory-_wdf_memory_descriptor.md">WDF_MEMORY_DESCRIPTOR</a> structure and as an input parameter to various I/O target object methods.
+The <b>WDFMEMORY_OFFSET</b> structure is used as a member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552392">WDF_MEMORY_DESCRIPTOR</a> structure and as an input parameter to various I/O target object methods.
 
 
 
 
 ## -see-also
 
-<a href="..\wdfmemory\ns-wdfmemory-_wdf_memory_descriptor.md">WDF_MEMORY_DESCRIPTOR</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552392">WDF_MEMORY_DESCRIPTOR</a>
  
 
  
-
 

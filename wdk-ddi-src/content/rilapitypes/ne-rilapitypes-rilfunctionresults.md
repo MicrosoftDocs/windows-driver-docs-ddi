@@ -7,7 +7,7 @@ old-location: netvista\rilfunctionresults.htm
 old-project: netvista
 ms.assetid: 9a2b3bdd-4955-4293-b4e7-65da20b0d369
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: RILFUNCTIONRESULTS, RILFUNCTIONRESULTS enumeration [Network Drivers Starting with Windows Vista], RIL_RESULT_ERROR, netvista.rilfunctionresults, ntddrilapitypes/RILFUNCTIONRESULTS, ntddrilapitypes/RIL_RESULT_ERROR
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILFUNCTIONRESULTS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILFUNCTIONRESULTS
 req.product: Windows 10 or later.
@@ -51,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef enum _RILFUNCTIONRESULTS { 
-  RIL_RESULT_ERROR
-} RILFUNCTIONRESULTS;
-````
 
 
 ## -enum-fields

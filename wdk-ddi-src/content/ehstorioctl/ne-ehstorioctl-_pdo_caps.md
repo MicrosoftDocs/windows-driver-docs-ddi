@@ -7,7 +7,7 @@ old-location: storage\pdo_caps.htm
 old-project: storage
 ms.assetid: 78b6f3c7-bb42-4e93-8128-28b6f8e11dda
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PDO_CAPABILITY_INC512_CLEAR, PDO_CAPABILITY_INC512_SET, PDO_CAPABILITY_UNDEFINED, PDO_CAPS, PDO_CAPS enumeration [Storage Devices], _PDO_CAPS, ehstorioctl/PDO_CAPABILITY_INC512_CLEAR, ehstorioctl/PDO_CAPABILITY_INC512_SET, ehstorioctl/PDO_CAPABILITY_UNDEFINED, ehstorioctl/PDO_CAPS, storage.pdo_caps, structs-silo_bb81f7e7-c317-4937-87de-b38832944fe5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	EhStorIoctl.h
 api_name:
 -	PDO_CAPS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PDO_CAPS
 ---
@@ -50,18 +51,6 @@ req.typenames: PDO_CAPS
 
 
 This enumeration describes the capabilities of Physical Device Objects (PDOs).
-
-
-## -syntax
-
-
-````
-typedef enum _PDO_CAPS { 
-  PDO_CAPABILITY_UNDEFINED     = 0,
-  PDO_CAPABILITY_INC512_SET    = 1,
-  PDO_CAPABILITY_INC512_CLEAR  = 2
-} PDO_CAPS;
-````
 
 
 ## -enum-fields

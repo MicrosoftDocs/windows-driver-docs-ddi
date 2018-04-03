@@ -7,7 +7,7 @@ old-location: kernel\kereadstatetimer.htm
 old-project: kernel
 ms.assetid: 0f7fc534-4a81-42e0-a3e6-8b91baa28b55
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: KeReadStateTimer, KeReadStateTimer routine [Kernel-Mode Driver Architecture], k105_8e101501-f419-40ff-91cd-a8aee0ffcbc8.xml, kernel.kereadstatetimer, wdm/KeReadStateTimer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	KeReadStateTimer
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
@@ -51,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>KeReadStateTimer</b> routine reads the current state of a timer object.
-
-
-## -syntax
-
-
-````
-BOOLEAN KeReadStateTimer(
-  _In_ PKTIMER Timer
-);
-````
 
 
 ## -parameters
@@ -86,7 +77,7 @@ A pointer to an initialized timer object, for which the caller provides the stor
 
 
 
-This routine provides an efficient way to poll the signal state of a timer. <b>KeReadStateTimer</b> reads the state of the timer without synchronizing its access to the timer. Do not assume that accesses of a timer state by <b>KeReadStateTimer</b> are mutually exclusive of accesses by routines, such as <a href="..\wdm\nf-wdm-kesettimer.md">KeSetTimer</a> and <a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>, that do synchronize their access to the timer state.
+This routine provides an efficient way to poll the signal state of a timer. <b>KeReadStateTimer</b> reads the state of the timer without synchronizing its access to the timer. Do not assume that accesses of a timer state by <b>KeReadStateTimer</b> are mutually exclusive of accesses by routines, such as <a href="https://msdn.microsoft.com/library/windows/hardware/ff553286">KeSetTimer</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff553350">KeWaitForSingleObject</a>, that do synchronize their access to the timer state.
 
 For more information about timer objects, see <a href="https://msdn.microsoft.com/b58487de-6e9e-45f4-acb8-9233c8718ee2">Timer Objects and DPCs</a>.
 
@@ -95,15 +86,6 @@ For more information about timer objects, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-keinitializetimer.md">KeInitializeTimer</a>
-
-
-
-<a href="..\wdm\nf-wdm-kecanceltimer.md">KeCancelTimer</a>
-
-
-
-<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
 
 
 
@@ -111,12 +93,20 @@ For more information about timer objects, see <a href="https://msdn.microsoft.co
 
 
 
-<a href="..\wdm\nf-wdm-kesettimer.md">KeSetTimer</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551970">KeCancelTimer</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552168">KeInitializeTimer</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553286">KeSetTimer</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553350">KeWaitForSingleObject</a>
  
 
  
-
 

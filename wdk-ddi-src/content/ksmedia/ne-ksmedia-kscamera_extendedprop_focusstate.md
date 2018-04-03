@@ -38,7 +38,8 @@ api_location:
 -	Ksmedia.h
 api_name:
 -	KSCAMERA_EXTENDEDPROP_FOCUSSTATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSCAMERA_EXTENDEDPROP_FOCUSSTATE
 ---
@@ -50,20 +51,6 @@ req.typenames: KSCAMERA_EXTENDEDPROP_FOCUSSTATE
 
 
 This enumeration contains the focus states.
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  KSCAMERA_EXTENDEDPROP_FOCUSSTATE_UNINITIALIZED  = 0,
-  KSCAMERA_EXTENDEDPROP_FOCUSSTATE_LOST,
-  KSCAMERA_EXTENDEDPROP_FOCUSSTATE_SEARCHING,
-  KSCAMERA_EXTENDEDPROP_FOCUSSTATE_FOCUSED,
-  KSCAMERA_EXTENDEDPROP_FOCUSSTATE_FAILED
-} KSCAMERA_EXTENDEDPROP_FOCUSSTATE;
-````
 
 
 ## -enum-fields

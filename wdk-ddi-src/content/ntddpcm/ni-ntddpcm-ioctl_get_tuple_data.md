@@ -38,7 +38,8 @@ api_location:
 -	ntddpcm.h
 api_name:
 -	IOCTL_GET_TUPLE_DATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PCMCIA_CONTROLLER_CLASS, *PPCMCIA_CONTROLLER_CLASS
 ---
@@ -110,7 +111,6 @@ If there is no card in the indicated socket, the <b>Status</b> field is set to S
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538895">TUPLE_REQUEST</a>
 
 
 
@@ -122,8 +122,8 @@ If there is no card in the indicated socket, the <b>Status</b> field is set to S
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538895">TUPLE_REQUEST</a>
  
 
  
-
 

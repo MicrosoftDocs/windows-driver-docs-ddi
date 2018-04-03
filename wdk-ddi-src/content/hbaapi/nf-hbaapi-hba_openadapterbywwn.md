@@ -7,7 +7,7 @@ old-location: storage\hba_openadapterbywwn.htm
 old-project: storage
 ms.assetid: 62492c9b-ace0-48be-ae8b-bb681dbca8b7
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: HBA_OpenAdapterByWWN, HBA_OpenAdapterByWWN routine [Storage Devices], fibreHBA_rtns_60fafeb4-de69-40e4-8942-907fe14fe8a4.xml, hbaapi/HBA_OpenAdapterByWWN, storage.hba_openadapterbywwn
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Hbaapi.dll
 api_name:
 -	HBA_OpenAdapterByWWN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: HBA_WWNTYPE
 ---
@@ -50,17 +51,6 @@ req.typenames: HBA_WWNTYPE
 
 
 The <b>HBA_OpenAdapterByWWN</b> routine opens the HBA that is associated with either a node or a port that has the indicated name. 
-
-
-## -syntax
-
-
-````
-HBA_STATUS HBA_API HBA_OpenAdapterByWWN(
-  _Out_ HBA_HANDLE *HbaHandle,
-  _In_  HBA_WWN    Wwn
-);
-````
 
 
 ## -parameters
@@ -141,12 +131,11 @@ Returned if an unspecified error occurred that prevented the opening of the adap
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
-
-
-
  
 
  
-
 

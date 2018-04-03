@@ -7,7 +7,7 @@ old-location: display\dxgkarg_setvidpnsourceaddresswithmultiplaneoverlay3.htm
 old-project: display
 ms.assetid: 1C6324DB-18E2-4CBC-9589-73DF3EB79503
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*IN_OUT_PDXGKARG_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY3, DXGKARG_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY3, DXGKARG_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY3 structure [Display Devices], _DXGKARG_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY3, d3dkmddi/DXGKARG_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY3, display.dxgkarg_setvidpnsourceaddresswithmultiplaneoverlay3"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGKARG_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY3
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGKARG_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY3
 ---
@@ -50,23 +51,6 @@ req.typenames: DXGKARG_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY3
 
 
 Contains arguments for the DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay3 function.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGKARG_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY3 {
-  D3DDDI_VIDEO_PRESENT_SOURCE_ID           VidPnSourceId;
-  DXGK_SETVIDPNSOURCEADDRESS_INPUT_FLAGS   InputFlags;
-  DXGK_SETVIDPNSOURCEADDRESS_OUTPUT_FLAGS  OutputFlags;
-  UINT                                     PlaneCount;
-  DXGK_MULTIPLANE_OVERLAY_PLANE3           **ppPlanes;
-  DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION *pPostComposition;
-  UINT                                     Duration;
-  DXGK_HDR_METADATA                        *pHDRMetaData;
-} DXGKARG_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY3;
-````
 
 
 ## -struct-fields

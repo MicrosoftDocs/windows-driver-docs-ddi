@@ -38,7 +38,8 @@ api_location:
 -	bidispl.dll
 api_name:
 -	IBidiSpl.UnbindDevice
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
 ---
@@ -50,14 +51,6 @@ req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
 
 
 The <b>UnbindDevice</b> method unbinds a printer from a bidi request.
-
-
-## -syntax
-
-
-````
-HRESULT UnbindDevice();
-````
 
 
 ## -parameters
@@ -119,6 +112,9 @@ The <b>HRESULT</b> contains an error code corresponding to the last error.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
 
 
@@ -127,12 +123,8 @@ The <b>HRESULT</b> contains an error code corresponding to the last error.
 
 
 
-<a href="..\bidispl\nn-bidispl-ibidispl.md">IBidiSpl</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/dd144980">IBidiSpl</a>
  
 
  
-
 

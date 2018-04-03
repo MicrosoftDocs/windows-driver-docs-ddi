@@ -38,7 +38,8 @@ api_location:
 -	sdpnode.h
 api_name:
 -	SDP_NODE_DATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SDP_NODE_DATA, *PSDP_NODE_DATA
 req.product: Windows 10 or later.
@@ -52,38 +53,6 @@ req.product: Windows 10 or later.
 
 The SDP_NODE_DATA union holds the data of an element in a tree-based representation of an SDP
   record.
-
-
-## -syntax
-
-
-````
-typedef union _SDP_NODE_DATA {
-  SDP_LARGE_INTEGER_16  int128;
-  SDP_ULARGE_INTEGER_16 uint128;
-  GUID                  uuid128;
-  ULONG                 uuid32;
-  USHORT                uuid16;
-  LONGLONG              int64;
-  ULONGLONG             uint64;
-  LONG                  int32;
-  ULONG                 uint32;
-  SHORT                 int16;
-  USHORT                uint16;
-  CHAR                  int8;
-  UCHAR                 uint8;
-  SDP_BOOLEAN           boolean;
-  PCHAR                 string;
-  PCHAR                 url;
-  SDP_NODE_HEADER       sequence;
-  SDP_NODE_HEADER       alternative;
-  ISdpNodeContainer     *container;
-  struct {
-    PUCHAR stream;
-    ULONG  streamLength;
-  };
-} SDP_NODE_DATA, *PSDP_NODE_DATA;
-````
 
 
 ## -struct-fields
@@ -180,7 +149,7 @@ The union member for a URL value.
 ### -field sequence
 
 An 
-     <a href="..\sdpnode\ns-sdpnode-_sdp_node_header.md">SDP_NODE_HEADER</a> structure that references
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536850">SDP_NODE_HEADER</a> structure that references
      the elements of a sequence.
 
 
@@ -220,7 +189,7 @@ The union member for a 128-bit integer.
 
 
 Each 
-    <a href="..\sdpnode\ns-sdpnode-_sdp_node.md">SDP_NODE</a> structure in the tree representation of an
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff536848">SDP_NODE</a> structure in the tree representation of an
     SDP record contains a SDP_NODE_HEADER structure and an SDP_NODE_DATA union.
 
 The header specifies the type of data. Driver developers can access links to peer 
@@ -239,11 +208,6 @@ The header specifies the type of data. Driver developers can access links to pee
 
 ## -see-also
 
-<a href="..\sdpnode\ns-sdpnode-_sdp_node.md">SDP_NODE</a>
-
-
-
-<a href="..\sdpnode\ns-sdpnode-_sdp_node_header.md">SDP_NODE_HEADER</a>
 
 
 
@@ -255,8 +219,12 @@ The header specifies the type of data. Driver developers can access links to pee
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536848">SDP_NODE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536850">SDP_NODE_HEADER</a>
  
 
  
-
 

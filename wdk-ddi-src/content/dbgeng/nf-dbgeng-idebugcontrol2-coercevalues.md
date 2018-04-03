@@ -7,7 +7,7 @@ old-location: debugger\coercevalues.htm
 old-project: debugger
 ms.assetid: d5374177-fddd-4f35-8cad-10be762ef4d8
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: CoerceValues method [Windows Debugging], CoerceValues method [Windows Debugging], IDebugControl interface, CoerceValues method [Windows Debugging], IDebugControl2 interface, CoerceValues method [Windows Debugging], IDebugControl3 interface, CoerceValues,IDebugControl2.CoerceValues, IDebugControl interface [Windows Debugging], CoerceValues method, IDebugControl2, IDebugControl2 interface [Windows Debugging], CoerceValues method, IDebugControl2::CoerceValues, IDebugControl3 interface [Windows Debugging], CoerceValues method, IDebugControl3::CoerceValues, IDebugControl::CoerceValues, IDebugControl_a17ec845-aaf3-4480-a0fd-79fb515c48d5.xml, dbgeng/IDebugControl2::CoerceValues, dbgeng/IDebugControl3::CoerceValues, dbgeng/IDebugControl::CoerceValues, debugger.coercevalues
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,8 @@ api_name:
 -	IDebugControl.CoerceValues
 -	IDebugControl2.CoerceValues
 -	IDebugControl3.CoerceValues
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -52,19 +53,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>CoerceValues</b> method converts an array of values into an array of values of different types.
-
-
-## -syntax
-
-
-````
-HRESULT CoerceValues(
-  [in]  ULONG        Count,
-  [in]  PDEBUG_VALUE In,
-  [in]  PULONG       OutType,
-  [out] PDEBUG_VALUE Out
-);
-````
 
 
 ## -parameters
@@ -94,7 +82,7 @@ Specifies the array to be populated by the converted values.  The types of these
 
 #### - OutType [in]
 
-Specifies the array of desired types for the converted values. For possible values, see <a href="..\dbgeng\ns-dbgeng-_debug_value.md">DEBUG_VALUE</a>.  The number of elements that this array holds is <i>Count</i>.
+Specifies the array of desired types for the converted values. For possible values, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff541719">DEBUG_VALUE</a>.  The number of elements that this array holds is <i>Count</i>.
 
 
 ## -returns
@@ -136,19 +124,6 @@ This method converts an array of values of one type into values of another type.
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
-
-
-
-<a href="..\dbgeng\ns-dbgeng-_debug_value.md">DEBUG_VALUE</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
 
 
@@ -156,8 +131,20 @@ This method converts an array of values of one type into values of another type.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541719">DEBUG_VALUE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550508">IDebugControl</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550512">IDebugControl2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550519">IDebugControl3</a>
  
 
  
-
 

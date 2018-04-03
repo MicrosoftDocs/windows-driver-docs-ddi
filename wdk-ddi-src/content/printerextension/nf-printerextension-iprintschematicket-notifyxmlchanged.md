@@ -38,7 +38,8 @@ api_location:
 -	Printerextension.h
 api_name:
 -	IPrintSchemaTicket.NotifyXmlChanged
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PrintSchemaSelectionType
 req.product: Windows 10 or later.
@@ -51,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 Notifies the print system that the XML DOM object has changed.
-
-
-## -syntax
-
-
-````
-HRESULT NotifyXmlChanged(
-    None
-);
-````
 
 
 ## -parameters
@@ -95,7 +86,6 @@ If the client retrieves the XML DOM object of the PrintTicket by calling <a href
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintschematicket.md">IPrintSchemaTicket</a>
 
 
 
@@ -103,8 +93,8 @@ If the client retrieves the XML DOM object of the PrintTicket by calling <a href
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451398">IPrintSchemaTicket</a>
  
 
  
-
 

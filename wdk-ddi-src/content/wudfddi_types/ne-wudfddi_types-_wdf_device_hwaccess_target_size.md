@@ -39,7 +39,8 @@ api_location:
 -	wudfddi_types.h
 api_name:
 -	WDF_DEVICE_HWACCESS_TARGET_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_DEVICE_HWACCESS_TARGET_SIZE, *PWDF_DEVICE_HWACCESS_TARGET_SIZE
 req.product: Windows 10 or later.
@@ -56,52 +57,36 @@ req.product: Windows 10 or later.
 The <b>WDF_DEVICE_HWACCESS_TARGET_SIZE</b> enumeration is used internally by the framework. Do not use.
 
 
-## -syntax
-
-
-````
-typedef enum __WDF_IO_TARGET_STATE { 
-  WdfDeviceHwAccessTargetSizeInvalid  = 0,
-  WdfDeviceHwAccessTargetSizeUchar    = 1,
-  WdfDeviceHwAccessTargetSizeUshort   = 2,
-  WdfDeviceHwAccessTargetSizeUlong    = 3,
-  WdfDeviceHwAccessTargetSizeUlong64  = 4,
-  WdfDeviceHwAccessTargetSizeMaximum  = 5
-} WDF_DEVICE_HWACCESS_TARGET_TYPE, *PWDF_DEVICE_HWACCESS_TARGET_TYPE;
-````
-
-
 ## -enum-fields
 
 
 
 
-### -field WdfDeviceHwAccessTargetSizeInvalid
+#### - WdfDeviceHwAccessTargetSizeInvalid
 
 
-### -field WdfDeviceHwAccessTargetSizeUchar
+#### - WdfDeviceHwAccessTargetSizeUchar
 
 
-### -field WdfDeviceHwAccessTargetSizeUshort
+#### - WdfDeviceHwAccessTargetSizeUshort
 
 
-### -field WdfDeviceHwAccessTargetSizeUlong
+#### - WdfDeviceHwAccessTargetSizeUlong
 
 
-### -field WdfDeviceHwAccessTargetSizeUlong64
+#### - WdfDeviceHwAccessTargetSizeUlong64
 
 
-### -field WdfDeviceHwAccessTargetSizeMaximum
+#### - WdfDeviceHwAccessTargetSizeMaximum
 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561319">UMDF Structures and Enumeration Types</a>
-
-
-
  
 
  
-
 

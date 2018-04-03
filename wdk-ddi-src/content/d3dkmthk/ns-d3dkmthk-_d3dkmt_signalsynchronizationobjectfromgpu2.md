@@ -7,7 +7,7 @@ old-location: display\d3dkmt_signalsynchronizationobjectfromgpu2.htm
 old-project: display
 ms.assetid: 3F9A7BBE-BFC2-47B9-856A-0B6930717A36
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU2, D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU2 structure [Display Devices], _D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU2, d3dkmthk/D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU2, display.d3dkmt_signalsynchronizationobjectfromgpu2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmthk.h
 api_name:
 -	D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU2
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU2
 ---
@@ -49,27 +50,7 @@ req.typenames: D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU2
 ## -description
 
 
-<b>D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU2</b> is used with <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtsignalsynchronizationobjectfromgpu2.md">D3DKMTSignalSynchronizationObjectFromGpu2</a> to signal a monitored fence.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU2 {
-  UINT                 ObjectCount;
-  const D3DKMT_HANDLE  *ObjectHandleArray;
-  D3DDDICB_SIGNALFLAGS Flags;
-  ULONG                BroadcastContextCount;
-  const D3DKMT_HANDLE  *BroadcastContextArray;
-  union {
-    UINT64       FenceValue;
-    HANDLE       CpuEventHandle;
-    const UINT64 *MonitoredFenceValueArray;
-    UINT64       Reserved[8];
-  };
-} D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU2;
-````
+<b>D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU2</b> is used with <a href="https://msdn.microsoft.com/library/windows/hardware/dn906785">D3DKMTSignalSynchronizationObjectFromGpu2</a> to signal a monitored fence.
 
 
 ## -struct-fields
@@ -89,7 +70,7 @@ typedef struct _D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU2 {
 
 ### -field Flags
 
-[in] A <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddicb_signalflags.md">D3DDDICB_SIGNALFLAGS</a> structure that indicates, in bit-field flags, signaling behavior.
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff544271">D3DDDICB_SIGNALFLAGS</a> structure that indicates, in bit-field flags, signaling behavior.
 
 
 ### -field BroadcastContextCount
@@ -124,12 +105,11 @@ This member is reserved and should be set to zero.
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtsignalsynchronizationobjectfromgpu2.md">D3DKMTSignalSynchronizationObjectFromGpu2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn906785">D3DKMTSignalSynchronizationObjectFromGpu2</a>
  
 
  
-
 

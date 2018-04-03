@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsAddObjectCreateItemToObjectHeader
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,20 +52,6 @@ req.typenames:
 
 
 The <b>KsAddObjectCreateItemToObjectHeader</b> function adds the specified create-item to an empty item in the previously allocated create item list for this object header. An empty item is signified by a <b>NULL</b> create dispatch function in the entry. This function assumes that the caller is serializing multiple changes to the create items list.
-
-
-## -syntax
-
-
-````
-NTSTATUS KsAddObjectCreateItemToObjectHeader(
-  _In_     KSOBJECT_HEADER      Header,
-  _In_     PDRIVER_DISPATCH     Create,
-  _In_     PVOID                Context,
-  _In_     PWSTR                ObjectClass,
-  _In_opt_ PSECURITY_DESCRIPTOR SecurityDescriptor
-);
-````
 
 
 ## -parameters

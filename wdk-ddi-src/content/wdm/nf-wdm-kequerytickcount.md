@@ -7,7 +7,7 @@ old-location: kernel\kequerytickcount.htm
 old-project: kernel
 ms.assetid: 7cd0ed27-a056-4ed9-8ff4-e917b31b0dd6
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: KeQueryTickCount, KeQueryTickCount routine [Kernel-Mode Driver Architecture], k105_a6a22896-6f3e-4e58-b443-4a06ff67b0ce.xml, kernel.kequerytickcount, wdm/KeQueryTickCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	KeQueryTickCount
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
@@ -51,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>KeQueryTickCount</b> routine maintains a count of the interval timer interrupts that have occurred since the system was booted. 
-
-
-## -syntax
-
-
-````
-VOID KeQueryTickCount(
-  _Out_ PLARGE_INTEGER TickCount
-);
-````
 
 
 ## -parameters
@@ -90,7 +81,7 @@ The <i>TickCount</i> value increases by one at each interval timer interrupt whi
 
 The preferred method of determining elapsed time is by using <i>TickCount</i> for relative timing and time stamps.
 
-To determine the absolute elapsed time multiply the returned <i>TickCount</i> by the <a href="..\wdm\nf-wdm-kequerytimeincrement.md">KeQueryTimeIncrement</a> return value using compiler support for 64-bit integer operations.
+To determine the absolute elapsed time multiply the returned <i>TickCount</i> by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553075">KeQueryTimeIncrement</a> return value using compiler support for 64-bit integer operations.
 
 You should not make any assumptions about the length of a tick, because it might vary depending on hardware and other considerations. 
 
@@ -99,20 +90,19 @@ You should not make any assumptions about the length of a tick, because it might
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kequeryperformancecounter.md">KeQueryPerformanceCounter</a>
 
 
 
-<a href="..\wdm\nf-wdm-kequeryinterrupttime.md">KeQueryInterruptTime</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553025">KeQueryInterruptTime</a>
 
 
 
-<a href="..\wdm\nf-wdm-kequerytimeincrement.md">KeQueryTimeIncrement</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553053">KeQueryPerformanceCounter</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553075">KeQueryTimeIncrement</a>
  
 
  
-
 

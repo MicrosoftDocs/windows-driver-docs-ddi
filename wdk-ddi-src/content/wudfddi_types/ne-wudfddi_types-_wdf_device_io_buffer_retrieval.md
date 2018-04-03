@@ -38,7 +38,8 @@ api_location:
 -	Wudfddi_types.h
 api_name:
 -	WDF_DEVICE_IO_BUFFER_RETRIEVAL
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_DEVICE_IO_BUFFER_RETRIEVAL, *PWDF_DEVICE_IO_BUFFER_RETRIEVAL
 req.product: Windows 10 or later.
@@ -53,19 +54,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>WDF_DEVICE_IO_BUFFER_RETRIEVAL</b> enumeration is used to specify when UMDF makes an I/O request's buffers available to the driver.
-
-
-## -syntax
-
-
-````
-typedef enum _WDF_DEVICE_IO_BUFFER_RETRIEVAL { 
-  WdfDeviceIoBufferRetrievalInvalid          = 0x00,
-  WdfDeviceIoBufferRetrievalCopyImmediately  = 0x01,
-  WdfDeviceIoBufferRetrievalDeferred         = 0x02,
-  WdfDeviceIoBufferRetrievalMaximum          = 0x3
-} WDF_DEVICE_IO_BUFFER_RETRIEVAL, *PWDF_DEVICE_IO_BUFFER_RETRIEVAL;
-````
 
 
 ## -enum-fields
@@ -130,12 +118,11 @@ For more information about accessing an I/O request's data buffers, see <a href=
 
 ## -see-also
 
-<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_device_io_type.md">WDF_DEVICE_IO_TYPE (UMDF)</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561404">WDF_DEVICE_IO_TYPE (UMDF)</a>
  
 
  
-
 

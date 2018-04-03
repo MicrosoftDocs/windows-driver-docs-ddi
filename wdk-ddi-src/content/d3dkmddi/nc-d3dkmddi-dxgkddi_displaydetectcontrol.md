@@ -7,7 +7,7 @@ old-location: display\dxgkddi_displaydetectcontrol.htm
 old-project: display
 ms.assetid: 6F10EA4D-BCDE-475E-9937-414CB83F6F2F
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_DISPLAYDETECTCONTROL, DXGKDDI_DISPLAYDETECTCONTROL callback function [Display Devices], d3dkmddi/DXGKDDI_DISPLAYDETECTCONTROL, display.dxgkddi_displaydetectcontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGKDDI_DISPLAYDETECTCONTROL
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 ---
@@ -50,17 +51,6 @@ req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 
 
 Used to turn hot plug detection on and off and to initiate status polls on either a specific target or all targets.  
-
-
-## -prototype
-
-
-````
-NTSTATUS APIENTRY DXGKDDI_DISPLAYDETECTCONTROL(
-  _In_ const HANDLE                          hAdapter,
-  _In_ const PDXGKARG_DISPLAYDETECTCONTROL   pDisplayDetectControl
-);
-````
 
 
 ## -parameters
@@ -75,7 +65,7 @@ A handle that identifies the adapter.
 
 ### -param pDisplayDetectControl [in]
 
-A pointer to a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_displaydetectcontrol.md">DXGKARG_DISPLAYDETECTCONTROL</a> structure that describes the detection action which is requested.
+A pointer to a <a href="https://msdn.microsoft.com/A0B5798E-FF4D-4133-BFA9-39B37CC387F6">DXGKARG_DISPLAYDETECTCONTROL</a> structure that describes the detection action which is requested.
 
 
 ## -returns

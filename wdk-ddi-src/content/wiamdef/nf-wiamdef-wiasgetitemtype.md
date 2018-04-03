@@ -38,7 +38,8 @@ api_location:
 -	Wiaservc.dll
 api_name:
 -	wiasGetItemType
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2
 req.product: Windows 10 or later.
@@ -51,17 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>wiasGetItemType </b>function indicates the item type.
-
-
-## -syntax
-
-
-````
-HRESULT _stdcall wiasGetItemType(
-  _In_  BYTE *pWiasContext,
-  _Out_ LONG *plItemType
-);
-````
 
 
 ## -parameters

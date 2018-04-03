@@ -38,7 +38,8 @@ api_location:
 -	hidpi.h
 api_name:
 -	HIDP_REPORT_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: HIDP_REPORT_TYPE
 ---
@@ -50,18 +51,6 @@ req.typenames: HIDP_REPORT_TYPE
 
 
 The HIDP_REPORT_TYPE enumeration type is used to specify a HID report type.
-
-
-## -syntax
-
-
-````
-typedef enum _HIDP_REPORT_TYPE { 
-  HidP_Input,
-  HidP_Output,
-  HidP_Feature
-} HIDP_REPORT_TYPE;
-````
 
 
 ## -enum-fields
@@ -86,24 +75,23 @@ Indicates a feature report.
 
 ## -see-also
 
-<a href="..\hidpi\ns-hidpi-_hidp_button_caps.md">HIDP_BUTTON_CAPS</a>
 
 
 
-<a href="..\hidpi\nf-hidpi-hidp_setdata.md">HidP_SetData</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539693">HIDP_BUTTON_CAPS</a>
 
 
 
-<a href="..\hidpi\nf-hidpi-hidp_getdata.md">HidP_GetData</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539832">HIDP_VALUE_CAPS</a>
 
 
 
-<a href="..\hidpi\ns-hidpi-_hidp_value_caps.md">HIDP_VALUE_CAPS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539718">HidP_GetData</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539783">HidP_SetData</a>
  
 
  
-
 

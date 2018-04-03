@@ -3,12 +3,12 @@ UID: NS:gnssdriver.GNSS_SATELLITEINFO
 title: GNSS_SATELLITEINFO
 author: windows-driver-content
 description: This structure defines satellite-related information of a fix.
-old-location: gnss\gnss_satelliteinfo.htm
-old-project: gnss
+old-location: sensors\gnss_satelliteinfo.htm
+old-project: sensors
 ms.assetid: 27F537D8-45B2-43D9-A614-3558534C9DBA
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: "*PGNSS_SATELLITEINFO, GNSS_SATELLITEINFO, GNSS_SATELLITEINFO structure [Sensor Devices], PGNSS_SATELLITEINFO, PGNSS_SATELLITEINFO structure pointer [Sensor Devices], gnss.gnss_satelliteinfo, gnssdriver/GNSS_SATELLITEINFO, gnssdriver/PGNSS_SATELLITEINFO"
+ms.date: 2/22/2018
+ms.keywords: "*PGNSS_SATELLITEINFO, GNSS_SATELLITEINFO, GNSS_SATELLITEINFO structure [Sensor Devices], PGNSS_SATELLITEINFO, PGNSS_SATELLITEINFO structure pointer [Sensor Devices], gnssdriver/GNSS_SATELLITEINFO, gnssdriver/PGNSS_SATELLITEINFO, sensors.gnss_satelliteinfo"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -38,7 +38,8 @@ api_location:
 -	gnssdriver.h
 api_name:
 -	GNSS_SATELLITEINFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GNSS_SATELLITEINFO, *PGNSS_SATELLITEINFO
 ---
@@ -50,20 +51,6 @@ req.typenames: GNSS_SATELLITEINFO, *PGNSS_SATELLITEINFO
 
 
 This structure defines satellite-related information of a fix.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  ULONG  SatelliteId;
-  BOOL   UsedInPositiong;
-  double Elevation;
-  double Azimuth;
-  double SignalToNoiseRatio;
-} GNSS_SATELLITEINFO, *PGNSS_SATELLITEINFO;
-````
 
 
 ## -struct-fields

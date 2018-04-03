@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KS_DVDCOPY_TITLEKEY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KS_DVDCOPY_TITLEKEY, *PKS_DVDCOPY_TITLEKEY
 ---
@@ -50,19 +51,6 @@ req.typenames: KS_DVDCOPY_TITLEKEY, *PKS_DVDCOPY_TITLEKEY
 
 
 The KS_DVDCOPY_TITLEKEY structure is used to describe the title key information for the DVD copyright protection authentication process.
-
-
-## -syntax
-
-
-````
-typedef struct _KS_DVDCOPY_TITLEKEY {
-  ULONG KeyFlags;
-  ULONG ReservedNT[2];
-  UCHAR TitleKey[6];
-  UCHAR Reserved[2];
-} KS_DVDCOPY_TITLEKEY, *PKS_DVDCOPY_TITLEKEY;
-````
 
 
 ## -struct-fields
@@ -221,12 +209,11 @@ For more information, see <a href="https://msdn.microsoft.com/ff9cf8c8-7c8f-485c
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565148">KSPROPERTY_DVDCOPY_TITLE_KEY</a>
-
-
-
  
 
  
-
 

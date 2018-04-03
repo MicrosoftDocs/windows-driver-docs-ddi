@@ -38,7 +38,8 @@ api_location:
 -	Winspool.h
 api_name:
 -	PrintNamedProperty
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PrintNamedProperty
 req.product: Windows 10 or later.
@@ -51,17 +52,6 @@ req.product: Windows 10 or later.
 
 
 
-
-
-## -syntax
-
-
-````
-typedef struct {
-  WCHAR                    *propertyName;
-  PrintPropertyValue       propertyValue;
-} PrintNamedProperty;
-````
 
 
 ## -struct-fields

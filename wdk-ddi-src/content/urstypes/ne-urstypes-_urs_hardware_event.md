@@ -7,7 +7,7 @@ old-location: buses\urs_hardware_event.htm
 old-project: usbref
 ms.assetid: 985A7725-1EE1-4419-B8BE-FEE2306E93A7
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PURS_HARDWARE_EVENT, URS_HARDWARE_EVENT, URS_HARDWARE_EVENT enumeration [Buses], URS_HARDWARE_EVENT, *PURS_HARDWARE_EVENT, URS_HARDWARE_EVENT, *PURS_HARDWARE_EVENT enumeration [Buses], UrsHardwareEventDetach, UrsHardwareEventIdFloat, UrsHardwareEventIdGround, UrsHardwareEventNone, UrsHardwareEventPortTypeDfp, UrsHardwareEventPortTypeUfp, _URS_HARDWARE_EVENT, buses.urs_hardware_event, urstypes/URS_HARDWARE_EVENT, urstypes/UrsHardwareEventDetach, urstypes/UrsHardwareEventIdFloat, urstypes/UrsHardwareEventIdGround, urstypes/UrsHardwareEventNone, urstypes/UrsHardwareEventPortTypeDfp, urstypes/UrsHardwareEventPortTypeUfp"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Urstypes.h
 api_name:
 -	URS_HARDWARE_EVENT, *PURS_HARDWARE_EVENT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: URS_HARDWARE_EVENT, *PURS_HARDWARE_EVENT
 req.product: Windows 10 or later.
@@ -51,21 +52,6 @@ req.product: Windows 10 or later.
 
 
 Defines values for the hardware events that a client driver for a USB dual-role controller can report.
-
-
-## -syntax
-
-
-````
-typedef enum _URS_HARDWARE_EVENT { 
-  UrsHardwareEventNone         = 0,
-  UrsHardwareEventDetach,
-  UrsHardwareEventIdGround,
-  UrsHardwareEventIdFloat,
-  UrsHardwareEventPortTypeDfp,
-  UrsHardwareEventPortTypeUfp
-} URS_HARDWARE_EVENT, *PURS_HARDWARE_EVENT;
-````
 
 
 ## -enum-fields
@@ -107,7 +93,7 @@ The Type-C connector has resolved to UFP. Not to be used directly by the URS cli
 
 
 
-Values defined for USB Type-C systems should not be directly used by the client driver. Instead the driver should report that it does not support hardware event reporting by calling <a href="..\ursdevice\nf-ursdevice-urssethardwareeventsupport.md">UrsSetHardwareEventSupport</a>. These hardware events are detected by a USB Type-C connector driver, see <a href="https://msdn.microsoft.com/library/windows/hardware/mt188011">USB Type-C connector driver programming reference</a>. 
+Values defined for USB Type-C systems should not be directly used by the client driver. Instead the driver should report that it does not support hardware event reporting by calling <a href="https://msdn.microsoft.com/library/windows/hardware/mt628018">UrsSetHardwareEventSupport</a>. These hardware events are detected by a USB Type-C connector driver, see <a href="https://msdn.microsoft.com/library/windows/hardware/mt188011">USB Type-C connector driver programming reference</a>. 
 
 
 

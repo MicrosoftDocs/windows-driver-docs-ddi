@@ -3,12 +3,12 @@ UID: NE:gnssdriver.GNSS_NI_REQUEST_TYPE
 title: GNSS_NI_REQUEST_TYPE
 author: windows-driver-content
 description: This enumeration indicates the network initiated (NI) request type represented by the GNSS_NI_REQUEST_PARAM structure.
-old-location: gnss\gnss_ni_request_type.htm
-old-project: gnss
+old-location: sensors\gnss_ni_request_type.htm
+old-project: sensors
 ms.assetid: 79AFC7D8-5A51-49CC-8ADA-7D21C6859254
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: GNSS_NI_REQUEST_TYPE, GNSS_NI_REQUEST_TYPE enumeration [Sensor Devices], GNSS_NI_Request_AreaTrigger, GNSS_NI_Request_SingleShot, gnss.gnss_ni_request_type, gnssdriver/GNSS_NI_REQUEST_TYPE, gnssdriver/GNSS_NI_Request_AreaTrigger, gnssdriver/GNSS_NI_Request_SingleShot
+ms.date: 2/22/2018
+ms.keywords: GNSS_NI_REQUEST_TYPE, GNSS_NI_REQUEST_TYPE enumeration [Sensor Devices], GNSS_NI_Request_AreaTrigger, GNSS_NI_Request_SingleShot, gnssdriver/GNSS_NI_REQUEST_TYPE, gnssdriver/GNSS_NI_Request_AreaTrigger, gnssdriver/GNSS_NI_Request_SingleShot, sensors.gnss_ni_request_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -38,7 +38,8 @@ api_location:
 -	gnssdriver.h
 api_name:
 -	GNSS_NI_REQUEST_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GNSS_NI_REQUEST_TYPE
 ---
@@ -49,18 +50,7 @@ req.typenames: GNSS_NI_REQUEST_TYPE
 ## -description
 
 
-This enumeration indicates the network initiated (NI) request type represented by the <a href="..\gnssdriver\ns-gnssdriver-gnss_ni_request_param.md">GNSS_NI_REQUEST_PARAM</a> structure.
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  GNSS_NI_Request_SingleShot   = 0x01,
-  GNSS_NI_Request_AreaTrigger  = 0x02
-} GNSS_NI_REQUEST_TYPE;
-````
+This enumeration indicates the network initiated (NI) request type represented by the <a href="https://msdn.microsoft.com/library/windows/hardware/dn925191">GNSS_NI_REQUEST_PARAM</a> structure.
 
 
 ## -enum-fields

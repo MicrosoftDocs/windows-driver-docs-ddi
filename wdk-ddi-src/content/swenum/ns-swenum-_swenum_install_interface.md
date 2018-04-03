@@ -38,7 +38,8 @@ api_location:
 -	swenum.h
 api_name:
 -	SWENUM_INSTALL_INTERFACE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SWENUM_INSTALL_INTERFACE, *PSWENUM_INSTALL_INTERFACE
 req.product: Windows 10 or later.
@@ -51,18 +52,6 @@ req.product: Windows 10 or later.
 
 
 The SWENUM_INSTALL_INTERFACE structure describes a specific demand-load bus enumerator object interface to install.
-
-
-## -syntax
-
-
-````
-typedef struct _SWENUM_INSTALL_INTERFACE {
-  GUID  DeviceId;
-  GUID  InterfaceId;
-  WCHAR ReferenceString[1];
-} SWENUM_INSTALL_INTERFACE, *PSWENUM_INSTALL_INTERFACE;
-````
 
 
 ## -struct-fields
@@ -96,16 +85,15 @@ The <i>swenum</i> driver uses device interface instances as placeholders for sof
 
 ## -see-also
 
-<a href="..\swenum\nf-swenum-ksinstallbusenuminterface.md">KsInstallBusEnumInterface</a>
 
 
 
-<a href="..\swenum\nf-swenum-ksremovebusenuminterface.md">KsRemoveBusEnumInterface</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562690">KsInstallBusEnumInterface</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566794">KsRemoveBusEnumInterface</a>
  
 
  
-
 

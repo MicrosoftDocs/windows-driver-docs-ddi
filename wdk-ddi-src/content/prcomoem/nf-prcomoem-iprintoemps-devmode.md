@@ -38,7 +38,8 @@ api_location:
 -	Prcomoem.h
 api_name:
 -	IPrintOemPS.DevMode
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
@@ -53,17 +54,6 @@ req.product: Windows 10 or later.
 The <code>IPrintOemPS::DevMode</code> method, provided by rendering plug-ins for Pscript5, performs operations on private <a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a> members.
 
 
-## -syntax
-
-
-````
-STDMETHOD DevMode(
-   DWORD       dwMode,
-   POEMDMPARAM pOemDMParam
-);
-````
-
-
 ## -parameters
 
 
@@ -76,7 +66,7 @@ Caller-supplied constant. See the following Remarks section.
 
 ### -param pOemDMParam
 
-Caller-supplied pointer to an <a href="..\printoem\ns-printoem-_oemdmparam.md">OEMDMPARAM</a> structure.
+Caller-supplied pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff557686">OEMDMPARAM</a> structure.
 
 
 ## -returns

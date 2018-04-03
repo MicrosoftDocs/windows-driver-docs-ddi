@@ -1,0 +1,94 @@
+---
+UID: NC:d3dkmddi.DXGKDDI_SETSCHEDULINGLOGBUFFER
+title: DXGKDDI_SETSCHEDULINGLOGBUFFER
+author: windows-driver-content
+description:
+ms.assetid: b999c9b3-7f29-4dae-9968-86fbcaa9fabb
+ms.author: windowsdriverdev
+ms.date:
+ms.topic: callback
+ms.prod: windows-hardware
+ms.technology: windows-devices
+req.header: d3dkmddi.h
+req.include-header:
+req.target-type:
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.lib:
+req.dll:
+req.irql:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+topictype:
+-	apiref
+apitype:
+-	UserDefined
+apilocation:
+-	d3dkmddi.h
+apiname:
+-	DXGKDDI_SETSCHEDULINGLOGBUFFER
+product: Windows
+targetos: Windows
+---
+
+# DXGKDDI_SETSCHEDULINGLOGBUFFER callback function
+
+## -description
+
+> [!WARNING]
+> Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
+
+Implemented by the client driver to instruct the GPU to use the passed buffer as a scheduling log for a particular GPU node.
+
+## -prototype
+
+```
+//Declaration
+
+DXGKDDI_SETSCHEDULINGLOGBUFFER DxgkddiSetschedulinglogbuffer;
+
+// Definition
+
+NTSTATUS DxgkddiSetschedulinglogbuffer
+(
+	IN_CONST_HANDLE hAdapter
+	IN_CONST_PDXGKARG_SETSCHEDULINGLOGBUFFER pSetSchedulingLogBuffer
+)
+{...}
+
+DXGKDDI_SETSCHEDULINGLOGBUFFER *PDXGKDDI_SETSCHEDULINGLOGBUFFER
+
+
+```
+
+## -parameters
+
+### -param hAdapter
+
+Identifies the logical adapter.
+
+### -param pSetSchedulingLogBuffer
+
+Pointer to a [DXGKARG_SETSCHEDULINGLOGBUFFER](ns-d3dkmddi-_dxgkarg_setschedulinglogbuffer.md) structure that contains information to set scheduling log buffer.
+
+
+## -returns
+
+Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate NTSTATUS Values error code.
+
+## -remarks
+
+Register your implementation of this callback function by setting the appropriate member of DXGKARG_SETSCHEDULINGLOGBUFFER and then calling DxgkddiSetSchedulingLogBuffer.
+
+DxgkDdiSetSchedulingLogBuffer is a synchronous call. Upon the return from DxgkDdiSetSchedulingLogBuffer, the GPU is not allowed to write any more entries to the previous log. All new entries will be written to the log buffer passed by the latest DxgkDdiSetSchedulingLogBuffer call.
+
+The log buffer passed by the OS has FirstFreeEntryIndex and WraparondCount set to zero, and NumberOfEntries set to the number of allocated log entries. The rest of the buffer is uninitialized. In particular, the GPU cannot assume the individual entries in the log entry buffer are zero initialized.
+
+## -see-also

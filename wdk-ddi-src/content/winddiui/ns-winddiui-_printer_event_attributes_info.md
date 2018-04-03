@@ -38,7 +38,8 @@ api_location:
 -	winddiui.h
 api_name:
 -	PRINTER_EVENT_ATTRIBUTES_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PRINTER_EVENT_ATTRIBUTES_INFO, *PPRINTER_EVENT_ATTRIBUTES_INFO
 req.product: Windows 10 or later.
@@ -51,18 +52,6 @@ req.product: Windows 10 or later.
 
 
 The PRINTER_EVENT_ATTRIBUTES_INFO structure contains the former attributes and the new attributes for a printer.
-
-
-## -syntax
-
-
-````
-typedef struct _PRINTER_EVENT_ATTRIBUTES_INFO {
-  DWORD cbSize;
-  DWORD dwOldAttributes;
-  DWORD dwNewAttributes;
-} PRINTER_EVENT_ATTRIBUTES_INFO, *PPRINTER_EVENT_ATTRIBUTES_INFO;
-````
 
 
 ## -struct-fields
@@ -98,16 +87,15 @@ Because this structure might become larger in future operating system versions, 
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548564">DrvPrinterEvent</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554182">IPrintOemUI::PrinterEvent</a>
-
-
-
-<a href="..\winddiui\nf-winddiui-drvprinterevent.md">DrvPrinterEvent</a>
-
-
-
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: kernel\powercontrolcallback.htm
 old-project: kernel
 ms.assetid: 110DAD1A-606B-4973-8724-03B531B2AEA9
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: PO_FX_POWER_CONTROL_CALLBACK, PowerControlCallback, PowerControlCallback routine [Kernel-Mode Driver Architecture], kernel.powercontrolcallback, wdm/PowerControlCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	PowerControlCallback
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
 req.product: Windows 10 or later.
@@ -51,25 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <i>PowerControlCallback</i> callback routine performs a power control operation that is requested by the power management framework (PoFx).
-
-
-## -prototype
-
-
-````
-PO_FX_POWER_CONTROL_CALLBACK PowerControlCallback;
-
-NTSTATUS PowerControlCallback(
-  _In_      PVOID   Context,
-  _In_      LPCGUID PowerControlCode,
-  _In_opt_  PVOID   InBuffer,
-  _In_      SIZE_T  InBufferSize,
-  _Out_opt_ PVOID   OutBuffer,
-  _In_      SIZE_T  OutBufferSize,
-  _Out_opt_ PSIZE_T BytesReturned
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -112,7 +94,7 @@ A pointer to a location into which the routine writes the number of bytes of dat
 
 #### - Context [in]
 
-A pointer to the device context. The device driver uses this context to store information about the current power state of the device. The device driver specified this pointer in the <b>DeviceContext</b> member of the <a href="..\wudfwdm\ns-wudfwdm-_po_fx_device_v1.md">PO_FX_DEVICE</a> structure that the driver used to register the device with PoFx. This context is opaque to PoFx.
+A pointer to the device context. The device driver uses this context to store information about the current power state of the device. The device driver specified this pointer in the <b>DeviceContext</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439585">PO_FX_DEVICE</a> structure that the driver used to register the device with PoFx. This context is opaque to PoFx.
 
 
 ## -returns
@@ -132,9 +114,9 @@ PoFx calls this routine to send a power control request directly to the device d
 
 This routine is optional. A device driver that does not support power control operations is not required to implement a <i>PowerControlCallback</i> routine.
 
-The device driver can call the <a href="..\wdm\nf-wdm-pofxpowercontrol.md">PoFxPowerControl</a> routine to send a power control request to PoFx.
+The device driver can call the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439518">PoFxPowerControl</a> routine to send a power control request to PoFx.
 
-For more information about power control requests, see <a href="..\wdm\nf-wdm-pofxpowercontrol.md">PoFxPowerControl</a>.
+For more information about power control requests, see <a href="https://msdn.microsoft.com/library/windows/hardware/hh439518">PoFxPowerControl</a>.
 
 
 #### Examples
@@ -186,16 +168,15 @@ The PO_FX_POWER_CONTROL_CALLBACK function type is defined in the Wdm.h header fi
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_po_fx_device_v1.md">PO_FX_DEVICE</a>
 
 
 
-<a href="..\wdm\nf-wdm-pofxpowercontrol.md">PoFxPowerControl</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439585">PO_FX_DEVICE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439518">PoFxPowerControl</a>
  
 
  
-
 

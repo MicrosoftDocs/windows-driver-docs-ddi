@@ -39,7 +39,8 @@ api_location:
 -	SensorsClassExtension.dll
 api_name:
 -	Initialize
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SensorConnectionType
 req.product: Windows 10 or later.
@@ -52,17 +53,6 @@ req.product: Windows 10 or later.
 
 
 The <a href="https://msdn.microsoft.com/library/windows/hardware/ff545514">ISensorClassExtension::Initialize</a> method initializes the sensor class extension object.
-
-
-## -syntax
-
-
-````
-HRESULT Initialize(
-   IUnknown * pWdfDeviceUnknown,
-   IUnknown * pSensorDriverUnknown
-);
-````
 
 
 ## -parameters
@@ -109,7 +99,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-The argument was <b>NULL</b> or the <a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a> interface is missing..
+The argument was <b>NULL</b> or the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556917">IWDFDevice</a> interface is missing..
 
 </td>
 </tr>

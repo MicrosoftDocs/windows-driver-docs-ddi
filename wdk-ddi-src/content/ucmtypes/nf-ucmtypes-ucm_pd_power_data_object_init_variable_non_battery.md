@@ -7,7 +7,7 @@ old-location: buses\ucm_pd_power_data_object_init_variable_non_battery.htm
 old-project: usbref
 ms.assetid: BBC8975A-E5B1-4137-83D8-891075A8F4D0
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: UCM_PD_POWER_DATA_OBJECT_INIT_VARIABLE_NON_BATTERY, UCM_PD_POWER_DATA_OBJECT_INIT_VARIABLE_NON_BATTERY function [Buses], buses.ucm_pd_power_data_object_init_variable_non_battery, ucmtypes/UCM_PD_POWER_DATA_OBJECT_INIT_VARIABLE_NON_BATTERY
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ucmtypes.h
 api_name:
 -	UCM_PD_POWER_DATA_OBJECT_INIT_VARIABLE_NON_BATTERY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UCM_TYPEC_PARTNER
 req.product: Windows 10 or later.
@@ -50,17 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-Initializes a <a href="..\ucmtypes\ns-ucmtypes-_ucm_pd_power_data_object.md">UCM_PD_POWER_DATA_OBJECT</a> structure as a Variable Supply Non Battery type Power Data Object.
-
-
-## -syntax
-
-
-````
-FORCEINLINE void UCM_PD_POWER_DATA_OBJECT_INIT_VARIABLE_NON_BATTERY(
-  _Out_ PUCM_PD_POWER_DATA_OBJECT Pdo
-);
-````
+Initializes a <a href="https://msdn.microsoft.com/library/windows/hardware/mt187935">UCM_PD_POWER_DATA_OBJECT</a> structure as a Variable Supply Non Battery type Power Data Object.
 
 
 ## -parameters
@@ -70,7 +61,7 @@ FORCEINLINE void UCM_PD_POWER_DATA_OBJECT_INIT_VARIABLE_NON_BATTERY(
 
 ### -param Pdo [out]
 
-A pointer to a <a href="..\ucmtypes\ns-ucmtypes-_ucm_pd_power_data_object.md">UCM_PD_POWER_DATA_OBJECT</a> structure in which the <b>VariableSupplyNonBatteryPdo.VariableSupportNonBattery</b> member is set to <b>UcmPdPdoTypeVariableSupplyNonBattery</b>.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/mt187935">UCM_PD_POWER_DATA_OBJECT</a> structure in which the <b>VariableSupplyNonBatteryPdo.VariableSupportNonBattery</b> member is set to <b>UcmPdPdoTypeVariableSupplyNonBattery</b>.
 
 
 ## -returns
@@ -84,12 +75,11 @@ This function does not return a value.
 
 ## -see-also
 
-<a href="..\ucmtypes\ns-ucmtypes-_ucm_pd_power_data_object.md">UCM_PD_POWER_DATA_OBJECT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt187935">UCM_PD_POWER_DATA_OBJECT</a>
  
 
  
-
 

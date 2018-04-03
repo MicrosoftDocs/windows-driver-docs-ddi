@@ -7,7 +7,7 @@ old-location: storage\clearcache_out.htm
 old-project: storage
 ms.assetid: ab97d0b0-00fc-499c-9b1b-83731fe8e935
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PClearCache_OUT, ClearCache_OUT, ClearCache_OUT structure [Storage Devices], PClearCache_OUT, PClearCache_OUT structure pointer [Storage Devices], _ClearCache_OUT, iscsiop/ClearCache_OUT, iscsiop/PClearCache_OUT, storage.clearcache_out, structs-iSCSI_e96c134a-dfb1-474a-b730-1fb6e8d8f86f.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	iscsiop.h
 api_name:
 -	ClearCache_OUT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: ClearCache_OUT, *PClearCache_OUT
 ---
@@ -50,16 +51,6 @@ req.typenames: ClearCache_OUT, *PClearCache_OUT
 
 
 The ClearCache_OUT structure holds the output data for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552442">ClearCache</a> method.
-
-
-## -syntax
-
-
-````
-typedef struct _ClearCache_OUT {
-  ULONG Status;
-} ClearCache_OUT, *PClearCache_OUT;
-````
 
 
 ## -struct-fields
@@ -83,7 +74,6 @@ You must implement this method.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
 
 
 
@@ -91,12 +81,12 @@ You must implement this method.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563135">MSiSCSI_SecurityConfigOperations WMI Class</a>
-
-
-
  
 
  
-
 

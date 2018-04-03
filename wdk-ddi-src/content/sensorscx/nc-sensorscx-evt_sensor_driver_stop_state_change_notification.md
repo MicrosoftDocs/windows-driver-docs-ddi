@@ -38,7 +38,8 @@ api_location:
 -	sensorscx.h
 api_name:
 -	PFN_SENSOR_DRIVER_STOP_STATE_CHANGE_NOTIFICATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SensorConnectionType
 req.product: Windows 10 or later.
@@ -51,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 Used to stop a state change notification.
-
-
-## -prototype
-
-
-````
-NTSTATUS EvtSensorDriverStopStateChangeNotification(
-   SENSOROBJECT Sensors
-);
-````
 
 
 ## -parameters

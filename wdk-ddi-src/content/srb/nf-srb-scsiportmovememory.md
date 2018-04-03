@@ -7,7 +7,7 @@ old-location: storage\scsiportmovememory.htm
 old-project: storage
 ms.assetid: c4ed9551-3dc8-4f76-9bcb-26030f76c244
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: ScsiPortMoveMemory, ScsiPortMoveMemory routine [Storage Devices], scsiprt_88a58a03-0663-4aad-b048-2a2d3641e94e.xml, srb/ScsiPortMoveMemory, storage.scsiportmovememory
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	storport.dll
 api_name:
 -	ScsiPortMoveMemory
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STOR_DEVICE_POWER_STATE, *PSTOR_DEVICE_POWER_STATE
 req.product: Windows 10 or later.
@@ -53,18 +54,6 @@ req.product: Windows 10 or later.
 
 The <b>ScsiPortMoveMemory</b> routine copies data from one location to another.
 <div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
-
-## -syntax
-
-
-````
-VOID ScsiPortMoveMemory(
-  _In_ PVOID WriteBuffer,
-  _In_ PVOID ReadBuffer,
-  _In_ ULONG Length
-);
-````
-
 
 ## -parameters
 

@@ -7,7 +7,7 @@ old-location: kernel\rtllonglongadd.htm
 old-project: kernel
 ms.assetid: 94FD1DD3-0799-4E90-A115-9EF065433B05
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: RtlLongLongAdd, RtlLongLongAdd function [Kernel-Mode Driver Architecture], kernel.rtllonglongadd, ntintsafe/RtlLongLongAdd
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ntintsafe.h
 api_name:
 -	RtlLongLongAdd
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 ---
@@ -50,18 +51,6 @@ req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 
 
 Adds two values of type <b>LONGLONG</b>.
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlLongLongAdd(
-  _In_  LONGLONG llAugend,
-  _In_  LONGLONG llAddend,
-  _Out_ LONGLONG *pllResult
-);
-````
 
 
 ## -parameters

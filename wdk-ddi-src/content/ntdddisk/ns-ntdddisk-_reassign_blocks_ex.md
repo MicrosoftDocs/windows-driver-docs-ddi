@@ -7,7 +7,7 @@ old-location: storage\reassign_blocks_ex.htm
 old-project: storage
 ms.assetid: D1BE17A0-39F1-496A-AD53-46A3F136D793
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PREASSIGN_BLOCKS_EX, PREASSIGN_BLOCKS_EX, PREASSIGN_BLOCKS_EX structure pointer [Storage Devices], REASSIGN_BLOCKS_EX, REASSIGN_BLOCKS_EX structure [Storage Devices], _REASSIGN_BLOCKS_EX, ntdddisk/PREASSIGN_BLOCKS_EX, ntdddisk/REASSIGN_BLOCKS_EX, storage.reassign_blocks_ex"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntdddisk.h
 api_name:
 -	REASSIGN_BLOCKS_EX
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: REASSIGN_BLOCKS_EX, *PREASSIGN_BLOCKS_EX
 ---
@@ -49,19 +50,7 @@ req.typenames: REASSIGN_BLOCKS_EX, *PREASSIGN_BLOCKS_EX
 ## -description
 
 
-The <b>REASSIGN_BLOCKS_EX</b> structure is used in conjunction with the <a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_reassign_blocks_ex.md">IOCTL_DISK_REASSIGN_BLOCKS_EX</a> request to instruct a disk device to reassign the block numbers of the indicated bad blocks to good blocks.
-
-
-## -syntax
-
-
-````
-typedef struct _REASSIGN_BLOCKS_EX {
-  USHORT        Reserved;
-  USHORT        Count;
-  LARGE_INTEGER BlockNumber[1];
-} REASSIGN_BLOCKS_EX, *PREASSIGN_BLOCKS_EX;
-````
+The <b>REASSIGN_BLOCKS_EX</b> structure is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/jj602797">IOCTL_DISK_REASSIGN_BLOCKS_EX</a> request to instruct a disk device to reassign the block numbers of the indicated bad blocks to good blocks.
 
 
 ## -struct-fields
@@ -86,12 +75,11 @@ Contains an array of block numbers corresponding to damaged blocks. These number
 
 ## -see-also
 
-<a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_reassign_blocks_ex.md">IOCTL_DISK_REASSIGN_BLOCKS_EX</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj602797">IOCTL_DISK_REASSIGN_BLOCKS_EX</a>
  
 
  
-
 

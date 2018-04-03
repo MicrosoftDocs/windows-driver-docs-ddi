@@ -38,7 +38,8 @@ api_location:
 -	WinSpool.drv
 api_name:
 -	UpdatePrintDeviceObject
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NOTIFICATION_CONFIG_FLAGS
 req.product: Windows 10 or later.
@@ -55,17 +56,6 @@ req.product: Windows 10 or later.
 </div><div> </div>The <b>UpdatePrintDeviceObject</b> function updates the properties of a device object that is in the print provider queue.
 
 
-## -syntax
-
-
-````
-HRESULT WINAPI UpdatePrintDeviceObject(
-  _In_ HANDLE hPrinter,
-  _In_ HANDLE hDeviceObject
-);
-````
-
-
 ## -parameters
 
 
@@ -78,7 +68,7 @@ The HANDLE to an open printer. This should be a handle that was returned by the 
 
 ### -param hDeviceObject [in]
 
-The HANDLE to the device object to be updated. This should be a device object that was created with <a href="..\winsplp\nf-winsplp-addprintdeviceobject.md">AddPrintDeviceObject</a>.
+The HANDLE to the device object to be updated. This should be a device object that was created with <a href="https://msdn.microsoft.com/library/windows/hardware/dn917890">AddPrintDeviceObject</a>.
 
 
 ## -returns
@@ -103,16 +93,15 @@ The <a href="http://msdn.microsoft.com/en-us/library/windows/desktop/dd162845(v=
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn917890">AddPrintDeviceObject</a>
+
+
+
 <a href="http://msdn.microsoft.com/en-us/library/windows/desktop/dd162845(v=vs.85).aspx">PRINTER_INFO_2</a>
-
-
-
-<a href="..\winsplp\nf-winsplp-addprintdeviceobject.md">AddPrintDeviceObject</a>
-
-
-
  
 
  
-
 

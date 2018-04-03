@@ -7,7 +7,7 @@ old-location: netvista\wdi_scan_trigger.htm
 old-project: netvista
 ms.assetid: 3E201A6D-3A5B-4A6B-8AED-258A96BBF869
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: WDI_SCAN_TRIGGER, WDI_SCAN_TRIGGER enumeration [Device and Driver Installation], WDI_SCAN_TRIGGER_ANQP_QUERY, WDI_SCAN_TRIGGER_BACKGROUND, WDI_SCAN_TRIGGER_CONNECT, WDI_SCAN_TRIGGER_FAST_ROAM, WDI_SCAN_TRIGGER_MANUAL, WDI_SCAN_TRIGGER_ROAM, _WDI_SCAN_TRIGGER, netvista.wdi_scan_trigger, netvista.wifi_scan_trigger, wditypes/WDI_SCAN_TRIGGER, wditypes/WDI_SCAN_TRIGGER_ANQP_QUERY, wditypes/WDI_SCAN_TRIGGER_BACKGROUND, wditypes/WDI_SCAN_TRIGGER_CONNECT, wditypes/WDI_SCAN_TRIGGER_FAST_ROAM, wditypes/WDI_SCAN_TRIGGER_MANUAL, wditypes/WDI_SCAN_TRIGGER_ROAM
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	wditypes.hpp
 api_name:
 -	WDI_SCAN_TRIGGER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDI_SCAN_TRIGGER
 req.product: Windows 10 or later.
@@ -51,21 +52,6 @@ req.product: Windows 10 or later.
 
 
 The WDI_SCAN_TRIGGER enumeration defines the scan trigger values.
-
-
-## -syntax
-
-
-````
-typedef enum _WDI_SCAN_TRIGGER { 
-  WDI_SCAN_TRIGGER_MANUAL      = 1,
-  WDI_SCAN_TRIGGER_BACKGROUND  = 2,
-  WDI_SCAN_TRIGGER_ROAM        = 3,
-  WDI_SCAN_TRIGGER_CONNECT     = 4,
-  WDI_SCAN_TRIGGER_ANQP_QUERY  = 5,
-  WDI_SCAN_TRIGGER_FAST_ROAM   = 6
-} WDI_SCAN_TRIGGER;
-````
 
 
 ## -enum-fields

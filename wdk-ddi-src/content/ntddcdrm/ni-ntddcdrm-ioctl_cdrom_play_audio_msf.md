@@ -7,7 +7,7 @@ old-location: storage\ioctl_cdrom_play_audio_msf.htm
 old-project: storage
 ms.assetid: cb88fa6b-e96a-41a9-abcc-9ab28b62954f
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_CDROM_PLAY_AUDIO_MSF, IOCTL_CDROM_PLAY_AUDIO_MSF control code [Storage Devices], k307_dce77286-4efa-4b8b-bb78-2c771bd75727.xml, ntddcdrm/IOCTL_CDROM_PLAY_AUDIO_MSF, storage.ioctl_cdrom_play_audio_msf
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddcdrm.h
 api_name:
 -	IOCTL_CDROM_PLAY_AUDIO_MSF
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WRITE_ROTATION, *PWRITE_ROTATION
 ---
@@ -62,7 +63,7 @@ Plays the specified range of the media. Obsolete, beginning with Windows Vista.
 
 ### -input-buffer
 
-The <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_play_audio_msf.md">CDROM_PLAY_AUDIO_MSF</a> structure in the buffer at <i>Irp-&gt;AssociatedIrp.System</i> contains the starting and ending MSF values. 
+The <a href="https://msdn.microsoft.com/library/windows/hardware/ff551365">CDROM_PLAY_AUDIO_MSF</a> structure in the buffer at <i>Irp-&gt;AssociatedIrp.System</i> contains the starting and ending MSF values. 
 
 
 ### -input-buffer-length
@@ -116,12 +117,11 @@ Client applications should use the <i>Media Control Interface (MCI) API</i> rath
 
 ## -see-also
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_play_audio_msf.md">CDROM_PLAY_AUDIO_MSF</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551365">CDROM_PLAY_AUDIO_MSF</a>
  
 
  
-
 

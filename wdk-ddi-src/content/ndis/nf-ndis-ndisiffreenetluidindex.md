@@ -7,7 +7,7 @@ old-location: netvista\ndisiffreenetluidindex.htm
 old-project: netvista
 ms.assetid: eba881f8-e946-44a8-9624-37f63471fb65
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NdisIfFreeNetLuidIndex, NdisIfFreeNetLuidIndex function [Network Drivers Starting with Windows Vista], ndis/NdisIfFreeNetLuidIndex, net_if_functions_ref_040908da-c299-4265-9639-f2e65776f26b.xml, netvista.ndisiffreenetluidindex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	ndis.dll
 api_name:
 -	NdisIfFreeNetLuidIndex
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
@@ -54,19 +55,8 @@ The
   <b>NdisIfFreeNetLuidIndex</b> function frees a network interface 
   <a href="https://msdn.microsoft.com/library/windows/hardware/ff568747">NET_LUID</a> index that was previously allocated by a
   call to the 
-  <a href="..\ndis\nf-ndis-ndisifallocatenetluidindex.md">
+  <a href="https://msdn.microsoft.com/bc62da04-242a-4d9a-8a85-2342a1b3e628">
   NdisIfAllocateNetLuidIndex</a> function.
-
-
-## -syntax
-
-
-````
-NDIS_STATUS NdisIfFreeNetLuidIndex(
-  _In_ NET_IFTYPE IfType,
-  _In_ UINT32     NetLuidIndex
-);
-````
 
 
 ## -parameters
@@ -89,7 +79,7 @@ The NET_LUID index value that NDIS should free. This index was allocated in a pr
 
 The interface type that the index was allocated for. The caller must provide the same value that
      it used when it allocated the NET_LUID index with 
-     <a href="..\ndis\nf-ndis-ndisifallocatenetluidindex.md">NdisIfAllocateNetLuidIndex</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff562695">NdisIfAllocateNetLuidIndex</a>.
      For a list of interface types, see 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff565767">NDIS Interface Types</a>.
 
@@ -153,7 +143,7 @@ NDIS interface providers call the
 <b>NdisIfFreeNetLuidIndex</b> returns a previously allocated NET_LUID index to NDIS for possible
     reallocation to another interface. The caller must pass in the same interface type at 
     <i>IfType</i> that it used when it called the 
-    <a href="..\ndis\nf-ndis-ndisifallocatenetluidindex.md">
+    <a href="https://msdn.microsoft.com/bc62da04-242a-4d9a-8a85-2342a1b3e628">
     NdisIfAllocateNetLuidIndex</a> function to allocate the NET_LUID index.
 
 The provider should not use the freed NET_LUID index or the associated NET_LUID value in any other
@@ -165,16 +155,15 @@ The provider should not use the freed NET_LUID index or the associated NET_LUID 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568747">NET_LUID</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisifallocatenetluidindex.md">NdisIfAllocateNetLuidIndex</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562695">NdisIfAllocateNetLuidIndex</a>
  
 
  
-
 

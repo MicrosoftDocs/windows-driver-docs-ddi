@@ -7,7 +7,7 @@ old-location: kernel\rtlinitializecorrelationvector.htm
 old-project: kernel
 ms.assetid: ebf5ccbe-3325-4d3d-86c9-230776f2c9ef
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: RtlInitializeCorrelationVector, RtlInitializeCorrelationVector function [Kernel-Mode Driver Architecture], kernel.rtlinitializecorrelationvector, ntddk/RtlInitializeCorrelationVector
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	RtlInitializeCorrelationVector
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
@@ -55,18 +56,6 @@ req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
     the supplied GUID.
 
 
-## -syntax
-
-
-````
- NTSTATUS  RtlInitializeCorrelationVector(
-  _Inout_ PCORRELATION_VECTOR CorrelationVector,
-  _In_    int                 Version,
-  _In_    const GUID          Guid
-);
-````
-
-
 ## -parameters
 
 
@@ -74,7 +63,7 @@ req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 
 ### -param CorrelationVector [in, out]
 
-A pointer to a  <a href="..\ntddk\ns-ntddk-correlation_vector.md">CORRELATION_VECTOR</a> structure that represents the correlation vector to be initialized.
+A pointer to a  <a href="https://msdn.microsoft.com/35c1799f-2012-42b0-95e6-6902c818a094">CORRELATION_VECTOR</a> structure that represents the correlation vector to be initialized.
 
 
 ### -param Version [in]
@@ -135,12 +124,11 @@ The supplied GUID is null.
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-correlation_vector.md">CORRELATION_VECTOR</a>
 
 
 
+<a href="https://msdn.microsoft.com/35c1799f-2012-42b0-95e6-6902c818a094">CORRELATION_VECTOR</a>
  
 
  
-
 

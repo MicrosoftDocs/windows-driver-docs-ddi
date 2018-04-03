@@ -38,7 +38,8 @@ api_location:
 -	bthddi.h
 api_name:
 -	IsBluetoothVersionAvailable
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
 ---
@@ -52,20 +53,6 @@ req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
 The 
   <i>IsBluetoothVersionAvailable</i> function checks whether a given Bluetooth version is supported by the
   operating system.
-
-
-## -prototype
-
-
-````
-PFNBTH_IS_BLUETOOTH_VERSION_AVAILABLE IsBluetoothVersionAvailable;
-
-BOOLEAN IsBluetoothVersionAvailable(
-  _In_ UCHAR MajorVersion,
-  _In_ UCHAR MinorVersion
-)
-{ ... }
-````
 
 
 ## -parameters

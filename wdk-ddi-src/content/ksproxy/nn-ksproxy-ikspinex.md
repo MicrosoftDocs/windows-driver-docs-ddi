@@ -39,7 +39,8 @@ api_location:
 -	Ksproxy.dll
 api_name:
 -	IKsPinEx
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PIPE_STATE
 ---
@@ -57,7 +58,7 @@ The IID for this interface is IID_IKsPinEx.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKsPinEx</b> interface inherits from <a href="..\ksproxy\nn-ksproxy-ikspin.md">IKsPin</a>. <b>IKsPinEx</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKsPinEx</b> interface inherits from <a href="https://msdn.microsoft.com/library/windows/hardware/ff559896">IKsPin</a>. <b>IKsPinEx</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -86,23 +87,22 @@ Notifies the filter graph of an error to give the filter graph an opportunity to
 
 
 
-An interface handler (<a href="..\ksproxy\nn-ksproxy-iksinterfacehandler.md">IKsInterfaceHandler</a>) uses many of the <b>IKsPinEx</b> methods to route media samples of a particular media type. 
+An interface handler (<a href="https://msdn.microsoft.com/library/windows/hardware/ff559855">IKsInterfaceHandler</a>) uses many of the <b>IKsPinEx</b> methods to route media samples of a particular media type. 
 
 
 
 
 ## -see-also
 
-<a href="..\ksproxy\nn-ksproxy-iksinterfacehandler.md">IKsInterfaceHandler</a>
 
 
 
-<a href="..\ksproxy\nn-ksproxy-ikspin.md">IKsPin</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559855">IKsInterfaceHandler</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559896">IKsPin</a>
  
 
  
-
 

@@ -38,7 +38,8 @@ api_location:
 -	bthioctl.h
 api_name:
 -	BTH_SDP_DISCONNECT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BTH_SDP_DISCONNECT, *PBTH_SDP_DISCONNECT
 ---
@@ -51,17 +52,7 @@ req.typenames: BTH_SDP_DISCONNECT, *PBTH_SDP_DISCONNECT
 
 The BTH_SDP_DISCONNECT structure contains input information about a connection handle to the remote
   SDP connection to terminate. This structure is passed as the input buffer of 
-  <a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_disconnect.md">IOCTL_BTH_SDP_DISCONNECT</a>.
-
-
-## -syntax
-
-
-````
-typedef struct _BTH_SDP_DISCONNECT {
-  HANDLE_SDP hConnection;
-} BTH_SDP_DISCONNECT, *PBTH_SDP_DISCONNECT;
-````
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff536689">IOCTL_BTH_SDP_DISCONNECT</a>.
 
 
 ## -struct-fields
@@ -81,27 +72,26 @@ typedef struct _BTH_SDP_DISCONNECT {
 A handle for the SDP connection on the remote server to terminate. This should be a value returned
      in the 
      <b>hConnection</b> member of the 
-     <a href="..\bthioctl\ns-bthioctl-_bth_sdp_connect.md">BTH_SDP_CONNECT</a> structure of a previous call
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536648">BTH_SDP_CONNECT</a> structure of a previous call
      to 
-     <a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_connect.md">IOCTL_BTH_SDP_CONNECT</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536688">IOCTL_BTH_SDP_CONNECT</a>.
 
 
 ## -see-also
 
-<a href="..\bthioctl\ns-bthioctl-_bth_sdp_connect.md">BTH_SDP_CONNECT</a>
 
 
 
-<a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_connect.md">IOCTL_BTH_SDP_CONNECT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536648">BTH_SDP_CONNECT</a>
 
 
 
-<a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_disconnect.md">IOCTL_BTH_SDP_DISCONNECT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536688">IOCTL_BTH_SDP_CONNECT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536689">IOCTL_BTH_SDP_DISCONNECT</a>
  
 
  
-
 

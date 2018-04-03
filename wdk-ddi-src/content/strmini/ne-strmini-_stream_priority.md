@@ -38,7 +38,8 @@ api_location:
 -	Strmini.h
 api_name:
 -	STREAM_PRIORITY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STREAM_PRIORITY, *PSTREAM_PRIORITY
 req.product: Windows 10 or later.
@@ -51,20 +52,6 @@ req.product: Windows 10 or later.
 
 
 TD
-
-
-## -syntax
-
-
-````
-typedef enum _STREAM_PRIORITY { 
-  High,
-  Dispatch,
-  Low,
-  LowToHigh                   
-} STREAM_PRIORITY, *PSTREAM_PRIORITY
-;
-````
 
 
 ## -enum-fields

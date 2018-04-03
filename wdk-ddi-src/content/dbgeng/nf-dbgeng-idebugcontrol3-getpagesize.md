@@ -7,7 +7,7 @@ old-location: debugger\getpagesize.htm
 old-project: debugger
 ms.assetid: 26f11dfb-3fc3-4804-a294-2dfc674b4a73
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: GetPageSize method [Windows Debugging], GetPageSize method [Windows Debugging], IDebugControl interface, GetPageSize method [Windows Debugging], IDebugControl2 interface, GetPageSize method [Windows Debugging], IDebugControl3 interface, GetPageSize,IDebugControl3.GetPageSize, IDebugControl interface [Windows Debugging], GetPageSize method, IDebugControl2 interface [Windows Debugging], GetPageSize method, IDebugControl2::GetPageSize, IDebugControl3, IDebugControl3 interface [Windows Debugging], GetPageSize method, IDebugControl3::GetPageSize, IDebugControl::GetPageSize, IDebugControl_b38e4c0a-5992-4afe-b684-2eb65b3a0271.xml, dbgeng/IDebugControl2::GetPageSize, dbgeng/IDebugControl3::GetPageSize, dbgeng/IDebugControl::GetPageSize, debugger.getpagesize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,8 @@ api_name:
 -	IDebugControl.GetPageSize
 -	IDebugControl2.GetPageSize
 -	IDebugControl3.GetPageSize
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -52,16 +53,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetPageSize</b> method returns the page size for the effective processor mode.
-
-
-## -syntax
-
-
-````
-HRESULT GetPageSize(
-  [out] PULONG Size
-);
-````
 
 
 ## -parameters

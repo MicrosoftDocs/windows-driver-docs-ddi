@@ -41,7 +41,8 @@ api_location:
 -	WUDFx02000.dll.dll
 api_name:
 -	WdfGetDriver
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_DRIVER_INIT_FLAGS
 req.product: Windows 10 or later.
@@ -58,14 +59,6 @@ req.product: Windows 10 or later.
 The <b>WdfGetDriver</b> method returns a handle to the framework driver object that represents the calling driver.
 
 
-## -syntax
-
-
-````
-WDFDRIVER WdfGetDriver(void);
-````
-
-
 ## -parameters
 
 
@@ -77,19 +70,18 @@ WDFDRIVER WdfGetDriver(void);
 
 
 
-<b>WdfGetDriver</b> returns a handle to a framework driver object, or <b>NULL</b> if the driver has not called <a href="..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md">WdfDriverCreate</a>.
+<b>WdfGetDriver</b> returns a handle to a framework driver object, or <b>NULL</b> if the driver has not called <a href="https://msdn.microsoft.com/library/windows/hardware/ff547175">WdfDriverCreate</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md">WdfDriverCreate</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547175">WdfDriverCreate</a>
  
 
  
-
 

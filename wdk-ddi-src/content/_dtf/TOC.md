@@ -216,3 +216,8 @@
 ### [IWDTFSystemAction2::get_SleepWakeTimeInSeconds method](../wdtfsystemaction/nf-wdtfsystemaction-iwdtfsystemaction2-get_sleepwaketimeinseconds.md)
 ### [IWDTFSystemAction2::put_Critical method](../wdtfsystemaction/nf-wdtfsystemaction-iwdtfsystemaction2-put_critical.md)
 ### [IWDTFSystemAction2::put_SleepWakeTimeInSeconds method](../wdtfsystemaction/nf-wdtfsystemaction-iwdtfsystemaction2-put_sleepwaketimeinseconds.md)
+## [Wexlogtrace.h](../wexlogtrace/index.md)
+### [operator= function](../wexlogtrace/nf-wexlogtrace-operator=.md)
+## [Wextestclass.h](../wextestclass/index.md)
+### [operator= function](../wextestclass/nf-wextestclass-fixtureinvokefunctor-operator=.md)
+### [operator= function](../wextestclass/nf-wextestclass-testinvokefunctor-operator=.md)

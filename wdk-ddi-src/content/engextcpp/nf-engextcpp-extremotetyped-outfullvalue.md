@@ -7,7 +7,7 @@ old-location: debugger\extremotetyped_outfullvalue.htm
 old-project: debugger
 ms.assetid: 8f5b3e8b-1b01-4a14-b472-cb5de82e869a
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: EngExtCpp_Ref_30c4c99e-e68e-4f44-b72c-fa67cdcac0fd.xml, ExtRemoteTyped, ExtRemoteTyped interface [Windows Debugging], OutFullValue method, ExtRemoteTyped::OutFullValue, OutFullValue method [Windows Debugging], OutFullValue method [Windows Debugging], ExtRemoteTyped interface, OutFullValue,ExtRemoteTyped.OutFullValue, debugger.extremotetyped_outfullvalue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	engextcpp.hpp
 api_name:
 -	ExtRemoteTyped.OutFullValue
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 ---
@@ -50,14 +51,6 @@ req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 
 
 The <b>OutFullValue</b> method prints the type and value of the typed data represented by this object.
-
-
-## -syntax
-
-
-````
-void OutFullValue();
-````
 
 
 ## -parameters
@@ -89,16 +82,15 @@ The type and value information is sent to the debugger engine's output callbacks
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544162">ExtRemoteTyped</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544369">ExtRemoteTyped::OutSimpleValue</a>
-
-
-
-<a href="..\engextcpp\nl-engextcpp-extremotetyped.md">ExtRemoteTyped</a>
-
-
-
  
 
  
-
 

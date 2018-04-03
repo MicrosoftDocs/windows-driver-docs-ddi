@@ -7,7 +7,7 @@ old-location: display\d3d12ddi_swizzle_pattern_desc_0022.htm
 old-project: display
 ms.assetid: A52C8293-C037-4062-9A63-AD69237F7B3D
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3D12DDI_SWIZZLE_PATTERN_DESC_0022, D3D12DDI_SWIZZLE_PATTERN_DESC_0022 structure [Display Devices], d3d12umddi/D3D12DDI_SWIZZLE_PATTERN_DESC_0022, display.d3d12ddi_swizzle_pattern_desc_0022
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3d12umddi.h
 api_name:
 -	D3D12DDI_SWIZZLE_PATTERN_DESC_0022
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D12DDI_SWIZZLE_PATTERN_DESC_0022
 ---
@@ -50,24 +51,6 @@ req.typenames: D3D12DDI_SWIZZLE_PATTERN_DESC_0022
 
 
 Describes a swizzle pattern. 
-
-
-## -syntax
-
-
-````
-typedef struct D3D12DDI_SWIZZLE_PATTERN_DESC_0022 {
-  D3D12DDI_SWIZZLE_BIT_ENTRY InterleavePatternSourceBits[32];
-  D3D12DDI_SWIZZLE_BIT_ENTRY InterleavePatternXORSourceBits[32];
-  D3D12DDI_SWIZZLE_BIT_ENTRY InterleavePatternXOR2SourceBits[32];
-  D3D12DDI_SWIZZLE_BIT_ENTRY InterleavePatternXOR3SourceBits[32];
-  D3D12DDI_SWIZZLE_BIT_ENTRY InterleavePatternXOR4SourceBits[32];
-  D3D12DDI_SWIZZLE_BIT_ENTRY PostambleXORSourceBits[32];
-  D3D12DDI_SWIZZLE_BIT_ENTRY PostambleXOR2SourceBits[32];
-  UINT                       PostambleXORImmediate;
-  UINT                       Flags;
-} D3D12DDI_SWIZZLE_PATTERN_DESC_0022;
-````
 
 
 ## -struct-fields

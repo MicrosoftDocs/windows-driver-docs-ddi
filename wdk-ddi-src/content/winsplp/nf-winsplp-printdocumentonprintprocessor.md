@@ -39,7 +39,8 @@ api_location:
 -	Nwprint.dll
 api_name:
 -	PrintDocumentOnPrintProcessor
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NOTIFICATION_CONFIG_FLAGS
 req.product: Windows 10 or later.
@@ -54,17 +55,6 @@ req.product: Windows 10 or later.
 A print processor's <code>PrintDocumentOnPrintProcessor</code> function converts a print job from a spooled format into raw data that can be sent to a print monitor.
 
 
-## -syntax
-
-
-````
-BOOL PrintDocumentOnPrintProcessor(
-  _In_ HANDLE hPrintProcessor,
-  _In_ LPWSTR pDocumentName
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +62,7 @@ BOOL PrintDocumentOnPrintProcessor(
 
 ### -param hPrintProcessor [in]
 
-Caller-supplied print processor handle. This is the handle returned by a previous call to <a href="..\winsplp\nf-winsplp-openprintprocessor.md">OpenPrintProcessor</a>.
+Caller-supplied print processor handle. This is the handle returned by a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff559604">OpenPrintProcessor</a>.
 
 
 ### -param pDocumentName [in]
@@ -93,29 +83,28 @@ If the operation succeeds, the function should return <b>TRUE</b>. If the operat
 
 
 
-Print processors are required to export a <code>PrintDocumentOnPrintProcessor</code> function. The spooler calls the function after calling <a href="..\winsplp\nf-winsplp-openprintprocessor.md">OpenPrintProcessor</a>. The function's purpose is to read the contents of the file named by <i>pDocumentName</i>, convert (if necessary) the file's data to a data stream that can be read by printer hardware, and to send the data stream back to the spooler. The spooler can then send the data stream to the appropriate <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">print monitor</a>.
+Print processors are required to export a <code>PrintDocumentOnPrintProcessor</code> function. The spooler calls the function after calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff559604">OpenPrintProcessor</a>. The function's purpose is to read the contents of the file named by <i>pDocumentName</i>, convert (if necessary) the file's data to a data stream that can be read by printer hardware, and to send the data stream back to the spooler. The spooler can then send the data stream to the appropriate <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">print monitor</a>.
 
 If the input format is NT-based operating system EMF, the <code>PrintDocumentOnPrintProcessor</code> function can call <a href="https://msdn.microsoft.com/library/windows/hardware/ff549548">GDI functions for print processors</a>. For more information, see <a href="https://msdn.microsoft.com/c5e291d9-069c-4877-a167-862ba5794368">Processing a Print Job</a>.
 
 The converted data stream must be sent back to the spooler by calling <b>WritePrinter</b>, which is described in the Microsoft Windows SDK documentation. For more information, see <a href="https://msdn.microsoft.com/c5e291d9-069c-4877-a167-862ba5794368">Processing a Print Job</a>.
 
-The <code>PrintDocumentOnPrintProcessor</code> function must be written to handle requests to pause, resume, or cancel the print job. For more information, see <a href="..\winsplp\nf-winsplp-controlprintprocessor.md">ControlPrintProcessor</a>.
+The <code>PrintDocumentOnPrintProcessor</code> function must be written to handle requests to pause, resume, or cancel the print job. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff546352">ControlPrintProcessor</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\winsplp\nf-winsplp-controlprintprocessor.md">ControlPrintProcessor</a>
 
 
 
-<a href="..\winsplp\nf-winsplp-openprintprocessor.md">OpenPrintProcessor</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546352">ControlPrintProcessor</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559604">OpenPrintProcessor</a>
  
 
  
-
 

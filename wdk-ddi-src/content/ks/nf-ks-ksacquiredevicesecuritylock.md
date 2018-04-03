@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsAcquireDeviceSecurityLock
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,17 +52,6 @@ req.typenames:
 
 
 The <b>KsAcquireDeviceSecurityLock</b> function acquires the security lock associated with a device object. An exclusive lock is acquired when changing a security descriptor. When manipulating the security of any object under a particular device object, this lock must be acquired.
-
-
-## -syntax
-
-
-````
-VOID KsAcquireDeviceSecurityLock(
-  _In_ KSDEVICE_HEADER Header,
-  _In_ BOOLEAN         Exclusive
-);
-````
 
 
 ## -parameters
@@ -99,12 +89,11 @@ A shared lock is acquired when validating access during a create. An exclusive l
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksallocatedeviceheader.md">KsAllocateDeviceHeader</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560958">KsAllocateDeviceHeader</a>
  
 
  
-
 

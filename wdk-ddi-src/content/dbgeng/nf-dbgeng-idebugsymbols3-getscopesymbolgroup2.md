@@ -7,7 +7,7 @@ old-location: debugger\getscopesymbolgroup2.htm
 old-project: debugger
 ms.assetid: 2bc0cd81-db9b-4646-838b-0e66c0667202
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: GetScopeSymbolGroup2 method [Windows Debugging], GetScopeSymbolGroup2 method [Windows Debugging], IDebugSymbols3 interface, GetScopeSymbolGroup2,IDebugSymbols3.GetScopeSymbolGroup2, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetScopeSymbolGroup2 method, IDebugSymbols3::GetScopeSymbolGroup2, dbgeng/IDebugSymbols3::GetScopeSymbolGroup2, debugger.getscopesymbolgroup2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugSymbols3.GetScopeSymbolGroup2
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -50,18 +51,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetScopeSymbolGroup2</b>  method returns a symbol group containing the symbols in the current target's scope.
-
-
-## -syntax
-
-
-````
-HRESULT GetScopeSymbolGroup2(
-  [in]           ULONG                Flags,
-  [in, optional] PDEBUG_SYMBOL_GROUP2 Update,
-  [out]          PDEBUG_SYMBOL_GROUP2 *Symbols
-);
-````
 
 
 ## -parameters
@@ -109,7 +98,7 @@ Specifies a previously created symbol group that will be updated to reflect the 
 
 ### -param Symbols [out]
 
-Receives the symbol group interface object for the current scope.  For details on this interface, see <a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup.md">IDebugSymbolGroup</a>
+Receives the symbol group interface object for the current scope.  For details on this interface, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff550838">IDebugSymbolGroup</a>
 
 
 
@@ -154,11 +143,6 @@ For more information about scopes and symbol groups, see <a href="https://msdn.m
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup.md">IDebugSymbolGroup</a>
 
 
 
@@ -166,8 +150,12 @@ For more information about scopes and symbol groups, see <a href="https://msdn.m
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550838">IDebugSymbolGroup</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550870">IDebugSymbols3</a>
  
 
  
-
 

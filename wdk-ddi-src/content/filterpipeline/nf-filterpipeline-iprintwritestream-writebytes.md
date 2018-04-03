@@ -38,7 +38,8 @@ api_location:
 -	filterpipeline.h
 api_name:
 -	IPrintWriteStream.WriteBytes
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
@@ -50,18 +51,6 @@ req.typenames: EXpsFontRestriction
 
 
 The <code>WriteBytes</code> method writes a specified number of bytes to a stream.
-
-
-## -syntax
-
-
-````
-HRESULT WriteBytes(
-  [in]  void  pvBuffer,
-  [in]  ULONG cbBuffer,
-  [out] ULONG *pcbWritten
-);
-````
 
 
 ## -parameters

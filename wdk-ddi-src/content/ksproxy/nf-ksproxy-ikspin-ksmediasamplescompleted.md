@@ -38,7 +38,8 @@ api_location:
 -	ksproxy.h
 api_name:
 -	IKsPin.KsMediaSamplesCompleted
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PIPE_STATE
 ---
@@ -52,16 +53,6 @@ req.typenames: PIPE_STATE
 The <b>KsMediaSamplesCompleted</b> method informs a pin that a stream segment completed. 
 
 
-## -syntax
-
-
-````
-HRESULT KsMediaSamplesCompleted(
-  [in] PKSSTREAM_SEGMENT StreamSegment
-);
-````
-
-
 ## -parameters
 
 
@@ -69,7 +60,7 @@ HRESULT KsMediaSamplesCompleted(
 
 ### -param StreamSegment [in]
 
-Pointer to a <a href="..\ksproxy\ns-ksproxy-_ksstream_segment.md">KSSTREAM_SEGMENT</a> structure that contains header information for a completed stream segment. 
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff567141">KSSTREAM_SEGMENT</a> structure that contains header information for a completed stream segment. 
 
 
 ## -returns
@@ -94,7 +85,10 @@ When a client calls the <a href="https://msdn.microsoft.com/library/windows/hard
 
 ## -see-also
 
-<a href="..\ksproxy\nn-ksproxy-iksinterfacehandler.md">IKsInterfaceHandler</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559855">IKsInterfaceHandler</a>
 
 
 
@@ -102,12 +96,8 @@ When a client calls the <a href="https://msdn.microsoft.com/library/windows/hard
 
 
 
-<a href="..\ksproxy\ns-ksproxy-_ksstream_segment.md">KSSTREAM_SEGMENT</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567141">KSSTREAM_SEGMENT</a>
  
 
  
-
 

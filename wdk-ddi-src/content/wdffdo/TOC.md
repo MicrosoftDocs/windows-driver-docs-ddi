@@ -1,5 +1,6 @@
 # [Windows Driver Framework](../_wdf/index.md)
 ## [Wdffdo.h](index.md)
+### [EVT_WDF_DEVICE_FILTER_RESOURCE_REQUIREMENTS callback](../wdffdo/nc-wdffdo-evt_wdf_device_filter_resource_requirements.md)
 ### [EVT_WDF_DEVICE_REMOVE_ADDED_RESOURCES callback](../wdffdo/nc-wdffdo-evt_wdf_device_remove_added_resources.md)
 ### [WdfFdoAddStaticChild function](../wdffdo/nf-wdffdo-wdffdoaddstaticchild.md)
 ### [WdfFdoGetDefaultChildList function](../wdffdo/nf-wdffdo-wdffdogetdefaultchildlist.md)

@@ -38,7 +38,8 @@ api_location:
 -	printoem.h
 api_name:
 -	OEMEnableDriver
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STDVARIABLEINDEX
 req.product: Windows 10 or later.
@@ -50,18 +51,6 @@ req.product: Windows 10 or later.
 ## -description
 
 
-
-
-## -syntax
-
-
-````
-DWORD APIENTRY OEMEnableDriver(
-        DWORD                                 dwOemIntfVersion,
-        DWORD                                 cbSize,
-  _Out_ _writes_bytes_(cbSize) PDRVENABLEDATA pded
-);
-````
 
 
 ## -parameters

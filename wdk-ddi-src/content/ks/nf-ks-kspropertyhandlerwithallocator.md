@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KsPropertyHandlerWithAllocator
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -49,21 +50,7 @@ req.typenames:
 ## -description
 
 
-The <b>KsPropertyHandlerWithAllocator </b>performs the same handling as <a href="..\ks\nf-ks-kspropertyhandler.md">KsPropertyHandler</a>, with the same restrictions, but allows an optional allocator callback to be used to provide a buffer for the parameters. If used, the filter may need to free the buffer in some nonconventional manner. IRP_BUFFERED_IO and IRP_DEALLOCATE_BUFFER flags are not set when using a custom allocator.
-
-
-## -syntax
-
-
-````
-NTSTATUS KsPropertyHandlerWithAllocator(
-  _In_           PIRP           Irp,
-  _In_           ULONG          PropertySetsCount,
-  _In_     const KSPROPERTY_SET *PropertySet,
-  _In_opt_       PFNKSALLOCATOR Allocator,
-  _In_opt_       ULONG          PropertyItemSize
-);
-````
+The <b>KsPropertyHandlerWithAllocator </b>performs the same handling as <a href="https://msdn.microsoft.com/library/windows/hardware/ff564263">KsPropertyHandler</a>, with the same restrictions, but allows an optional allocator callback to be used to provide a buffer for the parameters. If used, the filter may need to free the buffer in some nonconventional manner. IRP_BUFFERED_IO and IRP_DEALLOCATE_BUFFER flags are not set when using a custom allocator.
 
 
 ## -parameters
@@ -127,16 +114,15 @@ On 64-bit platforms, if the <i>PropertyItemSize</i> parameter is not a multiple 
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kspropertyhandler.md">KsPropertyHandler</a>
 
 
 
-<a href="..\ks\nf-ks-ksfastpropertyhandler.md">KsFastPropertyHandler</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561946">KsFastPropertyHandler</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564263">KsPropertyHandler</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: buses\ioctl_internal_usb_reset_port.htm
 old-project: usbref
 ms.assetid: 0ba0abfe-a32d-4650-ad08-f40d0b14f9a5
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_INTERNAL_USB_RESET_PORT, IOCTL_INTERNAL_USB_RESET_PORT control code [Buses], buses.ioctl_internal_usb_reset_port, usbioctl/IOCTL_INTERNAL_USB_RESET_PORT, usbirp_d96d4c35-d399-444e-905b-c59360a01754.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Usbioctl.h
 api_name:
 -	IOCTL_INTERNAL_USB_RESET_PORT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USB_HUB_TYPE
 req.product: Windows 10 or later.
@@ -55,7 +56,7 @@ The <b>IOCTL_INTERNAL_USB_RESET_PORT</b>  I/O control request is used by a drive
 
 Drivers should cancel all I/O requests and wait for them to complete before initiating this operation. 
 
-A driver that manages an individual interface on a composite device cannot reset the interface without resetting the entire composite device and all of its interfaces. For this reason, drivers that manage interfaces should attempt other types of error recovery, such as resetting pipes (<a href="..\usb\ns-usb-_urb_pipe_request.md">_URB_PIPE_REQUEST</a>), before resetting the interface. 
+A driver that manages an individual interface on a composite device cannot reset the interface without resetting the entire composite device and all of its interfaces. For this reason, drivers that manage interfaces should attempt other types of error recovery, such as resetting pipes (<a href="https://msdn.microsoft.com/library/windows/hardware/ff540419">_URB_PIPE_REQUEST</a>), before resetting the interface. 
 
 This IOCTL must be sent at an IRQL of PASSIVE_LEVEL.
 
@@ -114,12 +115,11 @@ The bus or port driver sets <b>Irp-&gt;IoStatus.Status</b> to STATUS_SUCCESS or 
 
 ## -see-also
 
-<a href="..\usb\ns-usb-_urb_pipe_request.md">_URB_PIPE_REQUEST</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540419">_URB_PIPE_REQUEST</a>
  
 
  
-
 

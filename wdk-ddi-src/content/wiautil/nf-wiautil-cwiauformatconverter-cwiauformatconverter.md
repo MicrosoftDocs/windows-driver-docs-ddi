@@ -38,7 +38,8 @@ api_location:
 -	Wiautil.h
 api_name:
 -	CWiauFormatConverter.CWiauFormatConverter
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SKIP_AMOUNT
 req.product: Windows 10 or later.
@@ -51,14 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>CWiauFormatConverter::CWiauFormatConverter</b> method is the constructor for the <b>CWiauFormatConverter</b> class.
-
-
-## -syntax
-
-
-````
-void CWiauFormatConverter();
-````
 
 
 ## -parameters
@@ -79,16 +72,15 @@ This method does not return a value.
 
 ## -see-also
 
-<a href="..\wiautil\nl-wiautil-cwiauformatconverter.md">CWiauFormatConverter</a>
+
+
+
+<a href="https://msdn.microsoft.com/b30c3336-ddc6-459d-97c4-244ca0b50cfc">CWiauFormatConverter</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540385">CWiauFormatConverter::~CWiauFormatConverter</a>
-
-
-
  
 
  
-
 

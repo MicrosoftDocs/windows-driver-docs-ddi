@@ -7,7 +7,7 @@ old-location: display\d3d11_ddi_shader_min_precision.htm
 old-project: display
 ms.assetid: cf77d6c7-8f42-470a-9e3a-85d95398470b
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3D11_DDI_SHADER_MIN_PRECISION, D3D11_DDI_SHADER_MIN_PRECISION enumeration [Display Devices], D3D11_DDI_SHADER_MIN_PRECISION_10_BIT, D3D11_DDI_SHADER_MIN_PRECISION_16_BIT, d3d10umddi/D3D11_DDI_SHADER_MIN_PRECISION, d3d10umddi/D3D11_DDI_SHADER_MIN_PRECISION_10_BIT, d3d10umddi/D3D11_DDI_SHADER_MIN_PRECISION_16_BIT, display.d3d11_ddi_shader_min_precision
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3d10umddi.h
 api_name:
 -	D3D11_DDI_SHADER_MIN_PRECISION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D11_DDI_SHADER_MIN_PRECISION
 ---
@@ -50,17 +51,6 @@ req.typenames: D3D11_DDI_SHADER_MIN_PRECISION
 
 
 Specifies minimum precision levels that the user-mode driver supports in shaders.
-
-
-## -syntax
-
-
-````
-typedef enum D3D11_DDI_SHADER_MIN_PRECISION { 
-  D3D11_DDI_SHADER_MIN_PRECISION_10_BIT  = 0x1,
-  D3D11_DDI_SHADER_MIN_PRECISION_16_BIT  = 0x2
-} D3D11_DDI_SHADER_MIN_PRECISION;
-````
 
 
 ## -enum-fields

@@ -7,7 +7,7 @@ old-location: storage\ioctl_ehstor_driver_update_lba_filter_table.htm
 old-project: storage
 ms.assetid: 295EE3CC-4244-4411-9684-7C5D38B10EA9
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_EHSTOR_DRIVER_UPDATE_LBA_FILTER_TABLE, IOCTL_EHSTOR_DRIVER_UPDATE_LBA_FILTER_TABLE control code [Storage Devices], ehstorioctl/IOCTL_EHSTOR_DRIVER_UPDATE_LBA_FILTER_TABLE, storage.ioctl_ehstor_driver_update_lba_filter_table
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	EhStorIoctl.h
 api_name:
 -	IOCTL_EHSTOR_DRIVER_UPDATE_LBA_FILTER_TABLE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PDO_TYPE
 ---
@@ -59,7 +60,7 @@ This IOCTL is used to inform the enhanced storage (EHSTOR) class driver of chang
 
 ### -input-buffer
 
-The input buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> must contain a structure of type <a href="..\ehstorioctl\ns-ehstorioctl-_lba_filter_table.md">LBA_FILTER_TABLE</a>. This structure contains the filter table and the total entries it contains. An array <a href="..\ehstorioctl\ns-ehstorioctl-_lba_filter_table_entry.md">LBA_FILTER_TABLE_ENTRY</a> structure follows <b>LBA_FILTER_TABLE</b>.
+The input buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> must contain a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/hh463957">LBA_FILTER_TABLE</a>. This structure contains the filter table and the total entries it contains. An array <a href="https://msdn.microsoft.com/library/windows/hardware/hh463962">LBA_FILTER_TABLE_ENTRY</a> structure follows <b>LBA_FILTER_TABLE</b>.
 
 
 ### -input-buffer-length
@@ -142,16 +143,15 @@ If an LBA range is being unlocked, an <b>IOCTL_EHSTOR_DRIVER_UPDATE_LBA_FILTER_T
 
 ## -see-also
 
-<a href="..\ehstorioctl\ns-ehstorioctl-_lba_filter_table.md">LBA_FILTER_TABLE</a>
 
 
 
-<a href="..\ehstorioctl\ns-ehstorioctl-_lba_filter_table_entry.md">LBA_FILTER_TABLE_ENTRY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh463957">LBA_FILTER_TABLE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh463962">LBA_FILTER_TABLE_ENTRY</a>
  
 
  
-
 

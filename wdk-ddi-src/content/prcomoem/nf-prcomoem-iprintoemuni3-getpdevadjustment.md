@@ -38,7 +38,8 @@ api_location:
 -	prcomoem.h
 api_name:
 -	IPrintOemUni3.GetPDEVAdjustment
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
@@ -53,20 +54,6 @@ req.product: Windows 10 or later.
 The <code>IPrintOemUni3::GetPDEVAdjustment</code> method enables a plug-in to override specific <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">PDEV</a> settings.
 
 
-## -syntax
-
-
-````
-HRESULT GetPDEVAdjustment(
-        PDEVOBJ pdevobj,
-        DWORD   dwAdjustType,
-        PVOID   pBuf,
-        DWORD   cbBuffer,
-  [out] BOOL    *pbAdjustmentDone
-);
-````
-
-
 ## -parameters
 
 
@@ -74,7 +61,7 @@ HRESULT GetPDEVAdjustment(
 
 ### -param pdevobj
 
-Pointer to a <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a> structure.
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547573">DEVOBJ</a> structure.
 
 
 ### -param dwAdjustType
@@ -92,7 +79,7 @@ PDEV_ADJUST_GRAPHICS_RESOLUTION_TYPE
 
 </td>
 <td>
-Adjust the graphics resolution setting that is reported in the PDEV structure. For more information, see the <a href="..\printoem\ns-printoem-_pdev_adjust_graphics_resolution.md">PDEV_ADJUST_GRAPHICS RESOLUTION</a> structure.
+Adjust the graphics resolution setting that is reported in the PDEV structure. For more information, see the <a href="https://msdn.microsoft.com/d6cebb0d-87ca-4e40-8a87-9579a1026567">PDEV_ADJUST_GRAPHICS RESOLUTION</a> structure.
 
 </td>
 </tr>
@@ -102,7 +89,7 @@ PDEV_IMAGEABLE_ORIGIN_AREA_TYPE
 
 </td>
 <td>
-Adjust the imageable origin area that is reported in the PDEV structure. For more information, see the <a href="..\printoem\ns-printoem-_pdev_adjust_imageable_origin_area.md">PDEV_ADJUST_IMAGEABLE_ORIGIN_AREA</a> structure.
+Adjust the imageable origin area that is reported in the PDEV structure. For more information, see the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559787">PDEV_ADJUST_IMAGEABLE_ORIGIN_AREA</a> structure.
 
 </td>
 </tr>
@@ -157,19 +144,22 @@ Currently, the Unidrv driver calls <code>IPrintOemUni3::GetPDEVAdjustment</code>
 
 ## -see-also
 
-<a href="..\printoem\ns-printoem-_pdev_adjust_paper_margin.md">PDEV_ADJUST_PAPER_MARGIN</a>
 
 
 
-<a href="..\printoem\ns-printoem-_pdev_hostfont_enabled.md">PDEV_HOSTFONT_ENABLED</a>
+<a href="https://msdn.microsoft.com/cf5705fb-8420-4eec-99d4-d56f192da581">IPrintOemUni3</a>
 
 
 
-<a href="..\printoem\ns-printoem-_pdev_use_true_color.md">PDEV_USE_TRUE_COLOR</a>
+<a href="https://msdn.microsoft.com/d6cebb0d-87ca-4e40-8a87-9579a1026567">PDEV_ADJUST_GRAPHICS RESOLUTION</a>
 
 
 
-<a href="..\prcomoem\nn-prcomoem-iprintoemuni3.md">IPrintOemUni3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559787">PDEV_ADJUST_IMAGEABLE_ORIGIN_AREA</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559791">PDEV_ADJUST_PAPER_MARGIN</a>
 
 
 
@@ -177,16 +167,12 @@ Currently, the Unidrv driver calls <code>IPrintOemUni3::GetPDEVAdjustment</code>
 
 
 
-<a href="..\printoem\ns-printoem-_pdev_adjust_imageable_origin_area.md">PDEV_ADJUST_IMAGEABLE_ORIGIN_AREA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559803">PDEV_HOSTFONT_ENABLED</a>
 
 
 
-<a href="..\printoem\ns-printoem-_pdev_adjust_graphics_resolution.md">PDEV_ADJUST_GRAPHICS RESOLUTION</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559806">PDEV_USE_TRUE_COLOR</a>
  
 
  
-
 

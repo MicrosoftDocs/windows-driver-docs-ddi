@@ -38,7 +38,8 @@ api_location:
 -	Hwnclx.h
 api_name:
 -	*PHWN_CLIENT_GET_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: HPMI_QUERY_CAPABILITIES_RESPONSE, *PHPMI_QUERY_CAPABILITIES_RESPONSE
 ---
@@ -149,11 +150,11 @@ If <i>OutputBuffer</i> is not large enough to contain all of the settings reques
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/405ff6db-9bc0-42f3-a740-49dd3967a8b3">Hardware notifications reference</a>
-
-
-
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/dn789335">Hardware notifications support</a>
+
+
+
+<a href="https://msdn.microsoft.com/405ff6db-9bc0-42f3-a740-49dd3967a8b3">Hardware notifications reference</a>
 
 
 

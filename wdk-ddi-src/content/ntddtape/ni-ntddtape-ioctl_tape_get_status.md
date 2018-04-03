@@ -7,7 +7,7 @@ old-location: storage\ioctl_tape_get_status.htm
 old-project: storage
 ms.assetid: d5e491b8-d40c-4f2c-9117-5c3cb71913f7
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_TAPE_GET_STATUS, IOCTL_TAPE_GET_STATUS control code [Storage Devices], k307_8ab90364-adac-4937-9036-aa28ddeffb19.xml, ntddtape/IOCTL_TAPE_GET_STATUS, storage.ioctl_tape_get_status
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ntddtape.h
 api_name:
 -	IOCTL_TAPE_GET_STATUS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TAPE_DRIVE_PROBLEM_TYPE
 ---
@@ -216,17 +217,16 @@ STATUS_CLEANER_CARTRIDGE_INSTALLED
 
 </li>
 </ul>
-Each of these NT status values correspond to a value in the <a href="..\minitape\ne-minitape-_tape_status.md">TAPE_STATUS</a> enumerator. For more information about the significance of these values and a mapping between the NT status values and the TAPE_STATUS values, see <a href="https://msdn.microsoft.com/de6edfc6-9b4b-4866-8fdb-1047b43163de">Processing Tape Device Control Requests</a>.
+Each of these NT status values correspond to a value in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567975">TAPE_STATUS</a> enumerator. For more information about the significance of these values and a mapping between the NT status values and the TAPE_STATUS values, see <a href="https://msdn.microsoft.com/de6edfc6-9b4b-4866-8fdb-1047b43163de">Processing Tape Device Control Requests</a>.
 
 
 ## -see-also
 
-<a href="..\minitape\ne-minitape-_tape_status.md">TAPE_STATUS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567975">TAPE_STATUS</a>
  
 
  
-
 

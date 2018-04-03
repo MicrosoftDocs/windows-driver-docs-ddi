@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSPROPERTY_DESCRIPTION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSPROPERTY_DESCRIPTION, *PKSPROPERTY_DESCRIPTION
 ---
@@ -50,20 +51,6 @@ req.typenames: KSPROPERTY_DESCRIPTION, *PKSPROPERTY_DESCRIPTION
 
 
 The KSPROPERTY_DESCRIPTION structure specifies the size and type of values contained in a specific property.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  ULONG        AccessFlags;
-  ULONG        DescriptionSize;
-  KSIDENTIFIER PropTypeSet;
-  ULONG        MembersListCount;
-  ULONG        Reserved;
-} KSPROPERTY_DESCRIPTION, *PKSPROPERTY_DESCRIPTION;
-````
 
 
 ## -struct-fields
@@ -83,12 +70,12 @@ Specifies total size in bytes of the KSPROPERTY_DESCRIPTION structure and any va
 
 ### -field PropTypeSet
 
-A structure of type <a href="..\ks\ns-ks-ksidentifier.md">KSIDENTIFIER</a>. If supported by the specific property, specifies the type of values contained in this property. This group is uniquely specified by a GUID, such that new types of values may be created without overlapping with extensions to this set. The value types indicate the type of the value (like VT_BOOL, VT_UI4 in the standard set). This is GUID_NULL, with an identifier of zero, if values information is not supported by this property.
+A structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff562676">KSIDENTIFIER</a>. If supported by the specific property, specifies the type of values contained in this property. This group is uniquely specified by a GUID, such that new types of values may be created without overlapping with extensions to this set. The value types indicate the type of the value (like VT_BOOL, VT_UI4 in the standard set). This is GUID_NULL, with an identifier of zero, if values information is not supported by this property.
 
 
 ### -field MembersListCount
 
-Specifies the number of <a href="..\ks\ns-ks-ksproperty_membersheader.md">KSPROPERTY_MEMBERSHEADER</a> structures to follow this header.
+Specifies the number of <a href="https://msdn.microsoft.com/library/windows/hardware/ff565189">KSPROPERTY_MEMBERSHEADER</a> structures to follow this header.
 
 
 ### -field Reserved
@@ -104,7 +91,7 @@ A driver returns the <b>KSPROPERTY_DESCRIPTION</b> structure in response to a ba
 
 The property values type set is specified by a KSIDENTIFIER structure. The basic set supported is <a href="https://msdn.microsoft.com/library/windows/hardware/ff566576">KSPROPSETID_General</a>. The identifiers within that set are the standard VARENUM types used for OLE.
 
-The values information that may follow the KSPROPERTY_DESCRIPTION structure is described by a list of <a href="..\ks\ns-ks-ksproperty_memberslist.md">KSPROPERTY_MEMBERSLIST</a> structures, each of which contains data range information.
+The values information that may follow the KSPROPERTY_DESCRIPTION structure is described by a list of <a href="https://msdn.microsoft.com/library/windows/hardware/ff565190">KSPROPERTY_MEMBERSLIST</a> structures, each of which contains data range information.
 
 For more information, see <a href="https://msdn.microsoft.com/a385929e-1934-4d88-aaf9-ff1ddbfd30f7">KS Properties</a>.
 
@@ -113,24 +100,23 @@ For more information, see <a href="https://msdn.microsoft.com/a385929e-1934-4d88
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksproperty_item.md">KSPROPERTY_ITEM</a>
 
 
 
-<a href="..\ks\ns-ks-ksidentifier.md">KSIDENTIFIER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562676">KSIDENTIFIER</a>
 
 
 
-<a href="..\ks\ns-ks-ksproperty_values.md">KSPROPERTY_VALUES</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565176">KSPROPERTY_ITEM</a>
 
 
 
-<a href="..\ks\ns-ks-ksproperty_membersheader.md">KSPROPERTY_MEMBERSHEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565189">KSPROPERTY_MEMBERSHEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565966">KSPROPERTY_VALUES</a>
  
 
  
-
 

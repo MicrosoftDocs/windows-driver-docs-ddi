@@ -7,7 +7,7 @@ old-location: buses\ucmconnectorchargingstatechanged.htm
 old-project: usbref
 ms.assetid: A645BFE0-4B7F-416F-9096-596ADAA37951
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: UcmConnectorChargingStateChanged, UcmConnectorChargingStateChanged method [Buses], buses.ucmconnectorchargingstatechanged, ucmmanager/UcmConnectorChargingStateChanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	UcmCxstub.dll
 api_name:
 -	UcmConnectorChargingStateChanged
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PORT_DATA_1, *PPORT_DATA_1
 req.product: Windows 10 or later.
@@ -54,17 +55,6 @@ req.product: Windows 10 or later.
 Notifies the USB connector manager framework extension (UcmCx) with the updated charging state of the partner connector.
 
 
-## -syntax
-
-
-````
-NTSTATUS UcmConnectorChargingStateChanged(
-  [in] UCMCONNECTOR        Connector,
-  [in] UCM_CHARGING_STATE  ChargingState
-);
-````
-
-
 ## -parameters
 
 
@@ -72,12 +62,12 @@ NTSTATUS UcmConnectorChargingStateChanged(
 
 ### -param Connector [in]
 
-Handle to the connector object that the client driver received in the previous call to <a href="..\ucmmanager\nf-ucmmanager-ucmconnectorcreate.md">UcmConnectorCreate</a>.
+Handle to the connector object that the client driver received in the previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/mt187909">UcmConnectorCreate</a>.
 
 
 ### -param ChargingState [in]
 
-One of the <a href="..\ucmtypes\ne-ucmtypes-_ucm_charging_state.md">UCM_CHARGING_STATE</a>-typed flags that indicates the new charging state. 
+One of the <a href="https://msdn.microsoft.com/library/windows/hardware/mt187921">UCM_CHARGING_STATE</a>-typed flags that indicates the new charging state. 
 
 
 ## -returns
@@ -100,12 +90,11 @@ If the client driver determines that the charging state is non-optimal, it shoul
 
 ## -see-also
 
-<a href="..\ucmmanager\nf-ucmmanager-ucmconnectorcreate.md">UcmConnectorCreate</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt187909">UcmConnectorCreate</a>
  
 
  
-
 

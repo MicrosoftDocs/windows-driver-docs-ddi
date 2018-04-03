@@ -38,7 +38,8 @@ api_location:
 -	wiamindr_lh.h
 api_name:
 -	IWiaMiniDrv.drvFreeDrvItemContext
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SCANWINDOW, *PSCANWINDOW
 req.product: Windows 10 or later.
@@ -51,18 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>IWiaMiniDrv::drvFreeDrvItemContext</b> method frees a device-specific context.
-
-
-## -syntax
-
-
-````
-HRESULT drvFreeDrvItemContext(
-  [in]  LONG lFlags,
-  [in]  BYTE *pSpecContext,
-  [out] LONG *plDevErrVal
-);
-````
 
 
 ## -parameters
@@ -126,7 +115,10 @@ When a driver item is deleted, the WIA service frees the driver item context. Th
 
 ## -see-also
 
-<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrv.md">IWiaMiniDrv</a>
+
+
+
+<a href="https://msdn.microsoft.com/15068d10-5e24-427c-9684-24ce67b75ada">IWiaMiniDrv</a>
 
 
 
@@ -135,11 +127,7 @@ When a driver item is deleted, the WIA service frees the driver item context. Th
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545005">IWiaMiniDrv::drvReadItemProperties</a>
-
-
-
  
 
  
-
 

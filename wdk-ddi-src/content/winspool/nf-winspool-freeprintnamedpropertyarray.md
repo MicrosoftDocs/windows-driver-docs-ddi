@@ -38,7 +38,8 @@ api_location:
 -	Winspool.h
 api_name:
 -	FreePrintNamedPropertyArray
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BIDI_TYPE
 req.product: Windows 10 or later.
@@ -51,17 +52,6 @@ req.product: Windows 10 or later.
 
 
 
-
-
-## -syntax
-
-
-````
-void WINAPI FreePrintNamedPropertyArray(
-  _In_        DWORD               cProperties,
-  _Inout_opt_ PrintNamedProperty  **ppProperties
-);
-````
 
 
 ## -parameters

@@ -38,7 +38,8 @@ api_location:
 -	portcls.h
 api_name:
 -	PCNODE_DESCRIPTOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PCNODE_DESCRIPTOR, *PPCNODE_DESCRIPTOR
 ---
@@ -111,11 +112,11 @@ For a simple code example that shows how the <b>PCNODE_DESCRIPTOR</b> structure 
 
 
 
-<a href="..\portcls\ns-portcls-__unnamed_struct_0cb6_6.md">PCAUTOMATION_TABLE</a>
-
-
-
 <a href="..\portcls\ns-portcls-__unnamed_struct_0cb6_9.md">PCFILTER_DESCRIPTOR</a>
+
+
+
+<a href="..\portcls\ns-portcls-__unnamed_struct_0cb6_6.md">PCAUTOMATION_TABLE</a>
 
 
 

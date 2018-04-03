@@ -7,7 +7,7 @@ old-location: display\d3dddirange.htm
 old-project: display
 ms.assetid: 3A64DB04-EDAE-419C-947B-67201ECA8068
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDIRANGE, D3DDDIRANGE structure [Display Devices], _D3DDDIRANGE, d3dumddi/D3DDDIRANGE, display.d3dddirange
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3dumddi.h
 api_name:
 -	D3DDDIRANGE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDIRANGE
 ---
@@ -50,17 +51,6 @@ req.typenames: D3DDDIRANGE
 
 
 Specifies a range of memory within a buffer.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DDDIRANGE {
-  UINT Offset;
-  UINT Size;
-} D3DDDIRANGE;
-````
 
 
 ## -struct-fields

@@ -38,7 +38,8 @@ api_location:
 -	nfcsedev.h
 api_name:
 -	SECURE_ELEMENT_EVENT_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SECURE_ELEMENT_EVENT_TYPE, *PSECURE_ELEMENT_EVENT_TYPE
 ---
@@ -50,21 +51,6 @@ req.typenames: SECURE_ELEMENT_EVENT_TYPE, *PSECURE_ELEMENT_EVENT_TYPE
 
 
 Indicates the type of secure element events.
-
-
-## -syntax
-
-
-````
-typedef enum _SECURE_ELEMENT_EVENT_TYPE { 
-  ExternalReaderArrival    = 0,
-  ExternalReaderDeparture  = 1,
-  ApplicationSelected      = 2,
-  Transaction              = 3,
-  HceActivated             = 4,
-  HceDeactivated           = 5
-} SECURE_ELEMENT_EVENT_TYPE;
-````
 
 
 ## -enum-fields

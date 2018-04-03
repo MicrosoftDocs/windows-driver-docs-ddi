@@ -38,7 +38,8 @@ api_location:
 -	winsmcrd.h
 api_name:
 -	IOCTL_SMARTCARD_SET_ATTRIBUTE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PRINTER_EVENT_ATTRIBUTES_INFO, *PPRINTER_EVENT_ATTRIBUTES_INFO
 req.product: Windows 10 or later.
@@ -129,7 +130,6 @@ None.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/design-guide-smart-card">Smart card design guide</a>
 
 
 
@@ -137,8 +137,8 @@ None.
 
 
 
+<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/design-guide-smart-card">Smart card design guide</a>
  
 
  
-
 

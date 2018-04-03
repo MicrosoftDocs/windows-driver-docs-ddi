@@ -7,7 +7,7 @@ old-location: kernel\rtlinitunicodestring.htm
 old-project: kernel
 ms.assetid: c6ef7438-36a6-4da6-b745-2985d9b30614
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: RtlInitUnicodeString, RtlInitUnicodeString routine [Kernel-Mode Driver Architecture], k109_10e59fa9-6f57-45db-bc11-520660f43b13.xml, kernel.rtlinitunicodestring, wdm/RtlInitUnicodeString
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	RtlInitUnicodeString
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
@@ -50,18 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-For more information, see  the <a href="..\wdmsec\nf-wdmsec-wdmlibrtlinitunicodestringex.md">WdmlibRtlInitUnicodeStringEx</a> function.
-
-
-## -syntax
-
-
-````
-VOID RtlInitUnicodeString(
-  _Out_    PUNICODE_STRING DestinationString,
-  _In_opt_ PCWSTR          SourceString
-);
-````
+For more information, see  the <a href="https://msdn.microsoft.com/79DEDC5B-2A9B-4493-9CB3-7290BEBBD291">WdmlibRtlInitUnicodeStringEx</a> function.
 
 
 ## -parameters
@@ -71,19 +61,19 @@ VOID RtlInitUnicodeString(
 
 ### -param DestinationString [out]
 
-For more information, see  the <a href="..\wdmsec\nf-wdmsec-wdmlibrtlinitunicodestringex.md">WdmlibRtlInitUnicodeStringEx</a> function.
+For more information, see  the <a href="https://msdn.microsoft.com/79DEDC5B-2A9B-4493-9CB3-7290BEBBD291">WdmlibRtlInitUnicodeStringEx</a> function.
 
 
 ### -param SourceString [in, optional]
 
-For more information, see  the <a href="..\wdmsec\nf-wdmsec-wdmlibrtlinitunicodestringex.md">WdmlibRtlInitUnicodeStringEx</a> function.
+For more information, see  the <a href="https://msdn.microsoft.com/79DEDC5B-2A9B-4493-9CB3-7290BEBBD291">WdmlibRtlInitUnicodeStringEx</a> function.
 
 
 ## -returns
 
 
 
-For more information, see  the <a href="..\wdmsec\nf-wdmsec-wdmlibrtlinitunicodestringex.md">WdmlibRtlInitUnicodeStringEx</a> function.
+For more information, see  the <a href="https://msdn.microsoft.com/79DEDC5B-2A9B-4493-9CB3-7290BEBBD291">WdmlibRtlInitUnicodeStringEx</a> function.
 
 
 
@@ -108,7 +98,7 @@ UNICODE_STRING RTL_CONSTANT_STRING(
 
 <b>RTL_CONSTANT_STRING</b> returns either a string structure or Unicode string structure.
 
-The <b>RTL_CONSTANT_STRING</b> macro replaces the <a href="..\wdm\nf-wdm-rtlinitansistring.md">RtlInitAnsiString</a>, <a href="..\wdm\nf-wdm-rtlinitstring.md">RtlInitString</a>, and <b>RtlInitUnicodeString</b> routines when passing a constant string.
+The <b>RTL_CONSTANT_STRING</b> macro replaces the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561918">RtlInitAnsiString</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff561929">RtlInitString</a>, and <b>RtlInitUnicodeString</b> routines when passing a constant string.
 
 You can use <b>RTL_CONSTANT_STRING</b> to initialize global variables.
 
@@ -117,24 +107,23 @@ You can use <b>RTL_CONSTANT_STRING</b> to initialize global variables.
 
 ## -see-also
 
-<a href="..\wdmsec\nf-wdmsec-wdmlibrtlinitunicodestringex.md">WdmlibRtlInitUnicodeStringEx</a>
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562954">RtlUnicodeStringInit</a>
 
 
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringinitex.md">RtlUnicodeStringInitEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562958">RtlUnicodeStringInitEx</a>
 
 
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringinit.md">RtlUnicodeStringInit</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
 
 
 
+<a href="https://msdn.microsoft.com/79DEDC5B-2A9B-4493-9CB3-7290BEBBD291">WdmlibRtlInitUnicodeStringEx</a>
  
 
  
-
 

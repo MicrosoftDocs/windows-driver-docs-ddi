@@ -2,7 +2,7 @@
 UID: TP:kernel
 ms.assetid: f7c71d77-9a5b-3320-80a1-302b75314d1e
 ms.author: windowsdriverdev
-ms.date: 03/13/18
+ms.date: 04/03/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -11,6 +11,7 @@ ms.topic: portal
 
 # Windows kernel
 
+## -description
 
 Overview of the Windows kernel technology.
 
@@ -18,6 +19,7 @@ To develop Windows kernel, you need these headers:
 
  * [aux_klib.h](..\aux_klib\index.md)
  * [buffring.h](..\buffring\index.md)
+ * [evntrace.h](..\evntrace\index.md)
  * [hwnclx.h](..\hwnclx\index.md)
  * [ioaccess.h](..\ioaccess\index.md)
  * [iointex.h](..\iointex\index.md)
@@ -482,8 +484,13 @@ For the programming guide, see [Windows kernel](https://docs.microsoft.com/en-us
 | [KeRegisterBugCheckReasonCallback function](..\wdm\nf-wdm-keregisterbugcheckreasoncallback.md) | The KeRegisterBugCheckReasonCallback routine registers a BugCheckDumpIoCallback, BugCheckSecondaryDumpDataCallback, or BugCheckAddPagesCallback routine, which executes when the operating system issues a bug check. |
 | [KeRegisterNmiCallback function](..\wdm\nf-wdm-keregisternmicallback.md) | The KeRegisterNmiCallback routine registers a routine to be called whenever a nonmaskable interrupt (NMI) occurs. |
 | [KeRegisterProcessorChangeCallback function](..\wdm\nf-wdm-keregisterprocessorchangecallback.md) | The KeRegisterProcessorChangeCallback routine registers a callback function with the operating system so that the operating system will notify the driver when a new processor is added to the hardware partition. |
+| [KeReleaseInStackQueuedSpinLock function](..\wdm\nf-wdm-kereleaseinstackqueuedspinlock.md) | The KeReleaseInStackQueuedSpinLock routine releases a queued spin lock acquired by KeAcquireInStackQueuedSpinLock. |
+| [KeReleaseInStackQueuedSpinLockForDpc function](..\wdm\nf-wdm-kereleaseinstackqueuedspinlockfordpc.md) | The KeReleaseInStackQueuedSpinLockForDpc routine releases a queued spin lock that was acquired by calling KeAcquireInStackQueuedSpinLockForDpc. |
+| [KeReleaseInStackQueuedSpinLockFromDpcLevel function](..\wdm\nf-wdm-kereleaseinstackqueuedspinlockfromdpclevel.md) | The KeReleaseInStackQueuedSpinLockFromDpcLevel routine releases a queued spin lock acquired by KeAcquireInStackQueuedSpinLockAtDpcLevel. |
+| [KeReleaseInterruptSpinLock function](..\wdm\nf-wdm-kereleaseinterruptspinlock.md) | The KeReleaseInterruptSpinLock routine releases an interrupt spin lock acquired by KeAcquireInterruptSpinLock. |
 | [KeReleaseMutex function](..\wdm\nf-wdm-kereleasemutex.md) | The KeReleaseMutex routine releases a mutex object, and specifies whether the caller is to call one of the KeWaitXxx routines as soon as KeReleaseMutex returns control. |
 | [KeReleaseSemaphore function](..\wdm\nf-wdm-kereleasesemaphore.md) | The KeReleaseSemaphore routine releases the specified semaphore object. |
+| [KeReleaseSpinLockForDpc function](..\wdm\nf-wdm-kereleasespinlockfordpc.md) | The KeReleaseSpinLockForDpc routine releases a spin lock that was acquired by calling KeAcquireSpinLockForDpc. |
 | [KeRemoveByKeyDeviceQueue function](..\wdm\nf-wdm-keremovebykeydevicequeue.md) | The KeRemoveByKeyDeviceQueue routine removes an entry, selected according to a sort key value, from the specified device queue. |
 | [KeRemoveDeviceQueue function](..\wdm\nf-wdm-keremovedevicequeue.md) | The KeRemoveDeviceQueue routine removes an entry from the head of a specified device queue. |
 | [KeRemoveEntryDeviceQueue function](..\wdm\nf-wdm-keremoveentrydevicequeue.md) | The KeRemoveEntryDeviceQueue routine returns whether the specified entry is in the device queue and removes it, if it was queued, from the device queue. |
@@ -753,8 +760,11 @@ For the programming guide, see [Windows kernel](https://docs.microsoft.com/en-us
 | [READ_REGISTER_BUFFER_UCHAR function](..\wdm\nf-wdm-read_register_buffer_uchar.md) | The READ_REGISTER_BUFFER_UCHAR routine reads a number of bytes from the specified register address into a buffer. |
 | [READ_REGISTER_BUFFER_ULONG function](..\wdm\nf-wdm-read_register_buffer_ulong.md) | The READ_REGISTER_BUFFER_ULONG routine reads a number of ULONG values from the specified register address into a buffer. |
 | [READ_REGISTER_BUFFER_USHORT function](..\wdm\nf-wdm-read_register_buffer_ushort.md) | The READ_REGISTER_BUFFER_USHORT routine reads a number of USHORT values from the specified register address into a buffer. |
+| [READ_REGISTER_UCHAR function](..\ioaccess\nf-ioaccess-read_register_uchar~r2.md) | The READ_REGISTER_UCHAR routine reads a byte from the specified register address. |
 | [READ_REGISTER_UCHAR function](..\wdm\nf-wdm-read_register_uchar.md) | The READ_REGISTER_UCHAR routine reads a byte from the specified register address. |
+| [READ_REGISTER_ULONG function](..\ioaccess\nf-ioaccess-read_register_ulong~r2.md) | The READ_REGISTER_ULONG routine reads a ULONG value from the specified register address. |
 | [READ_REGISTER_ULONG function](..\wdm\nf-wdm-read_register_ulong.md) | The READ_REGISTER_ULONG routine reads a ULONG value from the specified register address. |
+| [READ_REGISTER_USHORT function](..\ioaccess\nf-ioaccess-read_register_ushort~r2.md) | The READ_REGISTER_USHORT routine reads a USHORT value from the specified register address. |
 | [READ_REGISTER_USHORT function](..\wdm\nf-wdm-read_register_ushort.md) | The READ_REGISTER_USHORT routine reads a USHORT value from the specified register address. |
 | [RemoveEntryList function](..\wdm\nf-wdm-removeentrylist.md) | The RemoveEntryList routine removes an entry from a doubly linked list of LIST_ENTRY structures. |
 | [RemoveHeadList function](..\wdm\nf-wdm-removeheadlist.md) | The RemoveHeadList routine removes an entry from the beginning of a doubly linked list of LIST_ENTRY structures. |
@@ -1199,8 +1209,11 @@ For the programming guide, see [Windows kernel](https://docs.microsoft.com/en-us
 | [WRITE_REGISTER_BUFFER_UCHAR function](..\wdm\nf-wdm-write_register_buffer_uchar.md) | The WRITE_REGISTER_BUFFER_UCHAR routine writes a number of bytes from a buffer to the specified register. |
 | [WRITE_REGISTER_BUFFER_ULONG function](..\wdm\nf-wdm-write_register_buffer_ulong.md) | The WRITE_REGISTER_BUFFER_ULONG routine writes a number of ULONG values from a buffer to the specified register. |
 | [WRITE_REGISTER_BUFFER_USHORT function](..\wdm\nf-wdm-write_register_buffer_ushort.md) | The WRITE_REGISTER_BUFFER_USHORT routine writes a number of USHORT values from a buffer to the specified register. |
+| [WRITE_REGISTER_UCHAR function](..\ioaccess\nf-ioaccess-write_register_uchar~r2.md) | The WRITE_REGISTER_UCHAR routine writes a byte to the specified address. |
 | [WRITE_REGISTER_UCHAR function](..\wdm\nf-wdm-write_register_uchar.md) | The WRITE_REGISTER_UCHAR routine writes a byte to the specified address. |
+| [WRITE_REGISTER_ULONG function](..\ioaccess\nf-ioaccess-write_register_ulong~r2.md) | The WRITE_REGISTER_ULONG routine writes a ULONG value to the specified address. |
 | [WRITE_REGISTER_ULONG function](..\wdm\nf-wdm-write_register_ulong.md) | The WRITE_REGISTER_ULONG routine writes a ULONG value to the specified address. |
+| [WRITE_REGISTER_USHORT function](..\ioaccess\nf-ioaccess-write_register_ushort~r2.md) | The WRITE_REGISTER_USHORT routine writes a USHORT value to the specified address. |
 | [WRITE_REGISTER_USHORT function](..\wdm\nf-wdm-write_register_ushort.md) | The WRITE_REGISTER_USHORT routine writes a USHORT value to the specified address. |
 | [WdmlibIoConnectInterruptEx function](..\iointex\nf-iointex-wdmlibioconnectinterruptex.md) | The WdmlibIoConnectInterruptEx function registers an interrupt-handling routine for a device's interrupts. |
 | [WdmlibIoCreateDeviceSecure function](..\wdmsec\nf-wdmsec-wdmlibiocreatedevicesecure.md) | The WdmlibIoCreateDeviceSecure function (or IoCreateDeviceSecure) creates a named device object and applies the specified security settings. |
@@ -1297,11 +1310,19 @@ For the programming guide, see [Windows kernel](https://docs.microsoft.com/en-us
 | [BOUND_CALLBACK callback](..\wdm\nc-wdm-bound_callback.md) | The BoundCallback routine is executed whenever the system issues a bounds exception for a user-mode thread. |
 | [DEVICE_ACTIVE_COOLING callback](..\poclass\nc-poclass-device_active_cooling.md) | The ActiveCooling callback routine engages or disengages a device's active-cooling function. |
 | [DEVICE_PASSIVE_COOLING callback](..\poclass\nc-poclass-device_passive_cooling.md) | The PassiveCooling callback routine controls the degree to which the device must throttle its performance to meet cooling requirements. |
+| [DMA_COMPLETION_ROUTINE callback](..\wdm\nc-wdm-dma_completion_routine.md) | The DmaCompletionRoutine callback routine notifies the driver that previously requested a system DMA transfer that this transfer is complete. |
+| [DRIVER_ADD_DEVICE callback](..\wdm\nc-wdm-driver_add_device.md) | The AddDevice routine is responsible for creating functional device objects (FDO) or filter device objects (filter DO) for devices enumerated by the Plug and Play (PnP) manager. |
+| [DRIVER_CANCEL callback](..\wdm\nc-wdm-driver_cancel.md) | The Cancel routine cancels an I/O operation. |
 | [DRIVER_CONTROL callback](..\wdm\nc-wdm-driver_control.md) | This routine starts a DMA data-transfer or a data transfer operation. |
+| [DRIVER_DISPATCH callback](..\wdm\nc-wdm-driver_dispatch.md) | The callback routine services various IRPs. For a list of function codes, see Remarks. |
 | [DRIVER_INITIALIZE callback](..\wdm\nc-wdm-driver_initialize.md) | DriverEntry is the first routine called after a driver is loaded, and is responsible for initializing the driver. |
 | [DRIVER_LIST_CONTROL callback](..\wdm\nc-wdm-driver_list_control.md) | The AdapterListControl routine starts a direct memory access (DMA) scatter/gather operation. |
 | [DRIVER_REINITIALIZE callback](..\ntddk\nc-ntddk-driver_reinitialize.md) | The Reinitialize routine continues driver and device initialization after the driver's DriverEntry routine returns. |
+| [DRIVER_STARTIO callback](..\wdm\nc-wdm-driver_startio.md) | The StartIo routine starts the I/O operation described by an IRP. |
+| [DRIVER_UNLOAD callback](..\wdm\nc-wdm-driver_unload.md) | The Unload routine performs any operations that are necessary before the system unloads the driver. |
 | [EXPAND_STACK_CALLOUT callback](..\ntddk\nc-ntddk-expand_stack_callout.md) | The ExpandedStackCall routine executes with a guaranteed stack size. |
+| [EXT_CALLBACK callback](..\wdm\nc-wdm-ext_callback.md) | An ExTimerCallback callback routine runs after an EX_TIMER timer object's time interval expires. |
+| [EXT_DELETE_CALLBACK callback](..\wdm\nc-wdm-ext_delete_callback.md) | An ExTimerDeleteCallback callback routine runs when the operating system deletes an EX_TIMER timer object. |
 | [EX_CALLBACK_FUNCTION callback](..\wdm\nc-wdm-ex_callback_function.md) | A filter driver's RegistryCallback routine can monitor, block, or modify a registry operation. |
 | [FREE_FUNCTION_EX callback](..\wdm\nc-wdm-free_function_ex.md) | The LookasideListFreeEx routine frees the storage for a lookaside-list entry when a client tries to insert the entry into a lookaside list that is full. |
 | [GET_D3COLD_CAPABILITY callback](..\wdm\nc-wdm-get_d3cold_capability.md) | The GetBusDriverD3ColdSupport routine enables the driver for a device to query whether the enumerating bus driver supports the D3cold device power state. |
@@ -1318,10 +1339,14 @@ For the programming guide, see [Windows kernel](https://docs.microsoft.com/en-us
 | [IO_CSQ_PEEK_NEXT_IRP callback](..\wdm\nc-wdm-io_csq_peek_next_irp.md) | The CsqPeekNextIrp routine is used by the system to find the next matching IRP in a driver-implemented, cancel-safe IRP queue. |
 | [IO_CSQ_RELEASE_LOCK callback](..\wdm\nc-wdm-io_csq_release_lock.md) | The CsqReleaseLock routine is used by the system to release the lock that was acquired using CsqAcquireLock. |
 | [IO_CSQ_REMOVE_IRP callback](..\wdm\nc-wdm-io_csq_remove_irp.md) | The CsqRemoveIrp routine is used by the system to remove the specified IRP from a driver-implemented, cancel-safe IRP queue. |
+| [IO_DPC_ROUTINE callback](..\wdm\nc-wdm-io_dpc_routine.md) | The DpcForIsr routine finishes the servicing of an I/O operation, after an InterruptService routine returns. |
 | [IO_SESSION_NOTIFICATION_FUNCTION callback](..\wdm\nc-wdm-io_session_notification_function.md) | The IO_SESSION_NOTIFICATION_FUNCTION function type defines a callback routine through which a driver receives notifications of changes in the state of user sessions that the driver is interested in. |
 | [IO_TIMER_ROUTINE callback](..\wdm\nc-wdm-io_timer_routine.md) | The IoTimer routine is a DPC that, if registered, is called once per second. |
+| [IO_WORKITEM_ROUTINE callback](..\wdm\nc-wdm-io_workitem_routine.md) | A WorkItem routine performs the processing for a work item that was queued by the IoQueueWorkItem routine. |
+| [IO_WORKITEM_ROUTINE_EX callback](..\wdm\nc-wdm-io_workitem_routine_ex.md) | A WorkItemEx routine performs the processing for a work item that was queued by the IoQueueWorkItemEx or IoTryQueueWorkItem routine. |
 | [KBUGCHECK_CALLBACK_ROUTINE callback](..\wdm\nc-wdm-kbugcheck_callback_routine.md) | The BugCheckCallback routine is executed whenever the system issues a bug check. |
 | [KBUGCHECK_REASON_CALLBACK_ROUTINE callback](..\wdm\nc-wdm-kbugcheck_reason_callback_routine.md) | Driver-implemented callback functions that the system executes when it issues a bug check. |
+| [KDEFERRED_ROUTINE callback](..\wdm\nc-wdm-kdeferred_routine.md) | The callback routine performs actions, after an InterruptService returns, of a threaded DPC, The CustomDpc routine finishes the servicing of an I/O operation, after an InterruptService routine returns.The CustomThreadedDpc routine performs the action of a threaded DPC. The system executes this routine when the threaded DPC runs.The CustomTimerDpc routine executes after a timer object's time interval expires. |
 | [KIPI_BROADCAST_WORKER callback](..\wdm\nc-wdm-kipi_broadcast_worker.md) | The IpiGenericCall routine runs simultaneously on all processors. |
 | [KMESSAGE_SERVICE_ROUTINE callback](..\wdm\nc-wdm-kmessage_service_routine.md) | An InterruptMessageService routine services a message-signaled interrupt. |
 | [KSERVICE_ROUTINE callback](..\wdm\nc-wdm-kservice_routine.md) | The InterruptService routine (ISR) quickly services a device interrupt and schedules post-interrupt processing of received data, if necessary. |
@@ -1485,6 +1510,7 @@ For the programming guide, see [Windows kernel](https://docs.microsoft.com/en-us
 | [_DMA_TRANSFER_INFO_V1 structure](..\wdm\ns-wdm-_dma_transfer_info_v1.md) | The DMA_TRANSFER_INFO_V1 structure contains the allocation requirements for a scatter/gather list that describes the I/O data buffer for a DMA transfer. |
 | [_DRIVER_OBJECT structure](..\wdm\ns-wdm-_driver_object.md) | Each driver object represents the image of a loaded kernel-mode driver. |
 | [_ENLISTMENT_BASIC_INFORMATION structure](..\wdm\ns-wdm-_enlistment_basic_information.md) | The ENLISTMENT_BASIC_INFORMATION structure contains information about an enlistment object. |
+| [_EVENT_TRACE_HEADER structure](..\evntrace\ns-evntrace-_event_trace_header.md) | The EVENT_TRACE_HEADER structure is used to pass a WMI event to the WMI event logger. |
 | [_EXT_DELETE_PARAMETERS structure](..\wdm\ns-wdm-_ext_delete_parameters.md) | The EXT_DELETE_PARAMETERS structure contains an extended set of parameters for the ExDeleteTimer routine. |
 | [_EXT_SET_PARAMETERS_V0 structure](..\wdm\ns-wdm-_ext_set_parameters_v0.md) | The EXT_SET_PARAMETERS structure contains an extended set of parameters for the ExSetTimer routine. |
 | [_FILE_ALIGNMENT_INFORMATION structure](..\ntddk\ns-ntddk-_file_alignment_information.md) | The FILE_ALIGNMENT_INFORMATION structure is used as an argument to the ZwQueryInformationFile routine. |
@@ -1643,7 +1669,7 @@ For the programming guide, see [Windows kernel](https://docs.microsoft.com/en-us
 | [_PEP_INFORMATION structure](..\pepfx\ns-pepfx-_pep_information.md) | The PEP_INFORMATION structure specifies the interface that the platform extension plug-in (PEP) uses to receive notifications from the Windows power management framework (PoFx). |
 | [_PEP_KERNEL_INFORMATION_STRUCT_V1 structure](..\pep_x\ns-pep_x-_pep_kernel_information_struct_v1.md) | The PEP_KERNEL_INFORMATION structure specifies the interface that the power extension plug-in (PEP) uses to request services from the Windows power management framework (PoFx). |
 | [_PEP_KERNEL_INFORMATION_STRUCT_V2 structure](..\pep_x\ns-pep_x-_pep_kernel_information_struct_v2.md) | The PEP_KERNEL_INFORMATION structure specifies the interface that the power extension plug-in (PEP) uses to request services from the Windows power management framework (PoFx). |
-| [_PEP_KERNEL_INFORMATION_STRUCT_V3 structure](..\pep_x\ns-pep_x-_pep_kernel_information_struct_v3.md) | The PEP_KERNEL_INFORMATION_STRUCT_V3 structure specifies the interface that the power extension plug-in (PEP) uses to request services from the Windows power management framework (PoFx). |
+| [_PEP_KERNEL_INFORMATION_STRUCT_V3 structure](..\pep_x\ns-pep_x-_pep_kernel_information_struct_v3.md) | The PEP_KERNEL_INFORMATION structure specifies the interface that the power extension plug-in (PEP) uses to request services from the Windows power management framework (PoFx). |
 | [_PEP_KERNEL_INFORMATION_STRUCT_V3 structure](..\pepfx\ns-pepfx-_pep_kernel_information_struct_v3.md) | The PEP_KERNEL_INFORMATION_STRUCT_V3 structure specifies the interface that the power extension plug-in (PEP) uses to request services from the Windows power management framework (PoFx). |
 | [_PEP_LOW_POWER_EPOCH structure](..\pep_x\ns-pep_x-_pep_low_power_epoch.md) | The PEP_LOW_POWER_EPOCH structure is used to provide data for a PEP_DPM_LOW_POWER_EPOCH notification (deprecated). |
 | [_PEP_LOW_POWER_EPOCH structure](..\pepfx\ns-pepfx-_pep_low_power_epoch.md) | The PEP_LOW_POWER_EPOCH structure is used to provide data for a PEP_DPM_LOW_POWER_EPOCH notification (deprecated). |
@@ -1911,6 +1937,8 @@ For the programming guide, see [Windows kernel](https://docs.microsoft.com/en-us
 | [*PPEP_PROCESSOR_IDLE_TYPE enumeration](..\pep_x\ne-pep_x-ppep_processor_idle_type.md) | The PEP_PROCESSOR_IDLE_TYPE enumeration indicates whether idle constraints apply to just the current processor or to all processors in the hardware platform. |
 | [DEVICE_REGISTRY_PROPERTY enumeration](..\wdm\ne-wdm-device_registry_property.md) | The DEVICE_REGISTRY_PROPERTY enumeration identifies device properties that are stored in the registry. |
 | [DMA_COMPLETION_STATUS enumeration](..\wdm\ne-wdm-dma_completion_status.md) | The DMA_COMPLETION_STATUS enumeration describes the completion status of a DMA transfer. |
+| [PEP_PROCESSOR_IDLE_CANCEL_CODE enumeration](..\pep_x\ne-pep_x-pep_processor_idle_cancel_code.md) | The PEP_PROCESSOR_IDLE_CANCEL_CODE enumeration values indicate reasons why a processor cannot enter an idle state that was previously selected by the platform extension plug-in (PEP). |
+| [PEP_PROCESSOR_IDLE_TYPE enumeration](..\pep_x\ne-pep_x-pep_processor_idle_type.md) | The PEP_PROCESSOR_IDLE_TYPE enumeration indicates whether idle constraints apply to just the current processor or to all processors in the hardware platform. |
 | [POWER_INFORMATION_LEVEL enumeration](..\ntpoapi\ne-ntpoapi-power_information_level.md) | Indicates power level information. |
 | [POWER_INFORMATION_LEVEL enumeration](..\wdm\ne-wdm-power_information_level.md) | Indicates power level information. |
 | [_BDCB_CALLBACK_TYPE enumeration](..\ntddk\ne-ntddk-_bdcb_callback_type.md) | The BDCB_CALLBACK_TYPE enumeration specifies whether the callback being passed to a BOOT_DRIVER_CALLBACK_FUNCTION routine is a status update or a boot-start driver initialization notification. |

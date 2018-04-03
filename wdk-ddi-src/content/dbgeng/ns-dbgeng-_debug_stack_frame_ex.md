@@ -7,7 +7,7 @@ old-location: debugger\debug_stack_frame_ex.htm
 old-project: debugger
 ms.assetid: EC0AF311-7BFC-4E2E-A1B1-FE38872B7FA2
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PDEBUG_STACK_FRAME_EX, DEBUG_STACK_FRAME_EX, DEBUG_STACK_FRAME_EX structure [Windows Debugging], PDEBUG_STACK_FRAME_EX, PDEBUG_STACK_FRAME_EX structure pointer [Windows Debugging], _DEBUG_STACK_FRAME_EX, dbgeng/DEBUG_STACK_FRAME_EX, dbgeng/PDEBUG_STACK_FRAME_EX, debugger.debug_stack_frame_ex"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	DbgEng.h
 api_name:
 -	DEBUG_STACK_FRAME_EX
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DEBUG_STACK_FRAME_EX, *PDEBUG_STACK_FRAME_EX
 ---
@@ -50,26 +51,6 @@ req.typenames: DEBUG_STACK_FRAME_EX, *PDEBUG_STACK_FRAME_EX
 
 
 The DEBUG_STACK_FRAME_EX structure describes a stack frame and the address of the current instruction for the stack frame. 
-
-
-## -syntax
-
-
-````
-typedef struct _DEBUG_STACK_FRAME_EX {
-  ULONG64 InstructionOffset;
-  ULONG64 ReturnOffset;
-  ULONG64 FrameOffset;
-  ULONG64 StackOffset;
-  ULONG64 FuncTableEntry;
-  ULONG64 Params[4];
-  ULONG64 Reserved[6];
-  BOOL    Virtual;
-  ULONG   FrameNumber;
-  ULONG   InlineFrameContext;
-  ULONG   Reserved1;
-} DEBUG_STACK_FRAME_EX, *PDEBUG_STACK_FRAME_EX;
-````
 
 
 ## -struct-fields

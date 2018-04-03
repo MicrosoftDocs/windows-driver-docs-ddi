@@ -38,7 +38,8 @@ api_location:
 -	sti.h
 api_name:
 -	IStiDevice.LockDevice
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STI_DEVICE_MJ_TYPE, STI_DEVICE_MJ_TYPE
 req.product: Windows 10 or later.
@@ -51,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>IStiDevice::LockDevice </b>method locks a device for exclusive use by the caller.
-
-
-## -syntax
-
-
-````
-HRESULT LockDevice(
-  [in] DWORD dwTimeOut
-);
-````
 
 
 ## -parameters

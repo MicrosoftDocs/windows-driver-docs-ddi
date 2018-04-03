@@ -7,7 +7,7 @@ old-location: display\dxgk_multiplane_overlay_plane3.htm
 old-project: display
 ms.assetid: 2C524702-A819-4B91-B236-E00B2820813C
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGK_MULTIPLANE_OVERLAY_PLANE3, DXGK_MULTIPLANE_OVERLAY_PLANE3 structure [Display Devices], _DXGK_MULTIPLANE_OVERLAY_PLANE3, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_PLANE3, display.dxgk_multiplane_overlay_plane3
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGK_MULTIPLANE_OVERLAY_PLANE3
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_MULTIPLANE_OVERLAY_PLANE3
 ---
@@ -50,26 +51,6 @@ req.typenames: DXGK_MULTIPLANE_OVERLAY_PLANE3
 
 
 Specifies an overlay plane to display in a call to the DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay3 function.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGK_MULTIPLANE_OVERLAY_PLANE3 {
-  UINT                                 LayerIndex;
-  ULONGLONG                            PresentId;
-  DXGK_PLANE_SPECIFIC_INPUT_FLAGS      InputFlags;
-  DXGK_PLANE_SPECIFIC_OUTPUT_FLAGS     OutputFlags;
-  UINT                                 MaxImmediateFlipLine;
-  UINT                                 ContextCount;
-  HANDLE                               *pContext;
-  DXGK_PRIMARYDATA                     *pPrimaryData;
-  UINT                                 DriverPrivateDataSize;
-  PVOID                                pDriverPrivateData;
-  DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES3  PlaneAttributes;
-} DXGK_MULTIPLANE_OVERLAY_PLANE3;
-````
 
 
 ## -struct-fields

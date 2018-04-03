@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsStreamPointerGetIrp
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -53,18 +54,6 @@ req.typenames:
 The<b> KsStreamPointerGetIrp </b>function returns the IRP associated with the frame that is referenced by the given stream pointer.
 
 
-## -syntax
-
-
-````
-PIRP KsStreamPointerGetIrp(
-  _In_      PKSSTREAM_POINTER StreamPointer,
-  _Out_opt_ PBOOLEAN          FirstFrameInIrp,
-  _Out_opt_ PBOOLEAN          LastFrameInIrp
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +61,7 @@ PIRP KsStreamPointerGetIrp(
 
 ### -param StreamPointer [in]
 
-A pointer to the <a href="..\ks\ns-ks-_ksstream_pointer.md">KSSTREAM_POINTER</a> structure that references the frame for which the associated IRP is returned.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567139">KSSTREAM_POINTER</a> structure that references the frame for which the associated IRP is returned.
 
 
 ### -param FirstFrameInIrp [out, optional]
@@ -111,16 +100,15 @@ Also see <a href="https://msdn.microsoft.com/4bac68a0-34d2-431a-9ed9-8a42751a736
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksstreampointergetmdl.md">KsStreamPointerGetMdl</a>
 
 
 
-<a href="..\ks\nf-ks-ksstreampointerlock.md">KsStreamPointerLock</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567132">KsStreamPointerGetMdl</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn892390">KsStreamPointerLock</a>
  
 
  
-
 

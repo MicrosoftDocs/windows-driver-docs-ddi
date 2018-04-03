@@ -7,7 +7,7 @@ old-location: netvista\ndis_filter_attributes.htm
 old-project: netvista
 ms.assetid: a377d809-4a6f-413e-a26a-446b4eca85ab
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PNDIS_FILTER_ATTRIBUTES, NDIS_FILTER_ATTRIBUTES, NDIS_FILTER_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], PNDIS_FILTER_ATTRIBUTES, PNDIS_FILTER_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], _NDIS_FILTER_ATTRIBUTES, filter_structures_ref_8711cb33-bba0-41ba-912b-af351c7e758d.xml, ndis/NDIS_FILTER_ATTRIBUTES, ndis/PNDIS_FILTER_ATTRIBUTES, netvista.ndis_filter_attributes"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ndis.h
 api_name:
 -	NDIS_FILTER_ATTRIBUTES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_FILTER_ATTRIBUTES, *PNDIS_FILTER_ATTRIBUTES
 ---
@@ -52,17 +53,6 @@ req.typenames: NDIS_FILTER_ATTRIBUTES, *PNDIS_FILTER_ATTRIBUTES
 The NDIS_FILTER_ATTRIBUTES structure defines the attributes of a filter module.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_FILTER_ATTRIBUTES {
-  NDIS_OBJECT_HEADER Header;
-  ULONG              Flags;
-} NDIS_FILTER_ATTRIBUTES, *PNDIS_FILTER_ATTRIBUTES;
-````
-
-
 ## -struct-fields
 
 
@@ -71,7 +61,7 @@ typedef struct _NDIS_FILTER_ATTRIBUTES {
 ### -field Header
 
 The 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure for the
      filter attributes structure (NDIS_FILTER_ATTRIBUTES). Set the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to NDIS_OBJECT_TYPE_FILTER_ATTRIBUTES, the 
@@ -89,23 +79,22 @@ Reserved. Set this member to zero.
 
 
 A filter drivers passes an NDIS_FILTER_ATTRIBUTES structure to the 
-    <a href="..\ndis\nf-ndis-ndisfsetattributes.md">NdisFSetAttributes</a> function.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff562619">NdisFSetAttributes</a> function.
 
 
 
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisfsetattributes.md">NdisFSetAttributes</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562619">NdisFSetAttributes</a>
  
 
  
-
 

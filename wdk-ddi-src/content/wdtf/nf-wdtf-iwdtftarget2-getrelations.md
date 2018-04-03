@@ -7,7 +7,7 @@ old-location: dtf\iwdtftarget2_getrelations.htm
 old-project: dtf
 ms.assetid: 15622472-808b-4d9e-ac59-ca5c9efbff7c
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/29/2018
 ms.keywords: GetRelations method [Windows Device Testing Framework], GetRelations method [Windows Device Testing Framework], IWDTFTarget2 interface, GetRelations,IWDTFTarget2.GetRelations, IWDTFTarget2, IWDTFTarget2 interface [Windows Device Testing Framework], GetRelations method, IWDTFTarget2::GetRelations, Microsoft.WDTF.IWDTFTarget2.GetRelations, Microsoft::WDTF::IWDTFTarget2::GetRelations, dtf.iwdtftarget2_getrelations, wdtf/IWDTFTarget2::GetRelations
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	WDTF.Interop.metadata_dll.dll
 api_name:
 -	IWDTFTarget2.GetRelations
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TTraceLevel
 req.product: Windows 10 or later.
@@ -51,18 +52,6 @@ req.product: Windows 10 or later.
 
 
 Returns a collection of related targets.
-
-
-## -syntax
-
-
-````
-HRESULT GetRelations(
-  [in]          BSTR          RelationSDEL,
-  [in]          BSTR          MatchSDEL,
-  [out, retval] IWDTFTargets2 **ppRelations
-);
-````
 
 
 ## -parameters
@@ -102,7 +91,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 You use the <b>GetRelations</b> method to retrieve related 
-instances of the <a href="..\wdtf\nn-wdtf-iwdtftarget2.md">IWDTFTarget2</a> interface. 
+instances of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439367">IWDTFTarget2</a> interface. 
 You specify the desired targets by a relation 
 <a href="https://msdn.microsoft.com/84c2a1d6-6bec-4aeb-b858-c29f50d74390">SDEL</a> statement.
 Typically, an SDEL statement can contain attribute tokens, comparison operators, 
@@ -131,12 +120,11 @@ Language Overview</a>.
 
 ## -see-also
 
-<a href="..\wdtf\nn-wdtf-iwdtftarget2.md">IWDTFTarget2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439367">IWDTFTarget2</a>
  
 
  
-
 

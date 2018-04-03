@@ -38,7 +38,8 @@ api_location:
 -	pcivirt.h
 api_name:
 -	SRIOV_MITIGATED_RANGES_INPUT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SRIOV_MITIGATED_RANGES_INPUT, *PSRIOV_MITIGATED_RANGES_INPUT
 ---

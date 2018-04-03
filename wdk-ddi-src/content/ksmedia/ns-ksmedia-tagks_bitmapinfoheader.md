@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KS_BITMAPINFOHEADER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KS_BITMAPINFOHEADER, *PKS_BITMAPINFOHEADER
 ---
@@ -50,26 +51,6 @@ req.typenames: KS_BITMAPINFOHEADER, *PKS_BITMAPINFOHEADER
 
 
 The KS_BITMAPINFOHEADER structure describes details about the video stream, such as image dimensions and pixel depth. 
-
-
-## -syntax
-
-
-````
-typedef struct tagKS_BITMAPINFOHEADER {
-  DWORD biSize;
-  LONG  biWidth;
-  LONG  biHeight;
-  WORD  biPlanes;
-  WORD  biBitCount;
-  DWORD biCompression;
-  DWORD biSizeImage;
-  LONG  biXPelsPerMeter;
-  LONG  biYPelsPerMeter;
-  DWORD biClrUsed;
-  DWORD biClrImportant;
-} KS_BITMAPINFOHEADER, *PKS_BITMAPINFOHEADER;
-````
 
 
 ## -struct-fields

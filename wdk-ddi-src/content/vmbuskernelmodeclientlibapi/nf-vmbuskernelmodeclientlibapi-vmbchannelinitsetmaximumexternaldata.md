@@ -7,7 +7,7 @@ old-location: netvista\vmbchannelinitsetmaximumexternaldata.htm
 old-project: netvista
 ms.assetid: 558E8162-7B1F-41AB-A04C-113E94C97DB6
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: VmbChannelInitSetMaximumExternalData, VmbChannelInitSetMaximumExternalData function [Network Drivers Starting with Windows Vista], netvista.vmbchannelinitsetmaximumexternaldata, vmbuskernelmodeclientlibapi/VmbChannelInitSetMaximumExternalData
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	vmbkmcl.dll
 api_name:
 -	VmbChannelInitSetMaximumExternalData
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
 req.product: Windows 10 or later.
@@ -56,18 +57,6 @@ req.product: Windows 10 or later.
 The <b>VmbChannelInitSetMaximumExternalData</b> function sets the maximum size and chain length of data that is described by a
 packet, but not directly sent in the packet. That is, the maximum size of the
 buffer described by an <b>ExternalDataMdl</b>.  
-
-
-## -syntax
-
-
-````
-NTSTATUS VmbChannelInitSetMaximumExternalData(
-  _In_ VMBCHANNEL         Channel,
-  _In_ range_(>,0) UINT32 DataSize,
-  _In_ range_(>,0) UINT32 ChainLength
-);
-````
 
 
 ## -parameters

@@ -7,7 +7,7 @@ old-location: storage\ide_lba_range.htm
 old-project: storage
 ms.assetid: 2d823d9c-7328-44e2-9ba2-22967471ef68
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PIDE_LBA_RANGE, IDE_LBA_RANGE, IDE_LBA_RANGE structure [Storage Devices], PIDE_LBA_RANGE, PIDE_LBA_RANGE structure pointer [Storage Devices], _IDE_LBA_RANGE, irb/IDE_LBA_RANGE, irb/PIDE_LBA_RANGE, storage.ide_lba_range, structs-ATA_0abd91d5-18f0-49c9-b5de-ac442718da3f.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	irb.h
 api_name:
 -	IDE_LBA_RANGE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: IDE_LBA_RANGE, *PIDE_LBA_RANGE
 ---
@@ -51,17 +52,6 @@ req.typenames: IDE_LBA_RANGE, *PIDE_LBA_RANGE
 
 The IDE_LBA_RANGE structure is used by the port driver to provide the miniport driver with a range of logical blocks.
 <div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
-
-## -syntax
-
-
-````
-typedef struct _IDE_LBA_RANGE {
-  ULONGLONG StartSector  :48;
-  ULONGLONG SectorCount  :16;
-} IDE_LBA_RANGE, *PIDE_LBA_RANGE;
-````
-
 
 ## -struct-fields
 

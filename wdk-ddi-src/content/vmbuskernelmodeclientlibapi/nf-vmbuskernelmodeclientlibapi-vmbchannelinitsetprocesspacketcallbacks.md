@@ -7,7 +7,7 @@ old-location: netvista\vmbchannelinitsetprocesspacketcallbacks.htm
 old-project: netvista
 ms.assetid: 437DC9C5-CE73-45E8-AC4A-CFF9249809AD
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: VmbChannelInitSetProcessPacketCallbacks, VmbChannelInitSetProcessPacketCallbacks function [Network Drivers Starting with Windows Vista], netvista.vmbchannelinitsetprocesspacketcallbacks, vmbuskernelmodeclientlibapi/VmbChannelInitSetProcessPacketCallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	vmbkmcl.dll
 api_name:
 -	VmbChannelInitSetProcessPacketCallbacks
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
 req.product: Windows 10 or later.
@@ -54,19 +55,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 The <b>VmbChannelInitSetProcessPacketCallbacks</b>  function sets callback functions for packet processing. 
-
-
-## -syntax
-
-
-````
- VmbChannelInitSetProcessPacketCallbacks(
-  _In_     VMBCHANNEL                          Channel,
-  _In_     PFN_VMB_CHANNEL_PROCESS_PACKET      ProcessPacketCallback,
-  _In_opt_ PFN_VMB_CHANNEL_PROCESSING_COMPLETE ProcessingCompleteCallback
-
-);
-````
 
 
 ## -parameters
@@ -137,7 +125,7 @@ This function is only meaningful if Kernel Mode Client Library (KMCL) queue
 management is not suppressed.  
 
 <b>ProcessPacketCallback</b> is invoked for every packet that
-is received.  <a href="..\vmbuskernelmodeclientlibapi\nc-vmbuskernelmodeclientlibapi-evt_vmb_channel_processing_complete.md">EvtVmbChannelProcessingComplete</a> will be invoked every time the ring buffer that contains incoming packets transitions from non-empty to empty. This happens
+is received.  <a href="https://msdn.microsoft.com/E30A169E-0EC6-4128-B268-5FC1CD37A877">EvtVmbChannelProcessingComplete</a> will be invoked every time the ring buffer that contains incoming packets transitions from non-empty to empty. This happens
 after the last invocation of <b>ProcessPacketCallback</b> in a single batch.
 
 
@@ -145,16 +133,15 @@ after the last invocation of <b>ProcessPacketCallback</b> in a single batch.
 
 ## -see-also
 
-<a href="..\vmbuskernelmodeclientlibapi\nc-vmbuskernelmodeclientlibapi-evt_vmb_channel_processing_complete.md">EvtVmbChannelProcessingComplete</a>
 
 
 
-<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelinitsetprocesspacketcallbacks.md">ProcessPacketCallback</a>
+<a href="https://msdn.microsoft.com/E30A169E-0EC6-4128-B268-5FC1CD37A877">EvtVmbChannelProcessingComplete</a>
 
 
 
+<a href="https://msdn.microsoft.com/437DC9C5-CE73-45E8-AC4A-CFF9249809AD">ProcessPacketCallback</a>
  
 
  
-
 

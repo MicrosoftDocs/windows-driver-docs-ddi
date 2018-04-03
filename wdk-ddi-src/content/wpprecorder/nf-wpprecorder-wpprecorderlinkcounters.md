@@ -38,7 +38,8 @@ api_location:
 -	wpprecorder.h
 api_name:
 -	imp_WppRecorderLinkCounters
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WNODE_HEADER, *PWNODE_HEADER
 req.product: Windows 10 or later.
@@ -51,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>WppRecorderLinkCounters</b> method  uses a sequence number to merge logs captured in different buffers by a driver.
-
-
-## -syntax
-
-
-````
-NTSTATUS imp_WppRecorderLinkCounters(
-  _In_ WPP_RECORDER_COUNTER CounterOwner
-);
-````
 
 
 ## -parameters

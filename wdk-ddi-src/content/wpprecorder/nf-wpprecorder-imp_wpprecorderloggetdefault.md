@@ -38,7 +38,8 @@ api_location:
 -	Wpprecorder.h
 api_name:
 -	imp_WppRecorderLogGetDefault
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WNODE_HEADER, *PWNODE_HEADER
 req.product: Windows 10 or later.
@@ -51,14 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>WppRecorderLogGetDefault</b> method gets a handle to the default recorder log.
-
-
-## -syntax
-
-
-````
-RECORDER_LOG imp_WppRecorderLogGetDefault(void);
-````
 
 
 ## -parameters
@@ -84,12 +77,11 @@ An opaque handle to the default log.
 
 ## -see-also
 
-<a href="..\wpprecorder\nf-wpprecorder-imp_wpprecorderisdefaultlogavailable.md">WppRecorderIsDefaultLogAvailable</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn914614">WppRecorderIsDefaultLogAvailable</a>
  
 
  
-
 

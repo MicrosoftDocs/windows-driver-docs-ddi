@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	TRANSPORTSTATUS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TRANSPORTSTATUS, *PTRANSPORTSTATUS
 ---
@@ -50,28 +51,6 @@ req.typenames: TRANSPORTSTATUS, *PTRANSPORTSTATUS
 
 
 The TRANSPORTSTATUS structure describes the current transport status.
-
-
-## -syntax
-
-
-````
-typedef struct tagTRANSPORTSTATUS {
-  LONG Mode;
-  LONG LastError;
-  LONG RecordInhibit;
-  LONG ServoLock;
-  LONG MediaPresent;
-  LONG MediaLength;
-  LONG MediaSize;
-  LONG MediaTrackCount;
-  LONG MediaTrackLength;
-  LONG MediaTrackSide;
-  LONG MediaType;
-  LONG LinkMode;
-  LONG NotifyOn;
-} TRANSPORTSTATUS, *PTRANSPORTSTATUS;
-````
 
 
 ## -struct-fields

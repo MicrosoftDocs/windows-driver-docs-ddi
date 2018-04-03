@@ -7,7 +7,7 @@ old-location: kernel\cmunregistercallback.htm
 old-project: kernel
 ms.assetid: 6e291139-d7d3-4927-ad01-b09bddb0b945
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: CmUnRegisterCallback, CmUnRegisterCallback routine [Kernel-Mode Driver Architecture], ConfigMgrRef_13cbc14e-4652-4a3d-a87e-f6eef883f912.xml, kernel.cmunregistercallback, wdm/CmUnRegisterCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	CmUnRegisterCallback
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
@@ -50,17 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>CmUnRegisterCallback</b> routine unregisters a <a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a> routine that a <a href="..\wdm\nf-wdm-cmregistercallback.md">CmRegisterCallback</a> or <a href="..\wdm\nf-wdm-cmregistercallbackex.md">CmRegisterCallbackEx</a> routine previously registered.
-
-
-## -syntax
-
-
-````
-NTSTATUS CmUnRegisterCallback(
-  _In_ LARGE_INTEGER Cookie
-);
-````
+The <b>CmUnRegisterCallback</b> routine unregisters a <a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a> routine that a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541918">CmRegisterCallback</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff541921">CmRegisterCallbackEx</a> routine previously registered.
 
 
 ## -parameters
@@ -97,20 +88,19 @@ For more information about <b>CmUnRegisterCallback</b> and filtering registry op
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-cmregistercallbackex.md">CmRegisterCallbackEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541918">CmRegisterCallback</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541921">CmRegisterCallbackEx</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a>
-
-
-
-<a href="..\wdm\nf-wdm-cmregistercallback.md">CmRegisterCallback</a>
-
-
-
  
 
  
-
 

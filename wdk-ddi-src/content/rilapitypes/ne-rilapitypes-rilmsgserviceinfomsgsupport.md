@@ -7,7 +7,7 @@ old-location: netvista\rilmsgserviceinfomsgsupport.htm
 old-project: netvista
 ms.assetid: b09a5b1d-b8da-4a75-b2d5-ee07072d45aa
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: RILMSGSERVICEINFOMSGSUPPORT, RILMSGSERVICEINFOMSGSUPPORT enumeration [Network Drivers Starting with Windows Vista], RIL_MSI_SMS_BROADCAST, RIL_MSI_SMS_OUTGOING, netvista.rilmsgserviceinfomsgsupport, ntddrilapitypes/RILMSGSERVICEINFOMSGSUPPORT, ntddrilapitypes/RIL_MSI_SMS_BROADCAST, ntddrilapitypes/RIL_MSI_SMS_OUTGOING
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILMSGSERVICEINFOMSGSUPPORT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILMSGSERVICEINFOMSGSUPPORT
 req.product: Windows 10 or later.
@@ -51,17 +52,6 @@ req.product: Windows 10 or later.
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef enum _RILMSGSERVICEINFOMSGSUPPORT { 
-  RIL_MSI_SMS_OUTGOING,
-  RIL_MSI_SMS_BROADCAST
-} RILMSGSERVICEINFOMSGSUPPORT;
-````
 
 
 ## -enum-fields

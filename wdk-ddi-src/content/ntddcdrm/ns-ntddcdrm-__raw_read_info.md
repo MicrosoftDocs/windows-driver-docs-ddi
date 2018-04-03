@@ -7,7 +7,7 @@ old-location: storage\raw_read_info.htm
 old-project: storage
 ms.assetid: 8786545d-39b2-4331-9d62-3b345eb58d1f
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PRAW_READ_INFO, PRAW_READ_INFO, PRAW_READ_INFO structure pointer [Storage Devices], RAW_READ_INFO, RAW_READ_INFO structure [Storage Devices], __RAW_READ_INFO, ntddcdrm/PRAW_READ_INFO, ntddcdrm/RAW_READ_INFO, storage.raw_read_info, structs-CD-ROM_4414d6ab-7048-4977-b373-58d1240f5262.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddcdrm.h
 api_name:
 -	RAW_READ_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RAW_READ_INFO, *PRAW_READ_INFO
 ---
@@ -49,19 +50,7 @@ req.typenames: RAW_READ_INFO, *PRAW_READ_INFO
 ## -description
 
 
-The RAW_READ_INFO structure is used in conjunction with the <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_raw_read.md">IOCTL_CDROM_RAW_READ</a> request to read data from a CD-ROM in raw mode.  
-
-
-## -syntax
-
-
-````
-typedef struct __RAW_READ_INFO {
-  LARGE_INTEGER   DiskOffset;
-  ULONG           SectorCount;
-  TRACK_MODE_TYPE TrackMode;
-} RAW_READ_INFO, *PRAW_READ_INFO;
-````
+The RAW_READ_INFO structure is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559361">IOCTL_CDROM_RAW_READ</a> request to read data from a CD-ROM in raw mode.  
 
 
 ## -struct-fields
@@ -81,21 +70,20 @@ Contains the number of sectors to read.
 
 ### -field TrackMode
 
-Contains an enumerator of type <a href="..\ntddcdrm\ne-ntddcdrm-_track_mode_type.md">TRACK_MODE_TYPE</a> that indicates the type of the track mode. 
+Contains an enumerator of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff567984">TRACK_MODE_TYPE</a> that indicates the type of the track mode. 
 
 
 ## -see-also
 
-<a href="..\ntddcdrm\ne-ntddcdrm-_track_mode_type.md">TRACK_MODE_TYPE</a>
 
 
 
-<a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_raw_read.md">IOCTL_CDROM_RAW_READ</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559361">IOCTL_CDROM_RAW_READ</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567984">TRACK_MODE_TYPE</a>
  
 
  
-
 

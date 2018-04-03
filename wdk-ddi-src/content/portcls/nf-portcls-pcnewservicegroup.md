@@ -7,7 +7,7 @@ old-location: audio\pcnewservicegroup.htm
 old-project: audio
 ms.assetid: 9fcc8cee-61a1-417c-9e69-5c658dab80b2
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/19/2018
 ms.keywords: PcNewServiceGroup, PcNewServiceGroup function [Audio Devices], audio.pcnewservicegroup, audpc-routines_2164b9cd-1bb5-4e51-aa07-6ed9cb40e3fb.xml, portcls/PcNewServiceGroup
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Portcls.dll
 api_name:
 -	PcNewServiceGroup
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
@@ -53,17 +54,6 @@ req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 The <b>PcNewServiceGroup</b> function creates and initializes a service group.
 
 
-## -syntax
-
-
-````
-NTSTATUS PcNewServiceGroup(
-  _Out_    PSERVICEGROUP *OutServiceGroup,
-  _In_opt_ PUNKNOWN      OuterUnknown
-);
-````
-
-
 ## -parameters
 
 
@@ -71,7 +61,7 @@ NTSTATUS PcNewServiceGroup(
 
 ### -param OutServiceGroup [out]
 
-Pointer to the service-group object created by this function. This parameter points to the caller-allocated pointer variable into which the function outputs the pointer to the <a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a> object. Specify a valid, non-<b>NULL</b> pointer value for this parameter.
+Pointer to the service-group object created by this function. This parameter points to the caller-allocated pointer variable into which the function outputs the pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536994">IServiceGroup</a> object. Specify a valid, non-<b>NULL</b> pointer value for this parameter.
 
 
 ### -param OuterUnknown [in, optional]
@@ -99,12 +89,11 @@ The <i>OutServiceGroup</i> and <i>OuterUnknown</i> parameters follow the <a href
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536994">IServiceGroup</a>
  
 
  
-
 

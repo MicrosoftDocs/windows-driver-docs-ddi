@@ -38,7 +38,8 @@ api_location:
 -	bthioctl.h
 api_name:
 -	BTH_DEVICE_INFO_LIST
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BTH_DEVICE_INFO_LIST, *PBTH_DEVICE_INFO_LIST
 ---
@@ -51,17 +52,6 @@ req.typenames: BTH_DEVICE_INFO_LIST, *PBTH_DEVICE_INFO_LIST
 
 The BTH_DEVICE_INFO_LIST structure contains output information about all cached, previously
   discovered remote devices.
-
-
-## -syntax
-
-
-````
-typedef struct _BTH_DEVICE_INFO_LIST {
-  ULONG           numOfDevices;
-  BTH_DEVICE_INFO deviceList[1];
-} BTH_DEVICE_INFO_LIST, *PBTH_DEVICE_INFO_LIST;
-````
 
 
 ## -struct-fields
@@ -86,7 +76,7 @@ An open-ended array of
 
 
 The 
-    <a href="..\bthioctl\ni-bthioctl-ioctl_bth_get_device_info.md">IOCTL_BTH_GET_DEVICE_INFO</a> call's
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff536683">IOCTL_BTH_GET_DEVICE_INFO</a> call's
     output buffer contains the list of all cached, previously discovered remote devices.
 
 The 
@@ -99,16 +89,15 @@ The
 
 ## -see-also
 
+
+
+
 <a href="http://go.microsoft.com/fwlink/p/?linkid=50713">BTH_DEVICE_INFO</a>
 
 
 
-<a href="..\bthioctl\ni-bthioctl-ioctl_bth_get_device_info.md">IOCTL_BTH_GET_DEVICE_INFO</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536683">IOCTL_BTH_GET_DEVICE_INFO</a>
  
 
  
-
 

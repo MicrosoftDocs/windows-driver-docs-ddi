@@ -38,7 +38,8 @@ api_location:
 -	1394.h
 api_name:
 -	SELF_ID_MORE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SELF_ID_MORE, *PSELF_ID_MORE
 ---
@@ -50,30 +51,6 @@ req.typenames: SELF_ID_MORE, *PSELF_ID_MORE
 
 
 The SELF_ID_MORE structure contains a raw packet one, two, or three self-ID packet. See the IEEE 1394 specification for details.
-
-
-## -syntax
-
-
-````
-typedef struct _SELF_ID_MORE {
-  ULONG SID_Phys_ID  :6;
-  ULONG SID_Packet_ID  :2;
-  ULONG SID_PortA  :2;
-  ULONG SID_Reserved2  :2;
-  ULONG SID_Sequence  :3;
-  ULONG SID_One  :1;
-  ULONG SID_PortE  :2;
-  ULONG SID_PortD  :2;
-  ULONG SID_PortC  :2;
-  ULONG SID_PortB  :2;
-  ULONG SID_More_Packets  :1;
-  ULONG SID_Reserved3  :1;
-  ULONG SID_PortH  :2;
-  ULONG SID_PortG  :2;
-  ULONG SID_PortF  :2;
-} SELF_ID_MORE, *PSELF_ID_MORE;
-````
 
 
 ## -struct-fields
@@ -247,12 +224,11 @@ This structure corresponds to self ID packet 1, as described in the <i>P1394a</i
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538877">TOPOLOGY_MAP</a>
-
-
-
  
 
  
-
 

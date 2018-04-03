@@ -39,7 +39,8 @@ api_location:
 -	None.dll
 api_name:
 -	WDF_ABS_TIMEOUT_IN_SEC
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_DEVICE_SHUTDOWN_FLAGS
 req.product: Windows 10 or later.
@@ -54,16 +55,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WDF_ABS_TIMEOUT_IN_SEC</b> function converts a specified number of seconds to an absolute time value.
-
-
-## -syntax
-
-
-````
-LONGLONG WDF_ABS_TIMEOUT_IN_SEC(
-  _In_ ULONGLONG Time
-);
-````
 
 
 ## -parameters
@@ -96,12 +87,11 @@ An absolute time value is a time value that specifies a specific date and time. 
 
 ## -see-also
 
-<a href="..\wdfcore\nf-wdfcore-wdf_rel_timeout_in_sec.md">WDF_REL_TIMEOUT_IN_SEC</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552449">WDF_REL_TIMEOUT_IN_SEC</a>
  
 
  
-
 

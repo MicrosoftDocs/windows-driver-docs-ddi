@@ -7,7 +7,7 @@ old-location: storage\mountdev_suggested_link_name.htm
 old-project: storage
 ms.assetid: 5c6e3337-8071-486a-826a-ade722eb8449
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PMOUNTDEV_SUGGESTED_LINK_NAME, MOUNTDEV_SUGGESTED_LINK_NAME, MOUNTDEV_SUGGESTED_LINK_NAME structure [Storage Devices], PMOUNTDEV_SUGGESTED_LINK_NAME, PMOUNTDEV_SUGGESTED_LINK_NAME structure pointer [Storage Devices], _MOUNTDEV_SUGGESTED_LINK_NAME, mountdev/MOUNTDEV_SUGGESTED_LINK_NAME, mountdev/PMOUNTDEV_SUGGESTED_LINK_NAME, storage.mountdev_suggested_link_name, structs-mntmgr_fc4a3528-34b9-4112-9501-87db4e87f9f3.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	mountdev.h
 api_name:
 -	MOUNTDEV_SUGGESTED_LINK_NAME
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MOUNTDEV_SUGGESTED_LINK_NAME, *PMOUNTDEV_SUGGESTED_LINK_NAME
 ---
@@ -50,18 +51,6 @@ req.typenames: MOUNTDEV_SUGGESTED_LINK_NAME, *PMOUNTDEV_SUGGESTED_LINK_NAME
 
 
 Mount manager clients that are able to keep track of their drive letters use this structure to request that the mount manager assign them a particular link name. 
-
-
-## -syntax
-
-
-````
-typedef struct _MOUNTDEV_SUGGESTED_LINK_NAME {
-  BOOLEAN UseOnlyIfThereAreNoOtherLinks;
-  USHORT  NameLength;
-  WCHAR   Name[1];
-} MOUNTDEV_SUGGESTED_LINK_NAME, *PMOUNTDEV_SUGGESTED_LINK_NAME;
-````
 
 
 ## -struct-fields
@@ -86,12 +75,11 @@ Contains a variable-sized array of wide characters that holds the name of the su
 
 ## -see-also
 
-<a href="..\mountdev\ni-mountdev-ioctl_mountdev_query_suggested_link_name.md">IOCTL_MOUNTDEV_QUERY_SUGGESTED_LINK_NAME</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560440">IOCTL_MOUNTDEV_QUERY_SUGGESTED_LINK_NAME</a>
  
 
  
-
 

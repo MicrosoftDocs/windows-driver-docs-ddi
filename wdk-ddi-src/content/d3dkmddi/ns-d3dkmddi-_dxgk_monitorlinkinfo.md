@@ -7,7 +7,7 @@ old-location: display\dxgk_monitorlinkinfo.htm
 old-project: display
 ms.assetid: 4A22CC69-F529-4D0B-BF00-877468E29429
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGK_MONITORLINKINFO, DXGK_MONITORLINKINFO structure [Display Devices], PDXGK_MONITORLINKINFO, PDXGK_MONITORLINKINFO structure pointer [Display Devices], _DXGK_MONITORLINKINFO, d3dkmddi/DXGK_MONITORLINKINFO, d3dkmddi/PDXGK_MONITORLINKINFO, display.dxgk_monitorlinkinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGK_MONITORLINKINFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_MONITORLINKINFO
 ---
@@ -50,17 +51,6 @@ req.typenames: DXGK_MONITORLINKINFO
 
 
 This structure was defined in WDDM 2.1, however the usage hints and capabilities structure definitions were nested within DXGK_MONITORLINKINFO.  In order to allow the same capabilities structure to be reused in DXGK_QUERYINTEGRATEDDISPLAYOUT, the nested definitions have been extracted into their own structures.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGK_MONITORLINKINFO {
-  DXGK_MONITORLINKINFO_USAGEHINTS   UsageHints;
-  DXGK_MONITORLINKINFO_CAPABILITIES Capabilities;
-} DXGK_MONITORLINKINFO, *PDXGK_MONITORLINKINFO;
-````
 
 
 ## -struct-fields

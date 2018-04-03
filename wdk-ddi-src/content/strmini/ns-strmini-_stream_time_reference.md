@@ -38,7 +38,8 @@ api_location:
 -	Strmini.h
 api_name:
 -	STREAM_TIME_REFERENCE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STREAM_TIME_REFERENCE, *PSTREAM_TIME_REFERENCE
 req.product: Windows 10 or later.
@@ -51,19 +52,6 @@ req.product: Windows 10 or later.
 
 
 
-
-
-## -syntax
-
-
-````
-typedef struct _STREAM_TIME_REFERENCE {
-  STREAM_TIMESTAMP CurrentOnboardClockValue;
-  LARGE_INTEGER    OnboardClockFrequency;
-  LARGE_INTEGER    CurrentSystemTime;
-  ULONG            Reserved[2];
-} STREAM_TIME_REFERENCE, *PSTREAM_TIME_REFERENCE;
-````
 
 
 ## -struct-fields

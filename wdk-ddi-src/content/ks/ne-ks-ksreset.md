@@ -38,7 +38,8 @@ api_location:
 -	Ks.h
 api_name:
 -	KSRESET
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSRESET
 ---
@@ -50,18 +51,6 @@ req.typenames: KSRESET
 
 
 
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  KSRESET_BEGIN,
-  KSRESET_END
-
-} KSRESET;
-````
 
 
 ## -enum-fields

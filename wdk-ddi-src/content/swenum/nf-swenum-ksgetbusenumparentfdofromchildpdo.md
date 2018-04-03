@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsGetBusEnumParentFDOFromChildPDO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STREAM_TIME_REFERENCE, *PSTREAM_TIME_REFERENCE
 req.product: Windows 10 or later.
@@ -54,17 +55,6 @@ req.product: Windows 10 or later.
 <i>This function is intended for internal use only.</i>
 
 The <b>KsGetBusEnumParentFDOFromChildPDO </b>function retrieves the FDO of the parent of the given child PDO. 
-
-
-## -syntax
-
-
-````
-NTSTATUS KsGetBusEnumParentFDOFromChildPDO(
-  _In_  PDEVICE_OBJECT DeviceObject,
-  _Out_ PDEVICE_OBJECT *FunctionalDeviceObject
-);
-````
 
 
 ## -parameters

@@ -7,7 +7,7 @@ old-location: display\pfnstatehssrvcb.htm
 old-project: display
 ms.assetid: 93a0a6b2-6a1a-4cef-ad7e-c5b606d11c17
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3D11DDI_STATE_HS_SRV_CB, d3d10umddi/pfnStateHsSrvCb, d3d11state_functions_dfb556c1-522f-40b1-b5dd-ddfa4a4fc557.xml, display.pfnstatehssrvcb, pfnStateHsSrvCb, pfnStateHsSrvCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3d10umddi.h
 api_name:
 -	pfnStateHsSrvCb
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 ---
@@ -52,30 +53,18 @@ req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 The <b>pfnStateHsSrvCb</b> function causes the Microsoft Direct3D 11 runtime to refresh the constant shader resource view state for the hull shader. 
 
 
-## -prototype
-
-
-````
-PFND3D11DDI_STATE_HS_SRV_CB pfnStateHsSrvCb;
-
-void APIENTRY pfnStateHsSrvCb(
-  _In_ D3D10DDI_HRTCORELAYER hRuntimeDevice,
-  _In_ UINT                  Base,
-  _In_ UINT                  Count
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
 
 
-### -param D3D10DDI_HRTCORELAYER
+### -param Arg1
 
 
-### -param UINT
+### -param Arg2
+
+
+### -param Arg3
 
 
 
@@ -96,7 +85,7 @@ void APIENTRY pfnStateHsSrvCb(
 
 #### - hRuntimeDevice [in]
 
- A handle to a context for the core Direct3D runtime. This handle is supplied to the driver in a call to the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a> function. 
+ A handle to a context for the core Direct3D runtime. This handle is supplied to the driver in a call to the driver's <a href="https://msdn.microsoft.com/c69eedb1-c975-412c-aa9f-cf64a702f937">CreateDevice(D3D10)</a> function. 
 
 
 ## -returns
@@ -110,16 +99,15 @@ None
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddi_corelayer_devicecallbacks.md">D3D11DDI_CORELAYER_DEVICECALLBACKS</a>
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a>
+<a href="https://msdn.microsoft.com/c69eedb1-c975-412c-aa9f-cf64a702f937">CreateDevice(D3D10)</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542137">D3D11DDI_CORELAYER_DEVICECALLBACKS</a>
  
 
  
-
 

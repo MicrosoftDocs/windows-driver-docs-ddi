@@ -38,7 +38,8 @@ api_location:
 -	wdfworkitem.h
 api_name:
 -	WDF_WORKITEM_CONFIG
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_WORKITEM_CONFIG, *PWDF_WORKITEM_CONFIG
 req.product: Windows 10 or later.
@@ -53,18 +54,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WDF_WORKITEM_CONFIG</b> structure contains information that is associated with a work item.
-
-
-## -syntax
-
-
-````
-typedef struct _WDF_WORKITEM_CONFIG {
-  ULONG            Size;
-  PFN_WDF_WORKITEM EvtWorkItemFunc;
-  BOOLEAN          AutomaticSerialization;
-} WDF_WORKITEM_CONFIG, *PWDF_WORKITEM_CONFIG;
-````
 
 
 ## -struct-fields
@@ -91,9 +80,9 @@ A Boolean value that, if <b>TRUE</b>, indicates that the framework will synchron
 
 
 
-Your driver must initialize the <b>WDF_WORKITEM_CONFIG</b> structure by calling <a href="..\wdfworkitem\nf-wdfworkitem-wdf_workitem_config_init.md">WDF_WORKITEM_CONFIG_INIT</a>. Your driver can then pass the structure to the <a href="..\wdfworkitem\nf-wdfworkitem-wdfworkitemcreate.md">WdfWorkItemCreate</a> method as an input parameter.
+Your driver must initialize the <b>WDF_WORKITEM_CONFIG</b> structure by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff553088">WDF_WORKITEM_CONFIG_INIT</a>. Your driver can then pass the structure to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551201">WdfWorkItemCreate</a> method as an input parameter.
 
-Setting the <b>AutomaticSerialization</b> member of <b>WDF_WORKITEM_CONFIG</b> to <b>TRUE</b> has no effect if the parent object's <a href="..\wdfobject\ne-wdfobject-_wdf_synchronization_scope.md">synchronization scope</a> is set to <b>WdfSynchronizationScopeNone</b>.
+Setting the <b>AutomaticSerialization</b> member of <b>WDF_WORKITEM_CONFIG</b> to <b>TRUE</b> has no effect if the parent object's <a href="https://msdn.microsoft.com/a251bf5c-c09b-4097-a9ed-82f2312ac408">synchronization scope</a> is set to <b>WdfSynchronizationScopeNone</b>.
 
 If <b>AutomaticSerialization</b> is <b>TRUE</b>, the parent object's execution level must be <b>WdfExecutionLevelPassive</b>.
 
@@ -104,20 +93,19 @@ For more information about <b>AutomaticSerialization</b> and synchronizing drive
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/2a2811de-9024-40a8-b8af-b61ca4100218">EvtWorkItem</a>
 
 
 
-<a href="..\wdfworkitem\nf-wdfworkitem-wdf_workitem_config_init.md">WDF_WORKITEM_CONFIG_INIT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553088">WDF_WORKITEM_CONFIG_INIT</a>
 
 
 
-<a href="..\wdfworkitem\nf-wdfworkitem-wdfworkitemcreate.md">WdfWorkItemCreate</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551201">WdfWorkItemCreate</a>
  
 
  
-
 

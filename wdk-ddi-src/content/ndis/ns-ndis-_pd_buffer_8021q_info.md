@@ -7,7 +7,7 @@ old-location: netvista\pd_buffer_8021q_info.htm
 old-project: netvista
 ms.assetid: B5B2051E-C62F-4E3D-9C52-DE46145A2C24
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: PD_BUFFER_8021Q_INFO, PD_BUFFER_8021Q_INFO structure [Network Drivers Starting with Windows Vista], PPD_BUFFER_8021Q_INFO, PPD_BUFFER_8021Q_INFO structure pointer [Network Drivers Starting with Windows Vista], _PD_BUFFER_8021Q_INFO, ndis/PD_BUFFER_8021Q_INFO, ndis/PPD_BUFFER_8021Q_INFO, netvista.pd_buffer_8021q_info
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ndis.h
 api_name:
 -	PD_BUFFER_8021Q_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PD_BUFFER_8021Q_INFO
 ---
@@ -50,18 +51,6 @@ req.typenames: PD_BUFFER_8021Q_INFO
 
 
 This structure contains the IEEE 802.1Q information.
-
-
-## -syntax
-
-
-````
-typedef struct _PD_BUFFER_8021Q_INFO {
-  UINT16 UserPriority  :3;
-  UINT16 CanonicalFormatId  :1;
-  UINT16 VlanId  :12;
-} PD_BUFFER_8021Q_INFO, *PPD_BUFFER_8021Q_INFO;
-````
 
 
 ## -struct-fields

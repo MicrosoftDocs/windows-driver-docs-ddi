@@ -7,7 +7,7 @@ old-location: display\dxgk_physicaladapterflags.htm
 old-project: display
 ms.assetid: AACF0C99-D6E2-4C7C-BAE6-BF558FDAFDE0
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGK_PHYSICALADAPTERFLAGS, DXGK_PHYSICALADAPTERFLAGS structure [Display Devices], _DXGK_PHYSICALADAPTERFLAGS, d3dkmddi/DXGK_PHYSICALADAPTERFLAGS, display.dxgk_physicaladapterflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGK_PHYSICALADAPTERFLAGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_PHYSICALADAPTERFLAGS
 ---
@@ -50,25 +51,6 @@ req.typenames: DXGK_PHYSICALADAPTERFLAGS
 
 
 <b>DXGK_PHYSICALADAPTERFLAGS</b> defines a set of flags that used to indicate the type of memory management model that is supported by a device.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGK_PHYSICALADAPTERFLAGS {
-  union {
-    struct {
-      UINT IoMmuSupported  :1;
-      UINT GpuMmuSupported  :1;
-      UINT MovingPagingSupported  :1;
-      UINT VPRPagingContextRequired  :1;
-      UINT Reserved  :28;
-    };
-    UINT   Value;
-  };
-} DXGK_PHYSICALADAPTERFLAGS;
-````
 
 
 ## -struct-fields

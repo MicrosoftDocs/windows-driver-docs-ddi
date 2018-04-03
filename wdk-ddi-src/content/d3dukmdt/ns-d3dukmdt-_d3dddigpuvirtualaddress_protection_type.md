@@ -7,7 +7,7 @@ old-location: display\d3dddigpuvirtualaddress_protection_type.htm
 old-project: display
 ms.assetid: CA46EEC4-5F3D-4E4C-8C83-6D91BE301C68
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE, D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE structure [Display Devices], _D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE, d3dukmdt/D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE, display.d3dddigpuvirtualaddress_protection_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dukmdt.h
 api_name:
 -	D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE
 ---
@@ -50,26 +51,6 @@ req.typenames: D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE
 
 
 <b>D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE</b> specifies the protection on the graphics processing unit (GPU) virtual address that is mapped.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE {
-  union {
-    struct {
-      UINT64 Write  :1;
-      UINT64 Execute  :1;
-      UINT64 Zero  :1;
-      UINT64 NoAccess  :1;
-      UINT64 SystemUseOnly  :1;
-      UINT64 Reserved  :59;
-    };
-    UINT64 Value;
-  };
-} D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE;
-````
 
 
 ## -struct-fields

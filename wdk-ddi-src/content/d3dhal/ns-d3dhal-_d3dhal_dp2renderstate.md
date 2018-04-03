@@ -7,7 +7,7 @@ old-location: display\d3dhal_dp2renderstate.htm
 old-project: display
 ms.assetid: 9d30ed5d-0621-4a90-941c-c5b0564df13f
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*LPD3DHAL_DP2RENDERSTATE, D3DHAL_DP2RENDERSTATE, D3DHAL_DP2RENDERSTATE structure [Display Devices], LPD3DHAL_DP2RENDERSTATE, LPD3DHAL_DP2RENDERSTATE structure pointer [Display Devices], _D3DHAL_DP2RENDERSTATE, d3dhal/D3DHAL_DP2RENDERSTATE, d3dhal/LPD3DHAL_DP2RENDERSTATE, d3dstrct_4cfe9ea2-c3cc-432d-bd11-85d51ba121b5.xml, display.d3dhal_dp2renderstate"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dhal.h
 api_name:
 -	D3DHAL_DP2RENDERSTATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DHAL_DP2RENDERSTATE
 ---
@@ -49,21 +50,7 @@ req.typenames: D3DHAL_DP2RENDERSTATE
 ## -description
 
 
-One or more D3DHAL_DP2RENDERSTATE structures are parsed from the command buffer by the <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a> callback when the <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a> structure's <b>bCommand</b> member is set to D3DDP2OP_RENDERSTATE, and are used to set the appropriate render state.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DHAL_DP2RENDERSTATE {
-  D3DRENDERSTATETYPE RenderState;
-  union {
-    D3DVALUE dvState;
-    DWORD    dwState;
-  };
-} D3DHAL_DP2RENDERSTATE, *LPD3DHAL_DP2RENDERSTATE;
-````
+One or more D3DHAL_DP2RENDERSTATE structures are parsed from the command buffer by the <a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a> callback when the <a href="https://msdn.microsoft.com/library/windows/hardware/ff545454">D3DHAL_DP2COMMAND</a> structure's <b>bCommand</b> member is set to D3DDP2OP_RENDERSTATE, and are used to set the appropriate render state.
 
 
 ## -struct-fields
@@ -73,7 +60,7 @@ typedef struct _D3DHAL_DP2RENDERSTATE {
 
 ### -field RenderState
 
-Specifies a D3DRENDERSTATETYPE enumerated type that indicates the render state to be updated. Render states that are requested at the application level are described in the DirectX SDK documentation. Render states that are exclusively used by drivers are described in <a href="..\d3d9types\ne-d3d9types-_d3drenderstatetype.md">D3DRENDERSTATETYPE</a>.
+Specifies a D3DRENDERSTATETYPE enumerated type that indicates the render state to be updated. Render states that are requested at the application level are described in the DirectX SDK documentation. Render states that are exclusively used by drivers are described in <a href="https://msdn.microsoft.com/library/windows/hardware/ff549036">D3DRENDERSTATETYPE</a>.
 
 
 #### - dvState
@@ -91,9 +78,9 @@ Specifies the value that the driver should update the render state identified by
 
 
 
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a> should process <b>wStateCount</b> D3DHAL_DP2RENDERSTATE structures from the command buffer. The value of <b>wStateCount</b> is specified in the D3DHAL_DP2COMMAND structure.
+<a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a> should process <b>wStateCount</b> D3DHAL_DP2RENDERSTATE structures from the command buffer. The value of <b>wStateCount</b> is specified in the D3DHAL_DP2COMMAND structure.
 
-For each D3DHAL_DP2RENDERSTATE structure, <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a> should update the driver's private render state and the render state array that the <b>lpdwRStates</b> member of <a href="..\d3dhal\ns-d3dhal-_d3dhal_drawprimitives2data.md">D3DHAL_DRAWPRIMITIVES2DATA</a> points to. The element to be updated in the public render state array is <b>lpdwRStates[RenderState]</b>.
+For each D3DHAL_DP2RENDERSTATE structure, <a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a> should update the driver's private render state and the render state array that the <b>lpdwRStates</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff545957">D3DHAL_DRAWPRIMITIVES2DATA</a> points to. The element to be updated in the public render state array is <b>lpdwRStates[RenderState]</b>.
 
 The following figure shows a portion of a sample command buffer containing a D3DDP2OP_RENDERSTATE command and two D3DHAL_DP2RENDERSTATE structures. The driver should update <b>lpdwRStates</b>[D3DRENDERSTATE_FILLMODE] to be D3DFILL_SOLID and <b>lpdwRStates</b>[D3DRENDERSTATE_SHADEMODE] to be D3DSHADE_GOURAUD. The driver should also update its private state accordingly.
 
@@ -105,11 +92,6 @@ Although render states whose values are Boolean in type are documented as only a
 
 ## -see-also
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_drawprimitives2data.md">D3DHAL_DRAWPRIMITIVES2DATA</a>
-
-
-
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
 
 
 
@@ -117,16 +99,20 @@ D3DDP2OP_RENDERSTATE
 
 
 
-<a href="..\d3d9types\ne-d3d9types-_d3drenderstatetype.md">D3DRENDERSTATETYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545454">D3DHAL_DP2COMMAND</a>
 
 
 
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545957">D3DHAL_DRAWPRIMITIVES2DATA</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549036">D3DRENDERSTATETYPE</a>
+
+
+
+<a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: display\ioctl_video_switch_dualview.htm
 old-project: display
 ms.assetid: 09fe033f-7876-4b23-baf6-5afe0866bb1d
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_VIDEO_SWITCH_DUALVIEW, IOCTL_VIDEO_SWITCH_DUALVIEW control code [Display Devices], Video_IOCTLs_424b313b-2f68-4284-97d6-596f1407ee96.xml, display.ioctl_video_switch_dualview, ntddvdeo/IOCTL_VIDEO_SWITCH_DUALVIEW
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ntddvdeo.h
 api_name:
 -	IOCTL_VIDEO_SWITCH_DUALVIEW
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TAPE_WRITE_MARKS, *PTAPE_WRITE_MARKS
 ---
@@ -50,7 +51,7 @@ req.typenames: TAPE_WRITE_MARKS, *PTAPE_WRITE_MARKS
 
 
 
-Notifies the video miniport that a secondary view is about to be enabled or disabled. A secondary view is enabled by a call to the video port driver's <a href="..\video\nf-video-videoportcreatesecondarydisplay.md">VideoPortCreateSecondaryDisplay</a>.
+Notifies the video miniport that a secondary view is about to be enabled or disabled. A secondary view is enabled by a call to the video port driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff570288">VideoPortCreateSecondaryDisplay</a>.
 
 Windows XP and later send this request to the video miniport driver to notify it of a secondary view change of status. Video miniport drivers can use this notification to make video memory arrangements in advance. For example, when the display driver sets the mode of the primary view, it can reserve video memory for one or more secondary views. 
 
@@ -140,17 +141,16 @@ None
 
 ### -status-block
 
-The miniport driver does not set the <b>Information</b> member of the <a href="..\video\ns-video-_status_block.md">STATUS_BLOCK</a> structure.
+The miniport driver does not set the <b>Information</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569732">STATUS_BLOCK</a> structure.
 
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportcreatesecondarydisplay.md">VideoPortCreateSecondaryDisplay</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570288">VideoPortCreateSecondaryDisplay</a>
  
 
  
-
 

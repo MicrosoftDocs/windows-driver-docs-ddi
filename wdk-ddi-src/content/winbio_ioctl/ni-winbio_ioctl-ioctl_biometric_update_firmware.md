@@ -38,7 +38,8 @@ api_location:
 -	Winbio_ioctl.h
 api_name:
 -	IOCTL_BIOMETRIC_UPDATE_FIRMWARE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BMP_IMAGE_INFO, *PBMP_IMAGE_INFO
 req.product: Windows 10 or later.
@@ -61,18 +62,18 @@ The IOCTL_BIOMETRIC_UPDATE_FIRMWARE IOCTL tells the driver to update the firmwar
 ### -input-buffer
 
 
-<a href="..\winbio_ioctl\ns-winbio_ioctl-_winbio_update_firmware.md">WINBIO_UPDATE_FIRMWARE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536479">WINBIO_UPDATE_FIRMWARE</a>
 
 
 
 ### -input-buffer-length
 
-Length of a <a href="..\winbio_ioctl\ns-winbio_ioctl-_winbio_update_firmware.md">WINBIO_UPDATE_FIRMWARE</a> structure.
+Length of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff536479">WINBIO_UPDATE_FIRMWARE</a> structure.
 
 
 ### -output-buffer
 
-The AssociatedIrp.SystemBuffer member points to a buffer that contains a <a href="..\winbio_ioctl\ns-winbio_ioctl-_winbio_blank_payload.md">WINBIO_BLANK_PAYLOAD</a> structure.
+The AssociatedIrp.SystemBuffer member points to a buffer that contains a <a href="https://msdn.microsoft.com/library/windows/hardware/ff536464">WINBIO_BLANK_PAYLOAD</a> structure.
 
 
 ### -output-buffer-length

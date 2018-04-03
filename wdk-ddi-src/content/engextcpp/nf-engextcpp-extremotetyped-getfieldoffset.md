@@ -7,7 +7,7 @@ old-location: debugger\extremotetyped_getfieldoffset.htm
 old-project: debugger
 ms.assetid: d74d5b61-f8e8-4ee0-83d2-cfb003189ef4
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: EngExtCpp_Ref_167b764a-f061-46c2-97ce-71c22ddd9b6f.xml, ExtRemoteTyped, ExtRemoteTyped interface [Windows Debugging], GetFieldOffset method, ExtRemoteTyped::GetFieldOffset, GetFieldOffset method [Windows Debugging], GetFieldOffset method [Windows Debugging], ExtRemoteTyped interface, GetFieldOffset,ExtRemoteTyped.GetFieldOffset, debugger.extremotetyped_getfieldoffset
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	engextcpp.hpp
 api_name:
 -	ExtRemoteTyped.GetFieldOffset
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 ---
@@ -50,16 +51,6 @@ req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 
 
 The <b>GetFieldOffset</b> method returns the offset of a member from the base address of an instance of the type that is represented by this object.
-
-
-## -syntax
-
-
-````
-ULONG GetFieldOffset(
-  [in] PCSTR Field
-);
-````
 
 
 ## -parameters
@@ -83,20 +74,19 @@ The name of the member whose offset is requested.  Sub-members can be specified 
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544162">ExtRemoteTyped</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546758">GetFieldOffset</a>
+
+
+
 <b>IDebugSymbols::GetFieldOffset</b>
-
-
-
-<a href="..\wdbgexts\nf-wdbgexts-getfieldoffset.md">GetFieldOffset</a>
-
-
-
-<a href="..\engextcpp\nl-engextcpp-extremotetyped.md">ExtRemoteTyped</a>
-
-
-
  
 
  
-
 

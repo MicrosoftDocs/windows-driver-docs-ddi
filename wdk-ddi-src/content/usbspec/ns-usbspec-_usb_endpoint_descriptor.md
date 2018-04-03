@@ -7,7 +7,7 @@ old-location: buses\usb_endpoint_descriptor.htm
 old-project: usbref
 ms.assetid: fb4f25e4-cf72-4308-9685-edc62b1cc510
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PUSB_ENDPOINT_DESCRIPTOR, PUSB_ENDPOINT_DESCRIPTOR, PUSB_ENDPOINT_DESCRIPTOR structure pointer [Buses], USB_ENDPOINT_DESCRIPTOR, USB_ENDPOINT_DESCRIPTOR structure [Buses], _USB_ENDPOINT_DESCRIPTOR, buses.usb_endpoint_descriptor, usbspec/PUSB_ENDPOINT_DESCRIPTOR, usbspec/USB_ENDPOINT_DESCRIPTOR, usbstrct_3e135b0b-f2a1-4d7a-92b8-4a9e2724726c.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	usbspec.h
 api_name:
 -	USB_ENDPOINT_DESCRIPTOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USB_ENDPOINT_DESCRIPTOR, *PUSB_ENDPOINT_DESCRIPTOR
 req.product: Windows 10 or later.
@@ -51,21 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>USB_ENDPOINT_DESCRIPTOR</b> structure is used by USB client drivers to retrieve a USB-defined endpoint descriptor.
-
-
-## -syntax
-
-
-````
-typedef struct _USB_ENDPOINT_DESCRIPTOR {
-  UCHAR  bLength;
-  UCHAR  bDescriptorType;
-  UCHAR  bEndpointAddress;
-  UCHAR  bmAttributes;
-  USHORT wMaxPacketSize;
-  UCHAR  bInterval;
-} USB_ENDPOINT_DESCRIPTOR, *PUSB_ENDPOINT_DESCRIPTOR;
-````
 
 
 ## -struct-fields
@@ -254,11 +240,10 @@ The mappings in the preceding tables between periods and polling intervals are v
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-
-
-
-<a href="..\usb\ns-usb-_urb_control_descriptor_request.md">_URB_CONTROL_DESCRIPTOR_REQUEST</a>
 
 
 
@@ -266,8 +251,8 @@ The mappings in the preceding tables between periods and polling intervals are v
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540357">_URB_CONTROL_DESCRIPTOR_REQUEST</a>
  
 
  
-
 

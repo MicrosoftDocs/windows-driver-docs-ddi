@@ -38,7 +38,8 @@ api_location:
 -	nfcradiodev.h
 api_name:
 -	NFCRM_RADIO_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NFCRM_RADIO_STATE, *PNFCRM_RADIO_STATE
 ---
@@ -50,16 +51,6 @@ req.typenames: NFCRM_RADIO_STATE, *PNFCRM_RADIO_STATE
 
 
 This structure is used to indicate the radio state.
-
-
-## -syntax
-
-
-````
-typedef struct _NFCRM_RADIO_STATE  {
-  BOOLEAN MediaRadioOn;
-} NFCRM_RADIO_STATE, *PNFCRM_RADIO_STATE;
-````
 
 
 ## -struct-fields

@@ -38,7 +38,8 @@ api_location:
 -	Sti.h
 api_name:
 -	IStiDevice.Release
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STI_DEVICE_MJ_TYPE, STI_DEVICE_MJ_TYPE
 req.product: Windows 10 or later.
@@ -51,14 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>IStiDevice::Release</b> method closes the instance of the COM object that was created by a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff543778">IStillImage::CreateDevice</a>, and removes access to the object's interface.
-
-
-## -syntax
-
-
-````
-HRESULT Release();
-````
 
 
 ## -parameters

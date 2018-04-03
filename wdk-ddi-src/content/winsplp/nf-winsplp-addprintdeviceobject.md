@@ -38,7 +38,8 @@ api_location:
 -	WinSpool.drv
 api_name:
 -	AddPrintDeviceObject
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NOTIFICATION_CONFIG_FLAGS
 req.product: Windows 10 or later.
@@ -53,17 +54,6 @@ req.product: Windows 10 or later.
 <div class="alert"><b>Warning</b>  <p class="note">Starting with Windows 10, the APIs which support third-party print providers are deprecated. Microsoft does not recommend any investment into third-party print providers. Additionally, on Windows 8 and newer products where the v4 print driver model is available, third-party print providers may not create or manage queues which use v4 print drivers.
 
 </div><div> </div>The <b>AddPrintDeviceObject</b> print provider function creates a device object for a print provider queue.
-
-
-## -syntax
-
-
-````
-HRESULT WINAPI AddPrintDeviceObject(
-  _In_  HANDLE hPrinter,
-  _Out_ HANDLE *phDeviceObject
-);
-````
 
 
 ## -parameters
@@ -113,7 +103,7 @@ The function must be called by impersonating the user who is installing the prin
 
 <ul>
 <li>
-The print provider should call this function for each previously-installed Printer owned by the provider. During this time, <b>AddPrintDeviceObject</b> doesn't have to impersonate the user context when it is called.<div class="alert"><b>Note</b>  Any device object that is added using  <b>AddPrintDeviceObject</b> will persist until you remove it using <a href="..\winsplp\nf-winsplp-removeprintdeviceobject.md">RemovePrintDeviceObject</a>, or 
+The print provider should call this function for each previously-installed Printer owned by the provider. During this time, <b>AddPrintDeviceObject</b> doesn't have to impersonate the user context when it is called.<div class="alert"><b>Note</b>  Any device object that is added using  <b>AddPrintDeviceObject</b> will persist until you remove it using <a href="https://msdn.microsoft.com/library/windows/hardware/dn897337">RemovePrintDeviceObject</a>, or 
     until the spooler service restarts. And when the spooler services stops, all the device objects are automatically deleted.</div>
 <div> </div>
 
@@ -125,12 +115,11 @@ The print provider should call this function for each previously-installed Print
 
 ## -see-also
 
-<a href="..\winsplp\nf-winsplp-removeprintdeviceobject.md">RemovePrintDeviceObject</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn897337">RemovePrintDeviceObject</a>
  
 
  
-
 

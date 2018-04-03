@@ -7,7 +7,7 @@ old-location: kernel\clfsmgmtinstallpolicy.htm
 old-project: kernel
 ms.assetid: 0a492a86-e732-4302-b35d-9b2a5eb05445
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: ClfsMgmtInstallPolicy, ClfsMgmtInstallPolicy routine [Kernel-Mode Driver Architecture], Clfs_management_44c8b983-a3bb-4fe3-9022-3e669ba5af2b.xml, kernel.clfsmgmtinstallpolicy, wdm/ClfsMgmtInstallPolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ext-MS-Win-fs-clfs-l1-1-0.dll
 api_name:
 -	ClfsMgmtInstallPolicy
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
@@ -51,19 +52,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>ClfsMgmtInstallPolicy</b> routine adds a <a href="..\wdm\ns-wdm-_clfs_mgmt_policy.md">CLFS_MGMT_POLICY</a> structure to a physical log.
-
-
-## -syntax
-
-
-````
-NTSTATUS ClfsMgmtInstallPolicy(
-  _In_ PLOG_FILE_OBJECT  LogFile,
-  _In_ PCLFS_MGMT_POLICY Policy,
-  _In_ ULONG             PolicyLength
-);
-````
+The <b>ClfsMgmtInstallPolicy</b> routine adds a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541842">CLFS_MGMT_POLICY</a> structure to a physical log.
 
 
 ## -parameters
@@ -78,7 +67,7 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff55
 
 ### -param Policy [in]
 
-A pointer to a <a href="..\wdm\ns-wdm-_clfs_mgmt_policy.md">CLFS_MGMT_POLICY</a> structure that contains the policy to be installed.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541842">CLFS_MGMT_POLICY</a> structure that contains the policy to be installed.
 
 
 ### -param PolicyLength [in]
@@ -137,7 +126,7 @@ A <b>NULL</b> value was supplied for the <i>Policy</i> parameter.
 </dl>
 </td>
 <td width="60%">
-The value of the <i>PolicyLength</i> parameter is less than the size of an instance of the <a href="..\wdm\ns-wdm-_clfs_mgmt_policy.md">CLFS_MGMT_POLICY</a> structure.
+The value of the <i>PolicyLength</i> parameter is less than the size of an instance of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541842">CLFS_MGMT_POLICY</a> structure.
 
 </td>
 </tr>
@@ -222,12 +211,11 @@ The log policy that is installed applies to the physical log, even if the <i>Log
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_clfs_mgmt_policy.md">CLFS_MGMT_POLICY</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541842">CLFS_MGMT_POLICY</a>
  
 
  
-
 

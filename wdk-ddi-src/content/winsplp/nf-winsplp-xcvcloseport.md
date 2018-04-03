@@ -38,7 +38,8 @@ apilocation:
 -	winsplp.h
 apiname:
 -	XcvClosePort
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NOTIFICATION_CONFIG_FLAGS
 req.product: Windows 10 or later.

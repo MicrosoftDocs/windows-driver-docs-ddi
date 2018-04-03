@@ -41,7 +41,8 @@ api_location:
 -	WUDFx02000.dll.dll
 api_name:
 -	WdfRegistryClose
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_QUERY_INTERFACE_CONFIG, *PWDF_QUERY_INTERFACE_CONFIG
 req.product: Windows 10 or later.
@@ -56,16 +57,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WdfRegistryClose</b> method closes the registry key that is associated with a specified framework registry-key object and then deletes the registry-key object.
-
-
-## -syntax
-
-
-````
-VOID WdfRegistryClose(
-  _In_ WDFKEY Key
-);
-````
 
 
 ## -parameters
@@ -95,7 +86,7 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
-After your driver has finished accessing a registry key, it must call <b>WdfRegistryClose</b> or <a href="..\wdfobject\nf-wdfobject-wdfobjectdelete.md">WdfObjectDelete</a>. Both of these methods close the registry key and delete the registry-key object. 
+After your driver has finished accessing a registry key, it must call <b>WdfRegistryClose</b> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff548734">WdfObjectDelete</a>. Both of these methods close the registry key and delete the registry-key object. 
 
 For more information about registry-key objects, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-the-registry-in-umdf-1-x-drivers">Using the Registry in Framework-Based Drivers</a>.
 
@@ -119,12 +110,11 @@ The following code example closes a registry key and deletes the registry-key ob
 
 ## -see-also
 
-<a href="..\wdfobject\nf-wdfobject-wdfobjectdelete.md">WdfObjectDelete</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548734">WdfObjectDelete</a>
  
 
  
-
 

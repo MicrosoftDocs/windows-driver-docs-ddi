@@ -7,7 +7,7 @@ old-location: ifsk\wim_provider_overlay_entry.htm
 old-project: ifsk
 ms.assetid: 8D1C9C8B-0545-42D7-860F-E2263457E61F
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: "*PWIM_PROVIDER_OVERLAY_ENTRY, PWIM_PROVIDER_OVERLAY_ENTRY, PWIM_PROVIDER_OVERLAY_ENTRY structure pointer [Installable File System Drivers], WIM_BOOT_NOT_OS_WIM, WIM_BOOT_OS_WIM, WIM_PROVIDER_EXTERNAL_FLAG_NOT_ACTIVE, WIM_PROVIDER_EXTERNAL_FLAG_SUSPENDED, WIM_PROVIDER_OVERLAY_ENTRY, WIM_PROVIDER_OVERLAY_ENTRY structure [Installable File System Drivers], _WIM_PROVIDER_OVERLAY_ENTRY, ifsk.wim_provider_overlay_entry, ntifs/PWIM_PROVIDER_OVERLAY_ENTRY, ntifs/WIM_PROVIDER_OVERLAY_ENTRY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntifs.h
 api_name:
 -	WIM_PROVIDER_OVERLAY_ENTRY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WIM_PROVIDER_OVERLAY_ENTRY, *PWIM_PROVIDER_OVERLAY_ENTRY
 ---
@@ -50,22 +51,6 @@ req.typenames: WIM_PROVIDER_OVERLAY_ENTRY, *PWIM_PROVIDER_OVERLAY_ENTRY
 
 
 Contains the  a Windows Image Format (WIM) file configuration information for a data source entry. It is used to identify specific WIM file names and indices that supply data to externally backed files on a volume.
-
-
-## -syntax
-
-
-````
-typedef struct _WIM_PROVIDER_OVERLAY_ENTRY {
-  ULONG         NextEntryOffset;
-  LARGE_INTEGER DataSourceId;
-  GUID          WimGuid;
-  ULONG         WimFileNameOffset;
-  ULONG         WimType;
-  ULONG         WimIndex;
-  ULONG         Flags;
-} WIM_PROVIDER_OVERLAY_ENTRY, *PWIM_PROVIDER_OVERLAY_ENTRY;
-````
 
 
 ## -struct-fields
@@ -166,12 +151,11 @@ Indicates that the provider is dismounted. Recovery will be attempted.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn632440">FSCTL_ENUM_OVERLAY</a>
-
-
-
  
 
  
-
 

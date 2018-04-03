@@ -38,7 +38,8 @@ api_location:
 -	parallel.h
 api_name:
 -	PARALLEL_1284_COMMAND
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PARALLEL_1284_COMMAND, *PPARALLEL_1284_COMMAND
 ---

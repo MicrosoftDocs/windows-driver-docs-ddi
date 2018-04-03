@@ -38,7 +38,8 @@ api_location:
 -	2.0\Sercx.h
 api_name:
 -	EvtSerCx2CustomReceiveTransactionInitialize
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SENSOR_VALUE_PAIR, *PSENSOR_VALUE_PAIR
 req.product: Windows 10 or later.
@@ -53,22 +54,6 @@ req.product: Windows 10 or later.
 The <i>EvtSerCx2CustomReceiveTransactionInitialize</i> event callback function is called by version 2 of the serial framework extension (SerCx2) to prepare the serial controller hardware to perform a new custom-receive transaction.
 
 
-## -prototype
-
-
-````
-EVT_SERCX2_CUSTOM_RECEIVE_TRANSACTION_INITIALIZE EvtSerCx2CustomReceiveTransactionInitialize;
-
-VOID EvtSerCx2CustomReceiveTransactionInitialize(
-  _In_ SERCX2CUSTOMRECEIVETRANSACTION CustomReceiveTransaction,
-  _In_ PMDL                           Mdl,
-  _In_ ULONG                          Offset,
-  _In_ ULONG                          Length
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -76,12 +61,12 @@ VOID EvtSerCx2CustomReceiveTransactionInitialize(
 
 ### -param CustomReceiveTransaction [in]
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/dn265249">SERCX2CUSTOMRECEIVETRANSACTION</a> handle to a custom-receive-transaction object. The serial controller driver previously called the <a href="..\sercx\nf-sercx-sercx2customreceivetransactioncreate.md">SerCx2CustomReceiveTransactionCreate</a> method to create this object.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/dn265249">SERCX2CUSTOMRECEIVETRANSACTION</a> handle to a custom-receive-transaction object. The serial controller driver previously called the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265251">SerCx2CustomReceiveTransactionCreate</a> method to create this object.
 
 
 ### -param Mdl [in]
 
-A pointer to an <a href="..\wdm\ns-wdm-_mdl.md">MDL</a> that describes the memory pages that are spanned by the read buffer for the custom-receive transaction. The scatter/gather list for the DMA transfer will use the region of this memory that is specified by the <i>Offset</i> and <i>Length</i> parameters.
+A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff554414">MDL</a> that describes the memory pages that are spanned by the read buffer for the custom-receive transaction. The scatter/gather list for the DMA transfer will use the region of this memory that is specified by the <i>Offset</i> and <i>Length</i> parameters.
 
 
 ### -param Offset [in]
@@ -107,9 +92,9 @@ None.
 
 
 
-Your serial controller driver can, as an option, implement this function. If implemented, the driver registers the function in the <a href="..\sercx\nf-sercx-sercx2customreceivetransactioncreate.md">SerCx2CustomReceiveTransactionCreate</a> call that creates the custom-receive object.
+Your serial controller driver can, as an option, implement this function. If implemented, the driver registers the function in the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265251">SerCx2CustomReceiveTransactionCreate</a> call that creates the custom-receive object.
 
-Your driver should implement an <i>EvtSerCx2CustomReceiveTransactionInitialize</i> function if it needs to initialize the serial controller and associated hardware in preparation for a new custom-receive transaction. SerCx2 calls this function, if it is implemented, before starting the custom-receive transaction. In response to this call, the serial controller driver must call the <a href="..\sercx\nf-sercx-sercx2customreceivetransactioninitializecomplete.md">SerCx2CustomReceiveTransactionInitializeComplete</a> method to notify SerCx2 after the initialization is finished.
+Your driver should implement an <i>EvtSerCx2CustomReceiveTransactionInitialize</i> function if it needs to initialize the serial controller and associated hardware in preparation for a new custom-receive transaction. SerCx2 calls this function, if it is implemented, before starting the custom-receive transaction. In response to this call, the serial controller driver must call the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265252">SerCx2CustomReceiveTransactionInitializeComplete</a> method to notify SerCx2 after the initialization is finished.
 
 For more information, see <a href="https://msdn.microsoft.com/29849A8C-6656-444C-BE91-405A4BA2D5B0">SerCx2 Custom-Receive Transactions</a>.
 
@@ -159,19 +144,6 @@ The <b>EVT_SERCX2_CUSTOM_RECEIVE_TRANSACTION_INITIALIZE</b> function type is def
 
 ## -see-also
 
-<a href="..\sercx\nf-sercx-sercx2customreceivetransactioninitializecomplete.md">SerCx2CustomReceiveTransactionInitializeComplete</a>
-
-
-
-<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
-
-
-
-<a href="..\sercx\nf-sercx-sercx2customreceivetransactioncreate.md">SerCx2CustomReceiveTransactionCreate</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265249">SERCX2CUSTOMRECEIVETRANSACTION</a>
 
 
 
@@ -179,8 +151,20 @@ The <b>EVT_SERCX2_CUSTOM_RECEIVE_TRANSACTION_INITIALIZE</b> function type is def
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554414">MDL</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265249">SERCX2CUSTOMRECEIVETRANSACTION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265251">SerCx2CustomReceiveTransactionCreate</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265252">SerCx2CustomReceiveTransactionInitializeComplete</a>
  
 
  
-
 

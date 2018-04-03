@@ -7,7 +7,7 @@ old-location: audio\ksrtaudio_buffer.htm
 old-project: audio
 ms.assetid: b80efaf0-ecee-40cd-befb-2139a20840a5
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/19/2018
 ms.keywords: "*PKSRTAUDIO_BUFFER, KSRTAUDIO_BUFFER, KSRTAUDIO_BUFFER structure [Audio Devices], PKSRTAUDIO_BUFFER, PKSRTAUDIO_BUFFER structure pointer [Audio Devices], aud-prop_50b4ab60-2e9a-444b-98d3-984d9084ab0b.xml, audio.ksrtaudio_buffer, ksmedia/KSRTAUDIO_BUFFER, ksmedia/PKSRTAUDIO_BUFFER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KSRTAUDIO_BUFFER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSRTAUDIO_BUFFER, *PKSRTAUDIO_BUFFER
 ---
@@ -50,18 +51,6 @@ req.typenames: KSRTAUDIO_BUFFER, *PKSRTAUDIO_BUFFER
 
 
 The KSRTAUDIO_BUFFER structure specifies the buffer address, size, and a call memory barrier flag for a cyclic audio data buffer.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  PVOID BufferAddress;
-  ULONG ActualBufferSize;
-  BOOL  CallMemoryBarrier;
-} KSRTAUDIO_BUFFER, *PKSRTAUDIO_BUFFER;
-````
 
 
 ## -struct-fields
@@ -81,7 +70,7 @@ Specifies the buffer size, in bytes. The driver sets this member to the actual s
 
 ### -field CallMemoryBarrier
 
-Specifies a flag based on cache type of the allocated buffer. The driver sets this flag to <b>TRUE</b> if the cache type is <b>MmWriteCombined</b>; otherwise, the flag should be set to <b>FALSE</b>. For more information about <b>MmWriteCombined</b>, see <a href="..\wudfwdm\ne-wudfwdm-_memory_caching_type.md">MEMORY_CACHING_TYPE </a>,
+Specifies a flag based on cache type of the allocated buffer. The driver sets this flag to <b>TRUE</b> if the cache type is <b>MmWriteCombined</b>; otherwise, the flag should be set to <b>FALSE</b>. For more information about <b>MmWriteCombined</b>, see <a href="https://msdn.microsoft.com/14cde545-e9bb-4b96-ba10-a63595e8a107">MEMORY_CACHING_TYPE </a>,
 
 
 ## -remarks
@@ -95,6 +84,9 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff537370">KSPRO
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537370">KSPROPERTY_RTAUDIO_BUFFER</a>
 
 
@@ -103,12 +95,8 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff537370">KSPRO
 
 
 
-<a href="..\wudfwdm\ne-wudfwdm-_memory_caching_type.md">MEMORY_CACHING_TYPE</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554430">MEMORY_CACHING_TYPE</a>
  
 
  
-
 

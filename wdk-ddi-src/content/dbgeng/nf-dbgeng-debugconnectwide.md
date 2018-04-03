@@ -7,7 +7,7 @@ old-location: debugger\debugconnectwide.htm
 old-project: debugger
 ms.assetid: B25AD9E0-FBDA-4E4F-A268-92C9AA761191
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: DebugConnectWide, DebugConnectWide function [Windows Debugging], dbgeng/DebugConnectWide, debugger.debugconnectwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	dbgeng.h
 api_name:
 -	DebugConnectWide
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -49,19 +50,7 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ## -description
 
 
-The <a href="..\dbgeng\nf-dbgeng-debugconnect.md">DebugConnect</a> and <b>DebugConnectWide</b> functions create a new <a href="https://msdn.microsoft.com/173a67f1-093e-4462-8e2c-41d0f10106d0">client object</a> and return an interface pointer to it.  The client object will be connected to a remote host.
-
-
-## -syntax
-
-
-````
-HRESULT DebugConnectWide(
-  _In_  PCSTR  RemoteOptions,
-  _In_  REFIID InterfaceId,
-  _Out_ PVOID  *Interface
-);
-````
+The <a href="https://msdn.microsoft.com/library/windows/hardware/ff540465">DebugConnect</a> and <b>DebugConnectWide</b> functions create a new <a href="https://msdn.microsoft.com/173a67f1-093e-4462-8e2c-41d0f10106d0">client object</a> and return an interface pointer to it.  The client object will be connected to a remote host.
 
 
 ## -parameters
@@ -123,16 +112,15 @@ As with <b>IUnknown::QueryInterface</b>, when the returned interface is no longe
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539137">Client Functions</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539140">Client Objects</a>
-
-
-
  
 
  
-
 

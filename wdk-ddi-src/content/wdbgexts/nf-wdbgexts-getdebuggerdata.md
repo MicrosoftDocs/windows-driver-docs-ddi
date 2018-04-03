@@ -7,7 +7,7 @@ old-location: debugger\getdebuggerdata.htm
 old-project: debugger
 ms.assetid: a07afa2e-1f7d-4685-9ede-8b7805dd6583
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: GetDebuggerData, GetDebuggerData function [Windows Debugging], WdbgExts_Ref_a9b54b49-d8ac-4bee-a837-3986a250403a.xml, debugger.getdebuggerdata, wdbgexts/GetDebuggerData
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	wdbgexts.h
 api_name:
 -	GetDebuggerData
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXT_TDOP
 req.product: Windows 10 or later.
@@ -51,18 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>GetDebuggerData</b> function retrieves information stored in a data block.
-
-
-## -syntax
-
-
-````
-ULONG GetDebuggerData(
-   ULONG Tag,
-   PVOID Buf,
-   ULONG Size
-);
-````
 
 
 ## -parameters

@@ -7,7 +7,7 @@ old-location: netvista\wwan_gsm_serving_cell_info.htm
 old-project: netvista
 ms.assetid: 37F6BD26-55F3-4E46-9C39-97A95B6FF5B1
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PWWAN_GSM_SERVING_CELL_INFO, PWWAN_GSM_SERVING_CELL_INFO, PWWAN_GSM_SERVING_CELL_INFO structure pointer [Network Drivers Starting with Windows Vista], WWAN_GSM_SERVING_CELL_INFO, WWAN_GSM_SERVING_CELL_INFO structure [Network Drivers Starting with Windows Vista], _WWAN_GSM_SERVING_CELL_INFO, netvista.wwan_gsm_serving_cell_info, wwan/PWWAN_GSM_SERVING_CELL_INFO, wwan/WWAN_GSM_SERVING_CELL_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	wwan.h
 api_name:
 -	WWAN_GSM_SERVING_CELL_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WWAN_GSM_SERVING_CELL_INFO, *PWWAN_GSM_SERVING_CELL_INFO
 req.product: Windows 10 or later.
@@ -51,24 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>WWAN_GSM_SERVING_CELL_INFO</b> structure represents information about the GSM serving cell.
-
-
-## -syntax
-
-
-````
-typedef struct _WWAN_GSM_SERVING_CELL_INFO {
-  ULONG ProviderIdOffset;
-  ULONG ProviderIdSize;
-  ULONG LocationAreaCode;
-  ULONG CellId;
-  ULONG TimingAdvance;
-  ULONG ARFCN;
-  ULONG BaseStationId;
-  ULONG RxLevel;
-  BYTE  Data[ANYSIZE_ARRAY];
-} WWAN_GSM_SERVING_CELL_INFO, *PWWAN_GSM_SERVING_CELL_INFO;
-````
 
 
 ## -struct-fields
@@ -135,11 +118,6 @@ The data buffer containing <i>ProviderId</i>.
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_gsm_nmr.md">WWAN_GSM_NMR</a>
-
-
-
-<a href="..\wwan\ns-wwan-_wwan_gsm_nmr_info.md">WWAN_GSM_NMR_INFO</a>
 
 
 
@@ -147,12 +125,16 @@ The data buffer containing <i>ProviderId</i>.
 
 
 
-<a href="..\wwan\ns-wwan-_wwan_base_stations_info.md">WWAN_BASE_STATIONS_INFO</a>
+<a href="https://msdn.microsoft.com/66460B28-C2B4-4F05-A133-31A753AF9489">WWAN_BASE_STATIONS_INFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/ADEEB57F-79FF-4AA7-84AF-FED413E47057">WWAN_GSM_NMR</a>
+
+
+
+<a href="https://msdn.microsoft.com/EF22D5C3-7A3B-4A96-A050-FCB71CA2C149">WWAN_GSM_NMR_INFO</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: display\dxgk_power_runtime_state.htm
 old-project: display
 ms.assetid: f2bfb07c-1493-4a29-9d42-e284af29a376
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGK_POWER_RUNTIME_STATE, DXGK_POWER_RUNTIME_STATE structure [Display Devices], _DXGK_POWER_RUNTIME_STATE, d3dkmddi/DXGK_POWER_RUNTIME_STATE, display.dxgk_power_runtime_state
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3dkmddi.h
 api_name:
 -	DXGK_POWER_RUNTIME_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_POWER_RUNTIME_STATE
 ---
@@ -50,18 +51,6 @@ req.typenames: DXGK_POWER_RUNTIME_STATE
 
 
 Describes the characteristics of an idle state (an F-state).
-
-
-## -syntax
-
-
-````
-typedef struct _DXGK_POWER_RUNTIME_STATE {
-  ULONGLONG TransitionLatency;
-  ULONGLONG ResidencyRequirement;
-  ULONGLONG NominalPower;
-} DXGK_POWER_RUNTIME_STATE;
-````
 
 
 ## -struct-fields

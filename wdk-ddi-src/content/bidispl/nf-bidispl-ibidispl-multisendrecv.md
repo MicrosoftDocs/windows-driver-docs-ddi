@@ -38,7 +38,8 @@ api_location:
 -	bidispl.dll
 api_name:
 -	IBidiSpl.MultiSendRecv
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
 ---
@@ -50,17 +51,6 @@ req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
 
 
 The <b>MultiSendRecv</b> method sends a list of bidi requests.
-
-
-## -syntax
-
-
-````
-HRESULT MultiSendRecv(
-  [in] const LPCWSTR               pszAction,
-  [in]       IBidiRequestContainer *pRequestContainer
-);
-````
 
 
 ## -parameters
@@ -170,6 +160,9 @@ The BIDI_ACTION_* values are case insensitive strings.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
 
 
@@ -178,12 +171,8 @@ The BIDI_ACTION_* values are case insensitive strings.
 
 
 
-<a href="..\bidispl\nn-bidispl-ibidispl.md">IBidiSpl</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/dd144980">IBidiSpl</a>
  
 
  
-
 

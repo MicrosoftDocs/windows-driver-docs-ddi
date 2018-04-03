@@ -7,7 +7,7 @@ old-location: display\d3dddicb_unlock2.htm
 old-project: display
 ms.assetid: 3ACE32ED-75C5-440D-BAA1-470C4E043299
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDICB_UNLOCK2, D3DDDICB_UNLOCK2 structure [Display Devices], _D3DDDICB_UNLOCK2, d3dumddi/D3DDDICB_UNLOCK2, display.d3dddicb_unlock2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	D3DDDICB_UNLOCK2
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDICB_UNLOCK2
 ---
@@ -50,16 +51,6 @@ req.typenames: D3DDDICB_UNLOCK2
 
 
 <b>D3DDDICB_UNLOCK2</b> describes an allocation to unlock.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DDDICB_UNLOCK2 {
-  D3DKMT_HANDLE hAllocation;
-} D3DDDICB_UNLOCK2;
-````
 
 
 ## -struct-fields

@@ -41,7 +41,8 @@ api_location:
 -	WUDFx02000.dll.dll
 api_name:
 -	WdfVerifierDbgBreakPoint
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_USB_REQUEST_COMPLETION_PARAMS, *PWDF_USB_REQUEST_COMPLETION_PARAMS
 req.product: Windows 10 or later.
@@ -56,14 +57,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WdfVerifierDbgBreakPoint</b> function breaks into a kernel debugger, if a debugger is running.
-
-
-## -syntax
-
-
-````
-VOID WdfVerifierDbgBreakPoint(void);
-````
 
 
 ## -parameters
@@ -131,12 +124,11 @@ if( !NT_SUCCESS(Status) ) {
 
 ## -see-also
 
-<a href="..\wdfverifier\nf-wdfverifier-wdfverifierkebugcheck.md">WdfVerifierKeBugCheck</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551166">WdfVerifierKeBugCheck</a>
  
 
  
-
 

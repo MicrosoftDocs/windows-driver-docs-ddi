@@ -7,7 +7,7 @@ old-location: display\dxgk_contextinfo_caps.htm
 old-project: display
 ms.assetid: AC65F790-981F-4B50-BB9E-84F79D8F6C4F
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGK_CONTEXTINFO_CAPS, DXGK_CONTEXTINFO_CAPS structure [Display Devices], _DXGK_CONTEXTINFO_CAPS, d3dkmddi/DXGK_CONTEXTINFO_CAPS, display.dxgk_contextinfo_caps
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGK_CONTEXTINFO_CAPS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_CONTEXTINFO_CAPS
 ---
@@ -50,24 +51,6 @@ req.typenames: DXGK_CONTEXTINFO_CAPS
 
 
 <b>DXGK_CONTEXTINFO_CAPS</b> is used to describe  the capabilities supported by a driver.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGK_CONTEXTINFO_CAPS {
-  union {
-    struct {
-      UINT NoPatchingRequired  :1;
-      UINT DriverManagesResidency  :1;
-      UINT UseIoMmu  :1;
-      UINT Reserved  :29;
-    };
-    UINT   Value;
-  };
-} DXGK_CONTEXTINFO_CAPS;
-````
 
 
 ## -struct-fields

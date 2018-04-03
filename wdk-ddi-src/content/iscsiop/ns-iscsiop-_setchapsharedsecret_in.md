@@ -7,7 +7,7 @@ old-location: storage\setchapsharedsecret_in.htm
 old-project: storage
 ms.assetid: d352785b-982f-4469-bee8-6274c0ce1cd6
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSetCHAPSharedSecret_IN, PSetCHAPSharedSecret_IN, PSetCHAPSharedSecret_IN structure pointer [Storage Devices], SetCHAPSharedSecret_IN, SetCHAPSharedSecret_IN structure [Storage Devices], _SetCHAPSharedSecret_IN, iscsiop/PSetCHAPSharedSecret_IN, iscsiop/SetCHAPSharedSecret_IN, storage.setchapsharedsecret_in, structs-iSCSI_e0aefea0-989e-4834-b812-ae02da2e6f34.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	iscsiop.h
 api_name:
 -	SetCHAPSharedSecret_IN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SetCHAPSharedSecret_IN, *PSetCHAPSharedSecret_IN
 ---
@@ -50,17 +51,6 @@ req.typenames: SetCHAPSharedSecret_IN, *PSetCHAPSharedSecret_IN
 
 
 The SetCHAPSharedSecret_IN structure holds the input data for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565585">SetCHAPSharedSecret</a> method.
-
-
-## -syntax
-
-
-````
-typedef struct _SetCHAPSharedSecret_IN {
-  ULONG SharedSecretSize;
-  UCHAR SharedSecret[1];
-} SetCHAPSharedSecret_IN, *PSetCHAPSharedSecret_IN;
-````
 
 
 ## -struct-fields
@@ -89,16 +79,15 @@ You must implement this method.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565585">SetCHAPSharedSecret</a>
 
 
 
-<a href="..\iscsiop\ns-iscsiop-_setchapsharedsecret_out.md">SetCHAPSharedSecret_OUT</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565600">SetCHAPSharedSecret_OUT</a>
  
 
  
-
 

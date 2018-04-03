@@ -7,7 +7,7 @@ old-location: netvista\protocolcmdeactivatevccomplete.htm
 old-project: netvista
 ms.assetid: 44ee0e3c-aee9-4e24-9e54-c57248b568b6
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: PROTOCOL_CM_DEACTIVATE_VC_COMPLETE, ProtocolCmDeactivateVcComplete, ProtocolCmDeactivateVcComplete callback function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_ecf43479-8006-4170-9422-604236ede43a.xml, ndis/ProtocolCmDeactivateVcComplete, netvista.protocolcmdeactivatevccomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ndis.h
 api_name:
 -	ProtocolCmDeactivateVcComplete
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
 ---
@@ -53,24 +54,10 @@ The
   <i>ProtocolCmDeactivateVcComplete</i> function is a required function. 
   <i>ProtocolCmDeactivateVcComplete</i> completes the processing of a call manager-initiated request that the
   underlying miniport driver (and NDIS) deactivate a VC for which 
-  <a href="..\ndis\nf-ndis-ndiscmdeactivatevc.md">NdisCmDeactivateVc</a> previously returned
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff561657">NdisCmDeactivateVc</a> previously returned
   NDIS_STATUS_PENDING.
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>PROTOCOL_CM_DEACTIVATE_VC_COMPLETE</b> type.
    For more information, see the following Examples section.</div><div> </div>
-
-## -prototype
-
-
-````
-PROTOCOL_CM_DEACTIVATE_VC_COMPLETE ProtocolCmDeactivateVcComplete;
-
-VOID ProtocolCmDeactivateVcComplete(
-  _In_ NDIS_STATUS Status,
-  _In_ NDIS_HANDLE CallMgrVcContext
-)
-{ ... }
-````
-
 
 ## -parameters
 
@@ -86,7 +73,7 @@ Specifies the final status of the deactivation.
 
 Specifies the handle to a call manager-allocated context area in which the call manager maintains
      its per-VC state. The call manager supplied this handle to NDIS from its 
-     <a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a> function.
+     <a href="https://msdn.microsoft.com/b086dd24-74f5-474a-8684-09bf92ac731b">ProtocolCoCreateVc</a> function.
 
 
 ## -returns
@@ -105,8 +92,8 @@ None
 NDIS usually calls 
     <i>ProtocolCmDeactivateVcComplete</i> in the context of the call manager's closing down a call on behalf
     of a connection-oriented client. The call manager typically calls 
-    <a href="..\ndis\nf-ndis-ndiscmdeactivatevc.md">NdisCmDeactivateVc</a> from its 
-    <a href="..\ndis\nc-ndis-protocol_cm_close_call.md">ProtocolCmCloseCall</a> function.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561657">NdisCmDeactivateVc</a> from its 
+    <a href="https://msdn.microsoft.com/b5307e1b-3905-4e43-a0b0-0068ba18ef0d">ProtocolCmCloseCall</a> function.
     Whenever 
     <b>NdisCmDeactivateVc</b> returns NDIS_STATUS_PENDING, NDIS subsequently calls its 
     <i>ProtocolCmDeactivateVcComplete</i> function.
@@ -127,7 +114,7 @@ Completion of the deactivation means that all call parameters for the VC used on
 
 Call managers should release any resources that were allocated for the VC activation and return
     control as quickly as possible. If the call manager previously returned NDIS_STATUS_PENDING from its 
-    <a href="..\ndis\nc-ndis-protocol_cm_close_call.md">ProtocolCmCloseCall</a> function and
+    <a href="https://msdn.microsoft.com/b5307e1b-3905-4e43-a0b0-0068ba18ef0d">ProtocolCmCloseCall</a> function and
     all operations to close the call have been completed, 
     <i>ProtocolCmDeactivateVcComplete</i> should now call 
     <b>NdisCmCloseCallComplete</b>.
@@ -174,24 +161,23 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_cm_close_call.md">ProtocolCmCloseCall</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiscmclosecallcomplete.md">NdisCmCloseCallComplete</a>
+<a href="https://msdn.microsoft.com/8c17cec8-d161-47cf-b886-bb8b8d957656">MiniportCoDeactivateVc</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_co_deactivate_vc.md">MiniportCoDeactivateVc</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561655">NdisCmCloseCallComplete</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiscmdeactivatevc.md">NdisCmDeactivateVc</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561657">NdisCmDeactivateVc</a>
 
 
 
+<a href="https://msdn.microsoft.com/b5307e1b-3905-4e43-a0b0-0068ba18ef0d">ProtocolCmCloseCall</a>
  
 
  
-
 

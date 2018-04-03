@@ -7,7 +7,7 @@ old-location: buses\evt_ufx_device_controller_reset.htm
 old-project: usbref
 ms.assetid: 37CE6358-68F8-49E2-8B3E-126D5D135ADF
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: EVT_UFX_DEVICE_CONTROLLER_RESET, EvtUfxDeviceControllerReset, EvtUfxDeviceControllerReset callback function [Buses], PFN_UFX_DEVICE_CONTROLLER_RESET, PFN_UFX_DEVICE_CONTROLLER_RESET callback function pointer [Buses], buses.evt_ufx_device_controller_reset, ufxclient/EvtUfxDeviceControllerReset
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ufxclient.h
 api_name:
 -	PFN_UFX_DEVICE_CONTROLLER_RESET
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UFX_HARDWARE_FAILURE_CONTEXT, *PUFX_HARDWARE_FAILURE_CONTEXT
 req.product: Windows 10 or later.
@@ -51,22 +52,6 @@ req.product: Windows 10 or later.
 
 
 The client driver's implementation to reset the function controller to its initial state.
-
-
-## -prototype
-
-
-````
-EVT_UFX_DEVICE_CONTROLLER_RESET EvtUfxDeviceControllerReset;
-
-void EvtUfxDeviceControllerReset(
-  _In_     UFXDEVICE                     UfxDevice,
-  _In_opt_ PUFX_HARDWARE_FAILURE_CONTEXT UfxHardwareFailureContext
-)
-{ ... }
-
-typedef EVT_UFX_DEVICE_CONTROLLER_RESET PFN_UFX_DEVICE_CONTROLLER_RESET;
-````
 
 
 ## -parameters
@@ -84,7 +69,7 @@ typedef EVT_UFX_DEVICE_CONTROLLER_RESET PFN_UFX_DEVICE_CONTROLLER_RESET;
 
 #### - UfxDevice [in]
 
-The handle to a  USB device object that the client driver received in a previous call to  the <a href="..\ufxclient\nf-ufxclient-ufxdevicecreate.md">UfxDeviceCreate</a>.
+The handle to a  USB device object that the client driver received in a previous call to  the <a href="https://msdn.microsoft.com/library/windows/hardware/mt187951">UfxDeviceCreate</a>.
 
 
 #### - UfxHardwareFailureContext [in, optional]
@@ -105,25 +90,24 @@ This callback function does not return a value.
 
 
 
-The client driver for the function host controller registers its <i>EVT_UFX_DEVICE_CONTROLLER_RESET</i> implementation with the USB function class extension (UFX) by calling the <a href="..\ufxclient\nf-ufxclient-ufxdevicecreate.md">UfxDeviceCreate</a> method.
+The client driver for the function host controller registers its <i>EVT_UFX_DEVICE_CONTROLLER_RESET</i> implementation with the USB function class extension (UFX) by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/mt187951">UfxDeviceCreate</a> method.
 
-The client driver indicates completion of this event by calling the <a href="..\ufxclient\nf-ufxclient-ufxdeviceeventcomplete.md">UfxDeviceEventComplete</a> method.
+The client driver indicates completion of this event by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/mt187952">UfxDeviceEventComplete</a> method.
 
 
 
 
 ## -see-also
 
-<a href="..\ufxclient\nf-ufxclient-ufxdeviceeventcomplete.md">UfxDeviceEventComplete</a>
 
 
 
-<a href="..\ufxclient\nf-ufxclient-ufxdevicecreate.md">UfxDeviceCreate</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt187951">UfxDeviceCreate</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt187952">UfxDeviceEventComplete</a>
  
 
  
-
 

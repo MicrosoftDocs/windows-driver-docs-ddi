@@ -38,7 +38,8 @@ apilocation:
 -	prcomoem.h
 apiname:
 -	IPrintOemPrintTicketProvider.ValidatePrintTicket
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.

@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSP_TIMEFORMAT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSP_TIMEFORMAT, *PKSP_TIMEFORMAT
 ---
@@ -50,19 +51,6 @@ req.typenames: KSP_TIMEFORMAT, *PKSP_TIMEFORMAT
 
 
 The KSP_TIMEFORMAT structure corresponds to <a href="https://msdn.microsoft.com/library/windows/hardware/ff565181">KSPROPERTY_MEDIASEEKING_CONVERTTIMEFORMAT</a>.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  KSPROPERTY Property;
-  GUID       SourceFormat;
-  GUID       TargetFormat;
-  LONGLONG   Time;
-} KSP_TIMEFORMAT, *PKSP_TIMEFORMAT;
-````
 
 
 ## -struct-fields
@@ -101,12 +89,11 @@ The fields of the structure correspond one to one with DirectShow's IMediaSeekin
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565181">KSPROPERTY_MEDIASEEKING_CONVERTTIMEFORMAT</a>
-
-
-
  
 
  
-
 

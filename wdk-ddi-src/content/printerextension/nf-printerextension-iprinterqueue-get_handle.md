@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	IPrinterQueue.Handle
 -	IPrinterQueue.get_Handle
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PrintSchemaSelectionType
 req.product: Windows 10 or later.
@@ -56,27 +57,16 @@ Gets the underlying native handle for this print queue.
 This property is read-only.
 
 
-## -syntax
-
-
-````
-HRESULT get_Handle(
-  [out, retval] HANDLE *phPrinter
-);
-````
-
-
 ## -parameters
 
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprinterqueue.md">IPrinterQueue</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439635">IPrinterQueue</a>
  
 
  
-
 

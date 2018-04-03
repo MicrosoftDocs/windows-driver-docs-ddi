@@ -7,7 +7,7 @@ old-location: kernel\rtlshortsub.htm
 old-project: kernel
 ms.assetid: F94435C2-A2FC-44F4-8A21-E56CBEB8CC37
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: RtlShortSub, RtlShortSub function [Kernel-Mode Driver Architecture], kernel.rtlshortsub, ntintsafe/RtlShortSub
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ntintsafe.h
 api_name:
 -	RtlShortSub
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 ---
@@ -50,18 +51,6 @@ req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 
 
 Subtracts one value of type <b>SHORT</b> from another.
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlShortSub(
-  _In_  SHORT sMinuend,
-  _In_  SHORT sSubtrahend,
-  _Out_ SHORT *psResult
-);
-````
 
 
 ## -parameters

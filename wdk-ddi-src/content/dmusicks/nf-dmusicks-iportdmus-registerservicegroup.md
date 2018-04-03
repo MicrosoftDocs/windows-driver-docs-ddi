@@ -7,7 +7,7 @@ old-location: audio\iportdmus_registerservicegroup.htm
 old-project: audio
 ms.assetid: 271d77ae-dc2c-4dc0-8dd9-b09b2d341c60
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/19/2018
 ms.keywords: IPortDMus, IPortDMus interface [Audio Devices], RegisterServiceGroup method, IPortDMus::RegisterServiceGroup, RegisterServiceGroup method [Audio Devices], RegisterServiceGroup method [Audio Devices], IPortDMus interface, RegisterServiceGroup,IPortDMus.RegisterServiceGroup, audio.iportdmus_registerservicegroup, audmp-routines_9167129c-286d-4c54-9633-1f31aa08b904.xml, dmusicks/IPortDMus::RegisterServiceGroup
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	dmusicks.h
 api_name:
 -	IPortDMus.RegisterServiceGroup
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DMUS_STREAM_TYPE
 ---
@@ -52,16 +53,6 @@ req.typenames: DMUS_STREAM_TYPE
 The <code>RegisterServiceGroup</code> method registers a service group with the DMus port driver.
 
 
-## -syntax
-
-
-````
-void RegisterServiceGroup(
-  [in] PSERVICEGROUP ServiceGroup
-);
-````
-
-
 ## -parameters
 
 
@@ -69,7 +60,7 @@ void RegisterServiceGroup(
 
 ### -param ServiceGroup [in]
 
-Pointer to an <a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a> object. This is the service group that is to be registered.
+Pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff536994">IServiceGroup</a> object. This is the service group that is to be registered.
 
 
 ## -returns
@@ -85,7 +76,7 @@ None
 
 
 
-The miniport driver calls the <code>RegisterServiceGroup</code> method to register a service group (<a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a> object) with the port driver. The port driver can insert one or more of its service sinks (<a href="..\portcls\nn-portcls-iservicesink.md">IServiceSink</a> objects) into this service group. The miniport driver sends notification (by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff536880">IPortDMus::Notify</a>) to the service group each time an interrupt occurs. Upon receiving notification, the service group schedules a deferred procedure call (DPC). The DPC iterates through all of the service sinks in the service group and sends notification to each.
+The miniport driver calls the <code>RegisterServiceGroup</code> method to register a service group (<a href="https://msdn.microsoft.com/library/windows/hardware/ff536994">IServiceGroup</a> object) with the port driver. The port driver can insert one or more of its service sinks (<a href="https://msdn.microsoft.com/library/windows/hardware/ff537006">IServiceSink</a> objects) into this service group. The miniport driver sends notification (by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff536880">IPortDMus::Notify</a>) to the service group each time an interrupt occurs. Upon receiving notification, the service group schedules a deferred procedure call (DPC). The DPC iterates through all of the service sinks in the service group and sends notification to each.
 
 The miniport driver typically calls <b>RegisterServiceSink</b> during the execution of its <a href="https://msdn.microsoft.com/library/windows/hardware/ff536700">IMiniportDMus::Init</a> method. The purpose of this call is to register the service group with the port driver early enough to begin handling interrupts just as soon as they are enabled. Note that the service group that the <b>Init</b> method outputs is not available to the port driver until after the return from the <b>Init</b> method.
 
@@ -102,19 +93,6 @@ The <i>pServiceGroup</i> parameter follows the <a href="https://msdn.microsoft.c
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
-
-
-
-<a href="..\portcls\nn-portcls-iservicesink.md">IServiceSink</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536880">IPortDMus::Notify</a>
-
-
-
-<a href="..\dmusicks\nn-dmusicks-iportdmus.md">IPortDMus</a>
 
 
 
@@ -122,8 +100,20 @@ The <i>pServiceGroup</i> parameter follows the <a href="https://msdn.microsoft.c
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536879">IPortDMus</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536880">IPortDMus::Notify</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536994">IServiceGroup</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537006">IServiceSink</a>
  
 
  
-
 

@@ -38,7 +38,8 @@ api_location:
 -	Compstui.h
 api_name:
 -	OPTCOMBO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OPTCOMBO, *POPTCOMBO
 ---
@@ -50,21 +51,6 @@ req.typenames: OPTCOMBO, *POPTCOMBO
 
 
 
-
-
-## -syntax
-
-
-````
-typedef struct _OPTCOMBO {
-  WORD      cbSize;
-  BYTE      Flags;
-  WORD      cListItem;
-  POPTPARAM pListItem;
-  LONG      Sel;
-  LONG      dwReserved[3];
-} OPTCOMBO, *POPTCOMBO;
-````
 
 
 ## -struct-fields

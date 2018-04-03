@@ -38,7 +38,8 @@ api_location:
 -	Wiautil.h
 api_name:
 -	wiauDbgFlags
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SKIP_AMOUNT
 req.product: Windows 10 or later.
@@ -53,19 +54,6 @@ req.product: Windows 10 or later.
 The <b>wiauDbgFlags</b> function determines whether a particular debugging flag is set.
 
 
-## -syntax
-
-
-````
-inline void __stdcall wiauDbgFlags(
-   DWORD    flags,
-   LPCSTR   prefix,
-   LPCSTR   fname,
-   LPCSTR   fmt, ...
-);
-````
-
-
 ## -parameters
 
 
@@ -73,7 +61,7 @@ inline void __stdcall wiauDbgFlags(
 
 ### -param flags
 
-Is a set of flags that control which information is placed in the log file or displayed in the debugger. See the <i>flags</i> parameter of <a href="..\wiautil\nf-wiautil-wiaudbgsetflags.md">wiauDbgSetFlags</a> for a list of the flag values.
+Is a set of flags that control which information is placed in the log file or displayed in the debugger. See the <i>flags</i> parameter of <a href="https://msdn.microsoft.com/library/windows/hardware/ff550159">wiauDbgSetFlags</a> for a list of the flag values.
 
 
 ### -param prefix
@@ -123,12 +111,11 @@ If message logging to log file, or debugger, or both is enabled and the particul
 
 ## -see-also
 
-<a href="..\wiautil\nf-wiautil-wiaudbgsetflags.md">wiauDbgSetFlags</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550159">wiauDbgSetFlags</a>
  
 
  
-
 

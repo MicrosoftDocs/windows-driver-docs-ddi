@@ -7,7 +7,7 @@ old-location: netvista\rilgsmkind.htm
 old-project: netvista
 ms.assetid: ad88382b-bfb0-46c4-9db7-9adb1ee074a4
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: RILGSMKIND, RILGSMKIND enumeration [Network Drivers Starting with Windows Vista], RIL_GSMKIND_EDGE, RIL_GSMKIND_GPRS, RIL_GSMKIND_MAX, netvista.rilgsmkind, ntddrilapitypes/RILGSMKIND, ntddrilapitypes/RIL_GSMKIND_EDGE, ntddrilapitypes/RIL_GSMKIND_GPRS, ntddrilapitypes/RIL_GSMKIND_MAX
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILGSMKIND
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILGSMKIND
 ---
@@ -50,18 +51,6 @@ req.typenames: RILGSMKIND
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef enum _RILGSMKIND { 
-  RIL_GSMKIND_GPRS,
-  RIL_GSMKIND_EDGE,
-  RIL_GSMKIND_MAX
-} RILGSMKIND;
-````
 
 
 ## -enum-fields

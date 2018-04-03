@@ -38,7 +38,8 @@ api_location:
 -	nfcsedev.h
 api_name:
 -	SECURE_ELEMENT_CARD_EMULATION_MODE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SECURE_ELEMENT_CARD_EMULATION_MODE, *PSECURE_ELEMENT_CARD_EMULATION_MODE
 ---
@@ -50,18 +51,6 @@ req.typenames: SECURE_ELEMENT_CARD_EMULATION_MODE, *PSECURE_ELEMENT_CARD_EMULATI
 
 
 This enumeration indicates the card emulation mode of a secure element.
-
-
-## -syntax
-
-
-````
-typedef enum _SECURE_ELEMENT_SET_CARD_EMULATION_MODE { 
-  EmulationOff                 = 0,
-  EmulationOnPowerIndependent  = 1,
-  EmulationOnPowerDependent    = 2
-} SECURE_ELEMENT_CARD_EMULATION_MODE;
-````
 
 
 ## -enum-fields

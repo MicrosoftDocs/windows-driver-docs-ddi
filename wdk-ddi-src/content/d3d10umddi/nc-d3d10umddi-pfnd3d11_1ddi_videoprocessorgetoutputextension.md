@@ -7,7 +7,7 @@ old-location: display\videoprocessorgetoutputextension.htm
 old-project: display
 ms.assetid: 16f314f7-a54b-4c79-9cd6-1472ed454bbe
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORGETOUTPUTEXTENSION, d3d10umddi/pfnVideoProcessorGetOutputExtension, display.videoprocessorgetoutputextension, pfnVideoProcessorGetOutputExtension, pfnVideoProcessorGetOutputExtension callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3d10umddi.h
 api_name:
 -	pfnVideoProcessorGetOutputExtension
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 ---
@@ -52,32 +53,15 @@ req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 Returns private state data from a video processor to an application.
 
 
-## -prototype
-
-
-````
-PFND3D11_1DDI_VIDEOPROCESSORGETOUTPUTEXTENSION pfnVideoProcessorGetOutputExtension;
-
-HRESULT APIENTRY* pfnVideoProcessorGetOutputExtension(
-  _In_          D3D10DDI_HDEVICE           hDevice,
-  _In_          D3D11_1DDI_HVIDEOPROCESSOR hVideoProcessor,
-  _In_    const GUID                       *pGuid,
-  _In_          UINT                       DataSize,
-  _Inout_       void                       *pData
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
 
 
-### -param D3D10DDI_HDEVICE
+### -param Arg1
 
 
-### -param D3D11_1DDI_HVIDEOPROCESSOR
+### -param Arg2
 
 
 ### -param *
@@ -89,7 +73,7 @@ HRESULT APIENTRY* pfnVideoProcessorGetOutputExtension(
 
 
 
-### -param UINT
+### -param Arg3
 
 
 #### - DataSize [in]
@@ -106,7 +90,7 @@ A handle to the display device (graphics context).
 
 #### - hVideoProcessor [in]
 
-A handle to the video processor object that was created through a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor.md">CreateVideoProcessor</a> function. 
+A handle to the video processor object that was created through a call to the <a href="https://msdn.microsoft.com/741045a2-0a91-490a-907d-5f4900a4a0ae">CreateVideoProcessor</a> function. 
 
 
 
@@ -193,19 +177,18 @@ The graphics adapter was removed.
 
 
 
-The Microsoft Direct3D runtime does not validate any parameter data before it calls the  <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorsetoutputextension.md">VideoProcessorSetOutputExtension</a> function.
+The Microsoft Direct3D runtime does not validate any parameter data before it calls the  <a href="https://msdn.microsoft.com/library/windows/hardware/hh439786">VideoProcessorSetOutputExtension</a> function.
 
 
 
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor.md">CreateVideoProcessor</a>
 
 
 
+<a href="https://msdn.microsoft.com/741045a2-0a91-490a-907d-5f4900a4a0ae">CreateVideoProcessor</a>
  
 
  
-
 

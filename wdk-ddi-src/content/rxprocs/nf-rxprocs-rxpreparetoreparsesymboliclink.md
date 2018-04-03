@@ -7,7 +7,7 @@ old-location: ifsk\rxpreparetoreparsesymboliclink.htm
 old-project: ifsk
 ms.assetid: 6a05b25f-e529-469a-8bfc-e75c0f7a9a8a
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: RxPrepareToReparseSymbolicLink, RxPrepareToReparseSymbolicLink routine [Installable File System Drivers], ifsk.rxpreparetoreparsesymboliclink, rxprocs/RxPrepareToReparseSymbolicLink, rxref_6726dffd-ccae-43e0-98da-14dc0d11c7c2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	rxprocs.h
 api_name:
 -	RxPrepareToReparseSymbolicLink
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RX_CONTEXT, *PRX_CONTEXT
 req.product: Windows 10 or later.
@@ -51,20 +52,6 @@ req.product: Windows 10 or later.
 
 
 <b>RxPrepareToReparseSymbolicLink</b> sets up the file object name to facilitate a reparse. This routine is used by the network mini-redirectors to traverse symbolic links. 
-
-
-## -syntax
-
-
-````
-NTSTATUS RxPrepareToReparseSymbolicLink(
-   PRX_CONTEXT     RxContext,
-   BOOLEAN         SymbolicLinkEmbeddedInOldPath,
-   PUNICODE_STRING NewPath,
-   BOOLEAN         NewPathIsAbsolute,
-   PBOOLEAN        ReparseRequired
-);
-````
 
 
 ## -parameters
@@ -166,12 +153,11 @@ The value of the <i>ReparseRequired</i> parameter assumes significance only if S
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549862">MRxCreate</a>
-
-
-
  
 
  
-
 

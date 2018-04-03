@@ -7,7 +7,7 @@ old-location: display\dxva_encryptprotocolheader.htm
 old-project: display
 ms.assetid: 924da940-f609-4302-b454-87243200808e
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*LPDXVA_EncryptProtocolHeader, DXVA_EncryptProtocolHeader, DXVA_EncryptProtocolHeader structure [Display Devices], LPDXVA_EncryptProtocolHeader, LPDXVA_EncryptProtocolHeader structure pointer [Display Devices], _DXVA_EncryptProtocolHeader, display.dxva_encryptprotocolheader, dxva/DXVA_EncryptProtocolHeader, dxva/LPDXVA_EncryptProtocolHeader, dxvaref_19bd4a66-c03f-44c3-98b6-875da968fa50.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	dxva.h
 api_name:
 -	DXVA_EncryptProtocolHeader
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXVA_EncryptProtocolHeader, *LPDXVA_EncryptProtocolHeader
 ---
@@ -50,18 +51,6 @@ req.typenames: DXVA_EncryptProtocolHeader, *LPDXVA_EncryptProtocolHeader
 
 
 The DXVA_EncryptProtocolHeader structure is sent by the host decoder to the accelerator to indicate use of an encryption protocol.
-
-
-## -syntax
-
-
-````
-typedef struct _DXVA_EncryptProtocolHeader {
-  DXVA_EncryptProtocolFunc dwFunction;
-  DWORD                    ReservedBits[3];
-  GUID                     guidEncryptProtocol;
-} DXVA_EncryptProtocolHeader, *LPDXVA_EncryptProtocolHeader;
-````
 
 
 ## -struct-fields

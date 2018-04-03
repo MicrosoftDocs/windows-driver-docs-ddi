@@ -38,7 +38,8 @@ api_location:
 -	Wdfhwaccess.h
 api_name:
 -	WDF_READ_PORT_USHORT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_FILE_INFORMATION_CLASS, *PWDF_FILE_INFORMATION_CLASS
 req.product: Windows 10 or later.
@@ -53,17 +54,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to UMDF only]
 
 The <b>WDF_READ_PORT_USHORT</b>  function reads a USHORT value from the specified port address.
-
-
-## -syntax
-
-
-````
-USHORT WDF_READ_PORT_USHORT(
-  _In_ WDFDEVICE Device,
-  _In_ PUSHORT   Port
-);
-````
 
 
 ## -parameters

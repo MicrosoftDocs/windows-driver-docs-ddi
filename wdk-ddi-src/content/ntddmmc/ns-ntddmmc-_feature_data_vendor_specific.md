@@ -7,7 +7,7 @@ old-location: storage\feature_data_vendor_specific.htm
 old-project: storage
 ms.assetid: 151e6456-4c1f-453b-9eb6-a139e0f93d6e
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PFEATURE_DATA_VENDOR_SPECIFIC, FEATURE_DATA_VENDOR_SPECIFIC, FEATURE_DATA_VENDOR_SPECIFIC structure [Storage Devices], PFEATURE_DATA_VENDOR_SPECIFIC, PFEATURE_DATA_VENDOR_SPECIFIC structure pointer [Storage Devices], _FEATURE_DATA_VENDOR_SPECIFIC, ntddmmc/FEATURE_DATA_VENDOR_SPECIFIC, ntddmmc/PFEATURE_DATA_VENDOR_SPECIFIC, storage.feature_data_vendor_specific, structs-CD-ROM_976446aa-d4d1-468b-a617-901d612b1a7e.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddmmc.h
 api_name:
 -	FEATURE_DATA_VENDOR_SPECIFIC
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FEATURE_DATA_VENDOR_SPECIFIC, *PFEATURE_DATA_VENDOR_SPECIFIC
 ---
@@ -52,17 +53,6 @@ req.typenames: FEATURE_DATA_VENDOR_SPECIFIC, *PFEATURE_DATA_VENDOR_SPECIFIC
 The FEATURE_DATA_VENDOR_SPECIFIC structure holds information about a vendor-specific feature.
 
 
-## -syntax
-
-
-````
-typedef struct _FEATURE_DATA_VENDOR_SPECIFIC {
-  FEATURE_HEADER Header;
-  UCHAR          VendorSpecificData[];
-} FEATURE_DATA_VENDOR_SPECIFIC, *PFEATURE_DATA_VENDOR_SPECIFIC;
-````
-
-
 ## -struct-fields
 
 
@@ -70,7 +60,7 @@ typedef struct _FEATURE_DATA_VENDOR_SPECIFIC {
 
 ### -field Header
 
-Contains a <a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a> structure with header information for this feature descriptor. 
+Contains a <a href="https://msdn.microsoft.com/library/windows/hardware/ff553848">FEATURE_HEADER</a> structure with header information for this feature descriptor. 
 
 
 ### -field VendorSpecificData
@@ -89,16 +79,15 @@ You can use this structure to access the data of any feature structure as though
 
 ## -see-also
 
-<a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
 
 
 
-<a href="..\ntddmmc\ne-ntddmmc-_feature_number.md">FEATURE_NUMBER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553848">FEATURE_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553850">FEATURE_NUMBER</a>
  
 
  
-
 

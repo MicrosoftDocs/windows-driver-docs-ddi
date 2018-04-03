@@ -38,7 +38,8 @@ api_location:
 -	rilapitypes.h
 api_name:
 -	RILIMSSERVICE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILIMSSERVICE
 ---

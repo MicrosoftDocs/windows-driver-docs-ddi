@@ -7,7 +7,7 @@ old-location: storage\sendrps_in.htm
 old-project: storage
 ms.assetid: 7ab8986d-1e28-4d25-888f-cd10e310d623
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSendRPS_IN, PSendRPS_IN, PSendRPS_IN structure pointer [Storage Devices], SendRPS_IN, SendRPS_IN structure [Storage Devices], _SendRPS_IN, hbapiwmi/PSendRPS_IN, hbapiwmi/SendRPS_IN, storage.sendrps_in, structs-Fibre_52ab21d3-f6bf-4e1d-b5a7-3f9cd054038c.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	hbapiwmi.h
 api_name:
 -	SendRPS_IN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SendRPS_IN, *PSendRPS_IN
 ---
@@ -50,20 +51,6 @@ req.typenames: SendRPS_IN, *PSendRPS_IN
 
 
 The SendRPS_IN structure is used to deliver input parameter data to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565505">SendRPS</a> WMI method.
-
-
-## -syntax
-
-
-````
-typedef struct _SendRPS_IN {
-  UCHAR PortWWN[8];
-  UCHAR AgentWWN[8];
-  UCHAR ObjectWWN[8];
-  ULONG AgentDomain;
-  ULONG ObjectPortNumber;
-} SendRPS_IN, *PSendRPS_IN;
-````
 
 
 ## -struct-fields
@@ -107,12 +94,11 @@ The WMI tool suite generates a declaration of the SendRPS_IN structure in <i>Hba
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565505">SendRPS</a>
-
-
-
  
 
  
-
 

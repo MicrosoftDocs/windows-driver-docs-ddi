@@ -7,7 +7,7 @@ old-location: audio\registernotificationevent.htm
 old-project: audio
 ms.assetid: 44702d79-80ac-411f-ae47-bf60b9cb541d
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/19/2018
 ms.keywords: PREGISTER_NOTIFICATION_EVENT, RegisterNotificationEvent, RegisterNotificationEvent callback function [Audio Devices], aud-prop2_fa7a1f01-c553-40df-971b-932f8da48353.xml, audio.registernotificationevent, hdaudio/RegisterNotificationEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Hdaudio.h
 api_name:
 -	RegisterNotificationEvent
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SM_SetRNIDMgmtInfo_OUT, *PSM_SetRNIDMgmtInfo_OUT
 ---
@@ -54,21 +55,6 @@ The <i>RegisterNotificationEvent</i> routine registers a kernel event so that it
 The function pointer type for a <i>RegisterNotificationEvent</i> routine is defined as follows.
 
 
-## -prototype
-
-
-````
-PREGISTER_NOTIFICATION_EVENT RegisterNotificationEvent;
-
-typedef NTSTATUS RegisterNotificationEvent(
-  _In_ PVOID   _context,
-  _In_ HANDLE  Handle,
-  _In_ PKEVENT NotificationEvent
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -76,17 +62,17 @@ typedef NTSTATUS RegisterNotificationEvent(
 
 ### -param _context [in]
 
-Specifies the context value from the Context member of the <a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface_v2.md">HDAUDIO_BUS_INTERFACE_V2</a> structure.
+Specifies the context value from the Context member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536418">HDAUDIO_BUS_INTERFACE_V2</a> structure.
 
 
 ### -param Handle [in]
 
-Handle that identifies the DMA engine. This handle value was obtained from a previous call to <a href="..\hdaudio\nc-hdaudio-pallocate_capture_dma_engine.md">AllocateCaptureDmaEngine</a> or <a href="..\hdaudio\nc-hdaudio-pallocate_render_dma_engine.md">AllocateRenderDmaEngine</a>.
+Handle that identifies the DMA engine. This handle value was obtained from a previous call to <a href="https://msdn.microsoft.com/038e52be-04db-41c2-aa19-85bc4eb8bc57">AllocateCaptureDmaEngine</a> or <a href="https://msdn.microsoft.com/fb2a64ca-7e8e-4352-86c6-b9500e535c75">AllocateRenderDmaEngine</a>.
 
 
 ### -param NotificationEvent [in]
 
-A pointer to a kernel event that must be notified as DMA progresses.  Depending on the notification count parameter that is used with <a href="..\hdaudio\nc-hdaudio-pallocate_dma_buffer_with_notification.md">AllocateDmaBufferWithNotification</a>, the registered event is signaled one or two times for every time that the DMA passes through the audio buffer.
+A pointer to a kernel event that must be notified as DMA progresses.  Depending on the notification count parameter that is used with <a href="https://msdn.microsoft.com/c74b5969-35d4-45db-b631-31e00572107d">AllocateDmaBufferWithNotification</a>, the registered event is signaled one or two times for every time that the DMA passes through the audio buffer.
 
 
 ## -returns
@@ -102,35 +88,34 @@ A pointer to a kernel event that must be notified as DMA progresses.  Depending 
 
 
 
-<i>RegisterNotificationEvent</i> registers a kernel event with the HD Audio bus driver.  The HD Audio bus driver maintains a list of registered notification events for each DMA engine, and signals them every time that the engine receives an IOC interrupt.  Events are unregistered by using <a href="..\hdaudio\nc-hdaudio-punregister_notification_event.md">UnregisterNotificationEvent</a>.
+<i>RegisterNotificationEvent</i> registers a kernel event with the HD Audio bus driver.  The HD Audio bus driver maintains a list of registered notification events for each DMA engine, and signals them every time that the engine receives an IOC interrupt.  Events are unregistered by using <a href="https://msdn.microsoft.com/525e2dd9-68e1-468d-895e-d9f57372d619">UnregisterNotificationEvent</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\hdaudio\nc-hdaudio-punregister_notification_event.md">UnregisterNotificationEvent</a>
 
 
 
-<a href="..\hdaudio\nc-hdaudio-pallocate_dma_buffer_with_notification.md">AllocateDmaBufferWithNotification</a>
+<a href="https://msdn.microsoft.com/038e52be-04db-41c2-aa19-85bc4eb8bc57">AllocateCaptureDmaEngine</a>
 
 
 
-<a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface_v2.md">HDAUDIO_BUS_INTERFACE_V2</a>
+<a href="https://msdn.microsoft.com/c74b5969-35d4-45db-b631-31e00572107d">AllocateDmaBufferWithNotification</a>
 
 
 
-<a href="..\hdaudio\nc-hdaudio-pallocate_render_dma_engine.md">AllocateRenderDmaEngine</a>
+<a href="https://msdn.microsoft.com/fb2a64ca-7e8e-4352-86c6-b9500e535c75">AllocateRenderDmaEngine</a>
 
 
 
-<a href="..\hdaudio\nc-hdaudio-pallocate_capture_dma_engine.md">AllocateCaptureDmaEngine</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536418">HDAUDIO_BUS_INTERFACE_V2</a>
 
 
 
+<a href="https://msdn.microsoft.com/525e2dd9-68e1-468d-895e-d9f57372d619">UnregisterNotificationEvent</a>
  
 
  
-
 

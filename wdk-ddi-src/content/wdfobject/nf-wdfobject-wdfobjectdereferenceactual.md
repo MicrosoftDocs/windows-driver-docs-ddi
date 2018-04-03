@@ -41,7 +41,8 @@ api_location:
 -	WUDFx02000.dll.dll
 api_name:
 -	WdfObjectDereferenceActual
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_SYNCHRONIZATION_SCOPE
 req.product: Windows 10 or later.
@@ -58,19 +59,6 @@ req.product: Windows 10 or later.
 The <b>WdfObjectDereferenceActual</b> method decrements the reference count for a specified framework object and assigns a tag value, line number, and file name to the reference<i>.</i>
 
 
-## -syntax
-
-
-````
-VOID WdfObjectDereferenceActual(
-  _In_     WDFOBJECT Handle,
-  _In_opt_ PVOID     Tag,
-  _In_     LONG      Line,
-  _In_opt_ PCCH      File
-);
-````
-
-
 ## -parameters
 
 
@@ -83,7 +71,7 @@ A handle to a framework object.
 
 ### -param Tag [in, optional]
 
-A driver-defined value that identifies an object reference. The tag value must match a tag value that the driver previously supplied to <a href="..\wdfobject\nf-wdfobject-wdfobjectreferenceactual.md">WdfObjectReferenceActual</a>.
+A driver-defined value that identifies an object reference. The tag value must match a tag value that the driver previously supplied to <a href="https://msdn.microsoft.com/library/windows/hardware/ff548760">WdfObjectReferenceActual</a>.
 
 
 ### -param Line [in]
@@ -144,16 +132,15 @@ The following code example decrements an object's reference count and assigns a 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548739">WdfObjectDereference</a>
 
 
 
-<a href="..\wdfobject\nf-wdfobject-wdfobjectreferenceactual.md">WdfObjectReferenceActual</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548760">WdfObjectReferenceActual</a>
  
 
  
-
 

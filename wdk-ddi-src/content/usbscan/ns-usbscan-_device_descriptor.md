@@ -38,7 +38,8 @@ api_location:
 -	usbscan.h
 api_name:
 -	DEVICE_DESCRIPTOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DEVICE_DESCRIPTOR, *PDEVICE_DESCRIPTOR
 req.product: Windows 10 or later.
@@ -50,20 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The DEVICE_DESCRIPTOR structure is used as a parameter to <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>, when the specified I/O control code is <a href="..\usbscan\ni-usbscan-ioctl_get_device_descriptor.md">IOCTL_GET_DEVICE_DESCRIPTOR</a>.
-
-
-## -syntax
-
-
-````
-typedef struct _DEVICE_DESCRIPTOR {
-  USHORT usVendorId;
-  USHORT usProductId;
-  USHORT usBcdDevice;
-  USHORT usLanguageId;
-} DEVICE_DESCRIPTOR, *PDEVICE_DESCRIPTOR;
-````
+The DEVICE_DESCRIPTOR structure is used as a parameter to <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>, when the specified I/O control code is <a href="https://msdn.microsoft.com/library/windows/hardware/ff542856">IOCTL_GET_DEVICE_DESCRIPTOR</a>.
 
 
 ## -struct-fields

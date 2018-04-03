@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	IPrintJob.TotalPages
 -	IPrintJob.get_TotalPages
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PrintSchemaSelectionType
 req.product: Windows 10 or later.
@@ -56,27 +57,16 @@ Gets the total number of pages that the document contains.
 This property is read-only.
 
 
-## -syntax
-
-
-````
-HRESULT get_TotalPages(
-  [out, retval] ULONG *pulPages
-);
-````
-
-
 ## -parameters
 
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintjob.md">IPrintJob</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265396">IPrintJob</a>
  
 
  
-
 

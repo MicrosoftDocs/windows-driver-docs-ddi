@@ -40,7 +40,8 @@ api_location:
 -	ksuser.dll
 api_name:
 -	KsCreatePin
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -52,19 +53,6 @@ req.typenames:
 
 
 The <b>KsCreatePin</b> function passes a connection request to a device, creating a pin instance. This function can only be called at <b>PASSIVE_LEVEL</b> for kernel-mode clients.
-
-
-## -syntax
-
-
-````
-NTSTATUS KsCreatePin(
-  _In_  HANDLE         FilterHandle,
-  _In_  PKSPIN_CONNECT Connect,
-  _In_  ACCESS_MASK    DesiredAccess,
-  _Out_ PHANDLE        ConnectionHandle
-);
-````
 
 
 ## -parameters
@@ -79,7 +67,7 @@ Specifies the handle of the filter initiating the create request and where the c
 
 ### -param Connect [in]
 
-Pointer to a <a href="..\ks\ns-ks-kspin_connect.md">KSPIN_CONNECT</a> structure that contains parameters for the requested connection. This should be followed in memory by a <a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a> data structure, describing the data format requested for the connection.
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563531">KSPIN_CONNECT</a> structure that contains parameters for the requested connection. This should be followed in memory by a <a href="https://msdn.microsoft.com/library/windows/hardware/ff561656">KSDATAFORMAT</a> data structure, describing the data format requested for the connection.
 
 
 ### -param DesiredAccess [in]
@@ -114,7 +102,6 @@ If <i>Connect</i>-&gt;<b>PinToHandle</b> is <b>NULL</b>, <b>KsCreatePin</b> crea
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
 
 
 
@@ -122,12 +109,12 @@ If <i>Connect</i>-&gt;<b>PinToHandle</b> is <b>NULL</b>, <b>KsCreatePin</b> crea
 
 
 
-<a href="..\ks\ns-ks-kspin_connect.md">KSPIN_CONNECT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561656">KSDATAFORMAT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563531">KSPIN_CONNECT</a>
  
 
  
-
 

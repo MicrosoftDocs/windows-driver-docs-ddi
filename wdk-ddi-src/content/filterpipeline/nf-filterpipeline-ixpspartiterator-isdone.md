@@ -38,7 +38,8 @@ api_location:
 -	Filterpipeline.h
 api_name:
 -	IXpsPartIterator.IsDone
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
@@ -50,16 +51,6 @@ req.typenames: EXpsFontRestriction
 
 
 The <code>IsDone</code> method determines whether the iterator has finished  the iteration.
-
-
-## -syntax
-
-
-````
-BOOL STDMETHODCALLTYPE IsDone(
-    None
-);
-````
 
 
 ## -parameters

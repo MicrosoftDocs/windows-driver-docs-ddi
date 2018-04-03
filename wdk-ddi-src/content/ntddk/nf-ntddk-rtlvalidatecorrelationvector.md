@@ -7,7 +7,7 @@ old-location: kernel\rtlvalidatecorrelationvector.htm
 old-project: kernel
 ms.assetid: a73ab33b-3e8c-43d8-8547-1483bcd2af52
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: RtlValidateCorrelationVector, RtlValidateCorrelationVector function [Kernel-Mode Driver Architecture], kernel.rtlvalidatecorrelationvector, ntddk/RtlValidateCorrelationVector
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	RtlValidateCorrelationVector
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
@@ -57,16 +58,6 @@ Validates the specified correlation vector to check whether it conforms to the C
             
 
 
-## -syntax
-
-
-````
- NTSTATUS  RtlValidateCorrelationVector(
-  _Inout_ PCORRELATION_VECTOR CorrelationVector
-);
-````
-
-
 ## -parameters
 
 
@@ -81,7 +72,7 @@ TBD
 
 #### - CorrelationVector [in, out]
 
-A pointer to a  <a href="..\ntddk\ns-ntddk-correlation_vector.md">CORRELATION_VECTOR</a> structure that represents the correlation vector to be validated.
+A pointer to a  <a href="https://msdn.microsoft.com/35c1799f-2012-42b0-95e6-6902c818a094">CORRELATION_VECTOR</a> structure that represents the correlation vector to be validated.
 
 
 ## -returns

@@ -38,7 +38,8 @@ api_location:
 -	Filterpipeline.h
 api_name:
 -	IPrintPipelineFilter.ShutdownOperation
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
@@ -50,16 +51,6 @@ req.typenames: EXpsFontRestriction
 
 
 The Pipeline Manager uses the <code>ShutdownOperation</code> method to shut down a filter if the print job is canceled or an error occurs.
-
-
-## -syntax
-
-
-````
-HRESULT STDMETHODCALLTYPE ShutdownOperation(
-    None
-);
-````
 
 
 ## -parameters
@@ -92,16 +83,15 @@ The <code>ShutdownOperation</code> method is called by the pipeline manager if t
 
 ## -see-also
 
-<a href="..\filterpipeline\nn-filterpipeline-iprintpipelinefilter.md">IPrintPipelineFilter</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554286">IPrintPipelineFilter</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554306">IPrintPipelineManagerControl::FilterFinished</a>
-
-
-
  
 
  
-
 

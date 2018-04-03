@@ -38,7 +38,8 @@ api_location:
 -	ksproxy.h
 api_name:
 -	IKsClockPropertySet.KsGetResolution
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PIPE_STATE
 ---
@@ -52,16 +53,6 @@ req.typenames: PIPE_STATE
 The <b>KsGetResolution</b> method retrieves the clock resolution from the underlying clock.
 
 
-## -syntax
-
-
-````
-HRESULT KsGetResolution(
-  [out] KSRESOLUTION *Resolution
-);
-````
-
-
 ## -parameters
 
 
@@ -69,7 +60,7 @@ HRESULT KsGetResolution(
 
 ### -param Resolution [out]
 
-Pointer to a variable that receives a <a href="..\ks\ns-ks-ksresolution.md">KSRESOLUTION</a> structure that contains the granularity and error of the underlying clock.
+Pointer to a variable that receives a <a href="https://msdn.microsoft.com/library/windows/hardware/ff566806">KSRESOLUTION</a> structure that contains the granularity and error of the underlying clock.
 
 
 ## -returns
@@ -94,7 +85,6 @@ The proxy uses the <a href="https://msdn.microsoft.com/library/windows/hardware/
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksresolution.md">KSRESOLUTION</a>
 
 
 
@@ -102,8 +92,8 @@ The proxy uses the <a href="https://msdn.microsoft.com/library/windows/hardware/
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566806">KSRESOLUTION</a>
  
 
  
-
 

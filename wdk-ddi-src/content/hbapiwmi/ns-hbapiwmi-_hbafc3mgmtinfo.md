@@ -7,7 +7,7 @@ old-location: storage\hbafc3mgmtinfo.htm
 old-project: storage
 ms.assetid: 96236605-36b0-48f5-85d6-512160692b5f
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PHBAFC3MgmtInfo, HBAFC3MgmtInfo, HBAFC3MgmtInfo structure [Storage Devices], PHBAFC3MgmtInfo, PHBAFC3MgmtInfo structure pointer [Storage Devices], _HBAFC3MgmtInfo, hbapiwmi/HBAFC3MgmtInfo, hbapiwmi/PHBAFC3MgmtInfo, storage.hbafc3mgmtinfo, structs-Fibre_b128f553-eb08-4077-9dcb-7a7238ec220f.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	hbapiwmi.h
 api_name:
 -	HBAFC3MgmtInfo
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: HBAFC3MgmtInfo, *PHBAFC3MgmtInfo
 ---
@@ -50,26 +51,6 @@ req.typenames: HBAFC3MgmtInfo, *PHBAFC3MgmtInfo
 
 
 The HBAFC3MgmtInfo structure is used to report FC3 management information associated with a fibre channel adapter. 
-
-
-## -syntax
-
-
-````
-typedef struct _HBAFC3MgmtInfo {
-  ULONGLONG UniqueAdapterId;
-  UCHAR     wwn[8];
-  ULONG     unittype;
-  ULONG     PortId;
-  ULONG     NumberOfAttachedNodes;
-  USHORT    IPVersion;
-  USHORT    UDPPort;
-  UCHAR     IPAddress[16];
-  USHORT    reserved;
-  USHORT    TopologyDiscoveryFlags;
-  ULONG     reserved1;
-} HBAFC3MgmtInfo, *PHBAFC3MgmtInfo;
-````
 
 
 ## -struct-fields
@@ -145,12 +126,11 @@ The WMI tool suite generates a declaration of this structure automatically when 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553939">GetFC3MgmtInfo</a>
-
-
-
  
 
  
-
 

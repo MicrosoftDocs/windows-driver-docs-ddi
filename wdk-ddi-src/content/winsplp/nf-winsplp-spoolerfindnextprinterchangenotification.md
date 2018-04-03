@@ -38,7 +38,8 @@ api_location:
 -	Winsplp.h
 api_name:
 -	SpoolerFindNextPrinterChangeNotification
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NOTIFICATION_CONFIG_FLAGS
 req.product: Windows 10 or later.
@@ -51,19 +52,6 @@ req.product: Windows 10 or later.
 
 
 
-
-
-## -syntax
-
-
-````
-BOOL WINAPI SpoolerFindNextPrinterChangeNotification(
-  _In_        HANDLE     hPrinter,
-  _Out_       LPDWORD    pfdwChange,
-  _In_opt_    LPVOID     pPrinterNotifyOptions,
-  _Inout_opt_ LPVOID     *ppPrinterNotifyInfo
-);
-````
 
 
 ## -parameters

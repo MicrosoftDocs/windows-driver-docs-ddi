@@ -7,7 +7,7 @@ old-location: kernel\keremovequeuedpc.htm
 old-project: kernel
 ms.assetid: 9f4b076f-006b-47cd-b970-8beed8d7e804
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: KeRemoveQueueDpc, KeRemoveQueueDpc routine [Kernel-Mode Driver Architecture], k105_b07492b0-b6b2-4d15-b62c-437a4b33c0b6.xml, kernel.keremovequeuedpc, wdm/KeRemoveQueueDpc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	KeRemoveQueueDpc
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
@@ -53,16 +54,6 @@ req.product: Windows 10 or later.
 The <b>KeRemoveQueueDpc</b> routine removes the specified DPC object from the system DPC queue.
 
 
-## -syntax
-
-
-````
-BOOLEAN KeRemoveQueueDpc(
-  _Inout_ PRKDPC Dpc
-);
-````
-
-
 ## -parameters
 
 
@@ -70,7 +61,7 @@ BOOLEAN KeRemoveQueueDpc(
 
 ### -param Dpc [in, out]
 
-A pointer to an initialized DPC object that was queued by a previous call to the <a href="..\wdm\nf-wdm-keinsertqueuedpc.md">KeInsertQueueDpc</a> routine.
+A pointer to an initialized DPC object that was queued by a previous call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552185">KeInsertQueueDpc</a> routine.
 
 
 ## -returns
@@ -95,16 +86,15 @@ Starting with Windows Vista with Service Pack 1 (SP1) and Windows Server 2008
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-keinitializedpc.md">KeInitializeDpc</a>
 
 
 
-<a href="..\wdm\nf-wdm-keinsertqueuedpc.md">KeInsertQueueDpc</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552130">KeInitializeDpc</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552185">KeInsertQueueDpc</a>
  
 
  
-
 

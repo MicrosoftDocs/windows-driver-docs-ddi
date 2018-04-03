@@ -7,7 +7,7 @@ old-location: audio\usbsidebandaudio_device_error.htm
 old-project: audio
 ms.assetid: EB5AFAF3-D75C-4B91-823C-E1C6784CB13B
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/19/2018
 ms.keywords: "*PUSBSIDEBANDAUDIO_DEVICE_ERROR, PUSBSIDEBANDAUDIO_DEVICE_ERROR, PUSBSIDEBANDAUDIO_DEVICE_ERROR structure pointer [Audio Devices], USBSIDEBANDAUDIO_DEVICE_ERROR, USBSIDEBANDAUDIO_DEVICE_ERROR structure [Audio Devices], _USBSIDEBANDAUDIO_DEVICE_ERROR, audio.usbsidebandaudio_device_error, usbsidebandaudio/PUSBSIDEBANDAUDIO_DEVICE_ERROR, usbsidebandaudio/USBSIDEBANDAUDIO_DEVICE_ERROR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -37,7 +37,8 @@ api_location:
 -
 api_name:
 -	USBSIDEBANDAUDIO_DEVICE_ERROR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USBSIDEBANDAUDIO_DEVICE_ERROR, *PUSBSIDEBANDAUDIO_DEVICE_ERROR
 req.product: Windows 10 or later.
@@ -52,18 +53,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 TBD
-
-
-## -syntax
-
-
-````
-typedef struct _USBSIDEBANDAUDIO_DEVICE_ERROR {
-  ULONG    Reserved 0;
-  bool     Reserved 1;
-  NTSTATUS Reserved 2;
-} USBSIDEBANDAUDIO_DEVICE_ERROR, *PUSBSIDEBANDAUDIO_DEVICE_ERROR;
-````
 
 
 ## -struct-fields

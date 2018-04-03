@@ -7,7 +7,7 @@ old-location: netvista\ndismfreesharedmemory.htm
 old-project: netvista
 ms.assetid: 6ab11b97-e422-4ce9-b98b-51496974cb47
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NdisMFreeSharedMemory, NdisMFreeSharedMemory function [Network Drivers Starting with Windows Vista], miniport_memory_shared_ref_1aab9bae-ae02-40ba-83ec-1dd880e207cf.xml, ndis/NdisMFreeSharedMemory, netvista.ndismfreesharedmemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	ndis.dll
 api_name:
 -	NdisMFreeSharedMemory
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
@@ -51,23 +52,9 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 
 
 <b>NdisMFreeSharedMemory</b> frees memory that was previously allocated by 
-  <a href="..\ndis\nf-ndis-ndismallocatesharedmemory.md">NdisMAllocateSharedMemory</a> or 
-  <a href="..\ndis\nf-ndis-ndismallocatesharedmemoryasyncex.md">
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff562782">NdisMAllocateSharedMemory</a> or 
+  <a href="https://msdn.microsoft.com/ccbe98ca-7da9-4159-ac1a-c25ec6745ff4">
   NdisMAllocateSharedMemoryAsyncEx</a> by the driver of a DMA NIC.
-
-
-## -syntax
-
-
-````
-VOID NdisMFreeSharedMemory(
-  _In_ NDIS_HANDLE           MiniportAdapterHandle,
-  _In_ ULONG                 Length,
-  _In_ BOOLEAN               Cached,
-  _In_ PVOID                 VirtualAddress,
-  _In_ NDIS_PHYSICAL_ADDRESS PhysicalAddress
-);
-````
 
 
 ## -parameters
@@ -78,7 +65,7 @@ VOID NdisMFreeSharedMemory(
 ### -param MiniportAdapterHandle [in]
 
 Specifies the handle originally input to 
-     <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>.
+     <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>.
 
 
 ### -param Length [in]
@@ -119,8 +106,8 @@ None
 
 
 If it has already made a successful call to 
-    <a href="..\ndis\nf-ndis-ndismallocatesharedmemory.md">NdisMAllocateSharedMemory</a> or 
-    <a href="..\ndis\nf-ndis-ndismallocatesharedmemoryasyncex.md">
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff562782">NdisMAllocateSharedMemory</a> or 
+    <a href="https://msdn.microsoft.com/ccbe98ca-7da9-4159-ac1a-c25ec6745ff4">
     NdisMAllocateSharedMemoryAsyncEx</a>, the miniport driver of a DMA device calls 
     <b>NdisMFreeSharedMemory</b> if any of the following occurs:
 
@@ -155,7 +142,7 @@ A miniport driver cannot call
     <b>NdisMAllocateSharedMemoryAsyncEx</b>.
 
 <b>NdisMFreeSharedMemory</b> cannot be called from a 
-    <a href="..\ndis\nc-ndis-miniport_shutdown.md">MiniportShutdownEx</a> function.
+    <a href="https://msdn.microsoft.com/7c88ff02-e791-4642-ad40-78f2ef2cba7d">MiniportShutdownEx</a> function.
 
 Microsoft Windows Server 2003, Windows XP Service Pack 1, and later versions of Windows allow both
     bus-master DMA NICs and subordinate DMA NICs to call 
@@ -167,34 +154,33 @@ Microsoft Windows Server 2003, Windows XP Service Pack 1, and later versions of 
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismallocatesharedmemory.md">NdisMAllocateSharedMemory</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
+<a href="https://msdn.microsoft.com/b8d452b4-bef3-4991-87cf-fac15bedfde4">MiniportHaltEx</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_allocate_shared_mem_complete.md">
+<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/d102a001-960c-4fe6-af2d-d740bba744b1">
    MiniportSharedMemoryAllocateComplete</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismallocatesharedmemoryasyncex.md">
+<a href="https://msdn.microsoft.com/7c88ff02-e791-4642-ad40-78f2ef2cba7d">MiniportShutdownEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562782">NdisMAllocateSharedMemory</a>
+
+
+
+<a href="https://msdn.microsoft.com/ccbe98ca-7da9-4159-ac1a-c25ec6745ff4">
    NdisMAllocateSharedMemoryAsyncEx</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_shutdown.md">MiniportShutdownEx</a>
-
-
-
  
 
  
-
 

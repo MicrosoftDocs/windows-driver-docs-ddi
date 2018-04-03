@@ -38,7 +38,8 @@ api_location:
 -	Prcomoem.h
 api_name:
 -	OEMPTOPTS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
@@ -51,17 +52,6 @@ req.product: Windows 10 or later.
 
 
 
-
-
-## -syntax
-
-
-````
-typedef enum tagOEMPTOPTS { 
-  OEMPT_DEFAULT     = 0,
-  OEMPT_NOSHAPSHOT  = 0x1
-} OEMPTOPTS, *POEMPTOPTS;
-````
 
 
 ## -enum-fields

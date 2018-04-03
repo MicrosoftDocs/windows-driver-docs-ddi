@@ -7,7 +7,7 @@ old-location: debugger\idebugeventcallbacks_getinterestmask.htm
 old-project: debugger
 ms.assetid: 165c83cb-c0be-4a09-9220-a5208f660308
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: ComCallbacks_564e7fce-ee9a-404e-9ae4-06805cb0b677.xml, GetInterestMask method [Windows Debugging], GetInterestMask method [Windows Debugging], IDebugEventCallbacks interface, GetInterestMask,IDebugEventCallbacks.GetInterestMask, IDebugEventCallbacks, IDebugEventCallbacks interface [Windows Debugging], GetInterestMask method, IDebugEventCallbacks::GetInterestMask, dbgeng/IDebugEventCallbacks::GetInterestMask, debugger.idebugeventcallbacks_getinterestmask
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugEventCallbacks.GetInterestMask
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -50,16 +51,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetInterestMask</b> callback method is called to determine which <a href="https://msdn.microsoft.com/library/windows/hardware/ff543067">events</a> the <b>IDebugEventCallbacks</b> object is interested in.  The engine calls <b>GetInterestMask</b> when the object is registered with a client by using <a href="https://msdn.microsoft.com/library/windows/hardware/ff556671">SetEventCallbacks</a>.
-
-
-## -syntax
-
-
-````
-HRESULT GetInterestMask(
-  [out] PULONG Mask
-);
-````
 
 
 ## -parameters

@@ -7,7 +7,7 @@ old-location: display\dxgk_segmentbankpreference.htm
 old-project: display
 ms.assetid: ff292137-4d95-4388-aae9-f6436b403c6a
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGK_SEGMENTBANKPREFERENCE, DXGK_SEGMENTBANKPREFERENCE structure [Display Devices], DmStructs_58615e96-0b7c-49a9-8966-0f627d7078f7.xml, _DXGK_SEGMENTBANKPREFERENCE, d3dkmddi/DXGK_SEGMENTBANKPREFERENCE, display.dxgk_segmentbankpreference
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGK_SEGMENTBANKPREFERENCE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_SEGMENTBANKPREFERENCE
 ---
@@ -50,28 +51,6 @@ req.typenames: DXGK_SEGMENTBANKPREFERENCE
 
 
 The <b>DXGK_SEGMENTBANKPREFERENCE</b> structure describes bank preferences for paging in an allocation.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGK_SEGMENTBANKPREFERENCE {
-  union {
-    struct {
-      UINT Bank0  :7;
-      UINT Direction0  :1;
-      UINT Bank1  :7;
-      UINT Direction1  :1;
-      UINT Bank2  :7;
-      UINT Direction2  :1;
-      UINT Bank3  :7;
-      UINT Direction3  :1;
-    };
-    UINT Value;
-  };
-} DXGK_SEGMENTBANKPREFERENCE;
-````
 
 
 ## -struct-fields
@@ -144,7 +123,7 @@ This member is equivalent to the thirty-secondbit of the 32-bit <b>Value</b> mem
 
 
 
-The display miniport driver can indicate up to four bank preferences in the <b>HintedBank</b> member of a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfo.md">DXGK_ALLOCATIONINFO</a> structure when the driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a> function is called. Preferred-bank identifiers are one-based (that is, the first bank has an identifier of one). An identifier of zero indicates that the driver has no preference. The highest priority preference is specified in the <b>Bank0</b> member; the lowest priority preference is specified in the <b>Bank3</b> member. The driver can specify less than four preferences by setting the lower priority preferences of bank identifiers to zero. For example, the driver can specify two preferences by setting <b>Bank0</b> and <b>Bank1</b> to valid identifiers and <b>Bank2</b> and <b>Bank3</b> to zero. The driver can use each <b>Direction</b><i>X</i> member to specify the scanning direction for each bank preference independently. 
+The display miniport driver can indicate up to four bank preferences in the <b>HintedBank</b> member of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff560960">DXGK_ALLOCATIONINFO</a> structure when the driver's <a href="https://msdn.microsoft.com/a28287d6-4dfa-4db4-92df-bbcd9379a5b2">DxgkDdiCreateAllocation</a> function is called. Preferred-bank identifiers are one-based (that is, the first bank has an identifier of one). An identifier of zero indicates that the driver has no preference. The highest priority preference is specified in the <b>Bank0</b> member; the lowest priority preference is specified in the <b>Bank3</b> member. The driver can specify less than four preferences by setting the lower priority preferences of bank identifiers to zero. For example, the driver can specify two preferences by setting <b>Bank0</b> and <b>Bank1</b> to valid identifiers and <b>Bank2</b> and <b>Bank3</b> to zero. The driver can use each <b>Direction</b><i>X</i> member to specify the scanning direction for each bank preference independently. 
 
  The video memory manager  allocates resources from  preferred segments that the <b>PreferredSegment</b> member of DXGK_ALLOCATIONINFO specifies. 
 
@@ -153,28 +132,27 @@ The display miniport driver can indicate up to four bank preferences in the <b>H
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560960">DXGK_ALLOCATIONINFO</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560975">DXGK_ALLOCATIONLIST</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff562047">DXGK_SEGMENTPREFERENCE</a>
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a>
+<a href="https://msdn.microsoft.com/a28287d6-4dfa-4db4-92df-bbcd9379a5b2">DxgkDdiCreateAllocation</a>
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationlist.md">DXGK_ALLOCATIONLIST</a>
-
-
-
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_render.md">DxgkDdiRender</a>
-
-
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfo.md">DXGK_ALLOCATIONINFO</a>
-
-
-
+<a href="https://msdn.microsoft.com/fd634768-5e1e-4f40-82fd-5ef69148c3d7">DxgkDdiRender</a>
  
 
  
-
 

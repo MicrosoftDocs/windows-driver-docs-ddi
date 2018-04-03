@@ -7,7 +7,7 @@ old-location: kernel\trace_information_class.htm
 old-project: kernel
 ms.assetid: 38fa1687-5ad6-4536-8930-8505e5960207
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: AllLoggerHandlesClass, DiskIoNotifyRoutinesClass, EventLoggerHandleClass, FltIoNotifyRoutinesClass, GlobalLoggerHandleClass, LoggerEventsLoggedClass, LoggerEventsLostClass, MaxTraceInformationClass, TRACE_INFORMATION_CLASS, TRACE_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], TraceEnableFlagsClass, TraceEnableLevelClass, TraceHandleByNameClass, TraceHandleClass, TraceIdClass, TraceInformationClassReserved1, TraceInformationClassReserved2, TraceSessionSettingsClass, WdfNotifyRoutinesClass, _TRACE_INFORMATION_CLASS, kernel.trace_information_class, sysenum_a5da840d-6bda-44cb-81b3-905ece3356cd.xml, wdm/AllLoggerHandlesClass, wdm/DiskIoNotifyRoutinesClass, wdm/EventLoggerHandleClass, wdm/FltIoNotifyRoutinesClass, wdm/GlobalLoggerHandleClass, wdm/LoggerEventsLoggedClass, wdm/LoggerEventsLostClass, wdm/MaxTraceInformationClass, wdm/TRACE_INFORMATION_CLASS, wdm/TraceEnableFlagsClass, wdm/TraceEnableLevelClass, wdm/TraceHandleByNameClass, wdm/TraceHandleClass, wdm/TraceIdClass, wdm/TraceInformationClassReserved1, wdm/TraceInformationClassReserved2, wdm/TraceSessionSettingsClass, wdm/WdfNotifyRoutinesClass
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	TRACE_INFORMATION_CLASS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TRACE_INFORMATION_CLASS
 req.product: Windows 10 or later.
@@ -51,32 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>TRACE_INFORMATION_CLASS</b> enumeration type is used to indicate types of information associated with a <a href="https://msdn.microsoft.com/library/windows/hardware/ff566350">WMI event tracing</a> session.
-
-
-## -syntax
-
-
-````
-typedef enum _TRACE_INFORMATION_CLASS { 
-  TraceIdClass                    = 0,
-  TraceHandleClass,
-  TraceEnableFlagsClass,
-  TraceEnableLevelClass,
-  GlobalLoggerHandleClass,
-  EventLoggerHandleClass,
-  AllLoggerHandlesClass,
-  TraceHandleByNameClass,
-  LoggerEventsLostClass,
-  TraceSessionSettingsClass,
-  LoggerEventsLoggedClass,
-  DiskIoNotifyRoutinesClass,
-  TraceInformationClassReserved1,
-  FltIoNotifyRoutinesClass,
-  TraceInformationClassReserved2,
-  WdfNotifyRoutinesClass,
-  MaxTraceInformationClass
-} TRACE_INFORMATION_CLASS;
-````
 
 
 ## -enum-fields
@@ -121,7 +96,7 @@ Retrieves an array of event trace handles (TRACEHANDLE array) for all valid logg
 
 ### -field TraceHandleByNameClass
 
-Retrieves an event trace handle (TRACEHANDLE) identified by a caller-supplied friendly name (<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure in buffer).
+Retrieves an event trace handle (TRACEHANDLE) identified by a caller-supplied friendly name (<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure in buffer).
 
 
 ### -field LoggerEventsLostClass
@@ -173,31 +148,30 @@ The maximum value in this enumeration type.
 
 
 
-<b>TRACE_INFORMATION_CLASS</b> is provided primarily for use with the <a href="..\wdm\nf-wdm-wmiquerytraceinformation.md">WmiQueryTraceInformation</a> routine, which returns information about a WMI event tracing session.
+<b>TRACE_INFORMATION_CLASS</b> is provided primarily for use with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565820">WmiQueryTraceInformation</a> routine, which returns information about a WMI event tracing session.
 
 
 
 
 ## -see-also
 
-<a href="..\wmilib\nf-wmilib-wmifireevent.md">WmiFireEvent</a>
 
 
 
-<a href="..\wdm\nf-wdm-wmitracemessage.md">WmiTraceMessage</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565807">WmiFireEvent</a>
 
 
 
-<a href="..\wdm\nf-wdm-wmiquerytraceinformation.md">WmiQueryTraceInformation</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565820">WmiQueryTraceInformation</a>
 
 
 
-<a href="..\wdm\nf-wdm-wmitracemessageva.md">WmiTraceMessageVa</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565836">WmiTraceMessage</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566340">WmiTraceMessageVa</a>
  
 
  
-
 

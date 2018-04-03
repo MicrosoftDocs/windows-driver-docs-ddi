@@ -38,7 +38,8 @@ api_location:
 -	Bdatypes.h
 api_name:
 -	BDA_ISDBCAS_RESPONSEDATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BDA_ISDBCAS_RESPONSEDATA, *PBDA_ISDBCAS_RESPONSEDATA
 ---
@@ -50,20 +51,6 @@ req.typenames: BDA_ISDBCAS_RESPONSEDATA, *PBDA_ISDBCAS_RESPONSEDATA
 
 
 
-
-
-## -syntax
-
-
-````
-typedef struct _BDA_ISDBCAS_RESPONSEDATA {
-  PBDARESULT lResult;
-  ULONG      ulRequestID;
-  ULONG      ulIsdbStatus;
-  ULONG      ulIsdbDataSize;
-  BYTE       argbIsdbCommandData[MIN_DIMENSION];
-} BDA_ISDBCAS_RESPONSEDATA, *PBDA_ISDBCAS_RESPONSEDATA;
-````
 
 
 ## -struct-fields

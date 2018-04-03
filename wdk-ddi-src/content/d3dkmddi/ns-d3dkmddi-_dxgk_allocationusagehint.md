@@ -7,7 +7,7 @@ old-location: display\dxgk_allocationusagehint.htm
 old-project: display
 ms.assetid: 04cceb5e-d185-4f43-a627-71a61a45b8aa
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGK_ALLOCATIONUSAGEHINT, DXGK_ALLOCATIONUSAGEHINT structure [Display Devices], DmStructs_9597c610-bb79-496c-b7b3-9fb5abb30a46.xml, _DXGK_ALLOCATIONUSAGEHINT, d3dkmddi/DXGK_ALLOCATIONUSAGEHINT, display.dxgk_allocationusagehint
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGK_ALLOCATIONUSAGEHINT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_ALLOCATIONUSAGEHINT
 ---
@@ -50,17 +51,6 @@ req.typenames: DXGK_ALLOCATIONUSAGEHINT
 
 
 The DXGK_ALLOCATIONUSAGEHINT structure contains allocation usage and version information that is used as a hint about how to use an allocation.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGK_ALLOCATIONUSAGEHINT {
-  UINT                      Version;
-  DXGK_ALLOCATIONUSAGEINFO1 v1;
-} DXGK_ALLOCATIONUSAGEHINT;
-````
 
 
 ## -struct-fields
@@ -75,29 +65,28 @@ typedef struct _DXGK_ALLOCATIONUSAGEHINT {
 
 ### -field v1
 
-[out] A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationusageinfo1.md">DXGK_ALLOCATIONUSAGEINFO1</a> structure that describes how an allocation can be used in direct memory access (DMA) buffering.
+[out] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff560986">DXGK_ALLOCATIONUSAGEINFO1</a> structure that describes how an allocation can be used in direct memory access (DMA) buffering.
 
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationusageinfo1.md">DXGK_ALLOCATIONUSAGEINFO1</a>
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfo.md">DXGK_ALLOCATIONINFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557559">DXGKARG_CREATEALLOCATION</a>
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createallocation.md">DXGKARG_CREATEALLOCATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560960">DXGK_ALLOCATIONINFO</a>
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560986">DXGK_ALLOCATIONUSAGEINFO1</a>
 
 
 
+<a href="https://msdn.microsoft.com/a28287d6-4dfa-4db4-92df-bbcd9379a5b2">DxgkDdiCreateAllocation</a>
  
 
  
-
 

@@ -39,7 +39,8 @@ api_location:
 -	Wdf01000.sys.dll
 api_name:
 -	WdfDmaTransactionWdmGetTransferContext
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_DMA_SYSTEM_PROFILE_CONFIG, *PWDF_DMA_SYSTEM_PROFILE_CONFIG
 req.product: Windows 10 or later.
@@ -55,16 +56,6 @@ req.product: Windows 10 or later.
 
 
    The <b>WdfDmaTransactionWdmGetTransferContext</b> method retrieves the WDM transfer context that is associated with a DMA transaction.
-
-
-## -syntax
-
-
-````
-PVOID WdfDmaTransactionWdmGetTransferContext(
-  _In_ WDFDMATRANSACTION DmaTransaction
-);
-````
 
 
 ## -parameters
@@ -92,25 +83,25 @@ A pointer to the DMA transfer context (PTRANSFER_CONTEXT) associated with the tr
 
 The DMA transfer context for a transaction is allocated when the driver creates the transaction.
 
-<b>WdfDmaTransactionWdmGetTransferContext</b> must be used with a DMA enabler that uses DMA version 3. To select version 3, set the <b>WdmDmaVersionOverride</b> member of <a href="..\wdfdmaenabler\ns-wdfdmaenabler-_wdf_dma_enabler_config.md">WDF_DMA_ENABLER_CONFIG</a> to 3.
+<b>WdfDmaTransactionWdmGetTransferContext</b> must be used with a DMA enabler that uses DMA version 3. To select version 3, set the <b>WdmDmaVersionOverride</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff551290">WDF_DMA_ENABLER_CONFIG</a> to 3.
 
 Your driver can use the DMA transfer context to call the following WDM DMA library routines directly:
 
 <ul>
 <li>
-<a href="..\wdm\nc-wdm-pallocate_adapter_channel_ex.md">AllocateAdapterChannelEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406340">AllocateAdapterChannelEx</a>
 </li>
 <li>
-<a href="..\wdm\nc-wdm-pcancel_adapter_channel.md">CancelAdapterChannel</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406374">CancelAdapterChannel</a>
 </li>
 <li>
-<a href="..\wdm\nc-wdm-pcancel_mapped_transfer.md">CancelMappedTransfer</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406377">CancelMappedTransfer</a>
 </li>
 <li>
-<a href="..\wdm\nc-wdm-pget_scatter_gather_list_ex.md">GetScatterGatherListEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451134">GetScatterGatherListEx</a>
 </li>
 <li>
-<a href="..\wdm\nc-wdm-pbuild_scatter_gather_list_ex.md">BuildScatterGatherListEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406371">BuildScatterGatherListEx</a>
 </li>
 </ul>
 You must initialize the DMA transaction before calling <b>WdfDmaTransactionWdmGetTransferContext</b>.
@@ -120,12 +111,11 @@ You must initialize the DMA transaction before calling <b>WdfDmaTransactionWdmGe
 
 ## -see-also
 
-<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioncreate.md">WdfDmaTransactionCreate</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547027">WdfDmaTransactionCreate</a>
  
 
  
-
 

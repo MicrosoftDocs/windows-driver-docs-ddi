@@ -38,7 +38,8 @@ api_location:
 -	filterpipeline.h
 api_name:
 -	IPartDiscardControl.GetDiscardProperties
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
@@ -50,17 +51,6 @@ req.typenames: EXpsFontRestriction
 
 
 The <b>GetDiscardProperties</b> method gets the properties of the discard control.
-
-
-## -syntax
-
-
-````
-HRESULT GetDiscardProperties(
-  [out] BSTR *uriSentinelPage,
-  [out] BSTR *uriPartToDiscard
-);
-````
 
 
 ## -parameters

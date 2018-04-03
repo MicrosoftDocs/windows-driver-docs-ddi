@@ -38,7 +38,8 @@ api_location:
 -	Bthioctl.h
 api_name:
 -	IOCTL_BTH_SDP_SUBMIT_RECORD
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: HFP_BYPASS_CODEC_ID_V1, *PHFP_BYPASS_CODEC_ID_V1
 ---
@@ -53,7 +54,7 @@ req.typenames: HFP_BYPASS_CODEC_ID_V1, *PHFP_BYPASS_CODEC_ID_V1
 The IOCTL_BTH_SDP_SUBMIT_RECORD request allows a profile driver to add an SDP record to the local SDP
      server, allowing the client to advertise that a service is available on the local computer. The profile
      driver calls 
-     <a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_remove_record.md">IOCTL_BTH_SDP_REMOVE_RECORD</a> to
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536690">IOCTL_BTH_SDP_REMOVE_RECORD</a> to
      stop advertising the server on the local SDP server.
 
 
@@ -168,12 +169,11 @@ The stream passed to the input buffer was invalid.
 
 ## -see-also
 
-<a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_remove_record.md">IOCTL_BTH_SDP_REMOVE_RECORD</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536690">IOCTL_BTH_SDP_REMOVE_RECORD</a>
  
 
  
-
 

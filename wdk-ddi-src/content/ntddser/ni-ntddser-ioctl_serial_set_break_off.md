@@ -38,7 +38,8 @@ api_location:
 -	Ntddser.h
 api_name:
 -	IOCTL_SERIAL_SET_BREAK_OFF
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SD_REQUEST_FUNCTION
 ---
@@ -51,7 +52,7 @@ req.typenames: SD_REQUEST_FUNCTION
 
 The <b>IOCTL_SERIAL_SET_BREAK_OFF</b> request sets the line control break signal inactive.
 
-To set the line control break signal active, a client can use an <a href="..\ntddser\ni-ntddser-ioctl_serial_set_break_on.md">IOCTL_SERIAL_SET_BREAK_ON</a> request.
+To set the line control break signal active, a client can use an <a href="https://msdn.microsoft.com/library/windows/hardware/ff546685">IOCTL_SERIAL_SET_BREAK_ON</a> request.
 
 
 ## -ioctlparameters
@@ -106,12 +107,11 @@ The <b>Status</b> member is to one of the <a href="https://docs.microsoft.com/en
 
 ## -see-also
 
-<a href="..\ntddser\ni-ntddser-ioctl_serial_set_break_on.md">IOCTL_SERIAL_SET_BREAK_ON</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546685">IOCTL_SERIAL_SET_BREAK_ON</a>
  
 
  
-
 

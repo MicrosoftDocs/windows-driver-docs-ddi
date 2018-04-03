@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	IPrintSchemaFeature.SelectionType
 -	IPrintSchemaFeature.get_SelectionType
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PrintSchemaSelectionType
 req.product: Windows 10 or later.
@@ -56,27 +57,16 @@ Gets the selection type of the Feature.
 This property is read-only.
 
 
-## -syntax
-
-
-````
-HRESULT get_SelectionType(
-  [out, retval] PrintSchemaSelectionType *pSelectionType
-);
-````
-
-
 ## -parameters
 
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintschemafeature.md">IPrintSchemaFeature</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451284">IPrintSchemaFeature</a>
  
 
  
-
 

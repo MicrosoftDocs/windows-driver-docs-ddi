@@ -38,7 +38,8 @@ api_location:
 -	prcomoem.h
 api_name:
 -	IPrintCoreHelperUni2.GetNamedCommand
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
@@ -51,20 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>GetNamedCommand</b> method returns the specified command.
-
-
-## -syntax
-
-
-````
-HRESULT GetNamedCommand(
-  [in]  PDEVMODE pDevmode,
-  [in]  DWORD    cbSize,
-  [in]  LPCWSTR  pszCommandName,
-  [out] PBYTE    **ppCommandBytes,
-  [out] DWORD    *pcbCommandSize
-);
-````
 
 
 ## -parameters
@@ -125,12 +112,11 @@ The <b>GetNamedCommand</b> method will not return commands containing references
 
 ## -see-also
 
-<a href="..\prcomoem\nn-prcomoem-iprintcorehelperuni2.md">IPrintCoreHelperUni2</a>
 
 
 
+<a href="https://msdn.microsoft.com/F7EC4309-1274-4DA1-B006-A716627010F6">IPrintCoreHelperUni2</a>
  
 
  
-
 

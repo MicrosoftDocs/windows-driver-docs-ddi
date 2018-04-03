@@ -7,7 +7,7 @@ old-location: debugger\setdataparameters.htm
 old-project: debugger
 ms.assetid: 66878652-be29-479f-8e00-a9d8ab1b0db7
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: ComOther_250724e6-5ae3-4755-87de-3804e4e6f4ed.xml, IDebugBreakpoint interface [Windows Debugging], SetDataParameters method, IDebugBreakpoint2, IDebugBreakpoint2 interface [Windows Debugging], SetDataParameters method, IDebugBreakpoint2::SetDataParameters, IDebugBreakpoint::SetDataParameters, SetDataParameters method [Windows Debugging], SetDataParameters method [Windows Debugging], IDebugBreakpoint interface, SetDataParameters method [Windows Debugging], IDebugBreakpoint2 interface, SetDataParameters,IDebugBreakpoint2.SetDataParameters, dbgeng/IDebugBreakpoint2::SetDataParameters, dbgeng/IDebugBreakpoint::SetDataParameters, debugger.setdataparameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	IDebugBreakpoint.SetDataParameters
 -	IDebugBreakpoint2.SetDataParameters
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -51,17 +52,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>SetDataParameters</b> method sets the parameters for a processor breakpoint.
-
-
-## -syntax
-
-
-````
-HRESULT SetDataParameters(
-  [in] ULONG Size,
-  [in] ULONG AccessType
-);
-````
 
 
 ## -parameters

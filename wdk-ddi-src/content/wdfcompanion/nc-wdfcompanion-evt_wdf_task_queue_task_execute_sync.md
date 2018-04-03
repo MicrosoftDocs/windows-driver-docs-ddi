@@ -38,7 +38,8 @@ api_location:
 -	wdfcompanion.h
 api_name:
 -	EVT_WDF_TASK_QUEUE_TASK_EXECUTE_SYNC
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_COMMON_BUFFER_CONFIG, *PWDF_COMMON_BUFFER_CONFIG
 req.product: Windows 10 or later.
@@ -52,25 +53,6 @@ req.product: Windows 10 or later.
 
 
 			For internal use only.
-
-
-## -prototype
-
-
-````
-EVT_WDF_TASK_QUEUE_TASK_EXECUTE_SYNC EVT_WDF_TASK_QUEUE_TASK_EXECUTE_SYNC;
-
-NTSTATUS EVT_WDF_TASK_QUEUE_TASK_EXECUTE_SYNC(
-  _In_      WDFTASKQUEUE Queue,
-  _In_opt_  PVOID        InputBuffer,
-  _Out_opt_ PVOID        OutputBuffer,
-  _In_      size_t       InputBufferLength,
-  _In_      size_t       OutputBufferLength,
-  _In_      size_t       *BytesWritten,
-  _In_      ULONG        TaskOperationCode
-)
-{ ... }
-````
 
 
 ## -parameters

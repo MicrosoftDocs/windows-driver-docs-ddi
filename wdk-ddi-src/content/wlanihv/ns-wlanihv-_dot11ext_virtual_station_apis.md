@@ -38,7 +38,8 @@ api_location:
 -	wlanihv.h
 api_name:
 -	DOT11EXT_VIRTUAL_STATION_APIS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT11EXT_VIRTUAL_STATION_APIS, *PDOT11EXT_VIRTUAL_STATION_APIS
 req.product: Windows 10 or later.

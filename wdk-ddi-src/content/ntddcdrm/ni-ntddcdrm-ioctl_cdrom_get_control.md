@@ -7,7 +7,7 @@ old-location: storage\ioctl_cdrom_get_control.htm
 old-project: storage
 ms.assetid: 3d474eb7-6622-48fd-bf40-c17d03933828
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_CDROM_GET_CONTROL, IOCTL_CDROM_GET_CONTROL control code [Storage Devices], k307_441b4747-9431-42c3-b550-39aaea1229f1.xml, ntddcdrm/IOCTL_CDROM_GET_CONTROL, storage.ioctl_cdrom_get_control
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddcdrm.h
 api_name:
 -	IOCTL_CDROM_GET_CONTROL
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WRITE_ROTATION, *PWRITE_ROTATION
 ---
@@ -74,7 +75,7 @@ None.
 
 ### -output-buffer
 
-The driver returns the <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_audio_control.md">CDROM_AUDIO_CONTROL</a> data in the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>.
+The driver returns the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551360">CDROM_AUDIO_CONTROL</a> data in the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>.
 
 
 ### -output-buffer-length
@@ -107,12 +108,11 @@ The <b>Information</b> field is set to the number of bytes returned. The <b>Stat
 
 ## -see-also
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_audio_control.md">CDROM_AUDIO_CONTROL</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551360">CDROM_AUDIO_CONTROL</a>
  
 
  
-
 

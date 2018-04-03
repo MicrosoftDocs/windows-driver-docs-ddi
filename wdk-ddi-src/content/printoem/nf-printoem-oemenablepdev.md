@@ -38,7 +38,8 @@ api_location:
 -	printoem.h
 api_name:
 -	OEMEnablePDEV
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STDVARIABLEINDEX
 req.product: Windows 10 or later.
@@ -50,24 +51,6 @@ req.product: Windows 10 or later.
 ## -description
 
 
-
-
-## -syntax
-
-
-````
-PDEVOEM APIENTRY OEMEnablePDEV(
-          PDEVOBJ                            pdevobj,
-  _In_    PWSTR                              pPrinterName,
-          ULONG                              cPatterns,
-  _In_    _updates_(cPatterns) HSURF         *phsurfPatterns,
-          ULONG                              cjGdiInfo,
-  _Inout_ _updates_bytes_(cjGdiInfo) GDIINFO *pGdiInfo,
-          ULONG                              cjDevInfo,
-  _Inout_ _updates_bytes_(cjDevInfo) DEVINFO *pDevInfo,
-  _In_    DRVENABLEDATA                      *pded
-);
-````
 
 
 ## -parameters

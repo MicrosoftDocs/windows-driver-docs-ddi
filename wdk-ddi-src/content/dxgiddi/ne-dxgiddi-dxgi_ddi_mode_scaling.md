@@ -7,7 +7,7 @@ old-location: display\dxgi_ddi_mode_scaling.htm
 old-project: display
 ms.assetid: dfe37343-18a6-46f2-b23f-52fc0ca2f800
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGI_DDI_MODE_SCALING, DXGI_DDI_MODE_SCALING enumeration [Display Devices], DXGI_DDI_MODE_SCALING_CENTERED, DXGI_DDI_MODE_SCALING_STRETCHED, DXGI_DDI_MODE_SCALING_UNSPECIFIED, UMDisplayDriver_Dx10param_Structs_fce25008-9fff-4a5a-9bdc-2e9a6055ef06.xml, display.dxgi_ddi_mode_scaling, dxgiddi/DXGI_DDI_MODE_SCALING, dxgiddi/DXGI_DDI_MODE_SCALING_CENTERED, dxgiddi/DXGI_DDI_MODE_SCALING_STRETCHED, dxgiddi/DXGI_DDI_MODE_SCALING_UNSPECIFIED
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	dxgiddi.h
 api_name:
 -	DXGI_DDI_MODE_SCALING
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGI_DDI_MODE_SCALING
 ---
@@ -50,18 +51,6 @@ req.typenames: DXGI_DDI_MODE_SCALING
 
 
 The DXGI_DDI_MODE_SCALING enumeration type contains values that identify the scaling support for a display.
-
-
-## -syntax
-
-
-````
-typedef enum DXGI_DDI_MODE_SCALING { 
-  DXGI_DDI_MODE_SCALING_UNSPECIFIED  = 0,
-  DXGI_DDI_MODE_SCALING_STRETCHED    = 1,
-  DXGI_DDI_MODE_SCALING_CENTERED     = 2
-} DXGI_DDI_MODE_SCALING;
-````
 
 
 ## -enum-fields
@@ -86,12 +75,11 @@ Centered content can be displayed.
 
 ## -see-also
 
-<a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_mode_desc.md">DXGI_DDI_MODE_DESC</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557499">DXGI_DDI_MODE_DESC</a>
  
 
  
-
 

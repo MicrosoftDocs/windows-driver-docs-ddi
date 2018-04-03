@@ -7,7 +7,7 @@ old-location: display\d3dkmt_openkeyedmutex2.htm
 old-project: display
 ms.assetid: 7d746cac-42fd-4fb3-9384-ea690c2235f8
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMT_OPENKEYEDMUTEX2, D3DKMT_OPENKEYEDMUTEX2 structure [Display Devices], _D3DKMT_OPENKEYEDMUTEX2, d3dkmthk/D3DKMT_OPENKEYEDMUTEX2, display.d3dkmt_openkeyedmutex2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3dkmthk.h
 api_name:
 -	D3DKMT_OPENKEYEDMUTEX2
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_OPENKEYEDMUTEX2
 ---
@@ -49,20 +50,7 @@ req.typenames: D3DKMT_OPENKEYEDMUTEX2
 ## -description
 
 
-Describes a keyed mutex that the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtopenkeyedmutex2.md">D3DKMTOpenKeyedMutex2</a> function opens.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_OPENKEYEDMUTEX2 {
-  D3DKMT_HANDLE hSharedHandle;
-  D3DKMT_HANDLE hKeyedMutex;
-  VOID          *pPrivateRuntimeData;
-  UINT          PrivateRuntimeDataSize;
-} D3DKMT_OPENKEYEDMUTEX2;
-````
+Describes a keyed mutex that the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439405">D3DKMTOpenKeyedMutex2</a> function opens.
 
 
 ## -struct-fields
@@ -92,12 +80,11 @@ typedef struct _D3DKMT_OPENKEYEDMUTEX2 {
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtopenkeyedmutex2.md">D3DKMTOpenKeyedMutex2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439405">D3DKMTOpenKeyedMutex2</a>
  
 
  
-
 

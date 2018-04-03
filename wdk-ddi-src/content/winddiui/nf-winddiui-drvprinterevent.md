@@ -38,7 +38,8 @@ api_location:
 -	winddiui.h
 api_name:
 -	DrvPrinterEvent
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WINBIO_VERSION, *PWINBIO_VERSION
 req.product: Windows 10 or later.
@@ -51,19 +52,6 @@ req.product: Windows 10 or later.
 
 
 A printer interface DLL's <b>DrvPrinterEvent</b> function is called by the print spooler when processing printer-specific events that might require action by the printer driver.
-
-
-## -syntax
-
-
-````
-BOOL DrvPrinterEvent(
-  _In_ LPWSTR pPrinterName,
-       int    DriverEvent,
-       DWORD  Flags,
-       LPARAM lParam
-);
-````
 
 
 ## -parameters
@@ -101,7 +89,7 @@ PRINTER_EVENT_ATTRIBUTES_CHANGED
 
 </td>
 <td>
-The attribute bits for a printer have changed. In response to an application's call to the <b>SetPrinter</b> function (described in the Windows SDK documentation), the spooler calls the printer driver's <b>DrvPrinterEvent</b> function, passing the event code in the call. When this event code is used, the <i>lParam</i> parameter points to a <a href="..\winddiui\ns-winddiui-_printer_event_attributes_info.md">PRINTER_EVENT_ATTRIBUTES_INFO</a> structure that describes the old and the new attributes.
+The attribute bits for a printer have changed. In response to an application's call to the <b>SetPrinter</b> function (described in the Windows SDK documentation), the spooler calls the printer driver's <b>DrvPrinterEvent</b> function, passing the event code in the call. When this event code is used, the <i>lParam</i> parameter points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff560858">PRINTER_EVENT_ATTRIBUTES_INFO</a> structure that describes the old and the new attributes.
 
 </td>
 </tr>

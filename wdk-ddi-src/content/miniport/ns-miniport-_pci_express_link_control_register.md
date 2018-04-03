@@ -38,7 +38,8 @@ api_location:
 -	ntddk.h
 api_name:
 -	PCI_EXPRESS_LINK_CONTROL_REGISTER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PCI_EXPRESS_LINK_CONTROL_REGISTER, *PPCI_EXPRESS_LINK_CONTROL_REGISTER
 ---

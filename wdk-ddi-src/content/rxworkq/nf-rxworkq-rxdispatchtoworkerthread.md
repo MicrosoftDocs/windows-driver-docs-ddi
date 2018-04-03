@@ -7,7 +7,7 @@ old-location: ifsk\rxdispatchtoworkerthread.htm
 old-project: ifsk
 ms.assetid: 426d28fa-abfe-44d9-9b15-119f92367b40
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: RxDispatchToWorkerThread, RxDispatchToWorkerThread routine [Installable File System Drivers], ifsk.rxdispatchtoworkerthread, rxref_4ac4f78d-fd07-4d80-a4db-8215322d6c89.xml, rxworkq/RxDispatchToWorkerThread
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	rxworkq.h
 api_name:
 -	RxDispatchToWorkerThread
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RX_CONTEXT, *PRX_CONTEXT
 req.product: Windows 10 or later.
@@ -51,19 +52,6 @@ req.product: Windows 10 or later.
 
 
 <b>RxDispatchToWorkerThread</b> invokes a routine in the context of a worker thread. The memory for the WORK_QUEUE_ITEM is allocated by this routine.  
-
-
-## -syntax
-
-
-````
-NTSTATUS RxDispatchToWorkerThread(
-  _In_ PRDBSS_DEVICE_OBJECT     pMRxDeviceObject,
-  _In_ WORK_QUEUE_TYPE          WorkQueueType,
-  _In_ PRX_WORKERTHREAD_ROUTINE Routine,
-  _In_ PVOID                    pContext
-);
-````
 
 
 ## -parameters
@@ -151,7 +139,7 @@ For a very infrequent operation, space can be conserved by dynamically allocatin
 
 </li>
 <li>
-When an operation is going to be repeatedly dispatched, time is conserved by allocating in advance the WORK_QUEUE_ITEM as part of the data structure to be dispatched and using this pre-allocated memory repeatedly. The <a href="..\rxworkq\nf-rxworkq-rxposttoworkerthread.md">RxPostToWorkerThread</a> routine would be used in this case 
+When an operation is going to be repeatedly dispatched, time is conserved by allocating in advance the WORK_QUEUE_ITEM as part of the data structure to be dispatched and using this pre-allocated memory repeatedly. The <a href="https://msdn.microsoft.com/library/windows/hardware/ff554620">RxPostToWorkerThread</a> routine would be used in this case 
 
 </li>
 </ul>
@@ -168,16 +156,15 @@ If the <b>RxDispatchToWorkerThread </b>routine fails on a debug build, the <b>_R
 
 ## -see-also
 
-<a href="..\rxworkq\nf-rxworkq-rxspindownmrxdispatcher.md">RxSpinDownMRxDispatcher</a>
 
 
 
-<a href="..\rxworkq\nf-rxworkq-rxposttoworkerthread.md">RxPostToWorkerThread</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554620">RxPostToWorkerThread</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554734">RxSpinDownMRxDispatcher</a>
  
 
  
-
 

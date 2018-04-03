@@ -7,7 +7,7 @@ old-location: kernel\irp.htm
 old-project: kernel
 ms.assetid: 6e044704-2edf-416f-a5a1-2ae65363a165
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*PIRP, IRP, IRP structure [Kernel-Mode Driver Architecture], PIRP, PIRP structure pointer [Kernel-Mode Driver Architecture], _IRP, kernel.irp, kstruct_b_39688b8b-4b33-4bce-b71f-e9c183e4d6bd.xml, wdm/IRP, wdm/PIRP"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	IRP
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: IRP
 req.product: Windows 10 or later.
@@ -51,40 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>IRP</b> structure is a partially opaque structure that represents an <i>I/O request packet</i>. Drivers can use the following members of the IRP structure.
-
-
-## -syntax
-
-
-````
-typedef struct _IRP {
-  PMDL            MdlAddress;
-  ULONG           Flags;
-  union {
-    struct _IRP  *MasterIrp;
-    PVOID       SystemBuffer;
-  } AssociatedIrp;
-  IO_STATUS_BLOCK IoStatus;
-  KPROCESSOR_MODE RequestorMode;
-  BOOLEAN         PendingReturned;
-  BOOLEAN         Cancel;
-  KIRQL           CancelIrql;
-  PDRIVER_CANCEL  CancelRoutine;
-  PVOID           UserBuffer;
-  union {
-    struct {
-      union {
-        KDEVICE_QUEUE_ENTRY DeviceQueueEntry;
-        struct {
-          PVOID DriverContext[4];
-        };
-      };
-      PETHREAD   Thread;
-      LIST_ENTRY ListEntry;
-    } Overlay;
-  } Tail;
-} IRP, *PIRP;
-````
 
 
 ## -struct-fields
@@ -178,7 +145,7 @@ IRP_UM_DRIVER_INITIATED_IO
 
 #### MasterIrp
 
-Pointer to the master IRP in an IRP that was created by a highest-level driver's call to <a href="..\ntddk\nf-ntddk-iomakeassociatedirp.md">IoMakeAssociatedIrp</a>.
+Pointer to the master IRP in an IRP that was created by a highest-level driver's call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff549397">IoMakeAssociatedIrp</a>.
 
 
 
@@ -194,7 +161,7 @@ If the driver is using buffered I/O, the buffer's purpose is determined by the I
 
 ##### IRP_MJ_READ
 
-The buffer receives data from the device or driver. The buffer's length is specified by <b>Parameters.Read.Length</b> in the driver's <a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a> structure.
+The buffer receives data from the device or driver. The buffer's length is specified by <b>Parameters.Read.Length</b> in the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff550659">IO_STACK_LOCATION</a> structure.
 
 <b>NULL</b>.
 
@@ -236,7 +203,7 @@ If the driver is using direct I/O, the buffer's purpose is determined by the IRP
 
 ### -field IoStatus
 
-Contains the <a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure in which a driver stores status and information before calling <a href="..\wdm\nf-wdm-iocompleterequest.md">IoCompleteRequest</a>.
+Contains the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550671">IO_STATUS_BLOCK</a> structure in which a driver stores status and information before calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff548343">IoCompleteRequest</a>.
 
 
 ### -field RequestorMode
@@ -246,7 +213,7 @@ Indicates the execution mode of the original requester of the operation, one of 
 
 ### -field PendingReturned
 
-If set to <b>TRUE</b>, a driver has marked the IRP pending. Each <a href="..\wdm\nc-wdm-io_completion_routine.md">IoCompletion</a> routine should check the value of this flag. If the flag is <b>TRUE</b>, and if the IoCompletion routine will not return STATUS_MORE_PROCESSING_REQUIRED, the routine should call <a href="..\wdm\nf-wdm-iomarkirppending.md">IoMarkIrpPending</a> to propagate the pending status to drivers above it in the device stack.
+If set to <b>TRUE</b>, a driver has marked the IRP pending. Each <a href="https://msdn.microsoft.com/library/windows/hardware/ff548354">IoCompletion</a> routine should check the value of this flag. If the flag is <b>TRUE</b>, and if the IoCompletion routine will not return STATUS_MORE_PROCESSING_REQUIRED, the routine should call <a href="https://msdn.microsoft.com/library/windows/hardware/ff549422">IoMarkIrpPending</a> to propagate the pending status to drivers above it in the device stack.
 
 
 ### -field StackCount
@@ -384,7 +351,7 @@ An IRP is the basic I/O manager structure used to communicate with drivers and t
 
 </li>
 <li>
-<i>I/O stack locations</i>— Following the header is a set of <a href="https://msdn.microsoft.com/library/windows/hardware/ff551821">I/O stack locations</a>, one per driver in the chain of layered drivers for which the request is bound. Each stack location contains the parameters, function codes, and context used by the corresponding driver to determine what it is supposed to be doing. For more information, see the <a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a> structure.
+<i>I/O stack locations</i>— Following the header is a set of <a href="https://msdn.microsoft.com/library/windows/hardware/ff551821">I/O stack locations</a>, one per driver in the chain of layered drivers for which the request is bound. Each stack location contains the parameters, function codes, and context used by the corresponding driver to determine what it is supposed to be doing. For more information, see the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550659">IO_STACK_LOCATION</a> structure.
 
 </li>
 </ul>
@@ -395,36 +362,35 @@ While a higher-level driver might check the value of the <b>Cancel</b> Boolean i
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iogetnextirpstacklocation.md">IoGetNextIrpStackLocation</a>
 
 
 
-<a href="..\wdm\nf-wdm-iosetnextirpstacklocation.md">IoSetNextIrpStackLocation</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550659">IO_STACK_LOCATION</a>
 
 
 
-<a href="..\wdm\nf-wdm-iosetcancelroutine.md">IoSetCancelRoutine</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550671">IO_STATUS_BLOCK</a>
 
 
 
-<a href="..\wdm\nf-wdm-iogetcurrentirpstacklocation.md">IoGetCurrentIrpStackLocation</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548397">IoCreateDevice</a>
 
 
 
-<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549174">IoGetCurrentIrpStackLocation</a>
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549266">IoGetNextIrpStackLocation</a>
 
 
 
-<a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549674">IoSetCancelRoutine</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550321">IoSetNextIrpStackLocation</a>
  
 
  
-
 

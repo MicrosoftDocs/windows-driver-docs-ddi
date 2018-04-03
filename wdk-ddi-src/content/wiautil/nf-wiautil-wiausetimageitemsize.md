@@ -38,7 +38,8 @@ api_location:
 -	wiautil.h
 api_name:
 -	wiauSetImageItemSize
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SKIP_AMOUNT
 req.product: Windows 10 or later.
@@ -51,21 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>wiauSetImageItemSize</b> function calculates the size and width, in bytes, for an image, based on the current WIA_IPA_FORMAT setting (described in the Microsoft Windows SDK documentation), and writes the new values to the appropriate properties.
-
-
-## -syntax
-
-
-````
-HRESULT _stdcall wiauSetImageItemSize(
-  _In_     BYTE          *pWiasContext,
-           LONG          lWidth,
-           LONG          lHeight,
-           LONG          lDepth,
-           LONG          lSize,
-  _In_opt_ PWSTR pwszExt pwszExt
-);
-````
 
 
 ## -parameters

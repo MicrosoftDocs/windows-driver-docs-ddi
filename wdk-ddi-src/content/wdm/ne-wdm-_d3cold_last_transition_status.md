@@ -7,7 +7,7 @@ old-location: kernel\d3cold_last_transition_status.htm
 old-project: kernel
 ms.assetid: 21E89D92-9902-4785-B022-8D17268FE75F
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*PD3COLD_LAST_TRANSITION_STATUS, D3COLD_LAST_TRANSITION_STATUS, D3COLD_LAST_TRANSITION_STATUS enumeration [Kernel-Mode Driver Architecture], LastDStateTransitionD3cold, LastDStateTransitionD3hot, LastDStateTransitionStatusUnknown, _D3COLD_LAST_TRANSITION_STATUS, kernel.d3cold_last_transition_status, wdm/D3COLD_LAST_TRANSITION_STATUS, wdm/LastDStateTransitionD3cold, wdm/LastDStateTransitionD3hot, wdm/LastDStateTransitionStatusUnknown"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	D3COLD_LAST_TRANSITION_STATUS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3COLD_LAST_TRANSITION_STATUS, *PD3COLD_LAST_TRANSITION_STATUS
 req.product: Windows 10 or later.
@@ -51,18 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>D3COLD_LAST_TRANSITION_STATUS</b> enumeration indicates whether the most recent transition to the D3hot device power state was followed by a transition to the D3cold device power state.
-
-
-## -syntax
-
-
-````
-typedef enum _D3COLD_LAST_TRANSITION_STATUS { 
-  LastDStateTransitionStatusUnknown  = 0,
-  LastDStateTransitionD3hot,
-  LastDStateTransitionD3cold
-} D3COLD_LAST_TRANSITION_STATUS;
-````
 
 
 ## -enum-fields
@@ -89,19 +78,18 @@ The most recent transition to the D3hot device power state was followed by a tra
 
 
 
-The <i>LastTransitionStatus</i> parameter of the <a href="..\wdm\nc-wdm-get_d3cold_last_transition_status.md">GetLastTransitionStatus</a> routine is a pointer to a variable of type <b>D3COLD_LAST_TRANSITION_STATUS</b>.
+The <i>LastTransitionStatus</i> parameter of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh967713">GetLastTransitionStatus</a> routine is a pointer to a variable of type <b>D3COLD_LAST_TRANSITION_STATUS</b>.
 
 
 
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-get_d3cold_last_transition_status.md">GetLastTransitionStatus</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh967713">GetLastTransitionStatus</a>
  
 
  
-
 

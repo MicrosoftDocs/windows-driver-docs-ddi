@@ -7,7 +7,7 @@ old-location: ifsk\rtlinitializegenerictableavl.htm
 old-project: ifsk
 ms.assetid: D89713A8-7CE7-4A87-AED7-62ACF7D1BA06
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: RtlInitializeGenericTableAvl, RtlInitializeGenericTableAvl routine [Installable File System Drivers], ifsk.rtlinitializegenerictableavl, ntddk/RtlInitializeGenericTableAvl
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	RtlInitializeGenericTableAvl
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
@@ -52,20 +53,6 @@ req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 The <b>RtlInitializeGenericTableAvl</b> routine initializes a generic table using Adelson-Velsky/Landis (AVL) trees.
 
 
-## -syntax
-
-
-````
-VOID RtlInitializeGenericTableAvl(
-  _Out_    PRTL_AVL_TABLE            Table,
-  _In_     PRTL_AVL_COMPARE_ROUTINE  CompareRoutine,
-  _In_     PRTL_AVL_ALLOCATE_ROUTINE AllocateRoutine,
-  _In_     PRTL_AVL_FREE_ROUTINE     FreeRoutine,
-  _In_opt_ PVOID                     TableContext
-);
-````
-
-
 ## -parameters
 
 
@@ -73,7 +60,7 @@ VOID RtlInitializeGenericTableAvl(
 
 ### -param Table [out]
 
-A pointer to a caller-allocated buffer, which must be at least <b>sizeof</b>(<a href="..\ntddk\ns-ntddk-_rtl_avl_table.md">RTL_AVL_TABLE</a>) bytes in size, to contain the initialized generic table structure. 
+A pointer to a caller-allocated buffer, which must be at least <b>sizeof</b>(<a href="https://msdn.microsoft.com/library/windows/hardware/ff553327">RTL_AVL_TABLE</a>) bytes in size, to contain the initialized generic table structure. 
 
 
 ### -param CompareRoutine [in]
@@ -243,40 +230,39 @@ Callers of <b>RtlInitializeGenericTableAvl</b> must be running at IRQL &lt;= DIS
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-rtlinitializegenerictable.md">RtlInitializeGenericTable</a>
 
 
 
-<a href="..\wdm\nf-wdm-exinitializefastmutex.md">ExInitializeFastMutex</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545293">ExInitializeFastMutex</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlnumbergenerictableelementsavl.md">RtlNumberGenericTableElementsAvl</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439514">RtlDeleteElementGenericTableAvl</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-rtllookupelementgenerictableavl.md">RtlLookupElementGenericTableAvl</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406458">RtlEnumerateGenericTableAvl</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlinsertelementgenerictableavl.md">RtlInsertElementGenericTableAvl</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552301">RtlGetElementGenericTableAvl</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-rtldeleteelementgenerictableavl.md">RtlDeleteElementGenericTableAvl</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552989">RtlInitializeGenericTable</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlgetelementgenerictable.md">RtlGetElementGenericTableAvl</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406468">RtlInsertElementGenericTableAvl</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlenumerategenerictableavl.md">RtlEnumerateGenericTableAvl</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406476">RtlLookupElementGenericTableAvl</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406522">RtlNumberGenericTableElementsAvl</a>
  
 
  
-
 

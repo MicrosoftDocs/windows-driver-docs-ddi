@@ -38,7 +38,8 @@ api_location:
 -	bdamedia.h
 api_name:
 -	KSP_NODE_ESPID
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSP_NODE_ESPID, *PKSP_NODE_ESPID
 ---
@@ -50,17 +51,6 @@ req.typenames: KSP_NODE_ESPID, *PKSP_NODE_ESPID
 
 
 The KSP_NODE_ESPID structure describes property and node type for an Entitlement Control Message (ECM) map node along with the packet identifier (PID) for an elementary stream that the ECM map node processes.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  KSP_NODE Property;
-  ULONG    EsPid;
-} KSP_NODE_ESPID, *PKSP_NODE_ESPID;
-````
 
 
 ## -struct-fields
@@ -80,12 +70,11 @@ Packet identifier (PID) that identifies packets in the elementary stream.
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksp_node.md">KSP_NODE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566720">KSP_NODE</a>
  
 
  
-
 

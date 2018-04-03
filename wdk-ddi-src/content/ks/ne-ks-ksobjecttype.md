@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSOBJECTTYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSOBJECTTYPE
 ---
@@ -50,19 +51,6 @@ req.typenames: KSOBJECTTYPE
 
 
 The KSOBJECTTYPE enumeration lists different types of kernel streaming objects.
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  KsObjectTypeDevice         = 0,
-  KsObjectTypeFilterFactory  = 1,
-  KsObjectTypeFilter         = 2,
-  KsObjectTypePin            = 3
-} KSOBJECTTYPE;
-````
 
 
 ## -enum-fields
@@ -92,28 +80,27 @@ Specifies that the object is a pin.
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksgetfilterfromfileobject.md">KsGetFilterFromFileObject</a>
 
 
 
-<a href="..\ks\nf-ks-kspingetconnectedpinfileobject.md">KsPinGetConnectedPinFileObject</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562620">KsGetFilterFromFileObject</a>
 
 
 
-<a href="..\ks\nf-ks-ksgetobjecttypefromfileobject.md">KsGetObjectTypeFromFileObject</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562648">KsGetObjectFromFileObject</a>
 
 
 
-<a href="..\ks\nf-ks-ksgetpinfromfileobject.md">KsGetPinFromFileObject</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562651">KsGetObjectTypeFromFileObject</a>
 
 
 
-<a href="..\ks\nf-ks-ksgetobjectfromfileobject.md">KsGetObjectFromFileObject</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562664">KsGetPinFromFileObject</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563508">KsPinGetConnectedPinFileObject</a>
  
 
  
-
 

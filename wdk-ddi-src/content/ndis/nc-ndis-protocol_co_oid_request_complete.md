@@ -7,7 +7,7 @@ old-location: netvista\protocolcooidrequestcomplete.htm
 old-project: netvista
 ms.assetid: 16883c64-3cc6-4f50-8be7-7c58c422a717
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: PROTOCOL_CO_OID_REQUEST_COMPLETE, ProtocolCoOidRequestComplete, ProtocolCoOidRequestComplete callback function [Network Drivers Starting with Windows Vista], condis_request_ref_14f11d94-41dd-44b1-9117-20c8d22278aa.xml, ndis/ProtocolCoOidRequestComplete, netvista.protocolcooidrequestcomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ndis.h
 api_name:
 -	ProtocolCoOidRequestComplete
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
 ---
@@ -55,23 +56,6 @@ The
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>PROTOCOL_CO_OID_REQUEST_COMPLETE</b> type.
    For more information, see the following Examples section.</div><div> </div>
 
-## -prototype
-
-
-````
-PROTOCOL_CO_OID_REQUEST_COMPLETE ProtocolCoOidRequestComplete;
-
-VOID ProtocolCoOidRequestComplete(
-  _In_    NDIS_HANDLE       ProtocolAfContext,
-  _In_    NDIS_HANDLE       ProtocolVcContext,
-  _In_    NDIS_HANDLE       ProtocolPartyContext,
-  _Inout_ PNDIS_OID_REQUEST OidRequest,
-  _In_    NDIS_STATUS       Status
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -81,10 +65,10 @@ VOID ProtocolCoOidRequestComplete(
 
 A handle that identifies an address family (AF) context area. If the driver is a client, it
      supplied this handle when it called the 
-     <a href="..\ndis\nf-ndis-ndisclopenaddressfamilyex.md">
+     <a href="https://msdn.microsoft.com/54170917-60b4-4d8f-bf92-df7d7dc0faee">
      NdisClOpenAddressFamilyEx</a> function to connect itself to the call manager. If the driver is a call
      manager or miniport call manager (MCM), it supplied this handle from its 
-     <a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a> function.
+     <a href="https://msdn.microsoft.com/7422c205-bc41-4121-b430-ff9e6b49dc2e">ProtocolCmOpenAf</a> function.
 
 
 ### -param ProtocolVcContext [in]
@@ -102,10 +86,10 @@ A handle that identifies the party on a multipoint VC that the driver requested 
 ### -param OidRequest [in, out]
 
 A pointer to the driver-supplied 
-     <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a> structure that was
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a> structure that was
      previously passed to the 
-     <a href="..\ndis\nf-ndis-ndiscooidrequest.md">NdisCoOidRequest</a> or 
-     <a href="..\ndis\nf-ndis-ndismcmoidrequest.md">NdisMCmOidRequest</a> function.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff561711">NdisCoOidRequest</a> or 
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff563548">NdisMCmOidRequest</a> function.
 
 
 ### -param Status [in]
@@ -132,28 +116,28 @@ None
 NDIS calls the 
     <i>ProtocolCoOidRequestComplete</i> function to complete the processing of CoNDIS
     client, call manager, or MCM OID request for which the 
-    <a href="..\ndis\nf-ndis-ndiscooidrequest.md">NdisCoOidRequest</a> function or 
-    <a href="..\ndis\nf-ndis-ndismcmoidrequest.md">NdisMCmOidRequest</a> function returned
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561711">NdisCoOidRequest</a> function or 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff563548">NdisMCmOidRequest</a> function returned
     NDIS_STATUS_PENDING.
 
 To register 
     <i>ProtocolCoOidRequestComplete</i> as a client, a driver initializes an 
-    <a href="..\ndis\ns-ndis-_ndis_co_client_optional_handlers.md">
+    <a href="https://msdn.microsoft.com/1f2285bb-be70-4496-905d-89106bf3712a">
     NDIS_CO_CLIENT_OPTIONAL_HANDLERS</a> structure and passes it at the 
     <i>OptionalHandlers</i> parameter of the 
-    <a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a> function.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff564550">NdisSetOptionalHandlers</a> function.
     To register 
     <i>ProtocolCoOidRequestComplete</i> as a call manager, a driver initializes an 
-    <a href="..\ndis\ns-ndis-_ndis_co_call_manager_optional_handlers.md">
+    <a href="https://msdn.microsoft.com/12d541e1-04dd-4512-827e-d27f16260fe3">
     NDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS</a> structure and passes it at the 
     <i>OptionalHandlers</i> parameter of 
     <b>NdisSetOptionalHandlers</b>.
 
 The target driver is the driver that serviced the OID information request. A target driver's call to
     the 
-    <a href="..\ndis\nf-ndis-ndismcooidrequestcomplete.md">NdisMCoOidRequestComplete</a>, 
-    <a href="..\ndis\nf-ndis-ndiscooidrequestcomplete.md">NdisCoOidRequestComplete</a>, or 
-    <a href="..\ndis\nf-ndis-ndismcmoidrequestcomplete.md">
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff563568">NdisMCoOidRequestComplete</a>, 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561716">NdisCoOidRequestComplete</a>, or 
+    <a href="https://msdn.microsoft.com/4c45be9f-3d07-4150-830a-3aa6d74531ff">
     NdisMCmOidRequestComplete</a> function caused NDIS to call the 
     <i>ProtocolCoOidRequestComplete</i> function. NDIS forwards the value of the 
     <i>Status</i> parameter that was passed to these functions as the input 
@@ -169,7 +153,7 @@ If
       <i>Status</i> is NDIS_STATUS_SUCCESS, the 
       <b>BytesRead</b> or 
       <b>BytesWritten</b> member of the 
-      <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a> structure that the 
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a> structure that the 
       <i>OidRequest</i> parameter points to specifies how much information was transferred
       from the buffer in the 
       <b>InformationBuffer</b> member of NDIS_OID_REQUEST to the target driver or how much information was
@@ -193,7 +177,7 @@ If
 In these circumstances, 
       <i>ProtocolCoOidRequestComplete</i> can allocate sufficient buffer space for the
       request, set up another 
-      <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a> structure with the
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a> structure with the
       required value for 
       <b>InformationBufferLength</b>, and retry the OID request.
 
@@ -215,8 +199,8 @@ For more information about system-defined OIDs, see
 
 <i>ProtocolCoOidRequestComplete</i> can be called before the driver has had time to
     inspect the status code that 
-    <a href="..\ndis\nf-ndis-ndiscooidrequest.md">NdisCoOidRequest</a> or 
-    <a href="..\ndis\nf-ndis-ndismcmoidrequest.md">NdisMCmOidRequest</a> returns.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561711">NdisCoOidRequest</a> or 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff563548">NdisMCmOidRequest</a> returns.
 
 NDIS calls 
     <i>ProtocolCoOidRequestComplete</i> at IRQL &lt;= DISPATCH_LEVEL.
@@ -266,54 +250,53 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_co_call_manager_optional_handlers.md">
+
+
+
+<a href="https://msdn.microsoft.com/12d541e1-04dd-4512-827e-d27f16260fe3">
    NDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiscooidrequestcomplete.md">NdisCoOidRequestComplete</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismcmoidrequestcomplete.md">NdisMCmOidRequestComplete</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismcmoidrequest.md">NdisMCmOidRequest</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_co_client_optional_handlers.md">
+<a href="https://msdn.microsoft.com/1f2285bb-be70-4496-905d-89106bf3712a">
    NDIS_CO_CLIENT_OPTIONAL_HANDLERS</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisclopenaddressfamilyex.md">NdisClOpenAddressFamilyEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiscooidrequest.md">NdisCoOidRequest</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561639">NdisClOpenAddressFamilyEx</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismcooidrequestcomplete.md">NdisMCoOidRequestComplete</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561711">NdisCoOidRequest</a>
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561716">NdisCoOidRequestComplete</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563548">NdisMCmOidRequest</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563551">NdisMCmOidRequestComplete</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563568">NdisMCoOidRequestComplete</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564550">NdisSetOptionalHandlers</a>
+
+
+
+<a href="https://msdn.microsoft.com/7422c205-bc41-4121-b430-ff9e6b49dc2e">ProtocolCmOpenAf</a>
  
 
  
-
 

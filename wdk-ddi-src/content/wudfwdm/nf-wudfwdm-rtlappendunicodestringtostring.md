@@ -7,7 +7,7 @@ old-location: kernel\rtlappendunicodestringtostring.htm
 old-project: kernel
 ms.assetid: fb076688-ae8e-430b-ac06-dfef7284591d
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 2/24/2018
 ms.keywords: RtlAppendUnicodeStringToString, RtlAppendUnicodeStringToString routine [Kernel-Mode Driver Architecture], k109_4c17620f-086f-4a0d-aa7a-6bc46d0a0f21.xml, kernel.rtlappendunicodestringtostring, wdm/RtlAppendUnicodeStringToString
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	RtlAppendUnicodeStringToString
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PO_FX_PERF_STATE_UNIT, *PPO_FX_PERF_STATE_UNIT
 req.product: Windows 10 or later.
@@ -138,5 +139,6 @@ The <i>Destination</i> and <i>Source</i> buffers must be resident if the caller 
  
 
  
+
 
 

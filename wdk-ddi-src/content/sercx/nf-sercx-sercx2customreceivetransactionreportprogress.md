@@ -38,7 +38,8 @@ api_location:
 -	2.0\Sercx.h
 api_name:
 -	SerCx2CustomReceiveTransactionReportProgress
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SERCX_STATUS, *PSERCX_STATUS
 req.product: Windows 10 or later.
@@ -51,17 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>SerCx2CustomReceiveTransactionReportProgress</b> method reports whether progress is being made toward completing the current custom-receive transaction.
-
-
-## -syntax
-
-
-````
-VOID SerCx2CustomReceiveTransactionReportProgress(
-  [in] SERCX2CUSTOMRECEIVETRANSACTION             CustomReceive,
-  [in] SERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS Progress
-);
-````
 
 
 ## -parameters
@@ -82,12 +72,12 @@ Whether progress is being made toward completing the custom-receive transaction.
 <li>SERCX2_CUSTOM_RECEIVE_NO_PROGRESS</li>
 <li>SERCX2_CUSTOM_RECEIVE_BYTES_TRANSFERRED</li>
 </ul>
-For more information about these enumeration constants, see <a href="..\sercx\ne-sercx-_sercx2_custom_receive_transaction_progress.md">SERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS</a>.
+For more information about these enumeration constants, see <a href="https://msdn.microsoft.com/library/windows/hardware/dn265317">SERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS</a>.
 
 
 #### - CustomReceive [in]
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/dn265249">SERCX2CUSTOMRECEIVETRANSACTION</a> handle to a custom-receive object. The serial controller driver previously called the <a href="..\sercx\nf-sercx-sercx2customreceivetransactioncreate.md">SerCx2CustomReceiveTransactionCreate</a> method to create this object.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/dn265249">SERCX2CUSTOMRECEIVETRANSACTION</a> handle to a custom-receive object. The serial controller driver previously called the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265251">SerCx2CustomReceiveTransactionCreate</a> method to create this object.
 
 
 ## -returns
@@ -116,11 +106,6 @@ For more information, see <a href="https://msdn.microsoft.com/29849A8C-6656-444C
 
 ## -see-also
 
-<a href="..\sercx\nf-sercx-sercx2customreceivetransactioncreate.md">SerCx2CustomReceiveTransactionCreate</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265249">SERCX2CUSTOMRECEIVETRANSACTION</a>
 
 
 
@@ -128,12 +113,16 @@ For more information, see <a href="https://msdn.microsoft.com/29849A8C-6656-444C
 
 
 
-<a href="..\sercx\ne-sercx-_sercx2_custom_receive_transaction_progress.md">SERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265249">SERCX2CUSTOMRECEIVETRANSACTION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265317">SERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265251">SerCx2CustomReceiveTransactionCreate</a>
  
 
  
-
 

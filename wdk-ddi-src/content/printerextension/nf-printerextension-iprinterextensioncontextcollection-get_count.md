@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	IPrinterExtensionContextCollection.Count
 -	IPrinterExtensionContextCollection.get_Count
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PrintSchemaSelectionType
 req.product: Windows 10 or later.
@@ -51,19 +52,9 @@ req.product: Windows 10 or later.
 ## -description
 
 
-Gets a count of the number of <a href="..\printerextension\nn-printerextension-iprinterextensioncontext.md">IPrinterExtensionContext</a> objects in the collection.
+Gets a count of the number of <a href="https://msdn.microsoft.com/library/windows/hardware/hh406649">IPrinterExtensionContext</a> objects in the collection.
 
 This property is read-only.
-
-
-## -syntax
-
-
-````
-HRESULT get_Count(
-  [out, retval] ULONG *pulCount
-);
-````
 
 
 ## -parameters
@@ -71,16 +62,15 @@ HRESULT get_Count(
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprinterextensioncontextcollection.md">IPrinterExtensionContextCollection</a>
 
 
 
-<a href="..\printerextension\nn-printerextension-iprinterextensioncontext.md">IPrinterExtensionContext</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406649">IPrinterExtensionContext</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh846191">IPrinterExtensionContextCollection</a>
  
 
  
-
 

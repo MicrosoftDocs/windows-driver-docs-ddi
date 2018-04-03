@@ -7,7 +7,7 @@ old-location: debugger\debugextensionknownstructex.htm
 old-project: debugger
 ms.assetid: 830BCD4C-0C3A-45F8-84E9-4F8596B8E1E8
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: DebugExtensionKnownStructEx, DebugExtensionKnownStructEx callback function [Windows Debugging], PDEBUG_EXTENSION_KNOWN_STRUCT_EX, dbgeng/DebugExtensionKnownStructEx, debugger.debugextensionknownstructex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Dbgeng.h
 api_name:
 -	DebugExtensionKnownStructEx
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -60,14 +61,6 @@ The <i>DebugExtensionKnownStructEx</i> callback function is called by extensions
 </td>
 </tr>
 </table></span></div>
-
-## -prototype
-
-
-````
- CALLBACK* PDEBUG_EXTENSION_KNOWN_STRUCT_EX DebugExtensionKnownStructEx;
-````
-
 
 ## -parameters
 

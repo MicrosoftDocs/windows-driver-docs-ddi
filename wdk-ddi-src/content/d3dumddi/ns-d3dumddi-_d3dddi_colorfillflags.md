@@ -7,7 +7,7 @@ old-location: display\d3dddi_colorfillflags.htm
 old-project: display
 ms.assetid: 672baa43-7fa1-4c10-9d60-c7c8a4729f26
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDI_COLORFILLFLAGS, D3DDDI_COLORFILLFLAGS structure [Display Devices], D3D_other_Structs_555ecebb-bdd8-4c7f-97cd-801216506b9e.xml, _D3DDDI_COLORFILLFLAGS, d3dumddi/D3DDDI_COLORFILLFLAGS, display.d3dddi_colorfillflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	D3DDDI_COLORFILLFLAGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDI_COLORFILLFLAGS
 ---
@@ -50,22 +51,6 @@ req.typenames: D3DDDI_COLORFILLFLAGS
 
 
 The D3DDDI_COLORFILLFLAGS structure describes how to color-fill a rectangle on a surface.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DDDI_COLORFILLFLAGS {
-  union {
-    struct {
-      UINT PresentToDwm  :1;
-      UINT Reserved  :31;
-    };
-    UINT   Value;
-  };
-} D3DDDI_COLORFILLFLAGS;
-````
 
 
 ## -struct-fields
@@ -92,16 +77,15 @@ A member in the union that is contained in D3DDDI_COLORFILLFLAGS that can hold o
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_colorfill.md">ColorFill</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_colorfill.md">D3DDDIARG_COLORFILL</a>
+<a href="https://msdn.microsoft.com/c120421d-6a10-4d37-b936-98dac75e236b">ColorFill</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542907">D3DDDIARG_COLORFILL</a>
  
 
  
-
 

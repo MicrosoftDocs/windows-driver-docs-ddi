@@ -7,7 +7,7 @@ old-location: netvista\ndisstallexecution.htm
 old-project: netvista
 ms.assetid: 590f5a1a-fd78-408e-b4f0-555f08694c43
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NdisStallExecution, NdisStallExecution macro [Network Drivers Starting with Windows Vista], ndis/NdisStallExecution, ndis_delay_ref_de9bdd45-0bed-44cc-bdce-3ecd81842010.xml, netvista.ndisstallexecution
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ndis.h
 api_name:
 -	NdisStallExecution
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
@@ -51,16 +52,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 
 The 
   <b>NdisStallExecution</b> function stalls the caller on the current processor for a given interval.
-
-
-## -syntax
-
-
-````
-VOID NdisStallExecution(
-  [in] UINT MicrosecondsToStall
-);
-````
 
 
 ## -parameters
@@ -94,7 +85,7 @@ This function should be called by drivers that must wait for an interval of more
     microseconds that they specify.
 
 If a driver must wait for an interval longer than 50 microseconds, it should call the 
-    <a href="..\ndis\nf-ndis-ndismsleep.md">NdisMSleep</a> function. Note that callers of 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff563677">NdisMSleep</a> function. Note that callers of 
     <b>NdisMSleep</b> run at IRQL &lt; DISPATCH_LEVEL.
 
 
@@ -102,24 +93,23 @@ If a driver must wait for an interval longer than 50 microseconds, it should cal
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_reset.md">MiniportResetEx</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndissettimerobject.md">NdisSetTimerObject</a>
+<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<a href="https://msdn.microsoft.com/15f82163-a1b5-4cef-a53e-8a97adb2cd92">MiniportResetEx</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismsleep.md">NdisMSleep</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563677">NdisMSleep</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564563">NdisSetTimerObject</a>
  
 
  
-
 

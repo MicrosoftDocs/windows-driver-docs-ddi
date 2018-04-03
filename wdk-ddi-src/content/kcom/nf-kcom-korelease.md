@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KoRelease
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CONNECT_DATA, *PCONNECT_DATA
 ---
@@ -53,16 +54,6 @@ req.typenames: CONNECT_DATA, *PCONNECT_DATA
 <i>This function is intended for internal use only.</i>
 
 The <b>KoRelease</b> function decrements the reference count for the calling interface on an object. 
-
-
-## -syntax
-
-
-````
-void KoRelease(
-  _In_ REFCLSID ClassId
-);
-````
 
 
 ## -parameters

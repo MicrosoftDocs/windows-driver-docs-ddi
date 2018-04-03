@@ -38,7 +38,8 @@ api_location:
 -	Ks.h
 api_name:
 -	KSTARGET_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSTARGET_STATE
 ---
@@ -50,17 +51,6 @@ req.typenames: KSTARGET_STATE
 
 
 
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  KSTARGET_STATE_DISABLED,
-  KSTARGET_STATE_ENABLED
-} KSTARGET_STATE;
-````
 
 
 ## -enum-fields

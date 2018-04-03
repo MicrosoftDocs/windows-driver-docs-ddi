@@ -7,7 +7,7 @@ old-location: display\d3dkmt_devicereset_state.htm
 old-project: display
 ms.assetid: c2037d77-8745-4307-ac12-54f62f20c2d9
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMT_DEVICERESET_STATE, D3DKMT_DEVICERESET_STATE structure [Display Devices], OpenGL_Structs_03e42382-c472-4f0b-9183-a1b6630f64cf.xml, _D3DKMT_DEVICERESET_STATE, d3dkmthk/D3DKMT_DEVICERESET_STATE, display.d3dkmt_devicereset_state
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmthk.h
 api_name:
 -	D3DKMT_DEVICERESET_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_DEVICERESET_STATE
 ---
@@ -50,22 +51,6 @@ req.typenames: D3DKMT_DEVICERESET_STATE
 
 
 The D3DKMT_DEVICERESET_STATE structure identifies reset status.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_DEVICERESET_STATE {
-  union {
-    struct {
-      UINT DesktopSwitched  :1;
-      UINT Reserved  :31;
-    };
-    UINT   Value;
-  };
-} D3DKMT_DEVICERESET_STATE;
-````
 
 
 ## -struct-fields
@@ -92,12 +77,11 @@ A 32-bit value that identifies reset status.
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_getdevicestate.md">D3DKMT_GETDEVICESTATE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548030">D3DKMT_GETDEVICESTATE</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: display\drawrectpatch.htm
 old-project: display
 ms.assetid: c0e3046c-f2af-4406-ac5a-c3e44f40b1fd
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DrawRectPatch, DrawRectPatch callback function [Display Devices], PFND3DDDI_DRAWRECTPATCH, UserModeDisplayDriver_Functions_a32bf010-d5a9-4cf7-b885-4f0fb407a4ad.xml, d3dumddi/DrawRectPatch, display.drawrectpatch
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	DrawRectPatch
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_PTE
 ---
@@ -50,22 +51,6 @@ req.typenames: DXGK_PTE
 
 
 The <b>DrawRectPatch</b> function draws a new or cached rectangular patch or updates the specification of a previously defined patch.
-
-
-## -prototype
-
-
-````
-PFND3DDDI_DRAWRECTPATCH DrawRectPatch;
-
-__checkReturn HRESULT APIENTRY DrawRectPatch(
-  _In_       HANDLE                  hDevice,
-  _In_ const D3DDDIARG_DRAWRECTPATCH *pData,
-  _In_ const D3DDDIRECTPATCH_INFO    *pInfo,
-  _In_ const FLOAT                   *pPatch
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -89,7 +74,7 @@ __checkReturn HRESULT APIENTRY DrawRectPatch(
 
 #### - pData [in]
 
- A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_drawrectpatch.md">D3DDDIARG_DRAWRECTPATCH</a> structure that describes the rectangular patch to draw.
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543064">D3DDDIARG_DRAWRECTPATCH</a> structure that describes the rectangular patch to draw.
 
 
 #### - pInfo [in]
@@ -115,7 +100,7 @@ __checkReturn HRESULT APIENTRY DrawRectPatch(
 
 
 
-When the Microsoft Direct3D runtime calls<i>pPatch</i> the user-mode display driver's <b>DrawRectPatch</b> function, it can optionally supply information in the <i>pInfo</i> and  parameters. The runtime sets flags in the <b>Flags</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_drawrectpatch.md">D3DDDIARG_DRAWRECTPATCH</a> structure that is specified by <i>pData</i> to indicate if it supplies this optional information. 
+When the Microsoft Direct3D runtime calls<i>pPatch</i> the user-mode display driver's <b>DrawRectPatch</b> function, it can optionally supply information in the <i>pInfo</i> and  parameters. The runtime sets flags in the <b>Flags</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543064">D3DDDIARG_DRAWRECTPATCH</a> structure that is specified by <i>pData</i> to indicate if it supplies this optional information. 
 
 The runtime supplies a UINT value in the <b>Handle</b> member of D3DDDIARG_DRAWRECTPATCH to refer to the patch surface. Whenever the runtime redraws the patch surface, it passes the patch handle value and is not required to re-specify the D3DDDIRECTPATCH_INFO data structure for the patch surface. The user-mode display driver can precompute and cache forward-difference coefficients and any other information. Therefore, subsequent calls to the driver's <b>DrawRectPatch</b> function that use the same patch handle value run more efficiently.
 
@@ -150,16 +135,15 @@ The driver receives notification to release cached patch information through the
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_drawrectpatch.md">D3DDDIARG_DRAWRECTPATCH</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543064">D3DDDIARG_DRAWRECTPATCH</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544519">D3DDDI_DEVICEFUNCS</a>
  
 
  
-
 

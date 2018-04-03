@@ -38,7 +38,8 @@ api_location:
 -	2.0\Sercx.h
 api_name:
 -	EvtSerCx2PioReceiveCleanupTransaction
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SENSOR_VALUE_PAIR, *PSENSOR_VALUE_PAIR
 req.product: Windows 10 or later.
@@ -53,19 +54,6 @@ req.product: Windows 10 or later.
 The <i>EvtSerCx2PioReceiveCleanupTransaction</i> event callback function is called by version 2 of the serial framework extension (SerCx2) to clean up the serial controller's hardware state after a PIO-receive transaction ends.
 
 
-## -prototype
-
-
-````
-EVT_SERCX2_PIO_RECEIVE_CLEANUP_TRANSACTION EvtSerCx2PioReceiveCleanupTransaction;
-
-VOID EvtSerCx2PioReceiveCleanupTransaction(
-  _In_ SERCX2PIORECEIVE PioReceive
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -73,7 +61,7 @@ VOID EvtSerCx2PioReceiveCleanupTransaction(
 
 ### -param PioReceive [in]
 
-A <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIORECEIVE</a> handle to a PIO-receive object. The serial controller driver previously called the <a href="..\sercx\nf-sercx-sercx2pioreceivecreate.md">SerCx2PioReceiveCreate</a> method to create this object.
+A <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIORECEIVE</a> handle to a PIO-receive object. The serial controller driver previously called the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265264">SerCx2PioReceiveCreate</a> method to create this object.
 
 
 ## -returns
@@ -89,9 +77,9 @@ None.
 
 
 
-Your serial controller driver can, as an option, implement this function. If implemented, the driver registers the function in the call to the <a href="..\sercx\nf-sercx-sercx2pioreceivecreate.md">SerCx2PioReceiveCreate</a> method that creates the PIO-receive object.
+Your serial controller driver can, as an option, implement this function. If implemented, the driver registers the function in the call to the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265264">SerCx2PioReceiveCreate</a> method that creates the PIO-receive object.
 
-Your serial controller driver should implement an <i>EvtSerCx2PioReceiveCleanupTransaction</i> function if it needs to clean up the serial controller state at the end of a PIO-receive transaction. SerCx2 calls this function, if it is implemented, after a PIO-receive transaction ends. In response to the <i>EvtSerCx2PioReceiveCleanupTransaction</i> call, the serial controller driver must call the <a href="..\sercx\nf-sercx-sercx2pioreceivecleanuptransactioncomplete.md">SerCx2PioReceiveCleanupTransactionComplete</a> method to notify SerCx2 after the clean-up work is done.
+Your serial controller driver should implement an <i>EvtSerCx2PioReceiveCleanupTransaction</i> function if it needs to clean up the serial controller state at the end of a PIO-receive transaction. SerCx2 calls this function, if it is implemented, after a PIO-receive transaction ends. In response to the <i>EvtSerCx2PioReceiveCleanupTransaction</i> call, the serial controller driver must call the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265263">SerCx2PioReceiveCleanupTransactionComplete</a> method to notify SerCx2 after the clean-up work is done.
 
 For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/dn265332">SerCx2 PIO-Receive Transactions</a>.
 
@@ -137,20 +125,19 @@ The <b>EVT_SERCX2_PIO_RECEIVE_CLEANUP_TRANSACTION</b> function type is defined i
 
 ## -see-also
 
+
+
+
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIORECEIVE</a>
 
 
 
-<a href="..\sercx\nf-sercx-sercx2pioreceivecreate.md">SerCx2PioReceiveCreate</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265263">SerCx2PioReceiveCleanupTransactionComplete</a>
 
 
 
-<a href="..\sercx\nf-sercx-sercx2pioreceivecleanuptransactioncomplete.md">SerCx2PioReceiveCleanupTransactionComplete</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265264">SerCx2PioReceiveCreate</a>
  
 
  
-
 

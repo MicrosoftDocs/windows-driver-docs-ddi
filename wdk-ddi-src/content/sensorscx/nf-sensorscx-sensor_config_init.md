@@ -38,7 +38,8 @@ api_location:
 -	SensorsCx.h
 api_name:
 -	SENSOR_CONFIG_INIT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SensorConnectionType
 req.product: Windows 10 or later.
@@ -50,17 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This function initializes a <a href="..\sensorscx\ns-sensorscx-_sensor_config.md">SENSOR_CONFIG</a> structure.
-
-
-## -syntax
-
-
-````
-FORCEINLINE VOID SENSOR_CONFIG_INIT(
-  _Out_ PSENSOR_CONFIG pConfig
-);
-````
+This function initializes a <a href="https://msdn.microsoft.com/library/windows/hardware/dn957096">SENSOR_CONFIG</a> structure.
 
 
 ## -parameters
@@ -70,7 +61,7 @@ FORCEINLINE VOID SENSOR_CONFIG_INIT(
 
 ### -param pConfig [out]
 
-A pointer to a new <a href="..\sensorscx\ns-sensorscx-_sensor_config.md">SENSOR_CONFIG</a> structure.
+A pointer to a new <a href="https://msdn.microsoft.com/library/windows/hardware/dn957096">SENSOR_CONFIG</a> structure.
 
 
 ## -returns
@@ -84,12 +75,11 @@ This function does not return a value.
 
 ## -see-also
 
-<a href="..\sensorscx\ns-sensorscx-_sensor_config.md">SENSOR_CONFIG</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn957096">SENSOR_CONFIG</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: kernel\ob_post_operation_information.htm
 old-project: kernel
 ms.assetid: fc52e06d-c826-43c2-ac61-4f56fd808d43
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*POB_POST_OPERATION_INFORMATION, OB_POST_OPERATION_INFORMATION, OB_POST_OPERATION_INFORMATION structure [Kernel-Mode Driver Architecture], POB_POST_OPERATION_INFORMATION, POB_POST_OPERATION_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _OB_POST_OPERATION_INFORMATION, kernel.ob_post_operation_information, kstruct_c_6ef8c6e1-d537-47e0-875f-08f884362459.xml, wdm/OB_POST_OPERATION_INFORMATION, wdm/POB_POST_OPERATION_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	OB_POST_OPERATION_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OB_POST_OPERATION_INFORMATION, *POB_POST_OPERATION_INFORMATION
 req.product: Windows 10 or later.
@@ -50,29 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>OB_POST_OPERATION_INFORMATION</b> structure provides information about a process or thread handle operation to an <a href="..\wdm\nc-wdm-pob_post_operation_callback.md">ObjectPostCallback</a> routine.
-
-
-## -syntax
-
-
-````
-typedef struct _OB_POST_OPERATION_INFORMATION {
-  OB_OPERATION                  Operation;
-  union {
-    ULONG  Flags;
-    struct {
-      ULONG KernelHandle  :1;
-      ULONG Reserved  :31;
-    };
-  };
-  PVOID                         Object;
-  POBJECT_TYPE                  ObjectType;
-  PVOID                         CallContext;
-  NTSTATUS                      ReturnStatus;
-  POB_POST_OPERATION_PARAMETERS Parameters;
-} OB_POST_OPERATION_INFORMATION, *POB_POST_OPERATION_INFORMATION;
-````
+The <b>OB_POST_OPERATION_INFORMATION</b> structure provides information about a process or thread handle operation to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff557741">ObjectPostCallback</a> routine.
 
 
 ## -struct-fields
@@ -121,7 +100,7 @@ A pointer to the object type of the object. This type can be <b>PsProcessType</b
 
 ### -field CallContext
 
-A pointer to driver-specific context information for the operation. This value is the value that the <i>OperationInformation</i>-&gt;<b>CallContext</b> member specifies to the <a href="..\wdm\nc-wdm-pob_pre_operation_callback.md">ObjectPreCallback</a> routine. 
+A pointer to driver-specific context information for the operation. This value is the value that the <i>OperationInformation</i>-&gt;<b>CallContext</b> member specifies to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557745">ObjectPreCallback</a> routine. 
 
 
 ### -field ReturnStatus
@@ -131,7 +110,7 @@ The NTSTATUS value for the handle operation.
 
 ### -field Parameters
 
-A pointer to an <a href="..\wdm\ns-wdm-_ob_post_operation_parameters.md">OB_POST_OPERATION_PARAMETERS</a> union that contains operation-specific information. The <b>Operation</b> member determines which member of the union is valid. The pointer is valid only when <b>ReturnStatus</b> is a success code.
+A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff558724">OB_POST_OPERATION_PARAMETERS</a> union that contains operation-specific information. The <b>Operation</b> member determines which member of the union is valid. The pointer is valid only when <b>ReturnStatus</b> is a success code.
 
 
 #### - Flags
@@ -143,27 +122,26 @@ Reserved. Use the <b>KernelHandle</b> member instead.
 
 
 
-Unlike the <a href="..\wdm\ns-wdm-_ob_pre_operation_information.md">OB_PRE_OPERATION_INFORMATION</a> structure, the members of the <b>OB_POST_OPERATION_INFORMATION</b> structure are purely informational; you cannot modify them.
+Unlike the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558729">OB_PRE_OPERATION_INFORMATION</a> structure, the members of the <b>OB_POST_OPERATION_INFORMATION</b> structure are purely informational; you cannot modify them.
 
 
 
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-pob_pre_operation_callback.md">ObjectPreCallback</a>
 
 
 
-<a href="..\wdm\nc-wdm-pob_post_operation_callback.md">ObjectPostCallback</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558729">OB_PRE_OPERATION_INFORMATION</a>
 
 
 
-<a href="..\wdm\ns-wdm-_ob_pre_operation_information.md">OB_PRE_OPERATION_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557741">ObjectPostCallback</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557745">ObjectPreCallback</a>
  
 
  
-
 

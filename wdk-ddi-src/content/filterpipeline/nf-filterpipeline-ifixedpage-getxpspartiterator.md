@@ -38,7 +38,8 @@ api_location:
 -	filterpipeline.h
 api_name:
 -	IFixedPage.GetXpsPartIterator
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
@@ -50,16 +51,6 @@ req.typenames: EXpsFontRestriction
 
 
 The <b>GetXpsPartIterator</b> method gets an iterator to enumerate all of the parts that are associated with the page. 
-
-
-## -syntax
-
-
-````
-HRESULT GetXpsPartIterator(
-  [out] IXpsPartIterator **pXpsPartIt
-);
-````
 
 
 ## -parameters

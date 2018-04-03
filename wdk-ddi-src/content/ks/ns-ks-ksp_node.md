@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSP_NODE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSP_NODE, *PKSP_NODE
 ---
@@ -50,18 +51,6 @@ req.typenames: KSP_NODE, *PKSP_NODE
 
 
 Kernel streaming clients use the KSP_NODE structure to specify the property and node type within a KSPROPERTY_TOPOLOGY_NAME property request.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  KSPROPERTY Property;
-  ULONG      NodeId;
-  ULONG      Reserved;
-} KSP_NODE, *PKSP_NODE;
-````
 
 
 ## -struct-fields
@@ -86,16 +75,15 @@ Reserved for system use. Should be set to zero.
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537143">KSNODEPROPERTY</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
-
-
-
-<a href="..\ksmedia\ns-ksmedia-ksnodeproperty.md">KSNODEPROPERTY</a>
-
-
-
  
 
  
-
 

@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSALLOCATOR_FRAMING
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSALLOCATOR_FRAMING, *PKSALLOCATOR_FRAMING
 ---
@@ -52,24 +53,6 @@ req.typenames: KSALLOCATOR_FRAMING, *PKSALLOCATOR_FRAMING
 The KSALLOCATOR_FRAMING structure is used to query framing requirements and submit allocator creation requests.
 
 
-## -syntax
-
-
-````
-typedef struct {
-  union {
-    ULONG OptionsFlags;
-    ULONG RequirementsFlags;
-  };
-  ULONG PoolType;
-  ULONG Frames;
-  ULONG FrameSize;
-  ULONG FileAlignment;
-  ULONG Reserved;
-} KSALLOCATOR_FRAMING, *PKSALLOCATOR_FRAMING;
-````
-
-
 ## -struct-fields
 
 
@@ -77,7 +60,7 @@ typedef struct {
 
 ### -field PoolType
 
-A structure of type <a href="..\wudfwdm\ne-wudfwdm-_pool_type.md">POOL_TYPE</a> that specifies kernel-mode allocation pool type.
+A structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff559707">POOL_TYPE</a> that specifies kernel-mode allocation pool type.
 
 
 ### -field Frames
@@ -267,12 +250,11 @@ When you specify a value for the <b>FileAlignment</b> member, the smallest alloc
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kscreateallocator.md">KsCreateAllocator</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561633">KsCreateAllocator</a>
  
 
  
-
 

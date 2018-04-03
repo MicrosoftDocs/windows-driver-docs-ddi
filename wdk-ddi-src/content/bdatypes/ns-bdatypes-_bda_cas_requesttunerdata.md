@@ -38,7 +38,8 @@ api_location:
 -	Bdatypes.h
 api_name:
 -	BDA_CAS_REQUESTTUNERDATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BDA_CAS_REQUESTTUNERDATA, *PBDA_CAS_REQUESTTUNERDATA
 ---
@@ -50,19 +51,6 @@ req.typenames: BDA_CAS_REQUESTTUNERDATA, *PBDA_CAS_REQUESTTUNERDATA
 
 
 
-
-
-## -syntax
-
-
-````
-typedef struct _BDA_CAS_REQUESTTUNERDATA {
-  UCHAR ucRequestPriority;
-  UCHAR ucRequestReason;
-  UCHAR ucRequestConsequences;
-  ULONG ulEstimatedTime;
-} BDA_CAS_REQUESTTUNERDATA, *PBDA_CAS_REQUESTTUNERDATA;
-````
 
 
 ## -struct-fields

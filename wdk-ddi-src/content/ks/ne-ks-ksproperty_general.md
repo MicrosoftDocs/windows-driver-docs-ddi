@@ -38,7 +38,8 @@ api_location:
 -	Ks.h
 api_name:
 -	KSPROPERTY_GENERAL
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSPROPERTY_GENERAL
 ---
@@ -50,16 +51,6 @@ req.typenames: KSPROPERTY_GENERAL
 
 
 
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  KSPROPERTY_GENERAL_COMPONENTID
-} KSPROPERTY_GENERAL;
-````
 
 
 ## -enum-fields

@@ -7,7 +7,7 @@ old-location: display\dxgk_updatehwcontextstate_flags.htm
 old-project: display
 ms.assetid: 23F0679A-05BB-4988-AF83-B6CC91C4CB79
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGK_UPDATEHWCONTEXTSTATE_FLAGS, DXGK_UPDATEHWCONTEXTSTATE_FLAGS structure [Display Devices], _DXGK_UPDATEHWCONTEXTSTATE_FLAGS, d3dkmddi/DXGK_UPDATEHWCONTEXTSTATE_FLAGS, display.dxgk_updatehwcontextstate_flags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGK_UPDATEHWCONTEXTSTATE_FLAGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_UPDATEHWCONTEXTSTATE_FLAGS
 ---
@@ -50,23 +51,6 @@ req.typenames: DXGK_UPDATEHWCONTEXTSTATE_FLAGS
 
 
 Used to update the HW context state flags.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGK_UPDATEHWCONTEXTSTATE_FLAGS {
-  union {
-    struct {
-      UINT Suspended;
-      UINT InterruptOnSwitchCompletion;
-      UINT Reserved;
-    };
-    UINT Value;
-  };
-} DXGK_UPDATEHWCONTEXTSTATE_FLAGS;
-````
 
 
 ## -struct-fields

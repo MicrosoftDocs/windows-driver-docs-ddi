@@ -38,7 +38,8 @@ api_location:
 -	ntddser.h
 api_name:
 -	IOCTL_SERIAL_INTERNAL_BASIC_SETTINGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SD_REQUEST_FUNCTION
 ---
@@ -52,7 +53,7 @@ req.typenames: SD_REQUEST_FUNCTION
 
 The IOCTL_SERIAL_INTERNAL_BASIC_SETTINGS request sets a serial device to a basic operating mode. Serial's basic operating mode reads and writes one byte at a time, and does not use handshake flow control or time-outs. The basic operation mode is suitable for use by a driver that uses a subset of the 16550 UART interface. Examples of such drivers include a mouse driver or a graphics pad driver for older hardware that use a 16450 UART.
 
-The IOCTL_SERIAL_INTERNAL_BASIC_SETTINGS request returns the operating mode settings that are in use just before Serial sets the basic operation mode. A client uses an <a href="..\ntddser\ni-ntddser-ioctl_serial_internal_restore_settings.md">IOCTL_SERIAL_INTERNAL_RESTORE_SETTINGS</a> request to restore a previous operating mode. A client should treat the operating mode settings as opaque. Serial does not verify the settings when the settings are restored. Note also that a replacement driver for Serial might implement a different set of basic settings.
+The IOCTL_SERIAL_INTERNAL_BASIC_SETTINGS request returns the operating mode settings that are in use just before Serial sets the basic operation mode. A client uses an <a href="https://msdn.microsoft.com/library/windows/hardware/ff546642">IOCTL_SERIAL_INTERNAL_RESTORE_SETTINGS</a> request to restore a previous operating mode. A client should treat the operating mode settings as opaque. Serial does not verify the settings when the settings are restored. Note also that a replacement driver for Serial might implement a different set of basic settings.
 
 
 
@@ -109,12 +110,11 @@ The <b>Status</b> member is set to one of the <a href="https://docs.microsoft.co
 
 ## -see-also
 
-<a href="..\ntddser\ni-ntddser-ioctl_serial_internal_restore_settings.md">IOCTL_SERIAL_INTERNAL_RESTORE_SETTINGS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546642">IOCTL_SERIAL_INTERNAL_RESTORE_SETTINGS</a>
  
 
  
-
 

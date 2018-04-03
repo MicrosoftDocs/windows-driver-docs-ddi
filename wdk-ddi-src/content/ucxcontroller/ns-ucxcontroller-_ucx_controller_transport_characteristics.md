@@ -7,7 +7,7 @@ old-location: buses\ucx_controller_transport_characteristics.htm
 old-project: usbref
 ms.assetid: 9F267427-8D70-45D5-A8E6-67A1C6B73CDB
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PUCX_CONTROLLER_TRANSPORT_CHARACTERISTICS, PUCX_CONTROLLER_TRANSPORT_CHARACTERISTICS, PUCX_CONTROLLER_TRANSPORT_CHARACTERISTICS structure pointer [Buses], UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS, UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS structure [Buses], _UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS, buses.ucx_controller_transport_characteristics, ucxcontroller/PUCX_CONTROLLER_TRANSPORT_CHARACTERISTICS, ucxcontroller/UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	UcxController.h
 api_name:
 -	UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS, *PUCX_CONTROLLER_TRANSPORT_CHARACTERISTICS
 req.product: Windows 10 or later.
@@ -50,19 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-Stores the transport characteristics at relevant points in time. This structure is used in the   <a href="..\ucxcontroller\nc-ucxcontroller-evt_ucx_controller_get_transport_characteristics.md">EVT_UCX_CONTROLLER_GET_TRANSPORT_CHARACTERISTICS</a> callback function.
-
-
-## -syntax
-
-
-````
-typedef struct _UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS {
-  ULONG                       TransportCharacteristicsFlags;
-  ULONG64                     CurrentRoundtripLatencyInMilliSeconds;
-  ULONG64                     MaxPotentialBandwidth;
-} UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS, *PUCX_CONTROLLER_TRANSPORT_CHARACTERISTICS;
-````
+Stores the transport characteristics at relevant points in time. This structure is used in the   <a href="https://msdn.microsoft.com/4394199C-6644-4E11-BDAF-625C2F94DEE8">EVT_UCX_CONTROLLER_GET_TRANSPORT_CHARACTERISTICS</a> callback function.
 
 
 ## -struct-fields
@@ -107,12 +96,11 @@ For MA-USB, the underlying network transport could be WiFi, WiGig, Ethernet etc.
 
 ## -see-also
 
-<a href="..\ucxcontroller\nc-ucxcontroller-evt_ucx_controller_get_transport_characteristics.md">EVT_UCX_CONTROLLER_GET_TRANSPORT_CHARACTERISTICS</a>
 
 
 
+<a href="https://msdn.microsoft.com/4394199C-6644-4E11-BDAF-625C2F94DEE8">EVT_UCX_CONTROLLER_GET_TRANSPORT_CHARACTERISTICS</a>
  
 
  
-
 

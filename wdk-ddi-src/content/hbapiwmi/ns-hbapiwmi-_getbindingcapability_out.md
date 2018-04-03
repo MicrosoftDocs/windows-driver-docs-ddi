@@ -7,7 +7,7 @@ old-location: storage\getbindingcapability_out.htm
 old-project: storage
 ms.assetid: c02bb43c-8f9a-470a-ba65-f3a69b5c6110
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PGetBindingCapability_OUT, GetBindingCapability_OUT, GetBindingCapability_OUT structure [Storage Devices], PGetBindingCapability_OUT, PGetBindingCapability_OUT structure pointer [Storage Devices], _GetBindingCapability_OUT, hbapiwmi/GetBindingCapability_OUT, hbapiwmi/PGetBindingCapability_OUT, storage.getbindingcapability_out, structs-Fibre_611bcad6-5d7f-43ea-8202-4c19bec45f88.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	hbapiwmi.h
 api_name:
 -	GetBindingCapability_OUT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GetBindingCapability_OUT, *PGetBindingCapability_OUT
 ---
@@ -50,17 +51,6 @@ req.typenames: GetBindingCapability_OUT, *PGetBindingCapability_OUT
 
 
 The GetBindingCapability_OUT structure is used by a WMI provider to report the output parameter data of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553902">GetBindingCapability</a> WMI method to the WMI client.
-
-
-## -syntax
-
-
-````
-typedef struct _GetBindingCapability_OUT {
-  ULONG HBAStatus;
-  ULONG BindType;
-} GetBindingCapability_OUT, *PGetBindingCapability_OUT;
-````
 
 
 ## -struct-fields
@@ -89,12 +79,11 @@ The WMI tool suite generates a declaration of the GetBindingCapability_OUT struc
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553902">GetBindingCapability</a>
-
-
-
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: display\d3dkmt_checksharedresourceaccess.htm
 old-project: display
 ms.assetid: 1749127f-c5fc-4e69-a2dd-00540e1c4c9a
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMT_CHECKSHAREDRESOURCEACCESS, D3DKMT_CHECKSHAREDRESOURCEACCESS structure [Display Devices], OpenGL_Structs_5d797cef-2ace-482b-a7b2-82b26a2c7504.xml, _D3DKMT_CHECKSHAREDRESOURCEACCESS, d3dkmthk/D3DKMT_CHECKSHAREDRESOURCEACCESS, display.d3dkmt_checksharedresourceaccess
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmthk.h
 api_name:
 -	D3DKMT_CHECKSHAREDRESOURCEACCESS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_CHECKSHAREDRESOURCEACCESS
 ---
@@ -49,18 +50,7 @@ req.typenames: D3DKMT_CHECKSHAREDRESOURCEACCESS
 ## -description
 
 
-The D3DKMT_CHECKSHAREDRESOURCEACCESS structure describes parameters that the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtchecksharedresourceaccess.md">D3DKMTCheckSharedResourceAccess</a> function uses to determine if a process can access a shared resource. 
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_CHECKSHAREDRESOURCEACCESS {
-  D3DKMT_HANDLE hResource;
-  UINT          ClientPid;
-} D3DKMT_CHECKSHAREDRESOURCEACCESS;
-````
+The D3DKMT_CHECKSHAREDRESOURCEACCESS structure describes parameters that the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546769">D3DKMTCheckSharedResourceAccess</a> function uses to determine if a process can access a shared resource. 
 
 
 ## -struct-fields
@@ -80,12 +70,11 @@ typedef struct _D3DKMT_CHECKSHAREDRESOURCEACCESS {
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtchecksharedresourceaccess.md">D3DKMTCheckSharedResourceAccess</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546769">D3DKMTCheckSharedResourceAccess</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: storage\ata_channel_state.htm
 old-project: storage
 ms.assetid: 97df2db8-6a42-46d4-bc31-babb124635ee
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: ATA_CHANNEL_STATE, ATA_CHANNEL_STATE enumeration [Storage Devices], ChannelStateDisabled, ChannelStateEnabled, ChannelStateUnKnown, irb/ATA_CHANNEL_STATE, irb/ChannelStateDisabled, irb/ChannelStateEnabled, irb/ChannelStateUnKnown, storage.ata_channel_state, structs-ATA_317e3cc4-5b93-4942-9256-9418f692a8e2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	irb.h
 api_name:
 -	ATA_CHANNEL_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: ATA_CHANNEL_STATE
 ---
@@ -51,18 +52,6 @@ req.typenames: ATA_CHANNEL_STATE
 
 The ATA_CHANNEL_STATE enumeration type indicates the state of the channel.
 <div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
-
-## -syntax
-
-
-````
-typedef enum  { 
-  ChannelStateDisabled  = 0,
-  ChannelStateEnabled   = 1,
-  ChannelStateUnKnown   = 2
-} ATA_CHANNEL_STATE;
-````
-
 
 ## -enum-fields
 
@@ -95,12 +84,11 @@ The ATA_CHANNEL_STATE enumeration type is used in conjunction with the <a href="
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550142">AtaControllerChannelEnabled</a>
-
-
-
  
 
  
-
 

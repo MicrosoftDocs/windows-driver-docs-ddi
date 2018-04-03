@@ -7,7 +7,7 @@ old-location: ifsk\fltattachvolume.htm
 old-project: ifsk
 ms.assetid: da85c8d6-a74c-4a87-88b3-fb6dc01dd0f9
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FltApiRef_a_to_d_f4ac8b0d-55c2-45b1-8f3b-3a09bee7bb23.xml, FltAttachVolume, FltAttachVolume function [Installable File System Drivers], fltkernel/FltAttachVolume, ifsk.fltattachvolume
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	FltMgr.dll
 api_name:
 -	FltAttachVolume
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
@@ -51,19 +52,6 @@ req.typenames: EXpsFontRestriction
 
 
 <b>FltAttachVolume</b> creates a new minifilter driver instance and attaches it to the given volume. 
-
-
-## -syntax
-
-
-````
-NTSTATUS FltAttachVolume(
-  _Inout_  PFLT_FILTER      Filter,
-  _Inout_  PFLT_VOLUME      Volume,
-  _In_opt_ PCUNICODE_STRING InstanceName,
-  _Out_    PFLT_INSTANCE    *RetInstance
-);
-````
 
 
 ## -parameters
@@ -83,7 +71,7 @@ Opaque volume pointer for the volume that the minifilter driver instance is to b
 
 ### -param InstanceName [in, optional]
 
-Pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure containing the instance name for the new instance. This parameter is optional and can be <b>NULL</b>. If it is <b>NULL</b>, <b>FltAttachVolume</b> attempts to read the minifilter driver's default instance name from the registry. (For more information about this parameter, see the following Remarks section.) 
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure containing the instance name for the new instance. This parameter is optional and can be <b>NULL</b>. If it is <b>NULL</b>, <b>FltAttachVolume</b> attempts to read the minifilter driver's default instance name from the registry. (For more information about this parameter, see the following Remarks section.) 
 
 
 ### -param RetInstance [out]
@@ -120,7 +108,7 @@ The specified <i>Filter</i> or <i>Volume</i> is being torn down. This is an erro
 </dl>
 </td>
 <td width="60%">
-The minifilter driver has not started filtering. For more information, see <a href="..\fltkernel\nf-fltkernel-fltstartfiltering.md">FltStartFiltering</a>. This is an error code. 
+The minifilter driver has not started filtering. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff544569">FltStartFiltering</a>. This is an error code. 
 
 </td>
 </tr>
@@ -175,49 +163,48 @@ The instance name specified in the <i>InstanceName</i> parameter is required to 
 
 <b>FltAttachVolume</b> returns an opaque instance pointer for the new instance in <i>*RetInstance</i>. This pointer value uniquely identifies the minifilter driver instance and remains constant as long as the instance is attached to the volume. 
 
-<b>FltAttachVolume</b> adds a rundown reference to the opaque instance pointer returned in <i>*RetInstance</i>. When this pointer is no longer needed, the caller must release it by calling <a href="..\fltkernel\nf-fltkernel-fltobjectdereference.md">FltObjectDereference</a>. Thus every successful call to <b>FltAttachVolume</b> must be matched by a subsequent call to <b>FltObjectDereference</b>. 
+<b>FltAttachVolume</b> adds a rundown reference to the opaque instance pointer returned in <i>*RetInstance</i>. When this pointer is no longer needed, the caller must release it by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff543378">FltObjectDereference</a>. Thus every successful call to <b>FltAttachVolume</b> must be matched by a subsequent call to <b>FltObjectDereference</b>. 
 
-To attach a minifilter driver instance to a volume at a given altitude, call <a href="..\fltkernel\nf-fltkernel-fltattachvolumeataltitude.md">FltAttachVolumeAtAltitude</a>. 
+To attach a minifilter driver instance to a volume at a given altitude, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff541775">FltAttachVolumeAtAltitude</a>. 
 
-To compare the altitudes of two minifilter driver instances attached to the same volume, call <a href="..\fltkernel\nf-fltkernel-fltcompareinstancealtitudes.md">FltCompareInstanceAltitudes</a>. 
+To compare the altitudes of two minifilter driver instances attached to the same volume, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff541889">FltCompareInstanceAltitudes</a>. 
 
-To detach a minifilter driver instance from a volume, call <a href="..\fltkernel\nf-fltkernel-fltdetachvolume.md">FltDetachVolume</a>. 
+To detach a minifilter driver instance from a volume, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff542041">FltDetachVolume</a>. 
 
 
 
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltobjectdereference.md">FltObjectDereference</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541775">FltAttachVolumeAtAltitude</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltstartfiltering.md">FltStartFiltering</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541889">FltCompareInstanceAltitudes</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltcompareinstancealtitudes.md">FltCompareInstanceAltitudes</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542041">FltDetachVolume</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltdetachvolume.md">FltDetachVolume</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543239">FltGetVolumeInstanceFromName</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltgetvolumeinstancefromname.md">FltGetVolumeInstanceFromName</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543378">FltObjectDereference</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltattachvolumeataltitude.md">FltAttachVolumeAtAltitude</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544569">FltStartFiltering</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
  
 
  
-
 

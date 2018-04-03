@@ -7,7 +7,7 @@ old-location: dtf\iwdtfdriverpackageaction2_catalogfile.htm
 old-project: dtf
 ms.assetid: 57cfb693-7134-4e3c-a5b4-3d15456b4daa
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/29/2018
 ms.keywords: CatalogFile property [Windows Device Testing Framework], CatalogFile property [Windows Device Testing Framework], IWDTFDriverPackageAction2 interface, IWDTFDriverPackageAction2, IWDTFDriverPackageAction2 interface [Windows Device Testing Framework], CatalogFile property, IWDTFDriverPackageAction2.CatalogFile, IWDTFDriverPackageAction2::get_CatalogFile, Microsoft.WDTF.IWDTFDriverPackageAction2.CatalogFile, Microsoft::WDTF::IWDTFDriverPackageAction2::CatalogFile, dtf.iwdtfdriverpackageaction2_catalogfile, get_CatalogFile,IWDTFDriverPackageAction2.get_CatalogFile, wdtfdriverpackageaction/IWDTFDriverPackageAction2::CatalogFile, wdtfdriverpackageaction/IWDTFDriverPackageAction2::get_CatalogFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	IWDTFDriverPackageAction2.CatalogFile
 -	IWDTFDriverPackageAction2.get_CatalogFile
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TTraceLevel
 req.product: Windows 10 or later.
@@ -56,27 +57,16 @@ Gets the catalog file name.
 This property is read-only.
 
 
-## -syntax
-
-
-````
-HRESULT get_CatalogFile(
-  [out, retval] BSTR *pVal
-);
-````
-
-
 ## -parameters
 
 
 ## -see-also
 
-<a href="..\wdtfdriverpackageaction\nn-wdtfdriverpackageaction-iwdtfdriverpackageaction2.md">IWDTFDriverPackageAction2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406427">IWDTFDriverPackageAction2</a>
  
 
  
-
 

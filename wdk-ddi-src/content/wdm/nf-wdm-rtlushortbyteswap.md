@@ -7,7 +7,7 @@ old-location: kernel\rtlushortbyteswap.htm
 old-project: kernel
 ms.assetid: 83f6a599-0b35-4a02-b20f-80abcc6eae4f
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: RtlUshortByteSwap, RtlUshortByteSwap routine [Kernel-Mode Driver Architecture], k109_36a00506-f4e3-467b-9494-c13b2ea70a1f.xml, kernel.rtlushortbyteswap, wdm/RtlUshortByteSwap
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	RtlUshortByteSwap
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
@@ -51,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>RtlUshortByteSwap</b> routine reverses the ordering of the two bytes in a 16-bit unsigned integer value.
-
-
-## -syntax
-
-
-````
-USHORT RtlUshortByteSwap(
-  _In_ USHORT Source
-);
-````
 
 
 ## -parameters
@@ -92,23 +83,22 @@ A typical use of this routine is to convert a USHORT value from little-endian by
 
 Use this routine instead of <b>ntohs</b> or <b>htons</b>.
 
-To reverse the ordering of bytes in a ULONG value, use the <a href="..\wdm\nf-wdm-rtlulongbyteswap.md">RtlUlongByteSwap</a> routine. To reverse ordering of bytes in a ULONGLONG value, use the <a href="..\wdm\nf-wdm-rtlulonglongbyteswap.md">RtlUlonglongByteSwap</a> routine.
+To reverse the ordering of bytes in a ULONG value, use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562886">RtlUlongByteSwap</a> routine. To reverse ordering of bytes in a ULONGLONG value, use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562890">RtlUlonglongByteSwap</a> routine.
 
 
 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlulonglongbyteswap.md">RtlUlonglongByteSwap</a>
 
 
 
-<a href="..\wdm\nf-wdm-rtlulongbyteswap.md">RtlUlongByteSwap</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562886">RtlUlongByteSwap</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562890">RtlUlonglongByteSwap</a>
  
 
  
-
 

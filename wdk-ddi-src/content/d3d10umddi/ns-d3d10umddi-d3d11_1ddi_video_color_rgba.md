@@ -7,7 +7,7 @@ old-location: display\d3d11_1ddi_video_color_rgba.htm
 old-project: display
 ms.assetid: 0d97d6ef-87e6-4ba3-ab4b-aa5b22cb126b
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3D11_1DDI_VIDEO_COLOR_RGBA, D3D11_1DDI_VIDEO_COLOR_RGBA structure [Display Devices], d3d10umddi/D3D11_1DDI_VIDEO_COLOR_RGBA, display.d3d11_1ddi_video_color_rgba
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3d10umddi.h
 api_name:
 -	D3D11_1DDI_VIDEO_COLOR_RGBA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D11_1DDI_VIDEO_COLOR_RGBA
 ---
@@ -50,19 +51,6 @@ req.typenames: D3D11_1DDI_VIDEO_COLOR_RGBA
 
 
 Specifies an RGB color value.
-
-
-## -syntax
-
-
-````
-typedef struct D3D11_1DDI_VIDEO_COLOR_RGBA {
-  float R;
-  float G;
-  float B;
-  float A;
-} D3D11_1DDI_VIDEO_COLOR_RGBA;
-````
 
 
 ## -struct-fields

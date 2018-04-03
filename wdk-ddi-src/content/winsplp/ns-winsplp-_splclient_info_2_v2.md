@@ -38,7 +38,8 @@ api_location:
 -	Winsplp.h
 api_name:
 -	SPLCLIENT_INFO_2_WINXP
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SPLCLIENT_INFO_2_WINXP
 req.product: Windows 10 or later.
@@ -51,20 +52,6 @@ req.product: Windows 10 or later.
 
 
 
-
-
-## -syntax
-
-
-````
-typedef struct _SPLCLIENT_INFO_2_V2 {
-#ifdef _WIN64
-  DWORD64  hSplPrinter;
-#else 
-  DWORD32  hSplPrinter;
-#endif 
-} SPLCLIENT_INFO_2_WINXP;
-````
 
 
 ## -struct-fields

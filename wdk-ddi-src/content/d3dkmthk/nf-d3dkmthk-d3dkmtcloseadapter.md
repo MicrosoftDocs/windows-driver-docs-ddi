@@ -7,7 +7,7 @@ old-location: display\d3dkmtcloseadapter.htm
 old-project: display
 ms.assetid: d8f1a47b-4ba0-41e0-a6e3-0589e1efcf06
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMTCloseAdapter, D3DKMTCloseAdapter callback function [Display Devices], OpenGL_Functions_531edcbd-0ec0-4ae7-8a1a-31ed47084bba.xml, PFND3DKMT_CLOSEADAPTER, d3dkmthk/D3DKMTCloseAdapter, display.d3dkmtcloseadapter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmthk.h
 api_name:
 -	D3DKMTCloseAdapter
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_DRIVERVERSION
 ---
@@ -49,17 +50,7 @@ req.typenames: D3DKMT_DRIVERVERSION
 ## -description
 
 
-The <b>D3DKMTCloseAdapter</b> function closes a graphics adapter that was previously opened by using the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtopenadapterfromhdc.md">D3DKMTOpenAdapterFromHdc</a> function.
-
-
-## -syntax
-
-
-````
-NTSTATUS APIENTRY D3DKMTCloseAdapter(
-  _In_ const D3DKMT_CLOSEADAPTER *pData
-);
-````
+The <b>D3DKMTCloseAdapter</b> function closes a graphics adapter that was previously opened by using the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547047">D3DKMTOpenAdapterFromHdc</a> function.
 
 
 ## -parameters
@@ -76,7 +67,7 @@ TBD
 
 #### - pData [in]
 
-A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_closeadapter.md">D3DKMT_CLOSEADAPTER</a> structure that specifies the adapter to close.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547789">D3DKMT_CLOSEADAPTER</a> structure that specifies the adapter to close.
 
 
 ## -returns
@@ -122,12 +113,11 @@ This function might also return other NTSTATUS values.
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_closeadapter.md">D3DKMT_CLOSEADAPTER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547789">D3DKMT_CLOSEADAPTER</a>
  
 
  
-
 

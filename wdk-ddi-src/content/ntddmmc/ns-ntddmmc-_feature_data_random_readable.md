@@ -7,7 +7,7 @@ old-location: storage\feature_data_random_readable.htm
 old-project: storage
 ms.assetid: c235a3aa-f8fe-4034-a645-ef85b2574fa0
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PFEATURE_DATA_RANDOM_READABLE, FEATURE_DATA_RANDOM_READABLE, FEATURE_DATA_RANDOM_READABLE structure [Storage Devices], PFEATURE_DATA_RANDOM_READABLE, PFEATURE_DATA_RANDOM_READABLE structure pointer [Storage Devices], _FEATURE_DATA_RANDOM_READABLE, ntddmmc/FEATURE_DATA_RANDOM_READABLE, ntddmmc/PFEATURE_DATA_RANDOM_READABLE, storage.feature_data_random_readable, structs-CD-ROM_90540677-8abb-43d0-919a-821411398074.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddmmc.h
 api_name:
 -	FEATURE_DATA_RANDOM_READABLE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FEATURE_DATA_RANDOM_READABLE, *PFEATURE_DATA_RANDOM_READABLE
 ---
@@ -52,21 +53,6 @@ req.typenames: FEATURE_DATA_RANDOM_READABLE, *PFEATURE_DATA_RANDOM_READABLE
 The FEATURE_DATA_RANDOM_READABLE structure contains data for the random readable feature. 
 
 
-## -syntax
-
-
-````
-typedef struct _FEATURE_DATA_RANDOM_READABLE {
-  FEATURE_HEADER Header;
-  UCHAR          LogicalBlockSize[4];
-  UCHAR          Blocking[2];
-  UCHAR          ErrorRecoveryPagePresent  :1;
-  UCHAR          Reserved1  :7;
-  UCHAR          Reserved2;
-} FEATURE_DATA_RANDOM_READABLE, *PFEATURE_DATA_RANDOM_READABLE;
-````
-
-
 ## -struct-fields
 
 
@@ -74,7 +60,7 @@ typedef struct _FEATURE_DATA_RANDOM_READABLE {
 
 ### -field Header
 
-Contains a <a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a> structure with header information for this feature descriptor. 
+Contains a <a href="https://msdn.microsoft.com/library/windows/hardware/ff553848">FEATURE_HEADER</a> structure with header information for this feature descriptor. 
 
 
 ### -field LogicalBlockSize
@@ -113,16 +99,15 @@ This structure holds data for the feature named "Random Readable" by the <i>MMC-
 
 ## -see-also
 
-<a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
 
 
 
-<a href="..\ntddmmc\ne-ntddmmc-_feature_number.md">FEATURE_NUMBER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553848">FEATURE_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553850">FEATURE_NUMBER</a>
  
 
  
-
 

@@ -41,7 +41,8 @@ api_location:
 -	WUDFx02000.dll.dll
 api_name:
 -	WdfRequestGetFileObject
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_REQUEST_TYPE
 req.product: Windows 10 or later.
@@ -58,16 +59,6 @@ req.product: Windows 10 or later.
 The <b>WdfRequestGetFileObject</b> method retrieves the framework file object that is associated with a specified I/O request.
 
 
-## -syntax
-
-
-````
-WDFFILEOBJECT WdfRequestGetFileObject(
-  _In_ WDFREQUEST Request
-);
-````
-
-
 ## -parameters
 
 
@@ -82,7 +73,7 @@ A handle to a framework request object.
 
 
 
-<b>WdfRequestGetFileObject</b> returns a handle to the framework file object, if the framework has created a file object for the specified request. Otherwise, this method returns <b>NULL</b>. (A driver typically tests for a <b>NULL</b> return value only if it sets the <a href="..\wdfdevice\ne-wdfdevice-_wdf_fileobject_class.md">WdfFileObjectCanBeOptional</a> bit flag in the <a href="..\wdfdevice\ns-wdfdevice-_wdf_fileobject_config.md">WDF_FILEOBJECT_CONFIG</a> structure.)
+<b>WdfRequestGetFileObject</b> returns a handle to the framework file object, if the framework has created a file object for the specified request. Otherwise, this method returns <b>NULL</b>. (A driver typically tests for a <b>NULL</b> return value only if it sets the <a href="https://msdn.microsoft.com/e0887061-eafe-4dba-bb7a-58bf949e2d08">WdfFileObjectCanBeOptional</a> bit flag in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551319">WDF_FILEOBJECT_CONFIG</a> structure.)
 
 A bug check occurs if the driver supplies an invalid object handle.
 
@@ -99,11 +90,11 @@ The <b>WdfRequestGetFileObject</b> method returns <b>NULL</b> if either:
 
 <ul>
 <li>
-Your driver has not called <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetfileobjectconfig.md">WdfDeviceInitSetFileObjectConfig</a> and specified a <a href="..\wdfdevice\ne-wdfdevice-_wdf_fileobject_class.md">WDF_FILEOBJECT_CLASS</a> value that causes the framework to create file objects.
+Your driver has not called <a href="https://msdn.microsoft.com/library/windows/hardware/ff546107">WdfDeviceInitSetFileObjectConfig</a> and specified a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551315">WDF_FILEOBJECT_CLASS</a> value that causes the framework to create file objects.
 
 </li>
 <li>
-Another driver sent a read, write, or I/O control request to your driver without first sending a request type of <a href="..\wdfrequest\ne-wdfrequest-_wdf_request_type.md">WdfRequestTypeCreate</a>.
+Another driver sent a read, write, or I/O control request to your driver without first sending a request type of <a href="https://msdn.microsoft.com/91c036a0-7fce-4c7d-a217-eb1c487a15d0">WdfRequestTypeCreate</a>.
 
 </li>
 </ul>
@@ -141,16 +132,15 @@ MyEvtIoWrite(
 
 ## -see-also
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetfileobjectconfig.md">WdfDeviceInitSetFileObjectConfig</a>
 
 
 
-<a href="..\wdfdevice\ne-wdfdevice-_wdf_fileobject_class.md">WDF_FILEOBJECT_CLASS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551315">WDF_FILEOBJECT_CLASS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546107">WdfDeviceInitSetFileObjectConfig</a>
  
 
  
-
 

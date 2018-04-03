@@ -7,7 +7,7 @@ old-location: display\pfnupdatesubresourceup.htm
 old-project: display
 ms.assetid: 5AF55FED-6FD6-41BE-A743-1E9D0EA51C9C
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3DDDI_UPDATESUBRESOURCEUP, d3dumddi/pfnUpdateSubresourceUP, display.pfnupdatesubresourceup, pfnUpdateSubresourceUP, pfnUpdateSubresourceUP callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3dumddi.h
 api_name:
 -	pfnUpdateSubresourceUP
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_PTE
 ---
@@ -50,20 +51,6 @@ req.typenames: DXGK_PTE
 
 
 Called by the Microsoft Direct3D runtime to update a destination subresource region from a source system-memory region. Must be implemented by Windows Display Driver Model (WDDM) 1.3 and later user-mode display drivers.
-
-
-## -prototype
-
-
-````
-PFND3DDDI_UPDATESUBRESOURCEUP pfnUpdateSubresourceUP;
-
-_Check_return_ HRESULT APIENTRY* pfnUpdateSubresourceUP(
-  _In_       HANDLE                        hDevice,
-  _In_ const D3DDDIARG_UPDATESUBRESOURCEUP *pCounterInfo
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -89,7 +76,7 @@ A handle to the display device (graphics context).
 
 #### - pCounterInfo [in]
 
-A pointer to a <a href="..\d3dumddi\ns-d3dumddi-d3dddiarg_updatesubresourceup.md">D3DDDIARG_UPDATESUBRESOURCEUP</a> structure that describes how to update a destination subresource region from a source system-memory region.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn449153">D3DDDIARG_UPDATESUBRESOURCEUP</a> structure that describes how to update a destination subresource region from a source system-memory region.
 
 
 ## -returns
@@ -103,12 +90,11 @@ If this routine succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HR
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-d3dddiarg_updatesubresourceup.md">D3DDDIARG_UPDATESUBRESOURCEUP</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn449153">D3DDDIARG_UPDATESUBRESOURCEUP</a>
  
 
  
-
 

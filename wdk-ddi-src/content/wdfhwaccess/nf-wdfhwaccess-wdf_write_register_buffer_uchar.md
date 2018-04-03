@@ -38,7 +38,8 @@ api_location:
 -	Wdfhwaccess.h
 api_name:
 -	WDF_WRITE_REGISTER_BUFFER_UCHAR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_FILE_INFORMATION_CLASS, *PWDF_FILE_INFORMATION_CLASS
 req.product: Windows 10 or later.
@@ -53,19 +54,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to UMDF only]
 
 The <b>WDF_WRITE_REGISTER_BUFFER_UCHAR</b> function writes a number of bytes from a buffer to the specified register.
-
-
-## -syntax
-
-
-````
-void WDF_WRITE_REGISTER_BUFFER_UCHAR(
-  _In_ WDFDEVICE Device,
-  _In_ PUCHAR    Register,
-  _In_ PUCHAR    Buffer,
-  _In_ ULONG     Count 
-);
-````
 
 
 ## -parameters

@@ -38,7 +38,8 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFInterrupt
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
@@ -57,7 +58,7 @@ This interface exposes an interrupt object.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFInterrupt</b> interface inherits from <a href="..\wudfddi\nn-wudfddi-iwdfobject.md">IWDFObject</a>. <b>IWDFInterrupt</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFInterrupt</b> interface inherits from <a href="https://msdn.microsoft.com/library/windows/hardware/ff560200">IWDFObject</a>. <b>IWDFInterrupt</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -84,7 +85,7 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451289">Acqui
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh450971">Disable</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/windows/hardware/hh450971">Disable</a> method disables a specified device interrupt by calling the driver's <a href="..\wudfinterrupt\nc-wudfinterrupt-wudf_interrupt_disable.md">OnInterruptDisable</a> callback function.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/hh450971">Disable</a> method disables a specified device interrupt by calling the driver's <a href="https://msdn.microsoft.com/3ADBD4C2-075E-4988-BF13-EB0C3E0C02BF">OnInterruptDisable</a> callback function.
 
 </td>
 </tr>
@@ -93,7 +94,7 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/hh450971">Disab
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451004">Enable</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451004">Enable</a> method enables a specified device interrupt by calling the driver's <a href="..\wudfinterrupt\nc-wudfinterrupt-wudf_interrupt_enable.md">OnInterruptEnable</a> callback function.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451004">Enable</a> method enables a specified device interrupt by calling the driver's <a href="https://msdn.microsoft.com/6C091427-59FF-4101-ACD6-353C959794F6">OnInterruptEnable</a> callback function.
 
 </td>
 </tr>
@@ -166,12 +167,11 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451332">TryTo
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfobject.md">IWDFObject</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560200">IWDFObject</a>
  
 
  
-
 

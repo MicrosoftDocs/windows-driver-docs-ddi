@@ -38,7 +38,8 @@ api_location:
 -	windot11.h
 api_name:
 -	DOT11_CIPHER_KEY_MAPPING_KEY_VALUE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT11_CIPHER_KEY_MAPPING_KEY_VALUE, *PDOT11_CIPHER_KEY_MAPPING_KEY_VALUE
 req.product: Windows 10 or later.

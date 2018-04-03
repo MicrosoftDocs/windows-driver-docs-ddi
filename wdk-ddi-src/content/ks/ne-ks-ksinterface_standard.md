@@ -38,7 +38,8 @@ api_location:
 -	Ks.h
 api_name:
 -	KSINTERFACE_STANDARD
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSINTERFACE_STANDARD
 ---
@@ -50,18 +51,6 @@ req.typenames: KSINTERFACE_STANDARD
 
 
 
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  KSINTERFACE_STANDARD_STREAMING,
-  KSINTERFACE_STANDARD_LOOPED_STREAMING,
-  KSINTERFACE_STANDARD_CONTROL
-} KSINTERFACE_STANDARD;
-````
 
 
 ## -enum-fields

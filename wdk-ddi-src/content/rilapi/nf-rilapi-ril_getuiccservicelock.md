@@ -7,7 +7,7 @@ old-location: netvista\ril_getuiccservicelock.htm
 old-project: netvista
 ms.assetid: cebef749-f7f1-4a33-81fd-1d42da7afafe
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: RIL_GetUiccServiceLock, RIL_GetUiccServiceLock method [Network Drivers Starting with Windows Vista], netvista.ril_getuiccservicelock, rilapi/RIL_GetUiccServiceLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	rilapi.h
 api_name:
 -	RIL_GetUiccServiceLock
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
+req.typenames: PTP_VENDOR_DATA_OUT, *PPTP_VENDOR_DATA_OUT
 req.product: Windows 10 or later.
 ---
 
@@ -53,18 +54,6 @@ req.product: Windows 10 or later.
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
             
-
-
-## -syntax
-
-
-````
-HRESULT  RIL_GetUiccServiceLock(
-   HRIL                  hRil,
-   LPVOID                lpContext,
-   const RILUICCSERVICE  lpService
-);
-````
 
 
 ## -parameters

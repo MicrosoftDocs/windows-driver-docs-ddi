@@ -7,7 +7,7 @@ old-location: display\d3dkmt-standardallocationtype.htm
 old-project: display
 ms.assetid: 7ce6d148-bfe8-4040-a4c1-ccd22fd07307
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMT_STANDARDALLOCATIONTYPE, D3DKMT_STANDARDALLOCATIONTYPE enumeration [Display Devices], D3DKMT_STANDARDALLOCATIONTYPE_EXISTINGHEAP, _D3DKMT_STANDARDALLOCATIONTYPE, d3dkmthk/D3DKMT_STANDARDALLOCATIONTYPE, d3dkmthk/D3DKMT_STANDARDALLOCATIONTYPE_EXISTINGHEAP, display.d3dkmt-standardallocationtype
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmthk.h
 api_name:
 -	D3DKMT_STANDARDALLOCATIONTYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_STANDARDALLOCATIONTYPE
 ---
@@ -50,16 +51,6 @@ req.typenames: D3DKMT_STANDARDALLOCATIONTYPE
 
 
 Used to give information on the allocation type.
-
-
-## -syntax
-
-
-````
-typedef enum _D3DKMT_STANDARDALLOCATIONTYPE { 
-  D3DKMT_STANDARDALLOCATIONTYPE_EXISTINGHEAP  = 1
-} D3DKMT_STANDARDALLOCATIONTYPE;
-````
 
 
 ## -enum-fields

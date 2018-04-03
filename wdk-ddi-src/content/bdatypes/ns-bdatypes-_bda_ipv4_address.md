@@ -38,7 +38,8 @@ api_location:
 -	Bdatypes.h
 api_name:
 -	BDA_IPv4_ADDRESS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BDA_IPv4_ADDRESS, *PBDA_IPv4_ADDRESS
 ---
@@ -50,16 +51,6 @@ req.typenames: BDA_IPv4_ADDRESS, *PBDA_IPv4_ADDRESS
 
 
 
-
-
-## -syntax
-
-
-````
-typedef struct _BDA_IPv4_ADDRESS {
-  BYTE rgbAddress[4];
-} BDA_IPv4_ADDRESS, *PBDA_IPv4_ADDRESS;
-````
 
 
 ## -struct-fields

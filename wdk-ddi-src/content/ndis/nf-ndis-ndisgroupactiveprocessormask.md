@@ -7,7 +7,7 @@ old-location: netvista\ndisgroupactiveprocessormask.htm
 old-project: netvista
 ms.assetid: 92a50a96-8bfb-4d5d-8f24-dd29794e55b1
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NdisGroupActiveProcessorMask, NdisGroupActiveProcessorMask function [Network Drivers Starting with Windows Vista], ndis/NdisGroupActiveProcessorMask, ndis_processor_group_ref_36161079-d4a1-44ad-b7c8-1bc565efda8e.xml, netvista.ndisgroupactiveprocessormask
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	ndis.dll
 api_name:
 -	NdisGroupActiveProcessorMask
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
@@ -53,16 +54,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 The 
   <b>NdisGroupActiveProcessorMask</b> function returns the currently active processor mask for the specified
   group.
-
-
-## -syntax
-
-
-````
-KAFFINITY NdisGroupActiveProcessorMask(
-   USHORT Group
-);
-````
 
 
 ## -parameters
@@ -100,15 +91,15 @@ The
     functionality for CPUs.
 
 <div class="alert"><b>Note</b>  NDIS drivers should not use the 
-    <a href="..\ndis\nf-ndis-ndissystemprocessorcount.md">NdisSystemProcessorCount</a> function
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff564579">NdisSystemProcessorCount</a> function
     to retrieve the number of currently active processors. Also, NDIS 6.20 and later drivers should not use
     the 
-    <a href="..\ndis\nf-ndis-ndissystemactiveprocessorcount.md">
+    <a href="https://msdn.microsoft.com/7ddb54eb-9f20-4cb9-8488-5f2806d23430">
     NdisSystemActiveProcessorCount</a> function because it only returns the processor count and provides
     the affinity mask as an out parameter, for processor group 0.</div>
 <div> </div>
 To obtain an active processor count, call the 
-    <a href="..\ndis\nf-ndis-ndisgroupactiveprocessorcount.md">
+    <a href="https://msdn.microsoft.com/d6631aa7-e3ba-4768-a55a-6a66d1ee84c6">
     NdisGroupActiveProcessorCount</a> function.
 
 
@@ -116,22 +107,21 @@ To obtain an active processor count, call the
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndissystemprocessorcount.md">NdisSystemProcessorCount</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisgroupactiveprocessorcount.md">
+<a href="https://msdn.microsoft.com/d6631aa7-e3ba-4768-a55a-6a66d1ee84c6">
    NdisGroupActiveProcessorCount</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndissystemactiveprocessorcount.md">
+<a href="https://msdn.microsoft.com/7ddb54eb-9f20-4cb9-8488-5f2806d23430">
    NdisSystemActiveProcessorCount</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564579">NdisSystemProcessorCount</a>
  
 
  
-
 

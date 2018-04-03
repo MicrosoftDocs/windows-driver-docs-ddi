@@ -38,7 +38,8 @@ api_location:
 -	Ksproxy.h
 api_name:
 -	KSPEEKOPERATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSPEEKOPERATION
 ---
@@ -50,17 +51,6 @@ req.typenames: KSPEEKOPERATION
 
 
 
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  KsPeekOperation_PeekOnly,
-  KsPeekOperation_AddRef
-} KSPEEKOPERATION;
-````
 
 
 ## -enum-fields

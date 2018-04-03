@@ -7,7 +7,7 @@ old-location: netvista\wwan_packet_service.htm
 old-project: netvista
 ms.assetid: 5d444e1c-cbcf-47ab-9c5a-10af1f1915cf
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PWWAN_PACKET_SERVICE, PWWAN_PACKET_SERVICE, PWWAN_PACKET_SERVICE structure pointer [Network Drivers Starting with Windows Vista], WWAN_PACKET_SERVICE, WWAN_PACKET_SERVICE structure [Network Drivers Starting with Windows Vista], WwanRef_ce147c69-a83d-42fd-9b08-7a12e6ecaf1a.xml, _WWAN_PACKET_SERVICE, netvista.wwan_packet_service, wwan/PWWAN_PACKET_SERVICE, wwan/WWAN_PACKET_SERVICE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	wwan.h
 api_name:
 -	WWAN_PACKET_SERVICE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WWAN_PACKET_SERVICE, *PWWAN_PACKET_SERVICE
 req.product: Windows 10 or later.
@@ -52,19 +53,6 @@ req.product: Windows 10 or later.
 
 The WWAN_PACKET_SERVICE structure represents the packet service attachment state of the MB
   device.
-
-
-## -syntax
-
-
-````
-typedef struct _WWAN_PACKET_SERVICE {
-  ULONG                     uNwError;
-  WWAN_PACKET_SERVICE_STATE PacketServiceState;
-  ULONG                     AvailableDataClass;
-  ULONG                     CurrentDataClass;
-} WWAN_PACKET_SERVICE, *PWWAN_PACKET_SERVICE;
-````
 
 
 ## -struct-fields
@@ -89,7 +77,7 @@ The packet service state of the device.
 A bitmap that represents which data-classes are available to the device in the current network.
      For a detailed list of values, see the 
      <b>WwanDataClass</b> member of 
-     <a href="..\wwan\ns-wwan-_wwan_device_caps.md">WWAN_DEVICE_CAPS</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571204">WWAN_DEVICE_CAPS</a>.
      
 
 Miniport drivers must set this member to WWAN_DATA_CLASS_NONE when the device is not registered to a
@@ -101,7 +89,7 @@ Miniport drivers must set this member to WWAN_DATA_CLASS_NONE when the device is
 
 A single value from the 
      <b>WwanDataClass</b> member in 
-     <a href="..\wwan\ns-wwan-_wwan_device_caps.md">WWAN_DEVICE_CAPS</a> that represents which
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571204">WWAN_DEVICE_CAPS</a> that represents which
      data-class is currently being used by the device.
      
 
@@ -115,7 +103,7 @@ Miniport drivers must set this member with a valid value and send the appropriat
 Miniport drivers should set this member to WWAN_DATA_CLASS_CUSTOM if the data-class is not one of the
      predefined values in the 
      <b>WwanDataClass</b> member of 
-     <a href="..\wwan\ns-wwan-_wwan_device_caps.md">WWAN_DEVICE_CAPS</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571204">WWAN_DEVICE_CAPS</a>.
 
 
 ## -remarks
@@ -130,7 +118,7 @@ The MB Service combines the data-classes that are represented in
 
 If a device also supports a data-class that is anything other than the predefined values in the 
     <b>WwanDataClass</b> member of 
-    <a href="..\wwan\ns-wwan-_wwan_device_caps.md">WWAN_DEVICE_CAPS</a>, the miniport driver
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff571204">WWAN_DEVICE_CAPS</a>, the miniport driver
     should set the WWAN_DATA_CLASS_CUSTOM flag along with the appropriate bitmask defined for the data-class
     in this member.
 
@@ -190,17 +178,16 @@ Miniport drivers must report the cause code at the earliest possible instance. F
 
 ## -see-also
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_packet_service_state.md">
+
+
+
+<a href="https://msdn.microsoft.com/63dbd674-32b3-4843-8349-706c3c0380e5">
    NDIS_WWAN_PACKET_SERVICE_STATE</a>
 
 
 
-<a href="..\wwan\ne-wwan-_wwan_packet_service_state.md">WWAN_PACKET_SERVICE_STATE</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571212">WWAN_PACKET_SERVICE_STATE</a>
  
 
  
-
 

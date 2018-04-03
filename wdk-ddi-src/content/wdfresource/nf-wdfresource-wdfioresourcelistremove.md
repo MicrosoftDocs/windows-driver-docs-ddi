@@ -39,7 +39,8 @@ api_location:
 -	Wdf01000.sys.dll
 api_name:
 -	WdfIoResourceListRemove
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_REQUEST_SEND_OPTIONS, *PWDF_REQUEST_SEND_OPTIONS
 req.product: Windows 10 or later.
@@ -54,17 +55,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF only]
 
 The <b>WdfIoResourceListRemove</b> method removes a resource descriptor from a resource requirements list's <a href="https://msdn.microsoft.com/c7a6997b-34f9-4dd9-b384-2321a8b5ce54">logical configuration</a>.
-
-
-## -syntax
-
-
-````
-VOID WdfIoResourceListRemove(
-  _In_ WDFIORESLIST ResourceList,
-  _In_ ULONG        Index
-);
-````
 
 
 ## -parameters
@@ -128,12 +118,11 @@ The following code example removes the first resource descriptor from a logical 
 
 ## -see-also
 
-<a href="..\wdfresource\nf-wdfresource-wdfioresourcelistremovebydescriptor.md">WdfIoResourceListRemoveByDescriptor</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548528">WdfIoResourceListRemoveByDescriptor</a>
  
 
  
-
 

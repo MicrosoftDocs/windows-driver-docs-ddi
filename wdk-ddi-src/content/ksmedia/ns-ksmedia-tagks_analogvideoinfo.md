@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KS_ANALOGVIDEOINFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KS_ANALOGVIDEOINFO, *PKS_ANALOGVIDEOINFO
 ---
@@ -50,20 +51,6 @@ req.typenames: KS_ANALOGVIDEOINFO, *PKS_ANALOGVIDEOINFO
 
 
 The KS_ANALOGVIDEOINFO structure describes an analog video stream.
-
-
-## -syntax
-
-
-````
-typedef struct tagKS_AnalogVideoInfo {
-  RECT           rcSource;
-  RECT           rcTarget;
-  DWORD          dwActiveWidth;
-  DWORD          dwActiveHeight;
-  REFERENCE_TIME AvgTimePerFrame;
-} KS_ANALOGVIDEOINFO, *PKS_ANALOGVIDEOINFO;
-````
 
 
 ## -struct-fields

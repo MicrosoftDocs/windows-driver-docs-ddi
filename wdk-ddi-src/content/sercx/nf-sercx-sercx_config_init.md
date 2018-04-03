@@ -38,7 +38,8 @@ api_location:
 -	1.0\Sercx.h
 api_name:
 -	SERCX_CONFIG_INIT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SERCX_STATUS, *PSERCX_STATUS
 req.product: Windows 10 or later.
@@ -50,17 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>SERCX_CONFIG_INIT</b> function initializes a <a href="..\sercx\ns-sercx-_sercx_config.md">SERCX_CONFIG</a> structure.
-
-
-## -syntax
-
-
-````
-VOID SERCX_CONFIG_INIT(
-  _Out_ SERCX_CONFIG *Config
-);
-````
+The <b>SERCX_CONFIG_INIT</b> function initializes a <a href="https://msdn.microsoft.com/library/windows/hardware/hh439548">SERCX_CONFIG</a> structure.
 
 
 ## -parameters
@@ -84,12 +75,11 @@ None.
 
 ## -see-also
 
-<a href="..\sercx\ns-sercx-_sercx_config.md">SERCX_CONFIG</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439548">SERCX_CONFIG</a>
  
 
  
-
 

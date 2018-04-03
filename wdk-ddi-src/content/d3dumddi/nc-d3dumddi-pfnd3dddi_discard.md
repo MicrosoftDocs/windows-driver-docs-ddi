@@ -7,7 +7,7 @@ old-location: display\discard.htm
 old-project: display
 ms.assetid: F3EC7AAE-9DB8-43A1-B756-5F5C91F8372E
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: Discard, Discard callback function [Display Devices], PFND3DDDI_DISCARD, d3dumddi/Discard, display.discard
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	Discard
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_PTE
 ---
@@ -50,20 +51,6 @@ req.typenames: DXGK_PTE
 
 
 Discards (evicts) a set of subresources from video display memory. Implemented by Windows Display Driver Model (WDDM) 1.2 and later user-mode display drivers.
-
-
-## -prototype
-
-
-````
-PFND3DDDI_DISCARD Discard;
-
-_Check_return_ HRESULT APIENTRY* Discard(
-  _In_       HANDLE            hDevice,
-  _In_ const D3DDDIARG_DISCARD *pData
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -87,7 +74,7 @@ _Check_return_ HRESULT APIENTRY* Discard(
 
 #### - pData [in]
 
- A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_discard.md">D3DDDIARG_DISCARD</a> structure that defines the set of subresources that is to be discarded.
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh451076">D3DDDIARG_DISCARD</a> structure that defines the set of subresources that is to be discarded.
 
 
 ## -returns
@@ -102,16 +89,15 @@ _Check_return_ HRESULT APIENTRY* Discard(
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_discard.md">D3DDDIARG_DISCARD</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451076">D3DDDIARG_DISCARD</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544519">D3DDDI_DEVICEFUNCS</a>
  
 
  
-
 

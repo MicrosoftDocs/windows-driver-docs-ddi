@@ -38,7 +38,8 @@ api_location:
 -	bthioctl.h
 api_name:
 -	BTH_SDP_SERVICE_SEARCH_REQUEST
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BTH_SDP_SERVICE_SEARCH_REQUEST, *PBTH_SDP_SERVICE_SEARCH_REQUEST
 ---
@@ -51,17 +52,6 @@ req.typenames: BTH_SDP_SERVICE_SEARCH_REQUEST, *PBTH_SDP_SERVICE_SEARCH_REQUEST
 
 The BTH_SDP_SERVICE_SEARCH_REQUEST structure contains information pertinent to an SDP service
   search.
-
-
-## -syntax
-
-
-````
-typedef struct _BTH_SDP_SERVICE_SEARCH_REQUEST {
-  HANDLE_SDP   hConnection;
-  SdpQueryUuid uuids[MAX_UUIDS_IN_QUERY];
-} BTH_SDP_SERVICE_SEARCH_REQUEST, *PBTH_SDP_SERVICE_SEARCH_REQUEST;
-````
 
 
 ## -struct-fields
@@ -84,7 +74,7 @@ An array of UUIDs that represent the services for which to query. Each entry can
 #### - hConnection
 
 A handle to the remote SDP server that is returned by the 
-     <a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_connect.md">IOCTL_BTH_SDP_CONNECT</a> IOCTL.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536688">IOCTL_BTH_SDP_CONNECT</a> IOCTL.
 
 
 ## -remarks
@@ -92,7 +82,7 @@ A handle to the remote SDP server that is returned by the
 
 
 This structure is passed as the input buffer to the 
-    <a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_service_search.md">
+    <a href="https://msdn.microsoft.com/aea2aff2-5983-4583-9cc8-a45401ecdfb6">
     IOCTL_BTH_SDP_SERVICE_SEARCH</a> IOCTL.
 
 
@@ -100,16 +90,15 @@ This structure is passed as the input buffer to the
 
 ## -see-also
 
-<a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_service_search.md">IOCTL_BTH_SDP_SERVICE_SEARCH</a>
 
 
 
-<a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_connect.md">IOCTL_BTH_SDP_CONNECT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536688">IOCTL_BTH_SDP_CONNECT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536692">IOCTL_BTH_SDP_SERVICE_SEARCH</a>
  
 
  
-
 

@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsValidateTopologyNodeCreateRequest
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,18 +52,6 @@ req.typenames:
 
 
 The <b>KsValidateTopologyNodeCreateRequest</b> function validates a topology node creation request and returns the create structure associated with the request. The function can only be called at PASSIVE_LEVEL.
-
-
-## -syntax
-
-
-````
-NTSTATUS KsValidateTopologyNodeCreateRequest(
-  _In_  PIRP           Irp,
-  _In_  PKSTOPOLOGY    Topology,
-  _Out_ PKSNODE_CREATE *NodeCreate
-);
-````
 
 
 ## -parameters

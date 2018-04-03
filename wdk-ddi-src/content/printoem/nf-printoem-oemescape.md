@@ -38,7 +38,8 @@ api_location:
 -	printoem.h
 api_name:
 -	OEMEscape
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STDVARIABLEINDEX
 req.product: Windows 10 or later.
@@ -51,21 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <code>OEMEscape</code> function retrieves information from a device that is not available in a device-independent device driver interface; the particular query depends on the value of the <i>iEsc</i> parameter.
-
-
-## -syntax
-
-
-````
-ULONG APIENTRY OEMEscape(
-        SURFOBJ                     *pso,
-        ULONG                       iEsc,
-        ULONG                       cjIn,
-  _In_  _reads_bytes_(cjIn) PVOID   pvIn,
-        ULONG                       cjOut,
-  _Out_ _writes_bytes_(cjOut) PVOID pvOut
-);
-````
 
 
 ## -parameters

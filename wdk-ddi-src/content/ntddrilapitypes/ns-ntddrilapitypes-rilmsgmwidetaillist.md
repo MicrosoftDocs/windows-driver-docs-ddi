@@ -7,7 +7,7 @@ old-location: netvista\rilmsgmwidetaillist.htm
 old-project: netvista
 ms.assetid: 026cf4d6-2f34-4911-8ec6-0b4170463e4d
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*LPRILMSGMWIDETAILLIST, RILMSGMWIDETAILLIST, RILMSGMWIDETAILLIST structure [Network Drivers Starting with Windows Vista], netvista.rilmsgmwidetaillist, ntddrilapitypes/RILMSGMWIDETAILLIST"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILMSGMWIDETAILLIST
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILMSGMWIDETAILLIST, *LPRILMSGMWIDETAILLIST
 ---
@@ -50,21 +51,6 @@ req.typenames: RILMSGMWIDETAILLIST, *LPRILMSGMWIDETAILLIST
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef struct _RILMSGMWIDETAILLIST {
-  DWORD               cbSize;
-  DWORD               dwParams;
-  DWORD               dwExecutor;
-  DWORD               dwReferenceNumber;
-  DWORD               dwNumberOfDetailItems;
-  RILMSGMWIDETAIL [1] stMwiDetail;
-} RILMSGMWIDETAILLIST, RILMSGMWIDETAILLIST;
-````
 
 
 ## -struct-fields

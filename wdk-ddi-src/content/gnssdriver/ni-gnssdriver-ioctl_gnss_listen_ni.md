@@ -3,12 +3,12 @@ UID: NI:gnssdriver.IOCTL_GNSS_LISTEN_NI
 title: IOCTL_GNSS_LISTEN_NI
 author: windows-driver-content
 description: The IOCTL_GNSS_LISTEN_NI control code is used to start listening for a SUPL NI request.
-old-location: gnss\ioctl_gnss_listen_ni.htm
-old-project: gnss
+old-location: sensors\ioctl_gnss_listen_ni.htm
+old-project: sensors
 ms.assetid: DDC85717-7CF7-421D-9521-09E272FFFCF0
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IOCTL_GNSS_LISTEN_NI, IOCTL_GNSS_LISTEN_NI control code [Sensor Devices], gnss.ioctl_gnss_listen_ni, gnssdriver/IOCTL_GNSS_LISTEN_NI
+ms.date: 2/22/2018
+ms.keywords: IOCTL_GNSS_LISTEN_NI, IOCTL_GNSS_LISTEN_NI control code [Sensor Devices], gnssdriver/IOCTL_GNSS_LISTEN_NI, sensors.ioctl_gnss_listen_ni
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,7 +38,8 @@ api_location:
 -	gnssdriver.h
 api_name:
 -	IOCTL_GNSS_LISTEN_NI
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GNSS_SUPL_CERT_ACTION
 ---
@@ -51,7 +52,7 @@ req.typenames: GNSS_SUPL_CERT_ACTION
 
 The <b>IOCTL_GNSS_LISTEN_NI</b> control code is used to start listening for a SUPL NI request.
 
-This IOCTL effectively provides the GNSS driver with a pending I/O request that it can use to, through the overlapped structures GnssEvent member, convey the NI request to the adapter. The GnssEvent member is a <a href="..\gnssdriver\ns-gnssdriver-gnss_event.md">GNSS_EVENT</a> structure. The adapter ensures that this request is always pending and will issue a new request as soon as the pending one is resolved. When the I/O request is resolved the adapter will issue a corresponding <a href="..\gnssdriver\ni-gnssdriver-ioctl_gnss_respond_ni.md">IOCTL_GNSS_RESPOND_NI</a>.
+This IOCTL effectively provides the GNSS driver with a pending I/O request that it can use to, through the overlapped structures GnssEvent member, convey the NI request to the adapter. The GnssEvent member is a <a href="https://msdn.microsoft.com/library/windows/hardware/dn925134">GNSS_EVENT</a> structure. The adapter ensures that this request is always pending and will issue a new request as soon as the pending one is resolved. When the I/O request is resolved the adapter will issue a corresponding <a href="https://msdn.microsoft.com/library/windows/hardware/dn917741">IOCTL_GNSS_RESPOND_NI</a>.
 
 
 ## -ioctlparameters
@@ -131,7 +132,6 @@ These certificates, which are specified by the mobile operator and configured vi
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
 
 
 
@@ -139,14 +139,15 @@ These certificates, which are specified by the mobile operator and configured vi
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548651">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548656">WdfIoTargetSendInternalIoctlSynchronously</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548660">WdfIoTargetSendIoctlSynchronously</a>
  
 
  

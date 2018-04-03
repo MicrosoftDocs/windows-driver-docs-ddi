@@ -41,7 +41,8 @@ api_location:
 -	WUDFx02000.dll.dll
 api_name:
 -	WdfDeviceCreateSymbolicLink
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_STATE_NOTIFICATION_TYPE
 req.product: Windows 10 or later.
@@ -58,17 +59,6 @@ req.product: Windows 10 or later.
 The <b>WdfDeviceCreateSymbolicLink</b> method creates a symbolic link to a specified device.
 
 
-## -syntax
-
-
-````
-NTSTATUS WdfDeviceCreateSymbolicLink(
-  _In_ WDFDEVICE        Device,
-  _In_ PCUNICODE_STRING SymbolicLinkName
-);
-````
-
-
 ## -parameters
 
 
@@ -81,7 +71,7 @@ A handle to a framework device object.
 
 ### -param SymbolicLinkName [in]
 
-A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that contains a user-visible name for the device.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure that contains a user-visible name for the device.
 
 
 ## -returns
@@ -178,12 +168,11 @@ For information about global and local <b>\DosDevices</b> namespaces, see <a hre
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
  
 
  
-
 

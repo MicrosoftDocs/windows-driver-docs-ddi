@@ -7,7 +7,7 @@ old-location: netvista\ndisallocatefragmentnetbufferlist.htm
 old-project: netvista
 ms.assetid: 40b6596b-7ab8-4336-8c38-21b9f32d8558
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NdisAllocateFragmentNetBufferList, NdisAllocateFragmentNetBufferList function [Network Drivers Starting with Windows Vista], ndis/NdisAllocateFragmentNetBufferList, ndis_netbuf_functions_ref_9155bd3d-f4c1-4655-b9a3-256ff64093cf.xml, netvista.ndisallocatefragmentnetbufferlist
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	ndis.dll
 api_name:
 -	NdisAllocateFragmentNetBufferList
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
@@ -52,25 +53,8 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 
 Call the 
   <b>NdisAllocateFragmentNetBufferList</b> function to create a new fragmented 
-  <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure based upon the data
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure based upon the data
   in an existing NET_BUFFER_LIST structure.
-
-
-## -syntax
-
-
-````
-PNET_BUFFER_LIST NdisAllocateFragmentNetBufferList(
-  _In_     PNET_BUFFER_LIST OriginalNetBufferList,
-  _In_opt_ NDIS_HANDLE      NetBufferListPoolHandle,
-  _In_opt_ NDIS_HANDLE      NetBufferPoolHandle,
-  _In_     ULONG            StartOffset,
-  _In_     ULONG            MaximumLength,
-  _In_     ULONG            DataOffsetDelta,
-  _In_     ULONG            DataBackFill,
-  _In_     ULONG            AllocateFragmentFlags
-);
-````
 
 
 ## -parameters
@@ -96,7 +80,7 @@ TBD
 ### -param StartOffset [in]
 
 An additional byte offset from the start of the data in each 
-     <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structure. This offset is in addition
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structure. This offset is in addition
      to the value of the 
      <b>DataOffset</b> member specified in each NET_BUFFER structure.
 
@@ -131,14 +115,14 @@ NDIS flags that can be combined with an OR operation. Set this parameter to zero
 #### - NetBufferListPoolHandle [in, optional]
 
 A handle that was obtained from a call to the 
-     <a href="..\ndis\nf-ndis-ndisallocatenetbufferlistpool.md">
+     <a href="https://msdn.microsoft.com/b117b472-0c26-41a9-b364-3d0cfbd26cc9">
      NdisAllocateNetBufferListPool</a> function.
 
 
 #### - NetBufferPoolHandle [in, optional]
 
 A NET_BUFFER structure pool handle that was previously returned from a call to 
-     <a href="..\ndis\nf-ndis-ndisallocatenetbufferpool.md">
+     <a href="https://msdn.microsoft.com/bc27758a-a793-48a1-a6ab-bd193aa9c61a">
      NdisAllocateNetBufferPool</a>.
 
 
@@ -157,8 +141,8 @@ A NET_BUFFER structure pool handle that was previously returned from a call to
 
 
 <b>NdisAllocateFragmentNetBufferList</b> allocates and initializes a new fragment 
-    <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure and 
-    <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structures that describe the same data
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure and 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structures that describe the same data
     that is described by the NET_BUFFER_LIST structure that the caller passed to 
     <b>NdisAllocateFragmentNetBufferList</b>.
 
@@ -211,11 +195,11 @@ If NDIS must allocate memory to supply the data space requested in
 </ul>
 The new fragment NET_BUFFER_LIST structure that 
     <b>NdisAllocateFragmentNetBufferList</b> creates does not include an initial 
-    <a href="..\ndis\ns-ndis-_net_buffer_list_context.md">
+    <a href="https://msdn.microsoft.com/e5d70be6-daa5-4d2e-94fd-5739edd8821e">
     NET_BUFFER_LIST_CONTEXT</a> structure.
 
 Call the 
-    <a href="..\ndis\nf-ndis-ndisfreefragmentnetbufferlist.md">
+    <a href="https://msdn.microsoft.com/2bbf85ee-8541-4d3d-87e5-0633bc35670b">
     NdisFreeFragmentNetBufferList</a> function to free a NET_BUFFER_LIST structure and all associated
     NET_BUFFER structures and MDL chains that were previously allocated by calling 
     <b>NdisAllocateFragmentNetBufferList</b>.
@@ -225,34 +209,33 @@ Call the
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisallocatenetbufferlistpool.md">
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568389">NET_BUFFER_LIST_CONTEXT</a>
+
+
+
+<a href="https://msdn.microsoft.com/b117b472-0c26-41a9-b364-3d0cfbd26cc9">
    NdisAllocateNetBufferListPool</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisallocatenetbufferpool.md">NdisAllocateNetBufferPool</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561613">NdisAllocateNetBufferPool</a>
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisfreefragmentnetbufferlist.md">
+<a href="https://msdn.microsoft.com/2bbf85ee-8541-4d3d-87e5-0633bc35670b">
    NdisFreeFragmentNetBufferList</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer_list_context.md">NET_BUFFER_LIST_CONTEXT</a>
-
-
-
  
 
  
-
 

@@ -38,7 +38,8 @@ api_location:
 -	Winsplp.h
 api_name:
 -	CallRouterFindFirstPrinterChangeNotification
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NOTIFICATION_CONFIG_FLAGS
 req.product: Windows 10 or later.
@@ -51,20 +52,6 @@ req.product: Windows 10 or later.
 
 
 
-
-
-## -syntax
-
-
-````
-DWORD WINAPI CallRouterFindFirstPrinterChangeNotification(
-  _In_ HANDLE                  hPrinterRPC,
-       DWORD                   fdwFilterFlags,
-       DWORD                   fdwOptions,
-  _In_ HANDLE                  hNotify,
-  _In_ PPRINTER_NOTIFY_OPTIONS pPrinterNotifyOptions
-);
-````
 
 
 ## -parameters

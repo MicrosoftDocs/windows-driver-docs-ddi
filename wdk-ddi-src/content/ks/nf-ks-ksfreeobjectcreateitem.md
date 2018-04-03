@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsFreeObjectCreateItem
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,17 +52,6 @@ req.typenames:
 
 
 Frees the slot for the specified create item.
-
-
-## -syntax
-
-
-````
-NTSTATUS KsFreeObjectCreateItem(
-  _In_ KSDEVICE_HEADER Header,
-  _In_ PUNICODE_STRING CreateItem
-);
-````
 
 
 ## -parameters
@@ -99,12 +89,11 @@ This function does not assume that the caller is serializing multiple changes to
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksfreeobjectcreateitemsbycontext.md">KsFreeObjectCreateItemsByContext</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562564">KsFreeObjectCreateItemsByContext</a>
  
 
  
-
 

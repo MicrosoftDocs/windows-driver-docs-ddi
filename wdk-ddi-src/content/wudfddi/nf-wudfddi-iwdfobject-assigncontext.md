@@ -38,7 +38,8 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFObject.AssignContext
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
@@ -55,17 +56,6 @@ req.product: Windows 10 or later.
 The <b>AssignContext</b> method registers a context and a driver-supplied cleanup callback function for the object.
 
 
-## -syntax
-
-
-````
-HRESULT AssignContext(
-  [in, optional] IObjectCleanup *pCleanupCallback,
-  [in, optional] void           *pContext
-);
-````
-
-
 ## -parameters
 
 
@@ -73,7 +63,7 @@ HRESULT AssignContext(
 
 ### -param pCleanupCallback [in, optional]
 
-A pointer to the <a href="..\wudfddi\nn-wudfddi-iobjectcleanup.md">IObjectCleanup</a> interface that contains the cleanup callback function, which performs cleanup operations for the object if it becomes invalid. This parameter is optional. The driver can pass <b>NULL</b> if the driver does not require notification when the object is cleaned up. 
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556754">IObjectCleanup</a> interface that contains the cleanup callback function, which performs cleanup operations for the object if it becomes invalid. This parameter is optional. The driver can pass <b>NULL</b> if the driver does not require notification when the object is cleaned up. 
 
 
 ### -param pContext [in, optional]
@@ -94,7 +84,7 @@ A pointer to the context to register. <b>NULL</b> is a valid context.
 
 
 
-A driver calls <b>AssignContext</b> to register a context and to request notification when the object becomes invalid. In a <b>AssignContext</b> call, the driver passes a pointer to the <a href="..\wudfddi\nn-wudfddi-iobjectcleanup.md">IObjectCleanup</a> interface in the <i>pCleanupCallback</i> parameter to register <b>IObjectCleanup</b>. Note that the framework internally holds a reference to the supplied <b>IObjectCleanup</b> interface while the object is valid. When the object becomes invalid, the framework calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556760">IObjectCleanup::OnCleanup</a> method to notify the driver. The framework automatically releases the reference to the supplied <b>IObjectCleanup</b> after calling <b>IObjectCleanup::OnCleanup</b>.
+A driver calls <b>AssignContext</b> to register a context and to request notification when the object becomes invalid. In a <b>AssignContext</b> call, the driver passes a pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556754">IObjectCleanup</a> interface in the <i>pCleanupCallback</i> parameter to register <b>IObjectCleanup</b>. Note that the framework internally holds a reference to the supplied <b>IObjectCleanup</b> interface while the object is valid. When the object becomes invalid, the framework calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556760">IObjectCleanup::OnCleanup</a> method to notify the driver. The framework automatically releases the reference to the supplied <b>IObjectCleanup</b> after calling <b>IObjectCleanup::OnCleanup</b>.
 
 At any given time, only one context that is associated with each object instance can exist. Attempts to register additional contexts fail.
 
@@ -115,15 +105,10 @@ For a code example of how to use the <b>AssignContext</b> method, see <a href="h
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iobjectcleanup.md">IObjectCleanup</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560218">IWDFObject::RetrieveContext</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iwdfobject.md">IWDFObject</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556754">IObjectCleanup</a>
 
 
 
@@ -131,8 +116,12 @@ For a code example of how to use the <b>AssignContext</b> method, see <a href="h
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560200">IWDFObject</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560218">IWDFObject::RetrieveContext</a>
  
 
  
-
 

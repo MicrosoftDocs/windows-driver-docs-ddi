@@ -7,7 +7,7 @@ old-location: ifsk\fltloadfilter.htm
 old-project: ifsk
 ms.assetid: aecf5f5f-c0b7-487a-9db0-d01212aef094
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FltApiRef_e_to_o_3cdd26c1-dc25-4fa0-8ea1-a1458742cd45.xml, FltLoadFilter, FltLoadFilter routine [Installable File System Drivers], fltkernel/FltLoadFilter, ifsk.fltloadfilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	fltmgr.sys
 api_name:
 -	FltLoadFilter
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
@@ -52,16 +53,6 @@ req.typenames: EXpsFontRestriction
 The <b>FltLoadFilter</b> routine dynamically loads a minifilter driver into the currently running system. 
 
 
-## -syntax
-
-
-````
-NTSTATUS FltLoadFilter(
-  _In_ PCUNICODE_STRING FilterName
-);
-````
-
-
 ## -parameters
 
 
@@ -69,7 +60,7 @@ NTSTATUS FltLoadFilter(
 
 ### -param FilterName [in]
 
-Pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure containing the service name for the minifilter driver. 
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure containing the service name for the minifilter driver. 
 
 
 ## -returns
@@ -139,23 +130,22 @@ No matching minifilter driver was found. This is an error code.
 
 A minifilter driver that has a dependency on another minifilter driver can load that minifilter driver by calling <b>FltLoadFilter</b>. 
 
-To unload the supporting minifilter driver, call <a href="..\fltkernel\nf-fltkernel-fltunloadfilter.md">FltUnloadFilter</a>. 
+To unload the supporting minifilter driver, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff544602">FltUnloadFilter</a>. 
 
 
 
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltunloadfilter.md">FltUnloadFilter</a>
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544602">FltUnloadFilter</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
  
 
  
-
 

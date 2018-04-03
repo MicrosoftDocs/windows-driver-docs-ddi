@@ -38,7 +38,8 @@ api_location:
 -	sti.h
 api_name:
 -	IStillImageW.UnregisterLaunchApplication
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STI_DEVICE_MJ_TYPE, STI_DEVICE_MJ_TYPE
 req.product: Windows 10 or later.
@@ -51,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>IStillImage::UnregisterLaunchApplication</b> method removes an application from the still image event monitor's list of push-model aware applications.
-
-
-## -syntax
-
-
-````
-HRESULT UnregisterLaunchApplication(
-  [in] LPWSTR pwszAppName
-);
-````
 
 
 ## -parameters
@@ -95,16 +86,15 @@ Before calling <b>IStillImage::UnRegisterLaunchApplication</b>, clients of the <
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543798">IStillImage::RegisterLaunchApplication</a>
 
 
 
 <a href="https://msdn.microsoft.com/a9ceee48-cbb5-4448-83b4-9c19fe89fcb9">IStillImageW</a>
-
-
-
  
 
  
-
 

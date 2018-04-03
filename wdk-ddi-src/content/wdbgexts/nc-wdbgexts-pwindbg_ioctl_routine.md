@@ -7,7 +7,7 @@ old-location: debugger\ioctl.htm
 old-project: debugger
 ms.assetid: fe35d032-fa34-44a7-9e61-dcb1ca2a2e85
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: Ioctl, Ioctl callback function [Windows Debugging], PWINDBG_IOCTL_ROUTINE, WdbgExts_Ref_fa1f5367-924d-478c-a3cb-ca08bf8dde2f.xml, debugger.ioctl, wdbgexts/Ioctl
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	wdbgexts.h
 api_name:
 -	Ioctl
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VPCI_WRITE_BLOCK_INPUT, *PVPCI_WRITE_BLOCK_INPUT
 req.product: Windows 10 or later.
@@ -51,18 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>PWINDBG_IOCTL_ROUTINE</b> (<b>Ioctl</b>) function performs a variety of different operations. Much of its functionality mirrors the functionality of other functions in wdbgexts.h.
-
-
-## -prototype
-
-
-````
-ULONG Ioctl(
-   USHORT IoctlType,
-   PVOID  lpvData,
-   ULONG  cbSizeOfContext
-);
-````
 
 
 ## -parameters
@@ -124,7 +113,7 @@ IG_KD_CONTEXT
 </td>
 <td>
 
-<a href="..\wdbgexts\nf-wdbgexts-getkdcontext.md">GetKdContext</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546962">GetKdContext</a>
 
 
 </td>
@@ -137,7 +126,7 @@ IG_READ_CONTROL_SPACE
 </td>
 <td>
 
-<a href="..\wdbgexts\ns-wdbgexts-_readcontrolspace.md">ReadControlSpace</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553527">ReadControlSpace</a>
 
 
 <b>ReadControlSpace64 </b>
@@ -163,7 +152,7 @@ IG_READ_IO_SPACE
 </td>
 <td>
 
-<a href="..\wdbgexts\nf-wdbgexts-readiospace.md">ReadIoSpace</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553574">ReadIoSpace</a>
 
 
 <b>ReadIoSpace64 </b>
@@ -178,7 +167,7 @@ IG_WRITE_IO_SPACE
 </td>
 <td>
 
-<a href="..\wdbgexts\nf-wdbgexts-writeiospace.md">WriteIoSpace</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561406">WriteIoSpace</a>
 
 
 <b>WriteIoSpace64 </b>
@@ -193,7 +182,7 @@ IG_READ_PHYSICAL
 </td>
 <td>
 
-<a href="..\wdbgexts\nf-wdbgexts-readphysical.md">ReadPhysical</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554313">ReadPhysical</a>
 
 
 </td>
@@ -206,7 +195,7 @@ IG_WRITE_PHYSICAL
 </td>
 <td>
 
-<a href="..\wdbgexts\nf-wdbgexts-writephysical.md">WritePhysical</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561432">WritePhysical</a>
 
 
 </td>
@@ -219,7 +208,7 @@ IG_READ_IO_SPACE_EX
 </td>
 <td>
 
-<a href="..\wdbgexts\nf-wdbgexts-readiospaceex.md">ReadIoSpaceEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553580">ReadIoSpaceEx</a>
 
 
 <b>ReadIoSpaceEx64 </b>
@@ -234,7 +223,7 @@ IG_WRITE_IO_SPACE_EX
 </td>
 <td>
 
-<a href="..\wdbgexts\nf-wdbgexts-writeiospaceex.md">WriteIoSpaceEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561413">WriteIoSpaceEx</a>
 
 
 <b>WriteIoSpaceEx64 </b>
@@ -249,7 +238,7 @@ IG_SET_THREAD
 </td>
 <td>
 
-<a href="..\wdbgexts\nf-wdbgexts-setthreadforoperation.md">SetThreadForOperation</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556830">SetThreadForOperation</a>
 
 
 <b>SetThreadForOperation64 </b>
@@ -264,7 +253,7 @@ IG_READ_MSR
 </td>
 <td>
 
-<a href="..\wdbgexts\nf-wdbgexts-readmsr.md">ReadMsr</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554292">ReadMsr</a>
 
 
 </td>
@@ -277,7 +266,7 @@ IG_WRITE_MSR
 </td>
 <td>
 
-<a href="..\wdbgexts\nf-wdbgexts-writemsr.md">WriteMsr</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561424">WriteMsr</a>
 
 
 </td>
@@ -290,7 +279,7 @@ IG_GET_DEBUGGER_DATA
 </td>
 <td>
 
-<a href="..\wdbgexts\nf-wdbgexts-getdebuggerdata.md">GetDebuggerData</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546573">GetDebuggerData</a>
 
 
 </td>
@@ -305,7 +294,7 @@ IG_GET_DEBUGGER_DATA
 <td></td>
 <td>
 
-<a href="..\wdbgexts\ns-wdbgexts-_dbgkd_get_version64.md">DBGKD_GET_VERSION64</a>
+<a href="https://msdn.microsoft.com/692e58b5-74ea-48f3-a9c2-81953b7d600d">DBGKD_GET_VERSION64</a>
 
 
 </td>
@@ -328,7 +317,7 @@ IG_GET_SET_SYMPATH
 </td>
 <td>
 
-<a href="..\wdbgexts\nf-wdbgexts-getsetsympath.md">GetSetSympath</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548291">GetSetSympath</a>
 
 
 </td>
@@ -387,14 +376,14 @@ IG_IS_PTR64
 <tr>
 <td>
 
-<a href="..\wdbgexts\ns-wdbgexts-_sym_dump_param.md">IG_DUMP_SYMBOL_INFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550906">IG_DUMP_SYMBOL_INFO</a>
 
 
 </td>
 <td></td>
 <td>
 
-<a href="..\wdbgexts\ns-wdbgexts-_sym_dump_param.md">SYM_DUMP_PARAM</a>
+<a href="https://msdn.microsoft.com/5a00f401-89e5-4863-ab14-a8ab7eec1869">SYM_DUMP_PARAM</a>
 
 
 </td>
@@ -541,7 +530,7 @@ IG_WRITE_PHYSICAL_WITH_FLAGS
 <td></td>
 <td>
 
-<a href="..\wdbgexts\ns-wdbgexts-_pointer_search_physical.md">POINTER_SEARCH_PHYSICAL</a>
+<a href="https://msdn.microsoft.com/fdb8376b-fbda-4bee-895e-a306fd0f632a">POINTER_SEARCH_PHYSICAL</a>
 
 
 </td>
@@ -558,7 +547,7 @@ IG_WRITE_PHYSICAL_WITH_FLAGS
 </td>
 <td>
 
-<a href="..\wdbgexts\ns-wdbgexts-_wdbgexts_thread_os_info.md">WDBGEXTS_THREAD_OS_INFO</a>
+<a href="https://msdn.microsoft.com/5cd1ba71-af2f-4662-b37d-88f4e4aa7624">WDBGEXTS_THREAD_OS_INFO</a>
 
 
 </td>

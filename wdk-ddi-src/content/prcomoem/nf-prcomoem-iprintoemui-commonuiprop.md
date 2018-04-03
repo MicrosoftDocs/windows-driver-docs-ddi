@@ -38,7 +38,8 @@ api_location:
 -	prcomoem.h
 api_name:
 -	IPrintOemUI.CommonUIProp
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
@@ -51,17 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <code>IPrintOemUI::CommonUIProp</code> method allows a user interface plug-in to modify an existing printer property sheet page.
-
-
-## -syntax
-
-
-````
-HRESULT CommonUIProp(
-   DWORD         dwMode,
-   POEMCUIPPARAM pOemCUIPParam
-);
-````
 
 
 ## -parameters
@@ -104,7 +94,7 @@ The method is being called to modify the Device Settings page of the printer pro
 
 ### -param pOemCUIPParam
 
-Caller-supplied pointer to an <a href="..\printoem\ns-printoem-_oemcuipparam.md">OEMCUIPPARAM</a> structure.
+Caller-supplied pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff557653">OEMCUIPPARAM</a> structure.
 
 
 ## -returns
@@ -163,11 +153,11 @@ The method is not implemented.
 
 When a user interface plug-in's <code>IPrintOemUI::CommonUIProp</code> method is called, it should return customized property sheet option items in order to modify an existing printer property sheet page.
 
-The <code>IPrintOemUI::CommonUIProp</code> method is called by the printer driver's <a href="https://msdn.microsoft.com/2a8cf38f-8e27-4e08-9c0f-5d1a4cd854ac">printer interface DLL</a>. The method should supply an array of <a href="..\compstui\ns-compstui-_optitem.md">OPTITEM</a> structures describing property sheet items, along with a callback function for processing user modifications to option values.
+The <code>IPrintOemUI::CommonUIProp</code> method is called by the printer driver's <a href="https://msdn.microsoft.com/2a8cf38f-8e27-4e08-9c0f-5d1a4cd854ac">printer interface DLL</a>. The method should supply an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff559656">OPTITEM</a> structures describing property sheet items, along with a callback function for processing user modifications to option values.
 
 You should expect the method to be called twice for each property sheet. The method's <i>dwMode</i> parameter value indicates whether it is being called to make changes to the printer property sheet or the document property sheet.
 
-The first time it is called, the method should just return the number of <a href="..\compstui\ns-compstui-_optitem.md">OPTITEM</a> structures to be added. This number should be placed in the <a href="..\printoem\ns-printoem-_oemcuipparam.md">OEMCUIPPARAM</a> structure's <b>cOEMOptItems</b> member. The printer interface DLL then allocates enough memory to store the specified number of OPTITEMs, and calls <code>IPrintOemUI::CommonUIProp</code> again.
+The first time it is called, the method should just return the number of <a href="https://msdn.microsoft.com/library/windows/hardware/ff559656">OPTITEM</a> structures to be added. This number should be placed in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557653">OEMCUIPPARAM</a> structure's <b>cOEMOptItems</b> member. The printer interface DLL then allocates enough memory to store the specified number of OPTITEMs, and calls <code>IPrintOemUI::CommonUIProp</code> again.
 
 The second time it is called, the <code>IPrintOemUI::CommonUIProp</code> method should do the following:
 
@@ -181,7 +171,7 @@ Return the number of structures added to the OPTITEM array by placing the number
 
 </li>
 <li>
-Return the address of a callback function in the OEMCUIPPARAM structure's <b>OEMCUIPCallback</b> member. This callback function is called when a user modifies the property sheet page. The callback function must be of type <a href="..\printoem\nc-printoem-oemcuipcallback.md">OEMCUIPCALLBACK</a>.
+Return the address of a callback function in the OEMCUIPPARAM structure's <b>OEMCUIPCallback</b> member. This callback function is called when a user modifies the property sheet page. The callback function must be of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff557650">OEMCUIPCALLBACK</a>.
 
 </li>
 <li>

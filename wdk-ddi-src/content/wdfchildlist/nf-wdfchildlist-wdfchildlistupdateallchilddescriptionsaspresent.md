@@ -39,7 +39,8 @@ api_location:
 -	Wdf01000.sys.dll
 api_name:
 -	WdfChildListUpdateAllChildDescriptionsAsPresent
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_RETRIEVE_CHILD_FLAGS
 req.product: Windows 10 or later.
@@ -54,16 +55,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF only]
 
 The <b>WdfChildListUpdateAllChildDescriptionsAsPresent</b> method informs the framework that all of the child devices in a specified child list are plugged in and available.
-
-
-## -syntax
-
-
-````
-VOID WdfChildListUpdateAllChildDescriptionsAsPresent(
-  _In_ WDFCHILDLIST ChildList
-);
-````
 
 
 ## -parameters

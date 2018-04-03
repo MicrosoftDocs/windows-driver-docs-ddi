@@ -7,7 +7,7 @@ old-location: display\iddcx_frame_statistics_step.htm
 old-project: display
 ms.assetid: a0d1f5b3-d527-417e-8d93-26d8277b7f12
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IDDCX_FRAME_STATISTICS_STEP, IDDCX_FRAME_STATISTICS_STEP structure, IDDCX_FRAME_STATISTICS_STEP structure [Display Devices], IDDCX_FRAME_STATISTICS_STEP structure pointer [Display Devices], IDDCX_FRAME_STATISTICS_STEP structure structure [Display Devices], display.iddcx_frame_statistics_step, iddcx/IDDCX_FRAME_STATISTICS_STEP
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	iddcx.h
 api_name:
 -	IDDCX_FRAME_STATISTICS_STEP
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,19 +52,6 @@ req.typenames:
 
 
                  Gives information about the frame processing step being used by the driver.
-
-
-## -syntax
-
-
-````
-typedef struct IDDCX_FRAME_STATISTICS_STE {
-  UINT                             Size;
-  IDDCX_FRAME_STATISTICS_STEP_TYPE Type;
-  UINT64                           QpcTime;
-  UINT32                           Data;
-} IDDCX_FRAME_STATISTICS_STEP, *IDDCX_FRAME_STATISTICS_STEP;
-````
 
 
 ## -struct-fields

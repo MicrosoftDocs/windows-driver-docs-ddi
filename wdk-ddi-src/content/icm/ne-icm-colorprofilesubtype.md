@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	icm.h
 api_name:
 -	COLORPROFILESUBTYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: COLORPROFILESUBTYPE
 ---
@@ -50,22 +51,6 @@ req.typenames: COLORPROFILESUBTYPE
 
 
 The COLORPROFILESUBTYPE enumeration is used to specify the subtype of color profile.
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  CPST_PERCEPTUAL             = INTENT_PERCEPTUAL,
-  CPST_RELATIVE_COLORIMETRIC  = INTENT_RELATIVE_COLORIMETRIC,
-  CPST_SATURATION             = INTENT_SATURATION,
-  CPST_ABSOLUTE_COLORIMETRIC  = INTENT_ABSOLUTE_COLORIMETRIC,
-  CPST_NONE                   = 1,
-  CPST_RGB_WORKING_SPACE      = 2,
-  CPST_CUSTOM_WORKING_SPACE   = 3
-} COLORPROFILESUBTYPE;
-````
 
 
 ## -enum-fields
@@ -139,16 +124,15 @@ The PCOLORPROFILESUBTYPE and LPCOLORPROFILESUBTYPE data types are defined as poi
 
 ## -see-also
 
-<a href="..\icm\nf-icm-wcssetdefaultcolorprofile.md">WcsSetDefaultColorProfile</a>
 
 
 
-<a href="..\icm\ne-icm-colorprofiletype.md">COLORPROFILETYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546018">COLORPROFILETYPE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563739">WcsSetDefaultColorProfile</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: netvista\tal_txrx_parameters.htm
 old-project: netvista
 ms.assetid: 44f5c907-7368-43ea-b581-3b9ecf25c611
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PTAL_TXRX_PARAMETERS, PTAL_TXRX_PARAMETERS, PTAL_TXRX_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], TAL_TXRX_PARAMETERS, TAL_TXRX_PARAMETERS structure [Network Drivers Starting with Windows Vista], _TAL_TXRX_PARAMETERS, dot11wdi/PTAL_TXRX_PARAMETERS, dot11wdi/TAL_TXRX_PARAMETERS, netvista.tal_txrx_parameters"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	dot11wdi.h
 api_name:
 -	TAL_TXRX_PARAMETERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TAL_TXRX_PARAMETERS, *PTAL_TXRX_PARAMETERS
 ---
@@ -51,16 +52,6 @@ req.typenames: TAL_TXRX_PARAMETERS, *PTAL_TXRX_PARAMETERS
 
 The 
   TAL_TXRX_PARAMETERS structure defines the TAL TXRX parameters.
-
-
-## -syntax
-
-
-````
-typedef struct _TAL_TXRX_PARAMETERS {
-  UINT16 MaxOutstandingTransfers;
-} TAL_TXRX_PARAMETERS, *PTAL_TXRX_PARAMETERS;
-````
 
 
 ## -struct-fields

@@ -7,7 +7,7 @@ old-location: display\videoportinterlockedincrement.htm
 old-project: display
 ms.assetid: d3507214-82bc-4d73-8562-2843d7876137
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: VideoPortInterlockedIncrement, VideoPortInterlockedIncrement function [Display Devices], VideoPort_Functions_ae59ee02-e3b2-43f6-8b93-8fe6bcedf248.xml, display.videoportinterlockedincrement, video/VideoPortInterlockedIncrement
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Videoprt.sys
 api_name:
 -	VideoPortInterlockedIncrement
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
 req.product: Windows 10 or later.
@@ -51,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>VideoPortInterlockedIncrement</b> function increments a caller-supplied variable as an atomic operation.
-
-
-## -syntax
-
-
-````
-LONG FASTCALL VideoPortInterlockedIncrement(
-  _In_ PLONG Addend
-);
-````
 
 
 ## -parameters
@@ -95,16 +86,15 @@ This function is atomic only with respect to other <b>VideoPortInterlocked</b><i
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportinterlockeddecrement.md">VideoPortInterlockedDecrement</a>
 
 
 
-<a href="..\video\nf-video-videoportinterlockedexchange.md">VideoPortInterlockedExchange</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570322">VideoPortInterlockedDecrement</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570323">VideoPortInterlockedExchange</a>
  
 
  
-
 

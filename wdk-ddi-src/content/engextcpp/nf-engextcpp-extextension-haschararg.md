@@ -7,7 +7,7 @@ old-location: debugger\haschararg.htm
 old-project: debugger
 ms.assetid: 24d9a231-2c04-43da-aa20-9e10f7633532
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: EngExtCpp_Ref_1ef6d849-e279-4705-b0fe-8147fbd7daf8.xml, ExtExtension, ExtExtension class [Windows Debugging], HasCharArg method, ExtExtension::HasCharArg, HasCharArg method [Windows Debugging], HasCharArg method [Windows Debugging], ExtExtension class, HasCharArg,ExtExtension.HasCharArg, debugger.haschararg
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Engextcpp.hpp
 api_name:
 -	ExtExtension.HasCharArg
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 ---
@@ -50,16 +51,6 @@ req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 
 
 The <b>HasCharArg</b> method indicates whether a specified single-character named argument is present in the command line used to invoke the current extension command.
-
-
-## -syntax
-
-
-````
-bool HasCharArg(
-  [in] CHAR Name
-);
-````
 
 
 ## -parameters
@@ -87,7 +78,7 @@ Specifies the name of the argument.
 
 This method will work for all types of named arguments.  In particular, it can be used to detect the presence of a named argument of Boolean type.
 
-This is a convenience method and is restricted to arguments whose name is a single character.  For arguments whose names are longer than a single character, use <a href="..\engextcpp\nf-engextcpp-extextension-hasarg.md">HasArg</a>.
+This is a convenience method and is restricted to arguments whose name is a single character.  For arguments whose names are longer than a single character, use <a href="https://msdn.microsoft.com/library/windows/hardware/ff549721">HasArg</a>.
 
 For an overview of argument parsing in the EngExtCpp extensions framework, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff553340">Parsing Extension Arguments</a>.
 
@@ -98,7 +89,6 @@ This method should only be called during the execution of an extension command p
 
 ## -see-also
 
-<a href="..\engextcpp\nf-engextcpp-extextension-hasarg.md">HasArg</a>
 
 
 
@@ -106,8 +96,8 @@ This method should only be called during the execution of an extension command p
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549721">HasArg</a>
  
 
  
-
 

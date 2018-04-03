@@ -7,7 +7,7 @@ old-location: display\dxgkarg_checkmultiplaneoverlaysupport3.htm
 old-project: display
 ms.assetid: 21FE4E54-5B7D-4068-AC83-A7AFFA739169
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*IN_OUT_PDXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT3, DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT3, DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT3 structure [Display Devices], _DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT3, d3dkmddi/DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT3, display.dxgkarg_checkmultiplaneoverlaysupport3"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT3
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT3
 ---
@@ -50,21 +51,6 @@ req.typenames: DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT3
 
 
 Used in a call to the DxgkDdiCheckMultiPlaneOverlaySupport3 function to check details on hardware support for multi-plane overlays.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT3 {
-  UINT                                                    PlaneCount;
-  DXGK_MULTIPLANE_OVERLAY_PLANE_WITH_SOURCE2              **ppPlanes;
-  UINT                                                    PostCompositionCount;
-  DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_WITH_SOURCE    **ppPostComposition;
-  BOOL                                                    Supported;
-  DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_RETURN_INFO       ReturnInfo;
-} DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT3;
-````
 
 
 ## -struct-fields

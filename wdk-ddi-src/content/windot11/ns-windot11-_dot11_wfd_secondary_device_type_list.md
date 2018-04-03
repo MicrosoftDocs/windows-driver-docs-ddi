@@ -38,7 +38,8 @@ api_location:
 -	Windot11.h
 api_name:
 -	DOT11_WFD_SECONDARY_DEVICE_TYPE_LIST
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT11_WFD_SECONDARY_DEVICE_TYPE_LIST, *PDOT11_WFD_SECONDARY_DEVICE_TYPE_LIST
 req.product: Windows 10 or later.

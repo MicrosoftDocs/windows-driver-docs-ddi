@@ -7,7 +7,7 @@ old-location: netvista\riluiccprlid.htm
 old-project: netvista
 ms.assetid: fab3455a-c09f-4a08-a76d-4d80468accd2
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: RILUICCPRLID, RILUICCPRLID enumeration [Network Drivers Starting with Windows Vista], netvista.riluiccprlid, ntddrilapitypes/RILUICCPRLID
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILUICCPRLID
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILUICCPRLID
 ---
@@ -50,15 +51,6 @@ req.typenames: RILUICCPRLID
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef enum _RILUICCPRLID { 
-} RILUICCPRLID;
-````
 
 
 ## -enum-fields

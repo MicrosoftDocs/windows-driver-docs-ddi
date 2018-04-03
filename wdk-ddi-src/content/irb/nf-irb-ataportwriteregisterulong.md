@@ -7,7 +7,7 @@ old-location: storage\ataportwriteregisterulong.htm
 old-project: storage
 ms.assetid: 62abbee8-cd62-4106-9a7e-c93bfc916769
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: AtaPortWriteRegisterUlong, AtaPortWriteRegisterUlong routine [Storage Devices], atartns_9cbbfe00-9ab2-4c7b-8f33-c9ebb166214a.xml, irb/AtaPortWriteRegisterUlong, storage.ataportwriteregisterulong
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,8 @@ api_location:
 -	pciidex.dll
 api_name:
 -	AtaPortWriteRegisterUlong
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: IDE_POWER_STATE
 ---
@@ -55,17 +56,6 @@ req.typenames: IDE_POWER_STATE
 The <b>AtaPortWriteRegisterUlong</b> routine transfers a ULONG value to the HBA.
 <div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
-## -syntax
-
-
-````
-VOID AtaPortWriteRegisterUlong(
-  _In_ PULONG Register,
-  _In_ ULONG  Value
-);
-````
-
-
 ## -parameters
 
 
@@ -73,7 +63,7 @@ VOID AtaPortWriteRegisterUlong(
 
 ### -param Register [in]
 
-A pointer to the destination register. The address value that is assigned to this parameter must be within the range of mapped I/O space addresses that are obtained by a call to <a href="..\irb\nf-irb-ataportgetdevicebase.md">AtaPortGetDeviceBase</a>.
+A pointer to the destination register. The address value that is assigned to this parameter must be within the range of mapped I/O space addresses that are obtained by a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff550160">AtaPortGetDeviceBase</a>.
 
 
 ### -param Value [in]
@@ -92,20 +82,19 @@ None
 
 ## -see-also
 
-<a href="..\irb\nf-irb-ataportgetdevicebase.md">AtaPortGetDeviceBase</a>
 
 
 
-<a href="..\irb\nf-irb-ataportwriteregisteruchar.md">AtaPortWriteRegisterUchar</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550160">AtaPortGetDeviceBase</a>
 
 
 
-<a href="..\irb\nf-irb-ataportwriteregisterushort.md">AtaPortWriteRegisterUshort</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550277">AtaPortWriteRegisterUchar</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550287">AtaPortWriteRegisterUshort</a>
  
 
  
-
 

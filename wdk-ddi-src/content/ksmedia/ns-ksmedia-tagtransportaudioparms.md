@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	TRANSPORTAUDIOPARMS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TRANSPORTAUDIOPARMS, *PTRANSPORTAUDIOPARMS
 ---
@@ -50,20 +51,6 @@ req.typenames: TRANSPORTAUDIOPARMS, *PTRANSPORTAUDIOPARMS
 
 
 The TRANSPORTAUDIOPARMS structure is defined but not used.
-
-
-## -syntax
-
-
-````
-typedef struct tagTRANSPORTAUDIOPARMS {
-  LONG EnableOutput;
-  LONG EnableRecord;
-  LONG EnableSelsync;
-  LONG Input;
-  LONG MonitorSource;
-} TRANSPORTAUDIOPARMS, *PTRANSPORTAUDIOPARMS;
-````
 
 
 ## -struct-fields

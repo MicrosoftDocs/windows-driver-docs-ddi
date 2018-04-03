@@ -7,7 +7,7 @@ old-location: buses\evt_ucx_roothub_control_urb.htm
 old-project: usbref
 ms.assetid: 4463a68f-ef03-43a1-b3e2-7baf43f47e80
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: EVT_UCX_ROOTHUB_CONTROL_URB, EvtUcxRootHubControlUrb, EvtUcxRootHubControlUrb callback function [Buses], PEVT_UCX_ROOTHUB_CONTROL_URB, PEVT_UCX_ROOTHUB_CONTROL_URB callback function pointer [Buses], buses.evt_ucx_roothub_control_urb, ucxroothub/EvtUcxRootHubControlUrb
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ucxroothub.h
 api_name:
 -	PEVT_UCX_ROOTHUB_CONTROL_URB
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UCX_ENDPOINT_ISOCH_TRANSFER_PATH_DELAYS, *PUCX_ENDPOINT_ISOCH_TRANSFER_PATH_DELAYS
 req.product: Windows 10 or later.
@@ -53,22 +54,6 @@ req.product: Windows 10 or later.
 The client driver uses this callback type to implement handlers that UCX calls when it receives feature control requests on the USB hub.
 
 
-## -prototype
-
-
-````
-EVT_UCX_ROOTHUB_CONTROL_URB EvtUcxRootHubControlUrb;
-
-VOID EvtUcxRootHubControlUrb(
-  _In_ UCXROOTHUB UcxRootHub,
-  _In_ WDFREQUEST Request
-)
-{ ... }
-
-typedef EVT_UCX_ROOTHUB_CONTROL_URB PEVT_UCX_ROOTHUB_CONTROL_URB;
-````
-
-
 ## -parameters
 
 
@@ -81,7 +66,7 @@ A handle to a UCX object that represents the root hub.
 
 ### -param Request [in]
 
-Contains the <a href="..\usb\ns-usb-_urb.md">URB</a> for the feature request.
+Contains the <a href="https://msdn.microsoft.com/library/windows/hardware/ff538923">URB</a> for the feature request.
 
 
 ## -returns
@@ -193,12 +178,11 @@ Routine Description:
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt188048">UcxRootHubCreate</a>
-
-
-
  
 
  
-
 

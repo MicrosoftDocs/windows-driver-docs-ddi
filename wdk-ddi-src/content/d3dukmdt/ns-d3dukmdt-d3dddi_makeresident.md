@@ -7,7 +7,7 @@ old-location: display\d3dddi_makeresident.htm
 old-project: display
 ms.assetid: 16F04DFD-3AF6-48E0-9BCF-9FE0FC397F91
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDI_MAKERESIDENT, D3DDDI_MAKERESIDENT structure [Display Devices], d3dukmdt/D3DDDI_MAKERESIDENT, display.d3dddi_makeresident
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dukmdt.h
 api_name:
 -	D3DDDI_MAKERESIDENT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDI_MAKERESIDENT
 ---
@@ -49,23 +50,7 @@ req.typenames: D3DDDI_MAKERESIDENT
 ## -description
 
 
-<b>D3DDDI_MAKERESIDENT</b> is used with <b>MakeResident</b> (<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_makeresidentcb.md">pfnMakeResidentCb</a> or <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtmakeresident.md">D3DKMTMakeResident</a>) to instruct the OS to add a resource to the device residency list and increment the residency reference count on this allocation.
-
-
-## -syntax
-
-
-````
-typedef struct D3DDDI_MAKERESIDENT {
-  D3DKMT_HANDLE             hPagingQueue;
-  UINT                      NumAllocations;
-  const D3DKMT_HANDLE       *AllocationList;
-  const UINT                *PriorityList;
-  D3DDDI_MAKERESIDENT_FLAGS Flags;
-  UINT64                    PagingFenceValue;
-  UINT64                    NumBytesToTrim;
-} D3DDDI_MAKERESIDENT;
-````
+<b>D3DDDI_MAKERESIDENT</b> is used with <b>MakeResident</b> (<a href="https://msdn.microsoft.com/8D65C3F7-3D07-4341-A989-A1438F821802">pfnMakeResidentCb</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/dn906775">D3DKMTMakeResident</a>) to instruct the OS to add a resource to the device residency list and increment the residency reference count on this allocation.
 
 
 ## -struct-fields
@@ -96,7 +81,7 @@ typedef struct D3DDDI_MAKERESIDENT {
 
 ### -field Flags
 
-[in] Specifies memory residency behavior as documented in <a href="..\d3dukmdt\ns-d3dukmdt-d3dddi_makeresident_flags.md">D3DDDI_MAKERESIDENT_FLAGS</a>.
+[in] Specifies memory residency behavior as documented in <a href="https://msdn.microsoft.com/library/windows/hardware/dn906324">D3DDDI_MAKERESIDENT_FLAGS</a>.
 
 
 ### -field PagingFenceValue
@@ -111,20 +96,19 @@ typedef struct D3DDDI_MAKERESIDENT {
 
 ## -see-also
 
-<a href="..\d3dukmdt\ns-d3dukmdt-d3dddi_makeresident_flags.md">D3DDDI_MAKERESIDENT_FLAGS</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_makeresidentcb.md">pfnMakeResidentCb</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn906324">D3DDDI_MAKERESIDENT_FLAGS</a>
 
 
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtmakeresident.md">D3DKMTMakeResident</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn906775">D3DKMTMakeResident</a>
 
 
 
+<a href="https://msdn.microsoft.com/8D65C3F7-3D07-4341-A989-A1438F821802">pfnMakeResidentCb</a>
  
 
  
-
 

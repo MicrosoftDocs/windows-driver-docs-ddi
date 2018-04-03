@@ -7,7 +7,7 @@ old-location: kernel\file_standard_information_ex.htm
 old-project: kernel
 ms.assetid: 460ADE5A-0302-4695-A9E4-43B309738BE7
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*PFILE_STANDARD_INFORMATION_EX, FILE_STANDARD_INFORMATION_EX, FILE_STANDARD_INFORMATION_EX structure [Kernel-Mode Driver Architecture], PFILE_STANDARD_INFORMATION_EX, PFILE_STANDARD_INFORMATION_EX structure pointer [Kernel-Mode Driver Architecture], _FILE_STANDARD_INFORMATION_EX, kernel.file_standard_information_ex, wdm/FILE_STANDARD_INFORMATION_EX, wdm/PFILE_STANDARD_INFORMATION_EX"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	wdm.h
 api_name:
 -	FILE_STANDARD_INFORMATION_EX
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FILE_STANDARD_INFORMATION_EX, *PFILE_STANDARD_INFORMATION_EX
 req.product: Windows 10 or later.
@@ -51,22 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>FILE_STANDARD_INFORMATION_EX</b> structure is used as an argument to routines that query or set file information.
-
-
-## -syntax
-
-
-````
-typedef struct _FILE_STANDARD_INFORMATION_EX {
-  LARGE_INTEGER AllocationSize;
-  LARGE_INTEGER EndOfFile;
-  ULONG         NumberOfLinks;
-  BOOLEAN       DeletePending;
-  BOOLEAN       Directory;
-  BOOLEAN       AlternateStream;
-  BOOLEAN       MetadataAttribute;
-} FILE_STANDARD_INFORMATION_EX, *PFILE_STANDARD_INFORMATION_EX;
-````
 
 
 ## -struct-fields
@@ -120,20 +105,19 @@ The metadata attribute status. <b>TRUE</b> indicates the file object represents 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566424">ZwCreateFile</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567052">ZwQueryInformationFile</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567096">ZwSetInformationFile</a>
  
 
  
-
 

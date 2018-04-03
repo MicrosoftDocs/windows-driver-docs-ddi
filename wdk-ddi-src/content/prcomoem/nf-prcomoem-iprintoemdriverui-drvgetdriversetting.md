@@ -38,7 +38,8 @@ api_location:
 -	prcomoem.h
 api_name:
 -	IPrintOemDriverUI.DrvGetDriverSetting
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
@@ -53,21 +54,6 @@ req.product: Windows 10 or later.
 The <code>IPrintOemDriverUI::DrvGetDriverSetting</code> method is provided by the Unidrv and Pscript5 minidrivers so that user interface plug-ins can obtain the current status of printer features and other internal information.
 
 
-## -syntax
-
-
-````
-HRESULT DrvGetDriverSetting(
-   PVOID  pci,
-   PCSTR  Feature,
-   PVOID  pOutput,
-   DWORD  cbSize,
-   PDWORD pcbNeeded,
-   PDWORD pdwOptionsReturned
-);
-````
-
-
 ## -parameters
 
 
@@ -75,7 +61,7 @@ HRESULT DrvGetDriverSetting(
 
 ### -param pci
 
-Caller-supplied pointer to an <a href="..\printoem\ns-printoem-_oemuiobj.md">OEMUIOBJ</a> structure.
+Caller-supplied pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff559571">OEMUIOBJ</a> structure.
 
 
 ### -param Feature

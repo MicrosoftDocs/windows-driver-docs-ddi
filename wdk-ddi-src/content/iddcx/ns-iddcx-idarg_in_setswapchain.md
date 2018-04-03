@@ -7,7 +7,7 @@ old-location: display\idarg_in_setswapchain.htm
 old-project: display
 ms.assetid: 5b3a4a43-e8d4-4edf-87f3-dd3e6bb7e9dc
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IDARG_IN_SETSWAPCHAIN, IDARG_IN_SETSWAPCHAIN structure [Display Devices], display.idarg_in_setswapchain, iddcx/IDARG_IN_SETSWAPCHAIN
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	iddcx.h
 api_name:
 -	IDARG_IN_SETSWAPCHAIN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -52,18 +53,6 @@ req.typenames:
 
                  Gives information used to set the indirect swapchain.
              
-
-
-## -syntax
-
-
-````
-typedef struct IDARG_IN_SETSWAPCHAIN {
-  IDDCX_SWAPCHAIN hSwapChain;
-  HANDLE          hNextSurfaceAvailable;
-  LUID            RenderAdapterLuid;
-} IDARG_IN_SETSWAPCHAIN, *IDARG_IN_SETSWAPCHAIN;
-````
 
 
 ## -struct-fields

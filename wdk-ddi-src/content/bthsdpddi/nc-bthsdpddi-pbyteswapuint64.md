@@ -38,7 +38,8 @@ api_location:
 -	sdplib.h
 api_name:
 -	SdpByteSwapUint64
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BTH_VENDOR_SPECIFIC_COMMAND, *PBTH_VENDOR_SPECIFIC_COMMAND
 ---
@@ -51,19 +52,6 @@ req.typenames: BTH_VENDOR_SPECIFIC_COMMAND, *PBTH_VENDOR_SPECIFIC_COMMAND
 
 The Bluetooth 
   <b>SdpByteSwapUint64</b> function is used to reverse the byte order of an unsigned 64-bit integer.
-
-
-## -prototype
-
-
-````
-PBYTESWAPUINT64 SdpByteSwapUint64;
-
-ULONGLONG SdpByteSwapUint64(
-   ULONGLONG uint64
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -96,19 +84,18 @@ The
     computer is connected to.
 
 Bluetooth profile drivers can obtain a pointer to this function through the 
-    <a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_parse_interface.md">BTHDDI_SDP_PARSE_INTERFACE</a>.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff536636">BTHDDI_SDP_PARSE_INTERFACE</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_parse_interface.md">BTHDDI_SDP_PARSE_INTERFACE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536636">BTHDDI_SDP_PARSE_INTERFACE</a>
  
 
  
-
 

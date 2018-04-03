@@ -38,7 +38,8 @@ api_location:
 -	bthddi.h
 api_name:
 -	_BRB_SCO_FLUSH_CHANNEL
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -52,19 +53,6 @@ req.typenames:
 The _BRB_SCO_FLUSH_CHANNEL structure describes a flush operation for a SCO channel.
 
 
-## -syntax
-
-
-````
-struct _BRB_SCO_FLUSH_CHANNEL {
-  BRB_HEADER         Hdr;
-  BTH_ADDR           BtAddress;
-  SCO_CHANNEL_HANDLE ChannelHandle;
-  ULONG              FlushFlags;
-};
-````
-
-
 ## -struct-fields
 
 
@@ -73,7 +61,7 @@ struct _BRB_SCO_FLUSH_CHANNEL {
 ### -field Hdr
 
 A 
-     <a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a> structure that contains information
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536612">BRB_HEADER</a> structure that contains information
      about the current BRB.
 
 
@@ -124,16 +112,15 @@ All pending data transfer IRPs will be completed with STATUS_REQUEST_ABORTED. In
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536612">BRB_HEADER</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536623">BRB_SCO_FLUSH_CHANNEL</a>
-
-
-
-<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
-
-
-
  
 
  
-
 

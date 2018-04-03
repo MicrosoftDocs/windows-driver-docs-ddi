@@ -7,7 +7,7 @@ old-location: netvista\wdi_power_mode_reason_code.htm
 old-project: netvista
 ms.assetid: F9FAA622-A844-4D9F-A0E6-D919C1FAD3AB
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: WDI_POWER_MODE_REASON_CODE, WDI_POWER_MODE_REASON_CODE enumeration [Network Drivers Starting with Windows Vista], WDI_POWER_MODE_REASON_CODE_COMPLIANT_AP, WDI_POWER_MODE_REASON_CODE_COMPLIANT_P2P_DEVICE, WDI_POWER_MODE_REASON_CODE_LEGACY_P2P_DEVICE, WDI_POWER_MODE_REASON_CODE_NONCOMPLIANT_AP, WDI_POWER_MODE_REASON_CODE_NO_CHANGE, WDI_POWER_MODE_REASON_CODE_OTHERS, _WDI_POWER_MODE_REASON_CODE, netvista.wdi_power_mode_reason_code, netvista.wifi_power_mode_reason_code, wditypes/WDI_POWER_MODE_REASON_CODE, wditypes/WDI_POWER_MODE_REASON_CODE_COMPLIANT_AP, wditypes/WDI_POWER_MODE_REASON_CODE_COMPLIANT_P2P_DEVICE, wditypes/WDI_POWER_MODE_REASON_CODE_LEGACY_P2P_DEVICE, wditypes/WDI_POWER_MODE_REASON_CODE_NONCOMPLIANT_AP, wditypes/WDI_POWER_MODE_REASON_CODE_NO_CHANGE, wditypes/WDI_POWER_MODE_REASON_CODE_OTHERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	wditypes.hpp
 api_name:
 -	WDI_POWER_MODE_REASON_CODE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDI_POWER_MODE_REASON_CODE
 req.product: Windows 10 or later.
@@ -51,21 +52,6 @@ req.product: Windows 10 or later.
 
 
 The WDI_POWER_MODE_REASON_CODE enumeration defines the reasons for entering the Power Save state.
-
-
-## -syntax
-
-
-````
-typedef enum _WDI_POWER_MODE_REASON_CODE { 
-  WDI_POWER_MODE_REASON_CODE_NO_CHANGE             = 0,
-  WDI_POWER_MODE_REASON_CODE_NONCOMPLIANT_AP       = 1,
-  WDI_POWER_MODE_REASON_CODE_LEGACY_P2P_DEVICE     = 2,
-  WDI_POWER_MODE_REASON_CODE_COMPLIANT_AP          = 3,
-  WDI_POWER_MODE_REASON_CODE_COMPLIANT_P2P_DEVICE  = 4,
-  WDI_POWER_MODE_REASON_CODE_OTHERS                = 5
-} WDI_POWER_MODE_REASON_CODE;
-````
 
 
 ## -enum-fields

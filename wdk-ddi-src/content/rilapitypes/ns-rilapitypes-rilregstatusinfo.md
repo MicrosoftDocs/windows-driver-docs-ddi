@@ -7,7 +7,7 @@ old-location: netvista\rilregstatusinfo.htm
 old-project: netvista
 ms.assetid: 12471d22-4d5d-411e-bfde-4d13d7a3bcca
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*LPRILREGSTATUSINFO, RILREGSTATUSINFO, RILREGSTATUSINFO structure [Network Drivers Starting with Windows Vista], netvista.rilregstatusinfo, ntddrilapitypes/RILREGSTATUSINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILREGSTATUSINFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILREGSTATUSINFO, *LPRILREGSTATUSINFO
 req.product: Windows 10 or later.
@@ -51,26 +52,6 @@ req.product: Windows 10 or later.
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef struct _RILREGSTATUSINFO {
-  DWORD                cbSize;
-  DWORD                dwParams;
-  DWORD                dwExecutor;
-  HUICCAPP             hUiccApp;
-  RILREGSTAT           dwRegStatus;
-  RILACCESSTECHNOLOGY  ratAccessTechnology;
-  DWORD                dwSystemCaps;
-  DWORD                dwRegRejectReason;
-  RILOPERATORNAMES     ronCurrentOperator;
-  RILVOICEDOMAIN       dwVoiceDomain;
-  RILNETWORKCODE       rncNetworkCode;
-} RILREGSTATUSINFO, RILREGSTATUSINFO;
-````
 
 
 ## -struct-fields
