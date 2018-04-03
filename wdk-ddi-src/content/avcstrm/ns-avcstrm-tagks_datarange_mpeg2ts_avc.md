@@ -38,7 +38,8 @@ api_location:
 -	avcstrm.h
 api_name:
 -	KS_DATARANGE_MPEG2TS_AVC
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KS_DATARANGE_MPEG2TS_AVC, *PKS_DATARANGE_MPEG2TS_AVC
 ---
@@ -50,17 +51,6 @@ req.typenames: KS_DATARANGE_MPEG2TS_AVC, *PKS_DATARANGE_MPEG2TS_AVC
 
 
 The KS_DATARANGE_MPEG2TS_AVC structure stores a range of AV/C MPEG2 formats.
-
-
-## -syntax
-
-
-````
-typedef struct tagKS_DATARANGE_MPEG2TS_AVC {
-  KSDATARANGE       DataRange;
-  AVCPRECONNECTINFO ConnectInfo;
-} KS_DATARANGE_MPEG2TS_AVC, *PKS_DATARANGE_MPEG2TS_AVC;
-````
 
 
 ## -struct-fields
@@ -80,16 +70,15 @@ Specifies the AV/C preconnection info.
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554103">AVCPRECONNECTINFO</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561658">KSDATARANGE</a>
-
-
-
-<a href="..\avc\ns-avc-_avcpreconnectinfo.md">AVCPRECONNECTINFO</a>
-
-
-
  
 
  
-
 

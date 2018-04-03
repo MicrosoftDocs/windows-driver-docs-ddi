@@ -2,7 +2,7 @@
 UID: NA:ntddser
 ms.assetid: 1ef9acf8-d5d8-39b0-a68c-2a25e1e7e669
 ms.author: windowsdriverdev
-ms.date: 03/13/18
+ms.date: 04/03/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -12,10 +12,12 @@ ms.topic: portal
 # Ntddser.h header
 
 
+## -description
 
-This header is used by Parallel Ports, serports. For more information, see
+
+This header is used by parports. For more information, see:
+
 - [Parallel Ports](../_parports/index.md)
-- [serports](../_serports/index.md)
 
 This section describes the I/O requests that are supported by the serial framework extension (SerCx) starting with Windows 8, and supported by the system-supplied Serial.sys driver starting with Windows 2000. For more information about SerCx and Serial.sys, see Serial Controller Drivers Overview.
 

@@ -38,7 +38,8 @@ api_location:
 -	printoem.h
 api_name:
 -	DrvGetDriverSetting
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PrintSchemaSelectionType
 req.product: Windows 10 or later.
@@ -54,25 +55,7 @@ The <b>DrvGetDriverSetting</b> function is obsolete.
 
  Windows 2000 and later printer drivers should use <a href="https://msdn.microsoft.com/library/windows/hardware/ff553114">IPrintOemDriverUI::DrvGetDriverSetting</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff553036">IPrintCoreUI2::DrvGetDriverSetting</a> (UI plug-ins), <a href="https://msdn.microsoft.com/library/windows/hardware/ff553126">IPrintOemDriverUni::DrvGetDriverSetting</a> (Unidrv plug-ins) or <a href="https://msdn.microsoft.com/library/windows/hardware/ff553102">IPrintOemDriverPS::DrvGetDriverSetting</a> (Pscript plug-ins) 
 
-This function pointer type defines the type of the <b>DrvGetDriverSetting</b> member of the <a href="..\printoem\ns-printoem-_oemuiprocs.md">OEMUIPROCS</a> and <a href="..\printoem\ns-printoem-_drvprocs.md">DRVPROCS</a> structures.
-
-
-## -prototype
-
-
-````
-PFN_DrvGetDriverSetting DrvGetDriverSetting;
-
-BOOL APIENTRY* DrvGetDriverSetting(
-            PVOID                                pdriverobj,
-            PCSTR                                Feature,
-            _Out_writes_bytes_opt_(cbSize) PVOID pOutput,
-            DWORD                                cbSize,
-  _Out_opt_ PDWORD                               pcbNeeded,
-  _Out_opt_  PDWORD                              pdwOptionsReturned
-)
-{ ... }
-````
+This function pointer type defines the type of the <b>DrvGetDriverSetting</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559574">OEMUIPROCS</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff548571">DRVPROCS</a> structures.
 
 
 ## -parameters

@@ -38,7 +38,8 @@ api_location:
 -	rilapitypes.h
 api_name:
 -	RILADDRESS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILADDRESS, *LPRILADDRESS
 req.product: Windows 10 or later.

@@ -39,7 +39,8 @@ api_location:
 -	Wdf01000.sys.dll
 api_name:
 -	WdfDmaTransactionSetSingleTransferRequirement
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_DMA_SYSTEM_PROFILE_CONFIG, *PWDF_DMA_SYSTEM_PROFILE_CONFIG
 req.product: Windows 10 or later.
@@ -56,17 +57,6 @@ req.product: Windows 10 or later.
 The <b>WdfDmaTransactionSetSingleTransferRequirement</b> method specifies that a DMA transaction must complete in a single transfer.
 
 
-## -syntax
-
-
-````
-void WdfDmaTransactionSetSingleTransferRequirement(
-  _In_ WDFDMATRANSACTION DmaTransaction,
-  _In_ BOOLEAN           RequireSingleTransfer
-);
-````
-
-
 ## -parameters
 
 
@@ -74,7 +64,7 @@ void WdfDmaTransactionSetSingleTransferRequirement(
 
 ### -param DmaTransaction [in]
 
-A handle to a DMA transaction object that the driver obtained from a previous call to <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioncreate.md">WdfDmaTransactionCreate</a>.
+A handle to a DMA transaction object that the driver obtained from a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff547027">WdfDmaTransactionCreate</a>.
 
 
 ### -param RequireSingleTransfer [in]
@@ -95,34 +85,33 @@ This method does not return a value.
 
 
 
-This method requests a single transfer for a single transaction only. When the transaction object is recycled with <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionrelease.md">WdfDmaTransactionRelease</a> and reinitialized, this setting resets, similar to other transaction-level properties such as immediate execution and maximum transfer length.
+This method requests a single transfer for a single transaction only. When the transaction object is recycled with <a href="https://msdn.microsoft.com/library/windows/hardware/ff547114">WdfDmaTransactionRelease</a> and reinitialized, this setting resets, similar to other transaction-level properties such as immediate execution and maximum transfer length.
 
-To request single transfer for all DMA transactions created with a given DMA enabler, specify  <b>WDF_DMA_ENABLER_CONFIG_REQUIRE_SINGLE_TRANSFER</b> in <a href="..\wdfdmaenabler\ne-wdfdmaenabler-_wdf_dma_enabler_config_flags.md">WDF_DMA_ENABLER_CONFIG_FLAGS</a> when calling <a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablercreate.md">WdfDmaEnablerCreate</a>. This is equivalent to calling <b>WdfDmaTransactionSetSingleTransferRequirement</b> for each transaction object created with the DMA enabler.
+To request single transfer for all DMA transactions created with a given DMA enabler, specify  <b>WDF_DMA_ENABLER_CONFIG_REQUIRE_SINGLE_TRANSFER</b> in <a href="https://msdn.microsoft.com/library/windows/hardware/hh439491">WDF_DMA_ENABLER_CONFIG_FLAGS</a> when calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff546983">WdfDmaEnablerCreate</a>. This is equivalent to calling <b>WdfDmaTransactionSetSingleTransferRequirement</b> for each transaction object created with the DMA enabler.
 
 The driver calls <b>WdfDmaTransactionSetSingleTransferRequirement</b> after creating or recycling the transaction object, but before initializing or executing it.  For more info, see <a href="https://msdn.microsoft.com/windows/hardware/drivers/wdf/">Using Single Transfer DMA</a>.
 
 <b>WdfDmaTransactionSetSingleTransferRequirement</b> requires DMA version 3.
- To select DMA version 3, set the <b>WdmDmaVersionOverride</b> member of <a href="..\wdfdmaenabler\ns-wdfdmaenabler-_wdf_dma_enabler_config.md">WDF_DMA_ENABLER_CONFIG</a> to 3.
+ To select DMA version 3, set the <b>WdmDmaVersionOverride</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff551290">WDF_DMA_ENABLER_CONFIG</a> to 3.
 
 
 
 
 ## -see-also
 
-<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioninitialize.md">WdfDmaTransactionInitialize</a>
 
 
 
-<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioninitializeusingrequest.md">WdfDmaTransactionInitializeUsingRequest</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547027">WdfDmaTransactionCreate</a>
 
 
 
-<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioncreate.md">WdfDmaTransactionCreate</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547099">WdfDmaTransactionInitialize</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547107">WdfDmaTransactionInitializeUsingRequest</a>
  
 
  
-
 

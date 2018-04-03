@@ -38,7 +38,8 @@ api_location:
 -	Stiusd.h
 api_name:
 -	IStiDeviceControl.Release
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STI_WIA_DEVICE_INFORMATIONW, *PSTI_WIA_DEVICE_INFORMATIONW
 req.product: Windows 10 or later.
@@ -51,14 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>IStiDeviceControl::Release</b> method closes the instance of the COM object that was created when a minidriver client called <a href="https://msdn.microsoft.com/library/windows/hardware/ff543824">IStiUSD::Initialize</a>.
-
-
-## -syntax
-
-
-````
-HRESULT Release();
-````
 
 
 ## -parameters
@@ -90,7 +83,6 @@ A still image minidriver receives an <b>IStiDeviceControl</b> interface pointer 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542933">IStiDeviceControl::AddRef</a>
 
 
 
@@ -98,8 +90,8 @@ A still image minidriver receives an <b>IStiDeviceControl</b> interface pointer 
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542933">IStiDeviceControl::AddRef</a>
  
 
  
-
 

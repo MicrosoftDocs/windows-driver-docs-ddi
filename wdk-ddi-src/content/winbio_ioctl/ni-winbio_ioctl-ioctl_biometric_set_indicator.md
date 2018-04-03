@@ -38,7 +38,8 @@ api_location:
 -	Winbio_ioctl.h
 api_name:
 -	IOCTL_BIOMETRIC_SET_INDICATOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BMP_IMAGE_INFO, *PBMP_IMAGE_INFO
 req.product: Windows 10 or later.
@@ -63,13 +64,13 @@ The IOCTL_BIOMETRIC_SET_INDICATOR IOCTL directs the driver to update the status 
 ### -input-buffer
 
 
-<a href="..\winbio_ioctl\ns-winbio_ioctl-_winbio_set_indicator.md">WINBIO_SET_INDICATOR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536477">WINBIO_SET_INDICATOR</a>
 
 
 
 ### -input-buffer-length
 
-Length of a <a href="..\winbio_ioctl\ns-winbio_ioctl-_winbio_set_indicator.md">WINBIO_SET_INDICATOR</a> structure.
+Length of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff536477">WINBIO_SET_INDICATOR</a> structure.
 
 
 ### -output-buffer

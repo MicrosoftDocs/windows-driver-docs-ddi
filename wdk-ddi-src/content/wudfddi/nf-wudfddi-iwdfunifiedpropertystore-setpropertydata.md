@@ -38,7 +38,8 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFUnifiedPropertyStore.SetPropertyData
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
@@ -53,21 +54,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>SetPropertyData</b> method modifies the current setting of a device property.
-
-
-## -syntax
-
-
-````
-HRESULT SetPropertyData(
-  [in]           const DEVPROPKEY  *PropertyKey,
-  [in]                 LCID        Lcid,
-  [in]                 ULONG       Flags,
-  [in]                 DEVPROPTYPE PropertyType,
-  [in]                 ULONG       PropertyDataSize,
-  [in, optional]       PVOID       PropertyData
-);
-````
 
 
 ## -parameters
@@ -223,7 +209,6 @@ exit:
 
 ## -see-also
 
-<a href="..\wudfddi_types\ns-wudfddi_types-_wdf_property_store_root.md">WDF_PROPERTY_STORE_ROOT</a>
 
 
 
@@ -231,24 +216,24 @@ exit:
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451399">IWDFUnifiedPropertyStore</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451403">IWDFUnifiedPropertyStoreFactory</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451406">RetrieveUnifiedDevicePropertyStore</a>
 
 
 
-<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_property_store_root_class.md">WDF_PROPERTY_STORE_ROOT_CLASS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561453">WDF_PROPERTY_STORE_ROOT</a>
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfunifiedpropertystorefactory.md">IWDFUnifiedPropertyStoreFactory</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iwdfunifiedpropertystore.md">IWDFUnifiedPropertyStore</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561458">WDF_PROPERTY_STORE_ROOT_CLASS</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: kernel\clfsaddlogcontainer.htm
 old-project: kernel
 ms.assetid: 05ab9817-3f49-4ab5-b35d-1c89f5fe6e44
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: ClfsAddLogContainer, ClfsAddLogContainer routine [Kernel-Mode Driver Architecture], Clfs_30478f90-41d2-4a83-8291-83b90601dc11.xml, kernel.clfsaddlogcontainer, wdm/ClfsAddLogContainer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ext-MS-Win-fs-clfs-l1-1-0.dll
 api_name:
 -	ClfsAddLogContainer
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
@@ -54,18 +55,6 @@ req.product: Windows 10 or later.
 The <b>ClfsAddLogContainer</b> routine adds a container to a CLFS log.
 
 
-## -syntax
-
-
-````
-NTSTATUS ClfsAddLogContainer(
-  _In_ PLOG_FILE_OBJECT plfoLog,
-  _In_ PULONGLONG       pcbContainer,
-  _In_ PUNICODE_STRING  puszContainerPath
-);
-````
-
-
 ## -parameters
 
 
@@ -73,7 +62,7 @@ NTSTATUS ClfsAddLogContainer(
 
 ### -param plfoLog [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff554316">LOG_FILE_OBJECT</a> structure that represents the log to which the container will be added. The caller previously obtained this pointer by calling <a href="..\wdm\nf-wdm-clfscreatelogfile.md">ClfsCreateLogFile</a>.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff554316">LOG_FILE_OBJECT</a> structure that represents the log to which the container will be added. The caller previously obtained this pointer by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff540792">ClfsCreateLogFile</a>.
 
 
 ### -param pcbContainer [in]
@@ -97,7 +86,7 @@ If the log currently has at least one container and this parameter is a valid po
 
 ### -param puszContainerPath [in]
 
-A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that supplies the path name for the new container. The path can be absolute or relative to the location of the base log file. Paths that are relative to the base log file must begin with CLFS_CONTAINER_RELATIVE_PREFIX, which is the string literal (L"%BLF%\\").
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure that supplies the path name for the new container. The path can be absolute or relative to the location of the base log file. Paths that are relative to the base log file must begin with CLFS_CONTAINER_RELATIVE_PREFIX, which is the string literal (L"%BLF%\\").
 
 
 ## -returns
@@ -130,16 +119,15 @@ For an explanation of CLFS concepts and terminology, see <a href="https://msdn.m
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-clfsremovelogcontainer.md">ClfsRemoveLogContainer</a>
 
 
 
-<a href="..\wdm\nf-wdm-clfsaddlogcontainerset.md">ClfsAddLogContainerSet</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540770">ClfsAddLogContainerSet</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541715">ClfsRemoveLogContainer</a>
  
 
  
-
 

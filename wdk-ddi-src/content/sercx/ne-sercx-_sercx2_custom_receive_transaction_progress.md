@@ -38,7 +38,8 @@ api_location:
 -	2.0\Sercx.h
 api_name:
 -	SERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS, *PSERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS
 req.product: Windows 10 or later.
@@ -51,17 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>SERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS</b> enumeration defines constants that indicate whether process is being made toward completing a custom-receive transaction.
-
-
-## -syntax
-
-
-````
-typedef enum _SERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS { 
-  SERCX2_CUSTOM_RECEIVE_NO_PROGRESS,
-  SERCX2_CUSTOM_RECEIVE_BYTES_TRANSFERRED
-} SERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS;
-````
 
 
 ## -enum-fields
@@ -91,19 +81,18 @@ No progress is being made. This value indicates that no data bytes have been tra
 
 
 
-The constants in this enumeration are used by the <a href="..\sercx\nf-sercx-sercx2customreceivetransactionreportprogress.md">SerCx2CustomReceiveTransactionReportProgress</a> method.
+The constants in this enumeration are used by the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265254">SerCx2CustomReceiveTransactionReportProgress</a> method.
 
 
 
 
 ## -see-also
 
-<a href="..\sercx\nf-sercx-sercx2customreceivetransactionreportprogress.md">SerCx2CustomReceiveTransactionReportProgress</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265254">SerCx2CustomReceiveTransactionReportProgress</a>
  
 
  
-
 

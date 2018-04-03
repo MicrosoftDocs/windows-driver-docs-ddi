@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	IPrintSchemaOption.Selected
 -	IPrintSchemaOption.get_Selected
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PrintSchemaSelectionType
 req.product: Windows 10 or later.
@@ -56,27 +57,16 @@ Indicates whether this option is selected.
 This property is read-only.
 
 
-## -syntax
-
-
-````
-HRESULT get_Selected(
-  [out, retval] BOOL *pbIsSelected
-);
-````
-
-
 ## -parameters
 
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintschemaoption.md">IPrintSchemaOption</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451335">IPrintSchemaOption</a>
  
 
  
-
 

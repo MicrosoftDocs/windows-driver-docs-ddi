@@ -38,7 +38,8 @@ api_location:
 -	printerextension.h
 api_name:
 -	IPrintSchemaTicket.CommitAsync
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PrintSchemaSelectionType
 req.product: Windows 10 or later.
@@ -51,17 +52,6 @@ req.product: Windows 10 or later.
 
 
 Gets an  asynchronous PrintTicket commit operation context.
-
-
-## -syntax
-
-
-````
-HRESULT CommitAsync(
-  [in]  IPrintSchemaTicket         *pPrintTicketCommit,
-  [out] IPrintSchemaAsyncOperation **ppAsyncOperation
-);
-````
 
 
 ## -parameters
@@ -99,7 +89,6 @@ To perform the commit operation, call the <a href="https://msdn.microsoft.com/8A
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintschematicket.md">IPrintSchemaTicket</a>
 
 
 
@@ -111,8 +100,8 @@ To perform the commit operation, call the <a href="https://msdn.microsoft.com/8A
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451398">IPrintSchemaTicket</a>
  
 
  
-
 

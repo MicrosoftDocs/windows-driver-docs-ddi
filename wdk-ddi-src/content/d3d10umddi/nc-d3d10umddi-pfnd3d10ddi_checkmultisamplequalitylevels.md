@@ -7,7 +7,7 @@ old-location: display\checkmultisamplequalitylevels.htm
 old-project: display
 ms.assetid: 2b6a0ab8-f197-48c3-baf2-305b77b7e8b5
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: CheckMultisampleQualityLevels, CheckMultisampleQualityLevels callback function [Display Devices], PFND3D10DDI_CHECKMULTISAMPLEQUALITYLEVELS, UserModeDisplayDriverDx10_Functions_d19bc4c0-49ba-4e1c-b19e-667905ceb391.xml, d3d10umddi/CheckMultisampleQualityLevels, display.checkmultisamplequalitylevels
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3d10umddi.h
 api_name:
 -	CheckMultisampleQualityLevels
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 ---
@@ -52,34 +53,18 @@ req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 The <b>CheckMultisampleQualityLevels</b> function retrieves the number of quality levels that the device supports for the specified number of samples. 
 
 
-## -prototype
-
-
-````
-PFND3D10DDI_CHECKMULTISAMPLEQUALITYLEVELS CheckMultisampleQualityLevels;
-
-VOID APIENTRY CheckMultisampleQualityLevels(
-  _In_  D3D10DDI_HDEVICE hDevice,
-  _In_  DXGI_FORMAT      Format,
-  _In_  UINT             SampleCount,
-  _Out_ UINT             *pNumQualityLevels
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
 
 
-### -param D3D10DDI_HDEVICE
+### -param Arg1
 
 
-### -param DXGI_FORMAT
+### -param Arg2
 
 
-### -param UINT
+### -param Arg3
 
 
 ### -param *
@@ -117,7 +102,7 @@ A pointer to a variable that receives the number of quality levels that the devi
 
 None
 
-The driver can use the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a> callback function to set an error code. The driver can set E_INVALIDARG if the format in the <i>Format</i> parameter does not exist or the <i>pNumQualityLevels</i> parameter is <b>NULL</b>.
+The driver can use the <a href="https://msdn.microsoft.com/968b04a7-8869-410c-a6fc-83d57726858f">pfnSetErrorCb</a> callback function to set an error code. The driver can set E_INVALIDARG if the format in the <i>Format</i> parameter does not exist or the <i>pNumQualityLevels</i> parameter is <b>NULL</b>.
 
 
 
@@ -139,16 +124,15 @@ If the driver receives 0 or greater than 32 in <i>SampleCount</i>, the driver al
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541833">D3D10DDI_DEVICEFUNCS</a>
 
 
 
+<a href="https://msdn.microsoft.com/968b04a7-8869-410c-a6fc-83d57726858f">pfnSetErrorCb</a>
  
 
  
-
 

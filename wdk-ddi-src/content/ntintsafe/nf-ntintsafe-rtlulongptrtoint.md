@@ -7,7 +7,7 @@ old-location: kernel\rtlulongptrtoint.htm
 old-project: kernel
 ms.assetid: 722A6A13-CAF0-46F3-936A-6E09480D4AC3
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: RtlULongPtrToInt, RtlULongPtrToInt function [Kernel-Mode Driver Architecture], kernel.rtlulongptrtoint, ntintsafe/RtlULongPtrToInt
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ntintsafe.h
 api_name:
 -	RtlULongPtrToInt
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 ---
@@ -50,17 +51,6 @@ req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 
 
 Converts a value of type <b>ULONG_PTR</b> to a value of type <b>INT</b>.
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlULongPtrToInt(
-  _In_  ULONG_PTR ulOperand,
-  _Out_ INT       *piResult
-);
-````
 
 
 ## -parameters

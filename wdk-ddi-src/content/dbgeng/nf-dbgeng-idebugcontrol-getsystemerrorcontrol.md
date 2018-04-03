@@ -7,7 +7,7 @@ old-location: debugger\getsystemerrorcontrol.htm
 old-project: debugger
 ms.assetid: 727df033-ddaf-45a7-bdca-51a9ee0404fb
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: GetSystemErrorControl method [Windows Debugging], GetSystemErrorControl method [Windows Debugging], IDebugControl interface, GetSystemErrorControl method [Windows Debugging], IDebugControl2 interface, GetSystemErrorControl method [Windows Debugging], IDebugControl3 interface, GetSystemErrorControl,IDebugControl.GetSystemErrorControl, IDebugControl, IDebugControl interface [Windows Debugging], GetSystemErrorControl method, IDebugControl2 interface [Windows Debugging], GetSystemErrorControl method, IDebugControl2::GetSystemErrorControl, IDebugControl3 interface [Windows Debugging], GetSystemErrorControl method, IDebugControl3::GetSystemErrorControl, IDebugControl::GetSystemErrorControl, IDebugControl_94595f9e-7e73-4291-a904-49f1a8fbbaa8.xml, dbgeng/IDebugControl2::GetSystemErrorControl, dbgeng/IDebugControl3::GetSystemErrorControl, dbgeng/IDebugControl::GetSystemErrorControl, debugger.getsystemerrorcontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,8 @@ api_name:
 -	IDebugControl.GetSystemErrorControl
 -	IDebugControl2.GetSystemErrorControl
 -	IDebugControl3.GetSystemErrorControl
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -52,17 +53,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetSystemErrorControl</b> method returns the control values for handling system errors.
-
-
-## -syntax
-
-
-````
-HRESULT GetSystemErrorControl(
-  [out] PULONG OutputLevel,
-  [out] PULONG BreakLevel
-);
-````
 
 
 ## -parameters
@@ -121,11 +111,18 @@ When a system error occurs, the engine calls the <a href="https://msdn.microsoft
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556806">SetSystemErrorControl</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550508">IDebugControl</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550512">IDebugControl2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550519">IDebugControl3</a>
 
 
 
@@ -133,16 +130,8 @@ When a system error occurs, the engine calls the <a href="https://msdn.microsoft
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556806">SetSystemErrorControl</a>
  
 
  
-
 

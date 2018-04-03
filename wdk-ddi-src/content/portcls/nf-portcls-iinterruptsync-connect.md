@@ -7,7 +7,7 @@ old-location: audio\iinterruptsync_connect.htm
 old-project: audio
 ms.assetid: 62cb451d-1170-4462-94ac-0477adc5946b
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/19/2018
 ms.keywords: Connect method [Audio Devices], Connect method [Audio Devices], IInterruptSync interface, Connect,IInterruptSync.Connect, IInterruptSync, IInterruptSync interface [Audio Devices], Connect method, IInterruptSync::Connect, audio.iinterruptsync_connect, audmp-routines_10f66201-af8d-42ff-a854-04f5cb90f2cc.xml, portcls/IInterruptSync::Connect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	portcls.h
 api_name:
 -	IInterruptSync.Connect
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
@@ -50,16 +51,6 @@ req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 
 
 The <code>Connect</code> method connects the synchronization object to the interrupt.
-
-
-## -syntax
-
-
-````
-NTSTATUS Connect(
-    None
-);
-````
 
 
 ## -parameters
@@ -85,27 +76,26 @@ NTSTATUS Connect(
 
 
 
-This method connects the synchronization object to the interrupt that was specified in the call to <a href="..\portcls\nf-portcls-pcnewinterruptsync.md">PcNewInterruptSync</a> that created the synchronization object. The interrupt is specified in the <b>PcNewInterruptSync</b> function's <i>ResourceList</i> and <i>ResourceIndex</i> parameters.
+This method connects the synchronization object to the interrupt that was specified in the call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff537713">PcNewInterruptSync</a> that created the synchronization object. The interrupt is specified in the <b>PcNewInterruptSync</b> function's <i>ResourceList</i> and <i>ResourceIndex</i> parameters.
 
 
 
 
 ## -see-also
 
-<a href="..\portcls\nf-portcls-pcnewinterruptsync.md">PcNewInterruptSync</a>
 
 
 
-<a href="..\wdm\nf-wdm-ioconnectinterrupt.md">IoConnectInterrupt</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536590">IInterruptSync</a>
 
 
 
-<a href="..\portcls\nn-portcls-iinterruptsync.md">IInterruptSync</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548371">IoConnectInterrupt</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537713">PcNewInterruptSync</a>
  
 
  
-
 

@@ -38,7 +38,8 @@ api_location:
 -	Gpioclx.h
 api_name:
 -	CLIENT_QuerySetControllerInformation
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GNSS_V2UPL_NI_INFO, *PGNSS_V2UPL_NI_INFO
 ---
@@ -50,21 +51,6 @@ req.typenames: GNSS_V2UPL_NI_INFO, *PGNSS_V2UPL_NI_INFO
 
 
 The <i>CLIENT_QuerySetControllerInformation</i> event callback function queries the general-purpose I/O (GPIO) controller driver for the specified set of attributes of the GPIO controller.
-
-
-## -prototype
-
-
-````
-GPIO_CLIENT_QUERY_SET_CONTROLLER_INFORMATION CLIENT_QuerySetControllerInformation;
-
-NTSTATUS CLIENT_QuerySetControllerInformation(
-  _In_      PVOID                                           Context,
-  _In_      PCLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT  InputBuffer,
-  _Out_opt_ PCLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT OutputBuffer
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -167,11 +153,6 @@ The GPIO_CLIENT_QUERY_SET_CONTROLLER_INFORMATION function type is defined in the
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh698239">CLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh698240">CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE</a>
 
 
 
@@ -179,8 +160,12 @@ The GPIO_CLIENT_QUERY_SET_CONTROLLER_INFORMATION function type is defined in the
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh698239">CLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh698240">CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE</a>
  
 
  
-
 

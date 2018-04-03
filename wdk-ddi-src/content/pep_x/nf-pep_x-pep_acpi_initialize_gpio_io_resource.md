@@ -7,7 +7,7 @@ old-location: kernel\pep_acpi_initialize_gpio_io_resource.htm
 old-project: kernel
 ms.assetid: D32E24E4-FAF4-401B-85FB-4D522C52093E
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: PEP_ACPI_INITIALIZE_GPIO_IO_RESOURCE, PEP_ACPI_INITIALIZE_GPIO_IO_RESOURCE function [Kernel-Mode Driver Architecture], kernel.pep_acpi_initialize_gpio_io_resource, pepfx/PEP_ACPI_INITIALIZE_GPIO_IO_RESOURCE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	pepfx.h
 api_name:
 -	PEP_ACPI_INITIALIZE_GPIO_IO_RESOURCE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PEP_WORK_TYPE, *PPEP_WORK_TYPE, PEP_WORK_TYPE, *PPEP_WORK_TYPE
 ---
@@ -49,31 +50,7 @@ req.typenames: PEP_WORK_TYPE, *PPEP_WORK_TYPE, PEP_WORK_TYPE, *PPEP_WORK_TYPE
 ## -description
 
 
-The <b>PEP_ACPI_INITIALIZE_GPIO_IO_RESOURCE</b> function initializes a platform extension plug-in's (PEP) <a href="..\pepfx\ns-pepfx-_pep_acpi_gpio_resource.md">PEP_ACPI_GPIO_RESOURCE</a> structure.
-
-
-## -syntax
-
-
-````
-__inline
-VOID PEP_ACPI_INITIALIZE_GPIO_IO_RESOURCE(
-  _In_  BOOLEAN                     Shareable,
-  _In_  BOOLEAN                     CanWake,
-  _In_  GPIO_PIN_CONFIG_TYPE        PinConfig,
-  _In_  USHORT                      DebounceTimeout,
-  _In_  USHORT                      DriveStrength,
-  _In_  GPIO_PIN_IORESTRICTION_TYPE IoRestriction,
-  _In_  UCHAR                       ResourceSourceIndex,
-  _In_  PUNICODE_STRING             ResourceSourceName,
-  _In_  BOOLEAN                     ResourceUsage,
-  _In_  PUCHAR                      VendorData,
-  _In_  USHORT                      VendorDataLength,
-  _In_  PUSHORT                     PinTable,
-  _In_  UCHAR                       PinCount,
-  _Out_ PPEP_ACPI_RESOURCE          Resource
-);
-````
+The <b>PEP_ACPI_INITIALIZE_GPIO_IO_RESOURCE</b> function initializes a platform extension plug-in's (PEP) <a href="https://msdn.microsoft.com/library/windows/hardware/mt186671">PEP_ACPI_GPIO_RESOURCE</a> structure.
 
 
 ## -parameters
@@ -93,7 +70,7 @@ Indicates if the device can be woken from a low-power state.
 
 ### -param PinConfig [in]
 
-A <a href="..\pepfx\ne-pepfx-_gpio_pin_config_type.md">GPIO_PIN_CONFIG_TYPE</a> enumeration value that identifies the GPIO pin configuration type.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/mt186634">GPIO_PIN_CONFIG_TYPE</a> enumeration value that identifies the GPIO pin configuration type.
 
 
 ### -param DebounceTimeout [in]
@@ -144,7 +121,7 @@ The number of pins described by the <i>PinTable</i> parameter.
 
 ### -param Resource [out]
 
-A pointer to the resource. The structure behind the pointer is of type <a href="..\pepfx\ns-pepfx-_pep_acpi_gpio_resource.md">PEP_ACPI_GPIO_RESOURCE</a>.
+A pointer to the resource. The structure behind the pointer is of type <a href="https://msdn.microsoft.com/library/windows/hardware/mt186671">PEP_ACPI_GPIO_RESOURCE</a>.
 
 
 ## -returns
@@ -158,16 +135,15 @@ This function does not return a value.
 
 ## -see-also
 
-<a href="..\pepfx\ns-pepfx-_pep_acpi_gpio_resource.md">PEP_ACPI_GPIO_RESOURCE</a>
 
 
 
-<a href="..\pepfx\ne-pepfx-_gpio_pin_config_type.md">GPIO_PIN_CONFIG_TYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186634">GPIO_PIN_CONFIG_TYPE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186671">PEP_ACPI_GPIO_RESOURCE</a>
  
 
  
-
 

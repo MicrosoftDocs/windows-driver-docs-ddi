@@ -38,7 +38,8 @@ api_location:
 -	avc.h
 api_name:
 -	AVC_SUBUNIT_ADDR_SPEC
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: AVC_SUBUNIT_ADDR_SPEC, *PAVC_SUBUNIT_ADDR_SPEC
 ---

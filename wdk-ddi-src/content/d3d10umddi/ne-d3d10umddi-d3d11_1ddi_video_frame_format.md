@@ -7,7 +7,7 @@ old-location: display\d3d11_1ddi_video_frame_format.htm
 old-project: display
 ms.assetid: 36af5af2-dfb1-4827-8898-93e52f4c8312
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3D11_1DDI_VIDEO_FRAME_FORMAT, D3D11_1DDI_VIDEO_FRAME_FORMAT enumeration [Display Devices], D3D11_1DDI_VIDEO_FRAME_FORMAT_INTERLACED_BOTTOM_FIELD_FIRST, D3D11_1DDI_VIDEO_FRAME_FORMAT_INTERLACED_TOP_FIELD_FIRST, D3D11_1DDI_VIDEO_FRAME_FORMAT_PROGRESSIVE, d3d10umddi/D3D11_1DDI_VIDEO_FRAME_FORMAT, d3d10umddi/D3D11_1DDI_VIDEO_FRAME_FORMAT_INTERLACED_BOTTOM_FIELD_FIRST, d3d10umddi/D3D11_1DDI_VIDEO_FRAME_FORMAT_INTERLACED_TOP_FIELD_FIRST, d3d10umddi/D3D11_1DDI_VIDEO_FRAME_FORMAT_PROGRESSIVE, display.d3d11_1ddi_video_frame_format
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3d10umddi.h
 api_name:
 -	D3D11_1DDI_VIDEO_FRAME_FORMAT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D11_1DDI_VIDEO_FRAME_FORMAT
 ---
@@ -50,18 +51,6 @@ req.typenames: D3D11_1DDI_VIDEO_FRAME_FORMAT
 
 
 Describes how a video stream is interlaced.
-
-
-## -syntax
-
-
-````
-typedef enum D3D11_1DDI_VIDEO_FRAME_FORMAT { 
-  D3D11_1DDI_VIDEO_FRAME_FORMAT_PROGRESSIVE                    = 0,
-  D3D11_1DDI_VIDEO_FRAME_FORMAT_INTERLACED_TOP_FIELD_FIRST     = 1,
-  D3D11_1DDI_VIDEO_FRAME_FORMAT_INTERLACED_BOTTOM_FIELD_FIRST  = 2
-} D3D11_1DDI_VIDEO_FRAME_FORMAT;
-````
 
 
 ## -enum-fields

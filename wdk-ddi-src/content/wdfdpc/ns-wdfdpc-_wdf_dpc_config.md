@@ -38,7 +38,8 @@ api_location:
 -	wdfdpc.h
 api_name:
 -	WDF_DPC_CONFIG
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_DPC_CONFIG, *PWDF_DPC_CONFIG
 req.product: Windows 10 or later.
@@ -53,18 +54,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF only]
 
 The <b>WDF_DPC_CONFIG</b> structure contains configuration information for a DPC object.
-
-
-## -syntax
-
-
-````
-typedef struct _WDF_DPC_CONFIG {
-  ULONG       Size;
-  PFN_WDF_DPC EvtDpcFunc;
-  BOOLEAN     AutomaticSerialization;
-} WDF_DPC_CONFIG, *PWDF_DPC_CONFIG;
-````
 
 
 ## -struct-fields
@@ -91,13 +80,13 @@ A Boolean value that, if <b>TRUE</b>, indicates that the framework will synchron
 
 
 
-The <b>WDF_DPC_CONFIG</b> structure is used as input to <a href="..\wdfdpc\nf-wdfdpc-wdfdpccreate.md">WdfDpcCreate</a>. 
+The <b>WDF_DPC_CONFIG</b> structure is used as input to <a href="https://msdn.microsoft.com/library/windows/hardware/ff547140">WdfDpcCreate</a>. 
 
-To initialize a <b>WDF_DPC_CONFIG</b> structure, your driver should first call <a href="..\wdfdpc\nf-wdfdpc-wdf_dpc_config_init.md">WDF_DPC_CONFIG_INIT</a> and then fill in structure members that <b>WDF_DPC_CONFIG_INIT</b> does not initialize.
+To initialize a <b>WDF_DPC_CONFIG</b> structure, your driver should first call <a href="https://msdn.microsoft.com/library/windows/hardware/ff551298">WDF_DPC_CONFIG_INIT</a> and then fill in structure members that <b>WDF_DPC_CONFIG_INIT</b> does not initialize.
 
-Setting <b>AutomaticSerialization</b> to <b>TRUE</b> has no effect if the parent device object's <a href="..\wdfobject\ne-wdfobject-_wdf_synchronization_scope.md">synchronization scope</a> is set to <b>WdfSynchronizationScopeNone</b>.
+Setting <b>AutomaticSerialization</b> to <b>TRUE</b> has no effect if the parent device object's <a href="https://msdn.microsoft.com/a251bf5c-c09b-4097-a9ed-82f2312ac408">synchronization scope</a> is set to <b>WdfSynchronizationScopeNone</b>.
 
-Setting <b>AutomaticSerialization</b> to <b>TRUE</b> causes <a href="..\wdfdpc\nf-wdfdpc-wdfdpccreate.md">WdfDpcCreate</a> to fail if the parent device object's <a href="..\wdfobject\ne-wdfobject-_wdf_execution_level.md">execution level</a> is set to <b>WdfExecutionLevelPassive</b>.
+Setting <b>AutomaticSerialization</b> to <b>TRUE</b> causes <a href="https://msdn.microsoft.com/library/windows/hardware/ff547140">WdfDpcCreate</a> to fail if the parent device object's <a href="https://msdn.microsoft.com/82b1fe8e-054c-4710-9a32-d620a62a070e">execution level</a> is set to <b>WdfExecutionLevelPassive</b>.
 
 For more information about <b>AutomaticSerialization</b> and synchronizing driver callback functions, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/synchronization-techniques-for-wdf-drivers">Synchronization Techniques for Framework-Based Drivers</a>.
 
@@ -108,11 +97,10 @@ For more information about handling interrupts in framework-based drivers, see <
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/b934a0da-0709-4427-bbf2-8d53f9511cf1">EvtDpcFunc</a>
-
-
-
-<a href="..\wdfdpc\nf-wdfdpc-wdfdpccreate.md">WdfDpcCreate</a>
 
 
 
@@ -120,12 +108,12 @@ For more information about handling interrupts in framework-based drivers, see <
 
 
 
-<a href="..\wdfdpc\nf-wdfdpc-wdf_dpc_config_init.md">WDF_DPC_CONFIG_INIT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551298">WDF_DPC_CONFIG_INIT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547140">WdfDpcCreate</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: debugger\findsourcefileandtoken.htm
 old-project: debugger
 ms.assetid: 92748e47-c536-4bf2-be10-91b8c5f1206d
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: FindSourceFileAndToken method [Windows Debugging], FindSourceFileAndToken method [Windows Debugging], IDebugAdvanced2 interface, FindSourceFileAndToken method [Windows Debugging], IDebugAdvanced3 interface, FindSourceFileAndToken,IDebugAdvanced2.FindSourceFileAndToken, IDebugAdvanced2, IDebugAdvanced2 interface [Windows Debugging], FindSourceFileAndToken method, IDebugAdvanced2::FindSourceFileAndToken, IDebugAdvanced3 interface [Windows Debugging], FindSourceFileAndToken method, IDebugAdvanced3::FindSourceFileAndToken, IDebugAdvanced_3c88de99-1ddb-47e4-ab70-37a2521b9f1b.xml, dbgeng/IDebugAdvanced2::FindSourceFileAndToken, dbgeng/IDebugAdvanced3::FindSourceFileAndToken, debugger.findsourcefileandtoken
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	IDebugAdvanced2.FindSourceFileAndToken
 -	IDebugAdvanced3.FindSourceFileAndToken
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -51,25 +52,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>FindSourceFileAndToken</b> method returns the filename of a source file on the source path or return the value of a variable associated with a file token.
-
-
-## -syntax
-
-
-````
-HRESULT FindSourceFileAndToken(
-  [in]            ULONG   StartElement,
-  [in]            ULONG64 ModAddr,
-  [in]            PCSTR   File,
-  [in]            ULONG   Flags,
-  [in, optional]  PVOID   FileToken,
-  [in]            ULONG   FileTokenSize,
-  [out, optional] PULONG  FoundElement,
-  [out, optional] PSTR    Buffer,
-  [in]            ULONG   BufferSize,
-  [out, optional] PULONG  FoundSize
-);
-````
 
 
 ## -parameters
@@ -277,11 +259,6 @@ The value DEBUG_FIND_SOURCE_DEFULT defines the default set of flags, which means
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugadvanced2.md">IDebugAdvanced2</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548321">GetSourceFileInformation</a>
 
 
 
@@ -289,11 +266,11 @@ The value DEBUG_FIND_SOURCE_DEFULT defines the default set of flags, which means
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugadvanced3.md">IDebugAdvanced3</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545423">FindSourceFile</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548321">GetSourceFileInformation</a>
 
 
 
@@ -301,8 +278,12 @@ The value DEBUG_FIND_SOURCE_DEFULT defines the default set of flags, which means
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549803">IDebugAdvanced2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549807">IDebugAdvanced3</a>
  
 
  
-
 

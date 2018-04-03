@@ -7,7 +7,7 @@ old-location: display\dxva_coppsignature.htm
 old-project: display
 ms.assetid: 12520b5d-b994-4af5-9bcf-5140616786e8
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*LPDXVA_COPPSignature, DXVA_COPPSignature, DXVA_COPPSignature structure [Display Devices], LPDXVA_COPPSignature, LPDXVA_COPPSignature structure pointer [Display Devices], _DXVA_COPPSignature, display.dxva_coppsignature, dxva/DXVA_COPPSignature, dxva/LPDXVA_COPPSignature, dxvaref_9194eb73-7b7e-4d28-b589-08ddd24eaf0c.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	dxva.h
 api_name:
 -	DXVA_COPPSignature
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXVA_COPPSignature, *LPDXVA_COPPSignature
 ---
@@ -50,16 +51,6 @@ req.typenames: DXVA_COPPSignature, *LPDXVA_COPPSignature
 
 
 The DXVA_COPPSignature structure describes a sequence of items concatenated together that starts an active protected video session. 
-
-
-## -syntax
-
-
-````
-typedef struct _DXVA_COPPSignature {
-  UCHAR Signature[256];
-} DXVA_COPPSignature, *LPDXVA_COPPSignature;
-````
 
 
 ## -struct-fields
@@ -103,7 +94,6 @@ The array at <b>Signature</b> consists of the following items concatenated toget
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540421">COPPSequenceStart</a>
 
 
 
@@ -111,8 +101,8 @@ The array at <b>Signature</b> consists of the following items concatenated toget
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540421">COPPSequenceStart</a>
  
 
  
-
 

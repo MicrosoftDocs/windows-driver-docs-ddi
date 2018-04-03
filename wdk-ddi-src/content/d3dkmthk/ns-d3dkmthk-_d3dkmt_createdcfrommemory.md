@@ -7,7 +7,7 @@ old-location: display\d3dkmt_createdcfrommemory.htm
 old-project: display
 ms.assetid: 260fd894-fc5a-4a27-ac35-3f1b145b52b7
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMT_CREATEDCFROMMEMORY, D3DKMT_CREATEDCFROMMEMORY structure [Display Devices], OpenGL_Structs_b56e280f-e29b-4781-942a-a36024786d9e.xml, _D3DKMT_CREATEDCFROMMEMORY, d3dkmthk/D3DKMT_CREATEDCFROMMEMORY, display.d3dkmt_createdcfrommemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmthk.h
 api_name:
 -	D3DKMT_CREATEDCFROMMEMORY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_CREATEDCFROMMEMORY
 ---
@@ -50,24 +51,6 @@ req.typenames: D3DKMT_CREATEDCFROMMEMORY
 
 
 The D3DKMT_CREATEDCFROMMEMORY structure describes parameters for creating the display context.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_CREATEDCFROMMEMORY {
-  VOID         *pMemory;
-  D3DDDIFORMAT Format;
-  UINT         Width;
-  UINT         Height;
-  UINT         Pitch;
-  HDC          hDeviceDc;
-  PALETTEENTRY *pColorTable;
-  HDC          hDc;
-  HANDLE       hBitmap;
-} D3DKMT_CREATEDCFROMMEMORY;
-````
 
 
 ## -struct-fields
@@ -82,7 +65,7 @@ typedef struct _D3DKMT_CREATEDCFROMMEMORY {
 
 ### -field Format
 
-[in] A <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>-typed value that indicates the pixel format for the memory block that <b>pMemory</b> points to.
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff544312">D3DDDIFORMAT</a>-typed value that indicates the pixel format for the memory block that <b>pMemory</b> points to.
 
 
 ### -field Width
@@ -122,16 +105,15 @@ typedef struct _D3DKMT_CREATEDCFROMMEMORY {
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreatedcfrommemory.md">D3DKMTCreateDCFromMemory</a>
 
 
 
-<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544312">D3DDDIFORMAT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546826">D3DKMTCreateDCFromMemory</a>
  
 
  
-
 

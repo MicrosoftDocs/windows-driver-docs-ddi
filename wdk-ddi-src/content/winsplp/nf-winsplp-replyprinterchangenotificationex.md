@@ -38,7 +38,8 @@ api_location:
 -	Winsplp.h
 api_name:
 -	ReplyPrinterChangeNotificationEx
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NOTIFICATION_CONFIG_FLAGS
 req.product: Windows 10 or later.
@@ -51,20 +52,6 @@ req.product: Windows 10 or later.
 
 
 
-
-
-## -syntax
-
-
-````
- WINAPI ReplyPrinterChangeNotificationEx(
-  _In_  HANDLE    hNotify,
-        DWORD     dwColor,
-        DWORD     fdwFlags,
-  _Out_ PDWORD    pdwResult,
-  _In_  PVOID     pPrinterNotifyInfo
-);
-````
 
 
 ## -parameters

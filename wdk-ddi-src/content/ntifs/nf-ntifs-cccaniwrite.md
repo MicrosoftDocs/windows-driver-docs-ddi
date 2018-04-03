@@ -7,7 +7,7 @@ old-location: ifsk\cccaniwrite.htm
 old-project: ifsk
 ms.assetid: 04b1521f-906f-493d-9ca6-6d97c6a80bdb
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: CcCanIWrite, CcCanIWrite routine [Installable File System Drivers], ccref_b964dbf1-d1ad-4929-ab9c-21b1e6f69077.xml, ifsk.cccaniwrite, ntifs/CcCanIWrite
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	CcCanIWrite
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -50,19 +51,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>CcCanIWrite</b> routine determines whether the caller can write to a cached file.
-
-
-## -syntax
-
-
-````
-BOOLEAN CcCanIWrite(
-  _In_ PFILE_OBJECT FileObject,
-  _In_ ULONG        BytesToWrite,
-  _In_ BOOLEAN      Wait,
-  _In_ UCHAR        Retrying
-);
-````
 
 
 ## -parameters
@@ -103,11 +91,11 @@ Set to <b>FALSE</b> if this is the first time <b>CcCanIWrite</b> is being called
 
 
 
-<b>CcCanIWrite</b> should be called before calling <a href="..\ntifs\nf-ntifs-cccopywrite.md">CcCopyWrite</a> or <a href="..\ntifs\nf-ntifs-ccfastcopywrite.md">CcFastCopyWrite</a>.
+<b>CcCanIWrite</b> should be called before calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff539045">CcCopyWrite</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff539075">CcFastCopyWrite</a>.
 
-If <b>CcCanIWrite</b> returns <b>TRUE</b>, the caller can immediately call <a href="..\ntifs\nf-ntifs-cccopywrite.md">CcCopyWrite</a> or <a href="..\ntifs\nf-ntifs-ccfastcopywrite.md">CcFastCopyWrite</a>.
+If <b>CcCanIWrite</b> returns <b>TRUE</b>, the caller can immediately call <a href="https://msdn.microsoft.com/library/windows/hardware/ff539045">CcCopyWrite</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff539075">CcFastCopyWrite</a>.
 
-If <b>CcCanIWrite</b> returns <b>FALSE</b>, the caller must instead call <a href="..\ntifs\nf-ntifs-ccdeferwrite.md">CcDeferWrite</a> to defer the write request.
+If <b>CcCanIWrite</b> returns <b>FALSE</b>, the caller must instead call <a href="https://msdn.microsoft.com/library/windows/hardware/ff539060">CcDeferWrite</a> to defer the write request.
 
 Generally speaking, the cache manager can accept a write request if the following conditions are true:
 
@@ -129,35 +117,34 @@ If a per-file dirty page threshold exists for this file, it is not exceeded by t
 
 </li>
 </ul>
-To cache a file, use <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>.
+To cache a file, use <a href="https://msdn.microsoft.com/library/windows/hardware/ff539135">CcInitializeCacheMap</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-cccopywrite.md">CcCopyWrite</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539045">CcCopyWrite</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-ccdeferwrite.md">CcDeferWrite</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539060">CcDeferWrite</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-ccsetdirtypagethreshold.md">CcSetDirtyPageThreshold</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539075">CcFastCopyWrite</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-ccfastcopywrite.md">CcFastCopyWrite</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539135">CcInitializeCacheMap</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539209">CcSetDirtyPageThreshold</a>
  
 
  
-
 

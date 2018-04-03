@@ -38,7 +38,8 @@ api_location:
 -	Bthddi.h
 api_name:
 -	INDICATION_PARAMETERS_ENHANCED
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: "*PINDICATION_PARAMETERS_ENHANCED, INDICATION_PARAMETERS_ENHANCED, *PINDICATION_PARAMETERS_ENHANCED"
 ---
@@ -49,54 +50,8 @@ req.typenames: "*PINDICATION_PARAMETERS_ENHANCED, INDICATION_PARAMETERS_ENHANCED
 ## -description
 
 
-The INDICATION_PARAMETERS_ENHANCED structure is passed as the Parameters parameter to a profile driver's <a href="..\bthddi\nc-bthddi-pfnbthport_indication_callback_enhanced.md">enhanced L2CAP Callback Function</a>
+The INDICATION_PARAMETERS_ENHANCED structure is passed as the Parameters parameter to a profile driver's <a href="https://msdn.microsoft.com/1C08937A-2B0C-4A6C-ACDF-1A751BF0D6F6">enhanced L2CAP Callback Function</a>
 
-
-
-## -syntax
-
-
-````
-typedef struct _INDICATION_PARAMETERS_ENHANCED {
-  L2CAP_CHANNEL_HANDLE ConnectionHandle;
-  BTH_ADDR             BtAddress;
-  union {
-    struct {
-      struct {
-        USHORT PSM;
-      } Request;
-    } Connect;
-    struct {
-      CHANNEL_CONFIG_PARAMETERS_ENHANCED CurrentParams;
-      CHANNEL_CONFIG_PARAMETERS_ENHANCED RequestedParams;
-      CHANNEL_CONFIG_PARAMETERS_ENHANCED ResponseParams;
-      USHORT                             Response;
-    } ConfigRequest;
-    struct {
-      CHANNEL_CONFIG_PARAMETERS_ENHANCED CurrentParams;
-      CHANNEL_CONFIG_PARAMETERS_ENHANCED RequestedParams;
-      CHANNEL_CONFIG_PARAMETERS_ENHANCED RejectedParams;
-      PCO_TYPE                           UnknownTypes;
-      ULONG                              NumUnknownTypes;
-      CHANNEL_CONFIG_PARAMETERS_ENHANCED NewRequestParams;
-      USHORT                             Response;
-    } ConfigResponse;
-    struct {
-      ULONG                NumExtraOptions;
-      PL2CAP_CONFIG_OPTION ExtraOptions;
-    } FreeExtraOptions;
-    struct {
-      L2CAP_DISCONNECT_REASON Reason;
-      BOOLEAN                 CloseNow;
-    } Disconnect;
-    struct {
-      ULONG PacketLength;
-      ULONG TotalQueueLength;
-    } RecvPacket;
-    PVOID  Reserved;
-  } Parameters;
-} INDICATION_PARAMETERS_ENHANCED, *PINDICATION_PARAMETERS_ENHANCED;
-````
 
 
 ## -struct-fields
@@ -152,7 +107,7 @@ The structure that contains parameters for the
 ### -field Parameters.ConfigRequest.CurrentParams
 
 A 
-       <a href="..\bthddi\ns-bthddi-_channel_config_parameters_enhanced.md">CHANNEL_CONFIG_PARAMETERS_ENHANCED</a> structure that contains the parameters for the current channel. This
+       <a href="https://msdn.microsoft.com/library/windows/hardware/hh450869">CHANNEL_CONFIG_PARAMETERS_ENHANCED</a> structure that contains the parameters for the current channel. This
        value is only valid if the channel was previously open and is now in the process of being configured.
        This member is used when the callback function specifies the 
        <i>IndicationRemoteConfigRequest</i> INDICATION_CODE value.
@@ -247,7 +202,7 @@ The structure that contains parameters for the
 ### -field Parameters.ConfigResponse.CurrentParams
 
 A 
-       <a href="..\bthddi\ns-bthddi-_channel_config_parameters_enhanced.md">CHANNEL_CONFIG_PARAMETERS_ENHANCED</a> structure that contains the parameters for the current channel. This
+       <a href="https://msdn.microsoft.com/library/windows/hardware/hh450869">CHANNEL_CONFIG_PARAMETERS_ENHANCED</a> structure that contains the parameters for the current channel. This
        value is only valid if the channel was previously open and is now in the process of being configured.
        This member is used when the callback function specifies the 
        <i>IndicationRemoteConfigRequest</i> INDICATION_CODE value.
@@ -376,7 +331,7 @@ The structure that contains the parameters for the
 ### -field Parameters.Disconnect.Reason
 
 An 
-       <a href="..\bthddi\ne-bthddi-_l2cap_disconnect_reason.md">L2CAP_DISCONNECT_REASON</a> value that
+       <a href="https://msdn.microsoft.com/library/windows/hardware/ff536763">L2CAP_DISCONNECT_REASON</a> value that
        indicates why the L2CAP connection to the remote device was terminated.
 
 

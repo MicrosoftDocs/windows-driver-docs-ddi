@@ -38,7 +38,8 @@ api_location:
 -	nfccx.h
 api_name:
 -	NFC_CX_HOST_ACTION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NFC_CX_HOST_ACTION, *PNFC_CX_HOST_ACTION
 ---
@@ -50,19 +51,6 @@ req.typenames: NFC_CX_HOST_ACTION, *PNFC_CX_HOST_ACTION
 
 
 The NFC_CX_HOST_ACTION enumeration specifies host actions.
-
-
-## -syntax
-
-
-````
-typedef enum _NFC_CX_HOST_ACTION { 
-  HostActionStart    = 0,
-  HostActionStop     = 1,
-  HostActionRestart  = 2,
-  HostActionUnload   = 3
-} NFC_CX_HOST_ACTION;
-````
 
 
 ## -enum-fields
@@ -92,16 +80,15 @@ Specifies to unload the driver.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
 
 
 
 <a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
-
-
-
  
 
  
-
 

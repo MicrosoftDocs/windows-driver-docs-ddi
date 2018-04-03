@@ -38,7 +38,8 @@ api_location:
 -	winspool.h
 api_name:
 -	BIDI_RESPONSE_CONTAINER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BIDI_RESPONSE_CONTAINER, *PBIDI_RESPONSE_CONTAINER, *LPBIDI_RESPONSE_CONTAINER
 req.product: Windows 10 or later.
@@ -51,19 +52,6 @@ req.product: Windows 10 or later.
 
 
 The BIDI_RESPONSE_CONTAINER structure is a container for a list of bidi responses.
-
-
-## -syntax
-
-
-````
-typedef struct _BIDI_RESPONSE_CONTAINER {
-  DWORD              Version;
-  DWORD              Flags;
-  DWORD              Count;
-  BIDI_RESPONSE_DATA aData[1];
-} BIDI_RESPONSE_CONTAINER, *PBIDI_RESPONSE_CONTAINER, *LPBIDI_RESPONSE_CONTAINER;
-````
 
 
 ## -struct-fields
@@ -88,7 +76,7 @@ Specifies the number of responses in the <b>aData</b> member.
 
 ### -field aData
 
-Is an array of <a href="..\winspool\ns-winspool-_bidi_response_data.md">BIDI_RESPONSE_DATA</a> structures, each containing a single bidi response.
+Is an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff545204">BIDI_RESPONSE_DATA</a> structures, each containing a single bidi response.
 
 
 ## -remarks
@@ -97,27 +85,26 @@ Is an array of <a href="..\winspool\ns-winspool-_bidi_response_data.md">BIDI_RES
 
 Even though the <b>aData</b> member of this structure is an array with only a single array element, <b>aData</b>[0] should be thought of as the first element of an array of (possibly) an arbitrarily large size.
 
-The spooler's <a href="..\winsplp\nf-winsplp-routerallocbidiresponsecontainer.md">RouterAllocBidiResponseContainer</a> function allocates the memory needed for this structure, which is then used to hold an array of BIDI_RESPONSE_DATA structures. When a BIDI_RESPONSE_CONTAINER structure is no longer needed, it should be freed by a call to <a href="..\winsplp\nf-winsplp-routerfreebidiresponsecontainer.md">RouterFreeBidiResponseContainer</a>.
+The spooler's <a href="https://msdn.microsoft.com/library/windows/hardware/ff562001">RouterAllocBidiResponseContainer</a> function allocates the memory needed for this structure, which is then used to hold an array of BIDI_RESPONSE_DATA structures. When a BIDI_RESPONSE_CONTAINER structure is no longer needed, it should be freed by a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff562013">RouterFreeBidiResponseContainer</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\winsplp\nf-winsplp-routerallocbidiresponsecontainer.md">RouterAllocBidiResponseContainer</a>
 
 
 
-<a href="..\winspool\ns-winspool-_bidi_response_data.md">BIDI_RESPONSE_DATA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545204">BIDI_RESPONSE_DATA</a>
 
 
 
-<a href="..\winsplp\nf-winsplp-routerfreebidiresponsecontainer.md">RouterFreeBidiResponseContainer</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562001">RouterAllocBidiResponseContainer</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562013">RouterFreeBidiResponseContainer</a>
  
 
  
-
 

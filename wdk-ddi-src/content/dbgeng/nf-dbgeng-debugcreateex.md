@@ -7,7 +7,7 @@ old-location: debugger\debugcreateex.htm
 old-project: debugger
 ms.assetid: 851A9461-E085-4BDA-BB69-603F6932BFA6
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: DebugCreateEx, DebugCreateEx function [Windows Debugging], dbgeng/DebugCreateEx, debugger.debugcreateex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	dbgeng.h
 api_name:
 -	DebugCreateEx
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -50,18 +51,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>DebugCreateEx</b> function creates a new <a href="https://msdn.microsoft.com/173a67f1-093e-4462-8e2c-41d0f10106d0">client object</a> and returns an interface pointer to it.
-
-
-## -syntax
-
-
-````
-HRESULT DebugCreateEx(
-  _In_  REFIID InterfaceId,
-  _In_  DWORD  DbgEngOptions,
-  _Out_ PVOID  *Interface
-);
-````
 
 
 ## -parameters
@@ -136,16 +125,15 @@ As with <b>IUnknown::QueryInterface</b>, when the returned interface is no longe
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539137">Client Functions</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539140">Client Objects</a>
-
-
-
  
 
  
-
 

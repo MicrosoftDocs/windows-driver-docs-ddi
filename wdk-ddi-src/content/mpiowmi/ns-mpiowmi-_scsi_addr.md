@@ -7,7 +7,7 @@ old-location: storage\scsi_addr.htm
 old-project: storage
 ms.assetid: d53e0b05-8761-4b88-a7d5-081244b3dc93
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSCSI_ADDR, PSCSI_ADDR, PSCSI_ADDR structure pointer [Storage Devices], SCSI_ADDR, SCSI_ADDR structure [Storage Devices], _SCSI_ADDR, mpiowmi/PSCSI_ADDR, mpiowmi/SCSI_ADDR, storage.scsi_addr, structs-scsibus_32f6b726-53af-4ea4-94e2-f30d67811592.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	mpiowmi.h
 api_name:
 -	SCSI_ADDR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SCSI_ADDR, *PSCSI_ADDR
 ---
@@ -50,19 +51,6 @@ req.typenames: SCSI_ADDR, *PSCSI_ADDR
 
 
 The SCSI_ADDR structure represents a SCSI address.
-
-
-## -syntax
-
-
-````
-typedef struct _SCSI_ADDR {
-  UCHAR PortNumber;
-  UCHAR ScsiPathId;
-  UCHAR TargetId;
-  UCHAR Lun;
-} SCSI_ADDR, *PSCSI_ADDR;
-````
 
 
 ## -struct-fields

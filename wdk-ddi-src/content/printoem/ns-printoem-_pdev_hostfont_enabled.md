@@ -38,7 +38,8 @@ api_location:
 -	printoem.h
 api_name:
 -	PDEV_HOSTFONT_ENABLED
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PDEV_HOSTFONT_ENABLED
 req.product: Windows 10 or later.
@@ -51,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 The PDEV_HOSTFONT_ENABLED structure indicates whether the Hostfont feature is enabled.
-
-
-## -syntax
-
-
-````
-typedef struct _PDEV_HOSTFONT_ENABLED {
-  BOOL bHostfontEnabled;
-} PDEV_HOSTFONT_ENABLED;
-````
 
 
 ## -struct-fields
@@ -102,12 +93,11 @@ a Printer Font Binary (PFB)
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553189">IPrintOemPS2::GetPDEVAdjustment</a>
-
-
-
  
 
  
-
 

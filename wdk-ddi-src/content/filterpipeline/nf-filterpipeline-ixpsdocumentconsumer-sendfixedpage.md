@@ -38,7 +38,8 @@ api_location:
 -	filterpipeline.h
 api_name:
 -	IXpsDocumentConsumer.SendFixedPage
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
@@ -50,16 +51,6 @@ req.typenames: EXpsFontRestriction
 
 
 The <code>SendFixedPage</code> method sends a fixed page of an XPS document to the pipeline.
-
-
-## -syntax
-
-
-````
-HRESULT SendFixedPage(
-  [in] IFixedPage *pIFixedPage
-);
-````
 
 
 ## -parameters

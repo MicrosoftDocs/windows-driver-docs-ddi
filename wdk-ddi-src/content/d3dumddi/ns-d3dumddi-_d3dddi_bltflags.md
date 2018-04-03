@@ -7,7 +7,7 @@ old-location: display\d3dddi_bltflags.htm
 old-project: display
 ms.assetid: 844d6aed-2ca2-45ef-bd53-54344dbdadbf
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDI_BLTFLAGS, D3DDDI_BLTFLAGS structure [Display Devices], D3D_other_Structs_8d70fa64-3813-4165-a64d-4e91287e05d5.xml, _D3DDDI_BLTFLAGS, d3dumddi/D3DDDI_BLTFLAGS, display.d3dddi_bltflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	D3DDDI_BLTFLAGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDI_BLTFLAGS
 ---
@@ -50,39 +51,6 @@ req.typenames: D3DDDI_BLTFLAGS
 
 
 The D3DDDI_BLTFLAGS structure identifies the type of bit-block transfer (bitblt) to perform.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DDDI_BLTFLAGS {
-  union {
-    struct {
-      UINT Point  :1;
-      UINT Linear  :1;
-      UINT SrcColorKey  :1;
-      UINT DstColorKey  :1;
-      UINT MirrorLeftRight  :1;
-      UINT MirrorUpDown  :1;
-      UINT LinearToSrgb  :1;
-      UINT Rotate  :1;
-      UINT BeginPresentToDwm  :1;
-      UINT ContinuePresentToDwm  :1;
-      UINT EndPresentToDwm  :1;
-#if (D3D_UMD_INTERFACE_VERSION < D3D_UMD_INTERFACE_VERSION_WIN8)
-      UINT Reserved  :21;
-#else 
-      UINT Discard  :1;
-      UINT NoOverwrite  :1;
-      UINT Tileable  :1;
-      UINT Reserved  :18;
-#endif 
-    };
-    UINT Value;
-  };
-} D3DDDI_BLTFLAGS;
-````
 
 
 ## -struct-fields
@@ -267,16 +235,15 @@ The <b>BeginPresentToDwm</b>, <b>ContinuePresentToDwm</b>, and <b>EndPresentToDw
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_flush.md">Flush</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_blt.md">D3DDDIARG_BLT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542884">D3DDDIARG_BLT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh463886">Flush</a>
  
 
  
-
 

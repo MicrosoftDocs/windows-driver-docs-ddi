@@ -7,7 +7,7 @@ old-location: buses\_usbdevice_update_flags.htm
 old-project: usbref
 ms.assetid: 36F009C8-046B-437A-83D6-AE8D5BF51AF3
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: P_USBDEVICE_UPDATE_FLAGS, P_USBDEVICE_UPDATE_FLAGS structure pointer [Buses], USBDEVICE_UPDATE_FLAGS, USBDEVICE_UPDATE_FLAGS structure [Buses], _USBDEVICE_UPDATE_FLAGS, buses._usbdevice_update_flags, ucxusbdevice/P_USBDEVICE_UPDATE_FLAGS, ucxusbdevice/_USBDEVICE_UPDATE_FLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ucxusbdevice.h
 api_name:
 -	USBDEVICE_UPDATE_FLAGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USBDEVICE_UPDATE_FLAGS
 req.product: Windows 10 or later.
@@ -50,24 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-Contains request flags set by UCX that is  passed in the <a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_update.md">USBDEVICE_UPDATE</a> structure when UCX invokes the client driver's <a href="..\ucxusbdevice\nc-ucxusbdevice-evt_ucx_usbdevice_update.md">EVT_UCX_USBDEVICE_UPDATE</a> callback function.
-
-
-## -syntax
-
-
-````
-typedef struct _USBDEVICE_UPDATE_FLAGS {
-  ULONG UpdateDeviceDescriptor  :1;
-  ULONG UpdateBosDescriptor  :1;
-  ULONG UpdateMaxExitLatency  :1;
-  ULONG UpdateIsHub  :1;
-  ULONG UpdateAllowIoOnInvalidPipeHandles  :1;
-  ULONG Update20HardwareLpmParameters  :1;
-  ULONG UpdateRootPortResumeTime  :1;
-  ULONG Reserved  :26;
-} USBDEVICE_UPDATE_FLAGS, *P_USBDEVICE_UPDATE_FLAGS;
-````
+Contains request flags set by UCX that is  passed in the <a href="https://msdn.microsoft.com/library/windows/hardware/mt188080">USBDEVICE_UPDATE</a> structure when UCX invokes the client driver's <a href="https://msdn.microsoft.com/library/windows/hardware/mt187846">EVT_UCX_USBDEVICE_UPDATE</a> callback function.
 
 
 ## -struct-fields
@@ -117,20 +101,19 @@ Do not use.
 
 ## -see-also
 
-<a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_update_failure_flags.md">USBDEVICE_UPDATE_FAILURE_FLAGS</a>
 
 
 
-<a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_update_20_hardware_lpm_parameters.md">USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt188080">USBDEVICE_UPDATE</a>
 
 
 
-<a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_update.md">USBDEVICE_UPDATE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt188081">USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt188082">USBDEVICE_UPDATE_FAILURE_FLAGS</a>
  
 
  
-
 

@@ -38,7 +38,8 @@ api_location:
 -	Msviddrv.h
 api_name:
 -	VIDEO_GETERRORTEXT_PARMS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEO_GETERRORTEXT_PARMS, *LPVIDEO_GETERRORTEXT_PARMS
 ---
@@ -50,22 +51,6 @@ req.typenames: VIDEO_GETERRORTEXT_PARMS, *LPVIDEO_GETERRORTEXT_PARMS
 
 
 
-
-
-## -syntax
-
-
-````
-typedef struct tag_video_geterrortext_parms {
-  DWORD  dwError;
-#ifdef _WIN32
-  LPWSTR lpText;
-#else 
-  LPSTR  lpText;
-#endif 
-  DWORD  dwLength;
-} VIDEO_GETERRORTEXT_PARMS, *LPVIDEO_GETERRORTEXT_PARMS;
-````
 
 
 ## -struct-fields

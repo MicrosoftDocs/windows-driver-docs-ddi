@@ -7,7 +7,7 @@ old-location: debugger\getvalues2.htm
 old-project: debugger
 ms.assetid: 182e55ec-1a99-4bd6-bcf6-d5e8302b9eae
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: GetValues2 method [Windows Debugging], GetValues2 method [Windows Debugging], IDebugRegisters2 interface, GetValues2,IDebugRegisters2.GetValues2, IDebugRegisters2, IDebugRegisters2 interface [Windows Debugging], GetValues2 method, IDebugRegisters2::GetValues2, IDebugRegisters_de7a1e67-5ffe-48f8-a19d-63858c500389.xml, dbgeng/IDebugRegisters2::GetValues2, debugger.getvalues2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugRegisters2.GetValues2
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -50,20 +51,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetValues2</b> method fetches the value of several of the target's <a href="https://msdn.microsoft.com/library/windows/hardware/ff554369">registers</a>.
-
-
-## -syntax
-
-
-````
-HRESULT GetValues2(
-  [in]           ULONG        Source,
-  [in]           ULONG        Count,
-  [in, optional] PULONG       Indices,
-  [in]           ULONG        Start,
-  [out]          PDEBUG_VALUE Values
-);
-````
 
 
 ## -parameters
@@ -135,7 +122,7 @@ If <i>Indices</i> is <b>NULL</b>, the registers will be read consecutively start
 
 ### -param Values [out]
 
-Receives the values of the registers.  The number of elements that this array holds is <i>Count</i>.  See <a href="..\dbgeng\ns-dbgeng-_debug_value.md">DEBUG_VALUE</a> for a description of this parameter type.
+Receives the values of the registers.  The number of elements that this array holds is <i>Count</i>.  See <a href="https://msdn.microsoft.com/library/windows/hardware/ff541719">DEBUG_VALUE</a> for a description of this parameter type.
 
 
 ## -returns
@@ -185,18 +172,17 @@ If the return value is not S_OK, some of the registers still might have been rea
 
 The method <a href="https://msdn.microsoft.com/library/windows/hardware/ff549480">GetValues</a> performs the same task as this method but always uses the target as the register source.
 
-For an overview of the <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRegisters</a> interface and other register-related methods, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554369">Registers</a>.
+For an overview of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550825">IDebugRegisters</a> interface and other register-related methods, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554369">Registers</a>.
 
 
 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff597624">GetValue</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugregisters2.md">IDebugRegisters2</a>
 
 
 
@@ -204,8 +190,8 @@ For an overview of the <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRe
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550835">IDebugRegisters2</a>
  
 
  
-
 

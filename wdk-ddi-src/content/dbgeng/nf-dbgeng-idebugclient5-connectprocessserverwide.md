@@ -7,7 +7,7 @@ old-location: debugger\connectprocessserverwide.htm
 old-project: debugger
 ms.assetid: 42979da6-d044-4d52-858f-98871c3941bc
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: ConnectProcessServerWide method [Windows Debugging], ConnectProcessServerWide method [Windows Debugging], IDebugClient5 interface, ConnectProcessServerWide,IDebugClient5.ConnectProcessServerWide, IDebugClient5, IDebugClient5 interface [Windows Debugging], ConnectProcessServerWide method, IDebugClient5::ConnectProcessServerWide, dbgeng/IDebugClient5::ConnectProcessServerWide, debugger.connectprocessserverwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugClient5.ConnectProcessServerWide
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -50,17 +51,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>ConnectProcessServerWide</b> method connects to a <a href="https://msdn.microsoft.com/4cfad26c-d8c0-4f80-aa54-b9cadbc84df3">process server</a>.
-
-
-## -syntax
-
-
-````
-HRESULT ConnectProcessServerWide(
-  [in]  PCWSTR   RemoteOptions,
-  [out] PULONG64 Server
-);
-````
 
 
 ## -parameters
@@ -117,39 +107,6 @@ For more information about process servers and remote debugging, see <a href="ht
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548254">GetRunningProcessSystemIdByExecutableName</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539323">CreateProcess2</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542993">EndProcessServer</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541969">DisconnectProcessServer</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548265">GetRunningProcessSystemIds</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540055">CreateProcessAndAttach2</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558810">StartProcessServer</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548243">GetRunningProcessDescription</a>
 
 
 
@@ -157,8 +114,40 @@ For more information about process servers and remote debugging, see <a href="ht
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539323">CreateProcess2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540055">CreateProcessAndAttach2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541969">DisconnectProcessServer</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542993">EndProcessServer</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548243">GetRunningProcessDescription</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548254">GetRunningProcessSystemIdByExecutableName</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548265">GetRunningProcessSystemIds</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550497">IDebugClient5</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558810">StartProcessServer</a>
  
 
  
-
 

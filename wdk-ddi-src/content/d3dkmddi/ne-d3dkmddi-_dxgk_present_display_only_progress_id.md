@@ -7,7 +7,7 @@ old-location: display\dxgk_present_display_only_progress_id.htm
 old-project: display
 ms.assetid: 38023aaf-754a-4b16-96fc-6fd3d48233c3
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGK_PRESENT_DISPLAYONLY_PROGRESS_ID_COMPLETE, DXGK_PRESENT_DISPLAYONLY_PROGRESS_ID_FAILED, DXGK_PRESENT_DISPLAY_ONLY_PROGRESS_ID, DXGK_PRESENT_DISPLAY_ONLY_PROGRESS_ID enumeration [Display Devices], _DXGK_PRESENT_DISPLAY_ONLY_PROGRESS_ID, d3dkmddi/DXGK_PRESENT_DISPLAYONLY_PROGRESS_ID_COMPLETE, d3dkmddi/DXGK_PRESENT_DISPLAYONLY_PROGRESS_ID_FAILED, d3dkmddi/DXGK_PRESENT_DISPLAY_ONLY_PROGRESS_ID, display.dxgk_present_display_only_progress_id
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3dkmddi.h
 api_name:
 -	DXGK_PRESENT_DISPLAY_ONLY_PROGRESS_ID
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_PRESENT_DISPLAY_ONLY_PROGRESS_ID
 ---
@@ -50,17 +51,6 @@ req.typenames: DXGK_PRESENT_DISPLAY_ONLY_PROGRESS_ID
 
 
 Indicates the status of the current present operation.
-
-
-## -syntax
-
-
-````
-typedef enum _DXGK_PRESENT_DISPLAY_ONLY_PROGRESS_ID { 
-  DXGK_PRESENT_DISPLAYONLY_PROGRESS_ID_COMPLETE  = 0,
-  DXGK_PRESENT_DISPLAYONLY_PROGRESS_ID_FAILED    = 1
-} DXGK_PRESENT_DISPLAY_ONLY_PROGRESS_ID;
-````
 
 
 ## -enum-fields
@@ -80,12 +70,11 @@ An error occurred during the present operation.
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkargcb_present_displayonly_progress.md">DXGKARGCB_PRESENT_DISPLAYONLY_PROGRESS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451245">DXGKARGCB_PRESENT_DISPLAYONLY_PROGRESS</a>
  
 
  
-
 

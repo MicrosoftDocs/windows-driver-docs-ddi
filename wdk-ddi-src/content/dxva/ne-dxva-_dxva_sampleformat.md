@@ -7,7 +7,7 @@ old-location: display\dxva_sampleformat.htm
 old-project: display
 ms.assetid: 90cec61b-fe49-4fc7-b666-e74f745a00b1
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXVA_SampleFieldInterleavedEvenFirst, DXVA_SampleFieldInterleavedOddFirst, DXVA_SampleFieldSingleEven, DXVA_SampleFieldSingleOdd, DXVA_SampleFormat, DXVA_SampleFormat enumeration [Display Devices], DXVA_SampleFormatMask, DXVA_SamplePreviousFrame, DXVA_SampleProgressiveFrame, DXVA_SampleSubStream, DXVA_SampleUnknown, _DXVA_SampleFormat, display.dxva_sampleformat, dxva/DXVA_SampleFieldInterleavedEvenFirst, dxva/DXVA_SampleFieldInterleavedOddFirst, dxva/DXVA_SampleFieldSingleEven, dxva/DXVA_SampleFieldSingleOdd, dxva/DXVA_SampleFormat, dxva/DXVA_SampleFormatMask, dxva/DXVA_SamplePreviousFrame, dxva/DXVA_SampleProgressiveFrame, dxva/DXVA_SampleSubStream, dxva/DXVA_SampleUnknown, dxvaref_342ab3ab-8498-4d6f-a052-aff84c407436.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	dxva.h
 api_name:
 -	DXVA_SampleFormat
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXVA_SampleFormat
 ---
@@ -50,24 +51,6 @@ req.typenames: DXVA_SampleFormat
 
 
 The DXVA_SampleFormat enumeration type describes the format of data that the input sample contains.
-
-
-## -syntax
-
-
-````
-typedef enum _DXVA_SampleFormat { 
-  DXVA_SampleFormatMask                 = 0xFF,
-  DXVA_SampleUnknown                    = 0,
-  DXVA_SamplePreviousFrame              = 1,
-  DXVA_SampleProgressiveFrame           = 2,
-  DXVA_SampleFieldInterleavedEvenFirst  = 3,
-  DXVA_SampleFieldInterleavedOddFirst   = 4,
-  DXVA_SampleFieldSingleEven            = 5,
-  DXVA_SampleFieldSingleOdd             = 6,
-  DXVA_SampleSubStream                  = 7
-} DXVA_SampleFormat;
-````
 
 
 ## -enum-fields
@@ -126,20 +109,19 @@ Specifies that the sample contains a video substream.
 
 ## -see-also
 
-<a href="..\dxva\ns-dxva-_dxva_videosample.md">DXVA_VideoSample</a>
 
 
 
-<a href="..\dxva\ns-dxva-_dxva_videosample2.md">DXVA_VideoSample2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563967">DXVA_ExtendedFormat</a>
 
 
 
-<a href="..\dxva\ns-dxva-_dxva_extendedformat.md">DXVA_ExtendedFormat</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564085">DXVA_VideoSample</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564092">DXVA_VideoSample2</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: display\dxgk_segmentdescriptor4.htm
 old-project: display
 ms.assetid: 0958443F-1554-47B0-83B9-283D98D927CE
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGK_SEGMENTDESCRIPTOR4, DXGK_SEGMENTDESCRIPTOR4 structure [Display Devices], _DXGK_SEGMENTDESCRIPTOR4, d3dkmddi/DXGK_SEGMENTDESCRIPTOR4, display.dxgk_segmentdescriptor4
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGK_SEGMENTDESCRIPTOR4
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_SEGMENTDESCRIPTOR4
 ---
@@ -50,25 +51,6 @@ req.typenames: DXGK_SEGMENTDESCRIPTOR4
 
 
 The <b>DXGK_SEGMENTDESCRIPTOR4</b> structure describes a programmable CPU host aperture.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGK_SEGMENTDESCRIPTOR4 {
-  DXGK_SEGMENTFLAGS Flags;
-  PHYSICAL_ADDRESS  BaseAddress;
-  SIZE_T            Size;
-  SIZE_T            CommitLimit;
-  SIZE_T            SystemMemoryEndAddress;
-  union {
-    PHYSICAL_ADDRESS     CpuTranslatedAddress;
-    DXGK_CPUHOSTAPERTURE CpuHostAperture;
-  };
-  UINT              NumInvalidMemoryRanges;
-} DXGK_SEGMENTDESCRIPTOR4;
-````
 
 
 ## -struct-fields

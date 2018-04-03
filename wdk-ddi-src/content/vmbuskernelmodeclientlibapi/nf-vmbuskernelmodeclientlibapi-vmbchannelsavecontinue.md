@@ -7,7 +7,7 @@ old-location: netvista\vmbchannelsavecontinue.htm
 old-project: netvista
 ms.assetid: 57266CAE-C069-4379-92FD-0F93FECC6EB5
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: VmbChannelSaveContinue, VmbChannelSaveContinue function [Network Drivers Starting with Windows Vista], netvista.vmbchannelsavecontinue, vmbuskernelmodeclientlibapi/VmbChannelSaveContinue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	VmbusKernelModeClientLibApi.h
 api_name:
 -	VmbChannelSaveContinue
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
 req.product: Windows 10 or later.
@@ -52,22 +53,7 @@ req.product: Windows 10 or later.
 
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
-The <b>VmbChannelSaveContinue</b> function saves the channel state to a buffer.  Run the <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelsavebegin.md">VmbChannelSaveBegin</a> before you run this function. The driver must check the return value of the function.
-
-
-## -syntax
-
-
-````
-NTSTATUS VmbChannelSaveContinue(
-  _In_  VMBCHANNEL                                                       Channel,
-  _Out_ writes_bytes_to_(SaveBufferSize, *BytesFilled)
-            PVOID SaveBuffer,
-  _In_  ULONG                                                            SaveBufferSize,
-  _Out_ PULONG                                                           BytesFilled,
-  _Out_ PULONG                                                           BytesRequired
-);
-````
+The <b>VmbChannelSaveContinue</b> function saves the channel state to a buffer.  Run the <a href="https://msdn.microsoft.com/A0946287-3ED2-4DE1-A3D7-46611B25BB93">VmbChannelSaveBegin</a> before you run this function. The driver must check the return value of the function.
 
 
 ## -parameters
@@ -172,12 +158,11 @@ If the caller did not allocate enough space in advance, multiple calls may be ne
 
 ## -see-also
 
-<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelsavebegin.md">VmbChannelSaveBegin</a>
 
 
 
+<a href="https://msdn.microsoft.com/A0946287-3ED2-4DE1-A3D7-46611B25BB93">VmbChannelSaveBegin</a>
  
 
  
-
 

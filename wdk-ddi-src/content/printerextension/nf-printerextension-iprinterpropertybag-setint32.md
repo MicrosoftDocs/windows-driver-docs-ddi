@@ -38,7 +38,8 @@ api_location:
 -	Printerextension.h
 api_name:
 -	IPrinterPropertyBag.SetInt32
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PrintSchemaSelectionType
 req.product: Windows 10 or later.
@@ -51,17 +52,6 @@ req.product: Windows 10 or later.
 
 
 Writes an integer property.
-
-
-## -syntax
-
-
-````
-HRESULT SetInt32(
-  [in] BSTR bstrName,
-  [in] LONG nValue
-);
-````
 
 
 ## -parameters
@@ -105,12 +95,11 @@ A call to set a property on a queue property bag will fail with ERROR_ACCESS_DEN
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprinterpropertybag.md">IPrinterPropertyBag</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439547">IPrinterPropertyBag</a>
  
 
  
-
 

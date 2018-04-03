@@ -7,7 +7,7 @@ old-location: display\d3dkmt_present_model.htm
 old-project: display
 ms.assetid: 4663cc8e-ce69-4454-afff-03d4a8d82dfb
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMT_PM_REDIRECTED_BLT, D3DKMT_PM_REDIRECTED_COMPOSITION, D3DKMT_PM_REDIRECTED_FLIP, D3DKMT_PM_REDIRECTED_GDI, D3DKMT_PM_REDIRECTED_GDI_SYSMEM, D3DKMT_PM_REDIRECTED_VISTABLT, D3DKMT_PM_SCREENCAPTUREFENCE, D3DKMT_PM_UNINITIALIZED, D3DKMT_PRESENT_MODEL, D3DKMT_PRESENT_MODEL enumeration [Display Devices], OpenGL_Structs_b2e4c00b-9072-449d-84c0-7958200e7d9a.xml, _D3DKMT_PRESENT_MODEL, d3dkmthk/D3DKMT_PM_REDIRECTED_BLT, d3dkmthk/D3DKMT_PM_REDIRECTED_COMPOSITION, d3dkmthk/D3DKMT_PM_REDIRECTED_FLIP, d3dkmthk/D3DKMT_PM_REDIRECTED_GDI, d3dkmthk/D3DKMT_PM_REDIRECTED_GDI_SYSMEM, d3dkmthk/D3DKMT_PM_REDIRECTED_VISTABLT, d3dkmthk/D3DKMT_PM_SCREENCAPTUREFENCE, d3dkmthk/D3DKMT_PM_UNINITIALIZED, d3dkmthk/D3DKMT_PRESENT_MODEL, display.d3dkmt_present_model
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmthk.h
 api_name:
 -	D3DKMT_PRESENT_MODEL
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_PRESENT_MODEL
 ---
@@ -50,23 +51,6 @@ req.typenames: D3DKMT_PRESENT_MODEL
 
 
 The D3DKMT_PRESENT_MODEL enumeration type contains values that indicate the model for a present operation. 
-
-
-## -syntax
-
-
-````
-typedef enum _D3DKMT_PRESENT_MODEL { 
-  D3DKMT_PM_UNINITIALIZED           = 0,
-  D3DKMT_PM_REDIRECTED_GDI          = 1,
-  D3DKMT_PM_REDIRECTED_FLIP         = 2,
-  D3DKMT_PM_REDIRECTED_BLT          = 3,
-  D3DKMT_PM_REDIRECTED_VISTABLT     = 4,
-  D3DKMT_PM_SCREENCAPTUREFENCE      = 5,
-  D3DKMT_PM_REDIRECTED_GDI_SYSMEM   = 6,
-  D3DKMT_PM_REDIRECTED_COMPOSITION  = 7
-} D3DKMT_PRESENT_MODEL;
-````
 
 
 ## -enum-fields
@@ -121,12 +105,11 @@ The present-operation model is redirected composition swap chain presentation. T
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_presenthistorytoken.md">D3DKMT_PRESENTHISTORYTOKEN</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548188">D3DKMT_PRESENTHISTORYTOKEN</a>
  
 
  
-
 

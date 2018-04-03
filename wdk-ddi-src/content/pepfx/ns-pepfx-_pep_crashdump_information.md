@@ -7,7 +7,7 @@ old-location: kernel\pep_crashdump_information.htm
 old-project: kernel
 ms.assetid: B1F680CB-8F82-4B31-A62E-23804FEB0107
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*PPEP_CRASHDUMP_INFORMATION, PEP_CRASHDUMP_INFORMATION, PEP_CRASHDUMP_INFORMATION structure [Kernel-Mode Driver Architecture], PPEP_CRASHDUMP_INFORMATION, PPEP_CRASHDUMP_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _PEP_CRASHDUMP_INFORMATION, kernel.pep_crashdump_information, pepfx/PEP_CRASHDUMP_INFORMATION, pepfx/PPEP_CRASHDUMP_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	pepfx.h
 api_name:
 -	PEP_CRASHDUMP_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PEP_CRASHDUMP_INFORMATION, *PPEP_CRASHDUMP_INFORMATION
 ---
@@ -50,17 +51,6 @@ req.typenames: PEP_CRASHDUMP_INFORMATION, *PPEP_CRASHDUMP_INFORMATION
 
 
 The <b>PEP_CRASHDUMP_INFORMATION</b> structure contains information about a crash-dump device.
-
-
-## -syntax
-
-
-````
-typedef struct _PEP_CRASHDUMP_INFORMATION {
-  PEPHANDLE DeviceHandle;
-  PVOID     DeviceContext;
-} PEP_CRASHDUMP_INFORMATION, *PPEP_CRASHDUMP_INFORMATION;
-````
 
 
 ## -struct-fields
@@ -75,7 +65,7 @@ typedef struct _PEP_CRASHDUMP_INFORMATION {
 
 ### -field DeviceContext
 
-[in] A pointer to a device-specific context. This pointer is the <i>Context</i> parameter value that the device driver previously passed to the <a href="..\wdm\nf-wdm-pofxpoweroncrashdumpdevice.md">PoFxPowerOnCrashdumpDevice</a> routine. The context contains information in a format that is defined by the device driver and is understood by the PEP. The context is opaque to the operating system. This member value can be NULL if the PEP does not require a context.
+[in] A pointer to a device-specific context. This pointer is the <i>Context</i> parameter value that the device driver previously passed to the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186870">PoFxPowerOnCrashdumpDevice</a> routine. The context contains information in a format that is defined by the device driver and is understood by the PEP. The context is opaque to the operating system. This member value can be NULL if the PEP does not require a context.
 
 
 ## -remarks
@@ -91,11 +81,6 @@ When a fatal system error occurs, the devices in the crash-dump device chain (st
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt186875">PowerOnDumpDeviceCallback</a>
-
-
-
-<a href="..\wdm\nf-wdm-pofxpoweroncrashdumpdevice.md">PoFxPowerOnCrashdumpDevice</a>
 
 
 
@@ -103,8 +88,12 @@ When a fatal system error occurs, the devices in the crash-dump device chain (st
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186870">PoFxPowerOnCrashdumpDevice</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186875">PowerOnDumpDeviceCallback</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: netvista\fwpmcalloutdeletebyid0.htm
 old-project: netvista
 ms.assetid: fa24de4c-de78-49b1-9c8d-ca9a63c8a84f
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: FwpmCalloutDeleteById0, FwpmCalloutDeleteById0 function [Network Drivers Starting with Windows Vista], fwpmk/FwpmCalloutDeleteById0, netvista.fwpmcalloutdeletebyid0, wfp_ref_2_funct_2_fwpm_466376ac-f7a1-417e-9de8-9c3a7ff31404.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	fwpkclnt.dll
 api_name:
 -	FwpmCalloutDeleteById0
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: INSTANCE_PARTIAL_INFORMATION, PINSTANCE_PARTIAL_INFORMATION
 ---
@@ -54,17 +55,6 @@ The
   <b>FwpmCalloutDeleteById0</b> function deletes a callout from the filter engine.
 <div class="alert"><b>Note</b>  <b>FwpmCalloutDeleteById0</b> is a specific version of <b>FwpmCalloutDeleteById</b>. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
 
-## -syntax
-
-
-````
-NTSTATUS NTAPI FwpmCalloutDeleteById0(
-  _In_ HANDLE engineHandle,
-  _In_ UINT32 id
-);
-````
-
-
 ## -parameters
 
 
@@ -73,7 +63,7 @@ NTSTATUS NTAPI FwpmCalloutDeleteById0(
 ### -param engineHandle [in]
 
 A handle for an open session to the filter engine. A callout driver calls the 
-     <a href="..\fwpmk\nf-fwpmk-fwpmengineopen0.md">FwpmEngineOpen0</a> function to open a
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff550075">FwpmEngineOpen0</a> function to open a
      session to the filter engine.
 
 
@@ -81,7 +71,7 @@ A handle for an open session to the filter engine. A callout driver calls the
 
 The run-time identifier for the callout that is being deleted from the filter engine. This must be
      the run-time identifier that was returned when the callout driver called the 
-     <a href="..\fwpmk\nf-fwpmk-fwpmcalloutadd0.md">FwpmCalloutAdd0</a> function to add the
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff550067">FwpmCalloutAdd0</a> function to add the
      callout to the filter engine.
 
 
@@ -168,20 +158,19 @@ A callout can be deleted from the filter engine only if there are no filters in 
 
 ## -see-also
 
-<a href="..\fwpmk\nf-fwpmk-fwpmcalloutadd0.md">FwpmCalloutAdd0</a>
 
 
 
-<a href="..\fwpmk\nf-fwpmk-fwpmcalloutdeletebykey0.md">FwpmCalloutDeleteByKey0</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550067">FwpmCalloutAdd0</a>
 
 
 
-<a href="..\fwpmk\nf-fwpmk-fwpmengineopen0.md">FwpmEngineOpen0</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550071">FwpmCalloutDeleteByKey0</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550075">FwpmEngineOpen0</a>
  
 
  
-
 

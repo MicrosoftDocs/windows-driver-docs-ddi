@@ -38,7 +38,8 @@ api_location:
 -	bthddi.h
 api_name:
 -	BTH_ENUMERATOR_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BTH_ENUMERATOR_INFO, *PBTH_ENUMERATOR_INFO
 ---
@@ -51,30 +52,6 @@ req.typenames: BTH_ENUMERATOR_INFO, *PBTH_ENUMERATOR_INFO
 
 The BTH_ENUMERATOR_INFO structure contains information about an underlying device and the service
   that caused the Plug and Play (PnP) manager to load the profile driver.
-
-
-## -syntax
-
-
-````
-typedef struct _BTH_ENUMERATOR_INFO {
-  ENUMERATOR_TYPE   EnumeratorType;
-  ENUMERATOR_ACTION Action;
-  ULONG             Port;
-  ULONG             Flags;
-  GUID              Guid;
-  ULONG             InstanceId;
-  WCHAR             InstanceIdStr[BTH_MAX_SERVICE_NAME_SIZE];
-  USHORT            Vid;
-  USHORT            Pid;
-  USHORT            Mfg;
-  USHORT            LocalMfg;
-  USHORT            VidType;
-  WCHAR             ServiceName[BTH_MAX_SERVICE_NAME_SIZE];
-  CHAR              SdpPriLangServiceName[BTH_MAX_SERVICE_NAME_SIZE];
-  WCHAR             DeviceString[BTH_MAX_SERVICE_NAME_SIZE];
-} BTH_ENUMERATOR_INFO, *PBTH_ENUMERATOR_INFO;
-````
 
 
 ## -struct-fields
@@ -179,7 +156,7 @@ The device string for the remote device.
 
 
 The 
-    <a href="..\bthioctl\ni-bthioctl-ioctl_internal_bthenum_get_enuminfo.md">
+    <a href="https://msdn.microsoft.com/43cd8e6b-5710-4308-a7c4-fb6f14940977">
     IOCTL_INTERNAL_BTHENUM_GET_ENUMINFO</a> call's output buffer contains the information about an
     underlying device and the service that caused the Plug and Play (PnP) manager to load the profile
     driver.
@@ -189,21 +166,20 @@ The
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/d5acaec6-7b3b-4dd9-8901-f96b4e49149f">ENUMERATOR_ACTION</a>
 
 
 
-<a href="..\bthddi\ne-bthddi-_enumerator_type.md">ENUMERATOR_TYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536678">ENUMERATOR_TYPE</a>
 
 
 
-<a href="..\bthioctl\ni-bthioctl-ioctl_internal_bthenum_get_enuminfo.md">
+<a href="https://msdn.microsoft.com/43cd8e6b-5710-4308-a7c4-fb6f14940977">
    IOCTL_INTERNAL_BTHENUM_GET_ENUMINFO</a>
-
-
-
  
 
  
-
 

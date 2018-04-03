@@ -7,7 +7,7 @@ old-location: ifsk\secreateclientsecurity.htm
 old-project: ifsk
 ms.assetid: 10aadf41-79c4-46d6-a5ae-e8b3b5f338f0
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: SeCreateClientSecurity, SeCreateClientSecurity routine [Installable File System Drivers], ifsk.secreateclientsecurity, ntifs/SeCreateClientSecurity, seref_3b2ae680-788b-4ecb-b747-427f8fd3b4bf.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	SeCreateClientSecurity
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -50,19 +51,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>SeCreateClientSecurity</b> routine initializes a security client context structure with the information needed to call <b>SeImpersonateClientEx</b>.
-
-
-## -syntax
-
-
-````
-NTSTATUS SeCreateClientSecurity(
-  _In_  PETHREAD                     ClientThread,
-  _In_  PSECURITY_QUALITY_OF_SERVICE ClientSecurityQos,
-  _In_  BOOLEAN                      ServerIsRemote,
-  _Out_ PSECURITY_CLIENT_CONTEXT     ClientContext
-);
-````
 
 
 ## -parameters
@@ -159,16 +147,15 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-sedeleteclientsecurity.md">SeDeleteClientSecurity</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-seimpersonateclientex.md">SeImpersonateClientEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556648">SeDeleteClientSecurity</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556659">SeImpersonateClientEx</a>
  
 
  
-
 

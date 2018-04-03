@@ -7,7 +7,7 @@ old-location: storage\storportsetunitattributes.htm
 old-project: storage
 ms.assetid: 0E05233D-79B0-4FC7-B13C-91B6B1F57E89
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: StorPortSetUnitAttributes, StorPortSetUnitAttributes routine [Storage Devices], storage.storportsetunitattributes, storport/StorPortSetUnitAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Storport.h
 api_name:
 -	StorPortSetUnitAttributes
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STOR_SPINLOCK
 req.product: Windows 10 or later.
@@ -51,18 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>StorPortSetUnitAttributes</b> routine registers the power attributes of a storage unit device with the Storport driver.
-
-
-## -syntax
-
-
-````
-ULONG StorPortSetUnitAttributes(
-  _In_ PVOID                HwDeviceExtension,
-  _In_ PSTOR_ADDRESS        Address,
-  _In_ STOR_UNIT_ATTRIBUTES Attributes
-);
-````
 
 
 ## -parameters
@@ -147,16 +136,15 @@ A miniport driver will call this routine to register the unit attributes with St
 
 ## -see-also
 
-<a href="..\storport\ns-storport-_stor_unit_attributes.md">STOR_UNIT_ATTRIBUTES</a>
 
 
 
-<a href="..\storport\ns-storport-_stor_address.md">STOR_ADDRESS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451518">STOR_ADDRESS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj206458">STOR_UNIT_ATTRIBUTES</a>
  
 
  
-
 

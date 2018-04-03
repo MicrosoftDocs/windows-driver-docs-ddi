@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsGetDefaultClockState
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -53,16 +54,6 @@ req.typenames:
 The <b>KsGetDefaultClockState</b> function gets the current state of the clock.
 
 The function can be called at DISPATCH_LEVEL.
-
-
-## -syntax
-
-
-````
-KSSTATE KsGetDefaultClockState(
-  _In_ PKSDEFAULTCLOCK DefaultClock
-);
-````
 
 
 ## -parameters
@@ -86,12 +77,11 @@ The <b>KsGetDefaultClockState</b> function returns the current clock state.
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kssetdefaultclockstate.md">KsSetDefaultClockState</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566820">KsSetDefaultClockState</a>
  
 
  
-
 

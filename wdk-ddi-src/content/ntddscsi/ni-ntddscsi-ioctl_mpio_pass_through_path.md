@@ -7,7 +7,7 @@ old-location: storage\ioctl_mpio_pass_through_path.htm
 old-project: storage
 ms.assetid: c87b9be3-05cf-4321-9ffc-16b319c9e179
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_MPIO_PASS_THROUGH_PATH, IOCTL_MPIO_PASS_THROUGH_PATH control code [Storage Devices], k307_3498bdee-456f-4924-b5f3-c80366d54c02.xml, ntddscsi/IOCTL_MPIO_PASS_THROUGH_PATH, storage.ioctl_mpio_pass_through_path
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ntddscsi.h
 api_name:
 -	IOCTL_MPIO_PASS_THROUGH_PATH
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MP_STORAGE_DIAGNOSTIC_TARGET_TYPE, *PMP_STORAGE_DIAGNOSTIC_TARGET_TYPE
 ---
@@ -66,11 +67,11 @@ Applications do not require administrative privileges to send a pass-through req
 
 </li>
 <li>
-The request comprises a SCSI pass-through request (in an embedded <a href="..\ntddscsi\ns-ntddscsi-_scsi_pass_through.md">SCSI_PASS_THROUGH</a> structure) as well as certain directives.
+The request comprises a SCSI pass-through request (in an embedded <a href="https://msdn.microsoft.com/library/windows/hardware/ff565345">SCSI_PASS_THROUGH</a> structure) as well as certain directives.
 
 </li>
 <li>
-The SCSI pass-through structure should meet the requirements for such, as described in <a href="..\ntddscsi\ns-ntddscsi-_scsi_pass_through.md">SCSI_PASS_THROUGH</a>.
+The SCSI pass-through structure should meet the requirements for such, as described in <a href="https://msdn.microsoft.com/library/windows/hardware/ff565345">SCSI_PASS_THROUGH</a>.
 
 </li>
 <li>
@@ -130,17 +131,16 @@ The <b>SenseInfoLength</b> and <b>DataTransferLength</b> members in the embedded
 
 ### -status-block
 
-The <b>Information</b> field is set to the number of bytes returned in the output buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>. The <b>Status</b> field is set to STATUS_SUCCESS, or possibly to STATUS_BUFFER_TOO_SMALL or STATUS_INVALID_PARAMETER if the input <b>Length</b> value in the embedded <a href="..\ntddscsi\ns-ntddscsi-_scsi_pass_through.md">SCSI_PASS_THROUGH</a> is improperly set.
+The <b>Information</b> field is set to the number of bytes returned in the output buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>. The <b>Status</b> field is set to STATUS_SUCCESS, or possibly to STATUS_BUFFER_TOO_SMALL or STATUS_INVALID_PARAMETER if the input <b>Length</b> value in the embedded <a href="https://msdn.microsoft.com/library/windows/hardware/ff565345">SCSI_PASS_THROUGH</a> is improperly set.
 
 
 ## -see-also
 
-<a href="..\ntddscsi\ns-ntddscsi-_scsi_pass_through.md">SCSI_PASS_THROUGH</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565345">SCSI_PASS_THROUGH</a>
  
 
  
-
 

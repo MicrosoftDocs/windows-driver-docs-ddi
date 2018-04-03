@@ -7,7 +7,7 @@ old-location: display\setrenderstate.htm
 old-project: display
 ms.assetid: 22fb67f7-cc28-4f10-950d-1379769ddf89
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3DDDI_SETRENDERSTATE, SetRenderState, SetRenderState callback function [Display Devices], UserModeDisplayDriver_Functions_738b0898-2699-4f3d-8dc1-b4ea4cdbfeae.xml, d3dumddi/SetRenderState, display.setrenderstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	SetRenderState
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_PTE
 ---
@@ -50,20 +51,6 @@ req.typenames: DXGK_PTE
 
 
 The <i>SetRenderState</i> function updates a render state.
-
-
-## -prototype
-
-
-````
-PFND3DDDI_SETRENDERSTATE SetRenderState;
-
-__checkReturn HRESULT APIENTRY SetRenderState(
-  _In_       HANDLE                hDevice,
-  _In_ const D3DDDIARG_RENDERSTATE *pData
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -87,7 +74,7 @@ __checkReturn HRESULT APIENTRY SetRenderState(
 
 #### - pData [in]
 
- A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_renderstate.md">D3DDDIARG_RENDERSTATE</a> structure that describes how to update the render state.
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543267">D3DDDIARG_RENDERSTATE</a> structure that describes how to update the render state.
 
 
 ## -returns
@@ -103,23 +90,22 @@ __checkReturn HRESULT APIENTRY SetRenderState(
 
 
 
-The Microsoft Direct3D runtime maps <b>BeginScene</b> and <b>EndScene</b> calls from applications to the user-mode display driver's <i>SetRenderState</i> function. When the runtime receives a <b>BeginScene</b> call, it sets the <b>State</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_renderstate.md">D3DDDIARG_RENDERSTATE</a> structure that is pointed to by <i>pData</i> to D3DRENDERSTATE_SCENECAPTURE and the <b>Value</b> member of D3DDDIARG_RENDERSTATE to <b>TRUE</b> and then calls <i>SetRenderState</i>. When the runtime receives an <b>EndScene</b> call, it sets the <b>State</b> member to D3DRENDERSTATE_SCENECAPTURE and the <b>Value</b> member to <b>FALSE</b> and then calls <i>SetRenderState</i>. In between these calls to <i>SetRenderState</i>, the driver captures geometric data within a frame.
+The Microsoft Direct3D runtime maps <b>BeginScene</b> and <b>EndScene</b> calls from applications to the user-mode display driver's <i>SetRenderState</i> function. When the runtime receives a <b>BeginScene</b> call, it sets the <b>State</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543267">D3DDDIARG_RENDERSTATE</a> structure that is pointed to by <i>pData</i> to D3DRENDERSTATE_SCENECAPTURE and the <b>Value</b> member of D3DDDIARG_RENDERSTATE to <b>TRUE</b> and then calls <i>SetRenderState</i>. When the runtime receives an <b>EndScene</b> call, it sets the <b>State</b> member to D3DRENDERSTATE_SCENECAPTURE and the <b>Value</b> member to <b>FALSE</b> and then calls <i>SetRenderState</i>. In between these calls to <i>SetRenderState</i>, the driver captures geometric data within a frame.
 
 
 
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_renderstate.md">D3DDDIARG_RENDERSTATE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543267">D3DDDIARG_RENDERSTATE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544519">D3DDDI_DEVICEFUNCS</a>
  
 
  
-
 

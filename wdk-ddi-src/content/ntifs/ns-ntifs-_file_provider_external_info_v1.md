@@ -7,7 +7,7 @@ old-location: ifsk\file_provider_external_info_v1.htm
 old-project: ifsk
 ms.assetid: 842D7F4A-3352-469A-B7C1-E075432107CA
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: "*PFILE_PROVIDER_EXTERNAL_INFO_V1, FILE_PROVIDER_EXTERNAL_INFO, FILE_PROVIDER_EXTERNAL_INFO_V1, FILE_PROVIDER_EXTERNAL_INFO_V1 structure [Installable File System Drivers], PFILE_PROVIDER_EXTERNAL_INFO_V1, PFILE_PROVIDER_EXTERNAL_INFO_V1 structure pointer [Installable File System Drivers], _FILE_PROVIDER_EXTERNAL_INFO_V1, ifsk.file_provider_external_info_v1, ntifs/FILE_PROVIDER_EXTERNAL_INFO_V1, ntifs/PFILE_PROVIDER_EXTERNAL_INFO_V1"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntifs.h
 api_name:
 -	FILE_PROVIDER_EXTERNAL_INFO_V1
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FILE_PROVIDER_EXTERNAL_INFO_V1, *PFILE_PROVIDER_EXTERNAL_INFO_V1
 ---
@@ -50,18 +51,6 @@ req.typenames: FILE_PROVIDER_EXTERNAL_INFO_V1, *PFILE_PROVIDER_EXTERNAL_INFO_V1
 
 
 The <b>FILE_PROVIDER_EXTERNAL_INFO_V1</b> structure defines metadata specific to files provided by WOF_PROVIDER_FILE. This provider gives efficient compression for data which will not be modified, such as executable files.  If the file is opened for write access, the file will be transparently decompressed.
-
-
-## -syntax
-
-
-````
-typedef struct _FILE_PROVIDER_EXTERNAL_INFO_V1 {
-  ULONG Version;
-  ULONG Algorithm;
-  ULONG Flags;
-} FILE_PROVIDER_EXTERNAL_INFO_V1, *PFILE_PROVIDER_EXTERNAL_INFO_V1;
-````
 
 
 ## -struct-fields
@@ -92,12 +81,11 @@ Specifies flags for the operation. Reserved for future use, should be 0.
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_file_provider_external_info_v0.md">FILE_PROVIDER_EXTERNAL_INFO_V0</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt426731">FILE_PROVIDER_EXTERNAL_INFO_V0</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: dtf\iwdtftarget2.htm
 old-project: dtf
 ms.assetid: fc75c201-a3ff-44f7-ba09-8e3554b1cf27
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/29/2018
 ms.keywords: IWDTFTarget2, IWDTFTarget2 interface [Windows Device Testing Framework], IWDTFTarget2 interface [Windows Device Testing Framework], described, Microsoft.WDTF.IWDTFTarget2, dtf.iwdtftarget2, wdtf/IWDTFTarget2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	WDTF.Interop.metadata_dll.dll
 api_name:
 -	IWDTFTarget2
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TTraceLevel
 req.product: Windows 10 or later.
@@ -197,7 +198,7 @@ Determines whether the target supports a given interface.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="..\ntddk\ns-ntddk-_context.md">Context</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439393">Context</a>
 
 
 </td>
@@ -253,8 +254,8 @@ The <b>IWDTFTarget2</b> interface abstracts the notion of a testable item,
 which is the central focus of the WDTF object model.
 You can retrieve instances of the <b>IWDTFTarget2</b> interface only 
 through other interfaces (such as the 
-<a href="..\wdtf\nn-wdtf-iwdtfdevicedepot2.md">IWDTFDeviceDepot2</a> interface or
-the <a href="..\wdtf\nn-wdtf-iwdtfsystemdepot2.md">IWDTFSystemDepot2</a> interface). 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406391">IWDTFDeviceDepot2</a> interface or
+the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439331">IWDTFSystemDepot2</a> interface). 
 
 The lifetime of a target is tied to its creator; that is, if you retrieve a target 
 from the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406304">DeviceDepot</a> property, 

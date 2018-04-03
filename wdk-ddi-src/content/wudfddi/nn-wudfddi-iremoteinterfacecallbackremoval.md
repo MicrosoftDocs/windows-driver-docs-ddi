@@ -38,7 +38,8 @@ api_location:
 -	wudfddi.h
 api_name:
 -	IRemoteInterfaceCallbackRemoval
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.

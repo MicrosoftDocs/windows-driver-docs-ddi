@@ -7,7 +7,7 @@ old-location: display\d3dkmt_createcontextvirtual.htm
 old-project: display
 ms.assetid: C9707F47-75DF-4CDE-B88B-24323FC8C94B
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMT_CREATECONTEXTVIRTUAL, D3DKMT_CREATECONTEXTVIRTUAL structure [Display Devices], _D3DKMT_CREATECONTEXTVIRTUAL, d3dkmthk/D3DKMT_CREATECONTEXTVIRTUAL, display.d3dkmt_createcontextvirtual
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmthk.h
 api_name:
 -	D3DKMT_CREATECONTEXTVIRTUAL
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_CREATECONTEXTVIRTUAL
 ---
@@ -49,26 +50,9 @@ req.typenames: D3DKMT_CREATECONTEXTVIRTUAL
 ## -description
 
 
-<b>D3DKMT_CREATECONTEXTVIRTUAL</b> is used with <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreatecontextvirtual.md">D3DKMTCreateContextVirtual</a> to create a kernel mode device context that supports virtual addressing.
+<b>D3DKMT_CREATECONTEXTVIRTUAL</b> is used with <a href="https://msdn.microsoft.com/library/windows/hardware/dn906770">D3DKMTCreateContextVirtual</a> to create a kernel mode device context that supports virtual addressing.
 
 
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_CREATECONTEXTVIRTUAL {
-  D3DKMT_HANDLE             hDevice;
-  UINT                      NodeOrdinal;
-  UINT                      EngineAffinity;
-  D3DDDI_CREATECONTEXTFLAGS Flags;
-  VOID                      *pPrivateDriverData;
-  UINT                      PrivateDriverDataSize;
-  D3DKMT_CLIENTHINT         ClientHint;
-  D3DKMT_HANDLE             hContext;
-} D3DKMT_CREATECONTEXTVIRTUAL;
-````
 
 
 ## -struct-fields
@@ -93,7 +77,7 @@ typedef struct _D3DKMT_CREATECONTEXTVIRTUAL {
 
 ### -field Flags
 
-[in] A <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_createcontextflags.md">D3DDDI_CREATECONTEXTFLAGS</a> structure that indicates, in bit-field flags, how to create the context. 
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff544502">D3DDDI_CREATECONTEXTFLAGS</a> structure that indicates, in bit-field flags, how to create the context. 
 
 
 ### -field pPrivateDriverData
@@ -113,21 +97,20 @@ typedef struct _D3DKMT_CREATECONTEXTVIRTUAL {
 
 ### -field hContext
 
-[out] A handle to the context that the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreatecontextvirtual.md">D3DKMTCreateContextVirtual</a> function creates. 
+[out] A handle to the context that the <a href="https://msdn.microsoft.com/library/windows/hardware/dn906770">D3DKMTCreateContextVirtual</a> function creates. 
 
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreatecontextvirtual.md">D3DKMTCreateContextVirtual</a>
 
 
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_createcontextflags.md">D3DDDI_CREATECONTEXTFLAGS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544502">D3DDDI_CREATECONTEXTFLAGS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn906770">D3DKMTCreateContextVirtual</a>
  
 
  
-
 

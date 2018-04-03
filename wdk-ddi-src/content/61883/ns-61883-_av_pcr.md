@@ -38,7 +38,8 @@ api_location:
 -	61883.h
 api_name:
 -	AV_PCR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: AV_PCR, *PAV_PCR
 ---
@@ -50,20 +51,6 @@ req.typenames: AV_PCR, *PAV_PCR
 
 
 The AV_PCR structure specifies settings for an input or output plug.
-
-
-## -syntax
-
-
-````
-typedef struct _AV_PCR {
-  union {
-    OPCR  oPCR;
-    IPCR  iPCR;
-    ULONG ulongData;
-  };
-} AV_PCR, *PAV_PCR;
-````
 
 
 ## -struct-fields
@@ -90,16 +77,15 @@ Reserved for internal use.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536961">Av61883_CreatePlug</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536995">Av61883_SetPlug</a>
-
-
-
  
 
  
-
 

@@ -38,7 +38,8 @@ api_location:
 -	wdfcompaniontarget.h
 api_name:
 -	WDF_TASK_SEND_OPTIONS_FLAGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_TASK_SEND_OPTIONS_FLAGS
 req.product: Windows 10 or later.
@@ -51,17 +52,6 @@ req.product: Windows 10 or later.
 
 
 For internal use only.
-
-
-## -syntax
-
-
-````
-typedef enum _WDF_TASK_SEND_OPTIONS_FLAGS { 
-  WDF_TASK_SEND_OPTION_TIMEOUT      = 1,
-  WDF_TASK_SEND_OPTION_SYNCHRONOUS  = 2
-} WDF_TASK_SEND_OPTIONS_FLAGS;
-````
 
 
 ## -enum-fields

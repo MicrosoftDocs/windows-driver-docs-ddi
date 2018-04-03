@@ -7,7 +7,7 @@ old-location: storage\mpio_get_descriptor.htm
 old-project: storage
 ms.assetid: cabd2a6d-20d0-4499-8494-7ad746f2d915
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PMPIO_GET_DESCRIPTOR, MPIO_GET_DESCRIPTOR, MPIO_GET_DESCRIPTOR structure [Storage Devices], PMPIO_GET_DESCRIPTOR, PMPIO_GET_DESCRIPTOR structure pointer [Storage Devices], _MPIO_GET_DESCRIPTOR, mpiodisk/MPIO_GET_DESCRIPTOR, mpiodisk/PMPIO_GET_DESCRIPTOR, storage.mpio_get_descriptor, structs-scsibus_4d648295-24f6-44c1-a0a9-8a46aeada604.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	mpiodisk.h
 api_name:
 -	MPIO_GET_DESCRIPTOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MPIO_GET_DESCRIPTOR, *PMPIO_GET_DESCRIPTOR
 ---
@@ -50,18 +51,6 @@ req.typenames: MPIO_GET_DESCRIPTOR, *PMPIO_GET_DESCRIPTOR
 
 
 The MPIO_GET_DESCRIPTOR structure is used to query for LUN instances that correspond to various paths. This structure retrieves device-path pairing information about a multi-path disk. The target of the request must be a pseudo-LUN that is addressed by using its WMI instance name.
-
-
-## -syntax
-
-
-````
-typedef struct _MPIO_GET_DESCRIPTOR {
-  ULONG           NumberPdos;
-  WCHAR           DeviceName[63 + 1];
-  PDO_INFORMATION PdoInformation[1];
-} MPIO_GET_DESCRIPTOR, *PMPIO_GET_DESCRIPTOR;
-````
 
 
 ## -struct-fields

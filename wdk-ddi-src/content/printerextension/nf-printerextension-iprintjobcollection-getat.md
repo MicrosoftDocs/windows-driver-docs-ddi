@@ -38,7 +38,8 @@ api_location:
 -	Printerextension.h
 api_name:
 -	IPrintJobCollection.GetAt
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PrintSchemaSelectionType
 req.product: Windows 10 or later.
@@ -50,18 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-Gets a pointer to an <a href="..\printerextension\nn-printerextension-iprintjob.md">IPrintJob</a> object.
-
-
-## -syntax
-
-
-````
-HRESULT GetAt(
-  [in]          ULONG     ulIndex,
-  [out, retval] IPrintJob **ppJob
-);
-````
+Gets a pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/dn265396">IPrintJob</a> object.
 
 
 ## -parameters
@@ -90,16 +80,15 @@ Returns an <b>HRESULT</b> value. If the method call was not successful, it retur
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintjobcollection.md">IPrintJobCollection</a>
 
 
 
-<a href="..\printerextension\nn-printerextension-iprintjob.md">IPrintJob</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265396">IPrintJob</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265397">IPrintJobCollection</a>
  
 
  
-
 

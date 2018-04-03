@@ -41,7 +41,8 @@ api_location:
 -	WUDFx02000.dll.dll
 api_name:
 -	WdfRegistryQueryString
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_QUERY_INTERFACE_CONFIG, *PWDF_QUERY_INTERFACE_CONFIG
 req.product: Windows 10 or later.
@@ -58,18 +59,6 @@ req.product: Windows 10 or later.
 The <b>WdfRegistryQueryString</b> method retrieves the string data that is currently assigned to a specified registry string value and assigns the string to a specified framework string object.
 
 
-## -syntax
-
-
-````
-NTSTATUS WdfRegistryQueryString(
-  _In_ WDFKEY           Key,
-  _In_ PCUNICODE_STRING ValueName,
-  _In_ WDFSTRING        String
-);
-````
-
-
 ## -parameters
 
 
@@ -82,7 +71,7 @@ A handle to a registry-key object that represents an opened registry key.
 
 ### -param ValueName [in]
 
-A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that contains a name for the registry value. 
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure that contains a name for the registry value. 
 
 
 ### -param String [in]
@@ -109,7 +98,7 @@ A handle to a framework string object. The framework will assign the registry va
 </td>
 <td width="60%">
 
-<a href="..\wdfregistry\nf-wdfregistry-wdfregistryquerystring.md">WdfRegistryQueryString</a> was not called at IRQL = PASSIVE_LEVEL. 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549923">WdfRegistryQueryString</a> was not called at IRQL = PASSIVE_LEVEL. 
 
 </td>
 </tr>
@@ -199,7 +188,7 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
-To obtain a string from a string object, your driver can call <a href="..\wdfstring\nf-wdfstring-wdfstringgetunicodestring.md">WdfStringGetUnicodeString</a>. 
+To obtain a string from a string object, your driver can call <a href="https://msdn.microsoft.com/library/windows/hardware/ff550049">WdfStringGetUnicodeString</a>. 
 
 For more information about registry-key objects, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-the-registry-in-umdf-1-x-drivers">Using the Registry in Framework-Based Drivers</a>.
 
@@ -245,40 +234,39 @@ if (NT_SUCCESS(status)) {
 
 ## -see-also
 
-<a href="..\wdfregistry\nf-wdfregistry-wdfregistryqueryvalue.md">WdfRegistryQueryValue</a>
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
 
 
 
-<a href="..\wdfregistry\nf-wdfregistry-wdfregistryquerymultistring.md">WdfRegistryQueryMultiString</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549920">WdfRegistryQueryMemory</a>
 
 
 
-<a href="..\wdfstring\nf-wdfstring-wdfstringgetunicodestring.md">WdfStringGetUnicodeString</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549921">WdfRegistryQueryMultiString</a>
 
 
 
-<a href="..\wdfregistry\nf-wdfregistry-wdfregistryqueryulong.md">WdfRegistryQueryULong</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549925">WdfRegistryQueryULong</a>
 
 
 
-<a href="..\wdfregistry\nf-wdfregistry-wdfregistryqueryunicodestring.md">WdfRegistryQueryUnicodeString</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549927">WdfRegistryQueryUnicodeString</a>
 
 
 
-<a href="..\wdfregistry\nf-wdfregistry-wdfregistryquerymemory.md">WdfRegistryQueryMemory</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549928">WdfRegistryQueryValue</a>
 
 
 
-<a href="..\wdfstring\nf-wdfstring-wdfstringcreate.md">WdfStringCreate</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550046">WdfStringCreate</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550049">WdfStringGetUnicodeString</a>
  
 
  
-
 

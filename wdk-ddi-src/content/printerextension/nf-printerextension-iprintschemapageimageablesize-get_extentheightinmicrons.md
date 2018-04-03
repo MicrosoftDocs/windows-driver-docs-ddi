@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	IPrintSchemaPageImageableSize.ExtentHeightInMicrons
 -	IPrintSchemaPageImageableSize.get_ExtentHeightInMicrons
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PrintSchemaSelectionType
 req.product: Windows 10 or later.
@@ -56,27 +57,16 @@ Gets the vertical distance between the origin and the bounding limit of the canv
 This property is read-only.
 
 
-## -syntax
-
-
-````
-HRESULT get_ExtentHeightInMicrons(
-  [out, retval] ULONG *pulExtentHeight
-);
-````
-
-
 ## -parameters
 
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintschemapageimageablesize.md">IPrintSchemaPageImageableSize</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451366">IPrintSchemaPageImageableSize</a>
  
 
  
-
 

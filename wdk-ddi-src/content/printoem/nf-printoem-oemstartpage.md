@@ -38,7 +38,8 @@ api_location:
 -	printoem.h
 api_name:
 -	OEMStartPage
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STDVARIABLEINDEX
 req.product: Windows 10 or later.
@@ -51,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <code>OEMStartPage</code> function is called by GDI when it is ready to start sending the contents of a physical page to the driver for rendering.
-
-
-## -syntax
-
-
-````
-BOOL APIENTRY OEMStartPage(
-   SURFOBJ *pso
-);
-````
 
 
 ## -parameters

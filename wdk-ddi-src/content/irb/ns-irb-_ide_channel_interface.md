@@ -7,7 +7,7 @@ old-location: storage\ide_channel_interface.htm
 old-project: storage
 ms.assetid: 0a742dc2-fa1a-4b93-a136-52f4571bde22
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PIDE_CHANNEL_INTERFACE, IDE_CHANNEL_INTERFACE, IDE_CHANNEL_INTERFACE structure [Storage Devices], PIDE_CHANNEL_INTERFACE, PIDE_CHANNEL_INTERFACE structure pointer [Storage Devices], _IDE_CHANNEL_INTERFACE, irb/IDE_CHANNEL_INTERFACE, irb/PIDE_CHANNEL_INTERFACE, storage.ide_channel_interface, structs-ATA_8641c5e5-fe37-4576-a500-1f6a2cdbb23b.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	irb.h
 api_name:
 -	IDE_CHANNEL_INTERFACE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: IDE_CHANNEL_INTERFACE, *PIDE_CHANNEL_INTERFACE
 ---
@@ -51,25 +52,6 @@ req.typenames: IDE_CHANNEL_INTERFACE, *PIDE_CHANNEL_INTERFACE
 
 The IDE_CHANNEL_INTERFACE structure contains interface information for the indicated channel.
 <div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
-
-## -syntax
-
-
-````
-typedef struct _IDE_CHANNEL_INTERFACE {
-  USHORT            Version;
-  UCHAR             ChannelNumber;
-  UCHAR             Reserved;
-  ULONG             ReservedUlong;
-  IDE_HW_INITIALIZE IdeHwInitialize;
-  IDE_HW_BUILDIO    IdeHwBuildIo;
-  IDE_HW_STARTIO    IdeHwStartIo;
-  IDE_HW_INTERRUPT  IdeHwInterrupt;
-  IDE_HW_RESET      IdeHwReset;
-  IDE_HW_CONTROL    IdeHwControl;
-} IDE_CHANNEL_INTERFACE, *PIDE_CHANNEL_INTERFACE;
-````
-
 
 ## -struct-fields
 
@@ -118,11 +100,6 @@ Reserved for future use. The miniport driver must not use this field.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558992">IdeHwInterrupt</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557465">IdeHwControl</a>
 
 
 
@@ -130,11 +107,15 @@ Reserved for future use. The miniport driver must not use this field.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557465">IdeHwControl</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557467">IdeHwInitialize</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559003">IdeHwStartIo</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558992">IdeHwInterrupt</a>
 
 
 
@@ -142,8 +123,8 @@ Reserved for future use. The miniport driver must not use this field.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559003">IdeHwStartIo</a>
  
 
  
-
 

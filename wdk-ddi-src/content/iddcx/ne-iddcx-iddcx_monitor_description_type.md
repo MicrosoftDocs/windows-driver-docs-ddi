@@ -7,7 +7,7 @@ old-location: display\iddcx_monitor_description_type.htm
 old-project: display
 ms.assetid: ca50256b-2b37-4d39-ad4c-e2eaaa0adbb1
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IDDCX_MONITOR_DESCRIPTION_TYPE, IDDCX_MONITOR_DESCRIPTION_TYPE enumeration [Display Devices], IDDCX_MONITOR_DESCRIPTION_TYPE_DISPLAYID, IDDCX_MONITOR_DESCRIPTION_TYPE_EDID, IDDCX_MONITOR_DESCRIPTION_TYPE_UNINITIALIZED, display.iddcx_monitor_description_type, iddcx/IDDCX_MONITOR_DESCRIPTION_TYPE, iddcx/IDDCX_MONITOR_DESCRIPTION_TYPE_DISPLAYID, iddcx/IDDCX_MONITOR_DESCRIPTION_TYPE_EDID, iddcx/IDDCX_MONITOR_DESCRIPTION_TYPE_UNINITIALIZED
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	iddcx.h
 api_name:
 -	IDDCX_MONITOR_DESCRIPTION_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -52,18 +53,6 @@ req.typenames:
 
                      Used to describe the monitor description.
                 
-
-
-## -syntax
-
-
-````
-typedef enum _IDDCX_MONITOR_DESCRIPTION_TYPE { 
-  IDDCX_MONITOR_DESCRIPTION_TYPE_UNINITIALIZED  = 0,
-  IDDCX_MONITOR_DESCRIPTION_TYPE_EDID           = 1,
-  IDDCX_MONITOR_DESCRIPTION_TYPE_DISPLAYID      = 2
-} IDDCX_MONITOR_DESCRIPTION_TYPE;
-````
 
 
 ## -enum-fields

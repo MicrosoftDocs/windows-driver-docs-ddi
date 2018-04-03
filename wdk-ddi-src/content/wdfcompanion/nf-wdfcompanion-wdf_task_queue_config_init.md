@@ -38,7 +38,8 @@ api_location:
 -	wdfcompanion.h
 api_name:
 -	WDF_TASK_QUEUE_CONFIG_INIT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_TASK_QUEUE_DISPATCH_TYPE
 req.product: Windows 10 or later.
@@ -52,18 +53,6 @@ req.product: Windows 10 or later.
 
 
 			For internal use only.
-
-
-## -syntax
-
-
-````
-FORCEINLINE VOID WDF_TASK_QUEUE_CONFIG_INIT(
-  _Out_ PWDF_TASK_QUEUE_CONFIG       Config,
-  _In_  USHORT                       TaskQueueId,
-  _In_  WDF_TASK_QUEUE_DISPATCH_TYPE DispatchType
-);
-````
 
 
 ## -parameters

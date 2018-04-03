@@ -7,7 +7,7 @@ old-location: dtf\iwdtfsimulatedbatterysystemaction_enablesimulatedbattery.htm
 old-project: dtf
 ms.assetid: c9ca8bb4-2a05-4934-b589-41fba8092b1b
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/29/2018
 ms.keywords: EnableSimulatedBattery method [Windows Device Testing Framework], EnableSimulatedBattery method [Windows Device Testing Framework], IWDTFSimulatedBatterySystemAction interface, EnableSimulatedBattery,IWDTFSimulatedBatterySystemAction.EnableSimulatedBattery, IWDTFSimulatedBatterySystemAction, IWDTFSimulatedBatterySystemAction interface [Windows Device Testing Framework], EnableSimulatedBattery method, IWDTFSimulatedBatterySystemAction::EnableSimulatedBattery, dtf.iwdtfsimulatedbatterysystemaction_enablesimulatedbattery, wdtfsimulatedbatterysystemaction/IWDTFSimulatedBatterySystemAction::EnableSimulatedBattery
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	wdtfsimulatedbatterysystemaction.h
 api_name:
 -	IWDTFSimulatedBatterySystemAction.EnableSimulatedBattery
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TTraceLevel
 req.product: Windows 10 or later.
@@ -60,16 +61,6 @@ Enables the simulated battery.
     itself, the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265161">IWDTFSimulatedBatterySystemAction::DisableRealBatteries</a> method must also be called in order to guarantee a real battery doesn't interfere with the simulation.
 
 
-## -syntax
-
-
-````
-HRESULT EnableSimulatedBattery(
-  [out, retval] VARIANT_BOOL *pbSuccess
-);
-````
-
-
 ## -parameters
 
 
@@ -89,16 +80,15 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\wdtfsimulatedbatterysystemaction\nn-wdtfsimulatedbatterysystemaction-iwdtfsimulatedbatterysystemaction.md">IWDTFSimulatedBatterySystemAction</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265160">IWDTFSimulatedBatterySystemAction</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn265161">IWDTFSimulatedBatterySystemAction::DisableRealBatteries</a>
-
-
-
  
 
  
-
 

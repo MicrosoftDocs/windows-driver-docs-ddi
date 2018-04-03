@@ -38,7 +38,8 @@ api_location:
 -	2.0\Sercx.h
 api_name:
 -	EvtSerCx2ApplyConfig
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SENSOR_VALUE_PAIR, *PSENSOR_VALUE_PAIR
 req.product: Windows 10 or later.
@@ -53,20 +54,6 @@ req.product: Windows 10 or later.
 The <i>EvtSerCx2ApplyConfig</i> event callback function is called by version 2 of the serial framework extension (SerCx2) to supply the serial controller driver with a list of device-specific configuration settings to apply to the serial controller hardware.
 
 
-## -prototype
-
-
-````
-EVT_SERCX2_APPLY_CONFIG EvtSerCx2ApplyConfig;
-
-NTSTATUS EvtSerCx2ApplyConfig(
-  _In_ WDFDEVICE Device,
-  _In_ PVOID     ConnectionParameters
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -74,7 +61,7 @@ NTSTATUS EvtSerCx2ApplyConfig(
 
 ### -param Device [in]
 
-A WDFDEVICE handle to the framework device object that represents the serial controller. The serial controller driver created this object in its <a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a> callback function. For more information, see <a href="..\sercx\nf-sercx-sercx2initializedevice.md">SerCx2InitializeDevice</a>.
+A WDFDEVICE handle to the framework device object that represents the serial controller. The serial controller driver created this object in its <a href="https://msdn.microsoft.com/b20db029-ee2c-4fb1-bd69-ccd2e37fdc9a">EvtDriverDeviceAdd</a> callback function. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/dn265261">SerCx2InitializeDevice</a>.
 
 
 ### -param ConnectionParameters [in]
@@ -95,9 +82,9 @@ The <i>EvtSerCx2ApplyConfig</i> function returns STATUS_SUCCESS if the call is s
 
 
 
-Your serial controller driver must implement this function. The driver registers the function in the call to the <a href="..\sercx\nf-sercx-sercx2initializedevice.md">SerCx2InitializeDevice</a> method that finishes the initialization of the framework device object for the serial controller.
+Your serial controller driver must implement this function. The driver registers the function in the call to the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265261">SerCx2InitializeDevice</a> method that finishes the initialization of the framework device object for the serial controller.
 
-SerCx2 calls the <i>EvtSerCx2ApplyConfig</i> function during initialization of the serial controller to ensure that the hardware is in a valid initial state. Additionally, this function is called whenever a client sends an <a href="..\ntddser\ni-ntddser-ioctl_serial_apply_default_configuration.md">IOCTL_SERIAL_APPLY_DEFAULT_CONFIGURATION</a> request to the serial controller.
+SerCx2 calls the <i>EvtSerCx2ApplyConfig</i> function during initialization of the serial controller to ensure that the hardware is in a valid initial state. Additionally, this function is called whenever a client sends an <a href="https://msdn.microsoft.com/library/windows/hardware/hh406621">IOCTL_SERIAL_APPLY_DEFAULT_CONFIGURATION</a> request to the serial controller.
 
 SerCx2 obtains the configuration parameters from the vendor-defined data field in the ACPI resource descriptor for the serial controller device. The data format that the ACPI firmware uses to store these configuration settings should be the same data format that is expected by the serial controller driver. For more information, see the description of the <i>UART serial bus connection descriptor</i> in the <i>Advanced Configuration and Power Interface Specification, Revision 5.0</i>, at the <a href="http://www.acpi.info">ACPI</a> website.
 
@@ -244,11 +231,14 @@ The pshpack1.h and poppack.h header files in the preceding code example control 
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406621">IOCTL_SERIAL_APPLY_DEFAULT_CONFIGURATION</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/jj938062">PNP_SERIAL_BUS_DESCRIPTOR</a>
-
-
-
-<a href="..\sercx\nf-sercx-sercx2initializedevice.md">SerCx2InitializeDevice</a>
 
 
 
@@ -256,12 +246,8 @@ The pshpack1.h and poppack.h header files in the preceding code example control 
 
 
 
-<a href="..\ntddser\ni-ntddser-ioctl_serial_apply_default_configuration.md">IOCTL_SERIAL_APPLY_DEFAULT_CONFIGURATION</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265261">SerCx2InitializeDevice</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: kernel\rtlulonglongtouint8.htm
 old-project: kernel
 ms.assetid: 6A4A46EC-6B52-4A93-85FA-01DC87DD93B6
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: RtlULongLongToUInt8, RtlULongLongToUInt8 function [Kernel-Mode Driver Architecture], kernel.rtlulonglongtouint8, ntintsafe/RtlULongLongToUInt8
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ntintsafe.h
 api_name:
 -	RtlULongLongToUInt8
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 ---
@@ -50,17 +51,6 @@ req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 
 
 Converts a value of type <b>ULONGLONG</b> to a value of type <b>UINT8</b>.
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlULongLongToUInt8(
-  _In_  ULONGLONG ullOperand,
-  _Out_ UINT8     *pu8Result
-);
-````
 
 
 ## -parameters

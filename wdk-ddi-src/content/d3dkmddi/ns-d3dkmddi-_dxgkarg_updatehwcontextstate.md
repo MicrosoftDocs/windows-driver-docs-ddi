@@ -7,7 +7,7 @@ old-location: display\dxgkarg_updatehwcontextstate.htm
 old-project: display
 ms.assetid: 39BF7EBF-DD13-41F0-9F54-78E5D82CAB4F
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKARG_UPDATEHWCONTEXTSTATE, DXGKARG_UPDATEHWCONTEXTSTATE structure [Display Devices], _DXGKARG_UPDATEHWCONTEXTSTATE, d3dkmddi/DXGKARG_UPDATEHWCONTEXTSTATE, display.dxgkarg_updatehwcontextstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGKARG_UPDATEHWCONTEXTSTATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGKARG_UPDATEHWCONTEXTSTATE
 ---
@@ -50,19 +51,6 @@ req.typenames: DXGKARG_UPDATEHWCONTEXTSTATE
 
 
 Used to update the context state.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGKARG_UPDATEHWCONTEXTSTATE {
-  HANDLE                          hHwContext;
-  UINT64                          ContextSwitchFence;
-  UINT                            Priority;
-  DXGK_UPDATEHWCONTEXTSTATE_FLAGS Flags;
-} DXGKARG_UPDATEHWCONTEXTSTATE;
-````
 
 
 ## -struct-fields

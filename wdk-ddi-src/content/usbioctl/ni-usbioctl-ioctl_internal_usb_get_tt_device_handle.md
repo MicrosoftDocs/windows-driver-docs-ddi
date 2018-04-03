@@ -7,7 +7,7 @@ old-location: buses\ioctl_internal_usb_get_tt_device_handle.htm
 old-project: usbref
 ms.assetid: 1ea77cc4-bee4-4e0a-92a4-6413d3e5871a
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_INTERNAL_USB_GET_TT_DEVICE_HANDLE, IOCTL_INTERNAL_USB_GET_TT_DEVICE_HANDLE control code [Buses], buses.ioctl_internal_usb_get_tt_device_handle, usbioctl/IOCTL_INTERNAL_USB_GET_TT_DEVICE_HANDLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Usbioctl.h
 api_name:
 -	IOCTL_INTERNAL_USB_GET_TT_DEVICE_HANDLE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USB_HUB_TYPE
 req.product: Windows 10 or later.

@@ -7,7 +7,7 @@ old-location: storage\storage_temperature_threshold.htm
 old-project: storage
 ms.assetid: 19096AD2-5149-4AE1-94CD-9004ED8C24DC
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSTORAGE_TEMPERATURE_THRESHOLD, PSTORAGE_TEMPERATURE_THRESHOLD, PSTORAGE_TEMPERATURE_THRESHOLD structure pointer [Storage Devices], STORAGE_TEMPERATURE_THRESHOLD, STORAGE_TEMPERATURE_THRESHOLD structure [Storage Devices], _STORAGE_TEMPERATURE_THRESHOLD, ntddstor/PSTORAGE_TEMPERATURE_THRESHOLD, ntddstor/STORAGE_TEMPERATURE_THRESHOLD, storage.storage_temperature_threshold"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddstor.h
 api_name:
 -	STORAGE_TEMPERATURE_THRESHOLD
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STORAGE_TEMPERATURE_THRESHOLD, *PSTORAGE_TEMPERATURE_THRESHOLD
 ---
@@ -49,23 +50,7 @@ req.typenames: STORAGE_TEMPERATURE_THRESHOLD, *PSTORAGE_TEMPERATURE_THRESHOLD
 ## -description
 
 
-This structure is used to set the over or under temperature threshold of a storage device (via <a href="..\ntddstor\ni-ntddstor-ioctl_storage_set_temperature_threshold.md">IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD</a>).
-
-
-## -syntax
-
-
-````
-typedef struct _STORAGE_TEMPERATURE_THRESHOLD {
-  ULONG   Version;
-  ULONG   Size;
-  USHORT  Flags;
-  USHORT  Index;
-  SHORT   Threshold;
-  BOOLEAN OverThreshold;
-  UCHAR   Reserved;
-} STORAGE_TEMPERATURE_THRESHOLD, *PSTORAGE_TEMPERATURE_THRESHOLD;
-````
+This structure is used to set the over or under temperature threshold of a storage device (via <a href="https://msdn.microsoft.com/library/windows/hardware/mt650982">IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD</a>).
 
 
 ## -struct-fields
@@ -122,15 +107,10 @@ Reserved for future use.
 
 ## -see-also
 
-<a href="..\ntddstor\ns-ntddstor-_storage_temperature_info.md">STORAGE_TEMPERATURE_INFO</a>
 
 
 
-<a href="..\ntddstor\ns-ntddstor-_storage_property_query.md">STORAGE_PROPERTY_QUERY</a>
-
-
-
-<a href="..\ntddstor\ni-ntddstor-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560590">IOCTL_STORAGE_QUERY_PROPERTY</a>
 
 
 
@@ -138,8 +118,12 @@ Reserved for future use.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566997">STORAGE_PROPERTY_QUERY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt651018">STORAGE_TEMPERATURE_INFO</a>
  
 
  
-
 

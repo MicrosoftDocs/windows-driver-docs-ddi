@@ -7,7 +7,7 @@ old-location: storage\scsireportluns_in2.htm
 old-project: storage
 ms.assetid: 6de38cf4-a543-4cc9-aa6f-1804fc858040
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PScsiReportLuns_IN, PScsiReportLuns_IN, PScsiReportLuns_IN structure pointer [Storage Devices], ScsiReportLuns_IN, ScsiReportLuns_IN structure [Storage Devices], _ScsiReportLuns_IN, hbapiwmi/PScsiReportLuns_IN, hbapiwmi/ScsiReportLuns_IN, storage.scsireportluns_in2, structs-Fibre_29218585-2d91-40f3-bbce-fb23df1e3df9.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Hbapiwmi.h
 api_name:
 -	ScsiReportLuns_IN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: ScsiReportLuns_IN, *PScsiReportLuns_IN
 ---
@@ -50,19 +51,6 @@ req.typenames: ScsiReportLuns_IN, *PScsiReportLuns_IN
 
 
 The ScsiReportLuns_IN structure is used to deliver input parameter data to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564918">ScsiReportLuns</a> WMI method. 
-
-
-## -syntax
-
-
-````
-typedef struct _ScsiReportLuns_IN {
-  UCHAR     Cdb[12];
-  UCHAR     HbaPortWWN[8];
-  UCHAR     DiscoveredPortWWN[8];
-  ULONGLONG FcLun;
-} ScsiReportLuns_IN, *PScsiReportLuns_IN;
-````
 
 
 ## -struct-fields
@@ -101,12 +89,11 @@ The WMI tool suite generates a declaration of the ScsiReportLuns_IN structure in
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564918">ScsiReportLuns</a>
-
-
-
  
 
  
-
 

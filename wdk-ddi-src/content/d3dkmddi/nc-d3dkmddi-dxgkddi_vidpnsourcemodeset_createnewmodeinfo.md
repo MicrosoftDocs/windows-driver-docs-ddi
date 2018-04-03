@@ -7,7 +7,7 @@ old-location: display\dxgk_vidpnsourcemodeset_interface_pfncreatenewmodeinfo.htm
 old-project: display
 ms.assetid: b18aab68-7457-45eb-8641-0b6180cfa70e
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_VIDPNSOURCEMODESET_CREATENEWMODEINFO, VidPnFunctions_f3f37645-c80f-4bde-81b4-3e4fef145e38.xml, d3dkmddi/pfnCreateNewModeInfo, display.dxgk_vidpnsourcemodeset_interface_pfncreatenewmodeinfo, pfnCreateNewModeInfo, pfnCreateNewModeInfo callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	pfnCreateNewModeInfo
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 ---
@@ -49,21 +50,7 @@ req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 ## -description
 
 
-The <b>pfnCreateNewModeInfo</b> function returns a pointer to a <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_source_mode.md">D3DKMDT_VIDPN_SOURCE_MODE</a> structure that the display miniport driver populates before calling <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpnsourcemodeset_addmode.md">pfnAddMode</a>.
-
-
-## -prototype
-
-
-````
-DXGKDDI_VIDPNSOURCEMODESET_CREATENEWMODEINFO pfnCreateNewModeInfo;
-
-NTSTATUS APIENTRY pfnCreateNewModeInfo(
-  _In_  const D3DKMDT_HVIDPNSOURCEMODESET hVidPnSourceModeSet,
-  _Out_       PPD3DKMDT_VIDPN_SOURCE_MODE ppNewVidPnSourceModeInfo
-)
-{ ... }
-````
+The <b>pfnCreateNewModeInfo</b> function returns a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff546724">D3DKMDT_VIDPN_SOURCE_MODE</a> structure that the display miniport driver populates before calling <a href="https://msdn.microsoft.com/754078c2-f79b-4237-a14c-96903856f3a5">pfnAddMode</a>.
 
 
 ## -parameters
@@ -73,7 +60,7 @@ NTSTATUS APIENTRY pfnCreateNewModeInfo(
 
 ### -param hVidPnSourceModeSet [in]
 
-[in] A handle to a VidPN source mode set object. The display miniport driver previously obtained this handle by calling the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpn_acquiresourcemodeset.md">pfnAcquireSourceModeSet</a> function of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_vidpn_interface.md">DXGK_VIDPN_INTERFACE</a> interface.
+[in] A handle to a VidPN source mode set object. The display miniport driver previously obtained this handle by calling the <a href="https://msdn.microsoft.com/cf19f468-86c1-4cc9-8945-e23f73a85c91">pfnAcquireSourceModeSet</a> function of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562108">DXGK_VIDPN_INTERFACE</a> interface.
 
 
 ### -param ppNewVidPnSourceModeInfo [out]
@@ -124,17 +111,17 @@ The handle supplied in <i>hVidPnSourceModeSet</i> was invalid.
 
 
 
-The <b>pfnCreateNewModeInfo</b> function allocates a <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_source_mode.md">D3DKMDT_VIDPN_SOURCE_MODE</a> structure, sets its <b>Id</b> member to a newly generated identifier, and sets its <b>Type</b> member to <b>D3DKMDT_RMT_UNINITIALIZED</b>.
+The <b>pfnCreateNewModeInfo</b> function allocates a <a href="https://msdn.microsoft.com/library/windows/hardware/ff546724">D3DKMDT_VIDPN_SOURCE_MODE</a> structure, sets its <b>Id</b> member to a newly generated identifier, and sets its <b>Type</b> member to <b>D3DKMDT_RMT_UNINITIALIZED</b>.
 
 After you call <b>pfnCreateNewModeInfo</b> to obtain a D3DKMDT_VIDPN_SOURCE_MODE structure, you must do one, but not both, of the following:
 
 <ul>
 <li>
-Populate the structure and pass it to <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpnsourcemodeset_addmode.md">pfnAddMode</a>.
+Populate the structure and pass it to <a href="https://msdn.microsoft.com/754078c2-f79b-4237-a14c-96903856f3a5">pfnAddMode</a>.
 
 </li>
 <li>
-Release the structure by calling <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpnsourcemodeset_releasemodeinfo.md">pfnReleaseModeInfo</a>.
+Release the structure by calling <a href="https://msdn.microsoft.com/614283cc-90bf-44f2-bab2-1aeec5e7de01">pfnReleaseModeInfo</a>.
 
 </li>
 </ul>
@@ -147,20 +134,19 @@ The D3DKMDT_HVIDPNSOURCEMODESET data type is defined in <i>D3dkmdt.h</i>.
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpnsourcemodeset_addmode.md">pfnAddMode</a>
 
 
 
-<a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_source_mode.md">D3DKMDT_VIDPN_SOURCE_MODE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546724">D3DKMDT_VIDPN_SOURCE_MODE</a>
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpnsourcemodeset_releasemodeinfo.md">pfnReleaseModeInfo</a>
+<a href="https://msdn.microsoft.com/754078c2-f79b-4237-a14c-96903856f3a5">pfnAddMode</a>
 
 
 
+<a href="https://msdn.microsoft.com/614283cc-90bf-44f2-bab2-1aeec5e7de01">pfnReleaseModeInfo</a>
  
 
  
-
 

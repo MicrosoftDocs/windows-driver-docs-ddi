@@ -38,7 +38,8 @@ api_location:
 -	upssvc.h
 api_name:
 -	UPSTurnOff
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UMDETW_ALLOCATION_USAGE
 req.product: Windows 10 or later.
@@ -51,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>UPSTurnOff</b> function turns off the UPS unit's power outlets, after a specified delay time.
-
-
-## -syntax
-
-
-````
-void UPSTurnOff(
-  _In_ DWORD aTurnOffDelay
-);
-````
 
 
 ## -parameters

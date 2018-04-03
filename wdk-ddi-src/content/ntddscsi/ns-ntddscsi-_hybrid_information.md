@@ -7,7 +7,7 @@ old-location: storage\hybrid_information.htm
 old-project: storage
 ms.assetid: 5CD8E422-8CEE-43E8-9703-520FDBE6BF5E
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PHYBRID_INFORMATION, HYBRID_INFORMATION, HYBRID_INFORMATION structure [Storage Devices], NvCacheNone, NvCacheStatusDisabled, NvCacheStatusDisabling, NvCacheStatusEnabled, NvCacheStatusUnknown, NvCacheTypeUnknown, NvCacheTypeWriteBack, NvCacheTypeWriteThrough, PHYBRID_INFORMATION, PHYBRID_INFORMATION structure pointer [Storage Devices], _HYBRID_INFORMATION, ntddscsi/HYBRID_INFORMATION, ntddscsi/PHYBRID_INFORMATION, storage.hybrid_information"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ntddscsi.h
 api_name:
 -	HYBRID_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: HYBRID_INFORMATION, *PHYBRID_INFORMATION
 ---
@@ -49,49 +50,7 @@ req.typenames: HYBRID_INFORMATION, *PHYBRID_INFORMATION
 ## -description
 
 
-The <b>HYBRID_INFORMATION</b> structure contains hybrid disk capability information. The structure is returned when the HYBRID_FUNCTION_GET_INFO function is selected in a <a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_miniport_hybrid.md">IOCTL_SCSI_MINIPORT_HYBRID</a> request  sent to an HBA miniport driver.
-
-
-## -syntax
-
-
-````
-typedef struct _HYBRID_INFORMATION {
-  ULONG          Version;
-  ULONG          Size;
-  BOOLEAN        HybridSupported;
-  NVCACHE_STATUS Status;
-  NVCACHE_TYPE   CacheTypeEffective;
-  NVCACHE_TYPE   CacheTypeDefault;
-  ULONG          FractionBase;
-  ULONGLONG      CacheSize;
-  struct {
-    ULONG WriteCacheChangeable  :1;
-    ULONG WriteThroughIoSupported  :1;
-    ULONG FlushCacheSupported  :1;
-    ULONG Removable  :1;
-    ULONG ReservedBits  :28;
-  } Attributes;
-  struct {
-    UCHAR                             PriorityLevelCount;
-    BOOLEAN                           MaxPriorityBehavior;
-    ULONG                             DirtyThresholdLow;
-    ULONG                             DirtyThresholdHigh;
-    struct {
-      ULONG CacheDisable  :1;
-      ULONG SetDirtyThreshold  :1;
-      ULONG PriorityDemoteBySize  :1;
-      ULONG PriorityChangeByLbaRange  :1;
-      ULONG Evict  :1;
-      ULONG ReservedBits  :27;
-      ULONG MaxEvictCommands;
-      ULONG MaxLbaRangeCountForEvict;
-      ULONG MaxLbaRangeCountForChangeLba;
-    } SupportedCommands;
-    NVCACHE_PRIORITY_LEVEL_DESCRIPTOR Priority[];
-  } Priorities;
-} HYBRID_INFORMATION, *PHYBRID_INFORMATION;
-````
+The <b>HYBRID_INFORMATION</b> structure contains hybrid disk capability information. The structure is returned when the HYBRID_FUNCTION_GET_INFO function is selected in a <a href="https://msdn.microsoft.com/library/windows/hardware/dn323747">IOCTL_SCSI_MINIPORT_HYBRID</a> request  sent to an HBA miniport driver.
 
 
 ## -struct-fields
@@ -357,12 +316,11 @@ The maximum number of LBA ranges possible to associate with a Priority Change co
 
 ## -see-also
 
-<a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_miniport_hybrid.md">IOCTL_SCSI_MINIPORT_HYBRID</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn323747">IOCTL_SCSI_MINIPORT_HYBRID</a>
  
 
  
-
 

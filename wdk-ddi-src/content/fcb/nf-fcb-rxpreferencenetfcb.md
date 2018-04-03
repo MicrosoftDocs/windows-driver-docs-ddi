@@ -7,7 +7,7 @@ old-location: ifsk\rxpreferencenetfcb.htm
 old-project: ifsk
 ms.assetid: bc8999e2-d305-407f-8302-6834efa698c5
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: RxpReferenceNetFcb, RxpReferenceNetFcb function [Installable File System Drivers], fcb/RxpReferenceNetFcb, ifsk.rxpreferencenetfcb, rxref_48d7801e-1459-405e-a681-2aa13e9e31cd.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	fcb.h
 api_name:
 -	RxpReferenceNetFcb
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FA_ENTRY, *PFA_ENTRY
 ---
@@ -50,16 +51,6 @@ req.typenames: FA_ENTRY, *PFA_ENTRY
 
 
 <b>RxpReferenceNetFcb</b> increments the reference count on an FCB.
-
-
-## -syntax
-
-
-````
-LONG RxpReferenceNetFcb(
-   PFCB Fcb
-);
-````
 
 
 ## -parameters
@@ -94,20 +85,19 @@ On checked builds, <b>RxpReferenceNetFcb</b> causes the system to ASSERT if the 
 
 ## -see-also
 
-<a href="..\fcb\nf-fcb-rxpdereferencenetfcb.md">RxpDereferenceNetFcb</a>
 
 
 
-<a href="..\fcb\nf-fcb-rxptrackdereference.md">RxpTrackDereference</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554608">RxpDereferenceNetFcb</a>
 
 
 
-<a href="..\fcb\nf-fcb-rxptrackreference.md">RxpTrackReference</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554655">RxpTrackDereference</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554659">RxpTrackReference</a>
  
 
  
-
 

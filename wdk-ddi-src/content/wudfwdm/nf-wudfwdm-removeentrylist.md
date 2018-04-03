@@ -7,7 +7,7 @@ old-location: kernel\removeentrylist.htm
 old-project: kernel
 ms.assetid: 84c3937f-8042-4b15-b5bb-884d14a97a8c
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 2/24/2018
 ms.keywords: RemoveEntryList, RemoveEntryList routine [Kernel-Mode Driver Architecture], k109_138ddf01-d13f-4e36-9b66-c2e58914c170.xml, kernel.removeentrylist, wdm/RemoveEntryList
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any level (See Remarks section)
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	RemoveEntryList
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PO_FX_PERF_STATE_UNIT, *PPO_FX_PERF_STATE_UNIT
 req.product: Windows 10 or later.
@@ -105,7 +106,7 @@ Callers of <b>RemoveEntryList</b> can be running at any IRQL. If <b>RemoveEntryL
 
 ## -see-also
 
-<a href="..\wudfwdm\nf-wudfwdm-removetaillist.md">RemoveTailList</a>
+<a href="..\wudfwdm\nf-wudfwdm-initializelisthead.md">InitializeListHead</a>
 
 
 
@@ -117,12 +118,13 @@ Callers of <b>RemoveEntryList</b> can be running at any IRQL. If <b>RemoveEntryL
 
 
 
-<a href="..\wudfwdm\nf-wudfwdm-initializelisthead.md">InitializeListHead</a>
+<a href="..\wudfwdm\nf-wudfwdm-removetaillist.md">RemoveTailList</a>
 
 
 
  
 
  
+
 
 

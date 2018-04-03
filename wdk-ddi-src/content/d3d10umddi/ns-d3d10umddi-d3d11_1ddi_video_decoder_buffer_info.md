@@ -7,7 +7,7 @@ old-location: display\d3d11_1ddi_video_decoder_buffer_info.htm
 old-project: display
 ms.assetid: 1f013077-ea85-4c35-8667-cdf0c1353b0f
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3D11_1DDI_VIDEO_DECODER_BUFFER_INFO, D3D11_1DDI_VIDEO_DECODER_BUFFER_INFO structure [Display Devices], d3d10umddi/D3D11_1DDI_VIDEO_DECODER_BUFFER_INFO, display.d3d11_1ddi_video_decoder_buffer_info
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3d10umddi.h
 api_name:
 -	D3D11_1DDI_VIDEO_DECODER_BUFFER_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D11_1DDI_VIDEO_DECODER_BUFFER_INFO
 ---
@@ -52,18 +53,6 @@ req.typenames: D3D11_1DDI_VIDEO_DECODER_BUFFER_INFO
 Specifies information about a video decoder buffer.
 
 
-## -syntax
-
-
-````
-typedef struct D3D11_1DDI_VIDEO_DECODER_BUFFER_INFO {
-  D3D11_1DDI_VIDEO_DECODER_BUFFER_TYPE Type;
-  UINT                                 Size;
-  UINT                                 Usage;
-} D3D11_1DDI_VIDEO_DECODER_BUFFER_INFO;
-````
-
-
 ## -struct-fields
 
 
@@ -71,9 +60,9 @@ typedef struct D3D11_1DDI_VIDEO_DECODER_BUFFER_INFO {
 
 ### -field Type
 
-The type of buffer, specified as a constant value of the <a href="..\d3d10umddi\ne-d3d10umddi-d3d11_ddi_video_decoder_buffer_type.md">D3D11_DDI_VIDEO_DECODER_BUFFER_TYPE</a> enumeration.
+The type of buffer, specified as a constant value of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451066">D3D11_DDI_VIDEO_DECODER_BUFFER_TYPE</a> enumeration.
 
-In D3d10umddi.h, <a href="..\d3d10umddi\ne-d3d10umddi-d3d11_ddi_video_decoder_buffer_type.md">D3D11_DDI_VIDEO_DECODER_BUFFER_TYPE</a> and <b>D3D11_1DDI_VIDEO_DECODER_BUFFER_TYPE</b> are defined as the same type.
+In D3d10umddi.h, <a href="https://msdn.microsoft.com/library/windows/hardware/hh451066">D3D11_DDI_VIDEO_DECODER_BUFFER_TYPE</a> and <b>D3D11_1DDI_VIDEO_DECODER_BUFFER_TYPE</b> are defined as the same type.
 
 
 ### -field Size
@@ -83,21 +72,20 @@ The size of the buffer, in bytes.
 
 ### -field Usage
 
-A value from the <a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_video_usage.md">D3D11_1DDI_VIDEO_USAGE</a> enumeration that identifies how the decode device plays video.
+A value from the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451037">D3D11_1DDI_VIDEO_USAGE</a> enumeration that identifies how the decode device plays video.
 
 
 ## -see-also
 
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_video_usage.md">D3D11_1DDI_VIDEO_USAGE</a>
 
 
 
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d11_ddi_video_decoder_buffer_type.md">D3D11_DDI_VIDEO_DECODER_BUFFER_TYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451037">D3D11_1DDI_VIDEO_USAGE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451066">D3D11_DDI_VIDEO_DECODER_BUFFER_TYPE</a>
  
 
  
-
 

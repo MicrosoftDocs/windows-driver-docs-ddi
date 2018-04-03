@@ -7,7 +7,7 @@ old-location: netvista\ndis_offload_parameters.htm
 old-project: netvista
 ms.assetid: ceb6647a-a43e-4ab1-88d4-49927103ecba
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PNDIS_OFFLOAD_PARAMETERS, NDIS_ENCAPSULATION_TYPE_GRE_MAC, NDIS_OFFLOAD_PARAMETERS, NDIS_OFFLOAD_PARAMETERS structure [Network Drivers Starting with Windows Vista], NDIS_OFFLOAD_PARAMETERS_IPSECV1_AH_AND_ESP_ENABLED, NDIS_OFFLOAD_PARAMETERS_IPSECV1_AH_ENABLED, NDIS_OFFLOAD_PARAMETERS_IPSECV1_DISABLED, NDIS_OFFLOAD_PARAMETERS_IPSECV1_ESP_ENABLED, NDIS_OFFLOAD_PARAMETERS_IPSECV2_AH_AND_ESP_ENABLED, NDIS_OFFLOAD_PARAMETERS_IPSECV2_AH_ENABLED, NDIS_OFFLOAD_PARAMETERS_IPSECV2_DISABLED, NDIS_OFFLOAD_PARAMETERS_IPSECV2_ESP_ENABLED, NDIS_OFFLOAD_PARAMETERS_LSOV1_DISABLED, NDIS_OFFLOAD_PARAMETERS_LSOV1_ENABLED, NDIS_OFFLOAD_PARAMETERS_LSOV2_DISABLED, NDIS_OFFLOAD_PARAMETERS_LSOV2_ENABLED, NDIS_OFFLOAD_PARAMETERS_NO_CHANGE, NDIS_OFFLOAD_PARAMETERS_REVISION_1, NDIS_OFFLOAD_PARAMETERS_REVISION_2, NDIS_OFFLOAD_PARAMETERS_REVISION_3, NDIS_OFFLOAD_PARAMETERS_RSC_DISABLED, NDIS_OFFLOAD_PARAMETERS_RSC_ENABLED, NDIS_OFFLOAD_SET_NO_CHANGE, NDIS_OFFLOAD_SET_OFF, NDIS_OFFLOAD_SET_ON, PNDIS_OFFLOAD_PARAMETERS, PNDIS_OFFLOAD_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_OFFLOAD_PARAMETERS, netvista.ndis_offload_parameters, ntddndis/NDIS_OFFLOAD_PARAMETERS, ntddndis/PNDIS_OFFLOAD_PARAMETERS, tcpip_offload_ref_9ae50974-12a7-4c63-973e-27684a4f1474.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddndis.h
 api_name:
 -	NDIS_OFFLOAD_PARAMETERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_OFFLOAD_PARAMETERS, *PNDIS_OFFLOAD_PARAMETERS
 ---
@@ -54,44 +55,6 @@ The <b>NDIS_OFFLOAD_PARAMETERS</b> structure specifies the current task offload 
   OID set request of <a href="https://msdn.microsoft.com/library/windows/hardware/ff569807">OID_TCP_OFFLOAD_PARAMETERS</a>.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_OFFLOAD_PARAMETERS {
-  NDIS_OBJECT_HEADER Header;
-  UCHAR              IPv4Checksum;
-  UCHAR              TCPIPv4Checksum;
-  UCHAR              UDPIPv4Checksum;
-  UCHAR              TCPIPv6Checksum;
-  UCHAR              UDPIPv6Checksum;
-  UCHAR              LsoV1;
-  UCHAR              IPsecV1;
-  UCHAR              LsoV2IPv4;
-  UCHAR              LsoV2IPv6;
-  UCHAR              TcpConnectionIPv4;
-  UCHAR              TcpConnectionIPv6;
-  ULONG              Flags;
-#if (NDIS_SUPPORT_NDIS61)
-  UCHAR              IPsecV2;
-  UCHAR              IPsecV2IPv4;
-#endif 
-#if (NDIS_SUPPORT_NDIS630)
-  struct {
-    UCHAR RscIPv4;
-    UCHAR RscIPv6;
-  };
-#endif 
-#if (NDIS_SUPPORT_NDIS630)
-  struct {
-    UCHAR EncapsulatedPacketTaskOffload;
-    UCHAR EncapsulationTypes;
-  };
-#endif 
-} NDIS_OFFLOAD_PARAMETERS, *PNDIS_OFFLOAD_PARAMETERS;
-````
-
-
 ## -struct-fields
 
 
@@ -100,7 +63,7 @@ typedef struct _NDIS_OFFLOAD_PARAMETERS {
 ### -field Header
 
 The 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure for the
      <b>NDIS_OFFLOAD_PARAMETERS</b> structure. Set the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to NDIS_OBJECT_TYPE_DEFAULT.
@@ -803,21 +766,20 @@ The preceding members can have one of the following values:
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+
+
+
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-connection-offload-hardware-capabilities">
    OID_TCP_OFFLOAD_HARDWARE_CAPABILITIES</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569807">OID_TCP_OFFLOAD_PARAMETERS</a>
-
-
-
  
 
  
-
 

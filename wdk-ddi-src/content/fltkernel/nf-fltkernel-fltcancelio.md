@@ -7,7 +7,7 @@ old-location: ifsk\fltcancelio.htm
 old-project: ifsk
 ms.assetid: 30f2345d-6ed8-475f-879a-d3218039fded
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FltApiRef_a_to_d_e539a1bb-9dd4-4e1b-ac10-b5f742923839.xml, FltCancelIo, FltCancelIo routine [Installable File System Drivers], fltkernel/FltCancelIo, ifsk.fltcancelio
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	FltMgr.dll
 api_name:
 -	FltCancelIo
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
@@ -53,16 +54,6 @@ req.typenames: EXpsFontRestriction
 The <b>FltCancelIo</b> routine cancels an I/O operation. 
 
 
-## -syntax
-
-
-````
-BOOLEAN FltCancelIo(
-  _In_ PFLT_CALLBACK_DATA CallbackData
-);
-````
-
-
 ## -parameters
 
 
@@ -70,7 +61,7 @@ BOOLEAN FltCancelIo(
 
 ### -param CallbackData [in]
 
-Pointer to the callback data (<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>) structure for the I/O operation. 
+Pointer to the callback data (<a href="https://msdn.microsoft.com/library/windows/hardware/ff544620">FLT_CALLBACK_DATA</a>) structure for the I/O operation. 
 
 
 ## -returns
@@ -86,7 +77,7 @@ Pointer to the callback data (<a href="..\fltkernel\ns-fltkernel-_flt_callback_d
 
 
 
-A minifilter driver that initiates an I/O operation by calling a routine such as <a href="..\fltkernel\nf-fltkernel-fltperformasynchronousio.md">FltPerformAsynchronousIo</a> can cancel the operation by calling <b>FltCancelIo</b>. The operation must be an IRP-based I/O operation, it must not be currently posted to the minifilter driver's own work queue, and it must not have been completed. 
+A minifilter driver that initiates an I/O operation by calling a routine such as <a href="https://msdn.microsoft.com/library/windows/hardware/ff543420">FltPerformAsynchronousIo</a> can cancel the operation by calling <b>FltCancelIo</b>. The operation must be an IRP-based I/O operation, it must not be currently posted to the minifilter driver's own work queue, and it must not have been completed. 
 
 If the IRP has a cancel routine, <b>FltCancelIo</b> sets the IRP's cancel bit and calls the cancel routine. 
 
@@ -112,45 +103,44 @@ The I/O operation has already been canceled.
 </ul>
 To determine whether a given callback data structure represents an IRP-based I/O operation, use the FLT_IS_IRP_OPERATION macro. 
 
-To specify a cancel routine for an I/O operation, call <a href="..\fltkernel\nf-fltkernel-fltsetcancelcompletion.md">FltSetCancelCompletion</a>. 
+To specify a cancel routine for an I/O operation, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff544390">FltSetCancelCompletion</a>. 
 
-To clear a cancel routine that was set for an I/O operation, call <a href="..\fltkernel\nf-fltkernel-fltclearcancelcompletion.md">FltClearCancelCompletion</a>. 
+To clear a cancel routine that was set for an I/O operation, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff541857">FltClearCancelCompletion</a>. 
 
 
 
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544620">FLT_CALLBACK_DATA</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544654">FLT_IS_IRP_OPERATION</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltperformasynchronousio.md">FltPerformAsynchronousIo</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541857">FltClearCancelCompletion</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltreadfile.md">FltReadFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543420">FltPerformAsynchronousIo</a>
 
 
 
-<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544286">FltReadFile</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltsetcancelcompletion.md">FltSetCancelCompletion</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544390">FltSetCancelCompletion</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltwritefile.md">FltWriteFile</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltclearcancelcompletion.md">FltClearCancelCompletion</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544610">FltWriteFile</a>
  
 
  
-
 

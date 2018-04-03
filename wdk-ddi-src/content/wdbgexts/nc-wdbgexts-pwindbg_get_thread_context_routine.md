@@ -7,7 +7,7 @@ old-location: debugger\getcontext.htm
 old-project: debugger
 ms.assetid: 706e05ae-9507-4414-b02c-52016e7bbbd9
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: GetContext, GetContext callback function [Windows Debugging], PWINDBG_GET_THREAD_CONTEXT_ROUTINE, WdbgExts_Ref_52639fac-abbf-4abc-a01f-361d14e49fd0.xml, debugger.getcontext, wdbgexts/GetContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	wdbgexts.h
 api_name:
 -	GetContext
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VPCI_WRITE_BLOCK_INPUT, *PVPCI_WRITE_BLOCK_INPUT
 req.product: Windows 10 or later.
@@ -51,18 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>PWINDBG_GET_THREAD_CONTEXT_ROUTINE</b> (<b>GetContext</b>) function implements the functionality that is similar to the Microsoft Win32 <b>GetThreadContext</b> routine. It returns the context of the process being debugged. 
-
-
-## -prototype
-
-
-````
-ULONG GetContext(
-  _In_  ULONG    Target,
-  _Out_ PCONTEXT lpContext,
-  _In_  ULONG    cbSizeOfContext
-);
-````
 
 
 ## -parameters

@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsDecrementCountedWorker
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -50,17 +51,7 @@ req.typenames:
 ## -description
 
 
-Decrements the current worker count of a worker previous created by <a href="..\ks\nf-ks-ksregistercountedworker.md">KsRegisterCountedWorker</a>. This should be called after each task within a worker has been completed. 
-
-
-## -syntax
-
-
-````
-ULONG KsDecrementCountedWorker(
-  _In_ PKSWORKER Worker
-);
-````
+Decrements the current worker count of a worker previous created by <a href="https://msdn.microsoft.com/library/windows/hardware/ff566770">KsRegisterCountedWorker</a>. This should be called after each task within a worker has been completed. 
 
 
 ## -parameters
@@ -86,23 +77,22 @@ Returns the current counter. A count of zero implies that the task list has been
 
 
 
-<b>KsDecrementCountedWorker</b> should be called after each task within a worker has been completed. A corresponding call to <a href="..\ks\nf-ks-ksincrementcountedworker.md">KsIncrementCountedWorker</a> would have previously incremented the count. <b>KsDecrementCountedWorker</b> may be called at DISPATCH_LEVEL.
+<b>KsDecrementCountedWorker</b> should be called after each task within a worker has been completed. A corresponding call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff562678">KsIncrementCountedWorker</a> would have previously incremented the count. <b>KsDecrementCountedWorker</b> may be called at DISPATCH_LEVEL.
 
 
 
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksincrementcountedworker.md">KsIncrementCountedWorker</a>
 
 
 
-<a href="..\ks\nf-ks-ksregistercountedworker.md">KsRegisterCountedWorker</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562678">KsIncrementCountedWorker</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566770">KsRegisterCountedWorker</a>
  
 
  
-
 

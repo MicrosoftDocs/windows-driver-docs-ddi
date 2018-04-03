@@ -7,7 +7,7 @@ old-location: display\videoportwaitforsingleobject.htm
 old-project: display
 ms.assetid: 574aa79e-c8ef-44de-8d0b-a550698a32e0
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: VideoPortWaitForSingleObject, VideoPortWaitForSingleObject function [Display Devices], VideoPort_Functions_a1678f59-0c1c-4b0a-b1e6-2dbb71c8a7c2.xml, display.videoportwaitforsingleobject, video/VideoPortWaitForSingleObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Videoprt.sys
 api_name:
 -	VideoPortWaitForSingleObject
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
 req.product: Windows 10 or later.
@@ -51,18 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>VideoPortWaitForSingleObject</b> function puts the current thread into a wait state until the given dispatch object is set to the signaled state, or (optionally) until the wait times out.
-
-
-## -syntax
-
-
-````
-VP_STATUS VideoPortWaitForSingleObject(
-  _In_ PVOID          HwDeviceExtension,
-  _In_ PVOID          Object,
-  _In_ PLARGE_INTEGER Timeout
-);
-````
 
 
 ## -parameters

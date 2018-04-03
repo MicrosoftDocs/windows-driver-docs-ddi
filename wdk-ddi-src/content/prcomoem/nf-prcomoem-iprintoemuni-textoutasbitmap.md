@@ -38,7 +38,8 @@ api_location:
 -	prcomoem.h
 api_name:
 -	IPrintOemUni.TextOutAsBitmap
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
@@ -51,25 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <code>IPrintOemUni::TextOutAsBitmap</code> method allows a rendering plug-in to create a bitmap image of a text string, in case a downloadable font is not available.
-
-
-## -syntax
-
-
-````
-HRESULT TextOutAsBitmap(
-   SURFOBJ  *pso,
-   STROBJ   *pstro,
-   FONTOBJ  *pfo,
-   CLIPOBJ  *pco,
-   RECTL    *prclExtra,
-   RECTL    *prclOpaque,
-   BRUSHOBJ *pboFore,
-   BRUSHOBJ *pboOpaque,
-   POINTL   *pptlOrg,
-   MIX      mix
-);
-````
 
 
 ## -parameters
@@ -190,11 +172,6 @@ The <code>IPrintOemUni::TextOutAsBitmap</code> method is optional. If a renderin
 
 ## -see-also
 
-<a href="..\prcomoem\nn-prcomoem-iprintoemuni.md">IPrintOemUni</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554253">IPrintOemUni::GetImplementedMethod</a>
 
 
 
@@ -202,8 +179,12 @@ The <code>IPrintOemUni::TextOutAsBitmap</code> method is optional. If a renderin
 
 
 
+<a href="https://msdn.microsoft.com/097366a0-2ded-435c-9b63-2b736b716032">IPrintOemUni</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554253">IPrintOemUni::GetImplementedMethod</a>
  
 
  
-
 

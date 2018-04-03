@@ -38,7 +38,8 @@ api_location:
 -	wiamindr_lh.h
 api_name:
 -	IWiaDrvItem.FindChildItemByName
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SCANWINDOW, *PSCANWINDOW
 req.product: Windows 10 or later.
@@ -51,17 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>IWiaDrvItem::FindChildItemByName</b> method searches the driver item tree for a specific child item.
-
-
-## -syntax
-
-
-````
-HRESULT FindChildItemByName(
-  [in]            BSTR        bstrChildItemName,
-  [out, optional] IWiaDrvItem **ppIChildItem
-);
-````
 
 
 ## -parameters
@@ -111,7 +101,10 @@ Minidrivers typically use this method to search a driver item tree for a specifi
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543881">IWiaDrvItem::GetFullItemName</a>
+
+
+
+<a href="https://msdn.microsoft.com/0609e1b2-48df-413c-90bd-d7ddea26510a">IWiaDrvItem</a>
 
 
 
@@ -119,12 +112,8 @@ Minidrivers typically use this method to search a driver item tree for a specifi
 
 
 
-<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiadrvitem.md">IWiaDrvItem</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543881">IWiaDrvItem::GetFullItemName</a>
  
 
  
-
 

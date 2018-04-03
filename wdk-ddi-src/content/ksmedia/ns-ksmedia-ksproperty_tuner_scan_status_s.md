@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KSPROPERTY_TUNER_SCAN_STATUS_S
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSPROPERTY_TUNER_SCAN_STATUS_S, *PKSPROPERTY_TUNER_SCAN_STATUS_S
 ---
@@ -50,18 +51,6 @@ req.typenames: KSPROPERTY_TUNER_SCAN_STATUS_S, *PKSPROPERTY_TUNER_SCAN_STATUS_S
 
 
 The KSPROPERTY_TUNER_SCAN_STATUS_S structure describes status for a scanning operation.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  KSPROPERTY    Property;
-  TunerLockType LockStatus;
-  ULONG         CurrentFrequency;
-} KSPROPERTY_TUNER_SCAN_STATUS_S, *PKSPROPERTY_TUNER_SCAN_STATUS_S;
-````
 
 
 ## -struct-fields
@@ -124,6 +113,13 @@ The current locked-in frequency, in Hz, on the tuning device.
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561898">KSEVENT_TUNER_INITIATE_SCAN</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
 
 
@@ -133,15 +129,7 @@ The current locked-in frequency, in Hz, on the tuning device.
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567800">PROPSETID_TUNER</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561898">KSEVENT_TUNER_INITIATE_SCAN</a>
-
-
-
  
 
  
-
 

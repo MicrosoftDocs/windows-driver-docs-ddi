@@ -38,7 +38,8 @@ api_location:
 -	bthddi.h
 api_name:
 -	_BRB_L2CA_ACL_TRANSFER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -53,24 +54,6 @@ The _BRB_L2CA_ACL_TRANSFER structure describes a buffer to read asynchronous dat
   asynchronous data to a L2CAP channel.
 
 
-## -syntax
-
-
-````
-struct _BRB_L2CA_ACL_TRANSFER {
-  BRB_HEADER           Hdr;
-  BTH_ADDR             BtAddress;
-  L2CAP_CHANNEL_HANDLE ChannelHandle;
-  ULONG                TransferFlags;
-  ULONG                BufferSize;
-  PVOID                Buffer;
-  PMDL                 BufferMDL;
-  LONGLONG             Timeout;
-  ULONG                RemainingBufferSize;
-};
-````
-
-
 ## -struct-fields
 
 
@@ -79,7 +62,7 @@ struct _BRB_L2CA_ACL_TRANSFER {
 ### -field Hdr
 
 A 
-     <a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a> structure that contains information
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536612">BRB_HEADER</a> structure that contains information
      about the current BRB.
 
 
@@ -210,6 +193,13 @@ If the ACL_TRANSFER_TIMEOUT flag is set in the
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536612">BRB_HEADER</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536613">BRB_L2CA_ACL_TRANSFER</a>
 
 
@@ -220,15 +210,7 @@ If the ACL_TRANSFER_TIMEOUT flag is set in the
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536616">
    BRB_L2CA_OPEN_CHANNEL_RESPONSE</a>
-
-
-
-<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
-
-
-
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: storage\setinitiatornodename_out.htm
 old-project: storage
 ms.assetid: f3417648-f9f9-402f-b3a3-d09c0b7e5fdd
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSetInitiatorNodeName_OUT, PSetInitiatorNodeName_OUT, PSetInitiatorNodeName_OUT structure pointer [Storage Devices], SetInitiatorNodeName_OUT, SetInitiatorNodeName_OUT structure [Storage Devices], _SetInitiatorNodeName_OUT, iscsiop/PSetInitiatorNodeName_OUT, iscsiop/SetInitiatorNodeName_OUT, storage.setinitiatornodename_out, structs-iSCSI_35ce4900-1703-4562-abe0-155215893c5f.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	iscsiop.h
 api_name:
 -	SetInitiatorNodeName_OUT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SetInitiatorNodeName_OUT, *PSetInitiatorNodeName_OUT
 ---
@@ -50,16 +51,6 @@ req.typenames: SetInitiatorNodeName_OUT, *PSetInitiatorNodeName_OUT
 
 
 The SetInitiatorNodeName_OUT structure holds the output data for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565706">SetInitiatorNodeName</a> method.
-
-
-## -syntax
-
-
-````
-typedef struct _SetInitiatorNodeName_OUT {
-  ULONG Status;
-} SetInitiatorNodeName_OUT, *PSetInitiatorNodeName_OUT;
-````
 
 
 ## -struct-fields
@@ -83,6 +74,9 @@ It is optional that you implement this class.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
 
 
@@ -91,12 +85,8 @@ It is optional that you implement this class.
 
 
 
-<a href="..\iscsiop\ns-iscsiop-_setinitiatornodename_in.md">SetInitiatorNodeName_IN</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565729">SetInitiatorNodeName_IN</a>
  
 
  
-
 

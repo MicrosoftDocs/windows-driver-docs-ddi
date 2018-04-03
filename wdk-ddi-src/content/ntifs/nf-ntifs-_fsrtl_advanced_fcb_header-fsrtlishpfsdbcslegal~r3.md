@@ -7,7 +7,7 @@ old-location: ifsk\fsrtlishpfsdbcslegal.htm
 old-project: ifsk
 ms.assetid: 44088ca7-4a10-4002-8ae8-edd228a903f2
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FsRtlIsHpfsDbcsLegal, FsRtlIsHpfsDbcsLegal routine [Installable File System Drivers], fsrtlref_6cde5ef1-2a54-4b66-b2da-e134b5700668.xml, ifsk.fsrtlishpfsdbcslegal, ntifs/FsRtlIsHpfsDbcsLegal
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	FsRtlIsHpfsDbcsLegal
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -50,19 +51,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>FsRtlIsHpfsDbcsLegal</b> routine determines whether the specified ANSI or double-byte character set (DBCS) string is a legal HPFS file name.
-
-
-## -syntax
-
-
-````
-BOOLEAN FsRtlIsHpfsDbcsLegal(
-  _In_ ANSI_STRING DbcsName,
-  _In_ BOOLEAN     WildCardsPermissible,
-  _In_ BOOLEAN     PathNamePermissible,
-  _In_ BOOLEAN     LeadingBackslashPermissible
-);
-````
 
 
 ## -parameters
@@ -132,12 +120,11 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540605">ANSI_STRING</a>
-
-
-
  
 
  
-
 

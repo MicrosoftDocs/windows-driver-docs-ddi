@@ -7,7 +7,7 @@ old-location: display\dd_getdriverinfo2data.htm
 old-project: display
 ms.assetid: f1b3e432-6972-49ff-9fce-b642c1be17ea
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DD_GETDRIVERINFO2DATA, DD_GETDRIVERINFO2DATA structure [Display Devices], _DD_GETDRIVERINFO2DATA, d3dhal/DD_GETDRIVERINFO2DATA, d3dstrct_64ab01fc-414f-4367-8bb7-201c7e120275.xml, display.dd_getdriverinfo2data
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dhal.h
 api_name:
 -	DD_GETDRIVERINFO2DATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DD_GETDRIVERINFO2DATA
 ---
@@ -54,19 +55,6 @@ req.typenames: DD_GETDRIVERINFO2DATA
    
 
 DD_GETDRIVERINFO2DATA is passed in the <b>lpvData</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551550">DD_GETDRIVERINFODATA</a> structure when GUID_GetDriverInfo2 is specified in the <b>guidInfo</b> member of DD_GETDRIVERINFODATA in a <a href="https://msdn.microsoft.com/89a22163-a678-4c72-932a-ae4d17922e0b">DdGetDriverInfo</a> call.
-
-
-## -syntax
-
-
-````
-typedef struct _DD_GETDRIVERINFO2DATA {
-  DWORD dwReserved;
-  DWORD dwMagic;
-  DWORD dwType;
-  DWORD dwExpectedSize;
-} DD_GETDRIVERINFO2DATA;
-````
 
 
 ## -struct-fields
@@ -108,7 +96,7 @@ Specifies the type of information requested, which can contain one of the follow
 Is used to notify the driver that it should properly 
 		handle the destruction of <a href="https://msdn.microsoft.com/05a2f942-4374-421e-8292-d122f9fe3571">AGP memory</a> for surfaces. 
 		The runtime provides a pointer to a 
-		<a href="..\d3dhal\ns-d3dhal-_dd_free_deferred_agp_data.md">DD_FREE_DEFERRED_AGP_DATA</a> 
+		<a href="https://msdn.microsoft.com/library/windows/hardware/ff551528">DD_FREE_DEFERRED_AGP_DATA</a> 
 		structure in the <b>lpvData</b> field of the DD_GETDRIVERINFODATA data structure.
 
 The driver sometimes receives this notification before a display mode change occurs. The runtime 
@@ -128,7 +116,7 @@ Is used to inform the driver that the runtime sends
 		D3DGDI2_TYPE_FREE_DEFERRED_AGP and D3DGDI2_TYPE_DEFER_AGP_FREES notifications at the appropriate time 
 		(such as, after the last outstanding <a href="https://msdn.microsoft.com/05a2f942-4374-421e-8292-d122f9fe3571">AGP memory</a> 
 		lock is released). The runtime provides a pointer to a 
-		<a href="..\d3dhal\ns-d3dhal-_dd_deferred_agp_aware_data.md">DD_DEFERRED_AGP_AWARE_DATA</a> 
+		<a href="https://msdn.microsoft.com/library/windows/hardware/ff550562">DD_DEFERRED_AGP_AWARE_DATA</a> 
 		structure in the 
 		<b>lpvData</b> field 
 		of the DD_GETDRIVERINFODATA data structure.
@@ -140,7 +128,7 @@ Is used to inform the driver that the runtime sends
 <td>
 Is used to notify the driver of the current DX runtime version 
 		being used by the application. The runtime provides a pointer to a 
-		<a href="..\d3dhal\ns-d3dhal-_dd_dxversion.md">DD_DXVERSION</a> structure in the <b>lpvData</b> 
+		<a href="https://msdn.microsoft.com/library/windows/hardware/ff551515">DD_DXVERSION</a> structure in the <b>lpvData</b> 
 		field of the DD_GETDRIVERINFODATA data structure.
 
 </td>
@@ -155,7 +143,7 @@ Is used to notify the driver that it is now safe
 		<a href="https://msdn.microsoft.com/05a2f942-4374-421e-8292-d122f9fe3571">AGP memory</a>. The driver preserved these user-mode 
 		mappings when surfaces were destroyed and it received a D3DGDI2_TYPE_DEFER_AGP_FREES notification. The 
 		runtime provides a pointer to a 
-		<a href="..\d3dhal\ns-d3dhal-_dd_free_deferred_agp_data.md">DD_FREE_DEFERRED_AGP_DATA</a> 
+		<a href="https://msdn.microsoft.com/library/windows/hardware/ff551528">DD_FREE_DEFERRED_AGP_DATA</a> 
 		structure in the <b>lpvData</b> field of the DD_GETDRIVERINFODATA data structure.
 
 The driver receives 
@@ -177,7 +165,7 @@ Is used to query the driver for the identity of
 		driver should set the data structure pointed to by 
 		the <b>lpvData</b> field of the 
 		DD_GETDRIVERINFODATA data structure to 
-		<a href="..\d3dhal\ns-d3dhal-_dd_getadaptergroupdata.md">DD_GETADAPTERGROUPDATA</a>.
+		<a href="https://msdn.microsoft.com/library/windows/hardware/ff551529">DD_GETADAPTERGROUPDATA</a>.
 		
 
 </td>
@@ -221,7 +209,7 @@ Is used to query
 		<b>lpvData</b> 
 		field of 
 		the DD_GETDRIVERINFODATA data structure to 
-		<a href="..\d3dhal\ns-d3dhal-_dd_getd3dquerydata.md">DD_GETD3DQUERYDATA</a>.
+		<a href="https://msdn.microsoft.com/library/windows/hardware/ff551541">DD_GETD3DQUERYDATA</a>.
 
 </td>
 </tr>
@@ -235,7 +223,7 @@ Is used to
 		supports. The driver should set the data structure 
 		pointed to by the <b>lpvData</b> field of the 
 		DD_GETDRIVERINFODATA data structure to 
-		<a href="..\d3dhal\ns-d3dhal-_dd_getd3dquerycountdata.md">DD_GETD3DQUERYCOUNTDATA</a>.
+		<a href="https://msdn.microsoft.com/library/windows/hardware/ff551539">DD_GETD3DQUERYCOUNTDATA</a>.
 
 </td>
 </tr>
@@ -251,7 +239,7 @@ Is used to
 		on the version of DirectX that makes this request. 
 		The driver should set the <b>dwDDIVersion</b> 
 		member 
-		of the <a href="..\d3dhal\ns-d3dhal-_dd_getddiversiondata.md">DD_GETDDIVERSIONDATA</a> 
+		of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551545">DD_GETDDIVERSIONDATA</a> 
 		structure, 
 		which the <b>lpvData</b> field of the 
 		DD_GETDRIVERINFODATA data structure points to, to 
@@ -272,7 +260,7 @@ Is used to
 		<b>lpvData</b> field of the DD_GETDRIVERINFODATA 
 		data 
 		structure to 
-		<a href="..\d3dhal\ns-d3dhal-_dd_getextendedmodedata.md">DD_GETEXTENDEDMODEDATA</a>.
+		<a href="https://msdn.microsoft.com/library/windows/hardware/ff551559">DD_GETEXTENDEDMODEDATA</a>.
 
 </td>
 </tr>
@@ -287,7 +275,7 @@ Is used
 		set the 
 		data structure pointed to by the <b>lpvData</b> 
 		field of the DD_GETDRIVERINFODATA data structure to 
-		<a href="..\d3dhal\ns-d3dhal-_dd_getextendedmodecountdata.md">DD_GETEXTENDEDMODECOUNTDATA</a>.
+		<a href="https://msdn.microsoft.com/library/windows/hardware/ff551558">DD_GETEXTENDEDMODECOUNTDATA</a>.
 
 </td>
 </tr>
@@ -297,7 +285,7 @@ Is used
 Is used to query for a particular surface format from the driver. 
 		The data structure pointed to by the <b>lpvData</b> 
 		field of the DD_GETDRIVERINFODATA data structure is 
-		<a href="..\d3dhal\ns-d3dhal-_dd_getformatdata.md">DD_GETFORMATDATA</a>.
+		<a href="https://msdn.microsoft.com/library/windows/hardware/ff551569">DD_GETFORMATDATA</a>.
 
 </td>
 </tr>
@@ -309,7 +297,7 @@ Is used to request the number of DirectX 8.0 and
 		driver. The data structure pointed to by the 
 		<b>lpvData</b> 
 		field of the DD_GETDRIVERINFODATA is 
-		<a href="..\d3dhal\ns-d3dhal-_dd_getformatcountdata.md">DD_GETFORMATCOUNTDATA</a>.
+		<a href="https://msdn.microsoft.com/library/windows/hardware/ff551566">DD_GETFORMATCOUNTDATA</a>.
 
 </td>
 </tr>
@@ -329,7 +317,7 @@ Is used to query the driver for the number of
 		the <b>lpvData</b> 
 		field of the DD_GETDRIVERINFODATA 
 		data structure to 
-		<a href="..\d3dhal\ns-d3dhal-_dd_multisamplequalitylevelsdata.md">DD_MULTISAMPLEQUALITYLEVELSDATA</a>.
+		<a href="https://msdn.microsoft.com/library/windows/hardware/ff551665">DD_MULTISAMPLEQUALITYLEVELSDATA</a>.
 
 </td>
 </tr>
@@ -426,11 +414,34 @@ For more information about D3DCAPS8 and D3DCAPS9, see the DirectX SDK documentat
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/89a22163-a678-4c72-932a-ae4d17922e0b">DdGetDriverInfo</a>
 
 
 
-<a href="..\d3dhal\ns-d3dhal-_dd_free_deferred_agp_data.md">DD_FREE_DEFERRED_AGP_DATA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550562">DD_DEFERRED_AGP_AWARE_DATA</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551515">DD_DXVERSION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551528">DD_FREE_DEFERRED_AGP_DATA</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551529">DD_GETADAPTERGROUPDATA</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551539">DD_GETD3DQUERYCOUNTDATA</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551541">DD_GETD3DQUERYDATA</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551545">DD_GETDDIVERSIONDATA</a>
 
 
 
@@ -438,56 +449,32 @@ For more information about D3DCAPS8 and D3DCAPS9, see the DirectX SDK documentat
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551558">DD_GETEXTENDEDMODECOUNTDATA</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551559">DD_GETEXTENDEDMODEDATA</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551566">DD_GETFORMATCOUNTDATA</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551569">DD_GETFORMATDATA</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551665">DD_MULTISAMPLEQUALITYLEVELSDATA</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551716">DD_STEREOMODE</a>
 
 
 
-<a href="..\d3dhal\ns-d3dhal-_dd_getformatcountdata.md">DD_GETFORMATCOUNTDATA</a>
-
-
-
-<a href="..\d3dhal\ns-d3dhal-_dd_getd3dquerycountdata.md">DD_GETD3DQUERYCOUNTDATA</a>
-
-
-
-<a href="..\d3dhal\ns-d3dhal-_dd_getextendedmodedata.md">DD_GETEXTENDEDMODEDATA</a>
-
-
-
-<a href="..\d3dhal\ns-d3dhal-_dd_getextendedmodecountdata.md">DD_GETEXTENDEDMODECOUNTDATA</a>
-
-
-
-<a href="..\d3dhal\ns-d3dhal-_dd_dxversion.md">DD_DXVERSION</a>
-
-
-
-<a href="..\d3dhal\ns-d3dhal-_dd_getddiversiondata.md">DD_GETDDIVERSIONDATA</a>
-
-
-
-<a href="..\d3dhal\ns-d3dhal-_dd_getformatdata.md">DD_GETFORMATDATA</a>
-
-
-
-<a href="..\d3dhal\ns-d3dhal-_dd_deferred_agp_aware_data.md">DD_DEFERRED_AGP_AWARE_DATA</a>
-
-
-
-<a href="..\d3dhal\ns-d3dhal-_dd_getadaptergroupdata.md">DD_GETADAPTERGROUPDATA</a>
-
-
-
-<a href="..\d3dhal\ns-d3dhal-_dd_multisamplequalitylevelsdata.md">DD_MULTISAMPLEQUALITYLEVELSDATA</a>
-
-
-
-<a href="..\d3dhal\ns-d3dhal-_dd_getd3dquerydata.md">DD_GETD3DQUERYDATA</a>
-
-
-
+<a href="https://msdn.microsoft.com/89a22163-a678-4c72-932a-ae4d17922e0b">DdGetDriverInfo</a>
  
 
  
-
 

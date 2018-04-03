@@ -7,7 +7,7 @@ old-location: display\pfndeallocatecb.htm
 old-project: display
 ms.assetid: 2ffa0367-0451-45d2-be05-e450c45be116
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3Druntime_Functions_0162df86-f479-45d9-887b-75f05de150f9.xml, PFND3DDDI_DEALLOCATECB, d3dumddi/pfnDeallocateCb, display.pfndeallocatecb, pfnDeallocateCb, pfnDeallocateCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	pfnDeallocateCb
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_PTE
 ---
@@ -50,20 +51,6 @@ req.typenames: DXGK_PTE
 
 
 The <b>pfnDeallocateCb</b> callback function releases allocations or a kernel-mode resource object if the resource object was created.
-
-
-## -prototype
-
-
-````
-PFND3DDDI_DEALLOCATECB pfnDeallocateCb;
-
-__checkReturn HRESULT APIENTRY CALLBACK pfnDeallocateCb(
-  _In_       HANDLE              hDevice,
-  _In_ const D3DDDICB_DEALLOCATE *pData
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -87,7 +74,7 @@ A handle to the display device (graphics context).
 
 #### - pData [in]
 
-A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_deallocate.md">D3DDDICB_DEALLOCATE</a> structure that describes the resource to release.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff544161">D3DDDICB_DEALLOCATE</a> structure that describes the resource to release.
 
 
 ## -returns
@@ -139,7 +126,7 @@ The user-mode display driver can release allocations in the following ways:
 
 <ul>
 <li>
-Individually, by setting the <b>hResource</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_deallocate.md">D3DDDICB_DEALLOCATE</a> structure that is pointed to by <i>pData </i>to <b>NULL</b> and populating the array in the <b>HandleList</b> member of D3DDDICB_DEALLOCATE with handles of the allocations to release 
+Individually, by setting the <b>hResource</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544161">D3DDDICB_DEALLOCATE</a> structure that is pointed to by <i>pData </i>to <b>NULL</b> and populating the array in the <b>HandleList</b> member of D3DDDICB_DEALLOCATE with handles of the allocations to release 
 
 </li>
 <li>
@@ -149,7 +136,7 @@ In a group, by setting <b>hResource</b> to a resource handle whose allocations a
 </ul>
 Note that if the user-mode display driver sets <b>hResource</b> to <b>NULL</b> and populates all array elements in <b>HandleList</b> to release all allocations, the driver must subsequently call the <b>pfnDeallocateCb</b> function again to only release the resource by setting <b>hResource</b> to the handle to the resource.
 
-Note that the <b>pfnDeallocateCb</b> function is distinct from the user-mode display driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_destroyresource.md">DestroyResource</a> or <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_destroyresource.md">DestroyResource(D3D10)</a> function. However, the user-mode display driver typically calls <b>pfnDeallocateCb</b> in response to a call to its <i>DestroyResource</i> or <b>DestroyResource(D3D10)</b> function. 
+Note that the <b>pfnDeallocateCb</b> function is distinct from the user-mode display driver's <a href="https://msdn.microsoft.com/1af85315-4367-49de-9453-eef62c838c97">DestroyResource</a> or <a href="https://msdn.microsoft.com/3ff77844-eeee-4fda-8798-2e240bc51379">DestroyResource(D3D10)</a> function. However, the user-mode display driver typically calls <b>pfnDeallocateCb</b> in response to a call to its <i>DestroyResource</i> or <b>DestroyResource(D3D10)</b> function. 
 
 <b>Direct3D Version 9 Note:  </b>For more information about creating and destroying resources, see <a href="https://msdn.microsoft.com/d443bdc3-1c5a-4372-9e6a-b8a4d21499b9">Handling Resource Creation and Destruction</a>.
 
@@ -183,28 +170,27 @@ The following code example shows how to release a resource.
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_destroyresource.md">DestroyResource</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_allocatecb.md">pfnAllocateCb</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544161">D3DDDICB_DEALLOCATE</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicecallbacks.md">D3DDDI_DEVICECALLBACKS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544512">D3DDDI_DEVICECALLBACKS</a>
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_destroyresource.md">DestroyResource(D3D10)</a>
+<a href="https://msdn.microsoft.com/1af85315-4367-49de-9453-eef62c838c97">DestroyResource</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_deallocate.md">D3DDDICB_DEALLOCATE</a>
+<a href="https://msdn.microsoft.com/3ff77844-eeee-4fda-8798-2e240bc51379">DestroyResource(D3D10)</a>
 
 
 
+<a href="https://msdn.microsoft.com/a61e6c6a-3992-429c-ad8c-5f1a61dc7b8b">pfnAllocateCb</a>
  
 
  
-
 

@@ -38,7 +38,8 @@ api_location:
 -	sti.h
 api_name:
 -	IStillImageW.Initialize
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STI_DEVICE_MJ_TYPE, STI_DEVICE_MJ_TYPE
 req.product: Windows 10 or later.
@@ -51,17 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>IStillImage::Initialize</b> method initializes an instance of the COM object that defines the <b>IStillImage</b> COM interface. <i>This method is for internal system use only</i>.
-
-
-## -syntax
-
-
-````
-HRESULT Initialize(
-  [in] HINSTANCE hinst,
-       DWORD     dwVersion
-);
-````
 
 
 ## -parameters

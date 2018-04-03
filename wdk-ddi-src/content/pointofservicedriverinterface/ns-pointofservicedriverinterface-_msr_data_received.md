@@ -38,7 +38,8 @@ api_location:
 -	PointOfServiceDriverInterface.h
 api_name:
 -	MSR_DATA_RECEIVED
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MSR_DATA_RECEIVED, *PMSR_DATA_RECEIVED
 ---
@@ -50,41 +51,6 @@ req.typenames: MSR_DATA_RECEIVED, *PMSR_DATA_RECEIVED
 
 
 This structure contains the data read from a swiped magnetic stripe card.
-
-
-## -syntax
-
-
-````
-typedef struct _MSR_DATA_RECEIVED {
-  MsrCardType   CardType;
-  unsigned char Track1EncryptedDataLength;
-  unsigned char Track2EncryptedDataLength;
-  unsigned char Track3EncryptedDataLength;
-  unsigned char Track4EncryptedDataLength;
-  unsigned char Track1EncryptedData[MSR_TRACK_SIZE];
-  unsigned char Track2EncryptedData[MSR_TRACK_SIZE];
-  unsigned char Track3EncryptedData[MSR_TRACK_SIZE];
-  unsigned char Track4EncryptedData[MSR_TRACK_SIZE];
-  unsigned char Track1MaskedDataLength;
-  unsigned char Track2MaskedDataLength;
-  unsigned char Track3MaskedDataLength;
-  unsigned char Track4MaskedDataLength;
-  unsigned char Track1MaskedData[MSR_TRACK_SIZE];
-  unsigned char Track2MaskedData[MSR_TRACK_SIZE];
-  unsigned char Track3MaskedData[MSR_TRACK_SIZE];
-  unsigned char Track4MaskedData[MSR_TRACK_SIZE];
-  unsigned char Track1DiscretionaryDataLength;
-  unsigned char Track2DiscretionaryDataLength;
-  unsigned char Track1DiscretionaryData[MSR_TRACK_SIZE];
-  unsigned char Track2DiscretionaryData[MSR_TRACK_SIZE];
-  unsigned char CardAuthenicationDataLength;
-  unsigned char CardAuthenticationDataAbsoluteLength;
-  unsigned char CardAuthenicationData[MSR_CARD_AUTHENTICATION_DATA_SIZE];
-  unsigned char AdditionalSecurityInformationLength;
-  unsigned char AdditionalSecurityInformation[MSR_ADDITIONAL_SECURITY_INFORMATION_SIZE];
-} MSR_DATA_RECEIVED, *PMSR_DATA_RECEIVED;
-````
 
 
 ## -struct-fields

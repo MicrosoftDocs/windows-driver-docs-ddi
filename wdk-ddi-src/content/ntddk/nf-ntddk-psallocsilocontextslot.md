@@ -7,7 +7,7 @@ old-location: kernel\psallocsilocontextslot.htm
 old-project: kernel
 ms.assetid: 835446D1-EB41-47BC-AA0F-54A9C029EFFE
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: PsAllocSiloContextSlot, PsAllocSiloContextSlot routine [Kernel-Mode Driver Architecture], kernel.psallocsilocontextslot, ntddk/PsAllocSiloContextSlot
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddk.h
 api_name:
 -	PsAllocSiloContextSlot
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
@@ -50,17 +51,6 @@ req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 
 
 This routine allocates a slot that can be used to insert, retrieve, and delete an object in all silos. 
-
-
-## -syntax
-
-
-````
-NTSTATUS PsAllocSiloContextSlot(
-  _In_  ULONG_PTR Reserved,
-  _Out_ ULONG     *ReturnedContextSlot
-);
-````
 
 
 ## -parameters
@@ -123,19 +113,18 @@ The operation completed successfully.
 
 
 
-Use of this API is uncommon because all silo monitors are assigned a storage slot when calling the <a href="..\ntddk\nf-ntddk-psregistersilomonitor.md">PsRegisterSiloMonitor</a> routine.  That slot can be retrieved with the <a href="..\ntddk\nf-ntddk-psgetsilomonitorcontextslot.md">PsGetSiloMonitorContextSlot</a> routine and used by a driver for its context operations.
+Use of this API is uncommon because all silo monitors are assigned a storage slot when calling the <a href="https://msdn.microsoft.com/library/windows/hardware/mt735079">PsRegisterSiloMonitor</a> routine.  That slot can be retrieved with the <a href="https://msdn.microsoft.com/library/windows/hardware/mt735072">PsGetSiloMonitorContextSlot</a> routine and used by a driver for its context operations.
 
 
 
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-psfreesilocontextslot.md">PsFreeSiloContextSlot</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt735061">PsFreeSiloContextSlot</a>
  
 
  
-
 

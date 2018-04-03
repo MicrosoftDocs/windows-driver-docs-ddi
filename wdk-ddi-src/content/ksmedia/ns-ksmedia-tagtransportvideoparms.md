@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	TRANSPORTVIDEOPARMS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TRANSPORTVIDEOPARMS, *PTRANSPORTVIDEOPARMS
 ---
@@ -50,17 +51,6 @@ req.typenames: TRANSPORTVIDEOPARMS, *PTRANSPORTVIDEOPARMS
 
 
 The TRANSPORTVIDEOPARMS structure is defined but not presently used. It may be used in the future.
-
-
-## -syntax
-
-
-````
-typedef struct tagTRANSPORTVIDEOPARMS {
-  LONG OutputMode;
-  LONG Input;
-} TRANSPORTVIDEOPARMS, *PTRANSPORTVIDEOPARMS;
-````
 
 
 ## -struct-fields

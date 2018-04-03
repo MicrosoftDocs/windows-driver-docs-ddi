@@ -38,7 +38,8 @@ api_location:
 -	Ks.h
 api_name:
 -	KSEVENT_STREAMALLOCATOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSEVENT_STREAMALLOCATOR
 ---
@@ -50,17 +51,6 @@ req.typenames: KSEVENT_STREAMALLOCATOR
 
 
 
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  KSEVENT_STREAMALLOCATOR_INTERNAL_FREEFRAME,
-  KSEVENT_STREAMALLOCATOR_FREEFRAME
-} KSEVENT_STREAMALLOCATOR;
-````
 
 
 ## -enum-fields

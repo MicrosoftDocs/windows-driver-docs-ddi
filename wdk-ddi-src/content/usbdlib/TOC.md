@@ -1,4 +1,4 @@
-# [buses](../_buses/index.md)
+# [Universal Serial Bus (USB)](../_usbref/index.md)
 ## [Usbdlib.h](index.md)
 ### [COMPOSITE_DEVICE_CAPABILITIES_INIT function](../usbdlib/nf-usbdlib-composite_device_capabilities_init.md)
 ### [GET_ISO_URB_SIZE macro](../usbdlib/nf-usbdlib-get_iso_urb_size.md)

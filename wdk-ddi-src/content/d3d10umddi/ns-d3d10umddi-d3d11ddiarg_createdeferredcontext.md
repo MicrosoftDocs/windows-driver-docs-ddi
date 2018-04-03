@@ -7,7 +7,7 @@ old-location: display\d3d11ddiarg_createdeferredcontext.htm
 old-project: display
 ms.assetid: 4486939d-a35c-4b0b-b0d0-6402a62a4870
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3D11DDIARG_CREATEDEFERREDCONTEXT, D3D11DDIARG_CREATEDEFERREDCONTEXT structure [Display Devices], UMDisplayDriver_Dx11param_Structs_c66ddced-4073-4400-8142-4464ceadad74.xml, d3d10umddi/D3D11DDIARG_CREATEDEFERREDCONTEXT, display.d3d11ddiarg_createdeferredcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3d10umddi.h
 api_name:
 -	D3D11DDIARG_CREATEDEFERREDCONTEXT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D11DDIARG_CREATEDEFERREDCONTEXT
 ---
@@ -50,28 +51,6 @@ req.typenames: D3D11DDIARG_CREATEDEFERREDCONTEXT
 
 
 The D3D11DDIARG_CREATEDEFERREDCONTEXT structure describes the deferred context to create. 
-
-
-## -syntax
-
-
-````
-typedef struct D3D11DDIARG_CREATEDEFERREDCONTEXT {
-  union {
-    struct D3D11DDI_DEVICEFUNCS  *p11ContextFuncs;
-    struct D3D11_1DDI_DEVICEFUNCS  *p11_1ContextFuncs;
-#if D3D11DDI_MINOR_HEADER_VERSION >= 4
-    struct D3DWDDM1_3DDI_DEVICEFUNCS  *pWDDM1_3ContextFuncs;
-#endif 
-  };
-  D3D10DDI_HDEVICE      hDrvContext;
-  D3D10DDI_HRTCORELAYER hRTCoreLayer;
-  union {
-    const struct D3D11DDI_CORELAYER_DEVICECALLBACKS  *p11UMCallbacks;
-  };
-  UINT                  Flags;
-} D3D11DDIARG_CREATEDEFERREDCONTEXT;
-````
 
 
 ## -struct-fields
@@ -111,7 +90,7 @@ This flag informs the user-mode display driver that the application is single th
 
 #### The flag that is set in the 0xE mask of the Flags member
 
-This flag represents the level of 3-D pipeline that the driver should support for the display device. The driver uses the following constant and macros to extract one of the values from the <a href="..\d3d10umddi\ne-d3d10umddi-d3d11ddi_3dpipelinelevel.md">D3D11DDI_3DPIPELINELEVEL</a> enumeration that represent the 3-D pipeline level to support. The value in the <b>Flags</b> member is formatted like the <b>Caps</b> member of the <a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddi_3dpipelinesupport_caps.md">D3D11DDI_3DPIPELINESUPPORT_CAPS</a> structure.
+This flag represents the level of 3-D pipeline that the driver should support for the display device. The driver uses the following constant and macros to extract one of the values from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff542126">D3D11DDI_3DPIPELINELEVEL</a> enumeration that represent the 3-D pipeline level to support. The value in the <b>Flags</b> member is formatted like the <b>Caps</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff542134">D3D11DDI_3DPIPELINESUPPORT_CAPS</a> structure.
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -130,54 +109,53 @@ This flag represents the level of 3-D pipeline that the driver should support fo
 
 #### - p11ContextFuncs
 
-[in/out] A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddi_devicefuncs.md">D3D11DDI_DEVICEFUNCS</a> structure that the user-mode display driver fills with a table of its functions for the deferred context. The Direct3D runtime uses these functions to communicate with the user-mode display driver.
+[in/out] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542141">D3D11DDI_DEVICEFUNCS</a> structure that the user-mode display driver fills with a table of its functions for the deferred context. The Direct3D runtime uses these functions to communicate with the user-mode display driver.
 
 For a list of the functions that are not leveraged for deferred contexts, see <a href="https://msdn.microsoft.com/f6e7898a-7fb8-4a70-ab2e-3372a28db6f4">Excluding DDI Functions for Deferred Contexts</a>. 
 
 
 #### - p11UMCallbacks
 
-[in] A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddi_corelayer_devicecallbacks.md">D3D11DDI_CORELAYER_DEVICECALLBACKS</a> structure that contains a table of Direct3D 11 runtime callback functions that the driver can use to access core user-mode runtime functionality. 
+[in] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542137">D3D11DDI_CORELAYER_DEVICECALLBACKS</a> structure that contains a table of Direct3D 11 runtime callback functions that the driver can use to access core user-mode runtime functionality. 
 
 
 #### - p11_1ContextFuncs
 
-[in/out] A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_devicefuncs.md">D3D11_1DDI_DEVICEFUNCS</a> structure that the user-mode display driver fills with a table of its functions for the deferred context. The Direct3D runtime uses these functions to communicate with the user-mode display driver.
+[in/out] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406443">D3D11_1DDI_DEVICEFUNCS</a> structure that the user-mode display driver fills with a table of its functions for the deferred context. The Direct3D runtime uses these functions to communicate with the user-mode display driver.
 
 Supported starting with Windows 8.
 
 
 #### - pWDDM1_3ContextFuncs
 
-[in/out] A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3dwddm1_3ddi_devicefuncs.md">D3DWDDM1_3DDI_DEVICEFUNCS</a> structure that the user-mode display driver fills with a table of its functions for the deferred context. The Direct3D runtime uses these functions to communicate with the user-mode display driver.
+[in/out] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn458988">D3DWDDM1_3DDI_DEVICEFUNCS</a> structure that the user-mode display driver fills with a table of its functions for the deferred context. The Direct3D runtime uses these functions to communicate with the user-mode display driver.
 
 Supported starting with Windows 8.1.
 
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddi_devicefuncs.md">D3D11DDI_DEVICEFUNCS</a>
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_devicefuncs.md">D3D11_1DDI_DEVICEFUNCS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542126">D3D11DDI_3DPIPELINELEVEL</a>
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddi_corelayer_devicecallbacks.md">D3D11DDI_CORELAYER_DEVICECALLBACKS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542134">D3D11DDI_3DPIPELINESUPPORT_CAPS</a>
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddi_3dpipelinesupport_caps.md">D3D11DDI_3DPIPELINESUPPORT_CAPS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542137">D3D11DDI_CORELAYER_DEVICECALLBACKS</a>
 
 
 
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d11ddi_3dpipelinelevel.md">D3D11DDI_3DPIPELINELEVEL</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542141">D3D11DDI_DEVICEFUNCS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406443">D3D11_1DDI_DEVICEFUNCS</a>
  
 
  
-
 

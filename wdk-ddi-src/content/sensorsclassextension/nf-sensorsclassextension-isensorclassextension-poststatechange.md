@@ -39,7 +39,8 @@ api_location:
 -	SensorsClassExtension.dll
 api_name:
 -	ISensorClassExtension.PostStateChange
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SensorConnectionType
 req.product: Windows 10 or later.
@@ -52,17 +53,6 @@ req.product: Windows 10 or later.
 
 
 The <b>ISensorClassExtension::PostStateChange</b> method notifies the sensor class extension about a change in the operational state of the sensor.
-
-
-## -syntax
-
-
-````
-HRESULT PostStateChange(
-  [in] LPWSTR      pwszSensorID,
-  [in] SensorState State
-);
-````
 
 
 ## -parameters
@@ -85,7 +75,7 @@ HRESULT PostStateChange(
 #### - State [in]
 
 
-<a href="..\sensorsclassextension\ne-sensorsclassextension-__midl___midl_itf_windowssensorclassextension_0000_0000_0001.md">SensorState</a> value that indicates the new state.
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545708">SensorState</a> value that indicates the new state.
 
 
 ## -returns
@@ -185,7 +175,6 @@ The following example code demonstrates a function that posts a state-changed ev
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545598">ISensorDriver::OnClientUnsubscribeFromEvents</a>
 
 
 
@@ -193,8 +182,8 @@ The following example code demonstrates a function that posts a state-changed ev
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545598">ISensorDriver::OnClientUnsubscribeFromEvents</a>
  
 
  
-
 

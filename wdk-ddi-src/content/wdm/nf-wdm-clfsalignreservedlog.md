@@ -7,7 +7,7 @@ old-location: kernel\clfsalignreservedlog.htm
 old-project: kernel
 ms.assetid: b79f58bb-af94-4143-9e30-6f50d85cbb3d
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: ClfsAlignReservedLog, ClfsAlignReservedLog routine [Kernel-Mode Driver Architecture], Clfs_68de31de-d1f9-4948-ab15-bf8678aebcf2.xml, kernel.clfsalignreservedlog, wdm/ClfsAlignReservedLog
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ext-MS-Win-fs-clfs-l1-1-0.dll
 api_name:
 -	ClfsAlignReservedLog
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
@@ -54,19 +55,6 @@ req.product: Windows 10 or later.
 The <b>ClfsAlignReservedLog</b> routine calculates the size of the space that must be reserved for a specified set of records. The size calculation includes the space required for headers and the space required for sector alignment.
 
 
-## -syntax
-
-
-````
-NTSTATUS  ClfsAlignReservedLog(
-  _In_  PVOID     pvMarshalContext,
-  _In_  ULONG     cRecords,
-  _In_  LONGLONG  rgcbReservation[],
-  _Out_ PLONGLONG pcbAlignReservation
-);
-````
-
-
 ## -parameters
 
 
@@ -74,7 +62,7 @@ NTSTATUS  ClfsAlignReservedLog(
 
 ### -param pvMarshalContext [in]
 
-A pointer to an opaque context that represents a marshalling area associated with a CLFS stream. The caller previously obtained this pointer by calling <a href="..\wdm\nf-wdm-clfscreatemarshallingarea.md">ClfsCreateMarshallingArea</a>.
+A pointer to an opaque context that represents a marshalling area associated with a CLFS stream. The caller previously obtained this pointer by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff541520">ClfsCreateMarshallingArea</a>.
 
 
 ### -param cRecords [in]
@@ -112,12 +100,11 @@ For an explanation of CLFS concepts and terminology, see <a href="https://msdn.m
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-clfsallocreservedlog.md">ClfsAllocReservedLog</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540782">ClfsAllocReservedLog</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: buses\evt_udecx_wdf_device_query_usb_capability.htm
 old-project: usbref
 ms.assetid: 96F3128C-C334-4531-9C86-3FA918A902AC
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: EVT_UDECX_WDF_DEVICE_QUERY_USB_CAPABILITY, EvtUdecxWdfDeviceQueryUsbCapability, EvtUdecxWdfDeviceQueryUsbCapability callback function [Buses], buses.evt_udecx_wdf_device_query_usb_capability, udecxwdfdevice/EvtUdecxWdfDeviceQueryUsbCapability
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	UdecxWdfDevice.h
 api_name:
 -	EvtUdecxWdfDeviceQueryUsbCapability
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UDECX_USB_ENDPOINT_CALLBACKS, *PUDECX_USB_ENDPOINT_CALLBACKS
 req.product: Windows 10 or later.
@@ -53,23 +54,6 @@ req.product: Windows 10 or later.
 The UDE client driver's implementation to determine the capabilities that are supported by the emulated USB host controller.
 
 
-## -prototype
-
-
-````
-EVT_UDECX_WDF_DEVICE_QUERY_USB_CAPABILITY EvtUdecxWdfDeviceQueryUsbCapability;
-
-NTSTATUS EvtUdecxWdfDeviceQueryUsbCapability(
-  _In_      WDFDEVICE UdecxWdfDevice,
-  _In_      PGUID     CapabilityType,
-  _In_      ULONG     OutputBufferLength,
-  _Out_opt_ PVOID     OutputBuffer,
-  _Out_     PULONG    ResultLength
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -77,7 +61,7 @@ NTSTATUS EvtUdecxWdfDeviceQueryUsbCapability(
 
 ### -param UdecxWdfDevice [in]
 
-A handle to a framework device object that represents the controller. The client driver initialized this object in the previous call to <a href="..\udecxwdfdevice\nf-udecxwdfdevice-udecxwdfdeviceaddusbdeviceemulation.md">UdecxWdfDeviceAddUsbDeviceEmulation</a>.
+A handle to a framework device object that represents the controller. The client driver initialized this object in the previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/mt627990">UdecxWdfDeviceAddUsbDeviceEmulation</a>.
 
 
 ### -param CapabilityType [in]
@@ -93,7 +77,7 @@ Pointer to a GUID specifying the requested capability. The possible  <i>PGUID</i
 <li>GUID_USB_CAPABILITY_DEVICE_CONNECTION_HIGH_SPEED_COMPATIBLE</li>
 <li>GUID_USB_CAPABILITY_DEVICE_CONNECTION_SUPER_SPEED_COMPATIBLE</li>
 </ul>
-   For information about the capabilities, see the Remarks section of <a href="..\usbdlib\nf-usbdlib-usbd_queryusbcapability.md">USBD_QueryUsbCapability</a>.
+   For information about the capabilities, see the Remarks section of <a href="https://msdn.microsoft.com/library/windows/hardware/hh406230">USBD_QueryUsbCapability</a>.
 
 
 ### -param OutputBufferLength [in]
@@ -125,7 +109,7 @@ If the operation is successful, the callback function must return STATUS_SUCCESS
 
 
 
-The class extension invokes this callback function implemented by the client driver when the class extension receives a request to determine the emulated controller's capabilities. The callback is invoked only after <a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a> has returned, typically in <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_prepare_hardware.md">EvtDevicePrepareHardware</a>. This callback cannot be invoked after <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_release_hardware.md">EvtDeviceReleaseHardware</a> has returned. 
+The class extension invokes this callback function implemented by the client driver when the class extension receives a request to determine the emulated controller's capabilities. The callback is invoked only after <a href="https://msdn.microsoft.com/b20db029-ee2c-4fb1-bd69-ccd2e37fdc9a">EvtDriverDeviceAdd</a> has returned, typically in <a href="https://msdn.microsoft.com/a3d4a983-8a75-44be-bd72-8673d89f9f87">EvtDevicePrepareHardware</a>. This callback cannot be invoked after <a href="https://msdn.microsoft.com/b4c17e57-688c-4c76-892c-5c8abbf83f20">EvtDeviceReleaseHardware</a> has returned. 
 
 The class extension reports these capability GUIDs, as not supported: 
 
@@ -135,14 +119,13 @@ The class extension reports these capability GUIDs, as not supported:
 </ul>
 The class extension reports the GUID_USB_CAPABILITY_SELECTIVE_SUSPEND capability GUID as supported without even invoking the callback function.
 
-For other GUIDs, the class extension invokes the client driver's implementation, such as GUID_USB_CAPABILITY_CHAINED_MDLS. The client driver is expected to determine support for I/O requests that use a chained MDL. If this capability is supported then, the <b>TransferBufferMdl</b> member of the <a href="..\usb\ns-usb-_urb.md">URB</a> contains the request buffer. If chained MDL is not supported, the client driver does not receive <b>TransferBufferMdl</b> values that  point to chained MDLs.
+For other GUIDs, the class extension invokes the client driver's implementation, such as GUID_USB_CAPABILITY_CHAINED_MDLS. The client driver is expected to determine support for I/O requests that use a chained MDL. If this capability is supported then, the <b>TransferBufferMdl</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff538923">URB</a> contains the request buffer. If chained MDL is not supported, the client driver does not receive <b>TransferBufferMdl</b> values that  point to chained MDLs.
 
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
 
 
 
@@ -150,8 +133,8 @@ For other GUIDs, the class extension invokes the client driver's implementation,
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
  
 
  
-
 

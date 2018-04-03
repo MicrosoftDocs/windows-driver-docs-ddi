@@ -2,7 +2,7 @@
 UID: NA:d3dumddi
 ms.assetid: 64c7511b-6379-3c2f-bd00-f08eab970dc2
 ms.author: windowsdriverdev
-ms.date: 03/13/18
+ms.date: 04/03/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -12,8 +12,11 @@ ms.topic: portal
 # D3Dumddi.h header
 
 
+## -description
 
-This header is used by Display. For more information, see
+
+This header is used by display. For more information, see:
+
 - [Display](../_display/index.md)
 
 The reference pages in this section describe the functions that the user-mode display driver DLL supplies to the Microsoft Direct3D version 9 runtime. 

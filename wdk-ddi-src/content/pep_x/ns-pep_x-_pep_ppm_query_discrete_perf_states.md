@@ -7,7 +7,7 @@ old-location: kernel\pep_ppm_query_discrete_perf_states.htm
 old-project: kernel
 ms.assetid: 506b3d8e-4aba-4e70-a6db-52a52d717c6b
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*PPEP_PPM_QUERY_DISCRETE_PERF_STATES, PEP_PPM_QUERY_DISCRETE_PERF_STATES, PEP_PPM_QUERY_DISCRETE_PERF_STATES structure [Kernel-Mode Driver Architecture], PPEP_PPM_QUERY_DISCRETE_PERF_STATES, PPEP_PPM_QUERY_DISCRETE_PERF_STATES structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_QUERY_DISCRETE_PERF_STATES, kernel.pep_ppm_query_discrete_perf_states, pepfx/PEP_PPM_QUERY_DISCRETE_PERF_STATES, pepfx/PPEP_PPM_QUERY_DISCRETE_PERF_STATES"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Pepfx.h
 api_name:
 -	PEP_PPM_QUERY_DISCRETE_PERF_STATES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PEP_PPM_QUERY_DISCRETE_PERF_STATES, *PPEP_PPM_QUERY_DISCRETE_PERF_STATES, PEP_PPM_QUERY_DISCRETE_PERF_STATES, *PPEP_PPM_QUERY_DISCRETE_PERF_STATES
 ---
@@ -50,17 +51,6 @@ req.typenames: PEP_PPM_QUERY_DISCRETE_PERF_STATES, *PPEP_PPM_QUERY_DISCRETE_PERF
 
 
 Used in the <b>PEP_NOTIFY_PPM_QUERY_DISCRETE_PERF_STATES</b> notification that stores the list of discrete performance states that PEP supports, if the <b>PEP_NOTIFY_PPM_QUERY_CAPABILITIES</b> notification indicates support for discrete performance states. 
-
-
-## -syntax
-
-
-````
-typedef struct _PEP_PPM_QUERY_DISCRETE_PERF_STATES {
-  ULONG                      Count;
-  PPEP_PROCESSOR_PERF_STATE  States;
-} PEP_PPM_QUERY_DISCRETE_PERF_STATES, *PPEP_PPM_QUERY_DISCRETE_PERF_STATES;
-````
 
 
 ## -struct-fields
@@ -80,16 +70,15 @@ On output, an array of <a href="https://msdn.microsoft.com/46231ac0-2c34-4154-8b
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186820">PEP_PPM_QUERY_CAPABILITIES</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt186881">Processor power management (PPM) notifications</a>
-
-
-
-<a href="..\pepfx\ns-pepfx-_pep_ppm_query_capabilities.md">PEP_PPM_QUERY_CAPABILITIES</a>
-
-
-
  
 
  
-
 

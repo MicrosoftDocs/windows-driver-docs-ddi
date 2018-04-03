@@ -3,12 +3,12 @@ UID: NS:gnssdriver.GNSS_CHIPSETINFO
 title: GNSS_CHIPSETINFO
 author: windows-driver-content
 description: This structure defines the specific data elements associated with the GNSS hardware.
-old-location: gnss\gnss_chipsetinfo.htm
-old-project: gnss
+old-location: sensors\gnss_chipsetinfo.htm
+old-project: sensors
 ms.assetid: DE45805C-09E6-44B8-A4DA-BF73EC444AA9
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: "*PGNSS_CHIPSETINFO, GNSS_CHIPSETINFO, GNSS_CHIPSETINFO structure [Sensor Devices], PGNSS_CHIPSETINFO, PGNSS_CHIPSETINFO structure pointer [Sensor Devices], gnss.gnss_chipsetinfo, gnssdriver/GNSS_CHIPSETINFO, gnssdriver/PGNSS_CHIPSETINFO"
+ms.date: 2/22/2018
+ms.keywords: "*PGNSS_CHIPSETINFO, GNSS_CHIPSETINFO, GNSS_CHIPSETINFO structure [Sensor Devices], PGNSS_CHIPSETINFO, PGNSS_CHIPSETINFO structure pointer [Sensor Devices], gnssdriver/GNSS_CHIPSETINFO, gnssdriver/PGNSS_CHIPSETINFO, sensors.gnss_chipsetinfo"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -38,7 +38,8 @@ api_location:
 -	gnssdriver.h
 api_name:
 -	GNSS_CHIPSETINFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GNSS_CHIPSETINFO, *PGNSS_CHIPSETINFO
 ---
@@ -50,21 +51,6 @@ req.typenames: GNSS_CHIPSETINFO, *PGNSS_CHIPSETINFO
 
 
 This structure defines the specific data elements associated with the GNSS hardware.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  ULONG Size;
-  ULONG Version;
-  WCHAR ManufacturerID[25];
-  WCHAR HardwareID[25];
-  WCHAR FirmwareVersion[20];
-  BYTE  Unused[512];
-} GNSS_CHIPSETINFO, *PGNSS_CHIPSETINFO;
-````
 
 
 ## -struct-fields

@@ -7,7 +7,7 @@ old-location: buses\ioctl_usb_reset_hub.htm
 old-project: usbref
 ms.assetid: 5e9294bf-94ba-48c4-b2e3-83ad96a051b1
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_USB_RESET_HUB, IOCTL_USB_RESET_HUB control code [Buses], buses.ioctl_usb_reset_hub, usbioctl/IOCTL_USB_RESET_HUB
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Usbioctl.h
 api_name:
 -	IOCTL_USB_RESET_HUB
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USB_HUB_TYPE
 req.product: Windows 10 or later.

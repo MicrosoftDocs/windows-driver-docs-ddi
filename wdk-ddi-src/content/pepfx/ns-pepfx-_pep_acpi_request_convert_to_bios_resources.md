@@ -7,7 +7,7 @@ old-location: kernel\pep_acpi_request_convert_to_bios_resources.htm
 old-project: kernel
 ms.assetid: DF9FD748-88E8-4E32-B698-0E8A3BE319DB
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*PPEP_ACPI_REQUEST_CONVERT_TO_BIOS_RESOURCES, PEP_ACPI_REQUEST_CONVERT_TO_BIOS_RESOURCES, PEP_ACPI_REQUEST_CONVERT_TO_BIOS_RESOURCES structure [Kernel-Mode Driver Architecture], PPEP_ACPI_REQUEST_CONVERT_TO_BIOS_RESOURCES, PPEP_ACPI_REQUEST_CONVERT_TO_BIOS_RESOURCES structure pointer [Kernel-Mode Driver Architecture], _PEP_ACPI_REQUEST_CONVERT_TO_BIOS_RESOURCES, kernel.pep_acpi_request_convert_to_bios_resources, pepfx/PEP_ACPI_REQUEST_CONVERT_TO_BIOS_RESOURCES, pepfx/PPEP_ACPI_REQUEST_CONVERT_TO_BIOS_RESOURCES"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	pepfx.h
 api_name:
 -	PEP_ACPI_REQUEST_CONVERT_TO_BIOS_RESOURCES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PEP_ACPI_REQUEST_CONVERT_TO_BIOS_RESOURCES, *PPEP_ACPI_REQUEST_CONVERT_TO_BIOS_RESOURCES
 ---
@@ -50,21 +51,6 @@ req.typenames: PEP_ACPI_REQUEST_CONVERT_TO_BIOS_RESOURCES, *PPEP_ACPI_REQUEST_CO
 
 
 The <b>PEP_ACPI_REQUEST_CONVERT_TO_BIOS_RESOURCES</b> structure is used in the process of converting ACPI resources to BIOS resources by one of the <a href="https://msdn.microsoft.com/1FBF406C-22C7-4D46-840C-9966C3515B63">PEP initialization functions</a>.
-
-
-## -syntax
-
-
-````
-typedef struct _PEP_ACPI_REQUEST_CONVERT_TO_BIOS_RESOURCES {
-  NTSTATUS           TranslationStatus;
-  PPEP_ACPI_RESOURCE InputBuffer;
-  SIZE_T             InputBufferSize;
-  PVOID              OutputBuffer;
-  SIZE_T             OutputBufferSize;
-  ULONG              Flags;
-} PEP_ACPI_REQUEST_CONVERT_TO_BIOS_RESOURCES, *PPEP_ACPI_REQUEST_CONVERT_TO_BIOS_RESOURCES;
-````
 
 
 ## -struct-fields
@@ -79,7 +65,7 @@ The result code from the resource translation call.
 
 ### -field InputBuffer
 
-A pointer to a <a href="..\pepfx\ns-pepfx-_pep_acpi_resource.md">PEP_ACPI_RESOURCE</a> containing the input buffer.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/mt186691">PEP_ACPI_RESOURCE</a> containing the input buffer.
 
 
 ### -field InputBufferSize
@@ -99,12 +85,11 @@ The size of the output buffer.
 
 ### -field Flags
 
-The value contained in the <a href="..\pepfx\ns-pepfx-_pep_acpi_resource_flags.md">PEP_ACPI_RESOURCE_FLAGS</a> structure.
+The value contained in the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186692">PEP_ACPI_RESOURCE_FLAGS</a> structure.
 
 
 ## -see-also
 
-<a href="..\pepfx\ns-pepfx-_pep_acpi_resource_flags.md">PEP_ACPI_RESOURCE_FLAGS</a>
 
 
 
@@ -112,12 +97,12 @@ The value contained in the <a href="..\pepfx\ns-pepfx-_pep_acpi_resource_flags.m
 
 
 
-<a href="..\pepfx\ns-pepfx-_pep_acpi_resource.md">PEP_ACPI_RESOURCE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186691">PEP_ACPI_RESOURCE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186692">PEP_ACPI_RESOURCE_FLAGS</a>
  
 
  
-
 

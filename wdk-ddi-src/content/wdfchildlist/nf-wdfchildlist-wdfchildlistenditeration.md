@@ -39,7 +39,8 @@ api_location:
 -	Wdf01000.sys.dll
 api_name:
 -	WdfChildListEndIteration
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_RETRIEVE_CHILD_FLAGS
 req.product: Windows 10 or later.
@@ -56,17 +57,6 @@ req.product: Windows 10 or later.
 The <b>WdfChildListEndIteration</b> method processes modifications to a specified child list. 
 
 
-## -syntax
-
-
-````
-VOID WdfChildListEndIteration(
-  _In_ WDFCHILDLIST             ChildList,
-  _In_ PWDF_CHILD_LIST_ITERATOR Iterator
-);
-````
-
-
 ## -parameters
 
 
@@ -74,12 +64,12 @@ VOID WdfChildListEndIteration(
 
 ### -param ChildList [in]
 
-The same handle to a framework child-list object that the driver previously specified to <a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistbeginiteration.md">WdfChildListBeginIteration</a>.
+The same handle to a framework child-list object that the driver previously specified to <a href="https://msdn.microsoft.com/library/windows/hardware/ff545601">WdfChildListBeginIteration</a>.
 
 
 ### -param Iterator [in]
 
-A pointer to the same caller-allocated <a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_list_iterator.md">WDF_CHILD_LIST_ITERATOR</a> structure that the driver previously supplied to <b>WdfChildListEndIteration</b>.
+A pointer to the same caller-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff551230">WDF_CHILD_LIST_ITERATOR</a> structure that the driver previously supplied to <b>WdfChildListEndIteration</b>.
 
 
 ## -returns
@@ -98,14 +88,14 @@ A system bug check occurs if the driver supplies an invalid object handle.
 
 
 
-If the driver has made multiple calls to <a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistbeginiteration.md">WdfChildListBeginIteration</a> or <a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistbeginscan.md">WdfChildListBeginScan</a>, the framework does not process modifications to the child list until the driver has made a corresponding number of calls to <b>WdfChildListEndIteration</b> and <a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistendscan.md">WdfChildListEndScan</a>.
+If the driver has made multiple calls to <a href="https://msdn.microsoft.com/library/windows/hardware/ff545601">WdfChildListBeginIteration</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff545608">WdfChildListBeginScan</a>, the framework does not process modifications to the child list until the driver has made a corresponding number of calls to <b>WdfChildListEndIteration</b> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff545626">WdfChildListEndScan</a>.
 
 For more information about child lists, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/dynamic-enumeration">Dynamic Enumeration</a>.
 
 
 #### Examples
 
-For a code example that uses <b>WdfChildListEndIteration</b>, see <a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistretrievenextdevice.md">WdfChildListRetrieveNextDevice</a>.
+For a code example that uses <b>WdfChildListEndIteration</b>, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff545655">WdfChildListRetrieveNextDevice</a>.
 
 <div class="code"></div>
 
@@ -113,24 +103,23 @@ For a code example that uses <b>WdfChildListEndIteration</b>, see <a href="..\wd
 
 ## -see-also
 
-<a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistbeginiteration.md">WdfChildListBeginIteration</a>
 
 
 
-<a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistendscan.md">WdfChildListEndScan</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551230">WDF_CHILD_LIST_ITERATOR</a>
 
 
 
-<a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistbeginscan.md">WdfChildListBeginScan</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545601">WdfChildListBeginIteration</a>
 
 
 
-<a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_list_iterator.md">WDF_CHILD_LIST_ITERATOR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545608">WdfChildListBeginScan</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545626">WdfChildListEndScan</a>
  
 
  
-
 

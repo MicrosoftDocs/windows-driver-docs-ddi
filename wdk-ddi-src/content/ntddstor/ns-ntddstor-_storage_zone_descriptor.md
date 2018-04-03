@@ -7,7 +7,7 @@ old-location: storage\storage_zone_descriptor.htm
 old-project: storage
 ms.assetid: 33AE6D40-F54D-427D-B811-2188EA623A26
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSTORAGE_ZONE_DESCRIPTOR, PSTORAGE_ZONE_DESCRIPTOR, PSTORAGE_ZONE_DESCRIPTOR structure pointer [Storage Devices], STORAGE_ZONE_DESCRIPTOR, STORAGE_ZONE_DESCRIPTOR structure [Storage Devices], _STORAGE_ZONE_DESCRIPTOR, ntddstor/PSTORAGE_ZONE_DESCRIPTOR, ntddstor/STORAGE_ZONE_DESCRIPTOR, storage.storage_zone_descriptor"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddstor.h
 api_name:
 -	STORAGE_ZONE_DESCRIPTOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STORAGE_ZONE_DESCRIPTOR, *PSTORAGE_ZONE_DESCRIPTOR
 ---
@@ -53,22 +54,6 @@ req.typenames: STORAGE_ZONE_DESCRIPTOR, *PSTORAGE_ZONE_DESCRIPTOR
 <div class="alert"><b>Note</b>  This  structure is for internal use only and should not be called from your code.</div>
 <div> </div>
 
-
-
-## -syntax
-
-
-````
-typedef struct _STORAGE_ZONE_DESCRIPTOR {
-  ULONG                  Size;
-  STORAGE_ZONE_TYPES     ZoneType;
-  STORAGE_ZONE_CONDITION ResetWritePointerRecomend;
-  BOOLEAN                ResetWritePointerRecomend;
-                         Reserved0[3];
-  ULONGLONG              ZoneSize;
-  ULONGLONG              WriterPointerOffset;
-} STORAGE_ZONE_DESCRIPTOR, *PSTORAGE_ZONE_DESCRIPTOR;
-````
 
 
 ## -struct-fields

@@ -38,7 +38,8 @@ api_location:
 -	nfcsedev.h
 api_name:
 -	IOCTL_NFCSE_HCE_REMOTE_SEND
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SECURE_ELEMENT_TYPE, *PSECURE_ELEMENT_TYPE
 ---
@@ -61,7 +62,7 @@ Transmits response APDU from DeviceHost NFCEE to remote device. The caller must 
 
 ### -input-buffer
 
-Pointer to buffer containing <a href="..\nfcsedev\ns-nfcsedev-_secure_element_hce_data_packet.md">SECURE_ELEMENT_HCE_DATA_PACKET</a> structure.
+Pointer to buffer containing <a href="https://msdn.microsoft.com/library/windows/hardware/dn905624">SECURE_ELEMENT_HCE_DATA_PACKET</a> structure.
 
 
 

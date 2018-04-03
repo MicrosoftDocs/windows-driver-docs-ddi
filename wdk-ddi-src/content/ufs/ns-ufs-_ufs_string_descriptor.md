@@ -7,7 +7,7 @@ old-location: storage\ufs_string_descriptor.htm
 old-project: storage
 ms.assetid: 1F32DA95-6801-4C48-B3C4-A47C3E1C678B
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PUFS_STRING_DESCRIPTOR, PUFS_STRING_DESCRIPTOR, PUFS_STRING_DESCRIPTOR structure pointer [Storage Devices], UFS_STRING_DESCRIPTOR, UFS_STRING_DESCRIPTOR structure [Storage Devices], _UFS_STRING_DESCRIPTOR, storage.ufs_string_descriptor, ufs/PUFS_STRING_DESCRIPTOR, ufs/UFS_STRING_DESCRIPTOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ufs.h
 api_name:
 -	UFS_STRING_DESCRIPTOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UFS_STRING_DESCRIPTOR, *PUFS_STRING_DESCRIPTOR
 req.product: Windows 10 or later.
@@ -51,18 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>UFS_STRING_DESCRIPTOR</b> structure describes either the Manufacturer Name, Product Name, OEM ID, or Serial Number as a string. 
-
-
-## -syntax
-
-
-````
-typedef struct _UFS_STRING_DESCRIPTOR {
-  UCHAR bLength;
-  UCHAR bDescriptorIDN;
-  UCHAR String[UFS_MAX_UNICODE_STRING_LEN];
-} UFS_STRING_DESCRIPTOR, *PUFS_STRING_DESCRIPTOR;
-````
 
 
 ## -struct-fields

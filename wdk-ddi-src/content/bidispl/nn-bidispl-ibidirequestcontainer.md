@@ -38,7 +38,8 @@ api_location:
 -	Bidispl.h
 api_name:
 -	IBidiRequestContainer
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
 ---
@@ -99,7 +100,6 @@ Gets the number of requests in the list.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/42b5e6cf-b434-4734-86f3-b3b9d15ea468">Print Spooler Components</a>
 
 
 
@@ -111,8 +111,8 @@ Gets the number of requests in the list.
 
 
 
+<a href="https://msdn.microsoft.com/42b5e6cf-b434-4734-86f3-b3b9d15ea468">Print Spooler Components</a>
  
 
  
-
 

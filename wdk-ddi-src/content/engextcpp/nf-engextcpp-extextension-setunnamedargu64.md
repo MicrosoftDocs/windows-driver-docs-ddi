@@ -7,7 +7,7 @@ old-location: debugger\setunnamedargu64.htm
 old-project: debugger
 ms.assetid: 27f25bba-8118-47c0-9b9d-6b0a1ceb4b8e
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: EngExtCpp_Ref_65080cf5-2492-440b-a496-869faf8c9c49.xml, ExtExtension, ExtExtension class [Windows Debugging], SetUnnamedArgU64 method, ExtExtension::SetUnnamedArgU64, SetUnnamedArgU64 method [Windows Debugging], SetUnnamedArgU64 method [Windows Debugging], ExtExtension class, SetUnnamedArgU64,ExtExtension.SetUnnamedArgU64, debugger.setunnamedargu64
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Engextcpp.hpp
 api_name:
 -	ExtExtension.SetUnnamedArgU64
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 ---
@@ -52,18 +53,6 @@ req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 The <b>SetUnnamedArgU64</b> method sets the value of an unnamed expression argument for the current extension command.
 
 
-## -syntax
-
-
-````
-bool SetUnnamedArgU64(
-  [in] ULONG   Index,
-  [in] ULONG64 Arg,
-  [in] bool    OnlyIfUnset
-);
-````
-
-
 ## -parameters
 
 
@@ -71,7 +60,7 @@ bool SetUnnamedArgU64(
 
 ### -param Index [in]
 
-Specifies the index of the argument.  The command-line description used in <a href="..\engextcpp\nf-engextcpp-ext_command.md">EXT_COMMAND</a> must specify that the type of this argument is expression.  <i>Index</i> should be between zero and the number of unnamed arguments - as specified in the command-line description used in EXT_COMMAND - minus one.
+Specifies the index of the argument.  The command-line description used in <a href="https://msdn.microsoft.com/library/windows/hardware/ff544514">EXT_COMMAND</a> must specify that the type of this argument is expression.  <i>Index</i> should be between zero and the number of unnamed arguments - as specified in the command-line description used in EXT_COMMAND - minus one.
 
 
 ### -param Arg [in]
@@ -106,16 +95,15 @@ This method should only be called during the execution of an extension command p
 
 ## -see-also
 
-<a href="..\engextcpp\nf-engextcpp-ext_command.md">EXT_COMMAND</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544514">EXT_COMMAND</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543981">ExtExtension</a>
-
-
-
  
 
  
-
 

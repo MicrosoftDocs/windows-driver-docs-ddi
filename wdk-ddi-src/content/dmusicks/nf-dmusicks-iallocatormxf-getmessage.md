@@ -7,7 +7,7 @@ old-location: audio\iallocatormxf_getmessage.htm
 old-project: audio
 ms.assetid: d5b56926-bcfb-4411-b24d-cc0758852510
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/19/2018
 ms.keywords: GetMessage method [Audio Devices], GetMessage method [Audio Devices], IAllocatorMXF interface, GetMessage,IAllocatorMXF.GetMessage, IAllocatorMXF, IAllocatorMXF interface [Audio Devices], GetMessage method, IAllocatorMXF::GetMessage, audio.iallocatormxf_getmessage, audmp-routines_24207ff5-69a9-47bd-a756-78c2a218080e.xml, dmusicks/IAllocatorMXF::GetMessage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	dmusicks.h
 api_name:
 -	IAllocatorMXF.GetMessage
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DMUS_STREAM_TYPE
 ---
@@ -49,17 +50,7 @@ req.typenames: DMUS_STREAM_TYPE
 ## -description
 
 
-The <code>GetMessage</code> method serves as the retrieval point for any DirectMusic kernel-mode component that utilizes the port driver's allocator to reuse <a href="..\dmusicks\ns-dmusicks-_dmus_kernel_event.md">DMUS_KERNEL_EVENT</a> structures.
-
-
-## -syntax
-
-
-````
-NTSTATUS GetMessage(
-  [out] PDMUS_KERNEL_EVENT *ppDMKEvt
-);
-````
+The <code>GetMessage</code> method serves as the retrieval point for any DirectMusic kernel-mode component that utilizes the port driver's allocator to reuse <a href="https://msdn.microsoft.com/library/windows/hardware/ff536340">DMUS_KERNEL_EVENT</a> structures.
 
 
 ## -parameters
@@ -85,7 +76,7 @@ Output pointer for the MIDI event. This parameter points to a caller-allocated p
 
 
 
-The miniport driver uses the <code>GetMessage</code> method to retrieve event structures for MIDI rendering and capture. This method retrieves <a href="..\dmusicks\ns-dmusicks-_dmus_kernel_event.md">DMUS_KERNEL_EVENT</a> structures from the same pool that <a href="https://msdn.microsoft.com/library/windows/hardware/ff536791">IMXF::PutMessage</a> puts them into when it discards them to the allocator.
+The miniport driver uses the <code>GetMessage</code> method to retrieve event structures for MIDI rendering and capture. This method retrieves <a href="https://msdn.microsoft.com/library/windows/hardware/ff536340">DMUS_KERNEL_EVENT</a> structures from the same pool that <a href="https://msdn.microsoft.com/library/windows/hardware/ff536791">IMXF::PutMessage</a> puts them into when it discards them to the allocator.
 
 In the case of a MIDI capture stream, the port driver retrieves capture events from the miniport driver when prompted by the usual Service DPC.
 
@@ -96,20 +87,19 @@ For more information about the allocator, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536340">DMUS_KERNEL_EVENT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536491">IAllocatorMXF</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536791">IMXF::PutMessage</a>
-
-
-
-<a href="..\dmusicks\ns-dmusicks-_dmus_kernel_event.md">DMUS_KERNEL_EVENT</a>
-
-
-
-<a href="..\dmusicks\nn-dmusicks-iallocatormxf.md">IAllocatorMXF</a>
-
-
-
  
 
  
-
 

@@ -38,7 +38,8 @@ api_location:
 -	nfccx.h
 api_name:
 -	NFC_CX_LLCP_CONFIG
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NFC_CX_LLCP_CONFIG, *PNFC_CX_LLCP_CONFIG
 ---
@@ -49,21 +50,8 @@ req.typenames: NFC_CX_LLCP_CONFIG, *PNFC_CX_LLCP_CONFIG
 ## -description
 
 
-The NFC_CX_LLCP_CONFIG structure is an input parameter to <a href="..\nfccx\nf-nfccx-nfccxsetllcpconfig.md">NfcCxSetLlcpConfig.</a>
+The NFC_CX_LLCP_CONFIG structure is an input parameter to <a href="https://msdn.microsoft.com/8208F61E-DFD9-4AA8-B225-BEB35F80F621">NfcCxSetLlcpConfig.</a>
 
-
-
-## -syntax
-
-
-````
-typedef struct _NFC_CX_LLCP_CONFIG {
-  ULONG  Size;
-  USHORT Miu;
-  UCHAR  LinkTimeout;
-  UCHAR  RecvWindowSize;
-} NFC_CX_LLCP_CONFIG, *PNFC_CX_LLCP_CONFIG;
-````
 
 
 ## -struct-fields
@@ -93,16 +81,15 @@ The receive window size per LLCP spec. Default value is 5.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
 
 
 
 <a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
-
-
-
  
 
  
-
 

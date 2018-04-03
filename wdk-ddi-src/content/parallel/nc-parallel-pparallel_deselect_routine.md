@@ -38,7 +38,8 @@ api_location:
 -	parallel.h
 api_name:
 -	(*PPARALLEL_DESELECT_ROUTINE)
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILGBATOKEN, *LPRILGBATOKEN
 ---
@@ -183,19 +184,19 @@ For more information, see <a href="https://msdn.microsoft.com/1a3ac1b1-9180-4b71
 
 ## -see-also
 
-<a href="..\parallel\nc-parallel-pparallel_try_select_routine.md">PPARALLEL_TRY_SELECT_ROUTINE</a>
-
-
-
 <a href="..\parallel\ni-parallel-ioctl_internal_select_device.md">IOCTL_INTERNAL_SELECT_DEVICE</a>
 
 
 
-<a href="..\parallel\ns-parallel-_parallel_pnp_information.md">PARALLEL_PNP_INFORMATION</a>
+<a href="..\parallel\nc-parallel-pparallel_try_select_routine.md">PPARALLEL_TRY_SELECT_ROUTINE</a>
 
 
 
 <a href="..\parallel\ni-parallel-ioctl_internal_deselect_device.md">IOCTL_INTERNAL_DESELECT_DEVICE</a>
+
+
+
+<a href="..\parallel\ns-parallel-_parallel_pnp_information.md">PARALLEL_PNP_INFORMATION</a>
 
 
 

@@ -41,7 +41,8 @@ api_location:
 -	WUDFx02000.dll.dll
 api_name:
 -	WdfUsbInterfaceGetNumConfiguredPipes
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
@@ -58,16 +59,6 @@ req.product: Windows 10 or later.
 The <b>WdfUsbInterfaceGetNumConfiguredPipes</b> method returns the number of pipes that are configured for a specified USB device interface.
 
 
-## -syntax
-
-
-````
-BYTE WdfUsbInterfaceGetNumConfiguredPipes(
-  _In_ WDFUSBINTERFACE UsbInterface
-);
-````
-
-
 ## -parameters
 
 
@@ -75,7 +66,7 @@ BYTE WdfUsbInterfaceGetNumConfiguredPipes(
 
 ### -param UsbInterface [in]
 
-A handle to a USB interface object that was obtained by calling <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicegetinterface.md">WdfUsbTargetDeviceGetInterface</a>. 
+A handle to a USB interface object that was obtained by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff550092">WdfUsbTargetDeviceGetInterface</a>. 
 
 
 ## -returns
@@ -95,7 +86,7 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
-Your driver can call <b>WdfUsbInterfaceGetNumConfiguredPipes</b> after it has called <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdeviceselectconfig.md">WdfUsbTargetDeviceSelectConfig</a>.
+Your driver can call <b>WdfUsbInterfaceGetNumConfiguredPipes</b> after it has called <a href="https://msdn.microsoft.com/library/windows/hardware/ff550101">WdfUsbTargetDeviceSelectConfig</a>.
 
 For more information about the <b>WdfUsbInterfaceGetNumConfiguredPipes</b> method and USB I/O targets, see <a href="https://msdn.microsoft.com/195c0f4b-7f33-428a-8de7-32643ad854c6">USB I/O Targets</a>.
 
@@ -121,16 +112,15 @@ pipeCount = WdfUsbInterfaceGetNumConfiguredPipes(UsbInterface);</pre>
 
 ## -see-also
 
-<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicegetinterface.md">WdfUsbTargetDeviceGetInterface</a>
 
 
 
-<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdeviceselectconfig.md">WdfUsbTargetDeviceSelectConfig</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550092">WdfUsbTargetDeviceGetInterface</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550101">WdfUsbTargetDeviceSelectConfig</a>
  
 
  
-
 

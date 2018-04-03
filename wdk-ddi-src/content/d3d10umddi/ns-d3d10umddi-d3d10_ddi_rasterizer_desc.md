@@ -7,7 +7,7 @@ old-location: display\d3d10_ddi_rasterizer_desc.htm
 old-project: display
 ms.assetid: d4247ec7-1995-45cf-83e3-958acbfd7915
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3D10_DDI_RASTERIZER_DESC, D3D10_DDI_RASTERIZER_DESC structure [Display Devices], UMDisplayDriver_Dx10param_Structs_bf0538cd-a9de-44f6-a028-d147b77324fc.xml, d3d10umddi/D3D10_DDI_RASTERIZER_DESC, display.d3d10_ddi_rasterizer_desc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3d10umddi.h
 api_name:
 -	D3D10_DDI_RASTERIZER_DESC
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D10_DDI_RASTERIZER_DESC
 ---
@@ -50,25 +51,6 @@ req.typenames: D3D10_DDI_RASTERIZER_DESC
 
 
 The D3D10_DDI_RASTERIZER_DESC structure describes a rasterizer state.
-
-
-## -syntax
-
-
-````
-typedef struct D3D10_DDI_RASTERIZER_DESC {
-  D3D10_DDI_FILL_MODE FillMode;
-  D3D10_DDI_CULL_MODE CullMode;
-  BOOL                FrontCounterClockwise;
-  INT32               DepthBias;
-  FLOAT               DepthBiasClamp;
-  FLOAT               SlopeScaledDepthBias;
-  BOOL                DepthClipEnable;
-  BOOL                ScissorEnable;
-  BOOL                MultisampleEnable;
-  BOOL                AntialiasedLineEnable;
-} D3D10_DDI_RASTERIZER_DESC;
-````
 
 
 ## -struct-fields
@@ -205,16 +187,15 @@ However, using <b>DepthBias</b> and <b>SlopeScaledDepthBias</b> alone can introd
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createrasterizerstate.md">CreateRasterizerState</a>
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_calcprivaterasterizerstatesize.md">CalcPrivateRasterizerStateSize</a>
+<a href="https://msdn.microsoft.com/8b10b2b8-21b0-451c-9a85-353222d9c288">CalcPrivateRasterizerStateSize</a>
 
 
 
+<a href="https://msdn.microsoft.com/4507b92e-2437-4f90-b527-e06773ca1e08">CreateRasterizerState</a>
  
 
  
-
 

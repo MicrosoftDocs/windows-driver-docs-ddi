@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KS_TUNER_TUNING_FLAGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KS_TUNER_TUNING_FLAGS
 ---
@@ -50,18 +51,6 @@ req.typenames: KS_TUNER_TUNING_FLAGS
 
 
 The KS_TUNER_TUNING_FLAGS enumeration defines tuning flags that describe the granularity of a tuning operation.
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  KS_TUNER_TUNING_EXACT   = 1,
-  KS_TUNER_TUNING_FINE    = 2,
-  KS_TUNER_TUNING_COARSE  = 3
-} KS_TUNER_TUNING_FLAGS;
-````
 
 
 ## -enum-fields
@@ -86,12 +75,11 @@ The tuning operation should perform a fast search and attempt only to determine 
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-ksproperty_tuner_frequency_s.md">KSPROPERTY_TUNER_FREQUENCY_S</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565839">KSPROPERTY_TUNER_FREQUENCY_S</a>
  
 
  
-
 

@@ -38,7 +38,8 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFIoTarget2.FormatRequestForSetInformation
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
@@ -55,20 +56,6 @@ req.product: Windows 10 or later.
 The <b>FormatRequestForSetInformation</b> method formats an I/O request to set information about a file, but it does not send the request to an I/O target.
 
 
-## -syntax
-
-
-````
-HRESULT FormatRequestForSetInformation(
-  [in]           IWDFIoRequest              *pRequest,
-  [in]           WDF_FILE_INFORMATION_CLASS InformationClass,
-  [in, optional] IWDFFile                   *pFile,
-  [in, optional] IWDFMemory                 *pInformationMemory,
-  [in, optional] PWDFMEMORY_OFFSET          pInformationMemoryOffset
-);
-````
-
-
 ## -parameters
 
 
@@ -76,27 +63,27 @@ HRESULT FormatRequestForSetInformation(
 
 ### -param pRequest [in]
 
-A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a> interface of the request object that represents the I/O request. 
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558985">IWDFIoRequest</a> interface of the request object that represents the I/O request. 
 
 
 ### -param InformationClass [in]
 
-A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_file_information_class.md">WDF_FILE_INFORMATION_CLASS</a>-typed value that specifies the type of information to set.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff561405">WDF_FILE_INFORMATION_CLASS</a>-typed value that specifies the type of information to set.
 
 
 ### -param pFile [in, optional]
 
-A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a> interface of the file object that is associated with the I/O request. This parameter is required for local and remote <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-i-o-targets-in-umdf">I/O targets</a>, and is optional (can be <b>NULL</b>) for file handle I/O targets.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558912">IWDFFile</a> interface of the file object that is associated with the I/O request. This parameter is required for local and remote <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-i-o-targets-in-umdf">I/O targets</a>, and is optional (can be <b>NULL</b>) for file handle I/O targets.
 
 
 ### -param pInformationMemory [in, optional]
 
-A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a> interface of a memory object. This object represents the input buffer, which contains driver-supplied file information that the <i>InformationClass</i> parameter specifies. This parameter is optional and can be <b>NULL</b>.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559249">IWDFMemory</a> interface of a memory object. This object represents the input buffer, which contains driver-supplied file information that the <i>InformationClass</i> parameter specifies. This parameter is optional and can be <b>NULL</b>.
 
 
 ### -param pInformationMemoryOffset [in, optional]
 
-A pointer to a <a href="..\wudfddi_types\ns-wudfddi_types-_wdfmemory_offset.md">WDFMEMORY_OFFSET</a> structure that supplies optional byte offset and length values. The framework uses these values to determine the beginning address and length, within the input buffer, for the data transfer. If this pointer is <b>NULL</b>, the data transfer begins at the beginning of the input buffer, and the transfer size is the buffer size.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff561398">WDFMEMORY_OFFSET</a> structure that supplies optional byte offset and length values. The framework uses these values to determine the beginning address and length, within the input buffer, for the data transfer. If this pointer is <b>NULL</b>, the data transfer begins at the beginning of the input buffer, and the transfer size is the buffer size.
 
 
 ## -returns
@@ -224,16 +211,15 @@ Error;
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559175">IWDFIoTarget2</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559184">IWDFIoTarget2::FormatRequestForQueryInformation</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iwdfiotarget2.md">IWDFIoTarget2</a>
-
-
-
  
 
  
-
 

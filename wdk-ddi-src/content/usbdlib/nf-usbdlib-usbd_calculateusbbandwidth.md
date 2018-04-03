@@ -7,7 +7,7 @@ old-location: buses\usbd_calculateusbbandwidth.htm
 old-project: usbref
 ms.assetid: a54f3fb4-032a-4538-8b6d-20d6834d08c4
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: USBD_CalculateUsbBandwidth, USBD_CalculateUsbBandwidth routine [Buses], buses.usbd_calculateusbbandwidth, usbdlib/USBD_CalculateUsbBandwidth, usbfunc_a422b001-17f1-42b4-b10e-3d64d4279530.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Usbd.dll
 api_name:
 -	USBD_CalculateUsbBandwidth
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USBCAMD_DEVICE_DATA2, *PUSBCAMD_DEVICE_DATA2
 req.product: Windows 10 or later.
@@ -54,18 +55,6 @@ req.product: Windows 10 or later.
 The <b>USBD_CalculateUsbBandwidth</b> routine has been deprecated in Windows XP and later operating systems. Do not use. 
 
 
-## -syntax
-
-
-````
-ULONG USBD_CalculateUsbBandwidth(
-  _In_ ULONG   MaxPacketSize,
-  _In_ UCHAR   EndpointType,
-  _In_ BOOLEAN LowSpeed
-);
-````
-
-
 ## -parameters
 
 
@@ -78,7 +67,7 @@ Specifies the maximum packet size.
 
 ### -param EndpointType [in]
 
-Contains a value of type <a href="..\usb\ne-usb-_usbd_pipe_type.md">USBD_PIPE_TYPE</a> that specifies the pipe type.
+Contains a value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff539119">USBD_PIPE_TYPE</a> that specifies the pipe type.
 
 
 ### -param LowSpeed [in]
@@ -106,16 +95,15 @@ The <b>USBD_CalculateUsbBandwidth</b> routine approximates the bandwidth using t
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540134">USB device driver programming reference</a>
 
 
 
-<a href="..\usb\ne-usb-_usbd_pipe_type.md">USBD_PIPE_TYPE</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539119">USBD_PIPE_TYPE</a>
  
 
  
-
 

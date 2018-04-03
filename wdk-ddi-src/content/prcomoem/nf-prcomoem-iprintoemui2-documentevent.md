@@ -38,7 +38,8 @@ api_location:
 -	prcomoem.h
 api_name:
 -	IPrintOemUI2.DocumentEvent
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
@@ -50,24 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <code>IPrintOemUI2::DocumentEvent</code> method allows a UI plug-in to replace the core driver UI module's default implementation of the <a href="..\winddiui\nf-winddiui-drvdocumentevent.md">DrvDocumentEvent</a> DDI.
-
-
-## -syntax
-
-
-````
-HRESULT DocumentEvent(
-   HANDLE hPrinter,
-   HDC    hdc,
-   INT    iEsc,
-   ULONG  cbIn,
-   PVOID  pvIn,
-   ULONG  cbOut,
-   PVOID  pvOut,
-   PINT   piResult
-);
-````
+The <code>IPrintOemUI2::DocumentEvent</code> method allows a UI plug-in to replace the core driver UI module's default implementation of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548544">DrvDocumentEvent</a> DDI.
 
 
 ## -parameters
@@ -290,7 +274,7 @@ DOCUMENTEVENT_CREATEDCPRE
 
 </td>
 <td>
-<i>pvIn</i> points to a <a href="..\winddiui\ns-winddiui-_docevent_createdcpre.md">DOCEVENT_CREATEDCPRE</a> structure.
+<i>pvIn</i> points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547612">DOCEVENT_CREATEDCPRE</a> structure.
 
 </td>
 </tr>
@@ -344,7 +328,7 @@ DOCUMENTEVENT_ESCAPE
 
 </td>
 <td>
-<i>pvIn</i> points to a <a href="..\winddiui\ns-winddiui-_docevent_escape.md">DOCEVENT_ESCAPE</a> structure.
+<i>pvIn</i> points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548377">DOCEVENT_ESCAPE</a> structure.
 
 </td>
 </tr>
@@ -474,7 +458,7 @@ DOCUMENTEVENT_QUERYFILTER
 
 </td>
 <td>
-Caller-supplied pointer to buffer containing a <a href="..\winddiui\ns-winddiui-_docevent_filter.md">DOCEVENT_FILTER</a> structure.
+Caller-supplied pointer to buffer containing a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548389">DOCEVENT_FILTER</a> structure.
 
 </td>
 </tr>
@@ -588,43 +572,42 @@ The UI plug-in does not implement this method.
 
 
 
-A user interface plug-in's <code>IPrintOemUI2::DocumentEvent</code> method performs the same types of operations as the DrvDocumentEvent DDI that is exported by user-mode printer interface DLLs. For information about document events and how they should be processed, see the description of the <a href="..\winddiui\nf-winddiui-drvdocumentevent.md">DrvDocumentEvent</a> DDI.
+A user interface plug-in's <code>IPrintOemUI2::DocumentEvent</code> method performs the same types of operations as the DrvDocumentEvent DDI that is exported by user-mode printer interface DLLs. For information about document events and how they should be processed, see the description of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548544">DrvDocumentEvent</a> DDI.
 
 If you provide a user interface plug-in, the printer driver's DrvDocumentEvent DDI calls the <code>IPrintOemUI2::DocumentEvent</code> method. The DrvDocumentEvent DDI performs its own processing for the specified event, and then calls the <code>IPrintOemUI2::DocumentEvent</code> method to handle additional processing of the event.
 
-When this method is called with a value of the <i>iEsc</i> parameter of DOCUMENTEVENT_QUERYFILTER, and returns with *<i>piResult</i> == DOCUMENTEVENT_SUCCESS, the spooler can interpret this value in either of two ways, depending on whether certain members of the <a href="..\winddiui\ns-winddiui-_docevent_filter.md">DOCEVENT_FILTER</a> structure changed values. For more information, see the Remarks section for <a href="..\winddiui\nf-winddiui-drvdocumentevent.md">DrvDocumentEvent</a>.
+When this method is called with a value of the <i>iEsc</i> parameter of DOCUMENTEVENT_QUERYFILTER, and returns with *<i>piResult</i> == DOCUMENTEVENT_SUCCESS, the spooler can interpret this value in either of two ways, depending on whether certain members of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548389">DOCEVENT_FILTER</a> structure changed values. For more information, see the Remarks section for <a href="https://msdn.microsoft.com/library/windows/hardware/ff548544">DrvDocumentEvent</a>.
 
 When the DOCUMENTEVENT_QUERYFILTER event is fired, the core driver calls plug-ins in the order they were installed, until one of them returns S_OK, or until all of the plug-ins have been called and none of them returned S_OK. In this way, at most one plug-in is allowed to handle the DOCUMENTEVENT_QUERYFILTER event, and the filter it specifies is applied to all plug-ins in the plug-in chain.
 
-For a plug-in writer who is implementing the <b>IPrintOemUI2</b> interface, but does not need to support the <code>IPrintOemUI2::DocumentEvent</code> method, this method should return E_NOTIMPL for all values of <i>iEsc</i>. If you do need to implement this method, it should return S_OK for all values of <i>iEsc</i>. This signals the core driver that this method has handled the relevant event. The core driver uses the value that this method places in <i>piResult</i> as the return value for the <a href="..\winddiui\nf-winddiui-drvdocumentevent.md">DrvDocumentEvent</a> DDI.
+For a plug-in writer who is implementing the <b>IPrintOemUI2</b> interface, but does not need to support the <code>IPrintOemUI2::DocumentEvent</code> method, this method should return E_NOTIMPL for all values of <i>iEsc</i>. If you do need to implement this method, it should return S_OK for all values of <i>iEsc</i>. This signals the core driver that this method has handled the relevant event. The core driver uses the value that this method places in <i>piResult</i> as the return value for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548544">DrvDocumentEvent</a> DDI.
 
 
 
 
 ## -see-also
 
-<a href="..\winddiui\nf-winddiui-drvdocumentevent.md">DrvDocumentEvent</a>
 
 
 
-<a href="..\winddiui\ns-winddiui-_docevent_createdcpre.md">DOCEVENT_CREATEDCPRE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547612">DOCEVENT_CREATEDCPRE</a>
 
 
 
-<a href="..\prcomoem\nn-prcomoem-iprintoemui2.md">IPrintOemUI2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548377">DOCEVENT_ESCAPE</a>
 
 
 
-<a href="..\winddiui\ns-winddiui-_docevent_filter.md">DOCEVENT_FILTER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548389">DOCEVENT_FILTER</a>
 
 
 
-<a href="..\winddiui\ns-winddiui-_docevent_escape.md">DOCEVENT_ESCAPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548544">DrvDocumentEvent</a>
 
 
 
+<a href="https://msdn.microsoft.com/9b7afb56-7abb-4f20-b69d-12a28d7e3617">IPrintOemUI2</a>
  
 
  
-
 

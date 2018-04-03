@@ -38,7 +38,8 @@ api_location:
 -	Ks.h
 api_name:
 -	KSSTREAM_POINTER_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSSTREAM_POINTER_STATE
 ---
@@ -50,17 +51,6 @@ req.typenames: KSSTREAM_POINTER_STATE
 
 
 
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  KSSTREAM_POINTER_STATE_UNLOCKED  = 0,
-  KSSTREAM_POINTER_STATE_LOCKED
-} KSSTREAM_POINTER_STATE;
-````
 
 
 ## -enum-fields

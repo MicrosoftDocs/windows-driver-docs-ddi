@@ -38,7 +38,8 @@ api_location:
 -	usbcamdi.h
 api_name:
 -	CamStartCaptureEx
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USB_BUS_INTERFACE_USBDI_V3, *PUSB_BUS_INTERFACE_USBDI_V3
 req.product: Windows 10 or later.
@@ -51,21 +52,6 @@ req.product: Windows 10 or later.
 
 
 A camera minidriver's <b>CamStartCaptureEx</b> callback function selects the appropriate alternate setting within the USB video streaming interface and prepares the device to stream.
-
-
-## -prototype
-
-
-````
-PCAM_START_CAPTURE_ROUTINE_EX CamStartCaptureEx;
-
-NTSTATUS CamStartCaptureEx(
-   PDEVICE_OBJECT BusDeviceObject,
-   PVOID          DeviceContext,
-   ULONG          StreamNumber
-)
-{ ... }
-````
 
 
 ## -parameters

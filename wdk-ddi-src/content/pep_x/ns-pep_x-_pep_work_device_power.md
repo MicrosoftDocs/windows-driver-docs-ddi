@@ -7,7 +7,7 @@ old-location: kernel\pep_work_device_power.htm
 old-project: kernel
 ms.assetid: 5B39DFE1-3830-4650-9BB9-A03A040F1015
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*PPEP_WORK_DEVICE_POWER, PEP_WORK_DEVICE_POWER, PEP_WORK_DEVICE_POWER structure [Kernel-Mode Driver Architecture], PPEP_WORK_DEVICE_POWER, PPEP_WORK_DEVICE_POWER structure pointer [Kernel-Mode Driver Architecture], _PEP_WORK_DEVICE_POWER, kernel.pep_work_device_power, pep_x/PEP_WORK_DEVICE_POWER, pep_x/PPEP_WORK_DEVICE_POWER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	pep_x.h
 api_name:
 -	PEP_WORK_DEVICE_POWER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PEP_WORK_DEVICE_POWER, *PPEP_WORK_DEVICE_POWER
 ---
@@ -50,17 +51,6 @@ req.typenames: PEP_WORK_DEVICE_POWER, *PPEP_WORK_DEVICE_POWER
 
 
 The <b>PEP_WORK_DEVICE_POWER</b> structure describes the new power requirements for the specified device.
-
-
-## -syntax
-
-
-````
-typedef struct _PEP_WORK_DEVICE_POWER {
-  POHANDLE DeviceHandle;
-  BOOLEAN  PowerRequired;
-} PEP_WORK_DEVICE_POWER, *PPEP_WORK_DEVICE_POWER;
-````
 
 
 ## -struct-fields
@@ -82,14 +72,13 @@ Whether the device requires power. Set to TRUE if the device requires power and 
 
 
 
-The <b>DevicePower</b> member of the <a href="..\pepfx\ns-pepfx-_pep_work_information.md">PEP_WORK_INFORMATION</a> structure is a <b>PEP_WORK_DEVICE_POWER</b> structure.
+The <b>DevicePower</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186864">PEP_WORK_INFORMATION</a> structure is a <b>PEP_WORK_DEVICE_POWER</b> structure.
 
 
 
 
 ## -see-also
 
-<a href="..\pepfx\ns-pepfx-_pep_work_information.md">PEP_WORK_INFORMATION</a>
 
 
 
@@ -97,8 +86,8 @@ The <b>DevicePower</b> member of the <a href="..\pepfx\ns-pepfx-_pep_work_inform
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186864">PEP_WORK_INFORMATION</a>
  
 
  
-
 

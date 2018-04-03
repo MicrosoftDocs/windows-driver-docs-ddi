@@ -2,7 +2,7 @@
 UID: NA:smcnt
 ms.assetid: f0458d39-14d8-3d3d-9c48-866fa482bc98
 ms.author: windowsdriverdev
-ms.date: 03/13/18
+ms.date: 04/03/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -12,22 +12,9 @@ ms.topic: portal
 # Smcnt.h header
 
 
-
-This header is used by Windows kernel, Smart Card Reader Devices. For more information, see
-- [Windows kernel](../_kernel/index.md)
-- [Smart Card Reader Devices](../_smartcrd/index.md)
-
-Smcnt.h contain these programming interfaces:
+## -description
 
 
-## Structures
+This header is used by smartcrd. For more information, see:
 
-| Title   | Description   |
-| ---- |:---- |
-| [_OS_DEP_DATA structure](ns-smcnt-_os_dep_data.md) | The OS_DEP_DATA structure defines the data that is stored in the OsData member of the SMARTCARD_EXTENSION structure, which holds smart card information that is specific to the operating system. |
-
-## Macros
-
-| Title   | Description   |
-| ---- |:---- |
-| [ExAllocatePool macro](nf-smcnt-exallocatepool.md) | The ExAllocatePool routine is obsolete, and is exported only for existing binaries. Use ExAllocatePoolWithTag instead.ExAllocatePool allocates pool memory of the specified type and returns a pointer to the allocated block. |
+- [<built-in method title of str object at 0x000001AD98765F30>](../_smartcrd/index.md)

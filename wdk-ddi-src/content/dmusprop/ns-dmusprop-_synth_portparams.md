@@ -7,7 +7,7 @@ old-location: audio\synth_portparams.htm
 old-project: audio
 ms.assetid: 94c953ae-519b-4659-a4c9-a97db7dc31e9
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/19/2018
 ms.keywords: "*PSYNTH_PORTPARAMS, PSYNTH_PORTPARAMS, PSYNTH_PORTPARAMS structure pointer [Audio Devices], SYNTH_PORTPARAMS, SYNTH_PORTPARAMS structure [Audio Devices], _SYNTH_PORTPARAMS, aud-prop_33f03864-8052-4dff-9613-1e8046450d16.xml, audio.synth_portparams, dmusprop/PSYNTH_PORTPARAMS, dmusprop/SYNTH_PORTPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	dmusprop.h
 api_name:
 -	SYNTH_PORTPARAMS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SYNTH_PORTPARAMS, *PSYNTH_PORTPARAMS
 ---
@@ -50,22 +51,6 @@ req.typenames: SYNTH_PORTPARAMS, *PSYNTH_PORTPARAMS
 
 
 The SYNTH_PORTPARAMS structure contains the configuration parameters for a DirectMusic <i>port</i>, which is a DirectMusic term for a device that sends or receives music data. (In KS terminology, a DirectMusic port does not correspond to a DMus port driver. It corresponds to a render or capture pin on a DirectMusic filter.)
-
-
-## -syntax
-
-
-````
-typedef struct _SYNTH_PORTPARAMS {
-  DWORD ValidParams;
-  DWORD Voices;
-  DWORD ChannelGroups;
-  DWORD AudioChannels;
-  DWORD SampleRate;
-  DWORD EffectsFlags;
-  DWORD Share;
-} SYNTH_PORTPARAMS, *PSYNTH_PORTPARAMS;
-````
 
 
 ## -struct-fields
@@ -179,12 +164,11 @@ A <a href="https://msdn.microsoft.com/library/windows/hardware/ff537405">KSPROPE
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537405">KSPROPERTY_SYNTH_PORTPARAMETERS</a>
-
-
-
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: debugger\seteventfiltercommand.htm
 old-project: debugger
 ms.assetid: d68d0a98-ec93-4643-a6c1-eff9d5618e03
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: IDebugControl, IDebugControl interface [Windows Debugging], SetEventFilterCommand method, IDebugControl2 interface [Windows Debugging], SetEventFilterCommand method, IDebugControl2::SetEventFilterCommand, IDebugControl3 interface [Windows Debugging], SetEventFilterCommand method, IDebugControl3::SetEventFilterCommand, IDebugControl::SetEventFilterCommand, IDebugControl_b0661dd4-9ecd-49ac-93e1-86d3c6c2c3f6.xml, SetEventFilterCommand method [Windows Debugging], SetEventFilterCommand method [Windows Debugging], IDebugControl interface, SetEventFilterCommand method [Windows Debugging], IDebugControl2 interface, SetEventFilterCommand method [Windows Debugging], IDebugControl3 interface, SetEventFilterCommand,IDebugControl.SetEventFilterCommand, dbgeng/IDebugControl2::SetEventFilterCommand, dbgeng/IDebugControl3::SetEventFilterCommand, dbgeng/IDebugControl::SetEventFilterCommand, debugger.seteventfiltercommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,8 @@ api_name:
 -	IDebugControl.SetEventFilterCommand
 -	IDebugControl2.SetEventFilterCommand
 -	IDebugControl3.SetEventFilterCommand
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -52,17 +53,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>SetEventFilterCommand</b>  method sets a debugger command for the engine to execute when a specified event occurs.
-
-
-## -syntax
-
-
-````
-HRESULT SetEventFilterCommand(
-  [in] ULONG Index,
-  [in] PCSTR Command
-);
-````
 
 
 ## -parameters
@@ -119,19 +109,22 @@ For more information about event filters, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546611">GetEventFilterCommand</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550508">IDebugControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/fdb5059f-e7d9-4e14-aa3d-030e72c30732">sx, sxd, sxe, sxi, sxn (Set Exceptions)</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550512">IDebugControl2</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550519">IDebugControl3</a>
 
 
 
@@ -139,12 +132,8 @@ For more information about event filters, see <a href="https://msdn.microsoft.co
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
-
-
-
+<a href="https://msdn.microsoft.com/fdb5059f-e7d9-4e14-aa3d-030e72c30732">sx, sxd, sxe, sxi, sxn (Set Exceptions)</a>
  
 
  
-
 

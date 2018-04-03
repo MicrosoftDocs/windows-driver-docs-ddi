@@ -38,7 +38,8 @@ api_location:
 -	61883.h
 api_name:
 -	FCP_SEND_REQUEST
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FCP_REQUEST, *PFCP_REQUEST, FCP_SEND_REQUEST, *PFCP_SEND_REQUEST
 ---
@@ -50,18 +51,6 @@ req.typenames: FCP_REQUEST, *PFCP_REQUEST, FCP_SEND_REQUEST, *PFCP_SEND_REQUEST
 
 
 This structure is used for a send request. The  request sends an FCP request to the device. If the protocol driver is being used to represent a virtual device on the machine, the client driver must specify the <b>NodeAddress</b> member of FCP_SEND_REQUEST structure. This information is required in order to route the request to the proper node on the 1394 bus. If the protocol driver is being used to control a physical device, the 1394 bus driver determines the node address dynamically, and <b>NodeAddress</b> is not used.
-
-
-## -syntax
-
-
-````
-typedef struct _FCP_SEND_REQUEST {
-  NODE_ADDRESS NodeAddress;
-  ULONG        Length;
-  PFCP_FRAME   Frame;
-} FCP_SEND_REQUEST, *PFCP_SEND_REQUEST;
-````
 
 
 ## -struct-fields
@@ -99,12 +88,11 @@ If the protocol driver is unable to allocate resources, it sets <b>Irp-&gt;IoSta
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537008">AV_61883_REQUEST</a>
-
-
-
  
 
  
-
 

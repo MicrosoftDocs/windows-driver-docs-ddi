@@ -7,7 +7,7 @@ old-location: netvista\wsk_provider_listen_dispatch.htm
 old-project: netvista
 ms.assetid: 56df7cb9-9ae7-4249-9583-a9259e604238
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PWSK_PROVIDER_LISTEN_DISPATCH, PWSK_PROVIDER_LISTEN_DISPATCH, PWSK_PROVIDER_LISTEN_DISPATCH structure pointer [Network Drivers Starting with Windows Vista], WSK_PROVIDER_LISTEN_DISPATCH, WSK_PROVIDER_LISTEN_DISPATCH structure [Network Drivers Starting with Windows Vista], _WSK_PROVIDER_LISTEN_DISPATCH, netvista.wsk_provider_listen_dispatch, wsk/PWSK_PROVIDER_LISTEN_DISPATCH, wsk/WSK_PROVIDER_LISTEN_DISPATCH, wskref_f2c1b28d-48f5-4667-bb4e-8dd1d5f25916.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	wsk.h
 api_name:
 -	WSK_PROVIDER_LISTEN_DISPATCH
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WSK_PROVIDER_LISTEN_DISPATCH, *PWSK_PROVIDER_LISTEN_DISPATCH
 req.product: Windows 10 or later.
@@ -54,20 +55,6 @@ The WSK_PROVIDER_LISTEN_DISPATCH structure specifies the WSK subsystem's table o
   listening socket.
 
 
-## -syntax
-
-
-````
-typedef struct _WSK_PROVIDER_LISTEN_DISPATCH {
-  WSK_PROVIDER_BASIC_DISPATCH Basic;
-  PFN_WSK_BIND                WskBind;
-  PFN_WSK_ACCEPT              WskAccept;
-  PFN_WSK_INSPECT_COMPLETE    WskInspectComplete;
-  PFN_WSK_GET_LOCAL_ADDRESS   WskGetLocalAddress;
-} WSK_PROVIDER_LISTEN_DISPATCH, *PWSK_PROVIDER_LISTEN_DISPATCH;
-````
-
-
 ## -struct-fields
 
 
@@ -76,7 +63,7 @@ typedef struct _WSK_PROVIDER_LISTEN_DISPATCH {
 ### -field Basic
 
 The members of the 
-     <a href="..\wsk\ns-wsk-_wsk_provider_basic_dispatch.md">
+     <a href="https://msdn.microsoft.com/15cd5336-fe29-4a59-8071-04c802552a5a">
      WSK_PROVIDER_BASIC_DISPATCH</a> structure are included as members of the WSK_PROVIDER_LISTEN_DISPATCH
      structure.
 
@@ -84,26 +71,26 @@ The members of the
 ### -field WskBind
 
 A pointer to the WSK subsystem's 
-     <a href="..\wsk\nc-wsk-pfn_wsk_bind.md">WskBind</a> function for the socket.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571121">WskBind</a> function for the socket.
 
 
 ### -field WskAccept
 
 A pointer to the WSK subsystem's 
-     <a href="..\wsk\nc-wsk-pfn_wsk_accept.md">WskAccept</a> function for the socket.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571109">WskAccept</a> function for the socket.
 
 
 ### -field WskInspectComplete
 
 A pointer to the WSK subsystem's 
-     <a href="..\wsk\nc-wsk-pfn_wsk_inspect_complete.md">WskInspectComplete</a> function for the
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571136">WskInspectComplete</a> function for the
      socket.
 
 
 ### -field WskGetLocalAddress
 
 A pointer to the WSK subsystem's 
-     <a href="..\wsk\nc-wsk-pfn_wsk_get_local_address.md">WskGetLocalAddress</a> function for the
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571133">WskGetLocalAddress</a> function for the
      socket.
 
 
@@ -112,7 +99,7 @@ A pointer to the WSK subsystem's
 
 
 The member list of the WSK_PROVIDER_LISTEN_DISPATCH structure includes an unnamed 
-    <a href="..\wsk\ns-wsk-_wsk_provider_basic_dispatch.md">
+    <a href="https://msdn.microsoft.com/15cd5336-fe29-4a59-8071-04c802552a5a">
     WSK_PROVIDER_BASIC_DISPATCH</a> structure. The compiler that is included with the WDK supports a
     Microsoft-specific extension to the C language that allows unnamed structures within structure
     declarations. The result is that the structure members of the WSK_PROVIDER_BASIC_DISPATCH structure are
@@ -121,10 +108,10 @@ The member list of the WSK_PROVIDER_LISTEN_DISPATCH structure includes an unname
 
 A WSK application receives a pointer to a WSK_PROVIDER_LISTEN_DISPATCH structure when the WSK
     application calls the 
-    <a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a> function to create a listening socket.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff571149">WskSocket</a> function to create a listening socket.
     The pointer is contained in the 
     <b>Dispatch</b> member of the 
-    <a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a> structure that is received from the
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff571182">WSK_SOCKET</a> structure that is received from the
     WSK subsystem.
 
 
@@ -132,44 +119,43 @@ A WSK application receives a pointer to a WSK_PROVIDER_LISTEN_DISPATCH structure
 
 ## -see-also
 
-<a href="..\wsk\nc-wsk-pfn_wsk_bind.md">WskBind</a>
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_accept.md">WskAccept</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571162">WSK_CLIENT_LISTEN_DISPATCH</a>
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571171">WSK_PROVIDER_BASIC_DISPATCH</a>
 
 
 
-<a href="..\wsk\ns-wsk-_wsk_client_listen_dispatch.md">WSK_CLIENT_LISTEN_DISPATCH</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571182">WSK_SOCKET</a>
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571109">WskAccept</a>
 
 
 
-<a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571121">WskBind</a>
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_inspect_complete.md">WskInspectComplete</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571124">WskCloseSocket</a>
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_control_socket.md">WskControlSocket</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571127">WskControlSocket</a>
 
 
 
-<a href="..\wsk\ns-wsk-_wsk_provider_basic_dispatch.md">WSK_PROVIDER_BASIC_DISPATCH</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571136">WskInspectComplete</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571149">WskSocket</a>
  
 
  
-
 

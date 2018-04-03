@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSSTREAMALLOCATOR_STATUS_EX
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSSTREAMALLOCATOR_STATUS_EX, *PKSSTREAMALLOCATOR_STATUS_EX
 ---
@@ -50,18 +51,6 @@ req.typenames: KSSTREAMALLOCATOR_STATUS_EX, *PKSSTREAMALLOCATOR_STATUS_EX
 
 
 Client use KSSTREAMALLOCATOR_STATUS_EX to query the status for allocators supporting the extended allocator framing.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  KSALLOCATOR_FRAMING_EX Framing;
-  ULONG                  AllocatedFrames;
-  ULONG                  Reserved;
-} KSSTREAMALLOCATOR_STATUS_EX, *PKSSTREAMALLOCATOR_STATUS_EX;
-````
 
 
 ## -struct-fields

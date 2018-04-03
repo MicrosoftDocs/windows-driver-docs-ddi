@@ -21,10 +21,10 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: WDTFSystemAction.idl
 req.max-support: 
-req.namespace: 
-req.assembly: 
+req.namespace: Microsoft.WDTF
+req.assembly: WDTFSystemAction.Interop.dll
 req.type-library: 
 req.lib: 
 req.dll: 
@@ -38,7 +38,8 @@ api_location:
 -	wiadevd.h
 api_name:
 -	DEVICEDIALOGDATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DEVICEDIALOGDATA, *LPDEVICEDIALOGDATA, *PDEVICEDIALOGDATA
 req.product: Windows 10 or later.
@@ -51,22 +52,6 @@ req.product: Windows 10 or later.
 
 
 The DEVICEDIALOGDATA structure contains all the data needed to implement a custom device dialog.
-
-
-## -syntax
-
-
-````
-typedef struct tagDEVICEDIALOGDATA {
-  DWORD    cbSize;
-  HWND     hwndParent;
-  IWiaItem *pIWiaItemRoot;
-  DWORD    dwFlags;
-  LONG     lIntent;
-  LONG     lItemCount;
-  IWiaItem **ppWiaItems;
-} DEVICEDIALOGDATA, *LPDEVICEDIALOGDATA, *PDEVICEDIALOGDATA;
-````
 
 
 ## -struct-fields
@@ -124,12 +109,11 @@ The <b>IWiaPropertyStorage</b> interface is used to access information about the
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545069">IWiaUIExtension::DeviceDialog</a>
-
-
-
  
 
  
-
 

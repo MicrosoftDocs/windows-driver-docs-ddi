@@ -7,7 +7,7 @@ old-location: display\d3dkmt_outputduplcontextscount.htm
 old-project: display
 ms.assetid: db63b984-73da-4b66-8a5e-06704dd7c031
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMT_OUTPUTDUPLCONTEXTSCOUNT, D3DKMT_OUTPUTDUPLCONTEXTSCOUNT structure [Display Devices], _D3DKMT_OUTPUTDUPLCONTEXTSCOUNT, d3dkmthk/D3DKMT_OUTPUTDUPLCONTEXTSCOUNT, display.d3dkmt_outputduplcontextscount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3dkmthk.h
 api_name:
 -	D3DKMT_OUTPUTDUPLCONTEXTSCOUNT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_OUTPUTDUPLCONTEXTSCOUNT
 ---
@@ -50,17 +51,6 @@ req.typenames: D3DKMT_OUTPUTDUPLCONTEXTSCOUNT
 
 
 Specifies the number of current <a href="https://msdn.microsoft.com/523FBFAD-5D78-4EE3-A3B7-8FD5BA39DC46">Desktop Duplication API</a> (DDA) clients that are attached to a given video present network (VidPN).
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_OUTPUTDUPLCONTEXTSCOUNT {
-  D3DDDI_VIDEO_PRESENT_SOURCE_ID VidPnSourceId;
-  UINT                           OutputDuplicationCount;
-} D3DKMT_OUTPUTDUPLCONTEXTSCOUNT;
-````
 
 
 ## -struct-fields

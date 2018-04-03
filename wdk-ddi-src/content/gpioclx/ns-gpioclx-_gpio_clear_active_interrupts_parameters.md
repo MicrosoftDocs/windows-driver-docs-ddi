@@ -38,7 +38,8 @@ api_location:
 -	Gpioclx.h
 api_name:
 -	GPIO_CLEAR_ACTIVE_INTERRUPTS_PARAMETERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GPIO_CLEAR_ACTIVE_INTERRUPTS_PARAMETERS, *PGPIO_CLEAR_ACTIVE_INTERRUPTS_PARAMETERS
 ---
@@ -50,18 +51,6 @@ req.typenames: GPIO_CLEAR_ACTIVE_INTERRUPTS_PARAMETERS, *PGPIO_CLEAR_ACTIVE_INTE
 
 
 The <b>GPIO_CLEAR_ACTIVE_INTERRUPTS_PARAMETERS</b> structure describes a set of general-purpose I/O (GPIO) interrupt pins to clear.
-
-
-## -syntax
-
-
-````
-typedef struct _GPIO_CLEAR_ACTIVE_INTERRUPTS_PARAMETERS {
-  BANK_ID BankId;
-  ULONG64 ClearActiveMask;
-  ULONG64 FailedClearMask;
-} GPIO_CLEAR_ACTIVE_INTERRUPTS_PARAMETERS, *PGPIO_CLEAR_ACTIVE_INTERRUPTS_PARAMETERS;
-````
 
 
 ## -struct-fields
@@ -95,11 +84,6 @@ The <i>ClearParameters</i> parameter of the <a href="https://msdn.microsoft.com/
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439341">CLIENT_ClearActiveInterrupts</a>
 
 
 
@@ -107,8 +91,12 @@ The <i>ClearParameters</i> parameter of the <a href="https://msdn.microsoft.com/
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439341">CLIENT_ClearActiveInterrupts</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
  
 
  
-
 

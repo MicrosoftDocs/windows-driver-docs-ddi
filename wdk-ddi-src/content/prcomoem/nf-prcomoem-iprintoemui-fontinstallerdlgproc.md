@@ -38,7 +38,8 @@ api_location:
 -	prcomoem.h
 api_name:
 -	IPrintOemUI.FontInstallerDlgProc
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
@@ -51,19 +52,6 @@ req.product: Windows 10 or later.
 
 
 A user interface plug-in's <code>IPrintOemUI::FontInstallerDlgProc</code> method replaces the Unidrv font installer's user interface.
-
-
-## -syntax
-
-
-````
-HRESULT FontInstallerDlgProc(
-   HWND   hWnd,
-   UINT   usMsg,
-   WPARAM wParam,
-   LPARAM lParam
-);
-````
 
 
 ## -parameters
@@ -149,23 +137,22 @@ A user interface plug-in can implement the <code>IPrintOemUI::FontInstallerDlgPr
 
 The <code>IPrintOemUI::FontInstallerDlgProc</code> method is used by Unidrv as a dialog box procedure, and its address is passed to <b>DialogBoxParam</b> (described in the Microsoft Windows SDK documentation) when a user invokes the font installer from Unidrv's user interface.
 
-If the message received for <i>usMsg</i> is WM_INIT or WM_USER+WM_FI_NAME, <i>lParam</i> points to an <a href="..\prntfont\ns-prntfont-_oemfontinstparam.md">OEMFONTINSTPARAM</a> structure.
+If the message received for <i>usMsg</i> is WM_INIT or WM_USER+WM_FI_NAME, <i>lParam</i> points to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff557731">OEMFONTINSTPARAM</a> structure.
 
 
 
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/0ef635dd-9598-4356-94fc-7e5237df9bd9">IPrintOemUI</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554188">IPrintOemUI::UpdateExternalFonts</a>
-
-
-
-<a href="..\prcomoem\nn-prcomoem-iprintoemui.md">IPrintOemUI</a>
-
-
-
  
 
  
-
 

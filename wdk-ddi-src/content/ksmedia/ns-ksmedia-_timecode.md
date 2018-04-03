@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	TIMECODE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TIMECODE
 ---
@@ -50,21 +51,6 @@ req.typenames: TIMECODE
 
 
 The TIMECODE union describes a timecode from an external device. This structure is no longer used.
-
-
-## -syntax
-
-
-````
-typedef union _timecode {
-  struct {
-    WORD  wFrameRate;
-    WORD  wFrameFract;
-    DWORD dwFrames;
-  };
-  DWORDLONG qw;
-} TIMECODE, *PTIMECODE;
-````
 
 
 ## -struct-fields
@@ -103,12 +89,11 @@ This structure is defined for the purpose of searching to a timecode based on an
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/f3ff3815-0f4f-4fcb-89bd-e77d8002813c">KSPROPERTY_EXTXPORT_RAW_AVC_CMD</a>
-
-
-
  
 
  
-
 

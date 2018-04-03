@@ -38,7 +38,8 @@ api_location:
 -	nfccx.h
 api_name:
 -	NFC_CX_TRANSPORT_TYPE, *PNFC_CX_TRANSPORT_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NFC_CX_TRANSPORT_TYPE, *PNFC_CX_TRANSPORT_TYPE
 ---
@@ -50,19 +51,6 @@ req.typenames: NFC_CX_TRANSPORT_TYPE, *PNFC_CX_TRANSPORT_TYPE
 
 
 The NFC_CX_TRANSPORT_TYPE enumeration specifies transport types.
-
-
-## -syntax
-
-
-````
-typedef enum _NFC_CX_TRANSPORT_TYPE { 
-  NFC_CX_TRANSPORT_I2C     = 0x00,
-  NFC_CX_TRANSPORT_SPI     = 0x01,
-  NFC_CX_TRANSPORT_UART    = 0x02,
-  NFC_CX_TRANSPORT_CUSTOM  = 0xFF
-} NFC_CX_TRANSPORT_TYPE, *PNFC_CX_TRANSPORT_TYPE;
-````
 
 
 ## -enum-fields
@@ -92,16 +80,15 @@ Specifies a custom transport type.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
 
 
 
 <a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
-
-
-
  
 
  
-
 

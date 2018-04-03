@@ -7,7 +7,7 @@ old-location: kernel\clfsallocreservedlog.htm
 old-project: kernel
 ms.assetid: 05e4fb47-38ef-4b46-a1bb-220c5b1a63ca
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: ClfsAllocReservedLog, ClfsAllocReservedLog routine [Kernel-Mode Driver Architecture], Clfs_4429c61b-96d5-48cb-9ff0-5b0e3f01e0ec.xml, kernel.clfsallocreservedlog, wdm/ClfsAllocReservedLog
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ext-MS-Win-fs-clfs-l1-1-0.dll
 api_name:
 -	ClfsAllocReservedLog
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
@@ -54,18 +55,6 @@ req.product: Windows 10 or later.
 The <b>ClfsAllocReservedLog</b> routine reserves space in a marshalling area for a set of records.
 
 
-## -syntax
-
-
-````
-NTSTATUS ClfsAllocReservedLog(
-  _In_ PVOID     pvMarshalContext,
-  _In_ ULONG     cRecords,
-  _In_ PLONGLONG pcbAdjustment
-);
-````
-
-
 ## -parameters
 
 
@@ -73,17 +62,17 @@ NTSTATUS ClfsAllocReservedLog(
 
 ### -param pvMarshalContext [in]
 
-A pointer to an opaque context that represents a marshalling area. The caller previously obtained this pointer by calling <a href="..\wdm\nf-wdm-clfscreatemarshallingarea.md">ClfsCreateMarshallingArea</a>.
+A pointer to an opaque context that represents a marshalling area. The caller previously obtained this pointer by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff541520">ClfsCreateMarshallingArea</a>.
 
 
 ### -param cRecords [in]
 
-The number of records in the set. This value must match the value of <i>cRecords</i> previously passed to <a href="..\wdm\nf-wdm-clfsalignreservedlog.md">ClfsAlignReservedLog</a>.
+The number of records in the set. This value must match the value of <i>cRecords</i> previously passed to <a href="https://msdn.microsoft.com/library/windows/hardware/ff540779">ClfsAlignReservedLog</a>.
 
 
 ### -param pcbAdjustment [in]
 
-A pointer to a LONGLONG-typed variable that supplies the size, in bytes, of the reservation that will hold all the records in the set. The caller previously obtained this size by calling <a href="..\wdm\nf-wdm-clfsalignreservedlog.md">ClfsAlignReservedLog</a>.
+A pointer to a LONGLONG-typed variable that supplies the size, in bytes, of the reservation that will hold all the records in the set. The caller previously obtained this size by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff540779">ClfsAlignReservedLog</a>.
 
 
 ## -returns
@@ -106,12 +95,11 @@ For an explanation of CLFS concepts and terminology, see <a href="https://msdn.m
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-clfsalignreservedlog.md">ClfsAlignReservedLog</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540779">ClfsAlignReservedLog</a>
  
 
  
-
 

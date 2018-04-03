@@ -38,7 +38,8 @@ api_location:
 -	pointofservicedriverinterface.h
 api_name:
 -	IOCTL_POINT_OF_SERVICE_MSR_AUTHENTICATE_DEVICE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PosPropertyId
 ---
@@ -59,7 +60,7 @@ This IO control function authenticates the magnetic stripe reader (MSR).
 
 ### -input-buffer
 
-Pointer to the input buffer, a <a href="..\pointofservicedriverinterface\ns-pointofservicedriverinterface-_msr_authenticate_device.md">MSR_AUTHENTICATE_DEVICE</a> variable.
+Pointer to the input buffer, a <a href="https://msdn.microsoft.com/library/windows/hardware/dn772178">MSR_AUTHENTICATE_DEVICE</a> variable.
 
 
 ### -input-buffer-length

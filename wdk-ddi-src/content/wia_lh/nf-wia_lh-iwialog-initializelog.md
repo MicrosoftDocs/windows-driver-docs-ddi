@@ -38,7 +38,8 @@ api_location:
 -	wia_lh.h
 api_name:
 -	IWiaLog.InitializeLog
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BMP_IMAGE_INFO, *PBMP_IMAGE_INFO
 req.product: Windows 10 or later.
@@ -53,16 +54,6 @@ req.product: Windows 10 or later.
 Note that the <b>IWiaLog</b> interface is <b>obsolete</b> for Microsoft Windows XP and later, and is no longer supported. Instead, use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540599">Diagnostic Log Macros</a>.
 
 The <b>IWiaLog::InitializeLog</b> method initializes the <b>lWiaLog</b> interface.
-
-
-## -syntax
-
-
-````
-HRESULT InitializeLog(
-  [in] LONG hInstance
-);
-````
 
 
 ## -parameters

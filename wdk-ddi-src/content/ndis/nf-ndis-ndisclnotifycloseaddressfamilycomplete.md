@@ -7,7 +7,7 @@ old-location: netvista\ndisclnotifycloseaddressfamilycomplete.htm
 old-project: netvista
 ms.assetid: 5d2bbf08-ea5c-4dad-8c30-9a655d25222a
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NdisClNotifyCloseAddressFamilyComplete, NdisClNotifyCloseAddressFamilyComplete function [Network Drivers Starting with Windows Vista], condis_client_ref_d084e99b-f911-4d23-b59e-ad1f51a2261a.xml, ndis/NdisClNotifyCloseAddressFamilyComplete, netvista.ndisclnotifycloseaddressfamilycomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	ndis.dll
 api_name:
 -	NdisClNotifyCloseAddressFamilyComplete
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
@@ -53,19 +54,8 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 The 
   <b>NdisClNotifyCloseAddressFamilyComplete</b> function returns the final status of an address family (AF)
   close operation for which the caller's 
-  <a href="..\ndis\nc-ndis-protocol_cl_notify_close_af.md">ProtocolClNotifyCloseAf</a> function
+  <a href="https://msdn.microsoft.com/0f595daa-9822-4ca6-8f25-e6f82030d4ea">ProtocolClNotifyCloseAf</a> function
   returned NDIS_STATUS_PENDING.
-
-
-## -syntax
-
-
-````
-VOID NdisClNotifyCloseAddressFamilyComplete(
-  _In_ NDIS_HANDLE NdisAfHandle,
-  _In_ NDIS_STATUS Status
-);
-````
 
 
 ## -parameters
@@ -76,7 +66,7 @@ VOID NdisClNotifyCloseAddressFamilyComplete(
 ### -param NdisAfHandle [in]
 
 An AF handle that NDIS supplied to the caller's 
-     <a href="..\ndis\nf-ndis-ndisclopenaddressfamilyex.md">
+     <a href="https://msdn.microsoft.com/54170917-60b4-4d8f-bf92-df7d7dc0faee">
      NdisClOpenAddressFamilyEx</a> function.
 
 
@@ -119,12 +109,12 @@ CoNDIS clients call the
     <b>NdisClNotifyCloseAddressFamilyComplete</b> function to complete a close AF notification. A client must
     call 
     <b>NdisClNotifyCloseAddressFamilyComplete</b> after its 
-    <a href="..\ndis\nc-ndis-protocol_cl_notify_close_af.md">
+    <a href="https://msdn.microsoft.com/0f595daa-9822-4ca6-8f25-e6f82030d4ea">
     ProtocolClNotifyCloseAf</a> function returns NDIS_STATUS_PENDING.
 
 After the client calls 
     <b>NdisClNotifyCloseAddressFamilyComplete</b>, NDIS calls the call manager's 
-    <a href="..\ndis\nc-ndis-protocol_cm_notify_close_af_complete.md">
+    <a href="https://msdn.microsoft.com/c5bdedee-dacd-4f4d-a3d1-f1cb71a68001">
     ProtocolCmNotifyCloseAfComplete</a> function to complete operation for the call manager.
 
 
@@ -132,21 +122,20 @@ After the client calls
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_cm_notify_close_af_complete.md">
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561639">NdisClOpenAddressFamilyEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/0f595daa-9822-4ca6-8f25-e6f82030d4ea">ProtocolClNotifyCloseAf</a>
+
+
+
+<a href="https://msdn.microsoft.com/c5bdedee-dacd-4f4d-a3d1-f1cb71a68001">
    ProtocolCmNotifyCloseAfComplete</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_cl_notify_close_af.md">ProtocolClNotifyCloseAf</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisclopenaddressfamilyex.md">NdisClOpenAddressFamilyEx</a>
-
-
-
  
 
  
-
 

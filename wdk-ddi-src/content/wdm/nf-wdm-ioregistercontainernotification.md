@@ -7,7 +7,7 @@ old-location: kernel\ioregistercontainernotification.htm
 old-project: kernel
 ms.assetid: 5cfef8cc-b6b8-4b97-b8da-bf579e26f64d
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: IoRegisterContainerNotification, IoRegisterContainerNotification routine [Kernel-Mode Driver Architecture], k104_f99c2826-04ed-4aa6-9f19-6f97953eda31.xml, kernel.ioregistercontainernotification, wdm/IoRegisterContainerNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	IoRegisterContainerNotification
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
@@ -53,20 +54,6 @@ req.product: Windows 10 or later.
 The <b>IoRegisterContainerNotification</b> routine registers a kernel-mode driver to receive notifications about a specified class of events. 
 
 
-## -syntax
-
-
-````
-NTSTATUS IoRegisterContainerNotification(
-  _In_     IO_CONTAINER_NOTIFICATION_CLASS     NotificationClass,
-  _In_     PIO_CONTAINER_NOTIFICATION_FUNCTION CallbackFunction,
-  _In_opt_ PVOID                               NotificationInformation,
-  _In_     ULONG                               NotificationInformationLength,
-  _Out_    PVOID                               CallbackRegistration
-);
-````
-
-
 ## -parameters
 
 
@@ -74,7 +61,7 @@ NTSTATUS IoRegisterContainerNotification(
 
 ### -param NotificationClass [in]
 
-Specifies the class of events for which the caller (driver) requests notifications. Set this parameter to the following <a href="..\wdm\ne-wdm-_io_container_notification_class.md">IO_CONTAINER_NOTIFICATION_CLASS</a> enumeration value:
+Specifies the class of events for which the caller (driver) requests notifications. Set this parameter to the following <a href="https://msdn.microsoft.com/library/windows/hardware/ff550554">IO_CONTAINER_NOTIFICATION_CLASS</a> enumeration value:
 
 <ul>
 <li>
@@ -87,12 +74,12 @@ For more information, see the following Remarks section.
 
 ### -param CallbackFunction [in]
 
-A pointer to a callback function that is implemented by the caller (driver). The I/O manager calls this function to notify the caller when an event of the class indicated by <i>NotificationClass</i> occurs. For <i>NotificationClass</i> = <b>IoSessionStateNotification</b>, this parameter is a pointer to a caller-supplied <a href="..\wdm\nc-wdm-io_session_notification_function.md">IO_SESSION_NOTIFICATION_FUNCTION</a> function. However, the caller should cast this function pointer to type PIO_CONTAINER_NOTIFICATION_FUNCTION to match the parameter type. For more information, see the following Remarks section.
+A pointer to a callback function that is implemented by the caller (driver). The I/O manager calls this function to notify the caller when an event of the class indicated by <i>NotificationClass</i> occurs. For <i>NotificationClass</i> = <b>IoSessionStateNotification</b>, this parameter is a pointer to a caller-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff550626">IO_SESSION_NOTIFICATION_FUNCTION</a> function. However, the caller should cast this function pointer to type PIO_CONTAINER_NOTIFICATION_FUNCTION to match the parameter type. For more information, see the following Remarks section.
 
 
 ### -param NotificationInformation [in, optional]
 
-A pointer to a caller-allocated buffer that contains the notification information structure for an event of the class specified by <i>NotificationClass</i>. For <i>NotificationClass</i> = <b>IoSessionStateNotification</b>, <i>NotificationInformation</i> points to an <a href="..\wdm\ns-wdm-_io_session_state_notification.md">IO_SESSION_STATE_NOTIFICATION</a> structure. The caller must fill out this structure before it calls <b>IoRegisterContainerNotification</b>. During this call, <b>IoRegisterContainerNotification</b> copies the data from this structure, and the I/O manager does not access the driver's copy of the structure after the call returns.
+A pointer to a caller-allocated buffer that contains the notification information structure for an event of the class specified by <i>NotificationClass</i>. For <i>NotificationClass</i> = <b>IoSessionStateNotification</b>, <i>NotificationInformation</i> points to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550643">IO_SESSION_STATE_NOTIFICATION</a> structure. The caller must fill out this structure before it calls <b>IoRegisterContainerNotification</b>. During this call, <b>IoRegisterContainerNotification</b> copies the data from this structure, and the I/O manager does not access the driver's copy of the structure after the call returns.
 
 
 ### -param NotificationInformationLength [in]
@@ -102,7 +89,7 @@ The size, in bytes, of the notification information structure contained in the b
 
 ### -param CallbackRegistration [out]
 
-A pointer to a location into which this routine writes the address of a container notification registration object. This object is an opaque, system object in which the I/O manager stores information about the caller's container notification registration. When notifications are no longer required, the caller cancels the registration by passing this object pointer to the <a href="..\wdm\nf-wdm-iounregistercontainernotification.md">IoUnregisterContainerNotification</a> routine.
+A pointer to a location into which this routine writes the address of a container notification registration object. This object is an opaque, system object in which the I/O manager stores information about the caller's container notification registration. When notifications are no longer required, the caller cancels the registration by passing this object pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550396">IoUnregisterContainerNotification</a> routine.
 
 
 ## -returns
@@ -197,35 +184,34 @@ The function pointer type for the <i>CallbackFunction</i> parameter is defined a
 </td>
 </tr>
 </table></span></div>
-The caller should cast the callback function pointer to this type to match the <i>CallbackFunction</i> parameter type. <b>IoRegisterContainerNotification</b> determines the actual type of the callback function pointer from the <i>NotificationClass</i> parameter. For <i>NotificationClass</i> = <b>IoSessionStateNotification</b>, <i>CallbackFunction</i> points to an <a href="..\wdm\nc-wdm-io_session_notification_function.md">IO_SESSION_NOTIFICATION_FUNCTION</a> function.
+The caller should cast the callback function pointer to this type to match the <i>CallbackFunction</i> parameter type. <b>IoRegisterContainerNotification</b> determines the actual type of the callback function pointer from the <i>NotificationClass</i> parameter. For <i>NotificationClass</i> = <b>IoSessionStateNotification</b>, <i>CallbackFunction</i> points to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550626">IO_SESSION_NOTIFICATION_FUNCTION</a> function.
 
 
 
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_io_session_state_notification.md">IO_SESSION_STATE_NOTIFICATION</a>
 
 
 
-<a href="..\wdm\ne-wdm-_io_container_notification_class.md">IO_CONTAINER_NOTIFICATION_CLASS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550554">IO_CONTAINER_NOTIFICATION_CLASS</a>
 
 
 
-<a href="..\wdm\nf-wdm-iounregistercontainernotification.md">IoUnregisterContainerNotification</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550626">IO_SESSION_NOTIFICATION_FUNCTION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550643">IO_SESSION_STATE_NOTIFICATION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550396">IoUnregisterContainerNotification</a>
 
 
 
 <a href="http://go.microsoft.com/fwlink/p/?linkid=155043">WTSRegisterSessionNotification</a>
-
-
-
-<a href="..\wdm\nc-wdm-io_session_notification_function.md">IO_SESSION_NOTIFICATION_FUNCTION</a>
-
-
-
  
 
  
-
 

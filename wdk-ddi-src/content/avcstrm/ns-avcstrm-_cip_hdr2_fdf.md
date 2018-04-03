@@ -38,7 +38,8 @@ api_location:
 -	avcstrm.h
 api_name:
 -	CIP_HDR2_FDF
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CIP_HDR2_FDF, *PCIP_HDR2_FDF
 ---
@@ -50,18 +51,6 @@ req.typenames: CIP_HDR2_FDF, *PCIP_HDR2_FDF
 
 
 The CIP_HDR2_FDF structure describes the second quadlet of a CIP header pair.
-
-
-## -syntax
-
-
-````
-typedef struct _CIP_HDR2_FDF {
-  ULONG FDF  :24;
-  ULONG FMT  :6;
-  ULONG Bit10  :2;
-} CIP_HDR2_FDF, *PCIP_HDR2_FDF;
-````
 
 
 ## -struct-fields
@@ -86,12 +75,11 @@ Must be set to 1:0
 
 ## -see-also
 
-<a href="..\avcstrm\ns-avcstrm-_cip_hdr1.md">CIP_HDR1</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557668">CIP_HDR1</a>
  
 
  
-
 

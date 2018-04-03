@@ -38,7 +38,8 @@ api_location:
 -	Wdfio.h
 api_name:
 -	EvtIoAllocateResourcesForReservedRequest
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_INTERRUPT_INFO, *PWDF_INTERRUPT_INFO
 req.product: Windows 10 or later.
@@ -53,20 +54,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF only]
 
 A driver's <i>EvtIoAllocateResourcesForReservedRequest</i> callback function allocates request-specific resources that the driver can use to process an I/O request in the future. The framework is pre-allocating the specified request object for future use in low-memory situations.
-
-
-## -prototype
-
-
-````
-EVT_WDF_IO_ALLOCATE_RESOURCES_FOR_RESERVED_REQUEST EvtIoAllocateResourcesForReservedRequest;
-
-NTSTATUS EvtIoAllocateResourcesForReservedRequest(
-  _In_ WDFQUEUE   Queue,
-  _In_ WDFREQUEST Request
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -97,27 +84,27 @@ The <i>EvtIoAllocateResourcesForReservedRequest</i> callback function must retur
 
 
 
-A driver can register an <i>EvtIoAllocateResourcesForReservedRequest</i> callback function when it calls <a href="..\wdfio\nf-wdfio-wdfioqueueassignforwardprogresspolicy.md">WdfIoQueueAssignForwardProgressPolicy</a>.
+A driver can register an <i>EvtIoAllocateResourcesForReservedRequest</i> callback function when it calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff547395">WdfIoQueueAssignForwardProgressPolicy</a>.
 
 If your driver registers an <i>EvtIoAllocateResourcesForReservedRequest</i> callback function, the framework calls the function immediately after it creates a request object that it reserves for low-memory situations. 
 
 The callback function can allocate resources that your driver will require to process a request later, if the framework uses the reserved request because of a low-memory situation.
 
-To allocate memory for request-specific resources, an <i>EvtIoAllocateResourcesForReservedRequest</i> callback function might call <a href="..\wdfobject\nf-wdfobject-wdfobjectallocatecontext.md">WdfObjectAllocateContext</a>, specifying the request object handle that the <i>Request</i> parameter specifies. 
+To allocate memory for request-specific resources, an <i>EvtIoAllocateResourcesForReservedRequest</i> callback function might call <a href="https://msdn.microsoft.com/library/windows/hardware/ff548723">WdfObjectAllocateContext</a>, specifying the request object handle that the <i>Request</i> parameter specifies. 
 
-Alternatively or additionally, your driver might call <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetrequestattributes.md">WdfDeviceInitSetRequestAttributes</a> before calling <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>. As a result, the framework will allocate context space for each reserved request object when it creates the object. 
+Alternatively or additionally, your driver might call <a href="https://msdn.microsoft.com/library/windows/hardware/ff546786">WdfDeviceInitSetRequestAttributes</a> before calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff545926">WdfDeviceCreate</a>. As a result, the framework will allocate context space for each reserved request object when it creates the object. 
 
 If your driver allocates object context space for reserved request objects, the driver must reinitialize the context space when it completes an I/O request that uses a reserved request object. The framework does not reinitialize the context space of reserved request objects after use.
 
-If your driver calls <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetrequestattributes.md">WdfDeviceInitSetRequestAttributes</a> and specifies an <a href="..\wdfobject\nc-wdfobject-evt_wdf_object_context_cleanup.md">EvtCleanupCallback</a> or <a href="..\wdfobject\nc-wdfobject-evt_wdf_object_context_destroy.md">EvtDestroyCallback</a> callback function for its request objects, the framework calls these callback functions for its reserved request objects only when it deletes the associated I/O queues.
+If your driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff546786">WdfDeviceInitSetRequestAttributes</a> and specifies an <a href="https://msdn.microsoft.com/aba2efca-7d1f-4594-af65-13356f0e3f8b">EvtCleanupCallback</a> or <a href="https://msdn.microsoft.com/4c3b08d2-bb25-40bd-b2fc-1b9ea2d452b3">EvtDestroyCallback</a> callback function for its request objects, the framework calls these callback functions for its reserved request objects only when it deletes the associated I/O queues.
 
-The driver's <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/request-handlers">request handlers</a> can call <a href="..\wdfrequest\nf-wdfrequest-wdfrequestisreserved.md">WdfRequestIsReserved</a> to determine if reserved request objects are being used.
+The driver's <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/request-handlers">request handlers</a> can call <a href="https://msdn.microsoft.com/library/windows/hardware/ff549980">WdfRequestIsReserved</a> to determine if reserved request objects are being used.
 
 For more information about how to use object context space, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/framework-object-context-space">Framework Object Context Space</a>.
 
 If the callback function successfully allocates resources, it should return STATUS_SUCCESS.
 
-If a resource allocation error occurs, such as a low memory situation, the callback function must return an error status value. In this case, the framework stops allocating reserved request objects and uses the callback function's return value as the return value for <a href="..\wdfio\nf-wdfio-wdfioqueueassignforwardprogresspolicy.md">WdfIoQueueAssignForwardProgressPolicy</a>.
+If a resource allocation error occurs, such as a low memory situation, the callback function must return an error status value. In this case, the framework stops allocating reserved request objects and uses the callback function's return value as the return value for <a href="https://msdn.microsoft.com/library/windows/hardware/ff547395">WdfIoQueueAssignForwardProgressPolicy</a>.
 
 For more information about the <i>EvtIoAllocateResourcesForReservedRequest</i> callback function, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/guaranteeing-forward-progress-of-i-o-operations">Guaranteeing Forward Progress of I/O Operations</a>.
 
@@ -163,20 +150,19 @@ The <b>EVT_WDF_IO_ALLOCATE_RESOURCES_FOR_RESERVED_REQUEST</b> function type is d
 
 ## -see-also
 
-<a href="..\wdfio\nc-wdfio-evt_wdf_io_allocate_request_resources.md">EvtIoAllocateRequestResources</a>
 
 
 
-<a href="..\wdfio\nf-wdfio-wdfioqueueassignforwardprogresspolicy.md">WdfIoQueueAssignForwardProgressPolicy</a>
+<a href="https://msdn.microsoft.com/6a60c563-582a-4919-bf0f-919deb3055d3">EvtIoAllocateRequestResources</a>
 
 
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestisreserved.md">WdfRequestIsReserved</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547395">WdfIoQueueAssignForwardProgressPolicy</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549980">WdfRequestIsReserved</a>
  
 
  
-
 

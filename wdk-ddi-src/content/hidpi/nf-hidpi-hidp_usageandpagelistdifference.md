@@ -38,7 +38,8 @@ api_location:
 -	hidpi.h
 api_name:
 -	HidP_UsageAndPageListDifference
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: HIDP_REPORT_TYPE
 ---
@@ -50,16 +51,6 @@ req.typenames: HIDP_REPORT_TYPE
 
 
 The <b>HidP_UsageAndPageListDifference</b> routine is not implemented.
-
-
-## -syntax
-
-
-````
- HidP_UsageAndPageListDifference(
-    
-);
-````
 
 
 ## -parameters

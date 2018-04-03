@@ -7,7 +7,7 @@ old-location: kernel\key_value_basic_information.htm
 old-project: kernel
 ms.assetid: b3b14c21-3613-4f84-9e7d-368c4cc3fa9d
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*PKEY_VALUE_BASIC_INFORMATION, KEY_VALUE_BASIC_INFORMATION, KEY_VALUE_BASIC_INFORMATION structure [Kernel-Mode Driver Architecture], PKEY_VALUE_BASIC_INFORMATION, PKEY_VALUE_BASIC_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _KEY_VALUE_BASIC_INFORMATION, kernel.key_value_basic_information, kstruct_c_ba44285c-18a4-4a35-a31b-c2a6573d7023.xml, wdm/KEY_VALUE_BASIC_INFORMATION, wdm/PKEY_VALUE_BASIC_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	KEY_VALUE_BASIC_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KEY_VALUE_BASIC_INFORMATION, *PKEY_VALUE_BASIC_INFORMATION
 req.product: Windows 10 or later.
@@ -51,19 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>KEY_VALUE_BASIC_INFORMATION</b> structure defines a subset of the full information available for a value entry of a registry key. 
-
-
-## -syntax
-
-
-````
-typedef struct _KEY_VALUE_BASIC_INFORMATION {
-  ULONG TitleIndex;
-  ULONG Type;
-  ULONG NameLength;
-  WCHAR Name[1];
-} KEY_VALUE_BASIC_INFORMATION, *PKEY_VALUE_BASIC_INFORMATION;
-````
 
 
 ## -struct-fields
@@ -223,35 +211,34 @@ A string of Unicode characters naming a value entry of the key.
 
 
 
-A kernel-mode driver can obtain a <b>KEY_VALUE_BASIC_INFORMATION</b> that describes a registry key by calling the <a href="..\wdm\nf-wdm-zwqueryvaluekey.md">ZwQueryValueKey</a> or <a href="..\wdm\nf-wdm-zwenumeratevaluekey.md">ZwEnumerateValueKey</a> routine.
+A kernel-mode driver can obtain a <b>KEY_VALUE_BASIC_INFORMATION</b> that describes a registry key by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567069">ZwQueryValueKey</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff566453">ZwEnumerateValueKey</a> routine.
 
 
 
 
 ## -see-also
 
-<a href="..\wdm\ne-wdm-_key_value_information_class.md">KEY_VALUE_INFORMATION_CLASS</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwqueryvaluekey.md">ZwQueryValueKey</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554217">KEY_VALUE_FULL_INFORMATION</a>
 
 
 
-<a href="..\wdm\ns-wdm-_key_value_full_information.md">KEY_VALUE_FULL_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554218">KEY_VALUE_INFORMATION_CLASS</a>
 
 
 
-<a href="..\wdm\ns-wdm-_key_value_partial_information.md">KEY_VALUE_PARTIAL_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554220">KEY_VALUE_PARTIAL_INFORMATION</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwenumeratevaluekey.md">ZwEnumerateValueKey</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566453">ZwEnumerateValueKey</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567069">ZwQueryValueKey</a>
  
 
  
-
 

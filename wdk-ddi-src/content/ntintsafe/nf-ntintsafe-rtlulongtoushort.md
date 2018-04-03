@@ -7,7 +7,7 @@ old-location: kernel\rtlulongtoushort.htm
 old-project: kernel
 ms.assetid: 6D03736F-E972-4A76-935A-BB8682DC38B8
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: RtlULongToUShort, RtlULongToUShort function [Kernel-Mode Driver Architecture], kernel.rtlulongtoushort, ntintsafe/RtlULongToUShort
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ntintsafe.h
 api_name:
 -	RtlULongToUShort
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 ---
@@ -50,17 +51,6 @@ req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 
 
 Converts a value of type <b>ULONG</b> to a value of type <b>USHORT</b>.
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlULongToUShort(
-  _In_  ULONG  ulOperand,
-  _Out_ USHORT *pusResult
-);
-````
 
 
 ## -parameters

@@ -41,7 +41,8 @@ api_location:
 -	WUDFx02000.dll.dll
 api_name:
 -	WdfObjectDelete
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_SYNCHRONIZATION_SCOPE
 req.product: Windows 10 or later.
@@ -56,16 +57,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WdfObjectDelete</b> method deletes a framework object and its child objects.
-
-
-## -syntax
-
-
-````
-VOID WdfObjectDelete(
-  _In_ WDFOBJECT Object
-);
-````
 
 
 ## -parameters
@@ -103,7 +94,7 @@ Framework child-list objects (WDFCHILDLIST)
 
 </li>
 <li>
-Framework device objects  (WDFDEVICE), unless the driver has called <a href="..\wdfcontrol\nf-wdfcontrol-wdfcontroldeviceinitallocate.md">WdfControlDeviceInitAllocate</a> and created a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-control-device-objects">control device object</a>, which the driver must sometimes delete
+Framework device objects  (WDFDEVICE), unless the driver has called <a href="https://msdn.microsoft.com/library/windows/hardware/ff545841">WdfControlDeviceInitAllocate</a> and created a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-control-device-objects">control device object</a>, which the driver must sometimes delete
 
 </li>
 <li>
@@ -119,7 +110,7 @@ Framework interrupt objects (WDFINTERRUPT)
 
 </li>
 <li>
-Framework queue objects (WDFQUEUE), if an object represents a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/creating-i-o-queues">default I/O queue</a> or if the driver has called <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceconfigurerequestdispatching.md">WdfDeviceConfigureRequestDispatching</a> to set up the queue to receive all I/O requests of a particular type
+Framework queue objects (WDFQUEUE), if an object represents a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/creating-i-o-queues">default I/O queue</a> or if the driver has called <a href="https://msdn.microsoft.com/library/windows/hardware/ff545920">WdfDeviceConfigureRequestDispatching</a> to set up the queue to receive all I/O requests of a particular type
 
 </li>
 <li>
@@ -178,16 +169,15 @@ The following code example deletes a framework object and its child objects.
 
 ## -see-also
 
-<a href="..\wdfobject\nf-wdfobject-wdfobjectcreate.md">WdfObjectCreate</a>
 
 
 
-<a href="..\wdfcontrol\nf-wdfcontrol-wdfcontroldeviceinitallocate.md">WdfControlDeviceInitAllocate</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545841">WdfControlDeviceInitAllocate</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548730">WdfObjectCreate</a>
  
 
  
-
 

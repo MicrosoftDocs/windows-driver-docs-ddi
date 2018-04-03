@@ -38,7 +38,8 @@ api_location:
 -	usbscan.h
 api_name:
 -	USBSCAN_PIPE_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USBSCAN_PIPE_INFORMATION, *PUSBSCAN_PIPE_INFORMATION
 req.product: Windows 10 or later.
@@ -50,20 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The USBSCAN_PIPE_INFORMATION structure is used to describe a USB transfer pipe for a still image device. An array of USBSCAN_PIPE_INFORMATION structures is supplied within a <a href="..\usbscan\ns-usbscan-_usbscan_pipe_configuration.md">USBSCAN_PIPE_CONFIGURATION</a> structure.
-
-
-## -syntax
-
-
-````
-typedef struct _USBSCAN_PIPE_INFORMATION {
-  USHORT        MaximumPacketSize;
-  UCHAR         EndpointAddress;
-  UCHAR         Interval;
-  RAW_PIPE_TYPE PipeType;
-} USBSCAN_PIPE_INFORMATION, *PUSBSCAN_PIPE_INFORMATION;
-````
+The USBSCAN_PIPE_INFORMATION structure is used to describe a USB transfer pipe for a still image device. An array of USBSCAN_PIPE_INFORMATION structures is supplied within a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548541">USBSCAN_PIPE_CONFIGURATION</a> structure.
 
 
 ## -struct-fields
@@ -132,21 +120,20 @@ Polling interval, in milliseconds, for interrupt pipes. For more information, se
 
 ### -field PipeType
 
-A <a href="..\usbscan\ne-usbscan-_raw_pipe_type.md">RAW_PIPE_TYPE</a>-typed value identifying the pipe type.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff547001">RAW_PIPE_TYPE</a>-typed value identifying the pipe type.
 
 
 ## -see-also
 
-<a href="..\usbscan\ns-usbscan-_usbscan_pipe_configuration.md">USBSCAN_PIPE_CONFIGURATION</a>
 
 
 
-<a href="..\usbscan\ne-usbscan-_raw_pipe_type.md">RAW_PIPE_TYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547001">RAW_PIPE_TYPE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548541">USBSCAN_PIPE_CONFIGURATION</a>
  
 
  
-
 

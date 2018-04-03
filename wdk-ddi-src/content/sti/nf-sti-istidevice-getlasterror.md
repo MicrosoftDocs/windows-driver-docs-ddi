@@ -38,7 +38,8 @@ api_location:
 -	sti.h
 api_name:
 -	IStiDevice.GetLastError
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STI_DEVICE_MJ_TYPE, STI_DEVICE_MJ_TYPE
 req.product: Windows 10 or later.
@@ -51,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>IStiDevice::GetLastError</b> method returns the last known error associated with a still image device.
-
-
-## -syntax
-
-
-````
-HRESULT GetLastError(
-  [out] LPDWORD pdwLastDeviceError
-);
-````
 
 
 ## -parameters

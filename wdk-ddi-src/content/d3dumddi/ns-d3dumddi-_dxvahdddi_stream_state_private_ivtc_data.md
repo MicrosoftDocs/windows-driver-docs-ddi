@@ -7,7 +7,7 @@ old-location: display\dxvahdddi_stream_state_private_ivtc_data.htm
 old-project: display
 ms.assetid: d882a13e-cc07-4e82-857e-499bc397517e
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXVA2_Structs_f5928683-1553-42e0-a36e-86ff64301b45.xml, DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC_DATA, DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC_DATA structure [Display Devices], _DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC_DATA, d3dumddi/DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC_DATA, display.dxvahdddi_stream_state_private_ivtc_data
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC_DATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC_DATA
 ---
@@ -50,19 +51,6 @@ req.typenames: DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC_DATA
 
 
 The DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC_DATA structure describes private stream-state data that is used to query the inverse telecine statistics from the driver. 
-
-
-## -syntax
-
-
-````
-typedef struct _DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC_DATA {
-  BOOL Enable;
-  UINT ITelecineFlags;
-  UINT Frames;
-  UINT InputField;
-} DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC_DATA;
-````
 
 
 ## -struct-fields
@@ -195,14 +183,14 @@ The driver can perform reverse non-standard telecine.
 
 ### -field InputField
 
-[out] The last field number of the input stream that was processed (so far). The driver updates this member after the driver has processed the input field that is specified in the <b>InputFrameOrField</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_data.md">DXVAHDDDI_STREAM_DATA</a> structure. 
+[out] The last field number of the input stream that was processed (so far). The driver updates this member after the driver has processed the input field that is specified in the <b>InputFrameOrField</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563066">DXVAHDDDI_STREAM_DATA</a> structure. 
 
 
 ## -remarks
 
 
 
-The DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC GUID is set in the <b>Guid</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_state_private_data.md">DXVAHDDDI_STREAM_STATE_PRIVATE_DATA</a> structure when the driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_dxvahd_getvideoprocessstreamstateprivate.md">GetVideoProcessStreamStatePrivate</a> function is called to query the inverse telecine statistics from the driver.
+The DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC GUID is set in the <b>Guid</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563098">DXVAHDDDI_STREAM_STATE_PRIVATE_DATA</a> structure when the driver's <a href="https://msdn.microsoft.com/0503b382-8ed3-461e-906f-27953ac5f757">GetVideoProcessStreamStatePrivate</a> function is called to query the inverse telecine statistics from the driver.
 
 When an application de-interlaces an interlaced stream, the driver might inverse the telecined frames. If the driver supports inverse telecine statistics, the application can query the statistics data.
 
@@ -233,12 +221,11 @@ The application continues to query the statistics to determine if the frames are
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_data.md">DXVAHDDDI_STREAM_DATA</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563066">DXVAHDDDI_STREAM_DATA</a>
  
 
  
-
 

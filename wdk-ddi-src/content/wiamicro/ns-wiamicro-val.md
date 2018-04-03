@@ -38,7 +38,8 @@ api_location:
 -	wiamicro.h
 api_name:
 -	VAL
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VAL, *PVAL
 req.product: Windows 10 or later.
@@ -51,24 +52,6 @@ req.product: Windows 10 or later.
 
 
 The VAL structure is used by the microdriver and WIA Flatbed driver to pass information between each other.
-
-
-## -syntax
-
-
-````
-typedef struct VAL {
-  LONG      lVal;
-  double    dblVal;
-  GUID      *pGuid;
-  PSCANINFO pScanInfo;
-  HGLOBAL   handle;
-  WCHAR     **ppButtonNames;
-  HANDLE    *pHandle;
-  LONG      lReserved;
-  CHAR      szVal[MAX_ANSI_CHAR];
-} VAL, *PVAL;
-````
 
 
 ## -struct-fields
@@ -93,7 +76,7 @@ Points to the GUID of the pressed button. If no button was pressed, this member 
 
 ### -field pScanInfo
 
-Points to a <a href="..\wiamicro\ns-wiamicro-_scaninfo.md">SCANINFO</a> structure.
+Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547361">SCANINFO</a> structure.
 
 
 ### -field handle

@@ -7,7 +7,7 @@ old-location: ifsk\fsrtlinitializeextracreateparameter.htm
 old-project: ifsk
 ms.assetid: e3be12e4-84f3-4bd5-af9a-26ad89948e50
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FsRtlInitializeExtraCreateParameter, FsRtlInitializeExtraCreateParameter routine [Installable File System Drivers], fsrtlref_266d4d18-e024-42e8-8ca1-fa8b6fabef9b.xml, ifsk.fsrtlinitializeextracreateparameter, ntifs/FsRtlInitializeExtraCreateParameter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	FsRtlInitializeExtraCreateParameter
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -50,21 +51,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>FsRtlInitializeExtraCreateParameter</b> routine initializes an extra create parameter (ECP) context structure. 
-
-
-## -syntax
-
-
-````
-VOID FsRtlInitializeExtraCreateParameter(
-  _In_     PECP_HEADER                                    Ecp,
-  _In_     ULONG                                          EcpFlags,
-  _In_opt_ PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBACK CleanupCallback,
-  _In_     ULONG                                          TotalSize,
-  _In_     LPCGUID                                        EcpType,
-  _In_opt_ PVOID                                          ListAllocatedFrom
-);
-````
 
 
 ## -parameters
@@ -84,7 +70,7 @@ Defines initialization options. Currently, no flags are defined.
 
 ### -param CleanupCallback [in, optional]
 
-Optional pointer to a filter-defined cleanup callback routine of type <a href="..\ntifs\nc-ntifs-pfsrtl_extra_create_parameter_cleanup_callback.md">PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBACK</a>. The cleanup callback routine is called when the ECP context structure (created by the <a href="..\ntifs\nf-ntifs-fsrtlallocateextracreateparameter.md">FsRtlAllocateExtraCreateParameter</a> routine) is deleted. Set this parameter to <b>NULL</b> if a cleanup callback routine is not applicable. 
+Optional pointer to a filter-defined cleanup callback routine of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff551124">PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBACK</a>. The cleanup callback routine is called when the ECP context structure (created by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff545609">FsRtlAllocateExtraCreateParameter</a> routine) is deleted. Set this parameter to <b>NULL</b> if a cleanup callback routine is not applicable. 
 
 
 ### -param TotalSize [in]
@@ -113,16 +99,15 @@ None
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-fsrtlallocateextracreateparameter.md">FsRtlAllocateExtraCreateParameter</a>
 
 
 
-<a href="..\ntifs\nc-ntifs-pfsrtl_extra_create_parameter_cleanup_callback.md">PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBACK</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545609">FsRtlAllocateExtraCreateParameter</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551124">PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBACK</a>
  
 
  
-
 

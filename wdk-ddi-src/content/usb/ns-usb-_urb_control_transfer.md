@@ -7,7 +7,7 @@ old-location: buses\_urb_control_transfer.htm
 old-project: usbref
 ms.assetid: ee557112-ada3-4906-a8f3-e59b59ab2bc1
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: USBD_DEFAULT_PIPE_TRANSFER, USBD_SHORT_TRANSFER_OK, USBD_TRANSFER_DIRECTION_IN, USBD_TRANSFER_DIRECTION_OUT, _URB_CONTROL_TRANSFER, _URB_CONTROL_TRANSFER structure [Buses], buses._urb_control_transfer, usb/_URB_CONTROL_TRANSFER, usbstrct_65d66cb6-2ce4-4eb2-ac3a-1cf68d3ad1b2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	usb.h
 api_name:
 -	_URB_CONTROL_TRANSFER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 req.product: Windows 10 or later.
@@ -53,24 +54,6 @@ req.product: Windows 10 or later.
 The <b>_URB_CONTROL_TRANSFER</b> structure is used by USB client drivers to transfer data to or from a control pipe.
 
 
-## -syntax
-
-
-````
-struct _URB_CONTROL_TRANSFER {
-  struct URB_HEADER  Hdr;
-  USBD_PIPE_HANDLE    PipeHandle;
-  ULONG               TransferFlags;
-  ULONG               TransferBufferLength;
-  PVOID               TransferBuffer;
-  PMDL                TransferBufferMDL;
-  struct URB  *UrbLink;
-  struct URB_HCD_AREA  hca;
-  UCHAR               SetupPacket[8];
-};
-````
-
-
 ## -struct-fields
 
 
@@ -78,7 +61,7 @@ struct _URB_CONTROL_TRANSFER {
 
 ### -field Hdr
 
-Pointer to a <a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a> structure that specifies the URB header information. <b>Hdr.Function</b> must be URB_FUNCTION_CONTROL_TRANSFER, and <b>Hdr.Length</b> must be <code>sizeof(_URB_CONTROL_TRANSFER)</code>.
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540409">_URB_HEADER</a> structure that specifies the URB header information. <b>Hdr.Function</b> must be URB_FUNCTION_CONTROL_TRANSFER, and <b>Hdr.Length</b> must be <code>sizeof(_URB_CONTROL_TRANSFER)</code>.
 
 
 ### -field PipeHandle
@@ -128,7 +111,7 @@ Is set to transfer data to a device. Setting this flag is equivalent to clearing
 </dl>
 </td>
 <td width="60%">
-Is set to direct the host controller not to return an error when it receives a packet from the device that is shorter than the maximum packet size for the endpoint. The maximum packet size for the endpoint is reported in the <b>bMaxPacketSize0</b> member  of the <a href="..\usbspec\ns-usbspec-_usb_device_descriptor.md">USB_DEVICE_DESCRIPTOR</a> structure (device descriptor) for the default control endpoint. For a non-default control endpoint,  maximum packet size  is set in the <b>wMaxPacketSize</b> member of the <a href="..\usbspec\ns-usbspec-_usb_endpoint_descriptor.md">USB_ENDPOINT_DESCRIPTOR</a> structure (endpoint descriptor).
+Is set to direct the host controller not to return an error when it receives a packet from the device that is shorter than the maximum packet size for the endpoint. The maximum packet size for the endpoint is reported in the <b>bMaxPacketSize0</b> member  of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539280">USB_DEVICE_DESCRIPTOR</a> structure (device descriptor) for the default control endpoint. For a non-default control endpoint,  maximum packet size  is set in the <b>wMaxPacketSize</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539317">USB_ENDPOINT_DESCRIPTOR</a> structure (endpoint descriptor).
 
 When the host controller receives a packet whose length is shorter than the <b>wMaxPacketSize</b> value on a control endpoint, the behavior is as follows depending on the type of host controller:<ul>
 <li>On EHCI host controllers, the host controller proceeds immediately to the status phase of the control transfer.  The transfer completes successfully, regardless of whether USBD_SHORT_TRANSFER_OK is set.
@@ -189,7 +172,7 @@ Specifies a USB-defined request setup packet. The format of a USB request setup 
 
 
 
-The <a href="..\usb\ns-usb-_urb_control_transfer_ex.md">URB_CONTROL_TRANSFER_EX</a> structure is identical to <b>URB_CONTROL_TRANSFER</b>, except that it provides a timeout value in the <b>Timeout</b> field.
+The <a href="https://msdn.microsoft.com/b77febb8-6428-4633-85a0-2f8c0409194d">URB_CONTROL_TRANSFER_EX</a> structure is identical to <b>URB_CONTROL_TRANSFER</b>, except that it provides a timeout value in the <b>Timeout</b> field.
 
 The reserved members of this structure must be treated as opaque and are reserved for system use.
 
@@ -198,11 +181,14 @@ The reserved members of this structure must be treated as opaque and are reserve
 
 ## -see-also
 
-<a href="..\usb\ns-usb-_urb.md">URB</a>
 
 
 
-<a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538923">URB</a>
+
+
+
+<a href="https://msdn.microsoft.com/b77febb8-6428-4633-85a0-2f8c0409194d">URB_CONTROL_TRANSFER_EX</a>
 
 
 
@@ -210,12 +196,8 @@ The reserved members of this structure must be treated as opaque and are reserve
 
 
 
-<a href="..\usb\ns-usb-_urb_control_transfer_ex.md">URB_CONTROL_TRANSFER_EX</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540409">_URB_HEADER</a>
  
 
  
-
 

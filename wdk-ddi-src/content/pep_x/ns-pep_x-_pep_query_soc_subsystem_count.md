@@ -7,7 +7,7 @@ old-location: kernel\pep_query_soc_subsystem_count.htm
 old-project: kernel
 ms.assetid: 1DB17B90-41B7-4DA2-AFB6-3A4B218068F6
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*PPEP_QUERY_SOC_SUBSYSTEM_COUNT, PEP_QUERY_SOC_SUBSYSTEM_COUNT, PEP_QUERY_SOC_SUBSYSTEM_COUNT structure [Kernel-Mode Driver Architecture], PPEP_QUERY_SOC_SUBSYSTEM_COUNT, PPEP_QUERY_SOC_SUBSYSTEM_COUNT structure pointer [Kernel-Mode Driver Architecture], _PEP_QUERY_SOC_SUBSYSTEM_COUNT, kernel.pep_query_soc_subsystem_count, pepfx/PEP_QUERY_SOC_SUBSYSTEM_COUNT, pepfx/PPEP_QUERY_SOC_SUBSYSTEM_COUNT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	pepfx.h
 api_name:
 -	PEP_QUERY_SOC_SUBSYSTEM_COUNT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PEP_QUERY_SOC_SUBSYSTEM_COUNT, *PPEP_QUERY_SOC_SUBSYSTEM_COUNT, PEP_QUERY_SOC_SUBSYSTEM_COUNT, *PPEP_QUERY_SOC_SUBSYSTEM_COUNT
 ---
@@ -50,18 +51,6 @@ req.typenames: PEP_QUERY_SOC_SUBSYSTEM_COUNT, *PPEP_QUERY_SOC_SUBSYSTEM_COUNT, P
 
 
 The <b>PEP_QUERY_SOC_SUBSYSTEM_COUNT</b> structure is used to tell the OS whether the PEP supports system on a chip (SoC) subsystem accounting for a given platform idle state. 
-
-
-## -syntax
-
-
-````
-typedef struct _PEP_QUERY_SOC_SUBSYSTEM_COUNT {
-  ULONG PlatformIdleStateIndex;
-  ULONG SubsystemCount;
-  ULONG Flags;
-} PEP_QUERY_SOC_SUBSYSTEM_COUNT, *PPEP_QUERY_SOC_SUBSYSTEM_COUNT;
-````
 
 
 ## -struct-fields
@@ -86,12 +75,11 @@ This member is reserved and should be set to zero.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt186733">PEP_DPM_QUERY_SOC_SUBSYSTEM_COUNT notification</a>
-
-
-
  
 
  
-
 

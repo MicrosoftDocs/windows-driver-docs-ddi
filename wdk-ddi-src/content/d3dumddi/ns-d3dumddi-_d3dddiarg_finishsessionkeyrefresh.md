@@ -7,7 +7,7 @@ old-location: display\d3dddiarg_finishsessionkeyrefresh.htm
 old-project: display
 ms.assetid: 5d262012-c4f4-4f86-a3a2-48c2fd7d5216
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDIARG_FINISHSESSIONKEYREFRESH, D3DDDIARG_FINISHSESSIONKEYREFRESH structure [Display Devices], UMDisplayDriver_param_Structs_ac18e377-42c2-4c4a-9625-1b0bf29375c2.xml, _D3DDDIARG_FINISHSESSIONKEYREFRESH, d3dumddi/D3DDDIARG_FINISHSESSIONKEYREFRESH, display.d3dddiarg_finishsessionkeyrefresh
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	D3DDDIARG_FINISHSESSIONKEYREFRESH
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDIARG_FINISHSESSIONKEYREFRESH
 ---
@@ -49,17 +50,7 @@ req.typenames: D3DDDIARG_FINISHSESSIONKEYREFRESH
 ## -description
 
 
-The D3DDDIARG_FINISHSESSIONKEYREFRESH structure contains the handle to an encryption session to end in a call to the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_finishsessionkeyrefresh.md">FinishSessionKeyRefresh</a> function. 
-
-
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_FINISHSESSIONKEYREFRESH {
-  HANDLE hCryptoSession;
-} D3DDDIARG_FINISHSESSIONKEYREFRESH;
-````
+The D3DDDIARG_FINISHSESSIONKEYREFRESH structure contains the handle to an encryption session to end in a call to the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451648">FinishSessionKeyRefresh</a> function. 
 
 
 ## -struct-fields
@@ -74,12 +65,11 @@ typedef struct _D3DDDIARG_FINISHSESSIONKEYREFRESH {
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_finishsessionkeyrefresh.md">FinishSessionKeyRefresh</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451648">FinishSessionKeyRefresh</a>
  
 
  
-
 

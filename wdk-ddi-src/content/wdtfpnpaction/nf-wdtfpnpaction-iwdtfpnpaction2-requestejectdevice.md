@@ -7,7 +7,7 @@ old-location: dtf\iwdtfpnpaction2_requestejectdevice.htm
 old-project: dtf
 ms.assetid: e4782fd9-0c71-4460-892e-180be41ed3bb
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/29/2018
 ms.keywords: IWDTFPNPAction2, IWDTFPNPAction2 interface [Windows Device Testing Framework], RequestEjectDevice method, IWDTFPNPAction2::RequestEjectDevice, Microsoft.WDTF.IWDTFPNPAction2.RequestEjectDevice, Microsoft::WDTF::IWDTFPNPAction2::RequestEjectDevice, RequestEjectDevice method [Windows Device Testing Framework], RequestEjectDevice method [Windows Device Testing Framework], IWDTFPNPAction2 interface, RequestEjectDevice,IWDTFPNPAction2.RequestEjectDevice, dtf.iwdtfpnpaction2_requestejectdevice, wdtfpnpaction/IWDTFPNPAction2::RequestEjectDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	WDTFDriverPNPAction.Interop.dll
 api_name:
 -	IWDTFPNPAction2.RequestEjectDevice
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TTraceLevel
 req.product: Windows 10 or later.
@@ -51,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 Initiates a device eject.
-
-
-## -syntax
-
-
-````
-HRESULT RequestEjectDevice(
-  [out, retval] VARIANT_BOOL *pbSuccess
-);
-````
 
 
 ## -parameters
@@ -94,12 +85,11 @@ See the MSDN documentation for details.
 
 ## -see-also
 
-<a href="..\wdtfpnpaction\nn-wdtfpnpaction-iwdtfpnpaction2.md">IWDTFPNPAction2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451065">IWDTFPNPAction2</a>
  
 
  
-
 

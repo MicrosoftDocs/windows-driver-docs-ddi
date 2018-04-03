@@ -7,7 +7,7 @@ old-location: display\dxvaddi_videochromasubsampling.htm
 old-project: display
 ms.assetid: 697b6ac2-9d25-42ad-aac5-44754f19bf2c
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXVA2_Structs_19b84102-b287-43e4-87e5-98bcc8b2bec8.xml, DXVADDI_VIDEOCHROMASUBSAMPLING, DXVADDI_VIDEOCHROMASUBSAMPLING enumeration [Display Devices], DXVADDI_VideoChromaSubsamplingMask, DXVADDI_VideoChromaSubsampling_Cosited, DXVADDI_VideoChromaSubsampling_DV_PAL, DXVADDI_VideoChromaSubsampling_Horizontally_Cosited, DXVADDI_VideoChromaSubsampling_MPEG1, DXVADDI_VideoChromaSubsampling_MPEG2, DXVADDI_VideoChromaSubsampling_ProgressiveChroma, DXVADDI_VideoChromaSubsampling_Unknown, DXVADDI_VideoChromaSubsampling_Vertically_AlignedChromaPlanes, DXVADDI_VideoChromaSubsampling_Vertically_Cosited, _DXVADDI_VIDEOCHROMASUBSAMPLING, d3dumddi/DXVADDI_VIDEOCHROMASUBSAMPLING, d3dumddi/DXVADDI_VideoChromaSubsamplingMask, d3dumddi/DXVADDI_VideoChromaSubsampling_Cosited, d3dumddi/DXVADDI_VideoChromaSubsampling_DV_PAL, d3dumddi/DXVADDI_VideoChromaSubsampling_Horizontally_Cosited, d3dumddi/DXVADDI_VideoChromaSubsampling_MPEG1, d3dumddi/DXVADDI_VideoChromaSubsampling_MPEG2, d3dumddi/DXVADDI_VideoChromaSubsampling_ProgressiveChroma, d3dumddi/DXVADDI_VideoChromaSubsampling_Unknown, d3dumddi/DXVADDI_VideoChromaSubsampling_Vertically_AlignedChromaPlanes, d3dumddi/DXVADDI_VideoChromaSubsampling_Vertically_Cosited, display.dxvaddi_videochromasubsampling
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	DXVADDI_VIDEOCHROMASUBSAMPLING
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXVADDI_VIDEOCHROMASUBSAMPLING
 ---
@@ -50,25 +51,6 @@ req.typenames: DXVADDI_VIDEOCHROMASUBSAMPLING
 
 
 The DXVADDI_VIDEOCHROMASUBSAMPLING enumeration type contains values that identify the chroma encoding scheme for Y'Cb'Cr' data. 
-
-
-## -syntax
-
-
-````
-typedef enum _DXVADDI_VIDEOCHROMASUBSAMPLING { 
-  DXVADDI_VideoChromaSubsamplingMask                             = 0x0F,
-  DXVADDI_VideoChromaSubsampling_Unknown                         = 0,
-  DXVADDI_VideoChromaSubsampling_ProgressiveChroma               = 0x8,
-  DXVADDI_VideoChromaSubsampling_Horizontally_Cosited            = 0x4,
-  DXVADDI_VideoChromaSubsampling_Vertically_Cosited              = 0x2,
-  DXVADDI_VideoChromaSubsampling_Vertically_AlignedChromaPlanes  = 0x1,
-  DXVADDI_VideoChromaSubsampling_MPEG2                           = DXVADDI_VideoChromaSubsampling_Horizontally_Cosited | DXVADDI_VideoChromaSubsampling_Vertically_AlignedChromaPlanes,
-  DXVADDI_VideoChromaSubsampling_MPEG1                           = DXVADDI_VideoChromaSubsampling_Vertically_AlignedChromaPlanes,
-  DXVADDI_VideoChromaSubsampling_DV_PAL                          = DXVADDI_VideoChromaSubsampling_Horizontally_Cosited | DXVADDI_VideoChromaSubsampling_Vertically_Cosited,
-  DXVADDI_VideoChromaSubsampling_Cosited                         = DXVADDI_VideoChromaSubsampling_Horizontally_Cosited | DXVADDI_VideoChromaSubsampling_Vertically_Cosited | DXVADDI_VideoChromaSubsampling_Vertically_AlignedChromaPlanes
-} DXVADDI_VIDEOCHROMASUBSAMPLING;
-````
 
 
 ## -enum-fields
@@ -103,7 +85,7 @@ Chroma samples are aligned on multiples of the luma samples vertically.
 
 ### -field DXVADDI_VideoChromaSubsampling_Vertically_AlignedChromaPlanes
 
-The Pb and Pr (or Cb and Cr) planes have the same phase alignment. This value can be set only to 0 in the <b>VideoChromaSubsampling</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_extendedformat.md">DXVADDI_EXTENDEDFORMAT</a> structure if the data is vertically cosited.
+The Pb and Pr (or Cb and Cr) planes have the same phase alignment. This value can be set only to 0 in the <b>VideoChromaSubsampling</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562904">DXVADDI_EXTENDEDFORMAT</a> structure if the data is vertically cosited.
 
 
 ### -field DXVADDI_VideoChromaSubsampling_MPEG2
@@ -130,7 +112,7 @@ A bitwise OR of the <b>DXVADDI_VideoChromaSubsampling_Horizontally_Cosited</b>, 
 
 
 
-A bitwise OR of the values of DXVADDI_VIDEOCHROMASUBSAMPLING can be used to create a value in the <b>VideoChromaSubsampling</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_extendedformat.md">DXVADDI_EXTENDEDFORMAT</a> structure.
+A bitwise OR of the values of DXVADDI_VIDEOCHROMASUBSAMPLING can be used to create a value in the <b>VideoChromaSubsampling</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562904">DXVADDI_EXTENDEDFORMAT</a> structure.
 
 Cosite variations indicate that the chroma samples are aligned with the luma samples. Typically, 4:2:0 data with chroma is aligned in one or more directions with the luma data. Note that 4:4:4, 4:2:2, and 4:1:1 data are always cosited in both directions. 
 
@@ -139,12 +121,11 @@ Cosite variations indicate that the chroma samples are aligned with the luma sam
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_extendedformat.md">DXVADDI_EXTENDEDFORMAT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562904">DXVADDI_EXTENDEDFORMAT</a>
  
 
  
-
 

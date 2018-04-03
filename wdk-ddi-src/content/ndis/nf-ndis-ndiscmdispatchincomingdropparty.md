@@ -7,7 +7,7 @@ old-location: netvista\ndiscmdispatchincomingdropparty.htm
 old-project: netvista
 ms.assetid: 9dce2b0a-1d0c-4c87-a32f-8bf72bb91cfe
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NdisCmDispatchIncomingDropParty, NdisCmDispatchIncomingDropParty function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_6f7730c4-030a-45a6-b873-833bf8033ce7.xml, ndis/NdisCmDispatchIncomingDropParty, netvista.ndiscmdispatchincomingdropparty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	ndis.dll
 api_name:
 -	NdisCmDispatchIncomingDropParty
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
@@ -53,19 +54,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 <b>NdisCmDispatchIncomingDropParty</b> notifies a client that it should remove a particular party on a
   multipoint VC, usually because the call manager has received a request over the network to close an active
   multipoint connection.
-
-
-## -syntax
-
-
-````
-VOID NdisCmDispatchIncomingDropParty(
-  _In_     NDIS_STATUS DropStatus,
-  _In_     NDIS_HANDLE NdisPartyHandle,
-  _In_opt_ PVOID       Buffer,
-  _In_     UINT        Size
-);
-````
 
 
 ## -parameters
@@ -112,12 +100,12 @@ None
 
 
 In the course of normal network operations, a stand-alone call manager's 
-    <a href="..\ndis\nc-ndis-protocol_co_receive_net_buffer_lists.md">
+    <a href="https://msdn.microsoft.com/1755804c-d82f-465d-862f-8a2340516f8e">
     ProtocolCoReceiveNetBufferLists</a> function calls 
     <b>NdisCmDispatchIncomingDropParty</b> with the 
     <i>CloseStatus</i> set to NDIS_STATUS_SUCCESS because a remote client on a multipoint connection has
     called 
-    <a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561627">NdisClCloseCall</a>.
 
 However, a call manager also can call 
     <b>NdisCmDispatchIncomingDropParty</b> with a CM-determined 
@@ -127,12 +115,12 @@ However, a call manager also can call
 
 A call to 
     <b>NdisCmDispatchIncomingDropParty</b> causes NDIS to call the client's 
-    <a href="..\ndis\nc-ndis-protocol_cl_incoming_drop_party.md">
+    <a href="https://msdn.microsoft.com/3815ca4b-f4bc-4de9-a28a-5d3ee20bcdd8">
     ProtocolClIncomingDropParty</a> function.
 
 If the 
     <i>NdisPartyHandle</i> identifies the last remaining party on the given VC, the CM calls 
-    <a href="..\ndis\nf-ndis-ndiscmdispatchincomingclosecall.md">
+    <a href="https://msdn.microsoft.com/f0f1221d-3d95-4d4c-acd0-6bcd653241c4">
     NdisCmDispatchIncomingCloseCall</a>, rather than 
     <b>NdisCmDispatchIncomingDropParty</b>.
 
@@ -146,31 +134,30 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_cl_incoming_drop_party.md">ProtocolClIncomingDropParty</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismcmdispatchincomingdropparty.md">
-   NdisMCmDispatchIncomingDropParty</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561629">NdisClDropParty</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_co_receive_net_buffer_lists.md">
-   ProtocolCoReceiveNetBufferLists</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiscmdispatchincomingclosecall.md">
+<a href="https://msdn.microsoft.com/f0f1221d-3d95-4d4c-acd0-6bcd653241c4">
    NdisCmDispatchIncomingCloseCall</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiscldropparty.md">NdisClDropParty</a>
+<a href="https://msdn.microsoft.com/4549b6f4-5138-4724-959c-a36b38c319fd">
+   NdisMCmDispatchIncomingDropParty</a>
 
 
 
+<a href="https://msdn.microsoft.com/3815ca4b-f4bc-4de9-a28a-5d3ee20bcdd8">ProtocolClIncomingDropParty</a>
+
+
+
+<a href="https://msdn.microsoft.com/1755804c-d82f-465d-862f-8a2340516f8e">
+   ProtocolCoReceiveNetBufferLists</a>
  
 
  
-
 

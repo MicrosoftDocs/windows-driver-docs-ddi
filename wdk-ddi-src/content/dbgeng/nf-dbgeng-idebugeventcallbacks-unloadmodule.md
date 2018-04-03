@@ -7,7 +7,7 @@ old-location: debugger\idebugeventcallbacks_unloadmodule.htm
 old-project: debugger
 ms.assetid: 2afdaee6-7714-42d4-a402-3cb85ef3b970
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: ComCallbacks_53674f8e-290c-44d6-827f-92646c2e4ea9.xml, IDebugEventCallbacks, IDebugEventCallbacks interface [Windows Debugging], UnloadModule method, IDebugEventCallbacks::UnloadModule, UnloadModule method [Windows Debugging], UnloadModule method [Windows Debugging], IDebugEventCallbacks interface, UnloadModule,IDebugEventCallbacks.UnloadModule, dbgeng/IDebugEventCallbacks::UnloadModule, debugger.idebugeventcallbacks_unloadmodule
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugEventCallbacks.UnloadModule
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -50,17 +51,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>UnloadModule</b> callback method is called by the engine when a module-unload debugging event occurs in the target.
-
-
-## -syntax
-
-
-````
-HRESULT UnloadModule(
-  [in, optional] PCSTR   ImageBaseName,
-  [in]           ULONG64 BaseOffset
-);
-````
 
 
 ## -parameters

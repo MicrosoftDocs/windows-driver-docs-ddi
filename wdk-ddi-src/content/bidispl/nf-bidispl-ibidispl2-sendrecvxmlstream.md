@@ -38,7 +38,8 @@ api_location:
 -	bidispl.dll
 api_name:
 -	IBidiSpl2.SendRecvXMLStream
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
 ---
@@ -50,17 +51,6 @@ req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
 
 
 The <b>SendRecvXMLStream</b> method sends a bidirectional printer communication request and receives the response as <a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a> objects formatted in accordance with the <a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schemas</a>.
-
-
-## -syntax
-
-
-````
-HRESULT SendRecvXMLStream(
-  [in]  IStream *pSRequest,
-  [out] IStream **ppSResponse
-);
-````
 
 
 ## -parameters
@@ -141,7 +131,6 @@ The character encoding of <i>ppSResponse</i> is UTF-8. The character encoding of
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/42b5e6cf-b434-4734-86f3-b3b9d15ea468">Print Spooler Components</a>
 
 
 
@@ -153,12 +142,12 @@ The character encoding of <i>ppSResponse</i> is UTF-8. The character encoding of
 
 
 
-<a href="..\bidispl\nn-bidispl-ibidispl2.md">IBidiSpl2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dd144981">IBidiSpl2</a>
 
 
 
+<a href="https://msdn.microsoft.com/42b5e6cf-b434-4734-86f3-b3b9d15ea468">Print Spooler Components</a>
  
 
  
-
 

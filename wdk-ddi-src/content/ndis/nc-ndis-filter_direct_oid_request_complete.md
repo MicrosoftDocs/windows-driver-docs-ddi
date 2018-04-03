@@ -7,7 +7,7 @@ old-location: netvista\filterdirectoidrequestcomplete.htm
 old-project: netvista
 ms.assetid: a97c86e9-4fd9-4e2f-9787-4fa19c38a69b
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: FILTER_DIRECT_OID_REQUEST_COMPLETE, FilterDirectOidRequestComplete, FilterDirectOidRequestComplete callback function [Network Drivers Starting with Windows Vista], ndis/FilterDirectOidRequestComplete, ndis_request_direct_ref_7c57d5c9-2a37-4602-b94e-df700652b1a9.xml, netvista.filterdirectoidrequestcomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ndis.h
 api_name:
 -	FilterDirectOidRequestComplete
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
 ---
@@ -55,21 +56,6 @@ NDIS calls the
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>FILTER_DIRECT_OID_REQUEST_COMPLETE</b> type. For more
    information, see the following Examples section.</div><div> </div>
 
-## -prototype
-
-
-````
-FILTER_DIRECT_OID_REQUEST_COMPLETE FilterDirectOidRequestComplete;
-
-VOID FilterDirectOidRequestComplete(
-  _In_ NDIS_HANDLE       FilterModuleContext,
-  _In_ PNDIS_OID_REQUEST OidRequest,
-  _In_ NDIS_STATUS       Status
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -79,15 +65,15 @@ VOID FilterDirectOidRequestComplete(
 
 A handle to the context area for the filter module. The filter driver created and initialized this
      context area in the 
-     <a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a> function.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a> function.
 
 
 ### -param OidRequest [in]
 
 A pointer to the 
-     <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a> structure that the filter
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a> structure that the filter
      driver previously passed to the 
-     <a href="..\ndis\nf-ndis-ndisfdirectoidrequest.md">
+     <a href="https://msdn.microsoft.com/dec5415b-6903-416e-819b-007ea6f7e7b5">
      NdisFDirectOidRequest</a> function.
 
 
@@ -97,7 +83,7 @@ The final status of the request that an underlying driver or NDIS set. This para
      what 
      <i>FilterDirectOidRequestComplete</i> does with the information at 
      <i>OidRequest</i> . For a list of the possible status values, see the return values of 
-     <a href="..\ndis\nf-ndis-ndisfdirectoidrequest.md">NdisFDirectOidRequest</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff561809">NdisFDirectOidRequest</a>.
 
 
 ## -returns
@@ -115,27 +101,27 @@ None
 
 <i>FilterDirectOidRequestComplete</i> is an optional function. If a filter driver does not use direct OID
     requests, it can set the entry point for this function to <b>NULL</b> when it calls the 
-    <a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">
+    <a href="https://msdn.microsoft.com/14381de2-36d9-4ec8-9d4e-7af3e6d8ecf3">
     NdisFRegisterFilterDriver</a> function. If a filter driver defines a 
-    <a href="..\ndis\nc-ndis-filter_direct_oid_request.md">FilterDirectOidRequest</a> function,
+    <a href="https://msdn.microsoft.com/a39f4b50-0183-4f92-82f2-3c8e2e2d0632">FilterDirectOidRequest</a> function,
     it must provide the 
     <i>FilterDirectOidRequestComplete</i> function.
 
 If the 
-    <a href="..\ndis\nf-ndis-ndisfdirectoidrequest.md">NdisFDirectOidRequest</a> function
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561809">NdisFDirectOidRequest</a> function
     returns NDIS_STATUS_PENDING, NDIS must call the 
     <i>FilterDirectOidRequestComplete</i> function to complete the OID request.
 
 If a filter driver forwarded a request that it received in the 
-    <a href="..\ndis\nc-ndis-filter_direct_oid_request.md">FilterDirectOidRequest</a> function,
+    <a href="https://msdn.microsoft.com/a39f4b50-0183-4f92-82f2-3c8e2e2d0632">FilterDirectOidRequest</a> function,
     
     <i>FilterDirectOidRequestComplete</i> should pass the completion status up the driver stack by calling the
     
-    <a href="..\ndis\nf-ndis-ndisfdirectoidrequestcomplete.md">
+    <a href="https://msdn.microsoft.com/b6b4d4f4-63d5-496c-9082-f2e8d1a174ec">
     NdisFDirectOidRequestComplete</a> function. In this case, the filter driver must call 
-    <a href="..\ndis\nf-ndis-ndisfreecloneoidrequest.md">NdisFreeCloneOidRequest</a>, to free
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561845">NdisFreeCloneOidRequest</a>, to free
     the 
-    <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a> structure, before it calls
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a> structure, before it calls
     
     <b>NdisFDirectOidRequestComplete</b>.
 
@@ -189,37 +175,36 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-filter_direct_oid_request.md">FilterDirectOidRequest</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisfreecloneoidrequest.md">NdisFreeCloneOidRequest</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a>
 
 
 
-<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
+<a href="https://msdn.microsoft.com/a39f4b50-0183-4f92-82f2-3c8e2e2d0632">FilterDirectOidRequest</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisfdirectoidrequest.md">NdisFDirectOidRequest</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561809">NdisFDirectOidRequest</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisfdirectoidrequestcomplete.md">
+<a href="https://msdn.microsoft.com/b6b4d4f4-63d5-496c-9082-f2e8d1a174ec">
    NdisFDirectOidRequestComplete</a>
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562608">NdisFRegisterFilterDriver</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561845">NdisFreeCloneOidRequest</a>
  
 
  
-
 

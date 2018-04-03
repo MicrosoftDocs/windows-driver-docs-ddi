@@ -7,7 +7,7 @@ old-location: debugger\idebugfailureanalysis2_addulong64.htm
 old-project: debugger
 ms.assetid: E5FB5911-C6E5-44C1-B33F-75B4DD86A3D9
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: AddUlong64 method [Windows Debugging], AddUlong64 method [Windows Debugging], IDebugFailureAnalysis2 interface, AddUlong64,IDebugFailureAnalysis2.AddUlong64, IDebugFailureAnalysis2, IDebugFailureAnalysis2 interface [Windows Debugging], AddUlong64 method, IDebugFailureAnalysis2::AddUlong64, debugger.idebugfailureanalysis2_addulong64, extsfns/IDebugFailureAnalysis2::AddUlong64
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	extsfns.h
 api_name:
 -	IDebugFailureAnalysis2.AddUlong64
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FA_EXTENSION_PLUGIN_PHASE
 ---
@@ -49,18 +50,7 @@ req.typenames: FA_EXTENSION_PLUGIN_PHASE
 ## -description
 
 
-The <b>AddUlong64</b> method adds a new <a href="https://msdn.microsoft.com/759DE159-F2A8-4BB1-AAF5-B2B91C4F91B0">FA entry</a>  to a <a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">DebugFailureAnalysis</a> object and sets the data block of the FA entry to a specified 64-bit value.
-
-
-## -syntax
-
-
-````
-PFA_ENTRY AddUlong64(
-       FA_TAG  Tag,
-  [in] ULONG64 Value
-);
-````
+The <b>AddUlong64</b> method adds a new <a href="https://msdn.microsoft.com/759DE159-F2A8-4BB1-AAF5-B2B91C4F91B0">FA entry</a>  to a <a href="https://msdn.microsoft.com/0B44FCB9-D23F-4630-9F9A-FBAD46712B14">DebugFailureAnalysis</a> object and sets the data block of the FA entry to a specified 64-bit value.
 
 
 ## -parameters
@@ -83,7 +73,7 @@ The <b>ULONG64</b> value to be written to the data block of the new <a href="htt
 
 
 
-If this method succeeds, it returns a returns a pointer to the new <a href="..\extsfns\ns-extsfns-_fa_entry.md">FA_ENTRY</a> structure. If this method fails, it returns <b>NULL</b>.
+If this method succeeds, it returns a returns a pointer to the new <a href="https://msdn.microsoft.com/library/windows/hardware/jj991808">FA_ENTRY</a> structure. If this method fails, it returns <b>NULL</b>.
 
 
 
@@ -92,24 +82,15 @@ If this method succeeds, it returns a returns a pointer to the new <a href="..\e
 
 
 
-Each tag is associated with one of the data types in the <a href="..\extsfns\ne-extsfns-_fa_entry_type.md">FA_ENTRY_TYPE</a> enumeration. To determine the data type associated with a tag, call the <a href="https://msdn.microsoft.com/library/windows/hardware/jj991813">GetType</a> method of the <a href="..\extsfns\nn-extsfns-idebugfaentrytags.md">IDebugFAEntryTags</a> interface.
+Each tag is associated with one of the data types in the <a href="https://msdn.microsoft.com/library/windows/hardware/jj991809">FA_ENTRY_TYPE</a> enumeration. To determine the data type associated with a tag, call the <a href="https://msdn.microsoft.com/library/windows/hardware/jj991813">GetType</a> method of the <a href="https://msdn.microsoft.com/library/windows/hardware/jj983404">IDebugFAEntryTags</a> interface.
 
-To get a pointer to an <a href="..\extsfns\nn-extsfns-idebugfaentrytags.md">IDebugFAEntryTags</a> interface, call the <a href="https://msdn.microsoft.com/library/windows/hardware/jj983414">GetDebugFATagControl</a> method of the <a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a> interface. 
+To get a pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/jj983404">IDebugFAEntryTags</a> interface, call the <a href="https://msdn.microsoft.com/library/windows/hardware/jj983414">GetDebugFATagControl</a> method of the <a href="https://msdn.microsoft.com/library/windows/hardware/jj983405">IDebugFailureAnalysis2</a> interface. 
 
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj983426">SetUlong64</a>
-
-
-
-<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
-
-
-
-<a href="https://msdn.microsoft.com/7648F789-85D5-4247-90DD-2EAA43543483">Writing an Analysis Extension Plug-in to Extend !analyze</a>
 
 
 
@@ -117,12 +98,20 @@ To get a pointer to an <a href="..\extsfns\nn-extsfns-idebugfaentrytags.md">IDeb
 
 
 
-<a href="..\extsfns\nc-extsfns-ext_analysis_plugin.md">_EFN_Analyze</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj983405">IDebugFailureAnalysis2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj983426">SetUlong64</a>
+
+
+
+<a href="https://msdn.microsoft.com/7648F789-85D5-4247-90DD-2EAA43543483">Writing an Analysis Extension Plug-in to Extend !analyze</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj983432">_EFN_Analyze</a>
  
 
  
-
 

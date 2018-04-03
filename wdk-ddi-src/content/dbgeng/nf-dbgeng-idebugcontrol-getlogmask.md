@@ -7,7 +7,7 @@ old-location: debugger\getlogmask.htm
 old-project: debugger
 ms.assetid: 32d36b6d-9887-43ac-9314-fc682705131e
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: GetLogMask method [Windows Debugging], GetLogMask method [Windows Debugging], IDebugControl interface, GetLogMask method [Windows Debugging], IDebugControl2 interface, GetLogMask method [Windows Debugging], IDebugControl3 interface, GetLogMask,IDebugControl.GetLogMask, IDebugControl, IDebugControl interface [Windows Debugging], GetLogMask method, IDebugControl2 interface [Windows Debugging], GetLogMask method, IDebugControl2::GetLogMask, IDebugControl3 interface [Windows Debugging], GetLogMask method, IDebugControl3::GetLogMask, IDebugControl::GetLogMask, IDebugControl_a3ef306a-5134-49c7-b589-65a4afaa90ac.xml, dbgeng/IDebugControl2::GetLogMask, dbgeng/IDebugControl3::GetLogMask, dbgeng/IDebugControl::GetLogMask, debugger.getlogmask
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,8 @@ api_name:
 -	IDebugControl.GetLogMask
 -	IDebugControl2.GetLogMask
 -	IDebugControl3.GetLogMask
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -52,16 +53,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetLogMask</b> method returns the output mask for the currently open log file.
-
-
-## -syntax
-
-
-````
-HRESULT GetLogMask(
-  [out] PULONG Mask
-);
-````
 
 
 ## -parameters
@@ -113,15 +104,18 @@ For more information about log files, see <a href="https://msdn.microsoft.com/li
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556734">SetLogMask</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550508">IDebugControl</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550512">IDebugControl2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550519">IDebugControl3</a>
 
 
 
@@ -129,12 +123,8 @@ For more information about log files, see <a href="https://msdn.microsoft.com/li
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556734">SetLogMask</a>
  
 
  
-
 

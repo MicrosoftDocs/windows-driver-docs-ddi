@@ -38,7 +38,8 @@ api_location:
 -	WinSpool.drv
 api_name:
 -	RouterFreeBidiResponseContainer
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NOTIFICATION_CONFIG_FLAGS
 req.product: Windows 10 or later.
@@ -50,17 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-<code>RouterFreeBidiResponseContainer</code> frees a <a href="..\winspool\ns-winspool-_bidi_response_container.md">BIDI_RESPONSE_CONTAINER</a> structure previously allocated by <a href="..\winsplp\nf-winsplp-routerallocbidiresponsecontainer.md">RouterAllocBidiResponseContainer</a>.
-
-
-## -syntax
-
-
-````
-DWORD RouterFreeBidiResponseContainer(
-  _In_ PBIDI_RESPONSE_CONTAINER pData
-);
-````
+<code>RouterFreeBidiResponseContainer</code> frees a <a href="https://msdn.microsoft.com/library/windows/hardware/ff545202">BIDI_RESPONSE_CONTAINER</a> structure previously allocated by <a href="https://msdn.microsoft.com/library/windows/hardware/ff562001">RouterAllocBidiResponseContainer</a>.
 
 
 ## -parameters
@@ -84,16 +75,15 @@ Pointer to the BIDI_RESPONSE_CONTAINER structure to be freed.
 
 ## -see-also
 
-<a href="..\winspool\ns-winspool-_bidi_response_container.md">BIDI_RESPONSE_CONTAINER</a>
 
 
 
-<a href="..\winsplp\nf-winsplp-routerallocbidiresponsecontainer.md">RouterAllocBidiResponseContainer</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545202">BIDI_RESPONSE_CONTAINER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562001">RouterAllocBidiResponseContainer</a>
  
 
  
-
 

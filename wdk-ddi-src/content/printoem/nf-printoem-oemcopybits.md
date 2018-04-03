@@ -38,7 +38,8 @@ api_location:
 -	printoem.h
 api_name:
 -	OEMCopyBits
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STDVARIABLEINDEX
 req.product: Windows 10 or later.
@@ -51,21 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <code>OEMCopyBits</code> function performs translations between device-managed raster surfaces and GDI standard-format bitmaps. 
-
-
-## -syntax
-
-
-````
-BOOL  APIENTRY OEMCopyBits(
-   SURFOBJ  *psoDest,
-   SURFOBJ  *psoSrc,
-   CLIPOBJ  *pco,
-   XLATEOBJ *pxlo,
-   RECTL    *prclDest,
-   POINTL   *pptlSrc
-);
-````
 
 
 ## -parameters

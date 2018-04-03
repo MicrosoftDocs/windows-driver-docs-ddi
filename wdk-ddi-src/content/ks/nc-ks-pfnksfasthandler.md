@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KStrFastHandler
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SOUNDDETECTOR_PATTERNHEADER
 ---
@@ -50,24 +51,6 @@ req.typenames: SOUNDDETECTOR_PATTERNHEADER
 
 
 <i>KStrFastHandler</i> is a driver-supplied routine that handles a property or method request without the creation of an IRP.
-
-
-## -prototype
-
-
-````
-PFNKSFASTHANDLER KStrFastHandler;
-
-BOOLEAN KStrFastHandler(
-  _In_    PFILE_OBJECT     FileObject,
-  _In_    PKSIDENTIFIER    Request,
-  _In_    ULONG            RequestLength,
-  _Inout_ PVOID            Data,
-  _In_    ULONG            DataLength,
-  _Out_   PIO_STATUS_BLOCK IoStatus
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -118,7 +101,7 @@ Specifies an aligned structure that is used to return error status and informati
 
 
 
-The minidriver provides an entry point for this routine in <a href="..\ks\ns-ks-ksfastproperty_item.md">KSFASTPROPERTY_ITEM</a> or <a href="..\ks\ns-ks-ksfastmethod_item.md">KSFASTMETHOD_ITEM</a>.
+The minidriver provides an entry point for this routine in <a href="https://msdn.microsoft.com/library/windows/hardware/ff562521">KSFASTPROPERTY_ITEM</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff561944">KSFASTMETHOD_ITEM</a>.
 
 
 

@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KS_RGBQUAD
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KS_RGBQUAD, *PKS_RGBQUAD
 ---
@@ -50,19 +51,6 @@ req.typenames: KS_RGBQUAD, *PKS_RGBQUAD
 
 
 The KS_RGBQUAD structure describes a color consisting of relative intensities of red, green, and blue, ranging from 0 to 255 (0x0 to 0xff).
-
-
-## -syntax
-
-
-````
-typedef struct tagKS_RGBQUAD {
-  BYTE rgbBlue;
-  BYTE rgbGreen;
-  BYTE rgbRed;
-  BYTE rgbReserved;
-} KS_RGBQUAD, *PKS_RGBQUAD;
-````
 
 
 ## -struct-fields

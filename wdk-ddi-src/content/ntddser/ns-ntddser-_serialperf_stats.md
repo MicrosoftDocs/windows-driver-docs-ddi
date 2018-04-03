@@ -38,7 +38,8 @@ api_location:
 -	Ntddser.h
 api_name:
 -	SERIALPERF_STATS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SERIALPERF_STATS, *PSERIALPERF_STATS
 ---
@@ -52,21 +53,6 @@ req.typenames: SERIALPERF_STATS, *PSERIALPERF_STATS
 The <b>SERIALPERF_STATS</b> structure contains performance statistics for a serial port.
 
 
-## -syntax
-
-
-````
-typedef struct _SERIALPERF_STATS {
-  ULONG ReceivedCount;
-  ULONG TransmittedCount;
-  ULONG FrameErrorCount;
-  ULONG SerialOverrunErrorCount;
-  ULONG BufferOverrunErrorCount;
-  ULONG ParityErrorCount;
-} SERIALPERF_STATS, *PSERIALPERF_STATS;
-````
-
-
 ## -struct-fields
 
 
@@ -74,7 +60,7 @@ typedef struct _SERIALPERF_STATS {
 
 ### -field ReceivedCount
 
-The number of characters received since either the serial port was opened or the last <a href="..\ntddser\ni-ntddser-ioctl_serial_clear_stats.md">IOCTL_SERIAL_CLEAR_STATS</a> request was processed.
+The number of characters received since either the serial port was opened or the last <a href="https://msdn.microsoft.com/library/windows/hardware/ff546538">IOCTL_SERIAL_CLEAR_STATS</a> request was processed.
 
 
 ### -field TransmittedCount
@@ -106,25 +92,24 @@ The number of parity errors detected since either the serial port was opened or 
 
 
 
-This structure is used by the <a href="..\ntddser\ni-ntddser-ioctl_serial_get_stats.md">IOCTL_SERIAL_GET_STATS</a> request.
+This structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546600">IOCTL_SERIAL_GET_STATS</a> request.
 
-To reset the performance statistics to zero, send an <a href="..\ntddser\ni-ntddser-ioctl_serial_clear_stats.md">IOCTL_SERIAL_CLEAR_STATS</a> request.
+To reset the performance statistics to zero, send an <a href="https://msdn.microsoft.com/library/windows/hardware/ff546538">IOCTL_SERIAL_CLEAR_STATS</a> request.
 
 
 
 
 ## -see-also
 
-<a href="..\ntddser\ni-ntddser-ioctl_serial_get_stats.md">IOCTL_SERIAL_GET_STATS</a>
 
 
 
-<a href="..\ntddser\ni-ntddser-ioctl_serial_clear_stats.md">IOCTL_SERIAL_CLEAR_STATS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546538">IOCTL_SERIAL_CLEAR_STATS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546600">IOCTL_SERIAL_GET_STATS</a>
  
 
  
-
 

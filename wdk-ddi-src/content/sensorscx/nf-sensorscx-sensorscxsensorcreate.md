@@ -38,7 +38,8 @@ api_location:
 -	SensorsCx.h
 api_name:
 -	SensorsCxSensorCreate
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SensorConnectionType
 req.product: Windows 10 or later.
@@ -51,18 +52,6 @@ req.product: Windows 10 or later.
 
 
 This function creates an instance of a sensor in the class extension.
-
-
-## -syntax
-
-
-````
-FORCEINLINE NTSTATUS SensorsCxSensorCreate(
-  _In_  WDFDEVICE              FxDevice,
-  _In_  PWDF_OBJECT_ATTRIBUTES pSensorAttributes,
-  _Out_ PSENSOROBJECT          pSensor
-);
-````
 
 
 ## -parameters
@@ -129,16 +118,15 @@ The sensors class extension writes a set of properties for each sensor when Sens
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn957027">Enumeration properties</a>
 
 
 
 <a href="http://go.microsoft.com/fwlink/p/?linkid=313456">WDF_OBJECT_ATTRIBUTES</a>
-
-
-
  
 
  
-
 

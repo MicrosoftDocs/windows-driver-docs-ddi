@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	IPrintSchemaCapabilities.PageImageableSize
 -	IPrintSchemaCapabilities.get_PageImageableSize
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PrintSchemaSelectionType
 req.product: Windows 10 or later.
@@ -56,31 +57,20 @@ Gets the imageable area information of the printer.
 This property is read-only.
 
 
-## -syntax
-
-
-````
-HRESULT get_PageImageableSize(
-  [out, retval] IPrintSchemaPageImageableSize **ppPageImageableSize
-);
-````
-
-
 ## -parameters
 
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintschemapageimageablesize.md">IPrintSchemaPageImageableSize</a>
 
 
 
-<a href="..\printerextension\nn-printerextension-iprintschemacapabilities.md">IPrintSchemaCapabilities</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451256">IPrintSchemaCapabilities</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451366">IPrintSchemaPageImageableSize</a>
  
 
  
-
 

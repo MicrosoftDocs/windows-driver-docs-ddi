@@ -38,9 +38,10 @@ api_location:
 -	ntddpcm.h
 api_name:
 -	ModifyMemoryWindow
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PAR_SET_INFORMATION, *PPAR_SET_INFORMATION
+req.typenames: OFFLOAD_SECURITY_ASSOCIATION, *POFFLOAD_SECURITY_ASSOCIATION
 ---
 
 # PCMCIA_MODIFY_MEMORY_WINDOW callback
@@ -50,26 +51,6 @@ req.typenames: PAR_SET_INFORMATION, *PPAR_SET_INFORMATION
 
 
 The <b>PCMCIA_MODIFY_MEMORY_WINDOW</b> interface routine sets the attributes of a memory window for a PCMCIA memory card. The memory window is mapped by the PCMCIA bus driver.
-
-
-## -prototype
-
-
-````
-PCMCIA_MODIFY_MEMORY_WINDOW ModifyMemoryWindow;
-
-BOOLEAN ModifyMemoryWindow(
-  _In_opt_ PVOID     Context,
-  _In_     ULONGLONG HostBase,
-  _In_     ULONGLONG CardBase,
-  _In_     BOOLEAN   Enable,
-  _In_opt_ ULONG     WindowSize,
-  _In_opt_ UCHAR     AccessSpeed,
-  _In_opt_ UCHAR     BusWidth,
-  _In_opt_ BOOLEAN   AttributeMemory
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -156,7 +137,6 @@ Callers of this routine must be running at IRQL &lt;= DISPATCH_LEVEL. To maintai
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537611">PCMCIA_SET_VPP</a>
 
 
 
@@ -164,8 +144,8 @@ Callers of this routine must be running at IRQL &lt;= DISPATCH_LEVEL. To maintai
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537611">PCMCIA_SET_VPP</a>
  
 
  
-
 

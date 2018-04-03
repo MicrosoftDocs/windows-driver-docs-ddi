@@ -38,7 +38,8 @@ api_location:
 -	prcomoem.h
 api_name:
 -	IPrintCoreHelper.CreateInstanceOfMSXMLObject
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
@@ -51,20 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>IPrintCoreHelper::CreateInstanceOfMSXMLObject</b> method creates an instance of an MSXML 6.0 object by using the correct MSXML DLL. 
-
-
-## -syntax
-
-
-````
-HRESULT CreateInstanceOfMSXMLObject(
-  [in]  REFCLSID  rclsid,
-  [in]  LPUNKNOWN pUnkOuter,
-  [in]  DWORD     dwClsContext,
-  [in]  REFIID    riid,
-  [out] LPVOID    *ppv
-);
-````
 
 
 ## -parameters

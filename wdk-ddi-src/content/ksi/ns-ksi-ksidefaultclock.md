@@ -38,7 +38,8 @@ api_location:
 -	Ksi.h
 api_name:
 -	KSIDEFAULTCLOCK
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSIDEFAULTCLOCK, *PKSIDEFAULTCLOCK
 ---
@@ -50,37 +51,6 @@ req.typenames: KSIDEFAULTCLOCK, *PKSIDEFAULTCLOCK
 
 
 
-
-
-## -syntax
-
-
-````
-typedef struct {
-  LONGLONG                  Frequency;
-  LONGLONG                  LastDueTime;
-  LONGLONG                  RunningTimeDelta;
-  LONGLONG                  LastRunningTime;
-  KSPIN_LOCK                TimeAccessLock;
-  LIST_ENTRY                EventQueue;
-  KSPIN_LOCK                EventQueueLock;
-  KTIMER                    QueueTimer;
-  KDPC                      QueueDpc;
-  LONG                      ReferenceCount;
-  KSSTATE                   State;
-  LONGLONG                  SuspendDelta;
-  LONGLONG                  SuspendTime;
-  PFNKSSETTIMER             SetTimer;
-  PFNKSCANCELTIMER          CancelTimer;
-  PFNKSCLOCK_CORRELATEDTIME CorrelatedTime;
-  PVOID                     Context;
-  KSRESOLUTION              Resolution;
-  KEVENT                    FreeEvent;
-  LONG                      ExternalTimeReferenceCount;
-  BOOLEAN                   ExternalTimeValid;
-  LONGLONG                  LastStreamTime;
-} KSIDEFAULTCLOCK, *PKSIDEFAULTCLOCK;
-````
 
 
 ## -struct-fields

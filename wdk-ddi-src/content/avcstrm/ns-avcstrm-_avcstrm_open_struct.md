@@ -38,7 +38,8 @@ api_location:
 -	avcstrm.h
 api_name:
 -	AVCSTRM_OPEN_STRUCT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: AVCSTRM_OPEN_STRUCT, *PAVCSTRM_OPEN_STRUCT
 ---
@@ -50,19 +51,6 @@ req.typenames: AVCSTRM_OPEN_STRUCT, *PAVCSTRM_OPEN_STRUCT
 
 
 The AVCSTRM_OPEN_STRUCT structure describes a data stream to be opened.
-
-
-## -syntax
-
-
-````
-typedef struct _AVCSTRM_OPEN_STRUCT {
-  KSPIN_DATAFLOW       DataFlow;
-  PAVCSTRM_FORMAT_INFO AVCFormatInfo;
-  PVOID                AVCStreamContext;
-  HANDLE               hPlugLocal;
-} AVCSTRM_OPEN_STRUCT, *PAVCSTRM_OPEN_STRUCT;
-````
 
 
 ## -struct-fields
@@ -103,16 +91,15 @@ This value can then be used in subsequent <i>avcstrm.sys</i> operations by placi
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554117">AVCSTRM_FORMAT_INFO</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554125">AVCSTRM_OPEN</a>
-
-
-
-<a href="..\avcstrm\ns-avcstrm-_avcstrm_format_info.md">AVCSTRM_FORMAT_INFO</a>
-
-
-
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: display\destroyvideodecoder.htm
 old-project: display
 ms.assetid: 541f4c9b-3193-46a8-9979-74456168988e
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3D11_1DDI_DESTROYVIDEODECODER, d3d10umddi/pfnDestroyVideoDecoder, display.destroyvideodecoder, pfnDestroyVideoDecoder, pfnDestroyVideoDecoder callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3d10umddi.h
 api_name:
 -	pfnDestroyVideoDecoder
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 ---
@@ -49,22 +50,8 @@ req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 ## -description
 
 
-Releases resources for the video decoder object that were created through a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideodecoder.md">CreateVideoDecoder</a> function.
+Releases resources for the video decoder object that were created through a call to the <a href="https://msdn.microsoft.com/41254f99-1806-428c-8bf3-7e736dbeec84">CreateVideoDecoder</a> function.
 
-
-
-## -prototype
-
-
-````
-PFND3D11_1DDI_DESTROYVIDEODECODER pfnDestroyVideoDecoder;
-
-VOID APIENTRY* pfnDestroyVideoDecoder(
-  _In_ D3D10DDI_HDEVICE   hDevice,
-  _In_ D3D11_1DDI_HDECODE hDecoder
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -72,10 +59,10 @@ VOID APIENTRY* pfnDestroyVideoDecoder(
 
 
 
-### -param D3D10DDI_HDEVICE
+### -param Arg1
 
 
-### -param D3D11_1DDI_HDECODE
+### -param Arg2
 
 
 
@@ -86,7 +73,7 @@ VOID APIENTRY* pfnDestroyVideoDecoder(
 
 #### - hDecoder [in]
 
-A handle to the driver's private data for the video decoder object. This handle was created by the Direct3D runtime and passed to the driver in the call to <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideodecoder.md">CreateVideoDecoder</a>.
+A handle to the driver's private data for the video decoder object. This handle was created by the Direct3D runtime and passed to the driver in the call to <a href="https://msdn.microsoft.com/41254f99-1806-428c-8bf3-7e736dbeec84">CreateVideoDecoder</a>.
 
 
 #### - hDevice [in]
@@ -107,12 +94,11 @@ This callback function does not return a value.
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideodecoder.md">CreateVideoDecoder</a>
 
 
 
+<a href="https://msdn.microsoft.com/41254f99-1806-428c-8bf3-7e736dbeec84">CreateVideoDecoder</a>
  
 
  
-
 

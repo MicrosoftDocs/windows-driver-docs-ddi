@@ -38,7 +38,8 @@ api_location:
 -	prcomoem.h
 api_name:
 -	IPrintOemUni.CommandCallback
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
@@ -53,20 +54,6 @@ req.product: Windows 10 or later.
 The <code>IPrintOemUni::CommandCallback</code> method is used to provide dynamically generated printer commands for Unidrv-supported printers.
 
 
-## -syntax
-
-
-````
-HRESULT CommandCallback(
-        PDEVOBJ pdevobj,
-        DWORD   dwCallbackID,
-        DWORD   dwCount,
-        PDWORD  pdwParams,
-  [out] INT     *piResult
-);
-````
-
-
 ## -parameters
 
 
@@ -74,7 +61,7 @@ HRESULT CommandCallback(
 
 ### -param pdevobj
 
-Caller-supplied pointer to a <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a> structure.
+Caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547573">DEVOBJ</a> structure.
 
 
 ### -param dwCallbackID

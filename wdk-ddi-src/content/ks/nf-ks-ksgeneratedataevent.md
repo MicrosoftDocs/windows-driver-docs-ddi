@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsGenerateDataEvent
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,18 +52,6 @@ req.typenames:
 
 
 The <b>KsGenerateDataEvent</b> function generates one of the standard event notifications when given an event entry structure and callback data. This allows a device to determine when event notifications should be generated, yet still use this helper function to perform the actual notification.
-
-
-## -syntax
-
-
-````
-NTSTATUS KsGenerateDataEvent(
-  _In_ PKSEVENT_ENTRY EventEntry,
-  _In_ ULONG          DataSize,
-  _In_ PVOID          Data
-);
-````
 
 
 ## -parameters
@@ -107,12 +96,11 @@ This function is specifically for events that pass data back through a callback 
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksbuffer_item.md">KSBUFFER_ITEM</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560992">KSBUFFER_ITEM</a>
  
 
  
-
 

@@ -39,7 +39,8 @@ api_location:
 -	Wdf01000.sys.dll
 api_name:
 -	WdfCmResourceListRemoveByDescriptor
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_REQUEST_SEND_OPTIONS, *PWDF_REQUEST_SEND_OPTIONS
 req.product: Windows 10 or later.
@@ -56,17 +57,6 @@ req.product: Windows 10 or later.
 The <b>WdfCmResourceListRemoveByDescriptor</b> method removes a specified resource descriptor from a specified resource list.
 
 
-## -syntax
-
-
-````
-VOID WdfCmResourceListRemoveByDescriptor(
-  _In_ WDFCMRESLIST                    List,
-  _In_ PCM_PARTIAL_RESOURCE_DESCRIPTOR Descriptor
-);
-````
-
-
 ## -parameters
 
 
@@ -79,7 +69,7 @@ A handle to a framework resource-list object that represents a list of hardware 
 
 ### -param Descriptor [in]
 
-A pointer to an <a href="..\wudfwdm\ns-wudfwdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure that describes a hardware resource.
+A pointer to an <a href="https://msdn.microsoft.com/96bf7bab-b8f5-439c-8717-ea6956ed0213">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure that describes a hardware resource.
 
 
 ## -returns
@@ -166,16 +156,15 @@ MyEvtDeviceRemoveAddedResources(
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
 
 
 
-<a href="..\wdfresource\nf-wdfresource-wdfcmresourcelistremove.md">WdfCmResourceListRemove</a>
+<a href="https://msdn.microsoft.com/96bf7bab-b8f5-439c-8717-ea6956ed0213">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545704">WdfCmResourceListRemove</a>
  
 
  
-
 

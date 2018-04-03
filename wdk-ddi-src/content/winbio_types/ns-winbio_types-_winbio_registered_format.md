@@ -38,7 +38,8 @@ api_location:
 -	winbio_types.h
 api_name:
 -	WINBIO_REGISTERED_FORMAT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WINBIO_REGISTERED_FORMAT, *PWINBIO_REGISTERED_FORMAT
 req.product: Windows 10 or later.
@@ -51,17 +52,6 @@ req.product: Windows 10 or later.
 
 
 The WINBIO_REGISTERED_FORMAT structure specifies a biometric data format.
-
-
-## -syntax
-
-
-````
-typedef struct _WINBIO_REGISTERED_FORMAT {
-  USHORT Owner;
-  USHORT Type;
-} WINBIO_REGISTERED_FORMAT, *PWINBIO_REGISTERED_FORMAT;
-````
 
 
 ## -struct-fields

@@ -7,7 +7,7 @@ old-location: dtf\iwdtfpnpactions2_restartdevice.htm
 old-project: dtf
 ms.assetid: b12cab9e-0dcd-4291-a93b-d8976c097bcd
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/29/2018
 ms.keywords: IWDTFPNPActions2, IWDTFPNPActions2 interface [Windows Device Testing Framework], RestartDevice method, IWDTFPNPActions2::RestartDevice, RestartDevice method [Windows Device Testing Framework], RestartDevice method [Windows Device Testing Framework], IWDTFPNPActions2 interface, RestartDevice,IWDTFPNPActions2.RestartDevice, dtf.iwdtfpnpactions2_restartdevice, wdtfpnpaction/IWDTFPNPActions2::RestartDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	wdtfpnpaction.h
 api_name:
 -	IWDTFPNPActions2.RestartDevice
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TTraceLevel
 req.product: Windows 10 or later.
@@ -51,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 Initiates a device restart.
-
-
-## -syntax
-
-
-````
-HRESULT RestartDevice(
-  [out, retval] VARIANT_BOOL *pbSuccess
-);
-````
 
 
 ## -parameters
@@ -94,12 +85,11 @@ See the MSDN docs for details.
 
 ## -see-also
 
-<a href="..\wdtfpnpaction\nn-wdtfpnpaction-iwdtfpnpactions2.md">IWDTFPNPActions2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451094">IWDTFPNPActions2</a>
  
 
  
-
 

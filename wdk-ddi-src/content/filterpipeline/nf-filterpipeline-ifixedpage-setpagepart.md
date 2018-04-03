@@ -38,7 +38,8 @@ api_location:
 -	filterpipeline.h
 api_name:
 -	IFixedPage.SetPagePart
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
@@ -50,16 +51,6 @@ req.typenames: EXpsFontRestriction
 
 
 The <b>SetPagePart</b> method associates a new part with the page.
-
-
-## -syntax
-
-
-````
-HRESULT SetPagePart(
-  [in] IUnknown *pUnk
-);
-````
 
 
 ## -parameters

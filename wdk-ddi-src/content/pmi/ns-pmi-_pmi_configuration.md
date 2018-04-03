@@ -38,7 +38,8 @@ api_location:
 -	pmi.h
 api_name:
 -	PMI_CONFIGURATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PMI_CONFIGURATION, *PPMI_CONFIGURATION
 ---
@@ -50,23 +51,6 @@ req.typenames: PMI_CONFIGURATION, *PPMI_CONFIGURATION
 
 
 The PMI_CONFIGURATION structure contains information about the current power metering and budgeting configuration of a power meter.
-
-
-## -syntax
-
-
-````
-typedef struct _PMI_CONFIGURATION {
-  ULONG                  Version;
-  USHORT                 Size;
-  PMI_CONFIGURATION_TYPE ConfigurationType;
-  union {
-    PMI_MEASUREMENT_CONFIGURATION MeasurementConfiguration;
-    PMI_BUDGETING_CONFIGURATION   BudgetingConfiguration;
-    PMI_THRESHOLD_CONFIGURATION   ThresholdConfiguration;
-  } Configuration;
-} PMI_CONFIGURATION, *PPMI_CONFIGURATION;
-````
 
 
 ## -struct-fields
@@ -86,7 +70,7 @@ A value, in units of bytes, that specifies the size of the structure.
 
 ### -field ConfigurationType
 
-A <a href="..\pmi\ne-pmi-pmi_configuration_type.md">PMI_CONFIGURATION_TYPE</a> enumeration value that specifies the data type of the <b>Configuration</b> member.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff543869">PMI_CONFIGURATION_TYPE</a> enumeration value that specifies the data type of the <b>Configuration</b> member.
 
 
 ### -field Configuration
@@ -97,7 +81,7 @@ A union of the supported Power Meter Interface (PMI) configuration structures. B
 
 #### MeasurementConfiguration
 
-A <a href="..\pmi\ns-pmi-_pmi_budgeting_configuration.md">PMI_BUDGETING_CONFIGURATION</a> structure that contains information about the budgeting configuration of the power meter.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff543858">PMI_BUDGETING_CONFIGURATION</a> structure that contains information about the budgeting configuration of the power meter.
 
 The <b>Configuration</b> member contains this structure if the <b>ConfigurationType</b> member is set to <b>PmiBudgetingConfiguration</b>.
 
@@ -105,7 +89,7 @@ The <b>Configuration</b> member contains this structure if the <b>ConfigurationT
 
 #### BudgetingConfiguration
 
-A <a href="..\pmi\ns-pmi-_pmi_measurement_configuration.md">PMI_MEASUREMENT_CONFIGURATION</a> structure that contains information about the measurement configuration of the power meter.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff543887">PMI_MEASUREMENT_CONFIGURATION</a> structure that contains information about the measurement configuration of the power meter.
 
 The <b>Configuration</b> member contains this structure if the <b>ConfigurationType</b> member is set to <b>PmiMeasurementConfiguration</b>.
 
@@ -113,7 +97,7 @@ The <b>Configuration</b> member contains this structure if the <b>ConfigurationT
 
 #### ThresholdConfiguration
 
-A <a href="..\pmi\ns-pmi-_pmi_threshold_configuration.md">PMI_THRESHOLD_CONFIGURATION</a> structure that contains information about the threshold configuration of the power meter.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff543908">PMI_THRESHOLD_CONFIGURATION</a> structure that contains information about the threshold configuration of the power meter.
 
 The <b>Configuration</b> member contains this structure if the <b>ConfigurationType</b> member is set to <b>PmiThresoldConfiguration</b>.
 
@@ -124,11 +108,11 @@ The <b>Configuration</b> member contains this structure if the <b>ConfigurationT
 
 The PMI_CONFIGURATION structure is used to query many different PMI configuration settings that are supported by a power meter. 
 
-The PMI configuration information is returned through an <a href="..\pmi\ni-pmi-ioctl_pmi_get_configuration.md">IOCTL_PMI_GET_CONFIGURATION</a> I/O control (IOCTL) query request. The input data of this query request is set to a <a href="..\pmi\ne-pmi-pmi_configuration_type.md">PMI_CONFIGURATION_TYPE</a> enumerator value that specifies the type of PMI configuration data to return.
+The PMI configuration information is returned through an <a href="https://msdn.microsoft.com/library/windows/hardware/ff543842">IOCTL_PMI_GET_CONFIGURATION</a> I/O control (IOCTL) query request. The input data of this query request is set to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543869">PMI_CONFIGURATION_TYPE</a> enumerator value that specifies the type of PMI configuration data to return.
 
 If the IOCTL query request completes successfully, the request returns a PMI_CONFIGURATION structure. The <b>Configuration</b> member of this structure contains data that is formatted as the requested PMI configuration structure.
 
-For example, if an IOCTL query request of <a href="..\pmi\ni-pmi-ioctl_pmi_get_configuration.md">IOCTL_PMI_GET_CONFIGURATION</a> is made with the input data set to <b>PmiBudgetingConfiguration</b> and the request completes successfully, the request returns a PMI_CONFIGURATION structure with its members set to the following values:
+For example, if an IOCTL query request of <a href="https://msdn.microsoft.com/library/windows/hardware/ff543842">IOCTL_PMI_GET_CONFIGURATION</a> is made with the input data set to <b>PmiBudgetingConfiguration</b> and the request completes successfully, the request returns a PMI_CONFIGURATION structure with its members set to the following values:
 
 <ul>
 <li>
@@ -136,7 +120,7 @@ The <b>ConfigurationType</b> member is set to <b>PmiBudgetingConfiguration</b>.
 
 </li>
 <li>
-The <b>Configuration</b> member contains data that is  formatted as a <a href="..\pmi\ns-pmi-_pmi_budgeting_configuration.md">PMI_BUDGETING_CONFIGURATION</a> structure.
+The <b>Configuration</b> member contains data that is  formatted as a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543858">PMI_BUDGETING_CONFIGURATION</a> structure.
 
 </li>
 </ul>
@@ -145,28 +129,27 @@ The <b>Configuration</b> member contains data that is  formatted as a <a href=".
 
 ## -see-also
 
-<a href="..\pmi\ne-pmi-pmi_configuration_type.md">PMI_CONFIGURATION_TYPE</a>
 
 
 
-<a href="..\pmi\ns-pmi-_pmi_budgeting_configuration.md">PMI_BUDGETING_CONFIGURATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543842">IOCTL_PMI_GET_CONFIGURATION</a>
 
 
 
-<a href="..\pmi\ns-pmi-_pmi_threshold_configuration.md">PMI_THRESHOLD_CONFIGURATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543858">PMI_BUDGETING_CONFIGURATION</a>
 
 
 
-<a href="..\pmi\ni-pmi-ioctl_pmi_get_configuration.md">IOCTL_PMI_GET_CONFIGURATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543869">PMI_CONFIGURATION_TYPE</a>
 
 
 
-<a href="..\pmi\ns-pmi-_pmi_measurement_configuration.md">PMI_MEASUREMENT_CONFIGURATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543887">PMI_MEASUREMENT_CONFIGURATION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543908">PMI_THRESHOLD_CONFIGURATION</a>
  
 
  
-
 

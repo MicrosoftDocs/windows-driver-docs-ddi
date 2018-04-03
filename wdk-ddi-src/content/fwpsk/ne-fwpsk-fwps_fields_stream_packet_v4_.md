@@ -7,7 +7,7 @@ old-location: netvista\fwps_fields_stream_packet_v4.htm
 old-project: netvista
 ms.assetid: 454d9cb6-f4a8-406b-8cc4-39d96796ffc4
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: FWPS_FIELDS_STREAM_PACKET_V4, FWPS_FIELDS_STREAM_PACKET_V4 enumeration [Network Drivers Starting with Windows Vista], FWPS_FIELDS_STREAM_PACKET_V4_, FWPS_FIELD_STREAM_PACKET_V4_DIRECTION, FWPS_FIELD_STREAM_PACKET_V4_FLAGS, FWPS_FIELD_STREAM_PACKET_V4_INTERFACE_INDEX, FWPS_FIELD_STREAM_PACKET_V4_INTERFACE_TYPE, FWPS_FIELD_STREAM_PACKET_V4_IP_LOCAL_ADDRESS, FWPS_FIELD_STREAM_PACKET_V4_IP_LOCAL_INTERFACE, FWPS_FIELD_STREAM_PACKET_V4_IP_LOCAL_PORT, FWPS_FIELD_STREAM_PACKET_V4_IP_REMOTE_ADDRESS, FWPS_FIELD_STREAM_PACKET_V4_IP_REMOTE_PORT, FWPS_FIELD_STREAM_PACKET_V4_MAX, FWPS_FIELD_STREAM_PACKET_V4_SUB_INTERFACE_INDEX, FWPS_FIELD_STREAM_PACKET_V4_TUNNEL_TYPE, fwpsk/FWPS_FIELDS_STREAM_PACKET_V4, fwpsk/FWPS_FIELD_STREAM_PACKET_V4_DIRECTION, fwpsk/FWPS_FIELD_STREAM_PACKET_V4_FLAGS, fwpsk/FWPS_FIELD_STREAM_PACKET_V4_INTERFACE_INDEX, fwpsk/FWPS_FIELD_STREAM_PACKET_V4_INTERFACE_TYPE, fwpsk/FWPS_FIELD_STREAM_PACKET_V4_IP_LOCAL_ADDRESS, fwpsk/FWPS_FIELD_STREAM_PACKET_V4_IP_LOCAL_INTERFACE, fwpsk/FWPS_FIELD_STREAM_PACKET_V4_IP_LOCAL_PORT, fwpsk/FWPS_FIELD_STREAM_PACKET_V4_IP_REMOTE_ADDRESS, fwpsk/FWPS_FIELD_STREAM_PACKET_V4_IP_REMOTE_PORT, fwpsk/FWPS_FIELD_STREAM_PACKET_V4_MAX, fwpsk/FWPS_FIELD_STREAM_PACKET_V4_SUB_INTERFACE_INDEX, fwpsk/FWPS_FIELD_STREAM_PACKET_V4_TUNNEL_TYPE, netvista.fwps_fields_stream_packet_v4, wfp_ref_5_const_3_data_fields_c752002f-ca36-435a-9abb-5119e247258a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	fwpsk.h
 api_name:
 -	FWPS_FIELDS_STREAM_PACKET_V4
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FWPS_FIELDS_STREAM_PACKET_V4
 ---
@@ -52,27 +53,6 @@ req.typenames: FWPS_FIELDS_STREAM_PACKET_V4
 The FWPS_FIELDS_STREAM_PACKET_V4 enumeration type specifies the data field identifiers for the
   FWPS_LAYER_STREAM_PACKET_V4 
   <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa366492">run-time filtering layer</a>.
-
-
-## -syntax
-
-
-````
-typedef enum FWPS_FIELDS_STREAM_PACKET_V4_ { 
-  FWPS_FIELD_STREAM_PACKET_V4_IP_LOCAL_ADDRESS,
-  FWPS_FIELD_STREAM_PACKET_V4_IP_REMOTE_ADDRESS,
-  FWPS_FIELD_STREAM_PACKET_V4_IP_LOCAL_PORT,
-  FWPS_FIELD_STREAM_PACKET_V4_IP_REMOTE_PORT,
-  FWPS_FIELD_STREAM_PACKET_V4_IP_LOCAL_INTERFACE,
-  FWPS_FIELD_STREAM_PACKET_V4_INTERFACE_INDEX,
-  FWPS_FIELD_STREAM_PACKET_V4_SUB_INTERFACE_INDEX,
-  FWPS_FIELD_STREAM_PACKET_V4_DIRECTION,
-  FWPS_FIELD_STREAM_PACKET_V4_FLAGS,
-  FWPS_FIELD_STREAM_PACKET_V4_INTERFACE_TYPE,
-  FWPS_FIELD_STREAM_PACKET_V4_TUNNEL_TYPE,
-  FWPS_FIELD_STREAM_PACKET_V4_MAX
-} FWPS_FIELDS_STREAM_PACKET_V4;
-````
 
 
 ## -enum-fields
@@ -102,7 +82,7 @@ The remote transport protocol port number.
 
 ### -field FWPS_FIELD_STREAM_PACKET_V4_IP_LOCAL_INTERFACE
 
-The locally unique identifier (<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>) for the network interface associated with the
+The locally unique identifier (<a href="https://msdn.microsoft.com/library/windows/hardware/ff557080">LUID</a>) for the network interface associated with the
      local IP address.
 
 
@@ -165,12 +145,11 @@ The maximum value for this enumeration. This value might change in future versio
 
 ## -see-also
 
-<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557080">LUID</a>
  
 
  
-
 

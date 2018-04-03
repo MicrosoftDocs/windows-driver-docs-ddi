@@ -38,7 +38,8 @@ api_location:
 -	printoem.h
 api_name:
 -	DrvUpdateUISetting
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PrintSchemaSelectionType
 req.product: Windows 10 or later.
@@ -54,23 +55,7 @@ The <b>DrvUpdateUISetting</b> function is obsolete.
 
  Windows 2000 and later UI plug-ins should use <a href="https://msdn.microsoft.com/library/windows/hardware/ff553115">IPrintOemDriverUI::DrvUpdateUISetting</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff553039">IPrintCoreUI2::DrvUpdateUISetting</a>. 
 
-This function pointer prototype defines the type of the <b>DrvUpdateUISetting</b> member of the <a href="..\printoem\ns-printoem-_oemuiprocs.md">OEMUIPROCS</a> structure.
-
-
-## -prototype
-
-
-````
-PFN_DrvUpdateUISetting DrvUpdateUISetting;
-
- BOOL APIENTRY* DrvUpdateUISetting(
-   PVOID pdriverobj,
-   PVOID pOptItem,
-   DWORD dwPreviousSelection,
-   DWORD dwMode
-)
-{ ... }
-````
+This function pointer prototype defines the type of the <b>DrvUpdateUISetting</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559574">OEMUIPROCS</a> structure.
 
 
 ## -parameters

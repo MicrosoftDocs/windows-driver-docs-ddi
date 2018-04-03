@@ -7,7 +7,7 @@ old-location: display\drawprimitive2.htm
 old-project: display
 ms.assetid: a81080f0-fbb3-4616-9324-642b60befcb3
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DrawPrimitive2, DrawPrimitive2 callback function [Display Devices], PFND3DDDI_DRAWPRIMITIVE2, UserModeDisplayDriver_Functions_5c08f7ff-b74c-4389-9b35-2f24f9468b5d.xml, d3dumddi/DrawPrimitive2, display.drawprimitive2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	DrawPrimitive2
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_PTE
 ---
@@ -50,20 +51,6 @@ req.typenames: DXGK_PTE
 
 
 The <b>DrawPrimitive2</b> function draws nonindexed primitives in which the Microsoft Direct3D runtime has transformed the vertex data.
-
-
-## -prototype
-
-
-````
-PFND3DDDI_DRAWPRIMITIVE2 DrawPrimitive2;
-
-__checkReturn HRESULT APIENTRY DrawPrimitive2(
-  _In_       HANDLE                   hDevice,
-  _In_ const D3DDDIARG_DRAWPRIMITIVE2 *pData
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -87,7 +74,7 @@ __checkReturn HRESULT APIENTRY DrawPrimitive2(
 
 #### - pData [in]
 
- A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_drawprimitive2.md">D3DDDIARG_DRAWPRIMITIVE2</a> structure that describes the primitive to draw.
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543061">D3DDDIARG_DRAWPRIMITIVE2</a> structure that describes the primitive to draw.
 
 
 ## -returns
@@ -110,16 +97,15 @@ Stream zero contains transform vertices and is the only stream that should be ac
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_drawprimitive2.md">D3DDDIARG_DRAWPRIMITIVE2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543061">D3DDDIARG_DRAWPRIMITIVE2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544519">D3DDDI_DEVICEFUNCS</a>
  
 
  
-
 

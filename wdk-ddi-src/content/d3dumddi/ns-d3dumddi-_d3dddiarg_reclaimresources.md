@@ -7,7 +7,7 @@ old-location: display\d3dddiarg_reclaimresources.htm
 old-project: display
 ms.assetid: 58e8738c-b10a-4c93-b179-03efcb65412d
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDIARG_RECLAIMRESOURCES, D3DDDIARG_RECLAIMRESOURCES structure [Display Devices], _D3DDDIARG_RECLAIMRESOURCES, d3dumddi/D3DDDIARG_RECLAIMRESOURCES, display.d3dddiarg_reclaimresources
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3dumddi.h
 api_name:
 -	D3DDDIARG_RECLAIMRESOURCES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDIARG_RECLAIMRESOURCES
 ---
@@ -49,19 +50,7 @@ req.typenames: D3DDDIARG_RECLAIMRESOURCES
 ## -description
 
 
-Describes video memory resources that are to be reclaimed and that the user-mode display driver  previously offered  for reuse. Used with the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_reclaimresources.md">ReclaimResources</a> function.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_RECLAIMRESOURCES {
-  HANDLE *pResources;
-  BOOL   *pDiscarded;
-  UINT   Resources;
-} D3DDDIARG_RECLAIMRESOURCES;
-````
+Describes video memory resources that are to be reclaimed and that the user-mode display driver  previously offered  for reuse. Used with the <a href="https://msdn.microsoft.com/F0533DBB-CB18-4556-9871-2DF4CA719172">ReclaimResources</a> function.
 
 
 ## -struct-fields
@@ -92,16 +81,15 @@ If <b>pDiscarded</b> is <b>NULL</b>, the driver can ignore it.
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_reclaimresources.md">ReclaimResources</a>
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a>
+<a href="https://msdn.microsoft.com/c69eedb1-c975-412c-aa9f-cf64a702f937">CreateDevice(D3D10)</a>
 
 
 
+<a href="https://msdn.microsoft.com/F0533DBB-CB18-4556-9871-2DF4CA719172">ReclaimResources</a>
  
 
  
-
 

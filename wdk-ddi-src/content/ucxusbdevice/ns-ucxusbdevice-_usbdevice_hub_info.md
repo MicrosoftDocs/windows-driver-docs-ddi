@@ -7,7 +7,7 @@ old-location: buses\_usbdevice_hub_info.htm
 old-project: usbref
 ms.assetid: F403179A-B339-432D-AAF9-E7D9965F8B00
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PUSBDEVICE_HUB_INFO, P_USBDEVICE_HUB_INFO, P_USBDEVICE_HUB_INFO structure pointer [Buses], USBDEVICE_HUB_INFO, USBDEVICE_HUB_INFO structure [Buses], _USBDEVICE_HUB_INFO, buses._usbdevice_hub_info, ucxusbdevice/P_USBDEVICE_HUB_INFO, ucxusbdevice/_USBDEVICE_HUB_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ucxusbdevice.h
 api_name:
 -	USBDEVICE_HUB_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USBDEVICE_HUB_INFO, *PUSBDEVICE_HUB_INFO
 req.product: Windows 10 or later.
@@ -50,24 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-Contains parameters for a request to get information about the specified hub. This structure is passed by UCX in request parameters (<b>Parameters.Others.Arg1</b>) of a framework request object of the <a href="..\ucxusbdevice\nc-ucxusbdevice-evt_ucx_usbdevice_hub_info.md">EVT_UCX_USBDEVICE_HUB_INFO</a> callback function.
-
-
-## -syntax
-
-
-````
-typedef struct _USBDEVICE_HUB_INFO {
-#if __cplusplus
-  USBDEVICE_MGMT_HEADER Header;
-#else 
-  USBDEVICE_MGMT_HEADER ;
-#endif 
-  ULONG                 NumberOfPorts;
-  ULONG                 NumberOfTTs;
-  ULONG                 TTThinkTime;
-} USBDEVICE_HUB_INFO, *P_USBDEVICE_HUB_INFO;
-````
+Contains parameters for a request to get information about the specified hub. This structure is passed by UCX in request parameters (<b>Parameters.Others.Arg1</b>) of a framework request object of the <a href="https://msdn.microsoft.com/library/windows/hardware/mt187844">EVT_UCX_USBDEVICE_HUB_INFO</a> callback function.
 
 
 ## -struct-fields
@@ -77,7 +61,7 @@ typedef struct _USBDEVICE_HUB_INFO {
 
 ### -field Header
 
-A <a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_mgmt_header.md">USBDEVICE_MGMT_HEADER</a> structure that contains  the handle for the USB hub or device.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/mt188075">USBDEVICE_MGMT_HEADER</a> structure that contains  the handle for the USB hub or device.
 
 
 ### -field NumberOfPorts
@@ -97,12 +81,11 @@ The ThinkTime property of the TT hub, filled by the client driver.
 
 ## -see-also
 
-<a href="..\ucxusbdevice\nc-ucxusbdevice-evt_ucx_usbdevice_hub_info.md">EVT_UCX_USBDEVICE_HUB_INFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt187844">EVT_UCX_USBDEVICE_HUB_INFO</a>
  
 
  
-
 

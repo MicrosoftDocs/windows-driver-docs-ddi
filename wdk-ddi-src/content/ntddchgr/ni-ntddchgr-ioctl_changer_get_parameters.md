@@ -7,7 +7,7 @@ old-location: storage\ioctl_changer_get_parameters.htm
 old-project: storage
 ms.assetid: c4a6faa4-f3ea-4504-8d3b-a34465c90273
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_CHANGER_GET_PARAMETERS, IOCTL_CHANGER_GET_PARAMETERS control code [Storage Devices], k307_e3288dd0-4585-40de-aa5a-499c596aa75b.xml, ntddchgr/IOCTL_CHANGER_GET_PARAMETERS, storage.ioctl_changer_get_parameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ntddchgr.h
 api_name:
 -	IOCTL_CHANGER_GET_PARAMETERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: ELEMENT_TYPE, *PELEMENT_TYPE
 ---
@@ -72,7 +73,7 @@ None.
 
 ### -output-buffer
 
-The driver returns the <a href="..\ntddchgr\ns-ntddchgr-_get_changer_parameters.md">GET_CHANGER_PARAMETERS</a> data in the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>.
+The driver returns the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554979">GET_CHANGER_PARAMETERS</a> data in the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>.
 
 
 ### -output-buffer-length
@@ -105,12 +106,11 @@ The <b>Information</b> field is set to the number of bytes returned. The <b>Stat
 
 ## -see-also
 
-<a href="..\ntddchgr\ns-ntddchgr-_get_changer_parameters.md">GET_CHANGER_PARAMETERS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554979">GET_CHANGER_PARAMETERS</a>
  
 
  
-
 

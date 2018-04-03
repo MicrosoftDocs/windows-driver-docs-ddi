@@ -7,7 +7,7 @@ old-location: display\d3dhal_callbacks3.htm
 old-project: display
 ms.assetid: 09215332-4ee3-4f7b-be25-091b8d85fd6b
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*LPD3DHAL_CALLBACKS3, D3DHAL_CALLBACKS3, D3DHAL_CALLBACKS3 structure [Display Devices], LPD3DHAL_CALLBACKS3, LPD3DHAL_CALLBACKS3 structure pointer [Display Devices], _D3DHAL_CALLBACKS3, d3dhal/D3DHAL_CALLBACKS3, d3dhal/LPD3DHAL_CALLBACKS3, d3dstrct_1171658a-fb5a-45ad-aedc-14fcc9725f60.xml, display.d3dhal_callbacks3"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dhal.h
 api_name:
 -	D3DHAL_CALLBACKS3
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DHAL_CALLBACKS3, *LPD3DHAL_CALLBACKS3, D3DHAL_CALLBACKS3
 ---
@@ -50,21 +51,6 @@ req.typenames: D3DHAL_CALLBACKS3, *LPD3DHAL_CALLBACKS3, D3DHAL_CALLBACKS3
 
 
 D3DHAL_CALLBACKS3 is one of several callback structures that describe the Direct3D support provided by the driver.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DHAL_CALLBACKS3 {
-  DWORD                                dwSize;
-  DWORD                                dwFlags;
-  LPD3DHAL_CLEAR2CB                    Clear2;
-  LPVOID                               lpvReserved;
-  LPD3DHAL_VALIDATETEXTURESTAGESTATECB ValidateTextureStageState;
-  LPD3DHAL_DRAWPRIMITIVES2CB           DrawPrimitives2;
-} D3DHAL_CALLBACKS3, *LPD3DHAL_CALLBACKS3;
-````
 
 
 ## -struct-fields
@@ -102,7 +88,7 @@ D3DHAL3_CB32_DRAWPRIMITIVES2
 
 </td>
 <td>
-The <b>DrawPrimitives2</b> member points to a driver-implemented <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a> callback.
+The <b>DrawPrimitives2</b> member points to a driver-implemented <a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a> callback.
 
 </td>
 </tr>
@@ -132,7 +118,7 @@ The <b>ValidateTextureStageState</b> member points to a driver-implemented <a hr
 
 ### -field Clear2
 
-Must be set to <b>NULL</b>. This was a pointer to the driver-supplied <b>D3dClear2</b> callback that is no longer used for DirectX 7.0 and beyond. Instead the driver should respond to the D3DDP2OP_CLEAR command stream token in its implementation of <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>.
+Must be set to <b>NULL</b>. This was a pointer to the driver-supplied <b>D3dClear2</b> callback that is no longer used for DirectX 7.0 and beyond. Instead the driver should respond to the D3DDP2OP_CLEAR command stream token in its implementation of <a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a>.
 
 
 ### -field lpvReserved
@@ -147,7 +133,7 @@ Points to the driver-supplied <a href="https://msdn.microsoft.com/library/window
 
 ### -field DrawPrimitives2
 
-Points to the driver-supplied <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a> callback. A driver must implement the callback that this member points to.
+Points to the driver-supplied <a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a> callback. A driver must implement the callback that this member points to.
 
 
 ## -remarks
@@ -161,7 +147,6 @@ The driver allocates this structure and sets appropriate values in all members. 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/89a22163-a678-4c72-932a-ae4d17922e0b">DdGetDriverInfo</a>
 
 
 
@@ -169,7 +154,11 @@ D3DDP2OP_CLEAR
 
 
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_callbacks.md">D3DHAL_CALLBACKS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544716">D3DHAL_CALLBACKS</a>
+
+
+
+<a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a>
 
 
 
@@ -177,12 +166,8 @@ D3DDP2OP_CLEAR
 
 
 
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
-
-
-
+<a href="https://msdn.microsoft.com/89a22163-a678-4c72-932a-ae4d17922e0b">DdGetDriverInfo</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: netvista\ndis_wwan_ready_info.htm
 old-project: netvista
 ms.assetid: 9f47b70a-426c-47a2-b438-fc00eadc002f
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PNDIS_WWAN_READY_INFO, NDIS_WWAN_READY_INFO, NDIS_WWAN_READY_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_READY_INFO, PNDIS_WWAN_READY_INFO structure pointer [Network Drivers Starting with Windows Vista], WwanRef_6ae45c84-c13d-4142-b39a-07b3a9f57253.xml, _NDIS_WWAN_READY_INFO, ndiswwan/NDIS_WWAN_READY_INFO, ndiswwan/PNDIS_WWAN_READY_INFO, netvista.ndis_wwan_ready_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ndiswwan.h
 api_name:
 -	NDIS_WWAN_READY_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_WWAN_READY_INFO, *PNDIS_WWAN_READY_INFO
 ---
@@ -51,17 +52,6 @@ req.typenames: NDIS_WWAN_READY_INFO, *PNDIS_WWAN_READY_INFO
 
 The NDIS_WWAN_READY_INFO structure represents the ready-state of the MB device and Subscriber
   Identity Module (SIM card).
-
-
-## -syntax
-
-
-````
-typedef struct _NDIS_WWAN_READY_INFO {
-  NDIS_OBJECT_HEADER Header;
-  WWAN_READY_INFO    ReadyInfo;
-} NDIS_WWAN_READY_INFO, *PNDIS_WWAN_READY_INFO;
-````
 
 
 ## -struct-fields
@@ -117,28 +107,27 @@ sizeof(NDIS_WWAN_READY_INFO)
  
 
 For more information about these members, see 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field ReadyInfo
 
 A formatted 
-     <a href="..\wwan\ns-wwan-_wwan_ready_info.md">WWAN_READY_INFO</a> object that represents the
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571226">WWAN_READY_INFO</a> object that represents the
      device ready-state.
 
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="..\wwan\ns-wwan-_wwan_ready_info.md">WWAN_READY_INFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571226">WWAN_READY_INFO</a>
  
 
  
-
 

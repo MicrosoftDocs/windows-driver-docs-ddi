@@ -38,7 +38,8 @@ api_location:
 -	printoem.h
 api_name:
 -	OEMQueryDeviceSupport
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STDVARIABLEINDEX
 req.product: Windows 10 or later.
@@ -51,23 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <code>OEMQueryDeviceSupport</code> function returns requested device-specific information.
-
-
-## -syntax
-
-
-````
-BOOL APIENTRY OEMQueryDeviceSupport(
-        SURFOBJ                     *pso,
-        XLATEOBJ                    *pxlo,
-        XFORMOBJ                    *pxo,
-        ULONG                       iType,
-        ULONG                       cjIn,
-  _In_  _reads_bytes_(cjIn) PVOID   pvIn,
-        ULONG                       cjOut,
-  _Out_ _writes_bytes_(cjOut) PVOID pvOut
-);
-````
 
 
 ## -parameters

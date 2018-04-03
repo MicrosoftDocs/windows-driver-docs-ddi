@@ -7,7 +7,7 @@ old-location: netvista\ndiswditxtransfercompleteindication.htm
 old-project: netvista
 ms.assetid: BC66C993-F571-4EB9-8163-65B038ECE754
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NDIS_WDI_TX_TRANSFER_COMPLETE_IND, NdisWdiTxTransferCompleteIndication, NdisWdiTxTransferCompleteIndication callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiTxTransferCompleteIndication, netvista.ndiswditxtransfercompleteindication
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	dot11wdi.h
 api_name:
 -	NdisWdiTxTransferCompleteIndication
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SYNTH_STATS, *PSYNTH_STATS
 ---
@@ -52,24 +53,9 @@ req.typenames: SYNTH_STATS, *PSYNTH_STATS
 The NdisWdiTxTransferCompleteIndication callback function specifies a list of frame buffers that have been transferred to the target.
 Frames with different TX Status values are completed in separate indications.
 
-If the TX status is a failure code, an <a href="..\dot11wdi\nc-dot11wdi-ndis_wdi_tx_send_complete_ind.md">NdisWdiTxSendCompleteIndication</a> is not indicated for any of the frames in the <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> (NBL) chain.
+If the TX status is a failure code, an <a href="https://msdn.microsoft.com/A38BA15D-FDD8-41D1-87ED-2CABC1926962">NdisWdiTxSendCompleteIndication</a> is not indicated for any of the frames in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> (NBL) chain.
 
-This is a callback inside <a href="..\dot11wdi\ns-dot11wdi-_ndis_wdi_data_api.md">NDIS_WDI_DATA_API</a>.
-
-
-## -prototype
-
-
-````
-NDIS_WDI_TX_TRANSFER_COMPLETE_IND NdisWdiTxTransferCompleteIndication;
-
-VOID NdisWdiTxTransferCompleteIndication(
-  _In_ NDIS_HANDLE         NdisMiniportDataPathHandle,
-  _In_ WDI_TX_FRAME_STATUS WifiTxFrameStatus,
-  _In_ PNET_BUFFER_LIST    pNBL
-)
-{ ... }
-````
+This is a callback inside <a href="https://msdn.microsoft.com/library/windows/hardware/mt297620">NDIS_WDI_DATA_API</a>.
 
 
 ## -parameters
@@ -79,12 +65,12 @@ VOID NdisWdiTxTransferCompleteIndication(
 
 ### -param NdisMiniportDataPathHandle [in]
 
-The NdisMiniportDataPathHandle passed to the IHV miniport in <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_tal_txrx_initialize.md">MiniportWdiTalTxRxInitialize</a>.
+The NdisMiniportDataPathHandle passed to the IHV miniport in <a href="https://msdn.microsoft.com/C297D681-D43F-4105-9E08-7FF42807E9A0">MiniportWdiTalTxRxInitialize</a>.
 
 
 ### -param WifiTxFrameStatus [in]
 
-The TX status, specified as a <a href="..\dot11wdi\ne-dot11wdi-_wdi_tx_frame_status.md">WDI_TX_FRAME_STATUS</a> value.
+The TX status, specified as a <a href="https://msdn.microsoft.com/library/windows/hardware/dn898194">WDI_TX_FRAME_STATUS</a> value.
 
 
 ### -param pNBL [in]
@@ -103,24 +89,23 @@ This callback function does not return a value.
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
 
-<a href="..\dot11wdi\ne-dot11wdi-_wdi_tx_frame_status.md">WDI_TX_FRAME_STATUS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt297620">NDIS_WDI_DATA_API</a>
 
 
 
-<a href="..\dot11wdi\ns-dot11wdi-_ndis_wdi_data_api.md">NDIS_WDI_DATA_API</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a>
 
 
 
-<a href="..\dot11wdi\nc-dot11wdi-ndis_wdi_tx_send_complete_ind.md">NdisWdiTxSendCompleteIndication</a>
+<a href="https://msdn.microsoft.com/A38BA15D-FDD8-41D1-87ED-2CABC1926962">NdisWdiTxSendCompleteIndication</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn898194">WDI_TX_FRAME_STATUS</a>
  
 
  
-
 

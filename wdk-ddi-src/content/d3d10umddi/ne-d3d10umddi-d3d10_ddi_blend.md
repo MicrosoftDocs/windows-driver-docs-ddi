@@ -7,7 +7,7 @@ old-location: display\d3d10_ddi_blend.htm
 old-project: display
 ms.assetid: 719cd6b3-4f48-4b26-95fe-6f5faac56c06
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3D10_DDI_BLEND, D3D10_DDI_BLEND enumeration [Display Devices], D3D10_DDI_BLEND_BLEND_FACTOR, D3D10_DDI_BLEND_DEST_ALPHA, D3D10_DDI_BLEND_DEST_COLOR, D3D10_DDI_BLEND_INVBLEND_FACTOR, D3D10_DDI_BLEND_INV_DEST_ALPHA, D3D10_DDI_BLEND_INV_DEST_COLOR, D3D10_DDI_BLEND_INV_SRC1_ALPHA, D3D10_DDI_BLEND_INV_SRC1_COLOR, D3D10_DDI_BLEND_INV_SRC_ALPHA, D3D10_DDI_BLEND_INV_SRC_COLOR, D3D10_DDI_BLEND_ONE, D3D10_DDI_BLEND_SRC1_ALPHA, D3D10_DDI_BLEND_SRC1_COLOR, D3D10_DDI_BLEND_SRC_ALPHA, D3D10_DDI_BLEND_SRC_ALPHASAT, D3D10_DDI_BLEND_SRC_COLOR, D3D10_DDI_BLEND_ZERO, UMDisplayDriver_Dx10param_Structs_de092af6-e6a8-4772-af32-b92d2afcea79.xml, d3d10umddi/D3D10_DDI_BLEND, d3d10umddi/D3D10_DDI_BLEND_BLEND_FACTOR, d3d10umddi/D3D10_DDI_BLEND_DEST_ALPHA, d3d10umddi/D3D10_DDI_BLEND_DEST_COLOR, d3d10umddi/D3D10_DDI_BLEND_INVBLEND_FACTOR, d3d10umddi/D3D10_DDI_BLEND_INV_DEST_ALPHA, d3d10umddi/D3D10_DDI_BLEND_INV_DEST_COLOR, d3d10umddi/D3D10_DDI_BLEND_INV_SRC1_ALPHA, d3d10umddi/D3D10_DDI_BLEND_INV_SRC1_COLOR, d3d10umddi/D3D10_DDI_BLEND_INV_SRC_ALPHA, d3d10umddi/D3D10_DDI_BLEND_INV_SRC_COLOR, d3d10umddi/D3D10_DDI_BLEND_ONE, d3d10umddi/D3D10_DDI_BLEND_SRC1_ALPHA, d3d10umddi/D3D10_DDI_BLEND_SRC1_COLOR, d3d10umddi/D3D10_DDI_BLEND_SRC_ALPHA, d3d10umddi/D3D10_DDI_BLEND_SRC_ALPHASAT, d3d10umddi/D3D10_DDI_BLEND_SRC_COLOR, d3d10umddi/D3D10_DDI_BLEND_ZERO, display.d3d10_ddi_blend
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3d10umddi.h
 api_name:
 -	D3D10_DDI_BLEND
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D10_DDI_BLEND
 ---
@@ -49,33 +50,7 @@ req.typenames: D3D10_DDI_BLEND
 ## -description
 
 
-The D3D10_DDI_BLEND enumeration type contains values that identify blend modes in a call to the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createblendstate.md">CreateBlendState</a> function.
-
-
-## -syntax
-
-
-````
-typedef enum D3D10_DDI_BLEND { 
-  D3D10_DDI_BLEND_ZERO             = 1,
-  D3D10_DDI_BLEND_ONE              = 2,
-  D3D10_DDI_BLEND_SRC_COLOR        = 3,
-  D3D10_DDI_BLEND_INV_SRC_COLOR    = 4,
-  D3D10_DDI_BLEND_SRC_ALPHA        = 5,
-  D3D10_DDI_BLEND_INV_SRC_ALPHA    = 6,
-  D3D10_DDI_BLEND_DEST_ALPHA       = 7,
-  D3D10_DDI_BLEND_INV_DEST_ALPHA   = 8,
-  D3D10_DDI_BLEND_DEST_COLOR       = 9,
-  D3D10_DDI_BLEND_INV_DEST_COLOR   = 10,
-  D3D10_DDI_BLEND_SRC_ALPHASAT     = 11,
-  D3D10_DDI_BLEND_BLEND_FACTOR     = 14,
-  D3D10_DDI_BLEND_INVBLEND_FACTOR  = 15,
-  D3D10_DDI_BLEND_SRC1_COLOR       = 16,
-  D3D10_DDI_BLEND_INV_SRC1_COLOR   = 17,
-  D3D10_DDI_BLEND_SRC1_ALPHA       = 18,
-  D3D10_DDI_BLEND_INV_SRC1_ALPHA   = 19
-} D3D10_DDI_BLEND;
-````
+The D3D10_DDI_BLEND enumeration type contains values that identify blend modes in a call to the driver's <a href="https://msdn.microsoft.com/f203a83c-0108-4e20-9972-06857099378c">CreateBlendState</a> function.
 
 
 ## -enum-fields
@@ -183,12 +158,11 @@ A <i>blend mode</i> is an algorithm that is used to determine how a texture is b
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createblendstate.md">CreateBlendState</a>
 
 
 
+<a href="https://msdn.microsoft.com/f203a83c-0108-4e20-9972-06857099378c">CreateBlendState</a>
  
 
  
-
 

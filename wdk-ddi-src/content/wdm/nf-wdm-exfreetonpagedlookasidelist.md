@@ -7,7 +7,7 @@ old-location: kernel\exfreetonpagedlookasidelist.htm
 old-project: kernel
 ms.assetid: 8abd72f1-0537-4624-b3d4-2de51c4d4daa
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: ExFreeToNPagedLookasideList, ExFreeToNPagedLookasideList routine [Kernel-Mode Driver Architecture], k102_30577c54-40a4-41a3-abc2-f3cdcd45ef1b.xml, kernel.exfreetonpagedlookasidelist, wdm/ExFreeToNPagedLookasideList
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	ExFreeToNPagedLookasideList
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
@@ -53,17 +54,6 @@ req.product: Windows 10 or later.
 The <b>ExFreeToNPagedLookasideList</b> routine returns a nonpaged entry to the given lookaside list or to nonpaged pool.
 
 
-## -syntax
-
-
-````
- VOID ExFreeToNPagedLookasideList(
-  _Inout_ PNPAGED_LOOKASIDE_LIST Lookaside,
-  _In_    PVOID                  Entry
-);
-````
-
-
 ## -parameters
 
 
@@ -71,12 +61,12 @@ The <b>ExFreeToNPagedLookasideList</b> routine returns a nonpaged entry to the g
 
 ### -param Lookaside [in, out]
 
-A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556431">NPAGED_LOOKASIDE_LIST</a> structure for the lookaside list, which the caller already initialized with <a href="..\wdm\nf-wdm-exinitializenpagedlookasidelist.md">ExInitializeNPagedLookasideList</a>. 
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556431">NPAGED_LOOKASIDE_LIST</a> structure for the lookaside list, which the caller already initialized with <a href="https://msdn.microsoft.com/library/windows/hardware/ff545301">ExInitializeNPagedLookasideList</a>. 
 
 
 ### -param Entry [in]
 
-A pointer to the entry to be freed. The caller obtained this pointer from a preceding call to <a href="..\wdm\nf-wdm-exallocatefromnpagedlookasidelist.md">ExAllocateFromNPagedLookasideList</a>. 
+A pointer to the entry to be freed. The caller obtained this pointer from a preceding call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff544388">ExAllocateFromNPagedLookasideList</a>. 
 
 
 ## -returns
@@ -105,24 +95,23 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544388">ExAllocateFromNPagedLookasideList</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544566">ExDeleteNPagedLookasideList</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545301">ExInitializeNPagedLookasideList</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556431">NPAGED_LOOKASIDE_LIST</a>
-
-
-
-<a href="..\wdm\nf-wdm-exdeletenpagedlookasidelist.md">ExDeleteNPagedLookasideList</a>
-
-
-
-<a href="..\wdm\nf-wdm-exinitializenpagedlookasidelist.md">ExInitializeNPagedLookasideList</a>
-
-
-
-<a href="..\wdm\nf-wdm-exallocatefromnpagedlookasidelist.md">ExAllocateFromNPagedLookasideList</a>
-
-
-
  
 
  
-
 

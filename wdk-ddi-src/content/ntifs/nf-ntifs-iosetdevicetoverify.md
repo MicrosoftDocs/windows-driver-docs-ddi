@@ -7,7 +7,7 @@ old-location: ifsk\iosetdevicetoverify.htm
 old-project: ifsk
 ms.assetid: 509eb91d-7f34-4ebb-bc37-56889c15a1b3
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: IoSetDeviceToVerify, IoSetDeviceToVerify routine [Installable File System Drivers], ifsk.iosetdevicetoverify, ioref_58eab192-eab0-42ee-8c2b-4fe1ad0fb703.xml, ntifs/IoSetDeviceToVerify
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	IoSetDeviceToVerify
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -50,17 +51,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>IoSetDeviceToVerify</b> routine specifies a device object to be verified. The specified device object represents a removable media device.
-
-
-## -syntax
-
-
-````
-VOID IoSetDeviceToVerify(
-  _In_     PETHREAD       Thread,
-  _In_opt_ PDEVICE_OBJECT DeviceObject
-);
-````
 
 
 ## -parameters
@@ -95,7 +85,7 @@ A file system calls <b>IoSetDeviceToVerify</b> to indicate that a given device o
 
 A file system must verify a volume when it receives notification from an underlying removable-media device driver that the media appears to have changed since the last access to the target device. 
 
-Before using <b>IoSetDeviceToVerify</b> and <a href="..\ntifs\nf-ntifs-ioverifyvolume.md">IoVerifyVolume</a>, driver writers are strongly encouraged to study the way these routines are used in the FASTFAT sample.
+Before using <b>IoSetDeviceToVerify</b> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff548559">IoVerifyVolume</a>, driver writers are strongly encouraged to study the way these routines are used in the FASTFAT sample.
 
 For more information about removable-media devices, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563916">Supporting Removable Media</a>.
 
@@ -104,24 +94,23 @@ For more information about removable-media devices, see <a href="https://msdn.mi
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-iogetdevicetoverify.md">IoGetDeviceToVerify</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-ioverifyvolume.md">IoVerifyVolume</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550694">IRP</a>
 
 
 
-<a href="..\wdm\nf-wdm-psgetcurrentthread.md">PsGetCurrentThread</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549212">IoGetDeviceToVerify</a>
 
 
 
-<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548559">IoVerifyVolume</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559936">PsGetCurrentThread</a>
  
 
  
-
 

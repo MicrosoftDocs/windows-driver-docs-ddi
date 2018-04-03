@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KS_DATARANGE_MPEG1_VIDEO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KS_DATARANGE_MPEG1_VIDEO, *PKS_DATARANGE_MPEG1_VIDEO
 ---
@@ -50,22 +51,6 @@ req.typenames: KS_DATARANGE_MPEG1_VIDEO, *PKS_DATARANGE_MPEG1_VIDEO
 
 
 The KS_DATARANGE_MPEG1_VIDEO structure describes the range of MPEG-1 video formats available for a stream.
-
-
-## -syntax
-
-
-````
-typedef struct tagKS_DATARANGE_MPEG1_VIDEO {
-  KSDATARANGE                 DataRange;
-  BOOL                        bFixedSizeSamples;
-  BOOL                        bTemporalCompression;
-  DWORD                       StreamDescriptionFlags;
-  DWORD                       MemoryAllocationFlags;
-  KS_VIDEO_STREAM_CONFIG_CAPS ConfigCaps;
-  KS_MPEG1VIDEOINFO           VideoInfoHeader;
-} KS_DATARANGE_MPEG1_VIDEO, *PKS_DATARANGE_MPEG1_VIDEO;
-````
 
 
 ## -struct-fields
@@ -110,11 +95,6 @@ Specifies the details of the video stream.
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-tagks_mpeg1videoinfo.md">KS_MPEG1VIDEOINFO</a>
-
-
-
-<a href="..\ksmedia\ns-ksmedia-_ks_video_stream_config_caps.md">KS_VIDEO_STREAM_CONFIG_CAPS</a>
 
 
 
@@ -122,8 +102,12 @@ Specifies the details of the video stream.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567658">KS_MPEG1VIDEOINFO</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567706">KS_VIDEO_STREAM_CONFIG_CAPS</a>
  
 
  
-
 

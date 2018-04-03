@@ -38,7 +38,8 @@ api_location:
 -	Ks.h
 api_name:
 -	KSPIN_CINSTANCES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSPIN_CINSTANCES, *PKSPIN_CINSTANCES
 ---
@@ -50,17 +51,6 @@ req.typenames: KSPIN_CINSTANCES, *PKSPIN_CINSTANCES
 
 
 
-
-
-## -syntax
-
-
-````
-typedef struct {
-  ULONG PossibleCount;
-  ULONG CurrentCount;
-} KSPIN_CINSTANCES, *PKSPIN_CINSTANCES;
-````
 
 
 ## -struct-fields

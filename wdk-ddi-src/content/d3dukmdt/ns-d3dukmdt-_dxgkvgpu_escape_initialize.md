@@ -7,7 +7,7 @@ old-location: display\dxgkvgpu_escape_initialize.htm
 old-project: display
 ms.assetid: 697F4A4C-349E-46E5-B891-215C4AFFC4B6
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKVGPU_ESCAPE_INITIALIZE, DXGKVGPU_ESCAPE_INITIALIZE structure [Display Devices], _DXGKVGPU_ESCAPE_INITIALIZE, d3dukmdt/DXGKVGPU_ESCAPE_INITIALIZE, display.dxgkvgpu_escape_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dukmdt.h
 api_name:
 -	DXGKVGPU_ESCAPE_INITIALIZE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGKVGPU_ESCAPE_INITIALIZE
 ---
@@ -50,16 +51,6 @@ req.typenames: DXGKVGPU_ESCAPE_INITIALIZE
 
 
 Used to initialize an escape.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGKVGPU_ESCAPE_INITIALIZE {
-  DXGKVGPU_ESCAPE_HEAD Header;
-} DXGKVGPU_ESCAPE_INITIALIZE;
-````
 
 
 ## -struct-fields

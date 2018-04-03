@@ -7,7 +7,7 @@ old-location: netvista\ndis_miniport_offload_block_list.htm
 old-project: netvista
 ms.assetid: ebc98e65-5d11-4c3d-aea1-dfad1434c093
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PNDIS_MINIPORT_OFFLOAD_BLOCK_LIST, NDIS_MINIPORT_OFFLOAD_BLOCK_LIST, NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure [Network Drivers Starting with Windows Vista], PNDIS_MINIPORT_OFFLOAD_BLOCK_LIST, PNDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure pointer [Network Drivers Starting with Windows Vista], _NDIS_MINIPORT_OFFLOAD_BLOCK_LIST, ndischimney/NDIS_MINIPORT_OFFLOAD_BLOCK_LIST, ndischimney/PNDIS_MINIPORT_OFFLOAD_BLOCK_LIST, netvista.ndis_miniport_offload_block_list, tcp_chim_struct_34a99dea-527f-421e-a3a7-92a7c1f7d503.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ndischimney.h
 api_name:
 -	NDIS_MINIPORT_OFFLOAD_BLOCK_LIST
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_MINIPORT_OFFLOAD_BLOCK_LIST, *PNDIS_MINIPORT_OFFLOAD_BLOCK_LIST
 ---
@@ -56,29 +57,6 @@ The NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure is the basic building block of a 
   structures.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_MINIPORT_OFFLOAD_BLOCK_LIST {
-  NDIS_OBJECT_HEADER                       Header;
-  struct _NDIS_MINIPORT_OFFLOAD_BLOCK_LIST  *NextBlock;
-  struct _NDIS_MINIPORT_OFFLOAD_BLOCK_LIST  *DependentBlockList;
-  NDIS_STATUS                              Status;
-  PVOID                                    NdisReserved[2];
-  PVOID                                    *MiniportOffloadContext;
-  NDIS_HANDLE                              NdisOffloadHandle;
-  PVOID                                    ProtocolReserved[2];
-  PVOID                                    MiniportReserved[2];
-  PVOID                                    ImReserved[2];
-  PVOID                                    Scratch[2];
-  PVOID                                    SourceHandle;
-  NDIS_PORT_NUMBER                         PortNumber;
-  PNET_BUFFER_LIST                         NetBufferListChain;
-} NDIS_MINIPORT_OFFLOAD_BLOCK_LIST, *PNDIS_MINIPORT_OFFLOAD_BLOCK_LIST;
-````
-
-
 ## -struct-fields
 
 
@@ -87,7 +65,7 @@ typedef struct _NDIS_MINIPORT_OFFLOAD_BLOCK_LIST {
 ### -field Header
 
 The header of the NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure. The header is formatted as an 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure. The
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure. The
      NDIS_OBJECT_HEADER structure contains the revision number of the NDIS_MINIPORT_OFFLOAD_BLOCK_LIST
      structure, the type of offload state that immediately follows the NDIS_MINIPORT_OFFLOAD_BLOCK_LIST
      structure in memory, and the size of the NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure, including the
@@ -108,7 +86,7 @@ The following OFFLOAD_STATE_TYPE values are supported:
 #### NeighborOffloadConstState
 
 Specifies the constant neighbor state. This state is formatted as a 
-       <a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_const.md">
+       <a href="https://msdn.microsoft.com/1c79a3d6-c365-4740-a2e0-94333b70d8cc">
        NEIGHBOR_OFFLOAD_STATE_CONST</a> structure.
 
 
@@ -116,7 +94,7 @@ Specifies the constant neighbor state. This state is formatted as a
 #### NeighborOffloadCachedState
 
 Specifies the cached neighbor state. This state is formatted as a 
-       <a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_cached.md">
+       <a href="https://msdn.microsoft.com/5dedffa8-9745-4668-8646-0e896942b9c8">
        NEIGHBOR_OFFLOAD_STATE_CACHED</a> structure.
 
 
@@ -124,7 +102,7 @@ Specifies the cached neighbor state. This state is formatted as a
 #### NeighborOffloadDelegatedState
 
 Specifies the delegated neighbor state. This state is formatted as a 
-       <a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_delegated.md">
+       <a href="https://msdn.microsoft.com/94a35d0f-3585-45d0-bba8-0b4a8ebbe883">
        NEIGHBOR_OFFLOAD_STATE_DELEGATED</a> structure.
 
 
@@ -141,7 +119,7 @@ Specifies all of the neighbor state information, including the constant, cached,
 #### Ip4OffloadConstState
 
 Specifies the constant path state (IPv4). This state is formatted as a 
-       <a href="..\ndischimney\ns-ndischimney-_path_offload_state_const.md">
+       <a href="https://msdn.microsoft.com/a71f70f6-7731-457b-bd6d-b4a649f76f8b">
        PATH_OFFLOAD_STATE_CONST</a> structure.
 
 
@@ -149,7 +127,7 @@ Specifies the constant path state (IPv4). This state is formatted as a
 #### Ip4OffloadCachedState
 
 Specifies the cached path state (IPv4). This state is formatted as a 
-       <a href="..\ndischimney\ns-ndischimney-_path_offload_state_cached.md">
+       <a href="https://msdn.microsoft.com/5afd2499-3f47-481e-9d20-770842f79677">
        PATH_OFFLOAD_STATE_CACHED</a> structure.
 
 
@@ -157,7 +135,7 @@ Specifies the cached path state (IPv4). This state is formatted as a
 #### Ip4OffloadDelegatedState
 
 Specifies the delegated path state (IPv4). This state is formatted as a 
-       <a href="..\ndischimney\ns-ndischimney-_path_offload_state_delegated.md">
+       <a href="https://msdn.microsoft.com/3a1603ec-639f-4899-8889-3c7ed2cfe375">
        PATH_OFFLOAD_STATE_DELEGATED</a> structure. Currently there is no delegated path state. The
        PATH_OFFLOAD_STATE_DELEGATED structure does not contain any variables.
 
@@ -204,7 +182,7 @@ Specifies all of the path state information(IPv6), including the constant, cache
 #### TcpOffloadConstState
 
 Specifies the constant TCP state. This state is formatted as a 
-       <a href="..\ndischimney\ns-ndischimney-_tcp_offload_state_const.md">
+       <a href="https://msdn.microsoft.com/3e80f963-a494-475a-a246-abe5674dbcb6">
        TCP_OFFLOAD_STATE_CONST</a> structure.
 
 
@@ -212,7 +190,7 @@ Specifies the constant TCP state. This state is formatted as a
 #### TcpOffloadCachedState
 
 Specifies the cached TCP state. This state is formatted as a 
-       <a href="..\ndischimney\ns-ndischimney-_tcp_offload_state_cached.md">
+       <a href="https://msdn.microsoft.com/953154eb-e6f3-4013-a68f-1a358953c7ad">
        TCP_OFFLOAD_STATE_CACHED</a> structure.
 
 
@@ -220,7 +198,7 @@ Specifies the cached TCP state. This state is formatted as a
 #### TcpOffloadDelegatedState
 
 Specifies the delegated TCP state. This state is formatted as a 
-       <a href="..\ndischimney\ns-ndischimney-_tcp_offload_state_delegated.md">
+       <a href="https://msdn.microsoft.com/ab16cfa1-24f6-434a-a687-07e19172f185">
        TCP_OFFLOAD_STATE_DELEGATED</a> structure.
 
 
@@ -389,7 +367,7 @@ Query, update, invalidate, or terminate offload: Not an allowed status value.
 
 Initiate offload: The offload target failed to offload the state associated with the
        NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure because the host stack specified a non-<b>NULL</b><b>DlSourceAddress</b> member in the 
-       <a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_const.md">
+       <a href="https://msdn.microsoft.com/1c79a3d6-c365-4740-a2e0-94333b70d8cc">
        NEIGHBOR_OFFLOAD_STATE_CONST</a> structure, and the offload target either does not support
        configurable source MAC addresses or cannot accept additional source MAC addresses.
        
@@ -404,7 +382,7 @@ Initiate offload: The offload target failed to offload the state associated with
        NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure because the offload target could not allocate a data
        structure for the source IP address that is referenced by the 
        <b>SourceAddress</b> pointer in the 
-       <a href="..\ndischimney\ns-ndischimney-_path_offload_state_const.md">
+       <a href="https://msdn.microsoft.com/a71f70f6-7731-457b-bd6d-b4a649f76f8b">
        PATH_OFFLOAD_STATE_CONST</a> structure.
        
 
@@ -439,7 +417,7 @@ Query, update, invalidate, or terminate offload: Not an allowed status value.
 Initiate offload: The offload target failed to offload the state associated with the
        NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure because the 
        <b>InitialRcvWnd</b> member specified in the 
-       <a href="..\ndischimney\ns-ndischimney-_tcp_offload_state_cached.md">
+       <a href="https://msdn.microsoft.com/953154eb-e6f3-4013-a68f-1a358953c7ad">
        TCP_OFFLOAD_STATE_CACHED</a> structure is larger than the offload target can support.
        
 
@@ -495,9 +473,9 @@ A pointer to a memory location into which the offload target writes a PVOID valu
 ### -field NdisOffloadHandle
 
 The handle that the offload target supplies in subsequent calls to the 
-     <a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_event_indicate.md">
+     <a href="https://msdn.microsoft.com/b62e8a07-fe7b-4c52-8795-19e4bb889b6e">
      NdisTcpOffloadEventHandler</a> function or the 
-     <a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_receive_indicate.md">
+     <a href="https://msdn.microsoft.com/a45dede9-6559-4207-a49f-d9627054433a">
      NdisTcpOffloadReceiveHandler</a> function when making an indication on the offload state associated
      with this NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure.
 
@@ -536,7 +514,7 @@ This member is not significant for an offload target. An offload target must not
 
 A port number that identifies a miniport adapter port. To assign a miniport adapter port number,
      call the 
-     <a href="..\ndis\nf-ndis-ndismallocateport.md">NdisMAllocatePort</a> function. A zero
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff562779">NdisMAllocatePort</a> function. A zero
      value identifies the default port of a miniport adapter. Use the default port if the miniport driver has
      not allocated ports for the specified adapter.
 
@@ -549,10 +527,10 @@ When the host stack specifies a <b>NULL</b> value,
 
 When the host stack specifies a non-<b>NULL</b> value, 
      <b>NetBufferListChain</b> points to a 
-     <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure that can be a
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure that can be a
      stand-alone structure or the first structure in a linked list of such structures. Each NET_BUFFER_LIST
      structure in the linked list describes one 
-     <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structure. The NET_BUFFER structure
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structure. The NET_BUFFER structure
      maps to a chain of memory descriptor lists (MDLs). The NET_BUFFER_LIST and associated structures are
      locked so that they remain resident in physical memory. However, they are not mapped into system
      memory.
@@ -567,7 +545,7 @@ The MDLs associated with the NET_BUFFER structures contain data that the host st
 An offload target can pass outstanding send data to the host stack when terminating the offload of a
      TCP connection. In this case, the offload target specifies a non-<b>NULL</b> value for the 
      <b>NetBufferListChain</b> member when calling the 
-     <a href="..\ndischimney\nf-ndischimney-ndismterminateoffloadcomplete.md">
+     <a href="https://msdn.microsoft.com/d444eae5-2e7c-41f2-9fb2-55e172505cf6">
      NdisMTerminateOffloadComplete</a> function. If the offload target is not passing send data for a TCP
      connection that is being terminated, it must specify a <b>NULL</b> value for the 
      <b>NetBufferListChain</b> member.
@@ -588,31 +566,31 @@ Through NDIS, the host stack passes an
 <ul>
 <li>
 
-<a href="..\ndischimney\nc-ndischimney-w_initiate_offload_handler.md">MiniportInitiateOffload</a>
+<a href="https://msdn.microsoft.com/f430642b-01bf-4ed7-bfea-e8dd8d5a8208">MiniportInitiateOffload</a>
 
 
 </li>
 <li>
 
-<a href="..\ndischimney\nc-ndischimney-w_query_offload_handler.md">MiniportQueryOffload</a>
+<a href="https://msdn.microsoft.com/a583c4cb-53c1-4eff-bcfe-c962f736b1f8">MiniportQueryOffload</a>
 
 
 </li>
 <li>
 
-<a href="..\ndischimney\nc-ndischimney-w_update_offload_handler.md">MiniportUpdateOffload</a>
+<a href="https://msdn.microsoft.com/b98b2e21-8b28-4da0-9cc9-6fa8cb6e5be7">MiniportUpdateOffload</a>
 
 
 </li>
 <li>
 
-<a href="..\ndischimney\nc-ndischimney-w_invalidate_offload_handler.md">MiniportInvalidateOffload</a>
+<a href="https://msdn.microsoft.com/58226149-daea-40aa-afb6-13ce615434b3">MiniportInvalidateOffload</a>
 
 
 </li>
 <li>
 
-<a href="..\ndischimney\nc-ndischimney-w_terminate_offload_handler.md">MiniportTerminateOffload</a>
+<a href="https://msdn.microsoft.com/1b808e3c-2d64-44c9-88d3-0a0311e1dc99">MiniportTerminateOffload</a>
 
 
 </li>
@@ -623,34 +601,34 @@ The offload target returns the tree to the host stack by passing the same pointe
 <ul>
 <li>
 
-<a href="..\ndischimney\nf-ndischimney-ndisminitiateoffloadcomplete.md">
+<a href="https://msdn.microsoft.com/983b2e04-1563-4f2e-85a7-8fd93ec1cd8c">
        NdisMInitiateOffloadComplete</a>
 
 
 </li>
 <li>
 
-<a href="..\ndischimney\nf-ndischimney-ndismqueryoffloadstatecomplete.md">
+<a href="https://msdn.microsoft.com/7bcc6610-0c48-4a7f-b8fa-be372af201ba">
        NdisMQueryOffloadStateComplete</a>
 
 
 </li>
 <li>
 
-<a href="..\ndischimney\nf-ndischimney-ndismupdateoffloadcomplete.md">NdisMUpdateOffloadComplete</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563694">NdisMUpdateOffloadComplete</a>
 
 
 </li>
 <li>
 
-<a href="..\ndischimney\nf-ndischimney-ndisminvalidateoffloadcomplete.md">
+<a href="https://msdn.microsoft.com/fd14e983-ea4b-41f2-973d-88b114306e75">
        NdisMInvalidateOffloadComplete</a>
 
 
 </li>
 <li>
 
-<a href="..\ndischimney\nf-ndischimney-ndismterminateoffloadcomplete.md">
+<a href="https://msdn.microsoft.com/d444eae5-2e7c-41f2-9fb2-55e172505cf6">
        NdisMTerminateOffloadComplete</a>
 
 
@@ -685,100 +663,99 @@ Before completing an initiate offload, query offload, update offload, invalidate
 
 ## -see-also
 
-<a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_delegated.md">
+
+
+
+<a href="https://msdn.microsoft.com/f430642b-01bf-4ed7-bfea-e8dd8d5a8208">MiniportInitiateOffload</a>
+
+
+
+<a href="https://msdn.microsoft.com/58226149-daea-40aa-afb6-13ce615434b3">MiniportInvalidateOffload</a>
+
+
+
+<a href="https://msdn.microsoft.com/a583c4cb-53c1-4eff-bcfe-c962f736b1f8">MiniportQueryOffload</a>
+
+
+
+<a href="https://msdn.microsoft.com/1b808e3c-2d64-44c9-88d3-0a0311e1dc99">MiniportTerminateOffload</a>
+
+
+
+<a href="https://msdn.microsoft.com/b98b2e21-8b28-4da0-9cc9-6fa8cb6e5be7">MiniportUpdateOffload</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568323">NEIGHBOR_OFFLOAD_STATE_CACHED</a>
+
+
+
+<a href="https://msdn.microsoft.com/94a35d0f-3585-45d0-bba8-0b4a8ebbe883">
    NEIGHBOR_OFFLOAD_STATE_DELEGATED</a>
 
 
 
-<a href="..\ndischimney\nc-ndischimney-w_query_offload_handler.md">MiniportQueryOffload</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562779">NdisMAllocatePort</a>
 
 
 
-<a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_cached.md">NEIGHBOR_OFFLOAD_STATE_CACHED</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563604">NdisMInitiateOffloadComplete</a>
 
 
 
-<a href="..\ndischimney\nc-ndischimney-w_initiate_offload_handler.md">MiniportInitiateOffload</a>
-
-
-
-<a href="..\ndischimney\ns-ndischimney-_tcp_offload_state_const.md">TCP_OFFLOAD_STATE_CONST</a>
-
-
-
-<a href="..\ndischimney\nf-ndischimney-ndismterminateoffloadcomplete.md">
-   NdisMTerminateOffloadComplete</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismallocateport.md">NdisMAllocatePort</a>
-
-
-
-<a href="..\ndischimney\ns-ndischimney-_path_offload_state_const.md">PATH_OFFLOAD_STATE_CONST</a>
-
-
-
-<a href="..\ndischimney\nf-ndischimney-ndisminitiateoffloadcomplete.md">NdisMInitiateOffloadComplete</a>
-
-
-
-<a href="..\ndischimney\nc-ndischimney-w_terminate_offload_handler.md">MiniportTerminateOffload</a>
-
-
-
-<a href="..\ndischimney\nf-ndischimney-ndismupdateoffloadcomplete.md">NdisMUpdateOffloadComplete</a>
-
-
-
-<a href="..\ndischimney\nf-ndischimney-ndismqueryoffloadstatecomplete.md">
-   NdisMQueryOffloadStateComplete</a>
-
-
-
-<a href="..\ndischimney\nf-ndischimney-ndisminvalidateoffloadcomplete.md">
+<a href="https://msdn.microsoft.com/fd14e983-ea4b-41f2-973d-88b114306e75">
    NdisMInvalidateOffloadComplete</a>
 
 
 
-<a href="..\ndischimney\ns-ndischimney-_tcp_offload_state_cached.md">TCP_OFFLOAD_STATE_CACHED</a>
+<a href="https://msdn.microsoft.com/7bcc6610-0c48-4a7f-b8fa-be372af201ba">
+   NdisMQueryOffloadStateComplete</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://msdn.microsoft.com/d444eae5-2e7c-41f2-9fb2-55e172505cf6">
+   NdisMTerminateOffloadComplete</a>
 
 
 
-<a href="..\ndischimney\nc-ndischimney-w_update_offload_handler.md">MiniportUpdateOffload</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563694">NdisMUpdateOffloadComplete</a>
 
 
 
-<a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_receive_indicate.md">NdisTcpOffloadReceiveHandler</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564595">NdisTcpOffloadEventHandler</a>
 
 
 
-<a href="..\ndischimney\nc-ndischimney-w_invalidate_offload_handler.md">MiniportInvalidateOffload</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564606">NdisTcpOffloadReceiveHandler</a>
 
 
 
-<a href="..\ndischimney\ns-ndischimney-_tcp_offload_state_delegated.md">TCP_OFFLOAD_STATE_DELEGATED</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569983">PATH_OFFLOAD_STATE_CACHED</a>
 
 
 
-<a href="..\ndischimney\ns-ndischimney-_path_offload_state_delegated.md">PATH_OFFLOAD_STATE_DELEGATED</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569984">PATH_OFFLOAD_STATE_CONST</a>
 
 
 
-<a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_event_indicate.md">NdisTcpOffloadEventHandler</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569985">PATH_OFFLOAD_STATE_DELEGATED</a>
 
 
 
-<a href="..\ndischimney\ns-ndischimney-_path_offload_state_cached.md">PATH_OFFLOAD_STATE_CACHED</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570937">TCP_OFFLOAD_STATE_CACHED</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570938">TCP_OFFLOAD_STATE_CONST</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570939">TCP_OFFLOAD_STATE_DELEGATED</a>
  
 
  
-
 

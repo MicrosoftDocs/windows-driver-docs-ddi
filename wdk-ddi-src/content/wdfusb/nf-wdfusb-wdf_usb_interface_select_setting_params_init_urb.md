@@ -38,7 +38,8 @@ api_location:
 -	wdfusb.h
 api_name:
 -	WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_URB
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
@@ -52,18 +53,7 @@ req.product: Windows 10 or later.
 
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
-The <b>WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_URB</b> function initializes a <a href="..\wdfusb\ns-wdfusb-_wdf_usb_interface_select_setting_params.md">WDF_USB_INTERFACE_SELECT_SETTING_PARAMS</a> structure so that a driver can select a USB interface by specifying a URB.
-
-
-## -syntax
-
-
-````
-VOID WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_URB(
-  _Out_ PWDF_USB_INTERFACE_SELECT_SETTING_PARAMS Params,
-  _In_  PURB                                     Urb
-);
-````
+The <b>WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_URB</b> function initializes a <a href="https://msdn.microsoft.com/library/windows/hardware/ff553003">WDF_USB_INTERFACE_SELECT_SETTING_PARAMS</a> structure so that a driver can select a USB interface by specifying a URB.
 
 
 ## -parameters
@@ -73,12 +63,12 @@ VOID WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_URB(
 
 ### -param Params [out]
 
-A pointer to a driver-allocated <a href="..\wdfusb\ns-wdfusb-_wdf_usb_interface_select_setting_params.md">WDF_USB_INTERFACE_SELECT_SETTING_PARAMS</a> structure.
+A pointer to a driver-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff553003">WDF_USB_INTERFACE_SELECT_SETTING_PARAMS</a> structure.
 
 
 ### -param Urb [in]
 
-A pointer to a <a href="..\usb\ns-usb-_urb.md">URB</a> structure.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff538923">URB</a> structure.
 
 
 ## -returns
@@ -94,20 +84,20 @@ None
 
 
 
-The <b>WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_URB</b> function zeros the <a href="..\wdfusb\ns-wdfusb-_wdf_usb_interface_select_setting_params.md">WDF_USB_INTERFACE_SELECT_SETTING_PARAMS</a> structure and sets its <b>Size</b> member to the size of the structure. It also sets the <b>Type</b> member to <b>WdfUsbInterfaceSelectSettingTypeUrb</b> and sets the <b>Types.Urb.Urb</b> member to the value that is specified by <i>Urb</i> pointer.
+The <b>WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_URB</b> function zeros the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553003">WDF_USB_INTERFACE_SELECT_SETTING_PARAMS</a> structure and sets its <b>Size</b> member to the size of the structure. It also sets the <b>Type</b> member to <b>WdfUsbInterfaceSelectSettingTypeUrb</b> and sets the <b>Types.Urb.Urb</b> member to the value that is specified by <i>Urb</i> pointer.
 
-To initialize a <a href="..\wdfusb\ns-wdfusb-_wdf_usb_interface_select_setting_params.md">WDF_USB_INTERFACE_SELECT_SETTING_PARAMS</a> structure, your driver must call one of the following functions:
+To initialize a <a href="https://msdn.microsoft.com/library/windows/hardware/ff553003">WDF_USB_INTERFACE_SELECT_SETTING_PARAMS</a> structure, your driver must call one of the following functions:
 
 <ul>
 <li>
 
-<a href="..\wdfusb\nf-wdfusb-wdf_usb_interface_select_setting_params_init_descriptor.md">WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553008">WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_DESCRIPTOR</a>
 
 
 </li>
 <li>
 
-<a href="..\wdfusb\nf-wdfusb-wdf_usb_interface_select_setting_params_init_setting.md">WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_SETTING</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553011">WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_SETTING</a>
 
 
 </li>
@@ -119,7 +109,7 @@ To initialize a <a href="..\wdfusb\ns-wdfusb-_wdf_usb_interface_select_setting_p
 
 #### Examples
 
-The following code example initializes a URB structure and then uses the structure as input to <a href="..\wdfusb\nf-wdfusb-wdfusbinterfaceselectsetting.md">WdfUsbInterfaceSelectSetting</a>.
+The following code example initializes a URB structure and then uses the structure as input to <a href="https://msdn.microsoft.com/library/windows/hardware/ff550073">WdfUsbInterfaceSelectSetting</a>.
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -158,24 +148,23 @@ Status = WdfUsbInterfaceSelectSetting(
 
 ## -see-also
 
-<a href="..\wdfusb\ns-wdfusb-_wdf_usb_interface_select_setting_params.md">WDF_USB_INTERFACE_SELECT_SETTING_PARAMS</a>
 
 
 
-<a href="..\usb\ns-usb-_urb.md">URB</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538923">URB</a>
 
 
 
-<a href="..\wdfusb\nf-wdfusb-wdf_usb_interface_select_setting_params_init_descriptor.md">WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553003">WDF_USB_INTERFACE_SELECT_SETTING_PARAMS</a>
 
 
 
-<a href="..\wdfusb\nf-wdfusb-wdf_usb_interface_select_setting_params_init_setting.md">WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_SETTING</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553008">WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_DESCRIPTOR</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553011">WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_SETTING</a>
  
 
  
-
 

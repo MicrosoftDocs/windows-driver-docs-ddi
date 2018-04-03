@@ -38,7 +38,8 @@ api_location:
 -	wiamindr_lh.h
 api_name:
 -	IWiaDrvItem.UnlinkItemTree
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SCANWINDOW, *PSCANWINDOW
 req.product: Windows 10 or later.
@@ -51,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>IWiaDrvItem::UnlinkItemTree</b> method unlinks the driver item tree and releases all items in the tree.
-
-
-## -syntax
-
-
-````
-HRESULT UnlinkItemTree(
-  [in] LONG lFlags
-);
-````
 
 
 ## -parameters

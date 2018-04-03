@@ -7,7 +7,7 @@ old-location: display\dxgk_multiplane_overlay_post_composition.htm
 old-project: display
 ms.assetid: 71D57E42-C1E7-4A0E-80B3-DD39388552C5
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION, DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION structure [Display Devices], _DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION, display.dxgk_multiplane_overlay_post_composition
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION
 ---
@@ -50,19 +51,6 @@ req.typenames: DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION
 
 
 Specifies information about any additional transforms that should occur after the planes are composed.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION {
-  DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_FLAGS        Flags;
-  RECT                                                  SrcRect;
-  RECT                                                  DstRect;
-  D3DDDI_ROTATION                                       Rotation;
-} DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION;
-````
 
 
 ## -struct-fields

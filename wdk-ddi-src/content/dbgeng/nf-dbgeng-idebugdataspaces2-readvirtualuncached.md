@@ -7,7 +7,7 @@ old-location: debugger\readvirtualuncached.htm
 old-project: debugger
 ms.assetid: 91674220-3160-40d2-9d68-56d854244711
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: IDebugDataSpaces interface [Windows Debugging], ReadVirtualUncached method, IDebugDataSpaces2, IDebugDataSpaces2 interface [Windows Debugging], ReadVirtualUncached method, IDebugDataSpaces2::ReadVirtualUncached, IDebugDataSpaces3 interface [Windows Debugging], ReadVirtualUncached method, IDebugDataSpaces3::ReadVirtualUncached, IDebugDataSpaces4 interface [Windows Debugging], ReadVirtualUncached method, IDebugDataSpaces4::ReadVirtualUncached, IDebugDataSpaces::ReadVirtualUncached, IDebugDataSpaces_265817a7-d690-4b8c-957f-06ec5d4f2f08.xml, ReadVirtualUncached method [Windows Debugging], ReadVirtualUncached method [Windows Debugging], IDebugDataSpaces interface, ReadVirtualUncached method [Windows Debugging], IDebugDataSpaces2 interface, ReadVirtualUncached method [Windows Debugging], IDebugDataSpaces3 interface, ReadVirtualUncached method [Windows Debugging], IDebugDataSpaces4 interface, ReadVirtualUncached,IDebugDataSpaces2.ReadVirtualUncached, dbgeng/IDebugDataSpaces2::ReadVirtualUncached, dbgeng/IDebugDataSpaces3::ReadVirtualUncached, dbgeng/IDebugDataSpaces4::ReadVirtualUncached, dbgeng/IDebugDataSpaces::ReadVirtualUncached, debugger.readvirtualuncached
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,8 @@ api_name:
 -	IDebugDataSpaces2.ReadVirtualUncached
 -	IDebugDataSpaces3.ReadVirtualUncached
 -	IDebugDataSpaces4.ReadVirtualUncached
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -53,19 +54,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>ReadVirtualUncached</b> method reads memory from the target's virtual address space.
-
-
-## -syntax
-
-
-````
-HRESULT ReadVirtualUncached(
-  [in]            ULONG64 Offset,
-  [out]           PVOID   Buffer,
-  [in]            ULONG   BufferSize,
-  [out, optional] PULONG  BytesRead
-);
-````
 
 
 ## -parameters
@@ -134,19 +122,22 @@ This method behaves identically to <a href="https://msdn.microsoft.com/library/w
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces2.md">IDebugDataSpaces2</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces4.md">IDebugDataSpaces4</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550528">IDebugDataSpaces</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces3.md">IDebugDataSpaces3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550531">IDebugDataSpaces2</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces.md">IDebugDataSpaces</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550537">IDebugDataSpaces3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550546">IDebugDataSpaces4</a>
 
 
 
@@ -155,11 +146,7 @@ This method behaves identically to <a href="https://msdn.microsoft.com/library/w
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561473">WriteVirtualUncached</a>
-
-
-
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: display\calcdeferredcontexthandlesize.htm
 old-project: display
 ms.assetid: d26c26ef-be8e-434a-b3d3-623ed539c541
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: CalcDeferredContextHandleSize, CalcDeferredContextHandleSize callback function [Display Devices], PFND3D11DDI_CALCDEFERREDCONTEXTHANDLESIZE, UserModeDisplayDriverDx11_Functions_f5e77e2c-2925-4556-b80a-84636a4b326a.xml, d3d10umddi/CalcDeferredContextHandleSize, display.calcdeferredcontexthandlesize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3d10umddi.h
 api_name:
 -	CalcDeferredContextHandleSize
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 ---
@@ -52,30 +53,15 @@ req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 The <b>CalcDeferredContextHandleSize</b> function queries for the amount of storage space that the driver requires to satisfy deferred context handles to the given immediate context object. 
 
 
-## -prototype
-
-
-````
-PFND3D11DDI_CALCDEFERREDCONTEXTHANDLESIZE CalcDeferredContextHandleSize;
-
-SIZE_T APIENTRY CalcDeferredContextHandleSize(
-  _In_ D3D10DDI_HDEVICE    hDevice,
-  _In_ D3D11DDI_HANDLETYPE HandleType,
-  _In_ VOID                *pICObject
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
 
 
-### -param D3D10DDI_HDEVICE
+### -param Arg1
 
 
-### -param D3D11DDI_HANDLETYPE
+### -param Arg2
 
 
 ### -param *
@@ -89,7 +75,7 @@ SIZE_T APIENTRY CalcDeferredContextHandleSize(
 
 #### - HandleType [in]
 
- A <a href="..\d3d10umddi\ne-d3d10umddi-d3d11ddi_handletype.md">D3D11DDI_HANDLETYPE</a>-typed value that indicates the type of deferred context handle to determine the size of the memory region for. 
+ A <a href="https://msdn.microsoft.com/library/windows/hardware/ff542152">D3D11DDI_HANDLETYPE</a>-typed value that indicates the type of deferred context handle to determine the size of the memory region for. 
 
 
 #### - hDevice [in]
@@ -115,7 +101,7 @@ SIZE_T APIENTRY CalcDeferredContextHandleSize(
 
 
 
-The driver is only required to implement <b>CalcDeferredContextHandleSize</b> if the driver supports the D3D11DDICAPS_COMMANDLISTS_BUILD_2 capability that can be returned in the <a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddi_threading_caps.md">D3D11DDI_THREADING_CAPS</a> structure from a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10_2ddi_getcaps.md">GetCaps(D3D10_2)</a> function.
+The driver is only required to implement <b>CalcDeferredContextHandleSize</b> if the driver supports the D3D11DDICAPS_COMMANDLISTS_BUILD_2 capability that can be returned in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff542163">D3D11DDI_THREADING_CAPS</a> structure from a call to the <a href="https://msdn.microsoft.com/83cd5f34-5f12-4ead-ad33-366fc3c6e804">GetCaps(D3D10_2)</a> function.
 
 The Direct3D runtime does not call the <b>CalcDeferredContextHandleSize</b> function from function tables for the deferred context. The runtime calls <b>CalcDeferredContextHandleSize</b> from the function table for the immediate context.
 
@@ -126,24 +112,23 @@ For more information about how <b>CalcDeferredContextHandleSize</b> is used, see
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddi_devicefuncs.md">D3D11DDI_DEVICEFUNCS</a>
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10_2ddi_getcaps.md">GetCaps(D3D10_2)</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542141">D3D11DDI_DEVICEFUNCS</a>
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddi_threading_caps.md">D3D11DDI_THREADING_CAPS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542152">D3D11DDI_HANDLETYPE</a>
 
 
 
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d11ddi_handletype.md">D3D11DDI_HANDLETYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542163">D3D11DDI_THREADING_CAPS</a>
 
 
 
+<a href="https://msdn.microsoft.com/83cd5f34-5f12-4ead-ad33-366fc3c6e804">GetCaps(D3D10_2)</a>
  
 
  
-
 

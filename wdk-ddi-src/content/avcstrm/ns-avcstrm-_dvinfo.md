@@ -38,7 +38,8 @@ api_location:
 -	avcstrm.h
 api_name:
 -	DVINFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DVINFO, *PDVINFO
 ---
@@ -50,22 +51,6 @@ req.typenames: DVINFO, *PDVINFO
 
 
 The DVINFO structure describes a DV stream format including its default streaming source information and stream control information.
-
-
-## -syntax
-
-
-````
-typedef struct _DVINFO {
-  DWORD dwDVAAuxSrc;
-  DWORD dwDVAAuxCtl;
-  DWORD dwDVAAuxSrc1;
-  DWORD dwDVAAuxCtl1;
-  DWORD dwDVVAuxSrc;
-  DWORD dwDVVAuxCtl;
-  DWORD dwDVReserved[2];
-} DVINFO, *PDVINFO;
-````
 
 
 ## -struct-fields

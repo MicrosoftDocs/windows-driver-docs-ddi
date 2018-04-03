@@ -7,7 +7,7 @@ old-location: storage\storportgethighestnodenumber.htm
 old-project: storage
 ms.assetid: 3e0b85f9-b6e4-4d53-b8dc-7f51e0f74be3
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: StorPortGetHighestNodeNumber, StorPortGetHighestNodeNumber routine [Storage Devices], storage.storportgethighestnodenumber, storport/StorPortGetHighestNodeNumber, storprt_e9e942e1-6de3-4170-87ec-00660ce9925a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	storport.h
 api_name:
 -	StorPortGetHighestNodeNumber
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STOR_SPINLOCK
 req.product: Windows 10 or later.
@@ -51,17 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>StorPortGetHighestNodeNumber</b> routine returns the largest possible node number on the system.
-
-
-## -syntax
-
-
-````
-ULONG StorPortGetHighestNodeNumber(
-  _In_  PVOID  HwDeviceExtension,
-  _Out_ PULONG HighestNode
-);
-````
 
 
 ## -parameters

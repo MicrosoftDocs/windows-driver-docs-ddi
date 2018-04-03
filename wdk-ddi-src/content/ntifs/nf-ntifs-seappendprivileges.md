@@ -7,7 +7,7 @@ old-location: ifsk\seappendprivileges.htm
 old-project: ifsk
 ms.assetid: b7a9142a-b6db-4a64-a5e3-d03d39ac3d09
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: SeAppendPrivileges, SeAppendPrivileges routine [Installable File System Drivers], ifsk.seappendprivileges, ntifs/SeAppendPrivileges, seref_c48fbff8-669f-4138-8f55-84bc083d9af5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	SeAppendPrivileges
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -50,17 +51,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>SeAppendPrivileges</b> routine appends additional privileges to the privilege set in an access state structure.
-
-
-## -syntax
-
-
-````
-NTSTATUS SeAppendPrivileges(
-  _Inout_ PACCESS_STATE  AccessState,
-  _In_    PPRIVILEGE_SET Privileges
-);
-````
 
 
 ## -parameters
@@ -128,32 +118,31 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-sesetaccessstategenericmapping.md">SeSetAccessStateGenericMapping</a>
 
 
 
-<a href="..\wdm\ns-wdm-_privilege_set.md">PRIVILEGE_SET</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538840">ACCESS_STATE</a>
 
 
 
-<a href="..\wdm\nf-wdm-seaccesscheck.md">SeAccessCheck</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551860">PRIVILEGE_SET</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-seprivilegecheck.md">SePrivilegeCheck</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563674">SeAccessCheck</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-sefreeprivileges.md">SeFreePrivileges</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556656">SeFreePrivileges</a>
 
 
 
-<a href="..\wdm\ns-wdm-_access_state.md">ACCESS_STATE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556686">SePrivilegeCheck</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556707">SeSetAccessStateGenericMapping</a>
  
 
  
-
 

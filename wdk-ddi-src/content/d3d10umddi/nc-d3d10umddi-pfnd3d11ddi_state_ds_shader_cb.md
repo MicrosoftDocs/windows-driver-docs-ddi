@@ -7,7 +7,7 @@ old-location: display\pfnstatedsshadercb.htm
 old-project: display
 ms.assetid: 3b50f462-667e-4772-89bb-32d01e1bb7fc
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3D11DDI_STATE_DS_SHADER_CB, d3d10umddi/pfnStateDsShaderCb, d3d11state_functions_5ab17831-b238-4b96-89bf-84c658463597.xml, display.pfnstatedsshadercb, pfnStateDsShaderCb, pfnStateDsShaderCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3d10umddi.h
 api_name:
 -	pfnStateDsShaderCb
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 ---
@@ -52,25 +53,12 @@ req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 The <b>pfnStateDsShaderCb</b> function causes the Microsoft Direct3D 11 runtime to refresh the domain shader.
 
 
-## -prototype
-
-
-````
-PFND3D11DDI_STATE_DS_SHADER_CB pfnStateDsShaderCb;
-
-void APIENTRY pfnStateDsShaderCb(
-  _In_ D3D10DDI_HRTCORELAYER hRuntimeDevice
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
 
 
-### -param D3D10DDI_HRTCORELAYER
+### -param Arg1
 
 
 
@@ -81,7 +69,7 @@ void APIENTRY pfnStateDsShaderCb(
 
 #### - hRuntimeDevice [in]
 
- A handle to a context for the core Direct3D runtime. This handle is supplied to the driver in a call to the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a> function. 
+ A handle to a context for the core Direct3D runtime. This handle is supplied to the driver in a call to the driver's <a href="https://msdn.microsoft.com/c69eedb1-c975-412c-aa9f-cf64a702f937">CreateDevice(D3D10)</a> function. 
 
 
 ## -returns
@@ -95,16 +83,15 @@ None
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddi_corelayer_devicecallbacks.md">D3D11DDI_CORELAYER_DEVICECALLBACKS</a>
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a>
+<a href="https://msdn.microsoft.com/c69eedb1-c975-412c-aa9f-cf64a702f937">CreateDevice(D3D10)</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542137">D3D11DDI_CORELAYER_DEVICECALLBACKS</a>
  
 
  
-
 

@@ -38,7 +38,8 @@ api_location:
 -	bthddi.h
 api_name:
 -	CHANNEL_CONFIG_PARAMETERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CHANNEL_CONFIG_PARAMETERS, *PCHANNEL_CONFIG_PARAMETERS
 ---
@@ -51,21 +52,6 @@ req.typenames: CHANNEL_CONFIG_PARAMETERS, *PCHANNEL_CONFIG_PARAMETERS
 
 The CHANNEL_CONFIG_PARAMETERS structure contains configuration parameters for inbound and outbound
   directions of a L2CAP channel.
-
-
-## -syntax
-
-
-````
-typedef struct _CHANNEL_CONFIG_PARAMETERS {
-  ULONG                Flags;
-  CO_MTU               Mtu;
-  CO_FLUSHTO           FlushTO;
-  ULONG                NumExtraOptions;
-  PL2CAP_CONFIG_OPTION ExtraOptions;
-  L2CAP_FLOWSPEC       Flow;
-} CHANNEL_CONFIG_PARAMETERS, *PCHANNEL_CONFIG_PARAMETERS;
-````
 
 
 ## -struct-fields
@@ -161,12 +147,11 @@ The QoS settings for the specified channel direction.
 
 ## -see-also
 
-<a href="..\bthddi\ns-bthddi-_l2cap_config_option.md">L2CAP_CONFIG_OPTION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536757">L2CAP_CONFIG_OPTION</a>
  
 
  
-
 

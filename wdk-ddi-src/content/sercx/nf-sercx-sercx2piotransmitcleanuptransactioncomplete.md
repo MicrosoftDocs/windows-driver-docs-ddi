@@ -38,7 +38,8 @@ api_location:
 -	2.0\Sercx.h
 api_name:
 -	SerCx2PioTransmitCleanupTransactionComplete
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SERCX_STATUS, *PSERCX_STATUS
 req.product: Windows 10 or later.
@@ -53,16 +54,6 @@ req.product: Windows 10 or later.
 The <b>SerCx2PioTransmitCleanupTransactionComplete</b> method notifies version 2 of the serial framework extension (SerCx2) that serial controller driver has finished cleaning up the serial controller's hardware state after a PIO-transmit transaction.
 
 
-## -syntax
-
-
-````
-VOID SerCx2PioTransmitCleanupTransactionComplete(
-  [in] SERCX2PIOTRANSMIT PioTransmit
-);
-````
-
-
 ## -parameters
 
 
@@ -70,7 +61,7 @@ VOID SerCx2PioTransmitCleanupTransactionComplete(
 
 ### -param PioTransmit [in]
 
-A <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIOTRANSMIT</a> handle to a PIO-transmit object. The serial controller driver previously called the <a href="..\sercx\nf-sercx-sercx2piotransmitcreate.md">SerCx2PioTransmitCreate</a> method to create this object.
+A <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIOTRANSMIT</a> handle to a PIO-transmit object. The serial controller driver previously called the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265269">SerCx2PioTransmitCreate</a> method to create this object.
 
 
 ## -returns
@@ -86,7 +77,7 @@ None.
 
 
 
-After a PIO-transmit transaction ends, SerCx2 calls the <a href="..\sercx\nc-sercx-evt_sercx2_pio_transmit_cleanup_transaction.md">EvtSerCx2PioTransmitCleanupTransaction</a> event callback function, if it is implemented, to clean up the serial controller state. In response to this call, the driver should first do any clean-up work that is needed; then the driver must call <b>SerCx2PioTransmitCleanupTransactionComplete</b> to notify SerCx2. SerCx2 waits for this notification to start the next transaction.
+After a PIO-transmit transaction ends, SerCx2 calls the <a href="https://msdn.microsoft.com/48300C50-47B7-47DC-BDE5-3847E1EAE820">EvtSerCx2PioTransmitCleanupTransaction</a> event callback function, if it is implemented, to clean up the serial controller state. In response to this call, the driver should first do any clean-up work that is needed; then the driver must call <b>SerCx2PioTransmitCleanupTransactionComplete</b> to notify SerCx2. SerCx2 waits for this notification to start the next transaction.
 
 The serial must call <b>SerCx2PioTransmitCleanupTransactionComplete</b> only in response to a call to the <i>EvtSerCx2PioTransmitCleanupTransaction</i> function.
 
@@ -97,11 +88,10 @@ For more information, see <a href="https://msdn.microsoft.com/3BEF9A3D-1FEF-4626
 
 ## -see-also
 
-<a href="..\sercx\nc-sercx-evt_sercx2_pio_transmit_cleanup_transaction.md">EvtSerCx2PioTransmitCleanupTransaction</a>
 
 
 
-<a href="..\sercx\nf-sercx-sercx2piotransmitcreate.md">SerCx2PioTransmitCreate</a>
+<a href="https://msdn.microsoft.com/48300C50-47B7-47DC-BDE5-3847E1EAE820">EvtSerCx2PioTransmitCleanupTransaction</a>
 
 
 
@@ -109,8 +99,8 @@ For more information, see <a href="https://msdn.microsoft.com/3BEF9A3D-1FEF-4626
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265269">SerCx2PioTransmitCreate</a>
  
 
  
-
 

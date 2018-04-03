@@ -7,28 +7,28 @@ old-location: display\pfnd3d12ddi_createvideodecoder.htm
 old-project: display
 ms.assetid: 5E0B6A5A-FA6E-4722-B442-FE74437224B3
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3D12DDI_CREATEVIDEODECODER_0021, d3d12umddi/pfnCreateVideoDecoder, display.pfnd3d12ddi_createvideodecoder, pfnCreateVideoDecoder, pfnCreateVideoDecoder callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d12umddi.h
-req.include-header: 
+req.include-header:
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support: Windows 10, version 1709
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	D3d12umddi.h
 api_name:
 -	pfnCreateVideoDecoder
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
 ---
@@ -50,21 +51,6 @@ req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
 
 
 The <i>pfnCreateVideoDecoder</i> callback function creates a video decoder.
-
-
-## -prototype
-
-
-````
-PFND3D12DDI_CREATEVIDEODECODER_0021 pfnCreateVideoDecoder;
-
-HRESULT APIENTRY* pfnCreateVideoDecoder(
-             D3D12DDI_HDEVICE                 hDevice,
-  _In_ const D3D12DDIARG_CREATE_VIDEO_DECODER *CreateVideoDecoder,
-             D3D12DDI_HVIDEODECODER           hDrvVideoDecoder
-)
-{ ... }
-````
 
 
 ## -parameters

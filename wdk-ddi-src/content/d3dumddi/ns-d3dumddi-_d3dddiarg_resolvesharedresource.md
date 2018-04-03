@@ -7,7 +7,7 @@ old-location: display\d3dddiarg_resolvesharedresource.htm
 old-project: display
 ms.assetid: f8baaa47-9b3a-4a85-8943-0878105bb5fe
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDIARG_RESOLVESHAREDRESOURCE, D3DDDIARG_RESOLVESHAREDRESOURCE structure [Display Devices], UMDisplayDriver_param_Structs_94131b1d-aa0e-4d9a-92b5-baca06cf8247.xml, _D3DDDIARG_RESOLVESHAREDRESOURCE, d3dumddi/D3DDDIARG_RESOLVESHAREDRESOURCE, display.d3dddiarg_resolvesharedresource
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	D3DDDIARG_RESOLVESHAREDRESOURCE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDIARG_RESOLVESHAREDRESOURCE
 ---
@@ -49,17 +50,7 @@ req.typenames: D3DDDIARG_RESOLVESHAREDRESOURCE
 ## -description
 
 
-The D3DDDIARG_RESOLVESHAREDRESOURCE structure specifies the resource that the user-mode display driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_resolvesharedresource.md">ResolveSharedResource</a> function uses as a synchronized shared surface or a GDI interoperable surface. 
-
-
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_RESOLVESHAREDRESOURCE {
-  HANDLE hResource;
-} D3DDDIARG_RESOLVESHAREDRESOURCE;
-````
+The D3DDDIARG_RESOLVESHAREDRESOURCE structure specifies the resource that the user-mode display driver's <a href="https://msdn.microsoft.com/8ad9130e-bade-4fd2-b345-b6361fd001ef">ResolveSharedResource</a> function uses as a synchronized shared surface or a GDI interoperable surface. 
 
 
 ## -struct-fields
@@ -74,12 +65,11 @@ typedef struct _D3DDDIARG_RESOLVESHAREDRESOURCE {
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_resolvesharedresource.md">ResolveSharedResource</a>
 
 
 
+<a href="https://msdn.microsoft.com/8ad9130e-bade-4fd2-b345-b6361fd001ef">ResolveSharedResource</a>
  
 
  
-
 

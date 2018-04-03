@@ -7,7 +7,7 @@ old-location: netvista\wwan_ussd_event_type.htm
 old-project: netvista
 ms.assetid: CEBC8A75-03E9-4E2A-9092-2FA3005371FE
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PWWAN_USSD_EVENT_TYPE, WWAN_USSD_EVENT_TYPE, WWAN_USSD_EVENT_TYPE enumeration [Network Drivers Starting with Windows Vista], WwanUssdEventActionRequired, WwanUssdEventNetworkTimeOut, WwanUssdEventNoActionRequired, WwanUssdEventOperationNotSupported, WwanUssdEventOtherLocalClient, WwanUssdEventTerminated, _WWAN_USSD_EVENT_TYPE, netvista.wwan_ussd_event_type, wwan/WWAN_USSD_EVENT_TYPE, wwan/WwanUssdEventActionRequired, wwan/WwanUssdEventNetworkTimeOut, wwan/WwanUssdEventNoActionRequired, wwan/WwanUssdEventOperationNotSupported, wwan/WwanUssdEventOtherLocalClient, wwan/WwanUssdEventTerminated"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	wwan.h
 api_name:
 -	WWAN_USSD_EVENT_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WWAN_USSD_EVENT_TYPE, *PWWAN_USSD_EVENT_TYPE
 req.product: Windows 10 or later.
@@ -51,21 +52,6 @@ req.product: Windows 10 or later.
 
 
 The WWAN_USSD_EVENT_TYPE enumeration lists the different types of Unstructured Supplementary Service Data (USSD) events.
-
-
-## -syntax
-
-
-````
-typedef enum _WWAN_USSD_EVENT_TYPE { 
-  WwanUssdEventNoActionRequired       = 0,
-  WwanUssdEventActionRequired         = 1,
-  WwanUssdEventTerminated             = 2,
-  WwanUssdEventOtherLocalClient       = 3,
-  WwanUssdEventOperationNotSupported  = 4,
-  WwanUssdEventNetworkTimeOut         = 5
-} WWAN_USSD_EVENT_TYPE;
-````
 
 
 ## -enum-fields
@@ -111,19 +97,18 @@ Network-initiated USSD events use <i>WwanUssdEventActionRequired</i> to indicate
 
 <i>WwanUssdEventNoActionRequired</i> and <i>WwanUssdEventActionRequired</i> are the only events that require a non-empty USSD string to accompany them with a string length from 1 to 160 bytes. All other events must set the USSD string length to 0 to indicate that the string is empty.
 
-The value of the <a href="..\wwan\ns-wwan-_wwan_ussd_event.md">WWAN_USSD_EVENT</a><b>SessionState</b> member is ignored if no string is present.
+The value of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh464136">WWAN_USSD_EVENT</a><b>SessionState</b> member is ignored if no string is present.
 
 
 
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_ussd_event.md">WWAN_USSD_EVENT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh464136">WWAN_USSD_EVENT</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: kernel\ioreuseirp.htm
 old-project: kernel
 ms.assetid: 18ad2c76-110f-45a9-986b-67e7c81f256f
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: IoReuseIrp, IoReuseIrp routine [Kernel-Mode Driver Architecture], k104_548c8bd2-bc09-4ee6-b373-d244f1f11daa.xml, kernel.ioreuseirp, wdm/IoReuseIrp
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	IoReuseIrp
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
@@ -51,17 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>IoReuseIrp</b> routine reinitializes an IRP so that it can be reused.
-
-
-## -syntax
-
-
-````
-VOID IoReuseIrp(
-  _Inout_ PIRP     Irp,
-  _In_    NTSTATUS Status
-);
-````
 
 
 ## -parameters
@@ -101,7 +91,7 @@ None
 
 Drivers for Windows 2000 and later versions of Windows use <b>IoReuseIrp</b> to reuse an IRP.
 
-A driver should use <b>IoReuseIrp</b> only on IRPs it previously allocated either as raw memory or with <a href="..\wdm\nf-wdm-ioallocateirp.md">IoAllocateIrp</a>. In particular, drivers should not use this routine for IRPs created with <a href="..\ntddk\nf-ntddk-iomakeassociatedirp.md">IoMakeAssociatedIrp</a>, <a href="..\wdm\nf-wdm-iobuildsynchronousfsdrequest.md">IoBuildSynchronousFsdRequest</a>, <a href="..\wdm\nf-wdm-iobuildasynchronousfsdrequest.md">IoBuildAsynchronousFsdRequest</a>, or <a href="..\wdm\nf-wdm-iobuilddeviceiocontrolrequest.md">IoBuildDeviceIoControlRequest</a>. 
+A driver should use <b>IoReuseIrp</b> only on IRPs it previously allocated either as raw memory or with <a href="https://msdn.microsoft.com/library/windows/hardware/ff548257">IoAllocateIrp</a>. In particular, drivers should not use this routine for IRPs created with <a href="https://msdn.microsoft.com/library/windows/hardware/ff549397">IoMakeAssociatedIrp</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff548330">IoBuildSynchronousFsdRequest</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff548310">IoBuildAsynchronousFsdRequest</a>, or <a href="https://msdn.microsoft.com/library/windows/hardware/ff548318">IoBuildDeviceIoControlRequest</a>. 
 
 See <a href="https://msdn.microsoft.com/library/windows/hardware/ff561107">Reusing IRPs</a> for more details on how to reuse IRPs. 
 
@@ -110,24 +100,23 @@ See <a href="https://msdn.microsoft.com/library/windows/hardware/ff561107">Reusi
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-iomakeassociatedirp.md">IoMakeAssociatedIrp</a>
 
 
 
-<a href="..\wdm\nf-wdm-ioinitializeirp.md">IoInitializeIrp</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550694">IRP</a>
 
 
 
-<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548257">IoAllocateIrp</a>
 
 
 
-<a href="..\wdm\nf-wdm-ioallocateirp.md">IoAllocateIrp</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549315">IoInitializeIrp</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549397">IoMakeAssociatedIrp</a>
  
 
  
-
 

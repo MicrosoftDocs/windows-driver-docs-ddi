@@ -38,7 +38,8 @@ api_location:
 -	Printerextension.h
 api_name:
 -	IPrinterExtensionAsyncOperation.Cancel
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PrintSchemaSelectionType
 req.product: Windows 10 or later.
@@ -51,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 Cancels the asynchronous operation.
-
-
-## -syntax
-
-
-````
-HRESULT Cancel(
-    void
-);
-````
 
 
 ## -parameters
@@ -96,12 +87,11 @@ Also, note that this method does not wait for the cancellation to be processed -
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprinterextensionasyncoperation.md">IPrinterExtensionAsyncOperation</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265387">IPrinterExtensionAsyncOperation</a>
  
 
  
-
 

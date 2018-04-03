@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsDispatchSpecificProperty
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -53,14 +54,6 @@ req.typenames:
 The <b>KsDispatchSpecificProperty</b> function dispatches the property to a specific handler. The function assumes that the caller has previously dispatched this IRP to a handler through the <b>KsPropertyHandler</b> function. 
 
 This function can only be called at PASSIVE_LEVEL.
-
-
-## -syntax
-
-
-````
-KSDDKAPI NTSTATUS NTAPI KsDispatchSpecificProperty(void);
-````
 
 
 ## -parameters
@@ -100,12 +93,11 @@ The <b>KsDispatchSpecificProperty</b> function is intended for additional proces
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kspropertyhandler.md">KsPropertyHandler</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564263">KsPropertyHandler</a>
  
 
  
-
 

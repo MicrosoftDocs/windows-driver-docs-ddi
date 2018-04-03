@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KSPROPERTY_CAMERACONTROL_NODE_S
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSPROPERTY_CAMERACONTROL_NODE_S, PKSPROPERTY_CAMERACONTROL_NODE_S
 ---
@@ -52,19 +53,6 @@ req.typenames: KSPROPERTY_CAMERACONTROL_NODE_S, PKSPROPERTY_CAMERACONTROL_NODE_S
 The KSPROPERTY_CAMERACONTROL_NODE_S structure describes node-based properties in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567802">PROPSETID_VIDCAP_CAMERACONTROL</a> property set. This structure specifies property values in requests to the USB Video Class driver.
 
 
-## -syntax
-
-
-````
-typedef struct {
-  KSP_NODE NodeProperty;
-  LONG     Value;
-  ULONG    Flags;
-  ULONG    Capabilities;
-} KSPROPERTY_CAMERACONTROL_NODE_S, *PKSPROPERTY_CAMERACONTROL_NODE_S;
-````
-
-
 ## -struct-fields
 
 
@@ -72,7 +60,7 @@ typedef struct {
 
 ### -field NodeProperty
 
-Specifies an initialized <a href="..\ks\ns-ks-ksp_node.md">KSP_NODE</a> structure that describes the property set, property ID, request type, and node ID. 
+Specifies an initialized <a href="https://msdn.microsoft.com/library/windows/hardware/ff566720">KSP_NODE</a> structure that describes the property set, property ID, request type, and node ID. 
 
 
 ### -field Value
@@ -197,20 +185,19 @@ See related information about the <a href="https://msdn.microsoft.com/84b5302d-c
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
 
 
 
-<a href="..\ksmedia\ns-ksmedia-ksproperty_cameracontrol_s.md">KSPROPERTY_CAMERACONTROL_S</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564439">KSPROPERTY_CAMERACONTROL_S</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567802">PROPSETID_VIDCAP_CAMERACONTROL</a>
-
-
-
  
 
  
-
 

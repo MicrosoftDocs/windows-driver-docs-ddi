@@ -7,7 +7,7 @@ old-location: display\d3dddiarg_openadapter.htm
 old-project: display
 ms.assetid: bfdea6dd-1f94-45ea-906c-9d17fc784a53
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDIARG_OPENADAPTER, D3DDDIARG_OPENADAPTER structure [Display Devices], UMDisplayDriver_param_Structs_6b07c27c-40f3-497c-ba20-53a19a003ea6.xml, _D3DDDIARG_OPENADAPTER, d3dumddi/D3DDDIARG_OPENADAPTER, display.d3dddiarg_openadapter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	D3DDDIARG_OPENADAPTER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDIARG_OPENADAPTER
 ---
@@ -52,21 +53,6 @@ req.typenames: D3DDDIARG_OPENADAPTER
 The D3DDDIARG_OPENADAPTER structure contains information that describes the graphics adapter object.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_OPENADAPTER {
-  HANDLE                        hAdapter;
-  UINT                          Interface;
-  UINT                          Version;
-  const D3DDDI_ADAPTERCALLBACKS *pAdapterCallbacks;
-  D3DDDI_ADAPTERFUNCS           *pAdapterFuncs;
-  UINT                          DriverVersion;
-} D3DDDIARG_OPENADAPTER;
-````
-
-
 ## -struct-fields
 
 
@@ -74,9 +60,9 @@ typedef struct _D3DDDIARG_OPENADAPTER {
 
 ### -field hAdapter
 
-[in/out] A handle to the graphics adapter object. On input to the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_openadapter.md">OpenAdapter</a> function, <b>hAdapter</b> specifies the handle that the driver should use to query for graphics adapter capabilities when the driver calls the Microsoft Direct3D runtime-supplied <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_queryadapterinfocb.md">pfnQueryAdapterInfoCb</a> callback function. 
+[in/out] A handle to the graphics adapter object. On input to the <a href="https://msdn.microsoft.com/41dc9ee4-e9bc-4ebd-9b90-6446ded6ea16">OpenAdapter</a> function, <b>hAdapter</b> specifies the handle that the driver should use to query for graphics adapter capabilities when the driver calls the Microsoft Direct3D runtime-supplied <a href="https://msdn.microsoft.com/8008574f-a89e-4fed-b745-7cf5baa68e64">pfnQueryAdapterInfoCb</a> callback function. 
 
-The driver generates a unique handle and passes it back to the Direct3D runtime. On output from the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_openadapter.md">OpenAdapter</a> function, <b>hAdapter</b> specifies the handle that the Direct3D runtime uses in subsequent driver calls to identify the graphics adapter object.
+The driver generates a unique handle and passes it back to the Direct3D runtime. On output from the <a href="https://msdn.microsoft.com/41dc9ee4-e9bc-4ebd-9b90-6446ded6ea16">OpenAdapter</a> function, <b>hAdapter</b> specifies the handle that the Direct3D runtime uses in subsequent driver calls to identify the graphics adapter object.
 
 
 ### -field Interface
@@ -91,12 +77,12 @@ The driver generates a unique handle and passes it back to the Direct3D runtime.
 
 ### -field pAdapterCallbacks
 
-[in] A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_adaptercallbacks.md">D3DDDI_ADAPTERCALLBACKS</a> structure that contains the Direct3D runtime-supplied <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_queryadapterinfocb.md">pfnQueryAdapterInfoCb</a> callback function that the driver can use.
+[in] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff544350">D3DDDI_ADAPTERCALLBACKS</a> structure that contains the Direct3D runtime-supplied <a href="https://msdn.microsoft.com/8008574f-a89e-4fed-b745-7cf5baa68e64">pfnQueryAdapterInfoCb</a> callback function that the driver can use.
 
 
 ### -field pAdapterFuncs
 
-[out] A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_adapterfuncs.md">D3DDDI_ADAPTERFUNCS</a> structure that contains a table of user-mode display driver adapter-specific functions. The Direct3D runtime uses these functions to communicate with the user-mode display driver about operations that are specific to the graphics adapter.
+[out] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff544355">D3DDDI_ADAPTERFUNCS</a> structure that contains a table of user-mode display driver adapter-specific functions. The Direct3D runtime uses these functions to communicate with the user-mode display driver about operations that are specific to the graphics adapter.
 
 
 ### -field DriverVersion
@@ -109,24 +95,23 @@ with the Windows 7 WDK (Version 7600), make sure that the driver returns D3D_UM
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_openadapter.md">OpenAdapter</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_adapterfuncs.md">D3DDDI_ADAPTERFUNCS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544350">D3DDDI_ADAPTERCALLBACKS</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_queryadapterinfocb.md">pfnQueryAdapterInfoCb</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544355">D3DDDI_ADAPTERFUNCS</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_adaptercallbacks.md">D3DDDI_ADAPTERCALLBACKS</a>
+<a href="https://msdn.microsoft.com/41dc9ee4-e9bc-4ebd-9b90-6446ded6ea16">OpenAdapter</a>
 
 
 
+<a href="https://msdn.microsoft.com/8008574f-a89e-4fed-b745-7cf5baa68e64">pfnQueryAdapterInfoCb</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: netvista\ndismresetminiport.htm
 old-project: netvista
 ms.assetid: 614C6E21-00D0-4F57-9E09-D1BAB166BA42
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NdisMResetMiniport, NdisMResetMiniport function [Network Drivers Starting with Windows Vista], ndis/NdisMResetMiniport, netvista.ndismresetminiport
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	ndis.dll
 api_name:
 -	NdisMResetMiniport
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
@@ -53,16 +54,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 A miniport driver calls the <b>NdisMResetMiniport</b> function to trigger a later reset operation from NDIS.
 
 
-## -syntax
-
-
-````
-void NdisMResetMiniport(
-  _In_ NDIS_HANDLE MiniportAdapterHandle
-);
-````
-
-
 ## -parameters
 
 
@@ -70,7 +61,7 @@ void NdisMResetMiniport(
 
 ### -param MiniportAdapterHandle [in]
 
-The miniport adapter handle that NDIS passed to the <i>MiniportAdapterHandle</i> parameter of <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>.
+The miniport adapter handle that NDIS passed to the <i>MiniportAdapterHandle</i> parameter of <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>.
 
 
 ## -returns
@@ -88,7 +79,7 @@ This function does not return a value.
 
 A miniport driver calls <b>NdisMResetMiniport</b> when it determines that the device requires a hardware reset.
 
-As a result, NDIS schedules a work item for calling the miniport driver's <a href="..\ndis\nc-ndis-miniport_reset.md">MiniportResetEx</a> function asynchronously.
+As a result, NDIS schedules a work item for calling the miniport driver's <a href="https://msdn.microsoft.com/15f82163-a1b5-4cef-a53e-8a97adb2cd92">MiniportResetEx</a> function asynchronously.
 
 <b>NdisMResetMiniport</b> must be called at IRQL &lt;= DISPATCH_LEVEL.
 

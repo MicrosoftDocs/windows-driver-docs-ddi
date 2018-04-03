@@ -1,4 +1,4 @@
-# [buses](../_buses/index.md)
+# [Universal Serial Bus (USB)](../_usbref/index.md)
 ## [Ucxcontroller.h](index.md)
 ### [EVT_UCX_CONTROLLER_GET_CURRENT_FRAMENUMBER callback](../ucxcontroller/nc-ucxcontroller-evt_ucx_controller_get_current_framenumber.md)
 ### [EVT_UCX_CONTROLLER_GET_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC callback](../ucxcontroller/nc-ucxcontroller-evt_ucx_controller_get_frame_number_and_qpc_for_time_sync.md)

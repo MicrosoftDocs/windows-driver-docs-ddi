@@ -7,7 +7,7 @@ old-location: dtf\iwdtftarget2_getvaluestrings.htm
 old-project: dtf
 ms.assetid: 2bc18baa-77e0-4ce1-85d9-55817333ecaa
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/29/2018
 ms.keywords: GetValueStrings method [Windows Device Testing Framework], GetValueStrings method [Windows Device Testing Framework], IWDTFTarget2 interface, GetValueStrings,IWDTFTarget2.GetValueStrings, IWDTFTarget2, IWDTFTarget2 interface [Windows Device Testing Framework], GetValueStrings method, IWDTFTarget2::GetValueStrings, Microsoft.WDTF.IWDTFTarget2.GetValueStrings, Microsoft::WDTF::IWDTFTarget2::GetValueStrings, dtf.iwdtftarget2_getvaluestrings, wdtf/IWDTFTarget2::GetValueStrings
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	WDTF.Interop.metadata_dll.dll
 api_name:
 -	IWDTFTarget2.GetValueStrings
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TTraceLevel
 req.product: Windows 10 or later.
@@ -52,17 +53,6 @@ req.product: Windows 10 or later.
 
 Returns a collection of string values from the target that are associated 
 with a specified attribute.
-
-
-## -syntax
-
-
-````
-HRESULT GetValueStrings(
-  [in]          BSTR          SDEL,
-  [out, retval] IWDTFStrings2 **ppValues
-);
-````
 
 
 ## -parameters
@@ -104,12 +94,11 @@ to work properly.
 
 ## -see-also
 
-<a href="..\wdtf\nn-wdtf-iwdtftarget2.md">IWDTFTarget2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439367">IWDTFTarget2</a>
  
 
  
-
 

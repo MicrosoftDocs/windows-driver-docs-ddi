@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	PcwCallback
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
 req.product: Windows 10 or later.
@@ -51,21 +52,6 @@ req.product: Windows 10 or later.
 
 
 Providers can implement a <i>PCW_CALLBACK</i> function to receive notification when consumers perform certain actions, such as adding or removing counters from a query. The Performance Counter Library (PERFLIB version 2.0) calls the <i>PCW_CALLBACK</i> function before the consumer's request completes.
-
-
-## -prototype
-
-
-````
-PCW_CALLBACK PcwCallback;
-
-NTSTATUS PcwCallback(
-  _In_     PCW_CALLBACK_TYPE         Type,
-  _In_     PPCW_CALLBACK_INFORMATION Info,
-  _In_opt_ PVOID                     Context
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -85,7 +71,7 @@ A pointer to a PCW_CALLBACK_INFORMATION union that supplies details about the re
 
 ### -param Context [in, optional]
 
-A pointer to the callback context. This value is supplied by the provider when calling <a href="..\wdm\nf-wdm-pcwregister.md">PcwRegister</a>.
+A pointer to the callback context. This value is supplied by the provider when calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff550323">PcwRegister</a>.
 
 
 ## -returns
@@ -274,16 +260,15 @@ In the <i>DriverEntry</i> routine of the KCS example, the <i>KcsGeometricWaveCal
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-pcwregister.md">PcwRegister</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550323">PcwRegister</a>
 
 
 
 <a href="http://go.microsoft.com/fwlink/p/?linkid=144623">Performance Counter Library (PERFLIB)</a>
-
-
-
  
 
  
-
 

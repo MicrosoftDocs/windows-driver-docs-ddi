@@ -7,7 +7,7 @@ old-location: kernel\iogetactivityidirp.htm
 old-project: kernel
 ms.assetid: FAFF65EF-F1D8-4B54-B281-D5C4AC124E32
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: IoGetActivityIdIrp, IoGetActivityIdIrp routine [Kernel-Mode Driver Architecture], kernel.iogetactivityidirp, ntddk/IoGetActivityIdIrp
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	IoGetActivityIdIrp
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
@@ -50,17 +51,6 @@ req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 
 
 The IoGetActivityIdIrp routine retrieves the current activity ID associated with an IRP.
-
-
-## -syntax
-
-
-````
-NTSTATUS IoGetActivityIdIrp(
-  _In_  PIRP   Irp,
-  _Out_ LPGUID Guid
-);
-````
 
 
 ## -parameters

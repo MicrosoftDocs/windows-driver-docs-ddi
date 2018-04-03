@@ -7,7 +7,7 @@ old-location: netvista\ndis_wwan_home_provider.htm
 old-project: netvista
 ms.assetid: 5f92a711-97fe-4420-be50-89302cc9486c
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PNDIS_WWAN_HOME_PROVIDER, NDIS_WWAN_HOME_PROVIDER, NDIS_WWAN_HOME_PROVIDER structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_HOME_PROVIDER, PNDIS_WWAN_HOME_PROVIDER structure pointer [Network Drivers Starting with Windows Vista], WwanRef_8a7e631d-16f6-461d-89f1-805dd56f4803.xml, _NDIS_WWAN_HOME_PROVIDER, ndiswwan/NDIS_WWAN_HOME_PROVIDER, ndiswwan/PNDIS_WWAN_HOME_PROVIDER, netvista.ndis_wwan_home_provider"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ndiswwan.h
 api_name:
 -	NDIS_WWAN_HOME_PROVIDER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_WWAN_HOME_PROVIDER, *PNDIS_WWAN_HOME_PROVIDER
 ---
@@ -50,18 +51,6 @@ req.typenames: NDIS_WWAN_HOME_PROVIDER, *PNDIS_WWAN_HOME_PROVIDER
 
 
 The NDIS_WWAN_HOME_PROVIDER structure represents details about the home network provider.
-
-
-## -syntax
-
-
-````
-typedef struct _NDIS_WWAN_HOME_PROVIDER {
-  NDIS_OBJECT_HEADER Header;
-  WWAN_STATUS        uStatus;
-  WWAN_PROVIDER      Provider;
-} NDIS_WWAN_HOME_PROVIDER, *PNDIS_WWAN_HOME_PROVIDER;
-````
 
 
 ## -struct-fields
@@ -117,7 +106,7 @@ sizeof(NDIS_WWAN_HOME_PROVIDER)
  
 
 For more information about these members, see 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field uStatus
@@ -202,22 +191,21 @@ The operation failed because a bad SIM card was detected.
 ### -field Provider
 
 A formatted 
-     <a href="..\wwan\ns-wwan-_wwan_provider2.md">WWAN_PROVIDER2</a> object that represents details
+     <a href="https://msdn.microsoft.com/library/windows/hardware/hh464135">WWAN_PROVIDER2</a> object that represents details
      about a network provider.
 
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_provider2.md">WWAN_PROVIDER2</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh464135">WWAN_PROVIDER2</a>
  
 
  
-
 

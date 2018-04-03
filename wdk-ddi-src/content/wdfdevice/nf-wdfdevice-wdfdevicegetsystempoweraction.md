@@ -41,7 +41,8 @@ api_location:
 -	WUDFx02000.dll.dll
 api_name:
 -	WdfDeviceGetSystemPowerAction
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_STATE_NOTIFICATION_TYPE
 req.product: Windows 10 or later.
@@ -56,16 +57,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WdfDeviceGetSystemPowerAction</b> method returns the <a href="https://msdn.microsoft.com/e8ab99d4-c18d-4ba8-bfe8-8eebb881c384">system power action</a>, if any, that is currently occurring for the computer. 
-
-
-## -syntax
-
-
-````
-POWER_ACTION WdfDeviceGetSystemPowerAction(
-  _In_ WDFDEVICE Device
-);
-````
 
 
 ## -parameters

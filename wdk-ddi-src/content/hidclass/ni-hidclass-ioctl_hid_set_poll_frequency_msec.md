@@ -38,7 +38,8 @@ api_location:
 -	hidclass.h
 api_name:
 -	IOCTL_HID_SET_POLL_FREQUENCY_MSEC
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: HDAUDIO_STREAM_FORMAT, *PHDAUDIO_STREAM_FORMAT
 ---
@@ -112,12 +113,11 @@ The HID class driver sets the <b>Status</b> member of <b>Irp-&gt;IoStatus</b> to
 
 ## -see-also
 
-<a href="..\hidclass\ni-hidclass-ioctl_hid_get_poll_frequency_msec.md">IOCTL_HID_GET_POLL_FREQUENCY_MSEC</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541142">IOCTL_HID_GET_POLL_FREQUENCY_MSEC</a>
  
 
  
-
 

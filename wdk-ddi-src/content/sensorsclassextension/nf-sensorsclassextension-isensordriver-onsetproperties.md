@@ -39,7 +39,8 @@ api_location:
 -	SensorsClassExtension.dll
 api_name:
 -	ISensorDriver.OnSetProperties
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SensorConnectionType
 req.product: Windows 10 or later.
@@ -54,19 +55,6 @@ req.product: Windows 10 or later.
 The <b>ISensorDriver::OnSetProperties</b> method specifies values for the specified list of properties.
 
 
-## -syntax
-
-
-````
-HRESULT OnSetProperties(
-  [in]  IWDFFile              *pClientFile,
-  [in]  LPWSTR                pwszSensorID,
-  [in]  IPortableDeviceValues *pPropertiesToSet,
-  [out] IPortableDeviceValues **ppResults
-);
-````
-
-
 ## -parameters
 
 
@@ -74,7 +62,7 @@ HRESULT OnSetProperties(
 
 ### -param pClientFile [in]
 
-Pointer to an <a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a> interface that represents the file object for the application specifying property values.
+Pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff558912">IWDFFile</a> interface that represents the file object for the application specifying property values.
 
 
 ### -param pwszSensorID [in]
@@ -120,12 +108,11 @@ The sensor class extension is responsible for freeing any <b>PROPVARIANT</b> str
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545610">ISensorDriver::OnGetProperties</a>
-
-
-
  
 
  
-
 

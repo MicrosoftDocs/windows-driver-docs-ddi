@@ -38,7 +38,8 @@ api_location:
 -	Wdfpdo.h
 api_name:
 -	EvtDeviceDisableWakeAtBus
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_OBJECT_CONTEXT_TYPE_INFO, *PWDF_OBJECT_CONTEXT_TYPE_INFO
 req.product: Windows 10 or later.
@@ -53,19 +54,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF only]
 
 A bus driver's <i>EvtDeviceDisableWakeAtBus</i> event callback function performs bus-level operations that disable the ability of one of the bus's devices to trigger a wake-up signal on the bus.
-
-
-## -prototype
-
-
-````
-EVT_WDF_DEVICE_DISABLE_WAKE_AT_BUS EvtDeviceDisableWakeAtBus;
-
-VOID EvtDeviceDisableWakeAtBus(
-  _In_ WDFDEVICE Device
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -134,12 +122,11 @@ The <b>EVT_WDF_DEVICE_DISABLE_WAKE_AT_BUS</b> function type is defined in the Wd
 
 ## -see-also
 
-<a href="..\wdfpdo\nc-wdfpdo-evt_wdf_device_enable_wake_at_bus.md">EvtDeviceEnableWakeAtBus</a>
 
 
 
+<a href="https://msdn.microsoft.com/902c9bdc-d83a-4bc2-802c-1aaba43c9e2e">EvtDeviceEnableWakeAtBus</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: audio\isynthsinkdmus_synctomaster.htm
 old-project: audio
 ms.assetid: 5009e4d8-5299-4eeb-a70d-5be87694b1d0
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/19/2018
 ms.keywords: ISynthSinkDMus, ISynthSinkDMus interface [Audio Devices], SyncToMaster method, ISynthSinkDMus::SyncToMaster, SyncToMaster method [Audio Devices], SyncToMaster method [Audio Devices], ISynthSinkDMus interface, SyncToMaster,ISynthSinkDMus.SyncToMaster, audio.isynthsinkdmus_synctomaster, audmp-routines_35d431eb-a92c-4e73-b75c-8a3a1f0451ce.xml, dmusicks/ISynthSinkDMus::SyncToMaster
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	dmusicks.h
 api_name:
 -	ISynthSinkDMus.SyncToMaster
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DMUS_STREAM_TYPE
 ---
@@ -50,17 +51,6 @@ req.typenames: DMUS_STREAM_TYPE
 
 
 The <code>SyncToMaster</code> method allows synchronization to the master clock in order to avoid drift.
-
-
-## -syntax
-
-
-````
-NTSTATUS SyncToMaster(
-  [in] REFERENCE_TIME rfTime,
-  [in] BOOL           fStart
-);
-````
 
 
 ## -parameters
@@ -93,23 +83,22 @@ Specifies whether the sample clock is to be reset to zero with this reference ti
 
 Because the master time and sample time might be driven by different crystals, they can drift apart. The port driver periodically calls this method to give the miniport driver an opportunity to synchronize its sample clock to the master clock.
 
-Parameter <i>fStart</i> is <b>TRUE</b> during the first call to <code>SyncToMaster</code> after the stream enters the KSSTATE_RUN state (see <a href="..\ks\ne-ks-pksstate.md">KSSTATE</a>). Otherwise, <i>fStart</i> is <b>FALSE</b>.
+Parameter <i>fStart</i> is <b>TRUE</b> during the first call to <code>SyncToMaster</code> after the stream enters the KSSTATE_RUN state (see <a href="https://msdn.microsoft.com/library/windows/hardware/ff566856">KSSTATE</a>). Otherwise, <i>fStart</i> is <b>FALSE</b>.
 
 
 
 
 ## -see-also
 
-<a href="..\dmusicks\nn-dmusicks-isynthsinkdmus.md">ISynthSinkDMus</a>
 
 
 
-<a href="..\ks\ne-ks-pksstate.md">KSSTATE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537011">ISynthSinkDMus</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566856">KSSTATE</a>
  
 
  
-
 

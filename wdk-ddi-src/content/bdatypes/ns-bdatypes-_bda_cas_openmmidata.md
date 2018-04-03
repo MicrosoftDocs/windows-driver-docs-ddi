@@ -38,7 +38,8 @@ api_location:
 -	Bdatypes.h
 api_name:
 -	BDA_CAS_OPENMMIDATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BDA_CAS_OPENMMIDATA, *PBDA_CAS_OPENMMIDATA
 ---
@@ -50,20 +51,6 @@ req.typenames: BDA_CAS_OPENMMIDATA, *PBDA_CAS_OPENMMIDATA
 
 
 
-
-
-## -syntax
-
-
-````
-typedef struct _BDA_CAS_OPENMMIDATA {
-  ULONG  ulDialogNumber;
-  ULONG  ulDialogRequest;
-  GUID   uuidDialogType;
-  USHORT usDialogDataLength;
-  BYTE   argbDialogData[MIN_DIMENSION];
-} BDA_CAS_OPENMMIDATA, *PBDA_CAS_OPENMMIDATA;
-````
 
 
 ## -struct-fields

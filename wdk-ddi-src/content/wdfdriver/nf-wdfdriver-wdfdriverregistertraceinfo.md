@@ -38,7 +38,8 @@ api_location:
 -	Wdfdriver.h
 api_name:
 -	WdfDriverRegisterTraceInfo
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_DRIVER_INIT_FLAGS
 req.product: Windows 10 or later.
@@ -53,18 +54,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF only]
 
 The <b>WdfDriverRegisterTraceInfo</b> method is reserved for internal use only.
-
-
-## -syntax
-
-
-````
-NTSTATUS WdfDriverRegisterTraceInfo(
-  _In_ PDRIVER_OBJECT         DriverObject,
-  _In_ PFN_WDF_TRACE_CALLBACK EvtTraceCallback,
-  _In_ PVOID                  ControlBlock
-);
-````
 
 
 ## -parameters

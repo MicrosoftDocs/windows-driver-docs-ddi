@@ -38,7 +38,8 @@ api_location:
 -	filterpipeline.h
 api_name:
 -	IPartFont.SetFontOptions
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
@@ -52,16 +53,6 @@ req.typenames: EXpsFontRestriction
 The <b>SetFontOptions</b> method sets the options for the font.
 
 
-## -syntax
-
-
-````
-HRESULT SetFontOptions(
-  [in] EXpsFontOptions options
-);
-````
-
-
 ## -parameters
 
 
@@ -69,7 +60,7 @@ HRESULT SetFontOptions(
 
 ### -param options [in]
 
-An <a href="..\filterpipeline\ne-filterpipeline-__midl___midl_itf_filterpipeline_0000_0000_0002.md">ExpsFontOptions</a>-typed value that describes the options for the font.
+An <a href="https://msdn.microsoft.com/library/windows/hardware/ff548775">ExpsFontOptions</a>-typed value that describes the options for the font.
 
 
 ## -returns

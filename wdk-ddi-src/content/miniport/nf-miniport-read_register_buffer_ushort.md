@@ -7,7 +7,7 @@ old-location: kernel\read_register_buffer_ushort.htm
 old-project: kernel
 ms.assetid: 30c3fc44-e94a-47ca-a25b-33857b485817
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: READ_REGISTER_BUFFER_USHORT, READ_REGISTER_BUFFER_USHORT routine [Kernel-Mode Driver Architecture], k103_a4ed8007-394e-4090-bcdb-63ad37431377.xml, kernel.read_register_buffer_ushort, wdm/READ_REGISTER_BUFFER_USHORT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	READ_REGISTER_BUFFER_USHORT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MEMORY_CACHING_TYPE
 ---
@@ -50,18 +51,6 @@ req.typenames: MEMORY_CACHING_TYPE
 
 
 The <b>READ_REGISTER_BUFFER_USHORT</b> routine reads a number of USHORT values from the specified register address into a buffer. 
-
-
-## -syntax
-
-
-````
-VOID READ_REGISTER_BUFFER_USHORT(
-  _In_  PUSHORT Register,
-  _Out_ PUSHORT Buffer,
-  _In_  ULONG   Count
-);
-````
 
 
 ## -parameters

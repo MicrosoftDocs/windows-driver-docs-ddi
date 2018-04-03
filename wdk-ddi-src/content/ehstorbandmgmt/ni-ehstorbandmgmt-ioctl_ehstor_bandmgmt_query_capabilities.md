@@ -7,7 +7,7 @@ old-location: storage\ioctl_ehstor_bandmgmt_query_capabilities.htm
 old-project: storage
 ms.assetid: 16D035EF-2234-4D5A-8D19-8CF3BA8B3590
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES, IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES control code [Storage Devices], ehstorbandmgmt/IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES, storage.ioctl_ehstor_bandmgmt_query_capabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	EhStorBandMgmt.h
 api_name:
 -	IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXVA_VideoSample32
 ---
@@ -49,7 +50,7 @@ req.typenames: DXVA_VideoSample32
 ## -description
 
 
-The <b>IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES</b> request retrieves the banded security capabilities for a storage device. The IOCTL returns the capabilities as a <a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_management_capabilities.md">BAND_MANAGEMENT_CAPABILITIES</a> structure in the system buffer.
+The <b>IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES</b> request retrieves the banded security capabilities for a storage device. The IOCTL returns the capabilities as a <a href="https://msdn.microsoft.com/library/windows/hardware/hh439563">BAND_MANAGEMENT_CAPABILITIES</a> structure in the system buffer.
 
 
 ## -ioctlparameters
@@ -69,12 +70,12 @@ None.
 
 ### -output-buffer
 
-The output buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains a <a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_management_capabilities.md">BAND_MANAGEMENT_CAPABILITIES</a>  structure.
+The output buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains a <a href="https://msdn.microsoft.com/library/windows/hardware/hh439563">BAND_MANAGEMENT_CAPABILITIES</a>  structure.
 
 
 ### -output-buffer-length
 
-The length of a <a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_management_capabilities.md">BAND_MANAGEMENT_CAPABILITIES</a>  structure.
+The length of a <a href="https://msdn.microsoft.com/library/windows/hardware/hh439563">BAND_MANAGEMENT_CAPABILITIES</a>  structure.
 
 
 ### -in-out-buffer
@@ -139,12 +140,11 @@ A driver or application can query for the necessary output buffer size by settin
 
 ## -see-also
 
-<a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_management_capabilities.md">BAND_MANAGEMENT_CAPABILITIES</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439563">BAND_MANAGEMENT_CAPABILITIES</a>
  
 
  
-
 

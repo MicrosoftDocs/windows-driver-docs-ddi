@@ -38,7 +38,8 @@ api_location:
 -	pointofservicecommontypes.h
 api_name:
 -	LineDisplayCursorCoordinates
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: LineDisplayCursorCoordinates
 ---
@@ -50,16 +51,6 @@ req.typenames: LineDisplayCursorCoordinates
 
 
 This enumeration is not implemented.
-
-
-## -syntax
-
-
-````
-typedef struct _LineDisplayCursorCoordinates {
-   ...;
-} LineDisplayCursorCoordinates, *PLineDisplayCursorCoordinates;
-````
 
 
 ## -struct-fields

@@ -38,7 +38,8 @@ api_location:
 -	Ksproxy.h
 api_name:
 -	OPTIMAL_WEIGHT_TOTALS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OPTIMAL_WEIGHT_TOTALS
 ---
@@ -50,18 +51,6 @@ req.typenames: OPTIMAL_WEIGHT_TOTALS
 
 
 
-
-
-## -syntax
-
-
-````
-typedef struct {
-  LONGLONG MinTotalNominator;
-  LONGLONG MaxTotalNominator;
-  LONGLONG TotalDenominator;
-} OPTIMAL_WEIGHT_TOTALS;
-````
 
 
 ## -struct-fields

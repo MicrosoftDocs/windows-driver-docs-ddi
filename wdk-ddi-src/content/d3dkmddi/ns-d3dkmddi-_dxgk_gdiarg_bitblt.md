@@ -7,7 +7,7 @@ old-location: display\dxgk_gdiarg_bitblt.htm
 old-project: display
 ms.assetid: 367ee4cb-5074-478d-8836-962f96acf103
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGK_GDIARG_BITBLT, DXGK_GDIARG_BITBLT structure [Display Devices], DmStructs_717d3dc5-03a2-4814-b351-6ea7fb270f26.xml, _DXGK_GDIARG_BITBLT, d3dkmddi/DXGK_GDIARG_BITBLT, display.dxgk_gdiarg_bitblt
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGK_GDIARG_BITBLT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_GDIARG_BITBLT
 ---
@@ -50,25 +51,6 @@ req.typenames: DXGK_GDIARG_BITBLT
 
 
 The DXGK_GDIARG_BITBLT structure describes the characteristics of a GDI hardware-accelerated <a href="https://msdn.microsoft.com/bf5fa319-14ec-40df-be7a-89c07ce519ad">bit-block transfer (bitblt)</a> with no stretching.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGK_GDIARG_BITBLT {
-  RECT SrcRect;
-  RECT DstRect;
-  UINT SrcAllocationIndex;
-  UINT DstAllocationIndex;
-  UINT NumSubRects;
-  RECT *pSubRects;
-  WORD Rop;
-  WORD Rop3;
-  UINT SrcPitch;
-  UINT DstPitch;
-} DXGK_GDIARG_BITBLT;
-````
 
 
 ## -struct-fields
@@ -127,14 +109,14 @@ For more information, see the Remarks section.
 ### -field Rop
 
 
-      [in] An 8-bit value that specifies a GDI raster operation (ROP) that is defined by the constant values of the <a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_gdirop_bitblt.md">DXGK_GDIROP_BITBLT</a> enumeration.
+      [in] An 8-bit value that specifies a GDI raster operation (ROP) that is defined by the constant values of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561095">DXGK_GDIROP_BITBLT</a> enumeration.
      
 
 
 ### -field Rop3
 
 
-      [in] An 8-bit value that specifies a ternary GDI raster operation (ROP3) that combines a brush, a source bitmap, and a destination bitmap in one of 256 possible combinations. This type of raster operation will be processed only if the driver has set the <b>SupportAllBltRops</b> member in the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_presentationcaps.md">DXGK_PRESENTATIONCAPS</a> structure.
+      [in] An 8-bit value that specifies a ternary GDI raster operation (ROP3) that combines a brush, a source bitmap, and a destination bitmap in one of 256 possible combinations. This type of raster operation will be processed only if the driver has set the <b>SupportAllBltRops</b> member in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562004">DXGK_PRESENTATIONCAPS</a> structure.
      
 
 
@@ -156,7 +138,7 @@ For more information, see the Remarks section.
 
 
 
-The <b>SrcPitch</b> and <b>DstPitch</b> pitch values must be used to determine the byte locations of the <b>SrcRect</b> and <b>DstRect</b> rectangles, respectively, for the following allocations of type <a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_gdisurfacetype.md">D3DKMDT_GDISURFACETYPE</a>:
+The <b>SrcPitch</b> and <b>DstPitch</b> pitch values must be used to determine the byte locations of the <b>SrcRect</b> and <b>DstRect</b> rectangles, respectively, for the following allocations of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff546039">D3DKMDT_GDISURFACETYPE</a>:
 
 D3DKMDT_GDISURFACE_STAGING_CPUVISIBLE
 
@@ -164,7 +146,7 @@ D3DKMDT_GDISURFACE_EXISTINGSYSMEM
 
 Pitch should be ignored for other allocation types.
 
-Pitch is guaranteed to be aligned in the bit-block transfer according to the <b>AlignmentShift</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_presentationcaps.md">DXGK_PRESENTATIONCAPS</a> structure (that is, <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a>.PresentationCaps.AlignmentShift).
+Pitch is guaranteed to be aligned in the bit-block transfer according to the <b>AlignmentShift</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562004">DXGK_PRESENTATIONCAPS</a> structure (that is, <a href="https://msdn.microsoft.com/library/windows/hardware/ff561062">DXGK_DRIVERCAPS</a>.PresentationCaps.AlignmentShift).
 
 Where a rectangle is defined by two pixels at coordinates (left, top) and (right, bottom), the address of the first pixel is:
 
@@ -210,28 +192,27 @@ SrcSubRect.bottom = SubRect.bottom - DstRect.top + SrcRect.top;</pre>
 
 ## -see-also
 
-<a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_gdisurfacetype.md">D3DKMDT_GDISURFACETYPE</a>
 
 
 
-<a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_gdirop_bitblt.md">DXGK_GDIROP_BITBLT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546039">D3DKMDT_GDISURFACETYPE</a>
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_presentationcaps.md">DXGK_PRESENTATIONCAPS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561062">DXGK_DRIVERCAPS</a>
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561095">DXGK_GDIROP_BITBLT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562004">DXGK_PRESENTATIONCAPS</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
-
-
-
  
 
  
-
 

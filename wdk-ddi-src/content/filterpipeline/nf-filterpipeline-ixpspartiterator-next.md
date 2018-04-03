@@ -38,7 +38,8 @@ api_location:
 -	Filterpipeline.h
 api_name:
 -	IXpsPartIterator.Next
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
@@ -50,16 +51,6 @@ req.typenames: EXpsFontRestriction
 
 
 The <code>Next</code> method advances the iterator to the next part.
-
-
-## -syntax
-
-
-````
-void STDMETHODCALLTYPE Next(
-    None
-);
-````
 
 
 ## -parameters

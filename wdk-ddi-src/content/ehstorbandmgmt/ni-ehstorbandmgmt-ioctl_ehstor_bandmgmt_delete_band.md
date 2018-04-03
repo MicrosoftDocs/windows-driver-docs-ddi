@@ -7,7 +7,7 @@ old-location: storage\ioctl_ehstor_bandmgmt_delete_band.htm
 old-project: storage
 ms.assetid: CA0002E6-D9E7-417B-AD48-32E25E24EC32
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_EHSTOR_BANDMGMT_DELETE_BAND, IOCTL_EHSTOR_BANDMGMT_DELETE_BAND control code [Storage Devices], ehstorbandmgmt/IOCTL_EHSTOR_BANDMGMT_DELETE_BAND, storage.ioctl_ehstor_bandmgmt_delete_band
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	EhStorBandMgmt.h
 api_name:
 -	IOCTL_EHSTOR_BANDMGMT_DELETE_BAND
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXVA_VideoSample32
 ---
@@ -59,9 +60,9 @@ A configured band on a storage device is deleted with the <b>IOCTL_EHSTOR_BANDMG
 
 ### -input-buffer
 
-The input buffer at <i>Irp-&gt;AssociatedIrp.SystemBuffer</i> must contain a <a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_set_band_metadata_parameters.md">DELETE_BAND_PARAMETERS</a> and possibly an <b>AUTH_KEY</b> structure. 
+The input buffer at <i>Irp-&gt;AssociatedIrp.SystemBuffer</i> must contain a <a href="https://msdn.microsoft.com/library/windows/hardware/hh439628">DELETE_BAND_PARAMETERS</a> and possibly an <b>AUTH_KEY</b> structure. 
 
-If the <b>AuthKeyOffset</b> member of <a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_set_band_metadata_parameters.md">DELETE_BAND_PARAMETERS</a> is set to <b>EHSTOR_BANDMGR_NO_KEY</b>, the input data in the system buffer need not include an <b>AUTH_KEY</b> structure.
+If the <b>AuthKeyOffset</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/hh439628">DELETE_BAND_PARAMETERS</a> is set to <b>EHSTOR_BANDMGR_NO_KEY</b>, the input data in the system buffer need not include an <b>AUTH_KEY</b> structure.
 
 
 ### -input-buffer-length
@@ -142,13 +143,13 @@ One of the following values can be returned in the <b>Status</b> field.
 
 
 
-An authentication key is required to delete a band without performing an erase first. To request a band erase, the <b>DELBAND_ERASE_BEFORE_DELETE</b> flag is set in the <b>Flags</b> member of <a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_delete_band_parameters.md">DELETE_BAND_PARAMETERS</a>.
+An authentication key is required to delete a band without performing an erase first. To request a band erase, the <b>DELBAND_ERASE_BEFORE_DELETE</b> flag is set in the <b>Flags</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/hh439628">DELETE_BAND_PARAMETERS</a>.
 
 After a band delete, all LBAs contained in the deleted band are returned to the global band. The locking conditions for the global band now apply to the LBAs returned to the global band. The LBAs returned to the global band are now associated with the media key for the global band and encrypted data in those LBAs is unrecoverable.
 
-The deleted band remains in the silo driver's band table but becomes unconfigured. The authentication key is reset to the default value, band and key metadata contains zeros, and the lock states revert to <b>PERSISTENT_UNLOCK</b>. The band is now available for reconfiguration with an <a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_create_band.md">IOCTL_EHSTOR_BANDMGMT_CREATE_BAND</a> request.
+The deleted band remains in the silo driver's band table but becomes unconfigured. The authentication key is reset to the default value, band and key metadata contains zeros, and the lock states revert to <b>PERSISTENT_UNLOCK</b>. The band is now available for reconfiguration with an <a href="https://msdn.microsoft.com/library/windows/hardware/hh451372">IOCTL_EHSTOR_BANDMGMT_CREATE_BAND</a> request.
 
-Deleting a band without a cryptographic erase will not remove the encryption key for that band. It is possible to later create a band with the same configuration and band identifier as the deleted band. In this case, data previously stored in the band and not overwritten since the deletion of the previous band will be available. To avoid this situation, delete the band with the <b>DELBAND_ERASE_BEFORE_DELETE</b> flag set in <a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_delete_band_parameters.md">DELETE_BAND_PARAMETERS</a>.
+Deleting a band without a cryptographic erase will not remove the encryption key for that band. It is possible to later create a band with the same configuration and band identifier as the deleted band. In this case, data previously stored in the band and not overwritten since the deletion of the previous band will be available. To avoid this situation, delete the band with the <b>DELBAND_ERASE_BEFORE_DELETE</b> flag set in <a href="https://msdn.microsoft.com/library/windows/hardware/hh439628">DELETE_BAND_PARAMETERS</a>.
 
 The <b>IOCTL_EHSTOR_BANDMGMT_DELETE_BAND</b> will not delete the global band. A request to do so will return <b>STATUS_INVALID_PARAMETER</b>. 
 
@@ -157,20 +158,19 @@ The <b>IOCTL_EHSTOR_BANDMGMT_DELETE_BAND</b> will not delete the global band. A 
 
 ## -see-also
 
-<a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_erase_band.md">IOCTL_EHSTOR_BANDMGMT_ERASE_BAND</a>
 
 
 
-<a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_delete_band_parameters.md">DELETE_BAND_PARAMETERS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439628">DELETE_BAND_PARAMETERS</a>
 
 
 
-<a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_create_band.md">IOCTL_EHSTOR_BANDMGMT_CREATE_BAND</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451372">IOCTL_EHSTOR_BANDMGMT_CREATE_BAND</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451383">IOCTL_EHSTOR_BANDMGMT_ERASE_BAND</a>
  
 
  
-
 

@@ -39,7 +39,8 @@ api_location:
 -	Wdf01000.sys.dll
 api_name:
 -	WdfDriverWdmGetDriverObject
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_DRIVER_INIT_FLAGS
 req.product: Windows 10 or later.
@@ -56,16 +57,6 @@ req.product: Windows 10 or later.
 The <b>WdfDriverWdmGetDriverObject</b> method retrieves a pointer to the Windows Driver Model (WDM) driver object that is associated with a specified framework driver object.
 
 
-## -syntax
-
-
-````
-PDRIVER_OBJECT WdfDriverWdmGetDriverObject(
-  _In_ WDFDRIVER Driver
-);
-````
-
-
 ## -parameters
 
 
@@ -73,14 +64,14 @@ PDRIVER_OBJECT WdfDriverWdmGetDriverObject(
 
 ### -param Driver [in]
 
-A handle to the driver's framework driver object that the driver obtained from a previous call to <a href="..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md">WdfDriverCreate</a> or <a href="..\wdfdriver\nf-wdfdriver-wdfgetdriver.md">WdfGetDriver</a>.
+A handle to the driver's framework driver object that the driver obtained from a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff547175">WdfDriverCreate</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff547336">WdfGetDriver</a>.
 
 
 ## -returns
 
 
 
-<b>WdfDriverWdmGetDriverObject</b> returns a pointer to a <a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a> structure. A system bug check occurs if the <i>Driver</i> handle is invalid.
+<b>WdfDriverWdmGetDriverObject</b> returns a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff544174">DRIVER_OBJECT</a> structure. A system bug check occurs if the <i>Driver</i> handle is invalid.
 
 
 
@@ -89,7 +80,7 @@ A handle to the driver's framework driver object that the driver obtained from a
 
 
 
-The pointer that the <b>WdfDriverWdmGetDriverObject</b> method returns is valid until the framework driver object is deleted. If the driver provides an <a href="..\wdfobject\nc-wdfobject-evt_wdf_object_context_cleanup.md">EvtCleanupCallback</a> function for the framework driver object, the pointer is valid until the callback function returns.
+The pointer that the <b>WdfDriverWdmGetDriverObject</b> method returns is valid until the framework driver object is deleted. If the driver provides an <a href="https://msdn.microsoft.com/aba2efca-7d1f-4594-af65-13356f0e3f8b">EvtCleanupCallback</a> function for the framework driver object, the pointer is valid until the callback function returns.
 
 
 #### Examples
@@ -113,20 +104,19 @@ pDrvObj = WdfDriverWdmGetDriverObject(Driver);</pre>
 
 ## -see-also
 
-<a href="..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md">WdfDriverCreate</a>
 
 
 
-<a href="..\wdfdriver\nf-wdfdriver-wdfgetdriver.md">WdfGetDriver</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544174">DRIVER_OBJECT</a>
 
 
 
-<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547175">WdfDriverCreate</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547336">WdfGetDriver</a>
  
 
  
-
 

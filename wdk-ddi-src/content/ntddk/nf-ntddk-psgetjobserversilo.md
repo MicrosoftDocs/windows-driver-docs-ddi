@@ -7,7 +7,7 @@ old-location: kernel\psgetjobserversilo.htm
 old-project: kernel
 ms.assetid: 8EBCBC06-8373-43EA-91F5-6C8A439C0EAD
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: PsGetJobServerSilo, PsGetJobServerSilo routine [Kernel-Mode Driver Architecture], kernel.psgetjobserversilo, ntddk/PsGetJobServerSilo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddk.h
 api_name:
 -	PsGetJobServerSilo
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
@@ -52,20 +53,9 @@ req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 This routine returns the effective <i>ServerSilo</i> for the job. The returned pointer is valid as long as the supplied <i>Job</i> object remains referenced.
 
 
-<div class="alert"><b>Note</b>  This returns a <i>ServerSilo</i> or a value indicating the host silo. Unlike <a href="..\ntddk\nf-ntddk-psgetjobsilo.md">PsGetJobSilo</a>, it will not return an app silo, even if one is present.</div>
+<div class="alert"><b>Note</b>  This returns a <i>ServerSilo</i> or a value indicating the host silo. Unlike <a href="https://msdn.microsoft.com/library/windows/hardware/mt735068">PsGetJobSilo</a>, it will not return an app silo, even if one is present.</div>
 <div> </div>
 
-
-
-## -syntax
-
-
-````
-NTSTATUS PsGetJobServerSilo(
-  _In_opt_ PEJOB  Job,
-  _Out_    PESILO *ServerSilo
-);
-````
 
 
 ## -parameters

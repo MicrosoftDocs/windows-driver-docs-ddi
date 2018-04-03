@@ -38,7 +38,8 @@ api_location:
 -	Sti.h
 api_name:
 -	STI_DEVICE_MJ_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STI_DEVICE_MJ_TYPE, STI_DEVICE_MJ_TYPE
 req.product: Windows 10 or later.
@@ -53,19 +54,6 @@ req.product: Windows 10 or later.
 The STI_DEVICE_TYPE type identifies the device type of a still image device.
 
 The DWORD is divided into a HIWORD containing the major device type, and a LOWORD containing a vendor-defined subtype.
-
-
-## -syntax
-
-
-````
-typedef enum _STI_DEVICE_MJ_TYPE { 
-  StiDeviceTypeDefault         = 0,
-  StiDeviceTypeScanner         = 1,
-  StiDeviceTypeDigitalCamera   = 2,
-  StiDeviceTypeStreamingVideo  = 3
-} STI_DEVICE_MJ_TYPE;
-````
 
 
 ## -enum-fields

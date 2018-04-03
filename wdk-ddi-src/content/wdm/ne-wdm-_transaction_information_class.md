@@ -7,7 +7,7 @@ old-location: kernel\transaction_information_class.htm
 old-project: kernel
 ms.assetid: f3211114-8924-4e57-85a3-12471585652b
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: TRANSACTION_INFORMATION_CLASS, TRANSACTION_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], TransactionBasicInformation, TransactionEnlistmentInformation, TransactionPropertiesInformation, TransactionSuperiorEnlistmentInformation, _TRANSACTION_INFORMATION_CLASS, kernel.transaction_information_class, ktm_ref_b02f7265-fb29-402a-b0d3-79427735f354.xml, wdm/TRANSACTION_INFORMATION_CLASS, wdm/TransactionBasicInformation, wdm/TransactionEnlistmentInformation, wdm/TransactionPropertiesInformation, wdm/TransactionSuperiorEnlistmentInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	TRANSACTION_INFORMATION_CLASS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TRANSACTION_INFORMATION_CLASS
 req.product: Windows 10 or later.
@@ -50,20 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>TRANSACTION_INFORMATION_CLASS</b> enumeration specifies the type of information that <a href="..\wdm\nf-wdm-zwsetinformationtransaction.md">ZwSetInformationTransaction</a> can set and <a href="..\wdm\nf-wdm-zwqueryinformationtransaction.md">ZwQueryInformationTransaction</a> can retrieve for a <a href="https://msdn.microsoft.com/af53cda4-e2ab-47df-9311-a4da2a2ee08d">transaction manager object</a>.
-
-
-## -syntax
-
-
-````
-typedef enum _TRANSACTION_INFORMATION_CLASS { 
-  TransactionBasicInformation               = 0,
-  TransactionPropertiesInformation,
-  TransactionEnlistmentInformation,
-  TransactionSuperiorEnlistmentInformation
-} TRANSACTION_INFORMATION_CLASS;
-````
+The <b>TRANSACTION_INFORMATION_CLASS</b> enumeration specifies the type of information that <a href="https://msdn.microsoft.com/library/windows/hardware/ff567104">ZwSetInformationTransaction</a> can set and <a href="https://msdn.microsoft.com/library/windows/hardware/ff567057">ZwQueryInformationTransaction</a> can retrieve for a <a href="https://msdn.microsoft.com/af53cda4-e2ab-47df-9311-a4da2a2ee08d">transaction manager object</a>.
 
 
 ## -enum-fields
@@ -73,17 +61,17 @@ typedef enum _TRANSACTION_INFORMATION_CLASS {
 
 ### -field TransactionBasicInformation
 
-Information about a transaction manager object is stored in a <a href="..\wdm\ns-wdm-_transaction_basic_information.md">TRANSACTION_BASIC_INFORMATION</a> structure.
+Information about a transaction manager object is stored in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564781">TRANSACTION_BASIC_INFORMATION</a> structure.
 
 
 ### -field TransactionPropertiesInformation
 
-Information about a transaction manager object is stored in a <a href="..\wdm\ns-wdm-_transaction_properties_information.md">TRANSACTION_PROPERTIES_INFORMATION</a> structure.
+Information about a transaction manager object is stored in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564844">TRANSACTION_PROPERTIES_INFORMATION</a> structure.
 
 
 ### -field TransactionEnlistmentInformation
 
-Information about a transaction manager object is stored in a <a href="..\wdm\ns-wdm-_transaction_enlistments_information.md">TRANSACTION_ENLISTMENTS_INFORMATION</a> structure.
+Information about a transaction manager object is stored in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564787">TRANSACTION_ENLISTMENTS_INFORMATION</a> structure.
 
 
 ### -field TransactionSuperiorEnlistmentInformation
@@ -93,16 +81,15 @@ Information about a transaction manager object is stored in a <b>TRANSACTION_SUP
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwqueryinformationtransaction.md">ZwQueryInformationTransaction</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwsetinformationtransaction.md">ZwSetInformationTransaction</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567057">ZwQueryInformationTransaction</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567104">ZwSetInformationTransaction</a>
  
 
  
-
 

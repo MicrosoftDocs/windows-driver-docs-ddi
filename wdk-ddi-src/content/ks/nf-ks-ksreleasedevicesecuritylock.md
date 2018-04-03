@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsReleaseDeviceSecurityLock
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,16 +52,6 @@ req.typenames:
 
 
 The <b>KsReleaseDeviceSecurityLock</b> function releases a previously acquired security lock on the device object header.
-
-
-## -syntax
-
-
-````
-VOID KsReleaseDeviceSecurityLock(
-  _In_ KSDEVICE_HEADER Header
-);
-````
 
 
 ## -parameters
@@ -84,12 +75,11 @@ None
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksallocatedeviceheader.md">KsAllocateDeviceHeader</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560958">KsAllocateDeviceHeader</a>
  
 
  
-
 

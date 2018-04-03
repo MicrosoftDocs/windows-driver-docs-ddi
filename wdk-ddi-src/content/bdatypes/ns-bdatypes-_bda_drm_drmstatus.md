@@ -38,7 +38,8 @@ api_location:
 -	Bdatypes.h
 api_name:
 -	BDA_DRM_DRMSTATUS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BDA_DRM_DRMSTATUS, *PBDA_DRM_DRMSTATUS
 ---
@@ -50,19 +51,6 @@ req.typenames: BDA_DRM_DRMSTATUS, *PBDA_DRM_DRMSTATUS
 
 
 
-
-
-## -syntax
-
-
-````
-typedef struct _BDA_DRM_DRMSTATUS {
-  PBDARESULT lResult;
-  GUID       DRMuuid;
-  ULONG      ulDrmUuidListStringSize;
-  GUID       argbDrmUuidListString[MIN_DIMENSION];
-} BDA_DRM_DRMSTATUS, *PBDA_DRM_DRMSTATUS;
-````
 
 
 ## -struct-fields

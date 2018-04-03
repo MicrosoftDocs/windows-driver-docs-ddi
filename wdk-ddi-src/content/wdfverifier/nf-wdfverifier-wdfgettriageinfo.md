@@ -38,7 +38,8 @@ api_location:
 -	Wdfverifier.h
 api_name:
 -	WdfGetTriageInfo
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_USB_REQUEST_COMPLETION_PARAMS, *PWDF_USB_REQUEST_COMPLETION_PARAMS
 req.product: Windows 10 or later.
@@ -53,14 +54,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WdfGetTriageInfo</b> method is reserved for internal use only.
-
-
-## -syntax
-
-
-````
-PVOID WdfGetTriageInfo(void);
-````
 
 
 ## -parameters

@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsAllocateDefaultClockEx
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,22 +52,6 @@ req.typenames:
 
 
 The <b>KsAllocateDefaultClockEx</b> function allocates and initializes the default clock structure. 
-
-
-## -syntax
-
-
-````
-NTSTATUS KsAllocateDefaultClockEx(
-  _Out_          PKSDEFAULTCLOCK     *DefaultClock,
-  _In_opt_       PVOID               Context,
-  _In_opt_       PFNKSSETTIMER       SetTimer,
-  _In_opt_       PFNKSCANCELTIMER    CancelTimer,
-  _In_opt_       PFNKSCORRELATEDTIME CorrelatedTime,
-  _In_opt_ const KSRESOLUTION        *Resolution,
-  _In_           ULONG               Flags
-);
-````
 
 
 ## -parameters
@@ -86,17 +71,17 @@ Optionally contains the context of the alternate time facilities. This must be s
 
 ### -param SetTimer [in, optional]
 
-Optionally contains a pointer to a driver-defined <a href="https://msdn.microsoft.com/library/windows/hardware/ff567203">KStrSetTimer</a> function to use to generate DPC timer callbacks based on a Presentation Time. If this is set, the function will be used to set timers based on deltas to the current Presentation Time in order to generate event notifications. If you supply a <i>KStrSetTimer</i> function to set timers, you must also supply a corresponding <a href="https://msdn.microsoft.com/library/windows/hardware/ff567156">KStrCancelTimer</a> function. Pass <b>NULL</b> in this parameter if the default <a href="..\wdm\nf-wdm-kesettimerex.md">KeSetTimerEx</a> function is to be used to approximate the next notification time. This parameter would normally be set only if a <a href="https://msdn.microsoft.com/library/windows/hardware/ff567167">KStrCorrelatedTime</a> function was also being used. The <i>KStrSetTimer</i> function must have the same characteristics as <b>KeSetTimerEx</b>.
+Optionally contains a pointer to a driver-defined <a href="https://msdn.microsoft.com/library/windows/hardware/ff567203">KStrSetTimer</a> function to use to generate DPC timer callbacks based on a Presentation Time. If this is set, the function will be used to set timers based on deltas to the current Presentation Time in order to generate event notifications. If you supply a <i>KStrSetTimer</i> function to set timers, you must also supply a corresponding <a href="https://msdn.microsoft.com/library/windows/hardware/ff567156">KStrCancelTimer</a> function. Pass <b>NULL</b> in this parameter if the default <a href="https://msdn.microsoft.com/library/windows/hardware/ff553292">KeSetTimerEx</a> function is to be used to approximate the next notification time. This parameter would normally be set only if a <a href="https://msdn.microsoft.com/library/windows/hardware/ff567167">KStrCorrelatedTime</a> function was also being used. The <i>KStrSetTimer</i> function must have the same characteristics as <b>KeSetTimerEx</b>.
 
 
 ### -param CancelTimer [in, optional]
 
-Optionally contains a pointer to a driver-defined <a href="https://msdn.microsoft.com/library/windows/hardware/ff567156">KStrCancelTimer</a> function to use to cancel outstanding timer callbacks. If you supply a <i>KStrCancelTimer</i> function to cancel timers, you must also supply a corresponding <a href="https://msdn.microsoft.com/library/windows/hardware/ff567203">KStrSetTimer</a> function. Pass <b>NULL</b> in this parameter if the default <a href="..\wdm\nf-wdm-kecanceltimer.md">KeCancelTimer</a> function is to be used to cancel timers. The <i>KStrCancelTimer</i> function must have the same characteristics as <b>KeCancelTimer</b>.
+Optionally contains a pointer to a driver-defined <a href="https://msdn.microsoft.com/library/windows/hardware/ff567156">KStrCancelTimer</a> function to use to cancel outstanding timer callbacks. If you supply a <i>KStrCancelTimer</i> function to cancel timers, you must also supply a corresponding <a href="https://msdn.microsoft.com/library/windows/hardware/ff567203">KStrSetTimer</a> function. Pass <b>NULL</b> in this parameter if the default <a href="https://msdn.microsoft.com/library/windows/hardware/ff551970">KeCancelTimer</a> function is to be used to cancel timers. The <i>KStrCancelTimer</i> function must have the same characteristics as <b>KeCancelTimer</b>.
 
 
 ### -param CorrelatedTime [in, optional]
 
-Optionally contains a pointer to a driver-defined <a href="https://msdn.microsoft.com/library/windows/hardware/ff567167">KStrCorrelatedTime</a> function to retrieve both the Presentation and Physical Time in a correlated manner. This allows the clock owner to completely determine the current time. Pass <b>NULL</b> if the default <a href="..\wdm\nf-wdm-kequeryperformancecounter.md">KeQueryPerformanceCounter</a> function is to be used to regulate time progression.
+Optionally contains a pointer to a driver-defined <a href="https://msdn.microsoft.com/library/windows/hardware/ff567167">KStrCorrelatedTime</a> function to retrieve both the Presentation and Physical Time in a correlated manner. This allows the clock owner to completely determine the current time. Pass <b>NULL</b> if the default <a href="https://msdn.microsoft.com/library/windows/hardware/ff553053">KeQueryPerformanceCounter</a> function is to be used to regulate time progression.
 
 
 ### -param Resolution [in, optional]
@@ -122,18 +107,13 @@ The <b>KsAllocateDefaultClockEx</b> function returns STATUS_SUCCESS if successfu
 
 
 
-The internal DefaultClock.ReferenceCount element is initialized to one by the <a href="..\ks\nf-ks-ksallocatedefaultclock.md">KsAllocateDefaultClock</a> function. The element is incremented and decremented as each notification DPC is queued and completed. When the structure is to be freed, the element is used to determine if the owner of the clock should free the structure or if a pending DPC should free it asynchronously. 
+The internal DefaultClock.ReferenceCount element is initialized to one by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560952">KsAllocateDefaultClock</a> function. The element is incremented and decremented as each notification DPC is queued and completed. When the structure is to be freed, the element is used to determine if the owner of the clock should free the structure or if a pending DPC should free it asynchronously. 
 
 
 
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksfreedefaultclock.md">KsFreeDefaultClock</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567167">KStrCorrelatedTime</a>
 
 
 
@@ -141,7 +121,7 @@ The internal DefaultClock.ReferenceCount element is initialized to one by the <a
 
 
 
-<a href="..\ks\nf-ks-ksallocatedefaultclock.md">KsAllocateDefaultClock</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567167">KStrCorrelatedTime</a>
 
 
 
@@ -149,8 +129,12 @@ The internal DefaultClock.ReferenceCount element is initialized to one by the <a
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560952">KsAllocateDefaultClock</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562559">KsFreeDefaultClock</a>
  
 
  
-
 

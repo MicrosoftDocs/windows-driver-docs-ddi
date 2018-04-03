@@ -38,7 +38,8 @@ api_location:
 -	ntddk.h
 api_name:
 -	WHEA_ERROR_SOURCE_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WHEA_ERROR_SOURCE_TYPE, *PWHEA_ERROR_SOURCE_TYPE
 ---
@@ -50,28 +51,6 @@ req.typenames: WHEA_ERROR_SOURCE_TYPE, *PWHEA_ERROR_SOURCE_TYPE
 
 
 The WHEA_ERROR_SOURCE_TYPE enumeration defines the different types of error sources that can report hardware errors.
-
-
-## -syntax
-
-
-````
-typedef enum _WHEA_ERROR_SOURCE_TYPE { 
-  WheaErrSrcTypeMCE         = 0x00,
-  WheaErrSrcTypeCMC         = 0x01,
-  WheaErrSrcTypeCPE         = 0x02,
-  WheaErrSrcTypeNMI         = 0x03,
-  WheaErrSrcTypePCIe        = 0x04,
-  WheaErrSrcTypeGeneric     = 0x05,
-  WheaErrSrcTypeINIT        = 0x06,
-  WheaErrSrcTypeBOOT        = 0x07,
-  WheaErrSrcTypeSCIGeneric  = 0x08,
-  WheaErrSrcTypeIPFMCA      = 0x09,
-  WheaErrSrcTypeIPFCMC      = 0x0a,
-  WheaErrSrcTypeIPFCPE      = 0x0b,
-  WheaErrSrcTypeMax
-} WHEA_ERROR_SOURCE_TYPE, *PWHEA_ERROR_SOURCE_TYPE;
-````
 
 
 ## -enum-fields
@@ -154,7 +133,7 @@ The maximum number of error source types that can report hardware errors.
 
 
 
-The <a href="..\ntddk\ns-ntddk-_whea_error_source_descriptor.md">WHEA_ERROR_SOURCE_DESCRIPTOR</a> structure contains a member of type WHEA_ERROR_SOURCE_TYPE that specifies the type of error source that is described by the structure.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560505">WHEA_ERROR_SOURCE_DESCRIPTOR</a> structure contains a member of type WHEA_ERROR_SOURCE_TYPE that specifies the type of error source that is described by the structure.
 
 The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560465">WHEA_ERROR_PACKET</a> structure contains a member of type WHEA_ERROR_SOURCE_TYPE that specifies the type of error source that caused the error condition described by the structure.
 
@@ -163,16 +142,15 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560465">WHEA_
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560465">WHEA_ERROR_PACKET</a>
 
 
 
-<a href="..\ntddk\ns-ntddk-_whea_error_source_descriptor.md">WHEA_ERROR_SOURCE_DESCRIPTOR</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560505">WHEA_ERROR_SOURCE_DESCRIPTOR</a>
  
 
  
-
 

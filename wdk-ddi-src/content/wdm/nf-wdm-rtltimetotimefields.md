@@ -7,7 +7,7 @@ old-location: kernel\rtltimetotimefields.htm
 old-project: kernel
 ms.assetid: 128fe592-8dc1-46cf-8aa6-0f3de0896cc5
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: RtlTimeToTimeFields, RtlTimeToTimeFields routine [Kernel-Mode Driver Architecture], k109_574f7b2f-cbb5-447c-84d5-88179cbe4cb7.xml, kernel.rtltimetotimefields, wdm/RtlTimeToTimeFields
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ntdll.dll
 api_name:
 -	RtlTimeToTimeFields
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
@@ -52,17 +53,6 @@ req.product: Windows 10 or later.
 
 
 The RtlTimeToTimeFields routine converts system time into a <b>TIME_FIELDS</b> structure.
-
-
-## -syntax
-
-
-````
-VOID RtlTimeToTimeFields(
-  _In_  PLARGE_INTEGER Time,
-  _Out_ PTIME_FIELDS   TimeFields
-);
-````
 
 
 ## -parameters
@@ -100,24 +90,23 @@ Callers of <b>RtlTimeToTimeFields</b> can be running at any IRQL if both input b
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exlocaltimetosystemtime.md">ExLocalTimeToSystemTime</a>
 
 
 
-<a href="..\wdm\nf-wdm-exsystemtimetolocaltime.md">ExSystemTimeToLocalTime</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545483">ExLocalTimeToSystemTime</a>
 
 
 
-<a href="..\wdm\nf-wdm-kequerysystemtime.md">KeQuerySystemTime</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545622">ExSystemTimeToLocalTime</a>
 
 
 
-<a href="..\wdm\nf-wdm-rtltimefieldstotime.md">RtlTimeFieldsToTime</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553068">KeQuerySystemTime</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562879">RtlTimeFieldsToTime</a>
  
 
  
-
 

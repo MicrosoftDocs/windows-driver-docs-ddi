@@ -38,7 +38,8 @@ api_location:
 -	Wiaservc.dll
 api_name:
 -	wiasSendEndOfPage
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2
 req.product: Windows 10 or later.
@@ -51,18 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>wiasSendEndOfPage </b>function calls the client callback routine during a data transfer, sending the current total page count.
-
-
-## -syntax
-
-
-````
-HRESULT _stdcall wiasSendEndOfPage(
-  _In_    BYTE                      *pWiasContext,
-          LONG                      lPageCount,
-  _Inout_ PMINIDRV_TRANSFER_CONTEXT pmdtc
-);
-````
 
 
 ## -parameters
@@ -82,7 +71,7 @@ Specifies the total page count.
 
 ### -param pmdtc [in, out]
 
-Pointer to a <a href="..\wiamindr_lh\ns-wiamindr_lh-_minidrv_transfer_context.md">MINIDRV_TRANSFER_CONTEXT</a> structure.
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff545250">MINIDRV_TRANSFER_CONTEXT</a> structure.
 
 
 ## -returns
@@ -96,12 +85,11 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
 ## -see-also
 
-<a href="..\wiamindr_lh\ns-wiamindr_lh-_minidrv_transfer_context.md">MINIDRV_TRANSFER_CONTEXT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545250">MINIDRV_TRANSFER_CONTEXT</a>
  
 
  
-
 

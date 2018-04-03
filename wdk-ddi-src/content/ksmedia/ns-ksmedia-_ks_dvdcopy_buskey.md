@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KS_DVDCOPY_BUSKEY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KS_DVDCOPY_BUSKEY, *PKS_DVDCOPY_BUSKEY
 ---
@@ -50,17 +51,6 @@ req.typenames: KS_DVDCOPY_BUSKEY, *PKS_DVDCOPY_BUSKEY
 
 
 The KS_DVDCOPY_BUSKEY structure is used to describe the bus key information for the DVD copyright protection authentication process.
-
-
-## -syntax
-
-
-````
-typedef struct _KS_DVDCOPY_BUSKEY {
-  BYTE BusKey[5];
-  BYTE Reserved[1];
-} KS_DVDCOPY_BUSKEY, *PKS_DVDCOPY_BUSKEY;
-````
 
 
 ## -struct-fields
@@ -91,16 +81,15 @@ For more information, see <a href="https://msdn.microsoft.com/ff9cf8c8-7c8f-485c
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565142">KSPROPERTY_DVDCOPY_DEC_KEY2</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565145">KSPROPERTY_DVDCOPY_DVD_KEY1</a>
-
-
-
  
 
  
-
 

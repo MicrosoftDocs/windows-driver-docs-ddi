@@ -7,7 +7,7 @@ old-location: storage\storportpause.htm
 old-project: storage
 ms.assetid: 304df6fb-8586-454a-a89a-24ac8848d3a1
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: StorPortPause, StorPortPause routine [Storage Devices], storage.storportpause, storport/StorPortPause, storprt_0d8b3555-f061-4320-948e-f8db6a204d0e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Storport.dll
 api_name:
 -	StorPortPause
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STOR_SPINLOCK
 req.product: Windows 10 or later.
@@ -54,17 +55,6 @@ req.product: Windows 10 or later.
 The <b>StorPortPause</b> routine pauses an adapter for the specified period of time. 
 
 
-## -syntax
-
-
-````
-STORPORT_API BOOLEAN StorPortPause(
-  _In_ PVOID HwDeviceExtension,
-  _In_ ULONG TimeOut
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +62,7 @@ STORPORT_API BOOLEAN StorPortPause(
 
 ### -param HwDeviceExtension [in]
 
-Pointer to the hardware device extension of the adapter to pause. This is a per-HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls <a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>. The port driver frees this memory when it removes the device.
+Pointer to the hardware device extension of the adapter to pause. This is a per-HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff567108">StorPortInitialize</a>. The port driver frees this memory when it removes the device.
 
 
 ### -param Timeout
@@ -107,12 +97,11 @@ All requests to the adapter are held until the time-out expires or the device re
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportresume.md">StorPortResume</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567499">StorPortResume</a>
  
 
  
-
 

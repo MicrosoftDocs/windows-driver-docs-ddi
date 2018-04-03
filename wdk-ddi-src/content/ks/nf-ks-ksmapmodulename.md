@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsMapModuleName
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,20 +52,6 @@ req.typenames:
 
 
 The <b>KsMapModuleName</b> function returns the image name and resource identifier that corresponds to the <i>PhysicalDeviceObject </i>and<i> ModuleName </i>parameters. 
-
-
-## -syntax
-
-
-````
-NTSTATUS KsMapModuleName(
-  _In_  PDEVICE_OBJECT  PhysicalDeviceObject,
-  _In_  PUNICODE_STRING ModuleName,
-  _Out_ PUNICODE_STRING ImageName,
-  _Out_ PULONG_PTR      ResourceId,
-  _Out_ PULONG          ValueType
-);
-````
 
 
 ## -parameters
@@ -108,12 +95,11 @@ Pointer to a location into which the function returns the value type of the spec
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksgetimagenameandresourceid.md">KsGetImageNameAndResourceId</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562634">KsGetImageNameAndResourceId</a>
  
 
  
-
 

@@ -38,7 +38,8 @@ api_location:
 -	hidclass.h
 api_name:
 -	IOCTL_HID_DISABLE_SECURE_READ
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: HDAUDIO_STREAM_FORMAT, *PHDAUDIO_STREAM_FORMAT
 ---
@@ -49,7 +50,7 @@ req.typenames: HDAUDIO_STREAM_FORMAT, *PHDAUDIO_STREAM_FORMAT
 ## -description
 
 
-The IOCTL_HID_DISABLE_SECURE_READ request cancels an <a href="..\hidclass\ni-hidclass-ioctl_hid_enable_secure_read.md">IOCTL_HID_ENABLE_SECURE_READ</a> request for a <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db-8cff-9fac30209952">HID collection</a>. Only a "trusted" user-mode application (an application with SeTcbPrivilege privileges) can successfully use this request. Kernel-mode drivers have SeTcbPrivilege privileges by default, but user-mode applications do not.
+The IOCTL_HID_DISABLE_SECURE_READ request cancels an <a href="https://msdn.microsoft.com/library/windows/hardware/ff541081">IOCTL_HID_ENABLE_SECURE_READ</a> request for a <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db-8cff-9fac30209952">HID collection</a>. Only a "trusted" user-mode application (an application with SeTcbPrivilege privileges) can successfully use this request. Kernel-mode drivers have SeTcbPrivilege privileges by default, but user-mode applications do not.
 
 For information about how to use enable and disable secure read requests to enforce a secure read for a collection, see <a href="https://msdn.microsoft.com/be3c7d1b-195c-4b7f-a404-070b3b265333">Enforcing a Secure Read For a HID Collection</a>.
 
@@ -106,12 +107,11 @@ The HID class driver sets the <b>Status</b> member of <b>Irp-&gt;IoStatus</b> to
 
 ## -see-also
 
-<a href="..\hidclass\ni-hidclass-ioctl_hid_disable_secure_read.md">IOCTL_HID_DISABLE_SECURE_READ</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541077">IOCTL_HID_DISABLE_SECURE_READ</a>
  
 
  
-
 

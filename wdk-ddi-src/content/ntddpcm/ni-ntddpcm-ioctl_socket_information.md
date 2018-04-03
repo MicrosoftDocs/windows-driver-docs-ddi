@@ -38,7 +38,8 @@ api_location:
 -	ntddpcm.h
 api_name:
 -	IOCTL_SOCKET_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PCMCIA_CONTROLLER_CLASS, *PPCMCIA_CONTROLLER_CLASS
 ---
@@ -114,12 +115,11 @@ If there is no card in the indicated socket, the <b>Status</b> field is set to S
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537612">PCMCIA_SOCKET_INFORMATION</a>
-
-
-
  
 
  
-
 

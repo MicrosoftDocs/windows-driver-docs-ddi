@@ -7,7 +7,7 @@ old-location: kernel\ketestspinlock.htm
 old-project: kernel
 ms.assetid: 5386349c-b4b8-43db-8f66-70dc7e71345e
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: KeTestSpinLock, KeTestSpinLock routine [Kernel-Mode Driver Architecture], k105_99f18fd9-0242-4939-86ab-016236f9adcb.xml, kernel.ketestspinlock, wdm/KeTestSpinLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	KeTestSpinLock
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
@@ -53,16 +54,6 @@ req.product: Windows 10 or later.
 The <b>KeTestSpinLock</b> routine tests for the availability of a spin lock.
 
 
-## -syntax
-
-
-````
-BOOLEAN KeTestSpinLock(
-  _In_ PKSPIN_LOCK SpinLock
-);
-````
-
-
 ## -parameters
 
 
@@ -70,7 +61,7 @@ BOOLEAN KeTestSpinLock(
 
 ### -param SpinLock [in]
 
-A pointer to a spin lock. The spin lock must have been initialized by calling <a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>.
+A pointer to a spin lock. The spin lock must have been initialized by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff552160">KeInitializeSpinLock</a>.
 
 
 ## -returns
@@ -97,20 +88,19 @@ For more information about spin locks, see <a href="https://msdn.microsoft.com/l
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kereleasespinlock.md">KeReleaseSpinLock</a>
 
 
 
-<a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551917">KeAcquireSpinLock</a>
 
 
 
-<a href="..\wdm\nf-wdm-keacquirespinlock.md">KeAcquireSpinLock</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552160">KeInitializeSpinLock</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553145">KeReleaseSpinLock</a>
  
 
  
-
 

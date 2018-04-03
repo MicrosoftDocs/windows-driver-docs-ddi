@@ -7,7 +7,7 @@ old-location: audio\iminiportaudioenginenode_getsupporteddeviceformats.htm
 old-project: audio
 ms.assetid: 2B27E92C-8781-4499-A1E0-7C1BBFFAA2DF
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/19/2018
 ms.keywords: GetSupportedDeviceFormats method [Audio Devices], GetSupportedDeviceFormats method [Audio Devices], IMiniportAudioEngineNode interface, GetSupportedDeviceFormats,IMiniportAudioEngineNode.GetSupportedDeviceFormats, IMiniportAudioEngineNode, IMiniportAudioEngineNode interface [Audio Devices], GetSupportedDeviceFormats method, IMiniportAudioEngineNode::GetSupportedDeviceFormats, audio.iminiportaudioenginenode_getsupporteddeviceformats, portcls/IMiniportAudioEngineNode::GetSupportedDeviceFormats
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Portcls.h
 api_name:
 -	IMiniportAudioEngineNode.GetSupportedDeviceFormats
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
@@ -50,18 +51,6 @@ req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 
 
 Gets the supported audio data formats for the audio device.
-
-
-## -syntax
-
-
-````
-NTSTATUS GetSupportedDeviceFormats(
-  [in]  ULONG           ulNodeId,
-  [out] KSMULTIPLE_ITEM *pFormats,
-  [in]  ULONG           ulBufferSize
-);
-````
 
 
 ## -parameters
@@ -97,16 +86,15 @@ returns an appropriate error code.
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn302040">IMiniportAudioEngineNode</a>
+
+
+
 <a href="http://msdn.microsoft.com/en-us/library/windows/hardware/ff563441(v=vs.85).aspx">KSMULTIPLE_ITEM</a>
-
-
-
-<a href="..\portcls\nn-portcls-iminiportaudioenginenode.md">IMiniportAudioEngineNode</a>
-
-
-
  
 
  
-
 

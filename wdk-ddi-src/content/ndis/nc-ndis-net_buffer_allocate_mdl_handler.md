@@ -7,7 +7,7 @@ old-location: netvista\netallocatemdl.htm
 old-project: netvista
 ms.assetid: 14247f48-7ef8-481c-aa1e-e657475812fa
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NET_BUFFER_ALLOCATE_MDL_HANDLER, NetAllocateMdl, NetAllocateMdl callback function [Network Drivers Starting with Windows Vista], ndis/NetAllocateMdl, ndis_netbuf_functions_ref_d6801343-5c75-4328-b2d9-4b252afdfe15.xml, netvista.netallocatemdl
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ndis.h
 api_name:
 -	NetAllocateMdl
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
 ---
@@ -51,19 +52,6 @@ req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
 
 The 
   <i>NetAllocateMdl</i> function allocates an MDL with an associated memory block of a specified size.
-
-
-## -prototype
-
-
-````
-NET_BUFFER_ALLOCATE_MDL_HANDLER NetAllocateMdl;
-
-PMDL NetAllocateMdl(
-  _In_ PULONG BufferSize
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -94,7 +82,7 @@ The size of the memory block, in bytes. When calling
 If the NDIS driver specifies an entry point for the 
     <i>NetAllocateMdl</i> function at the 
     <i>AllocateMdl</i> parameter of the 
-    <a href="..\ndis\nf-ndis-ndisretreatnetbufferdatastart.md">
+    <a href="https://msdn.microsoft.com/4b58a1dc-8a5a-464b-a2a2-deb952febe25">
     NdisRetreatNetBufferDataStart</a> function, NDIS calls 
     <i>NetAllocateMdl</i> to allocate an MDL and memory.
 
@@ -103,7 +91,7 @@ NDIS specifies the size of the associated memory block at
 
 <i>NetAllocateMdl</i> can use any allocation method that meets the driver's design requirements. When NDIS
     calls the 
-    <a href="..\ndis\nc-ndis-net_buffer_free_mdl_handler.md">NetFreeMdl</a> function to free the memory, the
+    <a href="https://msdn.microsoft.com/a92b2de9-231d-4dcc-8220-857063a35eb1">NetFreeMdl</a> function to free the memory, the
     NDIS driver should free the memory by using the same memory management mechanism that it used to allocate
     the memory.
 
@@ -115,17 +103,16 @@ NDIS calls
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-net_buffer_free_mdl_handler.md">NetFreeMdl</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisretreatnetbufferdatastart.md">
+<a href="https://msdn.microsoft.com/4b58a1dc-8a5a-464b-a2a2-deb952febe25">
    NdisRetreatNetBufferDataStart</a>
 
 
 
+<a href="https://msdn.microsoft.com/a92b2de9-231d-4dcc-8220-857063a35eb1">NetFreeMdl</a>
  
 
  
-
 

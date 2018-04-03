@@ -38,7 +38,8 @@ api_location:
 -	printoem.h
 api_name:
 -	OEMDitherColor
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STDVARIABLEINDEX
 req.product: Windows 10 or later.
@@ -51,19 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <code>OEMDitherColor</code> function requests the device to create a brush dithered against a device palette.
-
-
-## -syntax
-
-
-````
-ULONG APIENTRY OEMDitherColor(
-   DHPDEV dhpdev,
-   ULONG  iMode,
-   ULONG  rgbColor,
-   ULONG  *pulDither
-);
-````
 
 
 ## -parameters

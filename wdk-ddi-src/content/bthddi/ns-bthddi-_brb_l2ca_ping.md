@@ -38,7 +38,8 @@ api_location:
 -	bthddi.h
 api_name:
 -	_BRB_L2CA_PING
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -52,21 +53,6 @@ req.typenames:
 The _BRB_L2CA_PING structure describes a request to ping a remote radio.
 
 
-## -syntax
-
-
-````
-struct _BRB_L2CA_PING {
-  BRB_HEADER Hdr;
-  BTH_ADDR   BtAddress;
-  UCHAR      PingRequestLength;
-  UCHAR      PingRequestData[MAX_L2CAP_PING_DATA_LENGTH];
-  UCHAR      PingResponseLength;
-  UCHAR      PingResponseData[MAX_L2CAP_PING_DATA_LENGTH];
-};
-````
-
-
 ## -struct-fields
 
 
@@ -75,7 +61,7 @@ struct _BRB_L2CA_PING {
 ### -field Hdr
 
 A 
-     <a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a> structure that contains information
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536612">BRB_HEADER</a> structure that contains information
      about the current BRB.
 
 
@@ -120,16 +106,15 @@ BRB_L2CA_PING is primarily used for debugging.
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536612">BRB_HEADER</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536617">BRB_L2CA_PING</a>
-
-
-
-<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
-
-
-
  
 
  
-
 

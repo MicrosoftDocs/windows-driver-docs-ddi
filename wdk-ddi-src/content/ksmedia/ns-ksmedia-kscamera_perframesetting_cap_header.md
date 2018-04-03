@@ -38,7 +38,8 @@ api_location:
 -	Ksmedia.h
 api_name:
 -	KSCAMERA_PERFRAMESETTING_CAP_HEADER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSCAMERA_PERFRAMESETTING_CAP_HEADER, *PKSCAMERA_PERFRAMESETTING_CAP_HEADER
 ---
@@ -50,18 +51,6 @@ req.typenames: KSCAMERA_PERFRAMESETTING_CAP_HEADER, *PKSCAMERA_PERFRAMESETTING_C
 
 
 This structure contains the header information for the per frame settings capabilities.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  ULONG     Size;
-  ULONG     ItemCount;
-  ULONGLONG Flags;
-} KSCAMERA_PERFRAMESETTING_CAP_HEADER, *PKSCAMERA_PERFRAMESETTING_CAP_HEADER;
-````
 
 
 ## -struct-fields

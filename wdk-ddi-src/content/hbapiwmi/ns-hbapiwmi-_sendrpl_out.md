@@ -7,7 +7,7 @@ old-location: storage\sendrpl_out.htm
 old-project: storage
 ms.assetid: 36ca3d6e-7012-4bbb-a2a0-e19708aa1058
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSendRPL_OUT, PSendRPL_OUT, PSendRPL_OUT structure pointer [Storage Devices], SendRPL_OUT, SendRPL_OUT structure [Storage Devices], _SendRPL_OUT, hbapiwmi/PSendRPL_OUT, hbapiwmi/SendRPL_OUT, storage.sendrpl_out, structs-Fibre_aef41c84-1718-4e82-aeae-d0280d6cf3b1.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	hbapiwmi.h
 api_name:
 -	SendRPL_OUT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SendRPL_OUT, *PSendRPL_OUT
 ---
@@ -50,19 +51,6 @@ req.typenames: SendRPL_OUT, *PSendRPL_OUT
 
 
 The SendRPL_OUT structure is used to report the output parameter data of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565488">SendRPL</a> WMI method to the WMI client.
-
-
-## -syntax
-
-
-````
-typedef struct _SendRPL_OUT {
-  ULONG HBAStatus;
-  ULONG TotalRspBufferSize;
-  ULONG ActualRspBufferSize;
-  UCHAR RspBuffer[1];
-} SendRPL_OUT, *PSendRPL_OUT;
-````
 
 
 ## -struct-fields
@@ -101,12 +89,11 @@ The WMI tool suite generates a declaration of the SendRPL_OUT structure in <i>Hb
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565488">SendRPL</a>
-
-
-
  
 
  
-
 

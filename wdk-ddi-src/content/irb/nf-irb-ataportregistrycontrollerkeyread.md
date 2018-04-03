@@ -7,7 +7,7 @@ old-location: storage\ataportregistrycontrollerkeyread.htm
 old-project: storage
 ms.assetid: 7db22027-49ac-4ee5-8da7-bbd16c97a35b
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: AtaPortRegistryControllerKeyRead, AtaPortRegistryControllerKeyRead routine [Storage Devices], atartns_eea8e60c-8cbd-4632-b5a4-17639f02f4d8.xml, irb/AtaPortRegistryControllerKeyRead, storage.ataportregistrycontrollerkeyread
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	irb.h
 api_name:
 -	AtaPortRegistryControllerKeyRead
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: IDE_POWER_STATE
 ---
@@ -51,21 +52,6 @@ req.typenames: IDE_POWER_STATE
 
 The <b>AtaPortRegistryControllerKeyRead</b> routine reads the data that is associated with the indicated value name under the registry key <b>HKLM\CurrentControlSet\Services\</b><i>&lt;service name&gt;</i><b>\Controller</b><i>N</i>, where <i>N </i>is the number of the controller.
 <div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
-
-## -syntax
-
-
-````
-BOOLEAN __inline AtaPortRegistryControllerKeyRead(
-  _In_      PVOID  ChannelExtension,
-  _In_      UCHAR  ControllerNumber,
-  _In_      PCHAR  ValueName,
-  _In_      UCHAR  ValueType,
-  _Out_opt_ PUCHAR Buffer,
-  _Inout_   PULONG Length
-);
-````
-
 
 ## -parameters
 
@@ -160,7 +146,7 @@ A pointer to the number of bytes of data to copy. If the operation fails because
 
 
 
-The buffer at <i>Buffer</i> must be allocated by using <a href="..\irb\nf-irb-ataportregistryallocatebuffer.md">AtaPortRegistryAllocateBuffer</a>. 
+The buffer at <i>Buffer</i> must be allocated by using <a href="https://msdn.microsoft.com/library/windows/hardware/ff550200">AtaPortRegistryAllocateBuffer</a>. 
 
 The miniport driver must call <b>AtaPortRegistryControllerKeyRead</b> either in its <a href="https://msdn.microsoft.com/library/windows/hardware/ff550141">AtaChannelInitRoutine</a> routine or in its <a href="https://msdn.microsoft.com/library/windows/hardware/ff557465">IdeHwControl</a> routine. It cannot call <b>AtaPortRegistryControllerKeyRead</b> from any other routine. Additionally, the miniport driver can only call <b>AtaPortRegistryControllerKeyRead</b> from its <b>IdeHwControl</b> routine if its <b>IdeHwControl</b> routine was called and had a value of either <b>StartChannel</b> or <b>StopChannel</b> in its <i>ControlAction </i>parameter. 
 
@@ -169,11 +155,6 @@ The miniport driver must call <b>AtaPortRegistryControllerKeyRead</b> either in 
 
 ## -see-also
 
-<a href="..\irb\nf-irb-ataportregistryallocatebuffer.md">AtaPortRegistryAllocateBuffer</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557465">IdeHwControl</a>
 
 
 
@@ -181,8 +162,12 @@ The miniport driver must call <b>AtaPortRegistryControllerKeyRead</b> either in 
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550200">AtaPortRegistryAllocateBuffer</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557465">IdeHwControl</a>
  
 
  
-
 

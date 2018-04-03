@@ -38,7 +38,8 @@ api_location:
 -	Ksmedia.h
 api_name:
 -	KSPROPERTY_CAMERACONTROL_IMAGE_PIN_CAPABILITY_S
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSPROPERTY_CAMERACONTROL_IMAGE_PIN_CAPABILITY_S, *PKSPROPERTY_CAMERACONTROL_IMAGE_PIN_CAPABILITY_S
 ---
@@ -50,17 +51,6 @@ req.typenames: KSPROPERTY_CAMERACONTROL_IMAGE_PIN_CAPABILITY_S, *PKSPROPERTY_CAM
 
 
 Describes image pin control properties in the <b>PROPSETID_VIDCAP_CAMERACONTROL_IMAGE_PIN_CAPABILITY</b> camera control property set.
-
-
-## -syntax
-
-
-````
-typedef struct _KSPROPERTY_CAMERACONTROL_IMAGE_PIN_CAPABILITY_S {
-  ULONG Capabilities;
-  ULONG Reserved0;
-} KSPROPERTY_CAMERACONTROL_IMAGE_PIN_CAPABILITY_S, *PKSPROPERTY_CAMERACONTROL_IMAGE_PIN_CAPABILITY_S;
-````
 
 
 ## -struct-fields
@@ -92,12 +82,11 @@ Reserved for system use. Do not use in your driver.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/jj553706">KSPROPERTY_CAMERACONTROL_IMAGE_PIN_CAPABILITY_PROPERTY</a>
-
-
-
  
 
  
-
 

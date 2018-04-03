@@ -38,7 +38,8 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFIoTargetStateManagement.GetState
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
@@ -55,14 +56,6 @@ req.product: Windows 10 or later.
 The <b>GetState</b> method returns the current state of a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/general-i-o-targets-in-umdf">local  I/O target</a>.
 
 
-## -syntax
-
-
-````
-WDF_IO_TARGET_STATE  GetState();
-````
-
-
 ## -parameters
 
 
@@ -74,7 +67,7 @@ WDF_IO_TARGET_STATE  GetState();
 
 
 
-<b>GetState</b> returns a <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_io_target_state.md">WDF_IO_TARGET_STATE</a>-typed value that identifies the state of the I/O target.
+<b>GetState</b> returns a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552390">WDF_IO_TARGET_STATE</a>-typed value that identifies the state of the I/O target.
 
 
 
@@ -115,16 +108,15 @@ The following code example determines whether a local I/O target is stopped.
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559198">IWDFIoTargetStateManagement</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560265">IWDFRemoteTarget::GetState</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iwdfiotargetstatemanagement.md">IWDFIoTargetStateManagement</a>
-
-
-
  
 
  
-
 

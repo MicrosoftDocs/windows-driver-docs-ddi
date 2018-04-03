@@ -7,7 +7,7 @@ old-location: display\d3dkmt-queryprotectedsessioninfofromnthandle.htm
 old-project: display
 ms.assetid: e08d27e7-e9b7-45e7-9bbd-dcb9aa8f85ed
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMT_QUERYPROTECTEDSESSIONINFOFROMNTHANDLE, D3DKMT_QUERYPROTECTEDSESSIONINFOFROMNTHANDLE structure [Display Devices], _D3DKMT_QUERYPROTECTEDSESSIONINFOFROMNTHANDLE, d3dkmthk/D3DKMT_QUERYPROTECTEDSESSIONINFOFROMNTHANDLE, display.d3dkmt-queryprotectedsessioninfofromnthandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmthk.h
 api_name:
 -	D3DKMT_QUERYPROTECTEDSESSIONINFOFROMNTHANDLE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_QUERYPROTECTEDSESSIONINFOFROMNTHANDLE
 ---
@@ -50,20 +51,6 @@ req.typenames: D3DKMT_QUERYPROTECTEDSESSIONINFOFROMNTHANDLE
 
 
 Used to query information on the protected session.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_QUERYPROTECTEDSESSIONINFOFROMNTHANDLE {
-  HANDLE     hNtHandle;
-  const VOID *pPrivateDriverData;
-  UINT       PrivateDriverDataSize;
-  const VOID *pPrivateRuntimeData;
-  UINT       PrivateRuntimeDataSize;
-} D3DKMT_QUERYPROTECTEDSESSIONINFOFROMNTHANDLE;
-````
 
 
 ## -struct-fields

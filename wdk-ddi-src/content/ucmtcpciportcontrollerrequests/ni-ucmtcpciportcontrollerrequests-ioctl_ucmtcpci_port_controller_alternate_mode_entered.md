@@ -7,7 +7,7 @@ old-location: buses\ioctl_ucmtcpci_port_controller_alternate_mode_entered.htm
 old-project: usbref
 ms.assetid: 6C9CECFD-E727-4586-BD86-6FC9272A37D0
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_UCMTCPCI_PORT_CONTROLLER_ALTERNATE_MODE_ENTERED, IOCTL_UCMTCPCI_PORT_CONTROLLER_ALTERNATE_MODE_ENTERED control code [Buses], buses.ioctl_ucmtcpci_port_controller_alternate_mode_entered, ucmtcpciportcontrollerrequests/IOCTL_UCMTCPCI_PORT_CONTROLLER_ALTERNATE_MODE_ENTERED
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	UcmTcpciPortControllerRequests.h
 api_name:
 -	IOCTL_UCMTCPCI_PORT_CONTROLLER_ALTERNATE_MODE_ENTERED
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UCMTCPCI_PORT_CONTROLLER_IOCTL
 req.product: Windows 10 or later.
@@ -60,12 +61,12 @@ Notifies the client driver that an alternate mode is entered so that the driver 
 
 ### -input-buffer
 
-A pointer to a <a href="..\ucmtcpciportcontrollerrequests\ns-ucmtcpciportcontrollerrequests-_ucmtcpci_port_controller_alternate_mode_entered_in_params.md">UCMTCPCI_PORT_CONTROLLER_ALTERNATE_MODE_ENTERED_IN_PARAMS</a> structure that contains information about the alternate mode. 
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/mt805868">UCMTCPCI_PORT_CONTROLLER_ALTERNATE_MODE_ENTERED_IN_PARAMS</a> structure that contains information about the alternate mode. 
 
 
 ### -input-buffer-length
 
-The size of <a href="..\ucmtcpciportcontrollerrequests\ns-ucmtcpciportcontrollerrequests-_ucmtcpci_port_controller_alternate_mode_entered_in_params.md">UCMTCPCI_PORT_CONTROLLER_ALTERNATE_MODE_ENTERED_IN_PARAMS</a>.
+The size of <a href="https://msdn.microsoft.com/library/windows/hardware/mt805868">UCMTCPCI_PORT_CONTROLLER_ALTERNATE_MODE_ENTERED_IN_PARAMS</a>.
 
 
 ### -output-buffer
@@ -120,7 +121,6 @@ The UcmTcpciCx class extension sends this IOCTL request when an alternate mode i
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
 
 
 
@@ -128,16 +128,16 @@ The UcmTcpciCx class extension sends this IOCTL request when an alternate mode i
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548651">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548656">WdfIoTargetSendInternalIoctlSynchronously</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548660">WdfIoTargetSendIoctlSynchronously</a>
  
 
  
-
 

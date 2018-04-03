@@ -7,7 +7,7 @@ old-location: display\checkpresentdurationsupport.htm
 old-project: display
 ms.assetid: 4D3FC503-A502-41D3-AB76-5A2BEBE4C551
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: CheckPresentDurationSupport, CheckPresentDurationSupport callback function [Display Devices], PFND3DDDI_CHECKPRESENTDURATIONSUPPORT, d3dumddi/CheckPresentDurationSupport, display.checkpresentdurationsupport
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3dumddi.h
 api_name:
 -	CheckPresentDurationSupport
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_PTE
 ---
@@ -50,20 +51,6 @@ req.typenames: DXGK_PTE
 
 
 Called by the Microsoft Direct3D runtime to request that the user-mode display driver  get  hardware device capabilities for seamlessly switching to a new monitor refresh rate. Optionally implemented by Windows Display Driver Model (WDDM) 1.3 and later user-mode display drivers.
-
-
-## -prototype
-
-
-````
-PFND3DDDI_CHECKPRESENTDURATIONSUPPORT CheckPresentDurationSupport;
-
-_Check_return_ HRESULT* CheckPresentDurationSupport(
-  _In_ HANDLE                                hDevice,
-  _In_ D3DDDIARG_CHECKPRESENTDURATIONSUPPORT *pPresentDurationSupport
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -87,7 +74,7 @@ A handle to the display device (graphics context).
 
 #### - pPresentDurationSupport [in]
 
-A pointer to a <a href="..\d3dumddi\ns-d3dumddi-d3dddiarg_checkpresentdurationsupport.md">D3DDDIARG_CHECKPRESENTDURATIONSUPPORT</a> structure that contains info on hardware device support for seamlessly switching to a new monitor refresh rate.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn465881">D3DDDIARG_CHECKPRESENTDURATIONSUPPORT</a> structure that contains info on hardware device support for seamlessly switching to a new monitor refresh rate.
 
 
 ## -returns
@@ -101,16 +88,15 @@ If this routine succeeds, it returns <b>S_OK</b>. The driver should always retur
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-d3dddiarg_checkpresentdurationsupport.md">D3DDDIARG_CHECKPRESENTDURATIONSUPPORT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn465881">D3DDDIARG_CHECKPRESENTDURATIONSUPPORT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544519">D3DDDI_DEVICEFUNCS</a>
  
 
  
-
 

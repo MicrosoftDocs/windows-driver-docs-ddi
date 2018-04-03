@@ -7,7 +7,7 @@ old-location: kernel\componentactiveconditioncallback.htm
 old-project: kernel
 ms.assetid: D9EA3F98-7646-4882-BE07-818280404D6A
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 2/24/2018
 ms.keywords: ComponentActiveConditionCallback, ComponentActiveConditionCallback routine [Kernel-Mode Driver Architecture], PO_FX_COMPONENT_ACTIVE_CONDITION_CALLBACK, kernel.componentactiveconditioncallback, wdm/ComponentActiveConditionCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	ComponentActiveConditionCallback
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
@@ -157,5 +158,6 @@ The PO_FX_COMPONENT_ACTIVE_CONDITION_CALLBACK function type is defined in the Wd
  
 
  
+
 
 

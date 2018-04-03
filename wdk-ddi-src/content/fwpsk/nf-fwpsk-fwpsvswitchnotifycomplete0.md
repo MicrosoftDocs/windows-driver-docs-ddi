@@ -7,7 +7,7 @@ old-location: netvista\fwpsvswitchnotifycomplete0.htm
 old-project: netvista
 ms.assetid: 5e40a31f-7730-48f0-899f-f59be654c991
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: FwpsvSwitchNotifyComplete0, FwpsvSwitchNotifyComplete0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsvSwitchNotifyComplete0, netvista.fwpsvswitchnotifycomplete0
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	fwpkclnt.dll
 api_name:
 -	FwpsvSwitchNotifyComplete0
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FWPS_VSWITCH_EVENT_TYPE
 ---
@@ -53,19 +54,6 @@ req.typenames: FWPS_VSWITCH_EVENT_TYPE
 The <b>FwpsvSwitchNotifyComplete0</b> function completes a pending virtual switch event notification.<div class="alert"><b>Note</b>  <b>FwpsvSwitchNotifyComplete0</b> is a specific version of <b>FwpsvSwitchNotifyComplete</b>. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div>
 <div> </div>
 
-
-
-## -syntax
-
-
-````
-void NTAPI FwpsvSwitchNotifyComplete0(
-   _In_ void              *completionContext,
-   _In_ NTSTATUS          status,
-   _In_ _Reserved_ UINT32 flags,
-   _In_ _Reserved_ void   *reserved
-);
-````
 
 
 ## -parameters
@@ -107,7 +95,7 @@ None.
 
 
 
-    If a callout driver returns STATUS_PENDING from a WFP notification function, WFP will return STATUS_PENDING for any associated OID request. The callout  driver calls the <b>FwpsvSwitchNotifyComplete0</b> function to complete the pending operation. After the <b>FwpsvSwitchNotifyComplete0</b> call, WFP calls the  <a href="..\ndis\nf-ndis-ndisfoidrequestcomplete.md">NdisFOidRequestComplete</a> function to complete the OID for  the virtual switch.
+    If a callout driver returns STATUS_PENDING from a WFP notification function, WFP will return STATUS_PENDING for any associated OID request. The callout  driver calls the <b>FwpsvSwitchNotifyComplete0</b> function to complete the pending operation. After the <b>FwpsvSwitchNotifyComplete0</b> call, WFP calls the  <a href="https://msdn.microsoft.com/library/windows/hardware/ff561833">NdisFOidRequestComplete</a> function to complete the OID for  the virtual switch.
    
 
 
@@ -115,20 +103,19 @@ None.
 
 ## -see-also
 
-<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisfoidrequestcomplete.md">NdisFOidRequestComplete</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551150">FwpsCompleteClassify0</a>
 
 
 
-<a href="..\fwpsk\nf-fwpsk-fwpscompleteclassify0.md">FwpsCompleteClassify0</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561833">NdisFOidRequestComplete</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a>
  
 
  
-
 

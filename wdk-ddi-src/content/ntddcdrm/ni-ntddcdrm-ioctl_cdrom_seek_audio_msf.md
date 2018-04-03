@@ -7,7 +7,7 @@ old-location: storage\ioctl_cdrom_seek_audio_msf.htm
 old-project: storage
 ms.assetid: 081a5d8d-7cc7-4499-9360-dfaa5a7c436b
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_CDROM_SEEK_AUDIO_MSF, IOCTL_CDROM_SEEK_AUDIO_MSF control code [Storage Devices], k307_4c88dbd2-30ef-41aa-9330-57319605ec88.xml, ntddcdrm/IOCTL_CDROM_SEEK_AUDIO_MSF, storage.ioctl_cdrom_seek_audio_msf
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddcdrm.h
 api_name:
 -	IOCTL_CDROM_SEEK_AUDIO_MSF
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WRITE_ROTATION, *PWRITE_ROTATION
 ---
@@ -62,7 +63,7 @@ Moves the heads to the specified MSF on the media.  Obsolete, beginning with Win
 
 ### -input-buffer
 
-The buffer at <i>Irp-&gt;AssociatedIrp.SystemBuffer</i> contains the <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_seek_audio_msf.md">CDROM_SEEK_AUDIO_MSF</a> specification. 
+The buffer at <i>Irp-&gt;AssociatedIrp.SystemBuffer</i> contains the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551367">CDROM_SEEK_AUDIO_MSF</a> specification. 
 
 
 ### -input-buffer-length
@@ -116,12 +117,11 @@ Client applications should use the <i>Media Control Interface (MCI) API</i> rath
 
 ## -see-also
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_seek_audio_msf.md">CDROM_SEEK_AUDIO_MSF</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551367">CDROM_SEEK_AUDIO_MSF</a>
  
 
  
-
 

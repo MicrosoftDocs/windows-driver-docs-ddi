@@ -7,7 +7,7 @@ old-location: storage\addconnectiontosession_in.htm
 old-project: storage
 ms.assetid: 7fcb0b87-1f9e-4956-a59a-cd83fa04e5db
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PAddConnectionToSession_IN, AddConnectionToSession_IN, AddConnectionToSession_IN structure [Storage Devices], PAddConnectionToSession_IN, PAddConnectionToSession_IN structure pointer [Storage Devices], _AddConnectionToSession_IN, iscsiop/AddConnectionToSession_IN, iscsiop/PAddConnectionToSession_IN, storage.addconnectiontosession_in, structs-iSCSI_4e238073-ca54-4da3-afcc-4b45e4da243f.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	iscsiop.h
 api_name:
 -	AddConnectionToSession_IN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: AddConnectionToSession_IN, *PAddConnectionToSession_IN
 ---
@@ -50,25 +51,6 @@ req.typenames: AddConnectionToSession_IN, *PAddConnectionToSession_IN
 
 
 The AddConnectionToSession_IN structure holds input data for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a> method, which is used to add a new connection to an already existing session.
-
-
-## -syntax
-
-
-````
-typedef struct _AddConnectionToSession_IN {
-  ULONGLONG          UniqueAdapterId;
-  ULONGLONG          UniqueSessionId;
-  ULONGLONG          SecurityFlags;
-  ULONG              PortNumber;
-  ISCSI_LoginOptions LoginOptions;
-  ISCSI_TargetPortal TargetPortal;
-  ULONG              UsernameSize;
-  ULONG              PasswordSize;
-  ULONG              KeySize;
-  UCHAR              Key[1];
-} AddConnectionToSession_IN, *PAddConnectionToSession_IN;
-````
 
 
 ## -struct-fields
@@ -98,12 +80,12 @@ The number of the port from which to initiate the target logon session.
 
 ### -field LoginOptions
 
-A <a href="..\iscsidef\ns-iscsidef-_iscsi_loginoptions.md">ISCSI_LoginOptions</a> structure that describes the characteristics of the target logon session that a connection will be added to. 
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff561541">ISCSI_LoginOptions</a> structure that describes the characteristics of the target logon session that a connection will be added to. 
 
 
 ### -field TargetPortal
 
-A <a href="..\iscsidef\ns-iscsidef-_iscsi_targetportal.md">ISCSI_TargetPortal</a> structure that indicates which target portal to use to make the additional connection. The <b>AddConnectionToSession</b> method calls the <b>LoginToTarget</b> method to establish the new connection. If <b>LoginToTarget</b> fails with a status value of either ISCSC_TARGET_MOVED_PERMANENTLY or ISCSC_TARGET_MOVED_TEMPORARILY. <b>TargetPortal</b> will indicate, on output from <b>AddConnectionToSession</b>, the portal that the logon operation should be redirected to. For more information about the ISCSC_TARGET_MOVED_PERMANENTLY and ISCSC_TARGET_MOVED_TEMPORARILY status values, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff561574">ISCSI_TargetPortal</a> structure that indicates which target portal to use to make the additional connection. The <b>AddConnectionToSession</b> method calls the <b>LoginToTarget</b> method to establish the new connection. If <b>LoginToTarget</b> fails with a status value of either ISCSC_TARGET_MOVED_PERMANENTLY or ISCSC_TARGET_MOVED_TEMPORARILY. <b>TargetPortal</b> will indicate, on output from <b>AddConnectionToSession</b>, the portal that the logon operation should be redirected to. For more information about the ISCSC_TARGET_MOVED_PERMANENTLY and ISCSC_TARGET_MOVED_TEMPORARILY status values, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>.
 
 
 ### -field UsernameSize
@@ -137,27 +119,6 @@ The iSCSI service requires this method. It is optional that you implement this m
 
 ## -see-also
 
-<a href="..\iscsidef\ns-iscsidef-_iscsi_loginoptions.md">ISCSI_LoginOptions</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565399">SECURITY_FLAG_QUALIFIERS</a>
-
-
-
-<a href="..\iscsidef\ns-iscsidef-_iscsi_targetportal.md">ISCSI_TargetPortal</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563091">MSiSCSI_Operations WMI Class</a>
-
-
-
-<a href="..\iscsiop\ns-iscsiop-_addconnectiontosession_out.md">AddConnectionToSession_OUT</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
 
 
 
@@ -165,8 +126,28 @@ The iSCSI service requires this method. It is optional that you implement this m
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550123">AddConnectionToSession_OUT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561541">ISCSI_LoginOptions</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561574">ISCSI_TargetPortal</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563091">MSiSCSI_Operations WMI Class</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565399">SECURITY_FLAG_QUALIFIERS</a>
  
 
  
-
 

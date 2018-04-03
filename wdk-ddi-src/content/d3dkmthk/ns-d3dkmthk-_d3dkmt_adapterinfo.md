@@ -7,7 +7,7 @@ old-location: display\d3dkmt_adapterinfo.htm
 old-project: display
 ms.assetid: 4b780fb7-f6d4-4248-882c-d0cc96106724
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMT_ADAPTERINFO, D3DKMT_ADAPTERINFO structure [Display Devices], _D3DKMT_ADAPTERINFO, d3dkmthk/D3DKMT_ADAPTERINFO, display.d3dkmt_adapterinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3dkmthk.h
 api_name:
 -	D3DKMT_ADAPTERINFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_ADAPTERINFO
 ---
@@ -50,19 +51,6 @@ req.typenames: D3DKMT_ADAPTERINFO
 
 
 Supplies configuration information about a graphics adapter.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_ADAPTERINFO {
-  D3DKMT_HANDLE hAdapter;
-  LUID          AdapterLuid;
-  ULONG         NumOfSources;
-  BOOL          bPresentMoveRegionsPreferred;
-} D3DKMT_ADAPTERINFO;
-````
 
 
 ## -struct-fields

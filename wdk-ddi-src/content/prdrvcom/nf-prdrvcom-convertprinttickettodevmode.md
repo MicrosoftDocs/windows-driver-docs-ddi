@@ -38,7 +38,8 @@ api_location:
 -	prdrvcom.h
 api_name:
 -	IPrintTicketProvider.ConvertPrintTicketToDevMode
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SHIMOPTS, *PSHIMOPTS
 req.product: Windows 10 or later.
@@ -51,20 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <code>IPrintTicketProvider::ConvertPrintTicketToDevMode</code> method converts a print ticket to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a> structure. 
-
-
-## -syntax
-
-
-````
-HRESULT ConvertPrintTicketToDevMode(
-  [in]  IXMLDOMDocument2 *pPrintTicket,
-  [in]  ULONG            cbDevmodeIn,
-  [in]  PDEVMODE         pDevmodeIn,
-  [out] ULONG            *pcbDevmodeOut,
-  [out] PDEVMODE         *ppDevmodeOut
-);
-````
 
 
 ## -parameters
@@ -119,16 +106,15 @@ Before the system converts a print ticket back to a <a href="https://msdn.micros
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/4eb3c193-377b-4e51-a97b-50c6fdaa1b08">IPrintTicketProvider</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554360">IPrintTicketProvider::ConvertDevModeToPrintTicket</a>
-
-
-
  
 
  
-
 

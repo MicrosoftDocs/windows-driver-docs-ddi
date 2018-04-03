@@ -7,7 +7,7 @@ old-location: kernel\zwcreatesection.htm
 old-project: kernel
 ms.assetid: 805d7eff-19be-47a1-acc9-1b97e5493031
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: NtCreateSection, ZwCreateSection, ZwCreateSection routine [Kernel-Mode Driver Architecture], k111_8e0d13e2-4cd7-4b39-b1ce-41b193c495be.xml, kernel.zwcreatesection, wdm/NtCreateSection, wdm/ZwCreateSection
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	ZwCreateSection
 -	NtCreateSection
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -51,22 +52,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>ZwCreateSection</b> routine creates a <a href="https://msdn.microsoft.com/5f6fec1a-1134-4765-81be-9b50939e5e66">section object</a>.
-
-
-## -syntax
-
-
-````
-NTSTATUS ZwCreateSection(
-  _Out_    PHANDLE            SectionHandle,
-  _In_     ACCESS_MASK        DesiredAccess,
-  _In_opt_ POBJECT_ATTRIBUTES ObjectAttributes,
-  _In_opt_ PLARGE_INTEGER     MaximumSize,
-  _In_     ULONG              SectionPageProtection,
-  _In_     ULONG              AllocationAttributes,
-  _In_opt_ HANDLE             FileHandle
-);
-````
 
 
 ## -parameters
@@ -154,7 +139,7 @@ All of the previous flags combined with STANDARD_RIGHTS_REQUIRED.
 
 ### -param ObjectAttributes [in, optional]
 
-Pointer to an <a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a> structure that specifies the object name and other attributes. Use <a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a> to initialize this structure. If the caller is not running in a system thread context, it must set the OBJ_KERNEL_HANDLE attribute when it calls <b>InitializeObjectAttributes</b>.
+Pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff557749">OBJECT_ATTRIBUTES</a> structure that specifies the object name and other attributes. Use <a href="https://msdn.microsoft.com/library/windows/hardware/ff547804">InitializeObjectAttributes</a> to initialize this structure. If the caller is not running in a system thread context, it must set the OBJ_KERNEL_HANDLE attribute when it calls <b>InitializeObjectAttributes</b>.
 
 
 ### -param MaximumSize [in, optional]
@@ -253,7 +238,7 @@ The value of <i>MaximumSize</i> is too big. This occurs when either <i>MaximumSi
 
 
 
-Once the handle pointed to by <i>SectionHandle</i> is no longer in use, the driver must call <a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a> to close it.
+Once the handle pointed to by <i>SectionHandle</i> is no longer in use, the driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff566417">ZwClose</a> to close it.
 
 If the caller is not running in a system thread context, it must ensure that any handles it creates are private handles. Otherwise, the handle can be accessed by the process in whose context the driver is running. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557758">Object Handles</a>. 
 
@@ -268,11 +253,6 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwopensection.md">ZwOpenSection</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwunmapviewofsection.md">ZwUnmapViewOfSection</a>
 
 
 
@@ -280,24 +260,28 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="..\wdm\nf-wdm-zwmapviewofsection.md">ZwMapViewOfSection</a>
-
-
-
 <a href="https://msdn.microsoft.com/d3302183-76a0-47ec-874f-1173db353dfe">CreateFileMapping</a>
 
 
 
-<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547804">InitializeObjectAttributes</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566417">ZwClose</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566481">ZwMapViewOfSection</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567029">ZwOpenSection</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567119">ZwUnmapViewOfSection</a>
  
 
  
-
 

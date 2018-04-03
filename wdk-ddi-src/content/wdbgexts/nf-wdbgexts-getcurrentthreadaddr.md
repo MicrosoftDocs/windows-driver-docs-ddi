@@ -7,7 +7,7 @@ old-location: debugger\getcurrentthreadaddr.htm
 old-project: debugger
 ms.assetid: 0664199b-da65-4b07-958e-d7972b39cefd
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: GetCurrentThreadAddr, GetCurrentThreadAddr function [Windows Debugging], WdbgExts_Ref_03db8f68-2e64-4530-bf35-df2a6f0d7736.xml, debugger.getcurrentthreadaddr, wdbgexts/GetCurrentThreadAddr
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	wdbgexts.h
 api_name:
 -	GetCurrentThreadAddr
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXT_TDOP
 req.product: Windows 10 or later.
@@ -51,17 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>GetCurrentThreadAddr</b> function returns the location of the system data that describes the current thread.
-
-
-## -syntax
-
-
-````
-__inline VOID GetCurrentThreadAddr(
-   DWORD    Processor,
-   PULONG64 Address
-);
-````
 
 
 ## -parameters
@@ -94,7 +84,7 @@ None
 
 
 
-In user-mode debugging, <b>GetCurrentThreadAddr</b> returns the location of the thread's Thread Environment Block (TEB).  This is the same location that <a href="..\wdbgexts\nf-wdbgexts-gettebaddress.md">GetTebAddress</a> returns.
+In user-mode debugging, <b>GetCurrentThreadAddr</b> returns the location of the thread's Thread Environment Block (TEB).  This is the same location that <a href="https://msdn.microsoft.com/library/windows/hardware/ff549267">GetTebAddress</a> returns.
 
 In kernel-mode debugging, <b>GetCurrentThreadAddr</b> returns the location of the KTHREAD structure of the operating system thread that was executing on the processor when the last event occurred.
 
@@ -105,12 +95,11 @@ For details on the KTHREAD and TEB structures, see <i>Microsoft Windows Internal
 
 ## -see-also
 
-<a href="..\wdbgexts\nf-wdbgexts-gettebaddress.md">GetTebAddress</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549267">GetTebAddress</a>
  
 
  
-
 

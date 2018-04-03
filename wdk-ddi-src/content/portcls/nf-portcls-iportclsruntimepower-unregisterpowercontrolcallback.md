@@ -7,7 +7,7 @@ old-location: audio\iportclsruntimepower_unregisterpowercontrolcallback.htm
 old-project: audio
 ms.assetid: F7E83587-0499-4D56-8D34-5513454FFEE2
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/19/2018
 ms.keywords: IPortClsRuntimePower, IPortClsRuntimePower interface [Audio Devices], UnregisterPowerControlCallback method, IPortClsRuntimePower::UnregisterPowerControlCallback, UnregisterPowerControlCallback method [Audio Devices], UnregisterPowerControlCallback method [Audio Devices], IPortClsRuntimePower interface, UnregisterPowerControlCallback,IPortClsRuntimePower.UnregisterPowerControlCallback, audio.iportclsruntimepower_unregisterpowercontrolcallback, portcls/IPortClsRuntimePower::UnregisterPowerControlCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Portcls.h
 api_name:
 -	IPortClsRuntimePower.UnregisterPowerControlCallback
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
@@ -50,16 +51,6 @@ req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 
 
 The port class driver (PortCls) uses the <code>UnregisterPowerControlCallback</code>  method to unregister a power control callback.
-
-
-## -syntax
-
-
-````
-NTSTATUS UnregisterPowerControlCallback(
-  [in] PDEVICE_OBJECT DeviceObject
-);
-````
 
 
 ## -parameters
@@ -83,12 +74,11 @@ The <code>UnregisterPowerControlCallback</code> method returns STATUS_SUCCESS, i
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iportclsruntimepower.md">IPortClsRuntimePower</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265125">IPortClsRuntimePower</a>
  
 
  
-
 

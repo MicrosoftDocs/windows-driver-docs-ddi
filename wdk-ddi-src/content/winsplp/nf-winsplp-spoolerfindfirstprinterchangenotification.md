@@ -38,7 +38,8 @@ api_location:
 -	Winsplp.h
 api_name:
 -	SpoolerFindFirstPrinterChangeNotification
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NOTIFICATION_CONFIG_FLAGS
 req.product: Windows 10 or later.
@@ -51,23 +52,6 @@ req.product: Windows 10 or later.
 
 
 
-
-
-## -syntax
-
-
-````
-BOOL WINAPI SpoolerFindFirstPrinterChangeNotification(
-  _In_      HANDLE                   hPrinter,
-            DWORD                    fdwFilterFlags,
-            DWORD                    fdwOptions,
-  _In_      PVOID                    pPrinterNotifyOptions,
-  _In_opt_  PVOID                    pvReserved,
-  _In_      PVOID                    pNotificationConfig,
-  _Out_opt_ PHANDLE                  phNotify,
-  _Out_opt_ PHANDLE                  phEvent
-);
-````
 
 
 ## -parameters

@@ -7,7 +7,7 @@ old-location: netvista\rilterminalcapabilityinfo.htm
 old-project: netvista
 ms.assetid: e6ad67bf-cd16-469e-af49-6a640a4319c0
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*LPRILTERMINALCAPABILITYINFO, RILTERMINALCAPABILITYINFO, RILTERMINALCAPABILITYINFO structure [Network Drivers Starting with Windows Vista], netvista.rilterminalcapabilityinfo, ntddrilapitypes/RILTERMINALCAPABILITYINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILTERMINALCAPABILITYINFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILTERMINALCAPABILITYINFO, *LPRILTERMINALCAPABILITYINFO
 req.product: Windows 10 or later.
@@ -51,17 +52,6 @@ req.product: Windows 10 or later.
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef struct _RILTERMINALCAPABILITYINFO {
-  DWORD      dwSize;
-  BYTE [256] bData;
-} RILTERMINALCAPABILITYINFO, RILTERMINALCAPABILITYINFO;
-````
 
 
 ## -struct-fields

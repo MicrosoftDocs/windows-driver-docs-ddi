@@ -38,7 +38,8 @@ api_location:
 -	Gpio.h
 api_name:
 -	IOCTL_GPIO_WRITE_PINS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GNSS_V2UPL_NI_INFO, *PGNSS_V2UPL_NI_INFO
 ---
@@ -112,7 +113,7 @@ This request writes to all of the GPIO pins that are part of the target connecti
 
 When the client opens a connection to a target GPIO device, all of the GPIO pins in this connection are configured either as inputs or as outputs. An <b>IOCTL_GPIO_WRITE_PINS</b> request can succeed only if the target pins are outputs.
 
-The client sends this I/O control request to the file object for the target device. The file object is a <a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a> structure that represents a logical connection to the target. <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/dn550976">Kernel-mode driver framework</a> (KMDF) drivers call the <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcreate.md">WdfIoTargetCreate</a> method to open this connection. <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/overview-of-the-umdf">User-mode driver framework</a> (UMDF) drivers call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560273">IWDFRemoteTarget::OpenFileByName</a> method to open the connection.
+The client sends this I/O control request to the file object for the target device. The file object is a <a href="https://msdn.microsoft.com/library/windows/hardware/ff545834">FILE_OBJECT</a> structure that represents a logical connection to the target. <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/dn550976">Kernel-mode driver framework</a> (KMDF) drivers call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548591">WdfIoTargetCreate</a> method to open this connection. <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/overview-of-the-umdf">User-mode driver framework</a> (UMDF) drivers call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560273">IWDFRemoteTarget::OpenFileByName</a> method to open the connection.
 
 For code examples that show how to use the <b>IOCTL_GPIO_WRITE_PINS</b> request to write to a set of GPIO I/O pins, see the following topics:
 
@@ -123,7 +124,10 @@ For code examples that show how to use the <b>IOCTL_GPIO_WRITE_PINS</b> request 
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcreate.md">WdfIoTargetCreate</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545834">FILE_OBJECT</a>
 
 
 
@@ -131,12 +135,8 @@ For code examples that show how to use the <b>IOCTL_GPIO_WRITE_PINS</b> request 
 
 
 
-<a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548591">WdfIoTargetCreate</a>
  
 
  
-
 

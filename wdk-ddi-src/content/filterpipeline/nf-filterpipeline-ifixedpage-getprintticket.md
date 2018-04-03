@@ -38,7 +38,8 @@ api_location:
 -	filterpipeline.h
 api_name:
 -	IFixedPage.GetPrintTicket
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
@@ -52,16 +53,6 @@ req.typenames: EXpsFontRestriction
 The <b>GetPrintTicket</b> method gets the print ticket object for the fixed page.
 
 
-## -syntax
-
-
-````
-HRESULT GetPrintTicket(
-  [out] IPartPrintTicket **ppPrintTicket
-);
-````
-
-
 ## -parameters
 
 
@@ -69,7 +60,7 @@ HRESULT GetPrintTicket(
 
 ### -param ppPrintTicket [out]
 
-Pointer to a location into which the method writes a pointer to the <a href="..\filterpipeline\nn-filterpipeline-ipartprintticket.md">IPartPrintTicket</a> interface of a print ticket object. This object contains the print ticket for the fixed page.
+Pointer to a location into which the method writes a pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551924">IPartPrintTicket</a> interface of a print ticket object. This object contains the print ticket for the fixed page.
 
 
 ## -returns
@@ -92,11 +83,6 @@ After calling this method to get the page-level print ticket, a print driver fil
 
 ## -see-also
 
-<a href="..\filterpipeline\nn-filterpipeline-ifixedpage.md">IFixedPage</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550977">IFixedDocumentSequence::GetPrintTicket</a>
 
 
 
@@ -104,12 +90,16 @@ After calling this method to get the page-level print ticket, a print driver fil
 
 
 
-<a href="..\filterpipeline\nn-filterpipeline-ipartprintticket.md">IPartPrintTicket</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550977">IFixedDocumentSequence::GetPrintTicket</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551019">IFixedPage</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551924">IPartPrintTicket</a>
  
 
  
-
 

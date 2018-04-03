@@ -7,7 +7,7 @@ old-location: kernel\ioreporttargetdevicechange.htm
 old-project: kernel
 ms.assetid: b0107cb1-4828-4ede-813e-934b929c9874
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: IoReportTargetDeviceChange, IoReportTargetDeviceChange routine [Kernel-Mode Driver Architecture], k104_489fe1b0-1d73-4ed6-99ab-ae8f4bee52d1.xml, kernel.ioreporttargetdevicechange, wdm/IoReportTargetDeviceChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	IoReportTargetDeviceChange
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
@@ -53,17 +54,6 @@ req.product: Windows 10 or later.
 The <b>IoReportTargetDeviceChange</b> routine notifies the PnP manager that a custom event has occurred on a device.
 
 
-## -syntax
-
-
-````
-NTSTATUS IoReportTargetDeviceChange(
-  _In_ PDEVICE_OBJECT PhysicalDeviceObject,
-  _In_ PVOID          NotificationStructure
-);
-````
-
-
 ## -parameters
 
 
@@ -76,7 +66,7 @@ Pointer to the PDO of the device being reported.
 
 ### -param NotificationStructure [in]
 
-Pointer to a caller-supplied <a href="..\wdm\ns-wdm-_target_device_custom_notification.md">TARGET_DEVICE_CUSTOM_NOTIFICATION</a> structure describing the custom event. The PnP manager sends this structure to drivers that registered for notification of the event.
+Pointer to a caller-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff564596">TARGET_DEVICE_CUSTOM_NOTIFICATION</a> structure describing the custom event. The PnP manager sends this structure to drivers that registered for notification of the event.
 
 <i>NotificationStructure</i>.<b>FileObject</b> must be <b>NULL</b>. <i>NotificationStructure</i>.<b>Event</b> must contain the custom GUID for the event. The other fields of the <i>NotificationStructure</i> must be filled in as appropriate for the custom event.
 
@@ -119,7 +109,7 @@ After <b>IoReportTargetDeviceChange</b> notifies the PnP manager that a custom e
 
 A driver that defines a custom device event calls <b>IoReportTargetDeviceChange</b> to inform the PnP manager that the custom event has occurred. Custom notification can be used for events like a volume label change.
 
-A driver should call the asynchronous form of this routine, <a href="..\wdm\nf-wdm-ioreporttargetdevicechangeasynchronous.md">IoReportTargetDeviceChangeAsynchronous</a>, instead of this routine, to prevent deadlocks.
+A driver should call the asynchronous form of this routine, <a href="https://msdn.microsoft.com/library/windows/hardware/ff549634">IoReportTargetDeviceChangeAsynchronous</a>, instead of this routine, to prevent deadlocks.
 
 Certain kernel-mode components can call this synchronous routine. For example, a file system can call <b>IoReportTargetDeviceChange</b> to report a "get off the volume" custom event when a component tries to open the volume for exclusive access. Clients that register for notification on file system volumes are careful to not request an exclusive open in a PnP notification callback routine.
 
@@ -134,16 +124,15 @@ Callers of <b>IoReportTargetDeviceChange</b> must be running at IRQL = PASSIVE_L
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_target_device_custom_notification.md">TARGET_DEVICE_CUSTOM_NOTIFICATION</a>
 
 
 
-<a href="..\wdm\nf-wdm-ioreporttargetdevicechangeasynchronous.md">IoReportTargetDeviceChangeAsynchronous</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549634">IoReportTargetDeviceChangeAsynchronous</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564596">TARGET_DEVICE_CUSTOM_NOTIFICATION</a>
  
 
  
-
 

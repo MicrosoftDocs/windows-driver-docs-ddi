@@ -7,7 +7,7 @@ old-location: audio\telephony_calltype.htm
 old-project: audio
 ms.assetid: 8CF2CAF2-29F2-4B8B-B23F-B423392B2DAF
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/19/2018
 ms.keywords: TELEPHONY_CALLTYPE, TELEPHONY_CALLTYPE enumeration [Audio Devices], TELEPHONY_CALLTYPE_CIRCUITSWITCHED, TELEPHONY_CALLTYPE_PACKETSWITCHED_LTE, TELEPHONY_CALLTYPE_PACKETSWITCHED_WLAN, audio.telephony_calltype, ksmedia/TELEPHONY_CALLTYPE, ksmedia/TELEPHONY_CALLTYPE_CIRCUITSWITCHED, ksmedia/TELEPHONY_CALLTYPE_PACKETSWITCHED_LTE, ksmedia/TELEPHONY_CALLTYPE_PACKETSWITCHED_WLAN
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	TELEPHONY_CALLTYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TELEPHONY_CALLTYPE
 ---
@@ -50,18 +51,6 @@ req.typenames: TELEPHONY_CALLTYPE
 
 
 The <b>TELEPHONY_CALLTYPE</b> enumeration defines constants that specify the type of phone call.
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  TELEPHONY_CALLTYPE_CIRCUITSWITCHED      = 0,
-  TELEPHONY_CALLTYPE_PACKETSWITCHED_LTE   = 1,
-  TELEPHONY_CALLTYPE_PACKETSWITCHED_WLAN  = 2
-} TELEPHONY_CALLTYPE;
-````
 
 
 ## -enum-fields
@@ -86,20 +75,19 @@ Specifies a packet-switched wireless LAN (WLAN) phone call.
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-_tagkstelephony_providerchange.md">KSTELEPHONY_PROVIDERCHANGE</a>
 
 
 
-<a href="..\ksmedia\ns-ksmedia-_tagkstelephony_callcontrol.md">KSTELEPHONY_CALLCONTROL</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt169883">KSTELEPHONY_CALLCONTROL</a>
 
 
 
-<a href="..\ksmedia\ns-ksmedia-_tagkstelephony_callinfo.md">KSTELEPHONY_CALLINFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt169884">KSTELEPHONY_CALLINFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt169885">KSTELEPHONY_PROVIDERCHANGE</a>
  
 
  
-
 

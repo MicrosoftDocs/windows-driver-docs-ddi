@@ -38,7 +38,8 @@ api_location:
 -	strmini.h
 api_name:
 -	StrMiniInterrupt
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: ZONE_DESCRIPTIOR, *PZONE_DESCRIPTIOR
 req.product: Windows 10 or later.
@@ -51,19 +52,6 @@ req.product: Windows 10 or later.
 
 
 <i>StrMiniInterrupt</i> is the minidriver's interrupt service routine.
-
-
-## -prototype
-
-
-````
-PHW_INTERRUPT StrMiniInterrupt;
-
-VOID StrMiniInterrupt(
-  _In_ PVOID DeviceExtension
-)
-{ ... }
-````
 
 
 ## -parameters

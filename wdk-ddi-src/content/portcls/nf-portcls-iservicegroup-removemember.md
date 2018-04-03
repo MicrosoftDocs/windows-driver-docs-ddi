@@ -7,7 +7,7 @@ old-location: audio\iservicegroup_removemember.htm
 old-project: audio
 ms.assetid: f257c861-036b-44d1-9f99-dc5c0ab6e715
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/19/2018
 ms.keywords: IServiceGroup, IServiceGroup interface [Audio Devices], RemoveMember method, IServiceGroup::RemoveMember, RemoveMember method [Audio Devices], RemoveMember method [Audio Devices], IServiceGroup interface, RemoveMember,IServiceGroup.RemoveMember, audio.iservicegroup_removemember, audmp-routines_0b3fd59f-9233-4344-aa0c-f58505eee693.xml, portcls/IServiceGroup::RemoveMember
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	portcls.h
 api_name:
 -	IServiceGroup.RemoveMember
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
@@ -52,16 +53,6 @@ req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 The <code>RemoveMember</code> method removes the specified member from the service group.
 
 
-## -syntax
-
-
-````
-void RemoveMember(
-  [in] PSERVICESINK pServiceSink
-);
-````
-
-
 ## -parameters
 
 
@@ -69,7 +60,7 @@ void RemoveMember(
 
 ### -param pServiceSink [in]
 
-Pointer to the <a href="..\portcls\nn-portcls-iservicesink.md">IServiceSink</a> interface of the member that is to be removed
+Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537006">IServiceSink</a> interface of the member that is to be removed
 
 
 ## -returns
@@ -92,16 +83,15 @@ The <code>RemoveMember</code> method removes a service sink that was previously 
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
 
 
 
-<a href="..\portcls\nn-portcls-iservicesink.md">IServiceSink</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536994">IServiceGroup</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537006">IServiceSink</a>
  
 
  
-
 

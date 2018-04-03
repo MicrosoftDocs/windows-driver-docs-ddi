@@ -38,7 +38,8 @@ api_location:
 -	winsplp.h
 api_name:
 -	InitializeMonitorEx
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NOTIFICATION_CONFIG_FLAGS
 req.product: Windows 10 or later.
@@ -51,17 +52,6 @@ req.product: Windows 10 or later.
 
 
 
-
-
-## -syntax
-
-
-````
-BOOL WINAPI InitializeMonitorEx(
-  _In_  LPWSTR    pRegistryRoot,
-  _Out_ LPMONITOR pMonitor
-);
-````
 
 
 ## -parameters

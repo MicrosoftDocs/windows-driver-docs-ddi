@@ -7,7 +7,7 @@ old-location: display\d3dwddm2_0ddi_video_decoder_caps.htm
 old-project: display
 ms.assetid: 1C3E07CB-917D-4B3E-979D-4DBD38957B98
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DWDDM2_0DDI_VIDEO_DECODER_CAPS, D3DWDDM2_0DDI_VIDEO_DECODER_CAPS enumeration [Display Devices], D3DWDDM2_0DDI_VIDEO_DECODER_CAP_DOWNSAMPLE, D3DWDDM2_0DDI_VIDEO_DECODER_CAP_DOWNSAMPLE_REQUIRED, D3DWDDM2_0DDI_VIDEO_DECODER_CAP_NON_REAL_TIME, D3DWDDM2_0DDI_VIDEO_DECODER_CAP_UNSUPPORTED, d3d10umddi/D3DWDDM2_0DDI_VIDEO_DECODER_CAPS, d3d10umddi/D3DWDDM2_0DDI_VIDEO_DECODER_CAP_DOWNSAMPLE, d3d10umddi/D3DWDDM2_0DDI_VIDEO_DECODER_CAP_DOWNSAMPLE_REQUIRED, d3d10umddi/D3DWDDM2_0DDI_VIDEO_DECODER_CAP_NON_REAL_TIME, d3d10umddi/D3DWDDM2_0DDI_VIDEO_DECODER_CAP_UNSUPPORTED, display.d3dwddm2_0ddi_video_decoder_caps
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3d10umddi.h
 api_name:
 -	D3DWDDM2_0DDI_VIDEO_DECODER_CAPS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DWDDM2_0DDI_VIDEO_DECODER_CAPS
 ---
@@ -50,19 +51,6 @@ req.typenames: D3DWDDM2_0DDI_VIDEO_DECODER_CAPS
 
 
 Describes the video decoder capabilities.
-
-
-## -syntax
-
-
-````
-typedef enum D3DWDDM2_0DDI_VIDEO_DECODER_CAPS { 
-  D3DWDDM2_0DDI_VIDEO_DECODER_CAP_DOWNSAMPLE           = 0x01,
-  D3DWDDM2_0DDI_VIDEO_DECODER_CAP_NON_REAL_TIME        = 0x02,
-  D3DWDDM2_0DDI_VIDEO_DECODER_CAP_DOWNSAMPLE_REQUIRED  = 0x04,
-  D3DWDDM2_0DDI_VIDEO_DECODER_CAP_UNSUPPORTED          = 0x08
-} D3DWDDM2_0DDI_VIDEO_DECODER_CAPS;
-````
 
 
 ## -enum-fields
@@ -96,12 +84,11 @@ It is possible that decode can occur in real-time if downsampling is applied.
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3dwddm2_0ddi_queryvideocapabilities.md">QueryVideoCapabilities</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn906368">QueryVideoCapabilities</a>
  
 
  
-
 

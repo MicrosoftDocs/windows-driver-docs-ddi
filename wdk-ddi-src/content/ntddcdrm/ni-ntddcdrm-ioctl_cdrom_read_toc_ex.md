@@ -7,7 +7,7 @@ old-location: storage\ioctl_cdrom_read_toc_ex.htm
 old-project: storage
 ms.assetid: 279df233-9164-4c80-b31f-1d4cdc1073fa
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_CDROM_READ_TOC_EX, IOCTL_CDROM_READ_TOC_EX control code [Storage Devices], k307_5206dcdd-936b-4d6f-b51a-4407e54814ea.xml, ntddcdrm/IOCTL_CDROM_READ_TOC_EX, storage.ioctl_cdrom_read_toc_ex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddcdrm.h
 api_name:
 -	IOCTL_CDROM_READ_TOC_EX
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WRITE_ROTATION, *PWRITE_ROTATION
 ---
@@ -62,7 +63,7 @@ Queries the target device for the table of contents (TOC), the program memory ar
 
 ### -input-buffer
 
-<b>Irp-&gt;AssociatedIrp.SystemBuffer</b> points to a buffer of type <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_read_toc_ex.md">CDROM_READ_TOC_EX</a> whose contents indicate what information should be retrieved from the target device. 
+<b>Irp-&gt;AssociatedIrp.SystemBuffer</b> points to a buffer of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff551366">CDROM_READ_TOC_EX</a> whose contents indicate what information should be retrieved from the target device. 
 
 <b>Parameters.Read.Length</b> in the I/O stack location indicates the size, in bytes, of the information to be retrieved from the target device. 
 
@@ -107,12 +108,11 @@ The <b>Information</b> field is set to the number of bytes returned. The <b>Stat
 
 ## -see-also
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_read_toc_ex.md">CDROM_READ_TOC_EX</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551366">CDROM_READ_TOC_EX</a>
  
 
  
-
 

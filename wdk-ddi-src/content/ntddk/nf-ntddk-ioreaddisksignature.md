@@ -7,7 +7,7 @@ old-location: storage\ioreaddisksignature.htm
 old-project: storage
 ms.assetid: c56d767f-598c-46b8-bab1-ce4de0780076
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IoReadDiskSignature, IoReadDiskSignature routine [Storage Devices], ntddk/IoReadDiskSignature, rtns-disk_4bd8bcea-c43a-45ea-a074-013b8eb30e01.xml, storage.ioreaddisksignature
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	IoReadDiskSignature
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
@@ -50,18 +51,6 @@ req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 
 
 The <b>IoReadDiskSignature</b> routine reads the disk signature information for the partition table of a disk.
-
-
-## -syntax
-
-
-````
-NTSTATUS IoReadDiskSignature(
-  _In_  PDEVICE_OBJECT  DeviceObject,
-  _In_  ULONG           BytesPerSector,
-  _Out_ PDISK_SIGNATURE Signature
-);
-````
 
 
 ## -parameters
@@ -81,7 +70,7 @@ Specifies the number of bytes per sector of the disk.
 
 ### -param Signature [out]
 
-Pointer to a <a href="..\ntddk\ns-ntddk-_disk_signature.md">DISK_SIGNATURE</a> structure the routine uses to return the disk signature information.
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552637">DISK_SIGNATURE</a> structure the routine uses to return the disk signature information.
 
 
 ## -returns
@@ -97,23 +86,22 @@ The routine returns STATUS_SUCCESS on success, or the appropriate error code on 
 
 
 
-<b>IoReadDiskSignature</b> must only be used by disk drivers. Other drivers should use the <a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_get_drive_geometry_ex.md">IOCTL_DISK_GET_DRIVE_GEOMETRY_EX</a> I/O request instead.
+<b>IoReadDiskSignature</b> must only be used by disk drivers. Other drivers should use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560359">IOCTL_DISK_GET_DRIVE_GEOMETRY_EX</a> I/O request instead.
 
 
 
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_disk_signature.md">DISK_SIGNATURE</a>
 
 
 
-<a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_get_drive_geometry_ex.md">IOCTL_DISK_GET_DRIVE_GEOMETRY_EX</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552637">DISK_SIGNATURE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560359">IOCTL_DISK_GET_DRIVE_GEOMETRY_EX</a>
  
 
  
-
 

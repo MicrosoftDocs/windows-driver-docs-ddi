@@ -7,7 +7,7 @@ old-location: storage\storage_hw_firmware_info_query.htm
 old-project: storage
 ms.assetid: 7B58F050-2AF4-4BD5-95AB-254BCAA865F6
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSTORAGE_HW_FIRMWARE_INFO_QUERY, PSTORAGE_HW_FIRMWARE_INFO_QUERY, PSTORAGE_HW_FIRMWARE_INFO_QUERY structure pointer [Storage Devices], STORAGE_HW_FIRMWARE_INFO_QUERY, STORAGE_HW_FIRMWARE_INFO_QUERY structure [Storage Devices], _STORAGE_HW_FIRMWARE_INFO_QUERY, ntddstor/PSTORAGE_HW_FIRMWARE_INFO_QUERY, ntddstor/STORAGE_HW_FIRMWARE_INFO_QUERY, storage.storage_hw_firmware_info_query"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddstor.h
 api_name:
 -	STORAGE_HW_FIRMWARE_INFO_QUERY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STORAGE_HW_FIRMWARE_INFO_QUERY, *PSTORAGE_HW_FIRMWARE_INFO_QUERY
 ---
@@ -50,19 +51,6 @@ req.typenames: STORAGE_HW_FIRMWARE_INFO_QUERY, *PSTORAGE_HW_FIRMWARE_INFO_QUERY
 
 
 This structure contains information about the device firmware.
-
-
-## -syntax
-
-
-````
-typedef struct _STORAGE_HW_FIRMWARE_INFO_QUERY {
-  ULONG Version;
-  ULONG Size;
-  ULONG Flags;
-  ULONG Reserved;
-} STORAGE_HW_FIRMWARE_INFO_QUERY, *PSTORAGE_HW_FIRMWARE_INFO_QUERY;
-````
 
 
 ## -struct-fields

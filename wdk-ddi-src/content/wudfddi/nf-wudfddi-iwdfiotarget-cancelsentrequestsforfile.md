@@ -38,7 +38,8 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFIoTarget.CancelSentRequestsForFile
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
@@ -55,16 +56,6 @@ req.product: Windows 10 or later.
 The <b>CancelSentRequestsForFile</b> method cancels all I/O requests that have been sent on behalf of the specified file object.
 
 
-## -syntax
-
-
-````
-void CancelSentRequestsForFile(
-  [in] IWDFFile *pFile
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +63,7 @@ void CancelSentRequestsForFile(
 
 ### -param pFile [in]
 
-A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a> interface for the file object to cancel all I/O requests for. 
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558912">IWDFFile</a> interface for the file object to cancel all I/O requests for. 
 
 
 ## -returns
@@ -86,16 +77,15 @@ None
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiotarget.md">IWDFIoTarget</a>
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558912">IWDFFile</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559170">IWDFIoTarget</a>
  
 
  
-
 

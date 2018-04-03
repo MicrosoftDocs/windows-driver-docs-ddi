@@ -7,7 +7,7 @@ old-location: debugger\iskerneldebuggerenabled.htm
 old-project: debugger
 ms.assetid: a6dc4832-6b9b-441e-a57a-6fcb2cafa2c6
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: IDebugClient2 interface [Windows Debugging], IsKernelDebuggerEnabled method, IDebugClient2::IsKernelDebuggerEnabled, IDebugClient3 interface [Windows Debugging], IsKernelDebuggerEnabled method, IDebugClient3::IsKernelDebuggerEnabled, IDebugClient4, IDebugClient4 interface [Windows Debugging], IsKernelDebuggerEnabled method, IDebugClient4::IsKernelDebuggerEnabled, IDebugClient5 interface [Windows Debugging], IsKernelDebuggerEnabled method, IDebugClient5::IsKernelDebuggerEnabled, IDebugClient_05c5446d-28b4-4d9b-bb20-7dc1746545d6.xml, IsKernelDebuggerEnabled method [Windows Debugging], IsKernelDebuggerEnabled method [Windows Debugging], IDebugClient2 interface, IsKernelDebuggerEnabled method [Windows Debugging], IDebugClient3 interface, IsKernelDebuggerEnabled method [Windows Debugging], IDebugClient4 interface, IsKernelDebuggerEnabled method [Windows Debugging], IDebugClient5 interface, IsKernelDebuggerEnabled,IDebugClient4.IsKernelDebuggerEnabled, dbgeng/IDebugClient2::IsKernelDebuggerEnabled, dbgeng/IDebugClient3::IsKernelDebuggerEnabled, dbgeng/IDebugClient4::IsKernelDebuggerEnabled, dbgeng/IDebugClient5::IsKernelDebuggerEnabled, debugger.iskerneldebuggerenabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,8 @@ api_name:
 -	IDebugClient3.IsKernelDebuggerEnabled
 -	IDebugClient4.IsKernelDebuggerEnabled
 -	IDebugClient5.IsKernelDebuggerEnabled
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -53,14 +54,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>IsKernelDebuggerEnabled</b> method checks whether kernel debugging is enabled for the local kernel.
-
-
-## -syntax
-
-
-````
-HRESULT IsKernelDebuggerEnabled();
-````
 
 
 ## -parameters
@@ -122,19 +115,6 @@ For more information about connecting to live kernel-mode targets, see <a href="
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
 
 
 
@@ -142,8 +122,20 @@ For more information about connecting to live kernel-mode targets, see <a href="
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550481">IDebugClient2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550488">IDebugClient3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550494">IDebugClient4</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550497">IDebugClient5</a>
  
 
  
-
 

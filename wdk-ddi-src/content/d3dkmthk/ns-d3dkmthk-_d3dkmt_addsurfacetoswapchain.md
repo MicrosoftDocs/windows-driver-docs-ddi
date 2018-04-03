@@ -7,7 +7,7 @@ old-location: display\d3dkmt-addsurfacetoswapchain.htm
 old-project: display
 ms.assetid: f1a2390c-0154-4bd7-954f-ca8725710d61
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMT_ADDSURFACETOSWAPCHAIN, D3DKMT_ADDSURFACETOSWAPCHAIN structure [Display Devices], _D3DKMT_ADDSURFACETOSWAPCHAIN, d3dkmthk/D3DKMT_ADDSURFACETOSWAPCHAIN, display.d3dkmt-addsurfacetoswapchain
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmthk.h
 api_name:
 -	D3DKMT_ADDSURFACETOSWAPCHAIN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_ADDSURFACETOSWAPCHAIN
 ---
@@ -50,19 +51,6 @@ req.typenames: D3DKMT_ADDSURFACETOSWAPCHAIN
 
 
 Used to add a surface to the swapchain.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_ADDSURFACETOSWAPCHAIN {
-  HANDLE hNtSwapChain;
-  BOOL   bProducer;
-  HANDLE hNtSurfaceHandle;
-  UINT   BufferIdx;
-} D3DKMT_ADDSURFACETOSWAPCHAIN;
-````
 
 
 ## -struct-fields

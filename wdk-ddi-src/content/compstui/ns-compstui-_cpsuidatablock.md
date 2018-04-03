@@ -38,7 +38,8 @@ api_location:
 -	compstui.h
 api_name:
 -	CPSUIDATABLOCK
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CPSUIDATABLOCK, *PCPSUIDATABLOCK
 ---
@@ -50,17 +51,6 @@ req.typenames: CPSUIDATABLOCK, *PCPSUIDATABLOCK
 
 
 The CPSUIDATABLOCK structure is used as a parameter for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546207">ComPropSheet</a> function, if the function code is <a href="https://msdn.microsoft.com/library/windows/hardware/ff547036">CPSFUNC_SET_DATABLOCK</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff546425">CPSFUNC_QUERY_DATABLOCK</a>.
-
-
-## -syntax
-
-
-````
-typedef struct _CPSUIDATABLOCK {
-  DWORD  cbData;
-  LPBYTE pbData;
-} CPSUIDATABLOCK, *PCPSUIDATABLOCK;
-````
 
 
 ## -struct-fields

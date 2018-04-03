@@ -38,7 +38,8 @@ api_location:
 -	D4drvif.h
 api_name:
 -	IOCTL_DOT4_REMOVE_ACTIVITY_BROADCAST
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
@@ -94,7 +95,6 @@ This topic describes IOCTL_DOT4_REMOVE_ACTIVITY_BROADCAST.
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
 
 
 
@@ -102,16 +102,16 @@ This topic describes IOCTL_DOT4_REMOVE_ACTIVITY_BROADCAST.
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548651">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548656">WdfIoTargetSendInternalIoctlSynchronously</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548660">WdfIoTargetSendIoctlSynchronously</a>
  
 
  
-
 

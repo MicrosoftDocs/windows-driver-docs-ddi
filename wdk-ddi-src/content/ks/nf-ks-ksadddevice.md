@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsAddDevice
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -50,18 +51,7 @@ req.typenames:
 ## -description
 
 
-The<b> KsAddDevice </b>function is the default <i>AddDevice</i> handler installed by <a href="..\ks\nf-ks-ksinitializedriver.md">KsInitializeDriver</a>. 
-
-
-## -syntax
-
-
-````
-NTSTATUS KsAddDevice(
-  _In_ PDRIVER_OBJECT DriverObject,
-  _In_ PDEVICE_OBJECT PhysicalDeviceObject
-);
-````
+The<b> KsAddDevice </b>function is the default <i>AddDevice</i> handler installed by <a href="https://msdn.microsoft.com/library/windows/hardware/ff562683">KsInitializeDriver</a>. 
 
 
 ## -parameters
@@ -83,7 +73,7 @@ A pointer to the WDM physical device object.
 
 
 
-Returns STATUS_SUCCESS indicating the device was successfully created or an error status from <a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a> or <a href="..\ks\nf-ks-ksinitializedevice.md">KsInitializeDevice</a>.
+Returns STATUS_SUCCESS indicating the device was successfully created or an error status from <a href="https://msdn.microsoft.com/library/windows/hardware/ff548397">IoCreateDevice</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff562682">KsInitializeDevice</a>.
 
 
 
@@ -96,43 +86,42 @@ Normally, an AVStream minidriver does not call this function directly.
 
 For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554081">AddDevice Routine for AVStream Minidrivers</a>.
 
-<b>KsAddDevice</b> extracts the device descriptor stored in the device extension allocated from a call to <a href="..\ks\nf-ks-ksinitializedriver.md">KsInitializeDriver</a> and creates the device described by it. If <b>KsInitializeDriver</b> is not used to initialize the driver, this function creates a device with the default characteristics and no filter factories. The minidriver always has the option of calling <a href="..\ks\nf-ks-kscreatedevice.md">KsCreateDevice</a> directly, in which case the driver extension is not used by AVStream. Because <b>KsAddDevice</b> calls <b>KsCreateDevice</b>, drivers that call <b>KsAddDevice</b> should not call <b>KsCreateDevice</b> separately.
+<b>KsAddDevice</b> extracts the device descriptor stored in the device extension allocated from a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff562683">KsInitializeDriver</a> and creates the device described by it. If <b>KsInitializeDriver</b> is not used to initialize the driver, this function creates a device with the default characteristics and no filter factories. The minidriver always has the option of calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff561647">KsCreateDevice</a> directly, in which case the driver extension is not used by AVStream. Because <b>KsAddDevice</b> calls <b>KsCreateDevice</b>, drivers that call <b>KsAddDevice</b> should not call <b>KsCreateDevice</b> separately.
 
 
 
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
 
 
-<a href="..\ks\nf-ks-ksinitializedevice.md">KsInitializeDevice</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>
 
 
 
-<a href="..\ks\nf-ks-ksdispatchirp.md">KsDispatchIrp</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544174">DRIVER_OBJECT</a>
 
 
 
-<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561681">KSDEVICE</a>
 
 
 
-<a href="..\ks\nf-ks-ksinitializedriver.md">KsInitializeDriver</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561647">KsCreateDevice</a>
 
 
 
-<a href="..\ks\nf-ks-kscreatedevice.md">KsCreateDevice</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561709">KsDispatchIrp</a>
 
 
 
-<a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562682">KsInitializeDevice</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562683">KsInitializeDriver</a>
  
 
  
-
 

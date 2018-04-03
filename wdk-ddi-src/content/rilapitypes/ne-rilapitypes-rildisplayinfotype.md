@@ -7,7 +7,7 @@ old-location: netvista\rildisplayinfotype.htm
 old-project: netvista
 ms.assetid: 0da424f5-2970-497c-8965-af627fd582ff
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: RILDISPLAYINFOTYPE, RILDISPLAYINFOTYPE enumeration [Network Drivers Starting with Windows Vista], netvista.rildisplayinfotype, ntddrilapitypes/RILDISPLAYINFOTYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILDISPLAYINFOTYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILDISPLAYINFOTYPE
 req.product: Windows 10 or later.
@@ -51,15 +52,6 @@ req.product: Windows 10 or later.
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef enum _RILDISPLAYINFOTYPE { 
-} RILDISPLAYINFOTYPE;
-````
 
 
 ## -enum-fields

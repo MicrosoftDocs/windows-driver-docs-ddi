@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSEVENT_ITEM_IRP_STORAGE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -49,17 +50,7 @@ req.typenames:
 ## -description
 
 
-This macro retrieves a pointer to the <a href="..\ks\ns-ks-ksevent_item.md">KSEVENT_ITEM</a> structure stored in <i>Irp</i>.
-
-
-## -syntax
-
-
-````
- KSEVENT_ITEM_IRP_STORAGE(
-    Irp
-);
-````
+This macro retrieves a pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561862">KSEVENT_ITEM</a> structure stored in <i>Irp</i>.
 
 
 ## -parameters

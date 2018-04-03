@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KSWAVE_INPUT_CAPABILITIES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSWAVE_INPUT_CAPABILITIES, *PKSWAVE_INPUT_CAPABILITIES
 ---
@@ -50,22 +51,6 @@ req.typenames: KSWAVE_INPUT_CAPABILITIES, *PKSWAVE_INPUT_CAPABILITIES
 
 
 The KSWAVE_INPUT_CAPABILITIES structure is used to describe the input capabilities of a device.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  ULONG MaximumChannelsPerConnection;
-  ULONG MinimumBitsPerSample;
-  ULONG MaximumBitsPerSample;
-  ULONG MinimumSampleFrequency;
-  ULONG MaximumSampleFrequency;
-  ULONG TotalConnections;
-  ULONG ActiveConnections;
-} KSWAVE_INPUT_CAPABILITIES, *PKSWAVE_INPUT_CAPABILITIES;
-````
 
 
 ## -struct-fields
@@ -119,12 +104,11 @@ This structure is used by the <a href="https://msdn.microsoft.com/library/window
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566521">KSPROPERTY_WAVE_INPUT_CAPABILITIES</a>
-
-
-
  
 
  
-
 

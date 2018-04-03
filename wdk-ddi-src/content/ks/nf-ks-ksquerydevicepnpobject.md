@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsQueryDevicePnpObject
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -53,16 +54,6 @@ req.typenames:
 The <b>KsQueryDevicePnpObject</b> function returns the PnP device object that can be stored in the device header. This is the next device object on the PnP stack and is the device object that PnP requests are forwarded to if <b>KsDefaultDispatchPnp</b> is used.
 
 
-## -syntax
-
-
-````
-PDEVICE_OBJECT KsQueryDevicePnpObject(
-  _In_ KSDEVICE_HEADER Header
-);
-````
-
-
 ## -parameters
 
 
@@ -70,7 +61,7 @@ PDEVICE_OBJECT KsQueryDevicePnpObject(
 
 ### -param Header [in]
 
-Points to a header previously allocated by <a href="..\ks\nf-ks-ksallocatedeviceheader.md">KsAllocateDeviceHeader</a> whose PnP device object is to be returned.
+Points to a header previously allocated by <a href="https://msdn.microsoft.com/library/windows/hardware/ff560958">KsAllocateDeviceHeader</a> whose PnP device object is to be returned.
 
 
 ## -returns
@@ -84,12 +75,11 @@ The <b>KsQueryDevicePnpObject</b> function returns the previously set PnP device
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561665">KsDefaultDispatchPnp</a>
-
-
-
  
 
  
-
 

@@ -38,7 +38,8 @@ api_location:
 -	61883.h
 api_name:
 -	CIP_NOTIFY_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CIP_NOTIFY_INFO, *PCIP_NOTIFY_INFO
 ---
@@ -50,18 +51,6 @@ req.typenames: CIP_NOTIFY_INFO, *PCIP_NOTIFY_INFO
 
 
 The CIP_NOTIFY_INFO structure contains information about the frame. 
-
-
-## -syntax
-
-
-````
-typedef struct _CIP_NOTIFY_INFO {
-  HANDLE     hConnect;
-  PVOID      Context;
-  PCIP_FRAME Frame;
-} CIP_NOTIFY_INFO, *PCIP_NOTIFY_INFO;
-````
 
 
 ## -struct-fields
@@ -95,12 +84,11 @@ The IEC-61883 protocol driver allocates and initializes this structure from the 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537045">CIP_FRAME</a>
-
-
-
  
 
  
-
 

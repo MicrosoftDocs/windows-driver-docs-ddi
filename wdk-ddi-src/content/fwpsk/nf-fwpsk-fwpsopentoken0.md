@@ -7,7 +7,7 @@ old-location: netvista\fwpsopentoken0.htm
 old-project: netvista
 ms.assetid: B6C61023-F840-4517-83C1-BC9CBDFC27B0
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: FwpsOpenToken0, FwpsOpenToken0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsOpenToken0, netvista.fwpsopentoken0
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	fwpsk.h
 api_name:
 -	FwpsOpenToken0
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FWPS_VSWITCH_EVENT_TYPE
 ---
@@ -54,19 +55,6 @@ The <b>FwpsOpenToken0</b> function opens an access token.<div class="alert"><b>N
 
 
 
-## -syntax
-
-
-````
-NTSTATUS NTAPI NTAPI FwpsOpenToken0(
-  _In_  HANDLE engineHandle,
-  _In_  LUID   modifiedId,
-  _In_  DWORD  desiredAccess,
-  _Out_ HANDLE *accessToken
-);
-````
-
-
 ## -parameters
 
 
@@ -75,13 +63,13 @@ NTSTATUS NTAPI NTAPI FwpsOpenToken0(
 ### -param engineHandle [in]
 
 A handle for an open session to the filter engine. A callout driver calls the 
-     <a href="..\fwpmk\nf-fwpmk-fwpmengineopen0.md">FwpmEngineOpen0</a> function to open a
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff550075">FwpmEngineOpen0</a> function to open a
      session to the filter engine.
 
 
 ### -param modifiedId [in]
 
-Specifies an <a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a> that changes each time the token is modified. An application can use this value as a test of whether a security context has changed since it was last used.
+Specifies an <a href="https://msdn.microsoft.com/library/windows/hardware/ff557080">LUID</a> that changes each time the token is modified. An application can use this value as a test of whether a security context has changed since it was last used.
 
 
 ### -param desiredAccess [in]
@@ -137,12 +125,11 @@ An error occurred.
 
 ## -see-also
 
-<a href="..\fwpmk\nf-fwpmk-fwpmengineopen0.md">FwpmEngineOpen0</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550075">FwpmEngineOpen0</a>
  
 
  
-
 

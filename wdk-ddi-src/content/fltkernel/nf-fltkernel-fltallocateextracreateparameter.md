@@ -7,7 +7,7 @@ old-location: ifsk\fltallocateextracreateparameter.htm
 old-project: ifsk
 ms.assetid: 85751db5-7a73-4aa5-baf8-0173e9a8f495
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FltAllocateExtraCreateParameter, FltAllocateExtraCreateParameter routine [Installable File System Drivers], FltApiRef_a_to_d_937e6c81-7251-4f94-a868-88f65e219c73.xml, fltkernel/FltAllocateExtraCreateParameter, ifsk.fltallocateextracreateparameter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	FltMgr.dll
 api_name:
 -	FltAllocateExtraCreateParameter
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
@@ -51,22 +52,6 @@ req.typenames: EXpsFontRestriction
 
 
 The <b>FltAllocateExtraCreateParameter</b> routine allocates paged memory pool for a user-defined extra create parameter (ECP) context structure and generates a pointer to that structure.
-
-
-## -syntax
-
-
-````
-NTSTATUS FltAllocateExtraCreateParameter(
-  _In_     PFLT_FILTER                                    Filter,
-  _In_     LPCGUID                                        EcpType,
-  _In_     ULONG                                          SizeOfContext,
-  _In_     FSRTL_ALLOCATE_ECP_FLAGS                       Flags,
-  _In_opt_ PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBACK CleanupCallback,
-  _In_     ULONG                                          PoolTag,
-  _Out_    PVOID                                          *EcpContext
-);
-````
 
 
 ## -parameters
@@ -108,12 +93,12 @@ If more than one flag is used, all of the effects associated with the utilized f
 
 ### -param CleanupCallback [in, optional]
 
-Optional pointer to a minifilter-defined cleanup callback routine of type <a href="..\ntifs\nc-ntifs-pfsrtl_extra_create_parameter_cleanup_callback.md">PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBACK</a>.  The cleanup callback routine is called when the ECP structure (created by the <b>FltAllocateExtraCreateParameter</b> routine) is deleted.  Set this parameter to <b>NULL</b> if a cleanup callback routine is not applicable.
+Optional pointer to a minifilter-defined cleanup callback routine of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff551124">PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBACK</a>.  The cleanup callback routine is called when the ECP structure (created by the <b>FltAllocateExtraCreateParameter</b> routine) is deleted.  Set this parameter to <b>NULL</b> if a cleanup callback routine is not applicable.
 
 
 ### -param PoolTag [in]
 
-Specifies the pool tag for the allocated memory. For more information, see the <i>Tag</i> parameter of <a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>.
+Specifies the pool tag for the allocated memory. For more information, see the <i>Tag</i> parameter of <a href="https://msdn.microsoft.com/library/windows/hardware/ff544520">ExAllocatePoolWithTag</a>.
 
 
 ### -param EcpContext [out]
@@ -166,17 +151,17 @@ The ECP structure was successfully allocated.  In this case, a pointer to the al
 
 The <b>FltAllocateExtraCreateParameter</b> routine is available starting with Windows Vista. 
 
-By default, the <b>FltAllocateExtraCreateParameter</b> routine allocates paged memory pool for a user-defined ECP context structure.  If the FSRTL_ALLOCATE_ECP_FLAG_NONPAGED_POOL bitmask is used as described above, a non-paged memory pool is allocated.  Once this pool has been allocated and the ECP context structure has been initialized, the <a href="..\fltkernel\nf-fltkernel-fltinsertextracreateparameter.md">FltInsertExtraCreateParameter</a> routine is used to insert the ECP context structure (ECP list element) into an ECP list structure (ECP list).
+By default, the <b>FltAllocateExtraCreateParameter</b> routine allocates paged memory pool for a user-defined ECP context structure.  If the FSRTL_ALLOCATE_ECP_FLAG_NONPAGED_POOL bitmask is used as described above, a non-paged memory pool is allocated.  Once this pool has been allocated and the ECP context structure has been initialized, the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543305">FltInsertExtraCreateParameter</a> routine is used to insert the ECP context structure (ECP list element) into an ECP list structure (ECP list).
 
 Memory pool that is allocated by the <b>FltAllocateExtraCreateParameter</b> routine is not automatically freed by the operating system.  This memory pool must eventually be released by using one of the following methods:
 
 <ul>
 <li>
-Call the <a href="..\fltkernel\nf-fltkernel-fltremoveextracreateparameter.md">FltRemoveExtraCreateParameter</a> routine to remove the ECP context structure from the ECP list and then call the <a href="..\fltkernel\nf-fltkernel-fltfreeextracreateparameter.md">FltFreeExtraCreateParameter</a> routine to free the ECP context structure itself.  The ECP list remains in existence.
+Call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544339">FltRemoveExtraCreateParameter</a> routine to remove the ECP context structure from the ECP list and then call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff542957">FltFreeExtraCreateParameter</a> routine to free the ECP context structure itself.  The ECP list remains in existence.
 
 </li>
 <li>
-Call the <a href="..\fltkernel\nf-fltkernel-fltfreeextracreateparameterlist.md">FltFreeExtraCreateParameterList</a> routine - this frees the ECP list including any list elements (ECP context structures).  The ECP list is destroyed.
+Call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff542964">FltFreeExtraCreateParameterList</a> routine - this frees the ECP list including any list elements (ECP context structures).  The ECP list is destroyed.
 
 </li>
 </ul>
@@ -185,27 +170,6 @@ Call the <a href="..\fltkernel\nf-fltkernel-fltfreeextracreateparameterlist.md">
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltallocateextracreateparameterfromlookasidelist.md">FltAllocateExtraCreateParameterFromLookasideList</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltremoveextracreateparameter.md">FltRemoveExtraCreateParameter</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltallocateextracreateparameterlist.md">FltAllocateExtraCreateParameterList</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltfreeextracreateparameterlist.md">FltFreeExtraCreateParameterList</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-iocreatefileex.md">IoCreateFileEx</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltinsertextracreateparameter.md">FltInsertExtraCreateParameter</a>
 
 
 
@@ -213,28 +177,48 @@ Call the <a href="..\fltkernel\nf-fltkernel-fltfreeextracreateparameterlist.md">
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltgetecplistfromcallbackdata.md">FltGetEcpListFromCallbackData</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541734">FltAllocateExtraCreateParameterFromLookasideList</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltcreatefileex2.md">FltCreateFileEx2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541741">FltAllocateExtraCreateParameterList</a>
 
 
 
-<a href="..\ntifs\nc-ntifs-pfsrtl_extra_create_parameter_cleanup_callback.md">PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBACK</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541939">FltCreateFileEx2</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltfreeextracreateparameter.md">FltFreeExtraCreateParameter</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542957">FltFreeExtraCreateParameter</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltsetecplistintocallbackdata.md">FltSetEcpListIntoCallbackData</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542964">FltFreeExtraCreateParameterList</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543016">FltGetEcpListFromCallbackData</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543305">FltInsertExtraCreateParameter</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544339">FltRemoveExtraCreateParameter</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544510">FltSetEcpListIntoCallbackData</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548283">IoCreateFileEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551124">PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBACK</a>
  
 
  
-
 

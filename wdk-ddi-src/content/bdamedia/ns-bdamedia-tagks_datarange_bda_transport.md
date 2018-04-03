@@ -38,7 +38,8 @@ api_location:
 -	bdamedia.h
 api_name:
 -	KS_DATARANGE_BDA_TRANSPORT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KS_DATARANGE_BDA_TRANSPORT, *PKS_DATARANGE_BDA_TRANSPORT
 ---
@@ -50,17 +51,6 @@ req.typenames: KS_DATARANGE_BDA_TRANSPORT, *PKS_DATARANGE_BDA_TRANSPORT
 
 
 The KS_DATARANGE_BDA_TRANSPORT structure describes a range of data formats for a BDA transport stream. 
-
-
-## -syntax
-
-
-````
-typedef struct tagKS_DATARANGE_BDA_TRANSPORT {
-  KSDATARANGE        DataRange;
-  BDA_TRANSPORT_INFO BdaTransportInfo;
-} KS_DATARANGE_BDA_TRANSPORT, *PKS_DATARANGE_BDA_TRANSPORT;
-````
 
 
 ## -struct-fields
@@ -91,7 +81,6 @@ Pins of filters specify the data ranges they support to enable stream connection
 
 ## -see-also
 
-<a href="..\ks\ns-ks-kspin_descriptor.md">KSPIN_DESCRIPTOR</a>
 
 
 
@@ -99,16 +88,16 @@ Pins of filters specify the data ranges they support to enable stream connection
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556564">BDA_TRANSPORT_INFO</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561658">KSDATARANGE</a>
 
 
 
-<a href="..\bdamedia\ns-bdamedia-tagbda_transport_info.md">BDA_TRANSPORT_INFO</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563533">KSPIN_DESCRIPTOR</a>
  
 
  
-
 

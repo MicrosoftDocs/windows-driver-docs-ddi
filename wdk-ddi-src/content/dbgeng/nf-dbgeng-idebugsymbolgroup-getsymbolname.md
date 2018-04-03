@@ -7,7 +7,7 @@ old-location: debugger\getsymbolname.htm
 old-project: debugger
 ms.assetid: a594e436-3b37-4bba-ba9d-65159fdfb7ac
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: ComOther_e12d7aee-985e-4770-8567-7c3748a79905.xml, GetSymbolName method [Windows Debugging], GetSymbolName method [Windows Debugging], IDebugSymbolGroup interface, GetSymbolName method [Windows Debugging], IDebugSymbolGroup2 interface, GetSymbolName,IDebugSymbolGroup.GetSymbolName, IDebugSymbolGroup, IDebugSymbolGroup interface [Windows Debugging], GetSymbolName method, IDebugSymbolGroup2 interface [Windows Debugging], GetSymbolName method, IDebugSymbolGroup2::GetSymbolName, IDebugSymbolGroup::GetSymbolName, dbgeng/IDebugSymbolGroup2::GetSymbolName, dbgeng/IDebugSymbolGroup::GetSymbolName, debugger.getsymbolname
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	IDebugSymbolGroup.GetSymbolName
 -	IDebugSymbolGroup2.GetSymbolName
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -51,19 +52,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetSymbolName</b>  method returns the name of a symbol in a symbol group.
-
-
-## -syntax
-
-
-````
-HRESULT GetSymbolName(
-  [in]            ULONG  Index,
-  [out, optional] PSTR   Buffer,
-  [in]            ULONG  BufferSize,
-  [out, optional] PULONG NameSize
-);
-````
 
 
 ## -parameters
@@ -141,20 +129,19 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup.md">IDebugSymbolGroup</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550838">IDebugSymbolGroup</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550846">IDebugSymbolGroup2</a>
  
 
  
-
 

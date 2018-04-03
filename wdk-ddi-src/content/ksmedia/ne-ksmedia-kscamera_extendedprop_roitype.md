@@ -38,7 +38,8 @@ api_location:
 -	Ksmedia.h
 api_name:
 -	KSCAMERA_EXTENDEDPROP_ROITYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSCAMERA_EXTENDEDPROP_ROITYPE
 ---
@@ -50,17 +51,6 @@ req.typenames: KSCAMERA_EXTENDEDPROP_ROITYPE
 
 
 This enumeration contains the ROI types.
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  KSCAMERA_EXTENDEDPROP_ROITYPE_UNKNOWN  = 0,
-  KSCAMERA_EXTENDEDPROP_ROITYPE_FACE
-} KSCAMERA_EXTENDEDPROP_ROITYPE;
-````
 
 
 ## -enum-fields

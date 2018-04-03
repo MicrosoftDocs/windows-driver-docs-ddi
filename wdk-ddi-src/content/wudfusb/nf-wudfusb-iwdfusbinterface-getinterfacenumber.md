@@ -38,7 +38,8 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFUsbInterface.GetInterfaceNumber
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
@@ -53,14 +54,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>GetInterfaceNumber</b> method retrieves the index of a USB interface.
-
-
-## -syntax
-
-
-````
-UCHAR GetInterfaceNumber();
-````
 
 
 ## -parameters
@@ -81,12 +74,11 @@ UCHAR GetInterfaceNumber();
 
 ## -see-also
 
-<a href="..\wudfusb\nn-wudfusb-iwdfusbinterface.md">IWDFUsbInterface</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560312">IWDFUsbInterface</a>
  
 
  
-
 

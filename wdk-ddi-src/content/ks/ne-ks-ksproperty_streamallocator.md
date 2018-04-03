@@ -38,7 +38,8 @@ api_location:
 -	Ks.h
 api_name:
 -	KSPROPERTY_STREAMALLOCATOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSPROPERTY_STREAMALLOCATOR
 ---
@@ -50,17 +51,6 @@ req.typenames: KSPROPERTY_STREAMALLOCATOR
 
 
 
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  KSPROPERTY_STREAMALLOCATOR_FUNCTIONTABLE,
-  KSPROPERTY_STREAMALLOCATOR_STATUS
-} KSPROPERTY_STREAMALLOCATOR;
-````
 
 
 ## -enum-fields

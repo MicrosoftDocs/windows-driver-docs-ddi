@@ -7,7 +7,7 @@ old-location: storage\storportgetdatainbufferscattergatherlist.htm
 old-project: storage
 ms.assetid: 015592AE-4AF6-48C8-BF79-6B22A6FCAB98
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: StorPortGetDataInBufferScatterGatherList, StorPortGetDataInBufferScatterGatherList routine [Storage Devices], storage.storportgetdatainbufferscattergatherlist, storport/StorPortGetDataInBufferScatterGatherList
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Storport.dll
 api_name:
 -	StorPortGetDataInBufferScatterGatherList
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STOR_SPINLOCK
 req.product: Windows 10 or later.
@@ -52,18 +53,6 @@ req.product: Windows 10 or later.
 
 
 Returns the scatter-gather list associated with the input data buffer  of a SCSI request block (SRB).
-
-
-## -syntax
-
-
-````
-ULONG StorPortGetDataInBufferScatterGatherList(
-  _In_  PVOID                     HwDeviceExtension,
-  _In_  PSCSI_REQUEST_BLOCK       Srb,
-  _Out_ PSTOR_SCATTER_GATHER_LIST *SgList
-);
-````
 
 
 ## -parameters
@@ -127,16 +116,15 @@ The pointer value in <i>SgList</i> is NULL.
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportgetdatainbuffermdl.md">StorPortGetDataInBufferMdl</a>
 
 
 
-<a href="..\storport\nf-storport-storportgetdatainbuffersystemaddress.md">StorPortGetDataInBufferSystemAddress</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj553718">StorPortGetDataInBufferMdl</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj553720">StorPortGetDataInBufferSystemAddress</a>
  
 
  
-
 

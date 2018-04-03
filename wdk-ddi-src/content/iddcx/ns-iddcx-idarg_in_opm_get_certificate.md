@@ -7,7 +7,7 @@ old-location: display\idarg_in_opm_get_certificate.htm
 old-project: display
 ms.assetid: 0f6ce53f-f755-44f7-b579-ce3526e44c41
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IDARG_IN_OPM_GET_CERTIFICATE, IDARG_IN_OPM_GET_CERTIFICATE structure [Display Devices], display.idarg_in_opm_get_certificate, iddcx/IDARG_IN_OPM_GET_CERTIFICATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	iddcx.h
 api_name:
 -	IDARG_IN_OPM_GET_CERTIFICATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -52,18 +53,6 @@ req.typenames:
 
                  Gives information about the 
              OPM certificate.
-
-
-## -syntax
-
-
-````
-typedef struct IDARG_IN_OPM_GET_CERTIFICATE {
-  OPM_VIDEO_OUTPUT_SEMANTICS                            CertificateType;
-  UINT                                                  CertificateBufferSizeInBytes;
-  _Field_size_full_(CertificateBufferSizeInBytes) PVOID pCertificate;
-} IDARG_IN_OPM_GET_CERTIFICATE, *IDARG_IN_OPM_GET_CERTIFICATE;
-````
 
 
 ## -struct-fields

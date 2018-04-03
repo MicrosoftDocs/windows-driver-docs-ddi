@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSERROR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSERROR, *PKSERROR
 ---
@@ -50,17 +51,6 @@ req.typenames: KSERROR, *PKSERROR
 
 
 The KSERROR structure is used to report streaming errors in both kernel and user mode to their respective quality managers.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  PVOID Context;
-  ULONG Status;
-} KSERROR, *PKSERROR;
-````
 
 
 ## -struct-fields
@@ -89,20 +79,19 @@ Streaming error notifications can be generated against the Quality Management si
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561671">KSDEGRADE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561673">KSDEGRADE_STANDARD</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565211">KSPROPERTY_QUALITY_ERROR</a>
-
-
-
-<a href="..\ks\ne-ks-ksdegrade_standard.md">KSDEGRADE_STANDARD</a>
-
-
-
  
 
  
-
 

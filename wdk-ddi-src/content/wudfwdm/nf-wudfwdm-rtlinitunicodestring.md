@@ -7,7 +7,7 @@ old-location: kernel\rtlinitunicodestring.htm
 old-project: kernel
 ms.assetid: c6ef7438-36a6-4da6-b745-2985d9b30614
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 2/24/2018
 ms.keywords: RtlInitUnicodeString, RtlInitUnicodeString routine [Kernel-Mode Driver Architecture], k109_10e59fa9-6f57-45db-bc11-520660f43b13.xml, kernel.rtlinitunicodestring, wdm/RtlInitUnicodeString
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	RtlInitUnicodeString
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PO_FX_PERF_STATE_UNIT, *PPO_FX_PERF_STATE_UNIT
 req.product: Windows 10 or later.
@@ -117,11 +118,11 @@ You can use <b>RTL_CONSTANT_STRING</b> to initialize global variables.
 
 ## -see-also
 
-<a href="..\wdmsec\nf-wdmsec-wdmlibrtlinitunicodestringex.md">WdmlibRtlInitUnicodeStringEx</a>
-
-
-
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+
+
+<a href="..\wdmsec\nf-wdmsec-wdmlibrtlinitunicodestringex.md">WdmlibRtlInitUnicodeStringEx</a>
 
 
 
@@ -136,5 +137,6 @@ You can use <b>RTL_CONSTANT_STRING</b> to initialize global variables.
  
 
  
+
 
 

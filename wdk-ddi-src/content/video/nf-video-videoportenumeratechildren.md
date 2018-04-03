@@ -7,7 +7,7 @@ old-location: display\videoportenumeratechildren.htm
 old-project: display
 ms.assetid: 41f081f3-4079-46f8-9d22-76a2d9e992b5
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: VideoPortEnumerateChildren, VideoPortEnumerateChildren function [Display Devices], VideoPort_Functions_8bc790f2-319f-41a6-9bf7-02a8605d2cc1.xml, display.videoportenumeratechildren, video/VideoPortEnumerateChildren
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Videoprt.sys
 api_name:
 -	VideoPortEnumerateChildren
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
 req.product: Windows 10 or later.
@@ -51,17 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>VideoPortEnumerateChildren</b> function allows a video miniport driver to force a reenumeration of its child devices.
-
-
-## -syntax
-
-
-````
-VP_STATUS VideoPortEnumerateChildren(
-  _In_       PVOID HwDeviceExtension,
-  _Reserved_ PVOID Reserved
-);
-````
 
 
 ## -parameters
@@ -100,7 +90,7 @@ New hardware is connected, which generates an interrupt.
 
 </li>
 <li>
-The miniport driver's interrupt handler (<a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a>) queues a DPC routine (<a href="..\video\nc-video-pminiport_dpc_routine.md">HwVidDpcRoutine</a>) by calling <a href="..\video\nf-video-videoportqueuedpc.md">VideoPortQueueDpc</a>.
+The miniport driver's interrupt handler (<a href="https://msdn.microsoft.com/523471e3-cf1e-48d2-b5f0-2f8d19ad71e0">HwVidInterrupt</a>) queues a DPC routine (<a href="https://msdn.microsoft.com/d4b443a2-3665-4e7c-b84a-5388a8fe8681">HwVidDpcRoutine</a>) by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff570339">VideoPortQueueDpc</a>.
 
 </li>
 <li>
@@ -108,31 +98,30 @@ The asynchronously executed DPC contains a call to <b>VideoPortEnumerateChildren
 
 </li>
 </ul>
-<b>VideoPortEnumerateChildren</b> causes <a href="..\video\nc-video-pvideo_hw_get_child_descriptor.md">HwVidGetVideoChildDescriptor</a> to be called, allowing the Plug and Play Manager to enumerate all of the adapter's child devices.
+<b>VideoPortEnumerateChildren</b> causes <a href="https://msdn.microsoft.com/175030c1-95d9-4a3b-976c-16e04852cb91">HwVidGetVideoChildDescriptor</a> to be called, allowing the Plug and Play Manager to enumerate all of the adapter's child devices.
 
 
 
 
 ## -see-also
 
-<a href="..\video\nc-video-pminiport_dpc_routine.md">HwVidDpcRoutine</a>
 
 
 
-<a href="..\video\nf-video-videoportqueuedpc.md">VideoPortQueueDpc</a>
+<a href="https://msdn.microsoft.com/d4b443a2-3665-4e7c-b84a-5388a8fe8681">HwVidDpcRoutine</a>
 
 
 
-<a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a>
+<a href="https://msdn.microsoft.com/175030c1-95d9-4a3b-976c-16e04852cb91">HwVidGetVideoChildDescriptor</a>
 
 
 
-<a href="..\video\nc-video-pvideo_hw_get_child_descriptor.md">HwVidGetVideoChildDescriptor</a>
+<a href="https://msdn.microsoft.com/523471e3-cf1e-48d2-b5f0-2f8d19ad71e0">HwVidInterrupt</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570339">VideoPortQueueDpc</a>
  
 
  
-
 

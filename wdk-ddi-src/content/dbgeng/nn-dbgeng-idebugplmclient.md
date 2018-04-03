@@ -7,7 +7,7 @@ old-location: debugger\idebugplmclient.htm
 old-project: debugger
 ms.assetid: 2D713354-4C93-4DC1-A3E9-7E6BC991FD08
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: IDebugPlmClient, IDebugPlmClient interface [Windows Debugging], IDebugPlmClient interface [Windows Debugging], described, dbgeng/IDebugPlmClient, debugger.idebugplmclient
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugPlmClient
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---

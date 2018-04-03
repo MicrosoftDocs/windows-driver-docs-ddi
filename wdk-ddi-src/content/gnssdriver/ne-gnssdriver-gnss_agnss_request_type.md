@@ -3,12 +3,12 @@ UID: NE:gnssdriver.GNSS_AGNSS_REQUEST_TYPE
 title: GNSS_AGNSS_REQUEST_TYPE
 author: windows-driver-content
 description: This enumeration indicates the type of AGNSS injection request represented by the GNSS_AGNSS_REQUEST_PARAM structure.
-old-location: gnss\gnss_agnss_request_type.htm
-old-project: gnss
+old-location: sensors\gnss_agnss_request_type.htm
+old-project: sensors
 ms.assetid: 31293354-D68B-475F-91BD-0504129207A5
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: GNSS_AGNSS_BlobInjection, GNSS_AGNSS_PositionInjection, GNSS_AGNSS_REQUEST_TYPE, GNSS_AGNSS_REQUEST_TYPE enumeration [Sensor Devices], GNSS_AGNSS_TimeInjection, gnss.gnss_agnss_request_type, gnssdriver/GNSS_AGNSS_BlobInjection, gnssdriver/GNSS_AGNSS_PositionInjection, gnssdriver/GNSS_AGNSS_REQUEST_TYPE, gnssdriver/GNSS_AGNSS_TimeInjection
+ms.date: 2/22/2018
+ms.keywords: GNSS_AGNSS_BlobInjection, GNSS_AGNSS_PositionInjection, GNSS_AGNSS_REQUEST_TYPE, GNSS_AGNSS_REQUEST_TYPE enumeration [Sensor Devices], GNSS_AGNSS_TimeInjection, gnssdriver/GNSS_AGNSS_BlobInjection, gnssdriver/GNSS_AGNSS_PositionInjection, gnssdriver/GNSS_AGNSS_REQUEST_TYPE, gnssdriver/GNSS_AGNSS_TimeInjection, sensors.gnss_agnss_request_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -38,7 +38,8 @@ api_location:
 -	gnssdriver.h
 api_name:
 -	GNSS_AGNSS_REQUEST_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GNSS_AGNSS_REQUEST_TYPE
 ---
@@ -49,19 +50,7 @@ req.typenames: GNSS_AGNSS_REQUEST_TYPE
 ## -description
 
 
-This enumeration indicates the type of AGNSS injection request represented by the <a href="..\gnssdriver\ns-gnssdriver-gnss_agnss_request_param.md">GNSS_AGNSS_REQUEST_PARAM</a> structure.
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  GNSS_AGNSS_TimeInjection      = 0x01,
-  GNSS_AGNSS_PositionInjection  = 0x02,
-  GNSS_AGNSS_BlobInjection      = 0x03
-} GNSS_AGNSS_REQUEST_TYPE;
-````
+This enumeration indicates the type of AGNSS injection request represented by the <a href="https://msdn.microsoft.com/library/windows/hardware/dn925096">GNSS_AGNSS_REQUEST_PARAM</a> structure.
 
 
 ## -enum-fields

@@ -7,7 +7,7 @@ old-location: storage\iscsi_discoveredtargetportal.htm
 old-project: storage
 ms.assetid: af5d0ad6-a035-4291-9390-889fdc3429ee
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PISCSI_DiscoveredTargetPortal, ISCSI_DiscoveredTargetPortal, ISCSI_DiscoveredTargetPortal structure [Storage Devices], PISCSI_DiscoveredTargetPortal, PISCSI_DiscoveredTargetPortal structure pointer [Storage Devices], _ISCSI_DiscoveredTargetPortal, iscsifnd/ISCSI_DiscoveredTargetPortal, iscsifnd/PISCSI_DiscoveredTargetPortal, storage.iscsi_discoveredtargetportal, structs-iSCSI_956c4a5b-9f37-4b76-b2e8-d8feedaddcf0.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	iscsifnd.h
 api_name:
 -	ISCSI_DiscoveredTargetPortal
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: ISCSI_DiscoveredTargetPortal, *PISCSI_DiscoveredTargetPortal
 ---
@@ -50,18 +51,6 @@ req.typenames: ISCSI_DiscoveredTargetPortal, *PISCSI_DiscoveredTargetPortal
 
 
 The ISCSI_DiscoveredTargetPortal structure provides information that is associated with a discovered target portal. 
-
-
-## -syntax
-
-
-````
-typedef struct _ISCSI_DiscoveredTargetPortal {
-  USHORT           Socket;
-  ISCSI_IP_Address Address;
-  WCHAR            SymbolicName[256 + 1];
-} ISCSI_DiscoveredTargetPortal, *PISCSI_DiscoveredTargetPortal;
-````
 
 
 ## -struct-fields
@@ -95,11 +84,6 @@ The WMI tool suite automatically generates a declaration of the ISCSI_Discovered
 
 ## -see-also
 
-<a href="..\iscsidef\ns-iscsidef-_iscsi_targetportal.md">ISCSI_TargetPortal</a>
-
-
-
-<a href="..\iscsifnd\ns-iscsifnd-_iscsi_discoveredtargetportal2.md">ISCSI_DiscoveredTargetPortal2</a>
 
 
 
@@ -107,8 +91,12 @@ The WMI tool suite automatically generates a declaration of the ISCSI_Discovered
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561511">ISCSI_DiscoveredTargetPortal2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561574">ISCSI_TargetPortal</a>
  
 
  
-
 

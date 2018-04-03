@@ -7,7 +7,7 @@ old-location: kernel\file_object.htm
 old-project: kernel
 ms.assetid: fa87a3e8-97d2-48c0-9722-2be011d145dd
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*PFILE_OBJECT, *PLOG_FILE_OBJECT, FILE_OBJECT, FILE_OBJECT structure [Kernel-Mode Driver Architecture], LOG_FILE_OBJECT, LOG_FILE_OBJECT structure [Kernel-Mode Driver Architecture], PFILE_OBJECT, PFILE_OBJECT structure pointer [Kernel-Mode Driver Architecture], _FILE_OBJECT, kernel.file_object, kstruct_b_513d4c8b-8e8d-402f-836d-18e00767bd29.xml, wdm/FILE_OBJECT, wdm/LOG_FILE_OBJECT, wdm/PFILE_OBJECT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	FILE_OBJECT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FILE_OBJECT, *PFILE_OBJECT
 req.product: Windows 10 or later.
@@ -53,45 +54,6 @@ req.product: Windows 10 or later.
 The <b>FILE_OBJECT</b> structure is used by the system to represent a file object. To user-mode protected subsystems, a file object represents an open instance of a file, device, directory, or volume. To device and intermediate drivers, a file object usually represents a device object. To drivers in the file system stack, a file object usually represents a directory or file.
 
 A file object is partially opaque. Certain types of drivers, such as file system drivers and network transport drivers, use some of the fields of file objects.
-
-
-## -syntax
-
-
-````
-typedef struct _FILE_OBJECT {
-  CSHORT                            Type;
-  CSHORT                            Size;
-  PDEVICE_OBJECT                    DeviceObject;
-  PVPB                              Vpb;
-  PVOID                             FsContext;
-  PVOID                             FsContext2;
-  PSECTION_OBJECT_POINTERS          SectionObjectPointer;
-  PVOID                             PrivateCacheMap;
-  NTSTATUS                          FinalStatus;
-  struct _FILE_OBJECT  *RelatedFileObject;
-  BOOLEAN                           LockOperation;
-  BOOLEAN                           DeletePending;
-  BOOLEAN                           ReadAccess;
-  BOOLEAN                           WriteAccess;
-  BOOLEAN                           DeleteAccess;
-  BOOLEAN                           SharedRead;
-  BOOLEAN                           SharedWrite;
-  BOOLEAN                           SharedDelete;
-  ULONG                             Flags;
-  UNICODE_STRING                    FileName;
-  LARGE_INTEGER                     CurrentByteOffset;
-  __volatile ULONG                  Waiters;
-  __volatile ULONG                  Busy;
-  PVOID                             LastLock;
-  KEVENT                            Lock;
-  KEVENT                            Event;
-  __volatile PIO_COMPLETION_CONTEXT CompletionContext;
-  KSPIN_LOCK                        IrpListLock;
-  LIST_ENTRY                        IrpList;
-  __volatile PVOID                  FileObjectExtension;
-} FILE_OBJECT, *PFILE_OBJECT, LOG_FILE_OBJECT;
-````
 
 
 ## -struct-fields
@@ -125,7 +87,7 @@ Note that if the <b>Vpb</b> member is non-<b>NULL</b>, the file resides on a mou
 
 A pointer to whatever optional state a driver maintains about the file object; otherwise, 
       <b>NULL</b>. For file system drivers, this member <u>must</u> point to a 
-      <a href="..\ntifs\ns-ntifs-_fsrtl_advanced_fcb_header.md">FSRTL_ADVANCED_FCB_HEADER</a> header structure that is contained within a file-system-specific structure; otherwise system instability can result. Usually, this header structure is embedded in a file control block (FCB). However, on some file systems that support multiple data streams, such as NTFS, this header structure is a stream control block (SCB).
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff547334">FSRTL_ADVANCED_FCB_HEADER</a> header structure that is contained within a file-system-specific structure; otherwise system instability can result. Usually, this header structure is embedded in a file control block (FCB). However, on some file systems that support multiple data streams, such as NTFS, this header structure is a stream control block (SCB).
       
 
 <div class="alert"><b>Note</b>  In a WDM device stack, only the functional device object (FDO) can use the two context pointers. File system drivers share this member across multiple opens to the same data stream.</div>
@@ -284,7 +246,7 @@ The file associated with the file object was opened for sequential I/O operation
 <td>
 The file associated with the file object is cacheable. This flag should be set only by a file system 
           driver, and only if the <b>FsContext</b> member points to a valid 
-          <a href="..\ntifs\ns-ntifs-_fsrtl_advanced_fcb_header.md">FSRTL_ADVANCED_FCB_HEADER</a> structure.
+          <a href="https://msdn.microsoft.com/library/windows/hardware/ff547334">FSRTL_ADVANCED_FCB_HEADER</a> structure.
 
 </td>
 </tr>
@@ -505,8 +467,8 @@ Skip setting an event supplied to a system service when the fast I/O path is suc
 
 ### -field FileName
 
-A <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure whose <b>Buffer</b> member points to a read-only Unicode string that holds the name of the file opened on the volume. If the volume is being opened, the <b>Length</b> member of the 
-      <b>UNICODE_STRING</b> structure will be zero. Note that the file name in this string is valid only during the initial processing of an <a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a> request. This file name should <u>not</u> be considered valid after the file system starts to process the <b>IRP_MJ_CREATE</b> request. The storage for the string pointed to by the <b>Buffer</b> member of the <b>UNICODE_STRING</b> structure is allocated in paged system memory. For more information about obtaining a file name, see <a href="..\fltkernel\nf-fltkernel-fltgetfilenameinformation.md">FltGetFileNameInformation</a>.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure whose <b>Buffer</b> member points to a read-only Unicode string that holds the name of the file opened on the volume. If the volume is being opened, the <b>Length</b> member of the 
+      <b>UNICODE_STRING</b> structure will be zero. Note that the file name in this string is valid only during the initial processing of an <a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a> request. This file name should <u>not</u> be considered valid after the file system starts to process the <b>IRP_MJ_CREATE</b> request. The storage for the string pointed to by the <b>Buffer</b> member of the <b>UNICODE_STRING</b> structure is allocated in paged system memory. For more information about obtaining a file name, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff543032">FltGetFileNameInformation</a>.
 
 
 ### -field CurrentByteOffset
@@ -577,11 +539,11 @@ Drivers can use read-only members to acquire relevant information but must not m
 
 </li>
 </ul>
-During the processing of an <a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a> request, a file system driver calls the <a href="..\wdm\nf-wdm-iosetshareaccess.md">IoSetShareAccess</a> routine (if the client is the first to open the file) or the <a href="..\wdm\nf-wdm-iocheckshareaccess.md">IoCheckShareAccess</a> routine (for subsequent clients that want to share the file). <b>IoSetShareAccess</b> and <b>IoCheckShareAccess</b> update the <b>ReadAccess</b>, <b>WriteAccess</b>, and <b>DeleteAccess</b> members to indicate the access rights that are granted to the client if the client has exclusive access to the file. Additionally, <b>IoCheckShareAccess</b> updates the <b>SharedRead</b>, <b>SharedWrite</b>, and <b>SharedDelete</b> members to indicate the access rights that are simultaneously granted to two or more clients that share the file. If the driver for a device other than a file system has to monitor the access rights of clients, this driver typically stores access rights information in context buffers that are pointed to by the <b>FsContext</b> and <b>FsContext2</b> members.
+During the processing of an <a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a> request, a file system driver calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550324">IoSetShareAccess</a> routine (if the client is the first to open the file) or the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548341">IoCheckShareAccess</a> routine (for subsequent clients that want to share the file). <b>IoSetShareAccess</b> and <b>IoCheckShareAccess</b> update the <b>ReadAccess</b>, <b>WriteAccess</b>, and <b>DeleteAccess</b> members to indicate the access rights that are granted to the client if the client has exclusive access to the file. Additionally, <b>IoCheckShareAccess</b> updates the <b>SharedRead</b>, <b>SharedWrite</b>, and <b>SharedDelete</b> members to indicate the access rights that are simultaneously granted to two or more clients that share the file. If the driver for a device other than a file system has to monitor the access rights of clients, this driver typically stores access rights information in context buffers that are pointed to by the <b>FsContext</b> and <b>FsContext2</b> members.
 
-<div class="alert"><b>Note</b>  The type of object (for example, a file, directory, or volume) that a given file object represents cannot be determined by only examining the contents of the file object structure. For information about how to determine the type of object that a file object represents, see <a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>.</div>
+<div class="alert"><b>Note</b>  The type of object (for example, a file, directory, or volume) that a given file object represents cannot be determined by only examining the contents of the file object structure. For information about how to determine the type of object that a file object represents, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff567052">ZwQueryInformationFile</a>.</div>
 <div> </div>
-The Common Log File System (CLFS) uses the <b>LOG_FILE_OBJECT</b> structure to represent logs. The <a href="..\wdm\nf-wdm-clfscreatelogfile.md">ClfsCreateLogFile</a> function returns a pointer to a <b>LOG_FILE_OBJECT</b> structure, which clients then pass to other CLFS functions. 
+The Common Log File System (CLFS) uses the <b>LOG_FILE_OBJECT</b> structure to represent logs. The <a href="https://msdn.microsoft.com/library/windows/hardware/ff540792">ClfsCreateLogFile</a> function returns a pointer to a <b>LOG_FILE_OBJECT</b> structure, which clients then pass to other CLFS functions. 
 
 CLFS clients do not directly access the members of a <b>LOG_FILE_OBJECT</b> structure.
 
@@ -600,35 +562,10 @@ CLFS clients do not directly access the members of a <b>LOG_FILE_OBJECT</b> stru
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iogetdeviceobjectpointer.md">IoGetDeviceObjectPointer</a>
 
 
 
-<a href="..\ntifs\ns-ntifs-_fsrtl_advanced_fcb_header.md">FSRTL_ADVANCED_FCB_HEADER</a>
-
-
-
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
-
-
-
-<a href="..\wdm\nf-wdm-iocheckshareaccess.md">IoCheckShareAccess</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
-
-
-
-<a href="..\wdm\nf-wdm-iosetshareaccess.md">IoSetShareAccess</a>
-
-
-
-<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>
 
 
 
@@ -636,8 +573,32 @@ CLFS clients do not directly access the members of a <b>LOG_FILE_OBJECT</b> stru
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547334">FSRTL_ADVANCED_FCB_HEADER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548341">IoCheckShareAccess</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549198">IoGetDeviceObjectPointer</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550324">IoSetShareAccess</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557724">ObDereferenceObject</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567052">ZwQueryInformationFile</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: netvista\rilversionparams.htm
 old-project: netvista
 ms.assetid: c6931cee-2b86-4bf8-9e9d-b04e2df9eb12
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*LPRILVERSIONPARAMS, RILVERSIONPARAMS, RILVERSIONPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilversionparams, ntddrilapitypes/RILVERSIONPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILVERSIONPARAMS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILVERSIONPARAMS, *LPRILVERSIONPARAMS
 ---
@@ -50,17 +51,6 @@ req.typenames: RILVERSIONPARAMS, *LPRILVERSIONPARAMS
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef struct _RILVERSIONPARAMS {
-  WORD  Minor;
-  WORD  Major;
-} RILVERSIONPARAMS, RILVERSIONPARAMS;
-````
 
 
 ## -struct-fields

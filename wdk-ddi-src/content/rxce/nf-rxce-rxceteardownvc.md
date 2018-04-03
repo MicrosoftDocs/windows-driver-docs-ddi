@@ -7,7 +7,7 @@ old-location: ifsk\rxceteardownvc.htm
 old-project: ifsk
 ms.assetid: d4b3af4d-8bb2-42a4-a8d9-baa643a90418
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: RxCeTearDownVC, RxCeTearDownVC function [Installable File System Drivers], ifsk.rxceteardownvc, rxce/RxCeTearDownVC, rxref_12c4b02d-b629-4543-bf74-aeaa14f6f05d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	rxce.h
 api_name:
 -	RxCeTearDownVC
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILWRITEPHONEBOOKENTRYPARAMS, *LPRILWRITEPHONEBOOKENTRYPARAMS
 req.product: Windows 10 or later.
@@ -51,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 <b>RxCeTearDownVC</b> deregisters a virtual circuit from a specified RDBSS connection.
-
-
-## -syntax
-
-
-````
-NTSTATUS RxCeTearDownVC(
-  _In_ PRXCE_VC pVc
-);
-````
 
 
 ## -parameters
@@ -116,12 +107,11 @@ Note that <b>RxCeTearDownVC</b> will wait for the clean up of connections over o
 
 ## -see-also
 
-<a href="..\rxce\nf-rxce-rxcebuildvc.md">RxCeBuildVC</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553439">RxCeBuildVC</a>
  
 
  
-
 

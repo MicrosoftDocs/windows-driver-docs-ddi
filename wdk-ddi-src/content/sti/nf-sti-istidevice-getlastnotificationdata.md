@@ -38,7 +38,8 @@ api_location:
 -	sti.h
 api_name:
 -	IStiDevice.GetLastNotificationData
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STI_DEVICE_MJ_TYPE, STI_DEVICE_MJ_TYPE
 req.product: Windows 10 or later.
@@ -53,16 +54,6 @@ req.product: Windows 10 or later.
 The <b>IStiDevice::GetLastNotificationData</b> method returns a description of the most recent event that occurred on a still image device.
 
 
-## -syntax
-
-
-````
-HRESULT GetLastNotificationData(
-  [out] LPSTINOTIFY lpNotify
-);
-````
-
-
 ## -parameters
 
 
@@ -70,7 +61,7 @@ HRESULT GetLastNotificationData(
 
 ### -param lpNotify [out]
 
-Caller-supplied pointer to an <a href="..\sti\ns-sti-_stinotify.md">STINOTIFY</a> structure to receive event information.
+Caller-supplied pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff548350">STINOTIFY</a> structure to receive event information.
 
 
 ## -returns

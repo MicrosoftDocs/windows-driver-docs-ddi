@@ -38,7 +38,8 @@ api_location:
 -	printoem.h
 api_name:
 -	OEMOutputCharStr
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STDVARIABLEINDEX
 req.product: Windows 10 or later.
@@ -50,20 +51,6 @@ req.product: Windows 10 or later.
 ## -description
 
 
-
-
-## -syntax
-
-
-````
-VOID APIENTRY OEMOutputCharStr(
-       PDEVOBJ                pdevobj,
-       PUNIFONTOBJ            pUFObj,
-       DWORD                  dwType,
-       DWORD                  dwCount,
-  _In_ _reads_(dwCount) PVOID pGlyph
-);
-````
 
 
 ## -parameters

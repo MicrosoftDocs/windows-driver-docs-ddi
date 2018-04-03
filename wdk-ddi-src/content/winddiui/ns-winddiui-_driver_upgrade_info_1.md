@@ -38,7 +38,8 @@ api_location:
 -	winddiui.h
 api_name:
 -	DRIVER_UPGRADE_INFO_1
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DRIVER_UPGRADE_INFO_1, *PDRIVER_UPGRADE_INFO_1
 req.product: Windows 10 or later.
@@ -50,18 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The DRIVER_UPGRADE_INFO_1 structure is used as an input to a printer interface DLL's <a href="..\winddiui\nf-winddiui-drvupgradeprinter.md">DrvUpgradePrinter</a> function.
-
-
-## -syntax
-
-
-````
-typedef struct _DRIVER_UPGRADE_INFO_1 {
-  LPTSTR pPrinterName;
-  LPTSTR pOldDriverDirectory;
-} DRIVER_UPGRADE_INFO_1, *PDRIVER_UPGRADE_INFO_1;
-````
+The DRIVER_UPGRADE_INFO_1 structure is used as an input to a printer interface DLL's <a href="https://msdn.microsoft.com/library/windows/hardware/ff548648">DrvUpgradePrinter</a> function.
 
 
 ## -struct-fields
@@ -81,16 +71,15 @@ Pointer to a NULL-terminated string that specifies the local directory in which 
 
 ## -see-also
 
-<a href="..\winddiui\ns-winddiui-_driver_upgrade_info_2.md">DRIVER_UPGRADE_INFO_2</a>
 
 
 
-<a href="..\winddiui\nf-winddiui-drvupgradeprinter.md">DrvUpgradePrinter</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548527">DRIVER_UPGRADE_INFO_2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548648">DrvUpgradePrinter</a>
  
 
  
-
 

@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsEnableEventWithAllocator
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -53,23 +54,6 @@ req.typenames:
 The <b>KsEnableEventWithAllocator</b> function enables events requested through IOCTL_KS_ENABLE_EVENT but also allows an optional allocator callback to be used to provide a buffer for the parameters. It responds to all event identifiers defined by the sets. This function can only be called at PASSIVE_LEVEL.
 
 If used, the filter may need to free the buffer in some nonconventional manner. Note that the IRP_BUFFERED_IO and IRP_DEALLOCATE_BUFFER flags are not set when using a custom allocator.
-
-
-## -syntax
-
-
-````
-NTSTATUS KsEnableEventWithAllocator(
-  _In_           PIRP              Irp,
-  _In_           ULONG             EventSetsCount,
-  _In_     const KSEVENT_SET       *EventSet,
-  _Inout_        PLIST_ENTRY       EventsList,
-  _In_opt_       KSEVENTS_LOCKTYPE EventsFlags,
-  _In_opt_       PVOID             EventsLock,
-  _In_opt_       PFNKSALLOCATOR    Allocator,
-  _In_opt_       ULONG             EventItemSize
-);
-````
 
 
 ## -parameters
@@ -119,7 +103,7 @@ Optionally contains the size of each KSEVENT_ITEM structure in each list of even
 
 #### - EventsFlags [in, optional]
 
-Specifies <a href="..\ks\ne-ks-ksevents_locktype.md">KSEVENTS_LOCKTYPE</a> flags specifying the type of exclusion lock to be used in accessing the event list, if any. If no flag is set, then no lock is taken. If a handler is specified already, this parameter is ignored.
+Specifies <a href="https://msdn.microsoft.com/library/windows/hardware/ff561784">KSEVENTS_LOCKTYPE</a> flags specifying the type of exclusion lock to be used in accessing the event list, if any. If no flag is set, then no lock is taken. If a handler is specified already, this parameter is ignored.
 
 
 ## -returns

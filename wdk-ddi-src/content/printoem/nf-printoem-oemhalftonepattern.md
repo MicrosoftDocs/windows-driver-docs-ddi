@@ -38,7 +38,8 @@ api_location:
 -	printoem.h
 api_name:
 -	OEMHalftonePattern
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STDVARIABLEINDEX
 req.product: Windows 10 or later.
@@ -50,23 +51,6 @@ req.product: Windows 10 or later.
 ## -description
 
 
-
-
-## -syntax
-
-
-````
-BOOL APIENTRY OEMHalftonePattern(
-       PDEVOBJ                                 pdevobj,
-       PBYTE                                   pHTPattern,
-       DWORD                                   dwHTPatternX,
-       DWORD                                   dwHTPatternY,
-       DWORD                                   dwHTNumPatterns,
-       DWORD                                   dwCallbackID,
-  _In_ _reads_bytes_opt_(dwResourceSize) PBYTE pResource,
-       DWORD                                   dwResourceSize
-);
-````
 
 
 ## -parameters

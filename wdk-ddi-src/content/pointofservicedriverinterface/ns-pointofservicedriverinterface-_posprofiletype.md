@@ -38,7 +38,8 @@ api_location:
 -	PointOfServiceDriverInterface.h
 api_name:
 -	PosProfileType
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PosProfileType
 ---
@@ -50,17 +51,6 @@ req.typenames: PosProfileType
 
 
 This structure describes the number of profile strings in a buffer.
-
-
-## -syntax
-
-
-````
-typedef struct _PosProfileType {
-  UINT32 EntryCount;
-  UINT32 DataLength;
-} PosProfileType;
-````
 
 
 ## -struct-fields

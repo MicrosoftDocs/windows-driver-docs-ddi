@@ -7,7 +7,7 @@ old-location: ifsk\access_allowed_ace.htm
 old-project: ifsk
 ms.assetid: 20373863-0850-4ccf-b94a-7d252ad15d20
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: "*PACCESS_ALLOWED_ACE, ACCESS_ALLOWED_ACE, ACCESS_ALLOWED_ACE structure [Installable File System Drivers], PACCESS_ALLOWED_ACE, PACCESS_ALLOWED_ACE structure pointer [Installable File System Drivers], _ACCESS_ALLOWED_ACE, ifsk.access_allowed_ace, ntifs/ACCESS_ALLOWED_ACE, ntifs/PACCESS_ALLOWED_ACE, securitystructures_2dd3ec4a-0dc9-4268-8968-1a284b7124e6.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntifs.h
 api_name:
 -	ACCESS_ALLOWED_ACE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: ACCESS_ALLOWED_ACE
 ---
@@ -50,18 +51,6 @@ req.typenames: ACCESS_ALLOWED_ACE
 
 
 The ACCESS_ALLOWED_ACE structure defines an access-control entry (ACE) for the discretionary access-control list (DACL) that controls access to an object. An access-allowed ACE allows access to an object for a specific subject identified by a security identifier (SID). 
-
-
-## -syntax
-
-
-````
-typedef struct _ACCESS_ALLOWED_ACE {
-  ACE_HEADER  Header;
-  ACCESS_MASK Mask;
-  ULONG       SidStart;
-} ACCESS_ALLOWED_ACE, *PACCESS_ALLOWED_ACE;
-````
 
 
 ## -struct-fields
@@ -95,15 +84,14 @@ This structure must be aligned on a 32-bit boundary.
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538831">ACCESS_DENIED_ACE</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-rtladdaccessallowedace.md">RtlAddAccessAllowedAce</a>
-
-
-
-<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
 
 
 
@@ -111,28 +99,28 @@ This structure must be aligned on a 32-bit boundary.
 
 
 
-<a href="..\ntifs\ns-ntifs-_system_alarm_ace.md">SYSTEM_ALARM_ACE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538847">ACE_HEADER</a>
 
 
 
-<a href="..\ntifs\ns-ntifs-_system_audit_ace.md">SYSTEM_AUDIT_ACE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538866">ACL</a>
 
 
 
-<a href="..\ntifs\ns-ntifs-_ace_header.md">ACE_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552092">RtlAddAccessAllowedAce</a>
 
 
 
-<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a>
 
 
 
-<a href="..\ntifs\ns-ntifs-_access_denied_ace.md">ACCESS_DENIED_ACE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556769">SYSTEM_ALARM_ACE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556771">SYSTEM_AUDIT_ACE</a>
  
 
  
-
 

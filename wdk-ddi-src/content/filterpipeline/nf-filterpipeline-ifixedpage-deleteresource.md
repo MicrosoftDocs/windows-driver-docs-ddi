@@ -38,7 +38,8 @@ api_location:
 -	filterpipeline.h
 api_name:
 -	IFixedPage.DeleteResource
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
@@ -50,16 +51,6 @@ req.typenames: EXpsFontRestriction
 
 
 The <b>DeleteResource</b> method deletes a resource that is associated with the page.
-
-
-## -syntax
-
-
-````
-HRESULT DeleteResource(
-  [in] const wchar_t *uri
-);
-````
 
 
 ## -parameters

@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsAcquireDevice
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,16 +52,6 @@ req.typenames:
 
 
 The<b> KsAcquireDevice</b> function gains synchronous access for <i>Device</i> by acquiring the device mutex.
-
-
-## -syntax
-
-
-````
-void KsAcquireDevice(
-  _In_ PKSDEVICE Device
-);
-````
 
 
 ## -parameters
@@ -93,16 +84,15 @@ For more information, see <a href="https://msdn.microsoft.com/011edaaa-7449-41c3
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
 
 
 
-<a href="..\ks\nf-ks-ksreleasedevice.md">KsReleaseDevice</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561681">KSDEVICE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566783">KsReleaseDevice</a>
  
 
  
-
 

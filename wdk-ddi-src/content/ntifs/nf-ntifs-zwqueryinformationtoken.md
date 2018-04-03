@@ -7,7 +7,7 @@ old-location: kernel\zwqueryinformationtoken.htm
 old-project: kernel
 ms.assetid: 554b541b-943a-413e-9803-7dba17d0c6ce
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: NtQueryInformationToken, ZwQueryInformationToken, ZwQueryInformationToken routine [Kernel-Mode Driver Architecture], k111_2f945a17-f3b4-423a-90fa-6f02d240d42d.xml, kernel.zwqueryinformationtoken, ntifs/NtQueryInformationToken, ntifs/ZwQueryInformationToken
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	ZwQueryInformationToken
 -	NtQueryInformationToken
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -51,20 +52,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>ZwQueryInformationToken</b> routine retrieves a specified type of information about an access token. The calling process must have appropriate access rights to obtain the information. 
-
-
-## -syntax
-
-
-````
-NTSTATUS ZwQueryInformationToken(
-  _In_  HANDLE                  TokenHandle,
-  _In_  TOKEN_INFORMATION_CLASS TokenInformationClass,
-  _Out_ PVOID                   TokenInformation,
-  _In_  ULONG                   TokenInformationLength,
-  _Out_ PULONG                  ReturnLength
-);
-````
 
 
 ## -parameters
@@ -79,7 +66,7 @@ Handle for an access token from which information is to be retrieved. If <i>Toke
 
 ### -param TokenInformationClass [in]
 
-A value from the <a href="..\ntifs\ne-ntifs-_token_information_class.md">TOKEN_INFORMATION_CLASS</a> enumerated type identifying the type of information to be retrieved. The possible values for this parameter are listed in the <i>TokenInformationClass</i> Value column of the table shown in the description of the <i>TokenInformation</i> parameter.
+A value from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556838">TOKEN_INFORMATION_CLASS</a> enumerated type identifying the type of information to be retrieved. The possible values for this parameter are listed in the <i>TokenInformationClass</i> Value column of the table shown in the description of the <i>TokenInformation</i> parameter.
 
 
 ### -param TokenInformation [out]
@@ -97,7 +84,7 @@ Pointer to a caller-allocated buffer that receives the requested information abo
 
 </td>
 <td>
-The buffer receives a <a href="..\ntifs\ns-ntifs-_token_default_dacl.md">TOKEN_DEFAULT_DACL</a> structure containing the default <a href="..\wdm\ns-wdm-_acl.md">DACL</a> for newly created objects. 
+The buffer receives a <a href="https://msdn.microsoft.com/library/windows/hardware/ff556831">TOKEN_DEFAULT_DACL</a> structure containing the default <a href="https://msdn.microsoft.com/dac27df2-fabd-4402-8daf-9317888dd30b">DACL</a> for newly created objects. 
 
 </td>
 </tr>
@@ -107,7 +94,7 @@ The buffer receives a <a href="..\ntifs\ns-ntifs-_token_default_dacl.md">TOKEN_D
 
 </td>
 <td>
-The buffer receives a <a href="..\ntifs\ns-ntifs-_token_groups.md">TOKEN_GROUPS</a> structure containing the group accounts associated with the token.
+The buffer receives a <a href="https://msdn.microsoft.com/library/windows/hardware/ff556834">TOKEN_GROUPS</a> structure containing the group accounts associated with the token.
 
 </td>
 </tr>
@@ -117,7 +104,7 @@ The buffer receives a <a href="..\ntifs\ns-ntifs-_token_groups.md">TOKEN_GROUPS<
 
 </td>
 <td>
-The buffer receives a <a href="..\wudfddi\ne-wudfddi-_security_impersonation_level.md">SECURITY_IMPERSONATION_LEVEL</a> value indicating the impersonation level of the token. If the access token is not an impersonation token, the call to <b>ZwQueryInformationToken</b> fails. 
+The buffer receives a <a href="https://msdn.microsoft.com/library/windows/hardware/ff556631">SECURITY_IMPERSONATION_LEVEL</a> value indicating the impersonation level of the token. If the access token is not an impersonation token, the call to <b>ZwQueryInformationToken</b> fails. 
 
 </td>
 </tr>
@@ -127,7 +114,7 @@ The buffer receives a <a href="..\wudfddi\ne-wudfddi-_security_impersonation_lev
 
 </td>
 <td>
-The buffer receives a <a href="..\ntifs\ns-ntifs-_token_owner.md">TOKEN_OWNER</a> structure containing the default owner <a href="..\ntifs\ns-ntifs-_sid.md">SID</a> for newly created objects.
+The buffer receives a <a href="https://msdn.microsoft.com/library/windows/hardware/ff556842">TOKEN_OWNER</a> structure containing the default owner <a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a> for newly created objects.
 
 </td>
 </tr>
@@ -137,7 +124,7 @@ The buffer receives a <a href="..\ntifs\ns-ntifs-_token_owner.md">TOKEN_OWNER</a
 
 </td>
 <td>
-The buffer receives a <a href="..\ntifs\ns-ntifs-_token_primary_group.md">TOKEN_PRIMARY_GROUP</a> structure containing the default primary group SID for newly created objects. 
+The buffer receives a <a href="https://msdn.microsoft.com/library/windows/hardware/ff556845">TOKEN_PRIMARY_GROUP</a> structure containing the default primary group SID for newly created objects. 
 
 </td>
 </tr>
@@ -147,7 +134,7 @@ The buffer receives a <a href="..\ntifs\ns-ntifs-_token_primary_group.md">TOKEN_
 
 </td>
 <td>
-The buffer receives a <a href="..\ntifs\ns-ntifs-_token_privileges.md">TOKEN_PRIVILEGES</a> structure containing the token's privileges.
+The buffer receives a <a href="https://msdn.microsoft.com/library/windows/hardware/ff556846">TOKEN_PRIVILEGES</a> structure containing the token's privileges.
 
 </td>
 </tr>
@@ -167,7 +154,7 @@ The buffer receives a 32-bit value specifying the Terminal Services session iden
 
 </td>
 <td>
-The buffer receives a <a href="..\ntifs\ns-ntifs-_token_source.md">TOKEN_SOURCE</a> structure containing the source of the token. TOKEN_QUERY_SOURCE access is needed to retrieve this information.
+The buffer receives a <a href="https://msdn.microsoft.com/library/windows/hardware/ff556848">TOKEN_SOURCE</a> structure containing the source of the token. TOKEN_QUERY_SOURCE access is needed to retrieve this information.
 
 </td>
 </tr>
@@ -177,7 +164,7 @@ The buffer receives a <a href="..\ntifs\ns-ntifs-_token_source.md">TOKEN_SOURCE<
 
 </td>
 <td>
-The buffer receives a <a href="..\ntifs\ns-ntifs-_token_statistics.md">TOKEN_STATISTICS</a> structure containing various token statistics.
+The buffer receives a <a href="https://msdn.microsoft.com/library/windows/hardware/ff556849">TOKEN_STATISTICS</a> structure containing various token statistics.
 
 </td>
 </tr>
@@ -187,7 +174,7 @@ The buffer receives a <a href="..\ntifs\ns-ntifs-_token_statistics.md">TOKEN_STA
 
 </td>
 <td>
-The buffer receives a <a href="..\ntifs\ne-ntifs-_token_type.md">TOKEN_TYPE</a> value indicating whether the token is a primary or impersonation token. 
+The buffer receives a <a href="https://msdn.microsoft.com/library/windows/hardware/ff556851">TOKEN_TYPE</a> value indicating whether the token is a primary or impersonation token. 
 
 </td>
 </tr>
@@ -197,7 +184,7 @@ The buffer receives a <a href="..\ntifs\ne-ntifs-_token_type.md">TOKEN_TYPE</a> 
 
 </td>
 <td>
-The buffer receives a <a href="..\ntifs\ns-ntifs-_token_user.md">TOKEN_USER</a> structure containing the token's user account. 
+The buffer receives a <a href="https://msdn.microsoft.com/library/windows/hardware/ff556855">TOKEN_USER</a> structure containing the token's user account. 
 
 </td>
 </tr>
@@ -301,7 +288,7 @@ The size of the requested token information structure is greater than <i>TokenIn
 
 
 
-The <b>ZwQueryInformationToken</b> routine can be used by a file system or file system filter driver to determine the <a href="..\ntifs\ns-ntifs-_sid.md">SID</a> of the caller that initiated the request during <a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a> processing. If <b>TokenUser</b> is specified for the <i>TokenInformationClass</i> parameter passed to <b>ZwQueryInformationToken</b>, a <a href="..\ntifs\ns-ntifs-_token_user.md">TOKEN_USER</a> structure is returned in the buffer pointed to by the <i>TokenInformation</i> parameter. This returned buffer contains an <a href="..\ntifs\ns-ntifs-_sid_and_attributes.md">SID_AND_ATTRIBUTES</a> structure with the user <b>SID</b>.
+The <b>ZwQueryInformationToken</b> routine can be used by a file system or file system filter driver to determine the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a> of the caller that initiated the request during <a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a> processing. If <b>TokenUser</b> is specified for the <i>TokenInformationClass</i> parameter passed to <b>ZwQueryInformationToken</b>, a <a href="https://msdn.microsoft.com/library/windows/hardware/ff556855">TOKEN_USER</a> structure is returned in the buffer pointed to by the <i>TokenInformation</i> parameter. This returned buffer contains an <a href="https://msdn.microsoft.com/library/windows/hardware/ff556742">SID_AND_ATTRIBUTES</a> structure with the user <b>SID</b>.
 
 For more information about security and access control, see the documentation on these topics in the Windows SDK. 
 
@@ -314,71 +301,10 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_token_user.md">TOKEN_USER</a>
 
 
 
-<a href="..\ntifs\ne-ntifs-_token_information_class.md">TOKEN_INFORMATION_CLASS</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_token_privileges.md">TOKEN_PRIVILEGES</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-sequeryinformationtoken.md">SeQueryInformationToken</a>
-
-
-
-<a href="..\wudfddi\ne-wudfddi-_security_impersonation_level.md">SECURITY_IMPERSONATION_LEVEL</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_token_primary_group.md">TOKEN_PRIMARY_GROUP</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_token_statistics.md">TOKEN_STATISTICS</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_token_groups.md">TOKEN_GROUPS</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_sid_and_attributes.md">SID_AND_ATTRIBUTES</a>
-
-
-
-<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-zwsetinformationtoken.md">ZwSetInformationToken</a>
-
-
-
-<a href="..\ntifs\ne-ntifs-_token_type.md">TOKEN_TYPE</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_token_owner.md">TOKEN_OWNER</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_token_source.md">TOKEN_SOURCE</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_token_default_dacl.md">TOKEN_DEFAULT_DACL</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538866">ACL</a>
 
 
 
@@ -386,8 +312,68 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556631">SECURITY_IMPERSONATION_LEVEL</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556742">SID_AND_ATTRIBUTES</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556690">SeQueryInformationToken</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556831">TOKEN_DEFAULT_DACL</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556834">TOKEN_GROUPS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556838">TOKEN_INFORMATION_CLASS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556842">TOKEN_OWNER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556845">TOKEN_PRIMARY_GROUP</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556846">TOKEN_PRIVILEGES</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556848">TOKEN_SOURCE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556849">TOKEN_STATISTICS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556851">TOKEN_TYPE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556855">TOKEN_USER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567102">ZwSetInformationToken</a>
  
 
  
-
 

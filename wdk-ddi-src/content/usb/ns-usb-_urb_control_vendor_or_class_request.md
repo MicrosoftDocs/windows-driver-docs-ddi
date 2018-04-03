@@ -7,7 +7,7 @@ old-location: buses\_urb_control_vendor_or_class_request.htm
 old-project: usbref
 ms.assetid: 3d355489-cc70-4fa1-b08f-08ccf84f5490
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: USBD_SHORT_TRANSFER_OK, USBD_TRANSFER_DIRECTION_IN, _URB_CONTROL_VENDOR_OR_CLASS_REQUEST, _URB_CONTROL_VENDOR_OR_CLASS_REQUEST structure [Buses], buses._urb_control_vendor_or_class_request, usb/_URB_CONTROL_VENDOR_OR_CLASS_REQUEST, usbstrct_d0af3922-2ab9-480d-b508-d7b3ce850f53.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	usb.h
 api_name:
 -	_URB_CONTROL_VENDOR_OR_CLASS_REQUEST
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 req.product: Windows 10 or later.
@@ -53,28 +54,6 @@ req.product: Windows 10 or later.
 The <b>_URB_CONTROL_VENDOR_OR_CLASS_REQUEST</b> structure is used by USB client drivers to issue a vendor or class-specific command to a device, interface, endpoint, or other device-defined target.
 
 
-## -syntax
-
-
-````
-struct _URB_CONTROL_VENDOR_OR_CLASS_REQUEST {
-  struct URB_HEADER  Hdr;
-  PVOID               Reserved;
-  ULONG               TransferFlags;
-  ULONG               TransferBufferLength;
-  PVOID               TransferBuffer;
-  PMDL                TransferBufferMDL;
-  struct URB  *UrbLink;
-  struct URB_HCD_AREA  hca;
-  UCHAR               RequestTypeReservedBits;
-  UCHAR               Request;
-  USHORT              Value;
-  USHORT              Index;
-  USHORT              Reserved1;
-};
-````
-
-
 ## -struct-fields
 
 
@@ -82,7 +61,7 @@ struct _URB_CONTROL_VENDOR_OR_CLASS_REQUEST {
 
 ### -field Hdr
 
-Pointer to a <a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a> structure that specifies the URB header information. <b>Hdr.Function</b> must be one of URB_FUNCTION_CLASS_XXX or URB_FUNCTION_VENDOR_XXX GET_STATUS, and <b>Hdr.Length</b> must be <code>sizeof(_URB_CONTROL_VENDOR_OR_CLASS_REQUEST)</code>.
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540409">_URB_HEADER</a> structure that specifies the URB header information. <b>Hdr.Function</b> must be one of URB_FUNCTION_CLASS_XXX or URB_FUNCTION_VENDOR_XXX GET_STATUS, and <b>Hdr.Length</b> must be <code>sizeof(_URB_CONTROL_VENDOR_OR_CLASS_REQUEST)</code>.
 
 
 ### -field Reserved
@@ -116,7 +95,7 @@ Is set to request data from a device. To transfer data to a device, this flag mu
 </dl>
 </td>
 <td width="60%">
-Is set to direct the host controller not to return an error when it receives a packet from the device that is shorter than the maximum packet size for the endpoint. The maximum packet size for the endpoint is reported in the <b>bMaxPacketSize0</b> member  of the <a href="..\usbspec\ns-usbspec-_usb_device_descriptor.md">USB_DEVICE_DESCRIPTOR</a> structure (device descriptor) for the default control endpoint. For a non-default control endpoint,  maximum packet size  is set in the <b>wMaxPacketSize</b> member of the <a href="..\usbspec\ns-usbspec-_usb_endpoint_descriptor.md">USB_ENDPOINT_DESCRIPTOR</a> structure (endpoint descriptor).
+Is set to direct the host controller not to return an error when it receives a packet from the device that is shorter than the maximum packet size for the endpoint. The maximum packet size for the endpoint is reported in the <b>bMaxPacketSize0</b> member  of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539280">USB_DEVICE_DESCRIPTOR</a> structure (device descriptor) for the default control endpoint. For a non-default control endpoint,  maximum packet size  is set in the <b>wMaxPacketSize</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539317">USB_ENDPOINT_DESCRIPTOR</a> structure (endpoint descriptor).
 
 When the host controller receives a packet whose length is shorter than the <b>wMaxPacketSize</b> value on a control endpoint, the behavior is as follows depending on the type of host controller:<ul>
 <li>On EHCI host controllers, the host controller proceeds immediately to the status phase of the control transfer.  The transfer completes successfully, regardless of whether USBD_SHORT_TRANSFER_OK is set.
@@ -198,7 +177,10 @@ The reserved members of this structure must be treated as opaque and are reserve
 
 ## -see-also
 
-<a href="..\usb\ns-usb-_urb.md">URB</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538923">URB</a>
 
 
 
@@ -206,12 +188,8 @@ The reserved members of this structure must be treated as opaque and are reserve
 
 
 
-<a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540409">_URB_HEADER</a>
  
 
  
-
 

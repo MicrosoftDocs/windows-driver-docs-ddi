@@ -7,7 +7,7 @@ old-location: display\d3dddiarg_queryresourceresidency.htm
 old-project: display
 ms.assetid: 14c0cb12-3ed0-4c78-befa-6da9e8cd7dbc
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDIARG_QUERYRESOURCERESIDENCY, D3DDDIARG_QUERYRESOURCERESIDENCY structure [Display Devices], UMDisplayDriver_param_Structs_46a460d2-e511-43fd-9906-b9a47762f9a7.xml, _D3DDDIARG_QUERYRESOURCERESIDENCY, d3dumddi/D3DDDIARG_QUERYRESOURCERESIDENCY, display.d3dddiarg_queryresourceresidency
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	D3DDDIARG_QUERYRESOURCERESIDENCY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDIARG_QUERYRESOURCERESIDENCY
 ---
@@ -49,18 +50,7 @@ req.typenames: D3DDDIARG_QUERYRESOURCERESIDENCY
 ## -description
 
 
-The D3DDDIARG_QUERYRESOURCERESIDENCY structure describes a list of resources on which residency is verified through the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_queryresourceresidency.md">QueryResourceResidency</a> function. 
-
-
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_QUERYRESOURCERESIDENCY {
-  const HANDLE *pHandleList;
-  UINT         NumResources;
-} D3DDDIARG_QUERYRESOURCERESIDENCY;
-````
+The D3DDDIARG_QUERYRESOURCERESIDENCY structure describes a list of resources on which residency is verified through the <a href="https://msdn.microsoft.com/5b9a2a59-b2d1-468e-998b-902bc2a75cb3">QueryResourceResidency</a> function. 
 
 
 ## -struct-fields
@@ -80,12 +70,11 @@ typedef struct _D3DDDIARG_QUERYRESOURCERESIDENCY {
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_queryresourceresidency.md">QueryResourceResidency</a>
 
 
 
+<a href="https://msdn.microsoft.com/5b9a2a59-b2d1-468e-998b-902bc2a75cb3">QueryResourceResidency</a>
  
 
  
-
 

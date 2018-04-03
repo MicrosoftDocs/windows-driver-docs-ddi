@@ -7,7 +7,7 @@ old-location: netvista\rilcallinfodisconnectinitiator.htm
 old-project: netvista
 ms.assetid: df3c3cb9-583c-4a6e-9477-843067865418
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: RILCALLINFODISCONNECTINITIATOR, RILCALLINFODISCONNECTINITIATOR enumeration [Network Drivers Starting with Windows Vista], RIL_DISCINIT_LOCAL, RIL_DISCINIT_MAX, RIL_DISCINIT_REMOTE, netvista.rilcallinfodisconnectinitiator, ntddrilapitypes/RILCALLINFODISCONNECTINITIATOR, ntddrilapitypes/RIL_DISCINIT_LOCAL, ntddrilapitypes/RIL_DISCINIT_MAX, ntddrilapitypes/RIL_DISCINIT_REMOTE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILCALLINFODISCONNECTINITIATOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILCALLINFODISCONNECTINITIATOR
 ---
@@ -50,18 +51,6 @@ req.typenames: RILCALLINFODISCONNECTINITIATOR
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef enum _RILCALLINFODISCONNECTINITIATOR { 
-  RIL_DISCINIT_LOCAL,
-  RIL_DISCINIT_REMOTE,
-  RIL_DISCINIT_MAX
-} RILCALLINFODISCONNECTINITIATOR;
-````
 
 
 ## -enum-fields

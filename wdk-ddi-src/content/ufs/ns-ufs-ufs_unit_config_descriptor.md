@@ -7,7 +7,7 @@ old-location: storage\ufs_unit_config_descriptor.htm
 old-project: storage
 ms.assetid: 09CBAD0A-CBDC-464E-908C-BF142D515969
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PUFS_UNIT_CONFIG_DESCRIPTOR, PUFS_UNIT_CONFIG_DESCRIPTOR, PUFS_UNIT_CONFIG_DESCRIPTOR structure pointer [Storage Devices], UFS_UNIT_CONFIG_DESCRIPTOR, UFS_UNIT_CONFIG_DESCRIPTOR structure [Storage Devices], storage.ufs_unit_config_descriptor, ufs/PUFS_UNIT_CONFIG_DESCRIPTOR, ufs/UFS_UNIT_CONFIG_DESCRIPTOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ufs.h
 api_name:
 -	UFS_UNIT_CONFIG_DESCRIPTOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UFS_UNIT_CONFIG_DESCRIPTOR, *PUFS_UNIT_CONFIG_DESCRIPTOR
 req.product: Windows 10 or later.
@@ -50,26 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>UFS_UNIT_CONFIG_DESCRIPTOR</b> structure describes the user configurable parameters within the <a href="..\ufs\ns-ufs-ufs_config_descriptor.md">UFS_CONFIG_DESCRIPTOR</a>.
-
-
-## -syntax
-
-
-````
-typedef struct _UFS_UNIT_CONFIG_DESCRIPTOR {
-  UCHAR bLUEnable;
-  UCHAR bBootLunID;
-  UCHAR bLUWriteProtect;
-  UCHAR bMemoryType;
-  UCHAR dNumAllocUnits[4];
-  UCHAR bDataReliability;
-  UCHAR bLogicalBlockSize;
-  UCHAR bProvisioningType;
-  UCHAR wContextCapabilities[2];
-  UCHAR Reserved[3];
-} UFS_UNIT_CONFIG_DESCRIPTOR, *PUFS_UNIT_CONFIG_DESCRIPTOR;
-````
+The <b>UFS_UNIT_CONFIG_DESCRIPTOR</b> structure describes the user configurable parameters within the <a href="https://msdn.microsoft.com/B65A2268-6959-4630-97DA-C0CFD37D9174">UFS_CONFIG_DESCRIPTOR</a>.
 
 
 ## -struct-fields

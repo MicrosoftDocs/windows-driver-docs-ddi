@@ -38,7 +38,8 @@ api_location:
 -	Strmini.h
 api_name:
 -	STREAM_BUFFER_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STREAM_BUFFER_TYPE
 req.product: Windows 10 or later.
@@ -51,18 +52,6 @@ req.product: Windows 10 or later.
 
 
 This enumeration defines the buffer types for <a href="https://docs.microsoft.com/en-us/dotnet/core/rid-catalog">StreamClassGetPhysicalAddress</a>.
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  PerRequestExtension,
-  DmaBuffer,
-  SRBDataBuffer
-} STREAM_BUFFER_TYPE;
-````
 
 
 ## -enum-fields

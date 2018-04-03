@@ -38,7 +38,8 @@ api_location:
 -	prcomoem.h
 api_name:
 -	IPrintCoreHelperUni2
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
@@ -50,7 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The IPrintCoreHelperUni2 interface derives from the <a href="..\prcomoem\nn-prcomoem-iprintcorehelperuni.md">IPrintCoreHelperUni</a> interface and adds a method.
+The IPrintCoreHelperUni2 interface derives from the <a href="https://msdn.microsoft.com/e581d190-8185-45c1-80c7-ff8eb305360e">IPrintCoreHelperUni</a> interface and adds a method.
 
 
 ## -inheritance

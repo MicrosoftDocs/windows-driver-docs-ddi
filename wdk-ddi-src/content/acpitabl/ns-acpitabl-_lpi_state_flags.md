@@ -38,7 +38,8 @@ api_location:
 -	acpitabl.h
 api_name:
 -	LPI_STATE_FLAGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: LPI_STATE_FLAGS, *PLPI_STATE_FLAGS
 ---
@@ -50,21 +51,6 @@ req.typenames: LPI_STATE_FLAGS, *PLPI_STATE_FLAGS
 
 
 Defines LPI state flags, either as a structure or as an integer. 
-
-
-## -syntax
-
-
-````
-typedef union _LPI_STATE_FLAGS {
-  struct  {
-        ULONG Disabled:1;
-        ULONG CounterUnavailable:1;
-        ULONG Reserved:30;
-    };
-  ULONG  AsUlong;
-} LPI_STATE_FLAGS;
-````
 
 
 ## -struct-fields

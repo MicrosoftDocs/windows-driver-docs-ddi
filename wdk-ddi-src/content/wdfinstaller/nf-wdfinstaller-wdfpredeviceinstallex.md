@@ -39,7 +39,8 @@ api_location:
 -	N/A.dll
 api_name:
 -	WdfPreDeviceInstallEx
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_FILE_INFORMATION_CLASS, *PWDF_FILE_INFORMATION_CLASS
 req.product: Windows 10 or later.
@@ -54,18 +55,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF only]
 
 The co-installer's <b>WdfPreDeviceInstallEx</b> function performs any operations that the co-installer might require before a non-Plug and Play (PnP) driver's installer creates the driver's kernel-mode service. 
-
-
-## -syntax
-
-
-````
-ULONG WdfPreDeviceInstallEx(
-  _In_     LPCWSTR                          InfPath,
-  _In_opt_ LPCWSTR                          InfSectionName,
-  _In_     PWDF_COINSTALLER_INSTALL_OPTIONS ClientOptions
-);
-````
 
 
 ## -parameters
@@ -85,7 +74,7 @@ A pointer to a null-terminated wide-character string that contains the <i>Wdf-in
 
 ### -param ClientOptions [in]
 
-A pointer to a caller-allocated <a href="..\wdfinstaller\ns-wdfinstaller-_wdf_coinstaller_install_options.md">WDF_COINSTALLER_INSTALL_OPTIONS</a>-typed structure that contains driver-specified installation options. 
+A pointer to a caller-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff551241">WDF_COINSTALLER_INSTALL_OPTIONS</a>-typed structure that contains driver-specified installation options. 
 
 
 ## -returns
@@ -101,7 +90,7 @@ A pointer to a caller-allocated <a href="..\wdfinstaller\ns-wdfinstaller-_wdf_co
 
 
 
-The installer for the framework-based drivers of a non-PnP device must call <a href="..\wdfinstaller\nf-wdfinstaller-wdfpredeviceinstall.md">WdfPreDeviceInstall</a> or <b>WdfPreDeviceInstallEx</b> before the installer calls <b>CreateService</b>.
+The installer for the framework-based drivers of a non-PnP device must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff548835">WdfPreDeviceInstall</a> or <b>WdfPreDeviceInstallEx</b> before the installer calls <b>CreateService</b>.
 
 To obtain the address of the co-installer's <b>WdfPreDeviceInstallEx</b> function, the installer must call <b>GetProcAddress</b> after the installer has called <b>LoadLibrary</b> to load the co-installer.
 
@@ -109,11 +98,11 @@ If the co-installer determines that the computer must be restarted to complete t
 
 <ul>
 <li>
-If the installer sets the <i>ShowRebootPrompt</i> member of the <a href="..\wdfinstaller\ns-wdfinstaller-_wdf_coinstaller_install_options.md">WDF_COINSTALLER_INSTALL_OPTIONS</a> structure to <b>TRUE</b>, <b>WdfPreDeviceInstallEx</b> informs the PnP manager that the computer must be restarted, and the PnP manager prompts the user that a restart is necessary. Setting the <i>ShowRebootPrompt</i> member to <b>TRUE</b> is equivalent to calling <a href="..\wdfinstaller\nf-wdfinstaller-wdfpredeviceinstall.md">WdfPreDeviceInstall</a>.
+If the installer sets the <i>ShowRebootPrompt</i> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551241">WDF_COINSTALLER_INSTALL_OPTIONS</a> structure to <b>TRUE</b>, <b>WdfPreDeviceInstallEx</b> informs the PnP manager that the computer must be restarted, and the PnP manager prompts the user that a restart is necessary. Setting the <i>ShowRebootPrompt</i> member to <b>TRUE</b> is equivalent to calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff548835">WdfPreDeviceInstall</a>.
 
 </li>
 <li>
-If the installer sets the <i>ShowRebootPrompt</i> member of the <a href="..\wdfinstaller\ns-wdfinstaller-_wdf_coinstaller_install_options.md">WDF_COINSTALLER_INSTALL_OPTIONS</a> structure to <b>FALSE</b>, <b>WdfPreDeviceInstallEx</b> does not inform the PnP manager that a restart is necessary. Instead, the function returns <b>ERROR_SUCCESS_REBOOT_REQUIRED</b>. Your installer can determine when or whether to restart the computer, 
+If the installer sets the <i>ShowRebootPrompt</i> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551241">WDF_COINSTALLER_INSTALL_OPTIONS</a> structure to <b>FALSE</b>, <b>WdfPreDeviceInstallEx</b> does not inform the PnP manager that a restart is necessary. Instead, the function returns <b>ERROR_SUCCESS_REBOOT_REQUIRED</b>. Your installer can determine when or whether to restart the computer, 
 
 </li>
 </ul>
@@ -130,16 +119,15 @@ For a code example that uses the <b>WdfPreDeviceInstallEx</b> function, see the 
 
 ## -see-also
 
-<a href="..\wdfinstaller\nf-wdfinstaller-wdfpostdeviceinstall.md">WdfPostDeviceInstall</a>
 
 
 
-<a href="..\wdfinstaller\nf-wdfinstaller-wdfpredeviceinstall.md">WdfPreDeviceInstall</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548829">WdfPostDeviceInstall</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548835">WdfPreDeviceInstall</a>
  
 
  
-
 

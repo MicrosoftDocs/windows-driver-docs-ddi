@@ -1,0 +1,84 @@
+---
+UID: NC:d3dumddi.PFND3DDDI_SUBMITPRESENTBLTTOHWQUEUECB
+title: PFND3DDDI_SUBMITPRESENTBLTTOHWQUEUECB
+author: windows-driver-content
+description: 
+ms.assetid: e699bb81-9414-4396-a08b-11ae38b3d8c2
+ms.author: windowsdriverdev
+ms.date: 
+ms.topic: callback
+ms.prod: windows-hardware
+ms.technology: windows-devices
+req.header: d3dumddi.h
+req.include-header:
+req.target-type:
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.lib:
+req.dll:
+req.irql: 
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library: 
+topictype: 
+-	apiref
+apitype: 
+-	UserDefined
+apilocation: 
+-	d3dumddi.h
+apiname: 
+-	PFND3DDDI_SUBMITPRESENTBLTTOHWQUEUECB
+product: Windows
+targetos: Windows
+---
+
+# PFND3DDDI_SUBMITPRESENTBLTTOHWQUEUECB callback function
+
+## -description
+
+Implemented by the client driver to ... 
+
+## -prototype
+
+```
+//Declaration
+
+PFND3DDDI_SUBMITPRESENTBLTTOHWQUEUECB Pfnd3dddiSubmitpresentblttohwqueuecb; 
+
+// Definition
+
+HRESULT Pfnd3dddiSubmitpresentblttohwqueuecb 
+(
+	HANDLE hDevice
+	D3DDDICB_SUBMITPRESENTBLTTOHWQUEUE *
+)
+{...}
+
+PFND3DDDI_SUBMITPRESENTBLTTOHWQUEUECB 
+
+
+```
+
+## -parameters
+
+### -param hDevice: 
+### -param *: 
+
+
+
+## -returns
+
+Returns HRESULT that ...
+
+## -remarks
+
+Register your implementation of this callback function by setting the appropriate member of <!-- REPLACE ME --> and then calling <!-- REPLACE ME -->.
+
+
+## -see-also

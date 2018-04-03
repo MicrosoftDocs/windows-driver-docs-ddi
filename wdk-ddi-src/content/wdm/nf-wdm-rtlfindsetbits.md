@@ -7,7 +7,7 @@ old-location: kernel\rtlfindsetbits.htm
 old-project: kernel
 ms.assetid: 35add921-e5a2-4c18-83db-86150c43b034
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: RtlFindSetBits, RtlFindSetBits routine [Kernel-Mode Driver Architecture], k109_67665139-638f-4dc5-b0b4-db3782c1f294.xml, kernel.rtlfindsetbits, wdm/RtlFindSetBits
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	RtlFindSetBits
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
@@ -53,18 +54,6 @@ req.product: Windows 10 or later.
 The <b>RtlFindSetBits</b> routine searches for a range of set bits of a requested size within a bitmap. 
 
 
-## -syntax
-
-
-````
-ULONG RtlFindSetBits(
-  _In_ PRTL_BITMAP BitMapHeader,
-  _In_ ULONG       NumberToFind,
-  _In_ ULONG       HintIndex
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +61,7 @@ ULONG RtlFindSetBits(
 
 ### -param BitMapHeader [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563614">RTL_BITMAP</a> structure that describes the bitmap. This structure must have been initialized by the <a href="..\wdm\nf-wdm-rtlinitializebitmap.md">RtlInitializeBitMap</a> routine. 
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563614">RTL_BITMAP</a> structure that describes the bitmap. This structure must have been initialized by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561925">RtlInitializeBitMap</a> routine. 
 
 
 ### -param NumberToFind [in]
@@ -107,36 +96,35 @@ Callers of <b>RtlFindSetBits</b> must be running at IRQL &lt;= APC_LEVEL if the 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563614">RTL_BITMAP</a>
 
 
 
-<a href="..\wdm\nf-wdm-rtlinitializebitmap.md">RtlInitializeBitMap</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561745">RtlAreBitsSet</a>
 
 
 
-<a href="..\wdm\nf-wdm-rtlclearbits.md">RtlClearBits</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561763">RtlClearBits</a>
 
 
 
-<a href="..\wdm\nf-wdm-rtlfindclearbits.md">RtlFindClearBits</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561873">RtlFindClearBits</a>
 
 
 
-<a href="..\wdm\nf-wdm-rtlfindsetbitsandclear.md">RtlFindSetBitsAndClear</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561895">RtlFindSetBitsAndClear</a>
 
 
 
-<a href="..\wdm\nf-wdm-rtlnumberofsetbits.md">RtlNumberOfSetBits</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561925">RtlInitializeBitMap</a>
 
 
 
-<a href="..\wdm\nf-wdm-rtlarebitsset.md">RtlAreBitsSet</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562037">RtlNumberOfSetBits</a>
  
 
  
-
 

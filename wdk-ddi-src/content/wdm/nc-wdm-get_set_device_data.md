@@ -7,7 +7,7 @@ old-location: kernel\getbusdata.htm
 old-project: kernel
 ms.assetid: F5BDB3DF-6AC9-424E-BC69-27071F3D3820
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: GET_SET_DEVICE_DATA, GetBusData, GetBusData routine [Kernel-Mode Driver Architecture], drvr_interface_f4fd2eab-5924-4ffa-b39e-fd7e0f74e5df.xml, kernel.busgetdevicedata, kernel.getbusdata, wdm/GetBusData
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	wdm.h
 api_name:
 -	GetBusData
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
 req.product: Windows 10 or later.
@@ -53,23 +54,6 @@ req.product: Windows 10 or later.
 The <i>GetBusData</i> routine reads data from the device's configuration space. 
 
 
-## -prototype
-
-
-````
-GET_SET_DEVICE_DATA GetBusData;
-
-ULONG GetBusData(
-  _In_ PVOID Context,
-  _In_ ULONG DataType,
-  _In_ PVOID Buffer,
-  _In_ ULONG Offset,
-  _In_ ULONG Length
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -77,7 +61,7 @@ ULONG GetBusData(
 
 ### -param Context [in]
 
-A pointer to interface-specific context information. The caller passes the value that is passed as the <b>Context</b> member of the <a href="..\wdm\ns-wdm-_bus_interface_standard.md">BUS_INTERFACE_STANDARD</a> structure for the interface.
+A pointer to interface-specific context information. The caller passes the value that is passed as the <b>Context</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540707">BUS_INTERFACE_STANDARD</a> structure for the interface.
 
 
 ### -param DataType [in]
@@ -194,16 +178,15 @@ In order to read PCI Configuration data for the VF at IRQL = DISPATCH_LEVEL, the
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540707">BUS_INTERFACE_STANDARD</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551727">IRP_MN_READ_CONFIG</a>
-
-
-
-<a href="..\wdm\ns-wdm-_bus_interface_standard.md">BUS_INTERFACE_STANDARD</a>
-
-
-
  
 
  
-
 

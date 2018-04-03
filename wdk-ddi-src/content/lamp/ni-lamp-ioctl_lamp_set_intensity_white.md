@@ -38,7 +38,8 @@ api_location:
 -	lamp.h
 api_name:
 -	IOCTL_LAMP_SET_INTENSITY_WHITE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: LAMP_MODE
 ---
@@ -70,12 +71,12 @@ The <b>IOCTL_LAMP_SET_INTENSITY_WHITE</b>
 
 ### -input-buffer
 
-<code>Irp-&gt;AssociatedIrp.SystemBuffer</code> points to a <a href="..\lamp\ns-lamp-lamp_intensity_white.md">LAMP_INTENSITY_WHITE</a> structure.
+<code>Irp-&gt;AssociatedIrp.SystemBuffer</code> points to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn937006">LAMP_INTENSITY_WHITE</a> structure.
 
 
 ### -input-buffer-length
 
-Length of a <a href="..\lamp\ns-lamp-lamp_intensity_white.md">LAMP_INTENSITY_WHITE</a> structure.
+Length of a <a href="https://msdn.microsoft.com/library/windows/hardware/dn937006">LAMP_INTENSITY_WHITE</a> structure.
 
 
 ### -output-buffer

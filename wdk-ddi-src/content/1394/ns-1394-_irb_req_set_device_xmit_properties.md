@@ -38,7 +38,8 @@ api_location:
 -	1394.h
 api_name:
 -	IRB_REQ_SET_DEVICE_XMIT_PROPERTIES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: IRB_REQ_SET_DEVICE_XMIT_PROPERTIES
 ---
@@ -50,17 +51,6 @@ req.typenames: IRB_REQ_SET_DEVICE_XMIT_PROPERTIES
 
 
 This structure contains the fields necessary to carry out a SetDeviceXmitProperties request.
-
-
-## -syntax
-
-
-````
-typedef struct _IRB_REQ_SET_DEVICE_XMIT_PROPERTIES {
-  ULONG fulSpeed;
-  ULONG fulPriority;
-} IRB_REQ_SET_DEVICE_XMIT_PROPERTIES;
-````
 
 
 ## -struct-fields

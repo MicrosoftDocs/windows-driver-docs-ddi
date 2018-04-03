@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KsFilterReleaseControl
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -52,16 +53,6 @@ req.typenames:
 The<b> KsFilterReleaseControl </b>function releases the control mutex for the AVStream filter specified by <i>Filter</i>.
 
 
-## -syntax
-
-
-````
-void __inline KsFilterReleaseControl(
-  _In_ PKSFILTER Filter
-);
-````
-
-
 ## -parameters
 
 
@@ -69,7 +60,7 @@ void __inline KsFilterReleaseControl(
 
 ### -param Filter [in]
 
-A pointer to a <a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a> structure representing the AVStream filter for which to release the control mutex.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff562522">KSFILTER</a> structure representing the AVStream filter for which to release the control mutex.
 
 
 ## -returns
@@ -85,7 +76,7 @@ None
 
 
 
-This function is an inline call to <a href="..\ks\nf-ks-ksreleasecontrol.md">KsReleaseControl</a> with the appropriate typecasting. When manipulating a filter, minidrivers should call this function instead of calling <b>KsReleaseControl</b> directly.
+This function is an inline call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff566780">KsReleaseControl</a> with the appropriate typecasting. When manipulating a filter, minidrivers should call this function instead of calling <b>KsReleaseControl</b> directly.
 
 For a description of the filter control mutex, see <a href="https://msdn.microsoft.com/011edaaa-7449-41c3-8cfb-0d319901af8b">Mutexes in AVStream</a>.
 
@@ -94,16 +85,15 @@ For a description of the filter control mutex, see <a href="https://msdn.microso
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksreleasecontrol.md">KsReleaseControl</a>
 
 
 
-<a href="..\ks\nf-ks-ksfilteracquirecontrol.md">KsFilterAcquireControl</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562523">KsFilterAcquireControl</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566780">KsReleaseControl</a>
  
 
  
-
 

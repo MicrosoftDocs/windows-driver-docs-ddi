@@ -38,7 +38,8 @@ api_location:
 -	bthddi.h
 api_name:
 -	L2CAP_FLOWSPEC
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: L2CAP_FLOWSPEC, *PL2CAP_FLOWSPEC
 ---
@@ -50,22 +51,6 @@ req.typenames: L2CAP_FLOWSPEC, *PL2CAP_FLOWSPEC
 
 
 This structure reserved for future use.
-
-
-## -syntax
-
-
-````
-typedef struct _L2CAP_FLOWSPEC {
-  UCHAR Flags;
-  UCHAR ServiceType;
-  ULONG TokenRate;
-  ULONG TokenBucketSize;
-  ULONG PeakBandwidth;
-  ULONG Latency;
-  ULONG DelayVariation;
-} L2CAP_FLOWSPEC, *PL2CAP_FLOWSPEC;
-````
 
 
 ## -struct-fields

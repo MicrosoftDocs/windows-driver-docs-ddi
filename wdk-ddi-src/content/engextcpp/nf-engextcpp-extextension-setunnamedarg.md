@@ -7,7 +7,7 @@ old-location: debugger\setunnamedarg.htm
 old-project: debugger
 ms.assetid: cf518a6b-275f-4f9c-9aa8-e2e96c468ff9
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: EngExtCpp_Ref_662530e0-caca-43f0-8b46-b21c8a1f00da.xml, ExtExtension, ExtExtension class [Windows Debugging], SetUnnamedArg method, ExtExtension::SetUnnamedArg, SetUnnamedArg method [Windows Debugging], SetUnnamedArg method [Windows Debugging], ExtExtension class, SetUnnamedArg,ExtExtension.SetUnnamedArg, debugger.setunnamedarg
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Engextcpp.hpp
 api_name:
 -	ExtExtension.SetUnnamedArg
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 ---
@@ -52,19 +53,6 @@ req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 The <b>SetUnnamedArg</b> method sets an unnamed argument for the current extension command.
 
 
-## -syntax
-
-
-````
-bool SetUnnamedArg(
-  [in]           ULONG   Index,
-  [in, optional] PCSTR   StrArg,
-  [in]           ULONG64 NumArg,
-  [in]           bool    OnlyIfUnset
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +60,7 @@ bool SetUnnamedArg(
 
 ### -param Index [in]
 
-Specifies the index of the argument.  <i>Index</i> should be between zero and the number of unnamed arguments, as specified in the command-line description used in <a href="..\engextcpp\nf-engextcpp-ext_command.md">EXT_COMMAND</a>, minus one (unnamed arguments - 1).
+Specifies the index of the argument.  <i>Index</i> should be between zero and the number of unnamed arguments, as specified in the command-line description used in <a href="https://msdn.microsoft.com/library/windows/hardware/ff544514">EXT_COMMAND</a>, minus one (unnamed arguments - 1).
 
 
 ### -param StrArg [in, optional]
@@ -118,16 +106,15 @@ This method should only be called during the execution of an extension command p
 
 ## -see-also
 
-<a href="..\engextcpp\nf-engextcpp-ext_command.md">EXT_COMMAND</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544514">EXT_COMMAND</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543981">ExtExtension</a>
-
-
-
  
 
  
-
 

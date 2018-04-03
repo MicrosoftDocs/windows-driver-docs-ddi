@@ -7,7 +7,7 @@ old-location: debugger\extremotetyped_gettypesize.htm
 old-project: debugger
 ms.assetid: 0b681f00-6cec-4598-abee-e9a97bd53582
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: EngExtCpp_Ref_a0708ab0-c6c3-441a-958d-7f26fad32869.xml, ExtRemoteTyped, ExtRemoteTyped interface [Windows Debugging], GetTypeSize method, ExtRemoteTyped::GetTypeSize, GetTypeSize method [Windows Debugging], GetTypeSize method [Windows Debugging], ExtRemoteTyped interface, GetTypeSize,ExtRemoteTyped.GetTypeSize, debugger.extremotetyped_gettypesize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	engextcpp.hpp
 api_name:
 -	ExtRemoteTyped.GetTypeSize
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 ---
@@ -50,14 +51,6 @@ req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 
 
 The <b>GetTypeSize</b> method returns the size of the type represented by this object.
-
-
-## -syntax
-
-
-````
-ULONG GetTypeSize();
-````
 
 
 ## -parameters
@@ -78,16 +71,15 @@ ULONG GetTypeSize();
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544162">ExtRemoteTyped</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549457">GetTypeSize</a>
-
-
-
-<a href="..\engextcpp\nl-engextcpp-extremotetyped.md">ExtRemoteTyped</a>
-
-
-
  
 
  
-
 

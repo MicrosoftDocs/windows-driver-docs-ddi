@@ -7,7 +7,7 @@ old-location: display\evt_idd_cx_monitor_opm_get_certificate.htm
 old-project: display
 ms.assetid: f1a3882e-7d45-4634-ae1d-fb8102716f36
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: EVT_IDD_CX_MONITOR_OPM_GET_CERTIFICATE, EvtIddCxMonitorOpmGetCertificate, EvtIddCxMonitorOpmGetCertificate callback function [Display Devices], PFN_IDD_CX_MONITOR_OPM_GET_CERTIFICATE, PFN_IDD_CX_MONITOR_OPM_GET_CERTIFICATE callback function pointer [Display Devices], display.evt_idd_cx_monitor_opm_get_certificate, iddcx/EvtIddCxMonitorOpmGetCertificate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	iddcx.h
 api_name:
 -	PFN_IDD_CX_MONITOR_OPM_GET_CERTIFICATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WCS_PROFILE_MANAGEMENT_SCOPE
 ---
@@ -50,22 +51,6 @@ req.typenames: WCS_PROFILE_MANAGEMENT_SCOPE
 
 
 <b>EVT_IDD_CX_MONITOR_OPM_GET_CERTIFICATE</b> is called by the OS to get an OPM certificate.
-
-
-## -prototype
-
-
-````
-EVT_IDD_CX_MONITOR_OPM_GET_CERTIFICATE EvtIddCxMonitorOpmGetCertificate;
-
-NTSTATUS EvtIddCxMonitorOpmGetCertificate(
-  _In_       IDDCX_ADAPTER                 AdapterObject,
-  _In_ const IDARG_IN_OPM_GET_CERTIFICATE* pInArgs
-)
-{ ... }
-
-typedef EVT_IDD_CX_MONITOR_OPM_GET_CERTIFICATE PFN_IDD_CX_MONITOR_OPM_GET_CERTIFICATE;
-````
 
 
 ## -parameters

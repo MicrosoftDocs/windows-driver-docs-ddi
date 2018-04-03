@@ -7,7 +7,7 @@ old-location: audio\sysaudio_instance_info.htm
 old-project: audio
 ms.assetid: 3468b29d-e62c-46b4-b95e-06df846ebd81
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/19/2018
 ms.keywords: "*PSYSAUDIO_INSTANCE_INFO, PSYSAUDIO_INSTANCE_INFO, PSYSAUDIO_INSTANCE_INFO structure pointer [Audio Devices], SYSAUDIO_INSTANCE_INFO, SYSAUDIO_INSTANCE_INFO structure [Audio Devices], aud-prop_dd4269d6-0f6e-476a-a4d3-ea71f3b9a96a.xml, audio.sysaudio_instance_info, ksmedia/PSYSAUDIO_INSTANCE_INFO, ksmedia/SYSAUDIO_INSTANCE_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	SYSAUDIO_INSTANCE_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SYSAUDIO_INSTANCE_INFO, *PSYSAUDIO_INSTANCE_INFO
 ---
@@ -50,18 +51,6 @@ req.typenames: SYSAUDIO_INSTANCE_INFO, *PSYSAUDIO_INSTANCE_INFO
 
 
 The SYSAUDIO_INSTANCE_INFO structure specifies which virtual audio device to open and includes flags for configuring that device.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  KSPROPERTY Property;
-  ULONG      Flags;
-  ULONG      DeviceNumber;
-} SYSAUDIO_INSTANCE_INFO, *PSYSAUDIO_INSTANCE_INFO;
-````
 
 
 ## -struct-fields
@@ -101,6 +90,9 @@ This property is similar to <a href="https://msdn.microsoft.com/library/windows/
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
 
 
@@ -109,16 +101,12 @@ This property is similar to <a href="https://msdn.microsoft.com/library/windows/
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537427">KSPROPERTY_SYSAUDIO_INSTANCE_INFO</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537423">KSPROPERTY_SYSAUDIO_DEVICE_INSTANCE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537427">KSPROPERTY_SYSAUDIO_INSTANCE_INFO</a>
  
 
  
-
 

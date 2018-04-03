@@ -2,7 +2,7 @@
 UID: TP:parports
 ms.assetid: 38f4cf0c-2fc1-3909-83b7-bf354cf904c1
 ms.author: windowsdriverdev
-ms.date: 03/13/18
+ms.date: 04/03/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -11,6 +11,7 @@ ms.topic: portal
 
 # Parallel Ports
 
+## -description
 
 Overview of the Parallel Ports technology.
 

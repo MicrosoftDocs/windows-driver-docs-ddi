@@ -7,7 +7,7 @@ old-location: display\dxgkarg_releaseswizzlingrange.htm
 old-project: display
 ms.assetid: f7d1af11-c360-4f7f-a47a-cf7a182b2b78
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKARG_RELEASESWIZZLINGRANGE, DXGKARG_RELEASESWIZZLINGRANGE structure [Display Devices], DmStructs_7ed7a86e-7376-47a8-8198-9c991005fd0a.xml, _DXGKARG_RELEASESWIZZLINGRANGE, d3dkmddi/DXGKARG_RELEASESWIZZLINGRANGE, display.dxgkarg_releaseswizzlingrange
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGKARG_RELEASESWIZZLINGRANGE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGKARG_RELEASESWIZZLINGRANGE
 ---
@@ -52,18 +53,6 @@ req.typenames: DXGKARG_RELEASESWIZZLINGRANGE
 The DXGKARG_RELEASESWIZZLINGRANGE structure describes parameters for releasing a swizzling range.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGKARG_RELEASESWIZZLINGRANGE {
-  HANDLE hAllocation;
-  UINT   PrivateDriverData;
-  UINT   RangeId;
-} DXGKARG_RELEASESWIZZLINGRANGE;
-````
-
-
 ## -struct-fields
 
 
@@ -71,35 +60,34 @@ typedef struct _DXGKARG_RELEASESWIZZLINGRANGE {
 
 ### -field hAllocation
 
-[in] A handle to the allocation that the display miniport driver assigns and that is returned through the driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a> function.
+[in] A handle to the allocation that the display miniport driver assigns and that is returned through the driver's <a href="https://msdn.microsoft.com/a28287d6-4dfa-4db4-92df-bbcd9379a5b2">DxgkDdiCreateAllocation</a> function.
 
 
 ### -field PrivateDriverData
 
-[in] The 32 bits of private data that the user-mode display driver sent when the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_acquireswizzlingrange.md">DxgkDdiAcquireSwizzlingRange</a> function was called to acquire the swizzling range.
+[in] The 32 bits of private data that the user-mode display driver sent when the display miniport driver's <a href="https://msdn.microsoft.com/f861e055-70db-4e0a-9c62-87e2d41f92ae">DxgkDdiAcquireSwizzlingRange</a> function was called to acquire the swizzling range.
 
 
 ### -field RangeId
 
-[in] The zero-based identifier of the swizzling range that the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_releaseswizzlingrange.md">DxgkDdiReleaseSwizzlingRange</a> function releases.
+[in] The zero-based identifier of the swizzling range that the <a href="https://msdn.microsoft.com/6c583a48-baa4-429f-b2fc-5f86859617cc">DxgkDdiReleaseSwizzlingRange</a> function releases.
 
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_releaseswizzlingrange.md">DxgkDdiReleaseSwizzlingRange</a>
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_acquireswizzlingrange.md">DxgkDdiAcquireSwizzlingRange</a>
+<a href="https://msdn.microsoft.com/f861e055-70db-4e0a-9c62-87e2d41f92ae">DxgkDdiAcquireSwizzlingRange</a>
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a>
+<a href="https://msdn.microsoft.com/a28287d6-4dfa-4db4-92df-bbcd9379a5b2">DxgkDdiCreateAllocation</a>
 
 
 
+<a href="https://msdn.microsoft.com/6c583a48-baa4-429f-b2fc-5f86859617cc">DxgkDdiReleaseSwizzlingRange</a>
  
 
  
-
 

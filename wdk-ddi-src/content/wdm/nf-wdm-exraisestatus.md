@@ -7,7 +7,7 @@ old-location: kernel\exraisestatus.htm
 old-project: kernel
 ms.assetid: eefbec75-f441-492b-becb-98434253dd62
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: ExRaiseStatus, ExRaiseStatus routine [Kernel-Mode Driver Architecture], k102_b188a166-f1f1-49bd-8195-aa72f86ca177.xml, kernel.exraisestatus, wdm/ExRaiseStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	ExRaiseStatus
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
@@ -51,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>ExRaiseStatus</b> routine is called by drivers that supply structured exception handlers to handle particular errors that occur while they are processing I/O requests.
-
-
-## -syntax
-
-
-````
-VOID ExRaiseStatus(
-  _In_ NTSTATUS Status
-);
-````
 
 
 ## -parameters
@@ -93,24 +84,23 @@ Highest-level drivers, particularly file systems, can call <b>ExRaiseStatus</b>.
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-exraiseaccessviolation.md">ExRaiseAccessViolation</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-exraisedatatypemisalignment.md">ExRaiseDatatypeMisalignment</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545509">ExRaiseAccessViolation</a>
 
 
 
-<a href="..\wdm\nf-wdm-ioallocateerrorlogentry.md">IoAllocateErrorLogEntry</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545524">ExRaiseDatatypeMisalignment</a>
 
 
 
-<a href="..\wdm\nf-wdm-kebugcheckex.md">KeBugCheckEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548245">IoAllocateErrorLogEntry</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551961">KeBugCheckEx</a>
  
 
  
-
 

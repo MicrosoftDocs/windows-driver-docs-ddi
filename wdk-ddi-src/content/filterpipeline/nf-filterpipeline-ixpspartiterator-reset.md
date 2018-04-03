@@ -38,7 +38,8 @@ api_location:
 -	Filterpipeline.h
 api_name:
 -	IXpsPartIterator.Reset
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
@@ -50,16 +51,6 @@ req.typenames: EXpsFontRestriction
 
 
 The <code>Reset</code> method sets the iterator to the first element.
-
-
-## -syntax
-
-
-````
-void STDMETHODCALLTYPE Reset(
-    None
-);
-````
 
 
 ## -parameters

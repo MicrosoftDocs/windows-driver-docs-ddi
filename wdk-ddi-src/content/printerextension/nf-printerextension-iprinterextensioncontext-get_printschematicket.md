@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	IPrinterExtensionContext.PrintSchemaTicket
 -	IPrinterExtensionContext.get_PrintSchemaTicket
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PrintSchemaSelectionType
 req.product: Windows 10 or later.
@@ -56,31 +57,20 @@ Gets the print ticket that is appropriate for the queue and the activation.
 This property is read-only.
 
 
-## -syntax
-
-
-````
-HRESULT get_PrintSchemaTicket(
-  [out, retval] IPrintSchemaTicket **ppTicket
-);
-````
-
-
 ## -parameters
 
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintschematicket.md">IPrintSchemaTicket</a>
 
 
 
-<a href="..\printerextension\nn-printerextension-iprinterextensioncontext.md">IPrinterExtensionContext</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451398">IPrintSchemaTicket</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406649">IPrinterExtensionContext</a>
  
 
  
-
 

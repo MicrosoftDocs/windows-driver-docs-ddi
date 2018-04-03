@@ -38,7 +38,8 @@ api_location:
 -	filterpipeline.h
 api_name:
 -	IXpsDocument.GetThumbnail
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
@@ -50,16 +51,6 @@ req.typenames: EXpsFontRestriction
 
 
 The <code>GetThumbnail</code> method gets the document thumbnail object. 
-
-
-## -syntax
-
-
-````
-HRESULT GetThumbnail(
-  [out] IPartThumbnail **ppThumbnail
-);
-````
 
 
 ## -parameters

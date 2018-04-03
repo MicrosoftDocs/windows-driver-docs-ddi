@@ -7,7 +7,7 @@ old-location: display\dxgk_miracast_chunk_info.htm
 old-project: display
 ms.assetid: 4A5413AD-A2EB-4772-89BF-867C30E0CD10
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGK_MIRACAST_CHUNK_INFO, DXGK_MIRACAST_CHUNK_INFO structure [Display Devices], d3dukmdt/DXGK_MIRACAST_CHUNK_INFO, display.dxgk_miracast_chunk_info
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3dukmdt.h
 api_name:
 -	DXGK_MIRACAST_CHUNK_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_MIRACAST_CHUNK_INFO
 ---
@@ -52,19 +53,6 @@ req.typenames: DXGK_MIRACAST_CHUNK_INFO
 Contains info about a specified wireless display (Miracast) encode chunk.
 
 
-## -syntax
-
-
-````
-typedef struct {
-  DXGK_MIRACAST_CHUNK_TYPE ChunkType;
-  MIRACAST_CHUNK_ID        ChunkId;
-  UINT                     ProcessingTime;
-  UINT                     EncodeRate;
-} DXGK_MIRACAST_CHUNK_INFO;
-````
-
-
 ## -struct-fields
 
 
@@ -72,12 +60,12 @@ typedef struct {
 
 ### -field ChunkType
 
-The type of chunk that is to be processed, specified as a <a href="..\d3dukmdt\ne-d3dukmdt-_dxgk_miracast_chunk_type.md">DXGK_MIRACAST_CHUNK_TYPE</a> enumeration value.
+The type of chunk that is to be processed, specified as a <a href="https://msdn.microsoft.com/library/windows/hardware/dn322057">DXGK_MIRACAST_CHUNK_TYPE</a> enumeration value.
 
 
 ### -field ChunkId
 
-The identifier for this chunk, of type <a href="..\d3dukmdt\ns-d3dukmdt-dxgk_miracast_chunk_id.md">DXGK_MIRACAST_CHUNK_ID</a>.
+The identifier for this chunk, of type <a href="https://msdn.microsoft.com/library/windows/hardware/dn322055">DXGK_MIRACAST_CHUNK_ID</a>.
 
 
 ### -field ProcessingTime
@@ -92,16 +80,15 @@ The encode bit rate, in kilobits per second, that the display miniport driver re
 
 ## -see-also
 
-<a href="..\d3dukmdt\ne-d3dukmdt-_dxgk_miracast_chunk_type.md">DXGK_MIRACAST_CHUNK_TYPE</a>
 
 
 
-<a href="..\d3dukmdt\ns-d3dukmdt-dxgk_miracast_chunk_id.md">DXGK_MIRACAST_CHUNK_ID</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn322055">DXGK_MIRACAST_CHUNK_ID</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn322057">DXGK_MIRACAST_CHUNK_TYPE</a>
  
 
  
-
 

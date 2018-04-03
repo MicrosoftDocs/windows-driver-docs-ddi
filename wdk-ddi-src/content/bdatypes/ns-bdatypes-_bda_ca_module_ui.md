@@ -38,7 +38,8 @@ api_location:
 -	bdatypes.h
 api_name:
 -	BDA_CA_MODULE_UI
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BDA_CA_MODULE_UI, *PBDA_CA_MODULE_UI
 ---
@@ -50,18 +51,6 @@ req.typenames: BDA_CA_MODULE_UI, *PBDA_CA_MODULE_UI
 
 
 The BDA_CA_MODULE_UI structure describes the user interface (UI) that conditional access (CA) plugins can display. 
-
-
-## -syntax
-
-
-````
-typedef struct _BDA_CA_MODULE_UI {
-  ULONG ulFormat;
-  ULONG ulbcDesc;
-  ULONG ulDesc[MIN_DIMENSION];
-} BDA_CA_MODULE_UI, *PBDA_CA_MODULE_UI;
-````
 
 
 ## -struct-fields
@@ -86,16 +75,15 @@ Array of descriptors for the UI.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564294">KSPROPERTY_BDA_CA_MODULE_UI</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566536">KSPROPSETID_BdaCA</a>
-
-
-
  
 
  
-
 

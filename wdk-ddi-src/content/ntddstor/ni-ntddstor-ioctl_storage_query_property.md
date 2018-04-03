@@ -7,7 +7,7 @@ old-location: storage\ioctl_storage_query_property.htm
 old-project: storage
 ms.assetid: b68c5971-6d09-49a8-873d-8736068f6003
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_STORAGE_QUERY_PROPERTY, IOCTL_STORAGE_QUERY_PROPERTY control code [Storage Devices], k307_1ee2fd05-4e88-47ef-8ed5-0553bcccc0d7.xml, ntddstor/IOCTL_STORAGE_QUERY_PROPERTY, storage.ioctl_storage_query_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ntddstor.h
 api_name:
 -	IOCTL_STORAGE_QUERY_PROPERTY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STORAGE_ZONE_CONDITION, *PSTORAGE_ZONE_CONDITION
 ---
@@ -63,10 +64,10 @@ A driver can use <b>IOCTL_STORAGE_QUERY_PROPERTY</b> to return properties of a s
 ### -input-buffer
 
 <b>
-       Parameters.DeviceIoControl.InputBufferLength</b> indicates the size, in bytes, of the parameter buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>, which must be &gt;= <b>sizeof</b>(<a href="..\ntddstor\ns-ntddstor-_storage_property_query.md">STORAGE_PROPERTY_QUERY</a>).
+       Parameters.DeviceIoControl.InputBufferLength</b> indicates the size, in bytes, of the parameter buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>, which must be &gt;= <b>sizeof</b>(<a href="https://msdn.microsoft.com/library/windows/hardware/ff566997">STORAGE_PROPERTY_QUERY</a>).
 
 <b>
-       Irp-&gt;AssociatedIrp.SystemBuffer</b> contains <a href="..\ntddstor\ns-ntddstor-_storage_property_query.md">STORAGE_PROPERTY_QUERY</a> data that specifies whether to query the device or the adapter, the type of query to perform, and any additional parameters required for the query, such as the page code for a particular SCSI mode sense page. Device properties must be retrieved only from a device; attempting to retrieve device properties from an adapter will cause an error. 
+       Irp-&gt;AssociatedIrp.SystemBuffer</b> contains <a href="https://msdn.microsoft.com/library/windows/hardware/ff566997">STORAGE_PROPERTY_QUERY</a> data that specifies whether to query the device or the adapter, the type of query to perform, and any additional parameters required for the query, such as the page code for a particular SCSI mode sense page. Device properties must be retrieved only from a device; attempting to retrieve device properties from an adapter will cause an error. 
 
 <b>
        Parameters.DeviceIoControl.OutputBufferLength</b> indicates the number of bytes that can be written to <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>. <b>OutputBufferLength</b> can be zero to determine whether a property exists without retrieving its data. 
@@ -75,7 +76,7 @@ A driver can use <b>IOCTL_STORAGE_QUERY_PROPERTY</b> to return properties of a s
 ### -input-buffer-length
 
 <b>
-       Parameters.DeviceIoControl.InputBufferLength</b> indicates the size, in bytes, of the parameter buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>, which must be &gt;= <b>sizeof</b>(<a href="..\ntddstor\ns-ntddstor-_storage_property_query.md">STORAGE_PROPERTY_QUERY</a>).
+       Parameters.DeviceIoControl.InputBufferLength</b> indicates the size, in bytes, of the parameter buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>, which must be &gt;= <b>sizeof</b>(<a href="https://msdn.microsoft.com/library/windows/hardware/ff566997">STORAGE_PROPERTY_QUERY</a>).
 
 
 ### -output-buffer
@@ -85,7 +86,7 @@ The driver returns query data to the buffer at <b>Irp-&gt;AssociatedIrp.SystemBu
 
 ### -output-buffer-length
 
-Cast the structure returned to a <a href="..\ntddstor\ns-ntddstor-_storage_descriptor_header.md">STORAGE_DESCRIPTOR_HEADER</a> and check its <b>Size</b> member to determine the number of bytes the structure actually requires.
+Cast the structure returned to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff566968">STORAGE_DESCRIPTOR_HEADER</a> and check its <b>Size</b> member to determine the number of bytes the structure actually requires.
 
 
 ### -in-out-buffer
@@ -113,20 +114,19 @@ The <b>Information</b> field is set to the number of bytes returned. The <b>Stat
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566968">STORAGE_DESCRIPTOR_HEADER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566997">STORAGE_PROPERTY_QUERY</a>
+
+
+
 <a href="https://msdn.microsoft.com/198E7A54-5AE3-4C6E-9E66-17818B999599">STORAGE_RPMB_DATA_FRAME</a>
-
-
-
-<a href="..\ntddstor\ns-ntddstor-_storage_descriptor_header.md">STORAGE_DESCRIPTOR_HEADER</a>
-
-
-
-<a href="..\ntddstor\ns-ntddstor-_storage_property_query.md">STORAGE_PROPERTY_QUERY</a>
-
-
-
  
 
  
-
 

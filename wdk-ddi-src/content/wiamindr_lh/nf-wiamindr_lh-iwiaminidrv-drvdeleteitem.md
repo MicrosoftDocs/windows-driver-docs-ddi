@@ -38,7 +38,8 @@ api_location:
 -	wiamindr_lh.h
 api_name:
 -	IWiaMiniDrv.drvDeleteItem
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SCANWINDOW, *PSCANWINDOW
 req.product: Windows 10 or later.
@@ -51,18 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>IWiaMiniDrv::drvDeleteItem</b> method deletes the current driver item.
-
-
-## -syntax
-
-
-````
-HRESULT drvDeleteItem(
-  [in]  BYTE *pWiasContext,
-  [in]  LONG lFlags,
-  [out] LONG *plDevErrVal
-);
-````
 
 
 ## -parameters
@@ -140,16 +129,15 @@ Since the WIA service verifies these conditions, it is not necessary for the min
 
 ## -see-also
 
-<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrv.md">IWiaMiniDrv</a>
+
+
+
+<a href="https://msdn.microsoft.com/15068d10-5e24-427c-9684-24ce67b75ada">IWiaMiniDrv</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543982">IWiaMiniDrv::drvGetDeviceErrorStr</a>
-
-
-
  
 
  
-
 

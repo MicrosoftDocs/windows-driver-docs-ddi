@@ -38,7 +38,8 @@ api_location:
 -	Pshed.dll
 api_name:
 -	PshedIsSystemWheaEnabled
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
@@ -50,14 +51,6 @@ req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 
 
 The <b>PshedIsSystemWheaEnabled</b> function returns a Boolean value that indicates whether the system is WHEA-enabled.
-
-
-## -syntax
-
-
-````
-BOOLEAN PshedIsSystemWheaEnabled(void);
-````
 
 
 ## -parameters
@@ -80,19 +73,18 @@ A Boolean value that indicates whether the system is WHEA-enabled.
 
 
 
-A PSHED plug-in can call the <b>PshedIsSystemWheaEnabled</b> function before it calls the <a href="..\ntddk\nf-ntddk-pshedregisterplugin.md">PshedRegisterPlugin</a> function to verify that the system is WHEA-enabled.
+A PSHED plug-in can call the <b>PshedIsSystemWheaEnabled</b> function before it calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559466">PshedRegisterPlugin</a> function to verify that the system is WHEA-enabled.
 
 
 
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-pshedregisterplugin.md">PshedRegisterPlugin</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559466">PshedRegisterPlugin</a>
  
 
  
-
 

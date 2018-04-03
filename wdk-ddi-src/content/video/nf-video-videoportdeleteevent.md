@@ -7,7 +7,7 @@ old-location: display\videoportdeleteevent.htm
 old-project: display
 ms.assetid: 0952f6ab-6d57-4ded-b167-74a7ace47961
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: VideoPortDeleteEvent, VideoPortDeleteEvent function [Display Devices], VideoPort_Functions_66e14d53-8a5e-4322-8576-4ac06230db31.xml, display.videoportdeleteevent, video/VideoPortDeleteEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Videoprt.sys
 api_name:
 -	VideoPortDeleteEvent
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
 req.product: Windows 10 or later.
@@ -51,17 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>VideoPortDeleteEvent</b> function deletes the specified event object.
-
-
-## -syntax
-
-
-````
-VP_STATUS VideoPortDeleteEvent(
-  _In_ PVOID  HwDeviceExtension,
-  _In_ PEVENT pEvent
-);
-````
 
 
 ## -parameters
@@ -99,7 +89,6 @@ This function should not be used to delete a mapped user event. To delete a mapp
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportcreateevent.md">VideoPortCreateEvent</a>
 
 
 
@@ -107,8 +96,8 @@ This function should not be used to delete a mapped user event. To delete a mapp
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570287">VideoPortCreateEvent</a>
  
 
  
-
 

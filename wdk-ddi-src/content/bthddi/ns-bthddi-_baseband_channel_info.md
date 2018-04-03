@@ -38,7 +38,8 @@ api_location:
 -	bthddi.h
 api_name:
 -	BASEBAND_CHANNEL_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BASEBAND_CHANNEL_INFO, *PBASEBAND_CHANNEL_INFO
 ---
@@ -51,20 +52,6 @@ req.typenames: BASEBAND_CHANNEL_INFO, *PBASEBAND_CHANNEL_INFO
 
 The BASEBAND_CHANNEL_INFO structure describes output information about the baseband channel that is
   used by a SCO link after a BRB_GET_CHANNEL_INFO BRB completes.
-
-
-## -syntax
-
-
-````
-typedef struct _BASEBAND_CHANNEL_INFO {
-  UCHAR  Transmission_Interval;
-  UCHAR  Retransmission_Window;
-  UCHAR  AirMode;
-  USHORT Rx_Packet_Length;
-  USHORT Tx_Packet_Length;
-} BASEBAND_CHANNEL_INFO, *PBASEBAND_CHANNEL_INFO;
-````
 
 
 ## -struct-fields
@@ -120,7 +107,7 @@ The size, in bytes, of the eSCO payload in the transmit direction. This member w
 
 Profile drivers access the BASEBAND_CHANNEL_INFO structure through the 
     <b>BasebandInfo</b> member of the 
-    <a href="..\bthddi\ns-bthddi-_brb_sco_get_channel_info.md">
+    <a href="https://msdn.microsoft.com/1a7eb79c-5a3e-4977-ba1f-682bbebb0494">
     _BRB_SCO_GET_CHANNEL_INFO</a> structure.
 
 
@@ -128,12 +115,11 @@ Profile drivers access the BASEBAND_CHANNEL_INFO structure through the
 
 ## -see-also
 
-<a href="..\bthddi\ns-bthddi-_brb_sco_get_channel_info.md">_BRB_SCO_GET_CHANNEL_INFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536868">_BRB_SCO_GET_CHANNEL_INFO</a>
  
 
  
-
 

@@ -38,7 +38,8 @@ api_location:
 -	prcomoem.h
 api_name:
 -	IPrintOemPrintTicketProvider.CompletePrintCapabilities
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
@@ -51,17 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <code>IPrintOemPrintTicketProvider::CompletePrintCapabilities</code> method fills in the remaining entries of the specified print capabilities document. 
-
-
-## -syntax
-
-
-````
-HRESULT CompletePrintCapabilities(
-  [in]      IXMLDOMDocument2 *pPrintTicket,
-  [in, out] IXMLDOMDocument2 *pCapabilities
-);
-````
 
 
 ## -parameters

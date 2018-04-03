@@ -38,7 +38,8 @@ api_location:
 -	1.0\Sercx.h
 api_name:
 -	SerCxGetReadIntervalTimeout
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SERCX_STATUS, *PSERCX_STATUS
 req.product: Windows 10 or later.
@@ -51,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>SerCxGetReadIntervalTimeout</b> method returns the interval time-out value for a read (receive) operation.
-
-
-## -syntax
-
-
-````
-ULONG SerCxGetReadIntervalTimeout(
-  [in] WDFDEVICE Device
-);
-````
 
 
 ## -parameters
@@ -86,7 +77,7 @@ A WDFDEVICE handle to the framework device object that represents the serial con
 
 
 
-The read-interval time-out value is the maximum amount of time, in milliseconds, that is allowed between two consecutive bytes in a read operation. A read operation that exceeds this maximum times out. For more information about time-out values, see <a href="..\ntddser\ns-ntddser-_serial_timeouts.md">SERIAL_TIMEOUTS</a>.
+The read-interval time-out value is the maximum amount of time, in milliseconds, that is allowed between two consecutive bytes in a read operation. A read operation that exceeds this maximum times out. For more information about time-out values, see <a href="https://msdn.microsoft.com/library/windows/hardware/hh439614">SERIAL_TIMEOUTS</a>.
 
 A read (<a href="https://msdn.microsoft.com/library/windows/hardware/ff549327">IRP_MJ_READ</a>) request successfully completes when the requested read operation times out. The request returns the <b>STATUS_TIMEOUT</b> status code to indicate that the operation timed out.
 
@@ -95,7 +86,6 @@ A read (<a href="https://msdn.microsoft.com/library/windows/hardware/ff549327">I
 
 ## -see-also
 
-<a href="..\ntddser\ns-ntddser-_serial_timeouts.md">SERIAL_TIMEOUTS</a>
 
 
 
@@ -103,8 +93,8 @@ A read (<a href="https://msdn.microsoft.com/library/windows/hardware/ff549327">I
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439614">SERIAL_TIMEOUTS</a>
  
 
  
-
 

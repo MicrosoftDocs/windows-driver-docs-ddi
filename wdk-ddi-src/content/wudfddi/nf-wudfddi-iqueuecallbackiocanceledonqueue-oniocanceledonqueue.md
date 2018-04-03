@@ -38,7 +38,8 @@ api_location:
 -	Wudfddi.h
 api_name:
 -	IQueueCallbackIoCanceledOnQueue.OnIoCanceledOnQueue
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
@@ -55,17 +56,6 @@ req.product: Windows 10 or later.
 A driver's <b>OnIoCanceledOnQueue</b> event callback function informs the driver that an I/O request was canceled while it was in an I/O queue.
 
 
-## -syntax
-
-
-````
-void OnIoCanceledOnQueue(
-  [in] IWDFIoQueue   *pWdfQueue,
-  [in] IWDFIoRequest *pWdfRequest
-);
-````
-
-
 ## -parameters
 
 
@@ -73,12 +63,12 @@ void OnIoCanceledOnQueue(
 
 ### -param pWdfQueue [in]
 
-A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a> interface for the I/O queue that the I/O request was in when it was canceled. 
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558943">IWDFIoQueue</a> interface for the I/O queue that the I/O request was in when it was canceled. 
 
 
 ### -param pWdfRequest [in]
 
-A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a> interface for the I/O request. 
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558985">IWDFIoRequest</a> interface for the I/O request. 
 
 
 ## -returns
@@ -94,7 +84,7 @@ None.
 
 
 
-A driver registers an I/O queue's <a href="..\wudfddi\nn-wudfddi-iqueuecallbackiocanceledonqueue.md">IQueueCallbackIoCanceledOnQueue</a> interface and <b>OnIoCanceledOnQueue</b> callback function when the driver calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557020">IWDFDevice::CreateIoQueue</a>. For more information about how to register the interface, see <a href="..\wudfddi\nn-wudfddi-iqueuecallbackiocanceledonqueue.md">IQueueCallbackIoCanceledOnQueue</a>.
+A driver registers an I/O queue's <a href="https://msdn.microsoft.com/library/windows/hardware/ff556857">IQueueCallbackIoCanceledOnQueue</a> interface and <b>OnIoCanceledOnQueue</b> callback function when the driver calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557020">IWDFDevice::CreateIoQueue</a>. For more information about how to register the interface, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff556857">IQueueCallbackIoCanceledOnQueue</a>.
 
 If a driver registers an <b>OnIoCanceledOnQueue</b> callback function for an I/O queue, the framework calls the callback function if a request handler receives an I/O request from an I/O queue, the driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff559081">IWDFIoRequest::ForwardToIoQueue</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff559028">IWDFIoRequest2::Requeue</a> to requeue the request to the I/O queue for which the <b>OnIoCanceledOnQueue</b> callback function is registered, and the associated I/O operation is subsequently canceled.
 
@@ -111,7 +101,10 @@ For more information about the <b>OnIoCanceledOnQueue</b> callback function, see
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iqueuecallbackiocanceledonqueue.md">IQueueCallbackIoCanceledOnQueue</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556857">IQueueCallbackIoCanceledOnQueue</a>
 
 
 
@@ -120,11 +113,7 @@ For more information about the <b>OnIoCanceledOnQueue</b> callback function, see
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559081">IWDFIoRequest::ForwardToIoQueue</a>
-
-
-
  
 
  
-
 

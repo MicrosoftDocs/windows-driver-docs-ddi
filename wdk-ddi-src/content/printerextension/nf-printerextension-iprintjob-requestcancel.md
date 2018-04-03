@@ -38,7 +38,8 @@ api_location:
 -	Printerextension.h
 api_name:
 -	IPrintJob.RequestCancel
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PrintSchemaSelectionType
 req.product: Windows 10 or later.
@@ -51,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 Requests the cancellation of a print job.
-
-
-## -syntax
-
-
-````
-HRESULT RequestCancel(
-    void
-);
-````
 
 
 ## -parameters
@@ -95,12 +86,11 @@ The <b>RequestCancel</b> method does not wait for the cancellation of a print jo
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintjob.md">IPrintJob</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265396">IPrintJob</a>
  
 
  
-
 

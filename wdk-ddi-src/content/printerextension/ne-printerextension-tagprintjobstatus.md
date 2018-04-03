@@ -38,7 +38,8 @@ api_location:
 -	Printerextension.h
 api_name:
 -	PrintJobStatus
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PrintJobStatus
 req.product: Windows 10 or later.
@@ -53,29 +54,6 @@ req.product: Windows 10 or later.
 This enumeration is a one-to-one mapping to the spooler flags suppled in the JOB_INFO_X structures.
 
 For example, <a href="http://msdn.microsoft.com/en-us/library/windows/desktop/dd145019(v=vs.85).aspx">JOB_INFO_1</a> has the same set of status flags as shown in the following list.
-
-
-## -syntax
-
-
-````
-typedef enum _PrintJobStatus { 
-  PrintJobStatus_Paused              = 0x1,
-  PrintJobStatus_Error               = 0x2,
-  PrintJobStatus_Deleting            = 0x4,
-  PrintJobStatus_Spooling            = 0x8,
-  PrintJobStatus_Printing            = 0x10,
-  PrintJobStatus_Offline             = 0x20,
-  PrintJobStatus_PaperOut            = 0x40,
-  PrintJobStatus_Printed             = 0x80,
-  PrintJobStatus_Deleted             = 0x100,
-  PrintJobStatus_BlockedDeviceQueue  = 0x200,
-  PrintJobStatus_UserIntervention    = 0x400,
-  PrintJobStatus_Restarted           = 0x800,
-  PrintJobStatus_Complete            = 0x1000,
-  PrintJobStatus_Retained            = 0x2000
-} PrintJobStatus;
-````
 
 
 ## -enum-fields
@@ -166,16 +144,15 @@ It is possible for a job to have multiple  flag values specified simultaneously.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/3C806C3B-78A1-44B6-A9AC-E7258D216637">IPrintJob::Status</a>
 
 
 
 <a href="http://msdn.microsoft.com/en-us/library/windows/desktop/dd145019(v=vs.85).aspx">JOB_INFO_1</a>
-
-
-
  
 
  
-
 

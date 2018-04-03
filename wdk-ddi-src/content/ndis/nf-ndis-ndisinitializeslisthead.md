@@ -7,7 +7,7 @@ old-location: netvista\ndisinitializeslisthead.htm
 old-project: netvista
 ms.assetid: 4f9a5f8c-5c7f-4ac5-a6ce-118de2b4a304
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NdisInitializeSListHead, NdisInitializeSListHead macro [Network Drivers Starting with Windows Vista], ndis/NdisInitializeSListHead, ndis_interlocked_ref_f27e10a0-22f5-48b2-a7d9-c5b4ffc85617.xml, netvista.ndisinitializeslisthead
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ndis.h
 api_name:
 -	NdisInitializeSListHead
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
@@ -52,16 +53,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 The 
   <b>NdisInitializeSListHead</b> function initializes the head of a sequenced, interlocked, singly linked
   list.
-
-
-## -syntax
-
-
-````
-VOID NdisInitializeSListHead(
-  [in] PSLIST_HEADER SListHead
-);
-````
 
 
 ## -parameters
@@ -88,12 +79,12 @@ The sequence number in an S-List is incremented each time an entry is inserted t
 All entries in an S-List must be nonpaged.
 
 Any driver that uses an S-List must provide a spin lock to the 
-    <a href="..\ndis\nf-ndis-ndisinterlockedpushentryslist.md">
+    <a href="https://msdn.microsoft.com/155604e9-45f6-4dd2-9373-90f689713c1a">
     NdisInterlockedPushEntrySList</a> and 
-    <a href="..\ndis\nf-ndis-ndisinterlockedpopentryslist.md">
+    <a href="https://msdn.microsoft.com/22f79bc7-49e1-43ba-8dff-8847b9a9bcca">
     NdisInterlockedPopEntrySList</a> functions. Before its initial call to either of these functions, the
     driver must initialize the spin lock with the 
-    <a href="..\ndis\nf-ndis-ndisallocatespinlock.md">NdisAllocateSpinLock</a> function. To
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561617">NdisAllocateSpinLock</a> function. To
     prevent deadlocks, the driver 
     <u>must not be holding this spin lock</u> when it makes subsequent calls to 
     <b>NdisInterlockedPushEntrySList</b> and 
@@ -102,7 +93,7 @@ Any driver that uses an S-List must provide a spin lock to the
 To manage a pool of fixed-size entries from nonpaged memory, consider using a lookaside list instead
     of an S-List.
 
-Drivers that retry I/O operations should use a doubly linked interlocked queue and the <a href="..\ndis\nf-ndis-ndisinterlockedinsertheadlist.md">NdisInterlockedInsertHeadList</a>,  <a href="..\ndis\nf-ndis-ndisinterlockedinserttaillist.md">NdisInterlockedInsertTailList</a>, and   <a href="..\ndis\nf-ndis-ndisinterlockedremoveheadlist.md">NdisInterlockedRemoveHeadList</a> functions, rather than an S-List.
+Drivers that retry I/O operations should use a doubly linked interlocked queue and the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562754">NdisInterlockedInsertHeadList</a>,  <a href="https://msdn.microsoft.com/library/windows/hardware/ff562755">NdisInterlockedInsertTailList</a>, and   <a href="https://msdn.microsoft.com/library/windows/hardware/ff562771">NdisInterlockedRemoveHeadList</a> functions, rather than an S-List.
 
 If 
     <b>NdisInitializeSListHead</b> is called at IRQL &gt;= DISPATCH_LEVEL, the storage for the 
@@ -113,30 +104,29 @@ If
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisinterlockedpopentryslist.md">NdisInterlockedPopEntrySList</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisquerydepthslist.md">NdisQueryDepthSList</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisinitializenpagedlookasidelist.md">
+<a href="https://msdn.microsoft.com/d240f2cc-18a6-4c2d-889f-e25a9486d5fe">
    NdisInitializeNPagedLookasideList</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisinterlockedpushentryslist.md">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562760">NdisInterlockedPopEntrySList</a>
+
+
+
+<a href="https://msdn.microsoft.com/155604e9-45f6-4dd2-9373-90f689713c1a">
    NdisInterlockedPushEntrySList</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisqueueioworkitem.md">NdisQueueIoWorkItem</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563753">NdisQueryDepthSList</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563775">NdisQueueIoWorkItem</a>
  
 
  
-
 

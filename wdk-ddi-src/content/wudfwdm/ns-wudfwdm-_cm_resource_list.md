@@ -7,7 +7,7 @@ old-location: kernel\cm_resource_list.htm
 old-project: kernel
 ms.assetid: 01f31255-a4f7-4a16-9238-a7391bb850d1
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 2/24/2018
 ms.keywords: "*PCM_RESOURCE_LIST, CM_RESOURCE_LIST, CM_RESOURCE_LIST structure [Kernel-Mode Driver Architecture], PCM_RESOURCE_LIST, PCM_RESOURCE_LIST structure pointer [Kernel-Mode Driver Architecture], _CM_RESOURCE_LIST, kernel.cm_resource_list, kstruct_a_29dadb2f-b0d2-41a4-b17e-f69c12b6def6.xml, wdm/CM_RESOURCE_LIST, wdm/PCM_RESOURCE_LIST"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	wdm.h
 api_name:
 -	CM_RESOURCE_LIST
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CM_RESOURCE_LIST, *PCM_RESOURCE_LIST
 req.product: Windows 10 or later.
@@ -160,35 +161,7 @@ BOOLEAN GetAssignedResources(PCM_RESOURCE_LIST reslist)
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_cm_keyboard_device_data.md">CM_KEYBOARD_DEVICE_DATA</a>
-
-
-
-<a href="..\wudfwdm\ns-wudfwdm-_cm_partial_resource_list.md">CM_PARTIAL_RESOURCE_LIST</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-ioreportresourcefordetection.md">IoReportResourceForDetection</a>
-
-
-
 <a href="..\wdm\ns-wdm-_cm_floppy_device_data.md">CM_FLOPPY_DEVICE_DATA</a>
-
-
-
-<a href="..\wdm\ns-wdm-_cm_serial_device_data.md">CM_SERIAL_DEVICE_DATA</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551749">IRP_MN_START_DEVICE</a>
-
-
-
-<a href="..\wdm\ns-wdm-_cm_scsi_device_data.md">CM_SCSI_DEVICE_DATA</a>
-
-
-
-<a href="..\wudfwdm\ns-wudfwdm-_cm_resource_list.md">CM_RESOURCE_LIST</a>
 
 
 
@@ -196,7 +169,11 @@ BOOLEAN GetAssignedResources(PCM_RESOURCE_LIST reslist)
 
 
 
-<a href="..\wdm\nf-wdm-iogetdeviceproperty.md">IoGetDeviceProperty</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551749">IRP_MN_START_DEVICE</a>
+
+
+
+<a href="..\wdm\ns-wdm-_cm_serial_device_data.md">CM_SERIAL_DEVICE_DATA</a>
 
 
 
@@ -204,8 +181,33 @@ BOOLEAN GetAssignedResources(PCM_RESOURCE_LIST reslist)
 
 
 
+<a href="..\wdm\ns-wdm-_cm_keyboard_device_data.md">CM_KEYBOARD_DEVICE_DATA</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_cm_resource_list.md">CM_RESOURCE_LIST</a>
+
+
+
+<a href="..\wdm\ns-wdm-_cm_scsi_device_data.md">CM_SCSI_DEVICE_DATA</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_cm_partial_resource_list.md">CM_PARTIAL_RESOURCE_LIST</a>
+
+
+
+<a href="..\wdm\nf-wdm-iogetdeviceproperty.md">IoGetDeviceProperty</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-ioreportresourcefordetection.md">IoReportResourceForDetection</a>
+
+
+
  
 
  
+
 
 

@@ -7,7 +7,7 @@ old-location: kernel\zwrollforwardtransactionmanager.htm
 old-project: kernel
 ms.assetid: c2d775b1-364a-4c50-bd5e-dab9d9e07b83
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: NtRollforwardTransactionManager, ZwRollforwardTransactionManager, ZwRollforwardTransactionManager routine [Kernel-Mode Driver Architecture], kernel.zwrollforwardtransactionmanager, ktm_ref_79b2cde2-5fd0-431f-a776-f4cd6fda1e45.xml, wdm/NtRollforwardTransactionManager, wdm/ZwRollforwardTransactionManager
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	ZwRollforwardTransactionManager
 -	NtRollforwardTransactionManager
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
@@ -54,17 +55,6 @@ req.product: Windows 10 or later.
 The <b>ZwRollforwardTransactionManager</b> routine initiates recovery operations for all of the in-progress transactions that are assigned to a specified transaction manager.
 
 
-## -syntax
-
-
-````
-NTSTATUS ZwRollforwardTransactionManager(
-  _In_     HANDLE         TransactionManagerHandle,
-  _In_opt_ PLARGE_INTEGER TmVirtualClock
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +62,7 @@ NTSTATUS ZwRollforwardTransactionManager(
 
 ### -param TransactionManagerHandle [in]
 
-A handle to a <a href="https://msdn.microsoft.com/af53cda4-e2ab-47df-9311-a4da2a2ee08d">transaction manager object</a> that was obtained by a previous call to <a href="..\wdm\nf-wdm-zwcreatetransactionmanager.md">ZwCreateTransactionManager</a> or <a href="..\wdm\nf-wdm-zwopentransactionmanager.md">ZwOpenTransactionManager</a>. The handle must have TRANSACTIONMANAGER_RECOVER access to the object.
+A handle to a <a href="https://msdn.microsoft.com/af53cda4-e2ab-47df-9311-a4da2a2ee08d">transaction manager object</a> that was obtained by a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff566430">ZwCreateTransactionManager</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff567035">ZwOpenTransactionManager</a>. The handle must have TRANSACTIONMANAGER_RECOVER access to the object.
 
 
 ### -param TmVirtualClock [in, optional]
@@ -162,7 +152,7 @@ The <b>ZwRollforwardTransactionManager</b> routine recovers all logged activity 
 
 Your component can traverse the log file incrementally by calling <b>ZwRollforwardTransactionManager</b> repetitively and setting the <i>VirtualClock</i> parameter to a higher value before each call.
 
-If the <i>TmVirtualClock</i> parameter is <b>NULL</b>, calling <b>ZwRollforwardTransactionManager</b> is equivalent to calling <a href="..\wdm\nf-wdm-zwrecovertransactionmanager.md">ZwRecoverTransactionManager</a>. 
+If the <i>TmVirtualClock</i> parameter is <b>NULL</b>, calling <b>ZwRollforwardTransactionManager</b> is equivalent to calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff567079">ZwRecoverTransactionManager</a>. 
 
 For more information about recovery operations, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff546922">Handling Recovery Operations</a>.
 
@@ -175,28 +165,27 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564722">TmRecoverTransactionManager</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwopentransactionmanager.md">ZwOpenTransactionManager</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566430">ZwCreateTransactionManager</a>
 
 
 
-<a href="..\wdm\nf-wdm-tmrecovertransactionmanager.md">TmRecoverTransactionManager</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567035">ZwOpenTransactionManager</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwcreatetransactionmanager.md">ZwCreateTransactionManager</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwrecovertransactionmanager.md">ZwRecoverTransactionManager</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567079">ZwRecoverTransactionManager</a>
  
 
  
-
 

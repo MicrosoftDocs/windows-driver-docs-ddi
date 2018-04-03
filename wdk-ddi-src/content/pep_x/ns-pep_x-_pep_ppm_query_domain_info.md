@@ -7,7 +7,7 @@ old-location: kernel\pep_ppm_query_domain_info.htm
 old-project: kernel
 ms.assetid: c608dac0-bb2a-4d89-a2f8-1017254c8a6c
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*PPEP_PPM_QUERY_DOMAIN_INFO, PEP_PPM_QUERY_DOMAIN_INFO, PEP_PPM_QUERY_DOMAIN_INFO structure [Kernel-Mode Driver Architecture], _PEP_PPM_QUERY_DOMAIN_INFO, kernel.pep_ppm_query_domain_info, pepfx/PEP_PPM_QUERY_DOMAIN_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Pepfx.h
 api_name:
 -	PEP_PPM_QUERY_DOMAIN_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PEP_PPM_QUERY_DOMAIN_INFO, *PPEP_PPM_QUERY_DOMAIN_INFO, PEP_PPM_QUERY_DOMAIN_INFO, *PPEP_PPM_QUERY_DOMAIN_INFO
 ---
@@ -50,21 +51,6 @@ req.typenames: PEP_PPM_QUERY_DOMAIN_INFO, *PPEP_PPM_QUERY_DOMAIN_INFO, PEP_PPM_Q
 
 
 Used in the <b>PEP_NOTIFY_PPM_QUERY_DOMAIN_INFO</b> notification that queries for information about a performance domain. 
-
-
-## -syntax
-
-
-````
-typedef struct _PEP_PPM_QUERY_DOMAIN_INFO {
-  ULONG    DomainId;
-  UCHAR    CoordinationType;
-  BOOLEAN  IdleProcessorsDiscounted;
-  BOOLEAN  SchedulerDirectedTransitionsSupported;
-  ULONG    WorstCaseTransitionLatency;
-  ULONG    WorstCaseTransitionOverhead;
-} PEP_PPM_QUERY_DOMAIN_INFO, PEP_PPM_QUERY_DOMAIN_INFO;
-````
 
 
 ## -struct-fields
@@ -99,6 +85,9 @@ If PROCESSOR_DOMAIN_COORDIANTION_HW_ALL coordination is not used: this field is 
 
 On output, this value is TRUE if the PEP supports the requirements of scheduler directed performance transitions for this domain, FALSE otherwise. 
 
+### -field AffinitizePerfSet
+
+
 
 ### -field WorstCaseTransitionLatency
 
@@ -112,12 +101,11 @@ On output, this value indicates the worst case overhead (PEP code execution time
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt186881">Processor power management (PPM) notifications</a>
-
-
-
  
 
  
-
 

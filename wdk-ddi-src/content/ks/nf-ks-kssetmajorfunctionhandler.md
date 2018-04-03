@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsSetMajorFunctionHandler
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,17 +52,6 @@ req.typenames:
 
 
 The <b>KsSetMajorFunctionHandler</b> function sets the handler for a specified major function to use the internal dispatching. It routes through a KSDISPATCH_TABLE contained in the opaque object header to be the first element within a structure pointed to by an <b>FsContext</b> within a file object. The dispatching assumes the table and <b>FsContext</b> structure are initialized by the device using <b>KsAllocateObjectHeader</b>.
-
-
-## -syntax
-
-
-````
-NTSTATUS KsSetMajorFunctionHandler(
-  _In_ PDRIVER_OBJECT DriverObject,
-  _In_ ULONG          MajorFunction
-);
-````
 
 
 ## -parameters

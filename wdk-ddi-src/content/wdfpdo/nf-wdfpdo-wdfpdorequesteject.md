@@ -39,7 +39,8 @@ api_location:
 -	Wdf01000.sys.dll
 api_name:
 -	WdfPdoRequestEject
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_OBJECT_CONTEXT_TYPE_INFO, *PWDF_OBJECT_CONTEXT_TYPE_INFO
 req.product: Windows 10 or later.
@@ -54,16 +55,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF only]
 
 The <b>WdfPdoRequestEject</b> method informs the framework that a specified device is about to be ejected from its docking station.
-
-
-## -syntax
-
-
-````
-VOID WdfPdoRequestEject(
-  _In_ WDFDEVICE Device
-);
-````
 
 
 ## -parameters
@@ -91,11 +82,11 @@ A system bug check occurs if the driver supplies an invalid object handle.
 
 
 
-A bus driver can call <b>WdfPdoRequestEject</b> or <a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistrequestchildeject.md">WdfChildListRequestChildEject</a> to report that the driver has detected an attempt to eject one of its enumerated child devices from the device's docking station. For example, the driver might detect that a user has pushed an eject button. 
+A bus driver can call <b>WdfPdoRequestEject</b> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff545641">WdfChildListRequestChildEject</a> to report that the driver has detected an attempt to eject one of its enumerated child devices from the device's docking station. For example, the driver might detect that a user has pushed an eject button. 
 
-If the framework device object for the device's PDO is available, the driver can call <b>WdfPdoRequestEject</b>. If the driver is using dynamic bus enumeration and if the device's identification description is available, the driver can call <a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistrequestchildeject.md">WdfChildListRequestChildEject</a>.
+If the framework device object for the device's PDO is available, the driver can call <b>WdfPdoRequestEject</b>. If the driver is using dynamic bus enumeration and if the device's identification description is available, the driver can call <a href="https://msdn.microsoft.com/library/windows/hardware/ff545641">WdfChildListRequestChildEject</a>.
 
-For more information about <b>WdfPdoRequestEject</b> and <a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistrequestchildeject.md">WdfChildListRequestChildEject</a>, see <a href="https://msdn.microsoft.com/7820bb71-7218-4c5f-af2b-f41e1b5f696d">Supporting Ejectable Devices</a>.
+For more information about <b>WdfPdoRequestEject</b> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff545641">WdfChildListRequestChildEject</a>, see <a href="https://msdn.microsoft.com/7820bb71-7218-4c5f-af2b-f41e1b5f696d">Supporting Ejectable Devices</a>.
 
 
 #### Examples
@@ -138,20 +129,19 @@ WdfFdoUnlockStaticChildListFromIteration(Device);</pre>
 
 ## -see-also
 
-<a href="..\wdffdo\nf-wdffdo-wdffdolockstaticchildlistforiteration.md">WdfFdoLockStaticChildListForIteration</a>
 
 
 
-<a href="..\wdffdo\nf-wdffdo-wdffdounlockstaticchildlistfromiteration.md">WdfFdoUnlockStaticChildListFromIteration</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547282">WdfFdoLockStaticChildListForIteration</a>
 
 
 
-<a href="..\wdffdo\nf-wdffdo-wdffdoretrievenextstaticchild.md">WdfFdoRetrieveNextStaticChild</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547293">WdfFdoRetrieveNextStaticChild</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547297">WdfFdoUnlockStaticChildListFromIteration</a>
  
 
  
-
 

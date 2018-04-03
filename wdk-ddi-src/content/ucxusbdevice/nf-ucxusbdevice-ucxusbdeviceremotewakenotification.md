@@ -7,7 +7,7 @@ old-location: buses\_ucxusbdeviceremotewakenotification.htm
 old-project: usbref
 ms.assetid: 0C95831F-2E20-461C-8478-9A40C1F063E2
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: UcxUsbDeviceRemoteWakeNotification, UcxUsbDeviceRemoteWakeNotification method [Buses], buses._ucxusbdeviceremotewakenotification, ucxusbdevice/UcxUsbDeviceRemoteWakeNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ucxusbdevice.h
 api_name:
 -	UcxUsbDeviceRemoteWakeNotification
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UCX_USBDEVICE_CHARACTERISTIC_TYPE
 req.product: Windows 10 or later.
@@ -53,17 +54,6 @@ req.product: Windows 10 or later.
 Notifies UCX that a remote wake signal from the device is received.
 
 
-## -syntax
-
-
-````
-void UcxUsbDeviceRemoteWakeNotification(
-  [in] UCXUSBDEVICE UsbDevice,
-  [in] ULONG        Interface
-);
-````
-
-
 ## -parameters
 
 
@@ -71,7 +61,7 @@ void UcxUsbDeviceRemoteWakeNotification(
 
 ### -param UsbDevice [in]
 
-A handle to the USB device object for which the remote wake is received. The client driver retrieved the handle in a previous call to <a href="..\ucxusbdevice\nf-ucxusbdevice-ucxusbdevicecreate.md">UcxUsbDeviceCreate</a>.
+A handle to the USB device object for which the remote wake is received. The client driver retrieved the handle in a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/mt188052">UcxUsbDeviceCreate</a>.
 
 
 ### -param Interface [in]
@@ -100,12 +90,11 @@ This method does not return a value.
 
 ## -see-also
 
-<a href="..\ucxusbdevice\nf-ucxusbdevice-ucxusbdevicecreate.md">UcxUsbDeviceCreate</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt188052">UcxUsbDeviceCreate</a>
  
 
  
-
 

@@ -38,7 +38,8 @@ api_location:
 -	Prcomoem.h
 api_name:
 -	IPrintOemEngine.EnableDriver
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
@@ -51,18 +52,6 @@ req.product: Windows 10 or later.
 
 
 
-
-
-## -syntax
-
-
-````
-HRESULT EnableDriver(
-   DWORD          DriverVersion,
-   DWORD          cbSize,
-   PDRVENABLEDATA pded
-);
-````
 
 
 ## -parameters
@@ -90,12 +79,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\prcomoem\nn-prcomoem-iprintoemengine.md">IPrintOemEngine</a>
 
 
 
+<a href="https://msdn.microsoft.com/DE86FA8C-2E27-4B39-B52D-6227AF56F399">IPrintOemEngine</a>
  
 
  
-
 

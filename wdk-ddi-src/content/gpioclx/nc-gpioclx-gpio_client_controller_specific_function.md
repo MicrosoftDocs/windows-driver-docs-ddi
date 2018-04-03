@@ -38,7 +38,8 @@ api_location:
 -	Gpioclx.h
 api_name:
 -	CLIENT_ControllerSpecificFunction
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GNSS_V2UPL_NI_INFO, *PGNSS_V2UPL_NI_INFO
 ---
@@ -50,20 +51,6 @@ req.typenames: GNSS_V2UPL_NI_INFO, *PGNSS_V2UPL_NI_INFO
 
 
 The <i>CLIENT_ControllerSpecificFunction</i> event callback function performs an operation that is specific to a particular general-purpose I/O (GPIO) controller.
-
-
-## -prototype
-
-
-````
-GPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION CLIENT_ControllerSpecificFunction;
-
-NTSTATUS CLIENT_ControllerSpecificFunction(
-  _In_    PVOID                                                Context,
-  _Inout_ PGPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION_PARAMETERS Parameters
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -177,16 +164,15 @@ The GPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION function type is defined in the Gpi
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh698248">GPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION_PARAMETERS</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh698261">IOCTL_GPIO_CONTROLLER_SPECIFIC_FUNCTION</a>
-
-
-
  
 
  
-
 

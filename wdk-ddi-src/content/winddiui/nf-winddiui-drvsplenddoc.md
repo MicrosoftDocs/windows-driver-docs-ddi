@@ -38,7 +38,8 @@ api_location:
 -	winddiui.h
 api_name:
 -	DrvSplEndDoc
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WINBIO_VERSION, *PWINBIO_VERSION
 req.product: Windows 10 or later.
@@ -51,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 
-
-
-## -syntax
-
-
-````
-VOID WINAPI DrvSplEndDoc(
-   HANDLE hDriver
-);
-````
 
 
 ## -parameters
@@ -78,7 +69,7 @@ VOID WINAPI DrvSplEndDoc(
 This function does not return a value.
 
 <h2><a id="ddk_drvsplenddoc_gg"></a><a id="DDK_DRVSPLENDDOC_GG"></a></h2>
-The <b>DrvSplEndDoc</b> function is obsolete, and is supported only so that user-mode rendering DLLs, optionally supplied with Windows NT 4.0 drivers, will execute under Windows 2000 and later. Use <a href="..\winddiui\nf-winddiui-drvdocumentevent.md">DrvDocumentEvent</a> instead of this function.
+The <b>DrvSplEndDoc</b> function is obsolete, and is supported only so that user-mode rendering DLLs, optionally supplied with Windows NT 4.0 drivers, will execute under Windows 2000 and later. Use <a href="https://msdn.microsoft.com/library/windows/hardware/ff548544">DrvDocumentEvent</a> instead of this function.
 
 The <b>DrvSplEndDoc</b> function enables a user-mode rendering DLL to perform operations associated with the end of a print job.
 

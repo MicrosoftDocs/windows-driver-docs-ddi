@@ -38,7 +38,8 @@ api_location:
 -	BthXDDI.h
 api_name:
 -	_BTHX_VERSION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BTHX_VERSION, *PBTHX_VERSION
 ---
@@ -50,16 +51,6 @@ req.typenames: BTHX_VERSION, *PBTHX_VERSION
 
 
 The BTHX_VERSION structure describes the version or versions that the transport driver supports.
-
-
-## -syntax
-
-
-````
-struct _BTHX_VERSION {
-  ULONG Version;
-};
-````
 
 
 ## -struct-fields

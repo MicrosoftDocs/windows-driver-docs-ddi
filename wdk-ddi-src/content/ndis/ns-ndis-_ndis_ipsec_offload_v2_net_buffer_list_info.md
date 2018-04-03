@@ -7,7 +7,7 @@ old-location: netvista\ndis_ipsec_offload_v2_net_buffer_list_info.htm
 old-project: netvista
 ms.assetid: f528ae2f-54fc-4edc-99bf-b1958837584b
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PNDIS_IPSEC_OFFLOAD_V2_NET_BUFFER_LIST_INFO, NDIS_IPSEC_OFFLOAD_V2_NET_BUFFER_LIST_INFO, NDIS_IPSEC_OFFLOAD_V2_NET_BUFFER_LIST_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_IPSEC_OFFLOAD_V2_NET_BUFFER_LIST_INFO, PNDIS_IPSEC_OFFLOAD_V2_NET_BUFFER_LIST_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_IPSEC_OFFLOAD_V2_NET_BUFFER_LIST_INFO, ndis/NDIS_IPSEC_OFFLOAD_V2_NET_BUFFER_LIST_INFO, ndis/PNDIS_IPSEC_OFFLOAD_V2_NET_BUFFER_LIST_INFO, netvista.ndis_ipsec_offload_v2_net_buffer_list_info, task_offload_IPsecv2_ref_b675fa29-2688-43a5-8608-3fb750093a46.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ndis.h
 api_name:
 -	NDIS_IPSEC_OFFLOAD_V2_NET_BUFFER_LIST_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_IPSEC_OFFLOAD_V2_NET_BUFFER_LIST_INFO, *PNDIS_IPSEC_OFFLOAD_V2_NET_BUFFER_LIST_INFO
 ---
@@ -54,27 +55,6 @@ req.typenames: NDIS_IPSEC_OFFLOAD_V2_NET_BUFFER_LIST_INFO, *PNDIS_IPSEC_OFFLOAD_
 The <b>NDIS_IPSEC_OFFLOAD_V2_NET_BUFFER_LIST_INFO</b> structure specifies information that is used in
   offloading Internet protocol security offload version 2 (IPsecOV2) tasks from the TCP/IP transport to a
   NIC.
-
-
-## -syntax
-
-
-````
-typedef struct _NDIS_IPSEC_OFFLOAD_V2_NET_BUFFER_LIST_INFO {
-  union {
-    struct {
-      PVOID OffloadHandle;
-    } Transmit;
-    struct {
-      ULONG SaDeleteReq  :1;
-      ULONG CryptoDone  :1;
-      ULONG NextCryptoDone  :1;
-      ULONG Reserved  :13;
-      ULONG CryptoStatus  :16;
-    } Receive;
-  };
-} NDIS_IPSEC_OFFLOAD_V2_NET_BUFFER_LIST_INFO, *PNDIS_IPSEC_OFFLOAD_V2_NET_BUFFER_LIST_INFO;
-````
 
 
 ## -struct-fields
@@ -198,7 +178,7 @@ The IPsec protocols that were specified in the SA that the packet was received o
 Before the TCP/IP transport passes an outbound packet to a NIC for offload processing, the transport
     specifies the IPsec information in the NDIS_IPSEC_OFFLOAD_V2_NET_BUFFER_LIST_INFO structure that is
     associated with the 
-    <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure.
 
 Specifically, the TCP/IP transport supplies a value for the 
     <b>OffloadHandle</b> member in the NDIS_IPSEC_OFFLOAD_V2_NET_BUFFER_LIST_INFO structure. The 
@@ -214,7 +194,7 @@ Specifically, the TCP/IP transport supplies a value for the
 Before a miniport driver indicates up a receive packet that has one or more IPsec payloads, the driver
     specifies IPsec information in the NDIS_IPSEC_OFFLOAD_V2_NET_BUFFER_LIST_INFO structure that is
     associated with the 
-    <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure.
 
 To set and get the IPsec information, use the 
     <b>IPsecOffloadV2NetBufferListInfo</b> index with the 
@@ -226,17 +206,14 @@ To set and get the IPsec information, use the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-add-sa">
-   OID_TCP_TASK_IPSEC_OFFLOAD_V2_ADD_SA</a>
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-delete-sa">
-   OID_TCP_TASK_IPSEC_OFFLOAD_V2_DELETE_SA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565801">NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO</a>
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a>
 
 
 
@@ -244,12 +221,14 @@ To set and get the IPsec information, use the
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_ipsec_offload_v1_net_buffer_list_info.md">NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-add-sa">
+   OID_TCP_TASK_IPSEC_OFFLOAD_V2_ADD_SA</a>
 
 
 
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-delete-sa">
+   OID_TCP_TASK_IPSEC_OFFLOAD_V2_DELETE_SA</a>
  
 
  
-
 

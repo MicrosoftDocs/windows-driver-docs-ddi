@@ -38,7 +38,8 @@ api_location:
 -	1.0\Sercx.h
 api_name:
 -	SerCxGetActivity
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SERCX_STATUS, *PSERCX_STATUS
 req.product: Windows 10 or later.
@@ -53,17 +54,6 @@ req.product: Windows 10 or later.
 The <b>SerCxGetActivity</b> method retrieves the status of pending work for the serial controller driver.
 
 
-## -syntax
-
-
-````
-VOID SerCxGetActivity(
-  [in]      WDFDEVICE       Device,
-  [in, out] PSERCX_ACTIVITY Activity
-);
-````
-
-
 ## -parameters
 
 
@@ -76,7 +66,7 @@ A WDFDEVICE handle to the framework device object that represents the serial con
 
 ### -param Activity [in, out]
 
-A pointer to a caller-allocated <a href="..\sercx\ns-sercx-_sercx_activity.md">SERCX_ACTIVITY</a> structure. The caller must have previously called the <a href="..\sercx\nf-sercx-sercx_activity_init.md">SERCX_ACTIVITY_INIT</a> function to initialize this structure before its initial use. Thereafter, each <b>SerCxGetActivity</b> call updates the contents of this structure to track the work items that are ready to be processed by the controller driver.
+A pointer to a caller-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/hh439527">SERCX_ACTIVITY</a> structure. The caller must have previously called the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439532">SERCX_ACTIVITY_INIT</a> function to initialize this structure before its initial use. Thereafter, each <b>SerCxGetActivity</b> call updates the contents of this structure to track the work items that are ready to be processed by the controller driver.
 
 
 ## -returns
@@ -105,28 +95,27 @@ A lock protects the <b>SERCX_ACTIVITY</b> structure that is updated by the <b>Se
 
 ## -see-also
 
-<a href="..\sercx\nf-sercx-sercxcompletewait.md">SerCxCompleteWait</a>
 
 
 
-<a href="..\sercx\nf-sercx-sercx_activity_init.md">SERCX_ACTIVITY_INIT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439527">SERCX_ACTIVITY</a>
 
 
 
-<a href="..\sercx\ns-sercx-_sercx_activity.md">SERCX_ACTIVITY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439532">SERCX_ACTIVITY_INIT</a>
 
 
 
-<a href="..\sercx\nf-sercx-sercxprogressreceive.md">SerCxProgressReceive</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406677">SerCxCompleteWait</a>
 
 
 
-<a href="..\sercx\nf-sercx-sercxprogresstransmit.md">SerCxProgressTransmit</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406713">SerCxProgressReceive</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406715">SerCxProgressTransmit</a>
  
 
  
-
 

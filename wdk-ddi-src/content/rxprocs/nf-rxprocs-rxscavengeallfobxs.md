@@ -7,7 +7,7 @@ old-location: ifsk\rxscavengeallfobxs.htm
 old-project: ifsk
 ms.assetid: dd849f18-6271-483a-9c00-b7fe50109989
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: RxScavengeAllFobxs, RxScavengeAllFobxs function [Installable File System Drivers], ifsk.rxscavengeallfobxs, rxprocs/RxScavengeAllFobxs, rxref_d983b334-0cc7-42ab-abc7-79f1bc0876cd.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	rxprocs.h
 api_name:
 -	RxScavengeAllFobxs
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RX_CONTEXT, *PRX_CONTEXT
 req.product: Windows 10 or later.
@@ -51,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 <b>RxScavengeAllFobxs</b> scavenges all of the FOBX structures associated with a network mini-redirector device object.
-
-
-## -syntax
-
-
-````
-VOID RxScavengeAllFobxs(
-   PRDBSS_DEVICE_OBJECT RxDeviceObject
-);
-````
 
 
 ## -parameters
@@ -105,20 +96,19 @@ The <b>NodeTypeCode</b> member of an FOBX structure is not RDBSS_NTC_FOBX.
 
 ## -see-also
 
-<a href="..\scavengr\nf-scavengr-rxscavengefobxsfornetroot.md">RxScavengeFobxsForNetRoot</a>
 
 
 
-<a href="..\scavengr\nf-scavengr-rxpurgerelatedfobxs.md">RxPurgeRelatedFobxs</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554673">RxPurgeAllFobxs</a>
 
 
 
-<a href="..\rxprocs\nf-rxprocs-rxpurgeallfobxs.md">RxPurgeAllFobxs</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554679">RxPurgeRelatedFobxs</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554713">RxScavengeFobxsForNetRoot</a>
  
 
  
-
 

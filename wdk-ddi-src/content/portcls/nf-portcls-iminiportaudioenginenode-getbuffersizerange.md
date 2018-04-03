@@ -7,7 +7,7 @@ old-location: audio\iminiportaudioenginenode_getbuffersizerange.htm
 old-project: audio
 ms.assetid: 75CBDD4F-618F-4618-9D53-4A8DF40992B0
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/19/2018
 ms.keywords: GetBufferSizeRange method [Audio Devices], GetBufferSizeRange method [Audio Devices], IMiniportAudioEngineNode interface, GetBufferSizeRange,IMiniportAudioEngineNode.GetBufferSizeRange, IMiniportAudioEngineNode, IMiniportAudioEngineNode interface [Audio Devices], GetBufferSizeRange method, IMiniportAudioEngineNode::GetBufferSizeRange, audio.iminiportaudioenginenode_getbuffersizerange, portcls/IMiniportAudioEngineNode::GetBufferSizeRange
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Portcls.h
 api_name:
 -	IMiniportAudioEngineNode.GetBufferSizeRange
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
@@ -50,18 +51,6 @@ req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 
 
 Gets the minimum and maximum buffer size that the hardware audio engine can support.
-
-
-## -syntax
-
-
-````
-NTSTATUS GetBufferSizeRange(
-  [in]  ULONG                           ulNodeId,
-  [in]  KSDATAFORMAT_WAVEFORMATEX       *pKsDataFormatWfx,
-  [out] KSAUDIOENGINE_BUFFER_SIZE_RANGE *pBufferSizeRange
-);
-````
 
 
 ## -parameters
@@ -76,12 +65,12 @@ The ID for the node that represents the audio device.
 
 ### -param pKsDataFormatWfx [in]
 
-A <a href="..\ksmedia\ns-ksmedia-ksdataformat_waveformatex.md">KSDATAFORMAT_WAVEFORMATEX</a> structure that represents the audio data format for the audio device.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff537095">KSDATAFORMAT_WAVEFORMATEX</a> structure that represents the audio data format for the audio device.
 
 
 ### -param pBufferSizeRange [out]
 
-A <a href="..\ksmedia\ns-ksmedia-_tagksaudioengine_buffer_size_range.md">KSAUDIOENGINE_BUFFER_SIZE_RANGE</a> structure that represents the minimum and maximum buffer size that the hardware audio engine can support at the time when it is called.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/hh450864">KSAUDIOENGINE_BUFFER_SIZE_RANGE</a> structure that represents the minimum and maximum buffer size that the hardware audio engine can support at the time when it is called.
 
 
 ## -returns
@@ -97,12 +86,11 @@ code.
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iminiportaudioenginenode.md">IMiniportAudioEngineNode</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn302040">IMiniportAudioEngineNode</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: debugger\setscopeframebyindex.htm
 old-project: debugger
 ms.assetid: 7d5105e3-99c6-4800-88a4-af80a61c253e
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], SetScopeFrameByIndex method, IDebugSymbols3::SetScopeFrameByIndex, IDebugSymbols_451c9980-0e6c-4661-bdb6-396c45cc57dd.xml, SetScopeFrameByIndex method [Windows Debugging], SetScopeFrameByIndex method [Windows Debugging], IDebugSymbols3 interface, SetScopeFrameByIndex,IDebugSymbols3.SetScopeFrameByIndex, dbgeng/IDebugSymbols3::SetScopeFrameByIndex, debugger.setscopeframebyindex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugSymbols3.SetScopeFrameByIndex
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -50,16 +51,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>SetScopeFrameByIndex</b> method sets the current scope to the scope of one of the frames on the call stack.
-
-
-## -syntax
-
-
-````
-HRESULT SetScopeFrameByIndex(
-  [in] ULONG Index
-);
-````
 
 
 ## -parameters
@@ -113,11 +104,6 @@ For more information about scopes, see <a href="https://msdn.microsoft.com/libra
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545862">GetCurrentScopeFrameIndex</a>
 
 
 
@@ -125,7 +111,11 @@ For more information about scopes, see <a href="https://msdn.microsoft.com/libra
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556778">SetScopeFromStoredEvent</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545862">GetCurrentScopeFrameIndex</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550870">IDebugSymbols3</a>
 
 
 
@@ -133,8 +123,8 @@ For more information about scopes, see <a href="https://msdn.microsoft.com/libra
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556778">SetScopeFromStoredEvent</a>
  
 
  
-
 

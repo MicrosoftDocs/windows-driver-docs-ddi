@@ -39,7 +39,8 @@ api_location:
 -	Wdf01000.sys.dll
 api_name:
 -	WdfDmaEnablerCreate
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_DMA_PROFILE
 req.product: Windows 10 or later.
@@ -56,19 +57,6 @@ req.product: Windows 10 or later.
 The <b>WdfDmaEnablerCreate</b> method creates a DMA enabler object. 
 
 
-## -syntax
-
-
-````
-NTSTATUS WdfDmaEnablerCreate(
-  _In_     WDFDEVICE               Device,
-  _In_     PWDF_DMA_ENABLER_CONFIG Config,
-  _In_opt_ PWDF_OBJECT_ATTRIBUTES  Attributes,
-  _Out_    WDFDMAENABLER           *DmaEnablerHandle
-);
-````
-
-
 ## -parameters
 
 
@@ -81,12 +69,12 @@ A handle to a framework device object.
 
 ### -param Config [in]
 
-A pointer to a <a href="..\wdfdmaenabler\ns-wdfdmaenabler-_wdf_dma_enabler_config.md">WDF_DMA_ENABLER_CONFIG</a> structure. Drivers must initialize this structure by calling <a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdf_dma_enabler_config_init.md">WDF_DMA_ENABLER_CONFIG_INIT</a>.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551290">WDF_DMA_ENABLER_CONFIG</a> structure. Drivers must initialize this structure by calling <a href="https://msdn.microsoft.com/b01efb50-a3b2-4ffd-83e6-daa0ebbc6484">WDF_DMA_ENABLER_CONFIG_INIT</a>.
 
 
 ### -param Attributes [in, optional]
 
-A pointer to a <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure that specifies object attributes for the new DMA enabler object. This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES. 
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552400">WDF_OBJECT_ATTRIBUTES</a> structure that specifies object attributes for the new DMA enabler object. This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES. 
 
 
 ### -param DmaEnablerHandle [out]
@@ -136,7 +124,7 @@ An invalid parameter was detected.
 </dl>
 </td>
 <td width="60%">
-The size of the <a href="..\wdfdmaenabler\ns-wdfdmaenabler-_wdf_dma_enabler_config.md">WDF_DMA_ENABLER_CONFIG</a> structure is incorrect.
+The size of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551290">WDF_DMA_ENABLER_CONFIG</a> structure is incorrect.
 
 </td>
 </tr>
@@ -173,11 +161,11 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 Framework-based drivers must call <b>WdfDmaEnablerCreate</b> before creating DMA transactions for a device.
 
-Before a driver calls <b>WdfDmaEnablerCreate</b>, it must call <a href="..\wdfdevice\nf-wdfdevice-wdfdevicesetalignmentrequirement.md">WdfDeviceSetAlignmentRequirement</a>.
+Before a driver calls <b>WdfDmaEnablerCreate</b>, it must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff546861">WdfDeviceSetAlignmentRequirement</a>.
 
-The framework device object that the <i>Device</i> parameter of <b>WdfDmaEnablerCreate</b> specifies always becomes the parent object for the new DMA enabler object. If the driver specifies a different parent in the <b>ParentObject</b> member of the <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure, the framework ignores this value. The framework deletes the DMA enabler object when it deletes the parent object.
+The framework device object that the <i>Device</i> parameter of <b>WdfDmaEnablerCreate</b> specifies always becomes the parent object for the new DMA enabler object. If the driver specifies a different parent in the <b>ParentObject</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552400">WDF_OBJECT_ATTRIBUTES</a> structure, the framework ignores this value. The framework deletes the DMA enabler object when it deletes the parent object.
 
-When called with a  <i>Config</i> parameter that requests a system-mode DMA profile, <b>WdfDmaEnablerCreate</b> creates a partially initialized DMA enabler.  The driver must subsequently call <a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablerconfiguresystemprofile.md">WdfDmaEnablerConfigureSystemProfile</a> to set up the DMA settings for the underlying channels.
+When called with a  <i>Config</i> parameter that requests a system-mode DMA profile, <b>WdfDmaEnablerCreate</b> creates a partially initialized DMA enabler.  The driver must subsequently call <a href="https://msdn.microsoft.com/library/windows/hardware/hh451108">WdfDmaEnablerConfigureSystemProfile</a> to set up the DMA settings for the underlying channels.
 
 For more information about DMA enabler objects and <b>WdfDmaEnablerCreate</b>, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/enabling-dma-transactions">Enabling DMA Transactions</a>.
 
@@ -230,24 +218,23 @@ WdfDeviceSetAlignmentRequirement(
 
 ## -see-also
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicesetalignmentrequirement.md">WdfDeviceSetAlignmentRequirement</a>
 
 
 
-<a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdf_dma_enabler_config_init.md">WDF_DMA_ENABLER_CONFIG_INIT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551290">WDF_DMA_ENABLER_CONFIG</a>
 
 
 
-<a href="..\wdfdmaenabler\ns-wdfdmaenabler-_wdf_dma_enabler_config.md">WDF_DMA_ENABLER_CONFIG</a>
+<a href="https://msdn.microsoft.com/b01efb50-a3b2-4ffd-83e6-daa0ebbc6484">WDF_DMA_ENABLER_CONFIG_INIT</a>
 
 
 
-<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552400">WDF_OBJECT_ATTRIBUTES</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546861">WdfDeviceSetAlignmentRequirement</a>
  
 
  
-
 

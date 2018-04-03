@@ -39,7 +39,8 @@ api_location:
 -	Bdasup.dll
 api_name:
 -	BdaPropertyNodeDescriptors
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSP_BDA_NODE_PIN, *PKSP_BDA_NODE_PIN
 ---
@@ -51,18 +52,6 @@ req.typenames: KSP_BDA_NODE_PIN, *PKSP_BDA_NODE_PIN
 
 
 The <b>BdaPropertyNodeDescriptors</b> function retrieves a list of nodes in a template topology. 
-
-
-## -syntax
-
-
-````
-NTSTATUS BdaPropertyNodeDescriptors(
-  _In_      PIRP               Irp,
-  _In_      PKSPROPERTY        pKSProperty,
-  _Out_opt_ BDANODE_DESCRIPTOR *pguidProperty
-);
-````
 
 
 ## -parameters
@@ -119,6 +108,9 @@ For a list of BDA nodes that are available to create in a template topology, see
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
 
 
@@ -128,11 +120,7 @@ For a list of BDA nodes that are available to create in a template topology, see
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566561">KSPROPSETID_BdaTopology</a>
-
-
-
  
 
  
-
 

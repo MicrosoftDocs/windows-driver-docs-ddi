@@ -38,7 +38,8 @@ api_location:
 -	printoem.h
 api_name:
 -	OEMFilterGraphics
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STDVARIABLEINDEX
 req.product: Windows 10 or later.
@@ -50,18 +51,6 @@ req.product: Windows 10 or later.
 ## -description
 
 
-
-
-## -syntax
-
-
-````
-BOOL APIENTRY OEMFilterGraphics(
-       PDEVOBJ                    pdevobj,
-  _In_ _reads_bytes_(dwLen) PBYTE pBuf,
-       DWORD                      dwLen
-);
-````
 
 
 ## -parameters

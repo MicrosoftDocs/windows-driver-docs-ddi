@@ -7,7 +7,7 @@ old-location: kernel\psgetversion.htm
 old-project: kernel
 ms.assetid: db3d2e34-3d83-423d-b446-2800d53a8220
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: PsGetVersion, PsGetVersion function [Kernel-Mode Driver Architecture], k108_3c73c1e7-3f02-4598-adae-43c378dcfb08.xml, kernel.psgetversion, wdm/PsGetVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	PsGetVersion
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
@@ -50,22 +51,9 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This function is <u>obsolete</u> in Windows XP and later versions of the Windows operating system. Use <a href="..\wdm\nf-wdm-rtlgetversion.md">RtlGetVersion</a> instead.
+This function is <u>obsolete</u> in Windows XP and later versions of the Windows operating system. Use <a href="https://msdn.microsoft.com/library/windows/hardware/ff561910">RtlGetVersion</a> instead.
 
 <b>PsGetVersion</b> returns caller-selected information about the current version of the NT-based operating system. 
-
-
-## -syntax
-
-
-````
-BOOLEAN PsGetVersion(
-  _Out_opt_ PULONG          MajorVersion,
-  _Out_opt_ PULONG          MinorVersion,
-  _Out_opt_ PULONG          BuildNumber,
-  _Out_opt_ PUNICODE_STRING CSDVersion
-);
-````
 
 
 ## -parameters

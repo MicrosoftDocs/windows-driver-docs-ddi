@@ -7,7 +7,7 @@ old-location: kernel\calculatescattergatherlist.htm
 old-project: kernel
 ms.assetid: d7509502-0965-44b9-8efb-cec4fbe3ac88
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: CalculateScatterGatherList, CalculateScatterGatherList callback function [Kernel-Mode Driver Architecture], PCALCULATE_SCATTER_GATHER_LIST_SIZE, kdma_f2e8ba68-4b5d-4a3c-9e81-1bf84cc7cc48.xml, kernel.calculatescattergatherlist, wdm/CalculateScatterGatherList
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	wdm.h
 api_name:
 -	CalculateScatterGatherList
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
 req.product: Windows 10 or later.
@@ -53,24 +54,6 @@ req.product: Windows 10 or later.
 The <b>CalculateScatterGatherList</b> routine calculates the size, in bytes, of scatter/gather list necessary to hold a given buffer.
 
 
-## -prototype
-
-
-````
-PCALCULATE_SCATTER_GATHER_LIST_SIZE CalculateScatterGatherList;
-
-NTSTATUS CalculateScatterGatherList(
-  _In_      PDMA_ADAPTER DmaAdapter,
-  _In_opt_  PMDL         Mdl,
-  _In_      PVOID        CurrentVa,
-  _In_      ULONG        Length,
-  _Out_     PULONG       ScatterGatherListSize,
-  _Out_opt_ PULONG       NumberOfMapRegisters
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -78,7 +61,7 @@ NTSTATUS CalculateScatterGatherList(
 
 ### -param DmaAdapter [in]
 
-Pointer to the <a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a> structure returned by <a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a> that represents the bus-master adapter or DMA controller.
+Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544062">DMA_ADAPTER</a> structure returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a> that represents the bus-master adapter or DMA controller.
 
 
 ### -param Mdl [in, optional]
@@ -171,44 +154,43 @@ The specified <i>Length</i> is too big to fit within the buffer.
 
 <b>CalculateScatterGatherList</b>
       is not a system routine that can be called directly by name. This routine can be called only by pointer from the address returned in a 
-     <a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
-      structure. Drivers obtain the address of this routine by calling <a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a> with the <b>Version</b> member of the <i>DeviceDescription</i> parameter set to DEVICE_DESCRIPTION_VERSION2. If <b>IoGetDmaAdapter</b> returns <b>NULL</b>, the routine is not available on your platform.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff544071">DMA_OPERATIONS</a>
+      structure. Drivers obtain the address of this routine by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a> with the <b>Version</b> member of the <i>DeviceDescription</i> parameter set to DEVICE_DESCRIPTION_VERSION2. If <b>IoGetDmaAdapter</b> returns <b>NULL</b>, the routine is not available on your platform.
 
 If the caller passes <b>NULL</b> for the <i>Mdl</i> parameter, the routine calculates the maximum possible size needed to hold a scatter/gather list for the specified buffer. If the caller specifies the MDL that contains the buffer in the <i>Mdl</i> parameter, the routine computes the actual size needed to hold the scatter/gather list.
 
-A driver uses <b>CalculateScatterGatherList</b> to allocate a scatter/gather list buffer to pass to <a href="..\wdm\nc-wdm-pbuild_scatter_gather_list.md">BuildScatterGatherList</a>.
+A driver uses <b>CalculateScatterGatherList</b> to allocate a scatter/gather list buffer to pass to <a href="https://msdn.microsoft.com/library/windows/hardware/ff540689">BuildScatterGatherList</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
 
 
 
-<a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540689">BuildScatterGatherList</a>
 
 
 
-<a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543107">DEVICE_DESCRIPTION</a>
 
 
 
-<a href="..\wdm\ns-wdm-_device_description.md">DEVICE_DESCRIPTION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544062">DMA_ADAPTER</a>
 
 
 
-<a href="..\wdm\nc-wdm-pbuild_scatter_gather_list.md">BuildScatterGatherList</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544071">DMA_OPERATIONS</a>
 
 
 
-<a href="..\wdm\ns-wdm-_scatter_gather_list.md">SCATTER_GATHER_LIST</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563664">SCATTER_GATHER_LIST</a>
  
 
  
-
 

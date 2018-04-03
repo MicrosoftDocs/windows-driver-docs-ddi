@@ -7,7 +7,7 @@ old-location: debugger\getidentity.htm
 old-project: debugger
 ms.assetid: 1d4e7c69-bc32-43f6-b45b-fcee2e04dc26
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: GetIdentity method [Windows Debugging], GetIdentity method [Windows Debugging], IDebugClient interface, GetIdentity method [Windows Debugging], IDebugClient2 interface, GetIdentity method [Windows Debugging], IDebugClient3 interface, GetIdentity method [Windows Debugging], IDebugClient4 interface, GetIdentity method [Windows Debugging], IDebugClient5 interface, GetIdentity,IDebugClient4.GetIdentity, IDebugClient interface [Windows Debugging], GetIdentity method, IDebugClient2 interface [Windows Debugging], GetIdentity method, IDebugClient2::GetIdentity, IDebugClient3 interface [Windows Debugging], GetIdentity method, IDebugClient3::GetIdentity, IDebugClient4, IDebugClient4 interface [Windows Debugging], GetIdentity method, IDebugClient4::GetIdentity, IDebugClient5 interface [Windows Debugging], GetIdentity method, IDebugClient5::GetIdentity, IDebugClient::GetIdentity, IDebugClient_7c54bffa-5190-49f5-919d-16bfb851ae36.xml, dbgeng/IDebugClient2::GetIdentity, dbgeng/IDebugClient3::GetIdentity, dbgeng/IDebugClient4::GetIdentity, dbgeng/IDebugClient5::GetIdentity, dbgeng/IDebugClient::GetIdentity, debugger.getidentity
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,8 @@ api_name:
 -	IDebugClient3.GetIdentity
 -	IDebugClient4.GetIdentity
 -	IDebugClient5.GetIdentity
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -54,18 +55,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetIdentity</b>  method returns a string describing the computer and user this client represents.
-
-
-## -syntax
-
-
-````
-HRESULT GetIdentity(
-  [out, optional] PSTR   Buffer,
-  [in]            ULONG  BufferSize,
-  [out, optional] PULONG IdentitySize
-);
-````
 
 
 ## -parameters
@@ -140,32 +129,31 @@ For more information about client objects, see <a href="https://msdn.microsoft.c
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549827">IDebugClient</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550481">IDebugClient2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550488">IDebugClient3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550494">IDebugClient4</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550497">IDebugClient5</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553219">OutputIdentity</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
-
-
-
  
 
  
-
 

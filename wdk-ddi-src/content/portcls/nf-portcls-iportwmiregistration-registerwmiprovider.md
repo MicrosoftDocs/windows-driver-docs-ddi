@@ -7,7 +7,7 @@ old-location: audio\iportwmiregistration_registerwmiprovider.htm
 old-project: audio
 ms.assetid: 5c092cbd-ef05-4b3d-ac9f-20f2fbf2c37c
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/19/2018
 ms.keywords: IPortWMIRegistration, IPortWMIRegistration interface [Audio Devices], RegisterWMIProvider method, IPortWMIRegistration::RegisterWMIProvider, RegisterWMIProvider method [Audio Devices], RegisterWMIProvider method [Audio Devices], IPortWMIRegistration interface, RegisterWMIProvider,IPortWMIRegistration.RegisterWMIProvider, audio.iportwmiregistration_registerwmiprovider, audmp-routines_3a73bed7-3a9f-4be2-8d15-33f707714c94.xml, portcls/IPortWMIRegistration::RegisterWMIProvider
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Portcls.h
 api_name:
 -	IPortWMIRegistration.RegisterWMIProvider
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
@@ -50,17 +51,6 @@ req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 
 
 The <code>RegisterWMIProvider</code> method registers the <a href="https://msdn.microsoft.com/library/windows/hardware/dn938554">Event Tracing for Windows</a> (ETW) capability of the miniport driver with PortCls.
-
-
-## -syntax
-
-
-````
-NTSTATUS RegisterWMIProvider(
-  [in] pDeviceObject      pDeviceObject,
-  [in] MiniportWmiContext MiniportWmiContext
-);
-````
 
 
 ## -parameters
@@ -77,12 +67,12 @@ NTSTATUS RegisterWMIProvider(
 
 #### - MiniportWmiContext [in]
 
-Specifies a pointer to a <a href="..\wmilib\ns-wmilib-_wmilib_context.md">WMILIB_CONTEXT</a> structure that provides registration information for a driver's data blocks and event blocks.
+Specifies a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff565813">WMILIB_CONTEXT</a> structure that provides registration information for a driver's data blocks and event blocks.
 
 
 #### - pDeviceObject [in]
 
-Specifies a pointer to a <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT </a> structure that represents the functional device object of the adapter driver.
+Specifies a pointer to a <a href="https://msdn.microsoft.com/f3522315-cf15-41f7-ac87-c625c7dc8040">DEVICE_OBJECT </a> structure that represents the functional device object of the adapter driver.
 
 
 ## -returns
@@ -105,11 +95,10 @@ For more information about ETW, see <a href="http://go.microsoft.com/fwlink/p/?l
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
 
 
-<a href="..\wmilib\ns-wmilib-_wmilib_context.md">WMILIB_CONTEXT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>
 
 
 
@@ -117,7 +106,7 @@ For more information about ETW, see <a href="http://go.microsoft.com/fwlink/p/?l
 
 
 
-<a href="..\portcls\nn-portcls-iportwmiregistration.md">IPortWMIRegistration</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536935">IPortWMIRegistration</a>
 
 
 
@@ -125,8 +114,8 @@ For more information about ETW, see <a href="http://go.microsoft.com/fwlink/p/?l
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565813">WMILIB_CONTEXT</a>
  
 
  
-
 

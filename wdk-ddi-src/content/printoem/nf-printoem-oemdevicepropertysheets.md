@@ -38,7 +38,8 @@ api_location:
 -	printoem.h
 api_name:
 -	OEMDevicePropertySheets
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STDVARIABLEINDEX
 req.product: Windows 10 or later.
@@ -50,17 +51,6 @@ req.product: Windows 10 or later.
 ## -description
 
 
-
-
-## -syntax
-
-
-````
-LRESULT APIENTRY OEMDevicePropertySheets(
-   PPROPSHEETUI_INFO *pPSUIInfo,
-   LPARAM            lParam
-);
-````
 
 
 ## -parameters

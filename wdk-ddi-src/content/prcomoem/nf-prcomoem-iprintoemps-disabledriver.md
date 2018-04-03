@@ -38,7 +38,8 @@ api_location:
 -	Prcomoem.h
 api_name:
 -	IPrintOemPS.DisableDriver
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
@@ -51,14 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <code>IPrintOemPS::DisableDriver</code> method allows a rendering plug-in for <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">Pscript</a> to free resources that were allocated by the plug-in's <a href="https://msdn.microsoft.com/library/windows/hardware/ff553212">IPrintOemPS::EnableDriver</a> method.
-
-
-## -syntax
-
-
-````
-STDMETHOD DisableDriver();
-````
 
 
 ## -parameters

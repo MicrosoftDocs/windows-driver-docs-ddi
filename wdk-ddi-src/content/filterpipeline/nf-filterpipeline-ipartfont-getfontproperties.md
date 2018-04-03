@@ -38,7 +38,8 @@ api_location:
 -	filterpipeline.h
 api_name:
 -	IPartFont.GetFontProperties
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
@@ -50,17 +51,6 @@ req.typenames: EXpsFontRestriction
 
 
 The <b>GetFontProperties</b> method gets the font properties.
-
-
-## -syntax
-
-
-````
-HRESULT GetFontProperties(
-  [out] BSTR            *pContentType,
-  [out] EXpsFontOptions *pFontOptions
-);
-````
 
 
 ## -parameters

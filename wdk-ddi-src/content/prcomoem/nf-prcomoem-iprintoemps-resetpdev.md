@@ -38,7 +38,8 @@ api_location:
 -	Prcomoem.h
 api_name:
 -	IPrintOemPS.ResetPDEV
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
@@ -53,17 +54,6 @@ req.product: Windows 10 or later.
 The <code>IPrintOemPS::ResetPDEV</code> method allows a rendering plug-in for Pscript5 to reset its PDEV structure.
 
 
-## -syntax
-
-
-````
-STDMETHOD ResetPDEV(
-   PDEVOBJ pdevobjOld,
-   PDEVOBJ pdevobjNew
-);
-````
-
-
 ## -parameters
 
 
@@ -71,7 +61,7 @@ STDMETHOD ResetPDEV(
 
 ### -param pdevobjOld
 
-Caller-supplied pointer to a <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a> structure containing current PDEV information.
+Caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547573">DEVOBJ</a> structure containing current PDEV information.
 
 
 ### -param pdevobjNew

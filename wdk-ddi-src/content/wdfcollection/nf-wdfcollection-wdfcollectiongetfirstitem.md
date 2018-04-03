@@ -41,7 +41,8 @@ api_location:
 -	WUDFx02000.dll.dll
 api_name:
 -	WdfCollectionGetFirstItem
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_CHILD_RETRIEVE_INFO, *PWDF_CHILD_RETRIEVE_INFO
 req.product: Windows 10 or later.
@@ -56,16 +57,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WdfCollectionGetFirstItem</b> method returns a handle to the first object that is in an object collection.
-
-
-## -syntax
-
-
-````
-WDFOBJECT WdfCollectionGetFirstItem(
-  _In_ WDFCOLLECTION Collection
-);
-````
 
 
 ## -parameters
@@ -121,16 +112,15 @@ The following code example removes each item from a collection and deletes each 
 
 ## -see-also
 
-<a href="..\wdfcollection\nf-wdfcollection-wdfcollectiongetlastitem.md">WdfCollectionGetLastItem</a>
 
 
 
-<a href="..\wdfcollection\nf-wdfcollection-wdfcollectiongetitem.md">WdfCollectionGetItem</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545770">WdfCollectionGetItem</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545775">WdfCollectionGetLastItem</a>
  
 
  
-
 

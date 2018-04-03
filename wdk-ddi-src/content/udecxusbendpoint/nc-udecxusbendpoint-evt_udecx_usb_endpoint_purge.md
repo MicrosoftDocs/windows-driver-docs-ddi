@@ -7,7 +7,7 @@ old-location: buses\evt_udecx_usb_endpoint_purge.htm
 old-project: usbref
 ms.assetid: FAC021F0-CF37-4A28-BE89-D6BD77B8B708
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: EVT_UDECX_USB_ENDPOINT_PURGE, EvtUsbEndpointPurge, EvtUsbEndpointPurge callback function [Buses], buses.evt_udecx_usb_endpoint_purge, udecxusbendpoint/EvtUsbEndpointPurge
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	UdecxUsbEndpoint.h
 api_name:
 -	EvtUsbEndpointPurge
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UDECX_USB_ENDPOINT_INIT_AND_METADATA, *PUDECX_USB_ENDPOINT_INIT_AND_METADATA
 req.product: Windows 10 or later.
@@ -53,19 +54,6 @@ req.product: Windows 10 or later.
 The USB device emulation class extension (UdeCx) invokes this callback function to stop queuing I/O requests to the endpoint's queue and cancel unprocessed requests. 
 
 
-## -prototype
-
-
-````
-EVT_UDECX_USB_ENDPOINT_PURGE EvtUsbEndpointPurge;
-
-void EvtUsbEndpointPurge(
-  _In_ UDECXUSBENDPOINT UdecxUsbEndpoint
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -73,7 +61,7 @@ void EvtUsbEndpointPurge(
 
 ### -param UdecxUsbEndpoint [in]
 
-A handle to a UDE endpoint object that represents the endpoint for which I/O requests must be canceled. The client driver retrieved this pointer in the previous call to <a href="..\udecxusbendpoint\nf-udecxusbendpoint-udecxusbendpointcreate.md">UdecxUsbEndpointCreate</a>.
+A handle to a UDE endpoint object that represents the endpoint for which I/O requests must be canceled. The client driver retrieved this pointer in the previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/mt627983">UdecxUsbEndpointCreate</a>.
 
 
 ## -returns
@@ -89,9 +77,9 @@ This callback function does not return a value.
 
 
 
-The client driver registered this callback function in a previous call to <a href="..\udecxusbendpoint\nf-udecxusbendpoint-udecxusbendpointinitsetcallbacks.md">UdecxUsbEndpointInitSetCallbacks</a> by supplying a function pointer to its implementation.
+The client driver registered this callback function in a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/mt627985">UdecxUsbEndpointInitSetCallbacks</a> by supplying a function pointer to its implementation.
 
-In the implementation, the client driver is required to ensure all I/O forwarded from the endpoint’s queue has been completed, and that newly forwarded I/O request fail, until UdeCx invokes <a href="..\udecxusbendpoint\nc-udecxusbendpoint-evt_udecx_usb_endpoint_start.md">EVT_UDECX_USB_ENDPOINT_START</a>. Typically, those tasks are achieved by calling <a href="..\wdfio\nf-wdfio-wdfioqueuepurge.md">WdfIoQueuePurge</a>. This call is asynchronous and the client river must call <a href="..\udecxusbendpoint\nf-udecxusbendpoint-udecxusbendpointpurgecomplete.md">UdecxUsbEndpointPurgeComplete</a>.
+In the implementation, the client driver is required to ensure all I/O forwarded from the endpoint’s queue has been completed, and that newly forwarded I/O request fail, until UdeCx invokes <a href="https://msdn.microsoft.com/library/windows/hardware/mt595918">EVT_UDECX_USB_ENDPOINT_START</a>. Typically, those tasks are achieved by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff548442">WdfIoQueuePurge</a>. This call is asynchronous and the client river must call <a href="https://msdn.microsoft.com/library/windows/hardware/mt627987">UdecxUsbEndpointPurgeComplete</a>.
 
 
 
@@ -99,11 +87,6 @@ In the implementation, the client driver is required to ensure all I/O forwarded
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/managing-i-o-queues">Managing I/O Queues</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
 
 
 
@@ -111,8 +94,12 @@ In the implementation, the client driver is required to ensure all I/O forwarded
 
 
 
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/managing-i-o-queues">Managing I/O Queues</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
  
 
  
-
 

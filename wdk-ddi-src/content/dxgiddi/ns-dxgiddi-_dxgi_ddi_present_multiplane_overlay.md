@@ -7,7 +7,7 @@ old-location: display\dxgi_ddi_present_multiplane_overlay.htm
 old-project: display
 ms.assetid: 18811f98-df57-43ab-b8f7-26301abeb823
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGI_DDI_PRESENT_MULTIPLANE_OVERLAY, DXGI_DDI_PRESENT_MULTIPLANE_OVERLAY structure [Display Devices], _DXGI_DDI_PRESENT_MULTIPLANE_OVERLAY, display.dxgi_ddi_present_multiplane_overlay, dxgiddi/DXGI_DDI_PRESENT_MULTIPLANE_OVERLAY
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Dxgiddi.h
 api_name:
 -	DXGI_DDI_PRESENT_MULTIPLANE_OVERLAY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGI_DDI_PRESENT_MULTIPLANE_OVERLAY
 ---
@@ -50,20 +51,6 @@ req.typenames: DXGI_DDI_PRESENT_MULTIPLANE_OVERLAY
 
 
 Specifies overlay planes to display.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGI_DDI_PRESENT_MULTIPLANE_OVERLAY {
-  UINT                                   LayerIndex;
-  BOOL                                   Enabled;
-  DXGI_DDI_HRESOURCE                     hResource;
-  UINT                                   SubResourceIndex;
-  DXGI_DDI_MULTIPLANE_OVERLAY_ATTRIBUTES PlaneAttributes;
-} DXGI_DDI_PRESENT_MULTIPLANE_OVERLAY;
-````
 
 
 ## -struct-fields
@@ -93,17 +80,16 @@ The zero-based index into the resource, which is specified by the handle in the 
 
 ### -field PlaneAttributes
 
-A structure of type <a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_multiplane_overlay_attributes.md">DXGI_DDI_MULTIPLANE_OVERLAY_ATTRIBUTES</a>  that specifies overlay plane attributes.
+A structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/hh780283">DXGI_DDI_MULTIPLANE_OVERLAY_ATTRIBUTES</a>  that specifies overlay plane attributes.
 
 
 ## -see-also
 
-<a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_multiplane_overlay_attributes.md">DXGI_DDI_MULTIPLANE_OVERLAY_ATTRIBUTES</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh780283">DXGI_DDI_MULTIPLANE_OVERLAY_ATTRIBUTES</a>
  
 
  
-
 

@@ -38,7 +38,8 @@ api_location:
 -	Bdatypes.h
 api_name:
 -	BDA_GDDS_DATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BDA_GDDS_DATA, *P_BDA_GDDS_DATA
 ---
@@ -50,19 +51,6 @@ req.typenames: BDA_GDDS_DATA, *P_BDA_GDDS_DATA
 
 
 
-
-
-## -syntax
-
-
-````
-typedef struct _BDA_GDDS_DATA {
-  PBDARESULT lResult;
-  ULONG      ulDataLength;
-  ULONG      ulPercentageProgress;
-  ULONG      argbData[MIN_DIMENSION];
-} BDA_GDDS_DATA, *P_BDA_GDDS_DATA;
-````
 
 
 ## -struct-fields

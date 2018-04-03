@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSINTERVAL
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSINTERVAL, *PKSINTERVAL
 ---
@@ -50,17 +51,6 @@ req.typenames: KSINTERVAL, *PKSINTERVAL
 
 
 The KSINTERVAL structure specifies a base time and time interval for recurring events.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  LONGLONG TimeBase;
-  LONGLONG Interval;
-} KSINTERVAL, *PKSINTERVAL;
-````
 
 
 ## -struct-fields
@@ -80,7 +70,6 @@ Specifies a recurrence interval, also 64-bit.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561811">KSEVENT_CLOCK_POSITION_MARK</a>
 
 
 
@@ -88,8 +77,8 @@ Specifies a recurrence interval, also 64-bit.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561811">KSEVENT_CLOCK_POSITION_MARK</a>
  
 
  
-
 

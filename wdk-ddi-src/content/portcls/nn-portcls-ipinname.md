@@ -7,7 +7,7 @@ old-location: audio\ipinname.htm
 old-project: audio
 ms.assetid: 3ed209f5-d4ea-44e5-a16c-59fa39053465
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/19/2018
 ms.keywords: IPinName, IPinName interface [Audio Devices], IPinName interface [Audio Devices], described, audio.ipinname, audmp-routines_27ed00c6-3e56-400f-9bed-2c2c84091e74.xml, portcls/IPinName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	portcls.h
 api_name:
 -	IPinName
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---

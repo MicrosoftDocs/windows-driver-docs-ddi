@@ -38,7 +38,8 @@ api_location:
 -	Winsplp.h
 api_name:
 -	BranchOfficeJobDataError
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BranchOfficeJobDataError, *PBranchOfficeJobDataError
 req.product: Windows 10 or later.
@@ -51,27 +52,6 @@ req.product: Windows 10 or later.
 
 
 This structure contains the necessary data for logging a branch office job failure event on a remote server. This is based on standard job-related data available to the spooler.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  DWORD    LastError;
-  LPWSTR   pDocumentName;
-  LPWSTR   pUserName;
-  LPWSTR   pPrinterName;
-  LPWSTR   pDataType;
-  LONGLONG TotalSize;
-  LONGLONG PrintedSize;
-  DWORD    TotalPages;
-  DWORD    PrintedPages;
-  LPWSTR   pMachineName;
-  LPWSTR   pJobError;
-  LPWSTR   pErrorDescription;
-} BranchOfficeJobDataError, *PBranchOfficeJobDataError;
-````
 
 
 ## -struct-fields

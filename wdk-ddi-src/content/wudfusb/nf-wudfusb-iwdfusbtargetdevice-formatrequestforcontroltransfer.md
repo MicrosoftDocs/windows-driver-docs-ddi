@@ -38,7 +38,8 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFUsbTargetDevice.FormatRequestForControlTransfer
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
@@ -55,19 +56,6 @@ req.product: Windows 10 or later.
 The <b>FormatRequestForControlTransfer</b> method formats an I/O request object for a USB control transfer.
 
 
-## -syntax
-
-
-````
-HRESULT FormatRequestForControlTransfer(
-  [in]           IWDFIoRequest        *pRequest,
-  [in]           PWINUSB_SETUP_PACKET SetupPacket,
-  [in, optional] IWDFMemory           *pMemory,
-  [in, optional] PWDFMEMORY_OFFSET    TransferOffset
-);
-````
-
-
 ## -parameters
 
 
@@ -75,7 +63,7 @@ HRESULT FormatRequestForControlTransfer(
 
 ### -param pRequest [in]
 
-A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a> interface for the request object to format. 
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558985">IWDFIoRequest</a> interface for the request object to format. 
 
 
 ### -param SetupPacket [in]
@@ -85,12 +73,12 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 ### -param pMemory [in, optional]
 
-A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a> interface that is used to access the buffer that is used for the control transfer. This parameter is optional.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559249">IWDFMemory</a> interface that is used to access the buffer that is used for the control transfer. This parameter is optional.
 
 
 ### -param TransferOffset [in, optional]
 
-A pointer to a <a href="..\wudfddi_types\ns-wudfddi_types-_wdfmemory_offset.md">WDFMEMORY_OFFSET</a> structure that describes the memory offset that is used for the control transfer. This parameter is optional.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff561398">WDFMEMORY_OFFSET</a> structure that describes the memory offset that is used for the control transfer. This parameter is optional.
 
 
 ## -returns
@@ -240,24 +228,23 @@ CMyDevice::SendControlTransferSynchronously(
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
 
 
 
-<a href="..\wudfddi_types\ns-wudfddi_types-_wdfmemory_offset.md">WDFMEMORY_OFFSET</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558985">IWDFIoRequest</a>
 
 
 
-<a href="..\wudfusb\nn-wudfusb-iwdfusbtargetdevice.md">IWDFUsbTargetDevice</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559249">IWDFMemory</a>
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560362">IWDFUsbTargetDevice</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561398">WDFMEMORY_OFFSET</a>
  
 
  
-
 

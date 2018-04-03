@@ -7,7 +7,7 @@ old-location: audio\iminiportaudioenginenode_getengineformatsize.htm
 old-project: audio
 ms.assetid: 0874EC25-3ABE-410B-B5AC-E98020378D7E
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/19/2018
 ms.keywords: GetEngineFormatSize method [Audio Devices], GetEngineFormatSize method [Audio Devices], IMiniportAudioEngineNode interface, GetEngineFormatSize,IMiniportAudioEngineNode.GetEngineFormatSize, IMiniportAudioEngineNode, IMiniportAudioEngineNode interface [Audio Devices], GetEngineFormatSize method, IMiniportAudioEngineNode::GetEngineFormatSize, audio.iminiportaudioenginenode_getengineformatsize, portcls/IMiniportAudioEngineNode::GetEngineFormatSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Portcls.h
 api_name:
 -	IMiniportAudioEngineNode.GetEngineFormatSize
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
@@ -50,18 +51,6 @@ req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 
 
 Gets the format type and the buffer size for the audio engine's audio data format.
-
-
-## -syntax
-
-
-````
-NTSTATUS GetEngineFormatSize(
-  [in]  ULONG             ulNodeId,
-  [in]  eEngineFormatType formatType,
-  [out] ULONG             *pulFormatSize
-);
-````
 
 
 ## -parameters
@@ -76,7 +65,7 @@ The ID of the audio engine node.
 
 ### -param formatType [in]
 
-An enum of type <a href="..\portcls\ne-portcls-eengineformattype.md">eEngineFormatType</a> that represents the audio data format type.
+An enum of type <a href="https://msdn.microsoft.com/library/windows/hardware/dn302035">eEngineFormatType</a> that represents the audio data format type.
 
 
 ### -param pulFormatSize [out]
@@ -95,16 +84,15 @@ The data buffer size for the format type.
 
 ## -see-also
 
-<a href="..\portcls\ne-portcls-eengineformattype.md">eEngineFormatType</a>
 
 
 
-<a href="..\portcls\nn-portcls-iminiportaudioenginenode.md">IMiniportAudioEngineNode</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn302040">IMiniportAudioEngineNode</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn302035">eEngineFormatType</a>
  
 
  
-
 

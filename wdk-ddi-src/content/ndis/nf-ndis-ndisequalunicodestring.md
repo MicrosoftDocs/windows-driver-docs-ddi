@@ -7,7 +7,7 @@ old-location: netvista\ndisequalunicodestring.htm
 old-project: netvista
 ms.assetid: 8f3abf40-bb47-4fa6-862b-6126edb00b36
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NdisEqualUnicodeString, NdisEqualUnicodeString macro [Network Drivers Starting with Windows Vista], ndis/NdisEqualUnicodeString, ndis_string_ref_ccfcf1e6-b983-47a3-a46e-3a6ff1eb7158.xml, netvista.ndisequalunicodestring
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ndis.h
 api_name:
 -	NdisEqualUnicodeString
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
@@ -52,18 +53,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 The
   <b>NdisEqualUnicodeString</b> function compares two Unicode strings and returns whether they are
   equal.
-
-
-## -syntax
-
-
-````
-BOOLEAN NdisEqualUnicodeString(
-  [in] PNDIS_STRING String1,
-  [in] PNDIS_STRING String2,
-  [in] BOOLEAN      CaseInSensitive
-);
-````
 
 
 ## -parameters
@@ -102,19 +91,18 @@ A Boolean value that is <b>TRUE</b>, if case should be ignored when doing the co
 
 Starting with Windows 2000 and later drivers, a string of type NDIS_STRING is a counted,
     null-terminated Unicode string. That is, NDIS defines the NDIS_STRING type as a 
-    <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> type.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> type.
 
 
 
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
  
 
  
-
 

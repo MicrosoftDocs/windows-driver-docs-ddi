@@ -7,7 +7,7 @@ old-location: ifsk\rtlcreateacl.htm
 old-project: ifsk
 ms.assetid: d7bf1fa0-81e0-4b44-adcd-d8f629453ac8
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: RtlCreateAcl, RtlCreateAcl routine [Installable File System Drivers], ifsk.rtlcreateacl, ntifs/RtlCreateAcl, rtlref_0b8e6b6c-308f-4acd-b109-d6042964ea7f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	RtlCreateAcl
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -50,18 +51,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>RtlCreateAcl</b> routine creates and initializes an access control list (ACL). 
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlCreateAcl(
-  _Out_ PACL  Acl,
-  _In_  ULONG AclLength,
-  _In_  ULONG AceRevision
-);
-````
 
 
 ## -parameters
@@ -175,9 +164,9 @@ The specified revision is not current, or the value of <i>AclLength</i> is too l
 
 
 
-The ACL that is initialized by <b>RtlCreateAcl</b> contains no access control entries (ACE). This ACL is empty, as opposed to being a nonexistent ACL. If an empty ACL is applied to an object, the ACL implicitly denies all access to that object. To add ACEs to the ACL, use <a href="..\ntifs\nf-ntifs-rtladdaccessallowedace.md">RtlAddAccessAllowedAce</a>.
+The ACL that is initialized by <b>RtlCreateAcl</b> contains no access control entries (ACE). This ACL is empty, as opposed to being a nonexistent ACL. If an empty ACL is applied to an object, the ACL implicitly denies all access to that object. To add ACEs to the ACL, use <a href="https://msdn.microsoft.com/library/windows/hardware/ff552092">RtlAddAccessAllowedAce</a>.
 
-To calculate the size of an ACL, add <b>sizeof</b>(ACL) to the size of all the ACEs to be stored in the ACL. To calculate the size of an ACE, add the size of the ACE structure, such as <b>sizeof</b>(ACCESS_ALLOWED_ACE), to the length of the SID associated with the ACE, and then subtract the size of the <b>SidStart</b> member (which is part of both the ACE structure and the SID). Use the <a href="..\ntifs\nf-ntifs-rtllengthsid.md">RtlLengthSid</a> function to get the length of a specified SID.
+To calculate the size of an ACL, add <b>sizeof</b>(ACL) to the size of all the ACEs to be stored in the ACL. To calculate the size of an ACE, add the size of the ACE structure, such as <b>sizeof</b>(ACCESS_ALLOWED_ACE), to the length of the SID associated with the ACE, and then subtract the size of the <b>SidStart</b> member (which is part of both the ACE structure and the SID). Use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553085">RtlLengthSid</a> function to get the length of a specified SID.
 
 The following example shows how to calculate the size of an access-allowed ACE:
 
@@ -219,19 +208,10 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtllengthsid.md">RtlLengthSid</a>
 
 
 
-<a href="..\ntifs\ns-ntifs-_access_allowed_ace.md">ACCESS_ALLOWED_ACE</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-rtladdaccessallowedace.md">RtlAddAccessAllowedAce</a>
-
-
-
-<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538796">ACCESS_ALLOWED_ACE</a>
 
 
 
@@ -239,12 +219,20 @@ For more information about security and access control, see the documentation on
 
 
 
-<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538866">ACL</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552092">RtlAddAccessAllowedAce</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553085">RtlLengthSid</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: kernel\ioctl_ioctl_sysenv_set_variable.htm
 old-project: kernel
 ms.assetid: 2BA555D8-CFD3-4D27-BC38-3B261D2F95EF
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: IOCTL_SYSENV_SET_VARIABLE, IOCTL_SYSENV_SET_VARIABLE control code [Kernel-Mode Driver Architecture], kernel.ioctl_ioctl_sysenv_set_variable, ntddsysenv/IOCTL_SYSENV_SET_VARIABLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ntddsysenv.h
 api_name:
 -	IOCTL_SYSENV_SET_VARIABLE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STORAGE_ZONE_GROUP, *PSTORAGE_ZONE_GROUP
 ---
@@ -64,12 +65,12 @@ Sets the value of the specified system environment variables using
 
 ### -input-buffer
 
-A pointer to a  <a href="..\ntddsysenv\ns-ntddsysenv-_xvariable_name_and_value.md">XVARIABLE_NAME_AND_VALUE</a> structure that contains the information to set.
+A pointer to a  <a href="https://msdn.microsoft.com/library/windows/hardware/mt791536">XVARIABLE_NAME_AND_VALUE</a> structure that contains the information to set.
 
 
 ### -input-buffer-length
 
-The size of the <a href="..\ntddsysenv\ns-ntddsysenv-_xvariable_name_and_value.md">XVARIABLE_NAME_AND_VALUE</a> structure.
+The size of the <a href="https://msdn.microsoft.com/library/windows/hardware/mt791536">XVARIABLE_NAME_AND_VALUE</a> structure.
 
 
 ### -output-buffer
@@ -115,7 +116,6 @@ The size of the <a href="..\ntddsysenv\ns-ntddsysenv-_xvariable_name_and_value.m
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
 
 
 
@@ -123,16 +123,16 @@ The size of the <a href="..\ntddsysenv\ns-ntddsysenv-_xvariable_name_and_value.m
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548651">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548656">WdfIoTargetSendInternalIoctlSynchronously</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548660">WdfIoTargetSendIoctlSynchronously</a>
  
 
  
-
 

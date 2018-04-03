@@ -7,7 +7,7 @@ old-location: display\dxgkddistopdevice.htm
 old-project: display
 ms.assetid: 3c17c7cf-9cfa-421d-a503-88726519fb6c
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_STOP_DEVICE, DmFunctions_c2d7e95b-beba-488a-b046-98e5daa728b9.xml, DxgkDdiStopDevice, DxgkDdiStopDevice callback function [Display Devices], display.dxgkddistopdevice, dispmprt/DxgkDdiStopDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	dispmprt.h
 api_name:
 -	DxgkDdiStopDevice
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 ---
@@ -49,20 +50,7 @@ req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 ## -description
 
 
-The <i>DxgkDdiStopDevice</i> function resets a display adapter and frees resources allocated during <a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a>.
-
-
-## -prototype
-
-
-````
-DXGKDDI_STOP_DEVICE DxgkDdiStopDevice;
-
-NTSTATUS DxgkDdiStopDevice(
-  _In_ const PVOID MiniportDeviceContext
-)
-{ ... }
-````
+The <i>DxgkDdiStopDevice</i> function resets a display adapter and frees resources allocated during <a href="https://msdn.microsoft.com/ffacbb39-2581-4207-841d-28ce57fbc64d">DxgkDdiStartDevice</a>.
 
 
 ## -parameters
@@ -72,7 +60,7 @@ NTSTATUS DxgkDdiStopDevice(
 
 ### -param MiniportDeviceContext [in]
 
-A handle to a context block associated with a display adapter. The display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function previously provided this handle to the DirectX graphics kernel subsystem.
+A handle to a context block associated with a display adapter. The display miniport driver's <a href="https://msdn.microsoft.com/5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea">DxgkDdiAddDevice</a> function previously provided this handle to the DirectX graphics kernel subsystem.
 
 
 ## -returns
@@ -97,12 +85,11 @@ The <i>DxgkDdiStopDevice</i> function should be made pageable.
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a>
 
 
 
+<a href="https://msdn.microsoft.com/ffacbb39-2581-4207-841d-28ce57fbc64d">DxgkDdiStartDevice</a>
  
 
  
-
 

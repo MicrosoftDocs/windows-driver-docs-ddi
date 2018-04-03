@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsFreeDeviceHeader
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,16 +52,6 @@ req.typenames:
 
 
 The <b>KsFreeDeviceHeader</b> function cleans up and frees a previously allocated device header.
-
-
-## -syntax
-
-
-````
-VOID KsFreeDeviceHeader(
-  _In_ KSDEVICE_HEADER Header
-);
-````
 
 
 ## -parameters
@@ -84,12 +75,11 @@ None
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksallocatedeviceheader.md">KsAllocateDeviceHeader</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560958">KsAllocateDeviceHeader</a>
  
 
  
-
 

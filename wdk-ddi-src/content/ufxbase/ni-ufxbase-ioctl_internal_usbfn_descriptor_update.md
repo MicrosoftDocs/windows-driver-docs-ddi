@@ -7,7 +7,7 @@ old-location: buses\ioctl_internal_usbfn_descriptor_update.htm
 old-project: usbref
 ms.assetid: 9BA9BC9E-C04C-48F8-B76A-2D6F779BBE05
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_INTERNAL_USBFN_DESCRIPTOR_UPDATE, IOCTL_INTERNAL_USBFN_DESCRIPTOR_UPDATE control code [Buses], buses.ioctl_internal_usbfn_descriptor_update, ufxbase/IOCTL_INTERNAL_USBFN_DESCRIPTOR_UPDATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ufxbase.h
 api_name:
 -	IOCTL_INTERNAL_USBFN_DESCRIPTOR_UPDATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USBFN_ACTION, *PUSBFN_ACTION
 req.product: Windows 10 or later.
@@ -70,12 +71,12 @@ The size of a <b>USBFNPIPEID</b> value.
 
 ### -output-buffer
 
-The output buffer points to a <a href="..\usbspec\ns-usbspec-_usb_endpoint_descriptor.md">USB_ENDPOINT_DESCRIPTOR</a> structure that describes the endpoint descriptor. To retrieve the structure, the client driver must call <a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveoutputbuffer.md">WdfRequestRetrieveOutputBuffer</a>.
+The output buffer points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff539317">USB_ENDPOINT_DESCRIPTOR</a> structure that describes the endpoint descriptor. To retrieve the structure, the client driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff550018">WdfRequestRetrieveOutputBuffer</a>.
 
 
 ### -output-buffer-length
 
-The size of a <a href="..\usbspec\ns-usbspec-_usb_endpoint_descriptor.md">USB_ENDPOINT_DESCRIPTOR</a> structure.
+The size of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff539317">USB_ENDPOINT_DESCRIPTOR</a> structure.
 
 
 ### -in-out-buffer
@@ -108,7 +109,7 @@ The size of a <a href="..\usbspec\ns-usbspec-_usb_endpoint_descriptor.md">USB_EN
 
 
 
-UFX sends this IOCTL to the command queue created for the endpoint by <a href="..\ufxclient\nf-ufxclient-ufxendpointcreate.md">UfxEndpointCreate</a>.  The client driver is expected to update the configuration of the endpoint on the controller with the parameters contained in the endpoint descriptor.
+UFX sends this IOCTL to the command queue created for the endpoint by <a href="https://msdn.microsoft.com/library/windows/hardware/mt187965">UfxEndpointCreate</a>.  The client driver is expected to update the configuration of the endpoint on the controller with the parameters contained in the endpoint descriptor.
 
 
 

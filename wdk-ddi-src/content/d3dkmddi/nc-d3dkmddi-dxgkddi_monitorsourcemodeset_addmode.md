@@ -7,7 +7,7 @@ old-location: display\dxgk_monitorsourcemodeset_interface_pfnaddmode.htm
 old-project: display
 ms.assetid: 88fe5a2d-d140-4ebc-846d-acea39b8bc73
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_MONITORSOURCEMODESET_ADDMODE, VidPnFunctions_1b037d93-a615-41e1-bc22-bf9565050062.xml, d3dkmddi/pfnAddMode, display.dxgk_monitorsourcemodeset_interface_pfnaddmode, pfnAddMode, pfnAddMode callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	pfnAddMode
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 ---
@@ -52,20 +53,6 @@ req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 The <b>pfnAddMode</b> function adds a monitor source mode to a specified monitor source mode set object.
 
 
-## -prototype
-
-
-````
-DXGKDDI_MONITORSOURCEMODESET_ADDMODE pfnAddMode;
-
-NTSTATUS APIENTRY pfnAddMode(
-  _In_ const D3DKMDT_HMONITORSOURCEMODESET     hMonitorSourceModeSet,
-  _In_ const D3DKMDT_MONITOR_SOURCE_MODE CONST *pMonitorSourceModeInfo
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -73,12 +60,12 @@ NTSTATUS APIENTRY pfnAddMode(
 
 ### -param hMonitorSourceModeSet [in]
 
-[in] A handle to a monitor source mode set object. The display miniport driver previously obtained this handle by calling the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_monitor_acquiremonitorsourcemodeset.md">pfnAcquireMonitorSourceModeSet</a> function of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568433">Monitor interface</a>.
+[in] A handle to a monitor source mode set object. The display miniport driver previously obtained this handle by calling the <a href="https://msdn.microsoft.com/a64197c0-a61f-4989-9b68-4e06b1a69fd4">pfnAcquireMonitorSourceModeSet</a> function of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568433">Monitor interface</a>.
 
 
 ### -param pMonitorSourceModeInfo [in]
 
-[in] A pointer to a <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_monitor_source_mode.md">D3DKMDT_MONITOR_SOURCE_MODE</a> structure that describes the monitor source mode. The display miniport driver previously obtained this structure by calling <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_monitorsourcemodeset_createnewmodeinfo.md">pfnCreateNewModeInfo</a>.
+[in] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff546133">D3DKMDT_MONITOR_SOURCE_MODE</a> structure that describes the monitor source mode. The display miniport driver previously obtained this structure by calling <a href="https://msdn.microsoft.com/314b345c-a40b-418d-a2d8-c7b42e5fd27d">pfnCreateNewModeInfo</a>.
 
 
 ## -returns
@@ -219,12 +206,11 @@ If <i>pMonitorSourceModeInfo</i>-&gt;<b>Preference</b> is equal to D3DKMDT_MP_PR
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_monitorsourcemodeset_createnewmodeinfo.md">pfnCreateNewModeInfo</a>
 
 
 
+<a href="https://msdn.microsoft.com/314b345c-a40b-418d-a2d8-c7b42e5fd27d">pfnCreateNewModeInfo</a>
  
 
  
-
 

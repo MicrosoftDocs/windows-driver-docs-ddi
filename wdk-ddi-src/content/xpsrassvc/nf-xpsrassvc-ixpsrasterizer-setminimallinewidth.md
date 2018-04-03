@@ -38,7 +38,8 @@ api_location:
 -	xpsrassvc.h
 api_name:
 -	IXpsRasterizer.SetMinimalLineWidth
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: XPSRAS_BACKGROUND_COLOR
 req.product: Windows 10 or later.
@@ -51,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <code>SetMinimalLineWidth</code> method allows the caller to set the minimum thickness (in pixels) of the lines that the device can render. The default minimum thickness value is 1 pixel if <code>SetMinimalLineWidth</code> is not called. This minimum thickness value only applies to the Nominal Width Stroke as defined in the XPS Specification v1.0,  Sec 11.6.12. <b>IXpsRasterizer</b> requires that any Nominal Width Stroke is rasterized with either the width specified by its <b>StrokeThickness</b> attribute, or the pixel value set by <code>SetMinimalLineWidth</code> (1 pixel if <code>SetMinimalLineWidth</code> is not called), whichever is bigger.
-
-
-## -syntax
-
-
-````
-HRESULT STDMETHODCALLTYPE SetMinimalLineWidth(
-  [in] INT width
-);
-````
 
 
 ## -parameters
@@ -93,19 +84,6 @@ This method is supported in Windows 7 and later. It is not supported in versions
 
 ## -see-also
 
-<a href="..\xpsrassvc\nn-xpsrassvc-ixpsrasterizernotificationcallback.md">IXpsRasterizerNotificationCallback</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556350">IXpsRasterizationFactory::CreateRasterizer</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556365">IXpsRasterizer::RasterizeRect</a>
-
-
-
-<a href="..\xpsrassvc\nn-xpsrassvc-ixpsrasterizer.md">IXpsRasterizer</a>
 
 
 
@@ -113,8 +91,20 @@ This method is supported in Windows 7 and later. It is not supported in versions
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556350">IXpsRasterizationFactory::CreateRasterizer</a>
+
+
+
+<a href="https://msdn.microsoft.com/1ef99120-2b3b-45aa-bcf7-16bcb9656089">IXpsRasterizer</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556365">IXpsRasterizer::RasterizeRect</a>
+
+
+
+<a href="https://msdn.microsoft.com/7616b5c7-a21f-4db1-923b-ebf2a039b5ec">IXpsRasterizerNotificationCallback</a>
  
 
  
-
 

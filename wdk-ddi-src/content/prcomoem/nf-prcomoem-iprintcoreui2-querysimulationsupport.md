@@ -38,7 +38,8 @@ api_location:
 -	prcomoem.h
 api_name:
 -	IPrintCoreUI2.QuerySimulationSupport
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
@@ -51,20 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <code>IPrintCoreUI2::QuerySimulationSupport</code> method retrieves a spooler simulation capability structure, which indicates the kinds of simulation the spooler supports.
-
-
-## -syntax
-
-
-````
-HRESULT QuerySimulationSupport(
-  [in]  HANDLE hPrinter,
-  [in]  DWORD  dwLevel,
-  [out] PBYTE  pCaps,
-  [in]  DWORD  cbSize,
-  [out] PDWORD pcbNeeded
-);
-````
 
 
 ## -parameters
@@ -93,7 +80,7 @@ Specifies the spooler simulation capability structure returned in the buffer poi
 </td>
 <td>
 
-<a href="..\printoem\ns-printoem-_simulate_caps_1.md">SIMULATE_CAPS_1</a> (defined in printoem.h)
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562652">SIMULATE_CAPS_1</a> (defined in printoem.h)
 
 </td>
 </tr>
@@ -194,16 +181,15 @@ The <code>IPrintCoreUI2::QuerySimulationSupport</code> method stores a spooler s
 
 ## -see-also
 
-<a href="..\prcomoem\nn-prcomoem-iprintcoreui2.md">IPrintCoreUI2</a>
 
 
 
-<a href="..\printoem\ns-printoem-_simulate_caps_1.md">SIMULATE_CAPS_1</a>
+<a href="https://msdn.microsoft.com/e2d2e486-d69d-4a6d-aaab-a7b8806665b4">IPrintCoreUI2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562652">SIMULATE_CAPS_1</a>
  
 
  
-
 

@@ -38,7 +38,8 @@ api_location:
 -	wiautil.h
 api_name:
 -	wiauDbgInit
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SKIP_AMOUNT
 req.product: Windows 10 or later.
@@ -51,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>wiauDbgInit</b> function initializes WIA debugging.
-
-
-## -syntax
-
-
-````
-void __stdcall wiauDbgInit(
-  _In_opt_ HINSTANCE hInstance
-);
-````
 
 
 ## -parameters

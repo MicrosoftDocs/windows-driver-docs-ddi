@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KStrCorrelatedTime
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SOUNDDETECTOR_PATTERNHEADER
 ---
@@ -52,20 +53,6 @@ req.typenames: SOUNDDETECTOR_PATTERNHEADER
 A streaming minidriver's <i>KStrCorrelatedTime</i> routine is called to retrieve both the presentation time and physical time in a correlated manner. This allows the clock owner to completely determine the current time.
 
 
-## -prototype
-
-
-````
-PFNKSCORRELATEDTIME KStrCorrelatedTime;
-
-LONGLONG FASTCALL KStrCorrelatedTime(
-  _In_  PVOID     Context,
-  _Out_ PLONGLONG SystemTime
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -73,7 +60,7 @@ LONGLONG FASTCALL KStrCorrelatedTime(
 
 ### -param Context [in]
 
-Pointer to the minidriver-supplied information context. The minidriver passes the information context to <a href="..\ks\nf-ks-ksallocatedefaultclockex.md">KsAllocateDefaultClockEx</a> in the function's <i>DeferredContext</i> parameter when the minidriver allocates a custom DPC timer object.
+Pointer to the minidriver-supplied information context. The minidriver passes the information context to <a href="https://msdn.microsoft.com/library/windows/hardware/ff560955">KsAllocateDefaultClockEx</a> in the function's <i>DeferredContext</i> parameter when the minidriver allocates a custom DPC timer object.
 
 
 ### -param SystemTime [out]
@@ -96,14 +83,13 @@ Returns the value of the performance counter in units of ticks.
 
 Typically, if a minidriver supplies a <i>KStrCorrelatedTime</i> callback function, the minidriver must also supply <a href="https://msdn.microsoft.com/library/windows/hardware/ff567203">KStrSetTimer</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff567156">KStrCancelTimer</a> callback functions.
 
-The minidriver-supplied <i>KStrCorrelatedTimer </i>must have the same characteristics as <a href="..\wdm\nf-wdm-kequeryperformancecounter.md">KeQueryPerformanceCounter</a>.
+The minidriver-supplied <i>KStrCorrelatedTimer </i>must have the same characteristics as <a href="https://msdn.microsoft.com/library/windows/hardware/ff553053">KeQueryPerformanceCounter</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kequeryperformancecounter.md">KeQueryPerformanceCounter</a>
 
 
 
@@ -115,12 +101,12 @@ The minidriver-supplied <i>KStrCorrelatedTimer </i>must have the same characteri
 
 
 
-<a href="..\ks\nf-ks-ksallocatedefaultclockex.md">KsAllocateDefaultClockEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553053">KeQueryPerformanceCounter</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560955">KsAllocateDefaultClockEx</a>
  
 
  
-
 

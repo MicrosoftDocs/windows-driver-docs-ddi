@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KSPROPERTY_SELECTOR_NODE_S
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSPROPERTY_SELECTOR_NODE_S, *PKSPROPERTY_SELECTOR_NODE_S
 ---
@@ -52,19 +53,6 @@ req.typenames: KSPROPERTY_SELECTOR_NODE_S, *PKSPROPERTY_SELECTOR_NODE_S
 The KSPROPERTY_SELECTOR_NODE_S structure describes node-based property settings in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567810">PROPSETID_VIDCAP_SELECTOR</a> property set.
 
 
-## -syntax
-
-
-````
-typedef struct {
-  KSP_NODE NodeProperty;
-  LONG     Value;
-  ULONG    Flags;
-  ULONG    Capabilities;
-} KSPROPERTY_SELECTOR_NODE_S, *PKSPROPERTY_SELECTOR_NODE_S;
-````
-
-
 ## -struct-fields
 
 
@@ -72,7 +60,7 @@ typedef struct {
 
 ### -field NodeProperty
 
-Specifies an initialized <a href="..\ks\ns-ks-ksp_node.md">KSP_NODE</a> structure that describes the node, property set, property ID, and request type.
+Specifies an initialized <a href="https://msdn.microsoft.com/library/windows/hardware/ff566720">KSP_NODE</a> structure that describes the node, property set, property ID, and request type.
 
 
 ### -field Value
@@ -92,12 +80,11 @@ Specifies the capabilities of a property. This member has meaning only for Get r
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-ksproperty_selector_s.md">KSPROPERTY_SELECTOR_S</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565219">KSPROPERTY_SELECTOR_S</a>
  
 
  
-
 

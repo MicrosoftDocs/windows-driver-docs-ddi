@@ -38,7 +38,8 @@ api_location:
 -	printoem.h
 api_name:
 -	OEMTextOut
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STDVARIABLEINDEX
 req.product: Windows 10 or later.
@@ -51,25 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <code>OEMTextOut</code> function calls for the driver to render a set of glyphs at specified positions.
-
-
-## -syntax
-
-
-````
-BOOL APIENTRY OEMTextOut(
-   SURFOBJ  *pso,
-   STROBJ   *pstro,
-   FONTOBJ  *pfo,
-   CLIPOBJ  *pco,
-   RECTL    *prclExtra,
-   RECTL    *prclOpaque,
-   BRUSHOBJ *pboFore,
-   BRUSHOBJ *pboOpaque,
-   POINTL   *pptlOrg,
-   MIX      mix
-);
-````
 
 
 ## -parameters

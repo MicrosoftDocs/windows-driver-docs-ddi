@@ -38,7 +38,8 @@ api_location:
 -	filterpipeline.h
 api_name:
 -	IXpsDocument.SetThumbnail
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
@@ -50,16 +51,6 @@ req.typenames: EXpsFontRestriction
 
 
 The <code>SetThumbnail</code> method removes the current thumbnail object from the document and inserts a new one.
-
-
-## -syntax
-
-
-````
-HRESULT SetThumbnail(
-  [in] IPartThumbnail *pThumbnail
-);
-````
 
 
 ## -parameters

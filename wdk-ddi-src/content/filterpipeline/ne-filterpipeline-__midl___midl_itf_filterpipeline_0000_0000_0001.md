@@ -38,7 +38,8 @@ api_location:
 -	filterpipeline.h
 api_name:
 -	EXpsCompressionOptions
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsCompressionOptions
 ---
@@ -50,19 +51,6 @@ req.typenames: EXpsCompressionOptions
 
 
 The ExpsCompressionOptions enumeration describes compression options for an XPS part.
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  Compression_NotCompressed,
-  Compression_Normal,
-  Compression_Small,
-  Compression_Fast
-} EXpsCompressionOptions;
-````
 
 
 ## -enum-fields

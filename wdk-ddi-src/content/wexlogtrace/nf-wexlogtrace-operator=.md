@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	arrayofelements.hpp
 api_name:
 -	ExtRemoteTyped.operator=
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TTraceLevel
 req.product: Windows 10 or later.
@@ -95,7 +96,7 @@ The typed data can also be copied using the <a href="..\engextcpp\nf-engextcpp-e
 
 ## -see-also
 
-<a href="..\wdbgexts\ns-wdbgexts-_debug_typed_data.md">DEBUG_TYPED_DATA</a>
+<a href="..\engextcpp\nl-engextcpp-extremotetyped.md">ExtRemoteTyped</a>
 
 
 
@@ -103,7 +104,7 @@ The typed data can also be copied using the <a href="..\engextcpp\nf-engextcpp-e
 
 
 
-<a href="..\engextcpp\nl-engextcpp-extremotetyped.md">ExtRemoteTyped</a>
+<a href="..\wdbgexts\ns-wdbgexts-_debug_typed_data.md">DEBUG_TYPED_DATA</a>
 
 
 

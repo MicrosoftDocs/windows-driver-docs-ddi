@@ -7,7 +7,7 @@ old-location: dtf\iwdtftargets2_add.htm
 old-project: dtf
 ms.assetid: 0d8ba3ae-3afd-4f26-9951-0d4bdc9e4d49
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/29/2018
 ms.keywords: Add method [Windows Device Testing Framework], Add method [Windows Device Testing Framework], IWDTFTargets2 interface, Add,IWDTFTargets2.Add, IWDTFTargets2, IWDTFTargets2 interface [Windows Device Testing Framework], Add method, IWDTFTargets2::Add, Microsoft.WDTF.IWDTFTargets2.Add, Microsoft::WDTF::IWDTFTargets2::Add, dtf.iwdtftargets2_add, wdtf/IWDTFTargets2::Add
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	WDTF.Interop.metadata_dll.dll
 api_name:
 -	IWDTFTargets2.Add
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TTraceLevel
 req.product: Windows 10 or later.
@@ -51,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 Add a single item to the collection.
-
-
-## -syntax
-
-
-````
-HRESULT Add(
-  [in] IWDTFTarget2 *pTarget
-);
-````
 
 
 ## -parameters
@@ -84,12 +75,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\wdtf\nn-wdtf-iwdtftargets2.md">IWDTFTargets2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439458">IWDTFTargets2</a>
  
 
  
-
 

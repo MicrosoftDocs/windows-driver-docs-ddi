@@ -38,7 +38,8 @@ api_location:
 -	rilapitypes.h
 api_name:
 -	RILUMTSMRLPARAMMASK
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILUMTSMRLPARAMMASK
 req.product: Windows 10 or later.

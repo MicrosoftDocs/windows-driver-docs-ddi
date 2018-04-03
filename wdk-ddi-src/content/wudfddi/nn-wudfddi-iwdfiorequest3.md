@@ -38,7 +38,8 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFIoRequest3
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
@@ -57,7 +58,7 @@ To obtain the <b>IWDFIoRequest3</b> interface, drivers call <b>IWDFIoRequest::Qu
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFIoRequest3</b> interface inherits from <a href="..\wudfddi\nn-wudfddi-iwdfiorequest2.md">IWDFIoRequest2</a>. <b>IWDFIoRequest3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFIoRequest3</b> interface inherits from <a href="https://msdn.microsoft.com/library/windows/hardware/ff558988">IWDFIoRequest2</a>. <b>IWDFIoRequest3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -119,12 +120,11 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451354">SetUs
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest2.md">IWDFIoRequest2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558988">IWDFIoRequest2</a>
  
 
  
-
 

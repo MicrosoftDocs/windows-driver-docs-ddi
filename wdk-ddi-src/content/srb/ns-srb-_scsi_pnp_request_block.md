@@ -7,7 +7,7 @@ old-location: storage\scsi_pnp_request_block.htm
 old-project: storage
 ms.assetid: 0627065b-62c2-4df8-973c-b4fb5811296e
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSCSI_PNP_REQUEST_BLOCK, PSCSI_PNP_REQUEST_BLOCK, PSCSI_PNP_REQUEST_BLOCK structure pointer [Storage Devices], SCSI_PNP_REQUEST_BLOCK, SCSI_PNP_REQUEST_BLOCK structure [Storage Devices], StorFilterResourceRequirements, StorQueryCapabilities, StorQueryResourceRequirements, StorRemoveDevice, StorStartDevice, StorStopDevice, StorSupriseRemoval, _SCSI_PNP_REQUEST_BLOCK, storage.scsi_pnp_request_block, storport/PSCSI_PNP_REQUEST_BLOCK, storport/SCSI_PNP_REQUEST_BLOCK, structs-storport_d08ea849-f1d6-4584-b6a4-df7127f6873d.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	storport.h
 api_name:
 -	SCSI_PNP_REQUEST_BLOCK
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SCSI_PNP_REQUEST_BLOCK, *PSCSI_PNP_REQUEST_BLOCK
 req.product: Windows 10 or later.
@@ -50,38 +51,8 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The<b>SCSI_PNP_REQUEST_BLOCK</b> structure is a special version of a <a href="..\storport\ns-storport-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a> that is used for plug and play (PNP) requests.
+The<b>SCSI_PNP_REQUEST_BLOCK</b> structure is a special version of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff565393">SCSI_REQUEST_BLOCK</a> that is used for plug and play (PNP) requests.
 <div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
-
-## -syntax
-
-
-````
-typedef struct _SCSI_PNP_REQUEST_BLOCK {
-  USHORT                     Length;
-  UCHAR                      Function;
-  UCHAR                      SrbStatus;
-  UCHAR                      PnPSubFunction;
-  UCHAR                      PathId;
-  UCHAR                      TargetId;
-  UCHAR                      Lun;
-  STOR_PNP_ACTION            PnPAction;
-  ULONG                      SrbFlags;
-  ULONG                      DataTransferLength;
-  ULONG                      TimeOutValue;
-  PVOID                      DataBuffer;
-  PVOID                      SenseInfoBuffer;
-  struct _SCSI_REQUEST_BLOCK  *NextSrb;
-  PVOID                      OriginalRequest;
-  PVOID                      SrbExtension;
-  ULONG                      SrbPnPFlags;
-#ifdef _WIN64
-  ULONG                      Reserved;
-#endif 
-  UCHAR                      Reserved4[16];
-} SCSI_PNP_REQUEST_BLOCK, *PSCSI_PNP_REQUEST_BLOCK;
-````
-
 
 ## -struct-fields
 
@@ -100,7 +71,7 @@ The operation to perform. For the <b>SCSI_PNP_REQUEST_BLOCK</b> structure, this 
 
 ### -field SrbStatus
 
-The status of the completed request. The miniport driver should set this value before notifying the Storport driver that the request has completed. A miniport driver notifies the Storport driver that the request has completed by calling the <a href="..\storport\nf-storport-storportnotification.md">StorPortNotification</a> routine with a notification type of <b>RequestComplete</b>. For a list of possible status values, see <a href="..\storport\ns-storport-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>.  
+The status of the completed request. The miniport driver should set this value before notifying the Storport driver that the request has completed. A miniport driver notifies the Storport driver that the request has completed by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567433">StorPortNotification</a> routine with a notification type of <b>RequestComplete</b>. For a list of possible status values, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565393">SCSI_REQUEST_BLOCK</a>.  
 
 
 ### -field PnPSubFunction
@@ -250,7 +221,7 @@ Miniport driver should ignore this member.
 
 ### -field SrbExtension
 
-A pointer to the SRB extension. A miniport driver must not use this member if it set <b>SrbExtensionSize</b> to zero in the <a href="..\strmini\ns-strmini-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a> structure. The Storport driver does not initialize the memory that this member points to. The HBA can directly access the data that the miniport driver writes into the SRB extension. A miniport driver can obtain the physical address of the SRB extension by calling the <a href="..\storport\nf-storport-storportgetphysicaladdress.md">StorPortGetPhysicalAddress</a> routine. 
+A pointer to the SRB extension. A miniport driver must not use this member if it set <b>SrbExtensionSize</b> to zero in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559682">HW_INITIALIZATION_DATA</a> structure. The Storport driver does not initialize the memory that this member points to. The HBA can directly access the data that the miniport driver writes into the SRB extension. A miniport driver can obtain the physical address of the SRB extension by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567095">StorPortGetPhysicalAddress</a> routine. 
 
 
 ### -field SrbPnPFlags
@@ -274,27 +245,26 @@ Reserved for system use.
 
 The Storport driver sends <b>SCSI_PNP_REQUEST_BLOCK</b> requests to a miniport driver to notify the miniport driver of Windows plug and play events that affect storage devices that are connected to the adapter.
 
-The Storport driver calls <a href="..\storport\nc-storport-hw_buildio.md">HwStorBuildIo</a> to pass SRBs to the miniport driver. <b>HwStorBuildIo</b> checks the <b>Function</b> member of the SRB to determine the type of the SRB. If the <b>Function</b> member is set to SRB_FUNCTION_PNP, the SRB is a structure of type <b>SCSI_PNP_REQUEST_BLOCK</b>.
+The Storport driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff557369">HwStorBuildIo</a> to pass SRBs to the miniport driver. <b>HwStorBuildIo</b> checks the <b>Function</b> member of the SRB to determine the type of the SRB. If the <b>Function</b> member is set to SRB_FUNCTION_PNP, the SRB is a structure of type <b>SCSI_PNP_REQUEST_BLOCK</b>.
 
 
 
 
 ## -see-also
 
-<a href="..\storport\ns-storport-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
 
 
 
-<a href="..\storport\nf-storport-storportnotification.md">StorPortNotification</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557369">HwStorBuildIo</a>
 
 
 
-<a href="..\storport\nc-storport-hw_buildio.md">HwStorBuildIo</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565393">SCSI_REQUEST_BLOCK</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567433">StorPortNotification</a>
  
 
  
-
 

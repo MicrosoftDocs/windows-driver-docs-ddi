@@ -7,7 +7,7 @@ old-location: kernel\dpc_watchdog_information.htm
 old-project: kernel
 ms.assetid: 8b0d3fd8-0952-4cfa-81e1-255145fd27dd
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*PKDPC_WATCHDOG_INFORMATION, KDPC_WATCHDOG_INFORMATION, KDPC_WATCHDOG_INFORMATION structure [Kernel-Mode Driver Architecture], PKDPC_WATCHDOG_INFORMATION, PKDPC_WATCHDOG_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _KDPC_WATCHDOG_INFORMATION, kernel.dpc_watchdog_information, kstruct_a_22042f11-ce6d-481a-949a-d6370ab442ad.xml, wdm/KDPC_WATCHDOG_INFORMATION, wdm/PKDPC_WATCHDOG_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	KDPC_WATCHDOG_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KDPC_WATCHDOG_INFORMATION, *PKDPC_WATCHDOG_INFORMATION
 req.product: Windows 10 or later.
@@ -51,20 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>KDPC_WATCHDOG_INFORMATION</b> structure holds time-out information about the current deferred procedure call (DPC). 
-
-
-## -syntax
-
-
-````
-typedef struct _KDPC_WATCHDOG_INFORMATION {
-  ULONG DpcTimeLimit;
-  ULONG DpcTimeCount;
-  ULONG DpcWatchdogLimit;
-  ULONG DpcWatchdogCount;
-  ULONG Reserved;
-} KDPC_WATCHDOG_INFORMATION, *PKDPC_WATCHDOG_INFORMATION;
-````
 
 
 ## -struct-fields
@@ -108,12 +95,11 @@ Time figures stored in each member are dimensionless.
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kequerydpcwatchdoginformation.md">KeQueryDpcWatchdogInformation</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553005">KeQueryDpcWatchdogInformation</a>
  
 
  
-
 

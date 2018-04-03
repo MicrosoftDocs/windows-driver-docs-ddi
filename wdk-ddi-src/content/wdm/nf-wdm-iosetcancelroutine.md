@@ -7,7 +7,7 @@ old-location: kernel\iosetcancelroutine.htm
 old-project: kernel
 ms.assetid: 5bc81897-6463-4588-9348-78a1954216bd
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: IoSetCancelRoutine, IoSetCancelRoutine routine [Kernel-Mode Driver Architecture], k104_a9ac44bc-fe8a-4392-b9f8-d9a90a03fbc0.xml, kernel.iosetcancelroutine, wdm/IoSetCancelRoutine
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	IoSetCancelRoutine
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
@@ -51,17 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>IoSetCancelRoutine</b> routine sets up a driver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/hh406716">Cancel</a> routine to be called if a given IRP is canceled. 
-
-
-## -syntax
-
-
-````
-PDRIVER_CANCEL IoSetCancelRoutine(
-  _In_ PIRP           Irp,
-  _In_ PDRIVER_CANCEL CancelRoutine
-);
-````
 
 
 ## -parameters
@@ -119,7 +109,6 @@ Driver <i>Cancel</i> routines are called at IRQL = DISPATCH_LEVEL with the cance
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549550">IoReleaseCancelSpinLock</a>
 
 
 
@@ -127,8 +116,8 @@ Driver <i>Cancel</i> routines are called at IRQL = DISPATCH_LEVEL with the cance
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549550">IoReleaseCancelSpinLock</a>
  
 
  
-
 

@@ -38,7 +38,8 @@ api_location:
 -	BthXDDI.h
 api_name:
 -	IOCTL_BTHX_GET_VERSION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BTHX_SCO_SUPPORT, *PBTHX_SCO_SUPPORT
 ---
@@ -72,11 +73,11 @@ None.
 
 ### -output-buffer
 
-Profile drivers should use KMDF and its <a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveoutputmemory.md">WdfRequestRetrieveOutputMemory</a> method to retrieve output parameters.  For example, to get the output buffer:
+Profile drivers should use KMDF and its <a href="https://msdn.microsoft.com/library/windows/hardware/ff550019">WdfRequestRetrieveOutputMemory</a> method to retrieve output parameters.  For example, to get the output buffer:
 
 <code>Status = WdfRequestRetrieveOutputMemory(_Request, &amp;ReqOutMemory);</code>
 
-The buffer describes a <a href="..\bthxddi\ns-bthxddi-_bthx_version.md">BTHX_VERSION</a> structure. 
+The buffer describes a <a href="https://msdn.microsoft.com/library/windows/hardware/hh450838">BTHX_VERSION</a> structure. 
 
 Refer to the WDK Bluetooth samples for more information.
 

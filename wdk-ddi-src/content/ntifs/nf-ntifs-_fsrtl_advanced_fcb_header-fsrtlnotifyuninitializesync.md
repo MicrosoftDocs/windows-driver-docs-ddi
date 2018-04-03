@@ -7,7 +7,7 @@ old-location: ifsk\fsrtlnotifyuninitializesync.htm
 old-project: ifsk
 ms.assetid: ac26d5cb-b342-42ec-ad76-23cefe509566
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FsRtlNotifyUninitializeSync, FsRtlNotifyUninitializeSync routine [Installable File System Drivers], fsrtlref_bb1d0439-691c-4a2d-8d0f-750f26d75995.xml, ifsk.fsrtlnotifyuninitializesync, ntifs/FsRtlNotifyUninitializeSync
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	FsRtlNotifyUninitializeSync
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -50,16 +51,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>FsRtlNotifyUninitializeSync</b> routine deallocates the synchronization object for a notify list.
-
-
-## -syntax
-
-
-````
-VOID FsRtlNotifyUninitializeSync(
-  _In_ PNOTIFY_SYNC *NotifySync
-);
-````
 
 
 ## -parameters
@@ -85,19 +76,18 @@ None
 
 
 
-The <b>FsRtlNotifyUninitializeSync</b> routine deallocates an opaque synchronization object that was allocated by an earlier call to <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyinitializesync.md">FsRtlNotifyInitializeSync</a>.
+The <b>FsRtlNotifyUninitializeSync</b> routine deallocates an opaque synchronization object that was allocated by an earlier call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff547045">FsRtlNotifyInitializeSync</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyinitializesync.md">FsRtlNotifyInitializeSync</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547045">FsRtlNotifyInitializeSync</a>
  
 
  
-
 

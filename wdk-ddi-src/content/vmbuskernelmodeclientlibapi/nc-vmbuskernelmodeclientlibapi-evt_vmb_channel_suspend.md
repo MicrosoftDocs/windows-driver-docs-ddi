@@ -7,7 +7,7 @@ old-location: netvista\evt_vmb_channel_suspend.htm
 old-project: netvista
 ms.assetid: 31FED6BE-2E89-4D36-A833-9144AD61B885
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: EVT_VMB_CHANNEL_SUSPEND, EvtVmbChannelSuspend, EvtVmbChannelSuspend callback function [Network Drivers Starting with Windows Vista], PFN_VMB_CHANNEL_SUSPEND, PFN_VMB_CHANNEL_SUSPEND callback function pointer [Network Drivers Starting with Windows Vista], netvista.evt_vmb_channel_suspend, vmbuskernelmodeclientlibapi/EvtVmbChannelSuspend
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	VmbusKernelModeClientLibApi.h
 api_name:
 -	PFN_VMB_CHANNEL_SUSPEND
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
 req.product: Windows 10 or later.
@@ -55,21 +56,6 @@ req.product: Windows 10 or later.
 The <i>EvtVmbChannelSuspend</i> callback function is invoked at the server endpoint when the channel is being
 closed or deleted by the client endpoint, which moves the server into the Stopped
 state.  
-
-
-## -prototype
-
-
-````
-EVT_VMB_CHANNEL_SUSPEND EvtVmbChannelSuspend;
-
-VOID EvtVmbChannelSuspend(
-  _In_ VMBCHANNEL Channel
-)
-{ ... }
-
-typedef EVT_VMB_CHANNEL_SUSPEND PFN_VMB_CHANNEL_SUSPEND;
-````
 
 
 ## -parameters
@@ -95,24 +81,24 @@ This callback function does not return a value.
 
 
 
-After a channel is created, a client driver can specify callback functions for state changes, including  <i>EvtVmbChannelSuspend</i>, by using the <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmb_channel_state_change_callbacks_init.md">VMB_CHANNEL_STATE_CHANGE_CALLBACKS_INIT</a> function.
+After a channel is created, a client driver can specify callback functions for state changes, including  <i>EvtVmbChannelSuspend</i>, by using the <a href="https://msdn.microsoft.com/2255C8A2-85FB-4B96-8AE9-66FAFD73EE73">VMB_CHANNEL_STATE_CHANGE_CALLBACKS_INIT</a> function.
 
-If a running channel is suspended by using the <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelpause.md">VmbChannelPause</a> function or closed by using the <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchanneldisable.md">VmbChannelDisable</a> function or by the opposite endpoint, Kernel Mode Client Library (KMCL) calls <i>EvtVmbChannelSuspend</i>.  This callback guarantees that no more 
-<a href="..\vmbuskernelmodeclientlibapi\nc-vmbuskernelmodeclientlibapi-evt_vmb_channel_process_packet.md">EvtVmbChannelProcessPacket</a> callbacks are running or will be queued.
+If a running channel is suspended by using the <a href="https://msdn.microsoft.com/434CA5F7-24D4-40E7-AE77-C0732D3FBBFF">VmbChannelPause</a> function or closed by using the <a href="https://msdn.microsoft.com/688A1DF3-F801-47C3-8403-9FA5D96BD428">VmbChannelDisable</a> function or by the opposite endpoint, Kernel Mode Client Library (KMCL) calls <i>EvtVmbChannelSuspend</i>.  This callback guarantees that no more 
+<a href="https://msdn.microsoft.com/46020122-0B0E-4C05-8B13-68100B227E93">EvtVmbChannelProcessPacket</a> callbacks are running or will be queued.
 
 <i>EvtVmbChannelSuspend</i> is also a 
 notification that the KMCL client must eventually complete all outstanding 
-packets indicated by using  <a href="..\vmbuskernelmodeclientlibapi\nc-vmbuskernelmodeclientlibapi-evt_vmb_channel_process_packet.md">EvtVmbChannelProcessPacket</a> These packets do 
+packets indicated by using  <a href="https://msdn.microsoft.com/46020122-0B0E-4C05-8B13-68100B227E93">EvtVmbChannelProcessPacket</a> These packets do 
 not have to be completed synchronously.  KMCL blocks until they have 
 been completed.  
 
-The KMCL client must also stop sending packets by using the <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbpacketsend.md">VmbPacketSend</a>, <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbpacketsendwithexternalmdl.md">VmbPacketSendWithExternalMdl</a>, or <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbpacketsendwithexternalpfns.md">VmbPacketSendWithExternalPfns</a> functions.  
+The KMCL client must also stop sending packets by using the <a href="https://msdn.microsoft.com/EBB981CB-0107-497A-B6E6-9271E22A8D5F">VmbPacketSend</a>, <a href="https://msdn.microsoft.com/C1B3FA0C-65B8-4CE1-B8F5-650DF54C9E1E">VmbPacketSendWithExternalMdl</a>, or <a href="https://msdn.microsoft.com/50AACCAB-EFEA-42B7-8A34-FE110C7CDEED">VmbPacketSendWithExternalPfns</a> functions.  
 
 
 
-A call to <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelpause.md">VmbChannelPause</a> on an active channel blocks until 
+A call to <a href="https://msdn.microsoft.com/434CA5F7-24D4-40E7-AE77-C0732D3FBBFF">VmbChannelPause</a> on an active channel blocks until 
 <i>EvtVmbChannelSuspend</i> is called and no more outstanding incoming packets exist.  
-A call to <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchanneldisable.md">VmbChannelDisable</a> block until the channel is paused and closed.
+A call to <a href="https://msdn.microsoft.com/688A1DF3-F801-47C3-8403-9FA5D96BD428">VmbChannelDisable</a> block until the channel is paused and closed.
 
 This function does guarantee completion of outstanding transactions.  The client may be buggy, malicious,
 or the guest virtual machine may have crashed.  The server must retire any outstanding transactions, probably by cancelling them. 
@@ -122,36 +108,35 @@ or the guest virtual machine may have crashed.  The server must retire any outst
 
 ## -see-also
 
-<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchanneldisable.md">VmbChannelDisable</a>
 
 
 
-<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbpacketsendwithexternalpfns.md">VmbPacketSendWithExternalPfns</a>
+<a href="https://msdn.microsoft.com/46020122-0B0E-4C05-8B13-68100B227E93">EvtVmbChannelProcessPacket</a>
 
 
 
-<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbpacketsend.md">VmbPacketSend</a>
+<a href="https://msdn.microsoft.com/2255C8A2-85FB-4B96-8AE9-66FAFD73EE73">VMB_CHANNEL_STATE_CHANGE_CALLBACKS_INIT</a>
 
 
 
-<a href="..\vmbuskernelmodeclientlibapi\nc-vmbuskernelmodeclientlibapi-evt_vmb_channel_process_packet.md">EvtVmbChannelProcessPacket</a>
+<a href="https://msdn.microsoft.com/688A1DF3-F801-47C3-8403-9FA5D96BD428">VmbChannelDisable</a>
 
 
 
-<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbpacketsendwithexternalmdl.md">VmbPacketSendWithExternalMdl</a>
+<a href="https://msdn.microsoft.com/434CA5F7-24D4-40E7-AE77-C0732D3FBBFF">VmbChannelPause</a>
 
 
 
-<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmb_channel_state_change_callbacks_init.md">VMB_CHANNEL_STATE_CHANGE_CALLBACKS_INIT</a>
+<a href="https://msdn.microsoft.com/EBB981CB-0107-497A-B6E6-9271E22A8D5F">VmbPacketSend</a>
 
 
 
-<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelpause.md">VmbChannelPause</a>
+<a href="https://msdn.microsoft.com/C1B3FA0C-65B8-4CE1-B8F5-650DF54C9E1E">VmbPacketSendWithExternalMdl</a>
 
 
 
+<a href="https://msdn.microsoft.com/50AACCAB-EFEA-42B7-8A34-FE110C7CDEED">VmbPacketSendWithExternalPfns</a>
  
 
  
-
 

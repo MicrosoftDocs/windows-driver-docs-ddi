@@ -38,7 +38,8 @@ api_location:
 -	bdatypes.h
 api_name:
 -	BDA_TABLE_SECTION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BDA_TABLE_SECTION, *PBDA_TABLE_SECTION
 ---
@@ -50,19 +51,6 @@ req.typenames: BDA_TABLE_SECTION, *PBDA_TABLE_SECTION
 
 
 The BDA_TABLE_SECTION structure describes a table section. 
-
-
-## -syntax
-
-
-````
-typedef struct _BDA_TABLE_SECTION {
-  ULONG ulPrimarySectionId;
-  ULONG ulSecondarySectionId;
-  ULONG ulcbSectionLength;
-  ULONG argbSectionData[MIN_DIMENSION];
-} BDA_TABLE_SECTION, *PBDA_TABLE_SECTION;
-````
 
 
 ## -struct-fields
@@ -92,12 +80,11 @@ Array of table section data.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566560">KSPROPSETID_BdaTableSection</a>
-
-
-
  
 
  
-
 

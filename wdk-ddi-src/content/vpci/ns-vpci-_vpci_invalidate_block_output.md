@@ -7,7 +7,7 @@ old-location: kernel\vpci_invalidate_block_output.htm
 old-project: kernel
 ms.assetid: 6971C724-CE5E-44BC-8D3A-FAD248771E6F
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*PVPCI_INVALIDATE_BLOCK_OUTPUT, PVPCI_INVALIDATE_BLOCK_OUTPUT, PVPCI_INVALIDATE_BLOCK_OUTPUT structure pointer [Kernel-Mode Driver Architecture], VPCI_INVALIDATE_BLOCK_OUTPUT, VPCI_INVALIDATE_BLOCK_OUTPUT structure [Kernel-Mode Driver Architecture], _VPCI_INVALIDATE_BLOCK_OUTPUT, kernel.vpci_invalidate_block_output, vpci/PVPCI_INVALIDATE_BLOCK_OUTPUT, vpci/VPCI_INVALIDATE_BLOCK_OUTPUT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: DISPATCH_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	Vpci.h
 api_name:
 -	VPCI_INVALIDATE_BLOCK_OUTPUT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VPCI_INVALIDATE_BLOCK_OUTPUT, *PVPCI_INVALIDATE_BLOCK_OUTPUT
 req.product: Windows 10 or later.
@@ -54,16 +55,6 @@ The <b>VPCI_INVALIDATE_BLOCK_OUTPUT</b> structure is used in an <a href="https:/
 
 The driver for a PCI Express (PCIe) virtual function (VF) issues the <b>IOCTL_VPCI_INVALIDATE_BLOCK</b> IOCTL request in order be notified of changes to data in one or more VF configuration blocks. When the IOCTL request is completed, the <b>VPCI_INVALIDATE_BLOCK_OUTPUT</b> structure specifies which VF configuration blocks have been changed.
 <div class="alert"><b>Note</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/hh439301">IOCTL_VPCI_INVALIDATE_BLOCK</a> IOCTL request is issued by the driver of a PCIe  VF on a device that supports the single root I/O virtualization (SR-IOV) interface.</div><div> </div>
-
-## -syntax
-
-
-````
-typedef struct _VPCI_INVALIDATE_BLOCK_OUTPUT {
-  UINT64 BlockMask;
-} VPCI_INVALIDATE_BLOCK_OUTPUT, *PVPCI_INVALIDATE_BLOCK_OUTPUT;
-````
-
 
 ## -struct-fields
 
@@ -102,7 +93,6 @@ However, we recommend that IHVs reserve the first 64 VF configuration blocks for
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439301">IOCTL_VPCI_INVALIDATE_BLOCK</a>
 
 
 
@@ -110,8 +100,8 @@ However, we recommend that IHVs reserve the first 64 VF configuration blocks for
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439301">IOCTL_VPCI_INVALIDATE_BLOCK</a>
  
 
  
-
 

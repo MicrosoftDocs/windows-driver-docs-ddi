@@ -38,7 +38,8 @@ api_location:
 -	printoem.h
 api_name:
 -	OEMAlphaBlend
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STDVARIABLEINDEX
 req.product: Windows 10 or later.
@@ -50,22 +51,6 @@ req.product: Windows 10 or later.
 ## -description
 
 
-
-
-## -syntax
-
-
-````
-BOOL  APIENTRY OEMAlphaBlend(
-   SURFOBJ  *psoDest,
-   SURFOBJ  *psoSrc,
-   CLIPOBJ  *pco,
-   XLATEOBJ *pxlo,
-   RECTL    *prclDest,
-   RECTL    *prclSrc,
-   BLENDOBJ *pBlendObj
-);
-````
 
 
 ## -parameters

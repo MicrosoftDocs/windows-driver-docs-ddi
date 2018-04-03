@@ -5,6 +5,7 @@
 ### [TAPE_PROCESS_COMMAND_ROUTINE callback](../minitape/nc-minitape-tape_process_command_routine.md)
 ### [TAPE_VERIFY_INQUIRY_ROUTINE callback](../minitape/nc-minitape-tape_verify_inquiry_routine.md)
 ### [*PSTOR_POWER_ACTION enumeration](../minitape/ne-minitape-pstor_power_action.md)
+### [STOR_POWER_ACTION enumeration](../minitape/ne-minitape-stor_power_action.md)
 ### [_SES_DOWNLOAD_MICROCODE_STATE enumeration](../minitape/ne-minitape-_ses_download_microcode_state.md)
 ### [_STORAGE_MEDIA_TYPE enumeration](../minitape/ne-minitape-_storage_media_type.md)
 ### [_STOR_DEVICE_POWER_STATE enumeration](../minitape/ne-minitape-_stor_device_power_state.md)

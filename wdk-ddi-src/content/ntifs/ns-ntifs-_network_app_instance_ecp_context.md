@@ -7,7 +7,7 @@ old-location: ifsk\network_app_instance_ecp_context.htm
 old-project: ifsk
 ms.assetid: ADB7550F-9191-4EAA-BEBA-0D0D29EC7B03
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: "*PNETWORK_APP_INSTANCE_ECP_CONTEXT, NETWORK_APP_INSTANCE_ECP_CONTEXT, NETWORK_APP_INSTANCE_ECP_CONTEXT structure [Installable File System Drivers], PNETWORK_APP_INSTANCE_ECP_CONTEXT, PNETWORK_APP_INSTANCE_ECP_CONTEXT structure pointer [Installable File System Drivers], _NETWORK_APP_INSTANCE_ECP_CONTEXT, ifsk.network_app_instance_ecp_context, ntifs/NETWORK_APP_INSTANCE_ECP_CONTEXT, ntifs/PNETWORK_APP_INSTANCE_ECP_CONTEXT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ntifs.h
 api_name:
 -	NETWORK_APP_INSTANCE_ECP_CONTEXT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NETWORK_APP_INSTANCE_ECP_CONTEXT, *PNETWORK_APP_INSTANCE_ECP_CONTEXT
 ---
@@ -50,18 +51,6 @@ req.typenames: NETWORK_APP_INSTANCE_ECP_CONTEXT, *PNETWORK_APP_INSTANCE_ECP_CONT
 
 
 The <b>NETWORK_APP_INSTANCE_ECP_CONTEXT</b> structure is an Extra Create Parameter (ECP) and contains an application instance identifier  to associate with a file. This structure is used to identify the files opened for a failover cluster client application when that application resumes access to its files on another node. 
-
-
-## -syntax
-
-
-````
-typedef struct _NETWORK_APP_INSTANCE_ECP_CONTEXT {
-  USHORT Size;
-  USHORT Reserved;
-  GUID   AppInstanceID;
-} NETWORK_APP_INSTANCE_ECP_CONTEXT, *PNETWORK_APP_INSTANCE_ECP_CONTEXT;
-````
 
 
 ## -struct-fields
@@ -101,7 +90,6 @@ For information about how to use ECPs to associate extra information with a file
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-iocreatefileex.md">IoCreateFileEx</a>
 
 
 
@@ -109,8 +97,8 @@ For information about how to use ECPs to associate extra information with a file
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548283">IoCreateFileEx</a>
  
 
  
-
 

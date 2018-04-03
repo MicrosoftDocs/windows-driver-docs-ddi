@@ -7,7 +7,7 @@ old-location: storage\feature_data_disc_control_blocks_ex.htm
 old-project: storage
 ms.assetid: 08344cf3-7724-4c11-8855-ba061a0284f8
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PFEATURE_DATA_DISC_CONTROL_BLOCKS_EX, FEATURE_DATA_DISC_CONTROL_BLOCKS_EX, FEATURE_DATA_DISC_CONTROL_BLOCKS_EX structure [Storage Devices], PFEATURE_DATA_DISC_CONTROL_BLOCKS_EX, PFEATURE_DATA_DISC_CONTROL_BLOCKS_EX structure pointer [Storage Devices], _FEATURE_DATA_DISC_CONTROL_BLOCKS_EX, ntddmmc/FEATURE_DATA_DISC_CONTROL_BLOCKS_EX, ntddmmc/PFEATURE_DATA_DISC_CONTROL_BLOCKS_EX, storage.feature_data_disc_control_blocks_ex, structs-CD-ROM_5e32d5eb-6a1d-412d-9efe-dba88f85c730.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddmmc.h
 api_name:
 -	FEATURE_DATA_DISC_CONTROL_BLOCKS_EX
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FEATURE_DATA_DISC_CONTROL_BLOCKS_EX, *PFEATURE_DATA_DISC_CONTROL_BLOCKS_EX
 ---
@@ -50,16 +51,6 @@ req.typenames: FEATURE_DATA_DISC_CONTROL_BLOCKS_EX, *PFEATURE_DATA_DISC_CONTROL_
 
 
 The FEATURE_DATA_DISC_CONTROL_BLOCKS_EX structure holds the data reported for a Disc Control Block. 
-
-
-## -syntax
-
-
-````
-typedef struct _FEATURE_DATA_DISC_CONTROL_BLOCKS_EX {
-  UCHAR ContentDescriptor[4];
-} FEATURE_DATA_DISC_CONTROL_BLOCKS_EX, *PFEATURE_DATA_DISC_CONTROL_BLOCKS_EX;
-````
 
 
 ## -struct-fields
@@ -83,12 +74,11 @@ This structure holds data for the feature named "Disc Control Blocks" by the <i>
 
 ## -see-also
 
-<a href="..\ntddmmc\ns-ntddmmc-_feature_data_disc_control_blocks.md">FEATURE_DATA_DISC_CONTROL_BLOCKS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553781">FEATURE_DATA_DISC_CONTROL_BLOCKS</a>
  
 
  
-
 

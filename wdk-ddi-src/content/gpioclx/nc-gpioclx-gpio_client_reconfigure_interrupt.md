@@ -38,7 +38,8 @@ api_location:
 -	Gpioclx.h
 api_name:
 -	CLIENT_ReconfigureInterrupt
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GNSS_V2UPL_NI_INFO, *PGNSS_V2UPL_NI_INFO
 ---
@@ -50,20 +51,6 @@ req.typenames: GNSS_V2UPL_NI_INFO, *PGNSS_V2UPL_NI_INFO
 
 
 The <i>CLIENT_ReconfigureInterrupt</i> event callback function reconfigures a general-purpose I/O (GPIO) pin that is used as an interrupt input.
-
-
-## -prototype
-
-
-````
-GPIO_CLIENT_RECONFIGURE_INTERRUPT CLIENT_ReconfigureInterrupt;
-
-NTSTATUS CLIENT_ReconfigureInterrupt(
-  _In_ PVOID                                   Context,
-  _In_ PGPIO_RECONFIGURE_INTERRUPTS_PARAMETERS ReconfigureParameters
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -143,6 +130,13 @@ The GPIO_CLIENT_RECONFIGURE_INTERRUPT function type is defined in the Gpioclx.h 
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
 
 
@@ -151,16 +145,8 @@ The GPIO_CLIENT_RECONFIGURE_INTERRUPT function type is defined in the Gpioclx.h 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh698256">GPIO_RECONFIGURE_INTERRUPTS_PARAMETERS</a>
-
-
-
  
 
  
-
 

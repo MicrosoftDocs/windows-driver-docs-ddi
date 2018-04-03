@@ -7,7 +7,7 @@ old-location: netvista\ndis_wwan_set_sms_configuration.htm
 old-project: netvista
 ms.assetid: aa191c47-4b3b-464a-8a12-db673fca0f20
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PNDIS_WWAN_SET_SMS_CONFIGURATION, NDIS_WWAN_SET_SMS_CONFIGURATION, NDIS_WWAN_SET_SMS_CONFIGURATION structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SET_SMS_CONFIGURATION, PNDIS_WWAN_SET_SMS_CONFIGURATION structure pointer [Network Drivers Starting with Windows Vista], WwanRef_f118e481-c8ed-4b8b-a6f9-ba1e26fc564f.xml, _NDIS_WWAN_SET_SMS_CONFIGURATION, ndiswwan/NDIS_WWAN_SET_SMS_CONFIGURATION, ndiswwan/PNDIS_WWAN_SET_SMS_CONFIGURATION, netvista.ndis_wwan_set_sms_configuration"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ndiswwan.h
 api_name:
 -	NDIS_WWAN_SET_SMS_CONFIGURATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_WWAN_SET_SMS_CONFIGURATION, *PNDIS_WWAN_SET_SMS_CONFIGURATION
 ---
@@ -51,17 +52,6 @@ req.typenames: NDIS_WWAN_SET_SMS_CONFIGURATION, *PNDIS_WWAN_SET_SMS_CONFIGURATIO
 
 The NDIS_WWAN_SET_SMS_CONFIGURATION structure represents the SMS configuration of the MB
   device.
-
-
-## -syntax
-
-
-````
-typedef struct _NDIS_WWAN_SET_SMS_CONFIGURATION {
-  NDIS_OBJECT_HEADER         Header;
-  WWAN_SET_SMS_CONFIGURATION SetSmsConfiguration;
-} NDIS_WWAN_SET_SMS_CONFIGURATION, *PNDIS_WWAN_SET_SMS_CONFIGURATION;
-````
 
 
 ## -struct-fields
@@ -117,29 +107,28 @@ sizeof(NDIS_WWAN_SET_SMS_CONFIGURATION)
  
 
 For more information about these members, see 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field SetSmsConfiguration
 
 A formatted 
-     <a href="..\wwan\ns-wwan-_wwan_set_sms_configuration.md">
+     <a href="https://msdn.microsoft.com/c3739a08-f4ea-4cc5-8f62-7d4a5cd3ed43">
      WWAN_SET_SMS_CONFIGURATION</a> object that represents the SMS configuration to set on the
      device.
 
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="..\wwan\ns-wwan-_wwan_set_sms_configuration.md">WWAN_SET_SMS_CONFIGURATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571238">WWAN_SET_SMS_CONFIGURATION</a>
  
 
  
-
 

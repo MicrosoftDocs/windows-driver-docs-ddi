@@ -38,7 +38,8 @@ api_location:
 -	stiusd.h
 api_name:
 -	IStiDeviceControl.WriteToErrorLog
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STI_WIA_DEVICE_INFORMATIONW, *PSTI_WIA_DEVICE_INFORMATIONW
 req.product: Windows 10 or later.
@@ -51,18 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>IStiDeviceControl::WriteToErrorLog</b> method allows a user-mode still image minidriver to write a message into the still image error log.
-
-
-## -syntax
-
-
-````
-HRESULT WriteToErrorLog(
-   DWORD   dwMessageType,
-   LPCWSTR pszMessage,
-   DWORD   dwErrorCode
-);
-````
 
 
 ## -parameters

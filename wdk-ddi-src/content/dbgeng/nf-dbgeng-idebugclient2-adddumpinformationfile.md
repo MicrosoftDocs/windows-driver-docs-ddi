@@ -7,7 +7,7 @@ old-location: debugger\adddumpinformationfile.htm
 old-project: debugger
 ms.assetid: c111eb7e-7c42-4848-89d3-177f240fff7f
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: AddDumpInformationFile method [Windows Debugging], AddDumpInformationFile method [Windows Debugging], IDebugClient2 interface, AddDumpInformationFile method [Windows Debugging], IDebugClient3 interface, AddDumpInformationFile method [Windows Debugging], IDebugClient4 interface, AddDumpInformationFile method [Windows Debugging], IDebugClient5 interface, AddDumpInformationFile,IDebugClient2.AddDumpInformationFile, IDebugClient2, IDebugClient2 interface [Windows Debugging], AddDumpInformationFile method, IDebugClient2::AddDumpInformationFile, IDebugClient3 interface [Windows Debugging], AddDumpInformationFile method, IDebugClient3::AddDumpInformationFile, IDebugClient4 interface [Windows Debugging], AddDumpInformationFile method, IDebugClient4::AddDumpInformationFile, IDebugClient5 interface [Windows Debugging], AddDumpInformationFile method, IDebugClient5::AddDumpInformationFile, IDebugClient_11398d02-21c4-4ec5-9e1c-8e7e87808c35.xml, dbgeng/IDebugClient2::AddDumpInformationFile, dbgeng/IDebugClient3::AddDumpInformationFile, dbgeng/IDebugClient4::AddDumpInformationFile, dbgeng/IDebugClient5::AddDumpInformationFile, debugger.adddumpinformationfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,8 @@ api_name:
 -	IDebugClient3.AddDumpInformationFile
 -	IDebugClient4.AddDumpInformationFile
 -	IDebugClient5.AddDumpInformationFile
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -53,17 +54,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>AddDumpInformationFile</b> method registers additional files containing supporting information that will be used when opening a dump file.  The Unicode version of this method is <a href="https://msdn.microsoft.com/library/windows/hardware/ff537874">AddDumpInformationFileWide</a>.
-
-
-## -syntax
-
-
-````
-HRESULT AddDumpInformationFile(
-  [in] PCSTR InfoFile,
-  [in] ULONG Type
-);
-````
 
 
 ## -parameters
@@ -122,7 +112,6 @@ For more information about crash dump files, see <a href="https://msdn.microsoft
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547887">GetNumberDumpFiles</a>
 
 
 
@@ -130,23 +119,27 @@ For more information about crash dump files, see <a href="https://msdn.microsoft
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546586">GetDumpFile</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547887">GetNumberDumpFiles</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550481">IDebugClient2</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552324">OpenDumpFileWide</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550488">IDebugClient3</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550494">IDebugClient4</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550497">IDebugClient5</a>
 
 
 
@@ -154,12 +147,8 @@ For more information about crash dump files, see <a href="https://msdn.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546586">GetDumpFile</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552324">OpenDumpFileWide</a>
  
 
  
-
 

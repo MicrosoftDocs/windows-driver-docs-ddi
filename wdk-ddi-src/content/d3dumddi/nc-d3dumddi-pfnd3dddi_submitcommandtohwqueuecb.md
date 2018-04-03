@@ -7,7 +7,7 @@ old-location: display\pfnd3dddi_submitcommandtohwqueuecb.htm
 old-project: display
 ms.assetid: 8E8B0FE6-ACE5-4610-A0F7-95D426A4AA97
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3DDDI_SUBMITCOMMANDTOHWQUEUECB, PFND3DDDI_SUBMITCOMMANDTOHWQUEUECB callback function [Display Devices], d3dumddi/PFND3DDDI_SUBMITCOMMANDTOHWQUEUECB, display.pfnd3dddi_submitcommandtohwqueuecb
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	PFND3DDDI_SUBMITCOMMANDTOHWQUEUECB
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_PTE
 ---
@@ -50,17 +51,6 @@ req.typenames: DXGK_PTE
 
 
 A callback to submit a command to the hardware queue.
-
-
-## -prototype
-
-
-````
-_Check_return_ HRESULT APIENTRY CALLBACK PFND3DDDI_SUBMITCOMMANDTOHWQUEUECB(
-  _In_ HANDLE                                 hDevice,
-  _In_ D3DDDICB_SUBMITCOMMANDTOHWQUEUE *const submitCommandToHwQueue
-);
-````
 
 
 ## -parameters

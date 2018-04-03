@@ -38,7 +38,8 @@ api_location:
 -	Prcomoem.h
 api_name:
 -	IPrintOemPrintTicketProvider.GetSupportedVersions
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
@@ -51,18 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <code>IPrintOemPrintTicketProvider::GetSupportedVersions</code> method retrieves major versions of the print schemas that are supported by the plug-in provider.
-
-
-## -syntax
-
-
-````
-STDMETHOD GetSupportedVersions(
-  [in]  HANDLE hPrinter,
-  [out] INT    *ppVersions,
-  [out] INT    *cVersions
-);
-````
 
 
 ## -parameters
@@ -109,16 +98,15 @@ The plug-in is responsible for allocating the array memory that is pointed to by
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/a32b5ec9-b4f2-4f33-879d-252806bd34ed">IPrintOemPrintTicketProvider</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553151">IPrintOemPrintTicketProvider::BindPrinter</a>
-
-
-
-<a href="..\prcomoem\nn-prcomoem-iprintoemprintticketprovider.md">IPrintOemPrintTicketProvider</a>
-
-
-
  
 
  
-
 

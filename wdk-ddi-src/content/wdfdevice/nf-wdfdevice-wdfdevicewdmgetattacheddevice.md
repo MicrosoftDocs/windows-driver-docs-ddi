@@ -39,7 +39,8 @@ api_location:
 -	Wdf01000.sys.dll
 api_name:
 -	WdfDeviceWdmGetAttachedDevice
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_STATE_NOTIFICATION_TYPE
 req.product: Windows 10 or later.
@@ -56,16 +57,6 @@ req.product: Windows 10 or later.
 The <b>WdfDeviceWdmGetAttachedDevice</b> method returns the next-lower WDM device object in the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/wdm-concepts-for-kmdf-drivers">device stack</a>.
 
 
-## -syntax
-
-
-````
-PDEVICE_OBJECT WdfDeviceWdmGetAttachedDevice(
-  _In_ WDFDEVICE Device
-);
-````
-
-
 ## -parameters
 
 
@@ -80,7 +71,7 @@ A handle to a framework device object.
 
 
 
-<b>WdfDeviceWdmGetAttachedDevice</b> returns a pointer to a WDM <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure. If the specified object handle represents a physical device object (PDO), the method returns <b>NULL</b>.
+<b>WdfDeviceWdmGetAttachedDevice</b> returns a pointer to a WDM <a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a> structure. If the specified object handle represents a physical device object (PDO), the method returns <b>NULL</b>.
 
 A bug check occurs if the driver supplies an invalid object handle.
 
@@ -91,7 +82,7 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
-The pointer that the <b>WdfDeviceWdmGetAttachedDevice</b> method returns is valid until the framework device object is deleted. If the driver provides an <a href="..\wdfobject\nc-wdfobject-evt_wdf_object_context_cleanup.md">EvtCleanupCallback</a> function for the framework device object, the pointer is valid until the callback function returns.
+The pointer that the <b>WdfDeviceWdmGetAttachedDevice</b> method returns is valid until the framework device object is deleted. If the driver provides an <a href="https://msdn.microsoft.com/aba2efca-7d1f-4594-af65-13356f0e3f8b">EvtCleanupCallback</a> function for the framework device object, the pointer is valid until the callback function returns.
 
 
 #### Examples
@@ -120,16 +111,15 @@ The following code example creates a tracing message that contains pointers to t
 
 ## -see-also
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicewdmgetdeviceobject.md">WdfDeviceWdmGetDeviceObject</a>
 
 
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicewdmgetphysicaldevice.md">WdfDeviceWdmGetPhysicalDevice</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546942">WdfDeviceWdmGetDeviceObject</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546946">WdfDeviceWdmGetPhysicalDevice</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: buses\ioctl_internal_usbfn_transfer_out.htm
 old-project: usbref
 ms.assetid: DDC99C5F-B959-44E4-A4A8-1CBA4E9BDA5A
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_INTERNAL_USBFN_TRANSFER_OUT, IOCTL_INTERNAL_USBFN_TRANSFER_OUT control code [Buses], buses.ioctl_internal_usbfn_transfer_out, usbfnioctl/IOCTL_INTERNAL_USBFN_TRANSFER_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	usbfnioctl.h
 api_name:
 -	IOCTL_INTERNAL_USBFN_TRANSFER_OUT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USBFN_USB_STRING, *PUSBFN_USB_STRING
 req.product: Windows 10 or later.
@@ -113,7 +114,7 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/win
 
 
 
-This request must be sent after sending the <a href="..\usbfnioctl\ni-usbfnioctl-ioctl_internal_usbfn_activate_usb_bus.md">IOCTL_INTERNAL_USBFN_ACTIVATE_USB_BUS</a> request.
+This request must be sent after sending the <a href="https://msdn.microsoft.com/library/windows/hardware/mt187891">IOCTL_INTERNAL_USBFN_ACTIVATE_USB_BUS</a> request.
 
 
 

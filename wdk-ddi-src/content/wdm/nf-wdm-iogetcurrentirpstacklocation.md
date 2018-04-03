@@ -7,7 +7,7 @@ old-location: kernel\iogetcurrentirpstacklocation.htm
 old-project: kernel
 ms.assetid: 75144188-728b-4613-ac69-8cadf0f60233
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: IoGetCurrentIrpStackLocation, IoGetCurrentIrpStackLocation routine [Kernel-Mode Driver Architecture], k104_f92e53c7-8a26-4cb0-859b-b0a7be4dce6a.xml, kernel.iogetcurrentirpstacklocation, wdm/IoGetCurrentIrpStackLocation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	IoGetCurrentIrpStackLocation
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
@@ -53,16 +54,6 @@ req.product: Windows 10 or later.
 The <b>IoGetCurrentIrpStackLocation</b> routine returns a pointer to the caller's I/O stack location in the specified IRP.
 
 
-## -syntax
-
-
-````
-PIO_STACK_LOCATION IoGetCurrentIrpStackLocation(
-  _In_ PIRP Irp
-);
-````
-
-
 ## -parameters
 
 
@@ -70,14 +61,14 @@ PIO_STACK_LOCATION IoGetCurrentIrpStackLocation(
 
 ### -param Irp [in]
 
-A pointer to the <a href="..\wdm\ns-wdm-_irp.md">IRP</a>.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550694">IRP</a>.
 
 
 ## -returns
 
 
 
-<b>IoGetCurrentIrpStackLocation</b> returns a pointer to an <a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a> structure that contains the I/O stack location for the driver.
+<b>IoGetCurrentIrpStackLocation</b> returns a pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550659">IO_STACK_LOCATION</a> structure that contains the I/O stack location for the driver.
 
 
 
@@ -88,35 +79,34 @@ A pointer to the <a href="..\wdm\ns-wdm-_irp.md">IRP</a>.
 
 Every driver must call <b>IoGetCurrentIrpStackLocation</b> with each IRP it is sent in order to get any parameters for the current request. Unless a driver supplies a dispatch routine for each <b>IRP_MJ_<i>XXX</i></b> code that the driver handles, the driver also must check its I/O stack location in the IRP to determine what operation is being requested.
 
-If a driver is passing the same parameters that it received to the next-lower driver, it should call <a href="..\wdm\nf-wdm-iocopycurrentirpstacklocationtonext.md">IoCopyCurrentIrpStackLocationToNext</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff550355">IoSkipCurrentIrpStackLocation</a> instead of getting a pointer to the next-lower stack location and copying the parameters manually.
+If a driver is passing the same parameters that it received to the next-lower driver, it should call <a href="https://msdn.microsoft.com/library/windows/hardware/ff548387">IoCopyCurrentIrpStackLocationToNext</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff550355">IoSkipCurrentIrpStackLocation</a> instead of getting a pointer to the next-lower stack location and copying the parameters manually.
 
 
 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iogetnextirpstacklocation.md">IoGetNextIrpStackLocation</a>
 
 
 
-<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550659">IO_STACK_LOCATION</a>
 
 
 
-<a href="..\wdm\nf-wdm-iosetnextirpstacklocation.md">IoSetNextIrpStackLocation</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550694">IRP</a>
 
 
 
-<a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548336">IoCallDriver</a>
 
 
 
-<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549266">IoGetNextIrpStackLocation</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550321">IoSetNextIrpStackLocation</a>
  
 
  
-
 

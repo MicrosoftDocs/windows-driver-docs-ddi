@@ -7,7 +7,7 @@ old-location: netvista\miniportadddevice.htm
 old-project: netvista
 ms.assetid: 50e04b5a-e430-484c-aabb-cc7b9ecb53b0
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: MINIPORT_ADD_DEVICE, MiniportAddDevice, MiniportAddDevice callback function [Network Drivers Starting with Windows Vista], ndis/MiniportAddDevice, ndis_msix_ref_60df66e2-2e17-4bd1-8793-8310326d883d.xml, netvista.miniportadddevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ndis.h
 api_name:
 -	MiniportAddDevice
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
 ---
@@ -55,20 +56,6 @@ The
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>MINIPORT_ADD_DEVICE</b> type. For more
    information, see the following Examples section.</div><div> </div>
 
-## -prototype
-
-
-````
-MINIPORT_ADD_DEVICE MiniportAddDevice;
-
-NDIS_STATUS MiniportAddDevice(
-  _In_ NDIS_HANDLE NdisMiniportHandle,
-  _In_ NDIS_HANDLE MiniportDriverContext
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -78,7 +65,7 @@ NDIS_STATUS MiniportAddDevice(
 
 An NDIS handle that identifies the miniport adapter that the Plug and Play (PnP) manager is
      adding. NDIS also passes this handle to the 
-     <a href="..\ndis\nc-ndis-miniport_initialize.md">
+     <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">
      MiniportInitializeEx</a> function.
 
 
@@ -86,7 +73,7 @@ An NDIS handle that identifies the miniport adapter that the Plug and Play (PnP)
 
 A handle to a driver-allocated context area where the driver maintains state and configuration
      information. The miniport driver passed this context area to the 
-     <a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">
+     <a href="https://msdn.microsoft.com/bed68aa8-499d-41fd-997b-a46316913cc8">
      NdisMRegisterMiniportDriver</a> function.
 
 
@@ -132,7 +119,7 @@ The miniport driver failed to allocate the required resources.
 </td>
 <td width="60%">
 
-<a href="..\ndis\nc-ndis-miniport_add_device.md">MiniportAddDevice</a> failed for reasons other than insufficient
+<a href="https://msdn.microsoft.com/50e04b5a-e430-484c-aabb-cc7b9ecb53b0">MiniportAddDevice</a> failed for reasons other than insufficient
        resources.
 
 </td>
@@ -141,7 +128,7 @@ The miniport driver failed to allocate the required resources.
  
 
 If 
-     <i>MiniportAddDevice</i> fails, NDIS will not call the <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a> function
+     <i>MiniportAddDevice</i> fails, NDIS will not call the <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a> function
      to initialize the miniport adapter.
 
 
@@ -154,7 +141,7 @@ If
 The 
     <i>MiniportAddDevice</i> function is an optional function. Miniport drivers that
     support MSI-X should specify an entry point for this function in the 
-    <a href="..\ndis\ns-ndis-_ndis_miniport_pnp_characteristics.md">
+    <a href="https://msdn.microsoft.com/97820a22-aa20-4d47-a4c2-0c0d50540823">
     NDIS_MINIPORT_PNP_CHARACTERISTICS</a> structure.
 
 <i>MiniportAddDevice</i> can allocate a context area for handling 
@@ -163,19 +150,19 @@ The
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff559452(d=robot)">
     MiniportFilterResourceRequirements</a> function handles. Miniport drivers specify the context area by
     initializing an 
-    <a href="..\ndis\ns-ndis-_ndis_miniport_add_device_registration_attributes.md">
+    <a href="https://msdn.microsoft.com/7e8b5dbf-2d56-4278-8953-8e21ba1cee06">
     NDIS_MINIPORT_ADD_DEVICE_REGISTRATION_ATTRIBUTES</a> structure and then calling the 
-    <a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">
+    <a href="https://msdn.microsoft.com/861626af-23ea-40dc-a91a-7da42d4b0a1c">
     NdisMSetMiniportAttributes</a> function. NDIS later provides this context handle to the 
-    <a href="..\ndis\nc-ndis-miniport_remove_device.md">MiniportRemoveDevice</a>, 
+    <a href="https://msdn.microsoft.com/24dd887b-575f-4790-bb53-7c3fb825bd61">MiniportRemoveDevice</a>, 
     <i>
     MiniportFilterResourceRequirements</i>, 
-    <a href="..\ndis\nc-ndis-miniport_pnp_irp.md">MiniportStartDevice</a>, and 
-    <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a> functions.
+    <a href="https://msdn.microsoft.com/ccccb2c5-16ba-4463-bb35-1dc3dcc61a2f">MiniportStartDevice</a>, and 
+    <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a> functions.
     For 
     <i>MiniportInitializeEx</i>, the context handle is passed in the 
     <b>MiniportAddDeviceContext</b> member of the 
-    <a href="..\ndis\ns-ndis-_ndis_miniport_init_parameters.md">
+    <a href="https://msdn.microsoft.com/945d921b-3024-4c4f-a50d-e996c6183db7">
     NDIS_MINIPORT_INIT_PARAMETERS</a> structure that the 
     <i>MiniportInitParameters</i> parameter points to.
 
@@ -185,15 +172,15 @@ If the miniport driver fails the
     <i>MiniportAddDevice</i>.
 
 Miniport drivers should use a different context area for the 
-    <b>MiniportAddDeviceContext</b> member of the <a href="..\ndis\ns-ndis-_ndis_miniport_add_device_registration_attributes.md">NDIS_MINIPORT_ADD_DEVICE_REGISTRATION_ATTRIBUTES</a> structure
+    <b>MiniportAddDeviceContext</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565945">NDIS_MINIPORT_ADD_DEVICE_REGISTRATION_ATTRIBUTES</a> structure
     and the 
-    <b>MiniportAdapterContext</b> member of the <a href="..\ndis\ns-ndis-_ndis_miniport_init_parameters.md">NDIS_MINIPORT_INIT_PARAMETERS</a> structure. Separate context
+    <b>MiniportAdapterContext</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565972">NDIS_MINIPORT_INIT_PARAMETERS</a> structure. Separate context
     areas will ensure that information in the context area is not reinitialized, which might occur in the 
     <i>MiniportInitializeEx</i> function if the miniport adapter is halted and
     reinitialized.
 
 When the PnP manager requests that NDIS remove the device, NDIS calls the 
-    <a href="..\ndis\nc-ndis-miniport_remove_device.md">MiniportRemoveDevice</a> function to
+    <a href="https://msdn.microsoft.com/24dd887b-575f-4790-bb53-7c3fb825bd61">MiniportRemoveDevice</a> function to
     undo the operations that 
     <i>MiniportAddDevice</i> performed.
 
@@ -242,29 +229,6 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_miniport_pnp_characteristics.md">
-   NDIS_MINIPORT_PNP_CHARACTERISTICS</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559452(d=robot)">
-   MiniportFilterResourceRequirements</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_remove_device.md">MiniportRemoveDevice</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_miniport_init_parameters.md">NDIS_MINIPORT_INIT_PARAMETERS</a>
 
 
 
@@ -273,21 +237,43 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_miniport_add_device_registration_attributes.md">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559452(d=robot)">
+   MiniportFilterResourceRequirements</a>
+
+
+
+<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/24dd887b-575f-4790-bb53-7c3fb825bd61">MiniportRemoveDevice</a>
+
+
+
+<a href="https://msdn.microsoft.com/ccccb2c5-16ba-4463-bb35-1dc3dcc61a2f">MiniportStartDevice</a>
+
+
+
+<a href="https://msdn.microsoft.com/7e8b5dbf-2d56-4278-8953-8e21ba1cee06">
    NDIS_MINIPORT_ADD_DEVICE_REGISTRATION_ATTRIBUTES</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565972">NDIS_MINIPORT_INIT_PARAMETERS</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_pnp_irp.md">MiniportStartDevice</a>
+<a href="https://msdn.microsoft.com/97820a22-aa20-4d47-a4c2-0c0d50540823">
+   NDIS_MINIPORT_PNP_CHARACTERISTICS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563654">NdisMRegisterMiniportDriver</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563672">NdisMSetMiniportAttributes</a>
  
 
  
-
 

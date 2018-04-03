@@ -38,7 +38,8 @@ api_location:
 -	wdfdevice.h
 api_name:
 -	WDF_DEVICE_POWER_CAPABILITIES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_DEVICE_POWER_CAPABILITIES, *PWDF_DEVICE_POWER_CAPABILITIES
 req.product: Windows 10 or later.
@@ -55,29 +56,6 @@ req.product: Windows 10 or later.
 The WDF_DEVICE_POWER_CAPABILITIES structure describes a device's power capabilities.
 
 
-## -syntax
-
-
-````
-typedef struct _WDF_DEVICE_POWER_CAPABILITIES {
-  ULONG              Size;
-  WDF_TRI_STATE      DeviceD1;
-  WDF_TRI_STATE      DeviceD2;
-  WDF_TRI_STATE      WakeFromD0;
-  WDF_TRI_STATE      WakeFromD1;
-  WDF_TRI_STATE      WakeFromD2;
-  WDF_TRI_STATE      WakeFromD3;
-  DEVICE_POWER_STATE DeviceState[PowerSystemMaximum];
-  DEVICE_POWER_STATE DeviceWake;
-  SYSTEM_POWER_STATE SystemWake;
-  ULONG              D1Latency;
-  ULONG              D2Latency;
-  ULONG              D3Latency;
-  DEVICE_POWER_STATE IdealDxStateForSx;
-} WDF_DEVICE_POWER_CAPABILITIES, *PWDF_DEVICE_POWER_CAPABILITIES;
-````
-
-
 ## -struct-fields
 
 
@@ -90,32 +68,32 @@ The size, in bytes, of this structure.
 
 ### -field DeviceD1
 
-A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_tri_state.md">WDF_TRI_STATE</a>-typed value that indicates, if set to <b>WdfTrue</b>, that the device supports device sleeping state D1. For more information about the <b>WDF_TRI_STATE</b> value, see the following Remarks section.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff552533">WDF_TRI_STATE</a>-typed value that indicates, if set to <b>WdfTrue</b>, that the device supports device sleeping state D1. For more information about the <b>WDF_TRI_STATE</b> value, see the following Remarks section.
 
 
 ### -field DeviceD2
 
-A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_tri_state.md">WDF_TRI_STATE</a>-typed value that indicates, if set to <b>WdfTrue</b>, that the device supports device sleeping state D2. 
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff552533">WDF_TRI_STATE</a>-typed value that indicates, if set to <b>WdfTrue</b>, that the device supports device sleeping state D2. 
 
 
 ### -field WakeFromD0
 
-A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_tri_state.md">WDF_TRI_STATE</a>-typed value that indicates, if set to <b>WdfTrue</b>, that the device can respond to a wake signal while in its D0 state. 
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff552533">WDF_TRI_STATE</a>-typed value that indicates, if set to <b>WdfTrue</b>, that the device can respond to a wake signal while in its D0 state. 
 
 
 ### -field WakeFromD1
 
-A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_tri_state.md">WDF_TRI_STATE</a>-typed value that indicates, if set to <b>WdfTrue</b>, that the device can respond to a wake signal while in its D1 state. 
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff552533">WDF_TRI_STATE</a>-typed value that indicates, if set to <b>WdfTrue</b>, that the device can respond to a wake signal while in its D1 state. 
 
 
 ### -field WakeFromD2
 
-A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_tri_state.md">WDF_TRI_STATE</a>-typed value that indicates, if set to <b>WdfTrue</b>, that the device can respond to a wake signal while in its D2 state. 
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff552533">WDF_TRI_STATE</a>-typed value that indicates, if set to <b>WdfTrue</b>, that the device can respond to a wake signal while in its D2 state. 
 
 
 ### -field WakeFromD3
 
-A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_tri_state.md">WDF_TRI_STATE</a>-typed value that indicates, if set to <b>WdfTrue</b>, that the device can respond to a wake signal while in its D3 state. 
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff552533">WDF_TRI_STATE</a>-typed value that indicates, if set to <b>WdfTrue</b>, that the device can respond to a wake signal while in its D3 state. 
 
 
 ### -field DeviceState
@@ -159,9 +137,9 @@ If a driver specifies an <b>IdealDxStateForSx</b> value that represents a higher
 
 
 
-The WDF_DEVICE_POWER_CAPABILITIES structure is used as input to <a href="..\wdfdevice\nf-wdfdevice-wdfdevicesetpowercapabilities.md">WdfDeviceSetPowerCapabilities</a>.
+The WDF_DEVICE_POWER_CAPABILITIES structure is used as input to <a href="https://msdn.microsoft.com/library/windows/hardware/ff546901">WdfDeviceSetPowerCapabilities</a>.
 
-Several members use the <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_tri_state.md">WDF_TRI_STATE</a> type. For these members, the following rules apply:
+Several members use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552533">WDF_TRI_STATE</a> type. For these members, the following rules apply:
 
 <ul>
 <li>
@@ -173,23 +151,22 @@ Function drivers and filter drivers can specify <b>WdfTrue</b> or <b>WdfFalse</b
 
 </li>
 <li>
-When a bus driver calls <a href="..\wdfdevice\nf-wdfdevice-wdfdevicesetpowercapabilities.md">WdfDeviceSetPowerCapabilities</a> after it <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/creating-device-objects-in-a-bus-driver">creates a device object</a> for a child device, it should specify <b>WdfTrue</b> or <b>WdfFalse</b>. A bus driver can specify <b>WdfUseDefault</b> for a child device, but in this case <b>WdfUseDefault</b> is the same as <b>WdfFalse</b>.
+When a bus driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff546901">WdfDeviceSetPowerCapabilities</a> after it <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/creating-device-objects-in-a-bus-driver">creates a device object</a> for a child device, it should specify <b>WdfTrue</b> or <b>WdfFalse</b>. A bus driver can specify <b>WdfUseDefault</b> for a child device, but in this case <b>WdfUseDefault</b> is the same as <b>WdfFalse</b>.
 
 </li>
 </ul>
-To initialize a WDF_DEVICE_POWER_CAPABILITIES structure, a driver should call <a href="..\wdfdevice\nf-wdfdevice-wdf_device_power_capabilities_init.md">WDF_DEVICE_POWER_CAPABILITIES_INIT</a>.
+To initialize a WDF_DEVICE_POWER_CAPABILITIES structure, a driver should call <a href="https://msdn.microsoft.com/library/windows/hardware/ff551265">WDF_DEVICE_POWER_CAPABILITIES_INIT</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\wdfdevice\ns-wdfdevice-_wdf_device_pnp_capabilities.md">WDF_DEVICE_PNP_CAPABILITIES</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551257">WDF_DEVICE_PNP_CAPABILITIES</a>
  
 
  
-
 

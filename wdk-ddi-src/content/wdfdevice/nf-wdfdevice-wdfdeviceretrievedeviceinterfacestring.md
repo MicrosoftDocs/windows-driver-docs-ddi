@@ -41,7 +41,8 @@ api_location:
 -	WUDFx02000.dll.dll
 api_name:
 -	WdfDeviceRetrieveDeviceInterfaceString
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_STATE_NOTIFICATION_TYPE
 req.product: Windows 10 or later.
@@ -56,19 +57,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WdfDeviceRetrieveDeviceInterfaceString</b> method retrieves the symbolic link name that the operating system assigned to a device interface that the driver registered for a specified device.
-
-
-## -syntax
-
-
-````
-NTSTATUS WdfDeviceRetrieveDeviceInterfaceString(
-  _In_           WDFDEVICE        Device,
-  _In_     const GUID             *InterfaceClassGUID,
-  _In_opt_       PCUNICODE_STRING ReferenceString,
-  _In_           WDFSTRING        String
-);
-````
 
 
 ## -parameters
@@ -88,7 +76,7 @@ A pointer to a GUID that identifies the device interface class.
 
 ### -param ReferenceString [in, optional]
 
-A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that describes a reference string for the device interface. This parameter is optional and can be <b>NULL</b> if the driver did not specify a reference string when it called <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreatedeviceinterface.md">WdfDeviceCreateDeviceInterface</a>. 
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure that describes a reference string for the device interface. This parameter is optional and can be <b>NULL</b> if the driver did not specify a reference string when it called <a href="https://msdn.microsoft.com/library/windows/hardware/ff545935">WdfDeviceCreateDeviceInterface</a>. 
 
 
 ### -param String [in]
@@ -115,7 +103,7 @@ A handle to a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers
 </td>
 <td width="60%">
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceretrievedeviceinterfacestring.md">WdfDeviceRetrieveDeviceInterfaceString</a> was not called at IRQL = PASSIVE_LEVEL. 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546842">WdfDeviceRetrieveDeviceInterfaceString</a> was not called at IRQL = PASSIVE_LEVEL. 
 
 </td>
 </tr>
@@ -137,7 +125,7 @@ An invalid parameter was specified.
 </dl>
 </td>
 <td width="60%">
-The specified device object was initialized by <a href="..\wdfcontrol\nf-wdfcontrol-wdfcontroldeviceinitallocate.md">WdfControlDeviceInitAllocate</a>.
+The specified device object was initialized by <a href="https://msdn.microsoft.com/library/windows/hardware/ff545841">WdfControlDeviceInitAllocate</a>.
 
 </td>
 </tr>
@@ -159,7 +147,7 @@ A device interface that matches the specified GUID and reference string could no
 </dl>
 </td>
 <td width="60%">
-The driver called <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreatedeviceinterface.md">WdfDeviceCreateDeviceInterface</a> but the system has not yet assigned a symbolic link name to the device interface.
+The driver called <a href="https://msdn.microsoft.com/library/windows/hardware/ff545935">WdfDeviceCreateDeviceInterface</a> but the system has not yet assigned a symbolic link name to the device interface.
 
 </td>
 </tr>
@@ -217,24 +205,23 @@ if (NT_SUCCESS(status)) {
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 
-<a href="..\wdfcontrol\nf-wdfcontrol-wdfcontroldeviceinitallocate.md">WdfControlDeviceInitAllocate</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
 
 
 
-<a href="..\wdfstring\nf-wdfstring-wdfstringcreate.md">WdfStringCreate</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545841">WdfControlDeviceInitAllocate</a>
 
 
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreatedeviceinterface.md">WdfDeviceCreateDeviceInterface</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545935">WdfDeviceCreateDeviceInterface</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550046">WdfStringCreate</a>
  
 
  
-
 

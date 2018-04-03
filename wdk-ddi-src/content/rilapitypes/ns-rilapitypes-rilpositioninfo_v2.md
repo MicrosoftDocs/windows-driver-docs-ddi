@@ -38,7 +38,8 @@ api_location:
 -	rilapitypes.h
 api_name:
 -	RILPOSITIONINFO_V2
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILPOSITIONINFO_V2, *LPRILPOSITIONINFO_V2, RILPOSITIONINFO, *LPRILPOSITIONINFO
 req.product: Windows 10 or later.

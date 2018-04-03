@@ -7,7 +7,7 @@ old-location: display\agpreservephysical.htm
 old-project: display
 ms.assetid: b3e21c94-acd5-4767-8ba5-70b2dcfb2aaa
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: AgpReservePhysical, AgpReservePhysical callback function [Display Devices], PAGP_RESERVE_PHYSICAL, VideoPort_Functions_9ce9c724-b077-4821-9b9a-adb3d16f5671.xml, display.agpreservephysical, videoagp/AgpReservePhysical
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	videoagp.h
 api_name:
 -	AgpReservePhysical
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VP_SCATTER_GATHER_LIST, *PVP_SCATTER_GATHER_LIST
 req.product: Windows 10 or later.
@@ -51,22 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>AgpReservePhysical</b> function reserves a range of physical addresses on the system bus to which the AGP controller can respond.
-
-
-## -prototype
-
-
-````
-PAGP_RESERVE_PHYSICAL AgpReservePhysical;
-
-PHYSICAL_ADDRESS APIENTRY AgpReservePhysical(
-  _In_  PVOID                 HwDeviceExtension,
-  _In_  ULONG                 Pages,
-  _In_  VIDEO_PORT_CACHE_TYPE Caching,
-  _Out_ PVOID                 *PhysicalReserveContext
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -145,35 +130,34 @@ Specifies the location in which the video port driver writes a context handle th
 
 
 
-Video miniport drivers that run on Microsoft Windows 2000 should always reserve a range whose size is a multiple of 64 kilobytes. Reserving a range that is not a multiple of 64 kilobytes can result in <a href="..\videoagp\nc-videoagp-pagp_reserve_virtual.md">AgpReserveVirtual</a> or <a href="..\videoagp\nc-videoagp-pagp_commit_virtual.md">AgpCommitVirtual</a> returning an invalid virtual address.
+Video miniport drivers that run on Microsoft Windows 2000 should always reserve a range whose size is a multiple of 64 kilobytes. Reserving a range that is not a multiple of 64 kilobytes can result in <a href="https://msdn.microsoft.com/966dfc6c-6830-4872-b411-2801e3a4b753">AgpReserveVirtual</a> or <a href="https://msdn.microsoft.com/8a3e7fcd-d838-47ad-a42b-7eb070f81418">AgpCommitVirtual</a> returning an invalid virtual address.
 
 On Microsoft Windows XP and later, <b>AgpReservePhysical</b> automatically expands the requested range to a multiple of 64 kilobytes.
 
-Upon successful return, the AGP controller can respond to the reserved physical address range on the bus. However, the video miniport driver must first call <a href="..\videoagp\nc-videoagp-pagp_commit_physical.md">AgpCommitPhysical</a> to cause this memory to be committed before accessing it in order for the accessed results to be defined.
+Upon successful return, the AGP controller can respond to the reserved physical address range on the bus. However, the video miniport driver must first call <a href="https://msdn.microsoft.com/3c3a6936-7435-4a42-99e6-2c048613af23">AgpCommitPhysical</a> to cause this memory to be committed before accessing it in order for the accessed results to be defined.
 
 The miniport driver can call <b>AgpReservePhysical</b> several times to reserve many smaller address ranges rather than one big range.
 
-The miniport driver should call <a href="..\videoagp\nc-videoagp-pagp_release_physical.md">AgpReleasePhysical</a> to release the physical address range when it is no longer needed. 
+The miniport driver should call <a href="https://msdn.microsoft.com/4da0f5cb-a017-4df5-958b-c76b7a08495a">AgpReleasePhysical</a> to release the physical address range when it is no longer needed. 
 
 
 
 
 ## -see-also
 
-<a href="..\videoagp\nc-videoagp-pagp_reserve_virtual.md">AgpReserveVirtual</a>
 
 
 
-<a href="..\videoagp\nc-videoagp-pagp_commit_physical.md">AgpCommitPhysical</a>
+<a href="https://msdn.microsoft.com/3c3a6936-7435-4a42-99e6-2c048613af23">AgpCommitPhysical</a>
 
 
 
-<a href="..\videoagp\nc-videoagp-pagp_release_physical.md">AgpReleasePhysical</a>
+<a href="https://msdn.microsoft.com/4da0f5cb-a017-4df5-958b-c76b7a08495a">AgpReleasePhysical</a>
 
 
 
+<a href="https://msdn.microsoft.com/966dfc6c-6830-4872-b411-2801e3a4b753">AgpReserveVirtual</a>
  
 
  
-
 

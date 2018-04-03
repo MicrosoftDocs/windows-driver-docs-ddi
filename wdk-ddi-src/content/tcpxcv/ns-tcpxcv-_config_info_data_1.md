@@ -38,7 +38,8 @@ api_location:
 -	tcpxcv.h
 api_name:
 -	CONFIG_INFO_DATA_1
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CONFIG_INFO_DATA_1, *PCONFIG_INFO_DATA_1
 req.product: Windows 10 or later.
@@ -51,17 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <a href="https://msdn.microsoft.com/library/windows/hardware/ff564255">XcvData</a> function uses a CONFIG_INFO_DATA_1 structure when it obtains configuration data for a particular port.
-
-
-## -syntax
-
-
-````
-typedef struct _CONFIG_INFO_DATA_1 {
-  BYTE  Reserved[128];
-  DWORD dwVersion;
-} CONFIG_INFO_DATA_1, *PCONFIG_INFO_DATA_1;
-````
 
 
 ## -struct-fields
@@ -83,7 +73,7 @@ Specifies the version of the PORT_DATA_1 structure (currently equal to 1) that w
 
 
 
-When the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564255">XcvData</a> function is called to obtain port configuration information, its <i>pInputData</i> parameter must be set with the address of a CONFIG_INFO_DATA_1 structure, and its <i>pOutputData</i> parameter must be set with the address of a <a href="..\tcpxcv\ns-tcpxcv-_port_data_1.md">PORT_DATA_1</a> structure, which will be filled in when the function returns. Set this function's <i>pszDataName</i> parameter to the string L"GetConfigInfo". 
+When the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564255">XcvData</a> function is called to obtain port configuration information, its <i>pInputData</i> parameter must be set with the address of a CONFIG_INFO_DATA_1 structure, and its <i>pOutputData</i> parameter must be set with the address of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff559892">PORT_DATA_1</a> structure, which will be filled in when the function returns. Set this function's <i>pszDataName</i> parameter to the string L"GetConfigInfo". 
 
 See <a href="https://msdn.microsoft.com/7b2b1cff-ab8f-44e0-9327-dc60a0072bf5">TCPMON Xcv Interface</a> for more information.
 
@@ -92,16 +82,15 @@ See <a href="https://msdn.microsoft.com/7b2b1cff-ab8f-44e0-9327-dc60a0072bf5">TC
 
 ## -see-also
 
-<a href="..\tcpxcv\ns-tcpxcv-_port_data_1.md">PORT_DATA_1</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559892">PORT_DATA_1</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564255">XcvData</a>
-
-
-
  
 
  
-
 

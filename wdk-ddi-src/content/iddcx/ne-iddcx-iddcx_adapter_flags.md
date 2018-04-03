@@ -7,7 +7,7 @@ old-location: display\iddcx_adapter_flags.htm
 old-project: display
 ms.assetid: 832ca4fe-1040-4f07-8c84-f576e5ce6423
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IDDCX_ADAPTER_FLAGS, IDDCX_ADAPTER_FLAGS enumeration [Display Devices], IDDCX_ADAPTER_FLAGS_CAN_USE_MOVE_REGIONS, IDDCX_ADAPTER_FLAGS_NONE, IDDCX_ADAPTER_FLAGS_USE_SMALLEST_MODE, display.iddcx_adapter_flags, iddcx/IDDCX_ADAPTER_FLAGS, iddcx/IDDCX_ADAPTER_FLAGS_CAN_USE_MOVE_REGIONS, iddcx/IDDCX_ADAPTER_FLAGS_NONE, iddcx/IDDCX_ADAPTER_FLAGS_USE_SMALLEST_MODE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	iddcx.h
 api_name:
 -	IDDCX_ADAPTER_FLAGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -52,18 +53,6 @@ req.typenames:
 
                     Specifies boolean flags for an indirect display adapter.
                 
-
-
-## -syntax
-
-
-````
-typedef enum _IDDCX_ADAPTER_FLAGS { 
-  IDDCX_ADAPTER_FLAGS_NONE                  = 0,
-  IDDCX_ADAPTER_FLAGS_USE_SMALLEST_MODE     = 1,
-  IDDCX_ADAPTER_FLAGS_CAN_USE_MOVE_REGIONS  = 2
-} IDDCX_ADAPTER_FLAGS;
-````
 
 
 ## -enum-fields

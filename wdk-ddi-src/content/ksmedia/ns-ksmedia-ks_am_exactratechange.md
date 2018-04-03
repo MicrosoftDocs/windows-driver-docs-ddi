@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KS_AM_ExactRateChange
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KS_AM_ExactRateChange, *PKS_AM_ExactRateChange
 ---
@@ -50,17 +51,6 @@ req.typenames: KS_AM_ExactRateChange, *PKS_AM_ExactRateChange
 
 
 The KS_AM_ExactRateChange structure is not yet implemented.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  REFERENCE_TIME OutputZeroTime;
-  LONG           Rate;
-} KS_AM_ExactRateChange, *PKS_AM_ExactRateChange;
-````
 
 
 ## -struct-fields
@@ -80,12 +70,11 @@ Specifies the new rate. This value is multiplied by 10000 (decimal).
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567280">KS_AM_RATE_ExactRateChange</a>
-
-
-
  
 
  
-
 

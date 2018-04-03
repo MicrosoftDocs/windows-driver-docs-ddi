@@ -38,7 +38,8 @@ api_location:
 -	SensorsCx.h
 api_name:
 -	EvtSensorGetProperties
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SensorConnectionType
 req.product: Windows 10 or later.
@@ -53,18 +54,6 @@ req.product: Windows 10 or later.
 This callback function returns the properties for a given sensor.
 
 
-## -prototype
-
-
-````
-NT_STATUS EvtSensorGetProperties(
-  _In_        SENSOROBJECT            Sensor,
-  _Inout_opt_ PSENSOR_COLLECTION_LIST pProperties,
-  _Out_       PULONG                  pSize
-);
-````
-
-
 ## -parameters
 
 
@@ -77,7 +66,7 @@ A reference to a sensor object.
 
 ### -param pProperties [in, out, optional]
 
-A list of properties and their values for the specified <b>Sensor</b>. For more information, see <a href="..\sensorsdef\ns-sensorsdef-sensor_collection_list.md">SENSOR_COLLECTION_LIST</a>.
+A list of properties and their values for the specified <b>Sensor</b>. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/dn957092">SENSOR_COLLECTION_LIST</a>.
 
 
 ### -param pSize [out]

@@ -7,7 +7,7 @@ old-location: netvista\ndis_filter_interface.htm
 old-project: netvista
 ms.assetid: 0a765829-3558-48ea-b788-7cce6c4b64c6
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PNDIS_FILTER_INTERFACE, NDIS_FILTER_INTERFACE, NDIS_FILTER_INTERFACE structure [Network Drivers Starting with Windows Vista], PNDIS_FILTER_INTERFACE, PNDIS_FILTER_INTERFACE structure pointer [Network Drivers Starting with Windows Vista], _NDIS_FILTER_INTERFACE, filter_structures_ref_ec1f81f5-4aac-4e69-a8e1-96bc0c5f9958.xml, ndis/NDIS_FILTER_INTERFACE, ndis/PNDIS_FILTER_INTERFACE, netvista.ndis_filter_interface"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ndis.h
 api_name:
 -	NDIS_FILTER_INTERFACE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_FILTER_INTERFACE, *PNDIS_FILTER_INTERFACE
 ---
@@ -52,23 +53,6 @@ req.typenames: NDIS_FILTER_INTERFACE, *PNDIS_FILTER_INTERFACE
 The NDIS_FILTER_INTERFACE structure defines the attributes for an NDIS filter.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_FILTER_INTERFACE {
-  NDIS_OBJECT_HEADER Header;
-  ULONG              Flags;
-  ULONG              FilterType;
-  ULONG              FilterRunType;
-  NET_IFINDEX        IfIndex;
-  NET_LUID           NetLuid;
-  NDIS_STRING        FilterClass;
-  NDIS_STRING        FilterInstanceName;
-} NDIS_FILTER_INTERFACE, *PNDIS_FILTER_INTERFACE;
-````
-
-
 ## -struct-fields
 
 
@@ -77,16 +61,16 @@ typedef struct _NDIS_FILTER_INTERFACE {
 ### -field Header
 
 The 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure for the
      filter interface structure. 
 
 NDIS sets the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to NDIS_OBJECT_TYPE_DEFAULT.
 
-If the handle passed to <a href="..\ndis\nf-ndis-ndisenumeratefiltermodules.md">NdisEnumerateFilterModules</a> belongs to an NDIS 6.30 or later object, then NDIS sets <b>Revision</b> to NDIS_FILTER_INTERFACE_REVISION_2 and <b>Size</b> to NDIS_SIZEOF_FILTER_INTERFACE_REVISION_2.
+If the handle passed to <a href="https://msdn.microsoft.com/library/windows/hardware/ff561758">NdisEnumerateFilterModules</a> belongs to an NDIS 6.30 or later object, then NDIS sets <b>Revision</b> to NDIS_FILTER_INTERFACE_REVISION_2 and <b>Size</b> to NDIS_SIZEOF_FILTER_INTERFACE_REVISION_2.
 
-If the handle passed to <a href="..\ndis\nf-ndis-ndisenumeratefiltermodules.md">NdisEnumerateFilterModules</a> belongs to an NDIS 6.20 or earlier object, then NDIS sets <b>Revision</b> to NDIS_FILTER_INTERFACE_REVISION_1 and <b>Size</b> to NDIS_SIZEOF_FILTER_INTERFACE_REVISION_1.
+If the handle passed to <a href="https://msdn.microsoft.com/library/windows/hardware/ff561758">NdisEnumerateFilterModules</a> belongs to an NDIS 6.20 or earlier object, then NDIS sets <b>Revision</b> to NDIS_FILTER_INTERFACE_REVISION_1 and <b>Size</b> to NDIS_SIZEOF_FILTER_INTERFACE_REVISION_1.
 
 
 ### -field Flags
@@ -195,33 +179,32 @@ The filter instance name.
 
 
 The 
-    <a href="..\ndis\nf-ndis-ndisenumeratefiltermodules.md">
+    <a href="https://msdn.microsoft.com/cab7609e-cf87-46f6-af23-891e19ef1b80">
     NdisEnumerateFilterModules</a> function returns one NDIS_FILTER_INTERFACE structure for each filter in
     the driver stack. The 
     <b>Flags</b> member identifies the filter as an NDIS 5.1 or earlier filter intermediate driver or an NDIS
     6.0 or later NDIS filter module.
 
-A light-weight filter may dynamically insert or remove itself from the send or receive path by calling <a href="..\ndis\nf-ndis-ndisfrestartfilter.md">NdisFRestartFilter</a> and providing a <a href="..\ndis\ns-ndis-_ndis_filter_partial_characteristics.md">NDIS_FILTER_PARTIAL_CHARACTERISTICS</a> structure to <a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a>.
+A light-weight filter may dynamically insert or remove itself from the send or receive path by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff562611">NdisFRestartFilter</a> and providing a <a href="https://msdn.microsoft.com/library/windows/hardware/ff565544">NDIS_FILTER_PARTIAL_CHARACTERISTICS</a> structure to <a href="https://msdn.microsoft.com/library/windows/hardware/ff564550">NdisSetOptionalHandlers</a>.
 
 
 
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568747">NET_LUID</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisenumeratefiltermodules.md">NdisEnumerateFilterModules</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561758">NdisEnumerateFilterModules</a>
  
 
  
-
 

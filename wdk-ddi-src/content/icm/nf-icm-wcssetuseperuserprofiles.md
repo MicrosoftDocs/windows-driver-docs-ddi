@@ -38,7 +38,8 @@ api_location:
 -	Mscms.dll
 api_name:
 -	WcsSetUsePerUserProfiles
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WCS_PROFILE_MANAGEMENT_SCOPE
 ---
@@ -50,18 +51,6 @@ req.typenames: WCS_PROFILE_MANAGEMENT_SCOPE
 
 
 The <code>WcsSetUsePerUserProfiles</code> function allows the user to specify whether or not to use a per-user profile association list for the specified device.
-
-
-## -syntax
-
-
-````
-BOOL WcsSetUsePerUserProfiles(
-  _In_ LPCWSTR pDeviceName,
-  _In_ DWORD   dwDeviceClass,
-  _In_ BOOL    usePerUserProfiles
-);
-````
 
 
 ## -parameters
@@ -117,12 +106,11 @@ This function is executable in Least-Privileged User Account (LUA) context.
 
 ## -see-also
 
-<a href="..\icm\nf-icm-wcsgetuseperuserprofiles.md">WcsGetUsePerUserProfiles</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563734">WcsGetUsePerUserProfiles</a>
  
 
  
-
 

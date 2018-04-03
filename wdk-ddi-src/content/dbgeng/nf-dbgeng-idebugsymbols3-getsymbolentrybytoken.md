@@ -7,7 +7,7 @@ old-location: debugger\idebugsymbols3_getsymbolentrybytoken.htm
 old-project: debugger
 ms.assetid: C5BAED6C-223F-4D1B-A9A4-323C93DD5AD9
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: GetSymbolEntryByToken method [Windows Debugging], GetSymbolEntryByToken method [Windows Debugging], IDebugSymbols3 interface, GetSymbolEntryByToken,IDebugSymbols3.GetSymbolEntryByToken, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetSymbolEntryByToken method, IDebugSymbols3::GetSymbolEntryByToken, dbgeng/IDebugSymbols3::GetSymbolEntryByToken, debugger.idebugsymbols3_getsymbolentrybytoken
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Dbgeng.h
 api_name:
 -	IDebugSymbols3.GetSymbolEntryByToken
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -50,18 +51,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 Looks up a symbol by using a managed metadata token.
-
-
-## -syntax
-
-
-````
-HRESULT GetSymbolEntryByToken(
-  [in]  ULONG64              ModuleBase,
-  [in]  ULONG                Token,
-  [out] PDEBUG_MODULE_AND_ID Id
-);
-````
 
 
 ## -parameters
@@ -81,7 +70,7 @@ The token to use to look up the symbol.
 
 ### -param Id [out]
 
-A pointer to the module as a <a href="..\dbgeng\ns-dbgeng-_debug_module_and_id.md">DEBUG_MODULE_AND_ID</a> structure. 
+A pointer to the module as a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541511">DEBUG_MODULE_AND_ID</a> structure. 
 
 
 ## -returns
@@ -95,16 +84,15 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 
 
-<a href="..\dbgeng\ns-dbgeng-_debug_module_and_id.md">DEBUG_MODULE_AND_ID</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541511">DEBUG_MODULE_AND_ID</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550870">IDebugSymbols3</a>
  
 
  
-
 

@@ -39,7 +39,8 @@ api_location:
 -	Wdf01000.sys.dll
 api_name:
 -	WdfChildListGetDevice
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_RETRIEVE_CHILD_FLAGS
 req.product: Windows 10 or later.
@@ -54,16 +55,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF only]
 
 The <b>WdfChildListGetDevice</b> method returns a handle to the framework device object that represents the parent device of a specified child list.
-
-
-## -syntax
-
-
-````
-WDFDEVICE WdfChildListGetDevice(
-  _In_ WDFCHILDLIST ChildList
-);
-````
 
 
 ## -parameters

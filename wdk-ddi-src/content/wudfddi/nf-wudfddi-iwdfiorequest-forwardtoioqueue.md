@@ -38,7 +38,8 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFIoRequest.ForwardToIoQueue
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
@@ -55,16 +56,6 @@ req.product: Windows 10 or later.
 The <b>ForwardToIoQueue</b> method forwards (that is, requeues) an I/O request to one of the calling driver's I/O queues.
 
 
-## -syntax
-
-
-````
-HRESULT ForwardToIoQueue(
-  [in] IWDFIoQueue *pDestination
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +63,7 @@ HRESULT ForwardToIoQueue(
 
 ### -param pDestination [in]
 
-A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a> interface for the destination queue object.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558943">IWDFIoQueue</a> interface for the destination queue object.
 
 
 ## -returns
@@ -129,7 +120,10 @@ The following code example shows how to forward a request to another queue if th
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559163">IWDFIoRequest::UnmarkCancelable</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558943">IWDFIoQueue</a>
 
 
 
@@ -137,20 +131,16 @@ The following code example shows how to forward a request to another queue if th
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558985">IWDFIoRequest</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559146">IWDFIoRequest::MarkCancelable</a>
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559163">IWDFIoRequest::UnmarkCancelable</a>
  
 
  
-
 

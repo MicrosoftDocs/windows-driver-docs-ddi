@@ -7,7 +7,7 @@ old-location: storage\addtarget_in.htm
 old-project: storage
 ms.assetid: 7c6a7ca8-83aa-41fe-92f5-6598464d9803
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PAddTarget_IN, AddTarget_IN, AddTarget_IN structure [Storage Devices], PAddTarget_IN, PAddTarget_IN structure pointer [Storage Devices], _AddTarget_IN, hbapiwmi/AddTarget_IN, hbapiwmi/PAddTarget_IN, storage.addtarget_in, structs-Fibre_7109b51c-872e-4e2e-affb-388fe21750d7.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	hbapiwmi.h
 api_name:
 -	AddTarget_IN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: AddTarget_IN, *PAddTarget_IN
 ---
@@ -50,18 +51,6 @@ req.typenames: AddTarget_IN, *PAddTarget_IN
 
 
 The AddPort_IN structure is used by a WMI client to deliver the input parameter data of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550136">AddTarget</a> WMI method to the HBA miniport driver.
-
-
-## -syntax
-
-
-````
-typedef struct _AddTarget_IN {
-  UCHAR HbaPortWWN[8];
-  UCHAR DiscoveredPortWWN[8];
-  ULONG AllTargets;
-} AddTarget_IN, *PAddTarget_IN;
-````
 
 
 ## -struct-fields
@@ -86,12 +75,11 @@ Indicates the scope of the target events to report. If this member is zero, the 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550136">AddTarget</a>
-
-
-
  
 
  
-
 

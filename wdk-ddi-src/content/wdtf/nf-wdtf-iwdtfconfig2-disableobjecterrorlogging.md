@@ -7,7 +7,7 @@ old-location: dtf\iwdtfconfig2_disableobjecterrorlogging.htm
 old-project: dtf
 ms.assetid: eda100d6-30df-4240-989f-d7d92b6ef334
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/29/2018
 ms.keywords: DisableObjectErrorLogging method [Windows Device Testing Framework], DisableObjectErrorLogging method [Windows Device Testing Framework], IWDTFCONFIG2 interface, DisableObjectErrorLogging,IWDTFCONFIG2.DisableObjectErrorLogging, IWDTFCONFIG2, IWDTFCONFIG2 interface [Windows Device Testing Framework], DisableObjectErrorLogging method, IWDTFCONFIG2::DisableObjectErrorLogging, Microsoft.WDTF.IWDTFCONFIG2.DisableObjectErrorLogging, Microsoft::WDTF::IWDTFCONFIG2::DisableObjectErrorLogging, dtf.iwdtfconfig2_disableobjecterrorlogging, wdtf/IWDTFCONFIG2::DisableObjectErrorLogging
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	WDTF.Interop.metadata_dll.dll
 api_name:
 -	IWDTFCONFIG2.DisableObjectErrorLogging
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TTraceLevel
 req.product: Windows 10 or later.
@@ -51,14 +52,6 @@ req.product: Windows 10 or later.
 
 
 Disables object error logging for all objects.
-
-
-## -syntax
-
-
-````
-HRESULT DisableObjectErrorLogging();
-````
 
 
 ## -parameters
@@ -89,12 +82,11 @@ logging defaults to disabled.
 
 ## -see-also
 
-<a href="..\wdtf\nn-wdtf-iwdtfconfig2.md">IWDTFCONFIG2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406381">IWDTFCONFIG2</a>
  
 
  
-
 

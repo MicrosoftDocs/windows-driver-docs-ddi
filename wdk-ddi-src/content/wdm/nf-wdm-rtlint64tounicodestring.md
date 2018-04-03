@@ -7,7 +7,7 @@ old-location: kernel\rtlint64tounicodestring.htm
 old-project: kernel
 ms.assetid: 36f146a7-cdc2-4b88-bd9a-5008bf94c180
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: RtlInt64ToUnicodeString, RtlInt64ToUnicodeString routine [Kernel-Mode Driver Architecture], k109_b6248e50-c6e8-4c61-a9f0-83fb434bd69c.xml, kernel.rtlint64tounicodestring, wdm/RtlInt64ToUnicodeString
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	RtlInt64ToUnicodeString
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
@@ -51,18 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>RtlInt64ToUnicodeString</b> routine converts a specified unsigned 64-bit integer value to a Unicode string that represents the value in a specified base.
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlInt64ToUnicodeString(
-  _In_     ULONGLONG       Value,
-  _In_opt_ ULONG           Base,
-  _Inout_  PUNICODE_STRING String
-);
-````
 
 
 ## -parameters
@@ -130,7 +119,7 @@ Decimal
 
 ### -param String [in, out]
 
-Pointer to the <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that receives the string representation of <i>Value</i>. The buffer specified by the <i>Buffer</i>  of <i>String</i> must be large enough to hold the result. 
+Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure that receives the string representation of <i>Value</i>. The buffer specified by the <i>Buffer</i>  of <i>String</i> must be large enough to hold the result. 
 
 
 ## -returns
@@ -185,20 +174,19 @@ The specified code base is not valid. The only valid values are 0, 2, 8, 10, and
 
 ## -see-also
 
-<a href="..\wudfwdm\nf-wudfwdm-rtlappendunicodestringtostring.md">RtlAppendUnicodeStringToString</a>
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561736">RtlAppendUnicodeStringToString</a>
 
 
 
-<a href="..\wudfwdm\nf-wudfwdm-rtlunicodestringtointeger.md">RtlUnicodeStringToInteger</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562973">RtlUnicodeStringToInteger</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
  
 
  
-
 

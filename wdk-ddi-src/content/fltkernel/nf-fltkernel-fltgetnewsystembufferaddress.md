@@ -7,7 +7,7 @@ old-location: ifsk\fltgetnewsystembufferaddress.htm
 old-project: ifsk
 ms.assetid: 83a5e9b7-1731-422f-a0df-c1efbc8cad81
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FltApiRef_e_to_o_a9a2a8aa-92e5-4843-a1e9-5b1a15d870fa.xml, FltGetNewSystemBufferAddress, FltGetNewSystemBufferAddress function [Installable File System Drivers], fltkernel/FltGetNewSystemBufferAddress, ifsk.fltgetnewsystembufferaddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	fltmgr.sys
 api_name:
 -	FltGetNewSystemBufferAddress
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
@@ -52,16 +53,6 @@ req.typenames: EXpsFontRestriction
 The <b>FltGetNewSystemBufferAddress</b> function retrieves the AssociatedIrp.SystemBuffer buffer, which the file system has allocated. A minifilter driver's post-callback routine calls this function. 
 
 
-## -syntax
-
-
-````
-PVOID FltGetNewSystemBufferAddress(
-  _In_ PFLT_CALLBACK_DATA CallbackData
-);
-````
-
-
 ## -parameters
 
 
@@ -69,7 +60,7 @@ PVOID FltGetNewSystemBufferAddress(
 
 ### -param CallbackData [in]
 
-A pointer to a <a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a> structure that represents an I/O operation.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff544620">FLT_CALLBACK_DATA</a> structure that represents an I/O operation.
 
 
 ## -returns
@@ -96,12 +87,11 @@ If the FLTFL_CALLBACK_DATA_NEW_SYSTEM_BUFFER flag is not set, then this routine 
 
 ## -see-also
 
-<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544620">FLT_CALLBACK_DATA</a>
  
 
  
-
 

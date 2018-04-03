@@ -38,7 +38,8 @@ api_location:
 -	SensorsCx.h
 api_name:
 -	EVT_SENSOR_DRIVER_DISABLE_WAKE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SensorConnectionType
 req.product: Windows 10 or later.
@@ -51,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 Callback to disable wake for the sensor. 
-
-
-## -prototype
-
-
-````
-NTSTATUS CALLBACK EVT_SENSOR_DRIVER_DISABLE_WAKE(
-  _In_ SENSOROBJECT Sensor
-);
-````
 
 
 ## -parameters

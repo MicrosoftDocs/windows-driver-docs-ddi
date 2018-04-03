@@ -7,7 +7,7 @@ old-location: storage\setloadbalancepolicy_out.htm
 old-project: storage
 ms.assetid: 28b54f80-9268-4ccb-ac19-b1b4bfef4192
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSetLoadBalancePolicy_OUT, PSetLoadBalancePolicy_OUT, PSetLoadBalancePolicy_OUT structure pointer [Storage Devices], SetLoadBalancePolicy_OUT, SetLoadBalancePolicy_OUT structure [Storage Devices], _SetLoadBalancePolicy_OUT, iscsimgt/PSetLoadBalancePolicy_OUT, iscsimgt/SetLoadBalancePolicy_OUT, storage.setloadbalancepolicy_out, structs-iSCSI_32a19db4-8102-4e39-b9be-30a8a03d2732.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	iscsimgt.h
 api_name:
 -	SetLoadBalancePolicy_OUT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SetLoadBalancePolicy_OUT, *PSetLoadBalancePolicy_OUT
 ---
@@ -50,16 +51,6 @@ req.typenames: SetLoadBalancePolicy_OUT, *PSetLoadBalancePolicy_OUT
 
 
 The SetLoadBalancePolicy_OUT structure holds the output data for the SetLoadBalance method.
-
-
-## -syntax
-
-
-````
-typedef struct _SetLoadBalancePolicy_OUT {
-  ULONG Status;
-} SetLoadBalancePolicy_OUT, *PSetLoadBalancePolicy_OUT;
-````
 
 
 ## -struct-fields
@@ -83,16 +74,15 @@ You must implement this class. For a list of possible status qualifiers, see <a 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563062">MSiSCSI_LB_Operations WMI Class</a>
-
-
-
  
 
  
-
 

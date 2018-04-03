@@ -38,7 +38,8 @@ api_location:
 -	wiamindr_lh.h
 api_name:
 -	IWiaMiniDrv.drvInitItemProperties
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SCANWINDOW, *PSCANWINDOW
 req.product: Windows 10 or later.
@@ -51,18 +52,6 @@ req.product: Windows 10 or later.
 
 
 The<b> IWiaMiniDrv::drvInitItemProperties</b> method initializes WIA driver item properties for each item in an application item tree.
-
-
-## -syntax
-
-
-````
-HRESULT drvInitItemProperties(
-  [in]  BYTE *pWiasContext,
-  [in]  LONG lFlags,
-  [out] LONG *plDevErrVal
-);
-````
 
 
 ## -parameters
@@ -124,19 +113,10 @@ The <b>IWiaMiniDrv::drvInitItemProperties</b> method is called once per applicat
 
 ## -see-also
 
-<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrv.md">IWiaMiniDrv</a>
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiaswritemultiple.md">wiasWriteMultiple</a>
-
-
-
-<a href="..\wiamdef\nf-wiamdef-wiasgetdrvitem.md">wiasGetDrvItem</a>
-
-
-
-<a href="..\wiamdef\nf-wiamdef-wiassetitempropattribs.md">wiasSetItemPropAttribs</a>
+<a href="https://msdn.microsoft.com/15068d10-5e24-427c-9684-24ce67b75ada">IWiaMiniDrv</a>
 
 
 
@@ -144,12 +124,20 @@ The <b>IWiaMiniDrv::drvInitItemProperties</b> method is called once per applicat
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiassetitempropnames.md">wiasSetItemPropNames</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549243">wiasGetDrvItem</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549358">wiasSetItemPropAttribs</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549369">wiasSetItemPropNames</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549475">wiasWriteMultiple</a>
  
 
  
-
 

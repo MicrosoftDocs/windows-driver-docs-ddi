@@ -7,7 +7,7 @@ old-location: kernel\rtlcompareunicodestring.htm
 old-project: kernel
 ms.assetid: 82567434-be54-4436-a26e-9a89a532addf
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 2/24/2018
 ms.keywords: RtlCompareUnicodeString, RtlCompareUnicodeString routine [Kernel-Mode Driver Architecture], k109_ddeef320-7510-446b-af6f-756c3999bec1.xml, kernel.rtlcompareunicodestring, wdm/RtlCompareUnicodeString
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	RtlCompareUnicodeString
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PO_FX_PERF_STATE_UNIT, *PPO_FX_PERF_STATE_UNIT
 req.product: Windows 10 or later.
@@ -148,5 +149,6 @@ If <b>TRUE</b>, case should be ignored when doing the comparison.
  
 
  
+
 
 

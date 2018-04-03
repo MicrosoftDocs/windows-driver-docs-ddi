@@ -1,13 +1,13 @@
 ---
 UID: NC:usbbusif.PUSB_BUSIFFN_QUERY_BUS_TIME_EX
-title: USB_BUSIFFN_QUERY_BUS_TIME_EX
+title: PUSB_BUSIFFN_QUERY_BUS_TIME_EX
 author: windows-driver-content
 description: The QueryBusTimeEx routine gets the current 32-bit USB micro-frame number.
 old-location: buses\querybustimeex.htm
 old-project: usbref
 ms.assetid: 8a9718eb-59f3-441a-b482-c2a376a48ac1
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: PUSB_BUSIFFN_QUERY_BUS_TIME_EX, QueryBusTimeEx, QueryBusTimeEx callback function [Buses], USB_BUSIFFN_QUERY_BUS_TIME_EX, buses.querybustimeex, usbbusif/QueryBusTimeEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	usbbusif.h
 api_name:
 -	QueryBusTimeEx
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USBD_VERSION_INFORMATION, *PUSBD_VERSION_INFORMATION
 req.product: Windows 10 or later.
@@ -56,20 +57,6 @@ This request is not supported.
 The <b>QueryBusTimeEx</b> routine gets the current 32-bit USB micro-frame number. 
 
 
-## -prototype
-
-
-````
-USB_BUSIFFN_QUERY_BUS_TIME_EX QueryBusTimeEx;
-
-NTSTATUS QueryBusTimeEx(
-  _In_  PVOID    BusContext,
-  _Out_ PULONG   CurrentMicroFrame
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -85,7 +72,7 @@ NTSTATUS QueryBusTimeEx(
 
 #### - BusContext [in]
 
-Handle returned in the <b>BusContext</b> member of the <a href="..\usbbusif\ns-usbbusif-_usb_bus_interface_usbdi_v3.md">USB_BUS_INTERFACE_USBDI_V3</a> structure by an IRP_MN_QUERY_INTERFACE request. 
+Handle returned in the <b>BusContext</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539227">USB_BUS_INTERFACE_USBDI_V3</a> structure by an IRP_MN_QUERY_INTERFACE request. 
 
 
 #### - CurrentMicroFrame [out]
@@ -155,12 +142,11 @@ The function definition that is provided on this reference page is an example fu
 
 ## -see-also
 
-<a href="..\usbbusif\ns-usbbusif-_usb_bus_interface_usbdi_v3.md">USB_BUS_INTERFACE_USBDI_V3</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539227">USB_BUS_INTERFACE_USBDI_V3</a>
  
 
  
-
 

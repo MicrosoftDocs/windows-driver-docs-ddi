@@ -7,7 +7,7 @@ old-location: display\d3dddicaps_shader_min_precision_support.htm
 old-project: display
 ms.assetid: c3ad65e7-8a91-464b-9a7f-e5c47ee54048
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDICAPS_SHADER_MIN_PRECISION_SUPPORT, D3DDDICAPS_SHADER_MIN_PRECISION_SUPPORT structure [Display Devices], d3dumddi/D3DDDICAPS_SHADER_MIN_PRECISION_SUPPORT, display.d3dddicaps_shader_min_precision_support
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3dumddi.h
 api_name:
 -	D3DDDICAPS_SHADER_MIN_PRECISION_SUPPORT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDICAPS_SHADER_MIN_PRECISION_SUPPORT
 ---
@@ -52,17 +53,6 @@ req.typenames: D3DDDICAPS_SHADER_MIN_PRECISION_SUPPORT
 Describes precision support options for shaders in the user-mode display driver.
 
 
-## -syntax
-
-
-````
-typedef struct D3DDDICAPS_SHADER_MIN_PRECISION_SUPPORT {
-  UINT VertexShaderMinPrecision;
-  UINT PixelShaderMinPrecision;
-} D3DDDICAPS_SHADER_MIN_PRECISION_SUPPORT;
-````
-
-
 ## -struct-fields
 
 
@@ -70,22 +60,21 @@ typedef struct D3DDDICAPS_SHADER_MIN_PRECISION_SUPPORT {
 
 ### -field VertexShaderMinPrecision
 
-A combination of values of type <a href="..\d3dumddi\ne-d3dumddi-d3dddicaps_shader_min_precision.md">D3DDDICAPS_SHADER_MIN_PRECISION</a> that are combined by using a bitwise OR operation. The resulting value specifies minimum precision levels that the driver supports for the vertex shader. A value of zero indicates that the driver supports only the default precision for the shader model, and not a lower precision.
+A combination of values of type <a href="https://msdn.microsoft.com/library/windows/hardware/hh451152">D3DDDICAPS_SHADER_MIN_PRECISION</a> that are combined by using a bitwise OR operation. The resulting value specifies minimum precision levels that the driver supports for the vertex shader. A value of zero indicates that the driver supports only the default precision for the shader model, and not a lower precision.
 
 
 ### -field PixelShaderMinPrecision
 
-A combination of values of type <a href="..\d3dumddi\ne-d3dumddi-d3dddicaps_shader_min_precision.md">D3DDDICAPS_SHADER_MIN_PRECISION</a> that are combined by using a bitwise OR operation. The resulting value specifies minimum precision levels that the driver supports for the pixel shader. A value of zero indicates that the driver supports only the default precision for the shader model, and not a lower precision.
+A combination of values of type <a href="https://msdn.microsoft.com/library/windows/hardware/hh451152">D3DDDICAPS_SHADER_MIN_PRECISION</a> that are combined by using a bitwise OR operation. The resulting value specifies minimum precision levels that the driver supports for the pixel shader. A value of zero indicates that the driver supports only the default precision for the shader model, and not a lower precision.
 
 
 ## -see-also
 
-<a href="..\d3dumddi\ne-d3dumddi-d3dddicaps_shader_min_precision.md">D3DDDICAPS_SHADER_MIN_PRECISION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451152">D3DDDICAPS_SHADER_MIN_PRECISION</a>
  
 
  
-
 

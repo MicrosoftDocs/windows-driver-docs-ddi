@@ -7,7 +7,7 @@ old-location: display\dxvaddi_queryextensioncapsinput.htm
 old-project: display
 ms.assetid: 6907eb45-8d29-4cdc-80eb-2d8cafbbd9bd
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXVA2_Structs_82433e94-79b3-4398-a38e-7f7a99cc09be.xml, DXVADDI_QUERYEXTENSIONCAPSINPUT, DXVADDI_QUERYEXTENSIONCAPSINPUT structure [Display Devices], _DXVADDI_QUERYEXTENSIONCAPSINPUT, d3dumddi/DXVADDI_QUERYEXTENSIONCAPSINPUT, display.dxvaddi_queryextensioncapsinput
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	DXVADDI_QUERYEXTENSIONCAPSINPUT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXVADDI_QUERYEXTENSIONCAPSINPUT
 ---
@@ -50,18 +51,6 @@ req.typenames: DXVADDI_QUERYEXTENSIONCAPSINPUT
 
 
 The DXVADDI_QUERYEXTENSIONCAPSINPUT structure describes a capability of an extension GUID that information is requested for.
-
-
-## -syntax
-
-
-````
-typedef struct _DXVADDI_QUERYEXTENSIONCAPSINPUT {
-  const GUID          *pGuid;
-  UINT                CapType;
-  DXVADDI_PRIVATEDATA *pPrivate;
-} DXVADDI_QUERYEXTENSIONCAPSINPUT;
-````
 
 
 ## -struct-fields
@@ -101,29 +90,28 @@ Extension capability types can be defined from DXVADDI_EXTENSION_CAPTYPE_MIN (30
 
 ### -field pPrivate
 
-[in] A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_privatedata.md">DXVADDI_PRIVATEDATA</a> structure that contains data that the driver requires to retrieve information about the extension capability.
+[in] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff562916">DXVADDI_PRIVATEDATA</a> structure that contains data that the driver requires to retrieve information about the extension capability.
 
 
 ## -see-also
 
-<a href="..\d3dumddi\ne-d3dumddi-_d3dddicaps_type.md">D3DDDICAPS_TYPE</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getcaps.md">D3DDDIARG_GETCAPS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543148">D3DDDIARG_GETCAPS</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_privatedata.md">DXVADDI_PRIVATEDATA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544132">D3DDDICAPS_TYPE</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562916">DXVADDI_PRIVATEDATA</a>
 
 
 
+<a href="https://msdn.microsoft.com/cf6c61ce-7b53-46d0-b3ff-ed5b2b964c65">GetCaps</a>
  
 
  
-
 

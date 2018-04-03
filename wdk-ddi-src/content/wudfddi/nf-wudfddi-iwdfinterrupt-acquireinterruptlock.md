@@ -38,7 +38,8 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFInterrupt.AcquireInterruptLock
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
@@ -53,14 +54,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>AcquireInterruptLock</b> method begins a code sequence that executes while holding an interrupt object's lock.
-
-
-## -syntax
-
-
-````
-void AcquireInterruptLock();
-````
 
 
 ## -parameters
@@ -91,7 +84,7 @@ You can use <b>AcquireInterruptLock</b> and <a href="https://msdn.microsoft.com/
 
 
 
-Your driver cannot call <b>AcquireInterruptLock</b> before the framework has called the driver's <a href="..\wudfinterrupt\nc-wudfinterrupt-wudf_interrupt_enable.md">OnInterruptEnable</a> callback function or after the framework has called the driver's <a href="..\wudfinterrupt\nc-wudfinterrupt-wudf_interrupt_disable.md">OnInterruptDisable</a> callback function.
+Your driver cannot call <b>AcquireInterruptLock</b> before the framework has called the driver's <a href="https://msdn.microsoft.com/6C091427-59FF-4101-ACD6-353C959794F6">OnInterruptEnable</a> callback function or after the framework has called the driver's <a href="https://msdn.microsoft.com/3ADBD4C2-075E-4988-BF13-EB0C3E0C02BF">OnInterruptDisable</a> callback function.
 
 After your driver calls <b>AcquireInterruptLock</b>, it must not call the method again for the same interrupt object before calling <a href="https://msdn.microsoft.com/library/windows/hardware/hh451319">ReleaseInterruptLock</a>.
 
@@ -118,11 +111,10 @@ For more information about handling interrupts in UMDF drivers, see <a href="htt
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfinterrupt.md">IWDFInterrupt</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547340">WdfInterruptAcquireLock</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451283">IWDFInterrupt</a>
 
 
 
@@ -130,8 +122,8 @@ For more information about handling interrupts in UMDF drivers, see <a href="htt
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547340">WdfInterruptAcquireLock</a>
  
 
  
-
 

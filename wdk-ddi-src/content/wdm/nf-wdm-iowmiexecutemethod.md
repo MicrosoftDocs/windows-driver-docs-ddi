@@ -7,7 +7,7 @@ old-location: kernel\iowmiexecutemethod.htm
 old-project: kernel
 ms.assetid: 462165e5-2823-4559-bd3e-18850d442cdb
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: IoWMIExecuteMethod, IoWMIExecuteMethod routine [Kernel-Mode Driver Architecture], k104_9625e06a-3c5a-4950-80be-cc3fb536453c.xml, kernel.iowmiexecutemethod, wdm/IoWMIExecuteMethod
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	IoWMIExecuteMethod
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
@@ -53,21 +54,6 @@ req.product: Windows 10 or later.
 The <b>IoWMIExecuteMethod</b> routine runs a WMI class method on the specified WMI data block instance.
 
 
-## -syntax
-
-
-````
-NTSTATUS IoWMIExecuteMethod(
-  _In_    PVOID           DataBlockObject,
-  _In_    PUNICODE_STRING InstanceName,
-  _In_    ULONG           MethodId,
-  _In_    ULONG           InBufferSize,
-  _Inout_ PULONG          OutBufferSize,
-  _Inout_ PUCHAR          InOutBuffer
-);
-````
-
-
 ## -parameters
 
 
@@ -75,7 +61,7 @@ NTSTATUS IoWMIExecuteMethod(
 
 ### -param DataBlockObject [in]
 
-Pointer to a WMI data block object. The caller opens the data block object for the WMI class with <a href="..\wdm\nf-wdm-iowmiopenblock.md">IoWMIOpenBlock</a>. The object must be opened with the WMIGUID_EXECUTE access right.
+Pointer to a WMI data block object. The caller opens the data block object for the WMI class with <a href="https://msdn.microsoft.com/library/windows/hardware/ff550453">IoWMIOpenBlock</a>. The object must be opened with the WMIGUID_EXECUTE access right.
 
 
 ### -param InstanceName [in]
@@ -197,7 +183,6 @@ The WMI GUID is no longer available or was never available.
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iowmiopenblock.md">IoWMIOpenBlock</a>
 
 
 
@@ -205,8 +190,8 @@ The WMI GUID is no longer available or was never available.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550453">IoWMIOpenBlock</a>
  
 
  
-
 

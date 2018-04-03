@@ -38,7 +38,8 @@ api_location:
 -	wiautil.h
 api_name:
 -	wiauRegOpenData
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SKIP_AMOUNT
 req.product: Windows 10 or later.
@@ -51,17 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>wiauRegOpenData</b> function opens the <b>DeviceData</b> registry key.
-
-
-## -syntax
-
-
-````
-HRESULT _stdcall wiauRegOpenData(
-  _In_    HKEY hkeyAncestor,
-  _Inout_ HKEY *phkeyDeviceData
-);
-````
 
 
 ## -parameters
@@ -99,12 +89,11 @@ Call this function only in the STI <a href="https://msdn.microsoft.com/library/w
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543824">IStiUSD::Initialize</a>
-
-
-
  
 
  
-
 

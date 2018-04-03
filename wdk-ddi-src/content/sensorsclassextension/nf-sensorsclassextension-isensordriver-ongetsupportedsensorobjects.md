@@ -39,7 +39,8 @@ api_location:
 -	SensorsClassExtension.dll
 api_name:
 -	OnGetSupportedSensorObjects
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SensorConnectionType
 req.product: Windows 10 or later.
@@ -52,16 +53,6 @@ req.product: Windows 10 or later.
 
 
 The <a href="https://msdn.microsoft.com/library/windows/hardware/ff545633">ISensorDriver::OnGetSupportedSensorObjects</a> method retrieves the list of sensors that the driver provides.
-
-
-## -syntax
-
-
-````
-HRESULT OnGetSupportedSensorObjects(
-   IPortableDeviceValuesCollection ** ppSensorObjectCollection
-);
-````
 
 
 ## -parameters

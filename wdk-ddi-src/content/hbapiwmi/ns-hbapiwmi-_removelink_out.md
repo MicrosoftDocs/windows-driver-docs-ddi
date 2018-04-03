@@ -7,7 +7,7 @@ old-location: storage\removelink_out.htm
 old-project: storage
 ms.assetid: 724e3143-4994-4785-9bbf-afb928e8b166
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PRemoveLink_OUT, PRemoveLink_OUT, PRemoveLink_OUT structure pointer [Storage Devices], RemoveLink_OUT, RemoveLink_OUT structure [Storage Devices], _RemoveLink_OUT, hbapiwmi/PRemoveLink_OUT, hbapiwmi/RemoveLink_OUT, storage.removelink_out, structs-Fibre_0210455d-c6c4-4548-ae14-63aa2e7b9a5d.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	hbapiwmi.h
 api_name:
 -	RemoveLink_OUT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RemoveLink_OUT, *PRemoveLink_OUT
 ---
@@ -50,16 +51,6 @@ req.typenames: RemoveLink_OUT, *PRemoveLink_OUT
 
 
 The RemoveLink_OUT structure is used by an HBA miniport driver to report the output parameter data of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563984">RemoveLink</a> WMI method to the WMI client. 
-
-
-## -syntax
-
-
-````
-typedef struct _RemoveLink_OUT {
-  ULONG HBAStatus;
-} RemoveLink_OUT, *PRemoveLink_OUT;
-````
 
 
 ## -struct-fields
@@ -83,12 +74,11 @@ The WMI tool suite generates a declaration of the RemoveLink_OUT structure in <i
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563984">RemoveLink</a>
-
-
-
  
 
  
-
 

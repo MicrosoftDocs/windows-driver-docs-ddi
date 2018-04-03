@@ -7,7 +7,7 @@ old-location: display\dxgkmdt_opm_interleave_format.htm
 old-project: display
 ms.assetid: beaee817-5a91-40df-8b29-4750e3c1600e
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKMDT_OPM_INTERLEAVE_FORMAT, DXGKMDT_OPM_INTERLEAVE_FORMAT enumeration [Display Devices], DXGKMDT_OPM_INTERLEAVE_FORMAT_FORCE_ULONG, DXGKMDT_OPM_INTERLEAVE_FORMAT_INTERLEAVED_EVEN_FIRST, DXGKMDT_OPM_INTERLEAVE_FORMAT_INTERLEAVED_ODD_FIRST, DXGKMDT_OPM_INTERLEAVE_FORMAT_OTHER, DXGKMDT_OPM_INTERLEAVE_FORMAT_PROGRESSIVE, DmEnums_7b247abd-613b-495b-aea0-d53d9b519525.xml, _DXGKMDT_OPM_INTERLEAVE_FORMAT, d3dkmdt/DXGKMDT_OPM_INTERLEAVE_FORMAT, d3dkmdt/DXGKMDT_OPM_INTERLEAVE_FORMAT_FORCE_ULONG, d3dkmdt/DXGKMDT_OPM_INTERLEAVE_FORMAT_INTERLEAVED_EVEN_FIRST, d3dkmdt/DXGKMDT_OPM_INTERLEAVE_FORMAT_INTERLEAVED_ODD_FIRST, d3dkmdt/DXGKMDT_OPM_INTERLEAVE_FORMAT_OTHER, d3dkmdt/DXGKMDT_OPM_INTERLEAVE_FORMAT_PROGRESSIVE, display.dxgkmdt_opm_interleave_format
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmdt.h
 api_name:
 -	DXGKMDT_OPM_INTERLEAVE_FORMAT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGKMDT_OPM_INTERLEAVE_FORMAT
 ---
@@ -50,20 +51,6 @@ req.typenames: DXGKMDT_OPM_INTERLEAVE_FORMAT
 
 
 The DXGKMDT_OPM_INTERLEAVE_FORMAT enumeration indicates the scan line ordering of a video frame from a protected output's signal. 
-
-
-## -syntax
-
-
-````
-typedef enum _DXGKMDT_OPM_INTERLEAVE_FORMAT { 
-  DXGKMDT_OPM_INTERLEAVE_FORMAT_OTHER                   = 0,
-  DXGKMDT_OPM_INTERLEAVE_FORMAT_PROGRESSIVE             = 2,
-  DXGKMDT_OPM_INTERLEAVE_FORMAT_INTERLEAVED_EVEN_FIRST  = 3,
-  DXGKMDT_OPM_INTERLEAVE_FORMAT_INTERLEAVED_ODD_FIRST   = 4,
-  DXGKMDT_OPM_INTERLEAVE_FORMAT_FORCE_ULONG             = 0xFFFFFFFF
-} DXGKMDT_OPM_INTERLEAVE_FORMAT;
-````
 
 
 ## -enum-fields
@@ -98,12 +85,11 @@ Forces this enumeration to compile to 32 bits in size. Without this value, some 
 
 ## -see-also
 
-<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_actual_output_format.md">DXGKMDT_OPM_ACTUAL_OUTPUT_FORMAT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560840">DXGKMDT_OPM_ACTUAL_OUTPUT_FORMAT</a>
  
 
  
-
 

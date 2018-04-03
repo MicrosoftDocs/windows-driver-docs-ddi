@@ -38,7 +38,8 @@ api_location:
 -	Spoolss.dll
 api_name:
 -	GetJobAttributes
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NOTIFICATION_CONFIG_FLAGS
 req.product: Windows 10 or later.
@@ -53,18 +54,6 @@ req.product: Windows 10 or later.
 <div class="alert"><b>Warning</b>  <p class="note">Starting with Windows 10, the APIs which support third-party print providers are deprecated. Microsoft does not recommend any investment into third-party print providers. Additionally, on Windows 8 and newer products where the v4 print driver model is available, third-party print providers may not create or manage queues which use v4 print drivers.
 
 </div><div> </div>A print provider's <b>GetJobAttributes</b> function gets information about a print job.
-
-
-## -syntax
-
-
-````
-BOOL GetJobAttributes(
-  _In_  LPWSTR            pPrinterName,
-  _In_  LPDEVMODEW        pDevmode,
-  _Out_ PATTRIBUTE_INFO_3 pAttributeInfo
-);
-````
 
 
 ## -parameters
@@ -84,7 +73,7 @@ Caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows
 
 ### -param pAttributeInfo [out]
 
-Caller-supplied pointer to an <a href="..\winsplp\ns-winsplp-_attribute_info_3.md">ATTRIBUTE_INFO_3</a> structure that receives information about the print job.
+Caller-supplied pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff545093">ATTRIBUTE_INFO_3</a> structure that receives information about the print job.
 
 
 ## -returns
@@ -98,7 +87,10 @@ Caller-supplied pointer to an <a href="..\winsplp\ns-winsplp-_attribute_info_3.m
 
 ## -see-also
 
-<a href="..\winsplp\ns-winsplp-_attribute_info_3.md">ATTRIBUTE_INFO_3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545093">ATTRIBUTE_INFO_3</a>
 
 
 
@@ -106,12 +98,8 @@ Caller-supplied pointer to an <a href="..\winsplp\ns-winsplp-_attribute_info_3.m
 
 
 
-<a href="..\winsplp\nf-winsplp-getjobattributesex.md">GetJobAttributesEx</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550459">GetJobAttributesEx</a>
  
 
  
-
 

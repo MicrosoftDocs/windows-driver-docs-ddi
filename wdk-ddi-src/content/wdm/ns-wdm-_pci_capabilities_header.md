@@ -38,7 +38,8 @@ api_location:
 -	wdm.h
 api_name:
 -	PCI_CAPABILITIES_HEADER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PCI_CAPABILITIES_HEADER, *PPCI_CAPABILITIES_HEADER
 req.product: Windows 10 or later.

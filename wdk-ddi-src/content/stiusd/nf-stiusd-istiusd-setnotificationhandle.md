@@ -38,7 +38,8 @@ api_location:
 -	stiusd.h
 api_name:
 -	IStiUSD.SetNotificationHandle
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STI_WIA_DEVICE_INFORMATIONW, *PSTI_WIA_DEVICE_INFORMATIONW
 req.product: Windows 10 or later.
@@ -51,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 A still image minidriver's <b>IStiUSD::SetNotificationHandle</b> method specifies an event handle that the minidriver should use to inform the caller of device events.
-
-
-## -syntax
-
-
-````
-HRESULT SetNotificationHandle(
-   HANDLE hEvent
-);
-````
 
 
 ## -parameters

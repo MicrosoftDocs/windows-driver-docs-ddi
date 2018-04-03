@@ -7,7 +7,7 @@ old-location: audio\ioctl_bthhfp_speaker_set_volume.htm
 old-project: audio
 ms.assetid: D08D9CEB-8A5C-41E6-AF05-2AE8719DD462
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/19/2018
 ms.keywords: IOCTL_BTHHFP_SPEAKER_SET_VOLUME, IOCTL_BTHHFP_SPEAKER_SET_VOLUME control code [Audio Devices], audio.ioctl_bthhfp_speaker_set_volume, bthhfpddi/IOCTL_BTHHFP_SPEAKER_SET_VOLUME
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Bthhfpddi.h
 api_name:
 -	IOCTL_BTHHFP_SPEAKER_SET_VOLUME
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: HFP_BYPASS_CODEC_ID_VERSION, *PHFP_BYPASS_CODEC_ID_VERSION
 ---
@@ -112,7 +113,6 @@ The audio driver sends this request when handling the <a href="https://msdn.micr
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537309">KSPROPERTY_AUDIO_VOLUMELEVEL</a>
 
 
 
@@ -124,8 +124,8 @@ The audio driver sends this request when handling the <a href="https://msdn.micr
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537309">KSPROPERTY_AUDIO_VOLUMELEVEL</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: storage\hba_portattributes.htm
 old-project: storage
 ms.assetid: 7628c68b-b851-4b41-a86b-aa54e7cd6ddf
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PHBA_PORTATTRIBUTES, HBA_PORTATTRIBUTES, HBA_PORTATTRIBUTES structure [Storage Devices], HBA_PortAttributes, HBA_PortAttributes structure [Storage Devices], PHBA_PORTATTRIBUTES, PHBA_PORTATTRIBUTES structure pointer [Storage Devices], hbaapi/HBA_PortAttributes, hbaapi/PHBA_PORTATTRIBUTES, storage.hba_portattributes, structs-Fibre_86dd88a9-06cc-4e24-a665-f4fa240795fb.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	hbaapi.h
 api_name:
 -	HBA_PORTATTRIBUTES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: HBA_PORTATTRIBUTES, *PHBA_PORTATTRIBUTES
 ---
@@ -49,31 +50,7 @@ req.typenames: HBA_PORTATTRIBUTES, *PHBA_PORTATTRIBUTES
 ## -description
 
 
-The structure is used by the <a href="..\hbaapi\nf-hbaapi-hba_getportattributesbywwn.md">HBA_GetPortAttributesByWWN</a> fibre channel HBA library routine to report the attributes for a specified remote fibre channel port.
-
-
-## -syntax
-
-
-````
-typedef struct HBA_PortAttributes {
-  HBA_WWN       NodeWWN;
-  HBA_WWN       PortWWN;
-  HBA_UINT32    PortFcId;
-  HBA_PORTTYPE  PortType;
-  HBA_PORTSTATE PortState;
-  HBA_COS       PortSupportedClassofService;
-  HBA_FC4TYPES  PortSupportedFc4Types;
-  HBA_FC4TYPES  PortActiveFc4Types;
-  char          PortSymbolicName[256];
-  char          OSDeviceName[256];
-  HBA_PORTSPEED PortSupportedSpeed;
-  HBA_PORTSPEED PortSpeed;
-  HBA_UINT32    PortMaxFrameSize;
-  HBA_WWN       FabricName;
-  HBA_UINT32    NumberofDiscoveredPorts;
-} HBA_PORTATTRIBUTES, *PHBA_PORTATTRIBUTES;
-````
+The structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556104">HBA_GetPortAttributesByWWN</a> fibre channel HBA library routine to report the attributes for a specified remote fibre channel port.
 
 
 ## -struct-fields
@@ -319,12 +296,12 @@ Indicates the class of service that are supported by <b>PortWWN</b>. For a list 
 
 ### -field PortSupportedFc4Types
 
-Contains a structure of type <a href="..\hbaapi\ns-hbaapi-hba_fc4types.md">HBA_fc4types</a> that indicates the FC-4 types that are supported by <b>PortWWN</b>. For a discussion FC-4 types, see the ANSI standard for <i>Fibre Channel Generic Services 4th Generation</i> (FC-GS-4). 
+Contains a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff556052">HBA_fc4types</a> that indicates the FC-4 types that are supported by <b>PortWWN</b>. For a discussion FC-4 types, see the ANSI standard for <i>Fibre Channel Generic Services 4th Generation</i> (FC-GS-4). 
 
 
 ### -field PortActiveFc4Types
 
-Contains a structure of type <a href="..\hbaapi\ns-hbaapi-hba_fc4types.md">HBA_fc4types</a> that indicates the FC-4 types that are currently available on <b>PortWWN</b>. For a discussion FC-4 types, see the ANSI standard for <i>Fibre Channel Generic Services 4th Generation</i> (FC-GS-4).
+Contains a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff556052">HBA_fc4types</a> that indicates the FC-4 types that are currently available on <b>PortWWN</b>. For a discussion FC-4 types, see the ANSI standard for <i>Fibre Channel Generic Services 4th Generation</i> (FC-GS-4).
 
 
 ### -field PortSymbolicName
@@ -439,7 +416,6 @@ The HBA_PortAttributes structure serves a purpose very similar to the MSFC_HBAPo
 
 ## -see-also
 
-<a href="..\hbaapi\nf-hbaapi-hba_getportattributesbywwn.md">HBA_GetPortAttributesByWWN</a>
 
 
 
@@ -447,8 +423,8 @@ The HBA_PortAttributes structure serves a purpose very similar to the MSFC_HBAPo
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556104">HBA_GetPortAttributesByWWN</a>
  
 
  
-
 

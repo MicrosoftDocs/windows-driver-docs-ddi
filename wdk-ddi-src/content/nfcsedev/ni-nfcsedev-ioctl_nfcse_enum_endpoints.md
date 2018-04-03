@@ -38,7 +38,8 @@ api_location:
 -	nfcsedev.h
 api_name:
 -	IOCTL_NFCSE_ENUM_ENDPOINTS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SECURE_ELEMENT_TYPE, *PSECURE_ELEMENT_TYPE
 ---
@@ -72,7 +73,7 @@ None
 
 ### -output-buffer
 
-An <a href="..\nfcsedev\ns-nfcsedev-_secure_element_endpoint_list.md"> SECURE_ELEMENT_ENDPOINT_LIST</a> for each device enumerated.
+An <a href="https://msdn.microsoft.com/0F69EE38-C124-47A6-B3CA-31F089657894"> SECURE_ELEMENT_ENDPOINT_LIST</a> for each device enumerated.
 
 
 ### -output-buffer-length

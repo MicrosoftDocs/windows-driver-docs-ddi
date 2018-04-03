@@ -39,7 +39,8 @@ api_location:
 -	N/A.dll
 api_name:
 -	WdfPreDeviceRemove
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_FILE_INFORMATION_CLASS, *PWDF_FILE_INFORMATION_CLASS
 req.product: Windows 10 or later.
@@ -54,17 +55,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF only]
 
 The co-installer's <b>WdfPreDeviceRemove</b> function performs any operations that the co-installer might require before a non-Plug and Play (PnP) driver's installer deletes the driver's kernel-mode service. 
-
-
-## -syntax
-
-
-````
-ULONG WdfPreDeviceRemove(
-  _In_     LPCWSTR InfPath,
-  _In_opt_ LPCWSTR InfSectionName
-);
-````
 
 
 ## -parameters
@@ -112,12 +102,11 @@ For a code example that uses the <b>WdfPreDeviceRemove</b> function, see the ins
 
 ## -see-also
 
-<a href="..\wdfinstaller\nf-wdfinstaller-wdfpostdeviceremove.md">WdfPostDeviceRemove</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548833">WdfPostDeviceRemove</a>
  
 
  
-
 

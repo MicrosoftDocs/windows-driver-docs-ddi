@@ -7,7 +7,7 @@ old-location: buses\udecxurbretrievecontrolsetuppacket.htm
 old-project: usbref
 ms.assetid: 09D9AB68-12DB-442F-897B-6C6BD8B5F030
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: UdecxUrbRetrieveControlSetupPacket, UdecxUrbRetrieveControlSetupPacket function [Buses], buses.udecxurbretrievecontrolsetuppacket, udecxurb/UdecxUrbRetrieveControlSetupPacket
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Udecxstub.dll
 api_name:
 -	UdecxUrbRetrieveControlSetupPacket
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USB_DEVICE_PORT_PATH, *PUSB_DEVICE_PORT_PATH
 req.product: Windows 10 or later.
@@ -54,17 +55,6 @@ req.product: Windows 10 or later.
 Retrieves a USB control setup packet from  a specified framework request object.  
 
 
-## -syntax
-
-
-````
-FORCEINLINE NTSTATUS UdecxUrbRetrieveControlSetupPacket(
-  _In_  WDFREQUEST                    Request,
-  _Out_ PWDF_USB_CONTROL_SETUP_PACKET SetupPacket
-);
-````
-
-
 ## -parameters
 
 
@@ -77,7 +67,7 @@ A handle to a framework request object that represents the request containing th
 
 ### -param SetupPacket [out]
 
-A <a href="..\wdfusb\ns-wdfusb-_wdf_usb_control_setup_packet.md">WDF_USB_CONTROL_SETUP_PACKET</a> structure that receives a setup packet describing the USB control transfer.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff552568">WDF_USB_CONTROL_SETUP_PACKET</a> structure that receives a setup packet describing the USB control transfer.
 
 
 ## -returns
@@ -95,14 +85,13 @@ The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this met
 
 The client driver can inspect contents of the setup packet to determine the standard control request that is sent to the device.
 
-To complete the request, the driver must call <a href="..\udecxurb\nf-udecxurb-udecxurbcompletewithntstatus.md">UdecxUrbCompleteWithNtStatus</a>.
+To complete the request, the driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/mt595955">UdecxUrbCompleteWithNtStatus</a>.
 
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
 
 
 
@@ -110,8 +99,8 @@ To complete the request, the driver must call <a href="..\udecxurb\nf-udecxurb-u
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
  
 
  
-
 

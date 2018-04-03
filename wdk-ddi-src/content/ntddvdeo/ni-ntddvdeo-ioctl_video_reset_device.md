@@ -7,7 +7,7 @@ old-location: display\ioctl_video_reset_device.htm
 old-project: display
 ms.assetid: 98746cae-aed1-4cf4-86d2-eb7cc91e45fc
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_VIDEO_RESET_DEVICE, IOCTL_VIDEO_RESET_DEVICE control code [Display Devices], Video_IOCTLs_18bd8312-fd29-4e9c-bd8b-83c5f0e84fbf.xml, display.ioctl_video_reset_device, ntddvdeo/IOCTL_VIDEO_RESET_DEVICE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ntddvdeo.h
 api_name:
 -	IOCTL_VIDEO_RESET_DEVICE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TAPE_WRITE_MARKS, *PTAPE_WRITE_MARKS
 ---
@@ -108,5 +109,5 @@ None
 
 ### -status-block
 
-The miniport driver does not set the <b>Information</b> member of the <a href="..\video\ns-video-_status_block.md">STATUS_BLOCK</a> structure.
+The miniport driver does not set the <b>Information</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569732">STATUS_BLOCK</a> structure.
 

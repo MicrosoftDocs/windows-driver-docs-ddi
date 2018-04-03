@@ -38,7 +38,8 @@ api_location:
 -	D4iface.h
 api_name:
 -	DOT4_ACTIVITY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -50,18 +51,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 
-
-
-## -syntax
-
-
-````
-typedef struct _DOT4_ACTIVITY {
-  ULONG          ulMessage;
-  ULONG          ulByteCount;
-  CHANNEL_HANDLE hChannel;
-} DOT4_ACTIVITY, *PDOT4_ACTIVITY;
-````
 
 
 ## -struct-fields

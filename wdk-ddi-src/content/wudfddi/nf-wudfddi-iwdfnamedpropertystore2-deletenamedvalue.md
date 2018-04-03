@@ -38,7 +38,8 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFNamedPropertyStore2.DeleteNamedValue
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
@@ -53,16 +54,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>DeleteNamedValue</b> method deletes a value name from the registry.
-
-
-## -syntax
-
-
-````
-HRESULT DeleteNamedValue(
-  [in] LPCWSTR pwszName
-);
-````
 
 
 ## -parameters
@@ -109,7 +100,7 @@ This method might return one of the other values that Winerror.h contains.
 
 
 
-Before a driver calls <b>DeleteNamedValue</b>, it must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff560228">IWDFPropertyStoreFactory::RetrieveDevicePropertyStore</a> to obtain the <a href="..\wudfddi\nn-wudfddi-iwdfnamedpropertystore2.md">IWDFNamedPropertyStore2</a> interface.
+Before a driver calls <b>DeleteNamedValue</b>, it must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff560228">IWDFPropertyStoreFactory::RetrieveDevicePropertyStore</a> to obtain the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560168">IWDFNamedPropertyStore2</a> interface.
 
 For more information about accessing the registry, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-the-registry-in-umdf-1-x-drivers">Using the Registry in UMDF-based Drivers</a>.
 
@@ -147,16 +138,15 @@ CMyDevice::OnCleanup(
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560168">IWDFNamedPropertyStore2</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560228">IWDFPropertyStoreFactory::RetrieveDevicePropertyStore</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iwdfnamedpropertystore2.md">IWDFNamedPropertyStore2</a>
-
-
-
  
 
  
-
 

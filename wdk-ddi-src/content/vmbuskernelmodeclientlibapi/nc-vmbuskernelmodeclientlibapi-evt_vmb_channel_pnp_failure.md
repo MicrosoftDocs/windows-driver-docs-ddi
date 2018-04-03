@@ -7,7 +7,7 @@ old-location: netvista\evt_vmb_channel_pnp_failure.htm
 old-project: netvista
 ms.assetid: 3331C043-CFB2-434C-8475-2F5F094F2460
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: EVT_VMB_CHANNEL_PNP_FAILURE, EvtChannelPnpFailure, EvtChannelPnpFailure callback function [Network Drivers Starting with Windows Vista], PFN_VMB_CHANNEL_PNP_FAILURE, PFN_VMB_CHANNEL_PNP_FAILURE callback function pointer [Network Drivers Starting with Windows Vista], netvista.evt_vmb_channel_pnp_failure, vmbuskernelmodeclientlibapi/EvtChannelPnpFailure
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	VmbusKernelModeClientLibApi.h
 api_name:
 -	PFN_VMB_CHANNEL_PNP_FAILURE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
 req.product: Windows 10 or later.
@@ -55,22 +56,6 @@ req.product: Windows 10 or later.
 The <i>EvtChannelPnpFailure</i> callback function is invoked if the client endpoint in the
 guest virtual machine asynchronously fails to connect even though a
 PnP device was located.
-
-
-## -prototype
-
-
-````
-EVT_VMB_CHANNEL_PNP_FAILURE EvtChannelPnpFailure;
-
-VOID EvtChannelPnpFailure(
-  _In_ VMBCHANNEL Channel,
-  _In_ NTSTATUS   FailureStatus
-)
-{ ... }
-
-typedef EVT_VMB_CHANNEL_PNP_FAILURE PFN_VMB_CHANNEL_PNP_FAILURE;
-````
 
 
 ## -parameters
@@ -101,19 +86,18 @@ This callback function does not return a value.
 
 
 
-The <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbclientchannelinitsettargetpnp.md">VmbClientChannelInitSetTargetPnp</a> function registers <i>EvtChannelPnpFailure</i> code to run in the event  of this kind of failure. 
+The <a href="https://msdn.microsoft.com/5525FD48-BE65-48CA-B3D5-C96AFD4ECF56">VmbClientChannelInitSetTargetPnp</a> function registers <i>EvtChannelPnpFailure</i> code to run in the event  of this kind of failure. 
 
 
 
 
 ## -see-also
 
-<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbclientchannelinitsettargetpnp.md">VmbClientChannelInitSetTargetPnp</a>
 
 
 
+<a href="https://msdn.microsoft.com/5525FD48-BE65-48CA-B3D5-C96AFD4ECF56">VmbClientChannelInitSetTargetPnp</a>
  
 
  
-
 

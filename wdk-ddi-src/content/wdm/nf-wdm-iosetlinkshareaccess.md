@@ -7,7 +7,7 @@ old-location: kernel\iosetlinkshareaccess.htm
 old-project: kernel
 ms.assetid: 206D74F6-09D5-4C04-8A0A-A7765E64BB27
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: IoSetLinkShareAccess, IoSetLinkShareAccess function [Kernel-Mode Driver Architecture], kernel.iosetlinkshareaccess, wdm/IoSetLinkShareAccess
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	ntoskrnl.dll
 api_name:
 -	IoSetLinkShareAccess
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
@@ -52,21 +53,6 @@ req.product: Windows 10 or later.
 
 
 The <b>IoSetLinkShareAccess</b> routine sets the access rights for link sharing the specified file object.
-
-
-## -syntax
-
-
-````
-void IoSetLinkShareAccess(
-  _In_        ACCESS_MASK        DesiredAccess,
-  _In_        ULONG              DesiredShareAccess,
-  _Inout_     PFILE_OBJECT       FileObject,
-  _Inout_     PSHARE_ACCESS      ShareAccess,
-  _Inout_opt_ PLINK_SHARE_ACCESS LinkShareAccess,
-  _In_        ULONG              IoShareAccessFlags
-);
-````
 
 
 ## -parameters
@@ -102,7 +88,7 @@ A pointer to the common share-access data structure that is associated with <i>F
 
 ### -param LinkShareAccess [in, out, optional]
 
-A pointer to the common link share-access data structure (<a href="..\wdm\ns-wdm-_link_share_access.md">LINK_SHARE_ACCESS</a>) that is associated with <i>FileObject</i>. Drivers should treat this structure as opaque.
+A pointer to the common link share-access data structure (<a href="https://msdn.microsoft.com/CD9E3356-45C3-4F56-9EB3-45FB4B3F054B">LINK_SHARE_ACCESS</a>) that is associated with <i>FileObject</i>. Drivers should treat this structure as opaque.
 
 
 ### -param IoShareAccessFlags [in]
@@ -127,20 +113,19 @@ This function does not return a value.
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iochecklinkshareaccess.md">IoCheckLinkShareAccess</a>
 
 
 
-<a href="..\wdm\nf-wdm-ioremovelinkshareaccess.md">IoRemoveLinkShareAccess</a>
+<a href="https://msdn.microsoft.com/1C34237E-D4AF-4F12-9FF2-9382BADCC9D3">IoCheckLinkShareAccess</a>
 
 
 
-<a href="..\wdm\nf-wdm-ioupdatelinkshareaccess.md">IoUpdateLinkShareAccess</a>
+<a href="https://msdn.microsoft.com/FFCD4705-4E5D-4D4E-9E6D-D06A7D21DC17">IoRemoveLinkShareAccess</a>
 
 
 
+<a href="https://msdn.microsoft.com/C92E53C8-3411-4E6E-B48E-B16F6B815488">IoUpdateLinkShareAccess</a>
  
 
  
-
 

@@ -38,7 +38,8 @@ api_location:
 -	parallel.h
 api_name:
 -	PARALLEL_INTERRUPT_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PARALLEL_INTERRUPT_INFORMATION, *PPARALLEL_INTERRUPT_INFORMATION
 ---
@@ -103,15 +104,11 @@ A kernel-mode driver can use the parallel interrupt information in the context o
 
 ## -see-also
 
-<a href="..\parallel\ns-parallel-_parallel_interrupt_service_routine.md">PARALLEL_INTERRUPT_SERVICE_ROUTINE</a>
-
-
-
-<a href="..\parallel\nc-parallel-pparallel_free_routine.md">PPARALLEL_FREE_ROUTINE (ISR)</a>
-
-
-
 <a href="..\parallel\ni-parallel-ioctl_internal_parallel_disconnect_interrupt.md">IOCTL_INTERNAL_PARALLEL_DISCONNECT_INTERRUPT</a>
+
+
+
+<a href="..\parallel\ns-parallel-_parallel_interrupt_service_routine.md">PARALLEL_INTERRUPT_SERVICE_ROUTINE</a>
 
 
 
@@ -120,6 +117,10 @@ A kernel-mode driver can use the parallel interrupt information in the context o
 
 
 <a href="..\parallel\nc-parallel-pparallel_try_allocate_routine.md">PPARALLEL_TRY_ALLOCATE_ROUTINE (ISR)</a>
+
+
+
+<a href="..\parallel\nc-parallel-pparallel_free_routine.md">PPARALLEL_FREE_ROUTINE (ISR)</a>
 
 
 

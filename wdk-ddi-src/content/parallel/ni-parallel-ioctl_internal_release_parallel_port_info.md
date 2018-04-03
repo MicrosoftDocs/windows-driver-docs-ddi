@@ -38,13 +38,19 @@ api_location:
 -	parallel.h
 api_name:
 -	IOCTL_INTERNAL_RELEASE_PARALLEL_PORT_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILGBATOKEN, *LPRILGBATOKEN
 ---
 
 # IOCTL_INTERNAL_RELEASE_PARALLEL_PORT_INFO IOCTL
 
+
+##  Major Code: 
+
+
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -104,11 +110,11 @@ The <b>Status</b> member is set to one of the generic status values returned by 
 
 ## -see-also
 
-<a href="..\parallel\ni-parallel-ioctl_internal_get_more_parallel_port_info.md">IOCTL_INTERNAL_GET_MORE_PARALLEL_PORT_INFO</a>
-
-
-
 <a href="..\parallel\ni-parallel-ioctl_internal_get_parallel_port_info.md">IOCTL_INTERNAL_GET_PARALLEL_PORT_INFO</a>
+
+
+
+<a href="..\parallel\ni-parallel-ioctl_internal_get_more_parallel_port_info.md">IOCTL_INTERNAL_GET_MORE_PARALLEL_PORT_INFO</a>
 
 
 

@@ -38,7 +38,8 @@ api_location:
 -	Prcomoem.h
 api_name:
 -	IPrintOemUni.EnablePDEV
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
@@ -53,25 +54,6 @@ req.product: Windows 10 or later.
 The <code>IPrintOemUni::EnablePDEV</code> method allows a rendering plug-in for <a href="https://msdn.microsoft.com/0a51fa2b-3d09-4a5f-9fff-40604877a414">Unidrv</a> to create its own PDEV structure.
 
 
-## -syntax
-
-
-````
-STDMETHOD EnablePDEV(
-        PDEVOBJ       pdevobj,
-        PWSTR         pPrinterName,
-        ULONG         cPatterns,
-        HSURF         *phsurfPatterns,
-        ULONG         cjGdiInfo,
-        GDIINFO       *pGdiInfo,
-        ULONG         cjDevInfo,
-        DEVINFO       *pDevInfo,
-        DRVENABLEDATA *pded,
-  [out] PDEVOEM       *pDevOem
-);
-````
-
-
 ## -parameters
 
 
@@ -79,7 +61,7 @@ STDMETHOD EnablePDEV(
 
 ### -param pdevobj
 
-Caller-supplied pointer to a <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a> structure.
+Caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547573">DEVOBJ</a> structure.
 
 
 ### -param pPrinterName
@@ -178,7 +160,7 @@ The <code>IPrintOemUni::EnablePDEV</code> method performs the same types of oper
 
 If you provide a rendering plug-in that exports the <code>IPrintOemUni::EnablePDEV</code> method, Undrv's printer graphics DLL calls the method from within its <a href="https://msdn.microsoft.com/library/windows/hardware/ff556211">DrvEnablePDEV</a> function.
 
-The <code>IPrintOemUni::EnablePDEV</code> method should allocate an instance of its private PDEV structure, initialize it, and return its address as the method's <i>pDevOem</i> parameter. Other plug-in methods receive the address as the <i>pdevOEM</i> member of the <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a> structure.
+The <code>IPrintOemUni::EnablePDEV</code> method should allocate an instance of its private PDEV structure, initialize it, and return its address as the method's <i>pDevOem</i> parameter. Other plug-in methods receive the address as the <i>pdevOEM</i> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547573">DEVOBJ</a> structure.
 
 The <b>pdevOEM</b> member of the DEVOBJ structure is not used with the <code>IPrintOemUni::EnablePDEV</code> method.
 

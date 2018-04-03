@@ -38,7 +38,8 @@ api_location:
 -	sti.h
 api_name:
 -	IStillImageW.GetSTILaunchInformation
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STI_DEVICE_MJ_TYPE, STI_DEVICE_MJ_TYPE
 req.product: Windows 10 or later.
@@ -51,18 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>IStillImage::GetSTILaunchInformation</b> method returns the reason the calling still image application was started, if the still image event monitor started it.
-
-
-## -syntax
-
-
-````
-HRESULT GetSTILaunchInformation(
-  [out]           LPWSTR pwszDeviceName,
-  [out, optional] DWORD  *pdwEventCode,
-  [out]           LPWSTR pwszEventName
-);
-````
 
 
 ## -parameters

@@ -7,7 +7,7 @@ old-location: netvista\ndiszeromemory.htm
 old-project: netvista
 ms.assetid: 1cb829e1-bd4f-4d6b-a936-0e7cf8024381
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NdisZeroMemory, NdisZeroMemory macro [Network Drivers Starting with Windows Vista], ndis/NdisZeroMemory, ndis_memory_ref_06fa3e0b-cb08-41c7-8e09-debec8e323c0.xml, netvista.ndiszeromemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ndis.h
 api_name:
 -	NdisZeroMemory
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
@@ -51,17 +52,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 
 The 
   <b>NdisZeroMemory</b> function fills a block of memory with zeros.
-
-
-## -syntax
-
-
-````
-VOID NdisZeroMemory(
-  [in] PVOID Destination,
-  [in] ULONG Length
-);
-````
 
 
 ## -parameters
@@ -96,17 +86,16 @@ As long as the given range was allocated from nonpaged pool, the caller can be r
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisallocatememorywithtagpriority.md">
+
+
+
+<a href="https://msdn.microsoft.com/aac4049c-a876-4bbb-ba3b-fa36c299e1c7">
    NdisAllocateMemoryWithTagPriority</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiszeromappedmemory.md">NdisZeroMappedMemory</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564692">NdisZeroMappedMemory</a>
  
 
  
-
 

@@ -38,7 +38,8 @@ api_location:
 -	Ntddser.h
 api_name:
 -	IOCTL_SERIAL_SET_XON
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SD_REQUEST_FUNCTION
 ---
@@ -104,12 +105,11 @@ The <b>Status</b> member is set to one of the <a href="https://docs.microsoft.co
 
 ## -see-also
 
-<a href="..\ntddser\ni-ntddser-ioctl_serial_set_xoff.md">IOCTL_SERIAL_SET_XOFF</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546784">IOCTL_SERIAL_SET_XOFF</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: netvista\vmbchannelpacketfail.htm
 old-project: netvista
 ms.assetid: 177B4509-A0EC-4F71-AF21-916A7A5F06DB
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: VmbChannelPacketFail, VmbChannelPacketFail function [Network Drivers Starting with Windows Vista], netvista.vmbchannelpacketfail, vmbuskernelmodeclientlibapi/VmbChannelPacketFail
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	vmbkmcl.dll
 api_name:
 -	VmbChannelPacketFail
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
 req.product: Windows 10 or later.
@@ -54,16 +55,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 The <b>VmbChannelPacketFail</b>  function fails a packet during packet processing due to an unrecoverable error. This function stops the queue.  
-
-
-## -syntax
-
-
-````
-VOID VmbChannelPacketFail(
-  _In_ PacketCompletionContext VMBPACKETCOMPLETION
-);
-````
 
 
 ## -parameters

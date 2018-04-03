@@ -38,7 +38,8 @@ api_location:
 -	PointOfServiceDriverInterface.h
 api_name:
 -	MSR_UPDATE_KEY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MSR_UPDATE_KEY, *PMSR_UPDATE_KEY
 ---
@@ -50,19 +51,6 @@ req.typenames: MSR_UPDATE_KEY, *PMSR_UPDATE_KEY
 
 
 This structure contains the information necessary to set a new encryption key.
-
-
-## -syntax
-
-
-````
-typedef struct _MSR_UPDATE_KEY {
-  unsigned char KeyLength;
-  unsigned char KeyNameLength;
-  unsigned char Key[MSR_KEY_SIZE];
-  unsigned char char KeyName[MSR_KEY_NAME_SIZE];
-} MSR_UPDATE_KEY, *PMSR_UPDATE_KEY;
-````
 
 
 ## -struct-fields

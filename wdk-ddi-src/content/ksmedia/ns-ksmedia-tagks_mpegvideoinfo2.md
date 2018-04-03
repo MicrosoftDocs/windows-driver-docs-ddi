@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KS_MPEGVIDEOINFO2
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KS_MPEGVIDEOINFO2, *PKS_MPEGVIDEOINFO2
 ---
@@ -52,22 +53,6 @@ req.typenames: KS_MPEGVIDEOINFO2, *PKS_MPEGVIDEOINFO2
 The KS_MPEGVIDEOINFO2 structure describes an MPEG-2 video stream, including bob or weave settings.
 
 
-## -syntax
-
-
-````
-typedef struct tagKS_MPEGVIDEOINFO2 {
-  KS_VIDEOINFOHEADER2 hdr;
-  DWORD               dwStartTimeCode;
-  DWORD               cbSequenceHeader;
-  DWORD               dwProfile;
-  DWORD               dwLevel;
-  DWORD               dwFlags;
-  DWORD               bSequenceHeader[1];
-} KS_MPEGVIDEOINFO2, *PKS_MPEGVIDEOINFO2;
-````
-
-
 ## -struct-fields
 
 
@@ -75,7 +60,7 @@ typedef struct tagKS_MPEGVIDEOINFO2 {
 
 ### -field hdr
 
-Specifies a <a href="..\ksmedia\ns-ksmedia-tagks_videoinfoheader2.md">KS_VIDEOINFOHEADER2</a> structure that describes the details of the video stream.
+Specifies a <a href="https://msdn.microsoft.com/library/windows/hardware/ff567702">KS_VIDEOINFOHEADER2</a> structure that describes the details of the video stream.
 
 
 ### -field dwStartTimeCode
@@ -90,12 +75,12 @@ The length of the <b>bSequenceHeader</b> member, in bytes (zero for DVD).
 
 ### -field dwProfile
 
-Specifies the MPEG-2 profile. This member must be one of the values from the <a href="..\ksmedia\ne-ksmedia-ks_mpeg2profile.md">KS_MPEG2Profile</a> enumeration.
+Specifies the MPEG-2 profile. This member must be one of the values from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567662">KS_MPEG2Profile</a> enumeration.
 
 
 ### -field dwLevel
 
-Specifies the MPEG-2 level. This member must be one of the values from the <a href="..\ksmedia\ne-ksmedia-ks_mpeg2level.md">KS_MPEG2Level</a> enumeration.
+Specifies the MPEG-2 level. This member must be one of the values from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567660">KS_MPEG2Level</a> enumeration.
 
 
 ### -field dwFlags
@@ -208,12 +193,11 @@ The length of the <b>bSequenceHeader</b> member, in bytes (zero for DVD).
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-tagks_videoinfoheader2.md">KS_VIDEOINFOHEADER2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567702">KS_VIDEOINFOHEADER2</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: debugger\getinputcallbacks.htm
 old-project: debugger
 ms.assetid: 1788d9b6-5e5e-48b6-b746-fd078768892f
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: GetInputCallbacks method [Windows Debugging], GetInputCallbacks method [Windows Debugging], IDebugClient interface, GetInputCallbacks method [Windows Debugging], IDebugClient2 interface, GetInputCallbacks method [Windows Debugging], IDebugClient3 interface, GetInputCallbacks method [Windows Debugging], IDebugClient4 interface, GetInputCallbacks method [Windows Debugging], IDebugClient5 interface, GetInputCallbacks,IDebugClient2.GetInputCallbacks, IDebugClient interface [Windows Debugging], GetInputCallbacks method, IDebugClient2, IDebugClient2 interface [Windows Debugging], GetInputCallbacks method, IDebugClient2::GetInputCallbacks, IDebugClient3 interface [Windows Debugging], GetInputCallbacks method, IDebugClient3::GetInputCallbacks, IDebugClient4 interface [Windows Debugging], GetInputCallbacks method, IDebugClient4::GetInputCallbacks, IDebugClient5 interface [Windows Debugging], GetInputCallbacks method, IDebugClient5::GetInputCallbacks, IDebugClient::GetInputCallbacks, IDebugClient_ab365943-baaa-4a51-9c1b-d82086098b2f.xml, dbgeng/IDebugClient2::GetInputCallbacks, dbgeng/IDebugClient3::GetInputCallbacks, dbgeng/IDebugClient4::GetInputCallbacks, dbgeng/IDebugClient5::GetInputCallbacks, dbgeng/IDebugClient::GetInputCallbacks, debugger.getinputcallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,8 @@ api_name:
 -	IDebugClient3.GetInputCallbacks
 -	IDebugClient4.GetInputCallbacks
 -	IDebugClient5.GetInputCallbacks
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -56,16 +57,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 The <b>GetInputCallbacks</b> method returns the <a href="https://msdn.microsoft.com/7a23ee09-0314-400a-8152-eef49a225427">input callbacks</a> object registered with this client.
 
 
-## -syntax
-
-
-````
-HRESULT GetInputCallbacks(
-  [out] PDEBUG_INPUT_CALLBACKS *Callbacks
-);
-````
-
-
 ## -parameters
 
 
@@ -73,7 +64,7 @@ HRESULT GetInputCallbacks(
 
 ### -param Callbacks [out]
 
-Receives an interface pointer for the <a href="..\dbgeng\nn-dbgeng-idebuginputcallbacks.md">IDebugInputCallbacks</a> object registered with the client.
+Receives an interface pointer for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550785">IDebugInputCallbacks</a> object registered with the client.
 
 
 ## -returns
@@ -108,7 +99,7 @@ The method was successful.
 
 
 
-Each client can have at most one <a href="..\dbgeng\nn-dbgeng-idebuginputcallbacks.md">IDebugInputCallbacks</a> object registered with it to receive requests for input.
+Each client can have at most one <a href="https://msdn.microsoft.com/library/windows/hardware/ff550785">IDebugInputCallbacks</a> object registered with it to receive requests for input.
 
 If no <b>IDebugInputCallbacks</b> object is registered with the client, the value of <i>Callbacks</i> will be set to <b>NULL</b>.
 
@@ -121,36 +112,35 @@ For more information about callbacks, see <a href="https://msdn.microsoft.com/90
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549827">IDebugClient</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550481">IDebugClient2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550488">IDebugClient3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550494">IDebugClient4</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550497">IDebugClient5</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550785">IDebugInputCallbacks</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556721">SetInputCallbacks</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebuginputcallbacks.md">IDebugInputCallbacks</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
-
-
-
  
 
  
-
 

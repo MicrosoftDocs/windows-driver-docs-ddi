@@ -2,7 +2,7 @@
 UID: NA:kbdmou
 ms.assetid: 7916a78e-8897-372f-8e32-22081a9589d3
 ms.author: windowsdriverdev
-ms.date: 03/13/18
+ms.date: 04/03/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -12,8 +12,11 @@ ms.topic: portal
 # Kbdmou.h header
 
 
+## -description
 
-This header is used by Human Interface Devices (HID). For more information, see
+
+This header is used by hid. For more information, see:
+
 - [Human Interface Devices (HID)](../_hid/index.md)
 
 This section includes the following topics about Kbdclass, the class driver for device class GUID_CLASS_KEYBOARD and the system class driver Mouclass. The Mouclass driver supports the device class GUID_CLASS_MOUSE, in Microsoft Windows 2000 and later operating systems:

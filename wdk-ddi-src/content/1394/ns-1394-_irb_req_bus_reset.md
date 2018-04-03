@@ -38,7 +38,8 @@ api_location:
 -	1394.h
 api_name:
 -	IRB_REQ_BUS_RESET
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: IRB_REQ_BUS_RESET
 ---
@@ -50,16 +51,6 @@ req.typenames: IRB_REQ_BUS_RESET
 
 
 This structure contains the fields necessary for the 1394 bus driver to create a bus reset request.
-
-
-## -syntax
-
-
-````
-typedef struct _IRB_REQ_BUS_RESET {
-  ULONG fulFlags;
-} IRB_REQ_BUS_RESET;
-````
 
 
 ## -struct-fields

@@ -38,7 +38,8 @@ api_location:
 -	Filterpipeline.h
 api_name:
 -	IPrintPipelineManagerControl.FilterFinished
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
@@ -50,16 +51,6 @@ req.typenames: EXpsFontRestriction
 
 
 The <code>FilterFinished</code> method reports that a filter is finished processing.
-
-
-## -syntax
-
-
-````
-HRESULT STDMETHODCALLTYPE FilterFinished(
-    None
-);
-````
 
 
 ## -parameters

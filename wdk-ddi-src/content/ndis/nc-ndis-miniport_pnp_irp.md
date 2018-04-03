@@ -7,7 +7,7 @@ old-location: netvista\miniportstartdevice.htm
 old-project: netvista
 ms.assetid: ccccb2c5-16ba-4463-bb35-1dc3dcc61a2f
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "(*MINIPORT_PNP_IRP_HANDLER), (*MINIPORT_PNP_IRP_HANDLER) callback function [Network Drivers Starting with Windows Vista], MINIPORT_PNP_IRP, MiniportPnpIrp, MiniportPnpIrp callback function [Network Drivers Starting with Windows Vista], ndis/MiniportPnpIrp, ndis_msix_ref_421866fc-9921-4101-87b5-3d48e064f855.xml, netvista.miniportstartdevice"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ndis.h
 api_name:
 -	(*MINIPORT_PNP_IRP_HANDLER)
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
 ---
@@ -61,22 +62,6 @@ The <i>MiniportPnpIrp</i> function enables a miniport driver to optionally manag
 <div class="alert"><b>Note</b>  You must declare this function by using the either the <b>MINIPORT_FILTER_RESOURCE_REQUIREMENTS</b> type or the <b>MINIPORT_START_DEVICE</b> type. For more
    information, see the following Examples section.</div><div> </div>
 
-## -prototype
-
-
-````
-MINIPORT_PNP_IRP MiniportPnpIrp;
-
-NDIS_STATUS MiniportPnpIrp(
-  _In_ NDIS_HANDLE MiniportAddDeviceContext,
-  _In_ PIRP        Irp
-)
-{ ... }
-
-typedef MINIPORT_PNP_IRP (*MINIPORT_PNP_IRP_HANDLER);
-````
-
-
 ## -parameters
 
 
@@ -85,7 +70,7 @@ typedef MINIPORT_PNP_IRP (*MINIPORT_PNP_IRP_HANDLER);
 ### -param MiniportAddDeviceContext [in]
 
 A handle for a driver-allocated context area that the miniport driver registered with NDIS in the 
-     <a href="..\ndis\nc-ndis-miniport_add_device.md">MiniportAddDevice</a> function.
+     <a href="https://msdn.microsoft.com/50e04b5a-e430-484c-aabb-cc7b9ecb53b0">MiniportAddDevice</a> function.
 
 
 ### -param Irp [in]
@@ -166,14 +151,14 @@ The driver requires the ability to change the interrupt affinity for each MSI-X 
 </li>
 <li>
 The driver will register for line-based interrupts in the 
-      <a href="..\ndis\nc-ndis-miniport_initialize.md">
+      <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">
       MiniportInitializeEx</a> function.
 
 </li>
 </ul>
 To register 
     <i>MiniportFilterResourceRequirements</i>, specify the entry point in the 
-    <a href="..\ndis\ns-ndis-_ndis_miniport_pnp_characteristics.md">
+    <a href="https://msdn.microsoft.com/97820a22-aa20-4d47-a4c2-0c0d50540823">
     NDIS_MINIPORT_PNP_CHARACTERISTICS</a> structure.
 
 NDIS calls the 
@@ -185,7 +170,7 @@ NDIS calls the
 
 The miniport driver must be prepared to handle IRP_MN_FILTER_RESOURCE_REQUIREMENTS from 
     <i>MiniportFilterResourceRequirements</i> immediately after the 
-    <a href="..\ndis\nc-ndis-miniport_add_device.md">MiniportAddDevice</a> function returns
+    <a href="https://msdn.microsoft.com/50e04b5a-e430-484c-aabb-cc7b9ecb53b0">MiniportAddDevice</a> function returns
     NDIS_STATUS_SUCCESS.
 
 A miniport driver can set an affinity policy for each resource of type 
@@ -193,7 +178,7 @@ A miniport driver can set an affinity policy for each resource of type
     for a specific set of processors, the miniport driver also sets a 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff551830">KAFFINITY</a> mask at the 
     <b>Interrupt.TargetedProcessors</b> member in the 
-    <a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a> structure.
+    <a href="https://msdn.microsoft.com/03e3a656-c691-4aff-bcc8-4e0bc8390fd7">IO_RESOURCE_DESCRIPTOR</a> structure.
 
 If an NDIS 6.1 or later miniport driver requires more message interrupt resources, it can add more
     message interrupt resources to the resources list. If the operating system can provide more message
@@ -205,22 +190,22 @@ Each message interrupt resource in the list is assigned a message number that co
     interrupt resources minus one.
 
 To assign an MSI-X table entry to a CPU at run time, the miniport driver can call the 
-    <a href="..\ndis\nf-ndis-ndismconfigmsixtableentry.md">
+    <a href="https://msdn.microsoft.com/93f94a42-bffb-4e4d-a560-b0da5d7d0019">
     NdisMConfigMSIXTableEntry</a> function.
 
 A miniport driver can remove all of the resources of type 
     <b>CmResourceTypeInterrupt</b> that are message interrupt resources. The driver can then register for
     line-based interrupts in the 
-    <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a> function. If
+    <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a> function. If
     the miniport driver does not remove these message interrupt resources, the operating system will fail if
     the driver tries to register line-based interrupt in 
     <i>MiniportInitializeEx</i>.
 
 To allocate memory for a new resource-requirements list, use the 
-    <a href="..\ndis\nf-ndis-ndisallocatememorywithtagpriority.md">
+    <a href="https://msdn.microsoft.com/aac4049c-a876-4bbb-ba3b-fa36c299e1c7">
     NdisAllocateMemoryWithTagPriority</a> function. The miniport driver can free the memory for the old
     resources-requirement list with the 
-    <a href="..\ndis\nf-ndis-ndisfreememory.md">NdisFreeMemory</a> function. The PnP manager
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff562577">NdisFreeMemory</a> function. The PnP manager
     frees any driver-allocated memory after the associated IRP is complete.
 
 Miniport drivers should not modify other resources, such as 
@@ -234,7 +219,7 @@ If a miniport driver returns NDIS_STATUS_RESOURCES or NDIS_STATUS_FAILURE from <
 
 NDIS can call 
     <i>MiniportFilterResourceRequirements</i> several times before NDIS calls the 
-    <a href="..\ndis\nc-ndis-miniport_remove_device.md">MiniportRemoveDevice</a> function. But
+    <a href="https://msdn.microsoft.com/24dd887b-575f-4790-bb53-7c3fb825bd61">MiniportRemoveDevice</a> function. But
     NDIS calls 
     <i>MiniportFilterResourceRequirements</i> only when a device is in the halted
     state.
@@ -282,7 +267,7 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 <h3><a id="MiniportStartDevice_Remarks"></a><a id="miniportstartdevice_remarks"></a><a id="MINIPORTSTARTDEVICE_REMARKS"></a>MiniportStartDevice Remarks</h3>
 <i>MiniportStartDevice</i> is an optional function. Miniport drivers that support
     MSI-X can specify an entry point for this function in the 
-    <a href="..\ndis\ns-ndis-_ndis_miniport_pnp_characteristics.md">
+    <a href="https://msdn.microsoft.com/97820a22-aa20-4d47-a4c2-0c0d50540823">
     NDIS_MINIPORT_PNP_CHARACTERISTICS</a> structure. When NDIS receives a request from the Plug and Play
     (PnP) manager to start a device, NDIS calls the 
     <i>MiniportStartDevice</i> function, if any. If a miniport driver adds new resources
@@ -302,7 +287,7 @@ If a miniport driver modifies resources in such a way that an underlying bus dri
 NDIS calls 
     <i>MiniportStartDevice</i> before it forwards the start device request to the
     underlying drivers. If an underlying driver successfully completes the request, NDIS calls the 
-    <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a> function to
+    <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a> function to
     initialize the miniport adapter.
 
 NDIS calls 
@@ -350,34 +335,10 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559452(d=robot)">
-   MiniportFilterResourceRequirements</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisallocatememorywithtagpriority.md">
-   NdisAllocateMemoryWithTagPriority</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_remove_device.md">MiniportRemoveDevice</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_miniport_pnp_characteristics.md">
-   NDIS_MINIPORT_PNP_CHARACTERISTICS</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551830">KAFFINITY</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisfreememory.md">NdisFreeMemory</a>
+<a href="https://msdn.microsoft.com/03e3a656-c691-4aff-bcc8-4e0bc8390fd7">IO_RESOURCE_DESCRIPTOR</a>
 
 
 
@@ -386,19 +347,28 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="..\ndis\nc-ndis-miniport_add_device.md">MiniportAddDevice</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551749">IRP_MN_START_DEVICE</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551830">KAFFINITY</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismconfigmsixtableentry.md">NdisMConfigMSIXTableEntry</a>
+<a href="https://msdn.microsoft.com/50e04b5a-e430-484c-aabb-cc7b9ecb53b0">MiniportAddDevice</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559452(d=robot)">
+   MiniportFilterResourceRequirements</a>
+
+
+
+<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/24dd887b-575f-4790-bb53-7c3fb825bd61">MiniportRemoveDevice</a>
 
 
 
@@ -406,8 +376,22 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
+<a href="https://msdn.microsoft.com/97820a22-aa20-4d47-a4c2-0c0d50540823">
+   NDIS_MINIPORT_PNP_CHARACTERISTICS</a>
+
+
+
+<a href="https://msdn.microsoft.com/aac4049c-a876-4bbb-ba3b-fa36c299e1c7">
+   NdisAllocateMemoryWithTagPriority</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562577">NdisFreeMemory</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563566">NdisMConfigMSIXTableEntry</a>
  
 
  
-
 

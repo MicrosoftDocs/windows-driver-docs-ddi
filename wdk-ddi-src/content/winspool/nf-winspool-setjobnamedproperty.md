@@ -38,7 +38,8 @@ api_location:
 -	Winspool.h
 api_name:
 -	SetJobNamedProperty
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BIDI_TYPE
 req.product: Windows 10 or later.
@@ -51,18 +52,6 @@ req.product: Windows 10 or later.
 
 
 
-
-
-## -syntax
-
-
-````
-DWORD WINAPI SetJobNamedProperty(
-  _In_       HANDLE                    hPrinter,
-  _In_       DWORD                     JobId,
-  _In_ const PrintNamedProperty        *pProperty
-);
-````
 
 
 ## -parameters

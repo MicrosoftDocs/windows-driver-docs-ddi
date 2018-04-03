@@ -7,7 +7,7 @@ old-location: buses\udecx_usb_device_speed.htm
 old-project: usbref
 ms.assetid: 337C9FFE-F97A-4F0F-9567-D1FF532FE165
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PUDECX_USB_DEVICE_SPEED, UDECX_USB_DEVICE_SPEED, UDECX_USB_DEVICE_SPEED enumeration [Buses], UdecxUsbFullSpeed, UdecxUsbHighSpeed, UdecxUsbLowSpeed, UdecxUsbSuperSpeed, _UDECX_USB_DEVICE_SPEED, buses.udecx_usb_device_speed, udecxusbdevice/UDECX_USB_DEVICE_SPEED, udecxusbdevice/UdecxUsbFullSpeed, udecxusbdevice/UdecxUsbHighSpeed, udecxusbdevice/UdecxUsbLowSpeed, udecxusbdevice/UdecxUsbSuperSpeed"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	UdecxUsbDevice.h
 api_name:
 -	UDECX_USB_DEVICE_SPEED
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UDECX_USB_DEVICE_SPEED, *PUDECX_USB_DEVICE_SPEED
 req.product: Windows 10 or later.
@@ -51,19 +52,6 @@ req.product: Windows 10 or later.
 
 
 Defines values for USB device speeds. 
-
-
-## -syntax
-
-
-````
-typedef enum _UDECX_USB_DEVICE_SPEED { 
-  UdecxUsbLowSpeed    = 0,
-  UdecxUsbFullSpeed   = ,
-  UdecxUsbHighSpeed   = ,
-  UdecxUsbSuperSpeed  = 
-} UDECX_USB_DEVICE_SPEED;
-````
 
 
 ## -enum-fields
@@ -93,12 +81,11 @@ Indicates a SuperSpeed USB 3.0-compliant device.
 
 ## -see-also
 
-<a href="..\udecxusbdevice\nf-udecxusbdevice-udecxusbdeviceinitsetspeed.md">UdecxUsbDeviceInitSetSpeed</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt627971">UdecxUsbDeviceInitSetSpeed</a>
  
 
  
-
 

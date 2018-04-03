@@ -38,7 +38,8 @@ api_location:
 -	bthddi.h
 api_name:
 -	SCO_DISCONNECT_REASON
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SCO_DISCONNECT_REASON, *PSCO_DISCONNECT_REASON
 ---
@@ -51,19 +52,6 @@ req.typenames: SCO_DISCONNECT_REASON, *PSCO_DISCONNECT_REASON
 
 The SCO_DISCONNECT_REASON enumeration type gives the reason an SCO channel has been
   disconnected.
-
-
-## -syntax
-
-
-````
-typedef enum _SCO_DISCONNECT_REASON { 
-  ScoHciDisconnect      = 0,
-  ScoDisconnectRequest  = 1,
-  ScoRadioPoweredDown   = 2,
-  ScoHardwareRemoval    = 3
-} SCO_DISCONNECT_REASON, *PSCO_DISCONNECT_REASON;
-````
 
 
 ## -enum-fields
@@ -100,7 +88,7 @@ This value specifies to the profile driver that the local radio has been physica
 
 A value from this enumeration is used as the 
     <b>Reason</b> member of the 
-    <a href="..\bthddi\ns-bthddi-_sco_indication_parameters.md">
+    <a href="https://msdn.microsoft.com/2d3ae219-8a40-476c-b8eb-94f4c0566527">
     SCO_INDICATION_PARAMETERS</a> structure.
 
 Hardware limitations may prevent the Bluetooth driver stack from distinguishing between 
@@ -109,23 +97,22 @@ Hardware limitations may prevent the Bluetooth driver stack from distinguishing 
 
 Currently, 
     <i>ScoHciDisconnect</i> is the only value the Bluetooth driver stack passes to the 
-    <a href="..\bthddi\nc-bthddi-pfnsco_indication_callback.md">SCO Callback Function</a>.
+    <a href="https://msdn.microsoft.com/abc9fc88-6852-4bfb-8271-7a73a508c397">SCO Callback Function</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\bthddi\nc-bthddi-pfnsco_indication_callback.md">SCO Callback Function</a>
 
 
 
-<a href="..\bthddi\ns-bthddi-_sco_indication_parameters.md">SCO_INDICATION_PARAMETERS</a>
+<a href="https://msdn.microsoft.com/abc9fc88-6852-4bfb-8271-7a73a508c397">SCO Callback Function</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536779">SCO_INDICATION_PARAMETERS</a>
  
 
  
-
 

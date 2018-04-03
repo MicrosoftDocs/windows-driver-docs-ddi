@@ -7,7 +7,7 @@ old-location: display\readclockline.htm
 old-project: display
 ms.assetid: 1051a234-ef63-454e-8957-292e86f4efcd
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PVIDEO_READ_CLOCK_LINE, ReadClockLine, ReadClockLine callback function [Display Devices], VideoMiniport_Functions_5e7bcadb-43ea-4a1b-81b7-666cabd66aa0.xml, display.readclockline, video/ReadClockLine
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	video.h
 api_name:
 -	ReadClockLine
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VHF_CONFIG, *PVHF_CONFIG
 req.product: Windows 10 or later.
@@ -51,19 +52,6 @@ req.product: Windows 10 or later.
 
 
 <i>ReadClockLine</i> reads a single data bit from the I2C serial clock line.
-
-
-## -prototype
-
-
-````
-PVIDEO_READ_CLOCK_LINE ReadClockLine;
-
-BOOLEAN ReadClockLine(
-   PVOID HwDeviceExtension
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -96,7 +84,10 @@ Pointer to the miniport driver's per-adapter storage area. For more information,
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportddcmonitorhelper.md">VideoPortDDCMonitorHelper</a>
+
+
+
+<a href="https://msdn.microsoft.com/175030c1-95d9-4a3b-976c-16e04852cb91">HwVidGetVideoChildDescriptor</a>
 
 
 
@@ -104,24 +95,20 @@ Pointer to the miniport driver's per-adapter storage area. For more information,
 
 
 
-<a href="..\video\nc-video-pvideo_read_data_line.md">ReadDataLine</a>
+<a href="https://msdn.microsoft.com/071000a3-c1b7-47fd-aec7-9e9f32edddf6">ReadDataLine</a>
 
 
 
-<a href="..\video\nc-video-pvideo_write_data_line.md">WriteDataLine</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570290">VideoPortDDCMonitorHelper</a>
 
 
 
-<a href="..\video\nc-video-pvideo_hw_get_child_descriptor.md">HwVidGetVideoChildDescriptor</a>
+<a href="https://msdn.microsoft.com/4dfd6223-420e-4087-b5bd-8277575321f7">WriteClockLine</a>
 
 
 
-<a href="..\video\nc-video-pvideo_write_clock_line.md">WriteClockLine</a>
-
-
-
+<a href="https://msdn.microsoft.com/3f860619-a479-4291-b3f3-ea4d309beee7">WriteDataLine</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: display\d3d12ddi_device_funcs_video.htm
 old-project: display
 ms.assetid: F4C385C8-00A2-44AB-A7E6-4C9AA19CFFB0
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3D12DDI_DEVICE_FUNCS_VIDEO_0021, D3D12DDI_DEVICE_FUNCS_VIDEO_0021 structure [Display Devices], d3d12umddi/D3D12DDI_DEVICE_FUNCS_VIDEO, display.d3d12ddi_device_funcs_video
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -15,20 +15,20 @@ ms.topic: struct
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support: Windows 10, version 1709
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	D3d12umddi.h
 api_name:
 -	D3D12DDI_DEVICE_FUNCS_VIDEO_0021
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D12DDI_DEVICE_FUNCS_VIDEO_0021
 ---
@@ -49,34 +50,7 @@ req.typenames: D3D12DDI_DEVICE_FUNCS_VIDEO_0021
 ## -description
 
 
-Contains video functions. 
-
-
-## -syntax
-
-
-````
-typedef struct D3D12DDI_DEVICE_FUNCS_VIDEO_0021 {
-  PFND3D12DDI_VIDEO_GETCAPS                                    pfnGetCaps;
-  PFND3D12DDI_CALCPRIVATEVIDEODECODERSIZE_0021                 pfnCalcPrivateVideoDecoderSize;
-  PFND3D12DDI_CREATEVIDEODECODER_0021                          pfnCreateVideoDecoder;
-  PFND3D12DDI_DESTROYVIDEODECODER_0021                         pfnDestroyVideoDecoder;
-  PFND3D12DDI_CALCPRIVATEVIDEOPROCESSORSIZE_0021               pfnCalcPrivateVideoProcessorSize;
-  PFND3D12DDI_CREATEVIDEOPROCESSOR_0021                        pfnCreateVideoProcessor;
-  PFND3D12DDI_DESTROYVIDEOPROCESSOR_0021                       pfnDestroyVideoProcessor;
-  PFND3D12DDI_CALCPRIVATECONTENTPROTECTIONSESSIONSIZE_0020     pfnCalcPrivateContentProtectionSessionSize;
-  PFND3D12DDI_CREATECONTENTPROTECTIONSESSION_0020              pfnCreateContentProtectionSession;
-  PFND3D12DDI_DESTROYCONTENTPROTECTIONSESSION_0020             pfnDestroyContentProtectionSession;
-  PFND3D12DDI_CONTENTPROTECTIONSESSION_INVOKE_FUNCTION_0020    pfnContentProtectionSessionInvokeFunction;
-  PFND3D12DDI_CONTENTPROTECTIONSESSION_SETUP_HARDWARE_KEY_0020 pfnContentProtectionSessionSetupHardwareKey;
-  PFND3D12DDI_CONTENTPROTECTIONSESSION_GET_STATUS_0020         pfnContentProtectionSessionGetStatus;
-  PFND3D12DDI_VIDEO_GET_DECODE_PROFILE_COUNT_0020              pfnGetDecodeProfileCount;
-  PFND3D12DDI_VIDEO_GET_DECODE_FORMAT_COUNT_0020               pfnGetDecodeFormatCount;
-  PFND3D12DDI_VIDEO_GET_BITSTREAM_ENCRYPTION_SCHEME_COUNT_0020 pfnGetBitstreamEncryptionSchemeCount;
-  PFND3D12DDI_VIDEO_DECODER_TRIM_ALLOCATIONS_0021              pfnDecoderTrimAllocations;
-  PFND3D12DDI_VIDEO_PROCESSOR_TRIM_ALLOCATIONS_0021            pfnProcessorTrimAllocations;
-} D3D12DDI_DEVICE_FUNCS_VIDEO_0021;
-````
+Contains video functions.
 
 
 ## -struct-fields
@@ -96,7 +70,7 @@ A function that calculates the size of a private decoder.
 
 ### -field pfnCreateVideoDecoder
 
-A function that creates a video decoder. 
+A function that creates a video decoder.
 
 
 ### -field pfnDestroyVideoDecoder
@@ -116,7 +90,7 @@ A function that creates a video processor.
 
 ### -field pfnDestroyVideoProcessor
 
-A function that destroys a video processor. 
+A function that destroys a video processor.
 
 
 ### -field pfnCalcPrivateContentProtectionSessionSize
@@ -126,62 +100,61 @@ A function that calculates the size of a private content protection session.
 
 ### -field pfnCreateContentProtectionSession
 
-A function that creates a content protection system. 
+A function that creates a content protection system.
 
 
 ### -field pfnDestroyContentProtectionSession
 
-A function that destroys a content protection system. 
+A function that destroys a content protection system.
 
 
 ### -field pfnContentProtectionSessionInvokeFunction
 
-A function that invokes a function in a content protection session. 
+A function that invokes a function in a content protection session.
 
 
 ### -field pfnContentProtectionSessionSetupHardwareKey
 
-A function that sets up a hardware key for a content protection session. 
+A function that sets up a hardware key for a content protection session.
 
 
 ### -field pfnContentProtectionSessionGetStatus
 
-A function that gets the status of a content protection session. 
+A function that gets the status of a content protection session.
 
 
 ### -field pfnGetDecodeProfileCount
 
-A function that gets the decode profile count. 
+A function that gets the decode profile count.
 
 
 ### -field pfnGetDecodeFormatCount
 
-A function that gets the decode format count. 
+A function that gets the decode format count.
 
 
 ### -field pfnGetBitstreamEncryptionSchemeCount
 
-A function that gets the count of bitstream encryption schemes. 
+A function that gets the count of bitstream encryption schemes.
 
 
 ### -field pfnDecoderTrimAllocations
 
-A function that trims decoder allocations. 
+A function that trims decoder allocations.
 
 
 ### -field pfnProcessorTrimAllocations
 
-A function that trims processor allocations. 
+A function that trims processor allocations.
 
 
 ## -see-also
 
-<a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_device_funcs_core_0010.md">D3D12DDI_DEVICE_FUNCS_CORE_0010</a>
 
 
 
+<a href="https://msdn.microsoft.com/87B4873E-DD44-47E9-8E6A-5BA91218188F">D3D12DDI_DEVICE_FUNCS_CORE_0010</a>
  
 
  
-
 

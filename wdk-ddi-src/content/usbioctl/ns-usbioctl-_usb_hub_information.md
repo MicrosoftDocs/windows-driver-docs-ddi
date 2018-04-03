@@ -7,7 +7,7 @@ old-location: buses\usb_hub_information.htm
 old-project: usbref
 ms.assetid: f65789b6-b2d1-4e5d-92b3-10730e76661a
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PUSB_HUB_INFORMATION, PUSB_HUB_INFORMATION, PUSB_HUB_INFORMATION structure pointer [Buses], USB_HUB_INFORMATION, USB_HUB_INFORMATION structure [Buses], _USB_HUB_INFORMATION, buses.usb_hub_information, usbioctl/PUSB_HUB_INFORMATION, usbioctl/USB_HUB_INFORMATION, usbstrct_3997108b-7c0b-419e-80e8-fadab455a2f5.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	usbioctl.h
 api_name:
 -	USB_HUB_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USB_HUB_INFORMATION, *PUSB_HUB_INFORMATION
 req.product: Windows 10 or later.
@@ -53,17 +54,6 @@ req.product: Windows 10 or later.
 The <b>USB_HUB_INFORMATION</b> structure contains information about a hub.
 
 
-## -syntax
-
-
-````
-typedef struct _USB_HUB_INFORMATION {
-  USB_HUB_DESCRIPTOR HubDescriptor;
-  BOOLEAN            HubIsBusPowered;
-} USB_HUB_INFORMATION, *PUSB_HUB_INFORMATION;
-````
-
-
 ## -struct-fields
 
 
@@ -71,7 +61,7 @@ typedef struct _USB_HUB_INFORMATION {
 
 ### -field HubDescriptor
 
-A <a href="..\usbspec\ns-usbspec-_usb_hub_descriptor.md">USB_HUB_DESCRIPTOR</a> structure that contains selected information from the hub descriptor.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff539331">USB_HUB_DESCRIPTOR</a> structure that contains selected information from the hub descriptor.
 
 
 ### -field HubIsBusPowered
@@ -81,7 +71,6 @@ A Boolean value that indicates whether the hub is bus-powered. <b>TRUE</b>, the 
 
 ## -see-also
 
-<a href="..\usbioctl\ns-usbioctl-_usb_node_information.md">USB_NODE_INFORMATION</a>
 
 
 
@@ -89,12 +78,12 @@ A Boolean value that indicates whether the hub is bus-powered. <b>TRUE</b>, the 
 
 
 
-<a href="..\usbspec\ns-usbspec-_usb_hub_descriptor.md">USB_HUB_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539331">USB_HUB_DESCRIPTOR</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540110">USB_NODE_INFORMATION</a>
  
 
  
-
 

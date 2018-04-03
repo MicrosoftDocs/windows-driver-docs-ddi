@@ -38,7 +38,8 @@ api_location:
 -	Wiamdef.h
 api_name:
 -	CWiaLogProcEx.~CWiaLogProcEx
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2
 req.product: Windows 10 or later.
@@ -51,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 The<b>~CWiaLogProcEx</b> destructor is called when the function or method being logged is exited.
-
-
-## -syntax
-
-
-````
-void ~CWiaLogProcEx(
-    
-);
-````
 
 
 ## -parameters
@@ -83,12 +74,11 @@ This method does not return a value.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt844723">CWiaLogProcEx</a>
-
-
-
  
 
  
-
 

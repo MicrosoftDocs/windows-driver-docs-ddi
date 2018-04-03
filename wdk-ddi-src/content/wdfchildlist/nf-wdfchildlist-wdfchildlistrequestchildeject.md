@@ -39,7 +39,8 @@ api_location:
 -	Wdf01000.sys.dll
 api_name:
 -	WdfChildListRequestChildEject
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_RETRIEVE_CHILD_FLAGS
 req.product: Windows 10 or later.
@@ -56,17 +57,6 @@ req.product: Windows 10 or later.
 The <b>WdfChildListRequestChildEject</b> method informs the framework that a specified device is about to be ejected from its docking station.
 
 
-## -syntax
-
-
-````
-BOOLEAN WdfChildListRequestChildEject(
-  _In_ WDFCHILDLIST                                 ChildList,
-  _In_ PWDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER IdentificationDescription
-);
-````
-
-
 ## -parameters
 
 
@@ -79,7 +69,7 @@ A handle to a child list object.
 
 ### -param IdentificationDescription [in]
 
-A pointer to a caller-allocated <a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_identification_description_header.md">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER</a> structure.
+A pointer to a caller-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff551223">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER</a> structure.
 
 
 ## -returns
@@ -98,9 +88,9 @@ A system bug check occurs if the driver supplies an invalid object handle.
 
 
 
-A bus driver can call <b>WdfChildListRequestChildEject</b> or <a href="..\wdfpdo\nf-wdfpdo-wdfpdorequesteject.md">WdfPdoRequestEject</a> to report that the driver has detected an attempt to eject one of its enumerated child devices from the device's docking station. For example, the driver might detect that a user has pushed an eject button. 
+A bus driver can call <b>WdfChildListRequestChildEject</b> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff548817">WdfPdoRequestEject</a> to report that the driver has detected an attempt to eject one of its enumerated child devices from the device's docking station. For example, the driver might detect that a user has pushed an eject button. 
 
-If the driver is using dynamic bus enumeration and if the device's identification description is available, the driver can call <b>WdfChildListRequestChildEject</b>. If the framework device object for the device's PDO is available, the driver can call <a href="..\wdfpdo\nf-wdfpdo-wdfpdorequesteject.md">WdfPdoRequestEject</a>. 
+If the driver is using dynamic bus enumeration and if the device's identification description is available, the driver can call <b>WdfChildListRequestChildEject</b>. If the framework device object for the device's PDO is available, the driver can call <a href="https://msdn.microsoft.com/library/windows/hardware/ff548817">WdfPdoRequestEject</a>. 
 
 The <b>WdfChildListRequestChildEject</b> method's <i>IdentificationDescription</i> parameter identifies the device that is being ejected. The device must be a member of the child list that the <i>ChildList</i> parameter represents.
 
@@ -113,7 +103,7 @@ For more information about ejectable devices, see <a href="https://msdn.microsof
 
 #### Examples
 
-For a code example that uses <b>WdfChildListRequestChildEject</b>, see <a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistretrievenextdevice.md">WdfChildListRetrieveNextDevice</a>.
+For a code example that uses <b>WdfChildListRequestChildEject</b>, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff545655">WdfChildListRetrieveNextDevice</a>.
 
 <div class="code"></div>
 
@@ -121,16 +111,15 @@ For a code example that uses <b>WdfChildListRequestChildEject</b>, see <a href="
 
 ## -see-also
 
-<a href="..\wdfpdo\nf-wdfpdo-wdfpdorequesteject.md">WdfPdoRequestEject</a>
 
 
 
-<a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_identification_description_header.md">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551223">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548817">WdfPdoRequestEject</a>
  
 
  
-
 

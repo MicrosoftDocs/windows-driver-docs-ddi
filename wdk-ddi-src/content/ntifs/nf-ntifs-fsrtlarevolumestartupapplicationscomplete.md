@@ -7,7 +7,7 @@ old-location: ifsk\fsrtlarevolumestartupapplicationscomplete.htm
 old-project: ifsk
 ms.assetid: a6ee1b04-7f62-452c-92b7-7325278bcd17
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FsRtlAreVolumeStartupApplicationsComplete, FsRtlAreVolumeStartupApplicationsComplete function [Installable File System Drivers], fsrtlref_c0858a3d-5e61-4ba3-bbaf-9ec881042d6a.xml, ifsk.fsrtlarevolumestartupapplicationscomplete, ntifs/FsRtlAreVolumeStartupApplicationsComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	FsRtlAreVolumeStartupApplicationsComplete
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -50,14 +51,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>FsRtlAreVolumeStartupApplicationsComplete</b> function determines whether volume startup applications have completed processing.
-
-
-## -syntax
-
-
-````
-BOOLEAN FsRtlAreVolumeStartupApplicationsComplete(void);
-````
 
 
 ## -parameters
@@ -84,25 +77,24 @@ The <b>FsRtlAreVolumeStartupApplicationsComplete</b> function returns <b>TRUE</b
 
 You can use this information to modify the behavior of file system drivers.  For example, a file system driver can adversely affect Autochk.exe if the driver starts its processing before Autochck.exe has fully completed.  If <b>FsRtlAreVolumeStartupApplicationsComplete</b> returns <b>TRUE</b>, Autochk.exe is guaranteed to have fully completed.
 
-To retrieve information about the volume that a minifilter instance is attached to, see <a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformation.md">FltQueryVolumeInformation</a>. 
+To retrieve information about the volume that a minifilter instance is attached to, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff543443">FltQueryVolumeInformation</a>. 
 
-To retrieve information about the volume associated with a given file, directory, or storage device, see <a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformation.md">FltQueryVolumeInformation</a>. 
+To retrieve information about the volume associated with a given file, directory, or storage device, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff543443">FltQueryVolumeInformation</a>. 
 
 
 
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformation.md">FltQueryVolumeInformation</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543443">FltQueryVolumeInformation</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567070">ZwQueryVolumeInformationFile</a>
  
 
  
-
 

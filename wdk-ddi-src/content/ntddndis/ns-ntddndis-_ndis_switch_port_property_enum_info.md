@@ -7,7 +7,7 @@ old-location: netvista\ndis_switch_port_property_enum_info.htm
 old-project: netvista
 ms.assetid: 537342c3-fbcf-493d-98ce-64ea1a84225b
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PNDIS_SWITCH_PORT_PROPERTY_ENUM_INFO, NDIS_SWITCH_PORT_PROPERTY_ENUM_INFO, NDIS_SWITCH_PORT_PROPERTY_ENUM_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_PORT_PROPERTY_ENUM_INFO, PNDIS_SWITCH_PORT_PROPERTY_ENUM_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_PORT_PROPERTY_ENUM_INFO, netvista.ndis_switch_port_property_enum_info, ntddndis/NDIS_SWITCH_PORT_PROPERTY_ENUM_INFO, ntddndis/PNDIS_SWITCH_PORT_PROPERTY_ENUM_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ntddndis.h
 api_name:
 -	NDIS_SWITCH_PORT_PROPERTY_ENUM_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_SWITCH_PORT_PROPERTY_ENUM_INFO, *PNDIS_SWITCH_PORT_PROPERTY_ENUM_INFO
 ---
@@ -52,22 +53,6 @@ req.typenames: NDIS_SWITCH_PORT_PROPERTY_ENUM_INFO, *PNDIS_SWITCH_PORT_PROPERTY_
 The <b>NDIS_SWITCH_PORT_PROPERTY_ENUM_INFO</b> structure contains information about a Hyper-V extensible switch port policy property.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_SWITCH_PORT_PROPERTY_ENUM_INFO {
-  NDIS_OBJECT_HEADER             Header;
-  ULONG                          Flags;
-  NDIS_SWITCH_OBJECT_VERSION     PropertyVersion;
-  NDIS_SWITCH_OBJECT_INSTANCE_ID PropertyInstanceId;
-  ULONG                          QwordAlignedPropertyBufferLength;
-  ULONG                          PropertyBufferLength;
-  ULONG                          PropertyBufferOffset;
-} NDIS_SWITCH_PORT_PROPERTY_ENUM_INFO, *PNDIS_SWITCH_PORT_PROPERTY_ENUM_INFO;
-````
-
-
 ## -struct-fields
 
 
@@ -75,7 +60,7 @@ typedef struct _NDIS_SWITCH_PORT_PROPERTY_ENUM_INFO {
 
 ### -field Header
 
-The type, revision, and size of the <b>NDIS_SWITCH_PORT_PROPERTY_ENUM_INFO</b> structure. This member is formatted as an <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
+The type, revision, and size of the <b>NDIS_SWITCH_PORT_PROPERTY_ENUM_INFO</b> structure. This member is formatted as an <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure.
 
 The <b>Type</b> member of <b>Header</b> must be set to NDIS_OBJECT_TYPE_DEFAULT. To specify the version of the <b>NDIS_SWITCH_PORT_PROPERTY_ENUM_INFO</b> structure, the <b>Revision</b> member of <b>Header</b> must be set to the following value:  
 
@@ -121,14 +106,14 @@ A ULONG value that specifies the actual size, in bytes, of the property buffer.
 
 ### -field PropertyBufferOffset
 
-A ULONG value that specifies the offset, in bytes, to the property buffer that follows the <b>NDIS_SWITCH_PORT_PROPERTY_ENUM_INFO</b> structure. The offset is measured from the start of the <a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_property_parameters.md">NDIS_SWITCH_PORT_PROPERTY_PARAMETERS</a> structure up to the beginning of the property buffer.
+A ULONG value that specifies the offset, in bytes, to the property buffer that follows the <b>NDIS_SWITCH_PORT_PROPERTY_ENUM_INFO</b> structure. The offset is measured from the start of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh598238">NDIS_SWITCH_PORT_PROPERTY_PARAMETERS</a> structure up to the beginning of the property buffer.
 
 
 ## -remarks
 
 
 
-The <b>NDIS_SWITCH_PORT_PROPERTY_ENUM_INFO</b> structure is used in OID method requests of <a href="https://msdn.microsoft.com/library/windows/hardware/hh598277">OID_SWITCH_PORT_PROPERTY_ENUM</a>. An array of <b>NDIS_SWITCH_PORT_PROPERTY_ENUM_INFO</b> structures follow the <a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_property_enum_parameters.md">NDIS_SWITCH_PORT_PROPERTY_ENUM_PARAMETERS</a> structure in the information buffer that is associated with this OID request. The <b>InformationBuffer</b> member of the <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a> structure contains a pointer to this information buffer.
+The <b>NDIS_SWITCH_PORT_PROPERTY_ENUM_INFO</b> structure is used in OID method requests of <a href="https://msdn.microsoft.com/library/windows/hardware/hh598277">OID_SWITCH_PORT_PROPERTY_ENUM</a>. An array of <b>NDIS_SWITCH_PORT_PROPERTY_ENUM_INFO</b> structures follow the <a href="https://msdn.microsoft.com/library/windows/hardware/hh598236">NDIS_SWITCH_PORT_PROPERTY_ENUM_PARAMETERS</a> structure in the information buffer that is associated with this OID request. The <b>InformationBuffer</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a> structure contains a pointer to this information buffer.
 
 Extensible switch extensions can access the next <b>NDIS_SWITCH_PORT_PROPERTY_ENUM_INFO</b> element that follows an <b>NDIS_SWITCH_PORT_PROPERTY_ENUM_INFO</b> structure in the array  by using the <a href="https://msdn.microsoft.com/library/windows/hardware/hh598234">NDIS_SWITCH_PORT_PROPERTY_ENUM_INFO_GET_NEXT</a> macro.
 
@@ -141,27 +126,6 @@ For more information about extensible switch policies, see <a href="https://msdn
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598235">NDIS_SWITCH_PORT_PROPERTY_ENUM_INFO_GET_PROPERTY</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_property_enum_parameters.md">NDIS_SWITCH_PORT_PROPERTY_ENUM_PARAMETERS</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598277">OID_SWITCH_PORT_PROPERTY_ENUM</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598234">NDIS_SWITCH_PORT_PROPERTY_ENUM_INFO_GET_NEXT</a>
 
 
 
@@ -169,8 +133,28 @@ For more information about extensible switch policies, see <a href="https://msdn
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598234">NDIS_SWITCH_PORT_PROPERTY_ENUM_INFO_GET_NEXT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598235">NDIS_SWITCH_PORT_PROPERTY_ENUM_INFO_GET_PROPERTY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598236">NDIS_SWITCH_PORT_PROPERTY_ENUM_PARAMETERS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598277">OID_SWITCH_PORT_PROPERTY_ENUM</a>
  
 
  
-
 

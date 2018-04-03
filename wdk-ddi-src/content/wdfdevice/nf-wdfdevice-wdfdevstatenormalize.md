@@ -41,7 +41,8 @@ api_location:
 -	WUDFx02000.dll.dll
 api_name:
 -	WdfDevStateNormalize
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_STATE_NOTIFICATION_TYPE
 req.product: Windows 10 or later.
@@ -58,16 +59,6 @@ req.product: Windows 10 or later.
 The <b>WdfDevStateNormalize</b> method removes extra bits from a specified framework state machine value so that the driver can use the value as an index into an array of machine states.
 
 
-## -syntax
-
-
-````
-ULONG WdfDevStateNormalize(
-  _In_ ULONG State
-);
-````
-
-
 ## -parameters
 
 
@@ -75,7 +66,7 @@ ULONG WdfDevStateNormalize(
 
 ### -param State [in]
 
-A state machine value that is returned from <a href="..\wdfdevice\nf-wdfdevice-wdfdevicegetdevicepnpstate.md">WdfDeviceGetDevicePnpState</a>, <a href="..\wdfdevice\nf-wdfdevice-wdfdevicegetdevicepowerstate.md">WdfDeviceGetDevicePowerState</a>, or <a href="..\wdfdevice\nf-wdfdevice-wdfdevicegetdevicepowerpolicystate.md">WdfDeviceGetDevicePowerPolicyState</a>.
+A state machine value that is returned from <a href="https://msdn.microsoft.com/library/windows/hardware/ff545969">WdfDeviceGetDevicePnpState</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff545985">WdfDeviceGetDevicePowerState</a>, or <a href="https://msdn.microsoft.com/library/windows/hardware/ff545974">WdfDeviceGetDevicePowerPolicyState</a>.
 
 
 ## -returns

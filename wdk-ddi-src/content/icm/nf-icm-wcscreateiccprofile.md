@@ -38,7 +38,8 @@ api_location:
 -	Mscms.dll
 api_name:
 -	WcsCreateIccProfile
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WCS_PROFILE_MANAGEMENT_SCOPE
 ---
@@ -50,17 +51,6 @@ req.typenames: WCS_PROFILE_MANAGEMENT_SCOPE
 
 
 The <code>WcsCreateIccProfile</code> function converts a WCS profile into an ICC profile.
-
-
-## -syntax
-
-
-````
-HPROFILE WcsCreateIccProfile(
-  _In_ HPROFILE hWcsProfile,
-  _In_ DWORD    dwOptions
-);
-````
 
 
 ## -parameters

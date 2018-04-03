@@ -7,7 +7,7 @@ old-location: netvista\ndis_wwan_device_service_session_write.htm
 old-project: netvista
 ms.assetid: BF4A7BF6-6C39-4F75-BF76-848FF9241E52
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PNDIS_WWAN_DEVICE_SERVICE_SESSION_WRITE, NDIS_WWAN_DEVICE_SERVICE_SESSION_WRITE, NDIS_WWAN_DEVICE_SERVICE_SESSION_WRITE structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_DEVICE_SERVICE_SESSION_WRITE, PNDIS_WWAN_DEVICE_SERVICE_SESSION_WRITE structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_DEVICE_SERVICE_SESSION_WRITE, ndiswwan/NDIS_WWAN_DEVICE_SERVICE_SESSION_WRITE, ndiswwan/PNDIS_WWAN_DEVICE_SERVICE_SESSION_WRITE, netvista.ndis_wwan_device_service_session_write"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ndiswwan.h
 api_name:
 -	NDIS_WWAN_DEVICE_SERVICE_SESSION_WRITE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_WWAN_DEVICE_SERVICE_SESSION_WRITE, *PNDIS_WWAN_DEVICE_SERVICE_SESSION_WRITE
 ---
@@ -50,17 +51,6 @@ req.typenames: NDIS_WWAN_DEVICE_SERVICE_SESSION_WRITE, *PNDIS_WWAN_DEVICE_SERVIC
 
 
 The NDIS_WWAN_DEVICE_SERVICE_SESSION_WRITE structure represents device service session data to be sent from the host to the MB device.
-
-
-## -syntax
-
-
-````
-typedef struct _NDIS_WWAN_DEVICE_SERVICE_SESSION_WRITE {
-  NDIS_OBJECT_HEADER                Header;
-  WWAN_DEVICE_SERVICE_SESSION_WRITE WriteData;
-} NDIS_WWAN_DEVICE_SERVICE_SESSION_WRITE, *PNDIS_WWAN_DEVICE_SERVICE_SESSION_WRITE;
-````
 
 
 ## -struct-fields
@@ -116,7 +106,7 @@ sizeof(NDIS_WWAN_DEVICE_SERVICE_SESSION_WRITE)
  
 
 For more information about these members, see 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field WriteData
@@ -126,12 +116,11 @@ The data to be sent to the MB device.
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_device_service_session_write.md">WWAN_DEVICE_SERVICE_SESSION_WRITE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh831877">WWAN_DEVICE_SERVICE_SESSION_WRITE</a>
  
 
  
-
 

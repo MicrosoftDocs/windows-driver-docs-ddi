@@ -38,7 +38,8 @@ api_location:
 -	wiautil.h
 api_name:
 -	wiauDbgLegacyHresult2
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SKIP_AMOUNT
 req.product: Windows 10 or later.
@@ -51,17 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>wiauDbgLegacyHresult2</b> function logs a default message containing an HRESULT.
-
-
-## -syntax
-
-
-````
-inline void __stdcall wiauDbgLegacyHresult2(
-  _In_ HINSTANCE hInstance,
-       HRESULT   hr
-);
-````
 
 
 ## -parameters
@@ -92,7 +82,7 @@ None
 
 
 
-A call to the <b>wiauDbgLegacyHresult2</b> function is equivalent to the following call to the <a href="..\wiautil\nf-wiautil-wiaudbgerrorhr.md">wiauDbgErrorHr</a> function:
+A call to the <b>wiauDbgLegacyHresult2</b> function is equivalent to the following call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549637">wiauDbgErrorHr</a> function:
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -121,12 +111,11 @@ That is, only one line is output to the log file and/or debugger. The line has t
 
 ## -see-also
 
-<a href="..\wiautil\nf-wiautil-wiaudbgerrorhr.md">wiauDbgErrorHr</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549637">wiauDbgErrorHr</a>
  
 
  
-
 

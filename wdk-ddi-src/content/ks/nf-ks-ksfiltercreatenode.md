@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsFilterCreateNode
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -53,18 +54,6 @@ req.typenames:
 The<b> KsFilterCreateNode</b> function creates a new topology node on the specified filter.
 
 
-## -syntax
-
-
-````
-KSDDKAPI NTSTATUS NTAPI KsFilterCreateNode(
-  _In_        PKSFILTER         Filter,
-  _In_  const KSNODE_DESCRIPTOR *NodeDescriptor,
-  _Out_       PULONG            NodeID
-);
-````
-
-
 ## -parameters
 
 
@@ -72,12 +61,12 @@ KSDDKAPI NTSTATUS NTAPI KsFilterCreateNode(
 
 ### -param Filter [in]
 
-A pointer to a <a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a> structure on which to create a new topology node.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff562522">KSFILTER</a> structure on which to create a new topology node.
 
 
 ### -param NodeDescriptor [in]
 
-A pointer to a <a href="..\ks\ns-ks-_ksnode_descriptor.md">KSNODE_DESCRIPTOR</a> structure that describes the new node.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563473">KSNODE_DESCRIPTOR</a> structure that describes the new node.
 
 
 ### -param NodeID [out]
@@ -105,12 +94,11 @@ Note that the filter control mutex must be held before calling this function. Fo
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksfiltercreatepinfactory.md">KsFilterCreatePinFactory</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562529">KsFilterCreatePinFactory</a>
  
 
  
-
 

@@ -38,7 +38,8 @@ api_location:
 -	Bdatypes.h
 api_name:
 -	BDA_WMDRMTUNER_PIDPROTECTION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BDA_WMDRMTUNER_PIDPROTECTION, *PBDA_WMDRMTUNER_PIDPROTECTION
 ---
@@ -50,17 +51,6 @@ req.typenames: BDA_WMDRMTUNER_PIDPROTECTION, *PBDA_WMDRMTUNER_PIDPROTECTION
 
 
 
-
-
-## -syntax
-
-
-````
-typedef struct _BDA_WMDRMTUNER_PIDPROTECTION {
-  PBDARESULT lResult;
-  GUID       uuidKeyID;
-} BDA_WMDRMTUNER_PIDPROTECTION, *PBDA_WMDRMTUNER_PIDPROTECTION;
-````
 
 
 ## -struct-fields

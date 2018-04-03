@@ -38,7 +38,8 @@ api_location:
 -	Ntddser.h
 api_name:
 -	IOCTL_SERIAL_SET_RTS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SD_REQUEST_FUNCTION
 ---
@@ -53,7 +54,7 @@ The <b>IOCTL_SERIAL_SET_RTS</b> request sets RTS (request to send).
 
 If a handshake flow control of the device is configured to automatically use RTS, a client cannot clear or set RTS.
 
-A client can use an <a href="..\ntddser\ni-ntddser-ioctl_serial_clr_rts.md">IOCTL_SERIAL_CLR_RTS</a> request to clear RTS.
+A client can use an <a href="https://msdn.microsoft.com/library/windows/hardware/ff546545">IOCTL_SERIAL_CLR_RTS</a> request to clear RTS.
 
 
 ## -ioctlparameters
@@ -108,12 +109,11 @@ The <b>Status</b> member is set to one of the <a href="https://docs.microsoft.co
 
 ## -see-also
 
-<a href="..\ntddser\ni-ntddser-ioctl_serial_clr_rts.md">IOCTL_SERIAL_CLR_RTS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546545">IOCTL_SERIAL_CLR_RTS</a>
  
 
  
-
 

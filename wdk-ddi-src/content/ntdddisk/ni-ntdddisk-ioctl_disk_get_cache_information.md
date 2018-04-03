@@ -7,7 +7,7 @@ old-location: storage\ioctl_disk_get_cache_information.htm
 old-project: storage
 ms.assetid: fc651954-2048-4358-91b0-4d99e38e9a67
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_DISK_GET_CACHE_INFORMATION, IOCTL_DISK_GET_CACHE_INFORMATION control code [Storage Devices], k307_1471eb7a-169f-4653-9bfe-01714d6299b7.xml, ntdddisk/IOCTL_DISK_GET_CACHE_INFORMATION, storage.ioctl_disk_get_cache_information
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ntdddisk.h
 api_name:
 -	IOCTL_DISK_GET_CACHE_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DETECTION_TYPE
 ---
@@ -72,7 +73,7 @@ None.
 
 ### -output-buffer
 
-The device driver returns the <a href="..\ntdddisk\ns-ntdddisk-_disk_cache_information.md">DISK_CACHE_INFORMATION</a> in the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>. 
+The device driver returns the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552580">DISK_CACHE_INFORMATION</a> in the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>. 
 
 
 ### -output-buffer-length
@@ -105,12 +106,11 @@ The <b>Information</b> field is set to the size of the block of status informati
 
 ## -see-also
 
-<a href="..\ntdddisk\ns-ntdddisk-_disk_cache_information.md">DISK_CACHE_INFORMATION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552580">DISK_CACHE_INFORMATION</a>
  
 
  
-
 

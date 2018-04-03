@@ -38,7 +38,8 @@ api_location:
 -	ntddk.h
 api_name:
 -	WHEA_REVISION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WHEA_REVISION, *PWHEA_REVISION
 ---
@@ -50,20 +51,6 @@ req.typenames: WHEA_REVISION, *PWHEA_REVISION
 
 
 The WHEA_REVISION union describes the revision of the error record data structures.
-
-
-## -syntax
-
-
-````
-typedef union _WHEA_REVISION {
-  struct {
-    UCHAR MinorRevision;
-    UCHAR MajorRevision;
-  };
-  USHORT AsUSHORT;
-} WHEA_REVISION, *PWHEA_REVISION;
-````
 
 
 ## -struct-fields
@@ -95,23 +82,22 @@ The minor revision number.
 
 
 
-A WHEA_REVISION union is contained within the <a href="..\ntddk\ns-ntddk-_whea_error_record_header.md">WHEA_ERROR_RECORD_HEADER</a> and the <a href="..\ntddk\ns-ntddk-_whea_error_record_section_descriptor.md">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a> structures.
+A WHEA_REVISION union is contained within the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560487">WHEA_ERROR_RECORD_HEADER</a> and the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560496">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a> structures.
 
 
 
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_whea_error_record_section_descriptor.md">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a>
 
 
 
-<a href="..\ntddk\ns-ntddk-_whea_error_record_header.md">WHEA_ERROR_RECORD_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560487">WHEA_ERROR_RECORD_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560496">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a>
  
 
  
-
 

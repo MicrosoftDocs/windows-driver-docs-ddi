@@ -38,7 +38,8 @@ api_location:
 -	Wiaservc.dll
 api_name:
 -	wiasValidateItemProperties
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2
 req.product: Windows 10 or later.
@@ -51,18 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>wiasValidateItemProperties </b>function validates a list of simple item properties against their current valid values.
-
-
-## -syntax
-
-
-````
-HRESULT _stdcall wiasValidateItemProperties(
-  _In_       BYTE     *pWiasContext,
-             ULONG    nPropSpec,
-  _In_ const PROPSPEC *pPropSpec
-);
-````
 
 
 ## -parameters

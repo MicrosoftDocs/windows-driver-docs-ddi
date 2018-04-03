@@ -7,7 +7,7 @@ old-location: debugger\endenumtagged.htm
 old-project: debugger
 ms.assetid: 6a456b8c-aec6-443d-8db4-21e7715ab818
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: EndEnumTagged method [Windows Debugging], EndEnumTagged method [Windows Debugging], IDebugDataSpaces3 interface, EndEnumTagged method [Windows Debugging], IDebugDataSpaces4 interface, EndEnumTagged,IDebugDataSpaces4.EndEnumTagged, IDebugDataSpaces3 interface [Windows Debugging], EndEnumTagged method, IDebugDataSpaces3::EndEnumTagged, IDebugDataSpaces4, IDebugDataSpaces4 interface [Windows Debugging], EndEnumTagged method, IDebugDataSpaces4::EndEnumTagged, IDebugDataSpaces_a6366d17-1a38-43ca-af52-3c7e2b73be9e.xml, dbgeng/IDebugDataSpaces3::EndEnumTagged, dbgeng/IDebugDataSpaces4::EndEnumTagged, debugger.endenumtagged
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	IDebugDataSpaces3.EndEnumTagged
 -	IDebugDataSpaces4.EndEnumTagged
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -51,16 +52,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>EndEnumTagged</b> method releases the resources used by the specified enumeration.
-
-
-## -syntax
-
-
-````
-HRESULT EndEnumTagged(
-  [in] ULONG64 Handle
-);
-````
 
 
 ## -parameters

@@ -7,7 +7,7 @@ old-location: debugger\extremotedata_write.htm
 old-project: debugger
 ms.assetid: 970c725b-4ea0-42b7-a373-83cb463cd80d
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: EngExtCpp_Ref_1288bed4-2f61-4af4-a226-5157a0622f42.xml, ExtRemoteData, ExtRemoteData class [Windows Debugging], Write method, ExtRemoteData::Write, Write method [Windows Debugging], Write method [Windows Debugging], ExtRemoteData class, Write,ExtRemoteData.Write, debugger.extremotedata_write
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	engextcpp.hpp
 api_name:
 -	ExtRemoteData.Write
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 ---
@@ -49,15 +50,7 @@ req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 ## -description
 
 
-The <b>Write</b> method writes the data cached by the <a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a> object to the region of memory on the target, represented by this object.
-
-
-## -syntax
-
-
-````
-void Write();
-````
+The <b>Write</b> method writes the data cached by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544008">ExtRemoteData</a> object to the region of memory on the target, represented by this object.
 
 
 ## -parameters
@@ -82,7 +75,7 @@ This method does not return a value.
 
 This method can be used to reset the region of memory on the target to the currently cached value that was previously read from the target.
 
-It is also possible to directly set the value cached by the <a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a> object, for example:
+It is also possible to directly set the value cached by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544008">ExtRemoteData</a> object, for example:
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -101,16 +94,15 @@ ext_remote_data.Write();</pre>
 
 ## -see-also
 
-<a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544008">ExtRemoteData</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544083">ExtRemoteData::Read</a>
-
-
-
  
 
  
-
 

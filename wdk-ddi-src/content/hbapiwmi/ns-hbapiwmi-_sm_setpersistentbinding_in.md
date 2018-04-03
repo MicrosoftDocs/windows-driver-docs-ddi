@@ -7,7 +7,7 @@ old-location: storage\sm_setpersistentbinding_in.htm
 old-project: storage
 ms.assetid: 33a8c609-aa65-4629-b4ee-3723e614d400
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSM_SetPersistentBinding_IN, PSM_SetPersistentBinding_IN, PSM_SetPersistentBinding_IN structure pointer [Storage Devices], SM_SetPersistentBinding_IN, SM_SetPersistentBinding_IN structure [Storage Devices], _SM_SetPersistentBinding_IN, hbapiwmi/PSM_SetPersistentBinding_IN, hbapiwmi/SM_SetPersistentBinding_IN, storage.sm_setpersistentbinding_in, structs-Fibre_9af25c8f-f9de-482d-8103-f372405d7771.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	hbapiwmi.h
 api_name:
 -	SM_SetPersistentBinding_IN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SM_SetPersistentBinding_IN, *PSM_SetPersistentBinding_IN
 ---
@@ -50,19 +51,6 @@ req.typenames: SM_SetPersistentBinding_IN, *PSM_SetPersistentBinding_IN
 
 
 The SM_SetPersistentBinding_IN structure is used to provide input parameters to the SM_SetPersistentBinding method.
-
-
-## -syntax
-
-
-````
-typedef struct _SM_SetPersistentBinding_IN {
-  UCHAR                 HbaPortWWN[8];
-  UCHAR                 DomainPortWWN[8];
-  ULONG                 InEntryCount;
-  MS_SMHBA_BINDINGENTRY Entry[1];
-} SM_SetPersistentBinding_IN, *PSM_SetPersistentBinding_IN;
-````
 
 
 ## -struct-fields

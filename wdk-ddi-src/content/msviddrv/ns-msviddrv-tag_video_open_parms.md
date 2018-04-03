@@ -38,7 +38,8 @@ api_location:
 -	Msviddrv.h
 api_name:
 -	VIDEO_OPEN_PARMS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEO_OPEN_PARMS, *LPVIDEO_OPEN_PARMS
 ---
@@ -50,24 +51,6 @@ req.typenames: VIDEO_OPEN_PARMS, *LPVIDEO_OPEN_PARMS
 
 
 
-
-
-## -syntax
-
-
-````
-typedef struct tag_video_open_parms {
-  DWORD  dwSize;
-  FOURCC fccType;
-  FOURCC fccComp;
-  DWORD  dwVersion;
-  DWORD  dwFlags;
-  DWORD  dwError;
-  LPVOID pV1Reserved;
-  LPVOID pV2Reserved;
-  DWORD  dnDevNode;
-} VIDEO_OPEN_PARMS, *LPVIDEO_OPEN_PARMS;
-````
 
 
 ## -struct-fields

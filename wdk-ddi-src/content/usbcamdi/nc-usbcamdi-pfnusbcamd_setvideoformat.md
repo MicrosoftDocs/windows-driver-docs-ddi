@@ -38,7 +38,8 @@ api_location:
 -	usbcamdi.h
 api_name:
 -	USBCAMD_SetVideoFormat
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USB_BUS_INTERFACE_USBDI_V3, *PUSB_BUS_INTERFACE_USBDI_V3
 req.product: Windows 10 or later.
@@ -51,20 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>USBCAMD_SetVideoFormat</b> service is used to notify USBCAMD that the video format has changed.
-
-
-## -prototype
-
-
-````
-PFNUSBCAMD_SetVideoFormat USBCAMD_SetVideoFormat;
-
-NTSTATUS APIENTRY USBCAMD_SetVideoFormat(
-  _In_ PVOID                    DeviceContext,
-  _In_ PHW_STREAM_REQUEST_BLOCK pSrb
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -140,16 +127,15 @@ Camera minidrivers must handle all SRBs related to video format. Camera minidriv
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568201">SRB_SET_DATA_FORMAT</a>
 
 
 
-<a href="..\usbcamdi\ns-usbcamdi-usbcamd_interface.md">USBCAMD_INTERFACE</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568605">USBCAMD_INTERFACE</a>
  
 
  
-
 

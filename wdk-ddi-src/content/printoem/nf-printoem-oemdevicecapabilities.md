@@ -38,7 +38,8 @@ api_location:
 -	printoem.h
 api_name:
 -	OEMDeviceCapabilities
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STDVARIABLEINDEX
 req.product: Windows 10 or later.
@@ -50,23 +51,6 @@ req.product: Windows 10 or later.
 ## -description
 
 
-
-
-## -syntax
-
-
-````
-DWORD APIENTRY OEMDeviceCapabilities(
-   POEMUIOBJ poemuiobj,
-   HANDLE    hPrinter,
-   PWSTR     pDeviceName,
-   WORD      wCapability,
-   PVOID     pOutput,
-   PDEVMODE  pPublicDM,
-   PVOID     pOEMDM,
-   DWORD     dwLastResult
-);
-````
 
 
 ## -parameters

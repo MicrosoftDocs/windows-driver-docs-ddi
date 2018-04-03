@@ -7,7 +7,7 @@ old-location: debugger\idebugplmclient3_launchanddebugplmappwide.htm
 old-project: debugger
 ms.assetid: F3DD5912-46E5-43E5-A920-940FC8FCD83F
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: IDebugPlmClient3, IDebugPlmClient3 interface [Windows Debugging], LaunchAndDebugPlmAppWide method, IDebugPlmClient3::LaunchAndDebugPlmAppWide, LaunchAndDebugPlmAppWide method [Windows Debugging], LaunchAndDebugPlmAppWide method [Windows Debugging], IDebugPlmClient3 interface, LaunchAndDebugPlmAppWide,IDebugPlmClient3.LaunchAndDebugPlmAppWide, dbgeng/IDebugPlmClient3::LaunchAndDebugPlmAppWide, debugger.idebugplmclient3_launchanddebugplmappwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugPlmClient3.LaunchAndDebugPlmAppWide
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -50,19 +51,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
     Launches and attaches to a Process Lifecycle Management (PLM) application. 
-
-
-## -syntax
-
-
-````
-HRESULT LaunchAndDebugPlmAppWide(
-  [in] ULONG64 Server,
-  [in] PCWSTR  PackageFullName,
-  [in] PCWSTR  AppName,
-  [in] PCWSTR  Arguments
-);
-````
 
 
 ## -parameters
@@ -103,12 +91,11 @@ If a debugger session is not already started, this method starts one.
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugplmclient3.md">IDebugPlmClient3</a>
 
 
 
+<a href="https://msdn.microsoft.com/5B0580FF-0829-406A-B511-C0CD91A08D5F">IDebugPlmClient3</a>
  
 
  
-
 

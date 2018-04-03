@@ -7,7 +7,7 @@ old-location: storage\storportwriteregisterbufferulong64.htm
 old-project: storage
 ms.assetid: 3C36DB8F-46C2-4E81-B2F3-6DE78D91566E
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: StorPortWriteRegisterBufferUlong64, StorPortWriteRegisterBufferUlong64 routine [Storage Devices], storage.storportwriteregisterbufferulong64, storport/StorPortWriteRegisterBufferUlong64
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	storport.h
 api_name:
 -	StorPortWriteRegisterBufferUlong64
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STOR_SPINLOCK
 req.product: Windows 10 or later.
@@ -52,18 +53,6 @@ req.product: Windows 10 or later.
 
 This <b>StorPortWriteRegisterBufferUlong64</b> routine writes a number of <b>ULONG64</b> values from a the specified 64-bit register address.
  
-
-
-## -syntax
-
-
-````
- VOID StorPortWriteRegisterBufferUlong64(
-  _In_ PULONG64  Register,
-  _In_ PULONG64  Buffer,
-  _In_ ULONG     Count
-);
-````
 
 
 ## -parameters
@@ -121,12 +110,11 @@ The <b>StorPortWriteRegisterBufferUlong64</b> routine is only available on the 6
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportreadregisterbufferulong64.md">StorPortReadRegisterBufferUlong64</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh967740">StorPortReadRegisterBufferUlong64</a>
  
 
  
-
 

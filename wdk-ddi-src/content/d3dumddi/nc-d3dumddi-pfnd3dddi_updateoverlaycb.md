@@ -7,7 +7,7 @@ old-location: display\pfnupdateoverlaycb.htm
 old-project: display
 ms.assetid: 17f89cea-350c-43f6-a60d-32fc2d299dd7
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3Druntime_Functions_9a6ce628-61ad-4c22-9fa7-aa2c83e680b6.xml, PFND3DDDI_UPDATEOVERLAYCB, d3dumddi/pfnUpdateOverlayCb, display.pfnupdateoverlaycb, pfnUpdateOverlayCb, pfnUpdateOverlayCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	pfnUpdateOverlayCb
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_PTE
 ---
@@ -50,20 +51,6 @@ req.typenames: DXGK_PTE
 
 
 The <b>pfnUpdateOverlayCb</b> function modifies a kernel-mode overlay object.
-
-
-## -prototype
-
-
-````
-PFND3DDDI_UPDATEOVERLAYCB pfnUpdateOverlayCb;
-
-__checkReturn HRESULT APIENTRY CALLBACK pfnUpdateOverlayCb(
-  _In_       HANDLE                 hDevice,
-  _In_ const D3DDDICB_UPDATEOVERLAY *pData
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -87,7 +74,7 @@ A handle to the display device (graphics context).
 
 #### - pData [in]
 
-A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_updateoverlay.md">D3DDDICB_UPDATEOVERLAY</a> structure that describes how to modify the overlay.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff544282">D3DDDICB_UPDATEOVERLAY</a> structure that describes how to modify the overlay.
 
 
 ## -returns
@@ -155,16 +142,15 @@ This function might also return other HRESULT values.
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicecallbacks.md">D3DDDI_DEVICECALLBACKS</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_updateoverlay.md">D3DDDICB_UPDATEOVERLAY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544282">D3DDDICB_UPDATEOVERLAY</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544512">D3DDDI_DEVICECALLBACKS</a>
  
 
  
-
 

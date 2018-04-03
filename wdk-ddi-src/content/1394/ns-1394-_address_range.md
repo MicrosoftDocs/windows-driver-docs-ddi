@@ -53,18 +53,6 @@ req.typenames: ADDRESS_RANGE, *PADDRESS_RANGE
 The ADDRESS_RANGE structure describes a range in a IEEE 1394 device's address space.
 
 
-## -syntax
-
-
-````
-typedef struct _ADDRESS_RANGE {
-  USHORT AR_Off_High;
-  USHORT AR_Length;
-  ULONG  AR_Off_Low;
-} ADDRESS_RANGE, *PADDRESS_RANGE;
-````
-
-
 ## -struct-fields
 
 
@@ -87,7 +75,6 @@ Specifies the low order bits of the 1394 address within the buffer.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537640">REQUEST_FREE_ADDRESS_RANGE</a>
 
 
 
@@ -95,8 +82,8 @@ Specifies the low order bits of the 1394 address within the buffer.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537640">REQUEST_FREE_ADDRESS_RANGE</a>
  
 
  
-
 

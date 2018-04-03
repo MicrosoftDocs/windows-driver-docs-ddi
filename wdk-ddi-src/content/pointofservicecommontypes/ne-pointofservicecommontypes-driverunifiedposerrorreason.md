@@ -38,7 +38,8 @@ api_location:
 -	pointofservicecommontypes.h
 api_name:
 -	DriverUnifiedPosErrorReason
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DriverUnifiedPosErrorReason
 ---
@@ -50,26 +51,6 @@ req.typenames: DriverUnifiedPosErrorReason
 
 
 This enumeration indicates the reason for the error.
-
-
-## -syntax
-
-
-````
-typedef enum _DriverUnifiedPosErrorReason { 
-  UnknownErrorReason  = 0,
-  NoService           = 1,
-  Disabled            = 2,
-  Illegal             = 3,
-   NoHardware         = 4,
-  Closed              = 5,
-  Offline             = 6,
-  Failure             = 7,
-  Timeout             = 8,
-  Busy                = 9,
-  Extended            = 10
-} DriverUnifiedPosErrorReason;
-````
 
 
 ## -enum-fields

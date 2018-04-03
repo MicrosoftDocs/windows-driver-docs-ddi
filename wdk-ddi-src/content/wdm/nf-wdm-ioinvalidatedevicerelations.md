@@ -7,7 +7,7 @@ old-location: kernel\ioinvalidatedevicerelations.htm
 old-project: kernel
 ms.assetid: f312afec-10b3-4049-a4c1-154c11b4a869
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: IoInvalidateDeviceRelations, IoInvalidateDeviceRelations routine [Kernel-Mode Driver Architecture], k104_c839e20b-2be6-4586-86c9-57c773bf755f.xml, kernel.ioinvalidatedevicerelations, wdm/IoInvalidateDeviceRelations
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	IoInvalidateDeviceRelations
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
@@ -51,17 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>IoInvalidateDeviceRelations</b> routine notifies the PnP manager that the relations for a device (such as bus relations, ejection relations, removal relations, and the target device relation) have changed.
-
-
-## -syntax
-
-
-````
-VOID IoInvalidateDeviceRelations(
-  _In_ PDEVICE_OBJECT       DeviceObject,
-  _In_ DEVICE_RELATION_TYPE Type
-);
-````
 
 
 ## -parameters
@@ -101,16 +91,15 @@ After a bus driver calls <b>IoInvalidateDeviceRelations</b> to inform the PnP ma
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551670">IRP_MN_QUERY_DEVICE_RELATIONS</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551738">IRP_MN_REMOVE_DEVICE</a>
-
-
-
  
 
  
-
 

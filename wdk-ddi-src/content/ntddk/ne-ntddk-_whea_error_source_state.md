@@ -38,7 +38,8 @@ api_location:
 -	ntddk.h
 api_name:
 -	WHEA_ERROR_SOURCE_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WHEA_ERROR_SOURCE_STATE, *PWHEA_ERROR_SOURCE_STATE
 ---
@@ -50,17 +51,6 @@ req.typenames: WHEA_ERROR_SOURCE_STATE, *PWHEA_ERROR_SOURCE_STATE
 
 
 The WHEA_ERROR_SOURCE_STATE enumeration defines the different runtime states for an error source.
-
-
-## -syntax
-
-
-````
-typedef enum _WHEA_ERROR_SOURCE_STATE { 
-  WheaErrSrcStateStopped  = 0x01,
-  WheaErrSrcStateStarted  = 0x02
-} WHEA_ERROR_SOURCE_STATE, *PWHEA_ERROR_SOURCE_STATE;
-````
 
 
 ## -enum-fields
@@ -82,19 +72,18 @@ The error source is started.
 
 
 
-The <a href="..\ntddk\ns-ntddk-_whea_error_source_descriptor.md">WHEA_ERROR_SOURCE_DESCRIPTOR</a> structure contains a member of type WHEA_ERROR_SOURCE_STATE that indicates the runtime state of the error source.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560505">WHEA_ERROR_SOURCE_DESCRIPTOR</a> structure contains a member of type WHEA_ERROR_SOURCE_STATE that indicates the runtime state of the error source.
 
 
 
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_whea_error_source_descriptor.md">WHEA_ERROR_SOURCE_DESCRIPTOR</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560505">WHEA_ERROR_SOURCE_DESCRIPTOR</a>
  
 
  
-
 

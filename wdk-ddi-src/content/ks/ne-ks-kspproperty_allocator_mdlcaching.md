@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSPPROPERTY_ALLOCATOR_MDLCACHING
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSPPROPERTY_ALLOCATOR_MDLCACHING
 ---
@@ -50,16 +51,6 @@ req.typenames: KSPPROPERTY_ALLOCATOR_MDLCACHING
 
 
 This enumeration is used internally by the operating system.
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  KSPROPERTY_ALLOCATOR_CLEANUP_CACHEDMDLPAGES  = 1
-} KSPPROPERTY_ALLOCATOR_MDLCACHING;
-````
 
 
 ## -enum-fields

@@ -38,7 +38,8 @@ api_location:
 -	Ksmedia.h
 api_name:
 -	KSEVENT_CAMERACONTROL
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSEVENT_CAMERACONTROL
 ---
@@ -50,17 +51,6 @@ req.typenames: KSEVENT_CAMERACONTROL
 
 
 Specifies camera control event notifications that the driver generates to indicate that an operation has been completed or canceled.
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  KSEVENT_CAMERACONTROL_FOCUS  = 0,
-  KSEVENT_CAMERACONTROL_ZOOM   = 1
-} KSEVENT_CAMERACONTROL;
-````
 
 
 ## -enum-fields
@@ -82,18 +72,13 @@ A camera zoom operation has completed or has been canceled. See <a href="https:/
 
 
 
-For more information, see <a href="..\ksmedia\ns-ksmedia-ksproperty_cameracontrol_s_ex.md">KSPROPERTY_CAMERACONTROL_S_EX</a>.
+For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/jj151593">KSPROPERTY_CAMERACONTROL_S_EX</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-ksproperty_cameracontrol_s_ex.md">KSPROPERTY_CAMERACONTROL_S_EX</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj156038">KSEVENT_CAMERACONTROL_ZOOM</a>
 
 
 
@@ -101,8 +86,12 @@ For more information, see <a href="..\ksmedia\ns-ksmedia-ksproperty_cameracontro
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj156038">KSEVENT_CAMERACONTROL_ZOOM</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj151593">KSPROPERTY_CAMERACONTROL_S_EX</a>
  
 
  
-
 

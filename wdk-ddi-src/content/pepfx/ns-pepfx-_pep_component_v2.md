@@ -7,7 +7,7 @@ old-location: kernel\pep_component_v2.htm
 old-project: kernel
 ms.assetid: 6C7AB917-1A98-471C-BA6C-B7C6BFF1AC3F
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*PPEP_COMPONENT, *PPEP_COMPONENT_V2, PEP_COMPONENT, PEP_COMPONENT_V2, PEP_COMPONENT_V2 structure [Kernel-Mode Driver Architecture], PPEP_COMPONENT_V2, PPEP_COMPONENT_V2 structure pointer [Kernel-Mode Driver Architecture], _PEP_COMPONENT_V2, kernel.pep_component_v2, pepfx/PEP_COMPONENT_V2, pepfx/PPEP_COMPONENT_V2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	pepfx.h
 api_name:
 -	PEP_COMPONENT_V2
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PEP_COMPONENT_V2, *PPEP_COMPONENT_V2
 ---
@@ -50,20 +51,6 @@ req.typenames: PEP_COMPONENT_V2, *PPEP_COMPONENT_V2
 
 
 The <b>PEP_COMPONENT_V2</b> structure specifies the power state attributes of a component in the device.
-
-
-## -syntax
-
-
-````
-typedef struct _PEP_COMPONENT_V2 {
-  GUID                        Id;
-  ULONGLONG                   Flags;
-  ULONG                       DeepestWakeableIdleState;
-  ULONG                       IdleStateCount;
-  PPO_FX_COMPONENT_IDLE_STATE IdleStates;
-} PEP_COMPONENT_V2, *PPEP_COMPONENT_V2;
-````
 
 
 ## -struct-fields
@@ -93,7 +80,7 @@ The number of elements in the array that is pointed to by the <b>IdleStates</b> 
 
 ### -field IdleStates
 
-A pointer to an array of <a href="..\wudfwdm\ns-wudfwdm-_po_fx_component_idle_state.md">PO_FX_COMPONENT_IDLE_STATE</a> structures. The length of this array is specified by the <b>IdleStateCount</b> member. Each array element specifies the attributes of an F<i>x</i> power state that is supported by the component. Element 0 describes F0, element 1 describes F1, and so on.
+A pointer to an array of <a href="https://msdn.microsoft.com/library/windows/hardware/hh439581">PO_FX_COMPONENT_IDLE_STATE</a> structures. The length of this array is specified by the <b>IdleStateCount</b> member. Each array element specifies the attributes of an F<i>x</i> power state that is supported by the component. Element 0 describes F0, element 1 describes F1, and so on.
 
 
 ## -remarks
@@ -107,12 +94,11 @@ This structure
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_po_fx_component_idle_state.md">PO_FX_COMPONENT_IDLE_STATE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439581">PO_FX_COMPONENT_IDLE_STATE</a>
  
 
  
-
 

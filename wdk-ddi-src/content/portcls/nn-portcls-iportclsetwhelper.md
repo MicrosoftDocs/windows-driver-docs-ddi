@@ -7,7 +7,7 @@ old-location: audio\iportclsetwhelper.htm
 old-project: audio
 ms.assetid: 7BF9E3AB-D508-4FB8-8C47-C0B338933A56
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/19/2018
 ms.keywords: IPortClsEtwHelper, IPortClsEtwHelper interface [Audio Devices], IPortClsEtwHelper interface [Audio Devices], described, audio.iportclsetwhelper, portcls/IPortClsEtwHelper
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Portcls.h
 api_name:
 -	IPortClsEtwHelper
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
@@ -83,12 +84,11 @@ The <code>MiniportWriteEtwEvent</code> method is used by an audio miniport drive
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/9FF2A5D6-9382-4EE6-AA21-DCF47210F73B">Glitch Reporting for Offloaded Audio</a>
-
-
-
  
 
  
-
 

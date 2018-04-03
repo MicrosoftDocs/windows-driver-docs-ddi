@@ -38,7 +38,8 @@ api_location:
 -	Winspool.h
 api_name:
 -	EnumJobNamedProperties
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BIDI_TYPE
 req.product: Windows 10 or later.
@@ -51,19 +52,6 @@ req.product: Windows 10 or later.
 
 
 
-
-
-## -syntax
-
-
-````
-DWORD WINAPI EnumJobNamedProperties(
-  _In_  HANDLE              hPrinter,
-  _In_  DWORD               JobId,
-  _Out_ DWORD               *pcProperties,
-  _Out_ PrintNamedProperty  **ppProperties
-);
-````
 
 
 ## -parameters

@@ -7,7 +7,7 @@ old-location: netvista\ndk_extension_interface.htm
 old-project: netvista
 ms.assetid: BFA8FF36-1B10-4358-8826-9D5C32F27CFF
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NDK_EXTENSION_INTERFACE, NDK_EXTENSION_INTERFACE structure [Network Drivers Starting with Windows Vista], PNDK_EXTENSION_INTERFACE, PNDK_EXTENSION_INTERFACE structure pointer [Network Drivers Starting with Windows Vista], _NDK_EXTENSION_INTERFACE, ndkpi/NDK_EXTENSION_INTERFACE, ndkpi/PNDK_EXTENSION_INTERFACE, netvista.ndk_extension_interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ndkpi.h
 api_name:
 -	NDK_EXTENSION_INTERFACE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDK_EXTENSION_INTERFACE
 ---
@@ -50,16 +51,6 @@ req.typenames: NDK_EXTENSION_INTERFACE
 
 
 The <b>NDK_EXTENSION_INTERFACE</b> structure specifies dispatch function entry points for an NDK extension interface.
-
-
-## -syntax
-
-
-````
-typedef struct _NDK_EXTENSION_INTERFACE {
-  const VOID *Dispatch;
-} NDK_EXTENSION_INTERFACE, *PNDK_EXTENSION_INTERFACE;
-````
 
 
 ## -struct-fields
@@ -78,7 +69,7 @@ An entry point for an extension interface dispatch function.
 
 An extension interface is identified by a GUID and represented as a pointer to an <b>NDK_EXTENSION_INTERFACE</b> function dispatch table.
 
-Each NDK object contains a <a href="..\ndkpi\nc-ndkpi-ndk_fn_query_extension_interface.md">NDK_FN_QUERY_EXTENSION_INTERFACE</a> function pointer in its object type-specific function dispatch table. This function allows a driver to query the extended interfaces the object type supports.
+Each NDK object contains a <a href="https://msdn.microsoft.com/library/windows/hardware/hh439905">NDK_FN_QUERY_EXTENSION_INTERFACE</a> function pointer in its object type-specific function dispatch table. This function allows a driver to query the extended interfaces the object type supports.
 
 <div class="alert"><b>Tip</b>   There are currently no standard extension interfaces defined.</div>
 <div> </div>
@@ -87,12 +78,11 @@ Each NDK object contains a <a href="..\ndkpi\nc-ndkpi-ndk_fn_query_extension_int
 
 ## -see-also
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_query_extension_interface.md">NDK_FN_QUERY_EXTENSION_INTERFACE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439905">NDK_FN_QUERY_EXTENSION_INTERFACE</a>
  
 
  
-
 

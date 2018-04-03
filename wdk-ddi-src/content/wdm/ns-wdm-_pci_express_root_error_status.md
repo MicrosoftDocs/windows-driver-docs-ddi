@@ -38,7 +38,8 @@ api_location:
 -	wdm.h
 api_name:
 -	PCI_EXPRESS_ROOT_ERROR_STATUS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PCI_EXPRESS_ROOT_ERROR_STATUS, *PPCI_EXPRESS_ROOT_ERROR_STATUS
 req.product: Windows 10 or later.

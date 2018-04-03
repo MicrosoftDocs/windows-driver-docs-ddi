@@ -38,7 +38,8 @@ api_location:
 -	Spbcx.h
 api_name:
 -	SPB_CONTROLLER_CONFIG_INIT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SPB_REQUEST_TYPE, *PSPB_REQUEST_TYPE
 req.product: Windows 10 or later.
@@ -51,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>SPB_CONTROLLER_CONFIG_INIT</b> function initializes an <a href="https://msdn.microsoft.com/library/windows/hardware/hh406206">SPB_CONTROLLER_CONFIG</a> structure.
-
-
-## -syntax
-
-
-````
-VOID SPB_CONTROLLER_CONFIG_INIT(
-  _Out_ SPB_CONTROLLER_CONFIG *Config
-);
-````
 
 
 ## -parameters
@@ -93,7 +84,6 @@ Your SPB controller driver must use this function to initialize an <b>SPB_CONTRO
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450919">SpbDeviceInitialize</a>
 
 
 
@@ -101,8 +91,8 @@ Your SPB controller driver must use this function to initialize an <b>SPB_CONTRO
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450919">SpbDeviceInitialize</a>
  
 
  
-
 

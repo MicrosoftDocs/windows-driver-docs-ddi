@@ -38,7 +38,8 @@ api_location:
 -	Gpioclx.h
 api_name:
 -	GPIO_CLIENT_REGISTRATION_PACKET
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GPIO_CLIENT_REGISTRATION_PACKET, *PGPIO_CLIENT_REGISTRATION_PACKET
 ---
@@ -50,48 +51,6 @@ req.typenames: GPIO_CLIENT_REGISTRATION_PACKET, *PGPIO_CLIENT_REGISTRATION_PACKE
 
 
 The <b>GPIO_CLIENT_REGISTRATION_PACKET</b> structure contains registration information that the general-purpose I/O (GPIO) controller driver passes to the GPIO framework extension (GpioClx).
-
-
-## -syntax
-
-
-````
-typedef struct _GPIO_CLIENT_REGISTRATION_PACKET {
-  USHORT                                          Version;
-  USHORT                                          Size;
-  ULONG                                           Flags;
-  ULONG                                           ControllerContextSize;
-  ULONG64                                         Reserved;
-  PGPIO_CLIENT_PREPARE_CONTROLLER                 CLIENT_PrepareController;
-  PGPIO_CLIENT_RELEASE_CONTROLLER                 CLIENT_ReleaseController;
-  PGPIO_CLIENT_START_CONTROLLER                   CLIENT_StartController;
-  PGPIO_CLIENT_STOP_CONTROLLER                    CLIENT_StopController;
-  PGPIO_CLIENT_QUERY_CONTROLLER_BASIC_INFORMATION CLIENT_QueryControllerBasicInformation;
-  PGPIO_CLIENT_QUERY_SET_CONTROLLER_INFORMATION   CLIENT_QuerySetControllerInformation;
-  PGPIO_CLIENT_ENABLE_INTERRUPT                   CLIENT_EnableInterrupt;
-  PGPIO_CLIENT_DISABLE_INTERRUPT                  CLIENT_DisableInterrupt;
-  PGPIO_CLIENT_UNMASK_INTERRUPT                   CLIENT_UnmaskInterrupt;
-  PGPIO_CLIENT_MASK_INTERRUPTS                    CLIENT_MaskInterrupts;
-  PGPIO_CLIENT_QUERY_ACTIVE_INTERRUPTS            CLIENT_QueryActiveInterrupts;
-  PGPIO_CLIENT_CLEAR_ACTIVE_INTERRUPTS            CLIENT_ClearActiveInterrupts;
-  PGPIO_CLIENT_CONNECT_IO_PINS                    CLIENT_ConnectIoPins;
-  PGPIO_CLIENT_DISCONNECT_IO_PINS                 CLIENT_DisconnectIoPins;
-  union {
-    PGPIO_CLIENT_READ_PINS      CLIENT_ReadGpioPins;
-    PGPIO_CLIENT_READ_PINS_MASK CLIENT_ReadGpioPinsUsingMask;
-  };
-  union {
-    PGPIO_CLIENT_WRITE_PINS      CLIENT_WriteGpioPins;
-    PGPIO_CLIENT_WRITE_PINS_MASK CLIENT_WriteGpioPinsUsingMask;
-  };
-  PGPIO_CLIENT_SAVE_BANK_HARDWARE_CONTEXT         CLIENT_SaveBankHardwareContext;
-  PGPIO_CLIENT_RESTORE_BANK_HARDWARE_CONTEXT      CLIENT_RestoreBankHardwareContext;
-  PGPIO_CLIENT_PRE_PROCESS_CONTROLLER_INTERRUPT   CLIENT_PreProcessControllerInterrupt;
-  PGPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION       CLIENT_ControllerSpecificFunction;
-  PGPIO_CLIENT_RECONFIGURE_INTERRUPT              CLIENT_ReconfigureInterrupt;
-  PGPIO_CLIENT_QUERY_ENABLED_INTERRUPTS           CLIENT_QueryEnabledInterrupts;
-} GPIO_CLIENT_REGISTRATION_PACKET, *PGPIO_CLIENT_REGISTRATION_PACKET;
-````
 
 
 ## -struct-fields
@@ -260,7 +219,7 @@ A pointer to the GPIO controller driver's <a href="https://msdn.microsoft.com/li
 
 
 
-The GPIO controller driver passes a pointer to a <b>GPIO_CLIENT_REGISTRATION_PACKET</b> structure as an input parameter to the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439490">GPIO_CLX_RegisterClient</a> method. This method registers the driver to use the services provided by GpioClx. Typically, the driver calls this method from its <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine.
+The GPIO controller driver passes a pointer to a <b>GPIO_CLIENT_REGISTRATION_PACKET</b> structure as an input parameter to the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439490">GPIO_CLX_RegisterClient</a> method. This method registers the driver to use the services provided by GpioClx. Typically, the driver calls this method from its <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine.
 
 The <b>GPIO_CLIENT_REGISTRATION_PACKET</b> structure contains two unnamed unions. Each union can contain a pointer to one of two alternative types of event callback functions. In each case, your GPIO controller driver should implement the type of callback function that is best suited to the GPIO controller hardware. The GPIO controller driver's <i>CLIENT_QueryControllerBasicInformation</i> callback function informs GpioClx which callback functions are implemented.
 
@@ -277,27 +236,6 @@ GpioClx requires a GPIO controller driver to implement certain callback function
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439406">CLIENT_ReadGpioPinsUsingMask</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439347">CLIENT_ConnectIoPins</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439411">CLIENT_ReleaseController</a>
-
-
-
-<a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439414">CLIENT_RestoreBankHardwareContext</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439445">CLIENT_WriteGpioPinsUsingMask</a>
 
 
 
@@ -305,27 +243,11 @@ GpioClx requires a GPIO controller driver to implement certain callback function
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439371">CLIENT_DisableInterrupt</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439341">CLIENT_ClearActiveInterrupts</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439395">CLIENT_QueryActiveInterrupts</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439430">CLIENT_StopController</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439419">CLIENT_SaveBankHardwareContext</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439439">CLIENT_WriteGpioPins</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439347">CLIENT_ConnectIoPins</a>
 
 
 
@@ -333,19 +255,11 @@ GpioClx requires a GPIO controller driver to implement certain callback function
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439371">CLIENT_DisableInterrupt</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439374">CLIENT_DisconnectIoPins</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439404">CLIENT_ReadGpioPins</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439392">CLIENT_PreProcessControllerInterrupt</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439490">GPIO_CLX_RegisterClient</a>
 
 
 
@@ -353,23 +267,11 @@ GpioClx requires a GPIO controller driver to implement certain callback function
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439341">CLIENT_ClearActiveInterrupts</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439424">CLIENT_StartController</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439435">CLIENT_UnmaskInterrupt</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439380">CLIENT_MaskInterrupts</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh698243">CLIENT_ReconfigureInterrupt</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439392">CLIENT_PreProcessControllerInterrupt</a>
 
 
 
@@ -377,12 +279,68 @@ GpioClx requires a GPIO controller driver to implement certain callback function
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439395">CLIENT_QueryActiveInterrupts</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn265184">CLIENT_QueryEnabledInterrupts</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439404">CLIENT_ReadGpioPins</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439406">CLIENT_ReadGpioPinsUsingMask</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh698243">CLIENT_ReconfigureInterrupt</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439411">CLIENT_ReleaseController</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439414">CLIENT_RestoreBankHardwareContext</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439419">CLIENT_SaveBankHardwareContext</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439424">CLIENT_StartController</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439430">CLIENT_StopController</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439435">CLIENT_UnmaskInterrupt</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439439">CLIENT_WriteGpioPins</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439445">CLIENT_WriteGpioPinsUsingMask</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439490">GPIO_CLX_RegisterClient</a>
  
 
  
-
 

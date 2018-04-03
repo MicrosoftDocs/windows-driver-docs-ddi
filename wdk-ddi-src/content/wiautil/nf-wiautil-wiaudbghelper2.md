@@ -38,7 +38,8 @@ api_location:
 -	Wiautil.h
 api_name:
 -	wiauDbgHelper2
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SKIP_AMOUNT
 req.product: Windows 10 or later.
@@ -51,18 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>wiauDbgHelper2</b> function writes a message to a log file, or debugger, or both. 
-
-
-## -syntax
-
-
-````
-void __stdcall wiauDbgHelper2(
-   LPCSTR   prefix,
-   LPCSTR   fname,
-   LPCSTR   fmt, ...
-);
-````
 
 
 ## -parameters
@@ -127,32 +116,31 @@ The <b>wiauDbgHelper2</b> function enables those using it to write <b>printf</b>
 
 ## -see-also
 
-<a href="..\wiautil\nf-wiautil-wiaudbgdump.md">wiauDbgDump</a>
 
 
 
-<a href="..\wiautil\nf-wiautil-wiaudbgwarning.md">wiauDbgWarning</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549627">wiauDbgDump</a>
 
 
 
-<a href="..\wiautil\nf-wiautil-wiaudbgerrorhr.md">wiauDbgErrorHr</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549633">wiauDbgError</a>
 
 
 
-<a href="..\wiautil\nf-wiautil-wiaudbgtrace.md">wiauDbgTrace</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549637">wiauDbgErrorHr</a>
 
 
 
-<a href="..\wiautil\nf-wiautil-wiaudbghelper.md">wiauDbgHelper</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549649">wiauDbgHelper</a>
 
 
 
-<a href="..\wiautil\nf-wiautil-wiaudbgerror.md">wiauDbgError</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550161">wiauDbgTrace</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550163">wiauDbgWarning</a>
  
 
  
-
 

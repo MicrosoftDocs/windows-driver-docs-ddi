@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsPinReleaseProcessingMutex
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -53,16 +54,6 @@ req.typenames:
 The<b> KsPinReleaseProcessingMutex </b>function releases the processing mutex for the AVStream pin specified by <i>Pin</i>.
 
 
-## -syntax
-
-
-````
-void KsPinReleaseProcessingMutex(
-  _In_ PKSPIN Pin
-);
-````
-
-
 ## -parameters
 
 
@@ -70,7 +61,7 @@ void KsPinReleaseProcessingMutex(
 
 ### -param Pin [in]
 
-A pointer to a <a href="..\ks\ns-ks-_kspin.md">KSPIN</a> structure representing the AVStream pin object for which to acquire the processing mutex.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563483">KSPIN</a> structure representing the AVStream pin object for which to acquire the processing mutex.
 
 
 ## -returns
@@ -93,16 +84,15 @@ Minidrivers that must suspend processing for a long time should not use this mut
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kspinacquireprocessingmutex.md">KsPinAcquireProcessingMutex</a>
 
 
 
-<a href="..\ks\ns-ks-_ksgate.md">KSGATE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562566">KSGATE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563488">KsPinAcquireProcessingMutex</a>
  
 
  
-
 

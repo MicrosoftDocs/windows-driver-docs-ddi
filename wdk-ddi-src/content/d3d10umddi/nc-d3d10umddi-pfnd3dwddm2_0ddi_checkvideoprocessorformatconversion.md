@@ -7,7 +7,7 @@ old-location: display\checkvideoprocessorformatconversion.htm
 old-project: display
 ms.assetid: 70A741CC-9D1B-4ECC-BB3A-6ACF6893691A
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: CheckVideoProcessorFormatConversion, CheckVideoProcessorFormatConversion callback function [Display Devices], d3d10umddi/CheckVideoProcessorFormatConversion, display.checkvideoprocessorformatconversion
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3d10umddi.h
 api_name:
 -	CheckVideoProcessorFormatConversion
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 ---
@@ -52,18 +53,6 @@ req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 Indicates whether the driver supports a specific format/color-space conversion combination. This function must be implemented by Windows Display Driver Model (WDDM) 2.0 or later drivers.
 
 
-## -prototype
-
-
-````
-VOID APIENTRY* CheckVideoProcessorFormatConversion(
-  _In_ D3D10DDI_HDEVICE                                      hDevice,
-  _In_ D3D11_1DDI_HVIDEOPROCESSORENUM                        hProcessorEnum,
-  _In_ D3DWDDM2_0DDI_CHECK_VIDEO_PROCESSOR_FORMAT_CONVERSION *pConversion
-);
-````
-
-
 ## -parameters
 
 
@@ -71,17 +60,17 @@ VOID APIENTRY* CheckVideoProcessorFormatConversion(
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context). The Direct3D runtime passed the user-mode driver this handle as the <b>hDevice</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createdevice.md">D3DDDIARG_CREATEDEVICE</a> structure at device creation.
+ A handle to the display device (graphics context). The Direct3D runtime passed the user-mode driver this handle as the <b>hDevice</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff542931">D3DDDIARG_CREATEDEVICE</a> structure at device creation.
 
 
 ### -param hProcessorEnum [in]
 
-A handle to a video processor enumeration object that was created through a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessorenum.md">CreateVideoProcessorEnum</a> function.
+A handle to a video processor enumeration object that was created through a call to the <a href="https://msdn.microsoft.com/38c27502-7e8a-45a1-8a7c-315300502480">CreateVideoProcessorEnum</a> function.
 
 
 ### -param *pConversion [in]
 
-A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3dwddm2_0ddi_check_video_processor_format_conversion.md">D3DWDDM2_0DDI_CHECK_VIDEO_PROCESSOR_FORMAT_CONVERSION</a> structure that contains the input and output format/color-space combination.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn894604">D3DWDDM2_0DDI_CHECK_VIDEO_PROCESSOR_FORMAT_CONVERSION</a> structure that contains the input and output format/color-space combination.
 
 
 ## -returns
@@ -95,20 +84,19 @@ This callback function does not return a value.
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createdevice.md">D3DDDIARG_CREATEDEVICE</a>
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessorenum.md">CreateVideoProcessorEnum</a>
+<a href="https://msdn.microsoft.com/38c27502-7e8a-45a1-8a7c-315300502480">CreateVideoProcessorEnum</a>
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3dwddm2_0ddi_check_video_processor_format_conversion.md">D3DWDDM2_0DDI_CHECK_VIDEO_PROCESSOR_FORMAT_CONVERSION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542931">D3DDDIARG_CREATEDEVICE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn894604">D3DWDDM2_0DDI_CHECK_VIDEO_PROCESSOR_FORMAT_CONVERSION</a>
  
 
  
-
 

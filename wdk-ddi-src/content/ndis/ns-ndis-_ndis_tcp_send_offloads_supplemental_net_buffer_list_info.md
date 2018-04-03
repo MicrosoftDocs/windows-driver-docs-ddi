@@ -7,7 +7,7 @@ old-location: netvista\ndis_tcp_send_offloads_supplemental_net_buffer_list_info.
 old-project: netvista
 ms.assetid: 6688CF73-7048-4709-A50D-1D5DB17C8538
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PNDIS_TCP_SEND_OFFLOADS_SUPPLEMENTAL_NET_BUFFER_LIST_INFO, NDIS_TCP_SEND_OFFLOADS_SUPPLEMENTAL_NET_BUFFER_LIST_INFO, NDIS_TCP_SEND_OFFLOADS_SUPPLEMENTAL_NET_BUFFER_LIST_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_TCP_SEND_OFFLOADS_SUPPLEMENTAL_NET_BUFFER_LIST_INFO, PNDIS_TCP_SEND_OFFLOADS_SUPPLEMENTAL_NET_BUFFER_LIST_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_TCP_SEND_OFFLOADS_SUPPLEMENTAL_NET_BUFFER_LIST_INFO, ndis/NDIS_TCP_SEND_OFFLOADS_SUPPLEMENTAL_NET_BUFFER_LIST_INFO, ndis/PNDIS_TCP_SEND_OFFLOADS_SUPPLEMENTAL_NET_BUFFER_LIST_INFO, netvista.ndis_tcp_send_offloads_supplemental_net_buffer_list_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ndis.h
 api_name:
 -	NDIS_TCP_SEND_OFFLOADS_SUPPLEMENTAL_NET_BUFFER_LIST_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_TCP_SEND_OFFLOADS_SUPPLEMENTAL_NET_BUFFER_LIST_INFO, *PNDIS_TCP_SEND_OFFLOADS_SUPPLEMENTAL_NET_BUFFER_LIST_INFO
 ---
@@ -52,28 +53,6 @@ req.typenames: NDIS_TCP_SEND_OFFLOADS_SUPPLEMENTAL_NET_BUFFER_LIST_INFO, *PNDIS_
 The <b>NDIS_TCP_SEND_OFFLOADS_SUPPLEMENTAL_NET_BUFFER_LIST_INFO</b> structure contains additional out-of-band information for encapsulated packets. For more information, see <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/jj991956">Network Virtualization using Generic Routing Encapsulation (NVGRE) Task Offload</a> (NVGRE-TO).
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_TCP_SEND_OFFLOADS_SUPPLEMENTAL_NET_BUFFER_LIST_INFO {
-  union {
-    struct {
-      ULONG IsEncapsulatedPacket  :1;
-      ULONG EncapsulatedPacketOffsetsValid  :1;
-      ULONG InnerFrameOffset  :8;
-      ULONG TransportIpHeaderRelativeOffset  :6;
-      ULONG TcpHeaderRelativeOffset  :10;
-      ULONG IsInnerIPv6  :1;
-      ULONG TcpOptionsPresent  :1;
-      ULONG Reserved  :4;
-    } EncapsulatedPacketOffsets;
-    PVOID Value;
-  };
-} NDIS_TCP_SEND_OFFLOADS_SUPPLEMENTAL_NET_BUFFER_LIST_INFO, *PNDIS_TCP_SEND_OFFLOADS_SUPPLEMENTAL_NET_BUFFER_LIST_INFO;
-````
-
-
 ## -struct-fields
 
 
@@ -84,7 +63,7 @@ typedef struct _NDIS_TCP_SEND_OFFLOADS_SUPPLEMENTAL_NET_BUFFER_LIST_INFO {
 
 ### -field EncapsulatedPacketOffsets.IsEncapsulatedPacket
 
-If this member is  <b>TRUE</b>, this NBL represents a packet containing an inner Ethernet frame with a transport IP header. It is <b>FALSE</b> for normal packets. When <b>IsEncapsulatedPacket</b> is <b>TRUE</b>, the existing header offset fields, <a href="..\ndis\ns-ndis-_ndis_tcp_large_send_offload_net_buffer_list_info.md">NDIS_TCP_LARGE_SEND_OFFLOAD_NET_BUFFER_LIST_INFO</a>.<b>LsoV2Transmit</b>.<b>TcpHeaderOffset</b> and <a href="..\ndis\ns-ndis-_ndis_tcp_ip_checksum_net_buffer_list_info.md">NDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO</a>.<b>Transmit</b>.<b>TcpHeaderOffset</b>, will not have correct values and must not be used by the NIC or driver. Instead, the miniport driver must use the offsets specified in the other members of this structure.
+If this member is  <b>TRUE</b>, this NBL represents a packet containing an inner Ethernet frame with a transport IP header. It is <b>FALSE</b> for normal packets. When <b>IsEncapsulatedPacket</b> is <b>TRUE</b>, the existing header offset fields, <a href="https://msdn.microsoft.com/library/windows/hardware/ff567882">NDIS_TCP_LARGE_SEND_OFFLOAD_NET_BUFFER_LIST_INFO</a>.<b>LsoV2Transmit</b>.<b>TcpHeaderOffset</b> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff567877">NDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO</a>.<b>Transmit</b>.<b>TcpHeaderOffset</b>, will not have correct values and must not be used by the NIC or driver. Instead, the miniport driver must use the offsets specified in the other members of this structure.
 
 
 ### -field EncapsulatedPacketOffsets.EncapsulatedPacketOffsetsValid
@@ -132,7 +111,7 @@ Reserved for future use.
 
 
 
-The members of <b>NDIS_TCP_SEND_OFFLOADS_SUPPLEMENTAL_NET_BUFFER_LIST_INFO</b> are meaningful if and only if <b>TcpIpChecksumNetBufferListInfo</b> or <b>TcpLargeSendNetBufferListInfo</b> is specified in the <a href="..\ndis\ne-ndis-_ndis_net_buffer_list_info.md">NDIS_NET_BUFFER_LIST_INFO</a> structure.
+The members of <b>NDIS_TCP_SEND_OFFLOADS_SUPPLEMENTAL_NET_BUFFER_LIST_INFO</b> are meaningful if and only if <b>TcpIpChecksumNetBufferListInfo</b> or <b>TcpLargeSendNetBufferListInfo</b> is specified in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566569">NDIS_NET_BUFFER_LIST_INFO</a> structure.
 
 If the <b>IsEncapsulatedPacket</b> member is <b>TRUE</b> and the <b>TcpIpChecksumNetBufferListInfo</b> out-of-band (OOB) information is valid, this indicates that NVGRE support is required and the NIC must compute the checksum for the tunnel (outer) IP header, the transport (inner) IP header, and the TCP or UDP header if one of them is present. An NVGRE packet will only be offloaded if the packet conforms to miniport-advertised capabilities. For example, a packet containing a UDP header will not be offloaded if the miniport did not advertise UDP Tx checksum offload support in its base capabilities. For more information, see <a href="https://msdn.microsoft.com/5fb2f379-c357-4ec3-b103-bdbe23fcc033">Offloading Checksum Tasks</a>.
 
@@ -141,15 +120,14 @@ If the <b>IsEncapsulatedPacket</b> member is <b>TRUE</b> and the <b>TcpIpChecksu
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_encapsulated_packet_task_offload.md">NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD</a>
 
 
 
-<a href="..\ndis\ne-ndis-_ndis_net_buffer_list_info.md">NDIS_NET_BUFFER_LIST_INFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj991956">NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD</a>
 
 
 
-<a href="https://msdn.microsoft.com/5fb2f379-c357-4ec3-b103-bdbe23fcc033">Offloading Checksum Tasks</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566569">NDIS_NET_BUFFER_LIST_INFO</a>
 
 
 
@@ -157,8 +135,8 @@ If the <b>IsEncapsulatedPacket</b> member is <b>TRUE</b> and the <b>TcpIpChecksu
 
 
 
+<a href="https://msdn.microsoft.com/5fb2f379-c357-4ec3-b103-bdbe23fcc033">Offloading Checksum Tasks</a>
  
 
  
-
 

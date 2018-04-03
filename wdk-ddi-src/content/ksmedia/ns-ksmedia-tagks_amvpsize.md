@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KS_AMVPSIZE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KS_AMVPSIZE, *PKS_AMVPSIZE
 ---
@@ -50,17 +51,6 @@ req.typenames: KS_AMVPSIZE, *PKS_AMVPSIZE
 
 
 The KS_AMVPSIZE structure is used to describe the dimension of a video port (width by height).
-
-
-## -syntax
-
-
-````
-typedef struct tagKS_AMVPSIZE {
-  DWORD dwWidth;
-  DWORD dwHeight;
-} KS_AMVPSIZE, *PKS_AMVPSIZE;
-````
 
 
 ## -struct-fields
@@ -89,12 +79,11 @@ This structure is used by the <a href="https://msdn.microsoft.com/library/window
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566502">KSPROPERTY_VPCONFIG_SCALEFACTOR</a>
-
-
-
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: storage\scsi_adapter_bus_info.htm
 old-project: storage
 ms.assetid: 786d6813-a9f3-437e-9b41-d69e0fce9a4c
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSCSI_ADAPTER_BUS_INFO, PSCSI_ADAPTER_BUS_INFO, PSCSI_ADAPTER_BUS_INFO structure pointer [Storage Devices], SCSI_ADAPTER_BUS_INFO, SCSI_ADAPTER_BUS_INFO structure [Storage Devices], _SCSI_ADAPTER_BUS_INFO, ntddscsi/PSCSI_ADAPTER_BUS_INFO, ntddscsi/SCSI_ADAPTER_BUS_INFO, storage.scsi_adapter_bus_info, structs-scsibus_f21bd933-bcbc-48b5-8904-845712ce226f.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddscsi.h
 api_name:
 -	SCSI_ADAPTER_BUS_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SCSI_ADAPTER_BUS_INFO, *PSCSI_ADAPTER_BUS_INFO
 ---
@@ -49,19 +50,8 @@ req.typenames: SCSI_ADAPTER_BUS_INFO, *PSCSI_ADAPTER_BUS_INFO
 ## -description
 
 
-The SCSI_ADAPTER_BUS_INFO structure is used in conjunction with the <a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_get_inquiry_data.md">IOCTL_SCSI_GET_INQUIRY_DATA</a> request to retrieve the SCSI inquiry data for all devices on a given SCSI bus. 
+The SCSI_ADAPTER_BUS_INFO structure is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560509">IOCTL_SCSI_GET_INQUIRY_DATA</a> request to retrieve the SCSI inquiry data for all devices on a given SCSI bus. 
 <div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
-
-## -syntax
-
-
-````
-typedef struct _SCSI_ADAPTER_BUS_INFO {
-  UCHAR         NumberOfBuses;
-  SCSI_BUS_DATA BusData[1];
-} SCSI_ADAPTER_BUS_INFO, *PSCSI_ADAPTER_BUS_INFO;
-````
-
 
 ## -struct-fields
 
@@ -75,20 +65,20 @@ Contains the number of buses on the adapter for which inquiry data is being repo
 
 ### -field BusData
 
-Contains a variable length array of <a href="..\ntddscsi\ns-ntddscsi-_scsi_bus_data.md">SCSI_BUS_DATA</a> structures that hold the inquiry data. 
+Contains a variable length array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff565304">SCSI_BUS_DATA</a> structures that hold the inquiry data. 
 
 
 ## -remarks
 
 
 
-SCSI_ADAPTER_BUS_INFO is a header structure that describes the layout of the output buffer of the <a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_get_inquiry_data.md">IOCTL_SCSI_GET_INQUIRY_DATA</a> request. This request returns SCSI inquiry data for all of the logical units on all of the buses associated with a particular SCSI host bus adapter (HBA). The <b>BusData</b> member of SCSI_ADAPTER_BUS_INFO contains a variable length array of <a href="..\ntddscsi\ns-ntddscsi-_scsi_bus_data.md">SCSI_BUS_DATA</a> structures. This array has one element for each SCSI bus on the adapter, so its size is equal to the number of buses indicated in the <b>NumberOfBuses</b> member of SCSI_ADAPTER_BUS_INFO. 
+SCSI_ADAPTER_BUS_INFO is a header structure that describes the layout of the output buffer of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560509">IOCTL_SCSI_GET_INQUIRY_DATA</a> request. This request returns SCSI inquiry data for all of the logical units on all of the buses associated with a particular SCSI host bus adapter (HBA). The <b>BusData</b> member of SCSI_ADAPTER_BUS_INFO contains a variable length array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff565304">SCSI_BUS_DATA</a> structures. This array has one element for each SCSI bus on the adapter, so its size is equal to the number of buses indicated in the <b>NumberOfBuses</b> member of SCSI_ADAPTER_BUS_INFO. 
 
 In most cases, <b>NumberOfBuses</b> will have a value of 1. Early SCSI buses were limited to 36 targets (rather than the current limit of 128), so some vendors manufactured HBAs with several buses, in order to increase the maximum number of targets. To support these older HBAs, Windows provides a mechanism for retrieving inquiry data from HBAs with multiple buses. For adapters with a single bus, <b>NumberOfBuses</b> will be one, and the <b>BusData</b> member of SCSI_ADAPTER_BUS_INFO will have only one element, but HBAs with multiple buses will generate data for multiple SCSI_BUS_DATA structures, and <b>NumberOfBuses</b> will be greater than 1.
 
 Immediately following the array in <b>BusData</b> is the inquiry data for all of the devices on all the buses that belong to the HBA. The <b>InquiryDataOffset</b> member of each SCSI_BUS_DATA structure provides an offset to the inquiry data for the corresponding SCSI bus. 
 
-The inquiry data for each SCSI bus includes information about all of the logical units on that bus. Each logical unit's inquiry data is formatted in a structure of type <a href="..\ntddscsi\ns-ntddscsi-_scsi_inquiry_data.md">SCSI_INQUIRY_DATA</a>, and all of the SCSI_INQUIRY_DATA structures for a particular bus are linked together by the <b>NextInquiryDataOffset</b> member. There will be a separate list for each SCSI bus, and the <b>NextInquiryDataOffset</b> member of the last structure in each list contains a value of zero. 
+The inquiry data for each SCSI bus includes information about all of the logical units on that bus. Each logical unit's inquiry data is formatted in a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff565307">SCSI_INQUIRY_DATA</a>, and all of the SCSI_INQUIRY_DATA structures for a particular bus are linked together by the <b>NextInquiryDataOffset</b> member. There will be a separate list for each SCSI bus, and the <b>NextInquiryDataOffset</b> member of the last structure in each list contains a value of zero. 
 
 The following pseudocode example illustrates how to step through the SCSI buses on an HBA, and the logical units for each bus, reading and printing the inquiry data for each logical unit:
 
@@ -139,20 +129,19 @@ You must use <b>NextInquiryDataOffset</b> member to locate the inquiry data for 
 
 ## -see-also
 
-<a href="..\ntddscsi\ns-ntddscsi-_scsi_inquiry_data.md">SCSI_INQUIRY_DATA</a>
 
 
 
-<a href="..\ntddscsi\ns-ntddscsi-_scsi_bus_data.md">SCSI_BUS_DATA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560509">IOCTL_SCSI_GET_INQUIRY_DATA</a>
 
 
 
-<a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_get_inquiry_data.md">IOCTL_SCSI_GET_INQUIRY_DATA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565304">SCSI_BUS_DATA</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565307">SCSI_INQUIRY_DATA</a>
  
 
  
-
 

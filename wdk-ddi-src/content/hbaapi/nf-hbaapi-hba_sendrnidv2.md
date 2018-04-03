@@ -7,7 +7,7 @@ old-location: storage\hba_sendrnidv2.htm
 old-project: storage
 ms.assetid: c46aee6e-f31d-4b8d-8244-3c364aa79ae4
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: HBA_SendRNIDV2, HBA_SendRNIDV2 routine [Storage Devices], fibreHBA_rtns_8e5796fe-6cfa-42e8-9855-9ab89752bfec.xml, hbaapi/HBA_SendRNIDV2, storage.hba_sendrnidv2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Hbaapi.dll
 api_name:
 -	HBA_SendRNIDV2
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: HBA_WWNTYPE
 ---
@@ -50,22 +51,6 @@ req.typenames: HBA_WWNTYPE
 
 
 The <b>HBA_SendRNIDV2</b> routine sends a request for node identification data (RNID) to the indicated HBA, which in turn routes the request through the indicated port or node to the appropriate fabric configuration server. 
-
-
-## -syntax
-
-
-````
-HBA_STATUS HBA_API HBA_SendRNIDV2(
-  _In_    HBA_HANDLE handle,
-  _In_    HBA_WWN    hbaPortWWN,
-  _In_    HBA_WWN    destWWN,
-  _In_    HBA_UINT32 destFCID,
-  _In_    HBA_UINT32 NodeIdDataFormat,
-  _Out_   void       *pRspBuffer,
-  _Inout_ HBA_UINT32 *RspBufferSize
-);
-````
 
 
 ## -parameters
@@ -127,7 +112,7 @@ Contains a WWN for the destination port on the fabric configuration server that 
 
 #### - handle [in]
 
-Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a> that identifies the HBA that will route the command. The HBA routes this command through the port specified by <i>hbaPortWWN </i>to the port specified by <i>destWWN </i>on the appropriate fabric configuration server. 
+Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a> that identifies the HBA that will route the command. The HBA routes this command through the port specified by <i>hbaPortWWN </i>to the port specified by <i>destWWN </i>on the appropriate fabric configuration server. 
 
 
 #### - hbaPortWWN [in]
@@ -157,20 +142,19 @@ The <b>HBA_SendRNIDV2</b> library routine serves a purpose very similar to the <
 
 ## -see-also
 
-<a href="..\hbaapi\nf-hbaapi-hba_sendrnid.md">HBA_SendRNID</a>
 
 
 
-<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557216">HBA_SendRNID</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565459">SendRNID</a>
-
-
-
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: debugger\outputastypewide.htm
 old-project: debugger
 ms.assetid: f43b702d-37a7-484d-8a18-fa190e9189b2
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: IDebugSymbolGroup2, IDebugSymbolGroup2 interface [Windows Debugging], OutputAsTypeWide method, IDebugSymbolGroup2::OutputAsTypeWide, OutputAsTypeWide method [Windows Debugging], OutputAsTypeWide method [Windows Debugging], IDebugSymbolGroup2 interface, OutputAsTypeWide,IDebugSymbolGroup2.OutputAsTypeWide, dbgeng/IDebugSymbolGroup2::OutputAsTypeWide, debugger.outputastypewide
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugSymbolGroup2.OutputAsTypeWide
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -50,17 +51,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>OutputAsTypeWide</b> method changes the type of a symbol in a symbol group.  The symbol's entry is updated to represent the new type. 
-
-
-## -syntax
-
-
-````
-HRESULT OutputAsTypeWide(
-  [in] ULONG  Index,
-  [in] PCWSTR Type
-);
-````
 
 
 ## -parameters
@@ -121,7 +111,6 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
 
 
 
@@ -129,12 +118,12 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550846">IDebugSymbolGroup2</a>
  
 
  
-
 

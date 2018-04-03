@@ -39,7 +39,8 @@ api_location:
 -	Bdasup.dll
 api_name:
 -	BdaDeletePin
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSP_BDA_NODE_PIN, *PKSP_BDA_NODE_PIN
 ---
@@ -51,17 +52,6 @@ req.typenames: KSP_BDA_NODE_PIN, *PKSP_BDA_NODE_PIN
 
 
 The <b>BdaDeletePin</b> function deletes a pin from the specified filter. 
-
-
-## -syntax
-
-
-````
-NTSTATUS BdaDeletePin(
-  _In_      PKSFILTER pKSFilter,
-  _Out_opt_ PULONG    pulPinId
-);
-````
 
 
 ## -parameters
@@ -92,26 +82,25 @@ Returns STATUS_SUCCESS or an appropriate error code.
 
 
 
-A BDA minidriver calls the <a href="..\bdasup\nf-bdasup-bdamethoddeletepin.md">BdaMethodDeletePin</a> function when the network provider dynamically deletes a pin using the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563415">KSMETHOD_BDA_DELETE_PIN_FACTORY</a> request of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563404">KSMETHODSETID_BdaDeviceConfiguration</a> method set. If a BDA minidriver must delete a pin without relying on the network provider, the BDA minidriver should call the <b>BdaDeletePin</b> function directly.
+A BDA minidriver calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556474">BdaMethodDeletePin</a> function when the network provider dynamically deletes a pin using the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563415">KSMETHOD_BDA_DELETE_PIN_FACTORY</a> request of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563404">KSMETHODSETID_BdaDeviceConfiguration</a> method set. If a BDA minidriver must delete a pin without relying on the network provider, the BDA minidriver should call the <b>BdaDeletePin</b> function directly.
 
 
 
 
 ## -see-also
 
-<a href="..\bdasup\nf-bdasup-bdamethoddeletepin.md">BdaMethodDeletePin</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563415">KSMETHOD_BDA_DELETE_PIN_FACTORY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556445">BdaCreatePin</a>
 
 
 
-<a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556474">BdaMethodDeletePin</a>
 
 
 
-<a href="..\bdasup\nf-bdasup-bdacreatepin.md">BdaCreatePin</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562522">KSFILTER</a>
 
 
 
@@ -119,8 +108,8 @@ A BDA minidriver calls the <a href="..\bdasup\nf-bdasup-bdamethoddeletepin.md">B
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563415">KSMETHOD_BDA_DELETE_PIN_FACTORY</a>
  
 
  
-
 

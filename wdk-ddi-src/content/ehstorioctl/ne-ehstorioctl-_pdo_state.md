@@ -7,7 +7,7 @@ old-location: storage\pdo_state.htm
 old-project: storage
 ms.assetid: 006e2cef-4e49-4819-bfce-d9bf5983643e
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PDO_STATE, PDO_STATE enumeration [Storage Devices], PDO_STATE_NOT_STARTED, PDO_STATE_STARTED, PDO_STATE_UNDEFINED, _PDO_STATE, ehstorioctl/PDO_STATE, ehstorioctl/PDO_STATE_NOT_STARTED, ehstorioctl/PDO_STATE_STARTED, ehstorioctl/PDO_STATE_UNDEFINED, storage.pdo_state, structs-silo_257b3a10-590b-4e1e-a66a-c84b4ea3b125.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	EhStorIoctl.h
 api_name:
 -	PDO_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PDO_STATE
 ---
@@ -50,18 +51,6 @@ req.typenames: PDO_STATE
 
 
 This enumeration describes the states of Physical Device Objects (PDOs).
-
-
-## -syntax
-
-
-````
-typedef enum _PDO_STATE { 
-  PDO_STATE_UNDEFINED    = 0,
-  PDO_STATE_STARTED      = 1,
-  PDO_STATE_NOT_STARTED  = 2
-} PDO_STATE;
-````
 
 
 ## -enum-fields

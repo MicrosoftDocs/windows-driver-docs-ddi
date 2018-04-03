@@ -38,7 +38,8 @@ api_location:
 -	hidclass.h
 api_name:
 -	IOCTL_HID_GET_COLLECTION_DESCRIPTOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: HDAUDIO_STREAM_FORMAT, *PHDAUDIO_STREAM_FORMAT
 ---
@@ -80,7 +81,7 @@ For general information about HIDClass devices, see <a href="https://msdn.micros
 
 ### -output-buffer-length
 
-The size, in bytes, of the preparsed data structure is obtained using <a href="..\hidclass\ni-hidclass-ioctl_hid_get_collection_information.md">IOCTL_HID_GET_COLLECTION_INFORMATION</a>. 
+The size, in bytes, of the preparsed data structure is obtained using <a href="https://msdn.microsoft.com/library/windows/hardware/ff541092">IOCTL_HID_GET_COLLECTION_INFORMATION</a>. 
 
 
 ### -in-out-buffer
@@ -133,7 +134,7 @@ The <b>_HIDP_PREPARSED_DATA</b> structure contains a <a href="https://msdn.micro
 </td>
 </tr>
 </table></span></div>
-A user-mode application calls <a href="..\hidsdi\nf-hidsdi-hidd_getpreparseddata.md">HidD_GetPreparsedData</a> to obtain a top-level collection's preparsed data in a variable length _HIDP_PREPARSED_DATA structure.
+A user-mode application calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff539679">HidD_GetPreparsedData</a> to obtain a top-level collection's preparsed data in a variable length _HIDP_PREPARSED_DATA structure.
 
 A kernel-mode driver uses an <b>IOCTL_HID_GET_COLLECTION_DESCRIPTOR</b> request to obtain a pointer to a top-level collection's preparsed data.
 
@@ -144,16 +145,15 @@ The internal structure of a _HIDP_PREPARSED_DATA structure is reserved for inter
 
 ## -see-also
 
-<a href="..\hidsdi\nf-hidsdi-hidd_freepreparseddata.md">HidD_FreePreparsedData</a>
 
 
 
-<a href="..\hidsdi\nf-hidsdi-hidd_getpreparseddata.md">HidD_GetPreparsedData</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538893">HidD_FreePreparsedData</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539679">HidD_GetPreparsedData</a>
  
 
  
-
 

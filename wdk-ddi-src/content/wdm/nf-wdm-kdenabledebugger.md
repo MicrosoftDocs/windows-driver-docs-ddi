@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	KdEnableDebugger
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
@@ -50,15 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>KdEnableDebugger</b> routine re-enables the kernel debugger after a call to the <a href="..\wdm\nf-wdm-kddisabledebugger.md">KdDisableDebugger</a> routine disables the kernel debugger. 
-
-
-## -syntax
-
-
-````
-NTSTATUS KdEnableDebugger(void);
-````
+The <b>KdEnableDebugger</b> routine re-enables the kernel debugger after a call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548083">KdDisableDebugger</a> routine disables the kernel debugger. 
 
 
 ## -parameters
@@ -94,12 +87,11 @@ If the kernel debugger is blocked (that is, the <b>KdBlockEnable</b> system vari
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kddisabledebugger.md">KdDisableDebugger</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548083">KdDisableDebugger</a>
  
 
  
-
 

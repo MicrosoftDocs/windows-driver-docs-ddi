@@ -38,7 +38,8 @@ apilocation:
 -	portcls.h
 apiname:
 -	PCMETHOD_ITEM
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: "*PPCMETHOD_ITEM, PCMETHOD_ITEM"
 ---

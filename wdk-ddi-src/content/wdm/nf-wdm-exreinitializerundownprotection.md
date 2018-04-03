@@ -7,7 +7,7 @@ old-location: kernel\exreinitializerundownprotection.htm
 old-project: kernel
 ms.assetid: 41B7CE15-8702-49C8-9FD0-450DF6E4798C
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: ExReInitializeRundownProtection, ExReInitializeRundownProtection routine [Kernel-Mode Driver Architecture], kernel.exreinitializerundownprotection, wdm/ExReInitializeRundownProtection
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	ExReInitializeRundownProtection
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
@@ -53,16 +54,6 @@ req.product: Windows 10 or later.
 The <b>ExReInitializeRundownProtection</b> routine reinitializes an <a href="https://msdn.microsoft.com/library/windows/hardware/jj569379">EX_RUNDOWN_REF</a> structure after the associated object is run down.
 
 
-## -syntax
-
-
-````
-VOID ExReInitializeRundownProtection(
-  _Inout_ PEX_RUNDOWN_REF RunRef
-);
-````
-
-
 ## -parameters
 
 
@@ -70,7 +61,7 @@ VOID ExReInitializeRundownProtection(
 
 ### -param RunRef [in, out]
 
-A pointer to an <b>EX_RUNDOWN_REF</b> structure that was initialized by a previous call to the  <a href="..\wdm\nf-wdm-exinitializerundownprotection.md">ExInitializeRundownProtection</a> routine. The run-down protection routines use this structure to track the run-down status of the associated shared object. This structure is opaque to drivers.
+A pointer to an <b>EX_RUNDOWN_REF</b> structure that was initialized by a previous call to the  <a href="https://msdn.microsoft.com/library/windows/hardware/jj569373">ExInitializeRundownProtection</a> routine. The run-down protection routines use this structure to track the run-down status of the associated shared object. This structure is opaque to drivers.
 
 
 ## -returns
@@ -88,9 +79,9 @@ None.
 
 This routine is called by the driver that owns an object that resides in shared memory and that is accessed by other drivers.
 
-<b>ExReInitializeRundownProtection</b> enables a previously used <a href="https://msdn.microsoft.com/library/windows/hardware/jj569379">EX_RUNDOWN_REF</a> structure to be associated with a new object, and initializes run-down protection on this object. After the <b>ExReInitializeRundownProtection</b> call, drivers can call <a href="..\wdm\nf-wdm-exacquirerundownprotection.md">ExAcquireRundownProtection</a> to acquire run-down protection on the new object.
+<b>ExReInitializeRundownProtection</b> enables a previously used <a href="https://msdn.microsoft.com/library/windows/hardware/jj569379">EX_RUNDOWN_REF</a> structure to be associated with a new object, and initializes run-down protection on this object. After the <b>ExReInitializeRundownProtection</b> call, drivers can call <a href="https://msdn.microsoft.com/library/windows/hardware/jj569371">ExAcquireRundownProtection</a> to acquire run-down protection on the new object.
 
-An <b>ExReInitializeRundownProtection</b> call must be preceded by a call to the <a href="..\wdm\nf-wdm-exwaitforrundownprotectionrelease.md">ExWaitForRundownProtectionRelease</a> routine that runs down the old object. Between the <b>ExWaitForRundownProtectionRelease</b> and <b>ExReInitializeRundownProtection</b> calls, the driver might call the <a href="..\wdm\nf-wdm-exrundowncompleted.md">ExRundownCompleted</a> routine to indicate that the run down of the old object has completed.
+An <b>ExReInitializeRundownProtection</b> call must be preceded by a call to the <a href="https://msdn.microsoft.com/library/windows/hardware/jj569378">ExWaitForRundownProtectionRelease</a> routine that runs down the old object. Between the <b>ExWaitForRundownProtectionRelease</b> and <b>ExReInitializeRundownProtection</b> calls, the driver might call the <a href="https://msdn.microsoft.com/library/windows/hardware/jj569377">ExRundownCompleted</a> routine to indicate that the run down of the old object has completed.
 
 On entry, the status information in the <b>EX_RUNDOWN_REF</b> structure must indicate that the old object was run down. Otherwise, <b>ExReInitializeRundownProtection</b> bug checks in checked builds.
 
@@ -101,15 +92,6 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exacquirerundownprotection.md">ExAcquireRundownProtection</a>
-
-
-
-<a href="..\wdm\nf-wdm-exrundowncompleted.md">ExRundownCompleted</a>
-
-
-
-<a href="..\wdm\nf-wdm-exwaitforrundownprotectionrelease.md">ExWaitForRundownProtectionRelease</a>
 
 
 
@@ -117,12 +99,20 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
-<a href="..\wdm\nf-wdm-exinitializerundownprotection.md">ExInitializeRundownProtection</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj569371">ExAcquireRundownProtection</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj569373">ExInitializeRundownProtection</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj569377">ExRundownCompleted</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj569378">ExWaitForRundownProtectionRelease</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: audio\ioctl_usbsbaud_get_sidetone_status_update.htm
 old-project: audio
 ms.assetid: E9A20241-99AE-431B-9015-7542A66AC073
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/19/2018
 ms.keywords: IOCTL_USBSBAUD_GET_SIDETONE_STATUS_UPDATE, IOCTL_USBSBAUD_GET_SIDETONE_STATUS_UPDATE control code [Audio Devices], audio.ioctl_usbsbaud_get_sidetone_status_update, usbsidebandaudio/IOCTL_USBSBAUD_GET_SIDETONE_STATUS_UPDATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	USBSidebandAudio.h
 api_name:
 -	IOCTL_USBSBAUD_GET_SIDETONE_STATUS_UPDATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USBSCAN_TIMEOUT, *PUSBSCAN_TIMEOUT
 req.product: Windows 10 or later.
@@ -106,7 +107,6 @@ TBD
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
 
 
 
@@ -114,16 +114,16 @@ TBD
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548651">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548656">WdfIoTargetSendInternalIoctlSynchronously</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548660">WdfIoTargetSendIoctlSynchronously</a>
  
 
  
-
 

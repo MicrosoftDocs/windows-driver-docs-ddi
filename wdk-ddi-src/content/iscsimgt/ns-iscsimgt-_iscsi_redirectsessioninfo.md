@@ -7,7 +7,7 @@ old-location: storage\iscsi_redirectsessioninfo.htm
 old-project: storage
 ms.assetid: e3980ac7-b539-4a8f-9869-14d418ebe1e7
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PISCSI_RedirectSessionInfo, ISCSI_RedirectSessionInfo, ISCSI_RedirectSessionInfo structure [Storage Devices], PISCSI_RedirectSessionInfo, PISCSI_RedirectSessionInfo structure pointer [Storage Devices], _ISCSI_RedirectSessionInfo, iscsimgt/ISCSI_RedirectSessionInfo, iscsimgt/PISCSI_RedirectSessionInfo, storage.iscsi_redirectsessioninfo, structs-iSCSI_41ab8376-0e0e-40af-8cab-1be2f63edeed.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	iscsimgt.h
 api_name:
 -	ISCSI_RedirectSessionInfo
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: ISCSI_RedirectSessionInfo, *PISCSI_RedirectSessionInfo
 ---
@@ -50,19 +51,6 @@ req.typenames: ISCSI_RedirectSessionInfo, *PISCSI_RedirectSessionInfo
 
 
 This ISCSI_RedirectSessionInfo structure contains information about an iSCSI session and its portal information resulted from iSCSI target redirection.
-
-
-## -syntax
-
-
-````
-typedef struct _ISCSI_RedirectSessionInfo {
-  ULONGLONG                UniqueSessionId;
-  ULONG                    TargetPortalGroupTag;
-  ULONG                    ConnectionCount;
-  ISCSI_RedirectPortalInfo RedirectPortalList[1];
-} ISCSI_RedirectSessionInfo, *PISCSI_RedirectSessionInfo;
-````
 
 
 ## -struct-fields
@@ -92,7 +80,6 @@ This provides the redirection information, and it has as many entries as the num
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
 
 
 
@@ -100,8 +87,8 @@ This provides the redirection information, and it has as many entries as the num
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
  
 
  
-
 

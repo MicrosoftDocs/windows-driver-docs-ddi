@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	IPrintSchemaPageImageableSize.ImageableSizeHeightInMicrons
 -	IPrintSchemaPageImageableSize.get_ImageableSizeHeightInMicrons
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PrintSchemaSelectionType
 req.product: Windows 10 or later.
@@ -56,27 +57,16 @@ Gets the vertical dimension of the application media size relative to the page o
 This property is read-only.
 
 
-## -syntax
-
-
-````
-HRESULT get_ImageableSizeHeightInMicrons(
-  [out, retval] ULONG *pulImageableSizeHeight
-);
-````
-
-
 ## -parameters
 
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintschemapageimageablesize.md">IPrintSchemaPageImageableSize</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451366">IPrintSchemaPageImageableSize</a>
  
 
  
-
 

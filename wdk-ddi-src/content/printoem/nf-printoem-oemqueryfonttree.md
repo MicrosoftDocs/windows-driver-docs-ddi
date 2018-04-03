@@ -38,7 +38,8 @@ api_location:
 -	printoem.h
 api_name:
 -	OEMQueryFontTree
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STDVARIABLEINDEX
 req.product: Windows 10 or later.
@@ -61,20 +62,6 @@ A mapping of kerning pairs to kerning handles
 
 </li>
 </ul>
-
-## -syntax
-
-
-````
-PVOID APIENTRY OEMQueryFontTree(
-   DHPDEV    dhpdev,
-   ULONG_PTR iFile,
-   ULONG     iFace,
-   ULONG     iMode,
-   ULONG_PTR *pid
-);
-````
-
 
 ## -parameters
 

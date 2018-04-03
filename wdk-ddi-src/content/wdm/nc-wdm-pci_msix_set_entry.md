@@ -7,7 +7,7 @@ old-location: kernel\settableentry.htm
 old-project: kernel
 ms.assetid: A8F2A43B-CAEF-4EE6-AB3F-1DF5A9D3F7A5
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: PCI_MSIX_SET_ENTRY, SetTableEntry, SetTableEntry routine [Kernel-Mode Driver Architecture], drvr_interface_93258cbb-54ac-4992-9fed-57248d997245.xml, kernel.msixsettableentry, kernel.settableentry, wdm/SetTableEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	SetTableEntry
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
 req.product: Windows 10 or later.
@@ -53,21 +54,6 @@ req.product: Windows 10 or later.
 The <i>SetTableEntry</i> routine sets the message ID for a table entry in the MSI-X hardware interrupt table.
 
 
-## -prototype
-
-
-````
-PCI_MSIX_SET_ENTRY SetTableEntry;
-
-NTSTATUS SetTableEntry(
-  _In_ PVOID Context,
-  _In_ ULONG TableEntry,
-  _In_ ULONG MessageNumber
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -75,7 +61,7 @@ NTSTATUS SetTableEntry(
 
 ### -param Context [in]
 
-A pointer to interface-specific context information.  The caller passes the value that is passed as the <b>Context</b> member of the <a href="..\wdm\ns-wdm-_pci_msix_table_config_interface.md">PCI_MSIX_TABLE_CONFIG_INTERFACE</a> structure for the interface.
+A pointer to interface-specific context information.  The caller passes the value that is passed as the <b>Context</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558787">PCI_MSIX_TABLE_CONFIG_INTERFACE</a> structure for the interface.
 
 
 ### -param TableEntry [in]
@@ -85,7 +71,7 @@ The index of the table entry in the MSI-X hardware interrupt table.
 
 ### -param MessageNumber [in]
 
-The message ID for the interrupt.  This value is also the index for the interrupt's entry in the <b>MessageInfo</b> member of the <a href="..\wdm\ns-wdm-_io_interrupt_message_info.md">IO_INTERRUPT_MESSAGE_INFO</a> structure that describes the driver's message-signaled interrupts.  The <a href="..\wdm\nf-wdm-ioconnectinterruptex.md">IoConnectInterruptEx</a> function supplies a pointer to this structure.  
+The message ID for the interrupt.  This value is also the index for the interrupt's entry in the <b>MessageInfo</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550576">IO_INTERRUPT_MESSAGE_INFO</a> structure that describes the driver's message-signaled interrupts.  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff548378">IoConnectInterruptEx</a> function supplies a pointer to this structure.  
 
 
 ## -returns
@@ -138,20 +124,19 @@ By default, the operating system assigns the index of the table entry as the mes
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_io_interrupt_message_info.md">IO_INTERRUPT_MESSAGE_INFO</a>
 
 
 
-<a href="..\wdm\ns-wdm-_pci_msix_table_config_interface.md">PCI_MSIX_TABLE_CONFIG_INTERFACE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550576">IO_INTERRUPT_MESSAGE_INFO</a>
 
 
 
-<a href="..\wdm\nf-wdm-ioconnectinterruptex.md">IoConnectInterruptEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548378">IoConnectInterruptEx</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558787">PCI_MSIX_TABLE_CONFIG_INTERFACE</a>
  
 
  
-
 

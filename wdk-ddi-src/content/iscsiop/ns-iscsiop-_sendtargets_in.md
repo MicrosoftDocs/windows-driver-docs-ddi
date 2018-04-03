@@ -7,7 +7,7 @@ old-location: storage\sendtargets_in.htm
 old-project: storage
 ms.assetid: fa6af43c-4fbd-43b5-9c3d-61254dfe894f
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSendTargets_IN, PSendTargets_IN, PSendTargets_IN structure pointer [Storage Devices], SendTargets_IN, SendTargets_IN structure [Storage Devices], _SendTargets_IN, iscsiop/PSendTargets_IN, iscsiop/SendTargets_IN, storage.sendtargets_in, structs-iSCSI_448fb50f-6420-43ca-be0e-b3dd110cd48b.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	iscsiop.h
 api_name:
 -	SendTargets_IN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SendTargets_IN, *PSendTargets_IN
 ---
@@ -50,17 +51,6 @@ req.typenames: SendTargets_IN, *PSendTargets_IN
 
 
 The SendTargets_IN structure holds the input data for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565526">SendTargets</a> method.
-
-
-## -syntax
-
-
-````
-typedef struct _SendTargets_IN {
-  ULONGLONG UniqueSessionId;
-  WCHAR     SendTargetsText[223 + 1];
-} SendTargets_IN, *PSendTargets_IN;
-````
 
 
 ## -struct-fields
@@ -89,6 +79,13 @@ You must implement this method.
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
 
 
@@ -97,16 +94,8 @@ You must implement this method.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
-
-
-
-<a href="..\iscsiop\ns-iscsiop-_sendtargets_out.md">SendTargets_OUT</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565540">SendTargets_OUT</a>
  
 
  
-
 

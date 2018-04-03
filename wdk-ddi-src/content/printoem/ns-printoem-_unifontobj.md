@@ -38,7 +38,8 @@ api_location:
 -	printoem.h
 api_name:
 -	UNIFONTOBJ
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UNIFONTOBJ, *PUNIFONTOBJ
 req.product: Windows 10 or later.
@@ -51,19 +52,6 @@ req.product: Windows 10 or later.
 
 
 The UNIFONTOBJ structure is used as an input parameter to font functions in rendering plug-ins.
-
-
-## -syntax
-
-
-````
-typedef struct _UNIFONTOBJ {
-  ULONG      ulFontID;
-  DWORD      dwFlags;
-  IFIMETRICS *pIFIMetrics;
-  PFNGETINFO pfnGetInfo;
-} UNIFONTOBJ, *PUNIFONTOBJ;
-````
 
 
 ## -struct-fields
@@ -175,7 +163,6 @@ Pointer to Unidrv's <a href="https://msdn.microsoft.com/library/windows/hardware
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563594">UNIFONTOBJ_GetInfo</a>
 
 
 
@@ -183,8 +170,8 @@ Pointer to Unidrv's <a href="https://msdn.microsoft.com/library/windows/hardware
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563594">UNIFONTOBJ_GetInfo</a>
  
 
  
-
 

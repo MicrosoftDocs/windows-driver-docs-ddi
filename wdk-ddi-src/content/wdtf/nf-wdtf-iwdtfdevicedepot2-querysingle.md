@@ -7,7 +7,7 @@ old-location: dtf\iwdtfdevicedepot2_querysingle.htm
 old-project: dtf
 ms.assetid: 5e471ede-3607-4d4d-a3f0-5396cc62c6c5
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/29/2018
 ms.keywords: IWDTFDeviceDepot2, IWDTFDeviceDepot2 interface [Windows Device Testing Framework], QuerySingle method, IWDTFDeviceDepot2::QuerySingle, Microsoft.WDTF.IWDTFDeviceDepot2.QuerySingle, Microsoft::WDTF::IWDTFDeviceDepot2::QuerySingle, QuerySingle method [Windows Device Testing Framework], QuerySingle method [Windows Device Testing Framework], IWDTFDeviceDepot2 interface, QuerySingle,IWDTFDeviceDepot2.QuerySingle, dtf.iwdtfdevicedepot2_querysingle, wdtf/IWDTFDeviceDepot2::QuerySingle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	WDTF.Interop.metadata_dll.dll
 api_name:
 -	IWDTFDeviceDepot2.QuerySingle
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TTraceLevel
 req.product: Windows 10 or later.
@@ -51,17 +52,6 @@ req.product: Windows 10 or later.
 
 
 Returns a single target device from the DeviceDepot.
-
-
-## -syntax
-
-
-````
-HRESULT QuerySingle(
-  [in]          BSTR         SDEL,
-  [out, retval] IWDTFTarget2 **ppTarget
-);
-````
 
 
 ## -parameters
@@ -90,12 +80,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\wdtf\nn-wdtf-iwdtfdevicedepot2.md">IWDTFDeviceDepot2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406391">IWDTFDeviceDepot2</a>
  
 
  
-
 

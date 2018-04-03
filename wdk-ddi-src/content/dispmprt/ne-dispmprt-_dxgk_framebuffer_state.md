@@ -7,7 +7,7 @@ old-location: display\dxgk_framebuffer_state.htm
 old-project: display
 ms.assetid: 911E04E4-A9B9-4354-8EAB-CEEF87D56852
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGK_FRAMEBUFFER_STATE, DXGK_FRAMEBUFFER_STATE enumeration [Display Devices], FrameBufferStateInitializedByDriver, FrameBufferStateInitializedByFirmware, FrameBufferStateUnknown, _DXGK_FRAMEBUFFER_STATE, display.dxgk_framebuffer_state, dispmprt/DXGK_FRAMEBUFFER_STATE, dispmprt/FrameBufferStateInitializedByDriver, dispmprt/FrameBufferStateInitializedByFirmware, dispmprt/FrameBufferStateUnknown
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	dispmprt.h
 api_name:
 -	DXGK_FRAMEBUFFER_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_FRAMEBUFFER_STATE
 ---
@@ -50,18 +51,6 @@ req.typenames: DXGK_FRAMEBUFFER_STATE
 
 
 The frame buffer state is provided to the driver in order that the driver can infer details of the display configuration based on knowledge of how firmware and the driver will set a particular resolution even though only basic information is made directly available by the OS to the driver.
-
-
-## -syntax
-
-
-````
-typedef enum _DXGK_FRAMEBUFFER_STATE { 
-  FrameBufferStateUnknown                = 0,
-  FrameBufferStateInitializedByFirmware  = 1,
-  FrameBufferStateInitializedByDriver    = 2
-} DXGK_FRAMEBUFFER_STATE;
-````
 
 
 ## -enum-fields

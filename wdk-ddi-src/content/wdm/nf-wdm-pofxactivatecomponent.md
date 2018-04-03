@@ -7,7 +7,7 @@ old-location: kernel\pofxactivatecomponent.htm
 old-project: kernel
 ms.assetid: B964B836-68C1-4254-963C-8D46ACE64107
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: PO_FX_FLAG_ASYNC_ONLY, PO_FX_FLAG_BLOCKING, PoFxActivateComponent, PoFxActivateComponent routine [Kernel-Mode Driver Architecture], kernel.pofxactivatecomponent, wdm/PoFxActivateComponent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ntoskrnl.exe
 api_name:
 -	PoFxActivateComponent
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
@@ -53,18 +54,6 @@ req.product: Windows 10 or later.
 The <b>PoFxActivateComponent</b> routine increments the activation reference count on the specified component.
 
 
-## -syntax
-
-
-````
-VOID PoFxActivateComponent(
-  _In_ POHANDLE Handle,
-  _In_ ULONG    Component,
-  _In_ ULONG    Flags
-);
-````
-
-
 ## -parameters
 
 
@@ -72,12 +61,12 @@ VOID PoFxActivateComponent(
 
 ### -param Handle [in]
 
-A handle that represents the registration of the device with the power management framework (PoFx). The device driver previously received this handle from the <a href="..\wdm\nf-wdm-pofxregisterdevice.md">PoFxRegisterDevice</a> routine.
+A handle that represents the registration of the device with the power management framework (PoFx). The device driver previously received this handle from the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439521">PoFxRegisterDevice</a> routine.
 
 
 ### -param Component [in]
 
-The index that identifies the component. This parameter is an index into the <b>Components</b> array in the <a href="..\wudfwdm\ns-wudfwdm-_po_fx_device_v1.md">PO_FX_DEVICE</a> structure that the device driver used to register the device with PoFx. If the <b>Components</b> array contains N elements, component indexes range from 0 to N–1.
+The index that identifies the component. This parameter is an index into the <b>Components</b> array in the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439585">PO_FX_DEVICE</a> structure that the device driver used to register the device with PoFx. If the <b>Components</b> array contains N elements, component indexes range from 0 to N–1.
 
 
 ### -param Flags [in]
@@ -134,7 +123,7 @@ Before a device driver can access a component in a device, the driver must first
 
 If the component is already in the active condition when <b>PoFxActivateComponent</b> is called, no transition is required, and the <i>ComponentActiveConditionCallback</i> routine is not called.
 
-After a component enters the active condition, it remains in the active condition for as long as the driver holds one or more activation references on the component. To release an activation reference, the driver calls the <a href="..\wdm\nf-wdm-pofxidlecomponent.md">PoFxIdleComponent</a> routine. When the driver releases the last activation reference on a component, <b>PoFxIdleComponent</b> initiates a transition from the active condition to the idle condition. A component that is in the idle condition can potentially enter a low-power Fx state.
+After a component enters the active condition, it remains in the active condition for as long as the driver holds one or more activation references on the component. To release an activation reference, the driver calls the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406717">PoFxIdleComponent</a> routine. When the driver releases the last activation reference on a component, <b>PoFxIdleComponent</b> initiates a transition from the active condition to the idle condition. A component that is in the idle condition can potentially enter a low-power Fx state.
 
 If <i>Flags</i> = <b>PO_FX_FLAG_BLOCKING</b>, the <b>PoFxActivateComponent</b> call is synchronous. If the component is already in the active condition, the call increments the activation reference count and returns without waiting. Otherwise, <b>PoFxActivateComponent</b> waits to return until the component completes the transition to the active condition. In this case, if the component is not already in the F0 state when the call occurs, <b>PoFxActivateComponent</b> calls the driver's <i>ComponentIdleStateCallback</i> routine to initiate the transition to F0. After the component enters the F0 state, <b>PoFxActivateComponent</b> calls the driver's <i>ComponentActiveConditionCallback</i> routine to inform the driver that the component is in the active condition. These callbacks occur in the same thread as the call to <b>PoFxActivateComponent</b>, and <b>PoFxActivateComponent</b> returns only after the <i>ComponentActiveConditionCallback</i> callback returns.
 
@@ -155,11 +144,6 @@ PoFx notifies the driver when a transition between the active condition and idle
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_po_fx_device_v1.md">PO_FX_DEVICE</a>
-
-
-
-<a href="..\wdm\nf-wdm-pofxidlecomponent.md">PoFxIdleComponent</a>
 
 
 
@@ -167,16 +151,20 @@ PoFx notifies the driver when a transition between the active condition and idle
 
 
 
-<a href="..\wdm\nf-wdm-pofxregisterdevice.md">PoFxRegisterDevice</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh450931">ComponentIdleStateCallback</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439585">PO_FX_DEVICE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406717">PoFxIdleComponent</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439521">PoFxRegisterDevice</a>
  
 
  
-
 

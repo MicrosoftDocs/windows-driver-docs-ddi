@@ -38,7 +38,8 @@ api_location:
 -	Gpioclx.h
 api_name:
 -	GPIO_READ_PINS_PARAMETERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GPIO_READ_PINS_PARAMETERS, *PGPIO_READ_PINS_PARAMETERS
 ---
@@ -50,21 +51,6 @@ req.typenames: GPIO_READ_PINS_PARAMETERS, *PGPIO_READ_PINS_PARAMETERS
 
 
 The <b>GPIO_READ_PINS_PARAMETERS</b> structure describes a read operation on a group of general-purpose I/O (GPIO) pins.
-
-
-## -syntax
-
-
-````
-typedef struct _GPIO_READ_PINS_PARAMETERS {
-  BANK_ID              BankId;
-  PPIN_NUMBER          PinNumberTable;
-  ULONG                PinCount;
-  PVOID                Buffer;
-  GPIO_READ_PINS_FLAGS Flags;
-  PVOID                Reserved;
-} GPIO_READ_PINS_PARAMETERS, *PGPIO_READ_PINS_PARAMETERS;
-````
 
 
 ## -struct-fields
@@ -113,11 +99,6 @@ The <i>ReadParameters</i> parameter of the <a href="https://msdn.microsoft.com/l
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439404">CLIENT_ReadGpioPins</a>
 
 
 
@@ -125,8 +106,12 @@ The <i>ReadParameters</i> parameter of the <a href="https://msdn.microsoft.com/l
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439404">CLIENT_ReadGpioPins</a>
  
 
  
-
 

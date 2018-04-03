@@ -7,7 +7,7 @@ old-location: ifsk\fltquerysecurityobject.htm
 old-project: ifsk
 ms.assetid: 388dc11d-79cc-4e6b-bce0-b99cca556342
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FltApiRef_p_to_z_6fa8f026-1268-4a97-b1e3-a2773e0a1784.xml, FltQuerySecurityObject, FltQuerySecurityObject function [Installable File System Drivers], fltkernel/FltQuerySecurityObject, ifsk.fltquerysecurityobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	fltmgr.sys
 api_name:
 -	FltQuerySecurityObject
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
@@ -51,21 +52,6 @@ req.typenames: EXpsFontRestriction
 
 <b>FltQuerySecurityObject</b> retrieves a copy of an object's security 
    descriptor.
-
-
-## -syntax
-
-
-````
-NTSTATUS FltQuerySecurityObject(
-  _In_      PFLT_INSTANCE        Instance,
-  _In_      PFILE_OBJECT         FileObject,
-  _In_      SECURITY_INFORMATION SecurityInformation,
-  _Inout_   PSECURITY_DESCRIPTOR SecurityDescriptor,
-  _In_      ULONG                Length,
-  _Out_opt_ PULONG               LengthNeeded
-);
-````
 
 
 ## -parameters
@@ -147,7 +133,7 @@ The system ACL (SACL) of the object is being queried. Requires
 ### -param SecurityDescriptor [in, out]
 
 Pointer to a caller-supplied output buffer that receives a copy of the security descriptor for the 
-      specified object. The <a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a> 
+      specified object. The <a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a> 
       structure is returned in self-relative format. This parameter is optional and can be 
       <b>NULL</b>.
 
@@ -216,11 +202,11 @@ A security descriptor can be in absolute or self-relative form. In self-relative
 The NTFS file system imposes a 64-KB limit on the size of the security descriptor that is written to disk for a 
      file. (The FAT file system does not support security descriptors for files.) Thus, a 64-KB buffer pointed to by 
      the <i>SecurityDescriptor</i> parameter is guaranteed to be large enough to hold the returned 
-     <a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a> structure.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a> structure.
 
 The object that the <i>FileObject</i> parameter points to can represent a named data stream. 
      For more information about named data streams, see 
-     <a href="..\ntifs\ns-ntifs-_file_stream_information.md">FILE_STREAM_INFORMATION</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff540364">FILE_STREAM_INFORMATION</a>.
 
 For more information about security and access control, see the Microsoft Windows SDK documentation.
 
@@ -229,20 +215,19 @@ For more information about security and access control, see the Microsoft Window
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540364">FILE_STREAM_INFORMATION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556635">SECURITY_INFORMATION</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_file_stream_information.md">FILE_STREAM_INFORMATION</a>
-
-
-
  
 
  
-
 

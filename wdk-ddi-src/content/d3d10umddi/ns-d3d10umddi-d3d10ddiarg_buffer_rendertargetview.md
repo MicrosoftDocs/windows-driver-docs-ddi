@@ -7,7 +7,7 @@ old-location: display\d3d10ddiarg_buffer_rendertargetview.htm
 old-project: display
 ms.assetid: 05c1d6e2-61e1-4bf0-b02e-5ea8ad144a9f
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3D10DDIARG_BUFFER_RENDERTARGETVIEW, D3D10DDIARG_BUFFER_RENDERTARGETVIEW structure [Display Devices], UMDisplayDriver_Dx10param_Structs_7307c354-c2a6-45e8-a9f6-9cb3d7c7724d.xml, d3d10umddi/D3D10DDIARG_BUFFER_RENDERTARGETVIEW, display.d3d10ddiarg_buffer_rendertargetview
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3d10umddi.h
 api_name:
 -	D3D10DDIARG_BUFFER_RENDERTARGETVIEW
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D10DDIARG_BUFFER_RENDERTARGETVIEW
 ---
@@ -49,24 +50,7 @@ req.typenames: D3D10DDIARG_BUFFER_RENDERTARGETVIEW
 ## -description
 
 
-The D3D10DDIARG_BUFFER_RENDERTARGETVIEW structure describes a buffer that is used to create a render target view in a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createrendertargetview.md">CreateRenderTargetView</a> function. 
-
-
-## -syntax
-
-
-````
-typedef struct D3D10DDIARG_BUFFER_RENDERTARGETVIEW {
-  union {
-    UINT FirstElement;
-    UINT ElementOffset;
-  };
-  union {
-    UINT NumElements;
-    UINT ElementWidth;
-  };
-} D3D10DDIARG_BUFFER_RENDERTARGETVIEW;
-````
+The D3D10DDIARG_BUFFER_RENDERTARGETVIEW structure describes a buffer that is used to create a render target view in a call to the <a href="https://msdn.microsoft.com/bf9fc732-5f9a-4fee-8ea0-19b140789463">CreateRenderTargetView</a> function. 
 
 
 ## -struct-fields
@@ -94,20 +78,19 @@ typedef struct D3D10DDIARG_BUFFER_RENDERTARGETVIEW {
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createrendertargetview.md">CreateRenderTargetView</a>
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createrendertargetview.md">D3D10DDIARG_CREATERENDERTARGETVIEW</a>
+<a href="https://msdn.microsoft.com/14d85e4a-960c-4438-9360-a4f2677603b8">CalcPrivateRenderTargetViewSize</a>
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_calcprivaterendertargetviewsize.md">CalcPrivateRenderTargetViewSize</a>
+<a href="https://msdn.microsoft.com/bf9fc732-5f9a-4fee-8ea0-19b140789463">CreateRenderTargetView</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541689">D3D10DDIARG_CREATERENDERTARGETVIEW</a>
  
 
  
-
 

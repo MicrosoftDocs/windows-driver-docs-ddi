@@ -7,7 +7,7 @@ old-location: kernel\zwdeletefile.htm
 old-project: kernel
 ms.assetid: e6ad3bc5-9e19-4d32-bc08-b894ac802f41
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: NtDeleteFile, ZwDeleteFile, ZwDeleteFile routine [Kernel-Mode Driver Architecture], k111_4f0117b0-323a-46b6-a1c0-74de4db2ca4d.xml, kernel.zwdeletefile, ntifs/NtDeleteFile, ntifs/ZwDeleteFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	ZwDeleteFile
 -	NtDeleteFile
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -53,16 +54,6 @@ req.typenames: TOKEN_TYPE
 The <b>ZwDeleteFile</b> routine deletes the specified file.
 
 
-## -syntax
-
-
-````
-NTSTATUS ZwDeleteFile(
-  _In_ POBJECT_ATTRIBUTES ObjectAttributes
-);
-````
-
-
 ## -parameters
 
 
@@ -70,7 +61,7 @@ NTSTATUS ZwDeleteFile(
 
 ### -param ObjectAttributes [in]
 
-A pointer to an <a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a> structure that contains the attributes supplied by the caller to be used for the file object. These attributes would include the <b>ObjectName</b> and the <a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>, for example. This parameter is initialized by calling the <a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a> macro.
+A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff557749">OBJECT_ATTRIBUTES</a> structure that contains the attributes supplied by the caller to be used for the file object. These attributes would include the <b>ObjectName</b> and the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a>, for example. This parameter is initialized by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547804">InitializeObjectAttributes</a> macro.
 
 
 ## -returns
@@ -162,7 +153,7 @@ The <i>ObjectAttributes</i> parameter did not contain a <b>RootDirectory</b> mem
 
 <b>ZwDeleteFile</b> deletes the specified file object. 
 
-The <b>ZwDeleteFile</b> function is called after the <b>InitializeAttributes</b> macro is used to set attributes in the <a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a> structure for the file object to be deleted. 
+The <b>ZwDeleteFile</b> function is called after the <b>InitializeAttributes</b> macro is used to set attributes in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557749">OBJECT_ATTRIBUTES</a> structure for the file object to be deleted. 
 
 There are two alternate ways to specify the name of the file to be deleted with <b>ZwDeleteFile</b>:
 
@@ -187,20 +178,19 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a>
 
 
 
-<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547804">InitializeObjectAttributes</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557749">OBJECT_ATTRIBUTES</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
-
-
-
  
 
  
-
 

@@ -38,7 +38,8 @@ api_location:
 -	ntddk.h
 api_name:
 -	WHEA_IPF_CPE_DESCRIPTOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WHEA_IPF_CPE_DESCRIPTOR, *PWHEA_IPF_CPE_DESCRIPTOR
 ---
@@ -50,18 +51,6 @@ req.typenames: WHEA_IPF_CPE_DESCRIPTOR, *PWHEA_IPF_CPE_DESCRIPTOR
 
 
 The WHEA_IPF_CPE_DESCRIPTOR structure describes a corrected platform error (CPE) error source for an Itanium processor.
-
-
-## -syntax
-
-
-````
-typedef struct _WHEA_IPF_CPE_DESCRIPTOR {
-  USHORT Type;
-  UCHAR  Enabled;
-  UCHAR  Reserved;
-} WHEA_IPF_CPE_DESCRIPTOR, *PWHEA_IPF_CPE_DESCRIPTOR;
-````
 
 
 ## -struct-fields
@@ -88,19 +77,18 @@ Reserved for system use.
 
 
 
-A WHEA_IPF_CPE_DESCRIPTOR structure is contained within the <a href="..\ntddk\ns-ntddk-_whea_error_source_descriptor.md">WHEA_ERROR_SOURCE_DESCRIPTOR</a> structure.
+A WHEA_IPF_CPE_DESCRIPTOR structure is contained within the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560505">WHEA_ERROR_SOURCE_DESCRIPTOR</a> structure.
 
 
 
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_whea_error_source_descriptor.md">WHEA_ERROR_SOURCE_DESCRIPTOR</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560505">WHEA_ERROR_SOURCE_DESCRIPTOR</a>
  
 
  
-
 

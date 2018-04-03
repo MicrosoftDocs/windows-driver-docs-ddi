@@ -7,7 +7,7 @@ old-location: display\pfnevictcb.htm
 old-project: display
 ms.assetid: 5E66A522-BC1C-4E7C-8732-87D40F99BBDA
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3DDDI_EVICTCB, d3dumddi/pfnEvictCb, display.pfnevictcb, pfnEvictCb, pfnEvictCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	pfnEvictCb
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_PTE
 ---
@@ -50,20 +51,6 @@ req.typenames: DXGK_PTE
 
 
 <b>pfnEvictCb</b> is used to instruct the OS to decrement the residency reference count. Once this count reaches zero, it will remove the allocation from the device residency list.
-
-
-## -prototype
-
-
-````
-PFND3DDDI_EVICTCB pfnEvictCb;
-
-HRESULT APIENTRY CALLBACK* pfnEvictCb(
-  _In_    HANDLE         hDevice,
-  _Inout_ D3DDDICB_EVICT *pData
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -87,7 +74,7 @@ A handle to the display device.
 
 #### - pData [in, out]
 
-A pointer to a <a href="..\d3dumddi\ns-d3dumddi-d3dddicb_evict.md">D3DDDICB_EVICT</a> structure that describes the memory pages to evict.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn906762">D3DDDICB_EVICT</a> structure that describes the memory pages to evict.
 
 
 
@@ -112,12 +99,11 @@ Once the eviction request is queued, it is illegal to access the underlying allo
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-d3dddicb_evict.md">D3DDDICB_EVICT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn906762">D3DDDICB_EVICT</a>
  
 
  
-
 

@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	DbgBreakPointWithStatus
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
@@ -51,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>DbgBreakPointWithStatus</b> routine breaks into the kernel debugger and sends the value of <i>Status</i> to the debugger.
-
-
-## -syntax
-
-
-````
-NTSYSAPI VOID DbgBreakPointWithStatus(
-  _In_ ULONG Status
-);
-````
 
 
 ## -parameters
@@ -99,7 +90,10 @@ In kernel mode, a break exception that is not handled will cause a bug check. Yo
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kdbreakpointwithstatus.md">KdBreakPointWithStatus</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543626">DbgBreakPoint</a>
 
 
 
@@ -107,12 +101,8 @@ In kernel mode, a break exception that is not handled will cause a bug check. Yo
 
 
 
-<a href="..\wdm\nf-wdm-dbgbreakpoint.md">DbgBreakPoint</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548065">KdBreakPointWithStatus</a>
  
 
  
-
 

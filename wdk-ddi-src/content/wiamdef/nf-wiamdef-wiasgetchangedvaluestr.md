@@ -38,7 +38,8 @@ api_location:
 -	Wiaservc.dll
 api_name:
 -	wiasGetChangedValueStr
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2
 req.product: Windows 10 or later.
@@ -53,20 +54,6 @@ req.product: Windows 10 or later.
 The <b>wiasGetChangedValueStr</b> function determines whether a property with a string value has been changed by an application.
 
 
-## -syntax
-
-
-````
-HRESULT _stdcall wiasGetChangedValueStr(
-  _In_  BYTE                    *pWiasContext,
-  _In_  WIA_PROPERTY_CONTEXT    *pContext,
-        BOOL                    bNoValidation,
-        PROPID                  propID,
-  _Out_ WIAS_CHANGED_VALUE_INFO *pValInfo
-);
-````
-
-
 ## -parameters
 
 
@@ -79,7 +66,7 @@ Pointer to a WIA item context.
 
 ### -param pContext [in]
 
-Pointer to a <a href="..\wiamindr_lh\ns-wiamindr_lh-_wia_property_context.md">WIA_PROPERTY_CONTEXT</a> structure that contains the current property context.
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552749">WIA_PROPERTY_CONTEXT</a> structure that contains the current property context.
 
 
 ### -param bNoValidation
@@ -101,7 +88,7 @@ TBD
 
 #### - pValInfo [out]
 
-Pointer to a <a href="..\wiamindr_lh\ns-wiamindr_lh-_wias_changed_value_info.md">WIAS_CHANGED_VALUE_INFO</a> structure that contains the current and previous values of the property.
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff549535">WIAS_CHANGED_VALUE_INFO</a> structure that contains the current and previous values of the property.
 
 
 ## -returns
@@ -124,28 +111,27 @@ The driver should validate the property only after the driver has updated the va
 
 ## -see-also
 
-<a href="..\wiamindr_lh\ns-wiamindr_lh-_wias_changed_value_info.md">WIAS_CHANGED_VALUE_INFO</a>
 
 
 
-<a href="..\wiamindr_lh\ns-wiamindr_lh-_wia_property_context.md">WIA_PROPERTY_CONTEXT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549535">WIAS_CHANGED_VALUE_INFO</a>
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiasgetchangedvalueguid.md">wiasGetChangedValueGuid</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552749">WIA_PROPERTY_CONTEXT</a>
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiasgetchangedvaluefloat.md">wiasGetChangedValueFloat</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549200">wiasGetChangedValueFloat</a>
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiasgetchangedvaluelong.md">wiasGetChangedValueLong</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549211">wiasGetChangedValueGuid</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549214">wiasGetChangedValueLong</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: debugger\addsyntheticsymbol.htm
 old-project: debugger
 ms.assetid: 17fe1fbc-ca55-4d4d-af79-73baad410bfb
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: AddSyntheticSymbol method [Windows Debugging], AddSyntheticSymbol method [Windows Debugging], IDebugSymbols3 interface, AddSyntheticSymbol,IDebugSymbols3.AddSyntheticSymbol, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], AddSyntheticSymbol method, IDebugSymbols3::AddSyntheticSymbol, IDebugSymbols_8dcf97a7-eb9c-44aa-a2a7-1ad74cb396c1.xml, dbgeng/IDebugSymbols3::AddSyntheticSymbol, debugger.addsyntheticsymbol
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Dbgeng.h
 api_name:
 -	IDebugSymbols3.AddSyntheticSymbol
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -50,20 +51,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>AddSyntheticSymbol</b>  method adds a synthetic symbol to a module in the <a href="https://msdn.microsoft.com/295b05a3-e27f-4761-a562-7e87e25bfd3b">current process</a>.
-
-
-## -syntax
-
-
-````
-HRESULT AddSyntheticSymbol(
-  [in]            ULONG64              Offset,
-  [in]            ULONG                Size,
-  [in]            PCSTR                Name,
-  [in]            ULONG                Flags,
-  [out, optional] PDEBUG_MODULE_AND_ID Id
-);
-````
 
 
 ## -parameters
@@ -93,7 +80,7 @@ Set to DEBUG_ADDSYNTHSYM_DEFAULT.
 
 ### -param Id [out, optional]
 
-Receives the <a href="..\dbgeng\ns-dbgeng-_debug_module_and_id.md">DEBUG_MODULE_AND_ID</a> structure that identifies the synthetic symbol.  If <i>Id</i> is <b>NULL</b>, this information is not returned.
+Receives the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541511">DEBUG_MODULE_AND_ID</a> structure that identifies the synthetic symbol.  If <i>Id</i> is <b>NULL</b>, this information is not returned.
 
 
 ## -returns
@@ -139,11 +126,6 @@ For more information about synthetic symbols, see <a href="https://msdn.microsof
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554542">RemoveSyntheticSymbol</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 
 
@@ -151,8 +133,12 @@ For more information about synthetic symbols, see <a href="https://msdn.microsof
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550870">IDebugSymbols3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554542">RemoveSyntheticSymbol</a>
  
 
  
-
 

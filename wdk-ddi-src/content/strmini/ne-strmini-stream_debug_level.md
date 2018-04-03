@@ -38,7 +38,8 @@ api_location:
 -	strmini.h
 api_name:
 -	STREAM_DEBUG_LEVEL
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STREAM_DEBUG_LEVEL
 req.product: Windows 10 or later.
@@ -51,22 +52,6 @@ req.product: Windows 10 or later.
 
 
 The STREAM_DEBUG_LEVEL enumeration lists incrementally increasing levels of debugger output.
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  DebugLevelFatal    = 0,
-  DebugLevelError    = 1,
-  DebugLevelWarning  = 2,
-  DebugLevelInfo     = 3,
-  DebugLevelTrace    = 4,
-  DebugLevelVerbose  = 5,
-  DebugLevelMaximum  = 6
-} STREAM_DEBUG_LEVEL;
-````
 
 
 ## -enum-fields
@@ -111,12 +96,11 @@ Display maximum information.
 
 ## -see-also
 
-<a href="..\strmini\nf-strmini-streamclassdebugprint.md">StreamClassDebugPrint</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568235">StreamClassDebugPrint</a>
  
 
  
-
 

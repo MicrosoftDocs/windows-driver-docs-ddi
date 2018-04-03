@@ -7,7 +7,7 @@ old-location: display\d3dkmtsetmonitorcolorspacetransform.htm
 old-project: display
 ms.assetid: cb831371-4684-4756-bc01-6c42e5af7e1b
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMTSetMonitorColorSpaceTransform, D3DKMTSetMonitorColorSpaceTransform method [Display Devices], d3dkmthk/D3DKMTSetMonitorColorSpaceTransform, display.d3dkmtsetmonitorcolorspacetransform
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmthk.h
 api_name:
 -	D3DKMTSetMonitorColorSpaceTransform
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_DRIVERVERSION
 ---
@@ -54,19 +55,14 @@ req.typenames: D3DKMT_DRIVERVERSION
             Used to set the color space transform for the selected monitor.
 
 
-## -syntax
-
-
-````
-NTSTATUS  D3DKMTSetMonitorColorSpaceTransform(
-   D3DKMT_SET_COLORSPACE_TRANSFORM  D3dkmt_set_colorspace_transform
-);
-````
-
-
 ## -parameters
 
 
+
+
+### -param Arg1
+
+TBD
 
 
 

@@ -7,7 +7,7 @@ old-location: display\ioctl_video_set_cursor_attr.htm
 old-project: display
 ms.assetid: bb1f426e-6a3d-4644-ad3d-26e5a70b534d
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_VIDEO_SET_CURSOR_ATTR, IOCTL_VIDEO_SET_CURSOR_ATTR control code [Display Devices], Video_IOCTLs_7f8f1646-ff57-47fd-afb7-f7ad7e953188.xml, display.ioctl_video_set_cursor_attr, ntddvdeo/IOCTL_VIDEO_SET_CURSOR_ATTR
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ntddvdeo.h
 api_name:
 -	IOCTL_VIDEO_SET_CURSOR_ATTR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TAPE_WRITE_MARKS, *PTAPE_WRITE_MARKS
 ---
@@ -108,5 +109,5 @@ None
 
 ### -status-block
 
-The miniport driver does not set the <b>Information</b> member of the <a href="..\video\ns-video-_status_block.md">STATUS_BLOCK</a> structure.
+The miniport driver does not set the <b>Information</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569732">STATUS_BLOCK</a> structure.
 

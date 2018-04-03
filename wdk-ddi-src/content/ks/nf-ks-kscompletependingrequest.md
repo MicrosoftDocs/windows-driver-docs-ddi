@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsCompletePendingRequest
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -53,16 +54,6 @@ req.typenames:
 The<b> KsCompletePendingRequest</b> function is used to complete an I/O request in response to which an AVStream dispatch function previously returned STATUS_PENDING.
 
 
-## -syntax
-
-
-````
-void KsCompletePendingRequest(
-  _In_ PIRP Irp
-);
-````
-
-
 ## -parameters
 
 
@@ -70,7 +61,7 @@ void KsCompletePendingRequest(
 
 ### -param Irp [in]
 
-A pointer to the <a href="..\wdm\ns-wdm-_irp.md">IRP</a> structure that must be completed; this is passed in the dispatch function that returned a STATUS_PENDING.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550694">IRP</a> structure that must be completed; this is passed in the dispatch function that returned a STATUS_PENDING.
 
 
 ## -returns
@@ -95,24 +86,23 @@ If the dispatch function in question does not pass an IRP, it <b>cannot</b> retu
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksfilter_dispatch.md">KSFILTER_DISPATCH</a>
 
 
 
-<a href="..\ks\ns-ks-_ksdevice_dispatch.md">KSDEVICE_DISPATCH</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550671">IO_STATUS_BLOCK</a>
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550694">IRP</a>
 
 
 
-<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561693">KSDEVICE_DISPATCH</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562554">KSFILTER_DISPATCH</a>
  
 
  
-
 

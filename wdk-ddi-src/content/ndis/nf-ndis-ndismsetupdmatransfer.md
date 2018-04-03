@@ -7,7 +7,7 @@ old-location: netvista\ndismsetupdmatransfer.htm
 old-project: netvista
 ms.assetid: 2a7ebedd-0042-4624-9c9b-721cccfb0c4f
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NdisMSetupDmaTransfer, NdisMSetupDmaTransfer macro [Network Drivers Starting with Windows Vista], dma_ref_b6de5799-dca5-4c30-aa3a-e20e1eac4f0f.xml, ndis/NdisMSetupDmaTransfer, netvista.ndismsetupdmatransfer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ndis.h
 api_name:
 -	NdisMSetupDmaTransfer
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
@@ -51,21 +52,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 
 The 
   <b>NdisMSetupDmaTransfer</b> function sets up the host DMA controller for a DMA transfer.
-
-
-## -syntax
-
-
-````
-VOID NdisMSetupDmaTransfer(
-  [out] PNDIS_STATUS Status,
-  [in]  NDIS_HANDLE  MiniportDmaHandle,
-  [in]  PNDIS_BUFFER Buffer,
-  [in]  ULONG        Offset,
-  [in]  ULONG        Length,
-  [in]  BOOLEAN      WriteToDevice
-);
-````
 
 
 ## -parameters
@@ -124,7 +110,7 @@ The number of bytes of data to be transferred. The range specified by
 #### - MiniportDmaHandle [in]
 
 The DMA handle returned by the 
-     <a href="..\ndis\nf-ndis-ndismregisterdmachannel.md">NdisMRegisterDmaChannel</a> function
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff563646">NdisMRegisterDmaChannel</a> function
      during initialization.
 
 
@@ -187,7 +173,7 @@ The caller must supply a buffer descriptor that specifies the host range into wh
     be transferred from the NIC when 
     <i>WriteToDevice</i> is <b>FALSE</b>. Otherwise, the buffer descriptor at 
     <i>Buffer</i> was chained to a packet descriptor input to the miniport driver's 
-    <a href="..\ndis\nc-ndis-miniport_send_net_buffer_lists.md">
+    <a href="https://msdn.microsoft.com/0bd5966d-66a6-4548-8c84-7cedced2cf40">
     MiniportSendNetBufferLists</a> function.
 
 To improve performance for small transmit requests, such as a send request of less than 256 bytes in
@@ -200,7 +186,7 @@ On return from
     driver then programs the NIC for the transfer operation.
 
 When the transfer is complete, the miniport driver must call the 
-    <a href="..\ndis\nf-ndis-ndismcompletedmatransfer.md">
+    <a href="https://msdn.microsoft.com/12a8062a-6d4b-4757-a076-56aeb5e4e48c">
     NdisMCompleteDmaTransfer</a> function.
 
 
@@ -208,20 +194,19 @@ When the transfer is complete, the miniport driver must call the
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismcompletedmatransfer.md">NdisMCompleteDmaTransfer</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismregisterdmachannel.md">NdisMRegisterDmaChannel</a>
+<a href="https://msdn.microsoft.com/0bd5966d-66a6-4548-8c84-7cedced2cf40">MiniportSendNetBufferLists</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_send_net_buffer_lists.md">MiniportSendNetBufferLists</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563564">NdisMCompleteDmaTransfer</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563646">NdisMRegisterDmaChannel</a>
  
 
  
-
 

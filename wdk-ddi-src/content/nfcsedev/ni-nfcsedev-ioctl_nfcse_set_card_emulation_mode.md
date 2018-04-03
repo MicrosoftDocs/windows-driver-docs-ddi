@@ -38,7 +38,8 @@ api_location:
 -	nfcsedev.h
 api_name:
 -	IOCTL_NFCSE_SET_CARD_EMULATION_MODE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SECURE_ELEMENT_TYPE, *PSECURE_ELEMENT_TYPE
 ---
@@ -61,7 +62,7 @@ The <b>IOCTL_NFCSE_SET_CARD_EMULATION_MODE</b>
 ### -input-buffer
 
 
-<a href="..\nfcsedev\ns-nfcsedev-_secure_element_set_card_emulation_mode_info.md"> SECURE_ELEMENT_SET_CARD_EMULATION_MODE_INFO</a> structure.
+<a href="https://msdn.microsoft.com/64EE1896-DD19-42AD-92D7-3B3498A83E75"> SECURE_ELEMENT_SET_CARD_EMULATION_MODE_INFO</a> structure.
 
 
 ### -input-buffer-length

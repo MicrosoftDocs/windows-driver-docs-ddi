@@ -7,7 +7,7 @@ old-location: kernel\reg_load_key_information.htm
 old-project: kernel
 ms.assetid: 4012667b-d287-4846-8860-0cca977f9792
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*PREG_LOAD_KEY_INFORMATION, PREG_LOAD_KEY_INFORMATION, PREG_LOAD_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], REG_LOAD_KEY_INFORMATION, REG_LOAD_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], _REG_LOAD_KEY_INFORMATION, kernel.reg_load_key_information, kstruct_d_31dae695-0a6f-4309-9c39-25c2df4a5b23.xml, wdm/PREG_LOAD_KEY_INFORMATION, wdm/REG_LOAD_KEY_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	REG_LOAD_KEY_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: REG_LOAD_KEY_INFORMATION, *PREG_LOAD_KEY_INFORMATION
 req.product: Windows 10 or later.
@@ -53,26 +54,6 @@ req.product: Windows 10 or later.
 The <b>REG_LOAD_KEY_INFORMATION</b> structure contains information about a registry hive that is being loaded.
 
 
-## -syntax
-
-
-````
-typedef struct _REG_LOAD_KEY_INFORMATION {
-  PVOID           Object;
-  PUNICODE_STRING KeyName;
-  PUNICODE_STRING SourceFile;
-  ULONG           Flags;
-  PVOID           TrustClassObject;
-  PVOID           UserEvent;
-  ACCESS_MASK     DesiredAccess;
-  PHANDLE         RootHandle;
-  PVOID           CallContext;
-  PVOID           ObjectContext;
-  PVOID           Reserved;
-} REG_LOAD_KEY_INFORMATION, *PREG_LOAD_KEY_INFORMATION;
-````
-
-
 ## -struct-fields
 
 
@@ -85,7 +66,7 @@ A pointer to the registry key object for the root key of the hive that is about 
 
 ### -field KeyName
 
-A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that contains the name of the root key.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure that contains the name of the root key.
 
 
 ### -field SourceFile
@@ -110,7 +91,7 @@ A pointer to an event object that is signaled when the hive is unloaded.
 
 ### -field DesiredAccess
 
-The access mask that was specified by the thread that is trying to load the registry key. For more information about this access mask, see the description of the <i>DesiredAccess</i> parameter of the <a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a> routine.
+The access mask that was specified by the thread that is trying to load the registry key. For more information about this access mask, see the description of the <i>DesiredAccess</i> parameter of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566425">ZwCreateKey</a> routine.
 
 
 ### -field RootHandle
@@ -125,7 +106,7 @@ Optional driver-defined context information that the driver's <a href="https://m
 
 ### -field ObjectContext
 
-A pointer to driver-defined context information that the driver has associated with a registry object by calling the <a href="..\wdm\nf-wdm-cmsetcallbackobjectcontext.md">CmSetCallbackObjectContext</a> routine.
+A pointer to driver-defined context information that the driver has associated with a registry object by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541924">CmSetCallbackObjectContext</a> routine.
 
 
 ### -field Reserved
@@ -146,11 +127,10 @@ For more information about registry filtering operations, see <a href="https://m
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541924">CmSetCallbackObjectContext</a>
 
 
 
@@ -158,16 +138,16 @@ For more information about registry filtering operations, see <a href="https://m
 
 
 
-<a href="..\wdm\nf-wdm-cmsetcallbackobjectcontext.md">CmSetCallbackObjectContext</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566425">ZwCreateKey</a>
  
 
  
-
 

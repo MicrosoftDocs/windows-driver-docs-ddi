@@ -7,7 +7,7 @@ old-location: netvista\riluiccappinfo.htm
 old-project: netvista
 ms.assetid: b3a688fe-928c-458e-ac47-59a9ae61bc5e
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*LPRILUICCAPPINFO, RILUICCAPPINFO, RILUICCAPPINFO structure [Network Drivers Starting with Windows Vista], netvista.riluiccappinfo, ntddrilapitypes/RILUICCAPPINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILUICCAPPINFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILUICCAPPINFO, *LPRILUICCAPPINFO
 req.product: Windows 10 or later.
@@ -51,25 +52,6 @@ req.product: Windows 10 or later.
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef struct _RILUICCAPPINFO {
-  DWORD           cbSize;
-  DWORD           dwParams;
-  HUICCAPP        hUiccApp;
-  RILUICCAPPTYPE  dwUiccAppType;
-  DWORD           dwAppIdLength;
-  BYTE [32]       bAppId;
-  DWORD           dwAppNameLength;
-  char [256]      cszAppName;
-  DWORD           dwNumPins;
-  BYTE [8]        bPinRef;
-} RILUICCAPPINFO, RILUICCAPPINFO;
-````
 
 
 ## -struct-fields

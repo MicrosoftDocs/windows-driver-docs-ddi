@@ -7,7 +7,7 @@ old-location: kernel\pep_debugger_transition_requirements.htm
 old-project: kernel
 ms.assetid: 5DF830CA-ECC3-404A-AA5F-3DB487BC85B3
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*PPEP_DEBUGGER_TRANSITION_REQUIREMENTS, PEP_DEBUGGER_TRANSITION_REQUIREMENTS, PEP_DEBUGGER_TRANSITION_REQUIREMENTS structure [Kernel-Mode Driver Architecture], PPEP_DEBUGGER_TRANSITION_REQUIREMENTS, PPEP_DEBUGGER_TRANSITION_REQUIREMENTS structure pointer [Kernel-Mode Driver Architecture], _PEP_DEBUGGER_TRANSITION_REQUIREMENTS, kernel.pep_debugger_transition_requirements, pepfx/PEP_DEBUGGER_TRANSITION_REQUIREMENTS, pepfx/PPEP_DEBUGGER_TRANSITION_REQUIREMENTS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	pepfx.h
 api_name:
 -	PEP_DEBUGGER_TRANSITION_REQUIREMENTS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PEP_DEBUGGER_TRANSITION_REQUIREMENTS, *PPEP_DEBUGGER_TRANSITION_REQUIREMENTS, PEP_DEBUGGER_TRANSITION_REQUIREMENTS, *PPEP_DEBUGGER_TRANSITION_REQUIREMENTS
 ---
@@ -50,18 +51,6 @@ req.typenames: PEP_DEBUGGER_TRANSITION_REQUIREMENTS, *PPEP_DEBUGGER_TRANSITION_R
 
 
 The <b>PEP_DEBUGGER_TRANSITION_REQUIREMENTS</b> structure indicates the platform idle states for which the debugger device must be turned on.
-
-
-## -syntax
-
-
-````
-typedef struct _PEP_DEBUGGER_TRANSITION_REQUIREMENTS {
-  PEPHANDLE DeviceHandle;
-  ULONG     PlatformStateCount;
-  PBOOLEAN  PowerTransitionRequired;
-} PEP_DEBUGGER_TRANSITION_REQUIREMENTS, *PPEP_DEBUGGER_TRANSITION_REQUIREMENTS;
-````
 
 
 ## -struct-fields
@@ -97,7 +86,6 @@ During a debugging session, the debugger component that runs on the target compu
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186827">PEP_NOTIFY_PPM_QUERY_PLATFORM_STATES</a>
 
 
 
@@ -109,8 +97,8 @@ During a debugging session, the debugger component that runs on the target compu
 
 
 
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186827">PEP_NOTIFY_PPM_QUERY_PLATFORM_STATES</a>
  
 
  
-
 
