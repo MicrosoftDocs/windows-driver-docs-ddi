@@ -7,7 +7,7 @@ old-location: display\dxgkddicreateprocess.htm
 old-project: display
 ms.assetid: E5AAEEB1-C29E-4AA7-9F8E-2C2DCFADED81
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_CREATEPROCESS, DxgkDdiCreateProcess, DxgkDdiCreateProcess callback function [Display Devices], d3dkmddi/DxgkDdiCreateProcess, display.dxgkddicreateprocess, dispmprt/DxgkDdiCreateProcess
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DxgkDdiCreateProcess
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 ---
@@ -51,20 +52,6 @@ req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 
 
 <b>DxgkDdiCreateProcess</b> creates a graphics kernel process object.
-
-
-## -prototype
-
-
-````
-DXGKDDI_CREATEPROCESS DxgkDdiCreateProcess;
-
-NTSTATUS APIENTRY DxgkDdiCreateProcess(
-  _In_    const HANDLE                hAdapter,
-  _Inout_       DXGKARG_CREATEPROCESS *pArgs
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -79,7 +66,7 @@ A handle to the display adapter.
 
 ### -param pArgs [in, out]
 
-The <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createprocess.md">DXGKARG_CREATEPROCESS</a> structure that describes the operation.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/dn914470">DXGKARG_CREATEPROCESS</a> structure that describes the operation.
 
 
 ## -returns
@@ -103,12 +90,11 @@ During process creation the kernel mode driver is allowed to call the <b>DxgkCbR
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createprocess.md">DXGKARG_CREATEPROCESS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn914470">DXGKARG_CREATEPROCESS</a>
  
 
  
-
 

@@ -38,7 +38,8 @@ api_location:
 -	pointofservicecommontypes.h
 api_name:
 -	DriverUnifiedPosPowerState
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DriverUnifiedPosPowerState
 ---
@@ -50,16 +51,6 @@ req.typenames: DriverUnifiedPosPowerState
 
 
 This enumeration is not implemented.
-
-
-## -syntax
-
-
-````
-typedef enum _DriverUnifiedPosPowerState { 
-    = 
-} DriverUnifiedPosPowerState;
-````
 
 
 ## -enum-fields

@@ -7,7 +7,7 @@ old-location: kernel\ioisvalidirpstatus.htm
 old-project: kernel
 ms.assetid: 0A995357-A578-41C6-A1B8-ABD251C16C83
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: IoIsValidIrpStatus, IoIsValidIrpStatus routine [Kernel-Mode Driver Architecture], kernel.ioisvalidirpstatus, ntddk/IoIsValidIrpStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	IoIsValidIrpStatus
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
@@ -50,16 +51,6 @@ req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 
 
 The <b>IoIsValidIrpStatus</b> routine validates the specified NTSTATUS status code value.
-
-
-## -syntax
-
-
-````
-LOGICAL IoIsValidIrpStatus(
-  _In_ NTSTATUS Status
-);
-````
 
 
 ## -parameters
@@ -98,12 +89,11 @@ For more information about these fields, see <a href="https://msdn.microsoft.com
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550766">IRP_MJ_INTERNAL_DEVICE_CONTROL</a>
-
-
-
  
 
  
-
 

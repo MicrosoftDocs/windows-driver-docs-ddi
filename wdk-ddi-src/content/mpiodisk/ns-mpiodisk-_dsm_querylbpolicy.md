@@ -7,7 +7,7 @@ old-location: storage\dsm_querylbpolicy.htm
 old-project: storage
 ms.assetid: f2ac985a-8fcb-48ad-b100-4137b5b1a777
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PDSM_QueryLBPolicy, DSM_QueryLBPolicy, DSM_QueryLBPolicy structure [Storage Devices], PDSM_QueryLBPolicy, PDSM_QueryLBPolicy structure pointer [Storage Devices], _DSM_QueryLBPolicy, mpiodisk/DSM_QueryLBPolicy, mpiodisk/PDSM_QueryLBPolicy, storage.dsm_querylbpolicy, structs-scsibus_f1a0bedd-e5ba-474d-9a45-ae6a2863cfb3.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	mpiodisk.h
 api_name:
 -	DSM_QueryLBPolicy
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DSM_QueryLBPolicy, *PDSM_QueryLBPolicy
 ---
@@ -50,16 +51,6 @@ req.typenames: DSM_QueryLBPolicy, *PDSM_QueryLBPolicy
 
 
 The DSM_QueryLBPolicy structure is used to query a LUN's current load balance policy.
-
-
-## -syntax
-
-
-````
-typedef struct _DSM_QueryLBPolicy {
-  DSM_Load_Balance_Policy LoadBalancePolicy;
-} DSM_QueryLBPolicy, *PDSM_QueryLBPolicy;
-````
 
 
 ## -struct-fields

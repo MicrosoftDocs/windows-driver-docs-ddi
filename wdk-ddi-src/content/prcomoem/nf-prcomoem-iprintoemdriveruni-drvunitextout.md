@@ -38,7 +38,8 @@ api_location:
 -	prcomoem.h
 api_name:
 -	IPrintOemDriverUni.DrvUniTextOut
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
@@ -51,25 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <code>IPrintOemDriverUni::DrvUniTextOut</code> method is provided by the Unidrv driver so that a rendering plug-in using a device-managed drawing surface can easily output text strings.
-
-
-## -syntax
-
-
-````
-HRESULT DrvUniTextOut(
-   SURFOBJ  *pso,
-   STROBJ   *pstro,
-   FONTOBJ  *pfo,
-   CLIPOBJ  *pco,
-   RECTL    *prclExtra,
-   RECTL    *prclOpaque,
-   BRUSHOBJ *pboFore,
-   BRUSHOBJ *pboOpaque,
-   POINTL   *pptlBrushOrg,
-   MIX      mix
-);
-````
 
 
 ## -parameters

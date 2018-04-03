@@ -7,7 +7,7 @@ old-location: audio\ipincount_pincount.htm
 old-project: audio
 ms.assetid: 8b7a49cc-5061-475b-ac03-cbf43954c413
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/19/2018
 ms.keywords: IPinCount, IPinCount interface [Audio Devices], PinCount method, IPinCount::PinCount, PinCount method [Audio Devices], PinCount method [Audio Devices], IPinCount interface, PinCount,IPinCount.PinCount, audio.ipincount_pincount, audmp-routines_bded3ce8-936c-4391-901f-df6b2061c7c3.xml, portcls/IPinCount::PinCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	portcls.h
 api_name:
 -	IPinCount.PinCount
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
@@ -50,21 +51,6 @@ req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 
 
 The <code>PinCount</code> method queries the miniport driver for its pin count.
-
-
-## -syntax
-
-
-````
-void PinCount(
-  [in]      ULONG  PinId,
-  [in, out] PULONG FilterNecessary,
-  [in, out] PULONG FilterCurrent,
-  [in, out] PULONG FilterPossible,
-  [in, out] PULONG GlobalCurrent,
-  [in, out] PULONG GlobalPossible
-);
-````
 
 
 ## -parameters
@@ -135,7 +121,7 @@ To give the miniport driver an opportunity to alter the current pin counts.
 
 Miniport drivers typically do not need to change the <i>FilterNecessary</i> parameter, but it is included for the sake of completeness.
 
-During the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536943">IPort::Init</a> call, the port driver calls the miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff536765">IMiniport::GetDescription</a> method to obtain a pointer to the filter descriptor, which includes the miniport driver's pin-descriptor array (see <a href="..\portcls\ns-portcls-__unnamed_struct_0cb6_7.md">PCPIN_DESCRIPTOR</a>). Thereafter, the port driver accesses the pin descriptors to respond to queries for pin properties.
+During the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536943">IPort::Init</a> call, the port driver calls the miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff536765">IMiniport::GetDescription</a> method to obtain a pointer to the filter descriptor, which includes the miniport driver's pin-descriptor array (see <a href="https://msdn.microsoft.com/library/windows/hardware/ff537721">PCPIN_DESCRIPTOR</a>). Thereafter, the port driver accesses the pin descriptors to respond to queries for pin properties.
 
 If the miniport driver supports the <b>IPinCount</b> interface, the port driver calls <code>PinCount</code> to give the miniport driver an opportunity to update the pin counts before replying to a pin-property request. If the miniport driver does not support <b>IPinCount</b>, the port driver simply uses the static pin-count limits in the pin-descriptor array.
 
@@ -164,11 +150,6 @@ The <code>PinCount</code> method is called at IRQL PASSIVE_LEVEL. The code for t
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565193">KSPROPERTY_PIN_CINSTANCES</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565204">KSPROPERTY_PIN_NECESSARYINSTANCES</a>
 
 
 
@@ -176,7 +157,15 @@ The <code>PinCount</code> method is called at IRQL PASSIVE_LEVEL. The code for t
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536832">IPinCount</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536943">IPort::Init</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565193">KSPROPERTY_PIN_CINSTANCES</a>
 
 
 
@@ -184,16 +173,12 @@ The <code>PinCount</code> method is called at IRQL PASSIVE_LEVEL. The code for t
 
 
 
-<a href="..\portcls\nn-portcls-ipincount.md">IPinCount</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565204">KSPROPERTY_PIN_NECESSARYINSTANCES</a>
 
 
 
-<a href="..\portcls\ns-portcls-__unnamed_struct_0cb6_7.md">PCPIN_DESCRIPTOR</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537721">PCPIN_DESCRIPTOR</a>
  
 
  
-
 

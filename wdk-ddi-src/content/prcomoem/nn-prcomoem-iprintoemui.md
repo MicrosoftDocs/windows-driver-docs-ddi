@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: prcomoem.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	prcomoem.h
 api_name:
 -	IPrintOemUI
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
@@ -118,7 +119,7 @@ The <code>IPrintOemUI::DocumentPropertySheets</code> method allows a user interf
 <a href="https://msdn.microsoft.com/aacddaea-3a6f-4018-92ac-fe4aa2ddabd3">DriverEvent</a>
 </td>
 <td align="left" width="63%">
-The printer driver's <a href="..\winddiui\nf-winddiui-drvdriverevent.md">DrvDriverEvent</a> function calls a user interface plug-in's <code>IPrintOemUI::DriverEvent</code> method for additional processing of printer driver events.
+The printer driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff548551">DrvDriverEvent</a> function calls a user interface plug-in's <code>IPrintOemUI::DriverEvent</code> method for additional processing of printer driver events.
 
 </td>
 </tr>

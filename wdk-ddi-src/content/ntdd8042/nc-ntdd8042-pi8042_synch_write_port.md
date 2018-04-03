@@ -38,7 +38,8 @@ api_location:
 -	ntdd8042.h
 api_name:
 -	SynchWritePort
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MSFC_VirtualFibrePortAttributes, *PMSFC_VirtualFibrePortAttributes
 ---
@@ -50,21 +51,6 @@ req.typenames: MSFC_VirtualFibrePortAttributes, *PMSFC_VirtualFibrePortAttribute
 
 
 The PI8042_SYNCH_READ_PORT-typed callback routine does a synchronized write to an i8042 port. I8042prt supplies this routine.
-
-
-## -prototype
-
-
-````
-PI8042_SYNCH_WRITE_PORT SynchWritePort;
-
-NTSTATUS SynchWritePort(
-  _In_ PVOID   Context,
-  _In_ UCHAR   Value,
-  _In_ BOOLEAN WaitForACK
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -130,7 +116,7 @@ The hardware was not ready for a write access.
 
 
 
-The PI8042_SYNCH_READ_PORT callback can only be used in a <a href="..\ntdd8042\nc-ntdd8042-pi8042_keyboard_initialization_routine.md">PI8042_KEYBOARD_INITIALIZATION_ROUTINE</a> callback. I8042prt specifies the write port callback in the <i>WritePort</i> parameter that I8042prt inputs to a keyboard initialization routine.
+The PI8042_SYNCH_READ_PORT callback can only be used in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543243">PI8042_KEYBOARD_INITIALIZATION_ROUTINE</a> callback. I8042prt specifies the write port callback in the <i>WritePort</i> parameter that I8042prt inputs to a keyboard initialization routine.
 
 The routine polls the hardware until a read is returned by the hardware or an internal time-out occurs.
 
@@ -139,16 +125,15 @@ The routine polls the hardware until a read is returned by the hardware or an in
 
 ## -see-also
 
-<a href="..\ntdd8042\nc-ntdd8042-pi8042_synch_read_port.md">PI8042_SYNCH_READ_PORT</a>
 
 
 
-<a href="..\ntdd8042\nc-ntdd8042-pi8042_keyboard_initialization_routine.md">PI8042_KEYBOARD_INITIALIZATION_ROUTINE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543243">PI8042_KEYBOARD_INITIALIZATION_ROUTINE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543272">PI8042_SYNCH_READ_PORT</a>
  
 
  
-
 

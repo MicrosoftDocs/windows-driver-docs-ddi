@@ -7,7 +7,7 @@ old-location: display\d3d12ddi_video_decode_tier.htm
 old-project: display
 ms.assetid: CC4B83A3-1F57-493F-840F-F0F799B631E6
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3D12DDI_VIDEO_DECODE_TIER_0020, D3D12DDI_VIDEO_DECODE_TIER_0020 enumeration [Display Devices], D3D12DDI_VIDEO_DECODE_TIER_0020_1, D3D12DDI_VIDEO_DECODE_TIER_0020_2, D3D12DDI_VIDEO_DECODE_TIER_0020_3, D3D12DDI_VIDEO_DECODE_TIER_0020_NOT_SUPPORTED, d3d12umddi/D3D12DDI_VIDEO_DECODE_TIER_0020, d3d12umddi/D3D12DDI_VIDEO_DECODE_TIER_0020_1, d3d12umddi/D3D12DDI_VIDEO_DECODE_TIER_0020_2, d3d12umddi/D3D12DDI_VIDEO_DECODE_TIER_0020_3, d3d12umddi/D3D12DDI_VIDEO_DECODE_TIER_0020_NOT_SUPPORTED, display.d3d12ddi_video_decode_tier
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3d12umddi.h
 api_name:
 -	D3D12DDI_VIDEO_DECODE_TIER_0020
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D12DDI_VIDEO_DECODE_TIER_0020
 ---
@@ -50,19 +51,6 @@ req.typenames: D3D12DDI_VIDEO_DECODE_TIER_0020
 
 
 Specifies the video decode tier. Decode video tiers consolidate a set of hardware capabilities. The higher the tier, the more capable the hardware.
-
-
-## -syntax
-
-
-````
-typedef enum D3D12DDI_VIDEO_DECODE_TIER_0020 {
-  D3D12DDI_VIDEO_DECODE_TIER_0020_NOT_SUPPORTED  = 0,
-  D3D12DDI_VIDEO_DECODE_TIER_0020_1              = 1,
-  D3D12DDI_VIDEO_DECODE_TIER_0020_2              = 2,
-  D3D12DDI_VIDEO_DECODE_TIER_0020_3              = 3
-} D3D12DDI_VIDEO_DECODE_TIER_0020;
-````
 
 
 ## -enum-fields

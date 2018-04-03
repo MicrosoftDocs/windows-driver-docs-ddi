@@ -7,7 +7,7 @@ old-location: buses\ioctl_internal_usbfn_set_power_filter_exit_lpm.htm
 old-project: usbref
 ms.assetid: 2A3A1723-989E-44FD-9727-7A01218652D1
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_INTERNAL_USBFN_SET_POWER_FILTER_EXIT_LPM, IOCTL_INTERNAL_USBFN_SET_POWER_FILTER_EXIT_LPM control code [Buses], buses.ioctl_internal_usbfn_set_power_filter_exit_lpm, usbfnioctl/IOCTL_INTERNAL_USBFN_SET_POWER_FILTER_EXIT_LPM
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	usbfnioctl.h
 api_name:
 -	IOCTL_INTERNAL_USBFN_SET_POWER_FILTER_EXIT_LPM
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USBFN_USB_STRING, *PUSBFN_USB_STRING
 req.product: Windows 10 or later.
@@ -113,7 +114,7 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/win
 
 
 
-This request must be sent after sending the  <a href="..\usbfnioctl\ni-usbfnioctl-ioctl_internal_usbfn_activate_usb_bus.md">IOCTL_INTERNAL_USBFN_ACTIVATE_USB_BUS</a> request.
+This request must be sent after sending the  <a href="https://msdn.microsoft.com/library/windows/hardware/mt187891">IOCTL_INTERNAL_USBFN_ACTIVATE_USB_BUS</a> request.
 
 Upon receiving this request, the filter driver
     communicates with the hardware and brings the controller out of LPM.
@@ -123,12 +124,11 @@ Upon receiving this request, the filter driver
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn379336">Link Power management in USB 3.0 Hardware</a>
-
-
-
  
 
  
-
 

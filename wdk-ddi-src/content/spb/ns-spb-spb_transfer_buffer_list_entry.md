@@ -38,7 +38,8 @@ api_location:
 -	Spb.h
 api_name:
 -	SPB_TRANSFER_BUFFER_LIST_ENTRY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SPB_TRANSFER_BUFFER_LIST_ENTRY, *PSPB_TRANSFER_BUFFER_LIST_ENTRY
 req.product: Windows 10 or later.
@@ -51,17 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>SPB_TRANSFER_BUFFER_LIST_ENTRY</b> structure describes either a simple transfer buffer, or an element in an array of one or more transfer buffers.
-
-
-## -syntax
-
-
-````
-typedef struct _SPB_TRANSFER_BUFFER_LIST_ENTRY {
-  PVOID Buffer;
-  ULONG BufferCb;
-} SPB_TRANSFER_BUFFER_LIST_ENTRY, *PSPB_TRANSFER_BUFFER_LIST_ENTRY;
-````
 
 
 ## -struct-fields
@@ -92,6 +82,9 @@ If the buffer format is  <b>SpbTransferBufferFormatSimple</b>, an  <b>SPB_TRANSF
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh450857">IOCTL_SPB_EXECUTE_SEQUENCE</a>
 
 
@@ -105,11 +98,7 @@ If the buffer format is  <b>SpbTransferBufferFormatSimple</b>, an  <b>SPB_TRANSF
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406223">SPB_TRANSFER_LIST_ENTRY</a>
-
-
-
  
 
  
-
 

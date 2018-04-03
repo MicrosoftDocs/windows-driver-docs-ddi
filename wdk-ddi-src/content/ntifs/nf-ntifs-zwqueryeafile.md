@@ -7,7 +7,7 @@ old-location: kernel\zwqueryeafile.htm
 old-project: kernel
 ms.assetid: c4261a83-3c91-4bc1-93bf-d2d04c324e94
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: ZwQueryEaFile, ZwQueryEaFile routine [Kernel-Mode Driver Architecture], kernel.zwqueryeafile, ntifs/ZwQueryEaFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	ZwQueryEaFile
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -53,24 +54,6 @@ The <b>ZwQueryEaFile</b> routine returns
     information about extended-attribute (EA) values for a file.
 
 
-## -syntax
-
-
-````
-NTSTATUS ZwQueryEaFile(
-  _In_     HANDLE           FileHandle,
-  _Out_    PIO_STATUS_BLOCK IoStatusBlock,
-  _Out_    PVOID            Buffer,
-  _In_     ULONG            Length,
-  _In_     BOOLEAN          ReturnSingleEntry,
-  _In_opt_ PVOID            EaList,
-  _In_     ULONG            EaListLength,
-  _In_opt_ PULONG           EaIndex,
-  _In_     BOOLEAN          RestartScan
-);
-````
-
-
 ## -parameters
 
 
@@ -83,14 +66,14 @@ The handle for the file on which the operation is to be performed.
 
 ### -param IoStatusBlock [out]
 
-A pointer to an <a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure that 
+A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550671">IO_STATUS_BLOCK</a> structure that 
       receives the final completion status and other information about the requested operation.
 
 
 ### -param Buffer [out]
 
 A pointer to a caller-supplied 
-      <a href="..\wdm\ns-wdm-_file_full_ea_information.md">FILE_FULL_EA_INFORMATION</a>-structured output 
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff545793">FILE_FULL_EA_INFORMATION</a>-structured output 
       buffer, where the extended attribute values are to be returned.
 
 
@@ -109,7 +92,7 @@ Set to <b>TRUE</b> if
 ### -param EaList [in, optional]
 
 A pointer to a caller-supplied 
-      <a href="..\ntifs\ns-ntifs-_file_get_ea_information.md">FILE_GET_EA_INFORMATION</a>-structured input 
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff540295">FILE_GET_EA_INFORMATION</a>-structured input 
       buffer, which specifies the extended attributes to be queried. This parameter is optional and can be 
       <b>NULL</b>.
 
@@ -166,7 +149,7 @@ The file system does not support extended attributes. This is an error code.
 </dl>
 </td>
 <td width="60%">
-The <a href="..\ntifs\nf-ntifs-zwqueryeafile.md">ZwQueryEaFile</a> routine encountered a pool 
+The <a href="https://msdn.microsoft.com/library/windows/hardware/ff961907">ZwQueryEaFile</a> routine encountered a pool 
         allocation failure. This is an error code.
 
 </td>
@@ -190,20 +173,19 @@ The <i>EaList</i> parameter is not formatted correctly. This is an error code.
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_file_get_ea_information.md">FILE_GET_EA_INFORMATION</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-zwseteafile.md">ZwSetEaFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545793">FILE_FULL_EA_INFORMATION</a>
 
 
 
-<a href="..\wdm\ns-wdm-_file_full_ea_information.md">FILE_FULL_EA_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540295">FILE_GET_EA_INFORMATION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff961908">ZwSetEaFile</a>
  
 
  
-
 

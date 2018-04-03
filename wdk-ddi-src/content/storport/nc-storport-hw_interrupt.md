@@ -7,7 +7,7 @@ old-location: storage\hwstorinterrupt.htm
 old-project: storage
 ms.assetid: 3c61d947-3e05-4750-a50c-be9b2dc573f0
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: HW_INTERRUPT, HwStorInterrupt, HwStorInterrupt routine [Storage Devices], storage.hwstorinterrupt, stormini_17f68641-1cfd-47b3-a52f-be98f96e693f.xml, storport/HwStorInterrupt
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Storport.h
 api_name:
 -	HwStorInterrupt
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STORAGE_DEVICE_UNIQUE_IDENTIFIER, *PSTORAGE_DEVICE_UNIQUE_IDENTIFIER
 req.product: Windows 10 or later.
@@ -51,19 +52,6 @@ req.product: Windows 10 or later.
 
 
 The Storport driver calls the <b>HwStorInterrupt</b> routine after the HBA generates an interrupt request.
-
-
-## -prototype
-
-
-````
-HW_INTERRUPT HwStorInterrupt;
-
-BOOLEAN HwStorInterrupt(
-   IN PVOID DeviceExtension
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -96,7 +84,7 @@ BOOLEAN
 HW_INTERRUPT (
   IN PVOID  DeviceExtension
   );</code></pre>
-The <b>HwStorInterrupt</b> routine should return within 50 microseconds, ideally as short a time as possible. Therefore, all activity does not have to occur at high IRQL should be deferred to the <a href="..\storport\nc-storport-hw_dpc_routine.md">HwStorDpcRoutine</a> that is defined in the miniport driver and issued by using <a href="..\storport\nf-storport-storportissuedpc.md">StorPortIssueDpc</a>.  The latency of the DPC is very low, and it will be called immediately after the return from high IRQL.
+The <b>HwStorInterrupt</b> routine should return within 50 microseconds, ideally as short a time as possible. Therefore, all activity does not have to occur at high IRQL should be deferred to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557383">HwStorDpcRoutine</a> that is defined in the miniport driver and issued by using <a href="https://msdn.microsoft.com/library/windows/hardware/ff567116">StorPortIssueDpc</a>.  The latency of the DPC is very low, and it will be called immediately after the return from high IRQL.
 
 The port driver calls the <b>HwStorInterrupt</b> routine at DIRQL.
 
@@ -143,16 +131,15 @@ The <b>HW_INTERRUPT</b> function type is defined in the Storport.h header file. 
 
 ## -see-also
 
-<a href="..\storport\nc-storport-hw_dpc_routine.md">HwStorDpcRoutine</a>
 
 
 
-<a href="..\storport\nf-storport-storportissuedpc.md">StorPortIssueDpc</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557383">HwStorDpcRoutine</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567116">StorPortIssueDpc</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: storage\iowritepartitiontable.htm
 old-project: storage
 ms.assetid: 406508b2-7509-4d2b-ac22-63644eedcec0
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IoWritePartitionTable, IoWritePartitionTable routine [Storage Devices], ntddk/IoWritePartitionTable, rtns-disk_9358ac66-e3ba-43c0-856f-0f8b4c0ee832.xml, storage.iowritepartitiontable
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	IoWritePartitionTable
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
@@ -49,23 +50,9 @@ req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ## -description
 
 
-The <b>IoWritePartitionTable</b> routine is <b>obsolete</b> and is provided only to support existing drivers. New drivers must use <a href="..\ntddk\nf-ntddk-iowritepartitiontableex.md">IoWritePartitionTableEx</a>.
+The <b>IoWritePartitionTable</b> routine is <b>obsolete</b> and is provided only to support existing drivers. New drivers must use <a href="https://msdn.microsoft.com/library/windows/hardware/ff561470">IoWritePartitionTableEx</a>.
 
 <b>IoWritePartitionTable</b> writes partition tables from the entries in the partition list buffer for each partition on the disk represented by the given device object.
-
-
-## -syntax
-
-
-````
-NTSTATUS FASTCALL IoWritePartitionTable(
-  _In_ PDEVICE_OBJECT                   DeviceObject,
-  _In_ ULONG                            SectorSize,
-  _In_ ULONG                            SectorsPerTrack,
-  _In_ ULONG                            NumberOfHeads,
-  _In_ struct _DRIVE_LAYOUT_INFORMATION *PartitionBuffer
-);
-````
 
 
 ## -parameters
@@ -95,7 +82,7 @@ Specifies the number of tracks per cylinder.
 
 ### -param PartitionBuffer [in]
 
-Pointer to the drive layout buffer that contains the partition list entries. For more detailed information see <a href="..\ntdddisk\ns-ntdddisk-_drive_layout_information.md">DRIVE_LAYOUT_INFORMATION</a>.
+Pointer to the drive layout buffer that contains the partition list entries. For more detailed information see <a href="https://msdn.microsoft.com/library/windows/hardware/ff552659">DRIVE_LAYOUT_INFORMATION</a>.
 
 
 ## -returns
@@ -152,7 +139,7 @@ Indicates that sector zero did not have the expected MBR disk signature.
 
 
 
-<b>IoWritePartitionTable</b> must only be used by disk drivers. Other drivers should use the <a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_set_drive_layout.md">IOCTL_DISK_SET_DRIVE_LAYOUT</a> disk I/O request instead.
+<b>IoWritePartitionTable</b> must only be used by disk drivers. Other drivers should use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560408">IOCTL_DISK_SET_DRIVE_LAYOUT</a> disk I/O request instead.
 
 <b>IoWritePartitionTable</b> is called when a disk device driver is requested to set the partition type in a partition table entry or to repartition the disk by an IRP_MJ_DEVICE_CONTROL request. The device control request is generally issued by the format utility, which performs I/O control functions on the partitions and disks in the machine.
 
@@ -167,20 +154,19 @@ Applications that create and delete partitions and require full descriptions of 
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-ioreadpartitiontable.md">IoReadPartitionTable</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-iosetpartitioninformation.md">IoSetPartitionInformation</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548397">IoCreateDevice</a>
 
 
 
-<a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561452">IoReadPartitionTable</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561456">IoSetPartitionInformation</a>
  
 
  
-
 

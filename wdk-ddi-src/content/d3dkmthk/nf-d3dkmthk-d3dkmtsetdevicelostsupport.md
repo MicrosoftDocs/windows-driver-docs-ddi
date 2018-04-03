@@ -7,7 +7,7 @@ old-location: display\d3dkmtsetdevicelostsupport.htm
 old-project: display
 ms.assetid: 9b7469cb-d489-4428-8167-91b26e1fa348
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMTSetDeviceLostSupport, D3DKMTSetDeviceLostSupport method [Display Devices], d3dkmthk/D3DKMTSetDeviceLostSupport, display.d3dkmtsetdevicelostsupport
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmthk.h
 api_name:
 -	D3DKMTSetDeviceLostSupport
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_DRIVERVERSION
 ---
@@ -54,19 +55,14 @@ req.typenames: D3DKMT_DRIVERVERSION
             Used to indicate that the device has lost support.
 
 
-## -syntax
-
-
-````
-NTSTATUS  D3DKMTSetDeviceLostSupport(
-  _In_ D3DKMT_SETDEVICELOSTSUPPORT  *D3dkmt_setdevicelostsupport
-);
-````
-
-
 ## -parameters
 
 
+
+
+### -param Arg1
+
+TBD
 
 
 

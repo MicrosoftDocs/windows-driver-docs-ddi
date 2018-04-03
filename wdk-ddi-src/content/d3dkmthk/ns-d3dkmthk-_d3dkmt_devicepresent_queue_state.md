@@ -7,7 +7,7 @@ old-location: display\d3dkmt_devicepresent_queue_state.htm
 old-project: display
 ms.assetid: 0DB9F0ED-D0A9-4A8A-8E27-BC50DEDB0BD5
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMT_DEVICEPRESENT_QUEUE_STATE, D3DKMT_DEVICEPRESENT_QUEUE_STATE structure [Display Devices], _D3DKMT_DEVICEPRESENT_QUEUE_STATE, d3dkmthk/D3DKMT_DEVICEPRESENT_QUEUE_STATE, display.d3dkmt_devicepresent_queue_state
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmthk.h
 api_name:
 -	D3DKMT_DEVICEPRESENT_QUEUE_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_DEVICEPRESENT_QUEUE_STATE
 ---
@@ -50,17 +51,6 @@ req.typenames: D3DKMT_DEVICEPRESENT_QUEUE_STATE
 
 
 A structure that holds information on the queue state of a hardware device.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_DEVICEPRESENT_QUEUE_STATE {
-  D3DDDI_VIDEO_PRESENT_SOURCE_ID VidPnSourceId;
-  BOOLEAN                        bQueuedPresentLimitReached;
-} D3DKMT_DEVICEPRESENT_QUEUE_STATE;
-````
 
 
 ## -struct-fields

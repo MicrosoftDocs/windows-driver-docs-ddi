@@ -2,7 +2,7 @@
 UID: TP:storage
 ms.assetid: 2c8add25-915b-3bb1-957b-a04df40081fc
 ms.author: windowsdriverdev
-ms.date: 03/13/18
+ms.date: 04/03/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -11,6 +11,7 @@ ms.topic: portal
 
 # Storage
 
+## -description
 
 Overview of the Storage technology.
 
@@ -357,7 +358,7 @@ For the programming guide, see [Storage](https://docs.microsoft.com/en-us/window
 | [StorPortRegistryRead function](..\storport\nf-storport-storportregistryread.md) | The StorPortRegistryRead routine reads the registry data for the indicated device and value. |
 | [StorPortRegistryReadAdapterKey function](..\storport\nf-storport-storportregistryreadadapterkey.md) | The StorPortRegistryReadAdapterKey routine is called by the miniport driver to read the hardware or device registry adapter keys located in registry at HKLM/CurrentControlSet/Enum/&lt;Instance path&gt;/DeviceParameters/... |
 | [StorPortRegistryWrite function](..\storport\nf-storport-storportregistrywrite.md) | The StorPortRegistryWrite routine is called by the miniport driver to convert the registry data contained in a specified buffer from ASCII to Unicode and to then write the data to the miniport driver's per-HBA storage area. |
-| [StorPortRegistryWriteAdapterKey function](..\storport\nf-storport-storportregistrywriteadapterkey.md) | The StorPortRegistryWriteAdapterKey routine is called by the miniport driver to write the hardware or device registry adapter keys located in registry at HKLM/CurrentControlSet/Enum/&lt;Instance path&gt;/DeviceParameters/... |
+| [StorPortRegistryWriteAdapterKey function](..\storport\nf-storport-storportregistrywriteadapterkey.md) | The StorPortRegistryReadAdapterKey routine is called by the miniport driver to read the hardware or device registry adapter keys located in registry at HKLM/CurrentControlSet/Enum/&lt;Instance path&gt;/DeviceParameters/... |
 | [StorPortReleaseMSISpinLock function](..\storport\nf-storport-storportreleasemsispinlock.md) | The StorPortReleaseMSISpinLock routine releases a previously acquired message signaled interrupt (MSI) spin lock for the specified message. |
 | [StorPortReleaseSpinLock function](..\storport\nf-storport-storportreleasespinlock.md) | The StorPortReleaseSpinLock routine releases a spinlock acquired by StorPortAcquireSpinLock. |
 | [StorPortRequestTimer function](..\storport\nf-storport-storportrequesttimer.md) | Schedules a callback event for a Storport timer context object. |
@@ -1249,7 +1250,17 @@ For the programming guide, see [Storage](https://docs.microsoft.com/en-us/window
 | [IDE_CONTROL_ACTION enumeration](..\irb\ne-irb-ide_control_action.md) | The IDE_CONTROL_ACTION enumeration type indicates the control action to be performed by a IdeHwControl routine.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. |
 | [IDE_DEVICE_TYPE enumeration](..\irb\ne-irb-ide_device_type.md) | The IDE_DEVICE_TYPE enumeration type indicates the device type.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. |
 | [IDE_POWER_STATE enumeration](..\irb\ne-irb-ide_power_state.md) | The IDE_POWER_STATE enumeration type indicates that power state of the device. |
+| [ISCSIIPADDRESSTYPE enumeration](..\iscsidef\ne-iscsidef-iscsiipaddresstype.md) | The ISCSIIPADDRESSTYPE enumeration indicates formats for an IP address. |
+| [ISCSI_ADAPTER_EVENT_CODE enumeration](..\iscsiop\ne-iscsiop-iscsi_adapter_event_code.md) | The ISCSI_ADAPTER_EVENT_CODE enumeration indicates the type of adapter event. |
+| [ISCSI_AUTH_TYPES enumeration](..\iscsidef\ne-iscsidef-iscsi_auth_types.md) | The ISCSI_AUTH_TYPES enumeration indicates the type of authentication method that is used to establish a logon connection. |
+| [ISCSI_DIGEST_TYPES enumeration](..\iscsidef\ne-iscsidef-iscsi_digest_types.md) | The ISCSI_DIGEST_TYPES enumeration indicates the digest type. |
+| [ISCSI_ENCRYPTION_TYPES enumeration](..\iscsicfg\ne-iscsicfg-iscsi_encryption_types.md) | The ISCSI_ENCRYPTION_TYPES enumeration indicates the type of encryption that is supported. |
+| [ISCSI_NIC_LINKSTATE enumeration](..\iscsicfg\ne-iscsicfg-iscsi_nic_linkstate.md) | The ISCSI_NIC_LINKSTATE enumeration indicates whether a port is connected to the network or not. |
+| [LOGINSESSIONTYPE enumeration](..\iscsiop\ne-iscsiop-loginsessiontype.md) | The LOGINSESSIONTYPE enumeration indicates the type of logon session. |
 | [SCSIWMI_ENABLE_DISABLE_CONTROL enumeration](..\scsiwmi\ne-scsiwmi-scsiwmi_enable_disable_control.md) | The SCSIWMI_ENABLE_DISABLE_CONTROL enumerator is used to specify what to enable or disable. |
+| [STOR_POWER_ACTION enumeration](..\minitape\ne-minitape-stor_power_action.md) | The STOR_POWER_ACTION enumerator indicates the power state that the system is about to enter during a power transition. |
+| [STOR_POWER_ACTION enumeration](..\srb\ne-srb-stor_power_action.md) | The STOR_POWER_ACTION enumerator indicates the power state that the system is about to enter during a power transition. |
+| [STOR_POWER_ACTION enumeration](..\storport\ne-storport-stor_power_action.md) | The STOR_POWER_ACTION enumerator indicates the power state that the system is about to enter during a power transition. |
 | [UFS_ATTRIBUTES_DESCRIPTOR enumeration](..\ufs\ne-ufs-ufs_attributes_descriptor.md) | UFS_ATTRIBUTES_DESCRIPTOR describes the different types of attributes used by Universal Flash Storage (UFS) descriptors. |
 | [UFS_FLAGS_DESCRIPTOR enumeration](..\ufs\ne-ufs-ufs_flags_descriptor.md) | UFS_FLAGS_DESCRIPTOR describes the different types of flags used by Universal Flash Storage (UFS) descriptors. |
 | [UFS_PURGE_STATUS enumeration](..\ufs\ne-ufs-ufs_purge_status.md) | Specifies the current status of a purge operation. |

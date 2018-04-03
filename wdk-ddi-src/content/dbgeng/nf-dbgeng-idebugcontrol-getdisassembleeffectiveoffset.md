@@ -7,7 +7,7 @@ old-location: debugger\getdisassembleeffectiveoffset.htm
 old-project: debugger
 ms.assetid: 07f652f2-d370-4f88-a7f0-f6946fd50c79
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: GetDisassembleEffectiveOffset method [Windows Debugging], GetDisassembleEffectiveOffset method [Windows Debugging], IDebugControl interface, GetDisassembleEffectiveOffset method [Windows Debugging], IDebugControl2 interface, GetDisassembleEffectiveOffset method [Windows Debugging], IDebugControl3 interface, GetDisassembleEffectiveOffset,IDebugControl.GetDisassembleEffectiveOffset, IDebugControl, IDebugControl interface [Windows Debugging], GetDisassembleEffectiveOffset method, IDebugControl2 interface [Windows Debugging], GetDisassembleEffectiveOffset method, IDebugControl2::GetDisassembleEffectiveOffset, IDebugControl3 interface [Windows Debugging], GetDisassembleEffectiveOffset method, IDebugControl3::GetDisassembleEffectiveOffset, IDebugControl::GetDisassembleEffectiveOffset, IDebugControl_5593ec3a-31f4-4775-9356-49f1757323c0.xml, dbgeng/IDebugControl2::GetDisassembleEffectiveOffset, dbgeng/IDebugControl3::GetDisassembleEffectiveOffset, dbgeng/IDebugControl::GetDisassembleEffectiveOffset, debugger.getdisassembleeffectiveoffset
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,8 @@ api_name:
 -	IDebugControl.GetDisassembleEffectiveOffset
 -	IDebugControl2.GetDisassembleEffectiveOffset
 -	IDebugControl3.GetDisassembleEffectiveOffset
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -52,16 +53,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetDisassembleEffectiveOffset</b> method returns the address of the last instruction disassembled using <a href="https://msdn.microsoft.com/library/windows/hardware/ff541948">Disassemble</a>.
-
-
-## -syntax
-
-
-````
-HRESULT GetDisassembleEffectiveOffset(
-  [out] PULONG64 Offset
-);
-````
 
 
 ## -parameters
@@ -115,7 +106,6 @@ For more information about using assembly with the debugger engine API, see <a h
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 
 
@@ -123,16 +113,16 @@ For more information about using assembly with the debugger engine API, see <a h
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550508">IDebugControl</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550512">IDebugControl2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550519">IDebugControl3</a>
  
 
  
-
 

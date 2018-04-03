@@ -7,7 +7,7 @@ old-location: display\pfnd3d12ddi_set_predication.htm
 old-project: display
 ms.assetid: C5830688-4FC6-4D3F-82EB-15354B28C5F1
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3D12DDI_SET_PREDICATION, d3d12umddi/pfnSetPredication, display.pfnd3d12ddi_set_predication, pfnSetPredication, pfnSetPredication callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3d12umddi.h
 api_name:
 -	pfnSetPredication
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
 ---
@@ -52,38 +53,22 @@ req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
 The <i>pfnSetPredication</i> callback function denotes that subsequent video operations and resource manipulation commands are not actually performed if the resulting predicate data of the predicate is equal to the operation specified.
 
 
-## -prototype
-
-
-````
-PFND3D12DDI_SET_PREDICATION pfnSetPredication;
-
-VOID APIENTRY* pfnSetPredication(
-   D3D12DDI_HCOMMANDLIST   hCommandList,
-   D3D12DDI_HRESOURCE      hResource,
-   UINT64                  Uint64,
-   D3D12DDI_PREDICATION_OP PredicationOp
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
 
 
-### -param D3D12DDI_HCOMMANDLIST
+### -param Arg1
 
 A handle to the driver's data for the command list. The driver uses this region of memory to store internal data structures that are related to its command list.
 
-### -param D3D12DDI_HRESOURCE
+### -param Arg2
 
 
-### -param UINT64
+### -param Arg3
 
 
-### -param D3D12DDI_PREDICATION_OP
+### -param Arg4
 
 
 
@@ -94,7 +79,7 @@ A handle to the driver's data for the command list. The driver uses this region 
 
 #### - PredicationOp
 
-A predication operation. For more information, see the <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_predication_op.md">D3D12DDI_PREDICATION_OP</a> enumeration.
+A predication operation. For more information, see the <a href="https://msdn.microsoft.com/70676251-BCD7-4996-B5B7-96A8D9B107DB">D3D12DDI_PREDICATION_OP</a> enumeration.
 
 
 #### - Uint64
@@ -123,12 +108,11 @@ This callback function does not return a value.
 
 ## -see-also
 
-<a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_predication_op.md">D3D12DDI_PREDICATION_OP</a>
 
 
 
+<a href="https://msdn.microsoft.com/70676251-BCD7-4996-B5B7-96A8D9B107DB">D3D12DDI_PREDICATION_OP</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: storage\populate_token_header.htm
 old-project: storage
 ms.assetid: 897C74A3-041D-487E-8891-7161B76ABAA1
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PPOPULATE_TOKEN_HEADER, POPULATE_TOKEN_HEADER, POPULATE_TOKEN_HEADER structure [Storage Devices], PPOPULATE_TOKEN_HEADER, PPOPULATE_TOKEN_HEADER structure pointer [Storage Devices], scsi/POPULATE_TOKEN_HEADER, scsi/PPOPULATE_TOKEN_HEADER, storage.populate_token_header"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	scsi.h
 api_name:
 -	POPULATE_TOKEN_HEADER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: POPULATE_TOKEN_HEADER, *PPOPULATE_TOKEN_HEADER
 ---
@@ -50,23 +51,6 @@ req.typenames: POPULATE_TOKEN_HEADER, *PPOPULATE_TOKEN_HEADER
 
 
 A populate token parameter list starts with a <b>POPULATE_TOKEN_HEADER</b> structure. This is the header for the parameters in a command data block (CDB) of the  POPULATE TOKEN command.
-
-
-## -syntax
-
-
-````
-typedef struct _POPULATE_TOKEN_HEADER {
-  UCHAR PopulateTokenDataLength[2];
-  UCHAR Immediate  :1;
-  UCHAR Reserved1  :7;
-  UCHAR Reserved2;
-  UCHAR InactivityTimeout[4];
-  UCHAR Reserved3[6];
-  UCHAR BlockDeviceRangeDescriptorListLength[2];
-  UCHAR BlockDeviceRangeDescriptor[ANYSIZE_ARRAY];
-} POPULATE_TOKEN_HEADER, *PPOPULATE_TOKEN_HEADER;
-````
 
 
 ## -struct-fields
@@ -106,19 +90,19 @@ Reserved.
 
 ### -field BlockDeviceRangeDescriptorListLength
 
-The length, in bytes, for all  of the <a href="..\storport\ns-storport-block_device_range_descriptor.md">BLOCK_DEVICE_RANGE_DESCRIPTOR</a> structures in the <b>BlockDeviceRangeDescriptor</b> array.
+The length, in bytes, for all  of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh967727">BLOCK_DEVICE_RANGE_DESCRIPTOR</a> structures in the <b>BlockDeviceRangeDescriptor</b> array.
 
 
 ### -field BlockDeviceRangeDescriptor
 
-An array of <a href="..\storport\ns-storport-block_device_range_descriptor.md">BLOCK_DEVICE_RANGE_DESCRIPTOR</a> structures which describe the logical blocks representing the file being read from the LUN.
+An array of <a href="https://msdn.microsoft.com/library/windows/hardware/hh967727">BLOCK_DEVICE_RANGE_DESCRIPTOR</a> structures which describe the logical blocks representing the file being read from the LUN.
 
 
 ## -remarks
 
 
 
-The <b>POPULATE_TOKEN_HEADER</b> structure contains a series of <a href="..\storport\ns-storport-block_device_range_descriptor.md">BLOCK_DEVICE_RANGE_DESCRIPTOR</a> structures which describe the token ROD.
+The <b>POPULATE_TOKEN_HEADER</b> structure contains a series of <a href="https://msdn.microsoft.com/library/windows/hardware/hh967727">BLOCK_DEVICE_RANGE_DESCRIPTOR</a> structures which describe the token ROD.
 
 All multibyte values are in big endian format. Prior to setting, these values must be converted from the endian format of the current platform.
 
@@ -127,12 +111,11 @@ All multibyte values are in big endian format. Prior to setting, these values mu
 
 ## -see-also
 
-<a href="..\storport\ns-storport-block_device_range_descriptor.md">BLOCK_DEVICE_RANGE_DESCRIPTOR</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh967727">BLOCK_DEVICE_RANGE_DESCRIPTOR</a>
  
 
  
-
 

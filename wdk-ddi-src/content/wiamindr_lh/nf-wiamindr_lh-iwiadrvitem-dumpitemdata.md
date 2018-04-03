@@ -38,7 +38,8 @@ api_location:
 -	wiamindr_lh.h
 api_name:
 -	IWiaDrvItem.DumpItemData
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SCANWINDOW, *PSCANWINDOW
 req.product: Windows 10 or later.
@@ -51,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>IWiaDrvItem::DumpItemData</b> method dumps private data associated with an <b>IWiaDrvItem</b> item into an allocated private buffer.
-
-
-## -syntax
-
-
-````
-HRESULT DumpItemData(
-  [out, optional] BSTR *bstrDrvItemData
-);
-````
 
 
 ## -parameters

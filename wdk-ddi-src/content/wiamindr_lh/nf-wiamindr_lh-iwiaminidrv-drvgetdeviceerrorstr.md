@@ -38,7 +38,8 @@ api_location:
 -	wiamindr_lh.h
 api_name:
 -	IWiaMiniDrv.drvGetDeviceErrorStr
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SCANWINDOW, *PSCANWINDOW
 req.product: Windows 10 or later.
@@ -51,19 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>IWiaMiniDrv::drvGetDeviceErrorStr </b>method maps an error code to a Unicode string that describes the error.
-
-
-## -syntax
-
-
-````
-HRESULT drvGetDeviceErrorStr(
-  [in]            LONG     lFlags,
-  [in]            LONG     lDevErrVal,
-  [out, optional] LPOLESTR *ppszDevErrStr,
-  [out]           LONG     *plDevErr
-);
-````
 
 
 ## -parameters

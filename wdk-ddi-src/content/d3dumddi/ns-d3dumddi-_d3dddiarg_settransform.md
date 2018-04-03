@@ -7,7 +7,7 @@ old-location: display\d3dddiarg_settransform.htm
 old-project: display
 ms.assetid: 1bd5c22e-c4c1-4b0a-b5ed-76e17cbe1aee
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDIARG_SETTRANSFORM, D3DDDIARG_SETTRANSFORM structure [Display Devices], UMDisplayDriver_param_Structs_719de83f-0830-4b1a-aa72-e3f58553c733.xml, _D3DDDIARG_SETTRANSFORM, d3dumddi/D3DDDIARG_SETTRANSFORM, display.d3dddiarg_settransform
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	D3DDDIARG_SETTRANSFORM
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDIARG_SETTRANSFORM
 ---
@@ -50,17 +51,6 @@ req.typenames: D3DDDIARG_SETTRANSFORM
 
 
 The D3DDDIARG_SETTRANSFORM structure describes how to set up a transform. 
-
-
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_SETTRANSFORM {
-  D3DTRANSFORMSTATETYPE TransformType;
-  D3DMATRIX             Matrix;
-} D3DDDIARG_SETTRANSFORM;
-````
 
 
 ## -struct-fields
@@ -120,19 +110,18 @@ World transformation
 
 
 
-The Microsoft Direct3D runtime uses D3DDDIARG_SETTRANSFORM in a call to the user-mode display driver <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_settransform.md">SetTransform</a> function to inform the driver about various hardware transformation and lighting matrices. 
+The Microsoft Direct3D runtime uses D3DDDIARG_SETTRANSFORM in a call to the user-mode display driver <a href="https://msdn.microsoft.com/0e989ea4-3693-4c0b-86a5-96b865a0193f">SetTransform</a> function to inform the driver about various hardware transformation and lighting matrices. 
 
 
 
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_settransform.md">SetTransform</a>
 
 
 
+<a href="https://msdn.microsoft.com/0e989ea4-3693-4c0b-86a5-96b865a0193f">SetTransform</a>
  
 
  
-
 

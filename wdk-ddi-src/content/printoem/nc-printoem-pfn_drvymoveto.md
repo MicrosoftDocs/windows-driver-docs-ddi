@@ -38,7 +38,8 @@ api_location:
 -	printoem.h
 api_name:
 -	DrvYMoveTo
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PrintSchemaSelectionType
 req.product: Windows 10 or later.
@@ -54,22 +55,7 @@ The <b>DrvYMoveTo</b> function is obsolete.
 
 Windows 2000 and later Unidrv plug-ins should use <a href="https://msdn.microsoft.com/library/windows/hardware/ff553144">IPrintOemDriverUni::DrvYMoveTo</a>. 
 
-This function pointer prototype defines the type of the <b>DrvYMoveTo</b> member of the <a href="..\printoem\ns-printoem-_drvprocs.md">DRVPROCS</a> structure.
-
-
-## -prototype
-
-
-````
-PFN_DrvYMoveTo DrvYMoveTo;
-
- INT APIENTRY* DrvYMoveTo(
-   PDEVOBJ pdevobj,
-   INT     y,
-   DWORD   dwFlags
-)
-{ ... }
-````
+This function pointer prototype defines the type of the <b>DrvYMoveTo</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548571">DRVPROCS</a> structure.
 
 
 ## -parameters

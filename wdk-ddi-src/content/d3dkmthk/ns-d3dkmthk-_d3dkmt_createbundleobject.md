@@ -7,7 +7,7 @@ old-location: display\d3dkmt-createbundleobject.htm
 old-project: display
 ms.assetid: dbb01112-9d28-4dbf-88c7-3304d9d6a661
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMT_CREATEBUNDLEOBJECT, D3DKMT_CREATEBUNDLEOBJECT structure [Display Devices], _D3DKMT_CREATEBUNDLEOBJECT, d3dkmthk/D3DKMT_CREATEBUNDLEOBJECT, display.d3dkmt-createbundleobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmthk.h
 api_name:
 -	D3DKMT_CREATEBUNDLEOBJECT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_CREATEBUNDLEOBJECT
 ---
@@ -50,21 +51,6 @@ req.typenames: D3DKMT_CREATEBUNDLEOBJECT
 
 
 Holds information to create a bundle object.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_CREATEBUNDLEOBJECT {
-  UINT                cObjects;
-  const D3DKMT_HANDLE *phObjects;
-  POBJECT_ATTRIBUTES  *ppObjectAttributes;
-  POBJECT_ATTRIBUTES  pBundleObjectAttributes;
-  DWORD                dwBundleDesiredAccess;
-  HANDLE              hNtBundleHandle;
-} D3DKMT_CREATEBUNDLEOBJECT, D3DKMT_CREATEBUNDLEOBJECT;
-````
 
 
 ## -struct-fields

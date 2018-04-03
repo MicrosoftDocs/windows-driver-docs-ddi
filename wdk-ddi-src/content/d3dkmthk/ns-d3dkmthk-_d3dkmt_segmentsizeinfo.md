@@ -7,7 +7,7 @@ old-location: display\d3dkmt_segmentsizeinfo.htm
 old-project: display
 ms.assetid: 16c7b4bd-efc9-4cce-8677-8046038d1c76
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMT_SEGMENTSIZEINFO, D3DKMT_SEGMENTSIZEINFO structure [Display Devices], OpenGL_Structs_bdb19184-37f0-4341-b8bb-41011f6cb6b3.xml, _D3DKMT_SEGMENTSIZEINFO, d3dkmthk/D3DKMT_SEGMENTSIZEINFO, display.d3dkmt_segmentsizeinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmthk.h
 api_name:
 -	D3DKMT_SEGMENTSIZEINFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_SEGMENTSIZEINFO
 ---
@@ -50,18 +51,6 @@ req.typenames: D3DKMT_SEGMENTSIZEINFO
 
 
 The D3DKMT_SEGMENTSIZEINFO structure describes the size, in bytes, of memory and aperture segments.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_SEGMENTSIZEINFO {
-  ULONGLONG DedicatedVideoMemorySize;
-  ULONGLONG DedicatedSystemMemorySize;
-  ULONGLONG SharedSystemMemorySize;
-} D3DKMT_SEGMENTSIZEINFO;
-````
 
 
 ## -struct-fields
@@ -86,16 +75,15 @@ typedef struct _D3DKMT_SEGMENTSIZEINFO {
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_queryadapterinfo.md">D3DKMT_QUERYADAPTERINFO</a>
 
 
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtqueryadapterinfo.md">D3DKMTQueryAdapterInfo</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547100">D3DKMTQueryAdapterInfo</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548203">D3DKMT_QUERYADAPTERINFO</a>
  
 
  
-
 

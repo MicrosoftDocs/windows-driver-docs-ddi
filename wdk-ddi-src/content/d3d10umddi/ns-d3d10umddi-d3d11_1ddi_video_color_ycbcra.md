@@ -7,7 +7,7 @@ old-location: display\d3d11_1ddi_video_color_ycbcra.htm
 old-project: display
 ms.assetid: d6d8147e-8cc8-4c35-8031-bce2fa3ccd67
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3D11_1DDI_VIDEO_COLOR_YCbCrA, D3D11_1DDI_VIDEO_COLOR_YCbCrA structure [Display Devices], d3d10umddi/D3D11_1DDI_VIDEO_COLOR_YCbCrA, display.d3d11_1ddi_video_color_ycbcra
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3d10umddi.h
 api_name:
 -	D3D11_1DDI_VIDEO_COLOR_YCbCrA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D11_1DDI_VIDEO_COLOR_YCbCrA
 ---
@@ -50,19 +51,6 @@ req.typenames: D3D11_1DDI_VIDEO_COLOR_YCbCrA
 
 
 Specifies a YCbCr color value.
-
-
-## -syntax
-
-
-````
-typedef struct D3D11_1DDI_VIDEO_COLOR_YCbCrA {
-  float Y;
-  float Cb;
-  float Cr;
-  float A;
-} D3D11_1DDI_VIDEO_COLOR_YCbCrA;
-````
 
 
 ## -struct-fields

@@ -38,7 +38,8 @@ api_location:
 -	bidispl.dll
 api_name:
 -	IBidiRequest.SetSchema
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
 ---
@@ -50,16 +51,6 @@ req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
 
 
 The <b>SetSchema</b> method sets the bidi schema string.
-
-
-## -syntax
-
-
-````
-HRESULT SetSchema(
-  [in] const LPCWSTR pszSchema
-);
-````
 
 
 ## -parameters
@@ -124,6 +115,9 @@ The <b>HRESULT</b> contains an error code corresponding to the last error.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
 
 
@@ -132,12 +126,8 @@ The <b>HRESULT</b> contains an error code corresponding to the last error.
 
 
 
-<a href="..\bidispl\nn-bidispl-ibidirequest.md">IBidiRequest</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/dd144969">IBidiRequest</a>
  
 
  
-
 

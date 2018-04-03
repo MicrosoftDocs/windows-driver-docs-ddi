@@ -7,7 +7,7 @@ old-location: display\pfnreservegpuvirtualaddresscb.htm
 old-project: display
 ms.assetid: CEDE03E1-4B0D-4839-B7D6-0826CC103C5E
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3DDDI_RESERVEGPUVIRTUALADDRESSCB, d3dumddi/pfnReserveGpuVirtualAddressCb, display.pfnreservegpuvirtualaddresscb, pfnReserveGpuVirtualAddressCb, pfnReserveGpuVirtualAddressCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	pfnReserveGpuVirtualAddressCb
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_PTE
 ---
@@ -57,20 +58,6 @@ The user mode driver may choose the base GPU virtual address to use for the rese
 When the user mode driver chooses to let the video memory manager pick a base address for the GPU virtual address range, it may choose to constrain the range that the video memory manager will consider by specifying non-NULL values for <b>MinimumAddress</b> and <b>MaximumAddress</b>. The video memory manager will ensure that the allocated GPU virtual address range is entirely contained in the range. The user mode driver may specify only a <b>MinimumAddress</b> (<b>MaximumAddress</b> being assumed to be the end of the address space) or only specify a <b>MaximumAddress</b> (<b>MinimumAddress</b> being assumed to be 0).
 
   
-
-
-## -prototype
-
-
-````
-PFND3DDDI_RESERVEGPUVIRTUALADDRESSCB pfnReserveGpuVirtualAddressCb;
-
-HRESULT APIENTRY CALLBACK* pfnReserveGpuVirtualAddressCb(
-  _In_    HANDLE                          hDevice,
-  _Inout_ D3DDDI_RESERVEGPUVIRTUALADDRESS *pData
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -94,7 +81,7 @@ A handle to the display device.
 
 #### - pData [in, out]
 
-A pointer to a <a href="..\d3dukmdt\ns-d3dukmdt-d3dddi_reservegpuvirtualaddress.md">D3DDDI_RESERVEGPUVIRTUALADDRESS</a> structure that describes the operation to perform.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn906327">D3DDDI_RESERVEGPUVIRTUALADDRESS</a> structure that describes the operation to perform.
 
 
 
@@ -110,12 +97,11 @@ If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.co
 
 ## -see-also
 
-<a href="..\d3dukmdt\ns-d3dukmdt-d3dddi_reservegpuvirtualaddress.md">D3DDDI_RESERVEGPUVIRTUALADDRESS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn906327">D3DDDI_RESERVEGPUVIRTUALADDRESS</a>
  
 
  
-
 

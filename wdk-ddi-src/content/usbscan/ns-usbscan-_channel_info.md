@@ -38,7 +38,8 @@ api_location:
 -	usbscan.h
 api_name:
 -	CHANNEL_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CHANNEL_INFO, *PCHANNEL_INFO
 req.product: Windows 10 or later.
@@ -50,19 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The CHANNEL_INFO structure is used as a parameter to <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>, when the specified I/O control code is <a href="..\usbscan\ni-usbscan-ioctl_get_channel_align_rqst.md">IOCTL_GET_CHANNEL_ALIGN_RQST</a>.
-
-
-## -syntax
-
-
-````
-typedef struct _CHANNEL_INFO {
-  unsigned EventChannelSize;
-  unsigned uReadDataAlignment;
-  unsigned uWriteDataAlignment;
-} CHANNEL_INFO, *PCHANNEL_INFO;
-````
+The CHANNEL_INFO structure is used as a parameter to <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>, when the specified I/O control code is <a href="https://msdn.microsoft.com/library/windows/hardware/ff542849">IOCTL_GET_CHANNEL_ALIGN_RQST</a>.
 
 
 ## -struct-fields

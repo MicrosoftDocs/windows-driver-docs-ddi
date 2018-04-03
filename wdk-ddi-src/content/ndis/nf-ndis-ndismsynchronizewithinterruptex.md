@@ -7,7 +7,7 @@ old-location: netvista\ndismsynchronizewithinterruptex.htm
 old-project: netvista
 ms.assetid: 5dca9258-a3ae-43f4-a5aa-d591165d72ed
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: BOOLEAN, NdisMSynchronizeWithInterruptEx, NdisMSynchronizeWithInterruptEx function [Network Drivers Starting with Windows Vista], ndis/NdisMSynchronizeWithInterruptEx, ndis_interrupts_functions_ref_e2b886ed-7425-4f7e-8cb6-4e3946dec8ff.xml, netvista.ndismsynchronizewithinterruptex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	ndis.dll
 api_name:
 -	NdisMSynchronizeWithInterruptEx
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
@@ -53,20 +54,7 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 Miniport drivers call the
   <b>NdisMSynchronizeWithInterruptEx</b> function to synchronize the execution of a miniport driver-supplied
   function with the 
-  <a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInterrupt</a> function.
-
-
-## -syntax
-
-
-````
-BOOLEAN NdisMSynchronizeWithInterruptEx(
-  _In_ NDIS_HANDLE NdisInterruptHandle,
-  _In_ ULONG       MessageId,
-  _In_ PVOID       SynchronizeFunction,
-  _In_ PVOID       SynchronizeContext
-);
-````
+  <a href="https://msdn.microsoft.com/810503b9-75cd-4b38-ab1f-de240968ded6">MiniportInterrupt</a> function.
 
 
 ## -parameters
@@ -77,7 +65,7 @@ BOOLEAN NdisMSynchronizeWithInterruptEx(
 ### -param NdisInterruptHandle [in]
 
 An interrupt handle that the miniport driver obtained in a previous call to the 
-     <a href="..\ndis\nf-ndis-ndismregisterinterruptex.md">
+     <a href="https://msdn.microsoft.com/db0b3d51-5bbb-45fb-8c45-dda8c2212b5f">
      NdisMRegisterInterruptEx</a> function.
 
 
@@ -86,9 +74,9 @@ An interrupt handle that the miniport driver obtained in a previous call to the
 A message-signaled interrupt with which the driver must synchronize. If NDIS did not grant message
      signaled interrupts for the driver, NDIS ignores this parameter. 
      <i>MessageId</i> is an index to the 
-     <a href="..\wdm\ns-wdm-_io_interrupt_message_info_entry.md">
+     <a href="https://msdn.microsoft.com/e5007381-2436-4eb6-85cd-7145361ab793">
      IO_INTERRUPT_MESSAGE_INFO_ENTRY</a> structures inside a 
-     <a href="..\wdm\ns-wdm-_io_interrupt_message_info.md">
+     <a href="https://msdn.microsoft.com/d740d55e-6549-494d-9b2a-39d5c2e670d3">
      IO_INTERRUPT_MESSAGE_INFO</a> structure. NDIS passes a pointer to the associated
      IO_INTERRUPT_MESSAGE_INFO structure at the 
      <b>MessageInfoTable</b> member when the driver successfully registers for MSI with the 
@@ -98,7 +86,7 @@ A message-signaled interrupt with which the driver must synchronize. If NDIS did
 ### -param SynchronizeFunction [in]
 
 The entry point of the driver's 
-     <a href="..\ndis\nc-ndis-miniport_synchronize_interrupt.md">
+     <a href="https://msdn.microsoft.com/aac1ff91-76aa-46a0-8e8a-85b9f8c3323c">
      MiniportSynchronizeInterrupt</a> function.
 
 
@@ -126,7 +114,7 @@ A pointer to a miniport-driver-determined context area that is passed to the
 Miniport drivers that register an interrupt with
     <b>NdisMRegisterInterruptEx</b> use
     <b>NdisMSynchronizeWithInterruptEx</b>. The value that the 
-    <a href="..\ndis\nc-ndis-miniport_synchronize_interrupt.md">
+    <a href="https://msdn.microsoft.com/aac1ff91-76aa-46a0-8e8a-85b9f8c3323c">
     MiniportSynchronizeInterrupt</a> function returns is also returned by 
     <b>NdisMSynchronizeWithInterruptEx</b>. This propagated value provides status to the caller.
 
@@ -149,30 +137,29 @@ For more information about acquiring and releasing NDIS spin locks, see
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_io_interrupt_message_info.md">IO_INTERRUPT_MESSAGE_INFO</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismregisterinterruptex.md">NdisMRegisterInterruptEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550576">IO_INTERRUPT_MESSAGE_INFO</a>
 
 
 
-<a href="..\wdm\ns-wdm-_io_interrupt_message_info_entry.md">
+<a href="https://msdn.microsoft.com/e5007381-2436-4eb6-85cd-7145361ab793">
    IO_INTERRUPT_MESSAGE_INFO_ENTRY</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInterrupt</a>
+<a href="https://msdn.microsoft.com/810503b9-75cd-4b38-ab1f-de240968ded6">MiniportInterrupt</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_synchronize_interrupt.md">
+<a href="https://msdn.microsoft.com/aac1ff91-76aa-46a0-8e8a-85b9f8c3323c">
    MiniportSynchronizeInterrupt</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563649">NdisMRegisterInterruptEx</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: netvista\ndis_wwan_device_service_command.htm
 old-project: netvista
 ms.assetid: 372625F8-0219-4867-909D-ACCC82F6B97C
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PNDIS_WWAN_DEVICE_SERVICE_COMMAND, NDIS_WWAN_DEVICE_SERVICE_COMMAND, NDIS_WWAN_DEVICE_SERVICE_COMMAND structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_DEVICE_SERVICE_COMMAND, PNDIS_WWAN_DEVICE_SERVICE_COMMAND structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_DEVICE_SERVICE_COMMAND, ndiswwan/NDIS_WWAN_DEVICE_SERVICE_COMMAND, ndiswwan/PNDIS_WWAN_DEVICE_SERVICE_COMMAND, netvista.ndis_wwan_device_service_command"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ndiswwan.h
 api_name:
 -	NDIS_WWAN_DEVICE_SERVICE_COMMAND
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_WWAN_DEVICE_SERVICE_COMMAND, *PNDIS_WWAN_DEVICE_SERVICE_COMMAND
 ---
@@ -50,17 +51,6 @@ req.typenames: NDIS_WWAN_DEVICE_SERVICE_COMMAND, *PNDIS_WWAN_DEVICE_SERVICE_COMM
 
 
 The NDIS_WWAN_DEVICE_SERVICE_COMMAND structure describes device service command data.
-
-
-## -syntax
-
-
-````
-typedef struct _NDIS_WWAN_DEVICE_SERVICE_COMMAND {
-  NDIS_OBJECT_HEADER          Header;
-  WWAN_DEVICE_SERVICE_COMMAND Command;
-} NDIS_WWAN_DEVICE_SERVICE_COMMAND, *PNDIS_WWAN_DEVICE_SERVICE_COMMAND;
-````
 
 
 ## -struct-fields
@@ -116,7 +106,7 @@ sizeof(NDIS_WWAN_DEVICE_SERVICE_COMMAND)
  
 
 For more information about these members, see 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field Command
@@ -126,12 +116,11 @@ The device service command.
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_device_service_command.md">WWAN_DEVICE_SERVICE_COMMAND</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh831869">WWAN_DEVICE_SERVICE_COMMAND</a>
  
 
  
-
 

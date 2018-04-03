@@ -38,7 +38,8 @@ api_location:
 -	Wiautil.h
 api_name:
 -	CWiauFormatConverter.IsFormatSupported
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SKIP_AMOUNT
 req.product: Windows 10 or later.
@@ -51,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>CWiauFormatConverter::IsFormatSupported</b> method verifies that GDI+ supports the image format that is to be converted.
-
-
-## -syntax
-
-
-````
-BOOL IsFormatSupported(
-   const GUID   pguidFormat
-);
-````
 
 
 ## -parameters
@@ -84,16 +75,15 @@ The method returns <b>TRUE</b> if the format indicated by the format GUID is sup
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/b30c3336-ddc6-459d-97c4-244ca0b50cfc">CWiauFormatConverter</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540369">CWiauFormatConverter::ConvertToBmp</a>
-
-
-
-<a href="..\wiautil\nl-wiautil-cwiauformatconverter.md">CWiauFormatConverter</a>
-
-
-
  
 
  
-
 

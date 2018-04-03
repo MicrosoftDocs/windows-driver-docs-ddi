@@ -7,7 +7,7 @@ old-location: storage\srbex_data_power.htm
 old-project: storage
 ms.assetid: 61F5C316-5214-45A6-B4BA-DEE6A224E811
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSRBEX_DATA_POWER, PSRBEX_DATA_POWER, PSRBEX_DATA_POWER structure pointer [Storage Devices], SRBEX_DATA_POWER, SRBEX_DATA_POWER structure [Storage Devices], _SRBEX_DATA_POWER, storage.srbex_data_power, storport/PSRBEX_DATA_POWER, storport/SRBEX_DATA_POWER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Storport.h
 api_name:
 -	SRBEX_DATA_POWER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SRBEX_DATA_POWER, *PSRBEX_DATA_POWER
 req.product: Windows 10 or later.
@@ -52,21 +53,6 @@ req.product: Windows 10 or later.
 
 The <b>SRBEX_DATA_POWER</b> structure contains the request data for an extended power SRB.
 <div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
-
-## -syntax
-
-
-````
-typedef struct _SRBEX_DATA_POWER {
-  SRBEXDATATYPE           Type;
-  ULONG                   Length;
-  ULONG                   SrbPowerFlags;
-  UCHAR                   Reserved[3];
-  STOR_DEVICE_POWER_STATE DevicePowerState;
-  STOR_POWER_ACTION       PowerAction;
-} SRBEX_DATA_POWER, *PSRBEX_DATA_POWER;
-````
-
 
 ## -struct-fields
 
@@ -85,7 +71,7 @@ Length of the data in this structure starting with the <b>SrbPowerFlags</b> memb
 
 ### -field SrbPowerFlags
 
-Indicates that the power request is for the adapter if SRB_POWER_FLAGS_ADAPTER_REQUEST is set and that storage device address is reserved. Otherwise, <i>SrbPowerFlags</i> will be <b>NULL</b>, indicating that the request is for the storage device specified by an address at <b>AddressOffset</b> in the <a href="..\storport\ns-storport-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a> structure.
+Indicates that the power request is for the adapter if SRB_POWER_FLAGS_ADAPTER_REQUEST is set and that storage device address is reserved. Otherwise, <i>SrbPowerFlags</i> will be <b>NULL</b>, indicating that the request is for the storage device specified by an address at <b>AddressOffset</b> in the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451474">STORAGE_REQUEST_BLOCK</a> structure.
 
 
 ### -field Reserved
@@ -95,30 +81,29 @@ This member is reserved. Set to 0.
 
 ### -field DevicePowerState
 
-An enumerator value of type <a href="..\storport\ne-storport-_stor_device_power_state.md">STOR_DEVICE_POWER_STATE</a> that specifies the requested power state of the device. 
+An enumerator value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff567578">STOR_DEVICE_POWER_STATE</a> that specifies the requested power state of the device. 
 
 
 ### -field PowerAction
 
-An enumerator value of type <a href="..\storport\ne-storport-pstor_power_action.md">STOR_POWER_ACTION</a> that specifies the type of system shutdown that is about to occur. This value is meaningful only if the device is moving into the D1, D2, or D3 power state as indicated by the <b>DevicePowerState</b> member.
+An enumerator value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff567587">STOR_POWER_ACTION</a> that specifies the type of system shutdown that is about to occur. This value is meaningful only if the device is moving into the D1, D2, or D3 power state as indicated by the <b>DevicePowerState</b> member.
 
 
 ## -see-also
 
-<a href="..\storport\ne-storport-pstor_power_action.md">STOR_POWER_ACTION</a>
 
 
 
-<a href="..\storport\ne-storport-_stor_device_power_state.md">STOR_DEVICE_POWER_STATE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451474">STORAGE_REQUEST_BLOCK</a>
 
 
 
-<a href="..\storport\ns-storport-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567578">STOR_DEVICE_POWER_STATE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567587">STOR_POWER_ACTION</a>
  
 
  
-
 

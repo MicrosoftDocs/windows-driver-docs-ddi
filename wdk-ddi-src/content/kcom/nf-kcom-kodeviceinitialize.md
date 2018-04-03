@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KoDeviceInitialize
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CONNECT_DATA, *PCONNECT_DATA
 ---
@@ -53,16 +54,6 @@ req.typenames: CONNECT_DATA, *PCONNECT_DATA
 <i>This function is intended for internal use only.</i>
 
 The <b>KoDeviceInitialize</b> function adds a kernel COM create-item entry to the specified device object. 
-
-
-## -syntax
-
-
-````
-NTSTATUS KoDeviceInitialize(
-  _In_ PDEVICE_OBJECT DeviceObject
-);
-````
 
 
 ## -parameters

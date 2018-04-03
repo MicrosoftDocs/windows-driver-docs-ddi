@@ -38,7 +38,8 @@ api_location:
 -	Wdfhwaccess.h
 api_name:
 -	WDF_READ_PORT_ULONG
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_FILE_INFORMATION_CLASS, *PWDF_FILE_INFORMATION_CLASS
 req.product: Windows 10 or later.
@@ -53,17 +54,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to UMDF only]
 
 The <b>WDF_READ_PORT_ULONG</b>  function reads a ULONG value from the specified port address.
-
-
-## -syntax
-
-
-````
-ULONG WDF_READ_PORT_ULONG(
-  _In_ WDFDEVICE Device,
-  _In_ PULONG    Port
-);
-````
 
 
 ## -parameters

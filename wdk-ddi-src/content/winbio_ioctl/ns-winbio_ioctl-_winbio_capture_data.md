@@ -38,7 +38,8 @@ api_location:
 -	winbio_ioctl.h
 api_name:
 -	WINBIO_CAPTURE_DATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WINBIO_CAPTURE_DATA, *PWINBIO_CAPTURE_DATA
 req.product: Windows 10 or later.
@@ -50,21 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <a href="..\winbio_ioctl\ni-winbio_ioctl-ioctl_biometric_capture_data.md">IOCTL_BIOMETRIC_CAPTURE_DATA</a> IOCTL returns the WINBIO_CAPTURE_DATA structure as output.
-
-
-## -syntax
-
-
-````
-typedef struct _WINBIO_CAPTURE_DATA {
-  DWORD                PayloadSize;
-  HRESULT              WinBioHresult;
-  WINBIO_SENSOR_STATUS SensorStatus;
-  WINBIO_REJECT_DETAIL RejectDetail;
-  WINBIO_DATA          CaptureData;
-} WINBIO_CAPTURE_DATA, *PWINBIO_CAPTURE_DATA;
-````
+The <a href="https://msdn.microsoft.com/library/windows/hardware/ff536429">IOCTL_BIOMETRIC_CAPTURE_DATA</a> IOCTL returns the WINBIO_CAPTURE_DATA structure as output.
 
 
 ## -struct-fields
@@ -293,17 +280,16 @@ Failure detail values for WINBIO_TYPE_FINGERPRINT include:
 
 ### -field CaptureData
 
-A structure of type <a href="..\winbio_ioctl\ns-winbio_ioctl-_winbio_data.md">WINBIO_DATA</a> that contains data captured by the device, of the format specified. The <b>Data</b> array member of the WINBIO_DATA structure should contain a <a href="..\winbio_types\ns-winbio_types-_winbio_bir.md">WINBIO_BIR</a> structure.
+A structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff536469">WINBIO_DATA</a> that contains data captured by the device, of the format specified. The <b>Data</b> array member of the WINBIO_DATA structure should contain a <a href="https://msdn.microsoft.com/library/windows/hardware/ff536459">WINBIO_BIR</a> structure.
 
 
 ## -see-also
 
-<a href="..\winbio_ioctl\ni-winbio_ioctl-ioctl_biometric_capture_data.md">IOCTL_BIOMETRIC_CAPTURE_DATA</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536429">IOCTL_BIOMETRIC_CAPTURE_DATA</a>
  
 
  
-
 

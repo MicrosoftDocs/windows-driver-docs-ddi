@@ -38,7 +38,8 @@ api_location:
 -	wdfusb.h
 api_name:
 -	WdfUsbTargetDeviceSelectSettingType
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WdfUsbTargetDeviceSelectSettingType
 req.product: Windows 10 or later.
@@ -55,18 +56,6 @@ req.product: Windows 10 or later.
 The <b>WdfUsbTargetDeviceSelectSettingType</b> enumeration defines techniques for specifying an alternate setting for a USB interface.
 
 
-## -syntax
-
-
-````
-typedef enum _WdfUsbTargetDeviceSelectSettingType { 
-  WdfUsbInterfaceSelectSettingTypeDescriptor  = 0x10,
-  WdfUsbInterfaceSelectSettingTypeSetting     = 0x11,
-  WdfUsbInterfaceSelectSettingTypeUrb         = 0x12
-} WdfUsbTargetDeviceSelectSettingType;
-````
-
-
 ## -enum-fields
 
 
@@ -74,7 +63,7 @@ typedef enum _WdfUsbTargetDeviceSelectSettingType {
 
 ### -field WdfUsbInterfaceSelectSettingTypeDescriptor
 
-Specify an interface's alternate setting by providing a <a href="..\usbspec\ns-usbspec-_usb_interface_descriptor.md">USB_INTERFACE_DESCRIPTOR</a> structure.
+Specify an interface's alternate setting by providing a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540065">USB_INTERFACE_DESCRIPTOR</a> structure.
 
 
 ### -field WdfUsbInterfaceSelectSettingTypeSetting
@@ -84,34 +73,33 @@ Specify an interface's alternate setting by providing a setting index value.
 
 ### -field WdfUsbInterfaceSelectSettingTypeUrb
 
-Specify an interface's alternate setting by providing a <a href="..\usb\ns-usb-_urb.md">URB</a>.
+Specify an interface's alternate setting by providing a <a href="https://msdn.microsoft.com/library/windows/hardware/ff538923">URB</a>.
 
 
 ## -remarks
 
 
 
-The <b>WdfUsbTargetDeviceSelectSettingType</b> enumeration is used in the <a href="..\wdfusb\ns-wdfusb-_wdf_usb_interface_select_setting_params.md">WDF_USB_INTERFACE_SELECT_SETTING_PARAMS</a> structure.
+The <b>WdfUsbTargetDeviceSelectSettingType</b> enumeration is used in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553003">WDF_USB_INTERFACE_SELECT_SETTING_PARAMS</a> structure.
 
 
 
 
 ## -see-also
 
-<a href="..\wdfusb\ns-wdfusb-_wdf_usb_interface_select_setting_params.md">WDF_USB_INTERFACE_SELECT_SETTING_PARAMS</a>
 
 
 
-<a href="..\usbspec\ns-usbspec-_usb_interface_descriptor.md">USB_INTERFACE_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538923">URB</a>
 
 
 
-<a href="..\usb\ns-usb-_urb.md">URB</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540065">USB_INTERFACE_DESCRIPTOR</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553003">WDF_USB_INTERFACE_SELECT_SETTING_PARAMS</a>
  
 
  
-
 

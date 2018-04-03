@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSTIME
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSTIME, *PKSTIME
 ---
@@ -50,18 +51,6 @@ req.typenames: KSTIME, *PKSTIME
 
 
 The KSTIME structure specifies a time stamp that can be used to indicate stream position.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  LONGLONG Time;
-  ULONG    Numerator;
-  ULONG    Denominator;
-} KSTIME, *PKSTIME;
-````
 
 
 ## -struct-fields

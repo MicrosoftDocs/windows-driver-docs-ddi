@@ -7,7 +7,7 @@ old-location: kernel\iostartnextpacket.htm
 old-project: kernel
 ms.assetid: f1197dfd-03d7-4ac2-8f11-60da413e32b2
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: IoStartNextPacket, IoStartNextPacket routine [Kernel-Mode Driver Architecture], k104_5a02a1fa-cf0e-43b0-a4e8-db1da8ad110c.xml, kernel.iostartnextpacket, wdm/IoStartNextPacket
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	IoStartNextPacket
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
@@ -51,17 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>IoStartNextPacket</b> routine dequeues the next IRP, if any, from the given device object's associated device queue and calls the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff563858">StartIo</a> routine.
-
-
-## -syntax
-
-
-````
-VOID IoStartNextPacket(
-  _In_ PDEVICE_OBJECT DeviceObject,
-  _In_ BOOLEAN        Cancelable
-);
-````
 
 
 ## -parameters
@@ -98,7 +88,7 @@ If the driver passed a pointer to a cancel routine when it called <b>IoStartPack
 
 Drivers that do not have a <i>StartIo</i> routine cannot call <b>IoStartNextPacket</b>.
 
-Drivers that call <b>IoStartNextPacket </b>from their <i>StartIo</i> routine should be aware of recursion issues. If a driver can call <b>IoStartNextPacket</b> on a large number of requests in succession from its <i>StartIo</i> routine (for example, when a device error occurs and the driver is clearing out it device queue), you should set the <i>DeferredStartIo</i> attribute for the device by using <a href="..\wdm\nf-wdm-iosetstartioattributes.md">IoSetStartIoAttributes</a> routine. This attribute ensures that the next packet will not be issued until the previous <i>StartIo</i> call returns.
+Drivers that call <b>IoStartNextPacket </b>from their <i>StartIo</i> routine should be aware of recursion issues. If a driver can call <b>IoStartNextPacket</b> on a large number of requests in succession from its <i>StartIo</i> routine (for example, when a device error occurs and the driver is clearing out it device queue), you should set the <i>DeferredStartIo</i> attribute for the device by using <a href="https://msdn.microsoft.com/library/windows/hardware/ff550330">IoSetStartIoAttributes</a> routine. This attribute ensures that the next packet will not be issued until the previous <i>StartIo</i> call returns.
 
 Callers of <b>IoStartNextPacket</b> must be running at IRQL = DISPATCH_LEVEL. Usually, this routine is called from a device driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff544079">DpcForIsr</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff542972">CustomDpc</a> routine, both of which are run at IRQL = DISPATCH_LEVEL.
 
@@ -107,24 +97,23 @@ Callers of <b>IoStartNextPacket</b> must be running at IRQL = DISPATCH_LEVEL. Us
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iostartnextpacketbykey.md">IoStartNextPacketByKey</a>
 
 
 
-<a href="..\wdm\nf-wdm-iostartpacket.md">IoStartPacket</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>
 
 
 
-<a href="..\wdm\nf-wdm-iosetstartioattributes.md">IoSetStartIoAttributes</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550330">IoSetStartIoAttributes</a>
 
 
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550363">IoStartNextPacketByKey</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550370">IoStartPacket</a>
  
 
  
-
 

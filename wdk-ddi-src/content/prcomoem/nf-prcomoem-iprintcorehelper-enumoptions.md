@@ -38,7 +38,8 @@ api_location:
 -	Prcomoem.h
 api_name:
 -	IPrintCoreHelper.EnumOptions
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
@@ -51,18 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>IPrintCoreHelper::EnumOptions</b> method gets a list of available options for the given feature. 
-
-
-## -syntax
-
-
-````
-STDMETHOD EnumOptions(
-  [in]  PCSTR pszFeatureKeyword,
-  [out] PCSTR *pOptionList[],
-  [out] DWORD *pdwNumOptions
-);
-````
 
 
 ## -parameters
@@ -110,16 +99,15 @@ When <b>IPrintCoreHelper::EnumOptions</b> returns, the option list contains all 
 
 ## -see-also
 
-<a href="..\prcomoem\nn-prcomoem-iprintcorehelper.md">IPrintCoreHelper</a>
+
+
+
+<a href="https://msdn.microsoft.com/db13410f-e4cb-4077-bb4b-7963e97b435c">IPrintCoreHelper</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552954">IPrintCoreHelper::EnumFeatures</a>
-
-
-
  
 
  
-
 

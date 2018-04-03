@@ -38,7 +38,8 @@ api_location:
 -	Gpioclx.h
 api_name:
 -	GPIO_WRITE_PINS_MASK_PARAMETERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GPIO_WRITE_PINS_MASK_PARAMETERS, *PGPIO_WRITE_PINS_MASK_PARAMETERS
 ---
@@ -50,20 +51,6 @@ req.typenames: GPIO_WRITE_PINS_MASK_PARAMETERS, *PGPIO_WRITE_PINS_MASK_PARAMETER
 
 
 The <b>GPIO_WRITE_PINS_MASK_PARAMETERS</b> structure describes a write operation on a bank of general-purpose I/O (GPIO) pins.
-
-
-## -syntax
-
-
-````
-typedef struct _GPIO_WRITE_PINS_MASK_PARAMETERS {
-  BANK_ID               BankId;
-  ULONG64               SetMask;
-  ULONG64               ClearMask;
-  GPIO_WRITE_PINS_FLAGS Flags;
-  PVOID                 Reserved;
-} GPIO_WRITE_PINS_MASK_PARAMETERS, *PGPIO_WRITE_PINS_MASK_PARAMETERS;
-````
 
 
 ## -struct-fields
@@ -107,11 +94,6 @@ The <i>WriteParameters</i> parameter of the <a href="https://msdn.microsoft.com/
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439445">CLIENT_WriteGpioPinsUsingMask</a>
 
 
 
@@ -119,8 +101,12 @@ The <i>WriteParameters</i> parameter of the <a href="https://msdn.microsoft.com/
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439445">CLIENT_WriteGpioPinsUsingMask</a>
  
 
  
-
 

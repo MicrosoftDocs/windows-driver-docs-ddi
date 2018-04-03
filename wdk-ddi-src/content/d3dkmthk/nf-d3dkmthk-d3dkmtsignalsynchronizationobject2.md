@@ -7,7 +7,7 @@ old-location: display\d3dkmtsignalsynchronizationobject2.htm
 old-project: display
 ms.assetid: 7a13d999-9caf-4750-beba-4e031cd0db81
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMTSignalSynchronizationObject2, D3DKMTSignalSynchronizationObject2 function [Display Devices], OpenGL_Functions_ffc87bcb-e2ab-48ea-8a90-c0b4cf7c8b33.xml, d3dkmthk/D3DKMTSignalSynchronizationObject2, display.d3dkmtsignalsynchronizationobject2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,8 @@ api_location:
 -	API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
 -	D3DKMTSignalSynchronizationObject2
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_DRIVERVERSION
 ---
@@ -53,16 +54,6 @@ req.typenames: D3DKMT_DRIVERVERSION
 
 
 The <b>D3DKMTSignalSynchronizationObject2</b> function inserts a signal for the specified synchronization objects in the specified context stream.
-
-
-## -syntax
-
-
-````
-NTSTATUS APIENTRY D3DKMTSignalSynchronizationObject2(
-  _In_ const D3DKMT_SIGNALSYNCHRONIZATIONOBJECT2 *pData
-);
-````
 
 
 ## -parameters
@@ -79,7 +70,7 @@ TBD
 
 #### - pData [in]
 
-A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_signalsynchronizationobject2.md">D3DKMT_SIGNALSYNCHRONIZATIONOBJECT2</a> structure that describes the synchronization objects and context stream that signaling is set up for.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548357">D3DKMT_SIGNALSYNCHRONIZATIONOBJECT2</a> structure that describes the synchronization objects and context stream that signaling is set up for.
 
 
 ## -returns
@@ -136,12 +127,11 @@ This function might also return other NTSTATUS values.
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_signalsynchronizationobject2.md">D3DKMT_SIGNALSYNCHRONIZATIONOBJECT2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548357">D3DKMT_SIGNALSYNCHRONIZATIONOBJECT2</a>
  
 
  
-
 

@@ -38,7 +38,8 @@ api_location:
 -	prcomoem.h
 api_name:
 -	PRINT_FEATURE_OPTION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PRINT_FEATURE_OPTION
 req.product: Windows 10 or later.
@@ -51,17 +52,6 @@ req.product: Windows 10 or later.
 
 
 The PRINT_FEATURE_OPTION structure contains information about a feature-option pair, where the option is one option of a particular feature.
-
-
-## -syntax
-
-
-````
-typedef struct _PRINT_FEATURE_OPTION {
-  PCSTR pszFeature;
-  PCSTR pszOption;
-} PRINT_FEATURE_OPTION;
-````
 
 
 ## -struct-fields
@@ -90,11 +80,6 @@ This structure is used by methods that belong to the <b>IPrintCoreHelper</b>, <b
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552965">IPrintCoreHelper::WhyConstrained</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552915">IPrintCoreHelperPS::WhyConstrained</a>
 
 
 
@@ -102,11 +87,7 @@ This structure is used by methods that belong to the <b>IPrintCoreHelper</b>, <b
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552947">IPrintCoreHelperUni::WhyConstrained</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552945">IPrintCoreHelperUni::SetOptions</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552965">IPrintCoreHelper::WhyConstrained</a>
 
 
 
@@ -114,8 +95,16 @@ This structure is used by methods that belong to the <b>IPrintCoreHelper</b>, <b
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552915">IPrintCoreHelperPS::WhyConstrained</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552945">IPrintCoreHelperUni::SetOptions</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552947">IPrintCoreHelperUni::WhyConstrained</a>
  
 
  
-
 

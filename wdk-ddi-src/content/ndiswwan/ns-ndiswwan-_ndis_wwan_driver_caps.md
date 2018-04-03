@@ -7,7 +7,7 @@ old-location: netvista\ndis_wwan_driver_caps.htm
 old-project: netvista
 ms.assetid: 413ea129-2c55-4e7f-ad7c-ce99840f7066
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PNDIS_WWAN_DRIVER_CAPS, NDIS_WWAN_DRIVER_CAPS, NDIS_WWAN_DRIVER_CAPS structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_DRIVER_CAPS, PNDIS_WWAN_DRIVER_CAPS structure pointer [Network Drivers Starting with Windows Vista], WwanRef_9c8d6cfb-7f4b-47ac-879b-4c3ada7f9239.xml, _NDIS_WWAN_DRIVER_CAPS, ndiswwan/NDIS_WWAN_DRIVER_CAPS, ndiswwan/PNDIS_WWAN_DRIVER_CAPS, netvista.ndis_wwan_driver_caps"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ndiswwan.h
 api_name:
 -	NDIS_WWAN_DRIVER_CAPS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_WWAN_DRIVER_CAPS, *PNDIS_WWAN_DRIVER_CAPS
 ---
@@ -50,17 +51,6 @@ req.typenames: NDIS_WWAN_DRIVER_CAPS, *PNDIS_WWAN_DRIVER_CAPS
 
 
 The NDIS_WWAN_DRIVER_CAPS structure represents the capabilities of the miniport driver.
-
-
-## -syntax
-
-
-````
-typedef struct _NDIS_WWAN_DRIVER_CAPS {
-  NDIS_OBJECT_HEADER Header;
-  WWAN_DRIVER_CAPS   DriverCaps;
-} NDIS_WWAN_DRIVER_CAPS, *PNDIS_WWAN_DRIVER_CAPS;
-````
 
 
 ## -struct-fields
@@ -116,28 +106,27 @@ sizeof(NDIS_WWAN_DRIVER_CAPS)
  
 
 For more information about these members, see 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field DriverCaps
 
 A 
-     <a href="..\wwan\ns-wwan-_wwan_driver_caps.md">WWAN_DRIVER_CAPS</a> structure that represents
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571206">WWAN_DRIVER_CAPS</a> structure that represents
      the capabilities of the miniport driver.
 
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="..\wwan\ns-wwan-_wwan_driver_caps.md">WWAN_DRIVER_CAPS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571206">WWAN_DRIVER_CAPS</a>
  
 
  
-
 

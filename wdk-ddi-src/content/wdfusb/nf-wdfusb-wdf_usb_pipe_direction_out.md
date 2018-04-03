@@ -39,7 +39,8 @@ api_location:
 -	None.dll
 api_name:
 -	WDF_USB_PIPE_DIRECTION_OUT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
@@ -54,16 +55,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WDF_USB_PIPE_DIRECTION_OUT</b> function determines whether a specified USB endpoint is an output endpoint.
-
-
-## -syntax
-
-
-````
-BOOLEAN WDF_USB_PIPE_DIRECTION_OUT(
-  _In_ UCHAR EndpointAddress
-);
-````
 
 
 ## -parameters
@@ -98,16 +89,15 @@ For more information about the <b>WDF_USB_PIPE_DIRECTION_OUT</b> function and US
 
 ## -see-also
 
-<a href="..\wdfusb\nf-wdfusb-wdfusbtargetpipeisoutendpoint.md">WdfUsbTargetPipeIsOutEndpoint</a>
 
 
 
-<a href="..\wdfusb\nf-wdfusb-wdf_usb_pipe_direction_in.md">WDF_USB_PIPE_DIRECTION_IN</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553027">WDF_USB_PIPE_DIRECTION_IN</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551153">WdfUsbTargetPipeIsOutEndpoint</a>
  
 
  
-
 

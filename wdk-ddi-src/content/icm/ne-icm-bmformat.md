@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	icm.h
 api_name:
 -	BMFORMAT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BMFORMAT
 ---
@@ -50,56 +51,6 @@ req.typenames: BMFORMAT
 
 
 The values of the BMFORMAT enumeration are used by WCS functions to indicate the format that particular bitmaps are in. This data type is extended from BMFORMAT that is available in versions of Windows released before Windows Vista.
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  BM_x555RGB              = 0x0000,
-  BM_x555XYZ              = 0x0101,
-  BM_x555Yxy              = 0x102,
-  BM_x555Lab              = 0x103,
-  BM_x555G3CH             = 0x104,
-  BM_RGBTRIPLETS          = 0x0002,
-  BM_BGRTRIPLETS          = 0x0004,
-  BM_XYZTRIPLETS          = 0x0201,
-  BM_YxyTRIPLETS          = 0x202,
-  BM_LabTRIPLETS          = 0x203,
-  BM_G3CHTRIPLETS         = 0x204,
-  BM_5CHANNEL             = 0x205,
-  BM_6CHANNEL             = 0x206,
-  BM_7CHANNEL             = 0x207,
-  BM_8CHANNEL             = 0x208,
-  BM_GRAY                 = 0x209,
-  BM_xRGBQUADS            = 0x0008,
-  BM_xBGRQUADS            = 0x0010,
-  BM_xG3CHQUADS           = 0x0304,
-  BM_KYMCQUADS            = 0x305,
-  BM_CMYKQUADS            = 0x0020,
-  BM_10b_RGB              = 0x0009,
-  BM_10b_XYZ              = 0x0401,
-  BM_10b_Yxy              = 0x402,
-  BM_10b_Lab              = 0x403,
-  BM_10b_G3CH             = 0x404,
-  BM_NAMED_INDEX          = 0x405,
-  BM_16b_RGB              = 0x000A,
-  BM_16b_XYZ              = 0x0501,
-  BM_16b_Yxy              = 0x502,
-  BM_16b_Lab              = 0x503,
-  BM_16b_G3CH             = 0x504,
-  BM_16b_GRAY             = 0x505,
-  BM_565RGB               = 0x0001,
-  BM_32b_scRGB            = 0x0601,
-  BM_32b_scARGB           = 0x0602,
-  BM_S2DOT13FIXED_scRGB   = 0x0603,
-  BM_S2DOT13FIXED_scARGB  = 0x0604,
-  BM_R10G10B10A2          = 0x0701,
-  BM_R10G10B10A2_XR       = 0x0702,
-  BM_R16G16B16A16_FLOAT   = 0x0703 
-} BMFORMAT;
-````
 
 
 ## -enum-fields

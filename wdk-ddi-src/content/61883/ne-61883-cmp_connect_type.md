@@ -38,7 +38,8 @@ api_location:
 -	61883.h
 api_name:
 -	CMP_CONNECT_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CMP_CONNECT_TYPE
 ---
@@ -50,17 +51,6 @@ req.typenames: CMP_CONNECT_TYPE
 
 
 This enumeration specifies a connection type. 
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  CMP_Broadcast     = 0,
-  CMP_PointToPoint
-} CMP_CONNECT_TYPE;
-````
 
 
 ## -enum-fields
@@ -80,12 +70,11 @@ Indicates that this is a point-to-point connection.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537008">AV_61883_REQUEST</a>
-
-
-
  
 
  
-
 

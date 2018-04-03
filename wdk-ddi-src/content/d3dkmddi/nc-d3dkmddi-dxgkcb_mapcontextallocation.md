@@ -7,7 +7,7 @@ old-location: display\dxgkcbmapcontextallocation.htm
 old-project: display
 ms.assetid: 8EAC322D-B666-428A-99A3-96E489611832
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKCB_MAPCONTEXTALLOCATION, DxgkCbMapContextAllocation, DxgkCbMapContextAllocation callback function [Display Devices], d3dkmddi/DxgkCbMapContextAllocation, display.dxgkcbmapcontextallocation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DxgkCbMapContextAllocation
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 ---
@@ -49,21 +50,7 @@ req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 ## -description
 
 
-Maps a graphics processing unit (GPU) virtual address to the specified context allocation. This device driver interface (DDI) behaves like its user mode counterpart, see <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_mapgpuvirtualaddresscb.md">pfnMapGpuVirtualAddressCb</a> for more details.
-
-
-## -prototype
-
-
-````
-DXGKCB_MAPCONTEXTALLOCATION DxgkCbMapContextAllocation;
-
-D3DGPU_VIRTUAL_ADDRESS APIENTRY CALLBACK* DxgkCbMapContextAllocation(
-  _In_ const HANDLE                         hAdapter,
-  _In_ const DXGKARGCB_MAPCONTEXTALLOCATION *pArgs
-)
-{ ... }
-````
+Maps a graphics processing unit (GPU) virtual address to the specified context allocation. This device driver interface (DDI) behaves like its user mode counterpart, see <a href="https://msdn.microsoft.com/DA67A98C-BE9C-412D-9382-CAC5B05FEE3B">pfnMapGpuVirtualAddressCb</a> for more details.
 
 
 ## -parameters
@@ -78,7 +65,7 @@ A handle to the display adapter.
 
 ### -param pArgs [in]
 
-The <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkargcb_mapcontextallocation.md">DXGKARGCB_MAPCONTEXTALLOCATION</a> structure that describes the operation.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/dn906818">DXGKARGCB_MAPCONTEXTALLOCATION</a> structure that describes the operation.
 
 
 ## -returns
@@ -93,16 +80,15 @@ The <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkargcb_mapcontextallocation.md">DXGKARG
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkargcb_mapcontextallocation.md">DXGKARGCB_MAPCONTEXTALLOCATION</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_mapgpuvirtualaddresscb.md">pfnMapGpuVirtualAddressCb</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn906818">DXGKARGCB_MAPCONTEXTALLOCATION</a>
 
 
 
+<a href="https://msdn.microsoft.com/DA67A98C-BE9C-412D-9382-CAC5B05FEE3B">pfnMapGpuVirtualAddressCb</a>
  
 
  
-
 

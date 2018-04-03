@@ -7,7 +7,7 @@ old-location: debugger\geteventindexdescriptionwide.htm
 old-project: debugger
 ms.assetid: 0153ee1d-93b3-497c-9fbf-e285c3730f72
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: GetEventIndexDescriptionWide method [Windows Debugging], GetEventIndexDescriptionWide method [Windows Debugging], IDebugControl4 interface, GetEventIndexDescriptionWide,IDebugControl4.GetEventIndexDescriptionWide, IDebugControl4, IDebugControl4 interface [Windows Debugging], GetEventIndexDescriptionWide method, IDebugControl4::GetEventIndexDescriptionWide, dbgeng/IDebugControl4::GetEventIndexDescriptionWide, debugger.geteventindexdescriptionwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugControl4.GetEventIndexDescriptionWide
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -50,20 +51,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetEventIndexDescriptionWide</b> method describes the specified event in a static list of events for the current target.
-
-
-## -syntax
-
-
-````
-HRESULT GetEventIndexDescriptionWide(
-  [in]            ULONG  Index,
-  [in]            ULONG  Which,
-  [in, optional]  PWSTR  Buffer,
-  [in]            ULONG  BufferSize,
-  [out, optional] PULONG DescSize
-);
-````
 
 
 ## -parameters
@@ -135,11 +122,6 @@ The amount of descriptive information available for a particular target varies d
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547906">GetNumberEvents</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
 
 
 
@@ -147,8 +129,12 @@ The amount of descriptive information available for a particular target varies d
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547906">GetNumberEvents</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550526">IDebugControl4</a>
  
 
  
-
 

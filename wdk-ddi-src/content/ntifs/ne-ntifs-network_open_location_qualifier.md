@@ -7,7 +7,7 @@ old-location: ifsk\network_open_location_qualifier.htm
 old-project: ifsk
 ms.assetid: 7762bf83-82cc-4eef-9699-d093a8c2b986
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: ECP_Structures_0e589e5b-5266-429b-acab-236c00a75c1c.xml, NETWORK_OPEN_LOCATION_QUALIFIER, NETWORK_OPEN_LOCATION_QUALIFIER enumeration [Installable File System Drivers], NetworkOpenLocationAny, NetworkOpenLocationLoopback, NetworkOpenLocationRemote, ifsk.network_open_location_qualifier, ntifs/NETWORK_OPEN_LOCATION_QUALIFIER, ntifs/NetworkOpenLocationAny, ntifs/NetworkOpenLocationLoopback, ntifs/NetworkOpenLocationRemote
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntifs.h
 api_name:
 -	NETWORK_OPEN_LOCATION_QUALIFIER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NETWORK_OPEN_LOCATION_QUALIFIER
 ---
@@ -50,18 +51,6 @@ req.typenames: NETWORK_OPEN_LOCATION_QUALIFIER
 
 
 The NETWORK_OPEN_LOCATION_QUALIFIER enumeration type contains values that identify the kind of location restriction to attach to a file.
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  NetworkOpenLocationAny       = 0,
-  NetworkOpenLocationRemote    = 1,
-  NetworkOpenLocationLoopback  = 2
-} NETWORK_OPEN_LOCATION_QUALIFIER;
-````
 
 
 ## -enum-fields

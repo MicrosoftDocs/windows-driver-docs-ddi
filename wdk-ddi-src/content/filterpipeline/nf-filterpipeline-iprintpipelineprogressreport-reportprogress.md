@@ -38,7 +38,8 @@ api_location:
 -	filterpipeline.h
 api_name:
 -	IPrintPipelineProgressReport.ReportProgress
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
@@ -52,16 +53,6 @@ req.typenames: EXpsFontRestriction
 The <code>ReportProgress</code> method reports the progress of the XPS job consumption to the pipeline manager.
 
 
-## -syntax
-
-
-````
-HRESULT ReportProgress(
-  [in] EXpsJobConsumption update
-);
-````
-
-
 ## -parameters
 
 
@@ -69,7 +60,7 @@ HRESULT ReportProgress(
 
 ### -param update [in]
 
-An <a href="..\filterpipeline\ne-filterpipeline-__midl___midl_itf_filterpipeline_0000_0000_0003.md">EXpsJobConsumption</a>-typed value that describes the progress to the pipeline manager.
+An <a href="https://msdn.microsoft.com/library/windows/hardware/ff548778">EXpsJobConsumption</a>-typed value that describes the progress to the pipeline manager.
 
 
 ## -returns
@@ -83,16 +74,15 @@ An <a href="..\filterpipeline\ne-filterpipeline-__midl___midl_itf_filterpipeline
 
 ## -see-also
 
-<a href="..\filterpipeline\ne-filterpipeline-__midl___midl_itf_filterpipeline_0000_0000_0003.md">EXpsJobConsumption</a>
 
 
 
-<a href="..\filterpipeline\nn-filterpipeline-iprintpipelineprogressreport.md">IPrintPipelineProgressReport</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548778">EXpsJobConsumption</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554314">IPrintPipelineProgressReport</a>
  
 
  
-
 

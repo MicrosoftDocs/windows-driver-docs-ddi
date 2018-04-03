@@ -7,7 +7,7 @@ old-location: netvista\offload_algo_info.htm
 old-project: netvista
 ms.assetid: 119a8c88-f181-40f5-8a12-5d663c5a1534
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*POFFLOAD_ALGO_INFO, 216offload_d10cb479-3fe8-468d-925b-c8358d88ef2b.xml, OFFLOAD_ALGO_INFO, OFFLOAD_ALGO_INFO structure [Network Drivers Starting with Windows Vista], POFFLOAD_ALGO_INFO, POFFLOAD_ALGO_INFO structure pointer [Network Drivers Starting with Windows Vista], _OFFLOAD_ALGO_INFO, netvista.offload_algo_info, ntddndis/OFFLOAD_ALGO_INFO, ntddndis/POFFLOAD_ALGO_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddndis.h
 api_name:
 -	OFFLOAD_ALGO_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OFFLOAD_ALGO_INFO, *POFFLOAD_ALGO_INFO
 ---
@@ -50,18 +51,6 @@ req.typenames: OFFLOAD_ALGO_INFO, *POFFLOAD_ALGO_INFO
 
 
 The OFFLOAD_ALGO_INFO structure specifies an algorithm used for a security association (SA).
-
-
-## -syntax
-
-
-````
-typedef struct _OFFLOAD_ALGO_INFO {
-  ULONG algoIdentifier;
-  ULONG algoKeylen;
-  ULONG algoRounds;
-} OFFLOAD_ALGO_INFO, *POFFLOAD_ALGO_INFO;
-````
 
 
 ## -struct-fields
@@ -131,12 +120,12 @@ Specifies the SHA 1 algorithm.
 
 The length, in bytes, of the key for the algorithm. The key is contained in the buffer at 
      <b>KeyMat</b>Â¸ which is the variable-length array specified in the 
-     <a href="..\ntddndis\ns-ntddndis-_offload_ipsec_add_sa.md">OFFLOAD_IPSEC_ADD_SA</a> structure.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569056">OFFLOAD_IPSEC_ADD_SA</a> structure.
      
 
 If only an integrity algorithm (
      <b>IntegrityAlgo</b>) is specified in the 
-     <a href="..\ntddndis\ns-ntddndis-_offload_security_association.md">
+     <a href="https://msdn.microsoft.com/2c392a13-4db4-4b22-aacf-4450eb1e191c">
      OFFLOAD_SECURITY_ASSOCIATION</a> structure, 
      <b>algoKeylen</b> indicates the length of the key for the integrity algorithm,
      starting from the beginning of the buffer at 
@@ -169,7 +158,7 @@ The OFFLOAD_ALGO_INFO structure specifies algorithm information in the
     <b>IntegrityAlgo</b>, 
     <b>ConfAlgo</b>, and 
     <b>Reserved</b> members of the 
-    <a href="..\ntddndis\ns-ntddndis-_offload_security_association.md">
+    <a href="https://msdn.microsoft.com/2c392a13-4db4-4b22-aacf-4450eb1e191c">
     OFFLOAD_SECURITY_ASSOCIATION</a> structure.
 
 
@@ -177,16 +166,15 @@ The OFFLOAD_ALGO_INFO structure specifies algorithm information in the
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_offload_ipsec_add_sa.md">OFFLOAD_IPSEC_ADD_SA</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_offload_security_association.md">OFFLOAD_SECURITY_ASSOCIATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569056">OFFLOAD_IPSEC_ADD_SA</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569061">OFFLOAD_SECURITY_ASSOCIATION</a>
  
 
  
-
 

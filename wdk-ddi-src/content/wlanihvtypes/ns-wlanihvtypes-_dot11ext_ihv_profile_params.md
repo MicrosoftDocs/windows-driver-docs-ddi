@@ -38,7 +38,8 @@ api_location:
 -	wlanihvtypes.h
 api_name:
 -	DOT11EXT_IHV_PROFILE_PARAMS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT11EXT_IHV_PROFILE_PARAMS, *PDOT11EXT_IHV_PROFILE_PARAMS
 req.product: Windows 10 or later.

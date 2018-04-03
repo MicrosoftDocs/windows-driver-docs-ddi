@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsRegisterWorker
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -61,14 +62,6 @@ The <b>KsRegisterWorker</b> function handles clients registering for use of a th
 </td>
 </tr>
 </table></span></div>The worker routines function on opaque PKSWORKER objects that are created for each work item queued at one time.
-
-
-## -syntax
-
-
-````
-typedef PVOID PKSWORKER; 
-````
 
 
 ## -parameters

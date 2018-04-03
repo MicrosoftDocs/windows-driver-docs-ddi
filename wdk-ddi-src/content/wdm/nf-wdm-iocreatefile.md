@@ -7,7 +7,7 @@ old-location: kernel\iocreatefile.htm
 old-project: kernel
 ms.assetid: 928f16d4-19cb-4d80-96a6-d25357bfdc30
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: IoCreateFile, IoCreateFile routine [Kernel-Mode Driver Architecture], k104_7221dba8-910f-439a-acdf-5a6ca4fcd49a.xml, kernel.iocreatefile, wdm/IoCreateFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	IoCreateFile
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
@@ -53,29 +54,6 @@ req.product: Windows 10 or later.
 The <b>IoCreateFile</b> routine either causes a new file or directory to be created, or it opens an existing file, device, directory, or volume, giving the caller a handle for the file object.
 
 
-## -syntax
-
-
-````
-NTSTATUS IoCreateFile(
-  _Out_    PHANDLE            FileHandle,
-  _In_     ACCESS_MASK        DesiredAccess,
-  _In_     POBJECT_ATTRIBUTES ObjectAttributes,
-  _Out_    PIO_STATUS_BLOCK   IoStatusBlock,
-  _In_opt_ PLARGE_INTEGER     AllocationSize,
-  _In_     ULONG              FileAttributes,
-  _In_     ULONG              ShareAccess,
-  _In_     ULONG              Disposition,
-  _In_     ULONG              CreateOptions,
-  _In_opt_ PVOID              EaBuffer,
-  _In_     ULONG              EaLength,
-  _In_     CREATE_FILE_TYPE   CreateFileType,
-  _In_opt_ PVOID              InternalParameters,
-  _In_     ULONG              Options
-);
-````
-
-
 ## -parameters
 
 
@@ -83,17 +61,17 @@ NTSTATUS IoCreateFile(
 
 ### -param FileHandle [out]
 
-A pointer to a variable that receives the file handle if the call is successful. The driver must close the handle with <a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a> once the handle is no longer in use.
+A pointer to a variable that receives the file handle if the call is successful. The driver must close the handle with <a href="https://msdn.microsoft.com/library/windows/hardware/ff566417">ZwClose</a> once the handle is no longer in use.
 
 
 ### -param DesiredAccess [in]
 
-Specifies the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a> value that represents the type of access that the caller requires to the file or directory. See <a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a> for a description of the possible values for this parameter.
+Specifies the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a> value that represents the type of access that the caller requires to the file or directory. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff566424">ZwCreateFile</a> for a description of the possible values for this parameter.
 
 
 ### -param ObjectAttributes [in]
 
-A pointer to a structure that specifies the object's attributes, which has already been initialized with <a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>. If the caller is not running in the system process context, it must set the OBJ_KERNEL_HANDLE attribute for <i>ObjectAttributes</i>.
+A pointer to a structure that specifies the object's attributes, which has already been initialized with <a href="https://msdn.microsoft.com/library/windows/hardware/ff547804">InitializeObjectAttributes</a>. If the caller is not running in the system process context, it must set the OBJ_KERNEL_HANDLE attribute for <i>ObjectAttributes</i>.
 
 
 ### -param IoStatusBlock [out]
@@ -526,7 +504,7 @@ Open the file's parent directory.
 
 
 
-<div class="alert"><b>Note</b>  The Windows Vista <a href="..\ntddk\nf-ntddk-iocreatefileex.md">IoCreateFileEx</a> routine is similar to the <b>IoCreateFile</b> routine but provides greater functionality than the <b>IoCreateFile</b> routine, including access to extra create parameters (ECPs), device objects, and transaction information.</div>
+<div class="alert"><b>Note</b>  The Windows Vista <a href="https://msdn.microsoft.com/library/windows/hardware/ff548283">IoCreateFileEx</a> routine is similar to the <b>IoCreateFile</b> routine but provides greater functionality than the <b>IoCreateFile</b> routine, including access to extra create parameters (ECPs), device objects, and transaction information.</div>
 <div> </div>
 The handle, obtained by <b>IoCreateFile</b>, can be used by subsequent calls to manipulate data within the file or the file object's state or attributes.
 
@@ -588,7 +566,7 @@ The <i>CreateOptions</i> FILE_NO_INTERMEDIATE_BUFFERING flag prevents the file s
 
 <ul>
 <li>
-Any optional <i>ByteOffset</i> passed to <a href="..\wdm\nf-wdm-zwreadfile.md">ZwReadFile</a> or <a href="..\wdm\nf-wdm-zwwritefile.md">ZwWriteFile</a> must be an integral of the sector size.
+Any optional <i>ByteOffset</i> passed to <a href="https://msdn.microsoft.com/library/windows/hardware/ff567072">ZwReadFile</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff567121">ZwWriteFile</a> must be an integral of the sector size.
 
 </li>
 <li>
@@ -596,11 +574,11 @@ The <i>Length</i> passed to <b>ZwReadFile</b> or <b>ZwWriteFile</b>, must be an 
 
 </li>
 <li>
-Buffers must be aligned in accordance with the alignment requirement of the underlying device. This information can be obtained by calling <b>IoCreateFile</b> to get a handle for the file object that represents the physical device, and, then, calling <a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a> with that handle. For a list of the system FILE_<i>XXX</i>_ALIGNMENT values, see <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>.
+Buffers must be aligned in accordance with the alignment requirement of the underlying device. This information can be obtained by calling <b>IoCreateFile</b> to get a handle for the file object that represents the physical device, and, then, calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff567052">ZwQueryInformationFile</a> with that handle. For a list of the system FILE_<i>XXX</i>_ALIGNMENT values, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>.
 
 </li>
 <li>
-Calls to <a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a> with the <i>FileInformationClass</i> parameter set to <b>FilePositionInformation</b> must specify an offset that is an integral of the sector size.
+Calls to <a href="https://msdn.microsoft.com/library/windows/hardware/ff567096">ZwSetInformationFile</a> with the <i>FileInformationClass</i> parameter set to <b>FilePositionInformation</b> must specify an offset that is an integral of the sector size.
 
 </li>
 </ul>
@@ -650,7 +628,7 @@ The <i>Options</i> IO_NO_PARAMETER_CHECKING flag can be useful if a kernel-mode 
 
 NTFS is the only Microsoft file system that implements FILE_RESERVE_OPFILTER.
 
-Driver routines that run in a process context other than that of the system process must set the OBJ_KERNEL_HANDLE attribute for the <i>ObjectAttributes</i> parameter of <b>IoCreateFile</b>. This restricts the use of the handle returned by <b>IoCreateFile</b> to processes running only in kernel mode. Otherwise, the handle can be accessed by the process in whose context the driver is running. Drivers can call <a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a> to set the OBJ_KERNEL_HANDLE attribute as follows.
+Driver routines that run in a process context other than that of the system process must set the OBJ_KERNEL_HANDLE attribute for the <i>ObjectAttributes</i> parameter of <b>IoCreateFile</b>. This restricts the use of the handle returned by <b>IoCreateFile</b> to processes running only in kernel mode. Otherwise, the handle can be accessed by the process in whose context the driver is running. Drivers can call <a href="https://msdn.microsoft.com/library/windows/hardware/ff547804">InitializeObjectAttributes</a> to set the OBJ_KERNEL_HANDLE attribute as follows.
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -667,7 +645,6 @@ Driver routines that run in a process context other than that of the system proc
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
 
 
 
@@ -675,8 +652,8 @@ Driver routines that run in a process context other than that of the system proc
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566424">ZwCreateFile</a>
  
 
  
-
 

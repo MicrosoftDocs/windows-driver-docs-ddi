@@ -7,7 +7,7 @@ old-location: audio\iminiportwavertinputstream.htm
 old-project: audio
 ms.assetid: BF490F9C-C1CD-4AEE-A970-161C5BB3A523
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/19/2018
 ms.keywords: IMiniportWaveRTInputStream, IMiniportWaveRTInputStream interface [Audio Devices], IMiniportWaveRTInputStream interface [Audio Devices], described, audio.iminiportwavertinputstream, portcls/IMiniportWaveRTInputStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	portcls.h
 api_name:
 -	IMiniportWaveRTInputStream
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---

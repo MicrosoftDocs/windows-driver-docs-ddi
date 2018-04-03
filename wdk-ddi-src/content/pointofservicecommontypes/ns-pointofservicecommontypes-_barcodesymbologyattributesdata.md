@@ -38,7 +38,8 @@ api_location:
 -	pointofservicecommontypes.h
 api_name:
 -	BarcodeSymbologyAttributesData
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BarcodeSymbologyAttributesData
 ---
@@ -52,24 +53,6 @@ req.typenames: BarcodeSymbologyAttributesData
 The <b>BarcodeSymbologyAttributesData</b> structure contains the attribute information  for a barcode symbology.
 
 
-## -syntax
-
-
-````
-typedef struct _BarcodeSymbologyAttributesData {
-  BarcodeSymbology                 Symbology;
-  UINT32                           IsCheckDigitValidationSupported;
-  UINT32                           IsCheckDigitValidationEnabled;
-  UINT32                           IsCheckDigitTransmissionSupported;
-  UINT32                           IsCheckDigitTransmissionEnabled;
-  UINT32                           IsDecodeLengthSupported;
-  BarcodeSymbologyDecodeLengthType DecodeLengthType;
-  UINT32                           DecodeLength1;
-  UINT32                           DecodeLength2;
-} BarcodeSymbologyAttributesData;
-````
-
-
 ## -struct-fields
 
 
@@ -79,7 +62,7 @@ typedef struct _BarcodeSymbologyAttributesData {
 
 The barcode symbology  to set or get attributes to or from.
 
-For more information, see the <a href="..\pointofservicecommontypes\ne-pointofservicecommontypes-_barcodesymbology.md">BarcodeSymbology</a> enumeration topic.
+For more information, see the <a href="https://msdn.microsoft.com/library/windows/hardware/dn757474">BarcodeSymbology</a> enumeration topic.
 
 
 ### -field IsCheckDigitValidationSupported
@@ -114,7 +97,7 @@ For example, the API can be used to set to read barcodes of decode length betwee
 ### -field DecodeLengthType
 
  The decode length type, which can be set to support a range, two discrete values, or be set to any length.
- For more information, see the <a href="..\pointofservicecommontypes\ne-pointofservicecommontypes-_barcodesymbologydecodelengthtype.md">BarcodeSymbologyDecodeLengthType</a>.
+ For more information, see the <a href="https://msdn.microsoft.com/155D1C71-7935-4512-8AA2-0EB167FCBF5E">BarcodeSymbologyDecodeLengthType</a>.
 
 
 ### -field DecodeLength1

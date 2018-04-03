@@ -38,7 +38,8 @@ api_location:
 -	PointOfServiceDriverInterface.h
 api_name:
 -	MSR_ERROR_EVENT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MSR_ERROR_EVENT, *PMSR_ERROR_EVENT
 ---
@@ -50,25 +51,6 @@ req.typenames: MSR_ERROR_EVENT, *PMSR_ERROR_EVENT
 
 
 This structure contains the error data that is passed to the <a href="https://msdn.microsoft.com/library/windows/hardware/dn772151">MagneticStripeReaderErrorOccured</a> event.
-
-
-## -syntax
-
-
-````
-typedef struct _MSR_ERROR_EVENT {
-  PosEventDataHeader      Header;
-  MsrTrackErrorType       Track1Status;
-  MsrTrackErrorType       Track2Status;
-  MsrTrackErrorType       Track3Status;
-  MsrTrackErrorType       Track4Status;
-  UnifiedPosErrorSeverity Severity;
-  UnifiedPosErrorReason   Reason;
-  UINT32                  ExtendedReason;
-  MSR_DATA_RECEIVED       CardData;
-  wchar_t                 Message[MSR_ERROR_MAX_MESSAGE_LENGTH];
-} MSR_ERROR_EVENT, *PMSR_ERROR_EVENT;
-````
 
 
 ## -struct-fields

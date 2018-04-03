@@ -7,7 +7,7 @@ old-location: display\d3d10_ddi_box.htm
 old-project: display
 ms.assetid: b09ea915-070d-4ebb-a40d-d60add5df3d8
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3D10_DDI_BOX, D3D10_DDI_BOX structure [Display Devices], UMDisplayDriver_Dx10param_Structs_11ac8e3e-48db-469b-a6e6-d42fd491d56e.xml, d3d10umddi/D3D10_DDI_BOX, display.d3d10_ddi_box
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3d10umddi.h
 api_name:
 -	D3D10_DDI_BOX
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D10_DDI_BOX
 ---
@@ -50,21 +51,6 @@ req.typenames: D3D10_DDI_BOX
 
 
 The D3D10_DDI_BOX structure describes a volume.
-
-
-## -syntax
-
-
-````
-typedef struct D3D10_DDI_BOX {
-  LONG left;
-  LONG top;
-  LONG front;
-  LONG right;
-  LONG bottom;
-  LONG back;
-} D3D10_DDI_BOX;
-````
 
 
 ## -struct-fields
@@ -106,12 +92,11 @@ typedef struct D3D10_DDI_BOX {
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_resourcecopyregion.md">ResourceCopyRegion</a>
 
 
 
+<a href="https://msdn.microsoft.com/e782dc8c-e34e-4f96-b6d9-c34d7843ed05">ResourceCopyRegion</a>
  
 
  
-
 

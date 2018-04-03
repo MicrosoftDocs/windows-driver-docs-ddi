@@ -7,7 +7,7 @@ old-location: display\d3dddi_evict_flags.htm
 old-project: display
 ms.assetid: 443671F1-98F5-4F9F-900B-37E3E50770CE
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDI_EVICT_FLAGS, D3DDDI_EVICT_FLAGS structure [Display Devices], d3dukmdt/D3DDDI_EVICT_FLAGS, display.d3dddi_evict_flags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dukmdt.h
 api_name:
 -	D3DDDI_EVICT_FLAGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDI_EVICT_FLAGS
 ---
@@ -50,23 +51,6 @@ req.typenames: D3DDDI_EVICT_FLAGS
 
 
 <b>D3DDDI_EVICT_FLAGS</b> specifies the eviction behavior.
-
-
-## -syntax
-
-
-````
-typedef struct D3DDDI_EVICT_FLAGS {
-  union {
-    struct {
-      UINT EvictOnlyIfNecessary  :1;
-      UINT NotWrittenTo  :1;
-      UINT Reserved  :30;
-    };
-    UINT Value;
-  };
-} D3DDDI_EVICT_FLAGS;
-````
 
 
 ## -struct-fields
@@ -83,7 +67,7 @@ When set, this indicates that the resource may be used again in the near future 
 
 ### -field NotWrittenTo
 
-When set, this indicates that the resource has not been written to by the GPU since the time it was made resident. This allows the OS to optimize the eviction process by discarding the allocation contents instead of paging it out to the system memory. The driver must opt-in to use this flag. By default, the value is zero and the allocation is considered dirty during eviction. Unlike <b>EvictOnlyIfNecessary</b>, the driver does not need to defer setting this flag until the last call to <b>Evict</b> (<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_evictcb.md">pfnEvictCb</a> or <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtevict.md">D3DKMTEvict</a>), and the effects of specifying this flag take place immediately. In other words, if the driver calls <b>MakeResident</b> multiple times, it is valid for any one of the subsequent <b>Evict</b> operations to specify this flag. The driver is not expected to track this flag until the last call.
+When set, this indicates that the resource has not been written to by the GPU since the time it was made resident. This allows the OS to optimize the eviction process by discarding the allocation contents instead of paging it out to the system memory. The driver must opt-in to use this flag. By default, the value is zero and the allocation is considered dirty during eviction. Unlike <b>EvictOnlyIfNecessary</b>, the driver does not need to defer setting this flag until the last call to <b>Evict</b> (<a href="https://msdn.microsoft.com/5E66A522-BC1C-4E7C-8732-87D40F99BBDA">pfnEvictCb</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/dn906774">D3DKMTEvict</a>), and the effects of specifying this flag take place immediately. In other words, if the driver calls <b>MakeResident</b> multiple times, it is valid for any one of the subsequent <b>Evict</b> operations to specify this flag. The driver is not expected to track this flag until the last call.
 
 
 ### -field Reserved
@@ -98,16 +82,15 @@ The consolidated value of the flags in the structure.
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtevict.md">D3DKMTEvict</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_evictcb.md">pfnEvictCb</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn906774">D3DKMTEvict</a>
 
 
 
+<a href="https://msdn.microsoft.com/5E66A522-BC1C-4E7C-8732-87D40F99BBDA">pfnEvictCb</a>
  
 
  
-
 

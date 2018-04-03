@@ -7,7 +7,7 @@ old-location: buses\usbd_getpdoregistryparameter.htm
 old-project: usbref
 ms.assetid: f61be32a-2537-4b7f-8f22-4149b00a15a4
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: USBD_GetPdoRegistryParameter, USBD_GetPdoRegistryParameter routine [Buses], buses.usbd_getpdoregistryparameter, usbdlib/USBD_GetPdoRegistryParameter, usbfunc_b85b350e-68ad-4256-b4df-f61ea0367b62.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	usbd.dll
 api_name:
 -	USBD_GetPdoRegistryParameter
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USBCAMD_DEVICE_DATA2, *PUSBCAMD_DEVICE_DATA2
 req.product: Windows 10 or later.
@@ -52,20 +53,6 @@ req.product: Windows 10 or later.
 
 
 The <b>USBD_GetPdoRegistryParameter</b> routine retrieves the value from the  specified key in the USB device's hardware registry.
-
-
-## -syntax
-
-
-````
-NTSTATUS USBD_GetPdoRegistryParameter(
-  _In_    PDEVICE_OBJECT PhysicalDeviceObject,
-  _Inout_ PVOID          Parameter,
-  _In_    ULONG          ParameterLength,
-  _In_    PWSTR          KeyName,
-  _In_    ULONG          KeyNameLength
-);
-````
 
 
 ## -parameters
@@ -109,12 +96,11 @@ The <b>USBD_GetPdoRegistryParameter</b> returns STATUS_SUCCESS when the operatio
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540134">USB device driver programming reference</a>
-
-
-
  
 
  
-
 

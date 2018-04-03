@@ -38,7 +38,8 @@ api_location:
 -	Filterpipeline.h
 api_name:
 -	IPrintWriteStream.Close
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
@@ -50,16 +51,6 @@ req.typenames: EXpsFontRestriction
 
 
 The <code>Close</code> method closes a stream and ends the writing to that stream. This method is mandatory. You must call this method when the filter is done writing.
-
-
-## -syntax
-
-
-````
-void STDMETHODCALLTYPE Close(
-    None
-);
-````
 
 
 ## -parameters

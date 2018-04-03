@@ -38,7 +38,8 @@ api_location:
 -	wiautil.h
 api_name:
 -	wiauPropInPropSpec
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SKIP_AMOUNT
 req.product: Windows 10 or later.
@@ -51,19 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>wiauPropInPropSpec</b> function determines whether a specified property specification ID is contained in an array of such values. The function optionally gets the index at which the property specification ID was found.
-
-
-## -syntax
-
-
-````
-BOOL _stdcall wiauPropInPropSpec(
-                  LONG     NumPropSpecs,
-  _In_      const PROPSPEC *pPropSpecs,
-                  PROPID   PropId,
-  _Out_opt_       int pIdx *pIdx = NULL
-);
-````
 
 
 ## -parameters
@@ -111,19 +99,18 @@ This function returns <b>TRUE</b> if it found the property specification ID in t
 
 
 
-The <b>wiauPropInPropSpec</b> function finds a single property specification ID within an array of property specification IDs. A related function, <a href="..\wiautil\nf-wiautil-wiaupropsinpropspec.md">wiauPropsInPropSpec</a> can be used to determine whether any of a specified list of property specification IDs is found in another array of property specification IDs.
+The <b>wiauPropInPropSpec</b> function finds a single property specification ID within an array of property specification IDs. A related function, <a href="https://msdn.microsoft.com/library/windows/hardware/ff550173">wiauPropsInPropSpec</a> can be used to determine whether any of a specified list of property specification IDs is found in another array of property specification IDs.
 
 
 
 
 ## -see-also
 
-<a href="..\wiautil\nf-wiautil-wiaupropsinpropspec.md">wiauPropsInPropSpec</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550173">wiauPropsInPropSpec</a>
  
 
  
-
 

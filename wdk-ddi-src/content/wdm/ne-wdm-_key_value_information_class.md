@@ -7,7 +7,7 @@ old-location: kernel\key_value_information_class.htm
 old-project: kernel
 ms.assetid: 99a34b06-3352-47a6-95bc-051a5dfdd82e
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: KEY_VALUE_INFORMATION_CLASS, KEY_VALUE_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], KeyValueBasicInformation, KeyValueFullInformation, KeyValueFullInformationAlign64, KeyValuePartialInformation, KeyValuePartialInformationAlign64, MaxKeyValueInfoClass, _KEY_VALUE_INFORMATION_CLASS, kernel.key_value_information_class, sysenum_ee3730f5-18b6-45ff-bb9b-4ec2e71586fc.xml, wdm/KEY_VALUE_INFORMATION_CLASS, wdm/KeyValueBasicInformation, wdm/KeyValueFullInformation, wdm/KeyValueFullInformationAlign64, wdm/KeyValuePartialInformation, wdm/KeyValuePartialInformationAlign64, wdm/MaxKeyValueInfoClass
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	KEY_VALUE_INFORMATION_CLASS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KEY_VALUE_INFORMATION_CLASS
 req.product: Windows 10 or later.
@@ -53,21 +54,6 @@ req.product: Windows 10 or later.
 The <b>KEY_VALUE_INFORMATION_CLASS</b> enumeration type specifies the type of information to supply about the value of a registry key.
 
 
-## -syntax
-
-
-````
-typedef enum _KEY_VALUE_INFORMATION_CLASS { 
-  KeyValueBasicInformation           = 0,
-  KeyValueFullInformation,
-  KeyValuePartialInformation,
-  KeyValueFullInformationAlign64,
-  KeyValuePartialInformationAlign64,
-  MaxKeyValueInfoClass
-} KEY_VALUE_INFORMATION_CLASS;
-````
-
-
 ## -enum-fields
 
 
@@ -75,17 +61,17 @@ typedef enum _KEY_VALUE_INFORMATION_CLASS {
 
 ### -field KeyValueBasicInformation
 
-The information is stored as a <a href="..\wdm\ns-wdm-_key_value_basic_information.md">KEY_VALUE_BASIC_INFORMATION</a> structure.
+The information is stored as a <a href="https://msdn.microsoft.com/library/windows/hardware/ff553410">KEY_VALUE_BASIC_INFORMATION</a> structure.
 
 
 ### -field KeyValueFullInformation
 
-The information is stored as a <a href="..\wdm\ns-wdm-_key_value_full_information.md">KEY_VALUE_FULL_INFORMATION</a> structure.
+The information is stored as a <a href="https://msdn.microsoft.com/library/windows/hardware/ff554217">KEY_VALUE_FULL_INFORMATION</a> structure.
 
 
 ### -field KeyValuePartialInformation
 
-The information is stored as a <a href="..\wdm\ns-wdm-_key_value_partial_information.md">KEY_VALUE_PARTIAL_INFORMATION</a> structure.
+The information is stored as a <a href="https://msdn.microsoft.com/library/windows/hardware/ff554220">KEY_VALUE_PARTIAL_INFORMATION</a> structure.
 
 
 ### -field KeyValueFullInformationAlign64
@@ -110,35 +96,34 @@ The maximum value in this enumeration type.
 
 
 
-Use the <b>KEY_VALUE_INFORMATION_CLASS</b> values to specify the type of data to be supplied by the <a href="..\wdm\nf-wdm-zwenumeratevaluekey.md">ZwEnumerateValueKey</a> and <a href="..\wdm\nf-wdm-zwqueryvaluekey.md">ZwQueryValueKey</a> routines.
+Use the <b>KEY_VALUE_INFORMATION_CLASS</b> values to specify the type of data to be supplied by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566453">ZwEnumerateValueKey</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff567069">ZwQueryValueKey</a> routines.
 
 
 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwqueryvaluekey.md">ZwQueryValueKey</a>
 
 
 
-<a href="..\wdm\ns-wdm-_key_value_full_information.md">KEY_VALUE_FULL_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553410">KEY_VALUE_BASIC_INFORMATION</a>
 
 
 
-<a href="..\wdm\ns-wdm-_key_value_partial_information.md">KEY_VALUE_PARTIAL_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554217">KEY_VALUE_FULL_INFORMATION</a>
 
 
 
-<a href="..\wdm\ns-wdm-_key_value_basic_information.md">KEY_VALUE_BASIC_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554220">KEY_VALUE_PARTIAL_INFORMATION</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwenumeratevaluekey.md">ZwEnumerateValueKey</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566453">ZwEnumerateValueKey</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567069">ZwQueryValueKey</a>
  
 
  
-
 

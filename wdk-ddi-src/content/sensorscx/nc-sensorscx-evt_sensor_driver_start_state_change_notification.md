@@ -38,7 +38,8 @@ api_location:
 -	sensorscx.h
 api_name:
 -	EVT_SENSOR_DRIVER_START_STATE_CHANGE_NOTIFICATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SensorConnectionType
 req.product: Windows 10 or later.
@@ -51,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 Used to start a state change notification.
-
-
-## -prototype
-
-
-````
-NTSTATUS  EVT_SENSOR_DRIVER_START_STATE_CHANGE_NOTIFICATION(
-  _In_ SENSOROBJECT Sensors
-);
-````
 
 
 ## -parameters

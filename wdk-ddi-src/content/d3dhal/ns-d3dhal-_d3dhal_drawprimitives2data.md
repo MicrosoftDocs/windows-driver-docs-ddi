@@ -7,7 +7,7 @@ old-location: display\d3dhal_drawprimitives2data.htm
 old-project: display
 ms.assetid: d971e866-3049-4722-bfec-ca3364f291fd
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*LPD3DHAL_DRAWPRIMITIVES2DATA, D3DHAL_DRAWPRIMITIVES2DATA, D3DHAL_DRAWPRIMITIVES2DATA structure [Display Devices], LPD3DHAL_DRAWPRIMITIVES2DATA, LPD3DHAL_DRAWPRIMITIVES2DATA structure pointer [Display Devices], _D3DHAL_DRAWPRIMITIVES2DATA, d3dhal/D3DHAL_DRAWPRIMITIVES2DATA, d3dhal/LPD3DHAL_DRAWPRIMITIVES2DATA, d3dstrct_c9c3dea2-965c-4e98-8ff7-2928afe049fb.xml, display.d3dhal_drawprimitives2data"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dhal.h
 api_name:
 -	D3DHAL_DRAWPRIMITIVES2DATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DHAL_DRAWPRIMITIVES2DATA
 ---
@@ -49,36 +50,7 @@ req.typenames: D3DHAL_DRAWPRIMITIVES2DATA
 ## -description
 
 
-The D3DHAL_DRAWPRIMITIVES2DATA structure contains the information required by the <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a> function to render primitives.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DHAL_DRAWPRIMITIVES2DATA {
-  ULONG_PTR                 dwhContext;
-  DWORD                     dwFlags;
-  DWORD                     dwVertexType;
-  LPDDRAWI_DDRAWSURFACE_LCL lpDDCommands;
-  DWORD                     dwCommandOffset;
-  DWORD                     dwCommandLength;
-  union {
-    LPDDRAWI_DDRAWSURFACE_LCL lpDDVertex;
-    LPVOID                    lpVertices;
-  };
-  DWORD                     dwVertexOffset;
-  DWORD                     dwVertexLength;
-  DWORD                     dwReqVertexBufSize;
-  DWORD                     dwReqCommandBufSize;
-  LPDWORD                   lpdwRStates;
-  union {
-    DWORD   dwVertexSize;
-    HRESULT ddrval;
-  };
-  DWORD                     dwErrorOffset;
-} D3DHAL_DRAWPRIMITIVES2DATA, *LPD3DHAL_DRAWPRIMITIVES2DATA;
-````
+The D3DHAL_DRAWPRIMITIVES2DATA structure contains the information required by the <a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a> function to render primitives.
 
 
 ## -struct-fields
@@ -382,7 +354,7 @@ Specifies the minimum number of bytes that the driver must increase the swap com
 
 ### -field lpdwRStates
 
-Points to a render state array that the driver should update when it parses render state commands from the command buffer. The driver should update this array only when the D3DHALDP2_EXECUTEBUFFER flag is set in <b>dwFlags</b>. The driver should use the <a href="..\d3d9types\ne-d3d9types-_d3drenderstatetype.md">D3DRENDERSTATETYPE</a> enumerated types to update the appropriate element of the render state array. 
+Points to a render state array that the driver should update when it parses render state commands from the command buffer. The driver should update this array only when the D3DHALDP2_EXECUTEBUFFER flag is set in <b>dwFlags</b>. The driver should use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549036">D3DRENDERSTATETYPE</a> enumerated types to update the appropriate element of the render state array. 
 
 
 ### -field dwErrorOffset
@@ -426,7 +398,7 @@ Points to a render state array that the driver should update when it parses rend
 
 #### - ddrval
 
-Specifies the location where the driver writes the return value of <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>. D3D_OK indicates success. Otherwise, the driver should return the appropriate D3DERR_<i>Xxx</i> error code. For more information, see <a href="https://msdn.microsoft.com/033beb6e-5872-4cb3-8f39-459e2fff82cd">Return Codes for Direct3D Driver Callbacks</a>.
+Specifies the location where the driver writes the return value of <a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a>. D3D_OK indicates success. Otherwise, the driver should return the appropriate D3DERR_<i>Xxx</i> error code. For more information, see <a href="https://msdn.microsoft.com/033beb6e-5872-4cb3-8f39-459e2fff82cd">Return Codes for Direct3D Driver Callbacks</a>.
 
 <table>
 <tr>
@@ -485,28 +457,27 @@ To calculate the valid data, in bytes, that exists in the surface at <b>lpDDVert
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545454">D3DHAL_DP2COMMAND</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549036">D3DRENDERSTATETYPE</a>
+
+
+
+<a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551726">DD_SURFACE_GLOBAL</a>
 
 
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551733">DD_SURFACE_LOCAL</a>
-
-
-
-<a href="..\d3d9types\ne-d3d9types-_d3drenderstatetype.md">D3DRENDERSTATETYPE</a>
-
-
-
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
-
-
-
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: storage\ioreadpartitiontableex.htm
 old-project: storage
 ms.assetid: 1aa8665a-1674-4fca-b5c6-d8d25166ca29
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IoReadPartitionTableEx, IoReadPartitionTableEx routine [Storage Devices], ntddk/IoReadPartitionTableEx, rtns-disk_eb4e14e1-14a3-441a-b8ff-9ce68c1b3992.xml, storage.ioreadpartitiontableex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	IoReadPartitionTableEx
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
@@ -50,17 +51,6 @@ req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 
 
 The <b>IoReadPartitionTableEx</b> routine reads a list of partitions on a disk having a specified sector size and creates an entry in the partition list for each recognized partition. 
-
-
-## -syntax
-
-
-````
-NTSTATUS IoReadPartitionTableEx(
-  _In_  PDEVICE_OBJECT                      DeviceObject,
-  _Out_ struct _DRIVE_LAYOUT_INFORMATION_EX **PartitionBuffer
-);
-````
 
 
 ## -parameters
@@ -98,7 +88,7 @@ This routine returns a value of STATUS_SUCCESS if at least one sector table was 
 
 
 
-<b>IoReadPartitionTableEx</b> must only be used by disk drivers. Other drivers should use the <a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_get_drive_layout_ex.md">IOCTL_DISK_GET_DRIVE_LAYOUT_EX</a> disk I/O request instead.
+<b>IoReadPartitionTableEx</b> must only be used by disk drivers. Other drivers should use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560364">IOCTL_DISK_GET_DRIVE_LAYOUT_EX</a> disk I/O request instead.
 
 <b>IoReadPartitionTableEx</b> is able to read partition table information from GUID Partition Table (GPT) disks as well as legacy Master Boot Record (MBR) disks. Disk device drivers call this routine during driver initialization.
 
@@ -121,44 +111,43 @@ Note that disk drivers also return and set partition information in response to 
 
 ## -see-also
 
-<a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_set_partition_info_ex.md">IOCTL_DISK_SET_PARTITION_INFO_EX</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-iosetpartitioninformation.md">IoSetPartitionInformation</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552662">DRIVE_LAYOUT_INFORMATION_EX</a>
 
 
 
-<a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_get_drive_geometry.md">IOCTL_DISK_GET_DRIVE_GEOMETRY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560357">IOCTL_DISK_GET_DRIVE_GEOMETRY</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-iowritepartitiontableex.md">IoWritePartitionTableEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560364">IOCTL_DISK_GET_DRIVE_LAYOUT_EX</a>
 
 
 
-<a href="..\ntdddisk\ns-ntdddisk-_partition_information_ex.md">PARTITION_INFORMATION_EX</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560375">IOCTL_DISK_GET_PARTITION_INFO_EX</a>
 
 
 
-<a href="..\ntdddisk\ns-ntdddisk-_drive_layout_information_ex.md">DRIVE_LAYOUT_INFORMATION_EX</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560411">IOCTL_DISK_SET_DRIVE_LAYOUT_EX</a>
 
 
 
-<a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_get_drive_layout_ex.md">IOCTL_DISK_GET_DRIVE_LAYOUT_EX</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560417">IOCTL_DISK_SET_PARTITION_INFO_EX</a>
 
 
 
-<a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_get_partition_info_ex.md">IOCTL_DISK_GET_PARTITION_INFO_EX</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561456">IoSetPartitionInformation</a>
 
 
 
-<a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_set_drive_layout_ex.md">IOCTL_DISK_SET_DRIVE_LAYOUT_EX</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561470">IoWritePartitionTableEx</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563754">PARTITION_INFORMATION_EX</a>
  
 
  
-
 

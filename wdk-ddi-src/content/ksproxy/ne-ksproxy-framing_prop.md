@@ -38,7 +38,8 @@ api_location:
 -	Ksproxy.h
 api_name:
 -	FRAMING_PROP
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FRAMING_PROP
 ---
@@ -50,19 +51,6 @@ req.typenames: FRAMING_PROP
 
 
 
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  FramingProp_Uninitialized,
-  FramingProp_None,
-  FramingProp_Old,
-  FramingProp_Ex
-} FRAMING_PROP;
-````
 
 
 ## -enum-fields

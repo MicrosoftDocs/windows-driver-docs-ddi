@@ -38,7 +38,8 @@ api_location:
 -	pointofservicedriverinterface.h
 api_name:
 -	MsrCardType
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MsrCardType
 ---
@@ -50,19 +51,6 @@ req.typenames: MsrCardType
 
 
 This enumeration defines the kinds of magnetic stripe cards.
-
-
-## -syntax
-
-
-````
-typedef enum _MsrCardType { 
-  MsrCardType_Unknown,
-  MsrCardType_Bank,
-  MsrCardType_Aamva,
-  MsrCardType_ExtendedBase
-} MsrCardType;
-````
 
 
 ## -enum-fields

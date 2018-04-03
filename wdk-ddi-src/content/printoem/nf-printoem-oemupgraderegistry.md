@@ -38,7 +38,8 @@ api_location:
 -	printoem.h
 api_name:
 -	OEMUpgradeRegistry
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STDVARIABLEINDEX
 req.product: Windows 10 or later.
@@ -50,18 +51,6 @@ req.product: Windows 10 or later.
 ## -description
 
 
-
-
-## -syntax
-
-
-````
-BOOL APIENTRY OEMUpgradeRegistry(
-   DWORD                         dwLevel,
-   PBYTE                         pDriverUpgradeInfo,
-   PFN_DrvUpgradeRegistrySetting pfnUpgrade
-);
-````
 
 
 ## -parameters
@@ -80,12 +69,11 @@ BOOL APIENTRY OEMUpgradeRegistry(
 
 ## -see-also
 
-<a href="..\printoem\nc-printoem-pfn_drvupgraderegistrysetting.md">DrvUpgradeRegistrySetting</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548652">DrvUpgradeRegistrySetting</a>
  
 
  
-
 

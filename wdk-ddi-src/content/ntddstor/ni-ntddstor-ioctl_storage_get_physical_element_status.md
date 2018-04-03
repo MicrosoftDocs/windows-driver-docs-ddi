@@ -7,7 +7,7 @@ old-location: storage\ioctl_storage_get_physical_element_status.htm
 old-project: storage
 ms.assetid: ED46241E-1A71-447A-8D96-E81B4500E070
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_STORAGE_GET_PHYSICAL_ELEMENT_STATUS, IOCTL_STORAGE_GET_PHYSICAL_ELEMENT_STATUS control code [Storage Devices], ntddstor/IOCTL_STORAGE_GET_PHYSICAL_ELEMENT_STATUS, storage.ioctl_storage_get_physical_element_status
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddstor.h
 api_name:
 -	IOCTL_STORAGE_GET_PHYSICAL_ELEMENT_STATUS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STORAGE_ZONE_CONDITION, *PSTORAGE_ZONE_CONDITION
 ---
@@ -154,11 +155,6 @@ To perform this operation, call the <a href="https://msdn.microsoft.com/1d35c087
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/A0876712-4D9B-4A97-8E94-AA570A71C53D">PHYSICAL_ELEMENT_STATUS_REQUEST</a>
-
-
-
-<a href="https://msdn.microsoft.com/5E2AB36E-5A5C-4253-9791-A5CC157F15E3">PHYSICAL_ELEMENT_STATUS</a>
 
 
 
@@ -166,8 +162,12 @@ To perform this operation, call the <a href="https://msdn.microsoft.com/1d35c087
 
 
 
+<a href="https://msdn.microsoft.com/5E2AB36E-5A5C-4253-9791-A5CC157F15E3">PHYSICAL_ELEMENT_STATUS</a>
+
+
+
+<a href="https://msdn.microsoft.com/A0876712-4D9B-4A97-8E94-AA570A71C53D">PHYSICAL_ELEMENT_STATUS_REQUEST</a>
  
 
  
-
 

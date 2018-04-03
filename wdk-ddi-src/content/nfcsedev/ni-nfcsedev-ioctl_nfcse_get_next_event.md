@@ -38,7 +38,8 @@ api_location:
 -	nfcsedev.h
 api_name:
 -	IOCTL_NFCSE_GET_NEXT_EVENT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SECURE_ELEMENT_TYPE, *PSECURE_ELEMENT_TYPE
 ---
@@ -71,7 +72,7 @@ None
 ### -output-buffer
 
 
-                A <b>DWORD</b> indicating the size of the <a href="..\nfcsedev\ns-nfcsedev-_secure_element_event_info.md">SECURE_ELEMENT_EVENT_INFO</a> structure plus its payload, immediately followed by the <b>SECURE_ELEMENT_EVENT_INFO</b> structure itself. 
+                A <b>DWORD</b> indicating the size of the <a href="https://msdn.microsoft.com/library/windows/hardware/dn905590">SECURE_ELEMENT_EVENT_INFO</a> structure plus its payload, immediately followed by the <b>SECURE_ELEMENT_EVENT_INFO</b> structure itself. 
 
 
 ### -output-buffer-length

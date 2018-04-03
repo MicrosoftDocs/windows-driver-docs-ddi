@@ -39,7 +39,8 @@ api_location:
 -	Wdf01000.sys.dll
 api_name:
 -	WdfDpcCreate
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_DMA_SYSTEM_PROFILE_CONFIG, *PWDF_DMA_SYSTEM_PROFILE_CONFIG
 req.product: Windows 10 or later.
@@ -56,18 +57,6 @@ req.product: Windows 10 or later.
 The <b>WdfDpcCreate</b> method creates a framework DPC object and registers an <a href="https://msdn.microsoft.com/b934a0da-0709-4427-bbf2-8d53f9511cf1">EvtDpcFunc</a> callback function. 
 
 
-## -syntax
-
-
-````
-NTSTATUS WdfDpcCreate(
-  _In_  PWDF_DPC_CONFIG        Config,
-  _In_  PWDF_OBJECT_ATTRIBUTES Attributes,
-  _Out_ WDFDPC                 *Dpc
-);
-````
-
-
 ## -parameters
 
 
@@ -75,12 +64,12 @@ NTSTATUS WdfDpcCreate(
 
 ### -param Config [in]
 
-A pointer to a caller-allocated <a href="..\wdfdpc\ns-wdfdpc-_wdf_dpc_config.md">WDF_DPC_CONFIG</a> structure.
+A pointer to a caller-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff551296">WDF_DPC_CONFIG</a> structure.
 
 
 ### -param Attributes [in]
 
-A pointer to a caller-allocated <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure that specifies attributes for the new DPC object. 
+A pointer to a caller-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff552400">WDF_OBJECT_ATTRIBUTES</a> structure that specifies attributes for the new DPC object. 
 
 
 ### -param Dpc [out]
@@ -128,7 +117,7 @@ A DPC object could not be allocated.
 </dl>
 </td>
 <td width="60%">
-A parent object was not specified in the <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure.
+A parent object was not specified in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552400">WDF_OBJECT_ATTRIBUTES</a> structure.
 
 </td>
 </tr>
@@ -139,7 +128,7 @@ A parent object was not specified in the <a href="..\wdfobject\ns-wdfobject-_wdf
 </dl>
 </td>
 <td width="60%">
-The <b>ParentObject</b> member of the <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure does not reference a framework device object or an object whose chain of parents leads to a framework device object.
+The <b>ParentObject</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552400">WDF_OBJECT_ATTRIBUTES</a> structure does not reference a framework device object or an object whose chain of parents leads to a framework device object.
 
 </td>
 </tr>
@@ -150,7 +139,7 @@ The <b>ParentObject</b> member of the <a href="..\wdfobject\ns-wdfobject-_wdf_ob
 </dl>
 </td>
 <td width="60%">
-The <b>AutomaticSerialization</b> member of the <a href="..\wdfdpc\ns-wdfdpc-_wdf_dpc_config.md">WDF_DPC_CONFIG</a> structure is set to <b>TRUE</b>, but the parent object's <a href="..\wdfobject\ne-wdfobject-_wdf_execution_level.md">execution level</a> is set to <b>WdfExecutionLevelPassive</b>.
+The <b>AutomaticSerialization</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551296">WDF_DPC_CONFIG</a> structure is set to <b>TRUE</b>, but the parent object's <a href="https://msdn.microsoft.com/82b1fe8e-054c-4710-9a32-d620a62a070e">execution level</a> is set to <b>WdfExecutionLevelPassive</b>.
 
 </td>
 </tr>
@@ -168,20 +157,20 @@ This method also might return other <a href="https://msdn.microsoft.com/library/
 
 
 
-A driver typically calls <b>WdfDpcCreate</b> from within its <a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a> callback function.
+A driver typically calls <b>WdfDpcCreate</b> from within its <a href="https://msdn.microsoft.com/b20db029-ee2c-4fb1-bd69-ccd2e37fdc9a">EvtDriverDeviceAdd</a> callback function.
 
-When a driver creates a DPC object, it must specify a parent object in the <b>ParentObject</b> member of the <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure. The parent object can be a framework device object or any object whose chain of parents leads to a framework device object. The framework will delete the DPC object when it deletes the device object.
+When a driver creates a DPC object, it must specify a parent object in the <b>ParentObject</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552400">WDF_OBJECT_ATTRIBUTES</a> structure. The parent object can be a framework device object or any object whose chain of parents leads to a framework device object. The framework will delete the DPC object when it deletes the device object.
 
-Calling <b>WdfDpcCreate</b> creates a framework DPC object and registers an <a href="https://msdn.microsoft.com/b934a0da-0709-4427-bbf2-8d53f9511cf1">EvtDpcFunc</a> callback function. To schedule execution of the callback function, the driver must call <a href="..\wdfdpc\nf-wdfdpc-wdfdpcenqueue.md">WdfDpcEnqueue</a>. 
+Calling <b>WdfDpcCreate</b> creates a framework DPC object and registers an <a href="https://msdn.microsoft.com/b934a0da-0709-4427-bbf2-8d53f9511cf1">EvtDpcFunc</a> callback function. To schedule execution of the callback function, the driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff547148">WdfDpcEnqueue</a>. 
 
-If your driver provides <a href="..\wdfobject\nc-wdfobject-evt_wdf_object_context_cleanup.md">EvtCleanupCallback</a> or <a href="..\wdfobject\nc-wdfobject-evt_wdf_object_context_destroy.md">EvtDestroyCallback</a> callback functions for the framework timer object, note that the framework calls these callback functions at IRQL = PASSIVE_LEVEL.
+If your driver provides <a href="https://msdn.microsoft.com/aba2efca-7d1f-4594-af65-13356f0e3f8b">EvtCleanupCallback</a> or <a href="https://msdn.microsoft.com/4c3b08d2-bb25-40bd-b2fc-1b9ea2d452b3">EvtDestroyCallback</a> callback functions for the framework timer object, note that the framework calls these callback functions at IRQL = PASSIVE_LEVEL.
 
 For more information about using DPC objects, see <a href="https://msdn.microsoft.com/b6306d2c-a7be-4fc3-8123-4d2b5c60c988">Servicing an Interrupt</a>.
 
 
 #### Examples
 
-The following code example initializes a <a href="..\wdfdpc\nf-wdfdpc-wdf_dpc_config_init.md">WDF_DPC_CONFIG_INIT</a> structure and then creates a DPC object. 
+The following code example initializes a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551298">WDF_DPC_CONFIG_INIT</a> structure and then creates a DPC object. 
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -216,23 +205,6 @@ if (!NT_SUCCESS(status)) {
 
 ## -see-also
 
-<a href="..\wdfdpc\nf-wdfdpc-wdf_dpc_config_init.md">WDF_DPC_CONFIG_INIT</a>
-
-
-
-<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
-
-
-
-<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
-
-
-
-<a href="..\wdfobject\nf-wdfobject-wdf_object_attributes_init.md">WDF_OBJECT_ATTRIBUTES_INIT</a>
-
-
-
-<a href="..\wdfdpc\ns-wdfdpc-_wdf_dpc_config.md">WDF_DPC_CONFIG</a>
 
 
 
@@ -240,12 +212,28 @@ if (!NT_SUCCESS(status)) {
 
 
 
-<a href="..\wdfdpc\nf-wdfdpc-wdfdpcenqueue.md">WdfDpcEnqueue</a>
+<a href="https://msdn.microsoft.com/b20db029-ee2c-4fb1-bd69-ccd2e37fdc9a">EvtDriverDeviceAdd</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551296">WDF_DPC_CONFIG</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551298">WDF_DPC_CONFIG_INIT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552400">WDF_OBJECT_ATTRIBUTES</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552402">WDF_OBJECT_ATTRIBUTES_INIT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547148">WdfDpcEnqueue</a>
  
 
  
-
 

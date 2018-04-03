@@ -7,7 +7,7 @@ old-location: netvista\path_offload_state_cached.htm
 old-project: netvista
 ms.assetid: 5afd2499-3f47-481e-9d20-770842f79677
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PPATH_OFFLOAD_STATE_CACHED, PATH_OFFLOAD_STATE_CACHED, PATH_OFFLOAD_STATE_CACHED structure [Network Drivers Starting with Windows Vista], PPATH_OFFLOAD_STATE_CACHED, PPATH_OFFLOAD_STATE_CACHED structure pointer [Network Drivers Starting with Windows Vista], _PATH_OFFLOAD_STATE_CACHED, ndischimney/PATH_OFFLOAD_STATE_CACHED, ndischimney/PPATH_OFFLOAD_STATE_CACHED, netvista.path_offload_state_cached, tcp_chim_struct_768560e8-d67c-42f3-aa43-78c48e198eef.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ndischimney.h
 api_name:
 -	PATH_OFFLOAD_STATE_CACHED
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PATH_OFFLOAD_STATE_CACHED, *PPATH_OFFLOAD_STATE_CACHED
 ---
@@ -54,17 +55,6 @@ req.typenames: PATH_OFFLOAD_STATE_CACHED, *PPATH_OFFLOAD_STATE_CACHED
 The PATH_OFFLOAD_STATE_CACHED structure contains the cached variable of a path state object.
 
 
-## -syntax
-
-
-````
-typedef struct _PATH_OFFLOAD_STATE_CACHED {
-  OFFLOAD_STATE_HEADER Header;
-  ULONG                PathMtu;
-} PATH_OFFLOAD_STATE_CACHED, *PPATH_OFFLOAD_STATE_CACHED;
-````
-
-
 ## -struct-fields
 
 
@@ -73,7 +63,7 @@ typedef struct _PATH_OFFLOAD_STATE_CACHED {
 ### -field Header
 
 An 
-     <a href="..\ndischimney\ns-ndischimney-_offload_state_header.md">OFFLOAD_STATE_HEADER</a> structure. NDIS
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569062">OFFLOAD_STATE_HEADER</a> structure. NDIS
      sets the 
      <b>Length</b> member of 
      <b>Header</b> to the size, in bytes, of the PATH_OFFLOAD_STATE_CACHED structure. The 
@@ -95,17 +85,17 @@ Cached variables are owned and maintained by the host stack. An offload target m
     value of a cached variable unless requested to do so by the host stack. If the value of a cached variable
     changes, the host stack requests an update of the variable, which causes NDIS to call the offload
     target's 
-    <a href="..\ndischimney\nc-ndischimney-w_update_offload_handler.md">MiniportUpdateOffload</a> function.
+    <a href="https://msdn.microsoft.com/b98b2e21-8b28-4da0-9cc9-6fa8cb6e5be7">MiniportUpdateOffload</a> function.
     When the host stack terminates the offload of one or more state objects by causing NDIS to call the
     offload target's 
-    <a href="..\ndischimney\nc-ndischimney-w_terminate_offload_handler.md">
+    <a href="https://msdn.microsoft.com/1b808e3c-2d64-44c9-88d3-0a0311e1dc99">
     MiniportTerminateOffload</a> function, the offload target does not return the value of offloaded
     constant variables to the host stack.
 
 When passed to an offload target, a PATH_OFFLOAD_STATE_CACHED structure is associated with an 
-    <a href="..\ndischimney\ns-ndischimney-_ndis_miniport_offload_block_list.md">
+    <a href="https://msdn.microsoft.com/ebc98e65-5d11-4c3d-aea1-dfad1434c093">
     NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a> structure, which contains a header that is formatted as an 
-    <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure. The 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure. The 
     <b>Revision</b> member of the NDIS_OBJECT_HEADER structure, in this case, specifies the revision number of
     the PATH_OFFLOAD_STATE_CACHED structure.
 
@@ -114,32 +104,31 @@ When passed to an offload target, a PATH_OFFLOAD_STATE_CACHED structure is assoc
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="..\ndischimney\nc-ndischimney-w_update_offload_handler.md">MiniportUpdateOffload</a>
+<a href="https://msdn.microsoft.com/1b808e3c-2d64-44c9-88d3-0a0311e1dc99">MiniportTerminateOffload</a>
 
 
 
-<a href="..\ndischimney\ns-ndischimney-_path_offload_state_const.md">PATH_OFFLOAD_STATE_CONST</a>
+<a href="https://msdn.microsoft.com/b98b2e21-8b28-4da0-9cc9-6fa8cb6e5be7">MiniportUpdateOffload</a>
 
 
 
-<a href="..\ndischimney\ns-ndischimney-_offload_state_header.md">OFFLOAD_STATE_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="..\ndischimney\ns-ndischimney-_path_offload_state_delegated.md">PATH_OFFLOAD_STATE_DELEGATED</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569062">OFFLOAD_STATE_HEADER</a>
 
 
 
-<a href="..\ndischimney\nc-ndischimney-w_terminate_offload_handler.md">MiniportTerminateOffload</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569984">PATH_OFFLOAD_STATE_CONST</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569985">PATH_OFFLOAD_STATE_DELEGATED</a>
  
 
  
-
 

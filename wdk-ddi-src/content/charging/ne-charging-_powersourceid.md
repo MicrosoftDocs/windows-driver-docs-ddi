@@ -38,7 +38,8 @@ api_location:
 -	Charging.h
 api_name:
 -	POWERSOURCEID
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: POWERSOURCEID, *PPOWERSOURCEID
 ---
@@ -50,16 +51,6 @@ req.typenames: POWERSOURCEID, *PPOWERSOURCEID
 
 
 This enum is for internal use only.
-
-
-## -syntax
-
-
-````
-enum  {
-
-};
-````
 
 
 ## -enum-fields

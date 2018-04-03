@@ -7,7 +7,7 @@ old-location: netvista\ndis_receive_queue_free_parameters.htm
 old-project: netvista
 ms.assetid: b67e7929-e6b3-4d0b-aff9-943a7fbae8ee
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PNDIS_RECEIVE_QUEUE_FREE_PARAMETERS, NDIS_RECEIVE_QUEUE_FREE_PARAMETERS, NDIS_RECEIVE_QUEUE_FREE_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_RECEIVE_QUEUE_FREE_PARAMETERS, PNDIS_RECEIVE_QUEUE_FREE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_RECEIVE_QUEUE_FREE_PARAMETERS, netvista.ndis_receive_queue_free_parameters, ntddndis/NDIS_RECEIVE_QUEUE_FREE_PARAMETERS, ntddndis/PNDIS_RECEIVE_QUEUE_FREE_PARAMETERS, virtual_machine_queue_ref_6084d20e-050b-4e7c-af0e-6ab23269abb0.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ntddndis.h
 api_name:
 -	NDIS_RECEIVE_QUEUE_FREE_PARAMETERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_RECEIVE_QUEUE_FREE_PARAMETERS, *PNDIS_RECEIVE_QUEUE_FREE_PARAMETERS
 ---
@@ -52,18 +53,6 @@ req.typenames: NDIS_RECEIVE_QUEUE_FREE_PARAMETERS, *PNDIS_RECEIVE_QUEUE_FREE_PAR
 The <b>NDIS_RECEIVE_QUEUE_FREE_PARAMETERS</b> structure identifies a receive queue to free.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_RECEIVE_QUEUE_FREE_PARAMETERS {
-  NDIS_OBJECT_HEADER    Header;
-  ULONG                 Flags;
-  NDIS_RECEIVE_QUEUE_ID QueueId;
-} NDIS_RECEIVE_QUEUE_FREE_PARAMETERS, *PNDIS_RECEIVE_QUEUE_FREE_PARAMETERS;
-````
-
-
 ## -struct-fields
 
 
@@ -72,7 +61,7 @@ typedef struct _NDIS_RECEIVE_QUEUE_FREE_PARAMETERS {
 ### -field Header
 
 The 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure for the
      <b>NDIS_RECEIVE_QUEUE_FREE_PARAMETERS</b> structure. The driver sets the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to <b>NDIS_OBJECT_TYPE_DEFAULT</b>, the 
@@ -106,16 +95,15 @@ The <b>NDIS_RECEIVE_QUEUE_FREE_PARAMETERS</b> structure is used in the
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+
+
+
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-free-queue">OID_RECEIVE_FILTER_FREE_QUEUE</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
  
 
  
-
 

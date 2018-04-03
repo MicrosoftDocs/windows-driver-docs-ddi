@@ -7,7 +7,7 @@ old-location: debugger\extremotelist_getnodeoffset.htm
 old-project: debugger
 ms.assetid: 20c4ec7e-6dc1-4a4f-99d1-bb53213771a5
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: EngExtCpp_Ref_efff4521-d480-48a4-8466-f7db3c052aa1.xml, ExtRemoteList, ExtRemoteList class [Windows Debugging], GetNodeOffset method, ExtRemoteList::GetNodeOffset, GetNodeOffset method [Windows Debugging], GetNodeOffset method [Windows Debugging], ExtRemoteList class, GetNodeOffset,ExtRemoteList.GetNodeOffset, debugger.extremotelist_getnodeoffset
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	engextcpp.hpp
 api_name:
 -	ExtRemoteList.GetNodeOffset
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 ---
@@ -50,14 +51,6 @@ req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 
 
 The <b>GetNodeOffset</b> method returns the address of the current list item.
-
-
-## -syntax
-
-
-````
-ULONG64 GetNodeOffset();
-````
 
 
 ## -parameters

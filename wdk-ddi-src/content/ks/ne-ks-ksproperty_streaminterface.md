@@ -38,7 +38,8 @@ api_location:
 -	Ks.h
 api_name:
 -	KSPROPERTY_STREAMINTERFACE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSPROPERTY_STREAMINTERFACE
 ---
@@ -50,16 +51,6 @@ req.typenames: KSPROPERTY_STREAMINTERFACE
 
 
 
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  KSPROPERTY_STREAMINTERFACE_HEADERSIZE
-} KSPROPERTY_STREAMINTERFACE;
-````
 
 
 ## -enum-fields

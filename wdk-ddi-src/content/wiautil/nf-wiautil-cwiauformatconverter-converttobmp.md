@@ -38,7 +38,8 @@ api_location:
 -	Wiautil.h
 api_name:
 -	CWiauFormatConverter.ConvertToBmp
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SKIP_AMOUNT
 req.product: Windows 10 or later.
@@ -51,22 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>CWiauFormatConverter::ConvertToBmp</b> method converts an image to BMP format.
-
-
-## -syntax
-
-
-````
-HRESULT ConvertToBmp(
-   BYTE           *pSource,
-   INT            iSourceSize,
-   BYTE           **ppDest,
-   INT            *piDestSize,
-   BMP_IMAGE_INFO *pBmpImageInfo,
-   SKIP_AMOUNT    iSkipAmt = SKIP_OFF
-
-);
-````
 
 
 ## -parameters
@@ -96,7 +81,7 @@ Pointer to a memory location that receives the size, in bytes, of the resulting 
 
 ### -param pBmpImageInfo
 
-Pointer to a <a href="..\wiautil\ns-wiautil-_bmp_image_info.md">BMP_IMAGE_INFO</a> structure that receives information about the resulting image.
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff539403">BMP_IMAGE_INFO</a> structure that receives information about the resulting image.
 
 
 ### -param iSkipAmt
@@ -131,7 +116,14 @@ The caller of this method can pass a result buffer in <i>ppDest</i> and the size
 
 ## -see-also
 
-<a href="..\wiautil\ne-wiautil-skip_amount.md">SKIP_AMOUNT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539403">BMP_IMAGE_INFO</a>
+
+
+
+<a href="https://msdn.microsoft.com/b30c3336-ddc6-459d-97c4-244ca0b50cfc">CWiauFormatConverter</a>
 
 
 
@@ -139,16 +131,8 @@ The caller of this method can pass a result buffer in <i>ppDest</i> and the size
 
 
 
-<a href="..\wiautil\nl-wiautil-cwiauformatconverter.md">CWiauFormatConverter</a>
-
-
-
-<a href="..\wiautil\ns-wiautil-_bmp_image_info.md">BMP_IMAGE_INFO</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548221">SKIP_AMOUNT</a>
  
 
  
-
 

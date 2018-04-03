@@ -7,7 +7,7 @@ old-location: debugger\debug_register_description.htm
 old-project: debugger
 ms.assetid: 92e7800d-4de6-498c-87f8-8690d7e8fc51
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PDEBUG_REGISTER_DESCRIPTION, DEBUG_REGISTER_DESCRIPTION, DEBUG_REGISTER_DESCRIPTION structure [Windows Debugging], PDEBUG_REGISTER_DESCRIPTION, PDEBUG_REGISTER_DESCRIPTION structure pointer [Windows Debugging], Structures_a7dd005e-3383-4c58-8b01-fe2127d6bc20.xml, _DEBUG_REGISTER_DESCRIPTION, dbgeng/DEBUG_REGISTER_DESCRIPTION, dbgeng/PDEBUG_REGISTER_DESCRIPTION, debugger.debug_register_description"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	DbgEng.h
 api_name:
 -	DEBUG_REGISTER_DESCRIPTION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DEBUG_REGISTER_DESCRIPTION, *PDEBUG_REGISTER_DESCRIPTION
 ---
@@ -52,22 +53,6 @@ req.typenames: DEBUG_REGISTER_DESCRIPTION, *PDEBUG_REGISTER_DESCRIPTION
 The <b>DEBUG_REGISTER_DESCRIPTION</b> structure is returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff546575">GetDescription</a> to describe a processor's register.
 
 
-## -syntax
-
-
-````
-typedef struct _DEBUG_REGISTER_DESCRIPTION {
-  ULONG   Type;
-  ULONG   Flags;
-  ULONG   SubregMaster;
-  ULONG   SubregLength;
-  ULONG64 SubregMask;
-  ULONG   SubregShift;
-  ULONG   Reserved0;
-} DEBUG_REGISTER_DESCRIPTION, *PDEBUG_REGISTER_DESCRIPTION;
-````
-
-
 ## -struct-fields
 
 
@@ -75,7 +60,7 @@ typedef struct _DEBUG_REGISTER_DESCRIPTION {
 
 ### -field Type
 
-The type of value that this register holds.  The possible values are the same as for the <b>Type</b> field in the <a href="..\dbgeng\ns-dbgeng-_debug_value.md">DEBUG_VALUE</a> structure.
+The type of value that this register holds.  The possible values are the same as for the <b>Type</b> field in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541719">DEBUG_VALUE</a> structure.
 
 
 ### -field Flags

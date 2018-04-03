@@ -38,7 +38,8 @@ api_location:
 -	Mscms.dll
 api_name:
 -	WcsTranslateColors
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WCS_PROFILE_MANAGEMENT_SCOPE
 ---
@@ -50,25 +51,6 @@ req.typenames: WCS_PROFILE_MANAGEMENT_SCOPE
 
 
 The <code>WcsTranslateColors</code> function translates an array of colors from the source color space to the destination color space as defined by a color transform.
-
-
-## -syntax
-
-
-````
-BOOL WcsTranslateColors(
-  _In_  HTRANSFORM    hColorTransform,
-  _In_  DWORD         nColors,
-  _In_  DWORD         nInputChannels,
-  _In_  COLORDATATYPE cdtInput,
-  _In_  DWORD         cbInput,
-  _In_  PVOID         pInputData,
-  _In_  DWORD         nOutputChannels,
-  _In_  COLORDATATYPE cdtOutput,
-  _In_  DWORD         cbOutput,
-  _Out_ PVOID         pOutputData
-);
-````
 
 
 ## -parameters
@@ -93,7 +75,7 @@ The number of channels per element in the array pointed to by <i>pInputData</i>.
 
 ### -param cdtInput [in]
 
-The input <a href="..\icm\ne-icm-colordatatype.md">COLORDATATYPE</a> color data type.
+The input <a href="https://msdn.microsoft.com/library/windows/hardware/ff546006">COLORDATATYPE</a> color data type.
 
 
 ### -param cbInput [in]
@@ -113,7 +95,7 @@ The number of channels per element in the array pointed to by <i>pOutputData</i>
 
 ### -param cdtOutput [in]
 
-The output <a href="..\icm\ne-icm-colordatatype.md">COLORDATATYPE</a> color data type.
+The output <a href="https://msdn.microsoft.com/library/windows/hardware/ff546006">COLORDATATYPE</a> color data type.
 
 
 ### -param cbOutput [in]
@@ -137,12 +119,11 @@ If the input and the output color data types are not compatible with the color t
 
 ## -see-also
 
-<a href="..\icm\ne-icm-colordatatype.md">COLORDATATYPE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546006">COLORDATATYPE</a>
  
 
  
-
 

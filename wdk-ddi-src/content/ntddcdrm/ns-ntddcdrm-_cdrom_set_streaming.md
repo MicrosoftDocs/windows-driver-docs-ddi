@@ -7,7 +7,7 @@ old-location: storage\cdrom_set_streaming.htm
 old-project: storage
 ms.assetid: e5c2d421-5994-4f1d-9022-718500eef1a9
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PCDROM_SET_STREAMING, CDROM_SET_STREAMING, CDROM_SET_STREAMING structure [Storage Devices], PCDROM_SET_STREAMING, PCDROM_SET_STREAMING structure pointer [Storage Devices], _CDROM_SET_STREAMING, ntddcdrm/CDROM_SET_STREAMING, ntddcdrm/PCDROM_SET_STREAMING, storage.cdrom_set_streaming, structs-CD-ROM_5157906e-31d2-42c7-8e90-cc673ed02510.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddcdrm.h
 api_name:
 -	CDROM_SET_STREAMING
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CDROM_SET_STREAMING, *PCDROM_SET_STREAMING
 ---
@@ -49,28 +50,7 @@ req.typenames: CDROM_SET_STREAMING, *PCDROM_SET_STREAMING
 ## -description
 
 
-The CDROM_SET_SPEED structure is used with the <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_set_speed.md">IOCTL_CDROM_SET_SPEED</a> request to set the spindle speed of a CD-ROM drive during isochronous transfers that permit some data loss.
-
-
-## -syntax
-
-
-````
-typedef struct _CDROM_SET_STREAMING {
-  CDROM_SPEED_REQUEST RequestType;
-  ULONG               ReadSize;
-  ULONG               ReadTime;
-  ULONG               WriteSize;
-  ULONG               WriteTime;
-  ULONG               StartLba;
-  ULONG               EndLba;
-  WRITE_ROTATION      RotationControl;
-  BOOLEAN             RestoreDefaults;
-  BOOLEAN             SetExact;
-  BOOLEAN             RandomAccess;
-  BOOLEAN             Persistent;
-} CDROM_SET_STREAMING, *PCDROM_SET_STREAMING;
-````
+The CDROM_SET_SPEED structure is used with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559381">IOCTL_CDROM_SET_SPEED</a> request to set the spindle speed of a CD-ROM drive during isochronous transfers that permit some data loss.
 
 
 ## -struct-fields
@@ -80,7 +60,7 @@ typedef struct _CDROM_SET_STREAMING {
 
 ### -field RequestType
 
-A <a href="..\ntddcdrm\ne-ntddcdrm-_cdrom_speed_request.md">CDROM_SPEED_REQUEST</a>-typed value that indicates which multimedia command to use when setting the spindle speed.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff551370">CDROM_SPEED_REQUEST</a>-typed value that indicates which multimedia command to use when setting the spindle speed.
 
 
 ### -field ReadSize
@@ -115,7 +95,7 @@ The last logical block address, in bytes, of the IOCTL_CDROM_SET_SPEED request.
 
 ### -field RotationControl
 
-A <a href="..\ntddcdrm\ne-ntddcdrm-_write_rotation.md">WRITE_ROTATION</a>-typed value that indicates whether the device will write to the media by using CLV (constant linear velocity) rotation or CLA (constant angular velocity) rotation.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff568045">WRITE_ROTATION</a>-typed value that indicates whether the device will write to the media by using CLV (constant linear velocity) rotation or CLA (constant angular velocity) rotation.
 
 
 ### -field RestoreDefaults
@@ -140,24 +120,23 @@ A BOOLEAN value that, when <b>TRUE</b>, instructs the CD-ROM class driver to con
 
 ## -see-also
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_set_speed.md">CDROM_SET_SPEED</a>
 
 
 
-<a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_set_speed.md">IOCTL_CDROM_SET_SPEED</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551368">CDROM_SET_SPEED</a>
 
 
 
-<a href="..\ntddcdrm\ne-ntddcdrm-_write_rotation.md">WRITE_ROTATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551370">CDROM_SPEED_REQUEST</a>
 
 
 
-<a href="..\ntddcdrm\ne-ntddcdrm-_cdrom_speed_request.md">CDROM_SPEED_REQUEST</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559381">IOCTL_CDROM_SET_SPEED</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568045">WRITE_ROTATION</a>
  
 
  
-
 

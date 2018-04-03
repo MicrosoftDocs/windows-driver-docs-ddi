@@ -7,7 +7,7 @@ old-location: buses\ufxendpointnotifysetup.htm
 old-project: usbref
 ms.assetid: 147CE46A-315D-4B75-B345-A7C0B01B2078
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: UfxEndpointNotifySetup, UfxEndpointNotifySetup method [Buses], buses.ufxendpointnotifysetup, ufxclient/UfxEndpointNotifySetup
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ufxclient.h
 api_name:
 -	UfxEndpointNotifySetup
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UFX_HARDWARE_FAILURE_CONTEXT, *PUFX_HARDWARE_FAILURE_CONTEXT
 req.product: Windows 10 or later.
@@ -51,17 +52,6 @@ req.product: Windows 10 or later.
 
 
 Notifies UFX when the client driver receives a setup packet from the host.
-
-
-## -syntax
-
-
-````
-VOID UfxEndpointNotifySetup(
-  [in] UFXDEVICE                      UfxDevice,
-  [in] PUSB_DEFAULT_PIPE_SETUP_PACKET SetupInfo
-);
-````
 
 
 ## -parameters
@@ -81,7 +71,7 @@ A pointer to a USB setup packet described in a <b>USB_DEFAULT_PIPE_SETUP_PACKET<
 
 #### - UfxDevice [in]
 
-A handle to a UFX device object that the driver created by calling <a href="..\ufxclient\nf-ufxclient-ufxdevicecreate.md">UfxDeviceCreate</a>.
+A handle to a UFX device object that the driver created by calling <a href="https://msdn.microsoft.com/library/windows/hardware/mt187951">UfxDeviceCreate</a>.
 
 
 ## -returns

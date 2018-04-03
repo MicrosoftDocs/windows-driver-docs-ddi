@@ -7,7 +7,7 @@ old-location: kernel\bound_callback_status.htm
 old-project: kernel
 ms.assetid: 874FB2E1-7A2F-4C91-BA72-D67DA2EE84E1
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*PBOUND_CALLBACK_STATUS, BOUND_CALLBACK_STATUS, BOUND_CALLBACK_STATUS enumeration [Kernel-Mode Driver Architecture], BoundExceptionContinueSearch, BoundExceptionError, BoundExceptionHandled, BoundExceptionMaximum, _BOUND_CALLBACK_STATUS, kernel.bound_callback_status, wdm/BOUND_CALLBACK_STATUS, wdm/BoundExceptionContinueSearch, wdm/BoundExceptionError, wdm/BoundExceptionHandled, wdm/BoundExceptionMaximum"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	BOUND_CALLBACK_STATUS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BOUND_CALLBACK_STATUS, *PBOUND_CALLBACK_STATUS
 req.product: Windows 10 or later.
@@ -50,20 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>BOUND_CALLBACK_STATUS</b> enumeration indicates how a user-mode bounds exception was processed by the <a href="..\wdm\nc-wdm-bound_callback.md">BoundCallback</a> function.
-
-
-## -syntax
-
-
-````
-typedef enum _BOUND_CALLBACK_STATUS { 
-  BoundExceptionContinueSearch  = 0,
-  BoundExceptionHandled,
-  BoundExceptionError,
-  BoundExceptionMaximum
-} BOUND_CALLBACK_STATUS;
-````
+The <b>BOUND_CALLBACK_STATUS</b> enumeration indicates how a user-mode bounds exception was processed by the <a href="https://msdn.microsoft.com/library/windows/hardware/dn957853">BoundCallback</a> function.
 
 
 ## -enum-fields
@@ -95,19 +83,18 @@ This value is not currently used.
 
 
 
-The return value of the <a href="..\wdm\nc-wdm-bound_callback.md">BoundCallback</a> routine is a <b>BOUND_CALLBACK_STATUS</b> value.
+The return value of the <a href="https://msdn.microsoft.com/library/windows/hardware/dn957853">BoundCallback</a> routine is a <b>BOUND_CALLBACK_STATUS</b> value.
 
 
 
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-bound_callback.md">BoundCallback</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn957853">BoundCallback</a>
  
 
  
-
 

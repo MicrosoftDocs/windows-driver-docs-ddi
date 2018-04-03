@@ -38,7 +38,8 @@ api_location:
 -	ksproxy.h
 api_name:
 -	IKsClockPropertySet.KsSetCorrelatedPhysicalTime
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PIPE_STATE
 ---
@@ -52,16 +53,6 @@ req.typenames: PIPE_STATE
 The <b>KsSetCorrelatedPhysicalTime</b> method sets the physical time with the correlated system time on the underlying clock. 
 
 
-## -syntax
-
-
-````
-HRESULT KsSetCorrelatedPhysicalTime(
-  [in] KSCORRELATED_TIME *CorrelatedTime
-);
-````
-
-
 ## -parameters
 
 
@@ -69,7 +60,7 @@ HRESULT KsSetCorrelatedPhysicalTime(
 
 ### -param CorrelatedTime [in]
 
-Pointer to a <a href="..\ks\ns-ks-kscorrelated_time.md">KSCORRELATED_TIME</a> structure that contains the physical clock time along with the correlated system time to which to set the underlying clock. 
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff561033">KSCORRELATED_TIME</a> structure that contains the physical clock time along with the correlated system time to which to set the underlying clock. 
 
 
 ## -returns
@@ -92,11 +83,6 @@ The proxy uses the <a href="https://msdn.microsoft.com/library/windows/hardware/
 
 ## -see-also
 
-<a href="..\ks\ns-ks-kscorrelated_time.md">KSCORRELATED_TIME</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564461">KSPROPERTY_CLOCK_CORRELATEDPHYSICALTIME</a>
 
 
 
@@ -104,8 +90,12 @@ The proxy uses the <a href="https://msdn.microsoft.com/library/windows/hardware/
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561033">KSCORRELATED_TIME</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564461">KSPROPERTY_CLOCK_CORRELATEDPHYSICALTIME</a>
  
 
  
-
 

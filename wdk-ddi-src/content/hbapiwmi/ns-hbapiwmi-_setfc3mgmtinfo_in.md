@@ -7,7 +7,7 @@ old-location: storage\setfc3mgmtinfo_in.htm
 old-project: storage
 ms.assetid: 2ad51d73-67f3-4ce0-b7e1-6bdc1b7e3b0c
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSetFC3MgmtInfo_IN, PSetFC3MgmtInfo_IN, PSetFC3MgmtInfo_IN structure pointer [Storage Devices], SetFC3MgmtInfo_IN, SetFC3MgmtInfo_IN structure [Storage Devices], _SetFC3MgmtInfo_IN, hbapiwmi/PSetFC3MgmtInfo_IN, hbapiwmi/SetFC3MgmtInfo_IN, storage.setfc3mgmtinfo_in, structs-Fibre_d4b69005-dc94-411f-810a-6767699e0b11.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	hbapiwmi.h
 api_name:
 -	SetFC3MgmtInfo_IN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SetFC3MgmtInfo_IN, *PSetFC3MgmtInfo_IN
 ---
@@ -52,16 +53,6 @@ req.typenames: SetFC3MgmtInfo_IN, *PSetFC3MgmtInfo_IN
 The SetFC3MgmtInfo_IN structure is used to deliver input parameter data to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565657">SetFC3MgmtInfo</a> WMI method.
 
 
-## -syntax
-
-
-````
-typedef struct _SetFC3MgmtInfo_IN {
-  HBAFC3MgmtInfo MgmtInfo;
-} SetFC3MgmtInfo_IN, *PSetFC3MgmtInfo_IN;
-````
-
-
 ## -struct-fields
 
 
@@ -69,7 +60,7 @@ typedef struct _SetFC3MgmtInfo_IN {
 
 ### -field MgmtInfo
 
-Contains a structure of type <a href="..\hbapiwmi\ns-hbapiwmi-_hbafc3mgmtinfo.md">HBAFC3MgmtInfo</a> that holds FC3 management information that will be used to configure the fibre channel adapter. 
+Contains a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff556032">HBAFC3MgmtInfo</a> that holds FC3 management information that will be used to configure the fibre channel adapter. 
 
 
 ## -remarks
@@ -83,12 +74,11 @@ The WMI tool suite generates a declaration of the SetFC3MgmtInfo_IN structure in
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565657">SetFC3MgmtInfo</a>
-
-
-
  
 
  
-
 

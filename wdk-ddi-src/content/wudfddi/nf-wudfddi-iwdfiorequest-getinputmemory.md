@@ -38,7 +38,8 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFIoRequest.GetInputMemory
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
@@ -55,16 +56,6 @@ req.product: Windows 10 or later.
 The <b>GetInputMemory</b> method retrieves the memory object that represents the input buffer in an I/O request.
 
 
-## -syntax
-
-
-````
-void GetInputMemory(
-  [out] IWDFMemory **ppWdfMemory
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +63,7 @@ void GetInputMemory(
 
 ### -param ppWdfMemory [out]
 
-A pointer to a variable that receives a pointer to the reference-counted <a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a> interface for the memory object. Note that returning <b>NULL</b> is valid; in this situation, no input memory is associated with the I/O request.
+A pointer to a variable that receives a pointer to the reference-counted <a href="https://msdn.microsoft.com/library/windows/hardware/ff559249">IWDFMemory</a> interface for the memory object. Note that returning <b>NULL</b> is valid; in this situation, no input memory is associated with the I/O request.
 
 
 ## -returns
@@ -109,7 +100,10 @@ For a code example of how to use the <b>GetInputMemory</b> method, see <a href="
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558985">IWDFIoRequest</a>
 
 
 
@@ -117,16 +111,12 @@ For a code example of how to use the <b>GetInputMemory</b> method, see <a href="
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559249">IWDFMemory</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560152">IWDFMemory::GetDataBuffer</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a>
-
-
-
  
 
  
-
 

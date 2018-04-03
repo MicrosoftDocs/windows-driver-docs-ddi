@@ -7,7 +7,7 @@ old-location: storage\ioctl_aacs_read_media_key_block_size.htm
 old-project: storage
 ms.assetid: 2b8e5461-c935-46d8-afe3-c82a7566a4c7
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_AACS_READ_MEDIA_KEY_BLOCK_SIZE, IOCTL_AACS_READ_MEDIA_KEY_BLOCK_SIZE control code [Storage Devices], k307_0f77e9ec-80d5-4a17-8aa5-3cea982a9099.xml, ntddcdvd/IOCTL_AACS_READ_MEDIA_KEY_BLOCK_SIZE, storage.ioctl_aacs_read_media_key_block_size
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ntddcdvd.h
 api_name:
 -	IOCTL_AACS_READ_MEDIA_KEY_BLOCK_SIZE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DVD_STRUCTURE_FORMAT, *PDVD_STRUCTURE_FORMAT
 ---
@@ -77,7 +78,7 @@ The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains a ULONG that ho
 
 ### -output-buffer-length
 
-Use this value to determine the size of the buffer to allocate for <a href="..\ntddcdvd\ni-ntddcdvd-ioctl_aacs_read_media_key_block.md">IOCTL_AACS_READ_MEDIA_KEY_BLOCK</a>. The size is always a multiple of 32,768 (0x8000).
+Use this value to determine the size of the buffer to allocate for <a href="https://msdn.microsoft.com/library/windows/hardware/ff559279">IOCTL_AACS_READ_MEDIA_KEY_BLOCK</a>. The size is always a multiple of 32,768 (0x8000).
 
 
 ### -in-out-buffer

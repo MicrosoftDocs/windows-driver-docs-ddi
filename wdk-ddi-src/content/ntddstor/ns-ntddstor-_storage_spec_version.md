@@ -7,7 +7,7 @@ old-location: storage\storage_spec_version.htm
 old-project: storage
 ms.assetid: E7E80C4E-C002-4F00-AF7E-6B8DDA337323
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSTORAGE_SPEC_VERSION, PSTORAGE_SPEC_VERSION, PSTORAGE_SPEC_VERSION union pointer [Storage Devices], STORAGE_SPEC_VERSION, STORAGE_SPEC_VERSION union [Storage Devices], _STORAGE_SPEC_VERSION, ntddstor/PSTORAGE_SPEC_VERSION, ntddstor/STORAGE_SPEC_VERSION, storage.storage_spec_version"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ntddstor.h
 api_name:
 -	STORAGE_SPEC_VERSION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STORAGE_SPEC_VERSION, *PSTORAGE_SPEC_VERSION
 ---
@@ -50,26 +51,6 @@ req.typenames: STORAGE_SPEC_VERSION, *PSTORAGE_SPEC_VERSION
 
 
 Indicates the specification of the storage device.
-
-
-## -syntax
-
-
-````
-typedef union _STORAGE_SPEC_VERSION {
-  struct {
-    union {
-      struct {
-        BYTE SubMinor;
-        BYTE Minor;
-      } DUMMYSTRUCTNAME;
-      WORD   AsUshort;
-    } MinorVersion;
-    WORD  MajorVersion;
-  } DUMMYSTRUCTNAME;
-  DWORD  AsUlong;
-} STORAGE_SPEC_VERSION, *PSTORAGE_SPEC_VERSION;
-````
 
 
 ## -struct-fields

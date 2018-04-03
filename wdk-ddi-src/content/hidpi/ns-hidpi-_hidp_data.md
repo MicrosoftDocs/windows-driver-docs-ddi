@@ -38,7 +38,8 @@ api_location:
 -	hidpi.h
 api_name:
 -	HIDP_DATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: HIDP_DATA, *PHIDP_DATA
 ---
@@ -50,21 +51,6 @@ req.typenames: HIDP_DATA, *PHIDP_DATA
 
 
 The HIDP_DATA structure contains information about a HID control's <a href="https://msdn.microsoft.com/84577544-515a-4fdc-86e5-518182c6c461">data index</a> and value in a HID report.
-
-
-## -syntax
-
-
-````
-typedef struct _HIDP_DATA {
-  USHORT DataIndex;
-  USHORT Reserved;
-  union {
-    ULONG   RawValue;
-    BOOLEAN On;
-  };
-} HIDP_DATA, *PHIDP_DATA;
-````
 
 
 ## -struct-fields
@@ -103,16 +89,15 @@ See <a href="https://msdn.microsoft.com/d26d169f-4116-4d81-94c7-63c92d22877d">Ex
 
 ## -see-also
 
-<a href="..\hidpi\nf-hidpi-hidp_setdata.md">HidP_SetData</a>
 
 
 
-<a href="..\hidpi\nf-hidpi-hidp_getdata.md">HidP_GetData</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539718">HidP_GetData</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539783">HidP_SetData</a>
  
 
  
-
 

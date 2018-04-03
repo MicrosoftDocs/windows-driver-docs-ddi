@@ -7,7 +7,7 @@ old-location: display\reclaimresources.htm
 old-project: display
 ms.assetid: F0533DBB-CB18-4556-9871-2DF4CA719172
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3DDDI_RECLAIMRESOURCES, ReclaimResources, ReclaimResources callback function [Display Devices], d3dumddi/ReclaimResources, display.reclaimresources
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	ReclaimResources
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_PTE
 ---
@@ -50,20 +51,6 @@ req.typenames: DXGK_PTE
 
 
 Called by the Microsoft Direct3D runtime to reclaim video memory resources that it  previously offered  for reuse.
-
-
-## -prototype
-
-
-````
-PFND3DDDI_RECLAIMRESOURCES ReclaimResources;
-
-__checkReturn HRESULT APIENTRY* ReclaimResources(
-  _In_       HANDLE                     hDevice,
-  _In_ const D3DDDIARG_RECLAIMRESOURCES *pData
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -87,7 +74,7 @@ __checkReturn HRESULT APIENTRY* ReclaimResources(
 
 #### - pData [in]
 
- A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_reclaimresources.md">D3DDDIARG_RECLAIMRESOURCES</a> structure that defines the video memory resources to reclaim.
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh451080">D3DDDIARG_RECLAIMRESOURCES</a> structure that defines the video memory resources to reclaim.
 
 
 ## -returns
@@ -151,7 +138,18 @@ This error code is returned if the driver calls the <a href="https://msdn.micros
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451080">D3DDDIARG_RECLAIMRESOURCES</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544519">D3DDDI_DEVICEFUNCS</a>
+
+
+
+<a href="https://msdn.microsoft.com/68551AD7-AC0C-4138-948F-33773F02DA41">OfferResources</a>
 
 
 
@@ -160,19 +158,7 @@ This error code is returned if the driver calls the <a href="https://msdn.micros
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451695">pfnReclaimAllocationsCb</a>
-
-
-
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_reclaimresources.md">D3DDDIARG_RECLAIMRESOURCES</a>
-
-
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_offerresources.md">OfferResources</a>
-
-
-
  
 
  
-
 

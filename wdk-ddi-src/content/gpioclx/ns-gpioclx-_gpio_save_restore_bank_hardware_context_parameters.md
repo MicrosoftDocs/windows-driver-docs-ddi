@@ -38,7 +38,8 @@ api_location:
 -	Gpioclx.h
 api_name:
 -	GPIO_SAVE_RESTORE_BANK_HARDWARE_CONTEXT_PARAMETERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GPIO_SAVE_RESTORE_BANK_HARDWARE_CONTEXT_PARAMETERS, *PGPIO_SAVE_RESTORE_BANK_HARDWARE_CONTEXT_PARAMETERS
 ---
@@ -50,18 +51,6 @@ req.typenames: GPIO_SAVE_RESTORE_BANK_HARDWARE_CONTEXT_PARAMETERS, *PGPIO_SAVE_R
 
 
 The <b>GPIO_SAVE_RESTORE_BANK_HARDWARE_CONTEXT_PARAMETERS</b> structure describes a bank of general-purpose I/O (GPIO) pins whose hardware state is to be saved or restored.
-
-
-## -syntax
-
-
-````
-typedef struct _GPIO_SAVE_RESTORE_BANK_HARDWARE_CONTEXT_PARAMETERS {
-  BANK_ID                                       BankId;
-  ULONG                                         State;
-  GPIO_SAVE_RESTORE_BANK_HARDWARE_CONTEXT_FLAGS Flags;
-} GPIO_SAVE_RESTORE_BANK_HARDWARE_CONTEXT_PARAMETERS, *PGPIO_SAVE_RESTORE_BANK_HARDWARE_CONTEXT_PARAMETERS;
-````
 
 
 ## -struct-fields
@@ -95,15 +84,6 @@ The <i>Parameters</i> parameter of the <a href="https://msdn.microsoft.com/libra
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439419">CLIENT_SaveBankHardwareContext</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439414">CLIENT_RestoreBankHardwareContext</a>
 
 
 
@@ -111,8 +91,16 @@ The <i>Parameters</i> parameter of the <a href="https://msdn.microsoft.com/libra
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439414">CLIENT_RestoreBankHardwareContext</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439419">CLIENT_SaveBankHardwareContext</a>
  
 
  
-
 

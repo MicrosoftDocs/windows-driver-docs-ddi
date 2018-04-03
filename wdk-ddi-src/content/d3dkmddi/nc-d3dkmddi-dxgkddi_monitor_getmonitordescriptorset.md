@@ -7,7 +7,7 @@ old-location: display\dxgk_monitor_interface_pfngetmonitordescriptorset.htm
 old-project: display
 ms.assetid: e2244cd3-6630-440b-a4f7-1e0fa5702161
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_MONITOR_GETMONITORDESCRIPTORSET, VidPnFunctions_3d364729-f0d7-4bba-a71b-08d9c56499d7.xml, d3dkmddi/pfnGetMonitorDescriptorSet, display.dxgk_monitor_interface_pfngetmonitordescriptorset, pfnGetMonitorDescriptorSet, pfnGetMonitorDescriptorSet callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	pfnGetMonitorDescriptorSet
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 ---
@@ -52,22 +53,6 @@ req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 The <b>pfnGetMonitorDescriptorSet</b> function returns a handle to a monitor descriptor set object that is associated with a specified monitor.
 
 
-## -prototype
-
-
-````
-DXGKDDI_MONITOR_GETMONITORDESCRIPTORSET pfnGetMonitorDescriptorSet;
-
-NTSTATUS APIENTRY pfnGetMonitorDescriptorSet(
-  _In_  const D3DKMDT_ADAPTER                     hAdapter,
-  _In_  const D3DDDI_VIDEO_PRESENT_TARGET_ID      VideoPresentTargetId,
-  _Out_       PD3DKMDT_HMONITORDESCRIPTORSET      *phMonitorDescriptorSet,
-  _Out_ const DXGK_MONITORDESCRIPTORSET_INTERFACE **ppMonitorDescriptorSetInterface
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -75,7 +60,7 @@ NTSTATUS APIENTRY pfnGetMonitorDescriptorSet(
 
 ### -param hAdapter [in]
 
-[in] A handle that identifies a display adapter. The Microsoft DirectX graphics kernel subsystem previously provided this handle to the display miniport driver in the <i>DxgkInterface</i> parameter of the <a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a> function.
+[in] A handle that identifies a display adapter. The Microsoft DirectX graphics kernel subsystem previously provided this handle to the display miniport driver in the <i>DxgkInterface</i> parameter of the <a href="https://msdn.microsoft.com/ffacbb39-2581-4207-841d-28ce57fbc64d">DxgkDdiStartDevice</a> function.
 
 
 ### -param VideoPresentTargetId [in]
@@ -90,7 +75,7 @@ NTSTATUS APIENTRY pfnGetMonitorDescriptorSet(
 
 ### -param ppMonitorDescriptorSetInterface [out]
 
-[out] A pointer to a variable that receives a pointer to a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_monitordescriptorset_interface.md">DXGK_MONITORDESCRIPTORSET_INTERFACE</a> structure. The structure contains pointers to functions that the display miniport driver can call to inspect and alter the monitor descriptor set object.
+[out] A pointer to a variable that receives a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff561886">DXGK_MONITORDESCRIPTORSET_INTERFACE</a> structure. The structure contains pointers to functions that the display miniport driver can call to inspect and alter the monitor descriptor set object.
 
 
 ## -returns
@@ -169,27 +154,26 @@ There is no monitor connected to the video present target identified by <i>Video
 
 
 
-VidPN target identifiers are assigned by the display miniport driver. The <a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a> function, implemented by the display miniport driver, returns an array of <a href="..\dispmprt\ns-dispmprt-_dxgk_child_descriptor.md">DXGK_CHILD_DESCRIPTOR</a> structures, each of which contains an identifier.
+VidPN target identifiers are assigned by the display miniport driver. The <a href="https://msdn.microsoft.com/eb1a0df0-6239-4d82-8477-7dd015f80b6e">DxgkDdiQueryChildRelations</a> function, implemented by the display miniport driver, returns an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff561001">DXGK_CHILD_DESCRIPTOR</a> structures, each of which contains an identifier.
 
 You do not need to release the handle returned in <i>phMonitorDescriptorSet</i>.
 
-This function is also available in the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_monitor_interface_v2.md">DXGK_MONITOR_INTERFACE_V2</a> interface beginning with Windows 7.
+This function is also available in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561968">DXGK_MONITOR_INTERFACE_V2</a> interface beginning with Windows 7.
 
 
 
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_enumvidpncofuncmodality.md">DxgkDdiEnumVidPnCofuncModality</a>
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_monitor_interface_v2.md">DXGK_MONITOR_INTERFACE_V2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561968">DXGK_MONITOR_INTERFACE_V2</a>
 
 
 
+<a href="https://msdn.microsoft.com/6dda82bd-1a43-4ffe-b398-a9f8cee6d1c1">DxgkDdiEnumVidPnCofuncModality</a>
  
 
  
-
 

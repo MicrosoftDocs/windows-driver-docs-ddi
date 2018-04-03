@@ -7,7 +7,7 @@ old-location: kernel\rtlinttouint.htm
 old-project: kernel
 ms.assetid: 9D2C7E0F-99E2-4B95-8CB6-9158DA1D906F
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: RtlIntToUInt, RtlIntToUInt function [Kernel-Mode Driver Architecture], kernel.rtlinttouint, ntintsafe/RtlIntToUInt
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ntintsafe.h
 api_name:
 -	RtlIntToUInt
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 ---
@@ -50,17 +51,6 @@ req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 
 
 Converts a value of type <b>INT</b> to a value of type <b>UINT</b>.
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlIntToUInt(
-  _In_  INT  iOperand,
-  _Out_ UINT *puResult
-);
-````
 
 
 ## -parameters

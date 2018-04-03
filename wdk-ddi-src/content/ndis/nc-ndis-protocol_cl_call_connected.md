@@ -7,7 +7,7 @@ old-location: netvista\protocolclcallconnected.htm
 old-project: netvista
 ms.assetid: 675b2066-6a65-47cf-bde7-3c843f97c960
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: PROTOCOL_CL_CALL_CONNECTED, ProtocolClCallConnected, ProtocolClCallConnected callback function [Network Drivers Starting with Windows Vista], condis_client_ref_ddc435b4-ff27-4ced-b513-9bba45302496.xml, ndis/ProtocolClCallConnected, netvista.protocolclcallconnected
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ndis.h
 api_name:
 -	ProtocolClCallConnected
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
 ---
@@ -57,19 +58,6 @@ The
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>PROTOCOL_CL_CALL_CONNECTED</b> type.
    For more information, see the following Examples section.</div><div> </div>
 
-## -prototype
-
-
-````
-PROTOCOL_CL_CALL_CONNECTED ProtocolClCallConnected;
-
-VOID ProtocolClCallConnected(
-  _In_ NDIS_HANDLE ProtocolVcContext
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -79,7 +67,7 @@ VOID ProtocolClCallConnected(
 
 Specifies the client's handle to its per-VC context area. The client originally returned this
      handle to NDIS from its 
-     <a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a> function.
+     <a href="https://msdn.microsoft.com/b086dd24-74f5-474a-8684-09bf92ac731b">ProtocolCoCreateVc</a> function.
 
 
 ## -returns
@@ -148,33 +136,32 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismcmdispatchcallconnected.md">NdisMCmDispatchCallConnected</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiscosendnetbufferlists.md">NdisCoSendNetBufferLists</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561661">NdisCmDispatchCallConnected</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561728">NdisCoSendNetBufferLists</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_co_receive_net_buffer_lists.md">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562826">NdisMCmDispatchCallConnected</a>
+
+
+
+<a href="https://msdn.microsoft.com/8a5922ac-b22b-444e-9ea0-3bb56e71ef33">ProtocolClIncomingCall</a>
+
+
+
+<a href="https://msdn.microsoft.com/b086dd24-74f5-474a-8684-09bf92ac731b">ProtocolCoCreateVc</a>
+
+
+
+<a href="https://msdn.microsoft.com/1755804c-d82f-465d-862f-8a2340516f8e">
    ProtocolCoReceiveNetBufferLists</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiscmdispatchcallconnected.md">NdisCmDispatchCallConnected</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_cl_incoming_call.md">ProtocolClIncomingCall</a>
-
-
-
  
 
  
-
 

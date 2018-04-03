@@ -38,7 +38,8 @@ api_location:
 -	Prcomoem.h
 api_name:
 -	IPrintOemUni2.GetImplementedMethod
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
@@ -51,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <code>IPrintOemUni2::GetImplementedMethod</code> method is used by Unidrv to determine which <b>IPrintOemUni2</b> interface methods a rendering plug-in has implemented.
-
-
-## -syntax
-
-
-````
-STDMETHOD GetImplementedMethod(
-   PSTR pMethodName
-);
-````
 
 
 ## -parameters

@@ -7,7 +7,7 @@ old-location: display\pfnmapgpuvirtualaddresscb.htm
 old-project: display
 ms.assetid: DA67A98C-BE9C-412D-9382-CAC5B05FEE3B
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3DDDI_MAPGPUVIRTUALADDRESSCB, d3dumddi/pfnMapGpuVirtualAddressCb, display.pfnmapgpuvirtualaddresscb, pfnMapGpuVirtualAddressCb, pfnMapGpuVirtualAddressCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	pfnMapGpuVirtualAddressCb
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_PTE
 ---
@@ -50,24 +51,10 @@ req.typenames: DXGK_PTE
 
 
 <b>pfnMapGpuVirtualAddressCb</b> maps graphics processing unit (GPU) virtual address ranges to a specific allocation range or puts it to the <i>Invalid</i> or <i>Zero</i> state. The user mode driver can specify a specific base GPU virtual address to map or let the video memory manager automatically pick one. 
-When specifying a non-NULL <b>BaseAddress</b> value, the entire range from <b>BaseAddress</b> to <b>BaseAddress</b>+<b>Size</b> must be in a freed state or belong to a virtual address range, obtained by calling <b>pfnMapGpuVirtualAddressCb</b> or <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_reservegpuvirtualaddresscb.md">pfnReserveGpuVirtualAddressCb</a>. Note that when <b>Protection.Zero</b> or <b>Protection.NoAccess</b> is specified, the virtual address range cannot belong to a range, obtained by calling <b>pfnMapGpuVirtualAddressCb</b>.
+When specifying a non-NULL <b>BaseAddress</b> value, the entire range from <b>BaseAddress</b> to <b>BaseAddress</b>+<b>Size</b> must be in a freed state or belong to a virtual address range, obtained by calling <b>pfnMapGpuVirtualAddressCb</b> or <a href="https://msdn.microsoft.com/CEDE03E1-4B0D-4839-B7D6-0826CC103C5E">pfnReserveGpuVirtualAddressCb</a>. Note that when <b>Protection.Zero</b> or <b>Protection.NoAccess</b> is specified, the virtual address range cannot belong to a range, obtained by calling <b>pfnMapGpuVirtualAddressCb</b>.
 The user mode driver  may specify if the mapping should allow for write &amp; execute privileges in addition to read privileges, which always exist by default. 
 In LDA configuration the paging queue defines a physical GPU, whose page tables are modified, and the allocation handle (if not NULL) defines where the page table entries are pointing to. The allocation can be resident in any physical GPU memory segment.
 
-
-
-## -prototype
-
-
-````
-PFND3DDDI_MAPGPUVIRTUALADDRESSCB pfnMapGpuVirtualAddressCb;
-
-HRESULT APIENTRY CALLBACK* pfnMapGpuVirtualAddressCb(
-  _In_    HANDLE                      hDevice,
-  _Inout_ D3DDDI_MAPGPUVIRTUALADDRESS *pData
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -91,7 +78,7 @@ A handle to the display device.
 
 #### - pData [in, out]
 
-A pointer to a <a href="..\d3dukmdt\ns-d3dukmdt-d3dddi_mapgpuvirtualaddress.md">D3DDDI_MAPGPUVIRTUALADDRESS</a> structure that describes the operation to perform.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn906325">D3DDDI_MAPGPUVIRTUALADDRESS</a> structure that describes the operation to perform.
 
 
 
@@ -139,16 +126,15 @@ This function might also return other values.
 
 ## -see-also
 
-<a href="..\d3dukmdt\ns-d3dukmdt-d3dddi_mapgpuvirtualaddress.md">D3DDDI_MAPGPUVIRTUALADDRESS</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_reservegpuvirtualaddresscb.md">pfnReserveGpuVirtualAddressCb</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn906325">D3DDDI_MAPGPUVIRTUALADDRESS</a>
 
 
 
+<a href="https://msdn.microsoft.com/CEDE03E1-4B0D-4839-B7D6-0826CC103C5E">pfnReserveGpuVirtualAddressCb</a>
  
 
  
-
 

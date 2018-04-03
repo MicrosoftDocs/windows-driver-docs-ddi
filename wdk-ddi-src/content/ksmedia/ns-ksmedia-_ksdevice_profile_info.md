@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KSDEVICE_PROFILE_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSDEVICE_PROFILE_INFO, *PKSDEVICE_PROFILE_INFO
 ---
@@ -50,25 +51,6 @@ req.typenames: KSDEVICE_PROFILE_INFO, *PKSDEVICE_PROFILE_INFO
 
 
 The <b>KSDEVICE_PROFILE_INFO</b> is a generic structure designed to handle profile information for various device types.
-
-
-## -syntax
-
-
-````
-typedef struct _KSDEVICE_PROFILE_INFO {
-  UINT32 Type;
-  UINT32 Size;
-  union {
-    struct {
-      KSCAMERA_PROFILE_INFO             Info;
-      UINT32                            Reserved;
-      UINT32                            ConcurrencyCount;
-      PKSCAMERA_PROFILE_CONCURRENCYINFO Concurrency;
-    } Camera;
-  };
-} KSDEVICE_PROFILE_INFO, *PKSDEVICE_PROFILE_INFO;
-````
 
 
 ## -struct-fields
@@ -100,7 +82,7 @@ This must be set to sizeof(KSDEVICE_PROFILE_INFO) structure.
 
 <b>Info</b>
 
-Structure of <a href="..\ksmedia\ns-ksmedia-_kscamera_profile_info.md">KSCAMERA_PROFILE_INFO</a> defining the profile information of a camera.
+Structure of <a href="https://msdn.microsoft.com/library/windows/hardware/dn925214">KSCAMERA_PROFILE_INFO</a> defining the profile information of a camera.
 
 <b>Reserved</b>
 
@@ -108,7 +90,7 @@ Unused.  Must be set to 0.
 
 <b>ConcurrencyCount</b>
 
-Number of <a href="..\ksmedia\ns-ksmedia-_kscamera_profile_concurrencyinfo.md">KSCAMERA_PROFILE_CONCURRENCYINFO</a> structures in the <b>Concurrency</b> array.
+Number of <a href="https://msdn.microsoft.com/library/windows/hardware/dn925213">KSCAMERA_PROFILE_CONCURRENCYINFO</a> structures in the <b>Concurrency</b> array.
 
 For Windows 10 this must be less than or equal 1.
 

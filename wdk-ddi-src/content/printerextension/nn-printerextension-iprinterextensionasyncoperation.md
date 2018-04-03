@@ -38,7 +38,8 @@ api_location:
 -	Printerextension.h
 api_name:
 -	IPrinterExtensionAsyncOperation
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PrintSchemaSelectionType
 req.product: Windows 10 or later.
@@ -91,7 +92,6 @@ Cancels the asynchronous operation.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265391">SendBidiSetRequestAsync</a>
 
 
 
@@ -99,8 +99,8 @@ Cancels the asynchronous operation.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265391">SendBidiSetRequestAsync</a>
  
 
  
-
 

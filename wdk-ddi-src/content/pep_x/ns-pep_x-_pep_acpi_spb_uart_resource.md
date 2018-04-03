@@ -7,7 +7,7 @@ old-location: kernel\pep_acpi_spb_uart_resource.htm
 old-project: kernel
 ms.assetid: 3E8C7E47-EFCD-4261-9258-61C6A262287A
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*PPEP_ACPI_SPB_UART_RESOURCE, 0, 1, 2, 3, 4, 5, 6, 7, PEP_ACPI_SPB_UART_RESOURCE, PEP_ACPI_SPB_UART_RESOURCE structure [Kernel-Mode Driver Architecture], PPEP_ACPI_SPB_UART_RESOURCE, PPEP_ACPI_SPB_UART_RESOURCE structure pointer [Kernel-Mode Driver Architecture], _PEP_ACPI_SPB_UART_RESOURCE, kernel.pep_acpi_spb_uart_resource, pepfx/PEP_ACPI_SPB_UART_RESOURCE, pepfx/PPEP_ACPI_SPB_UART_RESOURCE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	pepfx.h
 api_name:
 -	PEP_ACPI_SPB_UART_RESOURCE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PEP_ACPI_SPB_UART_RESOURCE, *PPEP_ACPI_SPB_UART_RESOURCE, PEP_ACPI_SPB_UART_RESOURCE, *PPEP_ACPI_SPB_UART_RESOURCE
 ---
@@ -52,21 +53,6 @@ req.typenames: PEP_ACPI_SPB_UART_RESOURCE, *PPEP_ACPI_SPB_UART_RESOURCE, PEP_ACP
 The <b>PEP_ACPI_SPB_UART_RESOURCE</b> structure describes an ACPI UART serial bus resource.
 
 
-## -syntax
-
-
-````
-typedef struct _PEP_ACPI_SPB_UART_RESOURCE {
-  PEP_ACPI_SPB_RESOURCE SpbCommon;
-  ULONG                 BaudRate;
-  USHORT                RxBufferSize;
-  USHORT                TxBufferSize;
-  UCHAR                 Parity;
-  UCHAR                 LinesInUse;
-} PEP_ACPI_SPB_UART_RESOURCE, *PPEP_ACPI_SPB_UART_RESOURCE;
-````
-
-
 ## -struct-fields
 
 
@@ -74,7 +60,7 @@ typedef struct _PEP_ACPI_SPB_UART_RESOURCE {
 
 ### -field SpbCommon
 
-A <a href="..\pepfx\ns-pepfx-_pep_acpi_spb_resource.md">PEP_ACPI_SPB_RESOURCE</a> structure describing this resource.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/mt186695">PEP_ACPI_SPB_RESOURCE</a> structure describing this resource.
 
 
 ### -field BaudRate
@@ -255,12 +241,11 @@ Request to Send (RTS)
 
 ## -see-also
 
-<a href="..\pepfx\ns-pepfx-_pep_acpi_spb_resource.md">PEP_ACPI_SPB_RESOURCE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186695">PEP_ACPI_SPB_RESOURCE</a>
  
 
  
-
 

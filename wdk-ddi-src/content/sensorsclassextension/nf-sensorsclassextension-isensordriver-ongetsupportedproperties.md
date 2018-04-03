@@ -39,7 +39,8 @@ api_location:
 -	SensorsClassExtension.dll
 api_name:
 -	OnGetSupportedProperties
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SensorConnectionType
 req.product: Windows 10 or later.
@@ -52,17 +53,6 @@ req.product: Windows 10 or later.
 
 
 The <a href="https://msdn.microsoft.com/library/windows/hardware/ff545630">ISensorDriver::OnGetSupportedProperties</a> method retrieves the list of properties that the specified sensor provides.
-
-
-## -syntax
-
-
-````
-HRESULT OnGetSupportedProperties(
-   LPWSTR                          pwszSensorID,
-   IPortableDeviceKeyCollection ** ppSupportedProperties
-);
-````
 
 
 ## -parameters

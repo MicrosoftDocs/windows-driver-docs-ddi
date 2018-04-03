@@ -7,7 +7,7 @@ old-location: dtf\iwdtfaction2_enableobjectlogging.htm
 old-project: dtf
 ms.assetid: d95e49ce-1c6f-4ce5-9f89-68357f700a4b
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/29/2018
 ms.keywords: EnableObjectLogging method [Windows Device Testing Framework], EnableObjectLogging method [Windows Device Testing Framework], IWDTFAction2 interface, EnableObjectLogging,IWDTFAction2.EnableObjectLogging, IWDTFAction2, IWDTFAction2 interface [Windows Device Testing Framework], EnableObjectLogging method, IWDTFAction2::EnableObjectLogging, Microsoft.WDTF.IWDTFAction2.EnableObjectLogging, Microsoft::WDTF::IWDTFAction2::EnableObjectLogging, dtf.iwdtfaction2_enableobjectlogging, wdtf/IWDTFAction2::EnableObjectLogging
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	WDTF.Interop.metadata_dll.dll
 api_name:
 -	IWDTFAction2.EnableObjectLogging
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TTraceLevel
 req.product: Windows 10 or later.
@@ -51,14 +52,6 @@ req.product: Windows 10 or later.
 
 
 Enables object logging for the action.
-
-
-## -syntax
-
-
-````
-HRESULT EnableObjectLogging();
-````
 
 
 ## -parameters
@@ -79,12 +72,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\wdtf\nn-wdtf-iwdtfaction2.md">IWDTFAction2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406311">IWDTFAction2</a>
  
 
  
-
 

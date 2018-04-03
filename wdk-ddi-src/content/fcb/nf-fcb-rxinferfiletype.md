@@ -7,7 +7,7 @@ old-location: ifsk\rxinferfiletype.htm
 old-project: ifsk
 ms.assetid: 340b304c-5484-4d98-9ef4-8814c68443a0
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: RxInferFileType, RxInferFileType function [Installable File System Drivers], fcb/RxInferFileType, ifsk.rxinferfiletype, rxref_e020604c-fa08-40f3-895d-425347c73307.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	fcb.h
 api_name:
 -	RxInferFileType
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FA_ENTRY, *PFA_ENTRY
 ---
@@ -50,16 +51,6 @@ req.typenames: FA_ENTRY, *PFA_ENTRY
 
 
 <b>RxInferFileType</b> tries to infer the file type (directory or non-directory) from a member in the RX_CONTEXT structure.
-
-
-## -syntax
-
-
-````
-RX_FILE_TYPE RxInferFileType(
-  _In_ PRX_CONTEXT RxContext
-);
-````
 
 
 ## -parameters
@@ -137,7 +128,6 @@ The <b>RxInferFileType</b> routine is not called internally by RDBSS. The <b>RxI
 
 ## -see-also
 
-<a href="..\rxcontx\ns-rxcontx-_rx_context.md">RX_CONTEXT</a>
 
 
 
@@ -145,8 +135,8 @@ The <b>RxInferFileType</b> routine is not called internally by RDBSS. The <b>RxI
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554751">RX_CONTEXT</a>
  
 
  
-
 

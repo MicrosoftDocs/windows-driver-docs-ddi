@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KStrFreeFrame
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SOUNDDETECTOR_PATTERNHEADER
 ---
@@ -52,20 +53,6 @@ req.typenames: SOUNDDETECTOR_PATTERNHEADER
 The <i>KStrFreeFrame</i> routine describes a vendor-supplied frame deallocation function. 
 
 
-## -prototype
-
-
-````
-PFNALLOCATOR_FREEFRAME KStrFreeFrame;
-
-VOID KStrFreeFrame(
-  _In_ PFILE_OBJECT FileObject,
-  _In_ PVOID        Frame
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -73,7 +60,7 @@ VOID KStrFreeFrame(
 
 ### -param FileObject [in]
 
-Pointer to a <a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a> structure for which this frame has been allocated.
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff545834">FILE_OBJECT</a> structure for which this frame has been allocated.
 
 
 ### -param Frame [in]
@@ -94,7 +81,7 @@ Returns STATUS_SUCCESS if the request is handled.  Otherwise returns an appropri
 
 
 
-This type is used in the <b>FreeFrame</b> member of the <a href="..\ks\ns-ks-ksstreamallocator_functiontable.md">KSSTREAMALLOCATOR_FUNCTIONTABLE</a> structure.
+This type is used in the <b>FreeFrame</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566862">KSSTREAMALLOCATOR_FUNCTIONTABLE</a> structure.
 
 You can pass an instance of this structure as part of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff565633">KSPROPERTY_STREAMALLOCATOR_FUNCTIONTABLE</a> property request.
 
@@ -103,16 +90,15 @@ You can pass an instance of this structure as part of a <a href="https://msdn.mi
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565633">KSPROPERTY_STREAMALLOCATOR_FUNCTIONTABLE</a>
 
 
 
-<a href="..\ks\ns-ks-ksstreamallocator_functiontable.md">KSSTREAMALLOCATOR_FUNCTIONTABLE</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566862">KSSTREAMALLOCATOR_FUNCTIONTABLE</a>
  
 
  
-
 

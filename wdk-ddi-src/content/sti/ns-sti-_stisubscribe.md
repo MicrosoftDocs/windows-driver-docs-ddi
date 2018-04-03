@@ -38,7 +38,8 @@ api_location:
 -	sti.h
 api_name:
 -	STISUBSCRIBE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STISUBSCRIBE, *LPSTISUBSCRIBE
 req.product: Windows 10 or later.
@@ -51,21 +52,6 @@ req.product: Windows 10 or later.
 
 
 The STISUBSCRIBE structure is used as a parameter for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543768">IStiDevice::Subscribe</a> method.
-
-
-## -syntax
-
-
-````
-typedef struct _STISUBSCRIBE {
-  DWORD  dwSize;
-  DWORD  dwFlags;
-  DWORD  dwFilter;
-  HWND   hWndNotify;
-  HANDLE hEvent;
-  UINT   uiNotificationMessage;
-} STISUBSCRIBE, *LPSTISUBSCRIBE;
-````
 
 
 ## -struct-fields

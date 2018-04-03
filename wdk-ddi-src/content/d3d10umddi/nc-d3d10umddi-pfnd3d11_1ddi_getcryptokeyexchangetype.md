@@ -7,7 +7,7 @@ old-location: display\getcryptokeyexchangetype.htm
 old-project: display
 ms.assetid: 64870c9f-facf-4344-93d0-12cbcec86e11
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: GetCryptoKeyExchangeType, GetCryptoKeyExchangeType callback function [Display Devices], PFND3D11_1DDI_GETCRYPTOKEYEXCHANGETYPE, d3d10umddi/GetCryptoKeyExchangeType, display.getcryptokeyexchangetype
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3d10umddi.h
 api_name:
 -	GetCryptoKeyExchangeType
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 ---
@@ -50,23 +51,6 @@ req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 
 
 Queries the type of key exchange that is supported by the cryptographic engine of the display adapter for a specified encryption algorithm and video decoder profile.  
-
-
-## -prototype
-
-
-````
-PFND3D11_1DDI_GETCRYPTOKEYEXCHANGETYPE GetCryptoKeyExchangeType;
-
-HRESULT APIENTRY* GetCryptoKeyExchangeType(
-  _In_        D3D10DDI_HDEVICE hDevice,
-  _In_  const GUID             *pCryptoType,
-  _In_  const GUID             *pDecodeProfile,
-  _In_        UINT             Index,
-  _Out_       GUID             *pKeyExchangeType
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -171,16 +155,15 @@ The <i>pCryptoType</i> parameter can contain one of the following values:
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_content_protection_caps.md">D3D11_1DDI_VIDEO_CONTENT_PROTECTION_CAPS</a>
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getcontentprotectioncaps.md">GetContentProtectionCaps</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450936">D3D11_1DDI_VIDEO_CONTENT_PROTECTION_CAPS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451656">GetContentProtectionCaps</a>
  
 
  
-
 

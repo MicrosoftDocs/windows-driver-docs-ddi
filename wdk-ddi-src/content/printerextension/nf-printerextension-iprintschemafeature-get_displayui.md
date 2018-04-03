@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	IPrintSchemaFeature.DisplayUI
 -	IPrintSchemaFeature.get_DisplayUI
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PrintSchemaSelectionType
 req.product: Windows 10 or later.
@@ -56,16 +57,6 @@ Gets the setting that indicates whether or not to show the print UI.
 This property is read-only.
 
 
-## -syntax
-
-
-````
-HRESULT get_DisplayUI(
-  [out, retval] BOOL *pbShow
-);
-````
-
-
 ## -parameters
 
 
@@ -80,12 +71,11 @@ Note that the <b>DisplayUI</b> property  corresponds to the psk:DisplayUI elemen
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintschemafeature.md">IPrintSchemaFeature</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451284">IPrintSchemaFeature</a>
  
 
  
-
 

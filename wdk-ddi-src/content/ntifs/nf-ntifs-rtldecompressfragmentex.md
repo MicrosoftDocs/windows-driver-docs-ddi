@@ -7,7 +7,7 @@ old-location: ifsk\rtldecompressfragmentex.htm
 old-project: ifsk
 ms.assetid: A4FE108D-85CE-4F6A-A17A-E81684764FD3
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: RtlDecompressFragmentEx, RtlDecompressFragmentEx routine [Installable File System Drivers], ifsk.rtldecompressfragmentex, ntifs/RtlDecompressFragmentEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	RtlDecompressFragmentEx
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -50,24 +51,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>RtlDecompressFragmentEx</b> function is used to decompress part of a compressed buffer (that is, a buffer "fragment"), using multiple processors where possible.
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlDecompressFragmentEx(
-  _In_  ULONG  CompressionFormat,
-  _Out_ PUCHAR UncompressedFragment,
-  _In_  ULONG  UncompressedFragmentSize,
-  _In_  PUCHAR CompressedBuffer,
-  _In_  ULONG  CompressedBufferSize,
-  _In_  ULONG  FragmentOffset,
-  _In_  ULONG  UncompressedChunkSize,
-  _Out_ PULONG FinalUncompressedSize,
-  _In_  PVOID  WorkSpace
-);
-````
 
 
 ## -parameters
@@ -155,7 +138,7 @@ A pointer to a caller-allocated variable which receives the size, in bytes, of t
 
 ### -param WorkSpace [in]
 
-A pointer to a caller-allocated work space buffer used by the <b>RtlDecompressFragmentEx</b> function during decompression. Use the <a href="..\ntifs\nf-ntifs-rtlgetcompressionworkspacesize.md">RtlGetCompressionWorkSpaceSize</a> function to determine the correct work space buffer size.
+A pointer to a caller-allocated work space buffer used by the <b>RtlDecompressFragmentEx</b> function during decompression. Use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552291">RtlGetCompressionWorkSpaceSize</a> function to determine the correct work space buffer size.
 
 
 ## -returns
@@ -163,7 +146,7 @@ A pointer to a caller-allocated work space buffer used by the <b>RtlDecompressFr
 
 
 
-<a href="..\ntifs\nf-ntifs-rtldecompressfragment.md">RtlDecompressFragment</a>returns an appropriate error status, such as one of the following:
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552197">RtlDecompressFragment</a>returns an appropriate error status, such as one of the following:
 
 <table>
 <tr>
@@ -227,32 +210,31 @@ An invalid compression format was specified via the <i>CompressionFormat</i> par
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtlcompressbuffer.md">RtlCompressBuffer</a>
 
 
 
-<a href="..\ntifs\ns-ntifs-_file_compression_information.md">FILE_COMPRESSION_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540239">FILE_COMPRESSION_INFORMATION</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-rtldecompressbuffer.md">RtlDecompressBuffer</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552127">RtlCompressBuffer</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-rtldecompressfragment.md">RtlDecompressFragment</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552191">RtlDecompressBuffer</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-rtldecompressbufferex2.md">RtlDecompressBufferEx2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439511">RtlDecompressBufferEx</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-rtldecompressbufferex.md">RtlDecompressBufferEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt426737">RtlDecompressBufferEx2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552197">RtlDecompressFragment</a>
  
 
  
-
 

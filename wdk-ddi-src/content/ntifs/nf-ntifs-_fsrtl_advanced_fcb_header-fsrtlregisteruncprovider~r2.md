@@ -7,7 +7,7 @@ old-location: ifsk\fsrtlregisteruncprovider.htm
 old-project: ifsk
 ms.assetid: 25bd13de-cbac-408f-b985-e131499f05f0
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FsRtlRegisterUncProvider, FsRtlRegisterUncProvider routine [Installable File System Drivers], fsrtlref_275d75b9-0033-4cfc-bb22-5ebfcab8d6ba.xml, ifsk.fsrtlregisteruncprovider, ntifs/FsRtlRegisterUncProvider
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	FsRtlRegisterUncProvider
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -50,18 +51,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>FsRtlRegisterUncProvider</b> routine registers a network redirector as a universal naming convention (UNC) provider with the system multiple UNC provider (MUP).
-
-
-## -syntax
-
-
-````
-NTSTATUS FsRtlRegisterUncProvider(
-  _Out_ PHANDLE         MupHandle,
-  _In_  PUNICODE_STRING RedirDevName,
-  _In_  BOOLEAN         MailslotsSupported
-);
-````
 
 
 ## -parameters
@@ -194,7 +183,7 @@ On Windows Server 2003, Windows XP, and Windows 2000, remote file operations per
 
 For network redirectors that conform to the Windows Vistaredirector model, MUP is involved even when a mapped network drive is used. File operations performed on the mapped drive go through MUP to the network redirector. Note that in this case that MUP simply passes the operation to the network redirector that is involved.
 
-Network redirectors that conform to the Windows Vista redirector model should use <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlregisteruncproviderex~r3.md">FsRtlRegisterUncProviderEx</a>, not <b>FsRtlRegisterUncProvider</b>.
+Network redirectors that conform to the Windows Vista redirector model should use <a href="https://msdn.microsoft.com/library/windows/hardware/ff547184">FsRtlRegisterUncProviderEx</a>, not <b>FsRtlRegisterUncProvider</b>.
 
 <b>FsRtlRegisterUncProvider</b> sends a private file system control (FSCTL) to MUP to perform the registration. 
 
@@ -214,11 +203,11 @@ Changes to the ProviderOrder registry value require a reboot to take effect in M
 
 Only one network provider on a system can support mailslots. So the <i>MailslotsSupported</i> parameter is normally only set to <b>TRUE</b> for the Microsoft SMB redirector.
 
-A driver calling <a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a> to create a device object for a network redirector that registers as a UNC provider (a driver that calls <b>FsRtlRegisterUncProvider</b>) must pass FILE_REMOTE_DEVICE as one of the options in the <i>DeviceCharacteristics</i> parameter that is passed to <b>IoCreateDevice</b>.
+A driver calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff548397">IoCreateDevice</a> to create a device object for a network redirector that registers as a UNC provider (a driver that calls <b>FsRtlRegisterUncProvider</b>) must pass FILE_REMOTE_DEVICE as one of the options in the <i>DeviceCharacteristics</i> parameter that is passed to <b>IoCreateDevice</b>.
 
-To deregister a UNC provider, use <a href="..\ntifs\nf-ntifs-fsrtlderegisteruncprovider.md">FsRtlDeregisterUncProvider</a> and pass the <i>MupHandle</i> parameter.
+To deregister a UNC provider, use <a href="https://msdn.microsoft.com/library/windows/hardware/ff545865">FsRtlDeregisterUncProvider</a> and pass the <i>MupHandle</i> parameter.
 
-If a driver registers as a local disk file system (calls <a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a> with the <i>DeviceType</i> parameter set to FILE_DEVICE_DISK_FILE_SYSTEM rather than FILE_NETWORK_FILE_SYSTEM, for example), the driver must not call <b>FsRtlRegisterUncProvider</b> to register as a UNC provider with MUP.
+If a driver registers as a local disk file system (calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff548397">IoCreateDevice</a> with the <i>DeviceType</i> parameter set to FILE_DEVICE_DISK_FILE_SYSTEM rather than FILE_NETWORK_FILE_SYSTEM, for example), the driver must not call <b>FsRtlRegisterUncProvider</b> to register as a UNC provider with MUP.
 
 For more information, see the following sections in the Design Guide:
 
@@ -235,24 +224,23 @@ For more information, see the following sections in the Design Guide:
 
 ## -see-also
 
-<a href="..\ntifs\ni-ntifs-ioctl_redir_query_path_ex.md">IOCTL_REDIR_QUERY_PATH_EX</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlregisteruncproviderex~r3.md">FsRtlRegisterUncProviderEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545865">FsRtlDeregisterUncProvider</a>
 
 
 
-<a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547184">FsRtlRegisterUncProviderEx</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-fsrtlderegisteruncprovider.md">FsRtlDeregisterUncProvider</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548320">IOCTL_REDIR_QUERY_PATH_EX</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548397">IoCreateDevice</a>
  
 
  
-
 

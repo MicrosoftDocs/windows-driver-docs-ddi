@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KSPROPERTY_TUNER_SCAN_CAPS_S
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSPROPERTY_TUNER_SCAN_CAPS_S, *PKSPROPERTY_TUNER_SCAN_CAPS_S
 ---
@@ -50,20 +51,6 @@ req.typenames: KSPROPERTY_TUNER_SCAN_CAPS_S, *PKSPROPERTY_TUNER_SCAN_CAPS_S
 
 
 The KSPROPERTY_TUNER_SCAN_CAPS_S structure describes the hardware scanning capabilities of a tuning device.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  KSPROPERTY Property;
-  BOOL       fSupportsHardwareAssistedScanning;
-  ULONG      SupportedBroadcastStandards;
-  PVOID      GUIDBucket;
-  ULONG      lengthofBucket;
-} KSPROPERTY_TUNER_SCAN_CAPS_S, *PKSPROPERTY_TUNER_SCAN_CAPS_S;
-````
 
 
 ## -struct-fields
@@ -90,7 +77,7 @@ The number of broadcast video standard types that the tuning device can support.
 
 An array of GUIDs for the network types that the tuning device supports. 
 
-Based on the supported number in <b>SupportedBroadcastStandards</b> that is returned in the initial call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565887">KSPROPERTY_TUNER_SCAN_CAPS</a> property, the analog or digital tuner filter then allocates an array of GUIDs. The driver uses this allocated user buffer to return all the supported GUIDs in the next call to KSPROPERTY_TUNER_SCAN_CAPS. The driver must call the <a href="..\wdm\nf-wdm-probeforwrite.md">ProbeForWrite</a> function to validate this user buffer and must ensure that the length of the buffer is valid. Although unlikely, if the driver will access this buffer in an arbitrary thread, it should map the buffer into kernel space. Currently, scanning capabilities are defined for supporting the analog standard. If the driver supports analog and the application intends to start a scanning session for analog, the corresponding capabilities are defined by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565881">KSPROPERTY_TUNER_NETWORKTYPE_SCAN_CAPS</a> property. Other scanning capabilities to support other broadcast standards (for example, DVB-S) are not yet supported. 
+Based on the supported number in <b>SupportedBroadcastStandards</b> that is returned in the initial call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565887">KSPROPERTY_TUNER_SCAN_CAPS</a> property, the analog or digital tuner filter then allocates an array of GUIDs. The driver uses this allocated user buffer to return all the supported GUIDs in the next call to KSPROPERTY_TUNER_SCAN_CAPS. The driver must call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559879">ProbeForWrite</a> function to validate this user buffer and must ensure that the length of the buffer is valid. Although unlikely, if the driver will access this buffer in an arbitrary thread, it should map the buffer into kernel space. Currently, scanning capabilities are defined for supporting the analog standard. If the driver supports analog and the application intends to start a scanning session for analog, the corresponding capabilities are defined by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565881">KSPROPERTY_TUNER_NETWORKTYPE_SCAN_CAPS</a> property. Other scanning capabilities to support other broadcast standards (for example, DVB-S) are not yet supported. 
 
 
 ### -field lengthofBucket
@@ -100,15 +87,10 @@ The number of GUIDs in the <b>GUIDBucket</b> array.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567800">PROPSETID_TUNER</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565887">KSPROPERTY_TUNER_SCAN_CAPS</a>
 
 
 
@@ -116,8 +98,12 @@ The number of GUIDs in the <b>GUIDBucket</b> array.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565887">KSPROPERTY_TUNER_SCAN_CAPS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567800">PROPSETID_TUNER</a>
  
 
  
-
 

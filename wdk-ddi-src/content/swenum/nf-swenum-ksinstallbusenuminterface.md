@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsInstallBusEnumInterface
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STREAM_TIME_REFERENCE, *PSTREAM_TIME_REFERENCE
 req.product: Windows 10 or later.
@@ -54,16 +55,6 @@ req.product: Windows 10 or later.
 <i>This function is intended for internal use only.</i>
 
 The <b>KsInstallBusEnumInterface</b> function installs an interface to the demand-load bus enumerator object. 
-
-
-## -syntax
-
-
-````
-NTSTATUS KsInstallBusEnumInterface(
-  _In_ PIRP Irp
-);
-````
 
 
 ## -parameters
@@ -96,16 +87,15 @@ The <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> is assumed to contain a SWENUM_INS
 
 ## -see-also
 
-<a href="..\swenum\ns-swenum-_swenum_install_interface.md">SWENUM_INSTALL_INTERFACE</a>
 
 
 
-<a href="..\swenum\nf-swenum-ksremovebusenuminterface.md">KsRemoveBusEnumInterface</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566794">KsRemoveBusEnumInterface</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568498">SWENUM_INSTALL_INTERFACE</a>
  
 
  
-
 

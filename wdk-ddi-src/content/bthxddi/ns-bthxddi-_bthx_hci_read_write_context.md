@@ -38,7 +38,8 @@ api_location:
 -	BthXDDI.h
 api_name:
 -	BTHX_HCI_READ_WRITE_CONTEXT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BTHX_HCI_READ_WRITE_CONTEXT, *PBTHX_HCI_READ_WRITE_CONTEXT
 ---
@@ -50,18 +51,6 @@ req.typenames: BTHX_HCI_READ_WRITE_CONTEXT, *PBTHX_HCI_READ_WRITE_CONTEXT
 
 
 The BTHX_HCI_READ_WRITE_CONTEXT structure is used as an input/output structure for  the IOCTL_BTHX_READ_HCI and IOCTL_BTHX_WRITE_HCI IOCTLs.
-
-
-## -syntax
-
-
-````
-typedef struct _BTHX_HCI_READ_WRITE_CONTEXT {
-  ULONG DataLen;
-  UCHAR Type;
-  UCHAR Data[];
-} BTHX_HCI_READ_WRITE_CONTEXT, *PBTHX_HCI_READ_WRITE_CONTEXT;
-````
 
 
 ## -struct-fields
@@ -95,9 +84,9 @@ Actual data to be read/written.
 
 
 
-The BTHX_HCI_READ_WRITE_CONTEXT structure is an input parameter to the <a href="..\bthxddi\ni-bthxddi-ioctl_bthx_write_hci.md">IOCTL_BTHX_HCI_WRITE IOCTL</a> and specifies the type of packet associated with the write. It also specifies the data to be written in the <b>Data</b> member.
+The BTHX_HCI_READ_WRITE_CONTEXT structure is an input parameter to the <a href="https://msdn.microsoft.com/77BBF6AC-F5FA-4795-8898-6DC02983F573">IOCTL_BTHX_HCI_WRITE IOCTL</a> and specifies the type of packet associated with the write. It also specifies the data to be written in the <b>Data</b> member.
 
-This structure is also used as an output parameter for the <a href="..\bthxddi\ni-bthxddi-ioctl_bthx_read_hci.md">IOCTL_BTHX_HCI_READ</a> IOCTL and specifies the type of packet and the data associated with the read.
+This structure is also used as an output parameter for the <a href="https://msdn.microsoft.com/02CC3534-D319-40C1-A73C-DEFC1F5709F7">IOCTL_BTHX_HCI_READ</a> IOCTL and specifies the type of packet and the data associated with the read.
 
 This structure is packed to 1-byte boundary.
 

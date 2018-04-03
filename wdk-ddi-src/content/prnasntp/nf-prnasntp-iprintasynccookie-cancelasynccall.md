@@ -38,7 +38,8 @@ api_location:
 -	Prnasntp.h
 api_name:
 -	IPrintAsyncCookie.CancelAsyncCall
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USERDATA, *PUSERDATA
 req.product: Windows 10 or later.
@@ -51,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 
-
-
-## -syntax
-
-
-````
-HRESULT CancelAsyncCall(
-  [in] HRESULT hRes
-);
-````
 
 
 ## -parameters
@@ -84,12 +75,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\prnasntp\nn-prnasntp-iprintasynccookie.md">IPrintAsyncCookie</a>
 
 
 
+<a href="https://msdn.microsoft.com/CF323800-F4C3-4CDB-B4EC-13359E262BF3">IPrintAsyncCookie</a>
  
 
  
-
 

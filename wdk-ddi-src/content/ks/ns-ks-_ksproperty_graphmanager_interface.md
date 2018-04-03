@@ -38,7 +38,8 @@ api_location:
 -	Ks.h
 api_name:
 -	KSPROPERTY_GRAPHMANAGER_INTERFACE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSPROPERTY_GRAPHMANAGER_INTERFACE, *PKSPROPERTY_GRAPHMANAGER_INTERFACE
 ---
@@ -50,17 +51,6 @@ req.typenames: KSPROPERTY_GRAPHMANAGER_INTERFACE, *PKSPROPERTY_GRAPHMANAGER_INTE
 
 
 
-
-
-## -syntax
-
-
-````
-typedef struct _KSPROPERTY_GRAPHMANAGER_INTERFACE {
-  PFILE_OBJECT                 GraphManager;
-  KSGRAPHMANAGER_FUNCTIONTABLE FunctionTable;
-} KSPROPERTY_GRAPHMANAGER_INTERFACE, *PKSPROPERTY_GRAPHMANAGER_INTERFACE;
-````
 
 
 ## -struct-fields

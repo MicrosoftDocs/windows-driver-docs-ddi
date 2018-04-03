@@ -38,7 +38,8 @@ api_location:
 -	ntddk.h
 api_name:
 -	WHEA_MEMORY_ERROR_SECTION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WHEA_MEMORY_ERROR_SECTION, *PWHEA_MEMORY_ERROR_SECTION
 ---
@@ -52,31 +53,6 @@ req.typenames: WHEA_MEMORY_ERROR_SECTION, *PWHEA_MEMORY_ERROR_SECTION
 The WHEA_MEMORY_ERROR_SECTION structure describes platform memory error data.
 
 
-## -syntax
-
-
-````
-typedef struct _WHEA_MEMORY_ERROR_SECTION {
-  WHEA_MEMORY_ERROR_SECTION_VALIDBITS ValidBits;
-  WHEA_ERROR_STATUS                   ErrorStatus;
-  ULONGLONG                           PhysicalAddress;
-  ULONGLONG                           PhysicalAddressMask;
-  USHORT                              Node;
-  USHORT                              Card;
-  USHORT                              Module;
-  USHORT                              Bank;
-  USHORT                              Device;
-  USHORT                              Row;
-  USHORT                              Column;
-  USHORT                              BitPosition;
-  ULONGLONG                           RequesterId;
-  ULONGLONG                           ResponderId;
-  ULONGLONG                           TargetId;
-  UCHAR                               ErrorType;
-} WHEA_MEMORY_ERROR_SECTION, *PWHEA_MEMORY_ERROR_SECTION;
-````
-
-
 ## -struct-fields
 
 
@@ -84,12 +60,12 @@ typedef struct _WHEA_MEMORY_ERROR_SECTION {
 
 ### -field ValidBits
 
-A <a href="..\ntddk\ns-ntddk-_whea_memory_error_section_validbits.md">WHEA_MEMORY_ERROR_SECTION_VALIDBITS</a> union that specifies which members of this structure contain valid data.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff560568">WHEA_MEMORY_ERROR_SECTION_VALIDBITS</a> union that specifies which members of this structure contain valid data.
 
 
 ### -field ErrorStatus
 
-A <a href="..\ntddk\ns-ntddk-_whea_error_status.md">WHEA_ERROR_STATUS</a> structure that contains memory error status data.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff560514">WHEA_ERROR_STATUS</a> structure that contains memory error status data.
 
 This member contains valid data only if the <b>Validbits.ErrorStatus</b> bit is set.
 
@@ -231,18 +207,13 @@ Contains the SMBIOS handle for the Memory Device Structure that represents the M
 
 
 
-The WHEA_MEMORY_ERROR_SECTION structure describes the error data that is contained in a platform memory error section of an <a href="https://msdn.microsoft.com/080da29a-b5cb-45a5-848d-048d9612ee2a">error record</a>. An error record contains a platform memory error section only if the <b>SectionType </b>member of one of the <a href="..\ntddk\ns-ntddk-_whea_error_record_section_descriptor.md">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a> structures that describe the error record sections for that error record contains MEMORY_ERROR_SECTION_GUID.
+The WHEA_MEMORY_ERROR_SECTION structure describes the error data that is contained in a platform memory error section of an <a href="https://msdn.microsoft.com/080da29a-b5cb-45a5-848d-048d9612ee2a">error record</a>. An error record contains a platform memory error section only if the <b>SectionType </b>member of one of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560496">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a> structures that describe the error record sections for that error record contains MEMORY_ERROR_SECTION_GUID.
 
 
 
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_whea_memory_error_section_validbits.md">WHEA_MEMORY_ERROR_SECTION_VALIDBITS</a>
-
-
-
-<a href="..\ntddk\ns-ntddk-_whea_error_record_section_descriptor.md">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a>
 
 
 
@@ -250,12 +221,16 @@ The WHEA_MEMORY_ERROR_SECTION structure describes the error data that is contain
 
 
 
-<a href="..\ntddk\ns-ntddk-_whea_error_status.md">WHEA_ERROR_STATUS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560496">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560514">WHEA_ERROR_STATUS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560568">WHEA_MEMORY_ERROR_SECTION_VALIDBITS</a>
  
 
  
-
 

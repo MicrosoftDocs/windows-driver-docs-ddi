@@ -7,7 +7,7 @@ old-location: display\setvertexshaderdecl.htm
 old-project: display
 ms.assetid: 6387d632-78e2-4594-a58a-b11b2e831cc0
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3DDDI_SETVERTEXSHADERDECL, SetVertexShaderDecl, SetVertexShaderDecl callback function [Display Devices], UserModeDisplayDriver_Functions_83e6bdef-65e0-4357-aa4c-51e20cbeb6d5.xml, d3dumddi/SetVertexShaderDecl, display.setvertexshaderdecl
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	SetVertexShaderDecl
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_PTE
 ---
@@ -52,20 +53,6 @@ req.typenames: DXGK_PTE
 The <i>SetVertexShaderDecl</i> function sets the vertex shader declaration so that all of the subsequent drawing operations use that declaration.
 
 
-## -prototype
-
-
-````
-PFND3DDDI_SETVERTEXSHADERDECL SetVertexShaderDecl;
-
-__checkReturn HRESULT APIENTRY SetVertexShaderDecl(
-  _In_ HANDLE hDevice,
-  _In_ HANDLE hShaderHandle
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -76,7 +63,7 @@ __checkReturn HRESULT APIENTRY SetVertexShaderDecl(
  A handle to the display device (graphics context).
 
 
-### -param HANDLE
+### -param Arg1
 
 
 
@@ -110,12 +97,11 @@ After setting the vertex shader declaration, all of the drawing operations use t
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544519">D3DDDI_DEVICEFUNCS</a>
  
 
  
-
 

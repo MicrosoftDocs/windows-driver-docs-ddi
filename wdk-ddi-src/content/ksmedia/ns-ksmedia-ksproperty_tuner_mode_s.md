@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KSPROPERTY_TUNER_MODE_S
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSPROPERTY_TUNER_MODE_S, *PKSPROPERTY_TUNER_MODE_S
 ---
@@ -50,17 +51,6 @@ req.typenames: KSPROPERTY_TUNER_MODE_S, *PKSPROPERTY_TUNER_MODE_S
 
 
 The KSPROPERTY_TUNER_MODE_S structure describes the mode of a TV or radio tuner device.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  KSPROPERTY Property;
-  ULONG      Mode;
-} KSPROPERTY_TUNER_MODE_S, *PKSPROPERTY_TUNER_MODE_S;
-````
 
 
 ## -struct-fields
@@ -138,6 +128,9 @@ Indicates that the tuner is capable of tuning (get) or should switch to tuning (
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
 
 
@@ -147,11 +140,7 @@ Indicates that the tuner is capable of tuning (get) or should switch to tuning (
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567800">PROPSETID_TUNER</a>
-
-
-
  
 
  
-
 

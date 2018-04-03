@@ -38,7 +38,8 @@ api_location:
 -	Filterpipeline.h
 api_name:
 -	IPrintPipelineFilter.StartOperation
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
@@ -50,16 +51,6 @@ req.typenames: EXpsFontRestriction
 
 
 The <code>StartOperation</code> method starts the operation of a filter. The filter reads, processes, and writes data in this method.
-
-
-## -syntax
-
-
-````
-HRESULT STDMETHODCALLTYPE StartOperation(
-    None
-);
-````
 
 
 ## -parameters

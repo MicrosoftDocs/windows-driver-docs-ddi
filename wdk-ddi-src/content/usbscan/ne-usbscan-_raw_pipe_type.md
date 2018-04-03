@@ -38,7 +38,8 @@ api_location:
 -	usbscan.h
 api_name:
 -	RAW_PIPE_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RAW_PIPE_TYPE
 req.product: Windows 10 or later.
@@ -51,19 +52,6 @@ req.product: Windows 10 or later.
 
 
 The RAW_PIPE_TYPE data type is used to specify the type of a USB pipe. The values are defined as follows:
-
-
-## -syntax
-
-
-````
-typedef enum _RAW_PIPE_TYPE { 
-  USBSCAN_PIPE_CONTROL      = 0,
-  USBSCAN_PIPE_ISOCHRONOUS  = 1,
-  USBSCAN_PIPE_BULK         = 2,
-  USBSCAN_PIPE_INTERRUPT    = 3
-} RAW_PIPE_TYPE;
-````
 
 
 ## -enum-fields

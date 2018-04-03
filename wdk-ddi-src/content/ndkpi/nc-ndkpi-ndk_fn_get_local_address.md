@@ -7,7 +7,7 @@ old-location: netvista\ndk_fn_get_local_address.htm
 old-project: netvista
 ms.assetid: EA7B1E9C-5777-4002-BCB3-57479B86993C
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NDK_FN_GET_LOCAL_ADDRESS, NdkGetLocalAddress, NdkGetLocalAddress callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkGetLocalAddress, netvista.ndk_fn_get_local_address
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ndkpi.h
 api_name:
 -	NdkGetLocalAddress
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS
 ---
@@ -52,21 +53,6 @@ req.typenames: NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS
 The <i>NdkGetLocalAddress</i> (<i>NDK_FN_GET_LOCAL_ADDRESS</i>) function returns the local address for an NDK connection.
 
 
-## -prototype
-
-
-````
-NDK_FN_GET_LOCAL_ADDRESS NdkGetLocalAddress;
-
-NTSTATUS NdkGetLocalAddress(
-  _In_ NDK_CONNECTOR                                                         *pNdkConnector,
-       _Out_writes_bytes_to_opt_(*pAddressLength, *pAddressLength) PSOCKADDR pAddress,
-       _Inout_ ULONG                                                         *pAddressLength
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -74,7 +60,7 @@ NTSTATUS NdkGetLocalAddress(
 
 ### -param *pNdkConnector [in]
 
-A pointer to an NDK connector object (<a href="..\ndkpi\ns-ndkpi-_ndk_connector.md">NDK_CONNECTOR</a>).
+A pointer to an NDK connector object (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439852">NDK_CONNECTOR</a>).
 
 
 ### -param pAddress
@@ -149,16 +135,15 @@ An error occurred.
 
 ## -see-also
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_connector_dispatch.md">NDK_CONNECTOR_DISPATCH</a>
 
 
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_connector.md">NDK_CONNECTOR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439852">NDK_CONNECTOR</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439853">NDK_CONNECTOR_DISPATCH</a>
  
 
  
-
 

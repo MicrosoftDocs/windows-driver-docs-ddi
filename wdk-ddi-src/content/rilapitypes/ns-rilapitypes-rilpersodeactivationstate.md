@@ -7,7 +7,7 @@ old-location: netvista\rilpersodeactivationstate.htm
 old-project: netvista
 ms.assetid: a43948e4-ab31-495a-ace2-4cb4a1119af5
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*LPRILPERSODEACTIVATIONSTATE, RILPERSODEACTIVATIONSTATE, RILPERSODEACTIVATIONSTATE structure [Network Drivers Starting with Windows Vista], netvista.rilpersodeactivationstate, ntddrilapitypes/RILPERSODEACTIVATIONSTATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILPERSODEACTIVATIONSTATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILPERSODEACTIVATIONSTATE, *LPRILPERSODEACTIVATIONSTATE
 req.product: Windows 10 or later.
@@ -51,20 +52,6 @@ req.product: Windows 10 or later.
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef struct _RILPERSODEACTIVATIONSTATE {
-  DWORD                                  cbSize;
-  DWORD                                  dwParams;
-  RILPERSODEACTIVATIONSTATEDEPERSOSTATE  dwDePersoState;
-  DWORD                                  dwNumCKAttemptsLeft;
-  DWORD                                  dwNumPUKAttemptsLeft;
-} RILPERSODEACTIVATIONSTATE, RILPERSODEACTIVATIONSTATE;
-````
 
 
 ## -struct-fields

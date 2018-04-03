@@ -3,12 +3,12 @@ UID: NS:gnssdriver.GNSS_BREADCRUMBING_PARAM
 title: GNSS_BREADCRUMBING_PARAM
 author: windows-driver-content
 description: This structure contains the configuration passed into the start of breadcrumbing via IOCTL_GNSS_START_BREADCRUMBING.
-old-location: gnss\gnss_breadcrumbing_param.htm
-old-project: gnss
+old-location: sensors\gnss_breadcrumbing_param.htm
+old-project: sensors
 ms.assetid: 1EAD5B17-B662-4D97-B045-ED09E4AF6E99
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: "*PGNSS_BREADCRUMBING_PARAM, GNSS_BREADCRUMBING_PARAM, GNSS_BREADCRUMBING_PARAM structure [Sensor Devices], PGNSS_BREADCRUMBING_PARAM, PGNSS_BREADCRUMBING_PARAM structure pointer [Sensor Devices], gnss.gnss_breadcrumbing_param, gnssdriver/GNSS_BREADCRUMBING_PARAM, gnssdriver/PGNSS_BREADCRUMBING_PARAM"
+ms.date: 2/22/2018
+ms.keywords: "*PGNSS_BREADCRUMBING_PARAM, GNSS_BREADCRUMBING_PARAM, GNSS_BREADCRUMBING_PARAM structure [Sensor Devices], PGNSS_BREADCRUMBING_PARAM, PGNSS_BREADCRUMBING_PARAM structure pointer [Sensor Devices], gnssdriver/GNSS_BREADCRUMBING_PARAM, gnssdriver/PGNSS_BREADCRUMBING_PARAM, sensors.gnss_breadcrumbing_param"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -38,7 +38,8 @@ api_location:
 -	gnssdriver.h
 api_name:
 -	GNSS_BREADCRUMBING_PARAM
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GNSS_BREADCRUMBING_PARAM, *PGNSS_BREADCRUMBING_PARAM
 ---
@@ -49,22 +50,7 @@ req.typenames: GNSS_BREADCRUMBING_PARAM, *PGNSS_BREADCRUMBING_PARAM
 ## -description
 
 
-This structure contains the configuration passed into the start of breadcrumbing via <a href="..\gnssdriver\ni-gnssdriver-ioctl_gnss_start_breadcrumbing.md">IOCTL_GNSS_START_BREADCRUMBING</a>.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  ULONG Size;
-  ULONG Version;
-  ULONG MaximumHorizontalUncertainty;
-  ULONG MinDistanceBetweenFixes;
-  ULONG MaximumErrorTimeoutMs;
-  BYTE  Unused[512];
-} GNSS_BREADCRUMBING_PARAM, *PGNSS_BREADCRUMBING_PARAM;
-````
+This structure contains the configuration passed into the start of breadcrumbing via <a href="https://msdn.microsoft.com/library/windows/hardware/mt767993">IOCTL_GNSS_START_BREADCRUMBING</a>.
 
 
 ## -struct-fields

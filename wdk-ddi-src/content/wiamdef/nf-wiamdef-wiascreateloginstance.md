@@ -38,7 +38,8 @@ api_location:
 -	Wiaservc.dll
 api_name:
 -	wiasCreateLogInstance
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2
 req.product: Windows 10 or later.
@@ -51,17 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>wiasCreateLogInstance</b> function creates an instance of a logging object.
-
-
-## -syntax
-
-
-````
-HRESULT _stdcall wiasCreateLogInstance(
-  _In_  BYTE      *pModuleHandle,
-  _Out_ IWiaLogEx **ppIWiaLogEx
-);
-````
 
 
 ## -parameters

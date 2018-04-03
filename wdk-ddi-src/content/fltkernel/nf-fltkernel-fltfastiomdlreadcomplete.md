@@ -7,7 +7,7 @@ old-location: ifsk\fltfastiomdlreadcomplete.htm
 old-project: ifsk
 ms.assetid: 6F5E808C-9E35-4BE8-AE67-FDD354D6FD0E
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FltFastIoMdlReadComplete, FsRtlMdlReadCompleteDev, FsRtlMdlReadCompleteDev routine [Installable File System Drivers], fltkernel/FsRtlMdlReadCompleteDev, ifsk.fltfastiomdlreadcomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	FsRtlMdlReadCompleteDev
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
@@ -49,19 +50,7 @@ req.typenames: EXpsFontRestriction
 ## -description
 
 
-The <b>FltFastIoMdlReadComplete</b> routine completes the read operation that the <a href="..\fltkernel\nf-fltkernel-fltfastiomdlread.md">FltFastIoMdlRead</a> routine initiated.
-
-
-## -syntax
-
-
-````
-BOOLEAN FsRtlMdlReadCompleteDev(
-       PFLT_INSTANCE InitiatingInstance,
-  _In_ PFILE_OBJECT  FileObject,
-  _In_ PMDL          MdlChain
-);
-````
+The <b>FltFastIoMdlReadComplete</b> routine completes the read operation that the <a href="https://msdn.microsoft.com/library/windows/hardware/hh706188">FltFastIoMdlRead</a> routine initiated.
 
 
 ## -parameters
@@ -97,19 +86,18 @@ None
 
 
 
-The <b>FltFastIoMdlReadComplete</b> routine unlocks the pages in cache memory that the <a href="..\fltkernel\nf-fltkernel-fltfastiomdlread.md">FltFastIoMdlRead</a> routine allocated.
+The <b>FltFastIoMdlReadComplete</b> routine unlocks the pages in cache memory that the <a href="https://msdn.microsoft.com/library/windows/hardware/hh706188">FltFastIoMdlRead</a> routine allocated.
 
 
 
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltfastiomdlread.md">FltFastIoMdlRead</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh706188">FltFastIoMdlRead</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: netvista\rilsendmsgoptions.htm
 old-project: netvista
 ms.assetid: 23f2500f-8b0d-4e52-ab7e-b39d8368f78b
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: RILSENDMSGOPTIONS, RILSENDMSGOPTIONS enumeration [Network Drivers Starting with Windows Vista], RIL_SENDOPT_IMS, RIL_SENDOPT_PERSISTLINK, netvista.rilsendmsgoptions, ntddrilapitypes/RILSENDMSGOPTIONS, ntddrilapitypes/RIL_SENDOPT_IMS, ntddrilapitypes/RIL_SENDOPT_PERSISTLINK
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILSENDMSGOPTIONS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILSENDMSGOPTIONS
 req.product: Windows 10 or later.
@@ -51,17 +52,6 @@ req.product: Windows 10 or later.
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef enum _RILSENDMSGOPTIONS { 
-  RIL_SENDOPT_PERSISTLINK,
-  RIL_SENDOPT_IMS
-} RILSENDMSGOPTIONS;
-````
 
 
 ## -enum-fields

@@ -38,7 +38,8 @@ api_location:
 -	wiautil.h
 api_name:
 -	wiauGetDrvItemContext
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SKIP_AMOUNT
 req.product: Windows 10 or later.
@@ -51,18 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>wiauGetDrvItemContext</b> function gets the driver item context, and optionally, the driver item.
-
-
-## -syntax
-
-
-````
-HRESULT _stdcall wiauGetDrvItemContext(
-  _In_    BYTE                  *pWiasContext,
-  _Inout_ VOID                  **ppItemCtx,
-  _Inout_ IWiaDrvItem ppDrvItem **ppDrvItem
-);
-````
 
 
 ## -parameters

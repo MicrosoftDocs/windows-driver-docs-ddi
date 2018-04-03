@@ -7,7 +7,7 @@ old-location: display\d3dkmtwaitforverticalblankevent2.htm
 old-project: display
 ms.assetid: 71a48c1f-1eca-4f3e-a085-99ffc207a7e0
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMTWaitForVerticalBlankEvent2, D3DKMTWaitForVerticalBlankEvent2 function [Display Devices], d3dkmthk/D3DKMTWaitForVerticalBlankEvent2, display.d3dkmtwaitforverticalblankevent2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3dkmthk.h
 api_name:
 -	D3DKMTWaitForVerticalBlankEvent2
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_DRIVERVERSION
 ---
@@ -50,16 +51,6 @@ req.typenames: D3DKMT_DRIVERVERSION
 
 
 Waits for specified wait objects, including a vertical blank event, to occur and then returns. Supported starting with Windows 8.
-
-
-## -syntax
-
-
-````
-EXTERN_C _Check_return_ NTSTATUS APIENTRY D3DKMTWaitForVerticalBlankEvent2(
-  _In_ const D3DKMT_WAITFORVERTICALBLANKEVENT2 *pWait
-);
-````
 
 
 ## -parameters

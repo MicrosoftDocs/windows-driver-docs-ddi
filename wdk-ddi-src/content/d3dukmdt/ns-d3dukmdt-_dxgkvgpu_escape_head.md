@@ -7,7 +7,7 @@ old-location: display\dxgkvgpu_escape_head_.htm
 old-project: display
 ms.assetid: BB9D12EB-A1B1-4D7B-A1E4-40A932F62C88
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKVGPU_ESCAPE_HEAD, DXGKVGPU_ESCAPE_HEAD structure [Display Devices], _DXGKVGPU_ESCAPE_HEAD, d3dukmdt/DXGKVGPU_ESCAPE_HEAD, display.dxgkvgpu_escape_head_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dukmdt.h
 api_name:
 -	DXGKVGPU_ESCAPE_HEAD
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGKVGPU_ESCAPE_HEAD
 ---
@@ -50,17 +51,6 @@ req.typenames: DXGKVGPU_ESCAPE_HEAD
 
 
 A structure describing the escape head.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGKVGPU_ESCAPE_HEAD  {
-  GPUP_DRIVER_ESCAPE_INPUT Luid;
-  DXGKVGPU_ESCAPE_TYPE     Type;
-} DXGKVGPU_ESCAPE_HEAD ;
-````
 
 
 ## -struct-fields

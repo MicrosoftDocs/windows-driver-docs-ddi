@@ -7,7 +7,7 @@ old-location: debugger\extremotetyped_operatorarray_long.htm
 old-project: debugger
 ms.assetid: b75a0cec-fda6-45a3-ac60-915fc5862456
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: ExtRemoteTyped, ExtRemoteTyped class [Windows Debugging], operator[] method, ExtRemoteTyped::Operator[], ExtRemoteTyped::operator[], debugger.extremotetyped_operatorarray_long, operator[] method [Windows Debugging], operator[] method [Windows Debugging], ExtRemoteTyped class, operator[],ExtRemoteTyped.operator[]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,16 +52,6 @@ req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 The <b>operator[]</b> overloaded operator returns the typed data in the specified array element of the typed data represented by this object.
 
 
-## -syntax
-
-
-````
-ExtRemoteTyped operator[](
-  [in] LONG Index
-);
-````
-
-
 ## -parameters
 
 
@@ -94,15 +84,10 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff544211">ExtRe
 
 ## -see-also
 
-<a href="..\engextcpp\nf-engextcpp-extremotetyped-operator[].md">ExtRemoteTyped::Operator[] (LONG64)</a>
 
 
 
-<a href="..\engextcpp\nl-engextcpp-extremotetyped.md">ExtRemoteTyped</a>
-
-
-
-<a href="..\engextcpp\nf-engextcpp-extremotetyped-operator[].md">ExtRemoteTyped::Operator[] (ULONG)</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544162">ExtRemoteTyped</a>
 
 
 
@@ -110,13 +95,16 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff544211">ExtRe
 
 
 
-<a href="..\engextcpp\nf-engextcpp-extremotetyped-operator[].md">ExtRemoteTyped::Operator[] (ULONG64)</a>
+<a href="https://msdn.microsoft.com/1c2a78ca-5820-40d5-936a-99d50661c982">ExtRemoteTyped::Operator[] (LONG64)</a>
 
 
 
+<a href="https://msdn.microsoft.com/d264f2a1-20fa-4bd3-9db5-f253cc5ad0e6">ExtRemoteTyped::Operator[] (ULONG)</a>
+
+
+
+<a href="https://msdn.microsoft.com/60bf48e2-8f44-4ed3-8c35-499e764fcca9">ExtRemoteTyped::Operator[] (ULONG64)</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20ExtRemoteTyped.operator[] method%20 RELEASE:%20(2/27/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

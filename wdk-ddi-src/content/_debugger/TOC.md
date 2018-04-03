@@ -1682,5 +1682,8 @@
 ### [_FIELD_INFO structure](../wdbgexts/ns-wdbgexts-_field_info.md)
 ### [_GETSETBUSDATA structure](../wdbgexts/ns-wdbgexts-_getsetbusdata.md)
 ### [_POINTER_SEARCH_PHYSICAL structure](../wdbgexts/ns-wdbgexts-_pointer_search_physical.md)
+### [_READCONTROLSPACE structure](../wdbgexts/ns-wdbgexts-_readcontrolspace.md)
+### [_READCONTROLSPACE64 structure](../wdbgexts/ns-wdbgexts-_readcontrolspace64.md)
+### [_SEARCHMEMORY structure](../wdbgexts/ns-wdbgexts-_searchmemory.md)
 ### [_SYM_DUMP_PARAM structure](../wdbgexts/ns-wdbgexts-_sym_dump_param.md)
 ### [_WDBGEXTS_THREAD_OS_INFO structure](../wdbgexts/ns-wdbgexts-_wdbgexts_thread_os_info.md)

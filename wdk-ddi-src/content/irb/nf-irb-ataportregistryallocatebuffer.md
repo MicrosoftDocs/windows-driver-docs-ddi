@@ -7,7 +7,7 @@ old-location: storage\ataportregistryallocatebuffer.htm
 old-project: storage
 ms.assetid: c888fd84-2828-4f2d-921d-ba92a5ce9c84
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: AtaPortRegistryAllocateBuffer, AtaPortRegistryAllocateBuffer routine [Storage Devices], atartns_9ad4a954-9252-4128-99b9-a82e89da5f98.xml, irb/AtaPortRegistryAllocateBuffer, storage.ataportregistryallocatebuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,8 @@ api_location:
 -	pciidex.dll
 api_name:
 -	AtaPortRegistryAllocateBuffer
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: IDE_POWER_STATE
 ---
@@ -54,17 +55,6 @@ req.typenames: IDE_POWER_STATE
 
 The <b>AtaPortRegistryAllocateBuffer</b> routine allocates a buffer for registry operations.
 <div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
-
-## -syntax
-
-
-````
-PVOID AtaPortRegistryAllocateBuffer(
-  _In_ PVOID ChannelExtension,
-  _In_ ULONG Count
-);
-````
-
 
 ## -parameters
 
@@ -101,7 +91,7 @@ Specifies the length of the buffer, in bytes.
 
 
 
-The port driver enables the miniport driver to allocate one buffer for all its registry operations. After the miniport driver has allocated a buffer with <b>AtaPortRegistryAllocateBuffer</b>, later calls to <b>AtaPortRegistryAllocateBuffer</b> will fail and return <b>NULL</b>. After the miniport driver frees the allocated buffer with a call to the <a href="..\irb\nf-irb-ataportregistryfreebuffer.md">AtaPortRegistryFreeBuffer</a> routine, it can again allocate buffers by calling <b>AtaPortRegistryAllocateBuffer</b>.
+The port driver enables the miniport driver to allocate one buffer for all its registry operations. After the miniport driver has allocated a buffer with <b>AtaPortRegistryAllocateBuffer</b>, later calls to <b>AtaPortRegistryAllocateBuffer</b> will fail and return <b>NULL</b>. After the miniport driver frees the allocated buffer with a call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550212">AtaPortRegistryFreeBuffer</a> routine, it can again allocate buffers by calling <b>AtaPortRegistryAllocateBuffer</b>.
 
 The miniport driver must call <b>AtaPortRegistryAllocateBuffer</b> either in its <a href="https://msdn.microsoft.com/library/windows/hardware/ff550141">AtaChannelInitRoutine</a> routine or in its <a href="https://msdn.microsoft.com/library/windows/hardware/ff557465">IdeHwControl</a> routine. It cannot call <b>AtaPortRegistryAllocateBuffer</b> from any other routine. Additionally, the miniport driver can only call <b>AtaPortRegistryAllocateBuffer</b> from its <b>IdeHwControl</b> routine if its <b>IdeHwControl</b> routine was called and had a value of either <b>StartChannel</b> or <b>StopChannel</b> in its <i>ControlAction </i>parameter. 
 
@@ -110,11 +100,6 @@ The miniport driver must call <b>AtaPortRegistryAllocateBuffer</b> either in its
 
 ## -see-also
 
-<a href="..\irb\nf-irb-ataportregistryfreebuffer.md">AtaPortRegistryFreeBuffer</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557465">IdeHwControl</a>
 
 
 
@@ -122,8 +107,12 @@ The miniport driver must call <b>AtaPortRegistryAllocateBuffer</b> either in its
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550212">AtaPortRegistryFreeBuffer</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557465">IdeHwControl</a>
  
 
  
-
 

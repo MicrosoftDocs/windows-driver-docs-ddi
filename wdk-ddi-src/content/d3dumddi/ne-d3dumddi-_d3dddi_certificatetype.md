@@ -7,7 +7,7 @@ old-location: display\d3dddi_certificatetype.htm
 old-project: display
 ms.assetid: 0e3835af-0ccf-4f41-96e3-beff5fdecd36
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDI_CERTIFICATETYPE, D3DDDI_CERTIFICATETYPE enumeration [Display Devices], D3DDDI_CERTTYPE_AUTHENTICATED_CHANNEL, D3DDDI_CERTTYPE_CRYPTOSESSION, D3D_other_Structs_88de08de-61df-4401-9a7c-8cace88a545a.xml, _D3DDDI_CERTIFICATETYPE, d3dumddi/D3DDDI_CERTIFICATETYPE, d3dumddi/D3DDDI_CERTTYPE_AUTHENTICATED_CHANNEL, d3dumddi/D3DDDI_CERTTYPE_CRYPTOSESSION, display.d3dddi_certificatetype
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	D3DDDI_CERTIFICATETYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDI_CERTIFICATETYPE
 ---
@@ -50,17 +51,6 @@ req.typenames: D3DDDI_CERTIFICATETYPE
 
 
 The D3DDDI_CERTIFICATETYPE enumeration contains values that identify certificate types. 
-
-
-## -syntax
-
-
-````
-typedef enum _D3DDDI_CERTIFICATETYPE { 
-  D3DDDI_CERTTYPE_AUTHENTICATED_CHANNEL  = 1,
-  D3DDDI_CERTTYPE_CRYPTOSESSION          = 2
-} D3DDDI_CERTIFICATETYPE;
-````
 
 
 ## -enum-fields
@@ -82,27 +72,26 @@ The value specifies that the certificate type is an encryption session.
 
 
 
-The user-mode display driver receives a D3DDDI_CERTIFICATETYPE-typed value in the <b>CertificateType</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_ddicertificateinfo.md">DDICERTIFICATEINFO</a> structure. The <b>pInfo</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getcaps.md">D3DDDIARG_GETCAPS</a> structure points to DDICERTIFICATEINFO when the driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a> function is called with the D3DDDICAPS_GETCERTIFICATE value set in the <b>Type</b> member of D3DDDIARG_GETCAPS. 
+The user-mode display driver receives a D3DDDI_CERTIFICATETYPE-typed value in the <b>CertificateType</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549552">DDICERTIFICATEINFO</a> structure. The <b>pInfo</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543148">D3DDDIARG_GETCAPS</a> structure points to DDICERTIFICATEINFO when the driver's <a href="https://msdn.microsoft.com/cf6c61ce-7b53-46d0-b3ff-ed5b2b964c65">GetCaps</a> function is called with the D3DDDICAPS_GETCERTIFICATE value set in the <b>Type</b> member of D3DDDIARG_GETCAPS. 
 
 
 
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getcaps.md">D3DDDIARG_GETCAPS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543148">D3DDDIARG_GETCAPS</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_ddicertificateinfo.md">DDICERTIFICATEINFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549552">DDICERTIFICATEINFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/cf6c61ce-7b53-46d0-b3ff-ed5b2b964c65">GetCaps</a>
  
 
  
-
 

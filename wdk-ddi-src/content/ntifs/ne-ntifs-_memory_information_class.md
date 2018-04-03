@@ -7,7 +7,7 @@ old-location: kernel\memory_information_class.htm
 old-project: kernel
 ms.assetid: 7E3B531F-935C-41D6-94F7-DB18F82B9109
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: MEMORY_INFORMATION_CLASS, MEMORY_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], MemoryBasicInformation, _MEMORY_INFORMATION_CLASS, kernel.memory_information_class, ntifs/MEMORY_INFORMATION_CLASS, ntifs/MemoryBasicInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntifs.h
 api_name:
 -	MEMORY_INFORMATION_CLASS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MEMORY_INFORMATION_CLASS
 ---
@@ -49,17 +50,7 @@ req.typenames: MEMORY_INFORMATION_CLASS
 ## -description
 
 
-Defines classes of memory information that can be retrieved by using the  <a href="..\ntifs\nf-ntifs-zwqueryvirtualmemory.md">ZwQueryVirtualMemory</a> function.
-
-
-## -syntax
-
-
-````
-typedef enum _MEMORY_INFORMATION_CLASS { 
-  MemoryBasicInformation
-} MEMORY_INFORMATION_CLASS;
-````
+Defines classes of memory information that can be retrieved by using the  <a href="https://msdn.microsoft.com/library/windows/hardware/dn957455">ZwQueryVirtualMemory</a> function.
 
 
 ## -enum-fields
@@ -69,26 +60,25 @@ typedef enum _MEMORY_INFORMATION_CLASS {
 
 ### -field MemoryBasicInformation
 
-Memory information described in the <a href="..\ntifs\ns-ntifs-_memory_basic_information.md">MEMORY_BASIC_INFORMATION</a> structure will be retrieved.
+Memory information described in the <a href="https://msdn.microsoft.com/library/windows/hardware/dn957515">MEMORY_BASIC_INFORMATION</a> structure will be retrieved.
 
 
 ## -remarks
 
 
 
-Currently, only the <b>MemoryBasicInformation</b> value is supported for use with the <a href="..\ntifs\nf-ntifs-zwqueryvirtualmemory.md">ZwQueryVirtualMemory</a> routine.
+Currently, only the <b>MemoryBasicInformation</b> value is supported for use with the <a href="https://msdn.microsoft.com/library/windows/hardware/dn957455">ZwQueryVirtualMemory</a> routine.
 
 
 
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-zwqueryvirtualmemory.md">ZwQueryVirtualMemory</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn957455">ZwQueryVirtualMemory</a>
  
 
  
-
 

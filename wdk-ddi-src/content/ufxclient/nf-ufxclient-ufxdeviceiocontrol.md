@@ -7,7 +7,7 @@ old-location: buses\ufxdeviceiocontrol.htm
 old-project: usbref
 ms.assetid: 18D4C334-1AD9-4CBF-8BF1-063A8E837A21
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: UfxDeviceIoControl, UfxDeviceIoControl method [Buses], buses.ufxdeviceiocontrol, ufxclient/UfxDeviceIoControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ufxclient.h
 api_name:
 -	UfxDeviceIoControl
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UFX_HARDWARE_FAILURE_CONTEXT, *PUFX_HARDWARE_FAILURE_CONTEXT
 req.product: Windows 10 or later.
@@ -53,20 +54,6 @@ req.product: Windows 10 or later.
 Passes non-internal IOCTLs from user-mode to UFX.
 
 
-## -syntax
-
-
-````
-BOOLEAN UfxDeviceIoControl(
-  [in] UFXDEVICE  UfxDevice,
-  [in] WDFREQUEST Request,
-  [in] size_t     OutputBufferLength,
-  [in] size_t     InputBufferLength,
-  [in] ULONG      IoControlCode
-);
-````
-
-
 ## -parameters
 
 
@@ -74,7 +61,7 @@ BOOLEAN UfxDeviceIoControl(
 
 ### -param UfxDevice [in]
 
-A handle to a UFX device object that the driver created by calling <a href="..\ufxclient\nf-ufxclient-ufxdevicecreate.md">UfxDeviceCreate</a>.
+A handle to a UFX device object that the driver created by calling <a href="https://msdn.microsoft.com/library/windows/hardware/mt187951">UfxDeviceCreate</a>.
 
 
 ### -param Request [in]
@@ -101,7 +88,7 @@ The driver-defined or system-defined IOCTL that is associated with the request.
 
 
 
-The client driver calls <b>UfxDeviceIoControl</b> to forward non-internal IOCTLs that it receives in its <a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_io_device_control.md">EvtIoDeviceControl</a> callback function to UFX.  The following example shows how:
+The client driver calls <b>UfxDeviceIoControl</b> to forward non-internal IOCTLs that it receives in its <a href="https://msdn.microsoft.com/3e3c4c53-e557-4bd1-8b7d-be59dde4b9ce">EvtIoDeviceControl</a> callback function to UFX.  The following example shows how:
 
 <div class="code"><span codelanguage=""><table>
 <tr>

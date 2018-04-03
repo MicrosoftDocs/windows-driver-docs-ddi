@@ -38,7 +38,8 @@ api_location:
 -	Ks.h
 api_name:
 -	KSMETHOD_STREAMALLOCATOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSMETHOD_STREAMALLOCATOR
 ---
@@ -50,17 +51,6 @@ req.typenames: KSMETHOD_STREAMALLOCATOR
 
 
 
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  KSMETHOD_STREAMALLOCATOR_ALLOC,
-  KSMETHOD_STREAMALLOCATOR_FREE
-} KSMETHOD_STREAMALLOCATOR;
-````
 
 
 ## -enum-fields

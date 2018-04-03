@@ -7,7 +7,7 @@ old-location: storage\iosetpartitioninformation.htm
 old-project: storage
 ms.assetid: 3f1a6e3f-3bbc-4cc5-8efe-e3cf6ac3adf5
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IoSetPartitionInformation, IoSetPartitionInformation routine [Storage Devices], ntddk/IoSetPartitionInformation, rtns-disk_58012dfd-a95d-4af6-a09d-e1a4bcb458e2.xml, storage.iosetpartitioninformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	IoSetPartitionInformation
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
@@ -49,22 +50,9 @@ req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ## -description
 
 
-The <b>IoSetPartitionInformation</b> routine is <b>obsolete</b> and is provided only to support existing drivers. New drivers must use <a href="..\ntddk\nf-ntddk-iosetpartitioninformationex.md">IoSetPartitionInformationEx</a>. 
+The <b>IoSetPartitionInformation</b> routine is <b>obsolete</b> and is provided only to support existing drivers. New drivers must use <a href="https://msdn.microsoft.com/library/windows/hardware/ff561461">IoSetPartitionInformationEx</a>. 
 
 <b>IoSetPartitionInformation</b> sets the partition type and number in a partition table entry for the disk represented by <i>DeviceObject</i>.
-
-
-## -syntax
-
-
-````
-NTSTATUS FASTCALL IoSetPartitionInformation(
-  _In_ PDEVICE_OBJECT DeviceObject,
-  _In_ ULONG          SectorSize,
-  _In_ ULONG          PartitionNumber,
-  _In_ ULONG          PartitionType
-);
-````
 
 
 ## -parameters
@@ -89,7 +77,7 @@ Specifies the partition number on the device whose partition type is to be set.
 
 ### -param PartitionType [in]
 
-Specifies the type for the partition. For a list of some of the key partition types see <a href="..\ntdddisk\ns-ntdddisk-_partition_information.md">PARTITION_INFORMATION</a>. 
+Specifies the type for the partition. For a list of some of the key partition types see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563751">PARTITION_INFORMATION</a>. 
 
 
 ## -returns
@@ -105,7 +93,7 @@ If <b>IoSetPartitionInformation</b> returns STATUS_SUCCESS, the disk driver upda
 
 
 
-<b>IoSetPartitionInformation</b> must only be used by disk drivers. Other drivers should use the <a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_set_partition_info.md">IOCTL_DISK_SET_PARTITION_INFO</a> disk I/O request instead.
+<b>IoSetPartitionInformation</b> must only be used by disk drivers. Other drivers should use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560413">IOCTL_DISK_SET_PARTITION_INFO</a> disk I/O request instead.
 
 This routine is called when a disk device driver is asked to set the partition type in a partition table entry by an IRP_MJ_DEVICE_CONTROL request. This request is generally issued by the format utility, which performs I/O control functions on the partition. The driver passes a pointer to the device object representing the physical disk and the number of the partition associated with the device object that the format utility has open. Since the HAL routines that underlie <b>IoSetPartitionInformation</b> were developed before support of dynamic partitioning was implemented, they do not distinguish between the <i>partition ordinal</i> (that is the order of a partition on a disk) and the <i>partition number</i> (the partition number assigned to a partition in order to identify it to the system). Drivers must call <b>IoSetPartitionInformation</b> using the <i>ordinal</i> number of the partition and not the actual partition number.
 
@@ -120,20 +108,19 @@ This routine must be called at IRQL = PASSIVE_LEVEL because it uses a kernel eve
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-ioreadpartitiontable.md">IoReadPartitionTable</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-iowritepartitiontable.md">IoWritePartitionTable</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561452">IoReadPartitionTable</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-iosetpartitioninformationex.md">IoSetPartitionInformationEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561461">IoSetPartitionInformationEx</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561464">IoWritePartitionTable</a>
  
 
  
-
 

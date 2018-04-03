@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	IPrintSchemaCapabilities.JobCopiesAllDocumentsMaxValue
 -	IPrintSchemaCapabilities.get_JobCopiesAllDocumentsMaxValue
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PrintSchemaSelectionType
 req.product: Windows 10 or later.
@@ -58,27 +59,16 @@ This is the copy count maximum.
 This property is read-only.
 
 
-## -syntax
-
-
-````
-HRESULT get_JobCopiesAllDocumentsMaxValue(
-  [out, retval] ULONG *pulJobCopiesAllDocumentsMaxValue
-);
-````
-
-
 ## -parameters
 
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintschemacapabilities.md">IPrintSchemaCapabilities</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451256">IPrintSchemaCapabilities</a>
  
 
  
-
 

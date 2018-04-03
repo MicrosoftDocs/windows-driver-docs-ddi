@@ -38,7 +38,8 @@ api_location:
 -	wdfcompanion.h
 api_name:
 -	EVT_WDF_COMPANION_PRE_D0_ENTRY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_COMMON_BUFFER_CONFIG, *PWDF_COMMON_BUFFER_CONFIG
 req.product: Windows 10 or later.
@@ -52,20 +53,6 @@ req.product: Windows 10 or later.
 
 
 			For internal use only.
-
-
-## -prototype
-
-
-````
-EVT_WDF_COMPANION_PRE_D0_ENTRY EVT_WDF_COMPANION_PRE_D0_ENTRY;
-
-NTSTATUS EVT_WDF_COMPANION_PRE_D0_ENTRY(
-  _In_ WDFCOMPANION           Companion,
-  _In_ WDF_POWER_DEVICE_STATE PreviousState
-)
-{ ... }
-````
 
 
 ## -parameters

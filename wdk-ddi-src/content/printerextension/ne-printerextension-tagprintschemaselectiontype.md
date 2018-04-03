@@ -38,7 +38,8 @@ api_location:
 -	Printerextension.h
 api_name:
 -	PrintSchemaSelectionType
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PrintSchemaSelectionType
 req.product: Windows 10 or later.
@@ -51,17 +52,6 @@ req.product: Windows 10 or later.
 
 
 The PrintSchemaSelectionType enumeration identifies how a Feature’s options should be selected. This property appears only in a PrintCapabilities document. 
-
-
-## -syntax
-
-
-````
-typedef enum tagPrintSchemaSelectionType { 
-  PrintSchemaSelectionType_PickOne   = 0,
-  PrintSchemaSelectionType_PickMany  = 1
-} PrintSchemaSelectionType;
-````
 
 
 ## -enum-fields

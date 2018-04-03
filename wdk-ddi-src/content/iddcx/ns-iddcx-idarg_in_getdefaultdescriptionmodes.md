@@ -7,7 +7,7 @@ old-location: display\idarg_in_getdefaultdescriptionmodes.htm
 old-project: display
 ms.assetid: 4d0a1f81-efc0-40aa-9dde-b9cac64afb8b
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IDARG_IN_GETDEFAULTDESCRIPTIONMODES, IDARG_IN_GETDEFAULTDESCRIPTIONMODES structure [Display Devices], display.idarg_in_getdefaultdescriptionmodes, iddcx/IDARG_IN_GETDEFAULTDESCRIPTIONMODES
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	iddcx.h
 api_name:
 -	IDARG_IN_GETDEFAULTDESCRIPTIONMODES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -52,17 +53,6 @@ req.typenames:
 
              Gives information about the default monitor modes passed into the driver.
          
-
-
-## -syntax
-
-
-````
-typedef struct IDARG_IN_GETDEFAULTDESCRIPTIONMODES {
-  UINT                                                                     DefaultMonitorModeBufferInputCount;
-  _Field_size_opt_(DefaultMonitorModeBufferInputCount) IDDCX_MONITOR_MODE* pDefaultMonitorModes;
-} IDARG_IN_GETDEFAULTDESCRIPTIONMODES, *IDARG_IN_GETDEFAULTDESCRIPTIONMODES;
-````
 
 
 ## -struct-fields

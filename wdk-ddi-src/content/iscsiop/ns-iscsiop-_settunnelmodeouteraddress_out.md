@@ -7,7 +7,7 @@ old-location: storage\settunnelmodeouteraddress_out.htm
 old-project: storage
 ms.assetid: 2cfe935f-eba4-48aa-869d-6381ca038e70
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSetTunnelModeOuterAddress_OUT, PSetTunnelModeOuterAddress_OUT, PSetTunnelModeOuterAddress_OUT structure pointer [Storage Devices], SetTunnelModeOuterAddress_OUT, SetTunnelModeOuterAddress_OUT structure [Storage Devices], _SetTunnelModeOuterAddress_OUT, iscsiop/PSetTunnelModeOuterAddress_OUT, iscsiop/SetTunnelModeOuterAddress_OUT, storage.settunnelmodeouteraddress_out, structs-iSCSI_918f9bb3-ee9f-41d3-8e9e-c18a673a4302.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	iscsiop.h
 api_name:
 -	SetTunnelModeOuterAddress_OUT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SetTunnelModeOuterAddress_OUT, *PSetTunnelModeOuterAddress_OUT
 ---
@@ -50,16 +51,6 @@ req.typenames: SetTunnelModeOuterAddress_OUT, *PSetTunnelModeOuterAddress_OUT
 
 
 The SetTunnelModeOuterAddress_OUT structure holds the output data for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566186">SetTunnelModeOuterAddress</a> method.
-
-
-## -syntax
-
-
-````
-typedef struct _SetTunnelModeOuterAddress_OUT {
-  ULONG Status;
-} SetTunnelModeOuterAddress_OUT, *PSetTunnelModeOuterAddress_OUT;
-````
 
 
 ## -struct-fields
@@ -83,11 +74,6 @@ You must implement this method.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566186">SetTunnelModeOuterAddress</a>
-
-
-
-<a href="..\iscsiop\ns-iscsiop-_settunnelmodeouteraddress_in.md">SetTunnelModeOuterAddress_IN</a>
 
 
 
@@ -95,8 +81,12 @@ You must implement this method.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566186">SetTunnelModeOuterAddress</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566187">SetTunnelModeOuterAddress_IN</a>
  
 
  
-
 

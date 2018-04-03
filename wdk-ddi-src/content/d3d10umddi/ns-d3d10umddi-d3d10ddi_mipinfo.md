@@ -7,7 +7,7 @@ old-location: display\d3d10ddi_mipinfo.htm
 old-project: display
 ms.assetid: 5f00ff32-5ecf-40ca-91bb-aacc542bb7f4
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3D10DDI_MIPINFO, D3D10DDI_MIPINFO structure [Display Devices], UMDisplayDriver_Dx10param_Structs_67768e5f-a18d-4bd9-a1be-96587f267c36.xml, d3d10umddi/D3D10DDI_MIPINFO, display.d3d10ddi_mipinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3d10umddi.h
 api_name:
 -	D3D10DDI_MIPINFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D10DDI_MIPINFO
 ---
@@ -50,21 +51,6 @@ req.typenames: D3D10DDI_MIPINFO
 
 
 The D3D10DDI_MIPINFO structure describes the MIP-level texture and physical coordinates of a surface.
-
-
-## -syntax
-
-
-````
-typedef struct D3D10DDI_MIPINFO {
-  UINT TexelWidth;
-  UINT TexelHeight;
-  UINT TexelDepth;
-  UINT PhysicalWidth;
-  UINT PhysicalHeight;
-  UINT PhysicalDepth;
-} D3D10DDI_MIPINFO;
-````
 
 
 ## -struct-fields
@@ -104,12 +90,11 @@ typedef struct D3D10DDI_MIPINFO {
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createresource.md">D3D10DDIARG_CREATERESOURCE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541697">D3D10DDIARG_CREATERESOURCE</a>
  
 
  
-
 

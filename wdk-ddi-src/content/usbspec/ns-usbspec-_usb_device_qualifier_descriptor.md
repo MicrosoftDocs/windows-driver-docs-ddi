@@ -7,7 +7,7 @@ old-location: buses\usb_device_qualifier_descriptor.htm
 old-project: usbref
 ms.assetid: f96e4305-ec07-4df8-8fdf-f840598dd938
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PUSB_DEVICE_QUALIFIER_DESCRIPTOR, PUSB_DEVICE_QUALIFIER_DESCRIPTOR, PUSB_DEVICE_QUALIFIER_DESCRIPTOR structure pointer [Buses], USB_DEVICE_QUALIFIER_DESCRIPTOR, USB_DEVICE_QUALIFIER_DESCRIPTOR structure [Buses], _USB_DEVICE_QUALIFIER_DESCRIPTOR, buses.usb_device_qualifier_descriptor, usbspec/PUSB_DEVICE_QUALIFIER_DESCRIPTOR, usbspec/USB_DEVICE_QUALIFIER_DESCRIPTOR, usbstrct_af615085-b822-4342-b1dd-950a0ff61d99.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	usbspec.h
 api_name:
 -	USB_DEVICE_QUALIFIER_DESCRIPTOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USB_DEVICE_QUALIFIER_DESCRIPTOR, *PUSB_DEVICE_QUALIFIER_DESCRIPTOR
 req.product: Windows 10 or later.
@@ -51,24 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>USB_DEVICE_QUALIFIER_DESCRIPTOR</b> structure is used by USB client drivers to retrieve a USB-defined device qualifier descriptor.
-
-
-## -syntax
-
-
-````
-typedef struct _USB_DEVICE_QUALIFIER_DESCRIPTOR {
-  UCHAR  bLength;
-  UCHAR  bDescriptorType;
-  USHORT bcdUSB;
-  UCHAR  bDeviceClass;
-  UCHAR  bDeviceSubClass;
-  UCHAR  bDeviceProtocol;
-  UCHAR  bMaxPacketSize0;
-  UCHAR  bNumConfigurations;
-  UCHAR  bReserved;
-} USB_DEVICE_QUALIFIER_DESCRIPTOR, *PUSB_DEVICE_QUALIFIER_DESCRIPTOR;
-````
 
 
 ## -struct-fields
@@ -125,18 +108,17 @@ Reserved.
 
 
 
-This structure is similar to <a href="..\usbspec\ns-usbspec-_usb_device_descriptor.md">USB_DEVICE_DESCRIPTOR</a>, but it contains only those members that can change when the device switches from full-speed operation to high-speed operation or vice versa. If the device is operating at full speed, querying for this descriptor will contain information about how the device would operate at high-speed. If, on the other hand, the device is operating at high-speed, this descriptor will contain information about how the device would operate at full-speed.
+This structure is similar to <a href="https://msdn.microsoft.com/library/windows/hardware/ff539280">USB_DEVICE_DESCRIPTOR</a>, but it contains only those members that can change when the device switches from full-speed operation to high-speed operation or vice versa. If the device is operating at full speed, querying for this descriptor will contain information about how the device would operate at high-speed. If, on the other hand, the device is operating at high-speed, this descriptor will contain information about how the device would operate at full-speed.
 
 
 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-
-
-
-<a href="..\usb\ns-usb-_urb_control_descriptor_request.md">_URB_CONTROL_DESCRIPTOR_REQUEST</a>
 
 
 
@@ -144,8 +126,8 @@ This structure is similar to <a href="..\usbspec\ns-usbspec-_usb_device_descript
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540357">_URB_CONTROL_DESCRIPTOR_REQUEST</a>
  
 
  
-
 

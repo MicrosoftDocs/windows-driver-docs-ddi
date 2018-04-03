@@ -7,7 +7,7 @@ old-location: display\pfndestroyoverlaycb.htm
 old-project: display
 ms.assetid: 9fc83bad-c183-4cba-9514-bfe1c676cba5
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3Druntime_Functions_57512079-654f-4858-bd66-984935adec15.xml, PFND3DDDI_DESTROYOVERLAYCB, d3dumddi/pfnDestroyOverlayCb, display.pfndestroyoverlaycb, pfnDestroyOverlayCb, pfnDestroyOverlayCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	pfnDestroyOverlayCb
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_PTE
 ---
@@ -50,20 +51,6 @@ req.typenames: DXGK_PTE
 
 
 The <b>pfnDestroyOverlayCb</b> function disables the overlay hardware and destroys the kernel-mode overlay object.
-
-
-## -prototype
-
-
-````
-PFND3DDDI_DESTROYOVERLAYCB pfnDestroyOverlayCb;
-
-_checkReturn HRESULT APIENTRY CALLBACK pfnDestroyOverlayCb(
-  _In_       HANDLE                  hDevice,
-  _In_ const D3DDDICB_DESTROYOVERLAY *pData
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -87,7 +74,7 @@ A handle to the display device (graphics context).
 
 #### - pData [in]
 
-A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_destroyoverlay.md">D3DDDICB_DESTROYOVERLAY</a> structure that contains a handle to the overlay object to be disabled.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff544178">D3DDDICB_DESTROYOVERLAY</a> structure that contains a handle to the overlay object to be disabled.
 
 
 ## -returns
@@ -133,16 +120,15 @@ This function might also return other HRESULT values.
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicecallbacks.md">D3DDDI_DEVICECALLBACKS</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_destroyoverlay.md">D3DDDICB_DESTROYOVERLAY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544178">D3DDDICB_DESTROYOVERLAY</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544512">D3DDDI_DEVICECALLBACKS</a>
  
 
  
-
 

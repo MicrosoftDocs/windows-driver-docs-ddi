@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Any level (See Remarks section)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	Smclib.h
 api_name:
 -	SMARTCARD_REPLY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SMARTCARD_REPLY, *PSMARTCARD_REPLY
 req.product: Windows 10 or later.
@@ -51,18 +52,6 @@ req.product: Windows 10 or later.
 
 
 Describes the reply buffer received from the smart card.   
-
-
-## -syntax
-
-
-````
-typedef struct _SMARTCARD_REPLY {
-  PUCHAR 	Buffer;
-  ULONG  BufferSize;
-  ULONG  BufferLength;
-} SMARTCARD_REPLY, *PSMARTCARD_REPLY;
-````
 
 
 ## -struct-fields
@@ -96,12 +85,11 @@ The client driver must receive data in this buffer and   adjust <i>BufferLength<
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn946592">SmcCxGetSmartcardReplyBuffer</a>
-
-
-
  
 
  
-
 

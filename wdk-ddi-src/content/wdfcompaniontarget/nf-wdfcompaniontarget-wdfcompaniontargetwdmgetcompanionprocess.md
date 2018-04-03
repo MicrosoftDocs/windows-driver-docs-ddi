@@ -38,7 +38,8 @@ api_location:
 -	wdfcompaniontarget.h
 api_name:
 -	WdfCompanionTargetWdmGetCompanionProcess
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_TASK_SEND_OPTIONS_FLAGS
 req.product: Windows 10 or later.
@@ -52,16 +53,6 @@ req.product: Windows 10 or later.
 
 
 			For internal use only.
-
-
-## -syntax
-
-
-````
-PEPROCESS WdfCompanionTargetWdmGetCompanionProcess(
-  _In_ WDFCOMPANIONTARGET CompanionTarget
-);
-````
 
 
 ## -parameters

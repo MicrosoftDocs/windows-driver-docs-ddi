@@ -7,7 +7,7 @@ old-location: storage\sm_sendsrl_out.htm
 old-project: storage
 ms.assetid: 1e6d1a97-b175-4f76-8f4d-15ec089538e8
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSM_SendSRL_OUT, PSM_SendSRL_OUT, PSM_SendSRL_OUT structure pointer [Storage Devices], SM_SendSRL_OUT, SM_SendSRL_OUT structure [Storage Devices], _SM_SendSRL_OUT, hbapiwmi/PSM_SendSRL_OUT, hbapiwmi/SM_SendSRL_OUT, storage.sm_sendsrl_out, structs-Fibre_35335fb8-61e9-47bd-9b55-48f28a53483b.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	hbapiwmi.h
 api_name:
 -	SM_SendSRL_OUT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SM_SendSRL_OUT, *PSM_SendSRL_OUT
 ---
@@ -50,19 +51,6 @@ req.typenames: SM_SendSRL_OUT, *PSM_SendSRL_OUT
 
 
 The SM_SendSRL_OUT structure is used to receive output parameters from the SM_SendSRL method.
-
-
-## -syntax
-
-
-````
-typedef struct _SM_SendSRL_OUT {
-  ULONG HBAStatus;
-  ULONG TotalRespBufferSize;
-  ULONG OutRespBufferSize;
-  UCHAR RespBuffer[1];
-} SM_SendSRL_OUT, *PSM_SendSRL_OUT;
-````
 
 
 ## -struct-fields

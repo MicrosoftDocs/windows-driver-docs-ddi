@@ -7,7 +7,7 @@ old-location: debugger\setimagepath.htm
 old-project: debugger
 ms.assetid: 4f6de771-c54f-4f27-900a-98e94b94f957
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: IDebugSymbols, IDebugSymbols interface [Windows Debugging], SetImagePath method, IDebugSymbols2 interface [Windows Debugging], SetImagePath method, IDebugSymbols2::SetImagePath, IDebugSymbols3 interface [Windows Debugging], SetImagePath method, IDebugSymbols3::SetImagePath, IDebugSymbols::SetImagePath, IDebugSymbols_062aa9c4-33c9-4a73-a11f-7d5e6b94e96c.xml, SetImagePath method [Windows Debugging], SetImagePath method [Windows Debugging], IDebugSymbols interface, SetImagePath method [Windows Debugging], IDebugSymbols2 interface, SetImagePath method [Windows Debugging], IDebugSymbols3 interface, SetImagePath,IDebugSymbols.SetImagePath, dbgeng/IDebugSymbols2::SetImagePath, dbgeng/IDebugSymbols3::SetImagePath, dbgeng/IDebugSymbols::SetImagePath, debugger.setimagepath
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,8 @@ api_name:
 -	IDebugSymbols.SetImagePath
 -	IDebugSymbols2.SetImagePath
 -	IDebugSymbols3.SetImagePath
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -52,16 +53,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>SetImagePath</b>  method sets the executable image path.
-
-
-## -syntax
-
-
-````
-HRESULT SetImagePath(
-  [in] PCSTR Path
-);
-````
 
 
 ## -parameters
@@ -115,11 +106,6 @@ The executable image path can consist of several directories separated by semico
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546851">GetImagePath</a>
 
 
 
@@ -127,16 +113,20 @@ The executable image path can consist of several directories separated by semico
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546851">GetImagePath</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550856">IDebugSymbols</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550864">IDebugSymbols2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550870">IDebugSymbols3</a>
  
 
  
-
 

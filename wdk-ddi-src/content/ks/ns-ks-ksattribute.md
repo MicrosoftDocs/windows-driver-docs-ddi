@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSATTRIBUTE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSATTRIBUTE, *PKSATTRIBUTE
 ---
@@ -49,19 +50,7 @@ req.typenames: KSATTRIBUTE, *PKSATTRIBUTE
 ## -description
 
 
-The KSATTRIBUTE structure defines an additional attribute of a data format or data range that is not covered by the <a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff561658">KSDATARANGE</a> structures or the extended information based on the format and range specifiers.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  ULONG Size;
-  ULONG Flags;
-  GUID  Attribute;
-} KSATTRIBUTE, *PKSATTRIBUTE;
-````
+The KSATTRIBUTE structure defines an additional attribute of a data format or data range that is not covered by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561656">KSDATAFORMAT</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff561658">KSDATARANGE</a> structures or the extended information based on the format and range specifiers.
 
 
 ## -struct-fields
@@ -95,16 +84,15 @@ Note that KSATTRIBUTE is used in conjunction with data formats and data ranges; 
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561656">KSDATAFORMAT</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561658">KSDATARANGE</a>
-
-
-
-<a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
-
-
-
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: kernel\reg_unload_key_information.htm
 old-project: kernel
 ms.assetid: 171d712d-89e0-44f4-aa52-b9048c20abf2
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*PREG_UNLOAD_KEY_INFORMATION, PREG_UNLOAD_KEY_INFORMATION, PREG_UNLOAD_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], REG_UNLOAD_KEY_INFORMATION, REG_UNLOAD_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], _REG_UNLOAD_KEY_INFORMATION, kernel.reg_unload_key_information, kstruct_d_3a289907-a70f-4245-a54c-5df9a71da3e6.xml, wdm/PREG_UNLOAD_KEY_INFORMATION, wdm/REG_UNLOAD_KEY_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	REG_UNLOAD_KEY_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: REG_UNLOAD_KEY_INFORMATION, *PREG_UNLOAD_KEY_INFORMATION
 req.product: Windows 10 or later.
@@ -51,20 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>REG_UNLOAD_KEY_INFORMATION</b> structure contains information that a driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a> routine can use when a registry hive is unloaded.
-
-
-## -syntax
-
-
-````
-typedef struct _REG_UNLOAD_KEY_INFORMATION {
-  PVOID Object;
-  PVOID UserEvent;
-  PVOID CallContext;
-  PVOID ObjectContext;
-  PVOID Reserved;
-} REG_UNLOAD_KEY_INFORMATION, *PREG_UNLOAD_KEY_INFORMATION;
-````
 
 
 ## -struct-fields
@@ -89,7 +76,7 @@ Optional driver-defined context information that the driver's <a href="https://m
 
 ### -field ObjectContext
 
-A pointer to driver-defined context information that the driver has associated with a registry object by calling <a href="..\wdm\nf-wdm-cmsetcallbackobjectcontext.md">CmSetCallbackObjectContext</a>. This member is defined starting with Windows Vista.
+A pointer to driver-defined context information that the driver has associated with a registry object by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff541924">CmSetCallbackObjectContext</a>. This member is defined starting with Windows Vista.
 
 
 ### -field Reserved
@@ -112,16 +99,15 @@ For more information about registry filtering operations, see <a href="https://m
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-cmsetcallbackobjectcontext.md">CmSetCallbackObjectContext</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541924">CmSetCallbackObjectContext</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a>
-
-
-
  
 
  
-
 

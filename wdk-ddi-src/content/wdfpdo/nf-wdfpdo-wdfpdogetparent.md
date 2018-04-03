@@ -39,7 +39,8 @@ api_location:
 -	Wdf01000.sys.dll
 api_name:
 -	WdfPdoGetParent
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_OBJECT_CONTEXT_TYPE_INFO, *PWDF_OBJECT_CONTEXT_TYPE_INFO
 req.product: Windows 10 or later.
@@ -54,16 +55,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF only]
 
 The <b>WdfPdoGetParent</b> method returns a handle to the framework device object that represents the parent device of a specified device.
-
-
-## -syntax
-
-
-````
-WDFDEVICE WdfPdoGetParent(
-  _In_ WDFDEVICE Device
-);
-````
 
 
 ## -parameters

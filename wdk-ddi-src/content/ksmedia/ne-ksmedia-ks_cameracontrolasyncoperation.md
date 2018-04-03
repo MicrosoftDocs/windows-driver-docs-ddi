@@ -38,7 +38,8 @@ api_location:
 -	Ksmedia.h
 api_name:
 -	KS_CameraControlAsyncOperation
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KS_CameraControlAsyncOperation
 ---
@@ -50,18 +51,6 @@ req.typenames: KS_CameraControlAsyncOperation
 
 
 Defines notifications that the driver uses to start and stop an asynchronous camera operation, including setting the flash, the image pin control properties, the region of interest in the image, or video stabilization.
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  KS_CAMERACONTROL_ASYNC_START  = 0x0001,
-  KS_CAMERACONTROL_ASYNC_STOP   = 0x0002,
-  KS_CAMERACONTROL_ASYNC_RESET  = 0x0003
-} KS_CameraControlAsyncOperation;
-````
 
 
 ## -enum-fields
@@ -88,19 +77,18 @@ Stop the requested asynchronous camera control operation and reset the lens focu
 
 
 
-For more information, see <a href="..\ksmedia\ns-ksmedia-ksproperty_cameracontrol_s_ex.md">KSPROPERTY_CAMERACONTROL_S_EX</a>.
+For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/jj151593">KSPROPERTY_CAMERACONTROL_S_EX</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-ksproperty_cameracontrol_s_ex.md">KSPROPERTY_CAMERACONTROL_S_EX</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj151593">KSPROPERTY_CAMERACONTROL_S_EX</a>
  
 
  
-
 

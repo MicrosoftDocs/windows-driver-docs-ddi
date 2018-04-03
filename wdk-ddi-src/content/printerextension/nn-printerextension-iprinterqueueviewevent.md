@@ -38,7 +38,8 @@ api_location:
 -	Printerextension.h
 api_name:
 -	IPrinterQueueViewEvent
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PrintSchemaSelectionType
 req.product: Windows 10 or later.
@@ -73,7 +74,7 @@ The <b>IPrinterQueueViewEvent</b> interface has these methods.
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn265394">OnChanged</a>
 </td>
 <td align="left" width="63%">
-Provides an <a href="..\printerextension\nn-printerextension-iprintjobcollection.md">IPrintJobCollection</a> object that provides a snapshot of a range of print jobs in the queue.
+Provides an <a href="https://msdn.microsoft.com/library/windows/hardware/dn265397">IPrintJobCollection</a> object that provides a snapshot of a range of print jobs in the queue.
 
 </td>
 </tr>
@@ -91,12 +92,11 @@ Provides an <a href="..\printerextension\nn-printerextension-iprintjobcollection
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/D1236DD2-D4AD-4615-9036-7EC75D6CADCE">Job Management</a>
-
-
-
  
 
  
-
 

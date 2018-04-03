@@ -7,7 +7,7 @@ old-location: kernel\enumerateinterruptsource.htm
 old-project: kernel
 ms.assetid: 1E6841D8-88A0-4EDB-89EF-3878AF8B0072
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 2/24/2018
 ms.keywords: EnumerateInterruptSource, EnumerateInterruptSource routine [Kernel-Mode Driver Architecture], PO_ENUMERATE_INTERRUPT_SOURCE_CALLBACK, kernel.enumerateinterruptsource, pepfx/EnumerateInterruptSource
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	pepfx.h
 api_name:
 -	EnumerateInterruptSource
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VPCI_PNP_ID, *PVPCI_PNP_ID
 ---
@@ -116,5 +117,6 @@ An <i>EnumerateInterruptSource</i> callback routine is called at the same IRQL a
  
 
  
+
 
 

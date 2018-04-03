@@ -38,7 +38,8 @@ api_location:
 -	stiusd.h
 api_name:
 -	IStiUSD.Diagnostic
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STI_WIA_DEVICE_INFORMATIONW, *PSTI_WIA_DEVICE_INFORMATIONW
 req.product: Windows 10 or later.
@@ -53,16 +54,6 @@ req.product: Windows 10 or later.
 A still image minidriver's <b>IStiUSD::Diagnostic</b> method runs diagnostic tests on a still image device.
 
 
-## -syntax
-
-
-````
-HRESULT Diagnostic(
-   LPSTI_DIAG pBuffer
-);
-````
-
-
 ## -parameters
 
 
@@ -70,7 +61,7 @@ HRESULT Diagnostic(
 
 ### -param pBuffer
 
-Caller-supplied pointer to an <a href="..\sti\ns-sti-_sti_diag.md">STI_DIAG</a> structure to receive testing status information.
+Caller-supplied pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff548383">STI_DIAG</a> structure to receive testing status information.
 
 
 ## -returns
@@ -93,7 +84,6 @@ The <b>IStiUSD::Diagnostic</b> method is called when a user clicks on the Scanne
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/62740263-5bbb-48e1-be3d-9ee9cb37d6b9">IStiUSD</a>
 
 
 
@@ -101,8 +91,8 @@ The <b>IStiUSD::Diagnostic</b> method is called when a user clicks on the Scanne
 
 
 
+<a href="https://msdn.microsoft.com/62740263-5bbb-48e1-be3d-9ee9cb37d6b9">IStiUSD</a>
  
 
  
-
 

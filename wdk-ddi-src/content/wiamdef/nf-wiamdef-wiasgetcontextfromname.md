@@ -38,7 +38,8 @@ api_location:
 -	Wiaservc.dll
 api_name:
 -	wiasGetContextFromName
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2
 req.product: Windows 10 or later.
@@ -51,19 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>wiasGetContextFromName</b> function retrieves the item context for an item name.
-
-
-## -syntax
-
-
-````
-HRESULT _stdcall wiasGetContextFromName(
-  _In_  BYTE *pWiasContext,
-        LONG lFlags,
-  _In_  BSTR bstrName,
-  _Out_ BYTE **ppWiasContext
-);
-````
 
 
 ## -parameters
@@ -113,12 +101,11 @@ This function should be used by minidrivers when they need to move from one appl
 
 ## -see-also
 
-<a href="..\wiamdef\nf-wiamdef-wiasgetrootitem.md">wiasGetRootItem</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549264">wiasGetRootItem</a>
  
 
  
-
 

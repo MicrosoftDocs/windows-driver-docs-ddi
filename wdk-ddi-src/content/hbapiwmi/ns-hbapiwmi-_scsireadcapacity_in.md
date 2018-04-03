@@ -7,7 +7,7 @@ old-location: storage\scsireadcapacity_in2.htm
 old-project: storage
 ms.assetid: 6d5aa608-9ee7-45a6-bd2f-13a5b8338437
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PScsiReadCapacity_IN, PScsiReadCapacity_IN, PScsiReadCapacity_IN structure pointer [Storage Devices], ScsiReadCapacity_IN, ScsiReadCapacity_IN structure [Storage Devices], _ScsiReadCapacity_IN, hbapiwmi/PScsiReadCapacity_IN, hbapiwmi/ScsiReadCapacity_IN, storage.scsireadcapacity_in2, structs-Fibre_235165a1-b938-461a-9e4d-f555eae34119.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Hbapiwmi.h
 api_name:
 -	ScsiReadCapacity_IN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: ScsiReadCapacity_IN, *PScsiReadCapacity_IN
 ---
@@ -50,19 +51,6 @@ req.typenames: ScsiReadCapacity_IN, *PScsiReadCapacity_IN
 
 
 The ScsiReadCapacity_IN structure is used to deliver input parameter data to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564890">ScsiReadCapacity</a> WMI method. 
-
-
-## -syntax
-
-
-````
-typedef struct _ScsiReadCapacity_IN {
-  UCHAR     Cdb[6];
-  UCHAR     HbaPortWWN[8];
-  UCHAR     DiscoveredPortWWN[8];
-  ULONGLONG FcLun;
-} ScsiReadCapacity_IN, *PScsiReadCapacity_IN;
-````
 
 
 ## -struct-fields
@@ -101,12 +89,11 @@ The WMI tool suite generates a declaration of the ScsiReadCapacity_IN structure 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564890">ScsiReadCapacity</a>
-
-
-
  
 
  
-
 

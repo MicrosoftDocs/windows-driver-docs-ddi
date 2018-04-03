@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSPROPERTY_VALUES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSPROPERTY_VALUES, *PKSPROPERTY_VALUES
 ---
@@ -50,18 +51,6 @@ req.typenames: KSPROPERTY_VALUES, *PKSPROPERTY_VALUES
 
 
 The KSPROPERTY_VALUES structure describes the type and acceptable default values of a property.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  KSIDENTIFIER                 PropTypeSet;
-  ULONG                        MembersListCount;
-  const KSPROPERTY_MEMBERSLIST *MembersList;
-} KSPROPERTY_VALUES, *PKSPROPERTY_VALUES;
-````
 
 
 ## -struct-fields
@@ -81,7 +70,7 @@ Specifies the number of entries in the array pointed to by <b>MembersList</b>.
 
 ### -field MembersList
 
-Points to an array of <a href="..\ks\ns-ks-ksproperty_memberslist.md">KSPROPERTY_MEMBERSLIST</a> structures. Each entry specifies a list of possible values or sets of values that the property may assume.
+Points to an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff565190">KSPROPERTY_MEMBERSLIST</a> structures. Each entry specifies a list of possible values or sets of values that the property may assume.
 
 
 ## -remarks
@@ -129,11 +118,6 @@ For more information, see <a href="https://msdn.microsoft.com/a385929e-1934-4d88
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksproperty_item.md">KSPROPERTY_ITEM</a>
-
-
-
-<a href="..\ks\ns-ks-ksproperty_memberslist.md">KSPROPERTY_MEMBERSLIST</a>
 
 
 
@@ -141,12 +125,16 @@ For more information, see <a href="https://msdn.microsoft.com/a385929e-1934-4d88
 
 
 
-<a href="..\ks\ns-ks-ksproperty_description.md">KSPROPERTY_DESCRIPTION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565132">KSPROPERTY_DESCRIPTION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565176">KSPROPERTY_ITEM</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565190">KSPROPERTY_MEMBERSLIST</a>
  
 
  
-
 

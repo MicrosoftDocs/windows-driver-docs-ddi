@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSCOMPONENTID
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSCOMPONENTID, *PKSCOMPONENTID
 ---
@@ -50,21 +51,6 @@ req.typenames: KSCOMPONENTID, *PKSCOMPONENTID
 
 
 The KSCOMPONENTID structure contains unique identifiers that describe an individual kernel streaming object.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  GUID  Manufacturer;
-  GUID  Product;
-  GUID  Component;
-  GUID  Name;
-  ULONG Version;
-  ULONG Revision;
-} KSCOMPONENTID, *PKSCOMPONENTID;
-````
 
 
 ## -struct-fields
@@ -113,12 +99,11 @@ Supply this structure in a <a href="https://msdn.microsoft.com/library/windows/h
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565171">KSPROPERTY_GENERAL_COMPONENTID</a>
-
-
-
  
 
  
-
 

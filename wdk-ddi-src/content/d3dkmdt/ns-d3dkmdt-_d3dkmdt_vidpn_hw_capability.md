@@ -7,7 +7,7 @@ old-location: display\d3dkmdt_vidpn_hw_capability.htm
 old-project: display
 ms.assetid: 8d881133-3ea7-43c4-99cc-d843026573d6
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMDT_VIDPN_HW_CAPABILITY, D3DKMDT_VIDPN_HW_CAPABILITY structure [Display Devices], DmStructs_93529025-7af3-49d1-8f38-2b0355682743.xml, _D3DKMDT_VIDPN_HW_CAPABILITY, d3dkmdt/D3DKMDT_VIDPN_HW_CAPABILITY, display.d3dkmdt_vidpn_hw_capability
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmdt.h
 api_name:
 -	D3DKMDT_VIDPN_HW_CAPABILITY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMDT_VIDPN_HW_CAPABILITY
 ---
@@ -50,22 +51,6 @@ req.typenames: D3DKMDT_VIDPN_HW_CAPABILITY
 
 
 The D3DKMDT_VIDPN_HW_CAPABILITY structure describes the capabilities of the display miniport driver to perform display operations on a specified functional VidPN without dedicated GPU hardware support. For definitions of hardware terminology used in this topic, see the Remarks section.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMDT_VIDPN_HW_CAPABILITY {
-  UINT DriverRotation  :1;
-  UINT DriverScaling  :1;
-  UINT DriverCloning  :1;
-  UINT DriverColorConvert  :1;
-  UINT DriverLinkedAdapaterOutput  :1;
-  UINT DriverRemoteDisplay  :1;
-  UINT Reserved  :26;
-} D3DKMDT_VIDPN_HW_CAPABILITY;
-````
 
 
 ## -struct-fields
@@ -104,7 +89,7 @@ If set to 0, the driver uses display pipeline hardware to directly generate the 
 
 A UINT value that describes the capability of the display miniport driver to display a color-convert bit-block transfer (bitblt).
 
-If set to a nonzero value, the driver uses software or the system-supplied graphics engine to generate the color-convert bitblt and then uses display pipeline hardware to display the color-converted image. For example, if the display pipeline hardware cannot color-convert from an 8-bit palletized surface format (defined by the D3DDDIFMT_P8 value of the <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a> enumeration), the driver can use the graphics engine to perform a color-convert bitblt from the D3DDDIFMT_ P8 format to the D3DDDIFMT_R8G8B8 format and then render the new D3DDDIFMT_R8G8B8 image using the display pipeline hardware.
+If set to a nonzero value, the driver uses software or the system-supplied graphics engine to generate the color-convert bitblt and then uses display pipeline hardware to display the color-converted image. For example, if the display pipeline hardware cannot color-convert from an 8-bit palletized surface format (defined by the D3DDDIFMT_P8 value of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544312">D3DDDIFORMAT</a> enumeration), the driver can use the graphics engine to perform a color-convert bitblt from the D3DDDIFMT_ P8 format to the D3DDDIFMT_R8G8B8 format and then render the new D3DDDIFMT_R8G8B8 image using the display pipeline hardware.
 
 If set to 0, the driver uses display pipeline hardware to directly generate the color-converted image.
 
@@ -145,12 +130,11 @@ The following definitions of terms are used in this topic.
 
 ## -see-also
 
-<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544312">D3DDDIFORMAT</a>
  
 
  
-
 

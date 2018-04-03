@@ -38,7 +38,8 @@ api_location:
 -	Wiaservc.dll
 api_name:
 -	wiasFormatArgs
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2
 req.product: Windows 10 or later.
@@ -51,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>wiasFormatArgs</b> function formats an argument list into a packaged string for logging.
-
-
-## -syntax
-
-
-````
-BSTR __cdecl wiasFormatArgs(
-   LPCSTR   lpszFormat, ...
-);
-````
 
 
 ## -parameters

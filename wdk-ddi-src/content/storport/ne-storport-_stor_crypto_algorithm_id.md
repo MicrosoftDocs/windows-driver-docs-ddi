@@ -7,7 +7,7 @@ old-location: storage\stor_crypto_algorithm_id.htm
 old-project: storage
 ms.assetid: 761B905B-D8E5-43C2-A412-EEC5F91848F3
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSTOR_CRYPTO_ALGORITHM_ID, PSTOR_CRYPTO_ALGORITHM_ID, PSTOR_CRYPTO_ALGORITHM_ID enumeration pointer [Storage Devices], STOR_CRYPTO_ALGORITHM_ID, STOR_CRYPTO_ALGORITHM_ID enumeration [Storage Devices], _STOR_CRYPTO_ALGORITHM_ID, storage.stor_crypto_algorithm_id, storport/, storport/PSTOR_CRYPTO_ALGORITHM_ID, storport/STOR_CRYPTO_ALGORITHM_ID"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Storport.h
 api_name:
 -	STOR_CRYPTO_ALGORITHM_ID
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STOR_CRYPTO_ALGORITHM_ID, *PSTOR_CRYPTO_ALGORITHM_ID
 req.product: Windows 10 or later.
@@ -51,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 Reserved for system use
-
-
-## -syntax
-
-
-````
-typedef enum _STOR_CRYPTO_ALGORITHM_ID { 
-    = 
-} STOR_CRYPTO_ALGORITHM_ID, *PSTOR_CRYPTO_ALGORITHM_ID;
-````
 
 
 ## -enum-fields

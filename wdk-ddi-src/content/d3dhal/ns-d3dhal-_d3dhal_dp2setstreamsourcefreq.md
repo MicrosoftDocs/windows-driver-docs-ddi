@@ -7,7 +7,7 @@ old-location: display\d3dhal_dp2setstreamsourcefreq.htm
 old-project: display
 ms.assetid: c7f9cfc5-5698-404b-9b67-51ad8e351519
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*LPD3DHAL_DP2SETSTREAMSOURCEFREQ, D3DHAL_DP2SETSTREAMSOURCEFREQ, D3DHAL_DP2SETSTREAMSOURCEFREQ structure [Display Devices], LPD3DHAL_DP2SETSTREAMSOURCEFREQ, LPD3DHAL_DP2SETSTREAMSOURCEFREQ structure pointer [Display Devices], _D3DHAL_DP2SETSTREAMSOURCEFREQ, d3dhal/D3DHAL_DP2SETSTREAMSOURCEFREQ, d3dhal/LPD3DHAL_DP2SETSTREAMSOURCEFREQ, d3dstrct_979aa6d9-cf68-4e59-9ee5-b422749fa49d.xml, display.d3dhal_dp2setstreamsourcefreq"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dhal.h
 api_name:
 -	D3DHAL_DP2SETSTREAMSOURCEFREQ
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DHAL_DP2SETSTREAMSOURCEFREQ
 ---
@@ -53,18 +54,7 @@ req.typenames: D3DHAL_DP2SETSTREAMSOURCEFREQ
    DirectX 9.0 and later versions only.
    
 
-The D3DHAL_DP2SETSTREAMSOURCEFREQ structure is used to set the frequency divisor of a stream source that is bound to a vertex buffer for <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DHAL_DP2SETSTREAMSOURCEFREQ {
-  DWORD dwStream;
-  DWORD dwDivider;
-} D3DHAL_DP2SETSTREAMSOURCEFREQ, *LPD3DHAL_DP2SETSTREAMSOURCEFREQ;
-````
+The D3DHAL_DP2SETSTREAMSOURCEFREQ structure is used to set the frequency divisor of a stream source that is bound to a vertex buffer for <a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a>.
 
 
 ## -struct-fields
@@ -95,16 +85,15 @@ A driver for a device that supports vertex shader version 3.0 and later can impl
 
 ## -see-also
 
+
+
+
 D3DDP2OP_SETSTREAMSOURCEFREQ
 
 
 
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
-
-
-
+<a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a>
  
 
  
-
 

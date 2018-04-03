@@ -39,7 +39,8 @@ api_location:
 -	usbcamd2.dll
 api_name:
 -	USBCAMD_Debug_LogEntry
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USB_BUS_INTERFACE_USBDI_V3, *PUSB_BUS_INTERFACE_USBDI_V3
 req.product: Windows 10 or later.
@@ -52,19 +53,6 @@ req.product: Windows 10 or later.
 
 
 The <b>USBCAMD_Debug_LogEntry</b> function is called by the camera minidriver to log debugging information to a file.
-
-
-## -syntax
-
-
-````
-VOID USBCAMD_Debug_LogEntry(
-  _In_ CHAR  *Name,
-  _In_ ULONG Info1,
-  _In_ ULONG Info2,
-  _In_ ULONG Info3
-);
-````
 
 
 ## -parameters

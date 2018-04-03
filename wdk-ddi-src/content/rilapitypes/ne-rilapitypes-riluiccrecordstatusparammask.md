@@ -38,7 +38,8 @@ api_location:
 -	rilapitypes.h
 api_name:
 -	RILUICCRECORDSTATUSPARAMMASK
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILUICCRECORDSTATUSPARAMMASK
 req.product: Windows 10 or later.

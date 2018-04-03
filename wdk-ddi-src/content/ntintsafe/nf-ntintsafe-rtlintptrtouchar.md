@@ -7,7 +7,7 @@ old-location: kernel\rtlintptrtouchar.htm
 old-project: kernel
 ms.assetid: 67D61FBA-15E9-4157-9286-72D51DE18275
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: RtlIntPtrToUChar, RtlIntPtrToUChar function [Kernel-Mode Driver Architecture], kernel.rtlintptrtouchar, ntintsafe/RtlIntPtrToUChar
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ntintsafe.h
 api_name:
 -	RtlIntPtrToUChar
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 ---
@@ -50,17 +51,6 @@ req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 
 
 Converts a value of type <b>INT_PTR</b> to a value of type <b>UCHAR</b>.
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlIntPtrToUChar(
-  _In_  INT_PTR iOperand,
-  _Out_ UCHAR   *pch
-);
-````
 
 
 ## -parameters

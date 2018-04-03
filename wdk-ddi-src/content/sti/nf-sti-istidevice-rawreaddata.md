@@ -38,7 +38,8 @@ api_location:
 -	sti.h
 api_name:
 -	IStiDevice.RawReadData
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STI_DEVICE_MJ_TYPE, STI_DEVICE_MJ_TYPE
 req.product: Windows 10 or later.
@@ -51,18 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>IStiDevice::RawReadData</b> method reads data from a still image device.
-
-
-## -syntax
-
-
-````
-HRESULT RawReadData(
-  [in, out]      LPVOID       lpBuffer,
-  [in, out]      LPDWORD      lpdwNumberOfBytes,
-  [in, optional] LPOVERLAPPED lpOverlapped
-);
-````
 
 
 ## -parameters
@@ -109,7 +98,6 @@ A call to <b>IStiDevice::RawReadData</b> must be preceded by a call to <a href="
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543758">IStiDevice::RawReadCommand</a>
 
 
 
@@ -117,8 +105,8 @@ A call to <b>IStiDevice::RawReadData</b> must be preceded by a call to <a href="
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543758">IStiDevice::RawReadCommand</a>
  
 
  
-
 

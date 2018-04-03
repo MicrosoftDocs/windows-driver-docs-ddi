@@ -7,7 +7,7 @@ old-location: netvista\ndis_rss_profile.htm
 old-project: netvista
 ms.assetid: 41A58C2C-8A25-41AC-9CBE-59AB38603A73
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PNDIS_RSS_PROFILE, NDIS_RSS_PROFILE, NDIS_RSS_PROFILE enumeration [Network Drivers Starting with Windows Vista], NdisRssProfileClosest, NdisRssProfileClosestStatic, NdisRssProfileConservative, NdisRssProfileMaximum, NdisRssProfileNuma, NdisRssProfileNumaStatic, _NDIS_RSS_PROFILE, netvista.ndis_rss_profile, ntddndis/NDIS_RSS_PROFILE, ntddndis/NdisRssProfileClosest, ntddndis/NdisRssProfileClosestStatic, ntddndis/NdisRssProfileConservative, ntddndis/NdisRssProfileMaximum, ntddndis/NdisRssProfileNuma, ntddndis/NdisRssProfileNumaStatic"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddndis.h
 api_name:
 -	NDIS_RSS_PROFILE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_RSS_PROFILE, *PNDIS_RSS_PROFILE
 ---
@@ -50,21 +51,6 @@ req.typenames: NDIS_RSS_PROFILE, *PNDIS_RSS_PROFILE
 
 
 This enumeration is not supported.
-
-
-## -syntax
-
-
-````
-typedef enum _NDIS_RSS_PROFILE { 
-  NdisRssProfileClosest        = 1,
-  NdisRssProfileClosestStatic,
-  NdisRssProfileNuma,
-  NdisRssProfileNumaStatic,
-  NdisRssProfileConservative,
-  NdisRssProfileMaximum
-} NDIS_RSS_PROFILE;
-````
 
 
 ## -enum-fields
@@ -108,28 +94,27 @@ This enumeration  value is reserved. Do not use.
 
 The <b>NDIS_RSS_PROFILE</b> enumeration type specifies the current  RSS load balancing profile.
 
-NDIS network drivers use the <b>NDIS_RSS_PROFILE</b> enumeration type to set the value of the <b>RssProfile</b> member of the <a href="..\ntddndis\ns-ntddndis-_ndis_rss_processor_info.md">NDIS_RSS_PROCESSOR_INFO</a> structure.
+NDIS network drivers use the <b>NDIS_RSS_PROFILE</b> enumeration type to set the value of the <b>RssProfile</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567274">NDIS_RSS_PROCESSOR_INFO</a> structure.
 
 
 
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_rss_processor_info.md">NDIS_RSS_PROCESSOR_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/0ea0d6f7-0dc5-40dd-a706-4712e19dbfdb">Standardized INF Keywords for RSS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567274">NDIS_RSS_PROCESSOR_INFO</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisgetrssprocessorinformation.md">
+<a href="https://msdn.microsoft.com/0da022d5-7294-4780-bab8-119ff6385abf">
    NdisGetRssProcessorInformation</a>
 
 
 
+<a href="https://msdn.microsoft.com/0ea0d6f7-0dc5-40dd-a706-4712e19dbfdb">Standardized INF Keywords for RSS</a>
  
 
  
-
 

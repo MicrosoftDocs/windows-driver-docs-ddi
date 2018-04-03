@@ -7,7 +7,7 @@ old-location: kernel\kequerysystemtime.htm
 old-project: kernel
 ms.assetid: de271bd2-93cf-444d-889d-09c7e654e688
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: KeQuerySystemTime, KeQuerySystemTime routine [Kernel-Mode Driver Architecture], k105_0eaf1b30-c365-45ac-828c-fbcc7cd71ff3.xml, kernel.kequerysystemtime, wdm/KeQuerySystemTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	KeQuerySystemTime
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
@@ -51,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>KeQuerySystemTime</b> routine obtains the current system time.
-
-
-## -syntax
-
-
-````
-VOID KeQuerySystemTime(
-  _Out_ PLARGE_INTEGER CurrentTime
-);
-````
 
 
 ## -parameters
@@ -86,31 +77,30 @@ Pointer to the current time on return from <b>KeQuerySystemTime</b>.
 
 
 
-System time is a count of 100-nanosecond intervals since January 1, 1601. System time is typically updated approximately every ten milliseconds. This value is computed for the GMT time zone. To adjust this value for the local time zone use <a href="..\wdm\nf-wdm-exsystemtimetolocaltime.md">ExSystemTimeToLocalTime</a>. 
+System time is a count of 100-nanosecond intervals since January 1, 1601. System time is typically updated approximately every ten milliseconds. This value is computed for the GMT time zone. To adjust this value for the local time zone use <a href="https://msdn.microsoft.com/library/windows/hardware/ff545622">ExSystemTimeToLocalTime</a>. 
 
 
 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kequerytickcount.md">KeQueryTickCount</a>
 
 
 
-<a href="..\wdm\nf-wdm-exsystemtimetolocaltime.md">ExSystemTimeToLocalTime</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545622">ExSystemTimeToLocalTime</a>
 
 
 
-<a href="..\wdm\nf-wdm-kequeryperformancecounter.md">KeQueryPerformanceCounter</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553053">KeQueryPerformanceCounter</a>
 
 
 
-<a href="..\wdm\nf-wdm-kequerytimeincrement.md">KeQueryTimeIncrement</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553071">KeQueryTickCount</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553075">KeQueryTimeIncrement</a>
  
 
  
-
 

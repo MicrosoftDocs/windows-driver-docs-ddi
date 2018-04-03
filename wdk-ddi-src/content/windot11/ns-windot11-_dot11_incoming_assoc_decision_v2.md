@@ -38,7 +38,8 @@ api_location:
 -	Windot11.h
 api_name:
 -	DOT11_INCOMING_ASSOC_DECISION_V2
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT11_INCOMING_ASSOC_DECISION_V2, *PDOT11_INCOMING_ASSOC_DECISION_V2
 req.product: Windows 10 or later.

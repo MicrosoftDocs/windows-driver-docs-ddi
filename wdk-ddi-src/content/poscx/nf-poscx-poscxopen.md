@@ -38,7 +38,8 @@ api_location:
 -	poscx.h
 api_name:
 -	PosCxOpen
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: POS_CX_EVENT_PRIORITY
 req.product: Windows 10 or later.
@@ -50,19 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-PosCxOpen is called to create an open PosCx library instance. This function initializes all resources it needs to manage a single open instance. It should be called from the driver's <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_file_create.md">EVT_WDF_DEVICE_FILE_CREATE</a>   callback.
-
-
-## -syntax
-
-
-````
-NTSTATUS PosCxOpen(
-  _In_ WDFDEVICE     device,
-  _In_ WDFFILEOBJECT fileObject,
-  _In_ ULONG         deviceInterfaceTag
-);
-````
+PosCxOpen is called to create an open PosCx library instance. This function initializes all resources it needs to manage a single open instance. It should be called from the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff540868">EVT_WDF_DEVICE_FILE_CREATE</a>   callback.
 
 
 ## -parameters

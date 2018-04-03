@@ -38,7 +38,8 @@ api_location:
 -	ntdd8042.h
 api_name:
 -	IOCTL_INTERNAL_I8042_KEYBOARD_WRITE_BUFFER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MOUSE_STATE, *PMOUSE_STATE
 ---
@@ -129,16 +130,15 @@ The request completed successfully.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff542067">IOCTL_KEYBOARD_SET_INDICATORS</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff542076">IOCTL_KEYBOARD_SET_TYPEMATIC</a>
-
-
-
  
 
  
-
 

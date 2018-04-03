@@ -7,7 +7,7 @@ old-location: netvista\rilmsgcdmabroadcastserviceid.htm
 old-project: netvista
 ms.assetid: 71f887ed-ab80-4b5f-bc74-d4333984fdd2
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: RILMSGCDMABROADCASTSERVICEID, RILMSGCDMABROADCASTSERVICEID enumeration [Network Drivers Starting with Windows Vista], RIL_1xBROADCAST_CMAS_AMBER, RIL_1xBROADCAST_CMAS_EXTREME, RIL_1xBROADCAST_CMAS_SEVERE, RIL_1xBROADCAST_CMAS_TEST, netvista.rilmsgcdmabroadcastserviceid, ntddrilapitypes/RILMSGCDMABROADCASTSERVICEID, ntddrilapitypes/RIL_1xBROADCAST_CMAS_AMBER, ntddrilapitypes/RIL_1xBROADCAST_CMAS_EXTREME, ntddrilapitypes/RIL_1xBROADCAST_CMAS_SEVERE, ntddrilapitypes/RIL_1xBROADCAST_CMAS_TEST
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILMSGCDMABROADCASTSERVICEID
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILMSGCDMABROADCASTSERVICEID
 ---
@@ -50,19 +51,6 @@ req.typenames: RILMSGCDMABROADCASTSERVICEID
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef enum _RILMSGCDMABROADCASTSERVICEID { 
-  RIL_1xBROADCAST_CMAS_EXTREME,
-  RIL_1xBROADCAST_CMAS_SEVERE,
-  RIL_1xBROADCAST_CMAS_AMBER,
-  RIL_1xBROADCAST_CMAS_TEST
-} RILMSGCDMABROADCASTSERVICEID;
-````
 
 
 ## -enum-fields

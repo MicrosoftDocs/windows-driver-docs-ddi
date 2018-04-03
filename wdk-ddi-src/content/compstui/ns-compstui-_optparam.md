@@ -38,7 +38,8 @@ api_location:
 -	compstui.h
 api_name:
 -	OPTPARAM
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OPTPARAM, *POPTPARAM
 ---
@@ -49,23 +50,7 @@ req.typenames: OPTPARAM, *POPTPARAM
 ## -description
 
 
-An array of OPTPARAM structures is used by CPSUI applications (including printer interface DLLs) for describing all the parameter values associated with a <a href="https://msdn.microsoft.com/572330d6-1a1b-46fd-bfb4-be2b0990bca4">property sheet option</a>. The array's address is included in an <a href="..\compstui\ns-compstui-_opttype.md">OPTTYPE</a> structure.
-
-
-## -syntax
-
-
-````
-typedef struct _OPTPARAM {
-  WORD      cbSize;
-  BYTE      Flags;
-  BYTE      Style;
-  LPTSTR    pData;
-  ULONG_PTR IconID;
-  LPARAM    lParam;
-  ULONG_PTR dwReserved[2];
-} OPTPARAM, *POPTPARAM;
-````
+An array of OPTPARAM structures is used by CPSUI applications (including printer interface DLLs) for describing all the parameter values associated with a <a href="https://msdn.microsoft.com/572330d6-1a1b-46fd-bfb4-be2b0990bca4">property sheet option</a>. The array's address is included in an <a href="https://msdn.microsoft.com/library/windows/hardware/ff559670">OPTTYPE</a> structure.
 
 
 ## -struct-fields

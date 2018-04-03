@@ -38,7 +38,8 @@ api_location:
 -	printoem.h
 api_name:
 -	OEMStrokePath
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STDVARIABLEINDEX
 req.product: Windows 10 or later.
@@ -51,23 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <code>OEMStrokePath</code> function strokes a path.
-
-
-## -syntax
-
-
-````
-BOOL APIENTRY OEMStrokePath(
-   SURFOBJ   *pso,
-   PATHOBJ   *ppo,
-   CLIPOBJ   *pco,
-   XFORMOBJ  *pxo,
-   BRUSHOBJ  *pbo,
-   POINTL    *pptlBrushOrg,
-   LINEATTRS *plineattrs,
-   MIX       mix
-);
-````
 
 
 ## -parameters

@@ -7,7 +7,7 @@ old-location: kernel\key_value_full_information.htm
 old-project: kernel
 ms.assetid: 0340cfa7-957d-4404-8dbd-d3178436de0f
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*PKEY_VALUE_FULL_INFORMATION, KEY_VALUE_FULL_INFORMATION, KEY_VALUE_FULL_INFORMATION structure [Kernel-Mode Driver Architecture], PKEY_VALUE_FULL_INFORMATION, PKEY_VALUE_FULL_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _KEY_VALUE_FULL_INFORMATION, kernel.key_value_full_information, kstruct_c_15c88f03-6342-40db-9f43-cb4087f24610.xml, wdm/KEY_VALUE_FULL_INFORMATION, wdm/PKEY_VALUE_FULL_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	wdm.h
 api_name:
 -	KEY_VALUE_FULL_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KEY_VALUE_FULL_INFORMATION, *PKEY_VALUE_FULL_INFORMATION
 req.product: Windows 10 or later.
@@ -53,21 +54,6 @@ req.product: Windows 10 or later.
 The <b>KEY_VALUE_FULL_INFORMATION</b> structure defines information available for a value entry of a registry key.
 
 
-## -syntax
-
-
-````
-typedef struct _KEY_VALUE_FULL_INFORMATION {
-  ULONG TitleIndex;
-  ULONG Type;
-  ULONG DataOffset;
-  ULONG DataLength;
-  ULONG NameLength;
-  WCHAR Name[1];
-} KEY_VALUE_FULL_INFORMATION, *PKEY_VALUE_FULL_INFORMATION;
-````
-
-
 ## -struct-fields
 
 
@@ -80,7 +66,7 @@ Device and intermediate drivers should ignore this member.
 
 ### -field Type
 
-Specifies the system-defined type for the registry value(s) following the <b>Name</b> member. For a summary of these types, see <a href="..\wdm\ns-wdm-_key_value_basic_information.md">KEY_VALUE_BASIC_INFORMATION</a>.
+Specifies the system-defined type for the registry value(s) following the <b>Name</b> member. For a summary of these types, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff553410">KEY_VALUE_BASIC_INFORMATION</a>.
 
 
 ### -field DataOffset
@@ -105,28 +91,27 @@ A string of Unicode characters naming a value entry of the key.
 
 ## -see-also
 
-<a href="..\wdm\ne-wdm-_key_value_information_class.md">KEY_VALUE_INFORMATION_CLASS</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwqueryvaluekey.md">ZwQueryValueKey</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553410">KEY_VALUE_BASIC_INFORMATION</a>
 
 
 
-<a href="..\wdm\ns-wdm-_key_value_partial_information.md">KEY_VALUE_PARTIAL_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554218">KEY_VALUE_INFORMATION_CLASS</a>
 
 
 
-<a href="..\wdm\ns-wdm-_key_value_basic_information.md">KEY_VALUE_BASIC_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554220">KEY_VALUE_PARTIAL_INFORMATION</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwenumeratevaluekey.md">ZwEnumerateValueKey</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566453">ZwEnumerateValueKey</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567069">ZwQueryValueKey</a>
  
 
  
-
 

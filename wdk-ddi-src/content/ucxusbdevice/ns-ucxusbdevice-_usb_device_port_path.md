@@ -7,7 +7,7 @@ old-location: buses\_usb_device_port_path.htm
 old-project: usbref
 ms.assetid: 75C7DB08-F831-43ED-8373-F3F4C7AF89E8
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PUSB_DEVICE_PORT_PATH, P_USB_DEVICE_PORT_PATH, P_USB_DEVICE_PORT_PATH structure pointer [Buses], USB_DEVICE_PORT_PATH, USB_DEVICE_PORT_PATH structure [Buses], _USB_DEVICE_PORT_PATH, buses._usb_device_port_path, ucxusbdevice/P_USB_DEVICE_PORT_PATH, ucxusbdevice/_USB_DEVICE_PORT_PATH"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ucxusbdevice.h
 api_name:
 -	USB_DEVICE_PORT_PATH
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USB_DEVICE_PORT_PATH, *PUSB_DEVICE_PORT_PATH
 req.product: Windows 10 or later.
@@ -51,19 +52,6 @@ req.product: Windows 10 or later.
 
 
 Contains the port path of a USB device.
-
-
-## -syntax
-
-
-````
-typedef struct _USB_DEVICE_PORT_PATH {
-  ULONG Size;
-  ULONG PortPathDepth;
-  ULONG TTHubDepth;
-  ULONG PortPath[MAX_USB_DEVICE_DEPTH];
-} USB_DEVICE_PORT_PATH, *P_USB_DEVICE_PORT_PATH;
-````
 
 
 ## -struct-fields
@@ -93,12 +81,11 @@ The index of connected USB port on the hub.
 
 ## -see-also
 
-<a href="..\ucxusbdevice\ns-ucxusbdevice-_ucxusbdevice_info.md">UCXUSBDEVICE_INFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt188055">UCXUSBDEVICE_INFO</a>
  
 
  
-
 

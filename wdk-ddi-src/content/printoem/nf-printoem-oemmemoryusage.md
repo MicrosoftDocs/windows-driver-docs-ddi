@@ -2,13 +2,13 @@
 UID: NF:printoem.OEMMemoryUsage
 title: OEMMemoryUsage function
 author: windows-driver-content
-description: The OEMMEMORYUSAGE structure is used as an input parameter to a rendering plug-in's IPrintOemUni::MemoryUsage method.
-old-location: print\oemmemoryusage.htm
+description: This function is obsolete for Windows XP and later.wcs
+old-location: print\oemmemoryusage__function_.htm
 old-project: print
-ms.assetid: a7a522b8-7aa2-45b6-9200-407471dca82f
+ms.assetid: ae78fc9a-06a2-466f-875c-9c35aec13336
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: ",  , E, M, O, OEMMEMORYUSAGE, OEMMEMORYUSAGE structure [Print Devices], OEMMemoryUsage, POEMMEMORYUSAGE, POEMMEMORYUSAGE structure pointer [Print Devices], U, a, e, g, m, o, print.oemmemoryusage, print_unidrv-pscript_rendering_c6746c1c-f6c5-4acf-bcd3-bc1f69382dae.xml, printoem/OEMMEMORYUSAGE, printoem/POEMMEMORYUSAGE, r, s, y"
+ms.date: 2/26/2018
+ms.keywords: OEMMemoryUsage, OEMMemoryUsage function [Print Devices], print.oemmemoryusage__function_, print_obsoletefunctions_35165216-4a29-4096-95b6-5f5b00418193.xml, printoem/OEMMemoryUsage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -26,19 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	HeaderDef
-apilocation:
+api_location:
 -	printoem.h
-apiname:
--	OEMMEMORYUSAGE
-product: Windows
+api_name:
+-	OEMMemoryUsage
+product:
+- Windows
 targetos: Windows
 req.typenames: STDVARIABLEINDEX
 req.product: Windows 10 or later.
@@ -50,45 +51,28 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The OEMMEMORYUSAGE structure is used as an input parameter to a rendering plug-in's <a href="https://msdn.microsoft.com/library/windows/hardware/ff554264">IPrintOemUni::MemoryUsage</a> method.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  DWORD dwFixedMemoryUsage;
-  DWORD dwPercentMemoryUsage;
-  DWORD dwMaxBandSize;
-} OEMMEMORYUSAGE, *POEMMEMORYUSAGE;
-````
+This function is obsolete for Windows XP and later.wcs
 
 
 ## -parameters
 
 
-## -remarks
+
+
+### -param pdevobj
+
+
+### -param pMemoryUsage [in, out]
+
+
+## -returns
 
 
 
-The Unidrv driver uses the values in the <b>dwFixedMemoryUsage</b> and <b>dwPercentMemoryUsage</b> members of this structure to determine the optimum size for a GDI drawing surface, taking into account any memory requirements of a rendering plug-in's <b>IPrintOemUni::ImageProcessing</b> method. For more information about how these members are used, see the Remarks section in <a href="https://msdn.microsoft.com/library/windows/hardware/ff554264">IPrintOemUni::MemoryUsage</a>.
+This function does not return a value.
 
+<h2><a id="ddk_oemmemoryusage_function__gg"></a><a id="DDK_OEMMEMORYUSAGE_FUNCTION__GG"></a></h2>
+This function is obsolete for Windows XP and later. It is supported only for earlier Unidrv plug-ins. Use <a href="https://msdn.microsoft.com/library/windows/hardware/ff554264">IPrintOemUni::MemoryUsage</a> instead.
 
-
-
-## -see-also
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554264">IPrintOemUni::MemoryUsage</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554261">IPrintOemUni::ImageProcessing</a>
-
-
-
- 
-
- 
 
 

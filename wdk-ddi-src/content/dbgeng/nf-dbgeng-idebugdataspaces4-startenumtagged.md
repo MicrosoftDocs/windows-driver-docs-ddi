@@ -7,7 +7,7 @@ old-location: debugger\startenumtagged.htm
 old-project: debugger
 ms.assetid: b79b1f09-baff-4071-a209-6fc399c9aef9
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: IDebugDataSpaces3 interface [Windows Debugging], StartEnumTagged method, IDebugDataSpaces3::StartEnumTagged, IDebugDataSpaces4, IDebugDataSpaces4 interface [Windows Debugging], StartEnumTagged method, IDebugDataSpaces4::StartEnumTagged, IDebugDataSpaces_bc6f5148-04e1-4912-8ca2-8c095519af8f.xml, StartEnumTagged method [Windows Debugging], StartEnumTagged method [Windows Debugging], IDebugDataSpaces3 interface, StartEnumTagged method [Windows Debugging], IDebugDataSpaces4 interface, StartEnumTagged,IDebugDataSpaces4.StartEnumTagged, dbgeng/IDebugDataSpaces3::StartEnumTagged, dbgeng/IDebugDataSpaces4::StartEnumTagged, debugger.startenumtagged
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	IDebugDataSpaces3.StartEnumTagged
 -	IDebugDataSpaces4.StartEnumTagged
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -51,16 +52,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>StartEnumTagged</b> method initializes a enumeration over the tagged data associated with a debugger session.
-
-
-## -syntax
-
-
-````
-HRESULT StartEnumTagged(
-  [out] PULONG64 Handle
-);
-````
 
 
 ## -parameters

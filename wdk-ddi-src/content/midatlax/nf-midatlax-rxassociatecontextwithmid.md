@@ -7,7 +7,7 @@ old-location: ifsk\rxassociatecontextwithmid.htm
 old-project: ifsk
 ms.assetid: b2ced4fb-5104-4bf3-8c6c-bf129e3dff97
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: RxAssociateContextWithMid, RxAssociateContextWithMid function [Installable File System Drivers], ifsk.rxassociatecontextwithmid, midatlax/RxAssociateContextWithMid, rxref_fdf65b83-9924-4463-bf63-ca28d11f3090.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	midatlax.h
 api_name:
 -	RxAssociateContextWithMid
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MCD_INIT_DATA, *PMCD_INIT_DATA
 ---
@@ -50,18 +51,6 @@ req.typenames: MCD_INIT_DATA, *PMCD_INIT_DATA
 
 
 <b>RxAssociateContextWithMid</b> associates the supplied opaque context with an available multiplex ID (MID) from a MID_ATLAS. 
-
-
-## -syntax
-
-
-````
-NTSTATUS RxAssociateContextWithMid(
-   PRX_MID_ATLAS pMidAtlas,
-   PVOID         pContext,
-   PUSHORT       pNewMid
-);
-````
 
 
 ## -parameters
@@ -153,28 +142,27 @@ The <i>pContext</i> parameter can be any opaque context but it is commonly an RX
 
 ## -see-also
 
-<a href="..\midatlax\nf-midatlax-rxmapmidtocontext.md">RxMapMidToContext</a>
 
 
 
-<a href="..\midatlax\nf-midatlax-rxreassociatemid.md">RxReassociateMid</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554352">RxCreateMidAtlas</a>
 
 
 
-<a href="..\midatlax\nf-midatlax-rxdestroymidatlas.md">RxDestroyMidAtlas</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554395">RxDestroyMidAtlas</a>
 
 
 
-<a href="..\midatlax\nf-midatlax-rxmapanddissociatemidfromcontext.md">RxMapAndDissociateMidFromContext</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554541">RxMapAndDissociateMidFromContext</a>
 
 
 
-<a href="..\midatlax\nf-midatlax-rxcreatemidatlas.md">RxCreateMidAtlas</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554545">RxMapMidToContext</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554686">RxReassociateMid</a>
  
 
  
-
 

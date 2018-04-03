@@ -7,7 +7,7 @@ old-location: display\d3d11ddi_threading_caps.htm
 old-project: display
 ms.assetid: 11715852-8af2-4ae1-b3a2-c80153ef7cde
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3D11DDI_THREADING_CAPS, D3D11DDI_THREADING_CAPS structure [Display Devices], UMDisplayDriver_Dx11param_Structs_0f59187b-c545-4e95-aa28-c2627cb62538.xml, d3d10umddi/D3D11DDI_THREADING_CAPS, display.d3d11ddi_threading_caps
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3d10umddi.h
 api_name:
 -	D3D11DDI_THREADING_CAPS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D11DDI_THREADING_CAPS
 ---
@@ -50,16 +51,6 @@ req.typenames: D3D11DDI_THREADING_CAPS
 
 
 The D3D11DDI_THREADING_CAPS structure contains display device threading capabilities. 
-
-
-## -syntax
-
-
-````
-typedef struct D3D11DDI_THREADING_CAPS {
-  UINT Caps;
-} D3D11DDI_THREADING_CAPS;
-````
 
 
 ## -struct-fields
@@ -112,16 +103,15 @@ The driver supports command lists. To support D3D11DDICAPS_COMMANDLISTS_BUILD_2,
 
 ## -see-also
 
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_2ddicaps_type.md">D3D10_2DDICAPS_TYPE</a>
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10_2ddi_getcaps.md">GetCaps(D3D10_2)</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541894">D3D10_2DDICAPS_TYPE</a>
 
 
 
+<a href="https://msdn.microsoft.com/83cd5f34-5f12-4ead-ad33-366fc3c6e804">GetCaps(D3D10_2)</a>
  
 
  
-
 

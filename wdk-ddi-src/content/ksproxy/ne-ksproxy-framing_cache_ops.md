@@ -38,7 +38,8 @@ api_location:
 -	Ksproxy.h
 api_name:
 -	FRAMING_CACHE_OPS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FRAMING_CACHE_OPS
 ---
@@ -50,19 +51,6 @@ req.typenames: FRAMING_CACHE_OPS
 
 
 
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  Framing_Cache_Update,
-  Framing_Cache_ReadLast,
-  Framing_Cache_ReadOrig,
-  Framing_Cache_Write
-} FRAMING_CACHE_OPS;
-````
 
 
 ## -enum-fields

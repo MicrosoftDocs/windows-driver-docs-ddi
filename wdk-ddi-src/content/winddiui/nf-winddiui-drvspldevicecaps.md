@@ -38,7 +38,8 @@ api_location:
 -	winddiui.h
 api_name:
 -	DrvSplDeviceCaps
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WINBIO_VERSION, *PWINBIO_VERSION
 req.product: Windows 10 or later.
@@ -51,21 +52,6 @@ req.product: Windows 10 or later.
 
 
 A printer interface DLL's <b>DrvSplDeviceCaps</b> function queries a printer for its capabilities.
-
-
-## -syntax
-
-
-````
-DWORD DrvSplDeviceCaps(
-            HANDLE   hPrinter,
-  _In_      PWSTR    pwDeviceName,
-            WORD     DeviceCap,
-  _Out_opt_ PVOID    pvOutput,
-            DWORD    cchBuf,
-  _In_opt_  PDEVMODE pDM
-);
-````
 
 
 ## -parameters
@@ -181,7 +167,7 @@ The return value depends on the <i>DeviceCap</i> parameter. If <i>DeviceCap</i> 
 
 The <b>DrvSplDeviceCaps</b> function is available in Microsoft Windows Server 2003 and later.
 
-For descriptions of the DC_<i>XXX</i> flags, see <a href="..\winddiui\nf-winddiui-drvdevicecapabilities.md">DrvDeviceCapabilities</a>.
+For descriptions of the DC_<i>XXX</i> flags, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff548539">DrvDeviceCapabilities</a>.
 
 This function must be defined in the .def file as DrvSplDeviceCaps @ 254, because the spooler uses the ordinal number 254 to obtain the driver function pointer.
 
@@ -190,12 +176,11 @@ This function must be defined in the .def file as DrvSplDeviceCaps @ 254, becaus
 
 ## -see-also
 
-<a href="..\winddiui\nf-winddiui-drvdevicecapabilities.md">DrvDeviceCapabilities</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548539">DrvDeviceCapabilities</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: display\setstreamsourceum.htm
 old-project: display
 ms.assetid: 75a70801-0338-45ed-a691-5f84202575d5
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3DDDI_SETSTREAMSOURCEUM, SetStreamSourceUM, SetStreamSourceUM callback function [Display Devices], UserModeDisplayDriver_Functions_0bea09c2-3bd9-4c60-9688-1c5a687e0dc9.xml, d3dumddi/SetStreamSourceUM, display.setstreamsourceum
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	SetStreamSourceUM
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_PTE
 ---
@@ -50,21 +51,6 @@ req.typenames: DXGK_PTE
 
 
 The <i>SetStreamSourceUM</i> function binds a vertex stream source to a user memory buffer. 
-
-
-## -prototype
-
-
-````
-PFND3DDDI_SETSTREAMSOURCEUM SetStreamSourceUM;
-
-__checkReturn HRESULT APIENTRY SetStreamSourceUM(
-  _In_       HANDLE                      hDevice,
-  _In_ const D3DDDIARG_SETSTREAMSOURCEUM *pData,
-  _In_ const VOID                        *pUMBuffer
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -88,7 +74,7 @@ __checkReturn HRESULT APIENTRY SetStreamSourceUM(
 
 #### - pData [in]
 
- A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_setstreamsourceum.md">D3DDDIARG_SETSTREAMSOURCEUM</a> structure that specifies the vertex stream source to bind.
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543363">D3DDDIARG_SETSTREAMSOURCEUM</a> structure that specifies the vertex stream source to bind.
 
 
 #### - pUMBuffer [in]
@@ -107,16 +93,15 @@ __checkReturn HRESULT APIENTRY SetStreamSourceUM(
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_setstreamsourceum.md">D3DDDIARG_SETSTREAMSOURCEUM</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543363">D3DDDIARG_SETSTREAMSOURCEUM</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544519">D3DDDI_DEVICEFUNCS</a>
  
 
  
-
 

@@ -38,7 +38,8 @@ api_location:
 -	wpprecorder.h
 api_name:
 -	imp_WppRecorderIsDefaultLogAvailable
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WNODE_HEADER, *PWNODE_HEADER
 req.product: Windows 10 or later.
@@ -51,14 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>WppRecorderIsDefaultLogAvailable</b> method determines whether the default log is available.
-
-
-## -syntax
-
-
-````
-BOOLEAN imp_WppRecorderIsDefaultLogAvailable(void);
-````
 
 
 ## -parameters

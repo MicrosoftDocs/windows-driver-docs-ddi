@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsGenerateEvents
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,22 +52,6 @@ req.typenames:
 
 
 The<b> KsGenerateEvents</b> function generates events of an indicated type that are present in <i>Object</i>'s event list.
-
-
-## -syntax
-
-
-````
-void KsGenerateEvents(
-  _In_           PVOID                      Object,
-  _In_opt_ const GUID                       *EventSet,
-  _In_           ULONG                      EventId,
-  _In_           ULONG                      DataSize,
-  _In_opt_       PVOID                      Data,
-  _In_opt_       PFNKSGENERATEEVENTCALLBACK CallBack,
-  _In_opt_       PVOID                      CallBackContext
-);
-````
 
 
 ## -parameters
@@ -124,7 +109,7 @@ None
 
 When calling this function, a minidriver must place <i>Data</i> and <i>CallBackContext</i> in a locked, nonpageable data segment. In addition, note that the <i>CallBack</i> is made at DISPATCH_LEVEL. The callback function must be in a locked segment and must be prepared to run at IRQL = DISPATCH_LEVEL. Note that there is an additional issue in DX8 <i>only</i>: <i>EventSet</i> must be in a locked data segment.
 
-Minidrivers typically do not call this function directly and instead use one of the versions that performs appropriate casting: <a href="..\ks\nf-ks-ksfiltergenerateevents.md">KsFilterGenerateEvents</a> or <a href="..\ks\nf-ks-kspingenerateevents.md">KsPinGenerateEvents</a>.
+Minidrivers typically do not call this function directly and instead use one of the versions that performs appropriate casting: <a href="https://msdn.microsoft.com/library/windows/hardware/ff562541">KsFilterGenerateEvents</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff563500">KsPinGenerateEvents</a>.
 
 An event is generated if it is present in <i>Object's </i>event list and <i>EventId </i>matches the event's ID, <i>EventSet</i> either matches the event's set GUID or is <b>NULL</b>, and <i>CallBack </i>is either <b>NULL</b> or authorizes the match.
 
@@ -140,7 +125,7 @@ An event is generated if it is present in <i>Object's </i>event list and <i>Even
 </td>
 </tr>
 </table></span></div>
-AVStream passes the contents of the <b>KsGenerateEvents</b> routine's parameter <i>CallBackContext</i> in this callback's <i>Context</i> parameter. <i>EventEntry</i> is a pointer to a <a href="..\ks\ns-ks-_ksevent_entry.md">KSEVENT_ENTRY</a> structure that specifies the event that would be generated. The callback function should return <b>TRUE</b> if this event should be generated.
+AVStream passes the contents of the <b>KsGenerateEvents</b> routine's parameter <i>CallBackContext</i> in this callback's <i>Context</i> parameter. <i>EventEntry</i> is a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff561853">KSEVENT_ENTRY</a> structure that specifies the event that would be generated. The callback function should return <b>TRUE</b> if this event should be generated.
 
 For more information, see <a href="https://msdn.microsoft.com/7add2055-8d3f-432d-8aa1-44459ac197dd">Event Handling in AVStream</a> and <a href="https://msdn.microsoft.com/3eaa1d65-8417-4a07-b358-823394baec9b">KS Events</a>. 
 
@@ -149,24 +134,23 @@ For more information, see <a href="https://msdn.microsoft.com/7add2055-8d3f-432d
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kspingenerateevents.md">KsPinGenerateEvents</a>
 
 
 
-<a href="..\ks\ns-ks-_ksevent_entry.md">KSEVENT_ENTRY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561853">KSEVENT_ENTRY</a>
 
 
 
-<a href="..\ks\nf-ks-ksfiltergenerateevents.md">KsFilterGenerateEvents</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560931">KsAddEvent</a>
 
 
 
-<a href="..\ks\nf-ks-ksaddevent.md">KsAddEvent</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562541">KsFilterGenerateEvents</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563500">KsPinGenerateEvents</a>
  
 
  
-
 

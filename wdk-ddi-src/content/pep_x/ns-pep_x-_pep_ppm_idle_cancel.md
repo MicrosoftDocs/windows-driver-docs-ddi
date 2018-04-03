@@ -7,7 +7,7 @@ old-location: kernel\pep_ppm_idle_cancel.htm
 old-project: kernel
 ms.assetid: 29B16A23-A3C1-4994-8F72-403BE32ABBD2
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*PPEP_PPM_IDLE_CANCEL, PEP_PPM_IDLE_CANCEL, PEP_PPM_IDLE_CANCEL structure [Kernel-Mode Driver Architecture], PPEP_PPM_IDLE_CANCEL, PPEP_PPM_IDLE_CANCEL structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_IDLE_CANCEL, kernel.pep_ppm_idle_cancel, pep_x/PEP_PPM_IDLE_CANCEL, pep_x/PPEP_PPM_IDLE_CANCEL"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	pep_x.h
 api_name:
 -	PEP_PPM_IDLE_CANCEL
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PEP_PPM_IDLE_CANCEL, *PPEP_PPM_IDLE_CANCEL
 ---
@@ -52,16 +53,6 @@ req.typenames: PEP_PPM_IDLE_CANCEL, *PPEP_PPM_IDLE_CANCEL
 The <b>PEP_PPM_IDLE_CANCEL</b> structure indicates why the processor could not enter the previously selected idle state.
 
 
-## -syntax
-
-
-````
-typedef struct _PEP_PPM_IDLE_CANCEL {
-  PEP_PROCESSOR_IDLE_CANCEL_CODE CancelCode;
-} PEP_PPM_IDLE_CANCEL, *PPEP_PPM_IDLE_CANCEL;
-````
-
-
 ## -struct-fields
 
 
@@ -69,7 +60,7 @@ typedef struct _PEP_PPM_IDLE_CANCEL {
 
 ### -field CancelCode
 
-[in] A <a href="..\pep_x\ne-pep_x-ppep_processor_idle_cancel_code.md">PEP_PROCESSOR_IDLE_CANCEL_CODE</a> enumeration value that indicates why the processor could not enter the idle state selected by the platform extension plug-in (PEP).
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/mt629123">PEP_PROCESSOR_IDLE_CANCEL_CODE</a> enumeration value that indicates why the processor could not enter the idle state selected by the platform extension plug-in (PEP).
 
 
 ## -remarks
@@ -83,7 +74,6 @@ This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/
 
 ## -see-also
 
-<a href="..\pep_x\ne-pep_x-ppep_processor_idle_cancel_code.md">PEP_PROCESSOR_IDLE_CANCEL_CODE</a>
 
 
 
@@ -91,8 +81,8 @@ This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt629123">PEP_PROCESSOR_IDLE_CANCEL_CODE</a>
  
 
  
-
 

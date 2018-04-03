@@ -38,7 +38,8 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFRequestCompletionParams.GetCompletedRequestType
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
@@ -55,14 +56,6 @@ req.product: Windows 10 or later.
 The <b>GetCompletedRequestType</b> method retrieves the type of operation that the request to be completed contains.
 
 
-## -syntax
-
-
-````
-WDF_REQUEST_TYPE  GetCompletedRequestType();
-````
-
-
 ## -parameters
 
 
@@ -74,23 +67,22 @@ WDF_REQUEST_TYPE  GetCompletedRequestType();
 
 
 
-<b>GetCompletedRequestType</b> returns a <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_type.md">WDF_REQUEST_TYPE</a>-typed value that identifies the request type and why the request was sent to the driver.
+<b>GetCompletedRequestType</b> returns a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552503">WDF_REQUEST_TYPE</a>-typed value that identifies the request type and why the request was sent to the driver.
 
 
 
 
 ## -see-also
 
-<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_type.md">WDF_REQUEST_TYPE</a>
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfrequestcompletionparams.md">IWDFRequestCompletionParams</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560292">IWDFRequestCompletionParams</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552503">WDF_REQUEST_TYPE</a>
  
 
  
-
 

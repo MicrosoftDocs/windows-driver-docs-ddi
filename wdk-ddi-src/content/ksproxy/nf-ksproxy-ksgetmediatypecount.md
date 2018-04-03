@@ -39,7 +39,8 @@ api_location:
 -	Ksproxy.dll
 api_name:
 -	KsGetMediaTypeCount
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PIPE_STATE
 ---
@@ -51,18 +52,6 @@ req.typenames: PIPE_STATE
 
 
 The <b>KsGetMediaTypeCount</b> function returns the number of available media types on a pin factory identifier.
-
-
-## -syntax
-
-
-````
-HRESULT KsGetMediaTypeCount(
-  _In_  HANDLE FilterHandle,
-  _In_  ULONG  PinFactoryId,
-  _Out_ ULONG  *MediaTypeCount
-);
-````
 
 
 ## -parameters
@@ -105,16 +94,15 @@ The number of available media types that <b>KsGetMediaTypeCount</b> returns is e
 
 ## -see-also
 
-<a href="..\ksproxy\nn-ksproxy-ikspinfactory.md">IKsPinFactory</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559910">IKsPinFactory</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561658">KSDATARANGE</a>
-
-
-
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: display\dxva_bufferdescription.htm
 old-project: display
 ms.assetid: 34b1585d-ceba-4e13-b5c1-70ce29a940c5
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*LPDXVA_BufferDescription, DXVA_BufferDescription, DXVA_BufferDescription structure [Display Devices], LPDXVA_BufferDescription, LPDXVA_BufferDescription structure pointer [Display Devices], _DXVA_BufferDescription, display.dxva_bufferdescription, dxva/DXVA_BufferDescription, dxva/LPDXVA_BufferDescription, dxvaref_3d6f62c8-77a1-40b0-8bf3-1a82deaf3020.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	dxva.h
 api_name:
 -	DXVA_BufferDescription
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXVA_BufferDescription, *LPDXVA_BufferDescription
 ---
@@ -50,25 +51,6 @@ req.typenames: DXVA_BufferDescription, *LPDXVA_BufferDescription
 
 
 The DXVA_BufferDescription structure is sent by the host decoder to the accelerator to provide information to the accelerator about the buffer that is currently being passed from the host to the accelerator. 
-
-
-## -syntax
-
-
-````
-typedef struct _DXVA_BufferDescription {
-  DWORD dwTypeIndex;
-  DWORD dwBufferIndex;
-  DWORD dwDataOffset;
-  DWORD dwDataSize;
-  DWORD dwFirstMBaddress;
-  DWORD dwNumMBsInBuffer;
-  DWORD dwWidth;
-  DWORD dwHeight;
-  DWORD dwStride;
-  DWORD dwReservedBits;
-} DXVA_BufferDescription, *LPDXVA_BufferDescription;
-````
 
 
 ## -struct-fields
@@ -257,7 +239,7 @@ Specifies the amount of relevant data in the buffer in bytes. The location of th
 
 ### -field dwFirstMBaddress
 
-Specifies the macroblock address of the first macroblock in the buffer passed to the accelerator. The macroblock address is given in raster scan order. The address is determined by the members of <a href="..\dxva\ns-dxva-_dxva_pictureparameters.md">DXVA_PictureParameters</a>. Examples of macroblock addresses are as follows.
+Specifies the macroblock address of the first macroblock in the buffer passed to the accelerator. The macroblock address is given in raster scan order. The address is determined by the members of <a href="https://msdn.microsoft.com/library/windows/hardware/ff564012">DXVA_PictureParameters</a>. Examples of macroblock addresses are as follows.
 
 <table>
 <tr>
@@ -349,7 +331,7 @@ Slice-control command
 
 </td>
 <td>
-Must be equal to the value of the <b>wNumberMBsInSlice</b> member of the <a href="..\dxva\ns-dxva-_dxva_sliceinfo.md">DXVA_SliceInfo</a> structure in the slice-control buffer.
+Must be equal to the value of the <b>wNumberMBsInSlice</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564049">DXVA_SliceInfo</a> structure in the slice-control buffer.
 
 </td>
 </tr>
@@ -398,16 +380,15 @@ An array of DXVA_BufferDescription structures is referred to as a buffer descrip
 
 ## -see-also
 
-<a href="..\dxva\ns-dxva-_dxva_pictureparameters.md">DXVA_PictureParameters</a>
 
 
 
-<a href="..\dxva\ns-dxva-_dxva_sliceinfo.md">DXVA_SliceInfo</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564012">DXVA_PictureParameters</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564049">DXVA_SliceInfo</a>
  
 
  
-
 

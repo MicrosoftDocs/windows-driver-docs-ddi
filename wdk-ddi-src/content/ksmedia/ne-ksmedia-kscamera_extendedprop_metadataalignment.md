@@ -38,7 +38,8 @@ api_location:
 -	Ksmedia.h
 api_name:
 -	KSCAMERA_EXTENDEDPROP_MetadataAlignment
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSCAMERA_EXTENDEDPROP_MetadataAlignment
 ---
@@ -50,25 +51,6 @@ req.typenames: KSCAMERA_EXTENDEDPROP_MetadataAlignment
 
 
 This enumeration contains identifiers for the metadata alignment.
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  KSCAMERA_EXTENDEDPROP_MetadataAlignment_16    = 4,
-  KSCAMERA_EXTENDEDPROP_MetadataAlignment_32,
-  KSCAMERA_EXTENDEDPROP_MetadataAlignment_64,
-  KSCAMERA_EXTENDEDPROP_MetadataAlignment_128,
-  KSCAMERA_EXTENDEDPROP_MetadataAlignment_256,
-  KSCAMERA_EXTENDEDPROP_MetadataAlignment_512,
-  KSCAMERA_EXTENDEDPROP_MetadataAlignment_1024,
-  KSCAMERA_EXTENDEDPROP_MetadataAlignment_2048,
-  KSCAMERA_EXTENDEDPROP_MetadataAlignment_4096,
-  KSCAMERA_EXTENDEDPROP_MetadataAlignment_8192
-} KSCAMERA_EXTENDEDPROP_MetadataAlignment;
-````
 
 
 ## -enum-fields

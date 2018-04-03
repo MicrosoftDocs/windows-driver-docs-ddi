@@ -38,7 +38,8 @@ api_location:
 -	xpsrassvc.h
 api_name:
 -	XPSRAS_BACKGROUND_COLOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: XPSRAS_BACKGROUND_COLOR
 req.product: Windows 10 or later.
@@ -51,17 +52,6 @@ req.product: Windows 10 or later.
 
 
 <b>XPSRAS_BACKGROUND_COLOR</b> specifies the background clear color to be used by an XPS rasterizer:
-
-
-## -syntax
-
-
-````
-typedef enum _XPSRAS_BACKGROUND_COLOR { 
-  XPSRAS_BACKGROUND_COLOR_TRANSPARENT  = 0,
-  XPSRAS_BACKGROUND_COLOR_OPAQUE       = 1
-} XPSRAS_BACKGROUND_COLOR;
-````
 
 
 ## -enum-fields
@@ -81,12 +71,11 @@ Use opaque white as clear color.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/C31681A0-17C6-4255-9068-7486A2101AB7">IXpsRasterizationFactory2::CreateRasterizer</a>
-
-
-
  
 
  
-
 

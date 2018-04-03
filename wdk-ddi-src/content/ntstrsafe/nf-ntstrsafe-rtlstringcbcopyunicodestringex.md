@@ -7,7 +7,7 @@ old-location: kernel\rtlstringcbcopyunicodestringex.htm
 old-project: kernel
 ms.assetid: 146f0e43-a9de-4d4d-8b8f-219c22cfa871
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: RtlStringCbCopyUnicodeStringEx, RtlStringCbCopyUnicodeStringEx function [Kernel-Mode Driver Architecture], kernel.rtlstringcbcopyunicodestringex, ntstrsafe/RtlStringCbCopyUnicodeStringEx, safestrings_38290608-dda4-4827-bcd2-3a0bef015690.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ntstrsafe.dll
 api_name:
 -	RtlStringCbCopyUnicodeStringEx
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SYSTEM_POWER_STATE_CONTEXT, *PSYSTEM_POWER_STATE_CONTEXT
 ---
@@ -50,22 +51,7 @@ req.typenames: SYSTEM_POWER_STATE_CONTEXT, *PSYSTEM_POWER_STATE_CONTEXT
 ## -description
 
 
-The <b>RtlStringCbCopyUnicodeStringEx</b> function copies the contents of a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure to a specified destination. 
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlStringCbCopyUnicodeStringEx(
-  _Out_     NTSTRSAFE_PWSTR  pszDest,
-  _In_      size_t           cbDest,
-  _In_      PCUNICODE_STRING SourceString,
-  _Out_     NTSTRSAFE_PWSTR  *ppszDestEnd,
-  _Out_opt_ size_t           *pcbRemaining,
-  _In_      DWORD            dwFlags
-);
-````
+The <b>RtlStringCbCopyUnicodeStringEx</b> function copies the contents of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure to a specified destination. 
 
 
 ## -parameters
@@ -204,11 +190,11 @@ For information about how to test NTSTATUS values, see <a href="https://msdn.mic
 
 The <b>RtlStringCbCopyUnicodeStringEx</b> function uses the destination buffer's size (which the <i>cbDest</i> parameter specifies) to ensure that the copy operation does not write past the end of the buffer.
 
-<b>RtlStringCbCopyUnicodeStringEx</b> adds to the functionality of the <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbcopyunicodestring.md">RtlStringCbCopyUnicodeString</a> function by returning a pointer to the end of the destination string and the number of bytes that are left unused in that string. You can pass flags to the function for additional control.
+<b>RtlStringCbCopyUnicodeStringEx</b> adds to the functionality of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562815">RtlStringCbCopyUnicodeString</a> function by returning a pointer to the end of the destination string and the number of bytes that are left unused in that string. You can pass flags to the function for additional control.
 
 If the source and destination strings overlap, the behavior of the function is undefined.
 
-The <i>SourceString </i>and <i>pszDest</i> pointers cannot be <b>NULL</b> unless the STRSAFE_IGNORE_NULLS flag is set in <i>dwFlags</i>. If STRSAFE_IGNORE_NULLS is set, one or both of these pointers can be <b>NULL</b>. If the <i>pszDest</i> pointer is <b>NULL</b>, the <i>SourceString </i>pointer must be <b>NULL</b> or the <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure must describe an empty string.
+The <i>SourceString </i>and <i>pszDest</i> pointers cannot be <b>NULL</b> unless the STRSAFE_IGNORE_NULLS flag is set in <i>dwFlags</i>. If STRSAFE_IGNORE_NULLS is set, one or both of these pointers can be <b>NULL</b>. If the <i>pszDest</i> pointer is <b>NULL</b>, the <i>SourceString </i>pointer must be <b>NULL</b> or the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure must describe an empty string.
 
 For more information about the safe string functions, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565508">Using Safe String Functions</a>. 
 
@@ -217,20 +203,19 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbcopyunicodestring.md">RtlStringCbCopyUnicodeString</a>
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562815">RtlStringCbCopyUnicodeString</a>
 
 
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchcopyunicodestringex.md">RtlStringCchCopyUnicodeStringEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562852">RtlStringCchCopyUnicodeStringEx</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
  
 
  
-
 

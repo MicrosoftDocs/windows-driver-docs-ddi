@@ -7,7 +7,7 @@ old-location: kernel\system_power_state.htm
 old-project: kernel
 ms.assetid: aa027f03-7d74-4c0e-8f62-d53f41ae86ae
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*PSYSTEM_POWER_STATE, PSYSTEM_POWER_STATE, PSYSTEM_POWER_STATE enumeration pointer [Kernel-Mode Driver Architecture], PowerSystemHibernate, PowerSystemMaximum, PowerSystemShutdown, PowerSystemSleeping1, PowerSystemSleeping2, PowerSystemSleeping3, PowerSystemUnspecified, PowerSystemWorking, SYSTEM_POWER_STATE, SYSTEM_POWER_STATE enumeration [Kernel-Mode Driver Architecture], _SYSTEM_POWER_STATE, kernel.system_power_state, sysenum_32377b1c-a5d3-491b-aebd-ee3d40798f73.xml, wdm/PSYSTEM_POWER_STATE, wdm/PowerSystemHibernate, wdm/PowerSystemMaximum, wdm/PowerSystemShutdown, wdm/PowerSystemSleeping1, wdm/PowerSystemSleeping2, wdm/PowerSystemSleeping3, wdm/PowerSystemUnspecified, wdm/PowerSystemWorking, wdm/SYSTEM_POWER_STATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	SYSTEM_POWER_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SYSTEM_POWER_STATE, *PSYSTEM_POWER_STATE
 ---
@@ -50,23 +51,6 @@ req.typenames: SYSTEM_POWER_STATE, *PSYSTEM_POWER_STATE
 
 
 The <b>SYSTEM_POWER_STATE</b> enumeration type is used to indicate a <a href="https://msdn.microsoft.com/bb30bc89-d1f2-4cb3-bcfb-fb76c69dba27">system power state</a>.
-
-
-## -syntax
-
-
-````
-typedef enum _SYSTEM_POWER_STATE { 
-  PowerSystemUnspecified  = 0,
-  PowerSystemWorking      = 1,
-  PowerSystemSleeping1    = 2,
-  PowerSystemSleeping2    = 3,
-  PowerSystemSleeping3    = 4,
-  PowerSystemHibernate    = 5,
-  PowerSystemShutdown     = 6,
-  PowerSystemMaximum      = 7
-} SYSTEM_POWER_STATE, *PSYSTEM_POWER_STATE;
-````
 
 
 ## -enum-fields
@@ -111,14 +95,14 @@ Indicates the system is turned off, which corresponds to <a href="https://msdn.m
 
 ### -field PowerSystemMaximum
 
-The number of system power state values for this enumeration type that represents actual power states. This value is the number of elements in the <b>DeviceState</b> member of the <a href="..\wdm\ns-wdm-_device_capabilities.md">DEVICE_CAPABILITIES</a> structure for a device. The other system power state values are less than this value.
+The number of system power state values for this enumeration type that represents actual power states. This value is the number of elements in the <b>DeviceState</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543095">DEVICE_CAPABILITIES</a> structure for a device. The other system power state values are less than this value.
 
 
 ## -remarks
 
 
 
-A power state indicates the level of power consumption—and thus the extent of computing activity—by the system or by a single device. The power manager sets the power state of the system as a whole, where the system power state is indicated by one of the values of the <b>SYSTEM_POWER_STATE</b> enumeration type. Device drivers set the power state of their individual devices, where the device power state is indicated by one of the values of the <a href="..\wudfddi\ne-wudfddi-_device_power_state.md">DEVICE_POWER_STATE</a> enumeration type.
+A power state indicates the level of power consumption—and thus the extent of computing activity—by the system or by a single device. The power manager sets the power state of the system as a whole, where the system power state is indicated by one of the values of the <b>SYSTEM_POWER_STATE</b> enumeration type. Device drivers set the power state of their individual devices, where the device power state is indicated by one of the values of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554628">DEVICE_POWER_STATE</a> enumeration type.
 
 For more information about system power states, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff546941">Handling System Power State Requests</a> and for more information about device power states, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554397">Managing Power for Individual Devices</a>.
 
@@ -129,12 +113,11 @@ For more information about power management in general, see <a href="https://msd
 
 ## -see-also
 
-<a href="..\wudfddi\ne-wudfddi-_device_power_state.md">DEVICE_POWER_STATE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554628">DEVICE_POWER_STATE</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: debugger\getsetsympath.htm
 old-project: debugger
 ms.assetid: 2c7392c2-49c8-4b27-addc-0200eabbe87e
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: GetSetSympath, GetSetSympath function [Windows Debugging], WdbgExts_Ref_66364d7b-fd3c-424a-a04d-b7bf24178039.xml, debugger.getsetsympath, wdbgexts/GetSetSympath
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	wdbgexts.h
 api_name:
 -	GetSetSympath
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXT_TDOP
 req.product: Windows 10 or later.
@@ -51,18 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>GetSetSympath</b> function can be used to either get or set the symbol search path. 
-
-
-## -syntax
-
-
-````
-__inline VOID GetSetSympath(
-  _In_      PSTR Arg,
-  _Out_opt_ PSTR Result,
-  _In_      int  Length
-);
-````
 
 
 ## -parameters

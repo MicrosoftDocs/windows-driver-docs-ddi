@@ -38,7 +38,8 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFDevice3.CreateWorkItem
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
@@ -55,18 +56,6 @@ req.product: Windows 10 or later.
 The <b>CreateWorkItem</b> method creates a framework work-item object, which can subsequently be added to the framework’s work-item queue.
 
 
-## -syntax
-
-
-````
-HRESULT CreateWorkItem(
-  [in]           PWUDF_WORKITEM_CONFIG pConfig,
-  [in, optional] IWDFObject            *pParentObject,
-  [out]          IWDFWorkItem          **ppWorkItem
-);
-````
-
-
 ## -parameters
 
 
@@ -74,7 +63,7 @@ HRESULT CreateWorkItem(
 
 ### -param pConfig [in]
 
-A pointer to a caller-allocated <a href="..\wudfworkitem\ns-wudfworkitem-_wudf_workitem_config.md">WUDF_WORKITEM_CONFIG</a> structure that the driver must have already initialized by calling <a href="..\wudfworkitem\nf-wudfworkitem-wudf_workitem_config_init.md">WUDF_WORKITEM_CONFIG_INIT</a>.
+A pointer to a caller-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/hh464094">WUDF_WORKITEM_CONFIG</a> structure that the driver must have already initialized by calling <a href="https://msdn.microsoft.com/library/windows/hardware/hh464097">WUDF_WORKITEM_CONFIG_INIT</a>.
 
 
 ### -param pParentObject [in, optional]
@@ -84,7 +73,7 @@ A pointer to the parent object interface or NULL.
 
 ### -param ppWorkItem [out]
 
-A pointer to a buffer that receives a pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfworkitem.md">IWDFWorkItem</a> interface for the new WorkItem object.
+A pointer to a buffer that receives a pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406734">IWDFWorkItem</a> interface for the new WorkItem object.
 
 
 ## -returns
@@ -100,7 +89,7 @@ The method returns S_OK if the operation succeeds. Otherwise, this method return
 
 
 
-If you specify a parent object, the framework automatically deletes the work-item when the parent object is deleted. Alternatively, the driver can call <a href="https://msdn.microsoft.com/library/windows/hardware/ff560210">IWDFObject::DeleteWdfObject</a> to delete a work-item. The driver must not delete a work-item in its <a href="..\wudfworkitem\nc-wudfworkitem-wudf_workitem_function.md">OnWorkItem</a> callback function.
+If you specify a parent object, the framework automatically deletes the work-item when the parent object is deleted. Alternatively, the driver can call <a href="https://msdn.microsoft.com/library/windows/hardware/ff560210">IWDFObject::DeleteWdfObject</a> to delete a work-item. The driver must not delete a work-item in its <a href="https://msdn.microsoft.com/4CCA1F5E-C92E-4D8D-A8C0-B8E9A0F29703">OnWorkItem</a> callback function.
 
 For more information, see <a href="https://msdn.microsoft.com/4617A33F-9026-45FF-9CC2-7215423E6D35">Using Work Items</a>.
 
@@ -128,28 +117,27 @@ hr = m_IWdfDevice3-&gt;CreateWorkItem(&amp;config,
 
 ## -see-also
 
-<a href="..\wudfworkitem\nf-wudfworkitem-wudf_workitem_config_init.md">WUDF_WORKITEM_CONFIG_INIT</a>
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice3.md">IWDFDevice3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451197">IWDFDevice3</a>
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfworkitem.md">IWDFWorkItem</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406734">IWDFWorkItem</a>
 
 
 
-<a href="..\wudfworkitem\ns-wudfworkitem-_wudf_workitem_config.md">WUDF_WORKITEM_CONFIG</a>
+<a href="https://msdn.microsoft.com/4CCA1F5E-C92E-4D8D-A8C0-B8E9A0F29703">OnWorkItem</a>
 
 
 
-<a href="..\wudfworkitem\nc-wudfworkitem-wudf_workitem_function.md">OnWorkItem</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh464094">WUDF_WORKITEM_CONFIG</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh464097">WUDF_WORKITEM_CONFIG_INIT</a>
  
 
  
-
 

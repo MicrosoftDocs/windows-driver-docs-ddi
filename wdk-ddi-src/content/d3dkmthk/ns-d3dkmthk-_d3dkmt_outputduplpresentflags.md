@@ -7,7 +7,7 @@ old-location: display\d3dkmt_outputduplpresentflags.htm
 old-project: display
 ms.assetid: d80bcf24-4d53-4ec9-897d-d3243c7fda25
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMT_OUTPUTDUPLPRESENTFLAGS, D3DKMT_OUTPUTDUPLPRESENTFLAGS structure [Display Devices], _D3DKMT_OUTPUTDUPLPRESENTFLAGS, d3dkmthk/D3DKMT_OUTPUTDUPLPRESENTFLAGS, display.d3dkmt_outputduplpresentflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3dkmthk.h
 api_name:
 -	D3DKMT_OUTPUTDUPLPRESENTFLAGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_OUTPUTDUPLPRESENTFLAGS
 ---
@@ -50,24 +51,6 @@ req.typenames: D3DKMT_OUTPUTDUPLPRESENTFLAGS
 
 
 Describes options for a <a href="https://msdn.microsoft.com/523FBFAD-5D78-4EE3-A3B7-8FD5BA39DC46">Desktop Duplication API</a> swapchain present operation.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_OUTPUTDUPLPRESENTFLAGS {
-  union {
-    struct {
-      UINT ProtectedContentBlankedOut  :1;
-      UINT RemoteSession  :1;
-      UINT FullScreenPresent  :1;
-      UINT Reserved  :29;
-    };
-    UINT   Value;
-  };
-} D3DKMT_OUTPUTDUPLPRESENTFLAGS;
-````
 
 
 ## -struct-fields

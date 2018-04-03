@@ -7,7 +7,7 @@ old-location: audio\ksaudio_mixcap_table.htm
 old-project: audio
 ms.assetid: 508d73f6-1660-4663-87f5-8dbd1dff153a
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/19/2018
 ms.keywords: "*PKSAUDIO_MIXCAP_TABLE, KSAUDIO_MIXCAP_TABLE, KSAUDIO_MIXCAP_TABLE structure [Audio Devices], PKSAUDIO_MIXCAP_TABLE, PKSAUDIO_MIXCAP_TABLE structure pointer [Audio Devices], aud-prop_42fdfffa-fb37-4a29-8015-065cec552815.xml, audio.ksaudio_mixcap_table, ksmedia/KSAUDIO_MIXCAP_TABLE, ksmedia/PKSAUDIO_MIXCAP_TABLE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KSAUDIO_MIXCAP_TABLE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSAUDIO_MIXCAP_TABLE, *PKSAUDIO_MIXCAP_TABLE
 ---
@@ -50,18 +51,6 @@ req.typenames: KSAUDIO_MIXCAP_TABLE, *PKSAUDIO_MIXCAP_TABLE
 
 
 The KSAUDIO_MIXCAP_TABLE structure specifies the mixing capabilities of a supermixer node (<a href="https://msdn.microsoft.com/library/windows/hardware/ff537198">KSNODETYPE_SUPERMIX</a>). This structure is used to get or set the data value for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537291">KSPROPERTY_AUDIO_MIX_LEVEL_CAPS</a> property.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  ULONG            InputChannels;
-  ULONG            OutputChannels;
-  KSAUDIO_MIX_CAPS Capabilities[1];
-} KSAUDIO_MIXCAP_TABLE, *PKSAUDIO_MIXCAP_TABLE;
-````
 
 
 ## -struct-fields
@@ -81,7 +70,7 @@ Specifies the number of output channels.
 
 ### -field Capabilities
 
-Contains the first entry in a two-dimensional array of <a href="..\ksmedia\ns-ksmedia-ksaudio_mix_caps.md">KSAUDIO_MIX_CAPS</a> structures. Given a supermixer node with <i>m</i> input channels and <i>n</i> output channels, the array contains <i>m</i>*<i></i> elements. Each element describes the mix-level capabilities of the path from a particular input channel to a particular output channel.
+Contains the first entry in a two-dimensional array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff537090">KSAUDIO_MIX_CAPS</a> structures. Given a supermixer node with <i>m</i> input channels and <i>n</i> output channels, the array contains <i>m</i>*<i></i> elements. Each element describes the mix-level capabilities of the path from a particular input channel to a particular output channel.
 
 
 ## -remarks
@@ -193,15 +182,10 @@ If the client sends an initial KSPROPERTY_AUDIO_MIX_LEVEL_CAPS request in which 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537291">KSPROPERTY_AUDIO_MIX_LEVEL_CAPS</a>
 
 
 
-<a href="..\ksmedia\ns-ksmedia-ksaudio_mix_caps.md">KSAUDIO_MIX_CAPS</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537292">KSPROPERTY_AUDIO_MIX_LEVEL_TABLE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537090">KSAUDIO_MIX_CAPS</a>
 
 
 
@@ -209,8 +193,12 @@ If the client sends an initial KSPROPERTY_AUDIO_MIX_LEVEL_CAPS request in which 
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537291">KSPROPERTY_AUDIO_MIX_LEVEL_CAPS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537292">KSPROPERTY_AUDIO_MIX_LEVEL_TABLE</a>
  
 
  
-
 

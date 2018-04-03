@@ -38,7 +38,8 @@ api_location:
 -	filterpipeline.h
 api_name:
 -	IPartFont.SetFontContent
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
@@ -50,16 +51,6 @@ req.typenames: EXpsFontRestriction
 
 
 The <b>SetFontContent</b> method sets the content of the font.
-
-
-## -syntax
-
-
-````
-HRESULT SetFontContent(
-  [in] const wchar_t *contentType
-);
-````
 
 
 ## -parameters

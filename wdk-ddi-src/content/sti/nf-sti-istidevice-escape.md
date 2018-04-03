@@ -38,7 +38,8 @@ api_location:
 -	sti.h
 api_name:
 -	IStiDevice.Escape
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STI_DEVICE_MJ_TYPE, STI_DEVICE_MJ_TYPE
 req.product: Windows 10 or later.
@@ -51,21 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>IStiDevice::Escape</b> method sends a request for a vendor-specific I/O operation to a still image device.
-
-
-## -syntax
-
-
-````
-HRESULT Escape(
-  [in]      STI_RAW_CONTROL_CODE EscapeFunction,
-  [in]      LPVOID               lpInData,
-            DWORD                cbInDataSize,
-  [in, out] LPVOID               pOutData,
-            DWORD                dwOutDataSize,
-  [out]     LPDWORD              pdwActualData
-);
-````
 
 
 ## -parameters

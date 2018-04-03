@@ -7,7 +7,7 @@ old-location: display\iddcx_opm_requested_information.htm
 old-project: display
 ms.assetid: 0e8c49b2-1c36-432b-aba9-bc6a739ee04d
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IDDCX_OPM_REQUESTED_INFORMATION, IDDCX_OPM_REQUESTED_INFORMATION structure [Display Devices], display.iddcx_opm_requested_information, iddcx/IDDCX_OPM_REQUESTED_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	iddcx.h
 api_name:
 -	IDDCX_OPM_REQUESTED_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -52,17 +53,6 @@ req.typenames:
 
                  Gives the information requested from the OPM.
              
-
-
-## -syntax
-
-
-````
-typedef struct IDDCX_OPM_REQUESTED_INFORMATION {
-  UINT                      Size;
-  OPM_REQUESTED_INFORMATION RequestedInformation;
-} IDDCX_OPM_REQUESTED_INFORMATION, *IDDCX_OPM_REQUESTED_INFORMATION;
-````
 
 
 ## -struct-fields

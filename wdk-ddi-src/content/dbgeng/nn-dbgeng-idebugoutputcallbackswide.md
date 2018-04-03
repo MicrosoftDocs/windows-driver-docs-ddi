@@ -7,7 +7,7 @@ old-location: debugger\idebugoutputcallbackswide.htm
 old-project: debugger
 ms.assetid: 2f0c10f7-009a-4108-ad23-d6b6e2e1257e
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: IDebugOutputCallbacksWide, IDebugOutputCallbacksWide interface [Windows Debugging], IDebugOutputCallbacksWide interface [Windows Debugging], described, dbgeng/IDebugOutputCallbacksWide, debugger.idebugoutputcallbackswide
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugOutputCallbacksWide
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -80,12 +81,11 @@ This method is called by the engine to send output from the client to the <b>IDe
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugoutputcallbacks.md">IDebugOutputCallbacks</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550801">IDebugOutputCallbacks</a>
  
 
  
-
 

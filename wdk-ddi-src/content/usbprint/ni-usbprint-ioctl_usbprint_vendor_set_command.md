@@ -38,7 +38,8 @@ api_location:
 -	usbprint.h
 api_name:
 -	IOCTL_USBPRINT_VENDOR_SET_COMMAND
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USB_TRANSPORT_CHARACTERISTICS_CHANGE_UNREGISTRATION, *PUSB_TRANSPORT_CHARACTERISTICS_CHANGE_UNREGISTRATION
 req.product: Windows 10 or later.
@@ -152,15 +153,6 @@ Not used in this operation; set this parameter to 0.
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
-
-
-
-<a href="..\usbprint\ni-usbprint-ioctl_usbprint_vendor_get_command.md">IOCTL_USBPRINT_VENDOR_GET_COMMAND</a>
-
-
-
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
 
 
 
@@ -168,12 +160,20 @@ Not used in this operation; set this parameter to 0.
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551815">IOCTL_USBPRINT_VENDOR_GET_COMMAND</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548651">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548656">WdfIoTargetSendInternalIoctlSynchronously</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548660">WdfIoTargetSendIoctlSynchronously</a>
  
 
  
-
 

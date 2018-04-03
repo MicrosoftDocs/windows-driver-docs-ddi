@@ -38,7 +38,8 @@ api_location:
 -	Winsplp.h
 api_name:
 -	NOTIFICATION_CONFIG_FLAGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NOTIFICATION_CONFIG_FLAGS
 req.product: Windows 10 or later.
@@ -51,19 +52,6 @@ req.product: Windows 10 or later.
 
 
 
-
-
-## -syntax
-
-
-````
-typedef enum _NOTIFICATION_CONFIG_FLAGS { 
-  NOTIFICATION_CONFIG_CREATE_EVENT       = 1 << 0,
-  NOTIFICATION_CONFIG_REGISTER_CALLBACK  = 1 << 1,
-  NOTIFICATION_CONFIG_EVENT_TRIGGER      = 1 << 2,
-  NOTIFICATION_CONFIG_ASYNC_CHANNEL      = 1 << 3
-} NOTIFICATION_CONFIG_FLAGS;
-````
 
 
 ## -enum-fields

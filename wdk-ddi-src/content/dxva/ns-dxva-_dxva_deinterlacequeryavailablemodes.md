@@ -7,7 +7,7 @@ old-location: display\dxva_deinterlacequeryavailablemodes.htm
 old-project: display
 ms.assetid: c754f540-19ff-491f-89ec-63d3306c4068
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXVA_DeinterlaceQueryAvailableModes, DXVA_DeinterlaceQueryAvailableModes structure [Display Devices], _DXVA_DeinterlaceQueryAvailableModes, display.dxva_deinterlacequeryavailablemodes, dxva/DXVA_DeinterlaceQueryAvailableModes, dxvaref_9c2ffe96-e286-4f0f-bb6b-57bc6ee64b2c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	dxva.h
 api_name:
 -	DXVA_DeinterlaceQueryAvailableModes
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXVA_DeinterlaceQueryAvailableModes
 ---
@@ -50,18 +51,6 @@ req.typenames: DXVA_DeinterlaceQueryAvailableModes
 
 
 The DXVA_DeinterlaceQueryAvailableModes structure describes the available deinterlacing or frame-rate conversion modes for a particular input video format.
-
-
-## -syntax
-
-
-````
-typedef struct _DXVA_DeinterlaceQueryAvailableModes {
-  DWORD Size;
-  DWORD NumGuids;
-  GUID  Guids[MAX_DEINTERLACE_DEVICE_GUIDS];
-} DXVA_DeinterlaceQueryAvailableModes;
-````
 
 
 ## -struct-fields

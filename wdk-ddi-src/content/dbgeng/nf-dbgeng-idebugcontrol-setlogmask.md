@@ -7,7 +7,7 @@ old-location: debugger\setlogmask.htm
 old-project: debugger
 ms.assetid: 86c4e5ec-e893-4b1e-b397-6c51351df46c
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: IDebugControl, IDebugControl interface [Windows Debugging], SetLogMask method, IDebugControl2 interface [Windows Debugging], SetLogMask method, IDebugControl2::SetLogMask, IDebugControl3 interface [Windows Debugging], SetLogMask method, IDebugControl3::SetLogMask, IDebugControl::SetLogMask, IDebugControl_b1c44a2b-d2fd-407b-8994-00f5e53af10d.xml, SetLogMask method [Windows Debugging], SetLogMask method [Windows Debugging], IDebugControl interface, SetLogMask method [Windows Debugging], IDebugControl2 interface, SetLogMask method [Windows Debugging], IDebugControl3 interface, SetLogMask,IDebugControl.SetLogMask, dbgeng/IDebugControl2::SetLogMask, dbgeng/IDebugControl3::SetLogMask, dbgeng/IDebugControl::SetLogMask, debugger.setlogmask
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,8 @@ api_name:
 -	IDebugControl.SetLogMask
 -	IDebugControl2.SetLogMask
 -	IDebugControl3.SetLogMask
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -52,16 +53,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>SetLogMask</b> method sets the output mask for the currently open log file.
-
-
-## -syntax
-
-
-````
-HRESULT SetLogMask(
-  [in] ULONG Mask
-);
-````
 
 
 ## -parameters
@@ -104,28 +95,27 @@ The method was successful.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547066">GetLogMask</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550508">IDebugControl</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550512">IDebugControl2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550519">IDebugControl3</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553155">OpenLogFile2</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
-
-
-
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: buses\ucmtcpci_port_controller_alert_data.htm
 old-project: usbref
 ms.assetid: 4b3c2fc8-d7c3-4223-a88e-5db9ad852618
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PUCMTCPCI_PORT_CONTROLLER_ALERT_DATA, PUCMTCPCI_PORT_CONTROLLER_ALERT_DATA, PUCMTCPCI_PORT_CONTROLLER_ALERT_DATA structure pointer [Buses], UCMTCPCI_PORT_CONTROLLER_ALERT_DATA, UCMTCPCI_PORT_CONTROLLER_ALERT_DATA structure [Buses], _UCMTCPCI_PORT_CONTROLLER_ALERT_DATA, buses.ucmtcpci_port_controller_alert_data, ucmtcpciportcontroller/PUCMTCPCI_PORT_CONTROLLER_ALERT_DATA, ucmtcpciportcontroller/UCMTCPCI_PORT_CONTROLLER_ALERT_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ucmtcpciportcontroller.h
 api_name:
 -	UCMTCPCI_PORT_CONTROLLER_ALERT_DATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UCMTCPCI_PORT_CONTROLLER_ALERT_DATA, *PUCMTCPCI_PORT_CONTROLLER_ALERT_DATA
 req.product: Windows 10 or later.
@@ -51,25 +52,8 @@ req.product: Windows 10 or later.
 
 
 
-                 Contains information about hardware alerts received on the port controller object. This structure is used in the <a href="..\ucmtcpciportcontroller\nf-ucmtcpciportcontroller-ucmtcpciportcontrolleralert.md">UcmTcpciPortControllerAlert</a> call. Call <a href="..\ucmtcpciportcontroller\nf-ucmtcpciportcontroller-ucmtcpci_port_controller_alert_data_init.md">UCMTCPCI_PORT_CONTROLLER_ALERT_DATA_INIT</a> to initialize this structure.
+                 Contains information about hardware alerts received on the port controller object. This structure is used in the <a href="https://msdn.microsoft.com/library/windows/hardware/mt805843">UcmTcpciPortControllerAlert</a> call. Call <a href="https://msdn.microsoft.com/library/windows/hardware/mt805867">UCMTCPCI_PORT_CONTROLLER_ALERT_DATA_INIT</a> to initialize this structure.
              
-
-
-## -syntax
-
-
-````
-typedef struct _UCMTCPCI_PORT_CONTROLLER_ALERT_DATA {
-  ULONG                               Size;
-  UCMTCPCI_PORT_CONTROLLER_ALERT_TYPE AlertType;
-  union {
-    UCMTCPCI_PORT_CONTROLLER_CC_STATUS       CCStatus;
-    UCMTCPCI_PORT_CONTROLLER_POWER_STATUS    PowerStatus;
-    UCMTCPCI_PORT_CONTROLLER_FAULT_STATUS    FaultStatus;
-    PUCMTCPCI_PORT_CONTROLLER_RECEIVE_BUFFER ReceiveBuffer;
-  };
-} UCMTCPCI_PORT_CONTROLLER_ALERT_DATA, *PUCMTCPCI_PORT_CONTROLLER_ALERT_DATA;
-````
 
 
 ## -struct-fields
@@ -86,7 +70,7 @@ Size of this structure.
 
 ### -field AlertType
 
-A <a href="..\ucmtcpciportcontroller\ne-ucmtcpciportcontroller-_ucmtcpci_port_controller_alert_type.md">UCMTCPCI_PORT_CONTROLLER_ALERT_TYPE</a> value that indicates the type of hardware alert.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/mt805899">UCMTCPCI_PORT_CONTROLLER_ALERT_TYPE</a> value that indicates the type of hardware alert.
                      
                  
 
@@ -121,12 +105,11 @@ A
 
 ## -see-also
 
-<a href="..\ucmtcpciportcontroller\nf-ucmtcpciportcontroller-ucmtcpciportcontrolleralert.md">UcmTcpciPortControllerAlert</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt805843">UcmTcpciPortControllerAlert</a>
  
 
  
-
 

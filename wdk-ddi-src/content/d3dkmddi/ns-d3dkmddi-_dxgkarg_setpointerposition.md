@@ -7,7 +7,7 @@ old-location: display\dxgkarg_setpointerposition.htm
 old-project: display
 ms.assetid: a5670b3e-a96b-439c-ac1a-644611110700
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKARG_SETPOINTERPOSITION, DXGKARG_SETPOINTERPOSITION structure [Display Devices], DmStructs_2a671f7f-7750-4edb-bf07-7e823ddd309f.xml, _DXGKARG_SETPOINTERPOSITION, d3dkmddi/DXGKARG_SETPOINTERPOSITION, display.dxgkarg_setpointerposition
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGKARG_SETPOINTERPOSITION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGKARG_SETPOINTERPOSITION
 ---
@@ -50,19 +51,6 @@ req.typenames: DXGKARG_SETPOINTERPOSITION
 
 
 The DXGKARG_SETPOINTERPOSITION structure describes where and how to display the mouse pointer. 
-
-
-## -syntax
-
-
-````
-typedef struct _DXGKARG_SETPOINTERPOSITION {
-  D3DDDI_VIDEO_PRESENT_SOURCE_ID VidPnSourceId;
-  INT                            X;
-  INT                            Y;
-  DXGK_SETPOINTERPOSITIONFLAGS   Flags;
-} DXGKARG_SETPOINTERPOSITION;
-````
 
 
 ## -struct-fields
@@ -87,21 +75,20 @@ typedef struct _DXGKARG_SETPOINTERPOSITION {
 
 ### -field Flags
 
-[in] A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_setpointerpositionflags.md">DXGK_SETPOINTERPOSITIONFLAGS</a> structure that identifies, in bit-field flags, information about the mouse pointer.
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff562051">DXGK_SETPOINTERPOSITIONFLAGS</a> structure that identifies, in bit-field flags, information about the mouse pointer.
 
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_setpointerpositionflags.md">DXGK_SETPOINTERPOSITIONFLAGS</a>
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_setpointerposition.md">DxgkDdiSetPointerPosition</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562051">DXGK_SETPOINTERPOSITIONFLAGS</a>
 
 
 
+<a href="https://msdn.microsoft.com/b30e4f19-068c-4ab0-a2e9-b1f57592be1c">DxgkDdiSetPointerPosition</a>
  
 
  
-
 

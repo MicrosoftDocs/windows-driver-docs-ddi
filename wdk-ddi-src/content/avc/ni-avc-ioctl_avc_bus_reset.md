@@ -38,13 +38,19 @@ api_location:
 -	avc.h
 api_name:
 -	IOCTL_AVC_BUS_RESET
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: AVC_FUNCTION
 ---
 
 # IOCTL_AVC_BUS_RESET IOCTL
 
+
+##  Major Code: 
+
+
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -126,7 +132,7 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ntstatus-values).
+For more information, see [XREF-LINK:NTSTATUS Values].
 
 
 
@@ -146,11 +152,11 @@ Must be called at IRQL = PASSIVE_LEVEL
 
 
 
-<a href="..\avc\ns-avc-_avc_subunit_addr_spec.md">AVC_SUBUNIT_ADDR_SPEC</a>
-
-
-
 <a href="..\avc\ni-avc-ioctl_avc_class.md">IOCTL_AVC_CLASS</a>
+
+
+
+<a href="..\avc\ns-avc-_avc_subunit_addr_spec.md">AVC_SUBUNIT_ADDR_SPEC</a>
 
 
 

@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSSTREAM_POINTER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSSTREAM_POINTER, *PKSSTREAM_POINTER
 ---
@@ -52,21 +53,6 @@ req.typenames: KSSTREAM_POINTER, *PKSSTREAM_POINTER
 The KSSTREAM_POINTER structure is the basic AVStream pointer into a stream.
 
 
-## -syntax
-
-
-````
-typedef struct _KSSTREAM_POINTER {
-  PVOID                    Context;
-  PKSPIN                   Pin;
-  PKSSTREAM_HEADER         StreamHeader;
-  PKSSTREAM_POINTER_OFFSET Offset;
-  KSSTREAM_POINTER_OFFSET  OffsetIn;
-  KSSTREAM_POINTER_OFFSET  OffsetOut;
-} KSSTREAM_POINTER, *PKSSTREAM_POINTER;
-````
-
-
 ## -struct-fields
 
 
@@ -74,32 +60,32 @@ typedef struct _KSSTREAM_POINTER {
 
 ### -field Context
 
-A pointer to client-requested context information. The leading edge and trailing edge stream pointers have this member set to <b>NULL</b>. Cloned stream pointers can specify that they wish to have context information via the mechanism described in <a href="..\ks\nf-ks-ksstreampointerclone.md">KsStreamPointerClone</a>. 
+A pointer to client-requested context information. The leading edge and trailing edge stream pointers have this member set to <b>NULL</b>. Cloned stream pointers can specify that they wish to have context information via the mechanism described in <a href="https://msdn.microsoft.com/library/windows/hardware/dn892389">KsStreamPointerClone</a>. 
 
 
 ### -field Pin
 
-A pointer to the <a href="..\ks\ns-ks-_kspin.md">KSPIN</a> structure to which this stream pointer belongs.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563483">KSPIN</a> structure to which this stream pointer belongs.
 
 
 ### -field StreamHeader
 
-A pointer to the stream header object for the data frame that this stream pointer currently points to. See <a href="..\ks\ns-ks-ksstream_header.md">KSSTREAM_HEADER</a> for more information.
+A pointer to the stream header object for the data frame that this stream pointer currently points to. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff567138">KSSTREAM_HEADER</a> for more information.
 
 
 ### -field Offset
 
-A pointer to a structure of type <a href="..\ks\ns-ks-_ksstream_pointer_offset.md">KSSTREAM_POINTER_OFFSET</a>. Points to either <b>OffsetIn</b> or <b>OffsetOut</b> depending on whether the pin to which this stream pointer belongs is an input pin or output pin.
+A pointer to a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff567140">KSSTREAM_POINTER_OFFSET</a>. Points to either <b>OffsetIn</b> or <b>OffsetOut</b> depending on whether the pin to which this stream pointer belongs is an input pin or output pin.
 
 
 ### -field OffsetIn
 
-This member specifies a structure of type <a href="..\ks\ns-ks-_ksstream_pointer_offset.md">KSSTREAM_POINTER_OFFSET</a> describing the data currently pointed to by the stream pointer.
+This member specifies a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff567140">KSSTREAM_POINTER_OFFSET</a> describing the data currently pointed to by the stream pointer.
 
 
 ### -field OffsetOut
 
-This member specifies a structure of type <a href="..\ks\ns-ks-_ksstream_pointer_offset.md">KSSTREAM_POINTER_OFFSET</a>. Use this member to output data on an output pin.
+This member specifies a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff567140">KSSTREAM_POINTER_OFFSET</a>. Use this member to output data on an output pin.
 
 
 ## -remarks
@@ -115,44 +101,43 @@ For general information about stream pointers, see <a href="https://msdn.microso
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksstreampointeradvanceoffsets.md">KsStreamPointerAdvanceOffsets</a>
 
 
 
-<a href="..\ks\ns-ks-ksstream_header.md">KSSTREAM_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567138">KSSTREAM_HEADER</a>
 
 
 
-<a href="..\ks\nf-ks-ksstreampointeradvanceoffsetsandunlock.md">KsStreamPointerAdvanceOffsetsAndUnlock</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567140">KSSTREAM_POINTER_OFFSET</a>
 
 
 
-<a href="..\ks\ns-ks-_ksstream_pointer_offset.md">KSSTREAM_POINTER_OFFSET</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567125">KsStreamPointerAdvance</a>
 
 
 
-<a href="..\ks\nf-ks-ksstreampointerlock.md">KsStreamPointerLock</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567126">KsStreamPointerAdvanceOffsets</a>
 
 
 
-<a href="..\ks\nf-ks-ksstreampointerdelete.md">KsStreamPointerDelete</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567127">KsStreamPointerAdvanceOffsetsAndUnlock</a>
 
 
 
-<a href="..\ks\nf-ks-ksstreampointeradvance.md">KsStreamPointerAdvance</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn892389">KsStreamPointerClone</a>
 
 
 
-<a href="..\ks\nf-ks-ksstreampointerclone.md">KsStreamPointerClone</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567130">KsStreamPointerDelete</a>
 
 
 
-<a href="..\ks\nf-ks-ksstreampointerunlock.md">KsStreamPointerUnlock</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn892390">KsStreamPointerLock</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567137">KsStreamPointerUnlock</a>
  
 
  
-
 

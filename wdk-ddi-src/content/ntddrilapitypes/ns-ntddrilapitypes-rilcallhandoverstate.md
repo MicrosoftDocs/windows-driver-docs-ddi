@@ -7,7 +7,7 @@ old-location: netvista\rilcallhandoverstate.htm
 old-project: netvista
 ms.assetid: 1c9fb343-32f1-444e-9328-097da72cd006
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*LPRILCALLHANDOVERSTATE, RILCALLHANDOVERSTATE, RILCALLHANDOVERSTATE structure [Network Drivers Starting with Windows Vista], netvista.rilcallhandoverstate, ntddrilapitypes/RILCALLHANDOVERSTATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILCALLHANDOVERSTATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILCALLHANDOVERSTATE, *LPRILCALLHANDOVERSTATE
 ---
@@ -50,21 +51,6 @@ req.typenames: RILCALLHANDOVERSTATE, *LPRILCALLHANDOVERSTATE
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef struct _RILCALLHANDOVERSTATE {
-  DWORD                 cbSize;
-  DWORD                 dwParams;
-  RILCALLHANDOVERPHASE  dwPhase;
-  RILCALLTYPE           dwOldType;
-  RILCALLTYPE           dwNewType;
-  DWORD                 dw3gppCause;
-} RILCALLHANDOVERSTATE, RILCALLHANDOVERSTATE;
-````
 
 
 ## -struct-fields

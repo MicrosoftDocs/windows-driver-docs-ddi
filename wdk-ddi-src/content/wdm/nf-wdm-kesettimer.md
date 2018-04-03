@@ -7,7 +7,7 @@ old-location: kernel\kesettimer.htm
 old-project: kernel
 ms.assetid: 81a205cd-a641-4f85-a217-7febf203b62d
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: KeSetTimer, KeSetTimer routine [Kernel-Mode Driver Architecture], k105_9cd3cb17-0067-4340-8226-ee75392cfdd1.xml, kernel.kesettimer, wdm/KeSetTimer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	KeSetTimer
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
@@ -53,18 +54,6 @@ req.product: Windows 10 or later.
 The <b>KeSetTimer</b> routine sets the absolute or relative interval at which a timer object is to be set to a signaled state and, optionally, supplies a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542983">CustomTimerDpc</a> routine to be executed when that interval expires. 
 
 
-## -syntax
-
-
-````
-BOOLEAN KeSetTimer(
-  _Inout_  PKTIMER       Timer,
-  _In_     LARGE_INTEGER DueTime,
-  _In_opt_ PKDPC         Dpc
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +61,7 @@ BOOLEAN KeSetTimer(
 
 ### -param Timer [in, out]
 
-Pointer to a timer object that was initialized with <a href="..\wdm\nf-wdm-keinitializetimer.md">KeInitializeTimer</a> or <a href="..\wdm\nf-wdm-keinitializetimerex.md">KeInitializeTimerEx</a>.
+Pointer to a timer object that was initialized with <a href="https://msdn.microsoft.com/library/windows/hardware/ff552168">KeInitializeTimer</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff552173">KeInitializeTimerEx</a>.
 
 
 ### -param DueTime [in]
@@ -82,7 +71,7 @@ Specifies the absolute or relative time at which the timer is to expire. If the 
 
 ### -param Dpc [in, optional]
 
-Pointer to a DPC object that was initialized by <a href="..\wdm\nf-wdm-keinitializedpc.md">KeInitializeDpc</a>. This parameter is optional. 
+Pointer to a DPC object that was initialized by <a href="https://msdn.microsoft.com/library/windows/hardware/ff552130">KeInitializeDpc</a>. This parameter is optional. 
 
 
 ## -returns
@@ -120,11 +109,11 @@ If the <i>Dpc</i> parameter is specified, a DPC object is associated with the ti
 
 Expiration times are measured relative to the system clock, and the accuracy with which the operating system can detect when a timer expires is limited by the granularity of the system clock. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/jj602805">Timer Accuracy</a>.
 
-Only one instantiation of a given DPC object can be queued at any given moment. To avoid potential race conditions, the DPC passed to <b>KeSetTimer</b> should <u>not</u> be passed to <a href="..\wdm\nf-wdm-keinsertqueuedpc.md">KeInsertQueueDpc</a>.
+Only one instantiation of a given DPC object can be queued at any given moment. To avoid potential race conditions, the DPC passed to <b>KeSetTimer</b> should <u>not</u> be passed to <a href="https://msdn.microsoft.com/library/windows/hardware/ff552185">KeInsertQueueDpc</a>.
 
-Drivers must cancel any active timers in their <a href="https://msdn.microsoft.com/library/windows/hardware/ff564886">Unload</a> routines. Use <a href="..\wdm\nf-wdm-kecanceltimer.md">KeCancelTimer</a> to cancel any timers.
+Drivers must cancel any active timers in their <a href="https://msdn.microsoft.com/library/windows/hardware/ff564886">Unload</a> routines. Use <a href="https://msdn.microsoft.com/library/windows/hardware/ff551970">KeCancelTimer</a> to cancel any timers.
 
-Callers of <b>KeSetTimer</b> can specify one expiration time for a timer. To set a recurring timer use <a href="..\wdm\nf-wdm-kesettimerex.md">KeSetTimerEx</a>.
+Callers of <b>KeSetTimer</b> can specify one expiration time for a timer. To set a recurring timer use <a href="https://msdn.microsoft.com/library/windows/hardware/ff553292">KeSetTimerEx</a>.
 
 For more information about timer objects, see <a href="https://msdn.microsoft.com/b58487de-6e9e-45f4-acb8-9233c8718ee2">Timer Objects and DPCs</a>.
 
@@ -133,40 +122,39 @@ For more information about timer objects, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-keinitializetimer.md">KeInitializeTimer</a>
 
 
 
-<a href="..\wdm\nf-wdm-kecanceltimer.md">KeCancelTimer</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551970">KeCancelTimer</a>
 
 
 
-<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552130">KeInitializeDpc</a>
 
 
 
-<a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552168">KeInitializeTimer</a>
 
 
 
-<a href="..\wdm\nf-wdm-kereadstatetimer.md">KeReadStateTimer</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552173">KeInitializeTimerEx</a>
 
 
 
-<a href="..\wdm\nf-wdm-kesettimerex.md">KeSetTimerEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553099">KeReadStateTimer</a>
 
 
 
-<a href="..\wdm\nf-wdm-keinitializedpc.md">KeInitializeDpc</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553292">KeSetTimerEx</a>
 
 
 
-<a href="..\wdm\nf-wdm-keinitializetimerex.md">KeInitializeTimerEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553324">KeWaitForMultipleObjects</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553350">KeWaitForSingleObject</a>
  
 
  
-
 

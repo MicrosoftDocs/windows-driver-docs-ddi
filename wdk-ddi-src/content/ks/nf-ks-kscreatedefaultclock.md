@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsCreateDefaultClock
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -53,17 +54,6 @@ req.typenames:
 Given an IRP_MJ_CREATE request, the <b>KsCreateDefaultClock</b> function creates a default clock that uses the system clock as a time base and associates the IoGetCurrentIrpStackLocation(Irp)-&gt;FileObject with the clock using an internal dispatch table (KSDISPATCH_TABLE).  Does not complete the IRP or set the status in the IRP.
 
 The <b>KsCreateDefaultClock</b> function can only be called at PASSIVE_LEVEL.
-
-
-## -syntax
-
-
-````
-NTSTATUS KsCreateDefaultClock(
-  _In_ PIRP            Irp,
-  _In_ PKSDEFAULTCLOCK DefaultClock
-);
-````
 
 
 ## -parameters
@@ -101,12 +91,11 @@ The clock can be created after using <b>KsAllocateDefaultClock</b> to create and
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksallocatedefaultclock.md">KsAllocateDefaultClock</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560952">KsAllocateDefaultClock</a>
  
 
  
-
 

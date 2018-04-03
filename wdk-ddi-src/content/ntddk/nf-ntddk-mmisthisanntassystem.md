@@ -7,7 +7,7 @@ old-location: kernel\mmisthisanntassystem.htm
 old-project: kernel
 ms.assetid: e9daafb1-16ec-4ffe-b863-6f07c4b2a9b7
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: MmIsThisAnNtAsSystem, MmIsThisAnNtAsSystem routine [Kernel-Mode Driver Architecture], k106_3f6077c8-2ce9-4dce-b29e-afd262be1e80.xml, kernel.mmisthisanntassystem, ntddk/MmIsThisAnNtAsSystem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	MmIsThisAnNtAsSystem
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
@@ -49,17 +50,9 @@ req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ## -description
 
 
-The <b>MmIsThisAnNtAsSystem</b> routine is <u>obsolete</u> for Windows XP and later versions of Windows. Use <a href="..\wdm\nf-wdm-rtlgetversion.md">RtlGetVersion</a> or <a href="..\wdm\nf-wdm-rtlverifyversioninfo.md">RtlVerifyVersionInfo</a> instead.
+The <b>MmIsThisAnNtAsSystem</b> routine is <u>obsolete</u> for Windows XP and later versions of Windows. Use <a href="https://msdn.microsoft.com/library/windows/hardware/ff561910">RtlGetVersion</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff563026">RtlVerifyVersionInfo</a> instead.
 
 The <b>MmIsThisAnNtAsSystem </b>routine checks whether the current platform is running a server version of the NT-based operating system.
-
-
-## -syntax
-
-
-````
-BOOLEAN MmIsThisAnNtAsSystem(void);
-````
 
 
 ## -parameters
@@ -89,12 +82,11 @@ Drivers can use this routine during initialization, along with <b>MmQuerySystemS
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-mmquerysystemsize.md">MmQuerySystemSize</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554676">MmQuerySystemSize</a>
  
 
  
-
 

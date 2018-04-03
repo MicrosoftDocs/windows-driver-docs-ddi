@@ -39,7 +39,8 @@ api_location:
 -	SensorsClassExtension.dll
 api_name:
 -	OnGetSupportedEvents
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SensorConnectionType
 req.product: Windows 10 or later.
@@ -52,18 +53,6 @@ req.product: Windows 10 or later.
 
 
 The <a href="https://msdn.microsoft.com/library/windows/hardware/ff545623">ISensorDriver::OnGetSupportedEvents</a> method retrieves the list of events that the specified sensor can raise.
-
-
-## -syntax
-
-
-````
-HRESULT OnGetSupportedEvents(
-   LPWSTR  pwszSensorID,
-   GUID ** ppSupportedEvents,
-   ULONG * pulEventCount
-);
-````
 
 
 ## -parameters

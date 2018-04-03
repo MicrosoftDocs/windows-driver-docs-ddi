@@ -7,7 +7,7 @@ old-location: dtf\iwdtftarget2_getinterface.htm
 old-project: dtf
 ms.assetid: dddd631e-7ccf-4554-9236-b567c5108fe2
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/29/2018
 ms.keywords: GetInterface method [Windows Device Testing Framework], GetInterface method [Windows Device Testing Framework], IWDTFTarget2 interface, GetInterface,IWDTFTarget2.GetInterface, IWDTFTarget2, IWDTFTarget2 interface [Windows Device Testing Framework], GetInterface method, IWDTFTarget2::GetInterface, Microsoft.WDTF.IWDTFTarget2.GetInterface, Microsoft::WDTF::IWDTFTarget2::GetInterface, dtf.iwdtftarget2_getinterface, wdtf/IWDTFTarget2::GetInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	WDTF.Interop.metadata_dll.dll
 api_name:
 -	IWDTFTarget2.GetInterface
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TTraceLevel
 req.product: Windows 10 or later.
@@ -51,19 +52,6 @@ req.product: Windows 10 or later.
 
 
 Returns an action for the target.
-
-
-## -syntax
-
-
-````
-HRESULT GetInterface(
-  [in]           BSTR         ProgID,
-  [in, optional] VARIANT      MoreTargets,
-  [in, optional] VARIANT      MonikerSuffix,
-  [out, retval]  IWDTFAction2 **ppInterface
-);
-````
 
 
 ## -parameters
@@ -142,12 +130,11 @@ see <a href="https://msdn.microsoft.com/library/windows/hardware/ff538355">Actio
 
 ## -see-also
 
-<a href="..\wdtf\nn-wdtf-iwdtftarget2.md">IWDTFTarget2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439367">IWDTFTarget2</a>
  
 
  
-
 

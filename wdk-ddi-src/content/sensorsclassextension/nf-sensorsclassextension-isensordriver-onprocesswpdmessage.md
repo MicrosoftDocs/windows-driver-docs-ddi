@@ -39,7 +39,8 @@ api_location:
 -	SensorsClassExtension.dll
 api_name:
 -	OnProcessWpdMessage
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SensorConnectionType
 req.product: Windows 10 or later.
@@ -52,17 +53,6 @@ req.product: Windows 10 or later.
 
 
 The <a href="https://msdn.microsoft.com/library/windows/hardware/ff545644">ISensorDriver::OnProcessWpdMessage</a> method handles Windows Portable Device (WPD) commands that the <a href="https://msdn.microsoft.com/library/windows/hardware/ff545536">ISensorClassExtension::ProcessIoControl</a> method does not handle internally. 
-
-
-## -syntax
-
-
-````
-HRESULT OnProcessWpdMessage(
-   IUnknown * pUnkPortableDeviceValuesParams,
-   IUnknown * pUnkPortableDeviceValuesResults
-);
-````
 
 
 ## -parameters

@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	IPrintJob.Id
 -	IPrintJob.get_Id
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PrintSchemaSelectionType
 req.product: Windows 10 or later.
@@ -56,16 +57,6 @@ Gets the print job identifier (ID).
 This property is read-only.
 
 
-## -syntax
-
-
-````
-HRESULT get_Id(
-  [out, retval] ULONG *pulID
-);
-````
-
-
 ## -parameters
 
 
@@ -80,12 +71,11 @@ You must not use the <b>IPrintJob::Id</b> property  to invoke spooler Job APIs. 
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintjob.md">IPrintJob</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265396">IPrintJob</a>
  
 
  
-
 

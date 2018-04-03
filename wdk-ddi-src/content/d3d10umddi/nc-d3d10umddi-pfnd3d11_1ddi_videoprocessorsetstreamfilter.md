@@ -7,7 +7,7 @@ old-location: display\videoprocessorsetstreamfilter.htm
 old-project: display
 ms.assetid: e44e5e4a-20e1-4327-b64c-5806d1bb2ece
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMFILTER, d3d10umddi/pfnVideoProcessorSetStreamFilter, display.videoprocessorsetstreamfilter, pfnVideoProcessorSetStreamFilter, pfnVideoProcessorSetStreamFilter callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3d10umddi.h
 api_name:
 -	pfnVideoProcessorSetStreamFilter
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 ---
@@ -54,45 +55,27 @@ Enables or disables an image filter for an input stream on the video processor.
 
 
 
-## -prototype
-
-
-````
-PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMFILTER pfnVideoProcessorSetStreamFilter;
-
-VOID APIENTRY* pfnVideoProcessorSetStreamFilter(
-  _In_ D3D10DDI_HDEVICE                  hDevice,
-  _In_ D3D11_1DDI_HVIDEOPROCESSOR        hVideoProcessor,
-  _In_ UINT                              StreamIndex,
-  _In_ D3D11_1DDI_VIDEO_PROCESSOR_FILTER Filter,
-  _In_ BOOL                              Enable,
-  _In_ int                               Level
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
 
 
-### -param D3D10DDI_HDEVICE
+### -param Arg1
 
 
-### -param D3D11_1DDI_HVIDEOPROCESSOR
+### -param Arg2
 
 
-### -param UINT
+### -param Arg3
 
 
-### -param D3D11_1DDI_VIDEO_PROCESSOR_FILTER
+### -param Arg4
 
 
-### -param BOOL
+### -param Arg5
 
 
-### -param int
+### -param Arg6
 
 
 
@@ -108,7 +91,7 @@ If <b>TRUE</b>, the filter is enabled on the video processor.
 
 #### - Filter [in]
 
-The filter, specified as a <a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_video_processor_filter.md">D3D11_1DDI_VIDEO_PROCESSOR_FILTER</a> value.
+The filter, specified as a <a href="https://msdn.microsoft.com/library/windows/hardware/hh450982">D3D11_1DDI_VIDEO_PROCESSOR_FILTER</a> value.
 
 
 
@@ -136,7 +119,7 @@ A handle to the display device (graphics context).
 
 #### - hVideoProcessor [in]
 
-A handle to the video processor object that was created through a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor.md">CreateVideoProcessor</a> function. 
+A handle to the video processor object that was created through a call to the <a href="https://msdn.microsoft.com/741045a2-0a91-490a-907d-5f4900a4a0ae">CreateVideoProcessor</a> function. 
 
 
 
@@ -152,16 +135,15 @@ This callback function does not return a value.
 
 ## -see-also
 
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_video_processor_filter.md">D3D11_1DDI_VIDEO_PROCESSOR_FILTER</a>
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor.md">CreateVideoProcessor</a>
+<a href="https://msdn.microsoft.com/741045a2-0a91-490a-907d-5f4900a4a0ae">CreateVideoProcessor</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450982">D3D11_1DDI_VIDEO_PROCESSOR_FILTER</a>
  
 
  
-
 

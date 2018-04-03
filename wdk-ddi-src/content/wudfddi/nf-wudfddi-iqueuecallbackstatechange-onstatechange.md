@@ -38,7 +38,8 @@ api_location:
 -	Wudfddi.h
 api_name:
 -	IQueueCallbackStateChange.OnStateChange
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
@@ -55,17 +56,6 @@ req.product: Windows 10 or later.
 The <b>OnStateChange</b> method is called when the state of the I/O queue object changes. 
 
 
-## -syntax
-
-
-````
-void OnStateChange(
-  [in] IWDFIoQueue        *pWdfQueue,
-  [in] WDF_IO_QUEUE_STATE QueueState
-);
-````
-
-
 ## -parameters
 
 
@@ -73,12 +63,12 @@ void OnStateChange(
 
 ### -param pWdfQueue [in]
 
-A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a> interface for the I/O queue object whose state changes. 
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558943">IWDFIoQueue</a> interface for the I/O queue object whose state changes. 
 
 
 ### -param QueueState [in]
 
-A valid bitwise OR of <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_io_queue_state.md">WDF_IO_QUEUE_STATE</a>-typed values that indicates status for the queue.
+A valid bitwise OR of <a href="https://msdn.microsoft.com/library/windows/hardware/ff561417">WDF_IO_QUEUE_STATE</a>-typed values that indicates status for the queue.
 
 
 ## -returns
@@ -94,22 +84,17 @@ None
 
 
 
-A driver registers the <a href="..\wudfddi\nn-wudfddi-iqueuecallbackstatechange.md">IQueueCallbackStateChange</a> interface when the driver calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557020">IWDFDevice::CreateIoQueue</a> method to create an I/O queue or to configure the default I/O queue. The driver can optionally register the <b>IQueueCallbackStateChange</b> interface only for a manual queue. The driver must not register <b>IQueueCallbackStateChange</b> for a sequential or a parallel queue.
+A driver registers the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556877">IQueueCallbackStateChange</a> interface when the driver calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557020">IWDFDevice::CreateIoQueue</a> method to create an I/O queue or to configure the default I/O queue. The driver can optionally register the <b>IQueueCallbackStateChange</b> interface only for a manual queue. The driver must not register <b>IQueueCallbackStateChange</b> for a sequential or a parallel queue.
 
 
 
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iqueuecallbackstatechange.md">IQueueCallbackStateChange</a>
 
 
 
-<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_io_queue_state.md">WDF_IO_QUEUE_STATE</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556877">IQueueCallbackStateChange</a>
 
 
 
@@ -117,8 +102,12 @@ A driver registers the <a href="..\wudfddi\nn-wudfddi-iqueuecallbackstatechange.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558943">IWDFIoQueue</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561417">WDF_IO_QUEUE_STATE</a>
  
 
  
-
 

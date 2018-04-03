@@ -7,7 +7,7 @@ old-location: display\checkvideodecoderformat.htm
 old-project: display
 ms.assetid: 6bde6e00-70ba-4fa5-9cc0-9884ce7381ed
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: CheckVideoDecoderFormat, CheckVideoDecoderFormat callback function [Display Devices], PFND3D11_1DDI_CHECKVIDEODECODERFORMAT, d3d10umddi/CheckVideoDecoderFormat, display.checkvideodecoderformat
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3d10umddi.h
 api_name:
 -	CheckVideoDecoderFormat
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 ---
@@ -52,28 +53,12 @@ req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 Determines whether a specified format can be used as a video decoder output format for a specified DirectX Video Acceleration (DXVA) profile.
 
 
-## -prototype
-
-
-````
-PFND3D11_1DDI_CHECKVIDEODECODERFORMAT CheckVideoDecoderFormat;
-
-VOID APIENTRY* CheckVideoDecoderFormat(
-  _In_        D3D10DDI_HDEVICE hDevice,
-  _In_  const GUID             *pDecoderProfile ,
-  _In_        DXGI_FORMAT      Format,
-  _Out_       BOOL             *pBool
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
 
 
-### -param D3D10DDI_HDEVICE
+### -param Arg1
 
 
 ### -param *
@@ -85,7 +70,7 @@ VOID APIENTRY* CheckVideoDecoderFormat(
 
 
 
-### -param DXGI_FORMAT
+### -param Arg2
 
 
 #### - Format [in]

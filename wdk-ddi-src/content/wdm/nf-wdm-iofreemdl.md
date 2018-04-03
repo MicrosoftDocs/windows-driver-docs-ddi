@@ -7,7 +7,7 @@ old-location: kernel\iofreemdl.htm
 old-project: kernel
 ms.assetid: e984400a-b94f-4848-af56-79695b327404
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: IoFreeMdl, IoFreeMdl routine [Kernel-Mode Driver Architecture], k104_30217ed4-82a6-4b6d-b6f6-77fab8faa867.xml, kernel.iofreemdl, wdm/IoFreeMdl
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	IoFreeMdl
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
@@ -51,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>IoFreeMdl</b> routine releases a caller-allocated memory descriptor list (MDL). 
-
-
-## -syntax
-
-
-````
-VOID IoFreeMdl(
-  _In_ PMDL Mdl
-);
-````
 
 
 ## -parameters
@@ -99,16 +90,15 @@ This routine frees only the specified MDL. Any MDLs that are chained to this MDL
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iobuildpartialmdl.md">IoBuildPartialMdl</a>
 
 
 
-<a href="..\wdm\nf-wdm-ioallocatemdl.md">IoAllocateMdl</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548263">IoAllocateMdl</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548324">IoBuildPartialMdl</a>
  
 
  
-
 

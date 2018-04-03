@@ -7,7 +7,7 @@ old-location: kernel\pep_ppm_idle_select.htm
 old-project: kernel
 ms.assetid: 4783CB44-3A55-4C7C-8EA2-1A72317CC955
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*PPEP_PPM_IDLE_SELECT, PEP_PPM_IDLE_SELECT, PEP_PPM_IDLE_SELECT structure [Kernel-Mode Driver Architecture], PPEP_PPM_IDLE_SELECT, PPEP_PPM_IDLE_SELECT structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_IDLE_SELECT, kernel.pep_ppm_idle_select, pep_x/PEP_PPM_IDLE_SELECT, pep_x/PPEP_PPM_IDLE_SELECT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	pep_x.h
 api_name:
 -	PEP_PPM_IDLE_SELECT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PEP_PPM_IDLE_SELECT, *PPEP_PPM_IDLE_SELECT
 ---
@@ -52,22 +53,6 @@ req.typenames: PEP_PPM_IDLE_SELECT, *PPEP_PPM_IDLE_SELECT
 The <b>PEP_PPM_IDLE_SELECT</b> structure describes the most energy-efficient idle state that the processor can enter and still satisfy the constraints specified by the operating system.
 
 
-## -syntax
-
-
-````
-typedef struct _PEP_PPM_IDLE_SELECT {
-  PPEP_PROCESSOR_IDLE_CONSTRAINTS Constraints;
-  BOOLEAN                         AbortTransition;
-  ULONG                           IdleStateIndex;
-  ULONG                           DependencyArrayUsed;
-  ULONG                           DependencyArrayCount;
-  PPEP_PROCESSOR_IDLE_DEPENDENCY  DependencyArray;
-  ULONG                           PlatformIdleStateIndex;
-} PEP_PPM_IDLE_SELECT, *PPEP_PPM_IDLE_SELECT;
-````
-
-
 ## -struct-fields
 
 
@@ -75,7 +60,7 @@ typedef struct _PEP_PPM_IDLE_SELECT {
 
 ### -field Constraints
 
-[in] A pointer to a <a href="..\pep_x\ns-pep_x-_pep_processor_idle_constraints.md">PEP_PROCESSOR_IDLE_CONSTRAINTS</a> structure that specifies the constraints that the selected processor idle state must satisfy. The operating system sets the values in this structure. The platform extension plug-in (PEP) must select a processor idle state that satisfies these constraints.
+[in] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/mt629124">PEP_PROCESSOR_IDLE_CONSTRAINTS</a> structure that specifies the constraints that the selected processor idle state must satisfy. The operating system sets the values in this structure. The platform extension plug-in (PEP) must select a processor idle state that satisfies these constraints.
 
 
 ### -field AbortTransition
@@ -100,7 +85,7 @@ typedef struct _PEP_PPM_IDLE_SELECT {
 
 ### -field DependencyArray
 
-[in] A pointer to an output buffer to which the PEP writes an array of <a href="..\pepfx\ns-pepfx-_pep_processor_idle_dependency.md">PEP_PROCESSOR_IDLE_DEPENDENCY</a> structures. The elements of this array specify processor idle dependencies or wake dependencies that must be met for this idle transition to succeed. The PEP sets the <b>DependencyArrayUsed</b> member to the actual number of array elements that the PEP writes to the buffer. The output buffer is allocated by the Windows <a href="https://msdn.microsoft.com/B08F8ABF-FD43-434C-A345-337FBB799D9B">power management framework</a> (PoFx) and is guaranteed to be large enough to contain the number of array elements specified by the <b>DependencyArrayCount</b> member.
+[in] A pointer to an output buffer to which the PEP writes an array of <a href="https://msdn.microsoft.com/library/windows/hardware/mt186834">PEP_PROCESSOR_IDLE_DEPENDENCY</a> structures. The elements of this array specify processor idle dependencies or wake dependencies that must be met for this idle transition to succeed. The PEP sets the <b>DependencyArrayUsed</b> member to the actual number of array elements that the PEP writes to the buffer. The output buffer is allocated by the Windows <a href="https://msdn.microsoft.com/B08F8ABF-FD43-434C-A345-337FBB799D9B">power management framework</a> (PoFx) and is guaranteed to be large enough to contain the number of array elements specified by the <b>DependencyArrayCount</b> member.
 
 
 ### -field PlatformIdleStateIndex
@@ -119,7 +104,6 @@ This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt629121">PEP_NOTIFY_PPM_QUERY_IDLE_STATES</a>
 
 
 
@@ -127,16 +111,16 @@ This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/
 
 
 
-<a href="..\pepfx\ns-pepfx-_pep_processor_idle_dependency.md">PEP_PROCESSOR_IDLE_DEPENDENCY</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt629121">PEP_NOTIFY_PPM_QUERY_IDLE_STATES</a>
 
 
 
-<a href="..\pep_x\ns-pep_x-_pep_processor_idle_constraints.md">PEP_PROCESSOR_IDLE_CONSTRAINTS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt629124">PEP_PROCESSOR_IDLE_CONSTRAINTS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186834">PEP_PROCESSOR_IDLE_DEPENDENCY</a>
  
 
  
-
 

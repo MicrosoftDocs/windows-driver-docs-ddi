@@ -7,7 +7,7 @@ old-location: buses\_ucxendpointabortcomplete.htm
 old-project: usbref
 ms.assetid: 754BCC74-1EC2-429E-A711-E8958665A5A8
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: UcxEndpointAbortComplete, UcxEndpointAbortComplete method [Buses], buses._ucxendpointabortcomplete, ucxendpoint/UcxEndpointAbortComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ucxendpoint.h
 api_name:
 -	UcxEndpointAbortComplete
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UCX_ENDPOINT_CHARACTERISTIC_TYPE
 req.product: Windows 10 or later.
@@ -53,16 +54,6 @@ req.product: Windows 10 or later.
 Notifies UCX that a transfer abort operation has been completed  on the specified endpoint object.
 
 
-## -syntax
-
-
-````
-void UcxEndpointAbortComplete(
-  [in] UCXENDPOINT Endpoint
-);
-````
-
-
 ## -parameters
 
 
@@ -70,7 +61,7 @@ void UcxEndpointAbortComplete(
 
 ### -param Endpoint [in]
 
-A handle to the endpoint object. The client driver retrieved the handle in a previous call to <a href="..\ucxendpoint\nf-ucxendpoint-ucxendpointcreate.md">UcxEndpointCreate</a>.
+A handle to the endpoint object. The client driver retrieved the handle in a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/mt188039">UcxEndpointCreate</a>.
 
 
 ## -returns
@@ -84,12 +75,11 @@ This method does not return a value.
 
 ## -see-also
 
-<a href="..\ucxendpoint\nf-ucxendpoint-ucxendpointcreate.md">UcxEndpointCreate</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt188039">UcxEndpointCreate</a>
  
 
  
-
 

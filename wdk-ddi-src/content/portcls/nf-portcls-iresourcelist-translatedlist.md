@@ -7,7 +7,7 @@ old-location: audio\iresourcelist_translatedlist.htm
 old-project: audio
 ms.assetid: 6bc4f939-dbc8-4d9a-95f9-b5ec97a47a8a
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/19/2018
 ms.keywords: IResourceList, IResourceList interface [Audio Devices], TranslatedList method, IResourceList::TranslatedList, TranslatedList method [Audio Devices], TranslatedList method [Audio Devices], IResourceList interface, TranslatedList,IResourceList.TranslatedList, audio.iresourcelist_translatedlist, audmp-routines_d74c0767-97d9-4488-82f1-51cde4dc8259.xml, portcls/IResourceList::TranslatedList
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	portcls.h
 api_name:
 -	IResourceList.TranslatedList
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
@@ -50,16 +51,6 @@ req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 
 
 The <code>TranslatedList</code> method returns the list of translated resources.
-
-
-## -syntax
-
-
-````
-PCM_RESOURCE_LIST TranslatedList(
-    None
-);
-````
 
 
 ## -parameters
@@ -76,23 +67,22 @@ PCM_RESOURCE_LIST TranslatedList(
 
 
 
-<code>TranslatedList</code> returns a pointer to a <a href="..\wudfwdm\ns-wudfwdm-_cm_resource_list.md">CM_RESOURCE_LIST</a> structure that specifies all of the system hardware resources that are assigned to the device. This pointer remains valid until the resource list object is deleted.
+<code>TranslatedList</code> returns a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541994">CM_RESOURCE_LIST</a> structure that specifies all of the system hardware resources that are assigned to the device. This pointer remains valid until the resource list object is deleted.
 
 
 
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_cm_resource_list.md">CM_RESOURCE_LIST</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541994">CM_RESOURCE_LIST</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536976">IResourceList</a>
  
 
  
-
 

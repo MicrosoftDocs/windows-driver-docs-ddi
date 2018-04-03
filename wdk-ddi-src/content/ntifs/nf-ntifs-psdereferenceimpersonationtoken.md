@@ -7,7 +7,7 @@ old-location: ifsk\psdereferenceimpersonationtoken.htm
 old-project: ifsk
 ms.assetid: 8320d4d1-f282-4977-96e7-de6f63d86ec4
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: PsDereferenceImpersonationToken, PsDereferenceImpersonationToken routine [Installable File System Drivers], ifsk.psdereferenceimpersonationtoken, ntifs/PsDereferenceImpersonationToken, psref_8d62cb23-83a3-45fd-8b35-f7e38dd1548d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	PsDereferenceImpersonationToken
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -50,16 +51,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>PsDereferenceImpersonationToken</b> routine decrements the reference count of an impersonation token.
-
-
-## -syntax
-
-
-````
-VOID PsDereferenceImpersonationToken(
-  _In_ PACCESS_TOKEN ImpersonationToken
-);
-````
 
 
 ## -parameters
@@ -94,16 +85,15 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-psimpersonateclient.md">PsImpersonateClient</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-psreferenceimpersonationtoken.md">PsReferenceImpersonationToken</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551907">PsImpersonateClient</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551929">PsReferenceImpersonationToken</a>
  
 
  
-
 

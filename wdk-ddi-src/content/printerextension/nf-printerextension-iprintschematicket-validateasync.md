@@ -38,7 +38,8 @@ api_location:
 -	printerextension.h
 api_name:
 -	IPrintSchemaTicket.ValidateAsync
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PrintSchemaSelectionType
 req.product: Windows 10 or later.
@@ -51,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 Gets an asynchronous PrintTicket validation operation context.
-
-
-## -syntax
-
-
-````
-HRESULT ValidateAsync(
-  [out] IPrintSchemaAsyncOperation **ppAsyncOperation
-);
-````
 
 
 ## -parameters
@@ -93,7 +84,10 @@ This method returns an <b>HRESULT</b> value.
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintschemaasyncoperation.md">IPrintSchemaAsyncOperation</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451224">IPrintSchemaAsyncOperation</a>
 
 
 
@@ -101,16 +95,12 @@ This method returns an <b>HRESULT</b> value.
 
 
 
-<a href="..\printerextension\nn-printerextension-iprintschematicket.md">IPrintSchemaTicket</a>
-
-
-
 <a href="https://msdn.microsoft.com/B1599F21-D6DD-497D-9CD8-6C637ABAA33A">IPrintSchemaAsyncOperationEvent::Completed</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451398">IPrintSchemaTicket</a>
  
 
  
-
 

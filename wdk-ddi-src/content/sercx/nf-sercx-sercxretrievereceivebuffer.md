@@ -38,7 +38,8 @@ api_location:
 -	1.0\Sercx.h
 api_name:
 -	SerCxRetrieveReceiveBuffer
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SERCX_STATUS, *PSERCX_STATUS
 req.product: Windows 10 or later.
@@ -51,18 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>SerCxRetrieveReceiveBuffer</b> method obtains an input buffer into which data received from the serial port can be loaded.
-
-
-## -syntax
-
-
-````
-NTSTATUS SerCxRetrieveReceiveBuffer(
-  [in]      WDFDEVICE                Device,
-  [in]      ULONG                    Length,
-  [in, out] PSERCX_BUFFER_DESCRIPTOR BufferDescriptor
-);
-````
 
 
 ## -parameters
@@ -82,7 +71,7 @@ The requested buffer length, in bytes. If the <b>SerCxRetrieveReceiveBuffer</b> 
 
 ### -param BufferDescriptor [in, out]
 
-A pointer to a caller-allocated <a href="..\sercx\ns-sercx-sercx_buffer_descriptor.md">SERCX_BUFFER_DESCRIPTOR</a> structure. This structure describes the data buffer to use for the receive operation. The caller previously called the <a href="..\sercx\nf-sercx-sercx_buffer_descriptor_init.md">SERCX_BUFFER_DESCRIPTOR_INIT</a> function to initialize this structure. <b>SerCxRetrieveTransmitBuffer</b> writes to the <b>Buffer</b> and <b>Length</b> members of this structure.
+A pointer to a caller-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/hh439539">SERCX_BUFFER_DESCRIPTOR</a> structure. This structure describes the data buffer to use for the receive operation. The caller previously called the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439542">SERCX_BUFFER_DESCRIPTOR_INIT</a> function to initialize this structure. <b>SerCxRetrieveTransmitBuffer</b> writes to the <b>Buffer</b> and <b>Length</b> members of this structure.
 
 
 ## -returns
@@ -146,16 +135,15 @@ The serial controller driver calls this method to acquire a buffer to contain in
 
 ## -see-also
 
-<a href="..\sercx\nf-sercx-sercx_buffer_descriptor_init.md">SERCX_BUFFER_DESCRIPTOR_INIT</a>
 
 
 
-<a href="..\sercx\ns-sercx-sercx_buffer_descriptor.md">SERCX_BUFFER_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439539">SERCX_BUFFER_DESCRIPTOR</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439542">SERCX_BUFFER_DESCRIPTOR_INIT</a>
  
 
  
-
 

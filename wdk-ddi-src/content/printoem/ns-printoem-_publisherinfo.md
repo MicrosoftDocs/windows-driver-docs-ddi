@@ -38,7 +38,8 @@ api_location:
 -	printoem.h
 api_name:
 -	PUBLISHERINFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PUBLISHERINFO, *PPUBLISHERINFO
 req.product: Windows 10 or later.
@@ -51,18 +52,6 @@ req.product: Windows 10 or later.
 
 
 The PUBLISHERINFO structure is used as an input parameter to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553221">IPrintOemPS::GetInfo</a> method.
-
-
-## -syntax
-
-
-````
-typedef struct _PUBLISHERINFO {
-  DWORD dwMode;
-  WORD  wMinoutlinePPEM;
-  WORD  wMaxbitmapPPEM;
-} PUBLISHERINFO, *PPUBLISHERINFO;
-````
 
 
 ## -struct-fields
@@ -87,12 +76,11 @@ Specifies the maximum font size, in pixels, for which the Pscript5 driver will d
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553221">IPrintOemPS::GetInfo</a>
-
-
-
  
 
  
-
 

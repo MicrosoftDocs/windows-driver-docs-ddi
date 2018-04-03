@@ -38,7 +38,8 @@ api_location:
 -	hidpi.h
 api_name:
 -	HIDP_EXTENDED_ATTRIBUTES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: HIDP_EXTENDED_ATTRIBUTES, *PHIDP_EXTENDED_ATTRIBUTES
 ---
@@ -52,19 +53,6 @@ req.typenames: HIDP_EXTENDED_ATTRIBUTES, *PHIDP_EXTENDED_ATTRIBUTES
 The HIDP_EXTENDED_ATTRIBUTES structure contains information about the global items specified for a HID control that the HID parser did not recognize.
 
 
-## -syntax
-
-
-````
-typedef struct _HIDP_EXTENDED_ATTRIBUTES {
-  UCHAR               NumGlobalUnknowns;
-  UCHAR               Reserved[3];
-  PHIDP_UNKNOWN_TOKEN GlobalUnknowns;
-  ULONG               Data[1];
-} HIDP_EXTENDED_ATTRIBUTES, *PHIDP_EXTENDED_ATTRIBUTES;
-````
-
-
 ## -struct-fields
 
 
@@ -72,7 +60,7 @@ typedef struct _HIDP_EXTENDED_ATTRIBUTES {
 
 ### -field NumGlobalUnknowns
 
-Specifies the number of <a href="..\hidpi\ns-hidpi-_hidp_unknown_token.md">HIDP_UNKNOWN_TOKEN</a> structures in the list specified by <b>Data</b>.
+Specifies the number of <a href="https://msdn.microsoft.com/library/windows/hardware/ff539808">HIDP_UNKNOWN_TOKEN</a> structures in the list specified by <b>Data</b>.
 
 
 ### -field Reserved
@@ -87,7 +75,7 @@ Reserved for internal system use only.
 
 ### -field Data
 
-Specifies the memory location where <a href="..\hidpi\nf-hidpi-hidp_getextendedattributes.md">HidP_GetExtendedAttributes</a> returns a variable length array of <a href="..\hidpi\ns-hidpi-_hidp_unknown_token.md">HIDP_UNKNOWN_TOKEN</a> structures.
+Specifies the memory location where <a href="https://msdn.microsoft.com/library/windows/hardware/ff539721">HidP_GetExtendedAttributes</a> returns a variable length array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff539808">HIDP_UNKNOWN_TOKEN</a> structures.
 
 
 ## -remarks
@@ -101,16 +89,15 @@ The HIDP_EXTENDED_ATTRIBUTES structure is designed to be used with <b>HidP_GetEx
 
 ## -see-also
 
-<a href="..\hidpi\ns-hidpi-_hidp_unknown_token.md">HIDP_UNKNOWN_TOKEN</a>
 
 
 
-<a href="..\hidpi\nf-hidpi-hidp_getextendedattributes.md">HidP_GetExtendedAttributes</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539808">HIDP_UNKNOWN_TOKEN</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539721">HidP_GetExtendedAttributes</a>
  
 
  
-
 

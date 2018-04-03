@@ -38,7 +38,8 @@ api_location:
 -	printoem.h
 api_name:
 -	OEMSendFontCmd
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STDVARIABLEINDEX
 req.product: Windows 10 or later.
@@ -50,18 +51,6 @@ req.product: Windows 10 or later.
 ## -description
 
 
-
-
-## -syntax
-
-
-````
-VOID APIENTRY OEMSendFontCmd(
-   PDEVOBJ      pdevobj,
-   PUNIFONTOBJ  pUFObj,
-   PFINVOCATION pFInv
-);
-````
 
 
 ## -parameters

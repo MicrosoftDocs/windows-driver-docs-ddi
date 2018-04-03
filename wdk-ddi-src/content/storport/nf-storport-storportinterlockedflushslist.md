@@ -7,7 +7,7 @@ old-location: storage\storportinterlockedflushslist.htm
 old-project: storage
 ms.assetid: C686ABA7-BC44-45CE-A35B-63E76961A032
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: StorPortInterlockedFlushSList, StorPortInterlockedFlushSList routine [Storage Devices], storage.storportinterlockedflushslist, storport/StorPortInterlockedFlushSList
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	storport.h
 api_name:
 -	StorPortInterlockedFlushSList
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STOR_SPINLOCK
 req.product: Windows 10 or later.
@@ -51,18 +52,6 @@ req.product: Windows 10 or later.
 
 
 Removes all items from a Storport managed singly linked list. Access to the list is synchronized on a multiprocessor system
-
-
-## -syntax
-
-
-````
-ULONG StorPortInterlockedFlushSList(
-  _In_    PVOID               HwDeviceExtension,
-  _Inout_ PSTOR_SLIST_HEADER  SListHead,
-  _Out_   PSTOR_SLIST_ENTRY * Result
-);
-````
 
 
 ## -parameters
@@ -146,24 +135,23 @@ The <b>StorPortInterlockedFlushSList</b> will also return <b>STATUS_SUCCESS</b> 
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportinterlockedpopentryslist.md">StorPortInterlockedPopEntrySList</a>
 
 
 
-<a href="..\storport\nf-storport-storportinitializeslisthead.md">StorPortInitializeSListHead</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh967735">StorPortInitializeSListHead</a>
 
 
 
-<a href="..\storport\nf-storport-storportinterlockedpushentryslist.md">StorPortInterlockedPushEntrySList</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh967737">StorPortInterlockedPopEntrySList</a>
 
 
 
-<a href="..\storport\nf-storport-storportquerydepthslist.md">StorPortQueryDepthSList</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh967738">StorPortInterlockedPushEntrySList</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh967739">StorPortQueryDepthSList</a>
  
 
  
-
 

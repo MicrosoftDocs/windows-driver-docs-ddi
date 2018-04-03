@@ -7,7 +7,7 @@ old-location: display\ioctl_video_set_power_management.htm
 old-project: display
 ms.assetid: 76b643db-318c-4dd4-bc45-e9da27ecb283
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_VIDEO_SET_POWER_MANAGEMENT, IOCTL_VIDEO_SET_POWER_MANAGEMENT control code [Display Devices], Video_IOCTLs_36fe9d13-31c0-435c-939c-af0ce6d5b380.xml, display.ioctl_video_set_power_management, ntddvdeo/IOCTL_VIDEO_SET_POWER_MANAGEMENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ntddvdeo.h
 api_name:
 -	IOCTL_VIDEO_SET_POWER_MANAGEMENT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TAPE_WRITE_MARKS, *PTAPE_WRITE_MARKS
 ---
@@ -50,7 +51,7 @@ req.typenames: TAPE_WRITE_MARKS, *PTAPE_WRITE_MARKS
 
 
 
-This IOCTL is <b>obsolete</b> in Windows 2000 and later, and is no longer supported. A Plug and Play video miniport driver should implement the <a href="..\video\nc-video-pvideo_hw_power_set.md">HwVidSetPowerState</a> function, which provides similar functionality.
+This IOCTL is <b>obsolete</b> in Windows 2000 and later, and is no longer supported. A Plug and Play video miniport driver should implement the <a href="https://msdn.microsoft.com/d7800ab6-9d8f-47a7-b919-8b6b0197d163">HwVidSetPowerState</a> function, which provides similar functionality.
 
 Resets the power-consumption level of the adapter to the specified state. As long as the state is <b>VideoPowerOff</b>, the port driver intercepts and fails all IOCTL_VIDEO_<i>XXX</i> requests to the miniport driver until the next IOCTL_VIDEO_SET_POWER_MANAGEMENT request that resets the state to a power-on condition.
 
@@ -64,7 +65,7 @@ Resets the power-consumption level of the adapter to the specified state. As lon
 
 ### -input-buffer
 
-The VRP <b>InputBuffer</b> contains the <a href="..\ntddvdeo\ns-ntddvdeo-_video_power_management.md">VIDEO_POWER_MANAGEMENT</a> structure, specifying the state to be set.
+The VRP <b>InputBuffer</b> contains the <a href="https://msdn.microsoft.com/library/windows/hardware/ff570542">VIDEO_POWER_MANAGEMENT</a> structure, specifying the state to be set.
 
 
 ### -input-buffer-length
@@ -110,21 +111,20 @@ None
 
 ### -status-block
 
-The miniport driver does not set the <b>Information</b> member of the <a href="..\video\ns-video-_status_block.md">STATUS_BLOCK</a> structure.
+The miniport driver does not set the <b>Information</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569732">STATUS_BLOCK</a> structure.
 
 
 ## -see-also
 
-<a href="..\ntddvdeo\ns-ntddvdeo-_video_power_management.md">VIDEO_POWER_MANAGEMENT</a>
 
 
 
-<a href="..\video\ns-video-_status_block.md">STATUS_BLOCK</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569732">STATUS_BLOCK</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570542">VIDEO_POWER_MANAGEMENT</a>
  
 
  
-
 

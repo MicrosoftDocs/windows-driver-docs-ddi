@@ -7,7 +7,7 @@ old-location: storage\block_device_token_descriptor.htm
 old-project: storage
 ms.assetid: AD4E4EF6-F033-4226-9DC6-A6E55E965B4C
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PBLOCK_DEVICE_TOKEN_DESCRIPTOR, BLOCK_DEVICE_TOKEN_DESCRIPTOR, BLOCK_DEVICE_TOKEN_DESCRIPTOR structure [Storage Devices], PBLOCK_DEVICE_TOKEN_DESCRIPTOR, PBLOCK_DEVICE_TOKEN_DESCRIPTOR structure pointer [Storage Devices], scsi/BLOCK_DEVICE_TOKEN_DESCRIPTOR, scsi/PBLOCK_DEVICE_TOKEN_DESCRIPTOR, storage.block_device_token_descriptor"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	scsi.h
 api_name:
 -	BLOCK_DEVICE_TOKEN_DESCRIPTOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BLOCK_DEVICE_TOKEN_DESCRIPTOR, *PBLOCK_DEVICE_TOKEN_DESCRIPTOR
 req.product: Windows 10 or later.
@@ -50,18 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-<b>BLOCK_DEVICE_TOKEN_DESCRIPTOR</b> contains the token returned from a the POPULATE TOKEN command for an offload read data operation. The token information is included as part of the <a href="..\storport\ns-storport-receive_token_information_response_header.md">RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER</a> structure.
-
-
-## -syntax
-
-
-````
-typedef struct _BLOCK_DEVICE_TOKEN_DESCRIPTOR {
-  UCHAR TokenIdentifier[2];
-  UCHAR Token[BLOCK_DEVICE_TOKEN_SIZE];
-} BLOCK_DEVICE_TOKEN_DESCRIPTOR, *PBLOCK_DEVICE_TOKEN_DESCRIPTOR;
-````
+<b>BLOCK_DEVICE_TOKEN_DESCRIPTOR</b> contains the token returned from a the POPULATE TOKEN command for an offload read data operation. The token information is included as part of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh967732">RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER</a> structure.
 
 
 ## -struct-fields
@@ -81,12 +71,11 @@ A data value defining a token as a point-in-time representation of data (ROD) fo
 
 ## -see-also
 
-<a href="..\storport\ns-storport-receive_token_information_response_header.md">RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh967732">RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER</a>
  
 
  
-
 

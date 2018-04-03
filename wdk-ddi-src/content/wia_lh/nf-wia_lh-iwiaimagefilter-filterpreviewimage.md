@@ -38,7 +38,8 @@ api_location:
 -	wia_lh.h
 api_name:
 -	IWiaImageFilter.FilterPreviewImage
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BMP_IMAGE_INFO, *PBMP_IMAGE_INFO
 req.product: Windows 10 or later.
@@ -51,19 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>IWiaImageFilter::FilterPreviewImage</b> method is called by the WIA Preview component, when an application calls the <b>IWiaPreview::UpdatePreview</b> method.
-
-
-## -syntax
-
-
-````
-HRESULT  FilterPreviewImage(
-  [in] IWiaItem2   *pWiaChildItem2,
-  [in] RECT        InputImageExtents,
-  [in] IStream     *pInputStream
-    
-);
-````
 
 
 ## -parameters

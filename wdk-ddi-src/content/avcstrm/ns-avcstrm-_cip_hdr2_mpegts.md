@@ -38,7 +38,8 @@ api_location:
 -	avcstrm.h
 api_name:
 -	CIP_HDR2_MPEGTS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CIP_HDR2_MPEGTS, *PCIP_HDR2_MPEGTS
 ---
@@ -50,19 +51,6 @@ req.typenames: CIP_HDR2_MPEGTS, *PCIP_HDR2_MPEGTS
 
 
 The CIP_HDR2_MPEGTS structure describes the second quadlet of a CIP header pair for an MPEGTS format stream.
-
-
-## -syntax
-
-
-````
-typedef struct _CIP_HDR2_MPEGTS {
-  ULONG TSF  :1;
-  ULONG RSV23bit  :23;
-  ULONG FMT  :6;
-  ULONG Bit10  :2;
-} CIP_HDR2_MPEGTS, *PCIP_HDR2_MPEGTS;
-````
 
 
 ## -struct-fields
@@ -92,12 +80,11 @@ Must be set to 1:0
 
 ## -see-also
 
-<a href="..\avcstrm\ns-avcstrm-_cip_hdr1.md">CIP_HDR1</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557668">CIP_HDR1</a>
  
 
  
-
 

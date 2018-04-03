@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KSMPEGVID_RECT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSMPEGVID_RECT, *PKSMPEGVID_RECT
 ---
@@ -49,19 +50,6 @@ req.typenames: KSMPEGVID_RECT, *PKSMPEGVID_RECT
 ## -description
 
 
-
-
-## -syntax
-
-
-````
-typedef struct _KSMPEGVID_RECT {
-  ULONG StartX;
-  ULONG StartY;
-  ULONG EndX;
-  ULONG EndY;
-} KSMPEGVID_RECT, *PKSMPEGVID_RECT;
-````
 
 
 ## -struct-fields

@@ -38,7 +38,8 @@ api_location:
 -	filterpipeline.h
 api_name:
 -	IPartThumbnail.SetThumbnailContent
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
@@ -50,16 +51,6 @@ req.typenames: EXpsFontRestriction
 
 
 The <b>SetThumbnailContent</b> method sets the thumbnail content for the part.
-
-
-## -syntax
-
-
-````
-HRESULT SetThumbnailContent(
-  [in] const wchar_t *contentType
-);
-````
 
 
 ## -parameters

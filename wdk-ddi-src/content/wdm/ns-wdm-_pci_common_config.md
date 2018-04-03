@@ -7,7 +7,7 @@ old-location: kernel\pci_common_config.htm
 old-project: kernel
 ms.assetid: 239d0c0a-e78e-40d5-b359-36910bdd9358
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*PPCI_COMMON_CONFIG, PCI_COMMON_CONFIG, PCI_COMMON_CONFIG structure [Kernel-Mode Driver Architecture], PPCI_COMMON_CONFIG, PPCI_COMMON_CONFIG structure pointer [Kernel-Mode Driver Architecture], _PCI_COMMON_CONFIG, kernel.pci_common_config, kstruct_c_42f21057-e812-4a4d-96c5-f1177a03982b.xml, wdm/PCI_COMMON_CONFIG, wdm/PPCI_COMMON_CONFIG"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	PCI_COMMON_CONFIG
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PCI_COMMON_CONFIG, *PPCI_COMMON_CONFIG, PCI_COMMON_CONFIG, *PPCI_COMMON_CONFIG
 req.product: Windows 10 or later.
@@ -51,40 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>PCI_COMMON_CONFIG</b> structure is <u>obsolete</u>. It defines standard PCI configuration information returned by the obsolete <a href="https://msdn.microsoft.com/library/windows/hardware/ff546599">HalGetBusData</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff546606">HalGetBusDataByOffset</a> routine for the input <i>BusDataType</i> PCIConfiguration, assuming the caller-allocated <i>Buffer</i> is of sufficient <i>Length</i>.
-
-
-## -syntax
-
-
-````
-typedef struct _PCI_COMMON_CONFIG {
-  USHORT VendorID;
-  USHORT DeviceID;
-  USHORT Command;
-  USHORT Status;
-  UCHAR  RevisionID;
-  UCHAR  ProgIf;
-  UCHAR  SubClass;
-  UCHAR  BaseClass;
-  UCHAR  CacheLineSize;
-  UCHAR  LatencyTimer;
-  UCHAR  HeaderType;
-  UCHAR  BIST;
-  union {
-    struct {
-      ULONG BaseAddresses[PCI_TYPE0_ADDRESSES];
-      ULONG Reserved1[2];
-      ULONG ROMBaseAddress;
-      ULONG Reserved2[2];
-      UCHAR InterruptLine;
-      UCHAR InterruptPin;
-      UCHAR MinimumGrant;
-      UCHAR MaximumLatency;
-    } type0;
-  } u;
-  UCHAR  DeviceSpecific[192];
-} PCI_COMMON_CONFIG, *PPCI_COMMON_CONFIG;
-````
 
 
 ## -struct-fields
@@ -257,6 +224,99 @@ Minimum grant.
 Maximum latency.
 
 
+##### - u.type0
+
+Drivers call <a href="https://msdn.microsoft.com/library/windows/hardware/ff546580">HalAssignSlotResources</a> to configure these values and to get back the bus-relative values passed to other configuration routines.
+
+
+
+##### type0.BaseAddresses
+
+Base addresses.
+
+
+
+##### type0.Reserved1
+
+Reserved.
+
+
+
+##### type0.ROMBaseAddress
+
+ROM base address.
+
+
+
+##### type0.Reserved2
+
+Reserved.
+
+
+
+##### type0.InterruptLine
+
+Interrupt line number.
+
+
+
+##### type0.InterruptPin
+
+Interrupt pin number.
+
+
+
+##### type0.MinimumGrant
+
+Minimum grant.
+
+
+
+##### type0.MaximumLatency
+
+Maximum latency.
+
+
+###### - u.type0.BaseAddresses
+
+Base addresses.
+
+
+###### - u.type0.InterruptLine
+
+Interrupt line number.
+
+
+###### - u.type0.InterruptPin
+
+Interrupt pin number.
+
+
+###### - u.type0.MaximumLatency
+
+Maximum latency.
+
+
+###### - u.type0.MinimumGrant
+
+Minimum grant.
+
+
+###### - u.type0.ROMBaseAddress
+
+ROM base address.
+
+
+###### - u.type0.Reserved1
+
+Reserved.
+
+
+###### - u.type0.Reserved2
+
+Reserved.
+
+
 ## -remarks
 
 
@@ -270,11 +330,18 @@ Other members are provisionally read-only: that is, the system initializes them 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546606">HalGetBusDataByOffset</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546580">HalAssignSlotResources</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546599">HalGetBusData</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546606">HalGetBusDataByOffset</a>
 
 
 
@@ -283,15 +350,7 @@ Other members are provisionally read-only: that is, the system initializes them 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546633">HalSetBusDataByOffset</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546580">HalAssignSlotResources</a>
-
-
-
  
 
  
-
 

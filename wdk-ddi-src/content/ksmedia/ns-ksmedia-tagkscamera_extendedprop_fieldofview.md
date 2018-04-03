@@ -38,7 +38,8 @@ api_location:
 -	Ksmedia.h
 api_name:
 -	KSCAMERA_EXTENDEDPROP_FIELDOFVIEW
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSCAMERA_EXTENDEDPROP_FIELDOFVIEW, *PKSCAMERA_EXTENDEDPROP_FIELDOFVIEW
 ---
@@ -50,19 +51,6 @@ req.typenames: KSCAMERA_EXTENDEDPROP_FIELDOFVIEW, *PKSCAMERA_EXTENDEDPROP_FIELDO
 
 
 The <i>Field of View Control</i> property describes the current Field of View (FOV) of the camera along with the pitch angle of the camera position.
-
-
-## -syntax
-
-
-````
-typedef struct _KSCAMERA_EXTENDEDPROP_FIELDOFVIEW {
-  ULONG NormalizedFocalLengthX;
-  ULONG NormalizedFocalLengthY;
-  ULONG Flag;
-  ULONG Reserved;
-} KSCAMERA_EXTENDEDPROP_FIELDOFVIEW, *PKSCAMERA_EXTENDEDPROP_FIELDOFVIEW;
-````
 
 
 ## -struct-fields
@@ -92,12 +80,11 @@ Reserved. Set to 0.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn567574">KSPROPERTY_CAMERACONTROL_EXTENDED_FIELDOFVIEW</a>
-
-
-
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: buses\udecxusbdevicesetfunctionsuspendandwakecomplete.htm
 old-project: usbref
 ms.assetid: 21339CB5-8529-4649-9F1A-9D8C80709407
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: UdecxUsbDeviceSetFunctionSuspendAndWakeComplete, UdecxUsbDeviceSetFunctionSuspendAndWakeComplete function [Buses], buses.udecxusbdevicesetfunctionsuspendandwakecomplete, udecxusbdevice/UdecxUsbDeviceSetFunctionSuspendAndWakeComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Udecxstub.dll
 api_name:
 -	UdecxUsbDeviceSetFunctionSuspendAndWakeComplete
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UDECX_USB_DEVICE_WAKE_SETTING, *PUDECX_USB_DEVICE_WAKE_SETTING
 req.product: Windows 10 or later.
@@ -54,17 +55,6 @@ req.product: Windows 10 or later.
 Completes an asynchronous request for changing the power state of a particular function of a virtual USB 3.0 device. 
 
 
-## -syntax
-
-
-````
-void UdecxUsbDeviceSetFunctionSuspendAndWakeComplete(
-  _In_ UDECXUSBDEVICE UdecxUsbDevice,
-  _In_ NTSTATUS       CompletionStatus
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +62,7 @@ void UdecxUsbDeviceSetFunctionSuspendAndWakeComplete(
 
 ### -param UdecxUsbDevice [in]
 
-A handle to UDE device object. The client driver retrieved this pointer in the previous call to <a href="..\udecxusbdevice\nf-udecxusbdevice-udecxusbdevicecreate.md">UdecxUsbDeviceCreate</a>.
+A handle to UDE device object. The client driver retrieved this pointer in the previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/mt595959">UdecxUsbDeviceCreate</a>.
 
 
 ### -param CompletionStatus [in]
@@ -91,11 +81,6 @@ This function does not return a value.
 
 ## -see-also
 
-<a href="..\udecxusbdevice\nc-udecxusbdevice-evt_udecx_usb_device_set_function_suspend_and_wake.md">EVT_UDECX_USB_DEVICE_SET_FUNCTION_SUSPEND_AND_WAKE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
 
 
 
@@ -103,8 +88,12 @@ This function does not return a value.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595915">EVT_UDECX_USB_DEVICE_SET_FUNCTION_SUSPEND_AND_WAKE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
  
 
  
-
 

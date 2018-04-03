@@ -7,7 +7,7 @@ old-location: debugger\getunnamedargu64.htm
 old-project: debugger
 ms.assetid: 43cda226-1c55-4b55-a9c9-819fb1ea9265
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: EngExtCpp_Ref_94c8c0d8-bc72-4357-bcba-f2e8598aabff.xml, ExtExtension, ExtExtension class [Windows Debugging], GetUnnamedArgU64 method, ExtExtension::GetUnnamedArgU64, GetUnnamedArgU64 method [Windows Debugging], GetUnnamedArgU64 method [Windows Debugging], ExtExtension class, GetUnnamedArgU64,ExtExtension.GetUnnamedArgU64, debugger.getunnamedargu64
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Engextcpp.hpp
 api_name:
 -	ExtExtension.GetUnnamedArgU64
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 ---
@@ -52,16 +53,6 @@ req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 The <b>GetUnnamedArgU64</b> method returns the value of an unnamed expression argument from the command line used to invoke the current extension command.
 
 
-## -syntax
-
-
-````
-ULONG64 GetUnnamedArgU64(
-  [in] ULONG Index
-);
-````
-
-
 ## -parameters
 
 
@@ -69,7 +60,7 @@ ULONG64 GetUnnamedArgU64(
 
 ### -param Index [in]
 
-Specifies the index of the argument.  The command-line description used in <a href="..\engextcpp\nf-engextcpp-ext_command.md">EXT_COMMAND</a> must specify that the type of this argument is string.  <i>Index</i> should be between zero and the number of unnamed arguments returned by <a href="..\engextcpp\nf-engextcpp-extextension-getnumunnamedargs.md">GetNumUnnamedArgs</a> minus one (unnamed arguments - 1).
+Specifies the index of the argument.  The command-line description used in <a href="https://msdn.microsoft.com/library/windows/hardware/ff544514">EXT_COMMAND</a> must specify that the type of this argument is string.  <i>Index</i> should be between zero and the number of unnamed arguments returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff548001">GetNumUnnamedArgs</a> minus one (unnamed arguments - 1).
 
 
 ## -returns
@@ -94,11 +85,10 @@ This method should only be called during the execution of an extension command p
 
 ## -see-also
 
-<a href="..\engextcpp\nf-engextcpp-ext_command.md">EXT_COMMAND</a>
 
 
 
-<a href="..\engextcpp\nf-engextcpp-extextension-getnumunnamedargs.md">GetNumUnnamedArgs</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544514">EXT_COMMAND</a>
 
 
 
@@ -106,8 +96,8 @@ This method should only be called during the execution of an extension command p
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548001">GetNumUnnamedArgs</a>
  
 
  
-
 

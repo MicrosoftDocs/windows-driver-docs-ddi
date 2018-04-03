@@ -38,7 +38,8 @@ api_location:
 -	Mscms.dll
 api_name:
 -	WcsGetDefaultColorProfileSize
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WCS_PROFILE_MANAGEMENT_SCOPE
 ---
@@ -50,21 +51,6 @@ req.typenames: WCS_PROFILE_MANAGEMENT_SCOPE
 
 
 The <code>WcsGetDefaultColorProfileSize</code> function returns the size, in bytes, of the default color profile name for a device, including the <b>NULL</b> terminator.
-
-
-## -syntax
-
-
-````
-BOOL WcsGetDefaultColorProfileSize(
-  _In_     WCS_PROFILE_MANAGEMENT_SCOPE profileManagementScope,
-  _In_opt_ PCWSTR                       pDeviceName,
-  _In_     COLORPROFILETYPE             cptColorProfileType,
-  _In_     COLORPROFILESUBTYPE          cpstColorProfileSubType,
-  _In_     DWORD                        dwProfileID,
-  _Out_    PDWORD                       pcbProfileName
-);
-````
 
 
 ## -parameters
@@ -84,12 +70,12 @@ A pointer to the name of the device for which the default color profile is to be
 
 ### -param cptColorProfileType [in]
 
-A <a href="..\icm\ne-icm-colorprofiletype.md">COLORPROFILETYPE</a> value that specifies the color profile type.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff546018">COLORPROFILETYPE</a> value that specifies the color profile type.
 
 
 ### -param cpstColorProfileSubType [in]
 
-A <a href="..\icm\ne-icm-colorprofilesubtype.md">COLORPROFILESUBTYPE</a> value that specifies the color profile subtype.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff546012">COLORPROFILESUBTYPE</a> value that specifies the color profile subtype.
 
 
 ### -param dwProfileID [in]
@@ -105,14 +91,14 @@ A pointer to a location that receives the size, in bytes, of the path name of th
 #### - profileManagementScope [in]
 
 
-      A <a href="..\icm\ne-icm-wcs_profile_management_scope.md">WCS_PROFILE_MANAGEMENT_SCOPE</a> value that specifies the scope of this profile management operation.
+      A <a href="https://msdn.microsoft.com/library/windows/hardware/ff563752">WCS_PROFILE_MANAGEMENT_SCOPE</a> value that specifies the scope of this profile management operation.
 
 
 ## -remarks
 
 
 
-Use this function to return the required size of the buffer pointed to by the <i>pProfileName</i> parameter in the <a href="..\icm\nf-icm-wcsgetdefaultcolorprofile.md">WcsGetDefaultColorProfile</a> function.
+Use this function to return the required size of the buffer pointed to by the <i>pProfileName</i> parameter in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563726">WcsGetDefaultColorProfile</a> function.
 
 This function is executable in Least-Privileged User Account (LUA) context.
 
@@ -121,24 +107,23 @@ This function is executable in Least-Privileged User Account (LUA) context.
 
 ## -see-also
 
-<a href="..\icm\ne-icm-colorprofilesubtype.md">COLORPROFILESUBTYPE</a>
 
 
 
-<a href="..\icm\ne-icm-colorprofiletype.md">COLORPROFILETYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546012">COLORPROFILESUBTYPE</a>
 
 
 
-<a href="..\icm\nf-icm-wcsgetdefaultcolorprofile.md">WcsGetDefaultColorProfile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546018">COLORPROFILETYPE</a>
 
 
 
-<a href="..\icm\ne-icm-wcs_profile_management_scope.md">WCS_PROFILE_MANAGEMENT_SCOPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563752">WCS_PROFILE_MANAGEMENT_SCOPE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563726">WcsGetDefaultColorProfile</a>
  
 
  
-
 

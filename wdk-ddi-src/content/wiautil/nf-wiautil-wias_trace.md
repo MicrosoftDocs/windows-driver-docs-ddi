@@ -38,7 +38,8 @@ api_location:
 -	wiamdef.h
 api_name:
 -	WIAS_TRACE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SKIP_AMOUNT
 req.product: Windows 10 or later.
@@ -51,17 +52,6 @@ req.product: Windows 10 or later.
 
 
 The WIAS_TRACE macro writes a diagnostic message to the <i>Wiatrace.log</i> file.
-
-
-## -syntax
-
-
-````
-WIAS_ERROR( WIAS_TRACE(
-         HInst  HInst,
-   const CHAR   *format_string, ...
-);
-````
 
 
 ## -parameters
@@ -113,20 +103,19 @@ This code snippet was taken from <i>Wiadriver.cpp</i>, which is included with th
 
 ## -see-also
 
-<a href="..\wiautil\nf-wiautil-wias_assert.md">WIAS_ASSERT</a>
 
 
 
-<a href="..\wiautil\nf-wiautil-wias_error.md">WIAS_ERROR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549531">WIAS_ASSERT</a>
 
 
 
-<a href="..\wiautil\nf-wiautil-wias_hresult.md">WIAS_HRESULT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549565">WIAS_ERROR</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549572">WIAS_HRESULT</a>
  
 
  
-
 

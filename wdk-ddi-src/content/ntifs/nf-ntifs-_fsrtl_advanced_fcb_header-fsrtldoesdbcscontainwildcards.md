@@ -7,7 +7,7 @@ old-location: ifsk\fsrtldoesdbcscontainwildcards.htm
 old-project: ifsk
 ms.assetid: 4a33014a-c980-4186-b7b2-68fda22fa152
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FsRtlDoesDbcsContainWildCards, FsRtlDoesDbcsContainWildCards routine [Installable File System Drivers], fsrtlref_07aa2ec1-8e37-4ffb-bd22-a3877ae8f7ee.xml, ifsk.fsrtldoesdbcscontainwildcards, ntifs/FsRtlDoesDbcsContainWildCards
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	FsRtlDoesDbcsContainWildCards
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -50,16 +51,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>FsRtlDoesDbcsContainWildCards</b> routine determines whether an ANSI or double-byte character set (DBCS) string contains wildcard characters. 
-
-
-## -syntax
-
-
-````
-BOOLEAN FsRtlDoesDbcsContainWildCards(
-  _In_ PANSI_STRING Name
-);
-````
 
 
 ## -parameters
@@ -94,12 +85,11 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540605">ANSI_STRING</a>
-
-
-
  
 
  
-
 

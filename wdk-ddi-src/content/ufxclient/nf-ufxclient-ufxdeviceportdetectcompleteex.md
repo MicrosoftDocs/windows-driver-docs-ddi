@@ -7,7 +7,7 @@ old-location: buses\ufxdeviceportdetectcompleteex.htm
 old-project: usbref
 ms.assetid: EB3A65B5-EB21-45CA-B26D-F57A28F9F2CB
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: UfxDevicePortDetectCompleteEx, UfxDevicePortDetectCompleteEx method [Buses], buses.ufxdeviceportdetectcompleteex, ufxclient/UfxDevicePortDetectCompleteEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ufxclient.h
 api_name:
 -	UfxDevicePortDetectCompleteEx
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UFX_HARDWARE_FAILURE_CONTEXT, *PUFX_HARDWARE_FAILURE_CONTEXT
 req.product: Windows 10 or later.
@@ -53,18 +54,6 @@ req.product: Windows 10 or later.
 Notifies UFX about the port type that was detected, and optionally requests an action.
 
 
-## -syntax
-
-
-````
-VOID UfxDevicePortDetectCompleteEx(
-  [in] UFXDEVICE       UfxDevice,
-  [in] USBFN_PORT_TYPE PortType,
-  [in] USBFN_ACTION    Action
-);
-````
-
-
 ## -parameters
 
 
@@ -72,17 +61,17 @@ VOID UfxDevicePortDetectCompleteEx(
 
 ### -param UfxDevice [in]
 
-A handle to a UFX device object that the driver created by calling <a href="..\ufxclient\nf-ufxclient-ufxdevicecreate.md">UfxDeviceCreate</a>.
+A handle to a UFX device object that the driver created by calling <a href="https://msdn.microsoft.com/library/windows/hardware/mt187951">UfxDeviceCreate</a>.
 
 
 ### -param PortType [in]
 
-Contains an enumeration value of type <a href="..\usbfnbase\ne-usbfnbase-_usbfn_port_type.md">USBFN_PORT_TYPE</a>.
+Contains an enumeration value of type <a href="https://msdn.microsoft.com/library/windows/hardware/mt188004">USBFN_PORT_TYPE</a>.
 
 
 ### -param Action [in]
 
-Contains an enumeration value of type <a href="..\ufxbase\ne-ufxbase-_usbfn_action.md">USBFN_ACTION</a>.
+Contains an enumeration value of type <a href="https://msdn.microsoft.com/library/windows/hardware/mt187984">USBFN_ACTION</a>.
 
 
 ## -returns
@@ -98,13 +87,13 @@ This method does not return a value.
 
 
 
-The client driver calls <b>UfxDevicePortDetectCompleteEx</b> after port detection is complete, typically from its <a href="..\ufxclient\nc-ufxclient-evt_ufx_device_port_detect.md">EVT_UFX_DEVICE_PORT_DETECT</a> callback function. On some platforms, UFX may use the reported port type to notify the battery manager of the maximum current it can draw from the USB port.
+The client driver calls <b>UfxDevicePortDetectCompleteEx</b> after port detection is complete, typically from its <a href="https://msdn.microsoft.com/library/windows/hardware/mt187855">EVT_UFX_DEVICE_PORT_DETECT</a> callback function. On some platforms, UFX may use the reported port type to notify the battery manager of the maximum current it can draw from the USB port.
 
   
 If the <i>Action</i> parameter is set to <b>UsbfnActionNoCad</b>, UFX does not notify the battery manager at all.
 
 
-If the <i>Action</i> parameter is set to <b>UsbfnActionDetectProprietaryCharger</b>, UFX requests that the client driver initiate proprietary charger detection by calling the client driver’s <a href="..\ufxclient\nc-ufxclient-evt_ufx_device_proprietary_charger_detect.md">EVT_UFX_DEVICE_DETECT_PROPRIETARY_CHARGER</a> callback function.
+If the <i>Action</i> parameter is set to <b>UsbfnActionDetectProprietaryCharger</b>, UFX requests that the client driver initiate proprietary charger detection by calling the client driver’s <a href="https://msdn.microsoft.com/library/windows/hardware/mt187850">EVT_UFX_DEVICE_DETECT_PROPRIETARY_CHARGER</a> callback function.
 
 
 The following snippet shows how a client driver calls <b>UfxDevicePortDetectCompleteEx</b>.

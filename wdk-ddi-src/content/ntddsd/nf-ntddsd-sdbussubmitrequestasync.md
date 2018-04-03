@@ -38,7 +38,8 @@ api_location:
 -	ntddsd.h
 api_name:
 -	SdBusSubmitRequestAsync
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SD_REQUEST_FUNCTION
 ---
@@ -50,20 +51,6 @@ req.typenames: SD_REQUEST_FUNCTION
 
 
 The <b>SdBusSubmitRequestAsync</b> routine sends an asynchronous Secure Digital (SD) request to the bus driver interface.
-
-
-## -syntax
-
-
-````
-NTSTATUS SdBusSubmitRequestAsync(
-  _In_ PVOID                  InterfaceContext,
-  _In_ PSDBUS_REQUEST_PACKET  Packet,
-  _In_ PIRP                   Irp,
-  _In_ PIO_COMPLETION_ROUTINE CompletionRoutine,
-  _In_ PVOID                  UserContext
-);
-````
 
 
 ## -parameters
@@ -88,7 +75,7 @@ Points to a caller-supplied IRP that the SD library uses to transmit the request
 
 ### -param CompletionRoutine [in]
 
-Pointer to a completion routine of type <a href="..\wdm\nc-wdm-io_completion_routine.md">IoCompletion</a> that <b>SdBusSubmitRequestAsync</b> registers for the IRP specified in the <i>Irp </i>parameter.
+Pointer to a completion routine of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff548354">IoCompletion</a> that <b>SdBusSubmitRequestAsync</b> registers for the IRP specified in the <i>Irp </i>parameter.
 
 
 ### -param UserContext [in]
@@ -120,11 +107,6 @@ This request is handled asynchronously and might return STATUS_PENDING.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537906">SdBusOpenInterface</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537909">SdBusSubmitRequest</a>
 
 
 
@@ -132,8 +114,12 @@ This request is handled asynchronously and might return STATUS_PENDING.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537906">SdBusOpenInterface</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537909">SdBusSubmitRequest</a>
  
 
  
-
 

@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsRemoveSpecificIrpFromCancelableQueue
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -50,17 +51,7 @@ req.typenames:
 ## -description
 
 
-The <b>KsRemoveSpecificIrpFromCancelableQueue</b> function removes the specified IRP from the specified queue. This is performed on an IRP that was previously acquired using <a href="..\ks\nf-ks-ksremoveirpfromcancelablequeue.md">KsRemoveIrpFromCancelableQueue</a>, but that was not actually removed from the queue. 
-
-
-## -syntax
-
-
-````
-VOID KsRemoveSpecificIrpFromCancelableQueue(
-  _In_ PIRP Irp
-);
-````
+The <b>KsRemoveSpecificIrpFromCancelableQueue</b> function removes the specified IRP from the specified queue. This is performed on an IRP that was previously acquired using <a href="https://msdn.microsoft.com/library/windows/hardware/ff566795">KsRemoveIrpFromCancelableQueue</a>, but that was not actually removed from the queue. 
 
 
 ## -parameters

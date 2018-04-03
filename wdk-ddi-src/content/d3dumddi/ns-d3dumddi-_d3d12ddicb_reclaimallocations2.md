@@ -7,7 +7,7 @@ old-location: display\d3d12ddicb_reclaimallocations2.htm
 old-project: display
 ms.assetid: B5ADCD5D-301C-4B02-A4B2-90A81A5FBBC9
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3D12DDICB_RECLAIMALLOCATIONS2, D3D12DDICB_RECLAIMALLOCATIONS2 structure [Display Devices], _D3D12DDICB_RECLAIMALLOCATIONS2, d3dumddi/D3D12DDICB_RECLAIMALLOCATIONS2, display.d3d12ddicb_reclaimallocations2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	D3D12DDICB_RECLAIMALLOCATIONS2
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D12DDICB_RECLAIMALLOCATIONS2
 ---
@@ -50,20 +51,6 @@ req.typenames: D3D12DDICB_RECLAIMALLOCATIONS2
 
 
 Describes video memory resources that are to be reclaimed and that the driver  previously offered  for reuse.
-
-
-## -syntax
-
-
-````
-typedef struct _D3D12DDICB_RECLAIMALLOCATIONS2 {
-  _In_ UINT                                      NumAllocations;
-  _In_reads_(NumAllocations) CONST HANDLE        *pResources;
-  _In_reads_(NumAllocations) CONST D3DKMT_HANDLE *HandleList;
-  _Out_writes_all_opt_(NumAllocations) BOOL      *pDiscarded;
-  _Out_ UINT64                                   PagingFenceValue;
-} D3D12DDICB_RECLAIMALLOCATIONS2;
-````
 
 
 ## -struct-fields

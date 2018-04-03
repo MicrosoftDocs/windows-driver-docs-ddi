@@ -7,7 +7,7 @@ old-location: ifsk\rxcreaterxcontext.htm
 old-project: ifsk
 ms.assetid: ff39aebb-03c0-4ba4-844a-417579ed2bbf
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: RxCreateRxContext, RxCreateRxContext function [Installable File System Drivers], ifsk.rxcreaterxcontext, rxcontx/RxCreateRxContext, rxref_ceb498ca-e985-4100-a104-8333abb41fdf.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	rxcontx.h
 api_name:
 -	RxCreateRxContext
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILWRITEPHONEBOOKENTRYPARAMS, *LPRILWRITEPHONEBOOKENTRYPARAMS
 req.product: Windows 10 or later.
@@ -51,18 +52,6 @@ req.product: Windows 10 or later.
 
 
 <b>RxCreateRxContext</b> allocates a new RX_CONTEXT structure and initializes the data structure. 
-
-
-## -syntax
-
-
-````
-PRX_CONTEXT RxCreateRxContext(
-  _In_opt_ PIRP                 Irp,
-  _In_     PRDBSS_DEVICE_OBJECT RxDeviceObject,
-  _In_     ULONG                InitialContextFlags
-);
-````
 
 
 ## -parameters
@@ -118,7 +107,7 @@ When this value is set, the operation must succeed for non-blocking operations. 
 
 
 
-<b>RxCreateRxContext</b> calls <a href="..\rxcontx\nf-rxcontx-rxinitializecontext.md">RxInitializeContext</a> to initialize the newly created RX_CONTEXT structure before returning. 
+<b>RxCreateRxContext</b> calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff554502">RxInitializeContext</a> to initialize the newly created RX_CONTEXT structure before returning. 
 
 <b>RxCreateRxContext</b> allocates non-paged pool memory when creating a new RX_CONTEXT data structure and sets the following value in the Flags member of the RX_CONTEXT:
 
@@ -131,48 +120,47 @@ When this value is set, the RX_CONTEXT structure was allocated from non-paged po
 
 ## -see-also
 
-<a href="..\rxcontx\nf-rxcontx-rxpreparecontextforreuse.md">RxPrepareContextForReuse</a>
 
 
 
-<a href="..\rxcontx\nf-rxcontx-rxdereferenceanddeleterxcontext_real.md">RxDereferenceAndDeleteRxContext_Real</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554751">RX_CONTEXT</a>
 
 
 
-<a href="..\rxcontx\nf-rxcontx-__rxsynchronizeblockingoperations.md">__RxSynchronizeBlockingOperations</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554340">RxCompleteRequest</a>
 
 
 
-<a href="..\rxcontx\nf-rxcontx-rxinitializecontext.md">RxInitializeContext</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554348">RxCompleteRequest_Real</a>
 
 
 
-<a href="..\rxprocs\nf-rxprocs-rxcompleterequest_real.md">RxCompleteRequest_Real</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554388">RxDereference</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554393">RxDereferenceAndDeleteRxContext_Real</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554502">RxInitializeContext</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554643">RxPrepareContextForReuse</a>
+
+
+
+<a href="https://msdn.microsoft.com/8418ed17-39f0-4a3b-9eb5-453c7cc2ae98">RxResumeBlockedOperations_Serially</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557377">__RxSynchronizeBlockingOperations</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557382">__RxSynchronizeBlockingOperationsMaybeDroppingFcbLock</a>
-
-
-
-<a href="..\rxprocs\nf-rxprocs-rxcompleterequest.md">RxCompleteRequest</a>
-
-
-
-<a href="..\rxcontx\ns-rxcontx-_rx_context.md">RX_CONTEXT</a>
-
-
-
-<a href="..\rxcontx\nf-rxcontx-rxresumeblockedoperations_serially.md">RxResumeBlockedOperations_Serially</a>
-
-
-
-<a href="..\rxprocs\nf-rxprocs-rxdereference.md">RxDereference</a>
-
-
-
  
 
  
-
 

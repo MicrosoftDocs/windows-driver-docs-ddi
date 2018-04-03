@@ -38,7 +38,8 @@ api_location:
 -	wiautil.h
 api_name:
 -	wiauDbgSetFlags
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SKIP_AMOUNT
 req.product: Windows 10 or later.
@@ -51,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>wiauDbgSetFlags</b> function sets debugging flags.
-
-
-## -syntax
-
-
-````
-inline DWORD __stdcall wiauDbgSetFlags(
-   DWORD flags
-);
-````
 
 
 ## -parameters
@@ -202,12 +193,11 @@ Log warning messages.
 
 ## -see-also
 
-<a href="..\wiautil\nf-wiautil-wiaudbgflags.md">wiauDbgFlags</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549643">wiauDbgFlags</a>
  
 
  
-
 

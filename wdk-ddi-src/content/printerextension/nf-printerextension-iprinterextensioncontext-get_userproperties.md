@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	IPrinterExtensionContext.UserProperties
 -	IPrinterExtensionContext.get_UserProperties
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PrintSchemaSelectionType
 req.product: Windows 10 or later.
@@ -56,31 +57,20 @@ Gets the user property bag for this app.
 This property is read-only.
 
 
-## -syntax
-
-
-````
-HRESULT get_UserProperties(
-  [out, retval] IPrinterPropertyBag **ppPropertyBag
-);
-````
-
-
 ## -parameters
 
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprinterextensioncontext.md">IPrinterExtensionContext</a>
 
 
 
-<a href="..\printerextension\nn-printerextension-iprinterpropertybag.md">IPrinterPropertyBag</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406649">IPrinterExtensionContext</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439547">IPrinterPropertyBag</a>
  
 
  
-
 

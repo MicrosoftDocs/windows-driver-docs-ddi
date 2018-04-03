@@ -38,7 +38,8 @@ api_location:
 -	poscx.h
 api_name:
 -	PosCxClose
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: POS_CX_EVENT_PRIORITY
 req.product: Windows 10 or later.
@@ -54,18 +55,7 @@ req.product: Windows 10 or later.
 
       and cancels pending requests. It should be called from 
 
-      the driver's <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_file_close.md">EVT_WDF_FILE_CLOSE</a> callback.
-
-
-## -syntax
-
-
-````
-NTSTATUS PosCxClose(
-  _In_ WDFDEVICE     device,
-  _In_ WDFFILEOBJECT fileObject
-);
-````
+      the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff541702">EVT_WDF_FILE_CLOSE</a> callback.
 
 
 ## -parameters

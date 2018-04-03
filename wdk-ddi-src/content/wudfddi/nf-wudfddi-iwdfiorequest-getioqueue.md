@@ -38,7 +38,8 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFIoRequest.GetIoQueue
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
@@ -55,16 +56,6 @@ req.product: Windows 10 or later.
 The <b>GetIoQueue</b> method retrieves the I/O queue object that is associated with an I/O request.
 
 
-## -syntax
-
-
-````
-void GetIoQueue(
-  [out] IWDFIoQueue **ppWdfIoQueue
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +63,7 @@ void GetIoQueue(
 
 ### -param ppWdfIoQueue [out]
 
-A pointer to a variable that receives a pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a> interface for the I/O queue object that the I/O request is associated with.
+A pointer to a variable that receives a pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558943">IWDFIoQueue</a> interface for the I/O queue object that the I/O request is associated with.
 
 
 ## -returns
@@ -86,16 +77,15 @@ None
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558943">IWDFIoQueue</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558985">IWDFIoRequest</a>
  
 
  
-
 

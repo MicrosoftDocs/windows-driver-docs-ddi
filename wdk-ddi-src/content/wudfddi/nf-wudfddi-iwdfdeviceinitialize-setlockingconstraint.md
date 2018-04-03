@@ -38,7 +38,8 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFDeviceInitialize.SetLockingConstraint
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
@@ -55,16 +56,6 @@ req.product: Windows 10 or later.
 The <b>SetLockingConstraint</b> method sets the synchronization (or locking) model for callback functions into the driver.
 
 
-## -syntax
-
-
-````
-void SetLockingConstraint(
-  [in] WDF_CALLBACK_CONSTRAINT LockType
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +63,7 @@ void SetLockingConstraint(
 
 ### -param LockType [in]
 
-A value of type <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_callback_constraint.md">WDF_CALLBACK_CONSTRAINT</a> that identifies the locking model.
+A value of type <a href="https://msdn.microsoft.com/118a9dcc-8dd4-454a-bab2-1558821781a7">WDF_CALLBACK_CONSTRAINT</a> that identifies the locking model.
 
 
 ## -returns
@@ -101,16 +92,15 @@ For a code example of how to use the <b>SetLockingConstraint</b> method, see <a 
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdeviceinitialize.md">IWDFDeviceInitialize</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556965">IWDFDeviceInitialize</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>
-
-
-
  
 
  
-
 

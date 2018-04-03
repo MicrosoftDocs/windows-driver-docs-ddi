@@ -7,7 +7,7 @@ old-location: netvista\ndis_wwan_service_activation_status.htm
 old-project: netvista
 ms.assetid: 669ef35f-0e59-4ec3-b6cc-5cb2156b51a2
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PNDIS_WWAN_SERVICE_ACTIVATION_STATUS, NDIS_WWAN_SERVICE_ACTIVATION_STATUS, NDIS_WWAN_SERVICE_ACTIVATION_STATUS structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SERVICE_ACTIVATION_STATUS, PNDIS_WWAN_SERVICE_ACTIVATION_STATUS structure pointer [Network Drivers Starting with Windows Vista], WwanRef_a1bda142-c89f-4323-a114-0c44948f61b5.xml, _NDIS_WWAN_SERVICE_ACTIVATION_STATUS, ndiswwan/NDIS_WWAN_SERVICE_ACTIVATION_STATUS, ndiswwan/PNDIS_WWAN_SERVICE_ACTIVATION_STATUS, netvista.ndis_wwan_service_activation_status"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ndiswwan.h
 api_name:
 -	NDIS_WWAN_SERVICE_ACTIVATION_STATUS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_WWAN_SERVICE_ACTIVATION_STATUS, *PNDIS_WWAN_SERVICE_ACTIVATION_STATUS
 ---
@@ -51,18 +52,6 @@ req.typenames: NDIS_WWAN_SERVICE_ACTIVATION_STATUS, *PNDIS_WWAN_SERVICE_ACTIVATI
 
 The NDIS_WWAN_SERVICE_ACTIVATION_STATUS structure represents the status of service activation on the
   MB device.
-
-
-## -syntax
-
-
-````
-typedef struct _NDIS_WWAN_SERVICE_ACTIVATION_STATUS {
-  NDIS_OBJECT_HEADER             Header;
-  WWAN_STATUS                    uStatus;
-  WWAN_SERVICE_ACTIVATION_STATUS ServiceActivationStatus;
-} NDIS_WWAN_SERVICE_ACTIVATION_STATUS, *PNDIS_WWAN_SERVICE_ACTIVATION_STATUS;
-````
 
 
 ## -struct-fields
@@ -118,7 +107,7 @@ sizeof(NDIS_WWAN_SERVICE_ACTIVATION_STATUS)
  
 
 For more information about these members, see 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field uStatus
@@ -241,24 +230,23 @@ The operation failed because the device is in the process of initializing. Retry
 ### -field ServiceActivationStatus
 
 A formatted 
-     <a href="..\wwan\ns-wwan-_wwan_service_activation_status.md">
+     <a href="https://msdn.microsoft.com/1bd81e55-6438-4bff-ab50-3de3457d2e99">
      WWAN_SERVICE_ACTIVATION_STATUS</a> object that represents the status of service activation on the
      device.
 
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_service_activation_status.md">
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="https://msdn.microsoft.com/1bd81e55-6438-4bff-ab50-3de3457d2e99">
    WWAN_SERVICE_ACTIVATION_STATUS</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
  
 
  
-
 

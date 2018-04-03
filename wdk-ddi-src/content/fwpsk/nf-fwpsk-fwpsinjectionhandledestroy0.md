@@ -7,7 +7,7 @@ old-location: netvista\fwpsinjectionhandledestroy0.htm
 old-project: netvista
 ms.assetid: 5a00917b-36e8-4e06-a001-d8e6ac2e3573
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: FwpsInjectionHandleDestroy0, FwpsInjectionHandleDestroy0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsInjectionHandleDestroy0, netvista.fwpsinjectionhandledestroy0, wfp_ref_2_funct_3_fwps_I_3ec9dea7-1b95-4265-b030-b88f67d21882.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	fwpkclnt.dll
 api_name:
 -	FwpsInjectionHandleDestroy0
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FWPS_VSWITCH_EVENT_TYPE
 ---
@@ -53,18 +54,8 @@ req.typenames: FWPS_VSWITCH_EVENT_TYPE
 The 
   <b>FwpsInjectionHandleDestroy0</b> function destroys an injection handle that was previously created by
   calling the 
-  <a href="..\fwpsk\nf-fwpsk-fwpsinjectionhandlecreate0.md">FwpsInjectionHandleCreate0</a> function.
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff551180">FwpsInjectionHandleCreate0</a> function.
 <div class="alert"><b>Note</b>  <b>FwpsInjectionHandleDestroy0</b> is a specific version of <b>FwpsInjectionHandleDestroy</b>. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
-
-## -syntax
-
-
-````
-NTSTATUS FwpsInjectionHandleDestroy0(
-  _In_ HANDLE injectionHandle
-);
-````
-
 
 ## -parameters
 
@@ -123,7 +114,7 @@ An error occurred.
 A callout driver calls the 
     <b>FwpsInjectionHandleDestroy0</b> function to destroy an injection handle that was previously created by
     calling the 
-    <a href="..\fwpsk\nf-fwpsk-fwpsinjectionhandlecreate0.md">
+    <a href="https://msdn.microsoft.com/61cee8ef-1070-46d4-a541-94a9f09b593b">
     FwpsInjectionHandleCreate0</a> function. The 
     <b>FwpsInjectionHandleDestroy0</b> function will not return to the caller until all pending injections are
     completed.
@@ -133,12 +124,11 @@ A callout driver calls the
 
 ## -see-also
 
-<a href="..\fwpsk\nf-fwpsk-fwpsinjectionhandlecreate0.md">FwpsInjectionHandleCreate0</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551180">FwpsInjectionHandleCreate0</a>
  
 
  
-
 

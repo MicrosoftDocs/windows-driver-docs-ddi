@@ -7,7 +7,7 @@ old-location: storage\ufs_attributes_descriptor.htm
 old-project: storage
 ms.assetid: 695D8FE9-FADB-488F-A5F7-7715EAD48DD6
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: UFS_ATTRIBUTES_DESCRIPTOR, UFS_ATTRIBUTES_DESCRIPTOR enumeration [Storage Devices], UFS_Obsolete, UFS_Reserved01, UFS_Reserved02, UFS_Reserved03, UFS_bActiveICCLevel, UFS_bBackgroundOpStatus, UFS_bBootLunEn, UFS_bConfigDescrLock, UFS_bCurrentPowerMode, UFS_bDeviceFFUStatus, UFS_bMaxDataInSize, UFS_bMaxDataOutSize, UFS_bMaxNumOfRTT, UFS_bOutOfOrderDataEn, UFS_bPSAState, UFS_bPurgeStatus, UFS_bRefClkFreq, UFS_dDynCapNeeded, UFS_dPSADataSize, UFS_dSecondsPassed, UFS_wContextConf, UFS_wExceptionEventControl, UFS_wExceptionEventStatus, storage.ufs_attributes_descriptor, ufs/UFS_ATTRIBUTES_DESCRIPTOR, ufs/UFS_Obsolete, ufs/UFS_Reserved01, ufs/UFS_Reserved02, ufs/UFS_Reserved03, ufs/UFS_bActiveICCLevel, ufs/UFS_bBackgroundOpStatus, ufs/UFS_bBootLunEn, ufs/UFS_bConfigDescrLock, ufs/UFS_bCurrentPowerMode, ufs/UFS_bDeviceFFUStatus, ufs/UFS_bMaxDataInSize, ufs/UFS_bMaxDataOutSize, ufs/UFS_bMaxNumOfRTT, ufs/UFS_bOutOfOrderDataEn, ufs/UFS_bPSAState, ufs/UFS_bPurgeStatus, ufs/UFS_bRefClkFreq, ufs/UFS_dDynCapNeeded, ufs/UFS_dPSADataSize, ufs/UFS_dSecondsPassed, ufs/UFS_wContextConf, ufs/UFS_wExceptionEventControl, ufs/UFS_wExceptionEventStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ufs.h
 api_name:
 -	UFS_ATTRIBUTES_DESCRIPTOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UFS_ATTRIBUTES_DESCRIPTOR
 req.product: Windows 10 or later.
@@ -51,38 +52,6 @@ req.product: Windows 10 or later.
 
 
 <b>UFS_ATTRIBUTES_DESCRIPTOR</b> describes the different types of attributes used by Universal Flash Storage (UFS) descriptors.
-
-
-## -syntax
-
-
-````
-typedef enum _UFS_ATTRIBUTES_DESCRIPTOR { 
-  UFS_bBootLunEn              = 0,
-  UFS_Reserved01,
-  UFS_bCurrentPowerMode,
-  UFS_bActiveICCLevel,
-  UFS_bOutOfOrderDataEn,
-  UFS_bBackgroundOpStatus,
-  UFS_bPurgeStatus,
-  UFS_bMaxDataInSize,
-  UFS_bMaxDataOutSize,
-  UFS_dDynCapNeeded,
-  UFS_bRefClkFreq,
-  UFS_bConfigDescrLock,
-  UFS_bMaxNumOfRTT,
-  UFS_wExceptionEventControl,
-  UFS_wExceptionEventStatus,
-  UFS_dSecondsPassed,
-  UFS_wContextConf,
-  UFS_Obsolete,
-  UFS_Reserved02,
-  UFS_Reserved03,
-  UFS_bDeviceFFUStatus,
-  UFS_bPSAState,
-  UFS_dPSADataSize
-} UFS_ATTRIBUTES_DESCRIPTOR;
-````
 
 
 ## -enum-fields
@@ -423,48 +392,47 @@ microcode activation event occurs.
 
 ## -see-also
 
-<a href="..\ufs\ns-ufs-ufs_interconnect_descriptor.md">UFS_INTERCONNECT_DESCRIPTOR</a>
 
 
 
-<a href="..\ufs\ns-ufs-ufs_device_descriptor.md">UFS_DEVICE_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/B65A2268-6959-4630-97DA-C0CFD37D9174">UFS_CONFIG_DESCRIPTOR</a>
 
 
 
-<a href="..\ufs\ns-ufs-ufs_unit_descriptor.md">UFS_UNIT_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/CD1F59DA-3D84-422B-A862-8F4C5E1AA515">UFS_DEVICE_DESCRIPTOR</a>
 
 
 
-<a href="..\ufs\ns-ufs-ufs_config_descriptor.md">UFS_CONFIG_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/6B085DBB-2AAA-4170-A2B1-EA4D2C207A24">UFS_DEVICE_HEALTH_DESCRIPTOR</a>
 
 
 
-<a href="..\ufs\ns-ufs-ufs_device_health_descriptor.md">UFS_DEVICE_HEALTH_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/DD3AEB66-E36B-4F18-AFEC-D344132D4B8C">UFS_GEOMETRY_DESCRIPTOR</a>
 
 
 
-<a href="..\ufs\ns-ufs-ufs_unit_config_descriptor.md">UFS_UNIT_CONFIG_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/6C6EAA96-40E9-467F-903B-AE44CE5B77CF">UFS_INTERCONNECT_DESCRIPTOR</a>
 
 
 
-<a href="..\ufs\ns-ufs-ufs_power_descriptor.md">UFS_POWER_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/FCF9DCD1-2C04-47E3-97C5-7ACC28B28C6C">UFS_POWER_DESCRIPTOR</a>
 
 
 
-<a href="..\ufs\ns-ufs-ufs_rpmb_unit_descriptor.md">UFS_RPMB_UNIT_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/19A066BD-1099-475C-BF81-F1BE7C7778E5">UFS_RPMB_UNIT_DESCRIPTOR</a>
 
 
 
-<a href="..\ufs\ns-ufs-ufs_geometry_descriptor.md">UFS_GEOMETRY_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/1F32DA95-6801-4C48-B3C4-A47C3E1C678B">UFS_STRING_DESCRIPTOR</a>
 
 
 
-<a href="..\ufs\ns-ufs-_ufs_string_descriptor.md">UFS_STRING_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/09CBAD0A-CBDC-464E-908C-BF142D515969">UFS_UNIT_CONFIG_DESCRIPTOR</a>
 
 
 
+<a href="https://msdn.microsoft.com/5D76C266-875A-40AC-9B26-F17978971783">UFS_UNIT_DESCRIPTOR</a>
  
 
  
-
 

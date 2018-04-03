@@ -7,7 +7,7 @@ old-location: display\iddcxmonitorcreate.htm
 old-project: display
 ms.assetid: 2e089827-dd50-43cb-9e1a-34c439780831
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IddCxMonitorCreate, IddCxMonitorCreate method [Display Devices], display.iddcxmonitorcreate, iddcx/IddCxMonitorCreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	iddcx.h
 api_name:
 -	IddCxMonitorCreate
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -52,18 +53,6 @@ req.typenames:
 An OS callback function the driver calls to create a monitor object that can later be used for arrival.
 
                 
-
-
-## -syntax
-
-
-````
-NTSTATUS IddCxMonitorCreate(
-  _In_        IDDCX_ADAPTER            AdapterObject,
-  _In_  const IDARG_IN_MONITORCREATE*  pInArgs,
-  _Out_       IDARG_OUT_MONITORCREATE* pOutArgs
-);
-````
 
 
 ## -parameters

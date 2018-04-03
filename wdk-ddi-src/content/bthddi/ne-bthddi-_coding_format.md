@@ -38,7 +38,8 @@ api_location:
 -	bthddi.h
 api_name:
 -	CODING_FORMAT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CODING_FORMAT, *PCODING_FORMAT
 ---
@@ -50,16 +51,6 @@ req.typenames: CODING_FORMAT, *PCODING_FORMAT
 
 
 This enumeration is for internal use only.
-
-
-## -syntax
-
-
-````
-typedef enum _CODING_FORMAT { 
-    = 
-} CODING_FORMAT, *PCODING_FORMAT;
-````
 
 
 ## -enum-fields

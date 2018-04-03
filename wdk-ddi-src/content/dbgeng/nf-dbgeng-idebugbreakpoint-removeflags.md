@@ -7,7 +7,7 @@ old-location: debugger\removeflags.htm
 old-project: debugger
 ms.assetid: 60538544-6baf-4d23-a65f-5c5e82bd6f11
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: ComOther_15793582-5533-4f63-8278-9556b160e6d2.xml, IDebugBreakpoint, IDebugBreakpoint interface [Windows Debugging], RemoveFlags method, IDebugBreakpoint2 interface [Windows Debugging], RemoveFlags method, IDebugBreakpoint2::RemoveFlags, IDebugBreakpoint::RemoveFlags, RemoveFlags method [Windows Debugging], RemoveFlags method [Windows Debugging], IDebugBreakpoint interface, RemoveFlags method [Windows Debugging], IDebugBreakpoint2 interface, RemoveFlags,IDebugBreakpoint.RemoveFlags, dbgeng/IDebugBreakpoint2::RemoveFlags, dbgeng/IDebugBreakpoint::RemoveFlags, debugger.removeflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	IDebugBreakpoint.RemoveFlags
 -	IDebugBreakpoint2.RemoveFlags
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -51,16 +52,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>RemoveFlags</b> method removes flags from a breakpoint.
-
-
-## -syntax
-
-
-````
-HRESULT RemoveFlags(
-  [in] ULONG Flags
-);
-````
 
 
 ## -parameters

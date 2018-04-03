@@ -38,7 +38,8 @@ api_location:
 -	Prdrvcom.h
 api_name:
 -	SHIMOPTS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SHIMOPTS, *PSHIMOPTS
 req.product: Windows 10 or later.
@@ -51,17 +52,6 @@ req.product: Windows 10 or later.
 
 
 
-
-
-## -syntax
-
-
-````
-typedef enum tagSHIMOPTS { 
-  PTSHIM_DEFAULT     = 0,
-  PTSHIM_NOSNAPSHOT  = 0x1
-} SHIMOPTS, *PSHIMOPTS;
-````
 
 
 ## -enum-fields

@@ -7,7 +7,7 @@ old-location: netvista\ndis_timer_characteristics.htm
 old-project: netvista
 ms.assetid: 9a62e94c-f635-4ab7-b439-b98c60ba2854
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PNDIS_TIMER_CHARACTERISTICS, NDIS_TIMER_CHARACTERISTICS, NDIS_TIMER_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], PNDIS_TIMER_CHARACTERISTICS, PNDIS_TIMER_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_TIMER_CHARACTERISTICS, ndis/NDIS_TIMER_CHARACTERISTICS, ndis/PNDIS_TIMER_CHARACTERISTICS, ndis_timer_ref_af673f64-aa72-4767-81a0-5df465a52c81.xml, netvista.ndis_timer_characteristics"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ndis.h
 api_name:
 -	NDIS_TIMER_CHARACTERISTICS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_TIMER_CHARACTERISTICS, *PNDIS_TIMER_CHARACTERISTICS
 ---
@@ -53,19 +54,6 @@ The NDIS_TIMER_CHARACTERISTICS structure defines characteristics of a one-shot o
   timer.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_TIMER_CHARACTERISTICS {
-  NDIS_OBJECT_HEADER   Header;
-  ULONG                AllocationTag;
-  PNDIS_TIMER_FUNCTION TimerFunction;
-  PVOID                FunctionContext;
-} NDIS_TIMER_CHARACTERISTICS, *PNDIS_TIMER_CHARACTERISTICS;
-````
-
-
 ## -struct-fields
 
 
@@ -74,7 +62,7 @@ typedef struct _NDIS_TIMER_CHARACTERISTICS {
 ### -field Header
 
 The 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure for the
      NDIS_TIMER_CHARACTERISTICS structure. Set the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to NDIS_OBJECT_TYPE_TIMER_CHARACTERISTICS, the 
@@ -92,7 +80,7 @@ A string that is delimited by single quotation marks and contains up to four cha
 ### -field TimerFunction
 
 A pointer to an entry point for a 
-     <a href="..\ndis\nc-ndis-ndis_timer_function.md">NetTimerCallback</a> function. NDIS calls
+     <a href="https://msdn.microsoft.com/76e59376-58a4-4e35-bac4-ec5938c88cd7">NetTimerCallback</a> function. NDIS calls
      this function when a timer fires.
 
 
@@ -107,33 +95,32 @@ A pointer to a driver-allocated context area. NDIS passes this pointer to the
 
 
 To allocate and initialize a timer object, NDIS drivers call the 
-    <a href="..\ndis\nf-ndis-ndisallocatetimerobject.md">NdisAllocateTimerObject</a> function
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561618">NdisAllocateTimerObject</a> function
     and provide an NDIS_TIMER_CHARACTERISTICS structure. The timer does not start until the driver calls the 
-    <a href="..\ndis\nf-ndis-ndissettimerobject.md">NdisSetTimerObject</a> function.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff564563">NdisSetTimerObject</a> function.
 
 
 
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisallocatetimerobject.md">NdisAllocateTimerObject</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndissettimerobject.md">NdisSetTimerObject</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561618">NdisAllocateTimerObject</a>
 
 
 
-<a href="..\ndis\nc-ndis-ndis_timer_function.md">NetTimerCallback</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564563">NdisSetTimerObject</a>
 
 
 
+<a href="https://msdn.microsoft.com/76e59376-58a4-4e35-bac4-ec5938c88cd7">NetTimerCallback</a>
  
 
  
-
 

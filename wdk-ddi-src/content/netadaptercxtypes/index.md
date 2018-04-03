@@ -2,14 +2,19 @@
 UID: NA:netadaptercxtypes
 ms.assetid: 4b4f1110-fd98-3433-b533-f460e5c4a0ec
 ms.author: windowsdriverdev
-ms.date: 03/13/18
+ms.date: 04/03/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 ---
 
+# Netadaptercxtypes.h header
+
+
 ## -description
 
-This header is used by NetAdapterCx client drivers. For more information, see
-- [Network Adapter WDF Class Extension (Cx)](https://docs.microsoft.com/windows-hardware/drivers/netcx/)
+
+This header is used by netvista. For more information, see:
+
+- [Networking drivers for Windows Vista and later](../_netvista/index.md)

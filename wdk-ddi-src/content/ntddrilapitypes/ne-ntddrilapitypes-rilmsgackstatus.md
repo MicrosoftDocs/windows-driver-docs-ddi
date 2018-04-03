@@ -7,7 +7,7 @@ old-location: netvista\rilmsgackstatus.htm
 old-project: netvista
 ms.assetid: 551193d0-596c-40bf-9a31-f8b6eb330e25
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: RILMSGACKSTATUS, RILMSGACKSTATUS enumeration [Network Drivers Starting with Windows Vista], RIL_MSGACKSTATUS_ERROR, RIL_MSGACKSTATUS_FAIL_MEM_FULL, RIL_MSGACKSTATUS_MAX, netvista.rilmsgackstatus, ntddrilapitypes/RILMSGACKSTATUS, ntddrilapitypes/RIL_MSGACKSTATUS_ERROR, ntddrilapitypes/RIL_MSGACKSTATUS_FAIL_MEM_FULL, ntddrilapitypes/RIL_MSGACKSTATUS_MAX
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILMSGACKSTATUS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILMSGACKSTATUS
 ---
@@ -50,18 +51,6 @@ req.typenames: RILMSGACKSTATUS
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef enum _RILMSGACKSTATUS { 
-  RIL_MSGACKSTATUS_FAIL_MEM_FULL,
-  RIL_MSGACKSTATUS_ERROR,
-  RIL_MSGACKSTATUS_MAX
-} RILMSGACKSTATUS;
-````
 
 
 ## -enum-fields

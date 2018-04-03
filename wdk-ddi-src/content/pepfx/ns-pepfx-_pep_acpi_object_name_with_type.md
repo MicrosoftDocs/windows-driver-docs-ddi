@@ -7,7 +7,7 @@ old-location: kernel\pep_acpi_object_name_with_type.htm
 old-project: kernel
 ms.assetid: 7DD01461-4890-4095-A55C-771EA0EEA642
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*PPEP_ACPI_OBJECT_NAME_WITH_TYPE, PEP_ACPI_OBJECT_NAME_WITH_TYPE, PEP_ACPI_OBJECT_NAME_WITH_TYPE structure [Kernel-Mode Driver Architecture], PPEP_ACPI_OBJECT_NAME_WITH_TYPE, PPEP_ACPI_OBJECT_NAME_WITH_TYPE structure pointer [Kernel-Mode Driver Architecture], _PEP_ACPI_OBJECT_NAME_WITH_TYPE, kernel.pep_acpi_object_name_with_type, pepfx/PEP_ACPI_OBJECT_NAME_WITH_TYPE, pepfx/PPEP_ACPI_OBJECT_NAME_WITH_TYPE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	pepfx.h
 api_name:
 -	PEP_ACPI_OBJECT_NAME_WITH_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PEP_ACPI_OBJECT_NAME_WITH_TYPE, *PPEP_ACPI_OBJECT_NAME_WITH_TYPE
 ---
@@ -52,17 +53,6 @@ req.typenames: PEP_ACPI_OBJECT_NAME_WITH_TYPE, *PPEP_ACPI_OBJECT_NAME_WITH_TYPE
 The <b>PEP_ACPI_OBJECT_NAME_WITH_TYPE</b> structure that specifies both the path-relative name of an ACPI object and the type of this object.
 
 
-## -syntax
-
-
-````
-typedef struct _PEP_ACPI_OBJECT_NAME_WITH_TYPE {
-  PEP_ACPI_OBJECT_NAME Name;
-  PEP_ACPI_OBJECT_TYPE Type;
-} PEP_ACPI_OBJECT_NAME_WITH_TYPE, *PPEP_ACPI_OBJECT_NAME_WITH_TYPE;
-````
-
-
 ## -struct-fields
 
 
@@ -70,39 +60,38 @@ typedef struct _PEP_ACPI_OBJECT_NAME_WITH_TYPE {
 
 ### -field Name
 
-A <a href="..\pepfx\ns-pepfx-_pep_acpi_object_name.md">PEP_ACPI_OBJECT_NAME</a> structure that contains the four-character name of the ACPI object.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/mt629110">PEP_ACPI_OBJECT_NAME</a> structure that contains the four-character name of the ACPI object.
 
 
 ### -field Type
 
-A <a href="..\pepfx\ne-pepfx-_pep_acpi_object_type.md">PEP_ACPI_OBJECT_TYPE</a> enumeration value that indicates the type of ACPI object. Currently, the only supported object type is a control method.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/mt186685">PEP_ACPI_OBJECT_TYPE</a> enumeration value that indicates the type of ACPI object. Currently, the only supported object type is a control method.
 
 
 ## -remarks
 
 
 
-The <b>Objects</b> member of the <a href="..\pepfx\ns-pepfx-_pep_acpi_enumerate_device_namespace.md">PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE</a> structure is the first element in an array of <b>PEP_ACPI_OBJECT_NAME_WITH_TYPE</b> structures.
+The <b>Objects</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186658">PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE</a> structure is the first element in an array of <b>PEP_ACPI_OBJECT_NAME_WITH_TYPE</b> structures.
 
 
 
 
 ## -see-also
 
-<a href="..\pepfx\ns-pepfx-_pep_acpi_enumerate_device_namespace.md">PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE</a>
 
 
 
-<a href="..\pepfx\ne-pepfx-_pep_acpi_object_type.md">PEP_ACPI_OBJECT_TYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186658">PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE</a>
 
 
 
-<a href="..\pepfx\ns-pepfx-_pep_acpi_object_name.md">PEP_ACPI_OBJECT_NAME</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt629110">PEP_ACPI_OBJECT_NAME</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186685">PEP_ACPI_OBJECT_TYPE</a>
  
 
  
-
 

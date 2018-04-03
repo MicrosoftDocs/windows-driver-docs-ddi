@@ -7,7 +7,7 @@ old-location: display\d3dddiarg_drawindexedprimitive.htm
 old-project: display
 ms.assetid: 3f8cc918-9819-4c32-93f3-dbc2c1023016
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDIARG_DRAWINDEXEDPRIMITIVE, D3DDDIARG_DRAWINDEXEDPRIMITIVE structure [Display Devices], UMDisplayDriver_param_Structs_241177c0-f301-4b49-93cb-5c75ca8cb30a.xml, _D3DDDIARG_DRAWINDEXEDPRIMITIVE, d3dumddi/D3DDDIARG_DRAWINDEXEDPRIMITIVE, display.d3dddiarg_drawindexedprimitive
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	D3DDDIARG_DRAWINDEXEDPRIMITIVE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDIARG_DRAWINDEXEDPRIMITIVE
 ---
@@ -50,21 +51,6 @@ req.typenames: D3DDDIARG_DRAWINDEXEDPRIMITIVE
 
 
 The D3DDDIARG_DRAWINDEXEDPRIMITIVE structure describes an indexed primitive to draw.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_DRAWINDEXEDPRIMITIVE {
-  D3DPRIMITIVETYPE PrimitiveType;
-  INT              BaseVertexIndex;
-  UINT             MinIndex;
-  UINT             NumVertices;
-  UINT             StartIndex;
-  UINT             PrimitiveCount;
-} D3DDDIARG_DRAWINDEXEDPRIMITIVE;
-````
 
 
 ## -struct-fields
@@ -106,19 +92,18 @@ typedef struct _D3DDDIARG_DRAWINDEXEDPRIMITIVE {
 
 
 
-The Microsoft Direct3D runtime does not transform the index data before passing a pointer to the description of the index data in the <i>pData</i> parameter in a call to the user-mode display driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_drawindexedprimitive.md">DrawIndexedPrimitive</a> function. 
+The Microsoft Direct3D runtime does not transform the index data before passing a pointer to the description of the index data in the <i>pData</i> parameter in a call to the user-mode display driver's <a href="https://msdn.microsoft.com/12bb6274-d042-43bb-b9f5-1417f42da729">DrawIndexedPrimitive</a> function. 
 
 
 
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_drawindexedprimitive.md">DrawIndexedPrimitive</a>
 
 
 
+<a href="https://msdn.microsoft.com/12bb6274-d042-43bb-b9f5-1417f42da729">DrawIndexedPrimitive</a>
  
 
  
-
 

@@ -38,7 +38,8 @@ api_location:
 -	sdplib.h
 api_name:
 -	SdpAppendNodeToContainerNode
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SDCMD_DESCRIPTOR, *PSDCMD_DESCRIPTOR
 req.product: Windows 10 or later.
@@ -53,17 +54,6 @@ req.product: Windows 10 or later.
 The Bluetooth 
   <b>SdpAppendNodeToContainerNode</b> function is used to attach an SDP node to a sequence or alternative SDP
   node.
-
-
-## -syntax
-
-
-````
-NTSTATUS SdpAppendNodeToContainerNode(
-  _In_ PSDP_NODE Parent,
-  _In_ PSDP_NODE Child
-);
-````
 
 
 ## -parameters
@@ -104,37 +94,36 @@ Possible return values include:
 
 Use the 
     <b>SdpAppendNodeToContainerNode</b> function to insert any type of 
-    <a href="..\sdpnode\ns-sdpnode-_sdp_node.md">SDP_NODE</a> into a sequence or alternative node,
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff536848">SDP_NODE</a> into a sequence or alternative node,
     including other sequences.
 
 Do not use this function to attach attribute nodes to the top level of an SDP record. Call the 
-    <a href="..\sdplib\nf-sdplib-sdpaddattributetotree.md">SdpAddAttributeToTree</a> function to
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff536784">SdpAddAttributeToTree</a> function to
     perform that action. For more information about the tree structure, see 
     <a href="https://msdn.microsoft.com/762cf68b-0082-4b9e-8f24-ff19ecf6f8bd">Converting SDP Records to a
     Tree Structure</a>.
 
 Bluetooth profile drivers can obtain a pointer to this function through the 
-    <a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_node_interface.md">BTHDDI_SDP_NODE_INTERFACE</a>.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff536635">BTHDDI_SDP_NODE_INTERFACE</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\sdplib\nf-sdplib-sdpaddattributetotree.md">SdpAddAttributeToTree</a>
 
 
 
-<a href="..\sdpnode\ns-sdpnode-_sdp_node.md">SDP_NODE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536635">BTHDDI_SDP_NODE_INTERFACE</a>
 
 
 
-<a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_node_interface.md">BTHDDI_SDP_NODE_INTERFACE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536848">SDP_NODE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536784">SdpAddAttributeToTree</a>
  
 
  
-
 

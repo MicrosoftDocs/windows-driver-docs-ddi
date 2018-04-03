@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSEVENT_TIME_MARK
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSEVENT_TIME_MARK, *PKSEVENT_TIME_MARK
 ---
@@ -52,17 +53,6 @@ req.typenames: KSEVENT_TIME_MARK, *PKSEVENT_TIME_MARK
 The KSEVENT_TIME_MARK structure is used in various events within the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561764">KSEVENTSETID_Clock</a> event set. 
 
 
-## -syntax
-
-
-````
-typedef struct {
-  KSEVENTDATA EventData;
-  LONGLONG    MarkTime;
-} KSEVENT_TIME_MARK, *PKSEVENT_TIME_MARK;
-````
-
-
 ## -struct-fields
 
 
@@ -70,7 +60,7 @@ typedef struct {
 
 ### -field EventData
 
-A structure of type <a href="..\ks\ns-ks-kseventdata.md">KSEVENTDATA</a> that specifies the standard event structure.
+A structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff561750">KSEVENTDATA</a> that specifies the standard event structure.
 
 
 ### -field MarkTime
@@ -89,16 +79,15 @@ The flags indicate the type of units for the interval. The interval can be speci
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561764">KSEVENTSETID_Clock</a>
 
 
 
-<a href="..\ks\ns-ks-ksevent_time_interval.md">KSEVENT_TIME_INTERVAL</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561887">KSEVENT_TIME_INTERVAL</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: display\d3dprimcaps.htm
 old-project: display
 ms.assetid: fa725534-ccc3-4e71-a83f-b25fd4c72c14
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*LPD3DPRIMCAPS, D3DPRIMCAPS, D3DPRIMCAPS structure [Display Devices], LPD3DPRIMCAPS, LPD3DPRIMCAPS structure pointer [Display Devices], _D3DPrimCaps, d3dcaps/D3DPRIMCAPS, d3dcaps/LPD3DPRIMCAPS, d3dstrct_671f3c02-cad3-47bc-871e-df1388f8cf1a.xml, display.d3dprimcaps"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dcaps.h
 api_name:
 -	D3DPRIMCAPS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DPRIMCAPS, *LPD3DPRIMCAPS
 ---
@@ -54,29 +55,6 @@ req.typenames: D3DPRIMCAPS, *LPD3DPRIMCAPS
    
 
 The D3DPRIMCAPS structure defines the capabilities for each primitive type.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DPrimCaps {
-  DWORD dwSize;
-  DWORD dwMiscCaps;
-  DWORD dwRasterCaps;
-  DWORD dwZCmpCaps;
-  DWORD dwSrcBlendCaps;
-  DWORD dwDestBlendCaps;
-  DWORD dwAlphaCmpCaps;
-  DWORD dwShadeCaps;
-  DWORD dwTextureCaps;
-  DWORD dwTextureFilterCaps;
-  DWORD dwTextureBlendCaps;
-  DWORD dwTextureAddressCaps;
-  DWORD dwStippleWidth;
-  DWORD dwStippleHeight;
-} D3DPRIMCAPS, *LPD3DPRIMCAPS;
-````
 
 
 ## -struct-fields
@@ -722,19 +700,18 @@ Specify the maximum width and height of the supported stipple (up to 32-by-32).
 
 This structure has been replaced by D3DCAPS8 (see the DirectX 8.0 SDK documentation) for DirectX 8.0 and later runtimes, but is required for DirectX 7.0 and earlier runtime compatibility. See <a href="https://msdn.microsoft.com/a03a7cbc-95be-4251-8e3a-bef4a093f03d">Reporting DirectX 8.0 Style Direct3D Capabilities</a> for details.
 
-This structure is used when a device is created and when the capabilities of a device are queried. It defines several members in the <a href="..\d3dhal\ns-d3dhal-_d3ddevicedesc_v1.md">D3DDEVICEDESC_V1</a> structure.
+This structure is used when a device is created and when the capabilities of a device are queried. It defines several members in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544689">D3DDEVICEDESC_V1</a> structure.
 
 
 
 
 ## -see-also
 
-<a href="..\d3dhal\ns-d3dhal-_d3ddevicedesc_v1.md">D3DDEVICEDESC_V1</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544689">D3DDEVICEDESC_V1</a>
  
 
  
-
 

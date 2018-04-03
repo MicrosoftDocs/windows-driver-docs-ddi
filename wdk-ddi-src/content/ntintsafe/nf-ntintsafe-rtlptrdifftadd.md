@@ -7,7 +7,7 @@ old-location: kernel\rtlptrdifftadd.htm
 old-project: kernel
 ms.assetid: 3B4C0CF0-8153-446E-A834-C1FE28651718
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: RtlPtrdiffTAdd, RtlPtrdiffTAdd function [Kernel-Mode Driver Architecture], kernel.rtlptrdifftadd, ntintsafe/RtlPtrdiffTAdd
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ntintsafe.h
 api_name:
 -	RtlPtrdiffTAdd
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 ---
@@ -50,18 +51,6 @@ req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 
 
 Adds two values of type <b>PTRDIFF_T</b>.
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlPtrdiffTAdd(
-  _In_  PTRDIFF_T Augend,
-  _In_  PTRDIFF_T Addend,
-  _Out_ PTRDIFF_T *pResult
-);
-````
 
 
 ## -parameters

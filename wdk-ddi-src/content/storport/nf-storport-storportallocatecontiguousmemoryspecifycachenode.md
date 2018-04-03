@@ -7,7 +7,7 @@ old-location: storage\storportallocatecontiguousmemoryspecifycachenode.htm
 old-project: storage
 ms.assetid: b2ed8c88-9ffd-4601-8fd0-c9390e9ba84d
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: StorPortAllocateContiguousMemorySpecifyCacheNode, StorPortAllocateContiguousMemorySpecifyCacheNode routine [Storage Devices], storage.storportallocatecontiguousmemoryspecifycachenode, storport/StorPortAllocateContiguousMemorySpecifyCacheNode, storprt_d91d6ab4-677e-4bc0-a0b5-1c252475ecbb.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	storport.h
 api_name:
 -	StorPortAllocateContiguousMemorySpecifyCacheNode
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STOR_SPINLOCK
 req.product: Windows 10 or later.
@@ -51,23 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>StorPortAllocateContiguousMemorySpecifyCacheNode</b> routine allocates a range of physically contiguous noncached, nonpaged memory.
-
-
-## -syntax
-
-
-````
-ULONG StorPortAllocateContiguousMemorySpecifyCacheNode(
-  _In_     PVOID               HwDeviceExtension,
-  _In_     SIZE_T              NumberOfBytes,
-  _In_     PHYSICAL_ADDRESS    LowestAcceptableAddress,
-  _In_     PHYSICAL_ADDRESS    HighestAcceptableAddress,
-  _In_opt_ PHYSICAL_ADDRESS    BoundaryAddressMultiple,
-  _In_     MEMORY_CACHING_TYPE CacheType,
-  _In_     NODE_REQUIREMENT    PreferredNode,
-  _Out_    PVOID               *BufferPointer
-);
-````
 
 
 ## -parameters

@@ -38,7 +38,8 @@ api_location:
 -	Ks.h
 api_name:
 -	KSPROPERTY_QUALITY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSPROPERTY_QUALITY
 ---
@@ -50,17 +51,6 @@ req.typenames: KSPROPERTY_QUALITY
 
 
 
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  KSPROPERTY_QUALITY_REPORT,
-  KSPROPERTY_QUALITY_ERROR
-} KSPROPERTY_QUALITY;
-````
 
 
 ## -enum-fields

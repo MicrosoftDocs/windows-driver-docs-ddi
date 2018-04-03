@@ -38,7 +38,8 @@ api_location:
 -	ksproxy.h
 api_name:
 -	IKsAllocatorEx.KsSetAllocatorHandle
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PIPE_STATE
 ---
@@ -52,16 +53,6 @@ req.typenames: PIPE_STATE
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 Sets the handle for an allocator.
-
-
-## -syntax
-
-
-````
-HRESULT KsSetAllocatorHandle(
-    
-);
-````
 
 
 ## -parameters
@@ -87,12 +78,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\ksproxy\nn-ksproxy-iksallocatorex.md">IKsAllocatorEx</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559724">IKsAllocatorEx</a>
  
 
  
-
 

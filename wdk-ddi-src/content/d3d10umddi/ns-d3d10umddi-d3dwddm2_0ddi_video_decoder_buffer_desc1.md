@@ -7,7 +7,7 @@ old-location: display\d3dwddm2_0ddi_video_decoder_buffer_desc1.htm
 old-project: display
 ms.assetid: BF57E573-852E-4784-8E76-B5E7D86A57EB
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DWDDM2_0DDI_VIDEO_DECODER_BUFFER_DESC1, D3DWDDM2_0DDI_VIDEO_DECODER_BUFFER_DESC1 structure [Display Devices], d3d10umddi/D3DWDDM2_0DDI_VIDEO_DECODER_BUFFER_DESC1, display.d3dwddm2_0ddi_video_decoder_buffer_desc1
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3d10umddi.h
 api_name:
 -	D3DWDDM2_0DDI_VIDEO_DECODER_BUFFER_DESC1
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DWDDM2_0DDI_VIDEO_DECODER_BUFFER_DESC1
 ---
@@ -49,24 +50,7 @@ req.typenames: D3DWDDM2_0DDI_VIDEO_DECODER_BUFFER_DESC1
 ## -description
 
 
-<b>D3DWDDM2_0DDI_VIDEO_DECODER_BUFFER_DESC1</b> is used with  <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3dwddm2_0ddi_videodecodersubmitbuffers1.md">VideoDecoderSubmitBuffers1</a> to submit one or more buffer for decoding.
-
-
-## -syntax
-
-
-````
-typedef struct D3DWDDM2_0DDI_VIDEO_DECODER_BUFFER_DESC1 {
-  D3D10DDI_HRESOURCE                                                                           hResource;
-  D3D11_1DDI_VIDEO_DECODER_BUFFER_TYPE                                                         BufferType;
-  UINT                                                                                         DataOffset;
-  UINT                                                                                         DataSize;
-  _Field_size_opt_(IVSize) void                                                                *pIV;
-  UINT                                                                                         IVSize;
-  _Field_size_opt_(SubSampleMappingCount) D3DWDDM2_0DDI_VIDEO_DECODER_SUB_SAMPLE_MAPPING_BLOCK *pSubSampleMappingBlock;
-  UINT                                                                                         SubSampleMappingCount;
-} D3DWDDM2_0DDI_VIDEO_DECODER_BUFFER_DESC1;
-````
+<b>D3DWDDM2_0DDI_VIDEO_DECODER_BUFFER_DESC1</b> is used with  <a href="https://msdn.microsoft.com/library/windows/hardware/dn906377">VideoDecoderSubmitBuffers1</a> to submit one or more buffer for decoding.
 
 
 ## -struct-fields
@@ -76,7 +60,7 @@ typedef struct D3DWDDM2_0DDI_VIDEO_DECODER_BUFFER_DESC1 {
 
 ### -field hResource
 
-A handle to the resource object that was created through a call to <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createresource.md">CreateResource</a>.
+A handle to the resource object that was created through a call to <a href="https://msdn.microsoft.com/5b74c989-1a62-4415-a19a-dd0ba2fcff83">CreateResource</a>.
 
 
 ### -field BufferType
@@ -108,7 +92,7 @@ The size of the buffer specified in the <b>pIV</b> member. If <b>pIV</b> is <b>N
 
 ### -field pSubSampleMappingBlock
 
-A pointer to an array of <a href="..\d3d10umddi\ns-d3d10umddi-d3dwddm2_0ddi_video_decoder_sub_sample_mapping_block.md">D3DWDDM2_0DDI_VIDEO_DECODER_SUB_SAMPLE_MAPPING_BLOCK</a> structures, which indicate exactly which bytes in the decode buffer are encrypted and which are in the clear.  If the decode buffer does not contain encrypted data, set this member to <b>NULL</b>.
+A pointer to an array of <a href="https://msdn.microsoft.com/library/windows/hardware/dn894621">D3DWDDM2_0DDI_VIDEO_DECODER_SUB_SAMPLE_MAPPING_BLOCK</a> structures, which indicate exactly which bytes in the decode buffer are encrypted and which are in the clear.  If the decode buffer does not contain encrypted data, set this member to <b>NULL</b>.
 
 
 
@@ -118,21 +102,20 @@ Values in the sub sample mapping blocks are relative to the start of the decode 
 
 ### -field SubSampleMappingCount
 
-The number of <a href="..\d3d10umddi\ns-d3d10umddi-d3dwddm2_0ddi_video_decoder_sub_sample_mapping_block.md">D3DWDDM2_0DDI_VIDEO_DECODER_SUB_SAMPLE_MAPPING_BLOCK</a> structures specified in the <b>pSubSampleMappingBlocks</b> member. If <b>pSubSampleMappingBLocks</b> is <b>NULL</b>, set this member to zero.
+The number of <a href="https://msdn.microsoft.com/library/windows/hardware/dn894621">D3DWDDM2_0DDI_VIDEO_DECODER_SUB_SAMPLE_MAPPING_BLOCK</a> structures specified in the <b>pSubSampleMappingBlocks</b> member. If <b>pSubSampleMappingBLocks</b> is <b>NULL</b>, set this member to zero.
 
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createresource.md">CreateResource</a>
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3dwddm2_0ddi_video_decoder_sub_sample_mapping_block.md">D3DWDDM2_0DDI_VIDEO_DECODER_SUB_SAMPLE_MAPPING_BLOCK</a>
+<a href="https://msdn.microsoft.com/5b74c989-1a62-4415-a19a-dd0ba2fcff83">CreateResource</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn894621">D3DWDDM2_0DDI_VIDEO_DECODER_SUB_SAMPLE_MAPPING_BLOCK</a>
  
 
  
-
 

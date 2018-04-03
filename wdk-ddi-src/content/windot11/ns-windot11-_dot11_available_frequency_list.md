@@ -38,7 +38,8 @@ api_location:
 -	windot11.h
 api_name:
 -	DOT11_AVAILABLE_FREQUENCY_LIST
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT11_AVAILABLE_FREQUENCY_LIST, *PDOT11_AVAILABLE_FREQUENCY_LIST
 req.product: Windows 10 or later.

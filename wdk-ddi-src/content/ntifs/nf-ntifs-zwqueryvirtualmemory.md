@@ -7,7 +7,7 @@ old-location: kernel\zwqueryvirtualmemory.htm
 old-project: kernel
 ms.assetid: 011BE902-5ED3-4AD8-B825-6850A72C1D5F
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: NtQueryVirtualMemory, ZwQueryVirtualMemory, ZwQueryVirtualMemory routine [Kernel-Mode Driver Architecture], kernel.zwqueryvirtualmemory, ntifs/NtQueryVirtualMemory, ntifs/ZwQueryVirtualMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	ZwQueryVirtualMemory
 -	NtQueryVirtualMemory
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -53,21 +54,6 @@ req.typenames: TOKEN_TYPE
 The <b>ZwQueryVirtualMemory</b> routine determines the state,
     protection, and type of a region of pages within the virtual address
     space of the subject process.
-
-
-## -syntax
-
-
-````
-NTSTATUS ZwQueryVirtualMemory(
-  _In_      HANDLE                   ProcessHandle,
-  _In_opt_  PVOID                    BaseAddress,
-  _In_      MEMORY_INFORMATION_CLASS MemoryInformationClass,
-  _Out_     PVOID                    MemoryInformation,
-  _In_      SIZE_T                   MemoryInformationLength,
-  _Out_opt_ PSIZE_T                  ReturnLength
-);
-````
 
 
 ## -parameters
@@ -92,14 +78,14 @@ The base address of the region of pages to be
 ### -param MemoryInformationClass [in]
 
 The memory information class about which
-                             to retrieve information. Currently, the only supported <a href="..\ntifs\ne-ntifs-_memory_information_class.md">MEMORY_INFORMATION_CLASS</a> value is <b>MemoryBasicInformation</b>.
+                             to retrieve information. Currently, the only supported <a href="https://msdn.microsoft.com/library/windows/hardware/dn957516">MEMORY_INFORMATION_CLASS</a> value is <b>MemoryBasicInformation</b>.
 
 
 ### -param MemoryInformation [out]
 
 A pointer to a buffer that receives the specified
                         information.  The format and content of the buffer
-                        depend on the specified information class specified in the <i>MemoryInformationClass</i> parameter. When the value <b>MemoryBasicInformation</b> is passed to <i>MemoryInformationClass</i>, the <i>MemoryInformationClass</i> parameter value is a <a href="..\ntifs\ns-ntifs-_memory_basic_information.md">MEMORY_BASIC_INFORMATION</a>. 
+                        depend on the specified information class specified in the <i>MemoryInformationClass</i> parameter. When the value <b>MemoryBasicInformation</b> is passed to <i>MemoryInformationClass</i>, the <i>MemoryInformationClass</i> parameter value is a <a href="https://msdn.microsoft.com/library/windows/hardware/dn957515">MEMORY_BASIC_INFORMATION</a>. 
 
 
 ### -param MemoryInformationLength [in]
@@ -202,16 +188,15 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_power_platform_information.md">POWER_PLATFORM_INFORMATION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn957453">POWER_PLATFORM_INFORMATION</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
-
-
-
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: debugger\idebugclient_setoutputwidth.htm
 old-project: debugger
 ms.assetid: E2FAEBDD-336D-4E11-933B-88A6EA3BBDF9
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: IDebugClient, IDebugClient interface [Windows Debugging], SetOutputWidth method, IDebugClient::SetOutputWidth, SetOutputWidth method [Windows Debugging], SetOutputWidth method [Windows Debugging], IDebugClient interface, SetOutputWidth,IDebugClient.SetOutputWidth, dbgeng/IDebugClient::SetOutputWidth, debugger.idebugclient_setoutputwidth
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugClient.SetOutputWidth
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -51,17 +52,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
     Controls the width of an output line for
     commands that produce formatted output. 
-
-
-## -syntax
-
-
-````
-HRESULT SetOutputWidth(
-  [in] ULONG Columns
-
-);
-````
 
 
 ## -parameters
@@ -113,12 +103,11 @@ This setting is a suggestion that can be overridden by other settings.
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549827">IDebugClient</a>
  
 
  
-
 

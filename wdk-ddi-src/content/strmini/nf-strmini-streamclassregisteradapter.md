@@ -38,7 +38,8 @@ api_location:
 -	strmini.h
 api_name:
 -	StreamClassRegisterAdapter
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STREAM_PRIORITY, *PSTREAM_PRIORITY
 req.product: Windows 10 or later.
@@ -55,16 +56,6 @@ The <b>StreamClassRegisterAdapter</b> routine registers a stream class minidrive
 The name <b>StreamClassRegisterAdapter</b> is supported for backward compatibility only.
 
 Instead, Microsoft recommends the use of <a href="https://msdn.microsoft.com/library/windows/hardware/ff568263">StreamClassRegisterMinidriver</a>, an alias of <b>StreamClassRegisterAdapter</b>. The name <b>StreamClassRegisterMinidriver</b> more accurately indicates that the routine registers a stream class minidriver. Once registered, a minidriver can drive any number of adapter instances in a system.
-
-
-## -syntax
-
-
-````
-  StreamClassRegisterAdapter(
-    
-);
-````
 
 
 ## -parameters

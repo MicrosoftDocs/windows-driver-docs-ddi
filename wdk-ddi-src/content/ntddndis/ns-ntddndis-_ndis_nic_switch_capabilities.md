@@ -7,7 +7,7 @@ old-location: netvista\ndis_nic_switch_capabilities.htm
 old-project: netvista
 ms.assetid: bc4b56bd-583f-4b41-b5a7-90958ce65f42
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PNDIS_NIC_SWITCH_CAPABILITIES, NDIS_NIC_SWITCH_CAPABILITIES, NDIS_NIC_SWITCH_CAPABILITIES structure [Network Drivers Starting with Windows Vista], PNDIS_NIC_SWITCH_CAPABILITIES, PNDIS_NIC_SWITCH_CAPABILITIES structure pointer [Network Drivers Starting with Windows Vista], _NDIS_NIC_SWITCH_CAPABILITIES, netvista.ndis_nic_switch_capabilities, ntddndis/NDIS_NIC_SWITCH_CAPABILITIES, ntddndis/PNDIS_NIC_SWITCH_CAPABILITIES, virtual_machine_queue_ref_b71fb086-5613-4ebb-ac19-97bd3bd9c55f.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ntddndis.h
 api_name:
 -	NDIS_NIC_SWITCH_CAPABILITIES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_NIC_SWITCH_CAPABILITIES, *PNDIS_NIC_SWITCH_CAPABILITIES
 ---
@@ -52,52 +53,6 @@ req.typenames: NDIS_NIC_SWITCH_CAPABILITIES, *PNDIS_NIC_SWITCH_CAPABILITIES
 The <b>NDIS_NIC_SWITCH_CAPABILITIES</b> structure specifies the capabilities of a NIC switch on the network adapter.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_NIC_SWITCH_CAPABILITIES {
-  NDIS_OBJECT_HEADER Header;
-  ULONG              Flags;
-  ULONG              NdisReserved1;
-  ULONG              NumTotalMacAddresses;
-  ULONG              NumMacAddressesPerPort;
-  ULONG              NumVlansPerPort;
-  ULONG              NdisReserved2;
-  ULONG              NdisReserved3;
-#if (NDIS_SUPPORT_NDIS630)
-  ULONG              NicSwitchCapabilities;
-  ULONG              MaxNumSwitches;
-  ULONG              MaxNumVPorts;
-  ULONG              NdisReserved4;
-  ULONG              MaxNumVFs;
-  ULONG              MaxNumQueuePairs;
-  ULONG              NdisReserved5;
-  ULONG              NdisReserved6;
-  ULONG              NdisReserved7;
-  ULONG              MaxNumQueuePairsPerNonDefaultVPort;
-  ULONG              NdisReserved8;
-  ULONG              NdisReserved9;
-  ULONG              NdisReserved10;
-  ULONG              NdisReserved11;
-  ULONG              NdisReserved12;
-  ULONG              MaxNumMacAddresses;
-  ULONG              NdisReserved13;
-  ULONG              NdisReserved14;
-  ULONG              NdisReserved15;
-  ULONG              NdisReserved16;
-  ULONG              NdisReserved17;
-#endif 
-#if (NDIS_SUPPORT_NDIS660)
-  ULONG              MaxNumRssCapableNonDefaultPFVPorts;
-  ULONG              NumberOfIndirectionTableEntriesForDefaultVPort;
-  ULONG              NumberOfIndirectionTableEntriesPerNonDefaultPFVPort;
-  ULONG              MaxNumQueuePairsForDefaultVPort;
-#endif 
-} NDIS_NIC_SWITCH_CAPABILITIES, *PNDIS_NIC_SWITCH_CAPABILITIES;
-````
-
-
 ## -struct-fields
 
 
@@ -105,7 +60,7 @@ typedef struct _NDIS_NIC_SWITCH_CAPABILITIES {
 
 ### -field Header
 
-The type, revision, and size of the <b>NDIS_NIC_SWITCH_CAPABILITIES</b> structure. This member is formatted as an <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
+The type, revision, and size of the <b>NDIS_NIC_SWITCH_CAPABILITIES</b> structure. This member is formatted as an <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure.
 
 The miniport driver must set the <b>Type</b> member of <b>Header</b> to NDIS_OBJECT_TYPE_DEFAULT. To specify the version of the <b>NDIS_NIC_SWITCH_CAPABILITIES</b> structure, the driver must set the <b>Revision</b> member of <b>Header</b> to one of the following values: 
 
@@ -397,16 +352,16 @@ This value is specified in powers of 2, and provides for asymmetric configuratio
 <li>
 The <b>HardwareNicSwitchCapabilities</b> and 
     <b>CurrentNicSwitchCapabilities</b> members of the 
-    <a href="..\ndis\ns-ndis-_ndis_miniport_adapter_hardware_assist_attributes.md">
+    <a href="https://msdn.microsoft.com/b0662a2c-feb6-4d66-89c9-586c2859b78b">
     NDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES</a> structure.
 
 </li>
 <li>
 The 
     <b>NicSwitchCapabilities</b> member of the 
-    <a href="..\ndis\ns-ndis-_ndis_filter_attach_parameters.md">
+    <a href="https://msdn.microsoft.com/d46a1e62-9d03-4ab9-86f6-81b06c04d0f6">
     NDIS_FILTER_ATTACH_PARAMETERS</a> and 
-    <a href="..\ndis\ns-ndis-_ndis_bind_parameters.md">NDIS_BIND_PARAMETERS</a> structures. 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff564832">NDIS_BIND_PARAMETERS</a> structures. 
 
 </li>
 </ul>
@@ -420,31 +375,6 @@ OID query requests of <a href="https://docs.microsoft.com/en-us/windows-hardware
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_filter_attach_parameters.md">NDIS_FILTER_ATTACH_PARAMETERS</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-nic-switch-hardware-capabilities">OID_NIC_SWITCH_HARDWARE_CAPABILITIES</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451816">OID_NIC_SWITCH_CREATE_VPORT</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_bind_parameters.md">NDIS_BIND_PARAMETERS</a>
-
-
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-nic-switch-current-capabilities">OID_NIC_SWITCH_CURRENT_CAPABILITIES</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_hardware_assist_attributes.md">NDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES</a>
 
 
 
@@ -452,8 +382,32 @@ OID query requests of <a href="https://docs.microsoft.com/en-us/windows-hardware
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564832">NDIS_BIND_PARAMETERS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565481">NDIS_FILTER_ATTACH_PARAMETERS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565924">NDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451816">OID_NIC_SWITCH_CREATE_VPORT</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-nic-switch-current-capabilities">OID_NIC_SWITCH_CURRENT_CAPABILITIES</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-nic-switch-hardware-capabilities">OID_NIC_SWITCH_HARDWARE_CAPABILITIES</a>
  
 
  
-
 

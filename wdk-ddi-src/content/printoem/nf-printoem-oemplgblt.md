@@ -38,7 +38,8 @@ api_location:
 -	printoem.h
 api_name:
 -	OEMPlgBlt
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STDVARIABLEINDEX
 req.product: Windows 10 or later.
@@ -51,26 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <code>OEMPlgBlt</code> function provides rotate bit-block transfer capabilities between combinations of device-managed and GDI-managed surfaces.
-
-
-## -syntax
-
-
-````
-BOOL APIENTRY OEMPlgBlt(
-   SURFOBJ         *psoDst,
-   SURFOBJ         *psoSrc,
-   SURFOBJ         *psoMask,
-   CLIPOBJ         *pco,
-   XLATEOBJ        *pxlo,
-   COLORADJUSTMENT *pca,
-   POINTL          *pptlBrushOrg,
-   POINTFIX        *pptfixDest,
-   RECTL           *prclSrc,
-   POINTL          *pptlMask,
-   ULONG           iMode
-);
-````
 
 
 ## -parameters

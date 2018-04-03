@@ -7,7 +7,7 @@ old-location: display\d3d12ddiarg_create_video_processor.htm
 old-project: display
 ms.assetid: 2FA77D7D-E1CC-44BA-8725-7132682A1BD6
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0021, D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0021 structure [Display Devices], d3d12umddi/D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0021, display.d3d12ddiarg_create_video_processor
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3d12umddi.h
 api_name:
 -	D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0021
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0021
 ---
@@ -50,17 +51,6 @@ req.typenames: D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0021
 
 
 Specifies arguments used to create a video processor.
-
-
-## -syntax
-
-
-````
-typedef struct D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0021 {
-  UINT                 NodeMask;
-  D3D12DDI_VIDEO_USAGE Usage;
-} D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0021;
-````
 
 
 ## -struct-fields
@@ -75,7 +65,7 @@ A node mask. For single GPU operation, set this value to zero (0). If there are 
 
 ### -field Usage
 
-Specifies a hint for the intended usage for the video processor. For more information, see the <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_usage.md">D3D12DDI_VIDEO_USAGE</a> enumeration.
+Specifies a hint for the intended usage for the video processor. For more information, see the <a href="https://msdn.microsoft.com/663790EE-A9E3-4EBC-93C7-20DE0D759A26">D3D12DDI_VIDEO_USAGE</a> enumeration.
 
 
 ## -remarks
@@ -89,12 +79,11 @@ A video processor holds state for a video processing session. State includes req
 
 ## -see-also
 
-<a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_usage.md">D3D12DDI_VIDEO_USAGE</a>
 
 
 
+<a href="https://msdn.microsoft.com/663790EE-A9E3-4EBC-93C7-20DE0D759A26">D3D12DDI_VIDEO_USAGE</a>
  
 
  
-
 

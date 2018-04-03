@@ -22,6 +22,7 @@
 ### [HW_WORKITEM callback](../storport/nc-storport-hw_workitem.md)
 ### [VIRTUAL_HW_FIND_ADAPTER callback](../storport/nc-storport-virtual_hw_find_adapter.md)
 ### [*PSTOR_POWER_ACTION enumeration](../storport/ne-storport-pstor_power_action.md)
+### [STOR_POWER_ACTION enumeration](../storport/ne-storport-stor_power_action.md)
 ### [_INTERRUPT_SYNCHRONIZATION_MODE enumeration](../storport/ne-storport-_interrupt_synchronization_mode.md)
 ### [_SES_DOWNLOAD_MICROCODE_STATE enumeration](../storport/ne-storport-_ses_download_microcode_state.md)
 ### [_STOR_CRYPTO_ALGORITHM_ID enumeration](../storport/ne-storport-_stor_crypto_algorithm_id.md)

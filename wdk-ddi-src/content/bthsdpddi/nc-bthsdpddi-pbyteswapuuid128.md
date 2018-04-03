@@ -38,7 +38,8 @@ api_location:
 -	sdplib.h
 api_name:
 -	SdpByteSwapUuid128
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BTH_VENDOR_SPECIFIC_COMMAND, *PBTH_VENDOR_SPECIFIC_COMMAND
 ---
@@ -52,20 +53,6 @@ req.typenames: BTH_VENDOR_SPECIFIC_COMMAND, *PBTH_VENDOR_SPECIFIC_COMMAND
 The Bluetooth 
   <b>SdpByteSwapUuid128</b> function is used to reverse the byte order of a 128-bit universally unique
   identifier (UUID).
-
-
-## -prototype
-
-
-````
-PBYTESWAPUUID128 SdpByteSwapUuid128;
-
-void SdpByteSwapUuid128(
-   GUID *pUuidFrom,
-   GUID *pUuidTo
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -112,19 +99,18 @@ The
     is connected to.
 
 Bluetooth profile drivers can obtain a pointer to this function through the 
-    <a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_parse_interface.md">BTHDDI_SDP_PARSE_INTERFACE</a>.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff536636">BTHDDI_SDP_PARSE_INTERFACE</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_parse_interface.md">BTHDDI_SDP_PARSE_INTERFACE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536636">BTHDDI_SDP_PARSE_INTERFACE</a>
  
 
  
-
 

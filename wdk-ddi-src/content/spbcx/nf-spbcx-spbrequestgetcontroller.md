@@ -39,7 +39,8 @@ api_location:
 -	spbcxstubs.dll
 api_name:
 -	SpbRequestGetController
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SPB_REQUEST_TYPE, *PSPB_REQUEST_TYPE
 req.product: Windows 10 or later.
@@ -52,16 +53,6 @@ req.product: Windows 10 or later.
 
 
 The <b>SpbRequestGetController</b> method returns the WDFDEVICE handle to the device object for the SPB controller that the specified I/O request was sent to.
-
-
-## -syntax
-
-
-````
-WDFDEVICE SpbRequestGetController(
-  _In_ SPBREQUEST SpbRequest
-);
-````
 
 
 ## -parameters
@@ -85,12 +76,11 @@ The <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/spb/spbcx
 
 ## -see-also
 
+
+
+
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/spb/spbcx-object-handles">SPBREQUEST</a>
-
-
-
  
 
  
-
 

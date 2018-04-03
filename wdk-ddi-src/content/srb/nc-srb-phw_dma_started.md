@@ -7,7 +7,7 @@ old-location: storage\phw_dma_started.htm
 old-project: storage
 ms.assetid: 2f989c46-e90e-45e1-a520-98b05ff78e73
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "(*PHW_DMA_STARTED), (*PHW_DMA_STARTED) callback function [Storage Devices], ide_minikr_2e265b69-67af-449a-bfef-67fbd6694cba.xml, srb/(*PHW_DMA_STARTED), storage.phw_dma_started"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -29,16 +29,17 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	UserDefined
-apilocation:
+api_location:
 -	srb.h
-apiname:
+api_name:
 -	(*PHW_DMA_STARTED)
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SPB_CONTROLLER_CONFIG, *PSPB_CONTROLLER_CONFIG
 req.product: Windows 10 or later.
@@ -51,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 The PHW_DMA_STARTED routine prototype declares a SCSI miniport driver routine that starts DMA for subordinate DMA device. 
-
-
-## -prototype
-
-
-````
-typedef VOID (*PHW_DMA_STARTED)(
-  _In_ PVOID DeviceExtension 
-);
-````
 
 
 ## -parameters
@@ -86,7 +77,7 @@ None
 
 
 
-If the HBA is a subordinate DMA device, the SCSI miniport driver's <a href="..\srb\nc-srb-phw_dma_started.md">HwScsiDmaStarted</a> routine is called after the OS-specific port driver has set up the system DMA controller for a DMA transfer.
+If the HBA is a subordinate DMA device, the SCSI miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff557291">HwScsiDmaStarted</a> routine is called after the OS-specific port driver has set up the system DMA controller for a DMA transfer.
 
 Miniport drivers that work with the StorPort driver do not support adapters that require subordinate DMA. 
 
@@ -95,12 +86,11 @@ Miniport drivers that work with the StorPort driver do not support adapters that
 
 ## -see-also
 
-<a href="..\srb\nc-srb-phw_dma_started.md">HwScsiDmaStarted</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557291">HwScsiDmaStarted</a>
  
 
  
-
 

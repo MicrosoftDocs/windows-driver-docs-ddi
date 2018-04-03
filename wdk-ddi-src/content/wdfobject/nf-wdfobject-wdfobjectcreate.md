@@ -41,7 +41,8 @@ api_location:
 -	WUDFx02000.dll.dll
 api_name:
 -	WdfObjectCreate
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_SYNCHRONIZATION_SCOPE
 req.product: Windows 10 or later.
@@ -58,17 +59,6 @@ req.product: Windows 10 or later.
 The <b>WdfObjectCreate</b> method creates a general framework object.
 
 
-## -syntax
-
-
-````
-NTSTATUS WdfObjectCreate(
-  _In_opt_ PWDF_OBJECT_ATTRIBUTES Attributes,
-  _Out_    WDFOBJECT              *Object
-);
-````
-
-
 ## -parameters
 
 
@@ -76,7 +66,7 @@ NTSTATUS WdfObjectCreate(
 
 ### -param Attributes [in, optional]
 
-A pointer to a <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure that contains driver-supplied attributes for the new object. This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552400">WDF_OBJECT_ATTRIBUTES</a> structure that contains driver-supplied attributes for the new object. This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
 
 
 ### -param Object [out]
@@ -99,7 +89,7 @@ This method might also return other <a href="https://msdn.microsoft.com/library/
 
 
 
-By default, the new general framework object's parent is the framework driver object that the <a href="..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md">WdfDriverCreate</a> method created. You can use the <b>ParentObject</b> member of the <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure to specify a different parent. The framework deletes the general object when it deletes the parent object. If your driver does not change the default parent, the driver should delete the general object when it has finished using the object; otherwise, the object will remain until the I/O manager unloads your driver. 
+By default, the new general framework object's parent is the framework driver object that the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547175">WdfDriverCreate</a> method created. You can use the <b>ParentObject</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552400">WDF_OBJECT_ATTRIBUTES</a> structure to specify a different parent. The framework deletes the general object when it deletes the parent object. If your driver does not change the default parent, the driver should delete the general object when it has finished using the object; otherwise, the object will remain until the I/O manager unloads your driver. 
 
 For more information about the <b>WdfObjectCreate</b> method, see <a href="https://msdn.microsoft.com/d3356d3f-8110-44dd-b4a2-36265f5a1714">Using General Framework Objects</a>.
 
@@ -130,24 +120,23 @@ status = WdfObjectCreate(
 
 ## -see-also
 
-<a href="..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md">WdfDriverCreate</a>
 
 
 
-<a href="..\wdfobject\nf-wdfobject-wdf_object_attributes_init.md">WDF_OBJECT_ATTRIBUTES_INIT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552400">WDF_OBJECT_ATTRIBUTES</a>
 
 
 
-<a href="..\wdfobject\nf-wdfobject-wdfobjectdelete.md">WdfObjectDelete</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552402">WDF_OBJECT_ATTRIBUTES_INIT</a>
 
 
 
-<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547175">WdfDriverCreate</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548734">WdfObjectDelete</a>
  
 
  
-
 

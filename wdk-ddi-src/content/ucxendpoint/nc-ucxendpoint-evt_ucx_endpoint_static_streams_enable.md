@@ -7,7 +7,7 @@ old-location: buses\evt_ucx_endpoint_static_streams_enable.htm
 old-project: usbref
 ms.assetid: eb40623f-b13f-4c3f-b3ac-687cba323ce2
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: EVT_UCX_ENDPOINT_STATIC_STREAMS_ENABLE, EvtUcxEndpointStaticStreamsEnable, EvtUcxEndpointStaticStreamsEnable callback function [Buses], PFN_UCM_CONNECTOR_GET_OPERATING_MODE, PFN_UCM_CONNECTOR_GET_OPERATING_MODE callback function pointer [Buses], buses.evt_ucx_endpoint_static_streams_enable, ucxendpoint/EvtUcxEndpointStaticStreamsEnable
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ucxendpoint.h
 api_name:
 -	PFN_UCM_CONNECTOR_GET_OPERATING_MODE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS_CHANGE_FLAGS
 req.product: Windows 10 or later.
@@ -51,23 +52,6 @@ req.product: Windows 10 or later.
 
 
 The client driver's implementation that UCX calls to enable the static streams.
-
-
-## -prototype
-
-
-````
-EVT_UCX_ENDPOINT_STATIC_STREAMS_ENABLE EvtUcxEndpointStaticStreamsEnable;
-
-VOID EvtUcxEndpointStaticStreamsEnable(
-  _In_ UCXENDPOINT Endpoint,
-  _In_ UCXSSTREAMS UcxStaticStreams,
-  _In_ WDFREQUEST  Request
-)
-{ ... }
-
-typedef EVT_UCX_ENDPOINT_STATIC_STREAMS_ENABLE PFN_UCM_CONNECTOR_GET_OPERATING_MODE;
-````
 
 
 ## -parameters
@@ -106,7 +90,7 @@ This callback function does not return a value.
 
 
 
-The UCX client driver registers this callback function with the USB host controller extension (UCX) by calling the <a href="..\ucxendpoint\nf-ucxendpoint-ucxendpointcreate.md">UcxEndpointCreate</a>
+The UCX client driver registers this callback function with the USB host controller extension (UCX) by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/mt188039">UcxEndpointCreate</a>
  method.
 
 The client driver returns completion status in <i>Request</i> and in the USBD_STATUS

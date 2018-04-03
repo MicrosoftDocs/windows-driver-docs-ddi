@@ -38,7 +38,8 @@ api_location:
 -	1394.h
 api_name:
 -	IRB_REQ_CONTROL
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: IRB_REQ_CONTROL
 ---
@@ -50,21 +51,6 @@ req.typenames: IRB_REQ_CONTROL
 
 
 This structure contains the fields necessary for the 1394 bus driver to carry out a control request.
-
-
-## -syntax
-
-
-````
-typedef struct _IRB_REQ_CONTROL {
-  ULONG ulIoControlCode;
-  PMDL  pInBuffer;
-  ULONG ulInBufferLength;
-  PMDL  pOutBuffer;
-  ULONG ulOutBufferLength;
-  ULONG BytesReturned;
-} IRB_REQ_CONTROL;
-````
 
 
 ## -struct-fields

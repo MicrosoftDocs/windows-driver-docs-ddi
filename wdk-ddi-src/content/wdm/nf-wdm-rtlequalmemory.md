@@ -7,7 +7,7 @@ old-location: kernel\rtlequalmemory.htm
 old-project: kernel
 ms.assetid: 43695fa9-32e1-4bd5-b146-88d6d03fe9fb
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: RtlEqualMemory, RtlEqualMemory routine [Kernel-Mode Driver Architecture], k109_a75dfbc8-12af-4f95-9ba0-b7752b796e55.xml, kernel.rtlequalmemory, wdm/RtlEqualMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	RtlEqualMemory
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
@@ -51,18 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>RtlEqualMemory</b> routine compares two blocks of memory to determine whether the specified number of bytes are identical. 
-
-
-## -syntax
-
-
-````
-LOGICAL RtlEqualMemory(
-  _In_ const VOID   *Source1,
-  _In_ const VOID   *Source2,
-  _In_       SIZE_T Length
-);
-````
 
 
 ## -parameters
@@ -108,12 +97,11 @@ Callers of <b>RtlEqualMemory</b> can be running at any IRQL if both blocks of me
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlcomparememory.md">RtlCompareMemory</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561778">RtlCompareMemory</a>
  
 
  
-
 

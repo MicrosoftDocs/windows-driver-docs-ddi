@@ -38,7 +38,8 @@ apilocation:
 -	portcls.h
 apiname:
 -	PCEVENT_ITEM
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PCEVENT_ITEM, *PPCEVENT_ITEM
 ---

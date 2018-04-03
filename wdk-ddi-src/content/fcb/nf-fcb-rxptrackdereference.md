@@ -7,7 +7,7 @@ old-location: ifsk\rxptrackdereference.htm
 old-project: ifsk
 ms.assetid: eaff92d2-d866-4096-8528-0672255ced60
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: RxpTrackDereference, RxpTrackDereference function [Installable File System Drivers], fcb/RxpTrackDereference, ifsk.rxptrackdereference, rxref_60f3cce5-bd6b-47b9-a6cc-85b5ee027934.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	fcb.h
 api_name:
 -	RxpTrackDereference
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FA_ENTRY, *PFA_ENTRY
 ---
@@ -50,19 +51,6 @@ req.typenames: FA_ENTRY, *PFA_ENTRY
 
 
 <b>RxpTrackDereference</b> is used in checked builds to track requests to dereference SRV_CALL, NET_ROOT, V_NET_ROOT, FOBX, FCB, and SRV_OPEN structures in checked builds. A log of these dereference requests can be accessed by the logging system and WMI. 
-
-
-## -syntax
-
-
-````
-BOOLEAN RxpTrackDereference(
-  _In_ ULONG TraceType,
-  _In_ PCSTR FileName,
-  _In_ ULONG Line,
-  _In_ PVOID pInstance
-);
-````
 
 
 ## -parameters
@@ -161,6 +149,9 @@ A number of macros are defined in <i>fcb.h</i> for debugging that are the prefer
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553384">RxAssert</a>
 
 
@@ -169,24 +160,20 @@ A number of macros are defined in <i>fcb.h</i> for debugging that are the prefer
 
 
 
-<a href="..\fcb\nf-fcb-rxptrackreference.md">RxpTrackReference</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554388">RxDereference</a>
 
 
 
-<a href="..\rxprocs\nf-rxprocs-rxreference.md">RxReference</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554688">RxReference</a>
 
 
 
-<a href="..\rxprocs\nf-rxprocs-rxdereference.md">RxDereference</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554659">RxpTrackReference</a>
 
 
 
-<a href="..\rxlog\nf-rxlog-_rxlog.md">_RxLog</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557368">_RxLog</a>
  
 
  
-
 

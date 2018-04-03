@@ -38,7 +38,8 @@ api_location:
 -	1394.h
 api_name:
 -	IRB_REQ_ISOCH_QUERY_CURRENT_CYCLE_TIME
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: IRB_REQ_ISOCH_QUERY_CURRENT_CYCLE_TIME
 ---
@@ -51,16 +52,6 @@ req.typenames: IRB_REQ_ISOCH_QUERY_CURRENT_CYCLE_TIME
 
  This structure contains the fields necessary for the Bus driver to carry out an
 <b>IsochQueryCurrentCycleTime</b> request.
-
-
-## -syntax
-
-
-````
-typedef struct _IRB_REQ_ISOCH_QUERY_CURRENT_CYCLE_TIME {
-  CYCLE_TIME CycleTime;
-} IRB_REQ_ISOCH_QUERY_CURRENT_CYCLE_TIME;
-````
 
 
 ## -struct-fields

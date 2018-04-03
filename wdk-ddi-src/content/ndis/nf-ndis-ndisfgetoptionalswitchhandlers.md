@@ -7,7 +7,7 @@ old-location: netvista\ndisfgetoptionalswitchhandlers.htm
 old-project: netvista
 ms.assetid: bf034ecd-5c1b-4117-a7b0-bcca3971386b
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NdisFGetOptionalSwitchHandlers, NdisFGetOptionalSwitchHandlers function [Network Drivers Starting with Windows Vista], ndis/NdisFGetOptionalSwitchHandlers, netvista.ndisfgetoptionalswitchhandlers
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	ndis.dll
 api_name:
 -	NdisFGetOptionalSwitchHandlers
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
@@ -58,18 +59,6 @@ Hyper-V extensible switch extensions call the <b>NdisFGetOptionalSwitchHandlers<
 
 
 
-## -syntax
-
-
-````
-NDIS_STATUS NdisFGetOptionalSwitchHandlers(
-  _In_    NDIS_HANDLE                    NdisFilterHandle,
-  _Out_   PNDIS_SWITCH_CONTEXT           NdisSwitchContext,
-  _Inout_ PNDIS_SWITCH_OPTIONAL_HANDLERS NdisSwitchHandlers
-);
-````
-
-
 ## -parameters
 
 
@@ -77,7 +66,7 @@ NDIS_STATUS NdisFGetOptionalSwitchHandlers(
 
 ### -param NdisFilterHandle [in]
 
-The NDIS handle that identifies this filter module. When NDIS called the extension's  <a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a> function, it passed this handle in the <i>NdisFilterHandle</i> parameter.
+The NDIS handle that identifies this filter module. When NDIS called the extension's  <a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a> function, it passed this handle in the <i>NdisFilterHandle</i> parameter.
 
 
 ### -param NdisSwitchContext [out]
@@ -87,11 +76,11 @@ A pointer to the NDIS_SWITCH_CONTEXT value that identifies the extensible switch
 
 ### -param NdisSwitchHandlers [in, out]
 
-A pointer to a caller-allocated  <a href="..\ndis\ns-ndis-_ndis_switch_optional_handlers.md">NDIS_SWITCH_OPTIONAL_HANDLERS</a> structure. If the call succeeds, this structure will contain a list of pointers to the extensible switch handler functions.
+A pointer to a caller-allocated  <a href="https://msdn.microsoft.com/library/windows/hardware/hh598219">NDIS_SWITCH_OPTIONAL_HANDLERS</a> structure. If the call succeeds, this structure will contain a list of pointers to the extensible switch handler functions.
 
 For more information about these handler functions, see <a href="https://msdn.microsoft.com/library/windows/hardware/hh598172">Hyper-V Extensible Switch Handler Functions</a>.
 
-<div class="alert"><b>Note</b>  Before the extension calls <b>NdisFGetOptionalSwitchHandlers</b>, it must initialize the <b>Header</b> member of the <a href="..\ndis\ns-ndis-_ndis_switch_optional_handlers.md">NDIS_SWITCH_OPTIONAL_HANDLERS</a> structure.</div>
+<div class="alert"><b>Note</b>  Before the extension calls <b>NdisFGetOptionalSwitchHandlers</b>, it must initialize the <b>Header</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh598219">NDIS_SWITCH_OPTIONAL_HANDLERS</a> structure.</div>
 <div> </div>
 
 ## -returns
@@ -109,7 +98,7 @@ If the call succeeds, <b>NdisFGetOptionalSwitchHandlers</b> returns NDIS_STATUS_
 
 
 
-The  extension calls the <b>NdisFGetOptionalSwitchHandlers</b> function from its <a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a> function. 
+The  extension calls the <b>NdisFGetOptionalSwitchHandlers</b> function from its <a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a> function. 
 
 If the extension is installed with multiple <b>FilterMediaTypes</b> INF entries, the call to <b>NdisFGetOptionalSwitchHandlers</b> lets the extension  determine whether it is bound and attached to the driver stack for either the extensible switch or a physical network adapter. If the call returns NDIS_STATUS_SUCCESS, the extension is attached within the extensible switch driver stack. If the call returns NDIS_STATUS_NOT_SUPPORTED, the extension is attached within the driver stack for a physical network adapter.
 
@@ -120,11 +109,6 @@ For more information about <b>FilterMediaTypes</b> INF entries for extensible sw
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_switch_optional_handlers.md">NDIS_SWITCH_OPTIONAL_HANDLERS</a>
-
-
-
-<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
 
 
 
@@ -132,8 +116,12 @@ For more information about <b>FilterMediaTypes</b> INF entries for extensible sw
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598219">NDIS_SWITCH_OPTIONAL_HANDLERS</a>
  
 
  
-
 

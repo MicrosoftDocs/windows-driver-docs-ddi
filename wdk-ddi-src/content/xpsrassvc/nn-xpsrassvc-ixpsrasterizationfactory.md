@@ -38,7 +38,8 @@ api_location:
 -	xpsrassvc.h
 api_name:
 -	IXpsRasterizationFactory
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: XPSRAS_BACKGROUND_COLOR
 req.product: Windows 10 or later.
@@ -50,9 +51,9 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>IXpsRasterizationFactory</b> interface represents an object factory for creating XPS rasterizer objects. Rasterizer objects created by the factory implement <a href="..\xpsrassvc\nn-xpsrassvc-ixpsrasterizer.md">IXpsRasterizer</a> interfaces. An XPSDrv filter uses a rasterizer object to convert an XPS fixed page to one or more bitmap images.
+The <b>IXpsRasterizationFactory</b> interface represents an object factory for creating XPS rasterizer objects. Rasterizer objects created by the factory implement <a href="https://msdn.microsoft.com/1ef99120-2b3b-45aa-bcf7-16bcb9656089">IXpsRasterizer</a> interfaces. An XPSDrv filter uses a rasterizer object to convert an XPS fixed page to one or more bitmap images.
 
-An XPSDrv filter obtains a reference to an <b>IXpsRasterizationFactory</b> interface instance from the property bag received from the print filter pipeline manager. The pipeline manager calls the filter's <a href="https://msdn.microsoft.com/library/windows/hardware/ff554291">IPrintPipelineFilter::InitializeFilter</a> method and passes in an <a href="..\filterpipeline\nn-filterpipeline-iprintpipelinepropertybag.md">IPrintPipelinePropertyBag</a> pointer. The interface reference is a VT_UNKNOWN property value that is identified by the property name <b>MS_IXpsRasterizationFactory</b>.
+An XPSDrv filter obtains a reference to an <b>IXpsRasterizationFactory</b> interface instance from the property bag received from the print filter pipeline manager. The pipeline manager calls the filter's <a href="https://msdn.microsoft.com/library/windows/hardware/ff554291">IPrintPipelineFilter::InitializeFilter</a> method and passes in an <a href="https://msdn.microsoft.com/library/windows/hardware/ff554320">IPrintPipelinePropertyBag</a> pointer. The interface reference is a VT_UNKNOWN property value that is identified by the property name <b>MS_IXpsRasterizationFactory</b>.
 
 
 ## -inheritance

@@ -38,7 +38,8 @@ api_location:
 -	ksproxy.h
 api_name:
 -	IKsClockPropertySet.KsSetTime
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PIPE_STATE
 ---
@@ -50,16 +51,6 @@ req.typenames: PIPE_STATE
 
 
 The <b>KsSetTime</b> method sets the current time on the underlying clock.
-
-
-## -syntax
-
-
-````
-HRESULT KsSetTime(
-  [in] LONGLONG Time 
-);
-````
 
 
 ## -parameters
@@ -92,16 +83,15 @@ The proxy uses the <a href="https://msdn.microsoft.com/library/windows/hardware/
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559751">IKsClockPropertySet::KsGetTime</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565095">KSPROPERTY_CLOCK_TIME</a>
-
-
-
  
 
  
-
 

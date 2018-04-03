@@ -38,7 +38,8 @@ api_location:
 -	Stiusd.h
 api_name:
 -	IStiDeviceControl.GetMyDeviceHandle
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STI_WIA_DEVICE_INFORMATIONW, *PSTI_WIA_DEVICE_INFORMATIONW
 req.product: Windows 10 or later.
@@ -51,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 This topic describes the <b>GetMyDeviceHandle</b> method.
-
-
-## -syntax
-
-
-````
-HRESULT GetMyDeviceHandle(
-   LPHANDLE lph
-);
-````
 
 
 ## -parameters
@@ -84,12 +75,11 @@ Defines the <b>HRESULT</b> return value.
 
 ## -see-also
 
+
+
+
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/image/istidevicecontrol-com-interface">IStiDeviceControl</a>
-
-
-
  
 
  
-
 

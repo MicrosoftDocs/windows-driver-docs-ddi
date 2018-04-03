@@ -7,7 +7,7 @@ old-location: netvista\ndis_switch_parameters.htm
 old-project: netvista
 ms.assetid: 766e042a-3f21-4f57-a780-83f92bef0a6c
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PNDIS_SWITCH_PARAMETERS, NDIS_SWITCH_PARAMETERS, NDIS_SWITCH_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_PARAMETERS, PNDIS_SWITCH_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_PARAMETERS, netvista.ndis_switch_parameters, ntddndis/NDIS_SWITCH_PARAMETERS, ntddndis/PNDIS_SWITCH_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddndis.h
 api_name:
 -	NDIS_SWITCH_PARAMETERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_SWITCH_PARAMETERS, *PNDIS_SWITCH_PARAMETERS
 ---
@@ -52,21 +53,6 @@ req.typenames: NDIS_SWITCH_PARAMETERS, *PNDIS_SWITCH_PARAMETERS
 The <b>NDIS_SWITCH_PARAMETERS</b> structure contains the configuration data for a Hyper-V extensible switch.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_SWITCH_PARAMETERS {
-  NDIS_OBJECT_HEADER       Header;
-  ULONG                    Flags;
-  NDIS_SWITCH_NAME         SwitchName;
-  NDIS_SWITCH_FRIENDLYNAME SwitchFriendlyName;
-  UINT32                   NumSwitchPorts;
-  BOOLEAN                  IsActive;
-} NDIS_SWITCH_PARAMETERS, *PNDIS_SWITCH_PARAMETERS;
-````
-
-
 ## -struct-fields
 
 
@@ -74,7 +60,7 @@ typedef struct _NDIS_SWITCH_PARAMETERS {
 
 ### -field Header
 
-The type, revision, and size of the <b>NDIS_SWITCH_PARAMETERS</b> structure. This member is formatted as an <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
+The type, revision, and size of the <b>NDIS_SWITCH_PARAMETERS</b> structure. This member is formatted as an <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure.
 
 The <b>Type</b> member of <b>Header</b> must be set to NDIS_OBJECT_TYPE_DEFAULT. To specify the version of the <b>NDIS_SWITCH_PARAMETERS</b> structure, the <b>Revision</b> member of <b>Header</b> must be set to the following value: 
 
@@ -115,7 +101,7 @@ A UINT32 value that specifies the number of ports configured on the extensible s
 
 ### -field IsActive
 
-A BOOLEAN that if TRUE indicates that the Hyper-V extensible switch activation has finished and it is safe to query for other switch configuration such as enumerating ports, NICs, and properties. If FALSE, the extension must wait for the <a href="..\netpnp\ns-netpnp-_net_pnp_event.md">NetEventSwitchActivate</a> PNP event to be issued before querying for switch configuration. 
+A BOOLEAN that if TRUE indicates that the Hyper-V extensible switch activation has finished and it is safe to query for other switch configuration such as enumerating ports, NICs, and properties. If FALSE, the extension must wait for the <a href="https://msdn.microsoft.com/b68fb279-c1d4-4f0b-8b04-b17a01a65560">NetEventSwitchActivate</a> PNP event to be issued before querying for switch configuration. 
 
 
 ## -remarks
@@ -127,22 +113,22 @@ The <b>NDIS_SWITCH_PARAMETERS</b> structure is used in the
 
 This structure is also passed in the <i>vSwitch</i> parameter of the following callout functions for Windows Filtering Platform callout drivers:<ul>
 <li>
-<a href="..\fwpsk\nc-fwpsk-fwps_vswitch_interface_event_callback0.md">FWPS_VSWITCH_INTERFACE_EVENT_CALLBACK0</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451269">FWPS_VSWITCH_INTERFACE_EVENT_CALLBACK0</a>
 </li>
 <li>
-<a href="..\fwpsk\nc-fwpsk-fwps_vswitch_lifetime_event_callback0.md">FWPS_VSWITCH_LIFETIME_EVENT_CALLBACK0</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451271">FWPS_VSWITCH_LIFETIME_EVENT_CALLBACK0</a>
 </li>
 <li>
-<a href="..\fwpsk\nc-fwpsk-fwps_vswitch_policy_event_callback0.md">FWPS_VSWITCH_POLICY_EVENT_CALLBACK0</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451272">FWPS_VSWITCH_POLICY_EVENT_CALLBACK0</a>
 </li>
 <li>
-<a href="..\fwpsk\nc-fwpsk-fwps_vswitch_port_event_callback0.md">FWPS_VSWITCH_PORT_EVENT_CALLBACK0</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451276">FWPS_VSWITCH_PORT_EVENT_CALLBACK0</a>
 </li>
 <li>
-<a href="..\fwpsk\nc-fwpsk-fwps_vswitch_runtime_state_restore_callback0.md">FWPS_VSWITCH_RUNTIME_STATE_RESTORE_CALLBACK0</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451281">FWPS_VSWITCH_RUNTIME_STATE_RESTORE_CALLBACK0</a>
 </li>
 <li>
-<a href="..\fwpsk\nc-fwpsk-fwps_vswitch_runtime_state_save_callback0.md">FWPS_VSWITCH_RUNTIME_STATE_SAVE_CALLBACK0</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451286">FWPS_VSWITCH_RUNTIME_STATE_SAVE_CALLBACK0</a>
 </li>
 </ul>
 
@@ -156,43 +142,6 @@ This structure is also passed in the <i>vSwitch</i> parameter of the following c
 
 ## -see-also
 
-<a href="..\fwpsk\nc-fwpsk-fwps_vswitch_runtime_state_restore_callback0.md">FWPS_VSWITCH_RUNTIME_STATE_RESTORE_CALLBACK0</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
-<a href="https://msdn.microsoft.com/44B59154-C5CA-42F0-A972-021833E29D81">_STRING</a>
-
-
-
-<a href="..\fwpsk\nc-fwpsk-fwps_vswitch_lifetime_event_callback0.md">FWPS_VSWITCH_LIFETIME_EVENT_CALLBACK0</a>
-
-
-
-<a href="..\fwpsk\nc-fwpsk-fwps_vswitch_policy_event_callback0.md">FWPS_VSWITCH_POLICY_EVENT_CALLBACK0</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598270">OID_SWITCH_PARAMETERS</a>
-
-
-
-<a href="..\fwpsk\nc-fwpsk-fwps_vswitch_interface_event_callback0.md">IF_COUNTEDFWPS_VSWITCH_INTERFACE_EVENT_CALLBACK0</a>
-
-
-
-<a href="..\fwpsk\nc-fwpsk-fwps_vswitch_runtime_state_save_callback0.md">FWPS_VSWITCH_RUNTIME_STATE_SAVE_CALLBACK0</a>
-
-
-
-<a href="..\netpnp\ns-netpnp-_net_pnp_event.md">NetEventSwitchActivate</a>
-
-
-
-<a href="..\fwpsk\nc-fwpsk-fwps_vswitch_port_event_callback0.md">FWPS_VSWITCH_PORT_EVENT_CALLBACK0</a>
 
 
 
@@ -200,8 +149,44 @@ This structure is also passed in the <i>vSwitch</i> parameter of the following c
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451271">FWPS_VSWITCH_LIFETIME_EVENT_CALLBACK0</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451272">FWPS_VSWITCH_POLICY_EVENT_CALLBACK0</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451276">FWPS_VSWITCH_PORT_EVENT_CALLBACK0</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451281">FWPS_VSWITCH_RUNTIME_STATE_RESTORE_CALLBACK0</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451286">FWPS_VSWITCH_RUNTIME_STATE_SAVE_CALLBACK0</a>
+
+
+
+<a href="https://msdn.microsoft.com/63EAA278-9CE6-4C75-8221-E1666F143815">IF_COUNTEDFWPS_VSWITCH_INTERFACE_EVENT_CALLBACK0</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="https://msdn.microsoft.com/b68fb279-c1d4-4f0b-8b04-b17a01a65560">NetEventSwitchActivate</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598270">OID_SWITCH_PARAMETERS</a>
+
+
+
+<a href="https://msdn.microsoft.com/44B59154-C5CA-42F0-A972-021833E29D81">_STRING</a>
  
 
  
-
 

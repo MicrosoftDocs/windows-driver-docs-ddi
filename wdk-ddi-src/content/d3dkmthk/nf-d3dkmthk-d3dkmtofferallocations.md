@@ -7,7 +7,7 @@ old-location: display\d3dkmtofferallocations.htm
 old-project: display
 ms.assetid: 3cc84381-fa1e-4c6c-bb5b-459a93676cfd
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMTOfferAllocations, D3DKMTOfferAllocations callback function [Display Devices], PFND3DKMT_OFFERALLOCATIONS, d3dkmthk/D3DKMTOfferAllocations, display.d3dkmtofferallocations
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3dkmthk.h
 api_name:
 -	D3DKMTOfferAllocations
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_DRIVERVERSION
 ---
@@ -50,16 +51,6 @@ req.typenames: D3DKMT_DRIVERVERSION
 
 
 Offers video memory allocations for reuse.
-
-
-## -syntax
-
-
-````
-EXTERN_C _Check_return_ NTSTATUS APIENTRY D3DKMTOfferAllocations(
-  _In_ const D3DKMT_OFFERALLOCATIONS *pData
-);
-````
 
 
 ## -parameters
@@ -76,7 +67,7 @@ TBD
 
 #### - pData [in]
 
-A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_offerallocations.md">D3DKMT_OFFERALLOCATIONS</a> structure that defines memory allocations that the driver offers for reuse.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406482">D3DKMT_OFFERALLOCATIONS</a> structure that defines memory allocations that the driver offers for reuse.
 
 
 ## -returns
@@ -131,16 +122,15 @@ Parameters were validated and determined to be incorrect.
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_offerallocations.md">D3DKMT_OFFERALLOCATIONS</a>
 
 
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtreclaimallocations.md">D3DKMTReclaimAllocations</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439451">D3DKMTReclaimAllocations</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406482">D3DKMT_OFFERALLOCATIONS</a>
  
 
  
-
 

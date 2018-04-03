@@ -38,7 +38,8 @@ api_location:
 -	prcomoem.h
 api_name:
 -	IPrintCorePS2.EnumOptions
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
@@ -53,21 +54,6 @@ req.product: Windows 10 or later.
 The <code>IPrintCorePS2::EnumOptions</code> method enumerates the available options of a specific feature.
 
 
-## -syntax
-
-
-````
-HRESULT EnumOptions(
-  [in]  PDEVOBJ pdevobj,
-  [in]  DWORD   dwFlags,
-  [in]  PCSTR   pszFeatureKeyword,
-  [out] PSTR    pmszOptionList,
-  [in]  DWORD   cbSize,
-  [out] PDWORD  pcbNeeded
-);
-````
-
-
 ## -parameters
 
 
@@ -75,7 +61,7 @@ HRESULT EnumOptions(
 
 ### -param pdevobj [in]
 
-Pointer to a <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a> structure.
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547573">DEVOBJ</a> structure.
 
 
 ### -param dwFlags [in]
@@ -200,20 +186,19 @@ For more information, see <a href="https://msdn.microsoft.com/6ce16d28-eff7-4701
 
 ## -see-also
 
-<a href="..\prcomoem\nn-prcomoem-iprintcoreps2.md">IPrintCorePS2</a>
 
 
 
-<a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547573">DEVOBJ</a>
+
+
+
+<a href="https://msdn.microsoft.com/bf7e15df-49ba-4850-acf6-dab5dc137f48">IPrintCorePS2</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552990">IPrintCorePS2::EnumFeatures</a>
-
-
-
  
 
  
-
 

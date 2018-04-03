@@ -38,7 +38,8 @@ api_location:
 -	Hidport.h
 api_name:
 -	IOCTL_UMDF_GET_PHYSICAL_DESCRIPTOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USAGE_AND_PAGE, *PUSAGE_AND_PAGE
 ---
@@ -111,12 +112,11 @@ HID minidrivers that carry out the I/O to the device must also:
 
 ## -see-also
 
-<a href="..\hidclass\ni-hidclass-ioctl_get_physical_descriptor.md">IOCTL_GET_PHYSICAL_DESCRIPTOR</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541064">IOCTL_GET_PHYSICAL_DESCRIPTOR</a>
  
 
  
-
 

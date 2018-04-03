@@ -7,7 +7,7 @@ old-location: storage\scsiportwmifirelogicalunitevent.htm
 old-project: storage
 ms.assetid: f8bfc6cb-78d4-482b-b08b-0d86631ce979
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: ScsiPortWmiFireLogicalUnitEvent, ScsiPortWmiFireLogicalUnitEvent routine [Storage Devices], scsiprt_67f96e3c-cc69-44a7-b324-a247a9a928cc.xml, scsiwmi/ScsiPortWmiFireLogicalUnitEvent, storage.scsiportwmifirelogicalunitevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	scsiwmi.h
 api_name:
 -	ScsiPortWmiFireLogicalUnitEvent
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SCSIWMI_ENABLE_DISABLE_CONTROL
 req.product: Windows 10 or later.
@@ -53,23 +54,6 @@ req.product: Windows 10 or later.
 The <b>ScsiPortWmiFireLogicalUnitEvent</b> routine sends an event associated with a logical unit to the port driver for delivery to WMI data consumers that have requested notification of the event.
 <div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
-## -syntax
-
-
-````
-VOID ScsiPortWmiFireLogicalUnitEvent(
-  _In_ PVOID  HwDeviceExtension,
-  _In_ UCHAR  PathId,
-  _In_ UCHAR  TargetId,
-  _In_ UCHAR  Lun,
-  _In_ LPGUID Guid,
-  _In_ ULONG  InstanceIndex,
-  _In_ ULONG  EventDataSize,
-  _In_ PVOID  EventData
-);
-````
-
-
 ## -parameters
 
 
@@ -77,7 +61,7 @@ VOID ScsiPortWmiFireLogicalUnitEvent(
 
 ### -param HwDeviceExtension [in]
 
-Pointer to the hardware device extension. This is a per-HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the HBA's mapped access ranges. This area is available to the miniport driver in the <b>DeviceExtension-&gt;HwDeviceExtension</b> member of the HBA's device object immediately after the miniport driver calls <a href="..\srb\nf-srb-scsiportinitialize.md">ScsiPortInitialize</a>. The port driver frees this memory when it removes the device. 
+Pointer to the hardware device extension. This is a per-HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the HBA's mapped access ranges. This area is available to the miniport driver in the <b>DeviceExtension-&gt;HwDeviceExtension</b> member of the HBA's device object immediately after the miniport driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff564645">ScsiPortInitialize</a>. The port driver frees this memory when it removes the device. 
 
 
 ### -param PathId [in]
@@ -130,7 +114,7 @@ None
 
 A miniport driver calls <b>ScsiPortWmiFireLogicalUnitEvent</b> to send an event associated with an adapter or logical unit to all data consumers that have requested notification of the event. 
 
-The miniport driver sends an event only if it has been previously enabled by the miniport driver's <a href="..\scsiwmi\nc-scsiwmi-pscsiwmi_function_control.md">HwScsiWmiFunctionControl</a> routine. 
+The miniport driver sends an event only if it has been previously enabled by the miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff557338">HwScsiWmiFunctionControl</a> routine. 
 
 The driver should write event data to the buffer pointed to by <i>EventData</i> at offset 0x40. The first 0x40 bytes are used by SCSI WMI. If no data is passed back with the event then <i>EventData</i> should be 0x40 bytes in length.
 
@@ -139,12 +123,11 @@ The driver should write event data to the buffer pointed to by <i>EventData</i> 
 
 ## -see-also
 
-<a href="..\scsiwmi\nc-scsiwmi-pscsiwmi_function_control.md">HwScsiWmiFunctionControl</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557338">HwScsiWmiFunctionControl</a>
  
 
  
-
 

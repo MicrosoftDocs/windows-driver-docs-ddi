@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	IPrinterExtensionEventArgs.ReasonId
 -	IPrinterExtensionEventArgs.get_ReasonId
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PrintSchemaSelectionType
 req.product: Windows 10 or later.
@@ -54,16 +55,6 @@ req.product: Windows 10 or later.
 Gets the reason why the printer extension was activated.
 
 This property is read-only.
-
-
-## -syntax
-
-
-````
-HRESULT get_ReasonId(
-  [out, retval] GUID *pReasonId
-);
-````
 
 
 ## -parameters
@@ -100,16 +91,15 @@ Guid = {23BB1328-63DE-4293-915B-A6A23D929ACB}
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh973209">DetailedReasonId</a>
 
 
 
-<a href="..\printerextension\nn-printerextension-iprinterextensioneventargs.md">IPrinterExtensionEventArgs</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh973207">IPrinterExtensionEventArgs</a>
  
 
  
-
 

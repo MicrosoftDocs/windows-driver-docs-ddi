@@ -7,7 +7,7 @@ old-location: display\d3d11_1ddi_video_decoderr_buffer_desc.htm
 old-project: display
 ms.assetid: aff44ad9-7ade-4b01-8e41-11d686728faa
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3D11_1DDI_VIDEO_DECODERR_BUFFER_DESC, D3D11_1DDI_VIDEO_DECODERR_BUFFER_DESC structure [Display Devices], D3D11_1DDI_VIDEO_DECODER_BUFFER_DESC, D3D11_1DDI_VIDEO_DECODER_BUFFER_DESC structure [Display Devices], d3d10umddi/D3D11_1DDI_VIDEO_DECODERR_BUFFER_DESC, display.d3d11_1ddi_video_decoderr_buffer_desc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3d10umddi.h
 api_name:
 -	D3D11_1DDI_VIDEO_DECODER_BUFFER_DESC
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D11_1DDI_VIDEO_DECODER_BUFFER_DESC
 ---
@@ -50,30 +51,6 @@ req.typenames: D3D11_1DDI_VIDEO_DECODER_BUFFER_DESC
 
 
 Describes a compressed buffer for Microsoft DirectX Video Acceleration (DXVA) decoding.
-
-
-## -syntax
-
-
-````
-typedef struct D3D11_1DDI_VIDEO_DECODERR_BUFFER_DESC {
-  D3D10DDI_HRESOURCE                   hResource;
-  D3D11_1DDI_VIDEO_DECODER_BUFFER_TYPE BufferType;
-  UINT                                 BufferIndex;
-  UINT                                 DataOffset;
-  UINT                                 DataSize;
-  UINT                                 FirstMBaddress;
-  UINT                                 NumMBsInBuffer;
-  UINT                                 Width;
-  UINT                                 Height;
-  UINT                                 Stride;
-  UINT                                 ReservedBits;
-  void                                 *pIV;
-  UINT                                 IVSize;
-  BOOL                                 PartialEncryption;
-  D3D11_1DDI_ENCRYPTED_BLOCK_INFO      EncryptedBlockInfo;
-} D3D11_1DDI_VIDEO_DECODER_BUFFER_DESC;
-````
 
 
 ## -struct-fields
@@ -88,9 +65,9 @@ A handle to the resource that will receive the decrypted and decode frame buffer
 
 ### -field BufferType
 
-The type of buffer, specified as a constant value of the <a href="..\d3d10umddi\ne-d3d10umddi-d3d11_ddi_video_decoder_buffer_type.md">D3D11_DDI_VIDEO_DECODER_BUFFER_TYPE</a> enumeration.
+The type of buffer, specified as a constant value of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451066">D3D11_DDI_VIDEO_DECODER_BUFFER_TYPE</a> enumeration.
 
-In D3d10umddi.h, <a href="..\d3d10umddi\ne-d3d10umddi-d3d11_ddi_video_decoder_buffer_type.md">D3D11_DDI_VIDEO_DECODER_BUFFER_TYPE</a> and <b>D3D11_1DDI_VIDEO_DECODER_BUFFER_TYPE</b> are defined as the same type.
+In D3d10umddi.h, <a href="https://msdn.microsoft.com/library/windows/hardware/hh451066">D3D11_DDI_VIDEO_DECODER_BUFFER_TYPE</a> and <b>D3D11_1DDI_VIDEO_DECODER_BUFFER_TYPE</b> are defined as the same type.
 
 
 ### -field BufferIndex
@@ -140,7 +117,7 @@ Reserved for system use. Set to zero.
 
 ### -field pIV
 
-A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_aes_ctr_iv.md">D3D11_1DDI_AES_CTR_IV</a> structure that contains an initialization vector (IV) for the frame buffer data that was encrypted by using the 128-bit Advanced Encryption Standard CTR mode (AES-CTR) block cipher encryption algorithm.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406334">D3D11_1DDI_AES_CTR_IV</a> structure that contains an initialization vector (IV) for the frame buffer data that was encrypted by using the 128-bit Advanced Encryption Standard CTR mode (AES-CTR) block cipher encryption algorithm.
 
 If the decode buffer does not contain any encrypted data, set <b>pIV</b> to <b>NULL</b>.
 
@@ -157,25 +134,24 @@ If <b>TRUE</b>, the video surfaces are partially encrypted.
 
 ### -field EncryptedBlockInfo
 
-A <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_encrypted_block_info.md">D3D11_1DDI_ENCRYPTED_BLOCK_INFO</a> structure that specifies which bytes of the surface are encrypted.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/hh406446">D3D11_1DDI_ENCRYPTED_BLOCK_INFO</a> structure that specifies which bytes of the surface are encrypted.
 
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_aes_ctr_iv.md">D3D11_1DDI_AES_CTR_IV</a>
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_encrypted_block_info.md">D3D11_1DDI_ENCRYPTED_BLOCK_INFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406334">D3D11_1DDI_AES_CTR_IV</a>
 
 
 
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d11_ddi_video_decoder_buffer_type.md">D3D11_DDI_VIDEO_DECODER_BUFFER_TYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406446">D3D11_1DDI_ENCRYPTED_BLOCK_INFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451066">D3D11_DDI_VIDEO_DECODER_BUFFER_TYPE</a>
  
 
  
-
 

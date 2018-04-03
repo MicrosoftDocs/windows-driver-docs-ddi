@@ -38,7 +38,8 @@ api_location:
 -	winsplp.h
 api_name:
 -	MONITORUI
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MONITORUI, *PMONITORUI
 req.product: Windows 10 or later.
@@ -51,29 +52,6 @@ req.product: Windows 10 or later.
 
 
 The MONITORUI structure contains pointers to the functions within a port monitor UI DLL that the print spooler calls.
-
-
-## -syntax
-
-
-````
-typedef struct _MONITORUI {
-  DWORD dwMonitorUISize;
-  BOOL  (WINAPI *pfnAddPortUI)(
-      _In_opt_ PCWSTR pszServer, 
-      _In_ HWND hWnd, 
-      _In_ PCWSTR pszMonitorNameIn, 
-      _Out_opt_ PWSTR ppszPortNameOut);
-  BOOL  (WINAPI *pfnConfigurePortUI)(
-      _In_opt_ PCWSTR pName, 
-      _In_ HWND hWnd, 
-      _In_ PCWSTR pPortName);
-  BOOL  (WINAPI *pfnDeletePortUI)(
-      _In_opt_ PCWSTR pszServer, 
-      _In_ HWND hWnd, 
-      _In_ PCWSTR pszPortName);
-} MONITORUI, *PMONITORUI;
-````
 
 
 ## -struct-fields
@@ -99,19 +77,18 @@ Size, in bytes, of the MONITORUI structure.
 
 
 
-All structure members must be initialized by the port monitor UI DLL. The structure's address is passed to the print spooler as the return value for the <a href="..\winsplp\nf-winsplp-initializeprintmonitorui.md">InitializePrintMonitorUI</a> function.
+All structure members must be initialized by the port monitor UI DLL. The structure's address is passed to the print spooler as the return value for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551608">InitializePrintMonitorUI</a> function.
 
 
 
 
 ## -see-also
 
-<a href="..\winsplp\nf-winsplp-initializeprintmonitorui.md">InitializePrintMonitorUI</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551608">InitializePrintMonitorUI</a>
  
 
  
-
 

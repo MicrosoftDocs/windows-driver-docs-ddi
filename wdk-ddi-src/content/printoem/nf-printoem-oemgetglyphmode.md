@@ -38,7 +38,8 @@ api_location:
 -	printoem.h
 api_name:
 -	OEMGetGlyphMode
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STDVARIABLEINDEX
 req.product: Windows 10 or later.
@@ -51,17 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <code>OEMGetGlyphMode</code> function informs the GDI how to cache glyph information.
-
-
-## -syntax
-
-
-````
-ULONG APIENTRY OEMGetGlyphMode(
-   DHPDEV  dhpdev,
-   FONTOBJ *pfo
-);
-````
 
 
 ## -parameters

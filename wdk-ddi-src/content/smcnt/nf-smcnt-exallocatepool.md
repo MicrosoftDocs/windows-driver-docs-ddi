@@ -7,7 +7,7 @@ old-location: kernel\exallocatepool.htm
 old-project: kernel
 ms.assetid: b5b88a14-3d60-45bf-8340-b78175a55e01
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 2/24/2018
 ms.keywords: ExAllocatePool, ExAllocatePool routine [Kernel-Mode Driver Architecture], k102_02ff5510-3d96-4a15-a0da-5da56e14b1b8.xml, kernel.exallocatepool, wdm/ExAllocatePool
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	ExAllocatePool
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VENDOR_ATTR, *PVENDOR_ATTR
 req.product: Windows 10 or later.
@@ -122,7 +123,7 @@ The system automatically sets certain standard event objects when the amount of 
 
 ## -see-also
 
-<a href="..\wudfwdm\ne-wudfwdm-_pool_type.md">POOL_TYPE</a>
+<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
 
 
 
@@ -130,12 +131,13 @@ The system automatically sets certain standard event objects when the amount of 
 
 
 
-<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
+<a href="..\wudfwdm\ne-wudfwdm-_pool_type.md">POOL_TYPE</a>
 
 
 
  
 
  
+
 
 

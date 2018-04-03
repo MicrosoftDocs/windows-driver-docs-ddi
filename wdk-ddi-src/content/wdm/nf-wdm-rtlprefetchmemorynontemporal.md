@@ -7,7 +7,7 @@ old-location: kernel\rtlprefetchmemorynontemporal.htm
 old-project: kernel
 ms.assetid: d11c3414-86c8-4b68-829e-4523519c5299
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: RtlPrefetchMemoryNonTemporal, RtlPrefetchMemoryNonTemporal routine [Kernel-Mode Driver Architecture], k109_795dffef-c947-4f0b-a8ab-fcc0cb6cc630.xml, kernel.rtlprefetchmemorynontemporal, wdm/RtlPrefetchMemoryNonTemporal
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	RtlPrefetchMemoryNonTemporal
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
@@ -51,17 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>RtlPrefetchMemoryNonTemporal</b> routine provides a hint to the processor that a buffer should be temporarily moved into the processor cache.
-
-
-## -syntax
-
-
-````
-VOID RtlPrefetchMemoryNonTemporal(
-  _In_ PVOID  Source,
-  _In_ SIZE_T Length
-);
-````
 
 
 ## -parameters

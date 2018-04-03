@@ -39,7 +39,8 @@ api_location:
 -	Wdf01000.sys.dll
 api_name:
 -	WdfPdoRetrieveIdentificationDescription
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_OBJECT_CONTEXT_TYPE_INFO, *PWDF_OBJECT_CONTEXT_TYPE_INFO
 req.product: Windows 10 or later.
@@ -56,17 +57,6 @@ req.product: Windows 10 or later.
 The <b>WdfPdoRetrieveIdentificationDescription</b> method retrieves the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/dynamic-enumeration">identification description</a> that is associated with a specified framework device object.
 
 
-## -syntax
-
-
-````
-NTSTATUS WdfPdoRetrieveIdentificationDescription(
-  _In_    WDFDEVICE                                    Device,
-  _Inout_ PWDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER IdentificationDescription
-);
-````
-
-
 ## -parameters
 
 
@@ -79,7 +69,7 @@ A handle to a framework device object that represents the device's physical devi
 
 ### -param IdentificationDescription [in, out]
 
-A pointer to a caller-allocated buffer that will receive the identification description. The identification description must contain a <a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_identification_description_header.md">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER</a> structure.
+A pointer to a caller-allocated buffer that will receive the identification description. The identification description must contain a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551223">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER</a> structure.
 
 
 ## -returns
@@ -112,7 +102,7 @@ The <i>Device</i> handle does not represent a PDO.
 </dl>
 </td>
 <td width="60%">
-The <i>Device</i> handle does not represent a device that was <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/dynamic-enumeration">dynamically enumerated</a>, or if the <a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_identification_description_header.md">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER</a> structure does not contain the correct buffer size.
+The <i>Device</i> handle does not represent a device that was <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/dynamic-enumeration">dynamically enumerated</a>, or if the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551223">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER</a> structure does not contain the correct buffer size.
 
 </td>
 </tr>
@@ -128,16 +118,15 @@ A system bug check occurs if the driver supplies an invalid object handle.
 
 ## -see-also
 
-<a href="..\wdfpdo\nf-wdfpdo-wdfpdoretrieveaddressdescription.md">WdfPdoRetrieveAddressDescription</a>
 
 
 
-<a href="..\wdfchildlist\nf-wdfchildlist-wdf_child_identification_description_header_init.md">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER_INIT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551225">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER_INIT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548820">WdfPdoRetrieveAddressDescription</a>
  
 
  
-
 

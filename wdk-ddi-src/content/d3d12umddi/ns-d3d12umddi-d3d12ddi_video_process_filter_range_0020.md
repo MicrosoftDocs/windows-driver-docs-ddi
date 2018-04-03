@@ -7,7 +7,7 @@ old-location: display\d3d12ddi_video_process_filter_range.htm
 old-project: display
 ms.assetid: D77D1542-2730-456A-BC99-3507C4377C77
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3D12DDI_VIDEO_PROCESS_FILTER_RANGE_0020, D3D12DDI_VIDEO_PROCESS_FILTER_RANGE_0020 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_PROCESS_FILTER_RANGE_0020, display.d3d12ddi_video_process_filter_range
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3d12umddi.h
 api_name:
 -	D3D12DDI_VIDEO_PROCESS_FILTER_RANGE_0020
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D12DDI_VIDEO_PROCESS_FILTER_RANGE_0020
 ---
@@ -50,19 +51,6 @@ req.typenames: D3D12DDI_VIDEO_PROCESS_FILTER_RANGE_0020
 
 
 Defines the range of supported values for an image filter.
-
-
-## -syntax
-
-
-````
-typedef struct D3D12DDI_VIDEO_PROCESS_FILTER_RANGE_0020 {
-  INT   Minimum;
-  INT   Maximum;
-  INT   Default;
-  FLOAT Multiplier;
-} D3D12DDI_VIDEO_PROCESS_FILTER_RANGE_0020;
-````
 
 
 ## -struct-fields

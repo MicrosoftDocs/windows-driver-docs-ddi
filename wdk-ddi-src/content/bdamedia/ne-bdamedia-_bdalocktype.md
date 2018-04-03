@@ -38,7 +38,8 @@ api_location:
 -	bdamedia.h
 api_name:
 -	BDA_LockType
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BDA_LockType
 ---
@@ -50,19 +51,6 @@ req.typenames: BDA_LockType
 
 
 The BDA_LockType enumerated type contains values that specify lock types for a signal. 
-
-
-## -syntax
-
-
-````
-typedef enum _BdaLockType { 
-  Bda_LockType_None          = 0x00,
-  Bda_LockType_PLL           = 0x01,
-  Bda_LockType_DecoderDemod  = 0x02,
-  Bda_LockType_Complete      = 0x80
-} BDA_LockType;
-````
 
 
 ## -enum-fields
@@ -92,7 +80,6 @@ To be supplied.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564370">KSPROPERTY_BDA_SIGNAL_LOCK_TYPE</a>
 
 
 
@@ -100,8 +87,8 @@ To be supplied.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564370">KSPROPERTY_BDA_SIGNAL_LOCK_TYPE</a>
  
 
  
-
 

@@ -38,13 +38,19 @@ api_location:
 -	ntddpar.h
 api_name:
 -	IOCTL_PAR_QUERY_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OFFLOAD_SECURITY_ASSOCIATION, *POFFLOAD_SECURITY_ASSOCIATION
 ---
 
 # IOCTL_PAR_QUERY_INFORMATION IOCTL
 
+
+##  Major Code: 
+
+
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -126,11 +132,11 @@ The value of the <b>Parameters.DeviceIoControl.OutputBufferLength</b> member is 
 
 ## -see-also
 
-<a href="..\ntddpar\ni-ntddpar-ioctl_par_query_location.md">IOCTL_PAR_QUERY_LOCATION</a>
-
-
-
 <a href="..\ntddpar\ns-ntddpar-_par_query_information.md">PAR_QUERY_INFORMATION</a>
+
+
+
+<a href="..\ntddpar\ni-ntddpar-ioctl_par_query_location.md">IOCTL_PAR_QUERY_LOCATION</a>
 
 
 

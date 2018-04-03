@@ -7,7 +7,7 @@ old-location: storage\mpiomovedevice_in.htm
 old-project: storage
 ms.assetid: 2652874f-70d0-4eff-a46d-778a68d55cab
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PMPIOMoveDevice_IN, MPIOMoveDevice_IN, MPIOMoveDevice_IN structure [Storage Devices], PMPIOMoveDevice_IN, PMPIOMoveDevice_IN structure pointer [Storage Devices], _MPIOMoveDevice_IN, mpiowmi/MPIOMoveDevice_IN, mpiowmi/PMPIOMoveDevice_IN, storage.mpiomovedevice_in, structs-scsibus_d1c11b7d-5c45-441b-8362-642db610e19e.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	mpiowmi.h
 api_name:
 -	MPIOMoveDevice_IN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MPIOMoveDevice_IN, *PMPIOMoveDevice_IN
 ---
@@ -50,18 +51,6 @@ req.typenames: MPIOMoveDevice_IN, *PMPIOMoveDevice_IN
 
 
 The MPIOMoveDevice_IN structure is used to set the active path on the device.
-
-
-## -syntax
-
-
-````
-typedef struct _MPIOMoveDevice_IN {
-  ULONG     DiskOrdinal;
-  ULONG     Flags;
-  ULONGLONG PathID;
-} MPIOMoveDevice_IN, *PMPIOMoveDevice_IN;
-````
 
 
 ## -struct-fields

@@ -38,7 +38,8 @@ api_location:
 -	Ksproxy.h
 api_name:
 -	KS_LogicalMemoryType
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KS_LogicalMemoryType
 ---
@@ -50,22 +51,6 @@ req.typenames: KS_LogicalMemoryType
 
 
 
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  KS_MemoryTypeDontCare          = 0,
-  KS_MemoryTypeKernelPaged,
-  KS_MemoryTypeKernelNonPaged,
-  KS_MemoryTypeDeviceHostMapped,
-  KS_MemoryTypeDeviceSpecific,
-  KS_MemoryTypeUser,
-  KS_MemoryTypeAnyHost
-} KS_LogicalMemoryType;
-````
 
 
 ## -enum-fields

@@ -38,7 +38,8 @@ api_location:
 -	1.0\Sercx.h
 api_name:
 -	SERCX_ACTIVITY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SERCX_ACTIVITY, *PSERCX_ACTIVITY
 req.product: Windows 10 or later.
@@ -53,18 +54,6 @@ req.product: Windows 10 or later.
 The <b>SERCX_ACTIVITY</b> structure contains a summary of work items that are ready for the serial controller driver to process.
 
 
-## -syntax
-
-
-````
-typedef struct _SERCX_ACTIVITY {
-  ULONG   Size;
-  BOOLEAN Transmitting;
-  BOOLEAN Receiving;
-} SERCX_ACTIVITY, *PSERCX_ACTIVITY;
-````
-
-
 ## -struct-fields
 
 
@@ -72,7 +61,7 @@ typedef struct _SERCX_ACTIVITY {
 
 ### -field Size
 
-The size, in bytes, of this structure. The <a href="..\sercx\nf-sercx-sercxgetactivity.md">SerCxGetActivity</a> method uses this member to determine which version of the structure the caller is using. The size of this structure might change in future versions of the Sercx.h header file.
+The size, in bytes, of this structure. The <a href="https://msdn.microsoft.com/library/windows/hardware/hh406695">SerCxGetActivity</a> method uses this member to determine which version of the structure the caller is using. The size of this structure might change in future versions of the Sercx.h header file.
 
 
 ### -field Transmitting
@@ -89,7 +78,7 @@ Whether a receive (read) operation is in progress. This member is TRUE if a rece
 
 
 
-This structure must be initialized by the <a href="..\sercx\nf-sercx-sercx_activity_init.md">SERCX_ACTIVITY_INIT</a> function before its initial use. Thereafter, calls to the <a href="..\sercx\nf-sercx-sercxgetactivity.md">SerCxGetActivity</a> method update the contents of this structure to indicate the work that is currently pending.
+This structure must be initialized by the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439532">SERCX_ACTIVITY_INIT</a> function before its initial use. Thereafter, calls to the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406695">SerCxGetActivity</a> method update the contents of this structure to indicate the work that is currently pending.
 
 The <b>SERCX_ACTIVITY</b> structure summarizes the pending work that the serial framework extension (SerCx) assigns to the serial controller driver. This work is driven by I/O requests from clients, but an I/O request does not necessarily spawn a work item. For example, if SerCx has a sufficient amount of received data in its memory buffer to complete a pending read request, this request does not cause the <b>Receiving</b> member of the <b>SERCX_ACTIVITY</b> structure to be set to TRUE.
 
@@ -100,28 +89,27 @@ Typically, <b>SerCxGetActivity</b> is called from the main loop of the transmit/
 
 ## -see-also
 
-<a href="..\sercx\nf-sercx-sercxcompletewait.md">SerCxCompleteWait</a>
 
 
 
-<a href="..\sercx\nf-sercx-sercx_activity_init.md">SERCX_ACTIVITY_INIT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439532">SERCX_ACTIVITY_INIT</a>
 
 
 
-<a href="..\sercx\nf-sercx-sercxprogressreceive.md">SerCxProgressReceive</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406677">SerCxCompleteWait</a>
 
 
 
-<a href="..\sercx\nf-sercx-sercxgetactivity.md">SerCxGetActivity</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406695">SerCxGetActivity</a>
 
 
 
-<a href="..\sercx\nf-sercx-sercxprogresstransmit.md">SerCxProgressTransmit</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406713">SerCxProgressReceive</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406715">SerCxProgressTransmit</a>
  
 
  
-
 

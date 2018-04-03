@@ -7,7 +7,7 @@ old-location: netvista\ndk_shared_endpoint_dispatch.htm
 old-project: netvista
 ms.assetid: A0AFCF2B-E1A9-478C-8B03-D7C873F83369
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NDK_SHARED_ENDPOINT_DISPATCH, NDK_SHARED_ENDPOINT_DISPATCH structure [Network Drivers Starting with Windows Vista], _NDK_SHARED_ENDPOINT_DISPATCH, ndkpi/NDK_SHARED_ENDPOINT_DISPATCH, netvista.ndk_shared_endpoint_dispatch
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ndkpi.h
 api_name:
 -	NDK_SHARED_ENDPOINT_DISPATCH
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDK_SHARED_ENDPOINT_DISPATCH
 ---
@@ -52,18 +53,6 @@ req.typenames: NDK_SHARED_ENDPOINT_DISPATCH
 The <b>NDK_SHARED_ENDPOINT_DISPATCH</b> structure specifies dispatch function entry points for the NDK shared endpoint object.
 
 
-## -syntax
-
-
-````
-typedef struct _NDK_SHARED_ENDPOINT_DISPATCH {
-  NDK_FN_CLOSE_OBJECT                      NdkCloseSharedEndpoint;
-  NDK_FN_QUERY_EXTENSION_INTERFACE         NdkQueryExtension;
-  NDK_FN_GET_SHARED_ENDPOINT_LOCAL_ADDRESS NdkGetLocalAddress;
-} NDK_SHARED_ENDPOINT_DISPATCH;
-````
-
-
 ## -struct-fields
 
 
@@ -71,48 +60,47 @@ typedef struct _NDK_SHARED_ENDPOINT_DISPATCH {
 
 ### -field NdkCloseSharedEndpoint
 
-The entry point for the object's <a href="..\ndkpi\nc-ndkpi-ndk_fn_close_object.md">NDK_FN_CLOSE_OBJECT</a> dispatch function.
+The entry point for the object's <a href="https://msdn.microsoft.com/library/windows/hardware/hh439863">NDK_FN_CLOSE_OBJECT</a> dispatch function.
 
 
 ### -field NdkQueryExtension
 
-The entry point for the object's <a href="..\ndkpi\nc-ndkpi-ndk_fn_query_extension_interface.md">NDK_FN_QUERY_EXTENSION_INTERFACE</a> dispatch function.
+The entry point for the object's <a href="https://msdn.microsoft.com/library/windows/hardware/hh439905">NDK_FN_QUERY_EXTENSION_INTERFACE</a> dispatch function.
 
 
 ### -field NdkGetLocalAddress
 
-The entry point for the object's <a href="..\ndkpi\nc-ndkpi-ndk_fn_get_shared_endpoint_local_address.md">NDK_FN_GET_SHARED_ENDPOINT_LOCAL_ADDRESS</a> dispatch function.
+The entry point for the object's <a href="https://msdn.microsoft.com/library/windows/hardware/hh439899">NDK_FN_GET_SHARED_ENDPOINT_LOCAL_ADDRESS</a> dispatch function.
 
 
 ## -remarks
 
 
 
-The <b>NDK_SHARED_ENDPOINT_DISPATCH</b> structure is used in the <a href="..\ndkpi\ns-ndkpi-_ndk_shared_endpoint.md">NDK_SHARED_ENDPOINT</a> structure.
+The <b>NDK_SHARED_ENDPOINT_DISPATCH</b> structure is used in the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439937">NDK_SHARED_ENDPOINT</a> structure.
 
 
 
 
 ## -see-also
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_close_object.md">NDK_FN_CLOSE_OBJECT</a>
 
 
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_get_shared_endpoint_local_address.md">NDK_FN_GET_SHARED_ENDPOINT_LOCAL_ADDRESS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439863">NDK_FN_CLOSE_OBJECT</a>
 
 
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_query_extension_interface.md">NDK_FN_QUERY_EXTENSION_INTERFACE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439899">NDK_FN_GET_SHARED_ENDPOINT_LOCAL_ADDRESS</a>
 
 
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_shared_endpoint.md">NDK_SHARED_ENDPOINT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439905">NDK_FN_QUERY_EXTENSION_INTERFACE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439937">NDK_SHARED_ENDPOINT</a>
  
 
  
-
 

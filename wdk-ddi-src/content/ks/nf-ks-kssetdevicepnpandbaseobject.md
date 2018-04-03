@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsSetDevicePnpAndBaseObject
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,18 +52,6 @@ req.typenames:
 
 
 The <b>KsSetDevicePnpAndBaseObject</b> function sets the PnP device object in the device header, which is the next device object on the PnP stack and is the device object that PnP requests are forwarded to if <b>KsDefaultDispatchPnp</b> is used.
-
-
-## -syntax
-
-
-````
-void KsSetDevicePnpAndBaseObject(
-  _In_ KSDEVICE_HEADER Header ,
-  _In_ PDEVICE_OBJECT  PnpDeviceObject ,
-  _In_ PDEVICE_OBJECT  BaseDevice 
-);
-````
 
 
 ## -parameters
@@ -103,16 +92,15 @@ None
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksrecalculatestackdepth.md">KsRecalculateStackDepth</a>
 
 
 
-<a href="..\ks\nf-ks-ksallocatedeviceheader.md">KsAllocateDeviceHeader</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560958">KsAllocateDeviceHeader</a>
 
 
 
+<a href="https://msdn.microsoft.com/0b8f23a5-af8a-4b99-8f17-092076523914">KsRecalculateStackDepth</a>
  
 
  
-
 

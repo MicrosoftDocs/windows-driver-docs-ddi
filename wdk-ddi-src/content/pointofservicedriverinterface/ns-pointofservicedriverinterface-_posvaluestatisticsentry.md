@@ -38,7 +38,8 @@ api_location:
 -	PointOfServiceDriverInterface.h
 api_name:
 -	PosValueStatisticsEntry
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PosValueStatisticsEntry
 ---
@@ -50,17 +51,6 @@ req.typenames: PosValueStatisticsEntry
 
 
 This structure contains the value of a statistic.
-
-
-## -syntax
-
-
-````
-typedef struct _PosValueStatisticsEntry {
-  wchar_t       EntryName[STATISTICS_STRING_SIZE];
-  volatile LONG Value;
-} PosValueStatisticsEntry;
-````
 
 
 ## -struct-fields

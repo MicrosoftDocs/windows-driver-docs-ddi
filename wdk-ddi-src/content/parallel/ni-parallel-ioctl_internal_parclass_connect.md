@@ -38,13 +38,19 @@ api_location:
 -	parallel.h
 api_name:
 -	IOCTL_INTERNAL_PARCLASS_CONNECT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILGBATOKEN, *LPRILGBATOKEN
 ---
 
 # IOCTL_INTERNAL_PARCLASS_CONNECT IOCTL
 
+
+##  Major Code: 
+
+
+[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -113,11 +119,11 @@ The value of the <b>Parameters.DeviceIoControl.OutputBufferLength</b> member is 
 
 ## -see-also
 
-<a href="..\parallel\ni-parallel-ioctl_internal_parclass_disconnect.md">IOCTL_INTERNAL_PARCLASS_DISCONNECT</a>
-
-
-
 <a href="..\parallel\ns-parallel-_parclass_information.md">PARCLASS_INFORMATION</a>
+
+
+
+<a href="..\parallel\ni-parallel-ioctl_internal_parclass_disconnect.md">IOCTL_INTERNAL_PARCLASS_DISCONNECT</a>
 
 
 

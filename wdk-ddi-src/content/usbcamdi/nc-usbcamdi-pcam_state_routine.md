@@ -38,7 +38,8 @@ api_location:
 -	usbcamdi.h
 api_name:
 -	MyCamState
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USB_BUS_INTERFACE_USBDI_V3, *PUSB_BUS_INTERFACE_USBDI_V3
 req.product: Windows 10 or later.
@@ -53,17 +54,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[CamRestoreState is not supported and may be altered or unavailable in the future. ]
 
 A camera minidriver's state callback function restores a previously saved device context state or saves the current device context state.
-
-
-## -prototype
-
-
-````
-NTSTATUS MyCamState(
-   PDEVICE_OBJECT BusDeviceObject,
-   PVOID          DeviceContext
-);
-````
 
 
 ## -parameters
@@ -122,12 +112,11 @@ This function is optional.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568157">SRB_CHANGE_POWER_STATE</a>
-
-
-
  
 
  
-
 

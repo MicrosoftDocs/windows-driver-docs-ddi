@@ -38,7 +38,8 @@ api_location:
 -	WUDFx02000.dll
 api_name:
 -	WdfRequestGetRequestorProcessId
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_REQUEST_TYPE
 req.product: Windows 10 or later.
@@ -53,16 +54,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WdfRequestGetRequestorProcessId</b> method retrieves the identifier of the process that sent an I/O request.
-
-
-## -syntax
-
-
-````
-ULONG WdfRequestGetRequestorProcessId(
-  _In_ WDFREQUEST Request
-);
-````
 
 
 ## -parameters
@@ -86,12 +77,11 @@ A handle to a framework request object.
 
 ## -see-also
 
-<a href="..\wdffileobject\nf-wdffileobject-wdffileobjectgetinitiatorprocessid.md">WdfFileObjectGetInitiatorProcessId</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265614">WdfFileObjectGetInitiatorProcessId</a>
  
 
  
-
 

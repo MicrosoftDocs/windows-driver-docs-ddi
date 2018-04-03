@@ -7,7 +7,7 @@ old-location: netvista\ndisinitializestring.htm
 old-project: netvista
 ms.assetid: c6945d7d-5152-4968-a628-7850b8083a82
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NdisInitializeString, NdisInitializeString function [Network Drivers Starting with Windows Vista], ndis/NdisInitializeString, ndis_string_ref_886eff5e-5f5a-49f2-91d3-e87128cf0542.xml, netvista.ndisinitializestring
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	ndis.dll
 api_name:
 -	NdisInitializeString
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
@@ -53,17 +54,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 The 
   <b>NdisInitializeString</b> function allocates storage for and initializes a counted string in the
   system-default character set.
-
-
-## -syntax
-
-
-````
-VOID NdisInitializeString(
-  _Out_ PNDIS_STRING DestinationString,
-  _In_  PUCHAR       SourceString
-);
-````
 
 
 ## -parameters
@@ -89,7 +79,7 @@ A pointer that is <b>NULL</b> when
      <b>NdisInitializeString</b> is called; on return from this function, this parameter points to an
      NDIS_STRING type that describes an initialized counted string. For Windows 2000 and later, NDIS defines
      the NDIS_STRING type as a 
-     <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> type.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> type.
 
 
 #### - SourceString [in]
@@ -121,26 +111,13 @@ None
 
 The buffer allocated by 
     <b>NdisInitializeString</b> should be released with the 
-    <a href="..\ndis\nf-ndis-ndisfreestring.md">NdisFreeString</a> function.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff562604">NdisFreeString</a> function.
 
 
 
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
-
-
-<a href="..\wdm\nf-wdm-rtlunicodestringtoansistring.md">RtlUnicodeStringToAnsiString</a>
-
-
-
-<a href="..\wdm\nf-wdm-rtlansistringtounicodestring.md">RtlAnsiStringToUnicodeString</a>
-
-
-
-<a href="..\wdm\nf-wdm-rtlinitstring.md">RtlInitString</a>
 
 
 
@@ -153,28 +130,40 @@ The buffer allocated by
 
 
 
-<a href="..\wudfwdm\nf-wudfwdm-rtlequalunicodestring.md">RtlEqualUnicodeString</a>
+<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>
 
 
 
-<a href="..\wudfwdm\nf-wudfwdm-rtlinitunicodestring.md">RtlInitUnicodeString</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561729">RtlAnsiStringToUnicodeString</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561854">RtlEqualUnicodeString</a>
 
 
 
-<a href="..\wdm\nf-wdm-rtlfreeansistring.md">RtlFreeAnsiString</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561899">RtlFreeAnsiString</a>
 
 
 
-<a href="..\wudfwdm\nf-wudfwdm-rtlfreeunicodestring.md">RtlFreeUnicodeString</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561903">RtlFreeUnicodeString</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561929">RtlInitString</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561934">RtlInitUnicodeString</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562969">RtlUnicodeStringToAnsiString</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
  
 
  
-
 

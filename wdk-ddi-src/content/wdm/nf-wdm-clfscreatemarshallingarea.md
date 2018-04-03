@@ -7,7 +7,7 @@ old-location: kernel\clfscreatemarshallingarea.htm
 old-project: kernel
 ms.assetid: c841d8fb-fa42-4ce5-aedb-c7c13bcc2ba7
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: ClfsCreateMarshallingArea, ClfsCreateMarshallingArea routine [Kernel-Mode Driver Architecture], Clfs_7b5e3208-8dfb-4fbf-b2a9-77ecc5765df6.xml, kernel.clfscreatemarshallingarea, wdm/ClfsCreateMarshallingArea
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ext-MS-Win-fs-clfs-l1-1-0.dll
 api_name:
 -	ClfsCreateMarshallingArea
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
@@ -54,23 +55,6 @@ req.product: Windows 10 or later.
 The <b>ClfsCreateMarshallingArea</b> routine creates a marshalling area for a CLFS stream and returns a pointer to an opaque context that represents the new marshalling area.
 
 
-## -syntax
-
-
-````
-NTSTATUS ClfsCreateMarshallingArea(
-  _In_     PLOG_FILE_OBJECT   plfoLog,
-  _In_     POOL_TYPE          ePoolType,
-  _In_opt_ PALLOCATE_FUNCTION pfnAllocBuffer,
-  _In_opt_ PFREE_FUNCTION     pfnFreeBuffer,
-  _In_     ULONG              cbMarshallingBuffer,
-  _In_     ULONG              cMaxWriteBuffers,
-  _In_     ULONG              cMaxReadBuffers,
-  _Out_    PVOID              *ppvMarshalContext
-);
-````
-
-
 ## -parameters
 
 
@@ -78,12 +62,12 @@ NTSTATUS ClfsCreateMarshallingArea(
 
 ### -param plfoLog [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff554316">LOG_FILE_OBJECT</a> structure that represents a CLFS stream. The caller previously obtained this pointer by calling <a href="..\wdm\nf-wdm-clfscreatelogfile.md">ClfsCreateLogFile</a>.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff554316">LOG_FILE_OBJECT</a> structure that represents a CLFS stream. The caller previously obtained this pointer by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff540792">ClfsCreateLogFile</a>.
 
 
 ### -param ePoolType [in]
 
-A <a href="..\wudfwdm\ne-wudfwdm-_pool_type.md">POOL_TYPE</a> value that specifies the type of memory (paged, non-paged, for example) that the new marshalling area will use for its log I/O blocks.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff559707">POOL_TYPE</a> value that specifies the type of memory (paged, non-paged, for example) that the new marshalling area will use for its log I/O blocks.
 
 
 ### -param pfnAllocBuffer [in, optional]
@@ -161,7 +145,7 @@ A pointer to a variable that receives a pointer to an opaque context that repres
 
 The <i>pfnAllocBuffer</i> and <i>pfnFreeBuffer</i> parameters must both point to caller-allocated functions, or they must both be <b>NULL</b>. If they are both <b>NULL</b>, CLFS provides default functions for allocating and freeing log I/O blocks.
 
-Before calling <b>ClfsCreateMarshallingArea</b>, you must add at least two containers to the underlying log by calling <a href="..\wdm\nf-wdm-clfsaddlogcontainer.md">ClfsAddLogContainer</a> or <a href="..\wdm\nf-wdm-clfsaddlogcontainerset.md">ClfsAddLogContainerSet</a>.
+Before calling <b>ClfsCreateMarshallingArea</b>, you must add at least two containers to the underlying log by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff540768">ClfsAddLogContainer</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff540770">ClfsAddLogContainerSet</a>.
 
 For an explanation of CLFS concepts and terminology, see <a href="https://msdn.microsoft.com/a9685648-b08c-48ca-b020-e683068f2ea2">Common Log File System</a>. 
 
@@ -170,32 +154,31 @@ For an explanation of CLFS concepts and terminology, see <a href="https://msdn.m
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540768">ClfsAddLogContainer</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540770">ClfsAddLogContainerSet</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540792">ClfsCreateLogFile</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541540">ClfsDeleteMarshallingArea</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554316">LOG_FILE_OBJECT</a>
 
 
 
-<a href="..\wdm\nf-wdm-clfsdeletemarshallingarea.md">ClfsDeleteMarshallingArea</a>
-
-
-
-<a href="..\wudfwdm\ne-wudfwdm-_pool_type.md">POOL_TYPE</a>
-
-
-
-<a href="..\wdm\nf-wdm-clfsaddlogcontainer.md">ClfsAddLogContainer</a>
-
-
-
-<a href="..\wdm\nf-wdm-clfsaddlogcontainerset.md">ClfsAddLogContainerSet</a>
-
-
-
-<a href="..\wdm\nf-wdm-clfscreatelogfile.md">ClfsCreateLogFile</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559707">POOL_TYPE</a>
  
 
  
-
 

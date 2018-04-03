@@ -7,7 +7,7 @@ old-location: debugger\findsourcefilewide.htm
 old-project: debugger
 ms.assetid: a21be482-7640-4e72-a8af-00bb10216fa8
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: FindSourceFileWide method [Windows Debugging], FindSourceFileWide method [Windows Debugging], IDebugSymbols3 interface, FindSourceFileWide,IDebugSymbols3.FindSourceFileWide, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], FindSourceFileWide method, IDebugSymbols3::FindSourceFileWide, dbgeng/IDebugSymbols3::FindSourceFileWide, debugger.findsourcefilewide
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugSymbols3.FindSourceFileWide
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -50,22 +51,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>FindSourceFileWide</b>  method searches the source path for a specified source file.
-
-
-## -syntax
-
-
-````
-HRESULT FindSourceFileWide(
-  [in]            ULONG  StartElement,
-  [in]            PCWSTR File,
-  [in]            ULONG  Flags,
-  [out, optional] PULONG FoundElement,
-  [out, optional] PWSTR  Buffer,
-  [in]            ULONG  BufferSize,
-  [out, optional] PULONG FoundSize
-);
-````
 
 
 ## -parameters
@@ -184,15 +169,6 @@ For more information about using the source path, see <a href="https://msdn.micr
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548339">GetSourceFileLineOffsets</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545430">FindSourceFileAndToken</a>
 
 
 
@@ -200,12 +176,20 @@ For more information about using the source path, see <a href="https://msdn.micr
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545430">FindSourceFileAndToken</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548339">GetSourceFileLineOffsets</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548367">GetSourcePathElement</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550870">IDebugSymbols3</a>
  
 
  
-
 

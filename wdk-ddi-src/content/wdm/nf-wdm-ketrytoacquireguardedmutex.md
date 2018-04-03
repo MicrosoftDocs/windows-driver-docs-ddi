@@ -7,7 +7,7 @@ old-location: kernel\ketrytoacquireguardedmutex.htm
 old-project: kernel
 ms.assetid: 5fa704ec-5068-42e9-8d52-2f775fd0e5c9
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: KeTryToAcquireGuardedMutex, KeTryToAcquireGuardedMutex routine [Kernel-Mode Driver Architecture], k105_4761d5a7-fc37-45de-a35e-7da9a99258b6.xml, kernel.ketrytoacquireguardedmutex, wdm/KeTryToAcquireGuardedMutex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	KeTryToAcquireGuardedMutex
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
@@ -51,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>KeTryToAcquireGuardedMutex</b> routine acquires a guarded mutex, if available.
-
-
-## -syntax
-
-
-````
-BOOLEAN KeTryToAcquireGuardedMutex(
-  _Inout_ PKGUARDED_MUTEX Mutex
-);
-````
 
 
 ## -parameters
@@ -99,12 +90,11 @@ For more information about guarded mutexes, see <a href="https://msdn.microsoft.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553124">KeReleaseGuardedMutex</a>
-
-
-
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: kernel\cptableinfo.htm
 old-project: kernel
 ms.assetid: 20EE0017-760E-48A1-8658-2A0278843074
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*PCPTABLEINFO, CPTABLEINFO, CPTABLEINFO structure [Kernel-Mode Driver Architecture], PCPTABLEINFO, PCPTABLEINFO structure pointer [Kernel-Mode Driver Architecture], _CPTABLEINFO, kernel.cptableinfo, ntnls/CPTABLEINFO, ntnls/PCPTABLEINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ntnls.h
 api_name:
 -	CPTABLEINFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CPTABLEINFO, *PCPTABLEINFO
 ---
@@ -50,27 +51,6 @@ req.typenames: CPTABLEINFO, *PCPTABLEINFO
 
 
 Stores the NLS file formats.
-
-
-## -syntax
-
-
-````
-typedef struct _CPTABLEINFO {
-  USHORT  CodePage;
-  USHORT  MaximumCharacterSize;
-  USHORT  DefaultChar;
-  USHORT  UniDefaultChar;
-  USHORT  TransDefaultChar;
-  USHORT  TransUniDefaultChar;
-  USHORT  DBCSCodePage;
-  UCHAR   LeadByte[MAXIMUM_LEADBYTES];
-  PUSHORT MultiByteTable;
-  PVOID   WideCharTable;
-  PUSHORT DBCSRanges;
-  PUSHORT DBCSOffsets;
-} CPTABLEINFO, *PCPTABLEINFO;
-````
 
 
 ## -struct-fields

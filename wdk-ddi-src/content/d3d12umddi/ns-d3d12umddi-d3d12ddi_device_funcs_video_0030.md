@@ -7,7 +7,7 @@ old-location: display\d3d12ddi-device-funcs-video-0030.htm
 old-project: display
 ms.assetid: 39647e7d-d89f-43f4-916a-cbfa5ba28611
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3D12DDI_DEVICE_FUNCS_VIDEO_0030, D3D12DDI_DEVICE_FUNCS_VIDEO_0030 structure [Display Devices], d3d12umddi/D3D12DDI_DEVICE_FUNCS_VIDEO_0030, display.d3d12ddi-device-funcs-video-0030
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3d12umddi.h
 api_name:
 -	D3D12DDI_DEVICE_FUNCS_VIDEO_0030
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D12DDI_DEVICE_FUNCS_VIDEO_0030
 ---
@@ -50,27 +51,6 @@ req.typenames: D3D12DDI_DEVICE_FUNCS_VIDEO_0030
 
 
 Video device functions.
-
-
-## -syntax
-
-
-````
-typedef struct _D3D12DDI_DEVICE_FUNCS_VIDEO_0030 {
-  PFND3D12DDI_VIDEO_GETCAPS                                     pfnGetCaps;
-  PFND3D12DDI_CALCPRIVATEVIDEODECODERSIZE_0021                  pfnCalcPrivateVideoDecoderSize;
-  PFND3D12DDI_CREATEVIDEODECODER_0021                           pfnCreateVideoDecoder;
-  PFND3D12DDI_DESTROYVIDEODECODER_0021                          pfnDestroyVideoDecoder;
-  PFND3D12DDI_CALCPRIVATEVIDEOPROCESSORSIZE_0021                pfnCalcPrivateVideoProcessorSize;
-  PFND3D12DDI_CREATEVIDEOPROCESSOR_0021                         pfnCreateVideoProcessor;
-  PFND3D12DDI_DESTROYVIDEOPROCESSOR_0021                        pfnDestroyVideoProcessor;
-  PFND3D12DDI_VIDEO_GET_DECODE_PROFILE_COUNT_0020               pfnGetDecodeProfileCount;
-  PFND3D12DDI_VIDEO_GET_DECODE_FORMAT_COUNT_0020                pfnGetDecodeFormatCount;
-  PFND3D12DDI_VIDEO_GET_BITSTREAM_ENCRYPTION_SCHEME_COUNT_0020  pfnGetBitstreamEncryptionSchemeCount;
-  PFND3D12DDI_VIDEO_DECODER_TRIM_ALLOCATIONS_0021               pfnDecoderTrimAllocations;
-  PFND3D12DDI_VIDEO_PROCESSOR_TRIM_ALLOCATIONS_0021             pfnProcessorTrimAllocations;
-} D3D12DDI_DEVICE_FUNCS_VIDEO_0030, D3D12DDI_DEVICE_FUNCS_VIDEO_0030;
-````
 
 
 ## -struct-fields

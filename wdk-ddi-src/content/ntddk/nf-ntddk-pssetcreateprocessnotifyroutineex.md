@@ -7,7 +7,7 @@ old-location: kernel\pssetcreateprocessnotifyroutineex.htm
 old-project: kernel
 ms.assetid: e982200c-f30c-423e-bd85-03365850c996
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: PsSetCreateProcessNotifyRoutineEx, PsSetCreateProcessNotifyRoutineEx routine [Kernel-Mode Driver Architecture], k108_b68156fb-55d5-4192-a4d0-d74603647f42.xml, kernel.pssetcreateprocessnotifyroutineex, ntddk/PsSetCreateProcessNotifyRoutineEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	PsSetCreateProcessNotifyRoutineEx
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
@@ -52,17 +53,6 @@ req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 The <b>PsSetCreateProcessNotifyRoutineEx</b> routine registers or removes a callback routine that notifies the caller when a process is created or exits.
 
 
-## -syntax
-
-
-````
-NTSTATUS PsSetCreateProcessNotifyRoutineEx(
-  _In_ PCREATE_PROCESS_NOTIFY_ROUTINE_EX NotifyRoutine,
-  _In_ BOOLEAN                           Remove
-);
-````
-
-
 ## -parameters
 
 
@@ -70,7 +60,7 @@ NTSTATUS PsSetCreateProcessNotifyRoutineEx(
 
 ### -param NotifyRoutine [in]
 
-A pointer to the <a href="..\ntddk\nc-ntddk-pcreate_process_notify_routine_ex.md">PCREATE_PROCESS_NOTIFY_ROUTINE_EX</a> routine to register or remove. The operating system calls this routine whenever a new process is created.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/mt764086">PCREATE_PROCESS_NOTIFY_ROUTINE_EX</a> routine to register or remove. The operating system calls this routine whenever a new process is created.
 
 
 ### -param Remove [in]
@@ -132,7 +122,7 @@ The image that contains the callback routine pointer did not have IMAGE_DLLCHARA
 
 
 
-Highest-level drivers can call <b>PsSetCreateProcessNotifyRoutineEx</b> to register a <a href="..\ntddk\nc-ntddk-pcreate_process_notify_routine_ex.md">PCREATE_PROCESS_NOTIFY_ROUTINE_EX</a> routine. An installable file system (IFS) or highest-level system-profiling driver might register a process-creation callback routine to track which processes are created and deleted against the driver's internal state across the system. 
+Highest-level drivers can call <b>PsSetCreateProcessNotifyRoutineEx</b> to register a <a href="https://msdn.microsoft.com/library/windows/hardware/mt764086">PCREATE_PROCESS_NOTIFY_ROUTINE_EX</a> routine. An installable file system (IFS) or highest-level system-profiling driver might register a process-creation callback routine to track which processes are created and deleted against the driver's internal state across the system. 
 
 A driver must remove any callback routines that it registers before it unloads. You can remove the callback routine by calling <b>PsSetCreateProcessNotifyRoutineEx</b> with <i>Remove</i> set to <b>TRUE</b>.
 
@@ -143,20 +133,19 @@ The operating system calls the driver's process-notify routine at PASSIVE_LEVEL 
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_ps_create_notify_info.md">PS_CREATE_NOTIFY_INFO</a>
 
 
 
-<a href="..\ntddk\nc-ntddk-pcreate_process_notify_routine_ex.md">PCREATE_PROCESS_NOTIFY_ROUTINE_EX</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt764086">PCREATE_PROCESS_NOTIFY_ROUTINE_EX</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-pssetcreateprocessnotifyroutine.md">PsSetCreateProcessNotifyRoutine</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559960">PS_CREATE_NOTIFY_INFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559951">PsSetCreateProcessNotifyRoutine</a>
  
 
  
-
 

@@ -38,7 +38,8 @@ api_location:
 -	Prcomoem.h
 api_name:
 -	IPrintCoreUI2.DrvGetDriverSetting
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
@@ -53,21 +54,6 @@ req.product: Windows 10 or later.
 The <code>IPrintCoreUI2::DrvGetDriverSetting</code> method is provided by the Windows XP Pscript5 driver so that Pscript5 user interface plug-ins can obtain the current status of printer features and other internal information.
 
 
-## -syntax
-
-
-````
-STDMETHOD DrvGetDriverSetting(
-   PVOID  pci ,
-   PCSTR  Feature,
-   PVOID  pOutput,
-   DWORD  cbSize,
-   PDWORD pcbNeeded ,
-   PDWORD pdwOptionsReturned 
-);
-````
-
-
 ## -parameters
 
 
@@ -75,7 +61,7 @@ STDMETHOD DrvGetDriverSetting(
 
 ### -param pci
 
-Caller-supplied pointer to an <a href="..\printoem\ns-printoem-_oemuiobj.md">OEMUIOBJ</a> structure. 
+Caller-supplied pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff559571">OEMUIOBJ</a> structure. 
 
 
 ### -param Feature
@@ -164,11 +150,14 @@ This method is inherited from the <a href="https://msdn.microsoft.com/ed11789f-7
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/e2d2e486-d69d-4a6d-aaab-a7b8806665b4">IPrintCoreUI2</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553114">IPrintOemDriverUI::DrvGetDriverSetting</a>
-
-
-
-<a href="..\prcomoem\nn-prcomoem-iprintcoreui2.md">IPrintCoreUI2</a>
 
 
 
@@ -177,11 +166,7 @@ This method is inherited from the <a href="https://msdn.microsoft.com/ed11789f-7
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554173">IPrintOemUI::DocumentPropertySheets</a>
-
-
-
  
 
  
-
 

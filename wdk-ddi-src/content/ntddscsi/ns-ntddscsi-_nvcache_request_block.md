@@ -7,7 +7,7 @@ old-location: storage\nvcache_request_block.htm
 old-project: storage
 ms.assetid: 25ca2d81-72a5-47ae-bdfd-0ec63e1ca39a
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PNVCACHE_REQUEST_BLOCK, NVCACHE_REQUEST_BLOCK, NVCACHE_REQUEST_BLOCK structure [Storage Devices], PNVCACHE_REQUEST_BLOCK, PNVCACHE_REQUEST_BLOCK structure pointer [Storage Devices], _NVCACHE_REQUEST_BLOCK, ntddscsi/NVCACHE_REQUEST_BLOCK, ntddscsi/PNVCACHE_REQUEST_BLOCK, storage.nvcache_request_block, structs-nvcache_1886905c-1d48-4cc9-b74c-3b52dc65b279.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddscsi.h
 api_name:
 -	NVCACHE_REQUEST_BLOCK
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NVCACHE_REQUEST_BLOCK, *PNVCACHE_REQUEST_BLOCK
 ---
@@ -49,25 +50,7 @@ req.typenames: NVCACHE_REQUEST_BLOCK, *PNVCACHE_REQUEST_BLOCK
 ## -description
 
 
-The <b>NVCACHE_REQUEST_BLOCK</b> structure is used in conjunction with the <a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_miniport.md">IOCTL_SCSI_MINIPORT</a> request to manage hybrid-hard disk drive (H-HDD) devices (for example, Microsoft ReadyDrive technology). This topic defines the general structure for both input data and output data for a call made to the NV Cache Manager. A caller should fill all required fields before calling <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> or <a href="..\wdm\nf-wdm-iobuilddeviceiocontrolrequest.md">IoBuildDeviceIoControlRequest</a>. The miniport driver must do the same after the requested function is completed, and before it returns.
-
-
-## -syntax
-
-
-````
-typedef struct _NVCACHE_REQUEST_BLOCK {
-  ULONG     NRBSize;
-  USHORT    Function;
-  ULONG     NRBFlags;
-  ULONG     NRBStatus;
-  ULONG     Count;
-  ULONGLONG LBA;
-  ULONG     DataBufSize;
-  ULONG     NVCacheStatus;
-  ULONG     NVCacheSubStatus;
-} NVCACHE_REQUEST_BLOCK, *PNVCACHE_REQUEST_BLOCK;
-````
+The <b>NVCACHE_REQUEST_BLOCK</b> structure is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560512">IOCTL_SCSI_MINIPORT</a> request to manage hybrid-hard disk drive (H-HDD) devices (for example, Microsoft ReadyDrive technology). This topic defines the general structure for both input data and output data for a call made to the NV Cache Manager. A caller should fill all required fields before calling <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff548318">IoBuildDeviceIoControlRequest</a>. The miniport driver must do the same after the requested function is completed, and before it returns.
 
 
 ## -struct-fields
@@ -90,7 +73,7 @@ Specifies the operation to be performed, which can be one of the following value
 
 #### NRB_FUNCTION_NVCACHE_INFO
 
-Get NV Cache Manager feature support information from the device. Upon the successful completion of this function, the required data fields are returned to the caller. The return data structure is <a href="..\ntddscsi\ns-ntddscsi-_nv_feature_parameter.md">NV_FEATURE_PARAMETER</a>.
+Get NV Cache Manager feature support information from the device. Upon the successful completion of this function, the required data fields are returned to the caller. The return data structure is <a href="https://msdn.microsoft.com/library/windows/hardware/ff563248">NV_FEATURE_PARAMETER</a>.
 
 
 
@@ -243,16 +226,15 @@ For more information on function behavior, see section 7.20 of the <a href="http
 
 ## -see-also
 
-<a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_miniport.md">IOCTL_SCSI_MINIPORT</a>
 
 
 
-<a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_miniport_nvcache.md">IOCTL_SCSI_MINIPORT_NVCACHE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560512">IOCTL_SCSI_MINIPORT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560517">IOCTL_SCSI_MINIPORT_NVCACHE</a>
  
 
  
-
 

@@ -39,7 +39,8 @@ api_location:
 -	Hidparse.dll
 api_name:
 -	HidP_GetButtonCaps
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: HIDP_REPORT_TYPE
 ---
@@ -53,19 +54,6 @@ req.typenames: HIDP_REPORT_TYPE
 The <b>HidP_GetButtonCaps</b> routine returns a <a href="https://msdn.microsoft.com/139324e5-4d46-4d00-9f5a-fd0313fc109a">button capability array</a> that describes all the HID control buttons in a <a href="https://msdn.microsoft.com/dcbee8e3-d03a-45c8-92e4-0897b9f55177">top-level collection</a> for a specified type of HID report.
 
 
-## -syntax
-
-
-````
-NTSTATUS __stdcall HidP_GetButtonCaps(
-  _In_    HIDP_REPORT_TYPE     ReportType,
-  _Out_   PHIDP_BUTTON_CAPS    ButtonCaps,
-  _Inout_ PUSHORT              ButtonCapsLength,
-  _In_    PHIDP_PREPARSED_DATA PreparsedData
-);
-````
-
-
 ## -parameters
 
 
@@ -73,7 +61,7 @@ NTSTATUS __stdcall HidP_GetButtonCaps(
 
 ### -param ReportType [in]
 
-Specifies a <a href="..\hidpi\ne-hidpi-_hidp_report_type.md">HIDP_REPORT_TYPE</a> enumerator value that identifies the report type.
+Specifies a <a href="https://msdn.microsoft.com/library/windows/hardware/ff539774">HIDP_REPORT_TYPE</a> enumerator value that identifies the report type.
 
 
 ### -param ButtonCaps [out]
@@ -136,9 +124,9 @@ The preparsed data is not valid.
 
 <b>HidP_GetButtonCaps</b> returns the capability of all buttons in a top level collection for a specified report type. 
 
-<i>ButtonCapsLength</i> should be set to the value of the <b>Number</b><i>Xxx</i><b>ButtonCaps</b> member of the <a href="..\hidpi\ns-hidpi-_hidp_caps.md">HIDP_CAPS</a> structure returned by <a href="..\hidpi\nf-hidpi-hidp_getcaps.md">HidP_GetCaps</a>, where <i>Xxx</i> specifies the report type.
+<i>ButtonCapsLength</i> should be set to the value of the <b>Number</b><i>Xxx</i><b>ButtonCaps</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539697">HIDP_CAPS</a> structure returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff539715">HidP_GetCaps</a>, where <i>Xxx</i> specifies the report type.
 
-To obtain a subset of button capabilities, selected by <a href="https://msdn.microsoft.com/84fed314-3554-4291-b51c-734d874a4bab">usage</a>, <a href="https://msdn.microsoft.com/84fed314-3554-4291-b51c-734d874a4bab">usage page</a>, or <a href="https://msdn.microsoft.com/3f934661-c33c-4c08-82ac-ee2e0f519c8e">link collection</a>, use <a href="..\hidpi\nf-hidpi-hidp_getspecificbuttoncaps.md">HidP_GetSpecificButtonCaps</a>.
+To obtain a subset of button capabilities, selected by <a href="https://msdn.microsoft.com/84fed314-3554-4291-b51c-734d874a4bab">usage</a>, <a href="https://msdn.microsoft.com/84fed314-3554-4291-b51c-734d874a4bab">usage page</a>, or <a href="https://msdn.microsoft.com/3f934661-c33c-4c08-82ac-ee2e0f519c8e">link collection</a>, use <a href="https://msdn.microsoft.com/library/windows/hardware/ff539733">HidP_GetSpecificButtonCaps</a>.
 
 For more information about a collection's capability, see <a href="https://msdn.microsoft.com/0568993b-ff50-48ac-a875-95ab643d6c28">Obtaining Collection Information</a>.
 
@@ -149,24 +137,23 @@ See also <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db-8cff-9fac3020995
 
 ## -see-also
 
-<a href="..\hidpi\nf-hidpi-hidp_getspecificbuttoncaps.md">HidP_GetSpecificButtonCaps</a>
 
 
 
-<a href="..\hidpi\ns-hidpi-_hidp_button_caps.md">HIDP_BUTTON_CAPS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539693">HIDP_BUTTON_CAPS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539715">HidP_GetCaps</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539733">HidP_GetSpecificButtonCaps</a>
 
 
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
-
-
-
-<a href="..\hidpi\nf-hidpi-hidp_getcaps.md">HidP_GetCaps</a>
-
-
-
  
 
  
-
 

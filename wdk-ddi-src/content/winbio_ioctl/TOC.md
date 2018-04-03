@@ -1,4 +1,4 @@
-# [biometrics](../_biometrics/index.md)
+# [Biometric](../_biometric/index.md)
 ## [Winbio_Ioctl.h](index.md)
 ### [IOCTL_BIOMETRIC_CALIBRATE IOCTL](../winbio_ioctl/ni-winbio_ioctl-ioctl_biometric_calibrate.md)
 ### [IOCTL_BIOMETRIC_CAPTURE_DATA IOCTL](../winbio_ioctl/ni-winbio_ioctl-ioctl_biometric_capture_data.md)

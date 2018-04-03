@@ -38,7 +38,8 @@ api_location:
 -	bidispl.dll
 api_name:
 -	IBidiRequestContainer.GetEnumObject
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
 ---
@@ -50,16 +51,6 @@ req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
 
 
 The <b>GetEnumObject</b> method enumerates the bidi requests in a list.
-
-
-## -syntax
-
-
-````
-HRESULT GetEnumObject(
-  [out] IEnumUnknown **ppenum
-);
-````
 
 
 ## -parameters
@@ -126,18 +117,17 @@ The <b>HRESULT</b> contains an error code corresponding to the last error.
 
 
 
-An application can call <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms693367">IEnumUnknown::Next</a> to retrieve one or more <a href="..\bidispl\nn-bidispl-ibidirequest.md">IBidiRequest</a> interfaces.
+An application can call <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms693367">IEnumUnknown::Next</a> to retrieve one or more <a href="https://msdn.microsoft.com/library/windows/hardware/dd144969">IBidiRequest</a> interfaces.
 
 
 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
-
-
-
-<a href="..\bidispl\nn-bidispl-ibidirequestcontainer.md">IBidiRequestContainer</a>
 
 
 
@@ -145,12 +135,12 @@ An application can call <a href="https://msdn.microsoft.com/en-us/library/window
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dd144970">IBidiRequestContainer</a>
+
+
+
 <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms683764">IEnumUnknown</a>
-
-
-
  
 
  
-
 

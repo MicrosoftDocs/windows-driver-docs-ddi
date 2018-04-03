@@ -7,7 +7,7 @@ old-location: ifsk\rxsetdomainformailslotbroadcast.htm
 old-project: ifsk
 ms.assetid: 22f5e525-bdf8-4047-9b77-6523cb59f090
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: RxSetDomainForMailslotBroadcast, RxSetDomainForMailslotBroadcast function [Installable File System Drivers], ifsk.rxsetdomainformailslotbroadcast, mrx/RxSetDomainForMailslotBroadcast, rxref_d342ef48-ef62-4186-97ea-d974bc4bf596.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	mrx.h
 api_name:
 -	RxSetDomainForMailslotBroadcast
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SetDSMCounters_IN, *PSetDSMCounters_IN
 ---
@@ -50,16 +51,6 @@ req.typenames: SetDSMCounters_IN, *PSetDSMCounters_IN
 
 
 <b>RxSetDomainForMailslotBroadcast</b> is called by a network mini-redirector driver to set the domain used for mailslot broadcasts if mailslots are supported by the driver. 
-
-
-## -syntax
-
-
-````
-NTSTATUS RxSetDomainForMailslotBroadcast(
-  _In_ PUNICODE_STRING DomainName
-);
-````
 
 
 ## -parameters
@@ -113,28 +104,27 @@ One of the parameters passed to the <b>RxRegisterMinirdr</b> routine indicates w
 
 ## -see-also
 
-<a href="..\mrx\nf-mrx-rxstopminirdr.md">RxStopMinirdr</a>
 
 
 
-<a href="..\mrx\nf-mrx-rxregisterminirdr.md">RxRegisterMinirdr</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548397">IoCreateDevice</a>
 
 
 
-<a href="..\mrx\nf-mrx-rxstartminirdr.md">RxStartMinirdr</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554693">RxRegisterMinirdr</a>
 
 
 
-<a href="..\mrx\nf-mrx-__rxfillandinstallfastiodispatch.md">__RxFillAndInstallFastIoDispatch</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554736">RxStartMinirdr</a>
 
 
 
-<a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554743">RxStopMinirdr</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557374">__RxFillAndInstallFastIoDispatch</a>
  
 
  
-
 

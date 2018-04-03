@@ -7,7 +7,7 @@ old-location: display\pfnd3d12ddi_video_processor_trim_allocations.htm
 old-project: display
 ms.assetid: 505B3502-FC2D-47FB-B8CD-3D7DE9ED4770
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3D12DDI_VIDEO_PROCESSOR_TRIM_ALLOCATIONS_0021, d3d12umddi/pfnProcessorTrimAllocations, display.pfnd3d12ddi_video_processor_trim_allocations, pfnProcessorTrimAllocations, pfnProcessorTrimAllocations callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3d12umddi.h
 api_name:
 -	pfnProcessorTrimAllocations
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
 ---
@@ -50,20 +51,6 @@ req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
 
 
 The <i>pfnProcessorTrimAllocations</i> callback function  trims allocations for submissions that are finished.
-
-
-## -prototype
-
-
-````
-PFND3D12DDI_VIDEO_PROCESSOR_TRIM_ALLOCATIONS_0021 pfnProcessorTrimAllocations;
-
-UINT64 APIENTRY* pfnProcessorTrimAllocations(
-   D3D12DDI_HVIDEOPROCESSOR hDrvVideoProcessor,
-   UINT64                   SubmissionID
-)
-{ ... }
-````
 
 
 ## -parameters

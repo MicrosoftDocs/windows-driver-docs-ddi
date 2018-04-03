@@ -7,7 +7,7 @@ old-location: display\dxgk_qaitargetin.htm
 old-project: display
 ms.assetid: C6751CB1-1460-4C1A-9E5F-99448C4F9162
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGK_QAITARGETIN, DXGK_QAITARGETIN structure [Display Devices], DXGK_QUERYCOLORIMETRYOVERRIDESIN, DXGK_QUERYINTEGRATEDDISPLAYIN, _DXGK_QAITARGETIN, d3dkmddi/DXGK_QAITARGETIN, display.dxgk_qaitargetin
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGK_QAITARGETIN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_QAITARGETIN
 ---
@@ -50,16 +51,6 @@ req.typenames: DXGK_QAITARGETIN
 
 
 Used to integrate a target.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGK_QAITARGETIN {
-  D3DDDI_VIDEO_PRESENT_TARGET_ID TargetId;
-} DXGK_QAITARGETIN;
-````
 
 
 ## -struct-fields

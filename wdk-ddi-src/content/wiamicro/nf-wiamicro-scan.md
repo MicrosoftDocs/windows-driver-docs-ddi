@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	Scan
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2
 req.product: Windows 10 or later.
@@ -53,20 +54,6 @@ req.product: Windows 10 or later.
 The <b>Scan</b> function reads data from the device and returns the data to the WIA Flatbed driver. 
 
 
-## -syntax
-
-
-````
-WIAMICRO_API HRESULT Scan(
-  _Inout_ PSCANINFO pScanInfo,
-          LONG      lPhase,
-  _Out_   PBYTE     pBuffer,
-          LONG      lLength,
-  _Out_   LONG      *pReceived
-);
-````
-
-
 ## -parameters
 
 
@@ -74,7 +61,7 @@ WIAMICRO_API HRESULT Scan(
 
 ### -param pScanInfo [in, out]
 
-Specifies the <a href="..\wiamicro\ns-wiamicro-_scaninfo.md">SCANINFO</a> structure that represents the microdriver's settings. This is stored by the WIA Flatbed driver to guarantee that the settings between the microdriver and the WIA Flatbed driver are synchronized. 
+Specifies the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547361">SCANINFO</a> structure that represents the microdriver's settings. This is stored by the WIA Flatbed driver to guarantee that the settings between the microdriver and the WIA Flatbed driver are synchronized. 
 
 
 ### -param lPhase
@@ -92,7 +79,7 @@ SCAN_FIRST
 
 </td>
 <td>
-This signals the first phase of the scan. The microdriver performs three tasks: it initializes the device, it uses the data in the <a href="..\wiamicro\ns-wiamicro-_scaninfo.md">SCANINFO</a> structure to set up the scan (for example, set the resolution, the start position, the width and the height on the device), and it starts the scan. Data must be returned from this call. Data must be put into the buffer pointed to by <i>pBuffer</i> and the <i>pReceived</i> parameter must be set to the amount of data put in the buffer.
+This signals the first phase of the scan. The microdriver performs three tasks: it initializes the device, it uses the data in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547361">SCANINFO</a> structure to set up the scan (for example, set the resolution, the start position, the width and the height on the device), and it starts the scan. Data must be returned from this call. Data must be put into the buffer pointed to by <i>pBuffer</i> and the <i>pReceived</i> parameter must be set to the amount of data put in the buffer.
 
 </td>
 </tr>
@@ -114,7 +101,7 @@ SCAN_FINISHED
 <td>
 This will be called at the end of the scan to terminate the scanning process. No data should be transferred. SCAN_FINISHED will always be called even if the user cancels the scan. The microdriver should stop transferring data and the scanner should be reset so that it is ready for the next scan.
 
-The data returned from this function should be in raw format without any header. The data can be either packed or planar, aligned or unaligned, and in RGB or BGR order. Set the <b>RawDataFormat</b>, <b>RawPixelOrder</b>, and <b>bNeedDataAlignment</b> members of the <a href="..\wiamicro\ns-wiamicro-_scaninfo.md">SCANINFO</a> structure appropriately in response to the CMD_INITIALIZE command.
+The data returned from this function should be in raw format without any header. The data can be either packed or planar, aligned or unaligned, and in RGB or BGR order. Set the <b>RawDataFormat</b>, <b>RawPixelOrder</b>, and <b>bNeedDataAlignment</b> members of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547361">SCANINFO</a> structure appropriately in response to the CMD_INITIALIZE command.
 
 </td>
 </tr>
@@ -155,11 +142,10 @@ If the function succeeds, it returns S_OK. If the function fails, it returns a s
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552722">WIA Microdriver Structures</a>
 
 
 
-<a href="..\wiamicro\ns-wiamicro-_scaninfo.md">SCANINFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547361">SCANINFO</a>
 
 
 
@@ -167,8 +153,8 @@ If the function succeeds, it returns S_OK. If the function fails, it returns a s
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552722">WIA Microdriver Structures</a>
  
 
  
-
 

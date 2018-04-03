@@ -38,7 +38,8 @@ api_location:
 -	prdrvcom.h
 api_name:
 -	IPrintTicketProvider.QueryDeviceNamespace
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SHIMOPTS, *PSHIMOPTS
 req.product: Windows 10 or later.
@@ -51,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <code>IPrintTicketProvider::QueryDeviceNamespace</code> method queries the device for its default namespace uniform resource identifier (URI).
-
-
-## -syntax
-
-
-````
-HRESULT QueryDeviceNamespace(
-  [out] BSTR *pDefaultNamespace
-);
-````
 
 
 ## -parameters

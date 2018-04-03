@@ -7,7 +7,7 @@ old-location: storage\cdrom_write_speed_request.htm
 old-project: storage
 ms.assetid: A7F8AFAE-AFFA-4022-8C04-2BF9177FE9EB
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PCDROM_WRITE_SPEED_REQUEST, CDROM_WRITE_SPEED_REQUEST, CDROM_WRITE_SPEED_REQUEST structure [Storage Devices], PCDROM_WRITE_SPEED_REQUEST, PCDROM_WRITE_SPEED_REQUEST structure pointer [Storage Devices], _CDROM_WRITE_SPEED_REQUEST, ntddcdrm/CDROM_WRITE_SPEED_REQUEST, ntddcdrm/PCDROM_WRITE_SPEED_REQUEST, storage.cdrom_write_speed_request"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ntddcdrm.h
 api_name:
 -	CDROM_WRITE_SPEED_REQUEST
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CDROM_WRITE_SPEED_REQUEST, *PCDROM_WRITE_SPEED_REQUEST
 ---
@@ -49,17 +50,7 @@ req.typenames: CDROM_WRITE_SPEED_REQUEST, *PCDROM_WRITE_SPEED_REQUEST
 ## -description
 
 
-The <b>CDROM_WRITE_SPEED_REQUEST</b> structure is used as an input parameter to the <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_get_performance.md">IOCTL_CDROM_GET_PERFORMANCE</a> IOCTL and for requesting write speed descriptors.
-
-
-## -syntax
-
-
-````
-typedef struct _CDROM_WRITE_SPEED_REQUEST {
-  CDROM_PERFORMANCE_REQUEST_TYPE    RequestType;
-} CDROM_WRITE_SPEED_REQUEST, *PCDROM_WRITE_SPEED_REQUEST;
-````
+The <b>CDROM_WRITE_SPEED_REQUEST</b> structure is used as an input parameter to the <a href="https://msdn.microsoft.com/library/windows/hardware/gg441242">IOCTL_CDROM_GET_PERFORMANCE</a> IOCTL and for requesting write speed descriptors.
 
 
 ## -struct-fields
@@ -69,21 +60,20 @@ typedef struct _CDROM_WRITE_SPEED_REQUEST {
 
 ### -field RequestType
 
-As defined in the <a href="..\ntddcdrm\ne-ntddcdrm-_cdrom_performance_request_type.md">CDROM_PERFORMANCE_REQUEST_TYPE</a>    enumeration.
+As defined in the <a href="https://msdn.microsoft.com/library/windows/hardware/gg441234">CDROM_PERFORMANCE_REQUEST_TYPE</a>    enumeration.
 
 
 ## -see-also
 
-<a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_get_performance.md">IOCTL_CDROM_GET_PERFORMANCE</a>
 
 
 
-<a href="..\ntddcdrm\ne-ntddcdrm-_cdrom_performance_request_type.md">CDROM_PERFORMANCE_REQUEST_TYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/gg441234">CDROM_PERFORMANCE_REQUEST_TYPE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/gg441242">IOCTL_CDROM_GET_PERFORMANCE</a>
  
 
  
-
 

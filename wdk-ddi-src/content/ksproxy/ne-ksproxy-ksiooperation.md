@@ -38,7 +38,8 @@ api_location:
 -	Ksproxy.h
 api_name:
 -	KSIOOPERATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSIOOPERATION
 ---
@@ -50,17 +51,6 @@ req.typenames: KSIOOPERATION
 
 
 
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  KsIoOperation_Write,
-  KsIoOperation_Read
-} KSIOOPERATION;
-````
 
 
 ## -enum-fields

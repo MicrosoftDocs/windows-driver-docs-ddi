@@ -39,7 +39,8 @@ api_location:
 -	Wdf01000.sys.dll
 api_name:
 -	WdfFdoRetrieveNextStaticChild
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_DRIVER_VERSION_AVAILABLE_PARAMS, *PWDF_DRIVER_VERSION_AVAILABLE_PARAMS
 req.product: Windows 10 or later.
@@ -54,18 +55,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF only]
 
 The <b>WdfFdoRetrieveNextStaticChild</b> method retrieves a handle to the next framework device object in a list of child devices.
-
-
-## -syntax
-
-
-````
-WDFDEVICE WdfFdoRetrieveNextStaticChild(
-  _In_     WDFDEVICE Fdo,
-  _In_opt_ WDFDEVICE PreviousChild,
-  _In_     ULONG     Flags
-);
-````
 
 
 ## -parameters
@@ -85,7 +74,7 @@ A handle to a framework device object that represents the child device that was 
 
 ### -param Flags [in]
 
-A <a href="..\wdfchildlist\ne-wdfchildlist-_wdf_retrieve_child_flags.md">WDF_RETRIEVE_CHILD_FLAGS</a>-typed enumerator value that identifies the type of child devices that the method should retrieve. This parameter cannot be zero. 
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff552507">WDF_RETRIEVE_CHILD_FLAGS</a>-typed enumerator value that identifies the type of child devices that the method should retrieve. This parameter cannot be zero. 
 
 
 ## -returns
@@ -109,7 +98,7 @@ To retrieve the items in a list of child devices, the driver should:
 
 <ol>
 <li>
-Call <a href="..\wdffdo\nf-wdffdo-wdffdolockstaticchildlistforiteration.md">WdfFdoLockStaticChildListForIteration</a> to lock the child list.
+Call <a href="https://msdn.microsoft.com/library/windows/hardware/ff547282">WdfFdoLockStaticChildListForIteration</a> to lock the child list.
 
 </li>
 <li>
@@ -117,7 +106,7 @@ Repeatedly call <b>WdfFdoRetrieveNextStaticChild</b> to obtain the items in the 
 
 </li>
 <li>
-Call <a href="..\wdffdo\nf-wdffdo-wdffdounlockstaticchildlistfromiteration.md">WdfFdoUnlockStaticChildListFromIteration</a> to unlock the child list.
+Call <a href="https://msdn.microsoft.com/library/windows/hardware/ff547297">WdfFdoUnlockStaticChildListFromIteration</a> to unlock the child list.
 
 </li>
 </ol>
@@ -165,16 +154,15 @@ WdfFdoUnlockStaticChildListFromIteration(Device);</pre>
 
 ## -see-also
 
-<a href="..\wdffdo\nf-wdffdo-wdffdolockstaticchildlistforiteration.md">WdfFdoLockStaticChildListForIteration</a>
 
 
 
-<a href="..\wdffdo\nf-wdffdo-wdffdounlockstaticchildlistfromiteration.md">WdfFdoUnlockStaticChildListFromIteration</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547282">WdfFdoLockStaticChildListForIteration</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547297">WdfFdoUnlockStaticChildListFromIteration</a>
  
 
  
-
 

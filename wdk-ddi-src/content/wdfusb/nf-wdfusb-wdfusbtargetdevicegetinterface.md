@@ -41,7 +41,8 @@ api_location:
 -	WUDFx02000.dll.dll
 api_name:
 -	WdfUsbTargetDeviceGetInterface
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
@@ -58,17 +59,6 @@ req.product: Windows 10 or later.
 The <b>WdfUsbTargetDeviceGetInterface</b> method returns a handle to the framework USB interface object that is associated with a specified interface index.
 
 
-## -syntax
-
-
-````
-WDFUSBINTERFACE WdfUsbTargetDeviceGetInterface(
-  _In_ WDFUSBDEVICE UsbDevice,
-  _In_ UCHAR        InterfaceIndex
-);
-````
-
-
 ## -parameters
 
 
@@ -76,7 +66,7 @@ WDFUSBINTERFACE WdfUsbTargetDeviceGetInterface(
 
 ### -param UsbDevice [in]
 
-A handle to a USB device object that was obtained from a previous call to <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreatewithparameters.md">WdfUsbTargetDeviceCreateWithParameters</a>.
+A handle to a USB device object that was obtained from a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/hh439428">WdfUsbTargetDeviceCreateWithParameters</a>.
 
 
 ### -param InterfaceIndex [in]
@@ -131,12 +121,11 @@ numEndpoints = WdfUsbInterfaceGetNumEndpoints(
 
 ## -see-also
 
-<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreatewithparameters.md">WdfUsbTargetDeviceCreateWithParameters</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439428">WdfUsbTargetDeviceCreateWithParameters</a>
  
 
  
-
 

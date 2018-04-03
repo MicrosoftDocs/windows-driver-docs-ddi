@@ -7,7 +7,7 @@ old-location: ifsk\rtlupcaseunicodetocustomcpn.htm
 old-project: ifsk
 ms.assetid: 906dd8c6-a7a7-4722-9ca6-78c437ab29e8
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: RtlUpcaseUnicodeToCustomCPN, RtlUpcaseUnicodeToCustomCPN function [Installable File System Drivers], ifsk.rtlupcaseunicodetocustomcpn, ntifs/RtlUpcaseUnicodeToCustomCPN, rtlref_d60b8055-e672-4cc6-be0f-f9a23a202368.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntifs.h
 api_name:
 -	RtlUpcaseUnicodeToCustomCPN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -49,17 +50,7 @@ req.typenames: TOKEN_TYPE
 ## -description
 
 
-The <b>RtlUpcaseUnicodeToCustomCPN</b> routine is reserved for system use. See <a href="..\ntifs\nf-ntifs-rtlupcaseunicodetomultibyten.md">RtlUpcaseUnicodeToMultiByteN</a> and <a href="..\ntifs\nf-ntifs-rtlupcaseunicodetooemn.md">RtlUpcaseUnicodeToOemN</a>. 
-
-
-## -syntax
-
-
-````
-  RtlUpcaseUnicodeToCustomCPN(
-    
-);
-````
+The <b>RtlUpcaseUnicodeToCustomCPN</b> routine is reserved for system use. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff553296">RtlUpcaseUnicodeToMultiByteN</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff553309">RtlUpcaseUnicodeToOemN</a>. 
 
 
 ## -parameters

@@ -38,7 +38,8 @@ api_location:
 -	stiusd.h
 api_name:
 -	IStiDeviceControl.GetMyDevicePortName
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STI_WIA_DEVICE_INFORMATIONW, *PSTI_WIA_DEVICE_INFORMATIONW
 req.product: Windows 10 or later.
@@ -51,17 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>IStiDeviceControl::GetMyDevicePortName</b> method allows a user-mode still image minidriver to obtain a device's port name.
-
-
-## -syntax
-
-
-````
-HRESULT GetMyDevicePortName(
-   LPWSTR lpszDevicePath,
-   DWORD  cwDevicePathSize
-);
-````
 
 
 ## -parameters

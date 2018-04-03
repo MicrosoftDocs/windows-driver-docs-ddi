@@ -38,7 +38,8 @@ api_location:
 -	Ks.h
 api_name:
 -	KsDeleteFilterFactory
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -52,16 +53,6 @@ req.typenames:
 <b>KsDeleteFilterFactory</b> deletes a given filter factory.
 
 
-## -syntax
-
-
-````
-NTSTATUS KsDeleteFilterFactory(
-  _In_ PKSFILTERFACTORY FilterFactory
-);
-````
-
-
 ## -parameters
 
 
@@ -69,29 +60,28 @@ NTSTATUS KsDeleteFilterFactory(
 
 ### -param FilterFactory [in]
 
-A pointer to a <a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a> structure that represents the filter factory to be deleted.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff562530">KSFILTERFACTORY</a> structure that represents the filter factory to be deleted.
 
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kscreatefilterfactory.md">KsCreateFilterFactory</a>
 
 
 
-<a href="..\ks\nf-ks-ksfilterfactoryaddcreateitem.md">KsFilterFactoryAddCreateItem</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562530">KSFILTERFACTORY</a>
 
 
 
-<a href="..\ks\nf-ks-ksfilterfactorysetdeviceclassesstate.md">KsFilterFactorySetDeviceClassesState</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561650">KsCreateFilterFactory</a>
 
 
 
-<a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562531">KsFilterFactoryAddCreateItem</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562539">KsFilterFactorySetDeviceClassesState</a>
  
 
  
-
 

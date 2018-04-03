@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	icm.h
 api_name:
 -	COLORTYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: COLORTYPE
 ---
@@ -50,27 +51,6 @@ req.typenames: COLORTYPE
 
 
 The values of the COLORTYPE enumeration are used by WCS functions to indicate the format of vector content. Most values have equivalent structures that are contained in the ICM COLOR structure (described in the Microsoft Windows SDK documentation).
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  COLOR_GRAY       = 1,
-  COLOR_RGB        = 2,
-  COLOR_XYZ        = 3,
-  COLOR_Yxy        = 4,
-  COLOR_Lab        = 5,
-  COLOR_3_CHANNEL  = 6,
-  COLOR_CMYK       = 7,
-  COLOR_5_CHANNEL  = 8,
-  COLOR_6_CHANNEL  = 9,
-  COLOR_7_CHANNEL  = 10,
-  COLOR_8_CHANNEL  = 11,
-  COLOR_NAMED      = 12
-} COLORTYPE;
-````
 
 
 ## -enum-fields

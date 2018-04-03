@@ -7,7 +7,7 @@ old-location: netvista\wwan_modem_config_status.htm
 old-project: netvista
 ms.assetid: 3A13CFBC-DBB4-4BB1-ABA4-AB145AED07AA
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PWWAN_MODEM_CONFIG_STATUS, PWWAN_MODEM_CONFIG_STATUS, PWWAN_MODEM_CONFIG_STATUS structure pointer [Network Drivers Starting with Windows Vista], WWAN_MODEM_CONFIG_STATUS, WWAN_MODEM_CONFIG_STATUS structure [Network Drivers Starting with Windows Vista], _WWAN_MODEM_CONFIG_STATUS, netvista.wwan_modem_config_status, wwan/PWWAN_MODEM_CONFIG_STATUS, wwan/WWAN_MODEM_CONFIG_STATUS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	wwan.h
 api_name:
 -	WWAN_MODEM_CONFIG_STATUS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WWAN_MODEM_CONFIG_STATUS, *PWWAN_MODEM_CONFIG_STATUS
 req.product: Windows 10 or later.
@@ -53,20 +54,6 @@ req.product: Windows 10 or later.
 The <b>WWAN_MODEM_CONFIG_STATUS</b> structure represents a modem's configuration (config) status.
 
 
-## -syntax
-
-
-````
-typedef struct _WWAN_MODEM_CONFIG_STATUS {
-  WWAN_MODEM_CONFIG_STATE  ConfigState;
-  WWAN_MODEM_CONFIG_REASON ConfigReason;
-  ULONG                    PreviousConfigID;
-  ULONG                    CurrentConfigID;
-  DWORD                    DefaultOrNot;
-} WWAN_MODEM_CONFIG_STATUS, *PWWAN_MODEM_CONFIG_STATUS;
-````
-
-
 ## -struct-fields
 
 
@@ -74,12 +61,12 @@ typedef struct _WWAN_MODEM_CONFIG_STATUS {
 
 ### -field ConfigState
 
-The modem's config state. For a list of defined values, see <a href="..\wwan\ne-wwan-_wwan_modem_config_state.md">WWAN_MODEM_CONFIG_STATE</a>.
+The modem's config state. For a list of defined values, see <a href="https://msdn.microsoft.com/A22EA7A7-2C28-4117-A2B8-A7D3D4C9F11B">WWAN_MODEM_CONFIG_STATE</a>.
 
 
 ### -field ConfigReason
 
-The reason why the modem's config state change was triggered. For a list of defined values, see <a href="..\wwan\ne-wwan-_wwan_modem_config_reason.md">WWAN_MODEM_CONFIG_REASON</a>.
+The reason why the modem's config state change was triggered. For a list of defined values, see <a href="https://msdn.microsoft.com/2CF2C69B-A5DF-4A78-BC15-EB80FAC51831">WWAN_MODEM_CONFIG_REASON</a>.
 
 
 ### -field PreviousConfigID
@@ -118,20 +105,19 @@ If the same config file is selected as the currently activated one, the MBB driv
 
 ## -see-also
 
-<a href="..\wwan\ne-wwan-_wwan_modem_config_state.md">WWAN_MODEM_CONFIG_STATE</a>
 
 
 
-<a href="..\wwan\ns-wwan-_wwan_modem_config_info.md">WWAN_MODEM_CONFIG_INFO</a>
+<a href="https://msdn.microsoft.com/14FBFA51-F4A5-417A-8905-241CEA543774">WWAN_MODEM_CONFIG_INFO</a>
 
 
 
-<a href="..\wwan\ne-wwan-_wwan_modem_config_reason.md">WWAN_MODEM_CONFIG_REASON</a>
+<a href="https://msdn.microsoft.com/2CF2C69B-A5DF-4A78-BC15-EB80FAC51831">WWAN_MODEM_CONFIG_REASON</a>
 
 
 
+<a href="https://msdn.microsoft.com/A22EA7A7-2C28-4117-A2B8-A7D3D4C9F11B">WWAN_MODEM_CONFIG_STATE</a>
  
 
  
-
 

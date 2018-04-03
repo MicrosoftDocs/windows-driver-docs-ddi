@@ -7,7 +7,7 @@ old-location: ifsk\fltreadfile.htm
 old-project: ifsk
 ms.assetid: 3ceacb96-1c60-4310-b96f-6fb396c1d6ce
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FltApiRef_p_to_z_83c0167c-78df-4692-980b-7a55f531a9db.xml, FltReadFile, FltReadFile function [Installable File System Drivers], fltkernel/FltReadFile, ifsk.fltreadfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	fltmgr.sys
 api_name:
 -	FltReadFile
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
@@ -50,24 +51,6 @@ req.typenames: EXpsFontRestriction
 
 
 <b>FltReadFile</b> reads data from an open file, stream, or device.
-
-
-## -syntax
-
-
-````
-NTSTATUS FltReadFile(
-  _In_      PFLT_INSTANCE                    InitiatingInstance,
-  _In_      PFILE_OBJECT                     FileObject,
-  _In_opt_  PLARGE_INTEGER                   ByteOffset,
-  _In_      ULONG                            Length,
-  _Out_     PVOID                            Buffer,
-  _In_      FLT_IO_OPERATION_FLAGS           Flags,
-  _Out_opt_ PULONG                           BytesRead,
-  _In_opt_  PFLT_COMPLETED_ASYNC_IO_CALLBACK CallbackRoutine,
-  _In_opt_  PVOID                            CallbackContext
-);
-````
 
 
 ## -parameters
@@ -169,7 +152,7 @@ Pointer to a caller-allocated variable that receives the number of bytes read fr
 
 ### -param CallbackRoutine [in, optional]
 
-Pointer to a <a href="..\fltkernel\nc-fltkernel-pflt_completed_async_io_callback.md">PFLT_COMPLETED_ASYNC_IO_CALLBACK</a>-typed callback routine to call when the read operation is complete. This parameter is optional and can be <b>NULL</b>. 
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551067">PFLT_COMPLETED_ASYNC_IO_CALLBACK</a>-typed callback routine to call when the read operation is complete. This parameter is optional and can be <b>NULL</b>. 
 
 
 ### -param CallbackContext [in, optional]
@@ -202,7 +185,7 @@ The caller set the FLTFL_IO_OPERATION_NON_CACHED flag in the <i>Flags</i> parame
 
 </li>
 <li>
-The file object was opened for noncached I/O. Usually, this is done by specifying the FILE_NO_INTERMEDIATE_BUFFERING <i>CreateOptions</i> flag in the preceding call to <a href="..\fltkernel\nf-fltkernel-fltcreatefile.md">FltCreateFile</a>, <a href="..\fltkernel\nf-fltkernel-fltcreatefileex.md">FltCreateFileEx</a>, or <a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>. 
+The file object was opened for noncached I/O. Usually, this is done by specifying the FILE_NO_INTERMEDIATE_BUFFERING <i>CreateOptions</i> flag in the preceding call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff541935">FltCreateFile</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff541937">FltCreateFileEx</a>, or <a href="https://msdn.microsoft.com/library/windows/hardware/ff566424">ZwCreateFile</a>. 
 
 </li>
 </ul>
@@ -210,7 +193,7 @@ Noncached I/O imposes the following restrictions on the parameter values passed 
 
 <ul>
 <li>
-The buffer that the <i>Buffer</i> parameter points to must be aligned in accordance with the alignment requirement of the underlying storage device. To allocate such an aligned buffer, call <a href="..\fltkernel\nf-fltkernel-fltallocatepoolalignedwithtag.md">FltAllocatePoolAlignedWithTag</a>. 
+The buffer that the <i>Buffer</i> parameter points to must be aligned in accordance with the alignment requirement of the underlying storage device. To allocate such an aligned buffer, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff541762">FltAllocatePoolAlignedWithTag</a>. 
 
 </li>
 <li>
@@ -228,51 +211,50 @@ If the value of the <i>CallbackRoutine</i> parameter is not <b>NULL</b>, the rea
 
 If the value of the <i>CallbackRoutine</i> parameter is <b>NULL</b>, the read operation is performed synchronously. That is, <b>FltReadFile</b> waits until the read operation is complete before returning. This is true even if the file object that <i>FileObject</i> points to was opened for asynchronous I/O. 
 
-If multiple threads call <b>FltReadFile</b> for the same file object, and the file object was opened for synchronous I/O, the Filter Manager does not attempt to serialize I/O on the file. In this respect, <b>FltReadFile</b> differs from <a href="..\wdm\nf-wdm-zwreadfile.md">ZwReadFile</a>. 
+If multiple threads call <b>FltReadFile</b> for the same file object, and the file object was opened for synchronous I/O, the Filter Manager does not attempt to serialize I/O on the file. In this respect, <b>FltReadFile</b> differs from <a href="https://msdn.microsoft.com/library/windows/hardware/ff567072">ZwReadFile</a>. 
 
 
 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltcreatefileex.md">FltCreateFileEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541762">FltAllocatePoolAlignedWithTag</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltcreatefile.md">FltCreateFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541935">FltCreateFile</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltallocatepoolalignedwithtag.md">FltAllocatePoolAlignedWithTag</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541937">FltCreateFileEx</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwwritefile.md">ZwWriteFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544610">FltWriteFile</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwreadfile.md">ZwReadFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558679">ObReferenceObjectByHandle</a>
 
 
 
-<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551067">PFLT_COMPLETED_ASYNC_IO_CALLBACK</a>
 
 
 
-<a href="..\fltkernel\nc-fltkernel-pflt_completed_async_io_callback.md">PFLT_COMPLETED_ASYNC_IO_CALLBACK</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566424">ZwCreateFile</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltwritefile.md">FltWriteFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567072">ZwReadFile</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567121">ZwWriteFile</a>
  
 
  
-
 

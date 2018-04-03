@@ -7,7 +7,7 @@ old-location: kernel\insertheadlist.htm
 old-project: kernel
 ms.assetid: c3ad9d93-93e1-406b-9a58-26dcbf428b50
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 2/24/2018
 ms.keywords: InsertHeadList, InsertHeadList routine [Kernel-Mode Driver Architecture], k109_dde56187-8543-45cc-97fd-3fde2475e428.xml, kernel.insertheadlist, wdm/InsertHeadList
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: NtosKrnl.exe
 req.dll: 
 req.irql: Any level (See Remarks section)
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	InsertHeadList
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PO_FX_PERF_STATE_UNIT, *PPO_FX_PERF_STATE_UNIT
 req.product: Windows 10 or later.
@@ -103,7 +104,11 @@ Callers of <b>InsertHeadList</b> can be running at any IRQL. If <b>InsertHeadLis
 
 ## -see-also
 
-<a href="..\wudfwdm\nf-wudfwdm-islistempty.md">IsListEmpty</a>
+<a href="..\wudfwdm\nf-wudfwdm-initializelisthead.md">InitializeListHead</a>
+
+
+
+<a href="..\wudfwdm\nf-wudfwdm-removetaillist.md">RemoveTailList</a>
 
 
 
@@ -111,11 +116,7 @@ Callers of <b>InsertHeadList</b> can be running at any IRQL. If <b>InsertHeadLis
 
 
 
-<a href="..\wudfwdm\nf-wudfwdm-initializelisthead.md">InitializeListHead</a>
-
-
-
-<a href="..\wudfwdm\nf-wudfwdm-removetaillist.md">RemoveTailList</a>
+<a href="..\wudfwdm\nf-wudfwdm-islistempty.md">IsListEmpty</a>
 
 
 
@@ -130,5 +131,6 @@ Callers of <b>InsertHeadList</b> can be running at any IRQL. If <b>InsertHeadLis
  
 
  
+
 
 

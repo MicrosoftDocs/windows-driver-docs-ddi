@@ -38,7 +38,8 @@ api_location:
 -	filterpipeline.h
 api_name:
 -	IPartPrintTicket
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
@@ -54,12 +55,11 @@ The <b>IPartPrintTicket</b> interface is the abstraction for a print ticket in a
 
 ## -see-also
 
-<a href="..\filterpipeline\nn-filterpipeline-ipartbase.md">IPartBase</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551846">IPartBase</a>
  
 
  
-
 

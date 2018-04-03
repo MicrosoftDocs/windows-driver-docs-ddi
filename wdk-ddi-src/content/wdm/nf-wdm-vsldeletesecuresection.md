@@ -7,7 +7,7 @@ old-location: kernel\vsldeletesecuresection.htm
 old-project: kernel
 ms.assetid: b81602e1-aca8-466d-90ae-13a7e073aff1
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: VslDeleteSecureSection, VslDeleteSecureSection function [Kernel-Mode Driver Architecture], kernel.vsldeletesecuresection, wdm/VslDeleteSecureSection
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -37,7 +37,8 @@ api_location:
 -
 api_name:
 -	VslDeleteSecureSection
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
@@ -52,16 +53,6 @@ req.product: Windows 10 or later.
 
 			
             This material is not yet available. This placeholder topic is provided as an example of documentation that may be included in a later release.
-
-
-## -syntax
-
-
-````
-NTSTATUS  VslDeleteSecureSection(
-   HANDLE GlobalHandle
-);
-````
 
 
 ## -parameters

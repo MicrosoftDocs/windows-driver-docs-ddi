@@ -7,7 +7,7 @@ old-location: display\d3dddiarg_authenticatedchannelkeyexchange.htm
 old-project: display
 ms.assetid: 99a86339-62ce-48fd-a1f4-5c3061e624b5
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDIARG_AUTHENTICATEDCHANNELKEYEXCHANGE, D3DDDIARG_AUTHENTICATEDCHANNELKEYEXCHANGE structure [Display Devices], UMDisplayDriver_param_Structs_2b02df7d-1bae-446f-b52a-0a9353114504.xml, _D3DDDIARG_AUTHENTICATEDCHANNELKEYEXCHANGE, d3dumddi/D3DDDIARG_AUTHENTICATEDCHANNELKEYEXCHANGE, display.d3dddiarg_authenticatedchannelkeyexchange
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	D3DDDIARG_AUTHENTICATEDCHANNELKEYEXCHANGE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDIARG_AUTHENTICATEDCHANNELKEYEXCHANGE
 ---
@@ -52,18 +53,6 @@ req.typenames: D3DDDIARG_AUTHENTICATEDCHANNELKEYEXCHANGE
 The D3DDDIARG_AUTHENTICATEDCHANNELKEYEXCHANGE structure describes a buffer that contains the session key, which the authenticated channel uses. 
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_AUTHENTICATEDCHANNELKEYEXCHANGE {
-  HANDLE hChannel;
-  UINT   DataSize;
-  VOID   *pData;
-} D3DDDIARG_AUTHENTICATEDCHANNELKEYEXCHANGE;
-````
-
-
 ## -struct-fields
 
 
@@ -71,7 +60,7 @@ typedef struct _D3DDDIARG_AUTHENTICATEDCHANNELKEYEXCHANGE {
 
 ### -field hChannel
 
-[in] A handle to the authenticated channel that the runtime creates when the runtime calls the driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createauthenticatedchannel.md">CreateAuthenticatedChannel</a> function. 
+[in] A handle to the authenticated channel that the runtime creates when the runtime calls the driver's <a href="https://msdn.microsoft.com/0a565bff-fc6f-41c1-a6fd-3a82dd0d7889">CreateAuthenticatedChannel</a> function. 
 
 
 ### -field DataSize
@@ -86,16 +75,15 @@ typedef struct _D3DDDIARG_AUTHENTICATEDCHANNELKEYEXCHANGE {
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_authenticatedchannelkeyexchange.md">AuthenticatedChannelKeyExchange</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createauthenticatedchannel.md">CreateAuthenticatedChannel</a>
+<a href="https://msdn.microsoft.com/627f9689-1059-4f88-9005-9c7600dad686">AuthenticatedChannelKeyExchange</a>
 
 
 
+<a href="https://msdn.microsoft.com/0a565bff-fc6f-41c1-a6fd-3a82dd0d7889">CreateAuthenticatedChannel</a>
  
 
  
-
 

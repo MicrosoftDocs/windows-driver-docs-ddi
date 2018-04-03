@@ -38,7 +38,8 @@ api_location:
 -	Pcivirt.h
 api_name:
 -	SRIOV_DEVICE_INTERFACE_STANDARD
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SRIOV_DEVICE_INTERFACE_STANDARD, *PSRIOV_DEVICE_INTERFACE_STANDARD
 ---
@@ -164,11 +165,11 @@ Pointer to the driver's implementation of the <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="..\wdfqueryinterface\nf-wdfqueryinterface-wdf_query_interface_config_init.md">WDF_QUERY_INTERFACE_CONFIG_INIT</a>
-
-
-
 <a href="..\wdfqueryinterface\nf-wdfqueryinterface-wdfdeviceaddqueryinterface.md">WdfDeviceAddQueryInterface</a>
+
+
+
+<a href="..\wdfqueryinterface\nf-wdfqueryinterface-wdf_query_interface_config_init.md">WDF_QUERY_INTERFACE_CONFIG_INIT</a>
 
 
 

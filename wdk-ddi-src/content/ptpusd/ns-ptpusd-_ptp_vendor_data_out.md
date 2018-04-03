@@ -38,7 +38,8 @@ api_location:
 -	ptpusd.h
 api_name:
 -	PTP_VENDOR_DATA_OUT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PTP_VENDOR_DATA_OUT, *PPTP_VENDOR_DATA_OUT
 req.product: Windows 10 or later.
@@ -51,20 +52,6 @@ req.product: Windows 10 or later.
 
 
 The PTP_VENDOR_DATA_OUT structure contains information that the device sends to an application, in response to a command the application issued to the device.
-
-
-## -syntax
-
-
-````
-typedef struct _PTP_VENDOR_DATA_OUT {
-  WORD  ResponseCode;
-  DWORD SessionId;
-  DWORD TransactionId;
-  DWORD Params[PTP_MAX_PARAMS];
-  BYTE  VendorReadData[1];
-} PTP_VENDOR_DATA_OUT, *PPTP_VENDOR_DATA_OUT;
-````
 
 
 ## -struct-fields
@@ -110,12 +97,11 @@ For more information about the response codes used in the <b>ResponseCode</b> me
 
 ## -see-also
 
-<a href="..\ptpusd\ns-ptpusd-_ptp_vendor_data_in.md">PTP_VENDOR_DATA_IN</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546450">PTP_VENDOR_DATA_IN</a>
  
 
  
-
 

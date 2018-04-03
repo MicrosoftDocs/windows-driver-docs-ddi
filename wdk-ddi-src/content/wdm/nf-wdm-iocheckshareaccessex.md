@@ -7,7 +7,7 @@ old-location: kernel\iocheckshareaccessex.htm
 old-project: kernel
 ms.assetid: E6CDE415-FCC2-4039-B6DD-168113D9A490
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: IoCheckShareAccessEx, IoCheckShareAccessEx routine [Kernel-Mode Driver Architecture], kernel.iocheckshareaccessex, wdm/IoCheckShareAccessEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	ntoskrnl.dll
 api_name:
 -	IoCheckShareAccessEx
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
@@ -52,21 +53,6 @@ req.product: Windows 10 or later.
 
 
 The <b>IoCheckShareAccessEx</b> routine is called by file system drivers (FSDs) or other highest-level drivers to check whether shared access to a file object is permitted.
-
-
-## -syntax
-
-
-````
-NTSTATUS IoCheckShareAccessEx(
-  _In_    ACCESS_MASK   DesiredAccess,
-  _In_    ULONG         DesiredShareAccess,
-  _Inout_ PFILE_OBJECT  FileObject,
-  _Inout_ PSHARE_ACCESS ShareAccess,
-  _In_    BOOLEAN       Update,
-  _In_    PBOOLEAN      WritePermission
-);
-````
 
 
 ## -parameters
@@ -121,12 +107,11 @@ The <b>IoCheckShareAccessEx</b> routine returns STATUS_SUCCESS if the requester'
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549503">I/O Manager Routines</a>
-
-
-
  
 
  
-
 

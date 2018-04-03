@@ -39,7 +39,8 @@ api_location:
 -	SensorsClassExtension.dll
 api_name:
 -	OnClientUnsubscribeFromEvents
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SensorConnectionType
 req.product: Windows 10 or later.
@@ -52,17 +53,6 @@ req.product: Windows 10 or later.
 
 
 The <a href="https://msdn.microsoft.com/library/windows/hardware/ff545598">ISensorDriver::OnClientUnsubscribeFromEvents</a> method notifies the sensor driver that a client application no longer requests event notifications.
-
-
-## -syntax
-
-
-````
-HRESULT OnClientUnsubscribeFromEvents(
-   IWDFFile * pClientFile,
-   LPWSTR     pwszSensorID
-);
-````
 
 
 ## -parameters

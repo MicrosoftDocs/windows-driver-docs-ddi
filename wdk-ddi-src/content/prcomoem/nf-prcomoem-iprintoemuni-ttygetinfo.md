@@ -38,7 +38,8 @@ api_location:
 -	prcomoem.h
 api_name:
 -	IPrintOemUni.TTYGetInfo
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
@@ -53,20 +54,6 @@ req.product: Windows 10 or later.
 The <code>IPrintOemUni::TTYGetInfo</code> method enables a rendering plug-in to supply Unidrv with information relevant to text-only printers.
 
 
-## -syntax
-
-
-````
-HRESULT TTYGetInfo(
-   PDEVOBJ pdevobj,
-   DWORD   dwInfoIndex,
-   PVOID   pOutputBuf,
-   DWORD   dwSize,
-   DWORD   *pcbcNeeded
-);
-````
-
-
 ## -parameters
 
 
@@ -74,7 +61,7 @@ HRESULT TTYGetInfo(
 
 ### -param pdevobj
 
-Caller-supplied pointer to a <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a> structure.
+Caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547573">DEVOBJ</a> structure.
 
 
 ### -param dwInfoIndex

@@ -7,7 +7,7 @@ old-location: storage\hwscsiwmisetdataitem.htm
 old-project: storage
 ms.assetid: 24b8415e-4326-4aef-bcbb-fabffa25c7d6
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: HwScsiWmiSetDataItem, HwScsiWmiSetDataItem callback function [Storage Devices], PSCSIWMI_SET_DATAITEM, Scsimini_6cc9b791-9522-4839-b60b-776c73b04d38.xml, scsiwmi/HwScsiWmiSetDataItem, storage.hwscsiwmisetdataitem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	scsiwmi.h
 api_name:
 -	HwScsiWmiSetDataItem
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SCSISCAN_INFO, *PSCSISCAN_INFO
 req.product: Windows 10 or later.
@@ -53,22 +54,6 @@ req.product: Windows 10 or later.
 A miniport driver's <b>HwScsiWmiSetDataItem</b> routine is called to change a single data item in an instance of a data block. This routine is optional.
 <div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
-## -prototype
-
-
-````
-BOOLEAN HwScsiWmiSetDataItem(
-  _In_ PVOID                    DeviceContext,
-  _In_ PSCSIWMI_REQUEST_CONTEXT RequestContext,
-  _In_ ULONG                    GuidIndex,
-  _In_ ULONG                    InstanceIndex,
-  _In_ ULONG                    DataItemId,
-  _In_ ULONG                    BufferSize,
-  _In_ PUCHAR                   Buffer
-);
-````
-
-
 ## -parameters
 
 
@@ -76,17 +61,17 @@ BOOLEAN HwScsiWmiSetDataItem(
 
 ### -param DeviceContext [in]
 
-Points to the miniport driver-defined context value passed to <a href="..\scsiwmi\nf-scsiwmi-scsiportwmidispatchfunction.md">ScsiPortWmiDispatchFunction</a>. 
+Points to the miniport driver-defined context value passed to <a href="https://msdn.microsoft.com/library/windows/hardware/ff564766">ScsiPortWmiDispatchFunction</a>. 
 
 
 ### -param RequestContext [in]
 
-Points to the SCSIWMI_REQUEST_CONTEXT structure that the miniport driver passed to <a href="..\scsiwmi\nf-scsiwmi-scsiportwmidispatchfunction.md">ScsiPortWmiDispatchFunction</a>. 
+Points to the SCSIWMI_REQUEST_CONTEXT structure that the miniport driver passed to <a href="https://msdn.microsoft.com/library/windows/hardware/ff564766">ScsiPortWmiDispatchFunction</a>. 
 
 
 ### -param GuidIndex [in]
 
-Specifies the data block by its index into the list of GUIDs in the SCSI_WMILIB_CONTEXT structure that the miniport driver passed to <a href="..\scsiwmi\nf-scsiwmi-scsiportwmidispatchfunction.md">ScsiPortWmiDispatchFunction</a>. 
+Specifies the data block by its index into the list of GUIDs in the SCSI_WMILIB_CONTEXT structure that the miniport driver passed to <a href="https://msdn.microsoft.com/library/windows/hardware/ff564766">ScsiPortWmiDispatchFunction</a>. 
 
 
 ### -param InstanceIndex [in]
@@ -122,33 +107,32 @@ Points to a buffer that contains the new value for the data item.
 
 
 
-When a miniport driver receives an SRB in which the <b>Function</b> member is set to SRB_FUNCTION_WMI, it calls <a href="..\scsiwmi\nf-scsiwmi-scsiportwmidispatchfunction.md">ScsiPortWmiDispatchFunction</a> with a pointer to an initialized SCSI_WMILIB_CONTEXT structure and <i>MinorFunction</i> set to <b>Srb-&gt;WmiSubFunction</b>. The SCSI port driver calls the miniport driver's <b>HwScsiWmiSetDataItem</b> routine if <i>MinorFunction</i> indicates a request to change an item in an instance of a data block.
+When a miniport driver receives an SRB in which the <b>Function</b> member is set to SRB_FUNCTION_WMI, it calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff564766">ScsiPortWmiDispatchFunction</a> with a pointer to an initialized SCSI_WMILIB_CONTEXT structure and <i>MinorFunction</i> set to <b>Srb-&gt;WmiSubFunction</b>. The SCSI port driver calls the miniport driver's <b>HwScsiWmiSetDataItem</b> routine if <i>MinorFunction</i> indicates a request to change an item in an instance of a data block.
 
-If a miniport driver does not implement a <b>HwScsiWmiSetDataItem</b> routine, it must set <b>SetWmiDataItem</b> to <b>NULL</b> in the SCSI_WMILIB_CONTEXT the miniport driver passes to <a href="..\scsiwmi\nf-scsiwmi-scsiportwmidispatchfunction.md">ScsiPortWmiDispatchFunction</a>. In this circumstance, the port driver will return SRB_STATUS_ERROR to the caller.
+If a miniport driver does not implement a <b>HwScsiWmiSetDataItem</b> routine, it must set <b>SetWmiDataItem</b> to <b>NULL</b> in the SCSI_WMILIB_CONTEXT the miniport driver passes to <a href="https://msdn.microsoft.com/library/windows/hardware/ff564766">ScsiPortWmiDispatchFunction</a>. In this circumstance, the port driver will return SRB_STATUS_ERROR to the caller.
 
-If the request does not pend, the miniport driver should call <a href="..\scsiwmi\nf-scsiwmi-scsiportwmipostprocess.md">ScsiPortWmiPostProcess</a> in its <b>HwScsiWmiSetDataItem</b> callback. Otherwise, the miniport driver should call <b>ScsiPortWmiPostProcess</b> when the request is actually completed. The miniport driver should call <b>ScsiPortWmiPostProcess</b> with the appropriate <i>SrbStatus</i> value.
+If the request does not pend, the miniport driver should call <a href="https://msdn.microsoft.com/library/windows/hardware/ff564796">ScsiPortWmiPostProcess</a> in its <b>HwScsiWmiSetDataItem</b> callback. Otherwise, the miniport driver should call <b>ScsiPortWmiPostProcess</b> when the request is actually completed. The miniport driver should call <b>ScsiPortWmiPostProcess</b> with the appropriate <i>SrbStatus</i> value.
 
-If the item is read-only, the miniport driver calls <a href="..\scsiwmi\nf-scsiwmi-scsiportwmipostprocess.md">ScsiPortWmiPostProcess</a> with SRB_STATUS_ERROR. Otherwise, the miniport driver changes the item and calls <b>ScsiPortWmiPostProcess</b> with SRB_STATUS_SUCCESS.
+If the item is read-only, the miniport driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff564796">ScsiPortWmiPostProcess</a> with SRB_STATUS_ERROR. Otherwise, the miniport driver changes the item and calls <b>ScsiPortWmiPostProcess</b> with SRB_STATUS_SUCCESS.
 
 
 
 
 ## -see-also
 
-<a href="..\scsiwmi\nf-scsiwmi-scsiportwmipostprocess.md">ScsiPortWmiPostProcess</a>
 
 
 
-<a href="..\scsiwmi\nf-scsiwmi-scsiportwmidispatchfunction.md">ScsiPortWmiDispatchFunction</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565395">SCSI_WMILIB_CONTEXT</a>
 
 
 
-<a href="..\scsiwmi\ns-scsiwmi-_scsiwmilib_context.md">SCSI_WMILIB_CONTEXT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564766">ScsiPortWmiDispatchFunction</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564796">ScsiPortWmiPostProcess</a>
  
 
  
-
 

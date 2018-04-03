@@ -38,7 +38,8 @@ api_location:
 -	wdfusb.h
 api_name:
 -	WDF_USB_BMREQUEST_RECIPIENT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_USB_BMREQUEST_RECIPIENT
 req.product: Windows 10 or later.
@@ -53,19 +54,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WDF_USB_BMREQUEST_RECIPIENT</b> enumeration identifies the data transfer recipient for a USB control transfer. 
-
-
-## -syntax
-
-
-````
-typedef enum _WDF_USB_BMREQUEST_RECIPIENT { 
-  BmRequestToDevice     = BMREQUEST_TO_DEVICE,
-  BmRequestToInterface  = BMREQUEST_TO_INTERFACE,
-  BmRequestToEndpoint   = BMREQUEST_TO_ENDPOINT,
-  BmRequestToOther      = BMREQUEST_TO_OTHER
-} WDF_USB_BMREQUEST_RECIPIENT;
-````
 
 
 ## -enum-fields
@@ -97,7 +85,7 @@ The data transfer recipient is not a device, interface, or endpoint.
 
 
 
-The<b>WDF_USB_BMREQUEST_RECIPIENT</b> enumeration is used in the <a href="..\wdfusb\ns-wdfusb-_wdf_usb_control_setup_packet.md">WDF_USB_CONTROL_SETUP_PACKET</a> structure.
+The<b>WDF_USB_BMREQUEST_RECIPIENT</b> enumeration is used in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552568">WDF_USB_CONTROL_SETUP_PACKET</a> structure.
 
 For more information about the data transfer recipient for a USB control transfer, see the USB specification.
 
@@ -106,12 +94,11 @@ For more information about the data transfer recipient for a USB control transfe
 
 ## -see-also
 
-<a href="..\wdfusb\ns-wdfusb-_wdf_usb_control_setup_packet.md">WDF_USB_CONTROL_SETUP_PACKET</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552568">WDF_USB_CONTROL_SETUP_PACKET</a>
  
 
  
-
 

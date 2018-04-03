@@ -2,7 +2,7 @@
 UID: TP:netvista
 ms.assetid: 81753000-e53e-3c99-bde3-5c662c944380
 ms.author: windowsdriverdev
-ms.date: 03/13/18
+ms.date: 04/03/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -11,6 +11,7 @@ ms.topic: portal
 
 # Networking drivers for Windows Vista and later
 
+## -description
 
 Overview of the Networking drivers for Windows Vista and later technology.
 
@@ -43,6 +44,7 @@ To develop Networking drivers for Windows Vista and later, you need these header
  * [netreceivescaling.h](..\netreceivescaling\index.md)
  * [netrequest.h](..\netrequest\index.md)
  * [netrequestqueue.h](..\netrequestqueue\index.md)
+ * [netringbuffer.h](..\netringbuffer\index.md)
  * [netrxqueue.h](..\netrxqueue\index.md)
  * [nettxqueue.h](..\nettxqueue\index.md)
  * [ntddndis.h](..\ntddndis\index.md)
@@ -61,10 +63,11 @@ To develop Networking drivers for Windows Vista and later, you need these header
  * [wlantypes.h](..\wlantypes\index.md)
  * [wlclient.h](..\wlclient\index.md)
  * [wsk.h](..\wsk\index.md)
+ * [wskndk.h](..\wskndk\index.md)
  * [wwan.h](..\wwan\index.md)
  * [xfilter.h](..\xfilter\index.md)
 
-For the programming guide, see [Networking drivers for Windows Vista and later](https://docs.microsoft.com/windows-hardware/drivers/network).
+For the programming guide, see [Networking drivers for Windows Vista and later](===404===https://docs.microsoft.com/en-us/windows-hardware/drivers/netvista).
 
 This section lists functions, callbacks, macros, structures, and enumerations used in Windows networking device drivers starting with Windows Vista. The header files that contain the topics defined in this section are included in the Windows Driver Kit (WDK).
 

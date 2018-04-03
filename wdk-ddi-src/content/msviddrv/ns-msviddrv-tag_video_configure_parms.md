@@ -38,7 +38,8 @@ api_location:
 -	Msviddrv.h
 api_name:
 -	VIDEOCONFIGPARMS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEOCONFIGPARMS, *LPVIDEOCONFIGPARMS
 ---
@@ -50,20 +51,6 @@ req.typenames: VIDEOCONFIGPARMS, *LPVIDEOCONFIGPARMS
 
 
 
-
-
-## -syntax
-
-
-````
-typedef struct tag_video_configure_parms {
-  LPDWORD lpdwReturn;
-  LPVOID  lpData1;
-  DWORD   dwSize1;
-  LPVOID  lpData2;
-  DWORD   dwSize2;
-} VIDEOCONFIGPARMS, *LPVIDEOCONFIGPARMS;
-````
 
 
 ## -struct-fields

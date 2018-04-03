@@ -38,7 +38,8 @@ api_location:
 -	wiamindr_lh.h
 api_name:
 -	IWiaDrvItem.AddItemToFolder
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SCANWINDOW, *PSCANWINDOW
 req.product: Windows 10 or later.
@@ -51,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 The AddItemToFolder method adds an IWiaDrvItem item to a folder in a driver item tree.
-
-
-## -syntax
-
-
-````
-HRESULT AddItemToFolder(
-  [in, optional] IWiaDrvItem *pIParent
-);
-````
 
 
 ## -parameters
@@ -100,16 +91,15 @@ Minidrivers typically use the AddItemToFolder method to add an item to a parent 
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/0609e1b2-48df-413c-90bd-d7ddea26510a">IWiaDrvItem</a>
+
+
+
 <a href="https://msdn.microsoft.com/f800427e-d6b6-4f4c-aee7-4b2b0d0aa0c4">RemoveItemFromFolder</a>
-
-
-
-<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiadrvitem.md">IWiaDrvItem</a>
-
-
-
  
 
  
-
 

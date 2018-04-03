@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KS_MPEG2Level
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KS_MPEG2Level
 ---
@@ -50,19 +51,6 @@ req.typenames: KS_MPEG2Level
 
 
 The KS_MPEG2Level enumeration describes MPEG-2 levels.
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  KS_MPEG2Level_Low       = 0,
-  KS_MPEG2Level_Main      = 1,
-  KS_MPEG2Level_High1440  = 2,
-  KS_MPEG2Level_High      = 3
-} KS_MPEG2Level;
-````
 
 
 ## -enum-fields
@@ -92,12 +80,11 @@ Specifies the high MPEG-2 resolution, or 1920 × 1080 at 30 frames per second.
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-tagks_mpegvideoinfo2.md">KS_MPEGVIDEOINFO2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567667">KS_MPEGVIDEOINFO2</a>
  
 
  
-
 

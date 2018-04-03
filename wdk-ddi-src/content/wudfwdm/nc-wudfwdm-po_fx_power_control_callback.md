@@ -7,7 +7,7 @@ old-location: kernel\powercontrolcallback.htm
 old-project: kernel
 ms.assetid: 110DAD1A-606B-4973-8724-03B531B2AEA9
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 2/24/2018
 ms.keywords: PO_FX_POWER_CONTROL_CALLBACK, PowerControlCallback, PowerControlCallback routine [Kernel-Mode Driver Architecture], kernel.powercontrolcallback, wdm/PowerControlCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	PowerControlCallback
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
@@ -197,5 +198,6 @@ The PO_FX_POWER_CONTROL_CALLBACK function type is defined in the Wdm.h header fi
  
 
  
+
 
 

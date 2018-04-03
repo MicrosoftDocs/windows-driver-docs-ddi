@@ -7,7 +7,7 @@ old-location: ifsk\file_pipe_information.htm
 old-project: ifsk
 ms.assetid: d38b9f36-27f1-47f1-a469-18ddb6f5b2c1
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: "*PFILE_PIPE_INFORMATION, FILE_PIPE_INFORMATION, FILE_PIPE_INFORMATION structure [Installable File System Drivers], PFILE_PIPE_INFORMATION, PFILE_PIPE_INFORMATION structure pointer [Installable File System Drivers], _FILE_PIPE_INFORMATION, ifsk.file_pipe_information, ntifs/FILE_PIPE_INFORMATION, ntifs/PFILE_PIPE_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntifs.h
 api_name:
 -	FILE_PIPE_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FILE_PIPE_INFORMATION, *PFILE_PIPE_INFORMATION
 ---
@@ -50,17 +51,6 @@ req.typenames: FILE_PIPE_INFORMATION, *PFILE_PIPE_INFORMATION
 
 
 The <b>FILE_PIPE_INFORMATION</b> structure contains information about a named pipe that is not specific to the local or the remote end of the pipe.
-
-
-## -syntax
-
-
-````
-typedef struct _FILE_PIPE_INFORMATION {
-  ULONG ReadMode;
-  ULONG CompletionMode;
-} FILE_PIPE_INFORMATION, *PFILE_PIPE_INFORMATION;
-````
 
 
 ## -struct-fields

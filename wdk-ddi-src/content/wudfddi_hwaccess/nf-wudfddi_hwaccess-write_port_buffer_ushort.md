@@ -38,7 +38,8 @@ api_location:
 -	Wudfddi_hwaccess.h
 api_name:
 -	WRITE_PORT_BUFFER_USHORT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UMDF_IO_TARGET_OPEN_PARAMS, *PUMDF_IO_TARGET_OPEN_PARAMS
 req.product: Windows 10 or later.
@@ -56,19 +57,6 @@ The <b>WRITE_PORT_BUFFER_USHORT</b> function writes a number of USHORT values fr
 
 
 
-## -syntax
-
-
-````
-void WRITE_PORT_BUFFER_USHORT(
-  _In_ IWDFDevice3 *pDevice,
-  _In_ PUSHORT     Port,
-  _In_ PUSHORT     Buffer,
-  _In_ ULONG       Count 
-);
-````
-
-
 ## -parameters
 
 
@@ -76,7 +64,7 @@ void WRITE_PORT_BUFFER_USHORT(
 
 ### -param pDevice [in]
 
-Specifies a pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfdevice3.md">IWDFDevice3</a> interface for the device object of the device to access.
+Specifies a pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451197">IWDFDevice3</a> interface for the device object of the device to access.
 
 
 ### -param Port [in]

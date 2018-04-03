@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsSetInformationFile
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,19 +52,6 @@ req.typenames:
 
 
 The <b>KsSetInformationFile</b> function performs an information set against the specified file object. The function attempts to use <b>FastIoDispatch</b> if possible, or it generates an information set against the device object.
-
-
-## -syntax
-
-
-````
-NTSTATUS KsSetInformationFile(
-  _In_ PFILE_OBJECT           FileObject,
-  _In_ PVOID                  FileInformation,
-  _In_ ULONG                  Length,
-  _In_ FILE_INFORMATION_CLASS FileInformationClass
-);
-````
 
 
 ## -parameters

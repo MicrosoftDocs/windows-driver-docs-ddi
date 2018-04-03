@@ -7,7 +7,7 @@ old-location: debugger\windbgextensiondllinit.htm
 old-project: debugger
 ms.assetid: 1c97ac8c-9b40-44e8-b669-6b7d4ee2d671
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: PWINDBG_EXTENSION_DLL_INIT, WdbgExts_Callbacks_18383848-27f2-4d4e-a5b0-c6ce27377687.xml, WinDbgExtensionDllInit, WinDbgExtensionDllInit callback function [Windows Debugging], debugger.windbgextensiondllinit, wdbgexts/WinDbgExtensionDllInit
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	wdbgexts.h
 api_name:
 -	WinDbgExtensionDllInit
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VPCI_WRITE_BLOCK_INPUT, *PVPCI_WRITE_BLOCK_INPUT
 req.product: Windows 10 or later.
@@ -51,18 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>PWINDBG_EXTENSION_DLL_INIT</b> (<b> WinDbgExtensionDllInit</b>) callback function is used to load and initialize the extension module.
-
-
-## -prototype
-
-
-````
-VOID WinDbgExtensionDllInit(
-   PWINDBG_EXTENSION_APIS64 lpExtensionApis,
-   USHORT                   MajorVersion,
-   USHORT                   MinorVersion
-);
-````
 
 
 ## -parameters

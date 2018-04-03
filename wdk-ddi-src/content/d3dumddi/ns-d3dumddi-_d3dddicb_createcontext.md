@@ -7,7 +7,7 @@ old-location: display\d3dddicb_createcontext.htm
 old-project: display
 ms.assetid: 6bee57b5-f4b3-424c-aeb5-3bf65ab16392
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDICB_CREATECONTEXT, D3DDDICB_CREATECONTEXT structure [Display Devices], D3D_param_Structs_9ad6c5e1-c3aa-4546-b3c9-c07c8350093b.xml, _D3DDDICB_CREATECONTEXT, d3dumddi/D3DDDICB_CREATECONTEXT, display.d3dddicb_createcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	D3DDDICB_CREATECONTEXT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDICB_CREATECONTEXT
 ---
@@ -50,30 +51,6 @@ req.typenames: D3DDDICB_CREATECONTEXT
 
 
 The D3DDDICB_CREATECONTEXT structure describes a context to create.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DDDICB_CREATECONTEXT {
-  UINT                      NodeOrdinal;
-  UINT                      EngineAffinity;
-  D3DDDI_CREATECONTEXTFLAGS Flags;
-  VOID                      *pPrivateDriverData;
-  UINT                      PrivateDriverDataSize;
-  HANDLE                    hContext;
-  VOID                      *pCommandBuffer;
-  UINT                      CommandBufferSize;
-  D3DDDI_ALLOCATIONLIST     *pAllocationList;
-  UINT                      AllocationListSize;
-  D3DDDI_PATCHLOCATIONLIST  *pPatchLocationList;
-  UINT                      PatchLocationListSize;
-#if D3D_UMD_INTERFACE_VERSION >= D3D_UMD_INTERFACE_VERSION_WIN7
-  D3DGPU_VIRTUAL_ADDRESS    CommandBuffer;
-#endif 
-} D3DDDICB_CREATECONTEXT;
-````
 
 
 ## -struct-fields
@@ -93,7 +70,7 @@ typedef struct _D3DDDICB_CREATECONTEXT {
 
 ### -field Flags
 
-[in] A <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_createcontextflags.md">D3DDDI_CREATECONTEXTFLAGS</a> structure that indicates, in bit-field flags, how to create the context. 
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff544502">D3DDDI_CREATECONTEXTFLAGS</a> structure that indicates, in bit-field flags, how to create the context. 
 
 
 ### -field pPrivateDriverData
@@ -123,7 +100,7 @@ typedef struct _D3DDDICB_CREATECONTEXT {
 
 ### -field pAllocationList
 
-[out] An array of <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_allocationlist.md">D3DDDI_ALLOCATIONLIST</a> structures for the first allocation list for the created context.
+[out] An array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff544375">D3DDDI_ALLOCATIONLIST</a> structures for the first allocation list for the created context.
 
 
 ### -field AllocationListSize
@@ -133,7 +110,7 @@ typedef struct _D3DDDICB_CREATECONTEXT {
 
 ### -field pPatchLocationList
 
-[out] An array of <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_patchlocationlist.md">D3DDDI_PATCHLOCATIONLIST</a> structures for the first patch-location list for the created context.
+[out] An array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff544630">D3DDDI_PATCHLOCATIONLIST</a> structures for the first patch-location list for the created context.
 
 
 ### -field PatchLocationListSize
@@ -150,24 +127,23 @@ This member is available beginning with Windows 7.
 
 ## -see-also
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_patchlocationlist.md">D3DDDI_PATCHLOCATIONLIST</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544375">D3DDDI_ALLOCATIONLIST</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544502">D3DDDI_CREATECONTEXTFLAGS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544630">D3DDDI_PATCHLOCATIONLIST</a>
 
 
 
 <a href="https://msdn.microsoft.com/f3f5d6bc-3bc6-4214-830a-cffff01069cc">pfnCreateContextCb</a>
-
-
-
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_createcontextflags.md">D3DDDI_CREATECONTEXTFLAGS</a>
-
-
-
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_allocationlist.md">D3DDDI_ALLOCATIONLIST</a>
-
-
-
  
 
  
-
 

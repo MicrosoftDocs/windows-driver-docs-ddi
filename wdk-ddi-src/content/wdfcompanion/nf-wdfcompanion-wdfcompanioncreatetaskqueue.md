@@ -38,7 +38,8 @@ api_location:
 -	wdfcompanion.h
 api_name:
 -	WdfCompanionCreateTaskQueue
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_TASK_QUEUE_DISPATCH_TYPE
 req.product: Windows 10 or later.
@@ -52,19 +53,6 @@ req.product: Windows 10 or later.
 
 
 			For internal use only.
-
-
-## -syntax
-
-
-````
-NTSTATUS WdfCompanionCreateTaskQueue(
-  _In_      WDFCOMPANION           Companion,
-  _In_      PWDF_TASK_QUEUE_CONFIG Config,
-  _In_opt_  PWDF_OBJECT_ATTRIBUTES QueueAttributes,
-  _Out_opt_ WDFTASKQUEUE           *Queue
-);
-````
 
 
 ## -parameters

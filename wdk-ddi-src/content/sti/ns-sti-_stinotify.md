@@ -38,7 +38,8 @@ api_location:
 -	sti.h
 api_name:
 -	STINOTIFY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STINOTIFY, *LPSTINOTIFY
 req.product: Windows 10 or later.
@@ -51,18 +52,6 @@ req.product: Windows 10 or later.
 
 
 The STINOTIFY structure is used as a parameter to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543796">IStillImage::LaunchApplicationForDevice</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff543751">IStiDevice::GetLastNotificationData</a>, and <a href="https://msdn.microsoft.com/library/windows/hardware/ff543821">IStiUSD::GetNotificationData</a> methods.
-
-
-## -syntax
-
-
-````
-typedef struct _STINOTIFY {
-  DWORD dwSize;
-  GUID  guidNotificationCode;
-  BYTE  abNotificationData[MAX_NOTIFICATION_DATA];
-} STINOTIFY, *LPSTINOTIFY;
-````
 
 
 ## -struct-fields

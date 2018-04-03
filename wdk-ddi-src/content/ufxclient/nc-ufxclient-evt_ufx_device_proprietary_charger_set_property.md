@@ -7,7 +7,7 @@ old-location: buses\evt_ufx_device_proprietary_charger_set_property.htm
 old-project: usbref
 ms.assetid: 7ED9D607-2F7A-4835-9D1E-FC33EF594974
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: EVT_UFX_DEVICE_PROPRIETARY_CHARGER_SET_PROPERTY, EvtUfxDeviceProprietaryChargerSetProperty, EvtUfxDeviceProprietaryChargerSetProperty callback function [Buses], PFN_UFX_DEVICE_PROPRIETARY_CHARGER_SET_PROPERTY, PFN_UFX_DEVICE_PROPRIETARY_CHARGER_SET_PROPERTY callback function pointer [Buses], buses.evt_ufx_device_proprietary_charger_set_property, ufxclient/EvtUfxDeviceProprietaryChargerSetProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ufxclient.h
 api_name:
 -	PFN_UFX_DEVICE_PROPRIETARY_CHARGER_SET_PROPERTY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UFX_HARDWARE_FAILURE_CONTEXT, *PUFX_HARDWARE_FAILURE_CONTEXT
 req.product: Windows 10 or later.
@@ -51,24 +52,6 @@ req.product: Windows 10 or later.
 
 
 The client driver's implementation to set charger information that it uses to enable charging over USB.
-
-
-## -prototype
-
-
-````
-EVT_UFX_DEVICE_PROPRIETARY_CHARGER_SET_PROPERTY EvtUfxDeviceProprietaryChargerSetProperty
-;
-
-void EvtUfxDeviceProprietaryChargerSetProperty
-(
-  _In_ UFXDEVICE  UfxDevice,
-  _In_ WDFREQUEST WdfRequest
-)
-{ ... }
-
-typedef EVT_UFX_DEVICE_PROPRIETARY_CHARGER_SET_PROPERTY PFN_UFX_DEVICE_PROPRIETARY_CHARGER_SET_PROPERTY;
-````
 
 
 ## -parameters
@@ -86,12 +69,12 @@ typedef EVT_UFX_DEVICE_PROPRIETARY_CHARGER_SET_PROPERTY PFN_UFX_DEVICE_PROPRIETA
 
 #### - UfxDevice [in]
 
-The handle to a  USB device object that the client driver received in a previous call to  the <a href="..\ufxclient\nf-ufxclient-ufxdevicecreate.md">UfxDeviceCreate</a>.
+The handle to a  USB device object that the client driver received in a previous call to  the <a href="https://msdn.microsoft.com/library/windows/hardware/mt187951">UfxDeviceCreate</a>.
 
 
 #### - WdfRequest [in]
 
-The handle framework request object that for an <a href="..\charging\ni-charging-ioctl_internal_configure_charger_property.md">IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY</a> request from the battery minidriver. 
+The handle framework request object that for an <a href="https://msdn.microsoft.com/library/windows/hardware/mt186650">IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY</a> request from the battery minidriver. 
 
 
 ## -returns
@@ -109,23 +92,22 @@ This callback function does not return a value.
 
 <i>EVT_UFX_DEVICE_PROPRIETARY_CHARGER_SET_PROPERTY</i> is an optional event callback.
 
-<i>WdfRequest</i> is contains a request for <a href="..\charging\ni-charging-ioctl_internal_configure_charger_property.md">IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY</a>, which specifies a charger ID that is known by the client driver and battery miniclass driver, and a voltage value in millivolts.  The client driver can use this information to enable charging over the USB port at an appropriate current/voltage level.
+<i>WdfRequest</i> is contains a request for <a href="https://msdn.microsoft.com/library/windows/hardware/mt186650">IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY</a>, which specifies a charger ID that is known by the client driver and battery miniclass driver, and a voltage value in millivolts.  The client driver can use this information to enable charging over the USB port at an appropriate current/voltage level.
 
 
 
 
 ## -see-also
 
-<a href="..\ufxclient\nf-ufxclient-ufxdeviceproprietarychargerdetectcomplete.md">UfxDeviceProprietaryChargerDetectComplete</a>
 
 
 
-<a href="..\ufxclient\nf-ufxclient-ufxdevicecreate.md">UfxDeviceCreate</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt187951">UfxDeviceCreate</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt187964">UfxDeviceProprietaryChargerDetectComplete</a>
  
 
  
-
 

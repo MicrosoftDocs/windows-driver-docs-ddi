@@ -38,7 +38,8 @@ api_location:
 -	Winspool.h
 api_name:
 -	WaitForPrinterChange
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BIDI_TYPE
 req.product: Windows 10 or later.
@@ -51,17 +52,6 @@ req.product: Windows 10 or later.
 
 
 
-
-
-## -syntax
-
-
-````
-DWORD WINAPI WaitForPrinterChange(
-   HANDLE hPrinter,
-   DWORD  Flags
-);
-````
 
 
 ## -parameters

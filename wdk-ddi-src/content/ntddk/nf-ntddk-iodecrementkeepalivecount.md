@@ -7,7 +7,7 @@ old-location: kernel\iodecrementkeepalivecount.htm
 old-project: kernel
 ms.assetid: 2A8BC777-291C-4EC4-8EF9-AA78C6295700
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: IoDecrementKeepAliveCount, IoDecrementKeepAliveCount routine [Kernel-Mode Driver Architecture], kernel.iodecrementkeepalivecount, ntddk/IoDecrementKeepAliveCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ntoskrnl.exe
 api_name:
 -	IoDecrementKeepAliveCount
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
@@ -50,17 +51,6 @@ req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 
 
 The <b>IoDecrementKeepAliveCount</b> routine decrements a reference count associated with an Windows app on a specific device. This routine is called by a kernel mode driver when the app's I/O process has completed.  If the app's reference count drops to 0, Windows can suspend the app.
-
-
-## -syntax
-
-
-````
-NTSTATUS IoDecrementKeepAliveCount(
-  _Inout_           FileObject,
-  _Inout_ PEPROCESS Process
-);
-````
 
 
 ## -parameters

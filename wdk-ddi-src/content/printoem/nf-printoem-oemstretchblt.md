@@ -38,7 +38,8 @@ api_location:
 -	printoem.h
 api_name:
 -	OEMStretchBlt
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STDVARIABLEINDEX
 req.product: Windows 10 or later.
@@ -51,26 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <code>OEMStretchBlt</code> function provides stretching bit-block transfer capabilities between any combination of device-managed and GDI-managed surfaces. 
-
-
-## -syntax
-
-
-````
-BOOL APIENTRY OEMStretchBlt(
-   SURFOBJ         *psoDest,
-   SURFOBJ         *psoSrc,
-   SURFOBJ         *psoMask,
-   CLIPOBJ         *pco,
-   XLATEOBJ        *pxlo,
-   COLORADJUSTMENT *pca,
-   POINTL          *pptlHTOrg,
-   RECTL           *prclDest,
-   RECTL           *prclSrc,
-   POINTL          *pptlMask,
-   ULONG           iMode
-);
-````
 
 
 ## -parameters

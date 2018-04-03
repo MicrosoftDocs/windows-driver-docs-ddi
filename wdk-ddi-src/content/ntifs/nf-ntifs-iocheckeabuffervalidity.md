@@ -7,7 +7,7 @@ old-location: ifsk\iocheckeabuffervalidity.htm
 old-project: ifsk
 ms.assetid: 1f9a4fcb-0e70-4f13-bd38-e87bee909a26
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: IoCheckEaBufferValidity, IoCheckEaBufferValidity function [Installable File System Drivers], ifsk.iocheckeabuffervalidity, ioref_cda82410-a6a9-40df-83ac-c1376a129a7a.xml, ntifs/IoCheckEaBufferValidity
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	IoCheckEaBufferValidity
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -50,18 +51,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>IoCheckEaBufferValidity</b> routine checks whether the specified extended attribute (EA) buffer is valid.
-
-
-## -syntax
-
-
-````
-NTSTATUS IoCheckEaBufferValidity(
-  _In_  PFILE_FULL_EA_INFORMATION EaBuffer,
-  _In_  ULONG                     EaLength,
-  _Out_ PULONG                    ErrorOffset
-);
-````
 
 
 ## -parameters
@@ -139,7 +128,10 @@ To be valid, the EA buffer must meet all of these conditions.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549346">IRP_MJ_SET_EA</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545793">FILE_FULL_EA_INFORMATION</a>
 
 
 
@@ -147,12 +139,8 @@ To be valid, the EA buffer must meet all of these conditions.
 
 
 
-<a href="..\wdm\ns-wdm-_file_full_ea_information.md">FILE_FULL_EA_INFORMATION</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549346">IRP_MJ_SET_EA</a>
  
 
  
-
 

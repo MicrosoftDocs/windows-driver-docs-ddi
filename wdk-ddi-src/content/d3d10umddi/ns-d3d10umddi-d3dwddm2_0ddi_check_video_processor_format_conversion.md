@@ -7,7 +7,7 @@ old-location: display\d3dwddm2_0ddi_check_video_processor_format_conversion.htm
 old-project: display
 ms.assetid: 3259CEB7-E902-4040-B99E-D0609935E804
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DWDDM2_0DDI_CHECK_VIDEO_PROCESSOR_FORMAT_CONVERSION, D3DWDDM2_0DDI_CHECK_VIDEO_PROCESSOR_FORMAT_CONVERSION structure [Display Devices], d3d10umddi/D3DWDDM2_0DDI_CHECK_VIDEO_PROCESSOR_FORMAT_CONVERSION, display.d3dwddm2_0ddi_check_video_processor_format_conversion
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3d10umddi.h
 api_name:
 -	D3DWDDM2_0DDI_CHECK_VIDEO_PROCESSOR_FORMAT_CONVERSION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DWDDM2_0DDI_CHECK_VIDEO_PROCESSOR_FORMAT_CONVERSION
 ---
@@ -49,21 +50,7 @@ req.typenames: D3DWDDM2_0DDI_CHECK_VIDEO_PROCESSOR_FORMAT_CONVERSION
 ## -description
 
 
-<b>D3DWDDM2_0DDI_CHECK_VIDEO_PROCESSOR_FORMAT_CONVERSION</b> is used with <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3dwddm2_0ddi_checkvideoprocessorformatconversion.md">CheckVideoProcessorFormatConversion</a> to indicate whether the driver supports a specific format/color space conversion combination.
-
-
-## -syntax
-
-
-````
-typedef struct D3DWDDM2_0DDI_CHECK_VIDEO_PROCESSOR_FORMAT_CONVERSION {
-  DXGI_FORMAT             InputFormat;
-  D3DDDI_COLOR_SPACE_TYPE InputColorSpace;
-  DXGI_FORMAT             OutputFormat;
-  D3DDDI_COLOR_SPACE_TYPE OutputColorSpace;
-  BOOL                    Supported;
-} D3DWDDM2_0DDI_CHECK_VIDEO_PROCESSOR_FORMAT_CONVERSION;
-````
+<b>D3DWDDM2_0DDI_CHECK_VIDEO_PROCESSOR_FORMAT_CONVERSION</b> is used with <a href="https://msdn.microsoft.com/library/windows/hardware/dn906317">CheckVideoProcessorFormatConversion</a> to indicate whether the driver supports a specific format/color space conversion combination.
 
 
 ## -struct-fields
@@ -98,12 +85,11 @@ The driver sets this to <b>TRUE</b> if the conversion between the input format/c
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3dwddm2_0ddi_checkvideoprocessorformatconversion.md">CheckVideoProcessorFormatConversion</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn906317">CheckVideoProcessorFormatConversion</a>
  
 
  
-
 

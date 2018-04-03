@@ -38,7 +38,8 @@ api_location:
 -	filterpipeline.h
 api_name:
 -	IXpsDocumentConsumer.SendFixedDocument
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
@@ -50,16 +51,6 @@ req.typenames: EXpsFontRestriction
 
 
 The <code>SendFixedDocument</code> method sends a fixed document object to the pipeline.
-
-
-## -syntax
-
-
-````
-HRESULT SendFixedDocument(
-  [in] IFixedDocument *pIFixedDocument
-);
-````
 
 
 ## -parameters

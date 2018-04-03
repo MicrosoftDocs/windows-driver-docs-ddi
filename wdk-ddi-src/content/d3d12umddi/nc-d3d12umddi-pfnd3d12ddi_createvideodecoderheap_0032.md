@@ -7,7 +7,7 @@ old-location: display\pfnd3d12ddi_createvideodecoderheap_0032.htm
 old-project: display
 ms.assetid: EC383086-CE8F-4387-8F92-BEC8215A97DA
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3D12DDI_CREATEVIDEODECODERHEAP_0032, PFND3D12DDI_CREATEVIDEODECODERHEAP_0032 callback function [Display Devices], d3d12umddi/PFND3D12DDI_CREATEVIDEODECODERHEAP_0032, display.pfnd3d12ddi_createvideodecoderheap_0032
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3d12umddi.h
 api_name:
 -	PFND3D12DDI_CREATEVIDEODECODERHEAP_0032
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
 ---
@@ -50,18 +51,6 @@ req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
 
 
 Used to create a video decoder heap.
-
-
-## -prototype
-
-
-````
-HRESULT APIENTRY* PFND3D12DDI_CREATEVIDEODECODERHEAP_0032(
-             D3D12DDI_HDEVICE                           hDrvDevice,
-  _In_ const D3D12DDIARG_CREATE_VIDEO_DECODER_HEAP_0032 *pArgs,
-             D3D12DDI_HVIDEODECODERHEAP_0032            hDrvVideoDecoderHeap
-);
-````
 
 
 ## -parameters

@@ -38,7 +38,8 @@ api_location:
 -	stiusd.h
 api_name:
 -	IStiUSD.Initialize
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STI_WIA_DEVICE_INFORMATIONW, *PSTI_WIA_DEVICE_INFORMATIONW
 req.product: Windows 10 or later.
@@ -51,18 +52,6 @@ req.product: Windows 10 or later.
 
 
 A still image minidriver's <b>IStiUSD::Initialize</b> method initializes an instance of the COM object that defines the <b>IStiUSD</b> interface.
-
-
-## -syntax
-
-
-````
-HRESULT Initialize(
-   PSTIDEVICECONTROL pDcb,
-   DWORD             dwStiVersion,
-   HKEY              hParametersKey
-);
-````
 
 
 ## -parameters

@@ -39,7 +39,8 @@ api_location:
 -	Wdf01000.sys.dll
 api_name:
 -	WdfUsbTargetDeviceRetrieveCurrentFrameNumber
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
@@ -56,17 +57,6 @@ req.product: Windows 10 or later.
 The <b>WdfUsbTargetDeviceRetrieveCurrentFrameNumber</b> method retrieves the current USB frame number.
 
 
-## -syntax
-
-
-````
-NTSTATUS WdfUsbTargetDeviceRetrieveCurrentFrameNumber(
-  _In_  WDFUSBDEVICE UsbDevice,
-  _Out_ PULONG       CurrentFrameNumber
-);
-````
-
-
 ## -parameters
 
 
@@ -74,7 +64,7 @@ NTSTATUS WdfUsbTargetDeviceRetrieveCurrentFrameNumber(
 
 ### -param UsbDevice [in]
 
-A handle to a USB device object that was obtained from a previous call to <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreatewithparameters.md">WdfUsbTargetDeviceCreateWithParameters</a>.
+A handle to a USB device object that was obtained from a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/hh439428">WdfUsbTargetDeviceCreateWithParameters</a>.
 
 
 ### -param CurrentFrameNumber [out]
@@ -161,12 +151,11 @@ status = WdfUsbTargetDeviceRetrieveCurrentFrameNumber(
 
 ## -see-also
 
-<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreatewithparameters.md">WdfUsbTargetDeviceCreateWithParameters</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439428">WdfUsbTargetDeviceCreateWithParameters</a>
  
 
  
-
 

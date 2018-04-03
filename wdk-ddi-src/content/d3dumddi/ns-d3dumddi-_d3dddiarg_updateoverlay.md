@@ -7,7 +7,7 @@ old-location: display\d3dddiarg_updateoverlay.htm
 old-project: display
 ms.assetid: e49f48fd-f2e8-4ccc-813f-f624e06ab365
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDIARG_UPDATEOVERLAY, D3DDDIARG_UPDATEOVERLAY structure [Display Devices], UMDisplayDriver_param_Structs_6c415566-a5f5-4efc-820b-7eb466b59149.xml, _D3DDDIARG_UPDATEOVERLAY, d3dumddi/D3DDDIARG_UPDATEOVERLAY, display.d3dddiarg_updateoverlay
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	D3DDDIARG_UPDATEOVERLAY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDIARG_UPDATEOVERLAY
 ---
@@ -50,17 +51,6 @@ req.typenames: D3DDDIARG_UPDATEOVERLAY
 
 
 The D3DDDIARG_UPDATEOVERLAY structure describes an overlay to modify. 
-
-
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_UPDATEOVERLAY {
-  HANDLE             hOverlay;
-  D3DDDI_OVERLAYINFO OverlayInfo;
-} D3DDDIARG_UPDATEOVERLAY;
-````
 
 
 ## -struct-fields
@@ -75,21 +65,20 @@ typedef struct _D3DDDIARG_UPDATEOVERLAY {
 
 ### -field OverlayInfo
 
-[in] A pointer to the <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_overlayinfo.md">D3DDDI_OVERLAYINFO</a> structure that describes the modification for the overlay. 
+[in] A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544621">D3DDDI_OVERLAYINFO</a> structure that describes the modification for the overlay. 
 
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_updateoverlay.md">UpdateOverlay</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_overlayinfo.md">D3DDDI_OVERLAYINFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544621">D3DDDI_OVERLAYINFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/80d7cc5c-51d8-4b91-9581-b073f9b0e68a">UpdateOverlay</a>
  
 
  
-
 

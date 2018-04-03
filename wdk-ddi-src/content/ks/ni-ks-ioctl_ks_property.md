@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	IOCTL_KS_PROPERTY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -50,7 +51,7 @@ req.typenames:
 
 
 
-An application can use IOCTL_KS_PROPERTY to get or set properties, or to determine the properties supported by a KS object. The application passes IOCTL_KS_PROPERTY with the parameters described below to the <a href="..\ksproxy\nf-ksproxy-kssynchronousdevicecontrol.md">KsSynchronousDeviceControl</a> function.
+An application can use IOCTL_KS_PROPERTY to get or set properties, or to determine the properties supported by a KS object. The application passes IOCTL_KS_PROPERTY with the parameters described below to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567142">KsSynchronousDeviceControl</a> function.
 
 
 
@@ -62,7 +63,7 @@ An application can use IOCTL_KS_PROPERTY to get or set properties, or to determi
 
 ### -input-buffer
 
-The contents of the client-specified <b>InBuffer</b> parameter depend on the property request, and are documented for each property set. For instance, clients requesting properties in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566584">KSPROPSETID_Pin</a> property set specify a pointer to a <a href="..\ks\ns-ks-ksp_pin.md">KSP_PIN</a> structure. 
+The contents of the client-specified <b>InBuffer</b> parameter depend on the property request, and are documented for each property set. For instance, clients requesting properties in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566584">KSPROPSETID_Pin</a> property set specify a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff566722">KSP_PIN</a> structure. 
 
 
 ### -input-buffer-length
@@ -109,7 +110,7 @@ If the request is successful, the Status member is set to STATUS_SUCCESS.
 
 For more information about input and output buffers and their sizes, see <a href="https://msdn.microsoft.com/a385929e-1934-4d88-aaf9-ff1ddbfd30f7">KS Properties</a>.
 
-Filters and pins support property sets using the <b>IOCTL_KS_PROPERTY</b> device I/O control. Although this IOCTL is defined with the METHOD_NEITHER flag, the property data is passed as the output buffer to the IOCTL and probed for read access. The <a href="..\ks\nf-ks-kspropertyhandler.md">KsPropertyHandler</a> function handles properties requested through <b>IOCTL_KS_PROPERTY</b>.
+Filters and pins support property sets using the <b>IOCTL_KS_PROPERTY</b> device I/O control. Although this IOCTL is defined with the METHOD_NEITHER flag, the property data is passed as the output buffer to the IOCTL and probed for read access. The <a href="https://msdn.microsoft.com/library/windows/hardware/ff564263">KsPropertyHandler</a> function handles properties requested through <b>IOCTL_KS_PROPERTY</b>.
 
 For a list of valid flags and corresponding descriptions, see the reference page for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a> structure.
 
@@ -118,23 +119,6 @@ For a list of valid flags and corresponding descriptions, see the reference page
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksproperty_set.md">KSPROPERTY_SET</a>
-
-
-
-<a href="..\ks\ns-ks-ksproperty_description.md">KSPROPERTY_DESCRIPTION</a>
-
-
-
-<a href="..\ks\ns-ks-ksproperty_membersheader.md">KSPROPERTY_MEMBERSHEADER</a>
-
-
-
-<a href="..\ks\ns-ks-ksproperty_values.md">KSPROPERTY_VALUES</a>
-
-
-
-<a href="..\ks\ns-ks-ksproperty_item.md">KSPROPERTY_ITEM</a>
 
 
 
@@ -142,8 +126,24 @@ For a list of valid flags and corresponding descriptions, see the reference page
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565132">KSPROPERTY_DESCRIPTION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565176">KSPROPERTY_ITEM</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565189">KSPROPERTY_MEMBERSHEADER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565617">KSPROPERTY_SET</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565966">KSPROPERTY_VALUES</a>
  
 
  
-
 

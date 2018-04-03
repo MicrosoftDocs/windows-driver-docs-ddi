@@ -7,7 +7,7 @@ old-location: debugger\getinstructionoffset.htm
 old-project: debugger
 ms.assetid: f82416c9-1f4a-4083-b4df-f0d97eae2127
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: GetInstructionOffset method [Windows Debugging], GetInstructionOffset method [Windows Debugging], IDebugRegisters interface, GetInstructionOffset method [Windows Debugging], IDebugRegisters2 interface, GetInstructionOffset,IDebugRegisters2.GetInstructionOffset, IDebugRegisters interface [Windows Debugging], GetInstructionOffset method, IDebugRegisters2, IDebugRegisters2 interface [Windows Debugging], GetInstructionOffset method, IDebugRegisters2::GetInstructionOffset, IDebugRegisters::GetInstructionOffset, IDebugRegisters_229180dd-2da4-4ff1-9284-520bef0b6843.xml, dbgeng/IDebugRegisters2::GetInstructionOffset, dbgeng/IDebugRegisters::GetInstructionOffset, debugger.getinstructionoffset
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	IDebugRegisters.GetInstructionOffset
 -	IDebugRegisters2.GetInstructionOffset
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -51,16 +52,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetInstructionOffset</b> method returns the location of the current thread's current instruction.
-
-
-## -syntax
-
-
-````
-HRESULT GetInstructionOffset(
-  [out] PULONG64 Offset
-);
-````
 
 
 ## -parameters
@@ -109,18 +100,13 @@ The meaning of the value returned by this method is architecture-dependent.  In 
 
 The method <a href="https://msdn.microsoft.com/library/windows/hardware/ff546933">GetInstructionOffset2</a> performs the same task as this method but also allows the register source to be specified.
 
-For an overview of the <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRegisters</a> interface and other register-related methods, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554369">Registers</a>.
+For an overview of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550825">IDebugRegisters</a> interface and other register-related methods, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554369">Registers</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRegisters</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugregisters2.md">IDebugRegisters2</a>
 
 
 
@@ -128,8 +114,12 @@ For an overview of the <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRe
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550825">IDebugRegisters</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550835">IDebugRegisters2</a>
  
 
  
-
 

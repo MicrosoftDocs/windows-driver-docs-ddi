@@ -38,7 +38,8 @@ api_location:
 -	Strmini.h
 api_name:
 -	STREAM_METHOD_DESCRIPTOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STREAM_METHOD_DESCRIPTOR, *PSTREAM_METHOD_DESCRIPTOR
 req.product: Windows 10 or later.
@@ -51,20 +52,6 @@ req.product: Windows 10 or later.
 
 
 
-
-
-## -syntax
-
-
-````
-typedef struct _STREAM_METHOD_DESCRIPTOR {
-  ULONG     MethodSetID;
-  PKSMETHOD Method;
-  PVOID     MethodInfo;
-  LONG      MethodInputSize;
-  LONG      MethodOutputSize;
-} STREAM_METHOD_DESCRIPTOR, *PSTREAM_METHOD_DESCRIPTOR;
-````
 
 
 ## -struct-fields

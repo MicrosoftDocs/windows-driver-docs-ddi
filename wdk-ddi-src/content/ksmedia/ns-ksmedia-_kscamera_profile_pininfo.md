@@ -38,7 +38,8 @@ api_location:
 -	Ksmedia.h
 api_name:
 -	KSCAMERA_PROFILE_PININFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSCAMERA_PROFILE_PININFO, *PKSCAMERA_PROFILE_PININFO
 ---
@@ -50,19 +51,6 @@ req.typenames: KSCAMERA_PROFILE_PININFO, *PKSCAMERA_PROFILE_PININFO
 
 
 This structure specifies the available list of media types for each of the camera driver pins.
-
-
-## -syntax
-
-
-````
-typedef struct _KSCAMERA_PROFILE_PININFO {
-  GUID                        PinCategory;
-  UINT32                      Reserved;
-  UINT32                      MediaInfoCount;
-  PKSCAMERA_PROFILE_MEDIAINFO MediaInfos;
-} KSCAMERA_PROFILE_PININFO, *PKSCAMERA_PROFILE_PININFO;
-````
 
 
 ## -struct-fields

@@ -38,7 +38,8 @@ api_location:
 -	Wudfddi.h
 api_name:
 -	IDriverEntry.OnDeviceAdd
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
@@ -55,17 +56,6 @@ req.product: Windows 10 or later.
 The <b>OnDeviceAdd</b> method adds a new device to a system.
 
 
-## -syntax
-
-
-````
-HRESULT OnDeviceAdd(
-  [in] IWDFDriver           *pWdfDriver,
-  [in] IWDFDeviceInitialize *pWdfDeviceInit
-);
-````
-
-
 ## -parameters
 
 
@@ -73,12 +63,12 @@ HRESULT OnDeviceAdd(
 
 ### -param pWdfDriver [in]
 
-A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfdriver.md">IWDFDriver</a> interface for the parent driver object that the new device belongs to.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558893">IWDFDriver</a> interface for the parent driver object that the new device belongs to.
 
 
 ### -param pWdfDeviceInit [in]
 
-A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfdeviceinitialize.md">IWDFDeviceInitialize</a> interface that the driver uses to initialize the newly created device.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556965">IWDFDeviceInitialize</a> interface that the driver uses to initialize the newly created device.
 
 
 ## -returns
@@ -94,11 +84,11 @@ A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfdeviceinitialize.md">IWDFDev
 
 
 
-A new device object is created for each device that is loaded in the driver host process. When a new device arrives in the system, the framework calls <b>OnDeviceAdd</b> to notify the driver of the arrival and passes the <a href="..\wudfddi\nn-wudfddi-iwdfdriver.md">IWDFDriver</a> and <a href="..\wudfddi\nn-wudfddi-iwdfdeviceinitialize.md">IWDFDeviceInitialize</a> interfaces in the call. The driver can call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556982">IWDFDeviceInitialize::RetrieveDevicePropertyStore</a> method to query for the device information that is provided as part of device installation. The driver must call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a> method to configure and create the device. If the driver does not successfully call <b>IWDFDriver::CreateDevice</b> before it returns S_OK, UMDF determines that the driver's behavior is incorrect and terminates the host process.
+A new device object is created for each device that is loaded in the driver host process. When a new device arrives in the system, the framework calls <b>OnDeviceAdd</b> to notify the driver of the arrival and passes the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558893">IWDFDriver</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff556965">IWDFDeviceInitialize</a> interfaces in the call. The driver can call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556982">IWDFDeviceInitialize::RetrieveDevicePropertyStore</a> method to query for the device information that is provided as part of device installation. The driver must call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a> method to configure and create the device. If the driver does not successfully call <b>IWDFDriver::CreateDevice</b> before it returns S_OK, UMDF determines that the driver's behavior is incorrect and terminates the host process.
 
 Any driver whose <b>OnDeviceAdd</b> method returns S_OK will subsequently receive a call to its <a href="https://msdn.microsoft.com/library/windows/hardware/ff556768">IPnpCallbackHardware::OnReleaseHardware</a> method when the UMDF tears down the device stack.
 
-Do not use the <a href="..\wudfddi\nn-wudfddi-iwdfdeviceinitialize.md">IWDFDeviceInitialize</a> interface that the <i>pWdfDeviceInit</i> parameter points to after the driver has called <a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>.
+Do not use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556965">IWDFDeviceInitialize</a> interface that the <i>pWdfDeviceInit</i> parameter points to after the driver has called <a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>.
 
 For more information, see <a href="https://msdn.microsoft.com/233e3315-3044-42d7-867c-0a9e153eb53b">Adding a Device</a>.
 
@@ -107,7 +97,10 @@ For more information, see <a href="https://msdn.microsoft.com/233e3315-3044-42d7
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554885">IDriverEntry</a>
 
 
 
@@ -115,7 +108,7 @@ For more information, see <a href="https://msdn.microsoft.com/233e3315-3044-42d7
 
 
 
-<a href="..\wudfddi\nn-wudfddi-idriverentry.md">IDriverEntry</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556965">IWDFDeviceInitialize</a>
 
 
 
@@ -123,16 +116,12 @@ For more information, see <a href="https://msdn.microsoft.com/233e3315-3044-42d7
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdeviceinitialize.md">IWDFDeviceInitialize</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558893">IWDFDriver</a>
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdriver.md">IWDFDriver</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>
  
 
  
-
 

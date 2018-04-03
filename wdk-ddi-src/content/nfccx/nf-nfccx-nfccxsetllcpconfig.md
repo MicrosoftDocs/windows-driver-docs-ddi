@@ -38,7 +38,8 @@ api_location:
 -	NfcCx.dll
 api_name:
 -	NfcCxSetLlcpConfig
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NFC_CX_TRANSPORT_TYPE, *PNFC_CX_TRANSPORT_TYPE
 ---
@@ -50,17 +51,6 @@ req.typenames: NFC_CX_TRANSPORT_TYPE, *PNFC_CX_TRANSPORT_TYPE
 
 
 Called by the client driver to configure the LLCP parameters.
-
-
-## -syntax
-
-
-````
-NTSTATUS NfcCxSetLlcpConfig(
-   WDFDEVICE            Device,
-   PCNFC_CX_LLCP_CONFIG Config
-);
-````
 
 
 ## -parameters
@@ -75,7 +65,7 @@ A handle to a framework device object.
 
 ### -param Config
 
-A pointer to an <a href="..\nfccx\ns-nfccx-_nfc_cx_llcp_config.md">NFC_CX_LLCP_CONFIG</a> structure.
+A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/dn905545">NFC_CX_LLCP_CONFIG</a> structure.
 
 
 ## -returns
@@ -89,16 +79,15 @@ If the operation succeeds, the function returns STATUS_SUCCESS.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
 
 
 
 <a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
-
-
-
  
 
  
-
 

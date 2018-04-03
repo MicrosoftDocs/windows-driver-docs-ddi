@@ -7,7 +7,7 @@ old-location: display\dxgkddicreateallocation.htm
 old-project: display
 ms.assetid: a28287d6-4dfa-4db4-92df-bbcd9379a5b2
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_CREATEALLOCATION, DmFunctions_fa00d14b-b5f1-4dde-8283-cc7b71911f76.xml, DxgkDdiCreateAllocation, DxgkDdiCreateAllocation callback function [Display Devices], d3dkmddi/DxgkDdiCreateAllocation, display.dxgkddicreateallocation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DxgkDdiCreateAllocation
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 ---
@@ -52,20 +53,6 @@ req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 The <i>DxgkDdiCreateAllocation</i> function creates allocations of system or video memory.
 
 
-## -prototype
-
-
-````
-DXGKDDI_CREATEALLOCATION DxgkDdiCreateAllocation;
-
-NTSTATUS APIENTRY DxgkDdiCreateAllocation(
-  _In_    const HANDLE                   hAdapter,
-  _Inout_       DXGKARG_CREATEALLOCATION *pCreateAllocation
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -73,12 +60,12 @@ NTSTATUS APIENTRY DxgkDdiCreateAllocation(
 
 ### -param hAdapter [in]
 
-[in] A handle to a context block that is associated with a display adapter. The display miniport driver previously provided this handle to the Microsoft DirectX graphics kernel subsystem in the <i>MiniportDeviceContext</i> output parameter of the <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function.
+[in] A handle to a context block that is associated with a display adapter. The display miniport driver previously provided this handle to the Microsoft DirectX graphics kernel subsystem in the <i>MiniportDeviceContext</i> output parameter of the <a href="https://msdn.microsoft.com/5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea">DxgkDdiAddDevice</a> function.
 
 
 ### -param pCreateAllocation [in, out]
 
-[in/out] A pointer to a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createallocation.md">DXGKARG_CREATEALLOCATION</a> structure that contains information for creating allocations.
+[in/out] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff557559">DXGKARG_CREATEALLOCATION</a> structure that contains information for creating allocations.
 
 
 ## -returns
@@ -100,7 +87,7 @@ NTSTATUS APIENTRY DxgkDdiCreateAllocation(
 </td>
 <td width="60%">
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a> successfully created the allocation.
+<a href="https://msdn.microsoft.com/a28287d6-4dfa-4db4-92df-bbcd9379a5b2">DxgkDdiCreateAllocation</a> successfully created the allocation.
 
 </td>
 </tr>
@@ -111,7 +98,7 @@ NTSTATUS APIENTRY DxgkDdiCreateAllocation(
 </dl>
 </td>
 <td width="60%">
-Parameters that were passed to <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a> contained errors that prevented it from completing.
+Parameters that were passed to <a href="https://msdn.microsoft.com/a28287d6-4dfa-4db4-92df-bbcd9379a5b2">DxgkDdiCreateAllocation</a> contained errors that prevented it from completing.
 
 </td>
 </tr>
@@ -123,7 +110,7 @@ Parameters that were passed to <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createal
 </td>
 <td width="60%">
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a> could not allocate memory that was required for it to complete.
+<a href="https://msdn.microsoft.com/a28287d6-4dfa-4db4-92df-bbcd9379a5b2">DxgkDdiCreateAllocation</a> could not allocate memory that was required for it to complete.
 
 </td>
 </tr>
@@ -134,7 +121,7 @@ Parameters that were passed to <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createal
 </dl>
 </td>
 <td width="60%">
-The display miniport driver is not compatible with the user-mode display driver that initiated the call to <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a>. 
+The display miniport driver is not compatible with the user-mode display driver that initiated the call to <a href="https://msdn.microsoft.com/a28287d6-4dfa-4db4-92df-bbcd9379a5b2">DxgkDdiCreateAllocation</a>. 
 
 </td>
 </tr>
@@ -148,13 +135,13 @@ The display miniport driver is not compatible with the user-mode display driver 
 
 
 
-After the user-mode display driver calls the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_allocatecb.md">pfnAllocateCb</a> function, the DirectX graphics kernel subsystem calls the display miniport driver's <i>DxgkDdiCreateAllocation</i> function to create the allocations. The display miniport driver must interpret the private data (in the <b>pPrivateDriverData</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfo.md">DXGK_ALLOCATIONINFO</a> structure for each allocation) that is passed from the user-mode display driver and must determine the list of parameters that are required to create each allocation through the video memory manager. For more information about how the display miniport driver supplies these parameters to the video memory manager, see <a href="https://msdn.microsoft.com/31bfbfd9-89e5-42fe-90bc-8ff54bac4f8b">Specifying Segments When Creating Allocations</a>. 
+After the user-mode display driver calls the <a href="https://msdn.microsoft.com/a61e6c6a-3992-429c-ad8c-5f1a61dc7b8b">pfnAllocateCb</a> function, the DirectX graphics kernel subsystem calls the display miniport driver's <i>DxgkDdiCreateAllocation</i> function to create the allocations. The display miniport driver must interpret the private data (in the <b>pPrivateDriverData</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560960">DXGK_ALLOCATIONINFO</a> structure for each allocation) that is passed from the user-mode display driver and must determine the list of parameters that are required to create each allocation through the video memory manager. For more information about how the display miniport driver supplies these parameters to the video memory manager, see <a href="https://msdn.microsoft.com/31bfbfd9-89e5-42fe-90bc-8ff54bac4f8b">Specifying Segments When Creating Allocations</a>. 
 
-The display miniport driver must return an allocation handle, which is typically a pointer to a private driver data structure that contains information about the allocation. The display miniport driver can call the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_gethandledata.md">DxgkCbGetHandleData</a> function anytime to retrieve the private data for an allocation handle. Therefore, the display miniport driver is not required to maintain a private allocation handle table. In fact, we strongly discourage private handle tables because they could become stale or out of sync with the DirectX graphics kernel subsystem in display-mode-switch scenarios such as fast user switch, hot unplug, and so on.
+The display miniport driver must return an allocation handle, which is typically a pointer to a private driver data structure that contains information about the allocation. The display miniport driver can call the <a href="https://msdn.microsoft.com/144429e5-34e6-4416-980e-2838e8f9e415">DxgkCbGetHandleData</a> function anytime to retrieve the private data for an allocation handle. Therefore, the display miniport driver is not required to maintain a private allocation handle table. In fact, we strongly discourage private handle tables because they could become stale or out of sync with the DirectX graphics kernel subsystem in display-mode-switch scenarios such as fast user switch, hot unplug, and so on.
 
-The user-mode display driver assigns an allocation to either a resource or a device. To determine whether the allocation belongs to a resource, the display miniport driver can check whether the <b>Resource</b> bit-field flag is set in the <b>Flags</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createallocation.md">DXGKARG_CREATEALLOCATION</a> structure that the <i>pCreateAllocation</i> parameter of <i>DxgkDdiCreateAllocation</i> points to. If the allocation belongs to a resource, the display miniport driver can (but is not required to) return a resource handle, which is typically a pointer to a private driver data structure that describes the resource. If the DirectX graphics kernel subsystem calls <i>DxgkDdiCreateAllocation</i> to create an additional allocation for an existing resource, the <b>hResource</b> member of DXGKARG_CREATEALLOCATION contains the handle that was returned by the previous <i>DxgkDdiCreateAllocation</i> call for that resource. If necessary, the display miniport driver can change the resource handle during a call to <i>DxgkDdiCreateAllocation</i>. 
+The user-mode display driver assigns an allocation to either a resource or a device. To determine whether the allocation belongs to a resource, the display miniport driver can check whether the <b>Resource</b> bit-field flag is set in the <b>Flags</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557559">DXGKARG_CREATEALLOCATION</a> structure that the <i>pCreateAllocation</i> parameter of <i>DxgkDdiCreateAllocation</i> points to. If the allocation belongs to a resource, the display miniport driver can (but is not required to) return a resource handle, which is typically a pointer to a private driver data structure that describes the resource. If the DirectX graphics kernel subsystem calls <i>DxgkDdiCreateAllocation</i> to create an additional allocation for an existing resource, the <b>hResource</b> member of DXGKARG_CREATEALLOCATION contains the handle that was returned by the previous <i>DxgkDdiCreateAllocation</i> call for that resource. If necessary, the display miniport driver can change the resource handle during a call to <i>DxgkDdiCreateAllocation</i>. 
 
-If the user-mode display driver places a resource handle in a command buffer, the display miniport driver can retrieve the private data by calling <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_gethandledata.md">DxgkCbGetHandleData</a>. The display miniport driver can also enumerate all of the resource's child allocations by calling the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_enumhandlechildren.md">DxgkCbEnumHandleChildren</a> function.
+If the user-mode display driver places a resource handle in a command buffer, the display miniport driver can retrieve the private data by calling <a href="https://msdn.microsoft.com/144429e5-34e6-4416-980e-2838e8f9e415">DxgkCbGetHandleData</a>. The display miniport driver can also enumerate all of the resource's child allocations by calling the <a href="https://msdn.microsoft.com/36307e63-9e94-4441-92c6-fd4293ea8fa9">DxgkCbEnumHandleChildren</a> function.
 
 Beginning with Windows 7, if a display miniport driver processes a call to the <i>DxgkDdiCreateAllocation</i> function to create allocations for GDI hardware acceleration, the driver should set the size of the allocation (including the pitch value for CPU visible allocations), <i>pCreateAllocation</i>-&gt;<b>pAllocationInfo</b>-&gt;<b>Size</b>.
 
@@ -163,43 +150,42 @@ The resources that are created in the <i>DxgkDdiCreateAllocation</i> call belong
 <i>DxgkDdiCreateAllocation</i> should be made pageable.
 
 <h3><a id="Allocating_history_buffers"></a><a id="allocating_history_buffers"></a><a id="ALLOCATING_HISTORY_BUFFERS"></a>Allocating history buffers</h3>
-Starting in Windows 8.1, when <i>DxgkDdiCreateAllocation</i> is called, the display miniport driver can set the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfoflags.md">DXGK_ALLOCATIONINFOFLAGS</a>.<b>HistoryBuffer</b> member to indicate that the user-mode driver can manage the creation and destruction of history buffers.
+Starting in Windows 8.1, when <i>DxgkDdiCreateAllocation</i> is called, the display miniport driver can set the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560966">DXGK_ALLOCATIONINFOFLAGS</a>.<b>HistoryBuffer</b> member to indicate that the user-mode driver can manage the creation and destruction of history buffers.
 
 
 
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_allocatecb.md">pfnAllocateCb</a>
 
 
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557559">DXGKARG_CREATEALLOCATION</a>
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_gethandledata.md">DxgkCbGetHandleData</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560960">DXGK_ALLOCATIONINFO</a>
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_enumhandlechildren.md">DxgkCbEnumHandleChildren</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560966">DXGK_ALLOCATIONINFOFLAGS</a>
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfoflags.md">DXGK_ALLOCATIONINFOFLAGS</a>
+<a href="https://msdn.microsoft.com/36307e63-9e94-4441-92c6-fd4293ea8fa9">DxgkCbEnumHandleChildren</a>
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfo.md">DXGK_ALLOCATIONINFO</a>
+<a href="https://msdn.microsoft.com/144429e5-34e6-4416-980e-2838e8f9e415">DxgkCbGetHandleData</a>
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createallocation.md">DXGKARG_CREATEALLOCATION</a>
+<a href="https://msdn.microsoft.com/5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea">DxgkDdiAddDevice</a>
 
 
 
+<a href="https://msdn.microsoft.com/a61e6c6a-3992-429c-ad8c-5f1a61dc7b8b">pfnAllocateCb</a>
  
 
  
-
 

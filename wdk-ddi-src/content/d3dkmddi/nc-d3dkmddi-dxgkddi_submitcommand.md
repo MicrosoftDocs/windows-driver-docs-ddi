@@ -7,7 +7,7 @@ old-location: display\dxgkddisubmitcommand.htm
 old-project: display
 ms.assetid: de1925ab-e444-4cf6-acd9-8fdab26afcec
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_SUBMITCOMMAND, DmFunctions_c23ba706-a779-4a0d-9977-1f99cecb5217.xml, DxgkDdiSubmitCommand, DxgkDdiSubmitCommand callback function [Display Devices], d3dkmddi/DxgkDdiSubmitCommand, display.dxgkddisubmitcommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DxgkDdiSubmitCommand
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 ---
@@ -52,20 +53,6 @@ req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 The <i>DxgkDdiSubmitCommand</i> function submits a direct memory access (DMA) buffer to the hardware command execution unit.
 
 
-## -prototype
-
-
-````
-DXGKDDI_SUBMITCOMMAND DxgkDdiSubmitCommand;
-
-NTSTATUS APIENTRY DxgkDdiSubmitCommand(
-  _In_ const HANDLE                hAdapter,
-  _In_ const DXGKARG_SUBMITCOMMAND *pSubmitCommand
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -73,12 +60,12 @@ NTSTATUS APIENTRY DxgkDdiSubmitCommand(
 
 ### -param hAdapter [in]
 
-[in] A handle to a context block that is associated with a display adapter. The display miniport driver previously provided this handle to the Microsoft DirectX graphics kernel subsystem in the <i>MiniportDeviceContext</i> output parameter of the <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function.
+[in] A handle to a context block that is associated with a display adapter. The display miniport driver previously provided this handle to the Microsoft DirectX graphics kernel subsystem in the <i>MiniportDeviceContext</i> output parameter of the <a href="https://msdn.microsoft.com/5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea">DxgkDdiAddDevice</a> function.
 
 
 ### -param pSubmitCommand [in]
 
-[in] A pointer to a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_submitcommand.md">DXGKARG_SUBMITCOMMAND</a> structure that describes the DMA buffer that the display miniport driver submits to the hardware command execution unit.
+[in] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff559490">DXGKARG_SUBMITCOMMAND</a> structure that describes the DMA buffer that the display miniport driver submits to the hardware command execution unit.
 
 
 ## -returns
@@ -95,7 +82,7 @@ NTSTATUS APIENTRY DxgkDdiSubmitCommand(
 
 
 
-Because paging operations are considered system operations, they are not associated with a specific application context or graphics context. Therefore, when the submission is for a paging operation, the <i>DxgkDdiSubmitCommand</i> function is called with <b>NULL</b> specified in the <b>hDevice</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_submitcommand.md">DXGKARG_SUBMITCOMMAND</a> structure that the <i>pSubmitCommand</i> parameter points to. 
+Because paging operations are considered system operations, they are not associated with a specific application context or graphics context. Therefore, when the submission is for a paging operation, the <i>DxgkDdiSubmitCommand</i> function is called with <b>NULL</b> specified in the <b>hDevice</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559490">DXGKARG_SUBMITCOMMAND</a> structure that the <i>pSubmitCommand</i> parameter points to. 
 
 However, if the architecture of a particular hardware and driver must have a device internally, the driver must internally create the device during adapter initialization and must keep the device internally as the system default device for use in paging operations.
 
@@ -106,7 +93,7 @@ If the driver returns an error code, the Microsoft DirectX graphics kernel subsy
 <ol>
 <li>0x2</li>
 <li>The NTSTATUS error code returned from the failed driver call</li>
-<li>A pointer to the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_submitcommand.md">DXGKARG_SUBMITCOMMAND</a> structure</li>
+<li>A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559490">DXGKARG_SUBMITCOMMAND</a> structure</li>
 <li>A pointer to an internal scheduler data structure</li>
 </ol>
 <i>DxgkDdiSubmitCommand</i> should be made nonpageable because it runs at IRQL = DISPATCH_LEVEL.
@@ -116,16 +103,15 @@ If the driver returns an error code, the Microsoft DirectX graphics kernel subsy
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_submitcommand.md">DXGKARG_SUBMITCOMMAND</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559490">DXGKARG_SUBMITCOMMAND</a>
 
 
 
+<a href="https://msdn.microsoft.com/5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea">DxgkDdiAddDevice</a>
  
 
  
-
 

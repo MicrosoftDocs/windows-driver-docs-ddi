@@ -7,7 +7,7 @@ old-location: dtf\iwdtfactions2_add.htm
 old-project: dtf
 ms.assetid: a6361d17-419f-4e34-b36f-5258dd34cc88
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/29/2018
 ms.keywords: Add method [Windows Device Testing Framework], Add method [Windows Device Testing Framework], IWDTFActions2 interface, Add,IWDTFActions2.Add, IWDTFActions2, IWDTFActions2 interface [Windows Device Testing Framework], Add method, IWDTFActions2::Add, dtf.iwdtfactions2_add, wdtf/IWDTFActions2::Add
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	wdtf.h
 api_name:
 -	IWDTFActions2.Add
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TTraceLevel
 req.product: Windows 10 or later.
@@ -51,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 Add a single action to the collection.
-
-
-## -syntax
-
-
-````
-HRESULT Add(
-  [in] IWDTFAction2 *pAction
-);
-````
 
 
 ## -parameters
@@ -84,12 +75,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\wdtf\nn-wdtf-iwdtfactions2.md">IWDTFActions2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406331">IWDTFActions2</a>
  
 
  
-
 

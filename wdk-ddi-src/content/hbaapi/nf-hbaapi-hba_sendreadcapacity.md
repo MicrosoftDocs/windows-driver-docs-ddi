@@ -7,7 +7,7 @@ old-location: storage\hba_sendreadcapacity.htm
 old-project: storage
 ms.assetid: 642a085f-03d4-438a-8584-c1f420161e94
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: HBA_SendReadCapacity, HBA_SendReadCapacity routine [Storage Devices], fibreHBA_rtns_0defc2d1-5d08-4d31-981e-09dbb0d700a7.xml, hbaapi/HBA_SendReadCapacity, storage.hba_sendreadcapacity
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Hbaapi.dll
 api_name:
 -	HBA_SendReadCapacity
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: HBA_WWNTYPE
 ---
@@ -50,22 +51,6 @@ req.typenames: HBA_WWNTYPE
 
 
 The <b>HBA_SendReadCapacity</b> routine sends a SCSI read capacity command to the indicated remote port. 
-
-
-## -syntax
-
-
-````
-HBA_STATUS HBA_API HBA_SendReadCapacity(
-  _In_  HBA_HANDLE handle,
-  _In_  HBA_WWN    portWWN,
-  _In_  HBA_UINT64 fcLUN,
-  _Out_ void       *pRspBuffer,
-  _In_  HBA_UINT32 RspBufferSize,
-  _Out_ void       *pSenseBuffer,
-  _In_  HBA_UINT32 SenseBufferSize
-);
-````
 
 
 ## -parameters
@@ -115,7 +100,7 @@ Indicates the fibre channel logical unit number of the logical unit to which the
 
 #### - handle [in]
 
-Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a> that identifies the HBA through which the SCSI read capacity command is sent.
+Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a> that identifies the HBA through which the SCSI read capacity command is sent.
 
 
 #### - portWWN [in]
@@ -208,16 +193,15 @@ Returned if an unspecified error occurred that prevented the execution of the SC
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
-
-
-
-<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
-
-
-
  
 
  
-
 

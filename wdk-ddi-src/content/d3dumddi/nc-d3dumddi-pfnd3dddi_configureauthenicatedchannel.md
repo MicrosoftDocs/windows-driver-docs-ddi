@@ -7,7 +7,7 @@ old-location: display\configureauthenticatedchannel.htm
 old-project: display
 ms.assetid: 95485e96-fa4f-4c88-b88b-97b79f507abd
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: ConfigureAuthenticatedChannel, ConfigureAuthenticatedChannel callback function [Display Devices], PFND3DDDI_CONFIGUREAUTHENICATEDCHANNEL, UserModeDisplayDriver_Functions_183c7dec-91c3-4929-a86d-c648d1b59ceb.xml, d3dumddi/ConfigureAuthenticatedChannel, display.configureauthenticatedchannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	ConfigureAuthenticatedChannel
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_PTE
 ---
@@ -50,20 +51,6 @@ req.typenames: DXGK_PTE
 
 
 The <b>ConfigureAuthenticatedChannel</b> function sets state within an authenticated channel. 
-
-
-## -prototype
-
-
-````
-PFND3DDDI_CONFIGUREAUTHENICATEDCHANNEL ConfigureAuthenticatedChannel;
-
-__checkReturn HRESULT APIENTRY ConfigureAuthenticatedChannel(
-  _In_          HANDLE                                  hDevice,
-  _Inout_ const D3DDDIARG_CONFIGUREAUTHENTICATEDCHANNEL *pData
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -87,7 +74,7 @@ __checkReturn HRESULT APIENTRY ConfigureAuthenticatedChannel(
 
 #### - pData [in, out]
 
- A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_configureauthenicatedchannel.md">D3DDDIARG_CONFIGUREAUTHENTICATEDCHANNEL</a> structure that describes how to configure an authenticated channel. This structure contains an input buffer that describes how to configure the authenticated channel and an output buffer with configuration information. 
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542913">D3DDDIARG_CONFIGUREAUTHENTICATEDCHANNEL</a> structure that describes how to configure an authenticated channel. This structure contains an input buffer that describes how to configure the authenticated channel and an output buffer with configuration information. 
 
 
 ## -returns
@@ -120,7 +107,7 @@ The authenticated channel is successfully configured.
 </td>
 <td width="60%">
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_configureauthenicatedchannel.md">ConfigureAuthenticatedChannel</a> could not allocate the required memory for it to complete.
+<a href="https://msdn.microsoft.com/95485e96-fa4f-4c88-b88b-97b79f507abd">ConfigureAuthenticatedChannel</a> could not allocate the required memory for it to complete.
 
 </td>
 </tr>
@@ -151,12 +138,11 @@ Except for those situations in which the application incorrectly specifies an ou
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_configureauthenicatedchannel.md">D3DDDIARG_CONFIGUREAUTHENTICATEDCHANNEL</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542913">D3DDDIARG_CONFIGUREAUTHENTICATEDCHANNEL</a>
  
 
  
-
 

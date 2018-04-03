@@ -7,7 +7,7 @@ old-location: storage\getfcptargetmapping_out.htm
 old-project: storage
 ms.assetid: a3a3050a-6fa2-4ace-87f2-41b8364f4d30
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PGetFcpTargetMapping_OUT, GetFcpTargetMapping_OUT, GetFcpTargetMapping_OUT structure [Storage Devices], PGetFcpTargetMapping_OUT, PGetFcpTargetMapping_OUT structure pointer [Storage Devices], _GetFcpTargetMapping_OUT, hbapiwmi/GetFcpTargetMapping_OUT, hbapiwmi/PGetFcpTargetMapping_OUT, storage.getfcptargetmapping_out, structs-Fibre_ab6aca55-bb7c-4983-863c-de94e835a600.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	hbapiwmi.h
 api_name:
 -	GetFcpTargetMapping_OUT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GetFcpTargetMapping_OUT, *PGetFcpTargetMapping_OUT
 ---
@@ -50,19 +51,6 @@ req.typenames: GetFcpTargetMapping_OUT, *PGetFcpTargetMapping_OUT
 
 
 The GetFcpTargetMapping_OUT structure is used to report the output parameter data of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554948">GetFcpTargetMapping</a> WMI method to the WMI client. 
-
-
-## -syntax
-
-
-````
-typedef struct _GetFcpTargetMapping_OUT {
-  ULONG           HBAStatus;
-  ULONG           TotalEntryCount;
-  ULONG           OutEntryCount;
-  HBAFCPScsiEntry Entry[1];
-} GetFcpTargetMapping_OUT, *PGetFcpTargetMapping_OUT;
-````
 
 
 ## -struct-fields
@@ -87,7 +75,7 @@ Indicates the total number of mappings retrieved by the <a href="https://msdn.mi
 
 ### -field Entry
 
-Contains an array of structures of type <a href="..\hbapiwmi\ns-hbapiwmi-_hbafcpscsientry.md">HBAFCPScsiEntry</a> that describe an HBA's bindings between operating system and fibre channel protocol (FCP) identifiers. 
+Contains an array of structures of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff556040">HBAFCPScsiEntry</a> that describe an HBA's bindings between operating system and fibre channel protocol (FCP) identifiers. 
 
 
 ## -remarks
@@ -103,15 +91,6 @@ The WMI tool suite generates a declaration of the GetFcpTargetMapping_OUT struct
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562509">MSFC_HBAFCPInfo WMI Class</a>
-
-
-
-<a href="..\hbapiwmi\ns-hbapiwmi-_hbafcpscsientry.md">HBAFCPScsiEntry</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
 
 
 
@@ -119,8 +98,16 @@ The WMI tool suite generates a declaration of the GetFcpTargetMapping_OUT struct
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556040">HBAFCPScsiEntry</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562509">MSFC_HBAFCPInfo WMI Class</a>
  
 
  
-
 

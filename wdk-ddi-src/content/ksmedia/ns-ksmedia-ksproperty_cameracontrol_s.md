@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KSPROPERTY_CAMERACONTROL_S
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSPROPERTY_CAMERACONTROL_S, *PKSPROPERTY_CAMERACONTROL_S
 ---
@@ -50,19 +51,6 @@ req.typenames: KSPROPERTY_CAMERACONTROL_S, *PKSPROPERTY_CAMERACONTROL_S
 
 
 The KSPROPERTY_CAMERACONTROL_S structure describes filter-based properties in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567802">PROPSETID_VIDCAP_CAMERACONTROL</a> property set.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  KSPROPERTY Property;
-  LONG       Value;
-  ULONG      Flags;
-  ULONG      Capabilities;
-} KSPROPERTY_CAMERACONTROL_S, *PKSPROPERTY_CAMERACONTROL_S;
-````
 
 
 ## -struct-fields
@@ -188,20 +176,19 @@ Indicates that the device settings are in relative values.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564420">KSPROPERTY_CAMERACONTROL_NODE_S</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567802">PROPSETID_VIDCAP_CAMERACONTROL</a>
-
-
-
-<a href="..\ksmedia\ns-ksmedia-ksproperty_cameracontrol_node_s.md">KSPROPERTY_CAMERACONTROL_NODE_S</a>
-
-
-
  
 
  
-
 

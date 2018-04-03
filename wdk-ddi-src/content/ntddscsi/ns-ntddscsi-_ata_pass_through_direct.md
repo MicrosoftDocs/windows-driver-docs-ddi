@@ -7,7 +7,7 @@ old-location: storage\ata_pass_through_direct.htm
 old-project: storage
 ms.assetid: 0f7a424e-5d83-4ab0-b5a2-7e9093bbd34b
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PATA_PASS_THROUGH_DIRECT, ATA_PASS_THROUGH_DIRECT, ATA_PASS_THROUGH_DIRECT structure [Storage Devices], PATA_PASS_THROUGH_DIRECT, PATA_PASS_THROUGH_DIRECT structure pointer [Storage Devices], _ATA_PASS_THROUGH_DIRECT, ntddscsi/ATA_PASS_THROUGH_DIRECT, ntddscsi/PATA_PASS_THROUGH_DIRECT, storage.ata_pass_through_direct, structs-IDE_e59bb754-2ad4-49d0-b68c-8ef7b6273af5.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddscsi.h
 api_name:
 -	ATA_PASS_THROUGH_DIRECT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: ATA_PASS_THROUGH_DIRECT, *PATA_PASS_THROUGH_DIRECT
 ---
@@ -49,28 +50,7 @@ req.typenames: ATA_PASS_THROUGH_DIRECT, *PATA_PASS_THROUGH_DIRECT
 ## -description
 
 
-The ATA_PASS_THROUGH_DIRECT structure is used in conjunction with an <a href="..\ntddscsi\ni-ntddscsi-ioctl_ata_pass_through_direct.md">IOCTL_ATA_PASS_THROUGH_DIRECT</a> request to instruct the port driver to send an embedded ATA command to the target device. 
-
-
-## -syntax
-
-
-````
-typedef struct _ATA_PASS_THROUGH_DIRECT {
-  USHORT Length;
-  USHORT AtaFlags;
-  UCHAR  PathId;
-  UCHAR  TargetId;
-  UCHAR  Lun;
-  UCHAR  ReservedAsUchar;
-  ULONG  DataTransferLength;
-  ULONG  TimeOutValue;
-  ULONG  ReservedAsUlong;
-  PVOID  DataBuffer;
-  UCHAR  PreviousTaskFile[8];
-  UCHAR  CurrentTaskFile[8];
-} ATA_PASS_THROUGH_DIRECT, *PATA_PASS_THROUGH_DIRECT;
-````
+The ATA_PASS_THROUGH_DIRECT structure is used in conjunction with an <a href="https://msdn.microsoft.com/library/windows/hardware/ff559315">IOCTL_ATA_PASS_THROUGH_DIRECT</a> request to instruct the port driver to send an embedded ATA command to the target device. 
 
 
 ## -struct-fields
@@ -293,7 +273,7 @@ Reserved
 </table>
  
 
-When <a href="..\ntddscsi\ni-ntddscsi-ioctl_ata_pass_through_direct.md">IOCTL_ATA_PASS_THROUGH_DIRECT</a> completes, the port driver updates <b>CurrentTaskFile</b> with the values that are present in the device's output registers at the completion of the embedded command. The array values in <b>CurrentTaskFile</b> correspond to the following task file output registers.
+When <a href="https://msdn.microsoft.com/library/windows/hardware/ff559315">IOCTL_ATA_PASS_THROUGH_DIRECT</a> completes, the port driver updates <b>CurrentTaskFile</b> with the values that are present in the device's output registers at the completion of the embedded command. The array values in <b>CurrentTaskFile</b> correspond to the following task file output registers.
 
 <table>
 <tr>
@@ -388,27 +368,26 @@ Reserved
 
 
 
-The ATA_PASS_THROUGH_DIRECT structure is used with <a href="..\ntddscsi\ni-ntddscsi-ioctl_ata_pass_through_direct.md">IOCTL_ATA_PASS_THROUGH_DIRECT</a>. With this request, the system locks down the buffer in user memory and the device accesses this memory directly. For a double-buffered equivalent of this device control request, see <a href="..\ntddscsi\ni-ntddscsi-ioctl_ata_pass_through.md">IOCTL_ATA_PASS_THROUGH</a> and <a href="..\ntddscsi\ns-ntddscsi-_ata_pass_through_ex.md">ATA_PASS_THROUGH_EX</a>.
+The ATA_PASS_THROUGH_DIRECT structure is used with <a href="https://msdn.microsoft.com/library/windows/hardware/ff559315">IOCTL_ATA_PASS_THROUGH_DIRECT</a>. With this request, the system locks down the buffer in user memory and the device accesses this memory directly. For a double-buffered equivalent of this device control request, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff559309">IOCTL_ATA_PASS_THROUGH</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff551323">ATA_PASS_THROUGH_EX</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\ntddscsi\ni-ntddscsi-ioctl_ata_pass_through_direct.md">IOCTL_ATA_PASS_THROUGH_DIRECT</a>
 
 
 
-<a href="..\ntddscsi\ns-ntddscsi-_ata_pass_through_ex.md">ATA_PASS_THROUGH_EX</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551323">ATA_PASS_THROUGH_EX</a>
 
 
 
-<a href="..\ntddscsi\ni-ntddscsi-ioctl_ata_pass_through.md">IOCTL_ATA_PASS_THROUGH</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559309">IOCTL_ATA_PASS_THROUGH</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559315">IOCTL_ATA_PASS_THROUGH_DIRECT</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: storage\iscsi_ip_address.htm
 old-project: storage
 ms.assetid: ec4c2add-33e0-4e3d-8f19-892cca4720a7
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PISCSI_IP_Address, ISCSI_IP_Address, ISCSI_IP_Address structure [Storage Devices], PISCSI_IP_Address, PISCSI_IP_Address structure pointer [Storage Devices], _ISCSI_IP_Address, iscsidef/ISCSI_IP_Address, iscsidef/PISCSI_IP_Address, storage.iscsi_ip_address, structs-iSCSI_c8f7a419-6398-4ece-a92d-fc0deffbe39a.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	iscsidef.h
 api_name:
 -	ISCSI_IP_Address
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: ISCSI_IP_Address, *PISCSI_IP_Address
 ---
@@ -52,21 +53,6 @@ req.typenames: ISCSI_IP_Address, *PISCSI_IP_Address
 The ISCSI_IP_Address structure defines an IP address.
 
 
-## -syntax
-
-
-````
-typedef struct _ISCSI_IP_Address {
-  ULONG Type;
-  ULONG IpV4Address;
-  UCHAR IpV6Address[16];
-  ULONG IpV6FlowInfo;
-  ULONG IpV6ScopeId;
-  WCHAR TextAddress[256 + 1];
-} ISCSI_IP_Address, *PISCSI_IP_Address;
-````
-
-
 ## -struct-fields
 
 
@@ -74,7 +60,7 @@ typedef struct _ISCSI_IP_Address {
 
 ### -field Type
 
-A <a href="..\iscsidef\ne-iscsidef-piscsiipaddresstype.md">ISCSIIPADDRESSTYPE</a> value that indicates the type of IP address. 
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff561482">ISCSIIPADDRESSTYPE</a> value that indicates the type of IP address. 
 
 
 ### -field IpV4Address
@@ -104,16 +90,15 @@ If <b>Type</b> = <b>ISCSI_IP_ADDRESS_TEXT</b>, the DNS or dotted decimal text ad
 
 ## -see-also
 
-<a href="..\iscsidef\ns-iscsidef-_iscsi_ip_address.md">ISCSI_IP_Address</a>
 
 
 
-<a href="..\iscsidef\ne-iscsidef-piscsiipaddresstype.md">ISCSIIPADDRESSTYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561482">ISCSIIPADDRESSTYPE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561536">ISCSI_IP_Address</a>
  
 
  
-
 

@@ -38,7 +38,8 @@ api_location:
 -	Ntddser.h
 api_name:
 -	IOCTL_SERIAL_CLEAR_STATS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SD_REQUEST_FUNCTION
 ---
@@ -51,7 +52,7 @@ req.typenames: SD_REQUEST_FUNCTION
 
 The <b>IOCTL_SERIAL_CLEAR_STATS</b> request clears the performance statistics for a serial device.
 
-To obtain the performance statistics, a client can use an <a href="..\ntddser\ni-ntddser-ioctl_serial_get_stats.md">IOCTL_SERIAL_GET_STATS</a> request.
+To obtain the performance statistics, a client can use an <a href="https://msdn.microsoft.com/library/windows/hardware/ff546600">IOCTL_SERIAL_GET_STATS</a> request.
 
 
 ## -ioctlparameters
@@ -106,12 +107,11 @@ The <b>Status</b> field is set to one of the <a href="https://docs.microsoft.com
 
 ## -see-also
 
-<a href="..\ntddser\ni-ntddser-ioctl_serial_get_stats.md">IOCTL_SERIAL_GET_STATS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546600">IOCTL_SERIAL_GET_STATS</a>
  
 
  
-
 

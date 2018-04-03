@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsNullDriverUnload
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,16 +52,6 @@ req.typenames:
 
 
 The <b>KsNullDriverUnload</b> function is a default function a driver can use when it has no other tasks to do in its unload function, but must still allow the device to be unloaded by its presence.
-
-
-## -syntax
-
-
-````
-VOID KsNullDriverUnload(
-  _In_ PDRIVER_OBJECT DriverObject 
-);
-````
 
 
 ## -parameters

@@ -7,7 +7,7 @@ old-location: display\dxgk_display_ownership_flags.htm
 old-project: display
 ms.assetid: F5CA04FD-5E2A-4C68-97CF-F3D425A958AA
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PDXGK_DISPLAY_OWNERSHIP_FLAGS, DXGK_DISPLAY_OWNERSHIP_FLAGS, DXGK_DISPLAY_OWNERSHIP_FLAGS structure [Display Devices], PDXGK_DISPLAY_OWNERSHIP_FLAGS, PDXGK_DISPLAY_OWNERSHIP_FLAGS structure pointer [Display Devices], _DXGK_DISPLAY_OWNERSHIP_FLAGS, display.dxgk_display_ownership_flags, dispmprt/DXGK_DISPLAY_OWNERSHIP_FLAGS, dispmprt/PDXGK_DISPLAY_OWNERSHIP_FLAGS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	dispmprt.h
 api_name:
 -	DXGK_DISPLAY_OWNERSHIP_FLAGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_DISPLAY_OWNERSHIP_FLAGS, *PDXGK_DISPLAY_OWNERSHIP_FLAGS
 ---
@@ -50,21 +51,6 @@ req.typenames: DXGK_DISPLAY_OWNERSHIP_FLAGS, *PDXGK_DISPLAY_OWNERSHIP_FLAGS
 
 
 Structure filled in by OS upon successful completion of the DxgkCbAcquirePostDisplayOwnership2 callback to provide information about the display state a driver is inheriting.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGK_DISPLAY_OWNERSHIP_FLAGS {
-  union {
-    struct {
-      DXGK_FRAMEBUFFER_STATE FrameBufferState  :4;
-    };
-    UINT Value;
-  };
-} DXGK_DISPLAY_OWNERSHIP_FLAGS, *PDXGK_DISPLAY_OWNERSHIP_FLAGS;
-````
 
 
 ## -struct-fields

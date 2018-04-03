@@ -38,7 +38,8 @@ api_location:
 -	avc.h
 api_name:
 -	PFNAVCINTERSECTHANDLER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KBUGCHECK_DATA, *PKBUGCHECK_DATA
 ---
@@ -212,15 +213,15 @@ The handler is used in conjunction with the <b>AVC_FUNCTION_GET_PIN_DESCRIPTOR</
 
 
 
-<a href="https://msdn.microsoft.com/44281574-8258-47a3-857d-fd44bb949f17">DataRange Intersections in AVStream</a>
-
-
-
 <a href="..\avc\ns-avc-_avc_pin_descriptor.md">AVC_PIN_DESCRIPTOR</a>
 
 
 
 <a href="..\ks\nc-ks-pfnksintersecthandlerex.md">AVStrMiniIntersectHandlerEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/44281574-8258-47a3-857d-fd44bb949f17">DataRange Intersections in AVStream</a>
 
 
 

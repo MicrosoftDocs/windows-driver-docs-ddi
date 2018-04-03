@@ -7,7 +7,7 @@ old-location: kernel\dpwmisetdataitem.htm
 old-project: kernel
 ms.assetid: 409adf29-7f2b-465b-aa2d-28bbcc31a574
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: DpWmiSetDataItem, DpWmiSetDataItem callback function [Kernel-Mode Driver Architecture], WMI_SET_DATAITEM_CALLBACK, k903_d7afb1fc-f867-4c63-b0d6-8280a41d60f5.xml, kernel.dpwmisetdataitem, wmilib/DpWmiSetDataItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	Wmilib.h
 api_name:
 -	DpWmiSetDataItem
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WMI_CHANGER_PROBLEM_DEVICE_ERROR, *PWMI_CHANGER_PROBLEM_DEVICE_ERROR
+req.typenames: DRIVER_INFO_8W, *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W
 req.product: Windows 10 or later.
 ---
 
@@ -53,25 +54,6 @@ req.product: Windows 10 or later.
 The <i>DpWmiSetDataItem</i> routine changes a single data item in an instance of a data block. This routine is optional.
 
 
-## -prototype
-
-
-````
-WMI_SET_DATAITEM_CALLBACK DpWmiSetDataItem;
-
-NTSTATUS DpWmiSetDataItem(
-  _In_ PDEVICE_OBJECT DeviceObject,
-  _In_ PIRP           Irp,
-  _In_ ULONG          GuidIndex,
-  _In_ ULONG          InstanceIndex,
-  _In_ ULONG          DataItemId,
-  _In_ ULONG          BufferSize,
-  _In_ PUCHAR         Buffer
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -79,7 +61,7 @@ NTSTATUS DpWmiSetDataItem(
 
 ### -param DeviceObject [in]
 
-Pointer to the driver's WDM <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure.
+Pointer to the driver's WDM <a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a> structure.
 
 
 ### -param Irp [in]
@@ -89,7 +71,7 @@ Pointer to the IRP.
 
 ### -param GuidIndex [in]
 
-Specifies the data block by supplying a zero-based index into the list of GUIDs that the driver provided in the <a href="..\wmilib\ns-wmilib-_wmilib_context.md">WMILIB_CONTEXT</a> structure it passed to <a href="..\wmilib\nf-wmilib-wmisystemcontrol.md">WmiSystemControl</a>. 
+Specifies the data block by supplying a zero-based index into the list of GUIDs that the driver provided in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565813">WMILIB_CONTEXT</a> structure it passed to <a href="https://msdn.microsoft.com/library/windows/hardware/ff565834">WmiSystemControl</a>. 
 
 
 ### -param InstanceIndex [in]
@@ -125,19 +107,19 @@ Pointer to a buffer that contains the new value for the data item.
 
 
 
-WMI calls a driver's <i>DpWmiSetDataItem</i> routine after the driver calls <a href="..\wmilib\nf-wmilib-wmisystemcontrol.md">WmiSystemControl</a> in response to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550836">IRP_MN_CHANGE_SINGLE_ITEM</a> request.
+WMI calls a driver's <i>DpWmiSetDataItem</i> routine after the driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff565834">WmiSystemControl</a> in response to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550836">IRP_MN_CHANGE_SINGLE_ITEM</a> request.
 
-Do not implement <i>DpWmiSetDataItem</i> unless you are sure that a system-supplied user-mode component requires this capability. If you implement a <i>DpWmiSetDataItem</i> routine, the driver must place the routine's address in the <b>SetWmiDataItem</b> member of the <a href="..\wmilib\ns-wmilib-_wmilib_context.md">WMILIB_CONTEXT</a> structure that it passes to <a href="..\wmilib\nf-wmilib-wmisystemcontrol.md">WmiSystemControl</a>. If you do not implement a <i>DpWmiSetDataItem</i> routine, the driver must set <b>SetWmiDataItem</b> to <b>NULL</b>. In the latter case, WMI returns STATUS_READ_ONLY to the caller.
+Do not implement <i>DpWmiSetDataItem</i> unless you are sure that a system-supplied user-mode component requires this capability. If you implement a <i>DpWmiSetDataItem</i> routine, the driver must place the routine's address in the <b>SetWmiDataItem</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565813">WMILIB_CONTEXT</a> structure that it passes to <a href="https://msdn.microsoft.com/library/windows/hardware/ff565834">WmiSystemControl</a>. If you do not implement a <i>DpWmiSetDataItem</i> routine, the driver must set <b>SetWmiDataItem</b> to <b>NULL</b>. In the latter case, WMI returns STATUS_READ_ONLY to the caller.
 
 The driver is responsible for validating all input arguments. Specifically, the driver must do the following:
 
 <ul>
 <li>
-Verify that the <i>GuidIndex</i> value is between zero and GuidCount-1, based on the <b>GuidCount</b> member of the <a href="..\wmilib\ns-wmilib-_wmilib_context.md">WMILIB_CONTEXT</a> structure.
+Verify that the <i>GuidIndex</i> value is between zero and GuidCount-1, based on the <b>GuidCount</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565813">WMILIB_CONTEXT</a> structure.
 
 </li>
 <li>
-Verify that the driver has not flagged the specified data block for removal. If the driver recently specified the WMIREG_FLAG_REMOVE_GUID flag in a <a href="..\wmilib\ns-wmilib-_wmiguidreginfo.md">WMIGUIDREGINFO</a> structure that is contained in a <b>WMILIB_CONTEXT</b> structure, it is possible for a set request to arrive before the removal occurs.
+Verify that the driver has not flagged the specified data block for removal. If the driver recently specified the WMIREG_FLAG_REMOVE_GUID flag in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff565811">WMIGUIDREGINFO</a> structure that is contained in a <b>WMILIB_CONTEXT</b> structure, it is possible for a set request to arrive before the removal occurs.
 
 </li>
 <li>
@@ -168,7 +150,6 @@ For more information about implementing this routine, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\wmilib\nf-wmilib-wmisystemcontrol.md">WmiSystemControl</a>
 
 
 
@@ -176,12 +157,12 @@ For more information about implementing this routine, see <a href="https://msdn.
 
 
 
-<a href="..\wmilib\ns-wmilib-_wmilib_context.md">WMILIB_CONTEXT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565813">WMILIB_CONTEXT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565834">WmiSystemControl</a>
  
 
  
-
 

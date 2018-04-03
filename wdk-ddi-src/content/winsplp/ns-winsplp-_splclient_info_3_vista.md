@@ -38,7 +38,8 @@ api_location:
 -	Winsplp.h
 api_name:
 -	SPLCLIENT_INFO_3_VISTA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SPLCLIENT_INFO_3_VISTA
 req.product: Windows 10 or later.
@@ -51,25 +52,6 @@ req.product: Windows 10 or later.
 
 
 Contains a super-set of the information in both a <a href="https://docs.microsoft.com/en-us/dotnet/core/rid-catalog">SPLCLIENT_INFO_1</a> and <b>SPLCLIENT_INFO_2</b> structure. It also contains additional information needed by the provider.
-
-
-## -syntax
-
-
-````
-typedef struct _SPLCLIENT_INFO_3_VISTA {
-  UINT             cbSize;
-  DWORD            dwFlags;
-  DWORD            dwSize;
-  PWSTR            pMachineName;
-  PWSTR            pUserName;
-  DWORD            dwBuildNum;
-             DWORD dwMajorVersion;
-  DWORD            dwMinorVersion;
-  WORD             wProcessorArchitecture;
-  UINT64           hSplPrinter;
-} SPLCLIENT_INFO_3_VISTA;
-````
 
 
 ## -struct-fields

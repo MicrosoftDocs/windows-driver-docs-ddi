@@ -38,7 +38,8 @@ api_location:
 -	wdm.h
 api_name:
 -	PCW_DATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PCW_DATA, *PPCW_DATA
 req.product: Windows 10 or later.
@@ -51,17 +52,6 @@ req.product: Windows 10 or later.
 
 
 The PCW_DATA structure describes the array of data blocks that are associated with an instance.
-
-
-## -syntax
-
-
-````
-typedef struct _PCW_DATA {
-  const VOID *Data;
-  ULONG      Size;
-} PCW_DATA, *PPCW_DATA;
-````
 
 
 ## -struct-fields

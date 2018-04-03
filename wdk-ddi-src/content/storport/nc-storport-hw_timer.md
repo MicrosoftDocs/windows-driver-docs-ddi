@@ -7,7 +7,7 @@ old-location: storage\hwstortimer.htm
 old-project: storage
 ms.assetid: 61aced1b-9f8a-454a-901c-561ec6179873
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: HW_TIMER, HwStorTimer, HwStorTimer routine [Storage Devices], storage.hwstortimer, stormini_6127daf5-8672-4bf4-9241-b67bed14b8f8.xml, storport/HwStorTimer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Storport.h
 api_name:
 -	HwStorTimer
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STORAGE_DEVICE_UNIQUE_IDENTIFIER, *PSTORAGE_DEVICE_UNIQUE_IDENTIFIER
 req.product: Windows 10 or later.
@@ -50,20 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>HwStorTimer</b> routine is called after the interval that is specified when the miniport driver called <a href="..\storport\nf-storport-storportnotification.md">StorPortNotification</a> with the <b>RequestTimerCall</b><i> NotificationType</i> value.
-
-
-## -prototype
-
-
-````
-HW_TIMER HwStorTimer;
-
-VOID HwStorTimer(
-   IN PVOID DeviceExtension
-)
-{ ... }
-````
+The <b>HwStorTimer</b> routine is called after the interval that is specified when the miniport driver called <a href="https://msdn.microsoft.com/library/windows/hardware/ff567433">StorPortNotification</a> with the <b>RequestTimerCall</b><i> NotificationType</i> value.
 
 
 ## -parameters
@@ -105,7 +93,7 @@ HW_TIMER (
 </td>
 </tr>
 </table></span></div>
-If the miniport opts into multi-channel support, the StartIo spin lock is still taken. However, if the miniport has requested multiple channel support via PERF_CONFIGURATION_DATA, the StartIo spin lock is not taken or checked before the call to <a href="..\storport\nc-storport-hw_startio.md">HwStorStartIo</a> in the miniport.  This means that the <i>HwStorStartIo</i> callback  is not synchronized with the callback to the <i>HwStorTimer</i> routine when multi-channel support is used.  The miniport must do this on its own by using a compiler interlocked intrinsic, for example using <a href="..\wdm\nf-wdm-interlockedcompareexchange.md">InterlockedCompareExchange</a>. 
+If the miniport opts into multi-channel support, the StartIo spin lock is still taken. However, if the miniport has requested multiple channel support via PERF_CONFIGURATION_DATA, the StartIo spin lock is not taken or checked before the call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff557423">HwStorStartIo</a> in the miniport.  This means that the <i>HwStorStartIo</i> callback  is not synchronized with the callback to the <i>HwStorTimer</i> routine when multi-channel support is used.  The miniport must do this on its own by using a compiler interlocked intrinsic, for example using <a href="https://msdn.microsoft.com/library/windows/hardware/ff547853">InterlockedCompareExchange</a>. 
 
 A <b>HwStorTimer</b> routine is optional.
 
@@ -152,12 +140,11 @@ The <b>HW_TIMER</b> function type is defined in the Storport.h header file. To m
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportnotification.md">StorPortNotification</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567433">StorPortNotification</a>
  
 
  
-
 

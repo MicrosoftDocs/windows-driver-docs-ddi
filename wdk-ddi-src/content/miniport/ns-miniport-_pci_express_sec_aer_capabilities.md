@@ -38,7 +38,8 @@ api_location:
 -	wdm.h
 api_name:
 -	PCI_EXPRESS_SEC_AER_CAPABILITIES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PCI_EXPRESS_SEC_AER_CAPABILITIES, *PPCI_EXPRESS_SEC_AER_CAPABILITIES
 ---

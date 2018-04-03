@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	PcwRegister
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
@@ -51,17 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>PcwRegister</b> function registers the caller as a provider of the specified counter set.
-
-
-## -syntax
-
-
-````
-NTSTATUS PcwRegister(
-  _Out_ PPCW_REGISTRATION             *Registration,
-  _In_  PPCW_REGISTRATION_INFORMATION Info
-);
-````
 
 
 ## -parameters
@@ -151,12 +141,11 @@ The provider calls this function to create a new registration. The registration 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-pcwunregister.md">PcwUnregister</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550326">PcwUnregister</a>
  
 
  
-
 

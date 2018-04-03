@@ -7,7 +7,7 @@ old-location: netvista\ndk_fn_srq_receive.htm
 old-project: netvista
 ms.assetid: 1D615DEA-5599-4A3D-AEE7-BDBFE9D40C47
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NDK_FN_SRQ_RECEIVE, NdkSrqReceive, NdkSrqReceive callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkSrqReceive, netvista.ndk_fn_srq_receive
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ndkpi.h
 api_name:
 -	NdkSrqReceive
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS
 ---
@@ -52,22 +53,6 @@ req.typenames: NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS
 The <i>NdkSrqReceive</i> (<i>NDK_FN_SRQ_RECEIVE</i>) function posts a receive request on an NDK shared receive queue (SRQ).
 
 
-## -prototype
-
-
-````
-NDK_FN_SRQ_RECEIVE NdkSrqReceive;
-
-NTSTATUS NdkSrqReceive(
-  _In_     NDK_SRQ                        *pNdkSrq,
-  _In_opt_ PVOID                          RequestContext,
-           _In_reads_(nSge) const NDK_SGE *pSgl,
-  _In_     ULONG                          nSge
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -76,12 +61,12 @@ NTSTATUS NdkSrqReceive(
 ### -param *pNdkSrq [in]
 
 A pointer to an NDK shared receive queue (SRQ) object
-(<a href="..\ndkpi\ns-ndkpi-_ndk_srq.md">NDK_SRQ</a>).
+(<a href="https://msdn.microsoft.com/library/windows/hardware/hh439939">NDK_SRQ</a>).
 
 
 ### -param RequestContext [in, optional]
 
-A context value to be returned in the <b>RequestContext</b> member of the <a href="..\ndkpi\ns-ndkpi-_ndk_result.md">NDK_RESULT</a> structure for this request.
+A context value to be returned in the <b>RequestContext</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439935">NDK_RESULT</a> structure for this request.
 
 
 
@@ -96,7 +81,7 @@ parameter.
 
 #### - pSgl
 
-An array of SGE structures (<a href="..\ndkpi\ns-ndkpi-_ndk_sge.md">NDK_SGE</a>) that represent the buffers to receive incoming data.
+An array of SGE structures (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439936">NDK_SGE</a>) that represent the buffers to receive incoming data.
 
 
 
@@ -152,20 +137,19 @@ An error occurred.
 
 ## -see-also
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_srq.md">NDK_SRQ</a>
 
 
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_sge.md">NDK_SGE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439935">NDK_RESULT</a>
 
 
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_result.md">NDK_RESULT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439936">NDK_SGE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439939">NDK_SRQ</a>
  
 
  
-
 

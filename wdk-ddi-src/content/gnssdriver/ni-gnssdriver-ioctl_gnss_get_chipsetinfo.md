@@ -3,12 +3,12 @@ UID: NI:gnssdriver.IOCTL_GNSS_GET_CHIPSETINFO
 title: IOCTL_GNSS_GET_CHIPSETINFO
 author: windows-driver-content
 description: The IOCTL_GNSS_GET_CHIPSETINFO control code is used by the GNSS manufacturing test application to get information about the GNSS chipset.
-old-location: gnss\ioctl_gnss_get_chipsetinfo.htm
-old-project: gnss
+old-location: sensors\ioctl_gnss_get_chipsetinfo.htm
+old-project: sensors
 ms.assetid: 9E57757B-65BA-40FF-98F9-F771C48EFF9E
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IOCTL_GNSS_GET_CHIPSETINFO, IOCTL_GNSS_GET_CHIPSETINFO control code [Sensor Devices], gnss.ioctl_gnss_get_chipsetinfo, gnssdriver/IOCTL_GNSS_GET_CHIPSETINFO
+ms.date: 2/22/2018
+ms.keywords: IOCTL_GNSS_GET_CHIPSETINFO, IOCTL_GNSS_GET_CHIPSETINFO control code [Sensor Devices], gnssdriver/IOCTL_GNSS_GET_CHIPSETINFO, sensors.ioctl_gnss_get_chipsetinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,7 +38,8 @@ api_location:
 -	gnssdriver.h
 api_name:
 -	IOCTL_GNSS_GET_CHIPSETINFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GNSS_SUPL_CERT_ACTION
 ---
@@ -70,7 +71,7 @@ Set to 0.
 
 ### -output-buffer
 
-A pointer to a <a href="..\gnssdriver\ns-gnssdriver-gnss_chipsetinfo.md">GNSS_CHIPSETINFO</a> structure.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn925098">GNSS_CHIPSETINFO</a> structure.
 
 
 ### -output-buffer-length
@@ -116,7 +117,6 @@ The GNSS driver must respond with the information about the GNSS chipset.
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
 
 
 
@@ -124,14 +124,15 @@ The GNSS driver must respond with the information about the GNSS chipset.
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548651">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548656">WdfIoTargetSendInternalIoctlSynchronously</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548660">WdfIoTargetSendIoctlSynchronously</a>
  
 
  

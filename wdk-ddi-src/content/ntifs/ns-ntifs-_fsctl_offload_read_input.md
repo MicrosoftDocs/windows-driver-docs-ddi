@@ -7,7 +7,7 @@ old-location: ifsk\fsctl_offload_read_input.htm
 old-project: ifsk
 ms.assetid: 11F9FFC6-D2F6-4CCA-9459-CF2639AE652D
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: "*PFSCTL_OFFLOAD_READ_INPUT, FSCTL_OFFLOAD_READ_INPUT, FSCTL_OFFLOAD_READ_INPUT structure [Installable File System Drivers], PFSCTL_OFFLOAD_READ_INPUT, PFSCTL_OFFLOAD_READ_INPUT structure pointer [Installable File System Drivers], _FSCTL_OFFLOAD_READ_INPUT, ifsk.fsctl_offload_read_input, ntifs/FSCTL_OFFLOAD_READ_INPUT, ntifs/PFSCTL_OFFLOAD_READ_INPUT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntifs.h
 api_name:
 -	FSCTL_OFFLOAD_READ_INPUT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FSCTL_OFFLOAD_READ_INPUT, *PFSCTL_OFFLOAD_READ_INPUT
 ---
@@ -50,21 +51,6 @@ req.typenames: FSCTL_OFFLOAD_READ_INPUT, *PFSCTL_OFFLOAD_READ_INPUT
 
 
 The <b>FSCTL_OFFLOAD_READ_INPUT</b> structure contains the input for the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451101">FSCTL_OFFLOAD_READ</a> control code request.
-
-
-## -syntax
-
-
-````
-typedef struct _FSCTL_OFFLOAD_READ_INPUT {
-  ULONG     Size;
-  ULONG     Flags;
-  ULONG     TokenTimeToLive;
-  ULONG     Reserved;
-  ULONGLONG FileOffset;
-  ULONGLONG Length;
-} FSCTL_OFFLOAD_READ_INPUT, *PFSCTL_OFFLOAD_READ_INPUT;
-````
 
 
 ## -struct-fields
@@ -120,7 +106,6 @@ The  storage device's copy provider retains the data read for the duration in <b
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_fsctl_offload_read_output.md">FSCTL_OFFLOAD_READ_OUTPUT</a>
 
 
 
@@ -128,8 +113,8 @@ The  storage device's copy provider retains the data read for the duration in <b
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451109">FSCTL_OFFLOAD_READ_OUTPUT</a>
  
 
  
-
 

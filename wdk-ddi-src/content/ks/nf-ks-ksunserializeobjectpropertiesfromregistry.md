@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsUnserializeObjectPropertiesFromRegistry
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,18 +52,6 @@ req.typenames:
 
 
 The <b>KsUnserializeObjectPropertiesFromRegistry</b> function, when given a destination object and a registry path, enumerates the named values and applies them as serialized data to the specified property sets listed in the serialized data. An IRP is generated when sending the serialized data, so no assumption is made on use of KS property structures to internally define the property sets. The function does not use the names of the values.
-
-
-## -syntax
-
-
-````
-NTSTATUS KsUnserializeObjectPropertiesFromRegistry(
-  _In_     PFILE_OBJECT    FileObject ,
-  _In_opt_ HANDLE          ParentKey ,
-  _In_opt_ PUNICODE_STRING RegistryPath 
-);
-````
 
 
 ## -parameters

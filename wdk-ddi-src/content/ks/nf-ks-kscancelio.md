@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsCancelIo
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,17 +52,6 @@ req.typenames:
 
 
 The <b>KsCancelIo</b> function cancels all IRPs on the specified cancel list. If an IRP on the list does not have a cancel routine, only the cancel bit is set in the IRP. The function can be called at IRQ level DISPATCH_LEVEL or lower.
-
-
-## -syntax
-
-
-````
-void KsCancelIo(
-  _Inout_ PLIST_ENTRY QueueHead,
-  _In_    PKSPIN_LOCK SpinLock
-);
-````
 
 
 ## -parameters
@@ -101,12 +91,11 @@ If the IRP being canceled has a driver-supplied cancel routine, the cancel spin 
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksaddirptocancelablequeue.md">KsAddIrpToCancelableQueue</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560934">KsAddIrpToCancelableQueue</a>
  
 
  
-
 

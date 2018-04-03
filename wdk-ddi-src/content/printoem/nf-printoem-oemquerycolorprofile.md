@@ -38,7 +38,8 @@ api_location:
 -	printoem.h
 api_name:
 -	OEMQueryColorProfile
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STDVARIABLEINDEX
 req.product: Windows 10 or later.
@@ -50,23 +51,6 @@ req.product: Windows 10 or later.
 ## -description
 
 
-
-
-## -syntax
-
-
-````
-BOOL APIENTRY OEMQueryColorProfile(
-        HANDLE                               hPrinter,
-        POEMUIOBJ                            poemuiobj,
-        PDEVMODE                             pPublicDM,
-        PVOID                                pOEMDM,
-        ULONG                                ulQueryMode,
-  _Out_ _writes_bytes_(*pcbProfileData) VOID *pvProfileData,
-  _Out_ ULONG                                *pcbProfileData,
-  _Out_ FLONG                                *pflProfileData
-);
-````
 
 
 ## -parameters

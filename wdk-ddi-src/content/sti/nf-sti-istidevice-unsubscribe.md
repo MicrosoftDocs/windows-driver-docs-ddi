@@ -38,7 +38,8 @@ api_location:
 -	Sti.h
 api_name:
 -	IStiDevice.UnSubscribe
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STI_DEVICE_MJ_TYPE, STI_DEVICE_MJ_TYPE
 req.product: Windows 10 or later.
@@ -51,14 +52,6 @@ req.product: Windows 10 or later.
 
 
 The<b> IStiDevice::UnSubscribe</b> method removes the caller from the list of applications registered to receive notification of device events.
-
-
-## -syntax
-
-
-````
-HRESULT UnSubscribe();
-````
 
 
 ## -parameters
@@ -88,7 +81,6 @@ Before calling <b>IStiDevice::UnSubscribe</b>, clients of the <b>IStiDevice</b> 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543768">IStiDevice::Subscribe</a>
 
 
 
@@ -96,8 +88,8 @@ Before calling <b>IStiDevice::UnSubscribe</b>, clients of the <b>IStiDevice</b> 
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543768">IStiDevice::Subscribe</a>
  
 
  
-
 

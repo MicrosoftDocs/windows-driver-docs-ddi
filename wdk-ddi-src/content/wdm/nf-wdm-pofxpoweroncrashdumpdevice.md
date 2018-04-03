@@ -7,7 +7,7 @@ old-location: kernel\pofxpoweroncrashdumpdevice.htm
 old-project: kernel
 ms.assetid: 41560DC4-EE5E-4756-8540-ACC19835A9DA
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: PoFxPowerOnCrashdumpDevice, PoFxPowerOnCrashdumpDevice routine [Kernel-Mode Driver Architecture], kernel.pofxpoweroncrashdumpdevice, wdm/PoFxPowerOnCrashdumpDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	ntoskrnl.dll
 api_name:
 -	PoFxPowerOnCrashdumpDevice
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
@@ -54,17 +55,6 @@ req.product: Windows 10 or later.
 The <b>PoFxPowerOnCrashdumpDevice</b> routine requests that a crash-dump device be turned on.
 
 
-## -syntax
-
-
-````
-NTSTATUS PoFxPowerOnCrashdumpDevice(
-  _In_     POHANDLE Handle,
-  _In_opt_ PVOID    Context
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +62,7 @@ NTSTATUS PoFxPowerOnCrashdumpDevice(
 
 ### -param Handle [in]
 
-A handle that represents the registration of the crash-dump device with the Windows <a href="https://msdn.microsoft.com/B08F8ABF-FD43-434C-A345-337FBB799D9B">power management framework</a> (PoFx). The device driver previously received this handle from the <a href="..\wdm\nf-wdm-pofxregisterdevice.md">PoFxRegisterDevice</a> routine.
+A handle that represents the registration of the crash-dump device with the Windows <a href="https://msdn.microsoft.com/B08F8ABF-FD43-434C-A345-337FBB799D9B">power management framework</a> (PoFx). The device driver previously received this handle from the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439521">PoFxRegisterDevice</a> routine.
 
 
 ### -param Context [in, optional]
@@ -134,16 +124,15 @@ This routine can be called at IRQL &lt;= HIGH_LEVEL.
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-pofxregisterdevice.md">PoFxRegisterDevice</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439521">PoFxRegisterDevice</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt186875">PowerOnDumpDeviceCallback</a>
-
-
-
  
 
  
-
 

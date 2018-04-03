@@ -7,7 +7,7 @@ old-location: ifsk\psimpersonateclient.htm
 old-project: ifsk
 ms.assetid: 69cc1253-07eb-43cf-abc7-5ad02ecb014d
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: PsImpersonateClient, PsImpersonateClient routine [Installable File System Drivers], ifsk.psimpersonateclient, ntifs/PsImpersonateClient, psref_57279501-1e5a-4113-93ea-a04825989e73.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	PsImpersonateClient
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -50,20 +51,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>PsImpersonateClient</b> routine causes a server thread to impersonate a client. 
-
-
-## -syntax
-
-
-````
-NTSTATUS PsImpersonateClient(
-  _Inout_ PETHREAD                     Thread,
-  _In_    PACCESS_TOKEN                Token,
-  _In_    BOOLEAN                      CopyOnOpen,
-  _In_    BOOLEAN                      EffectiveOnly,
-  _In_    SECURITY_IMPERSONATION_LEVEL ImpersonationLevel
-);
-````
 
 
 ## -parameters
@@ -93,7 +80,7 @@ Set to <b>FALSE</b> to allow the server to enable groups and privileges that are
 
 ### -param ImpersonationLevel [in]
 
-A <a href="..\wudfddi\ne-wudfddi-_security_impersonation_level.md">SECURITY_IMPERSONATION_LEVEL</a> value that specifies the impersonation level at which the server is to access the token. 
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff556631">SECURITY_IMPERSONATION_LEVEL</a> value that specifies the impersonation level at which the server is to access the token. 
 
 
 ## -returns
@@ -141,9 +128,9 @@ There was insufficient memory to complete the operation.
 
 <b>PsImpersonateClient</b> causes the specified server thread to impersonate the specified client. 
 
-The server thread could already be impersonating a client when <b>PsImpersonateClient</b> is called. If this is the case, the reference count on the token representing that client is decremented. To preserve this token for later use, drivers should call <a href="..\ntifs\nf-ntifs-psreferenceimpersonationtoken.md">PsReferenceImpersonationToken</a> before calling <b>PsImpersonateClient</b> and save the pointer that is returned by <b>PsReferenceImpersonationToken</b>. 
+The server thread could already be impersonating a client when <b>PsImpersonateClient</b> is called. If this is the case, the reference count on the token representing that client is decremented. To preserve this token for later use, drivers should call <a href="https://msdn.microsoft.com/library/windows/hardware/ff551929">PsReferenceImpersonationToken</a> before calling <b>PsImpersonateClient</b> and save the pointer that is returned by <b>PsReferenceImpersonationToken</b>. 
 
-To end the new impersonation and return the server thread to the previous impersonation, call <b>PsImpersonateClient</b> again, passing the saved pointer for the <i>Token</i> parameter. To end all impersonations, call the <a href="..\ntifs\nf-ntifs-psreverttoself.md">PsRevertToSelf</a> routine.
+To end the new impersonation and return the server thread to the previous impersonation, call <b>PsImpersonateClient</b> again, passing the saved pointer for the <i>Token</i> parameter. To end all impersonations, call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551941">PsRevertToSelf</a> routine.
 
 Otherwise, to end the impersonation and return the server thread to its original security context (that is, the one represented by its primary token), call <b>PsImpersonateClient</b> again, passing a <b>NULL</b> pointer for the <i>Token</i> parameter. 
 
@@ -153,7 +140,7 @@ It is extremely unsafe to raise the privilege state of an untrusted user thread 
 
 In cases where a higher privilege state is required, the task should be dispatched to a work queue where the task can be safely handled by system worker thread . This way no impersonation is necessary.
 
-The <a href="..\ntifs\nf-ntifs-seimpersonateclientex.md">SeImpersonateClientEx</a> routine can be used to cause a thread to impersonate a user.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/ff556659">SeImpersonateClientEx</a> routine can be used to cause a thread to impersonate a user.
 
 For more information about security and access control, see the documentation on these topics in the Microsoft Windows SDK. 
 
@@ -162,28 +149,27 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\wudfddi\ne-wudfddi-_security_impersonation_level.md">SECURITY_IMPERSONATION_LEVEL</a>
 
 
 
-<a href="..\wdm\nf-wdm-psgetcurrentthread.md">PsGetCurrentThread</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559936">PsGetCurrentThread</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-psreverttoself.md">PsRevertToSelf</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551929">PsReferenceImpersonationToken</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-seimpersonateclientex.md">SeImpersonateClientEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551941">PsRevertToSelf</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-psreferenceimpersonationtoken.md">PsReferenceImpersonationToken</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556631">SECURITY_IMPERSONATION_LEVEL</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556659">SeImpersonateClientEx</a>
  
 
  
-
 

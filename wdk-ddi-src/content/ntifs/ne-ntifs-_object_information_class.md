@@ -7,7 +7,7 @@ old-location: ifsk\object_information_class.htm
 old-project: ifsk
 ms.assetid: fbcca01d-2dd6-405a-9ec2-709652e9dcd6
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: OBJECT_INFORMATION_CLASS, OBJECT_INFORMATION_CLASS enumeration [Installable File System Drivers], ObjectBasicInformation, ObjectTypeInformation, _OBJECT_INFORMATION_CLASS, ifsk.object_information_class, ntifs/OBJECT_INFORMATION_CLASS, ntifs/ObjectBasicInformation, ntifs/ObjectTypeInformation, objectstructures_60aa943f-6a91-429d-8c9d-1554f1bcf03e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntifs.h
 api_name:
 -	OBJECT_INFORMATION_CLASS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OBJECT_INFORMATION_CLASS
 ---
@@ -52,17 +53,6 @@ req.typenames: OBJECT_INFORMATION_CLASS
 The OBJECT_INFORMATION_CLASS enumeration type represents the type of information to supply about an object.
 
 
-## -syntax
-
-
-````
-typedef enum _OBJECT_INFORMATION_CLASS { 
-  ObjectBasicInformation  = 0,
-  ObjectTypeInformation   = 2
-} OBJECT_INFORMATION_CLASS;
-````
-
-
 ## -enum-fields
 
 
@@ -70,30 +60,29 @@ typedef enum _OBJECT_INFORMATION_CLASS {
 
 ### -field ObjectBasicInformation
 
-A <a href="..\ntifs\ns-ntifs-_public_object_basic_information.md">PUBLIC_OBJECT_BASIC_INFORMATION</a> structure is supplied.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff551944">PUBLIC_OBJECT_BASIC_INFORMATION</a> structure is supplied.
 
 
 ### -field ObjectTypeInformation
 
-A <a href="..\ntifs\ns-ntifs-__public_object_type_information.md">PUBLIC_OBJECT_TYPE_INFORMATION</a> structure is supplied.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff551947">PUBLIC_OBJECT_TYPE_INFORMATION</a> structure is supplied.
 
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-__public_object_type_information.md">PUBLIC_OBJECT_TYPE_INFORMATION</a>
 
 
 
-<a href="..\ntifs\ns-ntifs-_public_object_basic_information.md">PUBLIC_OBJECT_BASIC_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551944">PUBLIC_OBJECT_BASIC_INFORMATION</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-zwqueryobject.md">ZwQueryObject</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551947">PUBLIC_OBJECT_TYPE_INFORMATION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567062">ZwQueryObject</a>
  
 
  
-
 

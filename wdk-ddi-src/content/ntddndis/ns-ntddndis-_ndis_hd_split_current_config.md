@@ -7,7 +7,7 @@ old-location: netvista\ndis_hd_split_current_config.htm
 old-project: netvista
 ms.assetid: 866fe9e6-0cb1-45cd-84b4-4e2df9c9c45a
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PNDIS_HD_SPLIT_CURRENT_CONFIG, NDIS_HD_SPLIT_CURRENT_CONFIG, NDIS_HD_SPLIT_CURRENT_CONFIG structure [Network Drivers Starting with Windows Vista], PNDIS_HD_SPLIT_CURRENT_CONFIG, PNDIS_HD_SPLIT_CURRENT_CONFIG structure pointer [Network Drivers Starting with Windows Vista], _NDIS_HD_SPLIT_CURRENT_CONFIG, header_data_split_ref_7275dcfc-6fe4-4648-9b4c-0b5a37aa850b.xml, netvista.ndis_hd_split_current_config, ntddndis/NDIS_HD_SPLIT_CURRENT_CONFIG, ntddndis/PNDIS_HD_SPLIT_CURRENT_CONFIG"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddndis.h
 api_name:
 -	NDIS_HD_SPLIT_CURRENT_CONFIG
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_HD_SPLIT_CURRENT_CONFIG, *PNDIS_HD_SPLIT_CURRENT_CONFIG
 ---
@@ -53,22 +54,6 @@ The NDIS_HD_SPLIT_CURRENT_CONFIG structure provides the current header-data spli
   miniport adapter.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_HD_SPLIT_CURRENT_CONFIG {
-  NDIS_OBJECT_HEADER Header;
-  ULONG              HardwareCapabilities;
-  ULONG              CurrentCapabilities;
-  ULONG              HDSplitFlags;
-  ULONG              HDSplitCombineFlags;
-  ULONG              BackfillSize;
-  ULONG              MaxHeaderSize;
-} NDIS_HD_SPLIT_CURRENT_CONFIG, *PNDIS_HD_SPLIT_CURRENT_CONFIG;
-````
-
-
 ## -struct-fields
 
 
@@ -77,7 +62,7 @@ typedef struct _NDIS_HD_SPLIT_CURRENT_CONFIG {
 ### -field Header
 
 The 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure for the
      NDIS_HD_SPLIT_CURRENT_CONFIG structure. The driver sets the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to NDIS_OBJECT_TYPE_DEFAULT, the 
@@ -216,20 +201,19 @@ The NDIS_HD_SPLIT_CURRENT_CONFIG structure is used in the
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563672">NdisMSetMiniportAttributes</a>
 
 
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-hd-split-current-config">OID_GEN_HD_SPLIT_CURRENT_CONFIG</a>
-
-
-
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: netvista\nmrwaitforclientderegistercomplete.htm
 old-project: netvista
 ms.assetid: aed0a69e-868c-4c7d-b601-003ff357da38
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NmrWaitForClientDeregisterComplete, NmrWaitForClientDeregisterComplete function [Network Drivers Starting with Windows Vista], netioddk/NmrWaitForClientDeregisterComplete, netvista.nmrwaitforclientderegistercomplete, nmrref_577f5784-0136-480d-bc2d-d9b8740bdf3a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	netio.dll
 api_name:
 -	NmrWaitForClientDeregisterComplete
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NET_DMA_PROVIDER_CHARACTERISTICS, *PNET_DMA_PROVIDER_CHARACTERISTICS
 ---
@@ -55,16 +56,6 @@ The
   complete.
 
 
-## -syntax
-
-
-````
-NTSTATUS NmrWaitForClientDeregisterComplete(
-  _In_ HANDLE NmrClientHandle
-);
-````
-
-
 ## -parameters
 
 
@@ -74,7 +65,7 @@ NTSTATUS NmrWaitForClientDeregisterComplete(
 
 A handle used by the NMR to represent the registration of the client module. The NMR returns this
      handle to the client module when the client module calls the 
-     <a href="..\netioddk\nf-netioddk-nmrregisterclient.md">NmrRegisterClient</a> function.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568782">NmrRegisterClient</a> function.
 
 
 ## -returns
@@ -109,7 +100,7 @@ The NMR completed deregistering the client module.
 <td width="60%">
 The client module called the 
        <b>NmrWaitForClientDeregisterComplete</b> function before calling the 
-       <a href="..\netioddk\nf-netioddk-nmrderegisterclient.md">NmrDeregisterClient</a> function, or
+       <a href="https://msdn.microsoft.com/library/windows/hardware/ff568774">NmrDeregisterClient</a> function, or
        the handle specified in the NmrClientHandle parameter is not a valid client handle.
 
 </td>
@@ -139,7 +130,7 @@ A client module calls the
     <b>NmrWaitForClientDeregisterComplete</b> function to wait for the deregistration of the client module to
     complete. A client module calls the 
     <b>NmrWaitForClientDeregisterComplete</b> function only after calling the 
-    <a href="..\netioddk\nf-netioddk-nmrderegisterclient.md">NmrDeregisterClient</a> function.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568774">NmrDeregisterClient</a> function.
 
 A client module typically calls the 
     <b>NmrWaitForClientDeregisterComplete</b> function from its 
@@ -152,7 +143,7 @@ A client module typically calls the
 
 <div class="alert"><b>Note</b>  If a client module uses the Windows Driver Framework, it will typically call the 
      <b>NmrWaitForClientDeregisterComplete</b> function from its 
-     <a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_unload.md">EvtDriverUnload</a> event callback function. In
+     <a href="https://msdn.microsoft.com/2a2ed215-1b62-4ff1-bea6-e38fafbcf7d0">EvtDriverUnload</a> event callback function. In
      this situation, the client module must not return from a call to its 
      <i>EvtDriverUnload</i> function until after
      deregistration is complete.</div>
@@ -164,12 +155,11 @@ A client module typically calls the
 
 ## -see-also
 
-<a href="..\netioddk\nf-netioddk-nmrderegisterclient.md">NmrDeregisterClient</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568774">NmrDeregisterClient</a>
  
 
  
-
 

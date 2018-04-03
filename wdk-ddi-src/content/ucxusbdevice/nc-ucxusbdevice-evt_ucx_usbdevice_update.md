@@ -7,7 +7,7 @@ old-location: buses\evt_ucx_usbdevice_update.htm
 old-project: usbref
 ms.assetid: 5dbf3560-9968-4996-8bce-fb43e3918d72
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: EVT_UCX_USBDEVICE_UPDATE, EvtUcxUsbDeviceUpdate, EvtUcxUsbDeviceUpdate callback function [Buses], PEVT_UCX_USBDEVICE_UPDATE, PEVT_UCX_USBDEVICE_UPDATE callback function pointer [Buses], buses.evt_ucx_usbdevice_update, ucxusbdevice/EvtUcxUsbDeviceUpdate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ucxusbdevice.h
 api_name:
 -	PEVT_UCX_USBDEVICE_UPDATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STREAM_INFO, *PSTREAM_INFO
 req.product: Windows 10 or later.
@@ -54,22 +55,6 @@ The client driver's implementation that UCX calls to
     update device properties.
 
 
-## -prototype
-
-
-````
-EVT_UCX_USBDEVICE_UPDATE EvtUcxUsbDeviceUpdate;
-
-VOID EvtUcxUsbDeviceUpdate(
-  _In_ UCXCONTROLLER UcxController,
-  _In_ WDFREQUEST    Request
-)
-{ ... }
-
-typedef EVT_UCX_USBDEVICE_UPDATE PEVT_UCX_USBDEVICE_UPDATE;
-````
-
-
 ## -parameters
 
 
@@ -82,7 +67,7 @@ typedef EVT_UCX_USBDEVICE_UPDATE PEVT_UCX_USBDEVICE_UPDATE;
 
 ### -param Request [in]
 
-Contains the <a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_update.md">USBDEVICE_UPDATE</a> structure.
+Contains the <a href="https://msdn.microsoft.com/library/windows/hardware/mt188080">USBDEVICE_UPDATE</a> structure.
 
 
 ## -returns
@@ -98,7 +83,7 @@ This callback function does not return a value.
 
 
 
-The UCX client driver registers this callback function with the USB host controller extension (UCX) by calling the <a href="..\ucxusbdevice\nf-ucxusbdevice-ucxusbdevicecreate.md">UcxUsbDeviceCreate</a> method.
+The UCX client driver registers this callback function with the USB host controller extension (UCX) by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/mt188052">UcxUsbDeviceCreate</a> method.
 
 The host controller driver communicates with the hardware to update descriptors, LPM parameters, whether device is a hub, and
     maximum exit latency, as needed.
@@ -140,24 +125,23 @@ UsbDevice_EvtUcxUsbDeviceUpdate(
 
 ## -see-also
 
-<a href="..\ucxusbdevice\nf-ucxusbdevice-ucxusbdeviceinitseteventcallbacks.md">UcxUsbDeviceInitSetEventCallbacks</a>
 
 
 
-<a href="..\ucxusbdevice\nf-ucxusbdevice-ucxusbdevicecreate.md">UcxUsbDeviceCreate</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt188068">UCX_USBDEVICE_EVENT_CALLBACKS_INIT</a>
 
 
 
-<a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_update.md">USBDEVICE_UPDATE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt188080">USBDEVICE_UPDATE</a>
 
 
 
-<a href="..\ucxusbdevice\nf-ucxusbdevice-ucx_usbdevice_event_callbacks_init.md">UCX_USBDEVICE_EVENT_CALLBACKS_INIT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt188052">UcxUsbDeviceCreate</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt188053">UcxUsbDeviceInitSetEventCallbacks</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: debugger\checkversion.htm
 old-project: debugger
 ms.assetid: 82e16423-7e23-4229-9ba6-b43970a1135a
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: CheckVersion, CheckVersion callback function [Windows Debugging], PWINDBG_CHECK_VERSION, WdbgExts_Callbacks_9f917023-190d-4047-a272-7e46de9b5afb.xml, debugger.checkversion, wdbgexts/CheckVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	wdbgexts.h
 api_name:
 -	CheckVersion
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VPCI_WRITE_BLOCK_INPUT, *PVPCI_WRITE_BLOCK_INPUT
 req.product: Windows 10 or later.
@@ -51,14 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <i>PWINDBG_CHECK_VERSION</i>  (<b>CheckVersion</b>) callback function verifies that the extension module version matches the debugger version, and outputs an warning message if there is a mismatch.
-
-
-## -prototype
-
-
-````
-VOID CheckVersion(void);
-````
 
 
 ## -parameters
@@ -95,7 +88,7 @@ For more details, see <a href="https://msdn.microsoft.com/library/windows/hardwa
 
 <i>CheckVersion</i> is an optional callback function.  If it exists, it will be called by the debugger the first time an extension function exported by the extension DLL is used.
 
-The purpose of this function is to allow you to print out a version mismatch warning when the extension DLL is used. This is an optional feature, which should not be confused with the version number used  by <a href="..\wdbgexts\nc-wdbgexts-pwindbg_extension_api_version.md">ExtensionApiVersion</a>.
+The purpose of this function is to allow you to print out a version mismatch warning when the extension DLL is used. This is an optional feature, which should not be confused with the version number used  by <a href="https://msdn.microsoft.com/library/windows/hardware/ff543968">ExtensionApiVersion</a>.
 
 If the <a href="https://msdn.microsoft.com/ce7fbff4-7936-4bef-8236-a13957ada7f4">.noversion</a> command is used, version checking is disabled and the debugger will not call <i>CheckVersion</i>.
 

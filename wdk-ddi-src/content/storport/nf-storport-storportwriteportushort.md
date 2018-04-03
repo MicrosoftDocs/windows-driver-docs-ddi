@@ -7,7 +7,7 @@ old-location: storage\storportwriteportushort.htm
 old-project: storage
 ms.assetid: 7655b6a1-2ed4-4e57-b8b5-e7b8ff2dd1e5
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: StorPortWritePortUshort, StorPortWritePortUshort routine [Storage Devices], storage.storportwriteportushort, storport/StorPortWritePortUshort, storprt_7e675f67-f027-48e7-a41b-b672b0f81d20.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Storport.dll
 api_name:
 -	StorPortWritePortUshort
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STOR_SPINLOCK
 req.product: Windows 10 or later.
@@ -52,18 +53,6 @@ req.product: Windows 10 or later.
 
 
 The <b>StorPortWritePortUshort</b> routine writes a value to a specified register address. 
-
-
-## -syntax
-
-
-````
-STORPORT_API VOID StorPortWritePortUshort(
-  _In_ PVOID   HwDeviceExtension,
-  _In_ PUSHORT Port,
-  _In_ USHORT  Value
-);
-````
 
 
 ## -parameters
@@ -109,23 +98,22 @@ Contains the value to be written.
 
 
 
-For more information, see <a href="..\storport\nf-storport-scsiportwriteportushort.md">ScsiPortWritePortUshort</a>. For a buffered equivalent of this routine, see <a href="..\storport\nf-storport-storportwriteportbufferushort.md">StorPortWritePortBufferUshort</a>. 
+For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff564841">ScsiPortWritePortUshort</a>. For a buffered equivalent of this routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff567520">StorPortWritePortBufferUshort</a>. 
 
 
 
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportwriteportbufferushort.md">StorPortWritePortBufferUshort</a>
 
 
 
-<a href="..\storport\nf-storport-scsiportwriteportushort.md">ScsiPortWritePortUshort</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564841">ScsiPortWritePortUshort</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567520">StorPortWritePortBufferUshort</a>
  
 
  
-
 

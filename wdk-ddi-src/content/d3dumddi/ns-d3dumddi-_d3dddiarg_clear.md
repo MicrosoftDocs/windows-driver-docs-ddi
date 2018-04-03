@@ -7,7 +7,7 @@ old-location: display\d3dddiarg_clear.htm
 old-project: display
 ms.assetid: f437f94c-075e-43e6-bf28-0e7c7bd78c5a
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDIARG_CLEAR, D3DDDIARG_CLEAR structure [Display Devices], UMDisplayDriver_param_Structs_64efff84-8fe3-40d4-b823-27e4a235fd86.xml, _D3DDDIARG_CLEAR, d3dumddi/D3DDDIARG_CLEAR, display.d3dddiarg_clear
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	D3DDDIARG_CLEAR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDIARG_CLEAR
 ---
@@ -52,19 +53,6 @@ req.typenames: D3DDDIARG_CLEAR
 The D3DDDIARG_CLEAR structure describes the parameters of a hardware-assisted clearing operation. 
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_CLEAR {
-  UINT  Flags;
-  UINT  FillColor;
-  FLOAT FillDepth;
-  UINT  FillStencil;
-} D3DDDIARG_CLEAR;
-````
-
-
 ## -struct-fields
 
 
@@ -72,7 +60,7 @@ typedef struct _D3DDDIARG_CLEAR {
 
 ### -field Flags
 
-[in] A UINT value that specifies which buffers the driver should clear and how the clear operation should be performed. This member can be a bitwise OR of the following values. For more information, see the Remarks section in the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_clear.md">Clear</a> reference page.
+[in] A UINT value that specifies which buffers the driver should clear and how the clear operation should be performed. This member can be a bitwise OR of the following values. For more information, see the Remarks section in the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406339">Clear</a> reference page.
 
 <table>
 <tr>
@@ -142,19 +130,18 @@ If rectangles are specified for clearing, the driver should clip them against th
 
 
 
-In a call to the user-mode display driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_clear.md">Clear</a> function, a pointer to a D3DDDIARG_CLEAR structure is passed in the <i>pData</i> parameter. The Microsoft Direct3D runtime passes information to the <i>NumRect</i> and <i>pRect</i> parameters in a call to the user-mode display driver's <b>Clear</b> function to specify the rectangular areas of the buffer that the driver should clear.
+In a call to the user-mode display driver's <a href="https://msdn.microsoft.com/library/windows/hardware/hh406339">Clear</a> function, a pointer to a D3DDDIARG_CLEAR structure is passed in the <i>pData</i> parameter. The Microsoft Direct3D runtime passes information to the <i>NumRect</i> and <i>pRect</i> parameters in a call to the user-mode display driver's <b>Clear</b> function to specify the rectangular areas of the buffer that the driver should clear.
 
 
 
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_clear.md">Clear</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406339">Clear</a>
  
 
  
-
 

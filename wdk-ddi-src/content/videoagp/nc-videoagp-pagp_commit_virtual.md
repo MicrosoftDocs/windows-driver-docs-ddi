@@ -7,7 +7,7 @@ old-location: display\agpcommitvirtual.htm
 old-project: display
 ms.assetid: 8a3e7fcd-d838-47ad-a42b-7eb070f81418
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: AgpCommitVirtual, AgpCommitVirtual callback function [Display Devices], PAGP_COMMIT_VIRTUAL, VideoPort_Functions_74f16518-6071-45bb-a44d-80fe042814ea.xml, display.agpcommitvirtual, videoagp/AgpCommitVirtual
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	videoagp.h
 api_name:
 -	AgpCommitVirtual
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VP_SCATTER_GATHER_LIST, *PVP_SCATTER_GATHER_LIST
 req.product: Windows 10 or later.
@@ -53,22 +54,6 @@ req.product: Windows 10 or later.
 The <b>AgpCommitVirtual</b> function maps reserved virtual memory to an associated range of AGP-decodable physical addresses.
 
 
-## -prototype
-
-
-````
-PAGP_COMMIT_VIRTUAL AgpCommitVirtual;
-
-PVOID APIENTRY AgpCommitVirtual(
-  _In_ PVOID HwDeviceExtension,
-  _In_ PVOID VirtualReserveContext,
-  _In_ ULONG Pages,
-  _In_ ULONG Offset
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -81,7 +66,7 @@ Pointer to the device extension of the miniport driver'.
 
 ### -param VirtualReserveContext [in]
 
-Identifies a reserved virtual address range. The context handle was obtained from <a href="..\videoagp\nc-videoagp-pagp_reserve_virtual.md">AgpReserveVirtual</a>.
+Identifies a reserved virtual address range. The context handle was obtained from <a href="https://msdn.microsoft.com/966dfc6c-6830-4872-b411-2801e3a4b753">AgpReserveVirtual</a>.
 
 
 ### -param Pages [in]
@@ -111,19 +96,19 @@ Before calling <b>AgpCommitVirtual</b> to commit a range of virtual pages, you m
 
 <ul>
 <li>
-Call <a href="..\videoagp\nc-videoagp-pagp_reserve_physical.md">AgpReservePhysical</a> to reserve a range of physical addresses for the GPU to use.
+Call <a href="https://msdn.microsoft.com/b3e21c94-acd5-4767-8ba5-70b2dcfb2aaa">AgpReservePhysical</a> to reserve a range of physical addresses for the GPU to use.
 
 </li>
 <li>
-Call <a href="..\videoagp\nc-videoagp-pagp_commit_physical.md">AgpCommitPhysical</a> to map a portion (or all) of the reserved physical addresses to locked pages in system memory.
+Call <a href="https://msdn.microsoft.com/3c3a6936-7435-4a42-99e6-2c048613af23">AgpCommitPhysical</a> to map a portion (or all) of the reserved physical addresses to locked pages in system memory.
 
 </li>
 <li>
-Call <a href="..\videoagp\nc-videoagp-pagp_reserve_virtual.md">AgpReserveVirtual</a> to reserve a range of virtual addresses that is associated with the range of physical addresses reserved by <a href="..\videoagp\nc-videoagp-pagp_reserve_physical.md">AgpReservePhysical</a>.
+Call <a href="https://msdn.microsoft.com/966dfc6c-6830-4872-b411-2801e3a4b753">AgpReserveVirtual</a> to reserve a range of virtual addresses that is associated with the range of physical addresses reserved by <a href="https://msdn.microsoft.com/b3e21c94-acd5-4767-8ba5-70b2dcfb2aaa">AgpReservePhysical</a>.
 
 </li>
 </ul>
-After these items are completed, you can call <b>AgpCommitVirtual</b> to map a portion of the reserved virtual pages to pages that have already been mapped and locked by <a href="..\videoagp\nc-videoagp-pagp_commit_physical.md">AgpCommitPhysical</a>. You must not attempt to map a page of virtual addresses if the corresponding page of physical addresses has not already been mapped.
+After these items are completed, you can call <b>AgpCommitVirtual</b> to map a portion of the reserved virtual pages to pages that have already been mapped and locked by <a href="https://msdn.microsoft.com/3c3a6936-7435-4a42-99e6-2c048613af23">AgpCommitPhysical</a>. You must not attempt to map a page of virtual addresses if the corresponding page of physical addresses has not already been mapped.
 
 Video miniport drivers that run on Microsoft Windows 2000 should always commit a virtual range whose size is a multiple of 64 kilobytes. If you call <b>AgpCommitVirtual</b> to commit a virtual range that is not a multiple of 64 kilobytes, it can return an invalid virtual address.
 
@@ -136,20 +121,19 @@ When a miniport driver calls <b>AgpCommitVirtual</b>, a portion of the virtual a
 
 ## -see-also
 
-<a href="..\videoagp\nc-videoagp-pagp_reserve_physical.md">AgpReservePhysical</a>
 
 
 
-<a href="..\videoagp\nc-videoagp-pagp_reserve_virtual.md">AgpReserveVirtual</a>
+<a href="https://msdn.microsoft.com/a6f689ab-8cf1-4207-af2b-30957500c190">AgpFreeVirtual</a>
 
 
 
-<a href="..\videoagp\nc-videoagp-pagp_free_virtual.md">AgpFreeVirtual</a>
+<a href="https://msdn.microsoft.com/b3e21c94-acd5-4767-8ba5-70b2dcfb2aaa">AgpReservePhysical</a>
 
 
 
+<a href="https://msdn.microsoft.com/966dfc6c-6830-4872-b411-2801e3a4b753">AgpReserveVirtual</a>
  
 
  
-
 

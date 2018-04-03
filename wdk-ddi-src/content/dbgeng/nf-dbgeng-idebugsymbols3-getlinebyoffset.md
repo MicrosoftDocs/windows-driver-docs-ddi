@@ -7,7 +7,7 @@ old-location: debugger\getlinebyoffset.htm
 old-project: debugger
 ms.assetid: 1b470ae8-49d3-467d-aa08-08bd9c9e9466
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: GetLineByOffset method [Windows Debugging], GetLineByOffset method [Windows Debugging], IDebugSymbols interface, GetLineByOffset method [Windows Debugging], IDebugSymbols2 interface, GetLineByOffset method [Windows Debugging], IDebugSymbols3 interface, GetLineByOffset,IDebugSymbols3.GetLineByOffset, IDebugSymbols interface [Windows Debugging], GetLineByOffset method, IDebugSymbols2 interface [Windows Debugging], GetLineByOffset method, IDebugSymbols2::GetLineByOffset, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetLineByOffset method, IDebugSymbols3::GetLineByOffset, IDebugSymbols::GetLineByOffset, IDebugSymbols_2ed557af-4f84-46d7-be40-fd37a87cd960.xml, dbgeng/IDebugSymbols2::GetLineByOffset, dbgeng/IDebugSymbols3::GetLineByOffset, dbgeng/IDebugSymbols::GetLineByOffset, debugger.getlinebyoffset
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,8 @@ api_name:
 -	IDebugSymbols.GetLineByOffset
 -	IDebugSymbols2.GetLineByOffset
 -	IDebugSymbols3.GetLineByOffset
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -52,21 +53,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetLineByOffset</b>  method returns the source filename and the line number within the source file of an instruction in the target.
-
-
-## -syntax
-
-
-````
-HRESULT GetLineByOffset(
-  [in]            ULONG64  Offset,
-  [out, optional] PULONG   Line,
-  [out, optional] PSTR     FileBuffer,
-  [in]            ULONG    FileBufferSize,
-  [out, optional] PULONG   FileSize,
-  [out, optional] PULONG64 Displacement
-);
-````
 
 
 ## -parameters
@@ -154,11 +140,6 @@ For more information about source files, see <a href="https://msdn.microsoft.com
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
 
 
 
@@ -166,12 +147,16 @@ For more information about source files, see <a href="https://msdn.microsoft.com
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550856">IDebugSymbols</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550864">IDebugSymbols2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550870">IDebugSymbols3</a>
  
 
  
-
 

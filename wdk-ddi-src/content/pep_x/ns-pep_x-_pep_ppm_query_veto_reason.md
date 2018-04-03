@@ -7,7 +7,7 @@ old-location: kernel\pep_ppm_query_veto_reason.htm
 old-project: kernel
 ms.assetid: 21716141-487B-4950-A55D-C9EE3B8C8612
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*PPEP_PPM_QUERY_VETO_REASON, PEP_PPM_QUERY_VETO_REASON, PEP_PPM_QUERY_VETO_REASON structure [Kernel-Mode Driver Architecture], PPEP_PPM_QUERY_VETO_REASON, PPEP_PPM_QUERY_VETO_REASON structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_QUERY_VETO_REASON, kernel.pep_ppm_query_veto_reason, pepfx/PEP_PPM_QUERY_VETO_REASON, pepfx/PPEP_PPM_QUERY_VETO_REASON"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	pepfx.h
 api_name:
 -	PEP_PPM_QUERY_VETO_REASON
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PEP_PPM_QUERY_VETO_REASON, *PPEP_PPM_QUERY_VETO_REASON, PEP_PPM_QUERY_VETO_REASON, *PPEP_PPM_QUERY_VETO_REASON
 ---
@@ -50,18 +51,6 @@ req.typenames: PEP_PPM_QUERY_VETO_REASON, *PPEP_PPM_QUERY_VETO_REASON, PEP_PPM_Q
 
 
 The <b>PEP_PPM_QUERY_VETO_REASON</b> structure supplies a wide-character, null-terminated string that contains a descriptive, human-readable name for a veto reason.
-
-
-## -syntax
-
-
-````
-typedef struct _PEP_PPM_QUERY_VETO_REASON {
-  ULONG  VetoReason;
-  USHORT NameSize;
-  PWSTR  Name;
-} PEP_PPM_QUERY_VETO_REASON, *PPEP_PPM_QUERY_VETO_REASON;
-````
 
 
 ## -struct-fields
@@ -95,7 +84,6 @@ This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186829">PEP_NOTIFY_PPM_QUERY_VETO_REASONS</a>
 
 
 
@@ -103,8 +91,8 @@ This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/
 
 
 
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186829">PEP_NOTIFY_PPM_QUERY_VETO_REASONS</a>
  
 
  
-
 

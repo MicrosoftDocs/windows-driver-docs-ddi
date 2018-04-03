@@ -38,7 +38,8 @@ api_location:
 -	hidport.h
 api_name:
 -	IOCTL_HID_DEACTIVATE_DEVICE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USAGE_AND_PAGE, *PUSAGE_AND_PAGE
 ---
@@ -117,12 +118,11 @@ HID minidrivers that call other drivers with this IRP to carry out the I/O to th
 
 ## -see-also
 
-<a href="..\hidport\ni-hidport-ioctl_hid_activate_device.md">IOCTL_HID_ACTIVATE_DEVICE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439611">IOCTL_HID_ACTIVATE_DEVICE</a>
  
 
  
-
 

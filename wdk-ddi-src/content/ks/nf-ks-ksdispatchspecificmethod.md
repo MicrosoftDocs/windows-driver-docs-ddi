@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsDispatchSpecificMethod
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -53,17 +54,6 @@ req.typenames:
 The <b>KsDispatchSpecificMethod</b> function dispatches a method to a specific handler. The function assumes that the caller has previously dispatched the IRP to a handler through the <b>KsMethodHandler</b> function. 
 
 The function can only be called at PASSIVE_LEVEL.
-
-
-## -syntax
-
-
-````
-NTSTATUS KsDispatchSpecificMethod(
-  _In_ PIRP         Irp,
-  _In_ PFNKSHANDLER Handler
-);
-````
 
 
 ## -parameters
@@ -101,12 +91,11 @@ The <b>KsDispatchSpecificMethod</b> function is intended for additional processi
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksmethodhandler.md">KsMethodHandler</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563399">KsMethodHandler</a>
  
 
  
-
 

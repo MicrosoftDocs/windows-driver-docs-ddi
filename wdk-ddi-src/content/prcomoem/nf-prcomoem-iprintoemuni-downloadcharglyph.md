@@ -38,7 +38,8 @@ api_location:
 -	prcomoem.h
 api_name:
 -	IPrintOemUni.DownloadCharGlyph
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
@@ -53,20 +54,6 @@ req.product: Windows 10 or later.
 The <code>IPrintOemUni::DownloadCharGlyph</code> method enables a rendering plug-in for Unidrv to send a character glyph for a specified soft font to the printer.
 
 
-## -syntax
-
-
-````
-HRESULT DownloadCharGlyph(
-        PDEVOBJ     pdevobj,
-        PUNIFONTOBJ pUFObj,
-        HGLYPH      hGlyph,
-        PDWORD      pdwWidth,
-  [out] DWORD       *pdwResult
-);
-````
-
-
 ## -parameters
 
 
@@ -74,12 +61,12 @@ HRESULT DownloadCharGlyph(
 
 ### -param pdevobj
 
-Caller-supplied pointer to a <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a> structure.
+Caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547573">DEVOBJ</a> structure.
 
 
 ### -param pUFObj
 
-Caller-supplied pointer to a <a href="..\printoem\ns-printoem-_unifontobj.md">UNIFONTOBJ</a> structure.
+Caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563590">UNIFONTOBJ</a> structure.
 
 
 ### -param hGlyph

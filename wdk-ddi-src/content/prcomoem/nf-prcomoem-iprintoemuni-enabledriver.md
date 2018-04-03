@@ -38,7 +38,8 @@ api_location:
 -	Prcomoem.h
 api_name:
 -	IPrintOemUni.EnableDriver
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
@@ -51,18 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <code>IPrintOemUni::EnableDriver</code> method allows a rendering plug-in for <a href="https://msdn.microsoft.com/0a51fa2b-3d09-4a5f-9fff-40604877a414">Unidrv</a> to hook out some graphics DDI functions.
-
-
-## -syntax
-
-
-````
-STDMETHOD EnableDriver(
-   DWORD          DriverVersion,
-   DWORD          cbSize,
-   PDRVENABLEDATA pded
-);
-````
 
 
 ## -parameters
@@ -173,7 +162,7 @@ A rendering plug-in for Unidrv can hook out a graphics DDI function only if the 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557283">DrvTransparentBlt</a>
 If you provide a customized hooking function, it preempts the driver's equivalent graphics DDI function. Hooking functions can also call back into the driver's graphics DDI functions. For more information see <a href="https://msdn.microsoft.com/33d7d567-5371-4873-a4ef-cd2b06f65d73">Customized Graphics DDI Functions</a>.
 
-Customized hooking functions have the same input and output parameters as the equivalent graphics DDI function, with one exception - where graphics DDI functions receive PDEV pointers, customized hooking functions receive <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a> pointers. There are two ways for graphics DDI functions to receive PDEV pointers:
+Customized hooking functions have the same input and output parameters as the equivalent graphics DDI function, with one exception - where graphics DDI functions receive PDEV pointers, customized hooking functions receive <a href="https://msdn.microsoft.com/library/windows/hardware/ff547573">DEVOBJ</a> pointers. There are two ways for graphics DDI functions to receive PDEV pointers:
 
 <ul>
 <li>

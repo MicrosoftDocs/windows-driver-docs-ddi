@@ -7,7 +7,7 @@ old-location: debugger\addengineoptions.htm
 old-project: debugger
 ms.assetid: 088036f5-13cb-47ba-953c-a71c923f028e
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: AddEngineOptions method [Windows Debugging], AddEngineOptions method [Windows Debugging], IDebugControl interface, AddEngineOptions method [Windows Debugging], IDebugControl2 interface, AddEngineOptions method [Windows Debugging], IDebugControl3 interface, AddEngineOptions,IDebugControl2.AddEngineOptions, IDebugControl interface [Windows Debugging], AddEngineOptions method, IDebugControl2, IDebugControl2 interface [Windows Debugging], AddEngineOptions method, IDebugControl2::AddEngineOptions, IDebugControl3 interface [Windows Debugging], AddEngineOptions method, IDebugControl3::AddEngineOptions, IDebugControl::AddEngineOptions, IDebugControl_6042b0b9-8175-4790-be19-43f8659716dc.xml, dbgeng/IDebugControl2::AddEngineOptions, dbgeng/IDebugControl3::AddEngineOptions, dbgeng/IDebugControl::AddEngineOptions, debugger.addengineoptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,8 @@ api_name:
 -	IDebugControl.AddEngineOptions
 -	IDebugControl2.AddEngineOptions
 -	IDebugControl3.AddEngineOptions
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -52,16 +53,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>AddEngineOptions</b> method turns on some of the <a href="https://msdn.microsoft.com/fa52a1f0-9397-48a5-acbd-ce5347c0baef">debugger engine</a>'s options.
-
-
-## -syntax
-
-
-````
-HRESULT AddEngineOptions(
-  [in] ULONG Options
-);
-````
 
 
 ## -parameters
@@ -113,15 +104,22 @@ After the engine options have been changed, the engine sends out notification to
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546598">GetEngineOptions</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550508">IDebugControl</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550512">IDebugControl2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550519">IDebugControl3</a>
 
 
 
@@ -129,16 +127,8 @@ After the engine options have been changed, the engine sends out notification to
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556670">SetEngineOptions</a>
-
-
-
  
 
  
-
 

@@ -38,7 +38,8 @@ api_location:
 -	61883.h
 api_name:
 -	FCP_FRAME
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FCP_FRAME, *PFCP_FRAME
 ---
@@ -50,18 +51,6 @@ req.typenames: FCP_FRAME, *PFCP_FRAME
 
 
 The FCP_FRAME structure describes a function control protocol (FCP) request.
-
-
-## -syntax
-
-
-````
-typedef struct _FCP_FRAME {
-  UCHAR ctype  :4;
-  UCHAR cts  :4;
-  UCHAR payload[511];
-} FCP_FRAME, *PFCP_FRAME;
-````
 
 
 ## -struct-fields
@@ -86,6 +75,9 @@ The FCP request for this frame.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536974">Av61883_GetFcpRequest</a>
 
 
@@ -94,16 +86,12 @@ The FCP request for this frame.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536992">Av61883_SendFcpResponse</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536989">Av61883_SendFcpRequest</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536992">Av61883_SendFcpResponse</a>
  
 
  
-
 

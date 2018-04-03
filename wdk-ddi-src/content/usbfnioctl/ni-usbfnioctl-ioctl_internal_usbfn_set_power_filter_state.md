@@ -7,7 +7,7 @@ old-location: buses\ioctl_internal_usbfn_set_power_filter_state.htm
 old-project: usbref
 ms.assetid: 2C010516-500A-4CA2-B6FE-20333E7CCC39
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_INTERNAL_USBFN_SET_POWER_FILTER_STATE, IOCTL_INTERNAL_USBFN_SET_POWER_FILTER_STATE control code [Buses], buses.ioctl_internal_usbfn_set_power_filter_state, usbfnioctl/IOCTL_INTERNAL_USBFN_SET_POWER_FILTER_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	usbfnioctl.h
 api_name:
 -	IOCTL_INTERNAL_USBFN_SET_POWER_FILTER_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USBFN_USB_STRING, *PUSBFN_USB_STRING
 req.product: Windows 10 or later.
@@ -62,12 +63,12 @@ Do not use.
 
 ### -input-buffer
 
-The input buffer contains a <a href="..\usbfnioctl\ns-usbfnioctl-_usbfn_power_filter_state.md">USBFN_POWER_FILTER_STATE</a> structure that specifies the device state.
+The input buffer contains a <a href="https://msdn.microsoft.com/library/windows/hardware/mt188005">USBFN_POWER_FILTER_STATE</a> structure that specifies the device state.
 
 
 ### -input-buffer-length
 
-The size of a <a href="..\usbfnioctl\ns-usbfnioctl-_usbfn_power_filter_state.md">USBFN_POWER_FILTER_STATE</a> structure.
+The size of a <a href="https://msdn.microsoft.com/library/windows/hardware/mt188005">USBFN_POWER_FILTER_STATE</a> structure.
 
 
 ### -output-buffer

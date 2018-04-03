@@ -7,7 +7,7 @@ old-location: ifsk\rxdestroymidatlas.htm
 old-project: ifsk
 ms.assetid: 9d5c08c8-8306-46e3-b10b-eeefe473d340
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: RxDestroyMidAtlas, RxDestroyMidAtlas function [Installable File System Drivers], ifsk.rxdestroymidatlas, midatlax/RxDestroyMidAtlas, rxref_3a954108-5744-4b47-87b7-7553d64ec038.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	midatlax.h
 api_name:
 -	RxDestroyMidAtlas
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MCD_INIT_DATA, *PMCD_INIT_DATA
 ---
@@ -50,17 +51,6 @@ req.typenames: MCD_INIT_DATA, *PMCD_INIT_DATA
 
 
 <b>RxDestroyMidAtlas</b> destroys an existing instance of a MID_ATLAS data structure and frees the allocated memory. 
-
-
-## -syntax
-
-
-````
-VOID RxDestroyMidAtlas(
-   PRX_MID_ATLAS       pMidAtlas,
-   PCONTEXT_DESTRUCTOR pContextDestructor
-);
-````
 
 
 ## -parameters
@@ -112,28 +102,27 @@ RDBSS defines a Multiplex ID (MID), a 16-bit value, that can be used by both the
 
 ## -see-also
 
-<a href="..\midatlax\nf-midatlax-rxmapmidtocontext.md">RxMapMidToContext</a>
 
 
 
-<a href="..\midatlax\nf-midatlax-rxreassociatemid.md">RxReassociateMid</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553388">RxAssociateContextWithMid</a>
 
 
 
-<a href="..\midatlax\nf-midatlax-rxmapanddissociatemidfromcontext.md">RxMapAndDissociateMidFromContext</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554352">RxCreateMidAtlas</a>
 
 
 
-<a href="..\midatlax\nf-midatlax-rxcreatemidatlas.md">RxCreateMidAtlas</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554541">RxMapAndDissociateMidFromContext</a>
 
 
 
-<a href="..\midatlax\nf-midatlax-rxassociatecontextwithmid.md">RxAssociateContextWithMid</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554545">RxMapMidToContext</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554686">RxReassociateMid</a>
  
 
  
-
 

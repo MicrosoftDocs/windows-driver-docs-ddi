@@ -7,7 +7,7 @@ old-location: buses\usbfn_get_attach_action.htm
 old-project: usbref
 ms.assetid: D951D5A0-3A93-4B67-B25A-31EE61C0A065
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: PFN_USBFN_GET_ATTACH_ACTION, PFN_USBFN_GET_ATTACH_ACTION callback function pointer [Buses], USBFN_GET_ATTACH_ACTION, UsbFnGetAttachAction, UsbFnGetAttachAction callback function [Buses], buses.usbfn_get_attach_action, usbfnattach/UsbFnGetAttachAction
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	usbfnattach.h
 api_name:
 -	PFN_USBFN_GET_ATTACH_ACTION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USBD_INTERFACE_LIST_ENTRY, *PUSBD_INTERFACE_LIST_ENTRY
 req.product: Windows 10 or later.
@@ -53,22 +54,6 @@ req.product: Windows 10 or later.
 The filter driver's implementation that gets invoked when charger is attached to the port.
 
 
-## -prototype
-
-
-````
-USBFN_GET_ATTACH_ACTION UsbFnGetAttachAction;
-
-NTSTATUS UsbFnGetAttachAction(
-  _In_  PVOID            Context,
-  _Out_ PUSBFN_ON_ATTACH OnAttach
-)
-{ ... }
-
-typedef USBFN_GET_ATTACH_ACTION PFN_USBFN_GET_ATTACH_ACTION;
-````
-
-
 ## -parameters
 
 
@@ -81,7 +66,7 @@ typedef USBFN_GET_ATTACH_ACTION PFN_USBFN_GET_ATTACH_ACTION;
 
 ### -param OnAttach [out]
 
-A pointer to a caller-allocated <a href="..\usbfnattach\ns-usbfnattach-_usbfn_on_attach.md">USBFN_ON_ATTACH</a> structure that the driver populates with the type of attach and port. 
+A pointer to a caller-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/mt188002">USBFN_ON_ATTACH</a> structure that the driver populates with the type of attach and port. 
 
 
 ## -returns
@@ -167,12 +152,11 @@ UsbLowerFilter_GetAttachAction(
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/05D2B46A-282C-4B75-9F5C-2FC0AF344AB9">USB filter driver for supporting proprietary chargers</a>
-
-
-
  
 
  
-
 

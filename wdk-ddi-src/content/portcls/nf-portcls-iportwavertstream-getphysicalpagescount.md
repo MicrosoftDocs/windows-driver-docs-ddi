@@ -7,7 +7,7 @@ old-location: audio\iportwavertstream_getphysicalpagescount.htm
 old-project: audio
 ms.assetid: 8126af29-a7ee-4ab7-8902-45b4baf33b9e
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/19/2018
 ms.keywords: GetPhysicalPagesCount method [Audio Devices], GetPhysicalPagesCount method [Audio Devices], IPortWaveRTStream interface, GetPhysicalPagesCount,IPortWaveRTStream.GetPhysicalPagesCount, IPortWaveRTStream, IPortWaveRTStream interface [Audio Devices], GetPhysicalPagesCount method, IPortWaveRTStream::GetPhysicalPagesCount, audio.iportwavertstream_getphysicalpagescount, audmp-routines_bdc74102-0337-436b-b3ac-68187fb323a4.xml, portcls/IPortWaveRTStream::GetPhysicalPagesCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Portcls.h
 api_name:
 -	IPortWaveRTStream.GetPhysicalPagesCount
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
@@ -49,17 +50,7 @@ req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ## -description
 
 
-The <code>GetPhysicalPagesCount</code> method returns the count of the physical pages in a memory descriptor list (<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>).
-
-
-## -syntax
-
-
-````
-ULONG GetPhysicalPagesCount(
-  [in] PMDL MemoryDescriptorList
-);
-````
+The <code>GetPhysicalPagesCount</code> method returns the count of the physical pages in a memory descriptor list (<a href="https://msdn.microsoft.com/library/windows/hardware/ff554414">MDL</a>).
 
 
 ## -parameters
@@ -92,11 +83,10 @@ The miniport driver uses this call to determine the number of physical pages tha
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iportwavertstream.md">IPortWaveRTStream</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536925">IPortWaveRTStream::AllocatePagesForMdl</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536922">IPortWaveRTStream</a>
 
 
 
@@ -104,12 +94,12 @@ The miniport driver uses this call to determine the number of physical pages tha
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536925">IPortWaveRTStream::AllocatePagesForMdl</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536928">IPortWaveRTStream::GetPhysicalPageAddress</a>
-
-
-
  
 
  
-
 

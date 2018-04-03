@@ -7,7 +7,7 @@ old-location: display\d3d12ddi_feature_0020.htm
 old-project: display
 ms.assetid: 93192DAD-D81E-4A2E-A74B-66F7F5BA0B2D
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3D12DDI_FEATURE_0020, D3D12DDI_FEATURE_0020 enumeration [Display Devices], D3D12DDI_FEATURE_0020_VIDEO, d3d12umddi/D3D12DDI_FEATURE_0020, d3d12umddi/D3D12DDI_FEATURE_0020_VIDEO, display.d3d12ddi_feature_0020
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3d12umddi.h
 api_name:
 -	D3D12DDI_FEATURE_0020
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D12DDI_FEATURE_0020
 ---
@@ -50,22 +51,6 @@ req.typenames: D3D12DDI_FEATURE_0020
 
 
 Direct3D 12 feature options that are supported by the current graphics driver.
-
-
-## -syntax
-
-
-````
-typedef enum D3D12DDI_FEATURE_0020
-{
-    D3D12DDI_FEATURE_0020_VIDEO = 2,
-    D3D12DDI_FEATURE_0020_PASS_EXPERIMENT = 3,
-    D3D12DDI_FEATURE_0021_SHADERCACHING = 4,
-    D3D12DDI_FEATURE_0030_CONTENT_PROTECTION_RESOURCES = 5,
-    D3D12DDI_FEATURE_0030_CONTENT_PROTECTION_STREAMING = 6,
-    D3D12DDI_FEATURE_0033_METACOMMAND = 9,
-} D3D12DDI_FEATURE_0020;
-````
 
 
 ## -enum-fields

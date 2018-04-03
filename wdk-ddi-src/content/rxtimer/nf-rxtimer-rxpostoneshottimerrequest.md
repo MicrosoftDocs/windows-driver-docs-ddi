@@ -7,7 +7,7 @@ old-location: ifsk\rxpostoneshottimerrequest.htm
 old-project: ifsk
 ms.assetid: d3ae6401-6d1b-428f-ae74-e262682bcb10
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: RxPostOneShotTimerRequest, RxPostOneShotTimerRequest routine [Installable File System Drivers], ifsk.rxpostoneshottimerrequest, rxref_9fb32d67-ac0a-4f85-b999-5f5beaf6b26f.xml, rxtimer/RxPostOneShotTimerRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	rxtimer.h
 api_name:
 -	RxPostOneShotTimerRequest
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RX_CONTEXT, *PRX_CONTEXT
 req.product: Windows 10 or later.
@@ -51,20 +52,6 @@ req.product: Windows 10 or later.
 
 
 <b>RxPostOneShotTimerRequest</b> initializes a one-shot timer entry. The passed-in pointer to a worker thread routine is called once when the timer expires. 
-
-
-## -syntax
-
-
-````
-NTSTATUS RxPostOneShotTimerRequest(
-  _In_ PRDBSS_DEVICE_OBJECT     pDeviceObject,
-  _In_ PRX_WORK_ITEM            pWorkItem,
-  _In_ PRX_WORKERTHREAD_ROUTINE Routine,
-  _In_ PVOID                    pContext,
-  _In_ LARGE_INTEGER            TimeInterval
-);
-````
 
 
 ## -parameters
@@ -111,16 +98,15 @@ If a <b>NULL</b> pointer is passed as the <i>pWorkItem</i> parameter, this routi
 
 ## -see-also
 
-<a href="..\rxtimer\nf-rxtimer-rxcanceltimerrequest.md">RxCancelTimerRequest</a>
 
 
 
-<a href="..\rxtimer\nf-rxtimer-rxpostrecurrenttimerrequest.md">RxPostRecurrentTimerRequest</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553395">RxCancelTimerRequest</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554615">RxPostRecurrentTimerRequest</a>
  
 
  
-
 

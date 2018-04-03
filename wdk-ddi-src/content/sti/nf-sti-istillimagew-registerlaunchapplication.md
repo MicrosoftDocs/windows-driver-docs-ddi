@@ -38,7 +38,8 @@ api_location:
 -	sti.h
 api_name:
 -	IStillImageW.RegisterLaunchApplication
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STI_DEVICE_MJ_TYPE, STI_DEVICE_MJ_TYPE
 req.product: Windows 10 or later.
@@ -51,17 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>IStillImage::RegisterLaunchApplication</b> method adds an application to the still image event monitor's list of push-model aware applications.
-
-
-## -syntax
-
-
-````
-HRESULT RegisterLaunchApplication(
-  [in] LPWSTR pwszAppName,
-  [in] LPWSTR pwszCommandLine
-);
-````
 
 
 ## -parameters

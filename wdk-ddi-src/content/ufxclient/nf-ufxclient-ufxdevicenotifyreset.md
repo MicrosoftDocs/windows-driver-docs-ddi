@@ -7,7 +7,7 @@ old-location: buses\ufxdevicenotifyreset.htm
 old-project: usbref
 ms.assetid: FD88E645-7CBB-4998-BEBA-5BBE2FF167FC
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: UfxDeviceNotifyReset, UfxDeviceNotifyReset method [Buses], buses.ufxdevicenotifyreset, ufxclient/UfxDeviceNotifyReset
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ufxclient.h
 api_name:
 -	UfxDeviceNotifyReset
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UFX_HARDWARE_FAILURE_CONTEXT, *PUFX_HARDWARE_FAILURE_CONTEXT
 req.product: Windows 10 or later.
@@ -53,17 +54,6 @@ req.product: Windows 10 or later.
 Notifies UFX about a USB bus reset event.
 
 
-## -syntax
-
-
-````
-VOID UfxDeviceNotifyReset(
-  [in] UFXDEVICE        UfxDevice,
-  [in] USB_DEVICE_SPEED DeviceSpeed
-);
-````
-
-
 ## -parameters
 
 
@@ -71,12 +61,12 @@ VOID UfxDeviceNotifyReset(
 
 ### -param UfxDevice [in]
 
-A handle to a UFX device object that the driver created by calling <a href="..\ufxclient\nf-ufxclient-ufxdevicecreate.md">UfxDeviceCreate</a>.
+A handle to a UFX device object that the driver created by calling <a href="https://msdn.microsoft.com/library/windows/hardware/mt187951">UfxDeviceCreate</a>.
 
 
 ### -param DeviceSpeed [in]
 
-Contains a value of type <a href="..\usbspec\ne-usbspec-_usb_device_speed.md">USB_DEVICE_SPEED</a> that indicates the speed of the device.
+Contains a value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff539294">USB_DEVICE_SPEED</a> that indicates the speed of the device.
 
 
 ## -returns
@@ -94,7 +84,7 @@ This method does not return a value.
 
 The client driver calls <b>UfxDeviceNotifyReset</b> when it receives a bus reset event. All non-default endpoints should be disabled and the default endpoint should be reset.  The device moves to the default state.
 
-The client driver typically calls <b>UfxDeviceNotifyReset</b> from its <a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_dpc.md">EvtInterruptDpc</a> callback function.  The following example shows how to handle a reset event.
+The client driver typically calls <b>UfxDeviceNotifyReset</b> from its <a href="https://msdn.microsoft.com/d2d505e0-aeac-4871-8c60-d026b2833043">EvtInterruptDpc</a> callback function.  The following example shows how to handle a reset event.
 
 <div class="code"><span codelanguage=""><table>
 <tr>

@@ -7,7 +7,7 @@ old-location: kernel\write_port_ushort.htm
 old-project: kernel
 ms.assetid: 60145cf3-62cb-4165-8536-f1546b9623dd
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: WRITE_PORT_USHORT, WRITE_PORT_USHORT routine [Kernel-Mode Driver Architecture], k103_28fd826b-359f-4111-91d0-426fb2d2a62b.xml, kernel.write_port_ushort, wdm/WRITE_PORT_USHORT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,9 +39,10 @@ api_location:
 -	Hal.dll
 api_name:
 -	WRITE_PORT_USHORT
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: LUID
+req.typenames: IDD_DRIVER_GLOBALS, *PIDD_DRIVER_GLOBALS, IDD_DRIVER_GLOBALS, *PIDD_DRIVER_GLOBALS
 ---
 
 # WRITE_PORT_USHORT function
@@ -51,17 +52,6 @@ req.typenames: LUID
 
 
 The <b>WRITE_PORT_USHORT</b> routine writes a USHORT value to the specified port address.
-
-
-## -syntax
-
-
-````
- VOID WRITE_PORT_USHORT(
-  _In_ PUSHORT Port,
-  _In_ USHORT  Value
-);
-````
 
 
 ## -parameters

@@ -38,7 +38,8 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFDevice2.GetSystemPowerAction
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
@@ -55,14 +56,6 @@ req.product: Windows 10 or later.
 The <b>GetSystemPowerAction</b> method returns the <a href="https://msdn.microsoft.com/e8ab99d4-c18d-4ba8-bfe8-8eebb881c384">system power action</a>, if any, that is currently occurring for the computer. 
 
 
-## -syntax
-
-
-````
-POWER_ACTION GetSystemPowerAction();
-````
-
-
 ## -parameters
 
 
@@ -74,7 +67,7 @@ POWER_ACTION GetSystemPowerAction();
 
 
 
-<b>GetSystemPowerAction</b> returns a <a href="..\wudfddi\ne-wudfddi-__midl___midl_itf_wudfddi_0000_0000_0001.md">POWER_ACTION</a>-typed enumerator value. The value indicates the <a href="https://msdn.microsoft.com/e8ab99d4-c18d-4ba8-bfe8-8eebb881c384">system power action</a> that is currently occurring for the computer. For more information, see the following Remarks section. 
+<b>GetSystemPowerAction</b> returns a <a href="https://msdn.microsoft.com/library/windows/hardware/ff560459">POWER_ACTION</a>-typed enumerator value. The value indicates the <a href="https://msdn.microsoft.com/e8ab99d4-c18d-4ba8-bfe8-8eebb881c384">system power action</a> that is currently occurring for the computer. For more information, see the following Remarks section. 
 
 
 
@@ -116,7 +109,7 @@ For more information about low-power states, see <a href="https://docs.microsoft
 
 #### Examples
 
-The following code example obtains the <a href="..\wudfddi\nn-wudfddi-iwdfdevice2.md">IWDFDevice2</a> interface and then calls <b>GetSystemPowerAction</b>.
+The following code example obtains the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556918">IWDFDevice2</a> interface and then calls <b>GetSystemPowerAction</b>.
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -140,12 +133,11 @@ The following code example obtains the <a href="..\wudfddi\nn-wudfddi-iwdfdevice
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice2.md">IWDFDevice2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556918">IWDFDevice2</a>
  
 
  
-
 

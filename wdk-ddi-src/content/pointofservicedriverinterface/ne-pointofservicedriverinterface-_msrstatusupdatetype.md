@@ -38,7 +38,8 @@ api_location:
 -	pointofservicedriverinterface.h
 api_name:
 -	MsrStatusUpdateType
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MsrStatusUpdateType
 ---
@@ -52,22 +53,6 @@ req.typenames: MsrStatusUpdateType
 This enumeration defines the constants that indicate the magnetic stripe reader (MSR) status.
 
 
-## -syntax
-
-
-````
-typedef enum _MsrStatusUpdateType { 
-  MsrStatusUpdateType_Online           = 0,
-  MsrStatusUpdateType_Off,
-  MsrStatusUpdateType_Offline,
-  MsrStatusUpdateType_OffOrOffline,
-  MsrStatusUpdateType_Unauthenticated,
-  MsrStatusUpdateType_Authenticated,
-  MsrStatusUpdateType_Extended
-} MsrStatusUpdateType;
-````
-
-
 ## -enum-fields
 
 
@@ -75,22 +60,22 @@ typedef enum _MsrStatusUpdateType {
 
 ### -field MsrStatusUpdateType_Online
 
-The device is powered on. This is valid if <a href="..\pointofservicecommontypes\ne-pointofservicecommontypes-driverunifiedpospowerreportingtype.md">UnifiedPosPowerReportingType</a> is <b>Standard</b> or <b>Advanced</b>.
+The device is powered on. This is valid if <a href="https://msdn.microsoft.com/e0263969-1c6a-4805-a647-d4b9df83ef71">UnifiedPosPowerReportingType</a> is <b>Standard</b> or <b>Advanced</b>.
 
 
 ### -field MsrStatusUpdateType_Off
 
-The device is powered off or is detached from the terminal. This is valid if <a href="..\pointofservicecommontypes\ne-pointofservicecommontypes-driverunifiedpospowerreportingtype.md">UnifiedPosPowerReportingType</a> is <b>Advanced</b>.
+The device is powered off or is detached from the terminal. This is valid if <a href="https://msdn.microsoft.com/e0263969-1c6a-4805-a647-d4b9df83ef71">UnifiedPosPowerReportingType</a> is <b>Advanced</b>.
 
 
 ### -field MsrStatusUpdateType_Offline
 
-The device is powered on but is not ready, or is unable, to respond to requests. This is valid if <a href="..\pointofservicecommontypes\ne-pointofservicecommontypes-driverunifiedpospowerreportingtype.md">UnifiedPosPowerReportingType</a> is <b>Advanced</b>.
+The device is powered on but is not ready, or is unable, to respond to requests. This is valid if <a href="https://msdn.microsoft.com/e0263969-1c6a-4805-a647-d4b9df83ef71">UnifiedPosPowerReportingType</a> is <b>Advanced</b>.
 
 
 ### -field MsrStatusUpdateType_OffOrOffline
 
-The device is either off or offline. This is valid if <a href="..\pointofservicecommontypes\ne-pointofservicecommontypes-driverunifiedpospowerreportingtype.md">UnifiedPosPowerReportingType</a> is <b>Standard</b>.
+The device is either off or offline. This is valid if <a href="https://msdn.microsoft.com/e0263969-1c6a-4805-a647-d4b9df83ef71">UnifiedPosPowerReportingType</a> is <b>Standard</b>.
 
 
 ### -field MsrStatusUpdateType_Unauthenticated

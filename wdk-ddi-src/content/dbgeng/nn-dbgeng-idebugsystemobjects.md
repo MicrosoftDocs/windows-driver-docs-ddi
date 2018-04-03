@@ -7,7 +7,7 @@ old-location: debugger\idebugsystemobjects.htm
 old-project: debugger
 ms.assetid: ed830f09-10c0-4614-b002-8ede0e5e30bb
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: IDebugSystemObjects, IDebugSystemObjects interface [Windows Debugging], IDebugSystemObjects interface [Windows Debugging], described, IDebugSystemObjects_82c2f1f3-4eb4-4071-ba0b-d2e4d2929ce2.xml, dbgeng/IDebugSystemObjects, debugger.idebugsystemobjects
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugSystemObjects
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -86,7 +87,7 @@ Returns the name of executable file loaded in the current process.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="..\wdbgexts\nf-wdbgexts-getcurrentprocesshandle.md">GetCurrentProcessHandle</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545816">GetCurrentProcessHandle</a>
 </td>
 <td align="left" width="63%">
 Returns the system handle for the current process.
@@ -332,20 +333,19 @@ Makes the specified thread the current thread.
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsystemobjects2.md">IDebugSystemObjects2</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsystemobjects4.md">IDebugSystemObjects4</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550885">IDebugSystemObjects2</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsystemobjects3.md">IDebugSystemObjects3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550892">IDebugSystemObjects3</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550893">IDebugSystemObjects4</a>
  
 
  
-
 

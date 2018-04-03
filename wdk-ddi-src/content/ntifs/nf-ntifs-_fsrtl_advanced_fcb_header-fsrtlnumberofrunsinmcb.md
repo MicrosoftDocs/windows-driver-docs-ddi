@@ -7,7 +7,7 @@ old-location: ifsk\fsrtlnumberofrunsinmcb.htm
 old-project: ifsk
 ms.assetid: cb519cb5-5209-4ca6-92bc-860c53d3ca6c
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FsRtlNumberOfRunsInMcb, FsRtlNumberOfRunsInMcb function [Installable File System Drivers], fsrtlref_2f405315-e2d0-45f0-95de-61b397b20f11.xml, ifsk.fsrtlnumberofrunsinmcb, ntifs/FsRtlNumberOfRunsInMcb
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntifs.h
 api_name:
 -	FsRtlNumberOfRunsInMcb
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -49,17 +50,7 @@ req.typenames: TOKEN_TYPE
 ## -description
 
 
-The <b>FsRtlNumberOfRunsInMcb</b> routine is obsolete, but is exported to support existing driver binaries. Use <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnumberofrunsinlargemcb.md">FsRtlNumberOfRunsInLargeMcb</a> instead.
-
-
-## -syntax
-
-
-````
-  FsRtlNumberOfRunsInMcb(
-    
-);
-````
+The <b>FsRtlNumberOfRunsInMcb</b> routine is obsolete, but is exported to support existing driver binaries. Use <a href="https://msdn.microsoft.com/library/windows/hardware/ff547078">FsRtlNumberOfRunsInLargeMcb</a> instead.
 
 
 ## -parameters

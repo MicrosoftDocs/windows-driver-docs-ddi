@@ -7,7 +7,7 @@ old-location: display\evt_idd_cx_adapter_init_finished.htm
 old-project: display
 ms.assetid: cbce9e1b-2f84-4653-8d3d-e5243a1f0eee
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: EVT_IDD_CX_ADAPTER_INIT_FINISHED, EvtIddCxAdapterInitFinished, EvtIddCxAdapterInitFinished callback function [Display Devices], PFN_IDD_CX_ADAPTER_INIT_FINISHED, PFN_IDD_CX_ADAPTER_INIT_FINISHED callback function pointer [Display Devices], display.evt_idd_cx_adapter_init_finished, iddcx/EvtIddCxAdapterInitFinished
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	iddcx.h
 api_name:
 -	PFN_IDD_CX_ADAPTER_INIT_FINISHED
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WCS_PROFILE_MANAGEMENT_SCOPE
 ---
@@ -50,22 +51,6 @@ req.typenames: WCS_PROFILE_MANAGEMENT_SCOPE
 
 
 <b>EVT_IDD_CX_ADAPTER_INIT_FINISHED</b> is called by the OS to inform the driver that the adapter initialization has completed.
-
-
-## -prototype
-
-
-````
-EVT_IDD_CX_ADAPTER_INIT_FINISHED EvtIddCxAdapterInitFinished;
-
-NTSTATUS EvtIddCxAdapterInitFinished(
-  _In_       IDDCX_ADAPTER AdapterObject,
-  _In_ const               pInArgs
-)
-{ ... }
-
-typedef EVT_IDD_CX_ADAPTER_INIT_FINISHED PFN_IDD_CX_ADAPTER_INIT_FINISHED;
-````
 
 
 ## -parameters

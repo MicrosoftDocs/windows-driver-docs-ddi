@@ -38,7 +38,8 @@ api_location:
 -	Winsplp.h
 api_name:
 -	CreatePrinterIC
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NOTIFICATION_CONFIG_FLAGS
 req.product: Windows 10 or later.
@@ -51,17 +52,6 @@ req.product: Windows 10 or later.
 
 
 
-
-
-## -syntax
-
-
-````
-HANDLE WINAPI CreatePrinterIC(
-  _In_     HANDLE     hPrinter,
-  _In_opt_ LPDEVMODEW pDevMode
-);
-````
 
 
 ## -parameters

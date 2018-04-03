@@ -7,7 +7,7 @@ old-location: display\dxgk_querydisplayidout.htm
 old-project: display
 ms.assetid: BF528089-0194-4A3F-B8BA-85F80974C4C2
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGK_QUERYDISPLAYIDOUT, DXGK_QUERYDISPLAYIDOUT structure [Display Devices], _DXGK_QUERYDISPLAYIDOUT, d3dkmddi/DXGK_QUERYDISPLAYIDOUT, display.dxgk_querydisplayidout
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGK_QUERYDISPLAYIDOUT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_QUERYDISPLAYIDOUT
 ---
@@ -50,17 +51,6 @@ req.typenames: DXGK_QUERYDISPLAYIDOUT
 
 
 Used to query a display ID.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGK_QUERYDISPLAYIDOUT {
-  UINT Length;
-  BYTE *pDescriptor;
-} DXGK_QUERYDISPLAYIDOUT;
-````
 
 
 ## -struct-fields

@@ -38,7 +38,8 @@ api_location:
 -	Winsplp.h
 api_name:
 -	UI_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UI_TYPE
 req.product: Windows 10 or later.
@@ -51,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  kMessageBox  = 0
-} UI_TYPE;
-````
 
 
 ## -enum-fields

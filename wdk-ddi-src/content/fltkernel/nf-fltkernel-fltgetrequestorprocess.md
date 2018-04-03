@@ -7,7 +7,7 @@ old-location: ifsk\fltgetrequestorprocess.htm
 old-project: ifsk
 ms.assetid: be734d14-64ee-47f0-8df9-4c4b8830448d
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FltApiRef_e_to_o_9705ecf7-4e60-4b9a-b07e-4e24227aff1d.xml, FltGetRequestorProcess, FltGetRequestorProcess routine [Installable File System Drivers], fltkernel/FltGetRequestorProcess, ifsk.fltgetrequestorprocess
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	fltmgr.sys
 api_name:
 -	FltGetRequestorProcess
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
@@ -52,16 +53,6 @@ req.typenames: EXpsFontRestriction
 The <b>FltGetRequestorProcess</b> routine returns a process pointer for the thread that requested a given I/O operation. 
 
 
-## -syntax
-
-
-````
-PEPROCESS FltGetRequestorProcess(
-  _In_ PFLT_CALLBACK_DATA CallbackData
-);
-````
-
-
 ## -parameters
 
 
@@ -69,7 +60,7 @@ PEPROCESS FltGetRequestorProcess(
 
 ### -param CallbackData [in]
 
-Pointer to the callback data structure (<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>) for the I/O operation. 
+Pointer to the callback data structure (<a href="https://msdn.microsoft.com/library/windows/hardware/ff544620">FLT_CALLBACK_DATA</a>) for the I/O operation. 
 
 
 ## -returns
@@ -92,16 +83,15 @@ Pointer to the callback data structure (<a href="..\fltkernel\ns-fltkernel-_flt_
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltgetrequestorprocessid.md">FltGetRequestorProcessId</a>
 
 
 
-<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544620">FLT_CALLBACK_DATA</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543118">FltGetRequestorProcessId</a>
  
 
  
-
 

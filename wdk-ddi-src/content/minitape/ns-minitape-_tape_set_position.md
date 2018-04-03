@@ -7,7 +7,7 @@ old-location: storage\tape_set_position.htm
 old-project: storage
 ms.assetid: c9f462b2-4b56-4138-a374-9e9d3e1ae295
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PTAPE_SET_POSITION, PTAPE_SET_POSITION, PTAPE_SET_POSITION structure pointer [Storage Devices], TAPE_SET_POSITION, TAPE_SET_POSITION structure [Storage Devices], _TAPE_SET_POSITION, ntddtape/PTAPE_SET_POSITION, ntddtape/TAPE_SET_POSITION, storage.tape_set_position, structs-tape_412b4b85-a0b5-4372-a32c-fa7ac5a6f33a.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddtape.h
 api_name:
 -	TAPE_SET_POSITION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TAPE_SET_POSITION, *PTAPE_SET_POSITION
 ---
@@ -49,20 +50,7 @@ req.typenames: TAPE_SET_POSITION, *PTAPE_SET_POSITION
 ## -description
 
 
-The TAPE_SET_POSITION structure is used in conjunction with the <a href="..\ntddtape\ni-ntddtape-ioctl_tape_set_position.md">IOCTL_TAPE_SET_POSITION</a> request to move the current position on the tape to the specified partition and offset.
-
-
-## -syntax
-
-
-````
-typedef struct _TAPE_SET_POSITION {
-  ULONG         Method;
-  ULONG         Partition;
-  LARGE_INTEGER Offset;
-  BOOLEAN       Immediate;
-} TAPE_SET_POSITION, *PTAPE_SET_POSITION;
-````
+The TAPE_SET_POSITION structure is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560637">IOCTL_TAPE_SET_POSITION</a> request to move the current position on the tape to the specified partition and offset.
 
 
 ## -struct-fields
@@ -177,16 +165,15 @@ When the offset specifies a number of blocks, filemarks, or setmarks to position
 
 ## -see-also
 
-<a href="..\ntddtape\ni-ntddtape-ioctl_tape_set_position.md">IOCTL_TAPE_SET_POSITION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560637">IOCTL_TAPE_SET_POSITION</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567954">TapeMiniSetPosition</a>
-
-
-
  
 
  
-
 

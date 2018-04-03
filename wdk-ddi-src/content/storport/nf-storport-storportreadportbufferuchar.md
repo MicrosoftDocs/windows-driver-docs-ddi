@@ -7,7 +7,7 @@ old-location: storage\storportreadportbufferuchar.htm
 old-project: storage
 ms.assetid: 8602efbf-8e90-43d3-992f-4d2ecbcc7043
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: StorPortReadPortBufferUchar, StorPortReadPortBufferUchar routine [Storage Devices], storage.storportreadportbufferuchar, storport/StorPortReadPortBufferUchar, storprt_e7304977-c32a-44c2-88ea-a08767ea5399.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Storport.dll
 api_name:
 -	StorPortReadPortBufferUchar
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STOR_SPINLOCK
 req.product: Windows 10 or later.
@@ -52,19 +53,6 @@ req.product: Windows 10 or later.
 
 
 The <b>StorPortReadPortBufferUchar</b> routine reads a value from a specified port address 
-
-
-## -syntax
-
-
-````
-STORPORT_API VOID StorPortReadPortBufferUchar(
-  _In_ PVOID  HwDeviceExtension,
-  _In_ PUCHAR Port,
-  _In_ PUCHAR Buffer,
-  _In_ ULONG  Count
-);
-````
 
 
 ## -parameters
@@ -120,23 +108,22 @@ Pointer to the address from which to read.
 
 
 
-For more information, see the <a href="..\storport\nf-storport-scsiportreadportbufferuchar.md">ScsiPortReadPortBufferUchar</a> routine. For a nonbuffered version of this routine, see <a href="..\storport\nf-storport-storportreadportuchar.md">StorPortReadPortUchar</a>. 
+For more information, see the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564715">ScsiPortReadPortBufferUchar</a> routine. For a nonbuffered version of this routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff567474">StorPortReadPortUchar</a>. 
 
 
 
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportreadportuchar.md">StorPortReadPortUchar</a>
 
 
 
-<a href="..\storport\nf-storport-scsiportreadportbufferuchar.md">ScsiPortReadPortBufferUchar</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564715">ScsiPortReadPortBufferUchar</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567474">StorPortReadPortUchar</a>
  
 
  
-
 

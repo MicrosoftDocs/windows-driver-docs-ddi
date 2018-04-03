@@ -7,7 +7,7 @@ old-location: dtf\iwdtfsimpleioex2_open.htm
 old-project: dtf
 ms.assetid: 991a60a0-8d82-4f41-8cfe-bf633338bdda
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/29/2018
 ms.keywords: IWDTFSimpleIOEx2, IWDTFSimpleIOEx2 interface [Windows Device Testing Framework], Open method, IWDTFSimpleIOEx2::Open, Microsoft.WDTF.IWDTFSimpleIOEx2.Open, Microsoft::WDTF::IWDTFSimpleIOEx2::Open, Open method [Windows Device Testing Framework], Open method [Windows Device Testing Framework], IWDTFSimpleIOEx2 interface, Open,IWDTFSimpleIOEx2.Open, dtf.iwdtfsimpleioex2_open, wdtfinterfaces/IWDTFSimpleIOEx2::Open
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	WDTFInterfaces.Interop.dll
 api_name:
 -	IWDTFSimpleIOEx2.Open
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TTraceLevel
 req.product: Windows 10 or later.
@@ -51,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 Opens the device.
-
-
-## -syntax
-
-
-````
-HRESULT Open(
-  [out, retval] VARIANT_BOOL *pResult
-);
-````
 
 
 ## -parameters
@@ -94,12 +85,11 @@ the <a href="https://msdn.microsoft.com/795dcbed-e0ce-444d-a6a8-95d0bc658f5b">IW
 
 ## -see-also
 
-<a href="..\wdtfinterfaces\nn-wdtfinterfaces-iwdtfsimpleioex2.md">IWDTFSimpleIOEx2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451149">IWDTFSimpleIOEx2</a>
  
 
  
-
 

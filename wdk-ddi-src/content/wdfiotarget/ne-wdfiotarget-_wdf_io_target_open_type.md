@@ -38,7 +38,8 @@ api_location:
 -	wdfiotarget.h
 api_name:
 -	WDF_IO_TARGET_OPEN_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_IO_TARGET_OPEN_TYPE
 req.product: Windows 10 or later.
@@ -52,21 +53,7 @@ req.product: Windows 10 or later.
 
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
-The <b>WDF_IO_TARGET_OPEN_TYPE</b> enumeration specifies how a driver identifies a remote I/O target when the driver calls <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetopen.md">WdfIoTargetOpen</a>.
-
-
-## -syntax
-
-
-````
-typedef enum _WDF_IO_TARGET_OPEN_TYPE { 
-  WdfIoTargetOpenUndefined          = 0,
-  WdfIoTargetOpenUseExistingDevice  = 1,
-  WdfIoTargetOpenByName             = 2,
-  WdfIoTargetOpenReopen             = 3,
-  WdfIoTargetOpenLocalTargetByFile  = 4
-} WDF_IO_TARGET_OPEN_TYPE;
-````
+The <b>WDF_IO_TARGET_OPEN_TYPE</b> enumeration specifies how a driver identifies a remote I/O target when the driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff548634">WdfIoTargetOpen</a>.
 
 
 ## -enum-fields
@@ -83,7 +70,7 @@ Reserved for system use.
 
 This value is supported by KMDF only.
 
-The driver is identifying a remote I/O target by supplying a pointer to a Windows Driver Model (WDM) <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure.
+The driver is identifying a remote I/O target by supplying a pointer to a Windows Driver Model (WDM) <a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a> structure.
 
 
 ### -field WdfIoTargetOpenByName
@@ -93,25 +80,25 @@ The driver is opening a remote I/O target by supplying a Unicode name string tha
 
 ### -field WdfIoTargetOpenReopen
 
-The driver is reopening a remote I/O target after previously calling <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcloseforqueryremove.md">WdfIoTargetCloseForQueryRemove</a>. For more information, see the following Remarks section.
+The driver is reopening a remote I/O target after previously calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff548589">WdfIoTargetCloseForQueryRemove</a>. For more information, see the following Remarks section.
 
 
 ### -field WdfIoTargetOpenLocalTargetByFile
 
 This value is supported by UMDF only.
 
-<b>UMDF </b>The driver is opening a file handle that represents the lower stack (just like a local target), so that it can send a driver-created request down to the lower stack. A UMDF driver specifies this value when it calls <a href="..\wdfiotarget\nf-wdfiotarget-wdf_io_target_open_params_init_open_by_file.md">WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_FILE</a>.
+<b>UMDF </b>The driver is opening a file handle that represents the lower stack (just like a local target), so that it can send a driver-created request down to the lower stack. A UMDF driver specifies this value when it calls <a href="https://msdn.microsoft.com/library/windows/hardware/dn265641">WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_FILE</a>.
 
 
 ## -remarks
 
 
 
-The <b>WDF_IO_TARGET_OPEN_TYPE</b> enumeration is used in the <b>Type</b> member of the <a href="..\wdfiotarget\ns-wdfiotarget-_wdf_io_target_open_params.md">WDF_IO_TARGET_OPEN_PARAMS</a> structure.
+The <b>WDF_IO_TARGET_OPEN_TYPE</b> enumeration is used in the <b>Type</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552377">WDF_IO_TARGET_OPEN_PARAMS</a> structure.
 
 The driver can specify <b>WdfIoTargetOpenReopen</b> only if it specified <b>WdfIoTargetOpenByName</b> when it originally opened the remote I/O target.
 
-If <b>WdfIoTargetOpenReopen</b> is set, the framework ignores all other members of the <a href="..\wdfiotarget\ns-wdfiotarget-_wdf_io_target_open_params.md">WDF_IO_TARGET_OPEN_PARAMS</a> structure and uses the values that the driver specified when it originally called <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetopen.md">WdfIoTargetOpen</a> to open a remote I/O target.
+If <b>WdfIoTargetOpenReopen</b> is set, the framework ignores all other members of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552377">WDF_IO_TARGET_OPEN_PARAMS</a> structure and uses the values that the driver specified when it originally called <a href="https://msdn.microsoft.com/library/windows/hardware/ff548634">WdfIoTargetOpen</a> to open a remote I/O target.
 
 By default (unless the driver specifies <b>UmdfFileObjectPolicy</b>=<b>AllowNullAndUnknownFileObjects</b> in its INF file), UMDF doesn’t allow processing of I/O requests that are not associated with a file object. 
 Also, some driver stacks, such as HIDclass-enumerated collection PDOs, fail requests that have no associated file object.
@@ -125,28 +112,27 @@ In this situation, you can use <b>WdfIoTargetOpenLocalTargetByFile</b> to cause 
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetopen.md">WdfIoTargetOpen</a>
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcloseforqueryremove.md">WdfIoTargetCloseForQueryRemove</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>
 
 
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552377">WDF_IO_TARGET_OPEN_PARAMS</a>
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdf_io_target_open_params_init_open_by_file.md">WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_FILE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265641">WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_FILE</a>
 
 
 
-<a href="..\wdfiotarget\ns-wdfiotarget-_wdf_io_target_open_params.md">WDF_IO_TARGET_OPEN_PARAMS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548589">WdfIoTargetCloseForQueryRemove</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548634">WdfIoTargetOpen</a>
  
 
  
-
 

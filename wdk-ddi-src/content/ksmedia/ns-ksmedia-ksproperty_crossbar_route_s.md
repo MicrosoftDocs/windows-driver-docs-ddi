@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KSPROPERTY_CROSSBAR_ROUTE_S
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSPROPERTY_CROSSBAR_ROUTE_S, *PKSPROPERTY_CROSSBAR_ROUTE_S
 ---
@@ -50,19 +51,6 @@ req.typenames: KSPROPERTY_CROSSBAR_ROUTE_S, *PKSPROPERTY_CROSSBAR_ROUTE_S
 
 
 The KSPROPERTY_CROSSBAR_ROUTE_S structure describes whether a particular routing is possible and specifies the current routing for a pin.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  KSPROPERTY Property;
-  ULONG      IndexInputPin;
-  ULONG      IndexOutputPin;
-  ULONG      CanRoute;
-} KSPROPERTY_CROSSBAR_ROUTE_S, *PKSPROPERTY_CROSSBAR_ROUTE_S;
-````
 
 
 ## -struct-fields
@@ -101,6 +89,9 @@ If the value of <b>IndexInputPin</b> is (-1) on an audio output pin, then the au
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
 
 
@@ -110,11 +101,7 @@ If the value of <b>IndexInputPin</b> is (-1) on an audio output pin, then the au
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567804">PROPSETID_VIDCAP_CROSSBAR</a>
-
-
-
  
 
  
-
 

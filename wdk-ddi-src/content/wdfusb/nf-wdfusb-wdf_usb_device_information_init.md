@@ -38,7 +38,8 @@ api_location:
 -	wdfusb.h
 api_name:
 -	WDF_USB_DEVICE_INFORMATION_INIT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
@@ -52,17 +53,7 @@ req.product: Windows 10 or later.
 
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
-The <b>WDF_USB_DEVICE_INFORMATION_INIT</b> function initializes a driver's <a href="..\wdfusb\ns-wdfusb-_wdf_usb_device_information.md">WDF_USB_DEVICE_INFORMATION</a> structure.
-
-
-## -syntax
-
-
-````
-VOID WDF_USB_DEVICE_INFORMATION_INIT(
-  _Out_ PWDF_USB_DEVICE_INFORMATION Udi
-);
-````
+The <b>WDF_USB_DEVICE_INFORMATION_INIT</b> function initializes a driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552592">WDF_USB_DEVICE_INFORMATION</a> structure.
 
 
 ## -parameters
@@ -72,7 +63,7 @@ VOID WDF_USB_DEVICE_INFORMATION_INIT(
 
 ### -param Udi [out]
 
-A pointer to the driver's <a href="..\wdfusb\ns-wdfusb-_wdf_usb_device_information.md">WDF_USB_DEVICE_INFORMATION</a> structure.
+A pointer to the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552592">WDF_USB_DEVICE_INFORMATION</a> structure.
 
 
 ## -returns
@@ -88,12 +79,12 @@ None
 
 
 
-The <b>WDF_USB_DEVICE_INFORMATION_INIT</b> function zeros the <a href="..\wdfusb\ns-wdfusb-_wdf_usb_device_information.md">WDF_USB_DEVICE_INFORMATION</a> structure and sets its <b>Size</b> member to the size of the structure.
+The <b>WDF_USB_DEVICE_INFORMATION_INIT</b> function zeros the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552592">WDF_USB_DEVICE_INFORMATION</a> structure and sets its <b>Size</b> member to the size of the structure.
 
 
 #### Examples
 
-For a code example that uses<b>WDF_USB_DEVICE_INFORMATION_INIT</b>, see <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdeviceretrieveinformation.md">WdfUsbTargetDeviceRetrieveInformation</a>.
+For a code example that uses<b>WDF_USB_DEVICE_INFORMATION_INIT</b>, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff550100">WdfUsbTargetDeviceRetrieveInformation</a>.
 
 <div class="code"></div>
 
@@ -101,12 +92,11 @@ For a code example that uses<b>WDF_USB_DEVICE_INFORMATION_INIT</b>, see <a href=
 
 ## -see-also
 
-<a href="..\wdfusb\ns-wdfusb-_wdf_usb_device_information.md">WDF_USB_DEVICE_INFORMATION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552592">WDF_USB_DEVICE_INFORMATION</a>
  
 
  
-
 

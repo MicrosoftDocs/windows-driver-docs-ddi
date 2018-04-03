@@ -41,7 +41,8 @@ api_location:
 -	WUDFx02000.dll.dll
 api_name:
 -	WdfUsbInterfaceGetNumEndpoints
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
@@ -58,17 +59,6 @@ req.product: Windows 10 or later.
 The <b>WdfUsbInterfaceGetNumEndpoints</b> method returns the number of endpoints that are associated with a specified alternate setting of a specified USB interface.
 
 
-## -syntax
-
-
-````
-BYTE WdfUsbInterfaceGetNumEndpoints(
-  _In_ WDFUSBINTERFACE UsbInterface,
-  _In_ UCHAR           SettingIndex
-);
-````
-
-
 ## -parameters
 
 
@@ -76,7 +66,7 @@ BYTE WdfUsbInterfaceGetNumEndpoints(
 
 ### -param UsbInterface [in]
 
-A handle to a USB interface object that was obtained by calling <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicegetinterface.md">WdfUsbTargetDeviceGetInterface</a>. 
+A handle to a USB interface object that was obtained by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff550092">WdfUsbTargetDeviceGetInterface</a>. 
 
 
 ### -param SettingIndex [in]
@@ -127,12 +117,11 @@ numEndpoints = WdfUsbInterfaceGetNumEndpoints(
 
 ## -see-also
 
-<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicegetinterface.md">WdfUsbTargetDeviceGetInterface</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550092">WdfUsbTargetDeviceGetInterface</a>
  
 
  
-
 

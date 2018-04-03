@@ -7,7 +7,7 @@ old-location: netvista\binary_data.htm
 old-project: netvista
 ms.assetid: 2d629905-49aa-4b66-83f3-0aecb72b73ea
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: BINARY_DATA, BINARY_DATA structure [Network Drivers Starting with Windows Vista], ndis/BINARY_DATA, ndis_configuration_ref_50fc50e5-52d2-4e25-a03b-6c581e50fef1.xml, netvista.binary_data
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ndis.h
 api_name:
 -	BINARY_DATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BINARY_DATA
 ---
@@ -50,17 +51,6 @@ req.typenames: BINARY_DATA
 
 
 The BINARY_DATA structure contains the binary data of a named entry in the registry.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  USHORT Length;
-  PVOID  Buffer;
-} BINARY_DATA;
-````
 
 
 ## -struct-fields
@@ -85,7 +75,7 @@ Pointer to a buffer containing the binary data.
 
 The BINARY_DATA structure is used in the 
     <b>ParameterData</b> member of the 
-    <a href="..\ndis\ns-ndis-_ndis_configuration_parameter.md">
+    <a href="https://msdn.microsoft.com/80250799-4263-43c0-85d5-f1c1c1fb0bae">
     NDIS_CONFIGURATION_PARAMETER</a> structure.
 
 
@@ -93,12 +83,11 @@ The BINARY_DATA structure is used in the
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_configuration_parameter.md">NDIS_CONFIGURATION_PARAMETER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564868">NDIS_CONFIGURATION_PARAMETER</a>
  
 
  
-
 

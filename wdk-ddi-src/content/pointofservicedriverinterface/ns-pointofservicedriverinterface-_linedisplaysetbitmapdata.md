@@ -38,7 +38,8 @@ api_location:
 -	pointofservicedriverinterface.h
 api_name:
 -	LineDisplaySetBitmapData
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: LineDisplaySetBitmapData
 ---
@@ -50,16 +51,6 @@ req.typenames: LineDisplaySetBitmapData
 
 
 This structure is not implemented.
-
-
-## -syntax
-
-
-````
-typedef struct _LineDisplaySetBitmapData {
-   ...;
-} LineDisplaySetBitmapData, *PLineDisplaySetBitmapData;
-````
 
 
 ## -struct-fields

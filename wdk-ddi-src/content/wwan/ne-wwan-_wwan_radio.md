@@ -7,7 +7,7 @@ old-location: netvista\wwan_radio.htm
 old-project: netvista
 ms.assetid: f589180c-5379-4f50-876e-48d142b44be4
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PWWAN_RADIO, PWWAN_RADIO, PWWAN_RADIO enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_RADIO, WWAN_RADIO enumeration [Network Drivers Starting with Windows Vista], WwanRadioOff, WwanRadioOn, WwanRef_b864982c-e4b4-4a2e-b45b-ba6e534a1a71.xml, _WWAN_RADIO, netvista.wwan_radio, wwan/PWWAN_RADIO, wwan/WWAN_RADIO, wwan/WwanRadioOff, wwan/WwanRadioOn"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	wwan.h
 api_name:
 -	WWAN_RADIO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WWAN_RADIO, *PWWAN_RADIO
 req.product: Windows 10 or later.
@@ -52,17 +53,6 @@ req.product: Windows 10 or later.
 
 The WWAN_RADIO enumeration lists the different types of radio power modes that are supported by the
   MB device.
-
-
-## -syntax
-
-
-````
-typedef enum _WWAN_RADIO { 
-  WwanRadioOff  = 0,
-  WwanRadioOn
-} WWAN_RADIO, *PWWAN_RADIO;
-````
 
 
 ## -enum-fields
@@ -82,16 +72,15 @@ The radio power is turned on.
 
 ## -see-also
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_set_radio_state.md">NDIS_WWAN_SET_RADIO_STATE</a>
 
 
 
-<a href="..\wwan\ns-wwan-_wwan_radio_state.md">WWAN_RADIO_STATE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567925">NDIS_WWAN_SET_RADIO_STATE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571225">WWAN_RADIO_STATE</a>
  
 
  
-
 

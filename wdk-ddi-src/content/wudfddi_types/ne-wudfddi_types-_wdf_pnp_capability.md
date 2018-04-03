@@ -38,7 +38,8 @@ api_location:
 -	Wudfddi_types.h
 api_name:
 -	WDF_PNP_CAPABILITY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_PNP_CAPABILITY
 req.product: Windows 10 or later.
@@ -53,23 +54,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>WDF_PNP_CAPABILITY</b> enumeration contains values that identify Plug and Play (PnP) capabilities for a device.
-
-
-## -syntax
-
-
-````
-typedef enum _WDF_PNP_CAPABILITY { 
-  WdfPnpCapInvalid            = 0,
-  WdfPnpCapLockSupported      = 1,
-  WdfPnpCapEjectSupported     = 2,
-  WdfPnpCapRemovable          = 3,
-  WdfPnpCapDockDevice         = 4,
-  WdfPnpCapSurpriseRemovalOk  = 5,
-  WdfPnpCapNoDisplayInUI      = 6,
-  WdfPnpCapMaximum            = ( WdfPnpCapNoDisplayInUI + 1 )
-} WDF_PNP_CAPABILITY;
-````
 
 
 ## -enum-fields
@@ -128,16 +112,15 @@ A UMDF driver supplies one of the values of <b>WDF_PNP_CAPABILITY</b> to the <a 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556974">IWDFDeviceInitialize::GetPnpCapability</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556993">IWDFDeviceInitialize::SetPnpCapability</a>
-
-
-
  
 
  
-
 

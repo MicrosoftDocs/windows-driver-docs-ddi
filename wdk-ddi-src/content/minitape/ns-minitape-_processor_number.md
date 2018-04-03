@@ -7,7 +7,7 @@ old-location: kernel\processor_number.htm
 old-project: kernel
 ms.assetid: 6ceb8d0f-8c26-4487-a976-ac92e2aca5e0
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 2/24/2018
 ms.keywords: "*PPROCESSOR_NUMBER, PPROCESSOR_NUMBER, PPROCESSOR_NUMBER structure pointer [Kernel-Mode Driver Architecture], PROCESSOR_NUMBER, PROCESSOR_NUMBER structure [Kernel-Mode Driver Architecture], _PROCESSOR_NUMBER, kernel.processor_number, kstruct_c_d3a9199a-f6d3-4d2d-877a-6e856e80ebb9.xml, miniport/PPROCESSOR_NUMBER, miniport/PROCESSOR_NUMBER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	miniport.h
 api_name:
 -	PROCESSOR_NUMBER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PROCESSOR_NUMBER, *PPROCESSOR_NUMBER
 ---
@@ -103,6 +104,14 @@ Kernel-mode routines that use the <b>PROCESSOR_NUMBER</b> structure include <a h
 
 
 
+<a href="..\wdm\nf-wdm-kegetprocessorindexfromnumber.md">KeGetProcessorIndexFromNumber</a>
+
+
+
+<a href="..\wdm\nf-wdm-kequerylogicalprocessorrelationship.md">KeQueryLogicalProcessorRelationship</a>
+
+
+
 <a href="..\wdm\nf-wdm-kequerymaximumgroupcount.md">KeQueryMaximumGroupCount</a>
 
 
@@ -111,16 +120,9 @@ Kernel-mode routines that use the <b>PROCESSOR_NUMBER</b> structure include <a h
 
 
 
-<a href="..\wdm\nf-wdm-kequerylogicalprocessorrelationship.md">KeQueryLogicalProcessorRelationship</a>
-
-
-
-<a href="..\wdm\nf-wdm-kegetprocessorindexfromnumber.md">KeGetProcessorIndexFromNumber</a>
-
-
-
  
 
  
+
 
 

@@ -7,7 +7,7 @@ old-location: storage\ufs_flags_descriptor.htm
 old-project: storage
 ms.assetid: D530355F-5824-4F7C-84C4-57D3D03A7116
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: UFS_FLAGS_DESCRIPTOR, UFS_FLAGS_DESCRIPTOR enumeration [Storage Devices], UFS_Reserved1, UFS_Reserved2, UFS_Reserved3, UFS_Reserved4, UFS_Reserved5, UFS_fBackgroundOpsEn, UFS_fBusyRTC, UFS_fDeviceInit, UFS_fDeviceLifeSpanModeEn, UFS_fPermanentWPEn, UFS_fPermanentlyDisableFwUpdate, UFS_fPhyResourceRemoval, UFS_fPowerOnWPEn, UFS_fPurgeEnable, storage.ufs_flags_descriptor, ufs/UFS_FLAGS_DESCRIPTOR, ufs/UFS_Reserved1, ufs/UFS_Reserved2, ufs/UFS_Reserved3, ufs/UFS_Reserved4, ufs/UFS_Reserved5, ufs/UFS_fBackgroundOpsEn, ufs/UFS_fBusyRTC, ufs/UFS_fDeviceInit, ufs/UFS_fDeviceLifeSpanModeEn, ufs/UFS_fPermanentWPEn, ufs/UFS_fPermanentlyDisableFwUpdate, ufs/UFS_fPhyResourceRemoval, ufs/UFS_fPowerOnWPEn, ufs/UFS_fPurgeEnable
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ufs.h
 api_name:
 -	UFS_FLAGS_DESCRIPTOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UFS_FLAGS_DESCRIPTOR
 req.product: Windows 10 or later.
@@ -51,29 +52,6 @@ req.product: Windows 10 or later.
 
 
 <b>UFS_FLAGS_DESCRIPTOR</b> describes the different types of flags used by Universal Flash Storage (UFS) descriptors.
-
-
-## -syntax
-
-
-````
-typedef enum _UFS_FLAGS_DESCRIPTOR { 
-  UFS_Reserved1                    = 0,
-  UFS_fDeviceInit,
-  UFS_fPermanentWPEn,
-  UFS_fPowerOnWPEn,
-  UFS_fBackgroundOpsEn,
-  UFS_fDeviceLifeSpanModeEn,
-  UFS_fPurgeEnable,
-  UFS_Reserved2,
-  UFS_fPhyResourceRemoval,
-  UFS_fBusyRTC,
-  UFS_Reserved3,
-  UFS_fPermanentlyDisableFwUpdate,
-  UFS_Reserved4,
-  UFS_Reserved5
-} UFS_FLAGS_DESCRIPTOR;
-````
 
 
 ## -enum-fields

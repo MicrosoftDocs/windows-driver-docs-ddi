@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KS_MPEGAUDIOINFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KS_MPEGAUDIOINFO, *PKS_MPEGAUDIOINFO
 ---
@@ -50,19 +51,6 @@ req.typenames: KS_MPEGAUDIOINFO, *PKS_MPEGAUDIOINFO
 
 
 The KS_MPEGAUDIOINFO structure describes an MPEG audio stream.
-
-
-## -syntax
-
-
-````
-typedef struct tagKS_MPEAUDIOINFO {
-  DWORD dwFlags;
-  DWORD dwReserved1;
-  DWORD dwReserved2;
-  DWORD dwReserved3;
-} KS_MPEGAUDIOINFO, *PKS_MPEGAUDIOINFO;
-````
 
 
 ## -struct-fields

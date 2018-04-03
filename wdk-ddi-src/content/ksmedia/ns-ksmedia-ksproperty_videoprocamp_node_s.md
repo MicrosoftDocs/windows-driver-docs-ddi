@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KSPROPERTY_VIDEOPROCAMP_NODE_S
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSPROPERTY_VIDEOPROCAMP_NODE_S, *PKSPROPERTY_VIDEOPROCAMP_NODE_S
 ---
@@ -52,19 +53,6 @@ req.typenames: KSPROPERTY_VIDEOPROCAMP_NODE_S, *PKSPROPERTY_VIDEOPROCAMP_NODE_S
 The KSPROPERTY_VIDEOPROCAMP_NODE_S structure describes node-based property settings in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568122">PROPSETID_VIDCAP_VIDEOPROCAMP</a> property set.
 
 
-## -syntax
-
-
-````
-typedef struct {
-  KSP_NODE NodeProperty;
-  LONG     Value;
-  ULONG    Flags;
-  ULONG    Capabilities;
-} KSPROPERTY_VIDEOPROCAMP_NODE_S, *PKSPROPERTY_VIDEOPROCAMP_NODE_S;
-````
-
-
 ## -struct-fields
 
 
@@ -72,7 +60,7 @@ typedef struct {
 
 ### -field NodeProperty
 
-Specifies an initialized <a href="..\ks\ns-ks-ksp_node.md">KSP_NODE</a> structure that describes the node, property set, property ID, and request type.
+Specifies an initialized <a href="https://msdn.microsoft.com/library/windows/hardware/ff566720">KSP_NODE</a> structure that describes the node, property set, property ID, and request type.
 
 
 ### -field Value
@@ -148,12 +136,11 @@ The device supports automatic setting of the specified property.
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-ksproperty_videoprocamp_s.md">KSPROPERTY_VIDEOPROCAMP_S</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566089">KSPROPERTY_VIDEOPROCAMP_S</a>
  
 
  
-
 

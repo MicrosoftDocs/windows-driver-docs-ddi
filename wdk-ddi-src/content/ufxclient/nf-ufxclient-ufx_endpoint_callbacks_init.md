@@ -7,7 +7,7 @@ old-location: buses\ufx_endpoint_callbacks_init.htm
 old-project: usbref
 ms.assetid: 10EB0C86-915F-4C24-ADBE-1D8E8DD8ECB6
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: UFX_ENDPOINT_CALLBACKS_INIT, UFX_ENDPOINT_CALLBACKS_INIT function [Buses], buses.ufx_endpoint_callbacks_init, ufxclient/UFX_ENDPOINT_CALLBACKS_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ufxclient.h
 api_name:
 -	UFX_ENDPOINT_CALLBACKS_INIT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UFX_HARDWARE_FAILURE_CONTEXT, *PUFX_HARDWARE_FAILURE_CONTEXT
 req.product: Windows 10 or later.
@@ -50,21 +51,11 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>UFX_ENDPOINT_CALLBACKS_INIT</b> macro initializes the <a href="..\ufxclient\ns-ufxclient-_ufx_endpoint_callbacks.md">UFX_ENDPOINT_CALLBACKS</a> structure.<div class="alert"><b>Note</b>  <p class="note">Note that there are currently no endpoint callback functions defined in the <a href="..\ufxclient\ns-ufxclient-_ufx_endpoint_callbacks.md">UFX_ENDPOINT_CALLBACKS</a> structure. 
+The <b>UFX_ENDPOINT_CALLBACKS_INIT</b> macro initializes the <a href="https://msdn.microsoft.com/library/windows/hardware/mt187975">UFX_ENDPOINT_CALLBACKS</a> structure.<div class="alert"><b>Note</b>  <p class="note">Note that there are currently no endpoint callback functions defined in the <a href="https://msdn.microsoft.com/library/windows/hardware/mt187975">UFX_ENDPOINT_CALLBACKS</a> structure. 
 
 </div>
 <div> </div>
 
-
-
-## -syntax
-
-
-````
-FORCEINLINE void UFX_ENDPOINT_CALLBACKS_INIT(
-  _Out_ PUFX_DEVICE_CALLBACKS Callbacks
-);
-````
 
 
 ## -parameters
@@ -74,7 +65,7 @@ FORCEINLINE void UFX_ENDPOINT_CALLBACKS_INIT(
 
 ### -param Callbacks [out]
 
-A pointer to the <a href="..\ufxclient\ns-ufxclient-_ufx_endpoint_callbacks.md">UFX_ENDPOINT_CALLBACKS</a> structure.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/mt187975">UFX_ENDPOINT_CALLBACKS</a> structure.
 
 
 ## -returns
@@ -90,9 +81,9 @@ This function does not return a value.
 
 
 
-The <b>UFX_ENDPOINT_CALLBACKS_INIT</b> macro will set all fields of the <a href="..\ufxclient\ns-ufxclient-_ufx_endpoint_callbacks.md">UFX_ENDPOINT_CALLBACKS</a> structure to zero and set the size field appropriately.
+The <b>UFX_ENDPOINT_CALLBACKS_INIT</b> macro will set all fields of the <a href="https://msdn.microsoft.com/library/windows/hardware/mt187975">UFX_ENDPOINT_CALLBACKS</a> structure to zero and set the size field appropriately.
 
-<div class="alert"><b>Note</b>  Note that there are currently no endpoint callback functions defined in the <a href="..\ufxclient\ns-ufxclient-_ufx_endpoint_callbacks.md">UFX_ENDPOINT_CALLBACKS</a> structure. </div>
+<div class="alert"><b>Note</b>  Note that there are currently no endpoint callback functions defined in the <a href="https://msdn.microsoft.com/library/windows/hardware/mt187975">UFX_ENDPOINT_CALLBACKS</a> structure. </div>
 <div> </div>
 
 

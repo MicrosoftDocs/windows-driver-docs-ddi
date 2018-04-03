@@ -7,7 +7,7 @@ old-location: display\d3dddicb_evict.htm
 old-project: display
 ms.assetid: 65743D54-3954-4C31-B3CB-032DE391A456
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDICB_EVICT, D3DDDICB_EVICT structure [Display Devices], d3dumddi/D3DDDICB_EVICT, display.d3dddicb_evict
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	D3DDDICB_EVICT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDICB_EVICT
 ---
@@ -49,23 +50,10 @@ req.typenames: D3DDDICB_EVICT
 ## -description
 
 
-<b>D3DKMT_EVICT</b> is used with <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_evictcb.md">pfnEvictCb</a> to subtract one from the residency reference count.
+<b>D3DKMT_EVICT</b> is used with <a href="https://msdn.microsoft.com/5E66A522-BC1C-4E7C-8732-87D40F99BBDA">pfnEvictCb</a> to subtract one from the residency reference count.
 
 Once this count reaches zero, it will remove the allocation from the device residency list.
   
-
-
-## -syntax
-
-
-````
-typedef struct D3DDDICB_EVICT {
-  UINT                NumAllocations;
-  const D3DKMT_HANDLE *AllocationList;
-  D3DDDI_EVICT_FLAGS  Flags;
-  UINT64              NumBytesToTrim;
-} D3DDDICB_EVICT;
-````
 
 
 ## -struct-fields
@@ -85,7 +73,7 @@ typedef struct D3DDDICB_EVICT {
 
 ### -field Flags
 
-[in] Specifies eviction behavior as documented in <a href="..\d3dukmdt\ns-d3dukmdt-d3dddi_evict_flags.md">D3DDDI_EVICT_FLAGS</a>. 
+[in] Specifies eviction behavior as documented in <a href="https://msdn.microsoft.com/library/windows/hardware/dn906322">D3DDDI_EVICT_FLAGS</a>. 
 
 
 ### -field NumBytesToTrim
@@ -95,16 +83,15 @@ typedef struct D3DDDICB_EVICT {
 
 ## -see-also
 
-<a href="..\d3dukmdt\ns-d3dukmdt-d3dddi_evict_flags.md">D3DDDI_EVICT_FLAGS</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_evictcb.md">pfnEvictCb</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn906322">D3DDDI_EVICT_FLAGS</a>
 
 
 
+<a href="https://msdn.microsoft.com/5E66A522-BC1C-4E7C-8732-87D40F99BBDA">pfnEvictCb</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: storage\ide_request_block.htm
 old-project: storage
 ms.assetid: 9e112984-0a7e-4bb9-a10f-b50ab67ce4f3
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PIDE_REQUEST_BLOCK, IDE_REQUEST_BLOCK, IDE_REQUEST_BLOCK structure [Storage Devices], PIDE_REQUEST_BLOCK, PIDE_REQUEST_BLOCK structure pointer [Storage Devices], _IDE_REQUEST_BLOCK, irb/IDE_REQUEST_BLOCK, irb/PIDE_REQUEST_BLOCK, storage.ide_request_block, structs-ATA_d1c6164f-8964-4e37-a9d4-9948215ed7cc.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	irb.h
 api_name:
 -	IDE_REQUEST_BLOCK
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: IDE_REQUEST_BLOCK, *PIDE_REQUEST_BLOCK
 ---
@@ -51,41 +52,6 @@ req.typenames: IDE_REQUEST_BLOCK, *PIDE_REQUEST_BLOCK
 
 The IDE_REQUEST_BLOCK structure defines an IDE request block.
 <div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
-
-## -syntax
-
-
-````
-typedef struct _IDE_REQUEST_BLOCK {
-  USHORT Function;
-  UCHAR  IrbStatus;
-  UCHAR  AtaStatus;
-  UCHAR  AtaError;
-  UCHAR  Channel;
-  UCHAR  TargetId;
-  UCHAR  Lun;
-  UCHAR  CdbLength;
-  UCHAR  SenseInfoBufferLength;
-  UCHAR  SenseInfoBufferType;
-  UCHAR  QueueTag;
-  ULONG  ReservedAsUlong;
-  ULONG  IrbFlags;
-  ULONG  TimeOutValue;
-  ULONG  DataTransferLength;
-  PVOID  IrbExtension;
-  PVOID  DataBuffer;
-  PVOID  SenseInfoBuffer;
-  PVOID  NextIrb;
-  PVOID  Reserved;
-  union {
-    IDE_TASK_FILE  IdeTaskFile;
-    UCHAR          Cdb[16];
-    IDE_POWER_INFO PowerChange;
-    UCHAR          AsUChar[16];
-  };
-} IDE_REQUEST_BLOCK, *PIDE_REQUEST_BLOCK;
-````
-
 
 ## -struct-fields
 
@@ -512,7 +478,7 @@ Contains a command descriptor block (CDB). This member is defined whenever the r
 
 #### - IdeTaskFile
 
-Contains a structure of type <a href="..\irb\ns-irb-_ide_task_file.md">IDE_TASK_FILE</a> that holds the IDE task file for the indicated controller. This member is defined whenever the result of a bitwise AND between the <b>Function</b> member and IRB_FUNCTION_ATA_COMMAND is nonzero.
+Contains a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff559144">IDE_TASK_FILE</a> that holds the IDE task file for the indicated controller. This member is defined whenever the result of a bitwise AND between the <b>Function</b> member and IRB_FUNCTION_ATA_COMMAND is nonzero.
 
 
 #### - PowerChange
@@ -524,14 +490,21 @@ Indicates an enumeration value of type <a href="https://msdn.microsoft.com/libra
 
 
 
-The IDE_REQUEST_BLOCK structure provides a functionality similar to the <a href="..\storport\ns-storport-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a> but with characteristics more suitable for managing devices on an IDE bus.
+The IDE_REQUEST_BLOCK structure provides a functionality similar to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565393">SCSI_REQUEST_BLOCK</a> but with characteristics more suitable for managing devices on an IDE bus.
 
 
 
 
 ## -see-also
 
-<a href="..\storport\ns-storport-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550155">AtaportDeviceBusy</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559144">IDE_TASK_FILE</a>
 
 
 
@@ -539,16 +512,8 @@ The IDE_REQUEST_BLOCK structure provides a functionality similar to the <a href=
 
 
 
-<a href="..\irb\ns-irb-_ide_task_file.md">IDE_TASK_FILE</a>
-
-
-
-<a href="..\irb\nf-irb-ataportdevicebusy.md">AtaportDeviceBusy</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565393">SCSI_REQUEST_BLOCK</a>
  
 
  
-
 

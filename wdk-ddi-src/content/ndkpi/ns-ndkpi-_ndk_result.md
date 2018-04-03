@@ -7,7 +7,7 @@ old-location: netvista\ndk_result.htm
 old-project: netvista
 ms.assetid: B7898C81-E90D-4210-BEAE-1E629FCD7195
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NDK_RESULT, NDK_RESULT structure [Network Drivers Starting with Windows Vista], _NDK_RESULT, ndkpi/NDK_RESULT, netvista.ndk_result
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ndkpi.h
 api_name:
 -	NDK_RESULT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDK_RESULT
 ---
@@ -50,19 +51,6 @@ req.typenames: NDK_RESULT
 
 
 The <b>NDK_RESULT</b> structure returns the results for an NDK request operation. 
-
-
-## -syntax
-
-
-````
-typedef struct _NDK_RESULT {
-  NTSTATUS Status;
-  ULONG    BytesTransferred;
-  PVOID    QPContext;
-  PVOID    RequestContext;
-} NDK_RESULT;
-````
 
 
 ## -struct-fields
@@ -77,12 +65,12 @@ The NDK request completion status.
 
 ### -field BytesTransferred
 
-The number of bytes transferred. The value of this member  is valid only for <i>NdkReceive</i> (<a href="..\ndkpi\nc-ndkpi-ndk_fn_receive.md">NDK_FN_RECEIVE</a>) request completions. The member is undefined for all other NDK request completions.
+The number of bytes transferred. The value of this member  is valid only for <i>NdkReceive</i> (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439907">NDK_FN_RECEIVE</a>) request completions. The member is undefined for all other NDK request completions.
 
 
 ### -field QPContext
 
-A context value for all requests that are posted over a queue pair (QP). The NDK consumer specified this  pointer when it called the <i>NdkCreateQp</i> (<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_qp.md">NDK_FN_CREATE_QP</a>) function to create the <a href="..\ndkpi\ns-ndkpi-_ndk_qp.md">NDK_QP</a> object.
+A context value for all requests that are posted over a queue pair (QP). The NDK consumer specified this  pointer when it called the <i>NdkCreateQp</i> (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439878">NDK_FN_CREATE_QP</a>) function to create the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439933">NDK_QP</a> object.
 
 
 ### -field RequestContext
@@ -94,7 +82,7 @@ A request context value specified by the NDK consumer when  a request is posted.
 
 
 
- The <i>NdkGetCqResults</i> (<a href="..\ndkpi\nc-ndkpi-ndk_fn_get_cq_results.md">NDK_FN_GET_CQ_RESULTS</a>)  function gets an array of <b>NDK_RESULT</b> structures that are filled with completion results that were removed from the CQ.
+ The <i>NdkGetCqResults</i> (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439891">NDK_FN_GET_CQ_RESULTS</a>)  function gets an array of <b>NDK_RESULT</b> structures that are filled with completion results that were removed from the CQ.
 
 
 
@@ -103,20 +91,19 @@ A request context value specified by the NDK consumer when  a request is posted.
 
 ## -see-also
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_receive.md">NDK_FN_RECEIVE</a>
 
 
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_get_cq_results.md">NDK_FN_GET_CQ_RESULTS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439878">NDK_FN_CREATE_QP</a>
 
 
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_qp.md">NDK_FN_CREATE_QP</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439891">NDK_FN_GET_CQ_RESULTS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439907">NDK_FN_RECEIVE</a>
  
 
  
-
 

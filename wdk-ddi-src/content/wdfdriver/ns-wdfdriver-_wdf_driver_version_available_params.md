@@ -38,7 +38,8 @@ api_location:
 -	wdfdriver.h
 api_name:
 -	WDF_DRIVER_VERSION_AVAILABLE_PARAMS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_DRIVER_VERSION_AVAILABLE_PARAMS, *PWDF_DRIVER_VERSION_AVAILABLE_PARAMS
 req.product: Windows 10 or later.
@@ -53,18 +54,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The WDF_DRIVER_VERSION_AVAILABLE_PARAMS structure specifies major and minor version numbers for the Kernel-Mode Driver Framework's library.
-
-
-## -syntax
-
-
-````
-typedef struct _WDF_DRIVER_VERSION_AVAILABLE_PARAMS {
-  ULONG Size;
-  ULONG MajorVersion;
-  ULONG MinorVersion;
-} WDF_DRIVER_VERSION_AVAILABLE_PARAMS, *PWDF_DRIVER_VERSION_AVAILABLE_PARAMS;
-````
 
 
 ## -struct-fields
@@ -91,23 +80,22 @@ A numeric value that represents the Kernel-Mode Driver Framework library's minor
 
 
 
-The WDF_DRIVER_VERSION_AVAILABLE_PARAMS structure is used as input to the <a href="..\wdfdriver\nf-wdfdriver-wdfdriverisversionavailable.md">WdfDriverIsVersionAvailable</a> method. Drivers should call <a href="..\wdfdriver\nf-wdfdriver-wdf_driver_version_available_params_init.md">WDF_DRIVER_VERSION_AVAILABLE_PARAMS_INIT</a> to initialize this structure before calling <b>WdfDriverIsVersionAvailable</b>.
+The WDF_DRIVER_VERSION_AVAILABLE_PARAMS structure is used as input to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547190">WdfDriverIsVersionAvailable</a> method. Drivers should call <a href="https://msdn.microsoft.com/library/windows/hardware/ff551309">WDF_DRIVER_VERSION_AVAILABLE_PARAMS_INIT</a> to initialize this structure before calling <b>WdfDriverIsVersionAvailable</b>.
 
 
 
 
 ## -see-also
 
-<a href="..\wdfdriver\nf-wdfdriver-wdf_driver_version_available_params_init.md">WDF_DRIVER_VERSION_AVAILABLE_PARAMS_INIT</a>
 
 
 
-<a href="..\wdfdriver\nf-wdfdriver-wdfdriverisversionavailable.md">WdfDriverIsVersionAvailable</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551309">WDF_DRIVER_VERSION_AVAILABLE_PARAMS_INIT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547190">WdfDriverIsVersionAvailable</a>
  
 
  
-
 

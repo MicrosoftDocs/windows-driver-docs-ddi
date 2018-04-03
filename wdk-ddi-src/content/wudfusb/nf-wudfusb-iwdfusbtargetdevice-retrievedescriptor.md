@@ -38,7 +38,8 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFUsbTargetDevice.RetrieveDescriptor
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
@@ -55,20 +56,6 @@ req.product: Windows 10 or later.
 The <b>RetrieveDescriptor</b> method retrieves a USB descriptor, which can describe a device, configuration, or string.
 
 
-## -syntax
-
-
-````
-HRESULT RetrieveDescriptor(
-  [in]      UCHAR  DescriptorType,
-  [in]      UCHAR  Index,
-  [in]      USHORT LanguageID,
-  [in, out] ULONG  *BufferLength,
-  [out]     PVOID  Buffer
-);
-````
-
-
 ## -parameters
 
 
@@ -78,7 +65,7 @@ HRESULT RetrieveDescriptor(
 
 A value that specifies the type of descriptor to return. This parameter corresponds to the <b>bDescriptorType</b> field of a standard device descriptor, whose values are described in the <i>Universal Serial Bus</i> specification. (This resource may not be available in some languages 
 
-and countries.) Some of these values are listed in the description of the DescriptorType member of the <a href="..\usb\ns-usb-_urb_control_descriptor_request.md">_URB_CONTROL_DESCRIPTOR_REQUEST</a> structure.
+and countries.) Some of these values are listed in the description of the DescriptorType member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540357">_URB_CONTROL_DESCRIPTOR_REQUEST</a> structure.
 
 
 
@@ -217,16 +204,15 @@ CUmdfHidDevice::RetrieveConfigDescriptor(
 
 ## -see-also
 
-<a href="..\wudfusb\nn-wudfusb-iwdfusbtargetdevice.md">IWDFUsbTargetDevice</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560362">IWDFUsbTargetDevice</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540257">WinUsb_GetDescriptor</a>
-
-
-
  
 
  
-
 

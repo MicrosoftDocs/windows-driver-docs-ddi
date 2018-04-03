@@ -7,7 +7,7 @@ old-location: kernel\enumerateunmaskedinterrupts.htm
 old-project: kernel
 ms.assetid: 8B3E8FE0-9A96-43CD-8C6D-28F302BDF2D7
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: EnumerateUnmaskedInterrupts, EnumerateUnmaskedInterrupts routine [Kernel-Mode Driver Architecture], EnumerateUnmaskedInterruptsext, POFXCALLBACKENUMERATEUNMASKEDINTERRUPTS, kernel.enumerateunmaskedinterrupts, pepfx/EnumerateUnmaskedInterrupts
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	pepfx.h
 api_name:
 -	EnumerateUnmaskedInterrupts
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: VPCI_PNP_ID, *PVPCI_PNP_ID
+req.typenames: RILGBATOKEN, *LPRILGBATOKEN
 ---
 
 # POFXCALLBACKENUMERATEUNMASKEDINTERRUPTS callback
@@ -50,23 +51,6 @@ req.typenames: VPCI_PNP_ID, *PVPCI_PNP_ID
 
 
 The <b>EnumerateUnmaskedInterrupts</b> routine enumerates interrupt sources whose interrupts are unmasked and enabled.
-
-
-## -prototype
-
-
-````
-POFXCALLBACKENUMERATEUNMASKEDINTERRUPTS EnumerateUnmaskedInterrupts;
-
-NTSTATUS EnumerateUnmaskedInterrupts(
-  _In_opt_ POHANDLE                                PluginHandle,
-  _In_opt_ ULONG                                   EnumerateFlags,
-  _In_     PPO_ENUMERATE_INTERRUPT_SOURCE_CALLBACK Callback,
-  _In_     PVOID                                   CallbackContext,
-  _Inout_  PPEP_UNMASKED_INTERRUPT_INFORMATION     InterruptInformation
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -96,7 +80,7 @@ A pointer to a callback context. This pointer is passed as a parameter to the <i
 
 ### -param InterruptInformation [in, out]
 
-A pointer to a caller-allocated buffer whose size is at least <b>sizeof</b>(<a href="..\pepfx\ns-pepfx-_pep_unmasked_interrupt_information.md">PEP_UNMASKED_INTERRUPT_INFORMATION</a>) bytes. <b>EnumerateUnmaskedInterrupts</b> will use this buffer to transfer interrupt information to the PEP during calls to the PEP's <i>EnumerateInterruptSource</i> callback routine.
+A pointer to a caller-allocated buffer whose size is at least <b>sizeof</b>(<a href="https://msdn.microsoft.com/library/windows/hardware/mt186857">PEP_UNMASKED_INTERRUPT_INFORMATION</a>) bytes. <b>EnumerateUnmaskedInterrupts</b> will use this buffer to transfer interrupt information to the PEP during calls to the PEP's <i>EnumerateInterruptSource</i> callback routine.
 
 
 ## -returns
@@ -131,7 +115,7 @@ The <b>Size</b> or <b>Version</b> member of the <b>PEP_UNMASKED_INTERRUPT_INFORM
 
 
 
-This routine is implemented by PoFx and is called by the PEP. The <b>EnumerateUnmaskedInterrupts</b> member of the <a href="..\pepfx\ns-pepfx-_pep_kernel_information_struct_v3.md">PEP_KERNEL_INFORMATION_STRUCT_V3</a> structure is a pointer to an <b>EnumerateUnmaskedInterrupts</b> routine.
+This routine is implemented by PoFx and is called by the PEP. The <b>EnumerateUnmaskedInterrupts</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186747">PEP_KERNEL_INFORMATION_STRUCT_V3</a> structure is a pointer to an <b>EnumerateUnmaskedInterrupts</b> routine.
 
 Before the platform enters a system power state in which the interrupt controllers are power-gated, the PEP can call <b>EnumerateUnmaskedInterrupts</b> to get the information it needs to properly configure wake-up controllers for interrupts that are to remain unmasked.
 
@@ -142,7 +126,6 @@ The PEP can call this routine at IRQL &lt;= HIGH_LEVEL.
 
 ## -see-also
 
-<a href="..\pepfx\ns-pepfx-_pep_unmasked_interrupt_information.md">PEP_UNMASKED_INTERRUPT_INFORMATION</a>
 
 
 
@@ -150,12 +133,12 @@ The PEP can call this routine at IRQL &lt;= HIGH_LEVEL.
 
 
 
-<a href="..\pepfx\ns-pepfx-_pep_kernel_information_struct_v3.md">PEP_KERNEL_INFORMATION_STRUCT_V3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186747">PEP_KERNEL_INFORMATION_STRUCT_V3</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186857">PEP_UNMASKED_INTERRUPT_INFORMATION</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: debugger\debug_symbol_source_entry.htm
 old-project: debugger
 ms.assetid: 595d5a90-6ec8-4841-a38b-c0cbf26ed082
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PDEBUG_SYMBOL_SOURCE_ENTRY, DEBUG_SYMBOL_SOURCE_ENTRY, DEBUG_SYMBOL_SOURCE_ENTRY structure [Windows Debugging], PDEBUG_SYMBOL_SOURCE_ENTRY, PDEBUG_SYMBOL_SOURCE_ENTRY structure pointer [Windows Debugging], Structures_9f8ab4b6-98b2-4a10-a450-bb73e655dd32.xml, _DEBUG_SYMBOL_SOURCE_ENTRY, dbgeng/DEBUG_SYMBOL_SOURCE_ENTRY, dbgeng/PDEBUG_SYMBOL_SOURCE_ENTRY, debugger.debug_symbol_source_entry"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	DbgEng.h
 api_name:
 -	DEBUG_SYMBOL_SOURCE_ENTRY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DEBUG_SYMBOL_SOURCE_ENTRY, *PDEBUG_SYMBOL_SOURCE_ENTRY
 ---
@@ -50,27 +51,6 @@ req.typenames: DEBUG_SYMBOL_SOURCE_ENTRY, *PDEBUG_SYMBOL_SOURCE_ENTRY
 
 
 The DEBUG_SYMBOL_SOURCE_ENTRY structure describes a section of the source code and a corresponding region of the target's memory.
-
-
-## -syntax
-
-
-````
-typedef struct _DEBUG_SYMBOL_SOURCE_ENTRY {
-  ULONG64 ModuleBase;
-  ULONG64 Offset;
-  ULONG64 FileNameId;
-  ULONG64 EngineInternal;
-  ULONG   Size;
-  ULONG   Flags;
-  ULONG   FileNameSize;
-  ULONG   StartLine;
-  ULONG   EndLine;
-  ULONG   StartColumn;
-  ULONG   EndColumn;
-  ULONG   Reserved;
-} DEBUG_SYMBOL_SOURCE_ENTRY, *PDEBUG_SYMBOL_SOURCE_ENTRY;
-````
 
 
 ## -struct-fields

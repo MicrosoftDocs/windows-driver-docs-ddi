@@ -2,13 +2,13 @@
 UID: NF:printerextension.IPrintSchemaFeature.get_SelectedOption
 title: IPrintSchemaFeature::get_SelectedOption method
 author: windows-driver-content
-description: Changes the selected option of the Print Schema Feature element to the specified IPrintSchemaOption element.
-old-location: print\iprintschemafeature_put_selectedoption.htm
+description: Gets an IPrintSchemaOption representing the selected option.
+old-location: print\iprintschemafeature_selectedoption.htm
 old-project: print
-ms.assetid: DEFA0559-9946-4F4D-B5DC-A0E5E872114A
+ms.assetid: C22BC037-05D2-4F44-8704-D1D56909B603
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IPrintSchemaFeature, IPrintSchemaFeature interface [Print Devices], SelectedOption property, IPrintSchemaFeature.SelectedOption, IPrintSchemaFeature::get_SelectedOption, IPrintSchemaFeature::put_SelectedOption, SelectedOption property [Print Devices], SelectedOption property [Print Devices], IPrintSchemaFeature interface, get_SelectedOption, get_SelectedOption,IPrintSchemaFeature.get_SelectedOption, print.iprintschemafeature_put_selectedoption, printerextension/IPrintSchemaFeature::SelectedOption, printerextension/IPrintSchemaFeature::put_SelectedOption
+ms.keywords: IPrintSchemaFeature, IPrintSchemaFeature interface [Print Devices], SelectedOption property, IPrintSchemaFeature.SelectedOption, IPrintSchemaFeature::get_SelectedOption, SelectedOption property [Print Devices], SelectedOption property [Print Devices], IPrintSchemaFeature interface, get_SelectedOption, get_SelectedOption,IPrintSchemaFeature.get_SelectedOption, print.iprintschemafeature_selectedoption, printerextension/IPrintSchemaFeature::SelectedOption, printerextension/IPrintSchemaFeature::get_SelectedOption
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,8 +38,9 @@ api_location:
 -	Printerextension.h
 api_name:
 -	IPrintSchemaFeature.SelectedOption
--	IPrintSchemaFeature.put_SelectedOption
-product: Windows
+-	IPrintSchemaFeature.get_SelectedOption
+product:
+- Windows
 targetos: Windows
 req.typenames: PrintSchemaSelectionType
 req.product: Windows 10 or later.
@@ -51,19 +52,9 @@ req.product: Windows 10 or later.
 ## -description
 
 
-Changes the selected option of the Print Schema Feature element to the specified <a href="..\printerextension\nn-printerextension-iprintschemaoption.md">IPrintSchemaOption</a> element.
+Gets an <a href="https://msdn.microsoft.com/library/windows/hardware/hh451335">IPrintSchemaOption</a> representing the selected option.
 
-This property is write-only.
-
-
-## -syntax
-
-
-````
-HRESULT put_SelectedOption(
-   IPrintSchemaOption *pOption
-);
-````
+This property is read-only.
 
 
 ## -parameters
@@ -71,16 +62,19 @@ HRESULT put_SelectedOption(
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintschemafeature.md">IPrintSchemaFeature</a>
 
 
 
-<a href="..\printerextension\nn-printerextension-iprintschemaoption.md">IPrintSchemaOption</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451284">IPrintSchemaFeature</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451335">IPrintSchemaOption</a>
+
+
+
+<a href="https://msdn.microsoft.com/5556BD5E-6489-4CCF-8C62-DDA53AD9F368">IPrintSchemaTicket_GetCapabilities</a>
  
 
  
-
 

@@ -38,7 +38,8 @@ api_location:
 -	stiusd.h
 api_name:
 -	IStiUSD.GetLastError
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STI_WIA_DEVICE_INFORMATIONW, *PSTI_WIA_DEVICE_INFORMATIONW
 req.product: Windows 10 or later.
@@ -51,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>IStiUSD::GetLastError</b> method returns the last known error associated with a still image device.
-
-
-## -syntax
-
-
-````
-HRESULT GetLastError(
-   LPDWORD pdwLastDeviceError
-);
-````
 
 
 ## -parameters
@@ -84,7 +75,6 @@ If the operation succeeds, the method returns S_OK. Otherwise, it returns one of
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/62740263-5bbb-48e1-be3d-9ee9cb37d6b9">IStiUSD</a>
 
 
 
@@ -92,8 +82,8 @@ If the operation succeeds, the method returns S_OK. Otherwise, it returns one of
 
 
 
+<a href="https://msdn.microsoft.com/62740263-5bbb-48e1-be3d-9ee9cb37d6b9">IStiUSD</a>
  
 
  
-
 

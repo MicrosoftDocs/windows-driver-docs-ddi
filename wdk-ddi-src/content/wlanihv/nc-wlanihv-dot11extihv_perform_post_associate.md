@@ -38,7 +38,8 @@ api_location:
 -	wlanihv.h
 api_name:
 -	Dot11ExtIhvPerformPostAssociate
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DRIVER_INFO_8W, *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W
 req.product: Windows 10 or later.

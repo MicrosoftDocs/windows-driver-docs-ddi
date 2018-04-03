@@ -7,7 +7,7 @@ old-location: display\setpixelshaderconst.htm
 old-project: display
 ms.assetid: 02710936-28df-4c8f-aa1e-bdff01155608
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3DDDI_SETPIXELSHADERCONST, SetPixelShaderConst, SetPixelShaderConst callback function [Display Devices], UserModeDisplayDriver_Functions_be972851-58a6-4f22-aae2-7948679b8bb7.xml, d3dumddi/SetPixelShaderConst, display.setpixelshaderconst
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	SetPixelShaderConst
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_PTE
 ---
@@ -50,21 +51,6 @@ req.typenames: DXGK_PTE
 
 
 The <i>SetPixelShaderConst</i> function sets one or more pixel shader constant registers with floating-point values. 
-
-
-## -prototype
-
-
-````
-PFND3DDDI_SETPIXELSHADERCONST SetPixelShaderConst;
-
-__checkReturn HRESULT APIENTRY SetPixelShaderConst(
-  _In_       HANDLE                        hDevice,
-  _In_ const D3DDDIARG_SETPIXELSHADERCONST *pData,
-  _In_ const FLOAT                         *pRegisters
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -88,7 +74,7 @@ __checkReturn HRESULT APIENTRY SetPixelShaderConst(
 
 #### - pData [in]
 
- A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_setpixelshaderconst.md">D3DDDIARG_SETPIXELSHADERCONST</a> structure that describes how to set the pixel shader constant registers.
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543329">D3DDDIARG_SETPIXELSHADERCONST</a> structure that describes how to set the pixel shader constant registers.
 
 
 #### - pRegisters [in]
@@ -107,16 +93,15 @@ __checkReturn HRESULT APIENTRY SetPixelShaderConst(
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_setpixelshaderconst.md">D3DDDIARG_SETPIXELSHADERCONST</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543329">D3DDDIARG_SETPIXELSHADERCONST</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544519">D3DDDI_DEVICEFUNCS</a>
  
 
  
-
 

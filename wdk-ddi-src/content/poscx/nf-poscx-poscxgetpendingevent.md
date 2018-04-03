@@ -38,7 +38,8 @@ api_location:
 -	poscx.h
 api_name:
 -	PosCxGetPendingEvent
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: POS_CX_EVENT_PRIORITY
 req.product: Windows 10 or later.
@@ -55,17 +56,6 @@ req.product: Windows 10 or later.
       event arrives. The function searches the pending events database for events that are waiting for the caller that issued the request.  
 
       It first searches the control pending events database, and then the data pending event database.
-
-
-## -syntax
-
-
-````
-NTSTATUS PosCxGetPendingEvent(
-  _In_ WDFDEVICE  device,
-  _In_ WDFREQUEST request
-);
-````
 
 
 ## -parameters

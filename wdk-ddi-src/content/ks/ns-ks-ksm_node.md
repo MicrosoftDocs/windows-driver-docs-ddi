@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSM_NODE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSM_NODE, *PKSM_NODE
 ---
@@ -49,19 +50,7 @@ req.typenames: KSM_NODE, *PKSM_NODE
 ## -description
 
 
-Just as <a href="..\ks\ns-ks-ksp_node.md">KSP_NODE</a> is used for properties on a node, the KSM_NODE structure is used for methods on a node.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  KSMETHOD Method;
-  ULONG    NodeId;
-  ULONG    Reserved;
-} KSM_NODE, *PKSM_NODE;
-````
+Just as <a href="https://msdn.microsoft.com/library/windows/hardware/ff566720">KSP_NODE</a> is used for properties on a node, the KSM_NODE structure is used for methods on a node.
 
 
 ## -struct-fields
@@ -86,12 +75,11 @@ Reserved for system use. Should be set to zero.
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksp_node.md">KSP_NODE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566720">KSP_NODE</a>
  
 
  
-
 

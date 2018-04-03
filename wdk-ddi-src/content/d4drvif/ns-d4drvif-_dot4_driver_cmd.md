@@ -38,7 +38,8 @@ api_location:
 -	D4drvif.h
 api_name:
 -	DOT4_DRIVER_CMD
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_DRIVER_CMD, *PDOT4_DRIVER_CMD
 ---
@@ -50,19 +51,6 @@ req.typenames: DOT4_DRIVER_CMD, *PDOT4_DRIVER_CMD
 
 
 This topic describes the <b>DOT4_DRIVER_CMD</b> structure.
-
-
-## -syntax
-
-
-````
-typedef struct _DOT4_DRIVER_CMD {
-  CHANNEL_HANDLE hChannelHandle;
-  ULONG          ulSize;
-  ULONG          ulOffset;
-  ULONG          ulTimeout;
-} DOT4_DRIVER_CMD, *PDOT4_DRIVER_CMD;
-````
 
 
 ## -struct-fields

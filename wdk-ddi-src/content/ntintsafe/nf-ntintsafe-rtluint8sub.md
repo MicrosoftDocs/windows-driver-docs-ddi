@@ -7,7 +7,7 @@ old-location: kernel\rtluint8sub.htm
 old-project: kernel
 ms.assetid: D8BD24AA-64CF-42CB-8AD2-2B6C77D4B195
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: RtlUInt8Sub, RtlUInt8Sub function [Kernel-Mode Driver Architecture], kernel.rtluint8sub, ntintsafe/RtlUInt8Sub
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ntintsafe.h
 api_name:
 -	RtlUInt8Sub
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 ---
@@ -50,18 +51,6 @@ req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 
 
 The <b>RtlUInt8Sub</b> routine subtracts one value of type <b>UINT8</b> from another.
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlUInt8Sub(
-  _In_  UINT8 u8Minuend,
-  _In_  UINT8 u8Subtrahend,
-  _Out_ UINT8 *pu8Result
-);
-````
 
 
 ## -parameters

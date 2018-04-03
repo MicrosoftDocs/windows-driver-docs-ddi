@@ -7,7 +7,7 @@ old-location: display\d3d12ddi_heap_flags.htm
 old-project: display
 ms.assetid: 8224E497-7F52-469B-98C9-ECC5F1970894
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3D12DDI_HEAP_FLAGS, D3D12DDI_HEAP_FLAGS enumeration [Display Devices], D3D12DDI_HEAP_FLAG_BUFFERS, D3D12DDI_HEAP_FLAG_COHERENT_SYSTEMWIDE, D3D12DDI_HEAP_FLAG_CONTENT_PROTECTION, D3D12DDI_HEAP_FLAG_NONE, D3D12DDI_HEAP_FLAG_NON_RT_DS_TEXTURES, D3D12DDI_HEAP_FLAG_PRIMARY, D3D12DDI_HEAP_FLAG_RT_DS_TEXTURES, d3d12umddi/D3D12DDI_HEAP_FLAGS, d3d12umddi/D3D12DDI_HEAP_FLAG_BUFFERS, d3d12umddi/D3D12DDI_HEAP_FLAG_COHERENT_SYSTEMWIDE, d3d12umddi/D3D12DDI_HEAP_FLAG_CONTENT_PROTECTION, d3d12umddi/D3D12DDI_HEAP_FLAG_NONE, d3d12umddi/D3D12DDI_HEAP_FLAG_NON_RT_DS_TEXTURES, d3d12umddi/D3D12DDI_HEAP_FLAG_PRIMARY, d3d12umddi/D3D12DDI_HEAP_FLAG_RT_DS_TEXTURES, display.d3d12ddi_heap_flags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3d12umddi.h
 api_name:
 -	D3D12DDI_HEAP_FLAGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D12DDI_HEAP_FLAGS
 ---
@@ -50,22 +51,6 @@ req.typenames: D3D12DDI_HEAP_FLAGS
 
 
 Contains Direct3D 12 heap flags.
-
-
-## -syntax
-
-
-````
-typedef enum D3D12DDI_HEAP_FLAGS {
-  D3D12DDI_HEAP_FLAG_NONE                 = 0x0,
-  D3D12DDI_HEAP_FLAG_NON_RT_DS_TEXTURES   = 0x2,
-  D3D12DDI_HEAP_FLAG_BUFFERS              = 0x4,
-  D3D12DDI_HEAP_FLAG_COHERENT_SYSTEMWIDE  = 0x8,
-  D3D12DDI_HEAP_FLAG_PRIMARY              = 0x10,
-  D3D12DDI_HEAP_FLAG_RT_DS_TEXTURES       = 0x20,
-  D3D12DDI_HEAP_FLAG_CONTENT_PROTECTION   = 0x40
-} D3D12DDI_HEAP_FLAGS;
-````
 
 
 ## -enum-fields

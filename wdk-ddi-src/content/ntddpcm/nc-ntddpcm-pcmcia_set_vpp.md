@@ -38,9 +38,10 @@ api_location:
 -	ntddpcm.h
 api_name:
 -	SetVpp
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PAR_SET_INFORMATION, *PPAR_SET_INFORMATION
+req.typenames: OFFLOAD_SECURITY_ASSOCIATION, *POFFLOAD_SECURITY_ASSOCIATION
 ---
 
 # PCMCIA_SET_VPP callback
@@ -50,20 +51,6 @@ req.typenames: PAR_SET_INFORMATION, *PPAR_SET_INFORMATION
 
 
 The <b>PCMCIA_SET_VPP</b> interface routine sets the power level of the Vpp PCMCIA pin (secondary power source).
-
-
-## -prototype
-
-
-````
-PCMCIA_SET_VPP SetVpp;
-
-BOOLEAN SetVpp(
-  _In_opt_ PVOID Context,
-  _In_     UCHAR VppLevel
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -125,16 +112,15 @@ Callers of this routine can run at IRQL &lt;= DISPATCH_LEVEL. To maintain overal
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537609">PCMCIA_IS_WRITE_PROTECTED</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537610">PCMCIA_MODIFY_MEMORY_WINDOW</a>
-
-
-
  
 
  
-
 

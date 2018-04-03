@@ -39,7 +39,8 @@ api_location:
 -	Wdf01000.sys.dll
 api_name:
 -	WdfIoResourceListUpdateDescriptor
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_REQUEST_SEND_OPTIONS, *PWDF_REQUEST_SEND_OPTIONS
 req.product: Windows 10 or later.
@@ -56,18 +57,6 @@ req.product: Windows 10 or later.
 The <b>WdfIoResourceListUpdateDescriptor</b> method updates a resource descriptor in a resource requirements list's <a href="https://msdn.microsoft.com/c7a6997b-34f9-4dd9-b384-2321a8b5ce54">logical configuration</a>.
 
 
-## -syntax
-
-
-````
-VOID WdfIoResourceListUpdateDescriptor(
-  _In_ WDFIORESLIST            ResourceList,
-  _In_ PIO_RESOURCE_DESCRIPTOR Descriptor,
-  _In_ ULONG                   Index
-);
-````
-
-
 ## -parameters
 
 
@@ -80,7 +69,7 @@ A handle to a framework resource-range-list object that represents a logical con
 
 ### -param Descriptor [in]
 
-A pointer to an <a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a> structure that describes a hardware resource.
+A pointer to an <a href="https://msdn.microsoft.com/03e3a656-c691-4aff-bcc8-4e0bc8390fd7">IO_RESOURCE_DESCRIPTOR</a> structure that describes a hardware resource.
 
 
 ### -param Index [in]
@@ -149,12 +138,11 @@ WdfIoResourceListUpdateDescriptor(
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a>
 
 
 
+<a href="https://msdn.microsoft.com/03e3a656-c691-4aff-bcc8-4e0bc8390fd7">IO_RESOURCE_DESCRIPTOR</a>
  
 
  
-
 

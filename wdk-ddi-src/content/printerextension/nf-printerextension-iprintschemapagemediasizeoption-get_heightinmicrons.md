@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	IPrintSchemaPageMediaSizeOption.HeightInMicrons
 -	IPrintSchemaPageMediaSizeOption.get_HeightInMicrons
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PrintSchemaSelectionType
 req.product: Windows 10 or later.
@@ -56,27 +57,16 @@ Gets the height of the page in microns.
 This property is read-only.
 
 
-## -syntax
-
-
-````
-HRESULT get_HeightInMicrons(
-  [out, retval] ULONG *pulHeight
-);
-````
-
-
 ## -parameters
 
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintschemapagemediasizeoption.md">IPrintSchemaPageMediaSizeOption</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451378">IPrintSchemaPageMediaSizeOption</a>
  
 
  
-
 

@@ -38,7 +38,8 @@ api_location:
 -	Winsplp.h
 api_name:
 -	NOTIFICATION_CALLBACK_COMMANDS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NOTIFICATION_CALLBACK_COMMANDS
 req.product: Windows 10 or later.
@@ -51,18 +52,6 @@ req.product: Windows 10 or later.
 
 
 
-
-
-## -syntax
-
-
-````
-typedef enum _NOTIFICATION_CALLBACK_COMMANDS { 
-  NOTIFICATION_COMMAND_NOTIFY,
-  NOTIFICATION_COMMAND_CONTEXT_ACQUIRE,
-  NOTIFICATION_COMMAND_CONTEXT_RELEASE
-} NOTIFICATION_CALLBACK_COMMANDS;
-````
 
 
 ## -enum-fields

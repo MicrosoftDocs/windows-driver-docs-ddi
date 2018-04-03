@@ -7,7 +7,7 @@ old-location: display\videoportflushregistry.htm
 old-project: display
 ms.assetid: 8b940eec-dac6-4a01-afc8-73115bf994c3
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: VideoPortFlushRegistry, VideoPortFlushRegistry function [Display Devices], VideoPort_Functions_fe7df781-6130-484d-b582-55446711fef6.xml, display.videoportflushregistry, video/VideoPortFlushRegistry
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Videoprt.sys
 api_name:
 -	VideoPortFlushRegistry
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
 req.product: Windows 10 or later.
@@ -51,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>VideoPortFlushRegistry</b> function flushes registry keys and values associated with the video miniport driver.
-
-
-## -syntax
-
-
-````
-VP_STATUS VideoPortFlushRegistry(
-   PVOID HwDeviceExtension
-);
-````
 
 
 ## -parameters
@@ -84,16 +75,15 @@ Pointer to the miniport driver's device extension.
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportgetregistryparameters.md">VideoPortGetRegistryParameters</a>
 
 
 
-<a href="..\video\nf-video-videoportsetregistryparameters.md">VideoPortSetRegistryParameters</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570316">VideoPortGetRegistryParameters</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570365">VideoPortSetRegistryParameters</a>
  
 
  
-
 

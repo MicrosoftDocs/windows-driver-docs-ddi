@@ -7,7 +7,7 @@ old-location: display\dxgkddiopmgetcertificatesize.htm
 old-project: display
 ms.assetid: fe4197ad-52a2-47b3-ad96-57ea73cd931f
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_OPM_GET_CERTIFICATE_SIZE, Dm_Opm_functions_62785ff7-3c52-4e07-b075-eb27de1236b8.xml, DxgkDdiOPMGetCertificateSize, DxgkDdiOPMGetCertificateSize callback function [Display Devices], display.dxgkddiopmgetcertificatesize, dispmprt/DxgkDdiOPMGetCertificateSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	dispmprt.h
 api_name:
 -	DxgkDdiOPMGetCertificateSize
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 ---
@@ -52,21 +53,6 @@ req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 The<i> DxgkDdiOPMGetCertificateSize</i> function retrieves the size of a certificate of the given type.
 
 
-## -prototype
-
-
-````
-DXGKDDI_OPM_GET_CERTIFICATE_SIZE DxgkDdiOPMGetCertificateSize;
-
-NTSTATUS DxgkDdiOPMGetCertificateSize(
-  _In_  PVOID                    MiniportDeviceContext,
-  _In_  DXGKMDT_CERTIFICATE_TYPE CertificateType,
-  _Out_ PULONG                   CertificateSize
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -74,12 +60,12 @@ NTSTATUS DxgkDdiOPMGetCertificateSize(
 
 ### -param MiniportDeviceContext [in]
 
-A handle to a context block that is associated with a display adapter. Previously, the display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function provided this handle to the DirectX graphics kernel subsystem.
+A handle to a context block that is associated with a display adapter. Previously, the display miniport driver's <a href="https://msdn.microsoft.com/5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea">DxgkDdiAddDevice</a> function provided this handle to the DirectX graphics kernel subsystem.
 
 
 ### -param CertificateType [in]
 
-A <a href="..\d3dkmdt\ne-d3dkmdt-_dxgkmdt_certificate_type.md">DXGKMDT_CERTIFICATE_TYPE</a>-typed value that identifies the type of certificate whose size <i> DxgkDdiOPMGetCertificateSize</i>  returns.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff560826">DXGKMDT_CERTIFICATE_TYPE</a>-typed value that identifies the type of certificate whose size <i> DxgkDdiOPMGetCertificateSize</i>  returns.
 
 
 ### -param CertificateSize [out]
@@ -174,16 +160,15 @@ This function might also return other error codes that are defined in Ntstatus.h
 
 ## -see-also
 
-<a href="..\d3dkmdt\ne-d3dkmdt-_dxgkmdt_certificate_type.md">DXGKMDT_CERTIFICATE_TYPE</a>
 
 
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560826">DXGKMDT_CERTIFICATE_TYPE</a>
 
 
 
+<a href="https://msdn.microsoft.com/5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea">DxgkDdiAddDevice</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: netvista\ril_resetmodem.htm
 old-project: netvista
 ms.assetid: 7cb249d3-b39f-4b6b-8023-bb0c0ef8f9e1
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: RIL_ResetModem, RIL_ResetModem method [Network Drivers Starting with Windows Vista], netvista.ril_resetmodem, rilapi/RIL_ResetModem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	rilapi.h
 api_name:
 -	RIL_ResetModem
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
+req.typenames: PTP_VENDOR_DATA_OUT, *PPTP_VENDOR_DATA_OUT
 req.product: Windows 10 or later.
 ---
 
@@ -53,18 +54,6 @@ req.product: Windows 10 or later.
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
             
-
-
-## -syntax
-
-
-````
-HRESULT  RIL_ResetModem(
-   HRIL              hRil,
-   LPVOID            lpContext,
-   RILRESETMODEMKIND dwResetKind
-);
-````
 
 
 ## -parameters

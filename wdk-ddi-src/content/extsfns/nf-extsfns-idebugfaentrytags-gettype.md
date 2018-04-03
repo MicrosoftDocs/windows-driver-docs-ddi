@@ -7,7 +7,7 @@ old-location: debugger\idebugfaentrytags_gettype.htm
 old-project: debugger
 ms.assetid: CE43711F-E17B-4234-A885-4FE04EA53903
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: GetType method [Windows Debugging], GetType method [Windows Debugging], IDebugFAEntryTags interface, GetType,IDebugFAEntryTags.GetType, IDebugFAEntryTags, IDebugFAEntryTags interface [Windows Debugging], GetType method, IDebugFAEntryTags::GetType, debugger.idebugfaentrytags_gettype, extsfns/IDebugFAEntryTags::GetType
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	extsfns.h
 api_name:
 -	IDebugFAEntryTags.GetType
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FA_EXTENSION_PLUGIN_PHASE
 ---
@@ -49,17 +50,7 @@ req.typenames: FA_EXTENSION_PLUGIN_PHASE
 ## -description
 
 
-The <b>GetType</b> method gets the data type that is associated with a tag in a <a href="..\extsfns\nn-extsfns-idebugfaentrytags.md">DebugFailureAnalysisTags</a> object.
-
-
-## -syntax
-
-
-````
-FA_ENTRY_TYPE GetType(
-   FA_TAG Tag
-);
-````
+The <b>GetType</b> method gets the data type that is associated with a tag in a <a href="https://msdn.microsoft.com/B52DFB0E-0035-40C2-B2F5-5E16B16931C2">DebugFailureAnalysisTags</a> object.
 
 
 ## -parameters
@@ -76,22 +67,25 @@ A value in the <a href="https://docs.microsoft.com/en-us/windows-hardware/driver
 
 
 
-A value in the <a href="..\extsfns\ne-extsfns-_fa_entry_type.md">FA_ENTRY_TYPE</a> enumeration.
+A value in the <a href="https://msdn.microsoft.com/library/windows/hardware/jj991809">FA_ENTRY_TYPE</a> enumeration.
 
 
 
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj983404">IDebugFAEntryTags</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj983405">IDebugFailureAnalysis2</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/jj991816">SetType</a>
-
-
-
-<a href="..\extsfns\nn-extsfns-idebugfaentrytags.md">IDebugFAEntryTags</a>
-
-
-
-<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
 
 
 
@@ -99,12 +93,8 @@ A value in the <a href="..\extsfns\ne-extsfns-_fa_entry_type.md">FA_ENTRY_TYPE</
 
 
 
-<a href="..\extsfns\nc-extsfns-ext_analysis_plugin.md">_EFN_Analyze</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj983432">_EFN_Analyze</a>
  
 
  
-
 

@@ -38,7 +38,8 @@ api_location:
 -	1394.h
 api_name:
 -	SELF_ID
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SELF_ID, *PSELF_ID
 ---
@@ -50,29 +51,6 @@ req.typenames: SELF_ID, *PSELF_ID
 
 
 The SELF_ID structure contains a raw packet zero self-ID packet. See the <a href="http://go.microsoft.com/fwlink/p/?linkid=8729">IEEE 1394 Trade Association specification</a> website for details.
-
-
-## -syntax
-
-
-````
-typedef struct _SELF_ID {
-  ULONG SID_Phys_ID  :6;
-  ULONG SID_Packet_ID  :2;
-  ULONG SID_Gap_Count  :6;
-  ULONG SID_Link_Active  :1;
-  ULONG SID_Zero  :1;
-  ULONG SID_Power_Class  :3;
-  ULONG SID_Contender  :1;
-  ULONG SID_Delay  :2;
-  ULONG SID_Speed  :2;
-  ULONG SID_More_Packets  :1;
-  ULONG SID_Initiated_Rst  :1;
-  ULONG SID_Port3  :2;
-  ULONG SID_Port2  :2;
-  ULONG SID_Port1  :2;
-} SELF_ID, *PSELF_ID;
-````
 
 
 ## -struct-fields
@@ -237,12 +215,11 @@ This structure corresponds to self ID packet 0, as described in the <i>P1394a</i
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538877">TOPOLOGY_MAP</a>
-
-
-
  
 
  
-
 

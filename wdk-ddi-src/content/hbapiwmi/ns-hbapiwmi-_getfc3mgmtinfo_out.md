@@ -7,7 +7,7 @@ old-location: storage\getfc3mgmtinfo_out.htm
 old-project: storage
 ms.assetid: 5cce25e7-582b-49b3-9f10-be59471e377f
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PGetFC3MgmtInfo_OUT, GetFC3MgmtInfo_OUT, GetFC3MgmtInfo_OUT structure [Storage Devices], PGetFC3MgmtInfo_OUT, PGetFC3MgmtInfo_OUT structure pointer [Storage Devices], _GetFC3MgmtInfo_OUT, hbapiwmi/GetFC3MgmtInfo_OUT, hbapiwmi/PGetFC3MgmtInfo_OUT, storage.getfc3mgmtinfo_out, structs-Fibre_599fab97-a877-4299-8697-1decb1305672.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	hbapiwmi.h
 api_name:
 -	GetFC3MgmtInfo_OUT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GetFC3MgmtInfo_OUT, *PGetFC3MgmtInfo_OUT
 ---
@@ -50,17 +51,6 @@ req.typenames: GetFC3MgmtInfo_OUT, *PGetFC3MgmtInfo_OUT
 
 
 The GetFC3MgmtInfo_OUT structure is used to report the output parameter data of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553939">GetFC3MgmtInfo</a> WMI method to the WMI client.
-
-
-## -syntax
-
-
-````
-typedef struct _GetFC3MgmtInfo_OUT {
-  ULONG          HBAStatus;
-  HBAFC3MgmtInfo MgmtInfo;
-} GetFC3MgmtInfo_OUT, *PGetFC3MgmtInfo_OUT;
-````
 
 
 ## -struct-fields
@@ -75,7 +65,7 @@ Contains a value associated with the WMI class qualifier <a href="https://msdn.m
 
 ### -field MgmtInfo
 
-Contains a structure of type <a href="..\hbapiwmi\ns-hbapiwmi-_hbafc3mgmtinfo.md">HBAFC3MgmtInfo</a> that reports FC3 management information. 
+Contains a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff556032">HBAFC3MgmtInfo</a> that reports FC3 management information. 
 
 
 ## -remarks
@@ -91,20 +81,19 @@ The WMI tool suite generates a declaration of the GetEventBuffer_OUT structure i
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553939">GetFC3MgmtInfo</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556032">HBAFC3MgmtInfo</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
-
-
-
-<a href="..\hbapiwmi\ns-hbapiwmi-_hbafc3mgmtinfo.md">HBAFC3MgmtInfo</a>
-
-
-
  
 
  
-
 

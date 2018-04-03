@@ -38,7 +38,8 @@ api_location:
 -	sti.h
 api_name:
 -	IStiDevice.RawReadCommand
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STI_DEVICE_MJ_TYPE, STI_DEVICE_MJ_TYPE
 req.product: Windows 10 or later.
@@ -51,18 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>IStiDevice::RawReadCommand</b> method reads command information from a still image device.
-
-
-## -syntax
-
-
-````
-HRESULT RawReadCommand(
-  [in, out]      LPVOID       lpBuffer,
-  [in, out]      LPDWORD      lpdwNumberOfBytes,
-  [in, optional] LPOVERLAPPED lpOverlapped
-);
-````
 
 
 ## -parameters

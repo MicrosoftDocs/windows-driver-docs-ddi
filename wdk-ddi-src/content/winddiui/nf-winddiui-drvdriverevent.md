@@ -38,7 +38,8 @@ api_location:
 -	winddiui.h
 api_name:
 -	DrvDriverEvent
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WINBIO_VERSION, *PWINBIO_VERSION
 req.product: Windows 10 or later.
@@ -51,19 +52,6 @@ req.product: Windows 10 or later.
 
 
 The print spooler calls a printer interface DLL's <b>DrvDriverEvent</b> function when the spooler processes driver-specific events that might require action by the printer driver.
-
-
-## -syntax
-
-
-````
-BOOL DrvDriverEvent(
-           DWORD  dwDriverEvent,
-           DWORD  dwLevel,
-  _In_opt_ LPBYTE pDriverInfo,
-           LPARAM lParam
-);
-````
 
 
 ## -parameters

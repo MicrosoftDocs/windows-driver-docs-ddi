@@ -7,7 +7,7 @@ old-location: ifsk\rxcebuildaddress.htm
 old-project: ifsk
 ms.assetid: e8845b15-4427-45ea-9192-352d82c89c6a
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: RxCeBuildAddress, RxCeBuildAddress function [Installable File System Drivers], ifsk.rxcebuildaddress, rxce/RxCeBuildAddress, rxref_ee32329f-3111-4ee6-869f-2b8e21d6696c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	rxce.h
 api_name:
 -	RxCeBuildAddress
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILWRITEPHONEBOOKENTRYPARAMS, *LPRILWRITEPHONEBOOKENTRYPARAMS
 req.product: Windows 10 or later.
@@ -51,20 +52,6 @@ req.product: Windows 10 or later.
 
 
 <b>RxCeBuildAddress</b> associates a transport address with a transport binding.
-
-
-## -syntax
-
-
-````
-NTSTATUS RxCeBuildAddress(
-  _Inout_ PRXCE_ADDRESS               pAddress,
-  _In_    PRXCE_TRANSPORT             pTransport,
-  _In_    PTRANSPORT_ADDRESS          pTransportAddress,
-  _In_    PRXCE_ADDRESS_EVENT_HANDLER pHandler,
-  _In_    PVOID                       pEventContext
-);
-````
 
 
 ## -parameters
@@ -147,12 +134,11 @@ When <b>RxCeBuildAddress</b> is successful, the data members in the RXCE_ADDRESS
 
 ## -see-also
 
-<a href="..\rxce\nf-rxce-rxceteardownaddress.md">RxCeTearDownAddress</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553488">RxCeTearDownAddress</a>
  
 
  
-
 

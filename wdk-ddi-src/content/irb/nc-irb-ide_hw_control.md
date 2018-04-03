@@ -7,7 +7,7 @@ old-location: storage\idehwcontrol.htm
 old-project: storage
 ms.assetid: 53f85f8d-3b50-4cfe-8bdd-d41d8c057f3e
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IDE_HW_CONTROL, IdeHwControl, IdeHwControl routine [Storage Devices], atartns_9c868c08-5470-4940-9067-0aa8a796b191.xml, irb/IdeHwControl, storage.idehwcontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	irb.h
 api_name:
 -	IdeHwControl
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: LUID
+req.typenames: IDD_DRIVER_GLOBALS, *PIDD_DRIVER_GLOBALS, IDD_DRIVER_GLOBALS, *PIDD_DRIVER_GLOBALS
 ---
 
 # IDE_HW_CONTROL callback
@@ -51,21 +52,6 @@ req.typenames: LUID
 
 The <i>IdeHwControl</i> miniport driver routine notifies the miniport driver about Plug and Play (PnP) and power events.
 <div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
-
-## -prototype
-
-
-````
-IDE_HW_CONTROL IdeHwControl;
-
-BOOLEAN IdeHwControl(
-  _In_    PVOID              ChannelExtension,
-  _In_    IDE_CONTROL_ACTION ControlAction,
-  _Inout_ PVOID              Parameters
-)
-{ ... }
-````
-
 
 ## -parameters
 
@@ -79,7 +65,7 @@ A pointer to the channel extension.
 
 ### -param ControlAction [in]
 
-Contains an enumerator value of type <a href="..\irb\ne-irb-ide_control_action.md">IDE_CONTROL_ACTION</a> that indicates the control action to perform. 
+Contains an enumerator value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff559082">IDE_CONTROL_ACTION</a> that indicates the control action to perform. 
 
 
 ### -param Parameters [in, out]
@@ -166,12 +152,11 @@ After vendor-defined power management is registered, the miniport driver will be
 
 ## -see-also
 
-<a href="..\irb\nf-irb-ataportgetuncachedextension.md">AtaPortGetUncachedExtension</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550165">AtaPortGetUncachedExtension</a>
  
 
  
-
 

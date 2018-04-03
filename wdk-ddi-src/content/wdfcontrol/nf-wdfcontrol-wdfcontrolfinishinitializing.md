@@ -39,7 +39,8 @@ api_location:
 -	Wdf01000.sys.dll
 api_name:
 -	WdfControlFinishInitializing
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_DEVICE_SHUTDOWN_FLAGS
 req.product: Windows 10 or later.
@@ -54,16 +55,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF only]
 
 The <b>WdfControlFinishInitializing</b> method informs the framework that a driver has finished initializing a specified control device object.
-
-
-## -syntax
-
-
-````
-VOID WdfControlFinishInitializing(
-  _In_ WDFDEVICE Device
-);
-````
 
 
 ## -parameters
@@ -98,7 +89,7 @@ For more information about control device objects and calling <b>WdfControlFinis
 
 #### Examples
 
-For a code example that uses <b>WdfControlFinishInitializing</b>, see <a href="..\wdfcontrol\nf-wdfcontrol-wdfcontroldeviceinitallocate.md">WdfControlDeviceInitAllocate</a>.
+For a code example that uses <b>WdfControlFinishInitializing</b>, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff545841">WdfControlDeviceInitAllocate</a>.
 
 <div class="code"></div>
 

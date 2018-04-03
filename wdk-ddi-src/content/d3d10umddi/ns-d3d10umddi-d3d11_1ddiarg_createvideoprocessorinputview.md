@@ -7,7 +7,7 @@ old-location: display\d3d11_1ddiarg_createvideoprocessorinputview.htm
 old-project: display
 ms.assetid: 73F8F146-A38B-4890-867D-862361455AD4
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW, D3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW structure [Display Devices], PD3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW, PD3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW structure pointer [Display Devices], d3d10umddi/D3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW, d3d10umddi/PD3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW, display.d3d11_1ddiarg_createvideoprocessorinputview
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3d10umddi.h
 api_name:
 -	D3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW
 ---
@@ -50,21 +51,6 @@ req.typenames: D3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW
 
 
 Describes the video processor's input view.
-
-
-## -syntax
-
-
-````
-typedef struct _D3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW {
-  D3D10DDI_HRESOURCE             hDrvResource;
-  D3D11_1DDI_HVIDEOPROCESSORENUM hDrvVideoProcessorEnum;
-  UINT                           FourCC;
-  UINT                           MipSlice;
-  UINT                           FirstArraySlice;
-  UINT                           ArraySize;
-} D3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW, *PD3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW;
-````
 
 
 ## -struct-fields
@@ -108,12 +94,11 @@ The number of array slices for the texture.
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddiarg_createvideoprocessoroutputview.md">D3D11_1DDIARG_CREATEVIDEOPROCESSOROUTPUTVIEW</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406320">D3D11_1DDIARG_CREATEVIDEOPROCESSOROUTPUTVIEW</a>
  
 
  
-
 

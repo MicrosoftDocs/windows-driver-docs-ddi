@@ -38,7 +38,8 @@ api_location:
 -	Winsplp.h
 api_name:
 -	BranchOfficeJobData
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BranchOfficeJobData, *PBranchOfficeJobData
 req.product: Windows 10 or later.
@@ -51,24 +52,6 @@ req.product: Windows 10 or later.
 
 
 This structure contains the type of event to log (eEventType), the job ID, and the data required by the event.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  EBranchOfficeJobEventType eEventType;
-  DWORD                     JobId;
-  union {
-    BranchOfficeJobDataPrinted        LogJobPrinted;
-    BranchOfficeJobDataRendered       LogJobRendered;
-    BranchOfficeJobDataError          LogJobError;
-    BranchOfficeJobDataPipelineFailed LogPipelineFailed;
-    BranchOfficeLogOfflineFileFull    LogOfflineFileFull;
-  } JobInfo;
-} BranchOfficeJobData, *PBranchOfficeJobData;
-````
 
 
 ## -struct-fields

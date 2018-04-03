@@ -38,7 +38,8 @@ api_location:
 -	printoem.h
 api_name:
 -	OEMIcmDeleteColorTransform
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STDVARIABLEINDEX
 req.product: Windows 10 or later.
@@ -51,17 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <code>OEMIcmDeleteColorTransform</code> function deletes the specified color transform.
-
-
-## -syntax
-
-
-````
-BOOL APIENTRY OEMIcmDeleteColorTransform(
-   DHPDEV dhpdev,
-   HANDLE hcmXform
-);
-````
 
 
 ## -parameters

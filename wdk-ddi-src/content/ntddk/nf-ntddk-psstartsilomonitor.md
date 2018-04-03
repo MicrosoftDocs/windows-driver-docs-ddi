@@ -7,7 +7,7 @@ old-location: kernel\psstartsilomonitor.htm
 old-project: kernel
 ms.assetid: 65828926-FDA7-4F65-AD55-B7E03639FA27
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: PsStartSiloMonitor, PsStartSiloMonitor routine [Kernel-Mode Driver Architecture], kernel.psstartsilomonitor, ntddk/PsStartSiloMonitor
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddk.h
 api_name:
 -	PsStartSiloMonitor
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
@@ -50,16 +51,6 @@ req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 
 
 This routine tries to start the server silo monitor.
-
-
-## -syntax
-
-
-````
-NTSTATUS PsStartSiloMonitor(
-  _In_ PSILO_MONITOR Monitor
-);
-````
 
 
 ## -parameters

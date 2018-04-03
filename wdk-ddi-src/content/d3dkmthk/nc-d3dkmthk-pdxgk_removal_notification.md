@@ -7,7 +7,7 @@ old-location: display\pdxgk_removal_notification.htm
 old-project: display
 ms.assetid: F9AA5859-8E8A-491D-B149-F42E418A64DC
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PDXGK_REMOVAL_NOTIFICATION, *PDXGK_REMOVAL_NOTIFICATION callback function [Display Devices], d3dkmthk/*PDXGK_REMOVAL_NOTIFICATION, display.pdxgk_removal_notification"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmthk.h
 api_name:
 -	*PDXGK_REMOVAL_NOTIFICATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_TARGETMODE_DETAIL_TIMING
 ---
@@ -50,16 +51,6 @@ req.typenames: DXGK_TARGETMODE_DETAIL_TIMING
 
 
 A callback indicating that the graphics device is being removed.
-
-
-## -prototype
-
-
-````
-VOID *PDXGK_REMOVAL_NOTIFICATION(
-   PVOID GraphicsDeviceHandle
-);
-````
 
 
 ## -parameters
