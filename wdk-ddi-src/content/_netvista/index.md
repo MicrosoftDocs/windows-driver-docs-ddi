@@ -17,20 +17,15 @@ Overview of the Networking drivers for Windows Vista and later technology.
 
 To develop Networking drivers for Windows Vista and later, you need these headers:
 
- * [arrayofelements.hpp](..\arrayofelements\index.md)
- * [atm.h](..\atm\index.md)
- * [backpack.h](..\backpack\index.md)
  * [dot11wdi.h](..\dot11wdi\index.md)
  * [fwpmk.h](..\fwpmk\index.md)
  * [fwpsk.h](..\fwpsk\index.md)
  * [knetpwrdepbroker.h](..\knetpwrdepbroker\index.md)
- * [mf.h](..\mf\index.md)
  * [ndis.h](..\ndis\index.md)
  * [ndischimney.h](..\ndischimney\index.md)
  * [ndisndk.h](..\ndisndk\index.md)
  * [ndiswwan.h](..\ndiswwan\index.md)
  * [ndkpi.h](..\ndkpi\index.md)
- * [ndkrss.h](..\ndkrss\index.md)
  * [netadapter.h](..\netadapter\index.md)
  * [netadaptercxtypes.h](..\netadaptercxtypes\index.md)
  * [netadapterpacket.h](..\netadapterpacket\index.md)
@@ -48,13 +43,10 @@ To develop Networking drivers for Windows Vista and later, you need these header
  * [netrxqueue.h](..\netrxqueue\index.md)
  * [nettxqueue.h](..\nettxqueue\index.md)
  * [ntddndis.h](..\ntddndis\index.md)
- * [ntddnlb.h](..\ntddnlb\index.md)
  * [ntddrilapitypes.h](..\ntddrilapitypes\index.md)
  * [oemrilapitypes.h](..\oemrilapitypes\index.md)
  * [rilapi.h](..\rilapi\index.md)
  * [rilapitypes.h](..\rilapitypes\index.md)
- * [tlvgenerated_.hpp](..\tlvgenerated_\index.md)
- * [tlvgeneratorparser.hpp](..\tlvgeneratorparser\index.md)
  * [vmbuskernelmodeclientlibapi.h](..\vmbuskernelmodeclientlibapi\index.md)
  * [wditypes.hpp](..\wditypes\index.md)
  * [windot11.h](..\windot11\index.md)
@@ -65,7 +57,6 @@ To develop Networking drivers for Windows Vista and later, you need these header
  * [wsk.h](..\wsk\index.md)
  * [wskndk.h](..\wskndk\index.md)
  * [wwan.h](..\wwan\index.md)
- * [xfilter.h](..\xfilter\index.md)
 
 For the programming guide, see [Networking drivers for Windows Vista and later](===404===https://docs.microsoft.com/en-us/windows-hardware/drivers/netvista).
 
