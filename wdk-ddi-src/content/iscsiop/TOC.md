@@ -1,5 +1,7 @@
 # [Storage](../_storage/index.md)
 ## [Iscsiop.h](index.md)
+### [ISCSI_ADAPTER_EVENT_CODE enumeration](../iscsiop/ne-iscsiop-iscsi_adapter_event_code.md)
+### [LOGINSESSIONTYPE enumeration](../iscsiop/ne-iscsiop-loginsessiontype.md)
 ### [*PISCSI_ADAPTER_EVENT_CODE enumeration](../iscsiop/ne-iscsiop-piscsi_adapter_event_code.md)
 ### [*PLOGINSESSIONTYPE enumeration](../iscsiop/ne-iscsiop-ploginsessiontype.md)
 ### [_AddConnectionToSession_IN structure](../iscsiop/ns-iscsiop-_addconnectiontosession_in.md)

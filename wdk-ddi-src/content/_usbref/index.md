@@ -2,7 +2,7 @@
 UID: TP:usbref
 ms.assetid: 3ef75da3-dd0a-3f40-b741-d6c381f1ed78
 ms.author: windowsdriverdev
-ms.date: 02/27/18
+ms.date: 04/03/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -11,23 +11,36 @@ ms.topic: portal
 
 # Universal Serial Bus(USB)
 
+## -description
 
 Overview of the Universal Serial Bus(USB) technology.
 
 To develop Universal Serial Bus(USB), you need these headers:
 
+ * [hubbusif.h](..\hubbusif\index.md)
+ * [kusbfnclasslib.h](..\kusbfnclasslib\index.md)
+ * [ucmcx.h](..\ucmcx\index.md)
+ * [ucmfuncenum.h](..\ucmfuncenum\index.md)
+ * [ucmglobals.h](..\ucmglobals\index.md)
  * [ucmmanager.h](..\ucmmanager\index.md)
+ * [ucmtcpcicx.h](..\ucmtcpcicx\index.md)
  * [ucmtcpcidevice.h](..\ucmtcpcidevice\index.md)
+ * [ucmtcpcifuncenum.h](..\ucmtcpcifuncenum\index.md)
  * [ucmtcpciglobals.h](..\ucmtcpciglobals\index.md)
  * [ucmtcpciportcontroller.h](..\ucmtcpciportcontroller\index.md)
  * [ucmtcpciportcontrollerrequests.h](..\ucmtcpciportcontrollerrequests\index.md)
+ * [ucmtcpcispec.h](..\ucmtcpcispec\index.md)
  * [ucmtypes.h](..\ucmtypes\index.md)
  * [ucxclass.h](..\ucxclass\index.md)
  * [ucxcontroller.h](..\ucxcontroller\index.md)
  * [ucxendpoint.h](..\ucxendpoint\index.md)
+ * [ucxfuncenum.h](..\ucxfuncenum\index.md)
+ * [ucxglobals.h](..\ucxglobals\index.md)
  * [ucxroothub.h](..\ucxroothub\index.md)
  * [ucxsstreams.h](..\ucxsstreams\index.md)
  * [ucxusbdevice.h](..\ucxusbdevice\index.md)
+ * [udecxfuncenum.h](..\udecxfuncenum\index.md)
+ * [udecxtypes.h](..\udecxtypes\index.md)
  * [udecxurb.h](..\udecxurb\index.md)
  * [udecxusbdevice.h](..\udecxusbdevice\index.md)
  * [udecxusbendpoint.h](..\udecxusbendpoint\index.md)
@@ -35,7 +48,10 @@ To develop Universal Serial Bus(USB), you need these headers:
  * [ufxbase.h](..\ufxbase\index.md)
  * [ufxclient.h](..\ufxclient\index.md)
  * [ufxproprietarycharger.h](..\ufxproprietarycharger\index.md)
+ * [urscx.h](..\urscx\index.md)
  * [ursdevice.h](..\ursdevice\index.md)
+ * [ursfuncenum.h](..\ursfuncenum\index.md)
+ * [ursglobals.h](..\ursglobals\index.md)
  * [urstypes.h](..\urstypes\index.md)
  * [usb.h](..\usb\index.md)
  * [usbbusif.h](..\usbbusif\index.md)
@@ -44,6 +60,7 @@ To develop Universal Serial Bus(USB), you need these headers:
  * [usbfnbase.h](..\usbfnbase\index.md)
  * [usbfnioctl.h](..\usbfnioctl\index.md)
  * [usbioctl.h](..\usbioctl\index.md)
+ * [usbiodef.h](..\usbiodef\index.md)
  * [usbspec.h](..\usbspec\index.md)
 
 For the programming guide, see [Universal Serial Bus(USB)](https://docs.microsoft.com/en-us/windows-hardware/drivers/stream).
@@ -277,6 +294,7 @@ For the programming guide, see [Universal Serial Bus(USB)](https://docs.microsof
 | [EVT_UFX_DEVICE_TESTHOOK callback](..\ufxclient\nc-ufxclient-evt_ufx_device_testhook.md) | This IOCTL code is not supported. |
 | [EVT_UFX_DEVICE_TEST_MODE_SET callback](..\ufxclient\nc-ufxclient-evt_ufx_device_test_mode_set.md) | The client driver's implementation to set the test mode of the function controller. |
 | [EVT_UFX_DEVICE_USB_STATE_CHANGE callback](..\ufxclient\nc-ufxclient-evt_ufx_device_usb_state_change.md) | The client driver's implementation to update the state of the USB device. |
+| [EVT_URS_DEVICE_FILTER_RESOURCE_REQUIREMENTS callback](..\ursdevice\nc-ursdevice-evt_urs_device_filter_resource_requirements.md) | The USB dual-role class extension invokes this callback to allow the client driver to insert the resources from the resource-requirements-list object to resource lists that will be used during the life time of each role. |
 | [EVT_URS_SET_ROLE callback](..\ursdevice\nc-ursdevice-evt_urs_set_role.md) | The URS class extension invokes this event callback when it requires the client driver to change the role of the controller. |
 | [PUSB_BUSIFFN_ENUM_LOG_ENTRY callback](..\usbbusif\nc-usbbusif-pusb_busiffn_enum_log_entry.md) | This callback function is not supported.The EnumLogEntry routine makes a log entry. |
 | [PUSB_BUSIFFN_GETUSBDI_VERSION callback](..\usbbusif\nc-usbbusif-pusb_busiffn_getusbdi_version.md) | The GetUSBDIVersion routine returns the USB interface version number and the version number of the USB specification that defines the interface, along with information about host controller capabilities. |
@@ -293,7 +311,7 @@ For the programming guide, see [Universal Serial Bus(USB)](https://docs.microsof
 | [USBC_START_DEVICE_CALLBACK callback](..\usbbusif\nc-usbbusif-usbc_start_device_callback.md) | The USBC_START_DEVICE_CALLBACK routine allows a USB client driver to provide a custom definition of the interface collections on a device. |
 | [USBFN_GET_ATTACH_ACTION callback](..\usbfnattach\nc-usbfnattach-usbfn_get_attach_action.md) | The filter driver's implementation that gets invoked when charger is attached to the port. |
 | [USBFN_GET_ATTACH_ACTION_ABORT callback](..\usbfnattach\nc-usbfnattach-usbfn_get_attach_action_abort.md) | The filter driver's implementation to abort an attach-detect operation. |
-| [USBFN_SET_DEVICE_STATE callback](..\usbfnattach\nc-usbfnattach-usbfn_set_device_state.md) | The filter driver's implementation to set the device state and operating bus speed. |
+| [USBFN_SET_DEVICE_STATE callback](..\usbfnattach\nc-usbfnattach-usbfn_set_device_state.md) | The filter driver's implementation to abort an attach-detect operation. |
 
 ## Structures
 
