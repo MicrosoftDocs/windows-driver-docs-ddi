@@ -2,7 +2,7 @@
 UID: NA:parallel
 ms.assetid: e507d2c6-0d63-3a57-be51-7db3ba17a47f
 ms.author: windowsdriverdev
-ms.date: 02/27/18
+ms.date: 04/02/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -12,8 +12,11 @@ ms.topic: portal
 # Parallel.h header
 
 
+## -description
 
-This header is used by Parallel Ports. For more information, see
+
+This header is used by parports. For more information, see:
+
 - [Parallel Ports](../_parports/index.md)
 
 ## Parallel Port Callback Routines

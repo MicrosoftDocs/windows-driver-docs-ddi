@@ -2,7 +2,7 @@
 UID: TP:nfpdrivers
 ms.assetid: e2a2f925-0a75-3b74-b121-38dab2d236ad
 ms.author: windowsdriverdev
-ms.date: 02/27/18
+ms.date: 04/02/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -11,12 +11,16 @@ ms.topic: portal
 
 # Near field communications (NFC)
 
+## -description
 
 Overview of the Near field communications (NFC) technology.
 
 To develop Near field communications (NFC), you need these headers:
 
+ * [gnssdriver.h](..\gnssdriver\index.md)
  * [nfccx.h](..\nfccx\index.md)
+ * [nfccxbugcodes.h](..\nfccxbugcodes\index.md)
+ * [nfccxfuncenum.h](..\nfccxfuncenum\index.md)
  * [nfcradiodev.h](..\nfcradiodev\index.md)
  * [nfcsedev.h](..\nfcsedev\index.md)
  * [nfpdev.h](..\nfpdev\index.md)

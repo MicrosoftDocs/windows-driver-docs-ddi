@@ -1,7 +1,4 @@
 # [Simple Peripheral Bus (SPB)](index.md)
-## [Reshub.h](../reshub/index.md)
-### [_PNP_SERIAL_BUS_DESCRIPTOR structure](../reshub/ns-reshub-_pnp_serial_bus_descriptor.md)
-### [_RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER structure](../reshub/ns-reshub-_rh_query_connection_properties_output_buffer.md)
 ## [Spb.h](../spb/index.md)
 ### [SPB_TRANSFER_BUFFER structure](../spb/ns-spb-spb_transfer_buffer.md)
 ### [SPB_TRANSFER_BUFFER_FORMAT enumeration](../spb/ne-spb-spb_transfer_buffer_format.md)
