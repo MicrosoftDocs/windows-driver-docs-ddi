@@ -2,7 +2,7 @@
 UID: NA:portcls
 ms.assetid: 6e1a2bb6-6b07-3266-83bb-aa08030d97d6
 ms.author: windowsdriverdev
-ms.date: 04/02/18
+ms.date: 04/03/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

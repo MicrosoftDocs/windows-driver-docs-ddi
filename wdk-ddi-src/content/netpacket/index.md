@@ -2,7 +2,7 @@
 UID: NA:netpacket
 ms.assetid: 54dc62c9-5c96-374f-b308-15f7917ebfde
 ms.author: windowsdriverdev
-ms.date: 04/02/18
+ms.date: 04/03/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

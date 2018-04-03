@@ -2,7 +2,7 @@
 UID: NA:wdfresource
 ms.assetid: ae262a83-02ac-307d-bec4-a4655f8a7524
 ms.author: windowsdriverdev
-ms.date: 04/02/18
+ms.date: 04/03/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

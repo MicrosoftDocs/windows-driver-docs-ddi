@@ -2,7 +2,7 @@
 UID: NA:resourcelist
 ms.assetid: ee54a3ee-bad1-37cb-979c-e65edd4dc048
 ms.author: windowsdriverdev
-ms.date: 04/02/18
+ms.date: 04/03/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

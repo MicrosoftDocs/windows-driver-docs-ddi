@@ -2,7 +2,7 @@
 UID: NA:d3d10tokenizedprogramformat
 ms.assetid: 1fcec4a7-e202-3a55-9ec6-d5bb95f68bad
 ms.author: windowsdriverdev
-ms.date: 04/02/18
+ms.date: 04/03/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

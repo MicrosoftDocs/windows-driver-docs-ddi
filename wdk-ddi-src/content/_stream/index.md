@@ -2,7 +2,7 @@
 UID: TP:stream
 ms.assetid: 955ea1c2-d8bc-36d6-8195-eadc9d53b016
 ms.author: windowsdriverdev
-ms.date: 04/02/18
+ms.date: 04/03/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

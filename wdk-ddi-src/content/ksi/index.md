@@ -2,7 +2,7 @@
 UID: NA:ksi
 ms.assetid: fdd7f024-67ad-3717-8eef-b2160dba827d
 ms.author: windowsdriverdev
-ms.date: 04/02/18
+ms.date: 04/03/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

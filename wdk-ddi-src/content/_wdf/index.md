@@ -2,7 +2,7 @@
 UID: TP:wdf
 ms.assetid: cf4c7959-f8f4-3342-82e9-ced7b9f1b959
 ms.author: windowsdriverdev
-ms.date: 04/02/18
+ms.date: 04/03/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,13 +58,11 @@ To develop Windows Driver Framework, you need these headers:
  * [wdfwmi.h](..\wdfwmi\index.md)
  * [wdfworkitem.h](..\wdfworkitem\index.md)
  * [wudfddi.h](..\wudfddi\index.md)
- * [wudfddi.idl](..\wudfddi\index.md)
  * [wudfddi_hwaccess.h](..\wudfddi_hwaccess\index.md)
  * [wudfddi_types.h](..\wudfddi_types\index.md)
  * [wudfdevice.h](..\wudfdevice\index.md)
  * [wudfinterrupt.h](..\wudfinterrupt\index.md)
  * [wudfusb.h](..\wudfusb\index.md)
- * [wudfusb.idl](..\wudfusb\index.md)
  * [wudfwdm.h](..\wudfwdm\index.md)
  * [wudfworkitem.h](..\wudfworkitem\index.md)
 

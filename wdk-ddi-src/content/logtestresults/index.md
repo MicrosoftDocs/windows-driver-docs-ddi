@@ -2,7 +2,7 @@
 UID: NA:logtestresults
 ms.assetid: 7e772f4b-ce8e-3c79-b28a-9dd7f657bb79
 ms.author: windowsdriverdev
-ms.date: 04/02/18
+ms.date: 04/03/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

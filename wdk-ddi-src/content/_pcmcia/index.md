@@ -2,7 +2,7 @@
 UID: TP:pcmcia
 ms.assetid: be0dbb4f-1fa6-3700-9bd4-462e8bb27384
 ms.author: windowsdriverdev
-ms.date: 04/02/18
+ms.date: 04/03/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

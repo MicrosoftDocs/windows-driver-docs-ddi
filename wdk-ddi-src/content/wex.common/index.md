@@ -2,7 +2,7 @@
 UID: NA:wex.common
 ms.assetid: f4091cff-294b-3538-bb18-c478d422fee1
 ms.author: windowsdriverdev
-ms.date: 04/02/18
+ms.date: 04/03/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

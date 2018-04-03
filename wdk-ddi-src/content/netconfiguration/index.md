@@ -2,7 +2,7 @@
 UID: NA:netconfiguration
 ms.assetid: 511aa490-3d63-3b72-a325-bdea5ca35ecb
 ms.author: windowsdriverdev
-ms.date: 04/02/18
+ms.date: 04/03/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

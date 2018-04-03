@@ -2,7 +2,7 @@
 UID: NA:miracompanionddi
 ms.assetid: 5811a359-7e4e-3b02-b163-470fcae18b26
 ms.author: windowsdriverdev
-ms.date: 04/02/18
+ms.date: 04/03/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

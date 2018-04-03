@@ -2,7 +2,7 @@
 UID: NA:rxce
 ms.assetid: 21be7cda-22a7-31c2-8fd4-74b9d08f24bf
 ms.author: windowsdriverdev
-ms.date: 04/02/18
+ms.date: 04/03/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

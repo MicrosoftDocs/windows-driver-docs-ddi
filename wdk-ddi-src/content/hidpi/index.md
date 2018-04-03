@@ -2,7 +2,7 @@
 UID: NA:hidpi
 ms.assetid: 755e703a-2165-39e7-a3dc-27fc70f42714
 ms.author: windowsdriverdev
-ms.date: 04/02/18
+ms.date: 04/03/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

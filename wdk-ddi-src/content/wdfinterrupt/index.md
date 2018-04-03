@@ -2,7 +2,7 @@
 UID: NA:wdfinterrupt
 ms.assetid: d693610e-50f5-3bb7-9cb0-aed7080ca4dd
 ms.author: windowsdriverdev
-ms.date: 04/02/18
+ms.date: 04/03/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
