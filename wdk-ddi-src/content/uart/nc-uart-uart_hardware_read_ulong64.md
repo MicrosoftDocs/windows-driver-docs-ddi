@@ -2,7 +2,7 @@
 UID: NC:uart.UART_HARDWARE_READ_ULONG64
 title: UART_HARDWARE_READ_ULONG64
 author: windows-driver-content
-description: 
+description: Reads a ULONG64 value from the specified register address.
 ms.assetid: b94043dd-4c44-499c-8aee-6ce6f38f6310
 ms.author: windowsdriverdev
 ms.date: 
@@ -12,7 +12,7 @@ ms.technology: windows-devices
 req.header: uart.h
 req.include-header:
 req.target-type:
-req.target-min-winverclnt:
+req.target-min-winverclnt: Windows 10, version 1803
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
@@ -42,7 +42,7 @@ targetos: Windows
 
 ## -description
 
-Implemented by the client driver to ... 
+Reads a ULONG64 value from the specified port address. 
 
 ## -prototype
 
@@ -63,17 +63,19 @@ ULONG64 UartHardwareReadUlong64
 
 ## -parameters
 
-### -param Address: 
+### -param Address
 
+A pointer to the register address, which must be a mapped range in memory space.
 
 
 ## -returns
 
-Returns ULONG64 that ...
+Returns ULONG64 that is read from the specified register address.
+
 
 ## -remarks
 
-Register your implementation of this callback function by setting the appropriate member of <!-- REPLACE ME --> and then calling <!-- REPLACE ME -->.
+Register your implementation of this callback function by setting the **ReadRegister64** member of the [**_UART_HARDWARE_ACCESS**](ns-uart-_uart_hardware_access.md) structure.
 
 
 ## -see-also

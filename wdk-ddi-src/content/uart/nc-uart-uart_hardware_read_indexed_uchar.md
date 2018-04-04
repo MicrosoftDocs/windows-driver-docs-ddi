@@ -2,7 +2,7 @@
 UID: NC:uart.UART_HARDWARE_READ_INDEXED_UCHAR
 title: UART_HARDWARE_READ_INDEXED_UCHAR
 author: windows-driver-content
-description: 
+description: Reads a byte from the port specified by index.
 ms.assetid: 2553b85b-da83-4fd8-b6f0-5ab629af1fdd
 ms.author: windowsdriverdev
 ms.date: 
@@ -12,7 +12,7 @@ ms.technology: windows-devices
 req.header: uart.h
 req.include-header:
 req.target-type:
-req.target-min-winverclnt:
+req.target-min-winverclnt: Windows 10, version 1803
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
@@ -42,7 +42,8 @@ targetos: Windows
 
 ## -description
 
-Implemented by the client driver to ... 
+Reads a byte from the specified port.
+
 
 ## -prototype
 
@@ -64,18 +65,21 @@ UCHAR UartHardwareReadIndexedUchar
 
 ## -parameters
 
-### -param Port: 
-### -param Index: 
-
+### -param Port
+[_In_] A pointer to a [**_CPPORT**](ns-uart-_cpport.md) structure that was received during port initialization.
+ 
+### -param Index 
+A zero-based index for the port.
 
 
 ## -returns
 
-Returns UCHAR that ...
+Returns the byte that is read from the specified port address.
+
 
 ## -remarks
 
-Register your implementation of this callback function by setting the appropriate member of <!-- REPLACE ME --> and then calling <!-- REPLACE ME -->.
+Register your implementation of this callback function by setting the appropriate member of the [**_CPPORT**](ns-uart-_cpport.md) structure.
 
 
 ## -see-also

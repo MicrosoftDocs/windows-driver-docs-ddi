@@ -2,7 +2,7 @@
 UID: NC:uart.UART_GET_BYTE
 title: UART_GET_BYTE
 author: windows-driver-content
-description: 
+description: Reads a data byte from the UART device.
 ms.assetid: d0b97aa3-4e93-498d-8afc-44588fd21388
 ms.author: windowsdriverdev
 ms.date: 
@@ -12,7 +12,7 @@ ms.technology: windows-devices
 req.header: uart.h
 req.include-header:
 req.target-type:
-req.target-min-winverclnt:
+req.target-min-winverclnt: Windows 10, version 1803 
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
@@ -42,7 +42,7 @@ targetos: Windows
 
 ## -description
 
-Implemented by the client driver to ... 
+Reads a data byte from the UART device. 
 
 ## -prototype
 
@@ -64,18 +64,25 @@ UART_STATUS UartGetByte
 
 ## -parameters
 
-### -param Port: 
+### -param Port
+[_Inout_] A pointer to a [**_CPPORT**](ns-uart-_cpport.md) structure that contains the  address of the port object that describes the UART hardware.
+ 
 ### -param Byte: 
-
-
+[_Out_] A pointer to a variable that contains received byte.
 
 ## -returns
 
-Returns UART_STATUS that ...
+Returns [**UART_STATUS**](ne-uart-uart_status.md)-type value that indicates success or failure of the operation.
 
 ## -remarks
 
-Register your implementation of this callback function by setting the appropriate member of <!-- REPLACE ME --> and then calling <!-- REPLACE ME -->.
+Register your implementation of this callback function by setting the appropriate member of [**UART_HARDWARE_DRIVER**](ns-uart-_uart_hardware_driver.md).
 
 
 ## -see-also
+
+[**UART_HARDWARE_DRIVER**](ns-uart-_uart_hardware_driver.md)
+
+[**_CPPORT**](ns-uart-_cpport.md) 
+
+[**UART_STATUS**](ne-uart-uart_status.md)

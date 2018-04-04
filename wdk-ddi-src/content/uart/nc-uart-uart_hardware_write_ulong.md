@@ -2,7 +2,7 @@
 UID: NC:uart.UART_HARDWARE_WRITE_ULONG
 title: UART_HARDWARE_WRITE_ULONG
 author: windows-driver-content
-description: 
+description: Writes a ULONG value to the specified port or register.
 ms.assetid: 6c4f3758-dec5-4466-968d-f4eec9eee6bf
 ms.author: windowsdriverdev
 ms.date: 
@@ -12,7 +12,7 @@ ms.technology: windows-devices
 req.header: uart.h
 req.include-header:
 req.target-type:
-req.target-min-winverclnt:
+req.target-min-winverclnt: Windows 10, version 1803
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
@@ -42,7 +42,7 @@ targetos: Windows
 
 ## -description
 
-Implemented by the client driver to ... 
+Writes a ULONG value to the specified port or register. 
 
 ## -prototype
 
@@ -64,18 +64,19 @@ VOID UartHardwareWriteUlong
 
 ## -parameters
 
-### -param Address: 
-### -param Value: 
-
+### -param Address
+A pointer to a variable that contains the port or register address.
+ 
+### -param Value
+A ULONG value to be written to the port or register.
 
 
 ## -returns
 
-Returns VOID that ...
 
 ## -remarks
 
-Register your implementation of this callback function by setting the appropriate member of <!-- REPLACE ME --> and then calling <!-- REPLACE ME -->.
+Register your implementation of this callback function by setting the **WritePort32** or **WriteRegister32** member of the [**_UART_HARDWARE_ACCESS**](ns-uart-_uart_hardware_access.md) structure.
 
 
 ## -see-also

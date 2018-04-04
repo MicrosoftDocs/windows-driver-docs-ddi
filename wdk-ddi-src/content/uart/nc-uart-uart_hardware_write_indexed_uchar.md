@@ -2,7 +2,7 @@
 UID: NC:uart.UART_HARDWARE_WRITE_INDEXED_UCHAR
 title: UART_HARDWARE_WRITE_INDEXED_UCHAR
 author: windows-driver-content
-description: 
+description: Writes a byte to the specified port address.
 ms.assetid: d40c35cf-b369-40cd-bf55-97ce6fe7288b
 ms.author: windowsdriverdev
 ms.date: 
@@ -65,19 +65,23 @@ VOID UartHardwareWriteIndexedUchar
 
 ## -parameters
 
-### -param Port: 
-### -param Index: 
-### -param Value: 
+### -param Port
+[_In_] A pointer to a [**_CPPORT**](ns-uart-_cpport.md) structure that was received during port initialization.
 
+### -param Index
+A zero-based index for the port.
+
+### -param Value
+Specifies a byte to be written to the register.
 
 
 ## -returns
 
-Returns VOID that ...
+
 
 ## -remarks
 
-Register your implementation of this callback function by setting the appropriate member of <!-- REPLACE ME --> and then calling <!-- REPLACE ME -->.
+Register your implementation of this callback function by setting the appropriate member of the [**_CPPORT**](ns-uart-_cpport.md) structure.
 
 
 ## -see-also

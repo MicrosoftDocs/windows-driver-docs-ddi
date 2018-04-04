@@ -2,7 +2,7 @@
 UID: NC:uart.UART_HARDWARE_READ_ULONG
 title: UART_HARDWARE_READ_ULONG
 author: windows-driver-content
-description: 
+description: Reads a ULONG value from the specified port or register.
 ms.assetid: 242023e2-fae1-4d27-9175-3438a9ba3bac
 ms.author: windowsdriverdev
 ms.date: 
@@ -12,7 +12,7 @@ ms.technology: windows-devices
 req.header: uart.h
 req.include-header:
 req.target-type:
-req.target-min-winverclnt:
+req.target-min-winverclnt: Windows 10, version 1803
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
@@ -42,7 +42,7 @@ targetos: Windows
 
 ## -description
 
-Implemented by the client driver to ... 
+Reads a ULONG value from the specified port or register.
 
 ## -prototype
 
@@ -53,7 +53,7 @@ UART_HARDWARE_READ_ULONG UartHardwareReadUlong;
 
 // Definition
 
-ULONG UartHardwareReadUlong 
+ULONG UartHardwareReadUlong
 (
 	PULONG Address
 )
@@ -63,17 +63,19 @@ ULONG UartHardwareReadUlong
 
 ## -parameters
 
-### -param Address: 
+### -param Address 
 
+A pointer to a variable that contains the port or register address.
 
 
 ## -returns
 
-Returns ULONG that ...
+Returns the ULONG value that is read from the specified port or register.
+
 
 ## -remarks
 
-Register your implementation of this callback function by setting the appropriate member of <!-- REPLACE ME --> and then calling <!-- REPLACE ME -->.
+Register your implementation of this callback function by setting the **ReadPort32** or **ReadRegister32** member of the [**_UART_HARDWARE_ACCESS**](ns-uart-_uart_hardware_access.md) structure.
 
 
 ## -see-also

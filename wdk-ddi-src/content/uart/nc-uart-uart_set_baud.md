@@ -65,21 +65,14 @@ BOOLEAN UartSetBaud
 ## -parameters
 
 ### -param Port
-A bitwise of these flags:
-
-- PORT_DEFAULT_RATE   0x0001
-- PORT_RING_INDICATOR 0x0002
-- PORT_MODEM_CONTROL  0x0004
-- PORT_SAVED          0x0008
-- PORT_FORCE_32BIT_IO 0x0010
-
+[_Inout_] A pointer to a [**_CPPORT**](ns-uart-_cpport.md) structure that contains the  address of the port object that describes the UART hardware.
 
 ### -param Rate: 
-The baud rate to set. 
+The baud rate to set in bits per second.
 
 ## -returns
 
-Returns a BOOLEAN that ...
+Returns TRUE if the baud rate was programmed, FALSE otherwise.
 
 ## -remarks
 
@@ -87,3 +80,7 @@ Register your implementation of this callback function by setting the appropriat
 
 
 ## -see-also
+
+[**UART_HARDWARE_DRIVER**](ns-uart-_uart_hardware_driver.md)
+
+[**_CPPORT**](ns-uart-_cpport.md) 

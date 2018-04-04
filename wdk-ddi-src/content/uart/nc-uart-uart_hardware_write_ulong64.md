@@ -2,7 +2,7 @@
 UID: NC:uart.UART_HARDWARE_WRITE_ULONG64
 title: UART_HARDWARE_WRITE_ULONG64
 author: windows-driver-content
-description: 
+description: Writes a ULONG64 value to the specified register address.
 ms.assetid: 28aa4d96-2798-44ba-b736-04df60fb098b
 ms.author: windowsdriverdev
 ms.date: 
@@ -12,7 +12,7 @@ ms.technology: windows-devices
 req.header: uart.h
 req.include-header:
 req.target-type:
-req.target-min-winverclnt:
+req.target-min-winverclnt: Windows 10, version 1803
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
@@ -42,7 +42,7 @@ targetos: Windows
 
 ## -description
 
-Implemented by the client driver to ... 
+Writes a ULONG64 value to the specified register address.
 
 ## -prototype
 
@@ -53,7 +53,7 @@ UART_HARDWARE_WRITE_ULONG64 UartHardwareWriteUlong64;
 
 // Definition
 
-VOID UartHardwareWriteUlong64 
+VOID UartHardwareWriteUlong64
 (
 	PULONG64 Address
 	ULONG64 Value
@@ -64,18 +64,19 @@ VOID UartHardwareWriteUlong64
 
 ## -parameters
 
-### -param Address: 
-### -param Value: 
+### -param Address
+A pointer to the register, which must be a mapped range in memory space.
 
+### -param Value
+A ULONG64 value to be written to the register.
 
 
 ## -returns
 
-Returns VOID that ...
 
 ## -remarks
 
-Register your implementation of this callback function by setting the appropriate member of <!-- REPLACE ME --> and then calling <!-- REPLACE ME -->.
+Register your implementation of this callback function by setting the **WriteRegister64** member of the [**_UART_HARDWARE_ACCESS**](ns-uart-_uart_hardware_access.md) structure.
 
 
 ## -see-also

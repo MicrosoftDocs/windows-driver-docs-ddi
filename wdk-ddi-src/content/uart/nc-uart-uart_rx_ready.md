@@ -2,7 +2,7 @@
 UID: NC:uart.UART_RX_READY
 title: UART_RX_READY
 author: windows-driver-content
-description: 
+description: Determines whether there is data pending in the UART hardware.
 ms.assetid: c0c52445-f45a-4032-9fee-af6206d77809
 ms.author: windowsdriverdev
 ms.date: 
@@ -12,7 +12,7 @@ ms.technology: windows-devices
 req.header: uart.h
 req.include-header:
 req.target-type:
-req.target-min-winverclnt:
+req.target-min-winverclnt: Windows 10, version 1803
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
@@ -42,7 +42,7 @@ targetos: Windows
 
 ## -description
 
-Implemented by the client driver to ... 
+Determines whether there is data pending in the UART hardware. 
 
 ## -prototype
 
@@ -63,17 +63,23 @@ BOOLEAN UartRxReady
 
 ## -parameters
 
-### -param Port: 
-
+### -param Port
+[_Inout_] A pointer to a [**_CPPORT**](ns-uart-_cpport.md) structure that contains the  address of the port object that describes the UART hardware.
 
 
 ## -returns
 
-Returns BOOLEAN that ...
+Returns TRUE if data is available, FALSE otherwise.
 
 ## -remarks
 
-Register your implementation of this callback function by setting the appropriate member of <!-- REPLACE ME --> and then calling <!-- REPLACE ME -->.
+Register your implementation of this callback function by setting the appropriate member of [**UART_HARDWARE_DRIVER**](ns-uart-_uart_hardware_driver.md).
 
 
 ## -see-also
+
+[**UART_HARDWARE_DRIVER**](ns-uart-_uart_hardware_driver.md)
+
+[**_CPPORT**](ns-uart-_cpport.md)
+
+[**UART_STATUS**](ne-uart-uart_status.md)

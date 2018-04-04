@@ -2,7 +2,7 @@
 UID: NC:uart.UART_HARDWARE_READ_USHORT
 title: UART_HARDWARE_READ_USHORT
 author: windows-driver-content
-description: 
+description: Reads a USHORT value from the specified port or register.
 ms.assetid: d516dfad-577b-4c6b-87df-ab6c7ce5c7f8
 ms.author: windowsdriverdev
 ms.date: 
@@ -12,7 +12,7 @@ ms.technology: windows-devices
 req.header: uart.h
 req.include-header:
 req.target-type:
-req.target-min-winverclnt:
+req.target-min-winverclnt: Windows 10, version 1803
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
@@ -42,7 +42,7 @@ targetos: Windows
 
 ## -description
 
-Implemented by the client driver to ... 
+Reads a USHORT value from the specified port or register. 
 
 ## -prototype
 
@@ -63,17 +63,16 @@ USHORT UartHardwareReadUshort
 
 ## -parameters
 
-### -param Address: 
-
-
+### -param Address
+A pointer to a variable that contains the port or register address.
 
 ## -returns
 
-Returns USHORT that ...
+Returns USHORT that is read from the specified port or register.
 
 ## -remarks
 
-Register your implementation of this callback function by setting the appropriate member of <!-- REPLACE ME --> and then calling <!-- REPLACE ME -->.
+Register your implementation of this callback function by setting the **ReadPort16** or **ReadRegister16** member of the [**_UART_HARDWARE_ACCESS**](ns-uart-_uart_hardware_access.md) structure.
 
 
 ## -see-also
