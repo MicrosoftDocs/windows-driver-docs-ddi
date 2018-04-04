@@ -14,6 +14,9 @@ ms.topic: portal
 ## -description
 
 
-This header is used by TrEE drivers. For more information, see:
+This header contains definitions used to invoke Secure Payment Service via a Trusted Execution Environment (TrEE). 
+
+For more information, see:
 
 - [TrEE drivers](../_treedrv/index.md)
+

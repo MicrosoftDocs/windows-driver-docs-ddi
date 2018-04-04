@@ -39,20 +39,19 @@ targetos: Windows
 
 ## -description
 
-The _PAYMENT_SERVICE_OUT structure contains TBD.
+Input structure for PAYMENT_FUNCTION_PROGRAM_KEY.
 
 ## -struct-fields
 
 ### -field CmdId
 
-TBD
+Status of the program key operation.
  
 ### -field ValidMatchDuration
 
-TBD
+Number of milliseconds elapsed since the last valid authentication to set CDCVM flag.
 
 ## -remarks
 
-TBD
 
 ## -see-also

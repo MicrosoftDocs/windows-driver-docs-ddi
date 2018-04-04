@@ -39,21 +39,21 @@ targetos: Windows
 
 ## -description
 
-The _PAYMENT_SERVICE_OUT structure contains TBD.
+Output structure for PAYMENT_SERVICE_OUT.
 
 ## -struct-fields
 
 ### -field Status
 
-TBD
+Status of the program key operation.
  
 ### -field BioMatchTime
 
-TBD
+Number of milliseconds that elapsed since the device booted up and authentication response has been sent.
  
 ### -field CurrentTime
 
-TBD
+Contains the current time.
  
 
 ## -remarks
