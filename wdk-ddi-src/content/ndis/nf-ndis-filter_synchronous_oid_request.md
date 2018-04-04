@@ -108,8 +108,8 @@ NDIS calls the filter driver’s *FilterSynchronousOidRequest* function to proce
 In addition to modifying the **NDIS_OID_REQUEST** structure, filter drivers can control the request using the return code from *FilterSynchronousOidRequest*:
 
 - NDIS_STATUS_SUCCESS: the OID continues to propagate down to the miniport driver.
- - NDIS_STATUS_ALREADY_COMPLETE: the OID is immediately completed back to the overlying drivers, without first propagating down to the miniport driver. The OID request is completed to the overlying driver with NDIS_STATUS_SUCCESS.
- - Any other status code: the OID is immediately completed back to the overlying drivers, without first propagating down to the miniport driver. The OID request is completed to the overlying driver with the status code returned by the filter driver.
+- NDIS_STATUS_ALREADY_COMPLETE: the OID is immediately completed back to the overlying drivers, without first propagating down to the miniport driver. The OID request is completed to the overlying driver with NDIS_STATUS_SUCCESS.
+- Any other status code: the OID is immediately completed back to the overlying drivers, without first propagating down to the miniport driver. The OID request is completed to the overlying driver with the status code returned by the filter driver.
 
 If the filter driver also registers a [*FilterSynchronousOidRequestComplete*](nf-ndis-filter_synchronous_oid_request_complete.md) handler, NDIS guarantees that the *FilterSynchronousOidRequestComplete* handler will be called if and only if the *FilterSynchronousOidRequest* handler returns NDIS_STATUS_SUCCESS.
 
