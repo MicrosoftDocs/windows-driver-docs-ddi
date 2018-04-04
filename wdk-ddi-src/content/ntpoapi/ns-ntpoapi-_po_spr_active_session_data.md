@@ -60,7 +60,7 @@ To register for System Power Report's Active Session notifications, you must cal
 If the registration is successful, the [DEVICE_NOTIFY_CALLBACK_ROUTINE](https://msdn.microsoft.com/en-us/library/windows/desktop/jj552971) callback is invoked with these value:
 
 - _Type_: PBT_POWERSETTINGCHANGE to indicate a power setting change.
-- _UpdateSetting_: Is a [**POWERBROADCAST_SETTING**](https://msdn.microsoft.com/en-us/library/windows/desktop/aa372723) structure; the **PowerSetting** member is set to GUID_SPR_ACTIVE_SESSION_CHANGE, the **DataLength** member is a [**_PO_SPR_ACTIVE_SESSION_DATA**] structure.
+- _UpdateSetting_: Is a [**POWERBROADCAST_SETTING**](https://msdn.microsoft.com/en-us/library/windows/desktop/aa372723) structure; the **PowerSetting** member is set to GUID_SPR_ACTIVE_SESSION_CHANGE, the **DataLength** member is a **_PO_SPR_ACTIVE_SESSION_DATA** structure.
 
 ## -see-also
 [**PowerSettingRegisterNotification**](https://msdn.microsoft.com/en-us/library/windows/desktop/hh769082)
