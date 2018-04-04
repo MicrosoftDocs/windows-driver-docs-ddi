@@ -39,14 +39,20 @@ targetos: Windows
 
 ## -description
 
+The _PAYMENT_SERVICE_OUT structure contains TBD.
 
 ## -struct-fields
 
 ### -field CmdId
+
+TBD
  
 ### -field ValidMatchDuration
- 
+
+TBD
 
 ## -remarks
+
+TBD
 
 ## -see-also

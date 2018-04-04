@@ -39,14 +39,21 @@ targetos: Windows
 
 ## -description
 
+The _PAYMENT_SERVICE_OUT structure contains TBD.
 
 ## -struct-fields
 
 ### -field Status
+
+TBD
  
 ### -field BioMatchTime
+
+TBD
  
 ### -field CurrentTime
+
+TBD
  
 
 ## -remarks

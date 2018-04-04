@@ -39,12 +39,3 @@ To develop Print, you need these headers:
  * [xpsrassvc.h](..\xpsrassvc\index.md)
 
 
-
-
-This section lists functions, structures, methods, and properties used in printer drivers and spooler components.
-
-
-## In this section
-
-Send comments about this topic to Microsoft
-
