@@ -15,7 +15,7 @@ req.target-min-winverclnt: Windows 10, version 1803
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
-req.lib:NtosKrnl.exe
+req.lib: NtosKrnl.exe
 req.dll:
 req.irql: 
 req.ddi-compliance:
