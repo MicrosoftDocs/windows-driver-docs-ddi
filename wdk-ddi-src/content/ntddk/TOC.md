@@ -405,6 +405,7 @@
 ### [_WHEA_XPF_CACHE_CHECK structure](../ntddk/ns-ntddk-_whea_xpf_cache_check.md)
 ### [_WHEA_XPF_CMC_DESCRIPTOR structure](../ntddk/ns-ntddk-_whea_xpf_cmc_descriptor.md)
 ### [_WHEA_XPF_CONTEXT_INFO structure](../ntddk/ns-ntddk-_whea_xpf_context_info.md)
+### [_WHEA_XPF_MCA_SECTION structure](../ntddk/ns-ntddk-_whea_xpf_mca_section.md)
 ### [_WHEA_XPF_MCE_DESCRIPTOR structure](../ntddk/ns-ntddk-_whea_xpf_mce_descriptor.md)
 ### [_WHEA_XPF_MC_BANK_DESCRIPTOR structure](../ntddk/ns-ntddk-_whea_xpf_mc_bank_descriptor.md)
 ### [_WHEA_XPF_MS_CHECK structure](../ntddk/ns-ntddk-_whea_xpf_ms_check.md)
