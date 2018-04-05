@@ -13,22 +13,22 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dumddi.h
-req.include-header: 
+req.include-header:
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -60,48 +60,42 @@ A structure that holds information to queue hardware flags.
 
 ### -field hHwQueue
 
- 
-
+[in] Hardware queue being submitted to.
 
 ### -field HwQueueProgressFenceId
 
- 
-
+Hardware queue progress fence ID that will be signaled when the Present Blt is done on the GPU.
 
 ### -field Commands
 
- 
+GPU VA of the command buffer to be executed on the GPU.
 
 
 ### -field CommandLength
 
- 
-
+Length in bytes of the command buffer.
 
 ### -field Flags
 
- 
+Flags.
 
 
 ### -field PrivateDriverDataSize
 
- 
-
+The size of pPrivateDriverData.
 
 ### -field pPrivateDriverData
 
- 
-
+Private driver data to pass to [Present](nc-d3dumddi-pfnd3dddi_present.md).
 
 ### -field NumPrimaries
 
- 
+The number of primaries written by this command buffer.
 
 
 ### -field WrittenPrimaries
 
- 
-
+The array of primaries written by this command buffer.
 
 
 

@@ -60,25 +60,28 @@ Used to store information about the swap chain being presented.
 
 ### -field hNtSwapChain
 
-NT handle for the swapchain in this process.
+[in] NT handle for the swapchain in this process.
 
 
 ### -field bProducer
 
-Indicates if producer or consumer.
+[in] Indicates if producer or consumer.
 
 
 ### -field PresentBufferIdx
 
-Index of the buffer to present.
+[in] Index of the buffer to present.
 
 
 ### -field MetaDataSize
 
-Size of the metadata.
+[in] Size of the metadata.
 
 
 ### -field pMetaData
 
-A pointer to the metadata for the frame.
+[in] A pointer to the metadata for the frame.
 
+### -field hNtPresentSurfaceHandle
+
+[in] NT Handle of surface to present

@@ -2,14 +2,14 @@
 UID: NS:d3dkmthk._D3DKMT_BLOCKLIST_INFO
 title: _D3DKMT_BLOCKLIST_INFO
 author: windows-driver-content
-description: 
+description:
 ms.assetid: 3b1bedab-5329-41ae-972e-85ff10c10c09
 ms.author: windowsdriverdev
-ms.date: 
+ms.date:
 ms.topic: struct
 ms.prod: windows-hardware
 ms.technology: windows-devices
-ms.keywords: _D3DKMT_BLOCKLIST_INFO, D3DKMT_BLOCKLIST_INFO, 
+ms.keywords: _D3DKMT_BLOCKLIST_INFO, D3DKMT_BLOCKLIST_INFO,
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:
@@ -23,13 +23,13 @@ req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_BLOCKLIST_INFO
-topictype: 
+topictype:
 -	apiref
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmthk.h
-apiname: 
+apiname:
 -	_D3DKMT_BLOCKLIST_INFO
 product: Windows
 targetos: Windows
@@ -39,14 +39,14 @@ targetos: Windows
 
 ## -description
 
+Contains information about the display block list.
 
 ## -struct-fields
 
 ### -field Size
- 
+
+The size of the block list.
+
 ### -field BlockList
- 
 
-## -remarks
-
-## -see-also
+The block list.

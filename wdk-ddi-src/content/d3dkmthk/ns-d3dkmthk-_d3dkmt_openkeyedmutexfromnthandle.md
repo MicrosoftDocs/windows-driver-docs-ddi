@@ -2,14 +2,14 @@
 UID: NS:d3dkmthk._D3DKMT_OPENKEYEDMUTEXFROMNTHANDLE
 title: _D3DKMT_OPENKEYEDMUTEXFROMNTHANDLE
 author: windows-driver-content
-description: 
+description:
 ms.assetid: 6fe2f5e2-6064-4fb7-996d-aaf3e825396f
 ms.author: windowsdriverdev
-ms.date: 
+ms.date:
 ms.topic: struct
 ms.prod: windows-hardware
 ms.technology: windows-devices
-ms.keywords: _D3DKMT_OPENKEYEDMUTEXFROMNTHANDLE, D3DKMT_OPENKEYEDMUTEXFROMNTHANDLE, 
+ms.keywords: _D3DKMT_OPENKEYEDMUTEXFROMNTHANDLE, D3DKMT_OPENKEYEDMUTEXFROMNTHANDLE,
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:
@@ -23,13 +23,13 @@ req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_OPENKEYEDMUTEXFROMNTHANDLE
-topictype: 
+topictype:
 -	apiref
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmthk.h
-apiname: 
+apiname:
 -	_D3DKMT_OPENKEYEDMUTEXFROMNTHANDLE
 product: Windows
 targetos: Windows
@@ -39,18 +39,23 @@ targetos: Windows
 
 ## -description
 
+Contains information to open a keyed mutex from an NT handle to the process.
 
 ## -struct-fields
 
 ### -field hNtHandle
- 
+
+Handle to the process.
+
 ### -field hKeyedMutex
- 
+
+A handle to the keyed mutex in this process.
+
 ### -field pPrivateRuntimeData
- 
+
+A buffer that contains initial private data.
+
 ### -field PrivateRuntimeDataSize
- 
 
-## -remarks
+The size, in bytes, of the buffer pointed to by the pPrivateRuntimeData member.
 
-## -see-also

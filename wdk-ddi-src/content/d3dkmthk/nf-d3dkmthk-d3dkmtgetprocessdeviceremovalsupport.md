@@ -52,4 +52,5 @@ Used to get process device removal support.
 Pointer to a [D3DKMT_GETPROCESSDEVICEREMOVALSUPPORT](ns-d3dkmthk-_d3dkmt_getprocessdeviceremovalsupport.md) structure.
 
 ## -returns
+
 This function returns NTSTATUS.

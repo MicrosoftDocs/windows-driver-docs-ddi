@@ -2,14 +2,14 @@
 UID: NS:dispmprt._DXGK_DIAGNOSTIC_CATEGORIES
 title: _DXGK_DIAGNOSTIC_CATEGORIES
 author: windows-driver-content
-description: 
+description:
 ms.assetid: ba2233ae-fe9b-4cd1-a9a6-7a26c95d5dae
 ms.author: windowsdriverdev
-ms.date: 
+ms.date:
 ms.topic: struct
 ms.prod: windows-hardware
 ms.technology: windows-devices
-ms.keywords: _DXGK_DIAGNOSTIC_CATEGORIES, DXGK_DIAGNOSTIC_CATEGORIES, 
+ms.keywords: _DXGK_DIAGNOSTIC_CATEGORIES, DXGK_DIAGNOSTIC_CATEGORIES,
 req.header: dispmprt.h
 req.include-header:
 req.target-type:
@@ -23,13 +23,13 @@ req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
 req.typenames: DXGK_DIAGNOSTIC_CATEGORIES
-topictype: 
+topictype:
 -	apiref
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	dispmprt.h
-apiname: 
+apiname:
 -	_DXGK_DIAGNOSTIC_CATEGORIES
 product: Windows
 targetos: Windows
@@ -39,16 +39,19 @@ targetos: Windows
 
 ## -description
 
+Structure with a bit-field for each defined category of diagnostic.
 
 ## -struct-fields
 
 ### -field Notifications
- 
+
+An OS defined category which has diagnostic types defined in the [DXGK_DIAGTYPE_NOTIFCATIONS](ns-dispmprt-_dxgk_diagtype_notifications.md) structure.
+
 ### -field Reserved
- 
+
+Reserved.
+
 ### -field Value
- 
 
-## -remarks
+Value of the categories.
 
-## -see-also
