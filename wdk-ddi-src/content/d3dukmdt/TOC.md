@@ -9,6 +9,7 @@
 ### [_D3DDDI_GAMMARAMP_TYPE enumeration](../d3dukmdt/ne-d3dukmdt-_d3dddi_gammaramp_type.md)
 ### [_D3DDDI_HDR_METADATA_TYPE enumeration](../d3dukmdt/ne-d3dukmdt-_d3dddi_hdr_metadata_type.md)
 ### [_D3DDDI_OFFER_PRIORITY enumeration](../d3dukmdt/ne-d3dukmdt-_d3dddi_offer_priority.md)
+### [_D3DDDI_OUTPUT_WIRE_COLOR_SPACE_TYPE enumeration](../d3dukmdt/ne-d3dukmdt-_d3dddi_output_wire_color_space_type.md)
 ### [_D3DDDI_POOL enumeration](../d3dukmdt/ne-d3dukmdt-_d3dddi_pool.md)
 ### [_D3DDDI_QUERYREGISTRY_STATUS enumeration](../d3dukmdt/ne-d3dukmdt-_d3dddi_queryregistry_status.md)
 ### [_D3DDDI_QUERYREGISTRY_TYPE enumeration](../d3dukmdt/ne-d3dukmdt-_d3dddi_queryregistry_type.md)
