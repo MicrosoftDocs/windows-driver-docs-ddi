@@ -39,7 +39,7 @@ targetos: Windows
 
 ## -description
 
-The D3D12DDI_SHADER_CAPS_0042 structure contains display device shader capabilities.
+The D3D12DDI_SHADER_CAPS_0042 structure contains display device shader capabilities that the driver supports.
 
 ## -struct-fields
 
@@ -81,8 +81,9 @@ The total lane count.
 
 ### -field Int64Ops
 
+Native 64-bit operations.
 
 ### -field Native16BitOps
 
-Native 16 bit operations.
+Native 16-bit operations.
 

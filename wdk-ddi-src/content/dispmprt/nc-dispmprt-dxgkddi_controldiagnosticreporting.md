@@ -2,10 +2,10 @@
 UID: NC:dispmprt.DXGKDDI_CONTROLDIAGNOSTICREPORTING
 title: DXGKDDI_CONTROLDIAGNOSTICREPORTING
 author: windows-driver-content
-description: 
+description:
 ms.assetid: 71b4cc86-0fe6-459d-b317-6630565e9ae5
 ms.author: windowsdriverdev
-ms.date: 
+ms.date:
 ms.topic: callback
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -18,21 +18,21 @@ req.kmdf-ver:
 req.umdf-ver:
 req.lib:
 req.dll:
-req.irql: 
+req.irql:
 req.ddi-compliance:
 req.unicode-ansi:
 req.idl:
 req.max-support:
 req.namespace:
 req.assembly:
-req.type-library: 
-topictype: 
+req.type-library:
+topictype:
 -	apiref
-apitype: 
+apitype:
 -	UserDefined
-apilocation: 
+apilocation:
 -	dispmprt.h
-apiname: 
+apiname:
 -	DXGKDDI_CONTROLDIAGNOSTICREPORTING
 product: Windows
 targetos: Windows
@@ -42,18 +42,18 @@ targetos: Windows
 
 ## -description
 
-Implemented by the client driver to ... 
+The OS calls DxgkddiControlDiagnosticReporting to apply the set of diagnostics which should be enabled for a diagnostic category. Any diagnostics which are not included in the set should be disabled.
 
 ## -prototype
 
 ```
 //Declaration
 
-DXGKDDI_CONTROLDIAGNOSTICREPORTING DxgkddiControldiagnosticreporting; 
+DXGKDDI_CONTROLDIAGNOSTICREPORTING DxgkddiControldiagnosticreporting;
 
 // Definition
 
-NTSTATUS DxgkddiControldiagnosticreporting 
+NTSTATUS DxgkddiControldiagnosticreporting
 (
 	IN_CONST_PVOID MiniportDeviceContext
 	IN_PDXGKARG_CONTROLDIAGNOSTICREPORTING pArgControlDiagnosticReporting
@@ -67,19 +67,23 @@ DXGKDDI_CONTROLDIAGNOSTICREPORTING *PDXGKDDI_CONTROLDIAGNOSTICREPORTING
 
 ## -parameters
 
-### -param MiniportDeviceContext: 
-### -param pArgControlDiagnosticReporting: 
+### -param MiniportDeviceContext
 
+Identifies the adapter.
 
+### -param pArgControlDiagnosticReporting
+
+A pointer to a [DXGKARG_QUERYDIAGNOSTICTYPESSUPPORT](ns-dispmprt-_dxgkarg_querydiagnostictypessupport.md) structure that indicates the category of diagnostic being queried and provides space for the driver to describe the diagnostic support it has.
 
 ## -returns
 
-Returns NTSTATUS that ...
-Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate NTSTATUS Values error code. For more information, see [XREF-LINK:NTSTATUS Values].
+Return STATUS_SUCCESS if the operation succeeds. Otherwise, returns an appropriate NTSTATUS Values error code defined in Ntstatus.h.
 
 ## -remarks
 
-Register your implementation of this callback function by setting the appropriate member of <!-- REPLACE ME --> and then calling <!-- REPLACE ME -->.
+This function is always called at PASSIVE level so the supporting code should be made pageable.
 
 
 ## -see-also
+
+[DXGKARG_QUERYDIAGNOSTICTYPESSUPPORT structure](ns-dispmprt-_dxgkarg_querydiagnostictypessupport.md)

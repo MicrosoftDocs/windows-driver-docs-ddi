@@ -17,17 +17,17 @@ req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
 -	APIRef
@@ -75,13 +75,24 @@ req.typenames: DXGKARG_CREATEPROCESS
 
 ### -field NumPasid
 
-[in] The number of elements in the process address space identifier array located in the <b>pPasid</b>  member. 
+[in] The number of elements in the process address space identifier array located in the <b>pPasid</b>  member.
 
 
 ### -field pPasid
 
 [in] A pointer to an array of process address identifiers. There will be one for each physical GPUs.
 
+### -field hKmdVmWorkerProcess
+
+[in] Driver VM worker process handle when VirtualMachineProcess is set.
+
+### -field ProcessNameLength
+
+[in] The length of the process name.
+
+### -field pProcessName
+
+[in] The process name. Can be NULL.
 
 ## -see-also
 

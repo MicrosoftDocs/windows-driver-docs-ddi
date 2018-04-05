@@ -7,7 +7,7 @@ old-location: display\d3dkmt_flipmodel_presenthistorytokenflags.htm
 old-project: display
 ms.assetid: 61901e06-fefd-4481-9f19-60ead55bbe36
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 2/26/2018
 ms.keywords: D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS, D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS structure [Display Devices], OpenGL_Structs_1ffd61bb-ba0b-4ee5-95af-d8c7e38c0b15.xml, _D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS, d3dkmthk/D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS, display.d3dkmt_flipmodel_presenthistorytokenflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -16,19 +16,19 @@ req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 7.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,8 +38,7 @@ api_location:
 -	d3dkmthk.h
 api_name:
 -	D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS
-product:
-- Windows
+product: Windows
 targetos: Windows
 req.typenames: D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS
 ---
@@ -53,6 +52,34 @@ req.typenames: D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS
 The D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS structure identifies attributes of a flip present-history operation.
 
 
+## -syntax
+
+
+````
+typedef struct _D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS {
+  union {
+    struct {
+      UINT Video  :1;
+      UINT RestrictedContent  :1;
+      UINT ClipToView  :1;
+#if (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WIN8)
+      UINT StereoPreferRight  :1;
+      UINT TemporaryMono  :1;
+      UINT FlipRestart  :1;
+      UINT ScatterBlt  :1;
+      UINT AlphaMode  :2;
+      UINT SignalLimitOnTokenCompletion  :1;
+      UINT Reserved  :22;
+#else
+      UINT Reserved  :29;
+#endif
+    };
+    UINT   Value;
+  };
+} D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS;
+````
+
+
 ## -struct-fields
 
 
@@ -60,7 +87,7 @@ The D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS structure identifies attributes of
 
 ### -field Video
 
-A UINT value that specifies whether the flip operation is performed with video. 
+A UINT value that specifies whether the flip operation is performed with video.
 
 Setting this member is equivalent to setting the first bit of the 32-bit <b>Value</b> member (0x00000001).
 
@@ -92,7 +119,7 @@ Supported starting with Windows 8.
 
 A UINT value that specifies whether the driver should use the left image of a stereo allocation for the right and left portions of a stereo frame.
 
-This member should  be set only if the driver reports support for this option in the current display mode by setting the <b>Type</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546724">D3DKMDT_VIDPN_SOURCE_MODE</a> structure to D3DKMDT_RMT_GRAPHICS_STEREO_ADVANCED_SCAN.
+This member should  be set only if the driver reports support for this option in the current display mode by setting the <b>Type</b> member of the <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_source_mode.md">D3DKMDT_VIDPN_SOURCE_MODE</a> structure to D3DKMDT_RMT_GRAPHICS_STEREO_ADVANCED_SCAN.
 
 Setting this member is equivalent to setting the    fifth bit of the 32-bit <b>Value</b> member (0x00000010).
 
@@ -110,7 +137,7 @@ Supported starting with Windows 8.
 
 ### -field HDRMetaDataChanged
 
- 
+
 
 
 ### -field AlphaMode
@@ -133,62 +160,63 @@ Supported starting with Windows 8.
 
 ### -field YCbCrFlags
 
- 
+
 
 
 ### -field IndependentFlip
 
- 
+
 
 
 ### -field IndependentFlipStage
 
- 
+
 
 
 ### -field IndependentFlipReleaseCount
 
- 
+
 
 
 ### -field IndependentFlipForceNotifyDwm
 
- 
+
 
 
 ### -field UseCustomDuration
 
- 
+
 
 
 ### -field IndependentFlipRequestDwmConfirm
 
- 
+
 
 
 ### -field IndependentFlipCandidate
 
- 
+
 
 
 ### -field IndependentFlipCheckNeeded
 
- 
+
 
 
 ### -field IndependentFlipTrueImmediate
 
- 
+
 
 
 ### -field IndependentFlipRequestDwmExit
 
- 
+
+### -field IndependentFlipDoNotFlip
 
 
 ### -field CompSurfaceNotifiedEarly
 
- 
+
 
 
 ### -field Reserved
@@ -216,11 +244,12 @@ A 32-bit value that identifies the flip present-history operation.
 
 ## -see-also
 
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_presenthistorytoken.md">D3DKMT_PRESENTHISTORYTOKEN</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548188">D3DKMT_PRESENTHISTORYTOKEN</a>
  
 
  
+
 

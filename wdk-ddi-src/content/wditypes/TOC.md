@@ -17,6 +17,7 @@
 ### [_WDI_EXEMPTION_PACKET_TYPE enumeration](../wditypes/ne-wditypes-_wdi_exemption_packet_type.md)
 ### [_WDI_FIPS_MODE enumeration](../wditypes/ne-wditypes-_wdi_fips_mode.md)
 ### [_WDI_IHV_TASK_PRIORITY enumeration](../wditypes/ne-wditypes-_wdi_ihv_task_priority.md)
+### [_WDI_OS_POWER_MANAGEMENT_FLAGS enumeration](../wditypes/ne-wditypes-_wdi_os_power_management_flags.md)
 ### [_WDI_P2P_ACTION_FRAME_TYPE enumeration](../wditypes/ne-wditypes-_wdi_p2p_action_frame_type.md)
 ### [_WDI_P2P_CHANNEL_INDICATE_REASON enumeration](../wditypes/ne-wditypes-_wdi_p2p_channel_indicate_reason.md)
 ### [_WDI_P2P_DISCOVER_TYPE enumeration](../wditypes/ne-wditypes-_wdi_p2p_discover_type.md)

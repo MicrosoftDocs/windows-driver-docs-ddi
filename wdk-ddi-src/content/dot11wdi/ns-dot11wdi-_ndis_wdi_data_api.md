@@ -163,7 +163,7 @@ The entry point of the <a href="https://msdn.microsoft.com/828C181F-918A-4674-B6
 
 ### -field TxQuerySuspectFrameCompleteStatus
 
- 
+The entry point of the [NdisWdiTxQuerySuspectFrameCompleteStatus](nc-dot11wdi-ndis_wdi_tx_query_suspect_frame_complete_status.md) callback function.
 
 
 

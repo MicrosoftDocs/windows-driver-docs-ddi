@@ -2,10 +2,10 @@
 UID: NS:dispmprt._DXGK_DIAGNOSTIC_HEADER
 title: _DXGK_DIAGNOSTIC_HEADER
 author: windows-driver-content
-description: 
+description:
 ms.assetid: c8f81ba7-adda-457d-bda5-8a84303df060
 ms.author: windowsdriverdev
-ms.date: 
+ms.date:
 ms.topic: struct
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -23,13 +23,13 @@ req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
 req.typenames: DXGK_DIAGNOSTIC_HEADER
-topictype: 
+topictype:
 -	apiref
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	dispmprt.h
-apiname: 
+apiname:
 -	_DXGK_DIAGNOSTIC_HEADER
 product: Windows
 targetos: Windows
@@ -39,28 +39,43 @@ targetos: Windows
 
 ## -description
 
+Header structure which contains the common fields used to describe all diagnostic events.
 
 ## -struct-fields
 
 ### -field Size
- 
+
+Size in bytes of the event being reported including the header. For OS defined event types, the size will be checked against the expected size of the associated structure.
+
 ### -field Reserved
- 
+
+Reserved.
+
 ### -field Value
- 
+
+Value of the header.
+
 ### -field TargetId
- 
+
+A 32-bit value that identifies the component to which this event relates. The interpretation of the field is dependent on the type of diagnostic being reported.
+
 ### -field SourceId
- 
+
+A 32-bit value that identifies the component to which this event relates. The interpretation of the field is dependent on the type of diagnostic being reported.
+
 ### -field Id
- 
+
+A 32-bit value that identifies the component to which this event relates. The interpretation of the field is dependent on the type of diagnostic being reported.
+
 ### -field Category
- 
+
+A [DXGK_DIAGNOSTIC_CATEGORIES](ns-dispmprt-_dxgk_diagnostic_categories.md) structure with a single bit field set to one to indicate the category of diagnostic being described.
+
 ### -field Type
- 
+
+A [DXGK_DIAGNOSTIC_TYPES](ns-dispmprt-_dxgk_diagnostic_types.md) structure with a single bit field set to one to indicate the type of diagnostic being described.
+
 ### -field SequenceNumber
- 
 
-## -remarks
+An adapter global value incremented for each diagnostic reported such that each report has a unique sequence number, within the limits of a 32-bit value.
 
-## -see-also

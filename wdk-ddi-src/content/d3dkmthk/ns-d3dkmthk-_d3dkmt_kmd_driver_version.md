@@ -2,14 +2,14 @@
 UID: NS:d3dkmthk._D3DKMT_KMD_DRIVER_VERSION
 title: _D3DKMT_KMD_DRIVER_VERSION
 author: windows-driver-content
-description: 
+description:
 ms.assetid: 2c615115-1702-4682-b927-6546f6acd097
 ms.author: windowsdriverdev
-ms.date: 
+ms.date:
 ms.topic: struct
 ms.prod: windows-hardware
 ms.technology: windows-devices
-ms.keywords: _D3DKMT_KMD_DRIVER_VERSION, D3DKMT_KMD_DRIVER_VERSION, 
+ms.keywords: _D3DKMT_KMD_DRIVER_VERSION, D3DKMT_KMD_DRIVER_VERSION,
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:
@@ -23,13 +23,13 @@ req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_KMD_DRIVER_VERSION
-topictype: 
+topictype:
 -	apiref
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmthk.h
-apiname: 
+apiname:
 -	_D3DKMT_KMD_DRIVER_VERSION
 product: Windows
 targetos: Windows
@@ -39,12 +39,11 @@ targetos: Windows
 
 ## -description
 
+Contains the kernel mode driver version.
 
 ## -struct-fields
 
 ### -field DriverVersion
- 
 
-## -remarks
+The driver version.
 
-## -see-also
