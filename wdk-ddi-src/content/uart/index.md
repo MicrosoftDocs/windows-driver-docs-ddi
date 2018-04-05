@@ -16,3 +16,5 @@ ms.topic: portal
 This header is used by serports. For more information, see:
 
 - [Serial port](../_serports/index.md)
+
+This programming interfaces in this header are used to create a custom KdSerial transport layers.
