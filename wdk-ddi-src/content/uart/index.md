@@ -17,4 +17,4 @@ This header is used by serports. For more information, see:
 
 - [Serial port](../_serports/index.md)
 
-This programming interfaces in this header are used to create a custom KdSerial transport layers.
+This programming interfaces in this header can be used to create a custom KdSerial transport layer.
