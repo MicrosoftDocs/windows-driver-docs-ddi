@@ -2,7 +2,7 @@
 UID: TP:acpi
 ms.assetid: 6eb30b27-568a-3203-bd11-0f238870d174
 ms.author: windowsdriverdev
-ms.date: 04/03/18
+ms.date: 04/05/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -23,4 +23,6 @@ To develop ACPI, you need these headers:
 
 For the programming guide, see [ACPI](https://docs.microsoft.com/en-us/windows-hardware/drivers/acpi).
 
+
 This section contains reference documentation for developing drivers to interface with ACPI devices. ACPI devices are defined by the [Advanced Configuration and Power Interface (ACPI) Specification](https://go.microsoft.com/fwlink/p/?linkid=866846).
+
