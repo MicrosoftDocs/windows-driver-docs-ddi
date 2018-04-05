@@ -7,7 +7,7 @@ old-location: netvista\ndisclopenaddressfamilyex.htm
 old-project: netvista
 ms.assetid: 54170917-60b4-4d8f-bf92-df7d7dc0faee
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: NdisClOpenAddressFamilyEx, NdisClOpenAddressFamilyEx function [Network Drivers Starting with Windows Vista], condis_client_ref_6590ccca-3e48-4f83-a7d0-66ce9b6b1eef.xml, ndis/NdisClOpenAddressFamilyEx, netvista.ndisclopenaddressfamilyex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	ndis.dll
 api_name:
 -	NdisClOpenAddressFamilyEx
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
@@ -55,19 +56,6 @@ The
   manager for a connection-oriented client.
 
 
-## -syntax
-
-
-````
-NDIS_STATUS NdisClOpenAddressFamilyEx(
-  _In_  NDIS_HANDLE        NdisBindingHandle,
-  _In_  PCO_ADDRESS_FAMILY AddressFamily,
-  _In_  NDIS_HANDLE        ClientAfContext,
-  _Out_ PNDIS_HANDLE       NdisAfHandle
-);
-````
-
-
 ## -parameters
 
 
@@ -76,7 +64,7 @@ NDIS_STATUS NdisClOpenAddressFamilyEx(
 ### -param NdisBindingHandle [in]
 
 The handle that 
-     <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a> returns and that
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff563715">NdisOpenAdapterEx</a> returns and that
      identifies the target network interface card (NIC) or the virtual adapter of the next-lower driver that
      the caller is bound to.
 
@@ -89,7 +77,7 @@ A pointer to a
      
 
 This pointer is an input parameter to the client's 
-     <a href="..\ndis\nc-ndis-protocol_co_af_register_notify.md">
+     <a href="https://msdn.microsoft.com/272d99da-ef08-4ebd-90e7-74e99410b3f5">
      ProtocolCoAfRegisterNotify</a> function, which calls 
      <b>NdisClOpenAddressFamilyEx</b>.
 
@@ -115,7 +103,7 @@ A pointer to a caller-supplied variable in which
 When 
      <b>NdisClOpenAddressFamilyEx</b> returns anything other than NDIS_STATUS_PENDING, the client should make
      an internal call to its 
-     <a href="..\ndis\nc-ndis-protocol_cl_open_af_complete_ex.md">
+     <a href="https://msdn.microsoft.com/03ddbbfd-8fe8-44b6-8d3e-12a7bf6f8f6b">
      ProtocolClOpenAfCompleteEx</a> function. Otherwise, NDIS calls the client's 
      <i>ProtocolClOpenAfCompleteEx</i> function when this operation is completed.
 
@@ -128,27 +116,27 @@ When
 
 A CoNDIS client calls 
     <b>NdisClOpenAddressFamilyEx</b> from its 
-    <a href="..\ndis\nc-ndis-protocol_co_af_register_notify.md">
+    <a href="https://msdn.microsoft.com/272d99da-ef08-4ebd-90e7-74e99410b3f5">
     ProtocolCoAfRegisterNotify</a> function, after the client checks the input buffer that is pointed to by
     the 
     <i>AddressFamily</i> parameter to determine whether the client recognizes the call manager and registered
     addresses. NDIS forwards the client's call of 
     <b>NdisClOpenAddressFamilyEx</b> to the call manager's 
-    <a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a> function, which
+    <a href="https://msdn.microsoft.com/7422c205-bc41-4121-b430-ff9e6b49dc2e">ProtocolCmOpenAf</a> function, which
     ensures that the client has passed in a valid AF structure.
 
 A successful call to 
     <b>NdisClOpenAddressFamilyEx</b> sets up communication from the client to a call manager. The client can
     then prepare to receive incoming calls by calling the 
-    <a href="..\ndis\nf-ndis-ndisclregistersap.md">NdisClRegisterSap</a> function. The client
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561648">NdisClRegisterSap</a> function. The client
     can also set up a virtual connection (VC) by calling the 
-    <a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a> function so it can make an
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561696">NdisCoCreateVc</a> function so it can make an
     outgoing call by calling the 
-    <a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a> function.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561635">NdisClMakeCall</a> function.
 
 If the client's call to 
     <b>NdisClOpenAddressFamilyEx</b> fails, the client should call the 
-    <a href="..\ndis\nf-ndis-ndisunbindadapter.md">NdisUnbindAdapter</a> function to request
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff564630">NdisUnbindAdapter</a> function to request
     NDIS to release its binding to the underlying miniport adapter. Otherwise, the client must save the
     handle that is returned at the 
     <i>NdisAfHandle</i> parameter. This handle identifies the call manager to which subsequent requests concerning the given address
@@ -169,27 +157,6 @@ NDIS passes the pointer from the
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_co_af_register_notify.md">ProtocolCoAfRegisterNotify</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_cl_open_af_complete_ex.md">ProtocolClOpenAfCompleteEx</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisunbindadapter.md">NdisUnbindAdapter</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisclcloseaddressfamily.md">NdisClCloseAddressFamily</a>
 
 
 
@@ -197,26 +164,45 @@ NDIS passes the pointer from the
 
 
 
-<a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisallocatefromnpagedlookasidelist.md">
+<a href="https://msdn.microsoft.com/df690a05-359d-44f0-b063-4fc21d6c4d76">
    NdisAllocateFromNPagedLookasideList</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisclregistersap.md">NdisClRegisterSap</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561626">NdisClCloseAddressFamily</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561635">NdisClMakeCall</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561648">NdisClRegisterSap</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561696">NdisCoCreateVc</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563715">NdisOpenAdapterEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564630">NdisUnbindAdapter</a>
+
+
+
+<a href="https://msdn.microsoft.com/03ddbbfd-8fe8-44b6-8d3e-12a7bf6f8f6b">ProtocolClOpenAfCompleteEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/7422c205-bc41-4121-b430-ff9e6b49dc2e">ProtocolCmOpenAf</a>
+
+
+
+<a href="https://msdn.microsoft.com/272d99da-ef08-4ebd-90e7-74e99410b3f5">ProtocolCoAfRegisterNotify</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisClOpenAddressFamilyEx function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

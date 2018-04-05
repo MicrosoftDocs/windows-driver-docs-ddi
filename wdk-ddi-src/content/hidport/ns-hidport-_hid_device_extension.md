@@ -38,7 +38,8 @@ api_location:
 -	hidport.h
 api_name:
 -	HID_DEVICE_EXTENSION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: HID_DEVICE_EXTENSION, *PHID_DEVICE_EXTENSION
 ---
@@ -50,18 +51,6 @@ req.typenames: HID_DEVICE_EXTENSION, *PHID_DEVICE_EXTENSION
 
 
 The HID_DEVICE_EXTENSION structure is used by a HID minidriver as its layout for the device extension of a HIDClass device's functional device object.
-
-
-## -syntax
-
-
-````
-typedef struct _HID_DEVICE_EXTENSION {
-  PDEVICE_OBJECT PhysicalDeviceObject;
-  PDEVICE_OBJECT NextDeviceObject;
-  PVOID          MiniDeviceExtension;
-} HID_DEVICE_EXTENSION, *PHID_DEVICE_EXTENSION;
-````
 
 
 ## -struct-fields
@@ -86,13 +75,11 @@ Pointer to the minidriver-specific portion of the device extension.
 
 ## -see-also
 
-<a href="..\hidport\nf-hidport-hidregisterminidriver.md">HidRegisterMinidriver</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539835">HidRegisterMinidriver</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [hid\hid]:%20HID_DEVICE_EXTENSION structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

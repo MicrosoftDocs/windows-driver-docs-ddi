@@ -38,7 +38,8 @@ api_location:
 -	avcstrm.h
 api_name:
 -	AVCSTRM_FORMAT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: AVCSTRM_FORMAT
 ---
@@ -50,22 +51,6 @@ req.typenames: AVCSTRM_FORMAT
 
 
 The AVCSTRM_FUNCTION enumeration defines the AV/C subunit stream formats supported by <i>avcstrm.sys</i>.
-
-
-## -syntax
-
-
-````
-typedef enum _AVCSTRM_FORMAT { 
-  AVCSTRM_FORMAT_SDDV_NTSC   = 0,
-  AVCSTRM_FORMAT_SDDV_PAL    = 1,
-  AVCSTRM_FORMAT_MPEG2TS     = 2,
-  AVCSTRM_FORMAT_HDDV_NTSC   = 3,
-  AVCSTRM_FORMAT_HDDV_PAL    = 4,
-  AVCSTRM_FORMAT_SDLDV_NTSC  = 5,
-  AVCSTRM_FORMAT_SDLDV_PAL   = 6
-} AVCSTRM_FORMAT;
-````
 
 
 ## -enum-fields
@@ -110,13 +95,11 @@ Specifies the 61883-5 specification for SDL-DVCR data transmission. PAL. This fo
 
 ## -see-also
 
-<a href="..\avcstrm\ns-avcstrm-_avcstrm_format_info.md">AVCSTRM_FORMAT_INFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554117">AVCSTRM_FORMAT_INFO</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20AVCSTRM_FORMAT enumeration%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

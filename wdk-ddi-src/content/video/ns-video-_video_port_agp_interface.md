@@ -7,7 +7,7 @@ old-location: display\video_port_agp_interface.htm
 old-project: display
 ms.assetid: a2be4958-3f11-4b9d-9c0c-c339ebbbce04
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PVIDEO_PORT_AGP_INTERFACE, PVIDEO_PORT_AGP_INTERFACE, PVIDEO_PORT_AGP_INTERFACE structure pointer [Display Devices], VIDEO_PORT_AGP_INTERFACE, VIDEO_PORT_AGP_INTERFACE structure [Display Devices], Video_Structs_0b0b9383-1396-487e-afbb-5437ea3a2ec3.xml, _VIDEO_PORT_AGP_INTERFACE, display.video_port_agp_interface, video/PVIDEO_PORT_AGP_INTERFACE, video/VIDEO_PORT_AGP_INTERFACE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<= DISPATCH_LEVEL"
+req.irql: See Remarks section.
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	video.h
 api_name:
 -	VIDEO_PORT_AGP_INTERFACE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_AGP_INTERFACE, *PVIDEO_PORT_AGP_INTERFACE
 req.product: Windows 10 or later.
@@ -51,29 +52,6 @@ req.product: Windows 10 or later.
 
 
 The VIDEO_PORT_AGP_INTERFACE structure describes the AGP service routines provided by the video port driver.
-
-
-## -syntax
-
-
-````
-typedef struct _VIDEO_PORT_AGP_INTERFACE {
-  USHORT                 Size;
-  USHORT                 Version;
-  PVOID                  Context;
-  PINTERFACE_REFERENCE   InterfaceReference;
-  PINTERFACE_DEREFERENCE InterfaceDereference;
-  PAGP_RESERVE_PHYSICAL  AgpReservePhysical;
-  PAGP_RELEASE_PHYSICAL  AgpReleasePhysical;
-  PAGP_COMMIT_PHYSICAL   AgpCommitPhysical;
-  PAGP_FREE_PHYSICAL     AgpFreePhysical;
-  PAGP_RESERVE_VIRTUAL   AgpReserveVirtual;
-  PAGP_RELEASE_VIRTUAL   AgpReleaseVirtual;
-  PAGP_COMMIT_VIRTUAL    AgpCommitVirtual;
-  PAGP_FREE_VIRTUAL      AgpFreeVirtual;
-  ULONGLONG              AgpAllocationLimit;
-} VIDEO_PORT_AGP_INTERFACE, *PVIDEO_PORT_AGP_INTERFACE;
-````
 
 
 ## -struct-fields
@@ -108,42 +86,42 @@ Pointer to the video port driver-implemented dereference routine for this interf
 
 ### -field AgpReservePhysical
 
-Pointer to the video port driver-implemented <a href="..\videoagp\nc-videoagp-pagp_reserve_physical.md">AgpReservePhysical</a> routine.
+Pointer to the video port driver-implemented <a href="https://msdn.microsoft.com/b3e21c94-acd5-4767-8ba5-70b2dcfb2aaa">AgpReservePhysical</a> routine.
 
 
 ### -field AgpReleasePhysical
 
-Pointer to the video port driver-implemented <a href="..\videoagp\nc-videoagp-pagp_release_physical.md">AgpReleasePhysical</a> routine.
+Pointer to the video port driver-implemented <a href="https://msdn.microsoft.com/4da0f5cb-a017-4df5-958b-c76b7a08495a">AgpReleasePhysical</a> routine.
 
 
 ### -field AgpCommitPhysical
 
-Pointer to the video port driver-implemented <a href="..\videoagp\nc-videoagp-pagp_commit_physical.md">AgpCommitPhysical</a> routine.
+Pointer to the video port driver-implemented <a href="https://msdn.microsoft.com/3c3a6936-7435-4a42-99e6-2c048613af23">AgpCommitPhysical</a> routine.
 
 
 ### -field AgpFreePhysical
 
-Pointer to the video port driver-implemented <a href="..\videoagp\nc-videoagp-pagp_free_physical.md">AgpFreePhysical</a> routine.
+Pointer to the video port driver-implemented <a href="https://msdn.microsoft.com/bb0e3330-5601-47dd-afc6-94a70b42daaf">AgpFreePhysical</a> routine.
 
 
 ### -field AgpReserveVirtual
 
-Pointer to the video port driver-implemented <a href="..\videoagp\nc-videoagp-pagp_reserve_virtual.md">AgpReserveVirtual</a> routine.
+Pointer to the video port driver-implemented <a href="https://msdn.microsoft.com/966dfc6c-6830-4872-b411-2801e3a4b753">AgpReserveVirtual</a> routine.
 
 
 ### -field AgpReleaseVirtual
 
-Pointer to the video port driver-implemented <a href="..\videoagp\nc-videoagp-pagp_release_virtual.md">AgpReleaseVirtual</a> routine.
+Pointer to the video port driver-implemented <a href="https://msdn.microsoft.com/4e880b39-e0ee-4801-86b7-ffc06ed415ab">AgpReleaseVirtual</a> routine.
 
 
 ### -field AgpCommitVirtual
 
-Pointer to the video port driver-implemented <a href="..\videoagp\nc-videoagp-pagp_commit_virtual.md">AgpCommitVirtual</a> routine.
+Pointer to the video port driver-implemented <a href="https://msdn.microsoft.com/8a3e7fcd-d838-47ad-a42b-7eb070f81418">AgpCommitVirtual</a> routine.
 
 
 ### -field AgpFreeVirtual
 
-Pointer to the video port driver-implemented <a href="..\videoagp\nc-videoagp-pagp_free_virtual.md">AgpFreeVirtual</a> routine.
+Pointer to the video port driver-implemented <a href="https://msdn.microsoft.com/a6f689ab-8cf1-4207-af2b-30957500c190">AgpFreeVirtual</a> routine.
 
 
 ### -field AgpAllocationLimit
@@ -155,24 +133,22 @@ Specifies the maximum total number of bytes of AGP memory that a miniport driver
 
 
 
-PnP video miniport drivers that can use AGP must fill in the <b>Size</b> and <b>Version</b> members, and then call the <a href="..\video\nf-video-videoportqueryservices.md">VideoPortQueryServices</a> function, which initializes the remaining members of this structure.
+PnP video miniport drivers that can use AGP must fill in the <b>Size</b> and <b>Version</b> members, and then call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff570337">VideoPortQueryServices</a> function, which initializes the remaining members of this structure.
 
 
 
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
 
 
 
-<a href="..\video\nf-video-videoportqueryservices.md">VideoPortQueryServices</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn895657">INTERFACE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570337">VideoPortQueryServices</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20VIDEO_PORT_AGP_INTERFACE structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

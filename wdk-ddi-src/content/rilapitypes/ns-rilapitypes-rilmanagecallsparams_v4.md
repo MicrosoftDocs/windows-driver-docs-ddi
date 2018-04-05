@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILMANAGECALLSPARAMS_V4
 title: RILMANAGECALLSPARAMS_V4
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilmanagecallsparams_v4_2.htm
+old-location: netvista\rilmanagecallsparams_v4.htm
 old-project: netvista
-ms.assetid: 62465d2b-53b4-4c11-97c0-ff7171d8a3b0
+ms.assetid: 8e38c6d5-bd61-455e-a628-b4e6ef9c936c
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: "*LPRILMANAGECALLSPARAMS, *LPRILMANAGECALLSPARAMS_V4, RILMANAGECALLSPARAMS, RILMANAGECALLSPARAMS_V4, RILMANAGECALLSPARAMS_V4 structure [Network Drivers Starting with Windows Vista], netvista.rilmanagecallsparams_v4_2, rilapitypes/RILMANAGECALLSPARAMS_V4"
+ms.date: 3/26/2018
+ms.keywords: "*LPRILMANAGECALLSPARAMS, *LPRILMANAGECALLSPARAMS_V4, RILMANAGECALLSPARAMS, RILMANAGECALLSPARAMS_V4, RILMANAGECALLSPARAMS_V4 structure [Network Drivers Starting with Windows Vista], netvista.rilmanagecallsparams_v4, ntddrilapitypes/RILMANAGECALLSPARAMS_V4"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,10 +35,11 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILMANAGECALLSPARAMS_V4
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILMANAGECALLSPARAMS_V4, *LPRILMANAGECALLSPARAMS_V4, RILMANAGECALLSPARAMS, *LPRILMANAGECALLSPARAMS
 req.product: Windows 10 or later.
@@ -50,23 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-
-## -syntax
-
-
-````
-typedef struct _RILMANAGECALLSPARAMS_V4 {
-  DWORD                       dwExecutor;
-  RILMANAGECALLPARAMSCOMMAND  dwCommand;
-  DWORD                       dwID;
-  BOOL                        fHasOfferAnswer;
-  RILCALLMEDIAOFFERANSWERSET  rcmOfferAnswer;
-  RILADDRESS                  raAddress;
-  RILCALLRTTACTION            dwRTTAction;
-} RILMANAGECALLSPARAMS_V4, RILMANAGECALLSPARAMS_V4;
-````
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -struct-fields

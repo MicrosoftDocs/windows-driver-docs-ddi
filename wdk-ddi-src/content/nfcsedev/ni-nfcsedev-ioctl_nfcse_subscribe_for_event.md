@@ -38,18 +38,14 @@ api_location:
 -	nfcsedev.h
 api_name:
 -	IOCTL_NFCSE_SUBSCRIBE_FOR_EVENT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SECURE_ELEMENT_TYPE, *PSECURE_ELEMENT_TYPE
 ---
 
 # IOCTL_NFCSE_SUBSCRIBE_FOR_EVENT IOCTL
 
-
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -66,7 +62,7 @@ The <b>IOCTL_NFCSE_SUBSCRIBE_FOR_EVENT</b>
 ### -input-buffer
 
 
-<a href="..\nfcsedev\ns-nfcsedev-_secure_element_event_subscription_info.md"> SECURE_ELEMENT_EVENT_SUBSCRIPTION_INFO</a> structure.
+<a href="https://msdn.microsoft.com/1ADA8430-86B4-4885-B20A-EBA8CDAC5449"> SECURE_ELEMENT_EVENT_SUBSCRIPTION_INFO</a> structure.
 
 
 

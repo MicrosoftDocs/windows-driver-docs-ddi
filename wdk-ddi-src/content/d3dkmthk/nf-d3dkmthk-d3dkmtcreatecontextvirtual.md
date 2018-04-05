@@ -7,7 +7,7 @@ old-location: display\d3dkmtcreatecontextvirtual.htm
 old-project: display
 ms.assetid: 1E95228E-7513-46D2-8402-28CA6D26F3EB
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMTCreateContextVirtual, D3DKMTCreateContextVirtual function [Display Devices], d3dkmthk/D3DKMTCreateContextVirtual, display.d3dkmtcreatecontextvirtual
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,8 @@ api_location:
 -	API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
 -	D3DKMTCreateContextVirtual
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_DRIVERVERSION
 ---
@@ -55,26 +56,21 @@ req.typenames: D3DKMT_DRIVERVERSION
 The <b>D3DKMTCreateContextVirtual</b> function creates a kernel mode device context that supports virtual addressing.
 
 
-## -syntax
-
-
-````
-NTSTATUS APIENTRY D3DKMTCreateContextVirtual(
-  _In_ D3DKMT_CREATECONTEXTVIRTUAL *pData
-);
-````
-
-
 ## -parameters
 
 
+
+
+### -param Arg1
+
+TBD
 
 
 
 
 #### - pData [in]
 
-A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_createcontextvirtual.md">D3DKMT_CREATECONTEXTVIRTUAL</a> structure that describes the kernel-mode device context.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn906791">D3DKMT_CREATECONTEXTVIRTUAL</a> structure that describes the kernel-mode device context.
 
 
 ## -returns
@@ -140,13 +136,11 @@ This function might also return other <b>NTSTATUS</b> values.
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_createcontextvirtual.md">D3DKMT_CREATECONTEXTVIRTUAL</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn906791">D3DKMT_CREATECONTEXTVIRTUAL</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMTCreateContextVirtual function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

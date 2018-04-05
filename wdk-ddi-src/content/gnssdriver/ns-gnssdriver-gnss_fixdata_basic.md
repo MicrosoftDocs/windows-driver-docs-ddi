@@ -38,7 +38,8 @@ api_location:
 -	gnssdriver.h
 api_name:
 -	GNSS_FIXDATA_BASIC
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GNSS_FIXDATA_BASIC, *PGNSS_FIXDATA_BASIC
 ---
@@ -50,22 +51,6 @@ req.typenames: GNSS_FIXDATA_BASIC, *PGNSS_FIXDATA_BASIC
 
 
 This structure defines basic position information.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  ULONG  Size;
-  ULONG  Version;
-  double Latitude;
-  double Longitude;
-  double Altitude;
-  double Speed;
-  double Heading;
-} GNSS_FIXDATA_BASIC, *PGNSS_FIXDATA_BASIC;
-````
 
 
 ## -struct-fields

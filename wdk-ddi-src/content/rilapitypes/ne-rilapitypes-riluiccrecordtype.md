@@ -2,18 +2,18 @@
 UID: NE:rilapitypes.RILUICCRECORDTYPE
 title: RILUICCRECORDTYPE
 author: windows-driver-content
-description: This enumeration describes the RILUICCRECORDTYPE.
-old-location: netvista\riluiccrecordtype.htm
+description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
+old-location: netvista\riluiccrecordtype_2.htm
 old-project: netvista
-ms.assetid: 962970e2-1861-4872-b0f3-db307f36d5d8
+ms.assetid: 2eb26355-25e9-4edf-9695-08b172593712
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: RILUICCRECORDTYPE, RILUICCRECORDTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_UICCRECORDTYPE_BERTLV, RIL_UICCRECORDTYPE_CYCLIC, RIL_UICCRECORDTYPE_LINEAR, RIL_UICCRECORDTYPE_MASTER, RIL_UICCRECORDTYPE_TRANSPARENT, RIL_UICCRECORDTYPE_UNKNOWN, netvista.riluiccrecordtype, rilapitypes/RILUICCRECORDTYPE, rilapitypes/RIL_UICCRECORDTYPE_BERTLV, rilapitypes/RIL_UICCRECORDTYPE_CYCLIC, rilapitypes/RIL_UICCRECORDTYPE_LINEAR, rilapitypes/RIL_UICCRECORDTYPE_MASTER, rilapitypes/RIL_UICCRECORDTYPE_TRANSPARENT, rilapitypes/RIL_UICCRECORDTYPE_UNKNOWN
+ms.date: 2/26/2018
+ms.keywords: RILUICCRECORDTYPE, RILUICCRECORDTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_UICCRECORDTYPE_BERTLV, RIL_UICCRECORDTYPE_CYCLIC, RIL_UICCRECORDTYPE_DEDICATED, RIL_UICCRECORDTYPE_LINEAR, RIL_UICCRECORDTYPE_MASTER, RIL_UICCRECORDTYPE_MAX, RIL_UICCRECORDTYPE_TRANSPARENT, netvista.riluiccrecordtype_2, rilapitypes/RILUICCRECORDTYPE, rilapitypes/RIL_UICCRECORDTYPE_BERTLV, rilapitypes/RIL_UICCRECORDTYPE_CYCLIC, rilapitypes/RIL_UICCRECORDTYPE_DEDICATED, rilapitypes/RIL_UICCRECORDTYPE_LINEAR, rilapitypes/RIL_UICCRECORDTYPE_MASTER, rilapitypes/RIL_UICCRECORDTYPE_MAX, rilapitypes/RIL_UICCRECORDTYPE_TRANSPARENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: Rilapitypes.h, Ntddrilapitypes.h
+req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -38,7 +38,8 @@ api_location:
 -	rilapitypes.h
 api_name:
 -	RILUICCRECORDTYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILUICCRECORDTYPE
 req.product: Windows 10 or later.
@@ -50,22 +51,22 @@ req.product: Windows 10 or later.
 ## -description
 
 
-<div class="alert"><b>Warning</b>  The Cellular COM API is deprecated in Windows 10. This content is provided to support maintenance of OEM and mobile operator created Windows Phone 8.1 applications.</div><div> </div>This enumeration describes the RILUICCRECORDTYPE.
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
 
 ## -syntax
 
 
 ````
-enum RILUICCRECORDTYPE {
-  RIL_UICCRECORDTYPE_UNKNOWN      = 0x00000000, 
-  RIL_UICCRECORDTYPE_TRANSPARENT  = 0x00000001, 
-  RIL_UICCRECORDTYPE_CYCLIC       = 0x00000002, 
-  RIL_UICCRECORDTYPE_LINEAR       = 0x00000003, 
-  RIL_UICCRECORDTYPE_BERTLV       = 0x00000004, 
-  RIL_UICCRECORDTYPE_MASTER       = 0x00000005 
-
-};
+typedef enum _RILUICCRECORDTYPE { 
+  RIL_UICCRECORDTYPE_TRANSPARENT,
+  RIL_UICCRECORDTYPE_CYCLIC,
+  RIL_UICCRECORDTYPE_LINEAR,
+  RIL_UICCRECORDTYPE_BERTLV,
+  RIL_UICCRECORDTYPE_MASTER,
+  RIL_UICCRECORDTYPE_DEDICATED,
+  RIL_UICCRECORDTYPE_MAX
+} RILUICCRECORDTYPE;
 ````
 
 
@@ -96,19 +97,4 @@ enum RILUICCRECORDTYPE {
 
 
 ### -field RIL_UICCRECORDTYPE_MAX
-
-
-
-
-## -see-also
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn946509">Cellular COM enumerations</a>
-
-
-
- 
-
- 
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20RILUICCRECORDTYPE enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

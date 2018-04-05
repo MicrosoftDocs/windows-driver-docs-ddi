@@ -7,13 +7,13 @@ old-location: netvista\rilnotificationfiltermask.htm
 old-project: netvista
 ms.assetid: 5dc72657-00ae-4fde-b9a7-a63616d934c0
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: RILNOTIFICATIONFILTERMASK, RILNOTIFICATIONFILTERMASK enumeration [Network Drivers Starting with Windows Vista], RIL_NFS_ALL, RIL_NFS_LOCATIONUPDATE, RIL_NFS_REGSTATUS_RATKIND, RIL_NFS_SIGNALQUALITY, netvista.rilnotificationfiltermask, ntddrilapitypes/RILNOTIFICATIONFILTERMASK, ntddrilapitypes/RIL_NFS_ALL, ntddrilapitypes/RIL_NFS_LOCATIONUPDATE, ntddrilapitypes/RIL_NFS_REGSTATUS_RATKIND, ntddrilapitypes/RIL_NFS_SIGNALQUALITY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: ntddrilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILNOTIFICATIONFILTERMASK
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILNOTIFICATIONFILTERMASK
 ---
@@ -50,19 +51,6 @@ req.typenames: RILNOTIFICATIONFILTERMASK
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef enum _RILNOTIFICATIONFILTERMASK { 
-  RIL_NFS_SIGNALQUALITY,
-  RIL_NFS_REGSTATUS_RATKIND,
-  RIL_NFS_LOCATIONUPDATE,
-  RIL_NFS_ALL
-} RILNOTIFICATIONFILTERMASK;
-````
 
 
 ## -enum-fields

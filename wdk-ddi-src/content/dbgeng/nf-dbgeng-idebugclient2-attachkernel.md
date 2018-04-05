@@ -7,7 +7,7 @@ old-location: debugger\attachkernel.htm
 old-project: debugger
 ms.assetid: eb861179-3567-4654-a702-40ee3319b27a
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/26/2018
 ms.keywords: AttachKernel method [Windows Debugging], AttachKernel method [Windows Debugging], IDebugClient interface, AttachKernel method [Windows Debugging], IDebugClient2 interface, AttachKernel method [Windows Debugging], IDebugClient3 interface, AttachKernel method [Windows Debugging], IDebugClient4 interface, AttachKernel method [Windows Debugging], IDebugClient5 interface, AttachKernel,IDebugClient2.AttachKernel, IDebugClient interface [Windows Debugging], AttachKernel method, IDebugClient2, IDebugClient2 interface [Windows Debugging], AttachKernel method, IDebugClient2::AttachKernel, IDebugClient3 interface [Windows Debugging], AttachKernel method, IDebugClient3::AttachKernel, IDebugClient4 interface [Windows Debugging], AttachKernel method, IDebugClient4::AttachKernel, IDebugClient5 interface [Windows Debugging], AttachKernel method, IDebugClient5::AttachKernel, IDebugClient::AttachKernel, IDebugClient_9008538b-3492-4952-a18f-b1dd346e887e.xml, dbgeng/IDebugClient2::AttachKernel, dbgeng/IDebugClient3::AttachKernel, dbgeng/IDebugClient4::AttachKernel, dbgeng/IDebugClient5::AttachKernel, dbgeng/IDebugClient::AttachKernel, debugger.attachkernel
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -42,7 +42,8 @@ api_name:
 -	IDebugClient3.AttachKernel
 -	IDebugClient4.AttachKernel
 -	IDebugClient5.AttachKernel
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -54,17 +55,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>AttachKernel</b>  methods connect the <a href="https://msdn.microsoft.com/e4d53375-c82e-493b-9ccb-444c211fbc79">debugger engine</a> to a kernel target.
-
-
-## -syntax
-
-
-````
-HRESULT AttachKernel(
-  [in]           ULONG Flags,
-  [in, optional] PCSTR ConnectOptions
-);
-````
 
 
 ## -parameters
@@ -175,15 +165,6 @@ For more information about connecting to live kernel-mode targets, see <a href="
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551088">IsKernelDebuggerEnabled</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546970">GetKernelConnectionOptions</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
 
 
@@ -191,25 +172,32 @@ For more information about connecting to live kernel-mode targets, see <a href="
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546970">GetKernelConnectionOptions</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549827">IDebugClient</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550481">IDebugClient2</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550488">IDebugClient3</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550494">IDebugClient4</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550497">IDebugClient5</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551088">IsKernelDebuggerEnabled</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugClient::AttachKernel method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

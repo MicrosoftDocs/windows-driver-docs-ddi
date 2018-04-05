@@ -7,7 +7,7 @@ old-location: print\iprintoemps2_interface.htm
 old-project: print
 ms.assetid: f2fb4176-c366-4cf9-bc17-59cc0c69a32b
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: IPrintOemPS2, IPrintOemPS2 interface [Print Devices], IPrintOemPS2 interface [Print Devices], described, prcomoem/IPrintOemPS2, print.iprintoemps2_interface, print_unidrv-pscript_rendering_261718f5-d2d9-4032-887d-0faea8b519ad.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: prcomoem.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	prcomoem.h
 api_name:
 -	IPrintOemPS2
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
@@ -50,7 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This section describes the methods defined for the <b>IPrintOemPS2</b> COM interface. In addition to these methods, this interface includes all of the methods defined in the <a href="..\prcomoem\nn-prcomoem-iprintoemps.md">IPrintOemPS</a> COM interface.
+This section describes the methods defined for the <b>IPrintOemPS2</b> COM interface. In addition to these methods, this interface includes all of the methods defined in the <a href="https://msdn.microsoft.com/14c545b7-8080-424f-9164-f97ef8a1acc2">IPrintOemPS</a> COM interface.
 
 
 ## -inheritance

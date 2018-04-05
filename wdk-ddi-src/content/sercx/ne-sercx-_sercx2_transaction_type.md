@@ -38,7 +38,8 @@ api_location:
 -	2.0\Sercx.h
 api_name:
 -	SERCX2_TRANSACTION_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SERCX2_TRANSACTION_TYPE
 req.product: Windows 10 or later.
@@ -51,19 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>SERCX2_TRANSACTION_TYPE</b> enumeration defines constants that indicate the type of data-transfer mechanism to use to perform an I/O transaction.
-
-
-## -syntax
-
-
-````
-typedef enum _SERCX2_TRANSACTION_TYPE { 
-  SerCx2TransactionTypeDefault,
-  SerCx2TransactionTypePio,
-  SerCx2TransactionTypeSystemDma,
-  SerCx2TransactionTypeCustom
-} SERCX2_TRANSACTION_TYPE;
-````
 
 
 ## -enum-fields
@@ -95,24 +83,22 @@ Use the custom data-transfer mechanism to perform the I/O transaction.
 
 
 
-The <a href="..\sercx\nc-sercx-evt_sercx2_select_next_receive_transaction_type.md">EvtSerCx2SelectNextReceiveTransactionType</a> and <a href="..\sercx\nc-sercx-evt_sercx2_select_next_transmit_transaction_type.md">EvtSerCx2SelectNextTransmitTransactionType</a> event callback functions return <b>SERCX2_TRANSACTION_TYPE</b> enumeration values.
+The <a href="https://msdn.microsoft.com/CB4551F4-8B22-4595-8091-CB84671DC60C">EvtSerCx2SelectNextReceiveTransactionType</a> and <a href="https://msdn.microsoft.com/EE46CB43-18BA-4FD7-A60D-07DB1760B8E7">EvtSerCx2SelectNextTransmitTransactionType</a> event callback functions return <b>SERCX2_TRANSACTION_TYPE</b> enumeration values.
 
 
 
 
 ## -see-also
 
-<a href="..\sercx\nc-sercx-evt_sercx2_select_next_receive_transaction_type.md">EvtSerCx2SelectNextReceiveTransactionType</a>
 
 
 
-<a href="..\sercx\nc-sercx-evt_sercx2_select_next_transmit_transaction_type.md">EvtSerCx2SelectNextTransmitTransactionType</a>
+<a href="https://msdn.microsoft.com/CB4551F4-8B22-4595-8091-CB84671DC60C">EvtSerCx2SelectNextReceiveTransactionType</a>
 
 
 
+<a href="https://msdn.microsoft.com/EE46CB43-18BA-4FD7-A60D-07DB1760B8E7">EvtSerCx2SelectNextTransmitTransactionType</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [serports\serports]:%20SERCX2_TRANSACTION_TYPE enumeration%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

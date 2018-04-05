@@ -39,7 +39,8 @@ api_location:
 -	VhfKm.dll
 api_name:
 -	VhfStart
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USB_SUPERSPEED_ENDPOINT_COMPANION_DESCRIPTOR, *PUSB_SUPERSPEED_ENDPOINT_COMPANION_DESCRIPTOR
 req.product: Windows 10 or later.
@@ -54,16 +55,6 @@ req.product: Windows 10 or later.
 The HID source driver calls this method to start the virtual HID device. 
 
 
-## -syntax
-
-
-````
-NTSTATUS VhfStart(
-  [in] VHFHANDLE VhfHandle
-);
-````
-
-
 ## -parameters
 
 
@@ -71,7 +62,7 @@ NTSTATUS VhfStart(
 
 ### -param VhfHandle [in]
 
-A handle to a virtual HID device that your HID source driver received in the previous call to <a href="..\vhf\nf-vhf-vhfcreate.md">VhfCreate</a>.
+A handle to a virtual HID device that your HID source driver received in the previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/dn925036">VhfCreate</a>.
 
 
 ## -returns

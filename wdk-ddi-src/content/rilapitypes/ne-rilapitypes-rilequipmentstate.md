@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILEQUIPMENTSTATE
 title: RILEQUIPMENTSTATE
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilequipmentstate_2.htm
+old-location: netvista\rilequipmentstate.htm
 old-project: netvista
-ms.assetid: fd3af191-aae8-4afa-b737-8c51029df0e4
+ms.assetid: aa00ebc4-c8de-4a73-ad43-77f4e173e617
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: RILEQUIPMENTSTATE, RILEQUIPMENTSTATE enumeration [Network Drivers Starting with Windows Vista], RIL_EQSTATE_FULL, RIL_EQSTATE_MAX, RIL_EQSTATE_SHUTDOWN, netvista.rilequipmentstate_2, rilapitypes/RILEQUIPMENTSTATE, rilapitypes/RIL_EQSTATE_FULL, rilapitypes/RIL_EQSTATE_MAX, rilapitypes/RIL_EQSTATE_SHUTDOWN
+ms.date: 3/26/2018
+ms.keywords: RILEQUIPMENTSTATE, RILEQUIPMENTSTATE enumeration [Network Drivers Starting with Windows Vista], RIL_EQSTATE_FULL, RIL_EQSTATE_MAX, RIL_EQSTATE_SHUTDOWN, netvista.rilequipmentstate, ntddrilapitypes/RILEQUIPMENTSTATE, ntddrilapitypes/RIL_EQSTATE_FULL, ntddrilapitypes/RIL_EQSTATE_MAX, ntddrilapitypes/RIL_EQSTATE_SHUTDOWN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -35,10 +35,11 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILEQUIPMENTSTATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILEQUIPMENTSTATE
 req.product: Windows 10 or later.
@@ -50,19 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-
-## -syntax
-
-
-````
-typedef enum _RILEQUIPMENTSTATE { 
-  RIL_EQSTATE_FULL,
-  RIL_EQSTATE_SHUTDOWN,
-  RIL_EQSTATE_MAX
-} RILEQUIPMENTSTATE;
-````
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -enum-fields

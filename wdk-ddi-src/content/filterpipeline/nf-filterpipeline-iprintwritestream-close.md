@@ -7,7 +7,7 @@ old-location: print\iprintwritestream_close.htm
 old-project: print
 ms.assetid: d3f828bf-854f-4d2d-a869-ee5c002a1728
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: Close method [Print Devices], Close method [Print Devices], IPrintWriteStream interface, Close,IPrintWriteStream.Close, IPrintWriteStream, IPrintWriteStream interface [Print Devices], Close method, IPrintWriteStream::Close, filterpipeline/IPrintWriteStream::Close, filterpipeline_68b1e38f-f42a-4fa1-92f1-2181ac15033e.xml, print.iprintwritestream_close
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: filterpipeline.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	Filterpipeline.h
 api_name:
 -	IPrintWriteStream.Close
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
@@ -50,16 +51,6 @@ req.typenames: EXpsFontRestriction
 
 
 The <code>Close</code> method closes a stream and ends the writing to that stream. This method is mandatory. You must call this method when the filter is done writing.
-
-
-## -syntax
-
-
-````
-void STDMETHODCALLTYPE Close(
-    None
-);
-````
 
 
 ## -parameters

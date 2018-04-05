@@ -7,7 +7,7 @@ old-location: print\ixpsdocument_getthumbnail.htm
 old-project: print
 ms.assetid: 74466609-4408-4065-a607-cd338902335d
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: GetThumbnail method [Print Devices], GetThumbnail method [Print Devices], IXpsDocument interface, GetThumbnail,IXpsDocument.GetThumbnail, IXpsDocument, IXpsDocument interface [Print Devices], GetThumbnail method, IXpsDocument::GetThumbnail, filterpipeline/IXpsDocument::GetThumbnail, filterpipeline_dbbd8b80-198b-4cdd-af97-68093d87c4e1.xml, print.ixpsdocument_getthumbnail
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: filterpipeline.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	filterpipeline.h
 api_name:
 -	IXpsDocument.GetThumbnail
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
@@ -50,16 +51,6 @@ req.typenames: EXpsFontRestriction
 
 
 The <code>GetThumbnail</code> method gets the document thumbnail object. 
-
-
-## -syntax
-
-
-````
-HRESULT GetThumbnail(
-  [out] IPartThumbnail **ppThumbnail
-);
-````
 
 
 ## -parameters

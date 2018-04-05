@@ -7,7 +7,7 @@ old-location: display\dxgk_buildpagingbuffer_notifyresidency.htm
 old-project: display
 ms.assetid: 0E70F621-03CD-4593-88C7-DF6F2ADC902A
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY, DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY structure [Display Devices], _DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY, d3dkmddi/DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY, display.dxgk_buildpagingbuffer_notifyresidency
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY
 ---
@@ -52,21 +53,6 @@ req.typenames: DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY
 <b> DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY</b> describes a residency allocation change operation.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY {
-  HANDLE                  hAllocation;
-  D3DGPU_PHYSICAL_ADDRESS PhysicalAddress;
-  union {
-    UINT Resident  :1;
-    UINT Reserved  :31;
-  };
-} DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY;
-````
-
-
 ## -struct-fields
 
 
@@ -74,7 +60,7 @@ typedef struct _DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY {
 
 ### -field hAllocation
 
-The kernel mode driver handle returned from <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a>.
+The kernel mode driver handle returned from <a href="https://msdn.microsoft.com/a28287d6-4dfa-4db4-92df-bbcd9379a5b2">DxgkDdiCreateAllocation</a>.
 
 
 ### -field PhysicalAddress
@@ -96,7 +82,7 @@ Set to 0 when the allocation is evicted and set to 1 when the allocation is comm
 
 
 
-The paging operations is issued only for allocations, for which the kernel mode driver sets the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfoflags.md">DXGK_ALLOCATIONINFOFLAGS</a>::<b>ExplicitResidencyNotification</b> and <b>AccessedPhysically</b> flags.
+The paging operations is issued only for allocations, for which the kernel mode driver sets the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560966">DXGK_ALLOCATIONINFOFLAGS</a>::<b>ExplicitResidencyNotification</b> and <b>AccessedPhysically</b> flags.
 
 The operation is issued after <i>FillVirtual</i> or <i>TransferVirtual</i> operations when the allocation is committed to a memory segment (<b>Resident</b> == 1). Note that the previous paging operations might not yet be finished by graphics processing unit (GPU).
 
@@ -111,17 +97,15 @@ Note that the <i>NotifyResidency</i> operation will be issued only once during a
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_buildpagingbuffer.md">DXGKARG_BUILDPAGINGBUFFER</a>
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557540">DXGKARG_BUILDPAGINGBUFFER</a>
 
 
 
+<a href="https://msdn.microsoft.com/a28287d6-4dfa-4db4-92df-bbcd9379a5b2">DxgkDdiCreateAllocation</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: display\dxvahdddi_custom_rate_data.htm
 old-project: display
 ms.assetid: 828c4c42-a74f-4737-b850-5c8299e5afd6
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: DXVA2_Structs_98dcb947-954a-4e8d-adea-3451814e89f9.xml, DXVAHDDDI_CUSTOM_RATE_DATA, DXVAHDDDI_CUSTOM_RATE_DATA structure [Display Devices], _DXVAHDDDI_CUSTOM_RATE_DATA, d3dumddi/DXVAHDDDI_CUSTOM_RATE_DATA, display.dxvahdddi_custom_rate_data
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	DXVAHDDDI_CUSTOM_RATE_DATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXVAHDDDI_CUSTOM_RATE_DATA
 ---
@@ -52,19 +53,6 @@ req.typenames: DXVAHDDDI_CUSTOM_RATE_DATA
 The DXVAHDDDI_CUSTOM_RATE_DATA structure describes the video content that a decode device processes. 
 
 
-## -syntax
-
-
-````
-typedef struct _DXVAHDDDI_CUSTOM_RATE_DATA {
-  DXVAHDDDI_RATIONAL CustomRate;
-  UINT               OutputFrames;
-  BOOL               InputInterlaced;
-  UINT               InputFramesOrFields;
-} DXVAHDDDI_CUSTOM_RATE_DATA;
-````
-
-
 ## -struct-fields
 
 
@@ -73,7 +61,7 @@ typedef struct _DXVAHDDDI_CUSTOM_RATE_DATA {
 ### -field CustomRate
 
 
-      [in] A <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_rational.md">DXVAHDDDI_RATIONAL</a> structure that specifies a fractional value that represents the input and output frame rate. 
+      [in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff563064">DXVAHDDDI_RATIONAL</a> structure that specifies a fractional value that represents the input and output frame rate. 
      
 
 
@@ -105,13 +93,11 @@ The driver can expose custom rates for the frame rate conversion or the inverse 
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_rational.md">DXVAHDDDI_RATIONAL</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563064">DXVAHDDDI_RATIONAL</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVAHDDDI_CUSTOM_RATE_DATA structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

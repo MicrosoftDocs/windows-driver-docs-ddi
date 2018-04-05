@@ -7,7 +7,7 @@ old-location: storage\ioctl_storage_check_verify.htm
 old-project: storage
 ms.assetid: 12e98642-2ed5-47d6-9461-9d6c52149749
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_STORAGE_CHECK_VERIFY, IOCTL_STORAGE_CHECK_VERIFY control code [Storage Devices], k307_5ec9ef19-a741-4fb9-876e-7cfc35699dbe.xml, ntddstor/IOCTL_STORAGE_CHECK_VERIFY, storage.ioctl_storage_check_verify
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ntddstor.h
 api_name:
 -	IOCTL_STORAGE_CHECK_VERIFY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STORAGE_ZONE_CONDITION, *PSTORAGE_ZONE_CONDITION
 ---
@@ -46,16 +47,11 @@ req.typenames: STORAGE_ZONE_CONDITION, *PSTORAGE_ZONE_CONDITION
 # IOCTL_STORAGE_CHECK_VERIFY IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
 
-Determines whether the media has changed on a removable-media device that the caller has opened for read or write access. If read or write access to the device is not necessary, the caller can improve performance by opening the device with FILE_READ_ATTRIBUTES and issuing an<a href="..\ntddstor\ni-ntddstor-ioctl_storage_check_verify2.md">IOCTL_STORAGE_CHECK_VERIFY2</a> request instead. 
+Determines whether the media has changed on a removable-media device that the caller has opened for read or write access. If read or write access to the device is not necessary, the caller can improve performance by opening the device with FILE_READ_ATTRIBUTES and issuing an<a href="https://msdn.microsoft.com/library/windows/hardware/ff560538">IOCTL_STORAGE_CHECK_VERIFY2</a> request instead. 
 
 For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563916">Supporting Removable Media</a>.
 
@@ -156,13 +152,11 @@ For a tape driver, the <b>Information</b> field is set to zero and the <b>Status
 
 ## -see-also
 
-<a href="..\ntddstor\ni-ntddstor-ioctl_storage_check_verify2.md">IOCTL_STORAGE_CHECK_VERIFY2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560538">IOCTL_STORAGE_CHECK_VERIFY2</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20IOCTL_STORAGE_CHECK_VERIFY control code%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

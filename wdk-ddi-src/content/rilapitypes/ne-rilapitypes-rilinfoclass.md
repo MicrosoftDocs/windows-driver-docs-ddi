@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILINFOCLASS
 title: RILINFOCLASS
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilinfoclass_2.htm
+old-location: netvista\rilinfoclass.htm
 old-project: netvista
-ms.assetid: 19927cd1-8afa-4006-a882-d5222c690724
+ms.assetid: 2e4bd8bd-ce7e-4eb4-ac0d-68fb8890eb26
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: RILINFOCLASS, RILINFOCLASS enumeration [Network Drivers Starting with Windows Vista], RIL_INFOCLASS_ALL, RIL_INFOCLASS_DATA, RIL_INFOCLASS_DATACIRCUITASYNC, RIL_INFOCLASS_DATACIRCUITSYNC, RIL_INFOCLASS_FAX, RIL_INFOCLASS_PACKETACCESS, RIL_INFOCLASS_PADACCESS, RIL_INFOCLASS_SMS, RIL_INFOCLASS_VOICE, netvista.rilinfoclass_2, rilapitypes/RILINFOCLASS, rilapitypes/RIL_INFOCLASS_ALL, rilapitypes/RIL_INFOCLASS_DATA, rilapitypes/RIL_INFOCLASS_DATACIRCUITASYNC, rilapitypes/RIL_INFOCLASS_DATACIRCUITSYNC, rilapitypes/RIL_INFOCLASS_FAX, rilapitypes/RIL_INFOCLASS_PACKETACCESS, rilapitypes/RIL_INFOCLASS_PADACCESS, rilapitypes/RIL_INFOCLASS_SMS, rilapitypes/RIL_INFOCLASS_VOICE
+ms.date: 3/26/2018
+ms.keywords: RILINFOCLASS, RILINFOCLASS enumeration [Network Drivers Starting with Windows Vista], RIL_INFOCLASS_ALL, RIL_INFOCLASS_DATA, RIL_INFOCLASS_DATACIRCUITASYNC, RIL_INFOCLASS_DATACIRCUITSYNC, RIL_INFOCLASS_FAX, RIL_INFOCLASS_PACKETACCESS, RIL_INFOCLASS_PADACCESS, RIL_INFOCLASS_SMS, RIL_INFOCLASS_VOICE, netvista.rilinfoclass, ntddrilapitypes/RILINFOCLASS, ntddrilapitypes/RIL_INFOCLASS_ALL, ntddrilapitypes/RIL_INFOCLASS_DATA, ntddrilapitypes/RIL_INFOCLASS_DATACIRCUITASYNC, ntddrilapitypes/RIL_INFOCLASS_DATACIRCUITSYNC, ntddrilapitypes/RIL_INFOCLASS_FAX, ntddrilapitypes/RIL_INFOCLASS_PACKETACCESS, ntddrilapitypes/RIL_INFOCLASS_PADACCESS, ntddrilapitypes/RIL_INFOCLASS_SMS, ntddrilapitypes/RIL_INFOCLASS_VOICE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -35,10 +35,11 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILINFOCLASS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILINFOCLASS
 req.product: Windows 10 or later.
@@ -50,25 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-
-## -syntax
-
-
-````
-typedef enum _RILINFOCLASS { 
-  RIL_INFOCLASS_VOICE,
-  RIL_INFOCLASS_DATA,
-  RIL_INFOCLASS_FAX,
-  RIL_INFOCLASS_SMS,
-  RIL_INFOCLASS_DATACIRCUITSYNC,
-  RIL_INFOCLASS_DATACIRCUITASYNC,
-  RIL_INFOCLASS_PACKETACCESS,
-  RIL_INFOCLASS_PADACCESS,
-  RIL_INFOCLASS_ALL
-} RILINFOCLASS;
-````
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -enum-fields

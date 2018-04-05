@@ -7,7 +7,7 @@ old-location: kernel\rtlintptradd.htm
 old-project: kernel
 ms.assetid: 97873113-7B0B-4121-B074-5B73D59489F4
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/28/2018
 ms.keywords: RtlIntPtrAdd, RtlIntPtrAdd function [Kernel-Mode Driver Architecture], kernel.rtlintptradd, ntintsafe/RtlIntPtrAdd
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	Ntintsafe.h
 api_name:
 -	RtlIntPtrAdd
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 ---
@@ -50,18 +51,6 @@ req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 
 
 Adds two values of type <b>INT_PTR</b>.
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlIntPtrAdd(
-  _In_  INT_PTR iAugend,
-  _In_  INT_PTR iAddend,
-  _Out_ INT_PTR *piResult
-);
-````
 
 
 ## -parameters

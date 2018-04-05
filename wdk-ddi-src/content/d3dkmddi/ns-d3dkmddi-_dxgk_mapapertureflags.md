@@ -7,7 +7,7 @@ old-location: display\dxgk_mapapertureflags.htm
 old-project: display
 ms.assetid: c6a6f98f-a4e3-47ed-b9e9-7303c824612d
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: DXGK_MAPAPERTUREFLAGS, DXGK_MAPAPERTUREFLAGS structure [Display Devices], DmStructs_74b5ec6e-0c62-419f-beb2-676d993c7496.xml, _DXGK_MAPAPERTUREFLAGS, d3dkmddi/DXGK_MAPAPERTUREFLAGS, display.dxgk_mapapertureflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGK_MAPAPERTUREFLAGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_MAPAPERTUREFLAGS
 ---
@@ -49,23 +50,7 @@ req.typenames: DXGK_MAPAPERTUREFLAGS
 ## -description
 
 
-The DXGK_MAPAPERTUREFLAGS structure identifies the type of map-aperture-segment operation to set up in a call to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_buildpagingbuffer.md">DxgkDdiBuildPagingBuffer</a> function. 
-
-
-## -syntax
-
-
-````
-typedef struct _DXGK_MAPAPERTUREFLAGS {
-  union {
-    struct {
-      UINT CacheCoherent  :1;
-      UINT Reserved  :31;
-    };
-    UINT Value;
-  };
-} DXGK_MAPAPERTUREFLAGS;
-````
+The DXGK_MAPAPERTUREFLAGS structure identifies the type of map-aperture-segment operation to set up in a call to the <a href="https://msdn.microsoft.com/d315ff53-4a9f-46a3-ad74-d65a5eb72de1">DxgkDdiBuildPagingBuffer</a> function. 
 
 
 ## -struct-fields
@@ -75,7 +60,7 @@ typedef struct _DXGK_MAPAPERTUREFLAGS {
 
 ### -field CacheCoherent
 
-[in] A UINT value that specifies whether cache coherency is required for pages that are mapped in a call to <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_buildpagingbuffer.md">DxgkDdiBuildPagingBuffer</a>. If this member is set, the driver must ensure that cache coherency is enforced on the pages that are mapped. If this member is not set, cache coherency is not required for the pages that are mapped. 
+[in] A UINT value that specifies whether cache coherency is required for pages that are mapped in a call to <a href="https://msdn.microsoft.com/d315ff53-4a9f-46a3-ad74-d65a5eb72de1">DxgkDdiBuildPagingBuffer</a>. If this member is set, the driver must ensure that cache coherency is enforced on the pages that are mapped. If this member is not set, cache coherency is not required for the pages that are mapped. 
 
 Setting this member is equivalent to setting the first bit of the 32-bit <b>Value</b> member (0x00000001).
 
@@ -92,17 +77,15 @@ Setting this member is equivalent to setting the first bit of the 32-bit <b>Valu
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_buildpagingbuffer.md">DXGKARG_BUILDPAGINGBUFFER</a>
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_buildpagingbuffer.md">DxgkDdiBuildPagingBuffer</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557540">DXGKARG_BUILDPAGINGBUFFER</a>
 
 
 
+<a href="https://msdn.microsoft.com/d315ff53-4a9f-46a3-ad74-d65a5eb72de1">DxgkDdiBuildPagingBuffer</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGK_MAPAPERTUREFLAGS structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

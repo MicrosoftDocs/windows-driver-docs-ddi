@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILCALLDISCONNECTDETAILSDISCONNECTGROUP
 title: RILCALLDISCONNECTDETAILSDISCONNECTGROUP
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilcalldisconnectdetailsdisconnectgroup_2.htm
+old-location: netvista\rilcalldisconnectdetailsdisconnectgroup.htm
 old-project: netvista
-ms.assetid: 4d4c87d5-36cd-49ba-8111-cf651f67a451
+ms.assetid: d546e936-f8c6-45ad-8027-a8495b4633dc
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: RILCALLDISCONNECTDETAILSDISCONNECTGROUP, RILCALLDISCONNECTDETAILSDISCONNECTGROUP enumeration [Network Drivers Starting with Windows Vista], RIL_CD_3GPP2_VENDOR_CAUSE, RIL_CD_3GPP_NETWORK_CAUSE, RIL_CD_3GPP_REJECT_CAUSE, RIL_CD_AS_CAUSE, RIL_CD_CAUSE_MAX, RIL_CD_IMS_SIP_CAUSE, RIL_CD_OTHER_CAUSE, netvista.rilcalldisconnectdetailsdisconnectgroup_2, rilapitypes/RILCALLDISCONNECTDETAILSDISCONNECTGROUP, rilapitypes/RIL_CD_3GPP2_VENDOR_CAUSE, rilapitypes/RIL_CD_3GPP_NETWORK_CAUSE, rilapitypes/RIL_CD_3GPP_REJECT_CAUSE, rilapitypes/RIL_CD_AS_CAUSE, rilapitypes/RIL_CD_CAUSE_MAX, rilapitypes/RIL_CD_IMS_SIP_CAUSE, rilapitypes/RIL_CD_OTHER_CAUSE
+ms.date: 3/26/2018
+ms.keywords: RILCALLDISCONNECTDETAILSDISCONNECTGROUP, RILCALLDISCONNECTDETAILSDISCONNECTGROUP enumeration [Network Drivers Starting with Windows Vista], RIL_CD_3GPP2_VENDOR_CAUSE, RIL_CD_3GPP_NETWORK_CAUSE, RIL_CD_3GPP_REJECT_CAUSE, RIL_CD_AS_CAUSE, RIL_CD_CAUSE_MAX, RIL_CD_IMS_SIP_CAUSE, RIL_CD_OTHER_CAUSE, netvista.rilcalldisconnectdetailsdisconnectgroup, ntddrilapitypes/RILCALLDISCONNECTDETAILSDISCONNECTGROUP, ntddrilapitypes/RIL_CD_3GPP2_VENDOR_CAUSE, ntddrilapitypes/RIL_CD_3GPP_NETWORK_CAUSE, ntddrilapitypes/RIL_CD_3GPP_REJECT_CAUSE, ntddrilapitypes/RIL_CD_AS_CAUSE, ntddrilapitypes/RIL_CD_CAUSE_MAX, ntddrilapitypes/RIL_CD_IMS_SIP_CAUSE, ntddrilapitypes/RIL_CD_OTHER_CAUSE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -35,10 +35,11 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILCALLDISCONNECTDETAILSDISCONNECTGROUP
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILCALLDISCONNECTDETAILSDISCONNECTGROUP
 req.product: Windows 10 or later.
@@ -50,23 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-
-## -syntax
-
-
-````
-typedef enum _RILCALLDISCONNECTDETAILSDISCONNECTGROUP { 
-  RIL_CD_AS_CAUSE,
-  RIL_CD_3GPP_NETWORK_CAUSE,
-  RIL_CD_3GPP2_VENDOR_CAUSE,
-  RIL_CD_OTHER_CAUSE,
-  RIL_CD_3GPP_REJECT_CAUSE,
-  RIL_CD_IMS_SIP_CAUSE,
-  RIL_CD_CAUSE_MAX
-} RILCALLDISCONNECTDETAILSDISCONNECTGROUP;
-````
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -enum-fields

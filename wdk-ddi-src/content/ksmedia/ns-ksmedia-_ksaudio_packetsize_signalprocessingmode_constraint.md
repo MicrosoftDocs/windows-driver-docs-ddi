@@ -7,7 +7,7 @@ old-location: audio\ksaudio_packetsize_processingmode_constraint.htm
 old-project: audio
 ms.assetid: 0BC6A03C-CF6D-4F56-985E-933E87200DFE
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 3/19/2018
 ms.keywords: KSAUDIO_PACKETSIZE_PROCESSINGMODE_CONSTRAINT, KSAUDIO_PACKETSIZE_PROCESSINGMODE_CONSTRAINT structure [Audio Devices], _KSAUDIO_PACKETSIZE_SIGNALPROCESSINGMODE_CONSTRAINT, audio.ksaudio_packetsize_processingmode_constraint, ksmedia/KSAUDIO_PACKETSIZE_PROCESSINGMODE_CONSTRAINT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KSAUDIO_PACKETSIZE_PROCESSINGMODE_CONSTRAINT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSAUDIO_PACKETSIZE_PROCESSINGMODE_CONSTRAINT
 ---
@@ -50,18 +51,6 @@ req.typenames: KSAUDIO_PACKETSIZE_PROCESSINGMODE_CONSTRAINT
 
 
 The <b>KSAUDIO_PACKETSIZE_PROCESSINGMODE_CONSTRAINT</b> structure describes the constraints specific to any signal processing mode.
-
-
-## -syntax
-
-
-````
-typedef struct _KSAUDIO_PACKETSIZE_PROCESSINGMODE_CONSTRAINT {
-  GUID  ProcessingMode;
-  ULONG SamplesPerProcessingPacket;
-  ULONG ProcessingPacketDurationInHns;
-} KSAUDIO_PACKETSIZE_PROCESSINGMODE_CONSTRAINT;
-````
 
 
 ## -struct-fields
@@ -86,13 +75,11 @@ The processing frame size for the processing mode, expressed in hundred-nanoseco
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-_ksaudio_packetsize_constraints.md">KSAUDIO_PACKETSIZE_CONSTRAINTS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn965561">KSAUDIO_PACKETSIZE_CONSTRAINTS</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20KSAUDIO_PACKETSIZE_PROCESSINGMODE_CONSTRAINT structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

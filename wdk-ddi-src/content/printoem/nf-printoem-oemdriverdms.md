@@ -7,7 +7,7 @@ old-location: print\oemdriverdms.htm
 old-project: print
 ms.assetid: 261d4dbc-6374-4b11-80a0-64b0a2fc6abe
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: OEMDriverDMS, OEMDriverDMS function [Print Devices], print.oemdriverdms, print_obsoletefunctions_2ae5b734-4f6d-4d91-baba-b594a3388d08.xml, printoem/OEMDriverDMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	printoem.h
 api_name:
 -	OEMDriverDMS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STDVARIABLEINDEX
 req.product: Windows 10 or later.
@@ -50,19 +51,6 @@ req.product: Windows 10 or later.
 ## -description
 
 
-
-
-## -syntax
-
-
-````
-BOOL APIENTRY OEMDriverDMS(
-        PVOID                        pDevObj,
-  _Out_ _writes_bytes_(cbSize) PVOID pBuffer,
-        DWORD                        cbSize,
-  _Out_ PDWORD                       pcbNeeded
-);
-````
 
 
 ## -parameters

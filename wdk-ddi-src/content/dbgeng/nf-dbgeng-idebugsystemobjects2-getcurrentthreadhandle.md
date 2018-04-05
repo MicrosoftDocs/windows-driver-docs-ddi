@@ -7,7 +7,7 @@ old-location: debugger\getcurrentthreadhandle.htm
 old-project: debugger
 ms.assetid: edbda821-8016-48db-a2f5-7f615428da0c
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/26/2018
 ms.keywords: GetCurrentThreadHandle method [Windows Debugging], GetCurrentThreadHandle method [Windows Debugging], IDebugSystemObjects interface, GetCurrentThreadHandle method [Windows Debugging], IDebugSystemObjects2 interface, GetCurrentThreadHandle method [Windows Debugging], IDebugSystemObjects3 interface, GetCurrentThreadHandle method [Windows Debugging], IDebugSystemObjects4 interface, GetCurrentThreadHandle,IDebugSystemObjects2.GetCurrentThreadHandle, IDebugSystemObjects interface [Windows Debugging], GetCurrentThreadHandle method, IDebugSystemObjects2, IDebugSystemObjects2 interface [Windows Debugging], GetCurrentThreadHandle method, IDebugSystemObjects2::GetCurrentThreadHandle, IDebugSystemObjects3 interface [Windows Debugging], GetCurrentThreadHandle method, IDebugSystemObjects3::GetCurrentThreadHandle, IDebugSystemObjects4 interface [Windows Debugging], GetCurrentThreadHandle method, IDebugSystemObjects4::GetCurrentThreadHandle, IDebugSystemObjects::GetCurrentThreadHandle, IDebugSystemObjects_6c615962-bf20-4cdb-8bab-8afc142e8c65.xml, dbgeng/IDebugSystemObjects2::GetCurrentThreadHandle, dbgeng/IDebugSystemObjects3::GetCurrentThreadHandle, dbgeng/IDebugSystemObjects4::GetCurrentThreadHandle, dbgeng/IDebugSystemObjects::GetCurrentThreadHandle, debugger.getcurrentthreadhandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -41,7 +41,8 @@ api_name:
 -	IDebugSystemObjects2.GetCurrentThreadHandle
 -	IDebugSystemObjects3.GetCurrentThreadHandle
 -	IDebugSystemObjects4.GetCurrentThreadHandle
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -53,16 +54,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetCurrentThreadHandle</b> method returns the system handle for the current thread.
-
-
-## -syntax
-
-
-````
-HRESULT GetCurrentThreadHandle(
-  [out] PULONG64 Handle
-);
-````
 
 
 ## -parameters

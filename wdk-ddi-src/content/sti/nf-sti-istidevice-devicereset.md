@@ -7,7 +7,7 @@ old-location: image\istidevice_devicereset.htm
 old-project: image
 ms.assetid: 8a52c452-9a80-45d5-9bc8-85e17654eb6a
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/27/2018
 ms.keywords: DeviceReset method [Imaging Devices], DeviceReset method [Imaging Devices], IStiDevice interface, DeviceReset,IStiDevice.DeviceReset, IStiDevice, IStiDevice interface [Imaging Devices], DeviceReset method, IStiDevice::DeviceReset, image.istidevice_devicereset, sti/IStiDevice::DeviceReset, stifnc_ef289b1a-3123-4e1e-b643-688a10e69e36.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: sti.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	Sti.h
 api_name:
 -	IStiDevice.DeviceReset
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STI_DEVICE_MJ_TYPE, STI_DEVICE_MJ_TYPE
 req.product: Windows 10 or later.
@@ -51,14 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>IStiDevice::DeviceReset</b> method resets a still image device to a known state.
-
-
-## -syntax
-
-
-````
-HRESULT DeviceReset();
-````
 
 
 ## -parameters

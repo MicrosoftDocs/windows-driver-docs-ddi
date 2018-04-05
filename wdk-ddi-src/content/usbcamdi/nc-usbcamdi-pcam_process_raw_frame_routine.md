@@ -38,7 +38,8 @@ api_location:
 -	usbcamdi.h
 api_name:
 -	CamProcessRawVideoFrame
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USB_BUS_INTERFACE_USBDI_V3, *PUSB_BUS_INTERFACE_USBDI_V3
 req.product: Windows 10 or later.
@@ -50,28 +51,10 @@ req.product: Windows 10 or later.
 ## -description
 
 
-<p class="CCE_Message">[CamProcessRawVideoFrame is not supported and may be altered or unavailable in the future. Instead, use <a href="..\usbcamdi\nc-usbcamdi-pcam_process_raw_frame_routine_ex.md">CamProcessRawVideoFrameEx</a>.
+<p class="CCE_Message">[CamProcessRawVideoFrame is not supported and may be altered or unavailable in the future. Instead, use <a href="https://msdn.microsoft.com/library/windows/hardware/ff557625">CamProcessRawVideoFrameEx</a>.
 ]
 
 A camera minidriver's <b>CamProcessRawVideoFrame</b> callback function decodes a raw video frame.
-
-
-## -prototype
-
-
-````
-NTSTATUS CamProcessRawVideoFrame(
-   PDEVICE_OBJECT BusDeviceObject,
-   PVOID          DeviceContext,
-   PVOID          FrameContext,
-   PVOID          FrameBuffer,
-   ULONG          FrameLength,
-   PVOID          RawFrameBuffer,
-   ULONG          RawFrameLength,
-   ULONG          NumberOfPackets,
-   PULONG         BytesReturned
-);
-````
 
 
 ## -parameters
@@ -139,7 +122,7 @@ Pointer to the number of bytes transferred. The minidriver must set this to zero
 
 Before USBCAMD calls the minidriver's <b>CamProcessRawVideoFrame</b> callback, it sets the first DWORD in the buffer pointed to by the <i>FrameBuffer</i> parameter to the value <i>0xdeadbeef.</i> After calling the minidriver's <b>CamProcessRawVideoFrame</b> callback USBCAMD checks the first DWORD in the buffer pointed to by the <i>FrameBuffer</i> parameter for the value <i>0xdeadbeef</i> to determine if <b>CamProcessRawVideoFrame</b> successfully copied the video frame from the buffer pointed to by the <i>RawFrameBuffer</i> parameter into the buffer pointed to by the <i>FrameBuffer</i> parameter.
 
-Camera minidrivers that must maintain backward compatibility with the original USBCAMD must use the <a href="..\usbcamdi\ns-usbcamdi-_usbcamd_device_data.md">USBCAMD_DEVICE_DATA</a> structure and its associated callback functions (that is, callback functions that do not contain the "Ex" suffix).
+Camera minidrivers that must maintain backward compatibility with the original USBCAMD must use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568585">USBCAMD_DEVICE_DATA</a> structure and its associated callback functions (that is, callback functions that do not contain the "Ex" suffix).
 
 This function is optional.
 
@@ -148,13 +131,11 @@ This function is optional.
 
 ## -see-also
 
-<a href="..\usbcamdi\nc-usbcamdi-pcam_process_raw_frame_routine_ex.md">CamProcessRawVideoFrameEx</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557625">CamProcessRawVideoFrameEx</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20PCAM_PROCESS_RAW_FRAME_ROUTINE callback function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

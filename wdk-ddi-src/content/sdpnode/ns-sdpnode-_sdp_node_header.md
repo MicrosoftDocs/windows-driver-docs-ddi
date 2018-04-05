@@ -38,7 +38,8 @@ api_location:
 -	sdpnode.h
 api_name:
 -	SDP_NODE_HEADER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SDP_NODE_HEADER, *PSDP_NODE_HEADER
 req.product: Windows 10 or later.
@@ -54,18 +55,6 @@ The SDP_NODE_HEADER structure holds information about an element in a tree-based
   SDP record.
 
 
-## -syntax
-
-
-````
-typedef struct _SDP_NODE_HEADER {
-  LIST_ENTRY Link;
-  USHORT     Type;
-  USHORT     SpecificType;
-} SDP_NODE_HEADER, *PSDP_NODE_HEADER;
-````
-
-
 ## -struct-fields
 
 
@@ -75,7 +64,7 @@ typedef struct _SDP_NODE_HEADER {
 
 A linked-list structure that is used to link peer SDP record nodes when this structure is part of
      an 
-     <a href="..\sdpnode\ns-sdpnode-_sdp_node.md">SDP_NODE</a> structure. This member is used to link the
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536848">SDP_NODE</a> structure. This member is used to link the
      first child of the node when the header is 
      <b>u.sequence</b> or 
      <b>u.alternative</b> part of the individual SDP_NODE structure.
@@ -84,7 +73,7 @@ A linked-list structure that is used to link peer SDP record nodes when this str
 ### -field Type
 
 The data type of the 
-     <a href="..\sdpnode\ns-sdpnode-_sdp_node_data.md">SDP_NODE_DATA</a> union held in the 
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536849">SDP_NODE_DATA</a> union held in the 
      <b>u</b> member of the SDP_NODE structure.
 
 
@@ -118,7 +107,6 @@ The header specifies the type of data. Driver developers can access links to pee
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554296">LIST_ENTRY</a>
 
 
 
@@ -126,17 +114,16 @@ The header specifies the type of data. Driver developers can access links to pee
 
 
 
-<a href="..\sdpnode\ns-sdpnode-_sdp_node.md">SDP_NODE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554296">LIST_ENTRY</a>
 
 
 
-<a href="..\sdpnode\ns-sdpnode-_sdp_node_data.md">SDP_NODE_DATA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536848">SDP_NODE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536849">SDP_NODE_DATA</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20SDP_NODE_HEADER structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

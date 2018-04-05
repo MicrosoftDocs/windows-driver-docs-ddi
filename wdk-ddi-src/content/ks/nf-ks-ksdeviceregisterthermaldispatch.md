@@ -39,7 +39,8 @@ api_location:
 -	ks.dll
 api_name:
 -	KsDeviceRegisterThermalDispatch
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -53,17 +54,6 @@ req.typenames:
 This function is used by the Avstream miniport driver to register callbacks for thermal notifications with the KS port driver.
 
 
-## -syntax
-
-
-````
-void KSDDKAPI NTSTATUS NTAPI KsDeviceRegisterThermalDispatch(
-  _In_ PKSDEVICE                  KsDevice,
-  _In_ PKSDEVICE_THERMAL_DISPATCH KsDeviceThermalDispatch
-);
-````
-
-
 ## -parameters
 
 
@@ -71,7 +61,7 @@ void KSDDKAPI NTSTATUS NTAPI KsDeviceRegisterThermalDispatch(
 
 ### -param KsDevice [in]
 
-A KS device object representing the device managed by KS. For more information, see <a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>.
+A KS device object representing the device managed by KS. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff561681">KSDEVICE</a>.
 
 
 ### -param KsDeviceThermalDispatch [in]
@@ -105,13 +95,11 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561681">KSDEVICE</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsDeviceRegisterThermalDispatch function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

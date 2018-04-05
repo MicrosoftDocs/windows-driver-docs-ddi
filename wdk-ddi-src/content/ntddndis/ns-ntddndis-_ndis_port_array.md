@@ -7,7 +7,7 @@ old-location: netvista\ndis_port_array.htm
 old-project: netvista
 ms.assetid: f77469d3-ce48-4e17-9fff-1af56296f61f
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: "*PNDIS_PORT_ARRAY, NDIS_PORT_ARRAY, NDIS_PORT_ARRAY structure [Network Drivers Starting with Windows Vista], PNDIS_PORT_ARRAY, PNDIS_PORT_ARRAY structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PORT_ARRAY, ndis_ports_ref_1bba9fc6-0cd9-40f7-92ad-20979dcaa400.xml, netvista.ndis_port_array, ntddndis/NDIS_PORT_ARRAY, ntddndis/PNDIS_PORT_ARRAY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddndis.h
 api_name:
 -	NDIS_PORT_ARRAY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_PORT_ARRAY, *PNDIS_PORT_ARRAY
 ---
@@ -53,20 +54,6 @@ The NDIS_PORT_ARRAY structure specifies a list of NDIS ports and their associate
   characteristics.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_PORT_ARRAY {
-  NDIS_OBJECT_HEADER        Header;
-  ULONG                     NumberOfPorts;
-  ULONG                     OffsetFirstPort;
-  ULONG                     ElementSize;
-  NDIS_PORT_CHARACTERISTICS Ports[1];
-} NDIS_PORT_ARRAY, *PNDIS_PORT_ARRAY;
-````
-
-
 ## -struct-fields
 
 
@@ -75,7 +62,7 @@ typedef struct _NDIS_PORT_ARRAY {
 ### -field Header
 
 The 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure for the
      NDIS_PORT_ARRAY structure. Set the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to NDIS_OBJECT_TYPE_DEFAULT, the 
@@ -108,7 +95,7 @@ An array that contains the port characteristics for each active NDIS port on a m
      <b>ElementSize</b> member specifies the size of each element in the array. The 
      <b>NumberOfPorts</b> member specifies the number of elements in the array. Each
      element in the array is an 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_port_characteristics.md">
+     <a href="https://msdn.microsoft.com/fd602dd6-c216-413a-a4da-292739774937">
      NDIS_PORT_CHARACTERISTICS</a> structure.
 
 
@@ -125,21 +112,19 @@ The NDIS_PORT_ARRAY structure specifies characteristics, of all of the active ND
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566791">NDIS_PORT_CHARACTERISTICS</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569583">OID_GEN_ENUMERATE_PORTS</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_port_characteristics.md">NDIS_PORT_CHARACTERISTICS</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_PORT_ARRAY structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

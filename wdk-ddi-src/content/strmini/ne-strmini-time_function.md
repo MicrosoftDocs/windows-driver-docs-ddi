@@ -38,7 +38,8 @@ api_location:
 -	Strmini.h
 api_name:
 -	TIME_FUNCTION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TIME_FUNCTION
 req.product: Windows 10 or later.
@@ -51,18 +52,6 @@ req.product: Windows 10 or later.
 
 
 
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  TIME_GET_STREAM_TIME,
-  TIME_READ_ONBOARD_CLOCK,
-  TIME_SET_ONBOARD_CLOCK
-} TIME_FUNCTION;
-````
 
 
 ## -enum-fields

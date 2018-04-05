@@ -7,7 +7,7 @@ old-location: display\generatemipsublevels.htm
 old-project: display
 ms.assetid: 86567fc1-cf66-4709-a6e1-6b24408df963
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: GenerateMipSubLevels, GenerateMipSubLevels callback function [Display Devices], PFND3DDDI_GENERATEMIPSUBLEVELS, UserModeDisplayDriver_Functions_795601cd-37d8-4268-8e41-38806c5961e6.xml, d3dumddi/GenerateMipSubLevels, display.generatemipsublevels
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	GenerateMipSubLevels
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_PTE
 ---
@@ -50,20 +51,6 @@ req.typenames: DXGK_PTE
 
 
 The <i>GenerateMipSubLevels</i> function regenerates the sublevels of a MIP-map texture.
-
-
-## -prototype
-
-
-````
-PFND3DDDI_GENERATEMIPSUBLEVELS GenerateMipSubLevels;
-
-__checkReturn HRESULT APIENTRY GenerateMipSubLevels(
-  _In_       HANDLE                         hDevice,
-  _In_ const D3DDDIARG_GENERATEMIPSUBLEVELS *pData
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -87,7 +74,7 @@ __checkReturn HRESULT APIENTRY GenerateMipSubLevels(
 
 #### - pData [in]
 
- A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_generatemipsublevels.md">D3DDDIARG_GENERATEMIPSUBLEVELS</a> structure that describes how to generate the sublevels of a MIP-map texture.
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543135">D3DDDIARG_GENERATEMIPSUBLEVELS</a> structure that describes how to generate the sublevels of a MIP-map texture.
 
 
 ## -returns
@@ -110,17 +97,15 @@ After the user-mode display driver performs an operation that accesses only the 
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_generatemipsublevels.md">D3DDDIARG_GENERATEMIPSUBLEVELS</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543135">D3DDDIARG_GENERATEMIPSUBLEVELS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544519">D3DDDI_DEVICEFUNCS</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3DDDI_GENERATEMIPSUBLEVELS callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

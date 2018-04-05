@@ -7,7 +7,7 @@ old-location: netvista\wskgetnameinfo.htm
 old-project: netvista
 ms.assetid: 99e10a70-90a7-4d96-ae5f-ba82d8c4c1a8
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: PFN_WSK_GET_NAME_INFO, WskGetNameInfo, WskGetNameInfo callback function [Network Drivers Starting with Windows Vista], netvista.wskgetnameinfo, wsk/WskGetNameInfo, wskref_cebad0ad-55bc-4fae-9c73-5a501417ea5c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	wsk.h
 api_name:
 -	WskGetNameInfo
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WPP_TRIAGE_INFO, *PWPP_TRIAGE_INFO
 req.product: Windows 10 or later.
@@ -55,27 +56,6 @@ The
   name.
 
 
-## -prototype
-
-
-````
-PFN_WSK_GET_NAME_INFO WskGetNameInfo;
-
-NTSTATUS WSKAPI * WskGetNameInfo(
-  _In_      PWSK_CLIENT     Client,
-  _In_      PSOCKADDR       SockAddr,
-  _In_      ULONG           SockAddrLength,
-  _Out_opt_ PUNICODE_STRING NodeName,
-  _Out_opt_ PUNICODE_STRING ServiceName,
-  _In_      ULONG           Flags,
-  _In_opt_  PEPROCESS       OwningProcess,
-  _In_opt_  PETHREAD        OwningThread,
-  _Inout_   PIRP            Irp
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -87,7 +67,7 @@ NTSTATUS WSKAPI * WskGetNameInfo(
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff571155">WSK_CLIENT</a> structure that was returned through
      the 
      <i>WskProviderNpi</i> parameter of the 
-     <a href="..\wsk\nf-wsk-wskcaptureprovidernpi.md">
+     <a href="https://msdn.microsoft.com/b5c6667e-33b4-4482-8817-c01d9d314c3a">
      WskCaptureProviderNPI</a> function.
 
 
@@ -109,7 +89,7 @@ NTSTATUS WSKAPI * WskGetNameInfo(
 ### -param NodeName [out, optional]
 
 [out] An optional pointer to a 
-     <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that contains a
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure that contains a
      Unicode string that represents a host (node) name. On success, the Unicode host name is written as a
      Fully Qualified Domain Name (FQDN) by default. The caller must provide a UNICODE_STRING buffer large
      enough to hold the Unicode host name, which includes the terminating NULL character. If the 
@@ -121,7 +101,7 @@ NTSTATUS WSKAPI * WskGetNameInfo(
 ### -param ServiceName [out, optional]
 
 [out] An optional pointer to a 
-     <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that contains a
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure that contains a
      Unicode string that represents a service name associated with the port number. The caller must provide a
      UNICODE_STRING buffer large enough to hold the Unicode service name, which includes the terminating NULL
      character. If the 
@@ -301,15 +281,6 @@ The process to which the
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571155">WSK_CLIENT</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_get_address_info.md">WskGetAddressInfo</a>
-
-
-
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 
@@ -321,13 +292,20 @@ The process to which the
 
 
 
-<a href="..\wsk\nf-wsk-wskcaptureprovidernpi.md">WskCaptureProviderNPI</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571155">WSK_CLIENT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571122">WskCaptureProviderNPI</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571132">WskGetAddressInfo</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20PFN_WSK_GET_NAME_INFO callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

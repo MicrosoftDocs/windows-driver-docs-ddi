@@ -7,7 +7,7 @@ old-location: print\drvsplstartdoc.htm
 old-project: print
 ms.assetid: 3bd25a77-bce6-4cd3-808c-6df3b3033dd2
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: DrvSplStartDoc, DrvSplStartDoc function [Print Devices], print.drvsplstartdoc, print_interface-graphics_c37a0824-d460-4d62-b029-55ec4bc842d2.xml, winddiui/DrvSplStartDoc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	winddiui.h
 api_name:
 -	DrvSplStartDoc
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WINBIO_VERSION, *PWINBIO_VERSION
 req.product: Windows 10 or later.
@@ -51,17 +52,6 @@ req.product: Windows 10 or later.
 
 
 
-
-
-## -syntax
-
-
-````
-HANDLE WINAPI DrvSplStartDoc(
-   HANDLE hPrinter,
-   DWORD  JobId
-);
-````
 
 
 ## -parameters

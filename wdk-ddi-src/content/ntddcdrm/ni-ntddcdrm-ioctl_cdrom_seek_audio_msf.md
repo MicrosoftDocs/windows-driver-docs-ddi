@@ -7,7 +7,7 @@ old-location: storage\ioctl_cdrom_seek_audio_msf.htm
 old-project: storage
 ms.assetid: 081a5d8d-7cc7-4499-9360-dfaa5a7c436b
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_CDROM_SEEK_AUDIO_MSF, IOCTL_CDROM_SEEK_AUDIO_MSF control code [Storage Devices], k307_4c88dbd2-30ef-41aa-9330-57319605ec88.xml, ntddcdrm/IOCTL_CDROM_SEEK_AUDIO_MSF, storage.ioctl_cdrom_seek_audio_msf
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,18 +38,14 @@ api_location:
 -	ntddcdrm.h
 api_name:
 -	IOCTL_CDROM_SEEK_AUDIO_MSF
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WRITE_ROTATION, *PWRITE_ROTATION
 ---
 
 # IOCTL_CDROM_SEEK_AUDIO_MSF IOCTL
 
-
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -67,7 +63,7 @@ Moves the heads to the specified MSF on the media.  Obsolete, beginning with Win
 
 ### -input-buffer
 
-The buffer at <i>Irp-&gt;AssociatedIrp.SystemBuffer</i> contains the <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_seek_audio_msf.md">CDROM_SEEK_AUDIO_MSF</a> specification. 
+The buffer at <i>Irp-&gt;AssociatedIrp.SystemBuffer</i> contains the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551367">CDROM_SEEK_AUDIO_MSF</a> specification. 
 
 
 ### -input-buffer-length
@@ -121,13 +117,11 @@ Client applications should use the <i>Media Control Interface (MCI) API</i> rath
 
 ## -see-also
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_seek_audio_msf.md">CDROM_SEEK_AUDIO_MSF</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551367">CDROM_SEEK_AUDIO_MSF</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20IOCTL_CDROM_SEEK_AUDIO_MSF control code%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsDeviceRegisterAdapterObject
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -53,19 +54,6 @@ req.typenames:
 The<b> KsDeviceRegisterAdapterObject</b> function registers a DMA adapter object with AVStream for performing scatter/gather DMA on the specified device. All drivers compiled for Win64 should use <a href="https://msdn.microsoft.com/library/windows/hardware/ff559852">IKsDeviceFunctions::RegisterAdapterObjectEx</a> instead.
 
 
-## -syntax
-
-
-````
-void KsDeviceRegisterAdapterObject(
-  _In_ PKSDEVICE       Device,
-  _In_ PADAPTER_OBJECT AdapterObject,
-  _In_ ULONG           MaxMappingByteCount,
-  _In_ ULONG           MappingTableStride
-);
-````
-
-
 ## -parameters
 
 
@@ -73,12 +61,12 @@ void KsDeviceRegisterAdapterObject(
 
 ### -param Device [in]
 
-A pointer to the <a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a> structure representing the AVStream device for which to register an adapter object.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561681">KSDEVICE</a> structure representing the AVStream device for which to register an adapter object.
 
 
 ### -param AdapterObject [in]
 
-A pointer to the <a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a> structure returned by <a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a> that represents the DMA controller..
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544062">DMA_ADAPTER</a> structure returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a> that represents the DMA controller..
 
 
 ### -param MaxMappingsByteCount
@@ -88,7 +76,7 @@ TBD
 
 ### -param MappingTableStride [in]
 
-This parameter specifies how many bytes each entry in the mapping table requires. This must be at least <b>sizeof</b> (<a href="..\ks\ns-ks-_ksmapping.md">KSMAPPING</a>) and can be as large as necessary.
+This parameter specifies how many bytes each entry in the mapping table requires. This must be at least <b>sizeof</b> (<a href="https://msdn.microsoft.com/library/windows/hardware/ff563394">KSMAPPING</a>) and can be as large as necessary.
 
 Additional space can be used by the minidriver as context information.
 
@@ -111,9 +99,9 @@ None
 
 
 
-A minidriver that calls <b>KsDeviceRegisterAdapterObject</b> is responsible for previously acquiring the adapter object through <a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a>. 
+A minidriver that calls <b>KsDeviceRegisterAdapterObject</b> is responsible for previously acquiring the adapter object through <a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a>. 
 
-Also note that if the minidriver specifies the KSPIN_FLAG_GENERATE_MAPPINGS flag for any pin on any filter on the device, the minidriver must call <b>KsDeviceRegisterAdapterObject</b> before processing any data. More information about this flag can be found in the reference page for <a href="..\ks\ns-ks-_kspin_descriptor_ex.md">KSPIN_DESCRIPTOR_EX</a>. Also see <a href="https://msdn.microsoft.com/ba1c525b-26b0-4778-b58b-f4169cfb972e">AVStream DMA Services</a>.
+Also note that if the minidriver specifies the KSPIN_FLAG_GENERATE_MAPPINGS flag for any pin on any filter on the device, the minidriver must call <b>KsDeviceRegisterAdapterObject</b> before processing any data. More information about this flag can be found in the reference page for <a href="https://msdn.microsoft.com/library/windows/hardware/ff563534">KSPIN_DESCRIPTOR_EX</a>. Also see <a href="https://msdn.microsoft.com/ba1c525b-26b0-4778-b58b-f4169cfb972e">AVStream DMA Services</a>.
 
 <div class="alert"><b>Important</b>  
       If you set <i>MaxMappingByteCount</i> to one physical page in length, mappings are not guaranteed to reside on a single physical page.<p class="note">In addition, as noted in the member description above, setting <i>MaxMappingsByteCount</i> does not guarantee that breaks will occur on page boundaries. If you require breaks on page boundaries, consider not specifying a limit on mapping sizes; instead, break the returned scatter/gather mappings into page-aligned chunks manually.
@@ -127,25 +115,23 @@ Also see <a href="https://msdn.microsoft.com/1173a83f-8d9e-4678-bfb5-f2fb91e827b
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_kspin_descriptor_ex.md">KSPIN_DESCRIPTOR_EX</a>
 
 
 
-<a href="..\ks\ns-ks-_ksmapping.md">KSMAPPING</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a>
 
 
 
-<a href="..\ks\ns-ks-_ksfilter_descriptor.md">KSFILTER_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562553">KSFILTER_DESCRIPTOR</a>
 
 
 
-<a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563394">KSMAPPING</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563534">KSPIN_DESCRIPTOR_EX</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsDeviceRegisterAdapterObject function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

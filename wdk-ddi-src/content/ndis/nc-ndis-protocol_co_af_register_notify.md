@@ -7,7 +7,7 @@ old-location: netvista\protocolcoafregisternotify.htm
 old-project: netvista
 ms.assetid: 272d99da-ef08-4ebd-90e7-74e99410b3f5
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: PROTOCOL_CO_AF_REGISTER_NOTIFY, ProtocolCoAfRegisterNotify, ProtocolCoAfRegisterNotify callback function [Network Drivers Starting with Windows Vista], condis_protocol_ref_aa4ed4ae-7fa9-4f92-9103-824fbe719739.xml, ndis/ProtocolCoAfRegisterNotify, netvista.protocolcoafregisternotify
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ndis.h
 api_name:
 -	ProtocolCoAfRegisterNotify
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
 ---
@@ -57,20 +58,6 @@ The
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>PROTOCOL_CO_AF_REGISTER_NOTIFY</b> type.
    For more information, see the following Examples section.</div><div> </div>
 
-## -prototype
-
-
-````
-PROTOCOL_CO_AF_REGISTER_NOTIFY ProtocolCoAfRegisterNotify;
-
-VOID ProtocolCoAfRegisterNotify(
-  _In_ NDIS_HANDLE        ProtocolBindingContext,
-  _In_ PCO_ADDRESS_FAMILY AddressFamily
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -80,18 +67,18 @@ VOID ProtocolCoAfRegisterNotify(
 
 Specifies the handle to the client-allocated context area in which the client protocol maintains
      per-binding run-time state. The client's 
-     <a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a> function
+     <a href="https://msdn.microsoft.com/1958722e-012e-4110-a82c-751744bcf9b5">ProtocolBindAdapterEx</a> function
      supplied this handle when it called 
-     <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff563715">NdisOpenAdapterEx</a>.
 
 
 ### -param AddressFamily [in]
 
 Pointer to a buffer describing the signaling-protocol support provided by a call manager that just
      registered these services with NDIS by calling 
-     <a href="..\ndis\nf-ndis-ndiscmregisteraddressfamilyex.md">
+     <a href="https://msdn.microsoft.com/8890bf31-f2c7-48b0-926d-8931893ede86">
      NdisCmRegisterAddressFamilyEx</a> or 
-     <a href="..\ndis\nf-ndis-ndismcmregisteraddressfamilyex.md">
+     <a href="https://msdn.microsoft.com/f58a9c08-d2cf-48d1-98d1-68aecd3b7bd0">
      NdisMCmRegisterAddressFamilyEx</a>.
 
 
@@ -123,7 +110,7 @@ If the client finds the offered call-management services unacceptable,
     <i>ProtocolBindingContext</i> handle and an AF specification supplied by this or another call manager also
     bound to the same underlying miniport driver. Otherwise, 
     <i>ProtocolAfRegisterNotify</i> allocates a per-AF context area for the client and calls 
-    <a href="..\ndis\nf-ndis-ndisclopenaddressfamilyex.md">NdisClOpenAddressFamilyEx</a> with
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561639">NdisClOpenAddressFamilyEx</a> with
     the 
     <i>AddressFamily</i> pointer. If this call succeeds, the client has registered its 
     <i>ProtocolClXxx</i> functions with NDIS for subsequent connection-oriented operations using this call manager's
@@ -132,21 +119,21 @@ If the client finds the offered call-management services unacceptable,
 For example, 
     <i>ProtocolCoAfRegisterNotify</i> or 
     <i>ProtocolClOpenAfCompleteEx</i> might call 
-    <a href="..\ndis\nf-ndis-ndisinitializenpagedlookasidelist.md">
+    <a href="https://msdn.microsoft.com/d240f2cc-18a6-4c2d-889f-e25a9486d5fe">
     NdisInitializeNPagedLookasideList</a> one or more times in preparation for dynamic allocations and
     releases of per-SAP, per-VC, and/or per-party context areas that the client will need subsequently.
 
 If it accepts incoming calls, a client's 
     <i>ProtocolCoAfRegisterNotify</i> or 
-    <a href="..\ndis\nc-ndis-protocol_cl_open_af_complete_ex.md">
+    <a href="https://msdn.microsoft.com/03ddbbfd-8fe8-44b6-8d3e-12a7bf6f8f6b">
     ProtocolClOpenAfCompleteEx</a> function usually registers one or more SAPs with the call manager. After
     opening that call manager's AF, the client might proceed to allocate a per-SAP state area and call 
-    <a href="..\ndis\nf-ndis-ndisclregistersap.md">NdisClRegisterSap</a> one or more times with
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561648">NdisClRegisterSap</a> one or more times with
     the 
     <i>NdisAfHandle</i> it obtained from 
     <b>NdisClOpenAddressFamilyEx</b>. If it makes outgoing calls, the client might proceed to allocated a
     per-VC state area and create a VC with 
-    <a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a> in anticipation of an
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561696">NdisCoCreateVc</a> in anticipation of an
     incoming request from one of its own clients to make an outgoing call to a remote node.
 
 <h3><a id="Examples"></a><a id="examples"></a><a id="EXAMPLES"></a>Examples</h3>
@@ -191,24 +178,6 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismcmregisteraddressfamilyex.md">
-   NdisMCmRegisterAddressFamilyEx</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_cl_open_af_complete_ex.md">ProtocolClOpenAfCompleteEx</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
 
 
 
@@ -216,27 +185,43 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="..\ndis\nf-ndis-ndisclopenaddressfamilyex.md">NdisClOpenAddressFamilyEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561639">NdisClOpenAddressFamilyEx</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiscmregisteraddressfamilyex.md">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561648">NdisClRegisterSap</a>
+
+
+
+<a href="https://msdn.microsoft.com/8890bf31-f2c7-48b0-926d-8931893ede86">
    NdisCmRegisterAddressFamilyEx</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisinitializenpagedlookasidelist.md">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561696">NdisCoCreateVc</a>
+
+
+
+<a href="https://msdn.microsoft.com/d240f2cc-18a6-4c2d-889f-e25a9486d5fe">
    NdisInitializeNPagedLookasideList</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisclregistersap.md">NdisClRegisterSap</a>
+<a href="https://msdn.microsoft.com/f58a9c08-d2cf-48d1-98d1-68aecd3b7bd0">
+   NdisMCmRegisterAddressFamilyEx</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563715">NdisOpenAdapterEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/1958722e-012e-4110-a82c-751744bcf9b5">ProtocolBindAdapterEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/03ddbbfd-8fe8-44b6-8d3e-12a7bf6f8f6b">ProtocolClOpenAfCompleteEx</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20PROTOCOL_CO_AF_REGISTER_NOTIFY callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

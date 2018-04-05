@@ -7,7 +7,7 @@ old-location: storage\idehwinterrupt.htm
 old-project: storage
 ms.assetid: a061d993-78fc-45d8-857b-7269c3593847
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: IDE_HW_INTERRUPT, IdeHwInterrupt, IdeHwInterrupt routine [Storage Devices], atartns_6568f61d-e6f7-4d16-98ed-72c13aac0fe7.xml, irb/IdeHwInterrupt, storage.idehwinterrupt
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	irb.h
 api_name:
 -	IdeHwInterrupt
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: LUID
+req.typenames: IDD_DRIVER_GLOBALS, *PIDD_DRIVER_GLOBALS, IDD_DRIVER_GLOBALS, *PIDD_DRIVER_GLOBALS
 ---
 
 # IDE_HW_INTERRUPT callback
@@ -51,19 +52,6 @@ req.typenames: LUID
 
 The <b><i>IdeHwInterrupt</i></b> miniport driver routine handles interrupts from the host bus adapter (HBA) to which the controller for the miniport driver is connected. 
 <div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
-
-## -prototype
-
-
-````
-IDE_HW_INTERRUPT IdeHwInterrupt;
-
-BOOLEAN IdeHwInterrupt(
-  _In_ PVOID ChannelExtension
-)
-{ ... }
-````
-
 
 ## -parameters
 
@@ -104,7 +92,7 @@ Disable interrupts on the channel that is indicated by the <i>ChannelExtension</
 
 </li>
 <li>
-Request a worker routine by using <a href="..\irb\nf-irb-ataportrequestworkerroutine.md">AtaPortRequestWorkerRoutine</a>. 
+Request a worker routine by using <a href="https://msdn.microsoft.com/library/windows/hardware/ff550229">AtaPortRequestWorkerRoutine</a>. 
 
 </li>
 <li>
@@ -121,13 +109,13 @@ The following ATA port routines must not be called from the <b><i>IdeHwInterrupt
 <ul>
 <li>
 
-<a href="..\irb\nf-irb-ataportcompleteallactiverequests.md">AtaPortCompleteAllActiveRequests</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550146">AtaPortCompleteAllActiveRequests</a>
 
 
 </li>
 <li>
 
-<a href="..\irb\nf-irb-ataportdevicebusy.md">AtaPortDeviceBusy</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550155">AtaPortDeviceBusy</a>
 
 
 </li>
@@ -141,21 +129,19 @@ The worker routine must clear the interrupt on the HBA before it returns <b>TRUE
 
 ## -see-also
 
-<a href="..\irb\nf-irb-ataportdevicebusy.md">AtaPortDeviceBusy</a>
 
 
 
-<a href="..\irb\nf-irb-ataportcompleteallactiverequests.md">AtaPortCompleteAllActiveRequests</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550146">AtaPortCompleteAllActiveRequests</a>
 
 
 
-<a href="..\irb\nf-irb-ataportrequestworkerroutine.md">AtaPortRequestWorkerRoutine</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550155">AtaPortDeviceBusy</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550229">AtaPortRequestWorkerRoutine</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20IdeHwInterrupt routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

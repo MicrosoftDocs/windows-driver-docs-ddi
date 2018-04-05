@@ -38,18 +38,14 @@ api_location:
 -	Bthioctl.h
 api_name:
 -	IOCTL_BTH_SDP_CONNECT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: HFP_BYPASS_CODEC_ID_V1, *PHFP_BYPASS_CODEC_ID_V1
 ---
 
 # IOCTL_BTH_SDP_CONNECT IOCTL
 
-
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -70,14 +66,14 @@ The IOCTL_BTH_SDP_CONNECT request creates a connection to the SDP service on a r
 
 The 
       <b>AssociatedIrp.SystemBuffer</b> member contains a 
-      <a href="..\bthioctl\ns-bthioctl-_bth_sdp_connect.md">BTH_SDP_CONNECT</a> structure that specifies
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff536648">BTH_SDP_CONNECT</a> structure that specifies
       the address of the remote SDP server, the request's timeout setting, and other information specific to
       the connection.
 
 
 ### -input-buffer-length
 
-Length of a <a href="..\bthioctl\ns-bthioctl-_bth_sdp_connect.md">BTH_SDP_CONNECT</a> structure.
+Length of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff536648">BTH_SDP_CONNECT</a> structure.
 
 
 ### -output-buffer
@@ -89,7 +85,7 @@ The
 
 ### -output-buffer-length
 
-Length of a <a href="..\bthioctl\ns-bthioctl-_bth_sdp_connect.md">BTH_SDP_CONNECT</a> structure.
+Length of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff536648">BTH_SDP_CONNECT</a> structure.
 
 
 ### -in-out-buffer
@@ -198,24 +194,22 @@ The IOCTL_BTH_SDP_CONNECT request allows a profile driver to obtain an SDP conne
     remote device. After the SDP connection handle is obtained, the profile driver can pass it to other SDP
     IOCTL interfaces to gather information about the remote device's SDP server. When the SDP queries are
     completed, the profile driver must close the SDP connection with 
-    <a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_disconnect.md">IOCTL_BTH_SDP_DISCONNECT</a>.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff536689">IOCTL_BTH_SDP_DISCONNECT</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_disconnect.md">IOCTL_BTH_SDP_DISCONNECT</a>
 
 
 
-<a href="..\bthioctl\ns-bthioctl-_bth_sdp_connect.md">BTH_SDP_CONNECT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536648">BTH_SDP_CONNECT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536689">IOCTL_BTH_SDP_DISCONNECT</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20IOCTL_BTH_SDP_CONNECT control code%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

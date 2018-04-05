@@ -38,7 +38,8 @@ api_location:
 -	61883.h
 api_name:
 -	CIP_TALK
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CIP_TALK, *PCIP_TALK
 ---
@@ -50,16 +51,6 @@ req.typenames: CIP_TALK, *PCIP_TALK
 
 
 This structure is used to begin transmission. The  request begins isochronous transmission on the specified connection. This request will start transmitting CIP packets, whether there are any frames attached. If no frames are attached, empty CIP packets are transmitted for every isochronous cycle.
-
-
-## -syntax
-
-
-````
-typedef struct _CIP_TALK {
-  HANDLE hConnect;
-} CIP_TALK, *PCIP_TALK;
-````
 
 
 ## -struct-fields
@@ -106,13 +97,11 @@ If the protocol driver is unable to allocate resources, it sets <b>Irp-&gt;IoSta
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537008">AV_61883_REQUEST</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [IEEE\buses]:%20CIP_TALK structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

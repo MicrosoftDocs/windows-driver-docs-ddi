@@ -7,7 +7,7 @@ old-location: display\dxgk_inherited_timing_info.htm
 old-project: display
 ms.assetid: 8A5CB3A6-970C-448D-8808-F072EE67BCA3
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PDXGK_INHERITED_TIMING_INFO, DXGK_INHERITED_TIMING_INFO, DXGK_INHERITED_TIMING_INFO structure [Display Devices], PDXGK_INHERITED_TIMING_INFO, PDXGK_INHERITED_TIMING_INFO structure pointer [Display Devices], _DXGK_INHERITED_TIMING_INFO, d3dkmddi/DXGK_INHERITED_TIMING_INFO, d3dkmddi/PDXGK_INHERITED_TIMING_INFO, display.dxgk_inherited_timing_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGK_INHERITED_TIMING_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_INHERITED_TIMING_INFO, *PDXGK_INHERITED_TIMING_INFO
 ---
@@ -50,26 +51,6 @@ req.typenames: DXGK_INHERITED_TIMING_INFO, *PDXGK_INHERITED_TIMING_INFO
 
 
 Structure passed to the driver in the pPrivateDriverData argument of DxgkDdiRecommendFunctionalVidPn, which the driver should use to describe the color space and wire format which cannot be described easily in the VidPn the DDI builds
-
-
-## -syntax
-
-
-````
-typedef struct _DXGK_INHERITED_TIMING_INFO {
-  D3DDDI_COLOR_SPACE_TYPE            OutputColorSpace;
-  D3DKMDT_WIRE_FORMAT_AND_PREFERENCE SelectedWireFormat;
-  union {
-    struct {
-      DXGK_GLITCH_CAUSE    GlitchCause;
-      DXGK_GLITCH_EFFECT   GlitchEffect;
-      DXGK_GLITCH_DURATION GlitchDuration;
-      UINT8                Reserved;
-    };
-    UINT DiagnosticInfo;
-  };
-} DXGK_INHERITED_TIMING_INFO, *PDXGK_INHERITED_TIMING_INFO;
-````
 
 
 ## -struct-fields

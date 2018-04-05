@@ -7,7 +7,7 @@ old-location: storage\setpresharedkeyforid_in.htm
 old-project: storage
 ms.assetid: f941bc28-f906-4399-be54-09e2bc12e443
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSetPresharedKeyForId_IN, PSetPresharedKeyForId_IN, PSetPresharedKeyForId_IN structure pointer [Storage Devices], SetPresharedKeyForId_IN, SetPresharedKeyForId_IN structure [Storage Devices], _SetPresharedKeyForId_IN, iscsiop/PSetPresharedKeyForId_IN, iscsiop/SetPresharedKeyForId_IN, storage.setpresharedkeyforid_in, structs-iSCSI_610ad061-d9c5-4557-88c0-e7d9a20236a2.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	iscsiop.h
 api_name:
 -	SetPresharedKeyForId_IN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SetPresharedKeyForId_IN, *PSetPresharedKeyForId_IN
 ---
@@ -50,21 +51,6 @@ req.typenames: SetPresharedKeyForId_IN, *PSetPresharedKeyForId_IN
 
 
 The SetPresharedKeyForId_IN structure holds the input data for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565800">SetPresharedKeyForId</a> method.
-
-
-## -syntax
-
-
-````
-typedef struct _SetPresharedKeyForId_IN {
-  ULONG     PortNumber;
-  ULONGLONG SecurityFlags;
-  UCHAR     IdType;
-  ULONG     IdSize;
-  ULONG     KeySize;
-  UCHAR     Id[1];
-} SetPresharedKeyForId_IN, *PSetPresharedKeyForId_IN;
-````
 
 
 ## -struct-fields
@@ -161,11 +147,6 @@ You must implement this method.
 
 ## -see-also
 
-<a href="..\iscsiop\ns-iscsiop-_setpresharedkeyforid_out.md">SetPresharedKeyForId_OUT</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565800">SetPresharedKeyForId</a>
 
 
 
@@ -173,9 +154,12 @@ You must implement this method.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565800">SetPresharedKeyForId</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565810">SetPresharedKeyForId_OUT</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20SetPresharedKeyForId_IN structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

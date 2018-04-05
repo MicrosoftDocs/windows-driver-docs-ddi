@@ -7,7 +7,7 @@ old-location: display\d3dddiarg_validatetexturestagestate.htm
 old-project: display
 ms.assetid: 28d2efa5-a7bf-4b85-a0f3-a4bad705a874
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDIARG_VALIDATETEXTURESTAGESTATE, D3DDDIARG_VALIDATETEXTURESTAGESTATE structure [Display Devices], UMDisplayDriver_param_Structs_dde6cce2-f21e-4a16-8238-6956d9a465f5.xml, _D3DDDIARG_VALIDATETEXTURESTAGESTATE, d3dumddi/D3DDDIARG_VALIDATETEXTURESTAGESTATE, display.d3dddiarg_validatetexturestagestate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	D3DDDIARG_VALIDATETEXTURESTAGESTATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDIARG_VALIDATETEXTURESTAGESTATE
 ---
@@ -50,16 +51,6 @@ req.typenames: D3DDDIARG_VALIDATETEXTURESTAGESTATE
 
 
 The D3DDDIARG_VALIDATETEXTURESTAGESTATE structure contains the number of passes in which the hardware can perform the blending operations that are specified in the current state.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_VALIDATETEXTURESTAGESTATE {
-  UINT NumPasses;
-} D3DDDIARG_VALIDATETEXTURESTAGESTATE;
-````
 
 
 ## -struct-fields
@@ -74,13 +65,11 @@ typedef struct _D3DDDIARG_VALIDATETEXTURESTAGESTATE {
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_validatedevice.md">ValidateDevice</a>
 
 
 
+<a href="https://msdn.microsoft.com/058696e0-be4a-45f3-b3e8-55abccdce3ce">ValidateDevice</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DDDIARG_VALIDATETEXTURESTAGESTATE structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

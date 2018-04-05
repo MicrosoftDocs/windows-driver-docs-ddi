@@ -7,13 +7,13 @@ old-location: netvista\riluiccresponseparammask.htm
 old-project: netvista
 ms.assetid: 2a87655f-8c8c-48c7-982e-dcb70ca600fb
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: RILUICCRESPONSEPARAMMASK, RILUICCRESPONSEPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_SR_ALL, RIL_PARAM_SR_RESPONSE, RIL_PARAM_SR_RESPONSESIZE, RIL_PARAM_SR_STATUSWORD2, netvista.riluiccresponseparammask, ntddrilapitypes/RILUICCRESPONSEPARAMMASK, ntddrilapitypes/RIL_PARAM_SR_ALL, ntddrilapitypes/RIL_PARAM_SR_RESPONSE, ntddrilapitypes/RIL_PARAM_SR_RESPONSESIZE, ntddrilapitypes/RIL_PARAM_SR_STATUSWORD2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: ntddrilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILUICCRESPONSEPARAMMASK
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILUICCRESPONSEPARAMMASK
 ---
@@ -50,19 +51,6 @@ req.typenames: RILUICCRESPONSEPARAMMASK
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef enum _RILUICCRESPONSEPARAMMASK { 
-  RIL_PARAM_SR_STATUSWORD2,
-  RIL_PARAM_SR_RESPONSESIZE,
-  RIL_PARAM_SR_RESPONSE,
-  RIL_PARAM_SR_ALL
-} RILUICCRESPONSEPARAMMASK;
-````
 
 
 ## -enum-fields

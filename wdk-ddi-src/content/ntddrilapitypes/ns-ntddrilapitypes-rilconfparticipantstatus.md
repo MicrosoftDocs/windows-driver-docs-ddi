@@ -7,13 +7,13 @@ old-location: netvista\rilconfparticipantstatus.htm
 old-project: netvista
 ms.assetid: 7eb0e06b-85f0-4b61-9ed0-2f35156fbb8c
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: "*LPRILCONFPARTICIPANTSTATUS, RILCONFPARTICIPANTSTATUS, RILCONFPARTICIPANTSTATUS structure [Network Drivers Starting with Windows Vista], netvista.rilconfparticipantstatus, ntddrilapitypes/RILCONFPARTICIPANTSTATUS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddrilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILCONFPARTICIPANTSTATUS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILCONFPARTICIPANTSTATUS, *LPRILCONFPARTICIPANTSTATUS
 ---
@@ -50,23 +51,6 @@ req.typenames: RILCONFPARTICIPANTSTATUS, *LPRILCONFPARTICIPANTSTATUS
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef struct _RILCONFPARTICIPANTSTATUS {
-  DWORD                    cbSize;
-  DWORD                    dwParams;
-  DWORD                    dwExecutor;
-  DWORD                    dwID;
-  BOOL                     bCallTransfer;
-  RILADDRESS               raAddress;
-  RILPARTICIPANTOPERATION  dwParticipantOp;
-  DWORD                    dwSIPStatus;
-} RILCONFPARTICIPANTSTATUS, RILCONFPARTICIPANTSTATUS;
-````
 
 
 ## -struct-fields

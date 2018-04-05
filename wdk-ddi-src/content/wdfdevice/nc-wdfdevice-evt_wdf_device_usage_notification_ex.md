@@ -7,7 +7,7 @@ old-location: wdf\evtdeviceusagenotificationex.htm
 old-project: wdf
 ms.assetid: A5C3E247-4883-4BFE-B36A-45AA989F36C9
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/26/2018
 ms.keywords: EVT_WDF_DEVICE_USAGE_NOTIFICATION_EX, EvtDeviceUsageNotificationEx, EvtDeviceUsageNotificationEx callback function, kmdf.evtdeviceusagenotificationex, wdf.evtdeviceusagenotificationex, wdfdevice/EvtDeviceUsageNotificationEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Wdfdevice.h
 api_name:
 -	EvtDeviceUsageNotificationEx
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_DEVICE_SHUTDOWN_FLAGS
 req.product: Windows 10 or later.
@@ -55,21 +56,6 @@ req.product: Windows 10 or later.
 A driver's <i>EvtDeviceUsageNotificationEx</i> event callback function determines whether a device can support a special file type.
 
 
-## -prototype
-
-
-````
-EVT_WDF_DEVICE_USAGE_NOTIFICATION_EX EvtDeviceUsageNotificationEx;
-
-NTSTATUS EvtDeviceUsageNotificationEx(
-  _In_ WDFDEVICE             Device,
-  _In_ WDF_SPECIAL_FILE_TYPE NotificationType,
-  _In_ BOOLEAN               IsInNotificationPath
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -82,7 +68,7 @@ A handle to a framework device object.
 
 ### -param NotificationType [in]
 
-A <a href="..\wdfdevice\ne-wdfdevice-_wdf_special_file_type.md">WDF_SPECIAL_FILE_TYPE</a>-typed value that identifies the type of special file that the system is storing on the specified device.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff552509">WDF_SPECIAL_FILE_TYPE</a>-typed value that identifies the type of special file that the system is storing on the specified device.
 
 
 ### -param IsInNotificationPath [in]
@@ -103,9 +89,9 @@ If the driver determines that the device can support the special file, the <i>Ev
 
 
 
-If your driver must provide driver-specific handling of special files, you must provide either an <i>EvtDeviceUsageNotificationEx</i> or an <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_usage_notification.md">EvtDeviceUsageNotification</a> event callback function. Do not provide both callback functions.
+If your driver must provide driver-specific handling of special files, you must provide either an <i>EvtDeviceUsageNotificationEx</i> or an <a href="https://msdn.microsoft.com/b6b7dd80-fd91-4194-8288-4d703983a798">EvtDeviceUsageNotification</a> event callback function. Do not provide both callback functions.
 
-To register an <i>EvtDeviceUsageNotificationEx</i> callback function, a driver must call <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetpnppowereventcallbacks.md">WdfDeviceInitSetPnpPowerEventCallbacks</a>. 
+To register an <i>EvtDeviceUsageNotificationEx</i> callback function, a driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff546135">WdfDeviceInitSetPnpPowerEventCallbacks</a>. 
 
 If the driver's <i>EvtDeviceUsageNotificationEx</i> callback function returns a failure status, the framework propagates failure to other stacks that it may have notified earlier.
 

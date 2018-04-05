@@ -7,7 +7,7 @@ old-location: print\ixpsdocumentconsumer_sendfixedpage.htm
 old-project: print
 ms.assetid: ef11161d-5e73-44a8-b802-e3706b78950e
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: IXpsDocumentConsumer, IXpsDocumentConsumer interface [Print Devices], SendFixedPage method, IXpsDocumentConsumer::SendFixedPage, SendFixedPage method [Print Devices], SendFixedPage method [Print Devices], IXpsDocumentConsumer interface, SendFixedPage,IXpsDocumentConsumer.SendFixedPage, filterpipeline/IXpsDocumentConsumer::SendFixedPage, filterpipeline_fbf758b4-801f-4c68-879c-2820736e459e.xml, print.ixpsdocumentconsumer_sendfixedpage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: filterpipeline.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	filterpipeline.h
 api_name:
 -	IXpsDocumentConsumer.SendFixedPage
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
@@ -50,16 +51,6 @@ req.typenames: EXpsFontRestriction
 
 
 The <code>SendFixedPage</code> method sends a fixed page of an XPS document to the pipeline.
-
-
-## -syntax
-
-
-````
-HRESULT SendFixedPage(
-  [in] IFixedPage *pIFixedPage
-);
-````
 
 
 ## -parameters

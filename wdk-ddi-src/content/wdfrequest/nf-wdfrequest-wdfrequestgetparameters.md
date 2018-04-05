@@ -7,7 +7,7 @@ old-location: wdf\wdfrequestgetparameters.htm
 old-project: wdf
 ms.assetid: 7d9924a9-23b6-4bec-95f0-cebc3e99fda4
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/26/2018
 ms.keywords: DFRequestObjectRef_f3d44f7e-60b9-4a64-b5b8-a68ab5240376.xml, WdfRequestGetParameters, WdfRequestGetParameters method, kmdf.wdfrequestgetparameters, wdf.wdfrequestgetparameters, wdfrequest/WdfRequestGetParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,8 @@ api_location:
 -	WUDFx02000.dll.dll
 api_name:
 -	WdfRequestGetParameters
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_REQUEST_TYPE
 req.product: Windows 10 or later.
@@ -58,17 +59,6 @@ req.product: Windows 10 or later.
 The <b>WdfRequestGetParameters</b> method retrieves the parameters that are associated with a specified framework request object.
 
 
-## -syntax
-
-
-````
-VOID WdfRequestGetParameters(
-  _In_  WDFREQUEST              Request,
-  _Out_ PWDF_REQUEST_PARAMETERS Parameters
-);
-````
-
-
 ## -parameters
 
 
@@ -81,7 +71,7 @@ A handle to a framework request object.
 
 ### -param Parameters [out]
 
-A pointer to a caller-allocated <a href="..\wdfrequest\ns-wdfrequest-_wdf_request_parameters.md">WDF_REQUEST_PARAMETERS</a> structure that the <a href="..\wdfrequest\nf-wdfrequest-wdf_request_parameters_init.md">WDF_REQUEST_PARAMETERS_INIT</a> routine initialized and filled in.
+A pointer to a caller-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff552472">WDF_REQUEST_PARAMETERS</a> structure that the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552476">WDF_REQUEST_PARAMETERS_INIT</a> routine initialized and filled in.
 
 
 ## -returns
@@ -108,7 +98,7 @@ For more information about <b>WdfRequestGetParameters</b>, see <a href="https://
 
 #### Examples
 
-For a code example that uses <b>WdfRequestGetParameters</b>, see <a href="..\wdfrequest\nf-wdfrequest-wdfrequestcomplete.md">WdfRequestComplete</a>.
+For a code example that uses <b>WdfRequestGetParameters</b>, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff549945">WdfRequestComplete</a>.
 
 <div class="code"></div>
 
@@ -116,21 +106,19 @@ For a code example that uses <b>WdfRequestGetParameters</b>, see <a href="..\wdf
 
 ## -see-also
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestwdmgetirp.md">WdfRequestWdmGetIrp</a>
 
 
 
-<a href="..\wdfrequest\ns-wdfrequest-_wdf_request_parameters.md">WDF_REQUEST_PARAMETERS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552472">WDF_REQUEST_PARAMETERS</a>
 
 
 
-<a href="..\wdfrequest\nf-wdfrequest-wdf_request_parameters_init.md">WDF_REQUEST_PARAMETERS_INIT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552476">WDF_REQUEST_PARAMETERS_INIT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550037">WdfRequestWdmGetIrp</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfRequestGetParameters method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

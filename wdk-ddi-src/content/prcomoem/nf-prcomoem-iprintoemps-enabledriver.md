@@ -7,7 +7,7 @@ old-location: print\iprintoemps_enabledriver.htm
 old-project: print
 ms.assetid: 12e65e91-f540-49fd-a723-c6b93708b166
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: EnableDriver method [Print Devices], EnableDriver method [Print Devices], IPrintOemPS interface, EnableDriver,IPrintOemPS.EnableDriver, IPrintOemPS, IPrintOemPS interface [Print Devices], EnableDriver method, IPrintOemPS::EnableDriver, prcomoem/IPrintOemPS::EnableDriver, print.iprintoemps_enabledriver, print_unidrv-pscript_rendering_2e2fe90b-66ce-4f39-adfa-ebb187700aac.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: prcomoem.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	Prcomoem.h
 api_name:
 -	IPrintOemPS.EnableDriver
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
@@ -51,18 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <code>IPrintOemPS::EnableDriver</code> method allows a rendering plug-in for <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">Pscript</a> to hook out some graphics DDI functions.
-
-
-## -syntax
-
-
-````
-STDMETHOD EnableDriver(
-   DWORD          DriverVersion,
-   DWORD          cbSize,
-   PDRVENABLEDATA pded
-);
-````
 
 
 ## -parameters
@@ -182,7 +171,7 @@ A rendering plug-in for Pscript5 can hook out a graphics DDI function only if th
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557283">DrvTransparentBlt</a>
 If you provide a customized hooking function, it preempts the driver's equivalent graphics DDI function. Hooking functions can also call back into the driver's graphics DDI functions. For more information, see <a href="https://msdn.microsoft.com/33d7d567-5371-4873-a4ef-cd2b06f65d73">Customized Graphics DDI Functions</a>.
 
-Customized hooking functions have the same input and output parameters as the equivalent graphics DDI function, with one exception - where graphics DDI functions receive PDEV pointers, customized hooking functions receive <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a> pointers. There are two ways for these functions to receive PDEV pointers:
+Customized hooking functions have the same input and output parameters as the equivalent graphics DDI function, with one exception - where graphics DDI functions receive PDEV pointers, customized hooking functions receive <a href="https://msdn.microsoft.com/library/windows/hardware/ff547573">DEVOBJ</a> pointers. There are two ways for these functions to receive PDEV pointers:
 
 <ol>
 <li>

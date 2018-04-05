@@ -38,7 +38,8 @@ api_location:
 -	gnssdriver.h
 api_name:
 -	GNSS_AGNSS_REQUEST_PARAM
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GNSS_AGNSS_REQUEST_PARAM, *PGNSS_AGNSS_REQUEST_PARAM
 ---
@@ -50,19 +51,6 @@ req.typenames: GNSS_AGNSS_REQUEST_PARAM, *PGNSS_AGNSS_REQUEST_PARAM
 
 
 This structure defines AGNSS request parameters.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  ULONG                   Size;
-  ULONG                   Version;
-  GNSS_AGNSS_REQUEST_TYPE RequestType;
-  ULONG                   BlobFormat;
-} GNSS_AGNSS_REQUEST_PARAM, *PGNSS_AGNSS_REQUEST_PARAM;
-````
 
 
 ## -struct-fields

@@ -7,7 +7,7 @@ old-location: debugger\idebugclient6_seteventcontextcallbacks.htm
 old-project: debugger
 ms.assetid: 246573DB-5FEB-4068-8DB8-950F5EDFD1A9
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/26/2018
 ms.keywords: IDebugClient6, IDebugClient6 interface [Windows Debugging], SetEventContextCallbacks method, IDebugClient6::SetEventContextCallbacks, SetEventContextCallbacks method [Windows Debugging], SetEventContextCallbacks method [Windows Debugging], IDebugClient6 interface, SetEventContextCallbacks,IDebugClient6.SetEventContextCallbacks, dbgeng/IDebugClient6::SetEventContextCallbacks, debugger.idebugclient6_seteventcontextcallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugClient6.SetEventContextCallbacks
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -50,17 +51,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 Registers an event callbacks object with this client. 
-
-
-## -syntax
-
-
-````
-HRESULT SetEventContextCallbacks(
-  [in, optional] PDEBUG_EVENT_CONTEXT_CALLBACKS Callbacks
-
-);
-````
 
 
 ## -parameters
@@ -86,17 +76,15 @@ This event interface replaces the use of <a href="https://msdn.microsoft.com/c74
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/9F8DFF33-DE07-4061-9A9E-3C8172F75EB5">IDebugClient6</a>
+
+
+
 <a href="https://msdn.microsoft.com/c741777b-dfaf-42b0-9dd7-6678281b6359">IDebugClient::SetEventCallbacks</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient6.md">IDebugClient6</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugClient6::SetEventContextCallbacks method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

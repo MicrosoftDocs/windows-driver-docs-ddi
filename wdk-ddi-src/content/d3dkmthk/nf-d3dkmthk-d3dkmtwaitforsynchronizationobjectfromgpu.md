@@ -7,7 +7,7 @@ old-location: display\d3dkmtwaitforsynchronizationobjectfromgpu.htm
 old-project: display
 ms.assetid: 93705446-8B87-46DD-9CFE-DD0473DEE6B6
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMTWaitForSynchronizationObjectFromGpu, D3DKMTWaitForSynchronizationObjectFromGpu function [Display Devices], d3dkmthk/D3DKMTWaitForSynchronizationObjectFromGpu, display.d3dkmtwaitforsynchronizationobjectfromgpu
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,8 @@ api_location:
 -	API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
 -	D3DKMTWaitForSynchronizationObjectFromGpu
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_DRIVERVERSION
 ---
@@ -53,17 +54,7 @@ req.typenames: D3DKMT_DRIVERVERSION
 
 
 <b>D3DKMTWaitForSynchronizationObjectFromGpu</b> waits for a monitored fence to reach a certain value before processing subsequent context commands.
-<div class="alert"><b>Note</b>  For Windows Display Driver Model (WDDM) v2 drivers, existing <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtwaitforsynchronizationobject.md">D3DKMTWaitForSynchronizationObject</a> and <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtwaitforsynchronizationobject2.md">D3DKMTWaitForSynchronizationObject2</a> callbacks are deprecated and will eventually be removed. </div><div> </div>
-
-## -syntax
-
-
-````
-EXTERN_C _Check_return_ NTSTATUS APIENTRY D3DKMTWaitForSynchronizationObjectFromGpu(
-  _In_ const D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU *pData
-);
-````
-
+<div class="alert"><b>Note</b>  For Windows Display Driver Model (WDDM) v2 drivers, existing <a href="https://msdn.microsoft.com/library/windows/hardware/ff547255">D3DKMTWaitForSynchronizationObject</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff547262">D3DKMTWaitForSynchronizationObject2</a> callbacks are deprecated and will eventually be removed. </div><div> </div>
 
 ## -parameters
 
@@ -79,7 +70,7 @@ TBD
 
 #### - pData [in]
 
-A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_waitforsynchronizationobjectfromgpu.md">D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU</a> structure that describes the operation.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn906811">D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU</a> structure that describes the operation.
 
 
 ## -returns
@@ -128,28 +119,26 @@ This function might also return other <b>NTSTATUS</b> values.
 
 
 
-This function semantics are similar to existing <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtwaitforsynchronizationobject2.md">D3DKMTWaitForSynchronizationObject2</a> call, except that this function also supports monitored fence objects and an array of monitored fence values to wait for.
+This function semantics are similar to existing <a href="https://msdn.microsoft.com/library/windows/hardware/ff547262">D3DKMTWaitForSynchronizationObject2</a> call, except that this function also supports monitored fence objects and an array of monitored fence values to wait for.
 
 
 
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtwaitforsynchronizationobject2.md">D3DKMTWaitForSynchronizationObject2</a>
 
 
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtwaitforsynchronizationobject.md">D3DKMTWaitForSynchronizationObject</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547255">D3DKMTWaitForSynchronizationObject</a>
 
 
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_waitforsynchronizationobjectfromgpu.md">D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547262">D3DKMTWaitForSynchronizationObject2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn906811">D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMTWaitForSynchronizationObjectFromGpu function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: display\d3dddiarg_blt.htm
 old-project: display
 ms.assetid: 9663d0fe-7397-49d7-b860-e466a9311aca
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDIARG_BLT, D3DDDIARG_BLT structure [Display Devices], UMDisplayDriver_param_Structs_1c7d23e1-c05e-42b6-802e-4a69a80006c8.xml, _D3DDDIARG_BLT, d3dumddi/D3DDDIARG_BLT, display.d3dddiarg_blt
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	D3DDDIARG_BLT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDIARG_BLT
 ---
@@ -50,23 +51,6 @@ req.typenames: D3DDDIARG_BLT
 
 
 The D3DDDIARG_BLT structure describes the parameters of a bit-block transfer (bitblt). 
-
-
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_BLT {
-  HANDLE          hSrcResource;
-  UINT            SrcSubResourceIndex;
-  RECT            SrcRect;
-  HANDLE          hDstResource;
-  UINT            DstSubResourceIndex;
-  RECT            DstRect;
-  UINT            ColorKey;
-  D3DDDI_BLTFLAGS Flags;
-} D3DDDIARG_BLT;
-````
 
 
 ## -struct-fields
@@ -111,7 +95,7 @@ typedef struct _D3DDDIARG_BLT {
 
 ### -field Flags
 
-[in] A <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_bltflags.md">D3DDDI_BLTFLAGS</a> structure that identifies the type of bitblt to perform. Note that some bit-field flags in this structure are mutually exclusive with other flags. For more information about these flags, see the following Remarks section.
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff544379">D3DDDI_BLTFLAGS</a> structure that identifies the type of bitblt to perform. Note that some bit-field flags in this structure are mutually exclusive with other flags. For more information about these flags, see the following Remarks section.
 
 
 ## -remarks
@@ -127,21 +111,19 @@ The <b>SrcColorKey</b> and <b>DstColorKey</b> bit-field flags are never set simu
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_bltflags.md">D3DDDI_BLTFLAGS</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_blt.md">Blt</a>
+<a href="https://msdn.microsoft.com/e87576c6-0173-4d8e-bbaf-b82e2907140a">Blt</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544379">D3DDDI_BLTFLAGS</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DDDIARG_BLT structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

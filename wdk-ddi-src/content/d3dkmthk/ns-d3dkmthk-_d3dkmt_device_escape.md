@@ -7,7 +7,7 @@ old-location: display\d3dkmt_device_escape.htm
 old-project: display
 ms.assetid: 274bdd80-e898-42c7-8adc-8eae4e895b5f
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMT_DEVICE_ESCAPE, D3DKMT_DEVICE_ESCAPE structure [Display Devices], OpenGL_Structs_38febe04-ae75-475a-ab69-81995acb567b.xml, _D3DKMT_DEVICE_ESCAPE, d3dkmthk/D3DKMT_DEVICE_ESCAPE, display.d3dkmt_device_escape
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmthk.h
 api_name:
 -	D3DKMT_DEVICE_ESCAPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_DEVICE_ESCAPE
 ---
@@ -53,23 +54,7 @@ req.typenames: D3DKMT_DEVICE_ESCAPE
    Do not use the D3DKMT_DEVICE_ESCAPE structure or D3DKMT_DEVICEESCAPE_TYPE enumeration. They are for testing purposes only.
    
 
-The D3DKMT_DEVICE_ESCAPE structure describes how to control the display device in a call to the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtescape.md">D3DKMTEscape</a> function.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_DEVICE_ESCAPE {
-  D3DKMT_DEVICEESCAPE_TYPE Type;
-  union {
-    struct {
-      D3DKMT_HANDLE                  hPrimaryAllocation;
-      D3DDDI_VIDEO_PRESENT_SOURCE_ID VidPnSourceId;
-    } VidPnFromAllocation;
-  };
-} D3DKMT_DEVICE_ESCAPE;
-````
+The D3DKMT_DEVICE_ESCAPE structure describes how to control the display device in a call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546940">D3DKMTEscape</a> function.
 
 
 ## -struct-fields
@@ -95,17 +80,15 @@ typedef struct _D3DKMT_DEVICE_ESCAPE {
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtescape.md">D3DKMTEscape</a>
 
 
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_escape.md">D3DKMT_ESCAPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546940">D3DKMTEscape</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547970">D3DKMT_ESCAPE</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMT_DEVICE_ESCAPE structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

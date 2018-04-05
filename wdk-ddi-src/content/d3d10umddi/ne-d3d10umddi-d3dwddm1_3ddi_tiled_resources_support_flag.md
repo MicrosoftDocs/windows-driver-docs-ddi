@@ -7,7 +7,7 @@ old-location: display\d3dwddm1_3ddi_tiled_resources_support_flag.htm
 old-project: display
 ms.assetid: 5EEF8C68-0DE7-466B-946F-37157B21C9B7
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: D3DWDDM1_3DDI_TILED_RESOURCES_SUPPORT_FLAG, D3DWDDM1_3DDI_TILED_RESOURCES_SUPPORT_FLAG enumeration [Display Devices], D3DWDDM1_3DDI_TILED_RESOURCES_TIER_1_SUPPORTED, D3DWDDM1_3DDI_TILED_RESOURCES_TIER_2_SUPPORTED, d3d10umddi/D3DWDDM1_3DDI_TILED_RESOURCES_SUPPORT_FLAG, d3d10umddi/D3DWDDM1_3DDI_TILED_RESOURCES_TIER_1_SUPPORTED, d3d10umddi/D3DWDDM1_3DDI_TILED_RESOURCES_TIER_2_SUPPORTED, display.d3dwddm1_3ddi_tiled_resources_support_flag
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3d10umddi.h
 api_name:
 -	D3DWDDM1_3DDI_TILED_RESOURCES_SUPPORT_FLAG
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DWDDM1_3DDI_TILED_RESOURCES_SUPPORT_FLAG
 ---
@@ -50,17 +51,6 @@ req.typenames: D3DWDDM1_3DDI_TILED_RESOURCES_SUPPORT_FLAG
 
 
 Indicates the level of support by the hardware and user-mode display driver for tiled resources.
-
-
-## -syntax
-
-
-````
-typedef enum _D3DWDDM1_3DDI_TILED_RESOURCES_SUPPORT_FLAG { 
-  D3DWDDM1_3DDI_TILED_RESOURCES_TIER_1_SUPPORTED  = 0x00000001,
-  D3DWDDM1_3DDI_TILED_RESOURCES_TIER_2_SUPPORTED  = 0x00000002
-} D3DWDDM1_3DDI_TILED_RESOURCES_SUPPORT_FLAG;
-````
 
 
 ## -enum-fields
@@ -87,13 +77,11 @@ If this flag is set, the Direct3D runtime assumes that the support level of the 
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3dwddm1_3ddi_d3d11_options_data1.md">D3DWDDM1_3DDI_D3D11_OPTIONS_DATA1</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn475744">D3DWDDM1_3DDI_D3D11_OPTIONS_DATA1</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DWDDM1_3DDI_TILED_RESOURCES_SUPPORT_FLAG enumeration%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

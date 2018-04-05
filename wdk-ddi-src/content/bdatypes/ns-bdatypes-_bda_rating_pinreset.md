@@ -38,7 +38,8 @@ api_location:
 -	Bdatypes.h
 api_name:
 -	BDA_RATING_PINRESET
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BDA_RATING_PINRESET, *PBDA_RATING_PINRESET
 ---
@@ -50,17 +51,6 @@ req.typenames: BDA_RATING_PINRESET, *PBDA_RATING_PINRESET
 
 
 
-
-
-## -syntax
-
-
-````
-typedef struct _BDA_RATING_PINRESET {
-  BYTE bPinLength;
-  BYTE argbNewPin[MIN_DIMENSION];
-} BDA_RATING_PINRESET, *PBDA_RATING_PINRESET;
-````
 
 
 ## -struct-fields

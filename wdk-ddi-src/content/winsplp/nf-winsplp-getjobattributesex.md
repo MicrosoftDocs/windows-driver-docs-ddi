@@ -7,7 +7,7 @@ old-location: print\getjobattributesex.htm
 old-project: print
 ms.assetid: 0715e4d4-665c-42cb-9c74-48c2c558c277
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: GetJobAttributesEx, GetJobAttributesEx function [Print Devices], print.getjobattributesex, spoolfnc_45659d86-d97e-47c5-bbf7-49c990880b52.xml, winsplp/GetJobAttributesEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Spoolss.dll
 api_name:
 -	GetJobAttributesEx
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NOTIFICATION_CONFIG_FLAGS
 req.product: Windows 10 or later.
@@ -53,21 +54,6 @@ req.product: Windows 10 or later.
 <div class="alert"><b>Warning</b>  <p class="note">Starting with Windows 10, the APIs which support third-party print providers are deprecated. Microsoft does not recommend any investment into third-party print providers. Additionally, on Windows 8 and newer products where the v4 print driver model is available, third-party print providers may not create or manage queues which use v4 print drivers.
 
 </div><div> </div>A print provider's <b>GetJobAttributesEx</b> function obtains information about a print job, including N-up and reverse printing options.
-
-
-## -syntax
-
-
-````
-BOOL GetJobAttributesEx(
-  _In_  LPWSTR     pPrinterName,
-  _In_  LPDEVMODEW pDevmode,
-  _In_  DWORD      dwLevel,
-  _Out_ LPBYTE     pAttributeInfo,
-  _In_  DWORD      nSize,
-  _In_  DWORD      dwFlags
-);
-````
 
 
 ## -parameters
@@ -101,7 +87,7 @@ Caller-supplied value that indicates the type of structure pointed to by <i>pAtt
 </td>
 <td>
 
-<a href="..\winddiui\ns-winddiui-_attribute_info_1.md">ATTRIBUTE_INFO_1</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545090">ATTRIBUTE_INFO_1</a>
 
 
 </td>
@@ -113,7 +99,7 @@ Caller-supplied value that indicates the type of structure pointed to by <i>pAtt
 </td>
 <td>
 
-<a href="..\winddiui\ns-winddiui-_attribute_info_2.md">ATTRIBUTE_INFO_2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545091">ATTRIBUTE_INFO_2</a>
 
 
 </td>
@@ -125,7 +111,7 @@ Caller-supplied value that indicates the type of structure pointed to by <i>pAtt
 </td>
 <td>
 
-<a href="..\winsplp\ns-winsplp-_attribute_info_3.md">ATTRIBUTE_INFO_3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545093">ATTRIBUTE_INFO_3</a>
 
 
 </td>
@@ -137,7 +123,7 @@ Caller-supplied value that indicates the type of structure pointed to by <i>pAtt
 </td>
 <td>
 
-<a href="..\winsplp\ns-winsplp-_attribute_info_4.md">ATTRIBUTE_INFO_4</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545096">ATTRIBUTE_INFO_4</a>
 
 
 </td>
@@ -148,7 +134,7 @@ Caller-supplied value that indicates the type of structure pointed to by <i>pAtt
 
 ### -param pAttributeInfo [out]
 
-Caller-supplied pointer to an attribute information structure (<a href="..\winddiui\ns-winddiui-_attribute_info_1.md">ATTRIBUTE_INFO_1</a>, <a href="..\winddiui\ns-winddiui-_attribute_info_2.md">ATTRIBUTE_INFO_2</a>, <a href="..\winsplp\ns-winsplp-_attribute_info_3.md">ATTRIBUTE_INFO_3</a>, or <a href="..\winsplp\ns-winsplp-_attribute_info_4.md">ATTRIBUTE_INFO_4</a>) that receives information about the print job.
+Caller-supplied pointer to an attribute information structure (<a href="https://msdn.microsoft.com/library/windows/hardware/ff545090">ATTRIBUTE_INFO_1</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff545091">ATTRIBUTE_INFO_2</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff545093">ATTRIBUTE_INFO_3</a>, or <a href="https://msdn.microsoft.com/library/windows/hardware/ff545096">ATTRIBUTE_INFO_4</a>) that receives information about the print job.
 
 
 ### -param nSize [in]
@@ -160,7 +146,7 @@ Size of the buffer, in bytes, pointed to by <i>pAttributeInfo</i>.
 
 If set by the caller to FILL_WITH_DEFAULTS, then the spooler will fill <i>pAttributeInfo</i> with default values from level 1 up to the level specified by <i>dwLevel</i>.
 
-For example, if <i>dwLevel</i> is 4 and FILL_WITH_DEFAULTS is specified, <i>pAttributeInfo</i> will be filled with the following default member values of <a href="..\winsplp\ns-winsplp-_attribute_info_4.md">ATTRIBUTE_INFO_4</a>:
+For example, if <i>dwLevel</i> is 4 and FILL_WITH_DEFAULTS is specified, <i>pAttributeInfo</i> will be filled with the following default member values of <a href="https://msdn.microsoft.com/library/windows/hardware/ff545096">ATTRIBUTE_INFO_4</a>:
 
 <b>dwJobNumberOfPagesPerSide</b> = 1
 
@@ -218,15 +204,14 @@ This function first checks whether the driver supports the attribute level that 
 
 ## -see-also
 
-<a href="..\winsplp\nf-winsplp-getjobattributes.md">GetJobAttributes</a>
 
 
 
-<a href="..\winsplp\ns-winsplp-_attribute_info_3.md">ATTRIBUTE_INFO_3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545093">ATTRIBUTE_INFO_3</a>
 
 
 
-<a href="..\winsplp\ns-winsplp-_attribute_info_4.md">ATTRIBUTE_INFO_4</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545096">ATTRIBUTE_INFO_4</a>
 
 
 
@@ -234,9 +219,8 @@ This function first checks whether the driver supports the attribute level that 
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550456">GetJobAttributes</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20GetJobAttributesEx function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

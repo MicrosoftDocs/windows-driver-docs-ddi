@@ -38,7 +38,8 @@ api_location:
 -	poscx.h
 api_name:
 -	EvtPosCxDeviceRemoteClaim
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PCFILTER_DESCRIPTOR, *PPCFILTER_DESCRIPTOR
 req.product: Windows 10 or later.
@@ -54,22 +55,8 @@ The
   EVT_POS_CX_DEVICE_REMOTE_CLAIM callback is called when the device is transitioning from
 unclaimed to claimed and allows the driver to do additional work. This callback is typically only used with network connected devices that require additional logic for handling ownership transitions.
 
-<i>EVT_POS_CX_DEVICE_REMOTE_CLAIM</i> and <a href="..\poscx\nc-poscx-evt_pos_cx_device_remote_release.md">EVT_POS_CX_DEVICE_REMOTE_RELEASE</a> add support for remote devices that handle their own claim
+<i>EVT_POS_CX_DEVICE_REMOTE_CLAIM</i> and <a href="https://msdn.microsoft.com/library/windows/hardware/mt593117">EVT_POS_CX_DEVICE_REMOTE_RELEASE</a> add support for remote devices that handle their own claim
 semantics.
-
-
-## -prototype
-
-
-````
-EVT_POS_CX_DEVICE_REMOTE_CLAIM EvtPosCxDeviceRemoteClaim;
-
-NTSTATUS EvtPosCxDeviceRemoteClaim(
-  _In_ WDFDEVICE device,
-  _In_ ULONG     deviceInterfaceTag
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -100,13 +87,11 @@ If the driver is unable to complete the remote claim transaction, it should retu
 
 ## -see-also
 
-<a href="..\poscx\nc-poscx-evt_pos_cx_device_remote_release.md">EVT_POS_CX_DEVICE_REMOTE_RELEASE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt593117">EVT_POS_CX_DEVICE_REMOTE_RELEASE</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [pos\pos]:%20EVT_POS_CX_DEVICE_REMOTE_CLAIM callback function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILCBGWLCONFIGINFO
 title: RILCBGWLCONFIGINFO
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilcbgwlconfiginfo_2.htm
+old-location: netvista\rilcbgwlconfiginfo.htm
 old-project: netvista
-ms.assetid: 5939b967-bbc7-42e3-af90-a1c20698a934
+ms.assetid: b92f6639-bf6a-4c1b-a0a6-57e310251591
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: "*LPRILCBGWLCONFIGINFO, RILCBGWLCONFIGINFO, RILCBGWLCONFIGINFO structure [Network Drivers Starting with Windows Vista], netvista.rilcbgwlconfiginfo_2, rilapitypes/RILCBGWLCONFIGINFO"
+ms.date: 3/26/2018
+ms.keywords: "*LPRILCBGWLCONFIGINFO, RILCBGWLCONFIGINFO, RILCBGWLCONFIGINFO structure [Network Drivers Starting with Windows Vista], netvista.rilcbgwlconfiginfo, ntddrilapitypes/RILCBGWLCONFIGINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,10 +35,11 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILCBGWLCONFIGINFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILCBGWLCONFIGINFO, *LPRILCBGWLCONFIGINFO
 req.product: Windows 10 or later.
@@ -50,18 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-
-## -syntax
-
-
-````
-typedef struct _RILCBGWLCONFIGINFO {
-  BOOL      fAccept;
-  RILRANGE  rgrrBroadcastMsgID;
-} RILCBGWLCONFIGINFO, RILCBGWLCONFIGINFO;
-````
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -struct-fields

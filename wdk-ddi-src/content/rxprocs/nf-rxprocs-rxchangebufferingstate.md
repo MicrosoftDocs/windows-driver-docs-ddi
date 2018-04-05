@@ -7,7 +7,7 @@ old-location: ifsk\rxchangebufferingstate.htm
 old-project: ifsk
 ms.assetid: 83e181cd-bbec-4142-8d97-4f67285b6bb4
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: RxChangeBufferingState, RxChangeBufferingState function [Installable File System Drivers], ifsk.rxchangebufferingstate, rxprocs/RxChangeBufferingState, rxref_be2316b0-d89d-4f61-bd09-05d631d1cfdd.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	rxprocs.h
 api_name:
 -	RxChangeBufferingState
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RX_CONTEXT, *PRX_CONTEXT
 req.product: Windows 10 or later.
@@ -51,18 +52,6 @@ req.product: Windows 10 or later.
 
 
 <b>RxChangeBufferingState</b> is called to process a buffering state change request.
-
-
-## -syntax
-
-
-````
-NTSTATUS RxChangeBufferingState(
-   PSRV_OPEN SrvOpen,
-   PVOID     Context,
-   BOOLEAN   ComputeNewState
-);
-````
 
 
 ## -parameters
@@ -187,21 +176,19 @@ On exit from <b>RxChangeBufferingState</b>, there is no change in resource owner
 
 ## -see-also
 
-<a href="..\rxprocs\nf-rxprocs-rxindicatechangeofbufferingstateforsrvopen.md">RxIndicateChangeOfBufferingStateForSrvOpen</a>
 
 
 
-<a href="..\rxprocs\nf-rxprocs-rxindicatechangeofbufferingstate.md">RxIndicateChangeOfBufferingState</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554485">RxIndicateChangeOfBufferingState</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554490">RxIndicateChangeOfBufferingStateForSrvOpen</a>
 
 
 
 <a href="https://msdn.microsoft.com/6cf4c6f6-a21f-4919-92b5-2403b650d8d0">The SRV_OPEN Structure</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RxChangeBufferingState function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

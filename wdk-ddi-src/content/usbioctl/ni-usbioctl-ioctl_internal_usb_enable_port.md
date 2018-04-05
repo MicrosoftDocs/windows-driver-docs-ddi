@@ -7,7 +7,7 @@ old-location: buses\ioctl_internal_usb_enable_port.htm
 old-project: usbref
 ms.assetid: 6f15a559-fb6b-47d5-a101-43464ed80d0f
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_INTERNAL_USB_ENABLE_PORT, IOCTL_INTERNAL_USB_ENABLE_PORT control code [Buses], buses.ioctl_internal_usb_enable_port, usbioctl/IOCTL_INTERNAL_USB_ENABLE_PORT, usbirp_eee71b69-fc0a-446a-807b-6f776e634c9d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	usbioctl.h
 api_name:
 -	IOCTL_INTERNAL_USB_ENABLE_PORT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USB_HUB_TYPE
 req.product: Windows 10 or later.
@@ -46,11 +47,6 @@ req.product: Windows 10 or later.
 
 # IOCTL_INTERNAL_USB_ENABLE_PORT IOCTL
 
-
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -125,7 +121,7 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
-For more information, see [XREF-LINK:NTSTATUS Values].
+For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ntstatus-values).
 
 
 

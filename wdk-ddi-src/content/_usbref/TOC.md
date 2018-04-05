@@ -343,6 +343,7 @@
 ### [_UFX_INTERFACE_PROPRIETARY_CHARGER structure](../ufxproprietarycharger/ns-ufxproprietarycharger-_ufx_interface_proprietary_charger.md)
 ### [_UFX_PROPRIETARY_CHARGER structure](../ufxproprietarycharger/ns-ufxproprietarycharger-_ufx_proprietary_charger.md)
 ## [Ursdevice.h](../ursdevice/index.md)
+### [EVT_URS_DEVICE_FILTER_RESOURCE_REQUIREMENTS callback](../ursdevice/nc-ursdevice-evt_urs_device_filter_resource_requirements.md)
 ### [EVT_URS_SET_ROLE callback](../ursdevice/nc-ursdevice-evt_urs_set_role.md)
 ### [URS_CONFIG_INIT function](../ursdevice/nf-ursdevice-urs_config_init.md)
 ### [UrsDeviceInitInitialize function](../ursdevice/nf-ursdevice-ursdeviceinitinitialize.md)

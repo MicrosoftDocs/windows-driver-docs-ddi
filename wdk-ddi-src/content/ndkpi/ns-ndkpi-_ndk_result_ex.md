@@ -7,7 +7,7 @@ old-location: netvista\ndk_result_ex.htm
 old-project: netvista
 ms.assetid: C79BF9FC-4836-48AD-8E9F-41278BB01E11
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: NDK_RESULT_EX, NDK_RESULT_EX structure [Network Drivers Starting with Windows Vista], PNDK_RESULT_EX, PNDK_RESULT_EX structure pointer [Network Drivers Starting with Windows Vista], _NDK_RESULT_EX, ndkpi/NDK_RESULT_EX, ndkpi/PNDK_RESULT_EX, netvista.ndk_result_ex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ndkpi.h
 api_name:
 -	NDK_RESULT_EX
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDK_RESULT_EX
 ---
@@ -49,22 +50,7 @@ req.typenames: NDK_RESULT_EX
 ## -description
 
 
-The <b>NDK_RESULT_EX</b> structure returns the results for an NDK request operation. It is identical to the <a href="..\ndkpi\ns-ndkpi-_ndk_result.md">NDK_RESULT</a> structure, except that it has additional <b>Type</b> and <b>TypeSpecificCompletionOutput</b> members.
-
-
-## -syntax
-
-
-````
-typedef struct _NDK_RESULT_EX {
-  NTSTATUS           Status;
-  ULONG              BytesTransferred;
-  PVOID              QPContext;
-  PVOID              RequestContext;
-  NDK_OPERATION_TYPE Type;
-  ULONG_PTR          TypeSpecificCompletionOutput;
-} NDK_RESULT_EX, *PNDK_RESULT_EX;
-````
+The <b>NDK_RESULT_EX</b> structure returns the results for an NDK request operation. It is identical to the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439935">NDK_RESULT</a> structure, except that it has additional <b>Type</b> and <b>TypeSpecificCompletionOutput</b> members.
 
 
 ## -struct-fields
@@ -79,12 +65,12 @@ The NDK request completion status.
 
 ### -field BytesTransferred
 
-The number of bytes transferred. The value of this member  is valid only for <i>NdkReceive</i> (<a href="..\ndkpi\nc-ndkpi-ndk_fn_receive.md">NDK_FN_RECEIVE</a>) request completions. The member is undefined for all other NDK request completions.
+The number of bytes transferred. The value of this member  is valid only for <i>NdkReceive</i> (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439907">NDK_FN_RECEIVE</a>) request completions. The member is undefined for all other NDK request completions.
 
 
 ### -field QPContext
 
-A context value for all requests that are posted over a queue pair (QP). The NDK consumer specified this  pointer when it called the <i>NdkCreateQp</i> (<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_qp.md">NDK_FN_CREATE_QP</a>) function to create the <a href="..\ndkpi\ns-ndkpi-_ndk_qp.md">NDK_QP</a> object.
+A context value for all requests that are posted over a queue pair (QP). The NDK consumer specified this  pointer when it called the <i>NdkCreateQp</i> (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439878">NDK_FN_CREATE_QP</a>) function to create the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439933">NDK_QP</a> object.
 
 
 ### -field RequestContext
@@ -94,7 +80,7 @@ A request context value specified by the NDK consumer when  a request is posted.
 
 ### -field Type
 
-An <a href="..\ndkpi\ne-ndkpi-_ndk_operation_type.md">NDK_OPERATION_TYPE</a> enumeration value that specifies the type of operation that is being completed.
+An <a href="https://msdn.microsoft.com/library/windows/hardware/dn265508">NDK_OPERATION_TYPE</a> enumeration value that specifies the type of operation that is being completed.
 
 
 ### -field TypeSpecificCompletionOutput
@@ -104,25 +90,23 @@ The type-specific completion output, if any. If the  <b>Type</b> member is <b>Nd
 
 ## -see-also
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_qp.md">NDK_QP</a>
 
 
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_result.md">NDK_RESULT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439878">NDK_FN_CREATE_QP</a>
 
 
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_qp.md">NDK_FN_CREATE_QP</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265508">NDK_OPERATION_TYPE</a>
 
 
 
-<a href="..\ndkpi\ne-ndkpi-_ndk_operation_type.md">NDK_OPERATION_TYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439933">NDK_QP</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439935">NDK_RESULT</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDK_RESULT_EX structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: storage\srbex_data_wmi.htm
 old-project: storage
 ms.assetid: 3FFBF258-50C3-4D2D-AFC8-184D2FF85EE4
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSRBEX_DATA_WMI, PSRBEX_DATA_WMI, PSRBEX_DATA_WMI structure pointer [Storage Devices], SRBEX_DATA_WMI, SRBEX_DATA_WMI structure [Storage Devices], _SRBEX_DATA_WMI, storage.srbex_data_wmi, storport/PSRBEX_DATA_WMI, storport/SRBEX_DATA_WMI"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Storport.h
 api_name:
 -	SRBEX_DATA_WMI
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SRBEX_DATA_WMI, *PSRBEX_DATA_WMI
 ---
@@ -51,22 +52,6 @@ req.typenames: SRBEX_DATA_WMI, *PSRBEX_DATA_WMI
 
 The <b>SRBEX_DATA_WMI</b> structure contains the request data for an extended WMI SRB.
 <div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
-
-## -syntax
-
-
-````
-typedef struct _SRBEX_DATA_WMI {
-  SRBEXDATATYPE       Type;
-  ULONG               Length;
-  UCHAR               WMISubFunction;
-  UCHAR               WMIFlags;
-  UCHAR               Reserved[2];
-  ULONG               Reserved1;
-  PVOID POINTER_ALIGN DataPath;
-} SRBEX_DATA_WMI, *PSRBEX_DATA_WMI;
-````
-
 
 ## -struct-fields
 
@@ -90,7 +75,7 @@ Indicates the WMI action to be performed. The subfunction value corresponds to t
 
 ### -field WMIFlags
 
-Indicates that the WMI request is for the adapter if SRB_WMI_FLAGS_ADAPTER_REQUEST is set and that storage device address is reserved. Otherwise, <i>WMIFlags</i> will be <b>NULL</b>, indicating that the request is for the storage device specified by an address at <b>AddressOffset</b> in the <a href="..\storport\ns-storport-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a> structure.
+Indicates that the WMI request is for the adapter if SRB_WMI_FLAGS_ADAPTER_REQUEST is set and that storage device address is reserved. Otherwise, <i>WMIFlags</i> will be <b>NULL</b>, indicating that the request is for the storage device specified by an address at <b>AddressOffset</b> in the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451474">STORAGE_REQUEST_BLOCK</a> structure.
 
 
 ### -field Reserved
@@ -110,13 +95,11 @@ Specifies the WMI data path for this request.
 
 ## -see-also
 
-<a href="..\storport\ns-storport-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451474">STORAGE_REQUEST_BLOCK</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20SRBEX_DATA_WMI structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

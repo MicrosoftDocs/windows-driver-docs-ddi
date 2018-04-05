@@ -7,7 +7,7 @@ old-location: display\d3dddicb_updategpuvirtualaddress.htm
 old-project: display
 ms.assetid: 6D460EBF-1D5D-4A99-90EE-FCBBC56B8EA4
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDICB_UPDATEGPUVIRTUALADDRESS, D3DDDICB_UPDATEGPUVIRTUALADDRESS structure [Display Devices], _D3DDDICB_UPDATEGPUVIRTUALADDRESS, d3dumddi/D3DDDICB_UPDATEGPUVIRTUALADDRESS, display.d3dddicb_updategpuvirtualaddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	D3DDDICB_UPDATEGPUVIRTUALADDRESS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDICB_UPDATEGPUVIRTUALADDRESS
 ---
@@ -49,31 +50,8 @@ req.typenames: D3DDDICB_UPDATEGPUVIRTUALADDRESS
 ## -description
 
 
-<b>D3DDDICB_UPDATEGPUVIRTUALADDRESS</b> is used with <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_updategpuvirtualaddresscb.md">pfnUpdateGpuVirtualAddressCb</a> to allow the user mode driver to specify a number of mapping operations to be applied to the process virtual address space in a single batch of page table updates. 
+<b>D3DDDICB_UPDATEGPUVIRTUALADDRESS</b> is used with <a href="https://msdn.microsoft.com/99D075A0-4483-47D1-BA24-80C45BFF407A">pfnUpdateGpuVirtualAddressCb</a> to allow the user mode driver to specify a number of mapping operations to be applied to the process virtual address space in a single batch of page table updates. 
 
-
-
-## -syntax
-
-
-````
-typedef struct _D3DDDICB_UPDATEGPUVIRTUALADDRESS {
-  HANDLE                                   hContext;
-  D3DKMT_HANDLE                            hFenceObject;
-  UINT                                     NumOperations;
-  D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION *Operations;
-  UINT                                     Reserved0;
-  UINT64                                   Reserved1;
-  UINT64                                   FenceValue;
-  union {
-    struct {
-      UINT DoNotWait  :1;
-      UINT Reserved  :31;
-    };
-    UINT   Value;
-  } Flags;
-} D3DDDICB_UPDATEGPUVIRTUALADDRESS;
-````
 
 
 ## -struct-fields
@@ -99,7 +77,7 @@ Specifies the number of operations in the <b>Operations</b> array.
 ### -field Operations
 
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_updategpuvirtualaddress_operation.md">D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION</a> array of operations to perform on the GPU virtual address space.
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn906329">D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION</a> array of operations to perform on the GPU virtual address space.
 
 
 ### -field Reserved0
@@ -138,17 +116,15 @@ This member is reserved and should be set to zero.
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_updategpuvirtualaddresscb.md">pfnUpdateGpuVirtualAddressCb</a>
 
 
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_updategpuvirtualaddress_operation.md">D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn906329">D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION</a>
 
 
 
+<a href="https://msdn.microsoft.com/99D075A0-4483-47D1-BA24-80C45BFF407A">pfnUpdateGpuVirtualAddressCb</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DDDICB_UPDATEGPUVIRTUALADDRESS structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: storage\sm_getlunstatistics_in.htm
 old-project: storage
 ms.assetid: c551a376-2148-4fc4-ba4e-9c1ce1eea1d8
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSM_GetLUNStatistics_IN, PSM_GetLUNStatistics_IN, PSM_GetLUNStatistics_IN structure pointer [Storage Devices], SM_GetLUNStatistics_IN, SM_GetLUNStatistics_IN structure [Storage Devices], _SM_GetLUNStatistics_IN, hbapiwmi/PSM_GetLUNStatistics_IN, hbapiwmi/SM_GetLUNStatistics_IN, storage.sm_getlunstatistics_in, structs-Fibre_537f91a2-0183-4e6d-a3ef-22474349e6e7.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	hbapiwmi.h
 api_name:
 -	SM_GetLUNStatistics_IN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SM_GetLUNStatistics_IN, *PSM_GetLUNStatistics_IN
 ---
@@ -52,16 +53,6 @@ req.typenames: SM_GetLUNStatistics_IN, *PSM_GetLUNStatistics_IN
 The SM_GetLUNStatistics_IN structure is used to provide input parameters to the SM_GetLUNStatistics_IN method.
 
 
-## -syntax
-
-
-````
-typedef struct _SM_GetLUNStatistics_IN {
-  HBAScsiID Lunit;
-} SM_GetLUNStatistics_IN, *PSM_GetLUNStatistics_IN;
-````
-
-
 ## -struct-fields
 
 
@@ -69,7 +60,7 @@ typedef struct _SM_GetLUNStatistics_IN {
 
 ### -field Lunit
 
-A structure of type <a href="..\hbaapi\ns-hbaapi-hba_scsiid.md">HBA_ScsiId</a> that contains information that is used by the operating system to identify a SCSI logical unit.
+A structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff557191">HBA_ScsiId</a> that contains information that is used by the operating system to identify a SCSI logical unit.
 
 
 ## -remarks

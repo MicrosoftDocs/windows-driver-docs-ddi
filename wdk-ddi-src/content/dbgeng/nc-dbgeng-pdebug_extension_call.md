@@ -7,7 +7,7 @@ old-location: debugger\pdebug_extension_call.htm
 old-project: debugger
 ms.assetid: 325af2f4-9fb7-4fb3-9294-cd6d20d803c6
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/26/2018
 ms.keywords: DebugExtensionCall, Extensions_Ref_fc621d91-0419-4ae3-8e53-71f4c522c318.xml, PDEBUG_EXTENSION_CALL, PDEBUG_EXTENSION_CALL function pointer [Windows Debugging], dbgeng/PDEBUG_EXTENSION_CALL, debugger.pdebug_extension_call
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	dbgeng.h
 api_name:
 -	DebugExtensionCall
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -50,17 +51,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 Callback functions of the type <b>PDEBUG_EXTENSION_CALL</b> are called by the engine to execute <a href="https://msdn.microsoft.com/5131115b-b9a0-479b-9391-7ab384633d92">extension commands</a>. You can give these functions any name you want, as long as it contains no uppercase letters.
-
-
-## -prototype
-
-
-````
-typedef HRESULT ( CALLBACK *DebugExtensionCall)(
-  _In_     PDEBUG_CLIENT Client,
-  _In_opt_ PCSTR         Args
-);
-````
 
 
 ## -parameters
@@ -132,13 +122,11 @@ DebugExtensionCall is called <b>PDEBUG_EXTENSION_CALL</b>   in the Dbgeng.h head
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549827">IDebugClient</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20PDEBUG_EXTENSION_CALL function pointer%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

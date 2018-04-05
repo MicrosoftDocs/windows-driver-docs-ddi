@@ -7,7 +7,7 @@ old-location: storage\ufs_interconnect_descriptor.htm
 old-project: storage
 ms.assetid: 6C6EAA96-40E9-467F-903B-AE44CE5B77CF
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PUFS_INTERCONNECT_DESCRIPTOR, PUFS_INTERCONNECT_DESCRIPTOR, PUFS_INTERCONNECT_DESCRIPTOR structure pointer [Storage Devices], UFS_INTERCONNECT_DESCRIPTOR, UFS_INTERCONNECT_DESCRIPTOR structure [Storage Devices], storage.ufs_interconnect_descriptor, ufs/PUFS_INTERCONNECT_DESCRIPTOR, ufs/UFS_INTERCONNECT_DESCRIPTOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ufs.h
 api_name:
 -	UFS_INTERCONNECT_DESCRIPTOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UFS_INTERCONNECT_DESCRIPTOR, *PUFS_INTERCONNECT_DESCRIPTOR
 req.product: Windows 10 or later.
@@ -52,19 +53,6 @@ req.product: Windows 10 or later.
 
 <b>UFS_INTERCONNECT_DESCRIPTOR</b> contains the MIPI M-PHY® specification version number and the MIPI
 6338 UniPro℠ specification version number.
-
-
-## -syntax
-
-
-````
-typedef struct _UFS_INTERCONNECT_DESCRIPTOR {
-  UCHAR bLength;
-  UCHAR bDescriptorIDN;
-  UCHAR bcdUniproVersion[2];
-  UCHAR bcdMphyVersion[2];
-} UFS_INTERCONNECT_DESCRIPTOR, *PUFS_INTERCONNECT_DESCRIPTOR;
-````
 
 
 ## -struct-fields

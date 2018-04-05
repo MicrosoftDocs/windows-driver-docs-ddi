@@ -7,7 +7,7 @@ old-location: wdf\wdfpredeviceinstall.htm
 old-project: wdf
 ms.assetid: 2da4b4ea-1cbb-43f7-9001-44b07a3e9ef7
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/26/2018
 ms.keywords: DFCoinstallerRef_0d1aca8b-f318-42c4-a74d-bd69d272ceec.xml, WdfPreDeviceInstall, WdfPreDeviceInstall function, kmdf.wdfpredeviceinstall, wdf.wdfpredeviceinstall, wdfinstaller/WdfPreDeviceInstall
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	N/A.dll
 api_name:
 -	WdfPreDeviceInstall
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_FILE_INFORMATION_CLASS, *PWDF_FILE_INFORMATION_CLASS
 req.product: Windows 10 or later.
@@ -54,17 +55,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF only]
 
 The co-installer's <b>WdfPreDeviceInstall</b> function performs any operations that the co-installer might require before a non-Plug and Play (PnP) driver's installer creates the driver's kernel-mode service. 
-
-
-## -syntax
-
-
-````
-ULONG WdfPreDeviceInstall(
-  _In_     LPCWSTR InfPath,
-  _In_opt_ LPCWSTR InfSectionName
-);
-````
 
 
 ## -parameters
@@ -95,7 +85,7 @@ A pointer to a null-terminated wide-character string that contains the <i>Wdf-in
 
 
 
-The installer for the framework-based drivers of a non-PnP device must call <b>WdfPreDeviceInstall</b> or <a href="..\wdfinstaller\nf-wdfinstaller-wdfpredeviceinstallex.md">WdfPreDeviceInstallEx</a> before the installer calls <a href="https://msdn.microsoft.com/47288924-3294-4a50-b27d-7df80d5c957c">CreateService</a>.
+The installer for the framework-based drivers of a non-PnP device must call <b>WdfPreDeviceInstall</b> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff548839">WdfPreDeviceInstallEx</a> before the installer calls <a href="https://msdn.microsoft.com/47288924-3294-4a50-b27d-7df80d5c957c">CreateService</a>.
 
 To obtain the address of the co-installer's <b>WdfPreDeviceInstall</b> function, the installer must call <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a> after the installer has called <a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65">LoadLibrary</a> to load the co-installer.
 
@@ -114,13 +104,11 @@ For a code example that uses the <b>WdfPreDeviceInstall</b> function, see the in
 
 ## -see-also
 
-<a href="..\wdfinstaller\nf-wdfinstaller-wdfpostdeviceinstall.md">WdfPostDeviceInstall</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548829">WdfPostDeviceInstall</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfPreDeviceInstall function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

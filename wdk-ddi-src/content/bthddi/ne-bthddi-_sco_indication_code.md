@@ -38,7 +38,8 @@ api_location:
 -	bthddi.h
 api_name:
 -	SCO_INDICATION_CODE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SCO_INDICATION_CODE, *PSCO_INDICATION_CODE
 ---
@@ -52,20 +53,7 @@ req.typenames: SCO_INDICATION_CODE, *PSCO_INDICATION_CODE
 The SCO_INDICATION_CODE enumeration type describes the type of an incoming SCO connection or bonding
   state change. The Bluetooth driver stack passes a value from this enumeration in the 
   <i>Indication</i> argument of a profile driver's 
-  <a href="..\bthddi\nc-bthddi-pfnsco_indication_callback.md">SCO Callback Function</a>.
-
-
-## -syntax
-
-
-````
-typedef enum _SCO_INDICATION_CODE { 
-  ScoIndicationAddReference      = 0,
-  ScoIndicationReleaseReference  = 1,
-  ScoIndicationRemoteConnect     = 2,
-  ScoIndicationRemoteDisconnect  = 3
-} SCO_INDICATION_CODE, *PSCO_INDICATION_CODE;
-````
+  <a href="https://msdn.microsoft.com/abc9fc88-6852-4bfb-8271-7a73a508c397">SCO Callback Function</a>.
 
 
 ## -enum-fields
@@ -101,11 +89,6 @@ This value indicates to a profile driver that a remote device is disconnecting f
 
 ## -see-also
 
-<a href="..\bthddi\nc-bthddi-pfnsco_indication_callback.md">SCO Callback Function</a>
-
-
-
-<a href="..\bthioctl\ni-bthioctl-ioctl_internal_bth_submit_brb.md">IOCTL_INTERNAL_BTH_SUBMIT_BRB</a>
 
 
 
@@ -113,9 +96,12 @@ This value indicates to a profile driver that a remote device is disconnecting f
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536751">IOCTL_INTERNAL_BTH_SUBMIT_BRB</a>
+
+
+
+<a href="https://msdn.microsoft.com/abc9fc88-6852-4bfb-8271-7a73a508c397">SCO Callback Function</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20SCO_INDICATION_CODE enumeration%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

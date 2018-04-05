@@ -7,7 +7,7 @@ old-location: print\iprintoemps2_getpdevadjustment.htm
 old-project: print
 ms.assetid: 8dc4252f-72d5-47ae-9f43-8006aa71c29d
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: GetPDEVAdjustment method [Print Devices], GetPDEVAdjustment method [Print Devices], IPrintOemPS2 interface, GetPDEVAdjustment,IPrintOemPS2.GetPDEVAdjustment, IPrintOemPS2, IPrintOemPS2 interface [Print Devices], GetPDEVAdjustment method, IPrintOemPS2::GetPDEVAdjustment, prcomoem/IPrintOemPS2::GetPDEVAdjustment, print.iprintoemps2_getpdevadjustment, print_unidrv-pscript_rendering_eca8e6af-1563-4028-9d87-fd014e1e06ee.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: prcomoem.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	prcomoem.h
 api_name:
 -	IPrintOemPS2.GetPDEVAdjustment
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
@@ -53,20 +54,6 @@ req.product: Windows 10 or later.
 The <code>IPrintOemPS2::GetPDEVAdjustment</code> method enables a plug-in to override specific <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">PDEV</a> settings.
 
 
-## -syntax
-
-
-````
-HRESULT GetPDEVAdjustment(
-        PDEVOBJ pdevobj,
-        DWORD   dwAdjustType,
-        PVOID   pBuf,
-        DWORD   cbBuffer,
-  [out] BOOL    *pbAdjustmentDone
-);
-````
-
-
 ## -parameters
 
 
@@ -74,7 +61,7 @@ HRESULT GetPDEVAdjustment(
 
 ### -param pdevobj
 
-Pointer to a <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a> structure.
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547573">DEVOBJ</a> structure.
 
 
 ### -param dwAdjustType
@@ -92,7 +79,7 @@ PDEV_ADJUST_PAPER_MARGIN_TYPE
 
 </td>
 <td>
-Adjust the paper margin setting that is reported in the PDEV. See the <a href="..\printoem\ns-printoem-_pdev_adjust_paper_margin.md">PDEV_ADJUST_PAPER_MARGIN</a> structure.
+Adjust the paper margin setting that is reported in the PDEV. See the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559791">PDEV_ADJUST_PAPER_MARGIN</a> structure.
 
 </td>
 </tr>
@@ -102,7 +89,7 @@ PDEV_HOSTFONT_ENABLED_TYPE
 
 </td>
 <td>
-Enable or disable the Hostfont support feature. See the <a href="..\printoem\ns-printoem-_pdev_hostfont_enabled.md">PDEV_HOSTFONT_ENABLED</a> structure.
+Enable or disable the Hostfont support feature. See the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559803">PDEV_HOSTFONT_ENABLED</a> structure.
 
 </td>
 </tr>
@@ -112,7 +99,7 @@ PDEV_USE_TRUE_COLOR_TYPE
 
 </td>
 <td>
-Enable or disable color output for monochrome and color printers. See the <a href="..\printoem\ns-printoem-_pdev_use_true_color.md">PDEV_USE_TRUE_COLOR</a> structure.
+Enable or disable color output for monochrome and color printers. See the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559806">PDEV_USE_TRUE_COLOR</a> structure.
 
 </td>
 </tr>
@@ -157,25 +144,23 @@ Currently, the Pscript5 driver calls <code>IPrintOemPS2::GetPDEVAdjustment</code
 
 ## -see-also
 
-<a href="..\prcomoem\nn-prcomoem-iprintoemps2.md">IPrintOemPS2</a>
 
 
 
-<a href="..\printoem\ns-printoem-_pdev_hostfont_enabled.md">PDEV_HOSTFONT_ENABLED</a>
+<a href="https://msdn.microsoft.com/f2fb4176-c366-4cf9-bc17-59cc0c69a32b">IPrintOemPS2</a>
 
 
 
-<a href="..\printoem\ns-printoem-_pdev_use_true_color.md">PDEV_USE_TRUE_COLOR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559791">PDEV_ADJUST_PAPER_MARGIN</a>
 
 
 
-<a href="..\printoem\ns-printoem-_pdev_adjust_paper_margin.md">PDEV_ADJUST_PAPER_MARGIN</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559803">PDEV_HOSTFONT_ENABLED</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559806">PDEV_USE_TRUE_COLOR</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintOemPS2::GetPDEVAdjustment method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

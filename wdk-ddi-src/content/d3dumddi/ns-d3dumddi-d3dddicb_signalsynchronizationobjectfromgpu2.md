@@ -7,7 +7,7 @@ old-location: display\d3dddicb_signalsynchronizationobjectfromgpu2.htm
 old-project: display
 ms.assetid: 077BFCCB-4963-40CF-B56E-EAA08681ED5F
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMGPU2, D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMGPU2 structure [Display Devices], d3dumddi/D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMGPU2, display.d3dddicb_signalsynchronizationobjectfromgpu2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMGPU2
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMGPU2
 ---
@@ -49,27 +50,7 @@ req.typenames: D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMGPU2
 ## -description
 
 
-<b>D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMGPU2</b> is used with <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_signalsynchronizationobjectfromgpu2cb.md">pfnSignalSynchronizationObjectFromGpu2Cb</a> to signal a monitored fence.
-
-
-## -syntax
-
-
-````
-typedef struct D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMGPU2 {
-  UINT                 ObjectCount;
-  const D3DKMT_HANDLE  *ObjectHandleArray;
-  D3DDDICB_SIGNALFLAGS Flags;
-  ULONG                BroadcastContextCount;
-  const HANDLE         *BroadcastContextArray;
-  union {
-    UINT64       FenceValue;
-    HANDLE       CpuEventHandle;
-    const UINT64 *MonitoredFenceValueArray;
-    UINT64       Reserved[8];
-  };
-} D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMGPU2;
-````
+<b>D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMGPU2</b> is used with <a href="https://msdn.microsoft.com/03F9E47D-A3CA-44A1-A136-8236309D3D36">pfnSignalSynchronizationObjectFromGpu2Cb</a> to signal a monitored fence.
 
 
 ## -struct-fields
@@ -89,7 +70,7 @@ typedef struct D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMGPU2 {
 
 ### -field Flags
 
-[in] A <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddicb_signalflags.md">D3DDDICB_SIGNALFLAGS</a> structure that indicates, in bit-field flags, signaling behavior.
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff544271">D3DDDICB_SIGNALFLAGS</a> structure that indicates, in bit-field flags, signaling behavior.
 
 
 ### -field BroadcastContextCount
@@ -124,17 +105,15 @@ This member is reserved and should be set to zero.
 
 ## -see-also
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddicb_signalflags.md">D3DDDICB_SIGNALFLAGS</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_signalsynchronizationobjectfromgpu2cb.md">pfnSignalSynchronizationObjectFromGpu2Cb</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544271">D3DDDICB_SIGNALFLAGS</a>
 
 
 
+<a href="https://msdn.microsoft.com/03F9E47D-A3CA-44A1-A136-8236309D3D36">pfnSignalSynchronizationObjectFromGpu2Cb</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMGPU2 structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

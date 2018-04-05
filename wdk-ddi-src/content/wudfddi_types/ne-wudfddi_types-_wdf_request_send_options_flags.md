@@ -7,7 +7,7 @@ old-location: wdf\wdf_request_send_options_flags__umdf_.htm
 old-project: wdf
 ms.assetid: 02678466-aa8d-436d-8be3-b8a57218a106
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/26/2018
 ms.keywords: WDF_REQUEST_SEND_OPTIONS_FLAGS, WDF_REQUEST_SEND_OPTIONS_FLAGS enumeration, WDF_REQUEST_SEND_OPTION_IGNORE_TARGET_STATE, WDF_REQUEST_SEND_OPTION_IMPERSONATE_CLIENT, WDF_REQUEST_SEND_OPTION_IMPERSONATION_IGNORE_FAILURE, WDF_REQUEST_SEND_OPTION_SEND_AND_FORGET, WDF_REQUEST_SEND_OPTION_SYNCHRONOUS, WDF_REQUEST_SEND_OPTION_TIMEOUT, _WDF_REQUEST_SEND_OPTIONS_FLAGS, umdf.wdf_request_send_options_flags__umdf_, umdfstructs_a99bff2d-2fa0-4267-b3be-aa9fd01a0778.xml, wdf.wdf_request_send_options_flags__umdf_, wudfddi_types/WDF_REQUEST_SEND_OPTIONS_FLAGS, wudfddi_types/WDF_REQUEST_SEND_OPTION_IGNORE_TARGET_STATE, wudfddi_types/WDF_REQUEST_SEND_OPTION_IMPERSONATE_CLIENT, wudfddi_types/WDF_REQUEST_SEND_OPTION_IMPERSONATION_IGNORE_FAILURE, wudfddi_types/WDF_REQUEST_SEND_OPTION_SEND_AND_FORGET, wudfddi_types/WDF_REQUEST_SEND_OPTION_SYNCHRONOUS, wudfddi_types/WDF_REQUEST_SEND_OPTION_TIMEOUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support: Unavailable in UMDF 2.0 and later.
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	Wudfddi_types.h
 api_name:
 -	WDF_REQUEST_SEND_OPTIONS_FLAGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_REQUEST_SEND_OPTIONS_FLAGS
 req.product: Windows 10 or later.
@@ -54,21 +55,6 @@ req.product: Windows 10 or later.
 
 
 The <b>WDF_REQUEST_SEND_OPTIONS_FLAGS</b> enumeration type defines flags that a driver can specify when it calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff559149">IWDFIoRequest::Send</a>.
-
-
-## -syntax
-
-
-````
-typedef enum _WDF_REQUEST_SEND_OPTIONS_FLAGS { 
-  WDF_REQUEST_SEND_OPTION_TIMEOUT                       = 0x00000001,
-  WDF_REQUEST_SEND_OPTION_SYNCHRONOUS                   = 0x00000002,
-  WDF_REQUEST_SEND_OPTION_IGNORE_TARGET_STATE           = 0x00000004,
-  WDF_REQUEST_SEND_OPTION_SEND_AND_FORGET               = 0x00000008,
-  WDF_REQUEST_SEND_OPTION_IMPERSONATE_CLIENT            = 0x00010000,
-  WDF_REQUEST_SEND_OPTION_IMPERSONATION_IGNORE_FAILURE  = 0x00020000
-} WDF_REQUEST_SEND_OPTIONS_FLAGS;
-````
 
 
 ## -enum-fields
@@ -98,7 +84,7 @@ If set, the driver is sending the request asynchronously and does not need to be
 
 ### -field WDF_REQUEST_SEND_OPTION_IMPERSONATE_CLIENT
 
-If set, and if the I/O request type is <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_type.md">WdfRequestCreate</a>, the <a href="https://msdn.microsoft.com/f916b414-9cd9-4745-a021-07c810d0d68b">Send</a> method attempts to pass the client's <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/handling-client-impersonation-in-umdf-drivers">impersonation</a> level to the driver's I/O target. This value is available in UMDF versions 1.9 and later.
+If set, and if the I/O request type is <a href="https://msdn.microsoft.com/library/windows/hardware/ff549951">WdfRequestCreate</a>, the <a href="https://msdn.microsoft.com/f916b414-9cd9-4745-a021-07c810d0d68b">Send</a> method attempts to pass the client's <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/handling-client-impersonation-in-umdf-drivers">impersonation</a> level to the driver's I/O target. This value is available in UMDF versions 1.9 and later.
 
 
 ### -field WDF_REQUEST_SEND_OPTION_IMPERSONATION_IGNORE_FAILURE
@@ -118,20 +104,18 @@ If the driver sets the WDF_REQUEST_SEND_OPTION_SEND_AND_FORGET flag, it cannot s
 
 For more information about client impersonation, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/handling-client-impersonation-in-umdf-drivers">Handling Client Impersonation</a>.
 
-For the KMDF version of this enumeration, see <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_send_options_flags.md">WDF_REQUEST_SEND_OPTIONS_FLAGS</a>.
+For the KMDF version of this enumeration, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff552493">WDF_REQUEST_SEND_OPTIONS_FLAGS</a>.
 
 
 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559149">IWDFIoRequest::Send</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_REQUEST_SEND_OPTIONS_FLAGS enumeration%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

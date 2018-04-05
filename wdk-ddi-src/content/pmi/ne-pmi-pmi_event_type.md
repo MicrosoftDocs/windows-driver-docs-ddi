@@ -38,7 +38,8 @@ api_location:
 -	pmi.h
 api_name:
 -	PMI_EVENT_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PMI_EVENT_TYPE
 ---
@@ -49,22 +50,7 @@ req.typenames: PMI_EVENT_TYPE
 ## -description
 
 
-The PMI_EVENT_TYPE enumeration defines the type of PMI power meter event that is returned through the successful completion of an <a href="..\pmi\ni-pmi-ioctl_pmi_register_event_notify.md">IOCTL_PMI_REGISTER_EVENT_NOTIFY</a> request.
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  PmiCapabilitiesChangedEvent,
-  PmiThresholdEvent,
-  PmiConfigurationChangedEvent,
-  PmiBudgetEvent,
-  PmiAveragingIntervalChangedEvent,
-  PmiEventMax
-} PMI_EVENT_TYPE;
-````
+The PMI_EVENT_TYPE enumeration defines the type of PMI power meter event that is returned through the successful completion of an <a href="https://msdn.microsoft.com/library/windows/hardware/ff543847">IOCTL_PMI_REGISTER_EVENT_NOTIFY</a> request.
 
 
 ## -enum-fields
@@ -106,24 +92,22 @@ The maximum number of PMI event types.
 
 
 
-The <b>EventType</b> member of the <a href="..\pmi\ns-pmi-_pmi_event.md">PMI_EVENT</a> structure contains information about the type of PMI event data that is referenced by the <b>Event</b> member of that structure. This structure is returned through a successful completion of an <a href="..\pmi\ni-pmi-ioctl_pmi_register_event_notify.md">IOCTL_PMI_REGISTER_EVENT_NOTIFY</a> request.
+The <b>EventType</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543876">PMI_EVENT</a> structure contains information about the type of PMI event data that is referenced by the <b>Event</b> member of that structure. This structure is returned through a successful completion of an <a href="https://msdn.microsoft.com/library/windows/hardware/ff543847">IOCTL_PMI_REGISTER_EVENT_NOTIFY</a> request.
 
 
 
 
 ## -see-also
 
-<a href="..\pmi\ni-pmi-ioctl_pmi_register_event_notify.md">IOCTL_PMI_REGISTER_EVENT_NOTIFY</a>
 
 
 
-<a href="..\pmi\ns-pmi-_pmi_event.md">PMI_EVENT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543847">IOCTL_PMI_REGISTER_EVENT_NOTIFY</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543876">PMI_EVENT</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [powermeter\powermeter]:%20PMI_EVENT_TYPE enumeration%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

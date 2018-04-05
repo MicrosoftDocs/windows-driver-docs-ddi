@@ -7,7 +7,7 @@ old-location: ifsk\iosetfileorigin.htm
 old-project: ifsk
 ms.assetid: 98d38c84-ed3a-4119-9a05-f8211f220467
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: IoSetFileOrigin, IoSetFileOrigin routine [Installable File System Drivers], ifsk.iosetfileorigin, ioref_782eeed5-9c44-4572-b929-4e1fb82d8e03.xml, ntddk/IoSetFileOrigin
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	IoSetFileOrigin
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
@@ -50,17 +51,6 @@ req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 
 
 The <b>IoSetFileOrigin</b> routine specifies whether a given file object is for a remote create request. 
-
-
-## -syntax
-
-
-````
-NTSTATUS IoSetFileOrigin(
-  _In_ PFILE_OBJECT FileObject,
-  _In_ BOOLEAN      Remote
-);
-````
 
 
 ## -parameters
@@ -104,13 +94,11 @@ File system filter drivers should not call <b>IoSetFileOrigin</b>.
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-ioisfileoriginremote.md">IoIsFileOriginRemote</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548435">IoIsFileOriginRemote</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20IoSetFileOrigin routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

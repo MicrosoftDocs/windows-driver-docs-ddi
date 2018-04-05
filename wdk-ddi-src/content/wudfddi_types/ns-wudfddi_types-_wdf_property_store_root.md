@@ -7,7 +7,7 @@ old-location: wdf\wdf_property_store_root.htm
 old-project: wdf
 ms.assetid: 431ae991-35e0-4cf7-a3e0-57591abfe5c5
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/26/2018
 ms.keywords: "*PWDF_PROPERTY_STORE_ROOT, PWDF_PROPERTY_STORE_ROOT, PWDF_PROPERTY_STORE_ROOT structure pointer, WDF_PROPERTY_STORE_ROOT, WDF_PROPERTY_STORE_ROOT structure, _WDF_PROPERTY_STORE_ROOT, umdf.wdf_property_store_root, umdfstructs_7024c360-9ab7-4eea-ba66-c45c5912dfaa.xml, wdf.wdf_property_store_root, wudfddi_types/PWDF_PROPERTY_STORE_ROOT, wudfddi_types/WDF_PROPERTY_STORE_ROOT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Wudfddi_types.h
 api_name:
 -	WDF_PROPERTY_STORE_ROOT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_PROPERTY_STORE_ROOT, *PWDF_PROPERTY_STORE_ROOT
 req.product: Windows 10 or later.
@@ -55,29 +56,6 @@ req.product: Windows 10 or later.
 The <b>WDF_PROPERTY_STORE_ROOT</b> structure contains information that identifies a UMDF property store. 
 
 
-## -syntax
-
-
-````
-typedef struct _WDF_PROPERTY_STORE_ROOT {
-  ULONG                         LengthCb;
-  WDF_PROPERTY_STORE_ROOT_CLASS RootClass;
-  union {
-    struct {
-      PCWSTR ServiceName;
-    } HardwareKey;
-    struct {
-      LPCGUID InterfaceGUID;
-      PCWSTR  ReferenceString;
-    } DeviceInterfaceKey;
-    struct {
-      PCWSTR LegacyMapName;
-    } LegacyHardwareKey;
-  } Qualifier;
-} WDF_PROPERTY_STORE_ROOT, *PWDF_PROPERTY_STORE_ROOT;
-````
-
-
 ## -struct-fields
 
 
@@ -90,7 +68,7 @@ The length, in bytes, of this structure.
 
 ### -field RootClass
 
-A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_property_store_root_class.md">WDF_PROPERTY_STORE_ROOT_CLASS</a>-typed value that identifies a property store.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff561458">WDF_PROPERTY_STORE_ROOT_CLASS</a>-typed value that identifies a property store.
 
 
 ### -field Qualifier
@@ -215,7 +193,7 @@ Set the <b>Qualifier.LegacyHardwareKey.LegacyMapName</b> member to a character s
 
 </li>
 </ol>
-The driver can obtain read or write access to the specified subkey under the <b>DEVICEMAP</b> key. The driver can optionally create the subkey if it does not exist. However, a driver that creates this subkey must specify the <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_property_store_retrieve_flags.md">WdfPropertyStoreCreateVolatile</a> flag so that the system deletes the subkey each time that it restarts.
+The driver can obtain read or write access to the specified subkey under the <b>DEVICEMAP</b> key. The driver can optionally create the subkey if it does not exist. However, a driver that creates this subkey must specify the <a href="https://msdn.microsoft.com/bd64ef0d-b2e7-4f82-87a8-77fe98677fd9">WdfPropertyStoreCreateVolatile</a> flag so that the system deletes the subkey each time that it restarts.
 
 For more information about these registry keys, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-the-registry-in-umdf-1-x-drivers">Using the Registry in UMDF-based Drivers</a>.
 
@@ -224,13 +202,11 @@ For more information about these registry keys, see <a href="https://docs.micros
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560228">IWDFPropertyStoreFactory::RetrieveDevicePropertyStore</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_PROPERTY_STORE_ROOT structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

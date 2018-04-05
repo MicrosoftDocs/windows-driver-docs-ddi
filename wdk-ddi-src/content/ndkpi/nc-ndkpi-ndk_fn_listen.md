@@ -7,7 +7,7 @@ old-location: netvista\ndk_fn_listen.htm
 old-project: netvista
 ms.assetid: 1C3DF31C-500E-456A-B121-48F5945D6999
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: NDK_FN_LISTEN, NdkListen, NdkListen callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkListen, netvista.ndk_fn_listen
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ndkpi.h
 api_name:
 -	NdkListen
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS
 ---
@@ -52,23 +53,6 @@ req.typenames: NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS
 The <i>NdkListen</i> (<i>NDK_FN_LISTEN</i>) function puts an NDK listener object into listening mode.
 
 
-## -prototype
-
-
-````
-NDK_FN_LISTEN NdkListen;
-
-NTSTATUS NdkListen(
-  _In_     NDK_LISTENER                                    *pNdkListener,
-           _In_reads_bytes_(AddressLength) const PSOCKADDR pAddress,
-  _In_     ULONG                                           AddressLength,
-  _In_     NDK_FN_REQUEST_COMPLETION                       RequestCompletion,
-  _In_opt_ PVOID                                           RequestContext
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -76,7 +60,7 @@ NTSTATUS NdkListen(
 
 ### -param *pNdkListener [in]
 
-A pointer to an NDK listener object (<a href="..\ndkpi\ns-ndkpi-_ndk_listener.md">NDK_LISTENER</a>).
+A pointer to an NDK listener object (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439918">NDK_LISTENER</a>).
 
 
 ### -param PSOCKADDR
@@ -91,7 +75,7 @@ The size, in bytes, of local address data at the <i>pAddress</i> parameter.
 
 ### -param RequestCompletion [in]
 
-A pointer to a request completion callback routine <i>NdkRequestCompletion</i> (<a href="..\ndkpi\nc-ndkpi-ndk_fn_request_completion.md">NDK_FN_REQUEST_COMPLETION</a>).
+A pointer to a request completion callback routine <i>NdkRequestCompletion</i> (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439912">NDK_FN_REQUEST_COMPLETION</a>).
 
 
 ### -param RequestContext [in, optional]
@@ -137,7 +121,7 @@ The listen request succeeded.
 </dl>
 </td>
 <td width="60%">
- The operation is pending and will be completed later. The driver will call the specified <i>RequestCompletion</i> (<a href="..\ndkpi\nc-ndkpi-ndk_fn_request_completion.md">NDK_FN_REQUEST_COMPLETION</a>) function to complete the pending operation.
+ The operation is pending and will be completed later. The driver will call the specified <i>RequestCompletion</i> (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439912">NDK_FN_REQUEST_COMPLETION</a>) function to complete the pending operation.
  
 
 </td>
@@ -220,11 +204,6 @@ An error occurred.
 
 ## -see-also
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_request_completion.md">NDK_FN_REQUEST_COMPLETION</a>
-
-
-
-<a href="..\ndkpi\ns-ndkpi-_ndk_listener.md">NDK_LISTENER</a>
 
 
 
@@ -232,9 +211,12 @@ An error occurred.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439912">NDK_FN_REQUEST_COMPLETION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439918">NDK_LISTENER</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDK_FN_LISTEN callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

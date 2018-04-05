@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	EtwRegister
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
@@ -51,19 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>EtwRegister</b> function registers the event provider and must be called before a provider can start tracing. The <b>EtwRegister</b> function is the kernel mode counterpart to the user-mode <b>EventRegister</b> function. The function can also provide a pointer to an optional callback function that can be used to provide additional event filtering capabilities. 
-
-
-## -syntax
-
-
-````
-NTSTATUS EtwRegister(
-  _In_     LPCGUID            ProviderId,
-  _In_opt_ PETWENABLECALLBACK EnableCallback,
-  _In_opt_ PVOID              CallbackContext,
-  _Out_    PREGHANDLE         RegHandle
-);
-````
 
 
 ## -parameters
@@ -154,13 +142,11 @@ Callers of <b>EtwRegister</b> must be running at IRQL = PASSIVE_LEVEL in the con
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-etwunregister.md">EtwUnregister</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545613">EtwUnregister</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [devtest\devtest]:%20EtwRegister function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

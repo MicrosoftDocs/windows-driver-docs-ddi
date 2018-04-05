@@ -38,7 +38,8 @@ api_location:
 -	bthddi.h
 api_name:
 -	_BRB_GET_DEVICE_INTERFACE_STRING
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -53,18 +54,6 @@ The _BRB_GET_DEVICE_INTERFACE_STRING structure describes the device interface st
   device object.
 
 
-## -syntax
-
-
-````
-struct _BRB_GET_DEVICE_INTERFACE_STRING {
-  BRB_HEADER Hdr;
-  PWCHAR     DeviceInterfaceString;
-  ULONG      DeviceInterfaceStringCbLength;
-};
-````
-
-
 ## -struct-fields
 
 
@@ -73,7 +62,7 @@ struct _BRB_GET_DEVICE_INTERFACE_STRING {
 ### -field Hdr
 
 A 
-     <a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a> structure that contains information
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536612">BRB_HEADER</a> structure that contains information
      about the current BRB.
 
 
@@ -101,7 +90,7 @@ To get the device interface string for the current device object, profile driver
     BRB_GET_DEVICE_INTERFACE_STRING</a> request.
 
 The Bluetooth driver stack performs an 
-    <a href="..\wdm\nf-wdm-ioregisterdeviceinterface.md">IoRegisterDeviceInterface</a> call on
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff549506">IoRegisterDeviceInterface</a> call on
     each device object it creates. The BRB returns the device interface string returned by that call. This
     can be useful for registering for events.
 
@@ -114,11 +103,6 @@ If the buffer pointed to by the
 
 ## -see-also
 
-<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
-
-
-
-<a href="..\wdm\nf-wdm-ioregisterdeviceinterface.md">IoRegisterDeviceInterface</a>
 
 
 
@@ -127,9 +111,12 @@ If the buffer pointed to by the
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536612">BRB_HEADER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549506">IoRegisterDeviceInterface</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20_BRB_GET_DEVICE_INTERFACE_STRING structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

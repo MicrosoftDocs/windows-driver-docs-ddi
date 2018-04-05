@@ -7,7 +7,7 @@ old-location: buses\ioctl_usb_hub_cycle_port.htm
 old-project: usbref
 ms.assetid: 21d9af73-bd30-43d6-93b1-c29f763a4fcd
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_USB_HUB_CYCLE_PORT, IOCTL_USB_HUB_CYCLE_PORT control code [Buses], buses.ioctl_usb_hub_cycle_port, usbioctl/IOCTL_USB_HUB_CYCLE_PORT, usbirp_8e57d8e6-316b-475d-88cc-87e00b4ee6fb.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Usbioctl.h
 api_name:
 -	IOCTL_USB_HUB_CYCLE_PORT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USB_HUB_TYPE
 req.product: Windows 10 or later.
@@ -46,11 +47,6 @@ req.product: Windows 10 or later.
 
 # IOCTL_USB_HUB_CYCLE_PORT IOCTL
 
-
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -70,12 +66,12 @@ The <b>IOCTL_USB_HUB_CYCLE_PORT</b> I/O control request power-cycles the port th
 
 ### -input-buffer
 
-The <b>AssociatedIrp.SystemBuffer</b> member points to a caller-allocated  <a href="..\usbioctl\ns-usbioctl-_usb_cycle_port_params.md">USB_CYCLE_PORT_PARAMS</a> structure that specifies the port number.
+The <b>AssociatedIrp.SystemBuffer</b> member points to a caller-allocated  <a href="https://msdn.microsoft.com/library/windows/hardware/gg615085">USB_CYCLE_PORT_PARAMS</a> structure that specifies the port number.
 
 
 ### -input-buffer-length
 
-The size of a <a href="..\usbioctl\ns-usbioctl-_usb_cycle_port_params.md">USB_CYCLE_PORT_PARAMS</a> structure.
+The size of a <a href="https://msdn.microsoft.com/library/windows/hardware/gg615085">USB_CYCLE_PORT_PARAMS</a> structure.
 
 
 ### -output-buffer

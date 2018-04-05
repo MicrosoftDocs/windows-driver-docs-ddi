@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILSENDSUPSERVICEDATAPARAMS
 title: RILSENDSUPSERVICEDATAPARAMS
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilsendsupservicedataparams_2.htm
+old-location: netvista\rilsendsupservicedataparams.htm
 old-project: netvista
-ms.assetid: de9c7d56-5b57-4809-b5cf-93234c934d55
+ms.assetid: a48c9543-602f-4f3c-876e-9acc76ca1a6b
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: "*LPRILSENDSUPSERVICEDATAPARAMS, RILSENDSUPSERVICEDATAPARAMS, RILSENDSUPSERVICEDATAPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsendsupservicedataparams_2, rilapitypes/RILSENDSUPSERVICEDATAPARAMS"
+ms.date: 3/26/2018
+ms.keywords: "*LPRILSENDSUPSERVICEDATAPARAMS, RILSENDSUPSERVICEDATAPARAMS, RILSENDSUPSERVICEDATAPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsendsupservicedataparams, ntddrilapitypes/RILSENDSUPSERVICEDATAPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,10 +35,11 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILSENDSUPSERVICEDATAPARAMS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILSENDSUPSERVICEDATAPARAMS, *LPRILSENDSUPSERVICEDATAPARAMS
 req.product: Windows 10 or later.
@@ -50,19 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-
-## -syntax
-
-
-````
-typedef struct _RILSENDSUPSERVICEDATAPARAMS {
-  DWORD     dwExecutor;
-  DWORD     dwDataSize;
-  WCHAR [1] wszData;
-} RILSENDSUPSERVICEDATAPARAMS, RILSENDSUPSERVICEDATAPARAMS;
-````
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -struct-fields

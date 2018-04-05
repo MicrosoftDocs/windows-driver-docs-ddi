@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsPinRegisterFrameReturnCallback
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -53,17 +54,6 @@ req.typenames:
 The<b> KsPinRegisterFrameReturnCallback </b>function registers a frame return callback with AVStream for a given pin.
 
 
-## -syntax
-
-
-````
-void KsPinRegisterFrameReturnCallback(
-  _In_ PKSPIN              Pin,
-  _In_ PFNKSPINFRAMERETURN FrameReturn
-);
-````
-
-
 ## -parameters
 
 
@@ -71,12 +61,12 @@ void KsPinRegisterFrameReturnCallback(
 
 ### -param Pin [in]
 
-A pointer to the AVStream <a href="..\ks\ns-ks-_kspin.md">KSPIN</a> structure that you want to place into injection mode by registering a frame return callback.
+A pointer to the AVStream <a href="https://msdn.microsoft.com/library/windows/hardware/ff563483">KSPIN</a> structure that you want to place into injection mode by registering a frame return callback.
 
 
 ### -param FrameReturn [in]
 
-This parameter supplies the address of a minidriver-provided <a href="..\ks\nc-ks-pfnkspinframereturn.md">AVStrMiniFrameReturn</a> routine.
+This parameter supplies the address of a minidriver-provided <a href="https://msdn.microsoft.com/library/windows/hardware/ff556320">AVStrMiniFrameReturn</a> routine.
 
 
 ## -returns
@@ -92,7 +82,7 @@ None
 
 
 
-If a pin has registered a frame return callback before transitioning from <b>KSSTATE_STOP</b> to KSSTATE_ACQUIRE, the pin is placed into injection mode. This indicates that the pin will not receive buffers and fill them, but rather manually inject data frames into the circuit using <b>KsPinSubmitFrame </b>or <b>KsPinSubmitFrameMdl</b>. When the data frame completes its travel around the circuit and returns to the pin on which it was submitted, AVStream recycles it by calling <a href="..\ks\nc-ks-pfnkspinframereturn.md">AVStrMiniFrameReturn</a>.
+If a pin has registered a frame return callback before transitioning from <b>KSSTATE_STOP</b> to KSSTATE_ACQUIRE, the pin is placed into injection mode. This indicates that the pin will not receive buffers and fill them, but rather manually inject data frames into the circuit using <b>KsPinSubmitFrame </b>or <b>KsPinSubmitFrameMdl</b>. When the data frame completes its travel around the circuit and returns to the pin on which it was submitted, AVStream recycles it by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff556320">AVStrMiniFrameReturn</a>.
 
 Minidrivers that call this function are directly responsible for injecting frames into the circuit; they do not receive buffers to fill and do not directly interact with the queue as do most minidrivers. Also note that the frame return callback should be registered before the kernel pipe section is created. The kernel pipe section is created when the pin transitions to KSSTATE_ACQUIRE. For more information, see <a href="https://msdn.microsoft.com/cdfb1763-92a8-4a60-8f49-2af34a8beca5">Frame Injection</a>.
 
@@ -101,21 +91,19 @@ Minidrivers that call this function are directly responsible for injecting frame
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kspinsubmitframe.md">KsPinSubmitFrame</a>
 
 
 
-<a href="..\ks\nc-ks-pfnkspinframereturn.md">AVStrMiniFrameReturn</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556320">AVStrMiniFrameReturn</a>
 
 
 
-<a href="..\ks\nf-ks-kspinsubmitframemdl.md">KsPinSubmitFrameMdl</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563529">KsPinSubmitFrame</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563530">KsPinSubmitFrameMdl</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsPinRegisterFrameReturnCallback function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

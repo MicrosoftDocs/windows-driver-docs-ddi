@@ -7,7 +7,7 @@ old-location: buses\usb_device_speed.htm
 old-project: usbref
 ms.assetid: e7c50bac-96ca-446d-a865-4ad87ad5b295
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: USB_DEVICE_SPEED, USB_DEVICE_SPEED enumeration [Buses], UsbFullSpeed, UsbHighSpeed, UsbLowSpeed, UsbSuperSpeed, _USB_DEVICE_SPEED, buses.usb_device_speed, usbspec/USB_DEVICE_SPEED, usbspec/UsbFullSpeed, usbspec/UsbHighSpeed, usbspec/UsbLowSpeed, usbspec/UsbSuperSpeed, usbstrct_c458b58d-fcfa-4082-bbcf-34e22d504ab9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Usbspec.h
 api_name:
 -	USB_DEVICE_SPEED
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USB_DEVICE_SPEED
 req.product: Windows 10 or later.
@@ -51,19 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>USB_DEVICE_SPEED</b> enumeration defines constants for USB device speeds. 
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  UsbLowSpeed     = 0,
-  UsbFullSpeed  ,
-  UsbHighSpeed  ,
-  UsbSuperSpeed
-} USB_DEVICE_SPEED;
-````
 
 
 ## -enum-fields
@@ -97,13 +85,11 @@ Indicates a SuperSpeed USB 3.0-compliant device.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539322">USB Constants and Enumerations</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USB_DEVICE_SPEED enumeration%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

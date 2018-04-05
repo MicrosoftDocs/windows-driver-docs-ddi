@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	AVStrMiniRemoveEvent
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SOUNDDETECTOR_PATTERNHEADER
 ---
@@ -50,20 +51,6 @@ req.typenames: SOUNDDETECTOR_PATTERNHEADER
 
 
 An AVStream minidriver's <i>AVStrMiniRemoveEvent</i> routine is called when a client requests to be removed from the notification queue for an event. This routine is optional.
-
-
-## -prototype
-
-
-````
-PFNKSREMOVEEVENT AVStrMiniRemoveEvent;
-
-VOID AVStrMiniRemoveEvent(
-  _In_ PFILE_OBJECT          FileObject,
-  _In_ struct _KSEVENT_ENTRY *EventEntry
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -78,7 +65,7 @@ Pointer to the file object for which to remove the event.
 
 ### -param *EventEntry [in]
 
-Pointer to an AVStream-generated <a href="..\ks\ns-ks-_ksevent_entry.md">KSEVENT_ENTRY</a> structure.
+Pointer to an AVStream-generated <a href="https://msdn.microsoft.com/library/windows/hardware/ff561853">KSEVENT_ENTRY</a> structure.
 
 
 ## -returns
@@ -94,7 +81,7 @@ Pointer to an AVStream-generated <a href="..\ks\ns-ks-_ksevent_entry.md">KSEVENT
 
 
 
-The minidriver specifies this routine's address in the <b>RemoveHandler</b> member of a <a href="..\ks\ns-ks-ksevent_item.md">KSEVENT_ITEM</a> structure. <a href="https://msdn.microsoft.com/7add2055-8d3f-432d-8aa1-44459ac197dd">Event Handling in AVStream</a> describes how the minidriver provides this structure to the class driver.
+The minidriver specifies this routine's address in the <b>RemoveHandler</b> member of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff561862">KSEVENT_ITEM</a> structure. <a href="https://msdn.microsoft.com/7add2055-8d3f-432d-8aa1-44459ac197dd">Event Handling in AVStream</a> describes how the minidriver provides this structure to the class driver.
 
 If the minidriver provides <i>AVStrMiniRemoveEvent</i> and either:
 
@@ -108,7 +95,7 @@ Specifies an <b>AddHandler</b> that calls <b>Ks</b><i>Xxx</i><b>AddEvent</b>
 
 </li>
 </ul>
-then the minidriver's <i>AVStrMiniRemoveEvent</i> must call <a href="..\wudfwdm\nf-wudfwdm-removeentrylist.md">RemoveEntryList</a> with a pointer to the LIST_ENTRY structure in the <a href="..\ks\ns-ks-_ksevent_entry.md">KSEVENT_ENTRY</a> structure:
+then the minidriver's <i>AVStrMiniRemoveEvent</i> must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff561029">RemoveEntryList</a> with a pointer to the LIST_ENTRY structure in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561853">KSEVENT_ENTRY</a> structure:
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -127,45 +114,43 @@ Otherwise, your <i>AVStrMiniRemoveEvent</i> should reverse the steps taken in th
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kspingenerateevents.md">KsPinGenerateEvents</a>
 
 
 
-<a href="..\ks\nf-ks-ksfilteraddevent.md">KsFilterAddEvent</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554260">AVStrMiniAddEvent</a>
 
 
 
-<a href="..\ks\nc-ks-pfnksaddevent.md">AVStrMiniAddEvent</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560990">KSAUTOMATION_TABLE</a>
 
 
 
-<a href="..\ks\ns-ks-_ksevent_entry.md">KSEVENT_ENTRY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561750">KSEVENTDATA</a>
 
 
 
-<a href="..\ks\nf-ks-kspinaddevent.md">KsPinAddEvent</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561853">KSEVENT_ENTRY</a>
 
 
 
-<a href="..\ks\ns-ks-ksautomation_table_.md">KSAUTOMATION_TABLE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561862">KSEVENT_ITEM</a>
 
 
 
-<a href="..\ks\nf-ks-ksfiltergenerateevents.md">KsFilterGenerateEvents</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562525">KsFilterAddEvent</a>
 
 
 
-<a href="..\ks\ns-ks-kseventdata.md">KSEVENTDATA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562541">KsFilterGenerateEvents</a>
 
 
 
-<a href="..\ks\ns-ks-ksevent_item.md">KSEVENT_ITEM</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563490">KsPinAddEvent</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563500">KsPinGenerateEvents</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20PFNKSREMOVEEVENT routine%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -38,7 +38,8 @@ api_location:
 -	kbdmou.h
 api_name:
 -	ClassServiceCallback
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MSiSCSI_SessionStatistics, *PMSiSCSI_SessionStatistics
 ---
@@ -50,22 +51,6 @@ req.typenames: MSiSCSI_SessionStatistics, *PMSiSCSI_SessionStatistics
 
 
 A function driver calls the class service callback in its ISR dispatch completion routine. The class service callback transfers input data from the input data buffer of a device to the class data queue. 
-
-
-## -prototype
-
-
-````
-PSERVICE_CALLBACK_ROUTINE ClassServiceCallback;
-
-VOID ClassServiceCallback(
-  _In_    PVOID NormalContext,
-  _In_    PVOID SystemArgument1,
-  _In_    PVOID SystemArgument2,
-  _Inout_ PVOID SystemArgument3
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -110,7 +95,7 @@ This callback function does not return a value.
 
 Here is the definition of the  keyboard class service callback routine.
 
-Kbdclass uses an <a href="..\kbdmou\ni-kbdmou-ioctl_internal_keyboard_connect.md">IOCTL_INTERNAL_KEYBOARD_CONNECT</a> request to connect its class service callback to a keyboard device. In this call, the driver sets  its implementation in a <a href="..\kbdmou\ns-kbdmou-_connect_data.md">CONNECT_DATA</a> structure.
+Kbdclass uses an <a href="https://msdn.microsoft.com/library/windows/hardware/ff541273">IOCTL_INTERNAL_KEYBOARD_CONNECT</a> request to connect its class service callback to a keyboard device. In this call, the driver sets  its implementation in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff538370">CONNECT_DATA</a> structure.
 
 <pre class="syntax" xml:space="preserve"><code>
 /*
@@ -140,7 +125,7 @@ VOID KeyboardClassServiceCallback(
 
 <b>Mouse Class Service Callback</b>
 
-Here is the <b>MouseClassServiceCallback</b> routine is the class service callback routine that is provided by Mouclass. The driver uses an <a href="..\kbdmou\ni-kbdmou-ioctl_internal_mouse_connect.md">IOCTL_INTERNAL_MOUSE_CONNECT</a> request to connect its class service callback to a mouse device. In this call, the driver sets  its implementation in a <a href="..\kbdmou\ns-kbdmou-_connect_data.md">CONNECT_DATA</a> structure.
+Here is the <b>MouseClassServiceCallback</b> routine is the class service callback routine that is provided by Mouclass. The driver uses an <a href="https://msdn.microsoft.com/library/windows/hardware/ff541294">IOCTL_INTERNAL_MOUSE_CONNECT</a> request to connect its class service callback to a mouse device. In this call, the driver sets  its implementation in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff538370">CONNECT_DATA</a> structure.
 
 
 <pre class="syntax" xml:space="preserve"><code>
@@ -177,11 +162,10 @@ VOID MouseClassServiceCallback(
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542403">MOUSE_INPUT_DATA</a>
 
 
 
-<a href="..\kbdmou\ns-kbdmou-_connect_data.md">CONNECT_DATA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538370">CONNECT_DATA</a>
 
 
 
@@ -189,9 +173,8 @@ VOID MouseClassServiceCallback(
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542403">MOUSE_INPUT_DATA</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [hid\hid]:%20PSERVICE_CALLBACK_ROUTINE callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

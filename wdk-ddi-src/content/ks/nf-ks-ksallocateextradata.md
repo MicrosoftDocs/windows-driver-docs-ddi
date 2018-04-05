@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsAllocateExtraData
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,18 +52,6 @@ req.typenames:
 
 
 The <b>KsAllocateExtraData</b> function is used with streaming IRPs to allocate a buffer to contain additional header data. A pointer to the allocated buffer is returned, and the buffer must eventually be freed by the caller. 
-
-
-## -syntax
-
-
-````
-NTSTATUS KsAllocateExtraData(
-  _Inout_ PIRP  Irp ,
-  _In_    ULONG ExtraSize ,
-  _Out_   PVOID *ExtraBuffer 
-);
-````
 
 
 ## -parameters
@@ -100,7 +89,8 @@ The <b>KsAllocateExtraData</b> function returns STATUS_SUCCESS if successful, or
 
 When <b>KsAllocateExtraData</b> completes successfully, a pointer to a block of memory is returned that contains both the stream data headers from the IRP, specified at <i>Irp</i>, and padding between each header of size specified in <i>ExtraSize</i>. An example of such a resultant buffer is shown below:
 
-<img alt="Diagram illustrating a resultant buffer" src="images/ksexdata.png"/>
+![Diagram illustrating a resultant buffer](images/ksexdata.png)
+
 When the extra buffer is no longer needed, the memory should be freed using <b>ExFreePool</b>.
 
 

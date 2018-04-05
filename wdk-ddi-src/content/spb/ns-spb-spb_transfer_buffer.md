@@ -38,7 +38,8 @@ api_location:
 -	Spb.h
 api_name:
 -	SPB_TRANSFER_BUFFER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SPB_TRANSFER_BUFFER, *PSPB_TRANSFER_BUFFER
 req.product: Windows 10 or later.
@@ -51,24 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>SPB_TRANSFER_BUFFER</b> structure describes the data buffer for an individual transfer in an <a href="https://msdn.microsoft.com/7415DB28-5E93-4F47-B169-7C652969D4C7">I/O transfer sequence</a>.
-
-
-## -syntax
-
-
-````
-typedef struct _SPB_TRANSFER_BUFFER {
-  SPB_TRANSFER_BUFFER_FORMAT Format;
-  union {
-    SPB_TRANSFER_BUFFER_LIST_ENTRY Simple;
-    struct {
-      PSPB_TRANSFER_BUFFER_LIST_ENTRY List;
-      ULONG                           ListCe;
-    } BufferList;
-    PMDL                           Mdl;
-  };
-} SPB_TRANSFER_BUFFER, *PSPB_TRANSFER_BUFFER;
-````
 
 
 ## -struct-fields
@@ -127,11 +110,10 @@ The <b>Mdl</b> member of this structure can be used only by clients of the SPB c
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406216">SPB_TRANSFER_BUFFER_FORMAT</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406223">SPB_TRANSFER_LIST_ENTRY</a>
 
 
 
@@ -139,9 +121,8 @@ The <b>Mdl</b> member of this structure can be used only by clients of the SPB c
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406223">SPB_TRANSFER_LIST_ENTRY</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [SPB\buses]:%20SPB_TRANSFER_BUFFER structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

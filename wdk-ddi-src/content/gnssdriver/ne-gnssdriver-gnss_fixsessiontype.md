@@ -38,7 +38,8 @@ api_location:
 -	gnssdriver.h
 api_name:
 -	GNSS_FIXSESSIONTYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GNSS_FIXSESSIONTYPE
 ---
@@ -49,20 +50,7 @@ req.typenames: GNSS_FIXSESSIONTYPE
 ## -description
 
 
-This enumeration indicates the type of location fix needed by the GNSS adapter when it issues an <a href="..\gnssdriver\ni-gnssdriver-ioctl_gnss_start_fixsession.md">IOCTL_GNSS_START_FIXSESSION</a> control code. This enumeration is set within the <a href="..\gnssdriver\ns-gnssdriver-gnss_fixsession_param.md">GNSS_FIXSESSION_PARAM</a> structure.
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  GNSS_FixSession_SingleShot          = 0x01,
-  GNSS_FixSession_DistanceTracking    = 0x02,
-  GNSS_FixSession_ContinuousTracking  = 0x03,
-  GNSS_FixSession_LKG                 = 0x04
-} GNSS_FIXSESSIONTYPE;
-````
+This enumeration indicates the type of location fix needed by the GNSS adapter when it issues an <a href="https://msdn.microsoft.com/library/windows/hardware/dn917750">IOCTL_GNSS_START_FIXSESSION</a> control code. This enumeration is set within the <a href="https://msdn.microsoft.com/library/windows/hardware/dn925152">GNSS_FIXSESSION_PARAM</a> structure.
 
 
 ## -enum-fields

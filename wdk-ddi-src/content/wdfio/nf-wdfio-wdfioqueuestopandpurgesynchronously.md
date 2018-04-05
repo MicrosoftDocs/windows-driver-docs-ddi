@@ -7,7 +7,7 @@ old-location: wdf\wdfioqueuestopandpurgesynchronously.htm
 old-project: wdf
 ms.assetid: 406044A5-D1C0-4771-8CDB-CCBC0B801281
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/26/2018
 ms.keywords: WdfIoQueueStopAndPurgeSynchronously, WdfIoQueueStopAndPurgeSynchronously method, kmdf.wdfioqueuestopandpurgesynchronously, wdf.wdfioqueuestopandpurgesynchronously, wdfio/WdfIoQueueStopAndPurgeSynchronously
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,8 @@ api_location:
 -	WUDFx02000.dll.dll
 api_name:
 -	WdfIoQueueStopAndPurgeSynchronously
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_IO_QUEUE_STATE
 req.product: Windows 10 or later.
@@ -58,16 +59,6 @@ req.product: Windows 10 or later.
 
    The <b>WdfIoQueueStopAndPurgeSynchronously</b> method 
   prevents an I/O queue from delivering new I/O requests and causes the framework to cancel existing unprocessed requests and driver-owned cancellable requests, but the queue receives and stores new requests.
-
-
-## -syntax
-
-
-````
-void WdfIoQueueStopAndPurgeSynchronously(
-  _In_ WDFQUEUE Queue
-);
-````
 
 
 ## -parameters
@@ -93,7 +84,7 @@ This method does not return a value.
 
 
 
-This method returns after all the unprocessed and driver-owned requests (not including requests added to the queue after this call is made) are completed or canceled. If new requests are inserted while <b>WdfIoQueueStopAndPurgeSynchronously</b> is in progress, these new requests are not delivered until driver calls <a href="..\wdfio\nf-wdfio-wdfioqueuestart.md">WdfIoQueueStart</a>.
+This method returns after all the unprocessed and driver-owned requests (not including requests added to the queue after this call is made) are completed or canceled. If new requests are inserted while <b>WdfIoQueueStopAndPurgeSynchronously</b> is in progress, these new requests are not delivered until driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff548478">WdfIoQueueStart</a>.
 
 A bug check occurs if the driver supplies an invalid object handle.
 
@@ -102,13 +93,11 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 ## -see-also
 
-<a href="..\wdfio\nf-wdfio-wdfioqueuestopandpurge.md">WdfIoQueueStopAndPurge</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439289">WdfIoQueueStopAndPurge</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfIoQueueStopAndPurgeSynchronously method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

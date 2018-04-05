@@ -7,7 +7,7 @@ old-location: display\miracast_status.htm
 old-project: display
 ms.assetid: 26949ef9-ddcd-496d-b7e2-7c971bfaf3fb
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: MIRACAST_STATUS, MIRACAST_STATUS enumeration [Display Devices], MIRACAST_STATUS_CRITICAL_ERROR, MIRACAST_STATUS_FORCE_UINT32, MIRACAST_STATUS_INSUFFICIENT_BANDWIDTH, MIRACAST_STATUS_MISSING_KEEPALIVE, MIRACAST_STATUS_SINK_DISOCNNECT_REQUEST, MIRACAST_STATUS_SINK_FAILED_STANDARD_MODE_CHANGE, display.miracast_status, netdispumdddi/MIRACAST_STATUS, netdispumdddi/MIRACAST_STATUS_CRITICAL_ERROR, netdispumdddi/MIRACAST_STATUS_FORCE_UINT32, netdispumdddi/MIRACAST_STATUS_INSUFFICIENT_BANDWIDTH, netdispumdddi/MIRACAST_STATUS_MISSING_KEEPALIVE, netdispumdddi/MIRACAST_STATUS_SINK_DISOCNNECT_REQUEST, netdispumdddi/MIRACAST_STATUS_SINK_FAILED_STANDARD_MODE_CHANGE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Netdispumdddi.h
 api_name:
 -	MIRACAST_STATUS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MIRACAST_STATUS
 ---
@@ -50,21 +51,6 @@ req.typenames: MIRACAST_STATUS
 
 
 Specifies status types  that the user-mode display driver uses to report Miracast connection status.
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  MIRACAST_STATUS_CRITICAL_ERROR                    = 0,
-  MIRACAST_STATUS_MISSING_KEEPALIVE                 = 1,
-  MIRACAST_STATUS_SINK_DISOCNNECT_REQUEST           = 2,
-  MIRACAST_STATUS_INSUFFICIENT_BANDWIDTH            = 3,
-  MIRACAST_STATUS_SINK_FAILED_STANDARD_MODE_CHANGE  = 4,
-  MIRACAST_STATUS_FORCE_UINT32                      = 0xffffffff
-} MIRACAST_STATUS;
-````
 
 
 ## -enum-fields

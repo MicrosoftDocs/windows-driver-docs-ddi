@@ -39,7 +39,8 @@ api_location:
 -	Ksproxy.dll
 api_name:
 -	IKsControl
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PIPE_STATE
 ---
@@ -50,7 +51,7 @@ req.typenames: PIPE_STATE
 ## -description
 
 
-The <b>IKsControl</b> interface provides user-mode methods that control a KS filter or KS pin. See the <a href="..\ksproxy\nn-ksproxy-ikscontrol.md">IKsControl</a> AVStream COM interface for information about the user-mode equivalent of this interface. 
+The <b>IKsControl</b> interface provides user-mode methods that control a KS filter or KS pin. See the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559766">IKsControl</a> AVStream COM interface for information about the user-mode equivalent of this interface. 
 
 
 ## -inheritance
@@ -109,13 +110,11 @@ The IID for this interface is IID_IKsControl.
 
 ## -see-also
 
-<a href="..\ksproxy\nn-ksproxy-ikscontrol.md">IKsControl (AVStream COM Interface)</a>
 
 
 
+<a href="https://msdn.microsoft.com/33eb0244-e0f3-4db7-b6df-2668e826fbd8">IKsControl (AVStream COM Interface)</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20IKsControl interface%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

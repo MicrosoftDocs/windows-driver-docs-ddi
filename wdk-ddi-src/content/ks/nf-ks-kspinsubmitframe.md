@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsPinSubmitFrame
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -50,21 +51,7 @@ req.typenames:
 ## -description
 
 
-If a pin has been placed into injection mode by a call to <a href="..\ks\nf-ks-kspinregisterframereturncallback.md">KsPinRegisterFrameReturnCallback</a>, the <b>KsPinSubmitFrame</b> function submits a frame directly into the transport circuit.
-
-
-## -syntax
-
-
-````
-NTSTATUS KsPinSubmitFrame(
-  _In_     PKSPIN           Pin,
-  _In_opt_ PVOID            Data,
-  _In_opt_ ULONG            Size,
-  _In_opt_ PKSSTREAM_HEADER StreamHeader,
-  _In_opt_ PVOID            Context
-);
-````
+If a pin has been placed into injection mode by a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff563522">KsPinRegisterFrameReturnCallback</a>, the <b>KsPinSubmitFrame</b> function submits a frame directly into the transport circuit.
 
 
 ## -parameters
@@ -74,7 +61,7 @@ NTSTATUS KsPinSubmitFrame(
 
 ### -param Pin [in]
 
-A pointer to the <a href="..\ks\ns-ks-_kspin.md">KSPIN</a> structure on which to submit a frame.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563483">KSPIN</a> structure on which to submit a frame.
 
 
 ### -param Data [in, optional]
@@ -89,12 +76,12 @@ TBD
 
 ### -param StreamHeader [in, optional]
 
-A pointer to a <a href="..\ks\ns-ks-ksstream_header.md">KSSTREAM_HEADER</a> structure. The stream header is copied if this parameter is supplied. Optional.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff567138">KSSTREAM_HEADER</a> structure. The stream header is copied if this parameter is supplied. Optional.
 
 
 ### -param Context [in, optional]
 
-A pointer to a caller-allocated buffer. AVStream provides this pointer to the frame return callback registered through a call to <a href="..\ks\nf-ks-kspinregisterframereturncallback.md">KsPinRegisterFrameReturnCallback</a>. Optional.
+A pointer to a caller-allocated buffer. AVStream provides this pointer to the frame return callback registered through a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff563522">KsPinRegisterFrameReturnCallback</a>. Optional.
 
 
 #### - Size [in, optional]
@@ -113,17 +100,15 @@ Returns STATUS_SUCCESS if frame submission is successful. Otherwise returns an a
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kspinregisterframereturncallback.md">KsPinRegisterFrameReturnCallback</a>
 
 
 
-<a href="..\ks\nf-ks-kspinsubmitframemdl.md">KsPinSubmitFrameMdl</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563522">KsPinRegisterFrameReturnCallback</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563530">KsPinSubmitFrameMdl</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsPinSubmitFrame function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

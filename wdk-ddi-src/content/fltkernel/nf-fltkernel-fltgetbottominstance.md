@@ -7,7 +7,7 @@ old-location: ifsk\fltgetbottominstance.htm
 old-project: ifsk
 ms.assetid: a5e7379a-6501-4245-92ce-0474baa33e2c
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FltApiRef_e_to_o_14e06d93-d5c8-4154-9184-d30beef6c126.xml, FltGetBottomInstance, FltGetBottomInstance function [Installable File System Drivers], fltkernel/FltGetBottomInstance, ifsk.fltgetbottominstance
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	fltmgr.sys
 api_name:
 -	FltGetBottomInstance
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
@@ -50,17 +51,6 @@ req.typenames: EXpsFontRestriction
 
 
 <b>FltGetBottomInstance</b> returns an opaque instance pointer for the minifilter driver instance, if there is one, that is attached at the bottom of the instance stack for a given volume. 
-
-
-## -syntax
-
-
-````
-NTSTATUS FltGetBottomInstance(
-  _In_  PFLT_VOLUME   Volume,
-  _Out_ PFLT_INSTANCE *Instance
-);
-````
 
 
 ## -parameters
@@ -116,44 +106,42 @@ Altitude is specified by an <i>altitude string</i>, which is a counted Unicode s
 
 The string "03333" represents a higher altitude than "100.123456". (Leading and trailing zeros are ignored.) In other words, an instance whose altitude is "03333" is farther from the base file system than an instance whose altitude is "100.123456". However, this comparison is only meaningful if both instances are attached to the same volume. 
 
-<b>FltGetBottomInstance</b> adds a rundown reference to the opaque instance pointer returned in *<i>Instance</i>. When this pointer is no longer needed, the caller must release it by calling <a href="..\fltkernel\nf-fltkernel-fltobjectdereference.md">FltObjectDereference</a>. Thus every successful call to <b>FltGetBottomInstance</b> must be matched by a subsequent call to <b>FltObjectDereference</b>. 
+<b>FltGetBottomInstance</b> adds a rundown reference to the opaque instance pointer returned in *<i>Instance</i>. When this pointer is no longer needed, the caller must release it by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff543378">FltObjectDereference</a>. Thus every successful call to <b>FltGetBottomInstance</b> must be matched by a subsequent call to <b>FltObjectDereference</b>. 
 
 
 
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltcompareinstancealtitudes.md">FltCompareInstanceAltitudes</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltattachvolumeataltitude.md">FltAttachVolumeAtAltitude</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541772">FltAttachVolume</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltobjectdereference.md">FltObjectDereference</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541775">FltAttachVolumeAtAltitude</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltgettopinstance.md">FltGetTopInstance</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541889">FltCompareInstanceAltitudes</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltgetupperinstance.md">FltGetUpperInstance</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543090">FltGetLowerInstance</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltattachvolume.md">FltAttachVolume</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543170">FltGetTopInstance</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltgetlowerinstance.md">FltGetLowerInstance</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543185">FltGetUpperInstance</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543378">FltObjectDereference</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltGetBottomInstance function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

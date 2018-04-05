@@ -7,7 +7,7 @@ old-location: ifsk\filter_message_header.htm
 old-project: ifsk
 ms.assetid: 294e5475-3aca-4758-87ed-07892a910b4f
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: "*PFILTER_MESSAGE_HEADER, FILTER_MESSAGE_HEADER, FILTER_MESSAGE_HEADER structure [Installable File System Drivers], FltSystemStructures_80f5d30b-5507-45c8-b399-6fa816ba9232.xml, PFILTER_MESSAGE_HEADER, PFILTER_MESSAGE_HEADER structure pointer [Installable File System Drivers], _FILTER_MESSAGE_HEADER, fltuserstructures/FILTER_MESSAGE_HEADER, fltuserstructures/PFILTER_MESSAGE_HEADER, ifsk.filter_message_header"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	fltuserstructures.h
 api_name:
 -	FILTER_MESSAGE_HEADER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FILTER_MESSAGE_HEADER, *PFILTER_MESSAGE_HEADER
 ---
@@ -50,17 +51,6 @@ req.typenames: FILTER_MESSAGE_HEADER, *PFILTER_MESSAGE_HEADER
 
 
 The FILTER_MESSAGE_HEADER structure contains message header information. 
-
-
-## -syntax
-
-
-````
-typedef struct _FILTER_MESSAGE_HEADER {
-  ULONG     ReplyLength;
-  ULONGLONG MessageId;
-} FILTER_MESSAGE_HEADER, *PFILTER_MESSAGE_HEADER;
-````
 
 
 ## -struct-fields
@@ -89,17 +79,15 @@ To receive messages from a kernel-mode minifilter, a user-mode application typic
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541628">FILTER_REPLY_HEADER</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540506">FilterGetMessage</a>
-
-
-
-<a href="..\fltuserstructures\ns-fltuserstructures-_filter_reply_header.md">FILTER_REPLY_HEADER</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FILTER_MESSAGE_HEADER structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

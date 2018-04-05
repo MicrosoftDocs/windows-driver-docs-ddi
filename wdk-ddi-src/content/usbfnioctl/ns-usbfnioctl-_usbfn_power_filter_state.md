@@ -7,7 +7,7 @@ old-location: buses\usbfn_power_filter_state.htm
 old-project: usbref
 ms.assetid: D5C7DC47-37F7-4727-AFB6-137F67786001
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PUSBFN_POWER_FILTER_STATE, PUSBFN_POWER_FILTER_STATE, PUSBFN_POWER_FILTER_STATE structure pointer [Buses], USBFN_POWER_FILTER_STATE, USBFN_POWER_FILTER_STATE structure [Buses], _USBFN_POWER_FILTER_STATE, buses.usbfn_power_filter_state, usbfnioctl/PUSBFN_POWER_FILTER_STATE, usbfnioctl/USBFN_POWER_FILTER_STATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	usbfnioctl.h
 api_name:
 -	USBFN_POWER_FILTER_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USBFN_POWER_FILTER_STATE, *PUSBFN_POWER_FILTER_STATE
 req.product: Windows 10 or later.
@@ -51,20 +52,6 @@ req.product: Windows 10 or later.
 
 
 Reserved. Do not use.
-
-
-## -syntax
-
-
-````
-typedef struct _USBFN_POWER_FILTER_STATE {
-  USBFN_DEVICE_STATE DeviceState;
-  union {
-    ULONG PState;
-    ULONG Reserved;
-  };
-} USBFN_POWER_FILTER_STATE, *PUSBFN_POWER_FILTER_STATE;
-````
 
 
 ## -struct-fields
@@ -89,17 +76,15 @@ Do not use.
 
 ## -see-also
 
-<a href="..\usbfnioctl\ni-usbfnioctl-ioctl_internal_usbfn_set_power_filter_exit_lpm.md">IOCTL_INTERNAL_USBFN_SET_POWER_FILTER_EXIT_LPM</a>
 
 
 
-<a href="..\usbfnioctl\ni-usbfnioctl-ioctl_internal_usbfn_set_power_filter_state.md">IOCTL_INTERNAL_USBFN_SET_POWER_FILTER_STATE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt187902">IOCTL_INTERNAL_USBFN_SET_POWER_FILTER_EXIT_LPM</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt187903">IOCTL_INTERNAL_USBFN_SET_POWER_FILTER_STATE</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USBFN_POWER_FILTER_STATE structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

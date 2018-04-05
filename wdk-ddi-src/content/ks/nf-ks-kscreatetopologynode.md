@@ -39,7 +39,8 @@ api_location:
 -	ks.dll
 api_name:
 -	KsCreateTopologyNode
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,19 +52,6 @@ req.typenames:
 
 
 The <b>KsCreateTopologyNode</b> function creates a handle to a topology node instance. The function can only be called at <b>PASSIVE_LEVEL</b>.
-
-
-## -syntax
-
-
-````
-NTSTATUS KsCreateTopologyNode(
-  _In_  HANDLE         ParentHandle,
-  _In_  PKSNODE_CREATE NodeCreate,
-  _In_  ACCESS_MASK    DesiredAccess,
-  _Out_ PHANDLE        NodeHandle
-);
-````
 
 
 ## -parameters
@@ -104,24 +92,22 @@ Returns <b>STATUS_SUCCESS</b>, or an error if unable to create a node.
 
 
 
-The <a href="..\ks\ns-ks-ksnode_create.md">KSNODE_CREATE</a> structure describes the set of information used to create the node handle.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/ff563471">KSNODE_CREATE</a> structure describes the set of information used to create the node handle.
 
 
 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
 
 
 
-<a href="..\ks\ns-ks-ksnode_create.md">KSNODE_CREATE</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563471">KSNODE_CREATE</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsCreateTopologyNode function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: display\d3dkmt_move_rect.htm
 old-project: display
 ms.assetid: 2d9e0a8e-9485-427d-bdd0-2d89dec76a77
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMT_MOVE_RECT, D3DKMT_MOVE_RECT structure [Display Devices], _D3DKMT_MOVE_RECT, d3dkmdt/D3DKMT_MOVE_RECT, display.d3dkmt_move_rect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3dkmdt.h
 api_name:
 -	D3DKMT_MOVE_RECT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_MOVE_RECT
 ---
@@ -50,17 +51,6 @@ req.typenames: D3DKMT_MOVE_RECT
 
 
 Provides information on a screen-to-screen move and a dirty rectangle copy operation.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_MOVE_RECT {
-  POINT SourcePoint;
-  RECT  DestRect;
-} D3DKMT_MOVE_RECT;
-````
 
 
 ## -struct-fields
@@ -80,17 +70,15 @@ A <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMT_MOVE_RECT structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

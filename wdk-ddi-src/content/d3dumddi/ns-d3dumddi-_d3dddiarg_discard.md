@@ -7,7 +7,7 @@ old-location: display\d3dddiarg_discard.htm
 old-project: display
 ms.assetid: 6efee74e-9e82-4631-8360-19061b0c015d
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDIARG_DISCARD, D3DDDIARG_DISCARD structure [Display Devices], _D3DDDIARG_DISCARD, d3dumddi/D3DDDIARG_DISCARD, display.d3dddiarg_discard
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3dumddi.h
 api_name:
 -	D3DDDIARG_DISCARD
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDIARG_DISCARD
 ---
@@ -50,20 +51,6 @@ req.typenames: D3DDDIARG_DISCARD
 
 
 Defines video display memory that can be discarded because the contents are no longer needed.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_DISCARD {
-  HANDLE     hResource;
-  UINT       FirstSubResource;
-  UINT       NumSubResources;
-  const RECT *pRects;
-  UINT       NumRects;
-} D3DDDIARG_DISCARD;
-````
 
 
 ## -struct-fields
@@ -88,7 +75,7 @@ The number of subresources to be discarded.
 
 ### -field pRects
 
-An array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structures for the rectangles in the resource view to discard. If <b>NULL</b>, the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_discard.md">Discard</a> function discards the entire surface.
+An array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structures for the rectangles in the resource view to discard. If <b>NULL</b>, the <a href="https://msdn.microsoft.com/F3EC7AAE-9DB8-43A1-B756-5F5C91F8372E">Discard</a> function discards the entire surface.
 
 
 ### -field NumRects
@@ -98,17 +85,15 @@ The number of rectangles in the array that the  <b>pRects</b> member specifies.
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_discard.md">Discard</a>
+
+
+
+<a href="https://msdn.microsoft.com/F3EC7AAE-9DB8-43A1-B756-5F5C91F8372E">Discard</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DDDIARG_DISCARD structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: ifsk\fltisdirectory.htm
 old-project: ifsk
 ms.assetid: a9343e09-0b7b-4ed8-9b30-63ee0b38d13d
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FltApiRef_e_to_o_cdcea60b-c299-4445-9c96-126210f2a43e.xml, FltIsDirectory, FltIsDirectory routine [Installable File System Drivers], fltkernel/FltIsDirectory, ifsk.fltisdirectory
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	fltmgr.sys
 api_name:
 -	FltIsDirectory
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
@@ -50,18 +51,6 @@ req.typenames: EXpsFontRestriction
 
 
 A minifilter driver calls the <b>FltIsDirectory</b> routine to determine whether a given file object represents a directory. 
-
-
-## -syntax
-
-
-````
-NTSTATUS FltIsDirectory(
-  _In_  PFILE_OBJECT  FileObject,
-  _In_  PFLT_INSTANCE Instance,
-  _Out_ PBOOLEAN      IsDirectory
-);
-````
 
 
 ## -parameters
@@ -102,7 +91,7 @@ Pointer to a caller-supplied Boolean variable. On return, this variable receives
 </dl>
 </td>
 <td width="60%">
-This error code is returned if the file system does not support stream contexts.  Note that starting with Windows Vista, <a href="..\fltkernel\nf-fltkernel-fltisdirectory.md">FltIsDirectory</a> will return directory information even for file systems that do not support stream contexts.  
+This error code is returned if the file system does not support stream contexts.  Note that starting with Windows Vista, <a href="https://msdn.microsoft.com/library/windows/hardware/ff543318">FltIsDirectory</a> will return directory information even for file systems that do not support stream contexts.  
 
 </td>
 </tr>
@@ -125,13 +114,11 @@ This error code is returned if the file system does not support stream contexts.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547285">FsRtlSupportsPerStreamContexts</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltIsDirectory routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

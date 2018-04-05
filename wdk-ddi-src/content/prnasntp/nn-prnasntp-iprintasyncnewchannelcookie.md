@@ -7,7 +7,7 @@ old-location: print\iprintasyncnewchannelcookie.htm
 old-project: print
 ms.assetid: 48C5F80F-64AB-415A-AAF5-8B06505B02BF
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: IPrintAsyncNewChannelCookie, IPrintAsyncNewChannelCookie interface [Print Devices], IPrintAsyncNewChannelCookie interface [Print Devices], described, print.iprintasyncnewchannelcookie, prnasntp/IPrintAsyncNewChannelCookie
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Prnasntp.h
 api_name:
 -	IPrintAsyncNewChannelCookie
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USERDATA, *PUSERDATA
 req.product: Windows 10 or later.

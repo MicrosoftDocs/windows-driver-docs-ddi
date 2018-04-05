@@ -7,7 +7,7 @@ old-location: print\splpromptuiinuserssession.htm
 old-project: print
 ms.assetid: 5e458e3b-cfe2-4d48-b386-34d2a6c1d15e
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: SplPromptUIInUsersSession, SplPromptUIInUsersSession function [Print Devices], print.splpromptuiinuserssession, spoolfnc_5b2379b2-c34b-4a98-b148-25a09f55be2b.xml, winsplp/SplPromptUIInUsersSession
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Spoolss.dll
 api_name:
 -	SplPromptUIInUsersSession
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NOTIFICATION_CONFIG_FLAGS
 req.product: Windows 10 or later.
@@ -51,19 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <code>SplPromptUIInUsersSession</code> function displays a standard message box in the session indicated by the printer handle and job ID. 
-
-
-## -syntax
-
-
-````
-BOOL SplPromptUIInUsersSession(
-  _In_  HANDLE        hPrinter,
-  _In_  DWORD         JobId,
-  _In_  PSHOWUIPARAMS pUIParams,
-  _Out_ DWORD         *pResponse
-);
-````
 
 
 ## -parameters
@@ -83,7 +71,7 @@ Specifies the print job.
 
 ### -param pUIParams [in]
 
-Pointer to a <a href="..\winsplp\ns-winsplp-showuiparams.md">SHOWUIPARAMS</a> structure that contains values that determine the appearance and behavior of the message box.
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff562645">SHOWUIPARAMS</a> structure that contains values that determine the appearance and behavior of the message box.
 
 
 ### -param pResponse [out]
@@ -113,17 +101,15 @@ If you plan to use this function in a driver intended to run under Windows 2000,
 
 ## -see-also
 
-<a href="..\winsplp\nf-winsplp-splissessionzero.md">SplIsSessionZero</a>
 
 
 
-<a href="..\winsplp\ns-winsplp-showuiparams.md">SHOWUIPARAMS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562645">SHOWUIPARAMS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562677">SplIsSessionZero</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20SplPromptUIInUsersSession function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

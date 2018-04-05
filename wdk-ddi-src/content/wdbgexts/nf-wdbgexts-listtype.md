@@ -7,7 +7,7 @@ old-location: debugger\listtype.htm
 old-project: debugger
 ms.assetid: 5c250438-8805-4f45-b08f-65ec87b3e61a
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/26/2018
 ms.keywords: ListType, ListType function [Windows Debugging], WdbgExts_Ref_aa50fe48-2a66-4d5e-aec7-d225966cfab2.xml, debugger.listtype, wdbgexts/ListType
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	wdbgexts.h
 api_name:
 -	ListType
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXT_TDOP
 req.product: Windows 10 or later.
@@ -51,21 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>ListType</b> function calls a specified callback function for every element in a linked list.
-
-
-## -syntax
-
-
-````
-__inline ULONG ListType(
-  _In_ LPCSTR                   Type,
-  _In_ ULONG64                  Address,
-  _In_ USHORT                   ListByFieldAddress,
-  _In_ LPCSTR                   NextPointer,
-  _In_ PVOID                    Context,
-  _In_ PSYM_DUMP_FIELD_CALLBACK CallbackRoutine
-);
-````
 
 
 ## -parameters
@@ -112,7 +98,7 @@ Specifies a pointer that is passed to the callback function specified by <i>Call
 
 ### -param CallbackRoutine [in]
 
-Specifies a function that is called for each entry in the linked list.  The parameters passed to the function are the <i>Context</i> pointer and a <a href="..\wdbgexts\ns-wdbgexts-_field_info.md">FIELD_INFO</a> structure; the address of the entry is found in the <b>address</b> member of this structure.
+Specifies a function that is called for each entry in the linked list.  The parameters passed to the function are the <i>Context</i> pointer and a <a href="https://msdn.microsoft.com/library/windows/hardware/ff545316">FIELD_INFO</a> structure; the address of the entry is found in the <b>address</b> member of this structure.
 
 
 ## -returns

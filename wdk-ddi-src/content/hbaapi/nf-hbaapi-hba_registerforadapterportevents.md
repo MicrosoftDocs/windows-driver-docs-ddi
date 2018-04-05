@@ -7,7 +7,7 @@ old-location: storage\hba_registerforadapterportevents.htm
 old-project: storage
 ms.assetid: 596bfba5-7025-4cdc-b1f9-c8df546f6dac
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: HBA_RegisterForAdapterPortEvents, HBA_RegisterForAdapterPortEvents routine [Storage Devices], fibreHBA_rtns_147e7408-58e4-47bc-8d3f-185c8ee68b83.xml, hbaapi/HBA_RegisterForAdapterPortEvents, storage.hba_registerforadapterportevents
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Hbaapi.dll
 api_name:
 -	HBA_RegisterForAdapterPortEvents
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: HBA_WWNTYPE
 ---
@@ -50,20 +51,6 @@ req.typenames: HBA_WWNTYPE
 
 
 The <b>HBA_RegisterForAdapterPortEvents</b> routine registers the indicated user callback routine to call when a port event occurs. 
-
-
-## -syntax
-
-
-````
-HBA_STATUS HBA_API HBA_RegisterForAdapterPortEvents(
-   HBA_PORT_CALLBACK  callback,
-   void               *userData,
-   HBA_HANDLE         handle,
-   HBA_WWN            PortWWN,
-   HBA_CALLBACKHANDLE *callbackHandle
-);
-````
 
 
 ## -parameters
@@ -100,12 +87,12 @@ TBD
 
 #### - callbackHandle
 
-Contains an opaque identifier that the user must pass to <a href="..\hbaapi\nf-hbaapi-hba_removecallback.md">HBA_RemoveCallback</a> to de-register the callback routine.
+Contains an opaque identifier that the user must pass to <a href="https://msdn.microsoft.com/library/windows/hardware/ff557175">HBA_RemoveCallback</a> to de-register the callback routine.
 
 
 #### - handle
 
-Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a> that identifies the HBA for which the adapter events are generated. 
+Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a> that identifies the HBA for which the adapter events are generated. 
 
 
 #### - userData
@@ -174,11 +161,10 @@ For a list of port events, see <a href="https://msdn.microsoft.com/library/windo
 
 ## -see-also
 
-<a href="..\hbaapi\nf-hbaapi-hba_removecallback.md">HBA_RemoveCallback</a>
 
 
 
-<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a>
 
 
 
@@ -186,13 +172,12 @@ For a list of port events, see <a href="https://msdn.microsoft.com/library/windo
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557175">HBA_RemoveCallback</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20HBA_RegisterForAdapterPortEvents routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

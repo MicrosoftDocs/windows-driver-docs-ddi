@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILDISPLAYINFO
 title: RILDISPLAYINFO
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rildisplayinfo_2.htm
+old-location: netvista\rildisplayinfo.htm
 old-project: netvista
-ms.assetid: f24d8122-ea07-477f-9cf9-4767cc0fbf86
+ms.assetid: 6c28e50c-a76a-4a7c-af29-6e58bcfe3f3b
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: "*LPRILDISPLAYINFO, RILDISPLAYINFO, RILDISPLAYINFO structure [Network Drivers Starting with Windows Vista], netvista.rildisplayinfo_2, rilapitypes/RILDISPLAYINFO"
+ms.date: 3/26/2018
+ms.keywords: "*LPRILDISPLAYINFO, RILDISPLAYINFO, RILDISPLAYINFO structure [Network Drivers Starting with Windows Vista], netvista.rildisplayinfo, ntddrilapitypes/RILDISPLAYINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,10 +35,11 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILDISPLAYINFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILDISPLAYINFO, *LPRILDISPLAYINFO
 req.product: Windows 10 or later.
@@ -50,23 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-
-## -syntax
-
-
-````
-typedef struct _RILDISPLAYINFO {
-  DWORD               cbSize;
-  DWORD               dwParams;
-  DWORD               dwExecutor;
-  RILDISPLAYINFOTYPE  dwType;
-  RILDISPLAYINFOTAG   dwTag;
-  DWORD               dwMessageSize;
-  BYTE [1]            pbMessage;
-} RILDISPLAYINFO, RILDISPLAYINFO;
-````
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -struct-fields

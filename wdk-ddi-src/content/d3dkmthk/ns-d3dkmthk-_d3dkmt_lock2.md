@@ -7,7 +7,7 @@ old-location: display\d3dkmt_lock2.htm
 old-project: display
 ms.assetid: AFDA9D5F-2590-4034-B2CF-07990F4553C8
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMT_LOCK2, D3DKMT_LOCK2 structure [Display Devices], _D3DKMT_LOCK2, d3dkmthk/D3DKMT_LOCK2, display.d3dkmt_lock2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmthk.h
 api_name:
 -	D3DKMT_LOCK2
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_LOCK2
 ---
@@ -50,19 +51,6 @@ req.typenames: D3DKMT_LOCK2
 
 
 <b>D3DKMT_LOCK2</b> describes parameters for locking an allocation.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_LOCK2 {
-  D3DKMT_HANDLE       hDevice;
-  D3DKMT_HANDLE       hAllocation;
-  D3DDDICB_LOCK2FLAGS Flags;
-  PVOID               pData;
-} D3DKMT_LOCK2;
-````
 
 
 ## -struct-fields
@@ -82,7 +70,7 @@ The handle to the allocation to lock.
 
 ### -field Flags
 
-A set of flags to pass to the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtlock2.md">Lock2</a> kernel function which will determine how the allocation is locked. See <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddicb_lock2flags.md">D3DDDICB_LOCK2FLAGS</a> for details.
+A set of flags to pass to the <a href="https://msdn.microsoft.com/033FF321-2617-4AAF-8445-10800411F0B5">Lock2</a> kernel function which will determine how the allocation is locked. See <a href="https://msdn.microsoft.com/library/windows/hardware/dn894602">D3DDDICB_LOCK2FLAGS</a> for details.
 
 
 ### -field pData

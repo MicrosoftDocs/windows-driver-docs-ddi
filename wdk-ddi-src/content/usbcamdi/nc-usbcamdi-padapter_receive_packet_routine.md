@@ -38,7 +38,8 @@ api_location:
 -	usbcamdi.h
 api_name:
 -	AdapterReceivePacket
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USB_BUS_INTERFACE_USBDI_V3, *PUSB_BUS_INTERFACE_USBDI_V3
 req.product: Windows 10 or later.
@@ -51,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 A camera minidriver's <i>AdapterReceivePacket</i> callback function processes adapter-based stream request blocks (SRBs) passed to it by the stream class driver.
-
-
-## -prototype
-
-
-````
-VOID AdapterReceivePacket(
-  _In_ PHW_STREAM_REQUEST_BLOCK Srb
-);
-````
 
 
 ## -parameters
@@ -93,13 +84,11 @@ A camera's minidriver provides USBCAMD with the address of its <i>AdapterReceive
 
 ## -see-also
 
-<a href="..\usbcamdi\nf-usbcamdi-usbcamd_driverentry.md">USBCAMD_DriverEntry</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568593">USBCAMD_DriverEntry</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20PADAPTER_RECEIVE_PACKET_ROUTINE callback function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

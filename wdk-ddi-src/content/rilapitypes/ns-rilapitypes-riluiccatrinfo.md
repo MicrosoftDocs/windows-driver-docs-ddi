@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILUICCATRINFO
 title: RILUICCATRINFO
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\riluiccatrinfo_2.htm
+old-location: netvista\riluiccatrinfo.htm
 old-project: netvista
-ms.assetid: d7deda33-b68a-4413-a7fc-2988e97906e1
+ms.assetid: 84ced2d3-43a9-42ef-b8fb-592dc960b01b
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: "*LPRILUICCATRINFO, RILUICCATRINFO, RILUICCATRINFO structure [Network Drivers Starting with Windows Vista], netvista.riluiccatrinfo_2, rilapitypes/RILUICCATRINFO"
+ms.date: 3/26/2018
+ms.keywords: "*LPRILUICCATRINFO, RILUICCATRINFO, RILUICCATRINFO structure [Network Drivers Starting with Windows Vista], netvista.riluiccatrinfo, ntddrilapitypes/RILUICCATRINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,10 +35,11 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILUICCATRINFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILUICCATRINFO, *LPRILUICCATRINFO
 req.product: Windows 10 or later.
@@ -50,18 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-
-## -syntax
-
-
-````
-typedef struct _RILUICCATRINFO {
-  DWORD                dwATRlength;
-  BYTE [MAXLENGTH_ATR] bATR;
-} RILUICCATRINFO, RILUICCATRINFO;
-````
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -struct-fields

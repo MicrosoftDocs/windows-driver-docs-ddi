@@ -7,7 +7,7 @@ old-location: display\miracast_chunk_id.htm
 old-project: display
 ms.assetid: 30140530-63B6-4FE4-98A4-C6950D7D4D9A
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: MIRACAST_CHUNK_ID, MIRACAST_CHUNK_ID union [Display Devices], display.miracast_chunk_id, netdispumdddi/MIRACAST_CHUNK_ID
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Netdispumdddi.h
 api_name:
 -	MIRACAST_CHUNK_ID
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MIRACAST_CHUNK_ID
 ---
@@ -50,20 +51,6 @@ req.typenames: MIRACAST_CHUNK_ID
 
 
 Stores info that identifies a wireless display (Miracast) encode chunk.
-
-
-## -syntax
-
-
-````
-typedef union {
-  struct {
-    UINT64 FrameNumber  :40;
-    UINT64 PartNumber  :24;
-  };
-  UINT64 Value;
-} MIRACAST_CHUNK_ID;
-````
 
 
 ## -struct-fields

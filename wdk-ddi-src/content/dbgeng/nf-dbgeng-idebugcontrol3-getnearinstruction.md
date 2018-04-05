@@ -7,7 +7,7 @@ old-location: debugger\getnearinstruction.htm
 old-project: debugger
 ms.assetid: 76387681-cac6-4c35-9095-28942a856c30
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/26/2018
 ms.keywords: GetNearInstruction method [Windows Debugging], GetNearInstruction method [Windows Debugging], IDebugControl interface, GetNearInstruction method [Windows Debugging], IDebugControl2 interface, GetNearInstruction method [Windows Debugging], IDebugControl3 interface, GetNearInstruction,IDebugControl3.GetNearInstruction, IDebugControl interface [Windows Debugging], GetNearInstruction method, IDebugControl2 interface [Windows Debugging], GetNearInstruction method, IDebugControl2::GetNearInstruction, IDebugControl3, IDebugControl3 interface [Windows Debugging], GetNearInstruction method, IDebugControl3::GetNearInstruction, IDebugControl::GetNearInstruction, IDebugControl_2c12e1fe-0f9b-45d6-9ff4-477bc42b2275.xml, dbgeng/IDebugControl2::GetNearInstruction, dbgeng/IDebugControl3::GetNearInstruction, dbgeng/IDebugControl::GetNearInstruction, debugger.getnearinstruction
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -40,7 +40,8 @@ api_name:
 -	IDebugControl.GetNearInstruction
 -	IDebugControl2.GetNearInstruction
 -	IDebugControl3.GetNearInstruction
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -52,18 +53,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetNearInstruction</b> method returns the location of a processor instruction relative to a given location.
-
-
-## -syntax
-
-
-````
-HRESULT GetNearInstruction(
-  [in]  ULONG64  Offset,
-  [in]  LONG     Delta,
-  [out] PULONG64 NearOffset
-);
-````
 
 
 ## -parameters

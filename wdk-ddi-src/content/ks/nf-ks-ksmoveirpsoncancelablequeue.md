@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsMoveIrpsOnCancelableQueue
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,22 +52,6 @@ req.typenames:
 
 
 The <b>KsMoveIrpsOnCancelableQueue</b> function moves the specified IRPs from the <i>SourceList</i> parameter to the <i>DestinationList </i>parameter depending on the value returned from the minidriver-defined <a href="https://msdn.microsoft.com/library/windows/hardware/ff567187">KStrIrpListCallback</a> function.
-
-
-## -syntax
-
-
-````
-NTSTATUS KsMoveIrpsOnCancelableQueue(
-  _Inout_  PLIST_ENTRY           SourceList,
-  _In_     PKSPIN_LOCK           SourceLock,
-  _Inout_  PLIST_ENTRY           DestinationList,
-  _In_opt_ PKSPIN_LOCK           DestinationLock,
-  _In_     KSLIST_ENTRY_LOCATION ListLocation,
-  _In_     PFNKSIRPLISTCALLBACK  ListCallback ,
-  _In_     PVOID                 Context 
-);
-````
 
 
 ## -parameters
@@ -133,13 +118,11 @@ The function can be called at DISPATCH_LEVEL or lower.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567187">KStrIrpListCallback</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsMoveIrpsOnCancelableQueue function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

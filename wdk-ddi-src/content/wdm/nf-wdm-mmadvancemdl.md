@@ -7,7 +7,7 @@ old-location: kernel\mmadvancemdl.htm
 old-project: kernel
 ms.assetid: 93e84c80-d671-4f04-8532-6c374e1ae72b
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/28/2018
 ms.keywords: MmAdvanceMdl, MmAdvanceMdl routine [Kernel-Mode Driver Architecture], k106_14f78a97-f29c-4996-b8aa-94a04b62f11c.xml, kernel.mmadvancemdl, wdm/MmAdvanceMdl
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	MmAdvanceMdl
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
@@ -51,17 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>MmAdvanceMdl</b> routine advances the beginning of an MDL's virtual memory range by the specified number of bytes.
-
-
-## -syntax
-
-
-````
-NTSTATUS MmAdvanceMdl(
-  _Inout_ PMDLX Mdl,
-  _In_    ULONG NumberOfBytes
-);
-````
 
 
 ## -parameters
@@ -136,7 +126,7 @@ The higher-level driver, in its own I/O handling, can only complete certain I/O 
 
 </li>
 <li>
-The higher-level driver already tried and failed to allocate a new MDL to transfer a data fragment from an incomplete I/O request. (If the driver succeeds in allocating a new MDL, it must use that MDL and <a href="..\wdm\nf-wdm-iobuildpartialmdl.md">IoBuildPartialMdl</a> to perform the I/O request instead of <b>MmAdvanceMdl</b>.)
+The higher-level driver already tried and failed to allocate a new MDL to transfer a data fragment from an incomplete I/O request. (If the driver succeeds in allocating a new MDL, it must use that MDL and <a href="https://msdn.microsoft.com/library/windows/hardware/ff548324">IoBuildPartialMdl</a> to perform the I/O request instead of <b>MmAdvanceMdl</b>.)
 
 </li>
 <li>
@@ -151,13 +141,11 @@ Drivers that do not satisfy these conditions must instead use the <b>IoBuildPart
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iobuildpartialmdl.md">IoBuildPartialMdl</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548324">IoBuildPartialMdl</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20MmAdvanceMdl routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

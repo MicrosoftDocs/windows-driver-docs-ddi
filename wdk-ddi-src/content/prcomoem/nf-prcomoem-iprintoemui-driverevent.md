@@ -7,7 +7,7 @@ old-location: print\iprintoemui_driverevent.htm
 old-project: print
 ms.assetid: aacddaea-3a6f-4018-92ac-fe4aa2ddabd3
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: DriverEvent method [Print Devices], DriverEvent method [Print Devices], IPrintOemUI interface, DriverEvent,IPrintOemUI.DriverEvent, IPrintOemUI, IPrintOemUI interface [Print Devices], DriverEvent method, IPrintOemUI::DriverEvent, prcomoem/IPrintOemUI::DriverEvent, print.iprintoemui_driverevent, print_unidrv-pscript_ui_797a9e90-b481-4bae-9bfd-e00e362e9a7a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: prcomoem.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	prcomoem.h
 api_name:
 -	IPrintOemUI.DriverEvent
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
@@ -50,20 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The printer driver's <a href="..\winddiui\nf-winddiui-drvdriverevent.md">DrvDriverEvent</a> function calls a user interface plug-in's <code>IPrintOemUI::DriverEvent</code> method for additional processing of printer driver events.
-
-
-## -syntax
-
-
-````
-HRESULT DriverEvent(
-   DWORD  dwDriverEvent,
-   DWORD  dwLevel,
-   LPBYTE pDriverInfo,
-   LPARAM lParam
-);
-````
+The printer driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff548551">DrvDriverEvent</a> function calls a user interface plug-in's <code>IPrintOemUI::DriverEvent</code> method for additional processing of printer driver events.
 
 
 ## -parameters
@@ -213,7 +201,7 @@ The method is not implemented.
 
 
 
-A user interface plug-in's <code>IPrintOemUI::DriverEvent</code> method performs the same types of operations as the <b>DrvDriverEvent</b> function that is exported by user-mode printer interface DLLs. For information about driver events and how they should be processed, see the description of the <a href="..\winddiui\nf-winddiui-drvdriverevent.md">DrvDriverEvent</a> function.
+A user interface plug-in's <code>IPrintOemUI::DriverEvent</code> method performs the same types of operations as the <b>DrvDriverEvent</b> function that is exported by user-mode printer interface DLLs. For information about driver events and how they should be processed, see the description of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548551">DrvDriverEvent</a> function.
 
 If you provide a user interface plug-in, the printer driver's <b>DrvDriverEvent</b> function calls the <code>IPrintOemUI::DriverEvent</code> method. The <b>DrvDriverEvent</b> function performs its own processing for the specified event, and then calls the <code>IPrintOemUI::DriverEvent</code> method to handle additional processing of the event.
 
@@ -226,17 +214,15 @@ For more information about creating and installing user interface plug-ins, see 
 
 ## -see-also
 
-<a href="..\winddiui\nf-winddiui-drvdriverevent.md">DrvDriverEvent</a>
 
 
 
-<a href="..\prcomoem\nn-prcomoem-iprintoemui.md">IPrintOemUI</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548551">DrvDriverEvent</a>
 
 
 
+<a href="https://msdn.microsoft.com/0ef635dd-9598-4356-94fc-7e5237df9bd9">IPrintOemUI</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintOemUI::DriverEvent method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

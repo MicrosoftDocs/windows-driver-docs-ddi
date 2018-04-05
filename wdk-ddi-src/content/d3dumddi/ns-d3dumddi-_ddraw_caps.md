@@ -7,7 +7,7 @@ old-location: display\ddraw_caps.htm
 old-project: display
 ms.assetid: 023e3780-bc88-446b-b235-8853807fb05a
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: D3D_other_Structs_5e02fa0c-95ae-4b62-aaa3-7530aec9aee5.xml, DDRAW_CAPS, DDRAW_CAPS structure [Display Devices], _DDRAW_CAPS, d3dumddi/DDRAW_CAPS, display.ddraw_caps
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	DDRAW_CAPS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DDRAW_CAPS
 ---
@@ -50,20 +51,6 @@ req.typenames: DDRAW_CAPS
 
 
 The DDRAW_CAPS structure describes general Microsoft DirectDraw capabilities that the user-mode display driver supports.
-
-
-## -syntax
-
-
-````
-typedef struct _DDRAW_CAPS {
-  UINT Caps;
-  UINT Caps2;
-  UINT CKeyCaps;
-  UINT FxCaps;
-  UINT MaxVideoPorts;
-} DDRAW_CAPS;
-````
 
 
 ## -struct-fields
@@ -250,21 +237,19 @@ Bit-block transfers (bitblts) that flip the contents of the source surface to th
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
 
 
 
-<a href="..\d3dumddi\ne-d3dumddi-_d3dddicaps_type.md">D3DDDICAPS_TYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543148">D3DDDIARG_GETCAPS</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getcaps.md">D3DDDIARG_GETCAPS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544132">D3DDDICAPS_TYPE</a>
 
 
 
+<a href="https://msdn.microsoft.com/cf6c61ce-7b53-46d0-b3ff-ed5b2b964c65">GetCaps</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DDRAW_CAPS structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

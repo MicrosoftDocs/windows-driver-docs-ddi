@@ -7,7 +7,7 @@ old-location: storage\storage_hw_firmware_download.htm
 old-project: storage
 ms.assetid: EFF4688D-E5B2-4F4C-837D-D536F9244AB6
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSTORAGE_HW_FIRMWARE_DOWNLOAD, PSTORAGE_HW_FIRMWARE_DOWNLOAD, PSTORAGE_HW_FIRMWARE_DOWNLOAD structure pointer [Storage Devices], STORAGE_HW_FIRMWARE_DOWNLOAD, STORAGE_HW_FIRMWARE_DOWNLOAD structure [Storage Devices], _STORAGE_HW_FIRMWARE_DOWNLOAD, ntddstor/PSTORAGE_HW_FIRMWARE_DOWNLOAD, ntddstor/STORAGE_HW_FIRMWARE_DOWNLOAD, storage.storage_hw_firmware_download"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddstor.h
 api_name:
 -	STORAGE_HW_FIRMWARE_DOWNLOAD
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STORAGE_HW_FIRMWARE_DOWNLOAD, *PSTORAGE_HW_FIRMWARE_DOWNLOAD
 ---
@@ -50,23 +51,6 @@ req.typenames: STORAGE_HW_FIRMWARE_DOWNLOAD, *PSTORAGE_HW_FIRMWARE_DOWNLOAD
 
 
 This structure contains a firmware image payload to be downloaded to the target.
-
-
-## -syntax
-
-
-````
-typedef struct _STORAGE_HW_FIRMWARE_DOWNLOAD {
-  ULONG     Version;
-  ULONG     Size;
-  ULONG     Flags;
-  UCHAR     Slot;
-  UCHAR     Reserved[3];
-  ULONGLONG Offset;
-  ULONGLONG BufferSize;
-  UCHAR     ImageBuffer[ANYSIZE_ARRAY];
-} STORAGE_HW_FIRMWARE_DOWNLOAD, *PSTORAGE_HW_FIRMWARE_DOWNLOAD;
-````
 
 
 ## -struct-fields
@@ -117,12 +101,12 @@ Reserved for future use.
 
 ### -field Offset
 
-The offset in this buffer of where the Image file begins. This should be aligned to ImagePayloadAlignment from <a href="..\ntddstor\ns-ntddstor-_storage_hw_firmware_info.md">STORAGE_HW_FIRMWARE_INFO</a>.
+The offset in this buffer of where the Image file begins. This should be aligned to ImagePayloadAlignment from <a href="https://msdn.microsoft.com/library/windows/hardware/dn931810">STORAGE_HW_FIRMWARE_INFO</a>.
 
 
 ### -field BufferSize
 
-The buffer size of the ImageBuffer. This should be a multiple of ImagePayloadAlignment from <a href="..\ntddstor\ns-ntddstor-_storage_hw_firmware_info.md">STORAGE_HW_FIRMWARE_INFO</a>.
+The buffer size of the ImageBuffer. This should be a multiple of ImagePayloadAlignment from <a href="https://msdn.microsoft.com/library/windows/hardware/dn931810">STORAGE_HW_FIRMWARE_INFO</a>.
 
 
 ### -field ImageBuffer

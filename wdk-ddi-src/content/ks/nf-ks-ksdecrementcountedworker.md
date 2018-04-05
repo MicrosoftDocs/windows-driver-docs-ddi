@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsDecrementCountedWorker
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -50,17 +51,7 @@ req.typenames:
 ## -description
 
 
-Decrements the current worker count of a worker previous created by <a href="..\ks\nf-ks-ksregistercountedworker.md">KsRegisterCountedWorker</a>. This should be called after each task within a worker has been completed. 
-
-
-## -syntax
-
-
-````
-ULONG KsDecrementCountedWorker(
-  _In_ PKSWORKER Worker
-);
-````
+Decrements the current worker count of a worker previous created by <a href="https://msdn.microsoft.com/library/windows/hardware/ff566770">KsRegisterCountedWorker</a>. This should be called after each task within a worker has been completed. 
 
 
 ## -parameters
@@ -86,24 +77,22 @@ Returns the current counter. A count of zero implies that the task list has been
 
 
 
-<b>KsDecrementCountedWorker</b> should be called after each task within a worker has been completed. A corresponding call to <a href="..\ks\nf-ks-ksincrementcountedworker.md">KsIncrementCountedWorker</a> would have previously incremented the count. <b>KsDecrementCountedWorker</b> may be called at DISPATCH_LEVEL.
+<b>KsDecrementCountedWorker</b> should be called after each task within a worker has been completed. A corresponding call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff562678">KsIncrementCountedWorker</a> would have previously incremented the count. <b>KsDecrementCountedWorker</b> may be called at DISPATCH_LEVEL.
 
 
 
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksincrementcountedworker.md">KsIncrementCountedWorker</a>
 
 
 
-<a href="..\ks\nf-ks-ksregistercountedworker.md">KsRegisterCountedWorker</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562678">KsIncrementCountedWorker</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566770">KsRegisterCountedWorker</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsDecrementCountedWorker function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

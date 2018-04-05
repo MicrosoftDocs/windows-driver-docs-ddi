@@ -38,7 +38,8 @@ api_location:
 -	gnssdriver.h
 api_name:
 -	GNSS_GEOFENCE_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GNSS_GEOFENCE_STATE
 ---
@@ -50,18 +51,6 @@ req.typenames: GNSS_GEOFENCE_STATE
 
 
 GNSS_GEOFENCE_STATE enumerates the various states of a single geofence.
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  GNSS_GeofenceState_Unknown  = 0x00,
-  GNSS_GeofenceState_Entered  = 0x01,
-  GNSS_GeofenceState_Exited   = 0x02
-} GNSS_GEOFENCE_STATE;
-````
 
 
 ## -enum-fields
@@ -101,7 +90,8 @@ The location platform only sends an exit trigger to apps when the previous known
 
 The geofence state transition and the associated alerts are shown below. For simplicity, the hysteresis and geofence boundary conditions are implied.
 
-<img alt="GNSS Geofence state diagram" src="images/geofence_entry_exit_DRAFT.png"/>
+![GNSS geofence state diagram](images/geofence-entry-exit.png)
+
 The key aspects of this state diagram are:
 
 <ul>

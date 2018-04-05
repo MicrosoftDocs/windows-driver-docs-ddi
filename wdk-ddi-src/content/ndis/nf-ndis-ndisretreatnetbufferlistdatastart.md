@@ -7,7 +7,7 @@ old-location: netvista\ndisretreatnetbufferlistdatastart.htm
 old-project: netvista
 ms.assetid: 76a1294f-d098-4751-9b59-923993379c6e
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: NdisRetreatNetBufferListDataStart, NdisRetreatNetBufferListDataStart function [Network Drivers Starting with Windows Vista], ndis/NdisRetreatNetBufferListDataStart, ndis_netbuf_functions_ref_9a59d1c8-f5b1-490b-b091-84c709b82605.xml, netvista.ndisretreatnetbufferlistdatastart
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	ndis.dll
 api_name:
 -	NdisRetreatNetBufferListDataStart
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
@@ -53,22 +54,8 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 Call the 
   <b>NdisRetreatNetBufferListDataStart</b> function to increase the 
   <i>used data space</i> in all the 
-  <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structures in a 
-  <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure.
-
-
-## -syntax
-
-
-````
-NDIS_STATUS NdisRetreatNetBufferListDataStart(
-  _In_     PNET_BUFFER_LIST                NetBufferList,
-  _In_     ULONG                           DataOffsetDelta,
-  _In_     ULONG                           DataBackFill,
-  _In_opt_ NET_BUFFER_ALLOCATE_MDL_HANDLER AllocateMdlHandler,
-  _In_opt_ NET_BUFFER_FREE_MDL_HANDLER     FreeMdlHandler
-);
-````
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structures in a 
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure.
 
 
 ## -parameters
@@ -98,7 +85,7 @@ If NDIS must allocate memory, this parameter specifies the amount of data space 
 ### -param AllocateMdlHandler [in, optional]
 
 An optional entry point for an 
-     <a href="..\ndis\nc-ndis-net_buffer_allocate_mdl_handler.md">NetAllocateMdl</a> function. If the caller
+     <a href="https://msdn.microsoft.com/14247f48-7ef8-481c-aa1e-e657475812fa">NetAllocateMdl</a> function. If the caller
      specifies an entry point for the 
      <i>NetAllocateMdl</i> function, NDIS calls 
      <i>NetAllocateMdl</i> to allocate an MDL and memory.
@@ -107,7 +94,7 @@ An optional entry point for an
 ### -param FreeMdlHandler [in, optional]
 
 An optional entry point for an 
-     <a href="..\ndis\nc-ndis-net_buffer_free_mdl_handler.md">NetFreeMdl</a> function. If the caller
+     <a href="https://msdn.microsoft.com/a92b2de9-231d-4dcc-8220-857063a35eb1">NetFreeMdl</a> function. If the caller
      specifies an entry point for the 
      <i>NetFreeMdl</i> function, NDIS calls 
      <i>NetFreeMdl</i> to free an MDL and memory.
@@ -171,20 +158,20 @@ An optional entry point for an
 
 Calling 
     <b>NdisRetreatNetBufferListDataStart</b> is the equivalent of calling the 
-    <a href="..\ndis\nf-ndis-ndisretreatnetbufferdatastart.md">
+    <a href="https://msdn.microsoft.com/4b58a1dc-8a5a-464b-a2a2-deb952febe25">
     NdisRetreatNetBufferDataStart</a> function for every 
-    <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structure on the 
-    <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure. 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structure on the 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure. 
     <b>NdisRetreatNetBufferListDataStart</b> attempts to satisfy the request by reducing the value of the 
     <b>DataOffset</b> member in every NET_BUFFER structure. If there is not enough 
     <i>unused data space</i> available, this function allocates a new buffer and MDL, and then chains the new
     MDL to the beginning of the MDL chain on the NET_BUFFER structure.
 
 Call the 
-    <a href="..\ndis\nf-ndis-ndisadvancenetbufferlistdatastart.md">
+    <a href="https://msdn.microsoft.com/819ac05b-15c2-4a24-ae6b-8a47991a4e7a">
     NdisAdvanceNetBufferListDataStart</a> function to release data space that was claimed in a previous 
     <b>NdisRetreatNetBufferListDataStart</b> call. Alternatively, the driver can call the 
-    <a href="..\ndis\nf-ndis-ndisadvancenetbufferdatastart.md">
+    <a href="https://msdn.microsoft.com/49b69282-137d-4bb5-92f5-4d27cedbb6d4">
     NdisAdvanceNetBufferDataStart</a> function for each NET_BUFFER structure on the NET_BUFFER_LIST
     structure. Calling 
     <b>NdisAdvanceNetBufferListDataStart</b> is more efficient.
@@ -194,40 +181,38 @@ Call the
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisadvancenetbufferlistdatastart.md">
-   NdisAdvanceNetBufferListDataStart</a>
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a>
 
 
 
-<a href="..\ndis\nc-ndis-net_buffer_free_mdl_handler.md">NetFreeMdl</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a>
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
-
-
-
-<a href="..\ndis\nc-ndis-net_buffer_allocate_mdl_handler.md">NetAllocateMdl</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisretreatnetbufferdatastart.md">
-   NdisRetreatNetBufferDataStart</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisadvancenetbufferdatastart.md">
+<a href="https://msdn.microsoft.com/49b69282-137d-4bb5-92f5-4d27cedbb6d4">
    NdisAdvanceNetBufferDataStart</a>
 
 
 
+<a href="https://msdn.microsoft.com/819ac05b-15c2-4a24-ae6b-8a47991a4e7a">
+   NdisAdvanceNetBufferListDataStart</a>
+
+
+
+<a href="https://msdn.microsoft.com/4b58a1dc-8a5a-464b-a2a2-deb952febe25">
+   NdisRetreatNetBufferDataStart</a>
+
+
+
+<a href="https://msdn.microsoft.com/14247f48-7ef8-481c-aa1e-e657475812fa">NetAllocateMdl</a>
+
+
+
+<a href="https://msdn.microsoft.com/a92b2de9-231d-4dcc-8220-857063a35eb1">NetFreeMdl</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisRetreatNetBufferListDataStart function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

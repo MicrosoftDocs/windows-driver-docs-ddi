@@ -38,7 +38,8 @@ api_location:
 -	Wpprecorder.h
 api_name:
 -	RECORDER_LOG_CREATE_PARAMS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RECORDER_LOG_CREATE_PARAMS, *PRECORDER_LOG_CREATE_PARAMS
 req.product: Windows 10 or later.
@@ -50,24 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>RECORDER_LOG_CREATE_PARAMS</b> structure is an input parameter to the <a href="..\wpprecorder\nf-wpprecorder-imp_wpprecorderlogcreate.md">WppRecorderLogCreate</a> method. 
-
-
-## -syntax
-
-
-````
-typedef struct _RECORDER_LOG_CREATE_PARAMS {
-  ULONG     Size;
-  ULONG     LogTag;
-  ULONG     TotalBufferSize;
-  ULONG     ErrorPartitionSize;
-  ULONG_PTR LogIdentifierAppendValue;
-  BOOLEAN   LogIdentifierAppendValueSet;
-  ULONG     LogIdentifierSize;
-            LogIdentifier[RECORDER_LOG_IDENTIFIER_MAX_CHARS];
-} RECORDER_LOG_CREATE_PARAMS, *PRECORDER_LOG_CREATE_PARAMS;
-````
+The <b>RECORDER_LOG_CREATE_PARAMS</b> structure is an input parameter to the <a href="https://msdn.microsoft.com/library/windows/hardware/dn914615">WppRecorderLogCreate</a> method. 
 
 
 ## -struct-fields
@@ -117,13 +101,11 @@ Identifier to print when debug messages are merged. Lives at end of structure so
 
 ## -see-also
 
-<a href="..\wpprecorder\nf-wpprecorder-recorder_log_create_params_init.md">RECORDER_LOG_CREATE_PARAMS_INIT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn914609">RECORDER_LOG_CREATE_PARAMS_INIT</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [devtest\devtest]:%20RECORDER_LOG_CREATE_PARAMS structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

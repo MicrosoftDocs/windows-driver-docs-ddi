@@ -7,7 +7,7 @@ old-location: storage\storportquerysystemtime.htm
 old-project: storage
 ms.assetid: 20677d16-136c-47d7-a19b-21731433298e
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: StorPortQuerySystemTime, StorPortQuerySystemTime routine [Storage Devices], storage.storportquerysystemtime, storport/StorPortQuerySystemTime, storprt_fcad0e23-f796-4cd9-935c-6db56a63d899.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Storport.dll
 api_name:
 -	StorPortQuerySystemTime
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STOR_SPINLOCK
 req.product: Windows 10 or later.
@@ -52,16 +53,6 @@ req.product: Windows 10 or later.
 
 
 The <b>StoriPortQuerySystemTime</b> routine obtains the current system time.
-
-
-## -syntax
-
-
-````
-STORPORT_API VOID StorPortQuerySystemTime(
-  _Out_ PLARGE_INTEGER CurrentTime
-);
-````
 
 
 ## -parameters
@@ -94,13 +85,11 @@ The system time returned in <i>CurrentTime</i> is the number of 100-nanosecond i
 
 ## -see-also
 
-<a href="..\srb\nf-srb-scsiportquerysystemtime.md">ScsiPortQuerySystemTime</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564708">ScsiPortQuerySystemTime</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20StorPortQuerySystemTime routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

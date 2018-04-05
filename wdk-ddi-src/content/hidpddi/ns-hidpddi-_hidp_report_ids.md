@@ -38,7 +38,8 @@ api_location:
 -	Hidpddi.h
 api_name:
 -	HIDP_REPORT_IDS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: HIDP_REPORT_IDS, *PHIDP_REPORT_IDS
 ---
@@ -50,20 +51,6 @@ req.typenames: HIDP_REPORT_IDS, *PHIDP_REPORT_IDS
 
 
 Contains report ID information for a top-level collection. 
-
-
-## -syntax
-
-
-````
-typedef struct _HIDP_REPORT_IDS {
-  UCHAR               ReportID;
-  UCHAR               CollectionNumber;
-  USHORT              InputLength;
-  USHORT              OutputLength;
-  USHORT              FeatureLength;
-} HIDP_REPORT_IDS, *PHIDP_REPORT_IDS;
-````
 
 
 ## -struct-fields
@@ -78,7 +65,7 @@ The report ID of the top-level collection.
 
 ### -field CollectionNumber
 
-The index of the collection in the array of  <a href="..\hidpddi\ns-hidpddi-_hidp_collection_desc.md">HIDP_COLLECTION_DESC</a> structure.
+The index of the collection in the array of  <a href="https://msdn.microsoft.com/library/windows/hardware/mt740161">HIDP_COLLECTION_DESC</a> structure.
 
 
 ### -field InputLength
@@ -98,13 +85,11 @@ The length of a feature report of this report ID.
 
 ## -see-also
 
-<a href="..\hidpddi\nf-hidpddi-hidp_getcollectiondescription.md">HidP_GetCollectionDescription</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt740164">HidP_GetCollectionDescription</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [hid\hid]:%20HIDP_REPORT_IDS structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

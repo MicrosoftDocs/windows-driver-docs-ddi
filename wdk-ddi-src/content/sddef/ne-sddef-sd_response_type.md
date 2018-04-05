@@ -38,7 +38,8 @@ api_location:
 -	sddef.h
 api_name:
 -	SD_RESPONSE_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SD_RESPONSE_TYPE
 req.product: Windows 10 or later.
@@ -51,25 +52,6 @@ req.product: Windows 10 or later.
 
 
 The SD_RESPONSE_TYPE enumeration lists the types of response data that a Secure Digital (SD) card returns in response to a command.
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  SDRT_UNSPECIFIED  = 0,
-  SDRT_NONE         = 1,
-  SDRT_1            = 2,
-  SDRT_1B           = 3,
-  SDRT_2            = 4,
-  SDRT_3            = 5,
-  SDRT_4            = 6,
-  SDRT_5            = 7,
-  SDRT_5B           = 8,
-  SDRT_6            = 9
-} SD_RESPONSE_TYPE;
-````
 
 
 ## -enum-fields
@@ -129,13 +111,11 @@ Indicates a response of type R6. For an explanation of the R6 response, see the 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/7c49c394-d0b3-4594-a623-0a13825bdcec">SDCMD_DESCRIPTOR</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [SD\buses]:%20SD_RESPONSE_TYPE enumeration%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: netvista\ndissystemactiveprocessorcount.htm
 old-project: netvista
 ms.assetid: 7ddb54eb-9f20-4cb9-8488-5f2806d23430
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: NdisSystemActiveProcessorCount, NdisSystemActiveProcessorCount function [Network Drivers Starting with Windows Vista], ndis/NdisSystemActiveProcessorCount, ndis_sysinfo_ref_f69290a6-03f9-4fe8-bc02-6f58a650fa00.xml, netvista.ndissystemactiveprocessorcount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	ndis.dll
 api_name:
 -	NdisSystemActiveProcessorCount
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
@@ -53,16 +54,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 The 
   <b>NdisSystemActiveProcessorCount</b> function returns the number of currently active processors in the
   local computer.
-
-
-## -syntax
-
-
-````
-ULONG NdisSystemActiveProcessorCount(
-   PKAFFINITY ActiveProcessors
-);
-````
 
 
 ## -parameters
@@ -96,11 +87,11 @@ An NDIS driver might call the
     <b>NdisSystemActiveProcessorCount</b> function during initialization before it allocates resources.
 
 <b>NdisSystemActiveProcessorCount</b> is similar to the 
-    <a href="..\wdm\nf-wdm-kequeryactiveprocessorcount.md">
+    <a href="https://msdn.microsoft.com/4369ad33-ba4a-45db-9a41-e77d6c55da53">
     KeQueryActiveProcessorCount</a> function.
 
 <div class="alert"><b>Note</b>  NDIS drivers should not use 
-    <a href="..\ndis\nf-ndis-ndissystemprocessorcount.md">NdisSystemProcessorCount</a> to
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff564579">NdisSystemProcessorCount</a> to
     retrieve the number of currently active processors,</div>
 <div> </div>
 <div class="alert"><b>Note</b>  <b>NdisSystemActiveProcessorCount</b> might not map processors to the bits in the returned 
@@ -124,7 +115,6 @@ The Windows Server 2008 Enterprise operating system and the Windows Server 2008 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kequeryactiveprocessorcount.md">KeQueryActiveProcessorCount</a>
 
 
 
@@ -132,17 +122,16 @@ The Windows Server 2008 Enterprise operating system and the Windows Server 2008 
 
 
 
-<a href="..\ndis\nf-ndis-ndisgroupactiveprocessorcount.md">NdisGroupActiveProcessorCount</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552985">KeQueryActiveProcessorCount</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndissystemprocessorcount.md">NdisSystemProcessorCount</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562685">NdisGroupActiveProcessorCount</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564579">NdisSystemProcessorCount</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisSystemActiveProcessorCount function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

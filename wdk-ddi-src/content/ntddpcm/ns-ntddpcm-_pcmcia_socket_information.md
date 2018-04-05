@@ -38,7 +38,8 @@ api_location:
 -	ntddpcm.h
 api_name:
 -	PCMCIA_SOCKET_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PCMCIA_SOCKET_INFORMATION, *PPCMCIA_SOCKET_INFORMATION
 ---
@@ -50,25 +51,6 @@ req.typenames: PCMCIA_SOCKET_INFORMATION, *PPCMCIA_SOCKET_INFORMATION
 
 
 The PCMCIA_SOCKET_INFORMATION structure is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537275">IOCTL_SOCKET_INFORMATION</a> request to retrieve socket configuration and state data. 
-
-
-## -syntax
-
-
-````
-typedef struct _PCMCIA_SOCKET_INFORMATION {
-  USHORT Socket;
-  USHORT TupleCrc;
-  UCHAR  Manufacturer[MANUFACTURER_NAME_LENGTH];
-  UCHAR  Identifier[DEVICE_IDENTIFIER_LENGTH];
-  UCHAR  DriverName[DRIVER_NAME_LENGTH];
-  UCHAR  DeviceFunctionId;
-  UCHAR  Reserved;
-  UCHAR  CardInSocket;
-  UCHAR  CardEnabled;
-  ULONG  ControllerType;
-} PCMCIA_SOCKET_INFORMATION, *PPCMCIA_SOCKET_INFORMATION;
-````
 
 
 ## -struct-fields
@@ -266,13 +248,11 @@ Indicates the controller type. Some common controller types are defined in the <
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537275">IOCTL_SOCKET_INFORMATION</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [PCMCIA\buses]:%20PCMCIA_SOCKET_INFORMATION structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

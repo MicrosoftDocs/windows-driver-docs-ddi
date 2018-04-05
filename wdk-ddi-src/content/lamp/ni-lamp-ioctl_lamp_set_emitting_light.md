@@ -38,18 +38,14 @@ api_location:
 -	lamp.h
 api_name:
 -	IOCTL_LAMP_SET_EMITTING_LIGHT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: LAMP_MODE
 ---
 
 # IOCTL_LAMP_SET_EMITTING_LIGHT IOCTL
 
-
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

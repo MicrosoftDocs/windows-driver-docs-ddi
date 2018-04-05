@@ -38,7 +38,8 @@ api_location:
 -	ntdd8042.h
 api_name:
 -	I8042IsrWritePort
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MSFC_VirtualFibrePortAttributes, *PMSFC_VirtualFibrePortAttributes
 ---
@@ -50,20 +51,6 @@ req.typenames: MSFC_VirtualFibrePortAttributes, *PMSFC_VirtualFibrePortAttribute
 
 
 The PI8042_ISR_WRITE_PORT-typed callback routine writes data to an i8042 port. I8042prt provides this callback.
-
-
-## -prototype
-
-
-````
-PI8042_ISR_WRITE_PORT I8042IsrWritePort;
-
-VOID I8042IsrWritePort(
-  _In_ PVOID Context,
-  _In_ UCHAR Value
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -94,11 +81,11 @@ None
 
 
 
-The PI8042_ISR_WRITE_PORT callback should only be called by a <a href="..\ntdd8042\nc-ntdd8042-pi8042_keyboard_isr.md">PI8042_KEYBOARD_ISR</a> callback or a <a href="..\ntdd8042\nc-ntdd8042-pi8042_mouse_isr.md">PI8042_MOUSE_ISR</a> callback. I8042prt calls a vendor-supplied ISR callback for a device in the corresponding I8042prt device ISR.
+The PI8042_ISR_WRITE_PORT callback should only be called by a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543248">PI8042_KEYBOARD_ISR</a> callback or a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543252">PI8042_MOUSE_ISR</a> callback. I8042prt calls a vendor-supplied ISR callback for a device in the corresponding I8042prt device ISR.
 
-I8042prt specifies the keyboard write port callback in the <b>IsrWritePort</b> member of the <a href="..\ntdd8042\ns-ntdd8042-_internal_i8042_hook_keyboard.md">INTERNAL_I8042_HOOK_KEYBOARD</a> structure that I8042prt uses with an <a href="..\ntdd8042\ni-ntdd8042-ioctl_internal_i8042_hook_keyboard.md">IOCTL_INTERNAL_I8042_HOOK_KEYBOARD</a> request.
+I8042prt specifies the keyboard write port callback in the <b>IsrWritePort</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541039">INTERNAL_I8042_HOOK_KEYBOARD</a> structure that I8042prt uses with an <a href="https://msdn.microsoft.com/library/windows/hardware/ff541238">IOCTL_INTERNAL_I8042_HOOK_KEYBOARD</a> request.
 
-I8042prt specifies the mouse write port callback in the <b>IsrWritePort</b> member of the <a href="..\ntdd8042\ns-ntdd8042-_internal_i8042_hook_mouse.md">INTERNAL_I8042_HOOK_MOUSE</a> structure that I8042prt uses with an <a href="..\ntdd8042\ni-ntdd8042-ioctl_internal_i8042_hook_keyboard.md">IOCTL_INTERNAL_I8042_HOOK_KEYBOARD</a> request.
+I8042prt specifies the mouse write port callback in the <b>IsrWritePort</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541044">INTERNAL_I8042_HOOK_MOUSE</a> structure that I8042prt uses with an <a href="https://msdn.microsoft.com/library/windows/hardware/ff541238">IOCTL_INTERNAL_I8042_HOOK_KEYBOARD</a> request.
 
 The PI8042_ISR_WRITE_PORT callback runs in kernel mode at the same IRQL as the I8042prt ISR for the device.
 
@@ -107,21 +94,19 @@ The PI8042_ISR_WRITE_PORT callback runs in kernel mode at the same IRQL as the I
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541044">INTERNAL_I8042_HOOK_MOUSE</a>
+
+
+
 <b>IOCTL_INTERNAL_I8042_HOOK_KEYBOARD</b>
 
 
 
-<a href="..\ntdd8042\ns-ntdd8042-_internal_i8042_hook_mouse.md">INTERNAL_I8042_HOOK_MOUSE</a>
-
-
-
-<a href="..\ntdd8042\ni-ntdd8042-ioctl_internal_i8042_hook_mouse.md">IOCTL_INTERNAL_I8042_HOOK_MOUSE</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541242">IOCTL_INTERNAL_I8042_HOOK_MOUSE</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [hid\hid]:%20PI8042_ISR_WRITE_PORT callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

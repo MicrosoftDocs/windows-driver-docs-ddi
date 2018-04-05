@@ -7,7 +7,7 @@ old-location: ifsk\srv_open_ecp_context.htm
 old-project: ifsk
 ms.assetid: 6860f512-758d-4a75-88e4-17310b3e6349
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSRV_OPEN_ECP_CONTEXT, ECP_Structures_1a5afc2a-f4a5-4f86-ac30-2e206778acc0.xml, PSRV_OPEN_ECP_CONTEXT, PSRV_OPEN_ECP_CONTEXT structure pointer [Installable File System Drivers], SRV_OPEN_ECP_CONTEXT, SRV_OPEN_ECP_CONTEXT structure [Installable File System Drivers], _SRV_OPEN_ECP_CONTEXT, ifsk.srv_open_ecp_context, ntifs/PSRV_OPEN_ECP_CONTEXT, ntifs/SRV_OPEN_ECP_CONTEXT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntifs.h
 api_name:
 -	SRV_OPEN_ECP_CONTEXT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SRV_OPEN_ECP_CONTEXT, *PSRV_OPEN_ECP_CONTEXT
 ---
@@ -52,20 +53,6 @@ req.typenames: SRV_OPEN_ECP_CONTEXT, *PSRV_OPEN_ECP_CONTEXT
 The SRV_OPEN_ECP_CONTEXT structure is used by a server to conditionally open files in response to client requests. 
 
 
-## -syntax
-
-
-````
-typedef struct _SRV_OPEN_ECP_CONTEXT {
-  PUNICODE_STRING       ShareName;
-  PSOCKADDR_STORAGE_NFS SocketAddress;
-  BOOLEAN               OplockBlockState;
-  BOOLEAN               OplockAppState;
-  BOOLEAN               OplockFinalState;
-} SRV_OPEN_ECP_CONTEXT, *PSRV_OPEN_ECP_CONTEXT;
-````
-
-
 ## -struct-fields
 
 
@@ -73,7 +60,7 @@ typedef struct _SRV_OPEN_ECP_CONTEXT {
 
 ### -field ShareName
 
-A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that supplies the share name for the server that contains the files to be open. 
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure that supplies the share name for the server that contains the files to be open. 
 
 
 ### -field SocketAddress
@@ -123,7 +110,6 @@ The oplock state values (<b>OplockBlockState</b>, <b>OplockAppState</b>, and <b>
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 
@@ -131,9 +117,8 @@ The oplock state values (<b>OplockBlockState</b>, <b>OplockAppState</b>, and <b>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20SRV_OPEN_ECP_CONTEXT structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

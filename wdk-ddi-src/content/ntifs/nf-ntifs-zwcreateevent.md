@@ -7,7 +7,7 @@ old-location: kernel\zwcreateevent.htm
 old-project: kernel
 ms.assetid: c11265fb-df9d-405e-ac9f-e868ab392e7b
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/28/2018
 ms.keywords: NtCreateEvent, ZwCreateEvent, ZwCreateEvent routine [Kernel-Mode Driver Architecture], k111_53554a99-3112-4f70-8c00-9d632a74d15b.xml, kernel.zwcreateevent, ntifs/NtCreateEvent, ntifs/ZwCreateEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	ZwCreateEvent
 -	NtCreateEvent
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -51,20 +52,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>ZwCreateEvent</b> routine creates an event object, sets the initial state of the event to the specified value, and opens a handle to the object with the specified desired access.
-
-
-## -syntax
-
-
-````
-NTSTATUS ZwCreateEvent(
-  _Out_    PHANDLE            EventHandle,
-  _In_     ACCESS_MASK        DesiredAccess,
-  _In_opt_ POBJECT_ATTRIBUTES ObjectAttributes,
-  _In_     EVENT_TYPE         EventType,
-  _In_     BOOLEAN            InitialState
-);
-````
 
 
 ## -parameters
@@ -104,7 +91,7 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCES
 
 ### -param ObjectAttributes [in, optional]
 
-A pointer to the object attributes structure supplied by the caller to be used for the specified object. These attributes would include the <b>ObjectName</b> and the <a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>, for example. This parameter is initialized by calling the <a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a> macro.
+A pointer to the object attributes structure supplied by the caller to be used for the specified object. These attributes would include the <b>ObjectName</b> and the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a>, for example. This parameter is initialized by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547804">InitializeObjectAttributes</a> macro.
 
 
 ### -param EventType [in]
@@ -168,7 +155,7 @@ The specified <i>EventType</i> parameter was invalid. The allowable <i>EventType
 </dl>
 </td>
 <td width="60%">
-The <i>ObjectAttributes</i> parameter contained an <b>ObjectName</b> in the <a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a> structure that was invalid.
+The <i>ObjectAttributes</i> parameter contained an <b>ObjectName</b> in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557749">OBJECT_ATTRIBUTES</a> structure that was invalid.
 
 </td>
 </tr>
@@ -224,11 +211,11 @@ Create the notification event with <b>ZwCreateEvent</b> with the <i>EventType</i
 
 </li>
 <li>
-Wait for the event to be signaled by calling <a href="..\ntifs\nf-ntifs-zwwaitforsingleobject.md">ZwWaitForSingleObject</a> with the <i>EventHandle</i> returned by <b>ZwCreateEvent</b>. More than one thread of execution can wait for a given notification event to be signaled. To poll instead of stall, specify a <i>Timeout</i> of zero to <b>ZwWaitForSingleObject</b>.
+Wait for the event to be signaled by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff567120">ZwWaitForSingleObject</a> with the <i>EventHandle</i> returned by <b>ZwCreateEvent</b>. More than one thread of execution can wait for a given notification event to be signaled. To poll instead of stall, specify a <i>Timeout</i> of zero to <b>ZwWaitForSingleObject</b>.
 
 </li>
 <li>
-Close the handle to the notification event with <a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a> when access to the event is no longer needed.
+Close the handle to the notification event with <a href="https://msdn.microsoft.com/library/windows/hardware/ff566417">ZwClose</a> when access to the event is no longer needed.
 
 </li>
 </ol>
@@ -246,7 +233,7 @@ As pathname relative to the directory represented by the handle in the <b>RootDi
 
 </li>
 </ol>
-To release the event, a driver calls <a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a> with the event handle.
+To release the event, a driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff566417">ZwClose</a> with the event handle.
 
 For more information about events, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff544323">Event Objects</a>.
 
@@ -259,15 +246,6 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-keresetevent.md">KeResetEvent</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-zwwaitforsingleobject.md">ZwWaitForSingleObject</a>
-
-
-
-<a href="..\wdm\nf-wdm-iocreatesynchronizationevent.md">IoCreateSynchronizationEvent</a>
 
 
 
@@ -275,15 +253,31 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547804">InitializeObjectAttributes</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-zwsetevent.md">ZwSetEvent</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549039">IoCreateNotificationEvent</a>
 
 
 
-<a href="..\wdm\nf-wdm-keclearevent.md">KeClearEvent</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549045">IoCreateSynchronizationEvent</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551980">KeClearEvent</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553176">KeResetEvent</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553253">KeSetEvent</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553350">KeWaitForSingleObject</a>
 
 
 
@@ -291,25 +285,16 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566417">ZwClose</a>
 
 
 
-<a href="..\wdm\nf-wdm-iocreatenotificationevent.md">IoCreateNotificationEvent</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567092">ZwSetEvent</a>
 
 
 
-<a href="..\wdm\nf-wdm-kesetevent.md">KeSetEvent</a>
-
-
-
-<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567120">ZwWaitForSingleObject</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ZwCreateEvent routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

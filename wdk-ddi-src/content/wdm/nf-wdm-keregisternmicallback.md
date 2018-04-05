@@ -7,7 +7,7 @@ old-location: kernel\keregisternmicallback.htm
 old-project: kernel
 ms.assetid: 46e666a6-be4c-40fb-b9e1-00ced9fb4d05
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/28/2018
 ms.keywords: KeRegisterNmiCallback, KeRegisterNmiCallback routine [Kernel-Mode Driver Architecture], k105_4abdb9bc-8548-42f3-8305-c116ce15e0a4.xml, kernel.keregisternmicallback, wdm/KeRegisterNmiCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	KeRegisterNmiCallback
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
@@ -51,17 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>KeRegisterNmiCallback</b> routine registers a routine to be called whenever a nonmaskable interrupt (NMI) occurs.
-
-
-## -syntax
-
-
-````
-PVOID KeRegisterNmiCallback(
-  _In_     PNMI_CALLBACK CallbackRoutine,
-  _In_opt_ PVOID         Context
-);
-````
 
 
 ## -parameters
@@ -97,7 +87,7 @@ Specifies the value to be passed as the <i>Context</i> parameter of <i>XxxNmiCal
 
 
 
-On success, <b>KeRegisterNmiCallback</b> returns an opaque pointer that the caller passes to <a href="..\wdm\nf-wdm-kederegisternmicallback.md">KeDeregisterNmiCallback</a> to deregister the callback. The routine returns <b>NULL</b> if it is unable to register the callback.
+On success, <b>KeRegisterNmiCallback</b> returns an opaque pointer that the caller passes to <a href="https://msdn.microsoft.com/library/windows/hardware/ff552008">KeDeregisterNmiCallback</a> to deregister the callback. The routine returns <b>NULL</b> if it is unable to register the callback.
 
 
 
@@ -115,13 +105,11 @@ The callback routine must be able to be run at IRQL = HIGH_LEVEL.
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kederegisternmicallback.md">KeDeregisterNmiCallback</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552008">KeDeregisterNmiCallback</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KeRegisterNmiCallback routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

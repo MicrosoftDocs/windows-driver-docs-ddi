@@ -7,7 +7,7 @@ old-location: netvista\ndisallocatespinlock.htm
 old-project: netvista
 ms.assetid: e6199eab-a1e8-428f-8a3c-4828d3899cec
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: NdisAllocateSpinLock, NdisAllocateSpinLock function [Network Drivers Starting with Windows Vista], ndis/NdisAllocateSpinLock, ndis_spin_lock_ref_f42dc321-9805-443e-a7b3-315ab403aeba.xml, netvista.ndisallocatespinlock
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	ndis.dll
 api_name:
 -	NdisAllocateSpinLock
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
@@ -53,16 +54,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 The 
   <b>NdisAllocateSpinLock</b> function initializes a variable of type NDIS_SPIN_LOCK, used to synchronize
   access to resources shared among non-ISR driver functions.
-
-
-## -syntax
-
-
-````
-VOID NdisAllocateSpinLock(
-  _Out_ PNDIS_SPIN_LOCK SpinLock
-);
-````
 
 
 ## -parameters
@@ -89,8 +80,8 @@ None
 
 
 Before a driver calls 
-    <a href="..\ndis\nf-ndis-ndisacquirespinlock.md">NdisAcquireSpinLock</a>, 
-    <a href="..\ndis\nf-ndis-ndisdpracquirespinlock.md">NdisDprAcquireSpinLock</a>, or any of
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff560699">NdisAcquireSpinLock</a>, 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561749">NdisDprAcquireSpinLock</a>, or any of
     the 
     <b>NdisInterlocked<i>Xxx</i></b> functions, it must call 
     <b>NdisAllocateSpinLock</b> to initialize the spin lock passed as a required parameter to these 
@@ -101,7 +92,7 @@ After calling
     <b>NdisAllocateSpinLock</b>, the driver can call 
     <b>NdisAcquireSpinLock</b> to obtain exclusive use of the resource(s) the spin lock protects. When
     resource access is complete, the driver calls 
-    <a href="..\ndis\nf-ndis-ndisreleasespinlock.md">NdisReleaseSpinLock</a> so that other
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff564524">NdisReleaseSpinLock</a> so that other
     driver functions can access the resource(s) protected by that spin lock.
 
 As a general rule, to improve performance a driver should use different locks to protect different
@@ -112,8 +103,8 @@ Each spin lock that a driver allocates protects a discrete set of shared resourc
     access by driver functions that run at IRQL &lt;= DISPATCH_LEVEL. For example, a driver that maintains an
     internal queue of packets might initialize one spin lock to protect its queue and another to protect a
     set of state variables that several driver functions, not including the 
-    <a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInterrupt</a> or 
-    <a href="..\ndis\nc-ndis-miniport_disable_interrupt.md">
+    <a href="https://msdn.microsoft.com/810503b9-75cd-4b38-ab1f-de240968ded6">MiniportInterrupt</a> or 
+    <a href="https://msdn.microsoft.com/6016ab15-56c6-4430-8883-d4cdcdf6116f">
     MiniportDisableInterruptEx</a> function, access while the driver is processing packets.
 
 <b>NdisAcquireSpinLock</b> raises the IRQL to DISPATCH_LEVEL and stores the old IRQL in the spin lock.
@@ -157,24 +148,24 @@ A driver should
 
 A miniport driver cannot use a spin lock to protect resources that its non-ISR functions share with
     its 
-    <a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInterrupt</a> or 
-    <a href="..\ndis\nc-ndis-miniport_disable_interrupt.md">
+    <a href="https://msdn.microsoft.com/810503b9-75cd-4b38-ab1f-de240968ded6">MiniportInterrupt</a> or 
+    <a href="https://msdn.microsoft.com/6016ab15-56c6-4430-8883-d4cdcdf6116f">
     MiniportDisableInterruptEx</a> function. To access resources shared with a 
     <i>MiniportInterrupt</i> or 
     <i>MiniportDisableInterruptEx</i> function, a miniport driver must call 
-    <a href="..\ndis\nf-ndis-ndismsynchronizewithinterruptex.md">
+    <a href="https://msdn.microsoft.com/5dca9258-a3ae-43f4-a5aa-d591165d72ed">
     NdisMSynchronizeWithInterruptEx</a> to have its 
-    <a href="..\ndis\nc-ndis-miniport_synchronize_interrupt.md">
+    <a href="https://msdn.microsoft.com/aac1ff91-76aa-46a0-8e8a-85b9f8c3323c">
     MiniportSynchronizeInterrupt</a> function access those resources at DIRQL.
 
 When a driver no longer requires resource protection, for example, when a NIC is being removed and the
     driver is releasing the resources it allocated for that NIC, the driver calls 
-    <a href="..\ndis\nf-ndis-ndisfreespinlock.md">NdisFreeSpinLock</a>.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff562602">NdisFreeSpinLock</a>.
 
 Freeing a spin lock and releasing a spin lock are potentially confusing. 
     <b>NdisFreeSpinLock</b> clears the memory at 
     <i>SpinLock</i> so it no longer represents a spin lock. Releasing an acquired spin lock with 
-    <a href="..\ndis\nf-ndis-ndisreleasespinlock.md">NdisReleaseSpinLock</a> simply allows
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff564524">NdisReleaseSpinLock</a> simply allows
     another thread of execution to acquire that spin lock.
 
 For more information about acquiring and releasing NDIS spin locks, see 
@@ -190,21 +181,6 @@ Callers of
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisinterlockedinserttaillist.md">
-   NdisInterlockedInsertTailList</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisfreespinlock.md">NdisFreeSpinLock</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisinterlockedinsertheadlist.md">
-   NdisInterlockedInsertHeadList</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisreleasespinlock.md">NdisReleaseSpinLock</a>
 
 
 
@@ -213,55 +189,68 @@ Callers of
 
 
 
-<a href="..\ndis\nf-ndis-ndisdprreleasespinlock.md">NdisDprReleaseSpinLock</a>
+<a href="https://msdn.microsoft.com/6016ab15-56c6-4430-8883-d4cdcdf6116f">MiniportDisableInterruptEx</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisdpracquirespinlock.md">NdisDprAcquireSpinLock</a>
+<a href="https://msdn.microsoft.com/b8d452b4-bef3-4991-87cf-fac15bedfde4">MiniportHaltEx</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInterrupt</a>
+<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismsynchronizewithinterruptex.md">
-   NdisMSynchronizeWithInterruptEx</a>
+<a href="https://msdn.microsoft.com/810503b9-75cd-4b38-ab1f-de240968ded6">MiniportInterrupt</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisacquirespinlock.md">NdisAcquireSpinLock</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560699">NdisAcquireSpinLock</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisinterlockedremoveheadlist.md">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561749">NdisDprAcquireSpinLock</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561753">NdisDprReleaseSpinLock</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562602">NdisFreeSpinLock</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562750">NdisInterlockedAddUlong</a>
+
+
+
+<a href="https://msdn.microsoft.com/c6221ce9-682c-453b-b036-f4219c9540da">
+   NdisInterlockedInsertHeadList</a>
+
+
+
+<a href="https://msdn.microsoft.com/cc455bb1-3574-4dfb-9462-f2c67632132b">
+   NdisInterlockedInsertTailList</a>
+
+
+
+<a href="https://msdn.microsoft.com/85cbc158-7132-4666-8161-a78251a62e4d">
    NdisInterlockedRemoveHeadList</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
+<a href="https://msdn.microsoft.com/5dca9258-a3ae-43f4-a5aa-d591165d72ed">
+   NdisMSynchronizeWithInterruptEx</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisinterlockedaddulong.md">NdisInterlockedAddUlong</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564524">NdisReleaseSpinLock</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_disable_interrupt.md">MiniportDisableInterruptEx</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-
-
-<a href="..\ndis\nc-ndis-ndis_timer_function.md">NetTimerCallback</a>
-
-
-
+<a href="https://msdn.microsoft.com/76e59376-58a4-4e35-bac4-ec5938c88cd7">NetTimerCallback</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisAllocateSpinLock function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: wdf\oninterruptworkitem.htm
 old-project: wdf
 ms.assetid: 10677BC2-2A98-41C8-BAE9-1FA3689ACD93
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/26/2018
 ms.keywords: OnInterruptWorkItem, OnInterruptWorkItem callback function, WUDF_INTERRUPT_WORKITEM, umdf.oninterruptworkitem, wdf.oninterruptworkitem, wudfinterrupt/OnInterruptWorkItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Wudfinterrupt.h
 api_name:
 -	OnInterruptWorkItem
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS, *PWUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS
 req.product: Windows 10 or later.
@@ -53,21 +54,7 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 
-   A driver's <i>OnInterruptWorkItem</i> event callback function processes interrupt information that the driver's <a href="..\wudfinterrupt\nc-wudfinterrupt-wudf_interrupt_isr.md">OnInterruptIsr</a> callback function has stored.
-
-
-## -prototype
-
-
-````
-WUDF_INTERRUPT_WORKITEM OnInterruptWorkItem;
-
-void OnInterruptWorkItem(
-  _In_ IWDFInterrupt *Interrupt,
-  _In_ IWDFObject    *AssociatedObject
-)
-{ ... }
-````
+   A driver's <i>OnInterruptWorkItem</i> event callback function processes interrupt information that the driver's <a href="https://msdn.microsoft.com/D4B8182A-67A5-4D64-A95C-5EB6A1C1E4F0">OnInterruptIsr</a> callback function has stored.
 
 
 ## -parameters
@@ -98,9 +85,9 @@ This callback function does not return a value.
 
 
 
-To register an <i>OnInterruptWorkItem</i> callback function, your driver must place the callback function's address in a <a href="..\wudfinterrupt\ns-wudfinterrupt-_wudf_interrupt_config.md">WUDF_INTERRUPT_CONFIG</a> structure before calling <a href="https://msdn.microsoft.com/EE68BED8-5FDC-4590-8E95-B228F1DFD32D">IWDFDevice3::CreateInterrupt</a>.
+To register an <i>OnInterruptWorkItem</i> callback function, your driver must place the callback function's address in a <a href="https://msdn.microsoft.com/library/windows/hardware/hh464084">WUDF_INTERRUPT_CONFIG</a> structure before calling <a href="https://msdn.microsoft.com/EE68BED8-5FDC-4590-8E95-B228F1DFD32D">IWDFDevice3::CreateInterrupt</a>.
 
-After stopping and acknowledging the interrupt, the driver should return quickly from its <a href="..\wudfinterrupt\nc-wudfinterrupt-wudf_interrupt_isr.md">OnInterruptIsr</a> callback, postponing any additional processing to a  <i>OnInterruptWorkItem</i> callback.
+After stopping and acknowledging the interrupt, the driver should return quickly from its <a href="https://msdn.microsoft.com/D4B8182A-67A5-4D64-A95C-5EB6A1C1E4F0">OnInterruptIsr</a> callback, postponing any additional processing to a  <i>OnInterruptWorkItem</i> callback.
 
 
 For more information about handling interrupts in UMDF drivers, see <a href="https://msdn.microsoft.com/25D526CF-7C37-4D10-B099-352933F92F98">Accessing Hardware and Handling Interrupts</a>.
@@ -167,17 +154,15 @@ Then, implement your callback function as follows:
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/EE68BED8-5FDC-4590-8E95-B228F1DFD32D">IWDFDevice3::CreateInterrupt</a>
 
 
 
-<a href="..\wudfinterrupt\ns-wudfinterrupt-_wudf_interrupt_config.md">WUDF_INTERRUPT_CONFIG</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh464084">WUDF_INTERRUPT_CONFIG</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WUDF_INTERRUPT_WORKITEM callback function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

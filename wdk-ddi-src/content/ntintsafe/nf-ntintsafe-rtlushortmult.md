@@ -7,7 +7,7 @@ old-location: kernel\rtlushortmult.htm
 old-project: kernel
 ms.assetid: 1727AD96-FC0B-4B52-92C5-5E7502433021
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/28/2018
 ms.keywords: RtlUShortMult, RtlUShortMult function [Kernel-Mode Driver Architecture], kernel.rtlushortmult, ntintsafe/RtlUShortMult
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	Ntintsafe.h
 api_name:
 -	RtlUShortMult
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 ---
@@ -50,18 +51,6 @@ req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 
 
 Multiplies one value of type <b>USHORT</b> by another.
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlUShortMult(
-  _In_  USHORT usMultiplicand,
-  _In_  USHORT usMultiplier,
-  _Out_ USHORT *pusResult
-);
-````
 
 
 ## -parameters

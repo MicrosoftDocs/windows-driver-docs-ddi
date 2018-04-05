@@ -7,7 +7,7 @@ old-location: print\ifixedpage_setprintticket.htm
 old-project: print
 ms.assetid: d899211a-e98d-45f6-9574-8b5f51658edf
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: IFixedPage, IFixedPage interface [Print Devices], SetPrintTicket method, IFixedPage::SetPrintTicket, SetPrintTicket method [Print Devices], SetPrintTicket method [Print Devices], IFixedPage interface, SetPrintTicket,IFixedPage.SetPrintTicket, filterpipeline/IFixedPage::SetPrintTicket, filterpipeline_9cc3fcaf-d066-4468-b181-6d509fce403c.xml, print.ifixedpage_setprintticket
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: filterpipeline.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	filterpipeline.h
 api_name:
 -	IFixedPage.SetPrintTicket
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
@@ -50,16 +51,6 @@ req.typenames: EXpsFontRestriction
 
 
 The <b>SetPrintTicket</b> method associates a print ticket with the page.
-
-
-## -syntax
-
-
-````
-HRESULT SetPrintTicket(
-  [in] IPartPrintTicket *pPrintTicket
-);
-````
 
 
 ## -parameters

@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILIMSFAILURE
 title: RILIMSFAILURE
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilimsfailure_2.htm
+old-location: netvista\rilimsfailure.htm
 old-project: netvista
-ms.assetid: f9c25e60-8f9e-491f-898a-c79e8790193e
+ms.assetid: 8be10470-3761-4120-8987-00d6fcc9a989
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: "*LPRILIMSFAILURE, RILIMSFAILURE, RILIMSFAILURE structure [Network Drivers Starting with Windows Vista], netvista.rilimsfailure_2, rilapitypes/RILIMSFAILURE"
+ms.date: 3/26/2018
+ms.keywords: "*LPRILIMSFAILURE, RILIMSFAILURE, RILIMSFAILURE structure [Network Drivers Starting with Windows Vista], netvista.rilimsfailure, ntddrilapitypes/RILIMSFAILURE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,10 +35,11 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILIMSFAILURE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILIMSFAILURE, *LPRILIMSFAILURE
 req.product: Windows 10 or later.
@@ -50,23 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-
-## -syntax
-
-
-````
-typedef struct _RILIMSFAILURE {
-  DWORD                                       cbSize;
-  DWORD                                       dwParams;
-  DWORD                                       dwExecutor;
-  RILIMSFAILUREMESSAGETYPE                    dwMessageType;
-  DWORD                                       dwMessageSubType;
-  DWORD                                       dwErrorCode;
-  WCHAR [MAXLENGTH_SIP_FAILURE_REASON_STRING] wszErrorString;
-} RILIMSFAILURE, RILIMSFAILURE;
-````
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -struct-fields

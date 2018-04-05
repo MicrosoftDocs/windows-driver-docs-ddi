@@ -7,7 +7,7 @@ old-location: netvista\ndisinterlockedinsertheadlist.htm
 old-project: netvista
 ms.assetid: c6221ce9-682c-453b-b036-f4219c9540da
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: NdisInterlockedInsertHeadList, NdisInterlockedInsertHeadList macro [Network Drivers Starting with Windows Vista], ndis/NdisInterlockedInsertHeadList, ndis_interlocked_ref_14cc728a-07b7-471f-a222-4810d9d79d5a.xml, netvista.ndisinterlockedinsertheadlist
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	ndis.dll
 api_name:
 -	NdisInterlockedInsertHeadList
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
@@ -53,18 +54,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 The
   <b>NdisInterlockedInsertHeadList</b> function inserts an entry, usually a packet, at the head of a doubly
   linked list so that access to the list is synchronized in a multiprocessor-safe way.
-
-
-## -syntax
-
-
-````
-PLIST_ENTRY NdisInterlockedInsertHeadList(
-  [in] PLIST_ENTRY     ListHead,
-  [in] PLIST_ENTRY     ListEntry,
-  [in] PNDIS_SPIN_LOCK SpinLock
-);
-````
 
 
 ## -parameters
@@ -94,10 +83,10 @@ A pointer to a caller-supplied spin lock, used to synchronize access to the list
 Before calling 
     <b>NdisInterlockedInsertHeadList</b>, a driver must initialize the variable at 
     <i>ListHead</i> with the 
-    <a href="..\ndis\nf-ndis-ndisinitializelisthead.md">NdisInitializeListHead</a> function and
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff562734">NdisInitializeListHead</a> function and
     the variable at 
     <i>SpinLock</i> with the 
-    <a href="..\ndis\nf-ndis-ndisallocatespinlock.md">NdisAllocateSpinLock</a> function. The
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561617">NdisAllocateSpinLock</a> function. The
     driver also must provide resident storage for these variables and for its internal queue.
 
 The caller-supplied spin lock prevents any other function from accessing the driver's internal queue
@@ -111,7 +100,7 @@ The caller-supplied spin lock prevents any other function from accessing the dri
 
 Most NDIS drivers process packets in FIFO order, so any driver that uses an interlocked queue tends to
     cal thel 
-    <a href="..\ndis\nf-ndis-ndisinterlockedinserttaillist.md">
+    <a href="https://msdn.microsoft.com/cc455bb1-3574-4dfb-9462-f2c67632132b">
     NdisInterlockedInsertTailList</a> function far more frequently than 
     <b>NdisInterlockedInsertHeadList</b>. Such a driver usually calls 
     <b>NdisInterlockedInsertHeadList</b> only to requeue a packet for a retry operation.
@@ -128,8 +117,6 @@ If
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisinterlockedinserttaillist.md">
-   NdisInterlockedInsertTailList</a>
 
 
 
@@ -137,22 +124,22 @@ If
 
 
 
-<a href="..\ndis\nf-ndis-ndisinitializelisthead.md">NdisInitializeListHead</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561617">NdisAllocateSpinLock</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisinterlockedremoveheadlist.md">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562734">NdisInitializeListHead</a>
+
+
+
+<a href="https://msdn.microsoft.com/cc455bb1-3574-4dfb-9462-f2c67632132b">
+   NdisInterlockedInsertTailList</a>
+
+
+
+<a href="https://msdn.microsoft.com/85cbc158-7132-4666-8161-a78251a62e4d">
    NdisInterlockedRemoveHeadList</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisallocatespinlock.md">NdisAllocateSpinLock</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisInterlockedInsertHeadList macro%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

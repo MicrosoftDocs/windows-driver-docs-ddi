@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILUICCLOCKCREDENTIAL
 title: RILUICCLOCKCREDENTIAL
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\riluicclockcredential_2.htm
+old-location: netvista\riluicclockcredential.htm
 old-project: netvista
-ms.assetid: bb7b3075-c424-4a8b-bff9-64cdb85218a2
+ms.assetid: 4ca8411e-2492-4832-881c-5fdb974485fc
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: "*LPRILUICCLOCKCREDENTIAL, RILUICCLOCKCREDENTIAL, RILUICCLOCKCREDENTIAL structure [Network Drivers Starting with Windows Vista], netvista.riluicclockcredential_2, rilapitypes/RILUICCLOCKCREDENTIAL"
+ms.date: 3/26/2018
+ms.keywords: "*LPRILUICCLOCKCREDENTIAL, RILUICCLOCKCREDENTIAL, RILUICCLOCKCREDENTIAL structure [Network Drivers Starting with Windows Vista], netvista.riluicclockcredential, ntddrilapitypes/RILUICCLOCKCREDENTIAL"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,10 +35,11 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILUICCLOCKCREDENTIAL
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILUICCLOCKCREDENTIAL, *LPRILUICCLOCKCREDENTIAL
 req.product: Windows 10 or later.
@@ -50,18 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-
-## -syntax
-
-
-````
-typedef struct _RILUICCLOCKCREDENTIAL {
-  RILUICCLOCK               rilUiccLock;
-  char [MAXLENGTH_PASSWORD] szPassword;
-} RILUICCLOCKCREDENTIAL, RILUICCLOCKCREDENTIAL;
-````
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -struct-fields

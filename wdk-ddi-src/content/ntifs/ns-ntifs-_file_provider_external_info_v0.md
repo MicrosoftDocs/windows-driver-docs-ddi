@@ -7,7 +7,7 @@ old-location: ifsk\file_provider_external_info_v0.htm
 old-project: ifsk
 ms.assetid: E2368589-9F75-4743-9D38-323221B20EF8
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: "*PFILE_PROVIDER_EXTERNAL_INFO_V0, FILE_PROVIDER_EXTERNAL_INFO_V0, FILE_PROVIDER_EXTERNAL_INFO_V0 structure [Installable File System Drivers], PFILE_PROVIDER_EXTERNAL_INFO_V0, PFILE_PROVIDER_EXTERNAL_INFO_V0 structure pointer [Installable File System Drivers], _FILE_PROVIDER_EXTERNAL_INFO_V0, ifsk.file_provider_external_info_v0, ntifs/FILE_PROVIDER_EXTERNAL_INFO_V0, ntifs/PFILE_PROVIDER_EXTERNAL_INFO_V0"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntifs.h
 api_name:
 -	FILE_PROVIDER_EXTERNAL_INFO_V0
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FILE_PROVIDER_EXTERNAL_INFO_V0, *PFILE_PROVIDER_EXTERNAL_INFO_V0
 ---
@@ -49,18 +50,7 @@ req.typenames: FILE_PROVIDER_EXTERNAL_INFO_V0, *PFILE_PROVIDER_EXTERNAL_INFO_V0
 ## -description
 
 
-This structure may be altered or unavailable. Instead, use <a href="..\ntifs\ns-ntifs-_file_provider_external_info_v1.md">FILE_PROVIDER_EXTERNAL_INFO_V1</a>.
-
-
-## -syntax
-
-
-````
-typedef struct _FILE_PROVIDER_EXTERNAL_INFO_V0 {
-  ULONG Version;
-  ULONG Algorithm;
-} FILE_PROVIDER_EXTERNAL_INFO_V0, *PFILE_PROVIDER_EXTERNAL_INFO_V0;
-````
+This structure may be altered or unavailable. Instead, use <a href="https://msdn.microsoft.com/library/windows/hardware/mt426732">FILE_PROVIDER_EXTERNAL_INFO_V1</a>.
 
 
 ## -struct-fields
@@ -86,13 +76,11 @@ Specifies the compression algorithm that is used to compress this file. Currentl
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_file_provider_external_info_v1.md">FILE_PROVIDER_EXTERNAL_INFO_V1</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt426732">FILE_PROVIDER_EXTERNAL_INFO_V1</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FILE_PROVIDER_EXTERNAL_INFO_V0 structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

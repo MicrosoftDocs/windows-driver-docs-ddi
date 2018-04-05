@@ -7,7 +7,7 @@ old-location: ifsk\rxptrackdereference.htm
 old-project: ifsk
 ms.assetid: eaff92d2-d866-4096-8528-0672255ced60
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: RxpTrackDereference, RxpTrackDereference function [Installable File System Drivers], fcb/RxpTrackDereference, ifsk.rxptrackdereference, rxref_60f3cce5-bd6b-47b9-a6cc-85b5ee027934.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	fcb.h
 api_name:
 -	RxpTrackDereference
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FA_ENTRY, *PFA_ENTRY
 ---
@@ -50,19 +51,6 @@ req.typenames: FA_ENTRY, *PFA_ENTRY
 
 
 <b>RxpTrackDereference</b> is used in checked builds to track requests to dereference SRV_CALL, NET_ROOT, V_NET_ROOT, FOBX, FCB, and SRV_OPEN structures in checked builds. A log of these dereference requests can be accessed by the logging system and WMI. 
-
-
-## -syntax
-
-
-````
-BOOLEAN RxpTrackDereference(
-  _In_ ULONG TraceType,
-  _In_ PCSTR FileName,
-  _In_ ULONG Line,
-  _In_ PVOID pInstance
-);
-````
 
 
 ## -parameters
@@ -161,19 +149,10 @@ A number of macros are defined in <i>fcb.h</i> for debugging that are the prefer
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553384">RxAssert</a>
-
-
-
-<a href="..\rxprocs\nf-rxprocs-rxreference.md">RxReference</a>
-
-
-
-<a href="..\rxlog\nf-rxlog-_rxlog.md">_RxLog</a>
-
-
-
-<a href="..\fcb\nf-fcb-rxptrackreference.md">RxpTrackReference</a>
 
 
 
@@ -181,13 +160,20 @@ A number of macros are defined in <i>fcb.h</i> for debugging that are the prefer
 
 
 
-<a href="..\rxprocs\nf-rxprocs-rxdereference.md">RxDereference</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554388">RxDereference</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554688">RxReference</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554659">RxpTrackReference</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557368">_RxLog</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RxpTrackDereference function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

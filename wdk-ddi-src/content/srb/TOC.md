@@ -10,6 +10,7 @@
 ### [PHW_STARTIO callback](../srb/nc-srb-phw_startio.md)
 ### [PHW_TIMER callback](../srb/nc-srb-phw_timer.md)
 ### [*PSTOR_POWER_ACTION enumeration](../srb/ne-srb-pstor_power_action.md)
+### [STOR_POWER_ACTION enumeration](../srb/ne-srb-stor_power_action.md)
 ### [_STOR_DEVICE_POWER_STATE enumeration](../srb/ne-srb-_stor_device_power_state.md)
 ### [ScsiDebugPrint function](../srb/nf-srb-scsidebugprint.md)
 ### [ScsiPortCompleteRequest function](../srb/nf-srb-scsiportcompleterequest.md)

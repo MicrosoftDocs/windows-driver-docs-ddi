@@ -38,7 +38,8 @@ api_location:
 -	pmi.h
 api_name:
 -	PMI_THRESHOLD_CONFIGURATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PMI_THRESHOLD_CONFIGURATION, *PPMI_THRESHOLD_CONFIGURATION
 ---
@@ -50,17 +51,6 @@ req.typenames: PMI_THRESHOLD_CONFIGURATION, *PPMI_THRESHOLD_CONFIGURATION
 
 
 The PMI_THRESHOLD_CONFIGURATION structure contains information about the threshold configuration of the power meter.
-
-
-## -syntax
-
-
-````
-typedef struct _PMI_THRESHOLD_CONFIGURATION {
-  ULONG LowerThreshold;
-  ULONG UpperThreshold;
-} PMI_THRESHOLD_CONFIGURATION, *PPMI_THRESHOLD_CONFIGURATION;
-````
 
 
 ## -struct-fields
@@ -84,7 +74,7 @@ The upper threshold of the power meter, in units of milliwatts (mW).
 
 The PMI_THRESHOLD_CONFIGURATION structure specifies the current configuration of the power meter's thresholds.  The <b>LowerThreshold</b> and <b>UpperThreshold</b> members specify the lower and upper range of the threshold respectively.  
 
-A Power Meter Interface (PMI) event is signaled when the <a href="..\pmi\ni-pmi-ioctl_pmi_register_event_notify.md">IOCTL_PMI_REGISTER_EVENT_NOTIFY</a> I/O control (IOCTL) request completes when one of the following occurs:
+A Power Meter Interface (PMI) event is signaled when the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543847">IOCTL_PMI_REGISTER_EVENT_NOTIFY</a> I/O control (IOCTL) request completes when one of the following occurs:
 
 <ul>
 <li>
@@ -101,13 +91,11 @@ Power levels that are monitored by the power meter drop below the <b>UpperThresh
 
 ## -see-also
 
-<a href="..\pmi\ni-pmi-ioctl_pmi_register_event_notify.md">IOCTL_PMI_REGISTER_EVENT_NOTIFY</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543847">IOCTL_PMI_REGISTER_EVENT_NOTIFY</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [powermeter\powermeter]:%20PMI_THRESHOLD_CONFIGURATION structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

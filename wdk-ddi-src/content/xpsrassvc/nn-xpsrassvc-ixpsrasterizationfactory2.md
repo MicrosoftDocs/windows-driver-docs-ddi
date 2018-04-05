@@ -7,7 +7,7 @@ old-location: print\ixpsrasterizationfactory2.htm
 old-project: print
 ms.assetid: 23994CD9-A65B-4BD7-9070-3F575D011953
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: IXpsRasterizationFactory2, IXpsRasterizationFactory2 interface [Print Devices], IXpsRasterizationFactory2 interface [Print Devices], described, print.ixpsrasterizationfactory2, xpsrassvc/IXpsRasterizationFactory2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: xpsrassvc.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	xpsrassvc.h
 api_name:
 -	IXpsRasterizationFactory2
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: XPSRAS_BACKGROUND_COLOR
 req.product: Windows 10 or later.

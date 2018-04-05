@@ -38,7 +38,8 @@ api_location:
 -	NfcCx.dll
 api_name:
 -	NfcCxDeviceInitConfig
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NFC_CX_TRANSPORT_TYPE, *PNFC_CX_TRANSPORT_TYPE
 ---
@@ -52,23 +53,12 @@ req.typenames: NFC_CX_TRANSPORT_TYPE, *PNFC_CX_TRANSPORT_TYPE
 Called by the client driver during its AddDevice routine to perform DeviceInit functions. During this process the following I/O callback functions are also exchanged:
 <ul>
 <li>
-<a href="..\nfccx\nc-nfccx-evt_nfc_cx_write_nci_packet.md">EvtNfcCxWriteNciPacket </a>
+<a href="https://msdn.microsoft.com/B734439A-E345-44CC-8FD0-8E38A718A773">EvtNfcCxWriteNciPacket </a>
 </li>
 <li>
-<a href="..\nfccx\nc-nfccx-evt_nfc_cx_device_io_control.md">EvtNfcCxDeviceIoControl </a>
+<a href="https://msdn.microsoft.com/45512F88-D4B8-4488-99EB-B47EE7443425">EvtNfcCxDeviceIoControl </a>
 </li>
 </ul>
-
-## -syntax
-
-
-````
-NTSTATUS NfcCxDeviceInitConfig (
-  _Inout_  PWDFDEVICE_INIT      DeviceInit,
-  _In_    PNFC_CX_CLIENT_CONFIG Config
-);
-````
-
 
 ## -parameters
 
@@ -82,7 +72,7 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 ### -param Config [in]
 
-A pointer to an <a href="..\nfccx\ns-nfccx-_nfc_cx_client_config.md">NFC_CX_CLIENT_CONFIG</a> structure.
+A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/dn905540">NFC_CX_CLIENT_CONFIG</a> structure.
 
 
 ## -returns
@@ -96,17 +86,15 @@ If the operation succeeds, the function returns STATUS_SUCCESS.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
 
 
 
 <a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [nfpdrivers\nfpdrivers]:%20NfcCxDeviceInitConfig function%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

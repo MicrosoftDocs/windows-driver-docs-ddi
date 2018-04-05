@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILMSGMWISUMMARY
 title: RILMSGMWISUMMARY
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilmsgmwisummary_2.htm
+old-location: netvista\rilmsgmwisummary.htm
 old-project: netvista
-ms.assetid: 809373c0-210e-4947-a92f-a945b7846da7
+ms.assetid: 5a718c4d-21c9-4dfd-844a-0053a379196d
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: "*LPRILMSGMWISUMMARY, RILMSGMWISUMMARY, RILMSGMWISUMMARY structure [Network Drivers Starting with Windows Vista], netvista.rilmsgmwisummary_2, rilapitypes/RILMSGMWISUMMARY"
+ms.date: 3/26/2018
+ms.keywords: "*LPRILMSGMWISUMMARY, RILMSGMWISUMMARY, RILMSGMWISUMMARY structure [Network Drivers Starting with Windows Vista], netvista.rilmsgmwisummary, ntddrilapitypes/RILMSGMWISUMMARY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,10 +35,11 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILMSGMWISUMMARY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILMSGMWISUMMARY, *LPRILMSGMWISUMMARY
 req.product: Windows 10 or later.
@@ -50,21 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-
-## -syntax
-
-
-````
-typedef struct _RILMSGMWISUMMARY {
-  RILMSGMWITYPE  dwMwiType;
-  DWORD          dwNumberOfNewMessages;
-  DWORD          dwNumberOfOldMessages;
-  DWORD          dwNumberOfNewUrgentMessages;
-  DWORD          dwNumberOfOldUrgentMessages;
-} RILMSGMWISUMMARY, RILMSGMWISUMMARY;
-````
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -struct-fields

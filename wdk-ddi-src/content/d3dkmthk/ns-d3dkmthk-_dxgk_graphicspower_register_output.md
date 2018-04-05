@@ -7,7 +7,7 @@ old-location: display\dxgk_graphicspower_register_output.htm
 old-project: display
 ms.assetid: 13F74BB4-91FE-4B5C-B0EB-B3524D0BD959
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PDXGK_GRAPHICSPOWER_REGISTER_OUTPUT, DXGK_GRAPHICSPOWER_REGISTER_OUTPUT, DXGK_GRAPHICSPOWER_REGISTER_OUTPUT structure [Display Devices], PDXGK_GRAPHICSPOWER_REGISTER_OUTPUT, PDXGK_GRAPHICSPOWER_REGISTER_OUTPUT structure pointer [Display Devices], _DXGK_GRAPHICSPOWER_REGISTER_OUTPUT, d3dkmthk/DXGK_GRAPHICSPOWER_REGISTER_OUTPUT, d3dkmthk/PDXGK_GRAPHICSPOWER_REGISTER_OUTPUT, display.dxgk_graphicspower_register_output"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmthk.h
 api_name:
 -	DXGK_GRAPHICSPOWER_REGISTER_OUTPUT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_GRAPHICSPOWER_REGISTER_OUTPUT, *PDXGK_GRAPHICSPOWER_REGISTER_OUTPUT
 ---
@@ -50,19 +51,6 @@ req.typenames: DXGK_GRAPHICSPOWER_REGISTER_OUTPUT, *PDXGK_GRAPHICSPOWER_REGISTER
 
 
 A structure containing output data used to manage shared power components.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGK_GRAPHICSPOWER_REGISTER_OUTPUT {
-  PVOID                                  DeviceHandle;
-  DEVICE_POWER_STATE                     InitialGrfxPowerState;
-  PDXGK_SET_SHARED_POWER_COMPONENT_STATE SetSharedPowerComponentStateCb;
-  PDXGK_GRAPHICSPOWER_UNREGISTER         UnregisterCb;
-} DXGK_GRAPHICSPOWER_REGISTER_OUTPUT, *PDXGK_GRAPHICSPOWER_REGISTER_OUTPUT;
-````
 
 
 ## -struct-fields

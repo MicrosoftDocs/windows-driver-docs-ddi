@@ -7,7 +7,7 @@ old-location: debugger\idebugeventcallbackswide_changedebuggeestate.htm
 old-project: debugger
 ms.assetid: ffb5925a-6bbd-41f5-b8b8-e8c7189d57ac
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/26/2018
 ms.keywords: ChangeDebuggeeState method [Windows Debugging], ChangeDebuggeeState method [Windows Debugging], IDebugEventCallbacksWide interface, ChangeDebuggeeState,IDebugEventCallbacksWide.ChangeDebuggeeState, IDebugEventCallbacksWide, IDebugEventCallbacksWide interface [Windows Debugging], ChangeDebuggeeState method, IDebugEventCallbacksWide::ChangeDebuggeeState, dbgeng/IDebugEventCallbacksWide::ChangeDebuggeeState, debugger.idebugeventcallbackswide_changedebuggeestate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugEventCallbacksWide.ChangeDebuggeeState
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -50,17 +51,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>ChangeDebuggeeState</b> callback method is called by the engine when it makes or detects changes to the target.
-
-
-## -syntax
-
-
-````
-HRESULT ChangeDebuggeeState(
-  [in] ULONG   Flags,
-  [in] ULONG64 Argument
-);
-````
 
 
 ## -parameters

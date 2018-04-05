@@ -7,7 +7,7 @@ old-location: ifsk\iocreatestreamfileobjectex2.htm
 old-project: ifsk
 ms.assetid: 2F12F4E5-21C2-4DA8-9111-0087A16F0256
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: IoCreateStreamFileObjectEx, IoCreateStreamFileObjectEx routine [Installable File System Drivers], IoCreateStreamFileObjectEx2, ifsk.iocreatestreamfileobjectex2, ntifs/IoCreateStreamFileObjectEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	IoCreateStreamFileObjectEx
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -50,20 +51,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>IoCreateStreamFileObjectEx2</b> routine creates a new stream file object with create options for a target device object. 
-
-
-## -syntax
-
-
-````
-PFILE_OBJECT IoCreateStreamFileObjectEx(
-  _In_      PIO_CREATE_STREAM_FILE_OPTIONS CreateOptions,
-  _In_opt_  PFILE_OBJECT                   FileObject,
-  _In_opt_  PDEVICE_OBJECT                 DeviceObject,
-  _Out_     PDEVICE_OBJECT                 *StreamFileObject,
-  _Out_opt_ PHANDLE                        FileHandle
-);
-````
 
 
 ## -parameters
@@ -174,7 +161,7 @@ A stream file object is commonly used to represent an internal stream for a volu
 
 A stream file object can also be used to represent an alternate data stream for accessing a file's metadata, such as extended attributes or security descriptors. In this case, the <i>FileObject</i> parameter in the call to <b>IoCreateStreamFileObjectEx2</b> specifies an existing file object for the file. The newly created stream file object permits the file system to view, change, and cache the file's metadata as if it were an ordinary file.
 
-When the stream file object is no longer needed, the caller must decrement its reference count by calling <a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>. When the stream file object's reference count reaches zero, an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550720">IRP_MJ_CLOSE</a> request is sent to the file system driver stack for the volume.
+When the stream file object is no longer needed, the caller must decrement its reference count by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff557724">ObDereferenceObject</a>. When the stream file object's reference count reaches zero, an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550720">IRP_MJ_CLOSE</a> request is sent to the file system driver stack for the volume.
 
 File system filter driver writers should note that <b>IoCreateStreamFileObjectEx2</b> causes an <a href="https://msdn.microsoft.com/library/windows/hardware/ff548608">IRP_MJ_CLEANUP</a> request to be sent to the file system driver stack for the volume. Because file systems often create stream file objects as a side effect of operations other than <a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>, it is difficult for filter drivers to reliably detect stream file object creation. Thus a filter driver should expect to receive I<b>IRP_MJ_CLEANUP</b> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff550720">IRP_MJ_CLOSE</a> requests for previously unseen file objects.
 
@@ -185,6 +172,9 @@ If a pool allocation failure occurs, <b>IoCreateStreamFileObjectEx2</b> raises a
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548608">IRP_MJ_CLEANUP</a>
 
 
@@ -193,29 +183,24 @@ If a pool allocation failure occurs, <b>IoCreateStreamFileObjectEx2</b> raises a
 
 
 
-<a href="..\ntifs\nf-ntifs-iocreatestreamfileobject.md">IoCreateStreamFileObject</a>
-
-
-
-<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-iocreatestreamfileobjectex.md">IoCreateStreamFileObjectEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548296">IoCreateStreamFileObject</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-iocreatestreamfileobjectlite.md">IoCreateStreamFileObjectLite</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548303">IoCreateStreamFileObjectEx</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548306">IoCreateStreamFileObjectLite</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557724">ObDereferenceObject</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20IoCreateStreamFileObjectEx2 routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

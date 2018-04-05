@@ -38,7 +38,8 @@ api_location:
 -	hidsdi.h
 api_name:
 -	HIDD_ATTRIBUTES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: HIDD_ATTRIBUTES, *PHIDD_ATTRIBUTES
 ---
@@ -50,19 +51,6 @@ req.typenames: HIDD_ATTRIBUTES, *PHIDD_ATTRIBUTES
 
 
 The HIDD_ATTRIBUTES structure contains vendor information about a HIDClass device.
-
-
-## -syntax
-
-
-````
-typedef struct _HIDD_ATTRIBUTES {
-  ULONG  Size;
-  USHORT VendorID;
-  USHORT ProductID;
-  USHORT VersionNumber;
-} HIDD_ATTRIBUTES, *PHIDD_ATTRIBUTES;
-````
 
 
 ## -struct-fields
@@ -94,7 +82,7 @@ Specifies the manufacturer's revision number for a HIDClass device.
 
 
 
-A caller of <a href="..\hidsdi\nf-hidsdi-hidd_getattributes.md">HidD_GetAttributes</a>, uses this structure to obtain a device's vendor information.
+A caller of <a href="https://msdn.microsoft.com/library/windows/hardware/ff538900">HidD_GetAttributes</a>, uses this structure to obtain a device's vendor information.
 
 Before using a HIDD_ATTRIBUTES structure with <a href="https://msdn.microsoft.com/library/windows/hardware/ff538865">HIDClass support routines</a>, the caller must set the <b>Size</b> member.
 
@@ -103,13 +91,11 @@ Before using a HIDD_ATTRIBUTES structure with <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="..\hidsdi\nf-hidsdi-hidd_getattributes.md">HidD_GetAttributes</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538900">HidD_GetAttributes</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [hid\hid]:%20HIDD_ATTRIBUTES structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

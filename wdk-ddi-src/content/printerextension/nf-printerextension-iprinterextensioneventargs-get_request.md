@@ -7,7 +7,7 @@ old-location: print\iprinterextensioneventargs_request.htm
 old-project: print
 ms.assetid: 2F11C510-B649-4DC6-B0BC-89C4159E464C
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: IPrinterExtensionEventArgs, IPrinterExtensionEventArgs interface [Print Devices], Request property, IPrinterExtensionEventArgs.Request, IPrinterExtensionEventArgs::get_Request, Request property [Print Devices], Request property [Print Devices], IPrinterExtensionEventArgs interface, get_Request, get_Request,IPrinterExtensionEventArgs.get_Request, print.iprinterextensioneventargs_request, printerextension/IPrinterExtensionEventArgs::Request, printerextension/IPrinterExtensionEventArgs::get_Request
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: printerextension.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	IPrinterExtensionEventArgs.Request
 -	IPrinterExtensionEventArgs.get_Request
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PrintSchemaSelectionType
 req.product: Windows 10 or later.
@@ -51,21 +52,11 @@ req.product: Windows 10 or later.
 ## -description
 
 
-Gets the <a href="..\printerextension\nn-printerextension-iprinterextensionrequest.md">IPrinterExtensionRequest</a> object for the current event.
+Gets the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439517">IPrinterExtensionRequest</a> object for the current event.
 
 This interface is used to complete or cancel the event.
 
 This property is read-only.
-
-
-## -syntax
-
-
-````
-HRESULT get_Request(
-  [out, retval] IPrinterExtensionRequest **ppRequest
-);
-````
 
 
 ## -parameters
@@ -73,17 +64,15 @@ HRESULT get_Request(
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprinterextensionrequest.md">IPrinterExtensionRequest</a>
 
 
 
-<a href="..\printerextension\nn-printerextension-iprinterextensioneventargs.md">IPrinterExtensionEventArgs</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh973207">IPrinterExtensionEventArgs</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439517">IPrinterExtensionRequest</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrinterExtensionEventArgs::Request property%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: wdf\iwdfiorequestcompletionparams_getioctlparameters.htm
 old-project: wdf
 ms.assetid: 59e2cd27-ec10-46e9-aa0d-4a00e2684e76
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/26/2018
 ms.keywords: GetIoctlParameters method, GetIoctlParameters method, IWDFIoRequestCompletionParams interface, GetIoctlParameters,IWDFIoRequestCompletionParams.GetIoctlParameters, IWDFIoRequestCompletionParams, IWDFIoRequestCompletionParams interface, GetIoctlParameters method, IWDFIoRequestCompletionParams::GetIoctlParameters, UMDFRequestObjectRef_7d375866-617c-418f-b449-7931a88e7ae4.xml, umdf.iwdfiorequestcompletionparams_getioctlparameters, wdf.iwdfiorequestcompletionparams_getioctlparameters, wudfddi/IWDFIoRequestCompletionParams::GetIoctlParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support: Unavailable in UMDF 2.0 and later.
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: wudfddi.h
+req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFIoRequestCompletionParams.GetIoctlParameters
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
@@ -55,21 +56,6 @@ req.product: Windows 10 or later.
 The <b>GetIoctlParameters</b> method retrieves parameters that are associated with the completion of a device I/O control request.
 
 
-## -syntax
-
-
-````
-void GetIoctlParameters(
-  [out, optional] ULONG      *pIoControlCode,
-  [out, optional] IWDFMemory **ppInputMemory,
-  [out, optional] SIZE_T     *pInputMemoryOffset,
-  [out, optional] IWDFMemory **ppOutputMemory,
-  [out, optional] SIZE_T     *pOutputMemoryOffset,
-  [out, optional] SIZE_T     *pOutBytes
-);
-````
-
-
 ## -parameters
 
 
@@ -84,7 +70,7 @@ This parameter is optional. The driver can pass <b>NULL</b> if the driver does n
 
 ### -param ppInputMemory [out, optional]
 
-A pointer to a variable that receives a pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a> interface for access to the input buffer for the completion of the device I/O control request. 
+A pointer to a variable that receives a pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559249">IWDFMemory</a> interface for access to the input buffer for the completion of the device I/O control request. 
 
 This parameter is optional. The driver can pass <b>NULL</b> if the driver does not require the information. 
 
@@ -98,7 +84,7 @@ This parameter is optional. The driver can pass <b>NULL</b> if the driver does n
 
 ### -param ppOutputMemory [out, optional]
 
-A pointer to a variable that receives a pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a> interface for access to the output buffer for the completion of the device I/O control request. 
+A pointer to a variable that receives a pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559249">IWDFMemory</a> interface for access to the output buffer for the completion of the device I/O control request. 
 
 This parameter is optional. The driver can pass <b>NULL</b> if the driver does not require the information. 
 
@@ -128,17 +114,15 @@ None
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a>
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequestcompletionparams.md">IWDFIoRequestCompletionParams</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559055">IWDFIoRequestCompletionParams</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559249">IWDFMemory</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFIoRequestCompletionParams::GetIoctlParameters method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: print\oembitblt.htm
 old-project: print
 ms.assetid: d47e1bdb-2c91-4f73-b742-5312d989781a
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: OEMBitBlt, OEMBitBlt function [Print Devices], print.oembitblt, print_unidrv-pscript_rendering_972c744c-971c-423f-a4fe-92b87cef8094.xml, printoem/OEMBitBlt
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	printoem.h
 api_name:
 -	OEMBitBlt
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STDVARIABLEINDEX
 req.product: Windows 10 or later.
@@ -51,26 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <code>OEMBitBlt</code> function provides general bit-block transfer capabilities between <a href="https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3">device-managed surfaces</a>, between GDI-managed standard-format bitmaps, or between a device-managed surface and a GDI-managed standard-format bitmap.
-
-
-## -syntax
-
-
-````
-BOOL  APIENTRY OEMBitBlt(
-   SURFOBJ  *psoTrg,
-   SURFOBJ  *psoSrc,
-   SURFOBJ  *psoMask,
-   CLIPOBJ  *pco,
-   XLATEOBJ *pxlo,
-   RECTL    *prclTrg,
-   POINTL   *pptlSrc,
-   POINTL   *pptlMask,
-   BRUSHOBJ *pbo,
-   POINTL   *pptlBrush,
-   ROP4     rop4
-);
-````
 
 
 ## -parameters

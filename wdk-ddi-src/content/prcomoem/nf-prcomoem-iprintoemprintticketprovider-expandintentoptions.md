@@ -7,7 +7,7 @@ old-location: print\iprintoemprintticketprovider_expandintentoptions.htm
 old-project: print
 ms.assetid: c0499a9b-8f02-4a88-bffa-e088e9098a6c
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: ExpandIntentOptions, ExpandIntentOptions method [Print Devices], ExpandIntentOptions method [Print Devices], IPrintOemPrintTicketProvider interface, ExpandIntentOptions,IPrintOemPrintTicketProvider.ExpandIntentOptions, IPrintOemPrintTicketProvider, IPrintOemPrintTicketProvider interface [Print Devices], ExpandIntentOptions method, IPrintOemPrintTicketProvider::ExpandIntentOptions, prcomoem/IPrintOemPrintTicketProvider::ExpandIntentOptions, print.iprintoemprintticketprovider_expandintentoptions, print_ticket-package_1b344230-a06b-49ca-8b55-eb9c3500c3f1.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: prcomoem.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	prcomoem.h
 api_name:
 -	IPrintOemPrintTicketProvider.ExpandIntentOptions
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
@@ -51,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <code>IPrintOemPrintTicketProvider::ExpandIntentOptions</code> method enables the plug-in to expand printer options (such as photo printing) into individual feature settings in the print ticket. 
-
-
-## -syntax
-
-
-````
-HRESULT ExpandIntentOptions(
-  [in, out] IXMLDOMDocument2 *pPrintTicket
-);
-````
 
 
 ## -parameters

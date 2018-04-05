@@ -7,7 +7,7 @@ old-location: display\dxgkddi_settargetgamma.htm
 old-project: display
 ms.assetid: 658EA0AA-80FC-4A45-B2EF-DFE928917E7B
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_SETTARGETGAMMA, DXGKDDI_SETTARGETGAMMA callback function [Display Devices], d3dkmddi/DXGKDDI_SETTARGETGAMMA, display.dxgkddi_settargetgamma
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGKDDI_SETTARGETGAMMA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 ---
@@ -54,17 +55,6 @@ Allows the gamma LUT to be set on a path which is identified by the target id.<d
 
 
 
-## -prototype
-
-
-````
-NTSTATUS NTSTATUS DXGKDDI_SETTARGETGAMMA(
-  _In_ const HANDLE                  hAdapter,
-  _In_ const PDXGKARG_SETTARGETGAMMA pSetTargetGammaArg
-);
-````
-
-
 ## -parameters
 
 
@@ -77,7 +67,7 @@ A handle that identifies the adapter.
 
 ### -param pSetTargetGammaArg [in]
 
-A pointer to a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_settargetgamma.md">DXGKARG_SETTARGETGAMMA</a> structure that provides the target id to be modified and provides the gamma ramp to be set.
+A pointer to a <a href="https://msdn.microsoft.com/94BA40BD-3B56-44EF-BAD4-49556E68C550">DXGKARG_SETTARGETGAMMA</a> structure that provides the target id to be modified and provides the gamma ramp to be set.
 
 
 ## -returns

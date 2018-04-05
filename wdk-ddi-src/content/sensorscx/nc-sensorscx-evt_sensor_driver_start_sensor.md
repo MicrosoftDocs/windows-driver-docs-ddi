@@ -38,7 +38,8 @@ api_location:
 -	SensorsCx.h
 api_name:
 -	EvtSensorStart
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SensorConnectionType
 req.product: Windows 10 or later.
@@ -51,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 This callback function starts the sensor based on the default properties specified by the driver, or properties set by the class extension.
-
-
-## -prototype
-
-
-````
-NT_STATUS EvtSensorStart(
-   SENSOROBJECT Sensor
-);
-````
 
 
 ## -parameters

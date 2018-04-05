@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILOPERATORINFOPARAMMASK
 title: RILOPERATORINFOPARAMMASK
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\riloperatorinfoparammask_2.htm
+old-location: netvista\riloperatorinfoparammask.htm
 old-project: netvista
-ms.assetid: 1366f37b-4785-4e36-9fc8-bfaef6f9e227
+ms.assetid: 5ea7bf77-2069-4335-862e-7f805f3a7491
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: RILOPERATORINFOPARAMMASK, RILOPERATORINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_OI_ALL, RIL_PARAM_OI_NAMES, RIL_PARAM_OI_STATUS, netvista.riloperatorinfoparammask_2, rilapitypes/RILOPERATORINFOPARAMMASK, rilapitypes/RIL_PARAM_OI_ALL, rilapitypes/RIL_PARAM_OI_NAMES, rilapitypes/RIL_PARAM_OI_STATUS
+ms.date: 3/26/2018
+ms.keywords: RILOPERATORINFOPARAMMASK, RILOPERATORINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_OI_ALL, RIL_PARAM_OI_NAMES, RIL_PARAM_OI_STATUS, netvista.riloperatorinfoparammask, ntddrilapitypes/RILOPERATORINFOPARAMMASK, ntddrilapitypes/RIL_PARAM_OI_ALL, ntddrilapitypes/RIL_PARAM_OI_NAMES, ntddrilapitypes/RIL_PARAM_OI_STATUS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -35,10 +35,11 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILOPERATORINFOPARAMMASK
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILOPERATORINFOPARAMMASK
 req.product: Windows 10 or later.
@@ -50,19 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-
-## -syntax
-
-
-````
-typedef enum _RILOPERATORINFOPARAMMASK { 
-  RIL_PARAM_OI_STATUS,
-  RIL_PARAM_OI_NAMES,
-  RIL_PARAM_OI_ALL
-} RILOPERATORINFOPARAMMASK;
-````
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -enum-fields

@@ -4,6 +4,7 @@
 ### [EVT_WDF_DEVICE_EJECT callback](../wdfpdo/nc-wdfpdo-evt_wdf_device_eject.md)
 ### [EVT_WDF_DEVICE_ENABLE_WAKE_AT_BUS callback](../wdfpdo/nc-wdfpdo-evt_wdf_device_enable_wake_at_bus.md)
 ### [EVT_WDF_DEVICE_REPORTED_MISSING callback](../wdfpdo/nc-wdfpdo-evt_wdf_device_reported_missing.md)
+### [EVT_WDF_DEVICE_RESOURCES_QUERY callback](../wdfpdo/nc-wdfpdo-evt_wdf_device_resources_query.md)
 ### [EVT_WDF_DEVICE_RESOURCE_REQUIREMENTS_QUERY callback](../wdfpdo/nc-wdfpdo-evt_wdf_device_resource_requirements_query.md)
 ### [EVT_WDF_DEVICE_SET_LOCK callback](../wdfpdo/nc-wdfpdo-evt_wdf_device_set_lock.md)
 ### [WdfPdoAddEjectionRelationsPhysicalDevice function](../wdfpdo/nf-wdfpdo-wdfpdoaddejectionrelationsphysicaldevice.md)

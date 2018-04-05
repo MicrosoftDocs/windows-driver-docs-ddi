@@ -7,7 +7,7 @@ old-location: netvista\wwan_ace_state.htm
 old-project: netvista
 ms.assetid: 6BF63894-58D6-4C7C-B3D9-D4D9D19A686B
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: "*PWWAN_ACE_STATE, WWAN_ACE_STATE, WWAN_ACE_STATE enumeration [Network Drivers Starting with Windows Vista], WwanAutoOff, WwanAutoOn, WwanManualOff, WwanManualOn, _WWAN_ACE_STATE, netvista.wwan_ace_state, wwan/WWAN_ACE_STATE, wwan/WwanAutoOff, wwan/WwanAutoOn, wwan/WwanManualOff, wwan/WwanManualOn"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	wwan.h
 api_name:
 -	WWAN_ACE_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WWAN_ACE_STATE, *PWWAN_ACE_STATE
 req.product: Windows 10 or later.
@@ -51,19 +52,6 @@ req.product: Windows 10 or later.
 
 
 The WWAN_ACE_STATE enumeration lists the different kinds of auto-connect states.
-
-
-## -syntax
-
-
-````
-typedef enum _WWAN_ACE_STATE { 
-  WwanAutoOff    = 0,
-  WwanAutoOn     = ,
-  WwanManualOff  = ,
-  WwanManualOn   = 
-} WWAN_ACE_STATE;
-````
 
 
 ## -enum-fields

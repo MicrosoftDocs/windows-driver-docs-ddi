@@ -7,7 +7,7 @@ old-location: display\d3dkmtcreatekeyedmutex.htm
 old-project: display
 ms.assetid: ae9e4771-ba8d-4472-aeb8-04c3f3c59efa
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMTCreateKeyedMutex, D3DKMTCreateKeyedMutex callback function [Display Devices], OpenGL_Functions_a8475da1-40bf-4669-9da8-f6bb09c3f905.xml, PFND3DKMT_CREATEKEYEDMUTEX, d3dkmthk/D3DKMTCreateKeyedMutex, display.d3dkmtcreatekeyedmutex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmthk.h
 api_name:
 -	D3DKMTCreateKeyedMutex
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_TARGETMODE_DETAIL_TIMING
 ---
@@ -50,16 +51,6 @@ req.typenames: DXGK_TARGETMODE_DETAIL_TIMING
 
 
 The <b>D3DKMTCreateKeyedMutex</b> function creates a keyed mutex object.
-
-
-## -prototype
-
-
-````
-NTSTATUS APIENTRY D3DKMTCreateKeyedMutex(
-  _Inout_ D3DKMT_CREATEKEYEDMUTEX *pData
-);
-````
 
 
 ## -parameters
@@ -78,7 +69,7 @@ NTSTATUS APIENTRY D3DKMTCreateKeyedMutex(
 
 #### - pData [in, out]
 
-A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_createkeyedmutex.md">D3DKMT_CREATEKEYEDMUTEX</a> structure that describes a keyed mutex object to create. 
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547834">D3DKMT_CREATEKEYEDMUTEX</a> structure that describes a keyed mutex object to create. 
 
 
 ## -returns
@@ -133,7 +124,7 @@ Parameters were validated and determined to be incorrect.
 </td>
 <td width="60%">
 
-<a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_createkeyedmutex.md">D3DKMTCreateKeyedMutex</a> could not complete because of insufficient memory.
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546845">D3DKMTCreateKeyedMutex</a> could not complete because of insufficient memory.
 
 </td>
 </tr>
@@ -147,13 +138,11 @@ This function might also return other <b>NTSTATUS</b> values.
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_createkeyedmutex.md">D3DKMT_CREATEKEYEDMUTEX</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547834">D3DKMT_CREATEKEYEDMUTEX</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3DKMT_CREATEKEYEDMUTEX callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

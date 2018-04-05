@@ -7,7 +7,7 @@ old-location: netvista\net_dma_pnp_notification.htm
 old-project: netvista
 ms.assetid: 8a505077-dec6-47cc-8730-d68e19309d3b
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: "*PNET_DMA_PNP_NOTIFICATION, NET_DMA_PNP_NOTIFICATION, NET_DMA_PNP_NOTIFICATION structure [Network Drivers Starting with Windows Vista], PNET_DMA_PNP_NOTIFICATION, PNET_DMA_PNP_NOTIFICATION structure pointer [Network Drivers Starting with Windows Vista], _NET_DMA_PNP_NOTIFICATION, netdma/NET_DMA_PNP_NOTIFICATION, netdma/PNET_DMA_PNP_NOTIFICATION, netdma_ref_276d7903-f1d8-4fd4-91f0-dda490f8da02.xml, netvista.net_dma_pnp_notification"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	netdma.h
 api_name:
 -	NET_DMA_PNP_NOTIFICATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NET_DMA_PNP_NOTIFICATION, *PNET_DMA_PNP_NOTIFICATION
 ---
@@ -51,20 +52,6 @@ req.typenames: NET_DMA_PNP_NOTIFICATION, *PNET_DMA_PNP_NOTIFICATION
 
 <div class="alert"><b>Note</b>  The NetDMA interface is not supported in Windows 8 and later.</div><div> </div>The NET_DMA_PNP_NOTIFICATION structure specifies a power management notification in the NetDMA
   interface.
-
-
-## -syntax
-
-
-````
-typedef struct _NET_DMA_PNP_NOTIFICATION {
-  ULONG                         StructureRevision;
-  ULONG                         StructureSize;
-  NET_DMA_PNP_NOTIFICATION_CODE NotificationCode;
-  PVOID                         Buffer;
-  ULONG                         BufferLength;
-} NET_DMA_PNP_NOTIFICATION, *PNET_DMA_PNP_NOTIFICATION;
-````
 
 
 ## -struct-fields
@@ -89,7 +76,7 @@ The size, in bytes, of the notification structure. This size does not include th
 ### -field NotificationCode
 
 A value that identifies the DMA provider event. This value must be one of the values from the 
-     <a href="..\netdma\ne-netdma-_net_dma_pnp_notification_code.md">
+     <a href="https://msdn.microsoft.com/1c9c09ae-5b7a-4482-8f6b-1ad5ede5b3f5">
      NET_DMA_PNP_NOTIFICATION_CODE</a> enumeration.
 
 
@@ -114,7 +101,7 @@ The length, in bytes, of the notification-specific data at the
 
 
 To send a power management notification to the NetDMA interface, NetDMA provider drivers call the 
-    <a href="..\netdma\nf-netdma-netdmapnpeventnotify.md">NetDmaPnPEventNotify</a> function and
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568332">NetDmaPnPEventNotify</a> function and
     provide a pointer to a NET_DMA_PNP_NOTIFICATION structure at the 
     <i>PnPEvent</i> parameter.
 
@@ -123,17 +110,15 @@ To send a power management notification to the NetDMA interface, NetDMA provider
 
 ## -see-also
 
-<a href="..\netdma\nf-netdma-netdmapnpeventnotify.md">NetDmaPnPEventNotify</a>
 
 
 
-<a href="..\netdma\ne-netdma-_net_dma_pnp_notification_code.md">NET_DMA_PNP_NOTIFICATION_CODE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568736">NET_DMA_PNP_NOTIFICATION_CODE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568332">NetDmaPnPEventNotify</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NET_DMA_PNP_NOTIFICATION structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

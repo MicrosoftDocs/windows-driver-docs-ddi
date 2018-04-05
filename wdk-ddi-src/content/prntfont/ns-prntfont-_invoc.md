@@ -7,7 +7,7 @@ old-location: print\invoc.htm
 old-project: print
 ms.assetid: 5eeaa7f7-dc99-4cf7-846c-801954cc9040
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: "*PINVOC, INVOC, INVOC structure [Print Devices], PINVOC, PINVOC structure pointer [Print Devices], _INVOC, print.invoc, print_unidrv-pscript_fonts_1c5bebe8-a2ca-4049-bcce-defd8622761b.xml, prntfont/INVOC, prntfont/PINVOC"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	prntfont.h
 api_name:
 -	INVOC
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: INVOC, *PINVOC
 req.product: Windows 10 or later.
@@ -51,17 +52,6 @@ req.product: Windows 10 or later.
 
 
 The INVOC structure is used for describing printer command strings in <a href="https://msdn.microsoft.com/6e643703-ace1-4660-990c-3a9ca735829d">Unidrv font metrics files</a> (.ufm files) and <a href="https://msdn.microsoft.com/6e643703-ace1-4660-990c-3a9ca735829d">glyph translation table files</a> (.gtt files).
-
-
-## -syntax
-
-
-````
-typedef struct _INVOC {
-  DWORD dwCount;
-  DWORD loOffset;
-} INVOC, *PINVOC;
-````
 
 
 ## -struct-fields
@@ -84,33 +74,31 @@ Indicates one of the following:
 
 ##### ufm files:
 
-Specifies the byte offset from the beginning of the .ufm file's <a href="..\prntfont\ns-prntfont-_unidrvinfo.md">UNIDRVINFO</a> structure to beginning of the command string.
+Specifies the byte offset from the beginning of the .ufm file's <a href="https://msdn.microsoft.com/library/windows/hardware/ff562872">UNIDRVINFO</a> structure to beginning of the command string.
 
 
 
 ##### gtt files:
 
-Specifies the byte offset from the beginning of the .gtt file's <a href="..\prntfont\ns-prntfont-_uni_codepageinfo.md">UNI_CODEPAGEINFO</a> structure to beginning of the command string.
+Specifies the byte offset from the beginning of the .gtt file's <a href="https://msdn.microsoft.com/library/windows/hardware/ff563596">UNI_CODEPAGEINFO</a> structure to beginning of the command string.
 
 
 ## -remarks
 
 
 
-INVOC structures are used within <a href="..\prntfont\ns-prntfont-_unidrvinfo.md">UNIDRVINFO</a> structures.
+INVOC structures are used within <a href="https://msdn.microsoft.com/library/windows/hardware/ff562872">UNIDRVINFO</a> structures.
 
 
 
 
 ## -see-also
 
-<a href="..\prntfont\ns-prntfont-_unidrvinfo.md">UNIDRVINFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562872">UNIDRVINFO</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20INVOC structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

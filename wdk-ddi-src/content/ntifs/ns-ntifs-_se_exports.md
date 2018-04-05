@@ -7,7 +7,7 @@ old-location: ifsk\seexports.htm
 old-project: ifsk
 ms.assetid: e6c398b4-f38f-4819-96f9-cefc3a728dbc
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSE_EXPORTS, PSE_EXPORTS, PSE_EXPORTS structure pointer [Installable File System Drivers], SE_EXPORTS, SE_EXPORTS structure [Installable File System Drivers], SeExports, SeExports structure [Installable File System Drivers], _SE_EXPORTS, ifsk.seexports, ntifs/PSE_EXPORTS, ntifs/SeExports, securitystructures_39c83c22-bf3d-4755-ac4c-6bd31f8829d3.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntifs.h
 api_name:
 -	SE_EXPORTS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SE_EXPORTS, *PSE_EXPORTS
 ---
@@ -50,81 +51,6 @@ req.typenames: SE_EXPORTS, *PSE_EXPORTS
 
 
 The <b>SeExports</b> structure is a large external static SE_EXPORTS structure that defines a number of well-known security constants for privilege values and security identifiers.
-
-
-## -syntax
-
-
-````
-typedef struct _SE_EXPORTS {
-  LUID SeCreateTokenPrivilege;
-  LUID SeAssignPrimaryTokenPrivilege;
-  LUID SeLockMemoryPrivilege;
-  LUID SeIncreaseQuotaPrivilege;
-  LUID SeUnsolicitedInputPrivilege;
-  LUID SeTcbPrivilege;
-  LUID SeSecurityPrivilege;
-  LUID SeTakeOwnershipPrivilege;
-  LUID SeLoadDriverPrivilege;
-  LUID SeCreatePagefilePrivilege;
-  LUID SeIncreaseBasePriorityPrivilege;
-  LUID SeSystemProfilePrivilege;
-  LUID SeSystemtimePrivilege;
-  LUID SeProfileSingleProcessPrivilege;
-  LUID SeCreatePermanentPrivilege;
-  LUID SeBackupPrivilege;
-  LUID SeRestorePrivilege;
-  LUID SeShutdownPrivilege;
-  LUID SeDebugPrivilege;
-  LUID SeAuditPrivilege;
-  LUID SeSystemEnvironmentPrivilege;
-  LUID SeChangeNotifyPrivilege;
-  LUID SeRemoteShutdownPrivilege;
-  PSID SeNullSid;
-  PSID SeWorldSid;
-  PSID SeLocalSid;
-  PSID SeCreatorOwnerSid;
-  PSID SeCreatorGroupSid;
-  PSID SeNtAuthoritySid;
-  PSID SeDialupSid;
-  PSID SeNetworkSid;
-  PSID SeBatchSid;
-  PSID SeInteractiveSid;
-  PSID SeLocalSystemSid;
-  PSID SeAliasAdminsSid;
-  PSID SeAliasUsersSid;
-  PSID SeAliasGuestsSid;
-  PSID SeAliasPowerUsersSid;
-  PSID SeAliasAccountOpsSid;
-  PSID SeAliasSystemOpsSid;
-  PSID SeAliasPrintOpsSid;
-  PSID SeAliasBackupOpsSid;
-  PSID SeAuthenticatedUsersSid;
-  PSID SeRestrictedSid;
-  PSID SeAnonymousLogonSid;
-  LUID SeUndockPrivilege;
-  LUID SeSyncAgentPrivilege;
-  LUID SeEnableDelegationPrivilege;
-  PSID SeLocalServiceSid;
-  PSID SeNetworkServiceSid;
-  LUID SeManageVolumePrivilege;
-  LUID SeImpersonatePrivilege;
-  LUID SeCreateGlobalPrivilege;
-  LUID SeTrustedCredManAccessPrivilege;
-  LUID SeRelabelPrivilege;
-  LUID SeIncreaseWorkingSetPrivilege;
-  LUID SeTimeZonePrivilege;
-  LUID SeCreateSymbolicLinkPrivilege;
-  PSID SeIUserSid;
-  PSID SeUntrustedMandatorySid;
-  PSID SeLowMandatorySid;
-  PSID SeMediumMandatorySid;
-  PSID SeHighMandatorySid;
-  PSID SeSystemMandatorySid;
-  PSID SeOwnerRightsSid;
-  PSID SeAllAppPackagesSid;
-} SE_EXPORTS, *PSE_EXPORTS;
-````
 
 
 ## -struct-fields
@@ -768,17 +694,15 @@ The SID for a group that represents all application packages.
 
 ## -see-also
 
-<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
 
 
 
-<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557080">LUID</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20SeExports structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

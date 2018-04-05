@@ -7,7 +7,7 @@ old-location: storage\ioctl_aacs_generate_binding_nonce.htm
 old-project: storage
 ms.assetid: bb0fec4e-e6be-46e1-b6be-253dd0579ca6
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_AACS_GENERATE_BINDING_NONCE, IOCTL_AACS_GENERATE_BINDING_NONCE control code [Storage Devices], k307_ff2a829d-24b6-4d74-92e4-18c342689db7.xml, ntddcdvd/IOCTL_AACS_GENERATE_BINDING_NONCE, storage.ioctl_aacs_generate_binding_nonce
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,18 +38,14 @@ api_location:
 -	Ntddcdvd.h
 api_name:
 -	IOCTL_AACS_GENERATE_BINDING_NONCE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DVD_STRUCTURE_FORMAT, *PDVD_STRUCTURE_FORMAT
 ---
 
 # IOCTL_AACS_GENERATE_BINDING_NONCE IOCTL
 
-
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -64,22 +60,22 @@ Reads the Advanced Access Content System (AACS) binding nonce starting at the sp
 
 ### -input-buffer
 
-The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains a structure of type <a href="..\ntddcdvd\ns-ntddcdvd-_aacs_read_binding_nonce.md">AACS_READ_BINDING_NONCE</a> that specifies the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553743">DVD_SESSION_ID</a>, the starting logical block address and the number of sectors for which the logical unit should generate a binding nonce.
+The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff550112">AACS_READ_BINDING_NONCE</a> that specifies the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553743">DVD_SESSION_ID</a>, the starting logical block address and the number of sectors for which the logical unit should generate a binding nonce.
 
 
 ### -input-buffer-length
 
-Length of an <a href="..\ntddcdvd\ns-ntddcdvd-_aacs_read_binding_nonce.md">AACS_READ_BINDING_NONCE</a>.
+Length of an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550112">AACS_READ_BINDING_NONCE</a>.
 
 
 ### -output-buffer
 
-The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains the value of type <a href="..\ntddcdvd\ns-ntddcdvd-_aacs_binding_nonce.md">AACS_BINDING_NONCE</a> that specifies the binding nonce.
+The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains the value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff550106">AACS_BINDING_NONCE</a> that specifies the binding nonce.
 
 
 ### -output-buffer-length
 
-Length of an <a href="..\ntddcdvd\ns-ntddcdvd-_aacs_binding_nonce.md">AACS_BINDING_NONCE</a>.
+Length of an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550106">AACS_BINDING_NONCE</a>.
 
 
 ### -in-out-buffer
@@ -115,7 +111,7 @@ The IOCTL_AACS_GENERATE_BINDING_NONCE request requires a single available AGID d
 
 It is recommended that you wait for the completion of all other requests that use secure sessions with AGIDs before making an IOCTL_AACS_GENERATE_BINDING_NONCE request.
 
-Clients that do not use file system support must set the <b>Handle</b> member of <a href="..\ntddcdvd\ns-ntddcdvd-_aacs_read_binding_nonce.md">AACS_READ_BINDING_NONCE</a> to INVALID_HANDLE_VALUE and specify explicit values for the <b>StartLBA</b> and <b>NumberOfSectors</b> members.
+Clients that do not use file system support must set the <b>Handle</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff550112">AACS_READ_BINDING_NONCE</a> to INVALID_HANDLE_VALUE and specify explicit values for the <b>StartLBA</b> and <b>NumberOfSectors</b> members.
 
 
 

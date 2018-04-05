@@ -7,7 +7,7 @@ old-location: display\d3d12ddi_device_funcs_core_video_0020.htm
 old-project: display
 ms.assetid: E880F758-A872-4B59-BF7D-602C3ACDA490
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: D3D12DDI_DEVICE_FUNCS_CORE_VIDEO_0020, D3D12DDI_DEVICE_FUNCS_CORE_VIDEO_0020 structure [Display Devices], d3d12umddi/D3D12DDI_DEVICE_FUNCS_CORE_VIDEO_0020, display.d3d12ddi_device_funcs_core_video_0020
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3d12umddi.h
 api_name:
 -	D3D12DDI_DEVICE_FUNCS_CORE_VIDEO_0020
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D12DDI_DEVICE_FUNCS_CORE_VIDEO_0020
 ---
@@ -50,16 +51,6 @@ req.typenames: D3D12DDI_DEVICE_FUNCS_CORE_VIDEO_0020
 
 
 This structure contains device functions for core features in  video.
-
-
-## -syntax
-
-
-````
-typedef struct _D3D12DDI_DEVICE_FUNCS_CORE_VIDEO_0020 {
-  PFND3D12DDI_GETPAGEABLESIZE_0020 pfnGetPageableSize;
-} D3D12DDI_DEVICE_FUNCS_CORE_VIDEO_0020;
-````
 
 
 ## -struct-fields

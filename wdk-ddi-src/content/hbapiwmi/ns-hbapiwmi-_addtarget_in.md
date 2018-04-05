@@ -7,7 +7,7 @@ old-location: storage\addtarget_in.htm
 old-project: storage
 ms.assetid: 7c6a7ca8-83aa-41fe-92f5-6598464d9803
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PAddTarget_IN, AddTarget_IN, AddTarget_IN structure [Storage Devices], PAddTarget_IN, PAddTarget_IN structure pointer [Storage Devices], _AddTarget_IN, hbapiwmi/AddTarget_IN, hbapiwmi/PAddTarget_IN, storage.addtarget_in, structs-Fibre_7109b51c-872e-4e2e-affb-388fe21750d7.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	hbapiwmi.h
 api_name:
 -	AddTarget_IN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: AddTarget_IN, *PAddTarget_IN
 ---
@@ -50,18 +51,6 @@ req.typenames: AddTarget_IN, *PAddTarget_IN
 
 
 The AddPort_IN structure is used by a WMI client to deliver the input parameter data of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550136">AddTarget</a> WMI method to the HBA miniport driver.
-
-
-## -syntax
-
-
-````
-typedef struct _AddTarget_IN {
-  UCHAR HbaPortWWN[8];
-  UCHAR DiscoveredPortWWN[8];
-  ULONG AllTargets;
-} AddTarget_IN, *PAddTarget_IN;
-````
 
 
 ## -struct-fields
@@ -86,13 +75,11 @@ Indicates the scope of the target events to report. If this member is zero, the 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550136">AddTarget</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20AddTarget_IN structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: storage\mcd_init_data.htm
 old-project: storage
 ms.assetid: 4fc4c36f-a2ad-4b9f-a30b-e7ed600c38e9
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PMCD_INIT_DATA, MCD_INIT_DATA, MCD_INIT_DATA structure [Storage Devices], PMCD_INIT_DATA, PMCD_INIT_DATA structure pointer [Storage Devices], _MCD_INIT_DATA, mcd/MCD_INIT_DATA, mcd/PMCD_INIT_DATA, storage.mcd_init_data, structs-changer_f8810f4b-8465-4751-a885-cc68a88e45fb.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	mcd.h
 api_name:
 -	MCD_INIT_DATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MCD_INIT_DATA, *PMCD_INIT_DATA
 ---
@@ -50,31 +51,6 @@ req.typenames: MCD_INIT_DATA, *PMCD_INIT_DATA
 
 
 The changer miniclass driver fills the MCD_INIT_DATA structure with pointers to its internal command processing routines and passes them to the changer class driver. 
-
-
-## -syntax
-
-
-````
-typedef struct _MCD_INIT_DATA {
-  ULONG                       InitDataSize;
-  CHANGER_EXTENSION_SIZE      ChangerAdditionalExtensionSize;
-  CHANGER_INITIALIZE          ChangerInitialize;
-  CHANGER_ERROR_ROUTINE       ChangerError;
-  CHANGER_PERFORM_DIAGNOSTICS ChangerPerformDiagnostics;
-  CHANGER_COMMAND_ROUTINE     ChangerGetParameters;
-  CHANGER_COMMAND_ROUTINE     ChangerGetStatus;
-  CHANGER_COMMAND_ROUTINE     ChangerGetProductData;
-  CHANGER_COMMAND_ROUTINE     ChangerSetAccess;
-  CHANGER_COMMAND_ROUTINE     ChangerGetElementStatus;
-  CHANGER_COMMAND_ROUTINE     ChangerInitializeElementStatus;
-  CHANGER_COMMAND_ROUTINE     ChangerSetPosition;
-  CHANGER_COMMAND_ROUTINE     ChangerExchangeMedium;
-  CHANGER_COMMAND_ROUTINE     ChangerMoveMedium;
-  CHANGER_COMMAND_ROUTINE     ChangerReinitializeUnit;
-  CHANGER_COMMAND_ROUTINE     ChangerQueryVolumeTags;
-} MCD_INIT_DATA, *PMCD_INIT_DATA;
-````
 
 
 ## -struct-fields
@@ -169,7 +145,7 @@ NTSTATUS
 
 ### -field ChangerGetParameters
 
-Pointer to changer miniclass driver routine that handles the device-specific aspects of a device-control IRP with the IOCTL code <a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_get_parameters.md">IOCTL_CHANGER_GET_PARAMETERS</a>. This routine has the following prototype:
+Pointer to changer miniclass driver routine that handles the device-specific aspects of a device-control IRP with the IOCTL code <a href="https://msdn.microsoft.com/library/windows/hardware/ff559399">IOCTL_CHANGER_GET_PARAMETERS</a>. This routine has the following prototype:
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -189,7 +165,7 @@ NTSTATUS
 
 ### -field ChangerGetStatus
 
-Pointer to changer miniclass driver routine that handles the device-specific aspects of a device-control IRP with the IOCTL code <a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_get_status.md">IOCTL_CHANGER_GET_STATUS</a>. This routine has the following prototype:
+Pointer to changer miniclass driver routine that handles the device-specific aspects of a device-control IRP with the IOCTL code <a href="https://msdn.microsoft.com/library/windows/hardware/ff559405">IOCTL_CHANGER_GET_STATUS</a>. This routine has the following prototype:
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -209,7 +185,7 @@ NTSTATUS
 
 ### -field ChangerGetProductData
 
-Pointer to a changer miniclass driver routine that handles the device-specific aspects of a device-control IRP with the IOCTL code <a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_get_product_data.md">IOCTL_CHANGER_GET_PRODUCT_DATA</a>. This routine has the following prototype:
+Pointer to a changer miniclass driver routine that handles the device-specific aspects of a device-control IRP with the IOCTL code <a href="https://msdn.microsoft.com/library/windows/hardware/ff559402">IOCTL_CHANGER_GET_PRODUCT_DATA</a>. This routine has the following prototype:
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -229,7 +205,7 @@ NTSTATUS
 
 ### -field ChangerSetAccess
 
-Pointer to a changer miniclass driver routine that handles the device-specific aspects of a device-control IRP with the IOCTL code <a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_set_access.md">IOCTL_CHANGER_SET_ACCESS</a>. This routine has the following prototype:
+Pointer to a changer miniclass driver routine that handles the device-specific aspects of a device-control IRP with the IOCTL code <a href="https://msdn.microsoft.com/library/windows/hardware/ff559422">IOCTL_CHANGER_SET_ACCESS</a>. This routine has the following prototype:
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -249,7 +225,7 @@ NTSTATUS
 
 ### -field ChangerGetElementStatus
 
-Pointer to a changer miniclass driver routine that handles the device-specific aspects of a device-control IRP with the IOCTL code <a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_get_element_status.md">IOCTL_CHANGER_GET_ELEMENT_STATUS</a>. This routine has the following prototype:
+Pointer to a changer miniclass driver routine that handles the device-specific aspects of a device-control IRP with the IOCTL code <a href="https://msdn.microsoft.com/library/windows/hardware/ff559396">IOCTL_CHANGER_GET_ELEMENT_STATUS</a>. This routine has the following prototype:
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -269,7 +245,7 @@ NTSTATUS
 
 ### -field ChangerInitializeElementStatus
 
-Pointer to a changer miniclass driver routine that handles the device-specific aspects of a device-control IRP with the IOCTL code <a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_initialize_element_status.md">IOCTL_CHANGER_INITIALIZE_ELEMENT_STATUS</a>. This routine has the following prototype:
+Pointer to a changer miniclass driver routine that handles the device-specific aspects of a device-control IRP with the IOCTL code <a href="https://msdn.microsoft.com/library/windows/hardware/ff559409">IOCTL_CHANGER_INITIALIZE_ELEMENT_STATUS</a>. This routine has the following prototype:
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -289,7 +265,7 @@ NTSTATUS
 
 ### -field ChangerSetPosition
 
-Pointer to a changer miniclass driver routine that handles the device-specific aspects of a device-control IRP with the IOCTL code <a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_set_position.md">IOCTL_CHANGER_SET_POSITION</a>. This routine has the following prototype:
+Pointer to a changer miniclass driver routine that handles the device-specific aspects of a device-control IRP with the IOCTL code <a href="https://msdn.microsoft.com/library/windows/hardware/ff559425">IOCTL_CHANGER_SET_POSITION</a>. This routine has the following prototype:
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -309,7 +285,7 @@ NTSTATUS
 
 ### -field ChangerExchangeMedium
 
-Pointer to a changer miniclass driver routine that handles the device-specific aspects of a device-control IRP with the IOCTL code <a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_exchange_medium.md">IOCTL_CHANGER_EXCHANGE_MEDIUM</a>. This routine has the following prototype:
+Pointer to a changer miniclass driver routine that handles the device-specific aspects of a device-control IRP with the IOCTL code <a href="https://msdn.microsoft.com/library/windows/hardware/ff559391">IOCTL_CHANGER_EXCHANGE_MEDIUM</a>. This routine has the following prototype:
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -329,7 +305,7 @@ NTSTATUS
 
 ### -field ChangerMoveMedium
 
-Pointer to a changer miniclass driver routine that handles the device-specific aspects of a device-control IRP with the IOCTL code <a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_move_medium.md">IOCTL_CHANGER_MOVE_MEDIUM</a>. This routine has the following prototype:
+Pointer to a changer miniclass driver routine that handles the device-specific aspects of a device-control IRP with the IOCTL code <a href="https://msdn.microsoft.com/library/windows/hardware/ff559410">IOCTL_CHANGER_MOVE_MEDIUM</a>. This routine has the following prototype:
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -349,7 +325,7 @@ NTSTATUS
 
 ### -field ChangerReinitializeUnit
 
-Pointer to a changer miniclass driver routine that handles the device-specific aspects of a device-control IRP with the IOCTL code <a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_reinitialize_transport.md">IOCTL_CHANGER_REINITIALIZE_TRANSPORT</a>. This routine has the following prototype:
+Pointer to a changer miniclass driver routine that handles the device-specific aspects of a device-control IRP with the IOCTL code <a href="https://msdn.microsoft.com/library/windows/hardware/ff559419">IOCTL_CHANGER_REINITIALIZE_TRANSPORT</a>. This routine has the following prototype:
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -369,7 +345,7 @@ NTSTATUS
 
 ### -field ChangerQueryVolumeTags
 
-Pointer to a changer miniclass driver routine that handles the device-specific aspects of a device-control IRP with the IOCTL code of <a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_query_volume_tags.md">IOCTL_CHANGER_QUERY_VOLUME_TAGS</a>. This routine has the following prototype:
+Pointer to a changer miniclass driver routine that handles the device-specific aspects of a device-control IRP with the IOCTL code of <a href="https://msdn.microsoft.com/library/windows/hardware/ff559417">IOCTL_CHANGER_QUERY_VOLUME_TAGS</a>. This routine has the following prototype:
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -398,105 +374,103 @@ This structure is used by the changer driver in Windows XP and later operating s
 
 ## -see-also
 
-<a href="..\mcd\nf-mcd-changergetproductdata.md">ChangerGetProductData</a>
 
 
 
-<a href="..\mcd\nf-mcd-changersetposition.md">ChangerSetPosition</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551400">ChangerAdditionalExtensionSize</a>
 
 
 
-<a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_get_parameters.md">IOCTL_CHANGER_GET_PARAMETERS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551418">ChangerError</a>
 
 
 
-<a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_get_element_status.md">IOCTL_CHANGER_GET_ELEMENT_STATUS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551421">ChangerExchangeMedium</a>
 
 
 
-<a href="..\mcd\nf-mcd-changerreinitializeunit.md">ChangerReinitializeUnit</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551424">ChangerGetElementStatus</a>
 
 
 
-<a href="..\mcd\nf-mcd-changerinitializeelementstatus.md">ChangerInitializeElementStatus</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551425">ChangerGetParameters</a>
 
 
 
-<a href="..\mcd\nf-mcd-changergetstatus.md">ChangerGetStatus</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551427">ChangerGetProductData</a>
 
 
 
-<a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_set_access.md">IOCTL_CHANGER_SET_ACCESS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551429">ChangerGetStatus</a>
 
 
 
-<a href="..\mcd\nf-mcd-changerperformdiagnostics.md">ChangerPerformDiagnostics</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551431">ChangerInitialize</a>
 
 
 
-<a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_move_medium.md">IOCTL_CHANGER_MOVE_MEDIUM</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551433">ChangerInitializeElementStatus</a>
 
 
 
-<a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_exchange_medium.md">IOCTL_CHANGER_EXCHANGE_MEDIUM</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551436">ChangerMoveMedium</a>
 
 
 
-<a href="..\mcd\nf-mcd-changererror.md">ChangerError</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551438">ChangerPerformDiagnostics</a>
 
 
 
-<a href="..\mcd\nf-mcd-changerqueryvolumetags.md">ChangerQueryVolumeTags</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551440">ChangerQueryVolumeTags</a>
 
 
 
-<a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_get_status.md">IOCTL_CHANGER_GET_STATUS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551443">ChangerReinitializeUnit</a>
 
 
 
-<a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_set_position.md">IOCTL_CHANGER_SET_POSITION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551447">ChangerSetAccess</a>
 
 
 
-<a href="..\mcd\nf-mcd-changermovemedium.md">ChangerMoveMedium</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551449">ChangerSetPosition</a>
 
 
 
-<a href="..\mcd\nf-mcd-changerexchangemedium.md">ChangerExchangeMedium</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559391">IOCTL_CHANGER_EXCHANGE_MEDIUM</a>
 
 
 
-<a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_initialize_element_status.md">IOCTL_CHANGER_INITIALIZE_ELEMENT_STATUS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559396">IOCTL_CHANGER_GET_ELEMENT_STATUS</a>
 
 
 
-<a href="..\mcd\nf-mcd-changergetparameters.md">ChangerGetParameters</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559399">IOCTL_CHANGER_GET_PARAMETERS</a>
 
 
 
-<a href="..\mcd\nf-mcd-changeradditionalextensionsize.md">ChangerAdditionalExtensionSize</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559402">IOCTL_CHANGER_GET_PRODUCT_DATA</a>
 
 
 
-<a href="..\mcd\nf-mcd-changersetaccess.md">ChangerSetAccess</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559405">IOCTL_CHANGER_GET_STATUS</a>
 
 
 
-<a href="..\mcd\nf-mcd-changergetelementstatus.md">ChangerGetElementStatus</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559409">IOCTL_CHANGER_INITIALIZE_ELEMENT_STATUS</a>
 
 
 
-<a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_get_product_data.md">IOCTL_CHANGER_GET_PRODUCT_DATA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559410">IOCTL_CHANGER_MOVE_MEDIUM</a>
 
 
 
-<a href="..\mcd\nf-mcd-changerinitialize.md">ChangerInitialize</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559422">IOCTL_CHANGER_SET_ACCESS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559425">IOCTL_CHANGER_SET_POSITION</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20MCD_INIT_DATA structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

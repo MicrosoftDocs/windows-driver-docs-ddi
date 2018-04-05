@@ -7,7 +7,7 @@ old-location: display\miracast_chunk_data.htm
 old-project: display
 ms.assetid: 1ff4af0b-df1c-4529-9f80-c9e44d889a63
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: MIRACAST_CHUNK_DATA, MIRACAST_CHUNK_DATA structure [Display Devices], display.miracast_chunk_data, netdispumdddi/MIRACAST_CHUNK_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Netdispumdddi.h
 api_name:
 -	MIRACAST_CHUNK_DATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MIRACAST_CHUNK_DATA
 ---
@@ -49,19 +50,7 @@ req.typenames: MIRACAST_CHUNK_DATA
 ## -description
 
 
-Contains encode chunk data that is used when a user-mode driver calls the wireless display (Miracast) <a href="..\netdispumdddi\nc-netdispumdddi-pfn_get_next_chunk_data.md">GetNextChunkData</a> function.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  MIRACAST_CHUNK_INFO ChunkInfo;
-  UINT                PrivateDriverDataSize;
-  UCHAR               PrivateDriverData[1];
-} MIRACAST_CHUNK_DATA;
-````
+Contains encode chunk data that is used when a user-mode driver calls the wireless display (Miracast) <a href="https://msdn.microsoft.com/24b1d89a-4200-41ec-aa73-15b37e4cca6d">GetNextChunkData</a> function.
 
 
 ## -struct-fields
@@ -71,7 +60,7 @@ typedef struct {
 
 ### -field ChunkInfo
 
-A <a href="..\netdispumdddi\ns-netdispumdddi-miracast_chunk_info.md">MIRACAST_CHUNK_INFO</a> encode chunk information structure that the user-mode display driver wants to report.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/dn265473">MIRACAST_CHUNK_INFO</a> encode chunk information structure that the user-mode display driver wants to report.
 
 
 ### -field PrivateDriverDataSize
@@ -81,22 +70,20 @@ The size, in bytes, of the buffer that <b>pPrivateDriverData</b> points to.
 
 ### -field PrivateDriverData
 
-Private data, of type <b>UCHAR</b>, that the user-mode display driver sends when it calls the <a href="..\netdispumdddi\nc-netdispumdddi-pfn_get_next_chunk_data.md">GetNextChunkData</a> function.
+Private data, of type <b>UCHAR</b>, that the user-mode display driver sends when it calls the <a href="https://msdn.microsoft.com/24b1d89a-4200-41ec-aa73-15b37e4cca6d">GetNextChunkData</a> function.
 
 
 ## -see-also
 
-<a href="..\netdispumdddi\ns-netdispumdddi-miracast_chunk_info.md">MIRACAST_CHUNK_INFO</a>
 
 
 
-<a href="..\netdispumdddi\nc-netdispumdddi-pfn_get_next_chunk_data.md">GetNextChunkData</a>
+<a href="https://msdn.microsoft.com/24b1d89a-4200-41ec-aa73-15b37e4cca6d">GetNextChunkData</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265473">MIRACAST_CHUNK_INFO</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20MIRACAST_CHUNK_DATA structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

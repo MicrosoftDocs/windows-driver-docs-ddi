@@ -7,7 +7,7 @@ old-location: display\dxgkargcb_mapcontextallocation.htm
 old-project: display
 ms.assetid: F26E382F-D9F8-4452-983E-4523A77ADC35
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKARGCB_MAPCONTEXTALLOCATION, DXGKARGCB_MAPCONTEXTALLOCATION structure [Display Devices], _DXGKARGCB_MAPCONTEXTALLOCATION, d3dkmddi/DXGKARGCB_MAPCONTEXTALLOCATION, display.dxgkargcb_mapcontextallocation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGKARGCB_MAPCONTEXTALLOCATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGKARGCB_MAPCONTEXTALLOCATION
 ---
@@ -49,24 +50,7 @@ req.typenames: DXGKARGCB_MAPCONTEXTALLOCATION
 ## -description
 
 
-<b>DXGKARGCB_MAPCONTEXTALLOCATION</b> is used with <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_mapcontextallocation.md">DxgkCbMapContextAllocation</a> to map a graphics processing unit (GPU) virtual address to the specified context allocation.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGKARGCB_MAPCONTEXTALLOCATION {
-  D3DGPU_VIRTUAL_ADDRESS                  BaseAddress;
-  D3DGPU_VIRTUAL_ADDRESS                  MinimumAddress;
-  D3DGPU_VIRTUAL_ADDRESS                  MaximumAddress;
-  HANDLE                                  hAllocation;
-  D3DGPU_SIZE_T                           OffsetInPages;
-  D3DGPU_SIZE_T                           SizeInPages;
-  D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE Protection;
-  UINT64                                  DriverProtection;
-} DXGKARGCB_MAPCONTEXTALLOCATION;
-````
+<b>DXGKARGCB_MAPCONTEXTALLOCATION</b> is used with <a href="https://msdn.microsoft.com/8EAC322D-B666-428A-99A3-96E489611832">DxgkCbMapContextAllocation</a> to map a graphics processing unit (GPU) virtual address to the specified context allocation.
 
 
 ## -struct-fields
@@ -104,7 +88,7 @@ This parameter is ignored when <b>BaseAddress</b> != <b>NULL</b>.
 
 ### -field hAllocation
 
-Handle to the allocation being mapped into the GPU virtual address space. This is a DirectX graphics kernel  handle, returned by <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_createcontextallocation.md">DxgkCbCreateContextAllocation</a>.
+Handle to the allocation being mapped into the GPU virtual address space. This is a DirectX graphics kernel  handle, returned by <a href="https://msdn.microsoft.com/b6b142a4-20eb-4368-bd7f-8a25f4fe48ca">DxgkCbCreateContextAllocation</a>.
 
 
 ### -field OffsetInPages
@@ -129,17 +113,15 @@ Specifies the driver protection parameters.
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_createcontextallocation.md">DxgkCbCreateContextAllocation</a>
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_mapcontextallocation.md">DxgkCbMapContextAllocation</a>
+<a href="https://msdn.microsoft.com/b6b142a4-20eb-4368-bd7f-8a25f4fe48ca">DxgkCbCreateContextAllocation</a>
 
 
 
+<a href="https://msdn.microsoft.com/8EAC322D-B666-428A-99A3-96E489611832">DxgkCbMapContextAllocation</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKARGCB_MAPCONTEXTALLOCATION structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

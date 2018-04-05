@@ -7,7 +7,7 @@ old-location: display\dxgkmdt_opm_hdcp_key_selection_vector.htm
 old-project: display
 ms.assetid: a69eae04-a7e0-4d0c-a3e0-d49905096c8e
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKMDT_OPM_HDCP_KEY_SELECTION_VECTOR, DXGKMDT_OPM_HDCP_KEY_SELECTION_VECTOR structure [Display Devices], DmStructs_381ec3d0-fcf3-4153-8cc3-f2dda3f9684f.xml, _DXGKMDT_OPM_HDCP_KEY_SELECTION_VECTOR, d3dkmdt/DXGKMDT_OPM_HDCP_KEY_SELECTION_VECTOR, display.dxgkmdt_opm_hdcp_key_selection_vector
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmdt.h
 api_name:
 -	DXGKMDT_OPM_HDCP_KEY_SELECTION_VECTOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGKMDT_OPM_HDCP_KEY_SELECTION_VECTOR
 ---
@@ -50,16 +51,6 @@ req.typenames: DXGKMDT_OPM_HDCP_KEY_SELECTION_VECTOR
 
 
 The DXGKMDT_OPM_HDCP_KEY_SELECTION_VECTOR structure contains a key-selection vector (KSV) for a High-bandwidth Digital Content Protection (HDCP) protected output.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGKMDT_OPM_HDCP_KEY_SELECTION_VECTOR {
-  BYTE abKeySelectionVector[DXGKMDT_OPM_HDCP_KEY_SELECTION_VECTOR_SIZE];
-} DXGKMDT_OPM_HDCP_KEY_SELECTION_VECTOR;
-````
 
 
 ## -struct-fields
@@ -83,13 +74,11 @@ For more information about the HDCP KSV, see the <a href="http://go.microsoft.co
 
 ## -see-also
 
-<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_connected_hdcp_device_information.md">DXGKMDT_OPM_CONNECTED_HDCP_DEVICE_INFORMATION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560854">DXGKMDT_OPM_CONNECTED_HDCP_DEVICE_INFORMATION</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKMDT_OPM_HDCP_KEY_SELECTION_VECTOR structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

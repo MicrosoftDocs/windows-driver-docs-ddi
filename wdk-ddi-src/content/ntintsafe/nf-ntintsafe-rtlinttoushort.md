@@ -7,7 +7,7 @@ old-location: kernel\rtlinttoushort.htm
 old-project: kernel
 ms.assetid: 52571477-80F5-4848-8BCC-AFA70140FABE
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/28/2018
 ms.keywords: RtlIntToUShort, RtlIntToUShort function [Kernel-Mode Driver Architecture], kernel.rtlinttoushort, ntintsafe/RtlIntToUShort
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	Ntintsafe.h
 api_name:
 -	RtlIntToUShort
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 ---
@@ -50,17 +51,6 @@ req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 
 
 Converts a value of type <b>INT</b> to a value of type <b>USHORT</b>.
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlIntToUShort(
-  _In_  INT    iOperand,
-  _Out_ USHORT *pusResult
-);
-````
 
 
 ## -parameters

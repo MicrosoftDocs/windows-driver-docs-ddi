@@ -7,7 +7,7 @@ old-location: kernel\pep_low_power_epoch.htm
 old-project: kernel
 ms.assetid: 730312DE-5F11-46C8-8298-55AA5756C995
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/28/2018
 ms.keywords: "*PPEP_LOW_POWER_EPOCH, PEP_LOW_POWER_EPOCH, PEP_LOW_POWER_EPOCH structure [Kernel-Mode Driver Architecture], PPEP_LOW_POWER_EPOCH, PPEP_LOW_POWER_EPOCH structure pointer [Kernel-Mode Driver Architecture], _PEP_LOW_POWER_EPOCH, kernel.pep_low_power_epoch, pepfx/PEP_LOW_POWER_EPOCH, pepfx/PPEP_LOW_POWER_EPOCH"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	pepfx.h
 api_name:
 -	PEP_LOW_POWER_EPOCH
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PEP_LOW_POWER_EPOCH, *PPEP_LOW_POWER_EPOCH, PEP_LOW_POWER_EPOCH, *PPEP_LOW_POWER_EPOCH
 ---
@@ -50,16 +51,6 @@ req.typenames: PEP_LOW_POWER_EPOCH, *PPEP_LOW_POWER_EPOCH, PEP_LOW_POWER_EPOCH, 
 
 
 The <b>PEP_LOW_POWER_EPOCH</b> structure is used to provide data for a <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186748">PEP_DPM_LOW_POWER_EPOCH</a> notification (deprecated).
-
-
-## -syntax
-
-
-````
-typedef struct _PEP_LOW_POWER_EPOCH {
-  BOOLEAN LowPowerEpoch;
-} PEP_LOW_POWER_EPOCH, *PPEP_LOW_POWER_EPOCH;
-````
 
 
 ## -struct-fields
@@ -74,13 +65,11 @@ When <b>TRUE</b>, indicates that the low power epoch is on.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186748">PEP_DPM_LOW_POWER_EPOCH notification</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PEP_LOW_POWER_EPOCH structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

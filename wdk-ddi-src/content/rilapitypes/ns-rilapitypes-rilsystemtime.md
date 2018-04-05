@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILSYSTEMTIME
 title: RILSYSTEMTIME
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilsystemtime_2.htm
+old-location: netvista\rilsystemtime.htm
 old-project: netvista
-ms.assetid: 436fd67e-6696-4079-9bcf-7260de3bbc00
+ms.assetid: da01963f-a0eb-4222-b0c7-20b924f65f66
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: "*LPRILSYSTEMTIME, RILSYSTEMTIME, RILSYSTEMTIME structure [Network Drivers Starting with Windows Vista], netvista.rilsystemtime_2, rilapitypes/RILSYSTEMTIME"
+ms.date: 3/26/2018
+ms.keywords: "*LPRILSYSTEMTIME, RILSYSTEMTIME, RILSYSTEMTIME structure [Network Drivers Starting with Windows Vista], netvista.rilsystemtime, ntddrilapitypes/RILSYSTEMTIME"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,10 +35,11 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILSYSTEMTIME
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILSYSTEMTIME, *LPRILSYSTEMTIME
 req.product: Windows 10 or later.
@@ -50,24 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-
-## -syntax
-
-
-````
-typedef struct _RILSYSTEMTIME {
-  WORD  wYear;
-  WORD  wMonth;
-  WORD  wDayOfWeek;
-  WORD  wDay;
-  WORD  wHour;
-  WORD  wMinute;
-  WORD  wSecond;
-  WORD  wMilliseconds;
-} RILSYSTEMTIME, RILSYSTEMTIME;
-````
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -struct-fields

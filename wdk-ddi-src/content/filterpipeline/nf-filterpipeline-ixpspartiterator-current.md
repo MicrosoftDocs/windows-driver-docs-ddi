@@ -7,7 +7,7 @@ old-location: print\ixpspartiterator_current.htm
 old-project: print
 ms.assetid: ccc8125a-c571-4267-860a-11fc313e395c
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: Current method [Print Devices], Current method [Print Devices], IXpsPartIterator interface, Current,IXpsPartIterator.Current, IXpsPartIterator, IXpsPartIterator interface [Print Devices], Current method, IXpsPartIterator::Current, filterpipeline/IXpsPartIterator::Current, filterpipeline_72cbd5d6-003c-410b-a943-bfd6552df8ee.xml, print.ixpspartiterator_current
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: filterpipeline.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	filterpipeline.h
 api_name:
 -	IXpsPartIterator.Current
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
@@ -50,17 +51,6 @@ req.typenames: EXpsFontRestriction
 
 
 The <code>Current</code> method provides the current URI and part.
-
-
-## -syntax
-
-
-````
-HRESULT Current(
-  [out] BSTR     *pUri,
-  [out] IUnknown **ppXpsPart
-);
-````
 
 
 ## -parameters

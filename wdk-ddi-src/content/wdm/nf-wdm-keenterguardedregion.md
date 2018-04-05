@@ -7,7 +7,7 @@ old-location: kernel\keenterguardedregion.htm
 old-project: kernel
 ms.assetid: 9a21495e-8a4d-4177-a2c5-b6a928d86fd9
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/28/2018
 ms.keywords: KeEnterGuardedRegion, KeEnterGuardedRegion routine [Kernel-Mode Driver Architecture], k105_0f632d64-85dc-4c0f-8a26-8b4710673ab5.xml, kernel.keenterguardedregion, wdm/KeEnterGuardedRegion
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	KeEnterGuardedRegion
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
@@ -51,14 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>KeEnterGuardedRegion</b> routine enters a guarded region, which disables all kernel-mode APC delivery to the current thread. 
-
-
-## -syntax
-
-
-````
-VOID KeEnterGuardedRegion(void);
-````
 
 
 ## -parameters
@@ -90,13 +83,11 @@ For more information about guarded regions, see <a href="https://msdn.microsoft.
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-keleaveguardedregion.md">KeLeaveGuardedRegion</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552967">KeLeaveGuardedRegion</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KeEnterGuardedRegion routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

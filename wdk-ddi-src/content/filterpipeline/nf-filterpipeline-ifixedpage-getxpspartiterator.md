@@ -7,7 +7,7 @@ old-location: print\ifixedpage_getxpspartiterator.htm
 old-project: print
 ms.assetid: c4605d9c-b12c-4056-bf19-a67df3ef8c8b
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: GetXpsPartIterator method [Print Devices], GetXpsPartIterator method [Print Devices], IFixedPage interface, GetXpsPartIterator,IFixedPage.GetXpsPartIterator, IFixedPage, IFixedPage interface [Print Devices], GetXpsPartIterator method, IFixedPage::GetXpsPartIterator, filterpipeline/IFixedPage::GetXpsPartIterator, filterpipeline_da8f4ed6-71b0-4d95-867b-7389815fd072.xml, print.ifixedpage_getxpspartiterator
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: filterpipeline.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	filterpipeline.h
 api_name:
 -	IFixedPage.GetXpsPartIterator
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
@@ -50,16 +51,6 @@ req.typenames: EXpsFontRestriction
 
 
 The <b>GetXpsPartIterator</b> method gets an iterator to enumerate all of the parts that are associated with the page. 
-
-
-## -syntax
-
-
-````
-HRESULT GetXpsPartIterator(
-  [out] IXpsPartIterator **pXpsPartIt
-);
-````
 
 
 ## -parameters

@@ -7,7 +7,7 @@ old-location: wdf\wdfcompanioncreatetaskqueue.htm
 old-project: wdf
 ms.assetid: 05298ffe-75e5-444e-9843-54dd063f59f5
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/26/2018
 ms.keywords: WdfCompanionCreateTaskQueue, WdfCompanionCreateTaskQueue method, wdf.wdfcompanioncreatetaskqueue, wdfcompanion/WdfCompanionCreateTaskQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	wdfcompanion.h
 api_name:
 -	WdfCompanionCreateTaskQueue
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_TASK_QUEUE_DISPATCH_TYPE
 req.product: Windows 10 or later.
@@ -52,19 +53,6 @@ req.product: Windows 10 or later.
 
 
 			For internal use only.
-
-
-## -syntax
-
-
-````
-NTSTATUS WdfCompanionCreateTaskQueue(
-  _In_      WDFCOMPANION           Companion,
-  _In_      PWDF_TASK_QUEUE_CONFIG Config,
-  _In_opt_  PWDF_OBJECT_ATTRIBUTES QueueAttributes,
-  _Out_opt_ WDFTASKQUEUE           *Queue
-);
-````
 
 
 ## -parameters

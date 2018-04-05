@@ -7,7 +7,7 @@ old-location: storage\dsm_querysupportedlbpolicies.htm
 old-project: storage
 ms.assetid: c9c04601-783a-454d-a80e-be8aa5df519a
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PDSM_QuerySupportedLBPolicies, DSM_QuerySupportedLBPolicies, DSM_QuerySupportedLBPolicies structure [Storage Devices], PDSM_QuerySupportedLBPolicies, PDSM_QuerySupportedLBPolicies structure pointer [Storage Devices], _DSM_QuerySupportedLBPolicies, mpiodisk/DSM_QuerySupportedLBPolicies, mpiodisk/PDSM_QuerySupportedLBPolicies, storage.dsm_querysupportedlbpolicies, structs-scsibus_44692da4-cfd1-4492-94b5-1f601fa53fd0.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	mpiodisk.h
 api_name:
 -	DSM_QuerySupportedLBPolicies
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DSM_QuerySupportedLBPolicies, *PDSM_QuerySupportedLBPolicies
 ---
@@ -50,18 +51,6 @@ req.typenames: DSM_QuerySupportedLBPolicies, *PDSM_QuerySupportedLBPolicies
 
 
 The DSM_QuerySupportedLBPolicies structure is used to query the list of load balance policies that are supported on the LUN.
-
-
-## -syntax
-
-
-````
-typedef struct _DSM_QuerySupportedLBPolicies {
-  ULONG                   SupportedLBPoliciesCount;
-  ULONG                   Reserved;
-  DSM_Load_Balance_Policy Supported_LB_Policies[1];
-} DSM_QuerySupportedLBPolicies, *PDSM_QuerySupportedLBPolicies;
-````
 
 
 ## -struct-fields

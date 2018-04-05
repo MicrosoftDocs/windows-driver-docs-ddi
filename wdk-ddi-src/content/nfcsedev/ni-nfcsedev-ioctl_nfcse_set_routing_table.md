@@ -38,18 +38,14 @@ api_location:
 -	nfcsedev.h
 api_name:
 -	IOCTL_NFCSE_SET_ROUTING_TABLE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SECURE_ELEMENT_TYPE, *PSECURE_ELEMENT_TYPE
 ---
 
 # IOCTL_NFCSE_SET_ROUTING_TABLE IOCTL
 
-
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -67,7 +63,7 @@ Configures NFC controller listen mode routing table. Note that caller has to sen
 ### -input-buffer
 
 
-<a href="..\nfcsedev\ns-nfcsedev-_secure_element_routing_table.md"> SECURE_ELEMENT_ROUTING_TABLE</a> containing all currently configured routing entries.
+<a href="https://msdn.microsoft.com/AD5E6434-BBBF-44CB-8153-B8F4D4F75E94"> SECURE_ELEMENT_ROUTING_TABLE</a> containing all currently configured routing entries.
 
 
 

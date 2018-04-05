@@ -7,7 +7,7 @@ old-location: display\d3d12ddiarg-video-process-input-stream-arguments-0032.htm
 old-project: display
 ms.assetid: b6eafa0c-1b5e-4723-9317-60f1507f12ea
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS_0032, D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS_0032 structure [Display Devices], d3d12umddi/D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS_0032, display.d3d12ddiarg-video-process-input-stream-arguments-0032
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3d12umddi.h
 api_name:
 -	D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS_0032
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS_0032
 ---
@@ -52,21 +53,6 @@ req.typenames: D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS_0032
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 The video process input stream arguments.
-
-
-## -syntax
-
-
-````
-typedef struct _D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS_0032 {
-  D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_0020 [2]        InputStream;
-  D3D12DDI_VIDEO_PROCESS_TRANSFORM_0032               Transform;
-  D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_FLAGS_0020      Flags;
-  D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_RATE_INFO_0032  RateInfo;
-  INT [D3D12DDI_VIDEO_PROCESS_MAX_FILTERS_0020]       FilterLevels;
-  D3D12DDI_VIDEO_PROCESS_ALPHA_BLENDING_0020          AlphaBlending;
-} D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS_0032, D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS_0032;
-````
 
 
 ## -struct-fields

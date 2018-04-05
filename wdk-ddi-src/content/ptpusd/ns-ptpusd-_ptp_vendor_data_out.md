@@ -7,7 +7,7 @@ old-location: image\ptp_vendor_data_out.htm
 old-project: image
 ms.assetid: 2585c7ce-6dba-491a-86c1-5ee69f28136f
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/27/2018
 ms.keywords: "*PPTP_VENDOR_DATA_OUT, PPTP_VENDOR_DATA_OUT, PPTP_VENDOR_DATA_OUT structure pointer [Imaging Devices], PTP_VENDOR_DATA_OUT, PTP_VENDOR_DATA_OUT structure [Imaging Devices], _PTP_VENDOR_DATA_OUT, image.ptp_vendor_data_out, ptpusd/PPTP_VENDOR_DATA_OUT, ptpusd/PTP_VENDOR_DATA_OUT, wiastrct_032c0aa0-aec8-440d-b528-de1b739d2e1d.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ptpusd.h
 api_name:
 -	PTP_VENDOR_DATA_OUT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PTP_VENDOR_DATA_OUT, *PPTP_VENDOR_DATA_OUT
 req.product: Windows 10 or later.
@@ -51,20 +52,6 @@ req.product: Windows 10 or later.
 
 
 The PTP_VENDOR_DATA_OUT structure contains information that the device sends to an application, in response to a command the application issued to the device.
-
-
-## -syntax
-
-
-````
-typedef struct _PTP_VENDOR_DATA_OUT {
-  WORD  ResponseCode;
-  DWORD SessionId;
-  DWORD TransactionId;
-  DWORD Params[PTP_MAX_PARAMS];
-  BYTE  VendorReadData[1];
-} PTP_VENDOR_DATA_OUT, *PPTP_VENDOR_DATA_OUT;
-````
 
 
 ## -struct-fields
@@ -110,13 +97,11 @@ For more information about the response codes used in the <b>ResponseCode</b> me
 
 ## -see-also
 
-<a href="..\ptpusd\ns-ptpusd-_ptp_vendor_data_in.md">PTP_VENDOR_DATA_IN</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546450">PTP_VENDOR_DATA_IN</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20PTP_VENDOR_DATA_OUT structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

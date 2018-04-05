@@ -38,7 +38,8 @@ api_location:
 -	1394.h
 api_name:
 -	ADDRESS_RANGE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: ADDRESS_RANGE, *PADDRESS_RANGE
 ---
@@ -50,18 +51,6 @@ req.typenames: ADDRESS_RANGE, *PADDRESS_RANGE
 
 
 The ADDRESS_RANGE structure describes a range in a IEEE 1394 device's address space.
-
-
-## -syntax
-
-
-````
-typedef struct _ADDRESS_RANGE {
-  USHORT AR_Off_High;
-  USHORT AR_Length;
-  ULONG  AR_Off_Low;
-} ADDRESS_RANGE, *PADDRESS_RANGE;
-````
 
 
 ## -struct-fields
@@ -86,7 +75,6 @@ Specifies the low order bits of the 1394 address within the buffer.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537640">REQUEST_FREE_ADDRESS_RANGE</a>
 
 
 
@@ -94,9 +82,8 @@ Specifies the low order bits of the 1394 address within the buffer.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537640">REQUEST_FREE_ADDRESS_RANGE</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [IEEE\buses]:%20ADDRESS_RANGE structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

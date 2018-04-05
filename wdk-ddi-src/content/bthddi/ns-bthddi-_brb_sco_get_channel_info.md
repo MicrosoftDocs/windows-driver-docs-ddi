@@ -38,7 +38,8 @@ api_location:
 -	bthddi.h
 api_name:
 -	_BRB_SCO_GET_CHANNEL_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -53,30 +54,6 @@ The _BRB_SCO_GET_CHANNEL_INFO structure describes the settings and statistics of
   channel.
 
 
-## -syntax
-
-
-````
-struct _BRB_SCO_GET_CHANNEL_INFO {
-  BRB_HEADER                Hdr;
-  BTH_ADDR                  BtAddress;
-  SCO_CHANNEL_HANDLE        ChannelHandle;
-  ULONG                     InfoFlags;
-  ULONG                     TransmitBandwidth;
-  ULONG                     ReceiveBandwidth;
-  USHORT                    MaxLatency;
-  USHORT                    PacketType;
-  USHORT                    ContentFormat;
-  USHORT                    Reserved;
-  SCO_RETRANSMISSION_EFFORT RetransmissionEffort;
-  ULONG                     ChannelFlags;
-  CONNECTION_HANDLE         HciConnectionHandle;
-  SCO_LINK_TYPE             LinkType;
-  BASEBAND_CHANNEL_INFO     BasebandInfo;
-};
-````
-
-
 ## -struct-fields
 
 
@@ -85,7 +62,7 @@ struct _BRB_SCO_GET_CHANNEL_INFO {
 ### -field Hdr
 
 A 
-     <a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a> structure that contains information
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536612">BRB_HEADER</a> structure that contains information
      about the current BRB.
 
 
@@ -262,7 +239,7 @@ Reserved for future use. Do not use.
 ### -field RetransmissionEffort
 
 A 
-     <a href="..\bthddi\ne-bthddi-_sco_retransmission_effort.md">SCO_RETRANSMISSION_EFFORT</a> value that
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536783">SCO_RETRANSMISSION_EFFORT</a> value that
      determines the channel's retransmission policies.
 
 
@@ -319,14 +296,14 @@ The host controller interface's connection handle for the SCO connection.
 ### -field LinkType
 
 The 
-     <a href="..\bthddi\ne-bthddi-_sco_link_type.md">SCO_LINK_TYPE</a> that is associated with the host
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536781">SCO_LINK_TYPE</a> that is associated with the host
      controller interface.
 
 
 ### -field BasebandInfo
 
 A 
-     <a href="..\bthddi\ns-bthddi-_baseband_channel_info.md">BASEBAND_CHANNEL_INFO</a> structure that
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536578">BASEBAND_CHANNEL_INFO</a> structure that
      contains information for the SCO connection. This information is only available for links established
      using the 1.2 Bluetooth Synchronous Commands.
 
@@ -345,19 +322,14 @@ To get the settings and statistics of a SCO channel, profile drivers should
 
 ## -see-also
 
-<a href="..\bthddi\ne-bthddi-_sco_link_type.md">SCO_LINK_TYPE</a>
 
 
 
-<a href="..\bthddi\ns-bthddi-_baseband_channel_info.md">BASEBAND_CHANNEL_INFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536578">BASEBAND_CHANNEL_INFO</a>
 
 
 
-<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
-
-
-
-<a href="..\bthddi\ne-bthddi-_sco_retransmission_effort.md">SCO_RETRANSMISSION_EFFORT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536612">BRB_HEADER</a>
 
 
 
@@ -365,9 +337,12 @@ To get the settings and statistics of a SCO channel, profile drivers should
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536781">SCO_LINK_TYPE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536783">SCO_RETRANSMISSION_EFFORT</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20_BRB_SCO_GET_CHANNEL_INFO structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

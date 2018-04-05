@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	IOCTL_KS_HANDSHAKE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -46,18 +47,13 @@ req.typenames:
 # IOCTL_KS_HANDSHAKE IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
 
-A kernel-mode client can use IOCTL_KS_HANDSHAKE to negotiate an interface between unconnected AVStream pins. The client calls <a href="..\ksproxy\nf-ksproxy-kssynchronousdevicecontrol.md">KsSynchronousDeviceControl</a> with IOCTL_KS_HANDSHAKE and the parameters described below.
+A kernel-mode client can use IOCTL_KS_HANDSHAKE to negotiate an interface between unconnected AVStream pins. The client calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff567142">KsSynchronousDeviceControl</a> with IOCTL_KS_HANDSHAKE and the parameters described below.
 
-To attempt a protocol handshake with a pin that is already connected, call <a href="..\ks\nf-ks-kspinhandshake.md">KsPinHandshake</a>.
+To attempt a protocol handshake with a pin that is already connected, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff563519">KsPinHandshake</a>.
 
 
 
@@ -69,7 +65,7 @@ To attempt a protocol handshake with a pin that is already connected, call <a hr
 
 ### -input-buffer
 
-The client places a pointer to a structure of type <a href="..\ks\ns-ks-kshandshake.md">KSHANDSHAKE</a> in the <b>InBuffer</b> parameter. 
+The client places a pointer to a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff562673">KSHANDSHAKE</a> in the <b>InBuffer</b> parameter. 
 
 
 ### -input-buffer-length
@@ -79,7 +75,7 @@ The client places a pointer to a structure of type <a href="..\ks\ns-ks-kshandsh
 
 ### -output-buffer
 
-The client places a pointer to a structure of type <a href="..\ks\ns-ks-kshandshake.md">KSHANDSHAKE</a> in the <b>OutBuffer</b> parameter. If the request is successful, handshake information is placed in this location.
+The client places a pointer to a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff562673">KSHANDSHAKE</a> in the <b>OutBuffer</b> parameter. If the request is successful, handshake information is placed in this location.
 
 
 ### -output-buffer-length
@@ -116,25 +112,23 @@ If the <b>InLength</b> and <b>OutLength</b> parameters in the call to <b>KsSynch
 
 ## -see-also
 
-<a href="..\ks\nc-ks-pfnkspinhandshake.md">AVStrMiniPinHandshake</a>
 
 
 
-<a href="..\ks\nf-ks-kspinregisterhandshakecallback.md">KsPinRegisterHandshakeCallback</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556338">AVStrMiniPinHandshake</a>
 
 
 
-<a href="..\ks\nf-ks-kspinhandshake.md">KsPinHandshake</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562673">KSHANDSHAKE</a>
 
 
 
-<a href="..\ks\ns-ks-kshandshake.md">KSHANDSHAKE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563519">KsPinHandshake</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563523">KsPinRegisterHandshakeCallback</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20IOCTL_KS_HANDSHAKE control code%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

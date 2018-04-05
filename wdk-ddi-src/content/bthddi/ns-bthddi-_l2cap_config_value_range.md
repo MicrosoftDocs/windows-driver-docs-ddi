@@ -38,7 +38,8 @@ api_location:
 -	bthddi.h
 api_name:
 -	L2CAP_CONFIG_VALUE_RANGE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: L2CAP_CONFIG_VALUE_RANGE, *PL2CAP_CONFIG_VALUE_RANGE
 ---
@@ -52,19 +53,7 @@ req.typenames: L2CAP_CONFIG_VALUE_RANGE, *PL2CAP_CONFIG_VALUE_RANGE
 The L2CAP_CONFIG_VALUE_RANGE structure is used to specify values for the 
   <b>Mtu</b> and 
   <b>FlushTO</b> members of the 
-  <a href="..\bthddi\ns-bthddi-_brb_l2ca_open_channel.md">_BRB_L2CA_OPEN_CHANNEL</a> structure.
-
-
-## -syntax
-
-
-````
-typedef struct _L2CAP_CONFIG_VALUE_RANGE {
-  USHORT Min;
-  USHORT Preferred;
-  USHORT Max;
-} L2CAP_CONFIG_VALUE_RANGE, *PL2CAP_CONFIG_VALUE_RANGE;
-````
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff536860">_BRB_L2CA_OPEN_CHANNEL</a> structure.
 
 
 ## -struct-fields
@@ -121,7 +110,7 @@ If the remote device rejects the profile driver's
 The profile driver negotiates these values separately from the flush timeout settings that it sends to
     the Bluetooth driver stack when a remote device attempts to create an inbound L2CAP channel to the
     profile driver. For more information about L2CAP configuration ranges, see 
-    <a href="..\bthddi\ns-bthddi-_l2cap_config_range.md">L2CAP_CONFIG_RANGE</a>.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff536760">L2CAP_CONFIG_RANGE</a>.
 
 For 
     <b>Mtu</b> members settings, this structure provides 
@@ -134,13 +123,11 @@ For
 
 ## -see-also
 
-<a href="..\bthddi\ns-bthddi-_brb_l2ca_open_channel.md">_BRB_L2CA_OPEN_CHANNEL</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536860">_BRB_L2CA_OPEN_CHANNEL</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20L2CAP_CONFIG_VALUE_RANGE structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

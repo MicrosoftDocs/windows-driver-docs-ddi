@@ -7,7 +7,7 @@ old-location: debugger\extremotetyped_dereference.htm
 old-project: debugger
 ms.assetid: 27a90926-95f4-43cd-b8d1-1b60ad23d737
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/26/2018
 ms.keywords: Dereference method [Windows Debugging], Dereference method [Windows Debugging], ExtRemoteTyped interface, Dereference,ExtRemoteTyped.Dereference, EngExtCpp_Ref_d195c66d-88c1-4099-a227-0dd86d9d67e2.xml, ExtRemoteTyped, ExtRemoteTyped interface [Windows Debugging], Dereference method, ExtRemoteTyped::Dereference, debugger.extremotetyped_dereference
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: engextcpp.hpp
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	engextcpp.hpp
 api_name:
 -	ExtRemoteTyped.Dereference
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 ---
@@ -50,14 +51,6 @@ req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 
 
 The <b>Dereference</b> method returns the typed data that is pointed to by the typed data represented by this object.
-
-
-## -syntax
-
-
-````
-ExtRemoteData Dereference();
-````
 
 
 ## -parameters

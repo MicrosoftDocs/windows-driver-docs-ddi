@@ -7,7 +7,7 @@ old-location: display\d3d10ddi_vertex_cache_desc.htm
 old-project: display
 ms.assetid: c6cff037-436c-4c7e-85b8-02c9d7827f95
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: D3D10DDI_VERTEX_CACHE_DESC, D3D10DDI_VERTEX_CACHE_DESC structure [Display Devices], UMDisplayDriver_Dx10param_Structs_585c3ccc-83c7-4d3b-903d-7eac81a1c21c.xml, d3d10umddi/D3D10DDI_VERTEX_CACHE_DESC, display.d3d10ddi_vertex_cache_desc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3d10umddi.h
 api_name:
 -	D3D10DDI_VERTEX_CACHE_DESC
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D10DDI_VERTEX_CACHE_DESC
 ---
@@ -50,19 +51,6 @@ req.typenames: D3D10DDI_VERTEX_CACHE_DESC
 
 
 The D3D10DDI_VERTEX_CACHE_DESC structure describes mesh-optimization data.
-
-
-## -syntax
-
-
-````
-typedef struct D3D10DDI_VERTEX_CACHE_DESC {
-  UINT Pattern;
-  UINT OptMethod;
-  UINT CacheSize;
-  UINT MagicNumber;
-} D3D10DDI_VERTEX_CACHE_DESC;
-````
 
 
 ## -struct-fields

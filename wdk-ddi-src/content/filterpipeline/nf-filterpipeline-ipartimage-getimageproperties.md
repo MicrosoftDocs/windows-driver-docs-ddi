@@ -7,7 +7,7 @@ old-location: print\ipartimage_getimageproperties.htm
 old-project: print
 ms.assetid: 7ce333a3-86a2-47e5-b755-fd84469c8785
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: GetImageProperties method [Print Devices], GetImageProperties method [Print Devices], IPartImage interface, GetImageProperties,IPartImage.GetImageProperties, IPartImage, IPartImage interface [Print Devices], GetImageProperties method, IPartImage::GetImageProperties, filterpipeline/IPartImage::GetImageProperties, filterpipeline_06d3e014-e30a-44d2-a6e0-769cb62c387d.xml, print.ipartimage_getimageproperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: filterpipeline.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	filterpipeline.h
 api_name:
 -	IPartImage.GetImageProperties
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
@@ -50,16 +51,6 @@ req.typenames: EXpsFontRestriction
 
 
 The <b>GetImageProperties</b> method gets an image property that is based on the content type.
-
-
-## -syntax
-
-
-````
-HRESULT GetImageProperties(
-  [out] BSTR *pContentType
-);
-````
 
 
 ## -parameters

@@ -7,7 +7,7 @@ old-location: kernel\write_port_buffer_ulong.htm
 old-project: kernel
 ms.assetid: 6f786456-344a-4fc3-bc13-8d4253f4039a
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/28/2018
 ms.keywords: WRITE_PORT_BUFFER_ULONG, WRITE_PORT_BUFFER_ULONG routine [Kernel-Mode Driver Architecture], k103_821262d5-40d2-435b-965e-cf0a917736b3.xml, kernel.write_port_buffer_ulong, wdm/WRITE_PORT_BUFFER_ULONG
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Hal.dll
 api_name:
 -	WRITE_PORT_BUFFER_ULONG
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MEMORY_CACHING_TYPE
 ---
@@ -51,18 +52,6 @@ req.typenames: MEMORY_CACHING_TYPE
 
 
 The <b>WRITE_PORT_BUFFER_ULONG</b> routine writes a number of ULONG values from a buffer to the specified port address.
-
-
-## -syntax
-
-
-````
- VOID WRITE_PORT_BUFFER_ULONG(
-  _In_ PULONG Port,
-  _In_ PULONG Buffer,
-  _In_ ULONG  Count
-);
-````
 
 
 ## -parameters

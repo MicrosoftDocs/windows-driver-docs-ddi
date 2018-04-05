@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILVOICEDOMAIN
 title: RILVOICEDOMAIN
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilvoicedomain_2.htm
+old-location: netvista\rilvoicedomain.htm
 old-project: netvista
-ms.assetid: bc0e9ba8-c790-402a-900a-7ae2b4f76060
+ms.assetid: a7154c32-bca6-482d-b1f9-7c090a7ce432
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: RILVOICEDOMAIN, RILVOICEDOMAIN enumeration [Network Drivers Starting with Windows Vista], RIL_VOICE_DOMAIN_3GPP, RIL_VOICE_DOMAIN_3GPP2, RIL_VOICE_DOMAIN_IMS, RIL_VOICE_DOMAIN_MAX, netvista.rilvoicedomain_2, rilapitypes/RILVOICEDOMAIN, rilapitypes/RIL_VOICE_DOMAIN_3GPP, rilapitypes/RIL_VOICE_DOMAIN_3GPP2, rilapitypes/RIL_VOICE_DOMAIN_IMS, rilapitypes/RIL_VOICE_DOMAIN_MAX
+ms.date: 3/26/2018
+ms.keywords: RILVOICEDOMAIN, RILVOICEDOMAIN enumeration [Network Drivers Starting with Windows Vista], RIL_VOICE_DOMAIN_3GPP, RIL_VOICE_DOMAIN_3GPP2, RIL_VOICE_DOMAIN_IMS, RIL_VOICE_DOMAIN_MAX, netvista.rilvoicedomain, ntddrilapitypes/RILVOICEDOMAIN, ntddrilapitypes/RIL_VOICE_DOMAIN_3GPP, ntddrilapitypes/RIL_VOICE_DOMAIN_3GPP2, ntddrilapitypes/RIL_VOICE_DOMAIN_IMS, ntddrilapitypes/RIL_VOICE_DOMAIN_MAX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -35,10 +35,11 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILVOICEDOMAIN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILVOICEDOMAIN
 req.product: Windows 10 or later.
@@ -50,20 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-
-## -syntax
-
-
-````
-typedef enum _RILVOICEDOMAIN { 
-  RIL_VOICE_DOMAIN_3GPP,
-  RIL_VOICE_DOMAIN_3GPP2,
-  RIL_VOICE_DOMAIN_IMS,
-  RIL_VOICE_DOMAIN_MAX
-} RILVOICEDOMAIN;
-````
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -enum-fields

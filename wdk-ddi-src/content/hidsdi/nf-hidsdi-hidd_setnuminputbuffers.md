@@ -38,7 +38,8 @@ api_location:
 -	Hid.dll
 api_name:
 -	HidD_SetNumInputBuffers
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: HID_MINIDRIVER_REGISTRATION, *PHID_MINIDRIVER_REGISTRATION
 ---
@@ -50,17 +51,6 @@ req.typenames: HID_MINIDRIVER_REGISTRATION, *PHID_MINIDRIVER_REGISTRATION
 
 
 The <b>HidD_SetNumInputBuffers</b> routine sets the maximum number of input reports that the HID class driver ring buffer can hold for a specified <a href="https://msdn.microsoft.com/dcbee8e3-d03a-45c8-92e4-0897b9f55177">top-level collection</a>.
-
-
-## -syntax
-
-
-````
-BOOLEAN __stdcall HidD_SetNumInputBuffers(
-  _In_ HANDLE HidDeviceObject,
-  _In_ ULONG  NumberBuffers
-);
-````
 
 
 ## -parameters
@@ -91,7 +81,7 @@ Specifies the maximum number of buffers that the HID class driver should maintai
 
 
 
-Only user-mode applications can call <b>HidD_SetNumInputBuffers</b>. Kernel-mode drivers must use an <a href="..\hidclass\ni-hidclass-ioctl_set_num_device_input_buffers.md">IOCTL_SET_NUM_DEVICE_INPUT_BUFFERS</a> request.
+Only user-mode applications can call <b>HidD_SetNumInputBuffers</b>. Kernel-mode drivers must use an <a href="https://msdn.microsoft.com/library/windows/hardware/ff542087">IOCTL_SET_NUM_DEVICE_INPUT_BUFFERS</a> request.
 
 If <b>HidD_SetNumInputBuffers</b> returns <b>FALSE</b>, and the Microsoft Win32 <b>GetLastError</b> function indicates that an invalid parameter was supplied, the value of <i>NumberBuffers</i> is invalid. The HID class driver requires a minimum of two input buffers. On Windows 2000, the maximum number of input buffers that the HID class driver supports is 200, and on Windows XP and later, the maximum number of input buffers that the HID class driver supports is 512. The default number of input buffers is 32.
 
@@ -102,17 +92,15 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
 ## -see-also
 
-<a href="..\hidclass\ni-hidclass-ioctl_set_num_device_input_buffers.md">IOCTL_SET_NUM_DEVICE_INPUT_BUFFERS</a>
 
 
 
-<a href="..\hidsdi\nf-hidsdi-hidd_getnuminputbuffers.md">HidD_GetNumInputBuffers</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539675">HidD_GetNumInputBuffers</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542087">IOCTL_SET_NUM_DEVICE_INPUT_BUFFERS</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [hid\hid]:%20HidD_SetNumInputBuffers routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

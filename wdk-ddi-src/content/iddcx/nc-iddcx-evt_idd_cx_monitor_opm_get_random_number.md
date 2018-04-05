@@ -7,7 +7,7 @@ old-location: display\evt_idd_cx_monitor_opm_get_random_number.htm
 old-project: display
 ms.assetid: 330dc0a1-d9a9-44c1-9d29-752c2567e745
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: EVT_IDD_CX_MONITOR_OPM_GET_RANDOM_NUMBER, EvtIddCxMonitorOpmGetRandomNumber, EvtIddCxMonitorOpmGetRandomNumber callback function [Display Devices], PFN_IDD_CX_MONITOR_OPM_GET_RANDOM_NUMBER, PFN_IDD_CX_MONITOR_OPM_GET_RANDOM_NUMBER callback function pointer [Display Devices], display.evt_idd_cx_monitor_opm_get_random_number, iddcx/EvtIddCxMonitorOpmGetRandomNumber
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	iddcx.h
 api_name:
 -	PFN_IDD_CX_MONITOR_OPM_GET_RANDOM_NUMBER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WCS_PROFILE_MANAGEMENT_SCOPE
 ---
@@ -50,22 +51,6 @@ req.typenames: WCS_PROFILE_MANAGEMENT_SCOPE
 
 
 <b>EVT_IDD_CX_MONITOR_OPM_GET_RANDOM_NUMBER</b> is called by the OS to get an OPM random number.
-
-
-## -prototype
-
-
-````
-EVT_IDD_CX_MONITOR_OPM_GET_RANDOM_NUMBER EvtIddCxMonitorOpmGetRandomNumber;
-
-NTSTATUS EvtIddCxMonitorOpmGetRandomNumber(
-  _In_  IDDCX_OPMCTX                     OpmCxtObject,
-  _Out_ IDARG_OUT_OPM_GET_RANDOM_NUMBER* pOutArgs
-)
-{ ... }
-
-typedef EVT_IDD_CX_MONITOR_OPM_GET_RANDOM_NUMBER PFN_IDD_CX_MONITOR_OPM_GET_RANDOM_NUMBER;
-````
 
 
 ## -parameters

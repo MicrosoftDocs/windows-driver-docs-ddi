@@ -7,7 +7,7 @@ old-location: netvista\protocolclclosecallcomplete.htm
 old-project: netvista
 ms.assetid: a7ba1ab2-04c9-45b5-a184-e1ad1448561a
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: PROTOCOL_CL_CLOSE_CALL_COMPLETE, ProtocolClCloseCallComplete, ProtocolClCloseCallComplete callback function [Network Drivers Starting with Windows Vista], condis_client_ref_a35e2fe4-8437-4c41-9ec1-13a8926108b5.xml, ndis/ProtocolClCloseCallComplete, netvista.protocolclclosecallcomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ndis.h
 api_name:
 -	ProtocolClCloseCallComplete
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
 ---
@@ -54,24 +55,9 @@ The
   connection-oriented NDIS clients must have 
   <i>ProtocolClCloseCallComplete</i> functions to complete the asynchronous operations that they initiate with
   
-  <a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>.
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff561627">NdisClCloseCall</a>.
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>PROTOCOL_CL_CLOSE_CALL_COMPLETE</b> type.
    For more information, see the following Examples section.</div><div> </div>
-
-## -prototype
-
-
-````
-PROTOCOL_CL_CLOSE_CALL_COMPLETE ProtocolClCloseCallComplete;
-
-VOID ProtocolClCloseCallComplete(
-  _In_     NDIS_STATUS Status,
-  _In_     NDIS_HANDLE ProtocolVcContext,
-  _In_opt_ NDIS_HANDLE ProtocolPartyContext
-)
-{ ... }
-````
-
 
 ## -parameters
 
@@ -99,7 +85,7 @@ The call manager has successfully closed the call that existed on the given VC a
 
 The call manager failed the request to close the call for some CM-determined reason, and NDIS
        propagated the status returned by its 
-       <a href="..\ndis\nc-ndis-protocol_cm_close_call.md">ProtocolCmCloseCall</a> function to
+       <a href="https://msdn.microsoft.com/b5307e1b-3905-4e43-a0b0-0068ba18ef0d">ProtocolCmCloseCall</a> function to
        the client.
 
 
@@ -107,9 +93,9 @@ The call manager failed the request to close the call for some CM-determined rea
 
 Specifies the handle to the client's per-VC context area This is the handle that the client
      originally passed to NDIS with 
-     <a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a> or returned to NDIS from
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff561696">NdisCoCreateVc</a> or returned to NDIS from
      its 
-     <a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a> function.
+     <a href="https://msdn.microsoft.com/b086dd24-74f5-474a-8684-09bf92ac731b">ProtocolCoCreateVc</a> function.
 
 
 ### -param ProtocolPartyContext [in, optional]
@@ -137,13 +123,13 @@ If the given VC was created by the client and
 <ul>
 <li>
 Tear down its VC with 
-      <a href="..\ndis\nf-ndis-ndiscodeletevc.md">NdisCoDeleteVc</a> and release or prepare for
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff561698">NdisCoDeleteVc</a> and release or prepare for
       reuse the context area(s) it allocated.
 
 </li>
 <li>
 Reinitialize its per-VC context area and reuse its VC to make another connection with 
-      <a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>.
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff561635">NdisClMakeCall</a>.
 
 </li>
 </ul>
@@ -154,10 +140,10 @@ If the VC was created by the call manager, the client should consider the
     <i>NdisVcHandle</i> . After 
     <i>ProtocolClCloseCallComplete</i> returns control, the call manager can delete its VC, thereby causing a
     call to the client's 
-    <a href="..\ndis\nc-ndis-protocol_co_delete_vc.md">ProtocolCoDeleteVc</a> function. The
+    <a href="https://msdn.microsoft.com/d761270f-bf77-441e-834c-9ac7fb3d350f">ProtocolCoDeleteVc</a> function. The
     call manager can even dispatch another incoming call on the VC that it created, thereby causing a call to
     the client's 
-    <a href="..\ndis\nc-ndis-protocol_cl_incoming_call.md">
+    <a href="https://msdn.microsoft.com/8a5922ac-b22b-444e-9ea0-3bb56e71ef33">
     ProtocolClIncomingCall</a> function.
 
 <h3><a id="Examples"></a><a id="examples"></a><a id="EXAMPLES"></a>Examples</h3>
@@ -203,41 +189,39 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_co_delete_vc.md">ProtocolCoDeleteVc</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_cl_incoming_call.md">ProtocolClIncomingCall</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561627">NdisClCloseCall</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiscmclosecallcomplete.md">NdisCmCloseCallComplete</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561635">NdisClMakeCall</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiscodeletevc.md">NdisCoDeleteVc</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561655">NdisCmCloseCallComplete</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561698">NdisCoDeleteVc</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismcmclosecallcomplete.md">NdisMCmCloseCallComplete</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562803">NdisMCmCloseCallComplete</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
+<a href="https://msdn.microsoft.com/8a5922ac-b22b-444e-9ea0-3bb56e71ef33">ProtocolClIncomingCall</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_cm_close_call.md">ProtocolCmCloseCall</a>
+<a href="https://msdn.microsoft.com/b5307e1b-3905-4e43-a0b0-0068ba18ef0d">ProtocolCmCloseCall</a>
 
 
 
+<a href="https://msdn.microsoft.com/d761270f-bf77-441e-834c-9ac7fb3d350f">ProtocolCoDeleteVc</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20PROTOCOL_CL_CLOSE_CALL_COMPLETE callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

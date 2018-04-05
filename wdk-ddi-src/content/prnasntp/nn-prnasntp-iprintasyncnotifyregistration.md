@@ -7,7 +7,7 @@ old-location: print\iprintasyncnotifyregistration.htm
 old-project: print
 ms.assetid: DF6A3FD2-22B4-452D-8D43-1EB25E2CEEA5
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: IPrintAsyncNotifyRegistration, IPrintAsyncNotifyRegistration interface [Print Devices], IPrintAsyncNotifyRegistration interface [Print Devices], described, print.iprintasyncnotifyregistration, prnasntp/IPrintAsyncNotifyRegistration
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Prnasntp.h
 api_name:
 -	IPrintAsyncNotifyRegistration
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USERDATA, *PUSERDATA
 req.product: Windows 10 or later.

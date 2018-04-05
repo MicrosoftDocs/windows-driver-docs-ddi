@@ -7,7 +7,7 @@ old-location: audio\kstelephony_callinfo.htm
 old-project: audio
 ms.assetid: B5B89AAC-169B-42B0-8FC8-AB436EFC3579
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 3/19/2018
 ms.keywords: "*PKSTELEPHONY_CALLINFO, KSTELEPHONY_CALLINFO, KSTELEPHONY_CALLINFO structure [Audio Devices], PKSTELEPHONY_CALLINFO, PKSTELEPHONY_CALLINFO structure pointer [Audio Devices], _tagKSTELEPHONY_CALLINFO, audio.kstelephony_callinfo, ksmedia/KSTELEPHONY_CALLINFO, ksmedia/PKSTELEPHONY_CALLINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KSTELEPHONY_CALLINFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSTELEPHONY_CALLINFO, *PKSTELEPHONY_CALLINFO
 ---
@@ -50,17 +51,6 @@ req.typenames: KSTELEPHONY_CALLINFO, *PKSTELEPHONY_CALLINFO
 
 
 The <b>KSTELEPHONY_CALLINFO</b> structure specifies the type and state of a phone call for the <a href="https://msdn.microsoft.com/library/windows/hardware/mt169873">KSPROPERTY_TELEPHONY_CALLINFO</a> property.
-
-
-## -syntax
-
-
-````
-typedef struct _tagKSTELEPHONY_CALLINFO {
-  TELEPHONY_CALLTYPE  CallType;
-  TELEPHONY_CALLSTATE CallState;
-} KSTELEPHONY_CALLINFO, *PKSTELEPHONY_CALLINFO;
-````
 
 
 ## -struct-fields

@@ -7,7 +7,7 @@ old-location: print\ipartthumbnail_setthumbnailcontent.htm
 old-project: print
 ms.assetid: 7392aa0b-479a-473f-b8b5-34e14494e050
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: IPartThumbnail, IPartThumbnail interface [Print Devices], SetThumbnailContent method, IPartThumbnail::SetThumbnailContent, SetThumbnailContent method [Print Devices], SetThumbnailContent method [Print Devices], IPartThumbnail interface, SetThumbnailContent,IPartThumbnail.SetThumbnailContent, filterpipeline/IPartThumbnail::SetThumbnailContent, filterpipeline_da595290-0b57-4b7d-a494-1f93b8f05470.xml, print.ipartthumbnail_setthumbnailcontent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: filterpipeline.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	filterpipeline.h
 api_name:
 -	IPartThumbnail.SetThumbnailContent
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
@@ -50,16 +51,6 @@ req.typenames: EXpsFontRestriction
 
 
 The <b>SetThumbnailContent</b> method sets the thumbnail content for the part.
-
-
-## -syntax
-
-
-````
-HRESULT SetThumbnailContent(
-  [in] const wchar_t *contentType
-);
-````
 
 
 ## -parameters

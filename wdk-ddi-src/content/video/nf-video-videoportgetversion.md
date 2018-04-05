@@ -7,7 +7,7 @@ old-location: display\videoportgetversion.htm
 old-project: display
 ms.assetid: 242eb066-4b2e-4abe-b082-5bfd814c5774
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: VideoPortGetVersion, VideoPortGetVersion function [Display Devices], VideoPort_Functions_b616e0f2-430a-43ca-a43f-44cdcaec757f.xml, display.videoportgetversion, video/VideoPortGetVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Videoprt.sys
 api_name:
 -	VideoPortGetVersion
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
 req.product: Windows 10 or later.
@@ -53,17 +54,6 @@ req.product: Windows 10 or later.
 The <b>VideoPortGetVersion</b> function gets version information about the currently running operating system.
 
 
-## -syntax
-
-
-````
-VP_STATUS VideoPortGetVersion(
-  _In_    PVOID            HwDeviceExtension,
-  _Inout_ PVPOSVERSIONINFO pVpOsVersionInfo
-);
-````
-
-
 ## -parameters
 
 
@@ -76,7 +66,7 @@ Pointer to the miniport driver's device extension.
 
 ### -param pVpOsVersionInfo [in, out]
 
-Pointer to a <a href="..\video\ns-video-_vposversioninfo.md">VPOSVERSIONINFO</a> structure that will receive the operating system version information. The caller should set the <b>Size</b> member of the VPOSVERSIONINFO structure to the size, in bytes, of that structure.
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff570568">VPOSVERSIONINFO</a> structure that will receive the operating system version information. The caller should set the <b>Size</b> member of the VPOSVERSIONINFO structure to the size, in bytes, of that structure.
 
 
 ## -returns
@@ -90,13 +80,11 @@ Pointer to a <a href="..\video\ns-video-_vposversioninfo.md">VPOSVERSIONINFO</a>
 
 ## -see-also
 
-<a href="..\video\ns-video-_vposversioninfo.md">VPOSVERSIONINFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570568">VPOSVERSIONINFO</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20VideoPortGetVersion function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

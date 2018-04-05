@@ -7,7 +7,7 @@ old-location: print\ixpsrasterizernotificationcallback_continue.htm
 old-project: print
 ms.assetid: 8136eec2-1d4b-4233-bb93-7203d932816b
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: Continue method [Print Devices], Continue method [Print Devices], IXpsRasterizerNotificationCallback interface, Continue,IXpsRasterizerNotificationCallback.Continue, IXpsRasterizerNotificationCallback, IXpsRasterizerNotificationCallback interface [Print Devices], Continue method, IXpsRasterizerNotificationCallback::Continue, print.ixpsrasterizernotificationcallback_continue, print_xpsrast_f107f6a3-c35f-4ec1-b50f-062852852af6.xml, xpsrassvc/IXpsRasterizerNotificationCallback::Continue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: xpsrassvc.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	xpsrassvc.h
 api_name:
 -	IXpsRasterizerNotificationCallback.Continue
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: XPSRAS_BACKGROUND_COLOR
 req.product: Windows 10 or later.
@@ -51,14 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <code>Continue</code> method tells the caller (the XPS rasterization service) whether to continue rasterizing the current XPS fixed page.
-
-
-## -syntax
-
-
-````
-HRESULT Continue();
-````
 
 
 ## -parameters
@@ -102,7 +95,7 @@ The current print job has been canceled.
 
 This method is implemented by an XPSDrv filter. During a page rasterization operation, the <a href="https://msdn.microsoft.com/a6a3746a-3638-464b-bca0-60003f37af76">XPS rasterization service</a> periodically calls this method to determine whether to continue the operation.
 
-To begin a page rasterization operation, the XPSDrv filter calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556365">IXpsRasterizer::RasterizeRect</a> method. With this call, the filter can, as an option, supply a pointer to an <a href="..\xpsrassvc\nn-xpsrassvc-ixpsrasterizernotificationcallback.md">IXpsRasterizerNotificationCallback</a> interface instance. If supplied, <b>RasterizeRect</b> will periodically call the <code>Continue</code> method on this interface during the processing of the <b>RasterizeRect</b> call. If <code>Continue</code> returns a success code, <b>RasterizeRect</b> continues with the rasterization operation in progress. If <code>Continue</code> returns an error code, <b>RasterizeRect</b> aborts the rasterization operation and returns immediately.
+To begin a page rasterization operation, the XPSDrv filter calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556365">IXpsRasterizer::RasterizeRect</a> method. With this call, the filter can, as an option, supply a pointer to an <a href="https://msdn.microsoft.com/7616b5c7-a21f-4db1-923b-ebf2a039b5ec">IXpsRasterizerNotificationCallback</a> interface instance. If supplied, <b>RasterizeRect</b> will periodically call the <code>Continue</code> method on this interface during the processing of the <b>RasterizeRect</b> call. If <code>Continue</code> returns a success code, <b>RasterizeRect</b> continues with the rasterization operation in progress. If <code>Continue</code> returns an error code, <b>RasterizeRect</b> aborts the rasterization operation and returns immediately.
 
 If the user cancels a print job or if an error occurs during the processing of a print job, the pipeline manager calls the XPSDrv filter's <a href="https://msdn.microsoft.com/library/windows/hardware/ff554295">IPrintPipelineFilter::ShutdownOperation</a> method to shut down the filter. Typically, the filter can complete the shutdown in a more timely way if it implements the <code>Continue</code> method and supplies an <b>IXpsRasterizerNotificationCallback</b> pointer to <b>RasterizeRect</b>.
 
@@ -113,11 +106,10 @@ For an example implementation of the <code>Continue</code> method, see the XpsRa
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554295">IPrintPipelineFilter::ShutdownOperation</a>
-
-
-
-<a href="..\xpsrassvc\nn-xpsrassvc-ixpsrasterizernotificationcallback.md">IXpsRasterizerNotificationCallback</a>
 
 
 
@@ -125,9 +117,8 @@ For an example implementation of the <code>Continue</code> method, see the XpsRa
 
 
 
+<a href="https://msdn.microsoft.com/7616b5c7-a21f-4db1-923b-ebf2a039b5ec">IXpsRasterizerNotificationCallback</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IXpsRasterizerNotificationCallback::Continue method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

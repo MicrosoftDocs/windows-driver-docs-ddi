@@ -7,7 +7,7 @@ old-location: image\istidevice_escape.htm
 old-project: image
 ms.assetid: ca2aae12-b4b8-4bae-bc3b-812a1ae539c0
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/27/2018
 ms.keywords: Escape method [Imaging Devices], Escape method [Imaging Devices], IStiDevice interface, Escape,IStiDevice.Escape, IStiDevice, IStiDevice interface [Imaging Devices], Escape method, IStiDevice::Escape, image.istidevice_escape, sti/IStiDevice::Escape, stifnc_5eb8e67e-67cc-4d04-abff-ada5b42b0004.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: sti.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	sti.h
 api_name:
 -	IStiDevice.Escape
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STI_DEVICE_MJ_TYPE, STI_DEVICE_MJ_TYPE
 req.product: Windows 10 or later.
@@ -51,21 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>IStiDevice::Escape</b> method sends a request for a vendor-specific I/O operation to a still image device.
-
-
-## -syntax
-
-
-````
-HRESULT Escape(
-  [in]      STI_RAW_CONTROL_CODE EscapeFunction,
-  [in]      LPVOID               lpInData,
-            DWORD                cbInDataSize,
-  [in, out] LPVOID               pOutData,
-            DWORD                dwOutDataSize,
-  [out]     LPDWORD              pdwActualData
-);
-````
 
 
 ## -parameters

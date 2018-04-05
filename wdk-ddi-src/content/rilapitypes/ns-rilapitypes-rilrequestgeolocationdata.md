@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILREQUESTGEOLOCATIONDATA
 title: RILREQUESTGEOLOCATIONDATA
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilrequestgeolocationdata_2.htm
+old-location: netvista\rilrequestgeolocationdata.htm
 old-project: netvista
-ms.assetid: 2d447c49-08ac-43c2-9f70-557494e82cfc
+ms.assetid: 814e00c5-7248-4853-a61b-e70be86bca0e
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: "*LPRILREQUESTGEOLOCATIONDATA, RILREQUESTGEOLOCATIONDATA, RILREQUESTGEOLOCATIONDATA structure [Network Drivers Starting with Windows Vista], netvista.rilrequestgeolocationdata_2, rilapitypes/RILREQUESTGEOLOCATIONDATA"
+ms.date: 3/26/2018
+ms.keywords: "*LPRILREQUESTGEOLOCATIONDATA, RILREQUESTGEOLOCATIONDATA, RILREQUESTGEOLOCATIONDATA structure [Network Drivers Starting with Windows Vista], netvista.rilrequestgeolocationdata, ntddrilapitypes/RILREQUESTGEOLOCATIONDATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,10 +35,11 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILREQUESTGEOLOCATIONDATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILREQUESTGEOLOCATIONDATA, *LPRILREQUESTGEOLOCATIONDATA
 req.product: Windows 10 or later.
@@ -50,22 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-
-## -syntax
-
-
-````
-typedef struct _RILREQUESTGEOLOCATIONDATA {
-  DWORD                          cbSize;
-  DWORD                          dwParams;
-  DWORD                          dwExecutor;
-  RILGEOLOCATIONTYPEMASK         dwLocationInformationMask;
-  RILGEOLOCATIONREQUESTACCURACY  dwLocationRequestAccuracy;
-  RILGEOLOCATIONREQUESTINFO      rrRequestInformation;
-} RILREQUESTGEOLOCATIONDATA, RILREQUESTGEOLOCATIONDATA;
-````
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -struct-fields

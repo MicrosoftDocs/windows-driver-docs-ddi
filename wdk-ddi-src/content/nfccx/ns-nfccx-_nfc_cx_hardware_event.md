@@ -38,7 +38,8 @@ api_location:
 -	nfccx.h
 api_name:
 -	NFC_CX_HARDWARE_EVENT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NFC_CX_HARDWARE_EVENT, *PNFC_CX_HARDWARE_EVENT
 ---
@@ -49,19 +50,8 @@ req.typenames: NFC_CX_HARDWARE_EVENT, *PNFC_CX_HARDWARE_EVENT
 ## -description
 
 
-The NFC_CX_HARDWARE_EVENT structure is an input parameter to <a href="..\nfccx\nf-nfccx-nfccxhardwareevent.md">NfcCxHardwareEvent.</a>
+The NFC_CX_HARDWARE_EVENT structure is an input parameter to <a href="https://msdn.microsoft.com/5D108897-93D9-4C67-9138-86C608AD8C4C">NfcCxHardwareEvent.</a>
 
-
-
-## -syntax
-
-
-````
-typedef struct _NFC_CX_HARDWARE_EVENT {
-  NTSTATUS           HardwareStatus;
-  NFC_CX_HOST_ACTION HostAction;
-} NFC_CX_HARDWARE_EVENT, *PNFC_CX_HARDWARE_EVENT;
-````
 
 
 ## -struct-fields
@@ -76,22 +66,20 @@ An <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTS
 
 ### -field HostAction
 
-An <a href="..\nfccx\ne-nfccx-_nfc_cx_host_action.md">NFC_CX_HOST_ACTION</a>-typed enumerator.
+An <a href="https://msdn.microsoft.com/library/windows/hardware/dn905544">NFC_CX_HOST_ACTION</a>-typed enumerator.
 
 
 ## -see-also
+
+
+
 
 <a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
 
 
 
 <a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [nfpdrivers\nfpdrivers]:%20NFC_CX_HARDWARE_EVENT structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

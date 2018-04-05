@@ -7,7 +7,7 @@ old-location: storage\iscsi_path.htm
 old-project: storage
 ms.assetid: eebc3e2e-41fe-4087-8916-7c8a71929913
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PISCSI_Path, ISCSI_Path, ISCSI_Path structure [Storage Devices], PISCSI_Path, PISCSI_Path structure pointer [Storage Devices], _ISCSI_Path, iscsimgt/ISCSI_Path, iscsimgt/PISCSI_Path, storage.iscsi_path, structs-iSCSI_fe9f6ee9-2fcd-46eb-a010-98e82dbf8c70.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	iscsimgt.h
 api_name:
 -	ISCSI_Path
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: ISCSI_Path, *PISCSI_Path
 ---
@@ -50,21 +51,6 @@ req.typenames: ISCSI_Path, *PISCSI_Path
 
 
 The ISCSI_Path structure contains information about a connection of the iSCSI portal.
-
-
-## -syntax
-
-
-````
-typedef struct _ISCSI_Path {
-  ULONGLONG UniqueConnectionId;
-  ULONGLONG EstimatedLinkSpeed;
-  ULONG     PathWeight;
-  ULONG     PrimaryPath;
-  ULONG     ConnectionStatus;
-  ULONG     TCPOffLoadAvailable;
-} ISCSI_Path, *PISCSI_Path;
-````
 
 
 ## -struct-fields
@@ -151,17 +137,15 @@ The iSCSI headers and MOF are included in the platform SDK and WDK.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20ISCSI_Path structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

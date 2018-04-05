@@ -7,7 +7,7 @@ old-location: audio\iminiportwavecyclicstream_normalizephysicalposition.htm
 old-project: audio
 ms.assetid: 554cad50-d952-4658-904b-b2a8a8f75b76
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 3/19/2018
 ms.keywords: IMiniportWaveCyclicStream, IMiniportWaveCyclicStream interface [Audio Devices], NormalizePhysicalPosition method, IMiniportWaveCyclicStream::NormalizePhysicalPosition, NormalizePhysicalPosition method [Audio Devices], NormalizePhysicalPosition method [Audio Devices], IMiniportWaveCyclicStream interface, NormalizePhysicalPosition,IMiniportWaveCyclicStream.NormalizePhysicalPosition, audio.iminiportwavecyclicstream_normalizephysicalposition, audmp-routines_a1b6d530-8199-4c5d-87ee-8f00d60436b0.xml, portcls/IMiniportWaveCyclicStream::NormalizePhysicalPosition
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: portcls.h
+req.lib: 
 req.dll: 
 req.irql: Any level
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	portcls.h
 api_name:
 -	IMiniportWaveCyclicStream.NormalizePhysicalPosition
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
@@ -50,16 +51,6 @@ req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 
 
 The <code>NormalizePhysicalPosition</code> method converts a physical buffer position to a time-based value.
-
-
-## -syntax
-
-
-````
-NTSTATUS NormalizePhysicalPosition(
-  [in, out] PLONGLONG PhysicalPosition
-);
-````
 
 
 ## -parameters

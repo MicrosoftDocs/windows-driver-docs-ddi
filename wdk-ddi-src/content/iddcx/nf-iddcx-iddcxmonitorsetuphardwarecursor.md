@@ -7,7 +7,7 @@ old-location: display\iddcxmonitorsetuphardwarecursor.htm
 old-project: display
 ms.assetid: 6182898d-d7c0-4ff2-b222-d83bd00cd1ec
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: IddCxMonitorSetupHardwareCursor, IddCxMonitorSetupHardwareCursor method [Display Devices], display.iddcxmonitorsetuphardwarecursor, iddcx/IddCxMonitorSetupHardwareCursor
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "_Must_inspect_result_"
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	iddcx.h
 api_name:
 -	IddCxMonitorSetupHardwareCursor
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -52,17 +53,6 @@ req.typenames:
 
 
                 An OS callback function the driver calls when it wants to setup hardware cursor support for the path.  By default when a mode is committed on a path software cursor is enabled, if the driver wants to accelerate the cursor on that path it uses this callback to enable hardware cursor support.
-
-
-## -syntax
-
-
-````
-NTSTATUS IddCxMonitorSetupHardwareCursor(
-  _In_       IDDCX_MONITOR            MonitorObject,
-  _In_ const IDARG_IN_SETUP_HWCURSOR* pInArgs
-);
-````
 
 
 ## -parameters

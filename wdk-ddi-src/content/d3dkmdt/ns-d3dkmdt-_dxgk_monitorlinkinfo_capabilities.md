@@ -7,7 +7,7 @@ old-location: display\dxgk_monitorlinkinfo_capabilities.htm
 old-project: display
 ms.assetid: 9838DF74-6561-40DB-A745-A15005B97AAC
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PDXGK_MONITORLINKINFO_CAPABILITIES, DXGK_MONITORLINKINFO_CAPABILITIES, DXGK_MONITORLINKINFO_CAPABILITIES union [Display Devices], PDXGK_MONITORLINKINFO_CAPABILITIES, PDXGK_MONITORLINKINFO_CAPABILITIES union pointer [Display Devices], _DXGK_MONITORLINKINFO_CAPABILITIES, d3dkmdt/DXGK_MONITORLINKINFO_CAPABILITIES, d3dkmdt/PDXGK_MONITORLINKINFO_CAPABILITIES, display.dxgk_monitorlinkinfo_capabilities"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmdt.h
 api_name:
 -	DXGK_MONITORLINKINFO_CAPABILITIES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_MONITORLINKINFO_CAPABILITIES, *PDXGK_MONITORLINKINFO_CAPABILITIES
 ---
@@ -50,25 +51,6 @@ req.typenames: DXGK_MONITORLINKINFO_CAPABILITIES, *PDXGK_MONITORLINKINFO_CAPABIL
 
 
 Flags which describe the capabilities for driving the monitor.
-
-
-## -syntax
-
-
-````
-typedef union _DXGK_MONITORLINKINFO_CAPABILITIES {
-  struct {
-    UINT Stereo  :1;
-    UINT WideColorSpace  :1;
-    UINT HighColorSpace  :1;
-    UINT DynamicColorSpace  :1;
-    UINT DynamicBitsPerColorChannel  :1;
-    UINT DynamicColorEncodingFormat  :1;
-    UINT DedicatedTimingGeneration  :1;
-  };
-  UINT Reserved  :25;
-} DXGK_MONITORLINKINFO_CAPABILITIES, *PDXGK_MONITORLINKINFO_CAPABILITIES;
-````
 
 
 ## -struct-fields

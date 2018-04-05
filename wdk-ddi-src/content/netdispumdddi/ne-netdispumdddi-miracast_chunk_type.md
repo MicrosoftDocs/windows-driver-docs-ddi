@@ -7,7 +7,7 @@ old-location: display\miracast_chunk_type.htm
 old-project: display
 ms.assetid: 39911172-f916-4ca2-8d98-9d53fbc30807
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: MIRACAST_CHUNK_TYPE, MIRACAST_CHUNK_TYPE enumeration [Display Devices], MIRACAST_CHUNK_TYPE_COLOR_CONVERT_COMPLETE, MIRACAST_CHUNK_TYPE_ENCODE_COMPLETE, MIRACAST_CHUNK_TYPE_ENCODE_DRIVER_DEFINED_1, MIRACAST_CHUNK_TYPE_ENCODE_DRIVER_DEFINED_2, MIRACAST_CHUNK_TYPE_ENCODE_FORCE_UINT32, MIRACAST_CHUNK_TYPE_FRAME_DROPPED, MIRACAST_CHUNK_TYPE_FRAME_START, MIRACAST_CHUNK_TYPE_UNKNOWN, display.miracast_chunk_type, netdispumdddi/MIRACAST_CHUNK_TYPE, netdispumdddi/MIRACAST_CHUNK_TYPE_COLOR_CONVERT_COMPLETE, netdispumdddi/MIRACAST_CHUNK_TYPE_ENCODE_COMPLETE, netdispumdddi/MIRACAST_CHUNK_TYPE_ENCODE_DRIVER_DEFINED_1, netdispumdddi/MIRACAST_CHUNK_TYPE_ENCODE_DRIVER_DEFINED_2, netdispumdddi/MIRACAST_CHUNK_TYPE_ENCODE_FORCE_UINT32, netdispumdddi/MIRACAST_CHUNK_TYPE_FRAME_DROPPED, netdispumdddi/MIRACAST_CHUNK_TYPE_FRAME_START, netdispumdddi/MIRACAST_CHUNK_TYPE_UNKNOWN
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Netdispumdddi.h
 api_name:
 -	MIRACAST_CHUNK_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MIRACAST_CHUNK_TYPE
 ---
@@ -50,23 +51,6 @@ req.typenames: MIRACAST_CHUNK_TYPE
 
 
 Specifies the types of wireless display (Miracast) chunk info that is to be processed.
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  MIRACAST_CHUNK_TYPE_UNKNOWN                  = 0,
-  MIRACAST_CHUNK_TYPE_COLOR_CONVERT_COMPLETE   = 1,
-  MIRACAST_CHUNK_TYPE_ENCODE_COMPLETE          = 2,
-  MIRACAST_CHUNK_TYPE_FRAME_START              = 3,
-  MIRACAST_CHUNK_TYPE_FRAME_DROPPED            = 4,
-  MIRACAST_CHUNK_TYPE_ENCODE_DRIVER_DEFINED_1  = 0x80000000,
-  MIRACAST_CHUNK_TYPE_ENCODE_DRIVER_DEFINED_2  = 0x80000001,
-  MIRACAST_CHUNK_TYPE_ENCODE_FORCE_UINT32      = 0xffffffff
-} MIRACAST_CHUNK_TYPE;
-````
 
 
 ## -enum-fields

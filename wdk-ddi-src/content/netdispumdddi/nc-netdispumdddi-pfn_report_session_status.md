@@ -7,7 +7,7 @@ old-location: display\reportsessionstatus.htm
 old-project: display
 ms.assetid: a3e44e55-5c6a-4a79-8caa-3a3b9db6b456
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: PFN_REPORT_SESSION_STATUS, ReportSessionStatus, ReportSessionStatus callback function [Display Devices], display.reportsessionstatus, netdispumdddi/ReportSessionStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Netdispumdddi.h
 api_name:
 -	ReportSessionStatus
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDK_SRQ_DISPATCH
 ---
@@ -54,21 +55,6 @@ Called by the user-mode display driver to report the status of the current Mirac
 
 
 
-## -prototype
-
-
-````
-PFN_REPORT_SESSION_STATUS ReportSessionStatus;
-
-VOID ReportSessionStatus(
-  _In_ HANDLE          hMiracastDeviceHandle,
-  _In_ MIRACAST_STATUS MiracastStatus,
-  _In_ NTSTATUS        Status
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -76,12 +62,12 @@ VOID ReportSessionStatus(
 
 ### -param hMiracastDeviceHandle [in]
 
-A handle that represents a Miracast device. The Miracast user-mode driver previously obtained this handle as the <i>hMiracastDeviceHandle</i> parameter in a call to the <a href="..\netdispumdddi\nc-netdispumdddi-pfn_create_miracast_context.md">CreateMiracastContext</a> function.
+A handle that represents a Miracast device. The Miracast user-mode driver previously obtained this handle as the <i>hMiracastDeviceHandle</i> parameter in a call to the <a href="https://msdn.microsoft.com/3b10ddd9-a48d-4f96-b35e-db017d1f9583">CreateMiracastContext</a> function.
 
 
 ### -param MiracastStatus [in]
 
-The current status of the Miracast link, of type <a href="..\netdispumdddi\ne-netdispumdddi-miracast_status.md">MIRACAST_STATUS</a>.
+The current status of the Miracast link, of type <a href="https://msdn.microsoft.com/library/windows/hardware/dn265481">MIRACAST_STATUS</a>.
 
 
 ### -param Status [in]
@@ -109,17 +95,15 @@ If the Miracast user-mode driver reports an error in the <i>MiracastStatus</i> p
 
 ## -see-also
 
-<a href="..\netdispumdddi\ne-netdispumdddi-miracast_status.md">MIRACAST_STATUS</a>
 
 
 
-<a href="..\netdispumdddi\nc-netdispumdddi-pfn_create_miracast_context.md">CreateMiracastContext</a>
+<a href="https://msdn.microsoft.com/3b10ddd9-a48d-4f96-b35e-db017d1f9583">CreateMiracastContext</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265481">MIRACAST_STATUS</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFN_REPORT_SESSION_STATUS callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

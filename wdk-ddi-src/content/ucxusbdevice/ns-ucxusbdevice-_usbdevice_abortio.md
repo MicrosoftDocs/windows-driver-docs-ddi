@@ -7,7 +7,7 @@ old-location: buses\_usbdevice_abortio.htm
 old-project: usbref
 ms.assetid: 69720940-4D3E-43E6-B587-427ED2049FCC
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PUSBDEVICE_ABORTIO, P_USBDEVICE_ABORTIO, P_USBDEVICE_ABORTIO structure pointer [Buses], USBDEVICE_ABORTIO, USBDEVICE_ABORTIO structure [Buses], _USBDEVICE_ABORTIO, buses._usbdevice_abortio, ucxusbdevice/P_USBDEVICE_ABORTIO, ucxusbdevice/_USBDEVICE_ABORTIO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ucxusbdevice.h
 api_name:
 -	USBDEVICE_ABORTIO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USBDEVICE_ABORTIO, *PUSBDEVICE_ABORTIO
 req.product: Windows 10 or later.
@@ -53,20 +54,6 @@ req.product: Windows 10 or later.
 Contains a handle for the Universal Serial Bus (USB) hub or device for which to abort data transfers. 
 
 
-## -syntax
-
-
-````
-typedef struct _USBDEVICE_ABORTIO {
-#if _cplusplus
-  USBDEVICE_MGMT_HEADER Header;
-#else 
-  USBDEVICE_MGMT_HEADER ;
-#endif 
-} USBDEVICE_ABORTIO, *P_USBDEVICE_ABORTIO;
-````
-
-
 ## -struct-fields
 
 
@@ -74,26 +61,24 @@ typedef struct _USBDEVICE_ABORTIO {
 
 ### -field Header
 
-A <a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_mgmt_header.md">USBDEVICE_MGMT_HEADER</a> structure that contains  the handle for the USB hub or device.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/mt188075">USBDEVICE_MGMT_HEADER</a> structure that contains  the handle for the USB hub or device.
 
 
 ## -see-also
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetparameters.md">WdfRequestGetParameters</a>
 
 
 
-<a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_startio.md">USBDEVICE_STARTIO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt188076">USBDEVICE_PURGEIO</a>
 
 
 
-<a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_purgeio.md">USBDEVICE_PURGEIO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt188078">USBDEVICE_STARTIO</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549969">WdfRequestGetParameters</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USBDEVICE_ABORTIO structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

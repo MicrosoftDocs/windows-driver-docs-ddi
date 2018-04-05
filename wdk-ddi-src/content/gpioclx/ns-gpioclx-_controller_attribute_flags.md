@@ -38,7 +38,8 @@ api_location:
 -	Gpioclx.h
 api_name:
 -	CONTROLLER_ATTRIBUTE_FLAGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CONTROLLER_ATTRIBUTE_FLAGS, *PCONTROLLER_ATTRIBUTE_FLAGS
 ---
@@ -50,23 +51,6 @@ req.typenames: CONTROLLER_ATTRIBUTE_FLAGS, *PCONTROLLER_ATTRIBUTE_FLAGS
 
 
 The <b>CONTROLLER_ATTRIBUTE_FLAGS</b> structure describes the hardware attributes of the general-purpose I/O (GPIO) controller device.
-
-
-## -syntax
-
-
-````
-typedef struct _CONTROLLER_ATTRIBUTE_FLAGS {
-  ULONG MemoryMappedController  :1;
-  ULONG ActiveInterruptsAutoClearOnRead  :1;
-  ULONG FormatIoRequestsAsMasks  :1;
-  ULONG DeviceIdlePowerMgmtSupported  :1;
-  ULONG BankIdlePowerMgmtSupported  :1;
-  ULONG EmulateDebouncing  :1;
-  ULONG EmulateActiveBoth  :1;
-  ULONG Reserved  :25;
-} CONTROLLER_ATTRIBUTE_FLAGS, *PCONTROLLER_ATTRIBUTE_FLAGS;
-````
 
 
 ## -struct-fields
@@ -142,11 +126,18 @@ Some GPIO controllers implement active-both interrupt inputs in hardware. Howeve
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439395">CLIENT_QueryActiveInterrupts</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439404">CLIENT_ReadGpioPins</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439439">CLIENT_WriteGpioPins</a>
 
 
 
@@ -158,25 +149,16 @@ Some GPIO controllers implement active-both interrupt inputs in hardware. Howeve
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439439">CLIENT_WriteGpioPins</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439445">CLIENT_WriteGpioPinsUsingMask</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439479">GPIO_CLIENT_REGISTRATION_PACKET</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439395">CLIENT_QueryActiveInterrupts</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [GPIO\parports]:%20CONTROLLER_ATTRIBUTE_FLAGS structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

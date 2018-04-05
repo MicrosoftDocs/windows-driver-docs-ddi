@@ -7,7 +7,7 @@ old-location: display\dxgkddi_exchangeprestartinfo.htm
 old-project: display
 ms.assetid: B23EDC08-18E4-4826-AC51-163C706D4F43
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_EXCHANGEPRESTARTINFO, DXGKDDI_EXCHANGEPRESTARTINFO callback function [Display Devices], display.dxgkddi_exchangeprestartinfo, dispmprt/DXGKDDI_EXCHANGEPRESTARTINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	dispmprt.h
 api_name:
 -	DXGKDDI_EXCHANGEPRESTARTINFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 ---
@@ -50,17 +51,6 @@ req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 
 
 Allows very simple data to be exchanged between the OS and driver which may be required prior to DxgkDdiStartDevice device being called and therefore cannot be queried through normal caps or adapter info DDIs.
-
-
-## -prototype
-
-
-````
-NTSTATUS APIENTRY DXGKDDI_EXCHANGEPRESTARTINFO(
-  _In_    const Handle               hAdapter,
-  _Inout_       PDXGK_PRE_START_INFO pPreStartInfo
-);
-````
 
 
 ## -parameters

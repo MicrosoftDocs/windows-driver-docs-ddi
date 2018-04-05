@@ -7,7 +7,7 @@ old-location: storage\msiscsi_mmipsecstats.htm
 old-project: storage
 ms.assetid: 75b11689-f940-467e-92ee-59b5e0adbf70
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PMSiSCSI_MMIPSECStats, MSiSCSI_MMIPSECStats, MSiSCSI_MMIPSECStats structure [Storage Devices], PMSiSCSI_MMIPSECStats, PMSiSCSI_MMIPSECStats structure pointer [Storage Devices], _MSiSCSI_MMIPSECStats, iscsiprf/MSiSCSI_MMIPSECStats, iscsiprf/PMSiSCSI_MMIPSECStats, storage.msiscsi_mmipsecstats, structs-iSCSI_6edce57f-fce5-422a-a98f-049cc6418514.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	iscsiprf.h
 api_name:
 -	MSiSCSI_MMIPSECStats
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MSiSCSI_MMIPSECStats, *PMSiSCSI_MMIPSECStats
 ---
@@ -50,36 +51,6 @@ req.typenames: MSiSCSI_MMIPSECStats, *PMSiSCSI_MMIPSECStats
 
 
 The MSiSCSI_MMIPSECStats structure is used to report main mode IPsec statistics. 
-
-
-## -syntax
-
-
-````
-typedef struct _MSiSCSI_MMIPSECStats {
-  ULONGLONG ActiveAcquire;
-  ULONGLONG ActiveReceive;
-  ULONGLONG AcquireFailures;
-  ULONGLONG ReceiveFailures;
-  ULONGLONG SendFailures;
-  ULONGLONG AcquireHeapSize;
-  ULONGLONG ReceiveHeapSize;
-  ULONGLONG NegotiationFailures;
-  ULONGLONG AuthenticationFailures;
-  ULONGLONG InvalidCookiesReceived;
-  ULONGLONG TotalGetSPI;
-  ULONGLONG KeyAdditions;
-  ULONGLONG KeyUpdates;
-  ULONGLONG GetSPIFailures;
-  ULONGLONG KeyAdditionFailures;
-  ULONGLONG KeyUpdateFailures;
-  ULONGLONG ConnectionListSize;
-  ULONGLONG OakleyMainMode;
-  ULONGLONG OakleyQuickMode;
-  ULONGLONG InvalidPackets;
-  ULONGLONG SoftAssociations;
-} MSiSCSI_MMIPSECStats, *PMSiSCSI_MMIPSECStats;
-````
 
 
 ## -struct-fields
@@ -203,13 +174,11 @@ It is optional that you implement this class.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563077">MSiSCSI_MMIPSECStats WMI Class</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20MSiSCSI_MMIPSECStats structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

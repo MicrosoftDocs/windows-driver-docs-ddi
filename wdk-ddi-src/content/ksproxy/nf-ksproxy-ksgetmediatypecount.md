@@ -39,7 +39,8 @@ api_location:
 -	Ksproxy.dll
 api_name:
 -	KsGetMediaTypeCount
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PIPE_STATE
 ---
@@ -51,18 +52,6 @@ req.typenames: PIPE_STATE
 
 
 The <b>KsGetMediaTypeCount</b> function returns the number of available media types on a pin factory identifier.
-
-
-## -syntax
-
-
-````
-HRESULT KsGetMediaTypeCount(
-  _In_  HANDLE FilterHandle,
-  _In_  ULONG  PinFactoryId,
-  _Out_ ULONG  *MediaTypeCount
-);
-````
 
 
 ## -parameters
@@ -105,17 +94,15 @@ The number of available media types that <b>KsGetMediaTypeCount</b> returns is e
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559910">IKsPinFactory</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561658">KSDATARANGE</a>
-
-
-
-<a href="..\ksproxy\nn-ksproxy-ikspinfactory.md">IKsPinFactory</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsGetMediaTypeCount function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

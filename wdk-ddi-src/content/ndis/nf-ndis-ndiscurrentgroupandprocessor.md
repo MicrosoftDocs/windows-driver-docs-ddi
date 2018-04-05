@@ -7,7 +7,7 @@ old-location: netvista\ndiscurrentgroupandprocessor.htm
 old-project: netvista
 ms.assetid: 056f7f4b-152b-426a-b59e-0f6663b386a8
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: NdisCurrentGroupAndProcessor, NdisCurrentGroupAndProcessor function [Network Drivers Starting with Windows Vista], ndis/NdisCurrentGroupAndProcessor, ndis_processor_group_ref_99937404-ee3c-49f9-b714-df04f98113f1.xml, netvista.ndiscurrentgroupandprocessor
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	ndis.dll
 api_name:
 -	NdisCurrentGroupAndProcessor
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
@@ -53,14 +54,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 The
   <b>NdisCurrentGroupAndProcessor</b> function returns the group-relative processor number and group number of
   the current processor.
-
-
-## -syntax
-
-
-````
-PROCESSOR_NUMBER NdisCurrentGroupAndProcessor(void);
-````
 
 
 ## -parameters

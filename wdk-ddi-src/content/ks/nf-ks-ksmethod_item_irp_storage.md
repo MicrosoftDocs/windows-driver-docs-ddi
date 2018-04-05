@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: ks.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSMETHOD_ITEM_IRP_STORAGE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -49,17 +50,7 @@ req.typenames:
 ## -description
 
 
-This macro accesses a pointer to the relevant <a href="..\ks\ns-ks-ksmethod_item.md">KSMETHOD_ITEM</a>. Note that this pointer is only set when using <a href="..\ks\nf-ks-ksmethodhandlerwithallocator.md">KsMethodHandlerWithAllocator</a>.
-
-
-## -syntax
-
-
-````
-VOID KSMETHOD_ITEM_IRP_STORAGE(
-  [in] IRP Irp
-);
-````
+This macro accesses a pointer to the relevant <a href="https://msdn.microsoft.com/library/windows/hardware/ff563420">KSMETHOD_ITEM</a>. Note that this pointer is only set when using <a href="https://msdn.microsoft.com/library/windows/hardware/ff563401">KsMethodHandlerWithAllocator</a>.
 
 
 ## -parameters
@@ -76,7 +67,7 @@ Specifies the IRP passed to the handler routine.
 
 
 
-The pointer to a KSMETHOD_ITEM structure is extracted from <b>Irp-&gt;Tail.Overlay.DriverContext</b>. Parameters in <b>DriverContext</b> are initialized by <a href="..\ks\nf-ks-ksmethodhandler.md">KsMethodHandler</a> and <a href="..\ks\nf-ks-ksmethodhandlerwithallocator.md">KsMethodHandlerWithAllocator</a>.
+The pointer to a KSMETHOD_ITEM structure is extracted from <b>Irp-&gt;Tail.Overlay.DriverContext</b>. Parameters in <b>DriverContext</b> are initialized by <a href="https://msdn.microsoft.com/library/windows/hardware/ff563399">KsMethodHandler</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff563401">KsMethodHandlerWithAllocator</a>.
 
 The macro is defined as follows:
 
@@ -86,33 +77,31 @@ The macro is defined as follows:
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563398">KSMETHOD</a>
 
 
 
-<a href="..\ks\nf-ks-ksfastmethodhandler.md">KsFastMethodHandler</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563420">KSMETHOD_ITEM</a>
 
 
 
-<a href="..\ks\ns-ks-ksmethod_item.md">KSMETHOD_ITEM</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563423">KSMETHOD_SET</a>
 
 
 
-<a href="..\ks\ns-ks-ksmethod_set.md">KSMETHOD_SET</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561940">KsFastMethodHandler</a>
 
 
 
-<a href="..\ks\nf-ks-ksmethodhandler.md">KsMethodHandler</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563399">KsMethodHandler</a>
 
 
 
-<a href="..\ks\nf-ks-ksmethodhandlerwithallocator.md">KsMethodHandlerWithAllocator</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563401">KsMethodHandlerWithAllocator</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSMETHOD_ITEM_IRP_STORAGE macro%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

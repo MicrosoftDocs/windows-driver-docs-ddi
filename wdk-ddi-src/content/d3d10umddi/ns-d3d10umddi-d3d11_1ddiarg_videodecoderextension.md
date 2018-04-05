@@ -7,7 +7,7 @@ old-location: display\d3d11_1ddiarg_videodecoderextension.htm
 old-project: display
 ms.assetid: d11a6be1-f723-47eb-b131-e1b02451e18a
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: D3D11_1DDIARG_VIDEODECODEREXTENSION, D3D11_1DDIARG_VIDEODECODEREXTENSION structure [Display Devices], d3d10umddi/D3D11_1DDIARG_VIDEODECODEREXTENSION, display.d3d11_1ddiarg_videodecoderextension
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3d10umddi.h
 api_name:
 -	D3D11_1DDIARG_VIDEODECODEREXTENSION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D11_1DDIARG_VIDEODECODEREXTENSION
 ---
@@ -49,23 +50,7 @@ req.typenames: D3D11_1DDIARG_VIDEODECODEREXTENSION
 ## -description
 
 
-Specifies driver-specific data for the extended Microsoft DirectX Video Acceleration (DXVA) decoding function that is provided by a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videodecoderextension.md">VideoDecoderExtension</a> function.
-
-
-## -syntax
-
-
-````
-typedef struct D3D11_1DDIARG_VIDEODECODEREXTENSION {
-  UINT               Function;
-  void               *pPrivateInputData;
-  UINT               PrivateInputDataSize;
-  void               *pPrivateOutputData;
-  UINT               PrivateOutputDataSize;
-  UINT               ResourceCount;
-  D3D10DDI_HRESOURCE *pResourceList;
-} D3D11_1DDIARG_VIDEODECODEREXTENSION;
-````
+Specifies driver-specific data for the extended Microsoft DirectX Video Acceleration (DXVA) decoding function that is provided by a call to the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451699">VideoDecoderExtension</a> function.
 
 
 ## -struct-fields
@@ -119,13 +104,11 @@ The exact meaning of each structure member depends on the value of <b>Function</
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videodecoderextension.md">VideoDecoderExtension</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451699">VideoDecoderExtension</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3D11_1DDIARG_VIDEODECODEREXTENSION structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

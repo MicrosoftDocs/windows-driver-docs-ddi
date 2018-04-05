@@ -7,7 +7,7 @@ old-location: display\d3d12ddi_video_decode_support_flags.htm
 old-project: display
 ms.assetid: 3AF74BA9-168C-4EB0-B219-CC6BA58E1BCD
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: D3D12DDI_VIDEO_DECODE_SUPPORT_FLAGS_0020, D3D12DDI_VIDEO_DECODE_SUPPORT_FLAGS_0020 enumeration [Display Devices], D3D12DDI_VIDEO_DECODE_SUPPORT_FLAG_0020_NONE, D3D12DDI_VIDEO_DECODE_SUPPORT_FLAG_0020_SUPPORTED, d3d12umddi/D3D12DDI_VIDEO_DECODE_SUPPORT_FLAGS_0020, d3d12umddi/D3D12DDI_VIDEO_DECODE_SUPPORT_FLAG_0020_NONE, d3d12umddi/D3D12DDI_VIDEO_DECODE_SUPPORT_FLAG_0020_SUPPORTED, display.d3d12ddi_video_decode_support_flags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3d12umddi.h
 api_name:
 -	D3D12DDI_VIDEO_DECODE_SUPPORT_FLAGS_0020
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D12DDI_VIDEO_DECODE_SUPPORT_FLAGS_0020
 ---
@@ -50,17 +51,6 @@ req.typenames: D3D12DDI_VIDEO_DECODE_SUPPORT_FLAGS_0020
 
 
 Contains video decode support flags.
-
-
-## -syntax
-
-
-````
-typedef enum D3D12DDI_VIDEO_DECODE_SUPPORT_FLAGS_0020 { 
-  D3D12DDI_VIDEO_DECODE_SUPPORT_FLAG_0020_NONE       = 0,
-  D3D12DDI_VIDEO_DECODE_SUPPORT_FLAG_0020_SUPPORTED  = 0x1
-} D3D12DDI_VIDEO_DECODE_SUPPORT_FLAGS_0020;
-````
 
 
 ## -enum-fields

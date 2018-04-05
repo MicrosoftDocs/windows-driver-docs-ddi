@@ -7,7 +7,7 @@ old-location: kernel\interlockeddecrement.htm
 old-project: kernel
 ms.assetid: 06964a2c-f666-44e8-a747-41791f61c67c
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/28/2018
 ms.keywords: InterlockedDecrement, InterlockedDecrement routine [Kernel-Mode Driver Architecture], k102_cc85e517-f056-413e-a095-671867632613.xml, kernel.interlockeddecrement, wdm/InterlockedDecrement
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,7 +43,8 @@ api_location:
 -	MinKernelBase.dll
 api_name:
 -	InterlockedDecrement
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
@@ -56,16 +57,6 @@ req.product: Windows 10 or later.
 
 
 The <b>InterlockedDecrement</b> routine decrements a caller-supplied variable of type LONG as an atomic operation. 
-
-
-## -syntax
-
-
-````
-LONG InterlockedDecrement(
-  _Inout_ LONG volatile *Addend
-);
-````
 
 
 ## -parameters
@@ -104,25 +95,23 @@ Interlocked operations cannot be used on non-cached memory.
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exinterlockedaddlargeinteger.md">ExInterlockedAddLargeInteger</a>
 
 
 
-<a href="..\wdm\nf-wdm-exinterlockedaddulong.md">ExInterlockedAddUlong</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545335">ExInterlockedAddLargeInteger</a>
 
 
 
-<a href="..\wdm\nf-wdm-interlockedexchange.md">InterlockedExchange</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545343">ExInterlockedAddUlong</a>
 
 
 
-<a href="..\wdm\nf-wdm-interlockedincrement.md">InterlockedIncrement</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547892">InterlockedExchange</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547910">InterlockedIncrement</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20InterlockedDecrement routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

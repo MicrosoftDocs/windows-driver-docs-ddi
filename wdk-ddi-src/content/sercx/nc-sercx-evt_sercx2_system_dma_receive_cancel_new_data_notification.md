@@ -38,7 +38,8 @@ api_location:
 -	2.0\Sercx.h
 api_name:
 -	EvtSerCx2SystemDmaReceiveCancelNewDataNotification
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SENSOR_VALUE_PAIR, *PSENSOR_VALUE_PAIR
 req.product: Windows 10 or later.
@@ -50,20 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <i>EvtSerCx2SystemDmaReceiveCancelNewDataNotification</i> event callback function is called by version 2 of the serial framework extension (SerCx2) to cancel a new-data notification that SerCx2 enabled in a previous call to the <a href="..\sercx\nc-sercx-evt_sercx2_system_dma_receive_enable_new_data_notification.md">EvtSerCx2SystemDmaReceiveEnableNewDataNotification</a> event callback function.
-
-
-## -prototype
-
-
-````
-EVT_SERCX2_SYSTEM_DMA_RECEIVE_CANCEL_NEW_DATA_NOTIFICATION EvtSerCx2SystemDmaReceiveCancelNewDataNotification;
-
-BOOLEAN EvtSerCx2SystemDmaReceiveCancelNewDataNotification(
-  _In_ SERCX2SYSTEMDMARECEIVE SystemDmaReceive
-)
-{ ... }
-````
+The <i>EvtSerCx2SystemDmaReceiveCancelNewDataNotification</i> event callback function is called by version 2 of the serial framework extension (SerCx2) to cancel a new-data notification that SerCx2 enabled in a previous call to the <a href="https://msdn.microsoft.com/E2B7FE14-1D06-48E7-95FB-C103358340EA">EvtSerCx2SystemDmaReceiveEnableNewDataNotification</a> event callback function.
 
 
 ## -parameters
@@ -73,14 +61,14 @@ BOOLEAN EvtSerCx2SystemDmaReceiveCancelNewDataNotification(
 
 ### -param SystemDmaReceive [in]
 
-A <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2SYSTEMDMARECEIVE</a> handle to a system-DMA-receive object. The serial controller driver previously called the <a href="..\sercx\nf-sercx-sercx2systemdmareceivecreate.md">SerCx2SystemDmaReceiveCreate</a> method to create this object.
+A <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2SYSTEMDMARECEIVE</a> handle to a system-DMA-receive object. The serial controller driver previously called the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265279">SerCx2SystemDmaReceiveCreate</a> method to create this object.
 
 
 ## -returns
 
 
 
-The <i>EvtSerCx2SystemDmaReceiveCancelNewDataNotification</i> function returns <b>TRUE</b> if the new-data notification was successfully canceled  and the serial controller driver can guarantee that this notification will not cause the <a href="..\sercx\nf-sercx-sercx2systemdmareceivenewdatanotification.md">SerCx2SystemDmaReceiveNewDataNotification</a> method to be called. The function returns <b>FALSE</b> if the driver has already called the <b>SerCx2SystemDmaReceiveNewDataNotification</b> method, or is about to call this method.
+The <i>EvtSerCx2SystemDmaReceiveCancelNewDataNotification</i> function returns <b>TRUE</b> if the new-data notification was successfully canceled  and the serial controller driver can guarantee that this notification will not cause the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265283">SerCx2SystemDmaReceiveNewDataNotification</a> method to be called. The function returns <b>FALSE</b> if the driver has already called the <b>SerCx2SystemDmaReceiveNewDataNotification</b> method, or is about to call this method.
 
 
 
@@ -89,9 +77,9 @@ The <i>EvtSerCx2SystemDmaReceiveCancelNewDataNotification</i> function returns <
 
 
 
-Your serial controller driver can, as an option, implement this function. If implemented, the driver registers the function in the <a href="..\sercx\nf-sercx-sercx2systemdmareceivecreate.md">SerCx2SystemDmaReceiveCreate</a> call that creates the system-DMA-receive object. A driver that implements this function must also implement an <a href="..\sercx\nc-sercx-evt_sercx2_system_dma_receive_enable_new_data_notification.md">EvtSerCx2SystemDmaReceiveEnableNewDataNotification</a> event callback function.
+Your serial controller driver can, as an option, implement this function. If implemented, the driver registers the function in the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265279">SerCx2SystemDmaReceiveCreate</a> call that creates the system-DMA-receive object. A driver that implements this function must also implement an <a href="https://msdn.microsoft.com/E2B7FE14-1D06-48E7-95FB-C103358340EA">EvtSerCx2SystemDmaReceiveEnableNewDataNotification</a> event callback function.
 
-If the associated read request times out or is canceled while a new-data notification request is pending, SerCx2 calls the <i>EvtSerCx2SystemDmaReceiveCancelNewDataNotification</i> function to cancel the pending notification. If this call returns <b>FALSE</b>, SerCx2 expects the serial controller driver to call <a href="..\sercx\nf-sercx-sercx2systemdmareceivenewdatanotification.md">SerCx2SystemDmaReceiveNewDataNotification</a>; only after this call does SerCx2 call the <a href="..\sercx\nc-sercx-evt_sercx2_system_dma_receive_cleanup_transaction.md">EvtSerCx2SystemDmaReceiveCleanupTransaction</a> function, if it is implemented, and complete the request.
+If the associated read request times out or is canceled while a new-data notification request is pending, SerCx2 calls the <i>EvtSerCx2SystemDmaReceiveCancelNewDataNotification</i> function to cancel the pending notification. If this call returns <b>FALSE</b>, SerCx2 expects the serial controller driver to call <a href="https://msdn.microsoft.com/library/windows/hardware/dn265283">SerCx2SystemDmaReceiveNewDataNotification</a>; only after this call does SerCx2 call the <a href="https://msdn.microsoft.com/66B15ED1-583D-418C-90C5-25BBBCEE7B5A">EvtSerCx2SystemDmaReceiveCleanupTransaction</a> function, if it is implemented, and complete the request.
 
 To cancel the new-data notification, the <i>EvtSerCx2SystemDmaReceiveCancelNewDataNotification</i> function typically disables the interrupt in the serial controller that indicates that more data is available to be read from the receive FIFO. This interrupt was enabled by a previous call to the <i>EvtSerCx2SystemDmaReceiveEnableNewDataNotification</i> function.
 
@@ -139,25 +127,23 @@ The <b>EVT_SERCX2_SYSTEM_DMA_RECEIVE_CANCEL_NEW_DATA_NOTIFICATION</b> function t
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/E2B7FE14-1D06-48E7-95FB-C103358340EA">EvtSerCx2SystemDmaReceiveEnableNewDataNotification</a>
+
+
+
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2SYSTEMDMARECEIVE</a>
 
 
 
-<a href="..\sercx\nc-sercx-evt_sercx2_system_dma_receive_enable_new_data_notification.md">EvtSerCx2SystemDmaReceiveEnableNewDataNotification</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265279">SerCx2SystemDmaReceiveCreate</a>
 
 
 
-<a href="..\sercx\nf-sercx-sercx2systemdmareceivecreate.md">SerCx2SystemDmaReceiveCreate</a>
-
-
-
-<a href="..\sercx\nf-sercx-sercx2systemdmareceivenewdatanotification.md">SerCx2SystemDmaReceiveNewDataNotification</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265283">SerCx2SystemDmaReceiveNewDataNotification</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [serports\serports]:%20EVT_SERCX2_SYSTEM_DMA_RECEIVE_CANCEL_NEW_DATA_NOTIFICATION callback function%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

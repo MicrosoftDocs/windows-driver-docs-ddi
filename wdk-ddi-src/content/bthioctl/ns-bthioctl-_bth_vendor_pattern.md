@@ -38,7 +38,8 @@ api_location:
 -	bthioctl.h
 api_name:
 -	BTH_VENDOR_PATTERN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BTH_VENDOR_PATTERN, *PBTH_VENDOR_PATTERN
 ---
@@ -50,18 +51,6 @@ req.typenames: BTH_VENDOR_PATTERN, *PBTH_VENDOR_PATTERN
 
 
 The BTH_VENDOR_PATTERN structure specifies a vendor pattern.
-
-
-## -syntax
-
-
-````
-typedef struct _BTH_VENDOR_PATTERN {
-  UCHAR Offset;
-  UCHAR Size;
-  UCHAR Pattern[1];
-} BTH_VENDOR_PATTERN, *PBTH_VENDOR_PATTERN;
-````
 
 
 ## -struct-fields
@@ -90,7 +79,7 @@ A buffer that contains pattern data.
 
 
 The BTH_VENDOR_PATTERN structure specifies vendor patterns for the 
-    <a href="..\bthioctl\ns-bthioctl-_bth_vendor_specific_command.md">
+    <a href="https://msdn.microsoft.com/c37844d9-206a-4060-8b46-9afe691fe8f9">
     BTH_VENDOR_SPECIFIC_COMMAND</a> structure.
 
 A list of patterns can immediately follow the vendor-specific command data that is specified in the 
@@ -104,13 +93,11 @@ Patterns are required if a vendor-specific command does not follow the standard 
 
 ## -see-also
 
-<a href="..\bthioctl\ns-bthioctl-_bth_vendor_specific_command.md">BTH_VENDOR_SPECIFIC_COMMAND</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536656">BTH_VENDOR_SPECIFIC_COMMAND</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20BTH_VENDOR_PATTERN structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

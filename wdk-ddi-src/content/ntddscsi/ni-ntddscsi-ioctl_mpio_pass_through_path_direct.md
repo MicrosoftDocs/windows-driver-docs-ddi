@@ -7,7 +7,7 @@ old-location: storage\ioctl_mpio_pass_through_path_direct.htm
 old-project: storage
 ms.assetid: a14eb3a9-f2b6-4abc-8eaa-23bd4a87580e
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_MPIO_PASS_THROUGH_PATH_DIRECT, IOCTL_MPIO_PASS_THROUGH_PATH_DIRECT control code [Storage Devices], k307_70c0c9a6-7d04-484e-9ff2-94a85f919834.xml, ntddscsi/IOCTL_MPIO_PASS_THROUGH_PATH_DIRECT, storage.ioctl_mpio_pass_through_path_direct
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,18 +38,14 @@ api_location:
 -	Ntddscsi.h
 api_name:
 -	IOCTL_MPIO_PASS_THROUGH_PATH_DIRECT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MP_STORAGE_DIAGNOSTIC_TARGET_TYPE, *PMP_STORAGE_DIAGNOSTIC_TARGET_TYPE
 ---
 
 # IOCTL_MPIO_PASS_THROUGH_PATH_DIRECT IOCTL
 
-
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -71,11 +67,11 @@ Applications do not require administrative privileges to send a pass-through req
 
 </li>
 <li>
-The request comprises a SCSI pass-through request (in an embedded <a href="..\ntddscsi\ns-ntddscsi-_scsi_pass_through_direct.md">SCSI_PASS_THROUGH_DIRECT</a> structure) as well as certain directives.
+The request comprises a SCSI pass-through request (in an embedded <a href="https://msdn.microsoft.com/library/windows/hardware/ff565346">SCSI_PASS_THROUGH_DIRECT</a> structure) as well as certain directives.
 
 </li>
 <li>
-The SCSI pass-through structure should meet the requirements for such, as described in <a href="..\ntddscsi\ns-ntddscsi-_scsi_pass_through_direct.md">SCSI_PASS_THROUGH_DIRECT</a>.
+The SCSI pass-through structure should meet the requirements for such, as described in <a href="https://msdn.microsoft.com/library/windows/hardware/ff565346">SCSI_PASS_THROUGH_DIRECT</a>.
 
 </li>
 <li>
@@ -112,7 +108,7 @@ The port driver returns any request-sense data and any data that is transferred 
 
 ### -output-buffer-length
 
-The <b>SenseInfoLength</b> and <b>DataTransferLength</b> in the embedded <a href="..\ntddscsi\ns-ntddscsi-_scsi_pass_through_direct.md">SCSI_PASS_THROUGH_DIRECT</a> structure are updated to indicate the amount of data that is transferred.
+The <b>SenseInfoLength</b> and <b>DataTransferLength</b> in the embedded <a href="https://msdn.microsoft.com/library/windows/hardware/ff565346">SCSI_PASS_THROUGH_DIRECT</a> structure are updated to indicate the amount of data that is transferred.
 
 
 ### -in-out-buffer
@@ -135,18 +131,16 @@ The <b>SenseInfoLength</b> and <b>DataTransferLength</b> in the embedded <a href
 
 ### -status-block
 
-The <b>Information</b> field is set to the number of bytes returned in the output buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>. The <b>Status</b> field is set to STATUS_SUCCESS, or possibly to STATUS_BUFFER_TOO_SMALL or STATUS_INVALID_PARAMETER if the input <b>Length</b> value in the embedded <a href="..\ntddscsi\ns-ntddscsi-_scsi_pass_through_direct.md">SCSI_PASS_THROUGH_DIRECT</a> is improperly set.
+The <b>Information</b> field is set to the number of bytes returned in the output buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>. The <b>Status</b> field is set to STATUS_SUCCESS, or possibly to STATUS_BUFFER_TOO_SMALL or STATUS_INVALID_PARAMETER if the input <b>Length</b> value in the embedded <a href="https://msdn.microsoft.com/library/windows/hardware/ff565346">SCSI_PASS_THROUGH_DIRECT</a> is improperly set.
 
 
 ## -see-also
 
-<a href="..\ntddscsi\ns-ntddscsi-_scsi_pass_through_direct.md">SCSI_PASS_THROUGH_DIRECT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565346">SCSI_PASS_THROUGH_DIRECT</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20IOCTL_MPIO_PASS_THROUGH_PATH_DIRECT control code%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

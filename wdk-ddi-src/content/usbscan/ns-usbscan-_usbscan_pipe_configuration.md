@@ -7,7 +7,7 @@ old-location: image\usbscan_pipe_configuration.htm
 old-project: image
 ms.assetid: c9b0247b-1444-46c9-a430-897594f8d223
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/27/2018
 ms.keywords: "*PUSBSCAN_PIPE_CONFIGURATION, PUSBSCAN_PIPE_CONFIGURATION, PUSBSCAN_PIPE_CONFIGURATION structure pointer [Imaging Devices], USBSCAN_PIPE_CONFIGURATION, USBSCAN_PIPE_CONFIGURATION structure [Imaging Devices], _USBSCAN_PIPE_CONFIGURATION, image.usbscan_pipe_configuration, stifnc_b18d3edd-f392-4b68-82e4-10f870c18f6a.xml, usbscan/PUSBSCAN_PIPE_CONFIGURATION, usbscan/USBSCAN_PIPE_CONFIGURATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	usbscan.h
 api_name:
 -	USBSCAN_PIPE_CONFIGURATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USBSCAN_PIPE_CONFIGURATION, *PUSBSCAN_PIPE_CONFIGURATION
 req.product: Windows 10 or later.
@@ -50,18 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The USBSCAN_PIPE_CONFIGURATION structure is used as a parameter to <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>, when the specified I/O control code is <a href="..\usbscan\ni-usbscan-ioctl_get_pipe_configuration.md">IOCTL_GET_PIPE_CONFIGURATION</a>.
-
-
-## -syntax
-
-
-````
-typedef struct _USBSCAN_PIPE_CONFIGURATION {
-  ULONG                    NumberOfPipes;
-  USBSCAN_PIPE_INFORMATION PipeInfo[MAX_NUM_PIPES];
-} USBSCAN_PIPE_CONFIGURATION, *PUSBSCAN_PIPE_CONFIGURATION;
-````
+The USBSCAN_PIPE_CONFIGURATION structure is used as a parameter to <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>, when the specified I/O control code is <a href="https://msdn.microsoft.com/library/windows/hardware/ff542859">IOCTL_GET_PIPE_CONFIGURATION</a>.
 
 
 ## -struct-fields
@@ -76,5 +66,5 @@ The number of transfer pipes supported for the device.
 
 ### -field PipeInfo
 
-Pointer to a <b>NumberOfPipes</b>-sized array of <a href="..\usbscan\ns-usbscan-_usbscan_pipe_information.md">USBSCAN_PIPE_INFORMATION</a> structures.
+Pointer to a <b>NumberOfPipes</b>-sized array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff548547">USBSCAN_PIPE_INFORMATION</a> structures.
 

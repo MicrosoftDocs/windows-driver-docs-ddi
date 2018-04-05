@@ -7,7 +7,7 @@ old-location: netvista\wskdisconnectevent.htm
 old-project: netvista
 ms.assetid: bf12d7b3-080e-46d9-b276-76d42068e7c6
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: PFN_WSK_DISCONNECT_EVENT, WskDisconnectEvent, WskDisconnectEvent callback function [Network Drivers Starting with Windows Vista], netvista.wskdisconnectevent, wsk/WskDisconnectEvent, wskref_ec112b8d-f939-456f-9766-e181c7836e2c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	wsk.h
 api_name:
 -	WskDisconnectEvent
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WPP_TRIAGE_INFO, *PWPP_TRIAGE_INFO
 req.product: Windows 10 or later.
@@ -55,20 +56,6 @@ The
   connection-oriented socket has been disconnected by the remote application.
 
 
-## -prototype
-
-
-````
-PFN_WSK_DISCONNECT_EVENT WskDisconnectEvent;
-
-NTSTATUS APIENTRY WskDisconnectEvent(
-  _In_opt_ PVOID SocketContext,
-  _In_     ULONG Flags
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -83,24 +70,24 @@ A pointer to the socket context for the connection-oriented socket that has been
 <ul>
 <li>
 It called the 
-       <a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a> function to create the socket.
+       <a href="https://msdn.microsoft.com/library/windows/hardware/ff571149">WskSocket</a> function to create the socket.
 
 </li>
 <li>
 It called the 
-       <a href="..\wsk\nc-wsk-pfn_wsk_socket_connect.md">WskSocketConnect</a> function to create
+       <a href="https://msdn.microsoft.com/library/windows/hardware/ff571150">WskSocketConnect</a> function to create
        the socket.
 
 </li>
 <li>
 It called the 
-       <a href="..\wsk\nc-wsk-pfn_wsk_accept.md">WskAccept</a> function to accept the socket as an
+       <a href="https://msdn.microsoft.com/library/windows/hardware/ff571109">WskAccept</a> function to accept the socket as an
        incoming connection.
 
 </li>
 <li>
 Its 
-       <a href="..\wsk\nc-wsk-pfn_wsk_accept_event.md">WskAcceptEvent</a> event callback function
+       <a href="https://msdn.microsoft.com/672440f0-810a-4e68-82a5-d038770898c5">WskAcceptEvent</a> event callback function
        was called to accept the socket as an incoming connection.
 
 </li>
@@ -155,8 +142,8 @@ The WSK subsystem calls a WSK application's
 If the remote application performed a graceful disconnect of the socket, no further data will be
     received from the socket. However, the WSK application can still send data to the socket until the socket
     is either completely closed by the remote application or the WSK application calls the 
-    <a href="..\wsk\nc-wsk-pfn_wsk_disconnect.md">WskDisconnect</a> function or the 
-    <a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a> function on the socket.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff571129">WskDisconnect</a> function or the 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff571124">WskCloseSocket</a> function on the socket.
 
 If the remote application performed an abortive disconnect of the socket, no further data will be
     received from the socket and no further data can be sent to the socket.
@@ -171,46 +158,44 @@ A WSK application's <i>WskDisconnectEvent</i> event callback function must not w
 
 ## -see-also
 
-<a href="..\wsk\ns-wsk-_wsk_client_connection_dispatch.md">
+
+
+
+<a href="https://msdn.microsoft.com/960eee8a-2950-4baf-b32d-be13b3d65951">
    WSK_CLIENT_CONNECTION_DISPATCH</a>
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571109">WskAccept</a>
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_control_socket.md">WskControlSocket</a>
+<a href="https://msdn.microsoft.com/672440f0-810a-4e68-82a5-d038770898c5">WskAcceptEvent</a>
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_disconnect.md">WskDisconnect</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571124">WskCloseSocket</a>
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_connect.md">WskConnect</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571125">WskConnect</a>
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_socket_connect.md">WskSocketConnect</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571127">WskControlSocket</a>
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_accept.md">WskAccept</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571129">WskDisconnect</a>
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_accept_event.md">WskAcceptEvent</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571149">WskSocket</a>
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571150">WskSocketConnect</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20PFN_WSK_DISCONNECT_EVENT callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

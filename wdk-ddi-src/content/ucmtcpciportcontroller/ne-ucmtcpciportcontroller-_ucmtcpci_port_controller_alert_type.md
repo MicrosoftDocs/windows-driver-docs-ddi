@@ -7,7 +7,7 @@ old-location: buses\ucmtcpci_port_controller_alert_type.htm
 old-project: usbref
 ms.assetid: 77162a25-b5aa-45d0-ac4d-6500df9782de
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: UCMTCPCI_PORT_CONTROLLER_ALERT_TYPE, UCMTCPCI_PORT_CONTROLLER_ALERT_TYPE enumeration [Buses], UcmTcpciPortControllerAlertCCStatus, UcmTcpciPortControllerAlertFault, UcmTcpciPortControllerAlertInvalid, UcmTcpciPortControllerAlertPowerStatus, UcmTcpciPortControllerAlertReceiveSOPMessageStatus, UcmTcpciPortControllerAlertReceivedHardReset, UcmTcpciPortControllerAlertRxBufferOverflow, UcmTcpciPortControllerAlertTransmitSOPMessageDiscarded, UcmTcpciPortControllerAlertTransmitSOPMessageFailed, UcmTcpciPortControllerAlertTransmitSOPMessageSuccessful, UcmTcpciPortControllerAlertVbusSinkDisconnectDetected, UcmTcpciPortControllerAlertVbusVoltageAlarmHi, UcmTcpciPortControllerAlertVbusVoltageAlarmLo, _UCMTCPCI_PORT_CONTROLLER_ALERT_TYPE, buses.ucmtcpci_port_controller_alert_type, ucmtcpciportcontroller/UCMTCPCI_PORT_CONTROLLER_ALERT_TYPE, ucmtcpciportcontroller/UcmTcpciPortControllerAlertCCStatus, ucmtcpciportcontroller/UcmTcpciPortControllerAlertFault, ucmtcpciportcontroller/UcmTcpciPortControllerAlertInvalid, ucmtcpciportcontroller/UcmTcpciPortControllerAlertPowerStatus, ucmtcpciportcontroller/UcmTcpciPortControllerAlertReceiveSOPMessageStatus, ucmtcpciportcontroller/UcmTcpciPortControllerAlertReceivedHardReset, ucmtcpciportcontroller/UcmTcpciPortControllerAlertRxBufferOverflow, ucmtcpciportcontroller/UcmTcpciPortControllerAlertTransmitSOPMessageDiscarded, ucmtcpciportcontroller/UcmTcpciPortControllerAlertTransmitSOPMessageFailed, ucmtcpciportcontroller/UcmTcpciPortControllerAlertTransmitSOPMessageSuccessful, ucmtcpciportcontroller/UcmTcpciPortControllerAlertVbusSinkDisconnectDetected, ucmtcpciportcontroller/UcmTcpciPortControllerAlertVbusVoltageAlarmHi, ucmtcpciportcontroller/UcmTcpciPortControllerAlertVbusVoltageAlarmLo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ucmtcpciportcontroller.h
 api_name:
 -	UCMTCPCI_PORT_CONTROLLER_ALERT_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UCMTCPCI_PORT_CONTROLLER_ALERT_TYPE
 req.product: Windows 10 or later.
@@ -53,28 +54,6 @@ req.product: Windows 10 or later.
 
                     
                 Defines generic alert values that are used to indicate the type of hardware alert received on the port controller.
-
-
-## -syntax
-
-
-````
-typedef enum _UCMTCPCI_PORT_CONTROLLER_ALERT_TYPE { 
-  UcmTcpciPortControllerAlertInvalid                       = = 0x0,
-  UcmTcpciPortControllerAlertCCStatus,
-  UcmTcpciPortControllerAlertPowerStatus,
-  UcmTcpciPortControllerAlertReceiveSOPMessageStatus,
-  UcmTcpciPortControllerAlertReceivedHardReset,
-  UcmTcpciPortControllerAlertTransmitSOPMessageFailed,
-  UcmTcpciPortControllerAlertTransmitSOPMessageDiscarded,
-  UcmTcpciPortControllerAlertTransmitSOPMessageSuccessful,
-  UcmTcpciPortControllerAlertVbusVoltageAlarmHi,
-  UcmTcpciPortControllerAlertVbusVoltageAlarmLo,
-  UcmTcpciPortControllerAlertFault,
-  UcmTcpciPortControllerAlertRxBufferOverflow,
-  UcmTcpciPortControllerAlertVbusSinkDisconnectDetected
-} UCMTCPCI_PORT_CONTROLLER_ALERT_TYPE;
-````
 
 
 ## -enum-fields
@@ -177,13 +156,11 @@ Indicates that the
 
 ## -see-also
 
-<a href="..\ucmtcpciportcontroller\ns-ucmtcpciportcontroller-_ucmtcpci_port_controller_alert_data.md">UCMTCPCI_PORT_CONTROLLER_ALERT_DATA</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt805898">UCMTCPCI_PORT_CONTROLLER_ALERT_DATA</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20UCMTCPCI_PORT_CONTROLLER_ALERT_TYPE enumeration%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

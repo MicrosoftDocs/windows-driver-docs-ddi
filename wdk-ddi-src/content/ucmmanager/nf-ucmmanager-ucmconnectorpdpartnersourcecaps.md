@@ -7,7 +7,7 @@ old-location: buses\ucmconnectorpdportpartnersourcecaps.htm
 old-project: usbref
 ms.assetid: 282E12E2-F16F-4399-BC8C-78BD64F05F13
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: UcmConnectorPdPartnerSourceCaps, UcmConnectorPdPartnerSourceCaps method [Buses], buses.ucmconnectorpdportpartnersourcecaps, ucmmanager/UcmConnectorPdPartnerSourceCaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	UcmCxstub.dll
 api_name:
 -	UcmConnectorPdPartnerSourceCaps
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PORT_DATA_1, *PPORT_DATA_1
 req.product: Windows 10 or later.
@@ -54,18 +55,6 @@ req.product: Windows 10 or later.
 Notifies the USB connector manager framework extension (UcmCx) with the power source capabilities of the partner connector.
 
 
-## -syntax
-
-
-````
-NTSTATUS UcmConnectorPdPartnerSourceCaps(
-  [in] UCMCONNECTOR              Connector,
-  [in] UCM_PD_POWER_DATA_OBJECT  Pdos[],
-  [in] UCHAR                     PdoCount
-);
-````
-
-
 ## -parameters
 
 
@@ -73,7 +62,7 @@ NTSTATUS UcmConnectorPdPartnerSourceCaps(
 
 ### -param Connector [in]
 
-Handle to the connector object that the client driver received in the previous call to <a href="..\ucmmanager\nf-ucmmanager-ucmconnectorcreate.md">UcmConnectorCreate</a>.
+Handle to the connector object that the client driver received in the previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/mt187909">UcmConnectorCreate</a>.
 
 
 ### -param Pdos
@@ -88,7 +77,7 @@ Number of elements in the array specified by   <i>Pdos[]</i>.
 
 #### - Pdos[] [in]
 
-A caller-allocated array of <a href="..\ucmtypes\ns-ucmtypes-_ucm_pd_power_data_object.md">UCM_PD_POWER_DATA_OBJECT</a> structures that describes the power source capabilities.
+A caller-allocated array of <a href="https://msdn.microsoft.com/library/windows/hardware/mt187935">UCM_PD_POWER_DATA_OBJECT</a> structures that describes the power source capabilities.
 
 
 ## -returns
@@ -145,13 +134,11 @@ If the partner connector is the power sink, the local connector port must query 
 
 ## -see-also
 
-<a href="..\ucmmanager\nf-ucmmanager-ucmconnectorcreate.md">UcmConnectorCreate</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt187909">UcmConnectorCreate</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20UcmConnectorPdPartnerSourceCaps method%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

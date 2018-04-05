@@ -7,7 +7,7 @@ old-location: display\dxgkddicontroletwlogging.htm
 old-project: display
 ms.assetid: c94a43bb-19d0-4894-80b0-885562fefea5
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_CONTROL_ETW_LOGGING, DmFunctions_87548564-6b7b-431b-b68c-202af84deefc.xml, DxgkDdiControlEtwLogging, DxgkDdiControlEtwLogging callback function [Display Devices], display.dxgkddicontroletwlogging, dispmprt/DxgkDdiControlEtwLogging
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	dispmprt.h
 api_name:
 -	DxgkDdiControlEtwLogging
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 ---
@@ -50,21 +51,6 @@ req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 
 
 The <i>DxgkDdiControlEtwLogging </i>function enables or disables Event Tracing for Windows (ETW) event logging.
-
-
-## -prototype
-
-
-````
-DXGKDDI_CONTROL_ETW_LOGGING DxgkDdiControlEtwLogging;
-
-VOID DxgkDdiControlEtwLogging(
-  _In_ BOOLEAN Enable,
-  _In_ ULONG   Flags,
-  _In_ UCHAR   Level
-)
-{ ... }
-````
 
 
 ## -parameters

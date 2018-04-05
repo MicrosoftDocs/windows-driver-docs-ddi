@@ -7,7 +7,7 @@ old-location: display\settexture.htm
 old-project: display
 ms.assetid: b2ed86c5-cd4f-4aaa-a062-4c7ae4e088df
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3DDDI_SETTEXTURE, SetTexture, SetTexture callback function [Display Devices], UserModeDisplayDriver_Functions_f85a8797-cbcc-40df-a339-af69ce128e95.xml, d3dumddi/SetTexture, display.settexture
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	SetTexture
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_PTE
 ---
@@ -52,21 +53,6 @@ req.typenames: DXGK_PTE
 The <i>SetTexture</i> function inserts a texture at a particular stage in a multiple-texture group.
 
 
-## -prototype
-
-
-````
-PFND3DDDI_SETTEXTURE SetTexture;
-
-__checkReturn HRESULT APIENTRY SetTexture(
-  _In_ HANDLE hDevice,
-  _In_ UINT   Stage,
-  _In_ HANDLE hTexture
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -77,10 +63,10 @@ __checkReturn HRESULT APIENTRY SetTexture(
  A handle to the display device (graphics context).
 
 
-### -param UINT
+### -param Arg1
 
 
-### -param HANDLE
+### -param Arg2
 
 
 
@@ -110,13 +96,11 @@ __checkReturn HRESULT APIENTRY SetTexture(
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544519">D3DDDI_DEVICEFUNCS</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3DDDI_SETTEXTURE callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

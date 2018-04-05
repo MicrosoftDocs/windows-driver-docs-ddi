@@ -7,7 +7,7 @@ old-location: netvista\protocolcmclosecall.htm
 old-project: netvista
 ms.assetid: b5307e1b-3905-4e43-a0b0-0068ba18ef0d
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: PROTOCOL_CM_CLOSE_CALL, ProtocolCmCloseCall, ProtocolCmCloseCall callback function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_238e7e85-94af-4e1e-8eb2-04fc89515b4d.xml, ndis/ProtocolCmCloseCall, netvista.protocolcmclosecall
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ndis.h
 api_name:
 -	ProtocolCmCloseCall
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
 ---
@@ -55,22 +56,6 @@ The
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>PROTOCOL_CM_CLOSE_CALL</b> type.
    For more information, see the following Examples section.</div><div> </div>
 
-## -prototype
-
-
-````
-PROTOCOL_CM_CLOSE_CALL ProtocolCmCloseCall;
-
-NDIS_STATUS ProtocolCmCloseCall(
-  _In_     NDIS_HANDLE CallMgrVcContext,
-  _In_opt_ NDIS_HANDLE CallMgrPartyContext,
-  _In_opt_ PVOID       CloseData,
-  _In_opt_ UINT        Size
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -80,7 +65,7 @@ NDIS_STATUS ProtocolCmCloseCall(
 
 Specifies the handle to a call manager-allocated context area in which the call manager maintains
      its per-VC state. This handle was provided to NDIS from the call managers 
-     <a href="..\ndis\nc-ndis-protocol_cm_make_call.md">ProtocolCmMakeCall</a> function.
+     <a href="https://msdn.microsoft.com/ede0a18a-cd3b-4fbb-a16b-e7493940d633">ProtocolCmMakeCall</a> function.
 
 
 ### -param CallMgrPartyContext [in, optional]
@@ -136,7 +121,7 @@ Indicates that the call manager successfully terminated the call.
 Indicates that the call manager will complete the request to terminate the call asynchronously.
        When the call manager has completed all operations required to terminate the connection, it must then
        call 
-       <a href="..\ndis\nf-ndis-ndiscmclosecallcomplete.md">NdisCmCloseCallComplete</a> to
+       <a href="https://msdn.microsoft.com/library/windows/hardware/ff561655">NdisCmCloseCallComplete</a> to
        signal NDIS that the call has been closed.
 
 </td>
@@ -182,7 +167,7 @@ Indicates that the call manager could not terminate the call. The actual error r
     should use a virtual connection to the network control device that it established in its 
     <i>ProtocolBindAdapterEx</i> function. Stand-alone call managers communicate to such network devices by
     calling 
-    <a href="..\ndis\nf-ndis-ndiscosendnetbufferlists.md">NdisCoSendNetBufferLists</a>.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561728">NdisCoSendNetBufferLists</a>.
     Miniport drivers with integrated call-management support never call 
     <b>NdisCoSendNetBufferLists</b>. Instead, they transmit the data directly across the network.
 
@@ -199,7 +184,7 @@ If
     perform any necessary network communication with its networking hardware, as appropriate to its media
     type, to terminate the call as a multipoint call. The call manager must also free the memory that it
     allocated earlier, in 
-    <a href="..\ndis\nc-ndis-protocol_cm_make_call.md">ProtocolCmMakeCall</a>, for its
+    <a href="https://msdn.microsoft.com/ede0a18a-cd3b-4fbb-a16b-e7493940d633">ProtocolCmMakeCall</a>, for its
     per-party state that is pointed to by 
     <i>CallMgrPartyContext</i> . Failure to properly release, deallocate, or otherwise deactivate those
     resources causes a memory leak.
@@ -207,7 +192,7 @@ If
 After the call has been terminated with the network, any close data has been sent, and any resources
     at 
     <i>CallMgrPartyContext</i> have been freed, the call manager must call 
-    <a href="..\ndis\nf-ndis-ndiscmdeactivatevc.md">NdisCmDeactivateVc</a>. This notifies NDIS
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561657">NdisCmDeactivateVc</a>. This notifies NDIS
     and the underlying miniport driver, if any, to expect no further transfers on the given VC.
 
 <h3><a id="Examples"></a><a id="examples"></a><a id="EXAMPLES"></a>Examples</h3>
@@ -254,25 +239,23 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_cm_make_call.md">ProtocolCmMakeCall</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561635">NdisClMakeCall</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiscmdeactivatevc.md">NdisCmDeactivateVc</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561657">NdisCmDeactivateVc</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiscosendnetbufferlists.md">NdisCoSendNetBufferLists</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561728">NdisCoSendNetBufferLists</a>
 
 
 
+<a href="https://msdn.microsoft.com/ede0a18a-cd3b-4fbb-a16b-e7493940d633">ProtocolCmMakeCall</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20PROTOCOL_CM_CLOSE_CALL callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

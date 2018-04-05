@@ -7,7 +7,7 @@ old-location: print\ifixedpage_deleteresource.htm
 old-project: print
 ms.assetid: 11aefa65-9f1c-4a6e-aac0-8727c6e00a02
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: DeleteResource method [Print Devices], DeleteResource method [Print Devices], IFixedPage interface, DeleteResource,IFixedPage.DeleteResource, IFixedPage, IFixedPage interface [Print Devices], DeleteResource method, IFixedPage::DeleteResource, filterpipeline/IFixedPage::DeleteResource, filterpipeline_b87a40f2-68cc-4664-9531-aaffc41b1a1a.xml, print.ifixedpage_deleteresource
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: filterpipeline.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	filterpipeline.h
 api_name:
 -	IFixedPage.DeleteResource
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
@@ -50,16 +51,6 @@ req.typenames: EXpsFontRestriction
 
 
 The <b>DeleteResource</b> method deletes a resource that is associated with the page.
-
-
-## -syntax
-
-
-````
-HRESULT DeleteResource(
-  [in] const wchar_t *uri
-);
-````
 
 
 ## -parameters

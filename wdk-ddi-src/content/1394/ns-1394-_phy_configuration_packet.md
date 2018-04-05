@@ -38,7 +38,8 @@ api_location:
 -	1394.h
 api_name:
 -	PHY_CONFIGURATION_PACKET
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PHY_CONFIGURATION_PACKET, *PPHY_CONFIGURATION_PACKET
 ---
@@ -50,23 +51,6 @@ req.typenames: PHY_CONFIGURATION_PACKET, *PPHY_CONFIGURATION_PACKET
 
 
 The PHY_CONFIGURATION_PACKET structure contains a raw PHY configuration packet.
-
-
-## -syntax
-
-
-````
-typedef struct _PHY_CONFIGURATION_PACKET {
-  ULONG PCP_Phys_ID  :6;
-  ULONG PCP_Packet_ID  :2;
-  ULONG PCP_Gap_Count  :6;
-  ULONG PCP_Set_Gap_Count  :1;
-  ULONG PCP_Force_Root  :1;
-  ULONG PCP_Reserved1  :8;
-  ULONG PCP_Reserved2  :8;
-  ULONG PCP_Inverse;
-} PHY_CONFIGURATION_PACKET, *PPHY_CONFIGURATION_PACKET;
-````
 
 
 ## -struct-fields
@@ -125,13 +109,11 @@ For an explanation of the function of the PHY configuration packet, see the IEEE
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537661">REQUEST_SEND_PHY_CONFIG_PACKET</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [IEEE\buses]:%20PHY_CONFIGURATION_PACKET structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

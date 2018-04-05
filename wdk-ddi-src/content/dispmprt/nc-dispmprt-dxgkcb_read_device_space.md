@@ -7,7 +7,7 @@ old-location: display\dxgkcbreaddevicespace.htm
 old-project: display
 ms.assetid: 118ea0b9-6463-4050-9f33-192a3d42fdce
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKCB_READ_DEVICE_SPACE, DpFunctions_54853b5b-487d-410e-a08d-eb777b3686e9.xml, DxgkCbReadDeviceSpace, DxgkCbReadDeviceSpace callback function [Display Devices], display.dxgkcbreaddevicespace, dispmprt/DxgkCbReadDeviceSpace
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	dispmprt.h
 api_name:
 -	DxgkCbReadDeviceSpace
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 ---
@@ -52,24 +53,6 @@ req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 The <b>DxgkCbReadDeviceSpace</b> function reads from a device configuration space or the expansion ROM of a display adapter.
 
 
-## -prototype
-
-
-````
-DXGKCB_READ_DEVICE_SPACE DxgkCbReadDeviceSpace;
-
-NTSTATUS DxgkCbReadDeviceSpace(
-  _In_  HANDLE DeviceHandle,
-  _In_  ULONG  DataType,
-  _In_  PVOID  Buffer,
-  _In_  ULONG  Offset,
-  _In_  ULONG  Length,
-  _Out_ PULONG BytesRead
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -77,7 +60,7 @@ NTSTATUS DxgkCbReadDeviceSpace(
 
 ### -param DeviceHandle [in]
 
-A handle that represents a display adapter. The display miniport driver previously obtained this handle in the <b>DeviceHandle</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560942">DXGKRNL_INTERFACE</a> structure that was passed to <a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a>.
+A handle that represents a display adapter. The display miniport driver previously obtained this handle in the <b>DeviceHandle</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560942">DXGKRNL_INTERFACE</a> structure that was passed to <a href="https://msdn.microsoft.com/ffacbb39-2581-4207-841d-28ce57fbc64d">DxgkDdiStartDevice</a>.
 
 
 ### -param DataType [in]
@@ -183,13 +166,11 @@ A pointer to a ULONG-typed variable that receives the number of bytes actually r
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkcb_write_device_space.md">DxgkCbWriteDeviceSpace</a>
 
 
 
+<a href="https://msdn.microsoft.com/797d6b0c-91a4-4923-ad40-937cfde50067">DxgkCbWriteDeviceSpace</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKCB_READ_DEVICE_SPACE callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: wdf\wdfrequestimpersonate.htm
 old-project: wdf
 ms.assetid: E5267F04-D693-453B-BAD2-C61F89B07F6E
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/26/2018
 ms.keywords: WdfRequestImpersonate, WdfRequestImpersonate method, wdf.wdfrequestimpersonate, wdfrequest/WdfRequestImpersonate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	WUDFx02000.dll
 api_name:
 -	WdfRequestImpersonate
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_REQUEST_TYPE
 req.product: Windows 10 or later.
@@ -55,19 +56,6 @@ req.product: Windows 10 or later.
 The <b>WdfRequestImpersonate</b> method registers a driver-supplied event callback function  that the framework should call for impersonation.
 
 
-## -syntax
-
-
-````
-NTSTATUS WdfRequestImpersonate(
-  _In_     WDFREQUEST                   Request,
-  _In_     SECURITY_IMPERSONATION_LEVEL ImpersonationLevel,
-  _In_     PFN_WDF_REQUEST_IMPERSONATE  EvtRequestImpersonate,
-  _In_opt_ PVOID                        Context
-);
-````
-
-
 ## -parameters
 
 
@@ -80,17 +68,17 @@ A handle to the framework request object that represents the I/O request that is
 
 ### -param ImpersonationLevel [in]
 
-A <a href="..\wudfddi\ne-wudfddi-_security_impersonation_level.md">SECURITY_IMPERSONATION_LEVEL</a>-typed value that identifies the level of impersonation.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff556631">SECURITY_IMPERSONATION_LEVEL</a>-typed value that identifies the level of impersonation.
 
 
 ### -param EvtRequestImpersonate [in]
 
-A pointer to the driver's <a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_impersonate.md">EvtRequestImpersonate</a> event callback function.
+A pointer to the driver's <a href="https://msdn.microsoft.com/FA3FE0C0-57EC-4761-991B-49CA65A79BDD">EvtRequestImpersonate</a> event callback function.
 
 
 ### -param Context [in, optional]
 
-A pointer to a buffer that contains context information that is related to the impersonation call. The framework passes this context information in a call to the <a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_impersonate.md">EvtRequestImpersonate</a> event callback function. This parameter is optional and can be <b>NULL</b>
+A pointer to a buffer that contains context information that is related to the impersonation call. The framework passes this context information in a call to the <a href="https://msdn.microsoft.com/FA3FE0C0-57EC-4761-991B-49CA65A79BDD">EvtRequestImpersonate</a> event callback function. This parameter is optional and can be <b>NULL</b>
 
 
 ## -returns
@@ -108,7 +96,7 @@ The method might return other <a href="https://msdn.microsoft.com/library/window
 
 
 
-The <b>WdfRequestImpersonate</b> method does not return until the <a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_impersonate.md">EvtRequestImpersonate</a> event callback function completes.
+The <b>WdfRequestImpersonate</b> method does not return until the <a href="https://msdn.microsoft.com/FA3FE0C0-57EC-4761-991B-49CA65A79BDD">EvtRequestImpersonate</a> event callback function completes.
 
 For more information, see <a href="https://msdn.microsoft.com/02EA93CE-3C4D-4F6F-8E58-DD78EBDB19DE">Handling Client Impersonation in UMDF Drivers</a>.
 
@@ -117,17 +105,15 @@ For more information, see <a href="https://msdn.microsoft.com/02EA93CE-3C4D-4F6F
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/FA3FE0C0-57EC-4761-991B-49CA65A79BDD">EvtRequestImpersonate</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559136">IWDFIoRequest::Impersonate</a>
-
-
-
-<a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_impersonate.md">EvtRequestImpersonate</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfRequestImpersonate method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: display\d3dkmdt_monitor_connectivity_checks.htm
 old-project: display
 ms.assetid: 8a32fef1-e404-478d-8b99-064ed456e37c
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMDT_MCC_ENFORCE, D3DKMDT_MCC_IGNORE, D3DKMDT_MCC_UNINITIALIZED, D3DKMDT_MONITOR_CONNECTIVITY_CHECKS, D3DKMDT_MONITOR_CONNECTIVITY_CHECKS enumeration [Display Devices], DmEnums_ac54453d-cc4d-4ea7-ad10-943389a837d7.xml, _D3DKMDT_MONITOR_CONNECTIVITY_CHECKS, d3dkmdt/D3DKMDT_MCC_ENFORCE, d3dkmdt/D3DKMDT_MCC_IGNORE, d3dkmdt/D3DKMDT_MCC_UNINITIALIZED, d3dkmdt/D3DKMDT_MONITOR_CONNECTIVITY_CHECKS, display.d3dkmdt_monitor_connectivity_checks
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmdt.h
 api_name:
 -	D3DKMDT_MONITOR_CONNECTIVITY_CHECKS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMDT_MONITOR_CONNECTIVITY_CHECKS
 ---
@@ -49,19 +50,7 @@ req.typenames: D3DKMDT_MONITOR_CONNECTIVITY_CHECKS
 ## -description
 
 
-The D3DKMDT_MONITOR_CONNECTIVITY_CHECKS enumerated type indicates whether the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_commitvidpn.md">DxgkDdiCommitVidPn</a> function should verify that certain video outputs have connected monitors.
-
-
-## -syntax
-
-
-````
-typedef enum _D3DKMDT_MONITOR_CONNECTIVITY_CHECKS { 
-  D3DKMDT_MCC_UNINITIALIZED  = 0,
-  D3DKMDT_MCC_IGNORE         = 1,
-  D3DKMDT_MCC_ENFORCE        = 2
-} D3DKMDT_MONITOR_CONNECTIVITY_CHECKS;
-````
+The D3DKMDT_MONITOR_CONNECTIVITY_CHECKS enumerated type indicates whether the <a href="https://msdn.microsoft.com/979b86e9-f3ff-4022-8c00-b6afc2b1f747">DxgkDdiCommitVidPn</a> function should verify that certain video outputs have connected monitors.
 
 
 ## -enum-fields
@@ -88,20 +77,18 @@ Indicates that <b>DxgkDdiCommitVidPn</b> must verify that monitors are connected
 
 
 
-The <b>MonitorConnectivityChecks</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_commitvidpn.md">DXGKARG_COMMITVIDPN</a> structure is a D3DKMDT_MONITOR_CONNECTIVITY_CHECKS value.
+The <b>MonitorConnectivityChecks</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557552">DXGKARG_COMMITVIDPN</a> structure is a D3DKMDT_MONITOR_CONNECTIVITY_CHECKS value.
 
 
 
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_commitvidpn.md">DxgkDdiCommitVidPn</a>
 
 
 
+<a href="https://msdn.microsoft.com/979b86e9-f3ff-4022-8c00-b6afc2b1f747">DxgkDdiCommitVidPn</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMDT_MONITOR_CONNECTIVITY_CHECKS enumeration%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

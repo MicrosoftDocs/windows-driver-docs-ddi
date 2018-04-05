@@ -7,7 +7,7 @@ old-location: image\wias_changed_value_info.htm
 old-project: image
 ms.assetid: bfef9d54-fcd5-436b-b3ec-8cd3b8f38360
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/27/2018
 ms.keywords: "*PWIAS_CHANGED_VALUE_INFO, PWIAS_CHANGED_VALUE_INFO, PWIAS_CHANGED_VALUE_INFO structure pointer [Imaging Devices], WIAS_CHANGED_VALUE_INFO, WIAS_CHANGED_VALUE_INFO structure [Imaging Devices], _WIAS_CHANGED_VALUE_INFO, image.wias_changed_value_info, wiamindr_lh/PWIAS_CHANGED_VALUE_INFO, wiamindr_lh/WIAS_CHANGED_VALUE_INFO, wiastrct_0c1c5e66-1f26-471f-9916-117460b6a373.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	wiamindr_lh.h
 api_name:
 -	WIAS_CHANGED_VALUE_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WIAS_CHANGED_VALUE_INFO, *PWIAS_CHANGED_VALUE_INFO
 req.product: Windows 10 or later.
@@ -51,29 +52,6 @@ req.product: Windows 10 or later.
 
 
 The WIAS_CHANGED_VALUE_INFO structure is used to store the current and previous values of a property.
-
-
-## -syntax
-
-
-````
-typedef struct _WIAS_CHANGED_VALUE_INFO {
-  BOOL  bChanged;
-  LONG  vt;
-  union {
-    LONG  lVal;
-    FLOAT fltVal;
-    BSTR  bstrVal;
-    GUID  guidVal;
-  } Old;
-  union {
-    LONG  lVal;
-    FLOAT fltVal;
-    BSTR  bstrVal;
-    GUID  guidVal;
-  } Current;
-} WIAS_CHANGED_VALUE_INFO, *PWIAS_CHANGED_VALUE_INFO;
-````
 
 
 ## -struct-fields
@@ -128,7 +106,6 @@ The <b>wiasGetChangedValue</b><i>Xxx</i> functions, use this structure to determ
 
 ## -see-also
 
-<a href="..\wiamdef\nf-wiamdef-wiasgetchangedvalueguid.md">wiasGetChangedValueGuid</a>
 
 
 
@@ -136,21 +113,20 @@ The <b>wiasGetChangedValue</b><i>Xxx</i> functions, use this structure to determ
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiasgetchangedvaluestr.md">wiasGetChangedValueStr</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549200">wiasGetChangedValueFloat</a>
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiasgetchangedvaluefloat.md">wiasGetChangedValueFloat</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549211">wiasGetChangedValueGuid</a>
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiasgetchangedvaluelong.md">wiasGetChangedValueLong</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549214">wiasGetChangedValueLong</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549219">wiasGetChangedValueStr</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20WIAS_CHANGED_VALUE_INFO structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

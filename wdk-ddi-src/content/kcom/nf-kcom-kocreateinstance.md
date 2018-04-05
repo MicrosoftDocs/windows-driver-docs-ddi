@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KoCreateInstance
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CONNECT_DATA, *PCONNECT_DATA
 ---
@@ -53,20 +54,6 @@ req.typenames: CONNECT_DATA, *PCONNECT_DATA
 <i>This function is intended for internal use only.</i>
 
 The <b>KoCreateInstance</b> function creates an object of the class with the specified CLSID. 
-
-
-## -syntax
-
-
-````
-NTSTATUS KoCreateInstance(
-  _In_     REFCLSID ClassId,
-  _In_opt_ IUnknown *UnkOuter,
-  _In_     ULONG    ClsContext,
-  _In_     REFIID   InterfaceId,
-  _Out_    PVOID    *Interface
-);
-````
 
 
 ## -parameters

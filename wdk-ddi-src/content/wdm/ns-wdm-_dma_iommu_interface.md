@@ -22,7 +22,7 @@ req.dll:
 req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
-req.typenames: *PDMA_IOMMU_INTERFACE, DMA_IOMMU_INTERFACE
+req.typenames: DMA_IOMMU_INTERFACE, *PDMA_IOMMU_INTERFACE
 topictype: 
 -	apiref
 apitype: 

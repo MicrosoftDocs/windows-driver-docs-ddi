@@ -7,7 +7,7 @@ old-location: netvista\ndis_receive_filter_info.htm
 old-project: netvista
 ms.assetid: 12029cfd-58d0-4621-8cbc-c07e68db61b8
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: "*PNDIS_RECEIVE_FILTER_INFO, NDIS_RECEIVE_FILTER_INFO, NDIS_RECEIVE_FILTER_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_RECEIVE_FILTER_INFO, PNDIS_RECEIVE_FILTER_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_RECEIVE_FILTER_INFO, netvista.ndis_receive_filter_info, ntddndis/NDIS_RECEIVE_FILTER_INFO, ntddndis/PNDIS_RECEIVE_FILTER_INFO, virtual_machine_queue_ref_4c711292-ce17-4eb9-a051-c32f8ad6f49e.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ntddndis.h
 api_name:
 -	NDIS_RECEIVE_FILTER_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_RECEIVE_FILTER_INFO, *PNDIS_RECEIVE_FILTER_INFO
 ---
@@ -73,19 +74,6 @@ NDIS receive filters are used in the following NDIS interfaces:
 </li>
 </ul>
 
-## -syntax
-
-
-````
-typedef struct _NDIS_RECEIVE_FILTER_INFO {
-  NDIS_OBJECT_HEADER       Header;
-  ULONG                    Flags;
-  NDIS_RECEIVE_FILTER_TYPE FilterType;
-  NDIS_RECEIVE_FILTER_ID   FilterId;
-} NDIS_RECEIVE_FILTER_INFO, *PNDIS_RECEIVE_FILTER_INFO;
-````
-
-
 ## -struct-fields
 
 
@@ -94,7 +82,7 @@ typedef struct _NDIS_RECEIVE_FILTER_INFO {
 ### -field Header
 
 The 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure for the
      <b>NDIS_RECEIVE_FILTER_INFO</b> structure. The driver sets the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to NDIS_OBJECT_TYPE_DEFAULT.
@@ -136,7 +124,7 @@ A receive filter identifier. The filter identifier
 
 
 The <b>NDIS_RECEIVE_FILTER_INFO</b> structure is used with the 
-    <a href="..\ntddndis\ns-ntddndis-_ndis_receive_filter_info_array.md">
+    <a href="https://msdn.microsoft.com/32896b46-1143-4598-ad15-2eb4dbdea6e8">
     NDIS_RECEIVE_FILTER_INFO_ARRAY</a> structure for the 
     OID request of <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-enum-filters">OID_RECEIVE_FILTER_ENUM_FILTERS</a>. This OID request enumerates receive filters that have been configured on the miniport driver. This includes packet coalescing receive filters or the receive filters configured on a  receive queue that is used in the VMQ or SR-IOV interface.
 
@@ -145,22 +133,20 @@ The <b>NDIS_RECEIVE_FILTER_INFO</b> structure is used with the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-enum-filters">OID_RECEIVE_FILTER_ENUM_FILTERS</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_receive_filter_info_array.md">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="https://msdn.microsoft.com/32896b46-1143-4598-ad15-2eb4dbdea6e8">
    NDIS_RECEIVE_FILTER_INFO_ARRAY</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-enum-filters">OID_RECEIVE_FILTER_ENUM_FILTERS</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_RECEIVE_FILTER_INFO structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

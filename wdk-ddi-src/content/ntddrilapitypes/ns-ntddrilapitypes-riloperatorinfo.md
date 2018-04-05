@@ -7,13 +7,13 @@ old-location: netvista\riloperatorinfo.htm
 old-project: netvista
 ms.assetid: 213a4d4e-d19a-40c4-9bc4-8cf6f8aa2d07
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: "*LPRILOPERATORINFO, RILOPERATORINFO, RILOPERATORINFO structure [Network Drivers Starting with Windows Vista], netvista.riloperatorinfo, ntddrilapitypes/RILOPERATORINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddrilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILOPERATORINFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILOPERATORINFO, *LPRILOPERATORINFO
 ---
@@ -50,20 +51,6 @@ req.typenames: RILOPERATORINFO, *LPRILOPERATORINFO
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef struct _RILOPERATORINFO {
-  DWORD                  cbSize;
-  DWORD                  dwParams;
-  DWORD                  dwIndex;
-  RILOPERATORINFOSTATUS  dwStatus;
-  RILOPERATORNAMES       ronNames;
-} RILOPERATORINFO, RILOPERATORINFO;
-````
 
 
 ## -struct-fields

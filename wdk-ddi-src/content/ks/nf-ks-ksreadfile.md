@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsReadFile
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,23 +52,6 @@ req.typenames:
 
 
 The <b>KsReadFile</b> function performs a read against the specified file object. It is assumed the caller is serializing access to the file for operations against a FO_SYNCHRONOUS_IO file object. The function attempts to use <b>FastIoDispatch</b> if possible, or generates a read request against the device object. All relevant statistics are updated.
-
-
-## -syntax
-
-
-````
-NTSTATUS KsReadFile(
-  _In_     PFILE_OBJECT     FileObject,
-  _In_opt_ PKEVENT          Event,
-  _In_opt_ PVOID            PortContext,
-  _Out_    PIO_STATUS_BLOCK IoStatusBlock,
-  _Out_    PVOID            Buffer,
-  _In_     ULONG            Length,
-  _In_opt_ ULONG            Key,
-  _In_     KPROCESSOR_MODE  RequestorMode
-);
-````
 
 
 ## -parameters

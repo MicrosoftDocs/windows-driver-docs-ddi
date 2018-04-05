@@ -7,7 +7,7 @@ old-location: netvista\vmbchannelpacketgetexternaldata.htm
 old-project: netvista
 ms.assetid: 844AB898-E6F0-4C75-9364-1BE31AAB88E7
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: VMBUS_CHANNEL_PACKET_EXTERNAL_DATA_FLAG_READ_ONLY, VmbChannelPacketGetExternalData, VmbChannelPacketGetExternalData function [Network Drivers Starting with Windows Vista], netvista.vmbchannelpacketgetexternaldata, vmbuskernelmodeclientlibapi/VmbChannelPacketGetExternalData
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	vmbkmcl.dll
 api_name:
 -	VmbChannelPacketGetExternalData
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
 req.product: Windows 10 or later.
@@ -55,18 +56,6 @@ req.product: Windows 10 or later.
 
 The <b>VmbChannelPacketGetExternalData</b>  function gets any external
 Memory Descriptor Lists (MDLs) associated with a packet during packet processing. 
-
-
-## -syntax
-
-
-````
-NTSTATUS VmbChannelPacketGetExternalData(
-  _In_  VMBPACKETCOMPLETION PacketCompletionContext,
-  _In_  UINT32              Flags,
-  _Out_ PMDL                *Mdl
-);
-````
 
 
 ## -parameters
@@ -132,41 +121,39 @@ virtual machine may need to be paged in.
 
  The MDL returned by this function describes memory that is already
 locked in place. Therefore, there is no need to call the
-<a href="..\wdm\nf-wdm-mmprobeandlockpages.md">MmProbeAndLockPages</a> function.  The MDL will, however, have neither a user-mode virtual
-address nor a kernel-mode virtual address.  If the driver that calls this function requires a virtual address to manipulate the memory within the virtual machine, that driver must call <a href="..\wdm\nf-wdm-mmmaplockedpagesspecifycache.md">MmMapLockedPagesSpecifyCache</a>, or <a href="https://msdn.microsoft.com/library/windows/hardware/ff554559">MmGetSystemAddressForMdlSafe</a>,
-and the corresponding unlock function later, like <a href="..\wdm\nf-wdm-mmunmaplockedpages.md">MmUnmapLockedPages</a>.
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554664">MmProbeAndLockPages</a> function.  The MDL will, however, have neither a user-mode virtual
+address nor a kernel-mode virtual address.  If the driver that calls this function requires a virtual address to manipulate the memory within the virtual machine, that driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff554629">MmMapLockedPagesSpecifyCache</a>, or <a href="https://msdn.microsoft.com/library/windows/hardware/ff554559">MmGetSystemAddressForMdlSafe</a>,
+and the corresponding unlock function later, like <a href="https://msdn.microsoft.com/library/windows/hardware/ff556391">MmUnmapLockedPages</a>.
 An alternative to using a virtual address would be to just pass the MDL on down to a driver which uses it for direct memory access. 
 
- The driver calling this function is not required to release the MDL.  It becomes invalid upon calling the <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelpacketcomplete.md">VmbChannelPacketComplete</a> function. The Kernel Mode Client Library (KMCL) later releases it.  
+ The driver calling this function is not required to release the MDL.  It becomes invalid upon calling the <a href="https://msdn.microsoft.com/1DC215DF-1F53-4910-84D5-17E13BE6202A">VmbChannelPacketComplete</a> function. The Kernel Mode Client Library (KMCL) later releases it.  
 
 
 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554559">MmGetSystemAddressForMdlSafe</a>
 
 
 
-<a href="..\wdm\nf-wdm-mmmaplockedpagesspecifycache.md">MmMapLockedPagesSpecifyCache</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554629">MmMapLockedPagesSpecifyCache</a>
 
 
 
-<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelpacketcomplete.md">VmbChannelPacketComplete</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554664">MmProbeAndLockPages</a>
 
 
 
-<a href="..\wdm\nf-wdm-mmprobeandlockpages.md">MmProbeAndLockPages</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556391">MmUnmapLockedPages</a>
 
 
 
-<a href="..\wdm\nf-wdm-mmunmaplockedpages.md">MmUnmapLockedPages</a>
-
-
-
+<a href="https://msdn.microsoft.com/1DC215DF-1F53-4910-84D5-17E13BE6202A">VmbChannelPacketComplete</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20VmbChannelPacketGetExternalData function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

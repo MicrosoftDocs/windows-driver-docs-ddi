@@ -38,7 +38,8 @@ api_location:
 -	Sensorsdef.h
 api_name:
 -	PEDOMETER_STEP_TYPE_COUNT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PEDOMETER_STEP_TYPE_COUNT
 req.product: Windows 10 or later.
@@ -53,16 +54,6 @@ req.product: Windows 10 or later.
 This enumeration represents the number of step types that can be detected by the pedometer.
 
 
-## -syntax
-
-
-````
-typedef enum _PEDOMETER_STEP_TYPE_COUNT { 
-  PedometerStepTypeCount  = 3
-} PEDOMETER_STEP_TYPE_COUNT;
-````
-
-
 ## -enum-fields
 
 
@@ -75,13 +66,11 @@ The number of step types that can be detected.
 
 ## -see-also
 
-<a href="..\sensorsdef\ne-sensorsdef-pedometer_step_type.md">PEDOMETER_STEP_TYPE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn957077">PEDOMETER_STEP_TYPE</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [sensors\sensors]:%20PEDOMETER_STEP_TYPE_COUNT enumeration%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

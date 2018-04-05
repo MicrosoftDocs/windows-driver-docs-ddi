@@ -7,7 +7,7 @@ old-location: wdf\wdf_write_port_buffer_ushort.htm
 old-project: wdf
 ms.assetid: 7E4638B0-6FFE-483A-8B71-33B939854CFA
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/26/2018
 ms.keywords: WDF_WRITE_PORT_BUFFER_USHORT, WDF_WRITE_PORT_BUFFER_USHORT function, wdf.wdf_write_port_buffer_ushort, wdfhwaccess/WDF_WRITE_PORT_BUFFER_USHORT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	Wdfhwaccess.h
 api_name:
 -	WDF_WRITE_PORT_BUFFER_USHORT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_FILE_INFORMATION_CLASS, *PWDF_FILE_INFORMATION_CLASS
 req.product: Windows 10 or later.
@@ -54,19 +55,6 @@ req.product: Windows 10 or later.
 
 The <b>WDF_WRITE_PORT_BUFFER_USHORT</b> function writes a number of USHORT values from a buffer to the specified port address. 
 
-
-
-## -syntax
-
-
-````
-void WDF_WRITE_PORT_BUFFER_USHORT(
-  _In_ WDFDEVICE Device,
-  _In_ PUSHORT   Port,
-  _In_ PUSHORT   Buffer,
-  _In_ ULONG     Count 
-);
-````
 
 
 ## -parameters

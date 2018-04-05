@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSPROCESSPIN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSPROCESSPIN, *PKSPROCESSPIN
 ---
@@ -52,25 +53,6 @@ req.typenames: KSPROCESSPIN, *PKSPROCESSPIN
 The KSPROCESSPIN structure describes the process state of a specific pin.
 
 
-## -syntax
-
-
-````
-typedef struct _KSPROCESSPIN {
-  PKSPIN            Pin;
-  PKSSTREAM_POINTER StreamPointer;
-  PKSPROCESSPIN     InPlaceCounterpart;
-  PKSPROCESSPIN     DelegateBranch;
-  PKSPROCESSPIN     CopySource;
-  PVOID             Data;
-  ULONG             BytesAvailable;
-  ULONG             BytesUsed;
-  ULONG             Flags;
-  BOOLEAN           Terminate;
-} KSPROCESSPIN, *PKSPROCESSPIN;
-````
-
-
 ## -struct-fields
 
 
@@ -78,12 +60,12 @@ typedef struct _KSPROCESSPIN {
 
 ### -field Pin
 
-A pointer to a <a href="..\ks\ns-ks-_kspin.md">KSPIN</a> structure that the KSPROCESSPIN structure is describing. Everything in the structure refers to this KSPIN.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563483">KSPIN</a> structure that the KSPROCESSPIN structure is describing. Everything in the structure refers to this KSPIN.
 
 
 ### -field StreamPointer
 
-A pointer to a <a href="..\ks\ns-ks-_ksstream_pointer.md">KSSTREAM_POINTER</a> structure that points into the input stream at the current input location or into the output stream at the current output location. This can be used, for example, by output pins to stamp information onto the associated <a href="..\ks\ns-ks-ksstream_header.md">KSSTREAM_HEADER</a> (ProcessPin-&gt;StreamPointer-&gt;StreamHeader-&gt;Flags=...).
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff567139">KSSTREAM_POINTER</a> structure that points into the input stream at the current input location or into the output stream at the current output location. This can be used, for example, by output pins to stamp information onto the associated <a href="https://msdn.microsoft.com/library/windows/hardware/ff567138">KSSTREAM_HEADER</a> (ProcessPin-&gt;StreamPointer-&gt;StreamHeader-&gt;Flags=...).
 
 
 ### -field InPlaceCounterpart
@@ -118,7 +100,7 @@ This member specifies how many bytes of this data frame have been used by the pr
 
 ### -field Flags
 
-This member contains a copy of the flags from the relevant <a href="..\ks\ns-ks-ksstream_header.md">KSSTREAM_HEADER</a> structure, if this KSPROCESSPIN is an input pin.
+This member contains a copy of the flags from the relevant <a href="https://msdn.microsoft.com/library/windows/hardware/ff567138">KSSTREAM_HEADER</a> structure, if this KSPROCESSPIN is an input pin.
 
 
 ### -field Terminate
@@ -141,25 +123,23 @@ Most clients are concerned with the members <b>Pin</b>, <b>Data</b>, <b>BytesAva
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
 
 
 
-<a href="..\ks\ns-ks-_ksprocesspin_indexentry.md">KSPROCESSPIN_INDEXENTRY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563483">KSPIN</a>
 
 
 
-<a href="..\ks\ns-ks-_ksstream_pointer.md">KSSTREAM_POINTER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564260">KSPROCESSPIN_INDEXENTRY</a>
 
 
 
-<a href="..\ks\ns-ks-ksstream_header.md">KSSTREAM_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567138">KSSTREAM_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567139">KSSTREAM_POINTER</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSPROCESSPIN structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

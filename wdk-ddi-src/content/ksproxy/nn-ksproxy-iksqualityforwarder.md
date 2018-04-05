@@ -38,7 +38,8 @@ api_location:
 -	ksproxy.h
 api_name:
 -	IKsQualityForwarder
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PIPE_STATE
 ---
@@ -49,12 +50,12 @@ req.typenames: PIPE_STATE
 ## -description
 
 
-The <b>IKsQualityForwarder</b> interface inherits the method of the <a href="..\ksproxy\nn-ksproxy-iksobject.md">IKsObject</a> interface and extends <b>IKsObject</b> to provide a method that flushes information from a pin. 
+The <b>IKsQualityForwarder</b> interface inherits the method of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559883">IKsObject</a> interface and extends <b>IKsObject</b> to provide a method that flushes information from a pin. 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKsQualityForwarder</b> interface inherits from <a href="..\ksproxy\nn-ksproxy-iksobject.md">IKsObject</a>. <b>IKsQualityForwarder</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKsQualityForwarder</b> interface inherits from <a href="https://msdn.microsoft.com/library/windows/hardware/ff559883">IKsObject</a>. <b>IKsQualityForwarder</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

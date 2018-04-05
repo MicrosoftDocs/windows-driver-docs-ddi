@@ -7,7 +7,7 @@ old-location: display\d3dddiarg_drawprimitive.htm
 old-project: display
 ms.assetid: b5c3a750-7ccb-42ab-9648-17c43e390ec8
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDIARG_DRAWPRIMITIVE, D3DDDIARG_DRAWPRIMITIVE structure [Display Devices], UMDisplayDriver_param_Structs_19d7b078-8ea3-4b3a-982a-1163643df142.xml, _D3DDDIARG_DRAWPRIMITIVE, d3dumddi/D3DDDIARG_DRAWPRIMITIVE, display.d3dddiarg_drawprimitive
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	D3DDDIARG_DRAWPRIMITIVE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDIARG_DRAWPRIMITIVE
 ---
@@ -50,18 +51,6 @@ req.typenames: D3DDDIARG_DRAWPRIMITIVE
 
 
 The D3DDDIARG_DRAWPRIMITIVE structure describes a nonindexed primitive to draw. 
-
-
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_DRAWPRIMITIVE {
-  D3DPRIMITIVETYPE PrimitiveType;
-  UINT             VStart;
-  UINT             PrimitiveCount;
-} D3DDDIARG_DRAWPRIMITIVE;
-````
 
 
 ## -struct-fields
@@ -88,22 +77,20 @@ typedef struct _D3DDDIARG_DRAWPRIMITIVE {
 
 
 
-The Microsoft Direct3D runtime does not transform the vertex data before passing a pointer to the description of the vertex data in the <i>pData</i> parameter in a call to the user-mode display driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_drawprimitive.md">DrawPrimitive</a> function. 
+The Microsoft Direct3D runtime does not transform the vertex data before passing a pointer to the description of the vertex data in the <i>pData</i> parameter in a call to the user-mode display driver's <a href="https://msdn.microsoft.com/1a6de2b0-cab0-4fcf-be1b-a8cc1c1f79e9">DrawPrimitive</a> function. 
 
-When the runtime specifies triangle-edge flags in the value that is pointed to by the <i>pFlagBuffer</i> parameter in the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_drawprimitive.md">DrawPrimitive</a> call, the runtime also specifies to draw one or more triangles (that is, the runtime specifies the D3DPT_TRIANGLEFAN value in the <b>PrimitiveType</b> member and from 0x00000001 to 0xFFFFFFFF in the <b>PrimitiveCount</b> member of D3DDDIARG_DRAWPRIMITIVE that is pointed to by the <i>pData</i> parameter in the <b>DrawPrimitive</b> call).
+When the runtime specifies triangle-edge flags in the value that is pointed to by the <i>pFlagBuffer</i> parameter in the <a href="https://msdn.microsoft.com/1a6de2b0-cab0-4fcf-be1b-a8cc1c1f79e9">DrawPrimitive</a> call, the runtime also specifies to draw one or more triangles (that is, the runtime specifies the D3DPT_TRIANGLEFAN value in the <b>PrimitiveType</b> member and from 0x00000001 to 0xFFFFFFFF in the <b>PrimitiveCount</b> member of D3DDDIARG_DRAWPRIMITIVE that is pointed to by the <i>pData</i> parameter in the <b>DrawPrimitive</b> call).
 
 
 
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_drawprimitive.md">DrawPrimitive</a>
 
 
 
+<a href="https://msdn.microsoft.com/1a6de2b0-cab0-4fcf-be1b-a8cc1c1f79e9">DrawPrimitive</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DDDIARG_DRAWPRIMITIVE structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

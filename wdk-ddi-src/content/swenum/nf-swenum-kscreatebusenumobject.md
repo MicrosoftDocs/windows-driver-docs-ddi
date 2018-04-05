@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsCreateBusEnumObject
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STREAM_TIME_REFERENCE, *PSTREAM_TIME_REFERENCE
 req.product: Windows 10 or later.
@@ -54,21 +55,6 @@ req.product: Windows 10 or later.
 <i>This function is intended for internal use only.</i>
 
 The <b>KsCreateBusEnumObject</b> function creates a demand-load bus enumerator object and initializes it for use with the demand-load bus enumerator services. 
-
-
-## -syntax
-
-
-````
-NTSTATUS KsCreateBusEnumObject(
-  _In_     PWSTR          BusIdentifier,
-  _In_     PDEVICE_OBJECT BusDeviceObject,
-  _In_     PDEVICE_OBJECT PhysicalDeviceObject,
-  _In_opt_ PDEVICE_OBJECT PnpDeviceObject,
-  _In_opt_ REFGUID        InterfaceGuid,
-  _In_opt_ PWSTR          ServiceRelativePath
-);
-````
 
 
 ## -parameters
@@ -130,13 +116,11 @@ The demand-load bus enumerator object extends a Plug and Play device by servicin
 
 ## -see-also
 
-<a href="..\swenum\nf-swenum-ksservicebusenumpnprequest.md">KsServiceBusEnumPnpRequest</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566816">KsServiceBusEnumPnpRequest</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsCreateBusEnumObject function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

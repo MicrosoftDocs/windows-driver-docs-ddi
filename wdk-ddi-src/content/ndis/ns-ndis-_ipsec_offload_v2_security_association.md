@@ -7,7 +7,7 @@ old-location: netvista\ipsec_offload_v2_security_association.htm
 old-project: netvista
 ms.assetid: b2c5611e-930d-41a5-a07e-7de8f8584283
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: "*PIPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION, IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION, IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION structure [Network Drivers Starting with Windows Vista], PIPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION, PIPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION structure pointer [Network Drivers Starting with Windows Vista], _IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION, ndis/IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION, ndis/PIPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION, netvista.ipsec_offload_v2_security_association, task_offload_IPsecv2_ref_ccf0a55c-3609-4e15-928a-e46113b96df0.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ndis.h
 api_name:
 -	IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION, *PIPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION
 ---
@@ -53,21 +54,6 @@ req.typenames: IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION, *PIPSEC_OFFLOAD_V2_SECURIT
 
 The IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION structure specifies a single security association
   (SA).
-
-
-## -syntax
-
-
-````
-typedef struct _IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION {
-  ULONG                           Flags;
-  IPSEC_OFFLOAD_V2_OPERATION      Operation;
-  IPSEC_OFFLOAD_V2_SPI_TYPE       Spi;
-  IPSEC_OFFLOAD_V2_ALGORITHM_INFO AuthenticationAlgorithm;
-  IPSEC_OFFLOAD_V2_ALGORITHM_INFO EncryptionAlgorithm;
-  ULONG                           SequenceNumberHighOrder;
-} IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION, *PIPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION;
-````
 
 
 ## -struct-fields
@@ -93,7 +79,7 @@ Specifies ESN SA.
 ### -field Operation
 
 The IPsec operation for which the SA is to be used. The 
-     <a href="..\ndis\ne-ndis-_ipsec_offload_v2_operation.md">
+     <a href="https://msdn.microsoft.com/bb26c8af-1564-4cf8-ab40-b50b4811466d">
      IPSEC_OFFLOAD_V2_OPERATION</a> enumeration defines the supported operations.
 
 
@@ -105,7 +91,7 @@ A 32 bit security parameters index (SPI) for the SA.
 ### -field AuthenticationAlgorithm
 
 The integrity (authentication) algorithm for the SA, formatted as an 
-     <a href="..\ndis\ns-ndis-_ipsec_offload_v2_algorithm_info.md">
+     <a href="https://msdn.microsoft.com/787e5a98-ba77-42d4-8624-abcc02fccf53">
      IPSEC_OFFLOAD_V2_ALGORITHM_INFO</a> structure.
 
 
@@ -134,7 +120,7 @@ The sequence number high-order extension. This sequence number high-order extens
 
 The IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION structure is an element in the 
     <b>SecAssoc</b> variable-length array in the 
-    <a href="..\ndis\ns-ndis-_ipsec_offload_v2_add_sa.md">IPSEC_OFFLOAD_V2_ADD_SA</a> structure.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff556977">IPSEC_OFFLOAD_V2_ADD_SA</a> structure.
     The number of SAs in the IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION structure is specified in the 
     <b>NumExtHdrs</b> member of IPSEC_OFFLOAD_V2_ADD_SA.
 
@@ -165,22 +151,20 @@ A
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ipsec_offload_v2_add_sa.md">IPSEC_OFFLOAD_V2_ADD_SA</a>
 
 
 
-<a href="..\ndis\ns-ndis-_ipsec_offload_v2_algorithm_info.md">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556977">IPSEC_OFFLOAD_V2_ADD_SA</a>
+
+
+
+<a href="https://msdn.microsoft.com/787e5a98-ba77-42d4-8624-abcc02fccf53">
    IPSEC_OFFLOAD_V2_ALGORITHM_INFO</a>
 
 
 
-<a href="..\ndis\ne-ndis-_ipsec_offload_v2_operation.md">IPSEC_OFFLOAD_V2_OPERATION</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556984">IPSEC_OFFLOAD_V2_OPERATION</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

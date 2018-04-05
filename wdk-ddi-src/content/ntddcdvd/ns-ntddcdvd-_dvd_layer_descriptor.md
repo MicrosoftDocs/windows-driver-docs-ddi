@@ -7,7 +7,7 @@ old-location: storage\dvd_layer_descriptor.htm
 old-project: storage
 ms.assetid: dd981cc1-ab82-49de-8cf1-ba2b7451c7ef
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PDVD_LAYER_DESCRIPTOR, DVD_LAYER_DESCRIPTOR, DVD_LAYER_DESCRIPTOR structure [Storage Devices], PDVD_LAYER_DESCRIPTOR, PDVD_LAYER_DESCRIPTOR structure pointer [Storage Devices], _DVD_LAYER_DESCRIPTOR, ntddcdvd/DVD_LAYER_DESCRIPTOR, ntddcdvd/PDVD_LAYER_DESCRIPTOR, storage.dvd_layer_descriptor, structs-DVD_94f08da1-fe98-47cd-989a-b3f574874d6b.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddcdvd.h
 api_name:
 -	DVD_LAYER_DESCRIPTOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DVD_LAYER_DESCRIPTOR, *PDVD_LAYER_DESCRIPTOR
 ---
@@ -49,31 +50,7 @@ req.typenames: DVD_LAYER_DESCRIPTOR, *PDVD_LAYER_DESCRIPTOR
 ## -description
 
 
-The DVD_LAYER_DESCRIPTOR structure is used in conjunction with the <a href="..\ntddcdvd\ni-ntddcdvd-ioctl_dvd_read_structure.md">IOCTL_DVD_READ_STRUCTURE</a> request to retrieve a DVD layer descriptor. 
-
-
-## -syntax
-
-
-````
-typedef struct _DVD_LAYER_DESCRIPTOR {
-  UCHAR BookVersion  :4;
-  UCHAR BookType  :4;
-  UCHAR MinimumRate  :4;
-  UCHAR DiskSize  :4;
-  UCHAR LayerType  :4;
-  UCHAR TrackPath  :1;
-  UCHAR NumberOfLayers  :2;
-  UCHAR Reserved1  :1;
-  UCHAR TrackDensity  :4;
-  UCHAR LinearDensity  :4;
-  ULONG StartingDataSector;
-  ULONG EndDataSector;
-  ULONG EndLayerZeroSector;
-  UCHAR Reserved5  :7;
-  UCHAR BCAFlag  :1;
-} DVD_LAYER_DESCRIPTOR, *PDVD_LAYER_DESCRIPTOR;
-````
+The DVD_LAYER_DESCRIPTOR structure is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560426">IOCTL_DVD_READ_STRUCTURE</a> request to retrieve a DVD layer descriptor. 
 
 
 ## -struct-fields
@@ -445,13 +422,11 @@ For more information, see the <i>SCSI Multimedia Commands - 3 (MMC-3) </i>specif
 
 ## -see-also
 
-<a href="..\ntddcdvd\ni-ntddcdvd-ioctl_dvd_read_structure.md">IOCTL_DVD_READ_STRUCTURE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560426">IOCTL_DVD_READ_STRUCTURE</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20DVD_LAYER_DESCRIPTOR structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

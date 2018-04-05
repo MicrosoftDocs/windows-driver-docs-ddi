@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILOPENUICCLOGICALCHANNELINFO
 title: RILOPENUICCLOGICALCHANNELINFO
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilopenuicclogicalchannelinfo_2.htm
+old-location: netvista\rilopenuicclogicalchannelinfo.htm
 old-project: netvista
-ms.assetid: f731c790-4348-4c18-aef1-184c3d4bf258
+ms.assetid: 5001f623-5b53-4ae7-9b5b-dc3bd5bdcc70
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: "*LPRILOPENUICCLOGICALCHANNELINFO, RILOPENUICCLOGICALCHANNELINFO, RILOPENUICCLOGICALCHANNELINFO structure [Network Drivers Starting with Windows Vista], netvista.rilopenuicclogicalchannelinfo_2, rilapitypes/RILOPENUICCLOGICALCHANNELINFO"
+ms.date: 3/26/2018
+ms.keywords: "*LPRILOPENUICCLOGICALCHANNELINFO, RILOPENUICCLOGICALCHANNELINFO, RILOPENUICCLOGICALCHANNELINFO structure [Network Drivers Starting with Windows Vista], netvista.rilopenuicclogicalchannelinfo, ntddrilapitypes/RILOPENUICCLOGICALCHANNELINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,10 +35,11 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILOPENUICCLOGICALCHANNELINFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILOPENUICCLOGICALCHANNELINFO, *LPRILOPENUICCLOGICALCHANNELINFO
 req.product: Windows 10 or later.
@@ -50,21 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-
-## -syntax
-
-
-````
-typedef struct _RILOPENUICCLOGICALCHANNELINFO {
-  DWORD    cbSize;
-  DWORD    dwParams;
-  DWORD    dwChannelId;
-  DWORD    dwSelectResponseLength;
-  BYTE [1] bSelectResponse;
-} RILOPENUICCLOGICALCHANNELINFO, RILOPENUICCLOGICALCHANNELINFO;
-````
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -struct-fields

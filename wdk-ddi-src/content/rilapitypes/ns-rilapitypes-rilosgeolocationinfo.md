@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILOSGEOLOCATIONINFO
 title: RILOSGEOLOCATIONINFO
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilosgeolocationinfo_2.htm
+old-location: netvista\rilosgeolocationinfo.htm
 old-project: netvista
-ms.assetid: 5207e880-67cb-4cd5-9884-a01e6dd20201
+ms.assetid: 9a56152e-fb38-4470-8834-a0cbdd7b70ec
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: "*LPRILOSGEOLOCATIONINFO, RILOSGEOLOCATIONINFO, RILOSGEOLOCATIONINFO structure [Network Drivers Starting with Windows Vista], netvista.rilosgeolocationinfo_2, rilapitypes/RILOSGEOLOCATIONINFO"
+ms.date: 3/26/2018
+ms.keywords: "*LPRILOSGEOLOCATIONINFO, RILOSGEOLOCATIONINFO, RILOSGEOLOCATIONINFO structure [Network Drivers Starting with Windows Vista], netvista.rilosgeolocationinfo, ntddrilapitypes/RILOSGEOLOCATIONINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,10 +35,11 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILOSGEOLOCATIONINFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILOSGEOLOCATIONINFO, *LPRILOSGEOLOCATIONINFO
 req.product: Windows 10 or later.
@@ -50,33 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-
-## -syntax
-
-
-````
-typedef struct _RILOSGEOLOCATIONINFO {
-  DWORD                              cbSize;
-  DWORD                              dwParams;
-  DWORD                              dwLatitude;
-  DWORD                              dwLongitude;
-  DWORD                              dwAltitude;
-  DWORD                              dwAccuracy;
-  RILGEOLOCATIONTYPEMASK             dwLocationInformationMask;
-  RILSYSTEMTIME                      stTimeStamp;
-  WCHAR [MAXLENGTH_ADDRESS1]         wszAddressLine1;
-  WCHAR [MAXLENGTH_ADDRESS2]         wszAddressLine2;
-  WCHAR [MAXLENGTH_CITY]             wszCity;
-  WCHAR [MAXLENGTH_STATE]            wszState;
-  WCHAR [MAXLENGTH_COUNTRY]          wszCountry;
-  WCHAR [MAXLENGTH_ZIP]              wszPostalCode;
-  WCHAR [MAXLENGTH_FORMATTEDADDRESS] wszFormattedAddress;
-  WCHAR [MAXLENGTH_COUNTRYCODE]      wszCountryCode;
-  WCHAR [MAXLENGTH_REGIONCODE]       wszRegionCode;
-} RILOSGEOLOCATIONINFO, RILOSGEOLOCATIONINFO;
-````
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -struct-fields

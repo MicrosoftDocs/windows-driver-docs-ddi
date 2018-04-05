@@ -7,7 +7,7 @@ old-location: netvista\ndis_receive_filter_type.htm
 old-project: netvista
 ms.assetid: 2810be51-4b38-4462-9c16-67a9f28da5c9
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: "*PNDIS_RECEIVE_FILTER_TYPE, NDIS_RECEIVE_FILTER_TYPE, NDIS_RECEIVE_FILTER_TYPE enumeration [Network Drivers Starting with Windows Vista], NdisReceiveFilterTypeMaximum, NdisReceiveFilterTypePacketCoalescing, NdisReceiveFilterTypeUndefined, NdisReceiveFilterTypeVMQueue, PNDIS_RECEIVE_FILTER_TYPE, PNDIS_RECEIVE_FILTER_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], _NDIS_RECEIVE_FILTER_TYPE, netvista.ndis_receive_filter_type, ntddndis/NDIS_RECEIVE_FILTER_TYPE, ntddndis/NdisReceiveFilterTypeMaximum, ntddndis/NdisReceiveFilterTypePacketCoalescing, ntddndis/NdisReceiveFilterTypeUndefined, ntddndis/NdisReceiveFilterTypeVMQueue, ntddndis/PNDIS_RECEIVE_FILTER_TYPE, virtual_machine_queue_ref_8965d6c0-b700-46cd-9386-0e2cdc5da4c9.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ntddndis.h
 api_name:
 -	NDIS_RECEIVE_FILTER_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_RECEIVE_FILTER_TYPE, *PNDIS_RECEIVE_FILTER_TYPE
 ---
@@ -51,19 +52,6 @@ req.typenames: NDIS_RECEIVE_FILTER_TYPE, *PNDIS_RECEIVE_FILTER_TYPE
 
 The <b>NDIS_RECEIVE_FILTER_TYPE</b> enumeration identifies the receive filter types that the miniport driver
   supports.
-
-
-## -syntax
-
-
-````
-typedef enum _NDIS_RECEIVE_FILTER_TYPE { 
-  NdisReceiveFilterTypeUndefined,
-  NdisReceiveFilterTypeVMQueue,
-  NdisReceiveFilterTypePacketCoalescing,
-  NdisReceiveFilterTypeMaximum
-} NDIS_RECEIVE_FILTER_TYPE, *PNDIS_RECEIVE_FILTER_TYPE;
-````
 
 
 ## -enum-fields
@@ -97,7 +85,7 @@ The maximum value for this enumeration. This value might change in future versio
 
 
 The NDIS_RECEIVE_FILTER_TYPE enumeration is used in the 
-    <a href="..\ntddndis\ns-ntddndis-_ndis_receive_filter_parameters.md">
+    <a href="https://msdn.microsoft.com/39dc6b3a-f24d-4f1a-96f8-416fbcb3f894">
     NDIS_RECEIVE_FILTER_PARAMETERS</a> structure.
 
 For more information about VMQ, see <a href="https://msdn.microsoft.com/c502c7d6-bdf1-4656-b5a5-339250910f08">Virtual Machine Queue (VMQ)</a>.
@@ -111,14 +99,12 @@ For more information about packet coalescing, see <a href="https://msdn.microsof
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_receive_filter_parameters.md">
+
+
+
+<a href="https://msdn.microsoft.com/39dc6b3a-f24d-4f1a-96f8-416fbcb3f894">
    NDIS_RECEIVE_FILTER_PARAMETERS</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_RECEIVE_FILTER_TYPE enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

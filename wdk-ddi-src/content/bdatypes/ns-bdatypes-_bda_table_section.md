@@ -38,7 +38,8 @@ api_location:
 -	bdatypes.h
 api_name:
 -	BDA_TABLE_SECTION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BDA_TABLE_SECTION, *PBDA_TABLE_SECTION
 ---
@@ -50,19 +51,6 @@ req.typenames: BDA_TABLE_SECTION, *PBDA_TABLE_SECTION
 
 
 The BDA_TABLE_SECTION structure describes a table section. 
-
-
-## -syntax
-
-
-````
-typedef struct _BDA_TABLE_SECTION {
-  ULONG ulPrimarySectionId;
-  ULONG ulSecondarySectionId;
-  ULONG ulcbSectionLength;
-  ULONG argbSectionData[MIN_DIMENSION];
-} BDA_TABLE_SECTION, *PBDA_TABLE_SECTION;
-````
 
 
 ## -struct-fields
@@ -92,13 +80,11 @@ Array of table section data.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566560">KSPROPSETID_BdaTableSection</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20BDA_TABLE_SECTION structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

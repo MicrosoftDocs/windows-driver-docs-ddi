@@ -7,7 +7,7 @@ old-location: netvista\protocolcmnotifycloseafcomplete.htm
 old-project: netvista
 ms.assetid: c5bdedee-dacd-4f4d-a3d1-f1cb71a68001
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: PROTOCOL_CM_NOTIFY_CLOSE_AF_COMPLETE, ProtocolCmNotifyCloseAfComplete, ProtocolCmNotifyCloseAfComplete callback function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_f10e7b00-20f8-4bb0-a4c0-94855572fc08.xml, ndis/ProtocolCmNotifyCloseAfComplete, netvista.protocolcmnotifycloseafcomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ndis.h
 api_name:
 -	ProtocolCmNotifyCloseAfComplete
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
 ---
@@ -52,26 +53,12 @@ req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
 The 
   <i>ProtocolCmNotifyCloseAfComplete</i> function indicates that a client has completed the closing of an
   address family (AF) that a stand-alone call manager or miniport call manager (MCM) started by calling the 
-  <a href="..\ndis\nf-ndis-ndiscmnotifycloseaddressfamily.md">
+  <a href="https://msdn.microsoft.com/1967f663-86ce-4e9d-9498-61951bdf4db0">
   NdisCmNotifyCloseAddressFamily</a> or 
-  <a href="..\ndis\nf-ndis-ndismcmnotifycloseaddressfamily.md">
+  <a href="https://msdn.microsoft.com/47b0b1da-e29b-45cc-921b-69d630670b44">
   NdisMCmNotifyCloseAddressFamily</a> function, respectively.
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>PROTOCOL_CM_NOTIFY_CLOSE_AF_COMPLETE</b> type.
    For more information, see the following Examples section.</div><div> </div>
-
-## -prototype
-
-
-````
-PROTOCOL_CM_NOTIFY_CLOSE_AF_COMPLETE ProtocolCmNotifyCloseAfComplete;
-
-VOID ProtocolCmNotifyCloseAfComplete(
-  _In_ NDIS_HANDLE CallMgrAfContext,
-  _In_ NDIS_STATUS Status
-)
-{ ... }
-````
-
 
 ## -parameters
 
@@ -81,7 +68,7 @@ VOID ProtocolCmNotifyCloseAfComplete(
 ### -param CallMgrAfContext [in]
 
 A handle to the call manager's AF context area that the call manager supplied to NDIS in the 
-     <a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a> function.
+     <a href="https://msdn.microsoft.com/7422c205-bc41-4121-b430-ff9e6b49dc2e">ProtocolCmOpenAf</a> function.
 
 
 ### -param Status [in]
@@ -123,10 +110,10 @@ The
 
 If a stand-alone call manager will unbind from an underlying miniport adapter, the call manager must
     call the 
-    <a href="..\ndis\nf-ndis-ndiscmnotifycloseaddressfamily.md">
+    <a href="https://msdn.microsoft.com/1967f663-86ce-4e9d-9498-61951bdf4db0">
     NdisCmNotifyCloseAddressFamily</a> function before unbinding. When a miniport call manager (MCM) halts
     a miniport adapter, the MCM must call the 
-    <a href="..\ndis\nf-ndis-ndismcmnotifycloseaddressfamily.md">
+    <a href="https://msdn.microsoft.com/47b0b1da-e29b-45cc-921b-69d630670b44">
     NdisMCmNotifyCloseAddressFamily</a> function.
 
 If 
@@ -179,23 +166,21 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismcmnotifycloseaddressfamily.md">
-   NdisMCmNotifyCloseAddressFamily</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiscmnotifycloseaddressfamily.md">
+<a href="https://msdn.microsoft.com/1967f663-86ce-4e9d-9498-61951bdf4db0">
    NdisCmNotifyCloseAddressFamily</a>
 
 
 
+<a href="https://msdn.microsoft.com/47b0b1da-e29b-45cc-921b-69d630670b44">
+   NdisMCmNotifyCloseAddressFamily</a>
+
+
+
+<a href="https://msdn.microsoft.com/7422c205-bc41-4121-b430-ff9e6b49dc2e">ProtocolCmOpenAf</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20PROTOCOL_CM_NOTIFY_CLOSE_AF_COMPLETE callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: audio\pcforwardcontenttofileobject.htm
 old-project: audio
 ms.assetid: 3cad8e61-e016-415a-9aa9-1169267dc729
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 3/19/2018
 ms.keywords: PcForwardContentToFileObject, PcForwardContentToFileObject function [Audio Devices], audio.pcforwardcontenttofileobject, audpc-routines_2560382f-57c9-4d3c-9ba0-330374e18663.xml, portcls/PcForwardContentToFileObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Portcls.dll
 api_name:
 -	PcForwardContentToFileObject
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
@@ -50,18 +51,7 @@ req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ## -description
 
 
-The <b>PcForwardContentToFileObject</b> function is obsolete and is maintained only to support existing drivers. Note that this function call is identical in operation to the <a href="..\drmk\nf-drmk-drmforwardcontenttofileobject.md">DrmForwardContentToFileObject</a> function, and its parameter definitions and return value are also identical.
-
-
-## -syntax
-
-
-````
-PORTCLASSAPI NTSTATUS NTAPI  PcForwardContentToFileObject(
-  _In_ ULONG        ContentId,
-  _In_ PFILE_OBJECT FileObject
-);
-````
+The <b>PcForwardContentToFileObject</b> function is obsolete and is maintained only to support existing drivers. Note that this function call is identical in operation to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536352">DrmForwardContentToFileObject</a> function, and its parameter definitions and return value are also identical.
 
 
 ## -parameters
@@ -83,7 +73,7 @@ Pointer to a file object that represents the KS audio pin to which the KS audio 
 
 
 
-See return value definition in <a href="..\drmk\nf-drmk-drmforwardcontenttofileobject.md">DrmForwardContentToFileObject</a>.
+See return value definition in <a href="https://msdn.microsoft.com/library/windows/hardware/ff536352">DrmForwardContentToFileObject</a>.
 
 
 
@@ -92,20 +82,18 @@ See return value definition in <a href="..\drmk\nf-drmk-drmforwardcontenttofileo
 
 
 
-For more information, see the comments in <a href="..\drmk\nf-drmk-drmforwardcontenttofileobject.md">DrmForwardContentToFileObject</a>.
+For more information, see the comments in <a href="https://msdn.microsoft.com/library/windows/hardware/ff536352">DrmForwardContentToFileObject</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\drmk\nf-drmk-drmforwardcontenttofileobject.md">DrmForwardContentToFileObject</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536352">DrmForwardContentToFileObject</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20PcForwardContentToFileObject function%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

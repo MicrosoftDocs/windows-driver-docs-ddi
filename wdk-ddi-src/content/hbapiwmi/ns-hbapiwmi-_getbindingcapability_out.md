@@ -7,7 +7,7 @@ old-location: storage\getbindingcapability_out.htm
 old-project: storage
 ms.assetid: c02bb43c-8f9a-470a-ba65-f3a69b5c6110
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PGetBindingCapability_OUT, GetBindingCapability_OUT, GetBindingCapability_OUT structure [Storage Devices], PGetBindingCapability_OUT, PGetBindingCapability_OUT structure pointer [Storage Devices], _GetBindingCapability_OUT, hbapiwmi/GetBindingCapability_OUT, hbapiwmi/PGetBindingCapability_OUT, storage.getbindingcapability_out, structs-Fibre_611bcad6-5d7f-43ea-8202-4c19bec45f88.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	hbapiwmi.h
 api_name:
 -	GetBindingCapability_OUT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GetBindingCapability_OUT, *PGetBindingCapability_OUT
 ---
@@ -50,17 +51,6 @@ req.typenames: GetBindingCapability_OUT, *PGetBindingCapability_OUT
 
 
 The GetBindingCapability_OUT structure is used by a WMI provider to report the output parameter data of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553902">GetBindingCapability</a> WMI method to the WMI client.
-
-
-## -syntax
-
-
-````
-typedef struct _GetBindingCapability_OUT {
-  ULONG HBAStatus;
-  ULONG BindType;
-} GetBindingCapability_OUT, *PGetBindingCapability_OUT;
-````
 
 
 ## -struct-fields
@@ -89,13 +79,11 @@ The WMI tool suite generates a declaration of the GetBindingCapability_OUT struc
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553902">GetBindingCapability</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20GetBindingCapability_OUT structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

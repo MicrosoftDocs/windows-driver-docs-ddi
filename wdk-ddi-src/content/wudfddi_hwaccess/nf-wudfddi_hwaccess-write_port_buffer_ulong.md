@@ -7,7 +7,7 @@ old-location: wdf\write_port_buffer_ulong.htm
 old-project: wdf
 ms.assetid: B5C6FA66-617E-4DB1-A62A-3F3F41E971B0
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/26/2018
 ms.keywords: WRITE_PORT_BUFFER_ULONG, WRITE_PORT_BUFFER_ULONG function, umdf.write_port_buffer_ulong, wdf.write_port_buffer_ulong, wudfddi_hwaccess/WRITE_PORT_BUFFER_ULONG
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support: Unavailable in UMDF 2.0 and later.
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	Wudfddi_hwaccess.h
 api_name:
 -	WRITE_PORT_BUFFER_ULONG
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UMDF_IO_TARGET_OPEN_PARAMS, *PUMDF_IO_TARGET_OPEN_PARAMS
 req.product: Windows 10 or later.
@@ -56,19 +57,6 @@ The <b>WRITE_PORT_BUFFER_ULONG</b> function writes a number of ULONG values from
 
 
 
-## -syntax
-
-
-````
-void WRITE_PORT_BUFFER_ULONG(
-  _In_ IWDFDevice3 *pDevice,
-  _In_ PULONG      Port,
-  _In_ PULONG      Buffer,
-  _In_ ULONG       Count 
-);
-````
-
-
 ## -parameters
 
 
@@ -76,7 +64,7 @@ void WRITE_PORT_BUFFER_ULONG(
 
 ### -param pDevice [in]
 
-Specifies a pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfdevice3.md">IWDFDevice3</a> interface for the device object of the device to access.
+Specifies a pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451197">IWDFDevice3</a> interface for the device object of the device to access.
 
 
 ### -param Port [in]

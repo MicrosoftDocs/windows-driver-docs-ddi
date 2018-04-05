@@ -7,7 +7,7 @@ old-location: image\sti_diag.htm
 old-project: image
 ms.assetid: 07caa8b0-849c-4ad9-9adb-b1726edc9234
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/27/2018
 ms.keywords: "*LPSTI_DIAG, DIAG, LPSTI_DIAG, LPSTI_DIAG structure pointer [Imaging Devices], STI_DIAG, STI_DIAG structure [Imaging Devices], _STI_DIAG, image.sti_diag, sti/LPSTI_DIAG, sti/STI_DIAG, stifnc_793c0930-51bf-46b5-89c9-9ddaf91a1fee.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	sti.h
 api_name:
 -	STI_DIAG
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STI_DIAG, *LPSTI_DIAG
 req.product: Windows 10 or later.
@@ -51,20 +52,6 @@ req.product: Windows 10 or later.
 
 
 The STI_DIAG structure is used as a parameter to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543736">IStiDevice::Diagnostic</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff543814">IStiUSD::Diagnostic</a> methods.
-
-
-## -syntax
-
-
-````
-typedef struct _STI_DIAG {
-  DWORD          dwSize;
-  DWORD          dwBasicDiagCode;
-  DWORD          dwVendorDiagCode;
-  DWORD          dwStatusMask;
-  STI_ERROR_INFO sErrorInfo;
-} STI_DIAG, *LPSTI_DIAG;
-````
 
 
 ## -struct-fields
@@ -94,5 +81,5 @@ Reserved for future use.
 
 ### -field sErrorInfo
 
-Structure of type <a href="..\sti\ns-sti-_error_infow.md">STI_ERROR_INFO</a>.
+Structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff548396">STI_ERROR_INFO</a>.
 

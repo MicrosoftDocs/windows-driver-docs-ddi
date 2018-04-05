@@ -7,7 +7,7 @@ old-location: image\iwiaminidrv_drvvalidateitemproperties.htm
 old-project: image
 ms.assetid: 12052128-9ea7-41cd-bb75-be7175e26c12
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/27/2018
 ms.keywords: IWiaMiniDrv, IWiaMiniDrv interface [Imaging Devices], drvValidateItemProperties method, IWiaMiniDrv::drvValidateItemProperties, MiniDrv_b288e05c-a142-452a-9ac7-ffb2dfcae4cf.xml, drvValidateItemProperties method [Imaging Devices], drvValidateItemProperties method [Imaging Devices], IWiaMiniDrv interface, drvValidateItemProperties,IWiaMiniDrv.drvValidateItemProperties, image.iwiaminidrv_drvvalidateitemproperties, wiamindr_lh/IWiaMiniDrv::drvValidateItemProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: wiamindr_lh.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	wiamindr_lh.h
 api_name:
 -	IWiaMiniDrv.drvValidateItemProperties
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SCANWINDOW, *PSCANWINDOW
 req.product: Windows 10 or later.
@@ -51,20 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>IWiaMiniDrv::drvValidateItemProperties</b> method validates an item's properties against the set of valid values for each property and will update those properties if necessary.
-
-
-## -syntax
-
-
-````
-HRESULT drvValidateItemProperties(
-  [in]        BYTE     *pWiasContext,
-  [in]        LONG     lFlags,
-  [in]        ULONG    nPropSpec,
-  [in]  const PROPSPEC *pPropSpec,
-  [out]       LONG     *plDevErrVal
-);
-````
 
 
 ## -parameters
@@ -137,7 +124,10 @@ The value pointed to by <i>plDevErrVal</i> can be converted to a string by calli
 
 ## -see-also
 
-<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrv.md">IWiaMiniDrv</a>
+
+
+
+<a href="https://msdn.microsoft.com/15068d10-5e24-427c-9684-24ce67b75ada">IWiaMiniDrv</a>
 
 
 
@@ -145,17 +135,12 @@ The value pointed to by <i>plDevErrVal</i> can be converted to a string by calli
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiasvalidateitemproperties.md">wiasValidateItemProperties</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549255">wiasGetItemType</a>
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiasgetitemtype.md">wiasGetItemType</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549454">wiasValidateItemProperties</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20IWiaMiniDrv::drvValidateItemProperties method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

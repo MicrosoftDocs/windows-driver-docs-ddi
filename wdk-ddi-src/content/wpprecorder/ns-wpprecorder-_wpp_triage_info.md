@@ -38,7 +38,8 @@ api_location:
 -	Wpprecorder.h
 api_name:
 -	WPP_TRIAGE_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WPP_TRIAGE_INFO, *PWPP_TRIAGE_INFO
 req.product: Windows 10 or later.
@@ -52,20 +53,6 @@ req.product: Windows 10 or later.
 
 Used to locate the WPP log
 for WER reporting.
-
-
-## -syntax
-
-
-````
-typedef struct _WPP_TRIAGE_INFO {
-  ULONG WppAutoLogHeaderSize;
-  ULONG WppDriverContextOffset;
-  ULONG WppAutoLogHeaderSizeOffset;
-  ULONG WppSizeOfAutoLogHeaderSizeField;
-  ULONG WppDriverContextSize;
-} WPP_TRIAGE_INFO, *PWPP_TRIAGE_INFO;
-````
 
 
 ## -struct-fields

@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSFRAMETIME
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSFRAMETIME, *PKSFRAMETIME
 ---
@@ -50,18 +51,6 @@ req.typenames: KSFRAMETIME, *PKSFRAMETIME
 
 
 The KSFRAMETIME structure is supported by rendering pins, and is used to return the duration of the next "frame" of data, and flags associated with that frame.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  LONGLONG Duration;
-  ULONG    FrameFlags;
-  ULONG    Reserved;
-} KSFRAMETIME, *PKSFRAMETIME;
-````
 
 
 ## -struct-fields
@@ -76,7 +65,7 @@ Specifies the duration in presentation time units.
 
 ### -field FrameFlags
 
-Specifies the flags specific to the next frame, or to all frames. Flags are described on the reference page for <a href="..\ks\ns-ks-ksallocator_framing.md">KSALLOCATOR_FRAMING</a>.
+Specifies the flags specific to the next frame, or to all frames. Flags are described on the reference page for <a href="https://msdn.microsoft.com/library/windows/hardware/ff560979">KSALLOCATOR_FRAMING</a>.
 
 
 ### -field Reserved

@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILSUBADDRESS
 title: RILSUBADDRESS
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilsubaddress_2.htm
+old-location: netvista\rilsubaddress.htm
 old-project: netvista
-ms.assetid: fa8f7b01-a767-4713-b1e3-7417efb7db47
+ms.assetid: 0a1f9e89-df17-4802-9685-06a2eedbc0e5
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: "*LPRILSUBADDRESS, RILSUBADDRESS, RILSUBADDRESS structure [Network Drivers Starting with Windows Vista], netvista.rilsubaddress_2, rilapitypes/RILSUBADDRESS"
+ms.date: 3/26/2018
+ms.keywords: "*LPRILSUBADDRESS, RILSUBADDRESS, RILSUBADDRESS structure [Network Drivers Starting with Windows Vista], netvista.rilsubaddress, ntddrilapitypes/RILSUBADDRESS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,10 +35,11 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILSUBADDRESS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILSUBADDRESS, *LPRILSUBADDRESS
 req.product: Windows 10 or later.
@@ -50,20 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-
-## -syntax
-
-
-````
-typedef struct _RILSUBADDRESS {
-  DWORD                     cbSize;
-  DWORD                     dwParams;
-  RILSUBADDRESSTYPE         dwType;
-  WCHAR [MAXLENGTH_SUBADDR] wszSubAddress;
-} RILSUBADDRESS, RILSUBADDRESS;
-````
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -struct-fields

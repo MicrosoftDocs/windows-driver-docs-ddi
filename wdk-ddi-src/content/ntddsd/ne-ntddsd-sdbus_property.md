@@ -38,7 +38,8 @@ api_location:
 -	ntddsd.h
 api_name:
 -	SDBUS_PROPERTY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SDBUS_PROPERTY
 ---
@@ -50,28 +51,6 @@ req.typenames: SDBUS_PROPERTY
 
 
 The SDBUS_PROPERTY enumeration lists the properties of a Secure Digital (SD) card that an SD device driver can set with an SD request.
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  SDP_MEDIA_CHANGECOUNT      = 0,
-  SDP_MEDIA_STATE            = 1,
-  SDP_WRITE_PROTECTED        = 2,
-  SDP_FUNCTION_NUMBER        = 3,
-  SDP_FUNCTION_TYPE          = 4,
-  SDP_BUS_DRIVER_VERSION     = 5,
-  SDP_BUS_WIDTH              = 6,
-  SDP_BUS_CLOCK              = 7,
-  SDP_BUS_INTERFACE_CONTROL  = 8,
-  SDP_HOST_BLOCK_LENGTH      = 9,
-  SDP_FUNCTION_BLOCK_LENGTH  = 10,
-  SDP_FN0_BLOCK_LENGTH       = 11,
-  SDP_FUNCTION_INT_ENABLE    = 12
-} SDBUS_PROPERTY;
-````
 
 
 ## -enum-fields
@@ -186,6 +165,9 @@ Send the request to the bus driver by passing the initialized SDBUS_REQUEST_PACK
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/09b30bf0-fe85-4ad5-bd3e-113ed3a093ac">SDBUS_REQUEST_PACKET</a>
 
 
@@ -199,12 +181,7 @@ Send the request to the bus driver by passing the initialized SDBUS_REQUEST_PACK
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537914">SdBusSubmitRequestAsync</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [SD\buses]:%20SDBUS_PROPERTY enumeration%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

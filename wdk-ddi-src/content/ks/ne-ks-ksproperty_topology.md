@@ -38,7 +38,8 @@ api_location:
 -	Ks.h
 api_name:
 -	KSPROPERTY_TOPOLOGY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSPROPERTY_TOPOLOGY
 ---
@@ -50,19 +51,6 @@ req.typenames: KSPROPERTY_TOPOLOGY
 
 
 
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  KSPROPERTY_TOPOLOGY_CATEGORIES,
-  KSPROPERTY_TOPOLOGY_NODES,
-  KSPROPERTY_TOPOLOGY_CONNECTIONS,
-  KSPROPERTY_TOPOLOGY_NAME
-} KSPROPERTY_TOPOLOGY;
-````
 
 
 ## -enum-fields

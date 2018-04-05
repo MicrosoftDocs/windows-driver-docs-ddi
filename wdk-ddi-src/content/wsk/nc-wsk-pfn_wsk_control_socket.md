@@ -7,7 +7,7 @@ old-location: netvista\wskcontrolsocket.htm
 old-project: netvista
 ms.assetid: d65fd2ab-ffca-4e13-b0f1-42d6a89f4b4a
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: PFN_WSK_CONTROL_SOCKET, WskControlSocket, WskControlSocket callback function [Network Drivers Starting with Windows Vista], netvista.wskcontrolsocket, wsk/WskControlSocket, wskref_03c8029d-c31f-4010-9e56-e4c1f91930c5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	wsk.h
 api_name:
 -	WskControlSocket
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WPP_TRIAGE_INFO, *PWPP_TRIAGE_INFO
 req.product: Windows 10 or later.
@@ -54,28 +55,6 @@ The
   <b>WskControlSocket</b> function performs control operations on a socket.
 
 
-## -prototype
-
-
-````
-PFN_WSK_CONTROL_SOCKET WskControlSocket;
-
-NTSTATUS WSKAPI * WskControlSocket(
-  _In_      PWSK_SOCKET             Socket,
-  _In_      WSK_CONTROL_SOCKET_TYPE RequestType,
-  _In_      ULONG                   ControlCode,
-  _In_      ULONG                   Level,
-  _In_      SIZE_T                  InputSize,
-  _In_opt_  PVOID                   InputBuffer,
-  _In_      SIZE_T                  OutputSize,
-  _Out_opt_ PVOID                   OutputBuffer,
-  _Out_opt_ SIZE_T                  *OutputSizeReturned,
-  _Inout_   PIRP                    Irp
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -84,7 +63,7 @@ NTSTATUS WSKAPI * WskControlSocket(
 ### -param Socket [in]
 
 A pointer to a 
-     <a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a> structure that specifies the socket
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571182">WSK_SOCKET</a> structure that specifies the socket
      object for the socket on which the control operation is being performed.
 
 
@@ -299,7 +278,7 @@ The WSK subsystem could not complete the control operation immediately. This val
 <td width="60%">
 The socket is no longer functional. The IRP will be completed with failure status. The WSK
        application must call the 
-       <a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a> function to close the
+       <a href="https://msdn.microsoft.com/library/windows/hardware/ff571124">WskCloseSocket</a> function to close the
        socket as soon as possible.
 
 </td>
@@ -361,24 +340,6 @@ Callers of the
 
 ## -see-also
 
-<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
-
-
-
-<a href="..\wsk\ns-wsk-_wsk_provider_basic_dispatch.md">WSK_PROVIDER_BASIC_DISPATCH</a>
-
-
-
-<a href="..\wsk\ns-wsk-_wsk_provider_connection_dispatch.md">
-   WSK_PROVIDER_CONNECTION_DISPATCH</a>
-
-
-
-<a href="..\wsk\ns-wsk-_wsk_provider_listen_dispatch.md">WSK_PROVIDER_LISTEN_DISPATCH</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571186">WSK Socket Options</a>
 
 
 
@@ -386,18 +347,34 @@ Callers of the
 
 
 
-<a href="..\wsk\ns-wsk-_wsk_provider_datagram_dispatch.md">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571186">WSK Socket Options</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571171">WSK_PROVIDER_BASIC_DISPATCH</a>
+
+
+
+<a href="https://msdn.microsoft.com/70a86809-07f2-4723-9e50-4dbdd31ff900">
+   WSK_PROVIDER_CONNECTION_DISPATCH</a>
+
+
+
+<a href="https://msdn.microsoft.com/fa8d3395-b800-4e5c-af03-b21520f69158">
    WSK_PROVIDER_DATAGRAM_DISPATCH</a>
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571176">WSK_PROVIDER_LISTEN_DISPATCH</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571124">WskCloseSocket</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571149">WskSocket</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20PFN_WSK_CONTROL_SOCKET callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

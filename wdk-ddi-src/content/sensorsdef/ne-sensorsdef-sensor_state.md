@@ -38,7 +38,8 @@ api_location:
 -	Sensorsdef.h
 api_name:
 -	SENSOR_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SENSOR_STATE
 req.product: Windows 10 or later.
@@ -51,19 +52,6 @@ req.product: Windows 10 or later.
 
 
 This enumeration represents the valid states of a sensor.
-
-
-## -syntax
-
-
-````
-typedef enum _SENSOR_STATE { 
-  SensorState_Initializing  = 0,
-  SensorState_Idle,
-  SensorState_Active,
-  SensorState_Error
-} SENSOR_STATE;
-````
 
 
 ## -enum-fields

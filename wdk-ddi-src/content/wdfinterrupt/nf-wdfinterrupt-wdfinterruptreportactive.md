@@ -7,7 +7,7 @@ old-location: wdf\wdfinterruptreportactive.htm
 old-project: wdf
 ms.assetid: 9A7B4181-0592-4C40-BC5A-99AFFA57846C
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/26/2018
 ms.keywords: WdfInterruptReportActive, WdfInterruptReportActive method, kmdf._wdfinterruptreportactive, kmdf.wdfinterruptreportactive, wdf.wdfinterruptreportactive, wdfinterrupt/WdfInterruptReportActive
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Wdf01000.sys.dll
 api_name:
 -	WdfInterruptReportActive
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_INTERRUPT_PRIORITY, *PWDF_INTERRUPT_PRIORITY
 req.product: Windows 10 or later.
@@ -56,16 +57,6 @@ req.product: Windows 10 or later.
 
    
   The <b>WdfInterruptReportActive</b> informs the system that the interrupt is active and the driver is ready to process interrupt requests on the associated lines.
-
-
-## -syntax
-
-
-````
-void WdfInterruptReportActive(
-  _In_ WDFINTERRUPT Interrupt
-);
-````
 
 
 ## -parameters
@@ -95,7 +86,7 @@ Only drivers that implement functional state power management call <b>WdfInterru
 
    
 
-A driver does not need to call <b>WdfInterruptReportActive</b> immediately after creating an interrupt.  The driver should only call <b>WdfInterruptReportActive</b> after having previously called <a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptreportinactive.md">WdfInterruptReportInactive</a>.
+A driver does not need to call <b>WdfInterruptReportActive</b> immediately after creating an interrupt.  The driver should only call <b>WdfInterruptReportActive</b> after having previously called <a href="https://msdn.microsoft.com/library/windows/hardware/hh439277">WdfInterruptReportInactive</a>.
 
 Typically, a driver calls <b>WdfInterruptReportActive</b> from either its  <a href="https://msdn.microsoft.com/library/windows/hardware/hh406416">ComponentActiveConditionCallback</a> routine, or from <a href="https://msdn.microsoft.com/library/windows/hardware/hh450931">ComponentIdleStateCallback</a> when <i>State</i> is 0 (indicating the fully on F0 state).
 
@@ -106,7 +97,7 @@ For more information, see <a href="https://msdn.microsoft.com/F96214C9-702D-402E
 
 #### Examples
 
-The following example shows how a driver might call <b>WdfInterruptReportActive</b> from the <a href="https://msdn.microsoft.com/library/windows/hardware/hh450931">ComponentIdleStateCallback</a> routine of a KMDF driver. The driver registers a single component by calling <a href="..\wdfdevice\nf-wdfdevice-wdfdevicewdmassignpowerframeworksettings.md">WdfDeviceWdmAssignPowerFrameworkSettings</a>.
+The following example shows how a driver might call <b>WdfInterruptReportActive</b> from the <a href="https://msdn.microsoft.com/library/windows/hardware/hh450931">ComponentIdleStateCallback</a> routine of a KMDF driver. The driver registers a single component by calling <a href="https://msdn.microsoft.com/library/windows/hardware/hh451097">WdfDeviceWdmAssignPowerFrameworkSettings</a>.
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -161,13 +152,11 @@ MyComponentIdleStateCallback(
 
 ## -see-also
 
-<a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptreportinactive.md">WdfInterruptReportInactive</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439277">WdfInterruptReportInactive</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfInterruptReportActive method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

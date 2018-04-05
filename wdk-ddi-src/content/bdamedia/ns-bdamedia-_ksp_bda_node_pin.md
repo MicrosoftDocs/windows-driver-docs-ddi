@@ -38,7 +38,8 @@ api_location:
 -	bdamedia.h
 api_name:
 -	KSP_BDA_NODE_PIN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSP_BDA_NODE_PIN, *PKSP_BDA_NODE_PIN
 ---
@@ -50,19 +51,6 @@ req.typenames: KSP_BDA_NODE_PIN, *PKSP_BDA_NODE_PIN
 
 
 The KSP_BDA_NODE_PIN structure describes a property request to retrieve the controlling pin for a node. 
-
-
-## -syntax
-
-
-````
-typedef struct _KSP_BDA_NODE_PIN {
-  KSPROPERTY Property;
-  ULONG      ulNodeType;
-  ULONG      ulInputPinId;
-  ULONG      ulOutputPinId;
-} KSP_BDA_NODE_PIN, *PKSP_BDA_NODE_PIN;
-````
 
 
 ## -struct-fields
@@ -92,15 +80,14 @@ Identifier of an output pin of the filter.
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksnode_descriptor.md">KSNODE_DESCRIPTOR</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566561">KSPROPSETID_BdaTopology</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556480">BdaPropertyGetControllingPinId</a>
 
 
 
-<a href="..\bdasup\nf-bdasup-bdapropertygetcontrollingpinid.md">BdaPropertyGetControllingPinId</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563473">KSNODE_DESCRIPTOR</a>
 
 
 
@@ -108,9 +95,8 @@ Identifier of an output pin of the filter.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566561">KSPROPSETID_BdaTopology</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSP_BDA_NODE_PIN structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

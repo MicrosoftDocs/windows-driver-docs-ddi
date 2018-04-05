@@ -7,7 +7,7 @@ old-location: wdf\iwdfdriver_retrieveversionstring.htm
 old-project: wdf
 ms.assetid: 2fa320df-bafd-42f4-a0a1-14151c39d68a
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/26/2018
 ms.keywords: IWDFDriver, IWDFDriver interface, RetrieveVersionString method, IWDFDriver::RetrieveVersionString, RetrieveVersionString method, RetrieveVersionString method, IWDFDriver interface, RetrieveVersionString,IWDFDriver.RetrieveVersionString, UMDFDriverObjectRef_fea0fb04-a861-44b6-8552-150454f9933d.xml, umdf.iwdfdriver_retrieveversionstring, wdf.iwdfdriver_retrieveversionstring, wudfddi/IWDFDriver::RetrieveVersionString
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support: Unavailable in UMDF 2.0 and later.
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: wudfddi.h
+req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFDriver.RetrieveVersionString
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
@@ -53,17 +54,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>RetrieveVersionString</b> method retrieves the version of the framework.
-
-
-## -syntax
-
-
-````
-HRESULT RetrieveVersionString(
-  [out]     PWSTR pVersion,
-  [in, out] DWORD *pdwVersionLength
-);
-````
 
 
 ## -parameters

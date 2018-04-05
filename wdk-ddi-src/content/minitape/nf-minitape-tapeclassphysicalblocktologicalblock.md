@@ -7,7 +7,7 @@ old-location: storage\tapeclassphysicalblocktologicalblock.htm
 old-project: storage
 ms.assetid: fc95f5c8-2892-479d-ac25-32c07e9c7aab
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: TapeClassPhysicalBlockToLogicalBlock, TapeClassPhysicalBlockToLogicalBlock routine [Storage Devices], minitape/TapeClassPhysicalBlockToLogicalBlock, storage.tapeclassphysicalblocktologicalblock, tapeclas_94d20234-ee4d-4096-b856-f5196b606e2d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Tape.dll
 api_name:
 -	TapeClassPhysicalBlockToLogicalBlock
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TAPE_STATUS, *PTAPE_STATUS
 ---
@@ -51,19 +52,6 @@ req.typenames: TAPE_STATUS, *PTAPE_STATUS
 
 
 The <b>TapeClassPhysicalBlockToLogicalBlock</b> routine translates a physical block address to a pseudological block address. This routine is for SCSI-1 devices.
-
-
-## -syntax
-
-
-````
-ULONG TapeClassPhysicalBlockToLogicalBlock(
-  _In_ UCHAR   DensityCode,
-  _In_ ULONG   PhysicalBlockAddress,
-  _In_ ULONG   BlockLength,
-  _In_ BOOLEAN FromBOT
-);
-````
 
 
 ## -parameters
@@ -113,13 +101,11 @@ If a tape miniclass driver calls this routine with an unsupported tape density c
 
 ## -see-also
 
-<a href="..\minitape\nf-minitape-tapeclasslogicalblocktophysicalblock.md">TapeClassLogicalBlockToPhysicalBlock</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567623">TapeClassLogicalBlockToPhysicalBlock</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20TapeClassPhysicalBlockToLogicalBlock routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

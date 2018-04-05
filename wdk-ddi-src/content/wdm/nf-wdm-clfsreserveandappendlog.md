@@ -7,7 +7,7 @@ old-location: kernel\clfsreserveandappendlog.htm
 old-project: kernel
 ms.assetid: e3ffbf18-151b-42da-8fc1-ae07c152738c
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/28/2018
 ms.keywords: ClfsReserveAndAppendLog, ClfsReserveAndAppendLog routine [Kernel-Mode Driver Architecture], Clfs_4378f8c9-0765-48af-9309-2bc0a1af1da5.xml, kernel.clfsreserveandappendlog, wdm/ClfsReserveAndAppendLog
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ext-MS-Win-fs-clfs-l1-1-0.dll
 api_name:
 -	ClfsReserveAndAppendLog
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
@@ -54,24 +55,6 @@ req.product: Windows 10 or later.
 The <b>ClfsReserveAndAppendLog</b> routine reserves space in a marshalling area or appends a record to a marshalling area or does both atomically.
 
 
-## -syntax
-
-
-````
-NTSTATUS ClfsReserveAndAppendLog(
-  _In_      PVOID             pvMarshalContext,
-  _In_opt_  PCLFS_WRITE_ENTRY rgWriteEntries,
-  _In_      ULONG             cWriteEntries,
-  _In_opt_  PCLFS_LSN         plsnUndoNext,
-  _In_opt_  PCLFS_LSN         plsnPrevious,
-  _In_      ULONG             cReserveRecords,
-  _Inout_   PLONGLONG         rgcbReservation,
-  _In_      ULONG             fFlags,
-  _Out_opt_ PCLFS_LSN         plsn
-);
-````
-
-
 ## -parameters
 
 
@@ -79,12 +62,12 @@ NTSTATUS ClfsReserveAndAppendLog(
 
 ### -param pvMarshalContext [in]
 
-A pointer to an opaque context that represents a marshalling area associated with a CLFS stream. The caller previously obtained this pointer by calling <a href="..\wdm\nf-wdm-clfscreatemarshallingarea.md">ClfsCreateMarshallingArea</a>.
+A pointer to an opaque context that represents a marshalling area associated with a CLFS stream. The caller previously obtained this pointer by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff541520">ClfsCreateMarshallingArea</a>.
 
 
 ### -param rgWriteEntries [in, optional]
 
-A pointer to an array of <a href="..\wdm\ns-wdm-_cls_write_entry.md">CLFS_WRITE_ENTRY</a> structures, each of which holds a pointer to a buffer of data that will become part of the record that is appended to the log. This parameter can be <b>NULL</b> if <i>cWriteEntries</i> is zero.
+A pointer to an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff541891">CLFS_WRITE_ENTRY</a> structures, each of which holds a pointer to a buffer of data that will become part of the record that is appended to the log. This parameter can be <b>NULL</b> if <i>cWriteEntries</i> is zero.
 
 
 ### -param cWriteEntries [in]
@@ -94,7 +77,7 @@ The number of elements in the array pointed to by <i>rgWriteEntries</i>. This pa
 
 ### -param plsnUndoNext [in, optional]
 
-A pointer to a <a href="..\wdm\ns-wdm-_cls_lsn.md">CLFS_LSN</a> structure that supplies the undo-next LSN of the record to be appended.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541824">CLFS_LSN</a> structure that supplies the undo-next LSN of the record to be appended.
 
 
 ### -param plsnPrevious [in, optional]
@@ -157,7 +140,7 @@ The current record is placed in reserved space in a log I/O block within the mar
 
 ### -param plsn [out, optional]
 
-A pointer to a <a href="..\wdm\ns-wdm-_cls_lsn.md">CLFS_LSN</a> structure that receives the LSN of the appended record. This parameter can be <b>NULL</b> if <i>cWriteEntries</i> is zero.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541824">CLFS_LSN</a> structure that receives the LSN of the appended record. This parameter can be <b>NULL</b> if <i>cWriteEntries</i> is zero.
 
 
 ## -returns
@@ -257,7 +240,7 @@ Appends a record to the marshalling area by reserving new space. Also reserves s
 </table>
  
 
-Calling <b>ClfsReserveAndAppendLog</b> is equivalent to calling <a href="..\wdm\nf-wdm-clfsreserveandappendlogaligned.md">ClfsReserveAndAppendLogAligned</a> with the <i>cbEntryAlignment</i> parameter set to one.
+Calling <b>ClfsReserveAndAppendLog</b> is equivalent to calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff541726">ClfsReserveAndAppendLogAligned</a> with the <i>cbEntryAlignment</i> parameter set to one.
 
 For an explanation of CLFS concepts and terminology, see <a href="https://msdn.microsoft.com/a9685648-b08c-48ca-b020-e683068f2ea2">Common Log File System</a>. 
 
@@ -266,25 +249,23 @@ For an explanation of CLFS concepts and terminology, see <a href="https://msdn.m
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-clfscreatemarshallingarea.md">ClfsCreateMarshallingArea</a>
 
 
 
-<a href="..\wdm\ns-wdm-_cls_write_entry.md">CLFS_WRITE_ENTRY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541824">CLFS_LSN</a>
 
 
 
-<a href="..\wdm\nf-wdm-clfsreserveandappendlogaligned.md">ClfsReserveAndAppendLogAligned</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541891">CLFS_WRITE_ENTRY</a>
 
 
 
-<a href="..\wdm\ns-wdm-_cls_lsn.md">CLFS_LSN</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541520">ClfsCreateMarshallingArea</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541726">ClfsReserveAndAppendLogAligned</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ClfsReserveAndAppendLog routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

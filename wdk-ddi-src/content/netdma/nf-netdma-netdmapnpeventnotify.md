@@ -7,7 +7,7 @@ old-location: netvista\netdmapnpeventnotify.htm
 old-project: netvista
 ms.assetid: a0f0fdbc-089c-4bfb-ba5f-eaff6042621c
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: NetDmaPnPEventNotify, NetDmaPnPEventNotify function [Network Drivers Starting with Windows Vista], netdma/NetDmaPnPEventNotify, netdma_ref_406452bc-e56a-47da-9e7a-09fb4aebe1eb.xml, netvista.netdmapnpeventnotify
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	netdma.h
 api_name:
 -	NetDmaPnPEventNotify
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NET_DMA_PNP_NOTIFICATION_CODE, *PNET_DMA_PNP_NOTIFICATION_CODE
 ---
@@ -55,17 +56,6 @@ in Windows 8 and later.</div><div> </div>The
   <b>NetDmaPnPEventNotify</b> function indicates a power state change for a NetDMA provider device.
 
 
-## -syntax
-
-
-````
-VOID NetDmaPnPEventNotify(
-  _In_ PVOID                     NetDmaProviderHandle,
-  _In_ PNET_DMA_PNP_NOTIFICATION PnPEvent
-);
-````
-
-
 ## -parameters
 
 
@@ -75,14 +65,14 @@ VOID NetDmaPnPEventNotify(
 
 A handle that identifies a DMA provider. A DMA provider driver receives this handle from the
      NetDMA interface in a call to the 
-     <a href="..\netdma\nf-netdma-netdmaregisterprovider.md">
+     <a href="https://msdn.microsoft.com/35d70d0b-c1b9-433f-941d-6cb61ddf0b62">
      NetDmaRegisterProvider</a> function.
 
 
 ### -param PnPEvent [in]
 
 A pointer to a 
-     <a href="..\netdma\ns-netdma-_net_dma_pnp_notification.md">NET_DMA_PNP_NOTIFICATION</a> structure
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568735">NET_DMA_PNP_NOTIFICATION</a> structure
      that specifies a NetDMA PnP and power management event.
 
 
@@ -104,7 +94,7 @@ NetDMA provider drivers call the
 
 To send a power management notification to the NetDMA interface, NetDMA provider drivers call the 
     <b>NetDmaPnPEventNotify</b> function and provide a pointer to a 
-    <a href="..\netdma\ns-netdma-_net_dma_pnp_notification.md">NET_DMA_PNP_NOTIFICATION</a> structure
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568735">NET_DMA_PNP_NOTIFICATION</a> structure
     at the 
     <i>PnPEvent</i> parameter.
 
@@ -116,17 +106,15 @@ A NetDMA provider driver calls
 
 ## -see-also
 
-<a href="..\netdma\nf-netdma-netdmaregisterprovider.md">NetDmaRegisterProvider</a>
 
 
 
-<a href="..\netdma\ns-netdma-_net_dma_pnp_notification.md">NET_DMA_PNP_NOTIFICATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568735">NET_DMA_PNP_NOTIFICATION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568336">NetDmaRegisterProvider</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NetDmaPnPEventNotify function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

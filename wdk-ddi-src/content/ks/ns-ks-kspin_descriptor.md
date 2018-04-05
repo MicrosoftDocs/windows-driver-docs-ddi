@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSPIN_DESCRIPTOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSPIN_DESCRIPTOR, *PKSPIN_DESCRIPTOR
 ---
@@ -50,32 +51,6 @@ req.typenames: KSPIN_DESCRIPTOR, *PKSPIN_DESCRIPTOR
 
 
 The KSPIN_DESCRIPTOR structure describes the basic <a href="https://msdn.microsoft.com/library/windows/hardware/ff566584">KSPROPSETID_Pin</a> properties of a pin type.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  ULONG                 InterfacesCount;
-  const KSPIN_INTERFACE *Interfaces;
-  ULONG                 MediumsCount;
-  const KSPIN_MEDIUM    *Mediums;
-  ULONG                 DataRangesCount;
-  const PKSDATARANGE    *DataRanges;
-  KSPIN_DATAFLOW        DataFlow;
-  KSPIN_COMMUNICATION   Communication;
-  const GUID            *Category;
-  const GUID            *Name;
-  union {
-    LONGLONG Reserved;
-    struct {
-      ULONG        ConstrainedDataRangesCount;
-      PKSDATARANGE *ConstrainedDataRanges;
-    };
-  };
-} KSPIN_DESCRIPTOR, *PKSPIN_DESCRIPTOR;
-````
 
 
 ## -struct-fields
@@ -159,11 +134,6 @@ Drivers typically define one KSPIN_DESCRIPTOR structure for each pin type they s
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565197">KSPROPERTY_PIN_DATAFLOW</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563538">KSPIN_MEDIUM</a>
 
 
 
@@ -171,17 +141,20 @@ Drivers typically define one KSPIN_DESCRIPTOR structure for each pin type they s
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563538">KSPIN_MEDIUM</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565194">KSPROPERTY_PIN_COMMUNICATION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565197">KSPROPERTY_PIN_DATAFLOW</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566584">KSPROPSETID_Pin</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSPIN_DESCRIPTOR structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

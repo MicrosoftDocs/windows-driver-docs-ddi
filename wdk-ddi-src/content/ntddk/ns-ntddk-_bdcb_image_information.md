@@ -7,7 +7,7 @@ old-location: kernel\bdcb_image_information.htm
 old-project: kernel
 ms.assetid: 9D0A4D67-3284-4BCC-AC81-F0BCCC2DB9B7
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/28/2018
 ms.keywords: "*PBDCB_IMAGE_INFORMATION, BDCB_IMAGE_INFORMATION, BDCB_IMAGE_INFORMATION structure [Kernel-Mode Driver Architecture], PBDCB_IMAGE_INFORMATION, PBDCB_IMAGE_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _BDCB_IMAGE_INFORMATION, kernel.bdcb_image_information, ntddk/BDCB_IMAGE_INFORMATION, ntddk/PBDCB_IMAGE_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddk.h
 api_name:
 -	BDCB_IMAGE_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BDCB_IMAGE_INFORMATION, *PBDCB_IMAGE_INFORMATION
 ---
@@ -51,28 +52,7 @@ req.typenames: BDCB_IMAGE_INFORMATION, *PBDCB_IMAGE_INFORMATION
 
 The <b>BDCB_IMAGE_INFORMATION</b> structure describes information about a boot-start driver that is about to 
     be initialized, provided by Windows to a boot-start driver's 
-    <a href="..\ntddk\nf-ntddk-ioregisterbootdrivercallback.md">BOOT_DRIVER_CALLBACK_FUNCTION</a> routine.
-
-
-## -syntax
-
-
-````
-typedef struct _BDCB_IMAGE_INFORMATION {
-  BDCB_CLASSIFICATION Classification;
-  ULONG               ImageFlags;
-  UNICODE_STRING      ImageName;
-  UNICODE_STRING      RegistryPath;
-  UNICODE_STRING      CertificatePublisher;
-  UNICODE_STRING      CertificateIssuer;
-  PVOID               ImageHash;
-  PVOID               CertificateThumbprint;
-  ULONG               ImageHashAlgorithm;
-  ULONG               ThumbprintHashAlgorithm;
-  ULONG               ImageHashLength;
-  ULONG               CertificateThumbprintLength;
-} BDCB_IMAGE_INFORMATION, *PBDCB_IMAGE_INFORMATION;
-````
+    <a href="https://msdn.microsoft.com/28BA4B54-F493-4D79-89DF-D890EBCF1E9C">BOOT_DRIVER_CALLBACK_FUNCTION</a> routine.
 
 
 ## -struct-fields
@@ -261,17 +241,15 @@ The length of data pointed to by the <b>CertificateThumbprint</b> member.
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-ioregisterbootdrivercallback.md">BOOT_DRIVER_CALLBACK_FUNCTION</a>
 
 
 
-<a href="..\ntddk\ne-ntddk-_bdcb_classification.md">BDCB_CLASSIFICATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406355">BDCB_CLASSIFICATION</a>
 
 
 
+<a href="https://msdn.microsoft.com/28BA4B54-F493-4D79-89DF-D890EBCF1E9C">BOOT_DRIVER_CALLBACK_FUNCTION</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20BDCB_IMAGE_INFORMATION structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

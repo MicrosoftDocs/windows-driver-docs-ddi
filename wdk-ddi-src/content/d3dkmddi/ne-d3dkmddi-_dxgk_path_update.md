@@ -7,7 +7,7 @@ old-location: display\dxgk_path_update.htm
 old-project: display
 ms.assetid: DCBBFBF7-73B2-4298-BB87-83E1C6D76BD0
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: DXGK_PATH_UPDATE, DXGK_PATH_UPDATE enumeration [Display Devices], DXGK_PATH_UPDATE_ADDED, DXGK_PATH_UPDATE_MODIFIED, DXGK_PATH_UPDATE_REMOVED, DXGK_PATH_UPDATE_UNMODIFED, _DXGK_PATH_UPDATE, d3dkmddi/DXGK_PATH_UPDATE, d3dkmddi/DXGK_PATH_UPDATE_ADDED, d3dkmddi/DXGK_PATH_UPDATE_MODIFIED, d3dkmddi/DXGK_PATH_UPDATE_REMOVED, d3dkmddi/DXGK_PATH_UPDATE_UNMODIFED, display.dxgk_path_update
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGK_PATH_UPDATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_PATH_UPDATE
 ---
@@ -50,19 +51,6 @@ req.typenames: DXGK_PATH_UPDATE
 
 
 Enum which indicates how this path has been modified since the previous successful call to SetTimingsFromVidPn.
-
-
-## -syntax
-
-
-````
-typedef enum _DXGK_PATH_UPDATE { 
-  DXGK_PATH_UPDATE_UNMODIFED  = 0,
-  DXGK_PATH_UPDATE_ADDED      = 1,
-  DXGK_PATH_UPDATE_MODIFIED   = 2,
-  DXGK_PATH_UPDATE_REMOVED    = 3
-} DXGK_PATH_UPDATE;
-````
 
 
 ## -enum-fields

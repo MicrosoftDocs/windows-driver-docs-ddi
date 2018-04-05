@@ -38,7 +38,8 @@ api_location:
 -	bthddi.h
 api_name:
 -	L2CAP_CONFIG_RANGE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: L2CAP_CONFIG_RANGE, *PL2CAP_CONFIG_RANGE
 ---
@@ -51,19 +52,8 @@ req.typenames: L2CAP_CONFIG_RANGE, *PL2CAP_CONFIG_RANGE
 
 The L2CAP_CONFIG_RANGE structure is used to specify a range of possible values for the 
   <b>FlushTO</b> member of the 
-  <a href="..\bthddi\ns-bthddi-_brb_l2ca_open_channel.md">_BRB_L2CA_OPEN_CHANNEL</a> structure during
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff536860">_BRB_L2CA_OPEN_CHANNEL</a> structure during
   incoming requests.
-
-
-## -syntax
-
-
-````
-typedef struct _L2CAP_CONFIG_RANGE {
-  USHORT Min;
-  USHORT Max;
-} L2CAP_CONFIG_RANGE, *PL2CAP_CONFIG_RANGE;
-````
 
 
 ## -struct-fields
@@ -109,24 +99,22 @@ If the profile driver rejects the remote device's preferred timeout value as bei
 A profile driver negotiates these values separately from the flush timeout settings it requests when
     it attempts to open an outbound channel to a remote device using the <b>BRB_L2CA_OPEN_CHANNEL</b> request. For
     more information about value ranges, see 
-    <a href="..\bthddi\ns-bthddi-_l2cap_config_value_range.md">L2CAP_CONFIG_VALUE_RANGE</a>.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff536761">L2CAP_CONFIG_VALUE_RANGE</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\bthddi\ns-bthddi-_brb_l2ca_open_channel.md">_BRB_L2CA_OPEN_CHANNEL</a>
 
 
 
-<a href="..\bthddi\ns-bthddi-_l2cap_config_value_range.md">L2CAP_CONFIG_VALUE_RANGE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536761">L2CAP_CONFIG_VALUE_RANGE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536860">_BRB_L2CA_OPEN_CHANNEL</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20L2CAP_CONFIG_RANGE structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: audio\iportmidi_registerservicegroup.htm
 old-project: audio
 ms.assetid: 8e6b967f-7114-4231-bcfc-23637cd83268
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 3/19/2018
 ms.keywords: IPortMidi, IPortMidi interface [Audio Devices], RegisterServiceGroup method, IPortMidi::RegisterServiceGroup, RegisterServiceGroup method [Audio Devices], RegisterServiceGroup method [Audio Devices], IPortMidi interface, RegisterServiceGroup,IPortMidi.RegisterServiceGroup, audio.iportmidi_registerservicegroup, audmp-routines_ff2228bf-489d-4980-a317-e9cb89e4f394.xml, portcls/IPortMidi::RegisterServiceGroup
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: portcls.h
+req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	portcls.h
 api_name:
 -	IPortMidi.RegisterServiceGroup
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
@@ -52,16 +53,6 @@ req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 The <code>RegisterServiceGroup</code> method registers the service group to be used for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536893">IPortMidi::Notify</a> method.
 
 
-## -syntax
-
-
-````
-void RegisterServiceGroup(
-  [in] PSERVICEGROUP ServiceGroup
-);
-````
-
-
 ## -parameters
 
 
@@ -69,7 +60,7 @@ void RegisterServiceGroup(
 
 ### -param ServiceGroup [in]
 
-Pointer to the miniport driver's <a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a> object that is being registered.
+Pointer to the miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff536994">IServiceGroup</a> object that is being registered.
 
 
 ## -returns
@@ -92,11 +83,10 @@ The <i>ServiceGroup</i> parameter follows the <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
 
 
 
-<a href="..\portcls\nn-portcls-iportmidi.md">IPortMidi</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536891">IPortMidi</a>
 
 
 
@@ -104,9 +94,8 @@ The <i>ServiceGroup</i> parameter follows the <a href="https://msdn.microsoft.co
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536994">IServiceGroup</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IPortMidi::RegisterServiceGroup method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

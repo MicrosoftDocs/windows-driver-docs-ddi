@@ -7,7 +7,7 @@ old-location: storage\iscsi_portalinfo.htm
 old-project: storage
 ms.assetid: 0ecfed3e-477a-4014-8491-1a8997ac5b90
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PISCSI_PortalInfo, ISCSI_PortalInfo, ISCSI_PortalInfo structure [Storage Devices], PISCSI_PortalInfo, PISCSI_PortalInfo structure pointer [Storage Devices], _ISCSI_PortalInfo, iscsimgt/ISCSI_PortalInfo, iscsimgt/PISCSI_PortalInfo, storage.iscsi_portalinfo, structs-iSCSI_40fc24e8-364d-4698-911c-4128f471cdcd.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	iscsimgt.h
 api_name:
 -	ISCSI_PortalInfo
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: ISCSI_PortalInfo, *PISCSI_PortalInfo
 ---
@@ -50,23 +51,6 @@ req.typenames: ISCSI_PortalInfo, *PISCSI_PortalInfo
 
 
 The ISCSI_PortalInfo structure contains information about an iSCSI portal. 
-
-
-## -syntax
-
-
-````
-typedef struct _ISCSI_PortalInfo {
-  ULONG            Index;
-  UCHAR            PortalType;
-  UCHAR            Protocol;
-  UCHAR            Reserved1;
-  UCHAR            Reserved2;
-  ISCSI_IP_Address IPAddr;
-  ULONG            Port;
-  USHORT           PortalTag;
-} ISCSI_PortalInfo, *PISCSI_PortalInfo;
-````
 
 
 ## -struct-fields
@@ -129,7 +113,7 @@ Reserved for Microsoft use only.
 
 ### -field IPAddr
 
-A <a href="..\iscsidef\ns-iscsidef-_iscsi_ip_address.md">ISCSI_IP_Address</a> structure that indicates the portal's network IP address.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff561536">ISCSI_IP_Address</a> structure that indicates the portal's network IP address.
 
 
 ### -field Port
@@ -144,17 +128,15 @@ The portal group tag to which the portal belongs.
 
 ## -see-also
 
-<a href="..\iscsidef\ns-iscsidef-_iscsi_ip_address.md">ISCSI_IP_Address</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561536">ISCSI_IP_Address</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561559">ISCSI_PortalInfo WMI Class</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20ISCSI_PortalInfo structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

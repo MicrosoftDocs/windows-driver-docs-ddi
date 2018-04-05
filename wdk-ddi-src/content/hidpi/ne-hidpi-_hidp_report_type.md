@@ -38,7 +38,8 @@ api_location:
 -	hidpi.h
 api_name:
 -	HIDP_REPORT_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: HIDP_REPORT_TYPE
 ---
@@ -50,18 +51,6 @@ req.typenames: HIDP_REPORT_TYPE
 
 
 The HIDP_REPORT_TYPE enumeration type is used to specify a HID report type.
-
-
-## -syntax
-
-
-````
-typedef enum _HIDP_REPORT_TYPE { 
-  HidP_Input,
-  HidP_Output,
-  HidP_Feature
-} HIDP_REPORT_TYPE;
-````
 
 
 ## -enum-fields
@@ -86,25 +75,23 @@ Indicates a feature report.
 
 ## -see-also
 
-<a href="..\hidpi\ns-hidpi-_hidp_value_caps.md">HIDP_VALUE_CAPS</a>
 
 
 
-<a href="..\hidpi\nf-hidpi-hidp_getdata.md">HidP_GetData</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539693">HIDP_BUTTON_CAPS</a>
 
 
 
-<a href="..\hidpi\nf-hidpi-hidp_setdata.md">HidP_SetData</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539832">HIDP_VALUE_CAPS</a>
 
 
 
-<a href="..\hidpi\ns-hidpi-_hidp_button_caps.md">HIDP_BUTTON_CAPS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539718">HidP_GetData</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539783">HidP_SetData</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [hid\hid]:%20HIDP_REPORT_TYPE enumeration%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

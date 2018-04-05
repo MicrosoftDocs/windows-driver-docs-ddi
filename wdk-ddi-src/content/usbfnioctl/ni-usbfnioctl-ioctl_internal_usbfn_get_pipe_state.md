@@ -7,7 +7,7 @@ old-location: buses\ioctl_internal_usbfn_get_pipe_state.htm
 old-project: usbref
 ms.assetid: CFBFC5E4-852C-4287-A85E-2EF3C89FE474
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_INTERNAL_USBFN_GET_PIPE_STATE, IOCTL_INTERNAL_USBFN_GET_PIPE_STATE control code [Buses], buses.ioctl_internal_usbfn_get_pipe_state, usbfnioctl/IOCTL_INTERNAL_USBFN_GET_PIPE_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	usbfnioctl.h
 api_name:
 -	IOCTL_INTERNAL_USBFN_GET_PIPE_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USBFN_USB_STRING, *PUSBFN_USB_STRING
 req.product: Windows 10 or later.
@@ -46,11 +47,6 @@ req.product: Windows 10 or later.
 
 # IOCTL_INTERNAL_USBFN_GET_PIPE_STATE IOCTL
 
-
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -111,11 +107,11 @@ UFX completes the request with <b>STATUS_SUCCESS</b>.
 
 
 
-This request must be sent after sending the <a href="..\usbfnioctl\ni-usbfnioctl-ioctl_internal_usbfn_activate_usb_bus.md">IOCTL_INTERNAL_USBFN_ACTIVATE_USB_BUS</a> request.
+This request must be sent after sending the <a href="https://msdn.microsoft.com/library/windows/hardware/mt187891">IOCTL_INTERNAL_USBFN_ACTIVATE_USB_BUS</a> request.
 
 When stalled, the pipe sends STALL transaction packets to the host. See the Universal Serial Bus (USB) specification for more information.
 
-UFX forwards this IOCTL request to the transfer queue created for the endpoint by <a href="..\ufxclient\nf-ufxclient-ufxendpointcreate.md">UfxEndpointCreate</a>.
+UFX forwards this IOCTL request to the transfer queue created for the endpoint by <a href="https://msdn.microsoft.com/library/windows/hardware/mt187965">UfxEndpointCreate</a>.
 
 
 

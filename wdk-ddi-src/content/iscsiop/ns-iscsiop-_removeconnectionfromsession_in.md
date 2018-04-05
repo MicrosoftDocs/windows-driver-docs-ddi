@@ -7,7 +7,7 @@ old-location: storage\removeconnectionfromsession_in.htm
 old-project: storage
 ms.assetid: dd5fd1f2-7040-40ee-bf9c-42e77c9738da
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PRemoveConnectionFromSession_IN, PRemoveConnectionFromSession_IN, PRemoveConnectionFromSession_IN structure pointer [Storage Devices], RemoveConnectionFromSession_IN, RemoveConnectionFromSession_IN structure [Storage Devices], _RemoveConnectionFromSession_IN, iscsiop/PRemoveConnectionFromSession_IN, iscsiop/RemoveConnectionFromSession_IN, storage.removeconnectionfromsession_in, structs-iSCSI_7dca8bd4-ebf8-4ccc-996a-852fabba5df3.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	iscsiop.h
 api_name:
 -	RemoveConnectionFromSession_IN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RemoveConnectionFromSession_IN, *PRemoveConnectionFromSession_IN
 ---
@@ -50,17 +51,6 @@ req.typenames: RemoveConnectionFromSession_IN, *PRemoveConnectionFromSession_IN
 
 
 The RemoveConnectionFromSession_IN structure holds the input data for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563973">RemoveConnectionFromSession</a> method, which is used to remove a connection from a session.
-
-
-## -syntax
-
-
-````
-typedef struct _RemoveConnectionFromSession_IN {
-  ULONGLONG UniqueSessionId;
-  ULONGLONG UniqueConnectionId;
-} RemoveConnectionFromSession_IN, *PRemoveConnectionFromSession_IN;
-````
 
 
 ## -struct-fields
@@ -89,7 +79,6 @@ You must implement this class.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563973">RemoveConnectionFromSession</a>
 
 
 
@@ -101,9 +90,8 @@ You must implement this class.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563973">RemoveConnectionFromSession</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20RemoveConnectionFromSession_IN structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

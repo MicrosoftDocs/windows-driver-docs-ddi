@@ -38,7 +38,8 @@ api_location:
 -	2.0\Sercx.h
 api_name:
 -	EvtSerCx2SystemDmaTransmitPurgeFifo
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SENSOR_VALUE_PAIR, *PSENSOR_VALUE_PAIR
 req.product: Windows 10 or later.
@@ -53,20 +54,6 @@ req.product: Windows 10 or later.
 The <i>EvtSerCx2SystemDmaTransmitPurgeFifo</i> event callback function is called by version 2 of the serial framework extension (SerCx2) to discard any bytes of unsent data that remain in the transmit FIFO in the serial controller hardware.
 
 
-## -prototype
-
-
-````
-EVT_SERCX2_SYSTEM_DMA_TRANSMIT_PURGE_FIFO EvtSerCx2SystemDmaTransmitPurgeFifo;
-
-VOID EvtSerCx2SystemDmaTransmitPurgeFifo(
-  _In_ SERCX2SYSTEMDMATRANSMIT SystemDmaTransmit,
-  _In_ ULONG                   BytesAlreadyTransmittedToHardware
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -74,7 +61,7 @@ VOID EvtSerCx2SystemDmaTransmitPurgeFifo(
 
 ### -param SystemDmaTransmit [in]
 
-A <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2SYSTEMDMATRANSMIT</a> handle to a system-DMA-transmit object. The serial controller driver previously called the <a href="..\sercx\nf-sercx-sercx2systemdmatransmitcreate.md">SerCx2SystemDmaTransmitCreate</a> method to create this object.
+A <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2SYSTEMDMATRANSMIT</a> handle to a system-DMA-transmit object. The serial controller driver previously called the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265288">SerCx2SystemDmaTransmitCreate</a> method to create this object.
 
 
 ### -param BytesAlreadyTransmittedToHardware [in]
@@ -95,13 +82,13 @@ None.
 
 
 
-Your serial controller driver can, as an option, implement this function. If implemented, the driver registers the function in the <a href="..\sercx\nf-sercx-sercx2systemdmatransmitcreate.md">SerCx2SystemDmaTransmitCreate</a> call that creates the system-DMA-transmit object.
+Your serial controller driver can, as an option, implement this function. If implemented, the driver registers the function in the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265288">SerCx2SystemDmaTransmitCreate</a> call that creates the system-DMA-transmit object.
 
-Your driver should implement an <i>EvtSerCx2SystemDmaTransmitPurgeFifo</i> function if the serial controller has a hardware FIFO (or similar buffering mechanism) to hold transmit data. If your driver implements this function, it must also implement the <a href="..\sercx\nc-sercx-evt_sercx2_system_dma_transmit_drain_fifo.md">EvtSerCx2SystemDmaTransmitDrainFifo</a> and <a href="..\sercx\nc-sercx-evt_sercx2_system_dma_transmit_cancel_drain_fifo.md">EvtSerCx2SystemDmaTransmitCancelDrainFifo</a> event callback functions.
+Your driver should implement an <i>EvtSerCx2SystemDmaTransmitPurgeFifo</i> function if the serial controller has a hardware FIFO (or similar buffering mechanism) to hold transmit data. If your driver implements this function, it must also implement the <a href="https://msdn.microsoft.com/796A6C4B-0C7E-43C5-88BC-C03DAA3869A6">EvtSerCx2SystemDmaTransmitDrainFifo</a> and <a href="https://msdn.microsoft.com/00B17CBC-FE0E-4611-A41B-42AD833731D3">EvtSerCx2SystemDmaTransmitCancelDrainFifo</a> event callback functions.
 
 If a pending write (<a href="https://msdn.microsoft.com/library/windows/hardware/ff550819">IRP_MJ_WRITE</a>) request times out or is canceled, SerCx2 might need to terminate the current system-DMA transaction before it finishes. After the transaction is terminated, SerCx2 calls the <i>EvtSerCx2SystemDmaTransmitPurgeFifo</i> function, if it is implemented.
 
-The <i>EvtSerCx2SystemDmaTransmitPurgeFifo</i> function halts the transfer of data from the write buffer to the transmit FIFO, and discards any previously transferred data that remains in the FIFO. After the transmit transaction is terminated, the driver must call the <a href="..\sercx\nf-sercx-sercx2systemdmatransmitpurgefifocomplete.md">SerCx2SystemDmaTransmitPurgeFifoComplete</a> method to notify SerCx2 that the FIFO was purged, and SerCx2 then completes the write request.
+The <i>EvtSerCx2SystemDmaTransmitPurgeFifo</i> function halts the transfer of data from the write buffer to the transmit FIFO, and discards any previously transferred data that remains in the FIFO. After the transmit transaction is terminated, the driver must call the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265307">SerCx2SystemDmaTransmitPurgeFifoComplete</a> method to notify SerCx2 that the FIFO was purged, and SerCx2 then completes the write request.
 
 For more information, see <a href="https://msdn.microsoft.com/8569E76F-CAFF-4A2C-8052-62B340C5ADED">SerCx2 System-DMA-Transmit Transactions</a>.
 
@@ -148,6 +135,17 @@ The <b>EVT_SERCX2_SYSTEM_DMA_TRANSMIT_PURGE_FIFO</b> function type is defined in
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/00B17CBC-FE0E-4611-A41B-42AD833731D3">EvtSerCx2SystemDmaTransmitCancelDrainFifo</a>
+
+
+
+<a href="https://msdn.microsoft.com/796A6C4B-0C7E-43C5-88BC-C03DAA3869A6">EvtSerCx2SystemDmaTransmitDrainFifo</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550819">IRP_MJ_WRITE</a>
 
 
@@ -156,25 +154,12 @@ The <b>EVT_SERCX2_SYSTEM_DMA_TRANSMIT_PURGE_FIFO</b> function type is defined in
 
 
 
-<a href="..\sercx\nf-sercx-sercx2systemdmatransmitpurgefifocomplete.md">SerCx2SystemDmaTransmitPurgeFifoComplete</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265288">SerCx2SystemDmaTransmitCreate</a>
 
 
 
-<a href="..\sercx\nc-sercx-evt_sercx2_system_dma_transmit_drain_fifo.md">EvtSerCx2SystemDmaTransmitDrainFifo</a>
-
-
-
-<a href="..\sercx\nf-sercx-sercx2systemdmatransmitcreate.md">SerCx2SystemDmaTransmitCreate</a>
-
-
-
-<a href="..\sercx\nc-sercx-evt_sercx2_system_dma_transmit_cancel_drain_fifo.md">EvtSerCx2SystemDmaTransmitCancelDrainFifo</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265307">SerCx2SystemDmaTransmitPurgeFifoComplete</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [serports\serports]:%20EVT_SERCX2_SYSTEM_DMA_TRANSMIT_PURGE_FIFO callback function%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

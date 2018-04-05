@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILRADIOSTATEITEM
 title: RILRADIOSTATEITEM
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilradiostateitem_2.htm
+old-location: netvista\rilradiostateitem.htm
 old-project: netvista
-ms.assetid: 1cfc3e62-3398-435a-b603-fb7638ed8ce9
+ms.assetid: 152e3b52-44e4-4ed7-bfc3-38d0c65725fd
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: "*LPRILRADIOSTATEITEM, RILRADIOSTATEITEM, RILRADIOSTATEITEM structure [Network Drivers Starting with Windows Vista], netvista.rilradiostateitem_2, rilapitypes/RILRADIOSTATEITEM"
+ms.date: 3/26/2018
+ms.keywords: "*LPRILRADIOSTATEITEM, RILRADIOSTATEITEM, RILRADIOSTATEITEM structure [Network Drivers Starting with Windows Vista], netvista.rilradiostateitem, ntddrilapitypes/RILRADIOSTATEITEM"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,10 +35,11 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILRADIOSTATEITEM
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILRADIOSTATEITEM, *LPRILRADIOSTATEITEM
 req.product: Windows 10 or later.
@@ -50,43 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-
-## -syntax
-
-
-````
-typedef struct _RILRADIOSTATEITEM {
-  DWORD                                        dwItemId;
-  RILRADIOSTATEITEMFLAG                        dwItemFlag;
-  DWORD                                        dwItemAttributes;
-  NULL                                         RILITEMVALUEUNION;
-  RILITEMVALUEUNION                            itemValueUnion;
-  NULL                                         switch_is;
-  NULL                                         dwItemFlag;
-  int                                          intVal;
-  NULL                                         case;
-  NULL                                         RIL_RADIOSTATE_ITEMFLAG_USE_INTVAL;
-  unsigned int                                 uintVal;
-  NULL                                         case;
-  NULL                                         RIL_RADIOSTATE_ITEMFLAG_USE_UINTVAL;
-  WCHAR [MAXLENGTH_RADIOITEMVALUE_WCHAR]       wszVal;
-  NULL                                         case;
-  NULL                                         RIL_RADIOSTATE_ITEMFLAG_USE_WSZVAL;
-  int [MAXLENGTH_RADIOITEMVALUE_INT]           intArray;
-  NULL                                         case;
-  NULL                                         RIL_RADIOSTATE_ITEMFLAG_USE_INTARRAY;
-  unsigned int [MAXLENGTH_RADIOITEMVALUE_UINT] uintArray;
-  NULL                                         case;
-  NULL                                         RIL_RADIOSTATE_ITEMFLAG_USE_UINTARRAY;
-  BYTE [MAXLENGTH_RADIOITEMVALUE_BYTE]         byteArray;
-  NULL                                         case;
-  NULL                                         RIL_RADIOSTATE_ITEMFLAG_USE_BYTEARRAY;
-  WCHAR [MAXLENGTH_RADIOITEMNAME]              wszFriendlyName;
-  WCHAR [MAXLENGTH_RADIOITEM_OPTIONS]          wszItemValueOptions;
-} RILRADIOSTATEITEM, RILRADIOSTATEITEM;
-````
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -struct-fields
@@ -115,37 +80,13 @@ typedef struct _RILRADIOSTATEITEM {
 ### -field wszItemValueOptions
 
 
-#### - RIL_RADIOSTATE_ITEMFLAG_USE_BYTEARRAY
-
-
-#### - RIL_RADIOSTATE_ITEMFLAG_USE_INTARRAY
-
-
-#### - RIL_RADIOSTATE_ITEMFLAG_USE_INTVAL
-
-
-#### - RIL_RADIOSTATE_ITEMFLAG_USE_UINTARRAY
-
-
-#### - RIL_RADIOSTATE_ITEMFLAG_USE_UINTVAL
-
-
-#### - RIL_RADIOSTATE_ITEMFLAG_USE_WSZVAL
-
-
 #### - byteArray
-
-
-#### - case
 
 
 #### - intArray
 
 
 #### - intVal
-
-
-#### - switch_is
 
 
 #### - uintArray

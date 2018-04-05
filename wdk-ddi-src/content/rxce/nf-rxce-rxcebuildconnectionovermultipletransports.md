@@ -7,7 +7,7 @@ old-location: ifsk\rxcebuildconnectionovermultipletransports.htm
 old-project: ifsk
 ms.assetid: 9ef9a5a5-e0ad-46c0-8193-8d2a18a21ea0
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: RxCeBuildConnectionOverMultipleTransports, RxCeBuildConnectionOverMultipleTransports routine [Installable File System Drivers], ifsk.rxcebuildconnectionovermultipletransports, rxce/RxCeBuildConnectionOverMultipleTransports, rxref_813ee01b-f378-4598-813a-4f2f3c47189f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	rxce.h
 api_name:
 -	RxCeBuildConnectionOverMultipleTransports
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILWRITEPHONEBOOKENTRYPARAMS, *LPRILWRITEPHONEBOOKENTRYPARAMS
 req.product: Windows 10 or later.
@@ -51,25 +52,6 @@ req.product: Windows 10 or later.
 
 
 <b>RxCeBuildConnectionOverMultipleTransports</b> establishes a connection between a local RDBSS connection address and a given remote address and supports multiple transports. A set of local addresses are specified and this routine attempts to connect to the target server via all the transports associated with the local addresses. One connection is chosen as the winner depending on the connect options.
-
-
-## -syntax
-
-
-````
-NTSTATUS RxCeBuildConnectionOverMultipleTransports(
-  _Inout_ PRDBSS_DEVICE_OBJECT                pMiniRedirectorDeviceObject,
-  _In_    RXCE_CONNECTION_CREATE_OPTIONS      CreateOptions,
-  _In_    ULONG                               NumberOfAddresses,
-  _In_    PRXCE_ADDRESS                       *pLocalAddressPointers,
-  _In_    PUNICODE_STRING                     pServerName,
-  _In_    PRXCE_CONNECTION_INFORMATION        pConnectionInformation,
-  _In_    PRXCE_CONNECTION_EVENT_HANDLER      pHandler,
-  _In_    PVOID                               pEventContext,
-  _In_    PRXCE_CONNECTION_COMPLETION_ROUTINE pCompletionRoutine,
-  _Inout_ PRXCE_CONNECTION_COMPLETION_CONTEXT pCompletionContext
-);
-````
 
 
 ## -parameters
@@ -230,21 +212,19 @@ When <b>RxCeBuildConnectionOverMultipleTransports</b> is successful, the virtual
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553417">RxCeBuildConnection</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554321">RxCeTearDownConnection</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565085">TDI_CONNECTION_INFORMATION</a>
-
-
-
-<a href="..\rxce\nf-rxce-rxceteardownconnection.md">RxCeTearDownConnection</a>
-
-
-
-<a href="..\rxce\nf-rxce-rxcebuildconnection.md">RxCeBuildConnection</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RxCeBuildConnectionOverMultipleTransports routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

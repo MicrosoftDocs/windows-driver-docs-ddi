@@ -38,7 +38,8 @@ api_location:
 -	gnssdriver.h
 api_name:
 -	GNSS_V2UPL_NI_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GNSS_V2UPL_NI_INFO, *PGNSS_V2UPL_NI_INFO
 ---
@@ -50,18 +51,6 @@ req.typenames: GNSS_V2UPL_NI_INFO, *PGNSS_V2UPL_NI_INFO
 
 
 This structure contains V2UPL NI information.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  ULONG Size;
-  ULONG Version;
-  WCHAR RequestorId[MAX_PATH];
-} GNSS_V2UPL_NI_INFO, *PGNSS_V2UPL_NI_INFO;
-````
 
 
 ## -struct-fields

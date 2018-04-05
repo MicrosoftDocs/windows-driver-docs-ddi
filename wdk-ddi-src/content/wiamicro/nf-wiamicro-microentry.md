@@ -7,7 +7,7 @@ old-location: image\microentry.htm
 old-project: image
 ms.assetid: 3e0c51af-ceb9-4c06-ab6a-ccc468997fdd
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/27/2018
 ms.keywords: MicroDrv_04aa15b3-5e4d-453d-b41a-a4de3c1228f7.xml, MicroEntry, MicroEntry function [Imaging Devices], image.microentry, wiamicro/MicroEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	wiamicro.h
 api_name:
 -	MicroEntry
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2
 req.product: Windows 10 or later.
@@ -53,17 +54,6 @@ req.product: Windows 10 or later.
 The<b> MicroEntry </b>function responds to commands sent by the WIA Flatbed driver. 
 
 
-## -syntax
-
-
-````
-WIAMICRO_API HRESULT MicroEntry(
-          LONG lCommand,
-  _Inout_ PVAL pValue
-);
-````
-
-
 ## -parameters
 
 
@@ -76,7 +66,7 @@ Specifies a command issued to the microdriver by the WIA Flatbed driver.
 
 ### -param pValue [in, out]
 
-Points to a <a href="..\wiamicro\ns-wiamicro-val.md">VAL</a> structure that is used to pass information between the WIA Flatbed driver and the microdriver.
+Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548627">VAL</a> structure that is used to pass information between the WIA Flatbed driver and the microdriver.
 
 
 ## -returns
@@ -94,18 +84,21 @@ If the function succeeds, it returns S_OK. If a passed command is not supported,
 
 This function performs many different tasks, depending on the command passed in the <i>lCommand</i> parameter. See the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552714">WIA Microdriver Commands</a> reference section for a list of these commands.
 
-Two structures are passed to the function. A <a href="..\wiamicro\ns-wiamicro-val.md">VAL</a> structure is passed in the <i>pValue</i> pointer, and the <b>pScanInfo</b> member of the VAL structure points to a <a href="..\wiamicro\ns-wiamicro-_scaninfo.md">SCANINFO</a> structure. The VAL structure is used to pass information between the WIA Flatbed Driver and the microdriver. The SCANINFO structure is used to store and communicate parameters of a scan data acquisition. Many of the commands passed to this function set values in the SCANINFO structure.
+Two structures are passed to the function. A <a href="https://msdn.microsoft.com/library/windows/hardware/ff548627">VAL</a> structure is passed in the <i>pValue</i> pointer, and the <b>pScanInfo</b> member of the VAL structure points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547361">SCANINFO</a> structure. The VAL structure is used to pass information between the WIA Flatbed Driver and the microdriver. The SCANINFO structure is used to store and communicate parameters of a scan data acquisition. Many of the commands passed to this function set values in the SCANINFO structure.
 
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552722">WIA Microdriver Structures</a>
 
 
 
-<a href="..\wiamicro\ns-wiamicro-val.md">VAL</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547361">SCANINFO</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548627">VAL</a>
 
 
 
@@ -113,13 +106,8 @@ Two structures are passed to the function. A <a href="..\wiamicro\ns-wiamicro-va
 
 
 
-<a href="..\wiamicro\ns-wiamicro-_scaninfo.md">SCANINFO</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552722">WIA Microdriver Structures</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20MicroEntry function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

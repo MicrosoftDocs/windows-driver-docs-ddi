@@ -38,7 +38,8 @@ api_location:
 -	61883.h
 api_name:
 -	CMP_MONITOR_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CMP_MONITOR_INFO, *PCMP_MONITOR_INFO
 ---
@@ -50,20 +51,6 @@ req.typenames: CMP_MONITOR_INFO, *PCMP_MONITOR_INFO
 
 
 The CMP_MONITOR_INFO structure is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536987">Av61883_MonitorPlugs</a> request to allow a driver to monitor access to local oPCR and iPCR plugs.
-
-
-## -syntax
-
-
-````
-typedef struct _CMP_MONITOR_INFO {
-  ULONG  State;
-  ULONG  PlugNum;
-  ULONG  PlugType;
-  AV_PCR Pcr;
-  PVOID  Context;
-} CMP_MONITOR_INFO, *PCMP_MONITOR_INFO;
-````
 
 
 ## -struct-fields
@@ -98,13 +85,11 @@ Points to a caller-defined context that was registered with <a href="https://msd
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536987">Av61883_MonitorPlugs</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [IEEE\buses]:%20CMP_MONITOR_INFO structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

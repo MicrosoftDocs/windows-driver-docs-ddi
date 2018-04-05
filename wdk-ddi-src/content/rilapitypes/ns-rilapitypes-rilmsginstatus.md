@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILMSGINSTATUS
 title: RILMSGINSTATUS
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilmsginstatus_2.htm
+old-location: netvista\rilmsginstatus.htm
 old-project: netvista
-ms.assetid: 4dcc198f-5e42-4c60-bfec-19702c9ab674
+ms.assetid: 383ed544-c8c8-42a0-a7de-57f0f4072611
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: "*LPRILMSGINSTATUS, RILMSGINSTATUS, RILMSGINSTATUS structure [Network Drivers Starting with Windows Vista], netvista.rilmsginstatus_2, rilapitypes/RILMSGINSTATUS"
+ms.date: 3/26/2018
+ms.keywords: "*LPRILMSGINSTATUS, RILMSGINSTATUS, RILMSGINSTATUS structure [Network Drivers Starting with Windows Vista], netvista.rilmsginstatus, ntddrilapitypes/RILMSGINSTATUS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,10 +35,11 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILMSGINSTATUS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILMSGINSTATUS, *LPRILMSGINSTATUS
 req.product: Windows 10 or later.
@@ -50,28 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-
-## -syntax
-
-
-````
-typedef struct _RILMSGINSTATUS {
-  DWORD                       dwMsgID;
-  RILADDRESS                  raTgtRecipAddress;
-  RILSYSTEMTIME               stTgtSCReceiveTime;
-  RILSYSTEMTIME               stTgtDischargeTime;
-  DWORD                       dwReserved;
-  RILMSGINSTATUSTGTDLVSTATUS  dwTgtDlvStatus;
-  RILMSGPROTOCOLID            dwProtocolID;
-  RILMSGDCS                   rmdDataCoding;
-  DWORD                       cbHdrLength;
-  DWORD                       cchMsgLength;
-  BYTE [MAXLENGTH_HDR]        rgbHdr;
-  BYTE [MAXLENGTH_MSG]        rgbMsg;
-} RILMSGINSTATUS, RILMSGINSTATUS;
-````
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -struct-fields

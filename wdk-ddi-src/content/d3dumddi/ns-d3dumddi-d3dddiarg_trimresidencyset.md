@@ -7,7 +7,7 @@ old-location: display\d3dddiarg_trimresidencyset.htm
 old-project: display
 ms.assetid: DEF219B9-115A-4B61-8014-266730CEBD30
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDIARG_TRIMRESIDENCYSET, D3DDDIARG_TRIMRESIDENCYSET structure [Display Devices], d3dumddi/D3DDDIARG_TRIMRESIDENCYSET, display.d3dddiarg_trimresidencyset
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	D3DDDIARG_TRIMRESIDENCYSET
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDIARG_TRIMRESIDENCYSET
 ---
@@ -49,18 +50,7 @@ req.typenames: D3DDDIARG_TRIMRESIDENCYSET
 ## -description
 
 
-<b>D3DDDIARG_TRIMRESIDENCYSET</b> is used with <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_trimresidencyset.md">pfnTrimResidencySet</a> by a user mode driver to trim the residency list for a given device.
-
-
-## -syntax
-
-
-````
-typedef struct D3DDDIARG_TRIMRESIDENCYSET {
-  D3DDDI_TRIMRESIDENCYSET_FLAGS TrimFlags;
-  UINT64                        NumBytesToTrim;
-} D3DDDIARG_TRIMRESIDENCYSET;
-````
+<b>D3DDDIARG_TRIMRESIDENCYSET</b> is used with <a href="https://msdn.microsoft.com/192F419C-F38F-4B42-8111-86D58D6781DA">pfnTrimResidencySet</a> by a user mode driver to trim the residency list for a given device.
 
 
 ## -struct-fields
@@ -80,13 +70,11 @@ When <b>TrimToBudget</b> is set, this value specifies how much the application s
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_trimresidencyset.md">pfnTrimResidencySet</a>
 
 
 
+<a href="https://msdn.microsoft.com/192F419C-F38F-4B42-8111-86D58D6781DA">pfnTrimResidencySet</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DDDIARG_TRIMRESIDENCYSET structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

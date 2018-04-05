@@ -7,7 +7,7 @@ old-location: print\ipartfont_setfontcontent.htm
 old-project: print
 ms.assetid: bd77d32f-97fd-4f80-945d-9fff7553fcc5
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: IPartFont, IPartFont interface [Print Devices], SetFontContent method, IPartFont::SetFontContent, SetFontContent method [Print Devices], SetFontContent method [Print Devices], IPartFont interface, SetFontContent,IPartFont.SetFontContent, filterpipeline/IPartFont::SetFontContent, filterpipeline_1639cc2b-b1b6-4fa3-997b-3c98e32d2783.xml, print.ipartfont_setfontcontent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: filterpipeline.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	filterpipeline.h
 api_name:
 -	IPartFont.SetFontContent
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
@@ -50,16 +51,6 @@ req.typenames: EXpsFontRestriction
 
 
 The <b>SetFontContent</b> method sets the content of the font.
-
-
-## -syntax
-
-
-````
-HRESULT SetFontContent(
-  [in] const wchar_t *contentType
-);
-````
 
 
 ## -parameters

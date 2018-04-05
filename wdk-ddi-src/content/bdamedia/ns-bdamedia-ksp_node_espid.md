@@ -38,7 +38,8 @@ api_location:
 -	bdamedia.h
 api_name:
 -	KSP_NODE_ESPID
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSP_NODE_ESPID, *PKSP_NODE_ESPID
 ---
@@ -50,17 +51,6 @@ req.typenames: KSP_NODE_ESPID, *PKSP_NODE_ESPID
 
 
 The KSP_NODE_ESPID structure describes property and node type for an Entitlement Control Message (ECM) map node along with the packet identifier (PID) for an elementary stream that the ECM map node processes.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  KSP_NODE Property;
-  ULONG    EsPid;
-} KSP_NODE_ESPID, *PKSP_NODE_ESPID;
-````
 
 
 ## -struct-fields
@@ -80,13 +70,11 @@ Packet identifier (PID) that identifies packets in the elementary stream.
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksp_node.md">KSP_NODE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566720">KSP_NODE</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSP_NODE_ESPID structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

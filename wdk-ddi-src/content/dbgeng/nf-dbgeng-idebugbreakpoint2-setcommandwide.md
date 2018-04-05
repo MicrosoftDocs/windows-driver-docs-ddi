@@ -7,7 +7,7 @@ old-location: debugger\setcommandwide.htm
 old-project: debugger
 ms.assetid: 3edab087-01e4-4cd4-82d3-38d67962c93c
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/26/2018
 ms.keywords: IDebugBreakpoint2, IDebugBreakpoint2 interface [Windows Debugging], SetCommandWide method, IDebugBreakpoint2::SetCommandWide, SetCommandWide method [Windows Debugging], SetCommandWide method [Windows Debugging], IDebugBreakpoint2 interface, SetCommandWide,IDebugBreakpoint2.SetCommandWide, dbgeng/IDebugBreakpoint2::SetCommandWide, debugger.setcommandwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugBreakpoint2.SetCommandWide
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -50,16 +51,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>SetCommandWide</b> method sets the command that is executed when a breakpoint is triggered.
-
-
-## -syntax
-
-
-````
-HRESULT SetCommandWide(
-  [in] PCWSTR Command
-);
-````
 
 
 ## -parameters

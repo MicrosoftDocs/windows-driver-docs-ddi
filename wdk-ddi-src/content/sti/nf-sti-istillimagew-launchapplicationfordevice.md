@@ -7,7 +7,7 @@ old-location: image\istillimage_launchapplicationfordevice.htm
 old-project: image
 ms.assetid: e5bb8d0e-9ae0-42dd-bbd0-c12e3d1e3f40
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/27/2018
 ms.keywords: IStillImageW, IStillImageW interface [Imaging Devices], LaunchApplicationForDevice method, IStillImageW::LaunchApplicationForDevice, LaunchApplicationForDevice method [Imaging Devices], LaunchApplicationForDevice method [Imaging Devices], IStillImageW interface, LaunchApplicationForDevice,IStillImageW.LaunchApplicationForDevice, image.istillimage_launchapplicationfordevice, sti/IStillImageW::LaunchApplicationForDevice, stifnc_3ecda881-3b82-4323-b739-614e4f8f78a7.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: sti.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	sti.h
 api_name:
 -	IStillImageW.LaunchApplicationForDevice
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STI_DEVICE_MJ_TYPE, STI_DEVICE_MJ_TYPE
 req.product: Windows 10 or later.
@@ -51,18 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>IStillImage::LaunchApplicationForDevice</b> method starts a specified application for a specified still image device.
-
-
-## -syntax
-
-
-````
-HRESULT LaunchApplicationForDevice(
-  [in] LPWSTR      pwszDeviceName,
-  [in] LPWSTR      pwszAppName,
-  [in] LPSTINOTIFY pStiNotify
-);
-````
 
 
 ## -parameters
@@ -82,7 +71,7 @@ Caller-supplied pointer to a string representing the short name of an applicatio
 
 ### -param pStiNotify [in]
 
-Caller-supplied pointer to an <a href="..\sti\ns-sti-_stinotify.md">STINOTIFY</a> structure describing a device event. Typically,  the event's GUID is obtained by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff543751">IStiDevice::GetLastNotificationData</a>.
+Caller-supplied pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff548350">STINOTIFY</a> structure describing a device event. Typically,  the event's GUID is obtained by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff543751">IStiDevice::GetLastNotificationData</a>.
 
 
 ## -returns

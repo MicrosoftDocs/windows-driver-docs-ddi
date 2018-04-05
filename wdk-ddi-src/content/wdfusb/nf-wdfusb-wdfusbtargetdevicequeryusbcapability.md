@@ -7,7 +7,7 @@ old-location: wdf\wdfusbtargetdevicequeryusbcapability.htm
 old-project: wdf
 ms.assetid: B6C3E94F-AFC9-45EC-91F1-F0E3586DBDA1
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/26/2018
 ms.keywords: WdfUsbTargetDeviceQueryUsbCapability, WdfUsbTargetDeviceQueryUsbCapability method, kmdf.wdfusbtargetdevicequeryusbcapability, wdf.wdfusbtargetdevicequeryusbcapability, wdfusb/WdfUsbTargetDeviceQueryUsbCapability
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,8 @@ api_location:
 -	WUDFx02000.dll.dll
 api_name:
 -	WdfUsbTargetDeviceQueryUsbCapability
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
@@ -57,20 +58,6 @@ req.product: Windows 10 or later.
 
 
    The <b>WdfUsbTargetDeviceQueryUsbCapability</b> method determines whether the host controller and USB driver stack support a specific capability.
-
-
-## -syntax
-
-
-````
-NTSTATUS WdfUsbTargetDeviceQueryUsbCapability(
-  _In_            WDFUSBDEVICE UsbDevice,
-  _In_      const PGUID        *CapabilityType,
-  _In_            ULONG        CapabilityBufferLength,
-  _Out_opt_       PVOID        CapabilityBuffer,
-  _Out_opt_       PULONG       ResultLength
-);
-````
 
 
 ## -parameters
@@ -108,7 +95,7 @@ Length, in bytes, of the buffer pointed to by <i>CapabilityBuffer</i>.
 ### -param CapabilityBuffer [out, optional]
 
 A pointer to a caller-allocated buffer to receive the requested USB capability. This parameter is optional. If 
-                       <i>CapabilityBufferLength</i> is zero, this parameter must be NULL. Similarly, if <i>CapabilityBufferLength</i> is nonzero, this parameter must be supplied. This parameter corresponds to the <i>OutputBuffer</i> parameter of the <a href="..\usbdlib\nf-usbdlib-usbd_queryusbcapability.md">USBD_QueryUsbCapability</a> routine.
+                       <i>CapabilityBufferLength</i> is zero, this parameter must be NULL. Similarly, if <i>CapabilityBufferLength</i> is nonzero, this parameter must be supplied. This parameter corresponds to the <i>OutputBuffer</i> parameter of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406230">USBD_QueryUsbCapability</a> routine.
 
 
 ### -param ResultLength [out, optional]
@@ -198,9 +185,9 @@ This method also might return other <a href="https://msdn.microsoft.com/library/
 
 
 
-Before calling <b>WdfUsbTargetDeviceQueryUsbCapability</b>, the driver must call  <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreatewithparameters.md">WdfUsbTargetDeviceCreateWithParameters</a> to register with the underlying USB driver stack.
+Before calling <b>WdfUsbTargetDeviceQueryUsbCapability</b>, the driver must call  <a href="https://msdn.microsoft.com/library/windows/hardware/hh439428">WdfUsbTargetDeviceCreateWithParameters</a> to register with the underlying USB driver stack.
 
-<b>WdfUsbTargetDeviceQueryUsbCapability</b> must be called after the driver's <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_prepare_hardware.md">EvtDevicePrepareHardware</a> callback function has been called. 
+<b>WdfUsbTargetDeviceQueryUsbCapability</b> must be called after the driver's <a href="https://msdn.microsoft.com/a3d4a983-8a75-44be-bd72-8673d89f9f87">EvtDevicePrepareHardware</a> callback function has been called. 
 
 The following table describes the USB-specific capabilities that a KMDF-based USB client driver can query through a <b>WdfUsbTargetDeviceQueryUsbCapability</b> call. 
 
@@ -212,7 +199,7 @@ The following table describes the USB-specific capabilities that a KMDF-based US
 <tr>
 <td>GUID_USB_CAPABILITY_CHAINED_MDLS</td>
 <td>
-The new USB driver stack in Windows 8 is capable of accepting a chained MDL (see <a href="..\wdm\ns-wdm-_mdl.md">MDL</a>) from the a KMDF-based USB client driver.
+The new USB driver stack in Windows 8 is capable of accepting a chained MDL (see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554414">MDL</a>) from the a KMDF-based USB client driver.
 
  For more information about the chained MDLs capability in the USB driver stack, see <a href="https://msdn.microsoft.com/library/windows/hardware/hh450848">How to Send Chained MDLs</a>.  
 
@@ -278,17 +265,15 @@ This GUID applies to KMDF and UMDF drivers.
 
 ## -see-also
 
-<a href="..\usbdlib\nf-usbdlib-usbd_queryusbcapability.md">USBD_QueryUsbCapability</a>
 
 
 
-<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdeviceretrieveinformation.md">WdfUsbTargetDeviceRetrieveInformation</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406230">USBD_QueryUsbCapability</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550100">WdfUsbTargetDeviceRetrieveInformation</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfUsbTargetDeviceQueryUsbCapability method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

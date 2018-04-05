@@ -7,7 +7,7 @@ old-location: netvista\ndismgetvirtualfunctionbusdata.htm
 old-project: netvista
 ms.assetid: 15e2e1f4-6039-4588-a7ba-bd8aa6b78839
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: NdisMGetVirtualFunctionBusData, NdisMGetVirtualFunctionBusData function [Network Drivers Starting with Windows Vista], ndis/NdisMGetVirtualFunctionBusData, netvista.ndismgetvirtualfunctionbusdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	ndis.dll
 api_name:
 -	NdisMGetVirtualFunctionBusData
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
@@ -54,20 +55,6 @@ A miniport driver calls the <b>NdisMGetVirtualFunctionBusData</b> function to re
 <div class="alert"><b>Note</b>  <b>NdisMGetVirtualFunctionBusData</b> must only be called by the miniport driver for the network adapter's PCIe Physical Function (PF).   
 </div><div> </div>
 
-## -syntax
-
-
-````
-ULONG NdisMGetVirtualFunctionBusData(
-  _In_  NDIS_HANDLE            NdisMiniportHandle,
-  _In_  NDIS_SRIOV_FUNCTION_ID VFId,
-  _Out_ PVOID                  Buffer,
-  _In_  ULONG                  Offset,
-  _In_  ULONG                  Length
-);
-````
-
-
 ## -parameters
 
 
@@ -77,7 +64,7 @@ ULONG NdisMGetVirtualFunctionBusData(
 
 The network adapter handle that NDIS passed to the 
      <i>MiniportAdapterHandle</i> parameter of 
-     <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>.
+     <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>.
 
 
 ### -param VFId [in]
@@ -118,7 +105,7 @@ The length, in units of bytes, of the data to be read.
 
 
 The PF miniport driver typically calls <b>NdisMGetVirtualFunctionBusData</b> when it handles an OID method request of  <a href="https://msdn.microsoft.com/library/windows/hardware/hh451879">OID_SRIOV_READ_VF_CONFIG_SPACE</a>.  
-However, the driver can call this function any time after virtualization has been enabled on the network adapter through a call to <a href="..\ndis\nf-ndis-ndismenablevirtualization.md">NdisMEnableVirtualization</a>.
+However, the driver can call this function any time after virtualization has been enabled on the network adapter through a call to <a href="https://msdn.microsoft.com/library/windows/hardware/hh451481">NdisMEnableVirtualization</a>.
 
 For more information on how to query the VF's PCI configuration space, see <a href="https://msdn.microsoft.com/FFE7C946-4406-46A5-A9A7-CD0E2756C98E">Querying the PCI Configuration Space for a Virtual Function</a>.
 
@@ -134,15 +121,10 @@ The VBD that runs in the Hyper-V parent partition's management operating system 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451814">OID_NIC_SWITCH_ALLOCATE_VF</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451879">OID_SRIOV_READ_VF_CONFIG_SPACE</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismenablevirtualization.md">NdisMEnableVirtualization</a>
+<b></b>
 
 
 
@@ -154,13 +136,16 @@ The VBD that runs in the Hyper-V parent partition's management operating system 
 
 
 
-<b></b>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451481">NdisMEnableVirtualization</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451814">OID_NIC_SWITCH_ALLOCATE_VF</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451879">OID_SRIOV_READ_VF_CONFIG_SPACE</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisMGetVirtualFunctionBusData function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

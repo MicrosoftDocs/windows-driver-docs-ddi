@@ -7,7 +7,7 @@ old-location: wdf\wdfobjectdereferenceactual.htm
 old-project: wdf
 ms.assetid: ff96ea2b-a1f9-417c-98e6-fbf9cc9f6827
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/26/2018
 ms.keywords: DFGenObjectRef_d09786da-bccf-4735-bd7b-816bf2bd999d.xml, WdfObjectDereferenceActual, WdfObjectDereferenceActual method, kmdf.wdfobjectdereferenceactual, wdf.wdfobjectdereferenceactual, wdfobject/WdfObjectDereferenceActual
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,8 @@ api_location:
 -	WUDFx02000.dll.dll
 api_name:
 -	WdfObjectDereferenceActual
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_SYNCHRONIZATION_SCOPE
 req.product: Windows 10 or later.
@@ -58,19 +59,6 @@ req.product: Windows 10 or later.
 The <b>WdfObjectDereferenceActual</b> method decrements the reference count for a specified framework object and assigns a tag value, line number, and file name to the reference<i>.</i>
 
 
-## -syntax
-
-
-````
-VOID WdfObjectDereferenceActual(
-  _In_     WDFOBJECT Handle,
-  _In_opt_ PVOID     Tag,
-  _In_     LONG      Line,
-  _In_opt_ PCCH      File
-);
-````
-
-
 ## -parameters
 
 
@@ -83,7 +71,7 @@ A handle to a framework object.
 
 ### -param Tag [in, optional]
 
-A driver-defined value that identifies an object reference. The tag value must match a tag value that the driver previously supplied to <a href="..\wdfobject\nf-wdfobject-wdfobjectreferenceactual.md">WdfObjectReferenceActual</a>.
+A driver-defined value that identifies an object reference. The tag value must match a tag value that the driver previously supplied to <a href="https://msdn.microsoft.com/library/windows/hardware/ff548760">WdfObjectReferenceActual</a>.
 
 
 ### -param Line [in]
@@ -144,17 +132,15 @@ The following code example decrements an object's reference count and assigns a 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548739">WdfObjectDereference</a>
 
 
 
-<a href="..\wdfobject\nf-wdfobject-wdfobjectreferenceactual.md">WdfObjectReferenceActual</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548760">WdfObjectReferenceActual</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfObjectDereferenceActual method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

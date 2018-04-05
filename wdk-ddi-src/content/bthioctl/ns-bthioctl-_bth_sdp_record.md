@@ -38,7 +38,8 @@ api_location:
 -	bthioctl.h
 api_name:
 -	BTH_SDP_RECORD
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BTH_SDP_RECORD, *PBTH_SDP_RECORD
 ---
@@ -51,20 +52,6 @@ req.typenames: BTH_SDP_RECORD, *PBTH_SDP_RECORD
 
 The BTH_SDP_RECORD structure contains information about an SDP record that is to be added to the
   local SDP server.
-
-
-## -syntax
-
-
-````
-typedef struct _BTH_SDP_RECORD {
-  ULONG fSecurity;
-  ULONG fOptions;
-  ULONG fCodService;
-  ULONG recordLength;
-  UCHAR record[1];
-} BTH_SDP_RECORD, *PBTH_SDP_RECORD;
-````
 
 
 ## -struct-fields
@@ -235,7 +222,7 @@ The size, in bytes, of the record.
 
 
 This structure is passed as the input buffer and output buffer of 
-    <a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_submit_record_with_info.md">
+    <a href="https://msdn.microsoft.com/774d1bda-2d9b-4ab4-97cf-b358471d8716">
     IOCTL_BTH_SDP_SUBMIT_RECORD_WITH_INFO</a>.
 
 
@@ -243,14 +230,12 @@ This structure is passed as the input buffer and output buffer of
 
 ## -see-also
 
-<a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_submit_record_with_info.md">
+
+
+
+<a href="https://msdn.microsoft.com/774d1bda-2d9b-4ab4-97cf-b358471d8716">
    IOCTL_BTH_SDP_SUBMIT_RECORD_WITH_INFO</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20BTH_SDP_RECORD structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

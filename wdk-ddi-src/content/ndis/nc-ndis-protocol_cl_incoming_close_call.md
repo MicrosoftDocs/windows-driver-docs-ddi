@@ -7,7 +7,7 @@ old-location: netvista\protocolclincomingclosecall.htm
 old-project: netvista
 ms.assetid: 01c7d887-eb54-47c3-98f0-bc567b60fb4b
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: PROTOCOL_CL_INCOMING_CLOSE_CALL, ProtocolClIncomingCloseCall, ProtocolClIncomingCloseCall callback function [Network Drivers Starting with Windows Vista], condis_client_ref_3c97fa3b-d9ae-4748-8812-9abc896a509a.xml, ndis/ProtocolClIncomingCloseCall, netvista.protocolclincomingclosecall
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ndis.h
 api_name:
 -	ProtocolClIncomingCloseCall
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
 ---
@@ -55,22 +56,6 @@ The
   <i>ProtocolClIncomingCloseCall</i> functions.
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>PROTOCOL_CL_INCOMING_CLOSE_CALL</b> type.
    For more information, see the following Examples section.</div><div> </div>
-
-## -prototype
-
-
-````
-PROTOCOL_CL_INCOMING_CLOSE_CALL ProtocolClIncomingCloseCall;
-
-VOID ProtocolClIncomingCloseCall(
-  _In_ NDIS_STATUS CloseStatus,
-  _In_ NDIS_HANDLE ProtocolVcContext,
-  _In_ PVOID       CloseData,
-  _In_ UINT        Size
-)
-{ ... }
-````
-
 
 ## -parameters
 
@@ -148,12 +133,12 @@ In either case,
     the client's own client(s) that the connection is being broken. For example, if the call to be closed is
     a multipoint VC created by the client, 
     <i>ProtocolClIncomingCloseCall</i> must call 
-    <a href="..\ndis\nf-ndis-ndiscldropparty.md">NdisClDropParty</a> one or more times until
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561629">NdisClDropParty</a> one or more times until
     only a single party remains on its multipoint VC.
 
 Whether the given VC is a single-point or multipoint connection, 
     <i>ProtocolClIncomingCloseCall</i> must call 
-    <a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a> to acknowledge that the
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561627">NdisClCloseCall</a> to acknowledge that the
     client will neither attempt to send nor expect to receive data on this particular VC. If the call manager
     created this VC, 
     <i>ProtocolClIncomingCloseCall</i> should return control after it calls 
@@ -169,16 +154,16 @@ If the client originally created this VC for an outgoing call,
 <li>
 If 
       <i>CloseStatus</i> is NDIS_STATUS_SUCCESS, tear down the VC with 
-      <a href="..\ndis\nf-ndis-ndiscodeletevc.md">NdisCoDeleteVc</a> and either release the
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff561698">NdisCoDeleteVc</a> and either release the
       client's per-VC context area or prepare it for reuse in a subsequent call to 
-      <a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a>.
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff561696">NdisCoCreateVc</a>.
 
 </li>
 <li>
 If 
       <i>CloseStatus</i> is NDIS_STATUS_SUCCESS, retain the VC that the client created and prepare its per-VC
       context area for reuse in a subsequent call to 
-      <a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>.
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff561635">NdisClMakeCall</a>.
 
 </li>
 <li>
@@ -232,56 +217,54 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndiscmdispatchincomingclosecall.md">
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561627">NdisClCloseCall</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561629">NdisClDropParty</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561635">NdisClMakeCall</a>
+
+
+
+<a href="https://msdn.microsoft.com/f0f1221d-3d95-4d4c-acd0-6bcd653241c4">
    NdisCmDispatchIncomingCloseCall</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismcmdispatchincomingclosecall.md">
-   NdisMCmDispatchIncomingCloseCall</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561696">NdisCoCreateVc</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561698">NdisCoDeleteVc</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_cl_drop_party_complete.md">ProtocolClDropPartyComplete</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562577">NdisFreeMemory</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiscldropparty.md">NdisClDropParty</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiscodeletevc.md">NdisCoDeleteVc</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_co_delete_vc.md">ProtocolCoDeleteVc</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisfreememory.md">NdisFreeMemory</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisfreetonpagedlookasidelist.md">
+<a href="https://msdn.microsoft.com/2405a405-177a-420a-9628-a340e0d0acb3">
    NdisFreeToNPagedLookasideList</a>
 
 
 
+<a href="https://msdn.microsoft.com/843050e1-a1ec-4313-b527-529c4ff6ca07">
+   NdisMCmDispatchIncomingCloseCall</a>
+
+
+
+<a href="https://msdn.microsoft.com/c916f379-393c-41d7-ab30-2f3181c3ada6">ProtocolClDropPartyComplete</a>
+
+
+
+<a href="https://msdn.microsoft.com/d761270f-bf77-441e-834c-9ac7fb3d350f">ProtocolCoDeleteVc</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20PROTOCOL_CL_INCOMING_CLOSE_CALL callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

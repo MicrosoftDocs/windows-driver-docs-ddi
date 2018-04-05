@@ -38,7 +38,8 @@ api_location:
 -	ntdd8042.h
 api_name:
 -	INTERNAL_I8042_START_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: INTERNAL_I8042_START_INFORMATION, *PINTERNAL_I8042_START_INFORMATION
 ---
@@ -50,18 +51,6 @@ req.typenames: INTERNAL_I8042_START_INFORMATION, *PINTERNAL_I8042_START_INFORMAT
 
 
 INTERNAL_I8042_START_INFORMATION specifies the <a href="https://msdn.microsoft.com/5a140cc0-ecc5-46ff-be3f-3c92f0f67dca">interrupt object</a> that an optional, vendor-supplied, upper-level filter device driver can use to synchronize its operation with an I8042prt ISR. 
-
-
-## -syntax
-
-
-````
-typedef struct _INTERNAL_I8042_START_INFORMATION {
-  ULONG       Size;
-  PKINTERRUPT InterruptObject;
-  ULONG       Reserved[8];
-} INTERNAL_I8042_START_INFORMATION, *PINTERNAL_I8042_START_INFORMATION;
-````
 
 
 ## -struct-fields
@@ -88,24 +77,22 @@ Reserved for future use.
 
 
 
-This structure is used with <a href="..\ntdd8042\ni-ntdd8042-ioctl_internal_i8042_keyboard_start_information.md">IOCTL_INTERNAL_I8042_KEYBOARD_START_INFORMATION</a> and <a href="..\ntdd8042\ni-ntdd8042-ioctl_internal_i8042_mouse_start_information.md">IOCTL_INTERNAL_I8042_MOUSE_START_INFORMATION</a> requests.
+This structure is used with <a href="https://msdn.microsoft.com/library/windows/hardware/ff541257">IOCTL_INTERNAL_I8042_KEYBOARD_START_INFORMATION</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff541265">IOCTL_INTERNAL_I8042_MOUSE_START_INFORMATION</a> requests.
 
 
 
 
 ## -see-also
 
-<a href="..\ntdd8042\ni-ntdd8042-ioctl_internal_i8042_keyboard_start_information.md">IOCTL_INTERNAL_I8042_KEYBOARD_START_INFORMATION</a>
 
 
 
-<a href="..\ntdd8042\ni-ntdd8042-ioctl_internal_i8042_mouse_start_information.md">IOCTL_INTERNAL_I8042_MOUSE_START_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541257">IOCTL_INTERNAL_I8042_KEYBOARD_START_INFORMATION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541265">IOCTL_INTERNAL_I8042_MOUSE_START_INFORMATION</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [hid\hid]:%20INTERNAL_I8042_START_INFORMATION structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

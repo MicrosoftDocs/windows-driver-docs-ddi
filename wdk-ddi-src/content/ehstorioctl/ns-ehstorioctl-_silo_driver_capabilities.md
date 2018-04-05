@@ -7,7 +7,7 @@ old-location: storage\silo_driver_capabilities.htm
 old-project: storage
 ms.assetid: E2CD35A6-0FF2-4ABA-850E-12683C5F0D8D
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSILO_DRIVER_CAPABILITIES, CAP_BANDING_SUPPORT, CAP_ON_DEMAND_AUTHENTICATION, PSILO_DRIVER_CAPABILITIES, PSILO_DRIVER_CAPABILITIES structure pointer [Storage Devices], SILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES structure [Storage Devices], _SILO_DRIVER_CAPABILITIES, ehstorioctl/PSILO_DRIVER_CAPABILITIES, ehstorioctl/SILO_DRIVER_CAPABILITIES, storage.silo_driver_capabilities"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	EhStorIoctl.h
 api_name:
 -	SILO_DRIVER_CAPABILITIES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 ---
@@ -49,21 +50,7 @@ req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 ## -description
 
 
-This structure is used to specify the capabilities and support for IOCTL redirection of a storage silo driver. <b>SILO_DRIVER_CAPABILITIES</b> is included in the system buffer of an <a href="..\ehstorioctl\ni-ehstorioctl-ioctl_ehstor_driver_report_capabilities.md">IOCTL_EHSTOR_DRIVER_REPORT_CAPABILITIES</a> request.
-
-
-## -syntax
-
-
-````
-typedef struct _SILO_DRIVER_CAPABILITIES {
-  ULONG StructSize;
-  ULONG Capabilities;
-  ULONG MaxLbaFilterCount;
-  ULONG RedirectedIoctlListCount;
-  ULONG RedirectedIoctlListOffset;
-} SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES;
-````
+This structure is used to specify the capabilities and support for IOCTL redirection of a storage silo driver. <b>SILO_DRIVER_CAPABILITIES</b> is included in the system buffer of an <a href="https://msdn.microsoft.com/library/windows/hardware/hh451445">IOCTL_EHSTOR_DRIVER_REPORT_CAPABILITIES</a> request.
 
 
 ## -struct-fields
@@ -111,7 +98,7 @@ The silo driver supports banding of LBA ranges.
 
 ### -field MaxLbaFilterCount
 
-Maximum number of LBA filter entries the silo driver can provide in a <a href="..\ehstorioctl\ni-ehstorioctl-ioctl_ehstor_driver_update_lba_filter_table.md">IOCTL_EHSTOR_DRIVER_UPDATE_LBA_FILTER_TABLE</a> request.
+Maximum number of LBA filter entries the silo driver can provide in a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406723">IOCTL_EHSTOR_DRIVER_UPDATE_LBA_FILTER_TABLE</a> request.
 
 
 ### -field RedirectedIoctlListCount
@@ -128,7 +115,7 @@ The offset of the redirected IOCTL list from the beginning of this structure. Th
 
 
 
-To support receiving <a href="..\ehstorioctl\ni-ehstorioctl-ioctl_ehstor_driver_perform_authz.md">IOCTL_EHSTOR_DRIVER_PERFORM_AUTHZ</a> from the enhanced storage class driver, a silo driver must set <b>CAP_ON_DEMAND_AUTHENTICATION</b> in <b>Capabilities</b>. Also, to support sending <a href="..\ehstorioctl\ni-ehstorioctl-ioctl_ehstor_driver_update_lba_filter_table.md">IOCTL_EHSTOR_DRIVER_UPDATE_LBA_FILTER_TABLE</a>, a silo driver must set <b>CAP_BANDING_SUPPORT</b> in <b>Capabilities</b>.
+To support receiving <a href="https://msdn.microsoft.com/library/windows/hardware/hh451439">IOCTL_EHSTOR_DRIVER_PERFORM_AUTHZ</a> from the enhanced storage class driver, a silo driver must set <b>CAP_ON_DEMAND_AUTHENTICATION</b> in <b>Capabilities</b>. Also, to support sending <a href="https://msdn.microsoft.com/library/windows/hardware/hh406723">IOCTL_EHSTOR_DRIVER_UPDATE_LBA_FILTER_TABLE</a>, a silo driver must set <b>CAP_BANDING_SUPPORT</b> in <b>Capabilities</b>.
 
 To receive band management requests from the enhanced storage class driver, a silo driver must register a list of IOCTL codes it wants to receive. The redirected IOCTL list is an array of <b>ULONG</b> IOCTL codes with a length of <b>RedirectedIoctlListCount</b>. This list is included with the <b>SILO_DRIVER_CAPABILITIES</b> structure in the system buffer. The list is located in the system buffer following  <b>SILO_DRIVER_CAPABILITIES</b> at the offset indicated by <b>RedirectedIoctlListOffset</b>.
 
@@ -137,21 +124,19 @@ To receive band management requests from the enhanced storage class driver, a si
 
 ## -see-also
 
-<a href="..\ehstorioctl\ni-ehstorioctl-ioctl_ehstor_driver_update_lba_filter_table.md">IOCTL_EHSTOR_DRIVER_UPDATE_LBA_FILTER_TABLE</a>
 
 
 
-<a href="..\ehstorioctl\ni-ehstorioctl-ioctl_ehstor_driver_report_capabilities.md">IOCTL_EHSTOR_DRIVER_REPORT_CAPABILITIES</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451439">IOCTL_EHSTOR_DRIVER_PERFORM_AUTHZ</a>
 
 
 
-<a href="..\ehstorioctl\ni-ehstorioctl-ioctl_ehstor_driver_perform_authz.md">IOCTL_EHSTOR_DRIVER_PERFORM_AUTHZ</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451445">IOCTL_EHSTOR_DRIVER_REPORT_CAPABILITIES</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406723">IOCTL_EHSTOR_DRIVER_UPDATE_LBA_FILTER_TABLE</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20SILO_DRIVER_CAPABILITIES structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

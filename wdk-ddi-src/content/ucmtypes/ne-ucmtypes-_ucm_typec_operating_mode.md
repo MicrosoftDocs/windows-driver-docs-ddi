@@ -7,7 +7,7 @@ old-location: buses\ucm_type_c_operating_mode.htm
 old-project: usbref
 ms.assetid: B64849A6-DDB1-4BD1-B4B6-1E38DE9237E5
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: UCM_TYPEC_OPERATING_MODE, UCM_TYPEC_OPERATING_MODE enumeration [Buses], UcmTypeCOperatingModeDfp, UcmTypeCOperatingModeDrp, UcmTypeCOperatingModeInvalid, UcmTypeCOperatingModeUfp, _UCM_TYPEC_OPERATING_MODE, buses.ucm_type_c_operating_mode, ucmtypes/UCM_TYPEC_OPERATING_MODE, ucmtypes/UcmTypeCOperatingModeDfp, ucmtypes/UcmTypeCOperatingModeDrp, ucmtypes/UcmTypeCOperatingModeInvalid, ucmtypes/UcmTypeCOperatingModeUfp
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ucmtypes.h
 api_name:
 -	UCM_TYPEC_OPERATING_MODE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UCM_TYPEC_OPERATING_MODE
 req.product: Windows 10 or later.
@@ -51,19 +52,6 @@ req.product: Windows 10 or later.
 
 
 Defines operating modes of a USB Type-C connector.
-
-
-## -syntax
-
-
-````
-typedef enum _UCM_TYPEC_OPERATING_MODE { 
-  UcmTypeCOperatingModeInvalid  = 0x0,
-  UcmTypeCOperatingModeDfp      = 0x1,
-  UcmTypeCOperatingModeUfp      = 0x2,
-  UcmTypeCOperatingModeDrp      = 0x4
-} UCM_TYPEC_OPERATING_MODE;
-````
 
 
 ## -enum-fields
@@ -93,13 +81,11 @@ Indicates the operating mode is set to dual-role port.
 
 ## -see-also
 
-<a href="..\ucmmanager\nf-ucmmanager-ucm_connector_typec_config_init.md">UCM_CONNECTOR_TYPEC_CONFIG_INIT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt187931">UCM_CONNECTOR_TYPEC_CONFIG_INIT</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20UCM_TYPEC_OPERATING_MODE enumeration%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

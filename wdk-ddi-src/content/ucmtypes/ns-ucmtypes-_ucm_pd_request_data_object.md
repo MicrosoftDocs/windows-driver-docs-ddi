@@ -7,7 +7,7 @@ old-location: buses\ucm_pd_request_data_object.htm
 old-project: usbref
 ms.assetid: 2F5CC46B-3BFC-4C69-A9C8-C4BC4864E84B
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PUCM_PD_REQUEST_DATA_OBJECT, PUCM_PD_REQUEST_DATA_OBJECT, PUCM_PD_REQUEST_DATA_OBJECT union pointer [Buses], UCM_PD_REQUEST_DATA_OBJECT, UCM_PD_REQUEST_DATA_OBJECT union [Buses], _UCM_PD_REQUEST_DATA_OBJECT, buses.ucm_pd_request_data_object, ucmtypes/PUCM_PD_REQUEST_DATA_OBJECT, ucmtypes/UCM_PD_REQUEST_DATA_OBJECT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ucmtypes.h
 api_name:
 -	UCM_PD_REQUEST_DATA_OBJECT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UCM_PD_REQUEST_DATA_OBJECT, *PUCM_PD_REQUEST_DATA_OBJECT
 req.product: Windows 10 or later.
@@ -51,43 +52,6 @@ req.product: Windows 10 or later.
 
 
 Describes a Request Data Object (RDO). For information about these members, see the <a href="http://www.usb.org/developers/docs/usb20_docs/">Power Delivery specification</a>.
-
-
-## -syntax
-
-
-````
-typedef union _UCM_PD_REQUEST_DATA_OBJECT {
-  Ulong  Ul;
-  struct {
-    unsigned Reserved1  :28;
-    unsigned ObjectPosition  :3;
-    unsigned Reserved2  :1;
-  } Common;
-  struct {
-    unsigned MaximumOperatingCurrentIn10mA  :10;
-    unsigned OperatingCurrentIn10mA  :10;
-    unsigned Reserved1  :4;
-    unsigned NoUsbSuspend  :1;
-    unsigned UsbCommunicationCapable  :1;
-    unsigned CapabilityMismatch  :1;
-    unsigned GiveBackFlag  :1;
-    unsigned ObjectPosition  :3;
-    unsigned Reserved2  :1;
-  } FixedAndVariableRdo;
-  struct {
-    unsigned MaximumOperatingPowerIn250mW  :10;
-    unsigned OperatingPowerIn250mW  :10;
-    unsigned Reserved1  :4;
-    unsigned NoUsbSuspend  :1;
-    unsigned UsbCommunicationCapable  :1;
-    unsigned CapabilityMismatch  :1;
-    unsigned GiveBackFlag  :1;
-    unsigned ObjectPosition  :3;
-    unsigned Reserved2  :1;
-  } BatteryRdo;
-} UCM_PD_REQUEST_DATA_OBJECT, *PUCM_PD_REQUEST_DATA_OBJECT;
-````
 
 
 ## -struct-fields

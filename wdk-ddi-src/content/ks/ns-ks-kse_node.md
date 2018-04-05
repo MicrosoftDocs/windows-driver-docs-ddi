@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSE_NODE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSE_NODE, *PKSE_NODE
 ---
@@ -50,18 +51,6 @@ req.typenames: KSE_NODE, *PKSE_NODE
 
 
 The KSE_NODE structure specifies an event request on a specific node.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  KSEVENT Event;
-  ULONG   NodeId;
-  ULONG   Reserved;
-} KSE_NODE, *PKSE_NODE;
-````
 
 
 ## -struct-fields
@@ -86,13 +75,11 @@ Reserved for system use. Should be set to zero.
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksp_node.md">KSP_NODE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566720">KSP_NODE</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSE_NODE structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

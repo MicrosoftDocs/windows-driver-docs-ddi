@@ -7,13 +7,13 @@ old-location: netvista\rilsmssupportcaps.htm
 old-project: netvista
 ms.assetid: 723c6bf7-beb9-4ab8-8b84-ac22388022b9
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: RILSMSSUPPORTCAPS, RILSMSSUPPORTCAPS enumeration [Network Drivers Starting with Windows Vista], RIL_CAPS_SMSSUPPORT_16BITREFERENCENUMBER, RIL_CAPS_SMSSUPPORT_ALL, netvista.rilsmssupportcaps, ntddrilapitypes/RILSMSSUPPORTCAPS, ntddrilapitypes/RIL_CAPS_SMSSUPPORT_16BITREFERENCENUMBER, ntddrilapitypes/RIL_CAPS_SMSSUPPORT_ALL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: ntddrilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILSMSSUPPORTCAPS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILSMSSUPPORTCAPS
 ---
@@ -50,17 +51,6 @@ req.typenames: RILSMSSUPPORTCAPS
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef enum _RILSMSSUPPORTCAPS { 
-  RIL_CAPS_SMSSUPPORT_16BITREFERENCENUMBER,
-  RIL_CAPS_SMSSUPPORT_ALL
-} RILSMSSUPPORTCAPS;
-````
 
 
 ## -enum-fields

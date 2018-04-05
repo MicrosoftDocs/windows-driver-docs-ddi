@@ -7,7 +7,7 @@ old-location: debugger\findsourcefileandtokenwide.htm
 old-project: debugger
 ms.assetid: f406e755-dc46-4228-b70f-3520d3cb46a3
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/26/2018
 ms.keywords: FindSourceFileAndTokenWide method [Windows Debugging], FindSourceFileAndTokenWide method [Windows Debugging], IDebugAdvanced3 interface, FindSourceFileAndTokenWide,IDebugAdvanced3.FindSourceFileAndTokenWide, IDebugAdvanced3, IDebugAdvanced3 interface [Windows Debugging], FindSourceFileAndTokenWide method, IDebugAdvanced3::FindSourceFileAndTokenWide, dbgeng/IDebugAdvanced3::FindSourceFileAndTokenWide, debugger.findsourcefileandtokenwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugAdvanced3.FindSourceFileAndTokenWide
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -50,25 +51,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The  <b>FindSourceFileAndTokenWide</b> method returns the filename of a source file on the source path or return the value of a variable associated with a file token.
-
-
-## -syntax
-
-
-````
-HRESULT FindSourceFileAndTokenWide(
-  [in]            ULONG   StartElement,
-  [in]            ULONG64 ModAddr,
-  [in]            PCWSTR  File,
-  [in]            ULONG   Flags,
-  [in, optional]  PVOID   FileToken,
-  [in]            ULONG   FileTokenSize,
-  [out, optional] PULONG  FoundElement,
-  [out, optional] PWSTR   Buffer,
-  [in]            ULONG   BufferSize,
-  [out, optional] PULONG  FoundSize
-);
-````
 
 
 ## -parameters
@@ -218,6 +200,9 @@ For more information about source files, see <a href="https://msdn.microsoft.com
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff541495">DEBUG_FIND_SOURCE_XXX</a>
 
 
@@ -226,7 +211,7 @@ For more information about source files, see <a href="https://msdn.microsoft.com
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugadvanced3.md">IDebugAdvanced3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548321">GetSourceFileInformation</a>
 
 
 
@@ -234,13 +219,8 @@ For more information about source files, see <a href="https://msdn.microsoft.com
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548321">GetSourceFileInformation</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549807">IDebugAdvanced3</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugAdvanced3::FindSourceFileAndTokenWide method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

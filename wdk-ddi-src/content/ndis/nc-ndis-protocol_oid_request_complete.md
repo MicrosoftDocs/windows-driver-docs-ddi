@@ -7,7 +7,7 @@ old-location: netvista\protocoloidrequestcomplete.htm
 old-project: netvista
 ms.assetid: 2706577e-ba03-4347-9672-7303752ec0fe
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: PROTOCOL_OID_REQUEST_COMPLETE, ProtocolOidRequestComplete, ProtocolOidRequestComplete callback function [Network Drivers Starting with Windows Vista], ndis/ProtocolOidRequestComplete, ndis_request_ref_0460f62c-1ffe-4c81-ade3-56b5061eccb6.xml, netvista.protocoloidrequestcomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ndis.h
 api_name:
 -	ProtocolOidRequestComplete
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
 ---
@@ -52,25 +53,10 @@ req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
 The 
   <i>ProtocolOidRequestComplete</i> function completes the processing of a protocol
   driver-initiated OID request for which the 
-  <a href="..\ndis\nf-ndis-ndisoidrequest.md">NdisOidRequest</a> function returned
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff563710">NdisOidRequest</a> function returned
   NDIS_STATUS_PENDING.
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>PROTOCOL_OID_REQUEST_COMPLETE</b> type. For more
    information, see the following Examples section.</div><div> </div>
-
-## -prototype
-
-
-````
-PROTOCOL_OID_REQUEST_COMPLETE ProtocolOidRequestComplete;
-
-VOID ProtocolOidRequestComplete(
-  _In_ NDIS_HANDLE       ProtocolBindingContext,
-  _In_ PNDIS_OID_REQUEST OidRequest,
-  _In_ NDIS_STATUS       Status
-)
-{ ... }
-````
-
 
 ## -parameters
 
@@ -81,13 +67,13 @@ VOID ProtocolOidRequestComplete(
 
 A handle to a protocol driver-allocated context area in which the protocol driver maintains
      per-binding run-time state. The driver supplied this handle when it called the 
-     <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a> function.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff563715">NdisOpenAdapterEx</a> function.
 
 
 ### -param OidRequest [in]
 
 A pointer to the protocol driver-supplied 
-     <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a> structure that was
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a> structure that was
      previously passed to the 
      <b>NdisOidRequest</b> function.
 
@@ -122,7 +108,7 @@ If
       <i>Status</i> is NDIS_STATUS_SUCCESS, the 
       <b>BytesRead</b> or 
       <b>BytesWritten</b> member of the 
-      <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a> structure has been set
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a> structure has been set
       by NDIS or the underlying driver to specify how much protocol driver-supplied information was
       transferred from the buffer at 
       <b>InformationBuffer</b> to the NIC in a set operation or how much information
@@ -156,11 +142,11 @@ In these circumstances,
       request, set up another NDIS_OID_REQUEST structure with the required 
       <b>InformationBufferLength</b> and same 
       <b>Oid</b>, and retry the call to the 
-      <a href="..\ndis\nf-ndis-ndisoidrequest.md">NdisOidRequest</a> function.
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff563710">NdisOidRequest</a> function.
 
 <i>ProtocolOidRequestComplete</i> can retry requests for certain other NDIS_STATUS_
       <i>XXX</i> arguments, as well, as described in the reference for the 
-      <a href="..\ndis\nf-ndis-ndisoidrequest.md">NdisOidRequest</a> function.
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff563710">NdisOidRequest</a> function.
 
 </li>
 <li>
@@ -174,7 +160,7 @@ If
 </li>
 </ul>
 For global queries and sets, the underlying connectionless miniport driver's call to the 
-    <a href="..\ndis\nf-ndis-ndismoidrequestcomplete.md">NdisMOidRequestComplete</a> function
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff563622">NdisMOidRequestComplete</a> function
     causes NDIS to call the 
     <i>ProtocolOidRequestComplete</i> function. NDIS forwards the miniport
     driver-determined 
@@ -244,29 +230,27 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisoidrequest.md">NdisOidRequest</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563622">NdisMOidRequestComplete</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563710">NdisOidRequest</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563715">NdisOpenAdapterEx</a>
 
 
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-maximum-send-packets">OID_GEN_MAXIMUM_SEND_PACKETS</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismoidrequestcomplete.md">NdisMOidRequestComplete</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20PROTOCOL_OID_REQUEST_COMPLETE callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

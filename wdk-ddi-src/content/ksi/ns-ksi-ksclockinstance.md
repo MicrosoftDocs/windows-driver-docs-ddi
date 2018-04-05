@@ -38,7 +38,8 @@ api_location:
 -	Ksi.h
 api_name:
 -	KSCLOCKINSTANCE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSCLOCKINSTANCE, *PKSCLOCKINSTANCE
 ---
@@ -50,18 +51,6 @@ req.typenames: KSCLOCKINSTANCE, *PKSCLOCKINSTANCE
 
 
 
-
-
-## -syntax
-
-
-````
-typedef struct {
-  KSOBJECT_HEADER  Header;
-  PKISDEFAULTCLOCK DefaultClock;
-  ULONG            Reserved;
-} KSCLOCKINSTANCE, *PKSCLOCKINSTANCE;
-````
 
 
 ## -struct-fields

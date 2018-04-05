@@ -7,7 +7,7 @@ old-location: ifsk\exdisableresourceboostlite.htm
 old-project: ifsk
 ms.assetid: 0ab2d417-56d8-4047-846d-6ae4cbaa8409
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: ExDisableResourceBoostLite, ExDisableResourceBoostLite function [Installable File System Drivers], exref_7c451751-995b-4d3c-9445-25b337624ef7.xml, ifsk.exdisableresourceboostlite, ntifs/ExDisableResourceBoostLite
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	ntifs.h
 api_name:
 -	ExDisableResourceBoostLite
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -50,16 +51,6 @@ req.typenames: TOKEN_TYPE
 
 
 This routine is reserved for system use. Do not use this routine in your driver. 
-
-
-## -syntax
-
-
-````
-  ExDisableResourceBoostLite(
-    
-);
-````
 
 
 ## -parameters

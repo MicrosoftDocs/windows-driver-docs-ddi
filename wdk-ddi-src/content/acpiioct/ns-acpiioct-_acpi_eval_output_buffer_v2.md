@@ -38,7 +38,8 @@ api_location:
 -	Acpiioct.h
 api_name:
 -	ACPI_EVAL_OUTPUT_BUFFER_V2
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: ACPI_EVAL_OUTPUT_BUFFER_V2
 ---
@@ -50,19 +51,6 @@ req.typenames: ACPI_EVAL_OUTPUT_BUFFER_V2
 
 
 This topic describes the  <b>ACPI_EVAL_OUTPUT_BUFFER_V2</b> structure.
-
-
-## -syntax
-
-
-````
-typedef struct _ACPI_EVAL_OUTPUT_BUFFER_V2 {
-  ULONG                                                                                                           Signature;
-  ULONG                                                                                                           Length;
-  ULONG                                                                                                           Count;
-  _Field_size_bytes_(Length - FIELD_OFFSET(struct _ACPI_EVAL_OUTPUT_BUFFER_V2, Argument)) ACPI_METHOD_ARGUMENT_V2 Argument[ANYSIZE_ARRAY];
-} ACPI_EVAL_OUTPUT_BUFFER_V2;
-````
 
 
 ## -struct-fields

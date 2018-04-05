@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KS_VBIINFOHEADER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KS_VBIINFOHEADER, *PKS_VBIINFOHEADER
 ---
@@ -50,26 +51,6 @@ req.typenames: KS_VBIINFOHEADER, *PKS_VBIINFOHEADER
 
 
 The KS_VBIINFOHEADER structure describes raw vertical blanking interval (VBI) streams.
-
-
-## -syntax
-
-
-````
-typedef struct tagKS_VBIINFOHEADER {
-  ULONG StartLine;
-  ULONG EndLine;
-  ULONG SamplingFrequency;
-  ULONG MinLineStartTime;
-  ULONG MaxLineStartTime;
-  ULONG ActualLineStartTime;
-  ULONG ActualLineEndTime;
-  ULONG VideoStandard;
-  ULONG SamplesPerLine;
-  ULONG StrideInBytes;
-  ULONG BufferSize;
-} KS_VBIINFOHEADER, *PKS_VBIINFOHEADER;
-````
 
 
 ## -struct-fields
@@ -114,7 +95,7 @@ Specifies the actual ending point for VBI digitization from the leading edge of 
 
 ### -field VideoStandard
 
-Specifies one or more (logically ORed) values from the <a href="..\ksmedia\ne-ksmedia-ks_analogvideostandard.md">KS_AnalogVideoStandard</a> enumeration.
+Specifies one or more (logically ORed) values from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567297">KS_AnalogVideoStandard</a> enumeration.
 
 
 ### -field SamplesPerLine
@@ -143,13 +124,11 @@ VBI streams are usually converted to NABTS, CC, and WST streams by downstream fi
 
 ## -see-also
 
-<a href="..\ksmedia\ne-ksmedia-ks_analogvideostandard.md">KS_AnalogVideoStandard</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567297">KS_AnalogVideoStandard</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KS_VBIINFOHEADER structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

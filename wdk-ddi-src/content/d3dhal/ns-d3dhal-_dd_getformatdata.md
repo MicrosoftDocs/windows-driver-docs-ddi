@@ -7,7 +7,7 @@ old-location: display\dd_getformatdata.htm
 old-project: display
 ms.assetid: 881a52d1-8e37-4474-a943-086ef5ceca80
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: DD_GETFORMATDATA, DD_GETFORMATDATA structure [Display Devices], _DD_GETFORMATDATA, d3dhal/DD_GETFORMATDATA, d3dstrct_cfa9e4e0-86d8-4b38-9c50-8661012c34e8.xml, display.dd_getformatdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dhal.h
 api_name:
 -	DD_GETFORMATDATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DD_GETFORMATDATA
 ---
@@ -54,18 +55,6 @@ req.typenames: DD_GETFORMATDATA
 DD_GETFORMATDATA is the data structure pointed to by the <b>lpvData</b> field of <a href="https://msdn.microsoft.com/library/windows/hardware/ff551550">DD_GETDRIVERINFODATA</a> for DD_GETDRIVERINFO2DATA queries with the type D3DGDI2_TYPE_GETFORMAT.
 
 
-## -syntax
-
-
-````
-typedef struct _DD_GETFORMATDATA {
-  DD_GETDRIVERINFO2DATA gdi2;
-  DWORD                 dwFormatIndex;
-  DDPIXELFORMAT         format;
-} DD_GETFORMATDATA;
-````
-
-
 ## -struct-fields
 
 
@@ -73,7 +62,7 @@ typedef struct _DD_GETFORMATDATA {
 
 ### -field gdi2
 
-Specifies a <a href="..\d3dhal\ns-d3dhal-_dd_getdriverinfo2data.md">DD_GETDRIVERINFO2DATA</a> structure that contains the <b>GetDriverInfo2</b> data.
+Specifies a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551548">DD_GETDRIVERINFO2DATA</a> structure that contains the <b>GetDriverInfo2</b> data.
 
 
 ### -field dwFormatIndex
@@ -83,7 +72,7 @@ Specifies the index of the pixel format to return.
 
 ### -field format
 
-Receives the actual pixel format in a <a href="..\ksmedia\ns-ksmedia-_ddpixelformat.md">DDPIXELFORMAT</a> structure.
+Receives the actual pixel format in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff550274">DDPIXELFORMAT</a> structure.
 
 
 ## -remarks
@@ -101,21 +90,19 @@ When processing this <b>GetDriverInfo2</b> request the driver should read the <b
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-_ddpixelformat.md">DDPIXELFORMAT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550274">DDPIXELFORMAT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551548">DD_GETDRIVERINFO2DATA</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551550">DD_GETDRIVERINFODATA</a>
-
-
-
-<a href="..\d3dhal\ns-d3dhal-_dd_getdriverinfo2data.md">DD_GETDRIVERINFO2DATA</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DD_GETFORMATDATA structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

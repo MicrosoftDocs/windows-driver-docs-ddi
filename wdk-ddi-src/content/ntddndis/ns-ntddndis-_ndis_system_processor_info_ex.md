@@ -7,7 +7,7 @@ old-location: netvista\ndis_system_processor_info_ex.htm
 old-project: netvista
 ms.assetid: ba3c6641-98bc-4c44-9889-7583c4cf61f0
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: "*PNDIS_SYSTEM_PROCESSOR_INFO_EX, NDIS_SYSTEM_PROCESSOR_INFO_EX, NDIS_SYSTEM_PROCESSOR_INFO_EX structure [Network Drivers Starting with Windows Vista], PNDIS_SYSTEM_PROCESSOR_INFO_EX, PNDIS_SYSTEM_PROCESSOR_INFO_EX structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SYSTEM_PROCESSOR_INFO_EX, ndis_processor_group_ref_754737d7-8279-4786-b89d-4326da949464.xml, netvista.ndis_system_processor_info_ex, ntddndis/NDIS_SYSTEM_PROCESSOR_INFO_EX, ntddndis/PNDIS_SYSTEM_PROCESSOR_INFO_EX"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddndis.h
 api_name:
 -	NDIS_SYSTEM_PROCESSOR_INFO_EX
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_SYSTEM_PROCESSOR_INFO_EX, *PNDIS_SYSTEM_PROCESSOR_INFO_EX
 ---
@@ -53,25 +54,6 @@ The <b>NDIS_SYSTEM_PROCESSOR_INFO_EX</b> structure specifies information about t
   computer.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_SYSTEM_PROCESSOR_INFO_EX {
-  NDIS_OBJECT_HEADER    Header;
-  ULONG                 Flags;
-  NDIS_PROCESSOR_VENDOR ProcessorVendor;
-  ULONG                 NumSockets;
-  ULONG                 NumCores;
-  ULONG                 NumCoresPerSocket;
-  ULONG                 MaxHyperThreadingProcsPerCore;
-  ULONG                 ProcessorInfoOffset;
-  ULONG                 NumberOfProcessors;
-  ULONG                 ProcessorInfoEntrySize;
-} NDIS_SYSTEM_PROCESSOR_INFO_EX, *PNDIS_SYSTEM_PROCESSOR_INFO_EX;
-````
-
-
 ## -struct-fields
 
 
@@ -80,7 +62,7 @@ typedef struct _NDIS_SYSTEM_PROCESSOR_INFO_EX {
 ### -field Header
 
 The 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure for the
      NDIS_SYSTEM_PROCESSOR_INFO_EX structure. NDIS sets the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to NDIS_OBJECT_TYPE_DEFAULT, the 
@@ -96,7 +78,7 @@ Reserved. NDIS sets this member to zero.
 ### -field ProcessorVendor
 
 The processor vendor specified as one of the values from the 
-     <a href="..\ntddndis\ne-ntddndis-_ndis_processor_vendor.md">
+     <a href="https://msdn.microsoft.com/c2d1b967-32fb-437a-a0bd-e0028acee022">
      NDIS_PROCESSOR_VENDOR</a> enumeration.
 
 
@@ -128,7 +110,7 @@ The maximum number of logical processors that are in each hyper-threaded core pr
 ### -field ProcessorInfoOffset
 
 The offset, in bytes, from the start of the structure to an array of 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_processor_info_ex.md">NDIS_PROCESSOR_INFO_EX</a> structures,
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566811">NDIS_PROCESSOR_INFO_EX</a> structures,
      with each entry describing a processor on the computer. The 
      <b>NumberOfProcessors</b> member contains the number of NDIS_PROCESSOR_INFO_EX structures in the array.
      The 
@@ -153,7 +135,7 @@ The size, in bytes, of elements in the array of NDIS_PROCESSOR_INFO_EX structure
 
 
 NDIS network drivers use the NDIS_SYSTEM_PROCESSOR_INFO_EX structure in calls to the 
-    <a href="..\ndis\nf-ndis-ndisgetprocessorinformationex.md">
+    <a href="https://msdn.microsoft.com/9af21f56-d93d-4130-888c-c7009dc2854d">
     NdisGetProcessorInformationEx</a> function. After 
     <b>NdisGetProcessorInformationEx</b> returns, this structure contains information about the CPU topology
     of the system.
@@ -163,30 +145,28 @@ NDIS network drivers use the NDIS_SYSTEM_PROCESSOR_INFO_EX structure in calls to
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_system_processor_info.md">NDIS_SYSTEM_PROCESSOR_INFO</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_processor_info_ex.md">NDIS_PROCESSOR_INFO_EX</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="..\ntddndis\ne-ntddndis-_ndis_processor_vendor.md">NDIS_PROCESSOR_VENDOR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566811">NDIS_PROCESSOR_INFO_EX</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisgetprocessorinformationex.md">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566813">NDIS_PROCESSOR_VENDOR</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567871">NDIS_SYSTEM_PROCESSOR_INFO</a>
+
+
+
+<a href="https://msdn.microsoft.com/9af21f56-d93d-4130-888c-c7009dc2854d">
    NdisGetProcessorInformationEx</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_SYSTEM_PROCESSOR_INFO_EX structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

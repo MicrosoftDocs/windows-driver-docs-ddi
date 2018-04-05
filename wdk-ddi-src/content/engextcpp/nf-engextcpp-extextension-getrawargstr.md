@@ -7,8 +7,8 @@ old-location: debugger\getrawargstr.htm
 old-project: debugger
 ms.assetid: 677b56ee-3758-4f47-9f8e-fc8878d00136
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: EngExtCpp_Ref_1072b281-ece3-4641-93e8-60866c1e3ef4.xml, ExtExtension class [Windows Debugging], GetRawArgStr method, debugger.getrawargstr, ExtExtension, GetRawArgStr method [Windows Debugging], ExtExtension::GetRawArgStr, GetRawArgStr, GetRawArgStr method [Windows Debugging], ExtExtension class
+ms.date: 3/26/2018
+ms.keywords: EngExtCpp_Ref_1072b281-ece3-4641-93e8-60866c1e3ef4.xml, ExtExtension, ExtExtension class [Windows Debugging], GetRawArgStr method, ExtExtension::GetRawArgStr, GetRawArgStr method [Windows Debugging], GetRawArgStr method [Windows Debugging], ExtExtension class, GetRawArgStr,ExtExtension.GetRawArgStr, debugger.getrawargstr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -26,19 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: engextcpp.hpp
+req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	engextcpp.hpp
-apiname:
+api_name:
 -	ExtExtension.GetRawArgStr
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 ---
@@ -52,15 +53,8 @@ req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 The <b>GetRawArgStr</b> method returns a string that represents the arguments passed to the extension command.
 
 
-## -syntax
-
-
-````
-PCSTR GetRawArgStr();
-````
-
-
 ## -parameters
+
 
 
 
@@ -69,11 +63,14 @@ PCSTR GetRawArgStr();
 ## -returns
 
 
+
 <b>GetRawArgStr</b> returns a string that represents the arguments passed to the extension command.  In particular, if the extension command was called from a command line, this string contains the portion of the command line that follows the extension command.  The return value can be <b>NULL</b> or empty.
 
 
 
+
 ## -remarks
+
 
 
 For an overview of argument parsing in the EngExtCpp extensions framework, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff553340">Parsing Extension Arguments</a>.
@@ -81,5 +78,6 @@ For an overview of argument parsing in the EngExtCpp extensions framework, see <
 The string returned by this method is only meaningful during the execution of the current extension command.
 
 This method should only be called during the execution of an extension command provided by this class.
+
 
 

@@ -7,7 +7,7 @@ old-location: print\ipartbase_setpartcompression.htm
 old-project: print
 ms.assetid: 4e407266-4789-4de7-bcc8-7e9bb54804ed
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: IPartBase, IPartBase interface [Print Devices], SetPartCompression method, IPartBase::SetPartCompression, SetPartCompression method [Print Devices], SetPartCompression method [Print Devices], IPartBase interface, SetPartCompression,IPartBase.SetPartCompression, filterpipeline/IPartBase::SetPartCompression, filterpipeline_5b8af27e-6198-49df-9e01-423c7ea67228.xml, print.ipartbase_setpartcompression
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: filterpipeline.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	filterpipeline.h
 api_name:
 -	IPartBase.SetPartCompression
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
@@ -52,16 +53,6 @@ req.typenames: EXpsFontRestriction
 The <b>SetPartCompression</b> method sets the compression of the part.
 
 
-## -syntax
-
-
-````
-HRESULT SetPartCompression(
-  [in] EXpsCompressionOptions compression
-);
-````
-
-
 ## -parameters
 
 
@@ -69,7 +60,7 @@ HRESULT SetPartCompression(
 
 ### -param compression [in]
 
-A <a href="..\filterpipeline\ne-filterpipeline-__midl___midl_itf_filterpipeline_0000_0000_0001.md">ExpsCompressionOptions</a>-typed value that describes the compression option for the part.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff548772">ExpsCompressionOptions</a>-typed value that describes the compression option for the part.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: audio\pcunregisteriotimeout.htm
 old-project: audio
 ms.assetid: 4266c775-a2e9-46f0-91ad-6f6cce06bea0
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 3/19/2018
 ms.keywords: PcUnregisterIoTimeout, PcUnregisterIoTimeout function [Audio Devices], audio.pcunregisteriotimeout, audpc-routines_cb67c1bb-c5ad-4118-bdff-906735214653.xml, portcls/PcUnregisterIoTimeout
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Portcls.dll
 api_name:
 -	PcUnregisterIoTimeout
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
@@ -53,18 +54,6 @@ req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 The <b>PcUnregisterIoTimeout</b> function unregisters a driver-supplied I/O-timer callback routine for a specified device object.
 <div class="alert"><b>Note</b>  This function is deprecated for Windows 8 and later versions of Windows.  For Windows on Arm systems, this function is commented out in the PortCls class driver and is inaccessible.</div><div> </div>
 
-## -syntax
-
-
-````
-NTSTATUS PcUnregisterIoTimeout(
-  _In_ PDEVICE_OBJECT    pDeviceObject,
-  _In_ PIO_TIMER_ROUTINE pTimerRoutine,
-  _In_ PVOID             pContext
-);
-````
-
-
 ## -parameters
 
 
@@ -72,18 +61,18 @@ NTSTATUS PcUnregisterIoTimeout(
 
 ### -param pDeviceObject [in]
 
-Pointer to the same device object that the driver supplied when it previously called <a href="..\portcls\nf-portcls-pcregisteriotimeout.md">PcRegisterIoTimeout</a>. The device object is a system structure of type <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>.
+Pointer to the same device object that the driver supplied when it previously called <a href="https://msdn.microsoft.com/library/windows/hardware/ff537725">PcRegisterIoTimeout</a>. The device object is a system structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>.
 
 
 ### -param pTimerRoutine [in]
 
-Pointer to the same I/O-timer callback routine that the driver supplied when it previously called <a href="..\portcls\nf-portcls-pcregisteriotimeout.md">PcRegisterIoTimeout</a>
+Pointer to the same I/O-timer callback routine that the driver supplied when it previously called <a href="https://msdn.microsoft.com/library/windows/hardware/ff537725">PcRegisterIoTimeout</a>
 
 
 
 ### -param pContext [in]
 
-Pointer to the same driver-determined context that the driver supplied when it previously called <a href="..\portcls\nf-portcls-pcregisteriotimeout.md">PcRegisterIoTimeout</a>
+Pointer to the same driver-determined context that the driver supplied when it previously called <a href="https://msdn.microsoft.com/library/windows/hardware/ff537725">PcRegisterIoTimeout</a>
 
 
 
@@ -119,24 +108,22 @@ Indicates that no timer callback with the same device object, callback routine, 
 
 
 
-This call succeeds only if a time-out callback with the same device object, timer routine, and context was previously registered with a call to the <a href="..\portcls\nf-portcls-pcregisteriotimeout.md">PcRegisterIoTimeout</a> function.
+This call succeeds only if a time-out callback with the same device object, timer routine, and context was previously registered with a call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537725">PcRegisterIoTimeout</a> function.
 
 
 
 
 ## -see-also
 
-<a href="..\portcls\nf-portcls-pcregisteriotimeout.md">PcRegisterIoTimeout</a>
 
 
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537725">PcRegisterIoTimeout</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20PcUnregisterIoTimeout function%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

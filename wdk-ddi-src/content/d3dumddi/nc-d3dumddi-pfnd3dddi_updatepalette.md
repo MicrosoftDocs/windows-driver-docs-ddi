@@ -7,7 +7,7 @@ old-location: display\updatepalette.htm
 old-project: display
 ms.assetid: 7c22e0c9-cc24-4398-88b7-c91855cbc731
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3DDDI_UPDATEPALETTE, UpdatePalette, UpdatePalette callback function [Display Devices], UserModeDisplayDriver_Functions_d3b21e65-68dc-44d9-b5b3-96f37588965e.xml, d3dumddi/UpdatePalette, display.updatepalette
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	UpdatePalette
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_PTE
 ---
@@ -50,21 +51,6 @@ req.typenames: DXGK_PTE
 
 
 The <i>UpdatePalette</i> function updates a texture palette.
-
-
-## -prototype
-
-
-````
-PFND3DDDI_UPDATEPALETTE UpdatePalette;
-
-__checkReturn HRESULT APIENTRY UpdatePalette(
-  _In_       HANDLE                  hDevice,
-  _In_ const D3DDDIARG_UPDATEPALETTE *pData,
-  _In_ const PALETTEENTRY            *pPaletteData
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -88,7 +74,7 @@ __checkReturn HRESULT APIENTRY UpdatePalette(
 
 #### - pData [in]
 
- A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_updatepalette.md">D3DDDIARG_UPDATEPALETTE</a> structure that describes parameters for the palette-update operation.
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff544093">D3DDDIARG_UPDATEPALETTE</a> structure that describes parameters for the palette-update operation.
 
 
 #### - pPaletteData [in]
@@ -111,7 +97,7 @@ __checkReturn HRESULT APIENTRY UpdatePalette(
 
 The palette data in the array that is specified by <i>pPaletteData</i> consists of one UINT value for each palette entry (PALETTEENTRY structure). The palette entry is in ARGB format, with 8 bits for each of the four channels.
 
-The user-mode display driver uses the following members of the <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_updatepalette.md">D3DDDIARG_UPDATEPALETTE</a> structure that is pointed to by <i>pData</i> to update the texture palette: 
+The user-mode display driver uses the following members of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544093">D3DDDIARG_UPDATEPALETTE</a> structure that is pointed to by <i>pData</i> to update the texture palette: 
 
 <ul>
 <li>
@@ -132,17 +118,15 @@ The <b>NumEntries</b> member specifies the number of entries in the array at <i>
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_updatepalette.md">D3DDDIARG_UPDATEPALETTE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544093">D3DDDIARG_UPDATEPALETTE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544519">D3DDDI_DEVICEFUNCS</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3DDDI_UPDATEPALETTE callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

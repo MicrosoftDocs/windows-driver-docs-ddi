@@ -7,7 +7,7 @@ old-location: buses\_ucx_roothub_config.htm
 old-project: usbref
 ms.assetid: 27E54F0D-2163-4D7C-B204-336EE0227488
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PUCX_ROOTHUB_CONFIG, P_UCX_ROOTHUB_CONFIG, P_UCX_ROOTHUB_CONFIG structure pointer [Buses], UCX_ROOTHUB_CONFIG, UCX_ROOTHUB_CONFIG structure [Buses], _UCX_ROOTHUB_CONFIG, buses._ucx_roothub_config, ucxroothub/P_UCX_ROOTHUB_CONFIG, ucxroothub/_UCX_ROOTHUB_CONFIG"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ucxroothub.h
 api_name:
 -	UCX_ROOTHUB_CONFIG
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UCX_ROOTHUB_CONFIG, *PUCX_ROOTHUB_CONFIG
 req.product: Windows 10 or later.
@@ -51,30 +52,6 @@ req.product: Windows 10 or later.
 
 
 Contains pointers to event callback functions for creating the root hub by calling <a href="https://msdn.microsoft.com/library/windows/hardware/mt188048">UcxRootHubCreate</a>. Initialize this structure by calling <b>UCX_ROOTHUB_CONFIG_INIT</b> initialization function (see Ucxclass.h).
-
-
-## -syntax
-
-
-````
-typedef struct _UCX_ROOTHUB_CONFIG {
-  ULONG                            Size;
-  ULONG                            NumberOfPresentedControlUrbCallbacks;
-  PEVT_UCX_ROOTHUB_CONTROL_URB     EvtRootHubClearHubFeature;
-  PEVT_UCX_ROOTHUB_CONTROL_URB     EvtRootHubClearPortFeature;
-  PEVT_UCX_ROOTHUB_CONTROL_URB     EvtRootHubGetHubStatus;
-  PEVT_UCX_ROOTHUB_CONTROL_URB     EvtRootHubGetPortStatus;
-  PEVT_UCX_ROOTHUB_CONTROL_URB     EvtRootHubSetHubFeature;
-  PEVT_UCX_ROOTHUB_CONTROL_URB     EvtRootHubSetPortFeature;
-  PEVT_UCX_ROOTHUB_CONTROL_URB     EvtRootHubGetPortErrorCount;
-  PEVT_UCX_ROOTHUB_CONTROL_URB     EvtRootHubControlUrb;
-  PEVT_UCX_ROOTHUB_INTERRUPT_TX    EvtRootHubInterruptTx;
-  PEVT_UCX_ROOTHUB_GET_INFO        EvtRootHubGetInfo;
-  PEVT_UCX_ROOTHUB_GET_20PORT_INFO EvtRootHubGet20PortInfo;
-  PEVT_UCX_ROOTHUB_GET_30PORT_INFO EvtRootHubGet30PortInfo;
-  WDF_OBJECT_ATTRIBUTES            WdfRequestAttributes;
-} UCX_ROOTHUB_CONFIG, *P_UCX_ROOTHUB_CONFIG;
-````
 
 
 ## -struct-fields
@@ -94,65 +71,65 @@ The number of control requests sent to the default endpoint.
 
 ### -field EvtRootHubClearHubFeature
 
-A pointer to the <a href="..\ucxroothub\nc-ucxroothub-evt_ucx_roothub_control_urb.md">EVT_UCX_ROOTHUB_CONTROL_URB</a> callback function.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/mt187833">EVT_UCX_ROOTHUB_CONTROL_URB</a> callback function.
 
 
 ### -field EvtRootHubClearPortFeature
 
-A pointer to the <a href="..\ucxroothub\nc-ucxroothub-evt_ucx_roothub_control_urb.md">EVT_UCX_ROOTHUB_CONTROL_URB</a> callback function.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/mt187833">EVT_UCX_ROOTHUB_CONTROL_URB</a> callback function.
 
 
 ### -field EvtRootHubGetHubStatus
 
-A pointer to the <a href="..\ucxroothub\nc-ucxroothub-evt_ucx_roothub_control_urb.md">EVT_UCX_ROOTHUB_CONTROL_URB</a> callback function.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/mt187833">EVT_UCX_ROOTHUB_CONTROL_URB</a> callback function.
 
 
 ### -field EvtRootHubGetPortStatus
 
-A pointer to the <a href="..\ucxroothub\nc-ucxroothub-evt_ucx_roothub_control_urb.md">EVT_UCX_ROOTHUB_CONTROL_URB</a> callback function.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/mt187833">EVT_UCX_ROOTHUB_CONTROL_URB</a> callback function.
 
 
 ### -field EvtRootHubSetHubFeature
 
-A pointer to the <a href="..\ucxroothub\nc-ucxroothub-evt_ucx_roothub_control_urb.md">EVT_UCX_ROOTHUB_CONTROL_URB</a> callback function.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/mt187833">EVT_UCX_ROOTHUB_CONTROL_URB</a> callback function.
 
 
 ### -field EvtRootHubSetPortFeature
 
-A pointer to the <a href="..\ucxroothub\nc-ucxroothub-evt_ucx_roothub_control_urb.md">EVT_UCX_ROOTHUB_CONTROL_URB</a> callback function.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/mt187833">EVT_UCX_ROOTHUB_CONTROL_URB</a> callback function.
 
 
 ### -field EvtRootHubGetPortErrorCount
 
-A pointer to the <a href="..\ucxroothub\nc-ucxroothub-evt_ucx_roothub_control_urb.md">EVT_UCX_ROOTHUB_CONTROL_URB</a> callback function.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/mt187833">EVT_UCX_ROOTHUB_CONTROL_URB</a> callback function.
 
 
 ### -field EvtRootHubControlUrb
 
-A pointer to the <a href="..\ucxroothub\nc-ucxroothub-evt_ucx_roothub_control_urb.md">EVT_UCX_ROOTHUB_CONTROL_URB</a> callback function.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/mt187833">EVT_UCX_ROOTHUB_CONTROL_URB</a> callback function.
 
 
 ### -field EvtRootHubInterruptTx
 
-A pointer to the <a href="..\ucxroothub\nc-ucxroothub-evt_ucx_roothub_interrupt_tx.md">EVT_UCX_ROOTHUB_INTERRUPT_TX</a> callback function.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/mt187837">EVT_UCX_ROOTHUB_INTERRUPT_TX</a> callback function.
 
 
 ### -field EvtRootHubGetInfo
 
-A pointer to the <a href="..\ucxroothub\nc-ucxroothub-evt_ucx_roothub_get_info.md">EVT_UCX_ROOTHUB_GET_INFO</a> callback function.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/mt187836">EVT_UCX_ROOTHUB_GET_INFO</a> callback function.
 
 
 ### -field EvtRootHubGet20PortInfo
 
-A pointer to the <a href="..\ucxroothub\nc-ucxroothub-evt_ucx_roothub_get_20port_info.md">EVT_UCX_ROOTHUB_GET_20PORT_INFO</a> callback function.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/mt187834">EVT_UCX_ROOTHUB_GET_20PORT_INFO</a> callback function.
 
 
 ### -field EvtRootHubGet30PortInfo
 
-A pointer to the <a href="..\ucxroothub\nc-ucxroothub-evt_ucx_roothub_get_30port_info.md">EVT_UCX_ROOTHUB_GET_30PORT_INFO</a> callback function.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/mt187835">EVT_UCX_ROOTHUB_GET_30PORT_INFO</a> callback function.
 
 
 ### -field WdfRequestAttributes
 
-A pointer to a <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure that specifies initialization parameters.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552400">WDF_OBJECT_ATTRIBUTES</a> structure that specifies initialization parameters.
 

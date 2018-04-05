@@ -7,7 +7,7 @@ old-location: netvista\fwpsdiscardclonedstreamdata0.htm
 old-project: netvista
 ms.assetid: 11e8338d-4ca3-49a4-8cfe-ac9f15434b4f
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: FwpsDiscardClonedStreamData0, FwpsDiscardClonedStreamData0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsDiscardClonedStreamData0, netvista.fwpsdiscardclonedstreamdata0, wfp_ref_2_funct_3_fwps_D-H_b09851bf-8f28-4f16-8c7d-b6f89b276845.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	fwpkclnt.dll
 api_name:
 -	FwpsDiscardClonedStreamData0
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FWPS_VSWITCH_EVENT_TYPE
 ---
@@ -52,20 +53,8 @@ req.typenames: FWPS_VSWITCH_EVENT_TYPE
 
 The 
   <b>FwpsDiscardClonedStreamData0</b> function frees the memory buffer that is allocated by the 
-  <a href="..\fwpsk\nf-fwpsk-fwpsclonestreamdata0.md">FwpsCloneStreamData0</a> function.
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff551149">FwpsCloneStreamData0</a> function.
 <div class="alert"><b>Note</b>  <b>FwpsDiscardClonedStreamData0</b> is a specific version of <b>FwpsDiscardClonedStreamData</b>. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
-
-## -syntax
-
-
-````
-void NTAPI FwpsDiscardClonedStreamData0(
-  _Inout_ NET_BUFFER_LIST *netBufferListChain,
-  _In_    UINT32          flags,
-  _In_    BOOLEAN         dispatchLevel
-);
-````
-
 
 ## -parameters
 
@@ -75,10 +64,10 @@ void NTAPI FwpsDiscardClonedStreamData0(
 ### -param netBufferListChain [in, out]
 
 A pointer to the 
-     <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure chain that is
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure chain that is
      being freed. This will be the same as the 
      <i>netBufferListChain</i> parameter of the 
-     <a href="..\fwpsk\nf-fwpsk-fwpsclonestreamdata0.md">FwpsCloneStreamData0</a> function.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff551149">FwpsCloneStreamData0</a> function.
 
 
 ### -param allocateCloneFlags
@@ -113,7 +102,7 @@ None.
 
 
 This function can be called when a cloned 
-    <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> chain is to be discarded
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> chain is to be discarded
     instead of being reinjected back into the data stream.
 
 
@@ -121,17 +110,15 @@ This function can be called when a cloned
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
 
-<a href="..\fwpsk\nf-fwpsk-fwpsclonestreamdata0.md">FwpsCloneStreamData0</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551149">FwpsCloneStreamData0</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FwpsDiscardClonedStreamData0 function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

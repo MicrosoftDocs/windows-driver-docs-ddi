@@ -7,7 +7,7 @@ old-location: netvista\miniportcanceloidrequest.htm
 old-project: netvista
 ms.assetid: 42faa43d-0993-40f7-bec3-fd7c3860d5ad
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: MINIPORT_CANCEL_OID_REQUEST, MiniportCancelOidRequest, MiniportCancelOidRequest callback function [Network Drivers Starting with Windows Vista], ndis/MiniportCancelOidRequest, ndis_request_ref_8a44b849-35fd-4c19-97eb-09bd68fb97bb.xml, netvista.miniportcanceloidrequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ndis.h
 api_name:
 -	MiniportCancelOidRequest
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
 ---
@@ -54,20 +55,6 @@ NDIS calls a miniport driver's
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>MINIPORT_CANCEL_OID_REQUEST</b> type. For
    more information, see the following Examples section.</div><div> </div>
 
-## -prototype
-
-
-````
-MINIPORT_CANCEL_OID_REQUEST MiniportCancelOidRequest;
-
-VOID MiniportCancelOidRequest(
-  _In_ NDIS_HANDLE MiniportAdapterContext,
-  _In_ PVOID       RequestId
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -76,14 +63,14 @@ VOID MiniportCancelOidRequest(
 ### -param MiniportAdapterContext [in]
 
 A handle to a context area that the miniport driver allocated in its 
-     <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a> function.
+     <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a> function.
      The miniport driver uses this context area to maintain state information for a miniport adapter.
 
 
 ### -param RequestId [in]
 
 A cancellation identifier for the request. This identifier specifies the 
-     <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a> structures that are being
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a> structures that are being
      canceled.
 
 
@@ -102,16 +89,16 @@ None
 
 A driver specifies the 
     <i>MiniportCancelOidRequest</i> entry point when it calls the 
-    <a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">
+    <a href="https://msdn.microsoft.com/bed68aa8-499d-41fd-997b-a46316913cc8">
     NdisMRegisterMiniportDriver</a> function.
 
 When NDIS calls 
     <i>MiniportCancelOidRequest</i>, the miniport driver should attempt to call 
-    <a href="..\ndis\nf-ndis-ndismoidrequestcomplete.md">NdisMOidRequestComplete</a> function
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff563622">NdisMOidRequestComplete</a> function
     as soon as possible.
 
 The request parameters are defined in the 
-    <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a> structure at 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a> structure at 
     <i>OidRequest</i> .
 
 NDIS calls 
@@ -124,7 +111,7 @@ If the request processing is still not complete in a miniport driver, the driver
 
 If the request processing is still not complete in an intermediate driver and the request was
     propagated to an underlying driver, the intermediate driver calls the 
-    <a href="..\ndis\nf-ndis-ndiscanceloidrequest.md">NdisCancelOidRequest</a> function with
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561622">NdisCancelOidRequest</a> function with
     the 
     <i>OidRequest</i> parameter set to the value that it sent to the underlying driver.
 
@@ -173,29 +160,27 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
+<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiscanceloidrequest.md">NdisCancelOidRequest</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561622">NdisCancelOidRequest</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismoidrequestcomplete.md">NdisMOidRequestComplete</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563622">NdisMOidRequestComplete</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563654">NdisMRegisterMiniportDriver</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20MINIPORT_CANCEL_OID_REQUEST callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

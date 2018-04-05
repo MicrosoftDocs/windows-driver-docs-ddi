@@ -38,7 +38,8 @@ api_location:
 -	gnssdriver.h
 api_name:
 -	GNSS_ERRORINFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GNSS_ERRORINFO, *PGNSS_ERRORINFO
 ---
@@ -50,21 +51,6 @@ req.typenames: GNSS_ERRORINFO, *PGNSS_ERRORINFO
 
 
 This structure contains error information.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  ULONG Size;
-  ULONG Version;
-  ULONG ErrorCode;
-  BOOL  IsRecoverable;
-  WCHAR ErrorDescription[256];
-  BYTE  Unused[512];
-} GNSS_ERRORINFO, *PGNSS_ERRORINFO;
-````
 
 
 ## -struct-fields

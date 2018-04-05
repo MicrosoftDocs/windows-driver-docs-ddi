@@ -38,7 +38,8 @@ api_location:
 -	winbio_types.h
 api_name:
 -	WINBIO_BIR_DATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WINBIO_BIR_DATA
 req.product: Windows 10 or later.
@@ -50,18 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The WINBIO_BIR_DATA structure contains the location and size of a block in a BIR. The offset is measured from the beginning of the <a href="..\winbio_types\ns-winbio_types-_winbio_bir.md">WINBIO_BIR</a> structure.
-
-
-## -syntax
-
-
-````
-typedef struct _WINBIO_BIR_DATA {
-  ULONG Size;
-  ULONG Offset;
-} WINBIO_BIR_DATA, *PWINBIO_BIR_DATA;
-````
+The WINBIO_BIR_DATA structure contains the location and size of a block in a BIR. The offset is measured from the beginning of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536459">WINBIO_BIR</a> structure.
 
 
 ## -struct-fields
@@ -81,21 +71,19 @@ Specifies the offset, in bytes, of the block within the BIR.
 
 ## -see-also
 
-<a href="..\winbio_types\ns-winbio_types-_winbio_bir_header.md">WINBIO_BIR_HEADER</a>
 
 
 
-<a href="..\winbio_ioctl\ns-winbio_ioctl-_winbio_capture_data.md">WINBIO_CAPTURE_DATA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536462">WINBIO_BIR_HEADER</a>
 
 
 
-<a href="..\winbio_ioctl\ns-winbio_ioctl-_winbio_data.md">WINBIO_DATA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536467">WINBIO_CAPTURE_DATA</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536469">WINBIO_DATA</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [biometric\biometric]:%20WINBIO_BIR_DATA structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

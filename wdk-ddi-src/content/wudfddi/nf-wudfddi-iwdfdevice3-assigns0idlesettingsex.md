@@ -7,7 +7,7 @@ old-location: wdf\iwdfdevice3_assigns0idlesettingsex.htm
 old-project: wdf
 ms.assetid: D020B8AA-7353-47E1-A111-82BFE6F5F03D
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/26/2018
 ms.keywords: AssignS0IdleSettingsEx method, AssignS0IdleSettingsEx method, IWDFDevice3 interface, AssignS0IdleSettingsEx,IWDFDevice3.AssignS0IdleSettingsEx, IWDFDevice3, IWDFDevice3 interface, AssignS0IdleSettingsEx method, IWDFDevice3::AssignS0IdleSettingsEx, umdf.iwdfdevice3_assigns0idlesettingsex, wdf.iwdfdevice3_assigns0idlesettingsex, wudfddi/IWDFDevice3::AssignS0IdleSettingsEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support: Unavailable in UMDF 2.0 and later.
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: wudfddi.h
+req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFDevice3.AssignS0IdleSettingsEx
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
@@ -56,16 +57,6 @@ The
   <b>AssignS0IdleSettingsEx</b> method provides driver-supplied information that the framework uses when a device is idle and the system is in its working (S0) state.
 
 
-## -syntax
-
-
-````
-HRESULT AssignS0IdleSettingsEx(
-  [in] PWUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS IdleSettings
-);
-````
-
-
 ## -parameters
 
 
@@ -73,7 +64,7 @@ HRESULT AssignS0IdleSettingsEx(
 
 ### -param IdleSettings [in]
 
-A pointer to a <a href="..\wudfddi_types\ns-wudfddi_types-_wudf_device_power_policy_idle_settings.md">WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS</a> structure that was initialized by a call to the <a href="..\wudfdevice\nf-wudfdevice-wudf_device_power_policy_idle_settings_init.md">WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT</a> macro.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh464078">WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS</a> structure that was initialized by a call to the <a href="https://msdn.microsoft.com/library/windows/hardware/hh464080">WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT</a> macro.
 
 
 ## -returns
@@ -98,7 +89,7 @@ For more information about idle power-down, see <a href="https://docs.microsoft.
 
 #### Examples
 
-The following code example initializes a <a href="..\wudfddi_types\ns-wudfddi_types-_wudf_device_power_policy_idle_settings.md">WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS</a> structure and sets an idle time-out value of 10 seconds. The example then obtains the <a href="..\wudfddi\nn-wudfddi-iwdfdevice3.md">IWDFDevice3</a> interface and calls <b>AssignS0IdleSettingsEx</b>. 
+The following code example initializes a <a href="https://msdn.microsoft.com/library/windows/hardware/hh464078">WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS</a> structure and sets an idle time-out value of 10 seconds. The example then obtains the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451197">IWDFDevice3</a> interface and calls <b>AssignS0IdleSettingsEx</b>. 
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -141,11 +132,6 @@ SAFE_RELEASE(pIWDFDevice3);
 
 ## -see-also
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceassigns0idlesettings.md">WdfDeviceAssignS0IdleSettings</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice3.md">IWDFDevice3</a>
 
 
 
@@ -153,9 +139,12 @@ SAFE_RELEASE(pIWDFDevice3);
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451197">IWDFDevice3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545903">WdfDeviceAssignS0IdleSettings</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFDevice3::AssignS0IdleSettingsEx method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

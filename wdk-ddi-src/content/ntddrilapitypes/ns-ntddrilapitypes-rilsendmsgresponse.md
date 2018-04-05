@@ -7,13 +7,13 @@ old-location: netvista\rilsendmsgresponse.htm
 old-project: netvista
 ms.assetid: 64ff0ba7-726e-49ee-bb7c-338b77458fc1
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: "*LPRILSENDMSGRESPONSE, RILSENDMSGRESPONSE, RILSENDMSGRESPONSE structure [Network Drivers Starting with Windows Vista], netvista.rilsendmsgresponse, ntddrilapitypes/RILSENDMSGRESPONSE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddrilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILSENDMSGRESPONSE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILSENDMSGRESPONSE, *LPRILSENDMSGRESPONSE
 ---
@@ -50,23 +51,6 @@ req.typenames: RILSENDMSGRESPONSE, *LPRILSENDMSGRESPONSE
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef struct _RILSENDMSGRESPONSE {
-  DWORD    cbSize;
-  DWORD    dwParams;
-  HRESULT  hrReturn;
-  DWORD    dwCDMACauseCode;
-  DWORD    dwCDMAErrorClass;
-  DWORD    dwGWLTransportCode;
-  DWORD    dwGWLRelayCode;
-  DWORD    dwMsgID;
-} RILSENDMSGRESPONSE, RILSENDMSGRESPONSE;
-````
 
 
 ## -struct-fields

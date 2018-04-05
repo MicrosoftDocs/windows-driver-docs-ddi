@@ -7,7 +7,7 @@ old-location: kernel\zwwritefile.htm
 old-project: kernel
 ms.assetid: b64ca88f-f67d-4c92-aa0c-46dbe4970834
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/28/2018
 ms.keywords: NtWriteFile, ZwWriteFile, ZwWriteFile routine [Kernel-Mode Driver Architecture], k111_97437555-3cb5-497b-8ebb-c683771da9f4.xml, kernel.zwwritefile, wdm/NtWriteFile, wdm/ZwWriteFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	ZwWriteFile
 -	NtWriteFile
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
@@ -54,24 +55,6 @@ req.product: Windows 10 or later.
 The <b>ZwWriteFile</b> routine writes data to an open file.
 
 
-## -syntax
-
-
-````
-NTSTATUS ZwWriteFile(
-  _In_     HANDLE           FileHandle,
-  _In_opt_ HANDLE           Event,
-  _In_opt_ PIO_APC_ROUTINE  ApcRoutine,
-  _In_opt_ PVOID            ApcContext,
-  _Out_    PIO_STATUS_BLOCK IoStatusBlock,
-  _In_     PVOID            Buffer,
-  _In_     ULONG            Length,
-  _In_opt_ PLARGE_INTEGER   ByteOffset,
-  _In_opt_ PULONG           Key
-);
-````
-
-
 ## -parameters
 
 
@@ -79,7 +62,7 @@ NTSTATUS ZwWriteFile(
 
 ### -param FileHandle [in]
 
-Handle to the file object. This handle is created by a successful call to <a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a> or <a href="..\wdm\nf-wdm-zwopenfile.md">ZwOpenFile</a>. 
+Handle to the file object. This handle is created by a successful call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff566424">ZwCreateFile</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff567011">ZwOpenFile</a>. 
 
 
 ### -param Event [in, optional]
@@ -99,7 +82,7 @@ This parameter is reserved. Device and intermediate drivers should set this poin
 
 ### -param IoStatusBlock [out]
 
-Pointer to an <a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure that receives the final completion status and information about the requested write operation. The <b>Information</b> member receives the number of bytes actually written to the file.
+Pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550671">IO_STATUS_BLOCK</a> structure that receives the final completion status and information about the requested write operation. The <b>Information</b> member receives the number of bytes actually written to the file.
 
 
 ### -param Buffer [in]
@@ -116,9 +99,9 @@ The size, in bytes, of the buffer pointed to by <i>Buffer</i>.
 
 Pointer to a variable that specifies the starting byte offset in the file for beginning the write operation. If <i>Length</i> and <i>ByteOffset</i> specify a write operation past the current end-of-file mark, <b>ZwWriteFile</b> automatically extends the file and updates the end-of-file mark; any bytes that are not explicitly written between such old and new end-of-file marks are defined to be zero.
 
-If the call to <a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a> set only the <i>DesiredAccess</i> flag FILE_APPEND_DATA, <i>ByteOffset</i> is ignored. Data in the given <i>Buffer</i>, for <i>Length</i> bytes, is written starting at the current end of file.
+If the call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff566424">ZwCreateFile</a> set only the <i>DesiredAccess</i> flag FILE_APPEND_DATA, <i>ByteOffset</i> is ignored. Data in the given <i>Buffer</i>, for <i>Length</i> bytes, is written starting at the current end of file.
 
-If the call to <a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a> set either of the <i>CreateOptions</i> flags, FILE_SYNCHRONOUS_IO_ALERT or FILE_SYNCHRONOUS_IO_NONALERT, the I/O Manager maintains the current file position. If so, the caller of <b>ZwWriteFile</b> can specify that the current file position offset be used instead of an explicit <i>ByteOffset</i> value. This specification can be made by using one of the following methods:
+If the call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff566424">ZwCreateFile</a> set either of the <i>CreateOptions</i> flags, FILE_SYNCHRONOUS_IO_ALERT or FILE_SYNCHRONOUS_IO_NONALERT, the I/O Manager maintains the current file position. If so, the caller of <b>ZwWriteFile</b> can specify that the current file position offset be used instead of an explicit <i>ByteOffset</i> value. This specification can be made by using one of the following methods:
 
 <ul>
 <li>
@@ -155,9 +138,9 @@ Device and intermediate drivers should set this pointer to <b>NULL</b>.
 
 
 
-Callers of <b>ZwWriteFile</b> must have already called <a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a> with the FILE_WRITE_DATA, FILE_APPEND_DATA, or GENERIC_WRITE flag set in the <i>DesiredAccess</i> parameter. Note that having only FILE_APPEND_DATA access to a file does not allow the caller to write anywhere in the file except at the current end-of-file mark, while having FILE_WRITE_DATA access to a file does not preclude the caller from writing to or beyond the end of a file.
+Callers of <b>ZwWriteFile</b> must have already called <a href="https://msdn.microsoft.com/library/windows/hardware/ff566424">ZwCreateFile</a> with the FILE_WRITE_DATA, FILE_APPEND_DATA, or GENERIC_WRITE flag set in the <i>DesiredAccess</i> parameter. Note that having only FILE_APPEND_DATA access to a file does not allow the caller to write anywhere in the file except at the current end-of-file mark, while having FILE_WRITE_DATA access to a file does not preclude the caller from writing to or beyond the end of a file.
 
-If the preceding call to <a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a> set the <i>CreateOptions</i> flag FILE_NO_INTERMEDIATE_BUFFERING, the <i>Length</i> and <i>ByteOffset</i> parameters to <b>ZwWriteFile</b> must be an integral of the sector size. For more information, see <b>ZwCreateFile</b>.
+If the preceding call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff566424">ZwCreateFile</a> set the <i>CreateOptions</i> flag FILE_NO_INTERMEDIATE_BUFFERING, the <i>Length</i> and <i>ByteOffset</i> parameters to <b>ZwWriteFile</b> must be an integral of the sector size. For more information, see <b>ZwCreateFile</b>.
 
 <b>ZwWriteFile</b> begins the write operation to the file at <i>ByteOffset</i>, at the current file position, or at the end-of-file mark. It terminates the write operation when it has written <i>Length</i> bytes from <i>Buffer</i>. If necessary, it extends the length of the file and resets the end-of-file mark.
 
@@ -196,29 +179,27 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-keinitializeevent.md">KeInitializeEvent</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552137">KeInitializeEvent</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566424">ZwCreateFile</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567052">ZwQueryInformationFile</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwreadfile.md">ZwReadFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567072">ZwReadFile</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567096">ZwSetInformationFile</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ZwWriteFile routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

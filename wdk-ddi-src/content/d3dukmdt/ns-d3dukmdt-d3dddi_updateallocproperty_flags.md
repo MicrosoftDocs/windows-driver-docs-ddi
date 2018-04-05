@@ -7,7 +7,7 @@ old-location: display\d3dddi_updateallocproperty_flags.htm
 old-project: display
 ms.assetid: 377EC824-9D43-40CA-B5CA-A04402852EA3
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDI_UPDATEALLOCPROPERTY_FLAGS, D3DDDI_UPDATEALLOCPROPERTY_FLAGS structure [Display Devices], PD3DDDI_UPDATEALLOCPROPERTY_FLAGS, PD3DDDI_UPDATEALLOCPROPERTY_FLAGS structure pointer [Display Devices], d3dukmdt/D3DDDI_UPDATEALLOCPROPERTY_FLAGS, d3dukmdt/PD3DDDI_UPDATEALLOCPROPERTY_FLAGS, display.d3dddi_updateallocproperty_flags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dukmdt.h
 api_name:
 -	D3DDDI_UPDATEALLOCPROPERTY_FLAGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDI_UPDATEALLOCPROPERTY_FLAGS
 ---
@@ -50,22 +51,6 @@ req.typenames: D3DDDI_UPDATEALLOCPROPERTY_FLAGS
 
 
 The D3DDDI_UPDATEALLOCPROPERTY_FLAGS structure identifies how to update a property in an allocation.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DDDI_UPDATEALLOCPROPERTY_FLAGS {
-  union {
-    struct {
-      UINT AccessedPhysically   :1;
-      UINT Reserved  :31;
-    };
-    UINT   Value;
-  };
-} D3DDDI_UPDATEALLOCPROPERTY_FLAGS, *PD3DDDI_UPDATEALLOCPROPERTY_FLAGS;
-````
 
 
 ## -struct-fields

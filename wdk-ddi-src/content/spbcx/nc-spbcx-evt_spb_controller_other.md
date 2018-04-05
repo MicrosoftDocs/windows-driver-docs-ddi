@@ -38,7 +38,8 @@ api_location:
 -	Spbcx.h
 api_name:
 -	EvtSpbControllerIoOther
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SPB_TRANSFER_LIST_ENTRY, *PSPB_TRANSFER_LIST_ENTRY
 req.product: Windows 10 or later.
@@ -51,24 +52,6 @@ req.product: Windows 10 or later.
 
 
 An SPB controller driver's <i>EvtSpbControllerIoOther</i> event callback function handles device I/O control requests that are not handled by other event callback functions or by the SPB framework extension (SpbCx).
-
-
-## -prototype
-
-
-````
-EVT_SPB_CONTROLLER_OTHER EvtSpbControllerIoOther;
-
-VOID EvtSpbControllerIoOther(
-  _In_ WDFDEVICE  Controller,
-  _In_ SPBTARGET  Target,
-  _In_ SPBREQUEST Request,
-  _In_ size_t     OutputBufferLength,
-  _In_ size_t     InputBufferLength,
-  _In_ ULONG      IoControlCode
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -123,7 +106,7 @@ SpbCx manages the I/O queue for the SPB controller. If the SPB controller driver
 
 The <i>EvtSpbControllerIoOther</i> callback enables bus-specific or driver-specific commands to be dispatched to the SPB controller driver as IOCTLs. For example, clients (peripheral drivers) might use these IOCTLs to coordinate bus-specific operations, such as full-duplex data exchanges with a target device on an SPI bus. Such IOCTLs are subject to the same flow-control as the IOCTLs that are supported by SpbCx.
 
-The <i>EvtSpbControllerIoOther</i> callback function is similar to the <a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_io_device_control.md">EvtIoDeviceControl</a> and processes IOCTLs in a similar way. For general information about how WDF drivers handle I/O requests, see <a href="https://msdn.microsoft.com/564f3600-4784-4a37-ac13-38338c38a9d2">Framework Request Objects</a>.
+The <i>EvtSpbControllerIoOther</i> callback function is similar to the <a href="https://msdn.microsoft.com/3e3c4c53-e557-4bd1-8b7d-be59dde4b9ce">EvtIoDeviceControl</a> and processes IOCTLs in a similar way. For general information about how WDF drivers handle I/O requests, see <a href="https://msdn.microsoft.com/564f3600-4784-4a37-ac13-38338c38a9d2">Framework Request Objects</a>.
 
 An <i>EvtSpbControllerIoOther</i> callback does not return a status value. Instead, the SPB controller driver indicates the status of the requested operation in the completion status for the I/O request.
 
@@ -180,7 +163,10 @@ The EVT_SPB_CONTROLLER_OTHER function type is defined in the Spbcx.h header file
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/spb/spbcx-object-handles">SPBTARGET</a>
+
+
+
+<a href="https://msdn.microsoft.com/3e3c4c53-e557-4bd1-8b7d-be59dde4b9ce">EvtIoDeviceControl</a>
 
 
 
@@ -192,17 +178,12 @@ The EVT_SPB_CONTROLLER_OTHER function type is defined in the Spbcx.h header file
 
 
 
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/spb/spbcx-object-handles">SPBTARGET</a>
+
+
+
 <a href="https://msdn.microsoft.com/605E2353-8C82-4005-BB72-4CB44146A253">SpbControllerSetIoOther</a>
-
-
-
-<a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_io_device_control.md">EvtIoDeviceControl</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [SPB\buses]:%20EVT_SPB_CONTROLLER_OTHER callback function%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

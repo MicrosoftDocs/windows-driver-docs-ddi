@@ -7,7 +7,7 @@ old-location: print\customsizeparam.htm
 old-project: print
 ms.assetid: 7ec0c38a-8614-417b-9ec3-678c7d80841f
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: "*PCUSTOMSIZEPARAM, CUSTOMSIZEPARAM, CUSTOMSIZEPARAM structure [Print Devices], PCUSTOMSIZEPARAM, PCUSTOMSIZEPARAM structure pointer [Print Devices], _CUSTOMSIZEPARAM, print.customsizeparam, print_unidrv-pscript_ui_ca016241-b74a-43d1-9b45-4deece484d10.xml, printoem/CUSTOMSIZEPARAM, printoem/PCUSTOMSIZEPARAM"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	printoem.h
 api_name:
 -	CUSTOMSIZEPARAM
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CUSTOMSIZEPARAM, *PCUSTOMSIZEPARAM
 req.product: Windows 10 or later.
@@ -51,18 +52,6 @@ req.product: Windows 10 or later.
 
 
 The CUSTOMSIZEPARAM structure holds information pertaining to a single custom page size parameter for a printer.
-
-
-## -syntax
-
-
-````
-typedef struct _CUSTOMSIZEPARAM {
-  LONG dwOrder;
-  LONG lMinVal;
-  LONG lMaxVal;
-} CUSTOMSIZEPARAM, *PCUSTOMSIZEPARAM;
-````
 
 
 ## -struct-fields
@@ -96,13 +85,11 @@ The custom page size parameters include Width, Height, WidthOffset, HeightOffset
 
 ## -see-also
 
-<a href="..\printoem\ne-printoem-_eattribute_datatype.md">EATTRIBUTE_DATATYPE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548692">EATTRIBUTE_DATATYPE</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20CUSTOMSIZEPARAM structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSATTRIBUTE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSATTRIBUTE, *PKSATTRIBUTE
 ---
@@ -49,19 +50,7 @@ req.typenames: KSATTRIBUTE, *PKSATTRIBUTE
 ## -description
 
 
-The KSATTRIBUTE structure defines an additional attribute of a data format or data range that is not covered by the <a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff561658">KSDATARANGE</a> structures or the extended information based on the format and range specifiers.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  ULONG Size;
-  ULONG Flags;
-  GUID  Attribute;
-} KSATTRIBUTE, *PKSATTRIBUTE;
-````
+The KSATTRIBUTE structure defines an additional attribute of a data format or data range that is not covered by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561656">KSDATAFORMAT</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff561658">KSDATARANGE</a> structures or the extended information based on the format and range specifiers.
 
 
 ## -struct-fields
@@ -95,17 +84,15 @@ Note that KSATTRIBUTE is used in conjunction with data formats and data ranges; 
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561656">KSDATAFORMAT</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561658">KSDATARANGE</a>
-
-
-
-<a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSATTRIBUTE structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

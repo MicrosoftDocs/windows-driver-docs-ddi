@@ -7,7 +7,7 @@ old-location: display\d3dkmt_waitforsynchronizationobject2.htm
 old-project: display
 ms.assetid: 934bfe32-b54b-477c-a5f8-714caa97f233
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMT_WAITFORSYNCHRONIZATIONOBJECT2, D3DKMT_WAITFORSYNCHRONIZATIONOBJECT2 structure [Display Devices], OpenGL_Structs_fb1ca5e1-799c-49c7-844d-25954fd0db64.xml, _D3DKMT_WAITFORSYNCHRONIZATIONOBJECT2, d3dkmthk/D3DKMT_WAITFORSYNCHRONIZATIONOBJECT2, display.d3dkmt_waitforsynchronizationobject2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmthk.h
 api_name:
 -	D3DKMT_WAITFORSYNCHRONIZATIONOBJECT2
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_WAITFORSYNCHRONIZATIONOBJECT2
 ---
@@ -49,25 +50,7 @@ req.typenames: D3DKMT_WAITFORSYNCHRONIZATIONOBJECT2
 ## -description
 
 
-The D3DKMT_WAITFORSYNCHRONIZATIONOBJECT2 structure contains information about the synchronization events that the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtwaitforsynchronizationobject2.md">D3DKMTWaitForSynchronizationObject2</a> function waits for to occur. 
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_WAITFORSYNCHRONIZATIONOBJECT2 {
-  D3DKMT_HANDLE hContext;
-  UINT          ObjectCount;
-  D3DKMT_HANDLE ObjectHandleArray[D3DDDI_MAX_OBJECT_WAITED_ON];
-  union {
-    struct {
-      UINT64 FenceValue;
-    } Fence;
-    UINT64 Reserved[8];
-  };
-} D3DKMT_WAITFORSYNCHRONIZATIONOBJECT2;
-````
+The D3DKMT_WAITFORSYNCHRONIZATIONOBJECT2 structure contains information about the synchronization events that the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547262">D3DKMTWaitForSynchronizationObject2</a> function waits for to occur. 
 
 
 ## -struct-fields
@@ -107,13 +90,11 @@ An array of 64-bit values that are reserved for future use. The union in D3DKMT_
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtwaitforsynchronizationobject2.md">D3DKMTWaitForSynchronizationObject2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547262">D3DKMTWaitForSynchronizationObject2</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMT_WAITFORSYNCHRONIZATIONOBJECT2 structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

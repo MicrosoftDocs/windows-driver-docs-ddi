@@ -7,7 +7,7 @@ old-location: kernel\pci_common_config.htm
 old-project: kernel
 ms.assetid: 239d0c0a-e78e-40d5-b359-36910bdd9358
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/28/2018
 ms.keywords: "*PPCI_COMMON_CONFIG, PCI_COMMON_CONFIG, PCI_COMMON_CONFIG structure [Kernel-Mode Driver Architecture], PPCI_COMMON_CONFIG, PPCI_COMMON_CONFIG structure pointer [Kernel-Mode Driver Architecture], _PCI_COMMON_CONFIG, kernel.pci_common_config, kstruct_c_42f21057-e812-4a4d-96c5-f1177a03982b.xml, wdm/PCI_COMMON_CONFIG, wdm/PPCI_COMMON_CONFIG"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	PCI_COMMON_CONFIG
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PCI_COMMON_CONFIG, *PPCI_COMMON_CONFIG, PCI_COMMON_CONFIG, *PPCI_COMMON_CONFIG
 ---
@@ -50,40 +51,6 @@ req.typenames: PCI_COMMON_CONFIG, *PPCI_COMMON_CONFIG, PCI_COMMON_CONFIG, *PPCI_
 
 
 The <b>PCI_COMMON_CONFIG</b> structure is <u>obsolete</u>. It defines standard PCI configuration information returned by the obsolete <a href="https://msdn.microsoft.com/library/windows/hardware/ff546599">HalGetBusData</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff546606">HalGetBusDataByOffset</a> routine for the input <i>BusDataType</i> PCIConfiguration, assuming the caller-allocated <i>Buffer</i> is of sufficient <i>Length</i>.
-
-
-## -syntax
-
-
-````
-typedef struct _PCI_COMMON_CONFIG {
-  USHORT VendorID;
-  USHORT DeviceID;
-  USHORT Command;
-  USHORT Status;
-  UCHAR  RevisionID;
-  UCHAR  ProgIf;
-  UCHAR  SubClass;
-  UCHAR  BaseClass;
-  UCHAR  CacheLineSize;
-  UCHAR  LatencyTimer;
-  UCHAR  HeaderType;
-  UCHAR  BIST;
-  union {
-    struct {
-      ULONG BaseAddresses[PCI_TYPE0_ADDRESSES];
-      ULONG Reserved1[2];
-      ULONG ROMBaseAddress;
-      ULONG Reserved2[2];
-      UCHAR InterruptLine;
-      UCHAR InterruptPin;
-      UCHAR MinimumGrant;
-      UCHAR MaximumLatency;
-    } type0;
-  } u;
-  UCHAR  DeviceSpecific[192];
-} PCI_COMMON_CONFIG, *PPCI_COMMON_CONFIG;
-````
 
 
 ## -struct-fields
@@ -269,7 +236,6 @@ Other members are provisionally read-only: that is, the system initializes them 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546599">HalGetBusData</a>
 
 
 
@@ -277,11 +243,11 @@ Other members are provisionally read-only: that is, the system initializes them 
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546599">HalGetBusData</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546606">HalGetBusDataByOffset</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546633">HalSetBusDataByOffset</a>
 
 
 
@@ -289,9 +255,8 @@ Other members are provisionally read-only: that is, the system initializes them 
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546633">HalSetBusDataByOffset</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PCI_COMMON_CONFIG structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

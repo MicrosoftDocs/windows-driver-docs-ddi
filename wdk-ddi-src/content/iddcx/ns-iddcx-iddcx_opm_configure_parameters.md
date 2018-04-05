@@ -7,7 +7,7 @@ old-location: display\iddcx_opm_configure_parameters.htm
 old-project: display
 ms.assetid: 88d8171f-8ed4-40af-8c05-7421895dca26
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: IDDCX_OPM_CONFIGURE_PARAMETERS, IDDCX_OPM_CONFIGURE_PARAMETERS structure [Display Devices], display.iddcx_opm_configure_parameters, iddcx/IDDCX_OPM_CONFIGURE_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	iddcx.h
 api_name:
 -	IDDCX_OPM_CONFIGURE_PARAMETERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -50,17 +51,6 @@ req.typenames:
 
 
 Gives information about the OPM configure parameters.
-
-
-## -syntax
-
-
-````
-typedef struct IDDCX_OPM_CONFIGURE_PARAMETERS {
-  UINT                     Size;
-  OPM_CONFIGURE_PARAMETERS ConfigParameters;
-} IDDCX_OPM_CONFIGURE_PARAMETERS, *IDDCX_OPM_CONFIGURE_PARAMETERS;
-````
 
 
 ## -struct-fields

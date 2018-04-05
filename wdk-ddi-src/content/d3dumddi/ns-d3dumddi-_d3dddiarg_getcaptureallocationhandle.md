@@ -7,7 +7,7 @@ old-location: display\d3dddiarg_getcaptureallocationhandle.htm
 old-project: display
 ms.assetid: 588ebf7a-db83-4eb8-8403-04b215bed12b
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDIARG_GETCAPTUREALLOCATIONHANDLE, D3DDDIARG_GETCAPTUREALLOCATIONHANDLE structure [Display Devices], UMDisplayDriver_param_Structs_8fece49c-e3e6-4683-b4af-517da6f73cc7.xml, _D3DDDIARG_GETCAPTUREALLOCATIONHANDLE, d3dumddi/D3DDDIARG_GETCAPTUREALLOCATIONHANDLE, display.d3dddiarg_getcaptureallocationhandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	D3DDDIARG_GETCAPTUREALLOCATIONHANDLE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDIARG_GETCAPTUREALLOCATIONHANDLE
 ---
@@ -52,17 +53,6 @@ req.typenames: D3DDDIARG_GETCAPTUREALLOCATIONHANDLE
 The D3DDDIARG_GETCAPTUREALLOCATIONHANDLE structure describes the parameters for retrieving an allocation handle from a capture resource handle. 
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_GETCAPTUREALLOCATIONHANDLE {
-  HANDLE        hResource;
-  D3DKMT_HANDLE hAllocation;
-} D3DDDIARG_GETCAPTUREALLOCATIONHANDLE;
-````
-
-
 ## -struct-fields
 
 
@@ -70,7 +60,7 @@ typedef struct _D3DDDIARG_GETCAPTUREALLOCATIONHANDLE {
 
 ### -field hResource
 
-[in] A handle to the capture resource that <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaptureallocationhandle.md">GetCaptureAllocationHandle</a> retrieves the allocation handle for.
+[in] A handle to the capture resource that <a href="https://msdn.microsoft.com/fb12a12b-6fb7-46d4-aa71-4c88d34d6ff9">GetCaptureAllocationHandle</a> retrieves the allocation handle for.
 
 
 ### -field hAllocation
@@ -80,13 +70,11 @@ typedef struct _D3DDDIARG_GETCAPTUREALLOCATIONHANDLE {
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaptureallocationhandle.md">GetCaptureAllocationHandle</a>
 
 
 
+<a href="https://msdn.microsoft.com/fb12a12b-6fb7-46d4-aa71-4c88d34d6ff9">GetCaptureAllocationHandle</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DDDIARG_GETCAPTUREALLOCATIONHANDLE structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

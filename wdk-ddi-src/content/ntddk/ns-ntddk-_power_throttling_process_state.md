@@ -7,7 +7,7 @@ old-location: kernel\power_throttling_process_state.htm
 old-project: kernel
 ms.assetid: f22be66a-1f1c-4999-a99e-9a8575313239
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/28/2018
 ms.keywords: "*PPOWER_THROTTLING_PROCESS_STATE, POWER_THROTTLING_PROCESS_STATE, POWER_THROTTLING_PROCESS_STATE structure [Kernel-Mode Driver Architecture], _POWER_THROTTLING_PROCESS_STATE, kernel.power_throttling_process_state, ntddk/POWER_THROTTLING_PROCESS_STATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ntddk.h
 api_name:
 -	POWER_THROTTLING_PROCESS_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: POWER_THROTTLING_PROCESS_STATE, *PPOWER_THROTTLING_PROCESS_STATE
 ---
@@ -50,18 +51,6 @@ req.typenames: POWER_THROTTLING_PROCESS_STATE, *PPOWER_THROTTLING_PROCESS_STATE
 
 
 Stores the throttling policies and how to apply them to a target process when that process is subject to power management.
-
-
-## -syntax
-
-
-````
-typedef struct _POWER_THROTTLING_PROCESS_STATE {
-  ULONG  Version;
-  ULONG  ControlMask;
-  ULONG  StateMask;
-} POWER_THROTTLING_PROCESS_STATE, POWER_THROTTLING_PROCESS_STATE;
-````
 
 
 ## -struct-fields

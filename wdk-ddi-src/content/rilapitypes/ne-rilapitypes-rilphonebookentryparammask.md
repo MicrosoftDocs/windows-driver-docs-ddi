@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILPHONEBOOKENTRYPARAMMASK
 title: RILPHONEBOOKENTRYPARAMMASK
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilphonebookentryparammask_2.htm
+old-location: netvista\rilphonebookentryparammask.htm
 old-project: netvista
-ms.assetid: c7c82022-b82d-4f8e-a736-3912d3286189
+ms.assetid: 6c3f8053-1cb7-44e8-be17-47678b224fa9
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: RILPHONEBOOKENTRYPARAMMASK, RILPHONEBOOKENTRYPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_PBE_ADDITIONALNUMCOUNT, RIL_PARAM_PBE_ADDITIONALNUMOFFSET, RIL_PARAM_PBE_ADDITIONALNUMSIZE, RIL_PARAM_PBE_ADDRESS, RIL_PARAM_PBE_ALL, RIL_PARAM_PBE_EMAILCOUNT, RIL_PARAM_PBE_EMAILOFFSET, RIL_PARAM_PBE_EMAILSIZE, RIL_PARAM_PBE_GROUPID, RIL_PARAM_PBE_GROUPIDCOUNT, RIL_PARAM_PBE_SECONDNAME, RIL_PARAM_PBE_TEXT, netvista.rilphonebookentryparammask_2, rilapitypes/RILPHONEBOOKENTRYPARAMMASK, rilapitypes/RIL_PARAM_PBE_ADDITIONALNUMCOUNT, rilapitypes/RIL_PARAM_PBE_ADDITIONALNUMOFFSET, rilapitypes/RIL_PARAM_PBE_ADDITIONALNUMSIZE, rilapitypes/RIL_PARAM_PBE_ADDRESS, rilapitypes/RIL_PARAM_PBE_ALL, rilapitypes/RIL_PARAM_PBE_EMAILCOUNT, rilapitypes/RIL_PARAM_PBE_EMAILOFFSET, rilapitypes/RIL_PARAM_PBE_EMAILSIZE, rilapitypes/RIL_PARAM_PBE_GROUPID, rilapitypes/RIL_PARAM_PBE_GROUPIDCOUNT, rilapitypes/RIL_PARAM_PBE_SECONDNAME, rilapitypes/RIL_PARAM_PBE_TEXT
+ms.date: 3/26/2018
+ms.keywords: RILPHONEBOOKENTRYPARAMMASK, RILPHONEBOOKENTRYPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_PBE_ADDITIONALNUMCOUNT, RIL_PARAM_PBE_ADDITIONALNUMOFFSET, RIL_PARAM_PBE_ADDITIONALNUMSIZE, RIL_PARAM_PBE_ADDRESS, RIL_PARAM_PBE_ALL, RIL_PARAM_PBE_EMAILCOUNT, RIL_PARAM_PBE_EMAILOFFSET, RIL_PARAM_PBE_EMAILSIZE, RIL_PARAM_PBE_GROUPID, RIL_PARAM_PBE_GROUPIDCOUNT, RIL_PARAM_PBE_SECONDNAME, RIL_PARAM_PBE_TEXT, netvista.rilphonebookentryparammask, ntddrilapitypes/RILPHONEBOOKENTRYPARAMMASK, ntddrilapitypes/RIL_PARAM_PBE_ADDITIONALNUMCOUNT, ntddrilapitypes/RIL_PARAM_PBE_ADDITIONALNUMOFFSET, ntddrilapitypes/RIL_PARAM_PBE_ADDITIONALNUMSIZE, ntddrilapitypes/RIL_PARAM_PBE_ADDRESS, ntddrilapitypes/RIL_PARAM_PBE_ALL, ntddrilapitypes/RIL_PARAM_PBE_EMAILCOUNT, ntddrilapitypes/RIL_PARAM_PBE_EMAILOFFSET, ntddrilapitypes/RIL_PARAM_PBE_EMAILSIZE, ntddrilapitypes/RIL_PARAM_PBE_GROUPID, ntddrilapitypes/RIL_PARAM_PBE_GROUPIDCOUNT, ntddrilapitypes/RIL_PARAM_PBE_SECONDNAME, ntddrilapitypes/RIL_PARAM_PBE_TEXT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -35,10 +35,11 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILPHONEBOOKENTRYPARAMMASK
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILPHONEBOOKENTRYPARAMMASK
 req.product: Windows 10 or later.
@@ -50,28 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-
-## -syntax
-
-
-````
-typedef enum _RILPHONEBOOKENTRYPARAMMASK { 
-  RIL_PARAM_PBE_ADDRESS,
-  RIL_PARAM_PBE_TEXT,
-  RIL_PARAM_PBE_SECONDNAME,
-  RIL_PARAM_PBE_GROUPIDCOUNT,
-  RIL_PARAM_PBE_GROUPID,
-  RIL_PARAM_PBE_ADDITIONALNUMCOUNT,
-  RIL_PARAM_PBE_ADDITIONALNUMSIZE,
-  RIL_PARAM_PBE_ADDITIONALNUMOFFSET,
-  RIL_PARAM_PBE_EMAILCOUNT,
-  RIL_PARAM_PBE_EMAILSIZE,
-  RIL_PARAM_PBE_EMAILOFFSET,
-  RIL_PARAM_PBE_ALL
-} RILPHONEBOOKENTRYPARAMMASK;
-````
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -enum-fields

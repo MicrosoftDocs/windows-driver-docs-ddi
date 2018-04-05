@@ -7,7 +7,7 @@ old-location: storage\changerclasssendsrbsynchronous.htm
 old-project: storage
 ms.assetid: 6765d7d5-528f-42c5-98c3-0484608a020b
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: ChangerClassSendSrbSynchronous, ChangerClassSendSrbSynchronous routine [Storage Devices], chgrclas_ad6fe2cb-20f1-404d-ad08-5bf9798de6bd.xml, mcd/ChangerClassSendSrbSynchronous, storage.changerclasssendsrbsynchronous
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Mcd.dll
 api_name:
 -	ChangerClassSendSrbSynchronous
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: LAMP_INTENSITY_WHITE
 ---
@@ -51,20 +52,6 @@ req.typenames: LAMP_INTENSITY_WHITE
 
 
 The <b>ChangerClassSendSrbSynchronous</b> routine synchronously sends an SRB to a specified device.
-
-
-## -syntax
-
-
-````
-NTSTATUS ChangerClassSendSrbSynchronous(
-  _In_ PDEVICE_OBJECT      DeviceObject,
-  _In_ PSCSI_REQUEST_BLOCK Srb,
-  _In_ PVOID               Buffer,
-  _In_ ULONG               BufferSize,
-  _In_ BOOLEAN             WriteToDevice
-);
-````
 
 
 ## -parameters
@@ -121,13 +108,11 @@ If the IRP fails and the sense request data indicates that the IRP should be ret
 
 ## -see-also
 
-<a href="..\storport\ns-storport-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565393">SCSI_REQUEST_BLOCK</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20ChangerClassSendSrbSynchronous routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

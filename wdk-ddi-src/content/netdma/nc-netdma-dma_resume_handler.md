@@ -7,7 +7,7 @@ old-location: netvista\providerresumedma.htm
 old-project: netvista
 ms.assetid: 06609603-eeed-4fb0-a878-87cad2e72b46
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: DMA_RESUME_HANDLER, ProviderResumeDma, ProviderResumeDma callback function [Network Drivers Starting with Windows Vista], netdma/ProviderResumeDma, netdma_ref_75548093-1640-40f2-a715-0918b92900d3.xml, netvista.providerresumedma
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	netdma.h
 api_name:
 -	ProviderResumeDma
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MIRACAST_DRIVER_INTERFACE, *PMIRACAST_DRIVER_INTERFACE
 ---
@@ -56,19 +57,6 @@ in Windows 8 and later.</div><div> </div>The
   channel.
 
 
-## -prototype
-
-
-````
-DMA_RESUME_HANDLER ProviderResumeDma;
-
-NTSTATUS ProviderResumeDma(
-  _In_ PVOID ProviderChannelContext
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -79,7 +67,7 @@ NTSTATUS ProviderResumeDma(
 A pointer that identifies a DMA channel's context area. The DMA provider returned this handle to
      NetDMA at the location that is specified in the 
      <i>pProviderChannelContext</i> parameter of the 
-     <a href="..\netdma\nc-netdma-dma_channel_allocate_handler.md">
+     <a href="https://msdn.microsoft.com/42bc0e08-3d85-424f-aaa4-4df788d3706a">
      ProviderAllocateDmaChannel</a> function.
 
 
@@ -130,7 +118,7 @@ The
     <i>ProviderSuspendDma</i> function is an optional function for NetDMA providers. The NetDMA interface
     calls the 
     <i>ProviderResumeDma</i> function, if any, to resume DMA operations that were suspended by calling the 
-    <a href="..\netdma\nc-netdma-dma_suspend_handler.md">ProviderSuspendDma</a> function. If the DMA
+    <a href="https://msdn.microsoft.com/b020b0c6-eb69-44d0-a374-b39eb2f536f1">ProviderSuspendDma</a> function. If the DMA
     provider driver specifies an entry point for a 
     <i>ProviderSuspendDma</i> function, it must also specify an entry point for a 
     <i>ProviderResumeDma</i> function.
@@ -146,17 +134,15 @@ NetDMA calls
 
 ## -see-also
 
-<a href="..\netdma\nc-netdma-dma_suspend_handler.md">ProviderSuspendDma</a>
 
 
 
-<a href="..\netdma\nc-netdma-dma_channel_allocate_handler.md">ProviderAllocateDmaChannel</a>
+<a href="https://msdn.microsoft.com/42bc0e08-3d85-424f-aaa4-4df788d3706a">ProviderAllocateDmaChannel</a>
 
 
 
+<a href="https://msdn.microsoft.com/b020b0c6-eb69-44d0-a374-b39eb2f536f1">ProviderSuspendDma</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DMA_RESUME_HANDLER callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

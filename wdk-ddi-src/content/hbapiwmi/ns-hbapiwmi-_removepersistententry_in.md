@@ -7,7 +7,7 @@ old-location: storage\removepersistententry_in.htm
 old-project: storage
 ms.assetid: 7019ee37-2080-4ba3-ba39-977e575ec04e
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PRemovePersistentEntry_IN, PRemovePersistentEntry_IN, PRemovePersistentEntry_IN structure pointer [Storage Devices], RemovePersistentEntry_IN, RemovePersistentEntry_IN structure [Storage Devices], _RemovePersistentEntry_IN, hbapiwmi/PRemovePersistentEntry_IN, hbapiwmi/RemovePersistentEntry_IN, storage.removepersistententry_in, structs-Fibre_e5e794c3-e43c-4218-af52-3f2d8a96c256.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	hbapiwmi.h
 api_name:
 -	RemovePersistentEntry_IN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RemovePersistentEntry_IN, *PRemovePersistentEntry_IN
 ---
@@ -50,17 +51,6 @@ req.typenames: RemovePersistentEntry_IN, *PRemovePersistentEntry_IN
 
 
 The RemovePersistentEntry_IN structure is used by a WMI client to deliver input parameter data to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563988">RemovePersistentEntry</a> WMI method.
-
-
-## -syntax
-
-
-````
-typedef struct _RemovePersistentEntry_IN {
-  UCHAR               PortWWN[8];
-  HBAFCPBindingEntry2 Binding;
-} RemovePersistentEntry_IN, *PRemovePersistentEntry_IN;
-````
 
 
 ## -struct-fields
@@ -75,7 +65,7 @@ Contains a worldwide name that indicates the port for which a persistent binding
 
 ### -field Binding
 
-Contains a structure of type <a href="..\hbapiwmi\ns-hbapiwmi-_hbafcpbindingentry2.md">HBAFCPBindingEntry2</a> that indicates the binding to be removed from the indicated port's list of bindings. 
+Contains a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff556035">HBAFCPBindingEntry2</a> that indicates the binding to be removed from the indicated port's list of bindings. 
 
 
 ## -remarks
@@ -89,13 +79,11 @@ The WMI tool suite generates a declaration of the RemovePersistentEntry_IN struc
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563988">RemovePersistentEntry</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20RemovePersistentEntry_IN structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

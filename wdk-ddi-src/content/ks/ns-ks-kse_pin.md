@@ -38,7 +38,8 @@ api_location:
 -	Ks.h
 api_name:
 -	KSE_PIN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSE_PIN, *PKSE_PIN
 ---
@@ -50,18 +51,6 @@ req.typenames: KSE_PIN, *PKSE_PIN
 
 
 
-
-
-## -syntax
-
-
-````
-typedef struct {
-  ULONG Event;
-  ULONG PinId;
-  ULONG Reserved;
-} KSE_PIN, *PKSE_PIN;
-````
 
 
 ## -struct-fields

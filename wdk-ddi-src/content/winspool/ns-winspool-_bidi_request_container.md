@@ -7,7 +7,7 @@ old-location: print\bidi_request_container.htm
 old-project: print
 ms.assetid: 9892cf0e-23ee-496f-9078-4a2a1fdb19d9
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: "*LPBIDI_REQUEST_CONTAINER, *PBIDI_REQUEST_CONTAINER, BIDI_REQUEST_CONTAINER, BIDI_REQUEST_CONTAINER structure [Print Devices], LPBIDI_REQUEST_CONTAINER, LPBIDI_REQUEST_CONTAINER structure pointer [Print Devices], PBIDI_REQUEST_CONTAINER, PBIDI_REQUEST_CONTAINER structure pointer [Print Devices], _BIDI_REQUEST_CONTAINER, print.bidi_request_container, spoolfnc_26c43d0f-69f8-415c-8653-79ef503fe139.xml, winspool/BIDI_REQUEST_CONTAINER, winspool/LPBIDI_REQUEST_CONTAINER, winspool/PBIDI_REQUEST_CONTAINER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	winspool.h
 api_name:
 -	BIDI_REQUEST_CONTAINER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BIDI_REQUEST_CONTAINER, *PBIDI_REQUEST_CONTAINER, *LPBIDI_REQUEST_CONTAINER
 req.product: Windows 10 or later.
@@ -51,19 +52,6 @@ req.product: Windows 10 or later.
 
 
 The BIDI_REQUEST_CONTAINER structure is a container for a list of bidi requests.
-
-
-## -syntax
-
-
-````
-typedef struct _BIDI_REQUEST_CONTAINER {
-  DWORD             Version;
-  DWORD             Flags;
-  DWORD             Count;
-  BIDI_REQUEST_DATA aData[1];
-} BIDI_REQUEST_CONTAINER, *PBIDI_REQUEST_CONTAINER, *LPBIDI_REQUEST_CONTAINER;
-````
 
 
 ## -struct-fields
@@ -88,7 +76,7 @@ Specifies the number of bidi requests in the <b>aData</b> member. A container ca
 
 ### -field aData
 
-Is an array of <a href="..\winspool\ns-winspool-_bidi_request_data.md">BIDI_REQUEST_DATA</a> structures, each holding a single bidi request. 
+Is an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff545196">BIDI_REQUEST_DATA</a> structures, each holding a single bidi request. 
 
 
 ## -remarks
@@ -102,13 +90,11 @@ Even though the <b>aData</b> member of this structure is an array with only a si
 
 ## -see-also
 
-<a href="..\winspool\ns-winspool-_bidi_request_data.md">BIDI_REQUEST_DATA</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545196">BIDI_REQUEST_DATA</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20BIDI_REQUEST_CONTAINER structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

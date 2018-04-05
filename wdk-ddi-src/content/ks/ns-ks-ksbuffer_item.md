@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSBUFFER_ITEM
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSBUFFER_ITEM, *PKSBUFFER_ITEM
 ---
@@ -52,17 +53,6 @@ req.typenames: KSBUFFER_ITEM, *PKSBUFFER_ITEM
 The KSBUFFER_ITEM structure is used to store a list of data buffers copied from the event source, which can be retrieved by the event sink through KSEVENT_TYPE_QUERYBUFFER.
 
 
-## -syntax
-
-
-````
-typedef struct {
-  KSDPC_ITEM DpcItem;
-  LIST_ENTRY BufferList;
-} KSBUFFER_ITEM, *PKSBUFFER_ITEM;
-````
-
-
 ## -struct-fields
 
 
@@ -70,12 +60,12 @@ typedef struct {
 
 ### -field DpcItem
 
-A structure of type <a href="..\ks\ns-ks-ksdpc_item.md">KSDPC_ITEM</a>. May be used by internal DPCs; do not use for data buffering.
+A structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff561726">KSDPC_ITEM</a>. May be used by internal DPCs; do not use for data buffering.
 
 
 ### -field BufferList
 
-Specifies the head of a list of pool allocated buffers that are created by calls to <a href="..\ks\nf-ks-ksgeneratedataevent.md">KsGenerateDataEvent</a> for events that have buffering enabled.
+Specifies the head of a list of pool allocated buffers that are created by calls to <a href="https://msdn.microsoft.com/library/windows/hardware/ff562593">KsGenerateDataEvent</a> for events that have buffering enabled.
 
 
 ## -remarks
@@ -89,17 +79,15 @@ KSBUFFER_ITEM extends the normal deferred procedure call (DPC) structure, which 
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksdpc_item.md">KSDPC_ITEM</a>
 
 
 
-<a href="..\ks\nf-ks-ksgeneratedataevent.md">KsGenerateDataEvent</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561726">KSDPC_ITEM</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562593">KsGenerateDataEvent</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSBUFFER_ITEM structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

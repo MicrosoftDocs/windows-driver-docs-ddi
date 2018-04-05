@@ -39,7 +39,8 @@ api_location:
 -	Stream.dll
 api_name:
 -	StreamClassCompleteRequestAndMarkQueueReady
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STREAM_PRIORITY, *PSTREAM_PRIORITY
 req.product: Windows 10 or later.
@@ -54,16 +55,6 @@ req.product: Windows 10 or later.
 The <b>StreamClassCompleteRequestAndMarkQueueReady</b> routine completes a request, and signals the class driver that the minidriver is ready to receive a new request of the same type.
 
 
-## -syntax
-
-
-````
-VOID StreamClassCompleteRequestAndMarkQueueReady(
-  _In_ PHW_STREAM_REQUEST_BLOCK Srb
-);
-````
-
-
 ## -parameters
 
 
@@ -71,7 +62,7 @@ VOID StreamClassCompleteRequestAndMarkQueueReady(
 
 ### -param Srb [in]
 
-Pointer to the <a href="..\strmini\ns-strmini-_hw_stream_request_block.md">HW_STREAM_REQUEST_BLOCK</a> that the minidriver has completed processing.
+Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559702">HW_STREAM_REQUEST_BLOCK</a> that the minidriver has completed processing.
 
 
 ## -returns
@@ -94,21 +85,19 @@ This call is equivalent to calling <b>StreamClass</b><i>Xxx</i><b>Notification</
 
 ## -see-also
 
-<a href="..\strmini\ns-strmini-_hw_stream_request_block.md">HW_STREAM_REQUEST_BLOCK</a>
 
 
 
-<a href="..\strmini\nf-strmini-streamclassstreamnotification.md">StreamClassStreamNotification</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559702">HW_STREAM_REQUEST_BLOCK</a>
 
 
 
-<a href="..\strmini\nf-strmini-streamclassdevicenotification.md">StreamClassDeviceNotification</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568239">StreamClassDeviceNotification</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568266">StreamClassStreamNotification</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20StreamClassCompleteRequestAndMarkQueueReady routine%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

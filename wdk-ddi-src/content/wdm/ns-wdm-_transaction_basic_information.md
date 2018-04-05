@@ -7,7 +7,7 @@ old-location: kernel\transaction_basic_information.htm
 old-project: kernel
 ms.assetid: 79dd9ff3-2a5f-457a-8a8a-4963a799055c
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/28/2018
 ms.keywords: "*PTRANSACTION_BASIC_INFORMATION, PTRANSACTION_BASIC_INFORMATION, PTRANSACTION_BASIC_INFORMATION structure pointer [Kernel-Mode Driver Architecture], TRANSACTION_BASIC_INFORMATION, TRANSACTION_BASIC_INFORMATION structure [Kernel-Mode Driver Architecture], _TRANSACTION_BASIC_INFORMATION, kernel.transaction_basic_information, ktm_ref_3246b7cb-244e-4772-b3ca-bfd69e973f12.xml, wdm/PTRANSACTION_BASIC_INFORMATION, wdm/TRANSACTION_BASIC_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	wdm.h
 api_name:
 -	TRANSACTION_BASIC_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TRANSACTION_BASIC_INFORMATION, *PTRANSACTION_BASIC_INFORMATION
 req.product: Windows 10 or later.
@@ -53,18 +54,6 @@ req.product: Windows 10 or later.
 The <b>TRANSACTION_BASIC_INFORMATION</b> structure contains information about a <a href="https://msdn.microsoft.com/124105bd-70be-49b1-8ea4-af6ba1f3cf16">transaction object</a>.
 
 
-## -syntax
-
-
-````
-typedef struct _TRANSACTION_BASIC_INFORMATION {
-  GUID  TransactionId;
-  ULONG State;
-  ULONG Outcome;
-} TRANSACTION_BASIC_INFORMATION, *PTRANSACTION_BASIC_INFORMATION;
-````
-
-
 ## -struct-fields
 
 
@@ -77,48 +66,46 @@ A GUID that KTM has assigned to the transaction object. This value is also known
 
 ### -field State
 
-A <a href="..\wdm\ne-wdm-_transaction_state.md">TRANSACTION_STATE</a>-typed value that specifies the transaction's current state.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff564849">TRANSACTION_STATE</a>-typed value that specifies the transaction's current state.
 
 
 ### -field Outcome
 
-A <a href="..\wdm\ne-wdm-_transaction_outcome.md">TRANSACTION_OUTCOME</a>-typed value that specifies the transaction's outcome (result).
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff564835">TRANSACTION_OUTCOME</a>-typed value that specifies the transaction's outcome (result).
 
 
 ## -remarks
 
 
 
-The <b>TRANSACTION_BASIC_INFORMATION</b> structure is used with the <a href="..\wdm\nf-wdm-zwqueryinformationtransaction.md">ZwQueryInformationTransaction</a> routine. This routine fills in the structure's members.
+The <b>TRANSACTION_BASIC_INFORMATION</b> structure is used with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567057">ZwQueryInformationTransaction</a> routine. This routine fills in the structure's members.
 
 
 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-tmgettransactionid.md">TmGetTransactionId</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwqueryinformationtransaction.md">ZwQueryInformationTransaction</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564800">TRANSACTION_INFORMATION_CLASS</a>
 
 
 
-<a href="..\wdm\ne-wdm-_transaction_state.md">TRANSACTION_STATE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564835">TRANSACTION_OUTCOME</a>
 
 
 
-<a href="..\wdm\ne-wdm-_transaction_outcome.md">TRANSACTION_OUTCOME</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564849">TRANSACTION_STATE</a>
 
 
 
-<a href="..\wdm\ne-wdm-_transaction_information_class.md">TRANSACTION_INFORMATION_CLASS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564679">TmGetTransactionId</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567057">ZwQueryInformationTransaction</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20TRANSACTION_BASIC_INFORMATION structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

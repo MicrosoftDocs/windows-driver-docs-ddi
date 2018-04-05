@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsFilterCreatePinFactory
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -53,18 +54,6 @@ req.typenames:
 The<b> KsFilterCreatePinFactory</b> function creates a new pin factory on the specified filter.
 
 
-## -syntax
-
-
-````
-NTSTATUS KsFilterCreatePinFactory(
-  _In_        PKSFILTER           Filter,
-  _In_  const KSPIN_DESCRIPTOR_EX *PinDescriptor,
-  _Out_       PULONG              PinID
-);
-````
-
-
 ## -parameters
 
 
@@ -72,12 +61,12 @@ NTSTATUS KsFilterCreatePinFactory(
 
 ### -param Filter [in]
 
-A pointer to a <a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a> structure for which to create a new pin factory.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff562522">KSFILTER</a> structure for which to create a new pin factory.
 
 
 ### -param PinDescriptor [in]
 
-A pointer to a <a href="..\ks\ns-ks-_kspin_descriptor_ex.md">KSPIN_DESCRIPTOR_EX</a> structure that describes the pins this factory will create.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563534">KSPIN_DESCRIPTOR_EX</a> structure that describes the pins this factory will create.
 
 
 ### -param PinID [out]
@@ -105,13 +94,11 @@ Note that the filter control mutex must be held before calling this function. Fo
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksfiltercreatenode.md">KsFilterCreateNode</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562528">KsFilterCreateNode</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsFilterCreatePinFactory function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

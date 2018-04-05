@@ -38,7 +38,8 @@ api_location:
 -	Ksproxy.h
 api_name:
 -	KSALLOCATORMODE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSALLOCATORMODE
 ---
@@ -50,17 +51,6 @@ req.typenames: KSALLOCATORMODE
 
 
 
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  KsAllocatorMode_User,
-  KsAllocatorMode_Kernel
-} KSALLOCATORMODE;
-````
 
 
 ## -enum-fields

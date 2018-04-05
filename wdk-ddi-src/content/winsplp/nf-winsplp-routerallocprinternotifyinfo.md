@@ -7,7 +7,7 @@ old-location: print\routerallocprinternotifyinfo.htm
 old-project: print
 ms.assetid: 319bee1b-c319-4c95-8343-edb9b08e6d6c
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: RouterAllocPrinterNotifyInfo, RouterAllocPrinterNotifyInfo function [Print Devices], print.routerallocprinternotifyinfo, spoolfnc_036587a9-424d-4169-8c90-7de6165a003d.xml, winsplp/RouterAllocPrinterNotifyInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Spoolss.dll
 api_name:
 -	RouterAllocPrinterNotifyInfo
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NOTIFICATION_CONFIG_FLAGS
 req.product: Windows 10 or later.
@@ -51,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 The print spooler's <code>RouterAllocPrinterNotifyInfo</code> function allocates a PRINTER_NOTIFY_INFO structure and an array of PRINTER_NOTIFY_INFO_DATA structures. (These structures are described in the Microsoft Windows SDK documentation.)
-
-
-## -syntax
-
-
-````
-PPRINTER_NOTIFY_INFO RouterAllocPrinterNotifyInfo(
-   DWORD cPrinterNotifyInfoData
-);
-````
 
 
 ## -parameters
@@ -90,9 +81,9 @@ Print providers should call <code>RouterAllocPrinterNotifyInfo</code> to allocat
 
 The <code>RouterAllocPrinterNotifyInfo</code> function initializes the PRINTER_NOTIFY_INFO structure's <b>Version</b> member to the current version of the spooler's notification implementation. It initializes the structure's <b>Flags</b> and <b>Count</b> members to zero, regardless of the number specified for <i>cPrinterNotifyInfoData</i>.
 
-Print providers should call <a href="..\winsplp\nf-winsplp-appendprinternotifyinfodata.md">AppendPrinterNotifyInfoData</a> to fill in members of the PRINTER_NOTIFY_INFO_DATA structure array.
+Print providers should call <a href="https://msdn.microsoft.com/library/windows/hardware/ff545038">AppendPrinterNotifyInfoData</a> to fill in members of the PRINTER_NOTIFY_INFO_DATA structure array.
 
-If <code>RefreshPrinterChangeNotification</code> executes successfully and returns the allocated structures to the caller, you should assume that the caller will deallocate structure memory. However, if <code>RefreshPrinterChangeNotification</code> encounters an error it should call <a href="..\winsplp\nf-winsplp-routerfreeprinternotifyinfo.md">RouterFreePrinterNotifyInfo</a> to deallocate the memory.
+If <code>RefreshPrinterChangeNotification</code> executes successfully and returns the allocated structures to the caller, you should assume that the caller will deallocate structure memory. However, if <code>RefreshPrinterChangeNotification</code> encounters an error it should call <a href="https://msdn.microsoft.com/library/windows/hardware/ff562016">RouterFreePrinterNotifyInfo</a> to deallocate the memory.
 
 For additional information, see <a href="https://msdn.microsoft.com/e75c6f89-9cef-4900-af89-edf1f7f786c7">Supporting Printer Change Notifications</a>.
 
@@ -101,7 +92,10 @@ For additional information, see <a href="https://msdn.microsoft.com/e75c6f89-9ce
 
 ## -see-also
 
-<a href="..\winsplp\nf-winsplp-routerfreeprinternotifyinfo.md">RouterFreePrinterNotifyInfo</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545038">AppendPrinterNotifyInfoData</a>
 
 
 
@@ -109,13 +103,8 @@ For additional information, see <a href="https://msdn.microsoft.com/e75c6f89-9ce
 
 
 
-<a href="..\winsplp\nf-winsplp-appendprinternotifyinfodata.md">AppendPrinterNotifyInfoData</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562016">RouterFreePrinterNotifyInfo</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20RouterAllocPrinterNotifyInfo function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

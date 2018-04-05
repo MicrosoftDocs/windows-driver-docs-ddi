@@ -7,7 +7,7 @@ old-location: netvista\ndistcpoffloadeventhandler.htm
 old-project: netvista
 ms.assetid: b62e8a07-fe7b-4c52-8795-19e4bb889b6e
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: NDIS_TCP_OFFLOAD_EVENT_INDICATE, NdisTcpOffloadEventHandler, NdisTcpOffloadEventHandler callback function [Network Drivers Starting with Windows Vista], ndischimney/NdisTcpOffloadEventHandler, netvista.ndistcpoffloadeventhandler, tcp_chim_ndis_func_24cca7c4-aa36-4ff3-8896-93bd0b8517af.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ndischimney.h
 api_name:
 -	NdisTcpOffloadEventHandler
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PD_BUFFER_VIRTUAL_SUBNET_INFO
 ---
@@ -56,18 +57,6 @@ An offload target calls the
   connection.
 
 
-## -prototype
-
-
-````
-VOID NdisTcpOffloadEventHandler(
-  _In_ NDIS_HANDLE NdisOffloadHandle,
-  _In_ ULONG       EventType,
-  _In_ ULONG       EventSpecificInformation
-);
-````
-
-
 ## -parameters
 
 
@@ -78,7 +67,7 @@ VOID NdisTcpOffloadEventHandler(
 A handle that identifies the offloaded TCP connection on which the indication is being made. When
      the connection was offloaded, this handle was supplied in the 
      <b>NdisOffloadHandle</b> member of the 
-     <a href="..\ndischimney\ns-ndischimney-_ndis_miniport_offload_block_list.md">
+     <a href="https://msdn.microsoft.com/ebc98e65-5d11-4c3d-aea1-dfad1434c093">
      NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a> structure that was associated with the connection state.
 
 
@@ -204,10 +193,10 @@ Call the
 <li>
 Complete all outstanding send requests and disconnect requests on the connection with
       NDIS_STATUS_REQUEST_ABORTED. The offload target writes this status value to the 
-      <b>Status</b> member of each <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure in the linked list that it passes to the 
-      <a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_send_complete.md">
+      <b>Status</b> member of each <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure in the linked list that it passes to the 
+      <a href="https://msdn.microsoft.com/1689b6f9-88f3-456f-9a7c-c6b4e76cb336">
       NdisTcpOffloadSendComplete</a> function or to the 
-      <a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_disconnect_complete.md">
+      <a href="https://msdn.microsoft.com/e862d9fe-a60c-4397-95ce-62aa1ef17eae">
       NdisTcpOffloadDisconnectComplete</a> function.
 
 </li>
@@ -220,7 +209,7 @@ The offload target specifies the reason for the termination request as a <b>TCP_
     the 
     <i>EventSpecificInformation</i> parameter that it passes to the 
     <b>NdisTcpOffloadEventHandler</b> function. In response, the host stack calls the 
-    <a href="..\ndischimney\nc-ndischimney-w_terminate_offload_handler.md">MiniportTerminateOffload</a> function
+    <a href="https://msdn.microsoft.com/1b808e3c-2d64-44c9-88d3-0a0311e1dc99">MiniportTerminateOffload</a> function
     of the offload target.
 
 The offload target can request the termination of only one TCP connection per call to 
@@ -425,7 +414,7 @@ CLOSE_WAIT--The local host might still be sending data.
 </ul>
 An offload target can request the termination of all TCP connections that have been offloaded to it.
     For more information, see 
-    <a href="..\ndischimney\nf-ndischimney-ndismoffloadeventindicate.md">NdisMOffloadEventIndicate</a>.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff563619">NdisMOffloadEventIndicate</a>.
 
 <h3><a id="Indicating_a_Change_in_the_Send_Backlog_Size"></a><a id="indicating_a_change_in_the_send_backlog_size"></a><a id="INDICATING_A_CHANGE_IN_THE_SEND_BACKLOG_SIZE"></a>Indicating a Change in the Send Backlog Size</h3>
 The send backlog size can be a function of the round-trip time (RTT) for the connection, the interface
@@ -445,48 +434,46 @@ The offload target should implement a throttling mechanism to ensure that, if th
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/98b22b7f-8881-4029-9558-d5d94bb7878e">Indicating TCP Chimney-Specific Events</a>
 
 
 
-<a href="..\ndischimney\nc-ndischimney-tcp_offload_event_handler.md">ProtocolTcpOffloadEvent</a>
+<a href="https://msdn.microsoft.com/f430642b-01bf-4ed7-bfea-e8dd8d5a8208">MiniportInitiateOffload</a>
+
+
+
+<a href="https://msdn.microsoft.com/1b808e3c-2d64-44c9-88d3-0a0311e1dc99">MiniportTerminateOffload</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563619">NdisMOffloadEventIndicate</a>
+
+
+
+<a href="https://msdn.microsoft.com/e862d9fe-a60c-4397-95ce-62aa1ef17eae">
+   NdisTcpOffloadDisconnectComplete</a>
+
+
+
+<a href="https://msdn.microsoft.com/d5b1341b-cbe0-483c-9abb-b8706f2db2dd">
+   NdisTcpOffloadReceiveComplete</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564609">NdisTcpOffloadSendComplete</a>
+
+
+
+<a href="https://msdn.microsoft.com/b64c0f9e-aa3d-43c5-bdf5-c40cae3929e3">ProtocolTcpOffloadEvent</a>
 
 
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/responding-to-the-reception-of-a-fin-or-rst-segment">Responding to
      the Reception of a FIN or RST Segment</a>
-
-
-
-<a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_receive_complete.md">
-   NdisTcpOffloadReceiveComplete</a>
-
-
-
-<a href="..\ndischimney\nc-ndischimney-w_initiate_offload_handler.md">MiniportInitiateOffload</a>
-
-
-
-<a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_disconnect_complete.md">
-   NdisTcpOffloadDisconnectComplete</a>
-
-
-
-<a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_send_complete.md">NdisTcpOffloadSendComplete</a>
-
-
-
-<a href="..\ndischimney\nf-ndischimney-ndismoffloadeventindicate.md">NdisMOffloadEventIndicate</a>
-
-
-
-<a href="..\ndischimney\nc-ndischimney-w_terminate_offload_handler.md">MiniportTerminateOffload</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_TCP_OFFLOAD_EVENT_INDICATE callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

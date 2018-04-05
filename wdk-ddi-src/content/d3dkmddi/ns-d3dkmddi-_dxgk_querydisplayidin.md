@@ -7,7 +7,7 @@ old-location: display\dxgk_querydisplayidin.htm
 old-project: display
 ms.assetid: C7A2CECA-AAE5-4804-92FF-C47984BA38AF
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: DXGK_QUERYDISPLAYIDIN, DXGK_QUERYDISPLAYIDIN structure [Display Devices], _DXGK_QUERYDISPLAYIDIN, d3dkmddi/DXGK_QUERYDISPLAYIDIN, display.dxgk_querydisplayidin
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGK_QUERYDISPLAYIDIN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_QUERYDISPLAYIDIN
 ---
@@ -50,16 +51,6 @@ req.typenames: DXGK_QUERYDISPLAYIDIN
 
 
 Used to query a display ID.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGK_QUERYDISPLAYIDIN {
-  D3DDDI_VIDEO_PRESENT_TARGET_ID TargetId;
-} DXGK_QUERYDISPLAYIDIN;
-````
 
 
 ## -struct-fields

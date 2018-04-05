@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILMSGCDMABROADCASTSERVICEID
 title: RILMSGCDMABROADCASTSERVICEID
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilmsgcdmabroadcastserviceid_2.htm
+old-location: netvista\rilmsgcdmabroadcastserviceid.htm
 old-project: netvista
-ms.assetid: d991a0f6-54ba-4951-8bdb-865a537d797a
+ms.assetid: 71f887ed-ab80-4b5f-bc74-d4333984fdd2
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: RILMSGCDMABROADCASTSERVICEID, RILMSGCDMABROADCASTSERVICEID enumeration [Network Drivers Starting with Windows Vista], RIL_1xBROADCAST_CMAS_AMBER, RIL_1xBROADCAST_CMAS_EXTREME, RIL_1xBROADCAST_CMAS_SEVERE, RIL_1xBROADCAST_CMAS_TEST, netvista.rilmsgcdmabroadcastserviceid_2, rilapitypes/RILMSGCDMABROADCASTSERVICEID, rilapitypes/RIL_1xBROADCAST_CMAS_AMBER, rilapitypes/RIL_1xBROADCAST_CMAS_EXTREME, rilapitypes/RIL_1xBROADCAST_CMAS_SEVERE, rilapitypes/RIL_1xBROADCAST_CMAS_TEST
+ms.date: 3/26/2018
+ms.keywords: RILMSGCDMABROADCASTSERVICEID, RILMSGCDMABROADCASTSERVICEID enumeration [Network Drivers Starting with Windows Vista], RIL_1xBROADCAST_CMAS_AMBER, RIL_1xBROADCAST_CMAS_EXTREME, RIL_1xBROADCAST_CMAS_SEVERE, RIL_1xBROADCAST_CMAS_TEST, netvista.rilmsgcdmabroadcastserviceid, ntddrilapitypes/RILMSGCDMABROADCASTSERVICEID, ntddrilapitypes/RIL_1xBROADCAST_CMAS_AMBER, ntddrilapitypes/RIL_1xBROADCAST_CMAS_EXTREME, ntddrilapitypes/RIL_1xBROADCAST_CMAS_SEVERE, ntddrilapitypes/RIL_1xBROADCAST_CMAS_TEST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -35,10 +35,11 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILMSGCDMABROADCASTSERVICEID
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILMSGCDMABROADCASTSERVICEID
 req.product: Windows 10 or later.
@@ -50,20 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-
-## -syntax
-
-
-````
-typedef enum _RILMSGCDMABROADCASTSERVICEID { 
-  RIL_1xBROADCAST_CMAS_EXTREME,
-  RIL_1xBROADCAST_CMAS_SEVERE,
-  RIL_1xBROADCAST_CMAS_AMBER,
-  RIL_1xBROADCAST_CMAS_TEST
-} RILMSGCDMABROADCASTSERVICEID;
-````
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -enum-fields

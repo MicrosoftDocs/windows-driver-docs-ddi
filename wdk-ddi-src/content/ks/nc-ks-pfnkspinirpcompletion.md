@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	AVStrMiniPinIrpCompletion
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SOUNDDETECTOR_PATTERNHEADER
 ---
@@ -52,20 +53,6 @@ req.typenames: SOUNDDETECTOR_PATTERNHEADER
 An AVStream minidriver's <i>AVStrMiniPinIrpCompletion</i> routine is called when an IRP completes a pass around the circuit and the frame that is associated with the IRP is about to be recycled or retired.
 
 
-## -prototype
-
-
-````
-PFNKSPINIRPCOMPLETION AVStrMiniPinIrpCompletion;
-
-void AVStrMiniPinIrpCompletion(
-  _In_ PKSPIN Pin,
-  _In_ PIRP   Irp
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -73,12 +60,12 @@ void AVStrMiniPinIrpCompletion(
 
 ### -param Pin [in]
 
-Points to the <a href="..\ks\ns-ks-_kspin.md">KSPIN</a> structure for which the callback is registered.
+Points to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563483">KSPIN</a> structure for which the callback is registered.
 
 
 ### -param Irp [in]
 
-Points to an <a href="..\wdm\ns-wdm-_irp.md">IRP</a> which originated from the circuit to which <i>Pin</i> belongs.
+Points to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550694">IRP</a> which originated from the circuit to which <i>Pin</i> belongs.
 
 
 ## -returns
@@ -94,24 +81,22 @@ None
 
 
 
-The minidriver specifies this routine's address in the <i>IrpCompletion</i> parameter of a call to <a href="..\ks\nf-ks-kspinregisterirpcompletioncallback.md">KsPinRegisterIrpCompletionCallback</a>.
+The minidriver specifies this routine's address in the <i>IrpCompletion</i> parameter of a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff563524">KsPinRegisterIrpCompletionCallback</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
 
 
 
-<a href="..\ks\nf-ks-kspinregisterirpcompletioncallback.md">KsPinRegisterIrpCompletionCallback</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563483">KSPIN</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563524">KsPinRegisterIrpCompletionCallback</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20PFNKSPINIRPCOMPLETION routine%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

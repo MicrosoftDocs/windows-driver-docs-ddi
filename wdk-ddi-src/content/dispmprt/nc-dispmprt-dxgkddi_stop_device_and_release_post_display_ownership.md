@@ -7,7 +7,7 @@ old-location: display\dxgkddireleasepostdisplayownership.htm
 old-project: display
 ms.assetid: 6AF170BF-C422-4340-8935-31A4D4F3EFA5
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_STOP_DEVICE_AND_RELEASE_POST_DISPLAY_OWNERSHIP, DxgkDdiStopDeviceAndReleasePostDisplayOwnership, DxgkDdiStopDeviceAndReleasePostDisplayOwnership callback function [Display Devices], display.dxgkddireleasepostdisplayownership, dispmprt/DxgkDdiStopDeviceAndReleasePostDisplayOwnership
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	dispmprt.h
 api_name:
 -	DxgkDdiStopDeviceAndReleasePostDisplayOwnership
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 ---
@@ -53,22 +54,7 @@ Called by the operating system to request the display miniport driver to reset t
 
 Starting with Windows 8, the operating system calls this function during a Plug and Play (PnP) stop operation.
 
-To indicate to the operating system that this function is supported, the driver must set the <b>NonVGASupport</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a> structure when the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryadapterinfo.md">DxgkDdiQueryAdapterInfo</a> function is called.
-
-
-## -prototype
-
-
-````
-DXGKDDI_STOP_DEVICE_AND_RELEASE_POST_DISPLAY_OWNERSHIP DxgkDdiStopDeviceAndReleasePostDisplayOwnership;
-
-NTSTATUS DxgkDdiStopDeviceAndReleasePostDisplayOwnership(
-  _In_  PVOID                          MiniportDeviceContext,
-  _In_  D3DDDI_VIDEO_PRESENT_TARGET_ID TargetId,
-  _Out_ PDXGK_DISPLAY_INFORMATION      DisplayInfo
-)
-{ ... }
-````
+To indicate to the operating system that this function is supported, the driver must set the <b>NonVGASupport</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561062">DXGK_DRIVERCAPS</a> structure when the <a href="https://msdn.microsoft.com/f2f4c54c-7413-48e5-a165-d71f35642b6c">DxgkDdiQueryAdapterInfo</a> function is called.
 
 
 ## -parameters
@@ -78,21 +64,21 @@ NTSTATUS DxgkDdiStopDeviceAndReleasePostDisplayOwnership(
 
 ### -param MiniportDeviceContext [in]
 
-A handle to a context block that is associated with a display adapter. The display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function previously provided this handle to the Microsoft DirectX graphics kernel subsystem.
+A handle to a context block that is associated with a display adapter. The display miniport driver's <a href="https://msdn.microsoft.com/5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea">DxgkDdiAddDevice</a> function previously provided this handle to the Microsoft DirectX graphics kernel subsystem.
 
 
 
 
 ### -param TargetId [in]
 
-A <b>D3DDDI_VIDEO_PRESENT_TARGET_ID</b> value that specifies the identifier of the video present target on the display adapter that the display device is connected to. This identifier could be for the target that was left in the current video present network (VidPN) state during the previous call to <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_commitvidpn.md">DxgkDdiCommitVidPn</a>.
+A <b>D3DDDI_VIDEO_PRESENT_TARGET_ID</b> value that specifies the identifier of the video present target on the display adapter that the display device is connected to. This identifier could be for the target that was left in the current video present network (VidPN) state during the previous call to <a href="https://msdn.microsoft.com/979b86e9-f3ff-4022-8c00-b6afc2b1f747">DxgkDdiCommitVidPn</a>.
 
 For more details about the use of the <i>TargetId</i> parameter, see the following Remarks section.
 
 
 ### -param DisplayInfo [out]
 
-A pointer to a <a href="..\d3dkmdt\ns-d3dkmdt-_dxgk_display_information.md">DXGK_DISPLAY_INFORMATION</a> structure that is allocated by the operating system.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh464017">DXGK_DISPLAY_INFORMATION</a> structure that is allocated by the operating system.
 
 
 ## -returns
@@ -133,7 +119,7 @@ The driver must stop the display device associated with the video present target
 <li>The driver must disable the signal to all other displays that are connected to the display adapter. If this is not possible, the driver should attempt to place a blank image on all other displays. If this is not possible, the driver must leave the last image on the screen unchanged.</li>
 <li>The driver must keep the current display mode on the indicated target and provide this mode back to the operating system as part of this function call.</li>
 <li>
-If the driver cannot maintain the current display mode, or if the target is not part of the active topology, the driver should select an alternate active target and attempt to maintain the current resolution of that target. If that is not possible, the driver should attempt to set the display to its native resolution or to a high-resolution mode. In this case, the  display resolution must be set to at least 800 x 600 pixels in either <b>D3DDDIFMT_R8G8B8</b> (24 bits per pixel) or <b>D3DDDIFMT_X8R8G8B8</b> (32 bpp) color formats of the <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a> enumeration.
+If the driver cannot maintain the current display mode, or if the target is not part of the active topology, the driver should select an alternate active target and attempt to maintain the current resolution of that target. If that is not possible, the driver should attempt to set the display to its native resolution or to a high-resolution mode. In this case, the  display resolution must be set to at least 800 x 600 pixels in either <b>D3DDDIFMT_R8G8B8</b> (24 bits per pixel) or <b>D3DDDIFMT_X8R8G8B8</b> (32 bpp) color formats of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544312">D3DDDIFORMAT</a> enumeration.
 
 </li>
 <li>If no target is active, the driver should attempt to enable a target, preferably the internal panel, if it is available.</li>
@@ -155,7 +141,7 @@ The driver must 	set the current frame buffer to be in a linear mode. The driver
 </li>
 <li>The driver must ensure that the visibility of the indicated target is set to "enabled."</li>
 </ol>
-After the display miniport driver performs these steps, it must return the current display settings for the device. The driver returns this information by setting the members of the <a href="..\d3dkmdt\ns-d3dkmdt-_dxgk_display_information.md">DXGK_DISPLAY_INFORMATION</a> structure that is referenced by the <i>DisplayInfo</i> parameter.
+After the display miniport driver performs these steps, it must return the current display settings for the device. The driver returns this information by setting the members of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh464017">DXGK_DISPLAY_INFORMATION</a> structure that is referenced by the <i>DisplayInfo</i> parameter.
 
 <div class="alert"><b>Note</b>  After the device has been stopped, this display information might be used by the Windows generic display driver to manage the display device.</div>
 <div> </div>
@@ -168,7 +154,7 @@ Starting with Windows 8, the operating system calls the driver's <i>DxgkDdiStop
 
 <div class="alert"><b>Note</b>  	It is optional for the display miniport driver to call <a href="https://msdn.microsoft.com/6454adb3-c958-467b-acbc-b8937b98cd57">DxgkCbAcquirePostDisplayOwnership</a>. However, the operating system might still call the <i>DxgkDdiStopDeviceAndReleasePostDisplayOwnership</i> function of the device driver if the driver did not previously call <b>DxgkCbAcquirePostDisplayOwnership</b>.</div>
 <div> </div>
-If the driver successfully completes a call to this function, the operating system will not call the <a href="..\dispmprt\nc-dispmprt-dxgkddi_stop_device.md">DxgkDdiStopDevice</a> function. If the driver fails to complete a call to this function, the operating system will call the <i>DxgkDdiStopDevice</i> function, and device behavior will be the same as in Windows 7.
+If the driver successfully completes a call to this function, the operating system will not call the <a href="https://msdn.microsoft.com/3c17c7cf-9cfa-421d-a503-88726519fb6c">DxgkDdiStopDevice</a> function. If the driver fails to complete a call to this function, the operating system will call the <i>DxgkDdiStopDevice</i> function, and device behavior will be the same as in Windows 7.
 
 On UEFI-only systems, if the display miniport driver fails a call to this function, a black screen is displayed and the IHV driver is not installed. The workaround to this scenario is for the user to reboot the computer.
 
@@ -179,19 +165,6 @@ For more information on how this function is used in PnP scenarios, see <a href=
 
 ## -see-also
 
-<a href="..\d3dkmdt\ns-d3dkmdt-_dxgk_display_information.md">DXGK_DISPLAY_INFORMATION</a>
-
-
-
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_stop_device.md">DxgkDdiStopDevice</a>
-
-
-
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a>
-
-
-
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
 
 
@@ -199,21 +172,32 @@ For more information on how this function is used in PnP scenarios, see <a href=
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh464017">DXGK_DISPLAY_INFORMATION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561062">DXGK_DRIVERCAPS</a>
+
+
+
 <a href="https://msdn.microsoft.com/6454adb3-c958-467b-acbc-b8937b98cd57">DxgkCbAcquirePostDisplayOwnership</a>
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a>
+<a href="https://msdn.microsoft.com/5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea">DxgkDdiAddDevice</a>
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryadapterinfo.md">DxgkDdiQueryAdapterInfo</a>
+<a href="https://msdn.microsoft.com/f2f4c54c-7413-48e5-a165-d71f35642b6c">DxgkDdiQueryAdapterInfo</a>
 
 
 
+<a href="https://msdn.microsoft.com/ffacbb39-2581-4207-841d-28ce57fbc64d">DxgkDdiStartDevice</a>
+
+
+
+<a href="https://msdn.microsoft.com/3c17c7cf-9cfa-421d-a503-88726519fb6c">DxgkDdiStopDevice</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKDDI_STOP_DEVICE_AND_RELEASE_POST_DISPLAY_OWNERSHIP callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

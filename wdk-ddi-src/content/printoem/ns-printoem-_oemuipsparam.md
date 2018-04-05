@@ -7,7 +7,7 @@ old-location: print\oemuipsparam.htm
 old-project: print
 ms.assetid: e7708b33-b032-41b9-84f9-6c5b38044f9c
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: "*POEMUIPSPARAM, OEMUIPSPARAM, OEMUIPSPARAM structure [Print Devices], POEMUIPSPARAM, POEMUIPSPARAM structure pointer [Print Devices], _OEMUIPSPARAM, print.oemuipsparam, print_unidrv-pscript_ui_7a4c3f10-5a2d-45da-99e4-bbd6ee0fb8bf.xml, printoem/OEMUIPSPARAM, printoem/POEMUIPSPARAM"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	printoem.h
 api_name:
 -	OEMUIPSPARAM
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OEMUIPSPARAM, *POEMUIPSPARAM
 req.product: Windows 10 or later.
@@ -51,26 +52,6 @@ req.product: Windows 10 or later.
 
 
 The OEMUIPSPARAM structure is passed to a user interface plug-in's <a href="https://msdn.microsoft.com/library/windows/hardware/ff554165">IPrintOemUI::DevicePropertySheets</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff554173">IPrintOemUI::DocumentPropertySheets</a> methods.
-
-
-## -syntax
-
-
-````
-typedef struct _OEMUIPSPARAM {
-  DWORD     cbSize;
-  POEMUIOBJ poemuiobj;
-  HANDLE    hPrinter;
-  PWSTR     pPrinterName;
-  HANDLE    hModule;
-  HANDLE    hOEMHeap;
-  PDEVMODE  pPublicDM;
-  PVOID     pOEMDM;
-  PVOID     pOEMUserData;
-  DWORD     dwFlags;
-  PVOID     pOemEntry;
-} OEMUIPSPARAM, *POEMUIPSPARAM;
-````
 
 
 ## -struct-fields
@@ -144,7 +125,7 @@ Not used.
 
 ### -field pOEMUserData
 
-Pointer, supplied by user interface plug-in, to a location containing private information. This pointer is returned to the plug-in's <a href="..\compstui\nc-compstui-_cpsuicallback.md">_CPSUICALLBACK</a>-typed callback function when a property sheet item has changed.
+Pointer, supplied by user interface plug-in, to a location containing private information. This pointer is returned to the plug-in's <a href="https://msdn.microsoft.com/library/windows/hardware/ff564313">_CPSUICALLBACK</a>-typed callback function when a property sheet item has changed.
 
 
 ### -field dwFlags
@@ -155,13 +136,13 @@ Pointer, supplied by user interface plug-in, to a location containing private in
 
 #### For calls to IPrintOemUI::DocumentPropertySheets:
 
-Contains the contents of the <b>fMode</b> member of the DOCUMENTPROPERTYHEADER structure received by the printer driver's <a href="..\winddiui\nf-winddiui-drvdocumentpropertysheets.md">DrvDocumentPropertySheets</a> function.
+Contains the contents of the <b>fMode</b> member of the DOCUMENTPROPERTYHEADER structure received by the printer driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff548548">DrvDocumentPropertySheets</a> function.
 
 
 
 #### For calls to IPrintOemUI::DevicePropertySheets:
 
-Contains the contents of the <b>Flags</b> member of the DEVICEPROPERTYHEADER structure received by the printer driver's <a href="..\winddiui\nf-winddiui-drvdevicepropertysheets.md">DrvDevicePropertySheets</a> function.
+Contains the contents of the <b>Flags</b> member of the DEVICEPROPERTYHEADER structure received by the printer driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff548542">DrvDevicePropertySheets</a> function.
 
 
 ### -field pOemEntry
@@ -171,7 +152,14 @@ Reserved for system use.
 
 ## -see-also
 
-<a href="..\winddiui\nf-winddiui-drvdocumentpropertysheets.md">DrvDocumentPropertySheets</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548542">DrvDevicePropertySheets</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548548">DrvDocumentPropertySheets</a>
 
 
 
@@ -183,17 +171,8 @@ Reserved for system use.
 
 
 
-<a href="..\compstui\nc-compstui-_cpsuicallback.md">_CPSUICALLBACK</a>
-
-
-
-<a href="..\winddiui\nf-winddiui-drvdevicepropertysheets.md">DrvDevicePropertySheets</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564313">_CPSUICALLBACK</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20OEMUIPSPARAM structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

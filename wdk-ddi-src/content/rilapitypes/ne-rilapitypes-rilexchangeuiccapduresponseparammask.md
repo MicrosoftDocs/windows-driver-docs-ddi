@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILEXCHANGEUICCAPDURESPONSEPARAMMASK
 title: RILEXCHANGEUICCAPDURESPONSEPARAMMASK
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilexchangeuiccapduresponseparammask_2.htm
+old-location: netvista\rilexchangeuiccapduresponseparammask.htm
 old-project: netvista
-ms.assetid: 6192920a-138b-49d9-ba78-84e3e70cb8df
+ms.assetid: 24daa47b-993c-49ee-b4e2-462cd7570f3c
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: RILEXCHANGEUICCAPDURESPONSEPARAMMASK, RILEXCHANGEUICCAPDURESPONSEPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_EUAR_ALL, RIL_PARAM_EUAR_RESPONSEAPDU, netvista.rilexchangeuiccapduresponseparammask_2, rilapitypes/RILEXCHANGEUICCAPDURESPONSEPARAMMASK, rilapitypes/RIL_PARAM_EUAR_ALL, rilapitypes/RIL_PARAM_EUAR_RESPONSEAPDU
+ms.date: 3/26/2018
+ms.keywords: RILEXCHANGEUICCAPDURESPONSEPARAMMASK, RILEXCHANGEUICCAPDURESPONSEPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_EUAR_ALL, RIL_PARAM_EUAR_RESPONSEAPDU, netvista.rilexchangeuiccapduresponseparammask, ntddrilapitypes/RILEXCHANGEUICCAPDURESPONSEPARAMMASK, ntddrilapitypes/RIL_PARAM_EUAR_ALL, ntddrilapitypes/RIL_PARAM_EUAR_RESPONSEAPDU
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -35,10 +35,11 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILEXCHANGEUICCAPDURESPONSEPARAMMASK
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILEXCHANGEUICCAPDURESPONSEPARAMMASK
 req.product: Windows 10 or later.
@@ -50,18 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-
-## -syntax
-
-
-````
-typedef enum _RILEXCHANGEUICCAPDURESPONSEPARAMMASK { 
-  RIL_PARAM_EUAR_RESPONSEAPDU,
-  RIL_PARAM_EUAR_ALL
-} RILEXCHANGEUICCAPDURESPONSEPARAMMASK;
-````
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -enum-fields

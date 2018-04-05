@@ -7,7 +7,7 @@ old-location: image\twain_capability.htm
 old-project: image
 ms.assetid: 79a2155d-eb06-4095-9fe6-b95d93e46211
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/27/2018
 ms.keywords: "*PTWAIN_CAPABILITY, PTWAIN_CAPABILITY, PTWAIN_CAPABILITY structure pointer [Imaging Devices], TWAIN_CAPABILITY, TWAIN_CAPABILITY structure [Imaging Devices], _TWAIN_CAPABILITY, image.twain_capability, wiastrct_12204cb8-d0ad-46d5-a741-4522ba28006b.xml, wiatwcmp/PTWAIN_CAPABILITY, wiatwcmp/TWAIN_CAPABILITY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	wiatwcmp.h
 api_name:
 -	TWAIN_CAPABILITY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TWAIN_CAPABILITY, *PTWAIN_CAPABILITY
 req.product: Windows 10 or later.
@@ -51,23 +52,6 @@ req.product: Windows 10 or later.
 
 
 The TWAIN_CAPABILITY structure holds information used when a TWAIN-compatible application communicates with a WIA driver.
-
-
-## -syntax
-
-
-````
-typedef struct _TWAIN_CAPABILITY {
-  LONG lSize;
-  LONG lMSG;
-  LONG lCapID;
-  LONG lConType;
-  LONG lRC;
-  LONG lCC;
-  LONG lDataSize;
-  BYTE Data[1];
-} TWAIN_CAPABILITY, *PTWAIN_CAPABILITY;
-````
 
 
 ## -struct-fields

@@ -7,7 +7,7 @@ old-location: debugger\debug_event_context.htm
 old-project: debugger
 ms.assetid: 3748675F-8187-4072-A0D0-3764B4D20288
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/26/2018
 ms.keywords: "*PDEBUG_EVENT_CONTEXT, DEBUG_EVENT_CONTEXT, DEBUG_EVENT_CONTEXT structure [Windows Debugging], PDEBUG_EVENT_CONTEXT, PDEBUG_EVENT_CONTEXT structure pointer [Windows Debugging], _DEBUG_EVENT_CONTEXT, dbgeng/DEBUG_EVENT_CONTEXT, dbgeng/PDEBUG_EVENT_CONTEXT, debugger.debug_event_context"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	DbgEng.h
 api_name:
 -	DEBUG_EVENT_CONTEXT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DEBUG_EVENT_CONTEXT, *PDEBUG_EVENT_CONTEXT
 ---
@@ -50,19 +51,6 @@ req.typenames: DEBUG_EVENT_CONTEXT, *PDEBUG_EVENT_CONTEXT
 
 
 Defines context information about an event.
-
-
-## -syntax
-
-
-````
-typedef struct _DEBUG_EVENT_CONTEXT {
-  ULONG Size;
-  ULONG ProcessEngineId;
-  ULONG ThreadEngineId;
-  ULONG FrameEngineId;
-} DEBUG_EVENT_CONTEXT, *PDEBUG_EVENT_CONTEXT;
-````
 
 
 ## -struct-fields
@@ -92,13 +80,11 @@ The frame engine ID of the event.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff541478">DEBUG_EVENT_XXX</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20DEBUG_EVENT_CONTEXT structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

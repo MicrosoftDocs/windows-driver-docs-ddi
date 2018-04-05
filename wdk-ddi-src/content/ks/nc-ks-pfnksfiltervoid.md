@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	AVStrMiniFilterReset
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SOUNDDETECTOR_PATTERNHEADER
 ---
@@ -52,19 +53,6 @@ req.typenames: SOUNDDETECTOR_PATTERNHEADER
 An AVStream minidriver's <i>AVStrMiniFilterReset</i> routine is called when AVStream receives an IOCTL_KS_RESET_STATE to return the filter to the state it was in at <i>Acquire</i>-time. This routine is also called when a queue associated with a pin on the filter is flushed. <i>This routine will only be called for a filter-centric filter</i>.
 
 
-## -prototype
-
-
-````
-PFNKSFILTERVOID AVStrMiniFilterReset;
-
-NTSTATUS AVStrMiniFilterReset(
-  _In_ PKSFILTER Filter
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -72,7 +60,7 @@ NTSTATUS AVStrMiniFilterReset(
 
 ### -param Filter [in]
 
-Pointer to the <a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a> to return to its previous state.
+Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562522">KSFILTER</a> to return to its previous state.
 
 
 ## -returns
@@ -92,7 +80,7 @@ For more information, see <a href="https://msdn.microsoft.com/e56c5102-7ea6-4687
 
 Note that it is not the filter in question, but rather a pin on this filter that actually receives the reset IOCTL.
 
-The minidriver specifies this routine's address in the <b>Reset</b> member of its <a href="..\ks\ns-ks-_ksfilter_dispatch.md">KSFILTER_DISPATCH</a> structure.
+The minidriver specifies this routine's address in the <b>Reset</b> member of its <a href="https://msdn.microsoft.com/library/windows/hardware/ff562554">KSFILTER_DISPATCH</a> structure.
 
 The filter control mutex may be held during this function. See <a href="https://msdn.microsoft.com/402795a0-e567-4e7e-a7d8-b2ce29ffb8fd">Filter Control Mutex in AVStream</a>.
 
@@ -103,13 +91,11 @@ This routine is optional.
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksfilter_dispatch.md">KSFILTER_DISPATCH</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562554">KSFILTER_DISPATCH</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20PFNKSFILTERVOID routine%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

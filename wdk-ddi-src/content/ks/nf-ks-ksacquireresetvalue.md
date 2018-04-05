@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsAcquireResetValue
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,17 +52,6 @@ req.typenames:
 
 
 The <b>KsAcquireResetValue </b>function retrieves the current reset state from an IOCTL_KS_RESET_STATE IRP.
-
-
-## -syntax
-
-
-````
-NTSTATUS KsAcquireResetValue(
-  _In_  PIRP    Irp,
-  _Out_ KSRESET *ResetValue
-);
-````
 
 
 ## -parameters

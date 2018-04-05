@@ -7,7 +7,7 @@ old-location: storage\ide_controller_interface.htm
 old-project: storage
 ms.assetid: cb18f7d9-f9e8-436d-8d61-3641730bd8a2
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PIDE_CONTROLLER_INTERFACE, IDE_CONTROLLER_INTERFACE, IDE_CONTROLLER_INTERFACE structure [Storage Devices], PIDE_CONTROLLER_INTERFACE, PIDE_CONTROLLER_INTERFACE structure pointer [Storage Devices], _IDE_CONTROLLER_INTERFACE, irb/IDE_CONTROLLER_INTERFACE, irb/PIDE_CONTROLLER_INTERFACE, storage.ide_controller_interface, structs-ATA_3b2abcb7-676c-44c9-a2a3-c4efb0f1e032.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	irb.h
 api_name:
 -	IDE_CONTROLLER_INTERFACE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: IDE_CONTROLLER_INTERFACE, *PIDE_CONTROLLER_INTERFACE
 ---
@@ -51,24 +52,6 @@ req.typenames: IDE_CONTROLLER_INTERFACE, *PIDE_CONTROLLER_INTERFACE
 
 The IDE_CONTROLLER_INTERFACE structure is used to pass controller configuration information between the port driver and the miniport driver.
 <div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
-
-## -syntax
-
-
-````
-typedef struct _IDE_CONTROLLER_INTERFACE {
-  USHORT                   Version;
-  USHORT                   Reserved;
-  ULONG                    ControllerExtensionSize;
-  ULONG                    ChannelExtensionSize;
-  ULONG                    AlignmentMask;
-  IDE_CHANNEL_INIT         AtaChannelInitRoutine;
-  IDE_CHANNEL_ENABLED      AtaControllerChannelEnabled;
-  IDE_TRANSFER_MODE_SELECT AtaControllerTransferModeSelect;
-  IDE_ADAPTER_CONTROL      AtaAdapterControl;
-} IDE_CONTROLLER_INTERFACE, *PIDE_CONTROLLER_INTERFACE;
-````
-
 
 ## -struct-fields
 

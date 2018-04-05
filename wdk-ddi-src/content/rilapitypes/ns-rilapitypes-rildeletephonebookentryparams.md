@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILDELETEPHONEBOOKENTRYPARAMS
 title: RILDELETEPHONEBOOKENTRYPARAMS
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rildeletephonebookentryparams_2.htm
+old-location: netvista\rildeletephonebookentryparams.htm
 old-project: netvista
-ms.assetid: 33e64f4f-a632-47d0-a133-f64d6f4b1cda
+ms.assetid: 1a372468-2bad-44d4-a19a-d3b517b7ed7b
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: "*LPRILDELETEPHONEBOOKENTRYPARAMS, RILDELETEPHONEBOOKENTRYPARAMS, RILDELETEPHONEBOOKENTRYPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rildeletephonebookentryparams_2, rilapitypes/RILDELETEPHONEBOOKENTRYPARAMS"
+ms.date: 3/26/2018
+ms.keywords: "*LPRILDELETEPHONEBOOKENTRYPARAMS, RILDELETEPHONEBOOKENTRYPARAMS, RILDELETEPHONEBOOKENTRYPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rildeletephonebookentryparams, ntddrilapitypes/RILDELETEPHONEBOOKENTRYPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,10 +35,11 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILDELETEPHONEBOOKENTRYPARAMS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILDELETEPHONEBOOKENTRYPARAMS, *LPRILDELETEPHONEBOOKENTRYPARAMS
 req.product: Windows 10 or later.
@@ -50,21 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-
-## -syntax
-
-
-````
-typedef struct _RILDELETEPHONEBOOKENTRYPARAMS {
-  HUICCAPP                    hUiccApp;
-  RILPHONEENTRYSTORELOCATION  dwStoreLocation;
-  DWORD                       dwIndex;
-  BOOL                        fHasLockVerification;
-  RILUICCLOCKCREDENTIAL       lockVerification;
-} RILDELETEPHONEBOOKENTRYPARAMS, RILDELETEPHONEBOOKENTRYPARAMS;
-````
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -struct-fields

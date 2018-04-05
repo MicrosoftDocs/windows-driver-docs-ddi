@@ -7,7 +7,7 @@ old-location: kernel\pofxissuecomponentperfstatechange.htm
 old-project: kernel
 ms.assetid: DBB4747B-F6CF-4842-988C-6FAA9C552EA9
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/28/2018
 ms.keywords: PO_FX_FLAG_ASYNC_ONLY, PO_FX_FLAG_BLOCKING, PoFxIssueComponentPerfStateChange, PoFxIssueComponentPerfStateChange routine [Kernel-Mode Driver Architecture], kernel.pofxissuecomponentperfstatechange, wdm/PoFxIssueComponentPerfStateChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ntoskrnl.exe
 api_name:
 -	PoFxIssueComponentPerfStateChange
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
@@ -54,20 +55,6 @@ The <b>PoFxIssueComponentPerfStateChange</b> routine submits a request to place 
     particular performance state. 
 
 
-## -syntax
-
-
-````
-VOID PoFxIssueComponentPerfStateChange(
-  _In_ POHANDLE                 Handle,
-  _In_ ULONG                    Flags,
-  _In_ ULONG                    Component,
-  _In_ PPO_FX_PERF_STATE_CHANGE PerfChange,
-  _In_ PVOID                    Context
-);
-````
-
-
 ## -parameters
 
 
@@ -75,7 +62,7 @@ VOID PoFxIssueComponentPerfStateChange(
 
 ### -param Handle [in]
 
-A handle that represents the registration of the device with PoFx. The device driver previously received this handle from the <a href="..\wdm\nf-wdm-pofxregisterdevice.md">PoFxRegisterDevice</a> routine.
+A handle that represents the registration of the device with PoFx. The device driver previously received this handle from the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439521">PoFxRegisterDevice</a> routine.
 
 
 ### -param Flags [in]
@@ -117,12 +104,12 @@ Make the condition change fully asynchronous. If this flag is set, the calling d
 
 ### -param Component [in]
 
-The index that identifies the component. This parameter is an index into the <b>Components</b> array in the <a href="..\wudfwdm\ns-wudfwdm-_po_fx_device_v1.md">PO_FX_DEVICE</a> structure that the device driver used to register the device with PoFx. If the <b>Components</b> array contains N elements, component indexes range from 0 to N–1.
+The index that identifies the component. This parameter is an index into the <b>Components</b> array in the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439585">PO_FX_DEVICE</a> structure that the device driver used to register the device with PoFx. If the <b>Components</b> array contains N elements, component indexes range from 0 to N–1.
 
 
 ### -param PerfChange [in]
 
-A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_po_fx_perf_state_change.md">PO_FX_PERF_STATE_CHANGE</a> structure that represents the new performance state of the component.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn939836">PO_FX_PERF_STATE_CHANGE</a> structure that represents the new performance state of the component.
 
 
 ### -param Context [in]
@@ -144,7 +131,7 @@ None
 
 
 When a driver calls <b>PoFxIssueComponentPerfStateChange</b>, the power management framework (PoFx) requests the platform extension plug-in (PEP) to place 
-    the component's performance state set in the specified performance state. This routine may be used with both discrete and range-based types of performance state sets. For more information about discrete and range-based performance state sets, see <a href="..\wudfwdm\ne-wudfwdm-_po_fx_perf_state_type.md">PO_FX_PERF_STATE_TYPE</a>.
+    the component's performance state set in the specified performance state. This routine may be used with both discrete and range-based types of performance state sets. For more information about discrete and range-based performance state sets, see <a href="https://msdn.microsoft.com/library/windows/hardware/dn939837">PO_FX_PERF_STATE_TYPE</a>.
 
 If <i>Flags</i> = <b>PO_FX_FLAG_BLOCKING</b>, the <b>PoFxIssueComponentPerfStateChange</b> call is synchronous. In this case, <b>PoFxIssueComponentPerfStateChange</b> waits to return until the component completes the performance state transition. The driver's <a href="https://msdn.microsoft.com/library/windows/hardware/dn939353">ComponentPerfStateCallback</a> routine is called to inform the driver that the component's performance state change is complete. This callback occurs in the same thread as the call to <b>PoFxIssueComponentPerfStateChange</b>, and <b>PoFxIssueComponentPerfStateChange</b> returns only after the <i>ComponentPerfStateCallback</i> callback returns. 
 
@@ -163,15 +150,6 @@ Only a single call of the <b>PoFxIssueComponentPerfStateChange</b> routine  is a
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-pofxissuecomponentperfstatechangemultiple.md">PoFxIssueComponentPerfStateChangeMultiple</a>
-
-
-
-<a href="..\wudfwdm\ne-wudfwdm-_po_fx_perf_state_type.md">PO_FX_PERF_STATE_TYPE</a>
-
-
-
-<a href="..\wdm\nf-wdm-pofxregistercomponentperfstates.md">PoFxRegisterComponentPerfStates</a>
 
 
 
@@ -183,9 +161,16 @@ Only a single call of the <b>PoFxIssueComponentPerfStateChange</b> routine  is a
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn939837">PO_FX_PERF_STATE_TYPE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn939772">PoFxIssueComponentPerfStateChangeMultiple</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn939778">PoFxRegisterComponentPerfStates</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PoFxIssueComponentPerfStateChange routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

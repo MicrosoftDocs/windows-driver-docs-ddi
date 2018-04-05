@@ -38,7 +38,8 @@ api_location:
 -	Ntddser.h
 api_name:
 -	IOCTL_SERIAL_GET_STATS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SD_REQUEST_FUNCTION
 ---
@@ -46,17 +47,12 @@ req.typenames: SD_REQUEST_FUNCTION
 # IOCTL_SERIAL_GET_STATS IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
 The <b>IOCTL_SERIAL_GET_STATS</b> request returns information about the performance of a serial controller. The statistics include the number of characters transmitted, the number of characters received, and useful error statistics. The driver continuously increments performance values.
 
-To reset the accumulated performance values to zero, a client can use an <a href="..\ntddser\ni-ntddser-ioctl_serial_clear_stats.md">IOCTL_SERIAL_CLEAR_STATS</a> request.
+To reset the accumulated performance values to zero, a client can use an <a href="https://msdn.microsoft.com/library/windows/hardware/ff546538">IOCTL_SERIAL_CLEAR_STATS</a> request.
 
 
 ## -ioctlparameters
@@ -81,7 +77,7 @@ The <b>AssociatedIrp.SystemBuffer</b> member points to a client-allocated <b>SER
 
 ### -output-buffer-length
 
-The <b>Parameters.DeviceIoControl.OutputBufferLength</b> member is set to the size, in bytes, of a <a href="..\ntddser\ns-ntddser-_serialperf_stats.md">SERIALPERF_STATS</a> structure.
+The <b>Parameters.DeviceIoControl.OutputBufferLength</b> member is set to the size, in bytes, of a <a href="https://msdn.microsoft.com/library/windows/hardware/jj680683">SERIALPERF_STATS</a> structure.
 
 
 ### -in-out-buffer
@@ -109,17 +105,15 @@ The <b>Parameters.DeviceIoControl.OutputBufferLength</b> member is set to the si
 
 ## -see-also
 
-<a href="..\ntddser\ns-ntddser-_serialperf_stats.md">SERIALPERF_STATS</a>
 
 
 
-<a href="..\ntddser\ni-ntddser-ioctl_serial_clear_stats.md">IOCTL_SERIAL_CLEAR_STATS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546538">IOCTL_SERIAL_CLEAR_STATS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj680683">SERIALPERF_STATS</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [serports\serports]:%20IOCTL_SERIAL_GET_STATS control code%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

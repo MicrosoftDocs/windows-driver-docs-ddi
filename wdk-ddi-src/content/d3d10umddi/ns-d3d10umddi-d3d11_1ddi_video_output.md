@@ -7,7 +7,7 @@ old-location: display\d3d11_1ddi_video_output.htm
 old-project: display
 ms.assetid: e82ab7bf-9585-4c8b-9e1f-2082e2c530b1
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: D3D11_1DDI_VIDEO_OUTPUT, D3D11_1DDI_VIDEO_OUTPUT structure [Display Devices], d3d10umddi/D3D11_1DDI_VIDEO_OUTPUT, display.d3d11_1ddi_video_output
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3d10umddi.h
 api_name:
 -	D3D11_1DDI_VIDEO_OUTPUT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D11_1DDI_VIDEO_OUTPUT
 ---
@@ -50,16 +51,6 @@ req.typenames: D3D11_1DDI_VIDEO_OUTPUT
 
 
 Reserved for system use. Do not use in your driver.
-
-
-## -syntax
-
-
-````
-typedef struct D3D11_1DDI_VIDEO_OUTPUT {
-  UINT8 Reserved;
-} D3D11_1DDI_VIDEO_OUTPUT;
-````
 
 
 ## -struct-fields

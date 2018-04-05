@@ -7,7 +7,7 @@ old-location: print\iprintoemuni3_interface.htm
 old-project: print
 ms.assetid: cf5705fb-8420-4eec-99d4-d56f192da581
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: IPrintOemUni3, IPrintOemUni3 interface [Print Devices], IPrintOemUni3 interface [Print Devices], described, prcomoem/IPrintOemUni3, print.iprintoemuni3_interface, print_unidrv-pscript_rendering_631f975d-1d52-4db8-8e90-71cdb99f4ef1.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: prcomoem.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	prcomoem.h
 api_name:
 -	IPrintOemUni3
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
@@ -52,7 +53,7 @@ req.product: Windows 10 or later.
 
 This section describes the methods defined for the <b>IPrintOemUni3</b> COM interface.
 
-The <b>IPrintOemUni3</b> COM interface includes its own methods as well as those that belong to <a href="..\prcomoem\nn-prcomoem-iprintoemuni.md">IPrintOemUni</a> COM interface and the <a href="..\prcomoem\nn-prcomoem-iprintoemuni2.md">IPrintOemUni2</a> COM interface.
+The <b>IPrintOemUni3</b> COM interface includes its own methods as well as those that belong to <a href="https://msdn.microsoft.com/097366a0-2ded-435c-9b63-2b736b716032">IPrintOemUni</a> COM interface and the <a href="https://msdn.microsoft.com/789ca699-89b3-41d3-9167-812f1a9eb3bc">IPrintOemUni2</a> COM interface.
 
 The <b>IPrintOemUni3</b> COM interface is available in Windows Vista and later.
 

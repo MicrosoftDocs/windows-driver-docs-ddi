@@ -7,7 +7,7 @@ old-location: display\dxvahdddi_device_desc.htm
 old-project: display
 ms.assetid: c40f4151-a392-463f-888f-d575e6992062
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: DXVA2_Structs_ed3bcbea-9cf3-4a81-9134-e667e8121924.xml, DXVAHDDDI_DEVICE_DESC, DXVAHDDDI_DEVICE_DESC structure [Display Devices], _DXVAHDDDI_DEVICE_DESC, d3dumddi/DXVAHDDDI_DEVICE_DESC, display.dxvahdddi_device_desc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	DXVAHDDDI_DEVICE_DESC
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXVAHDDDI_DEVICE_DESC
 ---
@@ -52,17 +53,6 @@ req.typenames: DXVAHDDDI_DEVICE_DESC
 The DXVAHDDDI_DEVICE_DESC structure describes a decode device.  
 
 
-## -syntax
-
-
-````
-typedef struct _DXVAHDDDI_DEVICE_DESC {
-  DXVAHDDDI_CONTENT_DESC *pContentDesc;
-  DXVAHDDDI_DEVICE_USAGE Usage;
-} DXVAHDDDI_DEVICE_DESC;
-````
-
-
 ## -struct-fields
 
 
@@ -70,12 +60,12 @@ typedef struct _DXVAHDDDI_DEVICE_DESC {
 
 ### -field pContentDesc
 
-[in] A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_content_desc.md">DXVAHDDDI_CONTENT_DESC</a> structure that describes how the device decodes content. 
+[in] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563039">DXVAHDDDI_CONTENT_DESC</a> structure that describes how the device decodes content. 
 
 
 ### -field Usage
 
-[in] A <a href="..\d3dumddi\ne-d3dumddi-_dxvahdddi_device_usage.md">DXVAHDDDI_DEVICE_USAGE</a>-typed value that indicates how the decode device plays video. 
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff563051">DXVAHDDDI_DEVICE_USAGE</a>-typed value that indicates how the decode device plays video. 
 
 
 ## -remarks
@@ -89,17 +79,15 @@ The driver considers the value in the <b>Usage</b> member and the information to
 
 ## -see-also
 
-<a href="..\d3dumddi\ne-d3dumddi-_dxvahdddi_device_usage.md">DXVAHDDDI_DEVICE_USAGE</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_content_desc.md">DXVAHDDDI_CONTENT_DESC</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563039">DXVAHDDDI_CONTENT_DESC</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563051">DXVAHDDDI_DEVICE_USAGE</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVAHDDDI_DEVICE_DESC structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

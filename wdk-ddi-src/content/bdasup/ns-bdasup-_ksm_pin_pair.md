@@ -38,7 +38,8 @@ api_location:
 -	bdasup.h
 api_name:
 -	KSM_PIN_PAIR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSM_PIN_PAIR, *PKSM_PIN_PAIR
 ---
@@ -50,19 +51,6 @@ req.typenames: KSM_PIN_PAIR, *PKSM_PIN_PAIR
 
 
 The KSM_PIN_PAIR structure describes a method request to retrieve the pin pairing structure (BDA_PIN_PAIRING) between a pair of input and output pins. 
-
-
-## -syntax
-
-
-````
-typedef struct _KSM_PIN_PAIR {
-  KSMETHOD Method;
-  ULONG    InputPinId;
-  ULONG    OutputPinId;
-  ULONG    Reserved;
-} KSM_PIN_PAIR, *PKSM_PIN_PAIR;
-````
 
 
 ## -struct-fields
@@ -92,17 +80,15 @@ Reserved.
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556544">BDA_PIN_PAIRING</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563398">KSMETHOD</a>
-
-
-
-<a href="..\bdasup\ns-bdasup-_bda_pin_pairing.md">BDA_PIN_PAIRING</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSM_PIN_PAIR structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

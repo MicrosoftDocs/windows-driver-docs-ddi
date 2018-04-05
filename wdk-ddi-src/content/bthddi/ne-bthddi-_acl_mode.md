@@ -38,7 +38,8 @@ api_location:
 -	bthddi.h
 api_name:
 -	ACL_MODE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: ACL_MODE
 ---
@@ -50,24 +51,6 @@ req.typenames: ACL_MODE
 
 
 The ACL_MODE enumeration type is used to list the possible states of an ACL connection.
-
-
-## -syntax
-
-
-````
-typedef enum _ACL_MODE { 
-  ACL_MODE_ACTIVE        = 0x0,
-  ACL_MODE_HOLD          = 0x1,
-  ACL_MODE_SNIFF         = 0x2,
-  ACL_MODE_PARK          = 0x3,
-  ACL_MODE_ENTER_ACTIVE  = 0x4,
-  ACL_MODE_ENTER_HOLD    = 0x5,
-  ACL_MODE_ENTER_SNIFF   = 0x6,
-  ACL_MODE_ENTER_PARK    = 0x7,
-  ACL_DISCONNECTED       = 0x8
-} ACL_MODE;
-````
 
 
 ## -enum-fields
@@ -125,7 +108,7 @@ This value indicates the ACL is disconnected.
 
 
 The 
-    <a href="..\bthddi\ns-bthddi-_brb_acl_get_mode.md">_BRB_ACL_GET_MODE</a> structure uses this
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff536855">_BRB_ACL_GET_MODE</a> structure uses this
     enumeration.
 
 
@@ -133,13 +116,11 @@ The
 
 ## -see-also
 
-<a href="..\bthddi\ns-bthddi-_brb_acl_get_mode.md">_BRB_ACL_GET_MODE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536855">_BRB_ACL_GET_MODE</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20ACL_MODE enumeration%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

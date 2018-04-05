@@ -7,7 +7,7 @@ old-location: netvista\ndismderegisterioportrange.htm
 old-project: netvista
 ms.assetid: b5b6a608-af1f-4030-b83a-a6f64ff3a264
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: NdisMDeregisterIoPortRange, NdisMDeregisterIoPortRange function [Network Drivers Starting with Windows Vista], miniport_port_io_ref_3ec72b06-3f52-46b9-b699-774a7df4a658.xml, ndis/NdisMDeregisterIoPortRange, netvista.ndismderegisterioportrange
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	ndis.dll
 api_name:
 -	NdisMDeregisterIoPortRange
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
@@ -51,21 +52,8 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 
 
 <b>NdisMDeregisterIoPortRange</b> releases a mapping that was set up with 
-  <a href="..\ndis\nf-ndis-ndismregisterioportrange.md">NdisMRegisterIoPortRange</a> during
+  <a href="https://msdn.microsoft.com/library/windows/hardware/hh975121">NdisMRegisterIoPortRange</a> during
   driver initialization.
-
-
-## -syntax
-
-
-````
-VOID NdisMDeregisterIoPortRange(
-  _In_ NDIS_HANDLE MiniportAdapterHandle,
-  _In_ UINT        InitialPort,
-  _In_ UINT        NumberOfPorts,
-  _In_ PVOID       PortOffset
-);
-````
 
 
 ## -parameters
@@ -76,7 +64,7 @@ VOID NdisMDeregisterIoPortRange(
 ### -param MiniportAdapterHandle [in]
 
 Specifies the handle input to 
-     <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>.
+     <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>.
 
 
 ### -param InitialPort [in]
@@ -112,15 +100,15 @@ The miniport driver must pass the same
     <i>InitialPort</i> and 
     <i>NumberOfPorts</i> to 
     <b>NdisMDeregisterIoPortRange</b> that were passed when 
-    <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a> called 
-    <a href="..\ndis\nf-ndis-ndismregisterioportrange.md">NdisMRegisterIoPortRange</a> to get
+    <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a> called 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/hh975121">NdisMRegisterIoPortRange</a> to get
     the mapped 
     <i>PortOffset</i> value. That is, a miniport driver cannot call 
     <b>NdisMDeregisterIoPortRange</b> to release a subrange of a mapped port range.
 
 <b>NdisMDeregisterIoPortRange</b> can be called from the 
     <i>MiniportInitializeEx</i> or 
-    <a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a> functions only if 
+    <a href="https://msdn.microsoft.com/b8d452b4-bef3-4991-87cf-fac15bedfde4">MiniportHaltEx</a> functions only if 
     <i>MiniportInitializeEx</i> previously made a successful call to 
     <b>NdisMRegisterIoPortRange</b>.
 
@@ -137,21 +125,19 @@ After it calls
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismregisterioportrange.md">NdisMRegisterIoPortRange</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
+<a href="https://msdn.microsoft.com/b8d452b4-bef3-4991-87cf-fac15bedfde4">MiniportHaltEx</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh975121">NdisMRegisterIoPortRange</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisMDeregisterIoPortRange function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

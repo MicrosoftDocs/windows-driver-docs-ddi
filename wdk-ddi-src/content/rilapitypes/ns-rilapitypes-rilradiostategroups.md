@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILRADIOSTATEGROUPS
 title: RILRADIOSTATEGROUPS
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilradiostategroups_2.htm
+old-location: netvista\rilradiostategroups.htm
 old-project: netvista
-ms.assetid: 6ef17ba4-2e87-44d6-904c-609030fe9b9b
+ms.assetid: 901fe9e5-4b3c-4f31-9bf0-a4a5bd66bd19
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: "*LPRILRADIOSTATEGROUPS, RILRADIOSTATEGROUPS, RILRADIOSTATEGROUPS structure [Network Drivers Starting with Windows Vista], netvista.rilradiostategroups_2, rilapitypes/RILRADIOSTATEGROUPS"
+ms.date: 3/26/2018
+ms.keywords: "*LPRILRADIOSTATEGROUPS, RILRADIOSTATEGROUPS, RILRADIOSTATEGROUPS structure [Network Drivers Starting with Windows Vista], netvista.rilradiostategroups, ntddrilapitypes/RILRADIOSTATEGROUPS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,10 +35,11 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILRADIOSTATEGROUPS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILRADIOSTATEGROUPS, *LPRILRADIOSTATEGROUPS
 req.product: Windows 10 or later.
@@ -50,18 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-
-## -syntax
-
-
-````
-typedef struct _RILRADIOSTATEGROUPS {
-  DWORD                  dwCntGroups;
-  RILRADIOSTATEGROUP [1] rilGroups;
-} RILRADIOSTATEGROUPS, RILRADIOSTATEGROUPS;
-````
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -struct-fields

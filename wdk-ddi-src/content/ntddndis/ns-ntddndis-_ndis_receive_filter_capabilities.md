@@ -7,7 +7,7 @@ old-location: netvista\ndis_receive_filter_capabilities.htm
 old-project: netvista
 ms.assetid: aecc1fe0-03f9-44be-9a38-b689eee4c5a6
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: "*PNDIS_RECEIVE_FILTER_CAPABILITIES, NDIS_RECEIVE_FILTER_CAPABILITIES, NDIS_RECEIVE_FILTER_CAPABILITIES structure [Network Drivers Starting with Windows Vista], PNDIS_RECEIVE_FILTER_CAPABILITIES, PNDIS_RECEIVE_FILTER_CAPABILITIES structure pointer [Network Drivers Starting with Windows Vista], _NDIS_RECEIVE_FILTER_CAPABILITIES, netvista.ndis_receive_filter_capabilities, ntddndis/NDIS_RECEIVE_FILTER_CAPABILITIES, ntddndis/PNDIS_RECEIVE_FILTER_CAPABILITIES, virtual_machine_queue_ref_51c84771-6803-4059-9011-df2d870614a0.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ntddndis.h
 api_name:
 -	NDIS_RECEIVE_FILTER_CAPABILITIES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_RECEIVE_FILTER_CAPABILITIES, *PNDIS_RECEIVE_FILTER_CAPABILITIES
 ---
@@ -71,38 +72,6 @@ NDIS receive filters are used in the following NDIS interfaces:
 </li>
 </ul>
 
-## -syntax
-
-
-````
-typedef struct _NDIS_RECEIVE_FILTER_CAPABILITIES {
-  NDIS_OBJECT_HEADER Header;
-  ULONG              Flags;
-  ULONG              EnabledFilterTypes;
-  ULONG              EnabledQueueTypes;
-  ULONG              NumQueues;
-  ULONG              SupportedQueueProperties;
-  ULONG              SupportedFilterTests;
-  ULONG              SupportedHeaders;
-  ULONG              SupportedMacHeaderFields;
-  ULONG              MaxMacHeaderFilters;
-  ULONG              MaxQueueGroups;
-  ULONG              MaxQueuesPerQueueGroup;
-  ULONG              MinLookaheadSplitSize;
-  ULONG              MaxLookaheadSplitSize;
-#if NDIS_SUPPORT_NDIS630
-  ULONG              SupportedARPHeaderFields;
-  ULONG              SupportedIPv4HeaderFields;
-  ULONG              SupportedIPv6HeaderFields;
-  ULONG              SupportedUdpHeaderFields;
-  ULONG              MaxFieldTestsPerPacketCoalescingFilter;
-  ULONG              MaxPacketCoalescingFilters;
-  ULONG              NdisReserved;
-#endif 
-} NDIS_RECEIVE_FILTER_CAPABILITIES, *PNDIS_RECEIVE_FILTER_CAPABILITIES;
-````
-
-
 ## -struct-fields
 
 
@@ -111,7 +80,7 @@ typedef struct _NDIS_RECEIVE_FILTER_CAPABILITIES {
 ### -field Header
 
 The 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure for the
      <b>NDIS_RECEIVE_FILTER_CAPABILITIES</b> structure. The driver sets the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to NDIS_OBJECT_TYPE_DEFAULT.
@@ -414,7 +383,7 @@ The network adapter supports inspecting and filtering that are based on the Ethe
 The network adapter supports inspecting and filtering that are based on the VLAN identifier in
        the MAC header.
 
-<div class="alert"><b>Note</b>  Starting with NDIS 6.30, this flag is optional. If the miniport driver does not set this flag, the network adapter should inspect and filter the specified MAC address fields. If a VLAN tag is present in the received packet, the network adapter must remove it from the packet data. The miniport driver must   put the VLAN tag in an <a href="..\ndis\ns-ndis-_ndis_net_buffer_list_8021q_info.md">NDIS_NET_BUFFER_LIST_8021Q_INFO</a> structure that is associated with the packet's <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure.</div>
+<div class="alert"><b>Note</b>  Starting with NDIS 6.30, this flag is optional. If the miniport driver does not set this flag, the network adapter should inspect and filter the specified MAC address fields. If a VLAN tag is present in the received packet, the network adapter must remove it from the packet data. The miniport driver must   put the VLAN tag in an <a href="https://msdn.microsoft.com/library/windows/hardware/ff566565">NDIS_NET_BUFFER_LIST_8021Q_INFO</a> structure that is associated with the packet's <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure.</div>
 <div> </div>
 
 
@@ -563,11 +532,11 @@ Reserved. Set to 0.
 
 The <b>NDIS_RECEIVE_FILTER_CAPABILITIES</b> structure is used in the 
     <b>ReceiveFilterCapabilities</b> member of the 
-    <a href="..\ndis\ns-ndis-_ndis_miniport_adapter_hardware_assist_attributes.md">
+    <a href="https://msdn.microsoft.com/b0662a2c-feb6-4d66-89c9-586c2859b78b">
     NDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES</a>, 
-    <a href="..\ndis\ns-ndis-_ndis_filter_attach_parameters.md">
+    <a href="https://msdn.microsoft.com/d46a1e62-9d03-4ab9-86f6-81b06c04d0f6">
     NDIS_FILTER_ATTACH_PARAMETERS</a>, and 
-    <a href="..\ndis\ns-ndis-_ndis_bind_parameters.md">NDIS_BIND_PARAMETERS</a> structures and the
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff564832">NDIS_BIND_PARAMETERS</a> structures and the
     return result of the 
     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-hardware-capabilities">
     OID_RECEIVE_FILTER_HARDWARE_CAPABILITIES</a> OID query.
@@ -579,39 +548,37 @@ Many of the members and flag settings of the <b>NDIS_RECEIVE_FILTER_CAPABILITIES
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_bind_parameters.md">NDIS_BIND_PARAMETERS</a>
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_hardware_assist_attributes.md">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564832">NDIS_BIND_PARAMETERS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565481">NDIS_FILTER_ATTACH_PARAMETERS</a>
+
+
+
+<a href="https://msdn.microsoft.com/b0662a2c-feb6-4d66-89c9-586c2859b78b">
    NDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_receive_queue_info.md">NDIS_RECEIVE_QUEUE_INFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567204">NDIS_RECEIVE_QUEUE_INFO</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567211">NDIS_RECEIVE_QUEUE_PARAMETERS</a>
 
 
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-hardware-capabilities">
    OID_RECEIVE_FILTER_HARDWARE_CAPABILITIES</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_receive_queue_parameters.md">NDIS_RECEIVE_QUEUE_PARAMETERS</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_filter_attach_parameters.md">NDIS_FILTER_ATTACH_PARAMETERS</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_RECEIVE_FILTER_CAPABILITIES structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

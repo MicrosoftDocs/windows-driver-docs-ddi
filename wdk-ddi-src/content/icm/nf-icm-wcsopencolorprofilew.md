@@ -7,7 +7,7 @@ old-location: print\wcsopencolorprofile.htm
 old-project: print
 ms.assetid: ecc573e6-c83c-4cf2-9dad-c3c75d9578eb
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: WcsOpenColorProfile, WcsOpenColorProfile function [Print Devices], WcsOpenColorProfileW, colorfnc_d9a9eca5-5559-4579-a892-c75499627912.xml, icm/WcsOpenColorProfile, print.wcsopencolorprofile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Mscms.dll
 api_name:
 -	WcsOpenColorProfile
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WCS_PROFILE_MANAGEMENT_SCOPE
 ---
@@ -51,22 +52,6 @@ req.typenames: WCS_PROFILE_MANAGEMENT_SCOPE
 
 
 The <code>WcsOpenColorProfile</code> function creates a handle to a specified color profile.
-
-
-## -syntax
-
-
-````
-HPROFILE WINAPI WcsOpenColorProfile(
-  _In_     PROFILE pDMPProfile,
-  _In_opt_ PROFILE pCAMPProfile,
-  _In_opt_ PROFILE pGMMPProfile,
-  _In_     DWORD   dwDesiredAccess,
-  _In_     DWORD   dwShareMode,
-  _In_     DWORD   dwCreationMode,
-  _In_     DWORD   dwFlags
-);
-````
 
 
 ## -parameters
@@ -259,13 +244,11 @@ Use the <a href="http://go.microsoft.com/fwlink/p/?linkid=52323">CloseColorProfi
 
 ## -see-also
 
+
+
+
 <a href="http://go.microsoft.com/fwlink/p/?linkid=52323">CloseColorProfile</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20WcsOpenColorProfileA function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

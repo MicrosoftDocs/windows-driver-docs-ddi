@@ -2,18 +2,18 @@
 UID: NS:rilapitypes.RILUICCSUBSCRIBERNUMBERS
 title: RILUICCSUBSCRIBERNUMBERS
 author: windows-driver-content
-description: This structure represents RILUICCSUBSCRIBERNUMBERS.
-old-location: netvista\riluiccsubscribernumbers.htm
+description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
+old-location: netvista\riluiccsubscribernumbers_2.htm
 old-project: netvista
-ms.assetid: 7c9f7c52-edb3-48cd-b532-0e100692fee4
+ms.assetid: e1a097b5-ce13-4070-a6f6-4b461ac086de
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: "*LPRILUICCSUBSCRIBERNUMBERS, RILUICCSUBSCRIBERNUMBERS, RILUICCSUBSCRIBERNUMBERS structure [Network Drivers Starting with Windows Vista], netvista.riluiccsubscribernumbers, rilapitypes/RILUMTSMRL"
+ms.date: 2/26/2018
+ms.keywords: "*LPRILUICCSUBSCRIBERNUMBERS, RILUICCSUBSCRIBERNUMBERS, RILUICCSUBSCRIBERNUMBERS structure [Network Drivers Starting with Windows Vista], netvista.riluiccsubscribernumbers_2, rilapitypes/RILUICCSUBSCRIBERNUMBERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: Ntddrilapitypes.h
+req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -37,8 +37,9 @@ api_type:
 api_location:
 -	rilapitypes.h
 api_name:
--	RILUMTSMRL
-product: Windows
+-	RILUICCSUBSCRIBERNUMBERS
+product:
+- Windows
 targetos: Windows
 req.typenames: RILUICCSUBSCRIBERNUMBERS, *LPRILUICCSUBSCRIBERNUMBERS
 req.product: Windows 10 or later.
@@ -50,18 +51,18 @@ req.product: Windows 10 or later.
 ## -description
 
 
-<div class="alert"><b>Warning</b>  The Cellular COM API is deprecated in Windows 10. This content is provided to support maintenance of OEM and mobile operator created Windows Phone 8.1 applications.</div><div> </div>This structure represents RILUICCSUBSCRIBERNUMBERS.
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
 
 ## -syntax
 
 
 ````
-struct RILUMTSMRL {
-  DWORD             cbSize;
-  DWORD             dwNumSubscribers;
-  RILSUBSCRIBERINFO rsiInfo[1];
-};
+typedef struct _RILUICCSUBSCRIBERNUMBERS {
+  DWORD                 cbSize;
+  DWORD                 dwNumSubscribers;
+  RILSUBSCRIBERINFO [1] rsiInfo;
+} RILUICCSUBSCRIBERNUMBERS, RILUICCSUBSCRIBERNUMBERS;
 ````
 
 
@@ -72,28 +73,9 @@ struct RILUMTSMRL {
 
 ### -field cbSize
 
-The size of the structure in bytes.
-
 
 ### -field dwNumSubscribers
 
-The number of subscribers.
-
 
 ### -field rsiInfo
-
-Array of <a href="..\rilapitypes\ns-rilapitypes-rilsubscriberinfo.md">RILSUBSCRIBERINFO</a>, each of which specifies a phone number assigned to the user as defined below. Although statically declared as a one-element array, the actual length is dwNumSubscribers.
-
-
-## -see-also
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn946511">Cellular COM structures</a>
-
-
-
- 
-
- 
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20RILUICCSUBSCRIBERNUMBERS structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: display\dd_getadaptergroupdata.htm
 old-project: display
 ms.assetid: 8c427880-f809-4b58-8f69-d81a273d705c
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: DD_GETADAPTERGROUPDATA, DD_GETADAPTERGROUPDATA structure [Display Devices], _DD_GETADAPTERGROUPDATA, d3dhal/DD_GETADAPTERGROUPDATA, d3dstrct_6bd570c2-bccf-4c1c-8bfb-ff20d77b7201.xml, display.dd_getadaptergroupdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dhal.h
 api_name:
 -	DD_GETADAPTERGROUPDATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DD_GETADAPTERGROUPDATA
 ---
@@ -56,19 +57,6 @@ req.typenames: DD_GETADAPTERGROUPDATA
 DD_GETADAPTERGROUPDATA is the data structure pointed to by the <b>lpvData</b> field of <a href="https://msdn.microsoft.com/library/windows/hardware/ff551550">DD_GETDRIVERINFODATA</a> for DD_GETDRIVERINFO2DATA queries with the type D3DGDI2_TYPE_GETADAPTERGROUP.
 
 
-## -syntax
-
-
-````
-typedef struct _DD_GETADAPTERGROUPDATA {
-  DD_GETDRIVERINFO2DATA gdi2;
-  ULONG_PTR             ulUniqueAdapterGroupId;
-  DWORD                 dwReserved1;
-  DWORD                 dwReserved2;
-} DD_GETADAPTERGROUPDATA;
-````
-
-
 ## -struct-fields
 
 
@@ -76,7 +64,7 @@ typedef struct _DD_GETADAPTERGROUPDATA {
 
 ### -field gdi2
 
-Specifies a <a href="..\d3dhal\ns-d3dhal-_dd_getdriverinfo2data.md">DD_GETDRIVERINFO2DATA</a> structure that contains the <b>GetDriverInfo2</b> data for the query.
+Specifies a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551548">DD_GETDRIVERINFO2DATA</a> structure that contains the <b>GetDriverInfo2</b> data for the query.
 
 
 ### -field ulUniqueAdapterGroupId
@@ -107,17 +95,15 @@ The identifier in <b>ulUniqueAdapterGroupId</b> must be unique across drivers, i
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551548">DD_GETDRIVERINFO2DATA</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551550">DD_GETDRIVERINFODATA</a>
-
-
-
-<a href="..\d3dhal\ns-d3dhal-_dd_getdriverinfo2data.md">DD_GETDRIVERINFO2DATA</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DD_GETADAPTERGROUPDATA structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

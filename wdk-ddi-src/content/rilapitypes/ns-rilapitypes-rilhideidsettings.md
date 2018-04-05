@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILHIDEIDSETTINGS
 title: RILHIDEIDSETTINGS
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilhideidsettings_2.htm
+old-location: netvista\rilhideidsettings.htm
 old-project: netvista
-ms.assetid: a633bc30-521f-4fdb-a4c0-4f72e619c28a
+ms.assetid: 11ca7db9-8e84-4d55-9ea9-7e2ecfa563e0
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: "*LPRILHIDEIDSETTINGS, RILHIDEIDSETTINGS, RILHIDEIDSETTINGS structure [Network Drivers Starting with Windows Vista], netvista.rilhideidsettings_2, rilapitypes/RILHIDEIDSETTINGS"
+ms.date: 3/26/2018
+ms.keywords: "*LPRILHIDEIDSETTINGS, RILHIDEIDSETTINGS, RILHIDEIDSETTINGS structure [Network Drivers Starting with Windows Vista], netvista.rilhideidsettings, ntddrilapitypes/RILHIDEIDSETTINGS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,10 +35,11 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILHIDEIDSETTINGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILHIDEIDSETTINGS, *LPRILHIDEIDSETTINGS
 req.product: Windows 10 or later.
@@ -50,21 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-
-## -syntax
-
-
-````
-typedef struct _RILHIDEIDSETTINGS {
-  DWORD                         cbSize;
-  DWORD                         dwParams;
-  DWORD                         dwExecutor;
-  RILSERVICESETTINGSSTATUS      dwStatus;
-  RILSERVICEPROVISIONINGSTATUS  dwProvisioning;
-} RILHIDEIDSETTINGS, RILHIDEIDSETTINGS;
-````
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -struct-fields

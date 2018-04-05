@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILMSGCDMALANGUAGE
 title: RILMSGCDMALANGUAGE
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilmsgcdmalanguage_2.htm
+old-location: netvista\rilmsgcdmalanguage.htm
 old-project: netvista
-ms.assetid: d1ad512e-10ba-4266-9688-2fc8e63bb4c4
+ms.assetid: b774fed4-533e-47ec-9e0a-da0e8fe2cfb0
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: RILMSGCDMALANGUAGE, RILMSGCDMALANGUAGE enumeration [Network Drivers Starting with Windows Vista], RIL_MSGCDMALANG_CHINESE, RIL_MSGCDMALANG_ENGLISH, RIL_MSGCDMALANG_FRENCH, RIL_MSGCDMALANG_HEBREW, RIL_MSGCDMALANG_JAPANESE, RIL_MSGCDMALANG_KOREAN, RIL_MSGCDMALANG_MAX, RIL_MSGCDMALANG_SPANISH, netvista.rilmsgcdmalanguage_2, rilapitypes/RILMSGCDMALANGUAGE, rilapitypes/RIL_MSGCDMALANG_CHINESE, rilapitypes/RIL_MSGCDMALANG_ENGLISH, rilapitypes/RIL_MSGCDMALANG_FRENCH, rilapitypes/RIL_MSGCDMALANG_HEBREW, rilapitypes/RIL_MSGCDMALANG_JAPANESE, rilapitypes/RIL_MSGCDMALANG_KOREAN, rilapitypes/RIL_MSGCDMALANG_MAX, rilapitypes/RIL_MSGCDMALANG_SPANISH
+ms.date: 3/26/2018
+ms.keywords: RILMSGCDMALANGUAGE, RILMSGCDMALANGUAGE enumeration [Network Drivers Starting with Windows Vista], RIL_MSGCDMALANG_CHINESE, RIL_MSGCDMALANG_ENGLISH, RIL_MSGCDMALANG_FRENCH, RIL_MSGCDMALANG_HEBREW, RIL_MSGCDMALANG_JAPANESE, RIL_MSGCDMALANG_KOREAN, RIL_MSGCDMALANG_MAX, RIL_MSGCDMALANG_SPANISH, netvista.rilmsgcdmalanguage, ntddrilapitypes/RILMSGCDMALANGUAGE, ntddrilapitypes/RIL_MSGCDMALANG_CHINESE, ntddrilapitypes/RIL_MSGCDMALANG_ENGLISH, ntddrilapitypes/RIL_MSGCDMALANG_FRENCH, ntddrilapitypes/RIL_MSGCDMALANG_HEBREW, ntddrilapitypes/RIL_MSGCDMALANG_JAPANESE, ntddrilapitypes/RIL_MSGCDMALANG_KOREAN, ntddrilapitypes/RIL_MSGCDMALANG_MAX, ntddrilapitypes/RIL_MSGCDMALANG_SPANISH
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -35,10 +35,11 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILMSGCDMALANGUAGE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILMSGCDMALANGUAGE
 req.product: Windows 10 or later.
@@ -50,24 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-
-## -syntax
-
-
-````
-typedef enum _RILMSGCDMALANGUAGE { 
-  RIL_MSGCDMALANG_ENGLISH,
-  RIL_MSGCDMALANG_FRENCH,
-  RIL_MSGCDMALANG_SPANISH,
-  RIL_MSGCDMALANG_JAPANESE,
-  RIL_MSGCDMALANG_KOREAN,
-  RIL_MSGCDMALANG_CHINESE,
-  RIL_MSGCDMALANG_HEBREW,
-  RIL_MSGCDMALANG_MAX
-} RILMSGCDMALANGUAGE;
-````
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -enum-fields

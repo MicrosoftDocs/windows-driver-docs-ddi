@@ -38,7 +38,8 @@ api_location:
 -	pointofservicedriverinterface.h
 api_name:
 -	LineDisplayCharacterData
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: LineDisplayCharacterData
 ---
@@ -50,16 +51,6 @@ req.typenames: LineDisplayCharacterData
 
 
 This structure is not implemented.
-
-
-## -syntax
-
-
-````
-typedef struct _LineDisplayCharacterData {
-   ...;
-} LineDisplayCharacterData, *PLineDisplayCharacterData;
-````
 
 
 ## -struct-fields

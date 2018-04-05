@@ -7,7 +7,7 @@ old-location: kernel\obreferenceobjectbyhandlewithtag.htm
 old-project: kernel
 ms.assetid: f36beac8-e4fb-49ce-b49d-a1a8f32f19a5
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/28/2018
 ms.keywords: ObReferenceObjectByHandleWithTag, ObReferenceObjectByHandleWithTag routine [Kernel-Mode Driver Architecture], k107_431c6c60-e2bd-4d90-9054-b950195bbec3.xml, kernel.obreferenceobjectbyhandlewithtag, wdm/ObReferenceObjectByHandleWithTag
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	ObReferenceObjectByHandleWithTag
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
@@ -51,22 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>ObReferenceObjectByHandleWithTag</b> routine increments the reference count of the object that is identified by the specified handle, and writes a four-byte tag value to the object to support <a href="http://go.microsoft.com/fwlink/p/?linkid=153590">object reference tracing</a>. 
-
-
-## -syntax
-
-
-````
-NTSTATUS ObReferenceObjectByHandleWithTag(
-  _In_      HANDLE                     Handle,
-  _In_      ACCESS_MASK                DesiredAccess,
-  _In_opt_  POBJECT_TYPE               ObjectType,
-  _In_      KPROCESSOR_MODE            AccessMode,
-  _In_      ULONG                      Tag,
-  _Out_     PVOID                      *Object,
-  _Out_opt_ POBJECT_HANDLE_INFORMATION HandleInformation
-);
-````
 
 
 ## -parameters
@@ -273,17 +258,17 @@ The specified handle is not valid.
 
 
 
-This routine does access validation of the specified object handle. If access can be granted, the routine increments the object reference count and provides an object pointer to the caller. This increment prevents the object from being deleted while the caller uses the object. When the object is no longer needed, the caller should decrement the reference count by calling the <a href="..\wdm\nf-wdm-obdereferenceobjectwithtag.md">ObDereferenceObjectWithTag</a> or <a href="..\wdm\nf-wdm-obdereferenceobjectdeferdeletewithtag.md">ObDereferenceObjectDeferDeleteWithTag</a> routine.
+This routine does access validation of the specified object handle. If access can be granted, the routine increments the object reference count and provides an object pointer to the caller. This increment prevents the object from being deleted while the caller uses the object. When the object is no longer needed, the caller should decrement the reference count by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557734">ObDereferenceObjectWithTag</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff557732">ObDereferenceObjectDeferDeleteWithTag</a> routine.
 
 For more information about object references, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554294">Life Cycle of an Object</a>.
 
-<b>ObReferenceObjectByHandleWithTag</b> does not close or invalidate the object handle that is specified by the <i>Handle</i> parameter. When the handle is no longer needed, the caller can close the handle by calling the <a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a> routine.
+<b>ObReferenceObjectByHandleWithTag</b> does not close or invalidate the object handle that is specified by the <i>Handle</i> parameter. When the handle is no longer needed, the caller can close the handle by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566417">ZwClose</a> routine.
 
 If the <i>AccessMode</i> parameter value is <b>KernelMode</b>, the requested access is always allowed. If <i>AccessMode</i> is <b>UserMode</b>, the requested access is compared to the access rights that the caller has to the object. Only highest-level drivers can safely specify the <b>UserMode</b> value for the <i>AccessMode</i> parameter.
 
 Starting with Windows 7, if <i>AccessMode</i> is <b>KernelMode</b> and handle is received from user address space, <a href="https://msdn.microsoft.com/library/windows/hardware/ff557262">Driver Verifier</a> issues bugcheck C4, subcode F6.
 
-The <a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a> routine is similar to <b>ObReferenceObjectByHandleWithTag</b>, except that it does not enable the caller to write a custom tag to an object. In Windows 7 and later versions of Windows, <b>ObReferenceObjectByHandle</b> always writes a default tag value ('tlfD') to the object. A call to <b>ObReferenceObjectByHandle</b> has the same effect as a call to <b>ObReferenceObjectByHandleWithTag</b> that specifies <i>Tag</i> = 'tlfD'.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/ff558679">ObReferenceObjectByHandle</a> routine is similar to <b>ObReferenceObjectByHandleWithTag</b>, except that it does not enable the caller to write a custom tag to an object. In Windows 7 and later versions of Windows, <b>ObReferenceObjectByHandle</b> always writes a default tag value ('tlfD') to the object. A call to <b>ObReferenceObjectByHandle</b> has the same effect as a call to <b>ObReferenceObjectByHandleWithTag</b> that specifies <i>Tag</i> = 'tlfD'.
 
 To view an object reference trace in the <a href="http://go.microsoft.com/fwlink/p/?linkid=153599">Windows debugging tools</a>, use the <a href="http://go.microsoft.com/fwlink/p/?linkid=153600">!obtrace</a> kernel-mode debugger extension. In Windows 7, the <a href="http://go.microsoft.com/fwlink/p/?linkid=153600">!obtrace</a> extension is enhanced to display object reference tags, if object reference tracing is enabled. By default, object reference tracing is turned off. Use the <a href="http://go.microsoft.com/fwlink/p/?linkid=153601">Global Flags Editor</a> (Gflags) to enable object reference tracing. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558668">Object Reference Tracing with Tags</a>. 
 
@@ -292,7 +277,6 @@ To view an object reference trace in the <a href="http://go.microsoft.com/fwlink
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558675">OBJECT_TYPE</a>
 
 
 
@@ -300,25 +284,24 @@ To view an object reference trace in the <a href="http://go.microsoft.com/fwlink
 
 
 
-<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558675">OBJECT_TYPE</a>
 
 
 
-<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557732">ObDereferenceObjectDeferDeleteWithTag</a>
 
 
 
-<a href="..\wdm\nf-wdm-obdereferenceobjectdeferdeletewithtag.md">ObDereferenceObjectDeferDeleteWithTag</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557734">ObDereferenceObjectWithTag</a>
 
 
 
-<a href="..\wdm\nf-wdm-obdereferenceobjectwithtag.md">ObDereferenceObjectWithTag</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558679">ObReferenceObjectByHandle</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566417">ZwClose</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ObReferenceObjectByHandleWithTag routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

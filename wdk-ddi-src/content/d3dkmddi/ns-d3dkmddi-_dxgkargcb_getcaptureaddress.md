@@ -7,7 +7,7 @@ old-location: display\dxgkargcb_getcaptureaddress.htm
 old-project: display
 ms.assetid: 95f1bbf4-06d8-48b7-a983-bf0b65ec2da3
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*INOUT_PDXGKARGCB_GETCAPTUREADDRESS, DXGKARGCB_GETCAPTUREADDRESS, DXGKARGCB_GETCAPTUREADDRESS structure [Display Devices], DmStructs_24ed27a0-7ad3-44d1-aa93-c22733ebfb34.xml, _DXGKARGCB_GETCAPTUREADDRESS, d3dkmddi/DXGKARGCB_GETCAPTUREADDRESS, display.dxgkargcb_getcaptureaddress"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGKARGCB_GETCAPTUREADDRESS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGKARGCB_GETCAPTUREADDRESS
 ---
@@ -50,18 +51,6 @@ req.typenames: DXGKARGCB_GETCAPTUREADDRESS
 
 
 The DXGKARGCB_GETCAPTUREADDRESS structure describes parameters for retrieving information about a capture buffer that is associated with an allocation.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGKARGCB_GETCAPTUREADDRESS {
-  D3DKMT_HANDLE    hAllocation;
-  UINT             SegmentId;
-  PHYSICAL_ADDRESS PhysicalAddress;
-} DXGKARGCB_GETCAPTUREADDRESS;
-````
 
 
 ## -struct-fields
@@ -86,13 +75,11 @@ typedef struct _DXGKARGCB_GETCAPTUREADDRESS {
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_getcaptureaddress.md">DxgkCbGetCaptureAddress</a>
 
 
 
+<a href="https://msdn.microsoft.com/f87a5a5f-20d3-48cb-93f0-114eafe7238b">DxgkCbGetCaptureAddress</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKARGCB_GETCAPTUREADDRESS structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

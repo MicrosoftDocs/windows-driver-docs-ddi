@@ -7,7 +7,7 @@ old-location: storage\storportpofxpowercontrol.htm
 old-project: storage
 ms.assetid: 1EBEBD5D-E0E5-48A3-8CDA-C336575E53C6
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: StorPortPoFxPowerControl, StorPortPoFxPowerControl routine [Storage Devices], storage.storportpofxpowercontrol, storport/StorPortPoFxPowerControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	storport.dll
 api_name:
 -	StorPortPoFxPowerControl
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STOR_SPINLOCK
 req.product: Windows 10 or later.
@@ -54,22 +55,6 @@ req.product: Windows 10 or later.
 The <b>StorPortPoFxPowerControl</b> routine sends a power control request to the power management framework (PoFx) to forward to the power engine plug-in (PEP).
 
 
-## -syntax
-
-
-````
-ULONG StorPortPoFxPowerControl(
-  _In_      PVOID   HwDeviceExtension,
-  _In_      LPCGUID PowerControlCode,
-  _In_opt_  PVOID   InBuffer,
-  _In_      SIZE_T  InBufferSize,
-  _Out_opt_ PVOID   OutBuffer,
-  _In_      SIZE_T  OutBufferSize,
-  _Out_opt_ PSIZE_T BytesReturned
-);
-````
-
-
 ## -parameters
 
 
@@ -77,7 +62,7 @@ ULONG StorPortPoFxPowerControl(
 
 ### -param HwDeviceExtension [in]
 
-A pointer to the hardware device extension for the host bus adapter (HBA). This is the device extension used to register the device in a prior call to <a href="..\storport\nf-storport-storportinitializepofxpower.md">StorPortInitializePoFxPower</a>.
+A pointer to the hardware device extension for the host bus adapter (HBA). This is the device extension used to register the device in a prior call to <a href="https://msdn.microsoft.com/library/windows/hardware/hh920421">StorPortInitializePoFxPower</a>.
 
 
 ### -param Address
@@ -201,24 +186,22 @@ The power control operation was unsuccessful.
 
 A minport driver calls this routine to send a power control request directly to the PEP. A power control request is similar to an I/O control request (IOCTL). Unlike an IOCTL, however, a power control request is sent directly to PEP and is not observed by other device drivers in the device stack. During a <b>StorPortPoFxPowerControl</b> call, the PEP synchronously performs the requested operation.
 
-Similarly, The PEP can send a power control request directly to the miniport. The miniport driver handles this request in its <a href="..\storport\nc-storport-hw_adapter_control.md">HwStorAdapterControl</a> and <a href="..\storport\nc-storport-hw_unit_control.md">HwStorUnitControl</a> routines. The <i>ControlType</i> parameter receives the <b>ScsiAdapterPoFxPowerControl</b> type in the <b>HwStorAdapterControl</b> routine and the <b>ScsiUnitPoFxPowerControl</b> in the <b>HwStorUnitControl</b> routine.
+Similarly, The PEP can send a power control request directly to the miniport. The miniport driver handles this request in its <a href="https://msdn.microsoft.com/library/windows/hardware/ff557365">HwStorAdapterControl</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/hh920398">HwStorUnitControl</a> routines. The <i>ControlType</i> parameter receives the <b>ScsiAdapterPoFxPowerControl</b> type in the <b>HwStorAdapterControl</b> routine and the <b>ScsiUnitPoFxPowerControl</b> in the <b>HwStorUnitControl</b> routine.
 
 
 
 
 ## -see-also
 
-<a href="..\storport\nc-storport-hw_unit_control.md">HwStorUnitControl</a>
 
 
 
-<a href="..\storport\nc-storport-hw_adapter_control.md">HwStorAdapterControl</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557365">HwStorAdapterControl</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh920398">HwStorUnitControl</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20StorPortPoFxPowerControl routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

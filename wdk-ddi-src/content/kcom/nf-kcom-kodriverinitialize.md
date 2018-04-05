@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KoDriverInitialize
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CONNECT_DATA, *PCONNECT_DATA
 ---
@@ -53,18 +54,6 @@ req.typenames: CONNECT_DATA, *PCONNECT_DATA
 <i>This function is intended for internal use only.</i>
 
 The <b>KoDriverInitialize</b> function initializes a driver object to handle the kernel streaming interface. 
-
-
-## -syntax
-
-
-````
-NTSTATUS KoDriverInitialize(
-  _In_ PDRIVER_OBJECT        DriverObject,
-  _In_ PUNICODE_STRING       RegistryPathName,
-  _In_ KoCreateObjectHandler CreateObjectHandler
-);
-````
 
 
 ## -parameters

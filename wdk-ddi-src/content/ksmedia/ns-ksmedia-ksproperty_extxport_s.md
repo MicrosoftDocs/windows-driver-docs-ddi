@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KSPROPERTY_EXTXPORT_S
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSPROPERTY_EXTXPORT_S, *PKSPROPERTY_EXTXPORT_S
 ---
@@ -50,35 +51,6 @@ req.typenames: KSPROPERTY_EXTXPORT_S, *PKSPROPERTY_EXTXPORT_S
 
 
 The KSPROPERTY_EXTXPORT_S structure describes an external transport and its capabilities.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  KSPROPERTY Property;
-  union {
-    ULONG           Capabilities;
-    ULONG           SignalMode;
-    ULONG           LoadMedium;
-    MEDIUM_INFO     MediumInfo;
-    TRANSPORT_STATE XPrtState;
-    struct {
-      BYTE frame;
-      BYTE second;
-      BYTE minute;
-      BYTE hour;
-    } Timecode;
-    DWORD           dwTimecode;
-    DWORD           dwAbsTrackNumber;
-    struct {
-      ULONG PayloadSize;
-      BYTE  Payload[512];
-    } RawAVC;
-  } u;
-} KSPROPERTY_EXTXPORT_S, *PKSPROPERTY_EXTXPORT_S;
-````
 
 
 ## -struct-fields
@@ -185,15 +157,6 @@ Any ED_TRANSCAP_Xxx or ED_TRANSBASIC_Xxx tokens are defined in <i>xprtdefs.h</i>
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-transport_state.md">TRANSPORT_STATE</a>
-
-
-
-<a href="..\ksmedia\ns-ksmedia-ksproperty_extxport_node_s.md">KSPROPERTY_EXTXPORT_NODE_S</a>
-
-
-
-<a href="..\ksmedia\ns-ksmedia-medium_info.md">MEDIUM_INFO</a>
 
 
 
@@ -201,9 +164,16 @@ Any ED_TRANSCAP_Xxx or ED_TRANSBASIC_Xxx tokens are defined in <i>xprtdefs.h</i>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565164">KSPROPERTY_EXTXPORT_NODE_S</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567726">MEDIUM_INFO</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568546">TRANSPORT_STATE</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSPROPERTY_EXTXPORT_S structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

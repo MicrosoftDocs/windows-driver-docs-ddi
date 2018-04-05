@@ -38,7 +38,8 @@ api_location:
 -	ntddk.h
 api_name:
 -	PCI_EXPRESS_CAPABILITY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PCI_EXPRESS_CAPABILITY, *PPCI_EXPRESS_CAPABILITY
 ---
@@ -180,11 +181,23 @@ For additional information about the PCIe capability structure, see the <a href=
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537560">PCI_EXPRESS_SLOT_CAPABILITIES_REGISTER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537463">PCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537564">PCI_EXPRESS_SLOT_STATUS_REGISTER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537468">PCI_EXPRESS_LINK_CAPABILITIES_REGISTER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537473">PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537477">PCI_EXPRESS_ROOT_STATUS_REGISTER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537474">PCI_EXPRESS_ROOT_CONTROL_REGISTER</a>
 
 
 
@@ -196,27 +209,7 @@ For additional information about the PCIe capability structure, see the <a href=
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537470">PCI_EXPRESS_LINK_STATUS_REGISTER</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537468">PCI_EXPRESS_LINK_CAPABILITIES_REGISTER</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537477">PCI_EXPRESS_ROOT_STATUS_REGISTER</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537562">PCI_EXPRESS_SLOT_CONTROL_REGISTER</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537474">PCI_EXPRESS_ROOT_CONTROL_REGISTER</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537473">PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537459">PCI_EXPRESS_CAPABILITIES_REGISTER</a>
 
 
 
@@ -224,7 +217,15 @@ For additional information about the PCIe capability structure, see the <a href=
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537459">PCI_EXPRESS_CAPABILITIES_REGISTER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537560">PCI_EXPRESS_SLOT_CAPABILITIES_REGISTER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537470">PCI_EXPRESS_LINK_STATUS_REGISTER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537562">PCI_EXPRESS_SLOT_CONTROL_REGISTER</a>
 
 
 
@@ -232,7 +233,7 @@ For additional information about the PCIe capability structure, see the <a href=
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537463">PCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537564">PCI_EXPRESS_SLOT_STATUS_REGISTER</a>
 
 
 
@@ -240,5 +241,4 @@ For additional information about the PCIe capability structure, see the <a href=
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [PCI\buses]:%20PCI_EXPRESS_CAPABILITY structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

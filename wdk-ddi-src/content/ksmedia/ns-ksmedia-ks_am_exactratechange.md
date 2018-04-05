@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KS_AM_ExactRateChange
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KS_AM_ExactRateChange, *PKS_AM_ExactRateChange
 ---
@@ -50,17 +51,6 @@ req.typenames: KS_AM_ExactRateChange, *PKS_AM_ExactRateChange
 
 
 The KS_AM_ExactRateChange structure is not yet implemented.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  REFERENCE_TIME OutputZeroTime;
-  LONG           Rate;
-} KS_AM_ExactRateChange, *PKS_AM_ExactRateChange;
-````
 
 
 ## -struct-fields
@@ -80,13 +70,11 @@ Specifies the new rate. This value is multiplied by 10000 (decimal).
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567280">KS_AM_RATE_ExactRateChange</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KS_AM_ExactRateChange structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

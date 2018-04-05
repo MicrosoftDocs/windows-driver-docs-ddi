@@ -38,7 +38,8 @@ api_location:
 -	pointofservicedriverinterface.h
 api_name:
 -	MsrTrackIds
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MsrTrackIds
 ---
@@ -50,20 +51,6 @@ req.typenames: MsrTrackIds
 
 
 Defines the constants that represent the magnetic stripe reader (MSR) tracks.
-
-
-## -syntax
-
-
-````
-typedef enum _MsrTrackIds { 
-  MsrTrackIds_None    = 0x0,
-  MsrTrackIds_Track1  = 0x1,
-  MsrTrackIds_Track2  = 0x2,
-  MsrTrackIds_Track3  = 0x3,
-  MsrTrackIds_Track4  = 0x4
-} MsrTrackIds;
-````
 
 
 ## -enum-fields

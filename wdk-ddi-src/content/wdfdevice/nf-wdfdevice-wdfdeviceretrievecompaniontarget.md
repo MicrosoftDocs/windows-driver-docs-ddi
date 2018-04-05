@@ -7,7 +7,7 @@ old-location: wdf\wdfdeviceretrievecompaniontarget.htm
 old-project: wdf
 ms.assetid: 2ca34fb7-72c1-4253-ad5b-bc829a1ba540
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/26/2018
 ms.keywords: WdfDeviceRetrieveCompanionTarget, WdfDeviceRetrieveCompanionTarget method, wdf.wdfdeviceretrievecompaniontarget, wdfdevice/WdfDeviceRetrieveCompanionTarget
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	wdfdevice.h
 api_name:
 -	WdfDeviceRetrieveCompanionTarget
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_STATE_NOTIFICATION_TYPE
 req.product: Windows 10 or later.
@@ -51,17 +52,6 @@ req.product: Windows 10 or later.
 
 
 For internal use only.
-
-
-## -syntax
-
-
-````
-NTSTATUS WdfDeviceRetrieveCompanionTarget(
-  _In_  WDFDEVICE          Device,
-  _Out_ WDFCOMPANIONTARGET *CompanionTarget
-);
-````
 
 
 ## -parameters

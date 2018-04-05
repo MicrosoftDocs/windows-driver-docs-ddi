@@ -7,7 +7,7 @@ old-location: buses\ucminitializedevice.htm
 old-project: usbref
 ms.assetid: 9159A6ED-0D85-422D-936A-13D7EC907A7C
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: UcmInitializeDevice, UcmInitializeDevice method [Buses], buses.ucminitializedevice, ucmmanager/UcmInitializeDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	UcmCxstub.dll
 api_name:
 -	UcmInitializeDevice
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PORT_DATA_1, *PPORT_DATA_1
 req.product: Windows 10 or later.
@@ -54,17 +55,6 @@ req.product: Windows 10 or later.
 Initializes the USB connector manager framework extension (UcmCx).
 
 
-## -syntax
-
-
-````
-NTSTATUS UcmInitializeDevice(
-  [in] WDFDEVICE           WdfDevice,
-  [in] PUCM_MANAGER_CONFIG  Config
-);
-````
-
-
 ## -parameters
 
 
@@ -72,12 +62,12 @@ NTSTATUS UcmInitializeDevice(
 
 ### -param WdfDevice [in]
 
-A handle to a framework device object that the client driver received in the previous call to <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>.
+A handle to a framework device object that the client driver received in the previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff545926">WdfDeviceCreate</a>.
 
 
 ### -param Config [in]
 
-A pointer to a caller-supplied <a href="..\ucmmanager\ns-ucmmanager-_ucm_manager_config.md">UCM_MANAGER_CONFIG</a> structure that is initialized by calling <a href="..\ucmmanager\nf-ucmmanager-ucm_manager_config_init.md">UCM_MANAGER_CONFIG_INIT</a>.
+A pointer to a caller-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/mt187932">UCM_MANAGER_CONFIG</a> structure that is initialized by calling <a href="https://msdn.microsoft.com/library/windows/hardware/mt187933">UCM_MANAGER_CONFIG_INIT</a>.
 
 
 ## -returns
@@ -93,24 +83,22 @@ A pointer to a caller-supplied <a href="..\ucmmanager\ns-ucmmanager-_ucm_manager
 
 
 
-This method initializes UcmCx and allocates resources required, registers for PnP events, and sets up I/O targets. The client driver must call this method in the driver's <a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EVT_WDF_DRIVER_DEVICE_ADD</a>  implementation.
+This method initializes UcmCx and allocates resources required, registers for PnP events, and sets up I/O targets. The client driver must call this method in the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff541693">EVT_WDF_DRIVER_DEVICE_ADD</a>  implementation.
 
 
 
 
 ## -see-also
 
-<a href="..\ucmmanager\ns-ucmmanager-_ucm_manager_config.md">UCM_MANAGER_CONFIG</a>
 
 
 
-<a href="..\ucmmanager\nf-ucmmanager-ucm_manager_config_init.md">UCM_MANAGER_CONFIG_INIT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt187932">UCM_MANAGER_CONFIG</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt187933">UCM_MANAGER_CONFIG_INIT</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20UcmInitializeDevice method%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

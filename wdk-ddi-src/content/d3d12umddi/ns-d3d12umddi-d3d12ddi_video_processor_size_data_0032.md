@@ -7,7 +7,7 @@ old-location: display\d3d12ddi_video_processor_size_data_0032.htm
 old-project: display
 ms.assetid: B5A0E067-E91B-4B35-A355-36E15665CF43
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: D3D12DDI_VIDEO_PROCESSOR_SIZE_DATA_0032, D3D12DDI_VIDEO_PROCESSOR_SIZE_DATA_0032 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_PROCESSOR_SIZE_DATA_0032, display.d3d12ddi_video_processor_size_data_0032
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3d12umddi.h
 api_name:
 -	D3D12DDI_VIDEO_PROCESSOR_SIZE_DATA_0032
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D12DDI_VIDEO_PROCESSOR_SIZE_DATA_0032
 ---
@@ -52,18 +53,6 @@ req.typenames: D3D12DDI_VIDEO_PROCESSOR_SIZE_DATA_0032
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 Data structure for the D3D12DDICAPS_TYPE_VIDEO_0032_PROCESSOR_SIZE capability check.  Retrieves the memory allocation size of a video processor created with the given properties.
-
-
-## -syntax
-
-
-````
-typedef struct _D3D12DDI_VIDEO_PROCESSOR_SIZE_DATA_0032 {
-  D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0032 VideoProcessorDesc;
-  UINT64                                  MemoryPoolL0Size;
-  UINT64                                  MemoryPoolL1Size;
-} D3D12DDI_VIDEO_PROCESSOR_SIZE_DATA_0032;
-````
 
 
 ## -struct-fields

@@ -7,7 +7,7 @@ old-location: display\d3dddiarg_setdisplaymode.htm
 old-project: display
 ms.assetid: 4dd4c02f-af44-4b02-a646-b7648b430b89
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDIARG_SETDISPLAYMODE, D3DDDIARG_SETDISPLAYMODE structure [Display Devices], UMDisplayDriver_param_Structs_89fc526d-719f-43b5-b195-47a199a290ec.xml, _D3DDDIARG_SETDISPLAYMODE, d3dumddi/D3DDDIARG_SETDISPLAYMODE, display.d3dddiarg_setdisplaymode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	D3DDDIARG_SETDISPLAYMODE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDIARG_SETDISPLAYMODE
 ---
@@ -50,17 +51,6 @@ req.typenames: D3DDDIARG_SETDISPLAYMODE
 
 
 The D3DDDIARG_SETDISPLAYMODE structure describes parameters for setting the display mode. 
-
-
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_SETDISPLAYMODE {
-  HANDLE hResource;
-  UINT   SubResourceIndex;
-} D3DDDIARG_SETDISPLAYMODE;
-````
 
 
 ## -struct-fields
@@ -80,13 +70,11 @@ typedef struct _D3DDDIARG_SETDISPLAYMODE {
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setdisplaymode.md">SetDisplayMode</a>
 
 
 
+<a href="https://msdn.microsoft.com/d0e409fe-1c64-4468-b52e-b0ede39f6601">SetDisplayMode</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DDDIARG_SETDISPLAYMODE structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: netvista\miniporttcpoffloadsend.htm
 old-project: netvista
 ms.assetid: 7c96412f-a866-4863-a06a-9eb6adb2a33b
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: MiniportTcpOffloadSend, MiniportTcpOffloadSend callback function [Network Drivers Starting with Windows Vista], W_TCP_OFFLOAD_SEND_HANDLER, ndischimney/MiniportTcpOffloadSend, netvista.miniporttcpoffloadsend, tcp_chim_miniport_func_930a6efe-5c72-42cf-8afd-d8d35b2c33ed.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ndischimney.h
 api_name:
 -	MiniportTcpOffloadSend
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PD_BUFFER_VIRTUAL_SUBNET_INFO
 ---
@@ -55,21 +56,6 @@ NDIS calls the
   <i>MiniportTcpOffloadSend</i> function to transmit data on an offloaded TCP connection.
 
 
-## -prototype
-
-
-````
-W_TCP_OFFLOAD_SEND_HANDLER MiniportTcpOffloadSend;
-
-NDIS_STATUS MiniportTcpOffloadSend(
-  _In_ NDIS_HANDLE      MiniportAdapterContext,
-  _In_ PVOID            MiniportOffloadContext,
-  _In_ PNET_BUFFER_LIST NetBufferList
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -80,9 +66,9 @@ NDIS_STATUS MiniportTcpOffloadSend(
 The handle to an offload-target allocated context area in which the offload target maintains state
      information about this instance of the adapter. The offload target provided this handle to NDIS when it
      called 
-     <a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">
+     <a href="https://msdn.microsoft.com/861626af-23ea-40dc-a91a-7da42d4b0a1c">
      NdisMSetMiniportAttributes</a> from its 
-     <a href="..\ndis\nc-ndis-miniport_initialize.md">
+     <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">
      MiniportInitializeEx</a> function.
 
 
@@ -97,10 +83,10 @@ A pointer to a memory location that contains a PVOID value. This PVOID value ref
 ### -param NetBufferList [in]
 
 A pointer to a 
-     <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure. This structure
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure. This structure
      can be a stand-alone structure or the first structure in a linked list of NET_BUFFER_LIST structures.
      Each NET_BUFFER_LIST structure in the list describes a list of 
-     <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structures. Each NET_BUFFER structure
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structures. Each NET_BUFFER structure
      in the list maps to a chain of memory descriptor lists (MDLs). The MDLs contain the data to be
      transmitted. The NET_BUFFER_LIST and associated structures are locked so that they remain resident in
      physical memory. However, they are not mapped into system memory.
@@ -112,7 +98,7 @@ A pointer to a
 
 NDIS_STATUS_PENDING is the only return value that is allowed. An offload target always completes a
      send request asynchronously by calling 
-     <a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_send_complete.md">
+     <a href="https://msdn.microsoft.com/1689b6f9-88f3-456f-9a7c-c6b4e76cb336">
      NdisTcpOffloadSendComplete</a>.
 
 
@@ -124,7 +110,7 @@ NDIS_STATUS_PENDING is the only return value that is allowed. An offload target 
 
 An offload target must transmit data in first in, first out (FIFO) order. The order of the linked list
     of 
-    <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures that NDIS passes
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structures that NDIS passes
     at 
     <i>NetBufferList</i> represents the order in which the offload target must transmit the network data. In
     addition, an offload target should send the data that it receives from multiple calls to the 
@@ -168,25 +154,23 @@ The host stack will not request the offload target to send urgent data.
 
 ## -see-also
 
-<a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_send_complete.md">NdisTcpOffloadSendComplete</a>
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563672">NdisMSetMiniportAttributes</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564609">NdisTcpOffloadSendComplete</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20W_TCP_OFFLOAD_SEND_HANDLER callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

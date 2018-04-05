@@ -7,7 +7,7 @@ old-location: buses\ucx_endpoint_characteristic_type.htm
 old-project: usbref
 ms.assetid: 1F49C8CA-51CE-49B2-AC37-C114A688B1DB
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: UCX_ENDPOINT_CHARACTERISTIC_TYPE, UCX_ENDPOINT_CHARACTERISTIC_TYPE enumeration [Buses], UCX_ENDPOINT_CHARACTERISTIC_TYPE_PRIORITY, _UCX_ENDPOINT_CHARACTERISTIC_TYPE, buses.ucx_endpoint_characteristic_type, ucxendpoint/UCX_ENDPOINT_CHARACTERISTIC_TYPE, ucxendpoint/UCX_ENDPOINT_CHARACTERISTIC_TYPE_PRIORITY
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ucxendpoint.h
 api_name:
 -	UCX_ENDPOINT_CHARACTERISTIC_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UCX_ENDPOINT_CHARACTERISTIC_TYPE
 req.product: Windows 10 or later.
@@ -53,16 +54,6 @@ req.product: Windows 10 or later.
 Defines values that indicates the type of endpoint characteristic.
 
 
-## -syntax
-
-
-````
-typedef enum _UCX_ENDPOINT_CHARACTERISTIC_TYPE { 
-  UCX_ENDPOINT_CHARACTERISTIC_TYPE_PRIORITY  = 0x01
-} UCX_ENDPOINT_CHARACTERISTIC_TYPE;
-````
-
-
 ## -enum-fields
 
 
@@ -75,13 +66,11 @@ The type of characteristic of the endpoint.
 
 ## -see-also
 
-<a href="..\ucxendpoint\ns-ucxendpoint-_ucx_endpoint_characteristic.md">UCX_ENDPOINT_CHARACTERISTIC</a>
 
 
 
+<a href="https://msdn.microsoft.com/4785D94B-271C-4F8E-B95B-87401E32CE42">UCX_ENDPOINT_CHARACTERISTIC</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20UCX_ENDPOINT_CHARACTERISTIC_TYPE enumeration%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

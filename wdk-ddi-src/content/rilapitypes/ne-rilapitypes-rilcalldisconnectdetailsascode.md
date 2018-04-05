@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILCALLDISCONNECTDETAILSASCODE
 title: RILCALLDISCONNECTDETAILSASCODE
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilcalldisconnectdetailsascode_2.htm
+old-location: netvista\rilcalldisconnectdetailsascode.htm
 old-project: netvista
-ms.assetid: 8d5dfc37-682e-41a0-9c61-76ae8f70b154
+ms.assetid: 01b311e9-252e-49eb-bf63-d16e4fa92231
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: RILCALLDISCONNECTDETAILSASCODE, RILCALLDISCONNECTDETAILSASCODE enumeration [Network Drivers Starting with Windows Vista], RIL_CD_L2, RIL_CD_L3, RIL_CD_LAYER_MAX, netvista.rilcalldisconnectdetailsascode_2, rilapitypes/RILCALLDISCONNECTDETAILSASCODE, rilapitypes/RIL_CD_L2, rilapitypes/RIL_CD_L3, rilapitypes/RIL_CD_LAYER_MAX
+ms.date: 3/26/2018
+ms.keywords: RILCALLDISCONNECTDETAILSASCODE, RILCALLDISCONNECTDETAILSASCODE enumeration [Network Drivers Starting with Windows Vista], RIL_CD_L2, RIL_CD_L3, RIL_CD_LAYER_MAX, netvista.rilcalldisconnectdetailsascode, ntddrilapitypes/RILCALLDISCONNECTDETAILSASCODE, ntddrilapitypes/RIL_CD_L2, ntddrilapitypes/RIL_CD_L3, ntddrilapitypes/RIL_CD_LAYER_MAX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -35,10 +35,11 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILCALLDISCONNECTDETAILSASCODE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILCALLDISCONNECTDETAILSASCODE
 req.product: Windows 10 or later.
@@ -50,19 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-
-## -syntax
-
-
-````
-typedef enum _RILCALLDISCONNECTDETAILSASCODE { 
-  RIL_CD_L2,
-  RIL_CD_L3,
-  RIL_CD_LAYER_MAX
-} RILCALLDISCONNECTDETAILSASCODE;
-````
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -enum-fields

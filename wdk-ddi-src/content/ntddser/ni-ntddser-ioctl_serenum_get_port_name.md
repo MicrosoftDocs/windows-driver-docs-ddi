@@ -38,18 +38,14 @@ api_location:
 -	ntddser.h
 api_name:
 -	IOCTL_SERENUM_GET_PORT_NAME
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SD_REQUEST_FUNCTION
 ---
 
 # IOCTL_SERENUM_GET_PORT_NAME IOCTL
 
-
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

@@ -38,7 +38,8 @@ api_location:
 -	Spbcx.h
 api_name:
 -	SPB_CONTROLLER_CONFIG
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SPB_CONTROLLER_CONFIG, *PSPB_CONTROLLER_CONFIG
 req.product: Windows 10 or later.
@@ -51,25 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>SPB_CONTROLLER_CONFIG</b> structure contains the configuration settings for an SPB controller driver.
-
-
-## -syntax
-
-
-````
-typedef struct _SPB_CONTROLLER_CONFIG {
-  ULONG                       Size;
-  WDF_IO_QUEUE_DISPATCH_TYPE  ControllerDispatchType;
-  WDF_TRI_STATE               PowerManaged;
-  PFN_SPB_TARGET_CONNECT      EvtSpbTargetConnect;
-  PFN_SPB_TARGET_DISCONNECT   EvtSpbTargetDisconnect;
-  PFN_SPB_CONTROLLER_LOCK     EvtSpbControllerLock;
-  PFN_SPB_CONTROLLER_UNLOCK   EvtSpbControllerUnlock;
-  PFN_SPB_CONTROLLER_READ     EvtSpbIoRead;
-  PFN_SPB_CONTROLLER_WRITE    EvtSpbIoWrite;
-  PFN_SPB_CONTROLLER_SEQUENCE EvtSpbIoSequence;
-} SPB_CONTROLLER_CONFIG, *PSPB_CONTROLLER_CONFIG;
-````
 
 
 ## -struct-fields
@@ -91,7 +73,7 @@ A controller driver that operates in subordinate mode should set this member to 
 
 ### -field PowerManaged
 
-Whether the I/O queue for the controller driver should be power-managed. Set this member to <b>WdfTrue</b> to indicate that the queue should be power-managed.  Set this member to <b>WdfFalse</b> to indicate that the queue should not be power-managed.  If this member is set to <b>WdfDefault</b>, the queue will be power-managed unless the driver calls the <a href="..\wdffdo\nf-wdffdo-wdffdoinitsetfilter.md">WdfFdoInitSetFilter</a> method, which identifies the caller as an upper-level or lower-level filter driver. The <b>SPB_CONTROLLER_CONFIG_INIT</b> function initializes this member to <b>WdfDefault</b>.
+Whether the I/O queue for the controller driver should be power-managed. Set this member to <b>WdfTrue</b> to indicate that the queue should be power-managed.  Set this member to <b>WdfFalse</b> to indicate that the queue should not be power-managed.  If this member is set to <b>WdfDefault</b>, the queue will be power-managed unless the driver calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547273">WdfFdoInitSetFilter</a> method, which identifies the caller as an upper-level or lower-level filter driver. The <b>SPB_CONTROLLER_CONFIG_INIT</b> function initializes this member to <b>WdfDefault</b>.
 
 When I/O requests are available in a power-managed queue, the framework delivers the requests to the driver only if the device is in its working (D0) state. For more information, see <a href="https://msdn.microsoft.com/2e1bf9d2-615b-49b0-b677-f41b23c42eda">Power Management for I/O Queues</a>.
 
@@ -142,15 +124,14 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/hh450919">SpbDe
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/d57c30b8-83bd-41c9-906d-b8c95f8ca54e">IRP_MN_WRITE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450857">IOCTL_SPB_EXECUTE_SEQUENCE</a>
+<a href="https://msdn.microsoft.com/2BC0E6E7-7EE1-487A-9276-AE8EBB3FFD43">EvtSpbControllerIoRead</a>
 
 
 
-<a href="https://msdn.microsoft.com/E08674F1-CE63-464B-9C70-96F93C574753">EvtSpbControllerLock</a>
+<a href="https://msdn.microsoft.com/C56F1528-5FDA-4BC9-AB32-7882FB0F7713">EvtSpbControllerIoSequence</a>
 
 
 
@@ -158,7 +139,7 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/hh450919">SpbDe
 
 
 
-<a href="..\wdffdo\nf-wdffdo-wdffdoinitsetfilter.md">WdfFdoInitSetFilter</a>
+<a href="https://msdn.microsoft.com/E08674F1-CE63-464B-9C70-96F93C574753">EvtSpbControllerLock</a>
 
 
 
@@ -174,15 +155,7 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/hh450919">SpbDe
 
 
 
-<a href="https://msdn.microsoft.com/cbc5b959-0aae-4c86-b490-296965a7f158">IRP_MN_READ</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450922">SpbRequestGetParameters</a>
-
-
-
-<a href="https://msdn.microsoft.com/2BC0E6E7-7EE1-487A-9276-AE8EBB3FFD43">EvtSpbControllerIoRead</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450857">IOCTL_SPB_EXECUTE_SEQUENCE</a>
 
 
 
@@ -190,15 +163,19 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/hh450919">SpbDe
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406207">SPB_CONTROLLER_CONFIG_INIT</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh450859">IOCTL_SPB_UNLOCK_CONTROLLER</a>
 
 
 
-<a href="https://msdn.microsoft.com/C56F1528-5FDA-4BC9-AB32-7882FB0F7713">EvtSpbControllerIoSequence</a>
+<a href="https://msdn.microsoft.com/cbc5b959-0aae-4c86-b490-296965a7f158">IRP_MN_READ</a>
+
+
+
+<a href="https://msdn.microsoft.com/d57c30b8-83bd-41c9-906d-b8c95f8ca54e">IRP_MN_WRITE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406207">SPB_CONTROLLER_CONFIG_INIT</a>
 
 
 
@@ -206,9 +183,12 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/hh450919">SpbDe
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450922">SpbRequestGetParameters</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547273">WdfFdoInitSetFilter</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [SPB\buses]:%20SPB_CONTROLLER_CONFIG structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

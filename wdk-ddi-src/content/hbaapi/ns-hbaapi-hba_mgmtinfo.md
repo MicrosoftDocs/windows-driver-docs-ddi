@@ -7,7 +7,7 @@ old-location: storage\hba_mgmtinfo.htm
 old-project: storage
 ms.assetid: a4ccb122-ae90-4b06-a40d-21f131add99b
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PHBA_MGMTINFO, HBA_MGMTINFO, HBA_MGMTINFO structure [Storage Devices], HBA_MgmtInfo, HBA_MgmtInfo structure [Storage Devices], PHBA_MGMTINFO, PHBA_MGMTINFO structure pointer [Storage Devices], hbaapi/HBA_MgmtInfo, hbaapi/PHBA_MGMTINFO, storage.hba_mgmtinfo, structs-Fibre_d7bcdc56-a999-4d0b-b7f0-88fe53b349b1.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	hbaapi.h
 api_name:
 -	HBA_MGMTINFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: HBA_MGMTINFO, *PHBA_MGMTINFO
 ---
@@ -49,25 +50,7 @@ req.typenames: HBA_MGMTINFO, *PHBA_MGMTINFO
 ## -description
 
 
-The HBA_MgmtInfo structure is used in conjunction with the <a href="..\hbaapi\nf-hbaapi-hba_setrnidmgmtinfo.md">HBA_SetRNIDMgmtInfo</a> routine to program the HBA to return the indicated request node identification information data (RNID). 
-
-
-## -syntax
-
-
-````
-typedef struct HBA_MgmtInfo {
-  HBA_WWN    wwn;
-  HBA_UINT32 unittype;
-  HBA_UINT32 PortId;
-  HBA_UINT32 NumberOfAttachedNodes;
-  HBA_UINT16 IPVersion;
-  HBA_UINT16 UDPPort;
-  HBA_UINT8  IPAddress[16];
-  HBA_UINT16 reserved;
-  HBA_UINT16 TopologyDiscoveryFlags;
-} HBA_MGMTINFO, *PHBA_MGMTINFO;
-````
+The HBA_MgmtInfo structure is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557231">HBA_SetRNIDMgmtInfo</a> routine to program the HBA to return the indicated request node identification information data (RNID). 
 
 
 ## -struct-fields
@@ -122,17 +105,15 @@ Contains the topology discovery flags. For an explanation of this member, see th
 
 ## -see-also
 
-<a href="..\hbaapi\nf-hbaapi-hba_getrnidmgmtinfo.md">HBA_GetRNIDMgmtInfo</a>
 
 
 
-<a href="..\hbaapi\nf-hbaapi-hba_setrnidmgmtinfo.md">HBA_SetRNIDMgmtInfo</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556109">HBA_GetRNIDMgmtInfo</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557231">HBA_SetRNIDMgmtInfo</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20HBA_MgmtInfo structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

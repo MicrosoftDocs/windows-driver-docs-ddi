@@ -7,7 +7,7 @@ old-location: display\d3dddiarg_createvertexshaderdecl.htm
 old-project: display
 ms.assetid: 510f8cda-922e-48de-b95e-daf972e906fa
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDIARG_CREATEVERTEXSHADERDECL, D3DDDIARG_CREATEVERTEXSHADERDECL structure [Display Devices], UMDisplayDriver_param_Structs_0f0f9192-2505-4b0f-99ee-7b0d64e8e340.xml, _D3DDDIARG_CREATEVERTEXSHADERDECL, d3dumddi/D3DDDIARG_CREATEVERTEXSHADERDECL, display.d3dddiarg_createvertexshaderdecl
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	D3DDDIARG_CREATEVERTEXSHADERDECL
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDIARG_CREATEVERTEXSHADERDECL
 ---
@@ -52,17 +53,6 @@ req.typenames: D3DDDIARG_CREATEVERTEXSHADERDECL
 The D3DDDIARG_CREATEVERTEXSHADERDECL structure specifies a shader handle to associate with the vertex shader declaration.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_CREATEVERTEXSHADERDECL {
-  UINT   NumVertexElements;
-  HANDLE ShaderHandle;
-} D3DDDIARG_CREATEVERTEXSHADERDECL;
-````
-
-
 ## -struct-fields
 
 
@@ -70,7 +60,7 @@ typedef struct _D3DDDIARG_CREATEVERTEXSHADERDECL {
 
 ### -field NumVertexElements
 
-[in] The number of vertex elements in the array that is passed to the <i>pVertexElements</i> parameter in a call to the user-mode display driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createvertexshaderdecl.md">CreateVertexShaderDecl</a> function.
+[in] The number of vertex elements in the array that is passed to the <i>pVertexElements</i> parameter in a call to the user-mode display driver's <a href="https://msdn.microsoft.com/00c53e81-93db-46b8-b65c-c8d62059452a">CreateVertexShaderDecl</a> function.
 
 
 ### -field ShaderHandle
@@ -91,13 +81,11 @@ For more information about programming shader assemblers, see <a href="https://m
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createvertexshaderdecl.md">CreateVertexShaderDecl</a>
 
 
 
+<a href="https://msdn.microsoft.com/00c53e81-93db-46b8-b65c-c8d62059452a">CreateVertexShaderDecl</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DDDIARG_CREATEVERTEXSHADERDECL structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

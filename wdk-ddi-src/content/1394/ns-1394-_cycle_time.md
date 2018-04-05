@@ -38,7 +38,8 @@ api_location:
 -	1394.h
 api_name:
 -	CYCLE_TIME
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CYCLE_TIME, *PCYCLE_TIME
 ---
@@ -50,18 +51,6 @@ req.typenames: CYCLE_TIME, *PCYCLE_TIME
 
 
 The CYCLE_TIME structure contains the IEEE 1394 isochronous cycle time.
-
-
-## -syntax
-
-
-````
-typedef struct _CYCLE_TIME {
-  ULONG CL_CycleOffset  :12;
-  ULONG CL_CycleCount  :13;
-  ULONG CL_SecondCount  :7;
-} CYCLE_TIME, *PCYCLE_TIME;
-````
 
 
 ## -struct-fields
@@ -95,19 +84,6 @@ The layout of this structure matches that of the CYCLE_TIME register in the <i>I
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537655">REQUEST_ISOCH_LISTEN</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537649">REQUEST_ISOCH_ALLOCATE_RESOURCES</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537660">REQUEST_ISOCH_TALK</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537656">REQUEST_ISOCH_QUERY_CYCLE_TIME</a>
 
 
 
@@ -115,9 +91,20 @@ The layout of this structure matches that of the CYCLE_TIME register in the <i>I
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537649">REQUEST_ISOCH_ALLOCATE_RESOURCES</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537655">REQUEST_ISOCH_LISTEN</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537656">REQUEST_ISOCH_QUERY_CYCLE_TIME</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537660">REQUEST_ISOCH_TALK</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [IEEE\buses]:%20CYCLE_TIME structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

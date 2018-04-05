@@ -38,7 +38,8 @@ api_location:
 -	bdatypes.h
 api_name:
 -	PID_MAP
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PID_MAP
 ---
@@ -50,17 +51,6 @@ req.typenames: PID_MAP
 
 
 The PID_MAP structure describes a group of packets in the output stream of a packet identifier (PID) filter. This group consists of packets that are identified with an identical PID and contain particular media content. 
-
-
-## -syntax
-
-
-````
-typedef struct {
-  ULONG                ulPID;
-  MEDIA_SAMPLE_CONTENT MediaSampleContent;
-} PID_MAP;
-````
 
 
 ## -struct-fields
@@ -80,21 +70,19 @@ MEDIA_SAMPLE_CONTENT enumerated type value that specifies the type of media cont
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556534">BDA_PID_MAP</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566551">KSPROPSETID_BdaPIDFilter</a>
 
 
 
-<a href="..\bdatypes\ns-bdatypes-_bda_pid_map.md">BDA_PID_MAP</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567719">MEDIA_SAMPLE_CONTENT</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20PID_MAP structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

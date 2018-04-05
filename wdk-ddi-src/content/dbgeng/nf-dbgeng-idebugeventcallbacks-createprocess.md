@@ -7,7 +7,7 @@ old-location: debugger\idebugeventcallbacks_createprocess.htm
 old-project: debugger
 ms.assetid: a826782a-67ca-4b90-b7b5-caddeae6d2dc
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/26/2018
 ms.keywords: ComCallbacks_cd6a97b7-a041-419c-8e64-0aeb6fe7b0c8.xml, CreateProcess method [Windows Debugging], CreateProcess method [Windows Debugging], IDebugEventCallbacks interface, CreateProcess,IDebugEventCallbacks.CreateProcess, IDebugEventCallbacks, IDebugEventCallbacks interface [Windows Debugging], CreateProcess method, IDebugEventCallbacks::CreateProcess, dbgeng/IDebugEventCallbacks::CreateProcess, debugger.idebugeventcallbacks_createprocess
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugEventCallbacks.CreateProcess
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -50,26 +51,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>CreateProcess</b> callback method is called by the engine when a create-processdebugging event occurs in the target.
-
-
-## -syntax
-
-
-````
-HRESULT CreateProcess(
-  [in]           ULONG64 ImageFileHandle,
-  [in]           ULONG64 Handle,
-  [in]           ULONG64 BaseOffset,
-  [in]           ULONG   ModuleSize,
-  [in, optional] PCSTR   ModuleName,
-  [in, optional] PCSTR   ImageName,
-  [in]           ULONG   CheckSum,
-  [in]           ULONG   TimeDateStamp,
-  [in]           ULONG64 InitialThreadHandle,
-  [in]           ULONG64 ThreadDataOffset,
-  [in]           ULONG64 StartOffset
-);
-````
 
 
 ## -parameters

@@ -7,7 +7,7 @@ old-location: netvista\wwan_ready_state.htm
 old-project: netvista
 ms.assetid: 46fec377-ba2c-469a-96be-23aa07079f8c
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: "*PWWAN_READY_STATE, PWWAN_READY_STATE, PWWAN_READY_STATE enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_READY_STATE, WWAN_READY_STATE enumeration [Network Drivers Starting with Windows Vista], WwanReadyStateBadSim, WwanReadyStateDeviceLocked, WwanReadyStateFailure, WwanReadyStateInitialized, WwanReadyStateNotActivated, WwanReadyStateOff, WwanReadyStateSimNotInserted, WwanRef_08468e16-e4da-49ff-9b2a-2cee4df6c72f.xml, _WWAN_READY_STATE, netvista.wwan_ready_state, wwan/PWWAN_READY_STATE, wwan/WWAN_READY_STATE, wwan/WwanReadyStateBadSim, wwan/WwanReadyStateDeviceLocked, wwan/WwanReadyStateFailure, wwan/WwanReadyStateInitialized, wwan/WwanReadyStateNotActivated, wwan/WwanReadyStateOff, wwan/WwanReadyStateSimNotInserted"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	wwan.h
 api_name:
 -	WWAN_READY_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WWAN_READY_STATE, *PWWAN_READY_STATE
 req.product: Windows 10 or later.
@@ -52,22 +53,6 @@ req.product: Windows 10 or later.
 
 The WWAN_READY_STATE enumeration lists the different device ready-states that are supported by the MB
   device.
-
-
-## -syntax
-
-
-````
-typedef enum _WWAN_READY_STATE { 
-  WwanReadyStateOff             = 0,
-  WwanReadyStateInitialized,
-  WwanReadyStateSimNotInserted,
-  WwanReadyStateBadSim,
-  WwanReadyStateFailure,
-  WwanReadyStateNotActivated,
-  WwanReadyStateDeviceLocked
-} WWAN_READY_STATE, *PWWAN_READY_STATE;
-````
 
 
 ## -enum-fields
@@ -137,13 +122,11 @@ For devices that use a SIM card, this enumeration indicates if the SIM card has 
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_ready_info.md">WWAN_READY_INFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571226">WWAN_READY_INFO</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WWAN_READY_STATE enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

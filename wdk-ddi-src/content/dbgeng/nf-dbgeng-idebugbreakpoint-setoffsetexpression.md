@@ -7,7 +7,7 @@ old-location: debugger\setoffsetexpression.htm
 old-project: debugger
 ms.assetid: 63cfb3f2-5240-4cb6-9c23-8cdb363f62a8
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/26/2018
 ms.keywords: ComOther_d34036ae-b160-4b24-86d0-ebd2bd8408ea.xml, IDebugBreakpoint, IDebugBreakpoint interface [Windows Debugging], SetOffsetExpression method, IDebugBreakpoint2 interface [Windows Debugging], SetOffsetExpression method, IDebugBreakpoint2::SetOffsetExpression, IDebugBreakpoint::SetOffsetExpression, SetOffsetExpression method [Windows Debugging], SetOffsetExpression method [Windows Debugging], IDebugBreakpoint interface, SetOffsetExpression method [Windows Debugging], IDebugBreakpoint2 interface, SetOffsetExpression,IDebugBreakpoint.SetOffsetExpression, dbgeng/IDebugBreakpoint2::SetOffsetExpression, dbgeng/IDebugBreakpoint::SetOffsetExpression, debugger.setoffsetexpression
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	IDebugBreakpoint.SetOffsetExpression
 -	IDebugBreakpoint2.SetOffsetExpression
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -51,16 +52,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>SetOffsetExpression</b>  methods set an expression string that evaluates to the location that triggers a breakpoint.
-
-
-## -syntax
-
-
-````
-HRESULT SetOffsetExpression(
-  [in] PCSTR Expression
-);
-````
 
 
 ## -parameters

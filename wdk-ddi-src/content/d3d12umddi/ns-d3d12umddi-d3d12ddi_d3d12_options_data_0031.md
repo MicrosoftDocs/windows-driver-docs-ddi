@@ -7,7 +7,7 @@ old-location: display\d3d12ddi-d3d12-options-data-0031.htm
 old-project: display
 ms.assetid: 3e60f42a-ea95-4876-b370-5c2f0585dc97
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: D3D12DDI_D3D12_OPTIONS_DATA_0031, D3D12DDI_D3D12_OPTIONS_DATA_0031 structure [Display Devices], d3d12umddi/D3D12DDI_D3D12_OPTIONS_DATA_0031, display.d3d12ddi-d3d12-options-data-0031
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3d12umddi.h
 api_name:
 -	D3D12DDI_D3D12_OPTIONS_DATA_0031
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D12DDI_D3D12_OPTIONS_DATA_0031
 ---
@@ -52,25 +53,6 @@ req.typenames: D3D12DDI_D3D12_OPTIONS_DATA_0031
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 Display options data.
-
-
-## -syntax
-
-
-````
-typedef struct _D3D12DDI_D3D12_OPTIONS_DATA_0031 {
-  D3D12DDI_RESOURCE_BINDING_TIER               ResourceBindingTier;
-  D3D12DDI_CONSERVATIVE_RASTERIZATION_TIER     ConservativeRasterizationTier;
-  D3D12DDI_TILED_RESOURCES_TIER                TiledResourcesTier;
-  D3D12DDI_CROSS_NODE_SHARING_TIER             CrossNodeSharingTier;
-  BOOL                                         VPAndRTArrayIndexFromAnyShaderFeedingRasterizerSupportedWithoutGSEmulation;
-  BOOL                                         OutputMergerLogicOp;
-  D3D12DDI_RESOURCE_HEAP_TIER                  ResourceHeapTier;
-  BOOL                                         DepthBoundsTestSupported;
-  D3D12DDI_PROGRAMMABLE_SAMPLE_POSITIONS_TIER  ProgrammableSamplePositionsTier;
-  BOOL                                         CopyQueueTimestampQueriesSupported;
-} D3D12DDI_D3D12_OPTIONS_DATA_0031, D3D12DDI_D3D12_OPTIONS_DATA_0031;
-````
 
 
 ## -struct-fields

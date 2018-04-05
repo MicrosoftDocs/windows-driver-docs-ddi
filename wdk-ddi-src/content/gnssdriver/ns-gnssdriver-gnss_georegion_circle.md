@@ -38,7 +38,8 @@ api_location:
 -	gnssdriver.h
 api_name:
 -	GNSS_GEOREGION_CIRCLE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GNSS_GEOREGION_CIRCLE, *PGNSS_GEOREGION_CIRCLE
 ---
@@ -50,18 +51,6 @@ req.typenames: GNSS_GEOREGION_CIRCLE, *PGNSS_GEOREGION_CIRCLE
 
 
 This structure is used for defining a circular geofence.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  double Latitude;
-  double Longitude;
-  double RadiusInMeters;
-} GNSS_GEOREGION_CIRCLE, *PGNSS_GEOREGION_CIRCLE;
-````
 
 
 ## -struct-fields

@@ -7,7 +7,7 @@ old-location: kernel\io_allocation_action.htm
 old-project: kernel
 ms.assetid: 245d35a1-e877-4446-a0da-e50ece3656b1
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/28/2018
 ms.keywords: "*PIO_ALLOCATION_ACTION, DeallocateObject, DeallocateObjectKeepRegisters, IO_ALLOCATION_ACTION, IO_ALLOCATION_ACTION enumeration [Kernel-Mode Driver Architecture], KeepObject, PIO_ALLOCATION_ACTION, PIO_ALLOCATION_ACTION enumeration pointer [Kernel-Mode Driver Architecture], _IO_ALLOCATION_ACTION, kernel.io_allocation_action, sysenum_26c04e01-0e17-4f1b-93c9-b9ad8d9ca4d5.xml, wdm/DeallocateObject, wdm/DeallocateObjectKeepRegisters, wdm/IO_ALLOCATION_ACTION, wdm/KeepObject, wdm/PIO_ALLOCATION_ACTION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	IO_ALLOCATION_ACTION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: IO_ALLOCATION_ACTION, *PIO_ALLOCATION_ACTION
 req.product: Windows 10 or later.
@@ -50,19 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>IO_ALLOCATION_ACTION</b> enumerated type is used to specify return values for <a href="..\wdm\nc-wdm-driver_control.md">AdapterControl</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff542049">ControllerControl</a> routines.
-
-
-## -syntax
-
-
-````
-typedef enum _IO_ALLOCATION_ACTION { 
-  KeepObject                     = 1,
-  DeallocateObject               = 2,
-  DeallocateObjectKeepRegisters  = 3
-} IO_ALLOCATION_ACTION, *PIO_ALLOCATION_ACTION;
-````
+The <b>IO_ALLOCATION_ACTION</b> enumerated type is used to specify return values for <a href="https://msdn.microsoft.com/library/windows/hardware/ff540504">AdapterControl</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff542049">ControllerControl</a> routines.
 
 
 ## -enum-fields

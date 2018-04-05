@@ -7,7 +7,7 @@ old-location: wdf\wdfmemorycopytobuffer.htm
 old-project: wdf
 ms.assetid: cb1fc590-3d3a-4b06-b467-28c3adb43706
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/26/2018
 ms.keywords: DFMemoryObjectRef_8668c3aa-f5f0-4a1a-9290-27cf78fbcd24.xml, WdfMemoryCopyToBuffer, WdfMemoryCopyToBuffer method, kmdf.wdfmemorycopytobuffer, wdf.wdfmemorycopytobuffer, wdfmemory/WdfMemoryCopyToBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,8 @@ api_location:
 -	WUDFx02000.dll.dll
 api_name:
 -	WdfMemoryCopyToBuffer
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_MEMORY_DESCRIPTOR_TYPE
 req.product: Windows 10 or later.
@@ -56,19 +57,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WdfMemoryCopyToBuffer</b> method copies the contents of a specified memory object's buffer into a specified destination buffer.
-
-
-## -syntax
-
-
-````
-NTSTATUS WdfMemoryCopyToBuffer(
-  _In_  WDFMEMORY SourceMemory,
-  _In_  size_t    SourceOffset,
-  _Out_ PVOID     Buffer,
-  _In_  size_t    NumBytesToCopyTo
-);
-````
 
 
 ## -parameters
@@ -189,13 +177,11 @@ else{
 
 ## -see-also
 
-<a href="..\wdfmemory\nf-wdfmemory-wdfmemorycopyfrombuffer.md">WdfMemoryCopyFromBuffer</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548701">WdfMemoryCopyFromBuffer</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfMemoryCopyToBuffer method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

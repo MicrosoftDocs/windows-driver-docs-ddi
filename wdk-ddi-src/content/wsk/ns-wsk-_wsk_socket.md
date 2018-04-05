@@ -7,7 +7,7 @@ old-location: netvista\wsk_socket.htm
 old-project: netvista
 ms.assetid: dce4a087-a14b-400b-bdc1-944c1d4d492a
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: "*PWSK_SOCKET, PWSK_SOCKET, PWSK_SOCKET structure pointer [Network Drivers Starting with Windows Vista], WSK_SOCKET, WSK_SOCKET structure [Network Drivers Starting with Windows Vista], _WSK_SOCKET, netvista.wsk_socket, wsk/PWSK_SOCKET, wsk/WSK_SOCKET, wskref_bc4b638d-4210-486a-83b8-4483481b5d27.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	wsk.h
 api_name:
 -	WSK_SOCKET
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WSK_SOCKET, *PWSK_SOCKET
 req.product: Windows 10 or later.
@@ -51,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 The WSK_SOCKET structure defines a socket object for a socket.
-
-
-## -syntax
-
-
-````
-typedef struct _WSK_SOCKET {
-  const VOID *Dispatch;
-} WSK_SOCKET, *PWSK_SOCKET;
-````
 
 
 ## -struct-fields
@@ -88,7 +79,7 @@ Basic socket
 </td>
 <td>
 
-<a href="..\wsk\ns-wsk-_wsk_provider_basic_dispatch.md">
+<a href="https://msdn.microsoft.com/15cd5336-fe29-4a59-8071-04c802552a5a">
          WSK_PROVIDER_BASIC_DISPATCH</a>
 
 
@@ -101,7 +92,7 @@ Listening socket
 </td>
 <td>
 
-<a href="..\wsk\ns-wsk-_wsk_provider_listen_dispatch.md">
+<a href="https://msdn.microsoft.com/56df7cb9-9ae7-4249-9583-a9259e604238">
          WSK_PROVIDER_LISTEN_DISPATCH</a>
 
 
@@ -114,7 +105,7 @@ Datagram socket
 </td>
 <td>
 
-<a href="..\wsk\ns-wsk-_wsk_provider_datagram_dispatch.md">
+<a href="https://msdn.microsoft.com/fa8d3395-b800-4e5c-af03-b21520f69158">
          WSK_PROVIDER_DATAGRAM_DISPATCH</a>
 
 
@@ -127,7 +118,7 @@ Connection-oriented socket
 </td>
 <td>
 
-<a href="..\wsk\ns-wsk-_wsk_provider_connection_dispatch.md">
+<a href="https://msdn.microsoft.com/70a86809-07f2-4723-9e50-4dbdd31ff900">
          WSK_PROVIDER_CONNECTION_DISPATCH</a>
 
 
@@ -140,7 +131,7 @@ Stream socket
 </td>
 <td>
 
-<a href="..\wsk\ns-wsk-_wsk_provider_stream_dispatch.md">
+<a href="https://msdn.microsoft.com/A10B901E-9987-40E9-976B-4CD9455E0AEE">
          WSK_PROVIDER_STREAM_DISPATCH</a>
 
 
@@ -161,24 +152,24 @@ The WSK subsystem allocates and fills in a WSK_SOCKET structure whenever a new s
 <ul>
 <li>
 The WSK application calls the 
-      <a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a> function to create a socket.
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff571149">WskSocket</a> function to create a socket.
 
 </li>
 <li>
 The WSK application calls the 
-      <a href="..\wsk\nc-wsk-pfn_wsk_socket_connect.md">WskSocketConnect</a> function to create,
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff571150">WskSocketConnect</a> function to create,
       bind, and connect a connection-oriented socket.
 
 </li>
 <li>
 The WSK application calls the 
-      <a href="..\wsk\nc-wsk-pfn_wsk_accept.md">WskAccept</a> function to accept an incoming
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff571109">WskAccept</a> function to accept an incoming
       connection-oriented socket on a listening socket.
 
 </li>
 <li>
 The WSK subsystem calls the WSK application's 
-      <a href="..\wsk\nc-wsk-pfn_wsk_accept_event.md">WskAcceptEvent</a> event callback function to
+      <a href="https://msdn.microsoft.com/672440f0-810a-4e68-82a5-d038770898c5">WskAcceptEvent</a> event callback function to
       notify the WSK application that an incoming connection-oriented socket has been accepted on a listening
       socket.
 
@@ -188,7 +179,7 @@ A WSK application passes the pointer to a socket's WSK_SOCKET structure when cal
     socket's functions.
 
 The WSK subsystem frees the memory for the WSK_SOCKET structure when the WSK application calls the 
-    <a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a> function to close the
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff571124">WskCloseSocket</a> function to close the
     socket.
 
 
@@ -196,51 +187,49 @@ The WSK subsystem frees the memory for the WSK_SOCKET structure when the WSK app
 
 ## -see-also
 
-<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
 
 
 
-<a href="..\wsk\ns-wsk-_wsk_provider_basic_dispatch.md">WSK_PROVIDER_BASIC_DISPATCH</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571171">WSK_PROVIDER_BASIC_DISPATCH</a>
 
 
 
-<a href="..\wsk\ns-wsk-_wsk_provider_connection_dispatch.md">
+<a href="https://msdn.microsoft.com/70a86809-07f2-4723-9e50-4dbdd31ff900">
    WSK_PROVIDER_CONNECTION_DISPATCH</a>
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_socket_connect.md">WskSocketConnect</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_accept.md">WskAccept</a>
-
-
-
-<a href="..\wsk\ns-wsk-_wsk_provider_listen_dispatch.md">WSK_PROVIDER_LISTEN_DISPATCH</a>
-
-
-
-<a href="..\wsk\ns-wsk-_wsk_provider_stream_dispatch.md">WSK_PROVIDER_STREAM_DISPATCH</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_accept_event.md">WskAcceptEvent</a>
-
-
-
-<a href="..\wsk\ns-wsk-_wsk_provider_datagram_dispatch.md">
+<a href="https://msdn.microsoft.com/fa8d3395-b800-4e5c-af03-b21520f69158">
    WSK_PROVIDER_DATAGRAM_DISPATCH</a>
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571176">WSK_PROVIDER_LISTEN_DISPATCH</a>
 
 
 
+<a href="https://msdn.microsoft.com/A10B901E-9987-40E9-976B-4CD9455E0AEE">WSK_PROVIDER_STREAM_DISPATCH</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571109">WskAccept</a>
+
+
+
+<a href="https://msdn.microsoft.com/672440f0-810a-4e68-82a5-d038770898c5">WskAcceptEvent</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571124">WskCloseSocket</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571149">WskSocket</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571150">WskSocketConnect</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WSK_SOCKET structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

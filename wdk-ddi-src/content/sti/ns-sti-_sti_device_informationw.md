@@ -7,7 +7,7 @@ old-location: image\sti_device_information.htm
 old-project: image
 ms.assetid: 0c285630-876d-4b06-aace-4a2c4c06c1cb
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/27/2018
 ms.keywords: "*PSTI_DEVICE_INFORMATIONW, PSTI_DEVICE_INFORMATION, PSTI_DEVICE_INFORMATION structure pointer [Imaging Devices], STI_DEVICE_INFORMATION, STI_DEVICE_INFORMATION structure [Imaging Devices], STI_DEVICE_INFORMATIONW, _STI_DEVICE_INFORMATIONW, image.sti_device_information, sti/PSTI_DEVICE_INFORMATION, sti/STI_DEVICE_INFORMATIONW, stifnc_79a5d8d7-6b7a-4593-a8bf-05026d09e4a5.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	sti.h
 api_name:
 -	STI_DEVICE_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STI_DEVICE_INFORMATIONW, *PSTI_DEVICE_INFORMATIONW
 req.product: Windows 10 or later.
@@ -51,25 +52,6 @@ req.product: Windows 10 or later.
 
 
 The STI_DEVICE_INFORMATION structure is used as an output parameter for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543784">IStillImage::GetDeviceList</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff543782">IStillImage::GetDeviceInfo</a> functions. It is used as an input parameter for <a href="https://msdn.microsoft.com/library/windows/hardware/ff543803">IStillImage::SetupDeviceParameters</a>.
-
-
-## -syntax
-
-
-````
-typedef struct _STI_DEVICE_INFORMATION {
-  DWORD           dwSize;
-  STI_DEVICE_TYPE DeviceType;
-  TCHAR           szDeviceInternalName[STI_MAX_INTERNAL_NAME_LENGTH];
-  STI_DEV_CAPS    DeviceCapabilities;
-  DWORD           dwHardwareConfiguration;
-  LPTSTR          pszVendorDescription;
-  LPTSTR          pszDeviceDescription;
-  LPTSTR          pszPortName;
-  LPTSTR          pszPropProvider;
-  LPTSTR          pszLocalName;
-} STI_DEVICE_INFORMATION, *PSTI_DEVICE_INFORMATION;
-````
 
 
 ## -struct-fields
@@ -94,7 +76,7 @@ Character array containing the device's internal name string. The string can hav
 
 ### -field DeviceCapabilities
 
-Structure of type <a href="..\sti\ns-sti-_sti_dev_caps.md">STI_DEV_CAPS</a>.
+Structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff548380">STI_DEV_CAPS</a>.
 
 
 ### -field dwHardwareConfiguration

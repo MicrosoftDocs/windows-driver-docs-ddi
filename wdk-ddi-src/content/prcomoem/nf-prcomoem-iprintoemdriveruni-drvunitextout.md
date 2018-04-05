@@ -7,7 +7,7 @@ old-location: print\iprintoemdriveruni_drvunitextout.htm
 old-project: print
 ms.assetid: f8c21813-9bfd-46a5-abb2-78ac2f2301af
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: DrvUniTextOut method [Print Devices], DrvUniTextOut method [Print Devices], IPrintOemDriverUni interface, DrvUniTextOut,IPrintOemDriverUni.DrvUniTextOut, IPrintOemDriverUni, IPrintOemDriverUni interface [Print Devices], DrvUniTextOut method, IPrintOemDriverUni::DrvUniTextOut, prcomoem/IPrintOemDriverUni::DrvUniTextOut, print.iprintoemdriveruni_drvunitextout, print_unidrv-pscript_rendering_a67dafd9-26b4-43ad-82f9-e53caca33053.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: prcomoem.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	prcomoem.h
 api_name:
 -	IPrintOemDriverUni.DrvUniTextOut
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
@@ -51,25 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <code>IPrintOemDriverUni::DrvUniTextOut</code> method is provided by the Unidrv driver so that a rendering plug-in using a device-managed drawing surface can easily output text strings.
-
-
-## -syntax
-
-
-````
-HRESULT DrvUniTextOut(
-   SURFOBJ  *pso,
-   STROBJ   *pstro,
-   FONTOBJ  *pfo,
-   CLIPOBJ  *pco,
-   RECTL    *prclExtra,
-   RECTL    *prclOpaque,
-   BRUSHOBJ *pboFore,
-   BRUSHOBJ *pboOpaque,
-   POINTL   *pptlBrushOrg,
-   MIX      mix
-);
-````
 
 
 ## -parameters

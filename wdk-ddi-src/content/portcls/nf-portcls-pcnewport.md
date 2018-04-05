@@ -7,7 +7,7 @@ old-location: audio\pcnewport.htm
 old-project: audio
 ms.assetid: d948b69c-c5cd-4614-a646-76acb493e8de
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 3/19/2018
 ms.keywords: PcNewPort, PcNewPort function [Audio Devices], audio.pcnewport, audpc-routines_799c0416-dde0-4818-8da7-a38e4e6d4541.xml, portcls/PcNewPort
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Portcls.dll
 api_name:
 -	PcNewPort
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
@@ -50,18 +51,7 @@ req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ## -description
 
 
-The <b>PcNewPort</b> function creates a new system-supplied port-driver object, whose interface (derived from base class <a href="..\portcls\nn-portcls-iport.md">IPort</a>) is specified by a class ID.
-
-
-## -syntax
-
-
-````
-NTSTATUS PcNewPort(
-  _Out_ PPORT    *OutPort,
-  _In_  REFCLSID ClassID
-);
-````
+The <b>PcNewPort</b> function creates a new system-supplied port-driver object, whose interface (derived from base class <a href="https://msdn.microsoft.com/library/windows/hardware/ff536842">IPort</a>) is specified by a class ID.
 
 
 ## -parameters
@@ -71,7 +61,7 @@ NTSTATUS PcNewPort(
 
 ### -param OutPort [out]
 
-Output pointer for the port-driver object created by this function. This parameter points to a caller-allocated pointer variable into which the function outputs the pointer to the newly created <a href="..\portcls\nn-portcls-iport.md">IPort</a> object. This object has the port interface that is specified by the <i>ClassId</i> parameter. Specify a valid, non-NULL pointer value for this parameter.
+Output pointer for the port-driver object created by this function. This parameter points to a caller-allocated pointer variable into which the function outputs the pointer to the newly created <a href="https://msdn.microsoft.com/library/windows/hardware/ff536842">IPort</a> object. This object has the port interface that is specified by the <i>ClassId</i> parameter. Specify a valid, non-NULL pointer value for this parameter.
 
 
 ### -param ClassID [in]
@@ -106,7 +96,7 @@ The <i>ClassId</i> parameter can be set to one of the GUIDs in the following tab
 </td>
 <td>
 
-<a href="..\dmusicks\nn-dmusicks-iportdmus.md">IPortDMus</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536879">IPortDMus</a>
 
 
 </td>
@@ -118,7 +108,7 @@ The <i>ClassId</i> parameter can be set to one of the GUIDs in the following tab
 </td>
 <td>
 
-<a href="..\portcls\nn-portcls-iportmidi.md">IPortMidi</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536891">IPortMidi</a>
 
 
 </td>
@@ -130,7 +120,7 @@ The <i>ClassId</i> parameter can be set to one of the GUIDs in the following tab
 </td>
 <td>
 
-<a href="..\portcls\nn-portcls-iporttopology.md">IPortTopology</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536896">IPortTopology</a>
 
 
 </td>
@@ -142,7 +132,7 @@ The <i>ClassId</i> parameter can be set to one of the GUIDs in the following tab
 </td>
 <td>
 
-<a href="..\portcls\nn-portcls-iportwavecyclic.md">IPortWaveCyclic</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536899">IPortWaveCyclic</a>
 
 
 </td>
@@ -154,7 +144,7 @@ The <i>ClassId</i> parameter can be set to one of the GUIDs in the following tab
 </td>
 <td>
 
-<a href="..\portcls\nn-portcls-iportwavepci.md">IPortWavePci</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536905">IPortWavePci</a>
 
 
 </td>
@@ -166,7 +156,7 @@ The <i>ClassId</i> parameter can be set to one of the GUIDs in the following tab
 </td>
 <td>
 
-<a href="..\portcls\nn-portcls-iportwavert.md">IPortWaveRT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536920">IPortWaveRT</a>
 
 
 </td>
@@ -187,37 +177,35 @@ The <i>OutPort</i> parameter follows the <a href="https://msdn.microsoft.com/e6b
 
 ## -see-also
 
-<a href="..\dmusicks\nn-dmusicks-iportdmus.md">IPortDMus</a>
 
 
 
-<a href="..\portcls\nn-portcls-iportwavecyclic.md">IPortWaveCyclic</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536842">IPort</a>
 
 
 
-<a href="..\portcls\nn-portcls-iportmidi.md">IPortMidi</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536879">IPortDMus</a>
 
 
 
-<a href="..\portcls\nn-portcls-iport.md">IPort</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536891">IPortMidi</a>
 
 
 
-<a href="..\portcls\nn-portcls-iportwavepci.md">IPortWavePci</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536896">IPortTopology</a>
 
 
 
-<a href="..\portcls\nn-portcls-iportwavert.md">IPortWaveRT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536899">IPortWaveCyclic</a>
 
 
 
-<a href="..\portcls\nn-portcls-iporttopology.md">IPortTopology</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536905">IPortWavePci</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536920">IPortWaveRT</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20PcNewPort function%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

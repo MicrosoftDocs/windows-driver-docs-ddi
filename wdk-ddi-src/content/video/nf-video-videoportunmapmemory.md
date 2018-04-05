@@ -7,7 +7,7 @@ old-location: display\videoportunmapmemory.htm
 old-project: display
 ms.assetid: 224c8483-56b8-4341-8347-fa119ec04024
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: VideoPortUnmapMemory, VideoPortUnmapMemory function [Display Devices], VideoPort_Functions_394a66fa-47cd-4e0e-8467-3c3562d27822.xml, display.videoportunmapmemory, video/VideoPortUnmapMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Videoprt.sys
 api_name:
 -	VideoPortUnmapMemory
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
 req.product: Windows 10 or later.
@@ -50,19 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>VideoPortUnmapMemory</b> function releases a mapping between a logical address range for the adapter and a virtual address range in the user-mode address space of a particular thread. This function is the complement of <a href="..\video\nf-video-videoportmapmemory.md">VideoPortMapMemory</a>.
-
-
-## -syntax
-
-
-````
-VP_STATUS VideoPortUnmapMemory(
-   PVOID  HwDeviceExtension,
-   PVOID  VirtualAddress,
-   HANDLE ProcessHandle
-);
-````
+The <b>VideoPortUnmapMemory</b> function releases a mapping between a logical address range for the adapter and a virtual address range in the user-mode address space of a particular thread. This function is the complement of <a href="https://msdn.microsoft.com/library/windows/hardware/ff570331">VideoPortMapMemory</a>.
 
 
 ## -parameters
@@ -105,13 +94,11 @@ A miniport driver cannot release a subrange of the mapping between a logical dev
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportmapmemory.md">VideoPortMapMemory</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570331">VideoPortMapMemory</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20VideoPortUnmapMemory function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: kernel\obregistercallbacks.htm
 old-project: kernel
 ms.assetid: 93593979-fe5f-48de-9c98-92acd43ec750
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/28/2018
 ms.keywords: ObRegisterCallbacks, ObRegisterCallbacks routine [Kernel-Mode Driver Architecture], k107_e5976812-0590-42f5-836c-85f9d262f19f.xml, kernel.obregistercallbacks, wdm/ObRegisterCallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	ObRegisterCallbacks
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
@@ -53,17 +54,6 @@ req.product: Windows 10 or later.
 The <b>ObRegisterCallbacks</b> routine registers a list of callback routines for thread, process, and desktop handle operations.
 
 
-## -syntax
-
-
-````
-NTSTATUS ObRegisterCallbacks(
-  _In_  POB_CALLBACK_REGISTRATION CallBackRegistration,
-  _Out_ PVOID                     *RegistrationHandle
-);
-````
-
-
 ## -parameters
 
 
@@ -76,12 +66,12 @@ TBD
 
 ### -param RegistrationHandle [out]
 
-A pointer to a variable that receives a value that identifies the set of registered callback routines. The caller passes this value to the <a href="..\wdm\nf-wdm-obunregistercallbacks.md">ObUnRegisterCallbacks</a> routine to unregister the set of callbacks. 
+A pointer to a variable that receives a value that identifies the set of registered callback routines. The caller passes this value to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558712">ObUnRegisterCallbacks</a> routine to unregister the set of callbacks. 
 
 
 #### - CallBackRegistration [in]
 
-A pointer to an <a href="..\wdm\ns-wdm-_ob_callback_registration.md">OB_CALLBACK_REGISTRATION</a> structure that specifies the list of callback routines and other registration information.
+A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff558714">OB_CALLBACK_REGISTRATION</a> structure that specifies the list of callback routines and other registration information.
 
 
 ## -returns
@@ -113,7 +103,7 @@ The specified callback routines are registered with the system.
 </dl>
 </td>
 <td width="60%">
-The calling driver or another driver has already registered callback routines for the altitude that <i>CallBackRegistration</i>-&gt;<b>Altitude</b> specifies. For more information about this altitude, see the description of the <b>Altitude</b> member in <a href="..\wdm\ns-wdm-_ob_callback_registration.md">OB_CALLBACK_REGISTRATION</a>.
+The calling driver or another driver has already registered callback routines for the altitude that <i>CallBackRegistration</i>-&gt;<b>Altitude</b> specifies. For more information about this altitude, see the description of the <b>Altitude</b> member in <a href="https://msdn.microsoft.com/library/windows/hardware/ff558714">OB_CALLBACK_REGISTRATION</a>.
 
 </td>
 </tr>
@@ -167,17 +157,15 @@ A driver must unregister all callback routines before it unloads. You can unregi
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-obunregistercallbacks.md">ObUnRegisterCallbacks</a>
 
 
 
-<a href="..\wdm\ns-wdm-_ob_callback_registration.md">OB_CALLBACK_REGISTRATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558714">OB_CALLBACK_REGISTRATION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558712">ObUnRegisterCallbacks</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ObRegisterCallbacks routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

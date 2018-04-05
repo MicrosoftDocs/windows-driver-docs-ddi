@@ -7,7 +7,7 @@ old-location: display\dxgiddicb_present_multiplane_overlay1.htm
 old-project: display
 ms.assetid: AA716307-C235-47B2-BEB6-586FD6013280
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: DXGIDDICB_PRESENT_MULTIPLANE_OVERLAY1, DXGIDDICB_PRESENT_MULTIPLANE_OVERLAY1 structure [Display Devices], display.dxgiddicb_present_multiplane_overlay1, dxgiddi/DXGIDDICB_PRESENT_MULTIPLANE_OVERLAY1
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	dxgiddi.h
 api_name:
 -	DXGIDDICB_PRESENT_MULTIPLANE_OVERLAY1
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGIDDICB_PRESENT_MULTIPLANE_OVERLAY1
 ---
@@ -50,18 +51,6 @@ req.typenames: DXGIDDICB_PRESENT_MULTIPLANE_OVERLAY1
 
 
 Describes multiplane overlay allocations, private driver data, and context information for each multiplane overlay plane. 
-
-
-## -syntax
-
-
-````
-typedef struct _DXGIDDICB_PRESENT_MULTIPLANE_OVERLAY1 {
-  VOID                                  *pDXGIContext;
-  DWORD                                 PresentPlaneCount;
-  DXGIDDI_MULTIPLANE_OVERLAY_PLANE_INFO **ppPresentPlanes;
-} DXGIDDICB_PRESENT_MULTIPLANE_OVERLAY1;
-````
 
 
 ## -struct-fields

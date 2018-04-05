@@ -7,7 +7,7 @@ old-location: wdf\wdf_timer_config_init.htm
 old-project: wdf
 ms.assetid: 2bf613ff-e178-4a33-a1ae-ea6d4bb78d0a
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/26/2018
 ms.keywords: DFTimerObjectRef_aed045cc-b5e1-4e47-8f6b-41d6b858c9f2.xml, WDF_TIMER_CONFIG_INIT, WDF_TIMER_CONFIG_INIT function, kmdf.wdf_timer_config_init, wdf.wdf_timer_config_init, wdftimer/WDF_TIMER_CONFIG_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	None.dll
 api_name:
 -	WDF_TIMER_CONFIG_INIT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_REQUEST_SEND_OPTIONS, *PWDF_REQUEST_SEND_OPTIONS
 req.product: Windows 10 or later.
@@ -53,18 +54,7 @@ req.product: Windows 10 or later.
 
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
-The <b>WDF_TIMER_CONFIG_INIT</b> function initializes a <a href="..\wdftimer\ns-wdftimer-_wdf_timer_config.md">WDF_TIMER_CONFIG</a> structure for a timer that will use a single due time.
-
-
-## -syntax
-
-
-````
-VOID WDF_TIMER_CONFIG_INIT(
-  _In_ PWDF_TIMER_CONFIG Config,
-  _In_ PFN_WDF_TIMER     EvtTimerFunc
-);
-````
+The <b>WDF_TIMER_CONFIG_INIT</b> function initializes a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552519">WDF_TIMER_CONFIG</a> structure for a timer that will use a single due time.
 
 
 ## -parameters
@@ -74,7 +64,7 @@ VOID WDF_TIMER_CONFIG_INIT(
 
 ### -param Config [in]
 
-A pointer to a <a href="..\wdftimer\ns-wdftimer-_wdf_timer_config.md">WDF_TIMER_CONFIG</a> structure. 
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552519">WDF_TIMER_CONFIG</a> structure. 
 
 
 ### -param EvtTimerFunc [in]
@@ -95,12 +85,12 @@ None
 
 
 
-The <b>WDF_TIMER_CONFIG_INIT</b> function zeros the specified <a href="..\wdftimer\ns-wdftimer-_wdf_timer_config.md">WDF_TIMER_CONFIG</a> structure. Then it sets the structure's <b>Size</b> member, stores the <i>EvtTimerFunc</i> pointer, sets the <b>Period</b> member and the <b>TolerableDelay</b> member to zero, and sets the <b>AutomaticSerialization</b> member to <b>TRUE</b>. 
+The <b>WDF_TIMER_CONFIG_INIT</b> function zeros the specified <a href="https://msdn.microsoft.com/library/windows/hardware/ff552519">WDF_TIMER_CONFIG</a> structure. Then it sets the structure's <b>Size</b> member, stores the <i>EvtTimerFunc</i> pointer, sets the <b>Period</b> member and the <b>TolerableDelay</b> member to zero, and sets the <b>AutomaticSerialization</b> member to <b>TRUE</b>. 
 
 
 #### Examples
 
-For a code example that uses <b>WDF_TIMER_CONFIG_INIT</b>, see <a href="..\wdftimer\nf-wdftimer-wdftimercreate.md">WdfTimerCreate</a>.
+For a code example that uses <b>WDF_TIMER_CONFIG_INIT</b>, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff550050">WdfTimerCreate</a>.
 
 <div class="code"></div>
 
@@ -108,7 +98,6 @@ For a code example that uses <b>WDF_TIMER_CONFIG_INIT</b>, see <a href="..\wdfti
 
 ## -see-also
 
-<a href="..\wdftimer\ns-wdftimer-_wdf_timer_config.md">WDF_TIMER_CONFIG</a>
 
 
 
@@ -116,13 +105,12 @@ For a code example that uses <b>WDF_TIMER_CONFIG_INIT</b>, see <a href="..\wdfti
 
 
 
-<a href="..\wdftimer\nf-wdftimer-wdf_timer_config_init_periodic.md">WDF_TIMER_CONFIG_INIT_PERIODIC</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552519">WDF_TIMER_CONFIG</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552526">WDF_TIMER_CONFIG_INIT_PERIODIC</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_TIMER_CONFIG_INIT function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: print\splclient_info_3_vista.htm
 old-project: print
 ms.assetid: 076ECB20-CFAD-4A16-9B01-6936E0DD7E50
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: "*LPSPLCLIENT_INFO_3, *PSPLCLIENT_INFO_3, SPLCLIENT_INFO_3, SPLCLIENT_INFO_3_VISTA, SPLCLIENT_INFO_3_VISTA structure [Print Devices], _SPLCLIENT_INFO_3_VISTA, print.splclient_info_3_vista, winsplp/SPLCLIENT_INFO_3_VISTA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Winsplp.h
 api_name:
 -	SPLCLIENT_INFO_3_VISTA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SPLCLIENT_INFO_3_VISTA
 req.product: Windows 10 or later.
@@ -51,25 +52,6 @@ req.product: Windows 10 or later.
 
 
 Contains a super-set of the information in both a <a href="https://docs.microsoft.com/en-us/dotnet/core/rid-catalog">SPLCLIENT_INFO_1</a> and <b>SPLCLIENT_INFO_2</b> structure. It also contains additional information needed by the provider.
-
-
-## -syntax
-
-
-````
-typedef struct _SPLCLIENT_INFO_3_VISTA {
-  UINT             cbSize;
-  DWORD            dwFlags;
-  DWORD            dwSize;
-  PWSTR            pMachineName;
-  PWSTR            pUserName;
-  DWORD            dwBuildNum;
-             DWORD dwMajorVersion;
-  DWORD            dwMinorVersion;
-  WORD             wProcessorArchitecture;
-  UINT64           hSplPrinter;
-} SPLCLIENT_INFO_3_VISTA;
-````
 
 
 ## -struct-fields

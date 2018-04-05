@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILCALLLIST_V1
 title: RILCALLLIST_V1
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilcalllist_v1_2.htm
+old-location: netvista\rilcalllist_v1.htm
 old-project: netvista
-ms.assetid: bdca275c-c728-4be4-bb57-cfa61cddff61
+ms.assetid: 09b4f4e7-2688-4d6e-8512-a94c5ce25a79
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: "*LPRILCALLLIST_V1, RILCALLLIST_V1, RILCALLLIST_V1 structure [Network Drivers Starting with Windows Vista], netvista.rilcalllist_v1_2, rilapitypes/RILCALLLIST_V1"
+ms.date: 3/26/2018
+ms.keywords: "*LPRILCALLLIST_V1, RILCALLLIST_V1, RILCALLLIST_V1 structure [Network Drivers Starting with Windows Vista], netvista.rilcalllist_v1, ntddrilapitypes/RILCALLLIST_V1"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,10 +35,11 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILCALLLIST_V1
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILCALLLIST_V1, *LPRILCALLLIST_V1
 req.product: Windows 10 or later.
@@ -50,18 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-
-## -syntax
-
-
-````
-typedef struct _RILCALLLIST_V1 {
-  DWORD              dwNumberOfCalls;
-  RILCALLINFO_V1 [1] rciCallInfo;
-} RILCALLLIST_V1, RILCALLLIST_V1;
-````
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -struct-fields

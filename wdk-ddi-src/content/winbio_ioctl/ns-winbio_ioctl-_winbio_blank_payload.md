@@ -38,7 +38,8 @@ api_location:
 -	winbio_ioctl.h
 api_name:
 -	WINBIO_BLANK_PAYLOAD
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WINBIO_BLANK_PAYLOAD, *PWINBIO_BLANK_PAYLOAD
 req.product: Windows 10 or later.
@@ -50,18 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <a href="..\winbio_ioctl\ni-winbio_ioctl-ioctl_biometric_reset.md">IOCTL_BIOMETRIC_RESET</a> and <a href="..\winbio_ioctl\ni-winbio_ioctl-ioctl_biometric_update_firmware.md">IOCTL_BIOMETRIC_UPDATE_FIRMWARE</a> IOCTLs return the WINBIO_BLANK_PAYLOAD structure as output.
-
-
-## -syntax
-
-
-````
-typedef struct _WINBIO_BLANK_PAYLOAD {
-  DWORD   PayloadSize;
-  HRESULT WinBioHresult;
-} WINBIO_BLANK_PAYLOAD, *PWINBIO_BLANK_PAYLOAD;
-````
+The <a href="https://msdn.microsoft.com/library/windows/hardware/ff536439">IOCTL_BIOMETRIC_RESET</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff536443">IOCTL_BIOMETRIC_UPDATE_FIRMWARE</a> IOCTLs return the WINBIO_BLANK_PAYLOAD structure as output.
 
 
 ## -struct-fields

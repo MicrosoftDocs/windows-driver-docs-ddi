@@ -7,7 +7,7 @@ old-location: display\dxgk_pre_start_info.htm
 old-project: display
 ms.assetid: 4CCDA951-A583-48C4-98D7-D278183D8893
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PDXGK_PRE_START_INFO, DXGK_PRE_START_INFO, DXGK_PRE_START_INFO structure [Display Devices], PDXGK_PRE_START_INFO, PDXGK_PRE_START_INFO structure pointer [Display Devices], _DXGK_PRE_START_INFO, display.dxgk_pre_start_info, dispmprt/DXGK_PRE_START_INFO, dispmprt/PDXGK_PRE_START_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	dispmprt.h
 api_name:
 -	DXGK_PRE_START_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_PRE_START_INFO, *PDXGK_PRE_START_INFO
 ---
@@ -50,29 +51,6 @@ req.typenames: DXGK_PRE_START_INFO, *PDXGK_PRE_START_INFO
 
 
 Structure to allow very simple data to be exchanged between the OS and driver which may be required prior to start device being called and therefore cannot be queried through normal caps or adapter info DDIs.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGK_PRE_START_INFO {
-  union {
-    struct {
-      UINT ReservedIn;
-    };
-    UINT Input;
-  };
-  union {
-    struct {
-      UINT SupportPreserveBootDisplay  :1;
-      UINT IsUEFIFrameBufferCpuAccessibleDuringStartup  :1;
-      UINT ReservedOut  :30;
-    };
-    UINT Output;
-  };
-} DXGK_PRE_START_INFO, *PDXGK_PRE_START_INFO;
-````
 
 
 ## -struct-fields

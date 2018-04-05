@@ -7,7 +7,7 @@ old-location: audio\usbsidebandaudio_ep_shadow_resources.htm
 old-project: audio
 ms.assetid: 56159F97-82CD-4F0A-ADF0-228E876A0266
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 3/19/2018
 ms.keywords: "*PUSBSIDEBANDAUDIO_EP_SHADOW_RESOURCES, PUSBSIDEBANDAUDIO_EP_SHADOW_RESOURCES, PUSBSIDEBANDAUDIO_EP_SHADOW_RESOURCES structure pointer [Audio Devices], USBSIDEBANDAUDIO_EP_SHADOW_RESOURCES, USBSIDEBANDAUDIO_EP_SHADOW_RESOURCES structure [Audio Devices], _USBSIDEBANDAUDIO_EP_SHADOW_RESOURCES, audio.usbsidebandaudio_ep_shadow_resources, usbsidebandaudio/PUSBSIDEBANDAUDIO_EP_SHADOW_RESOURCES, usbsidebandaudio/USBSIDEBANDAUDIO_EP_SHADOW_RESOURCES"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -37,7 +37,8 @@ api_location:
 -
 api_name:
 -	USBSIDEBANDAUDIO_EP_SHADOW_RESOURCES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USBSIDEBANDAUDIO_EP_SHADOW_RESOURCES, *PUSBSIDEBANDAUDIO_EP_SHADOW_RESOURCES
 req.product: Windows 10 or later.
@@ -52,19 +53,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 TBD
-
-
-## -syntax
-
-
-````
-typedef struct _USBSIDEBANDAUDIO_EP_SHADOW_RESOURCES {
-  ULONG                                          Reserved 0;
-  ULONG                                          Reserved 1;
-  PUSBSIDEBANDAUDIO_EP_SHADOW_RESOURCES_FUNCTION Reserved 2;
-  LONGLONG                                       Reserved 3;
-} USBSIDEBANDAUDIO_EP_SHADOW_RESOURCES, *PUSBSIDEBANDAUDIO_EP_SHADOW_RESOURCES;
-````
 
 
 ## -struct-fields

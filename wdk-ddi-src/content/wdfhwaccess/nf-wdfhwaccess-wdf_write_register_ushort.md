@@ -7,7 +7,7 @@ old-location: wdf\wdf_write_register_ushort.htm
 old-project: wdf
 ms.assetid: E098794F-9A32-409E-9B44-04FDCEF75341
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/26/2018
 ms.keywords: WDF_WRITE_REGISTER_USHORT, WDF_WRITE_REGISTER_USHORT function, wdf.wdf_write_register_ushort, wdfhwaccess/WDF_WRITE_REGISTER_USHORT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	Wdfhwaccess.h
 api_name:
 -	WDF_WRITE_REGISTER_USHORT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_FILE_INFORMATION_CLASS, *PWDF_FILE_INFORMATION_CLASS
 req.product: Windows 10 or later.
@@ -53,18 +54,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to UMDF only]
 
 The <b>WDF_WRITE_REGISTER_USHORT</b> routine writes a USHORT value to the specified address.
-
-
-## -syntax
-
-
-````
-void WDF_WRITE_REGISTER_USHORT(
-  _In_ WDFDEVICE Device,
-  _In_ PUSHORT   Register,
-  _In_ ULONG     Value
-);
-````
 
 
 ## -parameters

@@ -39,7 +39,8 @@ api_location:
 -	usbcamd2.dll
 api_name:
 -	USBCAMD_DriverEntry
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USB_BUS_INTERFACE_USBDI_V3, *PUSB_BUS_INTERFACE_USBDI_V3
 req.product: Windows 10 or later.
@@ -52,20 +53,6 @@ req.product: Windows 10 or later.
 
 
 The <b>USBCAMD_DriverEntry</b> function registers the minidriver with USBCAMD, effectively binding USBCAMD and the minidriver together.
-
-
-## -syntax
-
-
-````
-ULONG USBCAMD_DriverEntry(
-  _In_ PVOID                           Context1,
-  _In_ PVOID                           Context2,
-  _In_ ULONG                           DeviceContextSize,
-  _In_ ULONG                           FrameContextSize,
-  _In_ PADAPTER_RECEIVE_PACKET_ROUTINE ReceivePacket
-);
-````
 
 
 ## -parameters
@@ -95,7 +82,7 @@ TBD
 
 ### -param ReceivePacket [in]
 
-Pointer to the minidriver-defined <a href="..\usbcamdi\nc-usbcamdi-padapter_receive_packet_routine.md">AdapterReceivePacket</a> function that handles adapter-based SRB requests.
+Pointer to the minidriver-defined <a href="https://msdn.microsoft.com/library/windows/hardware/ff554080">AdapterReceivePacket</a> function that handles adapter-based SRB requests.
 
 
 #### - FrameContextSize [in]
@@ -119,28 +106,26 @@ Specifies the size, in bytes, required for the minidriver's frame-specific conte
 A camera minidriver must call <b>USBCAMD_DriverEntry</b> from the minidriver's <b>DriverEntry</b> routine. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558717">DriverEntry for Stream Class Minidrivers</a>
 
 
-<i>FrameContextSize</i> is optional. A non-<b>NULL</b> value should be provided only with calls to <a href="..\usbcamdi\nc-usbcamdi-pcam_new_frame_routine.md">CamNewVideoFrame</a> or <a href="..\usbcamdi\nc-usbcamdi-pcam_process_raw_frame_routine.md">CamProcessRawVideoFrame</a>.
+<i>FrameContextSize</i> is optional. A non-<b>NULL</b> value should be provided only with calls to <a href="https://msdn.microsoft.com/library/windows/hardware/ff557617">CamNewVideoFrame</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff557623">CamProcessRawVideoFrame</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\usbcamdi\nc-usbcamdi-pcam_process_raw_frame_routine.md">CamProcessRawVideoFrame</a>
 
 
 
-<a href="..\usbcamdi\nc-usbcamdi-padapter_receive_packet_routine.md">AdapterReceivePacket</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554080">AdapterReceivePacket</a>
 
 
 
-<a href="..\usbcamdi\nc-usbcamdi-pcam_new_frame_routine.md">CamNewVideoFrame</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557617">CamNewVideoFrame</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557623">CamProcessRawVideoFrame</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20USBCAMD_DriverEntry function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

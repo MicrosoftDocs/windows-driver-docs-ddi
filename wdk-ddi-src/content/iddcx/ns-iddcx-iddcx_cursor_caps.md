@@ -7,7 +7,7 @@ old-location: display\iddcx_cursor_caps.htm
 old-project: display
 ms.assetid: 3bd92999-07f3-43bb-a826-4fea3e19168a
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: IDDCX_CURSOR_CAPS, IDDCX_CURSOR_CAPS structure [Display Devices], display.iddcx_cursor_caps, iddcx/IDDCX_CURSOR_CAPS
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	iddcx.h
 api_name:
 -	IDDCX_CURSOR_CAPS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -52,20 +53,6 @@ req.typenames:
 
                  Gives information about the capabilities of the cursor.
              
-
-
-## -syntax
-
-
-````
-typedef struct IDDCX_CURSOR_CAPS {
-  UINT                     Size;
-  IDDCX_XOR_CURSOR_SUPPORT ColorXorCursorSupport;
-  BOOL                     AlphaCursorSupport;
-  UINT                     MaxX;
-  UINT                     MaxY;
-} IDDCX_CURSOR_CAPS, *IDDCX_CURSOR_CAPS;
-````
 
 
 ## -struct-fields

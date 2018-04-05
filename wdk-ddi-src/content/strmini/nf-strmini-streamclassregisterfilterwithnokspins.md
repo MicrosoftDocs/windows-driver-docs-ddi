@@ -39,7 +39,8 @@ api_location:
 -	Stream.dll
 api_name:
 -	StreamClassRegisterFilterWithNoKSPins
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STREAM_PRIORITY, *PSTREAM_PRIORITY
 req.product: Windows 10 or later.
@@ -52,21 +53,6 @@ req.product: Windows 10 or later.
 
 
 The <b>StreamClassRegisterFilterWithNoKSPins</b> routine is used to register filter drivers with Microsoft DirectShow that have no kernel streaming pins and, therefore, do not stream in kernel mode. 
-
-
-## -syntax
-
-
-````
-NTSTATUS StreamClassRegisterFilterWithNoKSPins(
-  _In_           PDEVICE_OBJECT DeviceObject,
-  _In_     const GUID           *InterfaceClassGUID,
-  _In_           ULONG          PinCount,
-  _In_           BOOL           *PinDirection,
-  _In_           KSPIN_MEDIUM   *MediumList,
-  _In_opt_       GUID           *CategoryList
-);
-````
 
 
 ## -parameters
@@ -115,13 +101,11 @@ Returns STATUS_SUCCESS on success, or the appropriate error code on failure.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563538">KSPIN_MEDIUM</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20StreamClassRegisterFilterWithNoKSPins routine%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

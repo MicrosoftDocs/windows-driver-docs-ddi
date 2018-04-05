@@ -7,7 +7,7 @@ old-location: display\d3d11_1ddi_aes_ctr_iv.htm
 old-project: display
 ms.assetid: 56228a1d-ca3b-4bd4-850c-af736e91494c
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: D3D11_1DDI_AES_CTR_IV, D3D11_1DDI_AES_CTR_IV structure [Display Devices], d3d10umddi/D3D11_1DDI_AES_CTR_IV, display.d3d11_1ddi_aes_ctr_iv
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3d10umddi.h
 api_name:
 -	D3D11_1DDI_AES_CTR_IV
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D11_1DDI_AES_CTR_IV
 ---
@@ -50,17 +51,6 @@ req.typenames: D3D11_1DDI_AES_CTR_IV
 
 
 Contains an initialization vector (IV) for 128-bit Advanced Encryption Standard CTR mode (AES-CTR) block cipher encryption.
-
-
-## -syntax
-
-
-````
-typedef struct D3D11_1DDI_AES_CTR_IV {
-  UINT64 IV;
-  UINT64 Count;
-} D3D11_1DDI_AES_CTR_IV;
-````
 
 
 ## -struct-fields

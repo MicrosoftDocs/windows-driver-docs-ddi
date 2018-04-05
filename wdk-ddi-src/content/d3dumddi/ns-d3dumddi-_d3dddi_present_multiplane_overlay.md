@@ -7,7 +7,7 @@ old-location: display\d3dddi_present_multiplane_overlay.htm
 old-project: display
 ms.assetid: 45db9dbb-d1e1-4ed3-bf4d-99b6ac7542ae
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDI_PRESENT_MULTIPLANE_OVERLAY, D3DDDI_PRESENT_MULTIPLANE_OVERLAY structure [Display Devices], _D3DDDI_PRESENT_MULTIPLANE_OVERLAY, d3dumddi/D3DDDI_PRESENT_MULTIPLANE_OVERLAY, display.d3dddi_present_multiplane_overlay
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3dumddi.h
 api_name:
 -	D3DDDI_PRESENT_MULTIPLANE_OVERLAY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDI_PRESENT_MULTIPLANE_OVERLAY
 ---
@@ -50,20 +51,6 @@ req.typenames: D3DDDI_PRESENT_MULTIPLANE_OVERLAY
 
 
 Specifies an overlay plane to display.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DDDI_PRESENT_MULTIPLANE_OVERLAY {
-  UINT                                 LayerIndex;
-  BOOL                                 Enabled;
-  HANDLE                               hResource;
-  UINT                                 SubResourceIndex;
-  D3DDDI_MULTIPLANE_OVERLAY_ATTRIBUTES PlaneAttributes;
-} D3DDDI_PRESENT_MULTIPLANE_OVERLAY;
-````
 
 
 ## -struct-fields
@@ -93,18 +80,16 @@ The zero-based index into the resource, which is specified by the handle in the 
 
 ### -field PlaneAttributes
 
-A <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_multiplane_overlay_attributes.md">D3DDDI_MULTIPLANE_OVERLAY_ATTRIBUTES</a> structure that specifies overlay plane attributes.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/hh780234">D3DDDI_MULTIPLANE_OVERLAY_ATTRIBUTES</a> structure that specifies overlay plane attributes.
 
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_multiplane_overlay_attributes.md">D3DDDI_MULTIPLANE_OVERLAY_ATTRIBUTES</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh780234">D3DDDI_MULTIPLANE_OVERLAY_ATTRIBUTES</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DDDI_PRESENT_MULTIPLANE_OVERLAY structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

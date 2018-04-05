@@ -7,7 +7,7 @@ old-location: netvista\ndismsendnetbufferlistscomplete.htm
 old-project: netvista
 ms.assetid: 33890582-5eba-4cc1-a0d9-ec07f18da453
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: NdisMSendNetBufferListsComplete, NdisMSendNetBufferListsComplete function [Network Drivers Starting with Windows Vista], ndis/NdisMSendNetBufferListsComplete, ndis_sendrcv_ref_11bdd96b-0ba8-475a-ba6e-03492e2993d7.xml, netvista.ndismsendnetbufferlistscomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	ndis.dll
 api_name:
 -	NdisMSendNetBufferListsComplete
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
@@ -52,20 +53,8 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 
 Miniport drivers call the 
   <b>NdisMSendNetBufferListsComplete</b> function to return a linked list of 
-  <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures to an overlying
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structures to an overlying
   driver and to return the final status of a send request.
-
-
-## -syntax
-
-
-````
-VOID NdisMSendNetBufferListsComplete(
-  _In_ NDIS_HANDLE      MiniportAdapterHandle,
-  _In_ PNET_BUFFER_LIST NetBufferLists,
-  _In_ ULONG            SendCompleteFlags
-);
-````
 
 
 ## -parameters
@@ -76,7 +65,7 @@ VOID NdisMSendNetBufferListsComplete(
 ### -param MiniportAdapterHandle [in]
 
 The miniport handle that NDIS passed to the 
-     <a href="..\ndis\nc-ndis-miniport_initialize.md">
+     <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">
      MiniportInitializeEx</a> function.
 
 
@@ -97,7 +86,7 @@ NDIS flags that can be combined with an OR operation. To clear all the flags, se
 
 A pointer to a linked list of NET_BUFFER_LIST structures. The miniport driver received the
      NET_BUFFER_LIST structures in previous calls to its 
-     <a href="..\ndis\nc-ndis-miniport_send_net_buffer_lists.md">
+     <a href="https://msdn.microsoft.com/0bd5966d-66a6-4548-8c84-7cedced2cf40">
      MiniportSendNetBufferLists</a> function.
 
 
@@ -116,25 +105,25 @@ None
 
 A miniport driver calls 
     <b>NdisMSendNetBufferListsComplete</b> to complete send requests that NDIS made to the driver's 
-    <a href="..\ndis\nc-ndis-miniport_send_net_buffer_lists.md">
+    <a href="https://msdn.microsoft.com/0bd5966d-66a6-4548-8c84-7cedced2cf40">
     MiniportSendNetBufferLists</a> function. The miniport driver specifies a linked list of 
-    <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures that are
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structures that are
     associated with the completed send requests. While the status of the send requests is pending, the
     miniport driver retains ownership of the NET_BUFFER_LIST structures and all the protocol-allocated
     resources that are associated with the NET_BUFFER_LIST structures.
 
 After a miniport driver calls 
     <b>NdisMSendNetBufferListsComplete</b>, NDIS calls the 
-    <a href="..\ndis\nc-ndis-protocol_send_net_buffer_lists_complete.md">
+    <a href="https://msdn.microsoft.com/bc9197c5-ce0b-42b2-8225-fb9d83427ac8">
     ProtocolSendNetBufferListsComplete</a> function of the driver that called the 
-    <a href="..\ndis\nf-ndis-ndissendnetbufferlists.md">NdisSendNetBufferLists</a> function to
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff564535">NdisSendNetBufferLists</a> function to
     initiate the send request.
 
 The miniport driver can complete send requests in any order. For example, the miniport driver could
     concatenate the NET_BUFFER_LIST structure lists from multiple 
     <i>MiniportSendNetBufferLists</i> calls or split up a list from a 
     <i>MiniportSendNetBufferLists</i> call. However, the miniport driver must not modify the list of 
-    <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structures that are associated with a
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structures that are associated with a
     NET_BUFFER_LIST structure.
 
 The miniport driver must set one of the following status codes in the 
@@ -152,33 +141,31 @@ A miniport driver's call to
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+<a href="https://msdn.microsoft.com/17111aa3-c02f-494a-af97-5ab34c152451">MiniportCancelSend</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_send_net_buffer_lists.md">MiniportSendNetBufferLists</a>
+<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<a href="https://msdn.microsoft.com/0bd5966d-66a6-4548-8c84-7cedced2cf40">MiniportSendNetBufferLists</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_cancel_send.md">MiniportCancelSend</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndissendnetbufferlists.md">NdisSendNetBufferLists</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564535">NdisSendNetBufferLists</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisMSendNetBufferListsComplete function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

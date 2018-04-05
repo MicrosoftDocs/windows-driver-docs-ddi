@@ -7,7 +7,7 @@ old-location: netvista\ndis_filter_restart_parameters.htm
 old-project: netvista
 ms.assetid: f61e8c1b-5cc5-4d61-a4e2-39ca402cd710
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: "*PNDIS_FILTER_RESTART_PARAMETERS, NDIS_FILTER_RESTART_PARAMETERS, NDIS_FILTER_RESTART_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_FILTER_RESTART_PARAMETERS, PNDIS_FILTER_RESTART_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_FILTER_RESTART_PARAMETERS, filter_structures_ref_35344063-f39b-4a73-8069-4a47a61d9f2a.xml, ndis/NDIS_FILTER_RESTART_PARAMETERS, ndis/PNDIS_FILTER_RESTART_PARAMETERS, netvista.ndis_filter_restart_parameters"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ndis.h
 api_name:
 -	NDIS_FILTER_RESTART_PARAMETERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_FILTER_RESTART_PARAMETERS, *PNDIS_FILTER_RESTART_PARAMETERS
 ---
@@ -53,22 +54,6 @@ The NDIS_FILTER_RESTART_PARAMETERS structure defines the restart parameters for 
   module.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_FILTER_RESTART_PARAMETERS {
-  NDIS_OBJECT_HEADER       Header;
-  NDIS_MEDIUM              MiniportMediaType;
-  NDIS_PHYSICAL_MEDIUM     MiniportPhysicalMediaType;
-  PNDIS_RESTART_ATTRIBUTES RestartAttributes;
-  NET_IFINDEX              LowerIfIndex;
-  NET_LUID                 LowerIfNetLuid;
-  ULONG                    Flags;
-} NDIS_FILTER_RESTART_PARAMETERS, *PNDIS_FILTER_RESTART_PARAMETERS;
-````
-
-
 ## -struct-fields
 
 
@@ -77,7 +62,7 @@ typedef struct _NDIS_FILTER_RESTART_PARAMETERS {
 ### -field Header
 
 The 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure
      for the NDIS_FILTER_RESTART_PARAMETERS structure. NDIS sets the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to NDIS_OBJECT_TYPE_FILTER_RESTART_PARAMETERS, the 
@@ -90,7 +75,7 @@ The
 The 
      NdisMedium
      <i>Xxx</i> type that the base underlying miniport adapter supports. For more information, see 
-     <a href="..\ntddndis\ne-ntddndis-_ndis_medium.md">NDIS_MEDIUM</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff565910">NDIS_MEDIUM</a>.
 
 
 ### -field MiniportPhysicalMediaType
@@ -101,8 +86,7 @@ The physical medium type for the base underlying miniport adapter. For more info
 
 ### -field RestartAttributes
 
-
-      A pointer to an NDIS_RESTART_ATTRIBUTES structure.
+A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_restart_attributes">NDIS_RESTART_ATTRIBUTES</a> structure.
      
 
 
@@ -142,40 +126,38 @@ Reserved for future use.
 
 To define filter module restart parameters, NDIS passes a pointer to an NDIS_FILTER_RESART_PARAMETERS
     structure to the 
-    <a href="..\ndis\nc-ndis-filter_restart.md">FilterRestart</a> function.
+    <a href="https://msdn.microsoft.com/4a917824-eef1-4945-b45e-1c940bc8a50d">FilterRestart</a> function.
 
 Filter drivers can modify the restart attributes that are specified by underlying drivers. For more
     information about how to modify restart attributes, see 
-    <a href="..\ndis\nc-ndis-filter_restart.md">FilterRestart</a>.
+    <a href="https://msdn.microsoft.com/4a917824-eef1-4945-b45e-1c940bc8a50d">FilterRestart</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_restart_attributes.md">NDIS_RESTART_ATTRIBUTES</a>
+
+
+
+<a href="https://msdn.microsoft.com/4a917824-eef1-4945-b45e-1c940bc8a50d">FilterRestart</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565910">NDIS_MEDIUM</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567255">NDIS_RESTART_ATTRIBUTES</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569621">OID_GEN_PHYSICAL_MEDIUM</a>
-
-
-
-<a href="..\ntddndis\ne-ntddndis-_ndis_medium.md">NDIS_MEDIUM</a>
-
-
-
-<a href="..\ndis\nc-ndis-filter_restart.md">FilterRestart</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_FILTER_RESTART_PARAMETERS structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

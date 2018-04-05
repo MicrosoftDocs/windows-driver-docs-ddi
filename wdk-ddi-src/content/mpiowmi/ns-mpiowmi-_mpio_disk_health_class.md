@@ -7,7 +7,7 @@ old-location: storage\mpio_disk_health_class.htm
 old-project: storage
 ms.assetid: 07b04bad-9d52-4a32-8834-48cd5803844c
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PMPIO_DISK_HEALTH_CLASS, MPIO_DISK_HEALTH_CLASS, MPIO_DISK_HEALTH_CLASS structure [Storage Devices], PMPIO_DISK_HEALTH_CLASS, PMPIO_DISK_HEALTH_CLASS structure pointer [Storage Devices], _MPIO_DISK_HEALTH_CLASS, mpiowmi/MPIO_DISK_HEALTH_CLASS, mpiowmi/PMPIO_DISK_HEALTH_CLASS, storage.mpio_disk_health_class, structs-scsibus_b3dfb95d-08eb-4eb6-80bb-3437282a65d6.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	mpiowmi.h
 api_name:
 -	MPIO_DISK_HEALTH_CLASS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MPIO_DISK_HEALTH_CLASS, *PMPIO_DISK_HEALTH_CLASS
 ---
@@ -50,31 +51,6 @@ req.typenames: MPIO_DISK_HEALTH_CLASS, *PMPIO_DISK_HEALTH_CLASS
 
 
 The MPIO_DISK_HEALTH_CLASS structure contains the health information for a multi-path disk.
-
-
-## -syntax
-
-
-````
-typedef struct _MPIO_DISK_HEALTH_CLASS {
-  WCHAR     Name[63 + 1];
-  ULONGLONG NumberReads;
-  ULONGLONG NumberWrites;
-  ULONGLONG NumberBytesRead;
-  ULONGLONG NumberBytesWritten;
-  ULONGLONG NumberRetries;
-  ULONGLONG NumberIoErrors;
-  ULONGLONG CreateTime;
-  ULONGLONG PathFailures;
-  ULONGLONG FailTime;
-  BOOLEAN   DeviceOffline;
-  UCHAR     NumberReadsWrap;
-  UCHAR     NumberWritesWrap;
-  UCHAR     NumberBytesReadWrap;
-  UCHAR     NumberBytesWrittenWrap;
-  UCHAR     Pad[3];
-} MPIO_DISK_HEALTH_CLASS, *PMPIO_DISK_HEALTH_CLASS;
-````
 
 
 ## -struct-fields

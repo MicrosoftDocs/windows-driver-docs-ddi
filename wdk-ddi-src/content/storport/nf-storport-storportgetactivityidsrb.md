@@ -7,7 +7,7 @@ old-location: storage\storportgetactivityidsrb.htm
 old-project: storage
 ms.assetid: 63E956F5-C87C-45AA-BE16-2AD07F3BA050
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: StorPortGetActivityIdSrb, StorPortGetActivityIdSrb routine [Storage Devices], storage.storportgetactivityidsrb, storport/StorPortGetActivityIdSrb
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Storport.dll
 api_name:
 -	StorPortGetActivityIdSrb
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STOR_SPINLOCK
 req.product: Windows 10 or later.
@@ -52,18 +53,6 @@ req.product: Windows 10 or later.
 
 
 Retrieves the Event Tracing for Windows (ETW) activity ID associated with a request block.
-
-
-## -syntax
-
-
-````
-ULONG StorPortGetActivityIdSrb(
-  _In_  PVOID               HwDeviceExtension,
-  _In_  PSCSI_REQUEST_BLOCK Srb,
-  _Out_ LPGUID              ActivityId
-);
-````
 
 
 ## -parameters

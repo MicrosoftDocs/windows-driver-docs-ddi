@@ -7,7 +7,7 @@ old-location: wdf\evtreservedma.htm
 old-project: wdf
 ms.assetid: 3663EF19-5F16-43D1-BFBC-28280E28D4DE
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/26/2018
 ms.keywords: EVT_WDF_RESERVE_DMA, EvtReserveDma, EvtReserveDma callback function, kmdf.evtreservedma, wdf.evtreservedma, wdfdmatransaction/EvtReserveDma
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	WdfDmaTransaction.h
 api_name:
 -	EvtReserveDma
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_DMA_SYSTEM_PROFILE_CONFIG, *PWDF_DMA_SYSTEM_PROFILE_CONFIG
 req.product: Windows 10 or later.
@@ -57,20 +58,6 @@ req.product: Windows 10 or later.
   <i>EvtReserveDma</i> event callback function is called when the framework has reserved resources to execute and release a transaction. Reserved resources include map registers and the WDM DMA adapter's lock.
 
 
-## -prototype
-
-
-````
-EVT_WDF_RESERVE_DMA EvtReserveDma;
-
-VOID EvtReserveDma(
-  _In_ WDFDMATRANSACTION DmaTransaction,
-  _In_ PVOID             Context
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -83,7 +70,7 @@ A handle to the DMA transaction object that represents the transaction to which 
 
 ### -param Context [in]
 
-The context pointer that the driver specified in a previous call to <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionallocateresources.md">WdfDmaTransactionAllocateResources</a>.
+The context pointer that the driver specified in a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/hh451123">WdfDmaTransactionAllocateResources</a>.
 
 
 ## -returns
@@ -99,7 +86,7 @@ This callback function does not return a value.
 
 
 
-Drivers register an <i>EvtReserveDma</i> event callback function by calling <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionallocateresources.md">WdfDmaTransactionAllocateResources</a>.
+Drivers register an <i>EvtReserveDma</i> event callback function by calling <a href="https://msdn.microsoft.com/library/windows/hardware/hh451123">WdfDmaTransactionAllocateResources</a>.
 
 The framework calls a driver's <i>EvtReserveDma</i> event callback function when DMA resources have been assigned for exclusive use with the associated transaction object. The driver can initialize and execute the transaction multiple times while holding this reservation.
 
@@ -107,7 +94,7 @@ A driver typically initializes and then initiates the transaction from within it
 
   
 
-The driver may call <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionfreeresources.md">WdfDmaTransactionFreeResources</a> from within <i>EvtReserveDma</i>.
+The driver may call <a href="https://msdn.microsoft.com/library/windows/hardware/hh451177">WdfDmaTransactionFreeResources</a> from within <i>EvtReserveDma</i>.
 
 
 On operating systems earlier than Windows 8, <i>EvtReserveDma</i> must be used with an enabler that specifies a packet-mode DMA enabler.  Starting with  Windows 8, <i>EvtReserveDma</i> can also be used with an enabler that specifies a system-mode DMA enabler.
@@ -154,17 +141,15 @@ The <b>EVT_WDF_RESERVE_DMA</b> function type is defined in the WdfDmaTransaction
 
 ## -see-also
 
-<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionfreeresources.md">WdfDmaTransactionFreeResources</a>
 
 
 
-<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionallocateresources.md">WdfDmaTransactionAllocateResources</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451123">WdfDmaTransactionAllocateResources</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451177">WdfDmaTransactionFreeResources</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20EVT_WDF_RESERVE_DMA callback function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

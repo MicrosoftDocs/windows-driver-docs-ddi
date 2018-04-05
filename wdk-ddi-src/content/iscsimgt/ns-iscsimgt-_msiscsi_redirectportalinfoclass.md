@@ -7,7 +7,7 @@ old-location: storage\msiscsi_redirectportalinfoclass.htm
 old-project: storage
 ms.assetid: fcddf029-748b-4300-9f87-a103d961918a
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PMSiSCSI_RedirectPortalInfoClass, MSiSCSI_RedirectPortalInfoClass, MSiSCSI_RedirectPortalInfoClass structure [Storage Devices], PMSiSCSI_RedirectPortalInfoClass, PMSiSCSI_RedirectPortalInfoClass structure pointer [Storage Devices], _MSiSCSI_RedirectPortalInfoClass, iscsimgt/MSiSCSI_RedirectPortalInfoClass, iscsimgt/PMSiSCSI_RedirectPortalInfoClass, storage.msiscsi_redirectportalinfoclass, structs-iSCSI_211386cb-7e73-40d9-8284-560555fe8201.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	iscsimgt.h
 api_name:
 -	MSiSCSI_RedirectPortalInfoClass
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MSiSCSI_RedirectPortalInfoClass, *PMSiSCSI_RedirectPortalInfoClass
 ---
@@ -50,18 +51,6 @@ req.typenames: MSiSCSI_RedirectPortalInfoClass, *PMSiSCSI_RedirectPortalInfoClas
 
 
 The MSiSCSI_RedirectPortalInfoClass structure contains information about a collection of sessions for an adapter ID. It also contains the portal redirection information for each of the sessions.
-
-
-## -syntax
-
-
-````
-typedef struct _MSiSCSI_RedirectPortalInfoClass {
-  ULONGLONG                 UniqueAdapterId;
-  ULONG                     SessionCount;
-  ISCSI_RedirectSessionInfo RedirectSessionList[1];
-} MSiSCSI_RedirectPortalInfoClass, *PMSiSCSI_RedirectPortalInfoClass;
-````
 
 
 ## -struct-fields

@@ -7,7 +7,7 @@ old-location: storage\element_type.htm
 old-project: storage
 ms.assetid: 909e0645-3824-40ff-bec9-128a9939eb1e
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PELEMENT_TYPE, AllElements, ChangerDoor, ChangerDrive, ChangerIEPort, ChangerKeypad, ChangerMaxElement, ChangerSlot, ChangerTransport, ELEMENT_TYPE, ELEMENT_TYPE enumeration [Storage Devices], PELEMENT_TYPE, PELEMENT_TYPE enumeration pointer [Storage Devices], _ELEMENT_TYPE, ntddchgr/AllElements, ntddchgr/ChangerDoor, ntddchgr/ChangerDrive, ntddchgr/ChangerIEPort, ntddchgr/ChangerKeypad, ntddchgr/ChangerMaxElement, ntddchgr/ChangerSlot, ntddchgr/ChangerTransport, ntddchgr/ELEMENT_TYPE, ntddchgr/PELEMENT_TYPE, storage.element_type, structs-changer_e97997e8-4dc3-46e9-897e-3ded47adf8b8.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddchgr.h
 api_name:
 -	ELEMENT_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: ELEMENT_TYPE, *PELEMENT_TYPE
 ---
@@ -52,23 +53,6 @@ req.typenames: ELEMENT_TYPE, *PELEMENT_TYPE
 The ELEMENT_TYPE enumeration provides a list of changer element types defined by the <i>SCSI-3</i> specification. 
 
 
-## -syntax
-
-
-````
-typedef enum _ELEMENT_TYPE { 
-  AllElements        = 0,
-  ChangerTransport   = 1,
-  ChangerSlot        = 2,
-  ChangerIEPort      = 3,
-  ChangerDrive       = 4,
-  ChangerDoor        = 5,
-  ChangerKeypad      = 6,
-  ChangerMaxElement  = 7
-} ELEMENT_TYPE, *PELEMENT_TYPE;
-````
-
-
 ## -enum-fields
 
 
@@ -76,7 +60,7 @@ typedef enum _ELEMENT_TYPE {
 
 ### -field AllElements
 
-Indicates all elements of a changer, including its robotic transport, drives, slots, and IEport. <b>AllElements</b> is valid only in a <a href="..\mcd\nf-mcd-changergetelementstatus.md">ChangerGetElementStatus</a> or <a href="..\mcd\nf-mcd-changerinitializeelementstatus.md">ChangerInitializeElementStatus</a> call.
+Indicates all elements of a changer, including its robotic transport, drives, slots, and IEport. <b>AllElements</b> is valid only in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551424">ChangerGetElementStatus</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff551433">ChangerInitializeElementStatus</a> call.
 
 
 ### -field ChangerTransport
@@ -101,12 +85,12 @@ Indicates a data transfer element where data can be read from and written to med
 
 ### -field ChangerDoor
 
-Indicates a mechanism that provides access to all media in a changer at one time (as compared to an IEport that provides access to one or more, but not all, media). For example, a large front door or a magazine that contains all media in the changer are elements of this type. <b>ChangerDoor</b> is valid only in a <a href="..\mcd\nf-mcd-changersetaccess.md">ChangerSetAccess</a> call.
+Indicates a mechanism that provides access to all media in a changer at one time (as compared to an IEport that provides access to one or more, but not all, media). For example, a large front door or a magazine that contains all media in the changer are elements of this type. <b>ChangerDoor</b> is valid only in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551447">ChangerSetAccess</a> call.
 
 
 ### -field ChangerKeypad
 
-Indicates the keypad or other input control on the front panel of a changer. <b>ChangerKeypad</b> is valid only in a <a href="..\mcd\nf-mcd-changersetaccess.md">ChangerSetAccess</a> call.
+Indicates the keypad or other input control on the front panel of a changer. <b>ChangerKeypad</b> is valid only in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551447">ChangerSetAccess</a> call.
 
 
 ### -field ChangerMaxElement
@@ -116,21 +100,19 @@ Indicates the upper limit of the enumerators in this enumeration.
 
 ## -see-also
 
-<a href="..\mcd\nf-mcd-changergetelementstatus.md">ChangerGetElementStatus</a>
 
 
 
-<a href="..\mcd\nf-mcd-changerinitializeelementstatus.md">ChangerInitializeElementStatus</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551424">ChangerGetElementStatus</a>
 
 
 
-<a href="..\mcd\nf-mcd-changersetaccess.md">ChangerSetAccess</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551433">ChangerInitializeElementStatus</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551447">ChangerSetAccess</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20ELEMENT_TYPE enumeration%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

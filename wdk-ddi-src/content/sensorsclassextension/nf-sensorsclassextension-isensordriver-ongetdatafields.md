@@ -39,7 +39,8 @@ api_location:
 -	SensorsClassExtension.dll
 api_name:
 -	OnGetDataFields
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SensorConnectionType
 req.product: Windows 10 or later.
@@ -52,19 +53,6 @@ req.product: Windows 10 or later.
 
 
 The <a href="https://msdn.microsoft.com/library/windows/hardware/ff545607">ISensorDriver::OnGetDataFields</a> method retrieves current sensor data.
-
-
-## -syntax
-
-
-````
-HRESULT OnGetDataFields(
-   IWDFFile *                     pClientFile,
-   LPWSTR                         pwszSensorID,
-   IPortableDeviceKeyCollection * pDataFields,
-   IPortableDeviceValues **       ppDataValues
-);
-````
 
 
 ## -parameters

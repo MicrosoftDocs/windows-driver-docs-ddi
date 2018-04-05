@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	EtwWriteTransfer
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
@@ -51,21 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>EtwWriteTransfer</b> function marks an event that links two activities together; this type of event is referred to as a <i>transfer event</i>. A transfer event can contain the same user-defined data, the same fields, and is subject to the same rules as other events. 
-
-
-## -syntax
-
-
-````
-NTSTATUS EtwWriteTransfer(
-  _In_     REGHANDLE              RegHandle,
-  _In_     PCEVENT_DESCRIPTOR     EventDescriptor,
-  _In_opt_ LPCGUID                ActivityId,
-  _In_opt_ LPCGUID                RelatedActivityId,
-  _In_     ULONG                  UserDataCount,
-  _In_opt_ PEVENT_DATA_DESCRIPTOR UserData
-);
-````
 
 
 ## -parameters
@@ -123,17 +109,15 @@ You can call <b>EtwWriteTransfer</b> at any IRQL. However, when IRQL is greater 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-etwwritestring.md">EtwWriteString</a>
 
 
 
-<a href="..\wdm\nf-wdm-etwwrite.md">EtwWrite</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545627">EtwWrite</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545637">EtwWriteString</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [devtest\devtest]:%20EtwWriteTransfer function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

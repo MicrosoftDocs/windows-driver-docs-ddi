@@ -7,7 +7,7 @@ old-location: display\d3dkmtopenadapterfromgdidisplayname.htm
 old-project: display
 ms.assetid: 56656fc2-785c-4021-9864-e4c152551973
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMTOpenAdapterFromGdiDisplayName, D3DKMTOpenAdapterFromGdiDisplayName function [Display Devices], OpenGL_Functions_74419d9d-cd33-4fed-8103-3be487c3c7a1.xml, d3dkmthk/D3DKMTOpenAdapterFromGdiDisplayName, display.d3dkmtopenadapterfromgdidisplayname
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,8 @@ api_location:
 -	API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
 -	D3DKMTOpenAdapterFromGdiDisplayName
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_DRIVERVERSION
 ---
@@ -55,26 +56,21 @@ req.typenames: D3DKMT_DRIVERVERSION
 The <b>D3DKMTOpenAdapterFromGdiDisplayName</b> function maps a GDI device name to a graphics adapter handle and, if the adapter contains multiple monitor outputs, to one of those outputs.
 
 
-## -syntax
-
-
-````
-NTSTATUS D3DKMTOpenAdapterFromGdiDisplayName(
-  _Inout_ D3DKMT_OPENADAPTERFROMGDIDISPLAYNAME *pData
-);
-````
-
-
 ## -parameters
 
 
+
+
+### -param Arg1
+
+TBD
 
 
 
 
 #### - pData [in, out]
 
- A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_openadapterfromgdidisplayname.md">D3DKMT_OPENADAPTERFROMGDIDISPLAYNAME</a> structure that describes the parameters that are required to perform the mapping.
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548113">D3DKMT_OPENADAPTERFROMGDIDISPLAYNAME</a> structure that describes the parameters that are required to perform the mapping.
 
 
 ## -returns
@@ -130,13 +126,11 @@ A graphics adapter corresponds to a video card. A monitor output corresponds to 
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_openadapterfromgdidisplayname.md">D3DKMT_OPENADAPTERFROMGDIDISPLAYNAME</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548113">D3DKMT_OPENADAPTERFROMGDIDISPLAYNAME</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMTOpenAdapterFromGdiDisplayName function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

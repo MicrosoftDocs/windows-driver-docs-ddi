@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	AVStrMiniFrameReturn
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SOUNDDETECTOR_PATTERNHEADER
 ---
@@ -52,24 +53,6 @@ req.typenames: SOUNDDETECTOR_PATTERNHEADER
 An AVStream minidriver's <i>AVStrMiniFrameReturn</i> routine is called when an injected frame has completed its trip around the circuit and is ready to be recycled or freed.
 
 
-## -prototype
-
-
-````
-PFNKSPINFRAMERETURN AVStrMiniFrameReturn;
-
-void AVStrMiniFrameReturn(
-  _In_     PKSPIN   Pin,
-  _In_opt_ PVOID    Data,
-  _In_opt_ ULONG    Size,
-  _In_opt_ PMDL     Mdl,
-  _In_opt_ PVOID    Context,
-  _In_     NTSTATUS Status
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -77,12 +60,12 @@ void AVStrMiniFrameReturn(
 
 ### -param Pin [in]
 
-Pointer to a <a href="..\ks\ns-ks-_kspin.md">KSPIN</a> structure representing the pin on which the frame was injected.
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563483">KSPIN</a> structure representing the pin on which the frame was injected.
 
 
 ### -param Data [in, optional]
 
-Pointer to the buffer originally specified in the call to <a href="..\ks\nf-ks-kspinsubmitframe.md">KsPinSubmitFrame</a>.
+Pointer to the buffer originally specified in the call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff563529">KsPinSubmitFrame</a>.
 
 
 ### -param OPTIONAL
@@ -90,7 +73,7 @@ Pointer to the buffer originally specified in the call to <a href="..\ks\nf-ks-k
 
 ### -param Mdl [in, optional]
 
-Pointer to a memory descriptor list describing the injected frame as in the call to <a href="..\ks\nf-ks-kspinsubmitframemdl.md">KsPinSubmitFrameMdl</a><b>.</b>
+Pointer to a memory descriptor list describing the injected frame as in the call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff563530">KsPinSubmitFrameMdl</a><b>.</b>
 
 
 ### -param Context [in, optional]
@@ -105,7 +88,7 @@ Contains a copy of <i>Irp-&gt;IoStatus.Status</i> for the IRP to which the reque
 
 #### - Size [in, optional]
 
-Specifies the size in bytes of <i>Data</i> as originally specified in <a href="..\ks\nf-ks-kspinsubmitframe.md">KsPinSubmitFrame</a>.
+Specifies the size in bytes of <i>Data</i> as originally specified in <a href="https://msdn.microsoft.com/library/windows/hardware/ff563529">KsPinSubmitFrame</a>.
 
 
 ## -returns
@@ -121,24 +104,22 @@ None
 
 
 
-The minidriver specifies this routine's address in the <i>FrameReturn</i> parameter of a call to <a href="..\ks\nf-ks-kspinregisterframereturncallback.md">KsPinRegisterFrameReturnCallback</a>.
+The minidriver specifies this routine's address in the <i>FrameReturn</i> parameter of a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff563522">KsPinRegisterFrameReturnCallback</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kspinregisterframereturncallback.md">KsPinRegisterFrameReturnCallback</a>
 
 
 
-<a href="..\ks\nf-ks-kspinsubmitframemdl.md">KsPinSubmitFrameMdl</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563522">KsPinRegisterFrameReturnCallback</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563530">KsPinSubmitFrameMdl</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20PFNKSPINFRAMERETURN routine%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

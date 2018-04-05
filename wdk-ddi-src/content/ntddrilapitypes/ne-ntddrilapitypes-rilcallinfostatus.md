@@ -7,13 +7,13 @@ old-location: netvista\rilcallinfostatus.htm
 old-project: netvista
 ms.assetid: 0f5806e8-a7be-4703-8847-abea2d0cb2e8
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: RILCALLINFOSTATUS, RILCALLINFOSTATUS enumeration [Network Drivers Starting with Windows Vista], RIL_CPISTAT_CONNECTED, RIL_CPISTAT_DISCONNECTED, RIL_CPISTAT_HANDOVER, RIL_CPISTAT_MAX, RIL_CPISTAT_MEDIA, RIL_CPISTAT_NEW_INCOMING, RIL_CPISTAT_NEW_OUTGOING, RIL_CPISTAT_ONHOLD, netvista.rilcallinfostatus, ntddrilapitypes/RILCALLINFOSTATUS, ntddrilapitypes/RIL_CPISTAT_CONNECTED, ntddrilapitypes/RIL_CPISTAT_DISCONNECTED, ntddrilapitypes/RIL_CPISTAT_HANDOVER, ntddrilapitypes/RIL_CPISTAT_MAX, ntddrilapitypes/RIL_CPISTAT_MEDIA, ntddrilapitypes/RIL_CPISTAT_NEW_INCOMING, ntddrilapitypes/RIL_CPISTAT_NEW_OUTGOING, ntddrilapitypes/RIL_CPISTAT_ONHOLD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: ntddrilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILCALLINFOSTATUS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILCALLINFOSTATUS
 ---
@@ -50,23 +51,6 @@ req.typenames: RILCALLINFOSTATUS
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef enum _RILCALLINFOSTATUS { 
-  RIL_CPISTAT_NEW_OUTGOING,
-  RIL_CPISTAT_NEW_INCOMING,
-  RIL_CPISTAT_CONNECTED,
-  RIL_CPISTAT_DISCONNECTED,
-  RIL_CPISTAT_ONHOLD,
-  RIL_CPISTAT_MEDIA,
-  RIL_CPISTAT_HANDOVER,
-  RIL_CPISTAT_MAX
-} RILCALLINFOSTATUS;
-````
 
 
 ## -enum-fields

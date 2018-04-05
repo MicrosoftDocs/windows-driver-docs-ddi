@@ -7,7 +7,7 @@ old-location: wdf\wdf_companion_event_callbacks.htm
 old-project: wdf
 ms.assetid: 6a9c5420-1847-4145-aea5-9e9c58d86ea1
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/26/2018
 ms.keywords: "*PWDF_COMPANION_EVENT_CALLBACKS, PWDF_COMPANION_EVENT_CALLBACKS, PWDF_COMPANION_EVENT_CALLBACKS structure pointer, WDF_COMPANION_EVENT_CALLBACKS, WDF_COMPANION_EVENT_CALLBACKS structure, _WDF_COMPANION_EVENT_CALLBACKS, wdf.wdf_companion_event_callbacks, wdfcompanion/PWDF_COMPANION_EVENT_CALLBACKS, wdfcompanion/WDF_COMPANION_EVENT_CALLBACKS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	wdfcompanion.h
 api_name:
 -	WDF_COMPANION_EVENT_CALLBACKS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_COMPANION_EVENT_CALLBACKS, *PWDF_COMPANION_EVENT_CALLBACKS
 req.product: Windows 10 or later.
@@ -51,20 +52,6 @@ req.product: Windows 10 or later.
 
 
 For internal use only.
-
-
-## -syntax
-
-
-````
-typedef struct _WDF_COMPANION_EVENT_CALLBACKS {
-  ULONG                                   Size;
-  PFN_WDF_COMPANION_PRE_D0_ENTRY          EvtCompanionPreD0Entry;
-  PFN_WDF_COMPANION_POST_D0_EXIT          EvtCompanionPostD0Exit;
-  PFN_WDF_COMPANION_PRE_PREPARE_HARDWARE  EvtCompanionPrePrepareHardware;
-  PFN_WDF_COMPANION_POST_RELEASE_HARDWARE EvtCompanionPostReleaseHardware;
-} WDF_COMPANION_EVENT_CALLBACKS, *PWDF_COMPANION_EVENT_CALLBACKS;
-````
 
 
 ## -struct-fields

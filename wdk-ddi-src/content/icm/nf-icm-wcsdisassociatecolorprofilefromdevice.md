@@ -7,7 +7,7 @@ old-location: print\wcsdisassociatecolorprofilefromdevice.htm
 old-project: print
 ms.assetid: d2ab6fe4-131a-4952-864c-7135026cb25c
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: WcsDisassociateColorProfileFromDevice, WcsDisassociateColorProfileFromDevice function [Print Devices], colorfnc_d8888a37-8a72-41a4-8ca6-29326634d9b2.xml, icm/WcsDisassociateColorProfileFromDevice, print.wcsdisassociatecolorprofilefromdevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Mscms.dll
 api_name:
 -	WcsDisassociateColorProfileFromDevice
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WCS_PROFILE_MANAGEMENT_SCOPE
 ---
@@ -50,18 +51,6 @@ req.typenames: WCS_PROFILE_MANAGEMENT_SCOPE
 
 
 The <code>WcsDisassociateColorProfileFromDevice</code> function disassociates a specified WCS color profile from a specified device.
-
-
-## -syntax
-
-
-````
-BOOL WcsDisassociateColorProfileFromDevice(
-  _In_ WCS_PROFILE_MANAGEMENT_SCOPE profileManagementScope,
-  _In_ PCWSTR                       pProfileName,
-  _In_ PCWSTR                       pDeviceName
-);
-````
 
 
 ## -parameters
@@ -86,7 +75,7 @@ A pointer to the name of the device from which the profile is to be disassociate
 
 #### - profileManagementScope [in]
 
-A <a href="..\icm\ne-icm-wcs_profile_management_scope.md">WCS_PROFILE_MANAGEMENT_SCOPE</a> value that specifies the scope of this profile management operation.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff563752">WCS_PROFILE_MANAGEMENT_SCOPE</a> value that specifies the scope of this profile management operation.
 
 
 ## -remarks
@@ -108,13 +97,11 @@ This function is executable in Least-Privileged User Account (LUA) context if <i
 
 ## -see-also
 
-<a href="..\icm\nf-icm-wcsassociatecolorprofilewithdevice.md">WcsAssociateColorProfileWithDevice</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563709">WcsAssociateColorProfileWithDevice</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20WcsDisassociateColorProfileFromDevice function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILMSGOUTSUBMITVPFORMAT
 title: RILMSGOUTSUBMITVPFORMAT
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilmsgoutsubmitvpformat_2.htm
+old-location: netvista\rilmsgoutsubmitvpformat.htm
 old-project: netvista
-ms.assetid: aa383bc9-935d-4883-929d-4ea58a1bf2c9
+ms.assetid: c0a2646c-aa0a-4946-999f-a78d1c488752
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: RILMSGOUTSUBMITVPFORMAT, RILMSGOUTSUBMITVPFORMAT enumeration [Network Drivers Starting with Windows Vista], RIL_MSGVP_ABSOLUTE, RIL_MSGVP_ENHANCED, RIL_MSGVP_MAX, RIL_MSGVP_RELATIVE, netvista.rilmsgoutsubmitvpformat_2, rilapitypes/RILMSGOUTSUBMITVPFORMAT, rilapitypes/RIL_MSGVP_ABSOLUTE, rilapitypes/RIL_MSGVP_ENHANCED, rilapitypes/RIL_MSGVP_MAX, rilapitypes/RIL_MSGVP_RELATIVE
+ms.date: 3/26/2018
+ms.keywords: RILMSGOUTSUBMITVPFORMAT, RILMSGOUTSUBMITVPFORMAT enumeration [Network Drivers Starting with Windows Vista], RIL_MSGVP_ABSOLUTE, RIL_MSGVP_ENHANCED, RIL_MSGVP_MAX, RIL_MSGVP_RELATIVE, netvista.rilmsgoutsubmitvpformat, ntddrilapitypes/RILMSGOUTSUBMITVPFORMAT, ntddrilapitypes/RIL_MSGVP_ABSOLUTE, ntddrilapitypes/RIL_MSGVP_ENHANCED, ntddrilapitypes/RIL_MSGVP_MAX, ntddrilapitypes/RIL_MSGVP_RELATIVE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -35,10 +35,11 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILMSGOUTSUBMITVPFORMAT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILMSGOUTSUBMITVPFORMAT
 req.product: Windows 10 or later.
@@ -50,20 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-
-## -syntax
-
-
-````
-typedef enum _RILMSGOUTSUBMITVPFORMAT { 
-  RIL_MSGVP_RELATIVE,
-  RIL_MSGVP_ENHANCED,
-  RIL_MSGVP_ABSOLUTE,
-  RIL_MSGVP_MAX
-} RILMSGOUTSUBMITVPFORMAT;
-````
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -enum-fields

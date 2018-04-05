@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILUICCTOOLKITPROFILE
 title: RILUICCTOOLKITPROFILE
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\riluicctoolkitprofile_2.htm
+old-location: netvista\riluicctoolkitprofile.htm
 old-project: netvista
-ms.assetid: 8d8a6c85-474c-4e86-99a9-ac113edbe7b3
+ms.assetid: ff1f5839-78be-48ab-9c26-f8fee6788d51
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: "*LPRILUICCTOOLKITPROFILE, RILUICCTOOLKITPROFILE, RILUICCTOOLKITPROFILE structure [Network Drivers Starting with Windows Vista], netvista.riluicctoolkitprofile_2, rilapitypes/RILUICCTOOLKITPROFILE"
+ms.date: 3/26/2018
+ms.keywords: "*LPRILUICCTOOLKITPROFILE, RILUICCTOOLKITPROFILE, RILUICCTOOLKITPROFILE structure [Network Drivers Starting with Windows Vista], netvista.riluicctoolkitprofile, ntddrilapitypes/RILUICCTOOLKITPROFILE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,10 +35,11 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILUICCTOOLKITPROFILE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILUICCTOOLKITPROFILE, *LPRILUICCTOOLKITPROFILE
 req.product: Windows 10 or later.
@@ -50,19 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-
-## -syntax
-
-
-````
-typedef struct _RILUICCTOOLKITPROFILE {
-  DWORD    cbSize;
-  DWORD    dwProfileSize;
-  BYTE [1] bProfile;
-} RILUICCTOOLKITPROFILE, RILUICCTOOLKITPROFILE;
-````
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -struct-fields

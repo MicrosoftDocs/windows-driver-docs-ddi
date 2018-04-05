@@ -39,7 +39,8 @@ api_location:
 -	Oprghdlr.dll
 api_name:
 -	RegisterOpRegionHandler
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILGBATOKEN, *LPRILGBATOKEN
 ---
@@ -51,22 +52,6 @@ req.typenames: RILGBATOKEN, *LPRILGBATOKEN
 
 
 The <b>RegisterOpRegionHandler</b> routine registers an operation region handler with the <a href="https://msdn.microsoft.com/38ca54e0-defe-48b2-ab00-a5f688c2eb01">ACPI driver</a>.
-
-
-## -syntax
-
-
-````
-NTSTATUS RegisterOpRegionHandler(
-  _In_  PDEVICE_OBJECT          DeviceObject,
-  _In_  ULONG                   AccessType,
-  _In_  ULONG                   RegionSpace,
-  _In_  PACPI_OP_REGION_HANDLER Handler,
-  _In_  PVOID                   Context,
-  _In_  ULONG                   Flags,
-  _Out_ PVOID                   *OperationRegionObject
-);
-````
 
 
 ## -parameters
@@ -179,7 +164,7 @@ Vendor-defined
 
 ### -param Handler [in]
 
-Pointer to the <a href="..\oprghdlr\nc-oprghdlr-acpi_op_region_handler.md">ACPI_OP_REGION_HANDLER</a>-typed operation region handler (supplied by an ACPI device function driver).
+Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536153">ACPI_OP_REGION_HANDLER</a>-typed operation region handler (supplied by an ACPI device function driver).
 
 
 ### -param Context [in]
@@ -271,17 +256,15 @@ For more information about operation regions, see <a href="https://msdn.microsof
 
 ## -see-also
 
-<a href="..\oprghdlr\nc-oprghdlr-acpi_op_region_handler.md">ACPI_OP_REGION_HANDLER</a>
 
 
 
-<a href="..\oprghdlr\nf-oprghdlr-deregisteropregionhandler.md">DeRegisterOpRegionHandler</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536153">ACPI_OP_REGION_HANDLER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536135">DeRegisterOpRegionHandler</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [acpi\acpi]:%20RegisterOpRegionHandler routine%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILGETDMPROFILECONFIGINFOPARAMS
 title: RILGETDMPROFILECONFIGINFOPARAMS
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilgetdmprofileconfiginfoparams_2.htm
+old-location: netvista\rilgetdmprofileconfiginfoparams.htm
 old-project: netvista
-ms.assetid: 9f9c4c27-0a32-40c6-a302-98b4013e2664
+ms.assetid: df62bc19-81c7-4d80-88ed-5e8a8438d269
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: "*LPRILGETDMPROFILECONFIGINFOPARAMS, RILGETDMPROFILECONFIGINFOPARAMS, RILGETDMPROFILECONFIGINFOPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilgetdmprofileconfiginfoparams_2, rilapitypes/RILGETDMPROFILECONFIGINFOPARAMS"
+ms.date: 3/26/2018
+ms.keywords: "*LPRILGETDMPROFILECONFIGINFOPARAMS, RILGETDMPROFILECONFIGINFOPARAMS, RILGETDMPROFILECONFIGINFOPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilgetdmprofileconfiginfoparams, ntddrilapitypes/RILGETDMPROFILECONFIGINFOPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,10 +35,11 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILGETDMPROFILECONFIGINFOPARAMS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILGETDMPROFILECONFIGINFOPARAMS, *LPRILGETDMPROFILECONFIGINFOPARAMS
 req.product: Windows 10 or later.
@@ -50,18 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-
-## -syntax
-
-
-````
-typedef struct _RILGETDMPROFILECONFIGINFOPARAMS {
-  DWORD                dwExecutor;
-  RILDMCONFIGINFOITEM  dwConfigItem;
-} RILGETDMPROFILECONFIGINFOPARAMS, RILGETDMPROFILECONFIGINFOPARAMS;
-````
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -struct-fields

@@ -7,7 +7,7 @@ old-location: display\d3dddiarg_texturestagestate.htm
 old-project: display
 ms.assetid: 4810ec13-ec58-4ed6-ae4f-6690bd72cd8a
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDIARG_TEXTURESTAGESTATE, D3DDDIARG_TEXTURESTAGESTATE structure [Display Devices], UMDisplayDriver_param_Structs_320d722f-2fbb-4fca-a06c-02e1be6e0190.xml, _D3DDDIARG_TEXTURESTAGESTATE, d3dumddi/D3DDDIARG_TEXTURESTAGESTATE, display.d3dddiarg_texturestagestate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	D3DDDIARG_TEXTURESTAGESTATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDIARG_TEXTURESTAGESTATE
 ---
@@ -50,18 +51,6 @@ req.typenames: D3DDDIARG_TEXTURESTAGESTATE
 
 
 The D3DDDIARG_TEXTURESTAGESTATE structure describes how to update a texture at a particular stage in a multiple-texture group. 
-
-
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_TEXTURESTAGESTATE {
-  UINT                        Stage;
-  D3DDDITEXTURESTAGESTATETYPE State;
-  UINT                        Value;
-} D3DDDIARG_TEXTURESTAGESTATE;
-````
 
 
 ## -struct-fields
@@ -120,13 +109,11 @@ Update the colorkey for the current texture. The <b>Value</b> member is set to t
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_settexturestagestate.md">SetTextureStageState</a>
 
 
 
+<a href="https://msdn.microsoft.com/56b9d7bf-1036-4ad1-a0fb-4d7154b50b27">SetTextureStageState</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DDDIARG_TEXTURESTAGESTATE structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

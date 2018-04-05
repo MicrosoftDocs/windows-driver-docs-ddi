@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsFilterRegisterPowerCallbacks
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -53,18 +54,6 @@ req.typenames:
 The<b> KsFilterRegisterPowerCallbacks </b>function registers power management callbacks for <i>Filter</i>.
 
 
-## -syntax
-
-
-````
-void KsFilterRegisterPowerCallbacks(
-  _In_     PKSFILTER        Filter,
-  _In_opt_ PFNKSFILTERPOWER Sleep,
-  _In_opt_ PFNKSFILTERPOWER Wake
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +61,7 @@ void KsFilterRegisterPowerCallbacks(
 
 ### -param Filter [in]
 
-A pointer to the <a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a> structure for which to register power callbacks. In order to receive power notification messages, <i>Filter</i> must be filter-centric.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562522">KSFILTER</a> structure for which to register power callbacks. In order to receive power notification messages, <i>Filter</i> must be filter-centric.
 
 
 ### -param Sleep [in, optional]
@@ -123,13 +112,11 @@ Also see <a href="https://msdn.microsoft.com/666d6efb-93ec-43f3-87c5-ea1a3983bfd
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kspinregisterpowercallbacks.md">KsPinRegisterPowerCallbacks</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563525">KsPinRegisterPowerCallbacks</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsFilterRegisterPowerCallbacks function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

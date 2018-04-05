@@ -39,7 +39,8 @@ api_location:
 -	Ksproxy.dll
 api_name:
 -	IKsPinEx
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PIPE_STATE
 ---
@@ -57,7 +58,7 @@ The IID for this interface is IID_IKsPinEx.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKsPinEx</b> interface inherits from <a href="..\ksproxy\nn-ksproxy-ikspin.md">IKsPin</a>. <b>IKsPinEx</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKsPinEx</b> interface inherits from <a href="https://msdn.microsoft.com/library/windows/hardware/ff559896">IKsPin</a>. <b>IKsPinEx</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -86,24 +87,22 @@ Notifies the filter graph of an error to give the filter graph an opportunity to
 
 
 
-An interface handler (<a href="..\ksproxy\nn-ksproxy-iksinterfacehandler.md">IKsInterfaceHandler</a>) uses many of the <b>IKsPinEx</b> methods to route media samples of a particular media type. 
+An interface handler (<a href="https://msdn.microsoft.com/library/windows/hardware/ff559855">IKsInterfaceHandler</a>) uses many of the <b>IKsPinEx</b> methods to route media samples of a particular media type. 
 
 
 
 
 ## -see-also
 
-<a href="..\ksproxy\nn-ksproxy-iksinterfacehandler.md">IKsInterfaceHandler</a>
 
 
 
-<a href="..\ksproxy\nn-ksproxy-ikspin.md">IKsPin</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559855">IKsInterfaceHandler</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559896">IKsPin</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20IKsPinEx interface%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

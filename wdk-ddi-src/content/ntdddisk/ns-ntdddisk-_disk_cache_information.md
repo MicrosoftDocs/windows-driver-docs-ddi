@@ -7,7 +7,7 @@ old-location: storage\disk_cache_information.htm
 old-project: storage
 ms.assetid: 17ea8b6b-d41f-4224-880a-49443756d0de
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PDISK_CACHE_INFORMATION, DISK_CACHE_INFORMATION, DISK_CACHE_INFORMATION structure [Storage Devices], PDISK_CACHE_INFORMATION, PDISK_CACHE_INFORMATION structure pointer [Storage Devices], _DISK_CACHE_INFORMATION, ntdddisk/DISK_CACHE_INFORMATION, ntdddisk/PDISK_CACHE_INFORMATION, storage.disk_cache_information, structs-disk_def992c5-6103-4eab-8598-4d52808e6b8c.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntdddisk.h
 api_name:
 -	DISK_CACHE_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DISK_CACHE_INFORMATION, *PDISK_CACHE_INFORMATION
 ---
@@ -49,34 +50,7 @@ req.typenames: DISK_CACHE_INFORMATION, *PDISK_CACHE_INFORMATION
 ## -description
 
 
-The DISK_CACHE_INFORMATION structure is used with the <a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_get_cache_information.md">IOCTL_DISK_GET_CACHE_INFORMATION</a> request to retrieve cache information.
-
-
-## -syntax
-
-
-````
-typedef struct _DISK_CACHE_INFORMATION {
-  BOOLEAN                       ParametersSavable;
-  BOOLEAN                       ReadCacheEnabled;
-  BOOLEAN                       WriteCacheEnabled;
-  DISK_CACHE_RETENTION_PRIORITY ReadRetentionPriority;
-  DISK_CACHE_RETENTION_PRIORITY WriteRetentionPriority;
-  USHORT                        DisablePrefetchTransferLength;
-  BOOLEAN                       PrefetchScalar;
-  union {
-    struct {
-      USHORT Minimum;
-      USHORT Maximum;
-      USHORT MaximumBlocks;
-    } ScalarPrefetch;
-    struct {
-      USHORT Minimum;
-      USHORT Maximum;
-    } BlockPrefetch;
-  };
-} DISK_CACHE_INFORMATION, *PDISK_CACHE_INFORMATION;
-````
+The DISK_CACHE_INFORMATION structure is used with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559451">IOCTL_DISK_GET_CACHE_INFORMATION</a> request to retrieve cache information.
 
 
 ## -struct-fields
@@ -101,7 +75,7 @@ Indicates, when set to 1, that the write cache is enabled.
 
 ### -field ReadRetentionPriority
 
-Determines the likelihood of various types of data remaining in the cache. By means of this value, for instance, data cached from a READ or WRITE operation might be given a different priority than data cached under other circumstances, such as prefetch operations. Thus a value of <b>EqualPriority</b> indicates that no data is held in the cache on a preferential basis. When <b>ReadRetentionPriority</b> is set to <b>EqualPriority</b>, all types of data have equal access to cache memory. On the other hand, a value of <b>KeepPrefetchedData</b> indicates that a preference is to be given to prefetched data while a value of <b>KeepReadData</b> indicates that a preference is to be given to data cached from a READ operation. For more information about the values that can be assigned to this member see the <a href="..\ntdddisk\ne-ntdddisk-disk_cache_retention_priority.md">DISK_CACHE_RETENTION_PRIORITY</a> enumeration. 
+Determines the likelihood of various types of data remaining in the cache. By means of this value, for instance, data cached from a READ or WRITE operation might be given a different priority than data cached under other circumstances, such as prefetch operations. Thus a value of <b>EqualPriority</b> indicates that no data is held in the cache on a preferential basis. When <b>ReadRetentionPriority</b> is set to <b>EqualPriority</b>, all types of data have equal access to cache memory. On the other hand, a value of <b>KeepPrefetchedData</b> indicates that a preference is to be given to prefetched data while a value of <b>KeepReadData</b> indicates that a preference is to be given to data cached from a READ operation. For more information about the values that can be assigned to this member see the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552583">DISK_CACHE_RETENTION_PRIORITY</a> enumeration. 
 
 
 ### -field WriteRetentionPriority
@@ -157,17 +131,15 @@ Contains the scalar multiplier of the transfer length of the request when <b>Pre
 
 ## -see-also
 
-<a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_get_cache_information.md">IOCTL_DISK_GET_CACHE_INFORMATION</a>
 
 
 
-<a href="..\ntdddisk\ns-ntdddisk-_disk_cache_information.md">DISK_CACHE_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552580">DISK_CACHE_INFORMATION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559451">IOCTL_DISK_GET_CACHE_INFORMATION</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20DISK_CACHE_INFORMATION structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

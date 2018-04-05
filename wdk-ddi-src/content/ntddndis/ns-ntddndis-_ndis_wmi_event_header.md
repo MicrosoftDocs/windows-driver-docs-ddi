@@ -7,7 +7,7 @@ old-location: netvista\ndis_wmi_event_header.htm
 old-project: netvista
 ms.assetid: b9e2c393-cf77-4193-ba59-b8eb914ef1e6
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: "*PNDIS_WMI_EVENT_HEADER, NDIS_WMI_EVENT_HEADER, NDIS_WMI_EVENT_HEADER structure [Network Drivers Starting with Windows Vista], PNDIS_WMI_EVENT_HEADER, PNDIS_WMI_EVENT_HEADER structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WMI_EVENT_HEADER, ndis_wmi_ref_ebe1bff7-7e6d-47e7-b79c-3e53a733ac54.xml, netvista.ndis_wmi_event_header, ntddndis/NDIS_WMI_EVENT_HEADER, ntddndis/PNDIS_WMI_EVENT_HEADER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddndis.h
 api_name:
 -	NDIS_WMI_EVENT_HEADER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_WMI_EVENT_HEADER, *PNDIS_WMI_EVENT_HEADER
 ---
@@ -52,23 +53,6 @@ req.typenames: NDIS_WMI_EVENT_HEADER, *PNDIS_WMI_EVENT_HEADER
 The NDIS_WMI_EVENT_HEADER structure provides information about a GUID event for WMI clients.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_WMI_EVENT_HEADER {
-  NDIS_OBJECT_HEADER Header;
-  NET_IFINDEX        IfIndex;
-  NET_LUID           NetLuid;
-  ULONG64            RequestId;
-  NDIS_PORT_NUMBER   PortNumber;
-  ULONG              DeviceNameLength;
-  ULONG              DeviceNameOffset;
-  UCHAR              Padding[4];
-} NDIS_WMI_EVENT_HEADER, *PNDIS_WMI_EVENT_HEADER;
-````
-
-
 ## -struct-fields
 
 
@@ -77,7 +61,7 @@ typedef struct _NDIS_WMI_EVENT_HEADER {
 ### -field Header
 
 The 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for this
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure for this
      NDIS_WMI_EVENT_HEADER structure. Set the 
      <b>Type</b> member of NDIS_OBJECT_HEADER to NDIS_WMI_OBJECT_TYPE_EVENT, the 
      <b>Revision</b> member to NDIS_WMI_EVENT_HEADER_REVISION_1, and the 
@@ -102,7 +86,7 @@ An identifier for the request. If a miniport driver must complete a request imme
      completes the request with a status of NDIS_STATUS_INDICATION_REQUIRED, the miniport driver uses this 
      <b>RequestId</b> value to set the 
      <b>RequestId</b> member of the associated 
-     <a href="..\ndis\ns-ndis-_ndis_status_indication.md">NDIS_STATUS_INDICATION</a> structure. 
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff567373">NDIS_STATUS_INDICATION</a> structure. 
      
 
 NDIS or overlying drivers can also use the 
@@ -112,7 +96,7 @@ NDIS or overlying drivers can also use the
      <b>RequestId</b> is zero, the miniport driver can ignore this member.
 
 For more information about this member, see 
-     <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a>.
 
 
 ### -field PortNumber
@@ -151,13 +135,11 @@ WMI GUID event indications that are specific to NDIS 6.0 and later versions incl
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_WMI_EVENT_HEADER structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

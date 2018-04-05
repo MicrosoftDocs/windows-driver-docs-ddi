@@ -38,7 +38,8 @@ api_location:
 -	BthSdpddi.h
 api_name:
 -	SdpConvertTreeToStream
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BTH_VENDOR_SPECIFIC_COMMAND, *PBTH_VENDOR_SPECIFIC_COMMAND
 ---
@@ -53,22 +54,6 @@ The Bluetooth
   <b>SdpConvertTreeToStream</b> function is used to produce a raw bytestream representation of an SDP record
   from a tree representation. The raw bytestream version is suitable for publication on a local SDP
   server.
-
-
-## -prototype
-
-
-````
-PCONVERTTREETOSTREAM SdpConvertTreeToStream;
-
-NTSTATUS SdpConvertTreeToStream(
-   PSDP_TREE_ROOT_NODE Root,
-   PUCHAR              Stream,
-   PULONG              Size,
-   ULONG               tag
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -97,7 +82,7 @@ The address of an unsigned long integer to receive the length of the converted S
 Specifies a 4-byte 
      <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">pool tag</a> that uniquely identifies the driver that does the memory
      allocation. For more information about pool tags, see 
-     <a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff544520">ExAllocatePoolWithTag</a>.
 
 
 ## -returns
@@ -125,38 +110,36 @@ Possible return values include:
 
 The 
     <b>SdpConvertTreeToStream</b> function performs the opposite operation as the 
-    <a href="..\bthsdpddi\nc-bthsdpddi-pconvertstreamtotree.md">SdpConvertStreamToTree</a> function. It
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff536794">SdpConvertStreamToTree</a> function. It
     generates a complete native SDP record from a Microsoft-specific tree structure. Driver developers might
     find it more convenient to build a SDP record as a tree and then convert it to a stream prior to
     publishing.
 
 <b>SdpConvertTreeToStream</b> allocates the necessary memory to store the stream version of the SDP
     record. When the memory is no longer needed, the caller is responsible for freeing the memory using the 
-    <a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a> driver support routine.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff544590">ExFreePool</a> driver support routine.
 
 Bluetooth profile drivers can obtain a pointer to this function through the 
-    <a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_parse_interface.md">BTHDDI_SDP_PARSE_INTERFACE</a>.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff536636">BTHDDI_SDP_PARSE_INTERFACE</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_parse_interface.md">BTHDDI_SDP_PARSE_INTERFACE</a>
 
 
 
-<a href="..\bthsdpddi\nc-bthsdpddi-pconvertstreamtotree.md">SdpConvertStreamToTree</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536636">BTHDDI_SDP_PARSE_INTERFACE</a>
 
 
 
-<a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544590">ExFreePool</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536794">SdpConvertStreamToTree</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20PCONVERTTREETOSTREAM callback function%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

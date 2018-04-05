@@ -7,7 +7,7 @@ old-location: wdf\wdf_dma_system_profile_config.htm
 old-project: wdf
 ms.assetid: 80131AB6-4A2B-4D99-9289-CE9FE26E0695
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/26/2018
 ms.keywords: "*PWDF_DMA_SYSTEM_PROFILE_CONFIG, PWDF_DMA_SYSTEM_PROFILE_CONFIG, PWDF_DMA_SYSTEM_PROFILE_CONFIG structure pointer, WDF_DMA_SYSTEM_PROFILE_CONFIG, WDF_DMA_SYSTEM_PROFILE_CONFIG structure, _WDF_DMA_SYSTEM_PROFILE_CONFIG, kmdf.wdf_dma_system_profile_config, wdf.wdf_dma_system_profile_config, wdfdmaenabler/PWDF_DMA_SYSTEM_PROFILE_CONFIG, wdfdmaenabler/WDF_DMA_SYSTEM_PROFILE_CONFIG"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	wdfdmaenabler.h
 api_name:
 -	WDF_DMA_SYSTEM_PROFILE_CONFIG
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_DMA_SYSTEM_PROFILE_CONFIG, *PWDF_DMA_SYSTEM_PROFILE_CONFIG
 req.product: Windows 10 or later.
@@ -53,21 +54,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF only]
 
 The <b>WDF_DMA_SYSTEM_PROFILE_CONFIG</b> structure describes the hardware-specific settings related to a system-mode DMA enabler.
-
-
-## -syntax
-
-
-````
-typedef struct _WDF_DMA_SYSTEM_PROFILE_CONFIG {
-  ULONG                           Size;
-  BOOLEAN                         DemandMode;
-  BOOLEAN                         LoopedTransfer;
-  DMA_WIDTH                       DmaWidth;
-  PHYSICAL_ADDRESS                DeviceAddress;
-  PCM_PARTIAL_RESOURCE_DESCRIPTOR DmaDescriptor;
-} WDF_DMA_SYSTEM_PROFILE_CONFIG, *PWDF_DMA_SYSTEM_PROFILE_CONFIG;
-````
 
 
 ## -struct-fields
@@ -98,20 +84,20 @@ The width of the register specified by <b>DeviceAddress</b>. Possible values are
 
 ### -field DeviceAddress
 
-The translated address to or from which the DMA controller transfers. The driver can specify an offset from this base address on each transaction by calling <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionsetdeviceaddressoffset.md">WdfDmaTransactionSetDeviceAddressOffset</a>.
+The translated address to or from which the DMA controller transfers. The driver can specify an offset from this base address on each transaction by calling <a href="https://msdn.microsoft.com/library/windows/hardware/hh451188">WdfDmaTransactionSetDeviceAddressOffset</a>.
 
 
 ### -field DmaDescriptor
 
 The translated resource descriptor for the DMA channel assigned 
-      the device during <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_prepare_hardware.md">EvtDevicePrepareHardware</a>. This provides the DMA request line for the adapter.
+      the device during <a href="https://msdn.microsoft.com/a3d4a983-8a75-44be-bd72-8673d89f9f87">EvtDevicePrepareHardware</a>. This provides the DMA request line for the adapter.
 
 
 ## -remarks
 
 
 
-The driver provides this structure to <a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablerconfiguresystemprofile.md">WdfDmaEnablerConfigureSystemProfile</a> after creating a system-profile DMA enabler.
+The driver provides this structure to <a href="https://msdn.microsoft.com/library/windows/hardware/hh451108">WdfDmaEnablerConfigureSystemProfile</a> after creating a system-profile DMA enabler.
 
 Typically, drivers set <b>DemandMode</b> to TRUE.   The driver's <a href="https://msdn.microsoft.com/c01b94b2-aabf-47dd-952a-06e481579614">EvtProgramDma</a> callback function then programs the device to assert its DMA request line and initiate the transfer.  In this case, the transfer might begin while <i>EvtProgramDma</i> is still running.
 
@@ -125,17 +111,15 @@ If <b>DemandMode</b> is set to FALSE, the DMA transfer may begin before the fram
 
 ## -see-also
 
-<a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdf_dma_system_profile_config_init.md">WDF_DMA_SYSTEM_PROFILE_CONFIG_INIT</a>
 
 
 
-<a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablerconfiguresystemprofile.md">WdfDmaEnablerConfigureSystemProfile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439499">WDF_DMA_SYSTEM_PROFILE_CONFIG_INIT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451108">WdfDmaEnablerConfigureSystemProfile</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_DMA_SYSTEM_PROFILE_CONFIG structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

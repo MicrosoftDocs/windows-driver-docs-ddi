@@ -7,7 +7,7 @@ old-location: kernel\ioregisterdriverreinitialization.htm
 old-project: kernel
 ms.assetid: bdee26f9-e108-4753-b2e5-a1427212bce9
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/28/2018
 ms.keywords: IoRegisterDriverReinitialization, IoRegisterDriverReinitialization routine [Kernel-Mode Driver Architecture], k104_998f1835-132c-49f3-886d-6d78dee35b9d.xml, kernel.ioregisterdriverreinitialization, ntddk/IoRegisterDriverReinitialization
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	IoRegisterDriverReinitialization
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
@@ -49,19 +50,7 @@ req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ## -description
 
 
-The <b>IoRegisterDriverReinitialization</b> routine is called by a driver during its initialization or reinitialization to register its <a href="..\ntddk\nc-ntddk-driver_reinitialize.md">Reinitialize</a> routine to be called again before the driver's and, possibly the system's, initialization is complete.
-
-
-## -syntax
-
-
-````
-VOID IoRegisterDriverReinitialization(
-  _In_     PDRIVER_OBJECT       DriverObject,
-  _In_     PDRIVER_REINITIALIZE DriverReinitializationRoutine,
-  _In_opt_ PVOID                Context
-);
-````
+The <b>IoRegisterDriverReinitialization</b> routine is called by a driver during its initialization or reinitialization to register its <a href="https://msdn.microsoft.com/library/windows/hardware/ff561022">Reinitialize</a> routine to be called again before the driver's and, possibly the system's, initialization is complete.
 
 
 ## -parameters
@@ -71,12 +60,12 @@ VOID IoRegisterDriverReinitialization(
 
 ### -param DriverObject [in]
 
-Pointer to the driver object that was input to the <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine.
+Pointer to the driver object that was input to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine.
 
 
 ### -param DriverReinitializationRoutine [in]
 
-Pointer to the driver's <a href="..\ntddk\nc-ntddk-driver_reinitialize.md">Reinitialize</a> routine. 
+Pointer to the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff561022">Reinitialize</a> routine. 
 
 
 ### -param Context [in, optional]
@@ -97,7 +86,7 @@ None
 
 
 
-A driver can call this routine only if its <i>DriverEntry</i> routine will return STATUS_SUCCESS. If the driver-supplied <a href="..\ntddk\nc-ntddk-driver_reinitialize.md">Reinitialize</a> routine must use the registry, the <i>DriverEntry</i> routine should include a copy of the string to which  <i>RegistryPath</i> points as part of the context passed to the <i>Reinitialize</i> routine in this call.
+A driver can call this routine only if its <i>DriverEntry</i> routine will return STATUS_SUCCESS. If the driver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff561022">Reinitialize</a> routine must use the registry, the <i>DriverEntry</i> routine should include a copy of the string to which  <i>RegistryPath</i> points as part of the context passed to the <i>Reinitialize</i> routine in this call.
 
 If the driver is loaded dynamically, it is possible for this to occur during a normally running system, so all references to the reinitialization queue must be synchronized.
 
@@ -112,17 +101,15 @@ Usually, a driver with a <i>Reinitialize</i> routine is a higher-level driver th
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-ioregisterbootdriverreinitialization.md">IoRegisterBootDriverReinitialization</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544174">DRIVER_OBJECT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549494">IoRegisterBootDriverReinitialization</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoRegisterDriverReinitialization routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

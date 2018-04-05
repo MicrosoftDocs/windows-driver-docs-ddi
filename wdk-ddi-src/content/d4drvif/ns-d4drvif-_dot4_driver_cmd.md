@@ -7,7 +7,7 @@ old-location: print\dot4_driver_cmd.htm
 old-project: print
 ms.assetid: 7F099F7E-6E1F-499A-AF09-80B20429B892
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: "*PDOT4_DRIVER_CMD, DOT4_DRIVER_CMD, DOT4_DRIVER_CMD structure [Print Devices], PDOT4_DRIVER_CMD, PDOT4_DRIVER_CMD structure pointer [Print Devices], _DOT4_DRIVER_CMD, d4drvif/DOT4_DRIVER_CMD, d4drvif/PDOT4_DRIVER_CMD, print.dot4_driver_cmd"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D4drvif.h
 api_name:
 -	DOT4_DRIVER_CMD
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_DRIVER_CMD, *PDOT4_DRIVER_CMD
 ---
@@ -50,19 +51,6 @@ req.typenames: DOT4_DRIVER_CMD, *PDOT4_DRIVER_CMD
 
 
 This topic describes the <b>DOT4_DRIVER_CMD</b> structure.
-
-
-## -syntax
-
-
-````
-typedef struct _DOT4_DRIVER_CMD {
-  CHANNEL_HANDLE hChannelHandle;
-  ULONG          ulSize;
-  ULONG          ulOffset;
-  ULONG          ulTimeout;
-} DOT4_DRIVER_CMD, *PDOT4_DRIVER_CMD;
-````
 
 
 ## -struct-fields

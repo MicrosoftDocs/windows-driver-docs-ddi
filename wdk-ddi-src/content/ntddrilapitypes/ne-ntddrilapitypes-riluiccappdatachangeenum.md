@@ -7,13 +7,13 @@ old-location: netvista\riluiccappdatachangeenum.htm
 old-project: netvista
 ms.assetid: 6960080f-03dc-4c5f-8cd8-b96d030f2bd3
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: RILUICCAPPDATACHANGEENUM, RILUICCAPPDATACHANGEENUM enumeration [Network Drivers Starting with Windows Vista], RIL_UICCAPP_DATACHANGE_EF_CSP_PLMN_SET, RIL_UICCAPP_DATACHANGE_EF_CSP_PLMN_UNSET, RIL_UICCAPP_DATACHANGE_ESNME, RIL_UICCAPP_DATACHANGE_MAX, RIL_UICCAPP_DATACHANGE_MBDN, netvista.riluiccappdatachangeenum, ntddrilapitypes/RILUICCAPPDATACHANGEENUM, ntddrilapitypes/RIL_UICCAPP_DATACHANGE_EF_CSP_PLMN_SET, ntddrilapitypes/RIL_UICCAPP_DATACHANGE_EF_CSP_PLMN_UNSET, ntddrilapitypes/RIL_UICCAPP_DATACHANGE_ESNME, ntddrilapitypes/RIL_UICCAPP_DATACHANGE_MAX, ntddrilapitypes/RIL_UICCAPP_DATACHANGE_MBDN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: ntddrilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILUICCAPPDATACHANGEENUM
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILUICCAPPDATACHANGEENUM
 ---
@@ -50,20 +51,6 @@ req.typenames: RILUICCAPPDATACHANGEENUM
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef enum _RILUICCAPPDATACHANGEENUM { 
-  RIL_UICCAPP_DATACHANGE_MBDN,
-  RIL_UICCAPP_DATACHANGE_EF_CSP_PLMN_UNSET,
-  RIL_UICCAPP_DATACHANGE_EF_CSP_PLMN_SET,
-  RIL_UICCAPP_DATACHANGE_ESNME,
-  RIL_UICCAPP_DATACHANGE_MAX
-} RILUICCAPPDATACHANGEENUM;
-````
 
 
 ## -enum-fields

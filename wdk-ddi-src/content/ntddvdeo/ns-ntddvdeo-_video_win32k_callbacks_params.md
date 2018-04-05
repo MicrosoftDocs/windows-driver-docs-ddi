@@ -7,7 +7,7 @@ old-location: display\video_win32k_callbacks_params.htm
 old-project: display
 ms.assetid: d533721f-b4c8-44f9-9c39-f312e1ec9895
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PVIDEO_WIN32K_CALLBACKS_PARAMS, PVIDEO_WIN32K_CALLBACKS_PARAMS, PVIDEO_WIN32K_CALLBACKS_PARAMS structure pointer [Display Devices], VIDEO_WIN32K_CALLBACKS_PARAMS, VIDEO_WIN32K_CALLBACKS_PARAMS structure [Display Devices], Video_Structs_1a8e1e6c-1019-4d0f-9a62-7802059cafd2.xml, _VIDEO_WIN32K_CALLBACKS_PARAMS, display.video_win32k_callbacks_params, ntddvdeo/PVIDEO_WIN32K_CALLBACKS_PARAMS, ntddvdeo/VIDEO_WIN32K_CALLBACKS_PARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddvdeo.h
 api_name:
 -	VIDEO_WIN32K_CALLBACKS_PARAMS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEO_WIN32K_CALLBACKS_PARAMS, *PVIDEO_WIN32K_CALLBACKS_PARAMS
 ---
@@ -50,19 +51,6 @@ req.typenames: VIDEO_WIN32K_CALLBACKS_PARAMS, *PVIDEO_WIN32K_CALLBACKS_PARAMS
 
 
 The VIDEO_WIN32K_CALLBACKS_PARAMS structure and the VIDEO_WIN32K_CALLBACKS_PARAMS_TYPE enumeration are reserved for system use.
-
-
-## -syntax
-
-
-````
-typedef struct _VIDEO_WIN32K_CALLBACKS_PARAMS {
-  VIDEO_WIN32K_CALLBACKS_PARAMS_TYPE CalloutType;
-  PVOID                              PhysDisp;
-  ULONG_PTR                          Param;
-  LONG                               Status;
-} VIDEO_WIN32K_CALLBACKS_PARAMS, *PVIDEO_WIN32K_CALLBACKS_PARAMS;
-````
 
 
 ## -struct-fields

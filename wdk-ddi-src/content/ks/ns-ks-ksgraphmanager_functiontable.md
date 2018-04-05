@@ -38,7 +38,8 @@ api_location:
 -	Ks.h
 api_name:
 -	KSGRAPHMANAGER_FUNCTIONTABLE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSGRAPHMANAGER_FUNCTIONTABLE, PKSGRAPHMANAGER_FUNCTIONTABLE
 ---
@@ -50,16 +51,6 @@ req.typenames: KSGRAPHMANAGER_FUNCTIONTABLE, PKSGRAPHMANAGER_FUNCTIONTABLE
 
 
 
-
-
-## -syntax
-
-
-````
-typedef struct _KSGRAPHMANAGER_FUNCTIONTABLE {
-  PFNKSGRAPHMANAGER_NOTIFY NotifyEvent;
-} KSGRAPHMANAGER_FUNCTIONTABLE, PKSGRAPHMANAGER_FUNCTIONTABLE;
-````
 
 
 ## -struct-fields

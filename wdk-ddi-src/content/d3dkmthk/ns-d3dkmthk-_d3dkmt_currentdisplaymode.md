@@ -7,7 +7,7 @@ old-location: display\d3dkmt_currentdisplaymode.htm
 old-project: display
 ms.assetid: 8ba027f9-3671-461c-bae6-2da0059cf0ab
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMT_CURRENTDISPLAYMODE, D3DKMT_CURRENTDISPLAYMODE structure [Display Devices], OpenGL_Structs_9af2b5dc-c342-4644-a3db-db9649b1fc9c.xml, _D3DKMT_CURRENTDISPLAYMODE, d3dkmthk/D3DKMT_CURRENTDISPLAYMODE, display.d3dkmt_currentdisplaymode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmthk.h
 api_name:
 -	D3DKMT_CURRENTDISPLAYMODE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_CURRENTDISPLAYMODE
 ---
@@ -50,17 +51,6 @@ req.typenames: D3DKMT_CURRENTDISPLAYMODE
 
 
 The D3DKMT_CURRENTDISPLAYMODE structure describes the current display mode of the specified video source. 
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_CURRENTDISPLAYMODE {
-  D3DDDI_VIDEO_PRESENT_SOURCE_ID VidPnSourceId;
-  D3DKMT_DISPLAYMODE             DisplayMode;
-} D3DKMT_CURRENTDISPLAYMODE;
-````
 
 
 ## -struct-fields
@@ -75,22 +65,20 @@ typedef struct _D3DKMT_CURRENTDISPLAYMODE {
 
 ### -field DisplayMode
 
-[out] A <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_displaymode.md">D3DKMT_DISPLAYMODE</a> structure that represents the current display mode.
+[out] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff547942">D3DKMT_DISPLAYMODE</a> structure that represents the current display mode.
 
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtqueryadapterinfo.md">D3DKMTQueryAdapterInfo</a>
 
 
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_displaymode.md">D3DKMT_DISPLAYMODE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547100">D3DKMTQueryAdapterInfo</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547942">D3DKMT_DISPLAYMODE</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMT_CURRENTDISPLAYMODE structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

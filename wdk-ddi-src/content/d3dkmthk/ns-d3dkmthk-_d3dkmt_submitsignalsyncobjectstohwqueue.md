@@ -7,7 +7,7 @@ old-location: display\d3dkmt_submitsignalsyncobjectstohwqueue.htm
 old-project: display
 ms.assetid: BD192367-4960-4FD9-867F-02263AC93A61
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMT_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE, D3DKMT_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE structure [Display Devices], _D3DKMT_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE, d3dkmthk/D3DKMT_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE, display.d3dkmt_submitsignalsyncobjectstohwqueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmthk.h
 api_name:
 -	D3DKMT_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE
 ---
@@ -50,21 +51,6 @@ req.typenames: D3DKMT_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE
 
 
 A structure holding information to submit a signal to the hardware queue.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE {
-  D3DDDICB_SIGNALFLAGS Flags;
-  ULONG                BroadcastHwQueueCount;
-  const D3DKMT_HANDLE  *BroadcastHwQueueArray;
-  UINT                 ObjectCount;
-  const D3DKMT_HANDLE  *ObjectHandleArray;
-  const UINT64         *FenceValueArray;
-} D3DKMT_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE;
-````
 
 
 ## -struct-fields

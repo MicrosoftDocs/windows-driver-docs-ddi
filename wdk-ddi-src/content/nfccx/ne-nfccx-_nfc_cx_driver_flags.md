@@ -38,7 +38,8 @@ api_location:
 -	nfccx.h
 api_name:
 -	NFC_CX_DRIVER_FLAGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NFC_CX_DRIVER_FLAGS, *PNFC_CX_DRIVER_FLAGS
 ---
@@ -50,24 +51,6 @@ req.typenames: NFC_CX_DRIVER_FLAGS, *PNFC_CX_DRIVER_FLAGS
 
 
 Specifies run-time driver flags.
-
-
-## -syntax
-
-
-````
-typedef enum _NFC_CX_DRIVER_FLAGS { 
-  NFC_CX_DRIVER_DISABLE_WTD_TIMER                      = 0x00000001,
-  NFC_CX_DRIVER_DISABLE_NFCEE_DISCOVERY                = 0x00000002,
-  NFC_CX_DRIVER_DISABLE_RECOVERY_MODE                  = 0x00000004,
-  NFC_CX_DRIVER_DISABLE_HOST_CARD_EMULATION            = 0x000000010,
-  NFC_CX_DRIVER_HCI_NETWORK_PER_NFCEE                  = 0x000000020,
-  NFC_CX_DRIVER_DISABLE_NFCEE_ACTION_NTF               = 0x000000040,
-  NFC_CX_DRIVER_ENABLE_EEPROM_WRITE_PROTECTION         = 0x000000080,
-  NFC_CX_DRIVER_ISODEP_RNAK_PRESENCE_CHK_SUPPORTED     = 0x000000100,
-  NFC_CX_DRIVER_RF_ROUTING_POWER_SUB_STATES_SUPPORTED  = 0x000000200
-} NFC_CX_DRIVER_FLAGS, *PNFC_CX_DRIVER_FLAGS;
-````
 
 
 ## -enum-fields
@@ -131,17 +114,15 @@ The NFC CX allows the NFC client driver to provide some driver flags that can be
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
 
 
 
 <a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [nfpdrivers\nfpdrivers]:%20NFC_CX_DRIVER_FLAGS enumeration%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

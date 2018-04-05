@@ -7,7 +7,7 @@ old-location: display\d3dddiarg_setdecoderendertarget.htm
 old-project: display
 ms.assetid: 8903b579-8a63-42a5-9115-251f4e77ebb4
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDIARG_SETDECODERENDERTARGET, D3DDDIARG_SETDECODERENDERTARGET structure [Display Devices], UMDisplayDriver_param_Structs_1638f20c-2243-4b24-8373-d5e310aa10a0.xml, _D3DDDIARG_SETDECODERENDERTARGET, d3dumddi/D3DDDIARG_SETDECODERENDERTARGET, display.d3dddiarg_setdecoderendertarget
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	D3DDDIARG_SETDECODERENDERTARGET
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDIARG_SETDECODERENDERTARGET
 ---
@@ -52,18 +53,6 @@ req.typenames: D3DDDIARG_SETDECODERENDERTARGET
 The D3DDDIARG_SETDECODERENDERTARGET structure describes the decode render target surface. 
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_SETDECODERENDERTARGET {
-  HANDLE hDecode;
-  HANDLE hRenderTarget;
-  UINT   SubResourceIndex;
-} D3DDDIARG_SETDECODERENDERTARGET;
-````
-
-
 ## -struct-fields
 
 
@@ -71,7 +60,7 @@ typedef struct _D3DDDIARG_SETDECODERENDERTARGET {
 
 ### -field hDecode
 
-[in] A handle to the Microsoft DirectX Video Acceleration (DirectX VA) decode device. The user-mode display driver returns this handle in a call to its <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createdecodedevice.md">CreateDecodeDevice</a> function.
+[in] A handle to the Microsoft DirectX Video Acceleration (DirectX VA) decode device. The user-mode display driver returns this handle in a call to its <a href="https://msdn.microsoft.com/4d9a062a-2fdf-4e55-a335-c03c5d5665ff">CreateDecodeDevice</a> function.
 
 
 ### -field hRenderTarget
@@ -86,17 +75,15 @@ typedef struct _D3DDDIARG_SETDECODERENDERTARGET {
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createdecodedevice.md">CreateDecodeDevice</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setdecoderendertarget.md">SetDecodeRenderTarget</a>
+<a href="https://msdn.microsoft.com/4d9a062a-2fdf-4e55-a335-c03c5d5665ff">CreateDecodeDevice</a>
 
 
 
+<a href="https://msdn.microsoft.com/d522b0f3-ca9c-4e79-96ad-ea9477858ef4">SetDecodeRenderTarget</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DDDIARG_SETDECODERENDERTARGET structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

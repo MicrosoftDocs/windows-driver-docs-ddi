@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILMESSAGEINUICC
 title: RILMESSAGEINUICC
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilmessageinuicc_2.htm
+old-location: netvista\rilmessageinuicc.htm
 old-project: netvista
-ms.assetid: 2a956b25-1cf5-4a51-bc60-c4a7a7f70e2c
+ms.assetid: 71f48863-06dd-4ea1-a8b7-fdf673090fe0
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: "*LPRILMESSAGEINUICC, RILMESSAGEINUICC, RILMESSAGEINUICC structure [Network Drivers Starting with Windows Vista], netvista.rilmessageinuicc_2, rilapitypes/RILMESSAGEINUICC"
+ms.date: 3/26/2018
+ms.keywords: "*LPRILMESSAGEINUICC, RILMESSAGEINUICC, RILMESSAGEINUICC structure [Network Drivers Starting with Windows Vista], netvista.rilmessageinuicc, ntddrilapitypes/RILMESSAGEINUICC"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,10 +35,11 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILMESSAGEINUICC
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILMESSAGEINUICC, *LPRILMESSAGEINUICC
 req.product: Windows 10 or later.
@@ -50,20 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-
-## -syntax
-
-
-````
-typedef struct _RILMESSAGEINUICC {
-  DWORD     cbSize;
-  DWORD     dwExecutor;
-  HUICCAPP  hUiccApp;
-  DWORD     dwIndex;
-} RILMESSAGEINUICC, RILMESSAGEINUICC;
-````
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -struct-fields

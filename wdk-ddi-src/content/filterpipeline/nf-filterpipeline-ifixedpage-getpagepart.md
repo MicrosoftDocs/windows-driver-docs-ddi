@@ -7,7 +7,7 @@ old-location: print\ifixedpage_getpagepart.htm
 old-project: print
 ms.assetid: 6ec8d282-eedb-419e-84cb-8f4776ea7650
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: GetPagePart method [Print Devices], GetPagePart method [Print Devices], IFixedPage interface, GetPagePart,IFixedPage.GetPagePart, IFixedPage, IFixedPage interface [Print Devices], GetPagePart method, IFixedPage::GetPagePart, filterpipeline/IFixedPage::GetPagePart, filterpipeline_925ca634-7cac-41f6-b80f-cc5c90154ae0.xml, print.ifixedpage_getpagepart
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: filterpipeline.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	filterpipeline.h
 api_name:
 -	IFixedPage.GetPagePart
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
@@ -50,17 +51,6 @@ req.typenames: EXpsFontRestriction
 
 
 The <b>GetPagePart</b> method gets the images, thumbnails, fonts, and so on in a page by using the URI.
-
-
-## -syntax
-
-
-````
-HRESULT GetPagePart(
-  [in]  const wchar_t  *uri,
-  [out]       IUnknown **ppUnk
-);
-````
 
 
 ## -parameters

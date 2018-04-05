@@ -7,7 +7,7 @@ old-location: display\d3dddiarg_setmaterial.htm
 old-project: display
 ms.assetid: 66c35c60-9f6c-44d7-b6d5-9d50a3e33c2e
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDIARG_SETMATERIAL, D3DDDIARG_SETMATERIAL structure [Display Devices], UMDisplayDriver_param_Structs_5a3ecda9-5303-46f4-b7a2-42243e3a66d1.xml, _D3DDDIARG_SETMATERIAL, d3dumddi/D3DDDIARG_SETMATERIAL, display.d3dddiarg_setmaterial
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	D3DDDIARG_SETMATERIAL
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDIARG_SETMATERIAL
 ---
@@ -50,20 +51,6 @@ req.typenames: D3DDDIARG_SETMATERIAL
 
 
 The D3DDDIARG_SETMATERIAL structure describes the material properties that are used for rendering. 
-
-
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_SETMATERIAL {
-  D3DCOLORVALUE Diffuse;
-  D3DCOLORVALUE Ambient;
-  D3DCOLORVALUE Specular;
-  D3DCOLORVALUE Emissive;
-  FLOAT         Power;
-} D3DDDIARG_SETMATERIAL;
-````
 
 
 ## -struct-fields
@@ -98,13 +85,11 @@ typedef struct _D3DDDIARG_SETMATERIAL {
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setmaterial.md">SetMaterial</a>
 
 
 
+<a href="https://msdn.microsoft.com/e1273478-a450-44fa-95d5-ee86cb3a46b2">SetMaterial</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DDDIARG_SETMATERIAL structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

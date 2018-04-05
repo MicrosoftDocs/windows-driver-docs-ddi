@@ -7,7 +7,7 @@ old-location: ifsk\rtlsetthreadplaceholdercompatibilitymode.htm
 old-project: ifsk
 ms.assetid: 0EA209B7-20B9-418F-AD29-83520ED27DAB
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: RtlSetThreadPlaceholderCompatibilityMode, RtlSetThreadPlaceholderCompatibilityMode routine [Installable File System Drivers], ifsk.rtlsetthreadplaceholdercompatibilitymode, ntifs/RtlSetThreadPlaceholderCompatibilityMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	Ntifs.h
 api_name:
 -	RtlSetThreadPlaceholderCompatibilityMode
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -53,16 +54,6 @@ req.typenames: TOKEN_TYPE
 <b>RtlSetThreadPlaceholderCompatibilityMode</b> is a routine which sets the placeholder compatibility mode for the current thread. This allows a thread to explicitly request that placeholder files be either disguised or exposed, overriding the application’s default mode for that thread only.
 
 
-
-
-## -syntax
-
-
-````
-CHAR RtlSetThreadPlaceholderCompatibilityMode(
-  _In_ CHAR Mode
-);
-````
 
 
 ## -parameters
@@ -130,13 +121,11 @@ Most Windows applications see exposed placeholders by default.  For compatibilit
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtlquerythreadplaceholdercompatibilitymode.md">RtlQueryThreadPlaceholderCompatibilityMode</a>
 
 
 
+<a href="https://msdn.microsoft.com/A38B30F9-D55B-4CC2-9B71-3B597ACCE0EB">RtlQueryThreadPlaceholderCompatibilityMode</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RtlSetThreadPlaceholderCompatibilityMode routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

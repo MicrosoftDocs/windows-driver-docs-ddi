@@ -7,7 +7,7 @@ old-location: netvista\ndisgetdatabuffer.htm
 old-project: netvista
 ms.assetid: 784d4c32-a517-4219-8e22-a998e0e66d69
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: NdisGetDataBuffer, NdisGetDataBuffer function [Network Drivers Starting with Windows Vista], ndis/NdisGetDataBuffer, ndis_netbuf_functions_ref_b4ffded6-13c9-417d-bb03-a6421f718deb.xml, netvista.ndisgetdatabuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	ndis.dll
 api_name:
 -	NdisGetDataBuffer
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
@@ -52,21 +53,7 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 
 Call the 
   <b>NdisGetDataBuffer</b> function to gain access to a contiguous block of data from a 
-  <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structure.
-
-
-## -syntax
-
-
-````
-PVOID NdisGetDataBuffer(
-  _In_     PNET_BUFFER NetBuffer,
-  _In_     ULONG       BytesNeeded,
-  _In_opt_ PVOID       Storage,
-  _In_     UINT        AlignMultiple,
-  _In_     UINT        AlignOffset
-);
-````
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structure.
 
 
 ## -parameters
@@ -112,7 +99,7 @@ The offset, in bytes, from the alignment multiple.
 
 If the 
       <b>DataLength</b> member of the 
-      <a href="..\ndis\ns-ndis-_net_buffer_data.md">NET_BUFFER_DATA</a> structure in the 
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff568381">NET_BUFFER_DATA</a> structure in the 
       <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structure that the <i>NetBuffer</i>
       parameter points to is less than the value in the 
       <i>BytesNeeded</i> parameter, the return value is <b>NULL</b>.
@@ -139,7 +126,7 @@ The return value can also be <b>NULL</b> due to a low resource condition where a
 
 
 Call this function to get a pointer to a network data header contained in the 
-    <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structure. You can easily parse the
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structure. You can easily parse the
     header stored in the contiguous data block that this function returns.
 
 The requested alignment requirement is expressed as a power-of-two multiple plus an offset. For
@@ -153,17 +140,15 @@ The requested alignment requirement is expressed as a power-of-two multiple plus
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_net_buffer_data.md">NET_BUFFER_DATA</a>
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568381">NET_BUFFER_DATA</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisGetDataBuffer function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

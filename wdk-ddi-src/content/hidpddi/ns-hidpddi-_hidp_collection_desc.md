@@ -38,7 +38,8 @@ api_location:
 -	Hidpddi.h
 api_name:
 -	HIDP_COLLECTION_DESC
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: HIDP_COLLECTION_DESC, *PHIDP_COLLECTION_DESC
 ---
@@ -49,25 +50,7 @@ req.typenames: HIDP_COLLECTION_DESC, *PHIDP_COLLECTION_DESC
 ## -description
 
 
-Contains the information of a top-level-collection. This structure is used in the <a href="..\hidpddi\nf-hidpddi-hidp_getcollectiondescription.md">HidP_GetCollectionDescription</a> call.
-
-
-## -syntax
-
-
-````
-typedef struct _HIDP_COLLECTION_DESC {
-  USAGE                             UsagePage;
-  USAGE                             Usage;
-  UCHAR                             CollectionNumber;
-  UCHAR                             Reserved[15];
-  USHORT                            InputLength;
-  USHORT                            OutputLength;
-  USHORT                            FeatureLength;
-  USHORT                            PreparsedDataLength;
-  PHIDP_PREPARSED_DATA              PreparsedData;
-} HIDP_COLLECTION_DESC, *PHIDP_COLLECTION_DESC;
-````
+Contains the information of a top-level-collection. This structure is used in the <a href="https://msdn.microsoft.com/library/windows/hardware/mt740164">HidP_GetCollectionDescription</a> call.
 
 
 ## -struct-fields
@@ -122,13 +105,11 @@ A pointer to a <a href="https://msdn.microsoft.com/en-us/library/windows/hardwar
 
 ## -see-also
 
-<a href="..\hidpddi\nf-hidpddi-hidp_getcollectiondescription.md">HidP_GetCollectionDescription</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt740164">HidP_GetCollectionDescription</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [hid\hid]:%20HIDP_COLLECTION_DESC structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: display\d3dkmdt_vidpn_present_path_copyprotection_support.htm
 old-project: display
 ms.assetid: 2b0c7428-bc88-461c-ab72-daccf02606da
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_SUPPORT, D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_SUPPORT structure [Display Devices], DmStructs_01eb8f42-1ba1-46e3-9b56-99952e5fedbe.xml, _D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_SUPPORT, d3dkmdt/D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_SUPPORT, display.d3dkmdt_vidpn_present_path_copyprotection_support
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmdt.h
 api_name:
 -	D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_SUPPORT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_SUPPORT
 ---
@@ -50,19 +51,6 @@ req.typenames: D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_SUPPORT
 
 
 The D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_SUPPORT structure is used to indicate the types of copy protection that are supported by a particular VidPN present path.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_SUPPORT {
-  UINT NoProtection  :1;
-  UINT MacroVisionApsTrigger  :1;
-  UINT MacroVisionFull  :1;
-  UINT Reserved  :29;
-} D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_SUPPORT;
-````
 
 
 ## -struct-fields
@@ -94,7 +82,7 @@ Reserved for future use.
 
 
 
-The <b>CopyProtectionSupport</b> member of the <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_present_path_copyprotection.md">D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION</a> structure is a D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_SUPPORT structure.
+The <b>CopyProtectionSupport</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546656">D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION</a> structure is a D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_SUPPORT structure.
 
 
 

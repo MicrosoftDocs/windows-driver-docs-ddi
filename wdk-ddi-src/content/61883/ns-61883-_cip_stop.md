@@ -38,7 +38,8 @@ api_location:
 -	61883.h
 api_name:
 -	CIP_STOP
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CIP_STOP, *PCIP_STOP
 ---
@@ -50,16 +51,6 @@ req.typenames: CIP_STOP, *PCIP_STOP
 
 
 This structure is used to stop transmission or reception. The  request stops isochronous transmission or reception on the specified connection. This request will stop capturing CIP packets, whether there are any frames attached. If frames are attached and the stream is resumed, then processing of the frame is resumed on the next source packet within the frame. To resume the stream on the beginning of the frame, a driver must set <b>Flags</b> with CIP_RESET_FRAME_ON_DISCONTINUITY in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537045">CIP_FRAME</a> structure passed with AttachFrame request. 
-
-
-## -syntax
-
-
-````
-typedef struct _CIP_STOP {
-  HANDLE hConnect;
-} CIP_STOP, *PCIP_STOP;
-````
 
 
 ## -struct-fields
@@ -85,13 +76,11 @@ If an incorrect parameter is passed in, the protocol driver sets <b>Irp-&gt;IoSt
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537008">AV_61883_REQUEST</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [IEEE\buses]:%20CIP_STOP structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

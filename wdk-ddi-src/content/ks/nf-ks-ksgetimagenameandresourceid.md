@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsGetImageNameAndResourceId
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,19 +52,6 @@ req.typenames:
 
 
 The <b>KsGetImageNameAndResourceId</b> function returns the image name and resource identifier that corresponds to the <i>RegKey </i>handle. 
-
-
-## -syntax
-
-
-````
-NTSTATUS KsGetImageNameAndResourceId(
-  _In_  HANDLE          RegKey,
-  _Out_ PUNICODE_STRING ImageName,
-  _Out_ PULONG_PTR      ResourceId,
-  _Out_ PULONG          ValueType
-);
-````
 
 
 ## -parameters
@@ -102,13 +90,11 @@ Pointer to a location into which the function returns the value type of the spec
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksmapmodulename.md">KsMapModuleName</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563391">KsMapModuleName</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsGetImageNameAndResourceId function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

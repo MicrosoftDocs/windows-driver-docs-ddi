@@ -7,7 +7,7 @@ old-location: netvista\ReferenceSwitchPort.htm
 old-project: netvista
 ms.assetid: 5FD2E931-AC9F-4157-9C45-F93261FC834D
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: NDIS_SWITCH_REFERENCE_SWITCH_PORT, ReferenceSwitchPort, ReferenceSwitchPort callback function [Network Drivers Starting with Windows Vista], ndis/ReferenceSwitchPort, netvista.ReferenceSwitchPort
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ndis.h
 api_name:
 -	ReferenceSwitchPort
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
 ---
@@ -55,20 +56,6 @@ The <i>ReferenceSwitchPort</i> function increments the Hyper-V extensible switch
 
 
 
-## -prototype
-
-
-````
-NDIS_SWITCH_REFERENCE_SWITCH_PORT ReferenceSwitchPort;
-
-NDIS_STATUS ReferenceSwitchPort(
-  _In_ NDIS_SWITCH_CONTEXT NdisSwitchContext,
-  _In_ NDIS_SWITCH_PORT_ID SwitchPortId
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -76,7 +63,7 @@ NDIS_STATUS ReferenceSwitchPort(
 
 ### -param NdisSwitchContext [in]
 
-An NDIS_SWITCH_CONTEXT value that contains the handle of the extensible switch module to which the Hyper-V extensible switch extension is attached. When the extension calls <a href="..\ndis\nf-ndis-ndisfgetoptionalswitchhandlers.md">NdisFGetOptionalSwitchHandlers</a>,  this handle is returned through the <i>NdisSwitchContext</i> parameter.
+An NDIS_SWITCH_CONTEXT value that contains the handle of the extensible switch module to which the Hyper-V extensible switch extension is attached. When the extension calls <a href="https://msdn.microsoft.com/library/windows/hardware/hh598204">NdisFGetOptionalSwitchHandlers</a>,  this handle is returned through the <i>NdisSwitchContext</i> parameter.
 
 
 ### -param SwitchPortId [in]
@@ -118,11 +105,22 @@ The extension calls <i>ReferenceSwitchPort</i> after the port has reached the <i
 
 ## -see-also
 
+
+
+
+<b></b>
+
+
+
+<a href="https://msdn.microsoft.com/58C72F81-07B9-45FE-A8BA-0405DBE4CA20">DereferenceSwitchNic</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598204">NdisFGetOptionalSwitchHandlers</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh598273">OID_SWITCH_PORT_DELETE</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisfgetoptionalswitchhandlers.md">NdisFGetOptionalSwitchHandlers</a>
 
 
 
@@ -131,20 +129,7 @@ The extension calls <i>ReferenceSwitchPort</i> after the port has reached the <i
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh598279">OID_SWITCH_PORT_TEARDOWN</a>
-
-
-
-<a href="https://msdn.microsoft.com/58C72F81-07B9-45FE-A8BA-0405DBE4CA20">DereferenceSwitchNic</a>
-
-
-
-<b></b>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_SWITCH_REFERENCE_SWITCH_PORT callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

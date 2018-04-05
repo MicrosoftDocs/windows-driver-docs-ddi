@@ -7,7 +7,7 @@ old-location: storage\stor_crypto_key_size.htm
 old-project: storage
 ms.assetid: 5CBE8A2B-E2E1-4B76-A76F-51DA9F301DAA
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSTOR_CRYPTO_KEY_SIZE, PSTOR_CRYPTO_KEY_SIZE, PSTOR_CRYPTO_KEY_SIZE enumeration pointer [Storage Devices], STOR_CRYPTO_KEY_SIZE, STOR_CRYPTO_KEY_SIZE enumeration [Storage Devices], _STOR_CRYPTO_KEY_SIZE, storage.stor_crypto_key_size, storport/, storport/PSTOR_CRYPTO_KEY_SIZE, storport/STOR_CRYPTO_KEY_SIZE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Storport.h
 api_name:
 -	STOR_CRYPTO_KEY_SIZE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STOR_CRYPTO_KEY_SIZE, *PSTOR_CRYPTO_KEY_SIZE
 req.product: Windows 10 or later.
@@ -51,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 Reserved for system use.
-
-
-## -syntax
-
-
-````
-typedef enum _STOR_CRYPTO_KEY_SIZE { 
-    = 
-} STOR_CRYPTO_KEY_SIZE, *PSTOR_CRYPTO_KEY_SIZE;
-````
 
 
 ## -enum-fields

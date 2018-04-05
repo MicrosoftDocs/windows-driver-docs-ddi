@@ -7,7 +7,7 @@ old-location: storage\hbafcpid.htm
 old-project: storage
 ms.assetid: a4fa3093-a328-4d90-bc51-0e7a6db1ed58
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PHBAFCPID, HBAFCPID, HBAFCPID structure [Storage Devices], PHBAFCPID, PHBAFCPID structure pointer [Storage Devices], _HBAFCPID, hbapiwmi/HBAFCPID, hbapiwmi/PHBAFCPID, storage.hbafcpid, structs-Fibre_d993c5b6-2b58-4fae-981a-8096cd9c9bd0.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	hbapiwmi.h
 api_name:
 -	HBAFCPID
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: HBAFCPID, *PHBAFCPID
 ---
@@ -50,19 +51,6 @@ req.typenames: HBAFCPID, *PHBAFCPID
 
 
 The HBAFCPID structure contains information that uniquely identifies a logical unit on a fibre channel network.
-
-
-## -syntax
-
-
-````
-typedef struct _HBAFCPID {
-  ULONG     Fcid;
-  UCHAR     NodeWWN[8];
-  UCHAR     PortWWN[8];
-  ULONGLONG FcpLun;
-} HBAFCPID, *PHBAFCPID;
-````
 
 
 ## -struct-fields
@@ -103,17 +91,15 @@ For more information about the fibre channel protocol (FCP), see the T11 committ
 
 ## -see-also
 
-<a href="..\hbaapi\ns-hbaapi-hba_fcpid.md">HBA_FcpId</a>
 
 
 
-<a href="..\hbapiwmi\ns-hbapiwmi-_hbafcpbindingentry.md">HBAFCPBindingEntry</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556034">HBAFCPBindingEntry</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556062">HBA_FcpId</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20HBAFCPID structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

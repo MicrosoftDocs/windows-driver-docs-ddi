@@ -7,7 +7,7 @@ old-location: display\dxvaddi_videoprocessorcaps.htm
 old-project: display
 ms.assetid: bea6d458-943e-466f-adca-466f26dc3599
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: DXVA2_Structs_dc28e351-d197-4440-a3fd-dc3a49e35230.xml, DXVADDI_VIDEOPROCESSORCAPS, DXVADDI_VIDEOPROCESSORCAPS structure [Display Devices], _DXVADDI_VIDEOPROCESSORCAPS, d3dumddi/DXVADDI_VIDEOPROCESSORCAPS, display.dxvaddi_videoprocessorcaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	DXVADDI_VIDEOPROCESSORCAPS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXVADDI_VIDEOPROCESSORCAPS
 ---
@@ -52,24 +53,6 @@ req.typenames: DXVADDI_VIDEOPROCESSORCAPS
 The DXVADDI_VIDEOPROCESSORCAPS structure describes the video processing capabilities of a specific deinterlace mode.
 
 
-## -syntax
-
-
-````
-typedef struct _DXVADDI_VIDEOPROCESSORCAPS {
-  D3DDDI_POOL  InputPool;
-  UINT         NumForwardRefSamples;
-  UINT         NumBackwardRefSamples;
-  D3DDDIFORMAT OutputFormat;
-  UINT         DeinterlaceTechnology;
-  UINT         ProcAmpControlCaps;
-  UINT         VideoProcessorOperations;
-  UINT         NoiseFilterTechnology;
-  UINT         DetailFilterTechnology;
-} DXVADDI_VIDEOPROCESSORCAPS;
-````
-
-
 ## -struct-fields
 
 
@@ -77,7 +60,7 @@ typedef struct _DXVADDI_VIDEOPROCESSORCAPS {
 
 ### -field InputPool
 
-[out] A <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddi_pool.md">D3DDDI_POOL</a>-typed value that indicates the memory pool from which the interlaced source surfaces should be allocated. 
+[out] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff544634">D3DDDI_POOL</a>-typed value that indicates the memory pool from which the interlaced source surfaces should be allocated. 
 
 
 ### -field NumForwardRefSamples
@@ -92,7 +75,7 @@ typedef struct _DXVADDI_VIDEOPROCESSORCAPS {
 
 ### -field OutputFormat
 
-[out] A <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>-typed value that indicates the pixel format of the uncompressed output frames. Typically, a deinterlace algorithm outputs frames in a pixel format that matches the input sample format. This member ensures that the Video Mixing Renderer (VMR) or other video renderer is able to supply the correct output frame surfaces to the deinterlacing hardware.
+[out] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff544312">D3DDDIFORMAT</a>-typed value that indicates the pixel format of the uncompressed output frames. Typically, a deinterlace algorithm outputs frames in a pixel format that matches the input sample format. This member ensures that the Video Mixing Renderer (VMR) or other video renderer is able to supply the correct output frame surfaces to the deinterlacing hardware.
 
 Note that if the DXVADDI_VIDEOPROCESS_YUV2RGB value is returned in the <b>VideoProcessorOperations</b> member, the VMR determines that valid output formats are specified by this member as well as an D3DFMT_X8R8G8B8 format.
 
@@ -275,7 +258,7 @@ Saturation adjustments to the video image are allowed.
 
 ### -field VideoProcessorOperations
 
-[out] A bitwise OR of the following values to indicate which additional video processing operations the hardware can perform concurrently with the requested <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_videoprocessblt.md">VideoProcessBlt</a> operation.
+[out] A bitwise OR of the following values to indicate which additional video processing operations the hardware can perform concurrently with the requested <a href="https://msdn.microsoft.com/719465dd-4547-491c-ab30-ae63bba1b72c">VideoProcessBlt</a> operation.
 
 <table>
 <tr>
@@ -378,7 +361,7 @@ DXVADDI_VIDEOPROCESS_ALPHABLENDEXTENDED
 
 </td>
 <td>
-An alpha-blend operation can be performed with the destination surface when the deinterlaced and composited pixels are written to the destination surface. The driver must handle background color based on the alpha value of the <b>Alpha</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_videoprocessblt.md">D3DDDIARG_VIDEOPROCESSBLT</a> structure. When the alpha value is 1.0, the background color is drawn opaque (without transparency). When the alpha value is 0.0, the background should not be drawn (transparent).
+An alpha-blend operation can be performed with the destination surface when the deinterlaced and composited pixels are written to the destination surface. The driver must handle background color based on the alpha value of the <b>Alpha</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544102">D3DDDIARG_VIDEOPROCESSBLT</a> structure. When the alpha value is 1.0, the background color is drawn opaque (without transparency). When the alpha value is 0.0, the background should not be drawn (transparent).
 
 </td>
 </tr>
@@ -388,7 +371,7 @@ DXVADDI_VIDEOPROCESS_CONSTRICTION
 
 </td>
 <td>
-The video processing device can temporarily reduce the output frame to a size that the <b>ConstrictionSize</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_videoprocessblt.md">D3DDDIARG_VIDEOPROCESSBLT</a> structure specifies.
+The video processing device can temporarily reduce the output frame to a size that the <b>ConstrictionSize</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544102">D3DDDIARG_VIDEOPROCESSBLT</a> structure specifies.
 
 </td>
 </tr>
@@ -584,37 +567,35 @@ The video processing device uses sharpening detail filtering.
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getcaps.md">D3DDDIARG_GETCAPS</a>
 
 
 
-<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddi_pool.md">D3DDDI_POOL</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543148">D3DDDIARG_GETCAPS</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544102">D3DDDIARG_VIDEOPROCESSBLT</a>
 
 
 
-<a href="..\d3dumddi\ne-d3dumddi-_d3dddicaps_type.md">D3DDDICAPS_TYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544132">D3DDDICAPS_TYPE</a>
 
 
 
-<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544312">D3DDDIFORMAT</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_videoprocessblt.md">D3DDDIARG_VIDEOPROCESSBLT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544634">D3DDDI_POOL</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_videoprocessorinput.md">DXVADDI_VIDEOPROCESSORINPUT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562956">DXVADDI_VIDEOPROCESSORINPUT</a>
 
 
 
+<a href="https://msdn.microsoft.com/cf6c61ce-7b53-46d0-b3ff-ed5b2b964c65">GetCaps</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVADDI_VIDEOPROCESSORCAPS structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

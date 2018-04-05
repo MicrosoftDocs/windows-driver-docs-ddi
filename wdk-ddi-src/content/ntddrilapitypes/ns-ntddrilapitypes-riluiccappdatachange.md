@@ -7,13 +7,13 @@ old-location: netvista\riluiccappdatachange.htm
 old-project: netvista
 ms.assetid: a551f469-96f4-42cf-826d-3557cc13ce29
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: "*LPRILUICCAPPDATACHANGE, RILUICCAPPDATACHANGE, RILUICCAPPDATACHANGE structure [Network Drivers Starting with Windows Vista], netvista.riluiccappdatachange, ntddrilapitypes/RILUICCAPPDATACHANGE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddrilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILUICCAPPDATACHANGE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILUICCAPPDATACHANGE, *LPRILUICCAPPDATACHANGE
 ---
@@ -50,18 +51,6 @@ req.typenames: RILUICCAPPDATACHANGE, *LPRILUICCAPPDATACHANGE
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef struct _RILUICCAPPDATACHANGE {
-  DWORD                     cbSize;
-  HUICCAPP                  hUiccApp;
-  RILUICCAPPDATACHANGEENUM  dwDataChange;
-} RILUICCAPPDATACHANGE, RILUICCAPPDATACHANGE;
-````
 
 
 ## -struct-fields

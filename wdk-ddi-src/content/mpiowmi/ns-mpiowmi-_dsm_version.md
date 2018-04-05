@@ -7,7 +7,7 @@ old-location: storage\dsm_version.htm
 old-project: storage
 ms.assetid: 1aa264fa-b552-41a0-bd43-a62f8f2b533b
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PDSM_VERSION, DSM_VERSION, DSM_VERSION structure [Storage Devices], PDSM_VERSION, PDSM_VERSION structure pointer [Storage Devices], _DSM_VERSION, mpiowmi/DSM_VERSION, mpiowmi/PDSM_VERSION, storage.dsm_version, structs-scsibus_3e00c2b2-0497-4aab-b2e0-a6a5d998e560.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	mpiowmi.h
 api_name:
 -	DSM_VERSION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DSM_VERSION, *PDSM_VERSION
 ---
@@ -50,19 +51,6 @@ req.typenames: DSM_VERSION, *PDSM_VERSION
 
 
 The DSM_VERSION structure represents version information that is associated with a DSM binary or package. While this assumes that a DSM's version will be of the type MajorVersion.MinorVersion.ProductBuild.QfeNumber, it is not mandatory for the DSM to follow this convention. The DSM must, however, fill in zeros for the fields its does not support.
-
-
-## -syntax
-
-
-````
-typedef struct _DSM_VERSION {
-  ULONG MajorVersion;
-  ULONG MinorVersion;
-  ULONG ProductBuild;
-  ULONG QfeNumber;
-} DSM_VERSION, *PDSM_VERSION;
-````
 
 
 ## -struct-fields

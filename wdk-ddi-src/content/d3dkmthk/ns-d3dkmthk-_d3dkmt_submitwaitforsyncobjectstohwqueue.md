@@ -7,7 +7,7 @@ old-location: display\d3dkmt_submitwaitforsyncobjectstohwqueue_.htm
 old-project: display
 ms.assetid: 365253FC-9FC0-4FFF-9D84-503754095327
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMT_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE, D3DKMT_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE structure [Display Devices], _D3DKMT_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE, d3dkmthk/D3DKMT_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE, display.d3dkmt_submitwaitforsyncobjectstohwqueue_
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmthk.h
 api_name:
 -	D3DKMT_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE
 ---
@@ -50,19 +51,6 @@ req.typenames: D3DKMT_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE
 
 
 A structure that contains information to submit a wait on the hardware queue.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE  {
-  D3DKMT_HANDLE       hHwQueue;
-  UINT                ObjectCount;
-  const D3DKMT_HANDLE *ObjectHandleArray;
-  const UINT64        *FenceValueArray;
-} D3DKMT_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE ;
-````
 
 
 ## -struct-fields

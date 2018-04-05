@@ -7,7 +7,7 @@ old-location: wdf\wdf_synchronization_scope.htm
 old-project: wdf
 ms.assetid: a251bf5c-c09b-4097-a9ed-82f2312ac408
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/26/2018
 ms.keywords: DFGenObjectRef_62dd47ff-1d2a-454e-9083-cbf68f1679d2.xml, WDF_SYNCHRONIZATION_SCOPE, WDF_SYNCHRONIZATION_SCOPE enumeration, WdfSynchronizationScopeDevice, WdfSynchronizationScopeInheritFromParent, WdfSynchronizationScopeInvalid, WdfSynchronizationScopeNone, WdfSynchronizationScopeQueue, _WDF_SYNCHRONIZATION_SCOPE, kmdf.wdf_synchronization_scope, wdf.wdf_synchronization_scope, wdfobject/WDF_SYNCHRONIZATION_SCOPE, wdfobject/WdfSynchronizationScopeDevice, wdfobject/WdfSynchronizationScopeInheritFromParent, wdfobject/WdfSynchronizationScopeInvalid, wdfobject/WdfSynchronizationScopeNone, wdfobject/WdfSynchronizationScopeQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	wdfobject.h
 api_name:
 -	WDF_SYNCHRONIZATION_SCOPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_SYNCHRONIZATION_SCOPE
 req.product: Windows 10 or later.
@@ -53,20 +54,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The WDF_SYNCHRONIZATION_SCOPE enumeration type specifies how the framework will synchronize execution of an object's event callback functions.
-
-
-## -syntax
-
-
-````
-typedef enum _WDF_SYNCHRONIZATION_SCOPE { 
-  WdfSynchronizationScopeInvalid            = 0x00,
-  WdfSynchronizationScopeInheritFromParent  = 0x1,
-  WdfSynchronizationScopeDevice             = 0x2,
-  WdfSynchronizationScopeQueue              = 0x3,
-  WdfSynchronizationScopeNone               = 0x4
-} WDF_SYNCHRONIZATION_SCOPE;
-````
 
 
 ## -enum-fields
@@ -115,7 +102,7 @@ The framework does not synchronize the object's event callback functions, so the
 
 
 
-Drivers use the WDF_SYNCHRONIZATION_SCOPE enumeration type to specify the <b>SynchronizationScope</b> member of an object's <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure.
+Drivers use the WDF_SYNCHRONIZATION_SCOPE enumeration type to specify the <b>SynchronizationScope</b> member of an object's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552400">WDF_OBJECT_ATTRIBUTES</a> structure.
 
 You can specify a <b>SynchronizationScope</b> value for only the following objects:
 
@@ -142,13 +129,11 @@ For more information about synchronization of a driver's event callback function
 
 ## -see-also
 
-<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552400">WDF_OBJECT_ATTRIBUTES</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_SYNCHRONIZATION_SCOPE enumeration%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

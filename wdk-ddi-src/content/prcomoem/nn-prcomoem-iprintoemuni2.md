@@ -7,7 +7,7 @@ old-location: print\iprintoemuni2_interface.htm
 old-project: print
 ms.assetid: 789ca699-89b3-41d3-9167-812f1a9eb3bc
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: IPrintOemUni2, IPrintOemUni2 interface [Print Devices], IPrintOemUni2 interface [Print Devices], described, prcomoem/IPrintOemUni2, print.iprintoemuni2_interface, print_unidrv-pscript_rendering_4a9b9325-06ac-4945-b4c6-8af045650439.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: prcomoem.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	prcomoem.h
 api_name:
 -	IPrintOemUni2
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
@@ -52,7 +53,7 @@ req.product: Windows 10 or later.
 
 This section describes the methods defined for the IPrintOemUni2 COM interface.
 
-In addition to the methods that belong to the IPrintOemUni2 COM interface, this interface includes all of the methods that belong to the <a href="..\prcomoem\nn-prcomoem-iprintoemuni.md">IPrintOemUni</a> COM interface.
+In addition to the methods that belong to the IPrintOemUni2 COM interface, this interface includes all of the methods that belong to the <a href="https://msdn.microsoft.com/097366a0-2ded-435c-9b63-2b736b716032">IPrintOemUni</a> COM interface.
 
 
 ## -inheritance

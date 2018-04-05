@@ -7,7 +7,7 @@ old-location: kernel\tminitializetransactionmanager_.htm
 old-project: kernel
 ms.assetid: A44B4B93-4EC7-4FC3-B64F-BF1FF19D067E
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/28/2018
 ms.keywords: TmInitializeTransactionManager, TmInitializeTransactionManager routine [Kernel-Mode Driver Architecture], kernel.tminitializetransactionmanager_, wdm/TmInitializeTransactionManager
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -40,7 +40,8 @@ api_location:
 -	tm.sys
 api_name:
 -	TmInitializeTransactionManager
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
@@ -55,19 +56,6 @@ req.product: Windows 10 or later.
 The <b>TmInitializeTransactionManager</b> routine initializes a transaction manager object.
 
 
-## -syntax
-
-
-````
-NTSTATUS TmInitializeTransactionManager (
-  _In_     PRKTM             TransactionManager,
-  _In_opt_ PCUNICODE_STRING  LogFileName,
-  _In_     PGUID             TmId,
-  _In_opt_ ULONG             CreateOptions
-);
-````
-
-
 ## -parameters
 
 
@@ -80,7 +68,7 @@ A pointer to the transaction manager object to initialize.
 
 ### -param LogFileName [in, optional]
 
-A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that contains the path and file name of a <a href="https://msdn.microsoft.com/4da3cb49-dc20-4713-813b-ff458c99ab90">CLFS</a> log file stream associated with the transaction manager object. 
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure that contains the path and file name of a <a href="https://msdn.microsoft.com/4da3cb49-dc20-4713-813b-ff458c99ab90">CLFS</a> log file stream associated with the transaction manager object. 
 
 
 ### -param TmId [in]

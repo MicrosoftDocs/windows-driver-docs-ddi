@@ -7,7 +7,7 @@ old-location: audio\imxf.htm
 old-project: audio
 ms.assetid: 97e24c86-a97d-42ed-9402-4c387c7cec5b
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 3/19/2018
 ms.keywords: IMXF, IMXF interface [Audio Devices], IMXF interface [Audio Devices], described, audio.imxf, audmp-routines_41562676-678d-48c5-8a19-2c8699420a51.xml, dmusicks/IMXF
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dmusicks.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	dmusicks.h
 api_name:
 -	IMXF
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DMUS_STREAM_TYPE
 ---
@@ -51,5 +52,5 @@ req.typenames: DMUS_STREAM_TYPE
 
 The <code>IMXF</code> interface represents the DirectMusic stream on a MIDI transport filter (MXF). The DMus miniport driver implements this interface and exposes it to the DMus port driver. MIDI transport occurs through IMXF, which is the DMus miniport driver's primary interface for managing DirectMusic streams. The DMus port driver uses this interface to manage a DirectMusic stream on a MIDI transport filter (MXF). The miniport driver creates a stream object with this interface when the port driver calls the miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff536701">IMiniportDMus::NewStream</a> method. <code>IMXF</code> inherits from the <b>IUnknown</b> interface.
 
-The <a href="..\dmusicks\nn-dmusicks-iallocatormxf.md">IAllocatorMXF</a> and <a href="..\dmusicks\nn-dmusicks-isynthsinkdmus.md">ISynthSinkDMus</a> interfaces both inherit from <code>IMXF</code>. For information about using these interfaces to manage MIDI streams, see <a href="https://msdn.microsoft.com/ce9ec589-0aea-4ed9-a60d-50f2ddfb0c13">MIDI Transport</a>.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/ff536491">IAllocatorMXF</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff537011">ISynthSinkDMus</a> interfaces both inherit from <code>IMXF</code>. For information about using these interfaces to manage MIDI streams, see <a href="https://msdn.microsoft.com/ce9ec589-0aea-4ed9-a60d-50f2ddfb0c13">MIDI Transport</a>.
 

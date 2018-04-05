@@ -7,7 +7,7 @@ old-location: print\iprintoemdriveruni_drvxmoveto.htm
 old-project: print
 ms.assetid: 1f2c65ec-6218-438e-a853-4780f091a330
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: DrvXMoveTo method [Print Devices], DrvXMoveTo method [Print Devices], IPrintOemDriverUni interface, DrvXMoveTo,IPrintOemDriverUni.DrvXMoveTo, IPrintOemDriverUni, IPrintOemDriverUni interface [Print Devices], DrvXMoveTo method, IPrintOemDriverUni::DrvXMoveTo, prcomoem/IPrintOemDriverUni::DrvXMoveTo, print.iprintoemdriveruni_drvxmoveto, print_unidrv-pscript_rendering_85f4b5f5-6953-4b3d-902c-4573c4a1bb90.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: prcomoem.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	prcomoem.h
 api_name:
 -	IPrintOemDriverUni.DrvXMoveTo
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
@@ -53,19 +54,6 @@ req.product: Windows 10 or later.
 The <code>IPrintOemDriverUni::DrvXMoveTo</code> method is provided by the Unidrv driver so that a <a href="https://msdn.microsoft.com/e55ca083-2790-4929-9e5b-6fce49eb0404">rendering plug-in</a> can notify the driver of cursor x-position changes.
 
 
-## -syntax
-
-
-````
-HRESULT DrvXMoveTo(
-        PDEVOBJ pdevobj,
-        INT     x,
-        DWORD   dwFlags,
-  [out] INT     *piResult
-);
-````
-
-
 ## -parameters
 
 
@@ -73,7 +61,7 @@ HRESULT DrvXMoveTo(
 
 ### -param pdevobj
 
-Caller-supplied pointer to a <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a> structure.
+Caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547573">DEVOBJ</a> structure.
 
 
 ### -param x

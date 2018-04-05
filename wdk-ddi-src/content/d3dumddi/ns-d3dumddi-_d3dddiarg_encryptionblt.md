@@ -7,7 +7,7 @@ old-location: display\d3dddiarg_encryptionblt.htm
 old-project: display
 ms.assetid: 0c163ae6-5f45-4570-bdbb-8ad34ad5f0dc
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDIARG_ENCRYPTIONBLT, D3DDDIARG_ENCRYPTIONBLT structure [Display Devices], UMDisplayDriver_param_Structs_b76b39b2-87b0-453d-b6c5-e59b38249684.xml, _D3DDDIARG_ENCRYPTIONBLT, d3dumddi/D3DDDIARG_ENCRYPTIONBLT, display.d3dddiarg_encryptionblt
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	D3DDDIARG_ENCRYPTIONBLT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDIARG_ENCRYPTIONBLT
 ---
@@ -49,23 +50,7 @@ req.typenames: D3DDDIARG_ENCRYPTIONBLT
 ## -description
 
 
-The D3DDDIARG_ENCRYPTIONBLT structure describes the parameters of an encrypted bit-block transfer (bitblt) in a call to the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_encryptionblt.md">EncryptionBlt</a> function. 
-
-
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_ENCRYPTIONBLT {
-  HANDLE hCryptoSession;
-  HANDLE hSrcResource;
-  UINT   SrcSubResourceIndex;
-  HANDLE hDstResource;
-  UINT   DstSubResourceIndex;
-  UINT   DstResourceSize;
-  VOID   *pIV;
-} D3DDDIARG_ENCRYPTIONBLT;
-````
+The D3DDDIARG_ENCRYPTIONBLT structure describes the parameters of an encrypted bit-block transfer (bitblt) in a call to the <a href="https://msdn.microsoft.com/a92bfff7-8af6-48c3-9e7f-95b9426aaaf2">EncryptionBlt</a> function. 
 
 
 ## -struct-fields
@@ -105,18 +90,16 @@ typedef struct _D3DDDIARG_ENCRYPTIONBLT {
 
 ### -field pIV
 
-[out] A pointer to a block of memory in which <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_encryptionblt.md">EncryptionBlt</a> returns the initialization vector that is required to decrypt the bitblt data. If <b>pIV</b> is <b>NULL</b>, hardware does not require a separate key to decrypt the data that is read back. 
+[out] A pointer to a block of memory in which <a href="https://msdn.microsoft.com/a92bfff7-8af6-48c3-9e7f-95b9426aaaf2">EncryptionBlt</a> returns the initialization vector that is required to decrypt the bitblt data. If <b>pIV</b> is <b>NULL</b>, hardware does not require a separate key to decrypt the data that is read back. 
 
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_encryptionblt.md">EncryptionBlt</a>
 
 
 
+<a href="https://msdn.microsoft.com/a92bfff7-8af6-48c3-9e7f-95b9426aaaf2">EncryptionBlt</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DDDIARG_ENCRYPTIONBLT structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

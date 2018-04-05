@@ -7,7 +7,7 @@ old-location: netvista\ndisinitializereadwritelock.htm
 old-project: netvista
 ms.assetid: 458d8a08-7212-4888-9bb3-07a470541c8d
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: NdisInitializeReadWriteLock, NdisInitializeReadWriteLock function [Network Drivers Starting with Windows Vista], ndis/NdisInitializeReadWriteLock, ndis_read_write_lock_ref_a74c25e4-58af-4fb0-9c5a-0fc29bad9aa7.xml, netvista.ndisinitializereadwritelock
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ndis.sys
 api_name:
 -	NdisInitializeReadWriteLock
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
@@ -52,17 +53,7 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 The
   <b>NdisInitializeReadWriteLock</b> function initializes a read or write lock variable of type 
   <b>NDIS_RW_LOCK</b>.
-<div class="alert"><b>Note</b>  The read-write lock interface is deprecated for NDIS 6.20 and later drivers, which should use <a href="..\ndis\nf-ndis-ndisallocaterwlock.md">NdisAllocateRWLock</a> instead of <b>NdisInitializeReadWriteLock</b>.</div><div> </div>
-
-## -syntax
-
-
-````
-VOID NdisInitializeReadWriteLock(
-  _Out_ PNDIS_RW_LOCK Lock
-);
-````
-
+<div class="alert"><b>Note</b>  The read-write lock interface is deprecated for NDIS 6.20 and later drivers, which should use <a href="https://msdn.microsoft.com/library/windows/hardware/ff561615">NdisAllocateRWLock</a> instead of <b>NdisInitializeReadWriteLock</b>.</div><div> </div>
 
 ## -parameters
 
@@ -101,7 +92,7 @@ The
     <b>Ndis..ReadWriteLock</b> functions.
 
 Before a driver calls the 
-    <a href="..\ndis\nf-ndis-ndisacquirereadwritelock.md">NdisAcquireReadWriteLock</a> function
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff560696">NdisAcquireReadWriteLock</a> function
     to obtain write or read access to a resource, the driver must call 
     <b>NdisInitializeReadWriteLock</b> to initialize the lock that is associated with that resource. The
     caller must provide nonpaged storage for the variable at 
@@ -109,7 +100,7 @@ Before a driver calls the
 
 After calling 
     <b>NdisInitializeReadWriteLock</b>, the driver can call 
-    <a href="..\ndis\nf-ndis-ndisacquirereadwritelock.md">NdisAcquireReadWriteLock</a> to obtain either write or read access to the resource. Only one non-ISR
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff560696">NdisAcquireReadWriteLock</a> to obtain either write or read access to the resource. Only one non-ISR
     driver thread at a time can obtain write access to the resource. When one non-ISR thread has write
     access, all read and write accesses by other non-ISR threads must wait until the write-access holder
     releases the lock. However, if a non-ISR thread has read access, other non-ISR threads can concurrently
@@ -119,7 +110,7 @@ Initialize and use this type of lock for resources that are frequently accessed 
     infrequently accessed for writing.
 
 Once resource access is complete, the driver calls the 
-    <a href="..\ndis\nf-ndis-ndisreleasereadwritelock.md">
+    <a href="https://msdn.microsoft.com/a910ae2d-8a3b-451c-b1f2-a19f7f9f14a2">
     NdisReleaseReadWriteLock</a> function.
 
 Each lock that a driver initializes does one of the following:
@@ -145,17 +136,15 @@ Callers of
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisacquirereadwritelock.md">NdisAcquireReadWriteLock</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisreleasereadwritelock.md">NdisReleaseReadWriteLock</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560696">NdisAcquireReadWriteLock</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564521">NdisReleaseReadWriteLock</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisInitializeReadWriteLock function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

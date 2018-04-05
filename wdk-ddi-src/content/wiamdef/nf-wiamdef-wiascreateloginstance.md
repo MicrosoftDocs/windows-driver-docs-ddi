@@ -7,7 +7,7 @@ old-location: image\wiascreateloginstance.htm
 old-project: image
 ms.assetid: 7a340187-51c5-4997-b4d0-5b89ea8e16c0
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/27/2018
 ms.keywords: image.wiascreateloginstance, wiamdef/wiasCreateLogInstance, wiasCreateLogInstance, wiasCreateLogInstance function [Imaging Devices], wiasFncs_f3d782d2-d11c-41bb-9d1e-d2619547dfda.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Wiaservc.dll
 api_name:
 -	wiasCreateLogInstance
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2
 req.product: Windows 10 or later.
@@ -51,17 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>wiasCreateLogInstance</b> function creates an instance of a logging object.
-
-
-## -syntax
-
-
-````
-HRESULT _stdcall wiasCreateLogInstance(
-  _In_  BYTE      *pModuleHandle,
-  _Out_ IWiaLogEx **ppIWiaLogEx
-);
-````
 
 
 ## -parameters

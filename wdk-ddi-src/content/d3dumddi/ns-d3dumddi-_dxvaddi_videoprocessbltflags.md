@@ -7,7 +7,7 @@ old-location: display\dxvaddi_videoprocessbltflags.htm
 old-project: display
 ms.assetid: 790a18fa-5481-432a-921b-6310a0ab78d7
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: DXVA2_Structs_8c40b10b-d3f4-420b-986a-455b20b01288.xml, DXVADDI_VIDEOPROCESSBLTFLAGS, DXVADDI_VIDEOPROCESSBLTFLAGS structure [Display Devices], _DXVADDI_VIDEOPROCESSBLTFLAGS, d3dumddi/DXVADDI_VIDEOPROCESSBLTFLAGS, display.dxvaddi_videoprocessbltflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	DXVADDI_VIDEOPROCESSBLTFLAGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXVADDI_VIDEOPROCESSBLTFLAGS
 ---
@@ -50,26 +51,6 @@ req.typenames: DXVADDI_VIDEOPROCESSBLTFLAGS
 
 
 The DXVADDI_VIDEOPROCESSBLTFLAGS structure identifies changes in the current destination surface from the previous destination surface.
-
-
-## -syntax
-
-
-````
-typedef struct _DXVADDI_VIDEOPROCESSBLTFLAGS {
-  union {
-    struct {
-      UINT BackgroundChanged  :1;
-      UINT TargetRectChanged  :1;
-      UINT ColorDataChanged  :1;
-      UINT AlphaChanged  :1;
-      UINT Reserved  :12;
-      UINT DestData  :16;
-    };
-    UINT   Value;
-  };
-} DXVADDI_VIDEOPROCESSBLTFLAGS;
-````
 
 
 ## -struct-fields
@@ -120,13 +101,11 @@ A 32-bit value that identifies changes in the current destination surface from t
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_videoprocessblt.md">D3DDDIARG_VIDEOPROCESSBLT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544102">D3DDDIARG_VIDEOPROCESSBLT</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVADDI_VIDEOPROCESSBLTFLAGS structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

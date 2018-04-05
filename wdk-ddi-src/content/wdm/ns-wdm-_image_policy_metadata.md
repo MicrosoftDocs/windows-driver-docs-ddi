@@ -7,7 +7,7 @@ old-location: kernel\_image_policy_metadata.htm
 old-project: kernel
 ms.assetid: b7dfb3c8-40d5-4ec0-9710-7c04fb414f32
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/28/2018
 ms.keywords: IMAGE_POLICY_METADATA, IMAGE_POLICY_METADATA structure [Kernel-Mode Driver Architecture], _IMAGE_POLICY_METADATA, kernel._image_policy_metadata, wdm/IMAGE_POLICY_METADATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	wdm.h
 api_name:
 -	IMAGE_POLICY_METADATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: IMAGE_POLICY_METADATA
 req.product: Windows 10 or later.

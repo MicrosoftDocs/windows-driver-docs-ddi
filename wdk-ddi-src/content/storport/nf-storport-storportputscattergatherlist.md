@@ -7,7 +7,7 @@ old-location: storage\storportputscattergatherlist.htm
 old-project: storage
 ms.assetid: 0b380597-09dc-414f-b2c6-f541d35540da
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: StorPortPutScatterGatherList, StorPortPutScatterGatherList routine [Storage Devices], storage.storportputscattergatherlist, storport/StorPortPutScatterGatherList, storprt_d8e74add-b512-4584-aa56-d9337ad3d7a9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: DISPATCH_LEVEL
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	storport.h
 api_name:
 -	StorPortPutScatterGatherList
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STOR_SPINLOCK
 req.product: Windows 10 or later.
@@ -50,19 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>StorPortPutScatterGatherList</b> routine releases any resources associated with a scatter/gather list that was previously created by a call to the <a href="..\storport\nf-storport-storportbuildscattergatherlist.md">StorPortBuildScatterGatherList</a> routine.
-
-
-## -syntax
-
-
-````
-ULONG StorPortPutScatterGatherList(
-  _In_ PVOID                     HwDeviceExtension,
-  _In_ PSTOR_SCATTER_GATHER_LIST ScatterGatherList,
-  _In_ BOOLEAN                   WriteToDevice
-);
-````
+The <b>StorPortPutScatterGatherList</b> routine releases any resources associated with a scatter/gather list that was previously created by a call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567038">StorPortBuildScatterGatherList</a> routine.
 
 
 ## -parameters
@@ -77,7 +66,7 @@ A pointer to the hardware device extension for the host bus adapter (HBA).
 
 ### -param ScatterGatherList [in]
 
-A pointer to a buffer that contains a scatter/gather list that was previously created by a call to the <a href="..\storport\nf-storport-storportbuildscattergatherlist.md">StorPortBuildScatterGatherList</a> routine.
+A pointer to a buffer that contains a scatter/gather list that was previously created by a call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567038">StorPortBuildScatterGatherList</a> routine.
 
 
 ### -param WriteToDevice [in]
@@ -152,20 +141,18 @@ The call was made at an invalid IRQL.
 
 The <b>StorPortPutScatterGatherList</b> routine does not free the buffer memory for the scatter/gather list, because the miniport driver allocated this memory. 
 
-After the <b>StorPortPutScatterGatherList</b> routine returns, the miniport driver can reuse the buffer to create a new scatter/gather list by calling the <a href="..\storport\nf-storport-storportbuildscattergatherlist.md">StorPortBuildScatterGatherList</a> again. If a miniport driver has finished using the buffer for the scatter/gather list, it should free the memory for the buffer after the <b>StorPortPutScatterGatherList</b> routine returns. If the miniport driver allocates the buffer memory with the <a href="..\storport\nf-storport-storportallocatepool.md">StorPortAllocatePool</a> routine, it should free the memory by calling the <a href="..\storport\nf-storport-storportfreepool.md">StorPortFreePool</a> routine.
+After the <b>StorPortPutScatterGatherList</b> routine returns, the miniport driver can reuse the buffer to create a new scatter/gather list by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567038">StorPortBuildScatterGatherList</a> again. If a miniport driver has finished using the buffer for the scatter/gather list, it should free the memory for the buffer after the <b>StorPortPutScatterGatherList</b> routine returns. If the miniport driver allocates the buffer memory with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567031">StorPortAllocatePool</a> routine, it should free the memory by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567065">StorPortFreePool</a> routine.
 
 
 
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportbuildscattergatherlist.md">StorPortBuildScatterGatherList</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567038">StorPortBuildScatterGatherList</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20StorPortPutScatterGatherList routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

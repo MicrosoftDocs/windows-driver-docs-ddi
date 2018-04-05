@@ -38,7 +38,8 @@ api_location:
 -	gnssdriver.h
 api_name:
 -	GNSS_STOPFIXSESSION_PARAM
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GNSS_STOPFIXSESSION_PARAM, *PGNSS_STOPFIXSESSION_PARAM
 ---
@@ -50,19 +51,6 @@ req.typenames: GNSS_STOPFIXSESSION_PARAM, *PGNSS_STOPFIXSESSION_PARAM
 
 
 This structure is used to stop an active fix session.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  ULONG Size;
-  ULONG Version;
-  ULONG FixSessionID;
-  BYTE  Unused[512];
-} GNSS_STOPFIXSESSION_PARAM, *PGNSS_STOPFIXSESSION_PARAM;
-````
 
 
 ## -struct-fields

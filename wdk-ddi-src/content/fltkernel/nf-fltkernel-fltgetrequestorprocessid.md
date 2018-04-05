@@ -7,7 +7,7 @@ old-location: ifsk\fltgetrequestorprocessid.htm
 old-project: ifsk
 ms.assetid: 45965b8c-749c-42ef-b29f-22a46028e4d3
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FltApiRef_e_to_o_1e770f18-5024-4f82-9d63-eba6a9e6fd5b.xml, FltGetRequestorProcessId, FltGetRequestorProcessId routine [Installable File System Drivers], fltkernel/FltGetRequestorProcessId, ifsk.fltgetrequestorprocessid
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	fltmgr.sys
 api_name:
 -	FltGetRequestorProcessId
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
@@ -52,16 +53,6 @@ req.typenames: EXpsFontRestriction
 The <b>FltGetRequestorProcessId</b> routine returns the unique 32-bit process ID for the process associated with the thread that requested a given I/O operation. 
 
 
-## -syntax
-
-
-````
-ULONG FltGetRequestorProcessId(
-  _In_ PFLT_CALLBACK_DATA CallbackData
-);
-````
-
-
 ## -parameters
 
 
@@ -69,7 +60,7 @@ ULONG FltGetRequestorProcessId(
 
 ### -param CallbackData [in]
 
-Pointer to the callback data structure (<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>) for the I/O operation. 
+Pointer to the callback data structure (<a href="https://msdn.microsoft.com/library/windows/hardware/ff544620">FLT_CALLBACK_DATA</a>) for the I/O operation. 
 
 
 ## -returns
@@ -92,17 +83,15 @@ Pointer to the callback data structure (<a href="..\fltkernel\ns-fltkernel-_flt_
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltgetrequestorprocess.md">FltGetRequestorProcess</a>
 
 
 
-<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544620">FLT_CALLBACK_DATA</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543115">FltGetRequestorProcess</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltGetRequestorProcessId routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

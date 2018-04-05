@@ -7,7 +7,7 @@ old-location: audio\ksac3_downmix.htm
 old-project: audio
 ms.assetid: d35450ec-5ddc-4312-bd77-ab7e89690f82
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 3/19/2018
 ms.keywords: "*PKSAC3_DOWNMIX, KSAC3_DOWNMIX, KSAC3_DOWNMIX structure [Audio Devices], PKSAC3_DOWNMIX, PKSAC3_DOWNMIX structure pointer [Audio Devices], aud-prop_24e957af-1fba-467d-93f6-3b7ca211238e.xml, audio.ksac3_downmix, ksmedia/KSAC3_DOWNMIX, ksmedia/PKSAC3_DOWNMIX"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KSAC3_DOWNMIX
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSAC3_DOWNMIX, *PKSAC3_DOWNMIX
 ---
@@ -50,17 +51,6 @@ req.typenames: KSAC3_DOWNMIX, *PKSAC3_DOWNMIX
 
 
 The KSAC3_DOWNMIX structure specifies whether the program channels in an AC-3-encoded stream need to be downmixed to accommodate the speaker configuration.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  BOOL fDownMix;
-  BOOL fDolbySurround;
-} KSAC3_DOWNMIX, *PKSAC3_DOWNMIX;
-````
 
 
 ## -struct-fields
@@ -91,17 +81,15 @@ For information about the mapping of output channels to speakers, see <a href="h
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537218">KSPROPERTY_AC3_DOWNMIX</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537250">KSPROPERTY_AUDIO_CHANNEL_CONFIG</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20KSAC3_DOWNMIX structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

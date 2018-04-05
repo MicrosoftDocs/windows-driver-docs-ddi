@@ -7,7 +7,7 @@ old-location: buses\_ucxstaticstreamssetstreaminfo.htm
 old-project: usbref
 ms.assetid: 40AE9327-ABB7-4A63-AC90-494E2BC26C08
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: UcxStaticStreamsSetStreamInfo, UcxStaticStreamsSetStreamInfo method [Buses], buses._ucxstaticstreamssetstreaminfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	ucxsstreams.h
 api_name:
 -	UcxStaticStreamsSetStreamInfo
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UCX_ROOTHUB_CONFIG, *PUCX_ROOTHUB_CONFIG
 req.product: Windows 10 or later.
@@ -53,17 +54,6 @@ req.product: Windows 10 or later.
 Sets stream information for each stream enabled by the client driver.
 
 
-## -syntax
-
-
-````
-inline void UcxStaticStreamsSetStreamInfo(
-  [in] UCXSSTREAMS  StaticStreams,
-  [in] PSTREAM_INFO StreamInfo
-);
-````
-
-
 ## -parameters
 
 
@@ -76,7 +66,7 @@ inline void UcxStaticStreamsSetStreamInfo(
 
 ### -param StreamInfo [in]
 
-                A pointer to a <a href="..\ucxsstreams\ns-ucxsstreams-_stream_info.md">STREAM_INFO</a> structure that contains static stream-related information.
+                A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/mt188032">STREAM_INFO</a> structure that contains static stream-related information.
 
 
 ## -returns
@@ -92,23 +82,21 @@ This method does not return a value.
 
 
 
-The client driver must call this method from its implementation of the <a href="..\ucxendpoint\nc-ucxendpoint-evt_ucx_endpoint_static_streams_add.md">EVT_UCX_ENDPOINT_STATIC_STREAMS_ADD</a> event callback . 
+The client driver must call this method from its implementation of the <a href="https://msdn.microsoft.com/library/windows/hardware/mt187830">EVT_UCX_ENDPOINT_STATIC_STREAMS_ADD</a> event callback . 
     This method must be called for the number of streams on the endpoint. 
 
-For a code example, see <a href="..\ucxendpoint\nc-ucxendpoint-evt_ucx_endpoint_static_streams_add.md">EVT_UCX_ENDPOINT_STATIC_STREAMS_ADD</a>.
+For a code example, see <a href="https://msdn.microsoft.com/library/windows/hardware/mt187830">EVT_UCX_ENDPOINT_STATIC_STREAMS_ADD</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\ucxendpoint\nf-ucxendpoint-ucxendpointcreate.md">UcxEndpointCreate</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt188039">UcxEndpointCreate</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20UcxStaticStreamsSetStreamInfo method%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

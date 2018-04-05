@@ -7,7 +7,7 @@ old-location: display\pfnd3dwddm2_0ddi_getresourcelayout.htm
 old-project: display
 ms.assetid: 0158F1B4-AA6E-41F9-BAEF-A3C688758205
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3DWDDM2_0DDI_GETRESOURCELAYOUT, d3d10umddi/pfnGetResourceLayout, display.pfnd3dwddm2_0ddi_getresourcelayout, pfnGetResourceLayout, pfnGetResourceLayout callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3d10umddi.h
 api_name:
 -	pfnGetResourceLayout
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 ---
@@ -52,34 +53,15 @@ req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 The <i>pfnGetResourceLayout</i> callback function supports getting resource layout information. 
 
 
-## -prototype
-
-
-````
-PFND3DWDDM2_0DDI_GETRESOURCELAYOUT pfnGetResourceLayout;
-
-VOID APIENTRY* pfnGetResourceLayout(
-            D3D10DDI_HDEVICE                                            hDevice,
-            D3D10DDI_HRESOURCE                                          hResource,
-            UINT                                                        SubresourceCount,
-  _Out_     D3DKMT_HANDLE                                               *Handle,
-  _Out_     D3DWDDM2_0DDI_TEXTURE_LAYOUT                                *TextureLayout,
-  _Out_     UINT                                                        *pMipLevelSwizzleTransition,
-  _Out_opt_ _writes_(SubresourceCount) D3DWDDM2_0DDI_SUBRESOURCE_LAYOUT *SubresourceLayout
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
 
 
-### -param D3D10DDI_HDEVICE
+### -param Arg1
 
 
-### -param D3D10DDI_HRESOURCE
+### -param Arg2
 
 
 ### -param SubresourceCount

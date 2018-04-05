@@ -7,7 +7,7 @@ old-location: image\istillimage_createdevice.htm
 old-project: image
 ms.assetid: 24491434-1ad2-48fa-85e6-516efbe0550d
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/27/2018
 ms.keywords: CreateDevice method [Imaging Devices], CreateDevice method [Imaging Devices], IStillImageW interface, CreateDevice,IStillImageW.CreateDevice, IStillImageW, IStillImageW interface [Imaging Devices], CreateDevice method, IStillImageW::CreateDevice, image.istillimage_createdevice, sti/IStillImageW::CreateDevice, stifnc_07253e3c-b24e-4557-885f-3e17fb5dc293.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: sti.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	sti.h
 api_name:
 -	IStillImageW.CreateDevice
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STI_DEVICE_MJ_TYPE, STI_DEVICE_MJ_TYPE
 req.product: Windows 10 or later.
@@ -51,19 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>IStillImage::CreateDevice</b> method creates an instance of the COM object that defines the <a href="https://msdn.microsoft.com/b026fb74-9ce6-4d4e-8a5b-402731904064">IStiDevice COM Interface</a>, and returns a pointer to the interface.
-
-
-## -syntax
-
-
-````
-HRESULT CreateDevice(
-  [in]           LPWSTR     pwszDeviceName,
-                 DWORD      dwMode,
-  [out]          PSTIDEVICE *pDevice,
-  [in, optional] LPUNKNOWN  punkOuter
-);
-````
 
 
 ## -parameters
@@ -151,17 +139,15 @@ If you want to create an aggregate COM object that includes <b>IStiDevice</b>, y
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543765">IStiDevice::Release</a>
 
 
 
-<a href="..\sti\nn-sti-istillimagew.md">IStillImageW</a>
-
-
-
+<a href="https://msdn.microsoft.com/a9ceee48-cbb5-4448-83b4-9c19fe89fcb9">IStillImageW</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20IStillImageW::CreateDevice method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

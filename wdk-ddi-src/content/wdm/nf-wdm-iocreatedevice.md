@@ -7,7 +7,7 @@ old-location: kernel\iocreatedevice.htm
 old-project: kernel
 ms.assetid: 54ca9dc8-8095-4b62-9ebc-f297abb429ca
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/28/2018
 ms.keywords: IoCreateDevice, IoCreateDevice routine [Kernel-Mode Driver Architecture], k104_1e38a631-7e65-4b4b-8d51-3150a8073511.xml, kernel.iocreatedevice, wdm/IoCreateDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	IoCreateDevice
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
@@ -53,22 +54,6 @@ req.product: Windows 10 or later.
 The <b>IoCreateDevice</b> routine creates a device object for use by a driver.
 
 
-## -syntax
-
-
-````
-NTSTATUS IoCreateDevice(
-  _In_     PDRIVER_OBJECT  DriverObject,
-  _In_     ULONG           DeviceExtensionSize,
-  _In_opt_ PUNICODE_STRING DeviceName,
-  _In_     DEVICE_TYPE     DeviceType,
-  _In_     ULONG           DeviceCharacteristics,
-  _In_     BOOLEAN         Exclusive,
-  _Out_    PDEVICE_OBJECT  *DeviceObject
-);
-````
-
-
 ## -parameters
 
 
@@ -76,7 +61,7 @@ NTSTATUS IoCreateDevice(
 
 ### -param DriverObject [in]
 
-Pointer to the driver object for the caller. Each driver receives a pointer to its driver object in a parameter to its <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine. WDM function and filter drivers also receive a driver object pointer in their <a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a> routines.
+Pointer to the driver object for the caller. Each driver receives a pointer to its driver object in a parameter to its <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine. WDM function and filter drivers also receive a driver object pointer in their <a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a> routines.
 
 
 ### -param DeviceExtensionSize [in]
@@ -99,7 +84,7 @@ Specifies one of the system-defined FILE_DEVICE_<i>XXX</i> constants that indica
 
 ### -param DeviceCharacteristics [in]
 
-Specifies one or more system-defined constants, ORed together, that provide additional information about the driver's device. For a list of possible device characteristics, see <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>. For more information about how to specify device characteristics, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563818">Specifying Device Characteristics</a>. Most drivers specify FILE_DEVICE_SECURE_OPEN for this parameter.
+Specifies one or more system-defined constants, ORed together, that provide additional information about the driver's device. For a list of possible device characteristics, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>. For more information about how to specify device characteristics, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563818">Specifying Device Characteristics</a>. Most drivers specify FILE_DEVICE_SECURE_OPEN for this parameter.
 
 
 ### -param Exclusive [in]
@@ -109,7 +94,7 @@ Specifies if the device object represents an <a href="https://msdn.microsoft.com
 
 ### -param DeviceObject [out]
 
-Pointer to a variable that receives a pointer to the newly created <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure. The <b>DEVICE_OBJECT</b> structure is allocated from nonpaged pool.
+Pointer to a variable that receives a pointer to the newly created <a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a> structure. The <b>DEVICE_OBJECT</b> structure is allocated from nonpaged pool.
 
 
 ## -returns
@@ -125,13 +110,13 @@ Pointer to a variable that receives a pointer to the newly created <a href="..\w
 
 
 
-<b>IoCreateDevice</b> creates a device object and returns a pointer to the object. The caller is responsible for deleting the object when it is no longer needed by calling <a href="..\wdm\nf-wdm-iodeletedevice.md">IoDeleteDevice</a>.
+<b>IoCreateDevice</b> creates a device object and returns a pointer to the object. The caller is responsible for deleting the object when it is no longer needed by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff549083">IoDeleteDevice</a>.
 
 <b>IoCreateDevice</b> can only be used to create an unnamed device object, or a named device object for which a security descriptor is set by an INF file. Otherwise, drivers must use <a href="https://msdn.microsoft.com/library/windows/hardware/ff548407">IoCreateDeviceSecure</a> to create named device objects. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff542862">Creating a Device Object</a>. The caller is responsible for setting certain members of the returned device object. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff547807">Initializing a Device Object</a> and the device-type-specific documentation for your device.
 
 Be careful to specify the <i>DeviceType</i> and <i>DeviceCharacteristics</i> values in the correct parameters. Both parameters use system-defined FILE_<i>XXX</i> constants and some driver writers specify the values in the wrong parameters by mistake.
 
-A remote file system that creates a named device object for a network redirector, and that registers using <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlregisteruncprovider~r2.md">FsRtlRegisterUncProvider</a>, must specify FILE_REMOTE_DEVICE as one of the options in the <i>DeviceCharacteristics</i> parameter of <b>IoCreateDevice</b>.
+A remote file system that creates a named device object for a network redirector, and that registers using <a href="https://msdn.microsoft.com/library/windows/hardware/ff547178">FsRtlRegisterUncProvider</a>, must specify FILE_REMOTE_DEVICE as one of the options in the <i>DeviceCharacteristics</i> parameter of <b>IoCreateDevice</b>.
 
 Device objects for disks, tapes, CD-ROMs, and RAM disks are given a Volume Parameter Block (VPB) that is initialized to indicate that the volume has never been mounted on the device.
 
@@ -142,11 +127,22 @@ If a driver's call to <b>IoCreateDevice</b> returns an error, the driver should 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iocreatesymboliclink.md">IoCreateSymbolicLink</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlregisteruncprovider~r2.md">FsRtlRegisterUncProvider</a>
+<a href="https://msdn.microsoft.com/f3522315-cf15-41f7-ac87-c625c7dc8040"> DEVICE_OBJECT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547178">FsRtlRegisterUncProvider</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548294">IoAttachDevice</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548300">IoAttachDeviceToDeviceStack</a>
 
 
 
@@ -154,25 +150,12 @@ If a driver's call to <b>IoCreateDevice</b> returns an error, the driver should 
 
 
 
-<a href="..\wdm\nf-wdm-iodeletedevice.md">IoDeleteDevice</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549043">IoCreateSymbolicLink</a>
 
 
 
-<a href="..\wdm\ns-wdm-_device_object.md"> DEVICE_OBJECT</a>
-
-
-
-<a href="..\wdm\nf-wdm-ioattachdevicetodevicestack.md">IoAttachDeviceToDeviceStack</a>
-
-
-
-<a href="..\wdm\nf-wdm-ioattachdevice.md">IoAttachDevice</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549083">IoDeleteDevice</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoCreateDevice routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

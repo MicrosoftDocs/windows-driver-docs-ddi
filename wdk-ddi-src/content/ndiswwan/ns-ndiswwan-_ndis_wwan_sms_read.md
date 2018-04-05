@@ -7,7 +7,7 @@ old-location: netvista\ndis_wwan_sms_read.htm
 old-project: netvista
 ms.assetid: 2c15c16f-773b-415d-80a1-fd0b3bcf6fbf
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: "*PNDIS_WWAN_SMS_READ, NDIS_WWAN_SMS_READ, NDIS_WWAN_SMS_READ structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SMS_READ, PNDIS_WWAN_SMS_READ structure pointer [Network Drivers Starting with Windows Vista], WwanRef_7264d34b-78a0-4537-a386-bd77d210d7ae.xml, _NDIS_WWAN_SMS_READ, ndiswwan/NDIS_WWAN_SMS_READ, ndiswwan/PNDIS_WWAN_SMS_READ, netvista.ndis_wwan_sms_read"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ndiswwan.h
 api_name:
 -	NDIS_WWAN_SMS_READ
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_WWAN_SMS_READ, *PNDIS_WWAN_SMS_READ
 ---
@@ -50,17 +51,6 @@ req.typenames: NDIS_WWAN_SMS_READ, *PNDIS_WWAN_SMS_READ
 
 
 The NDIS_WWAN_SMS_READ structure represents an SMS message to read.
-
-
-## -syntax
-
-
-````
-typedef struct _NDIS_WWAN_SMS_READ {
-  NDIS_OBJECT_HEADER Header;
-  WWAN_SMS_READ      SmsRead;
-} NDIS_WWAN_SMS_READ, *PNDIS_WWAN_SMS_READ;
-````
 
 
 ## -struct-fields
@@ -116,29 +106,27 @@ sizeof(NDIS_WWAN_SMS_READ)
  
 
 For more information about these members, see 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field SmsRead
 
 A formatted 
-     <a href="..\wwan\ns-wwan-_wwan_sms_read.md">WWAN_SMS_READ</a> object that represents the
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571249">WWAN_SMS_READ</a> object that represents the
      format and filter of SMS messages to read.
 
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_sms_read.md">WWAN_SMS_READ</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571249">WWAN_SMS_READ</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_WWAN_SMS_READ structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

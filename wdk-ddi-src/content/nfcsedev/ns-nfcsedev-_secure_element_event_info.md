@@ -38,7 +38,8 @@ api_location:
 -	nfcsedev.h
 api_name:
 -	SECURE_ELEMENT_EVENT_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SECURE_ELEMENT_EVENT_INFO, *PSECURE_ELEMENT_EVENT_INFO
 ---
@@ -50,20 +51,6 @@ req.typenames: SECURE_ELEMENT_EVENT_INFO, *PSECURE_ELEMENT_EVENT_INFO
 
 
 This structure provides information about a secure element event.
-
-
-## -syntax
-
-
-````
-typedef struct _SECURE_ELEMENT_EVENT_INFO {
-  GUID                                     guidSecureElementId;
-  SECURE_ELEMENT_EVENT_TYPE                eEventType;
-  DWORD                                    cbEventData;
-  _Field_size_bytes_(cbEventData)
-    BYTE pbEventData[ANYSIZE_ARRAY];
-} SECURE_ELEMENT_EVENT_INFO, *PSECURE_ELEMENT_EVENT_INFO;
-````
 
 
 ## -struct-fields
@@ -78,7 +65,7 @@ This is a unique identifier for the secure element.
 
 ### -field eEventType
 
-This is an event type. For more information about the types, see the <a href="..\nfcsedev\ne-nfcsedev-_secure_element_event_type.md">SECURE_ELEMENT_EVENT_TYPE</a> enumeration topic.
+This is an event type. For more information about the types, see the <a href="https://msdn.microsoft.com/library/windows/hardware/dn905623">SECURE_ELEMENT_EVENT_TYPE</a> enumeration topic.
 
 
 ### -field cbEventData
@@ -95,7 +82,7 @@ This is the amount of bytes for the pbEventData array.
 
 #### - pbEventData[ANYSIZE_ARRAY]
 
-This is the event data buffer. When <b>eEventType</b> is <b>HceActivated</b> or <b>HceDeactivated</b>, this member contains a pointer to a <a href="..\nfcsedev\ns-nfcsedev-_secure_element_hce_activation_payload.md">SECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD</a> structure. The <b>bConnectionId</b> member in that structure is the same ID value that’s used in <a href="..\nfcsedev\ns-nfcsedev-_secure_element_hce_data_packet.md">SECURE_ELEMENT_HCE_DATA_PACKET</a> to send and receive an HCE packet with <a href="..\nfcsedev\ni-nfcsedev-ioctl_nfcse_hce_remote_send.md">IOCTL_NFCSE_HCE_REMOTE_SEND</a> and <a href="..\nfcsedev\ni-nfcsedev-ioctl_nfcse_hce_remote_recv.md">IOCTL_NFCSE_HCE_REMOTE_RECV</a>.
+This is the event data buffer. When <b>eEventType</b> is <b>HceActivated</b> or <b>HceDeactivated</b>, this member contains a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn905592">SECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD</a> structure. The <b>bConnectionId</b> member in that structure is the same ID value that’s used in <a href="https://msdn.microsoft.com/library/windows/hardware/dn905624">SECURE_ELEMENT_HCE_DATA_PACKET</a> to send and receive an HCE packet with <a href="https://msdn.microsoft.com/library/windows/hardware/dn905511">IOCTL_NFCSE_HCE_REMOTE_SEND</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/dn905510">IOCTL_NFCSE_HCE_REMOTE_RECV</a>.
 
 When <b>eEventType</b> is <b>ExternalReaderArrival</b> or <b>ExternalReaderDeparture</b>, <b>pbEventData</b> is empty and <b>cbEventData</b> is 0.
 

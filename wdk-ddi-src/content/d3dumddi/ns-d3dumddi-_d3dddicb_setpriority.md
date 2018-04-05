@@ -7,7 +7,7 @@ old-location: display\d3dddicb_setpriority.htm
 old-project: display
 ms.assetid: 8d828d7b-2f86-4fe9-864c-9d0ac4b0ed65
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDICB_SETPRIORITY, D3DDDICB_SETPRIORITY structure [Display Devices], D3D_param_Structs_38d8110c-0d63-4409-9576-ef9892dae2b7.xml, _D3DDDICB_SETPRIORITY, d3dumddi/D3DDDICB_SETPRIORITY, display.d3dddicb_setpriority
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	D3DDDICB_SETPRIORITY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDICB_SETPRIORITY
 ---
@@ -50,19 +51,6 @@ req.typenames: D3DDDICB_SETPRIORITY
 
 
 The D3DDDICB_SETPRIORITY structure describes the priority level to which to set a resource or list of allocations. 
-
-
-## -syntax
-
-
-````
-typedef struct _D3DDDICB_SETPRIORITY {
-  HANDLE              hResource;
-  UINT                NumAllocations;
-  const D3DKMT_HANDLE *HandleList;
-  const UINT          *pPriorities;
-} D3DDDICB_SETPRIORITY;
-````
 
 
 ## -struct-fields
@@ -84,29 +72,27 @@ If <b>hResource</b> is non-<b>NULL</b>, all of the allocations that belong to th
 
 ### -field HandleList
 
-[in] An array of D3DKMT_HANDLE data types that represent kernel-mode handles to the allocations. The Microsoft Direct3D runtime's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_allocatecb.md">pfnAllocateCb</a> function returns these handles. Therefore, the user-mode display driver uses these handles to set priority for the allocations.
+[in] An array of D3DKMT_HANDLE data types that represent kernel-mode handles to the allocations. The Microsoft Direct3D runtime's <a href="https://msdn.microsoft.com/a61e6c6a-3992-429c-ad8c-5f1a61dc7b8b">pfnAllocateCb</a> function returns these handles. Therefore, the user-mode display driver uses these handles to set priority for the allocations.
 
 If the user-mode display driver sets the handle in the <b>hResource</b> member to a non-<b>NULL</b> value, it must set <b>HandleList</b> to <b>NULL</b>. 
 
 
 ### -field pPriorities
 
-[in] A pointer to an array of priority levels. If the <b>hResource</b> member is non-<b>NULL</b>, the array must contain a single element. If <b>hResource</b> is <b>NULL</b>, the number of elements in the array is specified by the <b>NumAllocations</b> member, and each allocation in the array that is specified by <b>HandleList</b> is set to the priority level of the corresponding element in <b>pPriorities</b>. For a list of defined priority levels, see the Remarks section of the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setprioritycb.md">pfnSetPriorityCb</a> reference page.
+[in] A pointer to an array of priority levels. If the <b>hResource</b> member is non-<b>NULL</b>, the array must contain a single element. If <b>hResource</b> is <b>NULL</b>, the number of elements in the array is specified by the <b>NumAllocations</b> member, and each allocation in the array that is specified by <b>HandleList</b> is set to the priority level of the corresponding element in <b>pPriorities</b>. For a list of defined priority levels, see the Remarks section of the <a href="https://msdn.microsoft.com/1812cb0f-9232-4813-9c7b-74c9fa4d03cf">pfnSetPriorityCb</a> reference page.
 
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setprioritycb.md">pfnSetPriorityCb</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_allocatecb.md">pfnAllocateCb</a>
+<a href="https://msdn.microsoft.com/a61e6c6a-3992-429c-ad8c-5f1a61dc7b8b">pfnAllocateCb</a>
 
 
 
+<a href="https://msdn.microsoft.com/1812cb0f-9232-4813-9c7b-74c9fa4d03cf">pfnSetPriorityCb</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DDDICB_SETPRIORITY structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

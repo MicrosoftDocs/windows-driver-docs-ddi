@@ -7,7 +7,7 @@ old-location: kernel\obreferenceobjectbyhandle.htm
 old-project: kernel
 ms.assetid: 6397d96e-f3b1-4e2f-91ce-b123c9e8de81
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/28/2018
 ms.keywords: ObReferenceObjectByHandle, ObReferenceObjectByHandle routine [Kernel-Mode Driver Architecture], k107_97ce2cea-8f20-4b30-996c-9ea268951aef.xml, kernel.obreferenceobjectbyhandle, wdm/ObReferenceObjectByHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	ObReferenceObjectByHandle
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
@@ -51,21 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>ObReferenceObjectByHandle</b> routine provides access validation on the object handle, and, if access can be granted, returns the corresponding pointer to the object's body.
-
-
-## -syntax
-
-
-````
-NTSTATUS ObReferenceObjectByHandle(
-  _In_      HANDLE                     Handle,
-  _In_      ACCESS_MASK                DesiredAccess,
-  _In_opt_  POBJECT_TYPE               ObjectType,
-  _In_      KPROCESSOR_MODE            AccessMode,
-  _Out_     PVOID                      *Object,
-  _Out_opt_ POBJECT_HANDLE_INFORMATION HandleInformation
-);
-````
 
 
 ## -parameters
@@ -279,14 +265,13 @@ If <i>AccessMode</i> is <b>UserMode</b>, the requested access is compared to the
 
 Starting with Windows 7, if <i>AccessMode</i> is <b>KernelMode</b> and handle is received from user address space, <a href="https://msdn.microsoft.com/library/windows/hardware/ff557262">Driver Verifier</a> issues bugcheck C4, subcode F6.
 
-If the call succeeds, a pointer to the object body is returned to the caller and the pointer reference count is incremented. Incrementing this count prevents the object from being deleted while the pointer is being referenced. The caller must decrement the reference count with <a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a> as soon as it is done with the object.
+If the call succeeds, a pointer to the object body is returned to the caller and the pointer reference count is incremented. Incrementing this count prevents the object from being deleted while the pointer is being referenced. The caller must decrement the reference count with <a href="https://msdn.microsoft.com/library/windows/hardware/ff557724">ObDereferenceObject</a> as soon as it is done with the object.
 
 
 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-obreferenceobject.md">ObReferenceObject</a>
 
 
 
@@ -294,17 +279,16 @@ If the call succeeds, a pointer to the object body is returned to the caller and
 
 
 
-<a href="..\wdm\nf-wdm-obreferenceobjectbypointer.md">ObReferenceObjectByPointer</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557724">ObDereferenceObject</a>
 
 
 
-<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558678">ObReferenceObject</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558686">ObReferenceObjectByPointer</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ObReferenceObjectByHandle routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

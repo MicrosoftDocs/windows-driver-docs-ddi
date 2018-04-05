@@ -7,7 +7,7 @@ old-location: kernel\io_session_event.htm
 old-project: kernel
 ms.assetid: 6bdc1c25-bac3-416e-af3d-66a125f0f036
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/28/2018
 ms.keywords: "*PIO_SESSION_EVENT, IO_SESSION_EVENT, IO_SESSION_EVENT enumeration [Kernel-Mode Driver Architecture], IoSessionEventConnected, IoSessionEventCreated, IoSessionEventDisconnected, IoSessionEventLogoff, IoSessionEventLogon, IoSessionEventMax, IoSessionEventTerminated, PIO_SESSION_EVENT, PIO_SESSION_EVENT enumeration pointer [Kernel-Mode Driver Architecture], _IO_SESSION_EVENT, kernel.io_session_event, sysenum_8fc6c99f-15c8-4dbb-90fd-b207d66c2f90.xml, wdm/IO_SESSION_EVENT, wdm/IoSessionEventConnected, wdm/IoSessionEventCreated, wdm/IoSessionEventDisconnected, wdm/IoSessionEventLogoff, wdm/IoSessionEventLogon, wdm/IoSessionEventMax, wdm/IoSessionEventTerminated, wdm/PIO_SESSION_EVENT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	wdm.h
 api_name:
 -	IO_SESSION_EVENT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: IO_SESSION_EVENT, *PIO_SESSION_EVENT
 req.product: Windows 10 or later.
@@ -51,22 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>IO_SESSION_EVENT</b> enumeration indicates the type of session event for which a driver is receiving notification.
-
-
-## -syntax
-
-
-````
-typedef enum _IO_SESSION_EVENT { 
-  IoSessionEventCreated       = 1,
-  IoSessionEventTerminated    = 2,
-  IoSessionEventConnected     = 3,
-  IoSessionEventDisconnected  = 4,
-  IoSessionEventLogon         = 5,
-  IoSessionEventLogoff        = 6,
-  IoSessionEventMax           = 7
-} IO_SESSION_EVENT, *PIO_SESSION_EVENT;
-````
 
 
 ## -enum-fields
@@ -116,26 +101,24 @@ Specifies the maximum value in this enumeration type.
 
 
 
-When the I/O manager calls the driver's <a href="..\wdm\nc-wdm-io_session_notification_function.md">IO_SESSION_NOTIFICATION_FUNCTION</a> function, it sets the <i>Event</i> parameter of this function to an <b>IO_SESSION_EVENT</b> enumeration constant (other than <b>IoSessionEventMax</b>).
+When the I/O manager calls the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff550626">IO_SESSION_NOTIFICATION_FUNCTION</a> function, it sets the <i>Event</i> parameter of this function to an <b>IO_SESSION_EVENT</b> enumeration constant (other than <b>IoSessionEventMax</b>).
 
-A session event causes a transition from one session state to another. For more information about session state transitions, see <a href="..\wdm\ne-wdm-_io_session_state.md">IO_SESSION_STATE</a>. 
+A session event causes a transition from one session state to another. For more information about session state transitions, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff550631">IO_SESSION_STATE</a>. 
 
 
 
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-io_session_notification_function.md">IO_SESSION_NOTIFICATION_FUNCTION</a>
 
 
 
-<a href="..\wdm\ne-wdm-_io_session_state.md">IO_SESSION_STATE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550626">IO_SESSION_NOTIFICATION_FUNCTION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550631">IO_SESSION_STATE</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IO_SESSION_EVENT enumeration%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

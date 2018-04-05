@@ -7,7 +7,7 @@ old-location: image\wia_barcode_info.htm
 old-project: image
 ms.assetid: 2E659DDC-4012-4EA2-8E6C-033F2AB526B8
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/27/2018
 ms.keywords: WIA_BARCODE_INFO, WIA_BARCODE_INFO structure [Imaging Devices], _WIA_BARCODE_INFO, image.wia_barcode_info, wiadef/WIA_BARCODE_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -21,10 +21,10 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: WDTFSystemAction.idl
 req.max-support: 
-req.namespace: 
-req.assembly: 
+req.namespace: Microsoft.WDTF
+req.assembly: WDTFSystemAction.Interop.dll
 req.type-library: 
 req.lib: 
 req.dll: 
@@ -38,7 +38,8 @@ api_location:
 -	wiadef.h
 api_name:
 -	WIA_BARCODE_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WIA_BARCODE_INFO
 req.product: Windows 10 or later.
@@ -51,24 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>WIA_BARCODE_INFO</b> structure stores information for one decoded barcode.
-
-
-## -syntax
-
-
-````
-typedef struct _WIA_BARCODE_INFO {
-  DWORD Size;
-  DWORD Type;
-  DWORD Page;
-  DWORD Confidence;
-  DWORD Xoffset;
-  DWORD Yoffset;
-  DWORD Rotation;
-  DWORD Length;
-  WCHAR Text[1];
-} WIA_BARCODE_INFO;
-````
 
 
 ## -struct-fields

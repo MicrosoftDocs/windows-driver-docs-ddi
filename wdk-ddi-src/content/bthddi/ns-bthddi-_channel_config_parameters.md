@@ -38,7 +38,8 @@ api_location:
 -	bthddi.h
 api_name:
 -	CHANNEL_CONFIG_PARAMETERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CHANNEL_CONFIG_PARAMETERS, *PCHANNEL_CONFIG_PARAMETERS
 ---
@@ -51,21 +52,6 @@ req.typenames: CHANNEL_CONFIG_PARAMETERS, *PCHANNEL_CONFIG_PARAMETERS
 
 The CHANNEL_CONFIG_PARAMETERS structure contains configuration parameters for inbound and outbound
   directions of a L2CAP channel.
-
-
-## -syntax
-
-
-````
-typedef struct _CHANNEL_CONFIG_PARAMETERS {
-  ULONG                Flags;
-  CO_MTU               Mtu;
-  CO_FLUSHTO           FlushTO;
-  ULONG                NumExtraOptions;
-  PL2CAP_CONFIG_OPTION ExtraOptions;
-  L2CAP_FLOWSPEC       Flow;
-} CHANNEL_CONFIG_PARAMETERS, *PCHANNEL_CONFIG_PARAMETERS;
-````
 
 
 ## -struct-fields
@@ -161,13 +147,11 @@ The QoS settings for the specified channel direction.
 
 ## -see-also
 
-<a href="..\bthddi\ns-bthddi-_l2cap_config_option.md">L2CAP_CONFIG_OPTION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536757">L2CAP_CONFIG_OPTION</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20CHANNEL_CONFIG_PARAMETERS structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

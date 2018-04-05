@@ -7,7 +7,7 @@ old-location: image\scsiscan_info.htm
 old-project: image
 ms.assetid: 5fd9b381-c0e3-45bf-9061-da816da5e29f
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/27/2018
 ms.keywords: "*PSCSISCAN_INFO, PSCSISCAN_INFO, PSCSISCAN_INFO structure pointer [Imaging Devices], SCSISCAN_INFO, SCSISCAN_INFO structure [Imaging Devices], _SCSISCAN_INFO, image.scsiscan_info, scsiscan/PSCSISCAN_INFO, scsiscan/SCSISCAN_INFO, stifnc_157af712-4f72-49f3-9da6-b8f750826d3e.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	scsiscan.h
 api_name:
 -	SCSISCAN_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SCSISCAN_INFO, *PSCSISCAN_INFO
 req.product: Windows 10 or later.
@@ -50,24 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The SCSISCAN_INFO structure is used as a parameter to <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> (described in the Microsoft Windows SDK documentation), when the specified I/O control code is <a href="..\scsiscan\ni-scsiscan-ioctl_scsiscan_get_info.md">IOCTL_SCSISCAN_GET_INFO</a>.
-
-
-## -syntax
-
-
-````
-typedef struct _SCSISCAN_INFO {
-  ULONG Size;
-  ULONG Flags;
-  UCHAR PortNumber;
-  UCHAR PathId;
-  UCHAR TargetId;
-  UCHAR Lun;
-  UCHAR AdapterName[MAX_STRING];
-  ULONG Reserved;
-} SCSISCAN_INFO, *PSCSISCAN_INFO;
-````
+The SCSISCAN_INFO structure is used as a parameter to <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> (described in the Microsoft Windows SDK documentation), when the specified I/O control code is <a href="https://msdn.microsoft.com/library/windows/hardware/ff542879">IOCTL_SCSISCAN_GET_INFO</a>.
 
 
 ## -struct-fields

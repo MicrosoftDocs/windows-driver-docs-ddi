@@ -7,7 +7,7 @@ old-location: ifsk\fsrtlquerykerneleafile.htm
 old-project: ifsk
 ms.assetid: B57BC3A4-6116-48EA-905A-CFA7AC0A5E8F
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FsRtlQueryKernelEaFile, FsRtlQueryKernelEaFile routine [Installable File System Drivers], ifsk.fsrtlquerykerneleafile, ntifs/FsRtlQueryKernelEaFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	ntifs.h
 api_name:
 -	FsRtlQueryKernelEaFile
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -54,24 +55,6 @@ The routine <b>FsRtlQueryKernelEaFile</b> is used to build an explicit QueryEA r
     this by FileObject instead of a handle.
 
 
-## -syntax
-
-
-````
-NTSTATUS FsRtlQueryKernelEaFile(
-  _In_      PFILE_OBJECT                              FileObject,
-  _Out_     bcount_part(Length,*LengthReturned) PVOID ReturnedEaData,
-  _In_      ULONG                                     Length,
-  _In_      BOOLEAN                                   ReturnSingleEntry,
-  _In_      bcount_opt(EaListLength) PVOID            EaList,
-  _In_      ULONG                                     EaListLength,
-  _In_opt_  PULONG                                    EaIndex,
-  _In_      BOOLEAN                                   RestartScan,
-  _Out_opt_ PULONG                                    LengthReturned
-);
-````
-
-
 ## -parameters
 
 
@@ -84,7 +67,7 @@ A pointer to a <b>FileObject</b> to send the QueryEA request to.
 
 ### -param ReturnedEaData [out]
 
-A pointer to a caller-supplied <a href="..\wdm\ns-wdm-_file_full_ea_information.md">FILE_FULL_EA_INFORMATION</a>-structured output buffer, where the extended attribute values are to be returned.
+A pointer to a caller-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff545793">FILE_FULL_EA_INFORMATION</a>-structured output buffer, where the extended attribute values are to be returned.
 
 
 ### -param Length [in]
@@ -100,7 +83,7 @@ Specifies whether only a single entry should be returned
 
 ### -param EaList [in]
 
-A pointer to a caller-supplied <a href="..\ntifs\ns-ntifs-_file_get_ea_information.md">FILE_GET_EA_INFORMATION</a>-structured input buffer, which specifies the extended attributes to be queried. This parameter is optional and can be<b> NULL</b>.
+A pointer to a caller-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff540295">FILE_GET_EA_INFORMATION</a>-structured input buffer, which specifies the extended attributes to be queried. This parameter is optional and can be<b> NULL</b>.
 
 
 ### -param EaListLength [in]
@@ -199,21 +182,19 @@ This routine <b>FsRtlQueryKernelEaFile </b>assumes all passed in buffers are fro
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/E5EA2E40-2CC3-4C7B-8BCC-4793F76ECBAD">FsRtlSetKernelEaFile</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-zwqueryeafile.md">ZwQueryEaFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff961907">ZwQueryEaFile</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff961908">ZwSetEaFile</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FsRtlQueryKernelEaFile routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

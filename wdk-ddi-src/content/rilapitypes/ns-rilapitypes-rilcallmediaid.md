@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILCALLMEDIAID
 title: RILCALLMEDIAID
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilcallmediaid_2.htm
+old-location: netvista\rilcallmediaid.htm
 old-project: netvista
-ms.assetid: ad367969-217c-4b9a-b9b1-1b6d1bf04f2e
+ms.assetid: de55805d-d5fe-47ea-832d-536d8a7ee257
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: "*LPRILCALLMEDIAID, RILCALLMEDIAID, RILCALLMEDIAID structure [Network Drivers Starting with Windows Vista], netvista.rilcallmediaid_2, rilapitypes/RILCALLMEDIAID"
+ms.date: 3/26/2018
+ms.keywords: "*LPRILCALLMEDIAID, RILCALLMEDIAID, RILCALLMEDIAID structure [Network Drivers Starting with Windows Vista], netvista.rilcallmediaid, ntddrilapitypes/RILCALLMEDIAID"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,10 +35,11 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILCALLMEDIAID
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILCALLMEDIAID, *LPRILCALLMEDIAID
 req.product: Windows 10 or later.
@@ -50,18 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-
-## -syntax
-
-
-````
-typedef struct _RILCALLMEDIAID {
-  RILCALLMEDIATYPE  dwType;
-  DWORD             dwID;
-} RILCALLMEDIAID, RILCALLMEDIAID;
-````
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -struct-fields

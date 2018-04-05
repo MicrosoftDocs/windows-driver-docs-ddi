@@ -7,7 +7,7 @@ old-location: wdf\iwdfioqueue_retrievenextrequestbyfileobject.htm
 old-project: wdf
 ms.assetid: 136b7582-b974-44fb-8026-e9678ae6623c
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/26/2018
 ms.keywords: IWDFIoQueue, IWDFIoQueue interface, RetrieveNextRequestByFileObject method, IWDFIoQueue::RetrieveNextRequestByFileObject, RetrieveNextRequestByFileObject method, RetrieveNextRequestByFileObject method, IWDFIoQueue interface, RetrieveNextRequestByFileObject,IWDFIoQueue.RetrieveNextRequestByFileObject, UMDFQueueObjectRef_15af6c6e-0a40-41bd-9b76-fb7c206bc937.xml, umdf.iwdfioqueue_retrievenextrequestbyfileobject, wdf.iwdfioqueue_retrievenextrequestbyfileobject, wudfddi/IWDFIoQueue::RetrieveNextRequestByFileObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support: Unavailable in UMDF 2.0 and later.
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: wudfddi.h
+req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFIoQueue.RetrieveNextRequestByFileObject
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
@@ -55,17 +56,6 @@ req.product: Windows 10 or later.
 The <b>RetrieveNextRequestByFileObject</b> method retrieves from an I/O queue the next I/O request whose file object matches the specified file object.
 
 
-## -syntax
-
-
-````
-HRESULT RetrieveNextRequestByFileObject(
-  [in]  IWDFFile      *pFileObject,
-  [out] IWDFIoRequest **ppRequest
-);
-````
-
-
 ## -parameters
 
 
@@ -78,12 +68,12 @@ HRESULT RetrieveNextRequestByFileObject(
 
 ### -param ppRequest [out]
 
-A pointer to a buffer that receives a pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a> interface for the next request object whose file object matches the supplied file object, or receives <b>NULL</b> if the queue is empty or if the next request is not found.
+A pointer to a buffer that receives a pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558985">IWDFIoRequest</a> interface for the next request object whose file object matches the supplied file object, or receives <b>NULL</b> if the queue is empty or if the next request is not found.
 
 
 #### - pFileObject [in]
 
-A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a> interface for the file object that is used to retrieve the next I/O request whose file object matches this supplied file object. 
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558912">IWDFFile</a> interface for the file object that is used to retrieve the next I/O request whose file object matches this supplied file object. 
 
 
 ## -returns
@@ -168,19 +158,14 @@ For a code example of how to use the <b>RetrieveNextRequestByFileObject</b> meth
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558912">IWDFFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558980">IWDFIoQueue::Stop</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558943">IWDFIoQueue</a>
 
 
 
@@ -188,9 +173,12 @@ For a code example of how to use the <b>RetrieveNextRequestByFileObject</b> meth
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558980">IWDFIoQueue::Stop</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558985">IWDFIoRequest</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFIoQueue::RetrieveNextRequestByFileObject method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: display\formatop.htm
 old-project: display
 ms.assetid: e846a41a-9d9c-4ccb-a478-260f333333f1
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: D3D_other_Structs_c60ed644-61b9-4700-8944-131765951138.xml, FORMATOP, FORMATOP structure [Display Devices], FORMATOP_3DACCELERATION (0x00000800L), FORMATOP_AUTOGENMIPMAP (0x00400000L), FORMATOP_BUMPMAP (0x00010000L), FORMATOP_CAPTURE (0x08000000L), FORMATOP_CONVERT_TO_ARGB (0x00002000L), FORMATOP_CUBETEXTURE (0x00000004L), FORMATOP_DISPLAYMODE (0x00000400L), FORMATOP_DMAP (0x00020000L), FORMATOP_MEMBEROFGROUP_ARGB (0x00080000L), FORMATOP_MULTIPLANE_OVERLAY (0x20000000L), FORMATOP_NOALPHABLEND (0x00200000L), FORMATOP_NOFILTER (0x00040000L), FORMATOP_NOTEXCOORDWRAPNORMIP (0x01000000L), FORMATOP_OFFSCREENPLAIN (0x00004000L), FORMATOP_OFFSCREEN_RENDERTARGET (0x00000008L), FORMATOP_OVERLAY (0x04000000L), FORMATOP_PIXELSIZE (0x00001000L), FORMATOP_PLANAR (0x02000000L), FORMATOP_SAME_FORMAT_RENDERTARGET (0x00000010L), FORMATOP_SAME_FORMAT_UP_TO_ALPHA_RENDERTARGET (0x00000100L), FORMATOP_SRGBREAD (0x00008000L), FORMATOP_SRGBWRITE (0x00100000L), FORMATOP_TEXTURE (0x00000001L), FORMATOP_VERTEXTEXTURE (0x00800000L), FORMATOP_VIDEO_ENCODER (0x10000000L), FORMATOP_VOLUMETEXTURE (0x00000002L), FORMATOP_ZSTENCIL (0x00000040L), FORMATOP_ZSTENCIL_WITH_ARBITRARY_COLOR_DEPTH (0x00000080L), _FORMATOP, d3dumddi/FORMATOP, display.formatop
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	FORMATOP
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FORMATOP
 ---
@@ -52,20 +53,6 @@ req.typenames: FORMATOP
 The <b>FORMATOP</b> structure describes a surface format and operations that can be performed with such a surface.
 
 
-## -syntax
-
-
-````
-typedef struct _FORMATOP {
-  D3DDDIFORMAT Format;
-  UINT         Operations;
-  UINT         FlipMsTypes;
-  UINT         BltMsTypes;
-  UINT         PrivateFormatBitCount;
-} FORMATOP;
-````
-
-
 ## -struct-fields
 
 
@@ -73,7 +60,7 @@ typedef struct _FORMATOP {
 
 ### -field Format
 
-[in] The <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>-typed value that indicates the pixel format of the surface.
+[in] The <a href="https://msdn.microsoft.com/library/windows/hardware/ff544312">D3DDDIFORMAT</a>-typed value that indicates the pixel format of the surface.
 
 
 ### -field Operations
@@ -212,7 +199,7 @@ Surfaces of this format cannot be used with alpha blending.
 
 #### FORMATOP_AUTOGENMIPMAP (0x00400000L)
 
-The sublevels of MIP-mapped textures with this format can be automatically generated. For the driver to receive calls to its <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_generatemipsublevels.md">GenerateMipSubLevels</a> function, this flag must be exposed.
+The sublevels of MIP-mapped textures with this format can be automatically generated. For the driver to receive calls to its <a href="https://msdn.microsoft.com/86567fc1-cf66-4709-a6e1-6b24408df963">GenerateMipSubLevels</a> function, this flag must be exposed.
 
 
 
@@ -224,13 +211,13 @@ A vertex texture sampler can use surfaces of this format. That is, only surfaces
 
 #### FORMATOP_NOTEXCOORDWRAPNORMIP (0x01000000L)
 
-Surfaces of this format can only be conditionally used for texture mapping of 2-D textures with dimensions that are not powers of 2. For more information, see the definitions for D3DPTEXTURECAPS_POW2 and D3DPTEXTURECAPS_NONPOW2CONDITIONAL in the <a href="..\d3dcaps\ns-d3dcaps-_d3dprimcaps.md">D3DPRIMCAPS</a> reference page.
+Surfaces of this format can only be conditionally used for texture mapping of 2-D textures with dimensions that are not powers of 2. For more information, see the definitions for D3DPTEXTURECAPS_POW2 and D3DPTEXTURECAPS_NONPOW2CONDITIONAL in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549034">D3DPRIMCAPS</a> reference page.
 
 
 
 #### FORMATOP_PLANAR (0x02000000L)
 
-Surfaces of this format are planar versus packed. The Direct3D runtime must allocate a buffer if it calls the user-mode display driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lock.md">Lock</a> function on a surface with a planar format while the surface is lost and the typical calculation of pitch multiplied times height is not possible. Most formats are packed except for those that the Microsoft DirectX Video Acceleration uses (for example, YUV formats).
+Surfaces of this format are planar versus packed. The Direct3D runtime must allocate a buffer if it calls the user-mode display driver's <a href="https://msdn.microsoft.com/e2289073-d46a-4a12-8de7-30400e04cc22">Lock</a> function on a surface with a planar format while the surface is lost and the typical calculation of pitch multiplied times height is not possible. Most formats are packed except for those that the Microsoft DirectX Video Acceleration uses (for example, YUV formats).
 
 
 
@@ -242,7 +229,7 @@ Surfaces of this format are used for overlay operations.
 
 #### FORMATOP_CAPTURE (0x08000000L)
 
-If the <b>VideoEncoder</b> member of the <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_resourceflags2.md">D3DDDI_RESOURCEFLAGS2</a> structure is  set, surfaces of this format can be used as capture buffers.
+If the <b>VideoEncoder</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439286">D3DDDI_RESOURCEFLAGS2</a> structure is  set, surfaces of this format can be used as capture buffers.
 
 Supported starting with Windows 8.
 
@@ -250,7 +237,7 @@ Supported starting with Windows 8.
 
 #### FORMATOP_VIDEO_ENCODER (0x10000000L)
 
-If the <b>VideoEncoder</b> member of the <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_resourceflags2.md">D3DDDI_RESOURCEFLAGS2</a> structure is  set, surfaces of this format can be used as video encoder input resources.
+If the <b>VideoEncoder</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439286">D3DDDI_RESOURCEFLAGS2</a> structure is  set, surfaces of this format can be used as video encoder input resources.
 
 Supported starting with Windows 8.
 
@@ -275,34 +262,32 @@ Supported starting with Windows 8.
 
 ### -field PrivateFormatBitCount
 
-[out] The bits per pixel of a pixel format that is private to the driver (that is, not one of the standard pixel formats that are defined by the <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a> enumeration type). 
+[out] The bits per pixel of a pixel format that is private to the driver (that is, not one of the standard pixel formats that are defined by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544312">D3DDDIFORMAT</a> enumeration type). 
 
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getcaps.md">D3DDDIARG_GETCAPS</a>
 
 
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_resourceflags2.md">D3DDDI_RESOURCEFLAGS2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543148">D3DDDIARG_GETCAPS</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544132">D3DDDICAPS_TYPE</a>
 
 
 
-<a href="..\d3dumddi\ne-d3dumddi-_d3dddicaps_type.md">D3DDDICAPS_TYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544312">D3DDDIFORMAT</a>
 
 
 
-<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439286">D3DDDI_RESOURCEFLAGS2</a>
 
 
 
+<a href="https://msdn.microsoft.com/cf6c61ce-7b53-46d0-b3ff-ed5b2b964c65">GetCaps</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20FORMATOP structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

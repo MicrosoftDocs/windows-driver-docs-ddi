@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILNOTIFICATIONPARAMS
 title: RILNOTIFICATIONPARAMS
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilnotificationparams_2.htm
+old-location: netvista\rilnotificationparams.htm
 old-project: netvista
-ms.assetid: 25a67292-b6fd-448a-a7bd-2867b3f46f13
+ms.assetid: c89c7df3-7ccb-46db-adcc-22c49cae5108
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: "*LPRILNOTIFICATIONPARAMS, RILNOTIFICATIONPARAMS, RILNOTIFICATIONPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilnotificationparams_2, rilapitypes/RILNOTIFICATIONPARAMS"
+ms.date: 3/26/2018
+ms.keywords: "*LPRILNOTIFICATIONPARAMS, RILNOTIFICATIONPARAMS, RILNOTIFICATIONPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilnotificationparams, ntddrilapitypes/RILNOTIFICATIONPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,10 +35,11 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILNOTIFICATIONPARAMS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILNOTIFICATIONPARAMS, *LPRILNOTIFICATIONPARAMS
 req.product: Windows 10 or later.
@@ -50,18 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-
-## -syntax
-
-
-````
-typedef struct _RILNOTIFICATIONPARAMS {
-  DWORD     dwNotificationCount;
-  DWORD [1] pdwNotifications;
-} RILNOTIFICATIONPARAMS, RILNOTIFICATIONPARAMS;
-````
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -struct-fields

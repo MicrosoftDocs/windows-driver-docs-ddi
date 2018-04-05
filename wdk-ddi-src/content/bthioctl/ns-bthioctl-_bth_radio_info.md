@@ -38,7 +38,8 @@ api_location:
 -	bthioctl.h
 api_name:
 -	BTH_RADIO_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BTH_RADIO_INFO, *PBTH_RADIO_INFO
 ---
@@ -50,19 +51,6 @@ req.typenames: BTH_RADIO_INFO, *PBTH_RADIO_INFO
 
 
 The BTH_RADIO_INFO structure contains information about a remote radio.
-
-
-## -syntax
-
-
-````
-typedef struct _BTH_RADIO_INFO {
-  ULONGLONG lmpSupportedFeatures;
-  USHORT    mfg;
-  USHORT    lmpSubversion;
-  UCHAR     lmpVersion;
-} BTH_RADIO_INFO, *PBTH_RADIO_INFO;
-````
 
 
 ## -struct-fields
@@ -95,27 +83,25 @@ The major version number for the LMP that is used by the local radio.
 
 
 The BTH_RADIO_INFO structure is returned as part of the output buffer of 
-    <a href="..\bthioctl\ni-bthioctl-ioctl_bth_get_local_info.md">IOCTL_BTH_GET_LOCAL_INFO</a>. The local
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff536684">IOCTL_BTH_GET_LOCAL_INFO</a>. The local
     radio information is returned in the 
     <b>radioInfo</b> member of the 
-    <a href="..\bthioctl\ns-bthioctl-_bth_local_radio_info.md">BTH_LOCAL_RADIO_INFO</a> structure.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff536644">BTH_LOCAL_RADIO_INFO</a> structure.
 
 
 
 
 ## -see-also
 
-<a href="..\bthioctl\ni-bthioctl-ioctl_bth_get_local_info.md">IOCTL_BTH_GET_LOCAL_INFO</a>
 
 
 
-<a href="..\bthioctl\ns-bthioctl-_bth_local_radio_info.md">BTH_LOCAL_RADIO_INFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536644">BTH_LOCAL_RADIO_INFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536684">IOCTL_BTH_GET_LOCAL_INFO</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20BTH_RADIO_INFO structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

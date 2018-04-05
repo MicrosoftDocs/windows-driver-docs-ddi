@@ -7,7 +7,7 @@ old-location: storage\mountmgr_target_name.htm
 old-project: storage
 ms.assetid: 7a9cdc0d-0275-4ef9-a570-8788f77099af
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PMOUNTMGR_TARGET_NAME, MOUNTMGR_TARGET_NAME, MOUNTMGR_TARGET_NAME structure [Storage Devices], PMOUNTMGR_TARGET_NAME, PMOUNTMGR_TARGET_NAME structure pointer [Storage Devices], _MOUNTMGR_TARGET_NAME, mountmgr/MOUNTMGR_TARGET_NAME, mountmgr/PMOUNTMGR_TARGET_NAME, storage.mountmgr_target_name, structs-mntmgr_abcf0a10-ecbb-433e-9848-c2d5065ca1ac.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	mountmgr.h
 api_name:
 -	MOUNTMGR_TARGET_NAME
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MOUNTMGR_TARGET_NAME, *PMOUNTMGR_TARGET_NAME
 ---
@@ -49,18 +50,7 @@ req.typenames: MOUNTMGR_TARGET_NAME, *PMOUNTMGR_TARGET_NAME
 ## -description
 
 
-The MOUNTMGR_TARGET_NAME structure contains the nonpersistent target device name for a device and is used by mount manager clients with the  <a href="..\mountmgr\ni-mountmgr-ioctl_mountmgr_keep_links_when_offline.md">IOCTL_MOUNTMGR_KEEP_LINKS_WHEN_OFFLINE</a> request to tell the mount manager to keep the symbolic link for a device active even after the device has gone offline. 
-
-
-## -syntax
-
-
-````
-typedef struct _MOUNTMGR_TARGET_NAME {
-  USHORT DeviceNameLength;
-  WCHAR  DeviceName[1];
-} MOUNTMGR_TARGET_NAME, *PMOUNTMGR_TARGET_NAME;
-````
+The MOUNTMGR_TARGET_NAME structure contains the nonpersistent target device name for a device and is used by mount manager clients with the  <a href="https://msdn.microsoft.com/library/windows/hardware/ff560468">IOCTL_MOUNTMGR_KEEP_LINKS_WHEN_OFFLINE</a> request to tell the mount manager to keep the symbolic link for a device active even after the device has gone offline. 
 
 
 ## -struct-fields
@@ -89,13 +79,11 @@ Nonpersistent target names must contain the full path of a target object name in
 
 ## -see-also
 
-<a href="..\mountmgr\ni-mountmgr-ioctl_mountmgr_keep_links_when_offline.md">IOCTL_MOUNTMGR_KEEP_LINKS_WHEN_OFFLINE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560468">IOCTL_MOUNTMGR_KEEP_LINKS_WHEN_OFFLINE</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20MOUNTMGR_TARGET_NAME structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

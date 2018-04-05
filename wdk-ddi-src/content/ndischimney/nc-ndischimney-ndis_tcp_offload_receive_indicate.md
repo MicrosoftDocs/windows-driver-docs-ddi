@@ -7,7 +7,7 @@ old-location: netvista\ndistcpoffloadreceivehandler.htm
 old-project: netvista
 ms.assetid: a45dede9-6559-4207-a49f-d9627054433a
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: NDIS_TCP_OFFLOAD_RECEIVE_INDICATE, NdisTcpOffloadReceiveHandler, NdisTcpOffloadReceiveHandler callback function [Network Drivers Starting with Windows Vista], ndischimney/NdisTcpOffloadReceiveHandler, netvista.ndistcpoffloadreceivehandler, tcp_chim_ndis_func_c79b9638-b69d-49de-b33b-95c0136a45f8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ndischimney.h
 api_name:
 -	NdisTcpOffloadReceiveHandler
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PD_BUFFER_VIRTUAL_SUBNET_INFO
 ---
@@ -56,19 +57,6 @@ An offload target calls the
   consumption by a client application.
 
 
-## -prototype
-
-
-````
-NDIS_STATUS NdisTcpOffloadReceiveHandler(
-  _In_  NDIS_HANDLE      NdisOffloadHandle,
-  _In_  PNET_BUFFER_LIST NetBufferList,
-  _In_  NDIS_STATUS      Status,
-  _Out_ PULONG           BytesConsumed
-);
-````
-
-
 ## -parameters
 
 
@@ -79,7 +67,7 @@ NDIS_STATUS NdisTcpOffloadReceiveHandler(
 A handle that identifies the offloaded TCP connection on which the indication is being made. When
      the connection was offloaded, this handle was supplied in the 
      <b>NdisOffloadHandle</b> member of the 
-     <a href="..\ndischimney\ns-ndischimney-_ndis_miniport_offload_block_list.md">
+     <a href="https://msdn.microsoft.com/ebc98e65-5d11-4c3d-aea1-dfad1434c093">
      NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a> structure that was associated with the connection state.
 
 
@@ -89,10 +77,10 @@ A pointer to a
       <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure. Each 
       <b>NET_BUFFER_LIST</b> structure
       describes a list of 
-      <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structures. Each 
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structures. Each 
       <b>NET_BUFFER</b> structure in the list maps to a
       chain of 
-      <a href="..\wdm\ns-wdm-_mdl.md">memory descriptor lists (MDLs)</a>. The MDLs contain the
+      <a href="https://msdn.microsoft.com/71524333-dd5d-4f0b-8dd3-034ea926bc93">memory descriptor lists (MDLs)</a>. The MDLs contain the
       received data. The MDLs are locked so that they remain resident, but they are not mapped into system
       memory.
 
@@ -103,7 +91,7 @@ The
       structure in a linked list of 
       <b>NET_BUFFER_LIST</b> structures.
       Offload targets can work around this limitation by chaining as many MDLs as necessary to the same 
-      <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> in an offload receive
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> in an offload receive
       indication.
 
 
@@ -120,7 +108,7 @@ The offload target must supply the following status value:
 
 This indicates that the host stack can retain ownership of the NET_BUFFER_LIST structures and
        associated structures until it returns these structures to the 
-       <a href="..\ndischimney\nc-ndischimney-w_tcp_offload_receive_return_handler.md">
+       <a href="https://msdn.microsoft.com/b746f58d-d029-4fcd-a59d-baba037fc38e">
        MiniportTcpOffloadReceiveReturn</a> function of the offload target.
 
 
@@ -188,11 +176,11 @@ The client application consumed a subset of the indicated receive data. The amou
 
 
 Receive buffers are posted to the 
-    <a href="..\ndischimney\nc-ndischimney-w_tcp_offload_receive_handler.md">
+    <a href="https://msdn.microsoft.com/9c9c033d-e892-4d8a-8f12-4ca34cdc9ea1">
     MiniportTcpOffloadReceive</a> function of the offload target. If preposted receive requests (buffers
     supplied by the client application) are available for the connection, the offload target should transfer
     the receive data by calling the 
-    <a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_receive_complete.md">
+    <a href="https://msdn.microsoft.com/d5b1341b-cbe0-483c-9abb-b8706f2db2dd">
     NdisTcpOffloadReceiveComplete</a> function. For more information, see 
     <a href="https://msdn.microsoft.com/13e80cec-03f5-4498-94ab-ce974a8b9697">Delivery Algorithm</a>.
 
@@ -227,7 +215,7 @@ During initialization, the offload target should allocate two pools of buffers, 
     <b>
     NdisTcpOffloadReceiveHandler</b> function. The offload target uses the other pool for making receive
     indications through the nonoffload NDIS interface when calling the 
-    <a href="..\ndis\nf-ndis-ndismindicatereceivenetbufferlists.md">
+    <a href="https://msdn.microsoft.com/b87dba3e-c18f-4ea2-8bd5-ec3cdafc534b">
     NdisMIndicateReceiveNetBufferLists</a> function.
 
 Each allocated NET_BUFFER_LIST structure must have only one NET_BUFFER structure associated with it.
@@ -251,7 +239,7 @@ The offload target always supplies a
 <li>
 If the host stack returns NDIS_STATUS_SUCCESS, indicating that the client application accepted and
       consumed the receive data, the host stack will return the NET_BUFFER_LIST structures to the 
-      <a href="..\ndischimney\nc-ndischimney-w_tcp_offload_receive_return_handler.md">
+      <a href="https://msdn.microsoft.com/b746f58d-d029-4fcd-a59d-baba037fc38e">
       MiniportTcpOffloadReceiveReturn</a> function of the offload target. The host stack will set the
       variable specified by the 
       <i>BytesConsumed</i> parameter to the number of bytes that were indicated by the offload target.
@@ -265,7 +253,7 @@ If the host stack returns NDIS_STATUS_NOT_ACCEPTED, indicating that the client a
       anticipation that the client application will post receive buffers on the connection. After the client
       application posts receive buffers, the offload target copies the buffered receive data into the posted
       buffers and completes the posted buffers by calling the 
-      <a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_receive_complete.md">
+      <a href="https://msdn.microsoft.com/d5b1341b-cbe0-483c-9abb-b8706f2db2dd">
       NdisTcpOffloadReceiveComplete</a> function. For more information, see 
       <a href="https://msdn.microsoft.com/13e80cec-03f5-4498-94ab-ce974a8b9697">Delivery Algorithm</a>. The host stack will
       set the variable specified by the 
@@ -300,38 +288,36 @@ In the
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
 
 
 
-<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554414">MDL</a>
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>
 
 
 
-<a href="..\ndischimney\nc-ndischimney-w_tcp_offload_receive_handler.md">MiniportTcpOffloadReceive</a>
+<a href="https://msdn.microsoft.com/9c9c033d-e892-4d8a-8f12-4ca34cdc9ea1">MiniportTcpOffloadReceive</a>
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
-
-
-
-<a href="..\ndischimney\nc-ndischimney-w_tcp_offload_receive_return_handler.md">
+<a href="https://msdn.microsoft.com/b746f58d-d029-4fcd-a59d-baba037fc38e">
    MiniportTcpOffloadReceiveReturn</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563654">NdisMRegisterMiniportDriver</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_TCP_OFFLOAD_RECEIVE_INDICATE callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

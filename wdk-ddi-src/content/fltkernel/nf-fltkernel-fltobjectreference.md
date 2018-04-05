@@ -7,7 +7,7 @@ old-location: ifsk\fltobjectreference.htm
 old-project: ifsk
 ms.assetid: ad6317bf-92fc-4e77-9993-37b7aa123a3d
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FltApiRef_e_to_o_66eccb5d-8f95-4779-b329-aaeb8b8c09b5.xml, FltObjectReference, FltObjectReference routine [Installable File System Drivers], fltkernel/FltObjectReference, ifsk.fltobjectreference
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	fltmgr.sys
 api_name:
 -	FltObjectReference
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
@@ -50,16 +51,6 @@ req.typenames: EXpsFontRestriction
 
 
 The <b>FltObjectReference</b> routine adds a rundown reference to an opaque filter, instance, or volume pointer. 
-
-
-## -syntax
-
-
-````
-NTSTATUS FltObjectReference(
-  _Inout_ PVOID FltObject
-);
-````
 
 
 ## -parameters
@@ -106,20 +97,18 @@ The minifilter driver, instance, or volume is being torn down. This is an error 
 
 Adding a rundown reference to an opaque filter, instance, or volume object pointer prevents the object from being freed. 
 
-To remove a rundown reference from an opaque filter, instance, or volume pointer, call <a href="..\fltkernel\nf-fltkernel-fltobjectdereference.md">FltObjectDereference</a>. 
+To remove a rundown reference from an opaque filter, instance, or volume pointer, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff543378">FltObjectDereference</a>. 
 
 
 
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltobjectdereference.md">FltObjectDereference</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543378">FltObjectDereference</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltObjectReference routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

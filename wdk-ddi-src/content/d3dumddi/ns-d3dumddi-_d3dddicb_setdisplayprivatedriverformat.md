@@ -7,7 +7,7 @@ old-location: display\d3dddicb_setdisplayprivatedriverformat.htm
 old-project: display
 ms.assetid: b10b020d-f18c-403d-b1ee-79552d18ad4e
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDICB_SETDISPLAYPRIVATEDRIVERFORMAT, D3DDDICB_SETDISPLAYPRIVATEDRIVERFORMAT structure [Display Devices], D3D_param_Structs_e953e85b-93cb-46c0-bab8-6d414568b153.xml, _D3DDDICB_SETDISPLAYPRIVATEDRIVERFORMAT, d3dumddi/D3DDDICB_SETDISPLAYPRIVATEDRIVERFORMAT, display.d3dddicb_setdisplayprivatedriverformat
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	D3DDDICB_SETDISPLAYPRIVATEDRIVERFORMAT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDICB_SETDISPLAYPRIVATEDRIVERFORMAT
 ---
@@ -49,18 +50,7 @@ req.typenames: D3DDDICB_SETDISPLAYPRIVATEDRIVERFORMAT
 ## -description
 
 
-The D3DDDICB_SETDISPLAYPRIVATEDRIVERFORMAT structure describes the private-format attribute to set for a video present source in a call to the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setdisplayprivatedriverformatcb.md">pfnSetDisplayPrivateDriverFormatCb</a> function.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DDDICB_SETDISPLAYPRIVATEDRIVERFORMAT {
-  D3DDDI_VIDEO_PRESENT_SOURCE_ID VidPnSourceId;
-  UINT                           PrivateDriverFormatAttribute;
-} D3DDDICB_SETDISPLAYPRIVATEDRIVERFORMAT;
-````
+The D3DDDICB_SETDISPLAYPRIVATEDRIVERFORMAT structure describes the private-format attribute to set for a video present source in a call to the <a href="https://msdn.microsoft.com/499e6de7-67cc-4834-bcec-4f3907b180f7">pfnSetDisplayPrivateDriverFormatCb</a> function.
 
 
 ## -struct-fields
@@ -80,13 +70,11 @@ typedef struct _D3DDDICB_SETDISPLAYPRIVATEDRIVERFORMAT {
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setdisplayprivatedriverformatcb.md">pfnSetDisplayPrivateDriverFormatCb</a>
 
 
 
+<a href="https://msdn.microsoft.com/499e6de7-67cc-4834-bcec-4f3907b180f7">pfnSetDisplayPrivateDriverFormatCb</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DDDICB_SETDISPLAYPRIVATEDRIVERFORMAT structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

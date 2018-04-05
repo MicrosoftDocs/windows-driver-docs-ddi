@@ -7,7 +7,7 @@ old-location: netvista\wwan_ip_address_state.htm
 old-project: netvista
 ms.assetid: 63D3B055-A3B0-4A76-B53C-C5E87C40A52C
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: "*PWWAN_IP_ADDRESS_STATE, PWWAN_IP_ADDRESS_STATE, PWWAN_IP_ADDRESS_STATE structure pointer [Network Drivers Starting with Windows Vista], WWAN_IP_ADDRESS_STATE, WWAN_IP_ADDRESS_STATE structure [Network Drivers Starting with Windows Vista], _WWAN_IP_ADDRESS_STATE, netvista.wwan_ip_address_state, wwan/PWWAN_IP_ADDRESS_STATE, wwan/WWAN_IP_ADDRESS_STATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	wwan.h
 api_name:
 -	WWAN_IP_ADDRESS_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WWAN_IP_ADDRESS_STATE, *PWWAN_IP_ADDRESS_STATE
 req.product: Windows 10 or later.
@@ -51,25 +52,6 @@ req.product: Windows 10 or later.
 
 
 The WWAN_IP_ADDRESS_STATE structure represents the IP addresses, gateways, DNS servers, and/or MTUs of a PDP context.
-
-
-## -syntax
-
-
-````
-typedef struct _WWAN_IP_ADDRESS_STATE {
-  WWAN_IP_CONFIGURATION_FLAGS IPv4Flags;
-  WWAN_IP_CONFIGURATION_FLAGS IPv6Flags;
-  ULONG                       IPv4MTU;
-  ULONG                       IPv6MTU;
-  PWWAN_IPADDRESS_ENTRY       IpTable;
-  ULONG                       IpCount;
-  PWWAN_IPADDRESS_ENTRY       GatewayTable;
-  ULONG                       GatewayCount;
-  PWWAN_IPADDRESS_ENTRY       DnsTable;
-  ULONG                       DnsCount;
-} WWAN_IP_ADDRESS_STATE, *PWWAN_IP_ADDRESS_STATE;
-````
 
 
 ## -struct-fields
@@ -129,17 +111,15 @@ The number of entries in the <b>DnsTable</b> array.
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_ipaddress_entry.md">WWAN_IPADDRESS_ENTRY</a>
 
 
 
-<a href="..\wwan\ns-wwan-wwan_ip_configuration_flags.md">WWAN_IP_CONFIGURATION_FLAGS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn449756">WWAN_IPADDRESS_ENTRY</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn449758">WWAN_IP_CONFIGURATION_FLAGS</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WWAN_IP_ADDRESS_STATE structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

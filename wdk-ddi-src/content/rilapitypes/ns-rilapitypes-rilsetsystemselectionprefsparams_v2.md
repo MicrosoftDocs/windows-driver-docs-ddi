@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILSETSYSTEMSELECTIONPREFSPARAMS_V2
 title: RILSETSYSTEMSELECTIONPREFSPARAMS_V2
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilsetsystemselectionprefsparams_v2_2.htm
+old-location: netvista\rilsetsystemselectionprefsparams_v2.htm
 old-project: netvista
-ms.assetid: d6284633-1f56-412c-a97a-b6c740129cce
+ms.assetid: a480f376-c797-4cb8-99b1-bd7f3a3a2656
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: "*LPRILSETSYSTEMSELECTIONPREFSPARAMS, *LPRILSETSYSTEMSELECTIONPREFSPARAMS_V2, RILSETSYSTEMSELECTIONPREFSPARAMS, RILSETSYSTEMSELECTIONPREFSPARAMS_V2, RILSETSYSTEMSELECTIONPREFSPARAMS_V2 structure [Network Drivers Starting with Windows Vista], netvista.rilsetsystemselectionprefsparams_v2_2, rilapitypes/RILSETSYSTEMSELECTIONPREFSPARAMS_V2"
+ms.date: 3/26/2018
+ms.keywords: "*LPRILSETSYSTEMSELECTIONPREFSPARAMS, *LPRILSETSYSTEMSELECTIONPREFSPARAMS_V2, RILSETSYSTEMSELECTIONPREFSPARAMS, RILSETSYSTEMSELECTIONPREFSPARAMS_V2, RILSETSYSTEMSELECTIONPREFSPARAMS_V2 structure [Network Drivers Starting with Windows Vista], netvista.rilsetsystemselectionprefsparams_v2, ntddrilapitypes/RILSETSYSTEMSELECTIONPREFSPARAMS_V2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,10 +35,11 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILSETSYSTEMSELECTIONPREFSPARAMS_V2
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILSETSYSTEMSELECTIONPREFSPARAMS_V2, *LPRILSETSYSTEMSELECTIONPREFSPARAMS_V2, RILSETSYSTEMSELECTIONPREFSPARAMS, *LPRILSETSYSTEMSELECTIONPREFSPARAMS
 req.product: Windows 10 or later.
@@ -50,18 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-
-## -syntax
-
-
-````
-typedef struct _RILSETSYSTEMSELECTIONPREFSPARAMS_V2 {
-  DWORD                    dwFlags;
-  RILSYSTEMSELECTIONPREFS  rilSystemSelectionPrefs;
-} RILSETSYSTEMSELECTIONPREFSPARAMS_V2, RILSETSYSTEMSELECTIONPREFSPARAMS_V2;
-````
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -struct-fields

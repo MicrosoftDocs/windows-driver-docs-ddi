@@ -7,7 +7,7 @@ old-location: debugger\outputtypeddatavirtual.htm
 old-project: debugger
 ms.assetid: d6faa4ee-2fdb-425a-81db-8257285ba47d
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/26/2018
 ms.keywords: IDebugSymbols interface [Windows Debugging], OutputTypedDataVirtual method, IDebugSymbols2 interface [Windows Debugging], OutputTypedDataVirtual method, IDebugSymbols2::OutputTypedDataVirtual, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], OutputTypedDataVirtual method, IDebugSymbols3::OutputTypedDataVirtual, IDebugSymbols::OutputTypedDataVirtual, IDebugSymbols_0b8c7b9b-8e0a-4166-b474-830f662be2c6.xml, OutputTypedDataVirtual method [Windows Debugging], OutputTypedDataVirtual method [Windows Debugging], IDebugSymbols interface, OutputTypedDataVirtual method [Windows Debugging], IDebugSymbols2 interface, OutputTypedDataVirtual method [Windows Debugging], IDebugSymbols3 interface, OutputTypedDataVirtual,IDebugSymbols3.OutputTypedDataVirtual, dbgeng/IDebugSymbols2::OutputTypedDataVirtual, dbgeng/IDebugSymbols3::OutputTypedDataVirtual, dbgeng/IDebugSymbols::OutputTypedDataVirtual, debugger.outputtypeddatavirtual
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -40,7 +40,8 @@ api_name:
 -	IDebugSymbols.OutputTypedDataVirtual
 -	IDebugSymbols2.OutputTypedDataVirtual
 -	IDebugSymbols3.OutputTypedDataVirtual
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -52,20 +53,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>OutputTypedDataVirtual</b> method formats the contents of a variable in the target's virtual memory, and then sends this to the <a href="https://msdn.microsoft.com/7a23ee09-0314-400a-8152-eef49a225427">output callbacks</a>.
-
-
-## -syntax
-
-
-````
-HRESULT OutputTypedDataVirtual(
-  [in] ULONG   OutputControl,
-  [in] ULONG64 Offset,
-  [in] ULONG64 Module,
-  [in] ULONG   TypeId,
-  [in] ULONG   Flags
-);
-````
 
 
 ## -parameters

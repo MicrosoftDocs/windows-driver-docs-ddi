@@ -7,7 +7,7 @@ old-location: dtf\iwdtftargets2.htm
 old-project: dtf
 ms.assetid: b8d091e1-464c-43a7-b8fe-a9fa79be31c3
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/29/2018
 ms.keywords: IWDTFTargets2, IWDTFTargets2 interface [Windows Device Testing Framework], IWDTFTargets2 interface [Windows Device Testing Framework], described, Microsoft.WDTF.IWDTFTargets2, dtf.iwdtftargets2, wdtf/IWDTFTargets2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: Microsoft.WDTF
 req.assembly: WDTF.Interop.metadata_dll
 req.type-library: 
-req.lib: wdtf.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	WDTF.Interop.metadata_dll.dll
 api_name:
 -	IWDTFTargets2
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TTraceLevel
 req.product: Windows 10 or later.
@@ -101,7 +102,7 @@ Evaluates whether all items in the collection match an SDEL statement.
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439475">GetInterfaces</a>
 </td>
 <td align="left" width="63%">
-Returns a collection of actions that support the interface - one <a href="..\wdtf\nn-wdtf-iwdtfaction2.md">IWDTFAction2</a> for each item
+Returns a collection of actions that support the interface - one <a href="https://msdn.microsoft.com/library/windows/hardware/hh406311">IWDTFAction2</a> for each item
 that has one.
 
 </td>
@@ -111,7 +112,7 @@ that has one.
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439478">GetInterfacesIfExist</a>
 </td>
 <td align="left" width="63%">
-Returns a collection of actions that support the interface - one <a href="..\wdtf\nn-wdtf-iwdtfaction2.md">IWDTFAction2</a> for each item
+Returns a collection of actions that support the interface - one <a href="https://msdn.microsoft.com/library/windows/hardware/hh406311">IWDTFAction2</a> for each item
 that has one.
 
 </td>

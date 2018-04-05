@@ -7,7 +7,7 @@ old-location: storage\sm_setrnidmgmtinfo_out.htm
 old-project: storage
 ms.assetid: 30bb4e82-3a51-4d58-87aa-2e1545a9244f
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSM_SetRNIDMgmtInfo_OUT, PSM_SetRNIDMgmtInfo_OUT, PSM_SetRNIDMgmtInfo_OUT structure pointer [Storage Devices], SM_SetRNIDMgmtInfo_OUT, SM_SetRNIDMgmtInfo_OUT structure [Storage Devices], _SM_SetRNIDMgmtInfo_OUT, hbapiwmi/PSM_SetRNIDMgmtInfo_OUT, hbapiwmi/SM_SetRNIDMgmtInfo_OUT, storage.sm_setrnidmgmtinfo_out, structs-Fibre_c416e571-7970-4856-937a-a8bd546d8d3d.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	hbapiwmi.h
 api_name:
 -	SM_SetRNIDMgmtInfo_OUT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SM_SetRNIDMgmtInfo_OUT, *PSM_SetRNIDMgmtInfo_OUT
 ---
@@ -50,16 +51,6 @@ req.typenames: SM_SetRNIDMgmtInfo_OUT, *PSM_SetRNIDMgmtInfo_OUT
 
 
 The SM_SetRNIDMgmtInfo_OUT structure is used to receive output parameters from the SM_SetRNIDMgmtInfo method.
-
-
-## -syntax
-
-
-````
-typedef struct _SM_SetRNIDMgmtInfo_OUT {
-  ULONG HBAStatus;
-} SM_SetRNIDMgmtInfo_OUT, *PSM_SetRNIDMgmtInfo_OUT;
-````
 
 
 ## -struct-fields

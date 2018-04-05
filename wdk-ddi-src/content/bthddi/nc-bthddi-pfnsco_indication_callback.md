@@ -38,7 +38,8 @@ api_location:
 -	bthddi.h
 api_name:
 -	SCOIndicationCallback
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
 ---
@@ -54,21 +55,6 @@ Profile drivers implement a SCO callback function to provide the Bluetooth drive
   changes to the status of a currently open SCO connection.
 
 
-## -prototype
-
-
-````
-PFNSCO_INDICATION_CALLBACK SCOIndicationCallback;
-
-void SCOIndicationCallback(
-  _In_ PVOID                      Context,
-  _In_ SCO_INDICATION_CODE        Indication,
-  _In_ PSCO_INDICATION_PARAMETERS Parameters
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -79,7 +65,7 @@ void SCOIndicationCallback(
 For incoming remote connection request indications, this is the context specified by the profile
      driver in the 
      <b>IndicationCallbackContext</b> member of the 
-     <a href="..\bthddi\ns-bthddi-_brb_sco_register_server.md">_BRB_SCO_REGISTER_SERVER</a> structure
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536871">_BRB_SCO_REGISTER_SERVER</a> structure
      when the profile driver registered the callback function. For changes to existing SCO connections, this
      is the 
      <b>CallbackContext</b> member specified by the profile driver when it built and sent a 
@@ -89,14 +75,14 @@ For incoming remote connection request indications, this is the context specifie
 ### -param Indication [in]
 
 A 
-     <a href="..\bthddi\ne-bthddi-_sco_indication_code.md">SCO_INDICATION_CODE</a> value that indicates
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536776">SCO_INDICATION_CODE</a> value that indicates
      the type of SCO event.
 
 
 ### -param Parameters [in]
 
 A 
-     <a href="..\bthddi\ns-bthddi-_sco_indication_parameters.md">
+     <a href="https://msdn.microsoft.com/2d3ae219-8a40-476c-b8eb-94f4c0566527">
      SCO_INDICATION_PARAMETERS</a> structure that contains parameter information based on the value passed
      to the 
      <i>Indication</i> parameter.
@@ -125,7 +111,7 @@ The
 In the first case, the profile driver acts as a server and must register this callback function
     through the 
     <b>IndicationCallback</b> member of the 
-    <a href="..\bthddi\ns-bthddi-_brb_sco_register_server.md">_BRB_SCO_REGISTER_SERVER</a> structure.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff536871">_BRB_SCO_REGISTER_SERVER</a> structure.
     The Bluetooth driver stack can then call this function to notify the profile driver when a remote device
     attempts to contact it.
 
@@ -133,9 +119,9 @@ In the second case, the profile driver acts as a client and attempts to connect 
     using the <b>BRB_SCO_OPEN_CHANNEL</b> BRB. The 
     <i>PFNSCO_INDICATION_CALLBACK</i> callback function is registered through the 
     <b>Callback</b> member of the 
-    <a href="..\bthddi\ns-bthddi-_brb_sco_open_channel.md">_BRB_SCO_OPEN_CHANNEL</a> structure passed
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff536870">_BRB_SCO_OPEN_CHANNEL</a> structure passed
     with the specified BRB when one of them is submitted through 
-    <a href="..\bthioctl\ni-bthioctl-ioctl_internal_bth_submit_brb.md">
+    <a href="https://msdn.microsoft.com/60e4ee90-81d4-47a1-aed4-ee39b9fe3174">
     IOCTL_INTERNAL_BTH_SUBMIT_BRB</a>.
 
 After it is registered, the callback function is only associated with the channel that the BRB opened,
@@ -154,15 +140,6 @@ The SCO_INDICATION_PARAMETERS structure held in the
 
 ## -see-also
 
-<a href="..\bthioctl\ni-bthioctl-ioctl_internal_bth_submit_brb.md">IOCTL_INTERNAL_BTH_SUBMIT_BRB</a>
-
-
-
-<a href="..\bthddi\ns-bthddi-_brb_sco_register_server.md">_BRB_SCO_REGISTER_SERVER</a>
-
-
-
-<a href="..\bthddi\ns-bthddi-_sco_indication_parameters.md">SCO_INDICATION_PARAMETERS</a>
 
 
 
@@ -170,13 +147,20 @@ The SCO_INDICATION_PARAMETERS structure held in the
 
 
 
-<a href="..\bthddi\ne-bthddi-_sco_indication_code.md">SCO_INDICATION_CODE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536751">IOCTL_INTERNAL_BTH_SUBMIT_BRB</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536776">SCO_INDICATION_CODE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536779">SCO_INDICATION_PARAMETERS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536871">_BRB_SCO_REGISTER_SERVER</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20PFNSCO_INDICATION_CALLBACK callback function%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: display\d3d12ddi-video-decoder-heap-size-data-0033.htm
 old-project: display
 ms.assetid: beec0f3e-f87b-408b-8745-14b556254d77
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: D3D12DDI_VIDEO_DECODER_HEAP_SIZE_DATA_0033, D3D12DDI_VIDEO_DECODER_HEAP_SIZE_DATA_0033 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_DECODER_HEAP_SIZE_DATA_0033, display.d3d12ddi-video-decoder-heap-size-data-0033
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3d12umddi.h
 api_name:
 -	D3D12DDI_VIDEO_DECODER_HEAP_SIZE_DATA_0033
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D12DDI_VIDEO_DECODER_HEAP_SIZE_DATA_0033
 ---
@@ -50,18 +51,6 @@ req.typenames: D3D12DDI_VIDEO_DECODER_HEAP_SIZE_DATA_0033
 
 
 The video decoder heap size data.
-
-
-## -syntax
-
-
-````
-typedef struct _D3D12DDI_VIDEO_DECODER_HEAP_SIZE_DATA_0033 {
-  D3D12DDIARG_CREATE_VIDEO_DECODER_HEAP_0033  VideoDecoderHeapDesc;
-  UINT64                                      MemoryPoolL0Size;
-  UINT64                                      MemoryPoolL1Size;
-} D3D12DDI_VIDEO_DECODER_HEAP_SIZE_DATA_0033, D3D12DDI_VIDEO_DECODER_HEAP_SIZE_DATA_0033;
-````
 
 
 ## -struct-fields

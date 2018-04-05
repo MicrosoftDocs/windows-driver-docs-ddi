@@ -7,13 +7,13 @@ old-location: netvista\rilcardappaddedparammask.htm
 old-project: netvista
 ms.assetid: 6097b40d-2f86-4f87-bf57-191371ec943d
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: RILCARDAPPADDEDPARAMMASK, RILCARDAPPADDEDPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_CARDAPPADDED_ALL, RIL_PARAM_CARDAPPADDED_UICCAPPINFO, netvista.rilcardappaddedparammask, ntddrilapitypes/RILCARDAPPADDEDPARAMMASK, ntddrilapitypes/RIL_PARAM_CARDAPPADDED_ALL, ntddrilapitypes/RIL_PARAM_CARDAPPADDED_UICCAPPINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: ntddrilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILCARDAPPADDEDPARAMMASK
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILCARDAPPADDEDPARAMMASK
 ---
@@ -50,17 +51,6 @@ req.typenames: RILCARDAPPADDEDPARAMMASK
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef enum _RILCARDAPPADDEDPARAMMASK { 
-  RIL_PARAM_CARDAPPADDED_UICCAPPINFO,
-  RIL_PARAM_CARDAPPADDED_ALL
-} RILCARDAPPADDEDPARAMMASK;
-````
 
 
 ## -enum-fields

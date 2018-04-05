@@ -7,7 +7,7 @@ old-location: display\d3dkmt_createsynchronizationobject.htm
 old-project: display
 ms.assetid: 2e4e1fd7-9a36-4c35-8d9d-932a0d2e60a2
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMT_CREATESYNCHRONIZATIONOBJECT, D3DKMT_CREATESYNCHRONIZATIONOBJECT structure [Display Devices], OpenGL_Structs_918a7c9b-3dba-4af3-aa2c-334861301304.xml, _D3DKMT_CREATESYNCHRONIZATIONOBJECT, d3dkmthk/D3DKMT_CREATESYNCHRONIZATIONOBJECT, display.d3dkmt_createsynchronizationobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmthk.h
 api_name:
 -	D3DKMT_CREATESYNCHRONIZATIONOBJECT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_CREATESYNCHRONIZATIONOBJECT
 ---
@@ -49,19 +50,7 @@ req.typenames: D3DKMT_CREATESYNCHRONIZATIONOBJECT
 ## -description
 
 
-The D3DKMT_CREATESYNCHRONIZATIONOBJECT structure describes a synchronization object that the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreatesynchronizationobject.md">D3DKMTCreateSynchronizationObject</a> function creates.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_CREATESYNCHRONIZATIONOBJECT {
-  D3DKMT_HANDLE                    hDevice;
-  D3DDDI_SYNCHRONIZATIONOBJECTINFO Info;
-  D3DKMT_HANDLE                    hSyncObject;
-} D3DKMT_CREATESYNCHRONIZATIONOBJECT;
-````
+The D3DKMT_CREATESYNCHRONIZATIONOBJECT structure describes a synchronization object that the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546869">D3DKMTCreateSynchronizationObject</a> function creates.
 
 
 ## -struct-fields
@@ -76,7 +65,7 @@ typedef struct _D3DKMT_CREATESYNCHRONIZATIONOBJECT {
 
 ### -field Info
 
-[in] A <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_synchronizationobjectinfo.md">D3DDDI_SYNCHRONIZATIONOBJECTINFO</a> structure that describes information about the kernel-mode synchronization object.
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff544657">D3DDDI_SYNCHRONIZATIONOBJECTINFO</a> structure that describes information about the kernel-mode synchronization object.
 
 
 ### -field hSyncObject
@@ -86,17 +75,15 @@ typedef struct _D3DKMT_CREATESYNCHRONIZATIONOBJECT {
 
 ## -see-also
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_synchronizationobjectinfo.md">D3DDDI_SYNCHRONIZATIONOBJECTINFO</a>
 
 
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreatesynchronizationobject.md">D3DKMTCreateSynchronizationObject</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544657">D3DDDI_SYNCHRONIZATIONOBJECTINFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546869">D3DKMTCreateSynchronizationObject</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMT_CREATESYNCHRONIZATIONOBJECT structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

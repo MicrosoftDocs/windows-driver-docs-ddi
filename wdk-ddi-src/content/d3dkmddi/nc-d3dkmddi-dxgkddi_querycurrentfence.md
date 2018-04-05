@@ -7,7 +7,7 @@ old-location: display\dxgkddiquerycurrentfence.htm
 old-project: display
 ms.assetid: 0ca4d42f-3036-4b81-91a4-fbce7ac891fe
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_QUERYCURRENTFENCE, DmFunctions_d8fe2a82-bd21-4071-9dcf-5b3a12fe25ef.xml, DxgkDdiQueryCurrentFence, DxgkDdiQueryCurrentFence callback function [Display Devices], d3dkmddi/DxgkDdiQueryCurrentFence, display.dxgkddiquerycurrentfence
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3dkmddi.h
 api_name:
 -	DxgkDdiQueryCurrentFence
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 ---
@@ -52,20 +53,6 @@ req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 The <i>DxgkDdiQueryCurrentFence</i> function queries about the latest completed submission fence identifier in the hardware command execution unit.
 
 
-## -prototype
-
-
-````
-DXGKDDI_QUERYCURRENTFENCE DxgkDdiQueryCurrentFence;
-
-NTSTATUS  APIENTRY DxgkDdiQueryCurrentFence(
-   const HANDLE                    hAdapter,
-         DXGKARG_QUERYCURRENTFENCE *pCurrentFence
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -73,12 +60,12 @@ NTSTATUS  APIENTRY DxgkDdiQueryCurrentFence(
 
 ### -param hAdapter
 
-[in] A handle to a context block that is associated with a display adapter. The display miniport driver previously provided this handle to the Microsoft DirectX graphics kernel subsystem in the <i>MiniportDeviceContext</i> output parameter of the <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function.
+[in] A handle to a context block that is associated with a display adapter. The display miniport driver previously provided this handle to the Microsoft DirectX graphics kernel subsystem in the <i>MiniportDeviceContext</i> output parameter of the <a href="https://msdn.microsoft.com/5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea">DxgkDdiAddDevice</a> function.
 
 
 ### -param pCurrentFence
 
-[in/out] A pointer to a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_querycurrentfence.md">DXGKARG_QUERYCURRENTFENCE</a> structure that contains information about the current fence data. 
+[in/out] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff557624">DXGKARG_QUERYCURRENTFENCE</a> structure that contains information about the current fence data. 
 
 
 ## -returns
@@ -114,9 +101,9 @@ Note that if the fence target address was accessible in user mode, malicious sof
 </ul>
 Note that a privileged DMA buffer can contain both regular and privileged fences. However, if a privileged DMA buffer contains a regular fence, the kernel component that generated such a DMA buffer is aware that the regular fence inside might never be accessible.
 
-If the display miniport driver missed the last fence of a DMA buffer, the driver's <i>DxgkDdiQueryCurrentFence</i> function might be called to report the missed fence. For example, if the hardware generates a fence to memory, the driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_interrupt_routine.md">DxgkDdiInterruptRoutine</a> function is triggered to read the memory. However, if the fence's data is not available when the driver attempts to read the data (for example, if there is a defective chipset), the fence is typically reported at the next interrupt, unless interrupts were stopped. If interrupts were stopped and the DirectX graphics kernel subsystem waits too long for a fence, the subsystem calls the driver's <i>DxgkDdiQueryCurrentFence</i> function to verify the current fence and determine any pending fence that it might have missed.
+If the display miniport driver missed the last fence of a DMA buffer, the driver's <i>DxgkDdiQueryCurrentFence</i> function might be called to report the missed fence. For example, if the hardware generates a fence to memory, the driver's <a href="https://msdn.microsoft.com/eacfd42d-405c-4c23-8978-0f373a393e10">DxgkDdiInterruptRoutine</a> function is triggered to read the memory. However, if the fence's data is not available when the driver attempts to read the data (for example, if there is a defective chipset), the fence is typically reported at the next interrupt, unless interrupts were stopped. If interrupts were stopped and the DirectX graphics kernel subsystem waits too long for a fence, the subsystem calls the driver's <i>DxgkDdiQueryCurrentFence</i> function to verify the current fence and determine any pending fence that it might have missed.
 
-Before the display miniport driver returns from a call to <i>DxgkDdiQueryCurrentFence</i>, if the latest hardware-completed submission fence identifier has not yet been reported, the driver must call the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_notify_interrupt.md">DxgkCbNotifyInterrupt</a> function to report the fence. To implement this functionality, the driver:
+Before the display miniport driver returns from a call to <i>DxgkDdiQueryCurrentFence</i>, if the latest hardware-completed submission fence identifier has not yet been reported, the driver must call the <a href="https://msdn.microsoft.com/7968d26d-0195-463d-8954-e7ebef4f9dea">DxgkCbNotifyInterrupt</a> function to report the fence. To implement this functionality, the driver:
 
 <ol>
 <li>
@@ -124,7 +111,7 @@ Tracks which fence was last reported to the operating system.
 
 </li>
 <li>
-Raises IRQL to device interrupt. To raise IRQL to interrupt level, the driver can call the <a href="..\dispmprt\nc-dispmprt-dxgkcb_synchronize_execution.md">DxgkCbSynchronizeExecution</a> function to synchronize with its <a href="..\dispmprt\nc-dispmprt-dxgkddi_interrupt_routine.md">DxgkDdiInterruptRoutine</a> function.
+Raises IRQL to device interrupt. To raise IRQL to interrupt level, the driver can call the <a href="https://msdn.microsoft.com/9c659319-d0a5-43a7-b9a9-9fad18397a09">DxgkCbSynchronizeExecution</a> function to synchronize with its <a href="https://msdn.microsoft.com/eacfd42d-405c-4c23-8978-0f373a393e10">DxgkDdiInterruptRoutine</a> function.
 
 </li>
 <li>
@@ -132,7 +119,7 @@ At device interrupt IRQL, compares the last reported fence with the latest hardw
 
 </li>
 <li>
-At device interrupt IRQL, calls <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_notify_interrupt.md">DxgkCbNotifyInterrupt</a> only when the latest hardware completed fence is newer than the last reported fence.
+At device interrupt IRQL, calls <a href="https://msdn.microsoft.com/7968d26d-0195-463d-8954-e7ebef4f9dea">DxgkCbNotifyInterrupt</a> only when the latest hardware completed fence is newer than the last reported fence.
 
 </li>
 </ol>
@@ -143,29 +130,27 @@ At device interrupt IRQL, calls <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_notify_i
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkcb_synchronize_execution.md">DxgkCbSynchronizeExecution</a>
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_querycurrentfence.md">DXGKARG_QUERYCURRENTFENCE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557624">DXGKARG_QUERYCURRENTFENCE</a>
 
 
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
+<a href="https://msdn.microsoft.com/7968d26d-0195-463d-8954-e7ebef4f9dea">DxgkCbNotifyInterrupt</a>
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_notify_interrupt.md">DxgkCbNotifyInterrupt</a>
+<a href="https://msdn.microsoft.com/9c659319-d0a5-43a7-b9a9-9fad18397a09">DxgkCbSynchronizeExecution</a>
 
 
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_interrupt_routine.md">DxgkDdiInterruptRoutine</a>
+<a href="https://msdn.microsoft.com/5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea">DxgkDdiAddDevice</a>
 
 
 
+<a href="https://msdn.microsoft.com/eacfd42d-405c-4c23-8978-0f373a393e10">DxgkDdiInterruptRoutine</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKDDI_QUERYCURRENTFENCE callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

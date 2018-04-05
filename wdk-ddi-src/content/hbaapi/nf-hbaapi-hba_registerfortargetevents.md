@@ -7,7 +7,7 @@ old-location: storage\hba_registerfortargetevents.htm
 old-project: storage
 ms.assetid: a06f6757-e125-4f80-9594-a60fa1fef6e4
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: HBA_RegisterForTargetEvents, HBA_RegisterForTargetEvents routine [Storage Devices], fibreHBA_rtns_511fff45-f98b-4dbe-a74c-d577497f4e8c.xml, hbaapi/HBA_RegisterForTargetEvents, storage.hba_registerfortargetevents
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Hbaapi.dll
 api_name:
 -	HBA_RegisterForTargetEvents
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: HBA_WWNTYPE
 ---
@@ -50,22 +51,6 @@ req.typenames: HBA_WWNTYPE
 
 
 The <b>HBA_RegisterForTargetEvents</b> routine registers for target events with a specified target or with all targets associated with an adapter. 
-
-
-## -syntax
-
-
-````
-HBA_STATUS HBA_API HBA_RegisterForTargetEvents(
-   HBA_TARGET_CALLBACK callback,
-   void                *userData,
-   HBA_HANDLE          handle,
-   HBA_WWN             hbaPortWWN,
-   HBA_WWN             discoveredPortWWN,
-   HBA_CALLBACKHANDLE  *callbackHandle,
-   HBA_UINT32          allTargets
-);
-````
 
 
 ## -parameters
@@ -117,7 +102,7 @@ Indicates, when nonzero, that the value in <i>discoveredPortWWN</i> will be igno
 
 #### - callbackHandle
 
-Contains an opaque identifier that the user must pass to <a href="..\hbaapi\nf-hbaapi-hba_removecallback.md">HBA_RemoveCallback</a> to de-register the callback routine.
+Contains an opaque identifier that the user must pass to <a href="https://msdn.microsoft.com/library/windows/hardware/ff557175">HBA_RemoveCallback</a> to de-register the callback routine.
 
 
 #### - discoveredPortWWN
@@ -127,7 +112,7 @@ Contains a 64-bit WWN that uniquely identifies the remote HBA port from which ta
 
 #### - handle
 
-Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a> that identifies the HBA for which the adapter events are generated. 
+Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a> that identifies the HBA for which the adapter events are generated. 
 
 
 #### - hbaPortWWN
@@ -201,11 +186,10 @@ To stop event delivery, call <b>HBA_RemoveCallback</b>.
 
 ## -see-also
 
-<a href="..\hbaapi\nf-hbaapi-hba_removecallback.md">HBA_RemoveCallback</a>
 
 
 
-<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a>
 
 
 
@@ -213,13 +197,12 @@ To stop event delivery, call <b>HBA_RemoveCallback</b>.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557175">HBA_RemoveCallback</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20HBA_RegisterForTargetEvents routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

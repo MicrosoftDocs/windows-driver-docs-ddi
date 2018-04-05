@@ -7,7 +7,7 @@ old-location: display\d3dddi_copy_flags.htm
 old-project: display
 ms.assetid: 6186dac4-4797-48f2-bb32-40a0d501bac7
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDI_COPY_DISCARD, D3DDDI_COPY_FLAGS, D3DDDI_COPY_FLAGS enumeration [Display Devices], D3DDDI_COPY_NO_OVERWRITE, d3dumddi/D3DDDI_COPY_DISCARD, d3dumddi/D3DDDI_COPY_FLAGS, d3dumddi/D3DDDI_COPY_NO_OVERWRITE, display.d3dddi_copy_flags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3dumddi.h
 api_name:
 -	D3DDDI_COPY_FLAGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDI_COPY_FLAGS
 ---
@@ -50,17 +51,6 @@ req.typenames: D3DDDI_COPY_FLAGS
 
 
 Specifies how to handle the existing contents of a resource during a copy or update operation of a region within that resource.
-
-
-## -syntax
-
-
-````
-typedef enum D3DDDI_COPY_FLAGS { 
-  D3DDDI_COPY_NO_OVERWRITE  = 0x00000001,
-  D3DDDI_COPY_DISCARD       = 0x00000002
-} D3DDDI_COPY_FLAGS;
-````
 
 
 ## -enum-fields

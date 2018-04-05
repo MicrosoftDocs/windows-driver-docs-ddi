@@ -7,7 +7,7 @@ old-location: display\d3dddi_hdr_metadata_hdr10.htm
 old-project: display
 ms.assetid: F7316327-C860-4138-A19B-3326CE9210C0
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDI_HDR_METADATA_HDR10, D3DDDI_HDR_METADATA_HDR10 structure [Display Devices], _D3DDDI_HDR_METADATA_HDR10, d3dukmdt/D3DDDI_HDR_METADATA_HDR10, display.d3dddi_hdr_metadata_hdr10
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dukmdt.h
 api_name:
 -	D3DDDI_HDR_METADATA_HDR10
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDI_HDR_METADATA_HDR10
 ---
@@ -50,22 +51,6 @@ req.typenames: D3DDDI_HDR_METADATA_HDR10
 
 
 Describes the metadata for HDR10.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DDDI_HDR_METADATA_HDR10 {
-  UINT16 RedPrimary[2];
-  UINT16 GreenPrimary[2];
-  UINT16 BluePrimary[2];
-  UINT   MaxMasteringLuminance;
-  UINT   MinMasteringLuminance;
-  UINT16 MaxContentLightLevel;
-  UINT16 MaxFrameAverageLightLevel;
-} D3DDDI_HDR_METADATA_HDR10;
-````
 
 
 ## -struct-fields

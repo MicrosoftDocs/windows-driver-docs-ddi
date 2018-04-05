@@ -7,7 +7,7 @@ old-location: storage\storportstatechangedetected.htm
 old-project: storage
 ms.assetid: 3E5E9C4E-5B82-4656-BDF2-23A9A8D40ADF
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: ATTRIBUTE_VM_PASSTHROUGH_LUN, STATE_CHANGE_BUS, STATE_CHANGE_LUN, STATE_CHANGE_TARGET, StorPortStateChangeDetected, StorPortStateChangeDetected routine [Storage Devices], storage.storportstatechangedetected, storport/StorPortStateChangeDetected
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: Any
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	storport.h
 api_name:
 -	StorPortStateChangeDetected
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STOR_SPINLOCK
 req.product: Windows 10 or later.
@@ -53,21 +54,6 @@ req.product: Windows 10 or later.
 Notifies the Storport port driver of a state change for a logical unit number (LUN), host bus adapter (HBA) port, or target device.
 
 
-## -syntax
-
-
-````
-ULONG StorPortStateChangeDetected(
-  _In_     PVOID            HwDeviceExtension,
-  _In_     ULONG            ChangedEntity,
-  _In_     PSTOR_ADDRESS    Address,
-  _In_     ULONG            Attributes,
-  _In_opt_ PHW_STATE_CHANGE HwStateChange,
-  _In_opt_ ULONG            HwStateChangeContext
-);
-````
-
-
 ## -parameters
 
 
@@ -75,7 +61,7 @@ ULONG StorPortStateChangeDetected(
 
 ### -param HwDeviceExtension [in]
 
-A pointer to the hardware device extension. This is a per-HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls <a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>. The port driver frees this memory when it removes the device.
+A pointer to the hardware device extension. This is a per-HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff567108">StorPortInitialize</a>. The port driver frees this memory when it removes the device.
 
 
 ### -param ChangedEntity [in]
@@ -227,13 +213,11 @@ If multiple flags are specified in <i>ChangedEntity</i>, the  flag with greater 
 
 ## -see-also
 
-<a href="..\storport\nc-storport-hw_state_change.md">HwStorStateChange</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451310">HwStorStateChange</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20StorPortStateChangeDetected routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

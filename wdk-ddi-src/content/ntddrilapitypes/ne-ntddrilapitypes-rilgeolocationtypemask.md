@@ -7,13 +7,13 @@ old-location: netvista\rilgeolocationtypemask.htm
 old-project: netvista
 ms.assetid: 8d1f6570-adc1-4389-b20b-7c7e05f1c9bf
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: RILGEOLOCATIONTYPEMASK, RILGEOLOCATIONTYPEMASK enumeration [Network Drivers Starting with Windows Vista], RIL_GEOLOCATION_ALL, RIL_GEOLOCATION_CIVIC, RIL_GEOLOCATION_LATLONG, netvista.rilgeolocationtypemask, ntddrilapitypes/RILGEOLOCATIONTYPEMASK, ntddrilapitypes/RIL_GEOLOCATION_ALL, ntddrilapitypes/RIL_GEOLOCATION_CIVIC, ntddrilapitypes/RIL_GEOLOCATION_LATLONG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: ntddrilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILGEOLOCATIONTYPEMASK
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILGEOLOCATIONTYPEMASK
 ---
@@ -50,18 +51,6 @@ req.typenames: RILGEOLOCATIONTYPEMASK
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef enum _RILGEOLOCATIONTYPEMASK { 
-  RIL_GEOLOCATION_CIVIC,
-  RIL_GEOLOCATION_LATLONG,
-  RIL_GEOLOCATION_ALL
-} RILGEOLOCATIONTYPEMASK;
-````
 
 
 ## -enum-fields

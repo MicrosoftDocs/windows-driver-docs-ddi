@@ -7,7 +7,7 @@ old-location: storage\removeconnectionfromsession_out.htm
 old-project: storage
 ms.assetid: 00c6c94e-06a8-40ec-8ddd-4a4191fa1ec6
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PRemoveConnectionFromSession_OUT, PRemoveConnectionFromSession_OUT, PRemoveConnectionFromSession_OUT structure pointer [Storage Devices], RemoveConnectionFromSession_OUT, RemoveConnectionFromSession_OUT structure [Storage Devices], _RemoveConnectionFromSession_OUT, iscsiop/PRemoveConnectionFromSession_OUT, iscsiop/RemoveConnectionFromSession_OUT, storage.removeconnectionfromsession_out, structs-iSCSI_a986a037-b861-4c2b-8402-86dbf7c09942.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	iscsiop.h
 api_name:
 -	RemoveConnectionFromSession_OUT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RemoveConnectionFromSession_OUT, *PRemoveConnectionFromSession_OUT
 ---
@@ -50,16 +51,6 @@ req.typenames: RemoveConnectionFromSession_OUT, *PRemoveConnectionFromSession_OU
 
 
 The RemoveConnectionFromSession_OUT structure holds the output data for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563973">RemoveConnectionFromSession</a> method, which is used to remove a connection from a session.
-
-
-## -syntax
-
-
-````
-typedef struct _RemoveConnectionFromSession_OUT {
-  ULONG Status;
-} RemoveConnectionFromSession_OUT, *PRemoveConnectionFromSession_OUT;
-````
 
 
 ## -struct-fields
@@ -83,13 +74,11 @@ You must implement this class.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563973">RemoveConnectionFromSession</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20RemoveConnectionFromSession_OUT structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

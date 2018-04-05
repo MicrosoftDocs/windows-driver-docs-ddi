@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSMETHOD_SET
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSMETHOD_SET, *PKSMETHOD_SET
 ---
@@ -50,20 +51,6 @@ req.typenames: KSMETHOD_SET, *PKSMETHOD_SET
 
 
 The KSMETHOD_SET structure describes the methods that comprise a kernel streaming method set.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  const GUID              *Set;
-  ULONG                   MethodsCount;
-  const KSMETHOD_ITEM     *MethodItem;
-  ULONG                   FastIoCount;
-  const KSFASTMETHOD_ITEM *FastIoTable;
-} KSMETHOD_SET, *PKSMETHOD_SET;
-````
 
 
 ## -struct-fields
@@ -83,7 +70,7 @@ Specifies the number of methods in this method set.
 
 ### -field MethodItem
 
-Points to an array of <a href="..\ks\ns-ks-ksmethod_item.md">KSMETHOD_ITEM</a> structures. Each structure describes one method of the method set.
+Points to an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff563420">KSMETHOD_ITEM</a> structures. Each structure describes one method of the method set.
 
 
 ### -field FastIoCount
@@ -107,13 +94,11 @@ Microsoft provides several system-defined kernel streaming method set GUIDs. Min
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksmethod_item.md">KSMETHOD_ITEM</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563420">KSMETHOD_ITEM</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSMETHOD_SET structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

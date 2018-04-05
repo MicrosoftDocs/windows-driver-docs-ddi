@@ -7,7 +7,7 @@ old-location: storage\sm_getbindingsupport_in.htm
 old-project: storage
 ms.assetid: c89d86fe-fe8c-48d2-a5c2-7971ea96b7ad
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSM_GetBindingSupport_IN, PSM_GetBindingSupport_IN, PSM_GetBindingSupport_IN structure pointer [Storage Devices], SM_GetBindingSupport_IN, SM_GetBindingSupport_IN structure [Storage Devices], _SM_GetBindingSupport_IN, hbapiwmi/PSM_GetBindingSupport_IN, hbapiwmi/SM_GetBindingSupport_IN, storage.sm_getbindingsupport_in, structs-Fibre_f13c3a99-7626-4dda-b0f2-8505b7aff3b5.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	hbapiwmi.h
 api_name:
 -	SM_GetBindingSupport_IN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SM_GetBindingSupport_IN, *PSM_GetBindingSupport_IN
 ---
@@ -50,17 +51,6 @@ req.typenames: SM_GetBindingSupport_IN, *PSM_GetBindingSupport_IN
 
 
 The SM_GetBindingSupport_IN structure is used to provide input parameters to the SM_GetBindingSupport method.
-
-
-## -syntax
-
-
-````
-typedef struct _SM_GetBindingSupport_IN {
-  UCHAR HbaPortWWN[8];
-  UCHAR DomainPortWWN[8];
-} SM_GetBindingSupport_IN, *PSM_GetBindingSupport_IN;
-````
 
 
 ## -struct-fields

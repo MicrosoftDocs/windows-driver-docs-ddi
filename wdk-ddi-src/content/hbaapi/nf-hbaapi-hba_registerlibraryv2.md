@@ -7,7 +7,7 @@ old-location: storage\hba_registerlibraryv2.htm
 old-project: storage
 ms.assetid: 6e7c0aa1-5919-4451-8c5d-97d17c2ed192
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: HBA_RegisterLibraryV2, HBA_RegisterLibraryV2 function [Storage Devices], fibreHBA_rtns_1fc54b78-e8e8-46b0-a148-ce06f1a9f811.xml, hbaapi/HBA_RegisterLibraryV2, storage.hba_registerlibraryv2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	hbaapi.h
 api_name:
 -	HBA_RegisterLibraryV2
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: HBA_WWNTYPE
 ---
@@ -50,16 +51,6 @@ req.typenames: HBA_WWNTYPE
 
 
 
-
-
-## -syntax
-
-
-````
-  HBA_RegisterLibraryV2(
-    
-);
-````
 
 
 ## -parameters

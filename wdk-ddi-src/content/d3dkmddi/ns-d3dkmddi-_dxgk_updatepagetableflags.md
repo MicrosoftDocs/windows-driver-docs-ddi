@@ -7,7 +7,7 @@ old-location: display\dxgk_updatepagetableflags.htm
 old-project: display
 ms.assetid: E0E1CDE7-F1BF-44C8-A320-9BD90788679F
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: DXGK_UPDATEPAGETABLEFLAGS, DXGK_UPDATEPAGETABLEFLAGS structure [Display Devices], _DXGK_UPDATEPAGETABLEFLAGS, d3dkmddi/DXGK_UPDATEPAGETABLEFLAGS, display.dxgk_updatepagetableflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGK_UPDATEPAGETABLEFLAGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_UPDATEPAGETABLEFLAGS
 ---
@@ -50,20 +51,6 @@ req.typenames: DXGK_UPDATEPAGETABLEFLAGS
 
 
 <b>DXGK_UPDATEPAGETABLEFLAGS</b> is used as part of a page table update operation.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGK_UPDATEPAGETABLEFLAGS {
-  UINT Repeat  :1;
-  UINT InitialUpdate  :1;
-  UINT NotifyEviction  :1;
-  UINT Use64KBPages  :1;
-  UINT Reserved  :28;
-} DXGK_UPDATEPAGETABLEFLAGS;
-````
 
 
 ## -struct-fields

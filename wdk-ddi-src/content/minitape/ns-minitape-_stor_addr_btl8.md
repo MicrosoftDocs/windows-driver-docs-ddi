@@ -7,7 +7,7 @@ old-location: storage\stor_addr_btl8.htm
 old-project: storage
 ms.assetid: 53C8A5D4-4D8B-4D3E-A350-B3BBAC7F8C71
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSTOR_ADDR_BTL8, PSTOR_ADDR_BTL8, PSTOR_ADDR_BTL8 structure pointer [Storage Devices], STOR_ADDR_BTL8, STOR_ADDR_BTL8 structure [Storage Devices], _STOR_ADDR_BTL8, storage.stor_addr_btl8, storport/PSTOR_ADDR_BTL8, storport/STOR_ADDR_BTL8"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Storport.h
 api_name:
 -	STOR_ADDR_BTL8
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STOR_ADDR_BTL8, *PSTOR_ADDR_BTL8
 ---
@@ -52,22 +53,6 @@ req.typenames: STOR_ADDR_BTL8, *PSTOR_ADDR_BTL8
 
    The <b>STOR_ADDR_BTL8</b> address structure contains the addressing information for an 8-bit Bus-Target-LUN (BTL8) address.
   
-
-
-## -syntax
-
-
-````
-typedef struct _STOR_ADDR_BTL8 {
-  USHORT Type;
-  USHORT Port;
-  ULONG  AddressLength;
-  UCHAR  Path;
-  UCHAR  Target;
-  UCHAR  Lun;
-  UCHAR  Reserved;
-} STOR_ADDR_BTL8, *PSTOR_ADDR_BTL8;
-````
 
 
 ## -struct-fields
@@ -112,13 +97,11 @@ Reserved, set to 0.
 
 ## -see-also
 
-<a href="..\storport\ns-storport-_stor_address.md">STOR_ADDRESS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451518">STOR_ADDRESS</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20STOR_ADDR_BTL8 structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

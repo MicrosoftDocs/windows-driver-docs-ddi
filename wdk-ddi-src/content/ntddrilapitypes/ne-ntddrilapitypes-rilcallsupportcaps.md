@@ -7,13 +7,13 @@ old-location: netvista\rilcallsupportcaps.htm
 old-project: netvista
 ms.assetid: 1573a1bd-8c47-4fdc-89d1-242e91ff0e47
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: RILCALLSUPPORTCAPS, RILCALLSUPPORTCAPS enumeration [Network Drivers Starting with Windows Vista], RIL_CAPS_CALLSUPPORT_ALL, RIL_CAPS_CALLSUPPORT_CD, RIL_CAPS_CALLSUPPORT_CNAP, RIL_CAPS_CALLSUPPORT_CUG, RIL_CAPS_CALLSUPPORT_EMLPP, RIL_CAPS_CALLSUPPORT_FM, RIL_CAPS_CALLSUPPORT_MSP, RIL_CAPS_CALLSUPPORT_USS, RIL_CAPS_CALLSUPPORT_USSD_PHASE2, netvista.rilcallsupportcaps, ntddrilapitypes/RILCALLSUPPORTCAPS, ntddrilapitypes/RIL_CAPS_CALLSUPPORT_ALL, ntddrilapitypes/RIL_CAPS_CALLSUPPORT_CD, ntddrilapitypes/RIL_CAPS_CALLSUPPORT_CNAP, ntddrilapitypes/RIL_CAPS_CALLSUPPORT_CUG, ntddrilapitypes/RIL_CAPS_CALLSUPPORT_EMLPP, ntddrilapitypes/RIL_CAPS_CALLSUPPORT_FM, ntddrilapitypes/RIL_CAPS_CALLSUPPORT_MSP, ntddrilapitypes/RIL_CAPS_CALLSUPPORT_USS, ntddrilapitypes/RIL_CAPS_CALLSUPPORT_USSD_PHASE2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: ntddrilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILCALLSUPPORTCAPS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILCALLSUPPORTCAPS
 ---
@@ -50,24 +51,6 @@ req.typenames: RILCALLSUPPORTCAPS
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef enum _RILCALLSUPPORTCAPS { 
-  RIL_CAPS_CALLSUPPORT_CD,
-  RIL_CAPS_CALLSUPPORT_CNAP,
-  RIL_CAPS_CALLSUPPORT_CUG,
-  RIL_CAPS_CALLSUPPORT_EMLPP,
-  RIL_CAPS_CALLSUPPORT_FM,
-  RIL_CAPS_CALLSUPPORT_MSP,
-  RIL_CAPS_CALLSUPPORT_USSD_PHASE2,
-  RIL_CAPS_CALLSUPPORT_USS,
-  RIL_CAPS_CALLSUPPORT_ALL
-} RILCALLSUPPORTCAPS;
-````
 
 
 ## -enum-fields

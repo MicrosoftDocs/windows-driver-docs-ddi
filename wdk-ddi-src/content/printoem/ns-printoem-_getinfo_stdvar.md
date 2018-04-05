@@ -7,7 +7,7 @@ old-location: print\getinfo_stdvar.htm
 old-project: print
 ms.assetid: 9f2ae88c-34a4-46b3-9571-5f2f023b7d6b
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: "*PGETINFO_STDVAR, GETINFO_STDVAR, GETINFO_STDVAR structure [Print Devices], PGETINFO_STDVAR, PGETINFO_STDVAR structure pointer [Print Devices], _GETINFO_STDVAR, print.getinfo_stdvar, print_unidrv-pscript_rendering_3a08d48b-215f-4acc-89ef-849a2b826ce7.xml, printoem/GETINFO_STDVAR, printoem/PGETINFO_STDVAR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	printoem.h
 api_name:
 -	GETINFO_STDVAR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GETINFO_STDVAR, *PGETINFO_STDVAR
 req.product: Windows 10 or later.
@@ -51,21 +52,6 @@ req.product: Windows 10 or later.
 
 
 The GETINFO_STDVAR structure is used as input to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563594">UNIFONTOBJ_GetInfo</a> callback function.
-
-
-## -syntax
-
-
-````
-typedef struct _GETINFO_STDVAR {
-  DWORD  dwSize;
-  DWORD  dwNumOfVariable;
-  struct {
-    DWORD dwStdVarID;
-    LONG  lStdVariable;
-  } StdVar[1];
-} GETINFO_STDVAR, *PGETINFO_STDVAR;
-````
 
 
 ## -struct-fields
@@ -261,13 +247,11 @@ For more information about <a href="https://msdn.microsoft.com/d3f85c0f-7387-430
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563594">UNIFONTOBJ_GetInfo</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20GETINFO_STDVAR structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

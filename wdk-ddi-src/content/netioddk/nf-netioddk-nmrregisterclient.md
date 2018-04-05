@@ -7,7 +7,7 @@ old-location: netvista\nmrregisterclient.htm
 old-project: netvista
 ms.assetid: 9a8d2bc1-a75a-449d-8cfe-9d1f16a9dbb7
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: NmrRegisterClient, NmrRegisterClient function [Network Drivers Starting with Windows Vista], netioddk/NmrRegisterClient, netvista.nmrregisterclient, nmrref_245036b1-3c92-46e6-bc7d-763e91e8b9f3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Netio.dll
 api_name:
 -	NmrRegisterClient
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NET_DMA_PROVIDER_CHARACTERISTICS, *PNET_DMA_PROVIDER_CHARACTERISTICS
 ---
@@ -54,18 +55,6 @@ The
   <b>NmrRegisterClient</b> function registers a client module with the NMR.
 
 
-## -syntax
-
-
-````
-NTSTATUS NmrRegisterClient(
-  _In_  PNPI_CLIENT_CHARACTERISTICS ClientCharacteristics,
-  _In_  PVOID                       ClientContext,
-  _Out_ PHANDLE                     NmrClientHandle
-);
-````
-
-
 ## -parameters
 
 
@@ -74,7 +63,7 @@ NTSTATUS NmrRegisterClient(
 ### -param ClientCharacteristics [in]
 
 A pointer to an 
-     <a href="..\netioddk\ns-netioddk-_npi_client_characteristics.md">
+     <a href="https://msdn.microsoft.com/03d73a80-0860-4ec7-8eb1-5954f64b6026">
      NPI_CLIENT_CHARACTERISTICS</a> structure that describes the characteristics of the client module. The
      client module must make sure that this structure remains valid and resident in memory as long as the
      client module is registered with the NMR.
@@ -86,7 +75,7 @@ A pointer to a caller-supplied context for the registration. The client module u
      to keep track of the state of the client registration. The contents of the client module's registration
      context are opaque to the NMR. The NMR passes this pointer to the client module whenever it calls the
      client module's 
-     <a href="..\netioddk\nc-netioddk-npi_client_attach_provider_fn.md">ClientAttachProvider</a> callback
+     <a href="https://msdn.microsoft.com/8f8abdb1-d018-4404-a80a-74017c324a0f">ClientAttachProvider</a> callback
      function. The client module must make sure that its registration context remains valid and resident in
      memory as long as the client module is registered with the NMR.
 
@@ -95,7 +84,7 @@ A pointer to a caller-supplied context for the registration. The client module u
 
 A pointer to a variable that receives a handle used by the NMR to represent the registration of
      the client module. The client module must save this handle and pass it as a parameter to the 
-     <a href="..\netioddk\nf-netioddk-nmrderegisterclient.md">NmrDeregisterClient</a> function when it
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568774">NmrDeregisterClient</a> function when it
      deregisters from the NMR.
 
 
@@ -162,7 +151,7 @@ A client module calls the
 
 A client module typically calls the 
     <b>NmrRegisterClient</b> function from its 
-    <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> function after it has completed
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> function after it has completed
     all other initialization tasks. The call to the 
     <b>NmrRegisterClient</b> function indicates to the NMR that the client module is ready to attach to any
     provider modules that have registered or will register as providers of the same 
@@ -174,21 +163,19 @@ A client module typically calls the
 
 ## -see-also
 
-<a href="..\netioddk\ns-netioddk-_npi_client_characteristics.md">NPI_CLIENT_CHARACTERISTICS</a>
 
 
 
-<a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a>
 
 
 
-<a href="..\netioddk\nf-netioddk-nmrderegisterclient.md">NmrDeregisterClient</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568812">NPI_CLIENT_CHARACTERISTICS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568774">NmrDeregisterClient</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NmrRegisterClient function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

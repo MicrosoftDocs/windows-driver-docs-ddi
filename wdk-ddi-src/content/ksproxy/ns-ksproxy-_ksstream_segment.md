@@ -38,7 +38,8 @@ api_location:
 -	ksproxy.h
 api_name:
 -	KSSTREAM_SEGMENT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: "*PKSSTREAM_SEGMENT, KSSTREAM_SEGMENT"
 ---
@@ -52,19 +53,6 @@ req.typenames: "*PKSSTREAM_SEGMENT, KSSTREAM_SEGMENT"
 The KSSTREAM_SEGMENT structure contains information that describes an I/O operation occurring on a stream.
 
 
-## -syntax
-
-
-````
-typedef struct _KSSTREAM_SEGMENT {
-  IKsInterfaceHandler *KsInterfaceHandler;
-  IKsDataTypeHandler  *KsDataTypeHandler;
-  KSIOOPERATION       IoOperation;
-  HANDLE              CompletionEvent;
-} KSSTREAM_SEGMENT, *PKSSTREAM_SEGMENT;
-````
-
-
 ## -struct-fields
 
 
@@ -72,12 +60,12 @@ typedef struct _KSSTREAM_SEGMENT {
 
 ### -field KsInterfaceHandler
 
-Pointer to a <a href="..\ksproxy\nn-ksproxy-iksinterfacehandler.md">IKsInterfaceHandler</a> interface for the I/O operation.
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff559855">IKsInterfaceHandler</a> interface for the I/O operation.
 
 
 ### -field KsDataTypeHandler
 
-Pointer to a <a href="..\ksproxy\nn-ksproxy-iksdatatypehandler.md">IKsDataTypeHandler</a> interface for the I/O operation.
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff559807">IKsDataTypeHandler</a> interface for the I/O operation.
 
 
 ### -field IoOperation
@@ -120,11 +108,14 @@ Handle to an event that is used to signal that the I/O operation completed.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560713">IKsPin::KsMediaSamplesCompleted</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559869">IKsInterfaceHandler::KsProcessMediaSamples</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559807">IKsDataTypeHandler</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559855">IKsInterfaceHandler</a>
 
 
 
@@ -132,17 +123,12 @@ Handle to an event that is used to signal that the I/O operation completed.
 
 
 
-<a href="..\ksproxy\nn-ksproxy-iksdatatypehandler.md">IKsDataTypeHandler</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559869">IKsInterfaceHandler::KsProcessMediaSamples</a>
 
 
 
-<a href="..\ksproxy\nn-ksproxy-iksinterfacehandler.md">IKsInterfaceHandler</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560713">IKsPin::KsMediaSamplesCompleted</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSSTREAM_SEGMENT structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

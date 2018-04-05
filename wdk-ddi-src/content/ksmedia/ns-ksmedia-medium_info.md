@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	MEDIUM_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MEDIUM_INFO, *PMEDIUM_INFO
 ---
@@ -50,18 +51,6 @@ req.typenames: MEDIUM_INFO, *PMEDIUM_INFO
 
 
 The MEDIUM_INFO structure describes the media loaded into an external device.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  BOOL  MediaPresent;
-  ULONG MediaType;
-  BOOL  RecordInhibit;
-} MEDIUM_INFO, *PMEDIUM_INFO;
-````
 
 
 ## -struct-fields

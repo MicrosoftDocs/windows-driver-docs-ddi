@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSQUERYBUFFER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSQUERYBUFFER, *PKSQUERYBUFFER
 ---
@@ -50,18 +51,6 @@ req.typenames: KSQUERYBUFFER, *PKSQUERYBUFFER
 
 
 The KSQUERYBUFFER structure is used when querying for outstanding buffers available on an event with KSEVENT_TYPE_QUERYBUFFER<b>.</b>
-
-
-## -syntax
-
-
-````
-typedef struct {
-  KSEVENT      Event;
-  PKSEVENTDATA EventData;
-  PVOID        Reserved;
-} KSQUERYBUFFER, *PKSQUERYBUFFER;
-````
 
 
 ## -struct-fields
@@ -76,7 +65,7 @@ Specifies the description of the original event, with the KSEVENT_TYPE_QUERYBUFF
 
 ### -field EventData
 
-A pointer to a <a href="..\ks\ns-ks-kseventdata.md">KSEVENTDATA</a> structure. This is the same pointer supplied to <a href="..\ks\nc-ks-pfnksaddevent.md">AVStrMiniAddEvent</a> at event enable time. This pointer is used as the unique identifier in locating the event, just as it is used when disabling the event.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff561750">KSEVENTDATA</a> structure. This is the same pointer supplied to <a href="https://msdn.microsoft.com/library/windows/hardware/ff554260">AVStrMiniAddEvent</a> at event enable time. This pointer is used as the unique identifier in locating the event, just as it is used when disabling the event.
 
 
 ### -field Reserved
@@ -157,17 +146,15 @@ life is good.
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksbuffer_item.md">KSBUFFER_ITEM</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560992">KSBUFFER_ITEM</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561744">KSEVENT</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSQUERYBUFFER structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

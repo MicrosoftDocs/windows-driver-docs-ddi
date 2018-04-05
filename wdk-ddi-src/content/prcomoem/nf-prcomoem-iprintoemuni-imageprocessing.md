@@ -7,7 +7,7 @@ old-location: print\iprintoemuni_imageprocessing.htm
 old-project: print
 ms.assetid: 201450cb-cda6-4dd3-93ee-056d1627b00d
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: IPrintOemUni, IPrintOemUni interface [Print Devices], ImageProcessing method, IPrintOemUni::ImageProcessing, ImageProcessing method [Print Devices], ImageProcessing method [Print Devices], IPrintOemUni interface, ImageProcessing,IPrintOemUni.ImageProcessing, prcomoem/IPrintOemUni::ImageProcessing, print.iprintoemuni_imageprocessing, print_unidrv-pscript_rendering_7b1177ff-0077-4bee-9469-7825f42323eb.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: prcomoem.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	prcomoem.h
 api_name:
 -	IPrintOemUni.ImageProcessing
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
@@ -53,22 +54,6 @@ req.product: Windows 10 or later.
 The <code>IPrintOemUni::ImageProcessing</code> method can be used with Unidrv-supported printers to modify image bitmap data, in order to perform color formatting or halftoning. The method can return the modified bitmap to Unidrv or send it directly to the print spooler.
 
 
-## -syntax
-
-
-````
-HRESULT ImageProcessing(
-        PDEVOBJ           pdevobj,
-        PBYTE             pSrcBitmap,
-        PBITMAPINFOHEADER pBitmapInfoHeader,
-        PBYTE             pColorTable,
-        DWORD             dwCallbackID,
-        PIPPARAMS         pIPParams,
-  [out] PBYTE             *ppbResult
-);
-````
-
-
 ## -parameters
 
 
@@ -76,7 +61,7 @@ HRESULT ImageProcessing(
 
 ### -param pdevobj
 
-Caller-supplied pointer to a <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a> structure.
+Caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547573">DEVOBJ</a> structure.
 
 
 ### -param pSrcBitmap
@@ -103,7 +88,7 @@ Caller-supplied value assigned to the *<b>IPCallbackID</b> attribute of the curr
 
 ### -param pIPParams
 
-Caller-supplied pointer to an <a href="..\printoem\ns-printoem-ipparams.md">IPPARAMS</a> structure.
+Caller-supplied pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551953">IPPARAMS</a> structure.
 
 
 ### -param ppbResult [out]
@@ -182,7 +167,7 @@ If the method is performing only halftoning operations, it must do the following
 
 <ul>
 <li>
-Perform halftoning operations on the data, as indicated by the <b>pHalftoneOption</b> member of the <a href="..\printoem\ns-printoem-ipparams.md">IPPARAMS</a> structure.
+Perform halftoning operations on the data, as indicated by the <b>pHalftoneOption</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551953">IPPARAMS</a> structure.
 
 </li>
 <li>
@@ -200,7 +185,7 @@ Convert DIB data, described by the <i>pSrcBitmap</i> and <i>pBitmapInfoHeader</i
 
 </li>
 <li>
-Perform halftoning operations on the data, as indicated by the <b>pHalftoneOption</b> member of the <a href="..\printoem\ns-printoem-ipparams.md">IPPARAMS</a> structure.
+Perform halftoning operations on the data, as indicated by the <b>pHalftoneOption</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551953">IPPARAMS</a> structure.
 
 </li>
 <li>
@@ -218,7 +203,7 @@ The <i>dwCallbackID</i> parameter indicates the type of color formatting, if any
 
 Whether the <code>IPrintOemUni::ImageProcessing</code> method is performing color formatting operations and spooling image data, or just performing halftoning operations and returning processed bitmaps to Unidrv, it should export an <a href="https://msdn.microsoft.com/library/windows/hardware/ff554264">IPrintOemUni::MemoryUsage</a> method if it allocates significant amounts of memory for destination bitmaps or other purposes. Otherwise, system performance might be degraded.
 
-If the method is implemented, it is called for every raster region on the page. However, if a region is blank, the <b>bBlankBand</b> member of the <a href="..\printoem\ns-printoem-ipparams.md">IPPARAMS</a> structure is set to <b>TRUE</b>, which indicates the block is blank and the data is invalid. Because a band can be broken up into alternating blocks of blank and nonblank regions to optimize performance, the block size does not always correspond to the band size.
+If the method is implemented, it is called for every raster region on the page. However, if a region is blank, the <b>bBlankBand</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551953">IPPARAMS</a> structure is set to <b>TRUE</b>, which indicates the block is blank and the data is invalid. Because a band can be broken up into alternating blocks of blank and nonblank regions to optimize performance, the block size does not always correspond to the band size.
 
 The source bitmap described by <i>pSrcBitmap</i> and <i>pBitmapInfoHeader</i> has the following characteristics:
 
@@ -274,7 +259,6 @@ The <code>IPrintOemUni::ImageProcessing</code> method is optional. If a renderin
 
 ## -see-also
 
-<a href="..\prcomoem\nn-prcomoem-iprintoemuni.md">IPrintOemUni</a>
 
 
 
@@ -282,13 +266,12 @@ The <code>IPrintOemUni::ImageProcessing</code> method is optional. If a renderin
 
 
 
+<a href="https://msdn.microsoft.com/097366a0-2ded-435c-9b63-2b736b716032">IPrintOemUni</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554252">IPrintOemUni::FilterGraphics</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintOemUni::ImageProcessing method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

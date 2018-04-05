@@ -7,7 +7,7 @@ old-location: image\scaninfo.htm
 old-project: image
 ms.assetid: 58a0cc96-7180-4823-a4af-bf2d5fa49474
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/27/2018
 ms.keywords: "*PSCANINFO, MicroDrv_42f31c58-206a-468e-98ff-794c69b82457.xml, PSCANINFO, PSCANINFO structure pointer [Imaging Devices], SCANINFO, SCANINFO structure [Imaging Devices], _SCANINFO, image.scaninfo, wiamicro/PSCANINFO, wiamicro/SCANINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	wiamicro.h
 api_name:
 -	SCANINFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SCANINFO, *PSCANINFO
 req.product: Windows 10 or later.
@@ -51,51 +52,6 @@ req.product: Windows 10 or later.
 
 
 The SCANINFO structure is used to store and communicate information about a scan acquisition. The WIA Flatbed Driver reads values from the SCANINFO structure, but never writes values. It is the microdriver's responsibility to set values for the SCANINFO members.
-
-
-## -syntax
-
-
-````
-typedef struct _SCANINFO {
-  LONG       ADF;
-  LONG       TPA;
-  LONG       Endorser;
-  LONG       OpticalXResolution;
-  LONG       OpticalYResolution;
-  LONG       BedWidth;
-  LONG       BedHeight;
-  RANGEVALUE IntensityRange;
-  RANGEVALUE ContrastRange;
-  LONG       SupportedCompressionType;
-  LONG       SupportedDataTypes;
-  LONG       WidthPixels;
-  LONG       WidthBytes;
-  LONG       Lines;
-  LONG       DataType;
-  LONG       PixelBits;
-  LONG       Intensity;
-  LONG       Contrast;
-  LONG       Xresolution;
-  LONG       Yresolution;
-  SCANWINDOW Window;
-  LONG       DitherPattern;
-  LONG       Negative;
-  LONG       Mirror;
-  LONG       AutoBack;
-  LONG       ColorDitherPattern;
-  LONG       ToneMap;
-  LONG       Compression;
-  LONG       RawDataFormat;
-  LONG       RawPixelOrder;
-  LONG       bNeedDataAlignment;
-  LONG       DelayBetweenRead;
-  LONG       MaxBufferSize;
-  HANDLE     DeviceIOHandles[MAX_IO_HANDLES];
-  LONG       lReserved[MAX_RESERVED];
-  VOID       *pMicroDriverContext;
-} SCANINFO, *PSCANINFO;
-````
 
 
 ## -struct-fields
@@ -440,7 +396,7 @@ Specifies whether data alignment is needed for the scanner. The value can be:
 
 ### -field DelayBetweenRead
 
-Specifies the time delay in milliseconds between <a href="..\wiamicro\nf-wiamicro-scan.md">Scan</a> function calls that the scanner can support.
+Specifies the time delay in milliseconds between <a href="https://msdn.microsoft.com/library/windows/hardware/dn915807">Scan</a> function calls that the scanner can support.
 
 
 ### -field MaxBufferSize
@@ -467,24 +423,22 @@ Points to the microdriver's context. <i>This member is defined only for Microsof
 
 
 
-This structure is used as a parameter in the microdriver's <a href="..\wiamicro\nf-wiamicro-setpixelwindow.md">SetPixelWindow</a>, and <a href="..\wiamicro\nf-wiamicro-scan.md">Scan</a> functions.
+This structure is used as a parameter in the microdriver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff548129">SetPixelWindow</a>, and <a href="https://msdn.microsoft.com/library/windows/hardware/dn915807">Scan</a> functions.
 
 
 
 
 ## -see-also
 
-<a href="..\wiamicro\nf-wiamicro-scan.md">Scan</a>
 
 
 
-<a href="..\wiamicro\nf-wiamicro-setpixelwindow.md">SetPixelWindow</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn915807">Scan</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548129">SetPixelWindow</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20SCANINFO structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

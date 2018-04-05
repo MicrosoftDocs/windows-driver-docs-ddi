@@ -7,7 +7,7 @@ old-location: display\dxgk_gdirop_colorfill.htm
 old-project: display
 ms.assetid: 1ef99bb0-855a-46d1-9702-5fc3eba5e68e
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: DXGK_GDIROPCF_DSTINVERT, DXGK_GDIROPCF_INVALID, DXGK_GDIROPCF_PATAND, DXGK_GDIROPCF_PATCOPY, DXGK_GDIROPCF_PATINVERT, DXGK_GDIROPCF_PATOR, DXGK_GDIROPCF_PDXN, DXGK_GDIROPCF_ROP3, DXGK_GDIROP_COLORFILL, DXGK_GDIROP_COLORFILL enumeration [Display Devices], DmEnums_eaf6bb81-110e-428b-9dc8-22d152bce5b9.xml, _DXGK_GDIROP_COLORFILL, d3dkmddi/DXGK_GDIROPCF_DSTINVERT, d3dkmddi/DXGK_GDIROPCF_INVALID, d3dkmddi/DXGK_GDIROPCF_PATAND, d3dkmddi/DXGK_GDIROPCF_PATCOPY, d3dkmddi/DXGK_GDIROPCF_PATINVERT, d3dkmddi/DXGK_GDIROPCF_PATOR, d3dkmddi/DXGK_GDIROPCF_PDXN, d3dkmddi/DXGK_GDIROPCF_ROP3, d3dkmddi/DXGK_GDIROP_COLORFILL, display.dxgk_gdirop_colorfill
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGK_GDIROP_COLORFILL
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_GDIROP_COLORFILL
 ---
@@ -50,23 +51,6 @@ req.typenames: DXGK_GDIROP_COLORFILL
 
 
 The DXGK_GDIROP_COLORFILL enumeration indicates the type of GDI raster operation (ROP) to implement in a GDI hardware-accelerated color fill operation.
-
-
-## -syntax
-
-
-````
-typedef enum _DXGK_GDIROP_COLORFILL { 
-  DXGK_GDIROPCF_INVALID    = 0,
-  DXGK_GDIROPCF_PATCOPY    = 1,
-  DXGK_GDIROPCF_PATINVERT  = 2,
-  DXGK_GDIROPCF_PDXN       = 3,
-  DXGK_GDIROPCF_DSTINVERT  = 4,
-  DXGK_GDIROPCF_PATAND     = 5,
-  DXGK_GDIROPCF_PATOR      = 6,
-  DXGK_GDIROPCF_ROP3       = 7
-} DXGK_GDIROP_COLORFILL;
-````
 
 
 ## -enum-fields

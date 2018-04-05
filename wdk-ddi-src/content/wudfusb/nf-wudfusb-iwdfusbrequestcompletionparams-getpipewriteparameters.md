@@ -7,7 +7,7 @@ old-location: wdf\iwdfusbrequestcompletionparams_getpipewriteparameters.htm
 old-project: wdf
 ms.assetid: c6824215-0c16-471e-aea9-1b5cbeb2286b
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/26/2018
 ms.keywords: GetPipeWriteParameters method, GetPipeWriteParameters method, IWDFUsbRequestCompletionParams interface, GetPipeWriteParameters,IWDFUsbRequestCompletionParams.GetPipeWriteParameters, IWDFUsbRequestCompletionParams, IWDFUsbRequestCompletionParams interface, GetPipeWriteParameters method, IWDFUsbRequestCompletionParams::GetPipeWriteParameters, UMDFRequestObjectRef_430256d1-89c8-4ef7-9385-8ae29d848f57.xml, umdf.iwdfusbrequestcompletionparams_getpipewriteparameters, wdf.iwdfusbrequestcompletionparams_getpipewriteparameters, wudfusb/IWDFUsbRequestCompletionParams::GetPipeWriteParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support: Unavailable in UMDF 2.0 and later.
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: wudfusb.h
+req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFUsbRequestCompletionParams.GetPipeWriteParameters
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
@@ -55,18 +56,6 @@ req.product: Windows 10 or later.
 The <b>GetPipeWriteParameters</b> method retrieves parameters that are associated with the completion of a write request.
 
 
-## -syntax
-
-
-````
-void GetPipeWriteParameters(
-  [out, optional] IWDFMemory **ppWriteMemory,
-  [out, optional] SIZE_T     *pBytesWritten,
-  [out, optional] SIZE_T     *pWriteMemoryOffset
-);
-````
-
-
 ## -parameters
 
 
@@ -74,7 +63,7 @@ void GetPipeWriteParameters(
 
 ### -param ppWriteMemory [out, optional]
 
-A pointer to a variable that receives a pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a> interface, for access to the write buffer for the write request. This parameter is optional and can be <b>NULL</b>.
+A pointer to a variable that receives a pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559249">IWDFMemory</a> interface, for access to the write buffer for the write request. This parameter is optional and can be <b>NULL</b>.
 
 
 ### -param pBytesWritten [out, optional]
@@ -98,17 +87,15 @@ None
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a>
 
 
 
-<a href="..\wudfusb\nn-wudfusb-iwdfusbrequestcompletionparams.md">IWDFUsbRequestCompletionParams</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559249">IWDFMemory</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560346">IWDFUsbRequestCompletionParams</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFUsbRequestCompletionParams::GetPipeWriteParameters method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

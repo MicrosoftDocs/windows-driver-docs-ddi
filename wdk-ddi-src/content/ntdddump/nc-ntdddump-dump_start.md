@@ -7,7 +7,7 @@ old-location: storage\dump_start.htm
 old-project: storage
 ms.assetid: a315f51f-069a-4c3d-bedc-2378b0996022
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: Dump_Start, Dump_Start routine [Storage Devices], PDUMP_START, filter_rtns_071f1e6c-9471-47ef-bf40-6429a798b792.xml, ntdddump/Dump_Start, storage.dump_start
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntdddump.h
 api_name:
 -	Dump_Start
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VERIFY_INFORMATION, *PVERIFY_INFORMATION
 ---
@@ -52,19 +53,6 @@ req.typenames: VERIFY_INFORMATION, *PVERIFY_INFORMATION
 The <i>Dump_Start</i> callback routine is called after initializing the dump driver and just before starting the dump write process.
 
 
-## -prototype
-
-
-````
-PDUMP_START Dump_Start;
-
-NTSTATUS Dump_Start(
-  _In_ PFILTER_EXTENSION FilterExtension
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -72,7 +60,7 @@ NTSTATUS Dump_Start(
 
 ### -param FilterExtension [in]
 
-A pointer to a <a href="..\ntdddump\ns-ntdddump-_filter_extension.md">FILTER_EXTENSION</a> structure.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff553862">FILTER_EXTENSION</a> structure.
 
 
 ## -returns
@@ -86,13 +74,11 @@ If the routine succeeds, it must return STATUS_SUCCESS. Otherwise, it must retur
 
 ## -see-also
 
-<a href="..\ntdddump\ns-ntdddump-_filter_extension.md">FILTER_EXTENSION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553862">FILTER_EXTENSION</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20Dump_Start routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -38,7 +38,8 @@ api_location:
 -	1.0\Sercx.h
 api_name:
 -	EvtSerCxFileCleanup
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SENSOR_VALUE_PAIR, *PSENSOR_VALUE_PAIR
 req.product: Windows 10 or later.
@@ -51,19 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <i>EvtSerCxFileCleanup</i> event callback function notifies the serial controller driver that a client has closed the last handle to the file object that represents the serial controller device.
-
-
-## -prototype
-
-
-````
-EVT_SERCX_FILECLEANUP EvtSerCxFileCleanup;
-
-VOID EvtSerCxFileCleanup(
-  _In_ WDFDEVICE Device
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -89,7 +77,7 @@ None.
 
 
 
-This function can deallocate certain system resources that the driver previously allocated for the lifetime of the file object. In conjunction with the <a href="..\sercx\nc-sercx-evt_sercx_fileclose.md">EvtSerCxFileClose</a> function, the <i>EvtSerCxFileCleanup</i> function should remove the serial controller device from the state in which it is ready to receive and transmit data. The <i>EvtSerCxFileCleanup</i> function should focus specifically on clean-up tasks, such as deallocating memory.
+This function can deallocate certain system resources that the driver previously allocated for the lifetime of the file object. In conjunction with the <a href="https://msdn.microsoft.com/C72CA6D0-DD85-46AC-9CE3-BE11233475C0">EvtSerCxFileClose</a> function, the <i>EvtSerCxFileCleanup</i> function should remove the serial controller device from the state in which it is ready to receive and transmit data. The <i>EvtSerCxFileCleanup</i> function should focus specifically on clean-up tasks, such as deallocating memory.
 
 If the serial controller driver previously allocated memory only for the lifetime of the file object that is now closed, the driver should deallocate this memory in either the <i>EvtSerCxFileCleanup</i> or <i>EvtSerCxFileClose</i> function.
 
@@ -101,7 +89,7 @@ SerCx calls a driver's <i>EvtSerCxFileClose</i> function after it calls the driv
 
 The <i>EvtSerCxFileCleanup</i> function is optional. If a serial controller driver does not implement this function, the driver's <i>EvtSerCxFileClose</i> function must handle all clean-up tasks that are required after the last file handle is closed.
 
-To register an <i>EvtSerCxFileCleanup</i> callback function, the driver must call the <a href="..\sercx\nf-sercx-sercxinitialize.md">SerCxInitialize</a> method.
+To register an <i>EvtSerCxFileCleanup</i> callback function, the driver must call the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406711">SerCxInitialize</a> method.
 
 For more information, see <a href="https://msdn.microsoft.com/93ec5dd7-8ef0-4cea-9253-ea5d7869d4b8">Framework File Objects</a>.
 
@@ -159,17 +147,15 @@ For more information about SDV requirements for function declarations, see <a hr
 
 ## -see-also
 
-<a href="..\sercx\nc-sercx-evt_sercx_fileclose.md">EvtSerCxFileClose</a>
 
 
 
-<a href="..\sercx\nf-sercx-sercxinitialize.md">SerCxInitialize</a>
+<a href="https://msdn.microsoft.com/C72CA6D0-DD85-46AC-9CE3-BE11233475C0">EvtSerCxFileClose</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406711">SerCxInitialize</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [serports\serports]:%20EVT_SERCX_FILECLEANUP callback function%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

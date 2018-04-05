@@ -7,7 +7,7 @@ old-location: storage\track_information2.htm
 old-project: storage
 ms.assetid: 2fea2f8a-eb55-409c-80d2-c3f49ab6bfdf
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PTRACK_INFORMATION2, PTRACK_INFORMATION2, PTRACK_INFORMATION2 structure pointer [Storage Devices], TRACK_INFORMATION2, TRACK_INFORMATION2 structure [Storage Devices], _TRACK_INFORMATION2, scsi/PTRACK_INFORMATION2, scsi/TRACK_INFORMATION2, storage.track_information2, structs-CD-ROM_a77c4142-fe27-489b-ab9c-1637cf4b911d.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	scsi.h
 api_name:
 -	TRACK_INFORMATION2
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TRACK_INFORMATION2, *PTRACK_INFORMATION2
 ---
@@ -50,40 +51,6 @@ req.typenames: TRACK_INFORMATION2, *PTRACK_INFORMATION2
 
 
 The TRACK_INFORMATION2 structure is used to report track information.
-
-
-## -syntax
-
-
-````
-typedef struct _TRACK_INFORMATION2 {
-  UCHAR Length[2];
-  UCHAR TrackNumberLsb;
-  UCHAR SessionNumberLsb;
-  UCHAR Reserved4;
-  UCHAR TrackMode  :4;
-  UCHAR Copy  :1;
-  UCHAR Damage  :1;
-  UCHAR Reserved5  :2;
-  UCHAR DataMode  :4;
-  UCHAR FixedPacket  :1;
-  UCHAR Packet  :1;
-  UCHAR Blank  :1;
-  UCHAR ReservedTrack  :1;
-  UCHAR NWA_V  :1;
-  UCHAR LRA_V  :1;
-  UCHAR Reserved6  :6;
-  UCHAR TrackStartAddress[4];
-  UCHAR NextWritableAddress[4];
-  UCHAR FreeBlocks[4];
-  UCHAR FixedPacketSize[4];
-  UCHAR TrackSize[4];
-  UCHAR LastRecordedAddress[4];
-  UCHAR TrackNumberMsb;
-  UCHAR SessionNumberMsb;
-  UCHAR Reserved7[2];
-} TRACK_INFORMATION2, *PTRACK_INFORMATION2;
-````
 
 
 ## -struct-fields

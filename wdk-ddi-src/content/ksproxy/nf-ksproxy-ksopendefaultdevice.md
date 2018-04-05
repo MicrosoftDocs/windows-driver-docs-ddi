@@ -39,7 +39,8 @@ api_location:
 -	Ksproxy.dll
 api_name:
 -	KsOpenDefaultDevice
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PIPE_STATE
 ---
@@ -51,18 +52,6 @@ req.typenames: PIPE_STATE
 
 
 The <b>KsOpenDefaultDevice</b> function opens a handle to the first device that is listed in the specified Plug and Play (PnP) category. 
-
-
-## -syntax
-
-
-````
-HRESULT KsOpenDefaultDevice(
-  _In_  REFGUID     Category,
-  _In_  ACCESS_MASK Access,
-  _Out_ PHANDLE     DeviceHandle
-);
-````
 
 
 ## -parameters

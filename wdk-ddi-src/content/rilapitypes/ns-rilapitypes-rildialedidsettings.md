@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILDIALEDIDSETTINGS
 title: RILDIALEDIDSETTINGS
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rildialedidsettings_2.htm
+old-location: netvista\rildialedidsettings.htm
 old-project: netvista
-ms.assetid: 6c65644b-f3a4-4c7d-91ce-c4b2b1e611e7
+ms.assetid: e68ed118-76c7-44ff-a10f-dc64f1ce2d0e
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: "*LPRILDIALEDIDSETTINGS, RILDIALEDIDSETTINGS, RILDIALEDIDSETTINGS structure [Network Drivers Starting with Windows Vista], netvista.rildialedidsettings_2, rilapitypes/RILDIALEDIDSETTINGS"
+ms.date: 3/26/2018
+ms.keywords: "*LPRILDIALEDIDSETTINGS, RILDIALEDIDSETTINGS, RILDIALEDIDSETTINGS structure [Network Drivers Starting with Windows Vista], netvista.rildialedidsettings, ntddrilapitypes/RILDIALEDIDSETTINGS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,10 +35,11 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILDIALEDIDSETTINGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILDIALEDIDSETTINGS, *LPRILDIALEDIDSETTINGS
 req.product: Windows 10 or later.
@@ -50,21 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-
-## -syntax
-
-
-````
-typedef struct _RILDIALEDIDSETTINGS {
-  DWORD                         cbSize;
-  DWORD                         dwParams;
-  DWORD                         dwExecutor;
-  RILSERVICESETTINGSSTATUS      dwStatus;
-  RILSERVICEPROVISIONINGSTATUS  dwProvisioning;
-} RILDIALEDIDSETTINGS, RILDIALEDIDSETTINGS;
-````
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -struct-fields

@@ -7,7 +7,7 @@ old-location: display\displayid_detailed_timing_type_i_sync_polarity.htm
 old-project: display
 ms.assetid: 6563d4f7-3750-49c1-80f5-14a839e70cb7
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: DIDDT1_Sync_Negative, DIDDT1_Sync_Positive, DmEnums_7a2bc957-2ae3-4a38-bbe7-8e3e52994e5d.xml, _DISPLAYID_DETAILED_TIMING_TYPE_I_SYNC_POLARITY, _DISPLAYID_DETAILED_TIMING_TYPE_I_SYNC_POLARITY enumeration [Display Devices], d3dkmdt/DIDDT1_Sync_Negative, d3dkmdt/DIDDT1_Sync_Positive, d3dkmdt/_DISPLAYID_DETAILED_TIMING_TYPE_I_SYNC_POLARITY, display.displayid_detailed_timing_type_i_sync_polarity
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmdt.h
 api_name:
 -	_DISPLAYID_DETAILED_TIMING_TYPE_I_SYNC_POLARITY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -50,18 +51,6 @@ req.typenames:
 
 
 The DISPLAYID_DETAILED_TIMING_TYPE_I_SYNC_POLARITY enumeration indicates the display device's sync polarity (whether the sync signal is positive or negative).
-
-
-## -syntax
-
-
-````
-enum _DISPLAYID_DETAILED_TIMING_TYPE_I_SYNC_POLARITY {
-  DIDDT1_Sync_Positive  = 0, 
-  DIDDT1_Sync_Negative  = 1 
-
-};
-````
 
 
 ## -enum-fields

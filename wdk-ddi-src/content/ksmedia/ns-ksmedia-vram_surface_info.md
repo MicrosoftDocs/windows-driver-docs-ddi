@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	VRAM_SURFACE_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VRAM_SURFACE_INFO, *PVRAM_SURFACE_INFO
 ---
@@ -50,23 +51,6 @@ req.typenames: VRAM_SURFACE_INFO, *PVRAM_SURFACE_INFO
 
 
 The VRAM_SURFACE_INFO structure describes a region of system or display memory into which an AVStream minidriver captures audio or video data.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  UINT_PTR  hSurface;
-  LONGLONG  VramPhysicalAddress;
-  DWORD     cbCaptured;
-  DWORD     dwWidth;
-  DWORD     dwHeight;
-  DWORD     dwLinearSize;
-  LONG      lPitch;
-  ULONGLONG ullReserved[16];
-} VRAM_SURFACE_INFO, *PVRAM_SURFACE_INFO;
-````
 
 
 ## -struct-fields
@@ -111,7 +95,7 @@ This member specifies the pitch of the surface; that is, the distance, in bytes,
 
 ### -field ullReserved
 
-The minidriver can use this member to store information about the surface as it handles a <a href="https://msdn.microsoft.com/library/windows/hardware/ff565177">KSPROPERTY_MAP_CAPTURE_HANDLE_TO_VRAM_ADDRESS</a> request. Use caution, however; this structure does not persist across <a href="..\ks\nc-ks-pfnkspin.md">AVStrMiniPinProcess</a> calls.
+The minidriver can use this member to store information about the surface as it handles a <a href="https://msdn.microsoft.com/library/windows/hardware/ff565177">KSPROPERTY_MAP_CAPTURE_HANDLE_TO_VRAM_ADDRESS</a> request. Use caution, however; this structure does not persist across <a href="https://msdn.microsoft.com/library/windows/hardware/ff556351">AVStrMiniPinProcess</a> calls.
 
 
 ## -remarks
@@ -120,7 +104,7 @@ The minidriver can use this member to store information about the surface as it 
 
 When the minidriver receives VRAM_SURFACE_INFO through a <a href="https://msdn.microsoft.com/library/windows/hardware/ff565177">KSPROPERTY_MAP_CAPTURE_HANDLE_TO_VRAM_ADDRESS</a> property call, the members following <b>VramPhysicalAddress</b> in the member list (except for <b>ullReserved</b>) are zeroed out. The capture driver can store capture-related private data in these members.
 
-AVStream then stores this information in the stream header and returns it to the minidriver in the <a href="..\ks\nc-ks-pfnkspin.md">AVStrMiniPinProcess</a> callback function.
+AVStream then stores this information in the stream header and returns it to the minidriver in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556351">AVStrMiniPinProcess</a> callback function.
 
 The data in these members persists for the lifetime of the stream header. When all clones are deleted or the leading edge is advanced, this data is no longer accessible.
 
@@ -129,17 +113,15 @@ The data in these members persists for the lifetime of the stream header. When a
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556351">AVStrMiniPinProcess</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565177">KSPROPERTY_MAP_CAPTURE_HANDLE_TO_VRAM_ADDRESS</a>
-
-
-
-<a href="..\ks\nc-ks-pfnkspin.md">AVStrMiniPinProcess</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20VRAM_SURFACE_INFO structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

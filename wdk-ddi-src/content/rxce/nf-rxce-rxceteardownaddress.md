@@ -7,7 +7,7 @@ old-location: ifsk\rxceteardownaddress.htm
 old-project: ifsk
 ms.assetid: 76fd7c35-fef1-43c2-aedd-d09d18ab27a4
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: RxCeTearDownAddress, RxCeTearDownAddress function [Installable File System Drivers], ifsk.rxceteardownaddress, rxce/RxCeTearDownAddress, rxref_99fcdd00-8c1a-4a0b-8007-5b7f01a725bb.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	rxce.h
 api_name:
 -	RxCeTearDownAddress
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILWRITEPHONEBOOKENTRYPARAMS, *LPRILWRITEPHONEBOOKENTRYPARAMS
 req.product: Windows 10 or later.
@@ -51,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 <b>RxCeTearDownAddress</b> deregisters a transport address from a transport binding.
-
-
-## -syntax
-
-
-````
-NTSTATUS RxCeTearDownAddress(
-  _In_ PRXCE_ADDRESS pAddress
-);
-````
 
 
 ## -parameters
@@ -112,13 +103,11 @@ When <b>RxCeTearDownAddress</b> is successful, the data members in the RXCE_ADDR
 
 ## -see-also
 
-<a href="..\rxce\nf-rxce-rxcebuildaddress.md">RxCeBuildAddress</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553414">RxCeBuildAddress</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RxCeTearDownAddress function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

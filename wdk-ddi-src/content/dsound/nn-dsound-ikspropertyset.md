@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dsound.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	dsound.h
 api_name:
 -	IKsPropertySet
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DRMRIGHTS, *PDRMRIGHTS
 ---

@@ -7,13 +7,13 @@ old-location: netvista\rilcallmediaofferanswertype.htm
 old-project: netvista
 ms.assetid: cc0c3fc5-1482-424c-8ca8-c1bfe641bc03
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: RILCALLMEDIAOFFERANSWERTYPE, RILCALLMEDIAOFFERANSWERTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_CALLMEDIAOFFERANSWERTYPE_ANSWER, RIL_CALLMEDIAOFFERANSWERTYPE_CURRENT, RIL_CALLMEDIAOFFERANSWERTYPE_MAX, RIL_CALLMEDIAOFFERANSWERTYPE_OFFER, RIL_CALLMEDIAOFFERANSWERTYPE_PEER_ANSWER, RIL_CALLMEDIAOFFERANSWERTYPE_PEER_OFFER, netvista.rilcallmediaofferanswertype, ntddrilapitypes/RILCALLMEDIAOFFERANSWERTYPE, ntddrilapitypes/RIL_CALLMEDIAOFFERANSWERTYPE_ANSWER, ntddrilapitypes/RIL_CALLMEDIAOFFERANSWERTYPE_CURRENT, ntddrilapitypes/RIL_CALLMEDIAOFFERANSWERTYPE_MAX, ntddrilapitypes/RIL_CALLMEDIAOFFERANSWERTYPE_OFFER, ntddrilapitypes/RIL_CALLMEDIAOFFERANSWERTYPE_PEER_ANSWER, ntddrilapitypes/RIL_CALLMEDIAOFFERANSWERTYPE_PEER_OFFER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: ntddrilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILCALLMEDIAOFFERANSWERTYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILCALLMEDIAOFFERANSWERTYPE
 ---
@@ -50,21 +51,6 @@ req.typenames: RILCALLMEDIAOFFERANSWERTYPE
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef enum _RILCALLMEDIAOFFERANSWERTYPE { 
-  RIL_CALLMEDIAOFFERANSWERTYPE_CURRENT,
-  RIL_CALLMEDIAOFFERANSWERTYPE_OFFER,
-  RIL_CALLMEDIAOFFERANSWERTYPE_ANSWER,
-  RIL_CALLMEDIAOFFERANSWERTYPE_PEER_OFFER,
-  RIL_CALLMEDIAOFFERANSWERTYPE_PEER_ANSWER,
-  RIL_CALLMEDIAOFFERANSWERTYPE_MAX
-} RILCALLMEDIAOFFERANSWERTYPE;
-````
 
 
 ## -enum-fields

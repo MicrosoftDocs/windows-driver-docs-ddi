@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	1.0\Sercx.h
 api_name:
 -	SerCxInitialize
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SERCX_STATUS, *PSERCX_STATUS
 req.product: Windows 10 or later.
@@ -53,17 +54,6 @@ req.product: Windows 10 or later.
 The <b>SerCxInitialize</b> method completes the initialization of the serial framework extension (SerCx) after this driver creates the associated device object.
 
 
-## -syntax
-
-
-````
-NTSTATUS SerCxInitialize(
-  [in] WDFDEVICE     FxDevice,
-  [in] PSERCX_CONFIG Config
-);
-````
-
-
 ## -parameters
 
 
@@ -76,7 +66,7 @@ A WDFDEVICE handle to the framework device object that represents the serial con
 
 ### -param Config [in]
 
-A pointer to a caller-allocated <a href="..\sercx\ns-sercx-_sercx_config.md">SERCX_CONFIG</a> structure that contains configuration information for SerCx. The caller previously called the <a href="..\sercx\nf-sercx-sercx_config_init.md">SERCX_CONFIG_INIT</a> function to initialize this structure.
+A pointer to a caller-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/hh439548">SERCX_CONFIG</a> structure that contains configuration information for SerCx. The caller previously called the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439553">SERCX_CONFIG_INIT</a> function to initialize this structure.
 
 
 ## -returns
@@ -124,32 +114,30 @@ Could not allocate system resources (typically memory).
 
 The serial controller driver calls this method after it creates the associated device object.
 
-<b>SerCxInitialize</b> registers the controller driver’s I/O callback functions with SerCx. In addition, this method defines the transfer mode for the I/O queue.  During the call, this method creates all of the internal structures required by SerCx (including the I/O queue for the serial controller).  After this method returns, SerCx is ready to process I/O.  However, the controller driver might configure controller hardware settings before it returns from the <a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a> callback or before it adds the PDO to the child list.
+<b>SerCxInitialize</b> registers the controller driver’s I/O callback functions with SerCx. In addition, this method defines the transfer mode for the I/O queue.  During the call, this method creates all of the internal structures required by SerCx (including the I/O queue for the serial controller).  After this method returns, SerCx is ready to process I/O.  However, the controller driver might configure controller hardware settings before it returns from the <a href="https://msdn.microsoft.com/b20db029-ee2c-4fb1-bd69-ccd2e37fdc9a">EvtDriverDeviceAdd</a> callback or before it adds the PDO to the child list.
 
-If the parameters are invalid (as described in <a href="..\sercx\ns-sercx-_sercx_config.md">SERCX_CONFIG</a>), <a href="https://msdn.microsoft.com/library/windows/hardware/ff557262">Driver Verifier</a> will raise an error.
+If the parameters are invalid (as described in <a href="https://msdn.microsoft.com/library/windows/hardware/hh439548">SERCX_CONFIG</a>), <a href="https://msdn.microsoft.com/library/windows/hardware/ff557262">Driver Verifier</a> will raise an error.
 
-This routine must be called before committing the device (returning from <a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a> or adding the PDO to the child list).
+This routine must be called before committing the device (returning from <a href="https://msdn.microsoft.com/b20db029-ee2c-4fb1-bd69-ccd2e37fdc9a">EvtDriverDeviceAdd</a> or adding the PDO to the child list).
 
 
 
 
 ## -see-also
 
-<a href="..\sercx\nf-sercx-sercx_config_init.md">SERCX_CONFIG_INIT</a>
 
 
 
-<a href="..\sercx\ns-sercx-_sercx_config.md">SERCX_CONFIG</a>
+<a href="https://msdn.microsoft.com/b20db029-ee2c-4fb1-bd69-ccd2e37fdc9a">EvtDriverDeviceAdd</a>
 
 
 
-<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439548">SERCX_CONFIG</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439553">SERCX_CONFIG_INIT</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [serports\serports]:%20SerCxInitialize method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

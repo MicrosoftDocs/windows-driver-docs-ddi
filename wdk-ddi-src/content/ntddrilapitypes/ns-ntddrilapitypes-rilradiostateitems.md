@@ -7,13 +7,13 @@ old-location: netvista\rilradiostateitems.htm
 old-project: netvista
 ms.assetid: 26b2521c-7008-437d-aed3-3ed2be5d5959
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: "*LPRILRADIOSTATEITEMS, RILRADIOSTATEITEMS, RILRADIOSTATEITEMS structure [Network Drivers Starting with Windows Vista], netvista.rilradiostateitems, ntddrilapitypes/RILRADIOSTATEITEMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddrilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILRADIOSTATEITEMS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILRADIOSTATEITEMS, *LPRILRADIOSTATEITEMS
 ---
@@ -50,18 +51,6 @@ req.typenames: RILRADIOSTATEITEMS, *LPRILRADIOSTATEITEMS
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef struct _RILRADIOSTATEITEMS {
-  DWORD                 dwGroupId;
-  DWORD                 dwCntItems;
-  RILRADIOSTATEITEM [1] rilItems;
-} RILRADIOSTATEITEMS, RILRADIOSTATEITEMS;
-````
 
 
 ## -struct-fields

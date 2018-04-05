@@ -7,7 +7,7 @@ old-location: display\iddcxmonitorqueryhardwarecursor.htm
 old-project: display
 ms.assetid: e954b7e7-9e4a-47ae-9b0f-8c7e051cc00e
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: IddCxMonitorQueryHardwareCursor, IddCxMonitorQueryHardwareCursor method [Display Devices], display.iddcxmonitorqueryhardwarecursor, iddcx/IddCxMonitorQueryHardwareCursor
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "_Must_inspect_result_"
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	iddcx.h
 api_name:
 -	IddCxMonitorQueryHardwareCursor
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -54,18 +55,6 @@ req.typenames:
                  An OS callback function the driver calls when it wants obtain the updated cursor information. The driver normally only calls this when the event that signals cursor update has triggered
 
 
-## -syntax
-
-
-````
-NTSTATUS IddCxMonitorQueryHardwareCursor(
-  _In_        IDDCX_MONITOR             MonitorObject,
-  _In_  const IDARG_IN_QUERY_HWCURSOR*  pInArgs,
-  _Out_       IDARG_OUT_QUERY_HWCURSOR* pOutArgs
-);
-````
-
-
 ## -parameters
 
 
@@ -73,7 +62,7 @@ NTSTATUS IddCxMonitorQueryHardwareCursor(
 
 ### -param MonitorObject [in]
 
-This is the OS context handle for this monitor returned by the <a href="..\iddcx\nf-iddcx-iddcxmonitorarrival.md">IddCxMonitorArrival</a> call
+This is the OS context handle for this monitor returned by the <a href="https://msdn.microsoft.com/library/windows/hardware/mt761920">IddCxMonitorArrival</a> call
 
 
 ### -param pInArgs [in]

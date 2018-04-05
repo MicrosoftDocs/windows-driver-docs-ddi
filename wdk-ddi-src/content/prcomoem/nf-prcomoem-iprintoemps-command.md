@@ -7,7 +7,7 @@ old-location: print\iprintoemps_command.htm
 old-project: print
 ms.assetid: b79dd6e7-361c-4051-9e7c-18c64d459a70
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: Command method [Print Devices], Command method [Print Devices], IPrintOemPS interface, Command,IPrintOemPS.Command, IPrintOemPS, IPrintOemPS interface [Print Devices], Command method, IPrintOemPS::Command, prcomoem/IPrintOemPS::Command, print.iprintoemps_command, print_unidrv-pscript_rendering_ec087427-976b-4f71-9db9-a0c08f214907.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: prcomoem.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	prcomoem.h
 api_name:
 -	IPrintOemPS.Command
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
@@ -53,20 +54,6 @@ req.product: Windows 10 or later.
 The <code>IPrintOemPS::Command</code> method is used by rendering plug-ins for the Microsoft PostScript printer driver, in order to insert PostScript commands into the print job's data stream.
 
 
-## -syntax
-
-
-````
-HRESULT Command(
-        PDEVOBJ pdevobj,
-        DWORD   dwIndex,
-        PVOID   pData,
-        DWORD   cbSize,
-  [out] DWORD   *pdwResult
-);
-````
-
-
 ## -parameters
 
 
@@ -74,7 +61,7 @@ HRESULT Command(
 
 ### -param pdevobj
 
-Caller-supplied pointer to a <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a> structure.
+Caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547573">DEVOBJ</a> structure.
 
 
 ### -param dwIndex

@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSHANDSHAKE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSHANDSHAKE, *PKSHANDSHAKE
 ---
@@ -50,18 +51,6 @@ req.typenames: KSHANDSHAKE, *PKSHANDSHAKE
 
 
 The KSHANDSHAKE structure is used to pass information back and forth while pins are handshaking in an attempt to negotiate a private interface.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  GUID  ProtocolId;
-  PVOID Argument1;
-  PVOID Argument2;
-} KSHANDSHAKE, *PKSHANDSHAKE;
-````
 
 
 ## -struct-fields
@@ -88,7 +77,7 @@ A pointer to an interface-dependent argument.
 
 
 
-See <a href="..\ks\nf-ks-kspinhandshake.md">KsPinHandshake</a> for more information about negotiating private interfaces between AVStream pins.
+See <a href="https://msdn.microsoft.com/library/windows/hardware/ff563519">KsPinHandshake</a> for more information about negotiating private interfaces between AVStream pins.
 
 Pin handshaking is a concept that is usable only between two pins that support IOCTL_KS_HANDSHAKE. Currently, only AVStream pins support this interface; thus this is only useful for negotiating private interfaces between two AVStream pins. Currently, connections between AVStream pins are negotiated via this mechanism.
 
@@ -97,17 +86,15 @@ Pin handshaking is a concept that is usable only between two pins that support I
 
 ## -see-also
 
-<a href="..\ks\ni-ks-ioctl_ks_handshake.md">IOCTL_KS_HANDSHAKE</a>
 
 
 
-<a href="..\ks\nf-ks-kspinhandshake.md">KsPinHandshake</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560813">IOCTL_KS_HANDSHAKE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563519">KsPinHandshake</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSHANDSHAKE structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

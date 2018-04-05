@@ -7,7 +7,7 @@ old-location: wdf\wdfverifierkebugcheck.htm
 old-project: wdf
 ms.assetid: 3fa8ea3d-cca0-402d-a3a8-1281ad4231d4
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/26/2018
 ms.keywords: DFDebugRef_05774709-97ed-4fcc-b0b2-9fdac9a34094.xml, WdfVerifierKeBugCheck, WdfVerifierKeBugCheck function, kmdf.wdfverifierkebugcheck, wdf.wdfverifierkebugcheck, wdfverifier/WdfVerifierKeBugCheck
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,8 @@ api_location:
 -	WUDFx02000.dll.dll
 api_name:
 -	WdfVerifierKeBugCheck
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_USB_REQUEST_COMPLETION_PARAMS, *PWDF_USB_REQUEST_COMPLETION_PARAMS
 req.product: Windows 10 or later.
@@ -56,20 +57,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WdfVerifierKeBugCheck</b> function creates a bug check.
-
-
-## -syntax
-
-
-````
-VOID WdfVerifierKeBugCheck(
-  _In_ ULONG     BugCheckCode,
-  _In_ ULONG_PTR BugCheckParameter1,
-  _In_ ULONG_PTR BugCheckParameter2,
-  _In_ ULONG_PTR BugCheckParameter3,
-  _In_ ULONG_PTR BugCheckParameter4
-);
-````
 
 
 ## -parameters
@@ -147,13 +134,11 @@ The following code example creates a bug check that uses the <a href="https://ms
 
 ## -see-also
 
-<a href="..\wdfverifier\nf-wdfverifier-wdfverifierdbgbreakpoint.md">WdfVerifierDbgBreakPoint</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551164">WdfVerifierDbgBreakPoint</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfVerifierKeBugCheck function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

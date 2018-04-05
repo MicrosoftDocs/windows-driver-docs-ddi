@@ -7,7 +7,7 @@ old-location: wdf\wdfcompaniontargetsendtasksynchronously.htm
 old-project: wdf
 ms.assetid: d58a275a-aaaa-4159-ba00-6998b7a63434
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/26/2018
 ms.keywords: WdfCompanionTargetSendTaskSynchronously, WdfCompanionTargetSendTaskSynchronously method, wdf.wdfcompaniontargetsendtasksynchronously, wdfcompaniontarget/WdfCompanionTargetSendTaskSynchronously
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	wdfcompaniontarget.h
 api_name:
 -	WdfCompanionTargetSendTaskSynchronously
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_TASK_SEND_OPTIONS_FLAGS
 req.product: Windows 10 or later.
@@ -52,22 +53,6 @@ req.product: Windows 10 or later.
 
 
 			For internal use only.
-
-
-## -syntax
-
-
-````
-NTSTATUS WdfCompanionTargetSendTaskSynchronously(
-  _In_     WDFCOMPANIONTARGET     CompanionTarget,
-  _In_     USHORT                 TaskQueueIdentifier,
-  _In_     ULONG                  TaskOperationCode,
-  _In_opt_ PWDF_MEMORY_DESCRIPTOR InputBuffer,
-  _In_opt_ PWDF_MEMORY_DESCRIPTOR OutputBuffer,
-  _In_opt_ PWDF_TASK_SEND_OPTIONS TaskOptions,
-  _Out_    PULONG_PTR             BytesReturned
-);
-````
 
 
 ## -parameters

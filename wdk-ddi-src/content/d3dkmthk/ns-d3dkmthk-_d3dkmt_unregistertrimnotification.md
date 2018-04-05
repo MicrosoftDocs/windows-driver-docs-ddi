@@ -7,7 +7,7 @@ old-location: display\d3dkmt_unregistertrimnotification.htm
 old-project: display
 ms.assetid: 336C5C6A-619B-4D28-9F06-A09CABF78073
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMT_UNREGISTERTRIMNOTIFICATION, D3DKMT_UNREGISTERTRIMNOTIFICATION structure [Display Devices], _D3DKMT_UNREGISTERTRIMNOTIFICATION, d3dkmthk/D3DKMT_UNREGISTERTRIMNOTIFICATION, display.d3dkmt_unregistertrimnotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3dkmthk.h
 api_name:
 -	D3DKMT_UNREGISTERTRIMNOTIFICATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_UNREGISTERTRIMNOTIFICATION
 ---
@@ -49,19 +50,9 @@ req.typenames: D3DKMT_UNREGISTERTRIMNOTIFICATION
 ## -description
 
 
-<b>D3DKMT_UNREGISTERTRIMNOTIFICATION</b> is used with <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtunregistertrimnotification.md">D3DKMTUnregisterTrimNotification</a> to remove a callback registration for a kernel mode device receiving notifications from a graphics framework (such as OpenGL).
+<b>D3DKMT_UNREGISTERTRIMNOTIFICATION</b> is used with <a href="https://msdn.microsoft.com/library/windows/hardware/dn906787">D3DKMTUnregisterTrimNotification</a> to remove a callback registration for a kernel mode device receiving notifications from a graphics framework (such as OpenGL).
 
 
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_UNREGISTERTRIMNOTIFICATION {
-  VOID *Handle;
-} D3DKMT_UNREGISTERTRIMNOTIFICATION;
-````
 
 
 ## -struct-fields
@@ -71,7 +62,7 @@ typedef struct _D3DKMT_UNREGISTERTRIMNOTIFICATION {
 
 ### -field Handle
 
-[out] The callback notification handle received from the call to <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtregistertrimnotification.md">D3DKMTRegisterTrimNotification</a>.
+[out] The callback notification handle received from the call to <a href="https://msdn.microsoft.com/library/windows/hardware/dn906781">D3DKMTRegisterTrimNotification</a>.
 
 
 ### -field Callback
@@ -83,17 +74,15 @@ typedef struct _D3DKMT_UNREGISTERTRIMNOTIFICATION {
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtregistertrimnotification.md">D3DKMTRegisterTrimNotification</a>
 
 
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtunregistertrimnotification.md">D3DKMTUnregisterTrimNotification</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn906781">D3DKMTRegisterTrimNotification</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn906787">D3DKMTUnregisterTrimNotification</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMT_UNREGISTERTRIMNOTIFICATION structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

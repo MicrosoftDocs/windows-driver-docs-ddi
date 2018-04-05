@@ -38,7 +38,8 @@ api_location:
 -	61883.h
 api_name:
 -	CMP_NOTIFY_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CMP_NOTIFY_INFO, *PCMP_NOTIFY_INFO
 ---
@@ -49,19 +50,7 @@ req.typenames: CMP_NOTIFY_INFO, *PCMP_NOTIFY_INFO
 ## -description
 
 
-This structure is used by the <a href="..\61883\nc-61883-pcmp_notify_routine.md">PCMP_NOTIFY_ROUTINE</a> callback.
-
-
-## -syntax
-
-
-````
-typedef struct _CMP_NOTIFY_INFO {
-  HANDLE hPlug;
-  AV_PCR Pcr;
-  PVOID  Context;
-} CMP_NOTIFY_INFO, *PCMP_NOTIFY_INFO;
-````
+This structure is used by the <a href="https://msdn.microsoft.com/0576D73A-0A36-4AB7-952C-19B56FD246D8">PCMP_NOTIFY_ROUTINE</a> callback.
 
 
 ## -struct-fields
@@ -86,13 +75,11 @@ A context.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537008">AV_61883_REQUEST</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [IEEE\buses]:%20CMP_NOTIFY_INFO structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

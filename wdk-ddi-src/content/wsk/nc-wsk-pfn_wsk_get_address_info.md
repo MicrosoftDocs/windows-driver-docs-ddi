@@ -7,7 +7,7 @@ old-location: netvista\wskgetaddressinfo.htm
 old-project: netvista
 ms.assetid: 688619b9-ab0b-4459-8f1b-74815043a190
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: PFN_WSK_GET_ADDRESS_INFO, WskGetAddressInfo, WskGetAddressInfo callback function [Network Drivers Starting with Windows Vista], netvista.wskgetaddressinfo, wsk/WskGetAddressInfo, wskref_4b8f8dcc-eebb-4613-b130-3f7ae2921a8b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	wsk.h
 api_name:
 -	WskGetAddressInfo
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WPP_TRIAGE_INFO, *PWPP_TRIAGE_INFO
 req.product: Windows 10 or later.
@@ -55,28 +56,6 @@ The
   address.
 
 
-## -prototype
-
-
-````
-PFN_WSK_GET_ADDRESS_INFO WskGetAddressInfo;
-
-NTSTATUS WSKAPI * WskGetAddressInfo(
-  _In_     PWSK_CLIENT     Client,
-  _In_opt_ PUNICODE_STRING NodeName,
-  _In_opt_ PUNICODE_STRING ServiceName,
-  _In_opt_ ULONG           NameSpace,
-  _In_opt_ GUID            *Provider,
-  _In_opt_ PADDRINFOEXW    Hints,
-  _Out_    PADDRINFOEXW    *Result,
-  _In_opt_ PEPROCESS       OwningProcess,
-  _In_opt_ PETHREAD        OwningThread,
-  _Inout_  PIRP            Irp
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -88,14 +67,14 @@ NTSTATUS WSKAPI * WskGetAddressInfo(
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff571155">WSK_CLIENT</a> structure that was returned through
      the 
      <i>WskProviderNpi</i> parameter of the 
-     <a href="..\wsk\nf-wsk-wskcaptureprovidernpi.md">
+     <a href="https://msdn.microsoft.com/b5c6667e-33b4-4482-8817-c01d9d314c3a">
      WskCaptureProviderNPI</a> function.
 
 
 ### -param NodeName [in, optional]
 
 [in] An optional pointer to a 
-     <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that contains a
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure that contains a
      Unicode string that represents a host (node) name or a numeric host address string. For the Internet
      protocol, the numeric host address string is a dotted-decimal IPv4 address or an IPv6 hexadecimal
      address.
@@ -104,7 +83,7 @@ NTSTATUS WSKAPI * WskGetAddressInfo(
 ### -param ServiceName [in, optional]
 
 [in] An optional pointer to a 
-     <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that contains a
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure that contains a
      Unicode string that represents a service name or a port number.
 
 
@@ -142,7 +121,7 @@ The <a href="https://msdn.microsoft.com/1077e03d-a1a4-45ab-a5d2-29a67e03f5df">AD
      
 
 <div class="alert"><b>Note</b>  The caller must call the 
-     <a href="..\wsk\nc-wsk-pfn_wsk_free_address_info.md">WskFreeAddressInfo</a> function to free
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571131">WskFreeAddressInfo</a> function to free
      this pointer.</div>
 <div> </div>
 The <a href="https://msdn.microsoft.com/1077e03d-a1a4-45ab-a5d2-29a67e03f5df">ADDRINFOEXW</a> structure is defined in the 
@@ -280,15 +259,10 @@ The process to which the
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_free_address_info.md">WskFreeAddressInfo</a>
-
-
-
-<a href="..\wsk\nf-wsk-wskcaptureprovidernpi.md">WskCaptureProviderNPI</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
 
 
 
@@ -296,9 +270,12 @@ The process to which the
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571122">WskCaptureProviderNPI</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571131">WskFreeAddressInfo</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20PFN_WSK_GET_ADDRESS_INFO callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

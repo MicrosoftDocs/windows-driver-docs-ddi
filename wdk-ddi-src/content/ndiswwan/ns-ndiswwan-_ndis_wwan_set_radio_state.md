@@ -7,7 +7,7 @@ old-location: netvista\ndis_wwan_set_radio_state.htm
 old-project: netvista
 ms.assetid: 4fe42397-1c95-4017-8d7b-14eda11c7b74
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: "*PNDIS_WWAN_SET_RADIO_STATE, NDIS_WWAN_SET_RADIO_STATE, NDIS_WWAN_SET_RADIO_STATE structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SET_RADIO_STATE, PNDIS_WWAN_SET_RADIO_STATE structure pointer [Network Drivers Starting with Windows Vista], WwanRef_b5525c3b-fbf3-4423-b691-464ed9a7a65a.xml, _NDIS_WWAN_SET_RADIO_STATE, ndiswwan/NDIS_WWAN_SET_RADIO_STATE, ndiswwan/PNDIS_WWAN_SET_RADIO_STATE, netvista.ndis_wwan_set_radio_state"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ndiswwan.h
 api_name:
 -	NDIS_WWAN_SET_RADIO_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_WWAN_SET_RADIO_STATE, *PNDIS_WWAN_SET_RADIO_STATE
 ---
@@ -51,17 +52,6 @@ req.typenames: NDIS_WWAN_SET_RADIO_STATE, *PNDIS_WWAN_SET_RADIO_STATE
 
 The NDIS_WWAN_SET_RADIO_STATE structure represents the power action to take on the MB device's
   radio.
-
-
-## -syntax
-
-
-````
-typedef struct _NDIS_WWAN_SET_RADIO_STATE {
-  NDIS_OBJECT_HEADER Header;
-  WWAN_RADIO         RadioAction;
-} NDIS_WWAN_SET_RADIO_STATE, *PNDIS_WWAN_SET_RADIO_STATE;
-````
 
 
 ## -struct-fields
@@ -117,13 +107,13 @@ sizeof(NDIS_WWAN_SET_RADIO_STATE)
  
 
 For more information about these members, see 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field RadioAction
 
 A value from the 
-     <a href="..\wwan\ne-wwan-_wwan_radio.md">WWAN_RADIO</a> enumeration that represents the power
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571224">WWAN_RADIO</a> enumeration that represents the power
      action to take on the MB device's radio. The following table shows the possible values for this member.
      
 
@@ -168,17 +158,15 @@ This parameter allows Windows to turn the radio power on and off. Be aware that 
 
 ## -see-also
 
-<a href="..\wwan\ne-wwan-_wwan_radio.md">WWAN_RADIO</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571224">WWAN_RADIO</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_WWAN_SET_RADIO_STATE structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

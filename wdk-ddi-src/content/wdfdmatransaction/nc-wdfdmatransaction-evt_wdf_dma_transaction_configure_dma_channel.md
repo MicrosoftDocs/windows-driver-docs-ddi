@@ -7,7 +7,7 @@ old-location: wdf\evtdmatransactionconfiguredmachannel.htm
 old-project: wdf
 ms.assetid: 405D1D3F-FC01-4223-8E28-B3FD3F0516F7
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/26/2018
 ms.keywords: EVT_WDF_DMA_TRANSACTION_CONFIGURE_DMA_CHANNEL, EvtDmaTransactionConfigureDmaChannel, EvtDmaTransactionConfigureDmaChannel callback function, kmdf.evtdmatransactionconfiguredmachannel, wdf.evtdmatransactionconfiguredmachannel, wdfdmatransaction/EvtDmaTransactionConfigureDmaChannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	WdfDmaTransaction.h
 api_name:
 -	EvtDmaTransactionConfigureDmaChannel
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_DMA_SYSTEM_PROFILE_CONFIG, *PWDF_DMA_SYSTEM_PROFILE_CONFIG
 req.product: Windows 10 or later.
@@ -56,24 +57,6 @@ req.product: Windows 10 or later.
    A driver's <i>EvtDmaTransactionConfigureDmaChannel</i> event callback function configures the DMA adapter for a system-mode DMA enabler.
 
 
-## -prototype
-
-
-````
-EVT_WDF_DMA_TRANSACTION_CONFIGURE_DMA_CHANNEL EvtDmaTransactionConfigureDmaChannel;
-
-BOOLEAN EvtDmaTransactionConfigureDmaChannel(
-  _In_     WDFDMATRANSACTION DmaTransaction,
-  _In_     WDFDEVICE         Device,
-  _In_     PVOID             Context,
-  _In_opt_ PMDL              Mdl,
-  _In_     size_t            Offset,
-  _In_     size_t            Length
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -86,12 +69,12 @@ A handle to a DMA transaction object representing the transaction that is being 
 
 ### -param Device [in]
 
-A handle to the framework device object that the driver specified when it called <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioncreate.md">WdfDmaTransactionCreate</a>.
+A handle to the framework device object that the driver specified when it called <a href="https://msdn.microsoft.com/library/windows/hardware/ff547027">WdfDmaTransactionCreate</a>.
 
 
 ### -param Context [in]
 
-The context pointer that the driver specified in a previous call to <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionsetchannelconfigurationcallback.md">WdfDmaTransactionSetChannelConfigurationCallback</a>.
+The context pointer that the driver specified in a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/hh451184">WdfDmaTransactionSetChannelConfigurationCallback</a>.
 
 
 ### -param Mdl [in, optional]
@@ -122,7 +105,7 @@ The <i>EvtDmaTransactionConfigureDmaChannel</i> callback function returns TRUE i
 
 
 
-Drivers register an <i>EvtDmaTransactionConfigureDmaChannel</i> event callback function by calling <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionsetchannelconfigurationcallback.md">WdfDmaTransactionSetChannelConfigurationCallback</a>.
+Drivers register an <i>EvtDmaTransactionConfigureDmaChannel</i> event callback function by calling <a href="https://msdn.microsoft.com/library/windows/hardware/hh451184">WdfDmaTransactionSetChannelConfigurationCallback</a>.
 
 The framework calls <i>EvtDmaTransactionConfigureDmaChannel</i> once for each system-profile DMA transfer in the transaction, after allocating the adapter channel but before mapping the transfer and calling <a href="https://msdn.microsoft.com/c01b94b2-aabf-47dd-952a-06e481579614">EvtProgramDma</a>.
 
@@ -130,7 +113,7 @@ The driver can use the <i>EvtDmaTransactionConfigureDmaChannel</i> callback to s
 
 
 
-If the driver experiences an error while configuring the channel, it can stop the DMA transfer by calling <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactiondmacompletedfinal.md">WdfDmaTransactionDmaCompletedFinal</a> and, if necessary, completing the request. The driver should then return FALSE from this callback function.
+If the driver experiences an error while configuring the channel, it can stop the DMA transfer by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff547049">WdfDmaTransactionDmaCompletedFinal</a> and, if necessary, completing the request. The driver should then return FALSE from this callback function.
 
 
 #### Examples
@@ -178,17 +161,15 @@ The <b>EVT_WDF_DMA_TRANSACTION_CONFIGURE_DMA_CHANNEL</b> function type is define
 
 ## -see-also
 
-<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactiondmacompletedfinal.md">WdfDmaTransactionDmaCompletedFinal</a>
 
 
 
-<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactionsetchannelconfigurationcallback.md">WdfDmaTransactionSetChannelConfigurationCallback</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547049">WdfDmaTransactionDmaCompletedFinal</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451184">WdfDmaTransactionSetChannelConfigurationCallback</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20EVT_WDF_DMA_TRANSACTION_CONFIGURE_DMA_CHANNEL callback function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

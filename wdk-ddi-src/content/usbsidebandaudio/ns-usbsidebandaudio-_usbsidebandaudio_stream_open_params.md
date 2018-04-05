@@ -7,7 +7,7 @@ old-location: audio\usbsidebandaudio_stream_open_params.htm
 old-project: audio
 ms.assetid: B7FFCD5B-ED00-4B56-806F-61AB43481578
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 3/19/2018
 ms.keywords: "*PUSBSIDEBANDAUDIO_STREAM_OPEN_PARAMS, PUSBSIDEBANDAUDIO_STREAM_OPEN_PARAMS, PUSBSIDEBANDAUDIO_STREAM_OPEN_PARAMS structure pointer [Audio Devices], USBSIDEBANDAUDIO_STREAM_OPEN_PARAMS, USBSIDEBANDAUDIO_STREAM_OPEN_PARAMS structure [Audio Devices], _USBSIDEBANDAUDIO_STREAM_OPEN_PARAMS, audio.usbsidebandaudio_stream_open_params, usbsidebandaudio/PUSBSIDEBANDAUDIO_STREAM_OPEN_PARAMS, usbsidebandaudio/USBSIDEBANDAUDIO_STREAM_OPEN_PARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -37,7 +37,8 @@ api_location:
 -
 api_name:
 -	USBSIDEBANDAUDIO_STREAM_OPEN_PARAMS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USBSIDEBANDAUDIO_STREAM_OPEN_PARAMS, *PUSBSIDEBANDAUDIO_STREAM_OPEN_PARAMS
 req.product: Windows 10 or later.
@@ -52,17 +53,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 TBD
-
-
-## -syntax
-
-
-````
-typedef struct _USBSIDEBANDAUDIO_STREAM_OPEN_PARAMS {
-  ULONG                             Reserved 0;
-  KSDATAFORMAT_WAVEFORMATEXTENSIBLE Reserved 1;
-} USBSIDEBANDAUDIO_STREAM_OPEN_PARAMS, *PUSBSIDEBANDAUDIO_STREAM_OPEN_PARAMS;
-````
 
 
 ## -struct-fields

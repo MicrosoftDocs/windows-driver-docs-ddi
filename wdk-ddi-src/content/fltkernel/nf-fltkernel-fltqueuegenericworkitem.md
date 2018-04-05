@@ -7,7 +7,7 @@ old-location: ifsk\fltqueuegenericworkitem.htm
 old-project: ifsk
 ms.assetid: 30179fe1-e218-46cd-96a9-816ebab112bf
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FltApiRef_p_to_z_221f809d-f028-4e0f-b7b3-1341c1ed8782.xml, FltQueueGenericWorkItem, FltQueueGenericWorkItem function [Installable File System Drivers], fltkernel/FltQueueGenericWorkItem, ifsk.fltqueuegenericworkitem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	fltmgr.sys
 api_name:
 -	FltQueueGenericWorkItem
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
@@ -52,20 +53,6 @@ req.typenames: EXpsFontRestriction
 <b>FltQueueGenericWorkItem</b> posts a work item that is not associated with a specific I/O operation to a work queue. 
 
 
-## -syntax
-
-
-````
-NTSTATUS FltQueueGenericWorkItem(
-  _In_     PFLT_GENERIC_WORKITEM         FltWorkItem,
-  _In_     PVOID                         FltObject,
-  _In_     PFLT_GENERIC_WORKITEM_ROUTINE WorkerRoutine,
-  _In_     WORK_QUEUE_TYPE               QueueType,
-  _In_opt_ PVOID                         Context
-);
-````
-
-
 ## -parameters
 
 
@@ -73,7 +60,7 @@ NTSTATUS FltQueueGenericWorkItem(
 
 ### -param FltWorkItem [in]
 
-Pointer to the work item to be added to the work queue. The work item must have been allocated by calling <a href="..\fltkernel\nf-fltkernel-fltallocategenericworkitem.md">FltAllocateGenericWorkItem</a>. 
+Pointer to the work item to be added to the work queue. The work item must have been allocated by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff541749">FltAllocateGenericWorkItem</a>. 
 
 
 ### -param FltObject [in]
@@ -195,26 +182,24 @@ The minifilter driver is being unloaded. This is an error code.
 
 <b>FltQueueGenericWorkItem</b> inserts a work item that is not associated with a specific I/O operation into a system work queue. The specified <i>WorkerRoutine</i> callback routine is called in the context of a system thread, at IRQL PASSIVE_LEVEL. 
 
-To allocate a work item, call <a href="..\fltkernel\nf-fltkernel-fltallocategenericworkitem.md">FltAllocateGenericWorkItem</a>. 
+To allocate a work item, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff541749">FltAllocateGenericWorkItem</a>. 
 
-To free the work item when it is no longer needed, call <a href="..\fltkernel\nf-fltkernel-fltfreegenericworkitem.md">FltFreeGenericWorkItem</a>. 
+To free the work item when it is no longer needed, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff542971">FltFreeGenericWorkItem</a>. 
 
 
 
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltfreegenericworkitem.md">FltFreeGenericWorkItem</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltallocategenericworkitem.md">FltAllocateGenericWorkItem</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541749">FltAllocateGenericWorkItem</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542971">FltFreeGenericWorkItem</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltQueueGenericWorkItem function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

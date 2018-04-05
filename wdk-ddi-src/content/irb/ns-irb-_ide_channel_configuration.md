@@ -7,7 +7,7 @@ old-location: storage\ide_channel_configuration.htm
 old-project: storage
 ms.assetid: 1ca9a198-ac6b-4837-9503-68eb7ca36527
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PIDE_CHANNEL_CONFIGURATION, IDE_CHANNEL_CONFIGURATION, IDE_CHANNEL_CONFIGURATION structure [Storage Devices], PIDE_CHANNEL_CONFIGURATION, PIDE_CHANNEL_CONFIGURATION structure pointer [Storage Devices], _IDE_CHANNEL_CONFIGURATION, irb/IDE_CHANNEL_CONFIGURATION, irb/PIDE_CHANNEL_CONFIGURATION, storage.ide_channel_configuration, structs-ATA_79456267-9b2d-4f9a-beff-e44915bda026.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	irb.h
 api_name:
 -	IDE_CHANNEL_CONFIGURATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: IDE_CHANNEL_CONFIGURATION, *PIDE_CHANNEL_CONFIGURATION
 ---
@@ -51,25 +52,6 @@ req.typenames: IDE_CHANNEL_CONFIGURATION, *PIDE_CHANNEL_CONFIGURATION
 
 The IDE_CHANNEL_CONFIGURATION structure contains configuration information for the indicated channel.
 <div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
-
-## -syntax
-
-
-````
-typedef struct _IDE_CHANNEL_CONFIGURATION {
-  USHORT                              Version;
-  UCHAR                               ChannelNumber;
-  SUPPORTED_ADVANCES                  SupportedAdvances;
-  IDE_OPERATION_MODE                  ChannelMode;
-  PIDE_MINIPORT_RESOURCES             ChannelResources;
-  UCHAR                               NumberOfOverlappedRequests;
-  UCHAR                               MaxTargetId;
-  BOOLEAN                             SyncWithIsr;
-  BOOLEAN                             SupportsWmi;
-  PIDE_ADVANCED_CHANNEL_CONFIGURATION AdvancedChannelConfiguration;
-} IDE_CHANNEL_CONFIGURATION, *PIDE_CHANNEL_CONFIGURATION;
-````
-
 
 ## -struct-fields
 

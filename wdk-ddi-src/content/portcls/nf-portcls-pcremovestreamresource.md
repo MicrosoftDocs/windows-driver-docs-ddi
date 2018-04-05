@@ -7,7 +7,7 @@ old-location: audio\pcremovestreamresource.htm
 old-project: audio
 ms.assetid: D923DA5C-0169-475D-8C0C-6A99EB06ECE0
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 3/19/2018
 ms.keywords: PcRemoveStreamResource, PcRemoveStreamResource function [Audio Devices], audio.pcremovestreamresource, portcls/PcRemoveStreamResource
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NA
 api_name:
 -	PcRemoveStreamResource
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
@@ -52,16 +53,6 @@ req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 PcRemoveStreamResource removes an existing  stream resource. PcRemoveStreamResource can be called by any driver, including non-audio WaveRT miniport drivers, that has interrupts/threads associated with an audio stream. It can also be called by audio WaveRT miniport drivers. 
 
 
-## -syntax
-
-
-````
-NTSTATUS  PcRemoveStreamResource(
-  _In_ PCSTREAMRESOURCE ResourceHandle
-);
-````
-
-
 ## -parameters
 
 
@@ -70,7 +61,7 @@ NTSTATUS  PcRemoveStreamResource(
 ### -param ResourceHandle [in]
 
 PCSTREAMRESOURCE– Resource handle returned by PcAddStreamResource.  
-For more information, see <a href="..\portcls\nf-portcls-pcaddstreamresource.md">PcAddStreamResource</a> and <a href="..\portcls\ns-portcls-_pcstreamresource_descriptor.md">PCSTREAMRESOURCE_DESCRIPTOR</a>.  
+For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/mt298188">PcAddStreamResource</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/mt298191">PCSTREAMRESOURCE_DESCRIPTOR</a>.  
 
 
 ## -returns
@@ -116,28 +107,26 @@ Audio drivers must remove a previously registered resource.  Drivers may unregis
 </ul>
 The audio driver must make sure the resource is valid when making this call.
 
-Audio drivers that only run in Windows 10 can use  <a href="..\portcls\nf-portcls-pcaddstreamresource.md">PcAddStreamResource</a> and <b>PcRemoveStreamResource</b>. For Audio waveRT miniport drivers that need to also run under previous versions of Windows, use <a href="https://msdn.microsoft.com/F9F7E13B-E8D1-4B02-9CC5-737145DEFEB9">AddStreamResource</a> and <a href="https://msdn.microsoft.com/35A90B3C-27D7-4BBA-A754-098D191A3201">RemoveStreamResource</a>. 
+Audio drivers that only run in Windows 10 can use  <a href="https://msdn.microsoft.com/library/windows/hardware/mt298188">PcAddStreamResource</a> and <b>PcRemoveStreamResource</b>. For Audio waveRT miniport drivers that need to also run under previous versions of Windows, use <a href="https://msdn.microsoft.com/F9F7E13B-E8D1-4B02-9CC5-737145DEFEB9">AddStreamResource</a> and <a href="https://msdn.microsoft.com/35A90B3C-27D7-4BBA-A754-098D191A3201">RemoveStreamResource</a>. 
 
 
 
 
 ## -see-also
 
-<a href="..\portcls\nf-portcls-pcaddstreamresource.md">PcAddStreamResource</a>
 
 
 
-<a href="..\portcls\ns-portcls-_pcstreamresource_descriptor.md">PCSTREAMRESOURCE_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt298191">PCSTREAMRESOURCE_DESCRIPTOR</a>
 
 
 
-<a href="..\portcls\ne-portcls-_pcstreamresourcetype.md">PcStreamResourceType</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt298188">PcAddStreamResource</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt298190">PcStreamResourceType</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20PcRemoveStreamResource function%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

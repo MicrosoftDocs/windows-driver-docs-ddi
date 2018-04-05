@@ -7,7 +7,7 @@ old-location: kernel\synchcritsection.htm
 old-project: kernel
 ms.assetid: 2db9b1b4-0149-4477-9f68-588c55fcbdca
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/28/2018
 ms.keywords: DrvrRtns_ead80ba6-d012-4140-923c-683d877d5b60.xml, KSYNCHRONIZE_ROUTINE, SynchCritSection, SynchCritSection routine [Kernel-Mode Driver Architecture], kernel.synchcritsection, wdm/SynchCritSection
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	SynchCritSection
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
 req.product: Windows 10 or later.
@@ -53,19 +54,6 @@ req.product: Windows 10 or later.
 The <i>SynchCritSection</i> routine is used to access hardware resources or driver data that are shared with a driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff547958">InterruptService</a> routine.
 
 
-## -prototype
-
-
-````
-KSYNCHRONIZE_ROUTINE SynchCritSection;
-
-BOOLEAN SynchCritSection(
-  _In_ PVOID SynchronizeContext
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -73,7 +61,7 @@ BOOLEAN SynchCritSection(
 
 ### -param SynchronizeContext [in]
 
-Caller-supplied context information, specified by the driver's call to <a href="..\wdm\nf-wdm-kesynchronizeexecution.md">KeSynchronizeExecution</a>.
+Caller-supplied context information, specified by the driver's call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff553302">KeSynchronizeExecution</a>.
 
 
 ## -returns
@@ -91,9 +79,9 @@ If the routine's operation succeeds, the routine should return <b>TRUE</b>; othe
 
 Drivers must use <i>SynchCritSection</i> routines to access hardware resources or driver data that can also be accessed by an <i>InterruptService</i> routine (ISR).
 
-The system calls a driver's <i>SynchCritSection</i> routine when the driver calls <a href="..\wdm\nf-wdm-kesynchronizeexecution.md">KeSynchronizeExecution</a>. When a driver calls <b>KeSynchronizeExecution</b>, it specifies the address of a <i>SynchCritSection</i> routine, context information for the routine, and an interrupt object pointer. The <b>KeSynchronizeExecution</b> routine acquires the interrupt object's spin lock, then calls the <i>SynchCritSection</i> routine.
+The system calls a driver's <i>SynchCritSection</i> routine when the driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff553302">KeSynchronizeExecution</a>. When a driver calls <b>KeSynchronizeExecution</b>, it specifies the address of a <i>SynchCritSection</i> routine, context information for the routine, and an interrupt object pointer. The <b>KeSynchronizeExecution</b> routine acquires the interrupt object's spin lock, then calls the <i>SynchCritSection</i> routine.
 
-A driver's <i>SynchCritSection</i> routine executes at the same IRQL as the ISR with which it is associated. Specifically, it executes at some system-assigned <a href="https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3">DIRQL</a>, as specified by the <i>SynchronizeIrql</i> parameter to <a href="..\wdm\nf-wdm-ioconnectinterrupt.md">IoConnectInterrupt</a>. (Other devices, with higher DIRQL values, can interrupt a <i>SynchCritSection</i> routine.)
+A driver's <i>SynchCritSection</i> routine executes at the same IRQL as the ISR with which it is associated. Specifically, it executes at some system-assigned <a href="https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3">DIRQL</a>, as specified by the <i>SynchronizeIrql</i> parameter to <a href="https://msdn.microsoft.com/library/windows/hardware/ff548371">IoConnectInterrupt</a>. (Other devices, with higher DIRQL values, can interrupt a <i>SynchCritSection</i> routine.)
 
 
 #### Examples

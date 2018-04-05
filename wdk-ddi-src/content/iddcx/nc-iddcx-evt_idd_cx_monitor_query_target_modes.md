@@ -7,7 +7,7 @@ old-location: display\evt_idd_cx_monitor_query_target_modes.htm
 old-project: display
 ms.assetid: a83ed1a3-e279-45be-b229-137fa61d9b38
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: EVT_IDD_CX_MONITOR_QUERY_TARGET_MODES, EvtIddCxMonitorQueryTargetModes, EvtIddCxMonitorQueryTargetModes callback function [Display Devices], PFN_IDD_CX_MONITOR_QUERY_TARGET_MODES, PFN_IDD_CX_MONITOR_QUERY_TARGET_MODES callback function pointer [Display Devices], display.evt_idd_cx_monitor_query_target_modes, iddcx/EvtIddCxMonitorQueryTargetModes
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	iddcx.h
 api_name:
 -	PFN_IDD_CX_MONITOR_QUERY_TARGET_MODES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WCS_PROFILE_MANAGEMENT_SCOPE
 ---
@@ -50,23 +51,6 @@ req.typenames: WCS_PROFILE_MANAGEMENT_SCOPE
 
 
 <b>EVT_IDD_CX_MONITOR_QUERY_TARGET_MODES</b> is called by the OS to get a list of target modes supported by the driver for a monitor connected to the endpoint.
-
-
-## -prototype
-
-
-````
-EVT_IDD_CX_MONITOR_QUERY_TARGET_MODES EvtIddCxMonitorQueryTargetModes;
-
-NTSTATUS EvtIddCxMonitorQueryTargetModes(
-  _In_        IDDCX_MONITOR               MonitorObject,
-  _In_  const IDARG_IN_QUERYTARGETMODES*  pInArgs,
-  _Out_       IDARG_OUT_QUERYTARGETMODES* pOutArgs
-)
-{ ... }
-
-typedef EVT_IDD_CX_MONITOR_QUERY_TARGET_MODES PFN_IDD_CX_MONITOR_QUERY_TARGET_MODES;
-````
 
 
 ## -parameters

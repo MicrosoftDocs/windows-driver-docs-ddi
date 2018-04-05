@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILSENDMSGRESPONSEPARAMMASK
 title: RILSENDMSGRESPONSEPARAMMASK
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilsendmsgresponseparammask_2.htm
+old-location: netvista\rilsendmsgresponseparammask.htm
 old-project: netvista
-ms.assetid: 09711824-5a7a-4f24-bfe4-b7b146de7bee
+ms.assetid: d3bf2b1a-22ac-4b37-a442-ecd8a2108b46
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: RILSENDMSGRESPONSEPARAMMASK, RILSENDMSGRESPONSEPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_MSGRES_ALL, RIL_PARAM_MSGRES_CDMACAUSECODE, RIL_PARAM_MSGRES_CDMAERRORCLASS, RIL_PARAM_MSGRES_GWLRELAYCODE, RIL_PARAM_MSGRES_GWLTRANSPORTCODE, RIL_PARAM_MSGRES_MSGID, netvista.rilsendmsgresponseparammask_2, rilapitypes/RILSENDMSGRESPONSEPARAMMASK, rilapitypes/RIL_PARAM_MSGRES_ALL, rilapitypes/RIL_PARAM_MSGRES_CDMACAUSECODE, rilapitypes/RIL_PARAM_MSGRES_CDMAERRORCLASS, rilapitypes/RIL_PARAM_MSGRES_GWLRELAYCODE, rilapitypes/RIL_PARAM_MSGRES_GWLTRANSPORTCODE, rilapitypes/RIL_PARAM_MSGRES_MSGID
+ms.date: 3/26/2018
+ms.keywords: RILSENDMSGRESPONSEPARAMMASK, RILSENDMSGRESPONSEPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_MSGRES_ALL, RIL_PARAM_MSGRES_CDMACAUSECODE, RIL_PARAM_MSGRES_CDMAERRORCLASS, RIL_PARAM_MSGRES_GWLRELAYCODE, RIL_PARAM_MSGRES_GWLTRANSPORTCODE, RIL_PARAM_MSGRES_MSGID, netvista.rilsendmsgresponseparammask, ntddrilapitypes/RILSENDMSGRESPONSEPARAMMASK, ntddrilapitypes/RIL_PARAM_MSGRES_ALL, ntddrilapitypes/RIL_PARAM_MSGRES_CDMACAUSECODE, ntddrilapitypes/RIL_PARAM_MSGRES_CDMAERRORCLASS, ntddrilapitypes/RIL_PARAM_MSGRES_GWLRELAYCODE, ntddrilapitypes/RIL_PARAM_MSGRES_GWLTRANSPORTCODE, ntddrilapitypes/RIL_PARAM_MSGRES_MSGID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -35,10 +35,11 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILSENDMSGRESPONSEPARAMMASK
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILSENDMSGRESPONSEPARAMMASK
 req.product: Windows 10 or later.
@@ -50,22 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-
-## -syntax
-
-
-````
-typedef enum _RILSENDMSGRESPONSEPARAMMASK { 
-  RIL_PARAM_MSGRES_CDMACAUSECODE,
-  RIL_PARAM_MSGRES_CDMAERRORCLASS,
-  RIL_PARAM_MSGRES_GWLTRANSPORTCODE,
-  RIL_PARAM_MSGRES_GWLRELAYCODE,
-  RIL_PARAM_MSGRES_MSGID,
-  RIL_PARAM_MSGRES_ALL
-} RILSENDMSGRESPONSEPARAMMASK;
-````
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -enum-fields

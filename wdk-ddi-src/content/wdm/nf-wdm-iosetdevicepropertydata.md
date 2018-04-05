@@ -7,7 +7,7 @@ old-location: kernel\iosetdevicepropertydata.htm
 old-project: kernel
 ms.assetid: 8e535a6a-9b17-4ef6-b068-43042a589ac0
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/28/2018
 ms.keywords: IoSetDevicePropertyData, IoSetDevicePropertyData routine [Kernel-Mode Driver Architecture], k104_a7cd308b-4d43-4364-80fb-ae773d0de101.xml, kernel.iosetdevicepropertydata, wdm/IoSetDevicePropertyData
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	IoSetDevicePropertyData
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
@@ -51,22 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>IoSetDevicePropertyData</b> routine modifies the current setting for a device property.
-
-
-## -syntax
-
-
-````
-NTSTATUS IoSetDevicePropertyData(
-  _In_           PDEVICE_OBJECT Pdo,
-  _In_     const DEVPROPKEY     *PropertyKey,
-  _In_           LCID           Lcid,
-  _In_           ULONG          Flags,
-  _In_           DEVPROPTYPE    Type,
-  _In_           ULONG          Size,
-  _In_opt_       PVOID          Data
-);
-````
 
 
 ## -parameters
@@ -142,7 +127,7 @@ To modify a property for all locales, pass <b>LOCALE_NEUTRAL</b> in <i>Lcid</i> 
 
 Beginning with Windows 8 and Windows Server 2012 passing <b>LOCALE_NEUTRAL</b> in <i>Lcid</i> is treated like any other locale.
 
-Drivers can use the <a href="..\wdm\nf-wdm-iogetdevicepropertydata.md">IoGetDevicePropertyData</a> routine to obtain the current value for a device property.
+Drivers can use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549206">IoGetDevicePropertyData</a> routine to obtain the current value for a device property.
 
 Callers of <b>IoSetDeviceProperty</b> must be running at IRQL &lt;= APC_LEVEL in the context of a system thread.
 
@@ -151,11 +136,6 @@ Callers of <b>IoSetDeviceProperty</b> must be running at IRQL &lt;= APC_LEVEL in
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543546">DEVPROPTYPE</a>
-
-
-
-<a href="..\wdm\nf-wdm-iogetdevicepropertydata.md">IoGetDevicePropertyData</a>
 
 
 
@@ -163,9 +143,12 @@ Callers of <b>IoSetDeviceProperty</b> must be running at IRQL &lt;= APC_LEVEL in
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543546">DEVPROPTYPE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549206">IoGetDevicePropertyData</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoSetDevicePropertyData routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

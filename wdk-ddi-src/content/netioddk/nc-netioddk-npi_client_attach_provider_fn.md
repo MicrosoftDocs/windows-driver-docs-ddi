@@ -7,7 +7,7 @@ old-location: netvista\clientattachprovider.htm
 old-project: netvista
 ms.assetid: 8f8abdb1-d018-4404-a80a-74017c324a0f
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: ClientAttachProvider, ClientAttachProvider callback function [Network Drivers Starting with Windows Vista], NPI_CLIENT_ATTACH_PROVIDER_FN, PNPI_CLIENT_ATTACH_PROVIDER_FN, PNPI_CLIENT_ATTACH_PROVIDER_FN callback function [Network Drivers Starting with Windows Vista], netioddk/ClientAttachProvider, netvista.clientattachprovider, nmrref_36b8ce1f-6570-40a1-b6f9-5d6782aac61d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	netioddk.h
 api_name:
 -	PNPI_CLIENT_ATTACH_PROVIDER_FN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NET_DMA_PROVIDER_CHARACTERISTICS, *PNET_DMA_PROVIDER_CHARACTERISTICS
 ---
@@ -51,23 +52,6 @@ req.typenames: NET_DMA_PROVIDER_CHARACTERISTICS, *PNET_DMA_PROVIDER_CHARACTERIST
 
 A client module's 
   <i>ClientAttachProvider</i> callback function attaches the client module to a provider module.
-
-
-## -prototype
-
-
-````
-NPI_CLIENT_ATTACH_PROVIDER_FN ClientAttachProvider;
-
-NTSTATUS ClientAttachProvider(
-  _In_ HANDLE                     NmrBindingHandle,
-  _In_ PVOID                      ClientContext,
-  _In_ PNPI_REGISTRATION_INSTANCE ProviderRegistrationInstance
-)
-{ ... }
-
-typedef NPI_CLIENT_ATTACH_PROVIDER_FN * PNPI_CLIENT_ATTACH_PROVIDER_FN;
-````
 
 
 ## -parameters
@@ -85,14 +69,14 @@ A handle used by the NMR to represent the binding between the client module and 
 
 A pointer to the client module's registration context. The client module passes this pointer to
      the NMR when it calls the 
-     <a href="..\netioddk\nf-netioddk-nmrregisterclient.md">NmrRegisterClient</a> function to register
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568782">NmrRegisterClient</a> function to register
      itself with the NMR.
 
 
 ### -param ProviderRegistrationInstance [in]
 
 A pointer to an 
-     <a href="..\netioddk\ns-netioddk-_npi_registration_instance.md">
+     <a href="https://msdn.microsoft.com/a368f9d9-a7e0-4b35-ba14-b0919f74029d">
      NPI_REGISTRATION_INSTANCE</a> structure. This structure contains the provider module's registration
      data.
 
@@ -174,7 +158,7 @@ A client module can examine the provider module's registration data. This data i
 <li>
 If the client module determines that it will attach to the provider module, then the 
       <i>ClientAttachProvider</i> callback function calls the 
-      <a href="..\netioddk\nf-netioddk-nmrclientattachprovider.md">NmrClientAttachProvider</a> function
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff568770">NmrClientAttachProvider</a> function
       to continue the attachment process. In this situation the 
       <i>ClientAttachProvider</i> callback function must return the status code that is returned by the call
       to the 
@@ -191,7 +175,7 @@ If the client module determines that it will not attach to the provider module, 
 If the client module successfully attaches to the provider module, it must save the handle provided in
     the 
     <i>NmrBindingHandle</i> parameter. The client module passes this handle as a parameter to the 
-    <a href="..\netioddk\nf-netioddk-nmrclientdetachprovidercomplete.md">
+    <a href="https://msdn.microsoft.com/e54864de-9558-44b1-9c5a-0f2ecc6516b1">
     NmrClientDetachProviderComplete</a> function when it detaches from the provider module.
 
 The NMR calls a client module's 
@@ -202,34 +186,32 @@ The NMR calls a client module's
 
 ## -see-also
 
-<a href="..\netioddk\ns-netioddk-_npi_client_characteristics.md">NPI_CLIENT_CHARACTERISTICS</a>
 
 
 
-<a href="..\netioddk\nf-netioddk-nmrclientdetachprovidercomplete.md">
+<a href="https://msdn.microsoft.com/a684136a-e2f2-4f82-9e9a-166b40bd7536">ClientDetachProvider</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568812">NPI_CLIENT_CHARACTERISTICS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568815">NPI_REGISTRATION_INSTANCE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568770">NmrClientAttachProvider</a>
+
+
+
+<a href="https://msdn.microsoft.com/e54864de-9558-44b1-9c5a-0f2ecc6516b1">
    NmrClientDetachProviderComplete</a>
 
 
 
-<a href="..\netioddk\nf-netioddk-nmrregisterclient.md">NmrRegisterClient</a>
-
-
-
-<a href="..\netioddk\nc-netioddk-npi_client_detach_provider_fn.md">ClientDetachProvider</a>
-
-
-
-<a href="..\netioddk\nf-netioddk-nmrclientattachprovider.md">NmrClientAttachProvider</a>
-
-
-
-<a href="..\netioddk\ns-netioddk-_npi_registration_instance.md">NPI_REGISTRATION_INSTANCE</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568782">NmrRegisterClient</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NPI_CLIENT_ATTACH_PROVIDER_FN callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

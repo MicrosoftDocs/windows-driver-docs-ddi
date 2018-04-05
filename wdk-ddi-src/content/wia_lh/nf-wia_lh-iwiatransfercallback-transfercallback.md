@@ -7,7 +7,7 @@ old-location: image\iwiatransfercallback_transfercallback.htm
 old-project: image
 ms.assetid: dc6c2057-9617-4c69-ac79-2a8f910a1ee2
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/27/2018
 ms.keywords: IWiaTransferCallback, IWiaTransferCallback interface [Imaging Devices], TransferCallback method, IWiaTransferCallback::TransferCallback, IWiaTransfercallback_8e8bdc78-ce93-4fe1-98aa-91ffe608ee52.xml, TransferCallback method [Imaging Devices], TransferCallback method [Imaging Devices], IWiaTransferCallback interface, TransferCallback,IWiaTransferCallback.TransferCallback, image.iwiatransfercallback_transfercallback, wia_lh/IWiaTransferCallback::TransferCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: wia_lh.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	wia_lh.h
 api_name:
 -	IWiaTransferCallback.TransferCallback
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BMP_IMAGE_INFO, *PBMP_IMAGE_INFO
 req.product: Windows 10 or later.
@@ -51,17 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>IWiaTransferCallback::TransferCallback</b> method is implemented by an image processing filter. It is called by the WIA service as a result of an application calling <b>IWiaTransfer::Download</b> or the preview component's <b>IWiaPreview::GetNewPreview</b>.
-
-
-## -syntax
-
-
-````
-HRESULT TransferCallback(
-  [in] LONG              lFlags,
-  [in] WiaTransferParams *WiaTransferParams
-);
-````
 
 
 ## -parameters

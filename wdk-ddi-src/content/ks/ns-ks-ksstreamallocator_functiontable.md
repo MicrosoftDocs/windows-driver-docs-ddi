@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSSTREAMALLOCATOR_FUNCTIONTABLE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSSTREAMALLOCATOR_FUNCTIONTABLE, *PKSSTREAMALLOCATOR_FUNCTIONTABLE
 ---
@@ -50,17 +51,6 @@ req.typenames: KSSTREAMALLOCATOR_FUNCTIONTABLE, *PKSSTREAMALLOCATOR_FUNCTIONTABL
 
 
 Clients can request the function table of a given allocator by sending a KSSTREAMALLOCATOR_FUNCTIONTABLE structure in a KSPROPERTY_STREAMALLOCATOR_FUNCTIONTABLE property request.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  PFNALLOCATOR_ALLOCATEFRAME AllocateFrame;
-  PFNALLOCATOR_FREEFRAME     FreeFrame;
-} KSSTREAMALLOCATOR_FUNCTIONTABLE, *PKSSTREAMALLOCATOR_FUNCTIONTABLE;
-````
 
 
 ## -struct-fields
@@ -93,11 +83,6 @@ This property is only accessible from kernel-mode.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567151">KStrAllocateFrame</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567174">KStrFreeFrame</a>
 
 
 
@@ -105,9 +90,12 @@ This property is only accessible from kernel-mode.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567151">KStrAllocateFrame</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567174">KStrFreeFrame</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSSTREAMALLOCATOR_FUNCTIONTABLE structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

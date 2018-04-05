@@ -38,7 +38,8 @@ api_location:
 -	1394.h
 api_name:
 -	SELF_ID_MORE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SELF_ID_MORE, *PSELF_ID_MORE
 ---
@@ -50,30 +51,6 @@ req.typenames: SELF_ID_MORE, *PSELF_ID_MORE
 
 
 The SELF_ID_MORE structure contains a raw packet one, two, or three self-ID packet. See the IEEE 1394 specification for details.
-
-
-## -syntax
-
-
-````
-typedef struct _SELF_ID_MORE {
-  ULONG SID_Phys_ID  :6;
-  ULONG SID_Packet_ID  :2;
-  ULONG SID_PortA  :2;
-  ULONG SID_Reserved2  :2;
-  ULONG SID_Sequence  :3;
-  ULONG SID_One  :1;
-  ULONG SID_PortE  :2;
-  ULONG SID_PortD  :2;
-  ULONG SID_PortC  :2;
-  ULONG SID_PortB  :2;
-  ULONG SID_More_Packets  :1;
-  ULONG SID_Reserved3  :1;
-  ULONG SID_PortH  :2;
-  ULONG SID_PortG  :2;
-  ULONG SID_PortF  :2;
-} SELF_ID_MORE, *PSELF_ID_MORE;
-````
 
 
 ## -struct-fields
@@ -247,13 +224,11 @@ This structure corresponds to self ID packet 1, as described in the <i>P1394a</i
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538877">TOPOLOGY_MAP</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [IEEE\buses]:%20SELF_ID_MORE structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

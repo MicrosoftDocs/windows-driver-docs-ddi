@@ -7,7 +7,7 @@ old-location: netvista\net_buffer_shared_memory.htm
 old-project: netvista
 ms.assetid: 492bb1cd-fc3e-4e85-9074-32ebbf1fb837
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: "*PNET_BUFFER_SHARED_MEMORY, NET_BUFFER_SHARED_MEMORY, NET_BUFFER_SHARED_MEMORY structure [Network Drivers Starting with Windows Vista], PNET_BUFFER_SHARED_MEMORY, PNET_BUFFER_SHARED_MEMORY structure pointer [Network Drivers Starting with Windows Vista], _NET_BUFFER_SHARED_MEMORY, ndis/NET_BUFFER_SHARED_MEMORY, ndis/PNET_BUFFER_SHARED_MEMORY, ndis_netbuf_macros_media_specific_5b9066cf-413a-4483-9b05-e06ceed9081e.xml, netvista.net_buffer_shared_memory"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ndis.h
 api_name:
 -	NET_BUFFER_SHARED_MEMORY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NET_BUFFER_SHARED_MEMORY, *PNET_BUFFER_SHARED_MEMORY, NET_BUFFER_SHARED_MEMORY, *PNET_BUFFER_SHARED_MEMORY
 ---
@@ -50,21 +51,7 @@ req.typenames: NET_BUFFER_SHARED_MEMORY, *PNET_BUFFER_SHARED_MEMORY, NET_BUFFER_
 
 
 The NET_BUFFER_SHARED_MEMORY structure specifies a shared memory buffer that is associated with a 
-  <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structure.
-
-
-## -syntax
-
-
-````
-typedef struct _NET_BUFFER_SHARED_MEMORY {
-  PNET_BUFFER_SHARED_MEMORY NextSharedMemorySegment;
-  ULONG                     SharedMemoryFlags;
-  NDIS_HANDLE               SharedMemoryHandle;
-  ULONG                     SharedMemoryOffset;
-  ULONG                     SharedMemoryLength;
-} NET_BUFFER_SHARED_MEMORY, *PNET_BUFFER_SHARED_MEMORY;
-````
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structure.
 
 
 ## -struct-fields
@@ -104,7 +91,7 @@ A ULONG value for the length, in bytes, of the shared memory segment.
 
 An NDIS 6.20 or later driver uses the NET_BUFFER_SHARED_MEMORY structure to describe a shared memory
     buffer. There can be a linked list of such shared memory buffers that are associated with a 
-    <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structure. Virtual machine queue (VMQ)
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structure. Virtual machine queue (VMQ)
     capable NICs use these shared memory buffers in the virtualization environment.
 
 Use the 
@@ -125,7 +112,10 @@ Use the
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568421">NET_BUFFER_SHARED_MEM_HANDLE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a>
 
 
 
@@ -133,11 +123,7 @@ Use the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568727">NET_BUFFER_SHARED_MEM_OFFSET</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568421">NET_BUFFER_SHARED_MEM_HANDLE</a>
 
 
 
@@ -150,9 +136,8 @@ Use the
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568727">NET_BUFFER_SHARED_MEM_OFFSET</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NET_BUFFER_SHARED_MEMORY structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KS_VBI_FRAME_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KS_VBI_FRAME_INFO, *PKS_VBI_FRAME_INFO
 ---
@@ -49,23 +50,7 @@ req.typenames: KS_VBI_FRAME_INFO, *PKS_VBI_FRAME_INFO
 ## -description
 
 
-The KS_VBI_FRAME_INFO structure extends the <a href="..\ks\ns-ks-ksstream_header.md">KSSTREAM_HEADER</a> structure for vertical blanking interval (VBI) streams.
-
-
-## -syntax
-
-
-````
-typedef struct tagKS_VBI_FRAME_INFO {
-  ULONG                  ExtendedHeaderSize;
-  DWORD                  dwFrameFlags;
-  LONGLONG               PictureNumber;
-  LONGLONG               DropCount;
-  DWORD                  dwSamplingFrequency;
-  KS_TVTUNER_CHANGE_INFO TvTunerChangeInfo;
-  KS_VBIINFOHEADER       VBIInfoHeader;
-} KS_VBI_FRAME_INFO, *PKS_VBI_FRAME_INFO;
-````
+The KS_VBI_FRAME_INFO structure extends the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567138">KSSTREAM_HEADER</a> structure for vertical blanking interval (VBI) streams.
 
 
 ## -struct-fields
@@ -213,21 +198,19 @@ The <b>dwSamplingFrequency</b> member is not used by Microsoft VBI codecs, but m
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-tagks_vbiinfoheader.md">KS_VBIINFOHEADER</a>
 
 
 
-<a href="..\ksmedia\ns-ksmedia-tagks_tvtuner_change_info.md">KS_TVTUNER_CHANGE_INFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567138">KSSTREAM_HEADER</a>
 
 
 
-<a href="..\ks\ns-ks-ksstream_header.md">KSSTREAM_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567691">KS_TVTUNER_CHANGE_INFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567692">KS_VBIINFOHEADER</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KS_VBI_FRAME_INFO structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<= PASSIVE_LEVEL"
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	sdplib.h
 api_name:
 -	SdpCreateNodeTree
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SDCMD_DESCRIPTOR, *PSDCMD_DESCRIPTOR
 req.product: Windows 10 or later.
@@ -52,17 +53,7 @@ req.product: Windows 10 or later.
 
 The Bluetooth 
   <b>SdpCreateNodeTree</b> function is used to allocate an empty root 
-  <a href="..\sdpnode\ns-sdpnode-_sdp_tree_root_node.md">SDP_TREE_ROOT_NODE</a> structure.
-
-
-## -syntax
-
-
-````
-PSDP_TREE_ROOT_NODE SdpCreateNodeTree(
-  _In_ ULONG tag
-);
-````
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff536851">SDP_TREE_ROOT_NODE</a> structure.
 
 
 ## -parameters
@@ -93,14 +84,14 @@ Calling the
     <b>SdpCreateNodeTree</b> function is the first step in building an SDP tree. After a Bluetooth profile
     driver allocates a root node by using this function, the node can be populated by using calls to other
     functions pointed to by the 
-    <a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_node_interface.md">
+    <a href="https://msdn.microsoft.com/c9aeaaed-f017-4b23-b867-d704c4f8afb6">
     BTHDDI_SDP_NODE_INTERFACE</a> structure.
 
 When an SDP tree is no longer needed, the Bluetooth profile driver should destroy it by calling the 
-    <a href="..\sdplib\nf-sdplib-sdpfreetree.md">SdpFreeTree</a> function. 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff536839">SdpFreeTree</a> function. 
     <b>SdpFreeTree</b> frees the root node and all child nodes that have been attached to it. Individual 
-    <a href="..\sdpnode\ns-sdpnode-_sdp_node.md">SDP_NODE</a> structures can be freed by calling the 
-    <a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a> driver support routine as long as they
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff536848">SDP_NODE</a> structures can be freed by calling the 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff544590">ExFreePool</a> driver support routine as long as they
     are no longer part of a tree or other list.
 
 Bluetooth profile drivers can obtain a pointer to this function through the BTHDDI_SDP_NODE_INTERFACE
@@ -111,29 +102,27 @@ Bluetooth profile drivers can obtain a pointer to this function through the BTHD
 
 ## -see-also
 
-<a href="..\sdpnode\ns-sdpnode-_sdp_tree_root_node.md">SDP_TREE_ROOT_NODE</a>
 
 
 
-<a href="..\sdplib\nf-sdplib-sdpfreetree.md">SdpFreeTree</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536635">BTHDDI_SDP_NODE_INTERFACE</a>
 
 
 
-<a href="..\sdpnode\ns-sdpnode-_sdp_node.md">SDP_NODE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544590">ExFreePool</a>
 
 
 
-<a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536848">SDP_NODE</a>
 
 
 
-<a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_node_interface.md">BTHDDI_SDP_NODE_INTERFACE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536851">SDP_TREE_ROOT_NODE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536839">SdpFreeTree</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20SdpCreateNodeTree function%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

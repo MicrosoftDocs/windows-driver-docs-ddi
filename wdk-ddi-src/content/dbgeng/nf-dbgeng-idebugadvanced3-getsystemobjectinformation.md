@@ -7,7 +7,7 @@ old-location: debugger\getsystemobjectinformation.htm
 old-project: debugger
 ms.assetid: 7e95a16e-e62d-49df-9889-fab0a85f9cbc
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/26/2018
 ms.keywords: GetSystemObjectInformation method [Windows Debugging], GetSystemObjectInformation method [Windows Debugging], IDebugAdvanced2 interface, GetSystemObjectInformation method [Windows Debugging], IDebugAdvanced3 interface, GetSystemObjectInformation,IDebugAdvanced3.GetSystemObjectInformation, IDebugAdvanced2 interface [Windows Debugging], GetSystemObjectInformation method, IDebugAdvanced2::GetSystemObjectInformation, IDebugAdvanced3, IDebugAdvanced3 interface [Windows Debugging], GetSystemObjectInformation method, IDebugAdvanced3::GetSystemObjectInformation, IDebugAdvanced_a1f6b5cc-0b56-417f-b515-45c999499ba7.xml, dbgeng/IDebugAdvanced2::GetSystemObjectInformation, dbgeng/IDebugAdvanced3::GetSystemObjectInformation, debugger.getsystemobjectinformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	IDebugAdvanced2.GetSystemObjectInformation
 -	IDebugAdvanced3.GetSystemObjectInformation
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -51,21 +52,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetSystemObjectInformation</b> method returns information about operating system objects on the target.
-
-
-## -syntax
-
-
-````
-HRESULT GetSystemObjectInformation(
-  [in]            ULONG   Which,
-  [in]            ULONG64 Arg64,
-  [in]            ULONG   Arg32,
-  [out, optional] PVOID   Buffer,
-  [in]            ULONG   BufferSize,
-  [out, optional] PULONG  InfoSize
-);
-````
 
 
 ## -parameters
@@ -138,7 +124,7 @@ DEBUG_SYSOBJINFO_THREAD_BASIC_INFORMATION
 </td>
 <td>
 
-<a href="..\dbgeng\ns-dbgeng-_debug_thread_basic_information.md">DEBUG_THREAD_BASIC_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541695">DEBUG_THREAD_BASIC_INFORMATION</a>
 
 
 </td>
@@ -208,21 +194,19 @@ The method was successful. However, the information would not fit in the buffer 
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsystemobjects.md">IDebugSystemObjects</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugadvanced2.md">IDebugAdvanced2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549803">IDebugAdvanced2</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugadvanced3.md">IDebugAdvanced3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549807">IDebugAdvanced3</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550875">IDebugSystemObjects</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugAdvanced2::GetSystemObjectInformation method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: debugger\getfieldoffsetwide.htm
 old-project: debugger
 ms.assetid: 4a9b90dd-72b2-4625-8b73-bc0dca6ba905
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/26/2018
 ms.keywords: GetFieldOffsetWide method [Windows Debugging], GetFieldOffsetWide method [Windows Debugging], IDebugSymbols3 interface, GetFieldOffsetWide,IDebugSymbols3.GetFieldOffsetWide, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetFieldOffsetWide method, IDebugSymbols3::GetFieldOffsetWide, dbgeng/IDebugSymbols3::GetFieldOffsetWide, debugger.getfieldoffsetwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugSymbols3.GetFieldOffsetWide
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -50,19 +51,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetFieldOffsetWide</b>  method returns the offset of a field from the base address of an instance of a type.
-
-
-## -syntax
-
-
-````
-HRESULT GetFieldOffsetWide(
-  [in]  ULONG64 Module,
-  [in]  ULONG   TypeId,
-  [in]  PCWSTR  Field,
-  [out] PULONG  Offset
-);
-````
 
 
 ## -parameters

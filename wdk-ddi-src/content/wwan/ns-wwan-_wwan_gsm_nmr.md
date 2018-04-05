@@ -7,7 +7,7 @@ old-location: netvista\wwan_gsm_nmr.htm
 old-project: netvista
 ms.assetid: ADEEB57F-79FF-4AA7-84AF-FED413E47057
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: "*PWWAN_GSM_NMR, PWWAN_GSM_NMR, PWWAN_GSM_NMR structure pointer [Network Drivers Starting with Windows Vista], WWAN_GSM_NMR, WWAN_GSM_NMR structure [Network Drivers Starting with Windows Vista], _WWAN_GSM_NMR, netvista.wwan_gsm_nmr, wwan/PWWAN_GSM_NMR, wwan/WWAN_GSM_NMR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	wwan.h
 api_name:
 -	WWAN_GSM_NMR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WWAN_GSM_NMR, *PWWAN_GSM_NMR
 req.product: Windows 10 or later.
@@ -51,17 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>WWAN_GSM_NMR</b> structure represents the network measurement report (NMR) of neighboring GSM cells.
-
-
-## -syntax
-
-
-````
-typedef struct _WWAN_GSM_NMR {
-  ULONG ElementCount;
-  BYTE  GSMNmr[ANYSIZE_ARRAY];
-} WWAN_GSM_NMR, *PWWAN_GSM_NMR;
-````
 
 
 ## -struct-fields
@@ -83,20 +73,11 @@ The count of NMR entries following this member.
 
 #### - GSMNmr[ANYSIZE_ARRAY]
 
-The array of NMR records, each specified as a <a href="..\wwan\ns-wwan-_wwan_gsm_nmr_info.md">WWAN_GSM_NMR_INFO</a> structure.
+The array of NMR records, each specified as a <a href="https://msdn.microsoft.com/EF22D5C3-7A3B-4A96-A050-FCB71CA2C149">WWAN_GSM_NMR_INFO</a> structure.
 
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_base_stations_info.md">WWAN_BASE_STATIONS_INFO</a>
-
-
-
-<a href="..\wwan\ns-wwan-_wwan_gsm_nmr_info.md">WWAN_GSM_NMR_INFO</a>
-
-
-
-<a href="..\wwan\ns-wwan-_wwan_gsm_serving_cell_info.md">WWAN_GSM_SERVING_CELL_INFO</a>
 
 
 
@@ -104,9 +85,16 @@ The array of NMR records, each specified as a <a href="..\wwan\ns-wwan-_wwan_gsm
 
 
 
+<a href="https://msdn.microsoft.com/66460B28-C2B4-4F05-A133-31A753AF9489">WWAN_BASE_STATIONS_INFO</a>
+
+
+
+<a href="https://msdn.microsoft.com/EF22D5C3-7A3B-4A96-A050-FCB71CA2C149">WWAN_GSM_NMR_INFO</a>
+
+
+
+<a href="https://msdn.microsoft.com/37F6BD26-55F3-4E46-9C39-97A95B6FF5B1">WWAN_GSM_SERVING_CELL_INFO</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WWAN_GSM_NMR structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

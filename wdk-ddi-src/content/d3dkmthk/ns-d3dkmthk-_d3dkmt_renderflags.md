@@ -7,7 +7,7 @@ old-location: display\d3dkmt_renderflags.htm
 old-project: display
 ms.assetid: 6a25528c-063b-4cd5-963d-82245009bb48
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMT_RENDERFLAGS, D3DKMT_RENDERFLAGS structure [Display Devices], OpenGL_Structs_8a885a03-0eba-4119-973a-a1c1dafe3c10.xml, _D3DKMT_RENDERFLAGS, d3dkmthk/D3DKMT_RENDERFLAGS, display.d3dkmt_renderflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmthk.h
 api_name:
 -	D3DKMT_RENDERFLAGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_RENDERFLAGS
 ---
@@ -49,23 +50,7 @@ req.typenames: D3DKMT_RENDERFLAGS
 ## -description
 
 
-The D3DKMT_RENDERFLAGS structure identifies the type of command buffer to be rendered in a call to the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtrender.md">D3DKMTRender</a> function.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_RENDERFLAGS {
-  UINT ResizeCommandBuffer  :1;
-  UINT ResizeAllocationList  :1;
-  UINT ResizePatchLocationList  :1;
-  UINT NullRendering  :1;
-  UINT PresentRedirected  :1;
-  UINT RenderKm  :1;
-  UINT Reserved  :26;
-} D3DKMT_RENDERFLAGS;
-````
+The D3DKMT_RENDERFLAGS structure identifies the type of command buffer to be rendered in a call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547145">D3DKMTRender</a> function.
 
 
 ## -struct-fields
@@ -75,21 +60,21 @@ typedef struct _D3DKMT_RENDERFLAGS {
 
 ### -field ResizeCommandBuffer
 
-A UINT value that specifies whether to resize the command buffer. The driver puts the requested size in the <b>NewCommandBufferSize</b> member of the <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_render.md">D3DKMT_RENDER</a> structure. Because a resize request by the driver might not be possible, the driver must always verify the size value that is returned.
+A UINT value that specifies whether to resize the command buffer. The driver puts the requested size in the <b>NewCommandBufferSize</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548238">D3DKMT_RENDER</a> structure. Because a resize request by the driver might not be possible, the driver must always verify the size value that is returned.
 
 Setting this member is equivalent to setting the first bit of a 32-bit value (0x00000001).
 
 
 ### -field ResizeAllocationList
 
-A UINT value that specifies whether to resize the allocation list. The driver puts the requested number of elements in the <b>NewAllocationListSize</b> member of the <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_render.md">D3DKMT_RENDER</a> structure. Because a resize request by the driver might not be possible, the driver must always verify the size value that is returned.
+A UINT value that specifies whether to resize the allocation list. The driver puts the requested number of elements in the <b>NewAllocationListSize</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548238">D3DKMT_RENDER</a> structure. Because a resize request by the driver might not be possible, the driver must always verify the size value that is returned.
 
 Setting this member is equivalent to setting the second bit of a 32-bit value (0x00000002).
 
 
 ### -field ResizePatchLocationList
 
-A UINT value that specifies whether to resize the patch-location list. The driver puts the requested number of elements in the <b>NewPatchLocationListSize</b> member of the <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_render.md">D3DKMT_RENDER</a> structure. Because a resize request by the driver might not be possible, the driver must always verify the size value that is returned.
+A UINT value that specifies whether to resize the patch-location list. The driver puts the requested number of elements in the <b>NewPatchLocationListSize</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548238">D3DKMT_RENDER</a> structure. Because a resize request by the driver might not be possible, the driver must always verify the size value that is returned.
 
 Setting this member is equivalent to setting the third bit of a 32-bit value (0x00000004).
 
@@ -112,7 +97,7 @@ Setting this member is equivalent to setting the fifth bit of a 32-bit value (0x
 
 Supported in Windows 7 and later versions.
 
-A UINT value that specifies whether the OpenGL ICD supplies a pointer to the command buffer to be rendered in the ICD's call to the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtrender.md">D3DKMTRender</a> function. If this flag is set, the runtime does not call the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_render.md">DxgkDdiRender</a> function. If this flag is set, the runtime calls the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_renderkm.md">DxgkDdiRenderKm</a> function. 
+A UINT value that specifies whether the OpenGL ICD supplies a pointer to the command buffer to be rendered in the ICD's call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547145">D3DKMTRender</a> function. If this flag is set, the runtime does not call the display miniport driver's <a href="https://msdn.microsoft.com/fd634768-5e1e-4f40-82fd-5ef69148c3d7">DxgkDdiRender</a> function. If this flag is set, the runtime calls the display miniport driver's <a href="https://msdn.microsoft.com/5841934d-7e0a-4bb8-a7f8-17d8c0af351f">DxgkDdiRenderKm</a> function. 
 
 Setting this member is equivalent to setting the sixth bit of a 32-bit value (0x00000020).
 
@@ -129,13 +114,11 @@ This member is reserved and should be set to zero. Setting this member is equiva
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_render.md">D3DKMT_RENDER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548238">D3DKMT_RENDER</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMT_RENDERFLAGS structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

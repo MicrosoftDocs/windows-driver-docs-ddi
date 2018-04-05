@@ -7,7 +7,7 @@ old-location: display\d3dddicaps_shader_min_precision.htm
 old-project: display
 ms.assetid: 98856726-b426-42e4-9560-f6b56164824a
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDICAPS_SHADER_MIN_PRECISION, D3DDDICAPS_SHADER_MIN_PRECISION enumeration [Display Devices], D3DDDICAPS_SHADER_MIN_PRECISION_10_BIT, D3DDDICAPS_SHADER_MIN_PRECISION_16_BIT, d3dumddi/D3DDDICAPS_SHADER_MIN_PRECISION, d3dumddi/D3DDDICAPS_SHADER_MIN_PRECISION_10_BIT, d3dumddi/D3DDDICAPS_SHADER_MIN_PRECISION_16_BIT, display.d3dddicaps_shader_min_precision
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3dumddi.h
 api_name:
 -	D3DDDICAPS_SHADER_MIN_PRECISION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDICAPS_SHADER_MIN_PRECISION
 ---
@@ -50,17 +51,6 @@ req.typenames: D3DDDICAPS_SHADER_MIN_PRECISION
 
 
 Specifies minimum precision levels that the user-mode driver supports in shaders.
-
-
-## -syntax
-
-
-````
-typedef enum D3DDDICAPS_SHADER_MIN_PRECISION { 
-  D3DDDICAPS_SHADER_MIN_PRECISION_10_BIT  = 0x1,
-  D3DDDICAPS_SHADER_MIN_PRECISION_16_BIT  = 0x2
-} D3DDDICAPS_SHADER_MIN_PRECISION;
-````
 
 
 ## -enum-fields

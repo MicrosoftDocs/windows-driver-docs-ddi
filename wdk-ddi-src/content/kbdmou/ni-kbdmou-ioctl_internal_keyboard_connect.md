@@ -38,18 +38,14 @@ api_location:
 -	kbdmou.h
 api_name:
 -	IOCTL_INTERNAL_KEYBOARD_CONNECT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MSiSCSI_SessionStatistics, *PMSiSCSI_SessionStatistics
 ---
 
 # IOCTL_INTERNAL_KEYBOARD_CONNECT IOCTL
 
-
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -61,7 +57,7 @@ After Kbfiltr received the keyboard connect request, Kbfiltr filters the connect
 
 <ul>
 <li>
-Saves a copy of Kbdclass's <a href="..\kbdmou\ns-kbdmou-_connect_data.md">CONNECT_DATA (Kbdclass)</a> structure that is passed to the filter driver by Kbdclass
+Saves a copy of Kbdclass's <a href="https://msdn.microsoft.com/8fdb5b1d-bbdb-4774-875a-7cdd047286f5">CONNECT_DATA (Kbdclass)</a> structure that is passed to the filter driver by Kbdclass
 
 </li>
 <li>
@@ -82,7 +78,7 @@ For more information about the connection of the Kbdclass service, see the follo
 <dl>
 <dd>
 
-<a href="..\kbdmou\nc-kbdmou-pservice_callback_routine.md">Kbdclass Class Service Callback Routine</a>
+<a href="https://msdn.microsoft.com/78ae2a98-bebd-43ee-b016-2f619c3135ca">Kbdclass Class Service Callback Routine</a>
 
 
 </dd>
@@ -170,21 +166,19 @@ The request completed successfully.
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/8fdb5b1d-bbdb-4774-875a-7cdd047286f5">CONNECT_DATA (Kbdclass)</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541238">IOCTL_INTERNAL_I8042_HOOK_KEYBOARD</a>
+
+
+
 <a href="https://msdn.microsoft.com/02815805-47cf-454c-8117-f5686a855e25">KeyboardClassServiceCallback</a>
-
-
-
-<a href="..\kbdmou\ns-kbdmou-_connect_data.md">CONNECT_DATA (Kbdclass)</a>
-
-
-
-<a href="..\ntdd8042\ni-ntdd8042-ioctl_internal_i8042_hook_keyboard.md">IOCTL_INTERNAL_I8042_HOOK_KEYBOARD</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [hid\hid]:%20IOCTL_INTERNAL_KEYBOARD_CONNECT control code%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

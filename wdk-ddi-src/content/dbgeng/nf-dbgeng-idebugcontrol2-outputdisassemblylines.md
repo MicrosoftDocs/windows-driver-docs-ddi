@@ -7,7 +7,7 @@ old-location: debugger\outputdisassemblylines.htm
 old-project: debugger
 ms.assetid: fb69e052-1033-457d-bafb-bf4be4ea5966
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/26/2018
 ms.keywords: IDebugControl interface [Windows Debugging], OutputDisassemblyLines method, IDebugControl2, IDebugControl2 interface [Windows Debugging], OutputDisassemblyLines method, IDebugControl2::OutputDisassemblyLines, IDebugControl3 interface [Windows Debugging], OutputDisassemblyLines method, IDebugControl3::OutputDisassemblyLines, IDebugControl::OutputDisassemblyLines, IDebugControl_51f0991b-9b9d-4a21-89be-099537a78ea5.xml, OutputDisassemblyLines method [Windows Debugging], OutputDisassemblyLines method [Windows Debugging], IDebugControl interface, OutputDisassemblyLines method [Windows Debugging], IDebugControl2 interface, OutputDisassemblyLines method [Windows Debugging], IDebugControl3 interface, OutputDisassemblyLines,IDebugControl2.OutputDisassemblyLines, dbgeng/IDebugControl2::OutputDisassemblyLines, dbgeng/IDebugControl3::OutputDisassemblyLines, dbgeng/IDebugControl::OutputDisassemblyLines, debugger.outputdisassemblylines
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -40,7 +40,8 @@ api_name:
 -	IDebugControl.OutputDisassemblyLines
 -	IDebugControl2.OutputDisassemblyLines
 -	IDebugControl3.OutputDisassemblyLines
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -52,24 +53,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>OutputDisassemblyLines</b> method disassembles several processor instructions and sends the resulting assembly instructions to the <a href="https://msdn.microsoft.com/7a23ee09-0314-400a-8152-eef49a225427">output callbacks</a>.
-
-
-## -syntax
-
-
-````
-HRESULT OutputDisassemblyLines(
-  [in]            ULONG    OutputControl,
-  [in]            ULONG    PreviousLines,
-  [in]            ULONG    TotalLines,
-  [in]            ULONG64  Offset,
-  [in]            ULONG    Flags,
-  [out, optional] PULONG   OffsetLine,
-  [out, optional] PULONG64 StartOffset,
-  [out, optional] PULONG64 EndOffset,
-  [out, optional] PULONG64 LineOffsets
-);
-````
 
 
 ## -parameters
@@ -217,11 +200,6 @@ For an overview of using assembly in debugger applications, see <a href="https:/
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553211">OutputDisassembly</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 
 
@@ -229,21 +207,24 @@ For an overview of using assembly in debugger applications, see <a href="https:/
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550508">IDebugControl</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550512">IDebugControl2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550519">IDebugControl3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553211">OutputDisassembly</a>
+
+
+
 <a href="https://msdn.microsoft.com/933a308c-61d1-4ca4-89c1-5749ba1b41c1">u (Unassemble)</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::OutputDisassemblyLines method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

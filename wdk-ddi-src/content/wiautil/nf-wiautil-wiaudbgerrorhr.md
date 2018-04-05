@@ -7,7 +7,7 @@ old-location: image\wiaudbgerrorhr.htm
 old-project: image
 ms.assetid: 18d248d9-d447-4d3e-9eaa-f6befb4bef58
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/27/2018
 ms.keywords: image.wiaudbgerrorhr, wiauDbgErrorHr, wiauDbgErrorHr function [Imaging Devices], wiauFncs_1400188e-53d1-481c-a470-8a2247b7f34f.xml, wiautil/wiauDbgErrorHr
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	Wiautil.h
 api_name:
 -	wiauDbgErrorHr
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SKIP_AMOUNT
 req.product: Windows 10 or later.
@@ -51,18 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>wiauDbgErrorHr</b> function logs a message containing an HRESULT and its error message string.
-
-
-## -syntax
-
-
-````
-inline void __stdcall wiauDbgErrorHr(
-   HRESULT  hr,
-   LPCSTR   fname,
-   LPCSTR   fmt, ...
-);
-````
 
 
 ## -parameters
@@ -127,25 +116,23 @@ The <b>wiauDbgErrorHr</b> function typically logs two lines to the log file, or 
 
 ## -see-also
 
-<a href="..\wiautil\nf-wiautil-wiaudbgwarning.md">wiauDbgWarning</a>
 
 
 
-<a href="..\wiautil\nf-wiautil-wiaudbgerror.md">wiauDbgError</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549627">wiauDbgDump</a>
 
 
 
-<a href="..\wiautil\nf-wiautil-wiaudbgdump.md">wiauDbgDump</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549633">wiauDbgError</a>
 
 
 
-<a href="..\wiautil\nf-wiautil-wiaudbgtrace.md">wiauDbgTrace</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550161">wiauDbgTrace</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550163">wiauDbgWarning</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20wiauDbgErrorHr function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

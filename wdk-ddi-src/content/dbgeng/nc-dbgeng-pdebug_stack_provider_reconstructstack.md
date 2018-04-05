@@ -7,7 +7,7 @@ old-location: debugger\reconstructstack.htm
 old-project: debugger
 ms.assetid: 639A90E8-4B2D-413B-B6F9-078C9DF1B02F
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/26/2018
 ms.keywords: PDEBUG_STACK_PROVIDER_RECONSTRUCTSTACK, ReconstructStack, ReconstructStack callback function [Windows Debugging], dbgeng/ReconstructStack, debugger.reconstructstack
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Dbgeng.h
 api_name:
 -	ReconstructStack
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -60,14 +61,6 @@ The <i>ReconstructStack</i> callback function queries dump stream provider on a 
 </td>
 </tr>
 </table></span></div>
-
-## -prototype
-
-
-````
- CALLBACK* PDEBUG_STACK_PROVIDER_RECONSTRUCTSTACK ReconstructStack;
-````
-
 
 ## -parameters
 

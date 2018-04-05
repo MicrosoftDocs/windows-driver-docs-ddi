@@ -7,7 +7,7 @@ old-location: netvista\ndis_tcp_connection_offload.htm
 old-project: netvista
 ms.assetid: d37a773d-0a83-4592-9c21-3ceaa6454549
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: "*PNDIS_TCP_CONNECTION_OFFLOAD, NDIS_TCP_CONNECTION_OFFLOAD, NDIS_TCP_CONNECTION_OFFLOAD structure [Network Drivers Starting with Windows Vista], PNDIS_TCP_CONNECTION_OFFLOAD, PNDIS_TCP_CONNECTION_OFFLOAD structure pointer [Network Drivers Starting with Windows Vista], _NDIS_TCP_CONNECTION_OFFLOAD, netvista.ndis_tcp_connection_offload, ntddndis/NDIS_TCP_CONNECTION_OFFLOAD, ntddndis/PNDIS_TCP_CONNECTION_OFFLOAD, tcpip_offload_ref_d53e40a7-cf71-4281-ba14-80d913f810d7.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddndis.h
 api_name:
 -	NDIS_TCP_CONNECTION_OFFLOAD
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_TCP_CONNECTION_OFFLOAD, *PNDIS_TCP_CONNECTION_OFFLOAD
 ---
@@ -53,26 +54,6 @@ The NDIS_TCP_CONNECTION_OFFLOAD structure provides connection offload informatio
   settings and for supported capabilities.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_TCP_CONNECTION_OFFLOAD {
-  NDIS_OBJECT_HEADER Header;
-  ULONG              Encapsulation;
-  ULONG              SupportIPv4  :2;
-  ULONG              SupportIPv6  :2;
-  ULONG              SupportIPv6ExtensionHeaders  :2;
-  ULONG              SupportSack  :2;
-#if (NDIS_SUPPORT_NDIS61)
-  ULONG              CongestionAlgorithm  :4;
-#endif 
-  ULONG              TcpConnectionOffloadCapacity;
-  ULONG              Flags;
-} NDIS_TCP_CONNECTION_OFFLOAD, *PNDIS_TCP_CONNECTION_OFFLOAD;
-````
-
-
 ## -struct-fields
 
 
@@ -81,7 +62,7 @@ typedef struct _NDIS_TCP_CONNECTION_OFFLOAD {
 ### -field Header
 
 The 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure for the
      NDIS_TCP_CONNECTION_OFFLOAD structure. Set the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to 
@@ -140,6 +121,7 @@ If you are an independent hardware vendor (IHV) and you want to implement nondef
      <a href="mailto:offloadt@microsoft.com">External TCP Offload Triage</a>.
 
 
+
 ### -field TcpConnectionOffloadCapacity
 
 A ULONG value that an offload target sets to indicate the maximum number of offloaded TCP
@@ -159,9 +141,9 @@ The NDIS_TCP_CONNECTION_OFFLOAD structure specifies the current or supported ser
     adapter provides for TCP chimney offload.
 
 The NDIS_TCP_CONNECTION_OFFLOAD structure is used in the 
-    <a href="..\ndis\ns-ndis-_ndis_miniport_adapter_offload_attributes.md">
+    <a href="https://msdn.microsoft.com/9ce875fc-ed3f-43e9-bfbc-081f02cb1999">
     NDIS_MINIPORT_ADAPTER_OFFLOAD_ATTRIBUTES</a> structure, 
-    <a href="..\ndis\ns-ndis-_ndis_bind_parameters.md">NDIS_BIND_PARAMETERS</a> structure, 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff564832">NDIS_BIND_PARAMETERS</a> structure, 
     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-connection-offload-current-config">
     OID_TCP_CONNECTION_OFFLOAD_CURRENT_CONFIG</a> OID, 
     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-connection-offload-hardware-capabilities">
@@ -228,10 +210,10 @@ An offload target must support either IPv4 or IPv6 (or both). Offload targets ca
 An offload target should not support any IPv4 options. The offload target must forward any received
        IP datagrams that contain IPv4 options to the TCP/IP driver stack. The offload target indicates such
        IP datagrams to the TCP/IP driver stack by calling 
-       <a href="..\ndis\nf-ndis-ndismindicatereceivenetbufferlists.md">
+       <a href="https://msdn.microsoft.com/b87dba3e-c18f-4ea2-8bd5-ec3cdafc534b">
        NdisMIndicateReceiveNetBufferLists</a>. The TCP/IP driver stack processes the IPv4 options and
        returns the datagrams to the offload target's 
-       <a href="..\ndischimney\nc-ndischimney-w_tcp_offload_forward_handler.md">
+       <a href="https://msdn.microsoft.com/e5702476-60a3-4bfc-b959-198e98f0f9ba">
        MiniportTcpOffloadForward</a> function. (For information on 
        <i>
        MiniportTcpOffloadForward</i>, see 
@@ -256,17 +238,33 @@ Note that an offload target cannot directly indicate new offload capabilities. I
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_bind_parameters.md">NDIS_BIND_PARAMETERS</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismindicatereceivenetbufferlists.md">
-   NdisMIndicateReceiveNetBufferLists</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564832">NDIS_BIND_PARAMETERS</a>
+
+
+
+<a href="https://msdn.microsoft.com/9ce875fc-ed3f-43e9-bfbc-081f02cb1999">
+   NDIS_MINIPORT_ADAPTER_OFFLOAD_ATTRIBUTES</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566599">NDIS_OFFLOAD</a>
 
 
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567828">
    NDIS_STATUS_TCP_CONNECTION_OFFLOAD_HARDWARE_CAPABILITIES</a>
+
+
+
+<a href="https://msdn.microsoft.com/b87dba3e-c18f-4ea2-8bd5-ec3cdafc534b">
+   NdisMIndicateReceiveNetBufferLists</a>
 
 
 
@@ -277,25 +275,7 @@ Note that an offload target cannot directly indicate new offload capabilities. I
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-connection-offload-hardware-capabilities">
    OID_TCP_CONNECTION_OFFLOAD_HARDWARE_CAPABILITIES</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_offload_attributes.md">
-   NDIS_MINIPORT_ADAPTER_OFFLOAD_ATTRIBUTES</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_offload.md">NDIS_OFFLOAD</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_TCP_CONNECTION_OFFLOAD structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

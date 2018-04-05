@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILSETSMSCPARAMS
 title: RILSETSMSCPARAMS
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilsetsmscparams_2.htm
+old-location: netvista\rilsetsmscparams.htm
 old-project: netvista
-ms.assetid: 87c5bb45-f29d-434c-abef-acbf05c9515e
+ms.assetid: ebfb768a-fa6b-4781-96e1-787278237d5f
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: "*LPRILSETSMSCPARAMS, RILSETSMSCPARAMS, RILSETSMSCPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsetsmscparams_2, rilapitypes/RILSETSMSCPARAMS"
+ms.date: 3/26/2018
+ms.keywords: "*LPRILSETSMSCPARAMS, RILSETSMSCPARAMS, RILSETSMSCPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsetsmscparams, ntddrilapitypes/RILSETSMSCPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,10 +35,11 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILSETSMSCPARAMS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILSETSMSCPARAMS, *LPRILSETSMSCPARAMS
 req.product: Windows 10 or later.
@@ -50,18 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-
-## -syntax
-
-
-````
-typedef struct _RILSETSMSCPARAMS {
-  HUICCAPP    hUiccApp;
-  RILADDRESS  raSvcCtrAddress;
-} RILSETSMSCPARAMS, RILSETSMSCPARAMS;
-````
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -struct-fields

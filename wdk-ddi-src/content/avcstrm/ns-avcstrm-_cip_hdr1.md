@@ -38,7 +38,8 @@ api_location:
 -	avcstrm.h
 api_name:
 -	CIP_HDR1
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CIP_HDR1, *PCIP_HDR1
 ---
@@ -50,23 +51,6 @@ req.typenames: CIP_HDR1, *PCIP_HDR1
 
 
 The CIP_HDR1 structure describes the generic data structure of the two quadlet CIP headers (first quadlet of the pair).
-
-
-## -syntax
-
-
-````
-typedef struct _CIP_HDR1 {
-  ULONG DBC  :8;
-  ULONG Rsv00  :2;
-  ULONG SPH  :1;
-  ULONG QPC  :3;
-  ULONG FN  :2;
-  ULONG DBS  :8;
-  ULONG SID  :6;
-  ULONG Bit00  :2;
-} CIP_HDR1, *PCIP_HDR1;
-````
 
 
 ## -struct-fields
@@ -116,21 +100,19 @@ Must be set to 0:0.
 
 ## -see-also
 
-<a href="..\avcstrm\ns-avcstrm-_cip_hdr2_mpegts.md">CIP_HDR2_MPEGTS</a>
 
 
 
-<a href="..\avcstrm\ns-avcstrm-_cip_hdr2_syt.md">CIP_HDR2_SYT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557669">CIP_HDR2_FDF</a>
 
 
 
-<a href="..\avcstrm\ns-avcstrm-_cip_hdr2_fdf.md">CIP_HDR2_FDF</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557672">CIP_HDR2_MPEGTS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557676">CIP_HDR2_SYT</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20CIP_HDR1 structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

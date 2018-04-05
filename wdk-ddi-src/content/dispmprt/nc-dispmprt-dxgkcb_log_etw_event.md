@@ -7,7 +7,7 @@ old-location: display\dxgkcblogetwevent.htm
 old-project: display
 ms.assetid: d869f933-4316-440e-899a-d46d72a0d10f
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKCB_LOG_ETW_EVENT, DpFunctions_1e074b6d-dff4-4d1f-93ce-4333a4241562.xml, DxgkCbLogEtwEvent, DxgkCbLogEtwEvent callback function [Display Devices], display.dxgkcblogetwevent, dispmprt/DxgkCbLogEtwEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	dispmprt.h
 api_name:
 -	DxgkCbLogEtwEvent
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 ---
@@ -50,22 +51,6 @@ req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 
 
 The <i>DxgkCbLogEtwEvent</i> function logs an Event Tracing for Windows (ETW) event. 
-
-
-## -prototype
-
-
-````
-DXGKCB_LOG_ETW_EVENT DxgkCbLogEtwEvent;
-
-VOID DxgkCbLogEtwEvent(
-  _In_ const LPCGUID EventGuid,
-  _In_       UCHAR   Type,
-  _In_       USHORT  EventBufferSize,
-  _In_       PVOID   EventBuffer
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -111,7 +96,7 @@ None
 
 If event logging is not enabled, <i>DxgkCbLogEtwEvent</i> returns immediately without logging the event.
 
-To enable or disable event logging, call the <a href="..\dispmprt\nc-dispmprt-dxgkddi_control_etw_logging.md">DxgkDdiControlEtwLogging</a>  function.
+To enable or disable event logging, call the <a href="https://msdn.microsoft.com/c94a43bb-19d0-4894-80b0-885562fefea5">DxgkDdiControlEtwLogging</a>  function.
 
 If <i>EventBufferSize</i> is less than or equal to 256, <i>DxgkCbLogEtwEvent</i> can be called an any IRQL. If <i>EventBufferSize</i> is greater than 256, <i>DxgkCbLogEtwEvent</i> must be called at IRQL = PASSIVE_LEVEL.
 
@@ -148,13 +133,11 @@ DummyTrace(
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_control_etw_logging.md">DxgkDdiControlEtwLogging</a>
 
 
 
+<a href="https://msdn.microsoft.com/c94a43bb-19d0-4894-80b0-885562fefea5">DxgkDdiControlEtwLogging</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKCB_LOG_ETW_EVENT callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

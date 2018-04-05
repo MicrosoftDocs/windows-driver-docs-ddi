@@ -38,18 +38,14 @@ api_location:
 -	Bthioctl.h
 api_name:
 -	IOCTL_BTH_GET_DEVICE_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: HFP_BYPASS_CODEC_ID_V1, *PHFP_BYPASS_CODEC_ID_V1
 ---
 
 # IOCTL_BTH_GET_DEVICE_INFO IOCTL
 
-
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -70,20 +66,20 @@ The IOCTL_BTH_GET_DEVICE_INFO request returns information about all cached, prev
 
 The 
       <b>AssociatedIrp.SystemBuffer</b> member points to a buffer for a 
-      <a href="..\bthioctl\ns-bthioctl-_bth_device_info_list.md">BTH_DEVICE_INFO_LIST</a> structure.
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff536642">BTH_DEVICE_INFO_LIST</a> structure.
 
 
 ### -input-buffer-length
 
 The length of a 
-      <a href="..\bthioctl\ns-bthioctl-_bth_device_info_list.md">BTH_DEVICE_INFO_LIST</a> structure
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff536642">BTH_DEVICE_INFO_LIST</a> structure
 
 
 ### -output-buffer
 
 The 
       <b>AssociatedIrp.SystemBuffer</b> member points to a buffer that holds a 
-      <a href="..\bthioctl\ns-bthioctl-_bth_device_info_list.md">BTH_DEVICE_INFO_LIST</a> structure. The 
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff536642">BTH_DEVICE_INFO_LIST</a> structure. The 
       <b>numOfDevices</b> member of the BTH_DEVICE_INFO_LIST structure contains the number of devices for
       which there is information and an array of 
       <a href="http://go.microsoft.com/fwlink/p/?linkid=50713">BTH_DEVICE_INFO</a> structures; one array
@@ -189,7 +185,6 @@ The BTH_DEVICE_INFO_LIST structure includes storage for the first BTH_DEVICE_INF
 
 ## -see-also
 
-<a href="..\bthioctl\ns-bthioctl-_bth_device_info_list.md">BTH_DEVICE_INFO_LIST</a>
 
 
 
@@ -197,9 +192,8 @@ The BTH_DEVICE_INFO_LIST structure includes storage for the first BTH_DEVICE_INF
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536642">BTH_DEVICE_INFO_LIST</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20IOCTL_BTH_GET_DEVICE_INFO control code%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: storage\feature_data_profile_list_ex.htm
 old-project: storage
 ms.assetid: c15f9be2-1f35-41cf-a1de-880e3662f2b4
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PFEATURE_DATA_PROFILE_LIST_EX, FEATURE_DATA_PROFILE_LIST_EX, FEATURE_DATA_PROFILE_LIST_EX structure [Storage Devices], PFEATURE_DATA_PROFILE_LIST_EX, PFEATURE_DATA_PROFILE_LIST_EX structure pointer [Storage Devices], _FEATURE_DATA_PROFILE_LIST_EX, ntddmmc/FEATURE_DATA_PROFILE_LIST_EX, ntddmmc/PFEATURE_DATA_PROFILE_LIST_EX, storage.feature_data_profile_list_ex, structs-CD-ROM_4834760d-aeb7-44eb-a8a7-4c961ff8aa4c.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddmmc.h
 api_name:
 -	FEATURE_DATA_PROFILE_LIST_EX
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FEATURE_DATA_PROFILE_LIST_EX, *PFEATURE_DATA_PROFILE_LIST_EX
 ---
@@ -52,19 +53,6 @@ req.typenames: FEATURE_DATA_PROFILE_LIST_EX, *PFEATURE_DATA_PROFILE_LIST_EX
 The FEATURE_DATA_PROFILE_LIST_EX structure contains information corresponding to a profile list element in a profile list descriptor. 
 
 
-## -syntax
-
-
-````
-typedef struct _FEATURE_DATA_PROFILE_LIST_EX {
-  UCHAR ProfileNumber[2];
-  UCHAR Current  :1;
-  UCHAR Reserved1  :7;
-  UCHAR Reserved2;
-} FEATURE_DATA_PROFILE_LIST_EX, *PFEATURE_DATA_PROFILE_LIST_EX;
-````
-
-
 ## -struct-fields
 
 
@@ -72,7 +60,7 @@ typedef struct _FEATURE_DATA_PROFILE_LIST_EX {
 
 ### -field ProfileNumber
 
-Contains the profile number. This number must be one of the values defined by the <a href="..\ntddmmc\ne-ntddmmc-_feature_profile_type.md">FEATURE_PROFILE_TYPE</a> enumeration. <b>ProfileNumber</b>[0] must contain the most significant byte of the profile number. <b>ProfileNumber</b>[1] must contain the least significant byte. 
+Contains the profile number. This number must be one of the values defined by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553851">FEATURE_PROFILE_TYPE</a> enumeration. <b>ProfileNumber</b>[0] must contain the most significant byte of the profile number. <b>ProfileNumber</b>[1] must contain the least significant byte. 
 
 
 ### -field Current
@@ -92,17 +80,15 @@ Reserved.
 
 ## -see-also
 
-<a href="..\ntddmmc\ns-ntddmmc-_feature_data_profile_list.md">FEATURE_DATA_PROFILE_LIST</a>
 
 
 
-<a href="..\ntddmmc\ne-ntddmmc-_feature_profile_type.md">FEATURE_PROFILE_TYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553816">FEATURE_DATA_PROFILE_LIST</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553851">FEATURE_PROFILE_TYPE</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20FEATURE_DATA_PROFILE_LIST_EX structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

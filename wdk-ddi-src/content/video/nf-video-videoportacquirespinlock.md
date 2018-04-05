@@ -7,7 +7,7 @@ old-location: display\videoportacquirespinlock.htm
 old-project: display
 ms.assetid: 2e61ffb7-1720-47b2-b943-54ffa596cb08
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: VideoPortAcquireSpinLock, VideoPortAcquireSpinLock function [Display Devices], VideoPort_Functions_c25b68ac-032b-4b1c-bb15-93957f2e345c.xml, display.videoportacquirespinlock, video/VideoPortAcquireSpinLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Videoprt.sys
 api_name:
 -	VideoPortAcquireSpinLock
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
 req.product: Windows 10 or later.
@@ -51,18 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>VideoPortAcquireSpinLock</b> function obtains the specified spin lock.
-
-
-## -syntax
-
-
-````
-VOID VideoPortAcquireSpinLock(
-  _Inout_ PVOID      HwDeviceExtension,
-  _In_    PSPIN_LOCK SpinLock,
-  _Out_   PUCHAR     OldIrql
-);
-````
 
 
 ## -parameters
@@ -105,7 +94,7 @@ None
 
 The current IRQL is saved in <i>OldIrql</i>. Then, the current IRQL is reset to DISPATCH_LEVEL, and the specified spin lock is acquired.
 
-The <i>OldIrql</i> value must be specified when the spin lock is released with <a href="..\video\nf-video-videoportreleasespinlock.md">VideoPortReleaseSpinLock</a>.
+The <i>OldIrql</i> value must be specified when the spin lock is released with <a href="https://msdn.microsoft.com/library/windows/hardware/ff570357">VideoPortReleaseSpinLock</a>.
 
 Spin locks can cause serious problems if not used judiciously. In particular, no deadlock protection is performed and dispatching is disabled while the spin lock is held. Therefore: 
 
@@ -128,17 +117,15 @@ The caller should release the spin lock with <b>VideoPortReleaseSpinLock</b> as 
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportreleasespinlock.md">VideoPortReleaseSpinLock</a>
 
 
 
-<a href="..\video\nf-video-videoportacquirespinlockatdpclevel.md">VideoPortAcquireSpinLockAtDpcLevel</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570176">VideoPortAcquireSpinLockAtDpcLevel</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570357">VideoPortReleaseSpinLock</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20VideoPortAcquireSpinLock function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

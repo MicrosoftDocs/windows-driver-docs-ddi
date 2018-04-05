@@ -7,7 +7,7 @@ old-location: display\d3dkmt_adaptertype.htm
 old-project: display
 ms.assetid: a92865bc-620f-434d-a185-b837924599fc
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMT_ADAPTERTYPE, D3DKMT_ADAPTERTYPE structure [Display Devices], _D3DKMT_ADAPTERTYPE, d3dkmthk/D3DKMT_ADAPTERTYPE, display.d3dkmt_adaptertype
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3dkmthk.h
 api_name:
 -	D3DKMT_ADAPTERTYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_ADAPTERTYPE
 ---
@@ -50,20 +51,6 @@ req.typenames: D3DKMT_ADAPTERTYPE
 
 
 Specifies the type of display device that the graphics adapter supports.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_ADAPTERTYPE {
-  UINT RenderSupported  :1;
-  UINT DisplaySupported  :1;
-  UINT SoftwareDevice  :1;
-  UINT PostDevice  :1;
-  UINT Reserved  :28;
-} D3DKMT_ADAPTERTYPE;
-````
 
 
 ## -struct-fields

@@ -7,7 +7,7 @@ old-location: audio\ksds3d_itd_params.htm
 old-project: audio
 ms.assetid: 2c8701d5-c762-4d2c-abd7-8da90292f3c0
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 3/19/2018
 ms.keywords: "*PKSDS3D_ITD_PARAMS, KSDS3D_ITD_PARAMS, KSDS3D_ITD_PARAMS structure [Audio Devices], PKSDS3D_ITD_PARAMS, PKSDS3D_ITD_PARAMS structure pointer [Audio Devices], aud-prop_169748c9-f538-47d2-ae3c-ae34cca26f00.xml, audio.ksds3d_itd_params, ksmedia/KSDS3D_ITD_PARAMS, ksmedia/PKSDS3D_ITD_PARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KSDS3D_ITD_PARAMS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSDS3D_ITD_PARAMS, *PKSDS3D_ITD_PARAMS
 ---
@@ -50,21 +51,6 @@ req.typenames: KSDS3D_ITD_PARAMS, *PKSDS3D_ITD_PARAMS
 
 
 The KSDS3D_ITD_PARAMS structure specifies the parameters applied by the interaural time delay (ITD) algorithm to the left or right channel in a 3D node (<a href="https://msdn.microsoft.com/library/windows/hardware/ff537148">KSNODETYPE_3D_EFFECTS</a>).
-
-
-## -syntax
-
-
-````
-typedef struct {
-  LONG  Channel;
-  FLOAT VolSmoothScale;
-  FLOAT TotalDryAttenuation;
-  FLOAT TotalWetAttenuation;
-  LONG  SmoothFrequency;
-  LONG  Delay;
-} KSDS3D_ITD_PARAMS, *PKSDS3D_ITD_PARAMS;
-````
 
 
 ## -struct-fields
@@ -106,7 +92,7 @@ Specifies the time delay for this channel. The delay is expressed as an integer 
 
 
 
-This structure is used by the <a href="..\ksmedia\ns-ksmedia-ksds3d_itd_params_msg.md">KSDS3D_ITD_PARAMS_MSG</a> structure, which the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537358">KSPROPERTY_ITD3D_PARAMS</a> property request uses to specify the ITD parameters for the left and right channels of a 3D audio stream.
+This structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537114">KSDS3D_ITD_PARAMS_MSG</a> structure, which the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537358">KSPROPERTY_ITD3D_PARAMS</a> property request uses to specify the ITD parameters for the left and right channels of a 3D audio stream.
 
 The <b>Delay</b> member specifies the amount by which the current channel delays the sound arriving from the source. The interaural time delay is the difference in delays between the two channels.
 
@@ -126,17 +112,15 @@ When a KSPROPERTY_ITD3D_PARAMS set-property request changes either <b>TotalDryAt
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537114">KSDS3D_ITD_PARAMS_MSG</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537358">KSPROPERTY_ITD3D_PARAMS</a>
-
-
-
-<a href="..\ksmedia\ns-ksmedia-ksds3d_itd_params_msg.md">KSDS3D_ITD_PARAMS_MSG</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20KSDS3D_ITD_PARAMS structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

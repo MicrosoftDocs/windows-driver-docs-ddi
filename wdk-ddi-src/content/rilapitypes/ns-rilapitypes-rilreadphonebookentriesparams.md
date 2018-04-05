@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILREADPHONEBOOKENTRIESPARAMS
 title: RILREADPHONEBOOKENTRIESPARAMS
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilreadphonebookentriesparams_2.htm
+old-location: netvista\rilreadphonebookentriesparams.htm
 old-project: netvista
-ms.assetid: 4cf1b9ab-0082-4ad3-9fd5-a29b51ca6bc0
+ms.assetid: af74f94a-497a-4771-aee4-d1ba8d2f3ad9
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: "*LPRILREADPHONEBOOKENTRIESPARAMS, RILREADPHONEBOOKENTRIESPARAMS, RILREADPHONEBOOKENTRIESPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilreadphonebookentriesparams_2, rilapitypes/RILREADPHONEBOOKENTRIESPARAMS"
+ms.date: 3/26/2018
+ms.keywords: "*LPRILREADPHONEBOOKENTRIESPARAMS, RILREADPHONEBOOKENTRIESPARAMS, RILREADPHONEBOOKENTRIESPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilreadphonebookentriesparams, ntddrilapitypes/RILREADPHONEBOOKENTRIESPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,10 +35,11 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILREADPHONEBOOKENTRIESPARAMS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILREADPHONEBOOKENTRIESPARAMS, *LPRILREADPHONEBOOKENTRIESPARAMS
 req.product: Windows 10 or later.
@@ -50,20 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-
-## -syntax
-
-
-````
-typedef struct _RILREADPHONEBOOKENTRIESPARAMS {
-  HUICCAPP                    hUiccApp;
-  RILPHONEENTRYSTORELOCATION  dwStoreLocation;
-  DWORD                       dwStartIndex;
-  DWORD                       dwEndIndex;
-} RILREADPHONEBOOKENTRIESPARAMS, RILREADPHONEBOOKENTRIESPARAMS;
-````
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -struct-fields

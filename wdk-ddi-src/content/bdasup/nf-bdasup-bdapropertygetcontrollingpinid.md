@@ -39,7 +39,8 @@ api_location:
 -	Bdasup.dll
 api_name:
 -	BdaPropertyGetControllingPinId
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSP_BDA_NODE_PIN, *PKSP_BDA_NODE_PIN
 ---
@@ -51,18 +52,6 @@ req.typenames: KSP_BDA_NODE_PIN, *PKSP_BDA_NODE_PIN
 
 
 The <b>BdaPropertyGetControllingPinId</b> function retrieves the identifier of a pin on which to control the properties, methods, and events of a specific node. 
-
-
-## -syntax
-
-
-````
-NTSTATUS BdaPropertyGetControllingPinId(
-  _In_      PIRP              Irp,
-  _In_      PKSP_BDA_NODE_PIN pProperty,
-  _Out_opt_ PULONG            pulControllingPinId
-);
-````
 
 
 ## -parameters
@@ -87,7 +76,7 @@ Points to a variable that receives the identifier of the controlling pin for a n
 
 #### - pProperty [in]
 
-Points to a <a href="..\bdamedia\ns-bdamedia-_ksp_bda_node_pin.md">KSP_BDA_NODE_PIN</a> structure that describes the property and request type of the property request to retrieve the controlling pin for a node. 
+Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff566716">KSP_BDA_NODE_PIN</a> structure that describes the property and request type of the property request to retrieve the controlling pin for a node. 
 
 
 ## -returns
@@ -110,11 +99,6 @@ A BDA minidriver calls the <b>BdaPropertyGetControllingPinId</b> function to ret
 
 ## -see-also
 
-<a href="..\bdamedia\ns-bdamedia-_ksp_bda_node_pin.md">KSP_BDA_NODE_PIN</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566561">KSPROPSETID_BdaTopology</a>
 
 
 
@@ -122,9 +106,12 @@ A BDA minidriver calls the <b>BdaPropertyGetControllingPinId</b> function to ret
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566561">KSPROPSETID_BdaTopology</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566716">KSP_BDA_NODE_PIN</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20BdaPropertyGetControllingPinId function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

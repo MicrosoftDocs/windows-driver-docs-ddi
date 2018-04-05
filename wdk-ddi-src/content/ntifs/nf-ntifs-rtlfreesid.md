@@ -7,7 +7,7 @@ old-location: ifsk\rtlfreesid.htm
 old-project: ifsk
 ms.assetid: c3afb073-feb4-47ad-96a1-c9b580626026
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: RtlFreeSid, RtlFreeSid function [Installable File System Drivers], ifsk.rtlfreesid, ntifs/RtlFreeSid, rtlref_4cdaafe3-70fa-4a22-be05-019e6b06cc15.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	ntifs.h
 api_name:
 -	RtlFreeSid
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -50,16 +51,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>RtlFreeSid</b> routine is reserved for system use. 
-
-
-## -syntax
-
-
-````
-  RtlFreeSid(
-    
-);
-````
 
 
 ## -parameters

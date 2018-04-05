@@ -7,7 +7,7 @@ old-location: ifsk\file_timestamps.htm
 old-project: ifsk
 ms.assetid: 0F016D21-34CD-43DD-BE39-C6DF6D63A3AC
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: "*PFILE_TIMESTAMPS, FILE_TIMESTAMPS, FILE_TIMESTAMPS structure [Installable File System Drivers], PFILE_TIMESTAMPS, PFILE_TIMESTAMPS structure pointer [Installable File System Drivers], _FILE_TIMESTAMPS, ifsk.file_timestamps, ntifs/File_TIMESTAMPS, ntifs/PFILE_TIMESTAMPS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntifs.h
 api_name:
 -	FILE_TIMESTAMPS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FILE_TIMESTAMPS, *PFILE_TIMESTAMPS
 ---
@@ -52,19 +53,6 @@ req.typenames: FILE_TIMESTAMPS, *PFILE_TIMESTAMPS
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 The <b>FILE_TIMESTAMPS</b> structure specifies the last recorded instance of specific actions on a file.
-
-
-## -syntax
-
-
-````
-typedef struct _File_TIMESTAMPS {
-  LARGE_INTEGER CreationTime;
-  LARGE_INTEGER LastAccessTime;
-  LARGE_INTEGER LastWriteTime;
-  LARGE_INTEGER ChangeTime;
-} FILE_TIMESTAMPS, *PFILE_TIMESTAMPS;
-````
 
 
 ## -struct-fields
@@ -94,13 +82,11 @@ Specifies the last time a file was changed or modified.
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_atomic_create_ecp_context.md">ATOMIC_CREATE_ECP_CONTEXT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt734230">ATOMIC_CREATE_ECP_CONTEXT</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FILE_TIMESTAMPS structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

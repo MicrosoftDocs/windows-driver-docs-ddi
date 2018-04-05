@@ -7,7 +7,7 @@ old-location: netvista\filterattach.htm
 old-project: netvista
 ms.assetid: 0a15a8c9-74af-4d93-bd12-a3c81c177684
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: FILTER_ATTACH, FilterAttach, FilterAttach callback function [Network Drivers Starting with Windows Vista], filter_functions_ref_1e3f64d6-a779-4732-824a-87af6a7adc25.xml, ndis/FilterAttach, netvista.filterattach
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ndis.h
 api_name:
 -	FilterAttach
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
 ---
@@ -53,21 +54,6 @@ NDIS calls a filter driver's
   <i>FilterAttach</i> function to allocate and initialize a filter module's data structures.
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>FILTER_ATTACH</b> type. For more
    information, see the following Examples section.</div><div> </div>
-
-## -prototype
-
-
-````
-FILTER_ATTACH FilterAttach;
-
-NDIS_STATUS FilterAttach(
-  _In_ NDIS_HANDLE                    NdisFilterHandle,
-  _In_ NDIS_HANDLE                    FilterDriverContext,
-  _In_ PNDIS_FILTER_ATTACH_PARAMETERS AttachParameters
-)
-{ ... }
-````
-
 
 ## -parameters
 
@@ -84,14 +70,14 @@ An NDIS handle that identifies a filter module. The filter driver must save this
 ### -param FilterDriverContext [in]
 
 The handle that the driver passed to the 
-     <a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">
+     <a href="https://msdn.microsoft.com/14381de2-36d9-4ec8-9d4e-7af3e6d8ecf3">
      NdisFRegisterFilterDriver</a> function that identifies the driver context area.
 
 
 ### -param AttachParameters [in]
 
 A pointer to an 
-     <a href="..\ndis\ns-ndis-_ndis_filter_attach_parameters.md">
+     <a href="https://msdn.microsoft.com/d46a1e62-9d03-4ab9-86f6-81b06c04d0f6">
      NDIS_FILTER_ATTACH_PARAMETERS</a> structure that defines the initialization parameters for the filter
      module.
 
@@ -139,7 +125,7 @@ A pointer to an
 <td width="60%">
 <i>FilterAttach</i> returns NDIS_STATUS_FAILURE if none of the preceding values applies. The filter
        driver should call the 
-       <a href="..\ndis\nf-ndis-ndiswriteeventlogentry.md">NdisWriteEventLogEntry</a> function
+       <a href="https://msdn.microsoft.com/library/windows/hardware/ff564672">NdisWriteEventLogEntry</a> function
        together with parameters that specify the reason for the failure.
 
 </td>
@@ -165,7 +151,7 @@ At the start of execution in
     <i>Attaching</i> state.
 
 Filter drivers should avoid issuing unnecessary OID queries. Instead, use the information in 
-    <a href="..\ndis\ns-ndis-_ndis_filter_attach_parameters.md">
+    <a href="https://msdn.microsoft.com/d46a1e62-9d03-4ab9-86f6-81b06c04d0f6">
     NDIS_FILTER_ATTACH_PARAMETERS</a>, when available, to obtain information about underlying drivers.
 
 A filter driver performs the following operations when NDIS calls 
@@ -178,7 +164,7 @@ Creates a context area for the filter module and allocates buffer pools and any 
 </li>
 <li>
 Calls the 
-      <a href="..\ndis\nf-ndis-ndisfsetattributes.md">NdisFSetAttributes</a> function together
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff562619">NdisFSetAttributes</a> function together
       with the 
       <i>NdisFilterHandle</i> that NDIS passed to 
       <i>FilterAttach</i>. The 
@@ -214,7 +200,7 @@ A filter driver should not make send requests, indicate received data, make OID 
     <i>Attaching</i> state.
 
 NDIS calls a filter driver's 
-    <a href="..\ndis\nc-ndis-filter_detach.md">FilterDetach</a> function to release all the
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff540475">FilterDetach</a> function to release all the
     resources that are associated with a filter module and return the filter module to the 
     <i>Detached</i> state.
 
@@ -264,19 +250,10 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
 
 
 
-<a href="..\ndis\nc-ndis-filter_detach.md">FilterDetach</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiswriteeventlogentry.md">NdisWriteEventLogEntry</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisfsetattributes.md">NdisFSetAttributes</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540475">FilterDetach</a>
 
 
 
@@ -284,13 +261,20 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_filter_attach_parameters.md">NDIS_FILTER_ATTACH_PARAMETERS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565481">NDIS_FILTER_ATTACH_PARAMETERS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562608">NdisFRegisterFilterDriver</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562619">NdisFSetAttributes</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564672">NdisWriteEventLogEntry</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FILTER_ATTACH callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: storage\ioctl_cdrom_get_performance.htm
 old-project: storage
 ms.assetid: 3BA2D85A-052B-4851-B31C-072F2872F3FE
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_CDROM_GET_PERFORMANCE, IOCTL_CDROM_GET_PERFORMANCE control code [Storage Devices], ntddcdrm/IOCTL_CDROM_GET_PERFORMANCE, storage.ioctl_cdrom_get_performance
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,18 +38,14 @@ api_location:
 -	ntddcdrm.h
 api_name:
 -	IOCTL_CDROM_GET_PERFORMANCE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WRITE_ROTATION, *PWRITE_ROTATION
 ---
 
 # IOCTL_CDROM_GET_PERFORMANCE IOCTL
 
-
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -70,25 +66,25 @@ To perform this operation, call the
 ### -input-buffer
 
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_performance_request.md">CDROM_PERFORMANCE_REQUEST</a> requests performance data.
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_write_speed_request.md">CDROM_WRITE_SPEED_REQUEST</a> requests write speed descriptor.
+<a href="https://msdn.microsoft.com/library/windows/hardware/gg441233">CDROM_PERFORMANCE_REQUEST</a> requests performance data.
+<a href="https://msdn.microsoft.com/library/windows/hardware/gg441240">CDROM_WRITE_SPEED_REQUEST</a> requests write speed descriptor.
 
 
 ### -input-buffer-length
 
-Length of a <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_performance_request.md">CDROM_PERFORMANCE_REQUEST</a>.
+Length of a <a href="https://msdn.microsoft.com/library/windows/hardware/gg441233">CDROM_PERFORMANCE_REQUEST</a>.
 
 
 ### -output-buffer
 
-For request type CdromWriteSpeedRequest, this IOCTL returns the <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_performance_header.md">CDROM_PERFORMANCE_HEADER</a> structure followed by a number of CDROM_WRITE_SPEED_DESCRIPTOR descriptors.
+For request type CdromWriteSpeedRequest, this IOCTL returns the <a href="https://msdn.microsoft.com/library/windows/hardware/gg441232">CDROM_PERFORMANCE_HEADER</a> structure followed by a number of CDROM_WRITE_SPEED_DESCRIPTOR descriptors.
 
-For request type CdromPerformanceRequest, this  IOCTL returns the <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_performance_header.md">CDROM_PERFORMANCE_HEADER</a> structure followed by an optional descriptor. The descriptor following this header depends on the value in the <b>Except</b> field of the <b>CDROM_PERFORMANCE_HEADER</b> structure. If <b>Except</b> is false, CDROM_NOMINAL_PERFORMANCE_DESCRIPTOR is used; otherwise, CDROM_EXCEPTION_PERFORMANCE_DESCRIPTOR is used.
+For request type CdromPerformanceRequest, this  IOCTL returns the <a href="https://msdn.microsoft.com/library/windows/hardware/gg441232">CDROM_PERFORMANCE_HEADER</a> structure followed by an optional descriptor. The descriptor following this header depends on the value in the <b>Except</b> field of the <b>CDROM_PERFORMANCE_HEADER</b> structure. If <b>Except</b> is false, CDROM_NOMINAL_PERFORMANCE_DESCRIPTOR is used; otherwise, CDROM_EXCEPTION_PERFORMANCE_DESCRIPTOR is used.
 
 
 ### -output-buffer-length
 
-Length of a <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_performance_header.md">CDROM_PERFORMANCE_HEADER</a>.
+Length of a <a href="https://msdn.microsoft.com/library/windows/hardware/gg441232">CDROM_PERFORMANCE_HEADER</a>.
 
 
 ### -in-out-buffer
@@ -145,25 +141,23 @@ The request completed successfully.
 
 ## -see-also
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_performance_request.md">CDROM_PERFORMANCE_REQUEST</a>
 
 
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_performance_header.md">CDROM_PERFORMANCE_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/gg441232">CDROM_PERFORMANCE_HEADER</a>
 
 
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_write_speed_request.md">CDROM_WRITE_SPEED_REQUEST</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/gg441233">CDROM_PERFORMANCE_REQUEST</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/gg441240">CDROM_WRITE_SPEED_REQUEST</a>
 
 
 
 <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20IOCTL_CDROM_GET_PERFORMANCE control code%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

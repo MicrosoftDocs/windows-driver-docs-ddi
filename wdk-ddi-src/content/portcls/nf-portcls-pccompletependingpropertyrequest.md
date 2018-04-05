@@ -7,7 +7,7 @@ old-location: audio\pccompletependingpropertyrequest.htm
 old-project: audio
 ms.assetid: a4b59403-9a2f-4857-947b-dff8e3ea079c
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 3/19/2018
 ms.keywords: PcCompletePendingPropertyRequest, PcCompletePendingPropertyRequest function [Audio Devices], audio.pccompletependingpropertyrequest, audpc-routines_934503ea-325f-4e57-ba45-e8834a64cefa.xml, portcls/PcCompletePendingPropertyRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Portcls.dll
 api_name:
 -	PcCompletePendingPropertyRequest
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
@@ -53,17 +54,6 @@ req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 The <b>PcCompletePendingPropertyRequest</b> function is called to complete a pending property request.
 
 
-## -syntax
-
-
-````
-NTSTATUS PcCompletePendingPropertyRequest(
-  _In_ PPCPROPERTY_REQUEST PropertyRequest,
-  _In_ NTSTATUS            NtStatus
-);
-````
-
-
 ## -parameters
 
 
@@ -71,7 +61,7 @@ NTSTATUS PcCompletePendingPropertyRequest(
 
 ### -param PropertyRequest [in]
 
-Pointer to the property request that was passed to the property handler. The request is a structure of type <a href="..\portcls\ns-portcls-_pcproperty_request.md">PCPROPERTY_REQUEST</a>.
+Pointer to the property request that was passed to the property handler. The request is a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff537723">PCPROPERTY_REQUEST</a>.
 
 
 ### -param NtStatus [in]
@@ -101,17 +91,15 @@ The driver should call <b>PcCompletePendingPropertyRequest</b> only when the req
 
 ## -see-also
 
-<a href="..\portcls\ns-portcls-_pcproperty_request.md">PCPROPERTY_REQUEST</a>
 
 
 
-<a href="..\wdm\nf-wdm-iocompleterequest.md">IoCompleteRequest</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548343">IoCompleteRequest</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537723">PCPROPERTY_REQUEST</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20PcCompletePendingPropertyRequest function%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

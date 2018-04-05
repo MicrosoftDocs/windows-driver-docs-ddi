@@ -7,7 +7,7 @@ old-location: print\propsheetui_info_header.htm
 old-project: print
 ms.assetid: 148c463c-a18b-4f24-b3dc-af74c3de97b7
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: "*PPROPSHEETUI_INFO_HEADER, PPROPSHEETUI_INFO_HEADER, PPROPSHEETUI_INFO_HEADER structure pointer [Print Devices], PROPSHEETUI_INFO_HEADER, PROPSHEETUI_INFO_HEADER structure [Print Devices], _PROPSHEETUI_INFO_HEADER, compstui/PPROPSHEETUI_INFO_HEADER, compstui/PROPSHEETUI_INFO_HEADER, cpsuifnc_21dad179-56e1-478c-8a62-628262ca59a8.xml, print.propsheetui_info_header"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	compstui.h
 api_name:
 -	PROPSHEETUI_INFO_HEADER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PROPSHEETUI_INFO_HEADER, *PPROPSHEETUI_INFO_HEADER
 ---
@@ -49,25 +50,7 @@ req.typenames: PROPSHEETUI_INFO_HEADER, *PPROPSHEETUI_INFO_HEADER
 ## -description
 
 
-The PROPSHEETUI_INFO_HEADER structure is used as an input parameter to an application's <a href="..\compstui\nc-compstui-pfnpropsheetui.md">PFNPROPSHEETUI</a>-typed function, when the function is called with a reason value of PROPSHEETUI_REASON_GET_INFO_HEADER.
-
-
-## -syntax
-
-
-````
-typedef struct _PROPSHEETUI_INFO_HEADER {
-  WORD      cbSize;
-  WORD      Flags;
-  LPTSTR    pTitle;
-  HWND      hWndParent;
-  HINSTANCE hInst;
-  union {
-    HICON     hIcon;
-    ULONG_PTR IconID;
-  };
-} PROPSHEETUI_INFO_HEADER, *PPROPSHEETUI_INFO_HEADER;
-````
+The PROPSHEETUI_INFO_HEADER structure is used as an input parameter to an application's <a href="https://msdn.microsoft.com/library/windows/hardware/ff559812">PFNPROPSHEETUI</a>-typed function, when the function is called with a reason value of PROPSHEETUI_REASON_GET_INFO_HEADER.
 
 
 ## -struct-fields

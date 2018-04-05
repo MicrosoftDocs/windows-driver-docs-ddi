@@ -7,7 +7,7 @@ old-location: image\wiaustrw2w.htm
 old-project: image
 ms.assetid: 84f6d47f-bd14-4df4-b4fa-e58412daba6f
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/27/2018
 ms.keywords: image.wiaustrw2w, wiauFncs_4778241e-19d0-40e1-ae24-e58e950ba540.xml, wiauStrW2W, wiauStrW2W function [Imaging Devices], wiautil/wiauStrW2W
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	wiautil.h
 api_name:
 -	wiauStrW2W
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SKIP_AMOUNT
 req.product: Windows 10 or later.
@@ -51,18 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>wiauStrW2W</b> function copies a Unicode string to another Unicode string.
-
-
-## -syntax
-
-
-````
-HRESULT _stdcall wiauStrW2W(
-  _In_  WCHAR *pwszSrc,
-  _Out_ WCHAR *pwszDst,
-        INT   iSize
-);
-````
 
 
 ## -parameters
@@ -96,21 +85,19 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
 ## -see-also
 
-<a href="..\wiautil\nf-wiautil-wiaustrw2c.md">wiauStrW2C</a>
 
 
 
-<a href="..\wiautil\nf-wiautil-wiaustrc2w.md">wiauStrC2W</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550183">wiauStrC2C</a>
 
 
 
-<a href="..\wiautil\nf-wiautil-wiaustrc2c.md">wiauStrC2C</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550186">wiauStrC2W</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550187">wiauStrW2C</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20wiauStrW2W function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

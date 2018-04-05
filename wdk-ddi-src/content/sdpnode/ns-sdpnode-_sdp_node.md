@@ -38,7 +38,8 @@ api_location:
 -	sdpnode.h
 api_name:
 -	SDP_NODE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SDP_NODE, *PSDP_NODE
 req.product: Windows 10 or later.
@@ -54,19 +55,6 @@ The SDP_NODE structure holds information about an element in a tree-based repres
   record.
 
 
-## -syntax
-
-
-````
-typedef struct _SDP_NODE {
-  SDP_NODE_HEADER hdr;
-  ULONG           DataSize;
-  SDP_NODE_DATA   u;
-  PVOID           Reserved;
-} SDP_NODE, *PSDP_NODE;
-````
-
-
 ## -struct-fields
 
 
@@ -75,14 +63,14 @@ typedef struct _SDP_NODE {
 ### -field hdr
 
 An 
-     <a href="..\sdpnode\ns-sdpnode-_sdp_node_header.md">SDP_NODE_HEADER</a> structure that contains
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536850">SDP_NODE_HEADER</a> structure that contains
      links to peer SDP_NODE structures and the data type of the current node.
 
 
 ### -field DataSize
 
 The size, in bytes, of the 
-     <a href="..\sdpnode\ns-sdpnode-_sdp_node_data.md">SDP_NODE_DATA</a> union held in the 
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536849">SDP_NODE_DATA</a> union held in the 
      <b>u</b> member.
 
 
@@ -119,21 +107,19 @@ The header specifies the type of data. Driver developers can access links to pee
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554296">LIST_ENTRY</a>
 
 
 
-<a href="..\sdpnode\ns-sdpnode-_sdp_node_header.md">SDP_NODE_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536849">SDP_NODE_DATA</a>
 
 
 
-<a href="..\sdpnode\ns-sdpnode-_sdp_node_data.md">SDP_NODE_DATA</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536850">SDP_NODE_HEADER</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20SDP_NODE structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

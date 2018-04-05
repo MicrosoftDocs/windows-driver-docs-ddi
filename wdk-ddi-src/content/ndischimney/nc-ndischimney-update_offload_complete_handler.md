@@ -7,7 +7,7 @@ old-location: netvista\protocolupdateoffloadcomplete.htm
 old-project: netvista
 ms.assetid: 3cd7a32a-d560-429b-b191-aeabb87433f3
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: ProtocolUpdateOffloadComplete, ProtocolUpdateOffloadComplete callback function [Network Drivers Starting with Windows Vista], UPDATE_OFFLOAD_COMPLETE_HANDLER, ndischimney/ProtocolUpdateOffloadComplete, netvista.protocolupdateoffloadcomplete, tcp_chim_protocol_func_dd66a468-9cad-4763-8eea-f7502811368e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ndischimney.h
 api_name:
 -	ProtocolUpdateOffloadComplete
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PD_BUFFER_VIRTUAL_SUBNET_INFO
 ---
@@ -54,21 +55,7 @@ req.typenames: PD_BUFFER_VIRTUAL_SUBNET_INFO
 NDIS calls a protocol driver's or intermediate driver's 
   <i>ProtocolUpdateOffloadComplete</i> function to complete an update offload operation that the driver
   previously initiated by calling the 
-  <a href="..\ndischimney\nf-ndischimney-ndisupdateoffload.md">NdisUpdateOffload</a> function.
-
-
-## -prototype
-
-
-````
-UPDATE_OFFLOAD_COMPLETE_HANDLER ProtocolUpdateOffloadComplete;
-
-VOID ProtocolUpdateOffloadComplete(
-  _In_ NDIS_HANDLE                       ProtocolBindingContext,
-  _In_ PNDIS_PROTOCOL_OFFLOAD_BLOCK_LIST OffloadBlockList
-)
-{ ... }
-````
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff564646">NdisUpdateOffload</a> function.
 
 
 ## -parameters
@@ -81,13 +68,13 @@ VOID ProtocolUpdateOffloadComplete(
 A handle to a context area allocated by the protocol driver. The driver maintains the per binding
      context information in this context area. The driver supplied this handle to NDIS when the driver called
      the 
-     <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a> function
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff563715">NdisOpenAdapterEx</a> function
 
 
 ### -param OffloadBlockList [in]
 
 A pointer to an 
-     <a href="..\ndischimney\ns-ndischimney-_ndis_protocol_offload_block_list.md">
+     <a href="https://msdn.microsoft.com/64febd55-1ab8-4e2e-b738-340167866333">
      NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST</a> structure that can be a stand-alone structure or the root of a
      linked list of such structures. These structures identify the state that was updated or that was
      attempted to be updated.
@@ -107,7 +94,7 @@ None
 
 
 In response to an underlying offload target's or intermediate driver's call to the 
-    <a href="..\ndischimney\nf-ndischimney-ndismupdateoffloadcomplete.md">
+    <a href="https://msdn.microsoft.com/aa2c549c-eb16-4d59-9280-1913c8c0266a">
     NdisMUpdateOffloadComplete</a> function, NDIS calls a protocol or intermediate driver's 
     <i>ProtocolUpdateOffloadComplete</i> function.
 
@@ -119,7 +106,7 @@ An intermediate driver must propagate the completion of the update offload opera
 
 From the NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST structure that was passed to its 
     <i>ProtocolUpdateOffloadComplete</i> function, the intermediate driver constructs an 
-    <a href="..\ndischimney\ns-ndischimney-_ndis_miniport_offload_block_list.md">
+    <a href="https://msdn.microsoft.com/ebc98e65-5d11-4c3d-aea1-dfad1434c093">
     NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a> structure. For more information, see 
     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/reusing-an-ndis-protocol-offload-block-list-structure">Reusing an
     NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST Structure</a>. When calling the 
@@ -132,35 +119,33 @@ From the NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST structure that was passed to its
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
 
 
-<a href="..\ndischimney\ns-ndischimney-_ndis_protocol_offload_block_list.md">
-   NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST</a>
+<a href="https://msdn.microsoft.com/b98b2e21-8b28-4da0-9cc9-6fa8cb6e5be7">MiniportUpdateOffload</a>
 
 
 
-<a href="..\ndischimney\nf-ndischimney-ndisupdateoffload.md">NdisUpdateOffload</a>
-
-
-
-<a href="..\ndischimney\nf-ndischimney-ndismupdateoffloadcomplete.md">NdisMUpdateOffloadComplete</a>
-
-
-
-<a href="..\ndischimney\ns-ndischimney-_ndis_miniport_offload_block_list.md">
+<a href="https://msdn.microsoft.com/ebc98e65-5d11-4c3d-aea1-dfad1434c093">
    NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a>
 
 
 
-<a href="..\ndischimney\nc-ndischimney-w_update_offload_handler.md">MiniportUpdateOffload</a>
+<a href="https://msdn.microsoft.com/64febd55-1ab8-4e2e-b738-340167866333">
+   NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563694">NdisMUpdateOffloadComplete</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563715">NdisOpenAdapterEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564646">NdisUpdateOffload</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20UPDATE_OFFLOAD_COMPLETE_HANDLER callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

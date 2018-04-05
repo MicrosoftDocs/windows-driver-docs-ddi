@@ -7,7 +7,7 @@ old-location: display\d3dddi_synchronizationobjectinfo2.htm
 old-project: display
 ms.assetid: dc1c6a67-320c-41f8-91ad-cdbcde191a81
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDI_SYNCHRONIZATIONOBJECTINFO2, D3DDDI_SYNCHRONIZATIONOBJECTINFO2 structure [Display Devices], D3D_other_Structs_0efa3a96-3e04-4232-bf7a-53c3f038d6ec.xml, _D3DDDI_SYNCHRONIZATIONOBJECTINFO2, d3dukmdt/D3DDDI_SYNCHRONIZATIONOBJECTINFO2, display.d3dddi_synchronizationobjectinfo2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dukmdt.h
 api_name:
 -	D3DDDI_SYNCHRONIZATIONOBJECTINFO2
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDI_SYNCHRONIZATIONOBJECTINFO2
 ---
@@ -52,55 +53,6 @@ req.typenames: D3DDDI_SYNCHRONIZATIONOBJECTINFO2
 The <b>D3DDDI_SYNCHRONIZATIONOBJECTINFO2</b> structure contains information about a second-generation synchronization object.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDI_SYNCHRONIZATIONOBJECTINFO2 {
-  D3DDDI_SYNCHRONIZATIONOBJECT_TYPE  Type;
-  D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS Flags;
-  union {
-    struct {
-      BOOL InitialState;
-    } SynchronizationMutex;
-    struct {
-      UINT MaxCount;
-      UINT InitialCount;
-    } Semaphore;
-    struct {
-      UINT64 FenceValue;
-    } Fence;
-    struct {
-      HANDLE Event;
-    } CPUNotification;
-#if ((DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WDDM2_0) || \
-     (D3D_UMD_INTERFACE_VERSION >= D3D_UMD_INTERFACE_VERSION_WDDM2_0))
-    struct {
-      UINT64                 InitialFenceValue;
-      VOID                   *FenceValueCPUVirtualAddress;
-      D3DGPU_VIRTUAL_ADDRESS FenceValueGPUVirtualAddress;
-      UINT                   EngineAffinity;
-    } MonitoredFence;
-#endif 
-#if ((DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WDDM2_2) || \
-     (D3D_UMD_INTERFACE_VERSION >= D3D_UMD_INTERFACE_VERSION_WDDM2_2))
-    struct {
-      D3DKMT_HANDLE                  hAdapter;
-      D3DDDI_VIDEO_PRESENT_TARGET_ID 	VidPnTargetID;
-      UINT64                         Time;
-      VOID                           *FenceValueCPUVirtualAddress;
-      D3DGPU_VIRTUAL_ADDRESS         FenceValueGPUVirtualAddress;
-      UINT                           EngineAffinity;
-    } PeriodicMonitoredFence;
-    struct {
-      UINT64 Reserved[8];
-    } Reserved;
-  };
-  D3DKMT_HANDLE                      SharedHandle;
-} D3DDDI_SYNCHRONIZATIONOBJECTINFO2;
-````
-
-
 ## -struct-fields
 
 
@@ -108,12 +60,12 @@ typedef struct _D3DDDI_SYNCHRONIZATIONOBJECTINFO2 {
 
 ### -field Type
 
-[in] A value of type <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddi_synchronizationobject_type.md">D3DDDI_SYNCHRONIZATIONOBJECT_TYPE</a> that indicates the type of synchronization object.
+[in] A value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff544669">D3DDDI_SYNCHRONIZATIONOBJECT_TYPE</a> that indicates the type of synchronization object.
 
 
 ### -field Flags
 
-[in] A <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_synchronizationobject_flags.md">D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS</a> structure that specifies, in bit-field flags, attributes of the synchronization object. 
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff544662">D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS</a> structure that specifies, in bit-field flags, attributes of the synchronization object. 
 
 
 ### -field SynchronizationMutex
@@ -251,30 +203,28 @@ An array of 64-bit values that are reserved for future use.
 
 ### -field SharedHandle
 
-[out] A handle to the shared synchronization object if a shared handle currently exists. The shared handle is returned from the call to the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreatesynchronizationobject2.md">D3DKMTCreateSynchronizationObject2</a> function. 
+[out] A handle to the shared synchronization object if a shared handle currently exists. The shared handle is returned from the call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546879">D3DKMTCreateSynchronizationObject2</a> function. 
 
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreatesynchronizationobject2.md">D3DKMTCreateSynchronizationObject2</a>
 
 
 
-<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddi_synchronizationobject_type.md">D3DDDI_SYNCHRONIZATIONOBJECT_TYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544662">D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS</a>
 
 
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_createsynchronizationobject2.md">D3DKMT_CREATESYNCHRONIZATIONOBJECT2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544669">D3DDDI_SYNCHRONIZATIONOBJECT_TYPE</a>
 
 
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_synchronizationobject_flags.md">D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546879">D3DKMTCreateSynchronizationObject2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547854">D3DKMT_CREATESYNCHRONIZATIONOBJECT2</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DDDI_SYNCHRONIZATIONOBJECTINFO2 structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

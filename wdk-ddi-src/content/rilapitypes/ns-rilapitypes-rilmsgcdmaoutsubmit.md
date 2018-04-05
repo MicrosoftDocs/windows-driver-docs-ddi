@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILMSGCDMAOUTSUBMIT
 title: RILMSGCDMAOUTSUBMIT
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilmsgcdmaoutsubmit_2.htm
+old-location: netvista\rilmsgcdmaoutsubmit.htm
 old-project: netvista
-ms.assetid: f74fe6cb-f38c-49ab-957f-9b3d163059c6
+ms.assetid: 3ed93cff-7974-4cf9-9b89-f4a8e52c4c3d
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: "*LPRILMSGCDMAOUTSUBMIT, RILMSGCDMAOUTSUBMIT, RILMSGCDMAOUTSUBMIT structure [Network Drivers Starting with Windows Vista], netvista.rilmsgcdmaoutsubmit_2, rilapitypes/RILMSGCDMAOUTSUBMIT"
+ms.date: 3/26/2018
+ms.keywords: "*LPRILMSGCDMAOUTSUBMIT, RILMSGCDMAOUTSUBMIT, RILMSGCDMAOUTSUBMIT structure [Network Drivers Starting with Windows Vista], netvista.rilmsgcdmaoutsubmit, ntddrilapitypes/RILMSGCDMAOUTSUBMIT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,10 +35,11 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILMSGCDMAOUTSUBMIT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILMSGCDMAOUTSUBMIT, *LPRILMSGCDMAOUTSUBMIT
 req.product: Windows 10 or later.
@@ -50,39 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-
-## -syntax
-
-
-````
-typedef struct _RILMSGCDMAOUTSUBMIT {
-  RILADDRESS                raDestAddress;
-  RILSUBADDRESS             rsaDestSubaddr;
-  BOOL                      bDigit;
-  RILSYSTEMTIME             stValidityPeriodAbs;
-  RILSYSTEMTIME             stValidityPeriodRel;
-  RILSYSTEMTIME             stDeferredDelTimeAbs;
-  RILSYSTEMTIME             stDeferredDelTimeRel;
-  BOOL                      bDeliveryAckRequest;
-  BOOL                      bUserAckRequest;
-  BOOL                      bBearerReplyRequest;
-  DWORD                     dwReplySeqNumber;
-  RILMSGCDMAMSGDISPLAYMODE  dwMsgDisplayMode;
-  RILADDRESS                raCallBackNumber;
-  RILMSGCDMAMSGPRIORITY     dwMsgPriority;
-  RILMSGCDMAMSGPRIVACY      dwMsgPrivacy;
-  DWORD                     dwTeleservice;
-  DWORD                     dwMsgID;
-  RILMSGCDMALANGUAGE        dwMsgLang;
-  RILMSGCDMAMSGENCODING     dwMsgEncoding;
-  DWORD                     cbHdrLength;
-  DWORD                     cchMsgLength;
-  BYTE [MAXLENGTH_CDMAHDR]  rgbHdr;
-  BYTE [MAXLENGTH_CDMAMSG]  rgbMsg;
-} RILMSGCDMAOUTSUBMIT, RILMSGCDMAOUTSUBMIT;
-````
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -struct-fields

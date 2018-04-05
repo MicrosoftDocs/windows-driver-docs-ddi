@@ -7,7 +7,7 @@ old-location: print\iprintcorehelperps_createinstanceofmsxmlobject.htm
 old-project: print
 ms.assetid: 017f6e00-694b-4ada-86be-cf2be047fa88
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: CreateInstanceOfMSXMLObject method [Print Devices], CreateInstanceOfMSXMLObject method [Print Devices], IPrintCoreHelperPS interface, CreateInstanceOfMSXMLObject,IPrintCoreHelperPS.CreateInstanceOfMSXMLObject, IPrintCoreHelperPS, IPrintCoreHelperPS interface [Print Devices], CreateInstanceOfMSXMLObject method, IPrintCoreHelperPS::CreateInstanceOfMSXMLObject, prcomoem/IPrintCoreHelperPS::CreateInstanceOfMSXMLObject, print.iprintcorehelperps_createinstanceofmsxmlobject, print_unidrv-pscript_allplugins_c47c4793-f7d9-4688-a50c-3c39b6a9e15c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: prcomoem.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	Prcomoem.h
 api_name:
 -	IPrintCoreHelperPS.CreateInstanceOfMSXMLObject
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
@@ -51,20 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>IPrintCoreHelperPS::CreateInstanceOfMSXMLObject</b> method creates an instance of an MSXML object. 
-
-
-## -syntax
-
-
-````
-STDMETHOD CreateInstanceOfMSXMLObject(
-  [in]  REFCLSID  rclsid,
-  [in]  LPUNKNOWN pUnkOuter,
-  [in]  DWORD     dwClsContext,
-  [in]  REFIID    riid,
-  [out] LPVOID    ppv
-);
-````
 
 
 ## -parameters

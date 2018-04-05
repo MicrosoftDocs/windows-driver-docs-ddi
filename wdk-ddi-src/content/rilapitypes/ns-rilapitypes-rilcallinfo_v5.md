@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILCALLINFO_V5
 title: RILCALLINFO_V5
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilcallinfo_v5_2.htm
+old-location: netvista\rilcallinfo_v5.htm
 old-project: netvista
-ms.assetid: a2cadee5-40e4-4044-b631-1824099e2fd7
+ms.assetid: 76d6c066-f455-45d4-ac39-76d1420fe8c9
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: "*LPRILCALLINFO, *LPRILCALLINFO_V5, RILCALLINFO, RILCALLINFO_V5, RILCALLINFO_V5 structure [Network Drivers Starting with Windows Vista], netvista.rilcallinfo_v5_2, rilapitypes/RILCALLINFO_V5"
+ms.date: 3/26/2018
+ms.keywords: "*LPRILCALLINFO, *LPRILCALLINFO_V5, RILCALLINFO, RILCALLINFO_V5, RILCALLINFO_V5 structure [Network Drivers Starting with Windows Vista], netvista.rilcallinfo_v5, ntddrilapitypes/RILCALLINFO_V5"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,10 +35,11 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILCALLINFO_V5
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILCALLINFO_V5, *LPRILCALLINFO_V5, RILCALLINFO, *LPRILCALLINFO
 req.product: Windows 10 or later.
@@ -50,37 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-
-## -syntax
-
-
-````
-typedef struct _RILCALLINFO_V5 {
-  DWORD                           cbSize;
-  DWORD                           dwParams;
-  DWORD                           dwExecutor;
-  DWORD                           dwID;
-  RILCALLINFODIRECTION            dwDirection;
-  RILCALLINFOSTATUS               dwStatus;
-  RILCALLTYPE                     dwType;
-  RILCALLINFOMULTIPARTY           dwMultiparty;
-  RILADDRESS                      raAddress;
-  RILSUBADDRESS                   rsaSubAddress;
-  WCHAR [MAXLENGTH_DESCRIPTION]   wszDescription;
-  RILREMOTEPARTYINFOVALUE         dwNumberPresentationIndicator;
-  RILREMOTEPARTYINFOVALUE         dwNamePresentationIndicator;
-  DWORD                           dwFlags;
-  RILCALLINFODISCONNECTINITIATOR  dwDisconnectInitiator;
-  RILCALLINFODISCONNECTREASON     dwDisconnectReason;
-  RILCALLDISCONNECTDETAILS        stDisconnectDetails;
-  RILCALLMEDIAOFFERANSWERSET      rcmOfferAnswer;
-  RILCALLHANDOVERSTATE            rchsHandoverState;
-  RILCALLMODIFICATIONCAUSECODE    dwCallModificationCauseCode;
-  RILCALLRTT                      stRTTInfo;
-} RILCALLINFO_V5, RILCALLINFO_V5;
-````
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -struct-fields

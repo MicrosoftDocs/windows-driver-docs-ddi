@@ -38,7 +38,8 @@ api_location:
 -	gnssdriver.h
 api_name:
 -	GNSS_CHIPSETINFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GNSS_CHIPSETINFO, *PGNSS_CHIPSETINFO
 ---
@@ -50,21 +51,6 @@ req.typenames: GNSS_CHIPSETINFO, *PGNSS_CHIPSETINFO
 
 
 This structure defines the specific data elements associated with the GNSS hardware.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  ULONG Size;
-  ULONG Version;
-  WCHAR ManufacturerID[25];
-  WCHAR HardwareID[25];
-  WCHAR FirmwareVersion[20];
-  BYTE  Unused[512];
-} GNSS_CHIPSETINFO, *PGNSS_CHIPSETINFO;
-````
 
 
 ## -struct-fields

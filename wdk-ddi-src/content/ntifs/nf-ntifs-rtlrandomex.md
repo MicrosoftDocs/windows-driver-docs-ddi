@@ -7,7 +7,7 @@ old-location: ifsk\rtlrandomex.htm
 old-project: ifsk
 ms.assetid: 2a5c70da-69dc-431c-9ce9-908633045372
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: RtlRandomEx, RtlRandomEx routine [Installable File System Drivers], ifsk.rtlrandomex, ntifs/RtlRandomEx, rtlref_29425246-066b-4f0f-ba4b-419db1de119d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	RtlRandomEx
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -50,16 +51,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>RtlRandomEx</b> routine returns a random number that was generated from a given seed value. 
-
-
-## -syntax
-
-
-````
-ULONG RtlRandomEx(
-  _Inout_ PULONG Seed
-);
-````
 
 
 ## -parameters
@@ -94,13 +85,11 @@ The <b>RtlRandomEx</b> function is an improved version of the <b>RtlRandom</b> f
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtlrandom.md">RtlRandom</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553177">RtlRandom</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RtlRandomEx routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

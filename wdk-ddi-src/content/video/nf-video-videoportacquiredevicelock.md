@@ -7,7 +7,7 @@ old-location: display\videoportacquiredevicelock.htm
 old-project: display
 ms.assetid: eeb2d1ad-ad99-4099-9560-8653a627aa08
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: VideoPortAcquireDeviceLock, VideoPortAcquireDeviceLock function [Display Devices], VideoPort_Functions_4c588378-53be-496c-93f0-0d285b8a1a05.xml, display.videoportacquiredevicelock, video/VideoPortAcquireDeviceLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Videoprt.sys
 api_name:
 -	VideoPortAcquireDeviceLock
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
 req.product: Windows 10 or later.
@@ -51,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>VideoPortAcquireDeviceLock</b> function acquires the device lock maintained by the video port driver.
-
-
-## -syntax
-
-
-````
-VOID VideoPortAcquireDeviceLock(
-  _In_ PVOID HwDeviceExtension
-);
-````
 
 
 ## -parameters
@@ -86,26 +77,24 @@ None
 
 
 
-Typically, the video port driver guarantees threaded synchronization into the miniport driver through the use of a device lock. However, a miniport driver must perform its own synchronization when being accessed by a child device. That is, a miniport driver must perform synchronization in routines that it exposes through <a href="..\video\nc-video-pvideo_hw_query_interface.md">HwVidQueryInterface</a> by acquiring the device lock maintained by the video port driver.
+Typically, the video port driver guarantees threaded synchronization into the miniport driver through the use of a device lock. However, a miniport driver must perform its own synchronization when being accessed by a child device. That is, a miniport driver must perform synchronization in routines that it exposes through <a href="https://msdn.microsoft.com/f16a7fa3-3471-4ccb-b1b4-982d33f930d3">HwVidQueryInterface</a> by acquiring the device lock maintained by the video port driver.
 
-The miniport driver should release the device lock as quickly as possible by calling <a href="..\video\nf-video-videoportreleasedevicelock.md">VideoPortReleaseDeviceLock</a>.
+The miniport driver should release the device lock as quickly as possible by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff570356">VideoPortReleaseDeviceLock</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\video\nc-video-pvideo_hw_query_interface.md">HwVidQueryInterface</a>
 
 
 
-<a href="..\video\nf-video-videoportreleasedevicelock.md">VideoPortReleaseDeviceLock</a>
+<a href="https://msdn.microsoft.com/f16a7fa3-3471-4ccb-b1b4-982d33f930d3">HwVidQueryInterface</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570356">VideoPortReleaseDeviceLock</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20VideoPortAcquireDeviceLock function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

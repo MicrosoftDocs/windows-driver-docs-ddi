@@ -7,7 +7,7 @@ old-location: display\pfnd3d12ddi_calcprivateopenedprotectedresourcesessionsize_
 old-project: display
 ms.assetid: B4F8FDC2-BF32-42D2-848B-E3B2335C0131
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3D12DDI_CALCPRIVATEOPENEDPROTECTEDRESOURCESESSIONSIZE_0030, PFND3D12DDI_CALCPRIVATEOPENEDPROTECTEDRESOURCESESSIONSIZE_0030 entry point [Display Devices], d3d12umddi/PFND3D12DDI_CALCPRIVATEOPENEDPROTECTEDRESOURCESESSIONSIZE_0030, display.pfnd3d12ddi_calcprivateopenedprotectedresourcesessionsize_0030
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3d12umddi.h
 api_name:
 -	PFND3D12DDI_CALCPRIVATEOPENEDPROTECTEDRESOURCESESSIONSIZE_0030
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
 ---
@@ -50,17 +51,6 @@ req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
 
 
 Used to calculate the size of an opened protected resource session.
-
-
-## -prototype
-
-
-````
-SIZE_T APIENTRY* PFND3D12DDI_CALCPRIVATEOPENEDPROTECTEDRESOURCESESSIONSIZE_0030(
-             D3D12DDI_HDEVICE                                 hDrvDevice,
-  _In_ const D3D12DDIARG_OPEN_PROTECTED_RESOURCE_SESSION_0030 *pArgs
-);
-````
 
 
 ## -parameters

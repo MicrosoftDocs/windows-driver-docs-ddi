@@ -7,7 +7,7 @@ old-location: display\pfnupdateallocationpropertycb.htm
 old-project: display
 ms.assetid: 49E4189A-2183-4033-BF17-ADFAC1CF1EF2
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3DDDI_UPDATEALLOCATIONPROPERTYCB, d3dumddi/pfnUpdateAllocationPropertyCb, display.pfnupdateallocationpropertycb, pfnUpdateAllocationPropertyCb, pfnUpdateAllocationPropertyCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	pfnUpdateAllocationPropertyCb
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_PTE
 ---
@@ -50,20 +51,6 @@ req.typenames: DXGK_PTE
 
 
 The <b>pfnUpdateAllocationPropertyCb</b> functions updates the property of an allocation without creating a new allocation.
-
-
-## -prototype
-
-
-````
-PFND3DDDI_UPDATEALLOCATIONPROPERTYCB pfnUpdateAllocationPropertyCb;
-
-__checkReturn HRESULT APIENTRY pfnUpdateAllocationPropertyCb(
-  _In_    HANDLE                    hDevice,
-  _Inout_ D3DDI_UPDATEALLOCPROPERTY *pUpdateAllocationProperty
-)
-{ ... }
-````
 
 
 ## -parameters

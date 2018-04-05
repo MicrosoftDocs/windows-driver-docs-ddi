@@ -7,7 +7,7 @@ old-location: storage\scsireportluns_out.htm
 old-project: storage
 ms.assetid: 6335705d-a900-456a-a882-f7f11bb485af
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PScsiReportLuns_OUT, PScsiReportLuns_OUT, PScsiReportLuns_OUT structure pointer [Storage Devices], ScsiReportLuns_OUT, ScsiReportLuns_OUT structure [Storage Devices], _ScsiReportLuns_OUT, iscsiop/PScsiReportLuns_OUT, iscsiop/ScsiReportLuns_OUT, storage.scsireportluns_out, structs-iSCSI_8f759a2a-f588-48c7-a777-1a0a7eb6604b.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	iscsiop.h
 api_name:
 -	ScsiReportLuns_OUT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: ScsiReportLuns_OUT, *PScsiReportLuns_OUT
 ---
@@ -50,20 +51,6 @@ req.typenames: ScsiReportLuns_OUT, *PScsiReportLuns_OUT
 
 
 The ScsiReportLuns_OUT structure holds the output data for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564918">ScsiReportLuns</a> method.
-
-
-## -syntax
-
-
-````
-typedef struct _ScsiReportLuns_OUT {
-  ULONG Status;
-  ULONG ResponseBufferSize;
-  UCHAR ScsiStatus;
-  UCHAR SenseBuffer[18];
-  UCHAR ResponseBuffer[1];
-} ScsiReportLuns_OUT, *PScsiReportLuns_OUT;
-````
 
 
 ## -struct-fields
@@ -107,11 +94,6 @@ You must implement this method.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564918">ScsiReportLuns</a>
-
-
-
-<a href="..\iscsiop\ns-iscsiop-_scsireportluns_in.md">ScsiReportLuns_IN</a>
 
 
 
@@ -127,9 +109,12 @@ You must implement this method.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564918">ScsiReportLuns</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564925">ScsiReportLuns_IN</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20ScsiReportLuns_OUT structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

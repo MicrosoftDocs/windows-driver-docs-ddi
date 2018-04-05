@@ -38,7 +38,8 @@ api_location:
 -	gnssdriver.h
 api_name:
 -	GNSS_NI_RESPONSE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GNSS_NI_RESPONSE, *PGNSS_NI_RESPONSE
 ---
@@ -50,19 +51,6 @@ req.typenames: GNSS_NI_RESPONSE, *PGNSS_NI_RESPONSE
 
 
 This structure contains NI request response information.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  ULONG                 Size;
-  ULONG                 Version;
-  ULONG                 RequestId;
-  GNSS_NI_USER_RESPONSE UserResponse;
-} GNSS_NI_RESPONSE, *PGNSS_NI_RESPONSE;
-````
 
 
 ## -struct-fields

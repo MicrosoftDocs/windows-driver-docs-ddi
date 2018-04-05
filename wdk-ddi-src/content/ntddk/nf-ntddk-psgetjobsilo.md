@@ -7,7 +7,7 @@ old-location: kernel\psgetjobsilo.htm
 old-project: kernel
 ms.assetid: 1032282B-7CA3-4162-8FC2-1A4A683E9DEF
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/28/2018
 ms.keywords: PsGetJobSilo, PsGetJobSilo routine [Kernel-Mode Driver Architecture], kernel.psgetjobsilo, ntddk/PsGetJobSilo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	ntddk.h
 api_name:
 -	PsGetJobSilo
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
@@ -55,17 +56,6 @@ This routine returns the first job in the hierarchy that is a <i>Silo</i>.  The 
 <div class="alert"><b>Note</b>  This returns both app silos and server silos, whichever is first.</div>
 <div> </div>
 
-
-
-## -syntax
-
-
-````
-NTSTATUS PsGetJobSilo(
-  _In_  PEJOB  Job,
-  _Out_ PESILO *Silo
-);
-````
 
 
 ## -parameters

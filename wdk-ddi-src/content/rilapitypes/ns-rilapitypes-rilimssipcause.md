@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILIMSSIPCAUSE
 title: RILIMSSIPCAUSE
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilimssipcause_2.htm
+old-location: netvista\rilimssipcause.htm
 old-project: netvista
-ms.assetid: ae98e9e7-7001-43dd-9735-e90bb998694c
+ms.assetid: 79a57fc5-1526-4f18-b51c-7d045092fcb4
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: "*LPRILIMSSIPCAUSE, RILIMSSIPCAUSE, RILIMSSIPCAUSE structure [Network Drivers Starting with Windows Vista], netvista.rilimssipcause_2, rilapitypes/RILIMSSIPCAUSE"
+ms.date: 3/26/2018
+ms.keywords: "*LPRILIMSSIPCAUSE, RILIMSSIPCAUSE, RILIMSSIPCAUSE structure [Network Drivers Starting with Windows Vista], netvista.rilimssipcause, ntddrilapitypes/RILIMSSIPCAUSE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,10 +35,11 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILIMSSIPCAUSE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILIMSSIPCAUSE, *LPRILIMSSIPCAUSE
 req.product: Windows 10 or later.
@@ -50,18 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-
-## -syntax
-
-
-````
-typedef struct _RILIMSSIPCAUSE {
-  DWORD  dwCauseValue;
-  DWORD  dwReasonValue;
-} RILIMSSIPCAUSE, RILIMSSIPCAUSE;
-````
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -struct-fields

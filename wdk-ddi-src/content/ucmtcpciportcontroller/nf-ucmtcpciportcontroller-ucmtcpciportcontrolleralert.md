@@ -7,7 +7,7 @@ old-location: buses\ucmtcpciportcontrolleralert.htm
 old-project: usbref
 ms.assetid: 38700667-d872-4c08-b846-236e94318dba
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: UcmTcpciPortControllerAlert, UcmTcpciPortControllerAlert method [Buses], buses.ucmtcpciportcontrolleralert, ucmtcpciportcontroller/UcmTcpciPortControllerAlert
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	ucmtcpciportcontroller.h
 api_name:
 -	UcmTcpciPortControllerAlert
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UCMTCPCI_PORT_CONTROLLER_ALERT_TYPE
 req.product: Windows 10 or later.
@@ -55,18 +56,6 @@ req.product: Windows 10 or later.
                 Sends information about the hardware alerts that are received on the port controller to UcmTcpciCx. 
 
 
-## -syntax
-
-
-````
-VOID UcmTcpciPortControllerAlert(
-  _In_ UCMTCPCIPORTCONTROLLER               PortControllerObject,
-       PUCMTCPCI_PORT_CONTROLLER_ALERT_DATA AlertData,
-       size_t                               NumberOfAlerts
-);
-````
-
-
 ## -parameters
 
 
@@ -74,12 +63,12 @@ VOID UcmTcpciPortControllerAlert(
 
 ### -param PortControllerObject [in]
 
-Handle to the port controller object that the client driver received in the previous call to <a href="..\ucmtcpciportcontroller\nf-ucmtcpciportcontroller-ucmtcpciportcontrollercreate.md">UcmTcpciPortControllerCreate</a>.
+Handle to the port controller object that the client driver received in the previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/mt805844">UcmTcpciPortControllerCreate</a>.
 
 
 ### -param AlertData
 
-A pointer to an array of <a href="..\ucmtcpciportcontroller\ns-ucmtcpciportcontroller-_ucmtcpci_port_controller_alert_data.md">UCMTCPCI_PORT_CONTROLLER_ALERT_DATA</a> that contains all current alerts that have not been sent to UcmTcpciCx. This value cannot be NULL.
+A pointer to an array of <a href="https://msdn.microsoft.com/library/windows/hardware/mt805898">UCMTCPCI_PORT_CONTROLLER_ALERT_DATA</a> that contains all current alerts that have not been sent to UcmTcpciCx. This value cannot be NULL.
 
 
 ### -param NumberOfAlerts
@@ -102,7 +91,7 @@ The number of items in the array pointed to by <i>AlertData</i>. This value cann
 
 
 
-The client driver must call <b>UcmTcpciPortControllerAlert</b> that has been previously started by calling <a href="..\ucmtcpciportcontroller\nf-ucmtcpciportcontroller-ucmtcpciportcontrollerstart.md">UcmTcpciPortControllerStart</a>.
+The client driver must call <b>UcmTcpciPortControllerAlert</b> that has been previously started by calling <a href="https://msdn.microsoft.com/library/windows/hardware/mt805846">UcmTcpciPortControllerStart</a>.
 
 When a hardware alert occurs, the client driver must determine the type of alerts, fetch any auxiliary information associated with that alert, such as a PD message, populate the array, and then call <b>UcmTcpciPortControllerAlert</b>.
 
@@ -117,13 +106,11 @@ When handling alerts, UcmTcpciCx may send hardware requests to the client driver
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/wdf/handling-hardware-interrupts">Handling Hardware Interrupts</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20UcmTcpciPortControllerAlert method%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

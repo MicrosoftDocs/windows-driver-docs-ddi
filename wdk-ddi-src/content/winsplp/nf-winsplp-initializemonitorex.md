@@ -7,7 +7,7 @@ old-location: print\initializemonitorex.htm
 old-project: print
 ms.assetid: 1a619b27-4367-419c-985f-588e3f556425
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: InitializeMonitorEx, InitializeMonitorEx function [Print Devices], print.initializemonitorex, spoolfnc_ffa71296-8b2a-48b3-a2c7-9765b9d7aed1.xml, winsplp/InitializeMonitorEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	winsplp.h
 api_name:
 -	InitializeMonitorEx
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NOTIFICATION_CONFIG_FLAGS
 req.product: Windows 10 or later.
@@ -51,17 +52,6 @@ req.product: Windows 10 or later.
 
 
 
-
-
-## -syntax
-
-
-````
-BOOL WINAPI InitializeMonitorEx(
-  _In_  LPWSTR    pRegistryRoot,
-  _Out_ LPMONITOR pMonitor
-);
-````
 
 
 ## -parameters

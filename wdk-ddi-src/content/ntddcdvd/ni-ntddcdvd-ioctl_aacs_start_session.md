@@ -7,7 +7,7 @@ old-location: storage\ioctl_aacs_start_session.htm
 old-project: storage
 ms.assetid: b5fb5dac-7f63-4457-bb25-61315395429b
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_AACS_START_SESSION, IOCTL_AACS_START_SESSION control code [Storage Devices], k307_a9378e49-2d39-4532-bac7-5fe9612ea5d0.xml, ntddcdvd/IOCTL_AACS_START_SESSION, storage.ioctl_aacs_start_session
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,18 +38,14 @@ api_location:
 -	Ntddcdvd.h
 api_name:
 -	IOCTL_AACS_START_SESSION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DVD_STRUCTURE_FORMAT, *PDVD_STRUCTURE_FORMAT
 ---
 
 # IOCTL_AACS_START_SESSION IOCTL
 
-
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

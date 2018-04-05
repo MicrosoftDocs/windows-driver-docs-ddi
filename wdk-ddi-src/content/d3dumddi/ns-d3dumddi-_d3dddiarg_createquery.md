@@ -7,7 +7,7 @@ old-location: display\d3dddiarg_createquery.htm
 old-project: display
 ms.assetid: f80224c6-9046-4471-b6c6-eb14f02fc51f
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDIARG_CREATEQUERY, D3DDDIARG_CREATEQUERY structure [Display Devices], UMDisplayDriver_param_Structs_37293319-c280-4363-936a-65a8a5af4c45.xml, _D3DDDIARG_CREATEQUERY, d3dumddi/D3DDDIARG_CREATEQUERY, display.d3dddiarg_createquery
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	D3DDDIARG_CREATEQUERY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDIARG_CREATEQUERY
 ---
@@ -50,17 +51,6 @@ req.typenames: D3DDDIARG_CREATEQUERY
 
 
 The D3DDDIARG_CREATEQUERY structure identifies a query to create. 
-
-
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_CREATEQUERY {
-  D3DDDIQUERYTYPE QueryType;
-  HANDLE          hQuery;
-} D3DDDIARG_CREATEQUERY;
-````
 
 
 ## -struct-fields
@@ -83,7 +73,7 @@ D3DDDIQUERYTYPE_VCACHE
 
 </td>
 <td>
-Query at issue end for driver hints about data layout for vertex caching. This query is processed through a call to the driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_issuequery.md">IssueQuery</a> function in which the <b>End</b> bit-field flag is set in the <b>Flags</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_issuequery.md">D3DDDIARG_ISSUEQUERY</a> structure.
+Query at issue end for driver hints about data layout for vertex caching. This query is processed through a call to the driver's <a href="https://msdn.microsoft.com/e31b2b6a-3721-472a-8044-6516a8419ad3">IssueQuery</a> function in which the <b>End</b> bit-field flag is set in the <b>Flags</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543192">D3DDDIARG_ISSUEQUERY</a> structure.
 
 </td>
 </tr>
@@ -105,7 +95,7 @@ D3DDDIQUERYTYPE_OCCLUSION
 <td>
 Query for the number of pixels that pass z-testing. These pixels are for primitives that are drawn between an issue begin and an issue end. 
 
-This query is processed between calls to the driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_issuequery.md">IssueQuery</a> function in which first the <b>Begin</b> bit-field flag is set in the <b>Flags</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_issuequery.md">D3DDDIARG_ISSUEQUERY</a> structure and next the <b>End</b> bit-field flag is set.
+This query is processed between calls to the driver's <a href="https://msdn.microsoft.com/e31b2b6a-3721-472a-8044-6516a8419ad3">IssueQuery</a> function in which first the <b>Begin</b> bit-field flag is set in the <b>Flags</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543192">D3DDDIARG_ISSUEQUERY</a> structure and next the <b>End</b> bit-field flag is set.
 
 This query enables an application to check the occlusion result against 0. A value of 0 is "fully occluded," which means the pixels are not visible from the current camera position.
 
@@ -221,7 +211,7 @@ Query for device-dependent counters.
 
 ### -field hQuery
 
-[out] A handle to the query. The user-mode display driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createquery.md">CreateQuery</a> function returns this handle to the Microsoft Direct3D runtime. 
+[out] A handle to the query. The user-mode display driver's <a href="https://msdn.microsoft.com/ac63b77b-2704-4d5b-bf1d-9d85e8a1e336">CreateQuery</a> function returns this handle to the Microsoft Direct3D runtime. 
 
 
 ## -remarks
@@ -232,15 +222,15 @@ The Direct3D runtime uses the handle that is specified by the <b>hQuery</b> memb
 
 <ul>
 <li>
-The <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_issuequery.md">IssueQuery</a> function to process a query.
+The <a href="https://msdn.microsoft.com/e31b2b6a-3721-472a-8044-6516a8419ad3">IssueQuery</a> function to process a query.
 
 </li>
 <li>
-The <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getquerydata.md">GetQueryData</a> function to retrieve information about the query.
+The <a href="https://msdn.microsoft.com/64daec14-8e16-4df3-bb0c-27760223b86c">GetQueryData</a> function to retrieve information about the query.
 
 </li>
 <li>
-The <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_destroyquery.md">DestroyQuery</a> function to destroy the handle.
+The <a href="https://msdn.microsoft.com/c4cef278-1771-4903-a5cf-85674463aff8">DestroyQuery</a> function to destroy the handle.
 
 </li>
 </ul>
@@ -249,25 +239,23 @@ The <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_destroyquery.md">DestroyQuery</a>
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getquerydata.md">GetQueryData</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_issuequery.md">IssueQuery</a>
+<a href="https://msdn.microsoft.com/ac63b77b-2704-4d5b-bf1d-9d85e8a1e336">CreateQuery</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_destroyquery.md">DestroyQuery</a>
+<a href="https://msdn.microsoft.com/c4cef278-1771-4903-a5cf-85674463aff8">DestroyQuery</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createquery.md">CreateQuery</a>
+<a href="https://msdn.microsoft.com/64daec14-8e16-4df3-bb0c-27760223b86c">GetQueryData</a>
 
 
 
+<a href="https://msdn.microsoft.com/e31b2b6a-3721-472a-8044-6516a8419ad3">IssueQuery</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DDDIARG_CREATEQUERY structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

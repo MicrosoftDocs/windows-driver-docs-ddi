@@ -7,7 +7,7 @@ old-location: display\d3dddiarg_setpriority.htm
 old-project: display
 ms.assetid: d3dd52de-6d28-4d71-9b64-ba79e17bd9ee
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDIARG_SETPRIORITY, D3DDDIARG_SETPRIORITY structure [Display Devices], UMDisplayDriver_param_Structs_e416cff1-5cad-4488-a3e2-ea0b42a7cd81.xml, _D3DDDIARG_SETPRIORITY, d3dumddi/D3DDDIARG_SETPRIORITY, display.d3dddiarg_setpriority
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	D3DDDIARG_SETPRIORITY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDIARG_SETPRIORITY
 ---
@@ -50,17 +51,6 @@ req.typenames: D3DDDIARG_SETPRIORITY
 
 
 The D3DDDIARG_SETPRIORITY structure describes the priority level to set for a managed texture. 
-
-
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_SETPRIORITY {
-  HANDLE hResource;
-  UINT   Priority;
-} D3DDDIARG_SETPRIORITY;
-````
 
 
 ## -struct-fields
@@ -91,13 +81,11 @@ The priority level at which a texture is set determines its eviction order from 
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setpriority.md">SetPriority</a>
 
 
 
+<a href="https://msdn.microsoft.com/61ac2d28-7aed-4796-8d09-591db936013b">SetPriority</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DDDIARG_SETPRIORITY structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

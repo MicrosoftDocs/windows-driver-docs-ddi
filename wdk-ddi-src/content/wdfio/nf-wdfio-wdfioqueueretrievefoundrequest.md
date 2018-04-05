@@ -7,7 +7,7 @@ old-location: wdf\wdfioqueueretrievefoundrequest.htm
 old-project: wdf
 ms.assetid: 34447879-1a2e-45de-b754-121a5956330a
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/26/2018
 ms.keywords: DFQueueObjectRef_17174143-5657-4500-bd07-bf9487e8048e.xml, WdfIoQueueRetrieveFoundRequest, WdfIoQueueRetrieveFoundRequest method, kmdf.wdfioqueueretrievefoundrequest, wdf.wdfioqueueretrievefoundrequest, wdfio/WdfIoQueueRetrieveFoundRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,8 @@ api_location:
 -	WUDFx02000.dll.dll
 api_name:
 -	WdfIoQueueRetrieveFoundRequest
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_IO_QUEUE_STATE
 req.product: Windows 10 or later.
@@ -58,18 +59,6 @@ req.product: Windows 10 or later.
 The <b>WdfIoQueueRetrieveFoundRequest</b> method delivers a specified request to the driver, so that the driver can process the request.
 
 
-## -syntax
-
-
-````
-NTSTATUS WdfIoQueueRetrieveFoundRequest(
-  _In_  WDFQUEUE   Queue,
-  _In_  WDFREQUEST FoundRequest,
-  _Out_ WDFREQUEST *OutRequest
-);
-````
-
-
 ## -parameters
 
 
@@ -82,7 +71,7 @@ A handle to a framework queue object.
 
 ### -param FoundRequest [in]
 
-A handle to a framework request object that was obtained by calling <a href="..\wdfio\nf-wdfio-wdfioqueuefindrequest.md">WdfIoQueueFindRequest</a>.
+A handle to a framework request object that was obtained by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff547415">WdfIoQueueFindRequest</a>.
 
 
 ### -param OutRequest [out]
@@ -152,9 +141,9 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 After calling <b>WdfIoQueueRetrieveFoundRequest</b> to obtain an I/O request, the driver <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/request-ownership">owns</a> the request and must <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/accessing-data-buffers-in-wdf-drivers">process the I/O request</a> in some manner.
 
-Before calling <b>WdfIoQueueRetrieveFoundRequest</b>, the driver must call <a href="..\wdfio\nf-wdfio-wdfioqueuefindrequest.md">WdfIoQueueFindRequest</a>, which retrieves a handle that the driver can use as the <i>FoundRequest</i> parameter to <b>WdfIoQueueRetrieveFoundRequest</b>.
+Before calling <b>WdfIoQueueRetrieveFoundRequest</b>, the driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff547415">WdfIoQueueFindRequest</a>, which retrieves a handle that the driver can use as the <i>FoundRequest</i> parameter to <b>WdfIoQueueRetrieveFoundRequest</b>.
 
-If your driver was built with KMDF version 1.11 or later, the driver can call <b>WdfIoQueueRetrieveFoundRequest</b> without first calling <a href="..\wdfio\nf-wdfio-wdfioqueuefindrequest.md">WdfIoQueueFindRequest</a>. In this case, the driver must ensure that the request object is still valid and in the queue.
+If your driver was built with KMDF version 1.11 or later, the driver can call <b>WdfIoQueueRetrieveFoundRequest</b> without first calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff547415">WdfIoQueueFindRequest</a>. In this case, the driver must ensure that the request object is still valid and in the queue.
 
 If a call to <b>WdfIoQueueRetrieveFoundRequest</b> returns STATUS_NOT_FOUND, a request that was previously in the queue has been removed. The request might have been canceled. 
 
@@ -163,7 +152,7 @@ For more information about the <b>WdfIoQueueRetrieveFoundRequest</b> method, see
 
 #### Examples
 
-For a code example that uses <b>WdfIoQueueRetrieveFoundRequest</b>, see <a href="..\wdfio\nf-wdfio-wdfioqueuefindrequest.md">WdfIoQueueFindRequest</a>.
+For a code example that uses <b>WdfIoQueueRetrieveFoundRequest</b>, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff547415">WdfIoQueueFindRequest</a>.
 
 <div class="code"></div>
 
@@ -171,21 +160,19 @@ For a code example that uses <b>WdfIoQueueRetrieveFoundRequest</b>, see <a href=
 
 ## -see-also
 
-<a href="..\wdfio\nf-wdfio-wdfioqueuefindrequest.md">WdfIoQueueFindRequest</a>
 
 
 
-<a href="..\wdfio\nf-wdfio-wdfioqueueretrieverequestbyfileobject.md">WdfIoQueueRetrieveRequestByFileObject</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547415">WdfIoQueueFindRequest</a>
 
 
 
-<a href="..\wdfio\nf-wdfio-wdfioqueueretrievenextrequest.md">WdfIoQueueRetrieveNextRequest</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh975100">WdfIoQueueRetrieveNextRequest</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548470">WdfIoQueueRetrieveRequestByFileObject</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfIoQueueRetrieveFoundRequest method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

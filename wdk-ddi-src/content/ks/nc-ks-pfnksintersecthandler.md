@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KStrIntersectHandler
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SOUNDDETECTOR_PATTERNHEADER
 ---
@@ -50,22 +51,6 @@ req.typenames: SOUNDDETECTOR_PATTERNHEADER
 
 
 A streaming minidriver's <i>KStrIntersectHandler</i> routine is called to compare a data range to determine if there is an intersection, and if so, the data format of the intersection.
-
-
-## -prototype
-
-
-````
-PFNKSINTERSECTHANDLER KStrIntersectHandler;
-
-NTSTATUS KStrIntersectHandler(
-  _In_      PIRP         Irp,
-  _In_      PKSP_PIN     Pin,
-  _In_      PKSDATARANGE DataRange,
-  _Out_opt_ PVOID        Data
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -145,13 +130,11 @@ If there is no intersection.
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kspindataintersection.md">KsPinDataIntersection</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563496">KsPinDataIntersection</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20PFNKSINTERSECTHANDLER routine%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

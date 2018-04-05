@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILSUPSVCINFOPARAMMASK
 title: RILSUPSVCINFOPARAMMASK
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilsupsvcinfoparammask_2.htm
+old-location: netvista\rilsupsvcinfoparammask.htm
 old-project: netvista
-ms.assetid: 52dd2092-939a-491b-af2d-2ea86eabf99a
+ms.assetid: d3a4780f-6fd4-40d3-a629-5dad31720506
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: RILSUPSVCINFOPARAMMASK, RILSUPSVCINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_SSI_ALL, RIL_PARAM_SSI_ALPHA_IDENTIFIER, RIL_PARAM_SSI_CALLER_ID_SETTINGS, RIL_PARAM_SSI_CALL_BARRING_PASSWORD, RIL_PARAM_SSI_CALL_BARRING_TYPE, RIL_PARAM_SSI_CALL_FORWARDING_REASON, RIL_PARAM_SSI_CALL_FORWARDING_SETTINGS, RIL_PARAM_SSI_CONNECTED_ID_SETTINGS, RIL_PARAM_SSI_DIALED_ID_SETTINGS, RIL_PARAM_SSI_FAILURE_REASON, RIL_PARAM_SSI_FROM_NETWORK, RIL_PARAM_SSI_HIDE_ID_SETTINGS, RIL_PARAM_SSI_INFOCLASSES, RIL_PARAM_SSI_NEW_CALL_BARRING_PASSWORD, RIL_PARAM_SSI_SUPSERVICE_DATA, RIL_PARAM_SSI_SUPSVC_ACTION, RIL_PARAM_SSI_SUPSVC_TYPE, netvista.rilsupsvcinfoparammask_2, rilapitypes/RILSUPSVCINFOPARAMMASK, rilapitypes/RIL_PARAM_SSI_ALL, rilapitypes/RIL_PARAM_SSI_ALPHA_IDENTIFIER, rilapitypes/RIL_PARAM_SSI_CALLER_ID_SETTINGS, rilapitypes/RIL_PARAM_SSI_CALL_BARRING_PASSWORD, rilapitypes/RIL_PARAM_SSI_CALL_BARRING_TYPE, rilapitypes/RIL_PARAM_SSI_CALL_FORWARDING_REASON, rilapitypes/RIL_PARAM_SSI_CALL_FORWARDING_SETTINGS, rilapitypes/RIL_PARAM_SSI_CONNECTED_ID_SETTINGS, rilapitypes/RIL_PARAM_SSI_DIALED_ID_SETTINGS, rilapitypes/RIL_PARAM_SSI_FAILURE_REASON, rilapitypes/RIL_PARAM_SSI_FROM_NETWORK, rilapitypes/RIL_PARAM_SSI_HIDE_ID_SETTINGS, rilapitypes/RIL_PARAM_SSI_INFOCLASSES, rilapitypes/RIL_PARAM_SSI_NEW_CALL_BARRING_PASSWORD, rilapitypes/RIL_PARAM_SSI_SUPSERVICE_DATA, rilapitypes/RIL_PARAM_SSI_SUPSVC_ACTION, rilapitypes/RIL_PARAM_SSI_SUPSVC_TYPE
+ms.date: 3/26/2018
+ms.keywords: RILSUPSVCINFOPARAMMASK, RILSUPSVCINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_SSI_ALL, RIL_PARAM_SSI_ALPHA_IDENTIFIER, RIL_PARAM_SSI_CALLER_ID_SETTINGS, RIL_PARAM_SSI_CALL_BARRING_PASSWORD, RIL_PARAM_SSI_CALL_BARRING_TYPE, RIL_PARAM_SSI_CALL_FORWARDING_REASON, RIL_PARAM_SSI_CALL_FORWARDING_SETTINGS, RIL_PARAM_SSI_CONNECTED_ID_SETTINGS, RIL_PARAM_SSI_DIALED_ID_SETTINGS, RIL_PARAM_SSI_FAILURE_REASON, RIL_PARAM_SSI_FROM_NETWORK, RIL_PARAM_SSI_HIDE_ID_SETTINGS, RIL_PARAM_SSI_INFOCLASSES, RIL_PARAM_SSI_NEW_CALL_BARRING_PASSWORD, RIL_PARAM_SSI_SUPSERVICE_DATA, RIL_PARAM_SSI_SUPSVC_ACTION, RIL_PARAM_SSI_SUPSVC_TYPE, netvista.rilsupsvcinfoparammask, ntddrilapitypes/RILSUPSVCINFOPARAMMASK, ntddrilapitypes/RIL_PARAM_SSI_ALL, ntddrilapitypes/RIL_PARAM_SSI_ALPHA_IDENTIFIER, ntddrilapitypes/RIL_PARAM_SSI_CALLER_ID_SETTINGS, ntddrilapitypes/RIL_PARAM_SSI_CALL_BARRING_PASSWORD, ntddrilapitypes/RIL_PARAM_SSI_CALL_BARRING_TYPE, ntddrilapitypes/RIL_PARAM_SSI_CALL_FORWARDING_REASON, ntddrilapitypes/RIL_PARAM_SSI_CALL_FORWARDING_SETTINGS, ntddrilapitypes/RIL_PARAM_SSI_CONNECTED_ID_SETTINGS, ntddrilapitypes/RIL_PARAM_SSI_DIALED_ID_SETTINGS, ntddrilapitypes/RIL_PARAM_SSI_FAILURE_REASON, ntddrilapitypes/RIL_PARAM_SSI_FROM_NETWORK, ntddrilapitypes/RIL_PARAM_SSI_HIDE_ID_SETTINGS, ntddrilapitypes/RIL_PARAM_SSI_INFOCLASSES, ntddrilapitypes/RIL_PARAM_SSI_NEW_CALL_BARRING_PASSWORD, ntddrilapitypes/RIL_PARAM_SSI_SUPSERVICE_DATA, ntddrilapitypes/RIL_PARAM_SSI_SUPSVC_ACTION, ntddrilapitypes/RIL_PARAM_SSI_SUPSVC_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -35,10 +35,11 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILSUPSVCINFOPARAMMASK
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILSUPSVCINFOPARAMMASK
 req.product: Windows 10 or later.
@@ -50,33 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-
-## -syntax
-
-
-````
-typedef enum _RILSUPSVCINFOPARAMMASK { 
-  RIL_PARAM_SSI_FROM_NETWORK,
-  RIL_PARAM_SSI_FAILURE_REASON,
-  RIL_PARAM_SSI_SUPSVC_ACTION,
-  RIL_PARAM_SSI_SUPSVC_TYPE,
-  RIL_PARAM_SSI_CALL_FORWARDING_REASON,
-  RIL_PARAM_SSI_CALL_BARRING_TYPE,
-  RIL_PARAM_SSI_INFOCLASSES,
-  RIL_PARAM_SSI_ALPHA_IDENTIFIER,
-  RIL_PARAM_SSI_CALL_BARRING_PASSWORD,
-  RIL_PARAM_SSI_NEW_CALL_BARRING_PASSWORD,
-  RIL_PARAM_SSI_CALL_FORWARDING_SETTINGS,
-  RIL_PARAM_SSI_CALLER_ID_SETTINGS,
-  RIL_PARAM_SSI_DIALED_ID_SETTINGS,
-  RIL_PARAM_SSI_HIDE_ID_SETTINGS,
-  RIL_PARAM_SSI_CONNECTED_ID_SETTINGS,
-  RIL_PARAM_SSI_SUPSERVICE_DATA,
-  RIL_PARAM_SSI_ALL
-} RILSUPSVCINFOPARAMMASK;
-````
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -enum-fields

@@ -38,7 +38,8 @@ api_location:
 -	ntdd8042.h
 api_name:
 -	OUTPUT_PACKET
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OUTPUT_PACKET, *POUTPUT_PACKET
 ---
@@ -50,19 +51,6 @@ req.typenames: OUTPUT_PACKET, *POUTPUT_PACKET
 
 
 OUTPUT_PACKET contains information about the data that is being written to a keyboard or mouse device by I8042prt.
-
-
-## -syntax
-
-
-````
-typedef struct _OUTPUT_PACKET {
-  PUCHAR         Bytes;
-  ULONG          CurrentByte;
-  ULONG          ByteCount;
-  TRANSMIT_STATE State;
-} OUTPUT_PACKET, *POUTPUT_PACKET;
-````
 
 
 ## -struct-fields
@@ -121,18 +109,17 @@ Identifies that a write is in progress.
 
 
 
-This structure is used with a <a href="..\ntdd8042\nc-ntdd8042-pi8042_keyboard_isr.md">PI8042_KEYBOARD_ISR</a> callback routine and a <a href="..\ntdd8042\nc-ntdd8042-pi8042_mouse_isr.md">PI8042_MOUSE_ISR</a> callback routine.
+This structure is used with a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543248">PI8042_KEYBOARD_ISR</a> callback routine and a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543252">PI8042_MOUSE_ISR</a> callback routine.
 
 
 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/0feca7de-aa80-4d1e-a5fc-901c18169649">KbFilter_IsrHook</a>
-
-
-
-<a href="..\ntdd8042\nc-ntdd8042-pi8042_keyboard_isr.md">PI8042_KEYBOARD_ISR</a>
 
 
 
@@ -140,13 +127,12 @@ This structure is used with a <a href="..\ntdd8042\nc-ntdd8042-pi8042_keyboard_i
 
 
 
-<a href="..\ntdd8042\nc-ntdd8042-pi8042_mouse_isr.md">PI8042_MOUSE_ISR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543248">PI8042_KEYBOARD_ISR</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543252">PI8042_MOUSE_ISR</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [hid\hid]:%20OUTPUT_PACKET structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: netvista\protocolcmcloseaf.htm
 old-project: netvista
 ms.assetid: a7a02813-62e4-49c5-abb6-a90f4e092b9f
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: PROTOCOL_CM_CLOSE_AF, ProtocolCmCloseAf, ProtocolCmCloseAf callback function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_bedb117e-f1a4-4faa-a6fb-c6b8a317c958.xml, ndis/ProtocolCmCloseAf, netvista.protocolcmcloseaf
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ndis.h
 api_name:
 -	ProtocolCmCloseAf
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
 ---
@@ -54,19 +55,6 @@ The
   family that a call manager supports.
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>PROTOCOL_CM_CLOSE_AF</b> type.
    For more information, see the following Examples section.</div><div> </div>
-
-## -prototype
-
-
-````
-PROTOCOL_CM_CLOSE_AF ProtocolCmCloseAf;
-
-NDIS_STATUS ProtocolCmCloseAf(
-  _In_ NDIS_HANDLE CallMgrAfContext
-)
-{ ... }
-````
-
 
 ## -parameters
 
@@ -113,7 +101,7 @@ Indicates that the call manager has successfully released or deactivated any res
 <td width="60%">
 Indicates that the request to close the open instance of the address family will be completed
        asynchronously. The call manager must call 
-       <a href="..\ndis\nf-ndis-ndiscmcloseaddressfamilycomplete.md">
+       <a href="https://msdn.microsoft.com/1aeb2ca5-8c56-4a78-8cd5-a178efa9b014">
        NdisCmCloseAddressFamilyComplete</a> when all such operations have been completed.
 
 </td>
@@ -130,7 +118,7 @@ Indicates that the request to close the open instance of the address family will
 
 <i>ProtocolCmCloseAf</i> releases and/or deactivates any resources that were allocated by the call manager
     in its 
-    <a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a> function. The call
+    <a href="https://msdn.microsoft.com/7422c205-bc41-4121-b430-ff9e6b49dc2e">ProtocolCmOpenAf</a> function. The call
     manager also should undo any other actions it took on behalf of the connection-oriented client when the
     address family was opened by that client.
 
@@ -147,7 +135,7 @@ The call manager can fail the request with NDIS_STATUS_NOT_ACCEPTED.
 The call manager can return NDIS_STATUS_PENDING. After the client has closed all calls and
       deregistered all SAPs, the call manager can then close the address family and call 
       <b>NdisCmCloseAddressFamilyComplete</b> or 
-      <a href="..\ndis\nf-ndis-ndismcmcloseaddressfamilycomplete.md">
+      <a href="https://msdn.microsoft.com/be551557-06db-4fc9-bdcb-030e621e205a">
       NdisMCmCloseAddressFamilyComplete</a> to notify the client. This is the preferred response.
 
 </li>
@@ -193,18 +181,16 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndiscmcloseaddressfamilycomplete.md">
+
+
+
+<a href="https://msdn.microsoft.com/1aeb2ca5-8c56-4a78-8cd5-a178efa9b014">
    NdisCmCloseAddressFamilyComplete</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a>
-
-
-
+<a href="https://msdn.microsoft.com/7422c205-bc41-4121-b430-ff9e6b49dc2e">ProtocolCmOpenAf</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20PROTOCOL_CM_CLOSE_AF callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

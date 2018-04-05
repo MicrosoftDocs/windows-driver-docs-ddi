@@ -38,7 +38,8 @@ api_location:
 -	nfcsedev.h
 api_name:
 -	SECURE_ELEMENT_TYPE, *PSECURE_ELEMENT_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SECURE_ELEMENT_TYPE, *PSECURE_ELEMENT_TYPE
 ---
@@ -50,18 +51,6 @@ req.typenames: SECURE_ELEMENT_TYPE, *PSECURE_ELEMENT_TYPE
 
 
 Indicates the type of a secure element.
-
-
-## -syntax
-
-
-````
-typedef enum _SECURE_ELEMENT_TYPE { 
-  Integrated  = 0,
-  External    = 1,
-  DeviceHost  = 2
-} SECURE_ELEMENT_TYPE, *PSECURE_ELEMENT_TYPE;
-````
 
 
 ## -enum-fields

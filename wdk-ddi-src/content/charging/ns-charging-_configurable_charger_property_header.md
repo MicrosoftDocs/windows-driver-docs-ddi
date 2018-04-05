@@ -38,7 +38,8 @@ api_location:
 -	charging.h
 api_name:
 -	CONFIGURABLE_CHARGER_PROPERTY_HEADER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CONFIGURABLE_CHARGER_PROPERTY_HEADER, *PCONFIGURABLE_CHARGER_PROPERTY_HEADER
 ---
@@ -49,19 +50,7 @@ req.typenames: CONFIGURABLE_CHARGER_PROPERTY_HEADER, *PCONFIGURABLE_CHARGER_PROP
 ## -description
 
 
-The CONFIGURABLE_CHARGER_PROPERTY_HEADER structure is a header that is used to create your own structure as an input to <a href="..\charging\ni-charging-ioctl_internal_configure_charger_property.md">IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY</a>.
-
-
-## -syntax
-
-
-````
-typedef struct _CONFIGURABLE_CHARGER_PROPERTY_HEADER {
-  ULONG Size;
-  GUID  ChargerId;
-  ULONG PropertyId;
-} CONFIGURABLE_CHARGER_PROPERTY_HEADER, *PCONFIGURABLE_CHARGER_PROPERTY_HEADER;
-````
+The CONFIGURABLE_CHARGER_PROPERTY_HEADER structure is a header that is used to create your own structure as an input to <a href="https://msdn.microsoft.com/library/windows/hardware/mt186650">IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY</a>.
 
 
 ## -struct-fields
@@ -88,7 +77,7 @@ The ID of the property to be configured.
 
 
 
-Extend this structure to add your own values for the input to <a href="..\charging\ni-charging-ioctl_internal_configure_charger_property.md">IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY</a>. Create a new structure with <b>CONFIGURABLE_CHARGER_PROPERTY_HEADER</b> as the first field, and one or more values after it that correspond to your <b>PropertyId</b>. Here are two example structures.
+Extend this structure to add your own values for the input to <a href="https://msdn.microsoft.com/library/windows/hardware/mt186650">IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY</a>. Create a new structure with <b>CONFIGURABLE_CHARGER_PROPERTY_HEADER</b> as the first field, and one or more values after it that correspond to your <b>PropertyId</b>. Here are two example structures.
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -134,13 +123,11 @@ Make sure you set <b>Header.Size</b> to the appropriate size of your new structu
 
 ## -see-also
 
-<a href="..\charging\ni-charging-ioctl_internal_configure_charger_property.md">IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186650">IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [battery\battery]:%20CONFIGURABLE_CHARGER_PROPERTY_HEADER structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

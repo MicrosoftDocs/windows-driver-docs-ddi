@@ -7,7 +7,7 @@ old-location: storage\storage_hw_firmware_activate.htm
 old-project: storage
 ms.assetid: FCE1DE7B-CDFE-4533-90E7-A400EC236007
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSTORAGE_HW_FIRMWARE_ACTIVATE, PSTORAGE_HW_FIRMWARE_ACTIVATE, PSTORAGE_HW_FIRMWARE_ACTIVATE structure pointer [Storage Devices], STORAGE_HW_FIRMWARE_ACTIVATE, STORAGE_HW_FIRMWARE_ACTIVATE structure [Storage Devices], _STORAGE_HW_FIRMWARE_ACTIVATE, ntddstor/PSTORAGE_HW_FIRMWARE_ACTIVATE, ntddstor/STORAGE_HW_FIRMWARE_ACTIVATE, storage.storage_hw_firmware_activate"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddstor.h
 api_name:
 -	STORAGE_HW_FIRMWARE_ACTIVATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STORAGE_HW_FIRMWARE_ACTIVATE, *PSTORAGE_HW_FIRMWARE_ACTIVATE
 ---
@@ -50,20 +51,6 @@ req.typenames: STORAGE_HW_FIRMWARE_ACTIVATE, *PSTORAGE_HW_FIRMWARE_ACTIVATE
 
 
 This structure contains information about the downloaded firmware to activate.
-
-
-## -syntax
-
-
-````
-typedef struct _STORAGE_HW_FIRMWARE_ACTIVATE {
-  ULONG Version;
-  ULONG Size;
-  ULONG Flags;
-  UCHAR Slot;
-  UCHAR Reserved0[3];
-} STORAGE_HW_FIRMWARE_ACTIVATE, *PSTORAGE_HW_FIRMWARE_ACTIVATE;
-````
 
 
 ## -struct-fields

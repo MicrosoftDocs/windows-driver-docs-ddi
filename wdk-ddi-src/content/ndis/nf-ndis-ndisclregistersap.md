@@ -7,7 +7,7 @@ old-location: netvista\ndisclregistersap.htm
 old-project: netvista
 ms.assetid: 33ed0839-d1e3-4872-baa8-ead7e97f8c53
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: NdisClRegisterSap, NdisClRegisterSap function [Network Drivers Starting with Windows Vista], condis_client_ref_ee22bc25-7935-458f-8016-6537d9803acb.xml, ndis/NdisClRegisterSap, netvista.ndisclregistersap
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	ndis.dll
 api_name:
 -	NdisClRegisterSap
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
@@ -54,19 +55,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
   node.
 
 
-## -syntax
-
-
-````
-NDIS_STATUS NdisClRegisterSap(
-  _In_  NDIS_HANDLE  NdisAfHandle,
-  _In_  NDIS_HANDLE  ProtocolSapContext,
-  _In_  PCO_SAP      Sap,
-  _Out_ PNDIS_HANDLE NdisSapHandle
-);
-````
-
-
 ## -parameters
 
 
@@ -75,7 +63,7 @@ NDIS_STATUS NdisClRegisterSap(
 ### -param NdisAfHandle [in]
 
 Specifies the handle returned by 
-     <a href="..\ndis\nf-ndis-ndisclopenaddressfamilyex.md">NdisClOpenAddressFamilyEx</a>,
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff561639">NdisClOpenAddressFamilyEx</a>,
      which implicitly identifies the call manager with which to register the SAP.
 
 
@@ -107,7 +95,7 @@ Pointer to a variable in which a handle to the newly registered SAP is returned 
 When 
      <b>NdisClRegisterSap</b> returns anything other than NDIS_STATUS_PENDING, the client should make an
      internal call to its 
-     <a href="..\ndis\nc-ndis-protocol_cl_register_sap_complete.md">
+     <a href="https://msdn.microsoft.com/b0a2a224-3353-4f20-b14f-ed5d633a6ead">
      ProtocolClRegisterSapComplete</a> function. Otherwise, NDIS calls the client's 
      <i>ProtocolClRegisterSapComplete</i> function when this operation is completed.
 
@@ -121,7 +109,7 @@ When
 With a call to 
     <b>NdisClRegisterSap</b>, a client requests notifications of incoming calls on a particular SAP. NDIS
     forwards the given SAP information to the call manager's 
-    <a href="..\ndis\nc-ndis-protocol_cm_reg_sap.md">ProtocolCmRegisterSap</a> function
+    <a href="https://msdn.microsoft.com/3e3e7a0e-a8d2-40b2-895b-187d24867080">ProtocolCmRegisterSap</a> function
     for validation. If the given SAP is already in use or if the call manager does not recognize the
     client-supplied specification at 
     <i>Sap</i>, the call manager fails this request.
@@ -134,7 +122,7 @@ SAP format is medium-dependent and specific to the address family supported by t
 If its call to 
     <b>NdisClRegisterSap</b> succeeds, the client must save the handle returned at 
     <i>NdisSapHandle</i> because it is a required parameter to 
-    <a href="..\ndis\nf-ndis-ndisclderegistersap.md">NdisClDeregisterSap</a>. Callers of 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561628">NdisClDeregisterSap</a>. Callers of 
     <b>NdisClRegisterSap</b> usually pass a pointer to a variable in the client-allocated state area at 
     <i>ProtocolSapContext</i> so that NDIS can set it to the 
     <i>NdisSapHandle</i> if this call succeeds. NDIS passes the given 
@@ -144,12 +132,12 @@ If its call to
 Usually, a client calls 
     <b>NdisClRegisterSap</b> from its 
     <i>ProtocolAfRegisterNotify</i> function following its successful call to 
-    <a href="..\ndis\nf-ndis-ndisclopenaddressfamilyex.md">NdisClOpenAddressFamilyEx</a>.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561639">NdisClOpenAddressFamilyEx</a>.
     Registering one or more SAPs allows the client to receive its incoming call(s) as soon as the call
     manager receives them over the network.
 
 By contrast with client-initiated outgoing calls, a client does not call 
-    <a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a> before it calls 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561696">NdisCoCreateVc</a> before it calls 
     <b>NdisClRegisterSap</b>. For incoming calls, the call manager initiates the creation of the VC, as
     follows:
 
@@ -157,14 +145,14 @@ By contrast with client-initiated outgoing calls, a client does not call
 <li>
 On receipt of an incoming call on a registered SAP, the call manager first calls 
       <b>NdisCoCreateVc</b>, causing NDIS to call the client's 
-      <a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a> function.
+      <a href="https://msdn.microsoft.com/b086dd24-74f5-474a-8684-09bf92ac731b">ProtocolCoCreateVc</a> function.
 
 </li>
 <li>
 When the VC has been set up and activated, the call manager calls 
-      <a href="..\ndis\nf-ndis-ndiscmdispatchincomingcall.md">NdisCmDispatchIncomingCall</a>,
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff561664">NdisCmDispatchIncomingCall</a>,
       causing NDIS to call the client's 
-      <a href="..\ndis\nc-ndis-protocol_cl_incoming_call.md">
+      <a href="https://msdn.microsoft.com/8a5922ac-b22b-444e-9ea0-3bb56e71ef33">
       ProtocolClIncomingCall</a> function.
 
 </li>
@@ -174,36 +162,6 @@ When the VC has been set up and activated, the call manager calls
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndiscmdispatchincomingcall.md">NdisCmDispatchIncomingCall</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_cl_incoming_call.md">ProtocolClIncomingCall</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_cm_reg_sap.md">ProtocolCmRegisterSap</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_co_af_register_notify.md">ProtocolCoAfRegisterNotify</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_cl_register_sap_complete.md">
-   ProtocolClRegisterSapComplete</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a>
 
 
 
@@ -211,13 +169,41 @@ When the VC has been set up and activated, the call manager calls
 
 
 
-<a href="..\ndis\nf-ndis-ndisclderegistersap.md">NdisClDeregisterSap</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561628">NdisClDeregisterSap</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561635">NdisClMakeCall</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561664">NdisCmDispatchIncomingCall</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561696">NdisCoCreateVc</a>
+
+
+
+<a href="https://msdn.microsoft.com/8a5922ac-b22b-444e-9ea0-3bb56e71ef33">ProtocolClIncomingCall</a>
+
+
+
+<a href="https://msdn.microsoft.com/b0a2a224-3353-4f20-b14f-ed5d633a6ead">
+   ProtocolClRegisterSapComplete</a>
+
+
+
+<a href="https://msdn.microsoft.com/3e3e7a0e-a8d2-40b2-895b-187d24867080">ProtocolCmRegisterSap</a>
+
+
+
+<a href="https://msdn.microsoft.com/272d99da-ef08-4ebd-90e7-74e99410b3f5">ProtocolCoAfRegisterNotify</a>
+
+
+
+<a href="https://msdn.microsoft.com/b086dd24-74f5-474a-8684-09bf92ac731b">ProtocolCoCreateVc</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisClRegisterSap function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

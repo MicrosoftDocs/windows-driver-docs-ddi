@@ -7,7 +7,7 @@ old-location: wdf\wdf_dpc_config_init.htm
 old-project: wdf
 ms.assetid: 12b34b79-0154-4b25-83e7-b15642154b05
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/26/2018
 ms.keywords: DFDpcObjectRef_ba15c593-3f2a-4e7f-9a58-a550ca47ccc1.xml, WDF_DPC_CONFIG_INIT, WDF_DPC_CONFIG_INIT function, kmdf.wdf_dpc_config_init, wdf.wdf_dpc_config_init, wdfdpc/WDF_DPC_CONFIG_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: Any level
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	wdfdpc.h
 api_name:
 -	WDF_DPC_CONFIG_INIT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_DMA_SYSTEM_PROFILE_CONFIG, *PWDF_DMA_SYSTEM_PROFILE_CONFIG
 req.product: Windows 10 or later.
@@ -52,18 +53,7 @@ req.product: Windows 10 or later.
 
 <p class="CCE_Message">[Applies to KMDF only]
 
-The <b>WDF_DPC_CONFIG_INIT</b> function initializes a driver's <a href="..\wdfdpc\ns-wdfdpc-_wdf_dpc_config.md">WDF_DPC_CONFIG</a> structure.
-
-
-## -syntax
-
-
-````
-VOID WDF_DPC_CONFIG_INIT(
-  _Out_ PWDF_DPC_CONFIG Config,
-  _In_  PFN_WDF_DPC     EvtDpcFunc
-);
-````
+The <b>WDF_DPC_CONFIG_INIT</b> function initializes a driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff551296">WDF_DPC_CONFIG</a> structure.
 
 
 ## -parameters
@@ -73,7 +63,7 @@ VOID WDF_DPC_CONFIG_INIT(
 
 ### -param Config [out]
 
-A pointer to a driver-allocated <a href="..\wdfdpc\ns-wdfdpc-_wdf_dpc_config.md">WDF_DPC_CONFIG</a> structure.
+A pointer to a driver-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff551296">WDF_DPC_CONFIG</a> structure.
 
 
 ### -param EvtDpcFunc [in]
@@ -99,7 +89,7 @@ The <b>WDF_DPC_CONFIG_INIT</b> function stores the specified <a href="https://ms
 
 #### Examples
 
-For a code example that uses the <b>WDF_DPC_CONFIG_INIT</b> function, see <a href="..\wdfdpc\nf-wdfdpc-wdfdpccreate.md">WdfDpcCreate</a>.
+For a code example that uses the <b>WDF_DPC_CONFIG_INIT</b> function, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff547140">WdfDpcCreate</a>.
 
 <div class="code"></div>
 
@@ -107,17 +97,15 @@ For a code example that uses the <b>WDF_DPC_CONFIG_INIT</b> function, see <a hre
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/b934a0da-0709-4427-bbf2-8d53f9511cf1">EvtDpcFunc</a>
 
 
 
-<a href="..\wdfdpc\ns-wdfdpc-_wdf_dpc_config.md">WDF_DPC_CONFIG</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551296">WDF_DPC_CONFIG</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_DPC_CONFIG_INIT function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

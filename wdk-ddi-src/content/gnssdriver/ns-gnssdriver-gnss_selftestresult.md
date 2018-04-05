@@ -38,7 +38,8 @@ api_location:
 -	gnssdriver.h
 api_name:
 -	GNSS_SELFTESTRESULT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GNSS_SELFTESTRESULT, *PGNSS_SELFTESTRESULT
 ---
@@ -50,23 +51,6 @@ req.typenames: GNSS_SELFTESTRESULT, *PGNSS_SELFTESTRESULT
 
 
 This structure defines the specific data elements associated with a carrier wave test results returned from the driver.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  ULONG    Size;
-  ULONG    Version;
-  NTSTATUS TestResultStatus;
-  ULONG    Result;
-  ULONG    PinFailedBitMask;
-  BYTE     Unused[512];
-  ULONG    OutBufLen;
-  BYTE     OutBuffer[BYTE];
-} GNSS_SELFTESTRESULT, *PGNSS_SELFTESTRESULT;
-````
 
 
 ## -struct-fields

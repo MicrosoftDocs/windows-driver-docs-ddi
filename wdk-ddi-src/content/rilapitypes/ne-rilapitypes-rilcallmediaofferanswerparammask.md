@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILCALLMEDIAOFFERANSWERPARAMMASK
 title: RILCALLMEDIAOFFERANSWERPARAMMASK
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilcallmediaofferanswerparammask_2.htm
+old-location: netvista\rilcallmediaofferanswerparammask.htm
 old-project: netvista
-ms.assetid: 2dd7a85e-b284-42be-89d4-a4a7361d5c6d
+ms.assetid: d11eb8f7-b670-45f3-8f90-6ea4db19bb20
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: RILCALLMEDIAOFFERANSWERPARAMMASK, RILCALLMEDIAOFFERANSWERPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_CMOA_ACTION, RIL_PARAM_CMOA_ALL, RIL_PARAM_CMOA_CHANGE, RIL_PARAM_CMOA_NEW_STATE, RIL_PARAM_CMOA_OLD_STATE, netvista.rilcallmediaofferanswerparammask_2, rilapitypes/RILCALLMEDIAOFFERANSWERPARAMMASK, rilapitypes/RIL_PARAM_CMOA_ACTION, rilapitypes/RIL_PARAM_CMOA_ALL, rilapitypes/RIL_PARAM_CMOA_CHANGE, rilapitypes/RIL_PARAM_CMOA_NEW_STATE, rilapitypes/RIL_PARAM_CMOA_OLD_STATE
+ms.date: 3/26/2018
+ms.keywords: RILCALLMEDIAOFFERANSWERPARAMMASK, RILCALLMEDIAOFFERANSWERPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_CMOA_ACTION, RIL_PARAM_CMOA_ALL, RIL_PARAM_CMOA_CHANGE, RIL_PARAM_CMOA_NEW_STATE, RIL_PARAM_CMOA_OLD_STATE, netvista.rilcallmediaofferanswerparammask, ntddrilapitypes/RILCALLMEDIAOFFERANSWERPARAMMASK, ntddrilapitypes/RIL_PARAM_CMOA_ACTION, ntddrilapitypes/RIL_PARAM_CMOA_ALL, ntddrilapitypes/RIL_PARAM_CMOA_CHANGE, ntddrilapitypes/RIL_PARAM_CMOA_NEW_STATE, ntddrilapitypes/RIL_PARAM_CMOA_OLD_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -35,10 +35,11 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILCALLMEDIAOFFERANSWERPARAMMASK
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILCALLMEDIAOFFERANSWERPARAMMASK
 req.product: Windows 10 or later.
@@ -50,21 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-
-## -syntax
-
-
-````
-typedef enum _RILCALLMEDIAOFFERANSWERPARAMMASK { 
-  RIL_PARAM_CMOA_CHANGE,
-  RIL_PARAM_CMOA_ACTION,
-  RIL_PARAM_CMOA_OLD_STATE,
-  RIL_PARAM_CMOA_NEW_STATE,
-  RIL_PARAM_CMOA_ALL
-} RILCALLMEDIAOFFERANSWERPARAMMASK;
-````
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -enum-fields

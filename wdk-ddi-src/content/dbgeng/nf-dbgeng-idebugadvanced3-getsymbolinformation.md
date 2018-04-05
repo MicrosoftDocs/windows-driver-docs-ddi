@@ -7,7 +7,7 @@ old-location: debugger\getsymbolinformation.htm
 old-project: debugger
 ms.assetid: 1866c6ad-57a2-4f3d-a2c8-f5748ecf42bc
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/26/2018
 ms.keywords: GetSymbolInformation method [Windows Debugging], GetSymbolInformation method [Windows Debugging], IDebugAdvanced2 interface, GetSymbolInformation method [Windows Debugging], IDebugAdvanced3 interface, GetSymbolInformation,IDebugAdvanced3.GetSymbolInformation, IDebugAdvanced2 interface [Windows Debugging], GetSymbolInformation method, IDebugAdvanced2::GetSymbolInformation, IDebugAdvanced3, IDebugAdvanced3 interface [Windows Debugging], GetSymbolInformation method, IDebugAdvanced3::GetSymbolInformation, IDebugAdvanced_353e07f5-e506-4d5f-8c64-d3f500ff283f.xml, dbgeng/IDebugAdvanced2::GetSymbolInformation, dbgeng/IDebugAdvanced3::GetSymbolInformation, debugger.getsymbolinformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	IDebugAdvanced2.GetSymbolInformation
 -	IDebugAdvanced3.GetSymbolInformation
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -51,24 +52,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetSymbolInformation</b> method returns specified information about a symbol.
-
-
-## -syntax
-
-
-````
-HRESULT GetSymbolInformation(
-  [in]            ULONG   Which,
-  [in]            ULONG64 Arg64,
-  [in]            ULONG   Arg32,
-  [out, optional] PVOID   Buffer,
-  [in]            ULONG   BufferSize,
-  [out, optional] PULONG  InfoSize,
-  [out, optional] PSTR    StringBuffer,
-  [in]            ULONG   StringBufferSize,
-  [out, optional] PULONG  StringSize
-);
-````
 
 
 ## -parameters

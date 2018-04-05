@@ -7,7 +7,7 @@ old-location: print\iprintoemuni_commandcallback.htm
 old-project: print
 ms.assetid: e1708017-a546-4770-8ad1-7052b3d4e264
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: CommandCallback method [Print Devices], CommandCallback method [Print Devices], IPrintOemUni interface, CommandCallback,IPrintOemUni.CommandCallback, IPrintOemUni, IPrintOemUni interface [Print Devices], CommandCallback method, IPrintOemUni::CommandCallback, prcomoem/IPrintOemUni::CommandCallback, print.iprintoemuni_commandcallback, print_unidrv-pscript_rendering_edbed499-5cc1-48dc-92cd-dbe70d8560aa.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: prcomoem.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	prcomoem.h
 api_name:
 -	IPrintOemUni.CommandCallback
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
@@ -53,20 +54,6 @@ req.product: Windows 10 or later.
 The <code>IPrintOemUni::CommandCallback</code> method is used to provide dynamically generated printer commands for Unidrv-supported printers.
 
 
-## -syntax
-
-
-````
-HRESULT CommandCallback(
-        PDEVOBJ pdevobj,
-        DWORD   dwCallbackID,
-        DWORD   dwCount,
-        PDWORD  pdwParams,
-  [out] INT     *piResult
-);
-````
-
-
 ## -parameters
 
 
@@ -74,7 +61,7 @@ HRESULT CommandCallback(
 
 ### -param pdevobj
 
-Caller-supplied pointer to a <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a> structure.
+Caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547573">DEVOBJ</a> structure.
 
 
 ### -param dwCallbackID

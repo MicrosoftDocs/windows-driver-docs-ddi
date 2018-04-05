@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILCARDAPPADDEDPARAMMASK
 title: RILCARDAPPADDEDPARAMMASK
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilcardappaddedparammask_2.htm
+old-location: netvista\rilcardappaddedparammask.htm
 old-project: netvista
-ms.assetid: 47726715-306c-4167-8080-65085d1e7f8f
+ms.assetid: 6097b40d-2f86-4f87-bf57-191371ec943d
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: RILCARDAPPADDEDPARAMMASK, RILCARDAPPADDEDPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_CARDAPPADDED_ALL, RIL_PARAM_CARDAPPADDED_UICCAPPINFO, netvista.rilcardappaddedparammask_2, rilapitypes/RILCARDAPPADDEDPARAMMASK, rilapitypes/RIL_PARAM_CARDAPPADDED_ALL, rilapitypes/RIL_PARAM_CARDAPPADDED_UICCAPPINFO
+ms.date: 3/26/2018
+ms.keywords: RILCARDAPPADDEDPARAMMASK, RILCARDAPPADDEDPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_CARDAPPADDED_ALL, RIL_PARAM_CARDAPPADDED_UICCAPPINFO, netvista.rilcardappaddedparammask, ntddrilapitypes/RILCARDAPPADDEDPARAMMASK, ntddrilapitypes/RIL_PARAM_CARDAPPADDED_ALL, ntddrilapitypes/RIL_PARAM_CARDAPPADDED_UICCAPPINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -35,10 +35,11 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILCARDAPPADDEDPARAMMASK
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILCARDAPPADDEDPARAMMASK
 req.product: Windows 10 or later.
@@ -50,18 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-
-## -syntax
-
-
-````
-typedef enum _RILCARDAPPADDEDPARAMMASK { 
-  RIL_PARAM_CARDAPPADDED_UICCAPPINFO,
-  RIL_PARAM_CARDAPPADDED_ALL
-} RILCARDAPPADDEDPARAMMASK;
-````
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -enum-fields

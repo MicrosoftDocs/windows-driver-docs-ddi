@@ -7,7 +7,7 @@ old-location: storage\mountdev_unique_id.htm
 old-project: storage
 ms.assetid: cc6cbda8-4056-41e7-98f9-927a99e66081
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PMOUNTDEV_UNIQUE_ID, MOUNTDEV_UNIQUE_ID, MOUNTDEV_UNIQUE_ID structure [Storage Devices], PMOUNTDEV_UNIQUE_ID, PMOUNTDEV_UNIQUE_ID structure pointer [Storage Devices], _MOUNTDEV_UNIQUE_ID, mountdev/MOUNTDEV_UNIQUE_ID, mountdev/PMOUNTDEV_UNIQUE_ID, storage.mountdev_unique_id, structs-mntmgr_424fff73-7b72-4068-b25b-00225f69b159.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	mountdev.h
 api_name:
 -	MOUNTDEV_UNIQUE_ID
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MOUNTDEV_UNIQUE_ID, *PMOUNTDEV_UNIQUE_ID
 ---
@@ -49,18 +50,7 @@ req.typenames: MOUNTDEV_UNIQUE_ID, *PMOUNTDEV_UNIQUE_ID
 ## -description
 
 
-The MOUNTDEV_UNIQUE_ID structure contains a unique volume ID that a mount manager client provides to the mount manager in response to an <a href="..\mountdev\ni-mountdev-ioctl_mountdev_query_unique_id.md">IOCTL_MOUNTDEV_QUERY_UNIQUE_ID</a> request. 
-
-
-## -syntax
-
-
-````
-typedef struct _MOUNTDEV_UNIQUE_ID {
-  USHORT UniqueIdLength;
-  UCHAR  UniqueId[1];
-} MOUNTDEV_UNIQUE_ID, *PMOUNTDEV_UNIQUE_ID;
-````
+The MOUNTDEV_UNIQUE_ID structure contains a unique volume ID that a mount manager client provides to the mount manager in response to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff560441">IOCTL_MOUNTDEV_QUERY_UNIQUE_ID</a> request. 
 
 
 ## -struct-fields
@@ -89,13 +79,11 @@ For a discussion of unique volume IDs and how the mount manager uses them, see <
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560443">IOCTL_MOUNTDEV_UNIQUE_ID_CHANGE_NOTIFY</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20MOUNTDEV_UNIQUE_ID structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

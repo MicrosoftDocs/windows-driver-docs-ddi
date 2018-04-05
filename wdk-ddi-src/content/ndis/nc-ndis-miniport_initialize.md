@@ -7,7 +7,7 @@ old-location: netvista\miniportinitializeex.htm
 old-project: netvista
 ms.assetid: b146fa81-005b-4a6c-962d-4cb023ea790e
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: MINIPORT_INITIALIZE, MiniportInitializeEx, MiniportInitializeEx callback function [Network Drivers Starting with Windows Vista], miniport_functions_ref_d98605bf-4032-4cfe-8529-2d0bebc9e29e.xml, ndis/MiniportInitializeEx, netvista.miniportinitializeex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ndis.h
 api_name:
 -	MiniportInitializeEx
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
 ---
@@ -53,21 +54,6 @@ NDIS calls a miniport driver's
    <i>MiniportInitializeEx</i> function to initialize a miniport adapter for network I/O operations.
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>MINIPORT_INITIALIZE</b> type. For more
    information, see the following Examples section.</div><div> </div>
-
-## -prototype
-
-
-````
-MINIPORT_INITIALIZE MiniportInitializeEx;
-
-NDIS_STATUS MiniportInitializeEx(
-  _In_ NDIS_HANDLE                    NdisMiniportHandle,
-  _In_ NDIS_HANDLE                    MiniportDriverContext,
-  _In_ PNDIS_MINIPORT_INIT_PARAMETERS MiniportInitParameters
-)
-{ ... }
-````
-
 
 ## -parameters
 
@@ -84,14 +70,14 @@ An NDIS-supplied handle that identifies the miniport adapter that the miniport d
 
 A handle to a driver-allocated context area where the driver maintains state and configuration
      information. The miniport driver passed this context area to the 
-     <a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">
+     <a href="https://msdn.microsoft.com/bed68aa8-499d-41fd-997b-a46316913cc8">
      NdisMRegisterMiniportDriver</a> function.
 
 
 ### -param MiniportInitParameters [in]
 
 A pointer to an 
-     <a href="..\ndis\ns-ndis-_ndis_miniport_init_parameters.md">
+     <a href="https://msdn.microsoft.com/945d921b-3024-4c4f-a50d-e996c6183db7">
      NDIS_MINIPORT_INIT_PARAMETERS</a> structure that defines the initialization parameters for the
      miniport adapter.
 
@@ -141,7 +127,7 @@ A pointer to an
 <td width="60%">
 <i>MiniportInitializeEx</i> could not allocate resources to perform network I/O operations. 
        <i>MiniportInitializeEx</i> should call the 
-       <a href="..\ndis\nf-ndis-ndiswriteerrorlogentry.md">NdisWriteErrorLogEntry</a> function
+       <a href="https://msdn.microsoft.com/library/windows/hardware/ff564663">NdisWriteErrorLogEntry</a> function
        to identify the resource conflict (for example, I/O port range, interrupt vector, device memory range,
        as appropriate). Supplying an error log record gives the user or system administrator information that
        can be used to reconfigure the computer to avoid such hardware resource conflicts.
@@ -174,9 +160,9 @@ A pointer to an
 NDIS calls 
     <i>MiniportInitializeEx</i> as part of a system PnP operation. Drivers specify the 
     <i>MiniportInitializeEx</i> entry point by calling the 
-    <a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">
+    <a href="https://msdn.microsoft.com/bed68aa8-499d-41fd-997b-a46316913cc8">
     NdisMRegisterMiniportDriver</a> function from the 
-    <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine. NDIS can call 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine. NDIS can call 
     <i>MiniportInitializeEx</i> after 
     <b>DriverEntry</b> returns. For more information, see 
     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff548818">DriverEntry of NDIS
@@ -184,14 +170,14 @@ NDIS calls
 
 For NDIS intermediate drivers, NDIS can call 
     <i>MiniportInitializeEx</i> in the context of the 
-    <a href="..\ndis\nf-ndis-ndisiminitializedeviceinstanceex.md">
+    <a href="https://msdn.microsoft.com/f65c2974-4bf4-4948-ac07-527e69c96303">
     NdisIMInitializeDeviceInstanceEx</a> function or after it returns. Such a driver's 
-    <a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a> function
+    <a href="https://msdn.microsoft.com/1958722e-012e-4110-a82c-751744bcf9b5">ProtocolBindAdapterEx</a> function
     usually calls 
     <b>NdisIMInitializeDeviceInstanceEx</b>.
 
 Drivers can register as a combined miniport driver and intermediate driver (see 
-    <a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>).
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff563654">NdisMRegisterMiniportDriver</a>).
     Such a miniport-intermediate driver functions similarly to an intermediate driver layered over a physical
     miniport driver. For each virtual or physical device instance of a miniport-intermediate driver, if the 
     <b>IMMiniport</b> registry key is set to 
@@ -206,16 +192,16 @@ Until
     <i>initializing</i> state.
 
 To obtain configuration information for the miniport adapter, a driver calls the 
-    <a href="..\ndis\nf-ndis-ndisopenconfigurationex.md">NdisOpenConfigurationEx</a> and 
-    <a href="..\ndis\nf-ndis-ndisreadconfiguration.md">NdisReadConfiguration</a> functions. The
+    <a href="https://msdn.microsoft.com/library/windows/hardware/hh975122">NdisOpenConfigurationEx</a> and 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff564511">NdisReadConfiguration</a> functions. The
     driver can call the 
-    <a href="..\ndis\nf-ndis-ndismgetbusdata.md">NdisMGetBusData</a> function to obtain
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff563591">NdisMGetBusData</a> function to obtain
     bus-specific information.
 
 Miniport drivers must call the 
-    <a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">
+    <a href="https://msdn.microsoft.com/861626af-23ea-40dc-a91a-7da42d4b0a1c">
     NdisMSetMiniportAttributes</a> function and provide an 
-    <a href="..\ndis\ns-ndis-_ndis_miniport_adapter_registration_attributes.md">
+    <a href="https://msdn.microsoft.com/8f0d539a-50c5-4ecd-b62d-6b32fe7cfaba">
     NDIS_MINIPORT_ADAPTER_REGISTRATION_ATTRIBUTES</a> structure which contains the following
     attributes:
 
@@ -230,7 +216,7 @@ Appropriate attributes flags.
 </li>
 <li>
 The time-out interval for calling its 
-      <a href="..\ndis\nc-ndis-miniport_check_for_hang.md">
+      <a href="https://msdn.microsoft.com/ead0af85-0584-49de-82cc-8a059ebfdf4f">
       MiniportCheckForHangEx</a> function.
 
 </li>
@@ -247,7 +233,7 @@ The miniport driver passes
     <i>MiniportXxx</i> functions.
 
 Miniport drivers must set the attributes in the 
-    <a href="..\ndis\ns-ndis-_ndis_miniport_adapter_general_attributes.md">
+    <a href="https://msdn.microsoft.com/5423d073-02a5-468b-b91e-713ac67a5253">
     NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES</a> structure after they set the registration attributes in
     the NDIS_MINIPORT_ADAPTER_REGISTRATION_ATTRIBUTES structure and before they set any additional
     attributes.
@@ -261,8 +247,8 @@ Non-paged pool memory
 </li>
 <li>
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> and 
-      <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure pools
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> and 
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure pools
 
 </li>
 <li>
@@ -291,100 +277,100 @@ Interrupts
 </li>
 </ul>
 If the driver indicates receives with the 
-    <a href="..\ndis\nf-ndis-ndismindicatereceivenetbufferlists.md">
+    <a href="https://msdn.microsoft.com/b87dba3e-c18f-4ea2-8bd5-ec3cdafc534b">
     NdisMIndicateReceiveNetBufferLists</a> function, the 
     <i>MiniportInitializeEx</i> function should call the 
-    <a href="..\ndis\nf-ndis-ndisallocatenetbufferlistpool.md">
+    <a href="https://msdn.microsoft.com/b117b472-0c26-41a9-b364-3d0cfbd26cc9">
     NdisAllocateNetBufferListPool</a> and 
-    <a href="..\ndis\nf-ndis-ndisallocatenetbufferpool.md">
+    <a href="https://msdn.microsoft.com/bc27758a-a793-48a1-a6ab-bd193aa9c61a">
     NdisAllocateNetBufferPool</a> functions and save the handles returned by these NDIS functions.
     Typically, the network data that the driver subsequently indicates with 
     <b>NdisMIndicateReceiveNetBufferLists</b> references structures that were allocated with the 
-    <a href="..\ndis\nf-ndis-ndisallocatenetbufferandnetbufferlist.md">
+    <a href="https://msdn.microsoft.com/b872eff3-2d0a-4f01-874d-e00e09195801">
     NdisAllocateNetBufferAndNetBufferList</a> function. A driver can also use structures that were
     allocated with the 
-    <a href="..\ndis\nf-ndis-ndisallocatenetbuffer.md">NdisAllocateNetBuffer</a>, and 
-    <a href="..\ndis\nf-ndis-ndisallocatenetbufferlist.md">
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561607">NdisAllocateNetBuffer</a>, and 
+    <a href="https://msdn.microsoft.com/9c821aac-9abd-4041-a15e-64306ada1c02">
     NdisAllocateNetBufferList</a> functions.
 
 If driver functions, other than the 
-    <a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInterrupt</a> function, share
+    <a href="https://msdn.microsoft.com/810503b9-75cd-4b38-ab1f-de240968ded6">MiniportInterrupt</a> function, share
     resources, 
     <i>MiniportInitializeEx</i> should call the 
-    <a href="..\ndis\nf-ndis-ndisallocatespinlock.md">NdisAllocateSpinLock</a> function to set
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561617">NdisAllocateSpinLock</a> function to set
     up any spin locks necessary to synchronize access to such shared resources. Resources that other driver
     functions share with 
     <i>MiniportInterrupt</i>, such as NIC registers, are protected by the interrupt object that the driver
     set up with the 
-    <a href="..\ndis\nf-ndis-ndismregisterinterruptex.md">
+    <a href="https://msdn.microsoft.com/db0b3d51-5bbb-45fb-8c45-dda8c2212b5f">
     NdisMRegisterInterruptEx</a> function. Driver functions access these resources by calling the 
-    <a href="..\ndis\nf-ndis-ndismsynchronizewithinterruptex.md">
+    <a href="https://msdn.microsoft.com/5dca9258-a3ae-43f4-a5aa-d591165d72ed">
     NdisMSynchronizeWithInterruptEx</a> function.
 
 <i>MiniportInitializeEx</i> can call the 
-    <a href="..\ndis\nf-ndis-ndisallocatetimerobject.md">NdisAllocateTimerObject</a> function
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561618">NdisAllocateTimerObject</a> function
     with a driver-supplied 
-    <a href="..\ndis\nc-ndis-ndis_timer_function.md">NetTimerCallback</a> function and a pointer
+    <a href="https://msdn.microsoft.com/76e59376-58a4-4e35-bac4-ec5938c88cd7">NetTimerCallback</a> function and a pointer
     to driver-allocated memory for a timer object. Drivers can set up multiple 
     <i>NetTimerCallback</i> functions, each with its own timer object. A driver can call the 
-    <a href="..\ndis\nf-ndis-ndissettimerobject.md">NdisSetTimerObject</a> function to enable a
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff564563">NdisSetTimerObject</a> function to enable a
     periodic 
     <i>NetTimerCallback</i> function. A driver can also call the 
     <b>NdisSetTimerObject</b> function to enable a one-time 
     <i>NetTimerCallback</i> function.
 
 <i>MiniportInitializeEx</i> must call the 
-    <a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">
+    <a href="https://msdn.microsoft.com/861626af-23ea-40dc-a91a-7da42d4b0a1c">
     NdisMSetMiniportAttributes</a> function before it calls any 
     <b>NdisM<i>Xxx</i></b> function, such as the 
-    <a href="..\ndis\nf-ndis-ndismregisterioportrange.md">NdisMRegisterIoPortRange</a> or 
-    <a href="..\ndis\nf-ndis-ndismmapiospace.md">NdisMMapIoSpace</a> functions, that claims
+    <a href="https://msdn.microsoft.com/library/windows/hardware/hh975121">NdisMRegisterIoPortRange</a> or 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/hh975119">NdisMMapIoSpace</a> functions, that claims
     hardware resources for the miniport adapter. 
     <i>MiniportInitializeEx</i> must call 
     <b>NdisMSetMiniportAttributes</b> before it tries to allocate resources for DMA operations.
 
 If the device supports bus-master DMA, 
     <i>MiniportInitializeEx</i> must call the 
-    <a href="..\ndis\nf-ndis-ndismregisterscattergatherdma.md">
+    <a href="https://msdn.microsoft.com/90ce64a2-9140-4b5f-88aa-b4f01a3d0c6f">
     NdisMRegisterScatterGatherDma</a> function after it calls 
     <b>NdisMSetMiniportAttributes</b> and before it calls the 
-    <a href="..\ndis\nf-ndis-ndismallocatesharedmemory.md">
+    <a href="https://msdn.microsoft.com/8eda6100-598f-405d-a9b3-74424c829a58">
     NdisMAllocateSharedMemory</a> function. If the device supports subordinate DMA, 
     <i>MiniportInitializeEx</i> must call 
     <b>NdisMSetMiniportAttributes</b> before it calls the 
-    <a href="..\ndis\nf-ndis-ndismregisterdmachannel.md">
+    <a href="https://msdn.microsoft.com/32e92f77-8f45-408b-a284-c00d3b5bd1b4">
     NdisMRegisterDmaChannel</a> function.
 
 After 
     <i>MiniportInitializeEx</i> calls the 
-    <a href="..\ndis\nf-ndis-ndismregisterinterruptex.md">
+    <a href="https://msdn.microsoft.com/db0b3d51-5bbb-45fb-8c45-dda8c2212b5f">
     NdisMRegisterInterruptEx</a> function, NDIS can call the driver's 
-    <a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInterrupt</a> function. NDIS
+    <a href="https://msdn.microsoft.com/810503b9-75cd-4b38-ab1f-de240968ded6">MiniportInterrupt</a> function. NDIS
     calls 
     <i>MiniportInterrupt</i> if the NIC generates an interrupt or if any other device with which the NIC
     shares an interrupt generates an interrupt. Note that a miniport driver can get an interrupt as soon as
     it calls 
     <b>NdisMRegisterInterruptEx</b> and keeps getting interrupts until its call to the 
-    <a href="..\ndis\nf-ndis-ndismderegisterinterruptex.md">
+    <a href="https://msdn.microsoft.com/bc0718b6-4c71-41a8-bab6-a52991b284d9">
     NdisMDeregisterInterruptEx</a> function returns.
 
 <i>MiniportInitializeEx</i> should test the NIC to make sure that the hardware is configured correctly. If
     the driver must wait for state changes to occur in the hardware, 
     <i>MiniportInitializeEx</i> can use the 
-    <a href="..\ndis\nf-ndis-ndiswaitevent.md">NdisWaitEvent</a> function or the 
-    <a href="..\ndis\nf-ndis-ndismsleep.md">NdisMSleep</a> function.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff564651">NdisWaitEvent</a> function or the 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff563677">NdisMSleep</a> function.
 
 After 
     <i>MiniportInitializeEx</i> returns successfully, the miniport adapter is in the 
     <i>Paused</i> state. NDIS can call the 
-    <a href="..\ndis\nc-ndis-miniport_restart.md">MiniportRestart</a> function to transition the
+    <a href="https://msdn.microsoft.com/31a18040-2c66-4074-9ace-dd604b4bfe22">MiniportRestart</a> function to transition the
     miniport adapter to the 
     <i>Running</i> state.
 
 If 
     <i>MiniportInitializeEx</i> returns NDIS_STATUS_SUCCESS, the driver should release all the resources for
     the miniport adapter in the 
-    <a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a> function.
+    <a href="https://msdn.microsoft.com/b8d452b4-bef3-4991-87cf-fac15bedfde4">MiniportHaltEx</a> function.
 
 If 
     <i>MiniportInitializeEx</i> failed, 
@@ -438,164 +424,162 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_registration_attributes.md">
-   NDIS_MINIPORT_ADAPTER_REGISTRATION_ATTRIBUTES</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismindicatereceivenetbufferlists.md">
-   NdisMIndicateReceiveNetBufferLists</a>
+<a href="https://msdn.microsoft.com/ead0af85-0584-49de-82cc-8a059ebfdf4f">MiniportCheckForHangEx</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismsleep.md">NdisMSleep</a>
+<a href="https://msdn.microsoft.com/b8d452b4-bef3-4991-87cf-fac15bedfde4">MiniportHaltEx</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
+<a href="https://msdn.microsoft.com/810503b9-75cd-4b38-ab1f-de240968ded6">MiniportInterrupt</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisallocatenetbufferlist.md">NdisAllocateNetBufferList</a>
+<a href="https://msdn.microsoft.com/31a18040-2c66-4074-9ace-dd604b4bfe22">MiniportRestart</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_check_for_hang.md">MiniportCheckForHangEx</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismregisterioportrange.md">NdisMRegisterIoPortRange</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismmapiospace.md">NdisMMapIoSpace</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiswaitevent.md">NdisWaitEvent</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismgetbusdata.md">NdisMGetBusData</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismderegisterinterruptex.md">NdisMDeregisterInterruptEx</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisallocatenetbufferlistpool.md">
-   NdisAllocateNetBufferListPool</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_general_attributes.md">
+<a href="https://msdn.microsoft.com/5423d073-02a5-468b-b91e-713ac67a5253">
    NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInterrupt</a>
+<a href="https://msdn.microsoft.com/8f0d539a-50c5-4ecd-b62d-6b32fe7cfaba">
+   NDIS_MINIPORT_ADAPTER_REGISTRATION_ATTRIBUTES</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisopenconfigurationex.md">NdisOpenConfigurationEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565972">NDIS_MINIPORT_INIT_PARAMETERS</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismregisterdmachannel.md">NdisMRegisterDmaChannel</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a>
 
 
 
-<a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisallocatenetbufferpool.md">NdisAllocateNetBufferPool</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561607">NdisAllocateNetBuffer</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismsynchronizewithinterruptex.md">
-   NdisMSynchronizeWithInterruptEx</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_restart.md">MiniportRestart</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_miniport_init_parameters.md">NDIS_MINIPORT_INIT_PARAMETERS</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisallocatetimerobject.md">NdisAllocateTimerObject</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisallocatenetbuffer.md">NdisAllocateNetBuffer</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiswriteerrorlogentry.md">NdisWriteErrorLogEntry</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndissettimerobject.md">NdisSetTimerObject</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismregisterinterruptex.md">NdisMRegisterInterruptEx</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisallocatespinlock.md">NdisAllocateSpinLock</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisreadconfiguration.md">NdisReadConfiguration</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismregisterscattergatherdma.md">
-   NdisMRegisterScatterGatherDma</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismallocatesharedmemory.md">NdisMAllocateSharedMemory</a>
-
-
-
-<a href="..\ndis\nc-ndis-ndis_timer_function.md">NetTimerCallback</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisallocatenetbufferandnetbufferlist.md">
+<a href="https://msdn.microsoft.com/b872eff3-2d0a-4f01-874d-e00e09195801">
    NdisAllocateNetBufferAndNetBufferList</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561609">NdisAllocateNetBufferList</a>
+
+
+
+<a href="https://msdn.microsoft.com/b117b472-0c26-41a9-b364-3d0cfbd26cc9">
+   NdisAllocateNetBufferListPool</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561613">NdisAllocateNetBufferPool</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561617">NdisAllocateSpinLock</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561618">NdisAllocateTimerObject</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562782">NdisMAllocateSharedMemory</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563575">NdisMDeregisterInterruptEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563591">NdisMGetBusData</a>
+
+
+
+<a href="https://msdn.microsoft.com/b87dba3e-c18f-4ea2-8bd5-ec3cdafc534b">
+   NdisMIndicateReceiveNetBufferLists</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh975119">NdisMMapIoSpace</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563646">NdisMRegisterDmaChannel</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563649">NdisMRegisterInterruptEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh975121">NdisMRegisterIoPortRange</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563654">NdisMRegisterMiniportDriver</a>
+
+
+
+<a href="https://msdn.microsoft.com/90ce64a2-9140-4b5f-88aa-b4f01a3d0c6f">
+   NdisMRegisterScatterGatherDma</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563672">NdisMSetMiniportAttributes</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563677">NdisMSleep</a>
+
+
+
+<a href="https://msdn.microsoft.com/5dca9258-a3ae-43f4-a5aa-d591165d72ed">
+   NdisMSynchronizeWithInterruptEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh975122">NdisOpenConfigurationEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564511">NdisReadConfiguration</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564563">NdisSetTimerObject</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564651">NdisWaitEvent</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564663">NdisWriteErrorLogEntry</a>
+
+
+
+<a href="https://msdn.microsoft.com/76e59376-58a4-4e35-bac4-ec5938c88cd7">NetTimerCallback</a>
+
+
+
+<a href="https://msdn.microsoft.com/1958722e-012e-4110-a82c-751744bcf9b5">ProtocolBindAdapterEx</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20MINIPORT_INITIALIZE callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

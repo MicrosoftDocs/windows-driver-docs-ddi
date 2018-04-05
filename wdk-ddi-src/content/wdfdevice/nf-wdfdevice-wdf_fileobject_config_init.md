@@ -7,7 +7,7 @@ old-location: wdf\wdf_fileobject_config_init.htm
 old-project: wdf
 ms.assetid: 87ad817a-4a62-4061-949c-fe45bdfb44d5
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_ad75f4c0-79f7-42d6-8798-947cdcbfd8f1.xml, WDF_FILEOBJECT_CONFIG_INIT, WDF_FILEOBJECT_CONFIG_INIT function, kmdf.wdf_fileobject_config_init, wdf.wdf_fileobject_config_init, wdfdevice/WDF_FILEOBJECT_CONFIG_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: Any level
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	wdfdevice.h
 api_name:
 -	WDF_FILEOBJECT_CONFIG_INIT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_STATE_NOTIFICATION_TYPE
 req.product: Windows 10 or later.
@@ -52,20 +53,7 @@ req.product: Windows 10 or later.
 
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
-The <b>WDF_FILEOBJECT_CONFIG_INIT</b> function initializes a driver's <a href="..\wdfdevice\ns-wdfdevice-_wdf_fileobject_config.md">WDF_FILEOBJECT_CONFIG</a> structure.
-
-
-## -syntax
-
-
-````
-VOID WDF_FILEOBJECT_CONFIG_INIT(
-  _Out_    PWDF_FILEOBJECT_CONFIG     FileEventCallbacks,
-  _In_opt_ PFN_WDF_DEVICE_FILE_CREATE EvtDeviceFileCreate,
-  _In_opt_ PFN_WDF_FILE_CLOSE         EvtFileClose,
-  _In_opt_ PFN_WDF_FILE_CLEANUP       EvtFileCleanup
-);
-````
+The <b>WDF_FILEOBJECT_CONFIG_INIT</b> function initializes a driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff551319">WDF_FILEOBJECT_CONFIG</a> structure.
 
 
 ## -parameters
@@ -75,22 +63,22 @@ VOID WDF_FILEOBJECT_CONFIG_INIT(
 
 ### -param FileEventCallbacks [out]
 
-A pointer to a driver-allocated <a href="..\wdfdevice\ns-wdfdevice-_wdf_fileobject_config.md">WDF_FILEOBJECT_CONFIG</a> structure.
+A pointer to a driver-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff551319">WDF_FILEOBJECT_CONFIG</a> structure.
 
 
 ### -param EvtDeviceFileCreate [in, optional]
 
-A pointer to the driver's <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_file_create.md">EvtDeviceFileCreate</a> event callback function.
+A pointer to the driver's <a href="https://msdn.microsoft.com/ee44c0bf-1fca-442d-8871-df6079e89ced">EvtDeviceFileCreate</a> event callback function.
 
 
 ### -param EvtFileClose [in, optional]
 
-A pointer to the driver's <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_file_close.md">EvtFileClose</a> event callback function.
+A pointer to the driver's <a href="https://msdn.microsoft.com/8ddcb9cb-d184-4ec8-a321-599394a8512e">EvtFileClose</a> event callback function.
 
 
 ### -param EvtFileCleanup [in, optional]
 
-A pointer to the driver's <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_file_cleanup.md">EvtFileCleanup</a> event callback function.
+A pointer to the driver's <a href="https://msdn.microsoft.com/8ce3d316-3976-4af5-a0ae-af4e93f380a1">EvtFileCleanup</a> event callback function.
 
 
 ## -returns
@@ -106,12 +94,12 @@ None
 
 
 
-The <b>WDF_FILEOBJECT_CONFIG_INIT</b> function sets the specified <a href="..\wdfdevice\ns-wdfdevice-_wdf_fileobject_config.md">WDF_FILEOBJECT_CONFIG</a> structure's <b>Size</b> member, stores the specified callback function pointers, sets the <b>FileObjectClass</b> member to <b>WdfFileObjectWdfCannotUseFsContexts</b>, and sets the <b>AutoForwardCleanupClose</b> member to <b>WdfUseDefault</b>. 
+The <b>WDF_FILEOBJECT_CONFIG_INIT</b> function sets the specified <a href="https://msdn.microsoft.com/library/windows/hardware/ff551319">WDF_FILEOBJECT_CONFIG</a> structure's <b>Size</b> member, stores the specified callback function pointers, sets the <b>FileObjectClass</b> member to <b>WdfFileObjectWdfCannotUseFsContexts</b>, and sets the <b>AutoForwardCleanupClose</b> member to <b>WdfUseDefault</b>. 
 
 
 #### Examples
 
-For a code example that uses <b>WDF_FILEOBJECT_CONFIG_INIT</b>, see <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetfileobjectconfig.md">WdfDeviceInitSetFileObjectConfig</a>.
+For a code example that uses <b>WDF_FILEOBJECT_CONFIG_INIT</b>, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff546107">WdfDeviceInitSetFileObjectConfig</a>.
 
 <div class="code"></div>
 

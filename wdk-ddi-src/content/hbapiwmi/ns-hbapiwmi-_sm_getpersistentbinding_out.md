@@ -7,7 +7,7 @@ old-location: storage\sm_getpersistentbinding_out.htm
 old-project: storage
 ms.assetid: aa80e05c-e322-4350-80e7-28d53821c510
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSM_GetPersistentBinding_OUT, PSM_GetPersistentBinding_OUT, PSM_GetPersistentBinding_OUT structure pointer [Storage Devices], SM_GetPersistentBinding_OUT, SM_GetPersistentBinding_OUT structure [Storage Devices], _SM_GetPersistentBinding_OUT, hbapiwmi/PSM_GetPersistentBinding_OUT, hbapiwmi/SM_GetPersistentBinding_OUT, storage.sm_getpersistentbinding_out, structs-Fibre_51ba485a-c18a-4d45-a77a-859d55acc4c6.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	hbapiwmi.h
 api_name:
 -	SM_GetPersistentBinding_OUT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SM_GetPersistentBinding_OUT, *PSM_GetPersistentBinding_OUT
 ---
@@ -50,19 +51,6 @@ req.typenames: SM_GetPersistentBinding_OUT, *PSM_GetPersistentBinding_OUT
 
 
 The SM_GetPersistentBinding_OUT structure is used to receive output parameters from the SM_GetPersistentBinding method.
-
-
-## -syntax
-
-
-````
-typedef struct _SM_GetPersistentBinding_OUT {
-  ULONG                 HBAStatus;
-  ULONG                 TotalEntryCount;
-  ULONG                 OutEntryCount;
-  MS_SMHBA_BINDINGENTRY Entry[1];
-} SM_GetPersistentBinding_OUT, *PSM_GetPersistentBinding_OUT;
-````
 
 
 ## -struct-fields

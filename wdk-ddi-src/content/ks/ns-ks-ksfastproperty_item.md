@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSFASTPROPERTY_ITEM
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSFASTPROPERTY_ITEM, *PKSFASTPROPERTY_ITEM
 ---
@@ -50,25 +51,6 @@ req.typenames: KSFASTPROPERTY_ITEM, *PKSFASTPROPERTY_ITEM
 
 
 The KSFASTPROPERTY_ITEM structure is used with items for fast I/O dispatching.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  ULONG PropertyId;
-  union {
-    PFNKSFASTHANDLER GetPropertyHandler;
-    BOOLEAN          GetSupported;
-  };
-  union {
-    PFNKSFASTHANDLER SetPropertyHandler;
-    BOOLEAN          SetSupported;
-  };
-  ULONG Reserved;
-} KSFASTPROPERTY_ITEM, *PKSFASTPROPERTY_ITEM;
-````
 
 
 ## -struct-fields
@@ -108,13 +90,11 @@ A boolean value that indicates if the driver has supplied a set property handler
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567173">KStrFastHandler</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSFASTPROPERTY_ITEM structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

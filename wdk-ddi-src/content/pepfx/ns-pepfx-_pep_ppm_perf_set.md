@@ -7,7 +7,7 @@ old-location: kernel\pep_ppm_perf_set.htm
 old-project: kernel
 ms.assetid: BA2495F6-09E8-4AF9-9489-E745B759F999
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/28/2018
 ms.keywords: "*PPEP_PPM_PERF_SET, PEP_PPM_PERF_SET, PEP_PPM_PERF_SET structure [Kernel-Mode Driver Architecture], PPEP_PPM_PERF_SET, PPEP_PPM_PERF_SET structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_PERF_SET, kernel.pep_ppm_perf_set, pepfx/PEP_PPM_PERF_SET, pepfx/PPEP_PPM_PERF_SET"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	pepfx.h
 api_name:
 -	PEP_PPM_PERF_SET
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PEP_PPM_PERF_SET, *PPEP_PPM_PERF_SET
 ---
@@ -50,20 +51,6 @@ req.typenames: PEP_PPM_PERF_SET, *PPEP_PPM_PERF_SET
 
 
 The <b>PEP_PPM_PERF_SET</b> structure specifies the new performance level that the operating system is requesting for the processor.
-
-
-## -syntax
-
-
-````
-typedef struct _PEP_PPM_PERF_SET {
-  ULONG MinimumPerformance;
-  ULONG MaximumPerformance;
-  ULONG DesiredPerformance;
-  ULONG TimeWindow;
-  ULONG PerformanceTolerance;
-} PEP_PPM_PERF_SET, *PPEP_PPM_PERF_SET;
-````
 
 
 ## -struct-fields
@@ -109,7 +96,6 @@ Processor performance levels are specified in platform-specific units. For examp
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt629132">Platform Performance Thresholds</a>
 
 
 
@@ -117,9 +103,8 @@ Processor performance levels are specified in platform-specific units. For examp
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt629132">Platform Performance Thresholds</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PEP_PPM_PERF_SET structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

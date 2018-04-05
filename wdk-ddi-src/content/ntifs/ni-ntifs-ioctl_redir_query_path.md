@@ -7,7 +7,7 @@ old-location: ifsk\ioctl_redir_query_path.htm
 old-project: ifsk
 ms.assetid: 876453a7-922e-4ab7-a609-64d31e60ce88
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_REDIR_QUERY_PATH, IOCTL_REDIR_QUERY_PATH control code [Installable File System Drivers], ifsk.ioctl_redir_query_path, ioctl_ref_f46fa4a1-0546-4d70-8490-7a233a2e743f.xml, ntifs/IOCTL_REDIR_QUERY_PATH
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,18 +38,14 @@ api_location:
 -	ntifs.h
 api_name:
 -	IOCTL_REDIR_QUERY_PATH
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
 
 # IOCTL_REDIR_QUERY_PATH IOCTL
 
-
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -72,7 +68,7 @@ On Windows Server 2003, Windows XP, and Windows 2000, remote file operations tha
 
 For network redirectors that conform to the Windows Vista redirector model, MUP is involved even when a mapped network drive is used. File operations performed on the mapped drive go through MUP to the network redirector. Note that in this case, MUP simply passes the operation to the network redirector that is involved.
 
-The IOCTL_REDIR_QUERY_PATH control code is sent to network redirectors that have registered with MUP as Universal Naming Convention (UNC) providers by calling <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlregisteruncprovider~r2.md">FsRtlRegisterUncProvider</a>. There can be multiple UNC providers registered with MUP. 
+The IOCTL_REDIR_QUERY_PATH control code is sent to network redirectors that have registered with MUP as Universal Naming Convention (UNC) providers by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff547178">FsRtlRegisterUncProvider</a>. There can be multiple UNC providers registered with MUP. 
 
 The prefix resolution operation serves two purposes:
 <ul>
@@ -287,21 +283,19 @@ For more information, see the following sections in the Design Guide:
 
 ## -see-also
 
-<a href="..\ntifs\ni-ntifs-ioctl_redir_query_path_ex.md">IOCTL_REDIR_QUERY_PATH_EX</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-fsrtlderegisteruncprovider.md">FsRtlDeregisterUncProvider</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545865">FsRtlDeregisterUncProvider</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlregisteruncproviderex~r3.md">FsRtlRegisterUncProviderEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547184">FsRtlRegisterUncProviderEx</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548320">IOCTL_REDIR_QUERY_PATH_EX</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20IOCTL_REDIR_QUERY_PATH control code%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

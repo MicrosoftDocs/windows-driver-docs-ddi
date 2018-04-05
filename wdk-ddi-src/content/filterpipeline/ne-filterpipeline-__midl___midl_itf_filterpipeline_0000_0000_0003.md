@@ -7,7 +7,7 @@ old-location: print\expsjobconsumption.htm
 old-project: print
 ms.assetid: 9fab1cba-fe67-4654-ae33-3de41f0427f7
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: EXpsJobConsumption, EXpsJobConsumption enumeration [Print Devices], XpsJob_DocumentSequenceAdded, XpsJob_FixedDocumentAdded, XpsJob_FixedPageAdded, __MIDL___MIDL_itf_filterpipeline_0000_0000_0003, filterpipeline/EXpsJobConsumption, filterpipeline/XpsJob_DocumentSequenceAdded, filterpipeline/XpsJob_FixedDocumentAdded, filterpipeline/XpsJob_FixedPageAdded, filterpipeline_67998379-96d5-4e6f-abc3-602526b12276.xml, print.expsjobconsumption
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	filterpipeline.h
 api_name:
 -	EXpsJobConsumption
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsJobConsumption
 ---
@@ -50,18 +51,6 @@ req.typenames: EXpsJobConsumption
 
 
 The EXpsJobConsumption enumeration describes job consumption updates.
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  XpsJob_DocumentSequenceAdded,
-  XpsJob_FixedDocumentAdded,
-  XpsJob_FixedPageAdded
-} EXpsJobConsumption;
-````
 
 
 ## -enum-fields
@@ -88,7 +77,7 @@ A fixed page is added to the job.
 
 
 
-A rendering filter uses the <a href="..\filterpipeline\nn-filterpipeline-iprintpipelineprogressreport.md">IPrintPipelineProgressReport</a> interface to send updates to the pipeline. 
+A rendering filter uses the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554314">IPrintPipelineProgressReport</a> interface to send updates to the pipeline. 
 
 Rendering filters convert XPS to the page description language (PDL). 
 

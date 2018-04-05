@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILREMOTEPARTYINFO
 title: RILREMOTEPARTYINFO
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilremotepartyinfo_2.htm
+old-location: netvista\rilremotepartyinfo.htm
 old-project: netvista
-ms.assetid: 0ca17e70-1e50-4b62-89ec-0e92ad6e846b
+ms.assetid: 3bcaaf63-adff-4559-9e34-eae089dff6f8
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: "*LPRILREMOTEPARTYINFO, RILREMOTEPARTYINFO, RILREMOTEPARTYINFO structure [Network Drivers Starting with Windows Vista], netvista.rilremotepartyinfo_2, rilapitypes/RILREMOTEPARTYINFO"
+ms.date: 3/26/2018
+ms.keywords: "*LPRILREMOTEPARTYINFO, RILREMOTEPARTYINFO, RILREMOTEPARTYINFO structure [Network Drivers Starting with Windows Vista], netvista.rilremotepartyinfo, ntddrilapitypes/RILREMOTEPARTYINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,10 +35,11 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILREMOTEPARTYINFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILREMOTEPARTYINFO, *LPRILREMOTEPARTYINFO
 req.product: Windows 10 or later.
@@ -50,25 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-
-## -syntax
-
-
-````
-typedef struct _RILREMOTEPARTYINFO {
-  DWORD                         cbSize;
-  DWORD                         dwParams;
-  DWORD                         dwExecutor;
-  RILADDRESS                    raAddress;
-  RILSUBADDRESS                 rsaSubAddress;
-  WCHAR [MAXLENGTH_DESCRIPTION] wszDescription;
-  RILREMOTEPARTYINFOVALUE       dwNumberPresentationIndicator;
-  RILREMOTEPARTYINFOVALUE       dwNamePresentationIndicator;
-  DWORD                         dwID;
-} RILREMOTEPARTYINFO, RILREMOTEPARTYINFO;
-````
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -struct-fields

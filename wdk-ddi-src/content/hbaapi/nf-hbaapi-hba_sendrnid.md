@@ -7,7 +7,7 @@ old-location: storage\hba_sendrnid.htm
 old-project: storage
 ms.assetid: c15d74c8-bc04-4d82-a729-6b13f778b8c7
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: HBA_SendRNID, HBA_SendRNID routine [Storage Devices], fibreHBA_rtns_fd816d59-9c64-499e-a3bb-2a2d2427fbf9.xml, hbaapi/HBA_SendRNID, storage.hba_sendrnid
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Hbaapi.dll
 api_name:
 -	HBA_SendRNID
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: HBA_WWNTYPE
 ---
@@ -50,20 +51,6 @@ req.typenames: HBA_WWNTYPE
 
 
 The <b>HBA_SendRNID</b> routine sends a request for node identification data (RNID) to the indicated HBA, which in turn routes the request through the indicated port or node to the appropriate fabric configuration server. 
-
-
-## -syntax
-
-
-````
-HBA_STATUS HBA_API HBA_SendRNID(
-  _In_    HBA_HANDLE  HbaHandle,
-  _In_    HBA_WWN     Wwn,
-  _In_    HBA_WWNTYPE WwnType,
-  _Out_   void        *pRspBuffer,
-  _Inout_ HBA_UINT32  *RspBufferSize
-);
-````
 
 
 ## -parameters
@@ -98,12 +85,12 @@ On input, indicates the size, in bytes, of the buffer pointed to by <i>pRspBuffe
 
 #### - HbaHandle [in]
 
-Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a> that identifies the HBA that will route the command. The HBA routes this command to the appropriate fabric configuration server. 
+Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a> that identifies the HBA that will route the command. The HBA routes this command to the appropriate fabric configuration server. 
 
 
 #### - WwnType [in]
 
-Contains an enumerator value of type <a href="..\hbaapi\ne-hbaapi-hba_wwntype.md">HBA_wwntype</a> that indicates whether the WWN specified by <i>Wwn </i>is a port or a node:
+Contains an enumerator value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff557245">HBA_wwntype</a> that indicates whether the WWN specified by <i>Wwn </i>is a port or a node:
 
 
 ## -returns
@@ -128,17 +115,15 @@ The <b>HBA_SendRNID</b> library routine serves a purpose very similar to the <a 
 
 ## -see-also
 
-<a href="..\hbaapi\nf-hbaapi-hba_sendrnid.md">HBA_SendRNID</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557216">HBA_SendRNID</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565459">SendRNID</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20HBA_SendRNID routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

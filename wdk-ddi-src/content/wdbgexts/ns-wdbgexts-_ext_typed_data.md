@@ -7,7 +7,7 @@ old-location: debugger\ext_typed_data.htm
 old-project: debugger
 ms.assetid: 99abb7b6-3e20-4875-b257-c3fc4146e392
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/26/2018
 ms.keywords: "*PEXT_TYPED_DATA, EXT_TYPED_DATA, EXT_TYPED_DATA structure [Windows Debugging], PEXT_TYPED_DATA, PEXT_TYPED_DATA structure pointer [Windows Debugging], Structures_e4240445-73f9-4f38-8f1b-17035ced15f7.xml, _EXT_TYPED_DATA, debugger.ext_typed_data, wdbgexts/EXT_TYPED_DATA, wdbgexts/PEXT_TYPED_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	wdbgexts.h
 api_name:
 -	EXT_TYPED_DATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXT_TYPED_DATA, *PEXT_TYPED_DATA
 req.product: Windows 10 or later.
@@ -54,32 +55,6 @@ The EXT_TYPED_DATA structure is passed to and returned from the <a href="https:/
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554564">Request</a> operation. It contains the input and output parameters for the operation as well as specifying which particular suboperation to perform.
 
 
-## -syntax
-
-
-````
-typedef struct _EXT_TYPED_DATA {
-  EXT_TDOP         Operation;
-  ULONG            Flags;
-  DEBUG_TYPED_DATA InData;
-  DEBUG_TYPED_DATA OutData;
-  ULONG            InStrIndex;
-  ULONG            In32;
-  ULONG            Out32;
-  ULONG64          In64;
-  ULONG64          Out64;
-  ULONG            StrBufferIndex;
-  ULONG            StrBufferChars;
-  ULONG            StrCharsNeeded;
-  ULONG            DataBufferIndex;
-  ULONG            DataBufferBytes;
-  ULONG            DataBytesNeeded;
-  HRESULT          Status;
-  ULONG64          Reserved[8];
-} EXT_TYPED_DATA, *PEXT_TYPED_DATA;
-````
-
-
 ## -struct-fields
 
 
@@ -88,7 +63,7 @@ typedef struct _EXT_TYPED_DATA {
 ### -field Operation
 
 Specifies which suboperation the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541547">DEBUG_REQUEST_EXT_TYPED_DATA_ANSI</a>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554564">Request</a> operation should perform. The interpretation of some of the other members depends on <b>Operation</b>. For a list of possible suboperations, see <a href="..\wdbgexts\ne-wdbgexts-_ext_tdop.md">EXT_TDOP</a>.
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554564">Request</a> operation should perform. The interpretation of some of the other members depends on <b>Operation</b>. For a list of possible suboperations, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff544529">EXT_TDOP</a>.
 
 
 ### -field Flags
@@ -146,14 +121,14 @@ The typed data is in physical memory, and this physical memory is write-combined
 
 ### -field InData
 
-Specifies typed data to be used as input to the operation. For details about this structure, see <a href="..\wdbgexts\ns-wdbgexts-_debug_typed_data.md">DEBUG_TYPED_DATA</a>.
+Specifies typed data to be used as input to the operation. For details about this structure, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff541706">DEBUG_TYPED_DATA</a>.
 
 The interpretation of <b>InData</b> depends on the value of <b>Operation</b>.
 
 
 ### -field OutData
 
-Receives typed data as output from the operation. Any suboperation that returns typed data to <b>OutData</b> initially copies the contents of <b>InData</b> to <b>OutData</b>, then modifies <b>OutData</b> in place, so that the input parameters in <b>InData</b> are also present in <b>OutData</b>. For details about this structure, see <a href="..\wdbgexts\ns-wdbgexts-_debug_typed_data.md">DEBUG_TYPED_DATA</a>.
+Receives typed data as output from the operation. Any suboperation that returns typed data to <b>OutData</b> initially copies the contents of <b>InData</b> to <b>OutData</b>, then modifies <b>OutData</b> in place, so that the input parameters in <b>InData</b> are also present in <b>OutData</b>. For details about this structure, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff541706">DEBUG_TYPED_DATA</a>.
 
 The interpretation of <b>OutData</b> depends on the value of <b>Operation</b>.
 
@@ -253,25 +228,23 @@ This structure can optionally specify additional data--using the members <b>InSt
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff541547">DEBUG_REQUEST_EXT_TYPED_DATA_ANSI</a>
 
 
 
-<a href="..\wdbgexts\ns-wdbgexts-_debug_typed_data.md">DEBUG_TYPED_DATA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541706">DEBUG_TYPED_DATA</a>
 
 
 
-<a href="..\wdbgexts\ne-wdbgexts-_ext_tdop.md">EXT_TDOP</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544529">EXT_TDOP</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554564">Request</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20EXT_TYPED_DATA structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

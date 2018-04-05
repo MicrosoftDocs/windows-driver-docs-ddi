@@ -7,7 +7,7 @@ old-location: storage\storage_hw_firmware_info.htm
 old-project: storage
 ms.assetid: 5A85A7EC-2333-4161-A1E7-55D3420E730C
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSTORAGE_HW_FIRMWARE_INFO, PSTORAGE_HW_FIRMWARE_INFO, PSTORAGE_HW_FIRMWARE_INFO structure pointer [Storage Devices], STORAGE_HW_FIRMWARE_INFO, STORAGE_HW_FIRMWARE_INFO structure [Storage Devices], _STORAGE_HW_FIRMWARE_INFO, ntddstor/PSTORAGE_HW_FIRMWARE_INFO, ntddstor/STORAGE_HW_FIRMWARE_INFO, storage.storage_hw_firmware_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddstor.h
 api_name:
 -	STORAGE_HW_FIRMWARE_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STORAGE_HW_FIRMWARE_INFO, *PSTORAGE_HW_FIRMWARE_INFO
 ---
@@ -50,27 +51,6 @@ req.typenames: STORAGE_HW_FIRMWARE_INFO, *PSTORAGE_HW_FIRMWARE_INFO
 
 
 This structure contains information about the device firmware.
-
-
-## -syntax
-
-
-````
-typedef struct _STORAGE_HW_FIRMWARE_INFO {
-  ULONG                         Version;
-  ULONG                         Size;
-  UCHAR                         SupportUpgrade  :1;
-  UCHAR                         Reserved0  :7;
-  UCHAR                         SlotCount;
-  UCHAR                         ActiveSlot;
-  UCHAR                         PendingActivateSlot;
-  BOOLEAN                       FirmwareShared;
-  UCHAR                         Reserved[3];
-  ULONG                         ImagePayloadAlignment;
-  ULONG                         ImagePayloadMaxSize;
-  STORAGE_HW_FIRMWARE_SLOT_INFO Slot[ANYSIZE_ARRAY];
-} STORAGE_HW_FIRMWARE_INFO, *PSTORAGE_HW_FIRMWARE_INFO;
-````
 
 
 ## -struct-fields

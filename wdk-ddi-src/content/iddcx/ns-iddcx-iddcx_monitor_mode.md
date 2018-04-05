@@ -7,7 +7,7 @@ old-location: display\iddcx_monitor_mode.htm
 old-project: display
 ms.assetid: 95e1778a-4f65-40ee-8ad2-f797ce9e95b0
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: IDDCX_MONITOR_MODE, IDDCX_MONITOR_MODE structure [Display Devices], display.iddcx_monitor_mode, iddcx/IDDCX_MONITOR_MODE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	iddcx.h
 api_name:
 -	IDDCX_MONITOR_MODE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,18 +52,6 @@ req.typenames:
 
 
                  Gives information about the current monitor mode.
-
-
-## -syntax
-
-
-````
-typedef struct IDDCX_MONITOR_MODE {
-  UINT                            Size;
-  IDDCX_MONITOR_MODE_ORIGIN       Origin;
-  DISPLAYCONFIG_VIDEO_SIGNAL_INFO MonitorVideoSignalInfo;
-} IDDCX_MONITOR_MODE, *IDDCX_MONITOR_MODE;
-````
 
 
 ## -struct-fields

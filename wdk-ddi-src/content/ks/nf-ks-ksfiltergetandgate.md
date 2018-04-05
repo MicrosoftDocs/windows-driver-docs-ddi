@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsFilterGetAndGate
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -53,16 +54,6 @@ req.typenames:
 The<b> KsFilterGetAndGate </b>function returns <i>Filter</i>'s AND gate.
 
 
-## -syntax
-
-
-````
-PKSGATE KsFilterGetAndGate(
-  _In_ PKSFILTER Filter
-);
-````
-
-
 ## -parameters
 
 
@@ -70,14 +61,14 @@ PKSGATE KsFilterGetAndGate(
 
 ### -param Filter [in]
 
-A pointer to the <a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a> structure for which to acquire the corresponding AND gate.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562522">KSFILTER</a> structure for which to acquire the corresponding AND gate.
 
 
 ## -returns
 
 
 
-<b>KsFilterGetAndGate</b> returns <i>Filter</i>'s AND gate as a pointer to a <a href="..\ks\ns-ks-_ksgate.md">KSGATE</a> structure.
+<b>KsFilterGetAndGate</b> returns <i>Filter</i>'s AND gate as a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff562566">KSGATE</a> structure.
 
 
 
@@ -93,33 +84,31 @@ A minidriver can use AND gates on a filter as a processing control mechanism for
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksgateturninputoff.md">KsGateTurnInputOff</a>
 
 
 
-<a href="..\ks\nf-ks-ksgatecapturethreshold.md">KsGateCaptureThreshold</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562566">KSGATE</a>
 
 
 
-<a href="..\ks\ns-ks-_ksgate.md">KSGATE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562571">KsGateCaptureThreshold</a>
 
 
 
-<a href="..\ks\nf-ks-ksgateturninputon.md">KsGateTurnInputOn</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562589">KsGateTurnInputOff</a>
 
 
 
-<a href="..\ks\nf-ks-kspingetandgate.md">KsPinGetAndGate</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562591">KsGateTurnInputOn</a>
 
 
 
-<a href="..\ks\nf-ks-kspinattachandgate.md">KsPinAttachAndGate</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563491">KsPinAttachAndGate</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563502">KsPinGetAndGate</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsFilterGetAndGate function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

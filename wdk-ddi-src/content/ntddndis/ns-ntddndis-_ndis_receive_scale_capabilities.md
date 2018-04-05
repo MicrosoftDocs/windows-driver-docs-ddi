@@ -7,7 +7,7 @@ old-location: netvista\ndis_receive_scale_capabilities.htm
 old-project: netvista
 ms.assetid: dabd8f65-1aa5-4d45-9c0a-4539efd762c6
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: "*PNDIS_RECEIVE_SCALE_CAPABILITIES, NDIS_RECEIVE_SCALE_CAPABILITIES, NDIS_RECEIVE_SCALE_CAPABILITIES structure [Network Drivers Starting with Windows Vista], NDIS_RSS_CAPS_CLASSIFICATION_AT_DPC, NDIS_RSS_CAPS_CLASSIFICATION_AT_ISR, NDIS_RSS_CAPS_HASH_TYPE_TCP_IPV4, NDIS_RSS_CAPS_HASH_TYPE_TCP_IPV6, NDIS_RSS_CAPS_HASH_TYPE_TCP_IPV6_EX, NDIS_RSS_CAPS_HASH_TYPE_UDP_IPV4, NDIS_RSS_CAPS_HASH_TYPE_UDP_IPV6, NDIS_RSS_CAPS_HASH_TYPE_UDP_IPV6_EX, NDIS_RSS_CAPS_MESSAGE_SIGNALED_INTERRUPTS, NDIS_RSS_CAPS_SUPPORTS_MSI_X, NDIS_RSS_CAPS_USING_MSI_X, NdisHashFunctionReserved1, NdisHashFunctionReserved2, NdisHashFunctionReserved3, NdisHashFunctionToeplitz, PNDIS_RECEIVE_SCALE_CAPABILITIES, PNDIS_RECEIVE_SCALE_CAPABILITIES structure pointer [Network Drivers Starting with Windows Vista], _NDIS_RECEIVE_SCALE_CAPABILITIES, netvista.ndis_receive_scale_capabilities, ntddndis/NDIS_RECEIVE_SCALE_CAPABILITIES, ntddndis/PNDIS_RECEIVE_SCALE_CAPABILITIES, receive_scaling_structures_ref_b9df619b-57b8-4fa3-b292-bba02175a23a.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ntddndis.h
 api_name:
 -	NDIS_RECEIVE_SCALE_CAPABILITIES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_RECEIVE_SCALE_CAPABILITIES, *PNDIS_RECEIVE_SCALE_CAPABILITIES
 ---
@@ -54,22 +55,6 @@ The <b>NDIS_RECEIVE_SCALE_CAPABILITIES</b> structure specifies the <a href="http
   
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_RECEIVE_SCALE_CAPABILITIES {
-  NDIS_OBJECT_HEADER  Header;
-  NDIS_RSS_CAPS_FLAGS CapabilitiesFlags;
-  ULONG               NumberOfInterruptMessages;
-  ULONG               NumberOfReceiveQueues;
-#if (NDIS_SUPPORT_NDIS630)
-  USHORT              NumberOfIndirectionTableEntries;
-#endif 
-} NDIS_RECEIVE_SCALE_CAPABILITIES, *PNDIS_RECEIVE_SCALE_CAPABILITIES;
-````
-
-
 ## -struct-fields
 
 
@@ -78,7 +63,7 @@ typedef struct _NDIS_RECEIVE_SCALE_CAPABILITIES {
 ### -field Header
 
 The 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure for the
      <b>NDIS_RECEIVE_SCALE_CAPABILITIES</b> structure. Set the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to <b>NDIS_OBJECT_TYPE_RSS_CAPABILITIES</b>. 
@@ -124,7 +109,7 @@ Set this flag if the NIC supports message-signaled interrupts (MSIs). This flag 
 </dl>
 </td>
 <td width="60%">
-Set this flag if the NIC can indicate to the <a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInterrupt</a> function which target CPUs have
+Set this flag if the NIC can indicate to the <a href="https://msdn.microsoft.com/810503b9-75cd-4b38-ab1f-de240968ded6">MiniportInterrupt</a> function which target CPUs have
         queued received packets.
 
 </td>
@@ -157,7 +142,7 @@ Set this flag if the NIC supports MSIs. This flag is supported in NDIS 6.30 and 
 </td>
 <td width="60%">
 Set this flag if the miniport driver can detect which target CPUs have queued receive packets
-        from its <a href="..\ndis\nc-ndis-miniport_interrupt_dpc.md">MiniportInterruptDPC</a> function.
+        from its <a href="https://msdn.microsoft.com/345715fb-878c-44d8-bf78-f3add10dd02b">MiniportInterruptDPC</a> function.
 
 </td>
 </tr>
@@ -309,20 +294,23 @@ For some workloads, a subset of UDP packets could be fragmented due to route cha
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/810503b9-75cd-4b38-ab1f-de240968ded6">MiniportInterrupt</a>
+
+
+
+<a href="https://msdn.microsoft.com/345715fb-878c-44d8-bf78-f3add10dd02b">MiniportInterruptDPC</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+
+
+
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567266">
    NDIS_RSS_HASH_FUNC_FROM_HASH_INFO</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_interrupt_dpc.md">MiniportInterruptDPC</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInterrupt</a>
-
-
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-receive-side-scaling2">Receive Side Scaling (RSS)</a>
 
 
 
@@ -331,13 +319,8 @@ For some workloads, a subset of UDP packets could be fragmented due to route cha
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-receive-side-scaling2">Receive Side Scaling (RSS)</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_RECEIVE_SCALE_CAPABILITIES structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

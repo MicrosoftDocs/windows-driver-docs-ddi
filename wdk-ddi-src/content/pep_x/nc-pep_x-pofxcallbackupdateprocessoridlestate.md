@@ -7,7 +7,7 @@ old-location: kernel\updateprocessoridlestate.htm
 old-project: kernel
 ms.assetid: 023A2637-A79A-4ADE-B54C-646CBDDF08B8
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/28/2018
 ms.keywords: POFXCALLBACKUPDATEPROCESSORIDLESTATE, UpdateProcessorIdleState, UpdateProcessorIdleState routine [Kernel-Mode Driver Architecture], kernel.updateprocessoridlestate, pepfx/UpdateProcessorIdleState
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	pepfx.h
 api_name:
 -	UpdateProcessorIdleState
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PO_FX_CORE_DEVICE, *PPO_FX_CORE_DEVICE
 ---
@@ -50,21 +51,6 @@ req.typenames: PO_FX_CORE_DEVICE, *PPO_FX_CORE_DEVICE
 
 
 The <b>UpdateProcessorIdleState</b> routine is called by the platform extension plug-in (PEP) to update the properties of the specified processor idle state.
-
-
-## -prototype
-
-
-````
-POFXCALLBACKUPDATEPROCESSORIDLESTATE UpdateProcessorIdleState;
-
-NTSTATUS UpdateProcessorIdleState(
-  _In_ POHANDLE                         ProcessorHandle,
-  _In_ ULONG                            ProcessorState,
-  _In_ PPEP_PROCESSOR_IDLE_STATE_UPDATE Update
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -84,7 +70,7 @@ An index that identifies the processor idle state whose properties are to be upd
 
 ### -param Update [in]
 
-A pointer to a <a href="..\pepfx\ns-pepfx-_pep_processor_idle_state_update.md">PEP_PROCESSOR_IDLE_STATE_UPDATE</a> structure that contains the updated properties of the processor idle state.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/mt186835">PEP_PROCESSOR_IDLE_STATE_UPDATE</a> structure that contains the updated properties of the processor idle state.
 
 
 ## -returns
@@ -130,7 +116,7 @@ The <b>UpdateProcessorIdleState</b> routine is not implemented for this processo
 
 
 
-This routine is implemented by PoFx and is called by the PEP. The <b>UpdateProcessorIdleState</b> member of the <a href="..\pepfx\ns-pepfx-_pep_kernel_information_struct_v3.md">PEP_KERNEL_INFORMATION_STRUCT_V3</a> structure is a pointer to an <b>UpdateProcessorIdleState</b> routine.
+This routine is implemented by PoFx and is called by the PEP. The <b>UpdateProcessorIdleState</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186747">PEP_KERNEL_INFORMATION_STRUCT_V3</a> structure is a pointer to an <b>UpdateProcessorIdleState</b> routine.
 
 The <b>UpdateProcessorIdleState</b> routine must be called at IRQL = PASSIVE_LEVEL.
 
@@ -139,11 +125,6 @@ The <b>UpdateProcessorIdleState</b> routine must be called at IRQL = PASSIVE_LEV
 
 ## -see-also
 
-<a href="..\pepfx\ns-pepfx-_pep_processor_idle_state_update.md">PEP_PROCESSOR_IDLE_STATE_UPDATE</a>
-
-
-
-<a href="..\pepfx\ns-pepfx-_pep_kernel_information_struct_v3.md">PEP_KERNEL_INFORMATION_STRUCT_V3</a>
 
 
 
@@ -151,9 +132,12 @@ The <b>UpdateProcessorIdleState</b> routine must be called at IRQL = PASSIVE_LEV
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186747">PEP_KERNEL_INFORMATION_STRUCT_V3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186835">PEP_PROCESSOR_IDLE_STATE_UPDATE</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20POFXCALLBACKUPDATEPROCESSORIDLESTATE routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

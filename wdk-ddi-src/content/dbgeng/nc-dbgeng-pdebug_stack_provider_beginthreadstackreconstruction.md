@@ -7,7 +7,7 @@ old-location: debugger\beginthreadstackreconstruction.htm
 old-project: debugger
 ms.assetid: 50CBBBED-EF1B-485F-90D3-0056AF8984E7
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/26/2018
 ms.keywords: BeginThreadStackReconstruction, BeginThreadStackReconstruction callback function [Windows Debugging], PDEBUG_STACK_PROVIDER_BEGINTHREADSTACKRECONSTRUCTION, dbgeng/BeginThreadStackReconstruction, debugger.beginthreadstackreconstruction
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Dbgeng.h
 api_name:
 -	BeginThreadStackReconstruction
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -60,14 +61,6 @@ The <i>BeginThreadStackReconstruction</i> callback function causes debugger to p
 </td>
 </tr>
 </table></span></div>
-
-## -prototype
-
-
-````
-CALLBACK* PDEBUG_STACK_PROVIDER_BEGINTHREADSTACKRECONSTRUCTION BeginThreadStackReconstruction; 
-````
-
 
 ## -parameters
 

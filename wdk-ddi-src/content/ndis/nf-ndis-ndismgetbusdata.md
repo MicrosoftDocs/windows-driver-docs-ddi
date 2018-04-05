@@ -7,7 +7,7 @@ old-location: netvista\ndismgetbusdata.htm
 old-project: netvista
 ms.assetid: 495191f4-a5c6-4223-8c5d-e4c0ecb0cc5d
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: NdisMGetBusData, NdisMGetBusData function [Network Drivers Starting with Windows Vista], hardware_configuration_ref_e2ffab8c-2dba-4b49-a7dc-246a4792ca43.xml, ndis/NdisMGetBusData, netvista.ndismgetbusdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	ndis.dll
 api_name:
 -	NdisMGetBusData
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
@@ -52,20 +53,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 
 NDIS drivers call the 
   <b>NdisMGetBusData</b> function to read the configuration space of a device.
-
-
-## -syntax
-
-
-````
-ULONG NdisMGetBusData(
-  _In_  NDIS_HANDLE MiniportAdapterHandle,
-  _In_  ULONG       WhichSpace,
-  _In_  ULONG       Offset,
-  _Out_ PVOID       Buffer,
-  _In_  ULONG       Length
-);
-````
 
 
 ## -parameters
@@ -106,7 +93,7 @@ The length, in bytes, of the data to read.
 
 The miniport adapter handle that NDIS passed to the 
      <i>MiniportAdapterHandle</i> parameter of the 
-     <a href="..\ndis\nc-ndis-miniport_initialize.md">
+     <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">
      MiniportInitializeEx</a> function.
 
 
@@ -131,11 +118,6 @@ This function replaces the NDIS 5.1
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismsetbusdata.md">NdisMSetBusData</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 
 
@@ -143,9 +125,12 @@ This function replaces the NDIS 5.1
 
 
 
+<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563670">NdisMSetBusData</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisMGetBusData function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

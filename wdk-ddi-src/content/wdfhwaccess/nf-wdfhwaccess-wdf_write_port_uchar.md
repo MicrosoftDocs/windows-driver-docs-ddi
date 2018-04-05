@@ -7,7 +7,7 @@ old-location: wdf\wdf_write_port_uchar.htm
 old-project: wdf
 ms.assetid: F7F40415-87E9-4870-8B10-83009159543E
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/26/2018
 ms.keywords: WDF_WRITE_PORT_UCHAR, WDF_WRITE_PORT_UCHAR function, wdf.wdf_write_port_uchar, wdfhwaccess/WDF_WRITE_PORT_UCHAR
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	Wdfhwaccess.h
 api_name:
 -	WDF_WRITE_PORT_UCHAR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_FILE_INFORMATION_CLASS, *PWDF_FILE_INFORMATION_CLASS
 req.product: Windows 10 or later.
@@ -54,18 +55,6 @@ req.product: Windows 10 or later.
 
 The <b>WDF_WRITE_PORT_UCHAR</b> function writes a byte to the specified port address.
 
-
-
-## -syntax
-
-
-````
-void WDF_WRITE_PORT_UCHAR(
-  _In_ WDFDEVICE Device,
-  _In_ PUCHAR    Port,
-  _In_ UCHAR     Value
-);
-````
 
 
 ## -parameters

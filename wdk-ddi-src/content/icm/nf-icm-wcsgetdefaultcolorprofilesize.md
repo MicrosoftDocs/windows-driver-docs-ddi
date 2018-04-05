@@ -7,7 +7,7 @@ old-location: print\wcsgetdefaultcolorprofilesize.htm
 old-project: print
 ms.assetid: d04306e2-3479-4ba4-ac4d-bf3715487fcf
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: WcsGetDefaultColorProfileSize, WcsGetDefaultColorProfileSize function [Print Devices], colorfnc_8259a030-267a-4d53-93fe-73e63f0e5fd7.xml, icm/WcsGetDefaultColorProfileSize, print.wcsgetdefaultcolorprofilesize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Mscms.dll
 api_name:
 -	WcsGetDefaultColorProfileSize
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WCS_PROFILE_MANAGEMENT_SCOPE
 ---
@@ -50,21 +51,6 @@ req.typenames: WCS_PROFILE_MANAGEMENT_SCOPE
 
 
 The <code>WcsGetDefaultColorProfileSize</code> function returns the size, in bytes, of the default color profile name for a device, including the <b>NULL</b> terminator.
-
-
-## -syntax
-
-
-````
-BOOL WcsGetDefaultColorProfileSize(
-  _In_     WCS_PROFILE_MANAGEMENT_SCOPE profileManagementScope,
-  _In_opt_ PCWSTR                       pDeviceName,
-  _In_     COLORPROFILETYPE             cptColorProfileType,
-  _In_     COLORPROFILESUBTYPE          cpstColorProfileSubType,
-  _In_     DWORD                        dwProfileID,
-  _Out_    PDWORD                       pcbProfileName
-);
-````
 
 
 ## -parameters
@@ -84,12 +70,12 @@ A pointer to the name of the device for which the default color profile is to be
 
 ### -param cptColorProfileType [in]
 
-A <a href="..\icm\ne-icm-colorprofiletype.md">COLORPROFILETYPE</a> value that specifies the color profile type.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff546018">COLORPROFILETYPE</a> value that specifies the color profile type.
 
 
 ### -param cpstColorProfileSubType [in]
 
-A <a href="..\icm\ne-icm-colorprofilesubtype.md">COLORPROFILESUBTYPE</a> value that specifies the color profile subtype.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff546012">COLORPROFILESUBTYPE</a> value that specifies the color profile subtype.
 
 
 ### -param dwProfileID [in]
@@ -105,14 +91,14 @@ A pointer to a location that receives the size, in bytes, of the path name of th
 #### - profileManagementScope [in]
 
 
-      A <a href="..\icm\ne-icm-wcs_profile_management_scope.md">WCS_PROFILE_MANAGEMENT_SCOPE</a> value that specifies the scope of this profile management operation.
+      A <a href="https://msdn.microsoft.com/library/windows/hardware/ff563752">WCS_PROFILE_MANAGEMENT_SCOPE</a> value that specifies the scope of this profile management operation.
 
 
 ## -remarks
 
 
 
-Use this function to return the required size of the buffer pointed to by the <i>pProfileName</i> parameter in the <a href="..\icm\nf-icm-wcsgetdefaultcolorprofile.md">WcsGetDefaultColorProfile</a> function.
+Use this function to return the required size of the buffer pointed to by the <i>pProfileName</i> parameter in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563726">WcsGetDefaultColorProfile</a> function.
 
 This function is executable in Least-Privileged User Account (LUA) context.
 
@@ -121,25 +107,23 @@ This function is executable in Least-Privileged User Account (LUA) context.
 
 ## -see-also
 
-<a href="..\icm\ne-icm-colorprofiletype.md">COLORPROFILETYPE</a>
 
 
 
-<a href="..\icm\nf-icm-wcsgetdefaultcolorprofile.md">WcsGetDefaultColorProfile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546012">COLORPROFILESUBTYPE</a>
 
 
 
-<a href="..\icm\ne-icm-colorprofilesubtype.md">COLORPROFILESUBTYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546018">COLORPROFILETYPE</a>
 
 
 
-<a href="..\icm\ne-icm-wcs_profile_management_scope.md">WCS_PROFILE_MANAGEMENT_SCOPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563752">WCS_PROFILE_MANAGEMENT_SCOPE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563726">WcsGetDefaultColorProfile</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20WcsGetDefaultColorProfileSize function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

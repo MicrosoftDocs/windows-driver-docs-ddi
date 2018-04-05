@@ -7,7 +7,7 @@ old-location: netvista\ndisregisterprotocoldriver.htm
 old-project: netvista
 ms.assetid: b48571eb-13a2-4541-80ac-c8d31f378d37
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: NdisRegisterProtocolDriver, NdisRegisterProtocolDriver function [Network Drivers Starting with Windows Vista], ndis/NdisRegisterProtocolDriver, netvista.ndisregisterprotocoldriver, protocol_ndis_functions_ref_023b338a-65cf-4ccb-bce8-d1506f37f632.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	ndis.dll
 api_name:
 -	NdisRegisterProtocolDriver
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
@@ -53,18 +54,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 A protocol driver calls the
   <b>NdisRegisterProtocolDriver</b> function to register its 
   <i>ProtocolXxx</i> functions with NDIS.
-
-
-## -syntax
-
-
-````
-NDIS_STATUS NdisRegisterProtocolDriver(
-  _In_opt_ NDIS_HANDLE                           ProtocolDriverContext,
-  _In_     PNDIS_PROTOCOL_DRIVER_CHARACTERISTICS ProtocolCharacteristics,
-  _Out_    PNDIS_HANDLE                          NdisProtocolHandle
-);
-````
 
 
 ## -parameters
@@ -81,7 +70,7 @@ A handle to a driver-allocated context area where the driver maintains state and
 ### -param ProtocolCharacteristics [in]
 
 A pointer to an 
-     <a href="..\ndis\ns-ndis-_ndis_protocol_driver_characteristics.md">
+     <a href="https://msdn.microsoft.com/db64c160-9db6-4b23-af14-e64acdb9ef57">
      NDIS_PROTOCOL_DRIVER_CHARACTERISTICS</a> structure that the protocol driver created and initialized
      with its 
      <i>ProtocolXxx</i> function entry points.
@@ -114,7 +103,7 @@ A pointer to a caller-supplied handle variable. NDIS writes a handle to this var
 </td>
 <td width="60%">
 
-<a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">NdisRegisterProtocolDriver</a> returns NDIS_STATUS_SUCCESS if it registered the protocol
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564520">NdisRegisterProtocolDriver</a> returns NDIS_STATUS_SUCCESS if it registered the protocol
        driver.
 
 </td>
@@ -152,7 +141,7 @@ Some members of the structure at the
 </td>
 <td width="60%">
 
-<a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">NdisRegisterProtocolDriver</a> failed due to insufficient resources.
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564520">NdisRegisterProtocolDriver</a> failed due to insufficient resources.
 
 </td>
 </tr>
@@ -164,7 +153,7 @@ Some members of the structure at the
 </td>
 <td width="60%">
 
-<a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">NdisRegisterProtocolDriver</a> returns NDIS_STATUS_FAILURE if none of the preceding values
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564520">NdisRegisterProtocolDriver</a> returns NDIS_STATUS_FAILURE if none of the preceding values
        applies.
 
 </td>
@@ -181,7 +170,7 @@ Some members of the structure at the
 
 A protocol driver calls the 
     <b>NdisRegisterProtocolDriver</b> function from its 
-    <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine. For more information about 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine. For more information about 
     <b>DriverEntry</b>, see 
     <a href="https://msdn.microsoft.com/en-us/library/gg156036.aspx">DriverEntry of NDIS
     Protocol Drivers</a>.
@@ -191,17 +180,17 @@ Drivers that call <b>
 
 Every protocol driver exports a set of 
     <i>ProtocolXxx</i> functions by setting up the 
-    <a href="..\ndis\ns-ndis-_ndis_protocol_driver_characteristics.md">
+    <a href="https://msdn.microsoft.com/db64c160-9db6-4b23-af14-e64acdb9ef57">
     NDIS_PROTOCOL_DRIVER_CHARACTERISTICS</a> structure and calling 
     <b>NdisRegisterProtocolDriver</b>. NDIS copies this structure to the NDIS library's internal storage.
 
 To allow protocol drivers to register optional services, NDIS calls the 
-    <a href="..\ndis\nc-ndis-set_options.md">ProtocolSetOptions</a> function within
+    <a href="https://msdn.microsoft.com/342e23ad-d38b-4100-949a-220b8fbdcf6e">ProtocolSetOptions</a> function within
     the context of 
     <b>NdisRegisterProtocolDriver</b>.
 
 Protocol drivers call the 
-    <a href="..\ndis\nf-ndis-ndisderegisterprotocoldriver.md">
+    <a href="https://msdn.microsoft.com/792f8f89-ff2c-45d1-bb15-9fcdafd14231">
     NdisDeregisterProtocolDriver</a> function to release resources that were previously allocated with 
     <b>NdisRegisterProtocolDriver</b>.
 
@@ -210,27 +199,25 @@ Protocol drivers call the
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/en-us/library/gg156036.aspx">DriverEntry of NDIS Protocol
    Drivers</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisderegisterprotocoldriver.md">NdisDeregisterProtocolDriver</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_protocol_driver_characteristics.md">
+<a href="https://msdn.microsoft.com/db64c160-9db6-4b23-af14-e64acdb9ef57">
    NDIS_PROTOCOL_DRIVER_CHARACTERISTICS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561743">NdisDeregisterProtocolDriver</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564550">NdisSetOptionalHandlers</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisRegisterProtocolDriver function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

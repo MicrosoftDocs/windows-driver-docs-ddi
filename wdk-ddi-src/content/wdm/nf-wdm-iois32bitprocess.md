@@ -7,7 +7,7 @@ old-location: kernel\iois32bitprocess.htm
 old-project: kernel
 ms.assetid: a2de12d5-ed9e-42ac-b3e8-a3a567e4ab4a
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/28/2018
 ms.keywords: IoIs32bitProcess, IoIs32bitProcess routine [Kernel-Mode Driver Architecture], k104_8380b2cb-114a-41bc-a32e-8fb60b18c133.xml, kernel.iois32bitprocess, wdm/IoIs32bitProcess
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	IoIs32bitProcess
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
@@ -51,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>IoIs32bitProcess</b> routine checks whether the originator of the current I/O request is a 32-bit user-mode application.
-
-
-## -syntax
-
-
-````
-BOOLEAN IoIs32bitProcess(
-  _In_opt_ PIRP Irp
-);
-````
 
 
 ## -parameters

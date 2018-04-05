@@ -7,7 +7,7 @@ old-location: print\oemenabledriver.htm
 old-project: print
 ms.assetid: 9ea2f53c-de27-4803-b09a-444180b796ac
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: OEMEnableDriver, OEMEnableDriver function [Print Devices], print.oemenabledriver, print_obsoletefunctions_4fe2a5f6-e5ad-4e35-b3d5-668e0cf96ee3.xml, printoem/OEMEnableDriver
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	printoem.h
 api_name:
 -	OEMEnableDriver
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STDVARIABLEINDEX
 req.product: Windows 10 or later.
@@ -50,18 +51,6 @@ req.product: Windows 10 or later.
 ## -description
 
 
-
-
-## -syntax
-
-
-````
-DWORD APIENTRY OEMEnableDriver(
-        DWORD                                 dwOemIntfVersion,
-        DWORD                                 cbSize,
-  _Out_ _writes_bytes_(cbSize) PDRVENABLEDATA pded
-);
-````
 
 
 ## -parameters

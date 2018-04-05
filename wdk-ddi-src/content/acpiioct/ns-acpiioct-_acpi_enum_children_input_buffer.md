@@ -38,7 +38,8 @@ api_location:
 -	Acpiioct.h
 api_name:
 -	ACPI_ENUM_CHILDREN_INPUT_BUFFER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: ACPI_ENUM_CHILDREN_INPUT_BUFFER, *PACPI_ENUM_CHILDREN_INPUT_BUFFER
 ---
@@ -49,20 +50,7 @@ req.typenames: ACPI_ENUM_CHILDREN_INPUT_BUFFER, *PACPI_ENUM_CHILDREN_INPUT_BUFFE
 ## -description
 
 
-The ACPI_ENUM_CHILDREN_INPUT_BUFFER structure is used as input to an <a href="..\acpiioct\ni-acpiioct-ioctl_acpi_enum_children.md">IOCTL_ACPI_ENUM_CHILDREN</a> request. The structure specifies which child objects to enumerate in the namespace of the device to which the request is sent. 
-
-
-## -syntax
-
-
-````
-typedef struct _ACPI_ENUM_CHILDREN_INPUT_BUFFER {
-  ULONG Signature;
-  ULONG Flags;
-  ULONG NameLength;
-  CHAR  Name[ANYSIZE_ARRAY];
-} ACPI_ENUM_CHILDREN_INPUT_BUFFER, *PACPI_ENUM_CHILDREN_INPUT_BUFFER;
-````
+The ACPI_ENUM_CHILDREN_INPUT_BUFFER structure is used as input to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff536147">IOCTL_ACPI_ENUM_CHILDREN</a> request. The structure specifies which child objects to enumerate in the namespace of the device to which the request is sent. 
 
 
 ## -struct-fields
@@ -95,7 +83,7 @@ A NULL-terminated, four-character ASCII string that contains the name of a child
 
 
 
-<a href="..\acpiioct\ni-acpiioct-ioctl_acpi_enum_children.md">IOCTL_ACPI_ENUM_CHILDREN</a> supports the following types of enumerations, depending on how the <b>Flags</b> member is set in the corresponding ACPI_ENUM_CHILDREN_INPUT_BUFFER structure:
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536147">IOCTL_ACPI_ENUM_CHILDREN</a> supports the following types of enumerations, depending on how the <b>Flags</b> member is set in the corresponding ACPI_ENUM_CHILDREN_INPUT_BUFFER structure:
 
 
 
@@ -106,13 +94,11 @@ For information about how to enumerate child objects of a device, see <a href="h
 
 ## -see-also
 
-<a href="..\acpiioct\ni-acpiioct-ioctl_acpi_enum_children.md">IOCTL_ACPI_ENUM_CHILDREN</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536147">IOCTL_ACPI_ENUM_CHILDREN</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [acpi\acpi]:%20ACPI_ENUM_CHILDREN_INPUT_BUFFER structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

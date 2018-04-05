@@ -38,7 +38,8 @@ api_location:
 -	pmi.h
 api_name:
 -	PMI_CAPABILITIES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PMI_CAPABILITIES, *PPMI_CAPABILITIES
 ---
@@ -50,22 +51,6 @@ req.typenames: PMI_CAPABILITIES, *PPMI_CAPABILITIES
 
 
 The PMI_CAPABILITIES structure contains information about the power metering and budgeting capabilities of a power meter.
-
-
-## -syntax
-
-
-````
-typedef struct _PMI_CAPABILITIES {
-  ULONG                 Version;
-  ULONG                 Size;
-  PMI_CAPABILITIES_TYPE CapabilityType;
-  union {
-    PMI_REPORTED_CAPABILITIES        ReportedCapabilities;
-    PMI_METERED_HARDWARE_INFORMATION MeteredHardwareInformation;
-  } Capabilities;
-} PMI_CAPABILITIES, *PPMI_CAPABILITIES;
-````
 
 
 ## -struct-fields
@@ -85,7 +70,7 @@ A value, in units of bytes, that specifies the size of the structure.
 
 ### -field CapabilityType
 
-A <a href="..\pmi\ne-pmi-pmi_capabilities_type.md">PMI_CAPABILITIES_TYPE</a> enumeration value that specifies the data type of the <b>Capabilities</b> member.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff543864">PMI_CAPABILITIES_TYPE</a> enumeration value that specifies the data type of the <b>Capabilities</b> member.
 
 
 ### -field Capabilities
@@ -96,7 +81,7 @@ A union of the supported Power Meter Interface (PMI) capability structures. Base
 
 #### ReportedCapabilities
 
-A <a href="..\pmi\ns-pmi-_pmi_metered_hardware_information.md">PMI_METERED_HARDWARE_INFORMATION</a> structure that specifies one or more hardware devices that are monitored by the power meter. 
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff543900">PMI_METERED_HARDWARE_INFORMATION</a> structure that specifies one or more hardware devices that are monitored by the power meter. 
 
 The <b>Capabilities</b> member contains this structure if the <b>CapabilityType</b> member is set to <b>PmiMeteredHardware</b>.
 
@@ -104,7 +89,7 @@ The <b>Capabilities</b> member contains this structure if the <b>CapabilityType<
 
 #### MeteredHardwareInformation
 
-A <a href="..\pmi\ns-pmi-_pmi_reported_capabilities.md">PMI_REPORTED_CAPABILITIES</a> structure that specifies the PMI capabilities of the power meter, such as the following:
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff543902">PMI_REPORTED_CAPABILITIES</a> structure that specifies the PMI capabilities of the power meter, such as the following:
 
 <ul>
 <li>Asset information 
@@ -123,11 +108,11 @@ The <b>Capabilities</b> member contains this structure if the <b>CapabilityType<
 
 The PMI_CAPABILITIES structure is used to query many PMI capabilities that are supported by a power meter. 
 
-The PMI capability information is returned through an <a href="..\pmi\ni-pmi-ioctl_pmi_get_capabilities.md">IOCTL_PMI_GET_CAPABILITIES</a> I/O control (IOCTL) query request. The input data for this query request is set to a <a href="..\pmi\ne-pmi-pmi_capabilities_type.md">PMI_CAPABILITIES_TYPE</a> enumerator value that specifies the type of PMI capability data to return.
+The PMI capability information is returned through an <a href="https://msdn.microsoft.com/library/windows/hardware/ff543837">IOCTL_PMI_GET_CAPABILITIES</a> I/O control (IOCTL) query request. The input data for this query request is set to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543864">PMI_CAPABILITIES_TYPE</a> enumerator value that specifies the type of PMI capability data to return.
 
 If the IOCTL query request completes successfully, the request returns a PMI_CAPABILITIES structure. The <b>Capabilities</b> member of this structure contains data formatted as the requested PMI capabilities structure.
 
-For example, if an IOCTL query request of <a href="..\pmi\ni-pmi-ioctl_pmi_get_capabilities.md">IOCTL_PMI_GET_CAPABILITIES</a> is made with the input data set to <b>PmiReportedCapabilities</b> and the request completes successfully, the request returns a PMI_CAPABILITIES structure with its members set to the following values:
+For example, if an IOCTL query request of <a href="https://msdn.microsoft.com/library/windows/hardware/ff543837">IOCTL_PMI_GET_CAPABILITIES</a> is made with the input data set to <b>PmiReportedCapabilities</b> and the request completes successfully, the request returns a PMI_CAPABILITIES structure with its members set to the following values:
 
 <ul>
 <li>
@@ -135,7 +120,7 @@ The <b>CapabilitiesType</b> member is set to <b>PmiReportedCapabilities</b>.
 
 </li>
 <li>
-The <b>Capabilities</b> member contains data that is formatted as a <a href="..\pmi\ns-pmi-_pmi_reported_capabilities.md">PMI_REPORTED_CAPABILITIES</a> structure.
+The <b>Capabilities</b> member contains data that is formatted as a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543902">PMI_REPORTED_CAPABILITIES</a> structure.
 
 </li>
 </ul>
@@ -144,25 +129,23 @@ The <b>Capabilities</b> member contains data that is formatted as a <a href="..\
 
 ## -see-also
 
-<a href="..\pmi\ns-pmi-_pmi_reported_capabilities.md">PMI_REPORTED_CAPABILITIES</a>
 
 
 
-<a href="..\pmi\ni-pmi-ioctl_pmi_get_capabilities.md">IOCTL_PMI_GET_CAPABILITIES</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543837">IOCTL_PMI_GET_CAPABILITIES</a>
 
 
 
-<a href="..\pmi\ns-pmi-_pmi_metered_hardware_information.md">PMI_METERED_HARDWARE_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543864">PMI_CAPABILITIES_TYPE</a>
 
 
 
-<a href="..\pmi\ne-pmi-pmi_capabilities_type.md">PMI_CAPABILITIES_TYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543900">PMI_METERED_HARDWARE_INFORMATION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543902">PMI_REPORTED_CAPABILITIES</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [powermeter\powermeter]:%20PMI_CAPABILITIES structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

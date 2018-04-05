@@ -7,7 +7,7 @@ old-location: debugger\debug_module_parameters.htm
 old-project: debugger
 ms.assetid: 3f10997f-263f-4d1b-ab0a-d44201aaaf37
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/26/2018
 ms.keywords: "*PDEBUG_MODULE_PARAMETERS, DEBUG_MODULE_PARAMETERS, DEBUG_MODULE_PARAMETERS structure [Windows Debugging], PDEBUG_MODULE_PARAMETERS, PDEBUG_MODULE_PARAMETERS structure pointer [Windows Debugging], Structures_6e7366d2-9f49-4b7e-a277-d788808e4c40.xml, _DEBUG_MODULE_PARAMETERS, dbgeng/DEBUG_MODULE_PARAMETERS, dbgeng/PDEBUG_MODULE_PARAMETERS, debugger.debug_module_parameters"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	DbgEng.h
 api_name:
 -	DEBUG_MODULE_PARAMETERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DEBUG_MODULE_PARAMETERS, *PDEBUG_MODULE_PARAMETERS
 ---
@@ -50,27 +51,6 @@ req.typenames: DEBUG_MODULE_PARAMETERS, *PDEBUG_MODULE_PARAMETERS
 
 
 The DEBUG_MODULE_PARAMETERS structure contains most of the parameters for describing a module.
-
-
-## -syntax
-
-
-````
-typedef struct _DEBUG_MODULE_PARAMETERS {
-  ULONG64 Base;
-  ULONG   Size;
-  ULONG   TimeDateStamp;
-  ULONG   Checksum;
-  ULONG   Flags;
-  ULONG   SymbolType;
-  ULONG   ImageNameSize;
-  ULONG   ModuleNameSize;
-  ULONG   LoadedImageNameSize;
-  ULONG   SymbolFileNameSize;
-  ULONG   MappedImageNameSize;
-  ULONG64 Reserved[2];
-} DEBUG_MODULE_PARAMETERS, *PDEBUG_MODULE_PARAMETERS;
-````
 
 
 ## -struct-fields

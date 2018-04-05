@@ -7,7 +7,7 @@ old-location: display\destroyvideoprocessorenum.htm
 old-project: display
 ms.assetid: a4325993-aa87-466e-8e89-40bede1e0306
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3D11_1DDI_DESTROYVIDEOPROCESSORENUM, d3d10umddi/pfnDestroyVideoProcessorEnum, display.destroyvideoprocessorenum, pfnDestroyVideoProcessorEnum, pfnDestroyVideoProcessorEnum callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3d10umddi.h
 api_name:
 -	pfnDestroyVideoProcessorEnum
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 ---
@@ -49,22 +50,8 @@ req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 ## -description
 
 
-Releases resources for the video processor enumeration object that were created through a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessorenum.md">CreateVideoProcessorEnum</a> function.
+Releases resources for the video processor enumeration object that were created through a call to the <a href="https://msdn.microsoft.com/38c27502-7e8a-45a1-8a7c-315300502480">CreateVideoProcessorEnum</a> function.
 
-
-
-## -prototype
-
-
-````
-PFND3D11_1DDI_DESTROYVIDEOPROCESSORENUM pfnDestroyVideoProcessorEnum;
-
-VOID APIENTRY* pfnDestroyVideoProcessorEnum(
-  _In_ D3D10DDI_HDEVICE               hDevice,
-  _In_ D3D11_1DDI_HVIDEOPROCESSORENUM hProcessorEnum
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -72,10 +59,10 @@ VOID APIENTRY* pfnDestroyVideoProcessorEnum(
 
 
 
-### -param D3D10DDI_HDEVICE
+### -param Arg1
 
 
-### -param D3D11_1DDI_HVIDEOPROCESSORENUM
+### -param Arg2
 
 
 
@@ -93,7 +80,7 @@ A handle to the display device (graphics context).
 
 #### - hProcessorEnum [in]
 
-A handle to the driver's private data for the video processor enumeration object. This handle was created by the Direct3D runtime and passed to the driver in the call to <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessorenum.md">CreateVideoProcessorEnum</a>.
+A handle to the driver's private data for the video processor enumeration object. This handle was created by the Direct3D runtime and passed to the driver in the call to <a href="https://msdn.microsoft.com/38c27502-7e8a-45a1-8a7c-315300502480">CreateVideoProcessorEnum</a>.
 
 
 ## -returns
@@ -107,13 +94,11 @@ This callback function does not return a value.
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessorenum.md">CreateVideoProcessorEnum</a>
 
 
 
+<a href="https://msdn.microsoft.com/38c27502-7e8a-45a1-8a7c-315300502480">CreateVideoProcessorEnum</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3D11_1DDI_DESTROYVIDEOPROCESSORENUM callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

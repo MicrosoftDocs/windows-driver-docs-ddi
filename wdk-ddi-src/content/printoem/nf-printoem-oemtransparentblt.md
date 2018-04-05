@@ -7,7 +7,7 @@ old-location: print\oemtransparentblt.htm
 old-project: print
 ms.assetid: 0ffd4759-cabe-4efe-a725-5b8ff26fda77
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: OEMTransparentBlt, OEMTransparentBlt function [Print Devices], print.oemtransparentblt, print_unidrv-pscript_rendering_a02993f9-58d7-4a42-ad7b-be61bd6b265d.xml, printoem/OEMTransparentBlt
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	printoem.h
 api_name:
 -	OEMTransparentBlt
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STDVARIABLEINDEX
 req.product: Windows 10 or later.
@@ -51,23 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <code>OEMTransparentBlt</code> function provides bit-block transfer capabilities with transparency.
-
-
-## -syntax
-
-
-````
-BOOL APIENTRY OEMTransparentBlt(
-   SURFOBJ  *psoDst,
-   STRFOBJ  *psoSrc,
-   CLIPOBJ  *pco,
-   XLATEOBJ *pxlo,
-   RECTL    *prclDst,
-   RECTL    *prclSrc,
-   ULONG    iTransColor,
-   ULONG    ulReserved
-);
-````
 
 
 ## -parameters

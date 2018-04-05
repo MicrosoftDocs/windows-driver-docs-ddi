@@ -7,7 +7,7 @@ old-location: display\d3dhal_dp2generatemipsublevels.htm
 old-project: display
 ms.assetid: 7952cf0f-8a05-4d82-9669-db3db504d22d
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*LPD3DHAL_DP2GENERATEMIPSUBLEVELS, D3DHAL_DP2GENERATEMIPSUBLEVELS, D3DHAL_DP2GENERATEMIPSUBLEVELS structure [Display Devices], LPD3DHAL_DP2GENERATEMIPSUBLEVELS, LPD3DHAL_DP2GENERATEMIPSUBLEVELS structure pointer [Display Devices], _D3DHAL_DP2GENERATEMIPSUBLEVELS, d3dhal/D3DHAL_DP2GENERATEMIPSUBLEVELS, d3dhal/LPD3DHAL_DP2GENERATEMIPSUBLEVELS, d3dstrct_0b221ab6-0f8c-4406-9d99-c6101b353223.xml, display.d3dhal_dp2generatemipsublevels"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dhal.h
 api_name:
 -	D3DHAL_DP2GENERATEMIPSUBLEVELS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DHAL_DP2GENERATEMIPSUBLEVELS
 ---
@@ -54,17 +55,6 @@ req.typenames: D3DHAL_DP2GENERATEMIPSUBLEVELS
    
 
 The D3DHAL_DP2GENERATEMIPSUBLEVELS structure is used to inform the driver to automatically generate the sublevels of a given MIP-map texture using a given filter type.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DHAL_DP2GENERATEMIPSUBLEVELS {
-  DWORD                hSurface;
-  D3DTEXTUREFILTERTYPE Filter;
-} D3DHAL_DP2GENERATEMIPSUBLEVELS, *LPD3DHAL_DP2GENERATEMIPSUBLEVELS;
-````
 
 
 ## -struct-fields
@@ -93,13 +83,11 @@ To generate the sublevels of a MIP-map texture, the driver receives a D3DDP2OP_G
 
 ## -see-also
 
+
+
+
 D3DDP2OP_GENERATEMIPSUBLEVELS
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DHAL_DP2GENERATEMIPSUBLEVELS structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

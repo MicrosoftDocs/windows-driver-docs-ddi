@@ -7,7 +7,7 @@ old-location: display\d3dddicb_getmultisamplemethodlist.htm
 old-project: display
 ms.assetid: 07cabd0e-5b5c-42ff-9b2a-57bec527d690
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDICB_GETMULTISAMPLEMETHODLIST, D3DDDICB_GETMULTISAMPLEMETHODLIST structure [Display Devices], D3D_param_Structs_11da91d5-a4e6-4d24-b2b1-3645003ff25e.xml, _D3DDDICB_GETMULTISAMPLEMETHODLIST, d3dumddi/D3DDDICB_GETMULTISAMPLEMETHODLIST, display.d3dddicb_getmultisamplemethodlist
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	D3DDDICB_GETMULTISAMPLEMETHODLIST
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDICB_GETMULTISAMPLEMETHODLIST
 ---
@@ -50,21 +51,6 @@ req.typenames: D3DDDICB_GETMULTISAMPLEMETHODLIST
 
 
 The D3DDDICB_GETMULTISAMPLEMETHODLIST structure describes parameters to retrieve the list of multiple-sample methods for an allocation.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DDDICB_GETMULTISAMPLEMETHODLIST {
-  D3DDDI_VIDEO_PRESENT_SOURCE_ID VidPnSourceId;
-  UINT                           Width;
-  UINT                           Height;
-  D3DDDIFORMAT                   Format;
-  D3DDDI_MULTISAMPLINGMETHOD     *pMethodList;
-  UINT                           MethodCount;
-} D3DDDICB_GETMULTISAMPLEMETHODLIST;
-````
 
 
 ## -struct-fields
@@ -89,12 +75,12 @@ typedef struct _D3DDDICB_GETMULTISAMPLEMETHODLIST {
 
 ### -field Format
 
-[in] A <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>-typed value that indicates the pixel format of the allocation.
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff544312">D3DDDIFORMAT</a>-typed value that indicates the pixel format of the allocation.
 
 
 ### -field pMethodList
 
-[out] An array of <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_multisamplingmethod.md">D3DDDI_MULTISAMPLINGMETHOD</a> structures that describe the list of multiple-sampling methods that are used for the allocation or <b>NULL</b>.
+[out] An array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff544594">D3DDDI_MULTISAMPLINGMETHOD</a> structures that describe the list of multiple-sampling methods that are used for the allocation or <b>NULL</b>.
 
 
 ### -field MethodCount
@@ -113,21 +99,19 @@ If the runtime returns a non-<b>NULL</b> value in the <b>pMethodList</b> member,
 
 ## -see-also
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_multisamplingmethod.md">D3DDDI_MULTISAMPLINGMETHOD</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getmultisamplemethodlistcb.md">pfnGetMultisampleMethodListCb</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544312">D3DDDIFORMAT</a>
 
 
 
-<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544594">D3DDDI_MULTISAMPLINGMETHOD</a>
 
 
 
+<a href="https://msdn.microsoft.com/2e3f9ee9-83a0-4b81-a22b-594e5bd4d046">pfnGetMultisampleMethodListCb</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DDDICB_GETMULTISAMPLEMETHODLIST structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

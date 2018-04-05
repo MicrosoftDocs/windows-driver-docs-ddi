@@ -7,7 +7,7 @@ old-location: display\d3dkmtcheckmonitorpowerstate.htm
 old-project: display
 ms.assetid: 8f218b63-304e-4f25-88d8-ea1326c613ee
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMTCheckMonitorPowerState, D3DKMTCheckMonitorPowerState callback function [Display Devices], OpenGL_Functions_d05a2b63-fe81-45f0-908d-94043416b1d0.xml, PFND3DKMT_CHECKMONITORPOWERSTATE, d3dkmthk/D3DKMTCheckMonitorPowerState, display.d3dkmtcheckmonitorpowerstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmthk.h
 api_name:
 -	D3DKMTCheckMonitorPowerState
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_TARGETMODE_DETAIL_TIMING
 ---
@@ -50,16 +51,6 @@ req.typenames: DXGK_TARGETMODE_DETAIL_TIMING
 
 
 The <b>D3DKMTCheckMonitorPowerState</b> function verifies the power state of a monitor.
-
-
-## -prototype
-
-
-````
-NTSTATUS APIENTRY D3DKMTCheckMonitorPowerState(
-  _In_ const D3DKMT_CHECKMONITORPOWERSTATE *pData
-);
-````
 
 
 ## -parameters
@@ -78,7 +69,7 @@ NTSTATUS APIENTRY D3DKMTCheckMonitorPowerState(
 
 #### - pData [in]
 
-A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_checkmonitorpowerstate.md">D3DKMT_CHECKMONITORPOWERSTATE</a> structure that describes the connection to the monitor for which to check the power state. 
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547301">D3DKMT_CHECKMONITORPOWERSTATE</a> structure that describes the connection to the monitor for which to check the power state. 
 
 
 ## -returns
@@ -124,13 +115,11 @@ This function might also return other <b>NTSTATUS</b> values.
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_checkmonitorpowerstate.md">D3DKMT_CHECKMONITORPOWERSTATE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547301">D3DKMT_CHECKMONITORPOWERSTATE</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3DKMT_CHECKMONITORPOWERSTATE callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

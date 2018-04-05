@@ -7,7 +7,7 @@ old-location: storage\hwstorunitcontrol.htm
 old-project: storage
 ms.assetid: 33534C7A-C88D-4980-98A7-2B94488D3550
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: HW_UNIT_CONTROL, HwStorUnitControl, HwStorUnitControl routine [Storage Devices], storage.hwstorunitcontrol, storport/HwStorUnitControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Storport.h
 api_name:
 -	HwStorUnitControl
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STORAGE_DEVICE_UNIQUE_IDENTIFIER, *PSTORAGE_DEVICE_UNIQUE_IDENTIFIER
 req.product: Windows 10 or later.
@@ -51,21 +52,6 @@ req.product: Windows 10 or later.
 
 
 A miniport driver's <b>HwStorUnitControl</b> routine is called to perform synchronous operations to control the state of storage unit device. The miniport driver is notified to  start a unit or handle a power state transition for a unit device.
-
-
-## -prototype
-
-
-````
-HW_UNIT_CONTROL HwStorUnitControl;
-
-SCSI_UNIT_CONTROL_STATUS HwStorUnitControl(
-  _In_ PVOID                     DeviceExtension,
-  _In_ SCSI_ADAPTER_CONTROL_TYPE ControlType,
-  _In_ PVOID                     Parameters
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -167,7 +153,7 @@ None
 
 </td>
 <td>
-Notifies the miniport if idle power management is enabled or disabled on the unit component. The miniport should call <a href="..\storport\nf-storport-storportinitializepofxpower.md">StorPortInitializePoFxPower</a> within this unit control if idle power management was enabled and it if supports runtime power management for the unit device.
+Notifies the miniport if idle power management is enabled or disabled on the unit component. The miniport should call <a href="https://msdn.microsoft.com/library/windows/hardware/hh920421">StorPortInitializePoFxPower</a> within this unit control if idle power management was enabled and it if supports runtime power management for the unit device.
 
 </td>
 <td>
@@ -221,7 +207,7 @@ None
 
 </td>
 <td>
-Notifies the miniport to set the unit component to the given functional power state (F-state). The miniport must support this control type if is specifies more than one F-state in the call to <a href="..\storport\nf-storport-storportinitializepofxpower.md">StorPortInitializePoFxPower</a>.
+Notifies the miniport to set the unit component to the given functional power state (F-state). The miniport must support this control type if is specifies more than one F-state in the call to <a href="https://msdn.microsoft.com/library/windows/hardware/hh920421">StorPortInitializePoFxPower</a>.
 
 </td>
 <td>
@@ -904,13 +890,11 @@ HW_UNIT_CONTROL (
 
 ## -see-also
 
-<a href="..\storport\nc-storport-hw_adapter_control.md">HwStorAdapterControl</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557365">HwStorAdapterControl</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20HW_UNIT_CONTROL routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

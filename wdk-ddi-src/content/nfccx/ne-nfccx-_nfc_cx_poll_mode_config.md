@@ -38,7 +38,8 @@ api_location:
 -	nfccx.h
 api_name:
 -	NFC_CX_POLL_MODE_CONFIG, *PNFC_CX_POLL_MODE_CONFIG
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NFC_CX_POLL_MODE_CONFIG, *PNFC_CX_POLL_MODE_CONFIG
 ---
@@ -50,22 +51,6 @@ req.typenames: NFC_CX_POLL_MODE_CONFIG, *PNFC_CX_POLL_MODE_CONFIG
 
 
 The NFC_CX_POLL_MODE_CONFIG enumeration specifies poll mode.
-
-
-## -syntax
-
-
-````
-typedef enum _NFC_CX_POLL_MODE_CONFIG { 
-  NFC_CX_POLL_NFC_A       = 0x00000001,
-  NFC_CX_POLL_NFC_B       = 0x00000002,
-  NFC_CX_POLL_NFC_F_212   = 0x00000004,
-  NFC_CX_POLL_NFC_F_424   = 0x00000008,
-  NFC_CX_POLL_NFC_15693   = 0x00000010,
-  NFC_CX_POLL_NFC_ACTIVE  = 0x00000020,
-  NFC_CX_POLL_DEFAULT     = NFC_CX_POLL_NFC_A | NFC_CX_POLL_NFC_B | NFC_CX_POLL_NFC_F_212 | NFC_CX_POLL_NFC_F_424
-} NFC_CX_POLL_MODE_CONFIG, *PNFC_CX_POLL_MODE_CONFIG;
-````
 
 
 ## -enum-fields
@@ -103,17 +88,15 @@ NFC-F poll mode (424 kbps)
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
 
 
 
 <a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [nfpdrivers\nfpdrivers]:%20NFC_CX_POLL_MODE_CONFIG enumeration%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KS_VIDEOINFOHEADER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KS_VIDEOINFOHEADER, *PKS_VIDEOINFOHEADER
 ---
@@ -50,21 +51,6 @@ req.typenames: KS_VIDEOINFOHEADER, *PKS_VIDEOINFOHEADER
 
 
 The KS_VIDEOINFOHEADER structure describes the bitmap and color information for a video stream.
-
-
-## -syntax
-
-
-````
-typedef struct tagKS_VIDEOINFOHEADER {
-  RECT                rcSource;
-  RECT                rcTarget;
-  DWORD               dwBitRate;
-  DWORD               dwBitErrorRate;
-  REFERENCE_TIME      AvgTimePerFrame;
-  KS_BITMAPINFOHEADER bmiHeader;
-} KS_VIDEOINFOHEADER, *PKS_VIDEOINFOHEADER;
-````
 
 
 ## -struct-fields
@@ -99,14 +85,14 @@ Specifies the average time per frame, in 100-nanosecond units.
 
 ### -field bmiHeader
 
-Describes a <a href="..\ksmedia\ns-ksmedia-tagks_bitmapinfoheader.md">KS_BITMAPINFOHEADER</a> structure that contains color and dimension information about the video image bitmap.
+Describes a <a href="https://msdn.microsoft.com/library/windows/hardware/ff567305">KS_BITMAPINFOHEADER</a> structure that contains color and dimension information about the video image bitmap.
 
 
 ## -remarks
 
 
 
-To describe a video stream with bob or weave settings, use <a href="..\ksmedia\ns-ksmedia-tagks_videoinfoheader2.md">KS_VIDEOINFOHEADER2</a>.
+To describe a video stream with bob or weave settings, use <a href="https://msdn.microsoft.com/library/windows/hardware/ff567702">KS_VIDEOINFOHEADER2</a>.
 
 The KS_VIDEOINFOHEADER structure is identical to the Microsoft DirectShow VIDEOINFOHEADER structure.
 
@@ -121,17 +107,15 @@ The <b>rcTarget</b> member specifies the destination rectangle for the video. Mo
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-tagks_bitmapinfoheader.md">KS_BITMAPINFOHEADER</a>
 
 
 
-<a href="..\ksmedia\ns-ksmedia-tagks_videoinfoheader2.md">KS_VIDEOINFOHEADER2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567305">KS_BITMAPINFOHEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567702">KS_VIDEOINFOHEADER2</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KS_VIDEOINFOHEADER structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

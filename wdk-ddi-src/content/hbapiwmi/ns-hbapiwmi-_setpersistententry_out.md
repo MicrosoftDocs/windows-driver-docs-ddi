@@ -7,7 +7,7 @@ old-location: storage\setpersistententry_out.htm
 old-project: storage
 ms.assetid: c2089ae9-e872-4bbb-8e7b-fe11082d2b46
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSetPersistentEntry_OUT, PSetPersistentEntry_OUT, PSetPersistentEntry_OUT structure pointer [Storage Devices], SetPersistentEntry_OUT, SetPersistentEntry_OUT structure [Storage Devices], _SetPersistentEntry_OUT, hbapiwmi/PSetPersistentEntry_OUT, hbapiwmi/SetPersistentEntry_OUT, storage.setpersistententry_out, structs-Fibre_3dbfc9dd-6c90-4908-bb5d-c331a2e0334c.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	hbapiwmi.h
 api_name:
 -	SetPersistentEntry_OUT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SetPersistentEntry_OUT, *PSetPersistentEntry_OUT
 ---
@@ -50,16 +51,6 @@ req.typenames: SetPersistentEntry_OUT, *PSetPersistentEntry_OUT
 
 
 The SetPersistentEntry_OUT structure is used to report the output parameter data of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565783">SetPersistentEntry</a> WMI method to the WMI client.
-
-
-## -syntax
-
-
-````
-typedef struct _SetPersistentEntry_OUT {
-  ULONG HBAStatus;
-} SetPersistentEntry_OUT, *PSetPersistentEntry_OUT;
-````
 
 
 ## -struct-fields
@@ -83,13 +74,11 @@ The WMI tool suite generates a declaration of the SetPersistentEntry_OUT structu
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565783">SetPersistentEntry</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20SetPersistentEntry_OUT structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

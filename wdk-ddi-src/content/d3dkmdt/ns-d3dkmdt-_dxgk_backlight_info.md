@@ -7,7 +7,7 @@ old-location: display\dxgk_backlight_info.htm
 old-project: display
 ms.assetid: 9008e5e6-e03c-4d34-99bd-3e6624327fcc
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: DXGK_BACKLIGHT_INFO, DXGK_BACKLIGHT_INFO structure [Display Devices], _DXGK_BACKLIGHT_INFO, d3dkmdt/DXGK_BACKLIGHT_INFO, display.dxgk_backlight_info
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3dkmdt.h
 api_name:
 -	DXGK_BACKLIGHT_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_BACKLIGHT_INFO
 ---
@@ -50,18 +51,6 @@ req.typenames: DXGK_BACKLIGHT_INFO
 
 
 Contains the current level of backlight reduction that is applied to the integrated display panel. Used by Windows Display Driver Model (WDDM) 1.2 and later display miniport drivers that support adaptive brightness control.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGK_BACKLIGHT_INFO {
-  USHORT                        BacklightUsersetting;
-  USHORT                        BacklightEffective;
-  D3DDDI_GAMMA_RAMP_RGB256x3x16 GammaRamp;
-} DXGK_BACKLIGHT_INFO;
-````
 
 
 ## -struct-fields
@@ -85,7 +74,7 @@ This member can range in value from 0 to 65535.
 
 ### -field GammaRamp
 
-[out] A <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_gamma_ramp_rgb256x3x16.md">D3DDDI_GAMMA_RAMP_RGB256x3x16</a> structure that contains a description of a gamma lookup table.
+[out] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff544571">D3DDDI_GAMMA_RAMP_RGB256x3x16</a> structure that contains a description of a gamma lookup table.
 This lookup table represents the gamma ramp that has been optimized for backlight display by the display miniport driver from a gamma ramp set by an application.
 
 
@@ -93,24 +82,22 @@ This lookup table represents the gamma ramp that has been optimized for backligh
 
 
 
-For more information about the use of this structure, see Remarks of the <a href="..\dispmprt\nc-dispmprt-dxgk_brightness_get_backlight_reduction.md">DxgkDdiGetBacklightReduction</a> function.
+For more information about the use of this structure, see Remarks of the <a href="https://msdn.microsoft.com/018cb4a0-e71d-407e-8fe9-716312099b73">DxgkDdiGetBacklightReduction</a> function.
 
 
 
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgk_brightness_get_backlight_reduction.md">DxgkDdiGetBacklightReduction</a>
 
 
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_gamma_ramp_rgb256x3x16.md">D3DDDI_GAMMA_RAMP_RGB256x3x16</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544571">D3DDDI_GAMMA_RAMP_RGB256x3x16</a>
 
 
 
+<a href="https://msdn.microsoft.com/018cb4a0-e71d-407e-8fe9-716312099b73">DxgkDdiGetBacklightReduction</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGK_BACKLIGHT_INFO structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

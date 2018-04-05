@@ -7,7 +7,7 @@ old-location: display\d3d11_1ddi_video_processor_rotation.htm
 old-project: display
 ms.assetid: 4fe01ddd-723f-4b3c-884a-a18d4f8512e5
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: D3D11_1DDI_VIDEO_PROCESSOR_ROTATION, D3D11_1DDI_VIDEO_PROCESSOR_ROTATION enumeration [Display Devices], D3D11_1DDI_VIDEO_PROCESSOR_ROTATION_180, D3D11_1DDI_VIDEO_PROCESSOR_ROTATION_270, D3D11_1DDI_VIDEO_PROCESSOR_ROTATION_90, D3D11_1DDI_VIDEO_PROCESSOR_ROTATION_IDENTITY, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_ROTATION, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_ROTATION_180, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_ROTATION_270, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_ROTATION_90, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_ROTATION_IDENTITY, display.d3d11_1ddi_video_processor_rotation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3d10umddi.h
 api_name:
 -	D3D11_1DDI_VIDEO_PROCESSOR_ROTATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D11_1DDI_VIDEO_PROCESSOR_ROTATION
 ---
@@ -50,19 +51,6 @@ req.typenames: D3D11_1DDI_VIDEO_PROCESSOR_ROTATION
 
 
 Specifies the clockwise rotation of the input stream of the video processor.
-
-
-## -syntax
-
-
-````
-typedef enum D3D11_1DDI_VIDEO_PROCESSOR_ROTATION { 
-  D3D11_1DDI_VIDEO_PROCESSOR_ROTATION_IDENTITY  = 0,
-  D3D11_1DDI_VIDEO_PROCESSOR_ROTATION_90        = 1,
-  D3D11_1DDI_VIDEO_PROCESSOR_ROTATION_180       = 2,
-  D3D11_1DDI_VIDEO_PROCESSOR_ROTATION_270       = 3
-} D3D11_1DDI_VIDEO_PROCESSOR_ROTATION;
-````
 
 
 ## -enum-fields

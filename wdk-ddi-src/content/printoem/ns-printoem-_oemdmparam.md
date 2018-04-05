@@ -7,7 +7,7 @@ old-location: print\oemdmparam.htm
 old-project: print
 ms.assetid: 625980d1-47eb-4427-a9e8-967b1873bbd6
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: "*POEMDMPARAM, OEMDMPARAM, OEMDMPARAM structure [Print Devices], POEMDMPARAM, POEMDMPARAM structure pointer [Print Devices], _OEMDMPARAM, print.oemdmparam, print_unidrv-pscript_ui_49535272-ec29-4133-8105-0ce9b31808a2.xml, printoem/OEMDMPARAM, printoem/POEMDMPARAM"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	printoem.h
 api_name:
 -	OEMDMPARAM
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OEMDMPARAM, *POEMDMPARAM
 req.product: Windows 10 or later.
@@ -51,24 +52,6 @@ req.product: Windows 10 or later.
 
 
 The OEMDMPARAM structure is used as an input parameter to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554167">IPrintOemUI::DevMode</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff554230">IPrintOemUni::DevMode</a>, and <a href="https://msdn.microsoft.com/library/windows/hardware/ff553205">IPrintOemPS::DevMode</a> methods.
-
-
-## -syntax
-
-
-````
-typedef struct _OEMDMPARAM {
-  DWORD    cbSize;
-  PVOID    pdriverobj;
-  HANDLE   hPrinter;
-  HANDLE   hModule;
-  PDEVMODE pPublicDMIn;
-  PDEVMODE pPublicDMOut;
-  PVOID    pOEMDMIn;
-  PVOID    pOEMDMOut;
-  DWORD    cbBufSize;
-} OEMDMPARAM, *POEMDMPARAM;
-````
 
 
 ## -struct-fields
@@ -95,7 +78,7 @@ Not used.
 
 #### For IPrintOemUni::DevMode and IPrintOemPS::DevMode:
 
-Pointer to a <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a> structure.
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547573">DEVOBJ</a> structure.
 
 
 ### -field hPrinter

@@ -7,7 +7,7 @@ old-location: kernel\rtlunalignedstringcblength.htm
 old-project: kernel
 ms.assetid: 03f49658-ec51-4869-bba8-832c6856c4b0
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/28/2018
 ms.keywords: RtlUnalignedStringCbLength, RtlUnalignedStringCbLengthW, RtlUnalignedStringCbLengthW function [Kernel-Mode Driver Architecture], kernel.rtlunalignedstringcblength, ntstrsafe/RtlUnalignedStringCbLengthW, safestrings_6724eedb-4d8d-490a-aac8-81c5c95ca3df.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ntstrsafe.dll
 api_name:
 -	RtlUnalignedStringCbLengthW
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SYSTEM_POWER_STATE_CONTEXT, *PSYSTEM_POWER_STATE_CONTEXT
 ---
@@ -50,19 +51,7 @@ req.typenames: SYSTEM_POWER_STATE_CONTEXT, *PSYSTEM_POWER_STATE_CONTEXT
 ## -description
 
 
-The <b>RtlUnalignedStringCbLengthW</b> function is a version of the <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcblengthw.md">RtlStringCbLength</a> function that accepts an unaligned pointer to a string of Unicode characters.
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlUnalignedStringCbLengthW(
-  _In_      STRSAFE_PCUNZWCH psz,
-  _In_      size_t           cbMax,
-  _Out_opt_ size_t           *pcbLength
-);
-````
+The <b>RtlUnalignedStringCbLengthW</b> function is a version of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562820">RtlStringCbLength</a> function that accepts an unaligned pointer to a string of Unicode characters.
 
 
 ## -parameters
@@ -130,7 +119,7 @@ For information about how to test NTSTATUS values, see <a href="https://msdn.mic
 
 
 
-The <b>RtlUnalignedStringCbLengthW</b> function is available for processor architectures, such as Itanium-based and x64-based, that cause alignment exceptions when software attempts to access unaligned data. On those processors, you can use <b>RtlUnalignedStringCbLengthW</b> instead of the <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcblengthw.md">RtlStringCbLength</a> function to avoid alignment exceptions. (For processors that do not cause alignment exceptions, <b>RtlUnalignedStringCbLengthW</b> is equivalent to <b>RtlStringCbLength</b>.)
+The <b>RtlUnalignedStringCbLengthW</b> function is available for processor architectures, such as Itanium-based and x64-based, that cause alignment exceptions when software attempts to access unaligned data. On those processors, you can use <b>RtlUnalignedStringCbLengthW</b> instead of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562820">RtlStringCbLength</a> function to avoid alignment exceptions. (For processors that do not cause alignment exceptions, <b>RtlUnalignedStringCbLengthW</b> is equivalent to <b>RtlStringCbLength</b>.)
 
 For more information about the safe string functions, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565508">Using Safe String Functions</a>.
 
@@ -139,13 +128,11 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcblengthw.md">RtlStringCbLength</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562820">RtlStringCbLength</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20RtlUnalignedStringCbLengthW function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

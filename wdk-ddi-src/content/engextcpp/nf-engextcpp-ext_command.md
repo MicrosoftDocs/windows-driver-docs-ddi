@@ -7,7 +7,7 @@ old-location: debugger\ext_command.htm
 old-project: debugger
 ms.assetid: 349712b1-bd1f-4f1f-a242-b6aa36e48773
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/26/2018
 ms.keywords: EXT_COMMAND, EXT_COMMAND function [Windows Debugging], EngExtCpp_Ref_a6dc21d7-b0c2-4e13-add5-ecfe3c38a94a.xml, debugger.ext_command, engextcpp/EXT_COMMAND
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: engextcpp.hpp
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	engextcpp.hpp
 api_name:
 -	EXT_COMMAND
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 ---
@@ -49,21 +50,9 @@ req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 ## -description
 
 
-The EXT_COMMAND macro is used to define an extension command that was declared by using the <a href="..\engextcpp\nf-engextcpp-ext_command_method.md">EXT_COMMAND_METHOD</a> macro.
+The EXT_COMMAND macro is used to define an extension command that was declared by using the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544517">EXT_COMMAND_METHOD</a> macro.
 
 An extension command is defined as follows:
-
-
-## -syntax
-
-
-````
- EXT_COMMAND(
-    _Name,
-    _Desc,
-    _Args
-);
-````
 
 
 ## -parameters
@@ -73,7 +62,7 @@ An extension command is defined as follows:
 
 ### -param _Name
 
-The name of the extension command.  This must be the same as the <i>_Name</i> parameter that is used to declare the extension command by using <a href="..\engextcpp\nf-engextcpp-ext_command_method.md">EXT_COMMAND_METHOD</a>.
+The name of the extension command.  This must be the same as the <i>_Name</i> parameter that is used to declare the extension command by using <a href="https://msdn.microsoft.com/library/windows/hardware/ff544517">EXT_COMMAND_METHOD</a>.
 
 Because EXT_COMMAND is a macro, <i>_Name</i> must be the bare name of the extension command and should not be enclosed in quotation marks or be a variable.
 
@@ -87,7 +76,7 @@ A string describing the extension command.
 
 A string describing the arguments that are expected by the extension command.   For information about how the <i>_Args</i> string is formatted, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff553340">Parsing Extension Arguments</a>.
 
-<div class="alert"><b>Note</b>     As an alternative to supplying a string that describes the arguments, you can use  the string "{{custom}}" to indicate that the extension command will parse the arguments itself.  The method <a href="..\engextcpp\nf-engextcpp-extextension-getrawargstr.md">GetRawArgStr</a> can be used to fetch the raw argument for parsing.</div>
+<div class="alert"><b>Note</b>     As an alternative to supplying a string that describes the arguments, you can use  the string "{{custom}}" to indicate that the extension command will parse the arguments itself.  The method <a href="https://msdn.microsoft.com/library/windows/hardware/ff548226">GetRawArgStr</a> can be used to fetch the raw argument for parsing.</div>
 <div> </div>
 
 ## -remarks
@@ -96,7 +85,7 @@ A string describing the arguments that are expected by the extension command.   
 
 The body of the extension command does not take any arguments.  However, because the extension command is declared as a method of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544508">EXT_CLASS</a> class, it has access to all the members of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543981">ExtExtension</a> base class, some of which are initialized for the execution of the extension command.
 
-The macro <a href="..\engextcpp\nf-engextcpp-ext_command_method.md">EXT_COMMAND_METHOD</a> should be used to declare the extension command.  As with all C++ declarations, the EXT_COMMAND_METHOD declaration should appear in the source files before the EXT_COMMAND definition.
+The macro <a href="https://msdn.microsoft.com/library/windows/hardware/ff544517">EXT_COMMAND_METHOD</a> should be used to declare the extension command.  As with all C++ declarations, the EXT_COMMAND_METHOD declaration should appear in the source files before the EXT_COMMAND definition.
 
 When the debugger engine calls an extension command method, it wraps the call in a <b>try / except</b> block.  This protects the engine from some types of bugs in the extension code; but, since the extension calls are executed in the same thread as the engine, they can still cause it to crash.
 
@@ -120,7 +109,7 @@ EXT_CLASS
 </table></span></div>
 The default value of <a href="https://msdn.microsoft.com/library/windows/hardware/ff544508">EXT_CLASS</a> is <b>Extension</b>.  You can change this value  by defining EXT_CLASS before you include the header file Engextcpp.hpp.
 
-Each extension command in the library is declared as a member of the class EXT_CLASS using the macro <a href="..\engextcpp\nf-engextcpp-ext_command_method.md">EXT_COMMAND_METHOD</a>.  For example, a library with two extension commands, <b>extcmd</b> and <b>anotherextcmd</b>, could define the class EXT_CLASS as follows:
+Each extension command in the library is declared as a member of the class EXT_CLASS using the macro <a href="https://msdn.microsoft.com/library/windows/hardware/ff544517">EXT_COMMAND_METHOD</a>.  For example, a library with two extension commands, <b>extcmd</b> and <b>anotherextcmd</b>, could define the class EXT_CLASS as follows:
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -160,7 +149,6 @@ One of the source files to be compiled into the EngExtCpp extension library shou
 
 ## -see-also
 
-<a href="..\engextcpp\nf-engextcpp-ext_command_method.md">EXT_COMMAND_METHOD</a>
 
 
 
@@ -168,13 +156,12 @@ One of the source files to be compiled into the EngExtCpp extension library shou
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544517">EXT_COMMAND_METHOD</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543981">ExtExtension</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20EXT_COMMAND function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

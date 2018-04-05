@@ -7,7 +7,7 @@ old-location: display\cryptosessiongethandle.htm
 old-project: display
 ms.assetid: 30700af0-79e8-4808-bec8-94f5e5152bcc
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: CryptoSessionGetHandle, CryptoSessionGetHandle callback function [Display Devices], PFND3D11_1DDI_CRYPTOSESSIONGETHANDLE, d3d10umddi/CryptoSessionGetHandle, display.cryptosessiongethandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3d10umddi.h
 api_name:
 -	CryptoSessionGetHandle
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 ---
@@ -50,21 +51,6 @@ req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 
 
 Returns a handle for a cryptographic session.
-
-
-## -prototype
-
-
-````
-PFND3D11_1DDI_CRYPTOSESSIONGETHANDLE CryptoSessionGetHandle;
-
-HRESULT APIENTRY* CryptoSessionGetHandle(
-  _In_  D3D10DDI_HDEVICE          hDevice,
-  _In_  D3D11_1DDI_HCRYPTOSESSION hCryptoSession,
-  _Out_ HANDLE                    *pHandle
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -81,7 +67,7 @@ A handle to the display device (graphics context).
 
 ### -param hCryptoSession [in]
 
-A handle to the driver's private data for the cryptographic session. This handle was created by the Direct3D runtime and passed to the driver in the call to <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession.md">CreateCryptoSession</a>.
+A handle to the driver's private data for the cryptographic session. This handle was created by the Direct3D runtime and passed to the driver in the call to <a href="https://msdn.microsoft.com/library/windows/hardware/hh451619">CreateCryptoSession</a>.
 
 
 ### -param *pHandle [out]
@@ -156,13 +142,11 @@ This function allows the driver to define its own handle to its state data for t
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession.md">CreateCryptoSession</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451619">CreateCryptoSession</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3D11_1DDI_CRYPTOSESSIONGETHANDLE callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: display\d3dkmtdestroydevice.htm
 old-project: display
 ms.assetid: 7699214a-0cd2-401a-9f66-199d181abce4
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMTDestroyDevice, D3DKMTDestroyDevice function [Display Devices], OpenGL_Functions_66b283a1-deee-4a49-a02d-217567d35873.xml, d3dkmthk/D3DKMTDestroyDevice, display.d3dkmtdestroydevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,8 @@ api_location:
 -	API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
 -	D3DKMTDestroyDevice
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_DRIVERVERSION
 ---
@@ -53,16 +54,6 @@ req.typenames: D3DKMT_DRIVERVERSION
 
 
 The <b>D3DKMTDestroyDevice</b> function releases a kernel-mode device context.
-
-
-## -syntax
-
-
-````
-NTSTATUS D3DKMTDestroyDevice(
-  _In_ const D3DKMT_DESTROYDEVICE *pData
-);
-````
 
 
 ## -parameters
@@ -79,7 +70,7 @@ TBD
 
 #### - pData [in]
 
-A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_destroydevice.md">D3DKMT_DESTROYDEVICE</a> structure that contains the handle to the kernel-mode device context.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547881">D3DKMT_DESTROYDEVICE</a> structure that contains the handle to the kernel-mode device context.
 
 
 ## -returns
@@ -127,13 +118,11 @@ This function might also return other <b>NTSTATUS</b> values.
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_destroydevice.md">D3DKMT_DESTROYDEVICE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547881">D3DKMT_DESTROYDEVICE</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMTDestroyDevice function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: netvista\wdi_anqp_query_status.htm
 old-project: netvista
 ms.assetid: 5EC1B41D-2A6F-43B7-9E22-8A65CF4E11CA
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: WDI_ANQP_QUERY_STATUS, WDI_ANQP_QUERY_STATUS enumeration [Network Drivers Starting with Windows Vista], WDI_ANQP_QUERY_STATUS_ACCESS_ISSUES, WDI_ANQP_QUERY_STATUS_ADVERTISEMENT_PROTOCOL_NOT_SUPPORTED_ON_REMOTE, WDI_ANQP_QUERY_STATUS_ADVERTISEMENT_SERVER_NOT_RESPONDING, WDI_ANQP_QUERY_STATUS_FAILURE, WDI_ANQP_QUERY_STATUS_GAS_PROTOCOL_FAILURE, WDI_ANQP_QUERY_STATUS_RESOURCES, WDI_ANQP_QUERY_STATUS_SUCCESS, WDI_ANQP_QUERY_STATUS_TIMED_OUT, _WDI_ANQP_QUERY_STATUS, netvista.wdi_anqp_query_status, netvista.wifi_anqp_query_status, wditypes/WDI_ANQP_QUERY_STATUS, wditypes/WDI_ANQP_QUERY_STATUS_ACCESS_ISSUES, wditypes/WDI_ANQP_QUERY_STATUS_ADVERTISEMENT_PROTOCOL_NOT_SUPPORTED_ON_REMOTE, wditypes/WDI_ANQP_QUERY_STATUS_ADVERTISEMENT_SERVER_NOT_RESPONDING, wditypes/WDI_ANQP_QUERY_STATUS_FAILURE, wditypes/WDI_ANQP_QUERY_STATUS_GAS_PROTOCOL_FAILURE, wditypes/WDI_ANQP_QUERY_STATUS_RESOURCES, wditypes/WDI_ANQP_QUERY_STATUS_SUCCESS, wditypes/WDI_ANQP_QUERY_STATUS_TIMED_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	wditypes.hpp
 api_name:
 -	WDI_ANQP_QUERY_STATUS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDI_ANQP_QUERY_STATUS
 req.product: Windows 10 or later.
@@ -51,23 +52,6 @@ req.product: Windows 10 or later.
 
 
 The WDI_ANQP_QUERY_STATUS enumeration defines the Access Network Query Protocol (ANQP) query status values.
-
-
-## -syntax
-
-
-````
-typedef enum _WDI_ANQP_QUERY_STATUS { 
-  WDI_ANQP_QUERY_STATUS_SUCCESS                                         = 0,
-  WDI_ANQP_QUERY_STATUS_FAILURE                                         = 1,
-  WDI_ANQP_QUERY_STATUS_TIMED_OUT                                       = 2,
-  WDI_ANQP_QUERY_STATUS_RESOURCES                                       = 3,
-  WDI_ANQP_QUERY_STATUS_ADVERTISEMENT_PROTOCOL_NOT_SUPPORTED_ON_REMOTE  = 4,
-  WDI_ANQP_QUERY_STATUS_GAS_PROTOCOL_FAILURE                            = 5,
-  WDI_ANQP_QUERY_STATUS_ADVERTISEMENT_SERVER_NOT_RESPONDING             = 6,
-  WDI_ANQP_QUERY_STATUS_ACCESS_ISSUES                                   = 7
-} WDI_ANQP_QUERY_STATUS;
-````
 
 
 ## -enum-fields

@@ -7,7 +7,7 @@ old-location: ifsk\rtlreservechunk.htm
 old-project: ifsk
 ms.assetid: d6cd676c-32ed-457f-84a3-999246eba0d8
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: RtlReserveChunk, RtlReserveChunk function [Installable File System Drivers], ifsk.rtlreservechunk, ntifs/RtlReserveChunk, rtlref_cfca6b3d-c505-464e-83fc-8bbff476e93d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	ntifs.h
 api_name:
 -	RtlReserveChunk
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -50,16 +51,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>RtlReserveChunk</b> routine is reserved for system use. 
-
-
-## -syntax
-
-
-````
-  RtlReserveChunk(
-    
-);
-````
 
 
 ## -parameters

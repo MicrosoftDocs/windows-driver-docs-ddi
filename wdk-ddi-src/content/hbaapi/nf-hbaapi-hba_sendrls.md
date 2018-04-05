@@ -7,7 +7,7 @@ old-location: storage\hba_sendrls.htm
 old-project: storage
 ms.assetid: d2349c45-eb88-4584-bbdd-b7c46601a1bc
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: HBA_SendRLS, HBA_SendRLS routine [Storage Devices], fibreHBA_rtns_8a7d150c-eeba-4850-9a93-7a48096d6f22.xml, hbaapi/HBA_SendRLS, storage.hba_sendrls
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Hbaapi.dll
 api_name:
 -	HBA_SendRLS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: HBA_WWNTYPE
 ---
@@ -52,20 +53,6 @@ req.typenames: HBA_WWNTYPE
 The <b>HBA_SendRLS</b> WMI routine sends a read link error status block (RLS) request through the indicated local port to the indicated remote port to retrieve a link error status block associated with the remote port.
 
 
-## -syntax
-
-
-````
-HBA_STATUS HBA_API HBA_SendRLS(
-  _In_    HBA_HANDLE HbaHandle,
-  _In_    HBA_WWN    HbaPortWWN,
-  _In_    HBA_WWN    DestWWN,
-  _Out_   void       *pRspBuffer,
-  _Inout_ HBA_UINT32 *pRspBufferSize
-);
-````
-
-
 ## -parameters
 
 
@@ -73,7 +60,7 @@ HBA_STATUS HBA_API HBA_SendRLS(
 
 ### -param HbaHandle [in]
 
-Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a> that identifies the HBA through which the request is sent. 
+Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a> that identifies the HBA through which the request is sent. 
 
 
 ### -param HbaPortWWN [in]
@@ -159,17 +146,15 @@ Returned if an unspecified error occurred that prevented the execution of the RL
 
 ## -see-also
 
-<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20HBA_SendRLS routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: display\pfnd3d12ddi_video_getcaps.htm
 old-project: display
 ms.assetid: 6875B754-115F-481D-8D46-2A383BA6B5E7
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3D12DDI_VIDEO_GETCAPS, d3d12umddi/pfnGetCaps, display.pfnd3d12ddi_video_getcaps, pfnGetCaps, pfnGetCaps callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3d12umddi.h
 api_name:
 -	pfnGetCaps
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
 ---
@@ -50,20 +51,6 @@ req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
 
 
 The <i>pfnGetCaps</i> callback function defines an entry point for video specific caps.
-
-
-## -prototype
-
-
-````
-PFND3D12DDI_VIDEO_GETCAPS pfnGetCaps;
-
-HRESULT APIENTRY* pfnGetCaps(
-             D3D12DDI_HDEVICE          hDrvDevice,
-  _In_ const D3D12DDIARG_VIDEO_GETCAPS *pArgs
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -94,7 +81,7 @@ If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.co
 
 
 
-Access this function though the <a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_video_decode_support_data_0020.md">D3D12DDI_VIDEO_DECODE_SUPPORT_DATA</a> structure.
+Access this function though the <a href="https://msdn.microsoft.com/05274F4B-0473-42BA-A382-B348A85DBFA5">D3D12DDI_VIDEO_DECODE_SUPPORT_DATA</a> structure.
 
 The following list describes the mapping of D3D12DDICAPS_TYPE_VIDEO_0010 type to the meaning of the pInfo, pData, and DataSize parameters.
 
@@ -367,13 +354,11 @@ D3D12DDICAPS_TYPE_VIDEO_DECODE_BITSTREAM_ENCRYPTION_SCHEME_COUNT
 
 ## -see-also
 
-<a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_video_decode_support_data_0020.md">D3D12DDI_VIDEO_DECODE_SUPPORT_DATA</a>
 
 
 
+<a href="https://msdn.microsoft.com/05274F4B-0473-42BA-A382-B348A85DBFA5">D3D12DDI_VIDEO_DECODE_SUPPORT_DATA</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3D12DDI_VIDEO_GETCAPS callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

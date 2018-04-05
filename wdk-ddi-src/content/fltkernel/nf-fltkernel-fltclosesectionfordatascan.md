@@ -7,7 +7,7 @@ old-location: ifsk\fltclosesectionfordatascan.htm
 old-project: ifsk
 ms.assetid: 2B3C52FD-80D7-4ECA-9B33-7916FB47B0B2
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FltCloseSectionForDataScan, FltCloseSectionForDataScan routine [Installable File System Drivers], fltkernel/FltCloseSectionForDataScan, ifsk.fltclosesectionfordatascan
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	FltMgr.dll
 api_name:
 -	FltCloseSectionForDataScan
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
@@ -51,16 +52,6 @@ req.typenames: EXpsFontRestriction
 
 
 The <b>FltCloseSectionForDataScan</b> routine closes a section object associated with a file stream.
-
-
-## -syntax
-
-
-````
-NTSTATUS FltCloseSectionForDataScan(
-  _In_ PFLT_CONTEXT SectionContext
-);
-````
 
 
 ## -parameters
@@ -91,7 +82,7 @@ A pointer to the section context to close.
 </dl>
 </td>
 <td width="60%">
-The section context was not properly created. An allocated section context must first be passed to <a href="..\fltkernel\nf-fltkernel-fltcreatesectionfordatascan.md">FltCreateSectionForDataScan</a>. This is an error code. 
+The section context was not properly created. An allocated section context must first be passed to <a href="https://msdn.microsoft.com/library/windows/hardware/hh450937">FltCreateSectionForDataScan</a>. This is an error code. 
 
 </td>
 </tr>
@@ -116,7 +107,7 @@ The section context is already closed.
 
 
 
-Minifilters use the <b>FltCloseSectionForDataScan</b> routine to deallocate  and remove a section context from a file object. All previously allocated section contexts passed to <a href="..\fltkernel\nf-fltkernel-fltcreatesectionfordatascan.md">FltCreateSectionForDataScan</a> must be passed to <b>FltCloseSectionForDataScan</b>. Otherwise, minifilters can call <a href="..\fltkernel\nf-fltkernel-fltreleasecontext.md">FltReleaseContext</a> if the section context was allocated with <a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a> but no section was created with  <b>FltCreateSectionForDataScan</b>.
+Minifilters use the <b>FltCloseSectionForDataScan</b> routine to deallocate  and remove a section context from a file object. All previously allocated section contexts passed to <a href="https://msdn.microsoft.com/library/windows/hardware/hh450937">FltCreateSectionForDataScan</a> must be passed to <b>FltCloseSectionForDataScan</b>. Otherwise, minifilters can call <a href="https://msdn.microsoft.com/library/windows/hardware/ff544314">FltReleaseContext</a> if the section context was allocated with <a href="https://msdn.microsoft.com/library/windows/hardware/ff541710">FltAllocateContext</a> but no section was created with  <b>FltCreateSectionForDataScan</b>.
 
 After <b>FltCloseSectionForDataScan</b> returns, operations that conflict with the section  described by <i>SectionContext</i> will not be synchronized by the filter manager.
 
@@ -125,21 +116,19 @@ After <b>FltCloseSectionForDataScan</b> returns, operations that conflict with t
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltcreatesectionfordatascan.md">FltCreateSectionForDataScan</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541710">FltAllocateContext</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltdeletecontext.md">FltDeleteContext</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450937">FltCreateSectionForDataScan</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541960">FltDeleteContext</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltCloseSectionForDataScan routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

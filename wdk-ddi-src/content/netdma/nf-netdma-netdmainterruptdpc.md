@@ -7,7 +7,7 @@ old-location: netvista\netdmainterruptdpc.htm
 old-project: netvista
 ms.assetid: 93d7e4dd-70ee-4490-bffd-9b07511ee9fe
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: NetDmaInterruptDpc, NetDmaInterruptDpc function [Network Drivers Starting with Windows Vista], netdma/NetDmaInterruptDpc, netdma_ref_112a0d48-213e-4b5c-a776-11d5dcb83e1b.xml, netvista.netdmainterruptdpc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: DISPATCH_LEVEL
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	netdma.h
 api_name:
 -	NetDmaInterruptDpc
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NET_DMA_PNP_NOTIFICATION_CODE, *PNET_DMA_PNP_NOTIFICATION_CODE
 ---
@@ -56,17 +57,6 @@ in Windows 8 and later.</div><div> </div>The
   (DPC) has completed on a DMA channel.
 
 
-## -syntax
-
-
-````
-VOID NetDmaInterruptDpc(
-  _In_     PVOID            NetDmaChannelHandle,
-  _In_opt_ PHYSICAL_ADDRESS DmaDescriptor
-);
-````
-
-
 ## -parameters
 
 
@@ -76,7 +66,7 @@ VOID NetDmaInterruptDpc(
 
 A handle that identifies the DMA channel. The DMA provider driver received this handle from NetDMA
      in a call to the 
-     <a href="..\netdma\nc-netdma-dma_channel_allocate_handler.md">
+     <a href="https://msdn.microsoft.com/42bc0e08-3d85-424f-aaa4-4df788d3706a">
      ProviderAllocateDmaChannel</a> function.
 
 
@@ -106,13 +96,11 @@ DMA providers call the
 
 ## -see-also
 
-<a href="..\netdma\nc-netdma-dma_channel_allocate_handler.md">ProviderAllocateDmaChannel</a>
 
 
 
+<a href="https://msdn.microsoft.com/42bc0e08-3d85-424f-aaa4-4df788d3706a">ProviderAllocateDmaChannel</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NetDmaInterruptDpc function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

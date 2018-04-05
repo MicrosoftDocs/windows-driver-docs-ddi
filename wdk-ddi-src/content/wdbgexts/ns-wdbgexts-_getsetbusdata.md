@@ -7,7 +7,7 @@ old-location: debugger\ig_get_bus_data.htm
 old-project: debugger
 ms.assetid: aca1fe96-20c7-4a51-a331-583b107f62e0
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/26/2018
 ms.keywords: "*PBUSDATA, BUSDATA, BUSDATA structure [Windows Debugging], GETSETBUSDATA, GETSETBUSDATA structure [Windows Debugging], PBUSDATA, PBUSDATA structure pointer [Windows Debugging], WdbgExts_Ref_090ca26a-5955-40c6-82c3-310a02a9d64d.xml, _GETSETBUSDATA, debugger.ig_get_bus_data, wdbgexts/GETSETBUSDATA, wdbgexts/PBUSDATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	wdbgexts.h
 api_name:
 -	BUSDATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BUSDATA, *PBUSDATA
 req.product: Windows 10 or later.
@@ -50,23 +51,8 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The IG_GET_BUS_DATA <a href="..\wdbgexts\nc-wdbgexts-pwindbg_ioctl_routine.md">Ioctl</a> operation reads data from a system bus and the IG_SET_BUS_DATA <b>Ioctl</b> operation writes data to a system bus.  When calling <b>Ioctl</b> with <i>IoctlType</i> set to IG_GET_BUS_DATA or IG_SET_BUS_DATA, <i>IpvData</i> should contain an instance of the BUSDATA structure.
+The IG_GET_BUS_DATA <a href="https://msdn.microsoft.com/library/windows/hardware/ff551084">Ioctl</a> operation reads data from a system bus and the IG_SET_BUS_DATA <b>Ioctl</b> operation writes data to a system bus.  When calling <b>Ioctl</b> with <i>IoctlType</i> set to IG_GET_BUS_DATA or IG_SET_BUS_DATA, <i>IpvData</i> should contain an instance of the BUSDATA structure.
   
-
-
-## -syntax
-
-
-````
-typedef struct _GETSETBUSDATA {
-  ULONG BusDataType;
-  ULONG BusNumber;
-  ULONG SlotNumber;
-  PVOID Buffer;
-  ULONG Offset;
-  ULONG Length;
-} BUSDATA, *PBUSDATA;
-````
 
 
 ## -struct-fields
@@ -110,7 +96,7 @@ Specifies the number of bytes to read from or write to the bus when the <b>Ioctl
 
 
 
-The parameters for the IG_GET_BUS_DATA and IG_SET_BUS_DATA <a href="..\wdbgexts\nc-wdbgexts-pwindbg_ioctl_routine.md">Ioctl</a> operations are the members of the BUSDATA structure.
+The parameters for the IG_GET_BUS_DATA and IG_SET_BUS_DATA <a href="https://msdn.microsoft.com/library/windows/hardware/ff551084">Ioctl</a> operations are the members of the BUSDATA structure.
 
 This operation is only available in kernel-mode debugging.
 
@@ -121,13 +107,11 @@ The properties of the data in the bus depends on the system, bus, and slot.
 
 ## -see-also
 
-<a href="..\wdbgexts\nc-wdbgexts-pwindbg_ioctl_routine.md">Ioctl</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551084">Ioctl</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20GETSETBUSDATA structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: kernel\pep_query_soc_subsystem_metadata.htm
 old-project: kernel
 ms.assetid: D823EF66-1440-45B7-A0D8-A98522AA69E1
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/28/2018
 ms.keywords: "*PPEP_QUERY_SOC_SUBSYSTEM_METADATA, PEP_QUERY_SOC_SUBSYSTEM_METADATA, PEP_QUERY_SOC_SUBSYSTEM_METADATA structure [Kernel-Mode Driver Architecture], PPEP_QUERY_SOC_SUBSYSTEM_METADATA, PPEP_QUERY_SOC_SUBSYSTEM_METADATA structure pointer [Kernel-Mode Driver Architecture], _PEP_QUERY_SOC_SUBSYSTEM_METADATA, kernel.pep_query_soc_subsystem_metadata, pepfx/PEP_QUERY_SOC_SUBSYSTEM_METADATA, pepfx/PPEP_QUERY_SOC_SUBSYSTEM_METADATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	pepfx.h
 api_name:
 -	PEP_QUERY_SOC_SUBSYSTEM_METADATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PEP_QUERY_SOC_SUBSYSTEM_METADATA, *PPEP_QUERY_SOC_SUBSYSTEM_METADATA, PEP_QUERY_SOC_SUBSYSTEM_METADATA, *PPEP_QUERY_SOC_SUBSYSTEM_METADATA
 ---
@@ -50,21 +51,6 @@ req.typenames: PEP_QUERY_SOC_SUBSYSTEM_METADATA, *PPEP_QUERY_SOC_SUBSYSTEM_METAD
 
 
 The <b>PEP_QUERY_SOC_SUBSYSTEM_METADATA</b> structure is used with the <b>PEP_DPM_QUERY_SOC_SUBSYSTEM_METADATA</b> notification to collect optional metadata about the system on a chip (SoC) subsystem whose blocking time has just been queried.
-
-
-## -syntax
-
-
-````
-typedef struct _PEP_QUERY_SOC_SUBSYSTEM_METADATA {
-  ULONG                       PlatformIdleStateIndex;
-  PVOID                       SubsystemHandle;
-  PCUNICODE_STRING            SubsystemName;
-  ULONG                       Flags;
-  ULONG                       MetadataCount;
-  PPEP_SOC_SUBSYSTEM_METADATA Metadata[ANYSIZE_ARRAY];
-} PEP_QUERY_SOC_SUBSYSTEM_METADATA, *PPEP_QUERY_SOC_SUBSYSTEM_METADATA;
-````
 
 
 ## -struct-fields
@@ -99,12 +85,11 @@ This member is reserved and should be set to zero.
 
 ### -field Metadata
 
-[in/out] An array of pointers to <a href="..\pepfx\ns-pepfx-_pep_soc_subsystem_metadata.md">PEP_SOC_SUBSYSTEM_METADATA</a> structures.  Each entry holds one key/value metadata string-pair.
+[in/out] An array of pointers to <a href="https://msdn.microsoft.com/library/windows/hardware/mt186854">PEP_SOC_SUBSYSTEM_METADATA</a> structures.  Each entry holds one key/value metadata string-pair.
 
 
 ## -see-also
 
-<a href="..\pepfx\ns-pepfx-_pep_soc_subsystem_metadata.md">PEP_SOC_SUBSYSTEM_METADATA</a>
 
 
 
@@ -112,9 +97,8 @@ This member is reserved and should be set to zero.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186854">PEP_SOC_SUBSYSTEM_METADATA</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PEP_QUERY_SOC_SUBSYSTEM_METADATA structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

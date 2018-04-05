@@ -38,7 +38,8 @@ api_location:
 -	1394.h
 api_name:
 -	ISOCH_DESCRIPTOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: ISOCH_DESCRIPTOR, *PISOCH_DESCRIPTOR
 ---
@@ -50,29 +51,6 @@ req.typenames: ISOCH_DESCRIPTOR, *PISOCH_DESCRIPTOR
 
 
 The ISOCH_DESCRIPTOR structure describes a buffer to be attached or detailed from a resource handle, using the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537650">REQUEST_ISOCH_ATTACH_BUFFERS</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff537651">REQUEST_ISOCH_DETACH_BUFFERS</a> requests.
-
-
-## -syntax
-
-
-````
-typedef struct _ISOCH_DESCRIPTOR {
-  ULONG                         fulFlags;
-  PMDL                          Mdl;
-  ULONG                         ulLength;
-  ULONG                         nMaxBytesPerFrame;
-  ULONG                         ulSynch;
-  ULONG                         ulTag;
-  CYCLE_TIME                    CycleTime;
-  PBUS_ISOCH_DESCRIPTOR_ROUTINE Callback;
-  PVOID                         Context1;
-  PVOID                         Context2;
-  NTSTATUS                      status;
-  ULONG_PTR                     DeviceReserved[8];
-  ULONG_PTR                     BusReserved[8];
-  ULONG_PTR                     PortReserved[16];
-} ISOCH_DESCRIPTOR, *PISOCH_DESCRIPTOR;
-````
 
 
 ## -struct-fields
@@ -317,11 +295,10 @@ The DESCRIPTOR_HEADER_SCATTER_GATHER flag is not supported on Windows 98/Me. It 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537651">REQUEST_ISOCH_DETACH_BUFFERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537655">REQUEST_ISOCH_LISTEN</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537147">GET_LOCAL_HOST_INFO2</a>
 
 
 
@@ -333,17 +310,16 @@ The DESCRIPTOR_HEADER_SCATTER_GATHER flag is not supported on Windows 98/Me. It 
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537651">REQUEST_ISOCH_DETACH_BUFFERS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537655">REQUEST_ISOCH_LISTEN</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537660">REQUEST_ISOCH_TALK</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537147">GET_LOCAL_HOST_INFO2</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [IEEE\buses]:%20ISOCH_DESCRIPTOR structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

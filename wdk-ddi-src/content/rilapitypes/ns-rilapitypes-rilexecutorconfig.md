@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILEXECUTORCONFIG
 title: RILEXECUTORCONFIG
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilexecutorconfig_2.htm
+old-location: netvista\rilexecutorconfig.htm
 old-project: netvista
-ms.assetid: 8f10bb0f-2a9e-4310-946d-c1c9250391e7
+ms.assetid: d53c3df2-fd75-4008-a740-0afa293e36eb
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: "*LPRILEXECUTORCONFIG, RILEXECUTORCONFIG, RILEXECUTORCONFIG structure [Network Drivers Starting with Windows Vista], netvista.rilexecutorconfig_2, rilapitypes/RILEXECUTORCONFIG"
+ms.date: 3/26/2018
+ms.keywords: "*LPRILEXECUTORCONFIG, RILEXECUTORCONFIG, RILEXECUTORCONFIG structure [Network Drivers Starting with Windows Vista], netvista.rilexecutorconfig, ntddrilapitypes/RILEXECUTORCONFIG"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,10 +35,11 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILEXECUTORCONFIG
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILEXECUTORCONFIG, *LPRILEXECUTORCONFIG
 req.product: Windows 10 or later.
@@ -50,20 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-
-## -syntax
-
-
-````
-typedef struct _RILEXECUTORCONFIG {
-  DWORD                           cbSize;
-  DWORD                           dwFlags;
-  DWORD                           dwNumApps;
-  HUICCAPP [MAXNUM_EXECUTOR_APPS] lphUiccApps;
-} RILEXECUTORCONFIG, RILEXECUTORCONFIG;
-````
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -struct-fields

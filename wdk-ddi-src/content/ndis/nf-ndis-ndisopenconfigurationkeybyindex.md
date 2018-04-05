@@ -7,7 +7,7 @@ old-location: netvista\ndisopenconfigurationkeybyindex.htm
 old-project: netvista
 ms.assetid: e405853a-cf25-4214-82a9-bc3d76334413
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: NdisOpenConfigurationKeyByIndex, NdisOpenConfigurationKeyByIndex function [Network Drivers Starting with Windows Vista], ndis/NdisOpenConfigurationKeyByIndex, ndis_configuration_ref_71c37932-c758-475c-9c84-c176c6c40cf8.xml, netvista.ndisopenconfigurationkeybyindex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	ndis.dll
 api_name:
 -	NdisOpenConfigurationKeyByIndex
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
@@ -53,20 +54,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 The 
   <b>NdisOpenConfigurationKeyByIndex</b> function opens a subkey of a given open registry key that is
   designated by a caller-supplied handle.
-
-
-## -syntax
-
-
-````
-VOID NdisOpenConfigurationKeyByIndex(
-  _Out_ PNDIS_STATUS Status,
-  _In_  NDIS_HANDLE  ConfigurationHandle,
-  _In_  ULONG        Index,
-  _Out_ PNDIS_STRING KeyName,
-  _Out_ PNDIS_HANDLE KeyHandle
-);
-````
 
 
 ## -parameters
@@ -101,7 +88,7 @@ The key could not be opened.
 
 The handle to a registry key for which a subkey is to be opened. Typically, 
      <i>ConfigurationHandle</i> is returned by the 
-     <a href="..\ndis\nf-ndis-ndisopenconfigurationex.md">
+     <a href="https://msdn.microsoft.com/76539106-6d8d-4a80-9c74-a6a4ca37c40e">
      NdisOpenConfigurationEx</a> function.
 
 
@@ -118,7 +105,7 @@ A pointer to an NDIS_STRING type containing a caller-supplied buffer in which th
      returns a counted string in the system-default character set. This string specifies the name of the
      opened subkey if the call succeeds. For Microsoft Windows 2000 and later drivers, this string contains
      Unicode characters. That is, for Windows 2000 and later, NDIS defines the NDIS_STRING type as a 
-     <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> type.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> type.
 
 
 ### -param KeyHandle [out]
@@ -159,14 +146,14 @@ Since
 
 After a driver has consumed and, possibly, modified the configuration information stored in the
     registry, it must call the 
-    <a href="..\ndis\nf-ndis-ndiscloseconfiguration.md">NdisCloseConfiguration</a> function to
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561642">NdisCloseConfiguration</a> function to
     release the handle that is obtained from 
     <b>NdisOpenConfigurationKeyByIndex</b>. 
     <b>NdisCloseConfiguration</b> also frees any temporary storage that NDIS allocated for the driver's calls
     to the 
-    <a href="..\ndis\nf-ndis-ndisreadconfiguration.md">NdisReadConfiguration</a>, 
-    <a href="..\ndis\nf-ndis-ndisreadnetworkaddress.md">NdisReadNetworkAddress</a>, or 
-    <a href="..\ndis\nf-ndis-ndiswriteconfiguration.md">NdisWriteConfiguration</a> functions
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff564511">NdisReadConfiguration</a>, 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff564512">NdisReadNetworkAddress</a>, or 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff564659">NdisWriteConfiguration</a> functions
     with the 
     <i>SubKeyHandle</i> that 
     <b>NdisOpenConfigurationKeyByIndex</b> returned.
@@ -176,36 +163,6 @@ After a driver has consumed and, possibly, modified the configuration informatio
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndiscloseconfiguration.md">NdisCloseConfiguration</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisopenconfigurationkeybyname.md">
-   NdisOpenConfigurationKeyByName</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiswriteconfiguration.md">NdisWriteConfiguration</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisopenconfigurationex.md">NdisOpenConfigurationEx</a>
-
-
-
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisreadconfiguration.md">NdisReadConfiguration</a>
 
 
 
@@ -213,9 +170,37 @@ After a driver has consumed and, possibly, modified the configuration informatio
 
 
 
+<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561642">NdisCloseConfiguration</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh975122">NdisOpenConfigurationEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/9ce7f40f-28f1-4303-9f7a-24ff1213bab1">
+   NdisOpenConfigurationKeyByName</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564511">NdisReadConfiguration</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564659">NdisWriteConfiguration</a>
+
+
+
+<a href="https://msdn.microsoft.com/1958722e-012e-4110-a82c-751744bcf9b5">ProtocolBindAdapterEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisOpenConfigurationKeyByIndex function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

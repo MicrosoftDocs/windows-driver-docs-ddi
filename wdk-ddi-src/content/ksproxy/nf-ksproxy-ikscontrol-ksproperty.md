@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: ksproxy.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	ksproxy.h
 api_name:
 -	IKsControl.KsProperty
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PIPE_STATE
 ---
@@ -52,20 +53,6 @@ req.typenames: PIPE_STATE
 The <b>KsProperty</b> method sets a property or retrieves property information, along with any other defined support operations available on a property set. 
 
 
-## -syntax
-
-
-````
-HRESULT KsProperty(
-  [in]      PKSPROPERTY Property,
-  [in]      ULONG       PropertyLength,
-  [in, out] LPVOID      PropertyData,
-  [in]      ULONG       DataLength,
-  [in, out] ULONG       *BytesReturned
-);
-````
-
-
 ## -parameters
 
 
@@ -73,7 +60,7 @@ HRESULT KsProperty(
 
 ### -param Property [in]
 
-Pointer to a structure that describes a property and the request type of the property request. This structure must be either a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a> or a structure that contains a <b>KSPROPERTY</b> structure as its first member. An example of a structure that can be pointed to by this member is the <a href="..\ksmedia\ns-ksmedia-ksproperty_videoprocamp_s.md">KSPROPERTY_VIDEOPROCAMP_S</a> structure.
+Pointer to a structure that describes a property and the request type of the property request. This structure must be either a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a> or a structure that contains a <b>KSPROPERTY</b> structure as its first member. An example of a structure that can be pointed to by this member is the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566089">KSPROPERTY_VIDEOPROCAMP_S</a> structure.
 
 
 ### -param PropertyLength [in]
@@ -116,7 +103,6 @@ To determine the buffer size that is required for a specific property request, y
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-ksproperty_videoprocamp_s.md">KSPROPERTY_VIDEOPROCAMP_S</a>
 
 
 
@@ -124,9 +110,8 @@ To determine the buffer size that is required for a specific property request, y
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566089">KSPROPERTY_VIDEOPROCAMP_S</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20IKsControl::KsProperty method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

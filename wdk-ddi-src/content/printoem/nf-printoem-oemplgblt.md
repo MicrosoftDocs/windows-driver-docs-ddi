@@ -7,7 +7,7 @@ old-location: print\oemplgblt.htm
 old-project: print
 ms.assetid: c33a9592-8e1b-4028-bd34-72cc4885f17f
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: OEMPlgBlt, OEMPlgBlt function [Print Devices], print.oemplgblt, print_unidrv-pscript_rendering_b0052697-f944-4969-94c3-efc74838d571.xml, printoem/OEMPlgBlt
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	printoem.h
 api_name:
 -	OEMPlgBlt
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STDVARIABLEINDEX
 req.product: Windows 10 or later.
@@ -51,26 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <code>OEMPlgBlt</code> function provides rotate bit-block transfer capabilities between combinations of device-managed and GDI-managed surfaces.
-
-
-## -syntax
-
-
-````
-BOOL APIENTRY OEMPlgBlt(
-   SURFOBJ         *psoDst,
-   SURFOBJ         *psoSrc,
-   SURFOBJ         *psoMask,
-   CLIPOBJ         *pco,
-   XLATEOBJ        *pxlo,
-   COLORADJUSTMENT *pca,
-   POINTL          *pptlBrushOrg,
-   POINTFIX        *pptfixDest,
-   RECTL           *prclSrc,
-   POINTL          *pptlMask,
-   ULONG           iMode
-);
-````
 
 
 ## -parameters

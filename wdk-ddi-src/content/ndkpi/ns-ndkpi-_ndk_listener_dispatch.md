@@ -7,7 +7,7 @@ old-location: netvista\ndk_listener_dispatch.htm
 old-project: netvista
 ms.assetid: CF44B920-428A-4CD0-94BF-15F80189D9C3
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: NDK_LISTENER_DISPATCH, NDK_LISTENER_DISPATCH structure [Network Drivers Starting with Windows Vista], PNDK_LISTENER_DISPATCH, PNDK_LISTENER_DISPATCH structure pointer [Network Drivers Starting with Windows Vista], _NDK_LISTENER_DISPATCH, ndkpi/NDK_LISTENER_DISPATCH, ndkpi/PNDK_LISTENER_DISPATCH, netvista.ndk_listener_dispatch
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ndkpi.h
 api_name:
 -	NDK_LISTENER_DISPATCH
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDK_LISTENER_DISPATCH
 ---
@@ -52,20 +53,6 @@ req.typenames: NDK_LISTENER_DISPATCH
 The <b>NDK_LISTENER_DISPATCH</b> structure specifies dispatch function entry points for the NDK listener object.
 
 
-## -syntax
-
-
-````
-typedef struct _NDK_LISTENER_DISPATCH {
-  NDK_FN_CLOSE_OBJECT               NdkCloseListener;
-  NDK_FN_QUERY_EXTENSION_INTERFACE  NdkQueryExtension;
-  NDK_FN_LISTEN                     NdkListen;
-  NDK_FN_GET_LISTENER_LOCAL_ADDRESS NdkGetLocalAddress;
-  NDK_FN_CONTROL_CONNECT_EVENTS     NdkControlConnectEvents;
-} NDK_LISTENER_DISPATCH, *PNDK_LISTENER_DISPATCH;
-````
-
-
 ## -struct-fields
 
 
@@ -73,67 +60,65 @@ typedef struct _NDK_LISTENER_DISPATCH {
 
 ### -field NdkCloseListener
 
-The entry point for the object's <a href="..\ndkpi\nc-ndkpi-ndk_fn_close_object.md">NDK_FN_CLOSE_OBJECT</a> dispatch function.
+The entry point for the object's <a href="https://msdn.microsoft.com/library/windows/hardware/hh439863">NDK_FN_CLOSE_OBJECT</a> dispatch function.
 
 
 ### -field NdkQueryExtension
 
-The entry point for the object's <a href="..\ndkpi\nc-ndkpi-ndk_fn_query_extension_interface.md">NDK_FN_QUERY_EXTENSION_INTERFACE</a> dispatch function.
+The entry point for the object's <a href="https://msdn.microsoft.com/library/windows/hardware/hh439905">NDK_FN_QUERY_EXTENSION_INTERFACE</a> dispatch function.
 
 
 ### -field NdkListen
 
-The entry point for the object's <a href="..\ndkpi\nc-ndkpi-ndk_fn_listen.md">NDK_FN_LISTEN</a> dispatch function.
+The entry point for the object's <a href="https://msdn.microsoft.com/library/windows/hardware/hh439902">NDK_FN_LISTEN</a> dispatch function.
 
 
 ### -field NdkGetLocalAddress
 
-The entry point for the object's <a href="..\ndkpi\nc-ndkpi-ndk_fn_get_listener_local_address.md">NDK_FN_GET_LISTENER_LOCAL_ADDRESS</a> dispatch function.
+The entry point for the object's <a href="https://msdn.microsoft.com/library/windows/hardware/hh439892">NDK_FN_GET_LISTENER_LOCAL_ADDRESS</a> dispatch function.
 
 
 ### -field NdkControlConnectEvents
 
-The entry point for the object's <a href="..\ndkpi\nc-ndkpi-ndk_fn_get_listener_local_address.md">NDK_FN_CONTROL_CONNECT_EVENTS</a> dispatch function.
+The entry point for the object's <a href="https://msdn.microsoft.com/library/windows/hardware/hh439869">NDK_FN_CONTROL_CONNECT_EVENTS</a> dispatch function.
 
 
 ## -remarks
 
 
 
-The <b>NDK_LISTENER_DISPATCH</b> structure is used in the <a href="..\ndkpi\ns-ndkpi-_ndk_listener.md">NDK_LISTENER</a> structure.
+The <b>NDK_LISTENER_DISPATCH</b> structure is used in the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439918">NDK_LISTENER</a> structure.
 
 
 
 
 ## -see-also
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_control_connect_events.md">NDK_FN_CONTROL_CONNECT_EVENTS</a>
 
 
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_get_listener_local_address.md">NDK_FN_GET_LISTENER_LOCAL_ADDRESS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439863">NDK_FN_CLOSE_OBJECT</a>
 
 
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_listen.md">NDK_FN_LISTEN</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439869">NDK_FN_CONTROL_CONNECT_EVENTS</a>
 
 
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_listener.md">NDK_LISTENER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439892">NDK_FN_GET_LISTENER_LOCAL_ADDRESS</a>
 
 
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_query_extension_interface.md">NDK_FN_QUERY_EXTENSION_INTERFACE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439902">NDK_FN_LISTEN</a>
 
 
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_close_object.md">NDK_FN_CLOSE_OBJECT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439905">NDK_FN_QUERY_EXTENSION_INTERFACE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439918">NDK_LISTENER</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDK_LISTENER_DISPATCH structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

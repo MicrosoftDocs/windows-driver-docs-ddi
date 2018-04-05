@@ -7,7 +7,7 @@ old-location: display\dxgkarg_unmapcpuhostaperture.htm
 old-project: display
 ms.assetid: 22482590-B0F7-4F35-95D5-9B352810047D
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKARG_UNMAPCPUHOSTAPERTURE, DXGKARG_UNMAPCPUHOSTAPERTURE structure [Display Devices], _DXGKARG_UNMAPCPUHOSTAPERTURE, d3dkmddi/DXGKARG_UNMAPCPUHOSTAPERTURE, display.dxgkarg_unmapcpuhostaperture
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGKARG_UNMAPCPUHOSTAPERTURE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGKARG_UNMAPCPUHOSTAPERTURE
 ---
@@ -50,19 +51,6 @@ req.typenames: DXGKARG_UNMAPCPUHOSTAPERTURE
 
 
 The <b>DXGKARG_UNMAPCPUHOSTAPERTURE</b> structure is used to unmap a previously mapped range of the CPU host aperture.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGKARG_UNMAPCPUHOSTAPERTURE {
-  UINT64  NumberOfPages;
-  UINT32* pCpuHostAperturePages;
-  WORD    SegmentId;
-  WORD    PhysicalAdapterIndex;
-} DXGKARG_UNMAPCPUHOSTAPERTURE;
-````
 
 
 ## -struct-fields
@@ -94,13 +82,11 @@ The zero-based physical adapter index in a linked display adapter link.
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_unmapcpuhostaperture.md">DxgkDdiUnmapCpuHostAperture</a>
 
 
 
+<a href="https://msdn.microsoft.com/AFE6B92F-49DB-47F9-90BC-F75B5F37178D">DxgkDdiUnmapCpuHostAperture</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKARG_UNMAPCPUHOSTAPERTURE structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

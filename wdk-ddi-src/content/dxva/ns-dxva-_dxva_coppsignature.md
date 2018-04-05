@@ -7,7 +7,7 @@ old-location: display\dxva_coppsignature.htm
 old-project: display
 ms.assetid: 12520b5d-b994-4af5-9bcf-5140616786e8
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*LPDXVA_COPPSignature, DXVA_COPPSignature, DXVA_COPPSignature structure [Display Devices], LPDXVA_COPPSignature, LPDXVA_COPPSignature structure pointer [Display Devices], _DXVA_COPPSignature, display.dxva_coppsignature, dxva/DXVA_COPPSignature, dxva/LPDXVA_COPPSignature, dxvaref_9194eb73-7b7e-4d28-b589-08ddd24eaf0c.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	dxva.h
 api_name:
 -	DXVA_COPPSignature
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXVA_COPPSignature, *LPDXVA_COPPSignature
 ---
@@ -50,16 +51,6 @@ req.typenames: DXVA_COPPSignature, *LPDXVA_COPPSignature
 
 
 The DXVA_COPPSignature structure describes a sequence of items concatenated together that starts an active protected video session. 
-
-
-## -syntax
-
-
-````
-typedef struct _DXVA_COPPSignature {
-  UCHAR Signature[256];
-} DXVA_COPPSignature, *LPDXVA_COPPSignature;
-````
 
 
 ## -struct-fields
@@ -103,17 +94,15 @@ The array at <b>Signature</b> consists of the following items concatenated toget
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539646">COPPKeyExchange</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540421">COPPSequenceStart</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVA_COPPSignature structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

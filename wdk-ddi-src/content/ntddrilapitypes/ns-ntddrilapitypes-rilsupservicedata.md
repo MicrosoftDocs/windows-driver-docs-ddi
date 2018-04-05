@@ -7,13 +7,13 @@ old-location: netvista\rilsupservicedata.htm
 old-project: netvista
 ms.assetid: 1cb4afae-75ad-4c9b-8b21-f9aade2c5fd8
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: "*LPRILSUPSERVICEDATA, RILSUPSERVICEDATA, RILSUPSERVICEDATA structure [Network Drivers Starting with Windows Vista], netvista.rilsupservicedata, ntddrilapitypes/RILSUPSERVICEDATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddrilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILSUPSERVICEDATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILSUPSERVICEDATA, *LPRILSUPSERVICEDATA
 ---
@@ -50,24 +51,6 @@ req.typenames: RILSUPSERVICEDATA, *LPRILSUPSERVICEDATA
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef struct _RILSUPSERVICEDATA {
-  DWORD                    cbSize;
-  DWORD                    dwParams;
-  DWORD                    dwExecutor;
-  RILSUPSERVICEDATASTATUS  dwStatus;
-  DWORD                    dwNetworkSSErrorCause;
-  DWORD                    dwNetworkCCErrorCause;
-  DWORD                    dwVendorErrorCause;
-  DWORD                    dwDataSize;
-  WCHAR [1]                wszData;
-} RILSUPSERVICEDATA, RILSUPSERVICEDATA;
-````
 
 
 ## -struct-fields

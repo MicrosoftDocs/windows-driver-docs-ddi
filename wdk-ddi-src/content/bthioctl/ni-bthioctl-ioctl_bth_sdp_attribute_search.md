@@ -38,18 +38,14 @@ api_location:
 -	Bthioctl.h
 api_name:
 -	IOCTL_BTH_SDP_ATTRIBUTE_SEARCH
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: HFP_BYPASS_CODEC_ID_V1, *PHFP_BYPASS_CODEC_ID_V1
 ---
 
 # IOCTL_BTH_SDP_ATTRIBUTE_SEARCH IOCTL
 
-
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -69,7 +65,7 @@ The IOCTL_BTH_SDP_ATTRIBUTE_SEARCH request obtains attributes for the specified 
 
 The 
       <b>AssociatedIrp.SystemBuffer</b> member contains a 
-      <a href="..\bthioctl\ns-bthioctl-_bth_sdp_attribute_search_request.md">
+      <a href="https://msdn.microsoft.com/46198c94-df83-42bb-ad3e-181f252ccd99">
       BTH_SDP_ATTRIBUTE_SEARCH_REQUEST</a> structure that specifies the remote computer range of attributes
       to search plus other key members.
 
@@ -77,7 +73,7 @@ The
 ### -input-buffer-length
 
 The length of a 
-      <a href="..\bthioctl\ns-bthioctl-_bth_sdp_attribute_search_request.md">
+      <a href="https://msdn.microsoft.com/46198c94-df83-42bb-ad3e-181f252ccd99">
       BTH_SDP_ATTRIBUTE_SEARCH_REQUEST</a> structure.
 
 
@@ -85,14 +81,14 @@ The length of a
 
 The 
       <b>AssociatedIrp.SystemBuffer</b> member points to a buffer that contains a 
-      <a href="..\bthioctl\ns-bthioctl-_bth_sdp_stream_response.md">BTH_SDP_STREAM_RESPONSE</a> structure
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff536653">BTH_SDP_STREAM_RESPONSE</a> structure
       that is followed by a variable-length raw SDP stream.
 
 
 ### -output-buffer-length
 
 The length of a 
-      <a href="..\bthioctl\ns-bthioctl-_bth_sdp_stream_response.md">BTH_SDP_STREAM_RESPONSE</a> structure.
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff536653">BTH_SDP_STREAM_RESPONSE</a> structure.
 
 
 ### -in-out-buffer
@@ -117,7 +113,7 @@ The length of a
 
 If the request is successful, the 
       <b>Information</b> member of the STATUS_BLOCK structure is set to the size, in bytes, of the 
-      <a href="..\bthioctl\ns-bthioctl-_bth_sdp_stream_response.md">BTH_SDP_STREAM_RESPONSE</a> or the size
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff536653">BTH_SDP_STREAM_RESPONSE</a> or the size
       of the output buffer, whichever is smaller. Otherwise, the 
       <b>Information</b> member is set to zero.
 
@@ -208,11 +204,11 @@ The SDP service could not process the number of GUIDs passed in the input buffer
 
 
 In most circumstances, profile drivers can combine SDP service and attribute searches by calling the 
-    <a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_service_attribute_search.md">
+    <a href="https://msdn.microsoft.com/f0955e88-df80-4f53-bc5f-5a38a840aab4">
     IOCTL_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH</a> IOCTL. If a profile driver must reduce the amount of SDP
     traffic that is transmitted over the Bluetooth link, or extract information from the SDP server by using
     a small number of message transfer units (MTUs), the profile driver should call the 
-    <a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_service_search.md">
+    <a href="https://msdn.microsoft.com/aea2aff2-5983-4583-9cc8-a45401ecdfb6">
     IOCTL_BTH_SDP_SERVICE_SEARCH</a> IOCTL to perform a service search. The profile driver should then call
     the IOCTL_BTH_SDP_ATTRIBUTE_SEARCH IOCTL to perform an attribute search.
 
@@ -226,27 +222,25 @@ The BTH_SDP_STREAM_RESPONSE structure returned in the output buffer contains inf
 
 ## -see-also
 
-<a href="..\bthioctl\ns-bthioctl-_bth_sdp_attribute_search_request.md">
+
+
+
+<a href="https://msdn.microsoft.com/46198c94-df83-42bb-ad3e-181f252ccd99">
    BTH_SDP_ATTRIBUTE_SEARCH_REQUEST</a>
 
 
 
-<a href="..\bthioctl\ns-bthioctl-_bth_sdp_stream_response.md">BTH_SDP_STREAM_RESPONSE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536653">BTH_SDP_STREAM_RESPONSE</a>
 
 
 
-<a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_service_attribute_search.md">
+<a href="https://msdn.microsoft.com/f0955e88-df80-4f53-bc5f-5a38a840aab4">
    IOCTL_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH</a>
 
 
 
-<a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_service_search.md">IOCTL_BTH_SDP_SERVICE_SEARCH</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536692">IOCTL_BTH_SDP_SERVICE_SEARCH</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20IOCTL_BTH_SDP_ATTRIBUTE_SEARCH control code%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

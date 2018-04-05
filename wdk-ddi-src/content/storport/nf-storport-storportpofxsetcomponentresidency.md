@@ -7,7 +7,7 @@ old-location: storage\storportpofxsetcomponentresidency.htm
 old-project: storage
 ms.assetid: 78DFB17E-5351-419A-9B9B-8CBCD7548910
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: StorPortPoFxSetComponentResidency, StorPortPoFxSetComponentResidency routine [Storage Devices], storage.storportpofxsetcomponentresidency, storport/StorPortPoFxSetComponentResidency
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	storport.dll
 api_name:
 -	StorPortPoFxSetComponentResidency
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STOR_SPINLOCK
 req.product: Windows 10 or later.
@@ -54,19 +55,6 @@ req.product: Windows 10 or later.
 The <b>StorPortPoFxSetComponentResidency</b> routine sets the estimated time for how long a storage device component is likely to remain idle after the component enters the idle condition.
 
 
-## -syntax
-
-
-````
-ULONG StorPortPoFxSetComponentResidency(
-  _In_     PVOID         HwDeviceExtension,
-  _In_opt_ PSTOR_ADDRESS Address,
-  _In_     ULONG         Component,
-  _In_     ULONGLONG     Residency
-);
-````
-
-
 ## -parameters
 
 
@@ -74,7 +62,7 @@ ULONG StorPortPoFxSetComponentResidency(
 
 ### -param HwDeviceExtension [in]
 
-A pointer to the hardware device extension for the host bus adapter (HBA). This is the device extension used to register the device in a prior call to <a href="..\storport\nf-storport-storportinitializepofxpower.md">StorPortInitializePoFxPower</a>.
+A pointer to the hardware device extension for the host bus adapter (HBA). This is the device extension used to register the device in a prior call to <a href="https://msdn.microsoft.com/library/windows/hardware/hh920421">StorPortInitializePoFxPower</a>.
 
 
 ### -param Address [in, optional]
@@ -84,7 +72,7 @@ The address of a storage device unit. This parameter is <b>NULL</b> when setting
 
 ### -param Component [in]
 
-The index that identifies the component. This parameter is an index into the <b>Components</b> array in the <a href="..\storport\ns-storport-_stor_pofx_device.md">STOR_POFX_DEVICE</a> structure that the miniport driver registered for the device with a call to <a href="..\storport\nf-storport-storportinitializepofxpower.md">StorPortInitializePoFxPower</a>. If the <b>Components</b> array contains N elements, component indexes range from 0 to N–1.
+The index that identifies the component. This parameter is an index into the <b>Components</b> array in the <a href="https://msdn.microsoft.com/library/windows/hardware/hh920429">STOR_POFX_DEVICE</a> structure that the miniport driver registered for the device with a call to <a href="https://msdn.microsoft.com/library/windows/hardware/hh920421">StorPortInitializePoFxPower</a>. If the <b>Components</b> array contains N elements, component indexes range from 0 to N–1.
 
 
 ### -param Residency [in]
@@ -167,13 +155,11 @@ The current IRQL &gt; DISPATCH_LEVEL.
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-pofxsetcomponentresidency.md">PoFxSetComponentResidency</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439536">PoFxSetComponentResidency</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20StorPortPoFxSetComponentResidency routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

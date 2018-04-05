@@ -7,7 +7,7 @@ old-location: print\drvquerycolorprofile.htm
 old-project: print
 ms.assetid: f6eec5a1-7d73-415f-84d9-1ec3f512abaf
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: DrvQueryColorProfile, DrvQueryColorProfile function [Print Devices], print.drvquerycolorprofile, print_interface-graphics_fce84759-2add-41bc-b4e5-c2b66e3abf04.xml, winddiui/DrvQueryColorProfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	winddiui.h
 api_name:
 -	DrvQueryColorProfile
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WINBIO_VERSION, *PWINBIO_VERSION
 req.product: Windows 10 or later.
@@ -51,21 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>DrvQueryColorProfile</b> function allows a printer interface DLL to specify an ICC profile to use for color management.
-
-
-## -syntax
-
-
-````
-BOOL DrvQueryColorProfile(
-        HANDLE    hPrinter,
-  _In_  PDEVMODEW pdevmode,
-        ULONG     ulQueryMode,
-  _Out_ VOID      *pvProfileData,
-  _Out_ ULONG     *pcbProfileData,
-  _Out_ FLONG     *pflProfileData
-);
-````
 
 
 ## -parameters

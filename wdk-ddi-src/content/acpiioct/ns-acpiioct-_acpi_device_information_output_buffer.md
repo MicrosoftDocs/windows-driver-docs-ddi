@@ -38,7 +38,8 @@ api_location:
 -	Acpiioct.h
 api_name:
 -	ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER, *PACPI_DEVICE_INFORMATION_OUTPUT_BUFFER
 ---
@@ -50,32 +51,6 @@ req.typenames: ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER, *PACPI_DEVICE_INFORMATION_
 
 
 The ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER structure contains output arguments from the IOCTL_ACPI_GET_DEVICE_INFORMATION control method.
-
-
-## -syntax
-
-
-````
-typedef struct _ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER {
-  ULONG  Signature;
-  USHORT Size;
-  UCHAR  Revision;
-  UCHAR  Reserved0;
-  USHORT VendorIdStringOffset;
-  USHORT VendorStringLength;
-  USHORT DeviceIdStringOffset;
-  USHORT SubSystemIdStringOffset;
-  USHORT SubSystemStringLength;
-  USHORT SubDeviceIdStringOffset;
-  USHORT InstanceIdLength;
-  USHORT InstanceIdOffset;
-  USHORT BaseClassCode;
-  USHORT HardwareRevision;
-  UCHAR  ProgrammingInterface;
-  UCHAR  Reserved1;
-  USHORT SubClassCode;
-} ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER, *PACPI_DEVICE_INFORMATION_OUTPUT_BUFFER;
-````
 
 
 ## -struct-fields
@@ -191,13 +166,11 @@ A string of <b>InstanceIDLength</b> in length which contains a number that uniqu
 
 ## -see-also
 
-<a href="..\acpiioct\ni-acpiioct-ioctl_acpi_get_device_information.md">IOCTL_ACPI_GET_DEVICE_INFORMATION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450790">IOCTL_ACPI_GET_DEVICE_INFORMATION</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [acpi\acpi]:%20ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

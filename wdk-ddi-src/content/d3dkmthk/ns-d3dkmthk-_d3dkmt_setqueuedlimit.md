@@ -7,7 +7,7 @@ old-location: display\d3dkmt_setqueuedlimit.htm
 old-project: display
 ms.assetid: 4fe525b1-9c06-4e2c-9e57-041164905efe
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMT_SETQUEUEDLIMIT, D3DKMT_SETQUEUEDLIMIT structure [Display Devices], OpenGL_Structs_3c7f7e33-f71a-4547-89ee-7dba69917a4f.xml, _D3DKMT_SETQUEUEDLIMIT, d3dkmthk/D3DKMT_SETQUEUEDLIMIT, display.d3dkmt_setqueuedlimit
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmthk.h
 api_name:
 -	D3DKMT_SETQUEUEDLIMIT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_SETQUEUEDLIMIT
 ---
@@ -50,24 +51,6 @@ req.typenames: D3DKMT_SETQUEUEDLIMIT
 
 
 The D3DKMT_SETQUEUEDLIMIT structure describes parameters for setting or retrieving the limit for the number of operations of the given type that can be queued for the given device. 
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_SETQUEUEDLIMIT {
-  D3DKMT_HANDLE           hDevice;
-  D3DKMT_QUEUEDLIMIT_TYPE Type;
-  union {
-    UINT   QueuedPresentLimit;
-    struct {
-      D3DDDI_VIDEO_PRESENT_SOURCE_ID VidPnSourceId;
-      UINT                           QueuedPendingFlipLimit;
-    };
-  };
-} D3DKMT_SETQUEUEDLIMIT;
-````
 
 
 ## -struct-fields
@@ -82,7 +65,7 @@ typedef struct _D3DKMT_SETQUEUEDLIMIT {
 
 ### -field Type
 
-[in] A <a href="..\d3dkmthk\ne-d3dkmthk-_d3dkmt_queuedlimit_type.md">D3DKMT_QUEUEDLIMIT_TYPE</a>-typed value that indicates the type of operations to set or retrieve the queued limit for. 
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff548225">D3DKMT_QUEUEDLIMIT_TYPE</a>-typed value that indicates the type of operations to set or retrieve the queued limit for. 
 
 
 ### -field VidPnSourceId
@@ -102,17 +85,15 @@ typedef struct _D3DKMT_SETQUEUEDLIMIT {
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtsetqueuedlimit.md">D3DKMTSetQueuedLimit</a>
 
 
 
-<a href="..\d3dkmthk\ne-d3dkmthk-_d3dkmt_queuedlimit_type.md">D3DKMT_QUEUEDLIMIT_TYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547195">D3DKMTSetQueuedLimit</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548225">D3DKMT_QUEUEDLIMIT_TYPE</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMT_SETQUEUEDLIMIT structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

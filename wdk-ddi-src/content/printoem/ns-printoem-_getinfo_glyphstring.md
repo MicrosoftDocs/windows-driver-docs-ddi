@@ -7,7 +7,7 @@ old-location: print\getinfo_glyphstring.htm
 old-project: print
 ms.assetid: ebcc1ada-af6f-46c3-a025-97079eb08816
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: "*PGETINFO_GLYPHSTRING, GETINFO_GLYPHSTRING, GETINFO_GLYPHSTRING structure [Print Devices], PGETINFO_GLYPHSTRING, PGETINFO_GLYPHSTRING structure pointer [Print Devices], _GETINFO_GLYPHSTRING, print.getinfo_glyphstring, print_unidrv-pscript_rendering_5b2786d4-2633-4abe-8eaf-23e7100f7ba3.xml, printoem/GETINFO_GLYPHSTRING, printoem/PGETINFO_GLYPHSTRING"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	printoem.h
 api_name:
 -	GETINFO_GLYPHSTRING
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GETINFO_GLYPHSTRING, *PGETINFO_GLYPHSTRING
 req.product: Windows 10 or later.
@@ -51,22 +52,6 @@ req.product: Windows 10 or later.
 
 
 The GETINFO_GLYPHSTRING structure is used as input to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563594">UNIFONTOBJ_GetInfo</a> callback function.
-
-
-## -syntax
-
-
-````
-typedef struct _GETINFO_GLYPHSTRING {
-  DWORD dwSize;
-  DWORD dwCount;
-  DWORD dwTypeIn;
-  PVOID pGlyphIn;
-  DWORD dwTypeOut;
-  PVOID pGlyphOut;
-  DWORD dwGlyphOutSize;
-} GETINFO_GLYPHSTRING, *PGETINFO_GLYPHSTRING;
-````
 
 
 ## -struct-fields
@@ -149,7 +134,7 @@ TYPE_TRANSDATA
 
 </td>
 <td>
-The <b>pGlyphOut</b> array elements are of type <a href="..\prntfont\ns-prntfont-_transdata.md">TRANSDATA</a>. This value is valid only when <b>dwTypeIn</b> has been set to TYPE_GLYPHHANDLE.
+The <b>pGlyphOut</b> array elements are of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff562816">TRANSDATA</a>. This value is valid only when <b>dwTypeIn</b> has been set to TYPE_GLYPHHANDLE.
 
 </td>
 </tr>
@@ -206,17 +191,15 @@ The values that a rendering plug-in specifies for the <b>dwTypeIn </b>and <b>pGl
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554267">IPrintOemUni::OutputCharStr</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563594">UNIFONTOBJ_GetInfo</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20GETINFO_GLYPHSTRING structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

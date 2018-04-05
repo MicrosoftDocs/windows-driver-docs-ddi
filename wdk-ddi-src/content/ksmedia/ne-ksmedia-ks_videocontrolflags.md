@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KS_VideoControlFlags
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KS_VideoControlFlags
 ---
@@ -50,27 +51,6 @@ req.typenames: KS_VideoControlFlags
 
 
 The KS_VideoControlFlags enumeration defines video control capabilities for a specific stream.
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  KS_VideoControlFlag_FlipHorizontal                  = 0x0001,
-  KS_VideoControlFlag_FlipVertical                    = 0x0002,
-  KS_Obsolete_VideoControlFlag_ExternalTriggerEnable  = 0x0010,
-  KS_Obsolete_VideoControlFlag_Trigger                = 0x0020,
-  KS_VideoControlFlag_ExternalTriggerEnable           = 0x0004,
-  KS_VideoControlFlag_Trigger                         = 0x0008,
-  KS_VideoControlFlag_IndependentImagePin             = 0x0040,
-#if NTDDI_VERSION >= NTDDI_WIN8
-  KS_VideoControlFlag_StillCapturePreviewFrame        = 0x0080,
-  KS_VideoControlFlag_StartPhotoSequenceCapture       = 0x0100,
-  KS_VideoControlFlag_StopPhotoSequenceCapture        = 0x0200
-
-#endif } KS_VideoControlFlags;
-````
 
 
 ## -enum-fields
@@ -138,17 +118,15 @@ Supported starting with Windows 8.1.
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-ksproperty_videocontrol_caps_s.md">KSPROPERTY_VIDEOCONTROL_CAPS_S</a>
 
 
 
-<a href="..\ksmedia\ns-ksmedia-ksproperty_videocontrol_mode_s.md">KSPROPERTY_VIDEOCONTROL_MODE_S</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566036">KSPROPERTY_VIDEOCONTROL_CAPS_S</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566043">KSPROPERTY_VIDEOCONTROL_MODE_S</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KS_VideoControlFlags enumeration%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

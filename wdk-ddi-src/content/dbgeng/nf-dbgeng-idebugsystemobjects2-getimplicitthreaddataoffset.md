@@ -7,7 +7,7 @@ old-location: debugger\getimplicitthreaddataoffset.htm
 old-project: debugger
 ms.assetid: fe7a1afe-dc87-412c-9e35-4a1af05f9474
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/26/2018
 ms.keywords: GetImplicitThreadDataOffset method [Windows Debugging], GetImplicitThreadDataOffset method [Windows Debugging], IDebugSystemObjects2 interface, GetImplicitThreadDataOffset method [Windows Debugging], IDebugSystemObjects3 interface, GetImplicitThreadDataOffset method [Windows Debugging], IDebugSystemObjects4 interface, GetImplicitThreadDataOffset,IDebugSystemObjects2.GetImplicitThreadDataOffset, IDebugSystemObjects2, IDebugSystemObjects2 interface [Windows Debugging], GetImplicitThreadDataOffset method, IDebugSystemObjects2::GetImplicitThreadDataOffset, IDebugSystemObjects3 interface [Windows Debugging], GetImplicitThreadDataOffset method, IDebugSystemObjects3::GetImplicitThreadDataOffset, IDebugSystemObjects4 interface [Windows Debugging], GetImplicitThreadDataOffset method, IDebugSystemObjects4::GetImplicitThreadDataOffset, IDebugSystemObjects_fd957a10-62ec-464c-b5d0-c1b36a13013f.xml, dbgeng/IDebugSystemObjects2::GetImplicitThreadDataOffset, dbgeng/IDebugSystemObjects3::GetImplicitThreadDataOffset, dbgeng/IDebugSystemObjects4::GetImplicitThreadDataOffset, debugger.getimplicitthreaddataoffset
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -40,7 +40,8 @@ api_name:
 -	IDebugSystemObjects2.GetImplicitThreadDataOffset
 -	IDebugSystemObjects3.GetImplicitThreadDataOffset
 -	IDebugSystemObjects4.GetImplicitThreadDataOffset
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -52,16 +53,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetImplicitThreadDataOffset</b> method returns the implicit thread for the current process.
-
-
-## -syntax
-
-
-````
-HRESULT GetImplicitThreadDataOffset(
-  [out] PULONG64 Offset
-);
-````
 
 
 ## -parameters

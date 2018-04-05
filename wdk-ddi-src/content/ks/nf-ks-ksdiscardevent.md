@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsDiscardEvent
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,16 +52,6 @@ req.typenames:
 
 
 The <b>KsDiscardEvent</b> function discards the memory used by an event entry after the objects have been dereferenced. The function can be called when manually disabling events that have not been disabled by the event owner (by calling the <b>KsFreeEventList</b> function to disable events). For example, the function can be called when asynchronously enabling an event fails and the event entry needs to be discarded.
-
-
-## -syntax
-
-
-````
-VOID KsDiscardEvent(
-  _In_ PKSEVENT_ENTRY EventEntry
-);
-````
 
 
 ## -parameters
@@ -86,24 +77,22 @@ None
 
 
 
-Typically, the <b>KsDiscardEvent</b> function is automatically called by the <a href="..\ks\nf-ks-ksdisableevent.md">KsDisableEvent</a> function when a request to disable an event occurs, or by the <a href="..\ks\nf-ks-ksfreeeventlist.md">KsFreeEventList</a> function when a request to free a list of events occurs. This function can only be called at PASSIVE_LEVEL.
+Typically, the <b>KsDiscardEvent</b> function is automatically called by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561694">KsDisableEvent</a> function when a request to disable an event occurs, or by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562561">KsFreeEventList</a> function when a request to free a list of events occurs. This function can only be called at PASSIVE_LEVEL.
 
 
 
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksdisableevent.md">KsDisableEvent</a>
 
 
 
-<a href="..\ks\nf-ks-ksfreeeventlist.md">KsFreeEventList</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561694">KsDisableEvent</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562561">KsFreeEventList</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsDiscardEvent function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

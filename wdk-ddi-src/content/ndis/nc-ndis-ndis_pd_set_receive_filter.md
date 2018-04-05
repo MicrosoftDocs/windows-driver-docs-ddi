@@ -7,7 +7,7 @@ old-location: netvista\ndispdsetreceivefilter.htm
 old-project: netvista
 ms.assetid: 49587142-9C84-4F73-BE0C-D256A8E6BF4B
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: NDIS_PD_SET_RECEIVE_FILTER, NdisPDSetReceiveFilter, NdisPDSetReceiveFilter callback function [Network Drivers Starting with Windows Vista], ndis/NdisPDSetReceiveFilter, netvista.ndispdsetreceivefilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ndis.h
 api_name:
 -	NdisPDSetReceiveFilter
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
 ---
@@ -56,21 +57,6 @@ The PacketDirect (PD) platform calls a PD-capable miniport driver's
 
 
 
-## -prototype
-
-
-````
-NDIS_PD_SET_RECEIVE_FILTER NdisPDSetReceiveFilter;
-
-NTSTATUS NdisPDSetReceiveFilter(
-  _In_        NDIS_PD_PROVIDER_HANDLE   ProviderHandle,
-  _In_  const NDIS_PD_FILTER_PARAMETERS *FilterParameters,
-  _Out_       NDIS_PD_FILTER_HANDLE     *FilterHandle
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -83,7 +69,7 @@ A provider handle that identifies the PD-capable miniport driver's provider obje
 
 ### -param FilterParameters [in]
 
-Parameters that identify any necessary information for the filter. For more information, see the <a href="..\ndis\ns-ndis-_ndis_pd_filter_parameters.md">NDIS_PD_FILTER_PARAMETERS</a> structure.
+Parameters that identify any necessary information for the filter. For more information, see the <a href="https://msdn.microsoft.com/library/windows/hardware/dn931840">NDIS_PD_FILTER_PARAMETERS</a> structure.
 
 
 ### -param FilterHandle [out]
@@ -104,7 +90,7 @@ This function returns STATUS_SUCCESS when it completes successful, otherwise it 
 
 
 
-PD filters are applied before any spreading takes place this is why packet matching a PD filter can be placed into their dedicated PD queue, and the rest of the packets can be spread by RSS as usual. The PD client is responsible for plumbing non-overlapping ambiguous filters. However, some PD provides may allow overlapping ambiguous filters as long as the PD client can pass a priority value that indicates which filter must be applied first. The PD provider may fail filter set requests with STATUS_NOT_SUPPORTED if the client attempts to set filters with conflicting profiles or overlapping match conditions. The <a href="..\ntddndis\ns-ntddndis-_ndis_pd_capabilities.md">NDIS_PD_CAPABILITIES</a> structure does not allow the provider to advertise all valid combinations of profiles that the PD client can use simultaneously, this is why some of the capabilities are discovered by the PD client at runtime when and if the PD provider fails the filter set request with STATUS_NOT_SUPPORTED
+PD filters are applied before any spreading takes place this is why packet matching a PD filter can be placed into their dedicated PD queue, and the rest of the packets can be spread by RSS as usual. The PD client is responsible for plumbing non-overlapping ambiguous filters. However, some PD provides may allow overlapping ambiguous filters as long as the PD client can pass a priority value that indicates which filter must be applied first. The PD provider may fail filter set requests with STATUS_NOT_SUPPORTED if the client attempts to set filters with conflicting profiles or overlapping match conditions. The <a href="https://msdn.microsoft.com/library/windows/hardware/dn931833">NDIS_PD_CAPABILITIES</a> structure does not allow the provider to advertise all valid combinations of profiles that the PD client can use simultaneously, this is why some of the capabilities are discovered by the PD client at runtime when and if the PD provider fails the filter set request with STATUS_NOT_SUPPORTED
 
 <h3><a id="Examples"></a><a id="examples"></a><a id="EXAMPLES"></a>Examples</h3>
 To define a <i>NdisPDSetReceiveFilter</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.

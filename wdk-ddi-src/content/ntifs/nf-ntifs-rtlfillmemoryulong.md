@@ -7,7 +7,7 @@ old-location: ifsk\rtlfillmemoryulong.htm
 old-project: ifsk
 ms.assetid: a3758f32-daa9-4795-9a79-694b02da43cd
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: RtlFillMemoryUlong, RtlFillMemoryUlong routine [Installable File System Drivers], ifsk.rtlfillmemoryulong, ntifs/RtlFillMemoryUlong, rtlref_11aa35b5-f5b5-459c-9996-e7dcb7741dd8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	RtlFillMemoryUlong
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -50,18 +51,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>RtlFillMemoryUlong</b> routine fills the specified range of memory with one or more repetitions of a ULONG value. 
-
-
-## -syntax
-
-
-````
-VOID RtlFillMemoryUlong(
-  _Out_ PVOID  Destination,
-  _In_  SIZE_T Length,
-  _In_  ULONG  Pattern
-);
-````
 
 
 ## -parameters
@@ -106,21 +95,19 @@ For more information about managing buffered data and initializing driver-alloca
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtlfillmemoryulonglong.md">RtlFillMemoryUlonglong</a>
 
 
 
-<a href="..\wdm\nf-wdm-rtlzeromemory.md">RtlZeroMemory</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561870">RtlFillMemory</a>
 
 
 
-<a href="..\wdm\nf-wdm-rtlfillmemory.md">RtlFillMemory</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552267">RtlFillMemoryUlonglong</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563610">RtlZeroMemory</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RtlFillMemoryUlong routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

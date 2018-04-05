@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: avcstrm.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	avcstrm.h
 api_name:
 -	INIT_AVCSTRM_HEADER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: AVCSTRM_FUNCTION
 ---
@@ -49,18 +50,7 @@ req.typenames: AVCSTRM_FUNCTION
 ## -description
 
 
-The <b>INIT_AVCSTRM_HEADER</b> macro initializes the <b>SizeOfThisBlock</b>, <b>Version</b> and <b>Function</b> members of the <a href="..\avcstrm\ns-avcstrm-_avc_stream_request_block.md">AVC_STREAM_REQUEST_BLOCK</a> structure.
-
-
-## -syntax
-
-
-````
-VOID INIT_AVCSTRM_HEADER(
-  [in] PAVC_STREAM_REQUEST_BLOCK AVCStrm,
-  [in] AVCSTRM_FUNCTION          Request
-);
-````
+The <b>INIT_AVCSTRM_HEADER</b> macro initializes the <b>SizeOfThisBlock</b>, <b>Version</b> and <b>Function</b> members of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554194">AVC_STREAM_REQUEST_BLOCK</a> structure.
 
 
 ## -parameters
@@ -75,7 +65,7 @@ Points to a caller-allocated AVC_STREAM_REQUEST_BLOCK structure.
 
 ### -param Request [in]
 
-Indicates the type of the request (function code) from the <a href="..\avcstrm\ne-avcstrm-_avcstrm_function.md">AVCSTRM_FUNCTION</a> enumeration. Each function code is documented under the <a href="..\avcstrm\ni-avcstrm-ioctl_avcstrm_class.md">IOCTL_AVCSTRM_CLASS</a> topic.
+Indicates the type of the request (function code) from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554120">AVCSTRM_FUNCTION</a> enumeration. Each function code is documented under the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560778">IOCTL_AVCSTRM_CLASS</a> topic.
 
 
 ## -remarks
@@ -93,27 +83,6 @@ The macro is defined as follows:
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554134">AVCSTRM_SET_STATE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554121">AVCSTRM_GET_PROPERTY</a>
-
-
-
-<a href="..\avcstrm\ns-avcstrm-_avc_stream_request_block.md">AVC_STREAM_REQUEST_BLOCK</a>
-
-
-
-<a href="..\avcstrm\ni-avcstrm-ioctl_avcstrm_class.md">IOCTL_AVCSTRM_CLASS</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554132">AVCSTRM_SET_PROPERTY</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554135">AVCSTRM_WRITE</a>
 
 
 
@@ -121,11 +90,11 @@ The macro is defined as follows:
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554130">AVCSTRM_READ</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554110">AVCSTRM_CLOSE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554121">AVCSTRM_GET_PROPERTY</a>
 
 
 
@@ -137,9 +106,28 @@ The macro is defined as follows:
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554130">AVCSTRM_READ</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554132">AVCSTRM_SET_PROPERTY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554134">AVCSTRM_SET_STATE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554135">AVCSTRM_WRITE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554194">AVC_STREAM_REQUEST_BLOCK</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560778">IOCTL_AVCSTRM_CLASS</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20INIT_AVCSTRM_HEADER macro%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

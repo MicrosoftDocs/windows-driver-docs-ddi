@@ -7,7 +7,7 @@ old-location: ifsk\mmdoesfilehaveuserwritablereferences.htm
 old-project: ifsk
 ms.assetid: b88afd6e-3a0a-471e-a874-db8fc3175d61
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: MmDoesFileHaveUserWritableReferences, MmDoesFileHaveUserWritableReferences function [Installable File System Drivers], ifsk.mmdoesfilehaveuserwritablereferences, mmref_fb87e0fa-60db-498e-8a17-a1bd366c3df6.xml, ntifs/MmDoesFileHaveUserWritableReferences
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	MmDoesFileHaveUserWritableReferences
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -52,16 +53,6 @@ req.typenames: TOKEN_TYPE
 The <b>MmDoesFileHaveUserWritableReferences </b>function returns the number of writable references for a file object.
 
 
-## -syntax
-
-
-````
-ULONG MmDoesFileHaveUserWritableReferences(
-  _In_ PSECTION_OBJECT_POINTERS SectionPointer
-);
-````
-
-
 ## -parameters
 
 
@@ -69,7 +60,7 @@ ULONG MmDoesFileHaveUserWritableReferences(
 
 ### -param SectionPointer [in]
 
-Pointer to a <a href="..\wdm\ns-wdm-_section_object_pointers.md">SECTION_OBJECT_POINTERS</a> structure that contains the file object's section object pointers.  This parameter is required and cannot be <b>NULL</b>.
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563687">SECTION_OBJECT_POINTERS</a> structure that contains the file object's section object pointers.  This parameter is required and cannot be <b>NULL</b>.
 
 
 ## -returns
@@ -101,7 +92,7 @@ Pointer to a <a href="..\wdm\ns-wdm-_section_object_pointers.md">SECTION_OBJECT_
 
 </li>
 <li>
- The number of outstanding <a href="..\wdm\ns-wdm-_mdl.md">MDL</a>s, which are mapping regions for the associated file object.
+ The number of outstanding <a href="https://msdn.microsoft.com/library/windows/hardware/ff554414">MDL</a>s, which are mapping regions for the associated file object.
 
 </li>
 </ul>
@@ -113,20 +104,18 @@ Prior to calling <b>MmDoesFileHaveUserWritableReferences</b>, transactional file
 <div> </div>
 For more information about transactions, see <a href="https://msdn.microsoft.com/b558ace9-b416-4572-ac94-58a083c9d33b">Kernel Transaction Manager Design Guide</a> and <a href="https://msdn.microsoft.com/bdff1ef1-3465-4612-ab15-63e877e5f888">Kernel Transaction Manager Routines</a>.
 
-For more information about file objects, see <a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a>.
+For more information about file objects, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff545834">FILE_OBJECT</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545834">FILE_OBJECT</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20MmDoesFileHaveUserWritableReferences function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILUICCAPPDATACHANGEENUM
 title: RILUICCAPPDATACHANGEENUM
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\riluiccappdatachangeenum_2.htm
+old-location: netvista\riluiccappdatachangeenum.htm
 old-project: netvista
-ms.assetid: 66d5596b-5f5b-46a6-9151-074c4713940f
+ms.assetid: 6960080f-03dc-4c5f-8cd8-b96d030f2bd3
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: RILUICCAPPDATACHANGEENUM, RILUICCAPPDATACHANGEENUM enumeration [Network Drivers Starting with Windows Vista], RIL_UICCAPP_DATACHANGE_EF_CSP_PLMN_SET, RIL_UICCAPP_DATACHANGE_EF_CSP_PLMN_UNSET, RIL_UICCAPP_DATACHANGE_ESNME, RIL_UICCAPP_DATACHANGE_MAX, RIL_UICCAPP_DATACHANGE_MBDN, netvista.riluiccappdatachangeenum_2, rilapitypes/RILUICCAPPDATACHANGEENUM, rilapitypes/RIL_UICCAPP_DATACHANGE_EF_CSP_PLMN_SET, rilapitypes/RIL_UICCAPP_DATACHANGE_EF_CSP_PLMN_UNSET, rilapitypes/RIL_UICCAPP_DATACHANGE_ESNME, rilapitypes/RIL_UICCAPP_DATACHANGE_MAX, rilapitypes/RIL_UICCAPP_DATACHANGE_MBDN
+ms.date: 3/26/2018
+ms.keywords: RILUICCAPPDATACHANGEENUM, RILUICCAPPDATACHANGEENUM enumeration [Network Drivers Starting with Windows Vista], RIL_UICCAPP_DATACHANGE_EF_CSP_PLMN_SET, RIL_UICCAPP_DATACHANGE_EF_CSP_PLMN_UNSET, RIL_UICCAPP_DATACHANGE_ESNME, RIL_UICCAPP_DATACHANGE_MAX, RIL_UICCAPP_DATACHANGE_MBDN, netvista.riluiccappdatachangeenum, ntddrilapitypes/RILUICCAPPDATACHANGEENUM, ntddrilapitypes/RIL_UICCAPP_DATACHANGE_EF_CSP_PLMN_SET, ntddrilapitypes/RIL_UICCAPP_DATACHANGE_EF_CSP_PLMN_UNSET, ntddrilapitypes/RIL_UICCAPP_DATACHANGE_ESNME, ntddrilapitypes/RIL_UICCAPP_DATACHANGE_MAX, ntddrilapitypes/RIL_UICCAPP_DATACHANGE_MBDN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -35,10 +35,11 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILUICCAPPDATACHANGEENUM
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILUICCAPPDATACHANGEENUM
 req.product: Windows 10 or later.
@@ -50,21 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-
-## -syntax
-
-
-````
-typedef enum _RILUICCAPPDATACHANGEENUM { 
-  RIL_UICCAPP_DATACHANGE_MBDN,
-  RIL_UICCAPP_DATACHANGE_EF_CSP_PLMN_UNSET,
-  RIL_UICCAPP_DATACHANGE_EF_CSP_PLMN_SET,
-  RIL_UICCAPP_DATACHANGE_ESNME,
-  RIL_UICCAPP_DATACHANGE_MAX
-} RILUICCAPPDATACHANGEENUM;
-````
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -enum-fields

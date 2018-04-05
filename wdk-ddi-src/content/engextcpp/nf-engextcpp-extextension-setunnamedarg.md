@@ -7,8 +7,8 @@ old-location: debugger\setunnamedarg.htm
 old-project: debugger
 ms.assetid: cf518a6b-275f-4f9c-9aa8-e2e96c468ff9
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: SetUnnamedArg, EngExtCpp_Ref_662530e0-caca-43f0-8b46-b21c8a1f00da.xml, ExtExtension, ExtExtension class [Windows Debugging], SetUnnamedArg method, SetUnnamedArg method [Windows Debugging], SetUnnamedArg method [Windows Debugging], ExtExtension class, debugger.setunnamedarg, ExtExtension::SetUnnamedArg
+ms.date: 3/26/2018
+ms.keywords: EngExtCpp_Ref_662530e0-caca-43f0-8b46-b21c8a1f00da.xml, ExtExtension, ExtExtension class [Windows Debugging], SetUnnamedArg method, ExtExtension::SetUnnamedArg, SetUnnamedArg method [Windows Debugging], SetUnnamedArg method [Windows Debugging], ExtExtension class, SetUnnamedArg,ExtExtension.SetUnnamedArg, debugger.setunnamedarg
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -26,19 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: engextcpp.hpp
+req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	Engextcpp.hpp
-apiname:
+api_name:
 -	ExtExtension.SetUnnamedArg
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 ---
@@ -52,19 +53,6 @@ req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 The <b>SetUnnamedArg</b> method sets an unnamed argument for the current extension command.
 
 
-## -syntax
-
-
-````
-bool SetUnnamedArg(
-  [in]           ULONG   Index,
-  [in, optional] PCSTR   StrArg,
-  [in]           ULONG64 NumArg,
-  [in]           bool    OnlyIfUnset
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +60,7 @@ bool SetUnnamedArg(
 
 ### -param Index [in]
 
-Specifies the index of the argument.  <i>Index</i> should be between zero and the number of unnamed arguments, as specified in the command-line description used in <a href="..\engextcpp\nf-engextcpp-ext_command.md">EXT_COMMAND</a>, minus one (unnamed arguments - 1).
+Specifies the index of the argument.  <i>Index</i> should be between zero and the number of unnamed arguments, as specified in the command-line description used in <a href="https://msdn.microsoft.com/library/windows/hardware/ff544514">EXT_COMMAND</a>, minus one (unnamed arguments - 1).
 
 
 ### -param StrArg [in, optional]
@@ -99,11 +87,14 @@ Specifies what happens if the argument is already set.  If <i>OnlyIfUnset</i> is
 ## -returns
 
 
+
 <b>SetUnnamedArg</b> returns <code>true</code> if the argument was changed; <code>false</code> otherwise.
 
 
 
+
 ## -remarks
+
 
 
 For an overview of argument parsing in the EngExtCpp extensions framework, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff553340">Parsing Extension Arguments</a>.
@@ -112,15 +103,18 @@ This method should only be called during the execution of an extension command p
 
 
 
+
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544514">EXT_COMMAND</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543981">ExtExtension</a>
-
-<a href="..\engextcpp\nf-engextcpp-ext_command.md">EXT_COMMAND</a>
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20ExtExtension.SetUnnamedArg method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

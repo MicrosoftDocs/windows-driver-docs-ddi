@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KS_SEEKING_FLAGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KS_SEEKING_FLAGS
 ---
@@ -49,23 +50,7 @@ req.typenames: KS_SEEKING_FLAGS
 ## -description
 
 
-The KS_SEEKING_FLAGS enumeration lists positioning options that can be used in conjunction with the <a href="..\ks\ns-ks-ksproperty_positions.md">KSPROPERTY_POSITIONS</a> structure.
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  KS_SEEKING_NoPositioning           = 0,
-  KS_SEEKING_AbsolutePositioning     = 1,
-  KS_SEEKING_RelativePositioning     = 2,
-  KS_SEEKING_IncrementalPositioning  = 3,
-  KS_SEEKING_PositioningBitsMask     = 0x3,
-  KS_SEEKING_SeekToKeyFrame          = 0x4,
-  KS_SEEKING_ReturnTime              = 0x8
-} KS_SEEKING_FLAGS;
-````
+The KS_SEEKING_FLAGS enumeration lists positioning options that can be used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565207">KSPROPERTY_POSITIONS</a> structure.
 
 
 ## -enum-fields
@@ -98,14 +83,13 @@ typedef enum  {
 
 
 
-The minidriver sets these flag values in a <a href="..\ks\ns-ks-ksproperty_positions.md">KSPROPERTY_POSITIONS</a> structure that it then submits in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff565185">KSPROPERTY_MEDIASEEKING_POSITIONS</a> property request.
+The minidriver sets these flag values in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff565207">KSPROPERTY_POSITIONS</a> structure that it then submits in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff565185">KSPROPERTY_MEDIASEEKING_POSITIONS</a> property request.
 
 
 
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksproperty_positions.md">KSPROPERTY_POSITIONS</a>
 
 
 
@@ -113,9 +97,8 @@ The minidriver sets these flag values in a <a href="..\ks\ns-ks-ksproperty_posit
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565207">KSPROPERTY_POSITIONS</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KS_SEEKING_FLAGS enumeration%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: storage\storage_device_power_cap_units.htm
 old-project: storage
 ms.assetid: 199900F4-90A7-4F2E-B85E-25BF3593D50B
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSTORAGE_DEVICE_POWER_CAP_UNITS, STORAGE_DEVICE_POWER_CAP_UNITS, STORAGE_DEVICE_POWER_CAP_UNITS enumeration [Storage Devices], StorageDevicePowerCapUnitsMilliwatts, StorageDevicePowerCapUnitsPercent, _STORAGE_DEVICE_POWER_CAP_UNITS, ntddstor/STORAGE_DEVICE_POWER_CAP_UNITS, ntddstor/StorageDevicePowerCapUnitsMilliwatts, ntddstor/StorageDevicePowerCapUnitsPercent, storage.storage_device_power_cap_units"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddstor.h
 api_name:
 -	STORAGE_DEVICE_POWER_CAP_UNITS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STORAGE_DEVICE_POWER_CAP_UNITS, *PSTORAGE_DEVICE_POWER_CAP_UNITS
 ---
@@ -50,17 +51,6 @@ req.typenames: STORAGE_DEVICE_POWER_CAP_UNITS, *PSTORAGE_DEVICE_POWER_CAP_UNITS
 
 
 The units of the maximum power threshold.
-
-
-## -syntax
-
-
-````
-typedef enum _STORAGE_DEVICE_POWER_CAP_UNITS { 
-  StorageDevicePowerCapUnitsPercent,
-  StorageDevicePowerCapUnitsMilliwatts
-} STORAGE_DEVICE_POWER_CAP_UNITS;
-````
 
 
 ## -enum-fields

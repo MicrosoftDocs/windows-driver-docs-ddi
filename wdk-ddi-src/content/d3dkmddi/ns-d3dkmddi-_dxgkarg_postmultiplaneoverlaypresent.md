@@ -7,7 +7,7 @@ old-location: display\dxgkarg_postmultiplaneoverlaypresent.htm
 old-project: display
 ms.assetid: E257606A-66EE-4F53-B661-F5FFC63E1F54
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKARG_POSTMULTIPLANEOVERLAYPRESENT, DXGKARG_POSTMULTIPLANEOVERLAYPRESENT structure [Display Devices], _DXGKARG_POSTMULTIPLANEOVERLAYPRESENT, d3dkmddi/DXGKARG_POSTMULTIPLANEOVERLAYPRESENT, display.dxgkarg_postmultiplaneoverlaypresent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGKARG_POSTMULTIPLANEOVERLAYPRESENT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGKARG_POSTMULTIPLANEOVERLAYPRESENT
 ---
@@ -50,19 +51,6 @@ req.typenames: DXGKARG_POSTMULTIPLANEOVERLAYPRESENT
 
 
 Contains arguments for the DxgkDdiPostMultiPlaneOverlayPresent function.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGKARG_POSTMULTIPLANEOVERLAYPRESENT {
-  D3DDDI_VIDEO_PRESENT_TARGET_ID VidPnTargetId;
-  UINT                           PhysicalAdapterMask;
-  DWORD                          LayerIndex;
-  ULONGLONG                      PresentId;
-} DXGKARG_POSTMULTIPLANEOVERLAYPRESENT;
-````
 
 
 ## -struct-fields

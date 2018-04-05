@@ -7,7 +7,7 @@ old-location: display\d3dddiarg_checkpresentdurationsupport.htm
 old-project: display
 ms.assetid: D72D6C06-DD6A-4051-9AD0-FD1E240C164A
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDIARG_CHECKPRESENTDURATIONSUPPORT, D3DDDIARG_CHECKPRESENTDURATIONSUPPORT structure [Display Devices], d3dumddi/D3DDDIARG_CHECKPRESENTDURATIONSUPPORT, display.d3dddiarg_checkpresentdurationsupport
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3dumddi.h
 api_name:
 -	D3DDDIARG_CHECKPRESENTDURATIONSUPPORT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDIARG_CHECKPRESENTDURATIONSUPPORT
 ---
@@ -49,20 +50,7 @@ req.typenames: D3DDDIARG_CHECKPRESENTDURATIONSUPPORT
 ## -description
 
 
-Used in a call to the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_checkpresentdurationsupport.md">CheckPresentDurationSupport</a> function to check details on hardware device support for seamlessly switching to a new monitor refresh rate.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  D3DDDI_VIDEO_PRESENT_SOURCE_ID VidPnSourceId;
-  UINT                           DesiredPresentDuration;
-  UINT                           ClosestSmallerDuration;
-  UINT                           ClosestLargerDuration;
-} D3DDDIARG_CHECKPRESENTDURATIONSUPPORT;
-````
+Used in a call to the <a href="https://msdn.microsoft.com/4D3FC503-A502-41D3-AB76-5A2BEBE4C551">CheckPresentDurationSupport</a> function to check details on hardware device support for seamlessly switching to a new monitor refresh rate.
 
 
 ## -struct-fields
@@ -109,13 +97,11 @@ The difference between <b>DesiredPresentDuration</b> and <b>ClosestSmallerDurati
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_checkpresentdurationsupport.md">CheckPresentDurationSupport</a>
 
 
 
+<a href="https://msdn.microsoft.com/4D3FC503-A502-41D3-AB76-5A2BEBE4C551">CheckPresentDurationSupport</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DDDIARG_CHECKPRESENTDURATIONSUPPORT structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

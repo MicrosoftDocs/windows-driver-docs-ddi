@@ -38,7 +38,8 @@ api_location:
 -	Gpioclx.h
 api_name:
 -	CLIENT_PrepareController
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GNSS_V2UPL_NI_INFO, *PGNSS_V2UPL_NI_INFO
 ---
@@ -50,22 +51,6 @@ req.typenames: GNSS_V2UPL_NI_INFO, *PGNSS_V2UPL_NI_INFO
 
 
 The <i>CLIENT_PrepareController</i> event callback function performs any operations that are needed to make the general-purpose I/O (GPIO) controller ready to be accessed by the GPIO controller driver.
-
-
-## -prototype
-
-
-````
-GPIO_CLIENT_PREPARE_CONTROLLER CLIENT_PrepareController;
-
-NTSTATUS CLIENT_PrepareController(
-  _In_ WDFDEVICE    Device,
-  _In_ PVOID        Context,
-  _In_ WDFCMRESLIST ResourcesRaw,
-  _In_ WDFCMRESLIST ResourcesTranslated
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -167,11 +152,6 @@ The GPIO_CLIENT_PREPARE_CONTROLLER function type is defined in the Gpioclx.h hea
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439490">GPIO_CLX_RegisterClient</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439479">GPIO_CLIENT_REGISTRATION_PACKET</a>
 
 
 
@@ -179,9 +159,12 @@ The GPIO_CLIENT_PREPARE_CONTROLLER function type is defined in the Gpioclx.h hea
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439479">GPIO_CLIENT_REGISTRATION_PACKET</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439490">GPIO_CLX_RegisterClient</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [GPIO\parports]:%20CLIENT_PrepareController callback function%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

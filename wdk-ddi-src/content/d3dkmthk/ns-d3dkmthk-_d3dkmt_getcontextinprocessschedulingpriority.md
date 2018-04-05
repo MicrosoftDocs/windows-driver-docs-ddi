@@ -7,7 +7,7 @@ old-location: display\d3dkmt_getcontextinprocessschedulingpriority.htm
 old-project: display
 ms.assetid: a72dd755-efd9-4950-8400-179eb1d63e9a
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMT_GETCONTEXTINPROCESSSCHEDULINGPRIORITY, D3DKMT_GETCONTEXTINPROCESSSCHEDULINGPRIORITY structure [Display Devices], _D3DKMT_GETCONTEXTINPROCESSSCHEDULINGPRIORITY, d3dkmthk/D3DKMT_GETCONTEXTINPROCESSSCHEDULINGPRIORITY, display.d3dkmt_getcontextinprocessschedulingpriority
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3dkmthk.h
 api_name:
 -	D3DKMT_GETCONTEXTINPROCESSSCHEDULINGPRIORITY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_GETCONTEXTINPROCESSSCHEDULINGPRIORITY
 ---
@@ -50,17 +51,6 @@ req.typenames: D3DKMT_GETCONTEXTINPROCESSSCHEDULINGPRIORITY
 
 
 Describes information that is required for an in-process (in-proc) Microsoft Direct3D composition device to retrieve the scheduling priority for a device context that is in the same process as other device contexts.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_GETCONTEXTINPROCESSSCHEDULINGPRIORITY {
-  D3DKMT_HANDLE hContext;
-  INT           Priority;
-} D3DKMT_GETCONTEXTINPROCESSSCHEDULINGPRIORITY;
-````
 
 
 ## -struct-fields

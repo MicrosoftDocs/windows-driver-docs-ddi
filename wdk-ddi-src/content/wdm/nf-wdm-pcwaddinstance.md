@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	PcwAddInstance
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
@@ -51,20 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>PcwAddInstance</b> function adds the specified instance of the counter set to the consumer buffer. 
-
-
-## -syntax
-
-
-````
-NTSTATUS PcwAddInstance(
-  _In_ PPCW_BUFFER      Buffer,
-  _In_ PCUNICODE_STRING Name,
-  _In_ ULONG            Id,
-  _In_ ULONG            Count,
-  _In_ PPCW_DATA        Data
-);
-````
 
 
 ## -parameters
@@ -126,7 +113,7 @@ The instance was successfully added to the buffer.
 </dl>
 </td>
 <td width="60%">
-One of the provider data blocks is too small. For example, suppose that during the call to <a href="..\wdm\nf-wdm-pcwregister.md">PcwRegister</a>, the provider specifies that counter <i>X</i> is at offset 100 of the first data block of size 4 bytes. If the call to <b>PcwAddInstance</b> specifies that the first data block is 50 bytes, this error status is returned.
+One of the provider data blocks is too small. For example, suppose that during the call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff550323">PcwRegister</a>, the provider specifies that counter <i>X</i> is at offset 100 of the first data block of size 4 bytes. If the call to <b>PcwAddInstance</b> specifies that the first data block is 50 bytes, this error status is returned.
 
 </td>
 </tr>
@@ -140,20 +127,18 @@ One of the provider data blocks is too small. For example, suppose that during t
 
 
 
-The <b>PcwAddInstance</b> function either adds an instance or collects data depending on the purpose of the buffer. The purpose of the buffer is defined by the type of callback. The <b>PcwAddInstance</b> function is called from a <a href="..\wdm\nc-wdm-pcw_callback.md">PcwCallback</a> routine when the reason is either to collect data or to enumerate instances. You can get the <i>Buffer</i> from the <i>Info</i> parameter for the <i>PcwCallback</i> routine
+The <b>PcwAddInstance</b> function either adds an instance or collects data depending on the purpose of the buffer. The purpose of the buffer is defined by the type of callback. The <b>PcwAddInstance</b> function is called from a <a href="https://msdn.microsoft.com/5058fc17-1016-45bc-a6ea-5e2458824e7b">PcwCallback</a> routine when the reason is either to collect data or to enumerate instances. You can get the <i>Buffer</i> from the <i>Info</i> parameter for the <i>PcwCallback</i> routine
 
 
 
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-pcw_callback.md">PcwCallback</a>
 
 
 
+<a href="https://msdn.microsoft.com/5058fc17-1016-45bc-a6ea-5e2458824e7b">PcwCallback</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [devtest\devtest]:%20PcwAddInstance function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

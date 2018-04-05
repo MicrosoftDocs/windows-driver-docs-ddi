@@ -7,7 +7,7 @@ old-location: display\d3dkmdt_enumcofuncmodality_pivot_type.htm
 old-project: display
 ms.assetid: ba99936a-e76a-4a34-b7cd-762a8f15732c
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMDT_ENUMCOFUNCMODALITY_PIVOT_TYPE, D3DKMDT_ENUMCOFUNCMODALITY_PIVOT_TYPE enumeration [Display Devices], D3DKMDT_EPT_NOPIVOT, D3DKMDT_EPT_ROTATION, D3DKMDT_EPT_SCALING, D3DKMDT_EPT_UNINITIALIZED, D3DKMDT_EPT_VIDPNSOURCE, D3DKMDT_EPT_VIDPNTARGET, DmEnums_5abafdb2-5a17-437b-b3e3-9c045c52d582.xml, _D3DKMDT_ENUMCOFUNCMODALITY_PIVOT_TYPE, d3dkmdt/D3DKMDT_ENUMCOFUNCMODALITY_PIVOT_TYPE, d3dkmdt/D3DKMDT_EPT_NOPIVOT, d3dkmdt/D3DKMDT_EPT_ROTATION, d3dkmdt/D3DKMDT_EPT_SCALING, d3dkmdt/D3DKMDT_EPT_UNINITIALIZED, d3dkmdt/D3DKMDT_EPT_VIDPNSOURCE, d3dkmdt/D3DKMDT_EPT_VIDPNTARGET, display.d3dkmdt_enumcofuncmodality_pivot_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmdt.h
 api_name:
 -	D3DKMDT_ENUMCOFUNCMODALITY_PIVOT_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMDT_ENUMCOFUNCMODALITY_PIVOT_TYPE
 ---
@@ -49,22 +50,7 @@ req.typenames: D3DKMDT_ENUMCOFUNCMODALITY_PIVOT_TYPE
 ## -description
 
 
-The D3DKMDT_ENUMCOFUNCMODALITY_PIVOT_TYPE enumeration indicates the pivot type in a call to <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_enumvidpncofuncmodality.md">DxgkDdiEnumVidPnCofuncModality</a>.
-
-
-## -syntax
-
-
-````
-typedef enum _D3DKMDT_ENUMCOFUNCMODALITY_PIVOT_TYPE { 
-  D3DKMDT_EPT_UNINITIALIZED  = 0,
-  D3DKMDT_EPT_VIDPNSOURCE    = 1,
-  D3DKMDT_EPT_VIDPNTARGET    = 2,
-  D3DKMDT_EPT_SCALING        = 3,
-  D3DKMDT_EPT_ROTATION       = 4,
-  D3DKMDT_EPT_NOPIVOT        = 5
-} D3DKMDT_ENUMCOFUNCMODALITY_PIVOT_TYPE;
-````
+The D3DKMDT_ENUMCOFUNCMODALITY_PIVOT_TYPE enumeration indicates the pivot type in a call to <a href="https://msdn.microsoft.com/6dda82bd-1a43-4ffe-b398-a9f8cee6d1c1">DxgkDdiEnumVidPnCofuncModality</a>.
 
 
 ## -enum-fields
@@ -106,20 +92,18 @@ Indicates that the enumeration has no pivot.
 
 
 
-The <b>EnumPivotType</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_enumvidpncofuncmodality.md">DXGKARG_ENUMVIDPNCOFUNCMODALITY</a> structure is a D3DKMDT_ENUMCOFUNCMODALITY_PIVOT_TYPE value.
+The <b>EnumPivotType</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557583">DXGKARG_ENUMVIDPNCOFUNCMODALITY</a> structure is a D3DKMDT_ENUMCOFUNCMODALITY_PIVOT_TYPE value.
 
 
 
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_enumvidpncofuncmodality.md">DxgkDdiEnumVidPnCofuncModality</a>
 
 
 
+<a href="https://msdn.microsoft.com/6dda82bd-1a43-4ffe-b398-a9f8cee6d1c1">DxgkDdiEnumVidPnCofuncModality</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMDT_ENUMCOFUNCMODALITY_PIVOT_TYPE enumeration%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

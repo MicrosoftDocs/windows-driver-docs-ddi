@@ -7,7 +7,7 @@ old-location: image\ioctl_cancel_io.htm
 old-project: image
 ms.assetid: 5748e949-3edb-405a-ab2f-05c929cf5aa6
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/27/2018
 ms.keywords: IOCTL_CANCEL_IO, IOCTL_CANCEL_IO control code [Imaging Devices], image.ioctl_cancel_io, stifnc_df576f5d-a45a-4aa8-91c6-e288f9d99c14.xml, usbscan/IOCTL_CANCEL_IO
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Usbscan.h
 api_name:
 -	IOCTL_CANCEL_IO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RAW_PIPE_TYPE
 req.product: Windows 10 or later.
@@ -46,11 +47,6 @@ req.product: Windows 10 or later.
 
 # IOCTL_CANCEL_IO IOCTL
 
-
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -67,7 +63,7 @@ Cancels activity on the specified USB transfer pipe that is associated with the 
 
 ### -input-buffer
 
-Pointer to a location containing a value of type <a href="..\usbscan\ne-usbscan-pipe_type.md">PIPE_TYPE</a>.
+Pointer to a location containing a value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff546159">PIPE_TYPE</a>.
 
 
 ### -input-buffer-length
@@ -130,7 +126,7 @@ IOCTL_CANCEL_IO
 </dd>
 <dt><a id="lpInBuffer"></a><a id="lpinbuffer"></a><a id="LPINBUFFER"></a><i>lpInBuffer</i></dt>
 <dd>
-Pointer to a location containing a value of type <a href="..\usbscan\ne-usbscan-pipe_type.md">PIPE_TYPE</a>.
+Pointer to a location containing a value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff546159">PIPE_TYPE</a>.
 
 </dd>
 <dt><a id="nInBufferSize"></a><a id="ninbuffersize"></a><a id="NINBUFFERSIZE"></a><i>nInBufferSize</i></dt>
@@ -161,7 +157,7 @@ Optional pointer to an OVERLAPPED structure (described in the Microsoft Windows 
 </dl>
 
 
-When the <b>DeviceloControl</b> function is called with the IOCTL_CANCEL_IO I/O control code, the caller must specify one of the <a href="..\usbscan\ne-usbscan-pipe_type.md">PIPE_TYPE</a>-typed values as the function's <i>lpInBuffer</i> parameter. This value indicates on which of the transfer pipes (interrupt, bulk IN, bulk OUT) the operation should be performed. For more information, see <a href="https://msdn.microsoft.com/f9216d3c-4930-4c26-8eac-6ee500b038e0">Accessing Kernel-Mode Drivers for Still Image Devices</a>.
+When the <b>DeviceloControl</b> function is called with the IOCTL_CANCEL_IO I/O control code, the caller must specify one of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546159">PIPE_TYPE</a>-typed values as the function's <i>lpInBuffer</i> parameter. This value indicates on which of the transfer pipes (interrupt, bulk IN, bulk OUT) the operation should be performed. For more information, see <a href="https://msdn.microsoft.com/f9216d3c-4930-4c26-8eac-6ee500b038e0">Accessing Kernel-Mode Drivers for Still Image Devices</a>.
 
 
 

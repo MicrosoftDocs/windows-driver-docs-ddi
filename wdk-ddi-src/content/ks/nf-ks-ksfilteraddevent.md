@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KsFilterAddEvent
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -52,17 +53,6 @@ req.typenames:
 The<b> KsFilterAddEvent</b> function adds an event to <i>Filter</i>'s event list.
 
 
-## -syntax
-
-
-````
-void _inline KsFilterAddEvent(
-  _In_ PKSFILTER      Filter,
-  _In_ PKSEVENT_ENTRY EventEntry
-);
-````
-
-
 ## -parameters
 
 
@@ -70,12 +60,12 @@ void _inline KsFilterAddEvent(
 
 ### -param Filter [in]
 
-<i>A pointer</i> to a <a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a> structure representing the filter to which to add a specified event.
+<i>A pointer</i> to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff562522">KSFILTER</a> structure representing the filter to which to add a specified event.
 
 
 ### -param EventEntry [in]
 
-<i>A pointer</i> to an <a href="..\ks\ns-ks-_ksevent_entry.md">KSEVENT_ENTRY</a> structure describing the event to add to <i>Filter</i>.
+<i>A pointer</i> to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff561853">KSEVENT_ENTRY</a> structure describing the event to add to <i>Filter</i>.
 
 
 ## -returns
@@ -91,28 +81,26 @@ None
 
 
 
-This function is an inline function call to <a href="..\ks\nf-ks-ksaddevent.md">KsAddEvent</a>.
+This function is an inline function call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff560931">KsAddEvent</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksevent_entry.md">KSEVENT_ENTRY</a>
 
 
 
-<a href="..\ks\nf-ks-ksaddevent.md">KsAddEvent</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561853">KSEVENT_ENTRY</a>
 
 
 
-<a href="..\ks\nf-ks-ksgenerateevents.md">KsGenerateEvents</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560931">KsAddEvent</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562597">KsGenerateEvents</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsFilterAddEvent function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

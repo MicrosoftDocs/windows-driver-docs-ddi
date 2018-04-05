@@ -7,7 +7,7 @@ old-location: buses\usbd_stream_information.htm
 old-project: usbref
 ms.assetid: AFB502BF-4BC2-439E-BF1F-5D1DE3172362
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PUSBD_STREAM_INFORMATION, PUSBD_STREAM_INFORMATION, PUSBD_STREAM_INFORMATION structure pointer [Buses], USBD_STREAM_INFORMATION, USBD_STREAM_INFORMATION structure [Buses], _USBD_STREAM_INFORMATION, buses.usbd_stream_information, usb/PUSBD_STREAM_INFORMATION, usb/USBD_STREAM_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Usb.h
 api_name:
 -	USBD_STREAM_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USBD_STREAM_INFORMATION, *PUSBD_STREAM_INFORMATION
 req.product: Windows 10 or later.
@@ -51,19 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>USBD_STREAM_INFORMATION</b> structure stores information about a stream associated with a bulk endpoint.
-
-
-## -syntax
-
-
-````
-typedef struct _USBD_STREAM_INFORMATION {
-  USBD_PIPE_HANDLE PipeHandle;
-  ULONG            StreamID;
-  ULONG            MaximumTransferSize;
-  ULONG            PipeFlags;
-} USBD_STREAM_INFORMATION, *PUSBD_STREAM_INFORMATION;
-````
 
 
 ## -struct-fields
@@ -102,7 +90,14 @@ A client driver allocates an array of  <b>USBD_STREAM_INFORMATION</b> structures
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh450846">How to Open and Close Static Streams in a USB Bulk Endpoint</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538923">URB</a>
 
 
 
@@ -110,21 +105,12 @@ A client driver allocates an array of  <b>USBD_STREAM_INFORMATION</b> structures
 
 
 
-<a href="..\usb\ns-usb-_urb_open_static_streams.md">_URB_OPEN_STATIC_STREAMS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540409">_URB_HEADER</a>
 
 
 
-<a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a>
-
-
-
-<a href="..\usb\ns-usb-_urb.md">URB</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406294">_URB_OPEN_STATIC_STREAMS</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USBD_STREAM_INFORMATION structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

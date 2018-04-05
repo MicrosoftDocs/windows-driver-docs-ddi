@@ -38,7 +38,8 @@ api_location:
 -	gnssdriver.h
 api_name:
 -	GNSS_SUPL_NI_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GNSS_SUPL_NI_INFO, *PGNSS_SUPL_NI_INFO
 ---
@@ -50,20 +51,6 @@ req.typenames: GNSS_SUPL_NI_INFO, *PGNSS_SUPL_NI_INFO
 
 
 This structure contains the requested SUPL NI information.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  ULONG Size;
-  ULONG Version;
-  WCHAR RequestorId[MAX_PATH];
-  WCHAR ClientName[MAX_PATH];
-  CHAR  SuplNiUrl[MAX_SERVER_URL_NAME];
-} GNSS_SUPL_NI_INFO, *PGNSS_SUPL_NI_INFO;
-````
 
 
 ## -struct-fields

@@ -7,7 +7,7 @@ old-location: print\iprinterextensioneventargs_reasonid.htm
 old-project: print
 ms.assetid: 404E9893-97BA-48A7-87CE-0B4AF46692CE
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: IPrinterExtensionEventArgs, IPrinterExtensionEventArgs interface [Print Devices], ReasonId property, IPrinterExtensionEventArgs.ReasonId, IPrinterExtensionEventArgs::get_ReasonId, ReasonId property [Print Devices], ReasonId property [Print Devices], IPrinterExtensionEventArgs interface, get_ReasonId, get_ReasonId,IPrinterExtensionEventArgs.get_ReasonId, print.iprinterextensioneventargs_reasonid, printerextension/IPrinterExtensionEventArgs::ReasonId, printerextension/IPrinterExtensionEventArgs::get_ReasonId
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: printerextension.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	IPrinterExtensionEventArgs.ReasonId
 -	IPrinterExtensionEventArgs.get_ReasonId
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PrintSchemaSelectionType
 req.product: Windows 10 or later.
@@ -54,16 +55,6 @@ req.product: Windows 10 or later.
 Gets the reason why the printer extension was activated.
 
 This property is read-only.
-
-
-## -syntax
-
-
-````
-HRESULT get_ReasonId(
-  [out, retval] GUID *pReasonId
-);
-````
 
 
 ## -parameters
@@ -100,7 +91,6 @@ Guid = {23BB1328-63DE-4293-915B-A6A23D929ACB}
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprinterextensioneventargs.md">IPrinterExtensionEventArgs</a>
 
 
 
@@ -108,9 +98,8 @@ Guid = {23BB1328-63DE-4293-915B-A6A23D929ACB}
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh973207">IPrinterExtensionEventArgs</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrinterExtensionEventArgs::ReasonId property%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

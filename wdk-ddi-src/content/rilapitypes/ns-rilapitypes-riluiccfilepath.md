@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILUICCFILEPATH
 title: RILUICCFILEPATH
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\riluiccfilepath_2.htm
+old-location: netvista\riluiccfilepath.htm
 old-project: netvista
-ms.assetid: d0321907-0a3c-43cc-97f1-a3a7e9b84311
+ms.assetid: 65c46391-f0ef-4618-ac26-86f41e04e688
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: "*LPRILUICCFILEPATH, RILUICCFILEPATH, RILUICCFILEPATH structure [Network Drivers Starting with Windows Vista], netvista.riluiccfilepath_2, rilapitypes/RILUICCFILEPATH"
+ms.date: 3/26/2018
+ms.keywords: "*LPRILUICCFILEPATH, RILUICCFILEPATH, RILUICCFILEPATH structure [Network Drivers Starting with Windows Vista], netvista.riluiccfilepath, ntddrilapitypes/RILUICCFILEPATH"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,10 +35,11 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILUICCFILEPATH
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILUICCFILEPATH, *LPRILUICCFILEPATH
 req.product: Windows 10 or later.
@@ -50,19 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-
-## -syntax
-
-
-````
-typedef struct _RILUICCFILEPATH {
-  HUICCAPP                  hUiccApp;
-  DWORD                     dwFilePathLen;
-  WORD [MAXLENGTH_UICCPATH] wFilePath;
-} RILUICCFILEPATH, RILUICCFILEPATH;
-````
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -struct-fields

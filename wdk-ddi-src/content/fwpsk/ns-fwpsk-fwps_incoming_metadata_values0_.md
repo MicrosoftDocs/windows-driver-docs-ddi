@@ -7,7 +7,7 @@ old-location: netvista\fwps_incoming_metadata_values0.htm
 old-project: netvista
 ms.assetid: fba7eb60-0d19-4bfd-b484-2e615d3e9237
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: FWPS_INCOMING_METADATA_VALUES0, FWPS_INCOMING_METADATA_VALUES0 structure [Network Drivers Starting with Windows Vista], FWPS_INCOMING_METADATA_VALUES0_, FWPS_L2_INCOMING_FLAG_IS_RAW_IPV4_FRAMING, FWPS_L2_INCOMING_FLAG_IS_RAW_IPV6_FRAMING, FWPS_L2_INCOMING_FLAG_RECLASSIFY_MULTI_DESTINATION, FWPS_L2_METADATA_FIELD_ETHERNET_MAC_HEADER_SIZE, FWPS_L2_METADATA_FIELD_VSWITCH_DESTINATION_PORT_ID, FWPS_L2_METADATA_FIELD_VSWITCH_PACKET_CONTEXT, FWPS_L2_METADATA_FIELD_VSWITCH_SOURCE_NIC_INDEX, FWPS_L2_METADATA_FIELD_VSWITCH_SOURCE_PORT_ID, FWPS_L2_METADATA_FIELD_WIFI_OPERATION_MODE, fwpsk/FWPS_INCOMING_METADATA_VALUES0, netvista.fwps_incoming_metadata_values0, wfp_ref_3_struct_3_fwps_F-O_ee69ce82-24a0-4757-bba4-f1abb3f00c8e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	fwpsk.h
 api_name:
 -	FWPS_INCOMING_METADATA_VALUES0
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FWPS_INCOMING_METADATA_VALUES0
 ---
@@ -51,72 +52,8 @@ req.typenames: FWPS_INCOMING_METADATA_VALUES0
 
 The <b>FWPS_INCOMING_METADATA_VALUES0</b> structure defines metadata values that the filter engine passes to
   a callout's 
-  <a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a> callout function.
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a> callout function.
 <div class="alert"><b>Note</b>  <b>FWPS_INCOMING_METADATA_VALUES0</b> is a specific version of <b>FWPS_INCOMING_METADATA_VALUES</b>. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
-
-## -syntax
-
-
-````
-typedef struct FWPS_INCOMING_METADATA_VALUES0_ {
-  UINT32                          currentMetadataValues;
-  UINT32                          flags;
-  UINT64                          reserved;
-  FWPS_DISCARD_METADATA0          discardMetadata;
-  UINT64                          flowHandle;
-  UINT32                          ipHeaderSize;
-  UINT32                          transportHeaderSize;
-  FWP_BYTE_BLOB                   *processPath;
-  UINT64                          token;
-  UINT64                          processId;
-  UINT32                          sourceInterfaceIndex;
-  UINT32                          destinationInterfaceIndex;
-  ULONG                           compartmentId;
-  FWPS_INBOUND_FRAGMENT_METADATA0 fragmentMetadata;
-  ULONG                           pathMtu;
-  HANDLE                          completionHandle;
-  UINT64                          transportEndpointHandle;
-  SCOPE_ID                        remoteScopeId;
-  WSACMSGHDR                      *controlData;
-  ULONG                           controlDataLength;
-  FWP_DIRECTION                   packetDirection;
-#if (NTDDI_VERSION >= NTDDI_WIN6SP1)
-  PVOID                           headerIncludeHeader;
-  ULONG                           headerIncludeHeaderLength;
-#if (NTDDI_VERSION >= NTDDI_WIN7)
-  IP_ADDRESS_PREFIX               destinationPrefix;
-  UINT16                          frameLength;
-  UINT64                          parentEndpointHandle;
-  UINT32                          icmpIdAndSequence;
-  DWORD                           localRedirectTargetPID;
-  SOCKADDR                        *originalDestination;
-#if (NTDDI_VERSION >= NTDDI_WIN8)
-  HANDLE                          redirectRecords;
-  UINT32                          currentL2MetadataValues;
-  UINT32                          l2Flags;
-  UINT32                          ethernetMacHeaderSize;
-  UINT32                          wiFiOperationMode;
-#if (NDIS_SUPPORT_NDIS630)
-  NDIS_SWITCH_PORT_ID             vSwitchSourcePortId;
-  NDIS_SWITCH_NIC_INDEX           vSwitchSourceNicIndex;
-  NDIS_SWITCH_PORT_ID             vSwitchDestinationPortId;
-#else 
-  UINT32                          padding0;
-  USHORT                          padding1;
-  UINT32                          padding2;
-#endif 
-  HANDLE                          vSwitchPacketContext;
-  UINT32                          l2ConnectionProfileIndex;
-#endif 
-#endif 
-#endif 
-#if (NTDDI_VERSION >= NTDDI_WIN8)
-  PVOID                           subProcessTag;
-  UINT64                          Reserved1;
-#endif 
-} FWPS_INCOMING_METADATA_VALUES0;
-````
-
 
 ## -struct-fields
 
@@ -408,7 +345,7 @@ The original destination of a redirected connection.
 
 ### -field redirectRecords
 
-A redirect records handle that can be passed to the <a href="..\fwpsk\nf-fwpsk-fwpsqueryconnectionredirectstate0.md">FwpsQueryConnectionRedirectState0</a> function to get the redirect state. 
+A redirect records handle that can be passed to the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439677">FwpsQueryConnectionRedirectState0</a> function to get the redirect state. 
 
 <div class="alert"><b>Note</b>  Available only in <i>Windows 8</i> and later versions of Windows.</div>
 <div> </div>
@@ -552,7 +489,7 @@ The size, in bytes,  of the MAC header if the FWPS_L2_METADATA_FIELD_802_3_MAC_H
 
 ### -field wiFiOperationMode
 
-The  current Native 802.11  operation mode  if the FWPS_L2_METADATA_FIELD_802_11_OPERATION_MODE flag is set. For more information, see <a href="..\windot11\ns-windot11-_dot11_current_operation_mode.md">DOT11_CURRENT_OPERATION_MODE</a>.
+The  current Native 802.11  operation mode  if the FWPS_L2_METADATA_FIELD_802_11_OPERATION_MODE flag is set. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff547678">DOT11_CURRENT_OPERATION_MODE</a>.
      
 
 <div class="alert"><b>Note</b>  Available only in <i>Windows 8</i> and later versions of Windows.</div>
@@ -640,7 +577,7 @@ A the layer 2 connection profile index.
 
 
 The filter engine passes a pointer to an FWPS_INCOMING_METADATA_VALUES0 structure to a callout's 
-    <a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a> callout function. The metadata
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a> callout function. The metadata
     values contained in the structure are not processed by the filter engine but are supplied to a callout's 
     <i>classifyFn</i> callout function to provide
     additional information.
@@ -683,23 +620,6 @@ The callout driver must follow these guidelines when it inspects the packet:
 
 ## -see-also
 
-<a href="..\fwpsk\nf-fwpsk-fwpsqueryconnectionredirectstate0.md">FwpsQueryConnectionRedirectState0</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552427">FWP_BYTE_BLOB</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552433">FWP_DIRECTION</a>
-
-
-
-<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
 
 
 
@@ -716,9 +636,24 @@ The callout driver must follow these guidelines when it inspects the packet:
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552427">FWP_BYTE_BLOB</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552433">FWP_DIRECTION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439677">FwpsQueryConnectionRedirectState0</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FWPS_INCOMING_METADATA_VALUES0 structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -38,7 +38,8 @@ api_location:
 -	Spbcx.h
 api_name:
 -	SPB_CONNECTION_PARAMETERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SPB_CONNECTION_PARAMETERS, *PSPB_CONNECTION_PARAMETERS
 req.product: Windows 10 or later.
@@ -51,18 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>SPB_CONNECTION_PARAMETERS</b> structure contains the connection parameters for a target device on a <a href="https://msdn.microsoft.com/2c660e14-5b27-4610-a328-735b07ed0773">simple peripheral bus</a>.
-
-
-## -syntax
-
-
-````
-typedef struct SPB_CONNECTION_PARAMETERS {
-  USHORT Size;
-  PCWSTR ConnectionTag;
-  PVOID  ConnectionParameters;
-} SPB_CONNECTION_PARAMETERS, *PSPB_CONNECTION_PARAMETERS;
-````
 
 
 ## -struct-fields
@@ -109,15 +98,6 @@ To open a connection on behalf of a client (peripheral driver), the SPB framewor
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/02756C35-E76C-42C0-80FA-359CADE224A1">EvtSpbTargetDisconnect</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406205">SPB_CONNECTION_PARAMETERS_INIT</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj938063">RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER</a>
 
 
 
@@ -125,13 +105,20 @@ To open a connection on behalf of a client (peripheral driver), the SPB framewor
 
 
 
+<a href="https://msdn.microsoft.com/02756C35-E76C-42C0-80FA-359CADE224A1">EvtSpbTargetDisconnect</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj938063">RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406205">SPB_CONNECTION_PARAMETERS_INIT</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh450926">SpbTargetGetConnectionParameters</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [SPB\buses]:%20SPB_CONNECTION_PARAMETERS structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

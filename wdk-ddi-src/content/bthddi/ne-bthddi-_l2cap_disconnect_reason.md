@@ -38,7 +38,8 @@ api_location:
 -	bthddi.h
 api_name:
 -	L2CAP_DISCONNECT_REASON
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: L2CAP_DISCONNECT_REASON
 ---
@@ -51,19 +52,6 @@ req.typenames: L2CAP_DISCONNECT_REASON
 
 The L2CAP_DISCONNECT_REASON enumeration type gives the reason an L2CAP channel has been
   disconnected.
-
-
-## -syntax
-
-
-````
-typedef enum _L2CAP_DISCONNECT_REASON { 
-  HciDisconnect           = 0,
-  L2capDisconnectRequest  = 1,
-  RadioPoweredDown        = 2,
-  HardwareRemoval         = 3
-} L2CAP_DISCONNECT_REASON;
-````
 
 
 ## -enum-fields
@@ -100,7 +88,7 @@ This value specifies for the profile driver that the local radio has been physic
 
 A value from this enumeration is used as the 
     <b>Reason</b> member of the 
-    <a href="..\bthddi\ns-bthddi-_indication_parameters.md">INDICATION_PARAMETERS</a> structure.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff536680">INDICATION_PARAMETERS</a> structure.
 
 Hardware limitations may prevent the Bluetooth driver stack from distinguishing between 
     <b>RadioPoweredDown</b> and 
@@ -109,20 +97,18 @@ Hardware limitations may prevent the Bluetooth driver stack from distinguishing 
 Currently, 
     <i>HciDisconnect</i> and 
     <i>L2capDisconnectRequest</i> are the only values the Bluetooth driver stack passes to the 
-    <a href="..\bthddi\nc-bthddi-pfnbthport_indication_callback.md">L2CAP Callback Function</a>.
+    <a href="https://msdn.microsoft.com/d3ca900d-1dd6-49da-ae94-855de3fbd086">L2CAP Callback Function</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\bthddi\ns-bthddi-_indication_parameters.md">INDICATION_PARAMETERS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536680">INDICATION_PARAMETERS</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20L2CAP_DISCONNECT_REASON enumeration%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

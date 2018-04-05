@@ -38,7 +38,8 @@ api_location:
 -	pmi.h
 api_name:
 -	PMI_MEASUREMENT_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PMI_MEASUREMENT_TYPE
 ---
@@ -50,18 +51,6 @@ req.typenames: PMI_MEASUREMENT_TYPE
 
 
 The PMI_MEASUREMENT_TYPE enumeration defines the source of the PMI measurement data.
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  PmiMeasurementTypeInput,
-  PmiMeasurementTypeOutput,
-  PmiMeasurementTypeMax
-} PMI_MEASUREMENT_TYPE;
-````
 
 
 ## -enum-fields
@@ -88,30 +77,28 @@ The maximum types of PMI measurement data.
 
 
 
-The <b>MeasurementType</b> member of the <a href="..\pmi\ns-pmi-_pmi_reported_capabilities.md">PMI_REPORTED_CAPABILITIES</a> structure specifies the type of PMI measurement data reported by a power meter. This structure is returned through a successful completion of an <a href="..\pmi\ni-pmi-ioctl_pmi_get_capabilities.md">IOCTL_PMI_GET_CAPABILITIES</a> request.
+The <b>MeasurementType</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543902">PMI_REPORTED_CAPABILITIES</a> structure specifies the type of PMI measurement data reported by a power meter. This structure is returned through a successful completion of an <a href="https://msdn.microsoft.com/library/windows/hardware/ff543837">IOCTL_PMI_GET_CAPABILITIES</a> request.
 
-PMI measurement data is returned through a query request of <a href="..\pmi\ni-pmi-ioctl_pmi_get_measurement.md">IOCTL_PMI_GET_MEASUREMENT</a>.
+PMI measurement data is returned through a query request of <a href="https://msdn.microsoft.com/library/windows/hardware/ff543845">IOCTL_PMI_GET_MEASUREMENT</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\pmi\ni-pmi-ioctl_pmi_get_measurement.md">IOCTL_PMI_GET_MEASUREMENT</a>
 
 
 
-<a href="..\pmi\ns-pmi-_pmi_reported_capabilities.md">PMI_REPORTED_CAPABILITIES</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543837">IOCTL_PMI_GET_CAPABILITIES</a>
 
 
 
-<a href="..\pmi\ni-pmi-ioctl_pmi_get_capabilities.md">IOCTL_PMI_GET_CAPABILITIES</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543845">IOCTL_PMI_GET_MEASUREMENT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543902">PMI_REPORTED_CAPABILITIES</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [powermeter\powermeter]:%20PMI_MEASUREMENT_TYPE enumeration%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

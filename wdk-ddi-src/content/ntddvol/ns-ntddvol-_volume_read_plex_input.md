@@ -7,7 +7,7 @@ old-location: storage\volume_read_plex_input.htm
 old-project: storage
 ms.assetid: 1d53c658-9912-4912-a74f-f7b93367b9e2
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PVOLUME_READ_PLEX_INPUT, PVOLUME_READ_PLEX_INPUT, PVOLUME_READ_PLEX_INPUT structure pointer [Storage Devices], VOLUME_READ_PLEX_INPUT, VOLUME_READ_PLEX_INPUT structure [Storage Devices], _VOLUME_READ_PLEX_INPUT, ntddvol/PVOLUME_READ_PLEX_INPUT, ntddvol/VOLUME_READ_PLEX_INPUT, storage.volume_read_plex_input, structs-volumemgr_26a6ef07-d18e-45bd-b4c3-532d7daadc5c.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddvol.h
 api_name:
 -	VOLUME_READ_PLEX_INPUT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VOLUME_READ_PLEX_INPUT, *PVOLUME_READ_PLEX_INPUT
 ---
@@ -49,19 +50,7 @@ req.typenames: VOLUME_READ_PLEX_INPUT, *PVOLUME_READ_PLEX_INPUT
 ## -description
 
 
-This structure is used in conjunction with <a href="..\ntddvol\ni-ntddvol-ioctl_volume_read_plex.md">IOCTL_VOLUME_READ_PLEX</a> to read data from a specific <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">plex</a> in a volume. 
-
-
-## -syntax
-
-
-````
-typedef struct _VOLUME_READ_PLEX_INPUT {
-  LARGE_INTEGER ByteOffset;
-  ULONG         Length;
-  ULONG         PlexNumber;
-} VOLUME_READ_PLEX_INPUT, *PVOLUME_READ_PLEX_INPUT;
-````
+This structure is used in conjunction with <a href="https://msdn.microsoft.com/library/windows/hardware/ff561442">IOCTL_VOLUME_READ_PLEX</a> to read data from a specific <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">plex</a> in a volume. 
 
 
 ## -struct-fields
@@ -86,13 +75,11 @@ Supplies the zero-based plex number.
 
 ## -see-also
 
-<a href="..\ntddvol\ni-ntddvol-ioctl_volume_read_plex.md">IOCTL_VOLUME_READ_PLEX</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561442">IOCTL_VOLUME_READ_PLEX</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20VOLUME_READ_PLEX_INPUT structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

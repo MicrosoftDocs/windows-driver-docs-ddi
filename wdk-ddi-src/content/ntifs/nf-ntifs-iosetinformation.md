@@ -7,7 +7,7 @@ old-location: ifsk\iosetinformation.htm
 old-project: ifsk
 ms.assetid: 6eedef2d-9fa5-4001-9246-7445198c4386
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: IoSetInformation, IoSetInformation function [Installable File System Drivers], ifsk.iosetinformation, ioref_3c058acd-e360-4923-a9be-b17d3882727f.xml, ntifs/IoSetInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	ntifs.h
 api_name:
 -	IoSetInformation
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -49,17 +50,7 @@ req.typenames: TOKEN_TYPE
 ## -description
 
 
-The <b>IoSetInformation</b> routine is reserved for system use. See <a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>.
-
-
-## -syntax
-
-
-````
-  IoSetInformation(
-    
-);
-````
+The <b>IoSetInformation</b> routine is reserved for system use. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff567096">ZwSetInformationFile</a>.
 
 
 ## -parameters

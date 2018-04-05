@@ -7,7 +7,7 @@ old-location: audio\isynthsinkdmus_sampletoreftime.htm
 old-project: audio
 ms.assetid: b2d54ee9-78aa-4799-a06d-6c79000d3e32
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 3/19/2018
 ms.keywords: ISynthSinkDMus, ISynthSinkDMus interface [Audio Devices], SampleToRefTime method, ISynthSinkDMus::SampleToRefTime, SampleToRefTime method [Audio Devices], SampleToRefTime method [Audio Devices], ISynthSinkDMus interface, SampleToRefTime,ISynthSinkDMus.SampleToRefTime, audio.isynthsinkdmus_sampletoreftime, audmp-routines_acfbec43-3c33-4d78-9d25-57e44afe0033.xml, dmusicks/ISynthSinkDMus::SampleToRefTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dmusicks.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	dmusicks.h
 api_name:
 -	ISynthSinkDMus.SampleToRefTime
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DMUS_STREAM_TYPE
 ---
@@ -52,17 +53,6 @@ req.typenames: DMUS_STREAM_TYPE
 The <code>SampleToRefTime</code> method converts a sample time to a reference time.
 
 
-## -syntax
-
-
-````
-NTSTATUS SampleToRefTime(
-  [in]  LONGLONG       llSampleTime,
-  [out] REFERENCE_TIME *prtTime
-);
-````
-
-
 ## -parameters
 
 
@@ -73,14 +63,7 @@ NTSTATUS SampleToRefTime(
 Specifies the sample time being passed in.
 
 
-### -param prfTime
-
-
-
-
-
-
-#### - prtTime [out]
+### -param prfTime [out]
 
 Output pointer for the reference time. This parameter is a pointer to a caller-allocated variable into which the method writes the calculated reference time. Reference time is measured in 100-nanosecond units.
 
@@ -107,17 +90,15 @@ The calculation of reference time from sample time to reference time depends on 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536526">IDirectMusicSynthSink::SampleToRefTime</a>
 
 
 
-<a href="..\dmusicks\nn-dmusicks-isynthsinkdmus.md">ISynthSinkDMus</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537011">ISynthSinkDMus</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20ISynthSinkDMus::SampleToRefTime method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

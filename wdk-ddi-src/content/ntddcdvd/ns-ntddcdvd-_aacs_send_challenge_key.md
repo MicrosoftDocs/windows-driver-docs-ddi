@@ -7,7 +7,7 @@ old-location: storage\aacs_send_challenge_key.htm
 old-project: storage
 ms.assetid: 3985c396-7e85-46b6-8790-1ec45931a4ab
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PAACS_SEND_CHALLENGE_KEY, AACS_SEND_CHALLENGE_KEY, AACS_SEND_CHALLENGE_KEY structure [Storage Devices], PAACS_SEND_CHALLENGE_KEY, PAACS_SEND_CHALLENGE_KEY structure pointer [Storage Devices], _AACS_SEND_CHALLENGE_KEY, ntddcdvd/AACS_SEND_CHALLENGE_KEY, ntddcdvd/PAACS_SEND_CHALLENGE_KEY, storage.aacs_send_challenge_key, structs-DVD_f9e8ef67-414c-4a98-82ab-88674dabe24b.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddcdvd.h
 api_name:
 -	AACS_SEND_CHALLENGE_KEY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: AACS_SEND_CHALLENGE_KEY, *PAACS_SEND_CHALLENGE_KEY
 ---
@@ -50,17 +51,6 @@ req.typenames: AACS_SEND_CHALLENGE_KEY, *PAACS_SEND_CHALLENGE_KEY
 
 
 The AACS_SEND_CHALLENGE_KEY structure is defined as a challenge key that host software sends to an Advanced Access Content System (AACS) device.
-
-
-## -syntax
-
-
-````
-typedef struct _AACS_SEND_CHALLENGE_KEY {
-  DVD_SESSION_ID     SessionId;
-  AACS_CHALLENGE_KEY ChallengeKey;
-} AACS_SEND_CHALLENGE_KEY, *PAACS_SEND_CHALLENGE_KEY;
-````
 
 
 ## -struct-fields
@@ -75,21 +65,24 @@ A value of type DVD_SESSION_ID that specifies an Authentication Grant Identifier
 
 ### -field ChallengeKey
 
-A structure of type <a href="..\ntddcdvd\ns-ntddcdvd-_aacs_challenge_key.md">AACS_CHALLENGE_KEY</a> that specifies the challenge key to retrieve.
+A structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff550108">AACS_CHALLENGE_KEY</a> that specifies the challenge key to retrieve.
 
 
 ## -remarks
 
 
 
-Host software send this challenge key to an AACS-compliant device with an <a href="..\ntddcdvd\ni-ntddcdvd-ioctl_aacs_send_challenge_key.md">IOCTL_AACS_SEND_CHALLENGE_KEY</a> request.
+Host software send this challenge key to an AACS-compliant device with an <a href="https://msdn.microsoft.com/library/windows/hardware/ff559302">IOCTL_AACS_SEND_CHALLENGE_KEY</a> request.
 
 
 
 
 ## -see-also
 
-<a href="..\ntddcdvd\ni-ntddcdvd-ioctl_aacs_send_challenge_key.md">IOCTL_AACS_SEND_CHALLENGE_KEY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550108">AACS_CHALLENGE_KEY</a>
 
 
 
@@ -97,13 +90,8 @@ Host software send this challenge key to an AACS-compliant device with an <a hre
 
 
 
-<a href="..\ntddcdvd\ns-ntddcdvd-_aacs_challenge_key.md">AACS_CHALLENGE_KEY</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559302">IOCTL_AACS_SEND_CHALLENGE_KEY</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20AACS_SEND_CHALLENGE_KEY structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

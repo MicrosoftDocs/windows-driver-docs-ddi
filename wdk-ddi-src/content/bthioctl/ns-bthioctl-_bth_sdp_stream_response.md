@@ -38,7 +38,8 @@ api_location:
 -	bthioctl.h
 api_name:
 -	BTH_SDP_STREAM_RESPONSE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BTH_SDP_STREAM_RESPONSE, *PBTH_SDP_STREAM_RESPONSE
 ---
@@ -50,18 +51,6 @@ req.typenames: BTH_SDP_STREAM_RESPONSE, *PBTH_SDP_STREAM_RESPONSE
 
 
 The BTH_SDP_STREAM_RESPONSE structure contains information about an SDP record.
-
-
-## -syntax
-
-
-````
-typedef struct _BTH_SDP_STREAM_RESPONSE {
-  ULONG requiredSize;
-  ULONG responseSize;
-  UCHAR response[1];
-} BTH_SDP_STREAM_RESPONSE, *PBTH_SDP_STREAM_RESPONSE;
-````
 
 
 ## -struct-fields
@@ -90,9 +79,9 @@ The first byte of the SDP record stream.
 
 
 This structure is returned with a raw stream to the output buffer of the 
-    <a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_attribute_search.md">
+    <a href="https://msdn.microsoft.com/30daf70e-34d1-45f7-a69b-503e275b83af">
     IOCTL_BTH_SDP_ATTRIBUTE_SEARCH</a> and 
-    <a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_service_attribute_search.md">
+    <a href="https://msdn.microsoft.com/f0955e88-df80-4f53-bc5f-5a38a840aab4">
     IOCTL_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH</a> IOCTLs.
 
 The 
@@ -105,18 +94,16 @@ The
 
 ## -see-also
 
-<a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_attribute_search.md">IOCTL_BTH_SDP_ATTRIBUTE_SEARCH</a>
 
 
 
-<a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_service_attribute_search.md">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536687">IOCTL_BTH_SDP_ATTRIBUTE_SEARCH</a>
+
+
+
+<a href="https://msdn.microsoft.com/f0955e88-df80-4f53-bc5f-5a38a840aab4">
    IOCTL_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20BTH_SDP_STREAM_RESPONSE structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

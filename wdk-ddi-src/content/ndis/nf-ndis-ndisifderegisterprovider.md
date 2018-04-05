@@ -7,7 +7,7 @@ old-location: netvista\ndisifderegisterprovider.htm
 old-project: netvista
 ms.assetid: 90e921e3-b384-495b-8cb6-74596d060ec0
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: NdisIfDeregisterProvider, NdisIfDeregisterProvider function [Network Drivers Starting with Windows Vista], ndis/NdisIfDeregisterProvider, net_if_functions_ref_7e9c9d72-3b55-4001-9848-c79608608c82.xml, netvista.ndisifderegisterprovider
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	ndis.dll
 api_name:
 -	NdisIfDeregisterProvider
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
@@ -53,18 +54,8 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 The 
   <b>NdisIfDeregisterProvider</b> function deregisters an interface provider that was previously registered by
   a call to the 
-  <a href="..\ndis\nf-ndis-ndisifregisterprovider.md">
+  <a href="https://msdn.microsoft.com/1624426b-9e67-4aa2-83d8-f1e6fa484858">
   NdisIfRegisterProvider</a> function.
-
-
-## -syntax
-
-
-````
-VOID NdisIfDeregisterProvider(
-  _In_ NDIS_HANDLE NdisProviderHandle
-);
-````
 
 
 ## -parameters
@@ -76,7 +67,7 @@ VOID NdisIfDeregisterProvider(
 
 A handle that identifies the network interface provider. The caller obtained this handle from a
      previous call to the 
-     <a href="..\ndis\nf-ndis-ndisifregisterprovider.md">
+     <a href="https://msdn.microsoft.com/1624426b-9e67-4aa2-83d8-f1e6fa484858">
      NdisIfRegisterProvider</a> function.
 
 
@@ -99,7 +90,7 @@ NDIS drivers call the
 
 The interface provider must ensure that it does not have any interfaces registered when it calls 
     <b>NdisIfDeregisterProvider</b>. To deregister interfaces, the provider must call the 
-    <a href="..\ndis\nf-ndis-ndisifderegisterinterface.md">
+    <a href="https://msdn.microsoft.com/696d0870-966e-44ac-859e-d530dd6c76b8">
     NdisIfDeregisterInterface</a> function once for each registered interface.
 
 The provider must not use the provider handle that it passed at the 
@@ -111,17 +102,15 @@ The provider must not use the provider handle that it passed at the
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisifderegisterinterface.md">NdisIfDeregisterInterface</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisifregisterprovider.md">NdisIfRegisterProvider</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562700">NdisIfDeregisterInterface</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562716">NdisIfRegisterProvider</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisIfDeregisterProvider function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

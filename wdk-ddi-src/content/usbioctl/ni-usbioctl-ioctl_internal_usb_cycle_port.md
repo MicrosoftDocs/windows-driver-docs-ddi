@@ -7,7 +7,7 @@ old-location: buses\ioctl_internal_usb_cycle_port.htm
 old-project: usbref
 ms.assetid: 81e62377-66af-4588-8be5-f6bb89a11fe0
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_INTERNAL_USB_CYCLE_PORT, IOCTL_INTERNAL_USB_CYCLE_PORT control code [Buses], buses.ioctl_internal_usb_cycle_port, usbioctl/IOCTL_INTERNAL_USB_CYCLE_PORT, usbirp_0f04d439-7813-4da8-9279-a4d113871687.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Usbioctl.h
 api_name:
 -	IOCTL_INTERNAL_USB_CYCLE_PORT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USB_HUB_TYPE
 req.product: Windows 10 or later.
@@ -46,11 +47,6 @@ req.product: Windows 10 or later.
 
 # IOCTL_INTERNAL_USB_CYCLE_PORT IOCTL
 
-
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -60,7 +56,7 @@ The <b>IOCTL_INTERNAL_USB_CYCLE_PORT</b> I/O request simulates a device unplug a
 
 Drivers should cancel all I/O requests and wait for them to complete before initiating this operation. 
 
-A driver that manages an individual interface on a composite device cannot cycle the port to which the device is attached without affecting the entire composite device and all of its interfaces. For this reason, drivers that manage interfaces should attempt other types of error recovery, such as resetting pipes (<a href="..\usb\ns-usb-_urb_pipe_request.md">_URB_PIPE_REQUEST</a>), before cycling the port. 
+A driver that manages an individual interface on a composite device cannot cycle the port to which the device is attached without affecting the entire composite device and all of its interfaces. For this reason, drivers that manage interfaces should attempt other types of error recovery, such as resetting pipes (<a href="https://msdn.microsoft.com/library/windows/hardware/ff540419">_URB_PIPE_REQUEST</a>), before cycling the port. 
 
 <b>IOCTL_INTERNAL_USB_CYCLE_PORT</b> is a kernel-mode I/O control request. This request targets the USB hub PDO. This request must be sent at an IRQL of PASSIVE_LEVEL.
 

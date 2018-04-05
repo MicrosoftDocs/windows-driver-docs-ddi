@@ -7,7 +7,7 @@ old-location: wdf\wdf_align_size_down.htm
 old-project: wdf
 ms.assetid: b93c6420-b981-4bfe-b841-921cbe76f643
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/26/2018
 ms.keywords: DFMemoryObjectRef_2b1a76a0-3de8-4cfd-8a87-83a883a6fa95.xml, WDF_ALIGN_SIZE_DOWN, WDF_ALIGN_SIZE_DOWN function, kmdf.wdf_align_size_down, wdf.wdf_align_size_down, wdfcore/WDF_ALIGN_SIZE_DOWN
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Wdf01000.sys.dll
 api_name:
 -	WDF_ALIGN_SIZE_DOWN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_DEVICE_SHUTDOWN_FLAGS
 req.product: Windows 10 or later.
@@ -54,17 +55,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WDF_ALIGN_SIZE_DOWN</b> function returns the next-lower buffer size that is aligned to a specified alignment offset.
-
-
-## -syntax
-
-
-````
-size_t WDF_ALIGN_SIZE_DOWN(
-  _In_ size_t Length,
-  _In_ size_t AlignTo
-);
-````
 
 
 ## -parameters
@@ -95,7 +85,7 @@ WDF_ALIGN_SIZE_DOWN returns the aligned buffer size, in bytes.
 
 
 
-Drivers can use <a href="..\wdfcore\nf-wdfcore-wdf_align_size_up.md">WDF_ALIGN_SIZE_UP</a> or <b>WDF_ALIGN_SIZE_DOWN</b> to calculate a buffer size that is aligned to a specified alignment offset. This calculation is useful if your driver must allocate multiple contiguous buffers, if each buffer must begin at an address alignment boundary.
+Drivers can use <a href="https://msdn.microsoft.com/library/windows/hardware/ff551217">WDF_ALIGN_SIZE_UP</a> or <b>WDF_ALIGN_SIZE_DOWN</b> to calculate a buffer size that is aligned to a specified alignment offset. This calculation is useful if your driver must allocate multiple contiguous buffers, if each buffer must begin at an address alignment boundary.
 
 
 #### Examples
@@ -118,13 +108,11 @@ The following code example receives a buffer size and returns the size (either t
 
 ## -see-also
 
-<a href="..\wdfcore\nf-wdfcore-wdf_align_size_up.md">WDF_ALIGN_SIZE_UP</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551217">WDF_ALIGN_SIZE_UP</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_ALIGN_SIZE_DOWN function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

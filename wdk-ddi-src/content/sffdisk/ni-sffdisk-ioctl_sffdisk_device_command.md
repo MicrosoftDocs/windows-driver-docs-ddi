@@ -38,7 +38,8 @@ api_location:
 -	sffdisk.h
 api_name:
 -	IOCTL_SFFDISK_DEVICE_COMMAND
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SFFDISK_DPCMD
 req.product: Windows 10 or later.
@@ -46,11 +47,6 @@ req.product: Windows 10 or later.
 
 # IOCTL_SFFDISK_DEVICE_COMMAND IOCTL
 
-
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

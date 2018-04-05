@@ -38,7 +38,8 @@ api_location:
 -	61883.h
 api_name:
 -	CIP_DATA_FORMAT_VER2
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CIP_DATA_FORMAT_VER2, *PCIP_DATA_FORMAT_VER2
 ---
@@ -49,18 +50,7 @@ req.typenames: CIP_DATA_FORMAT_VER2, *PCIP_DATA_FORMAT_VER2
 ## -description
 
 
-This structure is a CIP data format which is used by <a href="..\61883\ns-61883-_cmp_connect_ver2.md">CMP_CONNECT_VER2</a>.
-
-
-## -syntax
-
-
-````
-typedef struct _CIP_DATA_FORMAT_VER2 {
-  HANDLE     hConnect;
-  PCIP_FRAME Frame;
-} CIP_DATA_FORMAT_VER2, *PCIP_DATA_FORMAT_VER2;
-````
+This structure is a CIP data format which is used by <a href="https://msdn.microsoft.com/2A2C1478-0512-4F84-90B9-B9C62B5D44DA">CMP_CONNECT_VER2</a>.
 
 
 ## -struct-fields
@@ -127,13 +117,11 @@ A handle to a connection.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537008">AV_61883_REQUEST</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [IEEE\buses]:%20CIP_DATA_FORMAT_VER2 structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

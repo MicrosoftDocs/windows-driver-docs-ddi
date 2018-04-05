@@ -7,7 +7,7 @@ old-location: print\expscompressionoptions.htm
 old-project: print
 ms.assetid: 7df53803-4e01-4d00-b7a4-2f2d1dde5ad8
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: Compression_Fast, Compression_Normal, Compression_NotCompressed, Compression_Small, EXpsCompressionOptions, EXpsCompressionOptions enumeration [Print Devices], __MIDL___MIDL_itf_filterpipeline_0000_0000_0001, filterpipeline/Compression_Fast, filterpipeline/Compression_Normal, filterpipeline/Compression_NotCompressed, filterpipeline/Compression_Small, filterpipeline/EXpsCompressionOptions, filterpipeline_eb934659-a4bd-4063-b0a7-f4011998c0ec.xml, print.expscompressionoptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	filterpipeline.h
 api_name:
 -	EXpsCompressionOptions
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsCompressionOptions
 ---
@@ -50,19 +51,6 @@ req.typenames: EXpsCompressionOptions
 
 
 The ExpsCompressionOptions enumeration describes compression options for an XPS part.
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  Compression_NotCompressed,
-  Compression_Normal,
-  Compression_Small,
-  Compression_Fast
-} EXpsCompressionOptions;
-````
 
 
 ## -enum-fields

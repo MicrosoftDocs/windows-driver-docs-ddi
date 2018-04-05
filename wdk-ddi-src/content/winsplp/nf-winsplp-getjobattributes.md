@@ -7,7 +7,7 @@ old-location: print\getjobattributes.htm
 old-project: print
 ms.assetid: 06affa2e-d22c-4d24-8c5f-6ef52e3051fa
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: GetJobAttributes, GetJobAttributes function [Print Devices], print.getjobattributes, spoolfnc_5f511391-a38e-4d0b-8d45-4464b798a7c9.xml, winsplp/GetJobAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Spoolss.dll
 api_name:
 -	GetJobAttributes
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NOTIFICATION_CONFIG_FLAGS
 req.product: Windows 10 or later.
@@ -53,18 +54,6 @@ req.product: Windows 10 or later.
 <div class="alert"><b>Warning</b>  <p class="note">Starting with Windows 10, the APIs which support third-party print providers are deprecated. Microsoft does not recommend any investment into third-party print providers. Additionally, on Windows 8 and newer products where the v4 print driver model is available, third-party print providers may not create or manage queues which use v4 print drivers.
 
 </div><div> </div>A print provider's <b>GetJobAttributes</b> function gets information about a print job.
-
-
-## -syntax
-
-
-````
-BOOL GetJobAttributes(
-  _In_  LPWSTR            pPrinterName,
-  _In_  LPDEVMODEW        pDevmode,
-  _Out_ PATTRIBUTE_INFO_3 pAttributeInfo
-);
-````
 
 
 ## -parameters
@@ -84,7 +73,7 @@ Caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows
 
 ### -param pAttributeInfo [out]
 
-Caller-supplied pointer to an <a href="..\winsplp\ns-winsplp-_attribute_info_3.md">ATTRIBUTE_INFO_3</a> structure that receives information about the print job.
+Caller-supplied pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff545093">ATTRIBUTE_INFO_3</a> structure that receives information about the print job.
 
 
 ## -returns
@@ -98,11 +87,10 @@ Caller-supplied pointer to an <a href="..\winsplp\ns-winsplp-_attribute_info_3.m
 
 ## -see-also
 
-<a href="..\winsplp\nf-winsplp-getjobattributesex.md">GetJobAttributesEx</a>
 
 
 
-<a href="..\winsplp\ns-winsplp-_attribute_info_3.md">ATTRIBUTE_INFO_3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545093">ATTRIBUTE_INFO_3</a>
 
 
 
@@ -110,9 +98,8 @@ Caller-supplied pointer to an <a href="..\winsplp\ns-winsplp-_attribute_info_3.m
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550459">GetJobAttributesEx</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20GetJobAttributes function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

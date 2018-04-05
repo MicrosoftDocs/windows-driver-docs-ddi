@@ -7,7 +7,7 @@ old-location: display\dxgk_openallocationflags.htm
 old-project: display
 ms.assetid: 6dae69b1-ff48-4d43-bc01-e7ad7bb7acc9
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: DXGK_OPENALLOCATIONFLAGS, DXGK_OPENALLOCATIONFLAGS structure [Display Devices], DmStructs_3b5228f0-93fa-434a-b2ca-9007c372d9ed.xml, _DXGK_OPENALLOCATIONFLAGS, d3dkmddi/DXGK_OPENALLOCATIONFLAGS, display.dxgk_openallocationflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGK_OPENALLOCATIONFLAGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_OPENALLOCATIONFLAGS
 ---
@@ -50,23 +51,6 @@ req.typenames: DXGK_OPENALLOCATIONFLAGS
 
 
 The DXGK_OPENALLOCATIONFLAGS structure identifies the operation to perform for allocations.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGK_OPENALLOCATIONFLAGS {
-  union {
-    struct {
-      UINT Create  :1;
-      UINT ReadOnly  :1;
-      UINT Reserved  :30;
-    };
-    UINT Value;
-  };
-} DXGK_OPENALLOCATIONFLAGS;
-````
 
 
 ## -struct-fields
@@ -102,13 +86,11 @@ A member in the union that DXGK_OPENALLOCATIONFLAGS contains that can hold a 32-
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_openallocation.md">DXGKARG_OPENALLOCATION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557609">DXGKARG_OPENALLOCATION</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGK_OPENALLOCATIONFLAGS structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

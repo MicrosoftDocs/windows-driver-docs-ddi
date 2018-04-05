@@ -7,7 +7,7 @@ old-location: netvista\fwpsqueryconnectionsioformatredirectrecords0.htm
 old-project: netvista
 ms.assetid: AE24409D-AA60-4694-8855-AB2B0F6B1635
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: FwpsQueryConnectionSioFormatRedirectRecords0, FwpsQueryConnectionSioFormatRedirectRecords0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsQueryConnectionSioFormatRedirectRecords0, netvista.fwpsqueryconnectionsioformatredirectrecords0
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	fwpkclnt.dll
 api_name:
 -	FwpsQueryConnectionSioFormatRedirectRecords0
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FWPS_VSWITCH_EVENT_TYPE
 ---
@@ -55,19 +56,6 @@ The <b>FwpsQueryConnectionSioFormatRedirectRecords0</b> function returns the con
 
 
 
-## -syntax
-
-
-````
-NTSTATUS FwpsQueryConnectionSioFormatRedirectRecords0(
-  _In_      HANDLE  RedirectRecords,
-  _Out_opt_ PVOID   OutputBuffer,
-  _In_      SIZE_T  OutputBufferLength,
-  _Out_opt_ PSIZE_T BytesTransferred
-);
-````
-
-
 ## -parameters
 
 
@@ -75,7 +63,7 @@ NTSTATUS FwpsQueryConnectionSioFormatRedirectRecords0(
 
 ### -param RedirectRecords [in]
 
-The redirect records handle that the  ALE_CONNECT_REDIRECT callout function received in the  <i>inMetaValues</i> parameter of its <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a> function. This handle can be found in the <b>redirectRecords</b>   member of the <a href="..\fwpsk\ns-fwpsk-fwps_incoming_metadata_values0_.md">FWPS_INCOMING_METADATA_VALUES0</a> structure.
+The redirect records handle that the  ALE_CONNECT_REDIRECT callout function received in the  <i>inMetaValues</i> parameter of its <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a> function. This handle can be found in the <b>redirectRecords</b>   member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552397">FWPS_INCOMING_METADATA_VALUES0</a> structure.
 
 A WFP redirect record is a buffer of opaque data that WFP must set on an outbound proxy connection so that the redirected connection and the original connection are logically related.
 
@@ -149,19 +137,10 @@ The <b>FwpsQueryConnectionSioFormatRedirectRecords0</b> function is designed to 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/using-bind-or-connect-redirection">Using Bind or Connect Redirection</a>
 
 
 
 <a href="https://msdn.microsoft.com/E0D7CC1A-8F93-45A0-9543-3F2ACAF352F5">SIO_QUERY_WFP_CONNECTION_REDIRECT_RECORDS (SDK)</a>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/hh859714">SIO_SET_WFP_CONNECTION_REDIRECT_RECORDS (WDK)</a>
-
-
-
-<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
 
 
 
@@ -173,9 +152,16 @@ The <b>FwpsQueryConnectionSioFormatRedirectRecords0</b> function is designed to 
 
 
 
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/hh859714">SIO_SET_WFP_CONNECTION_REDIRECT_RECORDS (WDK)</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/using-bind-or-connect-redirection">Using Bind or Connect Redirection</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FwpsQueryConnectionSioFormatRedirectRecords0 function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

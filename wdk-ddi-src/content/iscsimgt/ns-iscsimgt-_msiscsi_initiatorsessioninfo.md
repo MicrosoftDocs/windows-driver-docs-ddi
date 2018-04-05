@@ -7,7 +7,7 @@ old-location: storage\msiscsi_initiatorsessioninfo.htm
 old-project: storage
 ms.assetid: 0406efa5-26ad-4a3d-829b-d9b03b7c3b26
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PMSiSCSI_InitiatorSessionInfo, MSiSCSI_InitiatorSessionInfo, MSiSCSI_InitiatorSessionInfo structure [Storage Devices], PMSiSCSI_InitiatorSessionInfo, PMSiSCSI_InitiatorSessionInfo structure pointer [Storage Devices], _MSiSCSI_InitiatorSessionInfo, iscsimgt/MSiSCSI_InitiatorSessionInfo, iscsimgt/PMSiSCSI_InitiatorSessionInfo, storage.msiscsi_initiatorsessioninfo, structs-iSCSI_a3ebb8e8-47ff-4482-b896-7b310216bdf1.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	iscsimgt.h
 api_name:
 -	MSiSCSI_InitiatorSessionInfo
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MSiSCSI_InitiatorSessionInfo, *PMSiSCSI_InitiatorSessionInfo
 ---
@@ -52,18 +53,6 @@ req.typenames: MSiSCSI_InitiatorSessionInfo, *PMSiSCSI_InitiatorSessionInfo
 The MSiSCSI_InitiatorSessionInfo structure contains information about a collection of sessions that belong to the indicated HBA initiator.
 
 
-## -syntax
-
-
-````
-typedef struct _MSiSCSI_InitiatorSessionInfo {
-  ULONGLONG               UniqueAdapterId;
-  ULONG                   SessionCount;
-  ISCSI_SessionStaticInfo SessionsList[1];
-} MSiSCSI_InitiatorSessionInfo, *PMSiSCSI_InitiatorSessionInfo;
-````
-
-
 ## -struct-fields
 
 
@@ -71,7 +60,7 @@ typedef struct _MSiSCSI_InitiatorSessionInfo {
 
 ### -field UniqueAdapterId
 
-A 64-bit integer that uniquely identifies an HBA initiator and a loaded instance of a storage miniport driver that manages the HBA. The initiator should use the address of the adapter extension or another address that the device driver owns to construct this identifier (ID). The initiator reports this value in the <b>UniqueAdapterId</b> member of the <a href="..\iscsimgt\ns-iscsimgt-_msiscsi_hbainformation.md">MSiSCSI_HBAInformation</a> structure.
+A 64-bit integer that uniquely identifies an HBA initiator and a loaded instance of a storage miniport driver that manages the HBA. The initiator should use the address of the adapter extension or another address that the device driver owns to construct this identifier (ID). The initiator reports this value in the <b>UniqueAdapterId</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563012">MSiSCSI_HBAInformation</a> structure.
 
 
 ### -field SessionCount
@@ -81,7 +70,7 @@ The number of sessions that have been established with the provided adapter ID.
 
 ### -field SessionsList
 
-A variable length array of <a href="..\iscsimgt\ns-iscsimgt-_iscsi_sessionstaticinfo.md">ISCSI_SessionStaticInfo</a> structures, which describe the static information that is associated with a session.
+A variable length array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff561565">ISCSI_SessionStaticInfo</a> structures, which describe the static information that is associated with a session.
 
 
 ## -remarks
@@ -95,21 +84,19 @@ You must implement this class.
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561565">ISCSI_SessionStaticInfo</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563012">MSiSCSI_HBAInformation</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563057">MSiSCSI_InitiatorSessionInfo WMI Class</a>
-
-
-
-<a href="..\iscsimgt\ns-iscsimgt-_msiscsi_hbainformation.md">MSiSCSI_HBAInformation</a>
-
-
-
-<a href="..\iscsimgt\ns-iscsimgt-_iscsi_sessionstaticinfo.md">ISCSI_SessionStaticInfo</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20MSiSCSI_InitiatorSessionInfo structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

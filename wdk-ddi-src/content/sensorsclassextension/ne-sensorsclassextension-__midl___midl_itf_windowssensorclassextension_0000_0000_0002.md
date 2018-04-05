@@ -38,7 +38,8 @@ api_location:
 -	SensorsClassExtension.h
 api_name:
 -	SensorConnectionType
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SensorConnectionType
 req.product: Windows 10 or later.
@@ -51,19 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>SensorConnectionType</b> enumeration type defines values for the <a href="https://msdn.microsoft.com/1BF1568D-A889-4158-9C6D-160D9B06F0DE">SENSOR_CONNECTION_TYPE</a> property.
-
-
-## -syntax
-
-
-````
-enum SensorConnectionType {
-  SENSOR_CONNECTION_TYPE_PC_INTEGRATED  = 0, 
-  SENSOR_CONNECTION_TYPE_PC_ATTACHED    = ( SENSOR_CONNECTION_TYPE_PC_INTEGRATED + 1 ), 
-  SENSOR_CONNECTION_TYPE_PC_EXTERNAL    = ( SENSOR_CONNECTION_TYPE_PC_ATTACHED + 1 ) 
-
-};
-````
 
 
 ## -enum-fields
@@ -88,7 +76,6 @@ Indicates that the sensor is connected by external means, such as through a netw
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545610">ISensorDriver::OnGetProperties</a>
 
 
 
@@ -96,9 +83,8 @@ Indicates that the sensor is connected by external means, such as through a netw
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545610">ISensorDriver::OnGetProperties</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [sensors\sensors]:%20SensorConnectionType enumeration%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

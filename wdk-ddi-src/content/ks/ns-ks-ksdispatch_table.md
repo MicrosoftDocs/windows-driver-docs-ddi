@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSDISPATCH_TABLE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSDISPATCH_TABLE, *PKSDISPATCH_TABLE
 ---
@@ -50,25 +51,6 @@ req.typenames: KSDISPATCH_TABLE, *PKSDISPATCH_TABLE
 
 
 The KSDISPATCH_TABLE structure contains pointers to minidriver implemented IRP dispatch routines.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  PDRIVER_DISPATCH        DeviceIoControl;
-  PDRIVER_DISPATCH        Read;
-  PDRIVER_DISPATCH        Write;
-  PDRIVER_DISPATCH        Flush;
-  PDRIVER_DISPATCH        Close;
-  PDRIVER_DISPATCH        QuerySecurity;
-  PDRIVER_DISPATCH        SetSecurity;
-  PFAST_IO_DEVICE_CONTROL FastDeviceIoControl;
-  PFAST_IO_READ           FastRead;
-  PFAST_IO_WRITE          FastWrite;
-} KSDISPATCH_TABLE, *PKSDISPATCH_TABLE;
-````
 
 
 ## -struct-fields
@@ -132,24 +114,22 @@ Specifies the minidriver's routine to dispatch fast write requests to.
 
 A pointer to a dispatch table is contained in the opaque object header that is the first element of data pointed to by the file object's <b>FsContext</b> field.
 
-For more information about minidriver implemented IRP dispatch routines, see <a href="..\ks\nf-ks-kssetmajorfunctionhandler.md">KsSetMajorFunctionHandler</a>, and <a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>.
+For more information about minidriver implemented IRP dispatch routines, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff566840">KsSetMajorFunctionHandler</a>, and <a href="https://msdn.microsoft.com/library/windows/hardware/ff544174">DRIVER_OBJECT</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
 
 
 
-<a href="..\ks\nf-ks-kssetmajorfunctionhandler.md">KsSetMajorFunctionHandler</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544174">DRIVER_OBJECT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566840">KsSetMajorFunctionHandler</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSDISPATCH_TABLE structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

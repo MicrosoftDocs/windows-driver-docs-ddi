@@ -7,7 +7,7 @@ old-location: storage\changer_element.htm
 old-project: storage
 ms.assetid: 85035147-0ae8-482a-9a12-1e4e53ae1969
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PCHANGER_ELEMENT, CHANGER_ELEMENT, CHANGER_ELEMENT structure [Storage Devices], PCHANGER_ELEMENT, PCHANGER_ELEMENT structure pointer [Storage Devices], _CHANGER_ELEMENT, ntddchgr/CHANGER_ELEMENT, ntddchgr/PCHANGER_ELEMENT, storage.changer_element, structs-changer_b1685d99-20ff-495d-a9e3-c63571559106.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddchgr.h
 api_name:
 -	CHANGER_ELEMENT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CHANGER_ELEMENT, *PCHANGER_ELEMENT
 ---
@@ -52,17 +53,6 @@ req.typenames: CHANGER_ELEMENT, *PCHANGER_ELEMENT
 The CHANGER_ELEMENT structure contains a description of a changer element. 
 
 
-## -syntax
-
-
-````
-typedef struct _CHANGER_ELEMENT {
-  ELEMENT_TYPE ElementType;
-  ULONG        ElementAddress;
-} CHANGER_ELEMENT, *PCHANGER_ELEMENT;
-````
-
-
 ## -struct-fields
 
 
@@ -70,7 +60,7 @@ typedef struct _CHANGER_ELEMENT {
 
 ### -field ElementType
 
-Indicates the type of element. Can be one of the following values taken from the <a href="..\ntddchgr\ne-ntddchgr-_element_type.md">ELEMENT_TYPE</a> enumeration.
+Indicates the type of element. Can be one of the following values taken from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553754">ELEMENT_TYPE</a> enumeration.
 
 
 
@@ -147,21 +137,19 @@ On input, a changer miniclass driver must translate the zero-based address in <b
 
 ## -see-also
 
-<a href="..\ntddchgr\ns-ntddchgr-_changer_element_status.md">CHANGER_ELEMENT_STATUS</a>
 
 
 
-<a href="..\ntddchgr\ns-ntddchgr-_changer_element_list.md">CHANGER_ELEMENT_LIST</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551459">CHANGER_ELEMENT_LIST</a>
 
 
 
-<a href="..\ntddchgr\ne-ntddchgr-_element_type.md">ELEMENT_TYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551461">CHANGER_ELEMENT_STATUS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553754">ELEMENT_TYPE</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20CHANGER_ELEMENT structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: netvista\ndismcmoidrequest.htm
 old-project: netvista
 ms.assetid: c5523dff-4957-4265-82ef-2fbc009e6bef
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: NdisMCmOidRequest, NdisMCmOidRequest function [Network Drivers Starting with Windows Vista], condis_request_ref_951cd477-8d0a-4882-921d-f394ac04f9cc.xml, ndis/NdisMCmOidRequest, netvista.ndismcmoidrequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	ndis.dll
 api_name:
 -	NdisMCmOidRequest
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
@@ -55,19 +56,6 @@ The
   client.
 
 
-## -syntax
-
-
-````
-NDIS_STATUS NdisMCmOidRequest(
-  _In_     NDIS_HANDLE       NdisAfHandle,
-  _In_opt_ NDIS_HANDLE       NdisVcHandle,
-  _In_opt_ NDIS_HANDLE       NdisPartyHandle,
-  _Inout_  PNDIS_OID_REQUEST OidRequest
-);
-````
-
-
 ## -parameters
 
 
@@ -77,7 +65,7 @@ NDIS_STATUS NdisMCmOidRequest(
 
 A handle that identifies the address family (AF), and implicitly the client, that the OID request
      is directed to. The MCM driver originally obtained this handle as an input parameter to its 
-     <a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a> function.
+     <a href="https://msdn.microsoft.com/7422c205-bc41-4121-b430-ff9e6b49dc2e">ProtocolCmOpenAf</a> function.
 
 
 ### -param NdisVcHandle [in, optional]
@@ -86,9 +74,9 @@ A handle that identifies the virtual connection (VC) that the caller is requesti
      information for, if the request is VC-specific. Otherwise, if this request is not VC-specific, this
      parameter is <b>NULL</b>. For any VC-specific request, the caller originally obtained this handle either when
      it created the VC with the 
-     <a href="..\ndis\nf-ndis-ndismcmcreatevc.md">NdisMCmCreateVc</a> function, or as an input
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff562812">NdisMCmCreateVc</a> function, or as an input
      parameter to its 
-     <a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a> function.
+     <a href="https://msdn.microsoft.com/b086dd24-74f5-474a-8684-09bf92ac731b">ProtocolCoCreateVc</a> function.
 
 
 ### -param NdisPartyHandle [in, optional]
@@ -97,7 +85,7 @@ A handle that identifies the party on a multipoint VC that the caller is request
      information for, if the request is party-specific. Otherwise, if this request is not party-specific,
      this parameter is <b>NULL</b>. For any party-specific request, the MCM driver originally obtained this handle
      as an input parameter to its 
-     <a href="..\ndis\nc-ndis-protocol_cm_add_party.md">ProtocolCmAddParty</a> function.
+     <a href="https://msdn.microsoft.com/06aa5ff6-974c-43dd-8395-bc1a1a8421d5">ProtocolCmAddParty</a> function.
 
 
 ### -param NdisOidRequest
@@ -110,7 +98,7 @@ TBD
 #### - OidRequest [in, out]
 
 A pointer to a caller-allocated buffer that contains an 
-     <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a> structure.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a> structure.
 
 
 ## -returns
@@ -143,7 +131,7 @@ The request operation completed successfully.
 </td>
 <td width="60%">
 The request is being handled asynchronously, and NDIS will call the caller's 
-       <a href="..\ndis\nc-ndis-protocol_co_oid_request_complete.md">
+       <a href="https://msdn.microsoft.com/16883c64-3cc6-4f50-8be7-7c58c422a717">
        ProtocolCoOidRequestComplete</a> function when the request is completed.
 
 </td>
@@ -157,7 +145,7 @@ The request is being handled asynchronously, and NDIS will call the caller's
 <td width="60%">
 The OID_<i>XXX</i> code that was specified in the 
        <b>Oid</b> member of the 
-       <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a> structure at the 
+       <a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a> structure at the 
        <i>OidRequest</i> parameter is invalid or unsupported by the underlying driver.
 
 </td>
@@ -187,7 +175,7 @@ The value that was specified in the
 <td width="60%">
 The data that was supplied at 
        <b>InformationBuffer</b> in the given 
-       <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a> structure was invalid
+       <a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a> structure was invalid
        for the given OID_<i>XXX</i> code.
 
 </td>
@@ -252,7 +240,7 @@ The target driver stopped processing the request.
 To initiate OID requests to CoNDIS clients, MCM drivers call the 
     <b>NdisMCmOidRequest</b> function. Before an MCM driver calls 
     <b>NdisMCmOidRequest</b>, the driver allocates memory for its request and initializes an 
-    <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a> structure. The MCM sets
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a> structure. The MCM sets
     the 
     <b>Oid</b> member of the NDIS_OID_REQUEST structure with a CoNDIS OID code.
 
@@ -263,7 +251,7 @@ An MCM driver can call
 
 After the MCM calls 
     <b>NdisMCmOidRequest</b>, NDIS calls the 
-    <a href="..\ndis\nc-ndis-protocol_co_oid_request.md">ProtocolCoOidRequest</a> function of
+    <a href="https://msdn.microsoft.com/8247396f-8781-45da-aba1-a31a2a26a46f">ProtocolCoOidRequest</a> function of
     the client.
 
 If the MCM driver's request is VC-specific or party-specific, the MCM driver also passes a non-<b>NULL</b>
@@ -274,7 +262,7 @@ If the MCM driver's request is VC-specific or party-specific, the MCM driver als
 If 
     <b>NdisMCmOidRequest</b> returns NDIS_STATUS_PENDING, the request is being handled asynchronously and NDIS
     will call the MCM's 
-    <a href="..\ndis\nc-ndis-protocol_co_oid_request_complete.md">
+    <a href="https://msdn.microsoft.com/16883c64-3cc6-4f50-8be7-7c58c422a717">
     ProtocolCoOidRequestComplete</a> function when the request is completed. If 
     <b>NdisMCmOidRequest</b> returns any other status, the request is complete when 
     <b>NdisMCmOidRequest</b> returns and NDIS does not call 
@@ -289,38 +277,36 @@ For more information about the OIDs that are defined to use with
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_co_oid_request.md">ProtocolCoOidRequest</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562812">NdisMCmCreateVc</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_co_oid_request_complete.md">
+<a href="https://msdn.microsoft.com/06aa5ff6-974c-43dd-8395-bc1a1a8421d5">ProtocolCmAddParty</a>
+
+
+
+<a href="https://msdn.microsoft.com/7422c205-bc41-4121-b430-ff9e6b49dc2e">ProtocolCmOpenAf</a>
+
+
+
+<a href="https://msdn.microsoft.com/b086dd24-74f5-474a-8684-09bf92ac731b">ProtocolCoCreateVc</a>
+
+
+
+<a href="https://msdn.microsoft.com/8247396f-8781-45da-aba1-a31a2a26a46f">ProtocolCoOidRequest</a>
+
+
+
+<a href="https://msdn.microsoft.com/16883c64-3cc6-4f50-8be7-7c58c422a717">
    ProtocolCoOidRequestComplete</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismcmcreatevc.md">NdisMCmCreateVc</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_cm_add_party.md">ProtocolCmAddParty</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisMCmOidRequest function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

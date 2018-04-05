@@ -7,7 +7,7 @@ old-location: print\iprintoemps_devmode.htm
 old-project: print
 ms.assetid: 72775113-435c-44cf-83e7-9aa62f7f252e
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: DevMode method [Print Devices], DevMode method [Print Devices], IPrintOemPS interface, DevMode,IPrintOemPS.DevMode, IPrintOemPS, IPrintOemPS interface [Print Devices], DevMode method, IPrintOemPS::DevMode, prcomoem/IPrintOemPS::DevMode, print.iprintoemps_devmode, print_unidrv-pscript_rendering_d14a1c50-fd58-4c64-989d-3a7807cfd929.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: prcomoem.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	Prcomoem.h
 api_name:
 -	IPrintOemPS.DevMode
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
@@ -53,17 +54,6 @@ req.product: Windows 10 or later.
 The <code>IPrintOemPS::DevMode</code> method, provided by rendering plug-ins for Pscript5, performs operations on private <a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a> members.
 
 
-## -syntax
-
-
-````
-STDMETHOD DevMode(
-   DWORD       dwMode,
-   POEMDMPARAM pOemDMParam
-);
-````
-
-
 ## -parameters
 
 
@@ -76,7 +66,7 @@ Caller-supplied constant. See the following Remarks section.
 
 ### -param pOemDMParam
 
-Caller-supplied pointer to an <a href="..\printoem\ns-printoem-_oemdmparam.md">OEMDMPARAM</a> structure.
+Caller-supplied pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff557686">OEMDMPARAM</a> structure.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: print\iprintschemaparameterinitializer_getvalue.htm
 old-project: print
 ms.assetid: CDBAB58C-F051-4047-A538-5504F0E28EC7
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: IPrintSchemaParameterInitializer, IPrintSchemaParameterInitializer interface [Print Devices], Value property, IPrintSchemaParameterInitializer,get_Value, IPrintSchemaParameterInitializer.Value, IPrintSchemaParameterInitializer::get_Value, Value property [Print Devices], Value property [Print Devices], IPrintSchemaParameterInitializer interface, get_Value,IPrintSchemaParameterInitializer.get_Value, print.iprintschemaparameterinitializer_getvalue, printerextension/IPrintSchemaParameterInitializer::Value, printerextension/IPrintSchemaParameterInitializer::get_Value
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,20 +26,21 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: printerextension.h
+req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	Printerextension.h
-apiname:
+api_name:
 -	IPrintSchemaParameterInitializer.Value
 -	IPrintSchemaParameterInitializer.get_Value
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PrintSchemaSelectionType
 req.product: Windows 10 or later.
@@ -51,21 +52,11 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>Value</b> (get_Value) property gets the current value of the <a href="..\printerextension\nn-printerextension-iprintschemaparameterinitializer.md">IPrintSchemaParameterInitializer</a> object.
+The <b>Value</b> (get_Value) property gets the current value of the <a href="https://msdn.microsoft.com/library/windows/hardware/dn454557">IPrintSchemaParameterInitializer</a> object.
 
  In PrintTicket XML, that’s the value of the &lt;psf:Value&gt; child element for the &lt;psf:ParameterInit&gt; element.
 
 This property is read-only.
-
-
-## -syntax
-
-
-````
-HRESULT get_Value(
-  [out, retval] VARIANT *pVar
-);
-````
 
 
 ## -parameters
@@ -106,13 +97,11 @@ The <b>Value</b> (get_Value) property returns the current value of the <b>IPrint
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintschemaparameterinitializer.md">IPrintSchemaParameterInitializer</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn454557">IPrintSchemaParameterInitializer</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintSchemaParameterInitializer::Value property%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

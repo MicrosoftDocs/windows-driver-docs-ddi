@@ -7,7 +7,7 @@ old-location: netvista\fwps_vswitch_event_type.htm
 old-project: netvista
 ms.assetid: 6880bdb1-c889-4f4e-b401-d04b65d9864b
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: FWPS_VSWITCH_EVENT_INTERFACE_CREATE, FWPS_VSWITCH_EVENT_INTERFACE_DELETE, FWPS_VSWITCH_EVENT_INTERFACE_DISCONNECT, FWPS_VSWITCH_EVENT_POLICY_ADD, FWPS_VSWITCH_EVENT_POLICY_DELETE, FWPS_VSWITCH_EVENT_POLICY_UPDATE, FWPS_VSWITCH_EVENT_PORT_CREATE, FWPS_VSWITCH_EVENT_PORT_DELETE, FWPS_VSWITCH_EVENT_RUNTIME_STATE_RESTORE, FWPS_VSWITCH_EVENT_RUNTIME_STATE_SAVE, FWPS_VSWITCH_EVENT_TYPE, FWPS_VSWITCH_EVENT_TYPE enumeration [Network Drivers Starting with Windows Vista], FWPS_VSWITCH_EVENT_TYPE_, FWPS_VSWITCH_EVENT_VSWITCH_CREATE, FWPS_VSWITCH_EVENT_VSWITCH_DELETE, FWPS_VSWITCH_EVENT_VSWITCH_NONE, fwpsk/FWPS_VSWITCH_EVENT_INTERFACE_CREATE, fwpsk/FWPS_VSWITCH_EVENT_INTERFACE_DELETE, fwpsk/FWPS_VSWITCH_EVENT_INTERFACE_DISCONNECT, fwpsk/FWPS_VSWITCH_EVENT_POLICY_ADD, fwpsk/FWPS_VSWITCH_EVENT_POLICY_DELETE, fwpsk/FWPS_VSWITCH_EVENT_POLICY_UPDATE, fwpsk/FWPS_VSWITCH_EVENT_PORT_CREATE, fwpsk/FWPS_VSWITCH_EVENT_PORT_DELETE, fwpsk/FWPS_VSWITCH_EVENT_RUNTIME_STATE_RESTORE, fwpsk/FWPS_VSWITCH_EVENT_RUNTIME_STATE_SAVE, fwpsk/FWPS_VSWITCH_EVENT_TYPE, fwpsk/FWPS_VSWITCH_EVENT_VSWITCH_CREATE, fwpsk/FWPS_VSWITCH_EVENT_VSWITCH_DELETE, fwpsk/FWPS_VSWITCH_EVENT_VSWITCH_NONE, netvista.fwps_vswitch_event_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	fwpsk.h
 api_name:
 -	FWPS_VSWITCH_EVENT_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FWPS_VSWITCH_EVENT_TYPE
 ---
@@ -50,28 +51,6 @@ req.typenames: FWPS_VSWITCH_EVENT_TYPE
 
 
 The FWPS_VSWITCH_EVENT_TYPE enumeration type specifies the type of a virtual switch event notification.
-
-
-## -syntax
-
-
-````
-typedef enum FWPS_VSWITCH_EVENT_TYPE_ { 
-  FWPS_VSWITCH_EVENT_VSWITCH_NONE,
-  FWPS_VSWITCH_EVENT_VSWITCH_CREATE,
-  FWPS_VSWITCH_EVENT_VSWITCH_DELETE,
-  FWPS_VSWITCH_EVENT_PORT_CREATE,
-  FWPS_VSWITCH_EVENT_PORT_DELETE,
-  FWPS_VSWITCH_EVENT_INTERFACE_CREATE,
-  FWPS_VSWITCH_EVENT_INTERFACE_DISCONNECT,
-  FWPS_VSWITCH_EVENT_INTERFACE_DELETE,
-  FWPS_VSWITCH_EVENT_POLICY_ADD,
-  FWPS_VSWITCH_EVENT_POLICY_UPDATE,
-  FWPS_VSWITCH_EVENT_POLICY_DELETE,
-  FWPS_VSWITCH_EVENT_RUNTIME_STATE_SAVE,
-  FWPS_VSWITCH_EVENT_RUNTIME_STATE_RESTORE
-} FWPS_VSWITCH_EVENT_TYPE;
-````
 
 
 ## -enum-fields
@@ -167,20 +146,18 @@ Indicates a virtual switch run-time state restore event.
 
 
 The 
-    FWPS_VSWITCH_EVENT_TYPE  enumeration defines the values for the <i>eventType</i> parameter of the  virtual switch notification functions that are included in the <a href="..\fwpsk\ns-fwpsk-fwps_vswitch_event_dispatch_table0_.md">FWPS_VSWITCH_EVENT_DISPATCH_TABLE0</a> structure.
+    FWPS_VSWITCH_EVENT_TYPE  enumeration defines the values for the <i>eventType</i> parameter of the  virtual switch notification functions that are included in the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451263">FWPS_VSWITCH_EVENT_DISPATCH_TABLE0</a> structure.
 
 
 
 
 ## -see-also
 
-<a href="..\fwpsk\ns-fwpsk-fwps_vswitch_event_dispatch_table0_.md">FWPS_VSWITCH_EVENT_DISPATCH_TABLE0</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451263">FWPS_VSWITCH_EVENT_DISPATCH_TABLE0</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FWPS_VSWITCH_EVENT_TYPE enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

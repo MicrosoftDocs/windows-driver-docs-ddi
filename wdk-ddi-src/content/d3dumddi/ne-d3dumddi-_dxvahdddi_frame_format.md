@@ -7,7 +7,7 @@ old-location: display\dxvahdddi_frame_format.htm
 old-project: display
 ms.assetid: 82fded96-9321-47a8-8bdd-65c5a75951ac
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: DXVA2_Structs_7335a1ee-9d91-4764-aba3-5769351f7aa5.xml, DXVAHDDDI_FRAME_FORMAT, DXVAHDDDI_FRAME_FORMAT enumeration [Display Devices], DXVAHDDDI_FRAME_FORMAT_INTERLACED_BOTTOM_FIELD_FIRST, DXVAHDDDI_FRAME_FORMAT_INTERLACED_TOP_FIELD_FIRST, DXVAHDDDI_FRAME_FORMAT_PROGRESSIVE, _DXVAHDDDI_FRAME_FORMAT, d3dumddi/DXVAHDDDI_FRAME_FORMAT, d3dumddi/DXVAHDDDI_FRAME_FORMAT_INTERLACED_BOTTOM_FIELD_FIRST, d3dumddi/DXVAHDDDI_FRAME_FORMAT_INTERLACED_TOP_FIELD_FIRST, d3dumddi/DXVAHDDDI_FRAME_FORMAT_PROGRESSIVE, display.dxvahdddi_frame_format
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	DXVAHDDDI_FRAME_FORMAT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXVAHDDDI_FRAME_FORMAT
 ---
@@ -50,18 +51,6 @@ req.typenames: DXVAHDDDI_FRAME_FORMAT
 
 
 The DXVAHDDDI_FRAME_FORMAT enumeration contains values that identify the frame format. 
-
-
-## -syntax
-
-
-````
-typedef enum _DXVAHDDDI_FRAME_FORMAT { 
-  DXVAHDDDI_FRAME_FORMAT_PROGRESSIVE                    = 0,
-  DXVAHDDDI_FRAME_FORMAT_INTERLACED_TOP_FIELD_FIRST     = 1,
-  DXVAHDDDI_FRAME_FORMAT_INTERLACED_BOTTOM_FIELD_FIRST  = 2
-} DXVAHDDDI_FRAME_FORMAT;
-````
 
 
 ## -enum-fields
@@ -95,13 +84,11 @@ The <a href="https://msdn.microsoft.com/f697e0db-1db0-4a81-94d8-0ca079885480">FO
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_state_frame_format_data.md">DXVAHDDDI_STREAM_STATE_FRAME_FORMAT_DATA</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563081">DXVAHDDDI_STREAM_STATE_FRAME_FORMAT_DATA</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVAHDDDI_FRAME_FORMAT enumeration%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

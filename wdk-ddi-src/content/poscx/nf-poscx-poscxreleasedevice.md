@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	poscx.h
 api_name:
 -	PosCxReleaseDevice
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: POS_CX_EVENT_PRIORITY
 req.product: Windows 10 or later.
@@ -51,19 +52,8 @@ req.product: Windows 10 or later.
 
 
       PosCxReleaseDevice is called to release a device that was previously claimed with
-      <a href="..\poscx\nf-poscx-poscxclaimdevice.md">PosCxClaimDevice</a>.
+      <a href="https://msdn.microsoft.com/library/windows/hardware/mt593119">PosCxClaimDevice</a>.
       Once the device is released, the next pending claim requester is promoted.
-
-
-## -syntax
-
-
-````
-NTSTATUS PosCxReleaseDevice(
-  _In_ WDFDEVICE     device,
-  _In_ WDFFILEOBJECT fileObject
-);
-````
 
 
 ## -parameters
@@ -112,13 +102,11 @@ Possible return values are:
 
 ## -see-also
 
-<a href="..\poscx\nf-poscx-poscxclaimdevice.md">PosCxClaimDevice</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt593119">PosCxClaimDevice</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [pos\pos]:%20PosCxReleaseDevice function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

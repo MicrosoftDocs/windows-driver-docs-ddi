@@ -7,7 +7,7 @@ old-location: storage\ioctl_scsi_pass_through.htm
 old-project: storage
 ms.assetid: c7c4a98a-51c3-46c8-856e-053291b412b3
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_SCSI_PASS_THROUGH, IOCTL_SCSI_PASS_THROUGH control code [Storage Devices], k307_3ce0bb34-5f8d-40f8-ae98-24f597656ad0.xml, ntddscsi/IOCTL_SCSI_PASS_THROUGH, storage.ioctl_scsi_pass_through
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,18 +38,14 @@ api_location:
 -	Ntddscsi.h
 api_name:
 -	IOCTL_SCSI_PASS_THROUGH
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MP_STORAGE_DIAGNOSTIC_TARGET_TYPE, *PMP_STORAGE_DIAGNOSTIC_TARGET_TYPE
 ---
 
 # IOCTL_SCSI_PASS_THROUGH IOCTL
 
-
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -71,7 +67,7 @@ If a class driver for the target type of device exists, the request must be sent
 
 </li>
 <li>
-This request cannot be used if the CDB might require the underlying miniport driver to access memory directly. If the caller's CDB might require direct access to memory, use <a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_pass_through_direct.md">IOCTL_SCSI_PASS_THROUGH_DIRECT</a> instead. 
+This request cannot be used if the CDB might require the underlying miniport driver to access memory directly. If the caller's CDB might require direct access to memory, use <a href="https://msdn.microsoft.com/library/windows/hardware/ff560521">IOCTL_SCSI_PASS_THROUGH_DIRECT</a> instead. 
 
 </li>
 <li>
@@ -85,7 +81,7 @@ Applications do not require administrative privileges to send a pass-through req
 </ul>
 The calling application creates the SCSI command descriptor block, which can include a request for request-sense data if a CHECK CONDITION occurs. 
 
-<b>IOCTL_SCSI_PASS_THROUGH</b> is a buffered device control request. To bypass buffering in system memory, callers should use <a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_pass_through_direct.md">IOCTL_SCSI_PASS_THROUGH_DIRECT</a>. When handling an <b>IOCTL_SCSI_PASS_THROUGH_DIRECT</b> request, the system locks down the buffer in user memory and the device accesses this memory directly. 
+<b>IOCTL_SCSI_PASS_THROUGH</b> is a buffered device control request. To bypass buffering in system memory, callers should use <a href="https://msdn.microsoft.com/library/windows/hardware/ff560521">IOCTL_SCSI_PASS_THROUGH_DIRECT</a>. When handling an <b>IOCTL_SCSI_PASS_THROUGH_DIRECT</b> request, the system locks down the buffer in user memory and the device accesses this memory directly. 
 
 This request is typically used for transferring small amounts of data (&lt;16K).
 
@@ -109,7 +105,7 @@ This structure includes a SCSI CDB, which must be initialized by the caller exce
 ### -input-buffer-length
 
 <b>
-       Parameters.DeviceIoControl.InputBufferLength</b> indicates the size, in bytes, of the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>, which must be at least (<i>sense data size</i> + <b>sizeof</b>(SCSI_PASS_THROUGH)). The size of the <a href="..\ntddscsi\ns-ntddscsi-_scsi_pass_through.md">SCSI_PASS_THROUGH</a> structure varies, depending on its <b>DataTransferLength</b> specification.
+       Parameters.DeviceIoControl.InputBufferLength</b> indicates the size, in bytes, of the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>, which must be at least (<i>sense data size</i> + <b>sizeof</b>(SCSI_PASS_THROUGH)). The size of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565345">SCSI_PASS_THROUGH</a> structure varies, depending on its <b>DataTransferLength</b> specification.
 
 
 ### -output-buffer
@@ -119,7 +115,7 @@ The port driver returns any request-sense data and any data transferred from the
 
 ### -output-buffer-length
 
-The <b>SenseInfoLength</b> and <b>DataTransferLength</b> in the <a href="..\ntddscsi\ns-ntddscsi-_scsi_pass_through.md">SCSI_PASS_THROUGH</a> structure are updated to indicate the amount of data transferred.
+The <b>SenseInfoLength</b> and <b>DataTransferLength</b> in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565345">SCSI_PASS_THROUGH</a> structure are updated to indicate the amount of data transferred.
 
 
 ### -in-out-buffer
@@ -142,18 +138,16 @@ The <b>SenseInfoLength</b> and <b>DataTransferLength</b> in the <a href="..\ntdd
 
 ### -status-block
 
-The <b>Information</b> field is set to the number of bytes returned in the output buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>. The <b>Status</b> field is set to STATUS_SUCCESS, or possibly to STATUS_BUFFER_TOO_SMALL or STATUS_INVALID_PARAMETER if the input <b>Length</b> value in <a href="..\ntddscsi\ns-ntddscsi-_scsi_pass_through.md">SCSI_PASS_THROUGH</a> is improperly set. 
+The <b>Information</b> field is set to the number of bytes returned in the output buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>. The <b>Status</b> field is set to STATUS_SUCCESS, or possibly to STATUS_BUFFER_TOO_SMALL or STATUS_INVALID_PARAMETER if the input <b>Length</b> value in <a href="https://msdn.microsoft.com/library/windows/hardware/ff565345">SCSI_PASS_THROUGH</a> is improperly set. 
 
 
 ## -see-also
 
-<a href="..\ntddscsi\ns-ntddscsi-_scsi_pass_through.md">SCSI_PASS_THROUGH</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565345">SCSI_PASS_THROUGH</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20IOCTL_SCSI_PASS_THROUGH control code%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILMSGDCS
 title: RILMSGDCS
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilmsgdcs_2.htm
+old-location: netvista\rilmsgdcs.htm
 old-project: netvista
-ms.assetid: 50ef03af-3890-40dd-b0ed-7cf048f8530d
+ms.assetid: b9d37683-fd3d-42fd-9ec2-128b76325868
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: "*LPRILMSGDCS, RILMSGDCS, RILMSGDCS structure [Network Drivers Starting with Windows Vista], netvista.rilmsgdcs_2, rilapitypes/RILMSGDCS"
+ms.date: 3/26/2018
+ms.keywords: "*LPRILMSGDCS, RILMSGDCS, RILMSGDCS structure [Network Drivers Starting with Windows Vista], netvista.rilmsgdcs, ntddrilapitypes/RILMSGDCS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,10 +35,11 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILMSGDCS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILMSGDCS, *LPRILMSGDCS
 req.product: Windows 10 or later.
@@ -50,24 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-
-## -syntax
-
-
-````
-typedef struct _RILMSGDCS {
-  DWORD                cbSize;
-  DWORD                dwParams;
-  RILMSGDCSTYPE        dwType;
-  DWORD                dwFlags;
-  RILMSGDCSMSGCLASS    dwMsgClass;
-  RILMSGDCSALPHABET    dwAlphabet;
-  RILMSGDCSINDICATION  dwIndication;
-  DWORD                dwLanguage;
-} RILMSGDCS, RILMSGDCS;
-````
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -struct-fields

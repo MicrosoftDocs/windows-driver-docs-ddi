@@ -7,7 +7,7 @@ old-location: wdf\wdfdeviceinitsetcompanioneventcallbacks.htm
 old-project: wdf
 ms.assetid: 7320238d-0c7f-423c-8de7-2b22d02d77bd
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/26/2018
 ms.keywords: WdfDeviceInitSetCompanionEventCallbacks, WdfDeviceInitSetCompanionEventCallbacks method, wdf.wdfdeviceinitsetcompanioneventcallbacks, wdfcompanion/WdfDeviceInitSetCompanionEventCallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	wdfcompanion.h
 api_name:
 -	WdfDeviceInitSetCompanionEventCallbacks
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_TASK_QUEUE_DISPATCH_TYPE
 req.product: Windows 10 or later.
@@ -52,17 +53,6 @@ req.product: Windows 10 or later.
 
 
 			For internal use only.
-
-
-## -syntax
-
-
-````
-VOID WdfDeviceInitSetCompanionEventCallbacks(
-  _In_ PWDFDEVICE_INIT                DeviceInit,
-  _In_ PWDF_COMPANION_EVENT_CALLBACKS CompanionEventCallbacks
-);
-````
 
 
 ## -parameters

@@ -38,7 +38,8 @@ api_location:
 -	usbcamdi.h
 api_name:
 -	CamFreeBandwidth
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USB_BUS_INTERFACE_USBDI_V3, *PUSB_BUS_INTERFACE_USBDI_V3
 req.product: Windows 10 or later.
@@ -50,21 +51,10 @@ req.product: Windows 10 or later.
 ## -description
 
 
-<p class="CCE_Message">[CamFreeBandwidth is not supported and may be altered or unavailable in the future. Instead, use <a href="..\usbcamdi\nc-usbcamdi-pcam_free_bw_routine_ex.md">CamFreeBandwidthEx</a>.
+<p class="CCE_Message">[CamFreeBandwidth is not supported and may be altered or unavailable in the future. Instead, use <a href="https://msdn.microsoft.com/library/windows/hardware/ff557613">CamFreeBandwidthEx</a>.
 ]
 
 A camera minidriver's <b>CamFreeBandwidth</b> callback function selects an alternate setting within the USB video streaming interface that uses no bandwidth.
-
-
-## -prototype
-
-
-````
-NTSTATUS CamFreeBandwidth(
-   PDEVICE_OBJECT BusDeviceObject,
-   PVOID          DeviceContext
-);
-````
 
 
 ## -parameters
@@ -95,7 +85,7 @@ Pointer to the camera minidriver's device context.
 
 
 
-Camera minidrivers that must maintain backward compatibility with the original USBCAMD must use the <a href="..\usbcamdi\ns-usbcamdi-_usbcamd_device_data.md">USBCAMD_DEVICE_DATA</a> structure and its associated callback functions (that is, callback functions that do not contain the "Ex" suffix).
+Camera minidrivers that must maintain backward compatibility with the original USBCAMD must use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568585">USBCAMD_DEVICE_DATA</a> structure and its associated callback functions (that is, callback functions that do not contain the "Ex" suffix).
 
 USBCAMD calls the camera minidriver's <b>CamFreeBandwidth</b> callback function after the isochronous video stream has stopped.
 
@@ -108,17 +98,15 @@ This function is required.
 
 ## -see-also
 
-<a href="..\usbcamdi\nc-usbcamdi-pcam_free_bw_routine_ex.md">CamFreeBandwidthEx</a>
 
 
 
-<a href="..\usbcamdi\nf-usbcamdi-usbcamd_selectalternateinterface.md">USBCAMD_SelectAlternateInterface</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557613">CamFreeBandwidthEx</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568625">USBCAMD_SelectAlternateInterface</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20PCAM_FREE_BW_ROUTINE callback function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

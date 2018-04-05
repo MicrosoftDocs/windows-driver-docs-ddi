@@ -7,7 +7,7 @@ old-location: netvista\filterdetach.htm
 old-project: netvista
 ms.assetid: 49dfbbb3-74e7-4904-8370-36d589276653
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: FILTER_DETACH, FilterDetach, FilterDetach callback function [Network Drivers Starting with Windows Vista], filter_functions_ref_dec15a06-93c1-4da8-9dc6-b66be9c6f8eb.xml, ndis/FilterDetach, netvista.filterdetach
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ndis.h
 api_name:
 -	FilterDetach
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
 ---
@@ -54,19 +55,6 @@ NDIS calls a filter driver's
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>FILTER_DETACH</b> type. For more
    information, see the following Examples section.</div><div> </div>
 
-## -prototype
-
-
-````
-FILTER_DETACH FilterDetach;
-
-VOID FilterDetach(
-  _In_ NDIS_HANDLE FilterModuleContext
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -76,7 +64,7 @@ VOID FilterDetach(
 
 A handle to the context area for the filter module that NDIS will remove from the driver stack.
      The filter driver created and initialized this context area in the 
-     <a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a> function.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a> function.
 
 
 ## -returns
@@ -148,13 +136,11 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FILTER_DETACH callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

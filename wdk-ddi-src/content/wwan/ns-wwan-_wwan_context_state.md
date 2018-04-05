@@ -7,7 +7,7 @@ old-location: netvista\wwan_context_state.htm
 old-project: netvista
 ms.assetid: 0b2a2a94-6c1a-439f-8d54-cc43e79b3b15
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: "*PWWAN_CONTEXT_STATE, PWWAN_CONTEXT_STATE, PWWAN_CONTEXT_STATE structure pointer [Network Drivers Starting with Windows Vista], WWAN_CONTEXT_STATE, WWAN_CONTEXT_STATE structure [Network Drivers Starting with Windows Vista], WwanRef_ff03afab-0fc4-4469-8a2d-f5d2a770f08d.xml, _WWAN_CONTEXT_STATE, netvista.wwan_context_state, wwan/PWWAN_CONTEXT_STATE, wwan/WWAN_CONTEXT_STATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	wwan.h
 api_name:
 -	WWAN_CONTEXT_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WWAN_CONTEXT_STATE, *PWWAN_CONTEXT_STATE
 req.product: Windows 10 or later.
@@ -52,20 +53,6 @@ req.product: Windows 10 or later.
 
 The WWAN_CONTEXT_STATE structure represents the Packet Data Protocol (PDP) context state of the MB
   device.
-
-
-## -syntax
-
-
-````
-typedef struct _WWAN_CONTEXT_STATE {
-  ULONG                 uNwError;
-  ULONG                 ConnectionId;
-  WWAN_ACTIVATION_STATE ActivationState;
-  WWAN_VOICE_CALL_STATE VoiceCallState;
-  WWAN_IP_TYPE          IPType;
-} WWAN_CONTEXT_STATE, *PWWAN_CONTEXT_STATE;
-````
 
 
 ## -struct-fields
@@ -243,21 +230,19 @@ In case of response to the NDIS_WWAN_SET_CONTEXT_STATE, use this member to provi
 
 ## -see-also
 
-<a href="..\wwan\ne-wwan-_wwan_voice_call_state.md">WWAN_VOICE_CALL_STATE</a>
 
 
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_context_state.md">NDIS_WWAN_CONTEXT_STATE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567906">NDIS_WWAN_CONTEXT_STATE</a>
 
 
 
-<a href="..\wwan\ne-wwan-_wwan_activation_state.md">WWAN_ACTIVATION_STATE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571197">WWAN_ACTIVATION_STATE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571256">WWAN_VOICE_CALL_STATE</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WWAN_CONTEXT_STATE structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

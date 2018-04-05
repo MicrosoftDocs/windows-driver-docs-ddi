@@ -7,7 +7,7 @@ old-location: display\dxgk_multiplane_overlay_plane2.htm
 old-project: display
 ms.assetid: 31A1EAFB-FA48-432D-963E-EA907B43F08A
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: DXGK_MULTIPLANE_OVERLAY_PLANE2, DXGK_MULTIPLANE_OVERLAY_PLANE2 structure [Display Devices], _DXGK_MULTIPLANE_OVERLAY_PLANE2, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_PLANE2, display.dxgk_multiplane_overlay_plane2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGK_MULTIPLANE_OVERLAY_PLANE2
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_MULTIPLANE_OVERLAY_PLANE2
 ---
@@ -49,22 +50,7 @@ req.typenames: DXGK_MULTIPLANE_OVERLAY_PLANE2
 ## -description
 
 
-<b>DXGK_MULTIPLANE_OVERLAY_PLANE2</b> is used with the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_setvidpnsourceaddresswithmultiplaneoverlay2.md">DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay2</a> function to specify an overlay plane to display.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGK_MULTIPLANE_OVERLAY_PLANE2 {
-  UINT                                LayerIndex;
-  BOOL                                Enabled;
-  UINT                                AllocationSegment;
-  PHYSICAL_ADDRESS                    AllocationAddress;
-  HANDLE                              hAllocation;
-  DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES2 PlaneAttributes;
-} DXGK_MULTIPLANE_OVERLAY_PLANE2;
-````
+<b>DXGK_MULTIPLANE_OVERLAY_PLANE2</b> is used with the <a href="https://msdn.microsoft.com/7E87D610-6449-47E0-AB6B-9D926B490B45">DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay2</a> function to specify an overlay plane to display.
 
 
 ## -struct-fields
@@ -99,22 +85,20 @@ A handle to the allocation to be displayed on the overlay plane.
 
 ### -field PlaneAttributes
 
-A structure of type <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_multiplane_overlay_attributes2.md">DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES2</a> that specifies overlay plane attributes.
+A structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/dn914477">DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES2</a> that specifies overlay plane attributes.
 
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_setvidpnsourceaddresswithmultiplaneoverlay2.md">DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay2</a>
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_multiplane_overlay_attributes2.md">DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn914477">DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES2</a>
 
 
 
+<a href="https://msdn.microsoft.com/7E87D610-6449-47E0-AB6B-9D926B490B45">DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay2</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGK_MULTIPLANE_OVERLAY_PLANE2 structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: display\dxgkddi_setvidpnsourceaddresswithmultiplaneoverlay3.htm
 old-project: display
 ms.assetid: B4B6C5F0-AB67-4D30-B6A5-76B7596D22B6
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY3, DXGKDDI_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY3 callback function [Display Devices], d3dkmddi/DXGKDDI_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY3, display.dxgkddi_setvidpnsourceaddresswithmultiplaneoverlay3
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGKDDI_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY3
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 ---
@@ -50,17 +51,6 @@ req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 
 
 Called to change the overlay configuration being displayed.
-
-
-## -prototype
-
-
-````
-NTSTATUS APIENTRY DXGKDDI_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY3(
-  _In_ const HANDLE                                               hAdapter,
-  _In_ const PDXGKARG_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY3 pSetVidPnSourceAddressWithMultiPlaneOverlay
-);
-````
 
 
 ## -parameters

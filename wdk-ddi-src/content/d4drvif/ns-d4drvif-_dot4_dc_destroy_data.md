@@ -7,7 +7,7 @@ old-location: print\dot4_dc_destroy_data.htm
 old-project: print
 ms.assetid: 1AA00E3C-C6FB-49A4-9EFB-DFFEEFF4C0A0
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: "*PDOT4_DC_DESTROY_DATA, DOT4_DC_DESTROY_DATA, DOT4_DC_DESTROY_DATA structure [Print Devices], PDOT4_DC_DESTROY_DATA, PDOT4_DC_DESTROY_DATA structure pointer [Print Devices], _DOT4_DC_DESTROY_DATA, d4drvif/DOT4_DC_DESTROY_DATA, d4drvif/PDOT4_DC_DESTROY_DATA, print.dot4_dc_destroy_data"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D4drvif.h
 api_name:
 -	DOT4_DC_DESTROY_DATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_DC_DESTROY_DATA, *PDOT4_DC_DESTROY_DATA
 ---
@@ -50,16 +51,6 @@ req.typenames: DOT4_DC_DESTROY_DATA, *PDOT4_DC_DESTROY_DATA
 
 
 This topic describes the <b>DOT4_DC_DESTROY_DATA</b> structure.
-
-
-## -syntax
-
-
-````
-typedef struct _DOT4_DC_DESTROY_DATA {
-  unsigned char bHsid;
-} DOT4_DC_DESTROY_DATA, *PDOT4_DC_DESTROY_DATA;
-````
 
 
 ## -struct-fields

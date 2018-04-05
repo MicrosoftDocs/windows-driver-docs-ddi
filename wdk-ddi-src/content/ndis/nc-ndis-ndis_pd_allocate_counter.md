@@ -7,7 +7,7 @@ old-location: netvista\ndispdallocatecounter.htm
 old-project: netvista
 ms.assetid: 86AA537D-952F-4A7A-ACA4-24B8C1AE932A
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: NDIS_PD_ALLOCATE_COUNTER, NdisPDAllocateCounter, NdisPDAllocateCounter callback function [Network Drivers Starting with Windows Vista], ndis/NdisPDAllocateCounter, netvista.ndispdallocatecounter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ndis.h
 api_name:
 -	NdisPDAllocateCounter
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
 ---
@@ -70,21 +71,6 @@ Filter counters are used for tracking filter match activity.
 
 
 
-## -prototype
-
-
-````
-NDIS_PD_ALLOCATE_COUNTER NdisPDAllocateCounter;
-
-NTSTATUS NdisPDAllocateCounter(
-  _In_        NDIS_PD_PROVIDER_HANDLE    ProviderHandle,
-  _In_  const NDIS_PD_COUNTER_PARAMETERS *CounterParameters,
-  _Out_       NDIS_PD_COUNTER_HANDLE     *CounterHandle
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -97,7 +83,7 @@ A provider handle that identifies the PD-capable miniport driver's provider obje
 
 ### -param CounterParameters [in]
 
-An <a href="..\ndis\ns-ndis-_ndis_pd_counter_parameters.md">NDIS_PD_COUNTER_PARAMETERS</a> structure that specifies information such as the counter type.
+An <a href="https://msdn.microsoft.com/library/windows/hardware/dn931836">NDIS_PD_COUNTER_PARAMETERS</a> structure that specifies information such as the counter type.
 
 
 ### -param CounterHandle [out]
@@ -193,17 +179,15 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-ndis_pd_free_counter.md">NdisPDFreeCounter</a>
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_pd_counter_parameters.md">NDIS_PD_COUNTER_PARAMETERS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn931836">NDIS_PD_COUNTER_PARAMETERS</a>
 
 
 
+<a href="https://msdn.microsoft.com/60C47437-A999-4F82-B144-6F77410E5C07">NdisPDFreeCounter</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_PD_ALLOCATE_COUNTER callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

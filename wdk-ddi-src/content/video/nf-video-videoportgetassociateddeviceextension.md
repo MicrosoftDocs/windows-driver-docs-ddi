@@ -7,7 +7,7 @@ old-location: display\videoportgetassociateddeviceextension.htm
 old-project: display
 ms.assetid: 825e2b61-6b51-4553-88e1-0aff2e9e3cce
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: VideoPortGetAssociatedDeviceExtension, VideoPortGetAssociatedDeviceExtension function [Display Devices], VideoPort_Functions_7116b537-1296-4136-b62c-ce5918eea10d.xml, display.videoportgetassociateddeviceextension, video/VideoPortGetAssociatedDeviceExtension
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Videoprt.sys
 api_name:
 -	VideoPortGetAssociatedDeviceExtension
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
 req.product: Windows 10 or later.
@@ -51,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>VideoPortGetAssociatedDeviceExtension</b> function returns the device extension for the parent of the specified device object.
-
-
-## -syntax
-
-
-````
-PVOID VideoPortGetAssociatedDeviceExtension(
-  _In_ PVOID DeviceObject
-);
-````
 
 
 ## -parameters

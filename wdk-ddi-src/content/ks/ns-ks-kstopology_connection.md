@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSTOPOLOGY_CONNECTION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSTOPOLOGY_CONNECTION, *PKSTOPOLOGY_CONNECTION
 ---
@@ -52,19 +53,6 @@ req.typenames: KSTOPOLOGY_CONNECTION, *PKSTOPOLOGY_CONNECTION
 The KSTOPOLOGY_CONNECTION structure describes a single data-path connection inside a kernel streaming filter.
 
 PCCONNECTION_DESCRIPTOR is an alias for KSTOPOLOGY_CONNECTION. 
-
-
-## -syntax
-
-
-````
-typedef struct {
-  ULONG FromNode;
-  ULONG FromNodePin;
-  ULONG ToNode;
-  ULONG ToNodePin;
-} KSTOPOLOGY_CONNECTION, *PKSTOPOLOGY_CONNECTION;
-````
 
 
 ## -struct-fields
@@ -163,7 +151,7 @@ When the pin on one end of a connection is an input or output pin on the filter 
 
 Avoid confusing logical pins, which are used solely to describe connection points on nodes within a filter, with the external pins that filters use to connect to other filters. Logical pins are rarely used outside of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537688">PCCONNECTION_DESCRIPTOR</a> structure. In this document, the term <i>pin</i> refers to a pin on a KS filter rather than a logical pin on a node unless noted otherwise.
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/ff536765">IMiniport::GetDescription</a> method outputs a <a href="..\portcls\ns-portcls-__unnamed_struct_0cb6_9.md">PCFILTER_DESCRIPTOR</a> structure that contains a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff537688">PCCONNECTION_DESCRIPTOR</a> array.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/ff536765">IMiniport::GetDescription</a> method outputs a <a href="https://msdn.microsoft.com/library/windows/hardware/ff537694">PCFILTER_DESCRIPTOR</a> structure that contains a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff537688">PCCONNECTION_DESCRIPTOR</a> array.
 
 For a simple code example that shows how the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537688">PCCONNECTION_DESCRIPTOR</a> structure is used, see <a href="https://msdn.microsoft.com/bf791f40-b2fb-48fe-8350-3b926db4ead7">Exposing Filter Topology</a>.
 
@@ -172,7 +160,10 @@ For a simple code example that shows how the <a href="https://msdn.microsoft.com
 
 ## -see-also
 
-<a href="..\bdasup\nf-bdasup-bdapropertytemplateconnections.md">BdaPropertyTemplateConnections</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556501">BdaPropertyTemplateConnections</a>
 
 
 
@@ -185,12 +176,7 @@ For a simple code example that shows how the <a href="https://msdn.microsoft.com
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566598">KSPROPSETID_Topology</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSTOPOLOGY_CONNECTION structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

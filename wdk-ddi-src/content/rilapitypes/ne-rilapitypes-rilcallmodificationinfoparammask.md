@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILCALLMODIFICATIONINFOPARAMMASK
 title: RILCALLMODIFICATIONINFOPARAMMASK
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilcallmodificationinfoparammask_2.htm
+old-location: netvista\rilcallmodificationinfoparammask.htm
 old-project: netvista
-ms.assetid: 78726ec3-f777-4165-baec-c2c013e4c86a
+ms.assetid: 1282f158-9e41-4789-abe9-181f367ea235
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: RILCALLMODIFICATIONINFOPARAMMASK, RILCALLMODIFICATIONINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_CMI_ADDRESS, RIL_PARAM_CMI_ALL, RIL_PARAM_CMI_ALPHAIDENTIFIER, RIL_PARAM_CMI_ID, RIL_PARAM_CMI_MODIFICATIONTYPE, RIL_PARAM_CMI_NEWCALLTYPE, RIL_PARAM_CMI_OLDCALLTYPE, netvista.rilcallmodificationinfoparammask_2, rilapitypes/RILCALLMODIFICATIONINFOPARAMMASK, rilapitypes/RIL_PARAM_CMI_ADDRESS, rilapitypes/RIL_PARAM_CMI_ALL, rilapitypes/RIL_PARAM_CMI_ALPHAIDENTIFIER, rilapitypes/RIL_PARAM_CMI_ID, rilapitypes/RIL_PARAM_CMI_MODIFICATIONTYPE, rilapitypes/RIL_PARAM_CMI_NEWCALLTYPE, rilapitypes/RIL_PARAM_CMI_OLDCALLTYPE
+ms.date: 3/26/2018
+ms.keywords: RILCALLMODIFICATIONINFOPARAMMASK, RILCALLMODIFICATIONINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_CMI_ADDRESS, RIL_PARAM_CMI_ALL, RIL_PARAM_CMI_ALPHAIDENTIFIER, RIL_PARAM_CMI_ID, RIL_PARAM_CMI_MODIFICATIONTYPE, RIL_PARAM_CMI_NEWCALLTYPE, RIL_PARAM_CMI_OLDCALLTYPE, netvista.rilcallmodificationinfoparammask, ntddrilapitypes/RILCALLMODIFICATIONINFOPARAMMASK, ntddrilapitypes/RIL_PARAM_CMI_ADDRESS, ntddrilapitypes/RIL_PARAM_CMI_ALL, ntddrilapitypes/RIL_PARAM_CMI_ALPHAIDENTIFIER, ntddrilapitypes/RIL_PARAM_CMI_ID, ntddrilapitypes/RIL_PARAM_CMI_MODIFICATIONTYPE, ntddrilapitypes/RIL_PARAM_CMI_NEWCALLTYPE, ntddrilapitypes/RIL_PARAM_CMI_OLDCALLTYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -35,10 +35,11 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILCALLMODIFICATIONINFOPARAMMASK
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILCALLMODIFICATIONINFOPARAMMASK
 req.product: Windows 10 or later.
@@ -50,23 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-
-## -syntax
-
-
-````
-typedef enum _RILCALLMODIFICATIONINFOPARAMMASK { 
-  RIL_PARAM_CMI_ID,
-  RIL_PARAM_CMI_MODIFICATIONTYPE,
-  RIL_PARAM_CMI_OLDCALLTYPE,
-  RIL_PARAM_CMI_NEWCALLTYPE,
-  RIL_PARAM_CMI_ADDRESS,
-  RIL_PARAM_CMI_ALPHAIDENTIFIER,
-  RIL_PARAM_CMI_ALL
-} RILCALLMODIFICATIONINFOPARAMMASK;
-````
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -enum-fields

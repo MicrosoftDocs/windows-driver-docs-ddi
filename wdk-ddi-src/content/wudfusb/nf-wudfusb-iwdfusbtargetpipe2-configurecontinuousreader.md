@@ -7,7 +7,7 @@ old-location: wdf\iwdfusbtargetpipe2_configurecontinuousreader.htm
 old-project: wdf
 ms.assetid: accb2690-0ab7-4623-8493-545e6e722a7a
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/26/2018
 ms.keywords: ConfigureContinuousReader method, ConfigureContinuousReader method, IWDFUsbTargetPipe2 interface, ConfigureContinuousReader,IWDFUsbTargetPipe2.ConfigureContinuousReader, IWDFUsbTargetPipe2, IWDFUsbTargetPipe2 interface, ConfigureContinuousReader method, IWDFUsbTargetPipe2::ConfigureContinuousReader, UMDFUSBref_fbf1e16d-97a6-43c4-b667-a4715769009b.xml, umdf.iwdfusbtargetpipe2_configurecontinuousreader, wdf.iwdfusbtargetpipe2_configurecontinuousreader, wudfusb/IWDFUsbTargetPipe2::ConfigureContinuousReader
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support: Unavailable in UMDF 2.0 and later.
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: wudfusb.h
+req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFUsbTargetPipe2.ConfigureContinuousReader
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
@@ -53,23 +54,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>ConfigureContinuousReader</b> method configures the framework to continuously read from a USB pipe.
-
-
-## -syntax
-
-
-````
-HRESULT ConfigureContinuousReader(
-  [in]           SIZE_T                                              TransferLength,
-  [in]           SIZE_T                                              HeaderLength,
-  [in]           SIZE_T                                              TrailerLength,
-  [in]           UCHAR                                               NumPendingReads,
-  [in, optional] IUnknown                                            *pMemoryCleanupCallbackInterface,
-  [in]           IUsbTargetPipeContinuousReaderCallbackReadComplete  *pOnCompletion,
-  [in, optional] PVOID                                               pCompletionContext,
-  [in, optional] IUsbTargetPipeContinuousReaderCallbackReadersFailed *pOnFailure
-);
-````
 
 
 ## -parameters
@@ -104,7 +88,7 @@ A pointer to a driver-supplied <b>IUnkown</b> interface that the framework uses 
 
 ### -param pOnCompletion [in]
 
-A pointer to a driver-supplied <a href="..\wudfusb\nn-wudfusb-iusbtargetpipecontinuousreadercallbackreadcomplete.md">IUsbTargetPipeContinuousReaderCallbackReadComplete</a> interface that provides an <a href="https://msdn.microsoft.com/946e0206-7609-4dc7-91c2-a6aadad91751">OnReaderCompletion</a> callback function. 
+A pointer to a driver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff556908">IUsbTargetPipeContinuousReaderCallbackReadComplete</a> interface that provides an <a href="https://msdn.microsoft.com/946e0206-7609-4dc7-91c2-a6aadad91751">OnReaderCompletion</a> callback function. 
 
 
 ### -param pCompletionContext [in, optional]
@@ -114,7 +98,7 @@ An untyped pointer to driver-defined context information that the framework pass
 
 ### -param pOnFailure [in, optional]
 
-A pointer to a driver-supplied <a href="..\wudfusb\nn-wudfusb-iusbtargetpipecontinuousreadercallbackreadersfailed.md">IUsbTargetPipeContinuousReaderCallbackReadersFailed</a> interface that provides an <a href="https://msdn.microsoft.com/ad91208e-e57a-4b80-b1a1-13b9f7eb1119">OnReaderFailure</a> callback function. 
+A pointer to a driver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff556914">IUsbTargetPipeContinuousReaderCallbackReadersFailed</a> interface that provides an <a href="https://msdn.microsoft.com/ad91208e-e57a-4b80-b1a1-13b9f7eb1119">OnReaderFailure</a> callback function. 
 
 
 ## -returns
@@ -261,19 +245,6 @@ hr = pIUsbInterruptPipe2-&gt;ConfigureContinuousReader(
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559213">IWDFIoTargetStateManagement::Start</a>
-
-
-
-<a href="..\wudfusb\nn-wudfusb-iwdfusbtargetpipe2.md">IWDFUsbTargetPipe2</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556910">IUsbTargetPipeContinuousReaderCallbackReadComplete::OnReaderCompletion</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556766">IPnpCallbackHardware::OnPrepareHardware</a>
 
 
 
@@ -285,7 +256,19 @@ hr = pIUsbInterruptPipe2-&gt;ConfigureContinuousReader(
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556766">IPnpCallbackHardware::OnPrepareHardware</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556910">IUsbTargetPipeContinuousReaderCallbackReadComplete::OnReaderCompletion</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556915">IUsbTargetPipeContinuousReaderCallbackReadersFailed::OnReaderFailure</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559213">IWDFIoTargetStateManagement::Start</a>
 
 
 
@@ -293,9 +276,8 @@ hr = pIUsbInterruptPipe2-&gt;ConfigureContinuousReader(
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560394">IWDFUsbTargetPipe2</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFUsbTargetPipe2::ConfigureContinuousReader method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

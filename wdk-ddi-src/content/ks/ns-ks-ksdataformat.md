@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSDATAFORMAT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSDATAFORMAT, *PKSDATAFORMAT, KSDATARANGE, *PKSDATARANGE
 ---
@@ -50,22 +51,6 @@ req.typenames: KSDATAFORMAT, *PKSDATAFORMAT, KSDATARANGE, *PKSDATARANGE
 
 
 The KSDATAFORMAT structure is a variable-length structure that describes a data format.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  ULONG FormatSize;
-  ULONG Flags;
-  ULONG SampleSize;
-  ULONG Reserved;
-  GUID  MajorFormat;
-  GUID  SubFormat;
-  GUID  Specifier;
-} KSDATAFORMAT, *PKSDATAFORMAT, KSDATARANGE, *PKSDATARANGE;
-````
 
 
 ## -struct-fields
@@ -80,7 +65,7 @@ Specifies the size, in bytes, of the KSDATAFORMAT structure. This must be at lea
 
 ### -field Flags
 
-Set Flags to KSDATAFORMAT_ATTRIBUTES (0x2) to indicate that the KSDATAFORMAT is followed in memory by a <a href="..\ks\ns-ks-ksmultiple_item.md">KSMULTIPLE_ITEM</a> of <a href="..\ks\ns-ks-ksattribute.md">KSATTRIBUTE</a> structures.
+Set Flags to KSDATAFORMAT_ATTRIBUTES (0x2) to indicate that the KSDATAFORMAT is followed in memory by a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563441">KSMULTIPLE_ITEM</a> of <a href="https://msdn.microsoft.com/library/windows/hardware/ff560987">KSATTRIBUTE</a> structures.
 
 
 ### -field SampleSize
@@ -144,13 +129,11 @@ For a list of <b>MajorFormat</b>, <b>SubFormat</b>, and <b>Specifier</b> combina
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/dc2af282-4976-42d8-b07b-13b2a6dfb7d5">Stream Categories</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSDATAFORMAT structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: storage\scsi_bus_data.htm
 old-project: storage
 ms.assetid: d7baddb5-ad12-4aea-9515-97511dc05fe7
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSCSI_BUS_DATA, PSCSI_BUS_DATA, PSCSI_BUS_DATA structure pointer [Storage Devices], SCSI_BUS_DATA, SCSI_BUS_DATA structure [Storage Devices], _SCSI_BUS_DATA, ntddscsi/PSCSI_BUS_DATA, ntddscsi/SCSI_BUS_DATA, storage.scsi_bus_data, structs-scsibus_8a0f86c6-4011-4c11-90e8-bf3c28a147dc.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddscsi.h
 api_name:
 -	SCSI_BUS_DATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SCSI_BUS_DATA, *PSCSI_BUS_DATA
 ---
@@ -49,20 +50,8 @@ req.typenames: SCSI_BUS_DATA, *PSCSI_BUS_DATA
 ## -description
 
 
-The SCSI_BUS_DATA structure is used in conjunction with the <a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_get_inquiry_data.md">IOCTL_SCSI_GET_INQUIRY_DATA</a> request and the <a href="..\ntddscsi\ns-ntddscsi-_scsi_adapter_bus_info.md">SCSI_ADAPTER_BUS_INFO</a> structure to retrieve the SCSI inquiry data for all devices on a given SCSI bus. 
+The SCSI_BUS_DATA structure is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560509">IOCTL_SCSI_GET_INQUIRY_DATA</a> request and the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564949">SCSI_ADAPTER_BUS_INFO</a> structure to retrieve the SCSI inquiry data for all devices on a given SCSI bus. 
 <div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
-
-## -syntax
-
-
-````
-typedef struct _SCSI_BUS_DATA {
-  UCHAR NumberOfLogicalUnits;
-  UCHAR InitiatorBusId;
-  ULONG InquiryDataOffset;
-} SCSI_BUS_DATA, *PSCSI_BUS_DATA;
-````
-
 
 ## -struct-fields
 
@@ -86,17 +75,15 @@ Contains an offset from the beginning of the SCSI_ADAPTER_BUS_INFO structure to 
 
 ## -see-also
 
-<a href="..\ntddscsi\ns-ntddscsi-_scsi_adapter_bus_info.md">SCSI_ADAPTER_BUS_INFO</a>
 
 
 
-<a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_get_inquiry_data.md">IOCTL_SCSI_GET_INQUIRY_DATA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560509">IOCTL_SCSI_GET_INQUIRY_DATA</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564949">SCSI_ADAPTER_BUS_INFO</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20SCSI_BUS_DATA structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

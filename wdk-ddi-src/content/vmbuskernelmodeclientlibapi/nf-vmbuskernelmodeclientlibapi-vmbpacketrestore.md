@@ -7,7 +7,7 @@ old-location: netvista\vmbpacketrestore.htm
 old-project: netvista
 ms.assetid: CE8BBFB7-FC6C-458B-89EC-355A6DD18399
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: VmbPacketRestore, VmbPacketRestore function [Network Drivers Starting with Windows Vista], netvista.vmbpacketrestore, vmbuskernelmodeclientlibapi/VmbPacketRestore
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	VmbusKernelModeClientLibApi.h
 api_name:
 -	VmbPacketRestore
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
 req.product: Windows 10 or later.
@@ -54,18 +55,6 @@ req.product: Windows 10 or later.
 
 The <b>VmbPacketRestore</b> function restores packet from a buffer that contains saved packet
 context.
-
-
-## -syntax
-
-
-````
-NTSTATUS VmbPacketRestore(
-  _In_ __drv_aliasesMem VMBPACKET     PacketObject,
-  _In_ reads_bytes_(BufferSize) PVOID Buffer,
-  _In_ ULONG                          BufferSize
-);
-````
 
 
 ## -parameters

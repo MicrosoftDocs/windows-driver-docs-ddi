@@ -7,7 +7,7 @@ old-location: display\d3d12ddi_swizzle_pattern.htm
 old-project: display
 ms.assetid: 2C51BB44-3204-4EE8-9C86-605698BD58C0
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: D3D12DDI_SP_64KB_STANDARD_SWIZZLE, D3D12DDI_SP_DEVICE_DEPENDENT_0, D3D12DDI_SP_ROW_MAJOR, D3D12DDI_SWIZZLE_PATTERN, D3D12DDI_SWIZZLE_PATTERN enumeration [Display Devices], d3d12umddi/D3D12DDI_SP_64KB_STANDARD_SWIZZLE, d3d12umddi/D3D12DDI_SP_DEVICE_DEPENDENT_0, d3d12umddi/D3D12DDI_SP_ROW_MAJOR, d3d12umddi/D3D12DDI_SWIZZLE_PATTERN, display.d3d12ddi_swizzle_pattern
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3d12umddi.h
 api_name:
 -	D3D12DDI_SWIZZLE_PATTERN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D12DDI_SWIZZLE_PATTERN
 ---
@@ -50,18 +51,6 @@ req.typenames: D3D12DDI_SWIZZLE_PATTERN
 
 
 Specifies a swizzle pattern.
-
-
-## -syntax
-
-
-````
-typedef enum D3D12DDI_SWIZZLE_PATTERN { 
-  D3D12DDI_SP_ROW_MAJOR              = 0,
-  D3D12DDI_SP_64KB_STANDARD_SWIZZLE  = 3,
-  D3D12DDI_SP_DEVICE_DEPENDENT_0     = 0x100
-} D3D12DDI_SWIZZLE_PATTERN;
-````
 
 
 ## -enum-fields

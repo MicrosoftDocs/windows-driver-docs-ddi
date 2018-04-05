@@ -7,7 +7,7 @@ old-location: print\uff_fontdirectory.htm
 old-project: print
 ms.assetid: d1cde8a4-f27b-440c-bfb1-c9a564c59c04
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: "*PUFF_FONTDIRECTORY, PUFF_FONTDIRECTORY, PUFF_FONTDIRECTORY structure pointer [Print Devices], UFF_FONTDIRECTORY, UFF_FONTDIRECTORY structure [Print Devices], _UFF_FONTDIRECTORY, print.uff_fontdirectory, print_unidrv-pscript_fonts_979a2793-a3e4-4939-aab1-29510951b621.xml, prntfont/PUFF_FONTDIRECTORY, prntfont/UFF_FONTDIRECTORY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	prntfont.h
 api_name:
 -	UFF_FONTDIRECTORY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UFF_FONTDIRECTORY, *PUFF_FONTDIRECTORY
 req.product: Windows 10 or later.
@@ -51,26 +52,6 @@ req.product: Windows 10 or later.
 
 
 The UFF_FONTDIRECTORY structure is used to specify the directory of font descriptions contained in a Unidrv font format file (.uff file).
-
-
-## -syntax
-
-
-````
-typedef struct _UFF_FONTDIRECTORY {
-  DWORD dwSignature;
-  WORD  wSize;
-  WORD  wFontID;
-  SHORT sGlyphID;
-  WORD  wFlags;
-  DWORD dwInstallerSig;
-  DWORD offFontName;
-  DWORD offCartridgeName;
-  DWORD offFontData;
-  DWORD offGlyphData;
-  DWORD offVarData;
-} UFF_FONTDIRECTORY, *PUFF_FONTDIRECTORY;
-````
 
 
 ## -struct-fields
@@ -90,7 +71,7 @@ Specifies the size, in bytes, of the UFF_FONTDIRECTORY structure.
 
 ### -field wFontID
 
-Specifies the font identifier. This value must match the <b>wDataID</b> member of a <a href="..\prntfont\ns-prntfont-_data_header.md">DATA_HEADER</a> structure that specifies font metrics information within the .uff file.
+Specifies the font identifier. This value must match the <b>wDataID</b> member of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547364">DATA_HEADER</a> structure that specifies font metrics information within the .uff file.
 
 
 ### -field sGlyphID
@@ -198,7 +179,7 @@ Specifies the offset, in bytes, from the beginning of the .uff file to a DWORD-a
 
 ### -field offFontData
 
-Specifies the offset, in bytes, from the beginning of the .uff file to a DWORD-aligned <a href="..\prntfont\ns-prntfont-_data_header.md">DATA_HEADER</a> structure specifying a font metrics section.
+Specifies the offset, in bytes, from the beginning of the .uff file to a DWORD-aligned <a href="https://msdn.microsoft.com/library/windows/hardware/ff547364">DATA_HEADER</a> structure specifying a font metrics section.
 
 
 ### -field offGlyphData
@@ -208,14 +189,14 @@ Specifies the offset, in bytes, from the beginning of the .uff file to a DWORD-a
 
 ### -field offVarData
 
-Specifies the offset, in bytes, from the beginning of the .uff file to a DWORD-aligned <a href="..\prntfont\ns-prntfont-_data_header.md">DATA_HEADER</a> structure specifying a data section. If the FONT_FL_PERMANENT_SF flag is set in <b>wFlags</b>, <b>offVarData</b> must be zero.
+Specifies the offset, in bytes, from the beginning of the .uff file to a DWORD-aligned <a href="https://msdn.microsoft.com/library/windows/hardware/ff547364">DATA_HEADER</a> structure specifying a data section. If the FONT_FL_PERMANENT_SF flag is set in <b>wFlags</b>, <b>offVarData</b> must be zero.
 
 
 ## -remarks
 
 
 
-If <b>sGlyphID</b> is a greater than zero, it must match the <b>wDataID</b> member of a <a href="..\prntfont\ns-prntfont-_data_header.md">DATA_HEADER</a> structure that specifies a glyph set within the .uff file.
+If <b>sGlyphID</b> is a greater than zero, it must match the <b>wDataID</b> member of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547364">DATA_HEADER</a> structure that specifies a glyph set within the .uff file.
 
 If <b>sGlyphID</b> is less than zero, it must be one of the CC_-prefixed constants defined in prntfont.h, which identify predefined glyph sets.
 
@@ -226,13 +207,11 @@ If <b>sGlyphID</b> is zero, Unidrv uses the glyph set resource identifier contai
 
 ## -see-also
 
-<a href="..\prntfont\ns-prntfont-_data_header.md">DATA_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547364">DATA_HEADER</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20UFF_FONTDIRECTORY structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: ifsk\ccsetloghandleforfile.htm
 old-project: ifsk
 ms.assetid: 7bb56650-a75e-4b49-bfb3-83848ede29c0
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: CcSetLogHandleForFile, CcSetLogHandleForFile routine [Installable File System Drivers], LogHandle, Lsn, ccref_e4928c2e-41c5-4744-83c6-9c22766e9cfa.xml, ifsk.ccsetloghandleforfile, ntifs/CcSetLogHandleForFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	CcSetLogHandleForFile
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -50,18 +51,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>CcSetLogHandleForFile</b> routine sets a log handle for a file. 
-
-
-## -syntax
-
-
-````
-VOID CcSetLogHandleForFile(
-  _In_ PFILE_OBJECT  FileObject,
-  _In_ PVOID         LogHandle,
-  _In_ PFLUSH_TO_LSN FlushToLsnRoutine
-);
-````
 
 
 ## -parameters
@@ -123,24 +112,22 @@ None
 
 
 
-<b>CcSetLogHandleForFile</b> sets a log handle for a file, for use in subsequent calls to <a href="..\ntifs\nf-ntifs-ccgetdirtypages.md">CcGetDirtyPages</a>. 
+<b>CcSetLogHandleForFile</b> sets a log handle for a file, for use in subsequent calls to <a href="https://msdn.microsoft.com/library/windows/hardware/ff539088">CcGetDirtyPages</a>. 
 
 
 
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ccgetdirtypages.md">CcGetDirtyPages</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-ccsetdirtypinneddata.md">CcSetDirtyPinnedData</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539088">CcGetDirtyPages</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539211">CcSetDirtyPinnedData</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20CcSetLogHandleForFile routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: print\optcombo.htm
 old-project: print
 ms.assetid: B1F5A79A-8F64-4B7B-ADB4-BDD8EC17F22E
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: "*POPTCOMBO, OPTCOMBO, OPTCOMBO structure [Print Devices], POPTCOMBO, POPTCOMBO structure pointer [Print Devices], _OPTCOMBO, compstui/OPTCOMBO, compstui/POPTCOMBO, print.optcombo"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Compstui.h
 api_name:
 -	OPTCOMBO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OPTCOMBO, *POPTCOMBO
 ---
@@ -50,21 +51,6 @@ req.typenames: OPTCOMBO, *POPTCOMBO
 
 
 
-
-
-## -syntax
-
-
-````
-typedef struct _OPTCOMBO {
-  WORD      cbSize;
-  BYTE      Flags;
-  WORD      cListItem;
-  POPTPARAM pListItem;
-  LONG      Sel;
-  LONG      dwReserved[3];
-} OPTCOMBO, *POPTCOMBO;
-````
 
 
 ## -struct-fields

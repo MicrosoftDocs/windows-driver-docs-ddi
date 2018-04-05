@@ -7,7 +7,7 @@ old-location: debugger\extremotetyped_outtypename.htm
 old-project: debugger
 ms.assetid: fda88a3d-4cdf-4be1-87a7-29e312453686
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/26/2018
 ms.keywords: EngExtCpp_Ref_1dd0e308-16ca-4b91-8ad6-7c2d4c7d8da8.xml, ExtRemoteTyped, ExtRemoteTyped interface [Windows Debugging], OutTypeName method, ExtRemoteTyped::OutTypeName, OutTypeName method [Windows Debugging], OutTypeName method [Windows Debugging], ExtRemoteTyped interface, OutTypeName,ExtRemoteTyped.OutTypeName, debugger.extremotetyped_outtypename
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: engextcpp.hpp
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	engextcpp.hpp
 api_name:
 -	ExtRemoteTyped.OutTypeName
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 ---
@@ -50,14 +51,6 @@ req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 
 
 The <b>OutTypeName</b> method prints the type name of the typed data represented by this object.
-
-
-## -syntax
-
-
-````
-void OutTypeName();
-````
 
 
 ## -parameters

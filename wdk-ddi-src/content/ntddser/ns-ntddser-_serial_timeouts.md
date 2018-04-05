@@ -38,7 +38,8 @@ api_location:
 -	Ntddser.h
 api_name:
 -	SERIAL_TIMEOUTS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SERIAL_TIMEOUTS, *PSERIAL_TIMEOUTS
 ---
@@ -50,20 +51,6 @@ req.typenames: SERIAL_TIMEOUTS, *PSERIAL_TIMEOUTS
 
 
 The <b>SERIAL_TIMEOUTS</b> structure specifies the time-out parameters for read and write operations by the serial port.
-
-
-## -syntax
-
-
-````
-typedef struct _SERIAL_TIMEOUTS {
-  ULONG ReadIntervalTimeout;
-  ULONG ReadTotalTimeoutMultiplier;
-  ULONG ReadTotalTimeoutConstant;
-  ULONG WriteTotalTimeoutMultiplier;
-  ULONG WriteTotalTimeoutConstant;
-} SERIAL_TIMEOUTS, *PSERIAL_TIMEOUTS;
-````
 
 
 ## -struct-fields
@@ -100,7 +87,7 @@ The maximum amount of additional time, in milliseconds, that is allowed per writ
 
 
 
-The <b>SERIAL_TIMEOUTS</b> structure is used by the <a href="..\ntddser\ni-ntddser-ioctl_serial_set_timeouts.md">IOCTL_SERIAL_SET_TIMEOUTS</a> and <a href="..\ntddser\ni-ntddser-ioctl_serial_get_timeouts.md">IOCTL_SERIAL_GET_TIMEOUTS</a> I/O control requests. An <b>IOCTL_SERIAL_SET_TIMEOUTS</b> I/O control request uses this structure to specify a set of time-out parameters for the serial port to use for read and write operations. An <b>IOCTL_SERIAL_GET_TIMEOUTS</b> I/O control request uses this structure to retrieve the time-out parameters that were set by the previous <b>IOCTL_SERIAL_SET_TIMEOUTS</b> request.
+The <b>SERIAL_TIMEOUTS</b> structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544126">IOCTL_SERIAL_SET_TIMEOUTS</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff544120">IOCTL_SERIAL_GET_TIMEOUTS</a> I/O control requests. An <b>IOCTL_SERIAL_SET_TIMEOUTS</b> I/O control request uses this structure to specify a set of time-out parameters for the serial port to use for read and write operations. An <b>IOCTL_SERIAL_GET_TIMEOUTS</b> I/O control request uses this structure to retrieve the time-out parameters that were set by the previous <b>IOCTL_SERIAL_SET_TIMEOUTS</b> request.
 
 A read or write request successfully completes when either the specified number of bytes is transferred or the requested read or write operation times out. The request returns the STATUS_SUCCESS status code to indicate that the specified number of bytes was transferred. The request returns the STATUS_TIMEOUT status code to indicate that the operation timed out.
 
@@ -159,27 +146,6 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 ## -see-also
 
-<a href="..\ntddser\ni-ntddser-ioctl_serial_set_timeouts.md">IOCTL_SERIAL_SET_TIMEOUTS</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550819">IRP_MJ_WRITE</a>
-
-
-
-<a href="https://msdn.microsoft.com/a5375b2e-0992-4e47-a20f-8a793addeef6">GetCommTimeouts</a>
-
-
-
-<a href="..\sercx\nf-sercx-sercxgetreadintervaltimeout.md">SerCxGetReadIntervalTimeout</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549327">IRP_MJ_READ</a>
-
-
-
-<a href="https://msdn.microsoft.com/71aa6ab3-d56c-43bc-9932-5b4e61fc4b30">SetCommTimeouts</a>
 
 
 
@@ -187,9 +153,28 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
+<a href="https://msdn.microsoft.com/a5375b2e-0992-4e47-a20f-8a793addeef6">GetCommTimeouts</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544126">IOCTL_SERIAL_SET_TIMEOUTS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549327">IRP_MJ_READ</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550819">IRP_MJ_WRITE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406702">SerCxGetReadIntervalTimeout</a>
+
+
+
+<a href="https://msdn.microsoft.com/71aa6ab3-d56c-43bc-9932-5b4e61fc4b30">SetCommTimeouts</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [serports\serports]:%20SERIAL_TIMEOUTS structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

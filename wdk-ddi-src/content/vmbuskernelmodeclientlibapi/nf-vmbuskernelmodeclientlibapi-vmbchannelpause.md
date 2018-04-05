@@ -7,7 +7,7 @@ old-location: netvista\vmbchannelpause.htm
 old-project: netvista
 ms.assetid: 434CA5F7-24D4-40E7-AE77-C0732D3FBBFF
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: VmbChannelPause, VmbChannelPause function [Network Drivers Starting with Windows Vista], netvista.vmbchannelpause, vmbuskernelmodeclientlibapi/VmbChannelPause
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	vmbkmcl.dll
 api_name:
 -	VmbChannelPause
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
 req.product: Windows 10 or later.
@@ -55,16 +56,6 @@ req.product: Windows 10 or later.
 
 The <b>VmbChannelPause</b>  function moves a channel into the paused state, which prevents new I/O.
 
-
-
-## -syntax
-
-
-````
-VOID VmbChannelPause(
-  _In_ VMBCHANNEL Channel
-);
-````
 
 
 ## -parameters

@@ -7,7 +7,7 @@ old-location: netvista\ndis_switch_port_property_delete_parameters.htm
 old-project: netvista
 ms.assetid: 92ef7d1a-2ede-4bbb-87bd-dcad53c25ea7
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: "*PNDIS_SWITCH_PORT_PROPERTY_DELETE_PARAMETERS, NDIS_SWITCH_PORT_PROPERTY_DELETE_PARAMETERS, NDIS_SWITCH_PORT_PROPERTY_DELETE_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_PORT_PROPERTY_DELETE_PARAMETERS, PNDIS_SWITCH_PORT_PROPERTY_DELETE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_PORT_PROPERTY_DELETE_PARAMETERS, netvista.ndis_switch_port_property_delete_parameters, ntddndis/NDIS_SWITCH_PORT_PROPERTY_DELETE_PARAMETERS, ntddndis/PNDIS_SWITCH_PORT_PROPERTY_DELETE_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ntddndis.h
 api_name:
 -	NDIS_SWITCH_PORT_PROPERTY_DELETE_PARAMETERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_SWITCH_PORT_PROPERTY_DELETE_PARAMETERS, *PNDIS_SWITCH_PORT_PROPERTY_DELETE_PARAMETERS
 ---
@@ -52,21 +53,6 @@ req.typenames: NDIS_SWITCH_PORT_PROPERTY_DELETE_PARAMETERS, *PNDIS_SWITCH_PORT_P
 The <b>NDIS_SWITCH_PORT_PROPERTY_DELETE_PARAMETERS</b> structure specifies the parameters for a Hyper-V extensible switch port policy property that will be deleted. 
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_SWITCH_PORT_PROPERTY_DELETE_PARAMETERS {
-  NDIS_OBJECT_HEADER             Header;
-  ULONG                          Flags;
-  NDIS_SWITCH_PORT_ID            PortId;
-  NDIS_SWITCH_PORT_PROPERTY_TYPE PropertyType;
-  NDIS_SWITCH_OBJECT_ID          PropertyId;
-  NDIS_SWITCH_OBJECT_INSTANCE_ID PropertyInstanceId;
-} NDIS_SWITCH_PORT_PROPERTY_DELETE_PARAMETERS, *PNDIS_SWITCH_PORT_PROPERTY_DELETE_PARAMETERS;
-````
-
-
 ## -struct-fields
 
 
@@ -74,7 +60,7 @@ typedef struct _NDIS_SWITCH_PORT_PROPERTY_DELETE_PARAMETERS {
 
 ### -field Header
 
-The type, revision, and size of the <b>NDIS_SWITCH_PORT_PROPERTY_DELETE_PARAMETERS</b> structure. This member is formatted as an <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
+The type, revision, and size of the <b>NDIS_SWITCH_PORT_PROPERTY_DELETE_PARAMETERS</b> structure. This member is formatted as an <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure.
 
 The <b>Type</b> member of <b>Header</b> must be set to NDIS_OBJECT_TYPE_DEFAULT. To specify the version of the <b>NDIS_SWITCH_PORT_PROPERTY_DELETE_PARAMETERS</b> structure, the <b>Revision</b> member of <b>Header</b> must be set to the following value:  
 
@@ -101,7 +87,7 @@ A ULONG value that contains a bitwise <b>OR</b> of flags. This member is reserve
 
 ### -field PropertyType
 
- An <a href="..\ntddndis\ne-ntddndis-_ndis_switch_port_property_type.md">NDIS_SWITCH_PORT_PROPERTY_TYPE</a> enumeration value that specifies the type of port property that will be deleted.
+ An <a href="https://msdn.microsoft.com/library/windows/hardware/hh598242">NDIS_SWITCH_PORT_PROPERTY_TYPE</a> enumeration value that specifies the type of port property that will be deleted.
 
 
 ### -field PropertyId
@@ -131,15 +117,6 @@ For more information about extensible switch policies, see <a href="https://msdn
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598276">OID_SWITCH_PORT_PROPERTY_DELETE</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
-<a href="..\ntddndis\ne-ntddndis-_ndis_switch_port_property_type.md">NDIS_SWITCH_PORT_PROPERTY_TYPE</a>
 
 
 
@@ -147,9 +124,16 @@ For more information about extensible switch policies, see <a href="https://msdn
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598242">NDIS_SWITCH_PORT_PROPERTY_TYPE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598276">OID_SWITCH_PORT_PROPERTY_DELETE</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_SWITCH_PORT_PROPERTY_DELETE_PARAMETERS structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

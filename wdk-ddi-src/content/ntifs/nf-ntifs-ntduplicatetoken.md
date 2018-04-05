@@ -7,7 +7,7 @@ old-location: kernel\zwduplicatetoken.htm
 old-project: kernel
 ms.assetid: 89cc86aa-8ab0-4614-b92d-a1c627490d8d
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/28/2018
 ms.keywords: NtDuplicateToken, ZwDuplicateToken, ZwDuplicateToken function [Kernel-Mode Driver Architecture], k111_5c46bc83-ec51-45f5-a3fc-e199f91d58ce.xml, kernel.zwduplicatetoken, ntifs/NtDuplicateToken, ntifs/ZwDuplicateToken
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	ZwDuplicateToken
 -	NtDuplicateToken
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -51,21 +52,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>ZwDuplicateToken</b> function creates a handle to a new <a href="http://go.microsoft.com/fwlink/p/?linkid=96098">access token</a> that duplicates an existing token. This function can create either a primary token or an impersonation token. 
-
-
-## -syntax
-
-
-````
-NTSTATUS ZwDuplicateToken(
-  _In_  HANDLE             ExistingTokenHandle,
-  _In_  ACCESS_MASK        DesiredAccess,
-  _In_  POBJECT_ATTRIBUTES ObjectAttributes,
-  _In_  BOOLEAN            EffectiveOnly,
-  _In_  TOKEN_TYPE         TokenType,
-  _Out_ PHANDLE            NewTokenHandle
-);
-````
 
 
 ## -parameters
@@ -123,7 +109,7 @@ WRITE_OWNER
 
 </td>
 <td>
-Required to change the ownership information in the object's security descriptor (<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>).
+Required to change the ownership information in the object's security descriptor (<a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a>).
 
 </td>
 </tr>
@@ -325,13 +311,13 @@ For additional information, see <a href="http://go.microsoft.com/fwlink/p/?linki
 
 ### -param ObjectAttributes [in]
 
-Pointer to an <a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a> structure that describes the requested properties for the new token. The <i>ObjectAttributes</i> parameter is optional and can be <b>NULL</b>. If the <i>ObjectAttributes</i> parameter is <b>NULL</b> or if the <b>SecurityDescriptor</b> member of the structure pointed to by the <i>ObjectAttributes</i> parameter is <b>NULL</b>, the new token receives a default security descriptor and the new token handle cannot be inherited. In that case, this default security descriptor is created from the user group, primary group, and DACL information that is stored in the caller's token.
+Pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff557749">OBJECT_ATTRIBUTES</a> structure that describes the requested properties for the new token. The <i>ObjectAttributes</i> parameter is optional and can be <b>NULL</b>. If the <i>ObjectAttributes</i> parameter is <b>NULL</b> or if the <b>SecurityDescriptor</b> member of the structure pointed to by the <i>ObjectAttributes</i> parameter is <b>NULL</b>, the new token receives a default security descriptor and the new token handle cannot be inherited. In that case, this default security descriptor is created from the user group, primary group, and DACL information that is stored in the caller's token.
 
 When the <i>TokenType</i> parameter is set to <b>TokenImpersonation</b>:
 
 <ul>
 <li>
-The <i>ObjectAttributes </i>parameter may be used to specify the impersonation level of the new token. This can be accomplished by setting <i>ObjectAttributes</i>-&gt;SecurityQualityOfService.ImpersonationLevel to an appropriate <a href="..\wudfddi\ne-wudfddi-_security_impersonation_level.md">SECURITY_IMPERSONATION_LEVEL</a> enumeration value. For more information, see <a href="http://go.microsoft.com/fwlink/p/?linkid=91038">SECURITY_QUALITY_OF_SERVICE</a> in the Microsoft Windows SDK documentation.
+The <i>ObjectAttributes </i>parameter may be used to specify the impersonation level of the new token. This can be accomplished by setting <i>ObjectAttributes</i>-&gt;SecurityQualityOfService.ImpersonationLevel to an appropriate <a href="https://msdn.microsoft.com/library/windows/hardware/ff556631">SECURITY_IMPERSONATION_LEVEL</a> enumeration value. For more information, see <a href="http://go.microsoft.com/fwlink/p/?linkid=91038">SECURITY_QUALITY_OF_SERVICE</a> in the Microsoft Windows SDK documentation.
 
 </li>
 <li>
@@ -339,7 +325,7 @@ If the existing token is an impersonation token and the <i>ObjectAttributes</i> 
 
 </li>
 <li>
-If the existing token is a primary token and no impersonation level information is provided, the new impersonation token will have a <a href="..\wudfddi\ne-wudfddi-_security_impersonation_level.md">SECURITY_IMPERSONATION_LEVEL</a> impersonation level.
+If the existing token is a primary token and no impersonation level information is provided, the new impersonation token will have a <a href="https://msdn.microsoft.com/library/windows/hardware/ff556631">SECURITY_IMPERSONATION_LEVEL</a> impersonation level.
 
 </li>
 </ul>
@@ -351,7 +337,7 @@ A Boolean value that indicates whether the entire existing token should be dupli
 
 ### -param TokenType [in]
 
-Specifies one of the following values from the <a href="..\ntifs\ne-ntifs-_token_type.md">TOKEN_TYPE</a> enumeration.
+Specifies one of the following values from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556851">TOKEN_TYPE</a> enumeration.
 
 <table>
 <tr>
@@ -478,13 +464,13 @@ The requested impersonation level for the new token is greater than the imperson
 
 If no impersonation level information was provided by the <i>ObjectAttributes</i> parameter, the existing token's impersonation level will be used for the new token.
 
-With regard to the structure pointed to by the optional <i>ObjectAttributes</i> parameter, the <b>SecurityQualityOfService</b> member of <a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a> points to a structure of type <b>SECURITY_QUALITY_OF_SERVICE</b>. See <a href="http://go.microsoft.com/fwlink/p/?linkid=91038">SECURITY_QUALITY_OF_SERVICE</a> in the Microsoft Windows SDK documentation for information on the members of this structure.
+With regard to the structure pointed to by the optional <i>ObjectAttributes</i> parameter, the <b>SecurityQualityOfService</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff557749">OBJECT_ATTRIBUTES</a> points to a structure of type <b>SECURITY_QUALITY_OF_SERVICE</b>. See <a href="http://go.microsoft.com/fwlink/p/?linkid=91038">SECURITY_QUALITY_OF_SERVICE</a> in the Microsoft Windows SDK documentation for information on the members of this structure.
 
-<div class="alert"><b>Note</b>    The <b>SecurityQualityOfService</b> member must be set <u>after</u> calling the <a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a> macro because <b>InitializeObjectAttributes</b> currently sets <b>SecurityQualityOfService</b> to <b>NULL</b>.</div>
+<div class="alert"><b>Note</b>    The <b>SecurityQualityOfService</b> member must be set <u>after</u> calling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547804">InitializeObjectAttributes</a> macro because <b>InitializeObjectAttributes</b> currently sets <b>SecurityQualityOfService</b> to <b>NULL</b>.</div>
 <div> </div>
 For information on the user-mode analog of <b>ZwDuplicateToken</b>, see <a href="http://go.microsoft.com/fwlink/p/?linkid=91047">DuplicateTokenEx</a> in the Windows SDK documentation.
 
-When you have finished using the new token, call the <a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a> function to close the token handle.
+When you have finished using the new token, call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566417">ZwClose</a> function to close the token handle.
 
 <div class="alert"><b>Note</b>  If the call to the <b>ZwDuplicateToken</b> function occurs in user mode, you should use the name "<b>NtDuplicateToken</b>" instead of "<b>ZwDuplicateToken</b>".</div>
 <div> </div>
@@ -495,7 +481,6 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a>
 
 
 
@@ -503,17 +488,16 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547804">InitializeObjectAttributes</a>
 
 
 
-<a href="..\wudfddi\ne-wudfddi-_security_impersonation_level.md">SECURITY_IMPERSONATION_LEVEL</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557749">OBJECT_ATTRIBUTES</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556631">SECURITY_IMPERSONATION_LEVEL</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ZwDuplicateToken function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

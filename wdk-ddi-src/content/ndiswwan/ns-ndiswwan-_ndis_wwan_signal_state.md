@@ -7,7 +7,7 @@ old-location: netvista\ndis_wwan_signal_state.htm
 old-project: netvista
 ms.assetid: 905f8566-ad98-454f-a5cd-8f4ff46c8118
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: "*PNDIS_WWAN_SIGNAL_STATE, NDIS_WWAN_SIGNAL_STATE, NDIS_WWAN_SIGNAL_STATE structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SIGNAL_STATE, PNDIS_WWAN_SIGNAL_STATE structure pointer [Network Drivers Starting with Windows Vista], WwanRef_92027d1b-0311-4d61-b8cf-04518ee2863b.xml, _NDIS_WWAN_SIGNAL_STATE, ndiswwan/NDIS_WWAN_SIGNAL_STATE, ndiswwan/PNDIS_WWAN_SIGNAL_STATE, netvista.ndis_wwan_signal_state"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ndiswwan.h
 api_name:
 -	NDIS_WWAN_SIGNAL_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_WWAN_SIGNAL_STATE, *PNDIS_WWAN_SIGNAL_STATE
 ---
@@ -50,18 +51,6 @@ req.typenames: NDIS_WWAN_SIGNAL_STATE, *PNDIS_WWAN_SIGNAL_STATE
 
 
 The NDIS_WWAN_SIGNAL_STATE structure represents the signal state of the MB device.
-
-
-## -syntax
-
-
-````
-typedef struct _NDIS_WWAN_SIGNAL_STATE {
-  NDIS_OBJECT_HEADER Header;
-  WWAN_STATUS        uStatus;
-  WWAN_SIGNAL_STATE  SignalState;
-} NDIS_WWAN_SIGNAL_STATE, *PNDIS_WWAN_SIGNAL_STATE;
-````
 
 
 ## -struct-fields
@@ -117,7 +106,7 @@ sizeof(NDIS_WWAN_SIGNAL_STATE)
  
 
 For more information about these members, see 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field uStatus
@@ -128,23 +117,21 @@ The status of the signal state operation.
 ### -field SignalState
 
 A formatted 
-     <a href="..\wwan\ns-wwan-_wwan_signal_state.md">WWAN_SIGNAL_STATE</a> object that represents
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571239">WWAN_SIGNAL_STATE</a> object that represents
      the signal state of the MB device.
 
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_signal_state.md">WWAN_SIGNAL_STATE</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571239">WWAN_SIGNAL_STATE</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_WWAN_SIGNAL_STATE structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: debugger\getsymbolinformationwideex.htm
 old-project: debugger
 ms.assetid: E862C691-133F-4FA5-A698-09CD5D0E32B3
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/26/2018
 ms.keywords: GetSymbolInformationWideEx method [Windows Debugging], GetSymbolInformationWideEx method [Windows Debugging], IDebugAdvanced4 interface, GetSymbolInformationWideEx,IDebugAdvanced4.GetSymbolInformationWideEx, IDebugAdvanced4, IDebugAdvanced4 interface [Windows Debugging], GetSymbolInformationWideEx method, IDebugAdvanced4::GetSymbolInformationWideEx, dbgeng/IDebugAdvanced4::GetSymbolInformationWideEx, debugger.getsymbolinformationwideex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugAdvanced4.GetSymbolInformationWideEx
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -50,25 +51,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetSymbolInformationWideEx</b> method returns specified information about a symbol.
-
-
-## -syntax
-
-
-````
-HRESULT GetSymbolInformationWideEx(
-  [in]            ULONG           Which,
-  [in]            ULONG64         Arg64,
-  [in]            ULONG           Arg32,
-  [out, optional] PVOID           Buffer,
-  [in]            ULONG           BufferSize,
-  [out, optional] PULONG          InfoSize,
-  [out, optional] PWSTR           StringBuffer,
-  [in]            ULONG           StringBufferSize,
-  [out, optional] PULONG          StringSize,
-  [out, optional] PSYMBOL_INFO_EX pInfoEx
-);
-````
 
 
 ## -parameters
@@ -225,7 +207,7 @@ Receives the size, in characters, of the string returned to <i>StringBuffer</i>.
 
 ### -param pInfoEx [out, optional]
 
-A pointer to a <a href="..\dbgeng\ns-dbgeng-_symbol_info_ex.md">SYMBOL_INFO_EX</a> structure. 
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/mt613240">SYMBOL_INFO_EX</a> structure. 
 
 
 ## -returns

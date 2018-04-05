@@ -7,7 +7,7 @@ old-location: netvista\ndiscoassigninstancename.htm
 old-project: netvista
 ms.assetid: 78a1808e-d244-4f23-bba1-c48a7b2e051b
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: NdisCoAssignInstanceName, NdisCoAssignInstanceName function [Network Drivers Starting with Windows Vista], condis_protocol_ref_48515a9c-790b-4122-8a29-2a35cf560af9.xml, ndis/NdisCoAssignInstanceName, netvista.ndiscoassigninstancename
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	ndis.dll
 api_name:
 -	NdisCoAssignInstanceName
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
@@ -54,18 +55,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
   (globally unique identifier) for the assigned name with Windows Management Instrumentation (WMI).
 
 
-## -syntax
-
-
-````
-NDIS_STATUS NdisCoAssignInstanceName(
-  _In_      NDIS_HANDLE  NdisVcHandle,
-  _In_      PNDIS_STRING BaseInstanceName,
-  _Out_opt_ PNDIS_STRING VcInstanceName
-);
-````
-
-
 ## -parameters
 
 
@@ -75,7 +64,7 @@ NDIS_STATUS NdisCoAssignInstanceName(
 
 Specifies the handle to the VC being named. This handle was supplied by NDIS when the VC was
      originally created with 
-     <a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a>, whether by the client in
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff561696">NdisCoCreateVc</a>, whether by the client in
      preparation for making an outgoing call or by the call manager in preparation for dispatching an
      incoming call to the client.
 
@@ -86,7 +75,7 @@ Pointer to an NDIS_STRING type that describes a caller-supplied Unicode string t
      base name of the VC. The base name can be any localizable Unicode string that uniquely identifies the VC
      with respect to the other named VCs within the scope of the miniport driver. For Windows Vista and
      later, NDIS defines the NDIS_STRING type as a 
-     <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> type.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> type.
 
 
 ### -param VcInstanceName [out, optional]
@@ -151,7 +140,7 @@ NDIS could not allocate a buffer for the instance name.
 
 
 After initiating the setup of a VC with 
-    <a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a>, a call manager or
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561696">NdisCoCreateVc</a>, a call manager or
     connection-oriented client can name the VC with 
     <b>NdisCoAssignInstanceName</b>. Calling 
     <b>NdisCoAssignInstanceName</b>, causes NDIS to assign the VC an instance name and register the instance
@@ -180,42 +169,40 @@ The caller can associate the returned instance name with the handle for the name
 
 The caller is responsible for freeing the buffer containing the returned instance name. After deleting
     the named VC with 
-    <a href="..\ndis\nf-ndis-ndiscodeletevc.md">NdisCoDeleteVc</a>, the caller must free the
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561698">NdisCoDeleteVc</a>, the caller must free the
     buffer with 
-    <a href="..\ndis\nf-ndis-ndisfreestring.md">NdisFreeString</a>.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff562604">NdisFreeString</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisfreestring.md">NdisFreeString</a>
+<a href="https://msdn.microsoft.com/903bcdc5-9d42-4067-a054-057edc95ccf7">MiniportCoOidRequest</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_oid_request.md">MiniportOidRequest</a>
+<a href="https://msdn.microsoft.com/733d84f5-c1d4-42a0-a59b-4ba50247f165">MiniportOidRequest</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_co_oid_request.md">MiniportCoOidRequest</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561696">NdisCoCreateVc</a>
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561698">NdisCoDeleteVC</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiscodeletevc.md">NdisCoDeleteVC</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562604">NdisFreeString</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisCoAssignInstanceName function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

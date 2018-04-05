@@ -7,7 +7,7 @@ old-location: display\d3ddevicedesc_v1.htm
 old-project: display
 ms.assetid: 363e4044-e835-43e6-96ce-0fdccdd7fb52
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*LPD3DDEVICEDESC_V1, D3DDEVICEDESC_V1, D3DDEVICEDESC_V1 structure [Display Devices], LPD3DDEVICEDESC_V1, LPD3DDEVICEDESC_V1 structure pointer [Display Devices], _D3DDeviceDesc_V1, d3dhal/D3DDEVICEDESC_V1, d3dhal/LPD3DDEVICEDESC_V1, d3dstrct_111d5153-fb7f-4c2b-acc5-65818723e263.xml, display.d3ddevicedesc_v1"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dhal.h
 api_name:
 -	D3DDEVICEDESC_V1
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDEVICEDESC_V1, *LPD3DDEVICEDESC_V1
 ---
@@ -54,28 +55,6 @@ req.typenames: D3DDEVICEDESC_V1, *LPD3DDEVICEDESC_V1
    
 
 The D3DDEVICEDESC_V1 structure describes the 3D capabilities of a device.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DDeviceDesc_V1 {
-  DWORD            dwSize;
-  DWORD            dwFlags;
-  D3DCOLORMODEL    dcmColorModel;
-  DWORD            dwDevCaps;
-  D3DTRANSFORMCAPS dtcTransformCaps;
-  BOOL             bClipping;
-  D3DLIGHTINGCAPS  dlcLightingCaps;
-  D3DPRIMCAPS      dpcLineCaps;
-  D3DPRIMCAPS      dpcTriCaps;
-  DWORD            dwDeviceRenderBitDepth;
-  DWORD            dwDeviceZBufferBitDepth;
-  DWORD            dwMaxBufferSize;
-  DWORD            dwMaxVertexCount;
-} D3DDEVICEDESC_V1, *LPD3DDEVICEDESC_V1;
-````
 
 
 ## -struct-fields
@@ -251,7 +230,7 @@ D3DDEVCAPS_DRAWPRIMITIVES2
 
 </td>
 <td>
-The device can support <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>.
+The device can support <a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a>.
 
 </td>
 </tr>
@@ -261,7 +240,7 @@ D3DDEVCAPS_DRAWPRIMITIVES2EX
 
 </td>
 <td>
-The device can support Extended <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>; i.e. a DX7-compliant driver.
+The device can support Extended <a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a>; i.e. a DX7-compliant driver.
 
 </td>
 </tr>
@@ -436,17 +415,17 @@ Set to <b>TRUE</b> by the driver if the device can perform 3D clipping.
 
 ### -field dlcLightingCaps
 
-Specifies the lighting capabilities of the device. This is a <a href="..\d3dcaps\ns-d3dcaps-_d3dlightingcaps.md">D3DLIGHTINGCAPS</a> structure. The driver must set the <b>dwCaps</b>, <b>dwLightingModel</b>, and <b>dwNumLights</b> members of that structure to zero.
+Specifies the lighting capabilities of the device. This is a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548471">D3DLIGHTINGCAPS</a> structure. The driver must set the <b>dwCaps</b>, <b>dwLightingModel</b>, and <b>dwNumLights</b> members of that structure to zero.
 
 
 ### -field dpcLineCaps
 
-Specifies a <a href="..\d3dcaps\ns-d3dcaps-_d3dprimcaps.md">D3DPRIMCAPS</a> structure that defines the drawing capabilities of the device for line primitives.
+Specifies a <a href="https://msdn.microsoft.com/library/windows/hardware/ff549034">D3DPRIMCAPS</a> structure that defines the drawing capabilities of the device for line primitives.
 
 
 ### -field dpcTriCaps
 
-Specifies a <a href="..\d3dcaps\ns-d3dcaps-_d3dprimcaps.md">D3DPRIMCAPS</a> structure that defines the drawing capabilities of the device for triangle primitives.
+Specifies a <a href="https://msdn.microsoft.com/library/windows/hardware/ff549034">D3DPRIMCAPS</a> structure that defines the drawing capabilities of the device for triangle primitives.
 
 
 ### -field dwDeviceRenderBitDepth
@@ -489,7 +468,7 @@ Must be set to zero.
 
 This structure has been replaced by D3DCAPS8 (see the DirectX 8.0 SDK documentation) for DirectX 8.0 and later runtimes, but is required for legacy runtime (DirectX 7.0 and earlier) compatibility. See <a href="https://msdn.microsoft.com/a03a7cbc-95be-4251-8e3a-bef4a093f03d">Reporting DirectX 8.0 Style Direct3D Capabilities</a> for details.
 
-The driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff556229">DrvGetDirectDrawInfo</a> function returns this information in the <a href="..\d3dhal\ns-d3dhal-_d3dhal_globaldriverdata.md">D3DHAL_GLOBALDRIVERDATA</a> structure that the <b>lpD3DGlobalDriverData</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551627">DD_HALINFO</a> structure points to.
+The driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff556229">DrvGetDirectDrawInfo</a> function returns this information in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff545963">D3DHAL_GLOBALDRIVERDATA</a> structure that the <b>lpD3DGlobalDriverData</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551627">DD_HALINFO</a> structure points to.
 
 The Direct3D runtime constructs the application-level D3DDEVICEDESC7 structure (documented in the Microsoft Windows SDK documentation) from the information returned in the D3DDEVICEDESC_V1 structure and the extended capabilities queried through the driver's <a href="https://msdn.microsoft.com/89a22163-a678-4c72-932a-ae4d17922e0b">DdGetDriverInfo</a> function. While some of the <b>dwDevCaps</b> flags are obsolete at the driver level, the driver must set them appropriately in order for applications to work correctly.
 
@@ -498,11 +477,26 @@ The Direct3D runtime constructs the application-level D3DDEVICEDESC7 structure (
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545963">D3DHAL_GLOBALDRIVERDATA</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548471">D3DLIGHTINGCAPS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549034">D3DPRIMCAPS</a>
+
+
+
+<a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551627">DD_HALINFO</a>
-
-
-
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
 
 
@@ -510,25 +504,8 @@ The Direct3D runtime constructs the application-level D3DDEVICEDESC7 structure (
 
 
 
-<a href="..\d3dcaps\ns-d3dcaps-_d3dprimcaps.md">D3DPRIMCAPS</a>
-
-
-
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_globaldriverdata.md">D3DHAL_GLOBALDRIVERDATA</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556229">DrvGetDirectDrawInfo</a>
-
-
-
-<a href="..\d3dcaps\ns-d3dcaps-_d3dlightingcaps.md">D3DLIGHTINGCAPS</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DDEVICEDESC_V1 structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

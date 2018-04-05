@@ -7,13 +7,13 @@ old-location: netvista\rilsenddtmfparams.htm
 old-project: netvista
 ms.assetid: b08767f9-6b2d-4930-bd02-ebc89f2bdb7d
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: "*LPRILSENDDTMFPARAMS, RILSENDDTMFPARAMS, RILSENDDTMFPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsenddtmfparams, ntddrilapitypes/RILSENDDTMFPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddrilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILSENDDTMFPARAMS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILSENDDTMFPARAMS, *LPRILSENDDTMFPARAMS
 ---
@@ -50,19 +51,6 @@ req.typenames: RILSENDDTMFPARAMS, *LPRILSENDDTMFPARAMS
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef struct _RILSENDDTMFPARAMS {
-  DWORD      dwExecutor;
-  char [256] szDTMF;
-  DWORD      dwDigitOnTimeMs;
-  DWORD      dwDigitOffTimeMs;
-} RILSENDDTMFPARAMS, RILSENDDTMFPARAMS;
-````
 
 
 ## -struct-fields

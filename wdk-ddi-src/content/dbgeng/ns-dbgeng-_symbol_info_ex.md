@@ -7,7 +7,7 @@ old-location: debugger\symbol_info_ex.htm
 old-project: debugger
 ms.assetid: BDB8179A-4A97-4E83-B4A4-7B8358B3510C
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/26/2018
 ms.keywords: "*PSYMBOL_INFO_EX, PSYMBOL_INFO_EX, PSYMBOL_INFO_EX structure pointer [Windows Debugging], SYMBOL_INFO_EX, SYMBOL_INFO_EX structure [Windows Debugging], _SYMBOL_INFO_EX, dbgeng/PSYMBOL_INFO_EX, dbgeng/SYMBOL_INFO_EX, debugger.symbol_info_ex"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	DbgEng.h
 api_name:
 -	SYMBOL_INFO_EX
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 ---
@@ -50,21 +51,6 @@ req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 
 
 The SYMBOL_INFO_EX structure describes the extended line symbol information.
-
-
-## -syntax
-
-
-````
-typedef struct _SYMBOL_INFO_EX {
-  ULONG   SizeOfStruct;
-  ULONG   TypeOfInfo;
-  ULONG64 Offset;
-  ULONG   Line;
-  ULONG   Displacement;
-  ULONG   Reserved[4];
-} SYMBOL_INFO_EX, *PSYMBOL_INFO_EX;
-````
 
 
 ## -struct-fields

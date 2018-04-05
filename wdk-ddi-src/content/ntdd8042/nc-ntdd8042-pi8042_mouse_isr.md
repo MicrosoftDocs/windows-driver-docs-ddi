@@ -38,7 +38,8 @@ api_location:
 -	ntdd8042.h
 api_name:
 -	MouseIsr
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MSFC_VirtualFibrePortAttributes, *PMSFC_VirtualFibrePortAttributes
 ---
@@ -50,26 +51,6 @@ req.typenames: MSFC_VirtualFibrePortAttributes, *PMSFC_VirtualFibrePortAttribute
 
 
 A PI8042_MOUSE_ISR-typed callback routine customizes the operation of the I8042prt mouse ISR.
-
-
-## -prototype
-
-
-````
-PI8042_MOUSE_ISR MouseIsr;
-
-BOOLEAN MouseIsr(
-  _In_    PVOID                 IsrContext,
-  _In_    PMOUSE_INPUT_DATA     CurrentInput,
-  _In_    POUTPUT_PACKET        CurrentOutput,
-  _In_    UCHAR                 StatusByte,
-  _In_    PUCHAR                Byte,
-  _Inout_ PBOOLEAN              ContinueProcessing,
-  _In_    PMOUSE_STATE          MouseState,
-  _In_    PMOUSE_RESET_SUBSTATE ResetSubState
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -89,7 +70,7 @@ Pointer to the input <a href="https://msdn.microsoft.com/library/windows/hardwar
 
 ### -param CurrentOutput [in]
 
-Pointer to an <a href="..\ntdd8042\ns-ntdd8042-_output_packet.md">OUTPUT_PACKET</a> structure, which specifies an array of bytes being written to the hardware device.
+Pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff543218">OUTPUT_PACKET</a> structure, which specifies an array of bytes being written to the hardware device.
 
 
 ### -param StatusByte [in]
@@ -109,7 +90,7 @@ Specifies, if <b>TRUE</b>, that processing in the I8042prt mouse ISR will contin
 
 ### -param MouseState [in]
 
-Pointer to a <a href="..\ntdd8042\ne-ntdd8042-_mouse_state.md">MOUSE_STATE</a> enumeration value, which identifies the state of mouse input.
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542405">MOUSE_STATE</a> enumeration value, which identifies the state of mouse input.
 
 
 ### -param ResetSubState [in]
@@ -143,7 +124,6 @@ A PI8042_MOUSE_ISR callback runs in kernel mode at the IRQL of the I8042prt mous
 
 ## -see-also
 
-<a href="..\ntdd8042\ns-ntdd8042-_output_packet.md">OUTPUT_PACKET</a>
 
 
 
@@ -151,17 +131,16 @@ A PI8042_MOUSE_ISR callback runs in kernel mode at the IRQL of the I8042prt mous
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542405">MOUSE_STATE</a>
+
+
+
 <a href="https://msdn.microsoft.com/34d0a7e9-4a1e-43ba-a643-800ebaadc360">MouFilter_IsrHook</a>
 
 
 
-<a href="..\ntdd8042\ne-ntdd8042-_mouse_state.md">MOUSE_STATE</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543218">OUTPUT_PACKET</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [hid\hid]:%20PI8042_MOUSE_ISR callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

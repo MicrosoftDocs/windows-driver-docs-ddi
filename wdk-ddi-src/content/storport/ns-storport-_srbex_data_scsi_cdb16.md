@@ -7,7 +7,7 @@ old-location: storage\srbex_data_scsi_cdb16.htm
 old-project: storage
 ms.assetid: 168AC5F4-652B-405C-BE41-CD416A66FB74
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSRBEX_DATA_SCSI_CDB16, PSRBEX_DATA_SCSI_CDB16, PSRBEX_DATA_SCSI_CDB16 structure pointer [Storage Devices], SRBEX_DATA_SCSI_CDB16, SRBEX_DATA_SCSI_CDB16 structure [Storage Devices], _SRBEX_DATA_SCSI_CDB16, storage.srbex_data_scsi_cdb16, storport/PSRBEX_DATA_SCSI_CDB16, storport/SRBEX_DATA_SCSI_CDB16"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Storport.h
 api_name:
 -	SRBEX_DATA_SCSI_CDB16
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SRBEX_DATA_SCSI_CDB16, *PSRBEX_DATA_SCSI_CDB16
 req.product: Windows 10 or later.
@@ -52,24 +53,6 @@ req.product: Windows 10 or later.
 
 The <b>SRBEX_DATA_SCSI_CDB16</b> structure contains the extended SRB data for a 16-byte SCSI command data block (CDB).
 <div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
-
-## -syntax
-
-
-````
-typedef struct _SRBEX_DATA_SCSI_CDB16 {
-  SRBEXDATATYPE       Type;
-  ULONG               Length;
-  UCHAR               ScsiStatus;
-  UCHAR               SenseInfoBufferLength;
-  ULONG               CdbLength;
-  UCHAR               Reserved;
-  ULONG               Reserved1;
-  PVOID POINTER_ALIGN SenseInfoBuffer;
-  UCHAR POINTER_ALIGN Cdb[16];
-} SRBEX_DATA_SCSI_CDB16, *PSRBEX_DATA_SCSI_CDB16;
-````
-
 
 ## -struct-fields
 
@@ -132,17 +115,15 @@ This structure is used to submit an extended SRB data for a CDB of 16 bytes or l
 
 ## -see-also
 
-<a href="..\storport\ns-storport-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
 
 
 
-<a href="..\storport\ns-storport-_srbex_data_scsi_cdb32.md">SRBEX_DATA_SCSI_CDB32</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh920415">SRBEX_DATA_SCSI_CDB32</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451474">STORAGE_REQUEST_BLOCK</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20SRBEX_DATA_SCSI_CDB16 structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

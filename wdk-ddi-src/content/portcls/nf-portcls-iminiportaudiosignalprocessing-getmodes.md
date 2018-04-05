@@ -7,7 +7,7 @@ old-location: audio\iminiportaudiosignalprocessing_getmodes.htm
 old-project: audio
 ms.assetid: 7175453E-DF6D-45F0-B666-CF4FCF1F880C
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 3/19/2018
 ms.keywords: GetModes method [Audio Devices], GetModes method [Audio Devices], IMiniportAudioSignalProcessing interface, GetModes,IMiniportAudioSignalProcessing.GetModes, IMiniportAudioSignalProcessing, IMiniportAudioSignalProcessing interface [Audio Devices], GetModes method, IMiniportAudioSignalProcessing::GetModes, audio.iminiportaudiosignalprocessing_getmodes, portcls/IMiniportAudioSignalProcessing::GetModes
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: portcls.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	Portcls.h
 api_name:
 -	IMiniportAudioSignalProcessing.GetModes
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
@@ -50,18 +51,6 @@ req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 
 
 The GetModes method, Gets the audio signal processing modes supported by an audio pin.
-
-
-## -syntax
-
-
-````
-NTSTATUS GetModes(
-  [in]            ULONG                            Pin,
-  [out, optional] (*NumSignalProcessingModes) GUID *SignalProcessingModes,
-  [in, out]       ULONG                            *NumSignalProcessingModes
-);
-````
 
 
 ## -parameters
@@ -128,13 +117,11 @@ The following table presents and explains  the error messages than can be return
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iminiportaudiosignalprocessing.md">IMiniportAudioSignalProcessing</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn457659">IMiniportAudioSignalProcessing</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IMiniportAudioSignalProcessing::GetModes method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

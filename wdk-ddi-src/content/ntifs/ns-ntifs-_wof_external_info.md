@@ -7,7 +7,7 @@ old-location: ifsk\wof_external_info.htm
 old-project: ifsk
 ms.assetid: 2522CDC6-C23A-4D9C-83BA-389B7D909619
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: "*PWOF_EXTERNAL_INFO, PWOF_EXTERNAL_INFO, PWOF_EXTERNAL_INFO structure pointer [Installable File System Drivers], WOF_EXTERNAL_INFO, WOF_EXTERNAL_INFO structure [Installable File System Drivers], _WOF_EXTERNAL_INFO, ifsk.wof_external_info, ntifs/PWOF_EXTERNAL_INFO, ntifs/WOF_EXTERNAL_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntifs.h
 api_name:
 -	WOF_EXTERNAL_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WOF_EXTERNAL_INFO, *PWOF_EXTERNAL_INFO
 ---
@@ -50,17 +51,6 @@ req.typenames: WOF_EXTERNAL_INFO, *PWOF_EXTERNAL_INFO
 
 
 The <b>WOF_EXTERNAL_INFO</b> structure identifies a file backing provider and  the overlay service version it supports.
-
-
-## -syntax
-
-
-````
-typedef struct _WOF_EXTERNAL_INFO {
-  ULONG Version;
-  ULONG Provider;
-} WOF_EXTERNAL_INFO, *PWOF_EXTERNAL_INFO;
-````
 
 
 ## -struct-fields
@@ -80,17 +70,15 @@ The identifier of the data source provider. Valid provider identifiers  are WOF_
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_wof_external_file_id.md">WOF_EXTERNAL_FILE_ID</a>
 
 
 
-<a href="..\ntifs\ns-ntifs-_wof_version_info.md">WOF_VERSION_INFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt426741">WOF_EXTERNAL_FILE_ID</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt426742">WOF_VERSION_INFO</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20WOF_EXTERNAL_INFO structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

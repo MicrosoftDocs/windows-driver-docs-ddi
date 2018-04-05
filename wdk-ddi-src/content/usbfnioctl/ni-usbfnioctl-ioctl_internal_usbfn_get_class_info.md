@@ -7,7 +7,7 @@ old-location: buses\ioctl_internal_usbfn_get_class_info.htm
 old-project: usbref
 ms.assetid: 870D7D8C-B2FE-487A-9098-C004E6C7E159
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_INTERNAL_USBFN_GET_CLASS_INFO, IOCTL_INTERNAL_USBFN_GET_CLASS_INFO control code [Buses], buses.ioctl_internal_usbfn_get_class_info, usbfnioctl/IOCTL_INTERNAL_USBFN_GET_CLASS_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	usbfnioctl.h
 api_name:
 -	IOCTL_INTERNAL_USBFN_GET_CLASS_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USBFN_USB_STRING, *PUSBFN_USB_STRING
 req.product: Windows 10 or later.
@@ -46,11 +47,6 @@ req.product: Windows 10 or later.
 
 # IOCTL_INTERNAL_USBFN_GET_CLASS_INFO IOCTL
 
-
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -75,12 +71,12 @@ None.
 
 ### -output-buffer
 
-A pointer to a buffer that contains a <a href="..\usbfnbase\ns-usbfnbase-_usbfn_class_information_packet.md">USBFN_CLASS_INFORMATION_PACKET</a> structure. Upon completion, UFX populates the structure with the name, the device interface GUID, and details of the interface when operating at a particular bus speed.
+A pointer to a buffer that contains a <a href="https://msdn.microsoft.com/library/windows/hardware/mt187988">USBFN_CLASS_INFORMATION_PACKET</a> structure. Upon completion, UFX populates the structure with the name, the device interface GUID, and details of the interface when operating at a particular bus speed.
 
 
 ### -output-buffer-length
 
-The size of a <a href="..\usbfnbase\ns-usbfnbase-_usbfn_class_information_packet.md">USBFN_CLASS_INFORMATION_PACKET</a> structure.
+The size of a <a href="https://msdn.microsoft.com/library/windows/hardware/mt187988">USBFN_CLASS_INFORMATION_PACKET</a> structure.
 
 
 ### -in-out-buffer

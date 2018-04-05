@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILCALLDISCONNECTDETAILS
 title: RILCALLDISCONNECTDETAILS
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilcalldisconnectdetails_2.htm
+old-location: netvista\rilcalldisconnectdetails.htm
 old-project: netvista
-ms.assetid: 57b4d120-e12a-4821-a379-a392b804590c
+ms.assetid: c933e219-47bb-4896-b5ee-bd2fd59f4e8c
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: "*LPRILCALLDISCONNECTDETAILS, RILCALLDISCONNECTDETAILS, RILCALLDISCONNECTDETAILS structure [Network Drivers Starting with Windows Vista], netvista.rilcalldisconnectdetails_2, rilapitypes/RILCALLDISCONNECTDETAILS"
+ms.date: 3/26/2018
+ms.keywords: "*LPRILCALLDISCONNECTDETAILS, RILCALLDISCONNECTDETAILS, RILCALLDISCONNECTDETAILS structure [Network Drivers Starting with Windows Vista], netvista.rilcalldisconnectdetails, ntddrilapitypes/RILCALLDISCONNECTDETAILS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,10 +35,11 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILCALLDISCONNECTDETAILS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILCALLDISCONNECTDETAILS, *LPRILCALLDISCONNECTDETAILS
 req.product: Windows 10 or later.
@@ -50,39 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-
-## -syntax
-
-
-````
-typedef struct _RILCALLDISCONNECTDETAILS {
-  RILCALLDISCONNECTDETAILSDISCONNECTGROUP  dwDisconnectGroup;
-  NULL                                     RILCAUSEUNION;
-  RILCAUSEUNION                            causeUnion;
-  NULL                                     switch_is;
-  NULL                                     dwDisconnectGroup;
-  RILGPPCAUSE                              unGPPCause;
-  NULL                                     case;
-  NULL                                     RIL_CD_3GPP_NETWORK_CAUSE;
-  RILGPPREJECTCAUSE                        unGPPRejectCause;
-  NULL                                     case;
-  NULL                                     RIL_CD_3GPP_REJECT_CAUSE;
-  RILGPP2CAUSE                             unGPP2Cause;
-  NULL                                     case;
-  NULL                                     RIL_CD_3GPP2_VENDOR_CAUSE;
-  RILIMSSIPCAUSE                           unIMSSIPCause;
-  NULL                                     case;
-  NULL                                     RIL_CD_IMS_SIP_CAUSE;
-  RILCALLDISCONNECTDETAILSASCODE           dwASCode;
-  NULL                                     case;
-  NULL                                     RIL_CD_AS_CAUSE;
-  DWORD                                    dwOtherCode;
-  NULL                                     case;
-  NULL                                     RIL_CD_OTHER_CAUSE;
-} RILCALLDISCONNECTDETAILS, RILCALLDISCONNECTDETAILS;
-````
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -struct-fields
@@ -99,34 +68,10 @@ typedef struct _RILCALLDISCONNECTDETAILS {
 ### -field RILCAUSEUNION
 
 
-#### - RIL_CD_3GPP2_VENDOR_CAUSE
-
-
-#### - RIL_CD_3GPP_NETWORK_CAUSE
-
-
-#### - RIL_CD_3GPP_REJECT_CAUSE
-
-
-#### - RIL_CD_AS_CAUSE
-
-
-#### - RIL_CD_IMS_SIP_CAUSE
-
-
-#### - RIL_CD_OTHER_CAUSE
-
-
-#### - case
-
-
 #### - dwASCode
 
 
 #### - dwOtherCode
-
-
-#### - switch_is
 
 
 #### - unGPP2Cause

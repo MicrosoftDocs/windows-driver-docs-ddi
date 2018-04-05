@@ -7,7 +7,7 @@ old-location: print\iprintreadstream_readbytes.htm
 old-project: print
 ms.assetid: 41ba600d-8b89-4e07-950a-a2518c2572a6
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: IPrintReadStream, IPrintReadStream interface [Print Devices], ReadBytes method, IPrintReadStream::ReadBytes, ReadBytes method [Print Devices], ReadBytes method [Print Devices], IPrintReadStream interface, ReadBytes,IPrintReadStream.ReadBytes, filterpipeline/IPrintReadStream::ReadBytes, filterpipeline_92cb33c3-6229-47ca-b3da-2f4c268f8b7b.xml, print.iprintreadstream_readbytes
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: filterpipeline.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	filterpipeline.h
 api_name:
 -	IPrintReadStream.ReadBytes
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
@@ -50,19 +51,6 @@ req.typenames: EXpsFontRestriction
 
 
 The <code>ReadBytes</code> method reads a number of bytes into a buffer.
-
-
-## -syntax
-
-
-````
-HRESULT ReadBytes(
-  [out] void  *pvBuffer,
-  [in]  ULONG cbRequested,
-  [out] ULONG *pcbRead,
-  [out] BOOL  *pbEndOfFile
-);
-````
 
 
 ## -parameters

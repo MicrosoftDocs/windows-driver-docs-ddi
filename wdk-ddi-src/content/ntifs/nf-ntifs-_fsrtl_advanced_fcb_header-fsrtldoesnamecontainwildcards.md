@@ -7,7 +7,7 @@ old-location: ifsk\fsrtldoesnamecontainwildcards.htm
 old-project: ifsk
 ms.assetid: a2bcf1c0-a6c7-4bf3-bce6-9a661f2ab2e1
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FsRtlDoesNameContainWildCards, FsRtlDoesNameContainWildCards routine [Installable File System Drivers], fsrtlref_1b39ef0b-3ec3-4d4b-9ee6-abe674e359aa.xml, ifsk.fsrtldoesnamecontainwildcards, ntifs/FsRtlDoesNameContainWildCards
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	FsRtlDoesNameContainWildCards
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -50,16 +51,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>FsRtlDoesNameContainWildCards</b> routine determines whether a Unicode string contains wildcard characters. 
-
-
-## -syntax
-
-
-````
-BOOLEAN FsRtlDoesNameContainWildCards(
-  _In_ PUNICODE_STRING Name
-);
-````
 
 
 ## -parameters
@@ -94,13 +85,11 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FsRtlDoesNameContainWildCards routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

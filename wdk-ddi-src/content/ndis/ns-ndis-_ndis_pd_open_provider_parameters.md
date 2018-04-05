@@ -7,7 +7,7 @@ old-location: netvista\ndis_pd_open_provider_parameters.htm
 old-project: netvista
 ms.assetid: 38612533-DC8A-4D46-9C95-9F16BD9C27AB
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: NDIS_PD_OPEN_PROVIDER_PARAMETERS, NDIS_PD_OPEN_PROVIDER_PARAMETERS structure [Network Drivers Starting with Windows Vista], _NDIS_PD_OPEN_PROVIDER_PARAMETERS, ndis/NDIS_PD_OPEN_PROVIDER_PARAMETERS, netvista.ndis_pd_open_provider_parameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ndis.h
 api_name:
 -	NDIS_PD_OPEN_PROVIDER_PARAMETERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_PD_OPEN_PROVIDER_PARAMETERS
 ---
@@ -52,19 +53,6 @@ req.typenames: NDIS_PD_OPEN_PROVIDER_PARAMETERS
 This structure is used as a buffer for parameters in the <a href="https://msdn.microsoft.com/library/windows/hardware/dn931852">OID_PD_OPEN_PROVIDER</a> OID.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_PD_OPEN_PROVIDER_PARAMETERS {
-  NDIS_OBJECT_HEADER              Header;
-  ULONG                           Flags;
-  NDIS_PD_PROVIDER_HANDLE         ProviderHandle;
-  const NDIS_PD_PROVIDER_DISPATCH *ProviderDispatch;
-} NDIS_PD_OPEN_PROVIDER_PARAMETERS;
-````
-
-
 ## -struct-fields
 
 
@@ -72,7 +60,7 @@ typedef struct _NDIS_PD_OPEN_PROVIDER_PARAMETERS {
 
 ### -field Header
 
-The <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the <b>NDIS_PD_OPEN_PROVIDER_PARAMETERS</b> structure. Set the members of this structure as follows:
+The <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure for the <b>NDIS_PD_OPEN_PROVIDER_PARAMETERS</b> structure. Set the members of this structure as follows:
 
 <ul>
 <li><b>Type</b> = <b>NDIS_OBJECT_TYPE_DEFAULT</b></li>
@@ -92,7 +80,7 @@ A provider handle that identifies the PD-capable miniport driver's provider obje
 
 ### -field ProviderDispatch
 
-See <a href="..\ndis\ns-ndis-_ndis_pd_provider_dispatch.md">NDIS_PD_PROVIDER_DISPATCH</a>.
+See <a href="https://msdn.microsoft.com/library/windows/hardware/dn931843">NDIS_PD_PROVIDER_DISPATCH</a>.
 
 
 ## -remarks
@@ -106,13 +94,11 @@ This structure must be aligned on an 8-byte boundary.
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_PD_OPEN_PROVIDER_PARAMETERS structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: print\uff_fileheader.htm
 old-project: print
 ms.assetid: 18eb526b-d615-4f02-b724-236c6bf16945
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: "*PUFF_FILEHEADER, PUFF_FILEHEADER, PUFF_FILEHEADER structure pointer [Print Devices], UFF_FILEHEADER, UFF_FILEHEADER structure [Print Devices], _UFF_FILEHEADER, print.uff_fileheader, print_unidrv-pscript_fonts_a51bc6b1-df89-423f-83e8-9fad0cd20729.xml, prntfont/PUFF_FILEHEADER, prntfont/UFF_FILEHEADER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	prntfont.h
 api_name:
 -	UFF_FILEHEADER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UFF_FILEHEADER, *PUFF_FILEHEADER
 req.product: Windows 10 or later.
@@ -51,24 +52,6 @@ req.product: Windows 10 or later.
 
 
 The UFF_FILEHEADER structure is used to define the contents of <a href="https://msdn.microsoft.com/6e643703-ace1-4660-990c-3a9ca735829d">Unidrv font format files</a> (.uff files).
-
-
-## -syntax
-
-
-````
-typedef struct _UFF_FILEHEADER {
-  DWORD dwSignature;
-  DWORD dwVersion;
-  DWORD dwSize;
-  DWORD nFonts;
-  DWORD nGlyphSets;
-  DWORD nVarData;
-  DWORD offFontDir;
-  DWORD dwFlags;
-  DWORD dwReserved[4];
-} UFF_FILEHEADER, *PUFF_FILEHEADER;
-````
 
 
 ## -struct-fields
@@ -93,7 +76,7 @@ Specifies the size, in bytes, of the UFF_FILEHEADER structure.
 
 ### -field nFonts
 
-Specifies the number of fonts specified within the .uff file and identified by <a href="..\prntfont\ns-prntfont-_data_header.md">DATA_HEADER</a> structures. This is also the number of <a href="..\prntfont\ns-prntfont-_uff_fontdirectory.md">UFF_FONTDIRECTORY</a> structures within the .uff file.
+Specifies the number of fonts specified within the .uff file and identified by <a href="https://msdn.microsoft.com/library/windows/hardware/ff547364">DATA_HEADER</a> structures. This is also the number of <a href="https://msdn.microsoft.com/library/windows/hardware/ff562866">UFF_FONTDIRECTORY</a> structures within the .uff file.
 
 
 ### -field nGlyphSets
@@ -108,7 +91,7 @@ Specifies the  number of variable data sections specified within the .uff file a
 
 ### -field offFontDir
 
-Specifies the offset, in bytes, from the beginning of the .uff file to the beginning of the first <a href="..\prntfont\ns-prntfont-_uff_fontdirectory.md">UFF_FONTDIRECTORY</a> structure.
+Specifies the offset, in bytes, from the beginning of the .uff file to the beginning of the first <a href="https://msdn.microsoft.com/library/windows/hardware/ff562866">UFF_FONTDIRECTORY</a> structure.
 
 
 ### -field dwFlags
@@ -141,17 +124,15 @@ Reserved. Must be set to zero.
 
 ## -see-also
 
-<a href="..\prntfont\ns-prntfont-_uff_fontdirectory.md">UFF_FONTDIRECTORY</a>
 
 
 
-<a href="..\prntfont\ns-prntfont-_data_header.md">DATA_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547364">DATA_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562866">UFF_FONTDIRECTORY</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20UFF_FILEHEADER structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

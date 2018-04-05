@@ -7,7 +7,7 @@ old-location: print\ibidispl_ibidispl__sendrecv.htm
 old-project: print
 ms.assetid: 0c91abd0-5e49-4e23-a50f-9d1dacf9d868
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: IBidiSpl, IBidiSpl interface [Print Devices], SendRecv method, IBidiSpl::SendRecv, SendRecv method [Print Devices], SendRecv method [Print Devices], IBidiSpl interface, SendRecv,IBidiSpl.SendRecv, _win32_IBidiSpl_SendRecv, bidispl/IBidiSpl::SendRecv, gdi.ibidispl_ibidispl__sendrecv, print.ibidispl_ibidispl__sendrecv
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: bidispl.h
+req.lib: 
 req.dll: Bidispl.dll
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	bidispl.dll
 api_name:
 -	IBidiSpl.SendRecv
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
 ---
@@ -50,17 +51,6 @@ req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
 
 
 The <b>SendRecv</b> method sends a bidi request to the printer.
-
-
-## -syntax
-
-
-````
-HRESULT SendRecv(
-  [in] const LPCWSTR      pszAction,
-  [in]       IBidiRequest *pRequest
-);
-````
 
 
 ## -parameters
@@ -175,11 +165,6 @@ The BIDI_ACTION_* values are case insensitive strings.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
-
-
-
-<a href="..\bidispl\nn-bidispl-ibidispl.md">IBidiSpl</a>
 
 
 
@@ -187,9 +172,12 @@ The BIDI_ACTION_* values are case insensitive strings.
 
 
 
+<a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dd144980">IBidiSpl</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IBidiSpl::SendRecv method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

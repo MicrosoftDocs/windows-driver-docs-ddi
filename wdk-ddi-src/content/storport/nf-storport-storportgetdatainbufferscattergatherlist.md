@@ -7,7 +7,7 @@ old-location: storage\storportgetdatainbufferscattergatherlist.htm
 old-project: storage
 ms.assetid: 015592AE-4AF6-48C8-BF79-6B22A6FCAB98
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: StorPortGetDataInBufferScatterGatherList, StorPortGetDataInBufferScatterGatherList routine [Storage Devices], storage.storportgetdatainbufferscattergatherlist, storport/StorPortGetDataInBufferScatterGatherList
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Storport.dll
 api_name:
 -	StorPortGetDataInBufferScatterGatherList
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STOR_SPINLOCK
 req.product: Windows 10 or later.
@@ -52,18 +53,6 @@ req.product: Windows 10 or later.
 
 
 Returns the scatter-gather list associated with the input data buffer  of a SCSI request block (SRB).
-
-
-## -syntax
-
-
-````
-ULONG StorPortGetDataInBufferScatterGatherList(
-  _In_  PVOID                     HwDeviceExtension,
-  _In_  PSCSI_REQUEST_BLOCK       Srb,
-  _Out_ PSTOR_SCATTER_GATHER_LIST *SgList
-);
-````
 
 
 ## -parameters
@@ -127,17 +116,15 @@ The pointer value in <i>SgList</i> is NULL.
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportgetdatainbuffermdl.md">StorPortGetDataInBufferMdl</a>
 
 
 
-<a href="..\storport\nf-storport-storportgetdatainbuffersystemaddress.md">StorPortGetDataInBufferSystemAddress</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj553718">StorPortGetDataInBufferMdl</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj553720">StorPortGetDataInBufferSystemAddress</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20StorPortGetDataInBufferScatterGatherList routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

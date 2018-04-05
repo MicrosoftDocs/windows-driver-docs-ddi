@@ -7,7 +7,7 @@ old-location: display\registerfordataratenotifications.htm
 old-project: display
 ms.assetid: 81500bb9-27f1-4688-b244-37dfd766f3c8
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: PFN_REGISTER_DATARATE_NOTIFICATIONS, RegisterForDataRateNotifications, RegisterForDataRateNotifications callback function [Display Devices], display.registerfordataratenotifications, netdispumdddi/RegisterForDataRateNotifications
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Netdispumdddi.h
 api_name:
 -	RegisterForDataRateNotifications
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDK_SRQ_DISPATCH
 ---
@@ -54,21 +55,6 @@ Called by the user-mode driver to register with the operating system to receive 
 
 
 
-## -prototype
-
-
-````
-PFN_REGISTER_DATARATE_NOTIFICATIONS RegisterForDataRateNotifications;
-
-NTSTATUS RegisterForDataRateNotifications(
-  _In_     HANDLE                    hMiracastDeviceHandle,
-  _In_opt_ PVOID                     pNotificationContext,
-  _In_opt_ PFN_DATARATE_NOTIFICATION pfnDataRateNotify
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -76,12 +62,12 @@ NTSTATUS RegisterForDataRateNotifications(
 
 ### -param hMiracastDeviceHandle [in]
 
-A handle that represents a Miracast device. The Miracast user-mode driver previously obtained this handle as the <i>hMiracastDeviceHandle</i> parameter in a call to the <a href="..\netdispumdddi\nc-netdispumdddi-pfn_create_miracast_context.md">CreateMiracastContext</a> function.
+A handle that represents a Miracast device. The Miracast user-mode driver previously obtained this handle as the <i>hMiracastDeviceHandle</i> parameter in a call to the <a href="https://msdn.microsoft.com/3b10ddd9-a48d-4f96-b35e-db017d1f9583">CreateMiracastContext</a> function.
 
 
 ### -param pNotificationContext [in, optional]
 
-The context that will be passed to the <a href="..\netdispumdddi\nc-netdispumdddi-pfn_datarate_notification.md">pfnDataRateNotify</a> function when the Miracast data rate changes.
+The context that will be passed to the <a href="https://msdn.microsoft.com/5eb004d1-7cf8-45a3-aad5-2932b1a83bb8">pfnDataRateNotify</a> function when the Miracast data rate changes.
 
 
 ### -param pfnDataRateNotify [in, optional]
@@ -122,7 +108,7 @@ One or more parameters are invalid.
 </dl>
 </td>
 <td width="60%">
-The operating system cannot support quality of service (QoS) notifications, or the call to the function is made outside of the calling thread in which the operating system called <a href="..\netdispumdddi\nc-netdispumdddi-pfn_start_miracast_session.md">StartMiracastSession</a> or <a href="..\netdispumdddi\nc-netdispumdddi-pfn_stop_miracast_session.md">StopMiracastSession</a> functions.
+The operating system cannot support quality of service (QoS) notifications, or the call to the function is made outside of the calling thread in which the operating system called <a href="https://msdn.microsoft.com/2778d9d0-7f97-416f-a5ae-3754b17e8a29">StartMiracastSession</a> or <a href="https://msdn.microsoft.com/ab9ad8ee-9390-41a4-9a69-2e98579b2b77">StopMiracastSession</a> functions.
 
 </td>
 </tr>
@@ -138,37 +124,35 @@ The operating system cannot support quality of service (QoS) notifications, or t
 
 The user-mode driver can optionally call this function to register for automatic calls to data rate notification callback functions once a second.
 
-To unregister from notifications, the driver should supply a value of <b>NULL</b> for the <i>pfnDataRateNotify</i> parameter and for the <b>CurrentBitRate</b> member of the <a href="..\netdispumdddi\ns-netdispumdddi-miracast_wfd_connection_stats.md">MIRACAST_WFD_CONNECTION_STATS</a> structure
-pointed to by the <i>pWfdConnectionStats</i> parameter when it calls the <a href="..\netdispumdddi\nc-netdispumdddi-pfn_start_miracast_session.md">StartMiracastSession</a> function. When the operating system receives <b>NULL</b> for both <i>pfnDataRateNotify</i> and <b>CurrentBitRate</b>, it will no longer provide notifications.
+To unregister from notifications, the driver should supply a value of <b>NULL</b> for the <i>pfnDataRateNotify</i> parameter and for the <b>CurrentBitRate</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265482">MIRACAST_WFD_CONNECTION_STATS</a> structure
+pointed to by the <i>pWfdConnectionStats</i> parameter when it calls the <a href="https://msdn.microsoft.com/2778d9d0-7f97-416f-a5ae-3754b17e8a29">StartMiracastSession</a> function. When the operating system receives <b>NULL</b> for both <i>pfnDataRateNotify</i> and <b>CurrentBitRate</b>, it will no longer provide notifications.
 
-Also, if the operating system can no longer provide QoS data, it sets the <i>pDataRateStats</i> parameter to <b>NULL</b> when the <a href="..\netdispumdddi\nc-netdispumdddi-pfn_datarate_notification.md">pfnDataRateNotify</a>  function is called.
+Also, if the operating system can no longer provide QoS data, it sets the <i>pDataRateStats</i> parameter to <b>NULL</b> when the <a href="https://msdn.microsoft.com/5eb004d1-7cf8-45a3-aad5-2932b1a83bb8">pfnDataRateNotify</a>  function is called.
 
-The function fails if the driver attempts to register while it is already registered, or if it attempts to unregister if it has already unregistered. The function fails if the call is made outside of the calling thread in which the operating system called <a href="..\netdispumdddi\nc-netdispumdddi-pfn_start_miracast_session.md">StartMiracastSession</a> or <a href="..\netdispumdddi\nc-netdispumdddi-pfn_stop_miracast_session.md">StopMiracastSession</a> functions.
+The function fails if the driver attempts to register while it is already registered, or if it attempts to unregister if it has already unregistered. The function fails if the call is made outside of the calling thread in which the operating system called <a href="https://msdn.microsoft.com/2778d9d0-7f97-416f-a5ae-3754b17e8a29">StartMiracastSession</a> or <a href="https://msdn.microsoft.com/ab9ad8ee-9390-41a4-9a69-2e98579b2b77">StopMiracastSession</a> functions.
 
 
 
 
 ## -see-also
 
-<a href="..\netdispumdddi\ns-netdispumdddi-miracast_wfd_connection_stats.md">MIRACAST_WFD_CONNECTION_STATS</a>
 
 
 
-<a href="..\netdispumdddi\nc-netdispumdddi-pfn_start_miracast_session.md">StartMiracastSession</a>
+<a href="https://msdn.microsoft.com/3b10ddd9-a48d-4f96-b35e-db017d1f9583">CreateMiracastContext</a>
 
 
 
-<a href="..\netdispumdddi\nc-netdispumdddi-pfn_create_miracast_context.md">CreateMiracastContext</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265482">MIRACAST_WFD_CONNECTION_STATS</a>
 
 
 
-<a href="..\netdispumdddi\nc-netdispumdddi-pfn_datarate_notification.md">pfnDataRateNotify</a>
+<a href="https://msdn.microsoft.com/2778d9d0-7f97-416f-a5ae-3754b17e8a29">StartMiracastSession</a>
 
 
 
+<a href="https://msdn.microsoft.com/5eb004d1-7cf8-45a3-aad5-2932b1a83bb8">pfnDataRateNotify</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFN_REGISTER_DATARATE_NOTIFICATIONS callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

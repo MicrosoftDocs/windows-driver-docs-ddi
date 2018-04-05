@@ -7,7 +7,7 @@ old-location: print\oemgetglyphmode.htm
 old-project: print
 ms.assetid: 350fe500-997b-48bb-90e2-04f39a7de3d2
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: OEMGetGlyphMode, OEMGetGlyphMode function [Print Devices], print.oemgetglyphmode, print_unidrv-pscript_rendering_b5456727-fde5-4e4a-ae76-a5f571232325.xml, printoem/OEMGetGlyphMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	printoem.h
 api_name:
 -	OEMGetGlyphMode
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STDVARIABLEINDEX
 req.product: Windows 10 or later.
@@ -51,17 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <code>OEMGetGlyphMode</code> function informs the GDI how to cache glyph information.
-
-
-## -syntax
-
-
-````
-ULONG APIENTRY OEMGetGlyphMode(
-   DHPDEV  dhpdev,
-   FONTOBJ *pfo
-);
-````
 
 
 ## -parameters

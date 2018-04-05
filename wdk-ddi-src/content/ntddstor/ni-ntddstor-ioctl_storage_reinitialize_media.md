@@ -7,7 +7,7 @@ old-location: storage\ioctl_storage_reinitialize_media.htm
 old-project: storage
 ms.assetid: 4ECF51C3-D098-49E2-A675-78066A15C221
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_STORAGE_REINITIALIZE_MEDIA, IOCTL_STORAGE_REINITIALIZE_MEDIA control code [Storage Devices], ntddstor/IOCTL_STORAGE_REINITIALIZE_MEDIA, storage.ioctl_storage_reinitialize_media
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,18 +38,14 @@ api_location:
 -	Ntddstor.h
 api_name:
 -	IOCTL_STORAGE_REINITIALIZE_MEDIA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STORAGE_ZONE_CONDITION, *PSTORAGE_ZONE_CONDITION
 ---
 
 # IOCTL_STORAGE_REINITIALIZE_MEDIA IOCTL
 
-
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

@@ -7,7 +7,7 @@ old-location: audio\iunregistersubdevice.htm
 old-project: audio
 ms.assetid: 023b0a03-a572-459b-a1eb-b25fcde6ecc5
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 3/19/2018
 ms.keywords: IUnregisterSubdevice, IUnregisterSubdevice interface [Audio Devices], IUnregisterSubdevice interface [Audio Devices], described, audio.iunregistersubdevice, audmp-routines_1af8aada-2816-4e82-abe4-579ba672866b.xml, portcls/IUnregisterSubdevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	portcls.h
 api_name:
 -	IUnregisterSubdevice
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
@@ -73,7 +74,7 @@ DMus
 MIDI
 
 </li>
-</ul>The single method in this interface unregisters a subdevice that was previously registered by a call to the <a href="..\portcls\nf-portcls-pcregistersubdevice.md">PcRegisterSubdevice</a> routine. PortCls supports <b>PcRegisterSubdevice</b>.
+</ul>The single method in this interface unregisters a subdevice that was previously registered by a call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537731">PcRegisterSubdevice</a> routine. PortCls supports <b>PcRegisterSubdevice</b>.
 
 The <code>IUnregisterSubdevice</code> object maintains its own internal reference to the subdevice to ensure that the corresponding device object is not deleted until all references to the <code>IUnregisterSubdevice</code> object are released.
 
@@ -98,7 +99,7 @@ The <b>IUnregisterSubdevice</b> interface has these methods.
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537032">IUnregisterSubdevice::UnregisterSubdevice</a>
 </td>
 <td align="left" width="63%">
-The <b>UnregisterSubdevice</b> method deletes the registration of a subdevice that was previously registered by a call to <a href="..\portcls\nf-portcls-pcregistersubdevice.md">PcRegisterSubdevice</a>.
+The <b>UnregisterSubdevice</b> method deletes the registration of a subdevice that was previously registered by a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff537731">PcRegisterSubdevice</a>.
 
 </td>
 </tr>

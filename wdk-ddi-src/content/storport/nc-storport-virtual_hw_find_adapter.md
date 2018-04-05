@@ -7,7 +7,7 @@ old-location: storage\virtualhwstorfindadapter.htm
 old-project: storage
 ms.assetid: 55c16545-194e-4d23-b2e6-26821180eafa
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: VIRTUAL_HW_FIND_ADAPTER, VirtualHwStorFindAdapter, VirtualHwStorFindAdapter routine [Storage Devices], storage.virtualhwstorfindadapter, storport/VirtualHwStorFindAdapter, storvmini_d41a0c2e-d224-4cfd-95e1-997b6a54904b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Storport.h
 api_name:
 -	VirtualHwStorFindAdapter
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STORAGE_DEVICE_UNIQUE_IDENTIFIER, *PSTORAGE_DEVICE_UNIQUE_IDENTIFIER
 req.product: Windows 10 or later.
@@ -51,25 +52,6 @@ req.product: Windows 10 or later.
 
 
 The Storport virtual miniport uses configuration information supplied to the <b>VirtualHwStorFindAdapter</b> routine to further initialize itself.
-
-
-## -prototype
-
-
-````
-VIRTUAL_HW_FIND_ADAPTER VirtualHwStorFindAdapter;
-
-ULONG VirtualHwStorFindAdapter(
-   IN PVOID                               DeviceExtension,
-   IN PVOID                               HwContext,
-   IN PVOID                               BusInformation,
-   IN PVOID                               LowerDevice,
-   IN PCHAR                               ArgumentString,
-   IN OUT PPORT_CONFIGURATION_INFORMATION ConfigInfo,
-   OUT PBOOLEAN                           Again
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -104,7 +86,7 @@ A pointer to a null-terminated ASCII string. This string, if supplied, contains 
 
 ### -param ConfigInfo
 
-A pointer to a <a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a> structure. The port driver initializes this structure with any known configuration information, such as values that the miniport driver's <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> set in the <a href="..\storport\ns-storport-_virtual_hw_initialization_data.md">VIRTUAL_HW_INITIALIZATION_DATA</a>. <b>VirtualHwStorFindAdapter</b>  must use any supplied information to determine if the virtual HBA it describes is one that the miniport driver supports. If so, <b>VirtualHwStorFindAdapter</b> initializes and configures that HBA and fills in any missing configuration information. If possible, a miniport driver should have default configuration values for each type of HBA that it supports, in the event that the operating system-dependent port driver cannot supply additional configuration information that was not provided by the miniport driver's <b>DriverEntry</b> routine.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff567785">PORT_CONFIGURATION_INFORMATION</a> structure. The port driver initializes this structure with any known configuration information, such as values that the miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> set in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568010">VIRTUAL_HW_INITIALIZATION_DATA</a>. <b>VirtualHwStorFindAdapter</b>  must use any supplied information to determine if the virtual HBA it describes is one that the miniport driver supports. If so, <b>VirtualHwStorFindAdapter</b> initializes and configures that HBA and fills in any missing configuration information. If possible, a miniport driver should have default configuration values for each type of HBA that it supports, in the event that the operating system-dependent port driver cannot supply additional configuration information that was not provided by the miniport driver's <b>DriverEntry</b> routine.
 
 
 ### -param Again
@@ -130,7 +112,7 @@ Not used.
 </dl>
 </td>
 <td width="60%">
-Indicates that a supported HBA was found and that the HBA-relevant configuration information was determined successfully and set in the <a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a> structure.
+Indicates that a supported HBA was found and that the HBA-relevant configuration information was determined successfully and set in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567785">PORT_CONFIGURATION_INFORMATION</a> structure.
 
 </td>
 </tr>
@@ -141,7 +123,7 @@ Indicates that a supported HBA was found and that the HBA-relevant configuration
 </dl>
 </td>
 <td width="60%">
-Indicates that an HBA was found, but an error occurred when it obtained the configuration information. If possible, such an error should be logged with <a href="..\srb\nf-srb-scsiportlogerror.md">ScsiPortLogError</a>.
+Indicates that an HBA was found, but an error occurred when it obtained the configuration information. If possible, such an error should be logged with <a href="https://msdn.microsoft.com/library/windows/hardware/ff564652">ScsiPortLogError</a>.
 
 </td>
 </tr>
@@ -252,25 +234,23 @@ The <b>VIRTUAL_HW_FIND_ADAPTER</b> function type is defined in the Storport.h he
 
 ## -see-also
 
-<a href="..\storport\ns-storport-_virtual_hw_initialization_data.md">VIRTUAL_HW_INITIALIZATION_DATA</a>
 
 
 
-<a href="..\srb\nf-srb-scsiportlogerror.md">ScsiPortLogError</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557390">HwStorFindAdapter</a>
 
 
 
-<a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567785">PORT_CONFIGURATION_INFORMATION</a>
 
 
 
-<a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564652">ScsiPortLogError</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568010">VIRTUAL_HW_INITIALIZATION_DATA</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20VirtualHwStorFindAdapter routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

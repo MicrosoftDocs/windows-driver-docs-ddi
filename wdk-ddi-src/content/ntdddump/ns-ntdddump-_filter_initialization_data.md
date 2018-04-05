@@ -7,7 +7,7 @@ old-location: storage\filter_initialization_data.htm
 old-project: storage
 ms.assetid: 71f9d0c2-ffc9-4fe1-ae95-f38a1d1e82df
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PFILTER_INITIALIZATION_DATA, DUMP_FILTER_CRITICAL, DUMP_FILTER_FLAG_SYSTEM_SUPPORT_READ, DUMP_FILTER_MAJOR_VERSION, DUMP_FILTER_MAJOR_VERSION_1, FILTER_INITIALIZATION_DATA, FILTER_INITIALIZATION_DATA structure [Storage Devices], PFILTER_INITIALIZATION_DATA, PFILTER_INITIALIZATION_DATA structure pointer [Storage Devices], _FILTER_INITIALIZATION_DATA, ntdddump/FILTER_INITIALIZATION_DATA, ntdddump/PFILTER_INITIALIZATION_DATA, storage.filter_initialization_data, structs-filter_5efcc842-8111-4808-9b70-14d63dd91ba5.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntdddump.h
 api_name:
 -	FILTER_INITIALIZATION_DATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FILTER_INITIALIZATION_DATA, *PFILTER_INITIALIZATION_DATA
 ---
@@ -50,25 +51,6 @@ req.typenames: FILTER_INITIALIZATION_DATA, *PFILTER_INITIALIZATION_DATA
 
 
 The filter driver fills in a <b>FILTER_INITIALIZATION_DATA</b> structure and returns it to the crash dump driver.
-
-
-## -syntax
-
-
-````
-typedef struct _FILTER_INITIALIZATION_DATA {
-  ULONG        MajorVersion;
-  ULONG        MinorVersion;
-  PDUMP_START  DumpStart;
-  PDUMP_WRITE  DumpWrite;
-  PDUMP_FINISH DumpFinish;
-  PDUMP_UNLOAD DumpUnload;
-  PVOID        DumpData;
-  ULONG        MaxPagesPerWrite;
-  ULONG        Flags;
-  PDUMP_READ   DumpRead;
-} FILTER_INITIALIZATION_DATA, *PFILTER_INITIALIZATION_DATA;
-````
 
 
 ## -struct-fields
@@ -116,7 +98,7 @@ A pointer to the dump unload routine. This routine is called before the driver i
 
 ### -field DumpData
 
-The filter driver can pass a pointer to internal context data in this member. This pointer is passed back to the filter driver in a <a href="..\ntdddump\ns-ntdddump-_filter_extension.md">FILTER_EXTENSION</a> structure during each callback.
+The filter driver can pass a pointer to internal context data in this member. This pointer is passed back to the filter driver in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff553862">FILTER_EXTENSION</a> structure during each callback.
 
 
 ### -field MaxPagesPerWrite
@@ -180,33 +162,31 @@ If any of these members are not set, the dump filter driver will be marked as no
 
 ## -see-also
 
-<a href="..\ntdddump\nc-ntdddump-dump_unload.md">Dump_Unload</a>
 
 
 
-<a href="..\ntdddump\nc-ntdddump-dump_write.md">Dump_Write</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552764">Dump_Finish</a>
 
 
 
-<a href="..\ntdddump\ns-ntdddump-_filter_extension.md">FILTER_EXTENSION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439713">Dump_Read</a>
 
 
 
-<a href="..\ntdddump\nc-ntdddump-dump_finish.md">Dump_Finish</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552767">Dump_Start</a>
 
 
 
-<a href="..\ntdddump\nc-ntdddump-dump_read.md">Dump_Read</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552773">Dump_Unload</a>
 
 
 
-<a href="..\ntdddump\nc-ntdddump-dump_start.md">Dump_Start</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553709">Dump_Write</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553862">FILTER_EXTENSION</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20FILTER_INITIALIZATION_DATA structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

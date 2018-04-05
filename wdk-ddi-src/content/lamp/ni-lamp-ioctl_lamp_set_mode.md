@@ -38,18 +38,14 @@ api_location:
 -	lamp.h
 api_name:
 -	IOCTL_LAMP_SET_MODE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: LAMP_MODE
 ---
 
 # IOCTL_LAMP_SET_MODE IOCTL
 
-
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -75,12 +71,12 @@ The <b>IOCTL_LAMP_SET_MODE</b>
 
 ### -input-buffer
 
-<code>Irp-&gt;AssociatedIrp.SystemBuffer</code> points to a buffer of type <a href="..\lamp\ne-lamp-lamp_mode.md">LAMP_MODE</a>.
+<code>Irp-&gt;AssociatedIrp.SystemBuffer</code> points to a buffer of type <a href="https://msdn.microsoft.com/library/windows/hardware/dn937009">LAMP_MODE</a>.
 
 
 ### -input-buffer-length
 
-Length of a <a href="..\lamp\ne-lamp-lamp_mode.md">LAMP_MODE</a>.
+Length of a <a href="https://msdn.microsoft.com/library/windows/hardware/dn937009">LAMP_MODE</a>.
 
 
 ### -output-buffer

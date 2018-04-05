@@ -7,7 +7,7 @@ old-location: wdf\wdfobjectallocatecontext.htm
 old-project: wdf
 ms.assetid: dbabd045-4f18-4103-b3c0-5405173628d6
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/26/2018
 ms.keywords: DFGenObjectRef_9b172283-f4b6-4ade-9cd2-38f10c0ff9bd.xml, WdfObjectAllocateContext, WdfObjectAllocateContext method, kmdf.wdfobjectallocatecontext, wdf.wdfobjectallocatecontext, wdfobject/WdfObjectAllocateContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,8 @@ api_location:
 -	WUDFx02000.dll.dll
 api_name:
 -	WdfObjectAllocateContext
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_SYNCHRONIZATION_SCOPE
 req.product: Windows 10 or later.
@@ -58,18 +59,6 @@ req.product: Windows 10 or later.
 The <b>WdfObjectAllocateContext</b> method allocates context space for a specified framework object.
 
 
-## -syntax
-
-
-````
-NTSTATUS WdfObjectAllocateContext(
-  _In_  WDFOBJECT              Handle,
-  _In_  PWDF_OBJECT_ATTRIBUTES ContextAttributes,
-  _Out_ PVOID                  *Context
-);
-````
-
-
 ## -parameters
 
 
@@ -82,7 +71,7 @@ A handle to a framework object.
 
 ### -param ContextAttributes [in]
 
-A pointer to a caller-supplied <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure that describes the context space.
+A pointer to a caller-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff552400">WDF_OBJECT_ATTRIBUTES</a> structure that describes the context space.
 
 
 ### -param Context [out]
@@ -170,13 +159,13 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
-Typically, drivers create object context space by specifying a <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure when they call a framework object's creation method, such as <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>. 
+Typically, drivers create object context space by specifying a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552400">WDF_OBJECT_ATTRIBUTES</a> structure when they call a framework object's creation method, such as <a href="https://msdn.microsoft.com/library/windows/hardware/ff545926">WdfDeviceCreate</a>. 
 
 If you want your driver to allocate more than one type of context space to some of its objects, the driver can call <b>WdfObjectAllocateContext</b> one or more times after it has called an object's creation method. Each call to <b>WdfObjectAllocateContext</b> must specify a different context type. (The <b>ContextTypeInfo</b> member of the WDF_OBJECT_ATTRIBUTES structure identifies the context type.) 
 
-If your driver calls <b>WdfObjectAllocateContext</b> more than once for a given object, you can provide separate <a href="..\wdfobject\nc-wdfobject-evt_wdf_object_context_cleanup.md">EvtCleanupCallback</a> and <a href="..\wdfobject\nc-wdfobject-evt_wdf_object_context_destroy.md">EvtDestroyCallback</a> callback functions for each context.
+If your driver calls <b>WdfObjectAllocateContext</b> more than once for a given object, you can provide separate <a href="https://msdn.microsoft.com/aba2efca-7d1f-4594-af65-13356f0e3f8b">EvtCleanupCallback</a> and <a href="https://msdn.microsoft.com/4c3b08d2-bb25-40bd-b2fc-1b9ea2d452b3">EvtDestroyCallback</a> callback functions for each context.
 
-When calling <b>WdfObjectAllocateContext</b>, do not specify a <b>ParentObject</b> in the <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure.
+When calling <b>WdfObjectAllocateContext</b>, do not specify a <b>ParentObject</b> in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552400">WDF_OBJECT_ATTRIBUTES</a> structure.
 
 When the framework allocates context space for an object, it also zero-initializes the context space.
 
@@ -218,11 +207,10 @@ status = WdfObjectAllocateContext(
 
 ## -see-also
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>
 
 
 
-<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552400">WDF_OBJECT_ATTRIBUTES</a>
 
 
 
@@ -230,9 +218,8 @@ status = WdfObjectAllocateContext(
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545926">WdfDeviceCreate</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfObjectAllocateContext method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

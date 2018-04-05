@@ -7,7 +7,7 @@ old-location: kernel\ioremoveshareaccess.htm
 old-project: kernel
 ms.assetid: 999ee9cc-13c7-4e6b-a294-7e7d28272384
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/28/2018
 ms.keywords: IoRemoveShareAccess, IoRemoveShareAccess routine [Kernel-Mode Driver Architecture], k104_0034e41b-0320-40e0-8dea-847db6b6dc58.xml, kernel.ioremoveshareaccess, wdm/IoRemoveShareAccess
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	IoRemoveShareAccess
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
@@ -51,17 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>IoRemoveShareAccess</b> routine removes the access and share-access information for a given open instance of a file object.
-
-
-## -syntax
-
-
-````
-VOID IoRemoveShareAccess(
-  _In_    PFILE_OBJECT  FileObject,
-  _Inout_ PSHARE_ACCESS ShareAccess
-);
-````
 
 
 ## -parameters
@@ -92,7 +82,7 @@ None
 
 
 
-This routine is a reciprocal to <a href="..\wdm\nf-wdm-ioupdateshareaccess.md">IoUpdateShareAccess</a>.
+This routine is a reciprocal to <a href="https://msdn.microsoft.com/library/windows/hardware/ff550412">IoUpdateShareAccess</a>.
 
 <b>IoRemoveShareAccess</b> is not an atomic operation. Therefore, drivers calling this routine must protect the shared file object passed to <b>IoRemoveShareAccess</b> by means of some kind of lock, such as a mutex or a resource lock, in order to prevent corruption of the shared access counts.
 
@@ -103,21 +93,19 @@ Callers of <b>IoRemoveShareAccess</b> must be running at IRQL = PASSIVE_LEVEL an
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-ioupdateshareaccess.md">IoUpdateShareAccess</a>
 
 
 
-<a href="..\wdm\nf-wdm-iosetshareaccess.md">IoSetShareAccess</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548341">IoCheckShareAccess</a>
 
 
 
-<a href="..\wdm\nf-wdm-iocheckshareaccess.md">IoCheckShareAccess</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550324">IoSetShareAccess</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550412">IoUpdateShareAccess</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoRemoveShareAccess routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

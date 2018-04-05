@@ -7,7 +7,7 @@ old-location: print\ipartbase_getstream.htm
 old-project: print
 ms.assetid: 83840bca-2e6e-4982-9ec1-e1e278908993
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: GetStream method [Print Devices], GetStream method [Print Devices], IPartBase interface, GetStream,IPartBase.GetStream, IPartBase, IPartBase interface [Print Devices], GetStream method, IPartBase::GetStream, filterpipeline/IPartBase::GetStream, filterpipeline_22f13e92-765e-41b8-8404-26aae5a50d02.xml, print.ipartbase_getstream
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: filterpipeline.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	filterpipeline.h
 api_name:
 -	IPartBase.GetStream
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
@@ -50,16 +51,6 @@ req.typenames: EXpsFontRestriction
 
 
 The <b>GetStream</b> method gets the stream object that contains the part data. Each part has part-specific data that is associated with it (for example, a font, image, and page markup).
-
-
-## -syntax
-
-
-````
-HRESULT GetStream(
-  [out] IPrintReadStream **ppStream
-);
-````
 
 
 ## -parameters

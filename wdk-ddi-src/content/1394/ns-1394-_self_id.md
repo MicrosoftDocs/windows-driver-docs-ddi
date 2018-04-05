@@ -38,7 +38,8 @@ api_location:
 -	1394.h
 api_name:
 -	SELF_ID
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SELF_ID, *PSELF_ID
 ---
@@ -50,29 +51,6 @@ req.typenames: SELF_ID, *PSELF_ID
 
 
 The SELF_ID structure contains a raw packet zero self-ID packet. See the <a href="http://go.microsoft.com/fwlink/p/?linkid=8729">IEEE 1394 Trade Association specification</a> website for details.
-
-
-## -syntax
-
-
-````
-typedef struct _SELF_ID {
-  ULONG SID_Phys_ID  :6;
-  ULONG SID_Packet_ID  :2;
-  ULONG SID_Gap_Count  :6;
-  ULONG SID_Link_Active  :1;
-  ULONG SID_Zero  :1;
-  ULONG SID_Power_Class  :3;
-  ULONG SID_Contender  :1;
-  ULONG SID_Delay  :2;
-  ULONG SID_Speed  :2;
-  ULONG SID_More_Packets  :1;
-  ULONG SID_Initiated_Rst  :1;
-  ULONG SID_Port3  :2;
-  ULONG SID_Port2  :2;
-  ULONG SID_Port1  :2;
-} SELF_ID, *PSELF_ID;
-````
 
 
 ## -struct-fields
@@ -237,13 +215,11 @@ This structure corresponds to self ID packet 0, as described in the <i>P1394a</i
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538877">TOPOLOGY_MAP</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [IEEE\buses]:%20SELF_ID structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

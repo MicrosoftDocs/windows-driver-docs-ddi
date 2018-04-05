@@ -7,7 +7,7 @@ old-location: netvista\evt_vmb_channel_restore_packet.htm
 old-project: netvista
 ms.assetid: 9C89CFCB-4B8A-40D3-B982-2F7836A636A3
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: EVT_VMB_CHANNEL_RESTORE_PACKET, EvtVmbChannelRestorePacket, EvtVmbChannelRestorePacket callback function [Network Drivers Starting with Windows Vista], PFN_VMB_CHANNEL_RESTORE_PACKET, PFN_VMB_CHANNEL_RESTORE_PACKET callback function pointer [Network Drivers Starting with Windows Vista], netvista.evt_vmb_channel_restore_packet, vmbuskernelmodeclientlibapi/EvtVmbChannelRestorePacket
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	VmbusKernelModeClientLibApi.h
 api_name:
 -	PFN_VMB_CHANNEL_RESTORE_PACKET
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
 req.product: Windows 10 or later.
@@ -54,25 +55,6 @@ req.product: Windows 10 or later.
 
 The <i>EvtVmbChannelRestorePacket</i> callback function is invoked when the virtualization service provider (VSP) server
 endpoint must restore the state associated with a packet object.  
-
-
-## -prototype
-
-
-````
-EVT_VMB_CHANNEL_RESTORE_PACKET EvtVmbChannelRestorePacket;
-
-NTSTATUS EvtVmbChannelRestorePacket(
-  _In_ VMBCHANNEL                      Channel,
-  _In_ reads_bytes_(LibBufSize) PVOID  LibBuf,
-  _In_ UINT32                          LibBufSize,
-  _In_ reads_bytes_(SaveBufSize) PVOID SaveBuf,
-  _In_ UINT32                          SaveBufSize
-)
-{ ... }
-
-typedef EVT_VMB_CHANNEL_RESTORE_PACKET PFN_VMB_CHANNEL_RESTORE_PACKET;
-````
 
 
 ## -parameters
@@ -122,11 +104,11 @@ Size of the <i>SaveBuf</i> parameter, in bytes.
 
 
 
-The <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbserverchannelinitsetsaverestorepacketcallbacks.md">VmbServerChannelInitSetSaveRestorePacketCallbacks</a> function sets a callback function for restoring packets for each channel.
+The <a href="https://msdn.microsoft.com/2E704BF1-21E2-498E-82C2-2B55BF44D044">VmbServerChannelInitSetSaveRestorePacketCallbacks</a> function sets a callback function for restoring packets for each channel.
 
 In order
 to restore an in-flight packet object, the VSP must allocate a new packet
-by using the <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbpacketallocate.md">VmbPacketAllocate</a> function. The VSP restores the packet to the previous state by passing <i>LibBuf</i> and <i>LibBufSize</i> to the <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbpacketrestore.md">VmbPacketRestore</a> function.
+by using the <a href="https://msdn.microsoft.com/F121A7BC-5504-4CF5-8C8A-0568D6C4F77F">VmbPacketAllocate</a> function. The VSP restores the packet to the previous state by passing <i>LibBuf</i> and <i>LibBufSize</i> to the <a href="https://msdn.microsoft.com/CE8BBFB7-FC6C-458B-89EC-355A6DD18399">VmbPacketRestore</a> function.
 If the VSP provided any internal state for the transaction in the <i>EvtVmbChannelSavePacket</i>
 callback function, then this is provided in <i>SaveBuf</i>, and restored by the VSP.
 
@@ -135,25 +117,23 @@ callback function, then this is provided in <i>SaveBuf</i>, and restored by the 
 
 ## -see-also
 
-<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbpacketallocate.md">VmbPacketAllocate</a>
 
 
 
-<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbpacketrestore.md">VmbPacketRestore</a>
+<a href="https://msdn.microsoft.com/9C89CFCB-4B8A-40D3-B982-2F7836A636A3">EvtVmbChannelSavePacket</a>
 
 
 
-<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbserverchannelinitsetsaverestorepacketcallbacks.md">VmbServerChannelInitSetSaveRestorePacketCallbacks</a>
+<a href="https://msdn.microsoft.com/F121A7BC-5504-4CF5-8C8A-0568D6C4F77F">VmbPacketAllocate</a>
 
 
 
-<a href="..\vmbuskernelmodeclientlibapi\nc-vmbuskernelmodeclientlibapi-evt_vmb_channel_restore_packet.md">EvtVmbChannelSavePacket</a>
+<a href="https://msdn.microsoft.com/CE8BBFB7-FC6C-458B-89EC-355A6DD18399">VmbPacketRestore</a>
 
 
 
+<a href="https://msdn.microsoft.com/2E704BF1-21E2-498E-82C2-2B55BF44D044">VmbServerChannelInitSetSaveRestorePacketCallbacks</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20EVT_VMB_CHANNEL_RESTORE_PACKET callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

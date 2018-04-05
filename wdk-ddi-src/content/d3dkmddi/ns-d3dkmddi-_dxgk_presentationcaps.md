@@ -7,7 +7,7 @@ old-location: display\dxgk_presentationcaps.htm
 old-project: display
 ms.assetid: 38de4631-535f-4950-b361-d70f8c638c36
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: DXGK_PRESENTATIONCAPS, DXGK_PRESENTATIONCAPS structure [Display Devices], DmStructs_67f7af73-6eaa-4ac8-ad04-1633bc1504af.xml, _DXGK_PRESENTATIONCAPS, d3dkmddi/DXGK_PRESENTATIONCAPS, display.dxgk_presentationcaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGK_PRESENTATIONCAPS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_PRESENTATIONCAPS
 ---
@@ -49,50 +50,7 @@ req.typenames: DXGK_PRESENTATIONCAPS
 ## -description
 
 
-The DXGK_PRESENTATIONCAPS structure identifies presentation capabilities of a display miniport driver that the driver provides through a call to its <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryadapterinfo.md">DxgkDdiQueryAdapterInfo</a> function.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGK_PRESENTATIONCAPS {
-  union {
-    struct {
-      UINT NoScreenToScreenBlt  :1;
-      UINT NoOverlapScreenBlt  :1;
-      UINT SupportKernelModeCommandBuffer  :1;
-      UINT NoSameBitmapAlphaBlend  :1;
-      UINT NoSameBitmapStretchBlt  :1;
-      UINT NoSameBitmapTransparentBlt  :1;
-      UINT NoSameBitmapOverlappedAlphaBlend  :1;
-      UINT NoSameBitmapOverlappedStretchBlt  :1;
-      UINT DriverSupportsCddDwmInterop  :1;
-      UINT Reserved0  :1;
-      UINT AlignmentShift  :4;
-      UINT MaxTextureWidthShift  :3;
-      UINT MaxTextureHeightShift  :3;
-      UINT SupportAllBltRops  :1;
-      UINT SupportMirrorStretchBlt  :1;
-      UINT SupportMonoStretchBltModes  :1;
-      UINT StagingRectStartPitchAligned  :1;
-      UINT NoSameBitmapBitBlt  :1;
-      UINT NoSameBitmapOverlappedBitBlt  :1;
-      UINT Reserved1  :1;
-      UINT NoTempSurfaceForClearTypeBlend  :1;
-#if (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WIN8)
-      UINT SupportSoftwareDeviceBitmaps  :1;
-      UINT NoCacheCoherentApertureMemory  :1;
-      UINT SupportLinearHeap  :1;
-      UINT Reserved  :1;
-#else 
-      UINT Reserved  :4;
-#endif 
-    };
-     Value;
-  };
-} DXGK_PRESENTATIONCAPS;
-````
+The DXGK_PRESENTATIONCAPS structure identifies presentation capabilities of a display miniport driver that the driver provides through a call to its <a href="https://msdn.microsoft.com/f2f4c54c-7413-48e5-a165-d71f35642b6c">DxgkDdiQueryAdapterInfo</a> function.
 
 
 ## -struct-fields
@@ -116,7 +74,7 @@ Setting this member is equivalent to setting the second bit of the 32-bit <b>Val
 
 ### -field SupportKernelModeCommandBuffer
 
- [in] A UINT value that specifies whether the display miniport driver supports GDI hardware-accelerated command buffer processing. If <b>SupportKernelModeCommandBuffer</b> is set, the driver can perform various hardware-accelerated bit-block transfer (bitblt) and fill operations when the DirectX graphics kernel subsystem calls the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_renderkm.md">DxgkDdiRenderKm</a> function.
+ [in] A UINT value that specifies whether the display miniport driver supports GDI hardware-accelerated command buffer processing. If <b>SupportKernelModeCommandBuffer</b> is set, the driver can perform various hardware-accelerated bit-block transfer (bitblt) and fill operations when the DirectX graphics kernel subsystem calls the display miniport driver's <a href="https://msdn.microsoft.com/5841934d-7e0a-4bb8-a7f8-17d8c0af351f">DxgkDdiRenderKm</a> function.
 
 <div class="alert"><b>Note</b>    A display miniport driver should report that it supports GDI hardware acceleration only if the cache-coherent GPU aperture segment exists and there is no significant performance penalty when the CPU accesses the memory.</div>
 <div> </div>
@@ -236,7 +194,7 @@ Supported starting with Windows 7.
 
 ### -field SupportMirrorStretchBlt
 
-[in] A UINT value that specifies whether the display miniport driver supports Stretch Blt operations (using the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_gdiarg_stretchblt.md">DXGK_GDIARG_STRETCHBLT</a> structure) in mirror mode. If <b>SupportMirrorStretchBlt </b>is set, the driver supports such operations.
+[in] A UINT value that specifies whether the display miniport driver supports Stretch Blt operations (using the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561089">DXGK_GDIARG_STRETCHBLT</a> structure) in mirror mode. If <b>SupportMirrorStretchBlt </b>is set, the driver supports such operations.
 
 Setting this member is equivalent to setting the fifteenth bit of the 32-bit <b>Value</b> member (0x00004000). 
 
@@ -245,7 +203,7 @@ Supported starting with Windows 7.
 
 ### -field SupportMonoStretchBltModes
 
-[in] A UINT value that specifies whether the display miniport driver supports Stretch Blt operations (using the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_gdiarg_stretchblt.md">DXGK_GDIARG_STRETCHBLT</a> structure) in BLACKONWHITE or WHITEONBLACK monochromatic rendering modes. If <b>SupportMonoStretchBltModes</b> is set, the driver supports such operations.
+[in] A UINT value that specifies whether the display miniport driver supports Stretch Blt operations (using the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561089">DXGK_GDIARG_STRETCHBLT</a> structure) in BLACKONWHITE or WHITEONBLACK monochromatic rendering modes. If <b>SupportMonoStretchBltModes</b> is set, the driver supports such operations.
 
 Setting this member is equivalent to setting the sixteenth bit of the 32-bit <b>Value</b> member (0x00008000). 
 
@@ -288,7 +246,7 @@ Supported starting with Windows 7.
 
 ### -field NoTempSurfaceForClearTypeBlend
 
-[in] A UINT value that specifies whether the driver needs a temporary surface during processing of commands that are specified by the <b>ClearTypeBlend</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_renderkm_command.md">DXGK_RENDERKM_COMMAND</a> structure. If <b>NoTempSurfaceForClearTypeBlend</b> is set, the driver does not need a temporary surface. In this case, the driver will use less video memory.
+[in] A UINT value that specifies whether the driver needs a temporary surface during processing of commands that are specified by the <b>ClearTypeBlend</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562026">DXGK_RENDERKM_COMMAND</a> structure. If <b>NoTempSurfaceForClearTypeBlend</b> is set, the driver does not need a temporary surface. In this case, the driver will use less video memory.
 
 Setting this member to zero is equivalent to setting the twenty-first bit of the 32-bit <b>Value</b> member (0x00100000).
 
@@ -355,25 +313,23 @@ A display miniport driver can specify presentation capabilities by setting bits 
 
 ## -see-also
 
-<a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_gdisurfacetype.md">D3DKMDT_GDISURFACETYPE</a>
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546039">D3DKMDT_GDISURFACETYPE</a>
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_renderkm.md">DxgkDdiRenderKm</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561062">DXGK_DRIVERCAPS</a>
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryadapterinfo.md">DxgkDdiQueryAdapterInfo</a>
+<a href="https://msdn.microsoft.com/f2f4c54c-7413-48e5-a165-d71f35642b6c">DxgkDdiQueryAdapterInfo</a>
 
 
 
+<a href="https://msdn.microsoft.com/5841934d-7e0a-4bb8-a7f8-17d8c0af351f">DxgkDdiRenderKm</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGK_PRESENTATIONCAPS structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

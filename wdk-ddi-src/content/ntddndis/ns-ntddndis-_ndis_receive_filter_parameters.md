@@ -7,7 +7,7 @@ old-location: netvista\ndis_receive_filter_parameters.htm
 old-project: netvista
 ms.assetid: 39dc6b3a-f24d-4f1a-96f8-416fbcb3f894
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: "*PNDIS_RECEIVE_FILTER_PARAMETERS, NDIS_RECEIVE_FILTER_PACKET_ENCAPSULATION_GRE, NDIS_RECEIVE_FILTER_PARAMETERS, NDIS_RECEIVE_FILTER_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_RECEIVE_FILTER_PARAMETERS, PNDIS_RECEIVE_FILTER_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_RECEIVE_FILTER_PARAMETERS, netvista.ndis_receive_filter_parameters, ntddndis/NDIS_RECEIVE_FILTER_PARAMETERS, ntddndis/PNDIS_RECEIVE_FILTER_PARAMETERS, virtual_machine_queue_ref_abdd073b-8e49-4d6d-9bd6-1eca198dbd2d.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ntddndis.h
 api_name:
 -	NDIS_RECEIVE_FILTER_PARAMETERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_RECEIVE_FILTER_PARAMETERS, *PNDIS_RECEIVE_FILTER_PARAMETERS
 ---
@@ -73,28 +74,6 @@ NDIS receive filters are used in the following NDIS interfaces:
 </li>
 </ul>
 
-## -syntax
-
-
-````
-typedef struct _NDIS_RECEIVE_FILTER_PARAMETERS {
-  NDIS_OBJECT_HEADER       Header;
-  ULONG                    Flags;
-  NDIS_RECEIVE_FILTER_TYPE FilterType;
-  NDIS_RECEIVE_QUEUE_ID    QueueId;
-  NDIS_RECEIVE_FILTER_ID   FilterId;
-  ULONG                    FieldParametersArrayOffset;
-  ULONG                    FieldParametersArrayNumElements;
-  ULONG                    FieldParametersArrayElementSize;
-  ULONG                    RequestedFilterIdBitCount;
-#if (NDIS_SUPPORT_NDIS630)
-  ULONG                    MaxCoalescingDelay;
-  NDIS_NIC_SWITCH_VPORT_ID VPortId;
-#endif 
-} NDIS_RECEIVE_FILTER_PARAMETERS, *PNDIS_RECEIVE_FILTER_PARAMETERS;
-````
-
-
 ## -struct-fields
 
 
@@ -103,7 +82,7 @@ typedef struct _NDIS_RECEIVE_FILTER_PARAMETERS {
 ### -field Header
 
 The 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure for the
      <b>NDIS_RECEIVE_FILTER_PARAMETERS</b> structure. The driver sets the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to NDIS_OBJECT_TYPE_DEFAULT.
@@ -180,7 +159,7 @@ A receive filter identifier. The filter identifier
 
 ### -field FieldParametersArrayOffset
 
-The offset, in bytes, to the first element in an array of elements that follow this structure. The offset is measured from the start of the <b>NDIS_RECEIVE_FILTER_PARAMETERS</b> structure up to the beginning of the first element. Each element in the array is an <a href="..\ntddndis\ns-ntddndis-_ndis_receive_filter_field_parameters.md">NDIS_RECEIVE_FILTER_FIELD_PARAMETERS</a> structure.
+The offset, in bytes, to the first element in an array of elements that follow this structure. The offset is measured from the start of the <b>NDIS_RECEIVE_FILTER_PARAMETERS</b> structure up to the beginning of the first element. Each element in the array is an <a href="https://msdn.microsoft.com/library/windows/hardware/ff567169">NDIS_RECEIVE_FILTER_FIELD_PARAMETERS</a> structure.
 
 
 
@@ -202,7 +181,7 @@ The size, in bytes, of each element in the array.
 The number of bits in a filter identifier. The miniport driver uses
      this number of bits for the filter identifier in the 
      <b>NetBufferListFilteringInfo</b> out-of-band (OOB) data in 
-     <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures.  If this member is zero, a miniport driver must not specify the filter identifier
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structures.  If this member is zero, a miniport driver must not specify the filter identifier
      in the OOB 
      <b>NetBufferListFilteringInfo</b> data.
 
@@ -245,12 +224,12 @@ The
     <b>FieldParametersArrayNumElements</b>, and 
     <b>FieldParametersArrayElementSize</b> members of the <b>NDIS_RECEIVE_FILTER_PARAMETERS</b> structure define an
     array of 
-    <a href="..\ntddndis\ns-ntddndis-_ndis_receive_filter_field_parameters.md">
+    <a href="https://msdn.microsoft.com/3d387fe9-a7cc-4034-b31e-ba1359db2ae1">
     NDIS_RECEIVE_FILTER_FIELD_PARAMETERS</a> structures. Each <b>NDIS_RECEIVE_FILTER_FIELD_PARAMETERS</b>
     structure in the array sets the filter test criterion for one field in a network header.
 
 The network adapter combines the results from all the field tests with a logical AND operation.
-    That is, if any field test that is included in the array of <a href="..\ntddndis\ns-ntddndis-_ndis_receive_filter_field_parameters.md">NDIS_RECEIVE_FILTER_FIELD_PARAMETERS</a>
+    That is, if any field test that is included in the array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff567169">NDIS_RECEIVE_FILTER_FIELD_PARAMETERS</a>
     structures fails, the network packet does not meet the specified filter criterion.
 
 When a network adapter tests a received packet against these filter criteria, it must ignore all
@@ -291,8 +270,19 @@ If the network adapter supports the VMQ interface, the  adapter should forward t
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_receive_filter_field_parameters.md">
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="https://msdn.microsoft.com/3d387fe9-a7cc-4034-b31e-ba1359db2ae1">
    NDIS_RECEIVE_FILTER_FIELD_PARAMETERS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a>
 
 
 
@@ -300,21 +290,8 @@ If the network adapter supports the VMQ interface, the  adapter should forward t
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
-
-
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-set-filter">OID_RECEIVE_FILTER_SET_FILTER</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_RECEIVE_FILTER_PARAMETERS structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

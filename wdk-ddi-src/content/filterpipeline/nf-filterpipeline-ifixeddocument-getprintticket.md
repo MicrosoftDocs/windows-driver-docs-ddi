@@ -7,7 +7,7 @@ old-location: print\ifixeddocument_getprintticket.htm
 old-project: print
 ms.assetid: b9c4768e-8292-4311-b64a-ac1ef7d2ad10
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: GetPrintTicket method [Print Devices], GetPrintTicket method [Print Devices], IFixedDocument interface, GetPrintTicket,IFixedDocument.GetPrintTicket, IFixedDocument, IFixedDocument interface [Print Devices], GetPrintTicket method, IFixedDocument::GetPrintTicket, filterpipeline/IFixedDocument::GetPrintTicket, filterpipeline_4da54cb5-31ab-47b3-b2a6-7485e344f233.xml, print.ifixeddocument_getprintticket
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: filterpipeline.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	filterpipeline.h
 api_name:
 -	IFixedDocument.GetPrintTicket
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
@@ -50,16 +51,6 @@ req.typenames: EXpsFontRestriction
 
 
 The <b>GetPrintTicket</b> method gets the print ticket object for the fixed document.
-
-
-## -syntax
-
-
-````
-HRESULT GetPrintTicket(
-  [out] IPartPrintTicket **ppPrintTicket
-);
-````
 
 
 ## -parameters

@@ -7,7 +7,7 @@ old-location: ifsk\fltregisterfilter.htm
 old-project: ifsk
 ms.assetid: 46e96f85-d368-40cd-9530-81959d20b750
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FltApiRef_p_to_z_41e3002c-d720-4e0f-81cb-36cbc215cdba.xml, FltRegisterFilter, FltRegisterFilter function [Installable File System Drivers], fltkernel/FltRegisterFilter, ifsk.fltregisterfilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	fltmgr.sys
 api_name:
 -	FltRegisterFilter
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
@@ -50,18 +51,6 @@ req.typenames: EXpsFontRestriction
 
 
 <b>FltRegisterFilter</b> registers a minifilter driver. 
-
-
-## -syntax
-
-
-````
-NTSTATUS FltRegisterFilter(
-  _In_        PDRIVER_OBJECT   Driver,
-  _In_  const FLT_REGISTRATION *Registration,
-  _Out_       PFLT_FILTER      *RetFilter
-);
-````
 
 
 ## -parameters
@@ -76,7 +65,7 @@ A pointer to the driver object for the minifilter driver. This should be the sam
 
 ### -param Registration [in]
 
-A pointer to a caller-allocated minifilter driver registration structure (<a href="..\fltkernel\ns-fltkernel-_flt_registration.md">FLT_REGISTRATION</a>). 
+A pointer to a caller-allocated minifilter driver registration structure (<a href="https://msdn.microsoft.com/library/windows/hardware/ff544811">FLT_REGISTRATION</a>). 
 
 
 ### -param RetFilter [out]
@@ -121,7 +110,7 @@ The <b>Version</b> member of the <i>Registration</i> structure was not set to FL
 
 </li>
 <li>
-One of the non-NULL name-provider routines in the <i>Registration</i> structure was set to an invalid value. The <b>GenerateFileNameCallback</b>, <b>NormalizeNameComponentCallback</b>, and <b>NormalizeNameComponentExCallback</b> members of <a href="..\fltkernel\ns-fltkernel-_flt_registration.md">FLT_REGISTRATION</a> point to the name-provider routines. 
+One of the non-NULL name-provider routines in the <i>Registration</i> structure was set to an invalid value. The <b>GenerateFileNameCallback</b>, <b>NormalizeNameComponentCallback</b>, and <b>NormalizeNameComponentExCallback</b> members of <a href="https://msdn.microsoft.com/library/windows/hardware/ff544811">FLT_REGISTRATION</a> point to the name-provider routines. 
 
 </li>
 </ul>
@@ -167,34 +156,32 @@ The filter instance is not registered.
 
 Every minifilter driver must call <b>FltRegisterFilter</b> from its <b>DriverEntry</b> routine to add itself to the global list of registered minifilter drivers and to provide the Filter Manager with a list of callback functions and other information about the minifilter driver. 
 
-<b>FltRegisterFilter</b> returns an opaque filter pointer for the minifilter driver in *<i>RetFilter</i>. This pointer value uniquely identifies the minifilter driver and remains constant as long as the minifilter driver is loaded. The minifilter driver should save this pointer, because it is a required parameter for <a href="..\fltkernel\nf-fltkernel-fltstartfiltering.md">FltStartFiltering</a> and <a href="..\fltkernel\nf-fltkernel-fltunregisterfilter.md">FltUnregisterFilter</a>. 
+<b>FltRegisterFilter</b> returns an opaque filter pointer for the minifilter driver in *<i>RetFilter</i>. This pointer value uniquely identifies the minifilter driver and remains constant as long as the minifilter driver is loaded. The minifilter driver should save this pointer, because it is a required parameter for <a href="https://msdn.microsoft.com/library/windows/hardware/ff544569">FltStartFiltering</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff544606">FltUnregisterFilter</a>. 
 
-After calling <b>FltRegisterFilter</b>, a minifilter driver typically calls <a href="..\fltkernel\nf-fltkernel-fltstartfiltering.md">FltStartFiltering</a> to begin filtering I/O operations. 
+After calling <b>FltRegisterFilter</b>, a minifilter driver typically calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff544569">FltStartFiltering</a> to begin filtering I/O operations. 
 
 A minifilter driver can only call <b>FltRegisterFilter</b> to register itself, not another minifilter driver. 
 
-To unregister itself, a minifilter driver calls <a href="..\fltkernel\nf-fltkernel-fltunregisterfilter.md">FltUnregisterFilter</a>.. 
+To unregister itself, a minifilter driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff544606">FltUnregisterFilter</a>.. 
 
 
 
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltunregisterfilter.md">FltUnregisterFilter</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltstartfiltering.md">FltStartFiltering</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544811">FLT_REGISTRATION</a>
 
 
 
-<a href="..\fltkernel\ns-fltkernel-_flt_registration.md">FLT_REGISTRATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544569">FltStartFiltering</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544606">FltUnregisterFilter</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltRegisterFilter function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

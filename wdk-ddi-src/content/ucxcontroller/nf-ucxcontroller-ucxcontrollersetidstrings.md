@@ -7,7 +7,7 @@ old-location: buses\ucxcontrollersetidstrings.htm
 old-project: usbref
 ms.assetid: FC0F6C02-C53A-4F7E-B718-70788FA807F3
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: UcxControllerSetIdStrings, UcxControllerSetIdStrings function [Buses], buses.ucxcontrollersetidstrings, ucxcontroller/UcxControllerSetIdStrings
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ucxstubs.dll
 api_name:
 -	UcxControllerSetIdStrings
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UCX_CONTROLLER_STATE
 req.product: Windows 10 or later.
@@ -53,19 +54,6 @@ req.product: Windows 10 or later.
 
 Updates the identifier strings
     of a controller after the controller has been initialized.
-
-
-## -syntax
-
-
-````
-NTSTATUS UcxControllerSetIdStrings(
-  _In_ UCXCONTROLLER   UcxController,
-  _In_ PUNICODE_STRING ManufacturerNameString,
-  _In_ PUNICODE_STRING ModelNameString,
-  _In_ PUNICODE_STRING ModelNumberString
-);
-````
 
 
 ## -parameters

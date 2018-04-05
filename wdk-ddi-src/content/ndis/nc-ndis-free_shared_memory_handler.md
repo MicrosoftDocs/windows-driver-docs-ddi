@@ -7,7 +7,7 @@ old-location: netvista\netfreesharedmemory.htm
 old-project: netvista
 ms.assetid: fdc3dfe7-6980-493d-ad41-aed501db3a6b
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: FREE_SHARED_MEMORY_HANDLER, NetFreeSharedMemory, NetFreeSharedMemory callback function [Network Drivers Starting with Windows Vista], ndis/NetFreeSharedMemory, ndis_shared_memory_ref_15b5aca1-e5be-4063-812f-9d98a4e72cd4.xml, netvista.netfreesharedmemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ndis.h
 api_name:
 -	NetFreeSharedMemory
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
 ---
@@ -54,20 +55,6 @@ The
   frees shared memory from a shared memory provider.
 
 
-## -prototype
-
-
-````
-FREE_SHARED_MEMORY_HANDLER NetFreeSharedMemory;
-
-VOID NetFreeSharedMemory(
-  _In_ NDIS_HANDLE ProviderContext,
-  _In_ NDIS_HANDLE SharedMemoryProviderContext
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -78,7 +65,7 @@ VOID NetFreeSharedMemory(
 An NDIS_HANDLE to a block of driver-allocated context information that identifies the provider.
      The provider supplied this information in the 
      <b>ProviderContext</b> member of the 
-     <a href="..\ndis\ns-ndis-_ndis_shared_memory_provider_characteristics.md">
+     <a href="https://msdn.microsoft.com/45001da1-5fe3-4383-8da7-31e3ee115c1f">
      NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS</a> structure.
 
 
@@ -87,7 +74,7 @@ An NDIS_HANDLE to a block of driver-allocated context information that identifie
 A handle for a context area that identifies the shared memory block. This is the handle that the
      shared memory provider supplied at the 
      <i>pSharedMemoryProviderContext</i> parameter of the 
-     <a href="..\ndis\nc-ndis-allocate_shared_memory_handler.md">
+     <a href="https://msdn.microsoft.com/d85b4f28-707b-4525-afd8-83e1ceb2674e">
      NetAllocateSharedMemory</a> function.
 
 
@@ -106,11 +93,11 @@ None
 
 NDIS calls the 
     <i>NetFreeSharedMemory</i> function of a shared memory provider when a driver calls the 
-    <a href="..\ndis\nf-ndis-ndisfreesharedmemory.md">NdisFreeSharedMemory</a> function.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff562601">NdisFreeSharedMemory</a> function.
 
 The shared memory provider specified the entry point (FREE_SHARED_MEMORY_HANDLER) for 
     <i>NetFreeSharedMemory</i> in the 
-    <a href="..\ndis\ns-ndis-_ndis_shared_memory_provider_characteristics.md">
+    <a href="https://msdn.microsoft.com/45001da1-5fe3-4383-8da7-31e3ee115c1f">
     NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS</a> structure.
 
 
@@ -118,22 +105,20 @@ The shared memory provider specified the entry point (FREE_SHARED_MEMORY_HANDLER
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_shared_memory_provider_characteristics.md">
+
+
+
+<a href="https://msdn.microsoft.com/45001da1-5fe3-4383-8da7-31e3ee115c1f">
    NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisfreesharedmemory.md">NdisFreeSharedMemory</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562601">NdisFreeSharedMemory</a>
 
 
 
-<a href="..\ndis\nc-ndis-allocate_shared_memory_handler.md">NetAllocateSharedMemory</a>
-
-
-
+<a href="https://msdn.microsoft.com/d85b4f28-707b-4525-afd8-83e1ceb2674e">NetAllocateSharedMemory</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FREE_SHARED_MEMORY_HANDLER callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: wdf\wdffileobjectgetflags.htm
 old-project: wdf
 ms.assetid: f2f30acb-cab7-444a-8b86-6001a8a325b9
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/26/2018
 ms.keywords: DFFileObjectRef_5f2f8f12-9a16-4fb5-88ae-ee726a278cc5.xml, WdfFileObjectGetFlags, WdfFileObjectGetFlags method, kmdf.wdffileobjectgetflags, wdf.wdffileobjectgetflags, wdffileobject/WdfFileObjectGetFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Wdf01000.sys.dll
 api_name:
 -	WdfFileObjectGetFlags
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_FILE_INFORMATION_CLASS, *PWDF_FILE_INFORMATION_CLASS
 req.product: Windows 10 or later.
@@ -54,16 +55,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF only]
 
 The <b>WdfFileObjectGetFlags</b> method returns the flags that a specified framework file object contains.
-
-
-## -syntax
-
-
-````
-ULONG WdfFileObjectGetFlags(
-  _In_ WDFFILEOBJECT FileObject
-);
-````
 
 
 ## -parameters

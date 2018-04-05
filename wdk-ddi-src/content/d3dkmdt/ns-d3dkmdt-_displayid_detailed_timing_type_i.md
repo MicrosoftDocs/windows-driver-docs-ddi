@@ -7,7 +7,7 @@ old-location: display\displayid_detailed_timing_type_i.htm
 old-project: display
 ms.assetid: 7b3fa3a4-a77a-4c5f-b157-1fbdc3a7be33
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: DISPLAYID_DETAILED_TIMING_TYPE_I, DISPLAYID_DETAILED_TIMING_TYPE_I structure [Display Devices], DmStructs_75d5fd93-c7ae-4a57-9843-427c53a9416f.xml, _DISPLAYID_DETAILED_TIMING_TYPE_I, d3dkmdt/DISPLAYID_DETAILED_TIMING_TYPE_I, display.displayid_detailed_timing_type_i
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmdt.h
 api_name:
 -	DISPLAYID_DETAILED_TIMING_TYPE_I
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DISPLAYID_DETAILED_TIMING_TYPE_I
 ---
@@ -50,37 +51,6 @@ req.typenames: DISPLAYID_DETAILED_TIMING_TYPE_I
 
 
 The DISPLAYID_DETAILED_TIMING_TYPE_I structure specifies an additional target mode set for a video present target.
-
-
-## -syntax
-
-
-````
-typedef struct _DISPLAYID_DETAILED_TIMING_TYPE_I {
-  struct {
-    ULONG PixelClock  :24;
-    ULONG AspectRatio  :3;
-    ULONG Reserved  :1;
-    ULONG ScanningType  :1;
-    ULONG StereoMode  :2;
-    ULONG PreferredTiming  :1;
-  };
-  USHORT HorizontalActivePixels;
-  USHORT HorizontalBlankPixels;
-  struct {
-    USHORT HorizontalFrontPorch  :15;
-    USHORT HorizontalSyncPolarity  :1;
-  };
-  USHORT HorizontalSyncWidth;
-  USHORT VerticalActiveLines;
-  USHORT VerticalBlankLines;
-  struct {
-    USHORT VerticalFrontPorch  :15;
-    USHORT VerticalSyncPolarity  :1;
-  };
-  USHORT VerticalSyncWidth;
-} DISPLAYID_DETAILED_TIMING_TYPE_I;
-````
 
 
 ## -struct-fields
@@ -185,7 +155,6 @@ The graphics kernel subsystem also validates that each registry value meets the 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554019">DISPLAYID_DETAILED_TIMING_TYPE_I_SCANNING_MODE</a>
 
 
 
@@ -193,7 +162,7 @@ The graphics kernel subsystem also validates that each registry value meets the 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554026">DISPLAYID_DETAILED_TIMING_TYPE_I_SYNC_POLARITY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554019">DISPLAYID_DETAILED_TIMING_TYPE_I_SCANNING_MODE</a>
 
 
 
@@ -201,9 +170,8 @@ The graphics kernel subsystem also validates that each registry value meets the 
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554026">DISPLAYID_DETAILED_TIMING_TYPE_I_SYNC_POLARITY</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DISPLAYID_DETAILED_TIMING_TYPE_I structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

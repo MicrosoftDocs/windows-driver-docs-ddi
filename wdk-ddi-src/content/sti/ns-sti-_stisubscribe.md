@@ -7,7 +7,7 @@ old-location: image\stisubscribe.htm
 old-project: image
 ms.assetid: 68859180-274d-44f8-9ccf-1cae0348f902
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/27/2018
 ms.keywords: "*LPSTISUBSCRIBE, LPSTISUBSCRIBE, LPSTISUBSCRIBE structure pointer [Imaging Devices], STISUBSCRIBE, STISUBSCRIBE structure [Imaging Devices], _STISUBSCRIBE, image.stisubscribe, sti/LPSTISUBSCRIBE, sti/STISUBSCRIBE, stifnc_6043f7d6-98b6-483f-b868-f18492af5f92.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	sti.h
 api_name:
 -	STISUBSCRIBE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STISUBSCRIBE, *LPSTISUBSCRIBE
 req.product: Windows 10 or later.
@@ -51,21 +52,6 @@ req.product: Windows 10 or later.
 
 
 The STISUBSCRIBE structure is used as a parameter for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543768">IStiDevice::Subscribe</a> method.
-
-
-## -syntax
-
-
-````
-typedef struct _STISUBSCRIBE {
-  DWORD  dwSize;
-  DWORD  dwFlags;
-  DWORD  dwFilter;
-  HWND   hWndNotify;
-  HANDLE hEvent;
-  UINT   uiNotificationMessage;
-} STISUBSCRIBE, *LPSTISUBSCRIBE;
-````
 
 
 ## -struct-fields

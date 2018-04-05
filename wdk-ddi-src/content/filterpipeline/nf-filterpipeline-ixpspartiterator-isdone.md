@@ -7,7 +7,7 @@ old-location: print\ixpspartiterator_isdone.htm
 old-project: print
 ms.assetid: 80877e8e-378f-4849-a8ce-b0651fdc2755
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: IXpsPartIterator, IXpsPartIterator interface [Print Devices], IsDone method, IXpsPartIterator::IsDone, IsDone method [Print Devices], IsDone method [Print Devices], IXpsPartIterator interface, IsDone,IXpsPartIterator.IsDone, filterpipeline/IXpsPartIterator::IsDone, filterpipeline_c3b7b22e-6a29-463a-a516-d7857413050e.xml, print.ixpspartiterator_isdone
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: filterpipeline.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	Filterpipeline.h
 api_name:
 -	IXpsPartIterator.IsDone
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
@@ -50,16 +51,6 @@ req.typenames: EXpsFontRestriction
 
 
 The <code>IsDone</code> method determines whether the iterator has finished  the iteration.
-
-
-## -syntax
-
-
-````
-BOOL STDMETHODCALLTYPE IsDone(
-    None
-);
-````
 
 
 ## -parameters

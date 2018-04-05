@@ -7,7 +7,7 @@ old-location: netvista\ndisquerybindinstancename.htm
 old-project: netvista
 ms.assetid: bbba8be8-aa7e-455f-a591-e9d915f137f4
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: NdisQueryBindInstanceName, NdisQueryBindInstanceName function [Network Drivers Starting with Windows Vista], ndis/NdisQueryBindInstanceName, netvista.ndisquerybindinstancename, protocol_ndis_functions_ref_96d4e502-200e-4ad5-b66d-6de612a0b7f9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	ndis.dll
 api_name:
 -	NdisQueryBindInstanceName
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
@@ -55,17 +56,6 @@ The
   that the calling protocol driver will bind to.
 
 
-## -syntax
-
-
-````
-NDIS_STATUS NdisQueryBindInstanceName(
-  _Out_ PNDIS_STRING pAdapterInstanceName,
-  _In_  NDIS_HANDLE  BindingContext
-);
-````
-
-
 ## -parameters
 
 
@@ -77,7 +67,7 @@ A pointer to a caller-supplied NDIS_STRING type that receives a counted Unicode 
      string specifies the friendly name of the interface to which the binding refers. This interface is
      either a physical NIC or a virtual adapter. For Microsoft Windows 2000 and later operating systems, NDIS
      defines the NDIS_STRING type as a 
-     <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> type.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> type.
 
 
 ### -param BindingContext [in]
@@ -85,7 +75,7 @@ A pointer to a caller-supplied NDIS_STRING type that receives a counted Unicode 
 A handle that identifies the NDIS context area for the bind operation. NDIS passed this handle to
      the 
      <i>BindContext</i> parameter of the 
-     <a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">
+     <a href="https://msdn.microsoft.com/1958722e-012e-4110-a82c-751744bcf9b5">
      ProtocolBindAdapterEx</a> function.
 
 
@@ -108,7 +98,7 @@ A protocol driver uses
     <b>NdisQueryBindInstanceName</b> to retrieve the friendly name of a physical NIC or a virtual adapter to
     which the protocol driver will be bound. The protocol driver specifies the binding context that NDIS
     provided in the 
-    <a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">
+    <a href="https://msdn.microsoft.com/1958722e-012e-4110-a82c-751744bcf9b5">
     ProtocolBindAdapterEx</a> function.
 
 Protocol drivers can use 
@@ -116,7 +106,7 @@ Protocol drivers can use
 
 <b>NdisQueryBindInstanceName</b> allocates memory for the string that specifies the friendly name. After
     the caller finishes using this memory, the caller must call the 
-    <a href="..\ndis\nf-ndis-ndisfreememory.md">NdisFreeMemory</a> function to release the
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff562577">NdisFreeMemory</a> function to release the
     memory.
 
 Friendly names are intended to help the user quickly and accurately identify a physical NIC or virtual
@@ -128,21 +118,19 @@ Friendly names are intended to help the user quickly and accurately identify a p
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisfreememory.md">NdisFreeMemory</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562577">NdisFreeMemory</a>
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+<a href="https://msdn.microsoft.com/1958722e-012e-4110-a82c-751744bcf9b5">ProtocolBindAdapterEx</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisQueryBindInstanceName function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

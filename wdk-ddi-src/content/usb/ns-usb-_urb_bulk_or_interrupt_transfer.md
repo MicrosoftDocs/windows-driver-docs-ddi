@@ -7,7 +7,7 @@ old-location: buses\_urb_bulk_or_interrupt_transfer.htm
 old-project: usbref
 ms.assetid: 398f50ad-4c58-4585-8fb8-c523b74793e9
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: USBD_SHORT_TRANSFER_OK, USBD_TRANSFER_DIRECTION_IN, USBD_TRANSFER_DIRECTION_OUT, _URB_BULK_OR_INTERRUPT_TRANSFER, _URB_BULK_OR_INTERRUPT_TRANSFER structure [Buses], buses._urb_bulk_or_interrupt_transfer, usb/_URB_BULK_OR_INTERRUPT_TRANSFER, usbstrct_3d3da976-5136-4648-850e-c0e3fe0999d8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	usb.h
 api_name:
 -	_URB_BULK_OR_INTERRUPT_TRANSFER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 req.product: Windows 10 or later.
@@ -53,23 +54,6 @@ req.product: Windows 10 or later.
 The <b>_URB_BULK_OR_INTERRUPT_TRANSFER</b> structure is used by USB client drivers to send or receive data on a bulk pipe or on an interrupt pipe.
 
 
-## -syntax
-
-
-````
-struct _URB_BULK_OR_INTERRUPT_TRANSFER {
-  struct URB_HEADER  Hdr;
-  USBD_PIPE_HANDLE    PipeHandle;
-  ULONG               TransferFlags;
-  ULONG               TransferBufferLength;
-  PVOID               TransferBuffer;
-  PMDL                TransferBufferMDL;
-  struct URB  *UrbLink;
-  struct URB_HCD_AREA  hca;
-};
-````
-
-
 ## -struct-fields
 
 
@@ -77,7 +61,7 @@ struct _URB_BULK_OR_INTERRUPT_TRANSFER {
 
 ### -field Hdr
 
-Pointer to a <a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a> structure that specifies the URB header information. <b>Hdr.Function</b> must be URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER, and <b>Hdr.Length</b> must be set to <code>sizeof(_URB_BULK_OR_INTERRUPT_TRANSFER)</code>.
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540409">_URB_HEADER</a> structure that specifies the URB header information. <b>Hdr.Function</b> must be URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER, and <b>Hdr.Length</b> must be set to <code>sizeof(_URB_BULK_OR_INTERRUPT_TRANSFER)</code>.
 
 
 ### -field PipeHandle
@@ -123,7 +107,7 @@ Is set to transfer data to a device. Setting this flag is equivalent to clearing
 </dl>
 </td>
 <td width="60%">
-Is set to direct the host controller not to return an error when it receives a packet from the device that is shorter than the maximum packet size for the endpoint. The maximum packet size for the endpoint is reported in the <b>wMaxPacketSize</b> member of the <a href="..\usbspec\ns-usbspec-_usb_endpoint_descriptor.md">USB_ENDPOINT_DESCRIPTOR</a> structure (endpoint descriptor). When  the host controller receives a packet shorter than <b>wMaxPacketSize</b> on a bulk or an interrupt endpoint, the host controller immediately stops requesting data from the endpoint and completes the transfer.  If the USBD_SHORT_TRANSFER_OK flag is not set, the host controller completes the transfer  with an error. 
+Is set to direct the host controller not to return an error when it receives a packet from the device that is shorter than the maximum packet size for the endpoint. The maximum packet size for the endpoint is reported in the <b>wMaxPacketSize</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539317">USB_ENDPOINT_DESCRIPTOR</a> structure (endpoint descriptor). When  the host controller receives a packet shorter than <b>wMaxPacketSize</b> on a bulk or an interrupt endpoint, the host controller immediately stops requesting data from the endpoint and completes the transfer.  If the USBD_SHORT_TRANSFER_OK flag is not set, the host controller completes the transfer  with an error. 
 
 This flag should not be set unless USBD_TRANSFER_DIRECTION_IN is also set. <b>Note</b>  On EHCI host controllers,  USBD_SHORT_TRANSFER_OK is ignored for bulk and interrupt endpoints.  Transfer of short packets on EHCI controllers does not result in an error condition. <p class="note">On UHCI and OHCI host controllers,   if USBD_SHORT_TRANSFER_OK is not set for a bulk or interrupt transfer, a short packet transfer halts the endpoint and an error code is returned for the transfer.  The client driver must resume the endpoint by submitting a URB_FUNCTION_SYNC_RESET_PIPE_AND_CLEAR_STALL request before submitting a transfer request to the endpoint.
 
@@ -157,11 +141,6 @@ Pointer to an MDL that describes a resident buffer or is <b>NULL</b> if a buffer
 Reserved. Do not use.
 
 
-### -field _URB
-
- 
-
-
 ### -field hca
 
 Reserved. Do not use.
@@ -173,7 +152,7 @@ Reserved. Do not use.
 
 Drivers can use the <b>UsbBuildInterruptOrBulkTransferRequest</b> service routine to format this URB. Buffers specified in <b>TransferBuffer</b> or described in <b>TransferBufferMDL </b>must be nonpageable. 
 
-In an <a href="..\usb\ns-usb-_urb.md">URB</a>, both <b>TransferBuffer</b> and <b>TransferBufferMDL</b> parameters can be non-NULL values, at the same time. In that case, the transfer buffer and the MDL pointed to <b>TransferBuffer</b> and <b>TransferBufferMDL</b> must point to the same  buffer.
+In an <a href="https://msdn.microsoft.com/library/windows/hardware/ff538923">URB</a>, both <b>TransferBuffer</b> and <b>TransferBufferMDL</b> parameters can be non-NULL values, at the same time. In that case, the transfer buffer and the MDL pointed to <b>TransferBuffer</b> and <b>TransferBufferMDL</b> must point to the same  buffer.
 
 The USB bus driver processes this URB at DISPATCH_LEVEL.
 
@@ -184,7 +163,10 @@ The reserved members of this structure must be treated as opaque and are reserve
 
 ## -see-also
 
-<a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538923">URB</a>
 
 
 
@@ -192,13 +174,8 @@ The reserved members of this structure must be treated as opaque and are reserve
 
 
 
-<a href="..\usb\ns-usb-_urb.md">URB</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540409">_URB_HEADER</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20_URB_BULK_OR_INTERRUPT_TRANSFER structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

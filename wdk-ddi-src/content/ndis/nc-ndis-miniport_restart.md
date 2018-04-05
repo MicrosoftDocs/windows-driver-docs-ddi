@@ -7,7 +7,7 @@ old-location: netvista\miniportrestart.htm
 old-project: netvista
 ms.assetid: 31a18040-2c66-4074-9ace-dd604b4bfe22
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: MINIPORT_RESTART, MiniportRestart, MiniportRestart callback function [Network Drivers Starting with Windows Vista], miniport_functions_ref_3ab5d6bf-6192-4c9b-af88-a5dd0efe4d37.xml, ndis/MiniportRestart, netvista.miniportrestart
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ndis.h
 api_name:
 -	MiniportRestart
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
 ---
@@ -55,20 +56,6 @@ The
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>MINIPORT_RESTART</b> type. For more
    information, see the following Examples section.</div><div> </div>
 
-## -prototype
-
-
-````
-MINIPORT_RESTART MiniportRestart;
-
-NDIS_STATUS MiniportRestart(
-  _In_ NDIS_HANDLE                       MiniportAdapterContext,
-  _In_ PNDIS_MINIPORT_RESTART_PARAMETERS MiniportRestartParameters
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -77,7 +64,7 @@ NDIS_STATUS MiniportRestart(
 ### -param MiniportAdapterContext [in]
 
 A handle to a context area that the miniport driver allocated in its 
-     <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a> function.
+     <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a> function.
      The miniport driver uses this context area to maintain state information for a miniport adapter.
 
 
@@ -93,7 +80,7 @@ A handle to a context area that the miniport driver allocated in its
 #### - MiniportRestartParameters [in]
 
 A pointer to an 
-     <a href="..\ndis\ns-ndis-_ndis_miniport_restart_parameters.md">
+     <a href="https://msdn.microsoft.com/4e005245-ed98-47fd-aaae-421940edf2dc">
      NDIS_MINIPORT_RESTART_PARAMETERS</a> structure that defines the restart parameters for the miniport
      adapter.
 
@@ -117,7 +104,7 @@ A pointer to an
 </td>
 <td width="60%">
 
-<a href="..\ndis\nc-ndis-miniport_restart.md">MiniportRestart</a> successfully restarted the flow of network data through the
+<a href="https://msdn.microsoft.com/31a18040-2c66-4074-9ace-dd604b4bfe22">MiniportRestart</a> successfully restarted the flow of network data through the
        miniport adapter.
 
 </td>
@@ -131,7 +118,7 @@ A pointer to an
 <td width="60%">
 <i>MiniportRestart</i> did not complete the restart operation and the operation
        will be completed asynchronously. The miniport driver must call the 
-       <a href="..\ndis\nf-ndis-ndismrestartcomplete.md">NdisMRestartComplete</a> function when
+       <a href="https://msdn.microsoft.com/library/windows/hardware/ff563665">NdisMRestartComplete</a> function when
        the operation is complete.
 
 </td>
@@ -144,7 +131,7 @@ A pointer to an
 </td>
 <td width="60%">
 
-<a href="..\ndis\nc-ndis-miniport_restart.md">MiniportRestart</a> failed because of insufficient resources.
+<a href="https://msdn.microsoft.com/31a18040-2c66-4074-9ace-dd604b4bfe22">MiniportRestart</a> failed because of insufficient resources.
 
 </td>
 </tr>
@@ -156,7 +143,7 @@ A pointer to an
 </td>
 <td width="60%">
 None of the preceding status values applies. In this situation, the driver should call the 
-       <a href="..\ndis\nf-ndis-ndiswriteerrorlogentry.md">NdisWriteErrorLogEntry</a> function
+       <a href="https://msdn.microsoft.com/library/windows/hardware/ff564663">NdisWriteErrorLogEntry</a> function
        with parameters that specify the reason for the failure.
 
 </td>
@@ -173,7 +160,7 @@ None of the preceding status values applies. In this situation, the driver shoul
 
 A driver specifies the 
     <i>MiniportRestart</i> entry point when it calls the 
-    <a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">
+    <a href="https://msdn.microsoft.com/bed68aa8-499d-41fd-997b-a46316913cc8">
     NdisMRegisterMiniportDriver</a> function.
 
 The miniport adapter that is specified by the 
@@ -192,24 +179,24 @@ Must complete any tasks that are required to resume send and receive operations.
 <li>
 Optionally modifies the restart attributes that are specified in the 
       <b>RestartAttributes</b> member of the 
-      <a href="..\ndis\ns-ndis-_ndis_miniport_restart_parameters.md">
+      <a href="https://msdn.microsoft.com/4e005245-ed98-47fd-aaae-421940edf2dc">
       NDIS_MINIPORT_RESTART_PARAMETERS</a> structure. If the pointer in 
       <b>RestartAttributes</b> is <b>NULL</b>, the miniport driver should not modify or add to the restart attributes
       list. If the pointer in 
       <b>RestartAttributes</b> is non-<b>NULL</b>, it points to an 
-      <a href="..\ndis\ns-ndis-_ndis_restart_attributes.md">NDIS_RESTART_ATTRIBUTES</a> structure.
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff567255">NDIS_RESTART_ATTRIBUTES</a> structure.
       If a miniport driver does not restart, it should not modify any attributes.
 
 </li>
 <li>
 Can provide status indications with the 
-      <a href="..\ndis\nf-ndis-ndismindicatestatusex.md">
+      <a href="https://msdn.microsoft.com/df857349-4ae1-470b-b41a-ff014f40b79b">
       NdisMIndicateStatusEx</a> function.
 
 </li>
 <li>
 Should handle status requests in the 
-      <a href="..\ndis\nc-ndis-miniport_oid_request.md">MiniportOidRequest</a> function.
+      <a href="https://msdn.microsoft.com/733d84f5-c1d4-42a0-a59b-4ba50247f165">MiniportOidRequest</a> function.
 
 </li>
 </ul>
@@ -219,9 +206,9 @@ If a miniport driver modifies the list of restart attributes, the miniport drive
 <li>
 Can add new media-specific attributes to the list of restart attributes. In this situation, the
       miniport driver must allocate a new 
-      <a href="..\ndis\ns-ndis-_ndis_restart_attributes.md">
+      <a href="https://msdn.microsoft.com/1f9f4b91-bd1f-4daa-ac98-6372bf55c2ab">
       NDIS_RESTART_ATTRIBUTES</a> structure--for example, with the 
-      <a href="..\ndis\nf-ndis-ndisallocatememorywithtagpriority.md">
+      <a href="https://msdn.microsoft.com/aac4049c-a876-4bbb-ba3b-fa36c299e1c7">
       NdisAllocateMemoryWithTagPriority</a> function--and provide memory space for the new attributes.
       After propagating the restart attributes to overlying drivers, NDIS frees the attributes memory for the
       miniport drivers.
@@ -230,20 +217,20 @@ Can add new media-specific attributes to the list of restart attributes. In this
 <li>
 Can modify the media-specific attributes in the list of restart attributes. If the miniport driver
       requires more memory space, it can free an NDIS_RESTART_ATTRIBUTES structure with the 
-      <a href="..\ndis\nf-ndis-ndisfreememory.md">NdisFreeMemory</a> function and allocate a
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff562577">NdisFreeMemory</a> function and allocate a
       new structure to contain the modified information. After propagating the restart attributes to
       overlying drivers, NDIS frees the attributes memory for the miniport drivers.
 
 </li>
 <li>
 Can modify any field in the 
-      <a href="..\ndis\ns-ndis-_ndis_restart_general_attributes.md">
+      <a href="https://msdn.microsoft.com/f67bd2fe-4553-4b1a-8d39-26777bcc60e0">
       NDIS_RESTART_GENERAL_ATTRIBUTES</a> structure. When NDIS provides a non-<b>NULL</b> pointer in the 
       <b>RestartAttributes</b> member of the 
-      <a href="..\ndis\ns-ndis-_ndis_miniport_restart_parameters.md">
+      <a href="https://msdn.microsoft.com/4e005245-ed98-47fd-aaae-421940edf2dc">
       NDIS_MINIPORT_RESTART_PARAMETERS</a> structure, the attributes list contains one entry in which the 
       <b>Oid</b> member in the 
-      <a href="..\ndis\ns-ndis-_ndis_restart_attributes.md">NDIS_RESTART_ATTRIBUTES</a> structure
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff567255">NDIS_RESTART_ATTRIBUTES</a> structure
       is 
       <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-miniport-restart-attributes">
       OID_GEN_MINIPORT_RESTART_ATTRIBUTES</a> and the 
@@ -252,12 +239,12 @@ Can modify any field in the
 </li>
 <li>
 Should make sure that the 
-      <a href="..\ndis\ns-ndis-_ndis_restart_general_attributes.md">
+      <a href="https://msdn.microsoft.com/f67bd2fe-4553-4b1a-8d39-26777bcc60e0">
       NDIS_RESTART_GENERAL_ATTRIBUTES</a> structure contains the correct information. To make sure that the
       NDIS_RESTART_GENERAL_ATTRIBUTES structure contains the required information, you should first determine
       the version of the structure by checking the 
       <b>Revision</b> member in the 
-      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure that is
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure that is
       specified in the 
       <b>Header</b> member of the NDIS_RESTART_GENERAL_ATTRIBUTES structure.
 
@@ -271,7 +258,7 @@ After the miniport driver successfully restarts the send and receive operations,
     <i>MiniportRestart</i>, the restart operation is complete. If the driver returns
     NDIS_STATUS_PENDING, it can continue restart operations. The restart operation is complete after the
     driver calls the 
-    <a href="..\ndis\nf-ndis-ndismrestartcomplete.md">NdisMRestartComplete</a> function. After
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff563665">NdisMRestartComplete</a> function. After
     the restart operation is complete, the miniport adapter is in the 
     <i>Running</i> state.
 
@@ -332,69 +319,67 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_restart_attributes.md">NDIS_RESTART_ATTRIBUTES</a>
+<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismindicatestatusex.md">NdisMIndicateStatusEx</a>
+<a href="https://msdn.microsoft.com/733d84f5-c1d4-42a0-a59b-4ba50247f165">MiniportOidRequest</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiswriteerrorlogentry.md">NdisWriteErrorLogEntry</a>
+<a href="https://msdn.microsoft.com/047241a5-6f52-4a82-a334-8508f0de5e1a">MiniportPause</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_oid_request.md">MiniportOidRequest</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismrestartcomplete.md">NdisMRestartComplete</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_miniport_restart_parameters.md">
+<a href="https://msdn.microsoft.com/4e005245-ed98-47fd-aaae-421940edf2dc">
    NDIS_MINIPORT_RESTART_PARAMETERS</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_pause.md">MiniportPause</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567255">NDIS_RESTART_ATTRIBUTES</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisfreememory.md">NdisFreeMemory</a>
+<a href="https://msdn.microsoft.com/f67bd2fe-4553-4b1a-8d39-26777bcc60e0">
+   NDIS_RESTART_GENERAL_ATTRIBUTES</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisallocatememorywithtagpriority.md">
+<a href="https://msdn.microsoft.com/aac4049c-a876-4bbb-ba3b-fa36c299e1c7">
    NdisAllocateMemoryWithTagPriority</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562577">NdisFreeMemory</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563600">NdisMIndicateStatusEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563654">NdisMRegisterMiniportDriver</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563665">NdisMRestartComplete</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564663">NdisWriteErrorLogEntry</a>
 
 
 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-miniport-restart-attributes">
    OID_GEN_MINIPORT_RESTART_ATTRIBUTES</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_restart_general_attributes.md">
-   NDIS_RESTART_GENERAL_ATTRIBUTES</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20MINIPORT_RESTART callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

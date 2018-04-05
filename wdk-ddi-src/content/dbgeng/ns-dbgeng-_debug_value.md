@@ -7,7 +7,7 @@ old-location: debugger\debug_value.htm
 old-project: debugger
 ms.assetid: 568469ad-79c4-4437-aefe-a29e77e5143a
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/26/2018
 ms.keywords: "*PDEBUG_VALUE, DEBUG_VALUE, DEBUG_VALUE structure [Windows Debugging], PDEBUG_VALUE, PDEBUG_VALUE structure pointer [Windows Debugging], Structures_2486f31c-2a25-41eb-ac3f-9cc1d62dd2e0.xml, _DEBUG_VALUE, dbgeng/DEBUG_VALUE, dbgeng/PDEBUG_VALUE, debugger.debug_value"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	dbgEng.h
 api_name:
 -	DEBUG_VALUE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DEBUG_VALUE, *PDEBUG_VALUE
 ---
@@ -50,46 +51,6 @@ req.typenames: DEBUG_VALUE, *PDEBUG_VALUE
 
 
 The DEBUG_VALUE structure holds register and expression values.
-
-
-## -syntax
-
-
-````
-typedef struct _DEBUG_VALUE {
-  union {
-    UCHAR   I8;
-    USHORT  I16;
-    ULONG   I32;
-    struct {
-      ULONG64 I64;
-      BOOL    Nat;
-    };
-    float   F32;
-    double  F64;
-    UCHAR   F80Bytes[10];
-    UCHAR   F82Bytes[11];
-    UCHAR   F128Bytes[16];
-    UCHAR   VI8[16];
-    USHORT  VI16[8];
-    ULONG   VI32[4];
-    ULONG64 VI64[2];
-    float   VF32[4];
-    double  VF64[2];
-    struct {
-      ULONG LowPart;
-      ULONG HighPart;
-    } I64Parts32;
-    struct {
-      ULONG64 LowPart;
-      LONG64  HighPart;
-    } F128Parts64;
-    UCHAR   RawBytes[24];
-  };
-  ULONG TailOfRawBytes;
-  ULONG Type;
-}  DEBUG_VALUE, *PDEBUG_VALUE;
-````
 
 
 ## -struct-fields

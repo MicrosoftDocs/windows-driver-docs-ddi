@@ -7,7 +7,7 @@ old-location: display\displayid_detailed_timing_type_i_stereo_mode.htm
 old-project: display
 ms.assetid: 7e40ddf4-0098-4ea6-ab93-17515849b6cd
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: DIDDT1_Dependent, DIDDT1_Monoscopic, DIDDT1_Stereo, DmEnums_011fdd6c-ba90-40f7-ad26-d1fe075d21c3.xml, _DISPLAYID_DETAILED_TIMING_TYPE_I_STEREO_MODE, _DISPLAYID_DETAILED_TIMING_TYPE_I_STEREO_MODE enumeration [Display Devices], d3dkmdt/DIDDT1_Dependent, d3dkmdt/DIDDT1_Monoscopic, d3dkmdt/DIDDT1_Stereo, d3dkmdt/_DISPLAYID_DETAILED_TIMING_TYPE_I_STEREO_MODE, display.displayid_detailed_timing_type_i_stereo_mode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmdt.h
 api_name:
 -	_DISPLAYID_DETAILED_TIMING_TYPE_I_STEREO_MODE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -50,19 +51,6 @@ req.typenames:
 
 
 The DISPLAYID_DETAILED_TIMING_TYPE_I_STEREO_MODE enumeration indicates the display device's stereo vision mode.
-
-
-## -syntax
-
-
-````
-enum _DISPLAYID_DETAILED_TIMING_TYPE_I_STEREO_MODE {
-  DIDDT1_Monoscopic  = 0, 
-  DIDDT1_Stereo      = 1, 
-  DIDDT1_Dependent   = 2 
-
-};
-````
 
 
 ## -enum-fields

@@ -7,7 +7,7 @@ old-location: display\evt_idd_cx_monitor_opm_configure_protected_output.htm
 old-project: display
 ms.assetid: 5314c5e3-bbc7-4179-bb59-4bd58110aee1
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: EVT_IDD_CX_MONITOR_OPM_CONFIGURE_PROTECTED_OUTPUT, EvtIddCxMonitorOpmConfigureProtectedOutput, EvtIddCxMonitorOpmConfigureProtectedOutput callback function [Display Devices], PFN_IDD_CX_MONITOR_OPM_CONFIGURE_PROTECTED_OUTPUT, PFN_IDD_CX_MONITOR_OPM_CONFIGURE_PROTECTED_OUTPUT callback function pointer [Display Devices], display.evt_idd_cx_monitor_opm_configure_protected_output, iddcx/EvtIddCxMonitorOpmConfigureProtectedOutput
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	iddcx.h
 api_name:
 -	PFN_IDD_CX_MONITOR_OPM_CONFIGURE_PROTECTED_OUTPUT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WCS_PROFILE_MANAGEMENT_SCOPE
 ---
@@ -50,22 +51,6 @@ req.typenames: WCS_PROFILE_MANAGEMENT_SCOPE
 
 
 <b>EVT_IDD_CX_MONITOR_OPM_CONFIGURE_PROTECTED_OUTPUT</b> is called by the OS to configure the protected output.
-
-
-## -prototype
-
-
-````
-EVT_IDD_CX_MONITOR_OPM_CONFIGURE_PROTECTED_OUTPUT EvtIddCxMonitorOpmConfigureProtectedOutput;
-
-NTSTATUS EvtIddCxMonitorOpmConfigureProtectedOutput(
-  _In_       IDDCX_OPMCTX                             OpmCxtObject,
-  _In_ const IDARG_IN_OPM_CONFIGURE_PROTECTED_OUTPUT* pInArgs
-)
-{ ... }
-
-typedef EVT_IDD_CX_MONITOR_OPM_CONFIGURE_PROTECTED_OUTPUT PFN_IDD_CX_MONITOR_OPM_CONFIGURE_PROTECTED_OUTPUT;
-````
 
 
 ## -parameters

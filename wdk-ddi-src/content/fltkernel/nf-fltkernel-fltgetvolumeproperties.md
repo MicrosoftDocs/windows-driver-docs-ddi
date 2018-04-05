@@ -7,7 +7,7 @@ old-location: ifsk\fltgetvolumeproperties.htm
 old-project: ifsk
 ms.assetid: 1e975626-fa47-456f-a2a9-48506c67cbe5
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FltApiRef_e_to_o_3afcdc71-3007-478e-8699-a1480ca118b8.xml, FltGetVolumeProperties, FltGetVolumeProperties routine [Installable File System Drivers], fltkernel/FltGetVolumeProperties, ifsk.fltgetvolumeproperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	fltmgr.sys
 api_name:
 -	FltGetVolumeProperties
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
@@ -50,19 +51,6 @@ req.typenames: EXpsFontRestriction
 
 
 The <b>FltGetVolumeProperties</b> routine returns volume property information for the given volume. 
-
-
-## -syntax
-
-
-````
-NTSTATUS FltGetVolumeProperties(
-  _In_  PFLT_VOLUME            Volume,
-  _Out_ PFLT_VOLUME_PROPERTIES VolumeProperties,
-  _In_  ULONG                  Length,
-  _Out_ PULONG                 LengthReturned
-);
-````
 
 
 ## -parameters
@@ -113,7 +101,7 @@ Size, in bytes, of the buffer pointed to by the <i>VolumeProperties</i> paramete
 </dl>
 </td>
 <td width="60%">
-The buffer that the <i>VolumeProperties</i> parameter points to is large enough to hold the fixed portion of the <a href="..\fltkernel\ns-fltkernel-_flt_volume_properties.md">FLT_VOLUME_PROPERTIES</a> structure but not the <b>FileSystemDriverName</b>, <b>FileSystemDeviceName</b>, or <b>RealDeviceName</b> members. In this case, only the fixed portion of the volume information is returned in the buffer pointed to by the <i>VolumeProperties</i> parameter. The <i>LengthReturned</i> parameter receives the actual length, in bytes, of data returned. This is a warning code. 
+The buffer that the <i>VolumeProperties</i> parameter points to is large enough to hold the fixed portion of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544823">FLT_VOLUME_PROPERTIES</a> structure but not the <b>FileSystemDriverName</b>, <b>FileSystemDeviceName</b>, or <b>RealDeviceName</b> members. In this case, only the fixed portion of the volume information is returned in the buffer pointed to by the <i>VolumeProperties</i> parameter. The <i>LengthReturned</i> parameter receives the actual length, in bytes, of data returned. This is a warning code. 
 
 </td>
 </tr>
@@ -138,24 +126,22 @@ The buffer that the <i>VolumeProperties</i> parameter points to is not large eno
 
 
 
-<b>FltGetVolumeProperties</b> only returns information that can safely be queried during the mount process without risk of a system deadlock. Therefore, a minifilter driver commonly calls this routine from a post-mount callback function or an <i>InstanceSetupCallback</i> (<a href="..\fltkernel\nc-fltkernel-pflt_instance_setup_callback.md">PFLT_INSTANCE_SETUP_CALLBACK</a>) routine to determine whether to attach to a given volume. 
+<b>FltGetVolumeProperties</b> only returns information that can safely be queried during the mount process without risk of a system deadlock. Therefore, a minifilter driver commonly calls this routine from a post-mount callback function or an <i>InstanceSetupCallback</i> (<a href="https://msdn.microsoft.com/library/windows/hardware/ff551096">PFLT_INSTANCE_SETUP_CALLBACK</a>) routine to determine whether to attach to a given volume. 
 
 
 
 
 ## -see-also
 
-<a href="..\fltkernel\nc-fltkernel-pflt_instance_setup_callback.md">PFLT_INSTANCE_SETUP_CALLBACK</a>
 
 
 
-<a href="..\fltkernel\ns-fltkernel-_flt_volume_properties.md">FLT_VOLUME_PROPERTIES</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544823">FLT_VOLUME_PROPERTIES</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551096">PFLT_INSTANCE_SETUP_CALLBACK</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltGetVolumeProperties routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	poscx.h
 api_name:
 -	PosCxRetainDevice
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: POS_CX_EVENT_PRIORITY
 req.product: Windows 10 or later.
@@ -51,17 +52,6 @@ req.product: Windows 10 or later.
 
 
 PosCxRetainDevice is called to extend the ownership of the device.
-
-
-## -syntax
-
-
-````
-NTSTATUS PosCxRetainDevice(
-  _In_ WDFDEVICE  device,
-  _In_ WDFREQUEST request
-);
-````
 
 
 ## -parameters

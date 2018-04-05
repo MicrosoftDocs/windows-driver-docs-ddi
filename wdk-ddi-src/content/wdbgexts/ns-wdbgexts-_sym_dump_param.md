@@ -7,7 +7,7 @@ old-location: debugger\ig_dump_symbol_info.htm
 old-project: debugger
 ms.assetid: 5a00f401-89e5-4863-ab14-a8ab7eec1869
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/26/2018
 ms.keywords: "*PSYM_DUMP_PARAM, PSYM_DUMP_PARAM, PSYM_DUMP_PARAM structure pointer [Windows Debugging], SYM_DUMP_PARAM, SYM_DUMP_PARAM structure [Windows Debugging], WdbgExts_Ref_22e264c9-ed41-4257-a192-7b3f6d4ffdea.xml, _SYM_DUMP_PARAM, debugger.ig_dump_symbol_info, wdbgexts/PSYM_DUMP_PARAM, wdbgexts/SYM_DUMP_PARAM"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	wdbgexts.h
 api_name:
 -	SYM_DUMP_PARAM
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SYM_DUMP_PARAM, *PSYM_DUMP_PARAM
 req.product: Windows 10 or later.
@@ -50,37 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The IG_DUMP_SYMBOL_INFO <a href="..\wdbgexts\nc-wdbgexts-pwindbg_ioctl_routine.md">Ioctl</a> operation provides information about the type of a symbol.  When calling <b>Ioctl</b> with <i>IoctlType</i> set to IG_DUMP_SYMBOL_INFO, <i>IpvData</i> should contain an instance of the SYM_DUMP_PARAM structure.
-
-
-## -syntax
-
-
-````
-typedef struct _SYM_DUMP_PARAM {
-  ULONG                    size;
-  PUCHAR                   sName;
-  ULONG                    Options;
-  ULONG64                  addr;
-  PFIELD_INFO              listLink;
-  union {
-    PVOID Context;
-    PVOID pBuffer;
-  };
-  PSYM_DUMP_FIELD_CALLBACK CallbackRoutine;
-  ULONG                    nFields;
-  PFIELD_INFO              Fields;
-  ULONG64                  ModBase;
-  ULONG                    TypeId;
-  ULONG                    TypeSize;
-  ULONG                    BufferSize;
-  ULONG                    fPointer  :2;
-  ULONG                    fArray  :1;
-  ULONG                    fStruct  :1;
-  ULONG                    fConstant  :1;
-  ULONG                    Reserved  :27;
-} SYM_DUMP_PARAM, *PSYM_DUMP_PARAM;
-````
+The IG_DUMP_SYMBOL_INFO <a href="https://msdn.microsoft.com/library/windows/hardware/ff551084">Ioctl</a> operation provides information about the type of a symbol.  When calling <b>Ioctl</b> with <i>IoctlType</i> set to IG_DUMP_SYMBOL_INFO, <i>IpvData</i> should contain an instance of the SYM_DUMP_PARAM structure.
 
 
 ## -struct-fields
@@ -110,7 +81,7 @@ Specifies the address of the symbol.
 
 ### -field listLink
 
-Specifies the field that contains the next item in a linked list.  If the symbol is an entry in a linked list, this <b>Ioctl</b> operation can iterate over the items in the list using the field specified here as the pointer to the next item in the list.  The type of this structure is <a href="..\wdbgexts\ns-wdbgexts-_field_info.md">FIELD_INFO</a>.
+Specifies the field that contains the next item in a linked list.  If the symbol is an entry in a linked list, this <b>Ioctl</b> operation can iterate over the items in the list using the field specified here as the pointer to the next item in the list.  The type of this structure is <a href="https://msdn.microsoft.com/library/windows/hardware/ff545316">FIELD_INFO</a>.
 
 The callback function specified in the <b>fieldCallBack</b> member of this structure is called, during this <b>Ioctl</b> operation, for each item in the list.  When it is called, it is passed this <b>linkList</b> structure with the members filled in for the list entry along with the contents of the <b>Context</b> member.
 
@@ -129,7 +100,7 @@ Specifies the number of entries in the <b>Fields</b> array.
 
 ### -field Fields
 
-Specifies an array of <a href="..\wdbgexts\ns-wdbgexts-_field_info.md">FIELD_INFO</a> structures that control the behavior of this operation for individual members of the specified symbol. See FIELD_INFO for details.
+Specifies an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff545316">FIELD_INFO</a> structures that control the behavior of this operation for individual members of the specified symbol. See FIELD_INFO for details.
 
 
 ### -field ModBase
@@ -189,7 +160,7 @@ Specifies a buffer that receives information about the symbol.  This buffer is o
 
 
 
-The parameters for the IG_DUMP_SYMBOL_INFO <a href="..\wdbgexts\nc-wdbgexts-pwindbg_ioctl_routine.md">Ioctl</a> operation are the members of the SYM_DUMP_PARAM structure.
+The parameters for the IG_DUMP_SYMBOL_INFO <a href="https://msdn.microsoft.com/library/windows/hardware/ff551084">Ioctl</a> operation are the members of the SYM_DUMP_PARAM structure.
 
 This <b>Ioctl</b> operation looks up the module information for the symbol, loading module symbols if possible.
 
@@ -198,7 +169,7 @@ If <b>nFields</b> is zero and DBG_DUMP_CALL_FOR_EACH is set in <b>Options</b>, t
 If <b>nFields</b> is non-zero and DBG_DUMP_CALL_FOR_EACH is set in <b>Options</b>, callbacks are only made for those fields matching the <b>fName</b> member of one of the <b>Fields</b> elements.  If a field matches a <b>fName</b> member and the <b>fieldCallBack</b> member is not <b>NULL</b>, the callback function in  <b>fieldCallBack</b> is called; if it is <b>NULL</b>, the callback function in <b>CallbackRoutine</b> is called instead.
 
 <h3><a id="ddk_dbg_dump_xxx_dbx"></a><a id="DDK_DBG_DUMP_XXX_DBX"></a></h3>
-The DBG_DUMP_<i>XXX</i> bit flags are used by the <b>Options</b> member of the SYM_DUMP_PARAM structure to control the behavior of the <b>IG_DUMP_SYMBOL_INFO</b><a href="..\wdbgexts\nc-wdbgexts-pwindbg_ioctl_routine.md">Ioctl</a> operation.
+The DBG_DUMP_<i>XXX</i> bit flags are used by the <b>Options</b> member of the SYM_DUMP_PARAM structure to control the behavior of the <b>IG_DUMP_SYMBOL_INFO</b><a href="https://msdn.microsoft.com/library/windows/hardware/ff551084">Ioctl</a> operation.
 
 The following flags can be present.
 
@@ -363,7 +334,7 @@ Recurse through nested structures; but do not follow pointers.
 In addition, the result of the macro DBG_DUMP_RECUR_LEVEL(<i>Level</i>) can be added to the bit-set to specify how deep into structures to recurse.  <i>Level</i> can be a number between 0 and 15.
 
 <h3><a id="ddk_dbg_dump_field_xxx_dbx"></a><a id="DDK_DBG_DUMP_FIELD_XXX_DBX"></a></h3>
-The DBG_DUMP_FIELD_<i>XXX</i> bit flags are used by the <b>fOptions</b> member of the <a href="..\wdbgexts\ns-wdbgexts-_field_info.md">FIELD_INFO</a> structure to control the behavior of the <b>IG_DUMP_SYMBOL_INFO</b><a href="..\wdbgexts\nc-wdbgexts-pwindbg_ioctl_routine.md">Ioctl</a> operation.
+The DBG_DUMP_FIELD_<i>XXX</i> bit flags are used by the <b>fOptions</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff545316">FIELD_INFO</a> structure to control the behavior of the <b>IG_DUMP_SYMBOL_INFO</b><a href="https://msdn.microsoft.com/library/windows/hardware/ff551084">Ioctl</a> operation.
 
 The following flags can be present.
 
@@ -484,15 +455,6 @@ In addition, the result of the macro DBG_DUMP_RECUR_LEVEL(<i>Level</i>) can be a
 
 ## -see-also
 
-<a href="..\wdbgexts\ns-wdbgexts-_field_info.md">FIELD_INFO</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550910">IG_DUMP_SYMBOL_INFO Error Codes</a>
-
-
-
-<a href="..\wdbgexts\nc-wdbgexts-pwindbg_ioctl_routine.md">Ioctl</a>
 
 
 
@@ -500,9 +462,16 @@ In addition, the result of the macro DBG_DUMP_RECUR_LEVEL(<i>Level</i>) can be a
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545316">FIELD_INFO</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550910">IG_DUMP_SYMBOL_INFO Error Codes</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551084">Ioctl</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20SYM_DUMP_PARAM structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

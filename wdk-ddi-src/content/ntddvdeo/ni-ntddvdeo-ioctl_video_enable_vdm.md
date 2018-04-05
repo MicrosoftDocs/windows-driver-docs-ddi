@@ -7,7 +7,7 @@ old-location: display\ioctl_video_enable_vdm.htm
 old-project: display
 ms.assetid: 45a5ab64-1b34-4f48-bbe3-285016e9c16e
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_VIDEO_ENABLE_VDM, IOCTL_VIDEO_ENABLE_VDM control code [Display Devices], Video_IOCTLs_d0e75fac-0604-49f5-9293-3455659ab821.xml, display.ioctl_video_enable_vdm, ntddvdeo/IOCTL_VIDEO_ENABLE_VDM
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,18 +38,14 @@ api_location:
 -	Ntddvdeo.h
 api_name:
 -	IOCTL_VIDEO_ENABLE_VDM
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TAPE_WRITE_MARKS, *PTAPE_WRITE_MARKS
 ---
 
 # IOCTL_VIDEO_ENABLE_VDM IOCTL
 
-
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -127,7 +123,7 @@ Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
 
-For more information, see [XREF-LINK:NTSTATUS Values].
+For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ntstatus-values).
 
 
 

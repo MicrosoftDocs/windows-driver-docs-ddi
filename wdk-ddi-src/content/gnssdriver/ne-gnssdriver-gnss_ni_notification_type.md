@@ -38,7 +38,8 @@ api_location:
 -	gnssdriver.h
 api_name:
 -	GNSS_NI_NOTIFICATION_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GNSS_NI_NOTIFICATION_TYPE
 ---
@@ -50,20 +51,6 @@ req.typenames: GNSS_NI_NOTIFICATION_TYPE
 
 
 GNSS_NI_NOTIFICATION_TYPE enumerates network-initialized (NI) notification types.
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  GNSS_NI_NoNotifyNoVerify             = 0x01,
-  GNSS_NI_NotifyOnly                   = 0x02,
-  GNSS_NI_NotifyVerifyDefaultAllow     = 0x03,
-  GNSS_NI_NotifyVerifyDefaultNotAllow  = 0x04,
-  GNSS_NI_PrivacyOverride              = 0x05
-} GNSS_NI_NOTIFICATION_TYPE;
-````
 
 
 ## -enum-fields

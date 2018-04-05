@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KS_COMPRESSION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KS_COMPRESSION, *PKS_COMPRESSION
 ---
@@ -50,18 +51,6 @@ req.typenames: KS_COMPRESSION, *PKS_COMPRESSION
 
 
 The KS_COMPRESSION structure defines the compression of frames on an output pin.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  ULONG RatioNumerator;
-  ULONG RatioDenominator;
-  ULONG RatioConstantMargin;
-} KS_COMPRESSION, *PKS_COMPRESSION;
-````
 
 
 ## -struct-fields

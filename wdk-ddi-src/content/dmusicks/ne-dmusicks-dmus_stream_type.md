@@ -7,7 +7,7 @@ old-location: audio\dmus_stream_type.htm
 old-project: audio
 ms.assetid: C4218B83-6D6D-4F3B-A90F-B92D08D80E24
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 3/19/2018
 ms.keywords: DMUS_STREAM_MIDI_CAPTURE, DMUS_STREAM_MIDI_INVALID, DMUS_STREAM_MIDI_RENDER, DMUS_STREAM_TYPE, DMUS_STREAM_TYPE enumeration [Audio Devices], DMUS_STREAM_WAVE_SINK, audio.dmus_stream_type, dmusicks/DMUS_STREAM_MIDI_CAPTURE, dmusicks/DMUS_STREAM_MIDI_INVALID, dmusicks/DMUS_STREAM_MIDI_RENDER, dmusicks/DMUS_STREAM_TYPE, dmusicks/DMUS_STREAM_WAVE_SINK
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Dmusicks.h
 api_name:
 -	DMUS_STREAM_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DMUS_STREAM_TYPE
 ---
@@ -50,19 +51,6 @@ req.typenames: DMUS_STREAM_TYPE
 
 
 Used for a DirectMusic synthesizer device. 
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  DMUS_STREAM_MIDI_INVALID  = -1,
-  DMUS_STREAM_MIDI_RENDER   = 0,
-  DMUS_STREAM_MIDI_CAPTURE,
-  DMUS_STREAM_WAVE_SINK
-} DMUS_STREAM_TYPE;
-````
 
 
 ## -enum-fields

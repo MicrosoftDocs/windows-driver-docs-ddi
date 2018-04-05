@@ -7,7 +7,7 @@ old-location: display\d3dkmtsetallocationpriority.htm
 old-project: display
 ms.assetid: d5ad6288-6123-4665-a48e-bbae856cc160
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMTSetAllocationPriority, D3DKMTSetAllocationPriority function [Display Devices], OpenGL_Functions_dc77467a-7ec3-4be9-96cd-8bedb5beb948.xml, d3dkmthk/D3DKMTSetAllocationPriority, display.d3dkmtsetallocationpriority
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,8 @@ api_location:
 -	API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
 -	D3DKMTSetAllocationPriority
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_DRIVERVERSION
 ---
@@ -53,16 +54,6 @@ req.typenames: D3DKMT_DRIVERVERSION
 
 
 The <b>D3DKMTSetAllocationPriority</b> function sets the priority level of a resource or list of allocations.
-
-
-## -syntax
-
-
-````
-NTSTATUS APIENTRY D3DKMTSetAllocationPriority(
-  _In_ const D3DKMT_SETALLOCATIONPRIORITY *pData
-);
-````
 
 
 ## -parameters
@@ -79,7 +70,7 @@ TBD
 
 #### - pData [in]
 
-A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_setallocationpriority.md">D3DKMT_SETALLOCATIONPRIORITY</a> structure that contains information for setting the priority level of a resource or list of allocations.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548262">D3DKMT_SETALLOCATIONPRIORITY</a> structure that contains information for setting the priority level of a resource or list of allocations.
 
 
 ## -returns
@@ -166,13 +157,11 @@ The following code example demonstrates how an OpenGL ICD can use <b>D3DKMTSetAl
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_setallocationpriority.md">D3DKMT_SETALLOCATIONPRIORITY</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548262">D3DKMT_SETALLOCATIONPRIORITY</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMTSetAllocationPriority function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

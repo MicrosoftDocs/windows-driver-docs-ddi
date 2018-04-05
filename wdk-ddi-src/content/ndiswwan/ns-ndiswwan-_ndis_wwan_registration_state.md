@@ -7,7 +7,7 @@ old-location: netvista\ndis_wwan_registration_state.htm
 old-project: netvista
 ms.assetid: 3e38880f-b242-400a-babf-531c8daf7a19
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: "*PNDIS_WWAN_REGISTRATION_STATE, NDIS_WWAN_REGISTRATION_STATE, NDIS_WWAN_REGISTRATION_STATE structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_REGISTRATION_STATE, PNDIS_WWAN_REGISTRATION_STATE structure pointer [Network Drivers Starting with Windows Vista], WwanRef_7f854298-d100-4b4c-8748-a7eb07c9ac38.xml, _NDIS_WWAN_REGISTRATION_STATE, ndiswwan/NDIS_WWAN_REGISTRATION_STATE, ndiswwan/PNDIS_WWAN_REGISTRATION_STATE, netvista.ndis_wwan_registration_state"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ndiswwan.h
 api_name:
 -	NDIS_WWAN_REGISTRATION_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_WWAN_REGISTRATION_STATE, *PNDIS_WWAN_REGISTRATION_STATE
 ---
@@ -50,18 +51,6 @@ req.typenames: NDIS_WWAN_REGISTRATION_STATE, *PNDIS_WWAN_REGISTRATION_STATE
 
 
 The NDIS_WWAN_REGISTRATION_STATE structure represents the registration state of the MB device.
-
-
-## -syntax
-
-
-````
-typedef struct _NDIS_WWAN_REGISTRATION_STATE {
-  NDIS_OBJECT_HEADER      Header;
-  WWAN_STATUS             uStatus;
-  WWAN_REGISTRATION_STATE RegistrationState;
-} NDIS_WWAN_REGISTRATION_STATE, *PNDIS_WWAN_REGISTRATION_STATE;
-````
 
 
 ## -struct-fields
@@ -117,7 +106,7 @@ sizeof(NDIS_WWAN_REGISTRATION_STATE)
  
 
 For more information about these members, see 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field uStatus
@@ -270,23 +259,21 @@ The device is busy and unable to change the registration mode. This scenario can
 ### -field RegistrationState
 
 A formatted 
-     <a href="..\wwan\ns-wwan-_wwan_registration_state.md">WWAN_REGISTRATION_STATE</a> object that
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571231">WWAN_REGISTRATION_STATE</a> object that
      represents the registration state of the MB device.
 
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_registration_state.md">WWAN_REGISTRATION_STATE</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571231">WWAN_REGISTRATION_STATE</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_WWAN_REGISTRATION_STATE structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

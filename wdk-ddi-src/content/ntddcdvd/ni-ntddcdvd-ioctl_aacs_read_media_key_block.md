@@ -7,7 +7,7 @@ old-location: storage\ioctl_aacs_read_media_key_block.htm
 old-project: storage
 ms.assetid: 08852f41-1836-4c55-bf6f-0246caa2c8bd
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_AACS_READ_MEDIA_KEY_BLOCK, IOCTL_AACS_READ_MEDIA_KEY_BLOCK control code [Storage Devices], k307_0e90884e-4c78-4fd5-b30c-eed14d73ba5e.xml, ntddcdvd/IOCTL_AACS_READ_MEDIA_KEY_BLOCK, storage.ioctl_aacs_read_media_key_block
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,18 +38,14 @@ api_location:
 -	Ntddcdvd.h
 api_name:
 -	IOCTL_AACS_READ_MEDIA_KEY_BLOCK
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DVD_STRUCTURE_FORMAT, *PDVD_STRUCTURE_FORMAT
 ---
 
 # IOCTL_AACS_READ_MEDIA_KEY_BLOCK IOCTL
 
-
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 

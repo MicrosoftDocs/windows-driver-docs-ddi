@@ -7,7 +7,7 @@ old-location: netvista\ndisopenfile.htm
 old-project: netvista
 ms.assetid: 48d54092-d055-449c-a409-829213db2989
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: NdisOpenFile, NdisOpenFile function [Network Drivers Starting with Windows Vista], ndis/NdisOpenFile, ndis_file_ref_0931368e-111b-4b25-a42d-12d0cc5d9d44.xml, netvista.ndisopenfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	ndis.dll
 api_name:
 -	NdisOpenFile
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
@@ -52,20 +53,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 
 The
   <b>NdisOpenFile</b> function returns a handle for an opened file.
-
-
-## -syntax
-
-
-````
-VOID NdisOpenFile(
-  _Out_ PNDIS_STATUS          Status,
-  _Out_ PNDIS_HANDLE          FileHandle,
-  _Out_ PUINT                 FileLength,
-  _In_  PNDIS_STRING          FileName,
-  _In_  NDIS_PHYSICAL_ADDRESS HighestAcceptableAddress
-);
-````
 
 
 ## -parameters
@@ -128,7 +115,7 @@ A pointer to a caller-supplied variable in which this function writes the number
 A pointer to an NDIS_STRING type containing an initialized counted string, in the system-default
      character set, naming the file to be opened. For Windows 2000 and later drivers, this string contains
      Unicode characters. That is, for Windows 2000 and later, NDIS defines the NDIS_STRING type as a 
-     <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> type.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> type.
 
 
 ### -param HighestAcceptableAddress [in]
@@ -153,50 +140,48 @@ None
 <b>NdisOpenFile</b> opens a disk file, typically a file the driver will later download to program an
     intelligent NIC. 
     <b>NdisOpenFile</b> also allocates storage to hold file contents for the driver's subsequent call to the 
-    <a href="..\ndis\nf-ndis-ndismapfile.md">NdisMapFile</a> function.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff562785">NdisMapFile</a> function.
 
 A miniport driver should call 
     <b>NdisOpenFile</b> only from the 
-    <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a> function.
+    <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a> function.
 
 When 
     <b>NdisOpenFile</b> returns, the miniport driver can access file data by calling 
     <b>NdisMapFile</b>. It can call the 
-    <a href="..\ndis\nf-ndis-ndisunmapfile.md">NdisUnmapFile</a> function to page out the file
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff564641">NdisUnmapFile</a> function to page out the file
     so it does not consume resources unnecessarily while the driver is not accessing the file data. When
     finished using the file, 
-    <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a> must call the
+    <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a> must call the
     
-    <a href="..\ndis\nf-ndis-ndisclosefile.md">NdisCloseFile</a> function.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561645">NdisCloseFile</a> function.
 
 
 
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismapfile.md">NdisMapFile</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisunmapfile.md">NdisUnmapFile</a>
+<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561645">NdisCloseFile</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562785">NdisMapFile</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisclosefile.md">NdisCloseFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564641">NdisUnmapFile</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisOpenFile function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

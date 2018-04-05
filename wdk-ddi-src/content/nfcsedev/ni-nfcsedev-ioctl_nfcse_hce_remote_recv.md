@@ -38,18 +38,14 @@ api_location:
 -	nfcsedev.h
 api_name:
 -	IOCTL_NFCSE_HCE_REMOTE_RECV
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SECURE_ELEMENT_TYPE, *PSECURE_ELEMENT_TYPE
 ---
 
 # IOCTL_NFCSE_HCE_REMOTE_RECV IOCTL
 
-
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -75,7 +71,7 @@ None
 ### -output-buffer
 
 
-                A <b>DWORD</b> indicating the size of the <a href="..\nfcsedev\ns-nfcsedev-_secure_element_hce_data_packet.md">SECURE_ELEMENT_HCE_DATA_PACKET</a> structure plus its payload, immediately followed by the <b>SECURE_ELEMENT_HCE_DATA_PACKET</b> structure itself. 
+                A <b>DWORD</b> indicating the size of the <a href="https://msdn.microsoft.com/library/windows/hardware/dn905624">SECURE_ELEMENT_HCE_DATA_PACKET</a> structure plus its payload, immediately followed by the <b>SECURE_ELEMENT_HCE_DATA_PACKET</b> structure itself. 
 
 
 ### -output-buffer-length

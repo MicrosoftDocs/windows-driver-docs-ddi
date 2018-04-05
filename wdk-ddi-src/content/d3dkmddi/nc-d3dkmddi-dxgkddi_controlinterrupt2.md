@@ -7,7 +7,7 @@ old-location: display\dxgkddicontrolinterrupt2.htm
 old-project: display
 ms.assetid: 0C09CAB1-3DFC-4340-8FF2-99CAF7F13156
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_CONTROLINTERRUPT2, DxgkDdi_ControlInterrupt2, DxgkDdi_ControlInterrupt2 callback function [Display Devices], d3dkmddi/DxgkDdi_ControlInterrupt2, display.dxgkddicontrolinterrupt2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DxgkDdi_ControlInterrupt2
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 ---
@@ -52,20 +53,6 @@ req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 The <i>DxgkDdi_ControlInterrupt2</i> function enables or disables the given interrupt type on the graphics hardware.
 
 
-## -prototype
-
-
-````
-DXGKDDI_CONTROLINTERRUPT2 DxgkDdi_ControlInterrupt2;
-
-NTSTATUS APIENTRY* DxgkDdi_ControlInterrupt2(
-  _In_ const HANDLE                    hAdapter,
-  _In_ const DXGKARG_CONTROLINTERRUPT2 InterruptControl
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -73,12 +60,12 @@ NTSTATUS APIENTRY* DxgkDdi_ControlInterrupt2(
 
 ### -param hAdapter [in]
 
-[in] A handle to the adapter object for the graphics processing unit (GPU). The driver returned this handle in the <i>MiniportDeviceContext</i> parameter from a call to its <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function.
+[in] A handle to the adapter object for the graphics processing unit (GPU). The driver returned this handle in the <i>MiniportDeviceContext</i> parameter from a call to its <a href="https://msdn.microsoft.com/5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea">DxgkDdiAddDevice</a> function.
 
 
 ### -param InterruptControl [in]
 
-[in] A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_controlinterrupt2.md">DXGKARG_CONTROLINTERRUPT2</a>-type value that supplies the interrupt type, as well as the VSYNC state.
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/mt654042">DXGKARG_CONTROLINTERRUPT2</a>-type value that supplies the interrupt type, as well as the VSYNC state.
 
 
 ## -returns
@@ -111,7 +98,7 @@ The interrupt type was successfully enabled or disabled on the graphics hardware
 </td>
 <td width="60%">
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_controlinterrupt2.md">DxgkDdi_ControlInterrupt2</a> does not support enabling or disabling the specified interrupt type.
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt667971">DxgkDdi_ControlInterrupt2</a> does not support enabling or disabling the specified interrupt type.
 
 </td>
 </tr>

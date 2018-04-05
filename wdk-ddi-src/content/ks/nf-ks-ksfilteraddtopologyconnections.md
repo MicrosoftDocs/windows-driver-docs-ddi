@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsFilterAddTopologyConnections
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -53,18 +54,6 @@ req.typenames:
 The<b> KsFilterAddTopologyConnections</b> function adds new topology connections to a filter.
 
 
-## -syntax
-
-
-````
-NTSTATUS KsFilterAddTopologyConnections(
-  _In_       PKSFILTER             Filter,
-  _In_       ULONG                 NewConnectionsCount,
-  _In_ const KSTOPOLOGY_CONNECTION *NewTopologyConnections
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +61,7 @@ NTSTATUS KsFilterAddTopologyConnections(
 
 ### -param Filter [in]
 
-<i>A pointer</i> to the <a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a> to which to add the new connections.
+<i>A pointer</i> to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562522">KSFILTER</a> to which to add the new connections.
 
 
 ### -param NewConnectionsCount [in]
@@ -82,7 +71,7 @@ The number of connections in <i>NewTopologyConnections</i>.
 
 ### -param NewTopologyConnections [in]
 
-A pointer to an array of <a href="..\ks\ns-ks-kstopology_connection.md">KSTOPOLOGY_CONNECTION</a> structures containing the new topology connections.
+A pointer to an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff567148">KSTOPOLOGY_CONNECTION</a> structures containing the new topology connections.
 
 
 ## -returns
@@ -107,17 +96,15 @@ For more information about mutexes, see <a href="https://msdn.microsoft.com/011e
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>
 
 
 
-<a href="..\ks\ns-ks-kstopology_connection.md">KSTOPOLOGY_CONNECTION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562522">KSFILTER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567148">KSTOPOLOGY_CONNECTION</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsFilterAddTopologyConnections function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

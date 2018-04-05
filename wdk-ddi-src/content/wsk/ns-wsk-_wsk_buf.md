@@ -7,7 +7,7 @@ old-location: netvista\wsk_buf.htm
 old-project: netvista
 ms.assetid: bef653d3-5de3-4af3-8c1f-cff55619e2e9
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: "*PWSK_BUF, PWSK_BUF, PWSK_BUF structure pointer [Network Drivers Starting with Windows Vista], WSK_BUF, WSK_BUF structure [Network Drivers Starting with Windows Vista], _WSK_BUF, netvista.wsk_buf, wsk/PWSK_BUF, wsk/WSK_BUF, wskref_38d35e0c-e08d-4be7-b5c8-0559774d5de0.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	wsk.h
 api_name:
 -	WSK_BUF
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WSK_BUF, *PWSK_BUF
 req.product: Windows 10 or later.
@@ -52,18 +53,6 @@ req.product: Windows 10 or later.
 
 The WSK_BUF structure defines a data buffer that is used for sending and receiving data over a
   socket.
-
-
-## -syntax
-
-
-````
-typedef struct _WSK_BUF {
-  PMDL   Mdl;
-  ULONG  Offset;
-  SIZE_T Length;
-} WSK_BUF, *PWSK_BUF;
-````
 
 
 ## -struct-fields
@@ -97,8 +86,8 @@ When a WSK_BUF structure is used to describe a buffer for receiving data from a 
      specifies the maximum number of bytes to be received into the MDL (or MDL chain).
 
 When a WSK_BUF structure is contained within either a 
-     <a href="..\wsk\ns-wsk-_wsk_data_indication.md">WSK_DATA_INDICATION</a> structure or a 
-     <a href="..\wsk\ns-wsk-_wsk_datagram_indication.md">WSK_DATAGRAM_INDICATION</a> structure,
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571165">WSK_DATA_INDICATION</a> structure or a 
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571164">WSK_DATAGRAM_INDICATION</a> structure,
      this member specifies the number of bytes of received data in the MDL (or MDL chain).
 
 
@@ -110,7 +99,7 @@ Each MDL in the MDL chain that is pointed to by the
     <b>Mdl</b> member describes memory that is either locked or from non-paged pool.
 
 When a WSK application passes a pointer to a WSK_BUF structure to the 
-    <a href="..\wsk\nc-wsk-pfn_wsk_receive.md">WskReceive</a> function, the application can
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff571139">WskReceive</a> function, the application can
     specify zero for the 
     <b>Length</b> member of the structure. In that situation, the 
     <b>Mdl</b> member can be <b>NULL</b> because no data will be copied into the buffer.
@@ -120,37 +109,35 @@ When a WSK application passes a pointer to a WSK_BUF structure to the
 
 ## -see-also
 
-<a href="..\wsk\ns-wsk-_wsk_datagram_indication.md">WSK_DATAGRAM_INDICATION</a>
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_receive.md">WskReceive</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571164">WSK_DATAGRAM_INDICATION</a>
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_send_to.md">WskSendTo</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571165">WSK_DATA_INDICATION</a>
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_send.md">WskSend</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571129">WskDisconnect</a>
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_disconnect.md">WskDisconnect</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571139">WskReceive</a>
 
 
 
-<a href="..\wsk\ns-wsk-_wsk_data_indication.md">WSK_DATA_INDICATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571141">WskReceiveFrom</a>
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_receive_from.md">WskReceiveFrom</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571146">WskSend</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571148">WskSendTo</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WSK_BUF structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

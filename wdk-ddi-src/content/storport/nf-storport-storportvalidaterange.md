@@ -7,7 +7,7 @@ old-location: storage\storportvalidaterange.htm
 old-project: storage
 ms.assetid: 505d6986-c59d-46b3-8437-29fc6a808ccd
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: StorPortValidateRange, StorPortValidateRange routine [Storage Devices], storage.storportvalidaterange, storport/StorPortValidateRange, storprt_7d3583a5-211d-414e-880d-31c04145d3ab.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Storport.dll
 api_name:
 -	StorPortValidateRange
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STOR_SPINLOCK
 req.product: Windows 10 or later.
@@ -54,21 +55,6 @@ req.product: Windows 10 or later.
 The <b>StorPortValidateRange</b> routine determines whether a specified range of I/O addresses is in use by another adapter. This routine is obsolete in Windows NT 4.0 and later operating systems. 
 
 
-## -syntax
-
-
-````
-STORPORT_API BOOLEAN StorPortValidateRange(
-  _In_ PVOID                 HwDeviceExtension,
-  _In_ INTERFACE_TYPE        BusType,
-  _In_ ULONG                 SystemToBusNumber,
-  _In_ STOR_PHYSICAL_ADDRESS IoAddress,
-  _In_ ULONG                 NumberOfBytes,
-  _In_ BOOLEAN               InIoSpace
-);
-````
-
-
 ## -parameters
 
 
@@ -76,7 +62,7 @@ STORPORT_API BOOLEAN StorPortValidateRange(
 
 ### -param HwDeviceExtension [in]
 
-A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls <a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>. The port driver frees this memory when it removes the device. 
+A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff567108">StorPortInitialize</a>. The port driver frees this memory when it removes the device. 
 
 
 ### -param BusType [in]
@@ -124,7 +110,7 @@ Contains an integer identifying a system bus.
 
 For compatibility with older versions of Windows, this routine always returns <b>TRUE</b>.
 
- Miniport drivers are given valid I/O ranges in the <b>AccessRanges</b> member of the <a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a> structure when the Storport driver calls the miniport's <a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a> callback routine.
+ Miniport drivers are given valid I/O ranges in the <b>AccessRanges</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567785">PORT_CONFIGURATION_INFORMATION</a> structure when the Storport driver calls the miniport's <a href="https://msdn.microsoft.com/library/windows/hardware/ff557390">HwStorFindAdapter</a> callback routine.
 
 <b>StorPortValidateRange</b> uses <b>STOR_PHYSICAL_ADDRESS</b> to represent bus-relative addresses.
 
@@ -146,13 +132,11 @@ The <b>STOR_PHYSICAL_ADDRESS</b> type is an operating system-independent data ty
 
 ## -see-also
 
-<a href="..\srb\nf-srb-scsiportvalidaterange.md">ScsiPortValidateRange</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564761">ScsiPortValidateRange</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20StorPortValidateRange routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

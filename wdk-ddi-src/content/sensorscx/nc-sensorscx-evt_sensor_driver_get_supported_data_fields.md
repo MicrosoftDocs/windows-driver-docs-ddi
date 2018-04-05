@@ -38,7 +38,8 @@ api_location:
 -	SensorsCx.h
 api_name:
 -	EvtSensorGetSupportedDataFields
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SensorConnectionType
 req.product: Windows 10 or later.
@@ -55,18 +56,6 @@ This callback function returns a list of data fields supported by the specified 
 For more information about data fields, see <a href="https://msdn.microsoft.com/library/windows/hardware/dn946691">Sensor data fields</a>.
 
 
-## -prototype
-
-
-````
-NT_STATUS EvtSensorGetSupportedDataFields(
-  _In_        SENSOROBJECT          Sensor,
-  _Inout_opt_ PSENSOR_PROPERTY_LIST pDataFields,
-  _Out_       PULONG                pSize
-);
-````
-
-
 ## -parameters
 
 
@@ -79,7 +68,7 @@ A reference to a sensor object.
 
 ### -param pDataFields [in, out, optional]
 
-A list of data fields that are supported by the given <b>Sensor</b>. For more information, see <a href="..\sensorsdef\ns-sensorsdef-sensor_property_list.md">SENSOR_PROPERTY_LIST</a>.
+A list of data fields that are supported by the given <b>Sensor</b>. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/dn946699">SENSOR_PROPERTY_LIST</a>.
 
 
 ### -param pSize [out]
@@ -109,17 +98,15 @@ This function must be implemented by the driver and is called by the class exten
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn946699">SENSOR_PROPERTY_LIST</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn946691">Sensor data fields</a>
-
-
-
-<a href="..\sensorsdef\ns-sensorsdef-sensor_property_list.md">SENSOR_PROPERTY_LIST</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [sensors\sensors]:%20EVT_SENSOR_DRIVER_GET_SUPPORTED_DATA_FIELDS callback function%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

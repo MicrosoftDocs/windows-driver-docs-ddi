@@ -7,7 +7,7 @@ old-location: display\videoportsetevent.htm
 old-project: display
 ms.assetid: 93db9d51-3f80-47ff-a2c2-3c937b5dcf7b
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: VideoPortSetEvent, VideoPortSetEvent function [Display Devices], VideoPort_Functions_8efce2e2-f5e7-402a-a5bf-03c23ac85992.xml, display.videoportsetevent, video/VideoPortSetEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Videoprt.sys
 api_name:
 -	VideoPortSetEvent
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
 req.product: Windows 10 or later.
@@ -51,17 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>VideoPortSetEvent</b> function sets an event object to the signaled state if it was not already in that state, and returns the event object's previous state.
-
-
-## -syntax
-
-
-````
-LONG VideoPortSetEvent(
-  _In_ PVOID  HwDeviceExtension,
-  _In_ PEVENT pEvent
-);
-````
 
 
 ## -parameters
@@ -90,13 +80,11 @@ Pointer to the event object whose state is to be set.
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportclearevent.md">VideoPortClearEvent</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570284">VideoPortClearEvent</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20VideoPortSetEvent function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -38,7 +38,8 @@ api_location:
 -	PointOfServiceDriverInterface.h
 api_name:
 -	PosBarcodeScannerErrorOccurredEventData
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PosBarcodeScannerErrorOccurredEventData
 ---
@@ -50,23 +51,6 @@ req.typenames: PosBarcodeScannerErrorOccurredEventData
 
 
 This structure contains the error data that is passed to the <a href="https://msdn.microsoft.com/library/windows/hardware/dn757464">BarcodeScannerErrorOccurred</a> event.
-
-
-## -syntax
-
-
-````
-typedef struct _PosBarcodeScannerErrorOccurredEventData {
-  PosEventDataHeader                     Header;
-  LONG                                   IsRetriable;
-  UnifiedPosErrorSeverity                Severity;
-  UINT32                                 VendorErrorCode;
-  UnifiedPosErrorReason                  Reason;
-  UINT32                                 ExtendedReason;
-  UINT32                                 MessageLength;
-  PosBarcodeScannerDataReceivedEventData PartialData;
-} PosBarcodeScannerErrorOccurredEventData;
-````
 
 
 ## -struct-fields
@@ -86,7 +70,7 @@ Indicates whether <a href="http://go.microsoft.com/fwlink/p/?LinkId=314125">Read
 
 ### -field Severity
 
-Contains a value in the <a href="..\pointofservicecommontypes\ne-pointofservicecommontypes-driverunifiedposerrorseverity.md">UnifiedPosErrorSeverity</a> enumeration indicating the severity of the error. 
+Contains a value in the <a href="https://msdn.microsoft.com/a8c592fa-2736-49e4-8d4d-8729baef9c49">UnifiedPosErrorSeverity</a> enumeration indicating the severity of the error. 
 
 
 ### -field VendorErrorCode
@@ -96,7 +80,7 @@ Contains a vendor-specific error code.
 
 ### -field Reason
 
-Contains a value in the <a href="..\pointofservicecommontypes\ne-pointofservicecommontypes-driverunifiedposerrorreason.md">UnifiedPosErrorReason</a> enumeration indicating the reason for the error.
+Contains a value in the <a href="https://msdn.microsoft.com/2bbf5fcf-666e-4265-95cf-7e04670d59da">UnifiedPosErrorReason</a> enumeration indicating the reason for the error.
 
 
 ### -field ExtendedReason

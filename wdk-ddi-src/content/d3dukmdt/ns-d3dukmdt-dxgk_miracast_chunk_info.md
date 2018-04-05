@@ -7,7 +7,7 @@ old-location: display\dxgk_miracast_chunk_info.htm
 old-project: display
 ms.assetid: 4A5413AD-A2EB-4772-89BF-867C30E0CD10
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: DXGK_MIRACAST_CHUNK_INFO, DXGK_MIRACAST_CHUNK_INFO structure [Display Devices], d3dukmdt/DXGK_MIRACAST_CHUNK_INFO, display.dxgk_miracast_chunk_info
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3dukmdt.h
 api_name:
 -	DXGK_MIRACAST_CHUNK_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_MIRACAST_CHUNK_INFO
 ---
@@ -52,19 +53,6 @@ req.typenames: DXGK_MIRACAST_CHUNK_INFO
 Contains info about a specified wireless display (Miracast) encode chunk.
 
 
-## -syntax
-
-
-````
-typedef struct {
-  DXGK_MIRACAST_CHUNK_TYPE ChunkType;
-  MIRACAST_CHUNK_ID        ChunkId;
-  UINT                     ProcessingTime;
-  UINT                     EncodeRate;
-} DXGK_MIRACAST_CHUNK_INFO;
-````
-
-
 ## -struct-fields
 
 
@@ -72,12 +60,12 @@ typedef struct {
 
 ### -field ChunkType
 
-The type of chunk that is to be processed, specified as a <a href="..\d3dukmdt\ne-d3dukmdt-_dxgk_miracast_chunk_type.md">DXGK_MIRACAST_CHUNK_TYPE</a> enumeration value.
+The type of chunk that is to be processed, specified as a <a href="https://msdn.microsoft.com/library/windows/hardware/dn322057">DXGK_MIRACAST_CHUNK_TYPE</a> enumeration value.
 
 
 ### -field ChunkId
 
-The identifier for this chunk, of type <a href="..\d3dukmdt\ns-d3dukmdt-dxgk_miracast_chunk_id.md">DXGK_MIRACAST_CHUNK_ID</a>.
+The identifier for this chunk, of type <a href="https://msdn.microsoft.com/library/windows/hardware/dn322055">DXGK_MIRACAST_CHUNK_ID</a>.
 
 
 ### -field ProcessingTime
@@ -92,17 +80,15 @@ The encode bit rate, in kilobits per second, that the display miniport driver re
 
 ## -see-also
 
-<a href="..\d3dukmdt\ns-d3dukmdt-dxgk_miracast_chunk_id.md">DXGK_MIRACAST_CHUNK_ID</a>
 
 
 
-<a href="..\d3dukmdt\ne-d3dukmdt-_dxgk_miracast_chunk_type.md">DXGK_MIRACAST_CHUNK_TYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn322055">DXGK_MIRACAST_CHUNK_ID</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn322057">DXGK_MIRACAST_CHUNK_TYPE</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGK_MIRACAST_CHUNK_INFO structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

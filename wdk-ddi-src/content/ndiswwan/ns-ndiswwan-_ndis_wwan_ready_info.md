@@ -7,7 +7,7 @@ old-location: netvista\ndis_wwan_ready_info.htm
 old-project: netvista
 ms.assetid: 9f47b70a-426c-47a2-b438-fc00eadc002f
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: "*PNDIS_WWAN_READY_INFO, NDIS_WWAN_READY_INFO, NDIS_WWAN_READY_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_READY_INFO, PNDIS_WWAN_READY_INFO structure pointer [Network Drivers Starting with Windows Vista], WwanRef_6ae45c84-c13d-4142-b39a-07b3a9f57253.xml, _NDIS_WWAN_READY_INFO, ndiswwan/NDIS_WWAN_READY_INFO, ndiswwan/PNDIS_WWAN_READY_INFO, netvista.ndis_wwan_ready_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ndiswwan.h
 api_name:
 -	NDIS_WWAN_READY_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_WWAN_READY_INFO, *PNDIS_WWAN_READY_INFO
 ---
@@ -51,17 +52,6 @@ req.typenames: NDIS_WWAN_READY_INFO, *PNDIS_WWAN_READY_INFO
 
 The NDIS_WWAN_READY_INFO structure represents the ready-state of the MB device and Subscriber
   Identity Module (SIM card).
-
-
-## -syntax
-
-
-````
-typedef struct _NDIS_WWAN_READY_INFO {
-  NDIS_OBJECT_HEADER Header;
-  WWAN_READY_INFO    ReadyInfo;
-} NDIS_WWAN_READY_INFO, *PNDIS_WWAN_READY_INFO;
-````
 
 
 ## -struct-fields
@@ -117,29 +107,27 @@ sizeof(NDIS_WWAN_READY_INFO)
  
 
 For more information about these members, see 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field ReadyInfo
 
 A formatted 
-     <a href="..\wwan\ns-wwan-_wwan_ready_info.md">WWAN_READY_INFO</a> object that represents the
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571226">WWAN_READY_INFO</a> object that represents the
      device ready-state.
 
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_ready_info.md">WWAN_READY_INFO</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571226">WWAN_READY_INFO</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_WWAN_READY_INFO structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

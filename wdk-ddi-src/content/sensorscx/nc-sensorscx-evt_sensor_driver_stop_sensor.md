@@ -38,7 +38,8 @@ api_location:
 -	SensorsCx.h
 api_name:
 -	EvtSensorStop
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SensorConnectionType
 req.product: Windows 10 or later.
@@ -51,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 This callback function stops the sensor.
-
-
-## -prototype
-
-
-````
-NT_STATUS EvtSensorStop(
-   SENSOROBJECT Sensor
-);
-````
 
 
 ## -parameters

@@ -2,20 +2,20 @@
 UID: NF:ntddk.IoGetOplockKeyContextEx
 title: IoGetOplockKeyContextEx function
 author: windows-driver-content
-description: The IoGetOplockKeyContextEx routine returns a parent and target oplock key context for a file object.
-old-location: ifsk\iogetoplockkeycontextex.htm
+description: The IoGetOplockKeyContext routine returns a target oplock key context for a file object.
+old-location: ifsk\iogetoplockkeycontext.htm
 old-project: ifsk
-ms.assetid: 2DFC2C13-19C4-4DFD-B18B-459B38521962
+ms.assetid: E93091A2-203B-418D-93E7-1219DED25C52
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: IoGetOplockKeyContextEx, IoGetOplockKeyContextEx routine [Installable File System Drivers], ifsk.iogetoplockkeycontextex, ntddk/IoGetOplockKeyContextEx
+ms.date: 3/29/2018
+ms.keywords: IoGetOplockKeyContextEx, IoGetOplockKeyContextEx routine [Installable File System Drivers], ifsk.iogetoplockkeycontext, ntddk/IoGetOplockKeyContextEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
 req.header: ntddk.h
 req.include-header: 
 req.target-type: Universal
-req.target-min-winverclnt: The IoGetOplockKeyContextEx routine is available starting with Windows 8.
+req.target-min-winverclnt: The IoGetOplockKeyContext routine is available starting with Windows 7.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -39,7 +39,8 @@ api_location:
 -	ntoskrnl.dll
 api_name:
 -	IoGetOplockKeyContextEx
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
@@ -50,17 +51,7 @@ req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ## -description
 
 
-The <b>IoGetOplockKeyContextEx</b> routine returns a parent and target oplock key context for a file object.
-
-
-## -syntax
-
-
-````
-POPLOCK_KEY_CONTEXT IoGetOplockKeyContextEx(
-   PFILE_OBJECT FileObject
-);
-````
+The <b>IoGetOplockKeyContext</b> routine returns a target oplock key context for a file object.
 
 
 ## -parameters
@@ -77,14 +68,22 @@ The file object to query for an oplock key context.
 
 
 
-An pointer to an <a href="..\ntddk\ns-ntddk-_oplock_key_context.md">OPLOCK_KEY_CONTEXT</a> structure containing the oplock keys for <i>FileObject</i>. Otherwise, NULL if <i>FileObject</i>  has no  oplock keys.
+An pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551003">OPLOCK_KEY_ECP_CONTEXT</a> structure containing the target oplock key for <i>FileObject</i>. Otherwise, NULL if <i>FileObject</i>  has no target oplock key.
+
+
+
+
+## -remarks
+
+
+
+Use the <b>IoGetOplockKeyContext</b> routine only in Windows 7. Because  <a href="https://msdn.microsoft.com/library/windows/hardware/hh439325">IoGetOplockKeyContextEx</a> returns a dual oplock key context, it should be used in Windows 8 and later versions of Windows.
 
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551003">OPLOCK_KEY_ECP_CONTEXT</a>
 
 
 
@@ -92,13 +91,16 @@ An pointer to an <a href="..\ntddk\ns-ntddk-_oplock_key_context.md">OPLOCK_KEY_C
 
 
 
-<a href="..\ntddk\ns-ntddk-_oplock_key_context.md">OPLOCK_KEY_CONTEXT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439325">IoGetOplockKeyContextEx</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439448">OPLOCK_KEY_CONTEXT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551003">OPLOCK_KEY_ECP_CONTEXT</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20IoGetOplockKeyContextEx routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

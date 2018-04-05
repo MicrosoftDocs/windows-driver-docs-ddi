@@ -7,7 +7,7 @@ old-location: storage\hwstorcompleteserviceirp.htm
 old-project: storage
 ms.assetid: 1a6a6073-27ec-43c0-b5ec-37ef4177fa54
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: HW_COMPLETE_SERVICE_IRP, HwStorCompleteServiceIrp, HwStorCompleteServiceIrp routine [Storage Devices], storage.hwstorcompleteserviceirp, storport/HwStorCompleteServiceIrp, storvmini_57cddd18-134c-4ecc-9180-4c4b3ff3903d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Storport.h
 api_name:
 -	HwStorCompleteServiceIrp
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STORAGE_DEVICE_UNIQUE_IDENTIFIER, *PSTORAGE_DEVICE_UNIQUE_IDENTIFIER
 req.product: Windows 10 or later.
@@ -51,19 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>HwStorCompleteServiceIrp</b> routine is called when the virtual adapter is being removed. When this happens, the Storport virtual miniport can complete any reverse-callback IRPs received in <b>HwStorCompleteServiceIrp</b>.
-
-
-## -prototype
-
-
-````
-HW_COMPLETE_SERVICE_IRP HwStorCompleteServiceIrp;
-
-VOID HwStorCompleteServiceIrp(
-   IN PVOID DeviceExtension
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -151,7 +139,6 @@ The <b>HW_COMPLETE_SERVICE_IRP</b> function type is defined in the Storport.h he
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportcompleteserviceirp.md">StorPortCompleteServiceIrp</a>
 
 
 
@@ -159,9 +146,8 @@ The <b>HW_COMPLETE_SERVICE_IRP</b> function type is defined in the Storport.h he
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567043">StorPortCompleteServiceIrp</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20HwStorCompleteServiceIrp routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

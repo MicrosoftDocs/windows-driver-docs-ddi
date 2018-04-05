@@ -7,7 +7,7 @@ old-location: display\dxgi_ddi_multiplane_overlay_group_caps.htm
 old-project: display
 ms.assetid: A8BAD8D4-1009-43D0-B82F-8252062A029C
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: DXGI_DDI_MULTIPLANE_OVERLAY_GROUP_CAPS, DXGI_DDI_MULTIPLANE_OVERLAY_GROUP_CAPS structure [Display Devices], display.dxgi_ddi_multiplane_overlay_group_caps, dxgiddi/DXGI_DDI_MULTIPLANE_OVERLAY_GROUP_CAPS
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Dxgiddi.h
 api_name:
 -	DXGI_DDI_MULTIPLANE_OVERLAY_GROUP_CAPS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGI_DDI_MULTIPLANE_OVERLAY_GROUP_CAPS
 ---
@@ -50,20 +51,6 @@ req.typenames: DXGI_DDI_MULTIPLANE_OVERLAY_GROUP_CAPS
 
 
 Used by the user-mode display driver to specify groups of overlay plane capabilities.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGI_DDI_MULTIPLANE_OVERLAY_GROUP_CAPS {
-  UINT  NumPlanes;
-  float MaxStretchFactor;
-  float MaxShrinkFactor;
-  UINT  OverlayCaps;
-  UINT  StereoCaps;
-} DXGI_DDI_MULTIPLANE_OVERLAY_GROUP_CAPS;
-````
 
 
 ## -struct-fields
@@ -96,7 +83,7 @@ It's not guaranteed that this shrink factor can be applied in all scenarios. For
 
 ### -field OverlayCaps
 
-The overlay capabilities, given as a bitwise <b>OR</b> of values from the <a href="..\dxgiddi\ne-dxgiddi-dxgi_ddi_multiplane_overlay_feature_caps.md">DXGI_DDI_MULTIPLANE_OVERLAY_FEATURE_CAPS</a> enumeration.
+The overlay capabilities, given as a bitwise <b>OR</b> of values from the <a href="https://msdn.microsoft.com/library/windows/hardware/hh780286">DXGI_DDI_MULTIPLANE_OVERLAY_FEATURE_CAPS</a> enumeration.
 
 
 ### -field StereoCaps

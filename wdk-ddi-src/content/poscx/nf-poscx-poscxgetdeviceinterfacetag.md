@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	poscx.h
 api_name:
 -	PosCxGetDeviceInterfaceTag
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: POS_CX_EVENT_PRIORITY
 req.product: Windows 10 or later.
@@ -50,17 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-PosCxGetDeviceInterfaceTag returns the device interface tag that is set in <a href="..\poscx\nf-poscx-poscxopen.md">PosCxOpen</a>.
-
-
-## -syntax
-
-
-````
-ULONG PosCxGetDeviceInterfaceTag(
-  _In_ WDFFILEOBJECT fileObject
-);
-````
+PosCxGetDeviceInterfaceTag returns the device interface tag that is set in <a href="https://msdn.microsoft.com/library/windows/hardware/mt593129">PosCxOpen</a>.
 
 
 ## -parameters
@@ -70,7 +61,7 @@ ULONG PosCxGetDeviceInterfaceTag(
 
 ### -param fileObject [in]
 
-      A handle to a framework file object that identifies the caller, usually acquired with <a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetfileobject.md">WdfRequestGetFileObject</a>.
+      A handle to a framework file object that identifies the caller, usually acquired with <a href="https://msdn.microsoft.com/library/windows/hardware/ff549963">WdfRequestGetFileObject</a>.
 
 
 ## -returns
@@ -84,13 +75,11 @@ ULONG PosCxGetDeviceInterfaceTag(
 
 ## -see-also
 
-<a href="..\poscx\nf-poscx-poscxopen.md">PosCxOpen</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt593129">PosCxOpen</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [pos\pos]:%20PosCxGetDeviceInterfaceTag function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

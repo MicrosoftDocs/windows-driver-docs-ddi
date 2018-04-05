@@ -7,7 +7,7 @@ old-location: image\istidevice_getlastnotificationdata.htm
 old-project: image
 ms.assetid: dd073fde-d2ba-45c0-a52c-22e86718901a
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/27/2018
 ms.keywords: GetLastNotificationData method [Imaging Devices], GetLastNotificationData method [Imaging Devices], IStiDevice interface, GetLastNotificationData,IStiDevice.GetLastNotificationData, IStiDevice, IStiDevice interface [Imaging Devices], GetLastNotificationData method, IStiDevice::GetLastNotificationData, image.istidevice_getlastnotificationdata, sti/IStiDevice::GetLastNotificationData, stifnc_def72c8c-f8cf-4eb7-84a1-e99ecddee4de.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: sti.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	sti.h
 api_name:
 -	IStiDevice.GetLastNotificationData
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STI_DEVICE_MJ_TYPE, STI_DEVICE_MJ_TYPE
 req.product: Windows 10 or later.
@@ -53,16 +54,6 @@ req.product: Windows 10 or later.
 The <b>IStiDevice::GetLastNotificationData</b> method returns a description of the most recent event that occurred on a still image device.
 
 
-## -syntax
-
-
-````
-HRESULT GetLastNotificationData(
-  [out] LPSTINOTIFY lpNotify
-);
-````
-
-
 ## -parameters
 
 
@@ -70,7 +61,7 @@ HRESULT GetLastNotificationData(
 
 ### -param lpNotify [out]
 
-Caller-supplied pointer to an <a href="..\sti\ns-sti-_stinotify.md">STINOTIFY</a> structure to receive event information.
+Caller-supplied pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff548350">STINOTIFY</a> structure to receive event information.
 
 
 ## -returns

@@ -38,7 +38,8 @@ api_location:
 -	2.0\Sercx.h
 api_name:
 -	EvtSerCx2Control
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SENSOR_VALUE_PAIR, *PSENSOR_VALUE_PAIR
 req.product: Windows 10 or later.
@@ -53,23 +54,6 @@ req.product: Windows 10 or later.
 The <i>EvtSerCx2Control</i> event callback function is called by version 2 of the serial framework extension (SerCx2) to handle a serial I/O control request.
 
 
-## -prototype
-
-
-````
-EVT_SERCX2_CONTROL EvtSerCx2Control;
-
-NTSTATUS EvtSerCx2Control(
-  _In_ WDFDEVICE  Device,
-  _In_ WDFREQUEST Request,
-  _In_ size_t     OutputBufferLength,
-  _In_ size_t     InputBufferLength,
-  _In_ ULONG      IoControlCode
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -77,7 +61,7 @@ NTSTATUS EvtSerCx2Control(
 
 ### -param Device [in]
 
-A WDFDEVICE handle to the framework device object that represents the serial controller. The serial controller driver created this object in its <a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a> callback function. For more information, see <a href="..\sercx\nf-sercx-sercx2initializedevice.md">SerCx2InitializeDevice</a>.
+A WDFDEVICE handle to the framework device object that represents the serial controller. The serial controller driver created this object in its <a href="https://msdn.microsoft.com/b20db029-ee2c-4fb1-bd69-ccd2e37fdc9a">EvtDriverDeviceAdd</a> callback function. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/dn265261">SerCx2InitializeDevice</a>.
 
 
 ### -param Request [in]
@@ -113,13 +97,13 @@ The <i>EvtSerCx2Control</i> function returns STATUS_SUCCESS if the call is succe
 
 
 
-Your serial controller driver must implement this function. The driver registers the function in the call to the <a href="..\sercx\nf-sercx-sercx2initializedevice.md">SerCx2InitializeDevice</a> method that finishes the initialization of the framework device object for the serial controller.
+Your serial controller driver must implement this function. The driver registers the function in the call to the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265261">SerCx2InitializeDevice</a> method that finishes the initialization of the framework device object for the serial controller.
 
 The <i>EvtSerCx2Control</i> function lets your driver handle certain serial I/O control requests that SerCx2 cannot handle. SerCx2 handles all processing for a subset of the serial IOCTLs that are defined in the Ntddser.h header file. However, SerCx2 relies on the driver to handle serial I/O control requests to perform hardware-dependent operations.
 
 When SerCx2 receives a serial I/O control request that can be handled only by the serial controller driver, SerCx2 calls the <i>EvtSerCx2Control</i> function to hand off the I/O control request to the driver. The driver is responsible for completing this request. A driver that does not implement support for a particular I/O control request should complete this I/O control request with the STATUS_NOT_SUPPORTED error status code.
 
-To complete the I/O control request, the driver typically calls the <a href="..\wdfrequest\nf-wdfrequest-wdfrequestcomplete.md">WdfRequestComplete</a> method and supplies, as input parameters, the <i>Request</i> parameter value and a status value to indicate whether the request was successful. This status value is written to the status block of the request.
+To complete the I/O control request, the driver typically calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549945">WdfRequestComplete</a> method and supplies, as input parameters, the <i>Request</i> parameter value and a status value to indicate whether the request was successful. This status value is written to the status block of the request.
 
 The <i>EvtSerCx2Control</i> function's return value should always match the status value that this function writes to the status block of the I/O control request. The current implementation of SerCx2 ignores this return value.
 
@@ -132,7 +116,7 @@ SerCx2 calls the <i>EvtSerCx2Control</i> function to handle the IOCTLs shown in 
 </tr>
 <tr>
 <td>
-<a href="..\ntddser\ni-ntddser-ioctl_serial_clr_dtr.md">IOCTL_SERIAL_CLR_DTR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546541">IOCTL_SERIAL_CLR_DTR</a>
 </td>
 <td>
 Optional
@@ -141,7 +125,7 @@ Optional
 </tr>
 <tr>
 <td>
-<a href="..\ntddser\ni-ntddser-ioctl_serial_clr_rts.md">IOCTL_SERIAL_CLR_RTS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546545">IOCTL_SERIAL_CLR_RTS</a>
 </td>
 <td>
 Required
@@ -150,7 +134,7 @@ Required
 </tr>
 <tr>
 <td>
-<a href="..\ntddser\ni-ntddser-ioctl_serial_get_baud_rate.md">IOCTL_SERIAL_GET_BAUD_RATE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546554">IOCTL_SERIAL_GET_BAUD_RATE</a>
 </td>
 <td>
 Required
@@ -159,7 +143,7 @@ Required
 </tr>
 <tr>
 <td>
-<a href="..\ntddser\ni-ntddser-ioctl_serial_get_commstatus.md">IOCTL_SERIAL_GET_COMMSTATUS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546562">IOCTL_SERIAL_GET_COMMSTATUS</a>
 </td>
 <td>
 Required
@@ -168,7 +152,7 @@ Required
 </tr>
 <tr>
 <td>
-<a href="..\ntddser\ni-ntddser-ioctl_serial_get_dtrrts.md">IOCTL_SERIAL_GET_DTRRTS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546566">IOCTL_SERIAL_GET_DTRRTS</a>
 </td>
 <td>
 Required
@@ -177,7 +161,7 @@ Required
 </tr>
 <tr>
 <td>
-<a href="..\ntddser\ni-ntddser-ioctl_serial_get_handflow.md">IOCTL_SERIAL_GET_HANDFLOW</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546574">IOCTL_SERIAL_GET_HANDFLOW</a>
 </td>
 <td>
 Required
@@ -186,7 +170,7 @@ Required
 </tr>
 <tr>
 <td>
-<a href="..\ntddser\ni-ntddser-ioctl_serial_get_line_control.md">IOCTL_SERIAL_GET_LINE_CONTROL</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546582">IOCTL_SERIAL_GET_LINE_CONTROL</a>
 </td>
 <td>
 Required
@@ -195,7 +179,7 @@ Required
 </tr>
 <tr>
 <td>
-<a href="..\ntddser\ni-ntddser-ioctl_serial_get_modem_control.md">IOCTL_SERIAL_GET_MODEM_CONTROL</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546591">IOCTL_SERIAL_GET_MODEM_CONTROL</a>
 </td>
 <td>
 Required
@@ -204,7 +188,7 @@ Required
 </tr>
 <tr>
 <td>
-<a href="..\ntddser\ni-ntddser-ioctl_serial_get_modemstatus.md">IOCTL_SERIAL_GET_MODEMSTATUS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546587">IOCTL_SERIAL_GET_MODEMSTATUS</a>
 </td>
 <td>
 Required
@@ -213,7 +197,7 @@ Required
 </tr>
 <tr>
 <td>
-<a href="..\ntddser\ni-ntddser-ioctl_serial_get_properties.md">IOCTL_SERIAL_GET_PROPERTIES</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546597">IOCTL_SERIAL_GET_PROPERTIES</a>
 </td>
 <td>
 Required
@@ -222,7 +206,7 @@ Required
 </tr>
 <tr>
 <td>
-<a href="..\ntddser\ni-ntddser-ioctl_serial_set_baud_rate.md">IOCTL_SERIAL_SET_BAUD_RATE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546672">IOCTL_SERIAL_SET_BAUD_RATE</a>
 </td>
 <td>
 Required
@@ -231,7 +215,7 @@ Required
 </tr>
 <tr>
 <td>
-<a href="..\ntddser\ni-ntddser-ioctl_serial_set_break_off.md">IOCTL_SERIAL_SET_BREAK_OFF</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546680">IOCTL_SERIAL_SET_BREAK_OFF</a>
 </td>
 <td>
 Required
@@ -240,7 +224,7 @@ Required
 </tr>
 <tr>
 <td>
-<a href="..\ntddser\ni-ntddser-ioctl_serial_set_break_on.md">IOCTL_SERIAL_SET_BREAK_ON</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546685">IOCTL_SERIAL_SET_BREAK_ON</a>
 </td>
 <td>
 Required
@@ -249,7 +233,7 @@ Required
 </tr>
 <tr>
 <td>
-<a href="..\ntddser\ni-ntddser-ioctl_serial_set_dtr.md">IOCTL_SERIAL_SET_DTR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546696">IOCTL_SERIAL_SET_DTR</a>
 </td>
 <td>
 Optional
@@ -258,7 +242,7 @@ Optional
 </tr>
 <tr>
 <td>
-<a href="..\ntddser\ni-ntddser-ioctl_serial_set_fifo_control.md">IOCTL_SERIAL_SET_FIFO_CONTROL</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546720">IOCTL_SERIAL_SET_FIFO_CONTROL</a>
 </td>
 <td>
 Optional
@@ -267,7 +251,7 @@ Optional
 </tr>
 <tr>
 <td>
-<a href="..\ntddser\ni-ntddser-ioctl_serial_set_handflow.md">IOCTL_SERIAL_SET_HANDFLOW</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546736">IOCTL_SERIAL_SET_HANDFLOW</a>
 </td>
 <td>
 Required
@@ -276,7 +260,7 @@ Required
 </tr>
 <tr>
 <td>
-<a href="..\ntddser\ni-ntddser-ioctl_serial_set_line_control.md">IOCTL_SERIAL_SET_LINE_CONTROL</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546740">IOCTL_SERIAL_SET_LINE_CONTROL</a>
 </td>
 <td>
 Required
@@ -285,7 +269,7 @@ Required
 </tr>
 <tr>
 <td>
-<a href="..\ntddser\ni-ntddser-ioctl_serial_set_modem_control.md">IOCTL_SERIAL_SET_MODEM_CONTROL</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546748">IOCTL_SERIAL_SET_MODEM_CONTROL</a>
 </td>
 <td>
 Required
@@ -294,7 +278,7 @@ Required
 </tr>
 <tr>
 <td>
-<a href="..\ntddser\ni-ntddser-ioctl_serial_set_rts.md">IOCTL_SERIAL_SET_RTS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546760">IOCTL_SERIAL_SET_RTS</a>
 </td>
 <td>
 Required
@@ -304,7 +288,7 @@ Required
 </table>
  
 
-The preceding table lists all of the serial IOCTLs that SerCx2 presents to the <i>EvtSerCx2Control</i> function. For any IOCTL not in this list, SerCx2 either handles the IOCTL, or immediately fails the IOCTL and sets the request status to STATUS_NOT_SUPPORTED. SerCx2 handles <a href="..\ntddser\ni-ntddser-ioctl_serial_apply_default_configuration.md">IOCTL_SERIAL_APPLY_DEFAULT_CONFIGURATION</a> requests, but calls the <a href="..\sercx\nc-sercx-evt_sercx2_apply_config.md">EvtSerCx2ApplyConfig</a> event callback function during the processing of such a request. SerCx2 handles <a href="..\ntddser\ni-ntddser-ioctl_serial_purge.md">IOCTL_SERIAL_PURGE</a> requests, but might call the <a href="..\sercx\nc-sercx-evt_sercx2_purge_fifos.md">EvtSerCx2PurgeFifos</a> event callback function during the processing of such a request. SerCx does preliminary processing of <a href="..\ntddser\ni-ntddser-ioctl_serial_set_wait_mask.md">IOCTL_SERIAL_SET_WAIT_MASK</a> requests, but calls the <a href="..\sercx\nc-sercx-evt_sercx2_set_wait_mask.md">EvtSerCx2SetWaitMask</a> event callback function, if it is implemented, to finish handling such a request. For more information about SerCx2 support for serial IOCTLs, see <a href="https://msdn.microsoft.com/D536A0EC-2B8B-491B-8A14-656F4B5A3843">Serial I/O Request Interface</a>.
+The preceding table lists all of the serial IOCTLs that SerCx2 presents to the <i>EvtSerCx2Control</i> function. For any IOCTL not in this list, SerCx2 either handles the IOCTL, or immediately fails the IOCTL and sets the request status to STATUS_NOT_SUPPORTED. SerCx2 handles <a href="https://msdn.microsoft.com/library/windows/hardware/hh406621">IOCTL_SERIAL_APPLY_DEFAULT_CONFIGURATION</a> requests, but calls the <a href="https://msdn.microsoft.com/8D9BC698-1E62-4DC2-B233-37022F330F98">EvtSerCx2ApplyConfig</a> event callback function during the processing of such a request. SerCx2 handles <a href="https://msdn.microsoft.com/library/windows/hardware/ff546655">IOCTL_SERIAL_PURGE</a> requests, but might call the <a href="https://msdn.microsoft.com/52875B36-F52B-4D29-9C9D-76DB12BFEEA6">EvtSerCx2PurgeFifos</a> event callback function during the processing of such a request. SerCx does preliminary processing of <a href="https://msdn.microsoft.com/library/windows/hardware/ff546780">IOCTL_SERIAL_SET_WAIT_MASK</a> requests, but calls the <a href="https://msdn.microsoft.com/C248FEF0-8E0B-4296-940E-763165F80617">EvtSerCx2SetWaitMask</a> event callback function, if it is implemented, to finish handling such a request. For more information about SerCx2 support for serial IOCTLs, see <a href="https://msdn.microsoft.com/D536A0EC-2B8B-491B-8A14-656F4B5A3843">Serial I/O Request Interface</a>.
 
 
 #### IOCTL_SERIAL_CLR_DTR and IOCTL_SERIAL_SET_DTR
@@ -319,7 +303,7 @@ The <i>EvtSerCx2Control</i> function in your serial controller driver must suppo
 
 #### IOCTL_SERIAL_GET_COMMSTATUS
 
-The <i>EvtSerCx2Control</i> function in your serial controller driver must support the <b>IOCTL_SERIAL_GET_COMMSTATUS</b> request, but the driver's handler for this request is required to support only the following members of the  <a href="..\ntddser\ns-ntddser-_serial_status.md">SERIAL_STATUS</a> structure used by this request:
+The <i>EvtSerCx2Control</i> function in your serial controller driver must support the <b>IOCTL_SERIAL_GET_COMMSTATUS</b> request, but the driver's handler for this request is required to support only the following members of the  <a href="https://msdn.microsoft.com/library/windows/hardware/jj673022">SERIAL_STATUS</a> structure used by this request:
 
 <ul>
 <li><b>Errors</b></li>
@@ -330,7 +314,7 @@ As an option, the driver can additionally support any of the other members of th
 
 #### IOCTL_SERIAL_GET_PROPERTIES
 
-The <i>EvtSerCx2Control</i> function in your serial controller driver must support the <b>IOCTL_SERIAL_GET_PROPERTIES</b> request. The driver's handler for this request should set the <b>MaxBaud</b> member of the <a href="..\ntddser\ns-ntddser-_serial_commprop.md">SERIAL_COMMPROP</a> structure used by this request to the maximum supported baud rate, expressed in bits per second (bps). For example, if the serial controller supports a maximum baud rate of 115,200 bps, the driver sets <b>MaxBaud</b> = 115200.
+The <i>EvtSerCx2Control</i> function in your serial controller driver must support the <b>IOCTL_SERIAL_GET_PROPERTIES</b> request. The driver's handler for this request should set the <b>MaxBaud</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/jj680684">SERIAL_COMMPROP</a> structure used by this request to the maximum supported baud rate, expressed in bits per second (bps). For example, if the serial controller supports a maximum baud rate of 115,200 bps, the driver sets <b>MaxBaud</b> = 115200.
 
 
 #### IOCTL_SERIAL_GET_MODEMSTATUS
@@ -340,7 +324,7 @@ The <i>EvtSerCx2Control</i> function in your serial controller driver must suppo
 
 #### IOCTL_SERIAL_GET_HANDFLOW and IOCTL_SERIAL_SET_HANDFLOW
 
-The <i>EvtSerCx2Control</i> function in your serial controller driver must support the <b>IOCTL_SERIAL_GET_HANDFLOW</b> and <b>IOCTL_SERIAL_SET_HANDFLOW</b> requests, but is required to support only a subset of the flag bits that are defined for these requests. Flag bits are defined for the <b>ControlHandShake</b> and <b>FlowReplace</b> members of the <a href="..\ntddser\ns-ntddser-_serial_handflow.md">SERIAL_HANDFLOW</a> structure that is used by these requests.
+The <i>EvtSerCx2Control</i> function in your serial controller driver must support the <b>IOCTL_SERIAL_GET_HANDFLOW</b> and <b>IOCTL_SERIAL_SET_HANDFLOW</b> requests, but is required to support only a subset of the flag bits that are defined for these requests. Flag bits are defined for the <b>ControlHandShake</b> and <b>FlowReplace</b> members of the <a href="https://msdn.microsoft.com/library/windows/hardware/jj680685">SERIAL_HANDFLOW</a> structure that is used by these requests.
 
 Your driver must support the following flag bit in the <b>ControlHandshake</b> member:
 
@@ -407,35 +391,26 @@ The <b>EVT_SERCX2_CONTROL</b> function type is defined in the Sercx.h header fil
 
 ## -see-also
 
-<a href="..\sercx\nf-sercx-sercx2initializedevice.md">SerCx2InitializeDevice</a>
 
 
 
-<a href="..\ntddser\ns-ntddser-_serial_handflow.md">SERIAL_HANDFLOW</a>
+<a href="https://msdn.microsoft.com/b20db029-ee2c-4fb1-bd69-ccd2e37fdc9a">EvtDriverDeviceAdd</a>
 
 
 
-<a href="..\ntddser\ns-ntddser-_serial_status.md">SERIAL_STATUS</a>
+<a href="https://msdn.microsoft.com/8D9BC698-1E62-4DC2-B233-37022F330F98">EvtSerCx2ApplyConfig</a>
 
 
 
-<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
+<a href="https://msdn.microsoft.com/52875B36-F52B-4D29-9C9D-76DB12BFEEA6">EvtSerCx2PurgeFifos</a>
 
 
 
-<a href="..\ntddser\ns-ntddser-_serial_commprop.md">SERIAL_COMMPROP</a>
+<a href="https://msdn.microsoft.com/C248FEF0-8E0B-4296-940E-763165F80617">EvtSerCx2SetWaitMask</a>
 
 
 
-<a href="..\sercx\nc-sercx-evt_sercx2_purge_fifos.md">EvtSerCx2PurgeFifos</a>
-
-
-
-<a href="..\sercx\nc-sercx-evt_sercx2_set_wait_mask.md">EvtSerCx2SetWaitMask</a>
-
-
-
-<a href="..\sercx\nc-sercx-evt_sercx2_apply_config.md">EvtSerCx2ApplyConfig</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj680684">SERIAL_COMMPROP</a>
 
 
 
@@ -443,9 +418,16 @@ The <b>EVT_SERCX2_CONTROL</b> function type is defined in the Sercx.h header fil
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj680685">SERIAL_HANDFLOW</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj673022">SERIAL_STATUS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265261">SerCx2InitializeDevice</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [serports\serports]:%20EVT_SERCX2_CONTROL callback function%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

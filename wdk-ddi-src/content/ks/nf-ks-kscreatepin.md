@@ -40,7 +40,8 @@ api_location:
 -	ksuser.dll
 api_name:
 -	KsCreatePin
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -52,19 +53,6 @@ req.typenames:
 
 
 The <b>KsCreatePin</b> function passes a connection request to a device, creating a pin instance. This function can only be called at <b>PASSIVE_LEVEL</b> for kernel-mode clients.
-
-
-## -syntax
-
-
-````
-NTSTATUS KsCreatePin(
-  _In_  HANDLE         FilterHandle,
-  _In_  PKSPIN_CONNECT Connect,
-  _In_  ACCESS_MASK    DesiredAccess,
-  _Out_ PHANDLE        ConnectionHandle
-);
-````
 
 
 ## -parameters
@@ -79,7 +67,7 @@ Specifies the handle of the filter initiating the create request and where the c
 
 ### -param Connect [in]
 
-Pointer to a <a href="..\ks\ns-ks-kspin_connect.md">KSPIN_CONNECT</a> structure that contains parameters for the requested connection. This should be followed in memory by a <a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a> data structure, describing the data format requested for the connection.
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563531">KSPIN_CONNECT</a> structure that contains parameters for the requested connection. This should be followed in memory by a <a href="https://msdn.microsoft.com/library/windows/hardware/ff561656">KSDATAFORMAT</a> data structure, describing the data format requested for the connection.
 
 
 ### -param DesiredAccess [in]
@@ -114,11 +102,6 @@ If <i>Connect</i>-&gt;<b>PinToHandle</b> is <b>NULL</b>, <b>KsCreatePin</b> crea
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
-
-
-
-<a href="..\ks\ns-ks-kspin_connect.md">KSPIN_CONNECT</a>
 
 
 
@@ -126,9 +109,12 @@ If <i>Connect</i>-&gt;<b>PinToHandle</b> is <b>NULL</b>, <b>KsCreatePin</b> crea
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561656">KSDATAFORMAT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563531">KSPIN_CONNECT</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsCreatePin function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

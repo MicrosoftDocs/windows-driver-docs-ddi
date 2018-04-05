@@ -7,7 +7,7 @@ old-location: debugger\debug_last_event_info_unload_module.htm
 old-project: debugger
 ms.assetid: D569C1DD-0ACB-41AA-8589-BD4332006CA2
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/26/2018
 ms.keywords: "*PDEBUG_LAST_EVENT_INFO_UNLOAD_MODULE, DEBUG_LAST_EVENT_INFO_UNLOAD_MODULE, DEBUG_LAST_EVENT_INFO_UNLOAD_MODULE structure [Windows Debugging], PDEBUG_LAST_EVENT_INFO_UNLOAD_MODULE, PDEBUG_LAST_EVENT_INFO_UNLOAD_MODULE structure pointer [Windows Debugging], _DEBUG_LAST_EVENT_INFO_UNLOAD_MODULE, dbgeng/DEBUG_LAST_EVENT_INFO_UNLOAD_MODULE, dbgeng/PDEBUG_LAST_EVENT_INFO_UNLOAD_MODULE, debugger.debug_last_event_info_unload_module"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	DbgEng.h
 api_name:
 -	DEBUG_LAST_EVENT_INFO_UNLOAD_MODULE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DEBUG_LAST_EVENT_INFO_UNLOAD_MODULE, *PDEBUG_LAST_EVENT_INFO_UNLOAD_MODULE
 ---
@@ -50,16 +51,6 @@ req.typenames: DEBUG_LAST_EVENT_INFO_UNLOAD_MODULE, *PDEBUG_LAST_EVENT_INFO_UNLO
 
 
 Describes the unload module of the last event. 
-
-
-## -syntax
-
-
-````
-typedef struct _DEBUG_LAST_EVENT_INFO_UNLOAD_MODULE {
-  ULONG64 Base;
-} DEBUG_LAST_EVENT_INFO_UNLOAD_MODULE, *PDEBUG_LAST_EVENT_INFO_UNLOAD_MODULE;
-````
 
 
 ## -struct-fields

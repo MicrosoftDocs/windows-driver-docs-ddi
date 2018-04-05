@@ -7,7 +7,7 @@ old-location: storage\stor_log_event_details.htm
 old-project: storage
 ms.assetid: 2370e730-6c35-45e6-a370-62adc10df53b
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSTOR_LOG_EVENT_DETAILS, PSTOR_LOG_EVENT_DETAILS, PSTOR_LOG_EVENT_DETAILS structure pointer [Storage Devices], STOR_LOG_EVENT_DETAILS, STOR_LOG_EVENT_DETAILS structure [Storage Devices], _STOR_LOG_EVENT_DETAILS, storage.stor_log_event_details, storport/PSTOR_LOG_EVENT_DETAILS, storport/STOR_LOG_EVENT_DETAILS, structs-storport_ba65fe62-1b9a-4234-b9a4-b145bf549699.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	storport.h
 api_name:
 -	STOR_LOG_EVENT_DETAILS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STOR_LOG_EVENT_DETAILS, *PSTOR_LOG_EVENT_DETAILS
 req.product: Windows 10 or later.
@@ -53,29 +54,6 @@ req.product: Windows 10 or later.
 The <b>STOR_LOG_EVENT_DETAILS</b> structure provides details pertaining to Storport-specific error log events and system  log events.
 
 
-## -syntax
-
-
-````
-typedef struct _STOR_LOG_EVENT_DETAILS {
-  ULONG                       InterfaceRevision;
-  ULONG                       Size;
-  ULONG                       Flags;
-  STOR_EVENT_ASSOCIATION_ENUM EventAssociation;
-  ULONG                       PathId;
-  ULONG                       TargetId;
-  ULONG                       LunId;
-  BOOLEAN                     StorportSpecificErrorCode;
-  ULONG                       ErrorCode;
-  ULONG                       UniqueId;
-  ULONG                       DumpDataSize;
-  PVOID                       DumpData;
-  ULONG                       StringCount;
-  PWSTR                       *StringList;
-} STOR_LOG_EVENT_DETAILS, *PSTOR_LOG_EVENT_DETAILS;
-````
-
-
 ## -struct-fields
 
 
@@ -88,7 +66,7 @@ The revision number of this interface. Set to STOR_CURRENT_LOG_INTERFACE_REVISIO
 
 ### -field Size
 
-The size of this structure. Set before calling <a href="..\storport\nf-storport-storportlogsystemevent.md">StorPortLogSystemEvent</a>.
+The size of this structure. Set before calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff567428">StorPortLogSystemEvent</a>.
 
 
 ### -field Flags
@@ -155,24 +133,22 @@ The list of null-terminated Unicode strings to be appended to the log entry for 
 
 
 
-Although <a href="..\storport\nf-storport-storportlogerror.md">StorPortLogError</a> uses <b>PathId</b>, <b>TargetId</b>, and <b>LunId</b> values that are 8bits wide, for <a href="..\storport\nf-storport-storportlogsystemevent.md">StorPortLogSystemEvent</a> they are 32bits wide. The combined size of the miniport driver's dump data and string areas cannot exceed 150 bytes. This restriction is due to the &lt; 255 byte limit that the kernel enforces on the event log entries.
+Although <a href="https://msdn.microsoft.com/library/windows/hardware/ff567426">StorPortLogError</a> uses <b>PathId</b>, <b>TargetId</b>, and <b>LunId</b> values that are 8bits wide, for <a href="https://msdn.microsoft.com/library/windows/hardware/ff567428">StorPortLogSystemEvent</a> they are 32bits wide. The combined size of the miniport driver's dump data and string areas cannot exceed 150 bytes. This restriction is due to the &lt; 255 byte limit that the kernel enforces on the event log entries.
 
 
 
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportlogsystemevent.md">StorPortLogSystemEvent</a>
 
 
 
-<a href="..\storport\ne-storport-_stor_event_association_enum.md">STOR_EVENT_ASSOCIATION_ENUM</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567582">STOR_EVENT_ASSOCIATION_ENUM</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567428">StorPortLogSystemEvent</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20STOR_LOG_EVENT_DETAILS structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

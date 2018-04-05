@@ -7,7 +7,7 @@ old-location: ifsk\seclookupaccountname.htm
 old-project: ifsk
 ms.assetid: 5b1c3cc4-6185-4299-86ed-662a2b445042
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: SecLookupAccountName, SecLookupAccountName function [Installable File System Drivers], ifsk.seclookupaccountname, ksecddref_1f4959e5-ea3b-440d-af1b-df05782eefce.xml, ntifs/SecLookupAccountName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ksecdd.dll
 api_name:
 -	SecLookupAccountName
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -51,21 +52,6 @@ req.typenames: TOKEN_TYPE
 
 
 <b>SecLookupAccountName</b> accepts an account as input and retrieves a security identifier (SID) for the account and the name of the domain on which the account was found.
-
-
-## -syntax
-
-
-````
-NTSTATUS SecLookupAccountName(
-  _In_    PUNICODE_STRING Name,
-  _Inout_ PULONG          SidSize,
-  _Out_   PSID            Sid,
-  _Out_   PSID_NAME_USE   NameUse,
-  _Out_   PULONG          DomainSize,
-  _Inout_ PUNICODE_STRING ReferencedDomain
-);
-````
 
 
 ## -parameters
@@ -212,25 +198,23 @@ In addition to looking up local accounts, local domain accounts, and explicitly 
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-seclookupwellknownsid.md">SecLookupWellKnownSid</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-seclookupaccountsid.md">SecLookupAccountSid</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556744">SID_NAME_USE</a>
 
 
 
-<a href="..\ntifs\ne-ntifs-_sid_name_use.md">SID_NAME_USE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556579">SecLookupAccountSid</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556582">SecLookupWellKnownSid</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20SecLookupAccountName function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

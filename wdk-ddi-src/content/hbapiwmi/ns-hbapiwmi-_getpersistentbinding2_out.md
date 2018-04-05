@@ -7,7 +7,7 @@ old-location: storage\getpersistentbinding2_out.htm
 old-project: storage
 ms.assetid: 883a7a56-ecb9-428f-a15a-ba428a626bed
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PGetPersistentBinding2_OUT, GetPersistentBinding2_OUT, GetPersistentBinding2_OUT structure [Storage Devices], PGetPersistentBinding2_OUT, PGetPersistentBinding2_OUT structure pointer [Storage Devices], _GetPersistentBinding2_OUT, hbapiwmi/GetPersistentBinding2_OUT, hbapiwmi/PGetPersistentBinding2_OUT, storage.getpersistentbinding2_out, structs-Fibre_e6ffe5e2-f1e2-4b40-836c-954eb31301de.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	hbapiwmi.h
 api_name:
 -	GetPersistentBinding2_OUT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GetPersistentBinding2_OUT, *PGetPersistentBinding2_OUT
 ---
@@ -50,19 +51,6 @@ req.typenames: GetPersistentBinding2_OUT, *PGetPersistentBinding2_OUT
 
 
 The GetBindingSupport_OUT structure is used to report the output parameter data of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554959">GetPersistentBinding2</a> WMI method to the WMI client.
-
-
-## -syntax
-
-
-````
-typedef struct _GetPersistentBinding2_OUT {
-  ULONG               HBAStatus;
-  ULONG               TotalEntryCount;
-  ULONG               OutEntryCount;
-  HBAFCPBindingEntry2 Bindings[1];
-} GetPersistentBinding2_OUT, *PGetPersistentBinding2_OUT;
-````
 
 
 ## -struct-fields
@@ -87,7 +75,7 @@ Indicates the total number of persistent bindings retrieved by the GetPersistent
 
 ### -field Bindings
 
-Contains an array of structures of type <a href="..\hbapiwmi\ns-hbapiwmi-_hbafcpbindingentry2.md">HBAFCPBindingEntry2</a> that describe an HBA's bindings between operating system and fibre channel protocol (FCP) identifiers.
+Contains an array of structures of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff556035">HBAFCPBindingEntry2</a> that describe an HBA's bindings between operating system and fibre channel protocol (FCP) identifiers.
 
 
 ## -remarks
@@ -101,13 +89,11 @@ The WMI tool suite generates a declaration of the GetPersistentBinding2_OUT stru
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554959">GetPersistentBinding2</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20GetPersistentBinding2_OUT structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

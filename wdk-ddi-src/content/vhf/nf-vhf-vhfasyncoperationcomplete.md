@@ -39,7 +39,8 @@ api_location:
 -	VhfKm.dll
 api_name:
 -	VhfAsyncOperationComplete
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USB_SUPERSPEED_ENDPOINT_COMPANION_DESCRIPTOR, *PUSB_SUPERSPEED_ENDPOINT_COMPANION_DESCRIPTOR
 req.product: Windows 10 or later.
@@ -54,17 +55,6 @@ req.product: Windows 10 or later.
 The HID source driver calls this method to set the results of an asynchronous operation. 
 
 
-## -syntax
-
-
-````
-NTSTATUS VhfAsyncOperationComplete(
-  [in] VHFOPERATIONHANDLE VhfOperationHandle,
-  [in] NTSTATUS           CompletionStatus
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +62,7 @@ NTSTATUS VhfAsyncOperationComplete(
 
 ### -param VhfOperationHandle [in]
 
-The operation handle set by Virtual HID Framework (VHF). This handle is passed to the HID source driver  in the <i>VhfOperationHandle</i> parameter of <a href="..\vhf\nc-vhf-evt_vhf_async_operation.md">EvtVhfAsyncOperation</a>.
+The operation handle set by Virtual HID Framework (VHF). This handle is passed to the HID source driver  in the <i>VhfOperationHandle</i> parameter of <a href="https://msdn.microsoft.com/C42174FE-202F-405D-840B-8613762F43AC">EvtVhfAsyncOperation</a>.
 
 
 ### -param CompletionStatus [in]
@@ -93,20 +83,18 @@ If the <b>VhfAsyncOperationComplete</b> call succeeds, the method returns STATUS
 
 
 
-The HID source driver can call  from the event callback or at a later time after returning from the <a href="..\vhf\nc-vhf-evt_vhf_async_operation.md">EvtVhfAsyncOperation</a> callback.
+The HID source driver can call  from the event callback or at a later time after returning from the <a href="https://msdn.microsoft.com/C42174FE-202F-405D-840B-8613762F43AC">EvtVhfAsyncOperation</a> callback.
 
 
 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/26964963-792F-4529-B4FC-110BF5C65B35">Write a HID source driver by using Virtual HID Framework (VHF)</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [hid\hid]:%20VhfAsyncOperationComplete method%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

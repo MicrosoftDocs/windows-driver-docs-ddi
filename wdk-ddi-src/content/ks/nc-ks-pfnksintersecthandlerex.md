@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	AVStrMiniIntersectHandlerEx
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SOUNDDETECTOR_PATTERNHEADER
 ---
@@ -52,26 +53,6 @@ req.typenames: SOUNDDETECTOR_PATTERNHEADER
 AVStream calls a minidriver's <i>AVStrMiniIntersectHandlerEx</i> routine to determine the highest quality intersection of two data ranges.
 
 
-## -prototype
-
-
-````
-PFNKSINTERSECTHANDLEREX AVStrMiniIntersectHandlerEx;
-
-NTSTATUS AVStrMiniIntersectHandlerEx(
-  _In_  PVOID        Context,
-  _In_  PIRP         Irp,
-  _In_  PKSP_PIN     Pin,
-  _In_  PKSDATARANGE DataRange,
-  _In_  PKSDATARANGE MatchingDataRange,
-  _In_  ULONG        DataBufferSize,
-  _Out_ PVOID        Data,
-  _Out_ PULONG       DataSize
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -79,17 +60,17 @@ NTSTATUS AVStrMiniIntersectHandlerEx(
 
 ### -param Context [in]
 
-Pointer to the <b>Context</b> member of the corresponding <a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a> structure.
+Pointer to the <b>Context</b> member of the corresponding <a href="https://msdn.microsoft.com/library/windows/hardware/ff562522">KSFILTER</a> structure.
 
 
 ### -param Irp [in]
 
-Pointer to the <a href="..\wdm\ns-wdm-_irp.md">IRP</a> containing the intersection request.
+Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550694">IRP</a> containing the intersection request.
 
 
 ### -param Pin [in]
 
-Pointer to a structure of type <a href="..\ks\ns-ks-ksp_pin.md">KSP_PIN</a> that was passed in the intersection property request.
+Pointer to a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff566722">KSP_PIN</a> that was passed in the intersection property request.
 
 
 ### -param DataRange [in]
@@ -130,30 +111,13 @@ If the callback finds a match, return STATUS_SUCCESS. Otherwise return STATUS_NO
 
 
 
-The minidriver specifies this routine's address in the <b>IntersectHandler</b> member of a <a href="..\ks\ns-ks-_kspin_descriptor_ex.md">KSPIN_DESCRIPTOR_EX</a> structure.
+The minidriver specifies this routine's address in the <b>IntersectHandler</b> member of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563534">KSPIN_DESCRIPTOR_EX</a> structure.
 
 
 
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kspindataintersectionex.md">KsPinDataIntersectionEx</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565198">KSPROPERTY_PIN_DATAINTERSECTION</a>
-
-
-
-<a href="..\ks\ns-ks-ksp_pin.md">KSP_PIN</a>
-
-
-
-<a href="..\ks\ns-ks-_kspin_descriptor_ex.md">KSPIN_DESCRIPTOR_EX</a>
-
-
-
-<a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>
 
 
 
@@ -161,9 +125,24 @@ The minidriver specifies this routine's address in the <b>IntersectHandler</b> m
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562522">KSFILTER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563534">KSPIN_DESCRIPTOR_EX</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565198">KSPROPERTY_PIN_DATAINTERSECTION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566722">KSP_PIN</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563499">KsPinDataIntersectionEx</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20PFNKSINTERSECTHANDLEREX routine%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILRADIOSTATEPASSWORD
 title: RILRADIOSTATEPASSWORD
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilradiostatepassword_2.htm
+old-location: netvista\rilradiostatepassword.htm
 old-project: netvista
-ms.assetid: 879f38f7-ae13-4a39-bc68-b5c5f5f4f32c
+ms.assetid: 5329a688-ca72-456c-b9fa-32a922783d97
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: "*LPRILRADIOSTATEPASSWORD, RILRADIOSTATEPASSWORD, RILRADIOSTATEPASSWORD structure [Network Drivers Starting with Windows Vista], netvista.rilradiostatepassword_2, rilapitypes/RILRADIOSTATEPASSWORD"
+ms.date: 3/26/2018
+ms.keywords: "*LPRILRADIOSTATEPASSWORD, RILRADIOSTATEPASSWORD, RILRADIOSTATEPASSWORD structure [Network Drivers Starting with Windows Vista], netvista.rilradiostatepassword, ntddrilapitypes/RILRADIOSTATEPASSWORD"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,10 +35,11 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILRADIOSTATEPASSWORD
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILRADIOSTATEPASSWORD, *LPRILRADIOSTATEPASSWORD
 req.product: Windows 10 or later.
@@ -50,18 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-
-## -syntax
-
-
-````
-typedef struct _RILRADIOSTATEPASSWORD {
-  DWORD                                 dwPasswordId;
-  WCHAR [MAXLENGTH_RADIOPASSWORD_WCHAR] wszPassword;
-} RILRADIOSTATEPASSWORD, RILRADIOSTATEPASSWORD;
-````
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -struct-fields

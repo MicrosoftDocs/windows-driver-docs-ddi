@@ -7,7 +7,7 @@ old-location: storage\hba_sendrps.htm
 old-project: storage
 ms.assetid: 6a79896a-0591-40dd-8e2d-6e3796556564
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: HBA_SendRPS, HBA_SendRPS routine [Storage Devices], fibreHBA_rtns_753d25be-cb77-4e65-ab1b-1f2b77d65ec8.xml, hbaapi/HBA_SendRPS, storage.hba_sendrps
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Hbaapi.dll
 api_name:
 -	HBA_SendRPS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: HBA_WWNTYPE
 ---
@@ -52,23 +53,6 @@ req.typenames: HBA_WWNTYPE
 The <b>HBA_SendRPS</b> routine sends a read port status block (RPS) request to the indicated agent port or domain controller. 
 
 
-## -syntax
-
-
-````
-HBA_STATUS HBA_API HBA_SendRPS(
-  _In_    HBA_HANDLE Handle,
-  _In_    HBA_WWN    hbaPortWWN,
-  _In_    HBA_WWN    agent_wwn,
-  _In_    HBA_UINT32 agent_domain,
-  _In_    HBA_WWN    object_wwn,
-  _In_    HBA_UINT32 object_port_number,
-  _Out_   void       *pRspBuffer,
-  _Inout_ HBA_UINT32 *RspBufferSize
-);
-````
-
-
 ## -parameters
 
 
@@ -76,7 +60,7 @@ HBA_STATUS HBA_API HBA_SendRPS(
 
 ### -param Handle [in]
 
-Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a> that identifies the local HBA through which the request is sent. 
+Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a> that identifies the local HBA through which the request is sent. 
 
 
 ### -param HbaPortWWN
@@ -209,17 +193,15 @@ Returned if an unspecified error occurred that prevented the execution of the RP
 
 ## -see-also
 
-<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20HBA_SendRPS routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

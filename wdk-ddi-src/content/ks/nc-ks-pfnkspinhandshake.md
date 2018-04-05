@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	AVStrMiniPinHandshake
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SOUNDDETECTOR_PATTERNHEADER
 ---
@@ -50,21 +51,6 @@ req.typenames: SOUNDDETECTOR_PATTERNHEADER
 
 
 An AVStream minidriver's <i>AVStrMiniPinHandshake</i> routine is called when AVStream receives a protocol handshake request that it does not handle.
-
-
-## -prototype
-
-
-````
-PFNKSPINHANDSHAKE AVStrMiniPinHandshake;
-
-NTSTATUS AVStrMiniPinHandshake(
-  _In_ PKSPIN       Irp,
-  _In_ PKSHANDSHAKE Request,
-  _In_ PKSHANDSHAKE Data
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -89,7 +75,7 @@ NTSTATUS AVStrMiniPinHandshake(
 
 #### - Data [in]
 
-Pointer to a caller-allocated buffer. If the pin supports the requested protocol, <i>AVStrMiniPinHandshake</i> should fill in this parameter with a pointer to a <a href="..\ks\ns-ks-kshandshake.md">KSHANDSHAKE</a> structure.
+Pointer to a caller-allocated buffer. If the pin supports the requested protocol, <i>AVStrMiniPinHandshake</i> should fill in this parameter with a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff562673">KSHANDSHAKE</a> structure.
 
 
 #### - Irp [in]
@@ -99,7 +85,7 @@ Pointer to the IRP containing the handshake request.
 
 #### - Request [in]
 
-Pointer to a <a href="..\ks\ns-ks-ksidentifier.md">KSIDENTIFIER</a> structure that contains a GUID identifying the requested protocol.
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff562676">KSIDENTIFIER</a> structure that contains a GUID identifying the requested protocol.
 
 
 ## -returns
@@ -115,28 +101,26 @@ Returns STATUS_SUCCESS if the pin supports the requested protocol. Otherwise, it
 
 
 
-The minidriver specifies this routine's address in the <i>Handshake</i> parameter of a call to <a href="..\ks\nf-ks-kspinregisterhandshakecallback.md">KsPinRegisterHandshakeCallback</a>.
+The minidriver specifies this routine's address in the <i>Handshake</i> parameter of a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff563523">KsPinRegisterHandshakeCallback</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kspinregisterhandshakecallback.md">KsPinRegisterHandshakeCallback</a>
 
 
 
-<a href="..\ks\ns-ks-ksidentifier.md">KSIDENTIFIER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562673">KSHANDSHAKE</a>
 
 
 
-<a href="..\ks\ns-ks-kshandshake.md">KSHANDSHAKE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562676">KSIDENTIFIER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563523">KsPinRegisterHandshakeCallback</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20PFNKSPINHANDSHAKE routine%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

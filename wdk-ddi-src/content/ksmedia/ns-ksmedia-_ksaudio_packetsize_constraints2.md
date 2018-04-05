@@ -7,7 +7,7 @@ old-location: audio\ksaudio_packetsize_constraints2.htm
 old-project: audio
 ms.assetid: E87C7AA7-A48A-4569-ADD5-9DC143F919B6
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 3/19/2018
 ms.keywords: FILE_128_BYTE_ALIGNMENT, FILE_256_BYTE_ALIGNMENT, FILE_32_BYTE_ALIGNMENT, FILE_512_BYTE_ALIGNMENT, FILE_64_BYTE_ALIGNMENT, FILE_BYTE_ALIGNMENT, FILE_LONG_ALIGNMENT, FILE_OCTA_ALIGNMENT, FILE_QUAD_ALIGNMENT, FILE_WORD_ALIGNMENT, KSAUDIO_PACKETSIZE_CONSTRAINTS2, KSAUDIO_PACKETSIZE_CONSTRAINTS2 structure [Audio Devices], PKSAUDIO_PACKETSIZE_CONSTRAINTS2, PKSAUDIO_PACKETSIZE_CONSTRAINTS2 structure pointer [Audio Devices], _KSAUDIO_PACKETSIZE_CONSTRAINTS2, audio.ksaudio_packetsize_constraints2, ksmedia/KSAUDIO_PACKETSIZE_CONSTRAINTS2, ksmedia/PKSAUDIO_PACKETSIZE_CONSTRAINTS2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KSAUDIO_PACKETSIZE_CONSTRAINTS2
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSAUDIO_PACKETSIZE_CONSTRAINTS2
 ---
@@ -49,22 +50,8 @@ req.typenames: KSAUDIO_PACKETSIZE_CONSTRAINTS2
 ## -description
 
 
-The <b>KSAUDIO_PACKETSIZE_CONSTRAINTS2</b> structure describes the physical hardware constraints. It includes an array of 0 or more <a href="..\ksmedia\ns-ksmedia-_ksaudio_packetsize_signalprocessingmode_constraint.md">KSAUDIO_PACKETSIZE_PROCESSINGMODE_CONSTRAINT</a> structures describing constraints specific to any signal processing modes.
-The driver sets this property before calling <a href="..\portcls\nf-portcls-pcregistersubdevice.md">PcRegisterSubdevice</a> or otherwise enabling its KS filter interface for its streaming pins.
-
-
-## -syntax
-
-
-````
-typedef struct _KSAUDIO_PACKETSIZE_CONSTRAINTS2 {
-  ULONG                                                                                   MinPacketPeriodInHns;
-  ULONG                                                                                   PacketSizeFileAlignment;
-  ULONG                                                                                   MaxPacketSizeInBytes;
-  ULONG                                                                                   NumProcessingModeConstraints;
-  _Field_size_(NumProcessingModeConstraints) KSAUDIO_PACKETSIZE_PROCESSINGMODE_CONSTRAINT ProcessingModeConstraints[ANYSIZE_ARRAY];
-} KSAUDIO_PACKETSIZE_CONSTRAINTS2, *PKSAUDIO_PACKETSIZE_CONSTRAINTS2;
-````
+The <b>KSAUDIO_PACKETSIZE_CONSTRAINTS2</b> structure describes the physical hardware constraints. It includes an array of 0 or more <a href="https://msdn.microsoft.com/library/windows/hardware/dn965562">KSAUDIO_PACKETSIZE_PROCESSINGMODE_CONSTRAINT</a> structures describing constraints specific to any signal processing modes.
+The driver sets this property before calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff537731">PcRegisterSubdevice</a> or otherwise enabling its KS filter interface for its streaming pins.
 
 
 ## -struct-fields

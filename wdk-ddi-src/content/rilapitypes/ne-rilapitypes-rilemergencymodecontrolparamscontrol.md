@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILEMERGENCYMODECONTROLPARAMSCONTROL
 title: RILEMERGENCYMODECONTROLPARAMSCONTROL
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilemergencymodecontrolparamscontrol_2.htm
+old-location: netvista\rilemergencymodecontrolparamscontrol.htm
 old-project: netvista
-ms.assetid: b169e3a3-141b-4bca-9eaa-ce55f7194e4f
+ms.assetid: ac5a2ae3-3fdc-463f-96df-22b441e38724
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: RILEMERGENCYMODECONTROLPARAMSCONTROL, RILEMERGENCYMODECONTROLPARAMSCONTROL enumeration [Network Drivers Starting with Windows Vista], RIL_EMC_ALL_MODEMS_ARE_IN_NORMAL_MODE, RIL_EMC_MAX, RIL_EMC_OTHER_MODEM_IN_EMERGECY_MODE, netvista.rilemergencymodecontrolparamscontrol_2, rilapitypes/RILEMERGENCYMODECONTROLPARAMSCONTROL, rilapitypes/RIL_EMC_ALL_MODEMS_ARE_IN_NORMAL_MODE, rilapitypes/RIL_EMC_MAX, rilapitypes/RIL_EMC_OTHER_MODEM_IN_EMERGECY_MODE
+ms.date: 3/26/2018
+ms.keywords: RILEMERGENCYMODECONTROLPARAMSCONTROL, RILEMERGENCYMODECONTROLPARAMSCONTROL enumeration [Network Drivers Starting with Windows Vista], RIL_EMC_ALL_MODEMS_ARE_IN_NORMAL_MODE, RIL_EMC_MAX, RIL_EMC_OTHER_MODEM_IN_EMERGECY_MODE, netvista.rilemergencymodecontrolparamscontrol, ntddrilapitypes/RILEMERGENCYMODECONTROLPARAMSCONTROL, ntddrilapitypes/RIL_EMC_ALL_MODEMS_ARE_IN_NORMAL_MODE, ntddrilapitypes/RIL_EMC_MAX, ntddrilapitypes/RIL_EMC_OTHER_MODEM_IN_EMERGECY_MODE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -35,10 +35,11 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILEMERGENCYMODECONTROLPARAMSCONTROL
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILEMERGENCYMODECONTROLPARAMSCONTROL
 req.product: Windows 10 or later.
@@ -50,19 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-
-## -syntax
-
-
-````
-typedef enum _RILEMERGENCYMODECONTROLPARAMSCONTROL { 
-  RIL_EMC_OTHER_MODEM_IN_EMERGECY_MODE,
-  RIL_EMC_ALL_MODEMS_ARE_IN_NORMAL_MODE,
-  RIL_EMC_MAX
-} RILEMERGENCYMODECONTROLPARAMSCONTROL;
-````
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -enum-fields

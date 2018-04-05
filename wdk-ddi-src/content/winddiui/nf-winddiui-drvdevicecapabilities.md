@@ -7,7 +7,7 @@ old-location: print\drvdevicecapabilities.htm
 old-project: print
 ms.assetid: a8ea236d-42f9-45c5-b2f6-035e0ba28f75
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: DrvDeviceCapabilities, DrvDeviceCapabilities function [Print Devices], print.drvdevicecapabilities, print_interface-graphics_cbe99c7b-a94f-47b2-8c51-d99bdcdec7d3.xml, winddiui/DrvDeviceCapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	winddiui.h
 api_name:
 -	DrvDeviceCapabilities
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WINBIO_VERSION, *PWINBIO_VERSION
 req.product: Windows 10 or later.
@@ -51,20 +52,6 @@ req.product: Windows 10 or later.
 
 
 A printer interface DLL's <b>DrvDeviceCapabilities</b> function returns requested information about a printer's capabilities.
-
-
-## -syntax
-
-
-````
-DWORD DrvDeviceCapabilities(
-        HANDLE   hPrinter,
-  _In_  PWSTR    pDeviceName,
-        WORD     iDevCap,
-  _Out_ PVOID    pvOutput,
-  _In_  PDEVMODE pDevMode
-);
-````
 
 
 ## -parameters

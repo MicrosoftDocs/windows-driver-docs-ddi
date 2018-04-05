@@ -38,7 +38,8 @@ api_location:
 -	bdasup.h
 api_name:
 -	BDA_FILTER_TEMPLATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BDA_FILTER_TEMPLATE, *PBDA_FILTER_TEMPLATE
 ---
@@ -50,18 +51,6 @@ req.typenames: BDA_FILTER_TEMPLATE, *PBDA_FILTER_TEMPLATE
 
 
 The BDA_FILTER_TEMPLATE structure describes the template topology for a BDA filter. 
-
-
-## -syntax
-
-
-````
-typedef struct _BDA_FILTER_TEMPLATE {
-  const KSFILTER_DESCRIPTOR *pFilterDescriptor;
-  ULONG                     ulcPinPairs;
-  const BDA_PIN_PAIRING     *pPinPairs;
-} BDA_FILTER_TEMPLATE, *PBDA_FILTER_TEMPLATE;
-````
 
 
 ## -struct-fields
@@ -86,25 +75,23 @@ Array of BDA_PIN_PAIRING structures that describe the topology between a pair of
 
 ## -see-also
 
-<a href="..\bdasup\ns-bdasup-_bda_pin_pairing.md">BDA_PIN_PAIRING</a>
 
 
 
-<a href="..\bdasup\nf-bdasup-bdacreatefilterfactory.md">BdaCreateFilterFactory</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556544">BDA_PIN_PAIRING</a>
 
 
 
-<a href="..\ks\ns-ks-_ksfilter_descriptor.md">KSFILTER_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556438">BdaCreateFilterFactory</a>
 
 
 
-<a href="..\bdasup\nf-bdasup-bdainitfilter.md">BdaInitFilter</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556464">BdaInitFilter</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562553">KSFILTER_DESCRIPTOR</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20BDA_FILTER_TEMPLATE structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

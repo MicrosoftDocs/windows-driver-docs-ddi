@@ -7,7 +7,7 @@ old-location: netvista\rilgbacapable.htm
 old-project: netvista
 ms.assetid: c1acc574-6e9e-40a1-8892-00572fcc545c
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: RILGBACAPABLE, RILGBACAPABLE enumeration [Network Drivers Starting with Windows Vista], RIL_GBA_ME_SUPPORTED, RIL_GBA_NOT_SUPPORTED, RIL_GBA_UNKNOWN, RIL_GBA_U_SUPPORTED, netvista.rilgbacapable, oemrilapitypes/RILGBACAPABLE, oemrilapitypes/RIL_GBA_ME_SUPPORTED, oemrilapitypes/RIL_GBA_NOT_SUPPORTED, oemrilapitypes/RIL_GBA_UNKNOWN, oemrilapitypes/RIL_GBA_U_SUPPORTED
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	oemrilapitypes.h
 api_name:
 -	RILGBACAPABLE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILGBACAPABLE
 ---
@@ -50,19 +51,6 @@ req.typenames: RILGBACAPABLE
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef enum _RILGBACAPABLE { 
-  RIL_GBA_UNKNOWN,
-  RIL_GBA_NOT_SUPPORTED,
-  RIL_GBA_ME_SUPPORTED,
-  RIL_GBA_U_SUPPORTED
-} RILGBACAPABLE;
-````
 
 
 ## -enum-fields

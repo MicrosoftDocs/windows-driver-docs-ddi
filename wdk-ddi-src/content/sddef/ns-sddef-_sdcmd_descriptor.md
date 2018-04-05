@@ -38,7 +38,8 @@ api_location:
 -	sddef.h
 api_name:
 -	SDCMD_DESCRIPTOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SDCMD_DESCRIPTOR, *PSDCMD_DESCRIPTOR
 req.product: Windows 10 or later.
@@ -51,20 +52,6 @@ req.product: Windows 10 or later.
 
 
 The SDCMD_DESCRIPTOR structure defines a Secure Digital (SD) card command.
-
-
-## -syntax
-
-
-````
-typedef struct _SDCMD_DESCRIPTOR {
-  SD_COMMAND_CODE       Cmd;
-  SD_COMMAND_CLASS      CmdClass;
-  SD_TRANSFER_DIRECTION TransferDirection;
-  SD_TRANSFER_TYPE      TransferType;
-  SD_RESPONSE_TYPE      ResponseType;
-} SDCMD_DESCRIPTOR, *PSDCMD_DESCRIPTOR;
-````
 
 
 ## -struct-fields
@@ -135,15 +122,14 @@ If a driver submits a command request without properly initializing the <b>Trans
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538003">SD_COMMAND_CLASS</a>
 
 
 
-<a href="https://msdn.microsoft.com/1e821ca5-ff65-48a1-be5c-6d776c61f166">SD_TRANSFER_DIRECTION</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537914">SdBusSubmitRequestAsync</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538008">SD_COMMAND_CODE</a>
 
 
 
@@ -155,6 +141,10 @@ If a driver submits a command request without properly initializing the <b>Trans
 
 
 
+<a href="https://msdn.microsoft.com/1e821ca5-ff65-48a1-be5c-6d776c61f166">SD_TRANSFER_DIRECTION</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538045">SD_TRANSFER_TYPE</a>
 
 
@@ -163,13 +153,8 @@ If a driver submits a command request without properly initializing the <b>Trans
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538008">SD_COMMAND_CODE</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537914">SdBusSubmitRequestAsync</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [SD\buses]:%20SDCMD_DESCRIPTOR structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

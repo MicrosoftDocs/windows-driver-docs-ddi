@@ -7,7 +7,7 @@ old-location: storage\tape_get_drive_parameters.htm
 old-project: storage
 ms.assetid: 2b1b196f-f012-4136-983e-8c8192bdbd2f
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PTAPE_GET_DRIVE_PARAMETERS, PTAPE_GET_DRIVE_PARAMETERS, PTAPE_GET_DRIVE_PARAMETERS structure pointer [Storage Devices], TAPE_GET_DRIVE_PARAMETERS, TAPE_GET_DRIVE_PARAMETERS structure [Storage Devices], _TAPE_GET_DRIVE_PARAMETERS, ntddtape/PTAPE_GET_DRIVE_PARAMETERS, ntddtape/TAPE_GET_DRIVE_PARAMETERS, storage.tape_get_drive_parameters, structs-tape_aa0e95ac-ea8b-4c88-abc0-7809cd538e26.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddtape.h
 api_name:
 -	TAPE_GET_DRIVE_PARAMETERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TAPE_GET_DRIVE_PARAMETERS, *PTAPE_GET_DRIVE_PARAMETERS
 ---
@@ -49,27 +50,7 @@ req.typenames: TAPE_GET_DRIVE_PARAMETERS, *PTAPE_GET_DRIVE_PARAMETERS
 ## -description
 
 
-The TAPE_GET_DRIVE_PARAMETERS structure is used in conjunction with the <a href="..\ntddtape\ni-ntddtape-ioctl_tape_get_drive_params.md">IOCTL_TAPE_GET_DRIVE_PARAMS</a> request to retrieve information about capabilities of the tape drive.
-
-
-## -syntax
-
-
-````
-typedef struct _TAPE_GET_DRIVE_PARAMETERS {
-  BOOLEAN ECC;
-  BOOLEAN Compression;
-  BOOLEAN DataPadding;
-  BOOLEAN ReportSetmarks;
-  ULONG   DefaultBlockSize;
-  ULONG   MaximumBlockSize;
-  ULONG   MinimumBlockSize;
-  ULONG   MaximumPartitionCount;
-  ULONG   FeaturesLow;
-  ULONG   FeaturesHigh;
-  ULONG   EOTWarningZoneSize;
-} TAPE_GET_DRIVE_PARAMETERS, *PTAPE_GET_DRIVE_PARAMETERS;
-````
+The TAPE_GET_DRIVE_PARAMETERS structure is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560618">IOCTL_TAPE_GET_DRIVE_PARAMS</a> request to retrieve information about capabilities of the tape drive.
 
 
 ## -struct-fields
@@ -710,17 +691,15 @@ Indicates the size in bytes of the early warning zone toward the end of the tape
 
 ## -see-also
 
-<a href="..\ntddtape\ni-ntddtape-ioctl_tape_get_drive_params.md">IOCTL_TAPE_GET_DRIVE_PARAMS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560618">IOCTL_TAPE_GET_DRIVE_PARAMS</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567936">TapeMiniGetDriveParameters</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20TAPE_GET_DRIVE_PARAMETERS structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -38,7 +38,8 @@ api_location:
 -	1394.h
 api_name:
 -	TOPOLOGY_MAP
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TOPOLOGY_MAP, *PTOPOLOGY_MAP
 ---
@@ -50,21 +51,6 @@ req.typenames: TOPOLOGY_MAP, *PTOPOLOGY_MAP
 
 
 The TOPOLOGY_MAP structure is used to store an IEEE 1394 bus topology map. The relations between devices are found in the port members of the entries in <b>TOP_Self_ID_Array</b>.
-
-
-## -syntax
-
-
-````
-typedef struct _TOPOLOGY_MAP {
-  USHORT  TOP_Length;
-  USHORT  TOP_CRC;
-  ULONG   TOP_Generation;
-  USHORT  TOP_Node_Count;
-  USHORT  TOP_Self_ID_Count;
-  SELF_ID TOP_Self_ID_Array[1];
-} TOPOLOGY_MAP, *PTOPOLOGY_MAP;
-````
 
 
 ## -struct-fields
@@ -113,13 +99,11 @@ All data will be in big-endian format.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537646">REQUEST_GET_SPEED_TOPOLOGY_MAPS</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [IEEE\buses]:%20TOPOLOGY_MAP structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

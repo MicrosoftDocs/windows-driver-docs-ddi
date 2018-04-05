@@ -38,7 +38,8 @@ api_location:
 -	ntddpcm.h
 api_name:
 -	PCMCIA_CONTROLLER_CLASS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PCMCIA_CONTROLLER_CLASS, *PPCMCIA_CONTROLLER_CLASS
 ---
@@ -50,31 +51,6 @@ req.typenames: PCMCIA_CONTROLLER_CLASS, *PPCMCIA_CONTROLLER_CLASS
 
 
 The PCMCIA_CONTROLLER_CLASS enumeration lists the different sorts of PC Card and CardBus controllers.
-
-
-## -syntax
-
-
-````
-typedef enum _PCMCIA_CONTROLLER_CLASS { 
-  PcmciaInvalidControllerClass  = -1,
-  PcmciaIntelCompatible         = 2,
-  PcmciaCardBusCompatible       = 3,
-  PcmciaElcController           = 4,
-  PcmciaDatabook                = 5,
-  PcmciaPciPcmciaBridge         = 6,
-  PcmciaCirrusLogic             = 7,
-  PcmciaTI                      = 8,
-  PcmciaTopic                   = 9,
-  PcmciaRicoh                   = 10,
-  PcmciaDatabookCB              = 11,
-  PcmciaOpti                    = 12,
-  PcmciaTrid                    = 13,
-  PcmciaO2Micro                 = 14,
-  PcmciaNEC                     = 15,
-  PcmciaNEC_98                  = 16
-} PCMCIA_CONTROLLER_CLASS, *PPCMCIA_CONTROLLER_CLASS;
-````
 
 
 ## -enum-fields
@@ -164,13 +140,11 @@ Indicates a NEC cardbus controller.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537612">PCMCIA_SOCKET_INFORMATION</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [PCMCIA\buses]:%20PCMCIA_CONTROLLER_CLASS enumeration%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

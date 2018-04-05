@@ -7,7 +7,7 @@ old-location: print\ipartimage_setimagecontent.htm
 old-project: print
 ms.assetid: 5d7a59ac-93de-4a41-9313-df189e1f6e36
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: IPartImage, IPartImage interface [Print Devices], SetImageContent method, IPartImage::SetImageContent, SetImageContent method [Print Devices], SetImageContent method [Print Devices], IPartImage interface, SetImageContent,IPartImage.SetImageContent, filterpipeline/IPartImage::SetImageContent, filterpipeline_1bbf6da0-f016-486d-a06d-768614fe1d5a.xml, print.ipartimage_setimagecontent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: filterpipeline.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	filterpipeline.h
 api_name:
 -	IPartImage.SetImageContent
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
@@ -50,16 +51,6 @@ req.typenames: EXpsFontRestriction
 
 
 The <b>SetImageContent</b> method sets an image property that is based on the content type.
-
-
-## -syntax
-
-
-````
-HRESULT SetImageContent(
-  [in] const wchar_t *contentType
-);
-````
 
 
 ## -parameters

@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILDIALEDIDSETTINGSPARAMMASK
 title: RILDIALEDIDSETTINGSPARAMMASK
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rildialedidsettingsparammask_2.htm
+old-location: netvista\rildialedidsettingsparammask.htm
 old-project: netvista
-ms.assetid: c69d03b7-ef07-41b3-9659-79ab05ecd4e9
+ms.assetid: 8883e9fc-9f2a-4367-ae2d-30260f2d2de6
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: RILDIALEDIDSETTINGSPARAMMASK, RILDIALEDIDSETTINGSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_DIDS_ALL, RIL_PARAM_DIDS_PROVISIONING, RIL_PARAM_DIDS_STATUS, netvista.rildialedidsettingsparammask_2, rilapitypes/RILDIALEDIDSETTINGSPARAMMASK, rilapitypes/RIL_PARAM_DIDS_ALL, rilapitypes/RIL_PARAM_DIDS_PROVISIONING, rilapitypes/RIL_PARAM_DIDS_STATUS
+ms.date: 3/26/2018
+ms.keywords: RILDIALEDIDSETTINGSPARAMMASK, RILDIALEDIDSETTINGSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_DIDS_ALL, RIL_PARAM_DIDS_PROVISIONING, RIL_PARAM_DIDS_STATUS, netvista.rildialedidsettingsparammask, ntddrilapitypes/RILDIALEDIDSETTINGSPARAMMASK, ntddrilapitypes/RIL_PARAM_DIDS_ALL, ntddrilapitypes/RIL_PARAM_DIDS_PROVISIONING, ntddrilapitypes/RIL_PARAM_DIDS_STATUS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -35,10 +35,11 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILDIALEDIDSETTINGSPARAMMASK
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILDIALEDIDSETTINGSPARAMMASK
 req.product: Windows 10 or later.
@@ -50,19 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-
-## -syntax
-
-
-````
-typedef enum _RILDIALEDIDSETTINGSPARAMMASK { 
-  RIL_PARAM_DIDS_PROVISIONING,
-  RIL_PARAM_DIDS_STATUS,
-  RIL_PARAM_DIDS_ALL
-} RILDIALEDIDSETTINGSPARAMMASK;
-````
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -enum-fields

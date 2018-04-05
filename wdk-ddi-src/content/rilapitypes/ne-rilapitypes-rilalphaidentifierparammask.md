@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILALPHAIDENTIFIERPARAMMASK
 title: RILALPHAIDENTIFIERPARAMMASK
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilalphaidentifierparammask_2.htm
+old-location: netvista\rilalphaidentifierparammask.htm
 old-project: netvista
-ms.assetid: 20ac3122-dece-48de-b29a-9d4f7e22c7e0
+ms.assetid: 33f51fb2-3308-4e24-925a-b17e117b18b6
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: RILALPHAIDENTIFIERPARAMMASK, RILALPHAIDENTIFIERPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_AI_ALL, RIL_PARAM_AI_REASON, netvista.rilalphaidentifierparammask_2, rilapitypes/RILALPHAIDENTIFIERPARAMMASK, rilapitypes/RIL_PARAM_AI_ALL, rilapitypes/RIL_PARAM_AI_REASON
+ms.date: 3/26/2018
+ms.keywords: RILALPHAIDENTIFIERPARAMMASK, RILALPHAIDENTIFIERPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_AI_ALL, RIL_PARAM_AI_REASON, netvista.rilalphaidentifierparammask, ntddrilapitypes/RILALPHAIDENTIFIERPARAMMASK, ntddrilapitypes/RIL_PARAM_AI_ALL, ntddrilapitypes/RIL_PARAM_AI_REASON
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -35,10 +35,11 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILALPHAIDENTIFIERPARAMMASK
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILALPHAIDENTIFIERPARAMMASK
 req.product: Windows 10 or later.
@@ -50,18 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-
-## -syntax
-
-
-````
-typedef enum _RILALPHAIDENTIFIERPARAMMASK { 
-  RIL_PARAM_AI_REASON,
-  RIL_PARAM_AI_ALL
-} RILALPHAIDENTIFIERPARAMMASK;
-````
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -enum-fields

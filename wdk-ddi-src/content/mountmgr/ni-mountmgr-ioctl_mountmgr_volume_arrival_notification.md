@@ -7,7 +7,7 @@ old-location: storage\ioctl_mountmgr_volume_arrival_notification.htm
 old-project: storage
 ms.assetid: 0c27c49e-a06c-4781-9d7f-50f15f9715ac
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_MOUNTMGR_VOLUME_ARRIVAL_NOTIFICATION, IOCTL_MOUNTMGR_VOLUME_ARRIVAL_NOTIFICATION control code [Storage Devices], k307_7a15b0f1-9be7-476f-936c-225e39ef53c0.xml, mountmgr/IOCTL_MOUNTMGR_VOLUME_ARRIVAL_NOTIFICATION, storage.ioctl_mountmgr_volume_arrival_notification
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,18 +38,14 @@ api_location:
 -	Mountmgr.h
 api_name:
 -	IOCTL_MOUNTMGR_VOLUME_ARRIVAL_NOTIFICATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MOUNTDEV_UNIQUE_ID, *PMOUNTDEV_UNIQUE_ID
 ---
 
 # IOCTL_MOUNTMGR_VOLUME_ARRIVAL_NOTIFICATION IOCTL
 
-
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -68,7 +64,7 @@ Clients that have registered a device interface of type MOUNTDEV_MOUNTED_DEVICE_
 
 ### -input-buffer
 
-The mount manager client loads the following structure with the nonpersistent target device name. The initialized structure, <a href="..\mountmgr\ns-mountmgr-_mountmgr_target_name.md">MOUNTMGR_TARGET_NAME</a>, defined in <i>Mountmgr.h</i>, is inserted at the beginning of the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>.
+The mount manager client loads the following structure with the nonpersistent target device name. The initialized structure, <a href="https://msdn.microsoft.com/library/windows/hardware/ff562289">MOUNTMGR_TARGET_NAME</a>, defined in <i>Mountmgr.h</i>, is inserted at the beginning of the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>.
 
 
 ### -input-buffer-length
@@ -113,13 +109,11 @@ The input buffer size, indicated by <b>InputBufferLength</b>, must be large enou
 
 ## -see-also
 
-<a href="..\mountmgr\ns-mountmgr-_mountmgr_target_name.md">MOUNTMGR_TARGET_NAME</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562289">MOUNTMGR_TARGET_NAME</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20IOCTL_MOUNTMGR_VOLUME_ARRIVAL_NOTIFICATION control code%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

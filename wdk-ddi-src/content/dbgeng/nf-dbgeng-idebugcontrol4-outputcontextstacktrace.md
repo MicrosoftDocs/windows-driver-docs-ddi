@@ -7,7 +7,7 @@ old-location: debugger\outputcontextstacktrace.htm
 old-project: debugger
 ms.assetid: da3d19ab-258d-4214-8674-b35fec06534b
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/26/2018
 ms.keywords: IDebugControl4, IDebugControl4 interface [Windows Debugging], OutputContextStackTrace method, IDebugControl4::OutputContextStackTrace, IDebugControl_6d7b3f4e-9b64-41f5-8d26-ba745fae5d43.xml, OutputContextStackTrace method [Windows Debugging], OutputContextStackTrace method [Windows Debugging], IDebugControl4 interface, OutputContextStackTrace,IDebugControl4.OutputContextStackTrace, dbgeng/IDebugControl4::OutputContextStackTrace, debugger.outputcontextstacktrace
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugControl4.OutputContextStackTrace
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -50,22 +51,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>OutputContextStackTrace</b> method prints the call stack specified by an array of stack frames and corresponding register contexts.
-
-
-## -syntax
-
-
-````
-HRESULT OutputContextStackTrace(
-  [in] ULONG              OutputControl,
-  [in] PDEBUG_STACK_FRAME Frames,
-  [in] ULONG              FramesSize,
-  [in] PVOID              FrameContexts,
-  [in] ULONG              FrameContextsSize,
-  [in] ULONG              FrameContextsEntrySize,
-  [in] ULONG              Flags
-);
-````
 
 
 ## -parameters
@@ -265,7 +250,14 @@ The array of stack frames can be obtained using <a href="https://msdn.microsoft.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545748">GetContextStackTrace</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550526">IDebugControl4</a>
 
 
 
@@ -273,17 +265,8 @@ The array of stack frames can be obtained using <a href="https://msdn.microsoft.
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
-
-
-
 <a href="https://msdn.microsoft.com/1061015f-cb0c-490b-b256-e0dedb659f22">k, kb, kc, kd, kp, kP, kv (Display Stack Backtrace)</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl4::OutputContextStackTrace method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -2,18 +2,18 @@
 UID: NE:rilapitypes.RILADDRESSTYPE
 title: RILADDRESSTYPE
 author: windows-driver-content
-description: This enumeration describes the RILADDRESSTYPE.
-old-location: netvista\riladdresstype.htm
+description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
+old-location: netvista\riladdresstype_2.htm
 old-project: netvista
-ms.assetid: a9fe509e-ef15-49ac-beca-339e3582d16e
+ms.assetid: de21f647-9372-4572-bf45-581361032911
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: RILADDRESSTYPE, RILADDRESSTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_ADDRTYPE_ABBREV, RIL_ADDRTYPE_ALPHANUM, RIL_ADDRTYPE_EMAIL, RIL_ADDRTYPE_INTERNATIONAL, RIL_ADDRTYPE_IP, RIL_ADDRTYPE_NATIONAL, RIL_ADDRTYPE_NETWKSPECIFIC, RIL_ADDRTYPE_SUBSCRIBER, RIL_ADDRTYPE_UNKNOWN, netvista.riladdresstype, rilapitypes/RILADDRESSTYPE, rilapitypes/RIL_ADDRTYPE_ABBREV, rilapitypes/RIL_ADDRTYPE_ALPHANUM, rilapitypes/RIL_ADDRTYPE_EMAIL, rilapitypes/RIL_ADDRTYPE_INTERNATIONAL, rilapitypes/RIL_ADDRTYPE_IP, rilapitypes/RIL_ADDRTYPE_NATIONAL, rilapitypes/RIL_ADDRTYPE_NETWKSPECIFIC, rilapitypes/RIL_ADDRTYPE_SUBSCRIBER, rilapitypes/RIL_ADDRTYPE_UNKNOWN
+ms.date: 2/26/2018
+ms.keywords: RILADDRESSTYPE, RILADDRESSTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_ADDRTYPE_ABBREV, RIL_ADDRTYPE_ALPHANUM, RIL_ADDRTYPE_EMAIL, RIL_ADDRTYPE_INTERNATIONAL, RIL_ADDRTYPE_IP, RIL_ADDRTYPE_MAX, RIL_ADDRTYPE_NATIONAL, RIL_ADDRTYPE_NETWKSPECIFIC, RIL_ADDRTYPE_SUBSCRIBER, RIL_ADDRTYPE_URI, netvista.riladdresstype_2, rilapitypes/RILADDRESSTYPE, rilapitypes/RIL_ADDRTYPE_ABBREV, rilapitypes/RIL_ADDRTYPE_ALPHANUM, rilapitypes/RIL_ADDRTYPE_EMAIL, rilapitypes/RIL_ADDRTYPE_INTERNATIONAL, rilapitypes/RIL_ADDRTYPE_IP, rilapitypes/RIL_ADDRTYPE_MAX, rilapitypes/RIL_ADDRTYPE_NATIONAL, rilapitypes/RIL_ADDRTYPE_NETWKSPECIFIC, rilapitypes/RIL_ADDRTYPE_SUBSCRIBER, rilapitypes/RIL_ADDRTYPE_URI
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: Rilapitypes.h, Ntddrilapitypes.h
+req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -38,7 +38,8 @@ api_location:
 -	rilapitypes.h
 api_name:
 -	RILADDRESSTYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILADDRESSTYPE
 req.product: Windows 10 or later.
@@ -50,27 +51,25 @@ req.product: Windows 10 or later.
 ## -description
 
 
-<div class="alert"><b>Warning</b>  The Cellular COM API is deprecated in Windows 10. This content is provided to support maintenance of OEM and mobile operator created Windows Phone 8.1 applications.</div><div> </div>This enumeration describes the RILADDRESSTYPE.
-
-
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
 
 ## -syntax
 
 
 ````
-enum RILADDRESSTYPE {
-  RIL_ADDRTYPE_UNKNOWN        = 0x00000000, 
-  RIL_ADDRTYPE_INTERNATIONAL  = 0x00000001, 
-  RIL_ADDRTYPE_NATIONAL       = 0x00000002, 
-  RIL_ADDRTYPE_NETWKSPECIFIC  = 0x00000003, 
-  RIL_ADDRTYPE_SUBSCRIBER     = 0x00000004, 
-  RIL_ADDRTYPE_ALPHANUM       = 0x00000005, 
-  RIL_ADDRTYPE_ABBREV         = 0x00000006, 
-  RIL_ADDRTYPE_IP             = 0x00000007, 
-  RIL_ADDRTYPE_EMAIL          = 0x00000008 
-
-};
+typedef enum _RILADDRESSTYPE { 
+  RIL_ADDRTYPE_INTERNATIONAL,
+  RIL_ADDRTYPE_NATIONAL,
+  RIL_ADDRTYPE_NETWKSPECIFIC,
+  RIL_ADDRTYPE_SUBSCRIBER,
+  RIL_ADDRTYPE_ALPHANUM,
+  RIL_ADDRTYPE_ABBREV,
+  RIL_ADDRTYPE_IP,
+  RIL_ADDRTYPE_EMAIL,
+  RIL_ADDRTYPE_URI,
+  RIL_ADDRTYPE_MAX
+} RILADDRESSTYPE;
 ````
 
 
@@ -110,19 +109,4 @@ enum RILADDRESSTYPE {
 
 
 ### -field RIL_ADDRTYPE_MAX
-
-
-
-
-## -see-also
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn946509">Cellular COM enumerations</a>
-
-
-
- 
-
- 
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20RILADDRESSTYPE enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILGPP2CAUSE
 title: RILGPP2CAUSE
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilgpp2cause_2.htm
+old-location: netvista\rilgpp2cause.htm
 old-project: netvista
-ms.assetid: 6b5de8e7-be8e-481e-8dce-9bc4b5071128
+ms.assetid: 40981ad1-9a3e-47c5-a3d2-e980659b8ca4
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: "*LPRILGPP2CAUSE, RILGPP2CAUSE, RILGPP2CAUSE structure [Network Drivers Starting with Windows Vista], netvista.rilgpp2cause_2, rilapitypes/RILGPP2CAUSE"
+ms.date: 3/26/2018
+ms.keywords: "*LPRILGPP2CAUSE, RILGPP2CAUSE, RILGPP2CAUSE structure [Network Drivers Starting with Windows Vista], netvista.rilgpp2cause, ntddrilapitypes/RILGPP2CAUSE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,10 +35,11 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILGPP2CAUSE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILGPP2CAUSE, *LPRILGPP2CAUSE
 req.product: Windows 10 or later.
@@ -50,17 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-
-## -syntax
-
-
-````
-typedef struct _RILGPP2CAUSE {
-  DWORD  dwCauseValue;
-} RILGPP2CAUSE, RILGPP2CAUSE;
-````
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -struct-fields

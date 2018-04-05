@@ -7,7 +7,7 @@ old-location: netvista\wskreceive.htm
 old-project: netvista
 ms.assetid: 7fe65842-8ddb-4aca-931f-03b35dd2b039
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: PFN_WSK_RECEIVE, WskReceive, WskReceive callback function [Network Drivers Starting with Windows Vista], netvista.wskreceive, wsk/WskReceive, wskref_7a0473b3-5687-44e8-b505-a346e9546807.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	wsk.h
 api_name:
 -	WskReceive
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WPP_TRIAGE_INFO, *PWPP_TRIAGE_INFO
 req.product: Windows 10 or later.
@@ -55,22 +56,6 @@ The
   address.
 
 
-## -prototype
-
-
-````
-PFN_WSK_RECEIVE WskReceive;
-
-NTSTATUS WSKAPI * WskReceive(
-  _In_    PWSK_SOCKET Socket,
-  _In_    PWSK_BUF    Buffer,
-  _In_    ULONG       Flags,
-  _Inout_ PIRP        Irp
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -79,14 +64,14 @@ NTSTATUS WSKAPI * WskReceive(
 ### -param Socket [in]
 
 A pointer to a 
-     <a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a> structure that specifies the socket
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571182">WSK_SOCKET</a> structure that specifies the socket
      object for the socket from which to receive the data.
 
 
 ### -param Buffer [in]
 
 A pointer to an initialized 
-     <a href="..\wsk\ns-wsk-_wsk_buf.md">WSK_BUF</a> structure that describes the data buffer
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571153">WSK_BUF</a> structure that describes the data buffer
      that receives the data from the socket.
 
 
@@ -222,7 +207,7 @@ The WSK subsystem could not receive the data from the socket immediately. The WS
 <td width="60%">
 The socket is no longer functional. The IRP will be completed with failure status. The WSK
        application must call the 
-       <a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a> function to close the
+       <a href="https://msdn.microsoft.com/library/windows/hardware/ff571124">WskCloseSocket</a> function to close the
        socket as soon as possible.
 
 </td>
@@ -267,12 +252,12 @@ A WSK application can call the
 <ul>
 <li>
 The WSK application connects the socket by calling the 
-      <a href="..\wsk\nc-wsk-pfn_wsk_connect.md">WskConnect</a> function.
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff571125">WskConnect</a> function.
 
 </li>
 <li>
 The WSK application creates, binds, and connects the socket by calling the 
-      <a href="..\wsk\nc-wsk-pfn_wsk_socket_connect.md">WskSocketConnect</a> function.
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff571150">WskSocketConnect</a> function.
 
 </li>
 <li>
@@ -282,7 +267,7 @@ The WSK subsystem connects the socket when the WSK application accepts an incomi
 </li>
 </ul>
 If a WSK application's 
-    <a href="..\wsk\nc-wsk-pfn_wsk_receive_event.md">WskReceiveEvent</a> event callback function is
+    <a href="https://msdn.microsoft.com/2a7a7570-ed26-48be-b27b-dc240588ecfc">WskReceiveEvent</a> event callback function is
     enabled on a connection-oriented socket and the application also has a pending call to the 
     <b>WskReceive</b> function on the same connection-oriented socket, then, when data arrives, the pending
     call to the 
@@ -304,7 +289,7 @@ If a WSK application's
 A WSK application can call the 
     <b>WskReceive</b> function with a zero length specified in the 
     <b>Length</b> member of the 
-    <a href="..\wsk\ns-wsk-_wsk_buf.md">WSK_BUF</a> structure that is pointed to by the 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff571153">WSK_BUF</a> structure that is pointed to by the 
     <i>Buffer</i> parameter. Specifying a zero length in this member is useful in the following
     situations:
 
@@ -331,38 +316,36 @@ If the
 
 ## -see-also
 
-<a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571153">WSK_BUF</a>
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_send.md">WskSend</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_receive_event.md">WskReceiveEvent</a>
-
-
-
-<a href="..\wsk\ns-wsk-_wsk_provider_connection_dispatch.md">
+<a href="https://msdn.microsoft.com/70a86809-07f2-4723-9e50-4dbdd31ff900">
    WSK_PROVIDER_CONNECTION_DISPATCH</a>
 
 
 
-<a href="..\wsk\ns-wsk-_wsk_buf.md">WSK_BUF</a>
+<a href="https://msdn.microsoft.com/A10B901E-9987-40E9-976B-4CD9455E0AEE">WSK_PROVIDER_STREAM_DISPATCH</a>
 
 
 
-<a href="..\wsk\ns-wsk-_wsk_provider_stream_dispatch.md">WSK_PROVIDER_STREAM_DISPATCH</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571182">WSK_SOCKET</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571124">WskCloseSocket</a>
+
+
+
+<a href="https://msdn.microsoft.com/2a7a7570-ed26-48be-b27b-dc240588ecfc">WskReceiveEvent</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571146">WskSend</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20PFN_WSK_RECEIVE callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

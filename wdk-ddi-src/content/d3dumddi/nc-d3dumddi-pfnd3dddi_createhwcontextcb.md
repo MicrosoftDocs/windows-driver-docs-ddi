@@ -7,7 +7,7 @@ old-location: display\pfnd3dddi_createhwcontextcb.htm
 old-project: display
 ms.assetid: 989682F3-340E-4F64-BF2D-771D58066EB2
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3DDDI_CREATEHWCONTEXTCB, PFND3DDDI_CREATEHWCONTEXTCB callback function [Display Devices], d3dumddi/PFND3DDDI_CREATEHWCONTEXTCB, display.pfnd3dddi_createhwcontextcb
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	PFND3DDDI_CREATEHWCONTEXTCB
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_PTE
 ---
@@ -50,17 +51,6 @@ req.typenames: DXGK_PTE
 
 
 A callback to create a new hardware context.
-
-
-## -prototype
-
-
-````
-_Check_return_ HRESULT APIENTRY CALLBACK PFND3DDDI_CREATEHWCONTEXTCB(
-  _In_    HANDLE                          hDevice,
-  _Inout_ D3DDDICB_CREATEHWCONTEXT *const createHwContext
-);
-````
 
 
 ## -parameters

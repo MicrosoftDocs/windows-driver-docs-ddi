@@ -7,7 +7,7 @@ old-location: debugger\searchmemory.htm
 old-project: debugger
 ms.assetid: 7e07c47e-803b-44fa-9d0f-aa86475246d2
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/26/2018
 ms.keywords: SearchMemory, SearchMemory function [Windows Debugging], WdbgExts_Ref_4eb909e5-edfd-487c-851c-812b15274c66.xml, debugger.searchmemory, wdbgexts/SearchMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	wdbgexts.h
 api_name:
 -	SearchMemory
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXT_TDOP
 req.product: Windows 10 or later.
@@ -51,20 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>SearchMemory</b> function searches the target's virtual memory for a specified pattern of bytes.
-
-
-## -syntax
-
-
-````
-__inline VOID SearchMemory(
-   ULONG64  SearchAddress,
-   ULONG64  SearchLength,
-   ULONG    PatternLength,
-   PVOID    Pattern,
-   PULONG64 FoundAddress
-);
-````
 
 
 ## -parameters

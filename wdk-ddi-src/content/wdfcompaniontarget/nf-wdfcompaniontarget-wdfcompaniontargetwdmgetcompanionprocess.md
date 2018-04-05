@@ -7,7 +7,7 @@ old-location: wdf\wdfcompaniontargetwdmgetcompanionprocess.htm
 old-project: wdf
 ms.assetid: 589c5076-e283-4cf4-bd9f-52a465794b06
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/26/2018
 ms.keywords: WdfCompanionTargetWdmGetCompanionProcess, WdfCompanionTargetWdmGetCompanionProcess method, wdf.wdfcompaniontargetwdmgetcompanionprocess, wdfcompaniontarget/WdfCompanionTargetWdmGetCompanionProcess
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	wdfcompaniontarget.h
 api_name:
 -	WdfCompanionTargetWdmGetCompanionProcess
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_TASK_SEND_OPTIONS_FLAGS
 req.product: Windows 10 or later.
@@ -52,16 +53,6 @@ req.product: Windows 10 or later.
 
 
 			For internal use only.
-
-
-## -syntax
-
-
-````
-PEPROCESS WdfCompanionTargetWdmGetCompanionProcess(
-  _In_ WDFCOMPANIONTARGET CompanionTarget
-);
-````
 
 
 ## -parameters

@@ -38,7 +38,8 @@ api_location:
 -	Bdatypes.h
 api_name:
 -	BDA_BUFFER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BDA_BUFFER, *PBDA_BUFFER
 ---
@@ -50,18 +51,6 @@ req.typenames: BDA_BUFFER, *PBDA_BUFFER
 
 
 
-
-
-## -syntax
-
-
-````
-typedef struct _BDA_BUFFER {
-  PBDARESULT lResult;
-  ULONG      ulKeyuuidBufferLen;
-  GUID       argKeyuuidBuffer[MIN_DIMENSION];
-} BDA_BUFFER, *PBDA_BUFFER;
-````
 
 
 ## -struct-fields

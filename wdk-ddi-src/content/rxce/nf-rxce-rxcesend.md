@@ -7,7 +7,7 @@ old-location: ifsk\rxcesend.htm
 old-project: ifsk
 ms.assetid: bf1b9c63-6fc2-4006-8f9a-d4b50d61d270
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: RxCeSend, RxCeSend function [Installable File System Drivers], ifsk.rxcesend, rxce/RxCeSend, rxref_07c5b21c-253c-4032-a5e8-61c4e71450fb.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	rxce.h
 api_name:
 -	RxCeSend
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILWRITEPHONEBOOKENTRYPARAMS, *LPRILWRITEPHONEBOOKENTRYPARAMS
 req.product: Windows 10 or later.
@@ -51,20 +52,6 @@ req.product: Windows 10 or later.
 
 
 <b>RxCeSend</b> sends a transport service data unit (TSDU) along the specified connection on a virtual circuit.
-
-
-## -syntax
-
-
-````
-NTSTATUS RxCeSend(
-  _In_ PRXCE_VC pVc,
-  _In_ ULONG    SendOptions,
-  _In_ PMDL     pMdl,
-  _In_ ULONG    SendLength,
-  _In_ PVOID    pCompletionContext
-);
-````
 
 
 ## -parameters
@@ -198,17 +185,15 @@ The benefit of asynchronous and synchronous options depends on the underlying tr
 
 ## -see-also
 
-<a href="..\rxce\nf-rxce-rxcesenddatagram.md">RxCeSendDatagram</a>
 
 
 
-<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554414">MDL</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553482">RxCeSendDatagram</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RxCeSend function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

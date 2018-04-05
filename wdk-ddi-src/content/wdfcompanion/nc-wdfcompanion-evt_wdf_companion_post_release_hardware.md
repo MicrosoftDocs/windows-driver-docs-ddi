@@ -7,7 +7,7 @@ old-location: wdf\evt_wdf_companion_post_release_hardware.htm
 old-project: wdf
 ms.assetid: ebba5344-dc3a-443f-a080-991dd784eb54
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/26/2018
 ms.keywords: EVT_WDF_COMPANION_POST_RELEASE_HARDWARE, EVT_WDF_COMPANION_POST_RELEASE_HARDWARE callback function, wdf.evt_wdf_companion_post_release_hardware, wdfcompanion/EVT_WDF_COMPANION_POST_RELEASE_HARDWARE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	wdfcompanion.h
 api_name:
 -	EVT_WDF_COMPANION_POST_RELEASE_HARDWARE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_COMMON_BUFFER_CONFIG, *PWDF_COMMON_BUFFER_CONFIG
 req.product: Windows 10 or later.
@@ -52,20 +53,6 @@ req.product: Windows 10 or later.
 
 
 			For internal use only.
-
-
-## -prototype
-
-
-````
-EVT_WDF_COMPANION_POST_RELEASE_HARDWARE EVT_WDF_COMPANION_POST_RELEASE_HARDWARE;
-
-NTSTATUS EVT_WDF_COMPANION_POST_RELEASE_HARDWARE(
-  _In_ WDFCOMPANION Companion,
-  _In_ WDFCMRESLIST ResourcesTranslated
-)
-{ ... }
-````
 
 
 ## -parameters

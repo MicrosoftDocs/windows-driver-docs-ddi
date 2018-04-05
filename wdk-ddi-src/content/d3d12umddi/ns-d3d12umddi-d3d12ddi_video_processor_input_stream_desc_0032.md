@@ -7,7 +7,7 @@ old-location: display\d3d12ddi_video_processor_input_stream_desc_0032.htm
 old-project: display
 ms.assetid: 3A4D19FD-FC65-4B78-8F0E-9792EB0A9B03
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: D3D12DDI_VIDEO_PROCESSOR_INPUT_STREAM_DESC_0032, D3D12DDI_VIDEO_PROCESSOR_INPUT_STREAM_DESC_0032 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_PROCESSOR_INPUT_STREAM_DESC_0032, display.d3d12ddi_video_processor_input_stream_desc_0032
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3d12umddi.h
 api_name:
 -	D3D12DDI_VIDEO_PROCESSOR_INPUT_STREAM_DESC_0032
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D12DDI_VIDEO_PROCESSOR_INPUT_STREAM_DESC_0032
 ---
@@ -50,32 +51,6 @@ req.typenames: D3D12DDI_VIDEO_PROCESSOR_INPUT_STREAM_DESC_0032
 
 
 Describes input stream properties for the video processor.
-
-
-## -syntax
-
-
-````
-typedef struct _D3D12DDI_VIDEO_PROCESSOR_INPUT_STREAM_DESC_0032 {
-  DXGI_FORMAT                                Format;
-  DXGI_COLOR_SPACE_TYPE                      ColorSpace;
-  DXGI_RATIONAL                              SourceAspectRatio;
-  DXGI_RATIONAL                              DestinationAspectRatio;
-  DXGI_RATIONAL                              FrameRate;
-  D3D12DDI_VIDEO_SIZE_RANGE                  SourceSizeRange;
-  D3D12DDI_VIDEO_SIZE_RANGE                  DestinationSizeRanges;
-  BOOL                                       EnableOrientation;
-  D3D12DDI_VIDEO_PROCESS_ALPHA_BLENDING_0020 FilterFlags;
-  D3D12DDI_VIDEO_PROCESS_FILTER_FLAGS_0020   StereoFormat;
-  D3D12DDI_VIDEO_FIELD_TYPE_0020             FieldType;
-  D3D12DDI_VIDEO_FRAME_STEREO_FORMAT_0020    DeinterlaceMode;
-  BOOL                                       EnableAlphaBlending;
-  D3D12DDI_VIDEO_PROCESS_LUMA_KEY_0020       LumaKey;
-  UINT                                       NumPastFrames;
-  UINT                                       NumFutureFrames;
-  BOOL                                       EnableAutoProcessing;
-} D3D12DDI_VIDEO_PROCESSOR_INPUT_STREAM_DESC_0032;
-````
 
 
 ## -struct-fields

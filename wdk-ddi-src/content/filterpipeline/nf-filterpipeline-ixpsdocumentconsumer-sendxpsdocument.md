@@ -7,7 +7,7 @@ old-location: print\ixpsdocumentconsumer_sendxpsdocument.htm
 old-project: print
 ms.assetid: ad9f0f6b-19a6-4c99-9350-7ca249cf4774
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: IXpsDocumentConsumer, IXpsDocumentConsumer interface [Print Devices], SendXpsDocument method, IXpsDocumentConsumer::SendXpsDocument, SendXpsDocument method [Print Devices], SendXpsDocument method [Print Devices], IXpsDocumentConsumer interface, SendXpsDocument,IXpsDocumentConsumer.SendXpsDocument, filterpipeline/IXpsDocumentConsumer::SendXpsDocument, filterpipeline_f8816c77-a8d0-4d44-bd12-adaf9194c34c.xml, print.ixpsdocumentconsumer_sendxpsdocument
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: filterpipeline.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	filterpipeline.h
 api_name:
 -	IXpsDocumentConsumer.SendXpsDocument
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
@@ -50,16 +51,6 @@ req.typenames: EXpsFontRestriction
 
 
 The <code>SendXpsDocument</code> method sends an XPS document to the pipeline. 
-
-
-## -syntax
-
-
-````
-HRESULT SendXpsDocument(
-  [in] IXpsDocument *pIXpsDocument
-);
-````
 
 
 ## -parameters
@@ -85,7 +76,7 @@ A pointer to the XPS document object to send.
 
 
 
-The <a href="..\filterpipeline\nn-filterpipeline-ixpsdocument.md">IXpsDocument</a> interface is the root for a tree view of an XPS document. The tree also contains one fixed document sequence and any number of fixed documents and fixed pages.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/ff556287">IXpsDocument</a> interface is the root for a tree view of an XPS document. The tree also contains one fixed document sequence and any number of fixed documents and fixed pages.
 
 Only one XpsDocument interface can be sent. The <code>SendXpsDocument</code> method will fail if a filter submits more than one XpsDocument interface for the same print job.
 
@@ -94,17 +85,15 @@ Only one XpsDocument interface can be sent. The <code>SendXpsDocument</code> met
 
 ## -see-also
 
-<a href="..\filterpipeline\nn-filterpipeline-ixpsdocument.md">IXpsDocument</a>
 
 
 
-<a href="..\filterpipeline\nn-filterpipeline-ixpsdocumentconsumer.md">IXpsDocumentConsumer</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556287">IXpsDocument</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556291">IXpsDocumentConsumer</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IXpsDocumentConsumer::SendXpsDocument method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

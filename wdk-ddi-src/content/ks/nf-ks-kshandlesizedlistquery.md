@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsHandleSizedListQuery
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,19 +52,6 @@ req.typenames:
 
 
 The <b>KsHandleSizedListQuery</b> function, depending on the length of the system buffer, returns either the size of the buffer needed, number of entries in the specified data list, or copies the entries themselves. This assumes the structure of KSMULTIPLE_ITEM to be a Size followed by a Count.
-
-
-## -syntax
-
-
-````
-NTSTATUS KsHandleSizedListQuery(
-  _In_       PIRP  Irp ,
-  _In_       ULONG DataItemsCount ,
-  _In_       ULONG DataItemSize ,
-  _In_ const VOID  *DataItems 
-);
-````
 
 
 ## -parameters

@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KS_FRAMING_RANGE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KS_FRAMING_RANGE, *PKS_FRAMING_RANGE
 ---
@@ -50,18 +51,6 @@ req.typenames: KS_FRAMING_RANGE, *PKS_FRAMING_RANGE
 
 
 The KS_FRAMING_RANGE structure specifies a range for frame sizes for a given framing item.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  ULONG MinFrameSize;
-  ULONG MaxFrameSize;
-  ULONG Stepping;
-} KS_FRAMING_RANGE, *PKS_FRAMING_RANGE;
-````
 
 
 ## -struct-fields
@@ -95,21 +84,19 @@ When specifying the <b>Stepping</b> member, ensure that the value does not excee
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ks_framing_range_weighted.md">KS_FRAMING_RANGE_WEIGHTED</a>
 
 
 
-<a href="..\ks\ns-ks-ksallocator_framing.md">KSALLOCATOR_FRAMING</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560979">KSALLOCATOR_FRAMING</a>
 
 
 
-<a href="..\ks\ns-ks-ks_framing_item.md">KS_FRAMING_ITEM</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567646">KS_FRAMING_ITEM</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567648">KS_FRAMING_RANGE_WEIGHTED</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KS_FRAMING_RANGE structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

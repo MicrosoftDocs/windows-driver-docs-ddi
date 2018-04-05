@@ -7,7 +7,7 @@ old-location: ifsk\kereleasemutant.htm
 old-project: ifsk
 ms.assetid: f5dc0f1b-3287-410d-97be-6d4f65466e65
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: KeReleaseMutant, KeReleaseMutant function [Installable File System Drivers], ifsk.kereleasemutant, keref_3bfd3822-4bbe-4d79-844e-afc6511d1bbb.xml, ntifs/KeReleaseMutant
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	ntifs.h
 api_name:
 -	KeReleaseMutant
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -49,17 +50,7 @@ req.typenames: TOKEN_TYPE
 ## -description
 
 
-The <b>KeReleaseMutant</b> routine is reserved for system use. See <a href="..\wdm\nf-wdm-kereleasemutex.md">KeReleaseMutex</a>. 
-
-
-## -syntax
-
-
-````
-  KeReleaseMutant(
-    
-);
-````
+The <b>KeReleaseMutant</b> routine is reserved for system use. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff553140">KeReleaseMutex</a>. 
 
 
 ## -parameters

@@ -7,7 +7,7 @@ old-location: print\iprintpipelinepropertybag_addproperty.htm
 old-project: print
 ms.assetid: ba994342-c203-443e-a9fd-60fd29721dae
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: AddProperty method [Print Devices], AddProperty method [Print Devices], IPrintPipelinePropertyBag interface, AddProperty,IPrintPipelinePropertyBag.AddProperty, IPrintPipelinePropertyBag, IPrintPipelinePropertyBag interface [Print Devices], AddProperty method, IPrintPipelinePropertyBag::AddProperty, filterpipeline/IPrintPipelinePropertyBag::AddProperty, filterpipeline_03ee8efb-3b2b-460a-9b95-e806dad5bb96.xml, print.iprintpipelinepropertybag_addproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: filterpipeline.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	filterpipeline.h
 api_name:
 -	IPrintPipelinePropertyBag.AddProperty
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
@@ -50,17 +51,6 @@ req.typenames: EXpsFontRestriction
 
 
 The <code>AddProperty</code> method adds a property to a property bag.
-
-
-## -syntax
-
-
-````
-HRESULT AddProperty(
-  [in] const wchar_t *pszName,
-  [in] const VARIANT *pVar
-);
-````
 
 
 ## -parameters

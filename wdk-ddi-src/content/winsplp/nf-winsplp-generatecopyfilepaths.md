@@ -7,7 +7,7 @@ old-location: print\generatecopyfilepaths.htm
 old-project: print
 ms.assetid: 61274493-1ec4-483b-85fa-f6087cf0631e
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: GenerateCopyFilePaths, GenerateCopyFilePaths function [Print Devices], poprfnc_35a0e3c2-1841-4e84-b980-c3b13592c854.xml, print.generatecopyfilepaths, winsplp/GenerateCopyFilePaths
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Mscms.dll
 api_name:
 -	GenerateCopyFilePaths
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NOTIFICATION_CONFIG_FLAGS
 req.product: Windows 10 or later.
@@ -51,24 +52,6 @@ req.product: Windows 10 or later.
 
 
 A Point and Print DLL's <b>GenerateCopyFilePaths</b> function is used for modifying the source and destination paths used by print spoolers when they copy print queue-associated files to a print client.
-
-
-## -syntax
-
-
-````
-DWORD GenerateCopyFilePaths(
-  _In_    LPCWSTR pszPrinterName,
-  _In_    LPCWSTR pszDirectory,
-  _In_    LPBYTE  pSplClientInfo,
-  _In_    DWORD   dwLevel,
-  _Inout_ LPWSTR  pszSourceDir,
-  _Inout_ LPDWORD pcchSourceDirSize,
-  _Inout_ LPWSTR  pszTargetDir,
-  _Inout_ LPDWORD pcchTargetDirSize,
-  _In_    DWORD   dwFlags
-);
-````
 
 
 ## -parameters
@@ -88,7 +71,7 @@ Caller-supplied pointer to a string representing the value supplied for the serv
 
 ### -param pSplClientInfo [in]
 
-Caller-supplied pointer to an <a href="..\winsplp\ns-winsplp-_splclient_info_1.md">SPLCLIENT_INFO_1</a> structure.
+Caller-supplied pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff562674">SPLCLIENT_INFO_1</a> structure.
 
 
 ### -param dwLevel [in]
@@ -166,7 +149,7 @@ All <a href="https://msdn.microsoft.com/7ead940e-8426-4756-890f-f3607dc1f9ca">Po
 
 A Point and Print DLL executes on both the server and the client. The <b>GenerateCopyFilePaths</b> function should check the <i>dwFlags</i> argument to determine where it is executing.
 
-Typically, this function is used to provide compatibility when different versions of the operating system are executing on the client and server. For example if the function, when executing on the server, determines (by reading the <a href="..\winsplp\ns-winsplp-_splclient_info_1.md">SPLCLIENT_INFO_1</a> structure) that its operating system is newer than the client's, it can modify the source and destination paths to be compatible with the client's older OS. On the other hand, if the function determines that the client's operating system is newer than the client's, it should probably do nothing on the server and perform modifications, if necessary, when executing on the client.
+Typically, this function is used to provide compatibility when different versions of the operating system are executing on the client and server. For example if the function, when executing on the server, determines (by reading the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562674">SPLCLIENT_INFO_1</a> structure) that its operating system is newer than the client's, it can modify the source and destination paths to be compatible with the client's older OS. On the other hand, if the function determines that the client's operating system is newer than the client's, it should probably do nothing on the server and perform modifications, if necessary, when executing on the client.
 
 Arguments for the <i>pszSourceDir</i> and <i>pszTargetDir</i> parameters point to buffers containing strings that represent the current source and destination directory paths. If modifications to either of these strings is necessary, the function should make modifications in the supplied buffers. The maximum allowable string lengths are pointed to by the <i>pcchSourceDirSize</i> and <i>pcchTargetDirSize</i> arguments.
 
@@ -177,13 +160,11 @@ If no modifications to the source or destination directories are needed, the fun
 
 ## -see-also
 
-<a href="..\winsplp\nf-winsplp-spoolercopyfileevent.md">SpoolerCopyFileEvent</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562681">SpoolerCopyFileEvent</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20GenerateCopyFilePaths function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

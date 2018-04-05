@@ -7,7 +7,7 @@ old-location: storage\iscsi_persistent_login.htm
 old-project: storage
 ms.assetid: c43ee3dd-552a-41ab-9b4f-01611e44f453
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PISCSI_Persistent_Login, ISCSI_Persistent_Login, ISCSI_Persistent_Login structure [Storage Devices], PISCSI_Persistent_Login, PISCSI_Persistent_Login structure pointer [Storage Devices], _ISCSI_Persistent_Login, iscsiop/ISCSI_Persistent_Login, iscsiop/PISCSI_Persistent_Login, storage.iscsi_persistent_login, structs-iSCSI_86b54cb5-df75-47c0-8dc4-337a5f46bea0.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	iscsiop.h
 api_name:
 -	ISCSI_Persistent_Login
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: ISCSI_Persistent_Login, *PISCSI_Persistent_Login
 ---
@@ -50,25 +51,6 @@ req.typenames: ISCSI_Persistent_Login, *PISCSI_Persistent_Login
 
 
 The ISCSI_Persistent_Login structure defines a persistent logon that the operating system initiates automatically when the computer boots up.
-
-
-## -syntax
-
-
-````
-typedef struct _ISCSI_Persistent_Login {
-  WCHAR               TargetName[223 + 1];
-  ULONGLONG           SecurityFlags;
-  ULONG               InitiatorPortNumber;
-  ULONG               UsernameSize;
-  BOOLEAN             IsInformationalSession;
-  USHORT              UniqueIdForISID;
-  ISCSI_TargetPortal  TargetPortal;
-  ISCSI_LoginOptions  LoginOptions;
-  ISCSI_TargetMapping TargetMapping;
-  UCHAR               Username[1];
-} ISCSI_Persistent_Login, *PISCSI_Persistent_Login;
-````
 
 
 ## -struct-fields
@@ -108,17 +90,17 @@ Portal to use for initial connection
 
 ### -field TargetPortal
 
-An <a href="..\iscsidef\ns-iscsidef-_iscsi_targetportal.md">ISCSI_TargetPortal</a> structure that specifies which target portal to use for the initial logon connection.
+An <a href="https://msdn.microsoft.com/library/windows/hardware/ff561574">ISCSI_TargetPortal</a> structure that specifies which target portal to use for the initial logon connection.
 
 
 ### -field LoginOptions
 
-An <a href="..\iscsidef\ns-iscsidef-_iscsi_loginoptions.md">ISCSI_LoginOptions</a> structure that specifies the characteristics of the persistent logon session. 
+An <a href="https://msdn.microsoft.com/library/windows/hardware/ff561541">ISCSI_LoginOptions</a> structure that specifies the characteristics of the persistent logon session. 
 
 
 ### -field TargetMapping
 
-An <a href="..\iscsidef\ns-iscsidef-_iscsi_targetmapping.md">ISCSI_TargetMapping</a> structure that defines the target mappings. 
+An <a href="https://msdn.microsoft.com/library/windows/hardware/ff561572">ISCSI_TargetMapping</a> structure that defines the target mappings. 
 
 
 ### -field Username
@@ -128,15 +110,10 @@ A variable-length array of characters that specifies the challenge handshake aut
 
 ## -see-also
 
-<a href="..\iscsidef\ns-iscsidef-_iscsi_loginoptions.md">ISCSI_LoginOptions</a>
 
 
 
-<a href="..\iscsidef\ns-iscsidef-_iscsi_targetmapping.md">ISCSI_TargetMapping</a>
-
-
-
-<a href="..\iscsidef\ns-iscsidef-_iscsi_targetportal.md">ISCSI_TargetPortal</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561541">ISCSI_LoginOptions</a>
 
 
 
@@ -144,13 +121,16 @@ A variable-length array of characters that specifies the challenge handshake aut
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561572">ISCSI_TargetMapping</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561574">ISCSI_TargetPortal</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565399">SECURITY_FLAG_QUALIFIERS</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20ISCSI_Persistent_Login structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

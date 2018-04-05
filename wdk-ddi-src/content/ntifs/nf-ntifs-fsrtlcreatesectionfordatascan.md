@@ -7,7 +7,7 @@ old-location: ifsk\fsrtlcreatesectionfordatascan.htm
 old-project: ifsk
 ms.assetid: 2bf6fb1b-e2d6-496d-808e-e739951cc7c5
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FsRtlCreateSectionForDataScan, FsRtlCreateSectionForDataScan routine [Installable File System Drivers], fsrtlref_5117d865-19da-4ec5-8b20-cccab94eb013.xml, ifsk.fsrtlcreatesectionfordatascan, ntifs/FsRtlCreateSectionForDataScan
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	FsRtlCreateSectionForDataScan
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -50,25 +51,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>FsRtlCreateSectionForDataScan</b> routine creates a section object. Use this routine with extreme caution. (See the following <i>Remarks</i> section.)
-
-
-## -syntax
-
-
-````
-NTSTATUS FsRtlCreateSectionForDataScan(
-  _Out_     PHANDLE            SectionHandle,
-  _Out_     PVOID              *SectionObject,
-  _Out_opt_ PLARGE_INTEGER     SectionFileSize,
-  _In_      PFILE_OBJECT       FileObject,
-  _In_      ACCESS_MASK        DesiredAccess,
-  _In_opt_  POBJECT_ATTRIBUTES ObjectAttributes,
-  _In_opt_  PLARGE_INTEGER     MaximumSize,
-  _In_      ULONG              SectionPageProtection,
-  _In_      ULONG              AllocationAttributes,
-  _In_      ULONG              Flags
-);
-````
 
 
 ## -parameters
@@ -151,7 +133,7 @@ All actions defined by the previous flags as well as that defined by STANDARD_RI
 
 ### -param ObjectAttributes [in, optional]
 
-Pointer to an <a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a> structure that specifies the object name and other attributes. Use the <a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a> macro to initialize this structure. Because <b>FsRtlCreateSectionForDataScan</b> inserts this object into the process handle table, the caller must specify the OBJ_KERNEL_HANDLE attribute when it calls <b>InitializeObjectAttributes</b>.
+Pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff557749">OBJECT_ATTRIBUTES</a> structure that specifies the object name and other attributes. Use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547804">InitializeObjectAttributes</a> macro to initialize this structure. Because <b>FsRtlCreateSectionForDataScan</b> inserts this object into the process handle table, the caller must specify the OBJ_KERNEL_HANDLE attribute when it calls <b>InitializeObjectAttributes</b>.
 
 
 ### -param MaximumSize [in, optional]
@@ -337,9 +319,9 @@ The caller did not have the required privilege to create a section object with t
 
 
 
-<div class="alert"><b>Important</b>  The <b>FsRtlCreateSectionForDataScan</b> routine should only be used in cases where a handle to the file object specified in the <i>FileObject</i> parameter has not yet been created (typically while processing a post-create operation). If the driver has a handle to the file object or can obtain a handle to the file object, the driver should use the <a href="..\wdm\nf-wdm-zwcreatesection.md">ZwCreateSection</a> routine instead.</div>
+<div class="alert"><b>Important</b>  The <b>FsRtlCreateSectionForDataScan</b> routine should only be used in cases where a handle to the file object specified in the <i>FileObject</i> parameter has not yet been created (typically while processing a post-create operation). If the driver has a handle to the file object or can obtain a handle to the file object, the driver should use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566428">ZwCreateSection</a> routine instead.</div>
 <div> </div>
-Once the section object created by this routine is no longer necessary, be sure to close the section object's handle (<i>SectionHandle</i>) by calling the <a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a> routine and dereference the section object itself (<i>SectionObject</i>) by calling the <a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a> routine.
+Once the section object created by this routine is no longer necessary, be sure to close the section object's handle (<i>SectionHandle</i>) by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566417">ZwClose</a> routine and dereference the section object itself (<i>SectionObject</i>) by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557724">ObDereferenceObject</a> routine.
 
 For more information on creating mapped sections and views of memory, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563684">Section Objects and Views</a>. Also see the documentation for the <b>CreateFileMapping</b> routine in the Microsoft Windows SDK. 
 
@@ -348,7 +330,6 @@ For more information on creating mapped sections and views of memory, see <a hre
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-mmflushimagesection.md">MmFlushImageSection</a>
 
 
 
@@ -356,21 +337,20 @@ For more information on creating mapped sections and views of memory, see <a hre
 
 
 
-<a href="..\ntifs\nf-ntifs-ccpurgecachesection.md">CcPurgeCacheSection</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539188">CcPurgeCacheSection</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-mmforcesectionclosed.md">MmForceSectionClosed</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549808">MmFlushImageSection</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwcreatesection.md">ZwCreateSection</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549811">MmForceSectionClosed</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566428">ZwCreateSection</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FsRtlCreateSectionForDataScan routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

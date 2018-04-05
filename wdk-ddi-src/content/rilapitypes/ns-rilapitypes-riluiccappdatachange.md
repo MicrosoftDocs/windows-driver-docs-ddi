@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILUICCAPPDATACHANGE
 title: RILUICCAPPDATACHANGE
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\riluiccappdatachange_2.htm
+old-location: netvista\riluiccappdatachange.htm
 old-project: netvista
-ms.assetid: b812cd5d-73a1-42bc-a1ae-1c1494369288
+ms.assetid: a551f469-96f4-42cf-826d-3557cc13ce29
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: "*LPRILUICCAPPDATACHANGE, RILUICCAPPDATACHANGE, RILUICCAPPDATACHANGE structure [Network Drivers Starting with Windows Vista], netvista.riluiccappdatachange_2, rilapitypes/RILUICCAPPDATACHANGE"
+ms.date: 3/26/2018
+ms.keywords: "*LPRILUICCAPPDATACHANGE, RILUICCAPPDATACHANGE, RILUICCAPPDATACHANGE structure [Network Drivers Starting with Windows Vista], netvista.riluiccappdatachange, ntddrilapitypes/RILUICCAPPDATACHANGE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,10 +35,11 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILUICCAPPDATACHANGE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILUICCAPPDATACHANGE, *LPRILUICCAPPDATACHANGE
 req.product: Windows 10 or later.
@@ -50,19 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-
-## -syntax
-
-
-````
-typedef struct _RILUICCAPPDATACHANGE {
-  DWORD                     cbSize;
-  HUICCAPP                  hUiccApp;
-  RILUICCAPPDATACHANGEENUM  dwDataChange;
-} RILUICCAPPDATACHANGE, RILUICCAPPDATACHANGE;
-````
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -struct-fields

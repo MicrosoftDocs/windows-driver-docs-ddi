@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILIMSHANDOVERATTEMPT
 title: RILIMSHANDOVERATTEMPT
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilimshandoverattempt_2.htm
+old-location: netvista\rilimshandoverattempt.htm
 old-project: netvista
-ms.assetid: de56a241-10a3-4f9c-970c-433ab997612d
+ms.assetid: 22491e3c-fa23-473d-b3e6-92c776b81204
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: "*LPRILIMSHANDOVERATTEMPT, RILIMSHANDOVERATTEMPT, RILIMSHANDOVERATTEMPT structure [Network Drivers Starting with Windows Vista], netvista.rilimshandoverattempt_2, rilapitypes/RILIMSHANDOVERATTEMPT"
+ms.date: 3/26/2018
+ms.keywords: "*LPRILIMSHANDOVERATTEMPT, RILIMSHANDOVERATTEMPT, RILIMSHANDOVERATTEMPT structure [Network Drivers Starting with Windows Vista], netvista.rilimshandoverattempt, ntddrilapitypes/RILIMSHANDOVERATTEMPT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,10 +35,11 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILIMSHANDOVERATTEMPT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILIMSHANDOVERATTEMPT, *LPRILIMSHANDOVERATTEMPT
 req.product: Windows 10 or later.
@@ -50,20 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-
-## -syntax
-
-
-````
-typedef struct _RILIMSHANDOVERATTEMPT {
-  DWORD             cbSize;
-  RILIMSSYSTEMTYPE  dwOldSystemType;
-  RILIMSSYSTEMTYPE  dwDestSystemType;
-  HRESULT           hrHandOverResult;
-} RILIMSHANDOVERATTEMPT, RILIMSHANDOVERATTEMPT;
-````
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -struct-fields

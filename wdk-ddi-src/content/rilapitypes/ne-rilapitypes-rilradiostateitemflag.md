@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILRADIOSTATEITEMFLAG
 title: RILRADIOSTATEITEMFLAG
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilradiostateitemflag_2.htm
+old-location: netvista\rilradiostateitemflag.htm
 old-project: netvista
-ms.assetid: 1cf1ebcb-423e-42ee-97aa-bd5f6516e65b
+ms.assetid: dcbd0b16-4960-4cc1-b76b-6d971ba6a192
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: RILRADIOSTATEITEMFLAG, RILRADIOSTATEITEMFLAG enumeration [Network Drivers Starting with Windows Vista], RIL_RADIOSTATE_ITEMFLAG_USE_BYTEARRAY, RIL_RADIOSTATE_ITEMFLAG_USE_INTARRAY, RIL_RADIOSTATE_ITEMFLAG_USE_MAX, RIL_RADIOSTATE_ITEMFLAG_USE_UINTARRAY, RIL_RADIOSTATE_ITEMFLAG_USE_UINTVAL, RIL_RADIOSTATE_ITEMFLAG_USE_WSZVAL, netvista.rilradiostateitemflag_2, rilapitypes/RILRADIOSTATEITEMFLAG, rilapitypes/RIL_RADIOSTATE_ITEMFLAG_USE_BYTEARRAY, rilapitypes/RIL_RADIOSTATE_ITEMFLAG_USE_INTARRAY, rilapitypes/RIL_RADIOSTATE_ITEMFLAG_USE_MAX, rilapitypes/RIL_RADIOSTATE_ITEMFLAG_USE_UINTARRAY, rilapitypes/RIL_RADIOSTATE_ITEMFLAG_USE_UINTVAL, rilapitypes/RIL_RADIOSTATE_ITEMFLAG_USE_WSZVAL
+ms.date: 3/26/2018
+ms.keywords: RILRADIOSTATEITEMFLAG, RILRADIOSTATEITEMFLAG enumeration [Network Drivers Starting with Windows Vista], RIL_RADIOSTATE_ITEMFLAG_USE_BYTEARRAY, RIL_RADIOSTATE_ITEMFLAG_USE_INTARRAY, RIL_RADIOSTATE_ITEMFLAG_USE_MAX, RIL_RADIOSTATE_ITEMFLAG_USE_UINTARRAY, RIL_RADIOSTATE_ITEMFLAG_USE_UINTVAL, RIL_RADIOSTATE_ITEMFLAG_USE_WSZVAL, netvista.rilradiostateitemflag, ntddrilapitypes/RILRADIOSTATEITEMFLAG, ntddrilapitypes/RIL_RADIOSTATE_ITEMFLAG_USE_BYTEARRAY, ntddrilapitypes/RIL_RADIOSTATE_ITEMFLAG_USE_INTARRAY, ntddrilapitypes/RIL_RADIOSTATE_ITEMFLAG_USE_MAX, ntddrilapitypes/RIL_RADIOSTATE_ITEMFLAG_USE_UINTARRAY, ntddrilapitypes/RIL_RADIOSTATE_ITEMFLAG_USE_UINTVAL, ntddrilapitypes/RIL_RADIOSTATE_ITEMFLAG_USE_WSZVAL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -35,10 +35,11 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILRADIOSTATEITEMFLAG
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILRADIOSTATEITEMFLAG
 req.product: Windows 10 or later.
@@ -50,22 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-
-## -syntax
-
-
-````
-typedef enum _RILRADIOSTATEITEMFLAG { 
-  RIL_RADIOSTATE_ITEMFLAG_USE_UINTVAL,
-  RIL_RADIOSTATE_ITEMFLAG_USE_WSZVAL,
-  RIL_RADIOSTATE_ITEMFLAG_USE_INTARRAY,
-  RIL_RADIOSTATE_ITEMFLAG_USE_UINTARRAY,
-  RIL_RADIOSTATE_ITEMFLAG_USE_BYTEARRAY,
-  RIL_RADIOSTATE_ITEMFLAG_USE_MAX
-} RILRADIOSTATEITEMFLAG;
-````
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -enum-fields

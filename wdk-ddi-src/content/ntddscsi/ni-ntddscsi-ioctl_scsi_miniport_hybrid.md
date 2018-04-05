@@ -7,7 +7,7 @@ old-location: storage\ioctl_scsi_miniport_hybrid.htm
 old-project: storage
 ms.assetid: 57DA022A-FAC6-4727-94E1-BCF6FEF1E945
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_SCSI_MINIPORT_HYBRID, IOCTL_SCSI_MINIPORT_HYBRID control code [Storage Devices], ntddscsi/IOCTL_SCSI_MINIPORT_HYBRID, storage.ioctl_scsi_miniport_hybrid
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ntddscsi.h
 api_name:
 -	IOCTL_SCSI_MINIPORT_HYBRID
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MP_STORAGE_DIAGNOSTIC_TARGET_TYPE, *PMP_STORAGE_DIAGNOSTIC_TARGET_TYPE
 ---
@@ -46,16 +47,11 @@ req.typenames: MP_STORAGE_DIAGNOSTIC_TARGET_TYPE, *PMP_STORAGE_DIAGNOSTIC_TARGET
 # IOCTL_SCSI_MINIPORT_HYBRID IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
 The 
-     <b>IOCTL_SCSI_MINIPORT_HYBRID</b> control code sends a hybrid disk control request to an HBA-specific miniport driver. The <b>IOCTL_SCSI_MINIPORT_HYBRID</b> request is a sub-IOCTL of <a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_miniport.md">IOCTL_SCSI_MINIPORT</a>. This IOCTL is received and reformatted by StorPort, then sent  to the miniport as a <a href="..\storport\ns-storport-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a> (SRB) with a function type of SRB_FUNCTION_IO_CONTROL. The input and output data is contained in the SRB data block. 
+     <b>IOCTL_SCSI_MINIPORT_HYBRID</b> control code sends a hybrid disk control request to an HBA-specific miniport driver. The <b>IOCTL_SCSI_MINIPORT_HYBRID</b> request is a sub-IOCTL of <a href="https://msdn.microsoft.com/library/windows/hardware/ff560512">IOCTL_SCSI_MINIPORT</a>. This IOCTL is received and reformatted by StorPort, then sent  to the miniport as a <a href="https://msdn.microsoft.com/library/windows/hardware/hh451474">STORAGE_REQUEST_BLOCK</a> (SRB) with a function type of SRB_FUNCTION_IO_CONTROL. The input and output data is contained in the SRB data block. 
 
 <b>IOCTL_SCSI_MINIPORT_HYBRID</b> is intended for use by third-party applications or filter drives which manage security features such as encryption or write-through behavior. 
 <div class="alert"><b>Warning</b>  Use of <b>IOCTL_SCSI_MINIPORT_HYBRID</b> to modify hybrid cache behavior will conflict with the operation of Windows system components and is not supported.</div><div> </div><div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
@@ -67,7 +63,7 @@ The
 
 ### -input-buffer
 
-The buffer specified in the <b>DataBuffer</b> member of the SRB must contain an <a href="..\ntddscsi\ns-ntddscsi-_srb_io_control.md">SRB_IO_CONTROL</a> structure and a <b>HYBRID_REQUEST_BLOCK</b> structure. Depending on the <b>Function</b> member of <b>HYBRID_REQUEST_BLOCK</b>, additional data can be supplied. 
+The buffer specified in the <b>DataBuffer</b> member of the SRB must contain an <a href="https://msdn.microsoft.com/library/windows/hardware/ff566339">SRB_IO_CONTROL</a> structure and a <b>HYBRID_REQUEST_BLOCK</b> structure. Depending on the <b>Function</b> member of <b>HYBRID_REQUEST_BLOCK</b>, additional data can be supplied. 
 
 
 ### -input-buffer-length
@@ -77,7 +73,7 @@ The buffer specified in the <b>DataBuffer</b> member of the SRB must contain an 
 
 ### -output-buffer
 
-An updated <a href="..\ntddscsi\ns-ntddscsi-_srb_io_control.md">SRB_IO_CONTROL</a> structure is returned to the data buffer in the SRB. 
+An updated <a href="https://msdn.microsoft.com/library/windows/hardware/ff566339">SRB_IO_CONTROL</a> structure is returned to the data buffer in the SRB. 
 
 
 ### -output-buffer-length
@@ -105,7 +101,7 @@ The <b>DataBufferOffset</b> and <b>DataBufferLength</b> members of <b>HYBRID_REQ
 
 ### -status-block
 
-The resulting status of the function request is set in the <b>ReturnCode</b> member of <a href="..\ntddscsi\ns-ntddscsi-_srb_io_control.md">SRB_IO_CONTROL</a>. The following are the hybrid disk IOCTL status codes.
+The resulting status of the function request is set in the <b>ReturnCode</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff566339">SRB_IO_CONTROL</a>. The following are the hybrid disk IOCTL status codes.
 
 <table>
 <tr>
@@ -136,7 +132,7 @@ The resulting status of the function request is set in the <b>ReturnCode</b> mem
 
 
 
-A <b>HYBRID_REQUEST_BLOCK</b> structure immediately follows the <a href="..\ntddscsi\ns-ntddscsi-_srb_io_control.md">SRB_IO_CONTROL</a> structure in the data buffer.  <b>HYBRID_REQUEST_BLOCK</b> is defined in ntddscsi.h as the following.
+A <b>HYBRID_REQUEST_BLOCK</b> structure immediately follows the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566339">SRB_IO_CONTROL</a> structure in the data buffer.  <b>HYBRID_REQUEST_BLOCK</b> is defined in ntddscsi.h as the following.
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -169,19 +165,19 @@ The parameter requirements depend on the function code of the hybrid disk reques
 <td>HYBRID_FUNCTION_GET_INFO</td>
 <td>
 
-<a href="..\ntddscsi\ns-ntddscsi-_srb_io_control.md">SRB_IO_CONTROL</a> +
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566339">SRB_IO_CONTROL</a> +
 
 <b>HYBRID_REQUEST_BLOCK</b>
 
 </td>
 <td>
 
-<a href="..\ntddscsi\ns-ntddscsi-_srb_io_control.md">SRB_IO_CONTROL</a> +
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566339">SRB_IO_CONTROL</a> +
 
 <b>HYBRID_REQUEST_BLOCK</b> +
 
 
-<a href="..\ntddscsi\ns-ntddscsi-_hybrid_information.md">HYBRID_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn323746">HYBRID_INFORMATION</a>
 
 
 </td>
@@ -191,14 +187,14 @@ The parameter requirements depend on the function code of the hybrid disk reques
 </td>
 <td>
 
-<a href="..\ntddscsi\ns-ntddscsi-_srb_io_control.md">SRB_IO_CONTROL</a> +
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566339">SRB_IO_CONTROL</a> +
 
 <b>HYBRID_REQUEST_BLOCK</b>
 
 </td>
 <td>
 
-<a href="..\ntddscsi\ns-ntddscsi-_srb_io_control.md">SRB_IO_CONTROL</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566339">SRB_IO_CONTROL</a>
 
 
 </td>
@@ -207,14 +203,14 @@ The parameter requirements depend on the function code of the hybrid disk reques
 <td>HYBRID_FUNCTION_ENABLE_CACHING_MEDIUM</td>
 <td>
 
-<a href="..\ntddscsi\ns-ntddscsi-_srb_io_control.md">SRB_IO_CONTROL</a> +
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566339">SRB_IO_CONTROL</a> +
 
 <b>HYBRID_REQUEST_BLOCK</b>
 
 </td>
 <td>
 
-<a href="..\ntddscsi\ns-ntddscsi-_srb_io_control.md">SRB_IO_CONTROL</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566339">SRB_IO_CONTROL</a>
 
 
 </td>
@@ -223,7 +219,7 @@ The parameter requirements depend on the function code of the hybrid disk reques
 <td>HYBRID_FUNCTION_SET_DIRTY_THRESHOLD</td>
 <td>
 
-<a href="..\ntddscsi\ns-ntddscsi-_srb_io_control.md">SRB_IO_CONTROL</a> +
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566339">SRB_IO_CONTROL</a> +
 
 <b>HYBRID_REQUEST_BLOCK</b> +
 
@@ -232,7 +228,7 @@ The parameter requirements depend on the function code of the hybrid disk reques
 </td>
 <td>
 
-<a href="..\ntddscsi\ns-ntddscsi-_srb_io_control.md">SRB_IO_CONTROL</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566339">SRB_IO_CONTROL</a>
 
 
 </td>
@@ -241,7 +237,7 @@ The parameter requirements depend on the function code of the hybrid disk reques
 <td>HYBRID_FUNCTION_DEMOTE_BY_SIZE</td>
 <td>
 
-<a href="..\ntddscsi\ns-ntddscsi-_srb_io_control.md">SRB_IO_CONTROL</a> +
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566339">SRB_IO_CONTROL</a> +
 
 <b>HYBRID_REQUEST_BLOCK</b> +
 
@@ -250,7 +246,7 @@ The parameter requirements depend on the function code of the hybrid disk reques
 </td>
 <td>
 
-<a href="..\ntddscsi\ns-ntddscsi-_srb_io_control.md">SRB_IO_CONTROL</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566339">SRB_IO_CONTROL</a>
 
 
 </td>
@@ -258,7 +254,7 @@ The parameter requirements depend on the function code of the hybrid disk reques
 </table>
  
 
-The <b>HYBRID_REQUEST_BLOCK</b> structure is located after the <a href="..\ntddscsi\ns-ntddscsi-_srb_io_control.md">SRB_IO_CONTROL</a> structure in the <b>DataBuffer</b> of the SRB. Any function data included with the request is found at the offset in <b>DataBufferOffset</b> after the beginning of the <b>SRB_IO_CONTROL</b> structure.
+The <b>HYBRID_REQUEST_BLOCK</b> structure is located after the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566339">SRB_IO_CONTROL</a> structure in the <b>DataBuffer</b> of the SRB. Any function data included with the request is found at the offset in <b>DataBufferOffset</b> after the beginning of the <b>SRB_IO_CONTROL</b> structure.
 
 The following example demonstrates retrieval of  the function data for a HYBRID_FUNCTION_SET_DIRTY_THRESHOLD request.
 
@@ -329,7 +325,7 @@ The fractional high threshold value for the hybrid disk cache  to synchronize to
 </dl>
 
 
-The values of <b>DirtyLowThreshold</b> and <b>DirtyHighThreshold</b> are expressed as the smaller part of a ratio between the threshold value and a fraction base. The fraction base is determined by the <b>FractionBase</b> member of the <a href="..\ntddscsi\ns-ntddscsi-_hybrid_information.md">HYBRID_INFORMATION</a> structure.
+The values of <b>DirtyLowThreshold</b> and <b>DirtyHighThreshold</b> are expressed as the smaller part of a ratio between the threshold value and a fraction base. The fraction base is determined by the <b>FractionBase</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/dn323746">HYBRID_INFORMATION</a> structure.
 
 <b>HYBRID_DEMOTE_BY_SIZE</b>
 
@@ -392,32 +388,30 @@ The number of LBAs to demote to the new priority level.
 </dl>
 
 
-The <a href="..\ntddscsi\ns-ntddscsi-_srb_io_control.md">SRB_IO_CONTROL</a> structure for this IOCTL contains IOCTL_MINIPORT_SIGNATURE_HYBRDISK in its <b>Signature</b> member and <b>IOCTL_SCSI_MINIPORT_HYBRID</b> in the <b>ControlCode</b> member.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/ff566339">SRB_IO_CONTROL</a> structure for this IOCTL contains IOCTL_MINIPORT_SIGNATURE_HYBRDISK in its <b>Signature</b> member and <b>IOCTL_SCSI_MINIPORT_HYBRID</b> in the <b>ControlCode</b> member.
 
 
 
 
 ## -see-also
 
-<a href="..\storport\ns-storport-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
 
 
 
-<a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_miniport.md">IOCTL_SCSI_MINIPORT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn323746">HYBRID_INFORMATION</a>
 
 
 
-<a href="..\ntddscsi\ns-ntddscsi-_srb_io_control.md">SRB_IO_CONTROL</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560512">IOCTL_SCSI_MINIPORT</a>
 
 
 
-<a href="..\ntddscsi\ns-ntddscsi-_hybrid_information.md">HYBRID_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566339">SRB_IO_CONTROL</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451474">STORAGE_REQUEST_BLOCK</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20IOCTL_SCSI_MINIPORT_HYBRID control code%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

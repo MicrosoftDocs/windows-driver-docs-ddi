@@ -7,7 +7,7 @@ old-location: display\dxgkarg_validateupdateallocproperty.htm
 old-project: display
 ms.assetid: EC9654B8-06AA-43C8-A159-F176BDE4E015
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKARG_VALIDATEUPDATEALLOCPROPERTY, DXGKARG_VALIDATEUPDATEALLOCPROPERTY structure [Display Devices], _DXGKARG_VALIDATEUPDATEALLOCPROPERTY, d3dkmddi/DXGKARG_VALIDATEUPDATEALLOCPROPERTY, display.dxgkarg_validateupdateallocproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGKARG_VALIDATEUPDATEALLOCPROPERTY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGKARG_VALIDATEUPDATEALLOCPROPERTY
 ---
@@ -50,28 +51,6 @@ req.typenames: DXGKARG_VALIDATEUPDATEALLOCPROPERTY
 
 
 The DXGARG_VALIDATEUPDATEALLOCPROPERTY structure holds the information needed to validate the parameters to update the properties of an allocation.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGKARG_VALIDATEUPDATEALLOCPROPERTY {
-  HANDLE                               hAllocation;
-  UINT                                 SupportedSegmentSet;
-  D3DDI_SEGMENTPREFERENCE              PreferredSegment;
-  D3DDDI_UPDATEALLOCPROPERTY_FLAGS     Flags;
-  union {
-    struct {
-      UINT SetAccessedPhysically   :1;
-      UINT SetSupportedSegmentSet   :1;
-      UINT SetPreferredSegment   :1;
-      UINT Reserved  :29;
-    };
-    UINT   PropertyMaskValue;
-  };
-} DXGKARG_VALIDATEUPDATEALLOCPROPERTY;
-````
 
 
 ## -struct-fields

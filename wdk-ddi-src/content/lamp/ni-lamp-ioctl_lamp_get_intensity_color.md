@@ -38,18 +38,14 @@ api_location:
 -	lamp.h
 api_name:
 -	IOCTL_LAMP_GET_INTENSITY_COLOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: LAMP_MODE
 ---
 
 # IOCTL_LAMP_GET_INTENSITY_COLOR IOCTL
 
-
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -75,12 +71,12 @@ The <b>IOCTL_LAMP_GET_INTENSITY_COLOR</b>
 
 ### -input-buffer
 
-<code>Irp-&gt;AssociatedIrp.SystemBuffer</code> points to a <a href="..\lamp\ns-lamp-lamp_intensity_color.md">LAMP_INTENSITY_COLOR</a> structure.
+<code>Irp-&gt;AssociatedIrp.SystemBuffer</code> points to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn937004">LAMP_INTENSITY_COLOR</a> structure.
 
 
 ### -input-buffer-length
 
-Length of a <a href="..\lamp\ns-lamp-lamp_intensity_color.md">LAMP_INTENSITY_COLOR</a> structure.
+Length of a <a href="https://msdn.microsoft.com/library/windows/hardware/dn937004">LAMP_INTENSITY_COLOR</a> structure.
 
 
 ### -output-buffer
@@ -122,7 +118,7 @@ If the device has been acquired by a camera driver, the lamp driver should retur
 
 
 
-The payload type of this IOCTL is a <a href="..\lamp\ns-lamp-lamp_intensity_color.md">LAMP_INTENSITY_COLOR</a> structure.
+The payload type of this IOCTL is a <a href="https://msdn.microsoft.com/library/windows/hardware/dn937004">LAMP_INTENSITY_COLOR</a> structure.
 
 
 

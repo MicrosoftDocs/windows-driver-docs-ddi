@@ -7,7 +7,7 @@ old-location: display\dxgk_plane_specific_output_flags.htm
 old-project: display
 ms.assetid: 95D9C564-92F3-4165-8063-49D928F30475
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: DXGK_PLANE_SPECIFIC_OUTPUT_FLAGS, DXGK_PLANE_SPECIFIC_OUTPUT_FLAGS structure [Display Devices], _DXGK_PLANE_SPECIFIC_OUTPUT_FLAGS, d3dkmddi/DXGK_PLANE_SPECIFIC_OUTPUT_FLAGS, display.dxgk_plane_specific_output_flags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGK_PLANE_SPECIFIC_OUTPUT_FLAGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_PLANE_SPECIFIC_OUTPUT_FLAGS
 ---
@@ -50,24 +51,6 @@ req.typenames: DXGK_PLANE_SPECIFIC_OUTPUT_FLAGS
 
 
 A structure containing the flags that apply to a plane set by the driver. 
-
-
-## -syntax
-
-
-````
-typedef struct _DXGK_PLANE_SPECIFIC_OUTPUT_FLAGS {
-  union {
-    struct {
-      UINT FlipConvertedToImmediate  :1;
-      UINT  PostPresentNeeded  :1;
-      UINT HsyncInterruptCompletion  :1;
-      UINT Reserved  :29;
-    };
-    UINT Value;
-  };
-} DXGK_PLANE_SPECIFIC_OUTPUT_FLAGS;
-````
 
 
 ## -struct-fields

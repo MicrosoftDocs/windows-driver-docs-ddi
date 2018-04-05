@@ -7,7 +7,7 @@ old-location: storage\msiscsi_hbasessionconfig.htm
 old-project: storage
 ms.assetid: a97f39b7-9356-45f1-b0a2-bd18eb4c7467
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PMSiSCSI_HBASessionConfig, MSiSCSI_HBASessionConfig, MSiSCSI_HBASessionConfig structure [Storage Devices], PMSiSCSI_HBASessionConfig, PMSiSCSI_HBASessionConfig structure pointer [Storage Devices], _MSiSCSI_HBASessionConfig, iscsimgt/MSiSCSI_HBASessionConfig, iscsimgt/PMSiSCSI_HBASessionConfig, storage.msiscsi_hbasessionconfig, structs-iSCSI_e8f9731d-11fb-42e1-90a0-09e3e6597ebe.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	iscsimgt.h
 api_name:
 -	MSiSCSI_HBASessionConfig
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MSiSCSI_HBASessionConfig, *PMSiSCSI_HBASessionConfig
 ---
@@ -50,21 +51,6 @@ req.typenames: MSiSCSI_HBASessionConfig, *PMSiSCSI_HBASessionConfig
 
 
 The MSiSCSI_HBASessionConfig structure contains the default logon characteristics that a particular instance of a storage miniport driver uses to create a logon session with a target device. 
-
-
-## -syntax
-
-
-````
-typedef struct _MSiSCSI_HBASessionConfig {
-  BOOLEAN InitialR2T;
-  BOOLEAN ImmediateData;
-  ULONG   MaxRecvDataSegmentLength;
-  ULONG   MaxBurstLength;
-  ULONG   FirstBurstLength;
-  ULONG   MaxOutstandingR2T;
-} MSiSCSI_HBASessionConfig, *PMSiSCSI_HBASessionConfig;
-````
 
 
 ## -struct-fields
@@ -119,13 +105,11 @@ It is optional that you implement this class.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563022">MSiSCSI_HBASessionConfig WMI Class</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20MSiSCSI_HBASessionConfig structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

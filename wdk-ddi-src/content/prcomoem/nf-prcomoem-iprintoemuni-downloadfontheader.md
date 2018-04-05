@@ -7,7 +7,7 @@ old-location: print\iprintoemuni_downloadfontheader.htm
 old-project: print
 ms.assetid: 3d660d04-2872-44e6-ab76-719f5262bdd8
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: DownloadFontHeader method [Print Devices], DownloadFontHeader method [Print Devices], IPrintOemUni interface, DownloadFontHeader,IPrintOemUni.DownloadFontHeader, IPrintOemUni, IPrintOemUni interface [Print Devices], DownloadFontHeader method, IPrintOemUni::DownloadFontHeader, prcomoem/IPrintOemUni::DownloadFontHeader, print.iprintoemuni_downloadfontheader, print_unidrv-pscript_rendering_7ed24461-70a3-4446-9b3e-1fda13b0a29a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: prcomoem.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	prcomoem.h
 api_name:
 -	IPrintOemUni.DownloadFontHeader
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
@@ -53,18 +54,6 @@ req.product: Windows 10 or later.
 The <code>IPrintOemUni::DownloadFontHeader</code> method allows a rendering plug-in for <a href="https://msdn.microsoft.com/0a51fa2b-3d09-4a5f-9fff-40604877a414">Unidrv</a> to send a font's header information to a printer.
 
 
-## -syntax
-
-
-````
-HRESULT DownloadFontHeader(
-        PDEVOBJ     pdevobj,
-        PUNIFONTOBJ pUFObj,
-  [out] DWORD       *pdwResult
-);
-````
-
-
 ## -parameters
 
 
@@ -72,12 +61,12 @@ HRESULT DownloadFontHeader(
 
 ### -param pdevobj
 
-Caller-supplied pointer to a <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a> structure.
+Caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547573">DEVOBJ</a> structure.
 
 
 ### -param pUFObj
 
-Caller-supplied pointer to a <a href="..\printoem\ns-printoem-_unifontobj.md">UNIFONTOBJ</a> structure.
+Caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563590">UNIFONTOBJ</a> structure.
 
 
 ### -param pdwResult [out]
@@ -145,7 +134,7 @@ Information that might be required for constructing a non-<a href="https://msdn.
 
 <ul>
 <li>
-Referencing the <a href="..\printoem\ns-printoem-_unifontobj.md">UNIFONTOBJ</a> structure that is received as an input argument.
+Referencing the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563590">UNIFONTOBJ</a> structure that is received as an input argument.
 
 </li>
 <li>

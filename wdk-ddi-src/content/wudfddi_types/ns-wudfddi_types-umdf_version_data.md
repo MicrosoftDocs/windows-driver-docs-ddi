@@ -7,7 +7,7 @@ old-location: wdf\umdf_version_data.htm
 old-project: wdf
 ms.assetid: b83a786d-0b17-4129-bdd4-86942ad9d3ec
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/26/2018
 ms.keywords: "*PUMDF_VERSION_DATA, PUMDF_VERSION_DATA, PUMDF_VERSION_DATA structure pointer, UMDF_VERSION_DATA, UMDF_VERSION_DATA structure, umdf.umdf_version_data, umdfstructs_b4fe6241-b095-437b-a3f8-e1cf395da8ee.xml, wdf.umdf_version_data, wudfddi_types/PUMDF_VERSION_DATA, wudfddi_types/UMDF_VERSION_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Wudfddi_types.h
 api_name:
 -	UMDF_VERSION_DATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UMDF_VERSION_DATA, *PUMDF_VERSION_DATA
 req.product: Windows 10 or later.
@@ -53,18 +54,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>UMDF_VERSION_DATA</b> structure describes a version of the framework.
-
-
-## -syntax
-
-
-````
-typedef struct UMDF_VERSION_DATA {
-  ULONG MajorNumber;
-  ULONG MinorNumber;
-  ULONG ServiceNumber;
-} UMDF_VERSION_DATA, *PUMDF_VERSION_DATA;
-````
 
 
 ## -struct-fields
@@ -131,7 +120,6 @@ Header:
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh780327">Microsoft_WDF_UMDF_Version</a>
 
 
 
@@ -139,9 +127,8 @@ Header:
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh780327">Microsoft_WDF_UMDF_Version</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20UMDF_VERSION_DATA structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

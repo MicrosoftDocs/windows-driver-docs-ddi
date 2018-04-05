@@ -7,7 +7,7 @@ old-location: display\d3dddicb_queryresidency.htm
 old-project: display
 ms.assetid: 43dafaea-06cd-49bb-99ab-99708b1a93cb
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDICB_QUERYRESIDENCY, D3DDDICB_QUERYRESIDENCY structure [Display Devices], D3D_param_Structs_196c35e7-414d-465f-b5e5-695848a4c642.xml, _D3DDDICB_QUERYRESIDENCY, d3dumddi/D3DDDICB_QUERYRESIDENCY, display.d3dddicb_queryresidency
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	D3DDDICB_QUERYRESIDENCY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDICB_QUERYRESIDENCY
 ---
@@ -50,19 +51,6 @@ req.typenames: D3DDDICB_QUERYRESIDENCY
 
 
 The D3DDDICB_QUERYRESIDENCY structure describes the residency status of a resource or list of allocations. 
-
-
-## -syntax
-
-
-````
-typedef struct _D3DDDICB_QUERYRESIDENCY {
-  HANDLE                 hResource;
-  UINT                   NumAllocations;
-  const D3DKMT_HANDLE    *HandleList;
-  D3DDDI_RESIDENCYSTATUS *pResidencyStatus;
-} D3DDDICB_QUERYRESIDENCY;
-````
 
 
 ## -struct-fields
@@ -84,7 +72,7 @@ If <b>hResource</b> is non-<b>NULL</b>, all allocations that belong to the resou
 
 ### -field HandleList
 
-[in] An array of D3DKMT_HANDLE data types that represent kernel-mode handles to the allocations. The Microsoft Direct3D runtime's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_allocatecb.md">pfnAllocateCb</a> function returns these handles. Therefore, the user-mode display driver uses these handles to query for residency.
+[in] An array of D3DKMT_HANDLE data types that represent kernel-mode handles to the allocations. The Microsoft Direct3D runtime's <a href="https://msdn.microsoft.com/a61e6c6a-3992-429c-ad8c-5f1a61dc7b8b">pfnAllocateCb</a> function returns these handles. Therefore, the user-mode display driver uses these handles to query for residency.
 
 If the user-mode display driver sets the handle in the <b>hResource</b> member to non-<b>NULL</b>, it must set <b>HandleList</b> to <b>NULL</b>. 
 
@@ -134,13 +122,11 @@ The resource or list of allocations is nonresident, which is the lowest residenc
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_queryresidencycb.md">pfnQueryResidencyCb</a>
 
 
 
+<a href="https://msdn.microsoft.com/707ba050-e70c-49f8-aac0-0bcc8fe9bf8b">pfnQueryResidencyCb</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DDDICB_QUERYRESIDENCY structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

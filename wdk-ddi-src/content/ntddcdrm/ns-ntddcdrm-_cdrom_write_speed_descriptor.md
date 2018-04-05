@@ -7,7 +7,7 @@ old-location: storage\cdrom_write_speed_descriptor.htm
 old-project: storage
 ms.assetid: 21CFAA26-3E11-4E3B-949A-C905813E56A8
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PCDROM_WRITE_SPEED_DESCRIPTOR, CDROM_WRITE_SPEED_DESCRIPTOR, CDROM_WRITE_SPEED_DESCRIPTOR structure [Storage Devices], PCDROM_WRITE_SPEED_DESCRIPTOR, PCDROM_WRITE_SPEED_DESCRIPTOR structure pointer [Storage Devices], _CDROM_WRITE_SPEED_DESCRIPTOR, ntddcdrm/CDROM_WRITE_SPEED_DESCRIPTOR, ntddcdrm/PCDROM_WRITE_SPEED_DESCRIPTOR, storage.cdrom_write_speed_descriptor"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ntddcdrm.h
 api_name:
 -	CDROM_WRITE_SPEED_DESCRIPTOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CDROM_WRITE_SPEED_DESCRIPTOR, *PCDROM_WRITE_SPEED_DESCRIPTOR
 ---
@@ -49,25 +50,7 @@ req.typenames: CDROM_WRITE_SPEED_DESCRIPTOR, *PCDROM_WRITE_SPEED_DESCRIPTOR
 ## -description
 
 
-The <b>CDROM_WRITE_SPEED_DESCRIPTOR</b> structure is returned for the <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_get_performance.md">IOCTL_CDROM_GET_PERFORMANCE</a> IOCTL when the request type is <b>CdromWriteSpeedRequest</b>. The IOCTL returns the  <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_performance_header.md">CDROM_PERFORMANCE_HEADER</a> followed by one or more descriptors of type <b>CDROM_WRITE_SPEED_DESCRIPTOR</b>.
-
-
-## -syntax
-
-
-````
-typedef struct _CDROM_WRITE_SPEED_DESCRIPTOR {
-  UCHAR MixedReadWrite  :1;
-  UCHAR  Exact  :1;
-  UCHAR  Reserved1  :1;
-  UCHAR   WriteRotationControl  :2;
-  UCHAR    Reserved2  :3;
-  UCHAR   Reserved3[3];
-  UCHAR EndLba[4];
-  UCHAR   ReadSpeed[4];
-  UCHAR  WriteSpeed[4];
-} CDROM_WRITE_SPEED_DESCRIPTOR, *PCDROM_WRITE_SPEED_DESCRIPTOR;
-````
+The <b>CDROM_WRITE_SPEED_DESCRIPTOR</b> structure is returned for the <a href="https://msdn.microsoft.com/library/windows/hardware/gg441242">IOCTL_CDROM_GET_PERFORMANCE</a> IOCTL when the request type is <b>CdromWriteSpeedRequest</b>. The IOCTL returns the  <a href="https://msdn.microsoft.com/library/windows/hardware/gg441232">CDROM_PERFORMANCE_HEADER</a> followed by one or more descriptors of type <b>CDROM_WRITE_SPEED_DESCRIPTOR</b>.
 
 
 ## -struct-fields
@@ -78,7 +61,7 @@ typedef struct _CDROM_WRITE_SPEED_DESCRIPTOR {
 ### -field MixedReadWrite
 
 The MixedReadWrite (MRW) field corresponds to the MRW bit of the Write Speed Descriptor in the MultiMedia Command Set - 6 (MMC-6)
-specification. This field indicates that it is suitable for a mixture of streaming read and write requests (overwrite mode). The <a href="..\ntddcdrm\ne-ntddcdrm-_streaming_control_request_type.md">STREAMING_CONTROL_REQUEST_TYPE</a>   enumeration specifies the type of request.
+specification. This field indicates that it is suitable for a mixture of streaming read and write requests (overwrite mode). The <a href="https://msdn.microsoft.com/library/windows/hardware/gg441244">STREAMING_CONTROL_REQUEST_TYPE</a>   enumeration specifies the type of request.
 
 
 ### -field Exact
@@ -134,17 +117,15 @@ specification for the Write Speed Descriptor.
 
 ## -see-also
 
-<a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_get_performance.md">IOCTL_CDROM_GET_PERFORMANCE</a>
 
 
 
-<a href="..\ntddcdrm\ne-ntddcdrm-_streaming_control_request_type.md">STREAMING_CONTROL_REQUEST_TYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/gg441242">IOCTL_CDROM_GET_PERFORMANCE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/gg441244">STREAMING_CONTROL_REQUEST_TYPE</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20CDROM_WRITE_SPEED_DESCRIPTOR structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

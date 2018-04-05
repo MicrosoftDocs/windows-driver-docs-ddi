@@ -7,7 +7,7 @@ old-location: kernel\pofxsettargetdripsdevicepowerstate.htm
 old-project: kernel
 ms.assetid: 435c0731-101c-498b-9041-904001be3f2c
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/28/2018
 ms.keywords: PoFxSetTargetDripsDevicePowerState, PoFxSetTargetDripsDevicePowerState function [Kernel-Mode Driver Architecture], kernel.pofxsettargetdripsdevicepowerstate, wdm/PoFxSetTargetDripsDevicePowerState
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	PoFxSetTargetDripsDevicePowerState
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
@@ -55,17 +56,6 @@ req.product: Windows 10 or later.
     DRIPS constraint provided by the PEP.  
 
 
-## -syntax
-
-
-````
-NTSTATUS  PoFxSetTargetDripsDevicePowerState(
-  _In_ POHANDLE           Handle,
-  _In_ DEVICE_POWER_STATE TargetState
-);
-````
-
-
 ## -parameters
 
 
@@ -73,12 +63,12 @@ NTSTATUS  PoFxSetTargetDripsDevicePowerState(
 
 ### -param Handle [in]
 
-A handle that represents the registration of the device with PoFx. The device driver previously received this handle from the <a href="..\wdm\nf-wdm-pofxregisterdevice.md">PoFxRegisterDevice</a> routine.
+A handle that represents the registration of the device with PoFx. The device driver previously received this handle from the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439521">PoFxRegisterDevice</a> routine.
 
 
 ### -param TargetState [in]
 
-Specifies the target DRIPS device power state. Possible values are defined in the <a href="..\wudfddi\ne-wudfddi-_device_power_state.md">DEVICE_POWER_STATE</a> enumeration. This value must
+Specifies the target DRIPS device power state. Possible values are defined in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554628">DEVICE_POWER_STATE</a> enumeration. This value must
     be lower than the existing device constraint.  A device power state
     of <b>PowerDeviceUnspecified</b> resets to the PEP provided constraint.
 

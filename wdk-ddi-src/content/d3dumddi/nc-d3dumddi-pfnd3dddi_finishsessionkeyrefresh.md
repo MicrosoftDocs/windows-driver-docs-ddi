@@ -7,7 +7,7 @@ old-location: display\finishsessionkeyrefresh.htm
 old-project: display
 ms.assetid: e245f6f9-f4ea-429d-8421-be4fef1bf17e
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: FinishSessionKeyRefresh, FinishSessionKeyRefresh callback function [Display Devices], PFND3DDDI_FINISHSESSIONKEYREFRESH, UserModeDisplayDriver_Functions_6b7be711-8539-4b49-99d0-efbd424b33cc.xml, d3dumddi/FinishSessionKeyRefresh, display.finishsessionkeyrefresh
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	FinishSessionKeyRefresh
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_PTE
 ---
@@ -50,20 +51,6 @@ req.typenames: DXGK_PTE
 
 
 The <i>FinishSessionKeyRefresh</i> function indicates that all buffers from that point in time use the updated session key value. 
-
-
-## -prototype
-
-
-````
-PFND3DDDI_FINISHSESSIONKEYREFRESH FinishSessionKeyRefresh;
-
-__checkReturn HRESULT APIENTRY FinishSessionKeyRefresh(
-  _In_       HANDLE                            hDevice,
-  _In_ const D3DDDIARG_FINISHSESSIONKEYREFRESH *pData
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -87,7 +74,7 @@ __checkReturn HRESULT APIENTRY FinishSessionKeyRefresh(
 
 #### - pData [in]
 
- A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_finishsessionkeyrefresh.md">D3DDDIARG_FINISHSESSIONKEYREFRESH</a> structure that describes the session. 
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543120">D3DDDIARG_FINISHSESSIONKEYREFRESH</a> structure that describes the session. 
 
 
 ## -returns
@@ -135,7 +122,7 @@ The driver does not support the <i>FinishSessionKeyRefresh</i> function.
 
 The hardware and driver can optionally support the <i>FinishSessionKeyRefresh</i> function for all crypto types.
 
-When the Direct3D runtime calls the driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_startsessionkeyrefresh.md">StartSessionKeyRefresh</a> function, the driver generates and saves a random number and returns the random number in the buffer that the <b>pRandomNumber</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_startsessionkeyrefresh.md">D3DDDIARG_STARTSESSIONKEYREFRESH</a> structure points to. 
+When the Direct3D runtime calls the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/hh451696">StartSessionKeyRefresh</a> function, the driver generates and saves a random number and returns the random number in the buffer that the <b>pRandomNumber</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543375">D3DDDIARG_STARTSESSIONKEYREFRESH</a> structure points to. 
 
 When the runtime subsequently calls the driver's <i>FinishSessionKeyRefresh</i> function, the driver performs an XOR operation of the random number with the session key.
 
@@ -144,21 +131,19 @@ When the runtime subsequently calls the driver's <i>FinishSessionKeyRefresh</i> 
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_startsessionkeyrefresh.md">D3DDDIARG_STARTSESSIONKEYREFRESH</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_finishsessionkeyrefresh.md">D3DDDIARG_FINISHSESSIONKEYREFRESH</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543120">D3DDDIARG_FINISHSESSIONKEYREFRESH</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_startsessionkeyrefresh.md">StartSessionKeyRefresh</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543375">D3DDDIARG_STARTSESSIONKEYREFRESH</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451696">StartSessionKeyRefresh</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3DDDI_FINISHSESSIONKEYREFRESH callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

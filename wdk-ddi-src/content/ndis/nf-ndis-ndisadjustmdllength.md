@@ -7,7 +7,7 @@ old-location: netvista\ndisadjustmdllength.htm
 old-project: netvista
 ms.assetid: d52d985c-3ebc-45a0-8073-ac26c77441c9
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: NdisAdjustMdlLength, NdisAdjustMdlLength macro [Network Drivers Starting with Windows Vista], ndis/NdisAdjustMdlLength, ndis_netbuf_functions_ref_babeb674-269d-4efc-add1-635666fd7863.xml, netvista.ndisadjustmdllength
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: ndis.h
+req.lib: 
 req.dll: 
 req.irql: Any level (see Remarks section)
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	ndis.h
 api_name:
 -	NdisAdjustMdlLength
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
@@ -51,17 +52,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 
 The 
   <b>NdisAdjustMdlLength</b> function modifies the length of the data that is associated with an MDL.
-
-
-## -syntax
-
-
-````
-VOID NdisAdjustMdlLength(
-  [in] PMDL Mdl,
-  [in] UINT Length
-);
-````
 
 
 ## -parameters
@@ -86,7 +76,7 @@ The number of bytes of data that the MDL describes.
 The 
     <b>NdisAdjustMdlLength</b> function modifies the 
     <b>ByteCount</b> member of an MDL that was allocated by calling the 
-    <a href="..\ndis\nf-ndis-ndisallocatemdl.md">NdisAllocateMdl</a> function.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561605">NdisAllocateMdl</a> function.
 
 The caller of 
     <b>NdisAdjustMdlLength</b> can pass only an MDL descriptor that the caller allocated. It cannot pass an
@@ -100,13 +90,13 @@ For example, the driver of a bus-master DMA NIC calls
 
 The length that is passed to 
     <b>NdisAdjustMdlLength</b> cannot be larger than the length that was passed to 
-    <a href="..\ndis\nf-ndis-ndisallocatemdl.md">NdisAllocateMdl</a> when the MDL descriptor
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561605">NdisAllocateMdl</a> when the MDL descriptor
     was allocated.
 
 The caller of 
     <b>NdisAdjustMdlLength</b> must restore the length to its original value before it frees the MDL
     descriptor with 
-    <a href="..\ndis\nf-ndis-ndisfreemdl.md">NdisFreeMdl</a>.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff562575">NdisFreeMdl</a>.
 
 Callers of 
     <b>NdisAdjustMdlLength</b> can run at any IRQL, but typically run at IRQL &lt;= DISPATCH_LEVEL.
@@ -116,17 +106,15 @@ Callers of
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisfreemdl.md">NdisFreeMdl</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisallocatemdl.md">NdisAllocateMdl</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561605">NdisAllocateMdl</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562575">NdisFreeMdl</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisAdjustMdlLength macro%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: netvista\ndisallocatenetbuffermdlanddata.htm
 old-project: netvista
 ms.assetid: cfac9061-a685-4e67-aaa2-ca43b7e36cfa
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: NdisAllocateNetBufferMdlAndData, NdisAllocateNetBufferMdlAndData function [Network Drivers Starting with Windows Vista], ndis/NdisAllocateNetBufferMdlAndData, ndis_netbuf_functions_ref_4f5d872d-11c1-4d75-889c-0c2157ce5f2e.xml, netvista.ndisallocatenetbuffermdlanddata
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	ndis.dll
 api_name:
 -	NdisAllocateNetBufferMdlAndData
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
@@ -53,16 +54,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 NDIS drivers call the 
   <b>NdisAllocateNetBufferMdlAndData</b> function to allocate a NET_BUFFER structure along with the associated
   MDL and data.
-
-
-## -syntax
-
-
-````
-PNET_BUFFER NdisAllocateNetBufferMdlAndData(
-  _In_ NDIS_HANDLE PoolHandle
-);
-````
 
 
 ## -parameters
@@ -95,10 +86,10 @@ The caller must call the
     value, NDIS can preallocate buffers for the caller.
 
 This function allocates a 
-    <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structure, MDL and data in a single
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structure, MDL and data in a single
     memory buffer. This is useful to achieve high performance when NET_BUFFER structures are frequently
     allocated and freed. The caller should not call 
-    <a href="..\ndis\nf-ndis-ndisallocatenetbuffer.md">NdisAllocateNetBuffer</a> to allocate
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561607">NdisAllocateNetBuffer</a> to allocate
     NET_BUFFERs out of NET_BUFFER pools which contain data.
 
 NDIS uses the 
@@ -106,28 +97,26 @@ NDIS uses the
     buffer.
 
 To free the NET_BUFFER and associated information, call the 
-    <a href="..\ndis\nf-ndis-ndisfreenetbuffer.md">NdisFreeNetBuffer</a> function.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff562582">NdisFreeNetBuffer</a> function.
 
 
 
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisfreenetbuffer.md">NdisFreeNetBuffer</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisallocatenetbuffer.md">NdisAllocateNetBuffer</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a>
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561607">NdisAllocateNetBuffer</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562582">NdisFreeNetBuffer</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisAllocateNetBufferMdlAndData function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

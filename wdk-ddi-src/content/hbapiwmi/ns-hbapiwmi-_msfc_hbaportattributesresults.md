@@ -7,7 +7,7 @@ old-location: storage\msfc_hbaportattributesresults.htm
 old-project: storage
 ms.assetid: cd6797a3-3128-4100-81f0-82e4d6f209b4
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PMSFC_HBAPortAttributesResults, MSFC_HBAPortAttributesResults, MSFC_HBAPortAttributesResults structure [Storage Devices], PMSFC_HBAPortAttributesResults, PMSFC_HBAPortAttributesResults structure pointer [Storage Devices], _MSFC_HBAPortAttributesResults, hbapiwmi/MSFC_HBAPortAttributesResults, hbapiwmi/PMSFC_HBAPortAttributesResults, storage.msfc_hbaportattributesresults, structs-Fibre_976d4a28-f7d1-4a94-849c-f917f5bce339.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	hbapiwmi.h
 api_name:
 -	MSFC_HBAPortAttributesResults
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MSFC_HBAPortAttributesResults, *PMSFC_HBAPortAttributesResults
 ---
@@ -50,28 +51,6 @@ req.typenames: MSFC_HBAPortAttributesResults, *PMSFC_HBAPortAttributesResults
 
 
 The  structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553925">GetDiscoveredPortAttributes</a> WMI method to report the attributes for a specified remote fibre channel port.
-
-
-## -syntax
-
-
-````
-typedef struct _MSFC_HBAPortAttributesResults {
-  UCHAR NodeWWN[8];
-  UCHAR PortWWN[8];
-  ULONG PortFcId;
-  ULONG PortType;
-  ULONG PortState;
-  ULONG PortSupportedClassofService;
-  UCHAR PortSupportedFc4Types[32];
-  UCHAR PortActiveFc4Types[32];
-  ULONG PortSupportedSpeed;
-  ULONG PortSpeed;
-  ULONG PortMaxFrameSize;
-  UCHAR FabricName[8];
-  ULONG NumberofDiscoveredPorts;
-} MSFC_HBAPortAttributesResults, *PMSFC_HBAPortAttributesResults;
-````
 
 
 ## -struct-fields
@@ -420,13 +399,11 @@ Indicates the number of ports that are visible to <b>PortWWN</b>. For a more det
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553925">GetDiscoveredPortAttributes</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20MSFC_HBAPortAttributesResults structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: display\d3dkmdt_frequency_range.htm
 old-project: display
 ms.assetid: f826f949-b37f-4c48-80d9-b6ef640e1f00
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMDT_FREQUENCY_RANGE, D3DKMDT_FREQUENCY_RANGE structure [Display Devices], DmStructs_63b22220-c9fc-4eac-a725-caa0f5c38eba.xml, _D3DKMDT_FREQUENCY_RANGE, d3dkmdt/D3DKMDT_FREQUENCY_RANGE, display.d3dkmdt_frequency_range
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmdt.h
 api_name:
 -	D3DKMDT_FREQUENCY_RANGE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMDT_FREQUENCY_RANGE
 ---
@@ -50,19 +51,6 @@ req.typenames: D3DKMDT_FREQUENCY_RANGE
 
 
 The D3DKMDT_FREQUENCY_RANGE structure contains the minimum and maximum refresh rates supported by a monitor.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMDT_FREQUENCY_RANGE {
-  D3DDDI_RATIONAL MinVSyncFreq;
-  D3DDDI_RATIONAL MaxVSyncFreq;
-  D3DDDI_RATIONAL MinHSyncFreq;
-  D3DDDI_RATIONAL MaxHSyncFreq;
-} D3DKMDT_FREQUENCY_RANGE;
-````
 
 
 ## -struct-fields
@@ -94,20 +82,18 @@ The maximum horizontal refresh rate, in Hz, supported by the monitor.
 
 
 
-The <b>RangeLimits</b> member of the <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_monitor_frequency_range.md">D3DKMDT_MONITOR_FREQUENCY_RANGE</a> structure is a D3DKMDT_FREQUENCY_RANGE structure.
+The <b>RangeLimits</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546103">D3DKMDT_MONITOR_FREQUENCY_RANGE</a> structure is a D3DKMDT_FREQUENCY_RANGE structure.
 
 
 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568430">Monitor Frequency Range Set Interface</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMDT_FREQUENCY_RANGE structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

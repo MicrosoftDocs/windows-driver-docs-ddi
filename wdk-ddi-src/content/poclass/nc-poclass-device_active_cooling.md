@@ -7,7 +7,7 @@ old-location: kernel\activecooling.htm
 old-project: kernel
 ms.assetid: ADC0145D-135F-46E6-91C9-B545DBE1D83B
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/28/2018
 ms.keywords: ActiveCooling, ActiveCooling routine [Kernel-Mode Driver Architecture], DEVICE_ACTIVE_COOLING, kernel.activecooling, poclass/ActiveCooling
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Poclass.h
 api_name:
 -	ActiveCooling
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PMI_THRESHOLD_CONFIGURATION, *PPMI_THRESHOLD_CONFIGURATION
 ---
@@ -52,20 +53,6 @@ req.typenames: PMI_THRESHOLD_CONFIGURATION, *PPMI_THRESHOLD_CONFIGURATION
 The <i>ActiveCooling</i> callback routine engages or disengages a device's active-cooling function.
 
 
-## -prototype
-
-
-````
-DEVICE_ACTIVE_COOLING ActiveCooling;
-
-void ActiveCooling(
-  _Inout_opt_ PVOID   Context,
-  _In_        BOOLEAN Engaged
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -73,7 +60,7 @@ void ActiveCooling(
 
 ### -param Context [in, out, optional]
 
-A pointer to interface-specific context information. The caller sets this parameter to the value of the <b>Context</b> member of the <a href="..\poclass\ns-poclass-_thermal_cooling_interface.md">THERMAL_COOLING_INTERFACE</a> structure that the driver previously supplied to the caller.
+A pointer to interface-specific context information. The caller sets this parameter to the value of the <b>Context</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh698275">THERMAL_COOLING_INTERFACE</a> structure that the driver previously supplied to the caller.
 
 
 ### -param Engaged [in]
@@ -109,13 +96,11 @@ For more information about active cooling, see <a href="https://msdn.microsoft.c
 
 ## -see-also
 
-<a href="..\poclass\ns-poclass-_thermal_cooling_interface.md">THERMAL_COOLING_INTERFACE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh698275">THERMAL_COOLING_INTERFACE</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20DEVICE_ACTIVE_COOLING routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

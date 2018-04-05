@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsReleaseIrpOnCancelableQueue
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,17 +52,6 @@ req.typenames:
 
 
 The <b>KsReleaseIrpOnCancelableQueue</b> function releases an acquired IRP that is already on a queue that can be canceled. The function sets the cancel function and completes the canceling of the IRP, if necessary. The function can be called at IRQ level DISPATCH_LEVEL or lower.
-
-
-## -syntax
-
-
-````
-VOID KsReleaseIrpOnCancelableQueue(
-  _In_     PIRP           Irp,
-  _In_opt_ PDRIVER_CANCEL DriverCancel
-);
-````
 
 
 ## -parameters

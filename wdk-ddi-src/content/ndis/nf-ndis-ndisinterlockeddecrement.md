@@ -7,7 +7,7 @@ old-location: netvista\ndisinterlockeddecrement.htm
 old-project: netvista
 ms.assetid: cf425cd6-88e6-479f-a5c7-364ae896145d
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: NdisInterlockedDecrement, NdisInterlockedDecrement macro [Network Drivers Starting with Windows Vista], ndis/NdisInterlockedDecrement, ndis_interlocked_ref_bbf1ad9d-0f18-4746-9fa3-b2b2c4101a41.xml, netvista.ndisinterlockeddecrement
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	ndis.dll
 api_name:
 -	NdisInterlockedDecrement
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
@@ -53,16 +54,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 The 
   <b>NdisInterlockedDecrement</b> function decrements a caller-supplied variable of type LONG as an atomic
   operation.
-
-
-## -syntax
-
-
-````
-LONG NdisInterlockedDecrement(
-  [in] PLONG Addend
-);
-````
 
 
 ## -parameters
@@ -89,13 +80,11 @@ A pointer to the variable to be decremented.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisinterlockedincrement.md">NdisInterlockedIncrement</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562752">NdisInterlockedIncrement</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisInterlockedDecrement macro%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: debugger\onsessionactive.htm
 old-project: debugger
 ms.assetid: 356675af-cc2e-4295-bb44-dc0a9377f701
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: EngExtCpp_Ref_251ac958-396c-414a-92a5-e1b02e453a69.xml, OnSessionActive method [Windows Debugging], OnSessionActive, ExtExtension, ExtExtension class [Windows Debugging], OnSessionActive method, ExtExtension::OnSessionActive, debugger.onsessionactive, OnSessionActive method [Windows Debugging], ExtExtension class
+ms.date: 3/26/2018
+ms.keywords: EngExtCpp_Ref_251ac958-396c-414a-92a5-e1b02e453a69.xml, ExtExtension, ExtExtension class [Windows Debugging], OnSessionActive method, ExtExtension::OnSessionActive, OnSessionActive method [Windows Debugging], OnSessionActive method [Windows Debugging], ExtExtension class, OnSessionActive,ExtExtension.OnSessionActive, debugger.onsessionactive
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -26,19 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: engextcpp.hpp
+req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	Engextcpp.hpp
-apiname:
+api_name:
 -	ExtExtension.OnSessionActive
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 ---
@@ -50,16 +51,6 @@ req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 
 
 The <b>OnSessionActive</b> method is called by the engine to inform the EngExtCpp extension library when the debugging session becomes active.
-
-
-## -syntax
-
-
-````
-virtual void OnSessionActive(
-  [in] ULONG64 Argument
-);
-````
 
 
 ## -parameters
@@ -75,11 +66,14 @@ Set to zero. (Reserved for future use).
 ## -returns
 
 
+
 This method does not return a value.
 
 
 
+
 ## -remarks
+
 
 
 The session might not be accessible.
@@ -88,25 +82,34 @@ If this method is defined in the extension library class <a href="https://msdn.m
 
 This method is called at the beginning of a session and, if a session has already started, after the extension library is initialized.
 
-If a target is suspended, <a href="..\engextcpp\nf-engextcpp-extextension-onsessionaccessible.md">OnSessionAccessible</a> is called instead.
+If a target is suspended, <a href="https://msdn.microsoft.com/library/windows/hardware/ff552310">OnSessionAccessible</a> is called instead.
+
 
 
 
 ## -see-also
 
-<a href="..\engextcpp\nf-engextcpp-extextension-onsessioninactive.md">OnSessionInactive</a>
 
-<a href="..\engextcpp\nf-engextcpp-extextension-onsessionaccessible.md">OnSessionAccessible</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543981">ExtExtension</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544508">EXT_CLASS</a>
 
-<a href="..\engextcpp\nf-engextcpp-extextension-initialize.md">Initialize</a>
 
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543981">ExtExtension</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552310">OnSessionAccessible</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552318">OnSessionInactive</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20ExtExtension.OnSessionActive method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

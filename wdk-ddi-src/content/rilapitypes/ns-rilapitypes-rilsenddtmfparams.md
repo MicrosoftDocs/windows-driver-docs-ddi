@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILSENDDTMFPARAMS
 title: RILSENDDTMFPARAMS
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilsenddtmfparams_2.htm
+old-location: netvista\rilsenddtmfparams.htm
 old-project: netvista
-ms.assetid: 0e8c8fa7-35e8-429c-b6e5-c01aba3c6746
+ms.assetid: b08767f9-6b2d-4930-bd02-ebc89f2bdb7d
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: "*LPRILSENDDTMFPARAMS, RILSENDDTMFPARAMS, RILSENDDTMFPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsenddtmfparams_2, rilapitypes/RILSENDDTMFPARAMS"
+ms.date: 3/26/2018
+ms.keywords: "*LPRILSENDDTMFPARAMS, RILSENDDTMFPARAMS, RILSENDDTMFPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsenddtmfparams, ntddrilapitypes/RILSENDDTMFPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,10 +35,11 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILSENDDTMFPARAMS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILSENDDTMFPARAMS, *LPRILSENDDTMFPARAMS
 req.product: Windows 10 or later.
@@ -50,20 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-
-## -syntax
-
-
-````
-typedef struct _RILSENDDTMFPARAMS {
-  DWORD                 dwExecutor;
-  char [MAXLENGTH_DTMF] szDTMF;
-  DWORD                 dwDigitOnTimeMs;
-  DWORD                 dwDigitOffTimeMs;
-} RILSENDDTMFPARAMS, RILSENDDTMFPARAMS;
-````
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -struct-fields

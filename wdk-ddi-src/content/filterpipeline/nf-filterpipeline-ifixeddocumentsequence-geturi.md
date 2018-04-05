@@ -7,7 +7,7 @@ old-location: print\ifixeddocumentsequence_geturi.htm
 old-project: print
 ms.assetid: 45017249-2ea5-43f6-9712-787f52cb6e4b
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: GetUri method [Print Devices], GetUri method [Print Devices], IFixedDocumentSequence interface, GetUri,IFixedDocumentSequence.GetUri, IFixedDocumentSequence, IFixedDocumentSequence interface [Print Devices], GetUri method, IFixedDocumentSequence::GetUri, filterpipeline/IFixedDocumentSequence::GetUri, filterpipeline_6d286919-21a8-40e8-8c6b-dd035ffe0ae1.xml, print.ifixeddocumentsequence_geturi
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: filterpipeline.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	filterpipeline.h
 api_name:
 -	IFixedDocumentSequence.GetUri
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
@@ -50,16 +51,6 @@ req.typenames: EXpsFontRestriction
 
 
 The <b>GetUri</b> method gets the URI of the fixed document sequence.
-
-
-## -syntax
-
-
-````
-HRESULT GetUri(
-  [out] BSTR *uri
-);
-````
 
 
 ## -parameters

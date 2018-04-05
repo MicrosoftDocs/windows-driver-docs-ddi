@@ -7,7 +7,7 @@ old-location: print\oemcuipparam.htm
 old-project: print
 ms.assetid: 178b635c-0916-44f5-87a3-a2766601dcab
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: "*POEMCUIPPARAM, OEMCUIPPARAM, OEMCUIPPARAM structure [Print Devices], _OEMCUIPPARAM, print.oemcuipparam, print_unidrv-pscript_ui_6ea92d10-0152-4bb2-a79b-0f6c29507e8c.xml, printoem/OEMCUIPPARAM"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	printoem.h
 api_name:
 -	OEMCUIPPARAM
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: "*POEMCUIPPARAM, OEMCUIPPARAM"
 req.product: Windows 10 or later.
@@ -53,30 +54,6 @@ req.product: Windows 10 or later.
 The OEMCUIPPARAM structure is used as an input parameter to a user interface plug-in's <a href="https://msdn.microsoft.com/library/windows/hardware/ff554159">IPrintOemUI::CommonUIProp</a> method.
 
 
-## -syntax
-
-
-````
-typedef struct _OEMCUIPPARAM {
-  DWORD           cbSize;
-  POEMUIOBJ       poemuiobj;
-  HANDLE          hPrinter;
-  PWSTR           pPrinterName;
-  HANDLE          hModule;
-  HANDLE          hOEMHeap;
-  PDEVMODE        pPublicDM;
-  PVOID           pOEMDM;
-  DWORD           dwFlags;
-  POPTITEM        pDrvOptItems;
-  DWORD           cDrvOptItems;
-  POPTITEM        pOEMOptItems;
-  DWORD           cOEMOptItems;
-  PVOID           pOEMUserData;
-  OEMCUIPCALLBACK OEMCUIPCallback;
-} OEMCUIPPARAM;
-````
-
-
 ## -struct-fields
 
 
@@ -89,7 +66,7 @@ Size of the OEMCUIPPARAM structure. Supplied by the Unidrv or Pscript5 driver.
 
 ### -field poemuiobj
 
-Pointer to an <a href="..\printoem\ns-printoem-_oemuiobj.md">OEMUIOBJ</a> structure.
+Pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff559571">OEMUIOBJ</a> structure.
 
 
 ### -field hPrinter
@@ -130,18 +107,18 @@ Pointer to the user interface plug-in's private DEVMODEW members. Valid only if 
 
 #### For calls to IPrintOemUI::CommonUIProp with its dwMode parameter set to OEMCUIP_DOCPROP:
 
-Contains the contents of the <b>fMode</b> member of the <a href="..\winddiui\ns-winddiui-_documentpropertyheader.md">DOCUMENTPROPERTYHEADER</a> structure received by the printer driver's <a href="..\winddiui\nf-winddiui-drvdocumentpropertysheets.md">DrvDocumentPropertySheets</a> function.
+Contains the contents of the <b>fMode</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548439">DOCUMENTPROPERTYHEADER</a> structure received by the printer driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff548548">DrvDocumentPropertySheets</a> function.
 
 
 
 #### For calls to IPrintOemUI::CommonUIProp with its dwMode parameter set to OEMCUIP_PRNPROP:
 
-Contains the contents of the <b>Flags</b> member of the DEVICEPROPERTYHEADER structure received by the printer driver's <a href="..\winddiui\nf-winddiui-drvdevicepropertysheets.md">DrvDevicePropertySheets</a> function.
+Contains the contents of the <b>Flags</b> member of the DEVICEPROPERTYHEADER structure received by the printer driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff548542">DrvDevicePropertySheets</a> function.
 
 
 ### -field pDrvOptItems
 
-Pointer to the printer driver's <a href="..\compstui\ns-compstui-_optitem.md">OPTITEM</a> array. Not valid the first time <b>IPrintOemUI::CommonUIProp</b> is called. Supplied by the Unidrv or Pscript5 driver.
+Pointer to the printer driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff559656">OPTITEM</a> array. Not valid the first time <b>IPrintOemUI::CommonUIProp</b> is called. Supplied by the Unidrv or Pscript5 driver.
 
 
 ### -field cDrvOptItems
@@ -180,14 +157,14 @@ Used by the <b>IPrintOemUI::CommonUIProp</b> method, the second time it is calle
 
 ### -field OEMCUIPCallback
 
-Used by the <b>IPrintOemUI::CommonUIProp</b> method, the second time it is called, to return the address of a callback function of type <a href="..\printoem\nc-printoem-oemcuipcallback.md">OEMCUIPCALLBACK</a>.
+Used by the <b>IPrintOemUI::CommonUIProp</b> method, the second time it is called, to return the address of a callback function of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff557650">OEMCUIPCALLBACK</a>.
 
 
 ## -remarks
 
 
 
-A user interface plug-in receives this structure's address as an input argument to both its <a href="https://msdn.microsoft.com/library/windows/hardware/ff554159">IPrintOemUI::CommonUIProp</a> method and its <a href="..\printoem\nc-printoem-oemcuipcallback.md">OEMCUIPCALLBACK</a>-typed callback function.
+A user interface plug-in receives this structure's address as an input argument to both its <a href="https://msdn.microsoft.com/library/windows/hardware/ff554159">IPrintOemUI::CommonUIProp</a> method and its <a href="https://msdn.microsoft.com/library/windows/hardware/ff557650">OEMCUIPCALLBACK</a>-typed callback function.
 
 For additional information about the use of this structure and associated functions, see <a href="https://msdn.microsoft.com/22ac2af6-37d8-4913-95af-9c3dc8576d40">User Interface Plug-Ins</a>.
 

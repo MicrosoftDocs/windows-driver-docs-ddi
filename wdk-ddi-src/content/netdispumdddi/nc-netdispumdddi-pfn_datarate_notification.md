@@ -7,7 +7,7 @@ old-location: display\pfndataratenotify.htm
 old-project: display
 ms.assetid: 5eb004d1-7cf8-45a3-aad5-2932b1a83bb8
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: PFN_DATARATE_NOTIFICATION, display.pfndataratenotify, netdispumdddi/pfnDataRateNotify, pfnDataRateNotify, pfnDataRateNotify callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Netdispumdddi.h
 api_name:
 -	pfnDataRateNotify
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDK_SRQ_DISPATCH
 ---
@@ -49,21 +50,7 @@ req.typenames: NDK_SRQ_DISPATCH
 ## -description
 
 
-Called by the operating system to notify the Miracast user-mode driver that the bit rate of the Miracast network link has changed. This function is registered with the operating system when the <a href="..\netdispumdddi\nc-netdispumdddi-pfn_register_datarate_notifications.md">RegisterForDataRateNotifications</a> function is called.
-
-
-## -prototype
-
-
-````
-PFN_DATARATE_NOTIFICATION pfnDataRateNotify;
-
-void NTAPI* pfnDataRateNotify(
-  _In_     PVOID                   context,
-  _In_opt_ MIRACAST_DATARATE_STATS *pDataRateStats
-)
-{ ... }
-````
+Called by the operating system to notify the Miracast user-mode driver that the bit rate of the Miracast network link has changed. This function is registered with the operating system when the <a href="https://msdn.microsoft.com/81500bb9-27f1-4688-b244-37dfd766f3c8">RegisterForDataRateNotifications</a> function is called.
 
 
 ## -parameters
@@ -75,12 +62,12 @@ void NTAPI* pfnDataRateNotify(
 
 A  pointer to a context block associated with a display adapter.
 
-The context value is the value the driver passed in its call to the <a href="..\netdispumdddi\nc-netdispumdddi-pfn_register_datarate_notifications.md">RegisterForDataRateNotifications</a> function when it registered the <i>pfnDataRateNotify</i> function.
+The context value is the value the driver passed in its call to the <a href="https://msdn.microsoft.com/81500bb9-27f1-4688-b244-37dfd766f3c8">RegisterForDataRateNotifications</a> function when it registered the <i>pfnDataRateNotify</i> function.
 
 
 ### -param *pDataRateStats [in, optional]
 
-An optional pointer to a <a href="..\netdispumdddi\ns-netdispumdddi-miracast_datarate_stats.md">MIRACAST_DATARATE_STATS</a> structure that contains info on the audio/video encoder bit rate and failed or retried Wi-Fi frames.
+An optional pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn265475">MIRACAST_DATARATE_STATS</a> structure that contains info on the audio/video encoder bit rate and failed or retried Wi-Fi frames.
 
 Can be <b>NULL</b> if the network has an error. For more info, see Remarks.
 
@@ -105,21 +92,19 @@ If data on the quality of service (QoS) of the network connection becomes unavai
 
 ## -see-also
 
-<a href="..\netdispumdddi\nc-netdispumdddi-pfn_register_datarate_notifications.md">RegisterForDataRateNotifications</a>
 
 
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
+<a href="https://msdn.microsoft.com/5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea">DxgkDdiAddDevice</a>
 
 
 
-<a href="..\netdispumdddi\ns-netdispumdddi-miracast_datarate_stats.md">MIRACAST_DATARATE_STATS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265475">MIRACAST_DATARATE_STATS</a>
 
 
 
+<a href="https://msdn.microsoft.com/81500bb9-27f1-4688-b244-37dfd766f3c8">RegisterForDataRateNotifications</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFN_DATARATE_NOTIFICATION callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

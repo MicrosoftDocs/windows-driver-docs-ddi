@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	TRANSPORTBASICPARMS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TRANSPORTBASICPARMS, *PTRANSPORTBASICPARMS
 ---
@@ -50,45 +51,6 @@ req.typenames: TRANSPORTBASICPARMS, *PTRANSPORTBASICPARMS
 
 
 The TRANSPORTBASICPARMS structure is defined but not used.
-
-
-## -syntax
-
-
-````
-typedef struct tagTRANSPORTBASICPARMS {
-  LONG  TimeFormat;
-  LONG  TimeReference;
-  LONG  Superimpose;
-  LONG  EndStopAction;
-  LONG  RecordFormat;
-  LONG  StepFrames;
-  LONG  SetpField;
-  LONG  Preroll;
-  LONG  RecPreroll;
-  LONG  Postroll;
-  LONG  EditDelay;
-  LONG  PlayTCDelay;
-  LONG  RecTCDelay;
-  LONG  EditField;
-  LONG  FrameServo;
-  LONG  ColorFrameServo;
-  LONG  ServoRef;
-  LONG  WarnGenlock;
-  LONG  SetTracking;
-  TCHAR VolumeName[40];
-  LONG  Ballistic[20];
-  LONG  Speed;
-  LONG  CounterFormat;
-  LONG  TunerChannel;
-  LONG  TunerNumber;
-  LONG  TimerEvent;
-  LONG  TimerStartDay;
-  LONG  TimerStartTime;
-  LONG  TimerStopDay;
-  LONG  TimerStopTime;
-} TRANSPORTBASICPARMS, *PTRANSPORTBASICPARMS;
-````
 
 
 ## -struct-fields

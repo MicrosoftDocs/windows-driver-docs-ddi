@@ -7,7 +7,7 @@ old-location: netvista\ndispdclearreceivefilter.htm
 old-project: netvista
 ms.assetid: C91F2E5D-C37F-48A9-9AE0-F5A8C5D8F54D
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: NDIS_PD_CLEAR_RECEIVE_FILTER, NdisPDClearReceiveFilter, NdisPDClearReceiveFilter callback function [Network Drivers Starting with Windows Vista], ndis/NdisPDClearReceiveFilter, netvista.ndispdclearreceivefilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ndis.h
 api_name:
 -	NdisPDClearReceiveFilter
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
 ---
@@ -54,19 +55,6 @@ The PacketDirect (PD) platform calls a PD-capable miniport driver's
    information, see the following Examples section.</div>
 <div> </div>
 
-
-
-## -prototype
-
-
-````
-NDIS_PD_CLEAR_RECEIVE_FILTER NdisPDClearReceiveFilter;
-
-void NdisPDClearReceiveFilter(
-  _In_ __drv_freesMem (Mem) NDIS_PD_FILTER_HANDLE FilterHandle
-)
-{ ... }
-````
 
 
 ## -parameters

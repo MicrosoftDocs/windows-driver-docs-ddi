@@ -7,7 +7,7 @@ old-location: storage\track_mode_type.htm
 old-project: storage
 ms.assetid: ea7d7b5a-625f-41f7-b3fd-96a6bf338db9
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PTRACK_MODE_TYPE, CDDA, PTRACK_MODE_TYPE, PTRACK_MODE_TYPE enumeration pointer [Storage Devices], RawWithC2, RawWithC2AndSubCode, RawWithSubCode, TRACK_MODE_TYPE, TRACK_MODE_TYPE enumeration [Storage Devices], XAForm2, YellowMode2, _TRACK_MODE_TYPE, ntddcdrm/CDDA, ntddcdrm/PTRACK_MODE_TYPE, ntddcdrm/RawWithC2, ntddcdrm/RawWithC2AndSubCode, ntddcdrm/RawWithSubCode, ntddcdrm/TRACK_MODE_TYPE, ntddcdrm/XAForm2, ntddcdrm/YellowMode2, storage.track_mode_type, structs-CD-ROM_41364f33-e1bf-48ac-abb6-4cacf5283f9f.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddcdrm.h
 api_name:
 -	TRACK_MODE_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TRACK_MODE_TYPE, *PTRACK_MODE_TYPE
 ---
@@ -49,22 +50,7 @@ req.typenames: TRACK_MODE_TYPE, *PTRACK_MODE_TYPE
 ## -description
 
 
-The TRACK_MODE_TYPE enumeration type is used in conjunction with the <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_raw_read.md">IOCTL_CDROM_RAW_READ</a> request and the <a href="..\ntddcdrm\ns-ntddcdrm-__raw_read_info.md">RAW_READ_INFO</a> structure to read data from a CD-ROM in raw mode.  
-
-
-## -syntax
-
-
-````
-typedef enum _TRACK_MODE_TYPE { 
-  YellowMode2          = 0,
-  XAForm2              = 1,
-  CDDA                 = 2,
-  RawWithC2AndSubCode  = 3,
-  RawWithC2            = 4,
-  RawWithSubCode       = 5
-} TRACK_MODE_TYPE, *PTRACK_MODE_TYPE;
-````
+The TRACK_MODE_TYPE enumeration type is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559361">IOCTL_CDROM_RAW_READ</a> request and the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563958">RAW_READ_INFO</a> structure to read data from a CD-ROM in raw mode.  
 
 
 ## -enum-fields
@@ -104,17 +90,15 @@ CD_RAW_SECTOR_WITH_SUBCODE_SIZE per sector
 
 ## -see-also
 
-<a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_raw_read.md">IOCTL_CDROM_RAW_READ</a>
 
 
 
-<a href="..\ntddcdrm\ns-ntddcdrm-__raw_read_info.md">RAW_READ_INFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559361">IOCTL_CDROM_RAW_READ</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563958">RAW_READ_INFO</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20TRACK_MODE_TYPE enumeration%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

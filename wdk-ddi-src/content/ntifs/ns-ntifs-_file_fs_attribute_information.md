@@ -7,7 +7,7 @@ old-location: ifsk\file_fs_attribute_information.htm
 old-project: ifsk
 ms.assetid: 373788d8-4963-4319-82ae-3a0675c9fff4
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: "*PFILE_FS_ATTRIBUTE_INFORMATION, FILE_FS_ATTRIBUTE_INFORMATION, FILE_FS_ATTRIBUTE_INFORMATION structure [Installable File System Drivers], PFILE_FS_ATTRIBUTE_INFORMATION, PFILE_FS_ATTRIBUTE_INFORMATION structure pointer [Installable File System Drivers], _FILE_FS_ATTRIBUTE_INFORMATION, fileinformationstructures_d3a65f15-7f98-492d-a65e-65db56c4c58d.xml, ifsk.file_fs_attribute_information, ntifs/FILE_FS_ATTRIBUTE_INFORMATION, ntifs/PFILE_FS_ATTRIBUTE_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntifs.h
 api_name:
 -	FILE_FS_ATTRIBUTE_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FILE_FS_ATTRIBUTE_INFORMATION, *PFILE_FS_ATTRIBUTE_INFORMATION
 ---
@@ -51,19 +52,6 @@ req.typenames: FILE_FS_ATTRIBUTE_INFORMATION, *PFILE_FS_ATTRIBUTE_INFORMATION
 
 The <b>FILE_FS_ATTRIBUTE_INFORMATION</b> 
    structure is used to query attribute information for a file system.
-
-
-## -syntax
-
-
-````
-typedef struct _FILE_FS_ATTRIBUTE_INFORMATION {
-  ULONG FileSystemAttributes;
-  LONG  MaximumComponentNameLength;
-  ULONG FileSystemNameLength;
-  WCHAR FileSystemName[1];
-} FILE_FS_ATTRIBUTE_INFORMATION, *PFILE_FS_ATTRIBUTE_INFORMATION;
-````
 
 
 ## -struct-fields
@@ -129,7 +117,7 @@ The file system supports named streams.
 </td>
 <td>
 The file system preserves and enforces access control lists 
-          (<a href="..\wdm\ns-wdm-_acl.md">ACL</a>).
+          (<a href="https://msdn.microsoft.com/library/windows/hardware/ff538866">ACL</a>).
 
 </td>
 </tr>
@@ -252,8 +240,8 @@ This information can be queried in either of the following ways:
 
 <ul>
 <li>
-Call <a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformation.md">FltQueryVolumeInformation</a> or 
-       <a href="..\ntifs\nf-ntifs-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a>, passing 
+Call <a href="https://msdn.microsoft.com/library/windows/hardware/ff543443">FltQueryVolumeInformation</a> or 
+       <a href="https://msdn.microsoft.com/library/windows/hardware/ff567070">ZwQueryVolumeInformationFile</a>, passing 
        <b>FileFsAttributeInformation</b> as the value of 
        <i>FileInformationClass</i> and passing a caller-allocated, 
        <b>FILE_FS_ATTRIBUTE_INFORMATION</b>-structured 
@@ -276,8 +264,8 @@ No specific access rights are required to query this information. Thus this info
      the volume is accessed through an open handle to the volume itself, or to a file or directory on the volume.
 
 The size of the buffer passed in the <i>FileInformation</i> parameter to 
-     <a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformation.md">FltQueryVolumeInformation</a> or 
-     <a href="..\ntifs\nf-ntifs-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a> must be at 
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff543443">FltQueryVolumeInformation</a> or 
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff567070">ZwQueryVolumeInformationFile</a> must be at 
      least <code>sizeof(FILE_FS_ATTRIBUTE_INFORMATION)</code>.
 
 This structure must be aligned on a <b>LONG</b> (4-byte) boundary.
@@ -287,11 +275,14 @@ This structure must be aligned on a <b>LONG</b> (4-byte) boundary.
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538866">ACL</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543443">FltQueryVolumeInformation</a>
 
 
 
@@ -299,13 +290,8 @@ This structure must be aligned on a <b>LONG</b> (4-byte) boundary.
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformation.md">FltQueryVolumeInformation</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567070">ZwQueryVolumeInformationFile</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FILE_FS_ATTRIBUTE_INFORMATION structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

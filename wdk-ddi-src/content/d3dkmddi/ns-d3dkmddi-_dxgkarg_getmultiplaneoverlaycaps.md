@@ -7,7 +7,7 @@ old-location: display\dxgkarg_getmultiplaneoverlaycaps.htm
 old-project: display
 ms.assetid: 4792107C-BAAA-48B5-AC9A-829C05795303
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*IN_OUT_PDXGKARG_GETMULTIPLANEOVERLAYCAPS, DXGKARG_GETMULTIPLANEOVERLAYCAPS, DXGKARG_GETMULTIPLANEOVERLAYCAPS structure [Display Devices], _DXGKARG_GETMULTIPLANEOVERLAYCAPS, d3dkmddi/DXGKARG_GETMULTIPLANEOVERLAYCAPS, display.dxgkarg_getmultiplaneoverlaycaps"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGKARG_GETMULTIPLANEOVERLAYCAPS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGKARG_GETMULTIPLANEOVERLAYCAPS
 ---
@@ -50,22 +51,6 @@ req.typenames: DXGKARG_GETMULTIPLANEOVERLAYCAPS
 
 
 Arguments to the DxgkDdiGetMultiPlaneOverlayCaps function.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGKARG_GETMULTIPLANEOVERLAYCAPS {
-  D3DDDI_VIDEO_PRESENT_SOURCE_ID VidPnSourceId;
-  UINT                           MaxPlane;
-  UINT                           MaxRGBPlanes;
-  UINT                           MaxYUVPlanes;
-  DXGK_MULTIPLANEOVERLAYCAPS     OverlayCaps;
-  float                          MaxStretchFactor;
-  float                          MaxShrinkFactor;
-} DXGKARG_GETMULTIPLANEOVERLAYCAPS;
-````
 
 
 ## -struct-fields

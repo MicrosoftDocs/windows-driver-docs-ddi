@@ -7,7 +7,7 @@ old-location: storage\reassign_blocks.htm
 old-project: storage
 ms.assetid: b79f15d8-b777-43dc-82b9-fcd1ba19aebd
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PREASSIGN_BLOCKS, PREASSIGN_BLOCKS, PREASSIGN_BLOCKS structure pointer [Storage Devices], REASSIGN_BLOCKS, REASSIGN_BLOCKS structure [Storage Devices], _REASSIGN_BLOCKS, ntdddisk/PREASSIGN_BLOCKS, ntdddisk/REASSIGN_BLOCKS, storage.reassign_blocks, structs-disk_dbe1fcc8-083e-41c4-8620-b216cdbecd34.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntdddisk.h
 api_name:
 -	REASSIGN_BLOCKS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: REASSIGN_BLOCKS, *PREASSIGN_BLOCKS
 ---
@@ -49,19 +50,7 @@ req.typenames: REASSIGN_BLOCKS, *PREASSIGN_BLOCKS
 ## -description
 
 
-The <b>REASSIGN_BLOCKS</b> structure is used in conjunction with the <a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_reassign_blocks.md">IOCTL_DISK_REASSIGN_BLOCKS</a> request to instruct a disk device to reassign the block numbers of the indicated bad blocks to good blocks.
-
-
-## -syntax
-
-
-````
-typedef struct _REASSIGN_BLOCKS {
-  USHORT Reserved;
-  USHORT Count;
-  ULONG  BlockNumber[1];
-} REASSIGN_BLOCKS, *PREASSIGN_BLOCKS;
-````
+The <b>REASSIGN_BLOCKS</b> structure is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560398">IOCTL_DISK_REASSIGN_BLOCKS</a> request to instruct a disk device to reassign the block numbers of the indicated bad blocks to good blocks.
 
 
 ## -struct-fields
@@ -86,13 +75,11 @@ Contains an array of block numbers corresponding to damaged blocks. These number
 
 ## -see-also
 
-<a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_reassign_blocks.md">IOCTL_DISK_REASSIGN_BLOCKS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560398">IOCTL_DISK_REASSIGN_BLOCKS</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20REASSIGN_BLOCKS structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

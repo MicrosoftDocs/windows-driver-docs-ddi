@@ -7,7 +7,7 @@ old-location: display\pfnd3d12ddi_calcprivatevideoprocessorsize.htm
 old-project: display
 ms.assetid: F1ED5176-4F50-44DA-96B3-5E133A236461
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3D12DDI_CALCPRIVATEVIDEOPROCESSORSIZE_0021, d3d12umddi/pfnCalcPrivateVideoProcessorSize, display.pfnd3d12ddi_calcprivatevideoprocessorsize, pfnCalcPrivateVideoProcessorSize, pfnCalcPrivateVideoProcessorSize callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3d12umddi.h
 api_name:
 -	pfnCalcPrivateVideoProcessorSize
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
 ---
@@ -50,20 +51,6 @@ req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
 
 
 The <i>pfnCalcPrivateVideoProcessorSize</i> callback function calculates the size of the private video processor.
-
-
-## -prototype
-
-
-````
-PFND3D12DDI_CALCPRIVATEVIDEOPROCESSORSIZE_0021 pfnCalcPrivateVideoProcessorSize;
-
-SIZE_T  APIENTRY* pfnCalcPrivateVideoProcessorSize(
-             D3D12DDI_HDEVICE                   hDrvDevice,
-  _In_ const D3D12DDIARG_CREATE_VIDEO_PROCESSOR *pArgs
-)
-{ ... }
-````
 
 
 ## -parameters

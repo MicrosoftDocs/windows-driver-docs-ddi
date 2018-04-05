@@ -7,7 +7,7 @@ old-location: storage\ioctl_cdrom_set_volume.htm
 old-project: storage
 ms.assetid: 9331ad0b-42e0-4f20-9410-fb135f4791b0
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_CDROM_SET_VOLUME, IOCTL_CDROM_SET_VOLUME control code [Storage Devices], k307_d31efcd3-1072-49db-82d0-6ecce05a8964.xml, ntddcdrm/IOCTL_CDROM_SET_VOLUME, storage.ioctl_cdrom_set_volume
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,18 +38,14 @@ api_location:
 -	ntddcdrm.h
 api_name:
 -	IOCTL_CDROM_SET_VOLUME
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WRITE_ROTATION, *PWRITE_ROTATION
 ---
 
 # IOCTL_CDROM_SET_VOLUME IOCTL
 
-
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -67,7 +63,7 @@ Resets the volume for its device's audio ports.  Obsolete, beginning with Window
 
 ### -input-buffer
 
-The buffer at <i>Irp-&gt;AssociatedIrp.SystemBuffer</i> contains the <a href="..\ntddcdrm\ns-ntddcdrm-_volume_control.md">VOLUME_CONTROL</a> value or values to be set. 
+The buffer at <i>Irp-&gt;AssociatedIrp.SystemBuffer</i> contains the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568015">VOLUME_CONTROL</a> value or values to be set. 
 
 
 ### -input-buffer-length
@@ -121,13 +117,11 @@ Client applications should use the <i>Media Control Interface (MCI) API</i> rath
 
 ## -see-also
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_volume_control.md">VOLUME_CONTROL</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568015">VOLUME_CONTROL</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20IOCTL_CDROM_SET_VOLUME control code%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

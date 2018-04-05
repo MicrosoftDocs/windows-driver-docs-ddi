@@ -7,7 +7,7 @@ old-location: netvista\fwpspendoperation0.htm
 old-project: netvista
 ms.assetid: 03423785-83c5-4908-8c06-3be1b226c29e
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: FwpsPendOperation0, FwpsPendOperation0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsPendOperation0, netvista.fwpspendoperation0, wfp_ref_2_funct_3_fwps_J-Q_4e19462a-e31a-4d06-af83-68b11a00dd7a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Fwpkclnt.dll
 api_name:
 -	FwpsPendOperation0
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FWPS_VSWITCH_EVENT_TYPE
 ---
@@ -55,17 +56,6 @@ The
   another operation.
 <div class="alert"><b>Note</b>  <b>FwpsPendOperation0</b> is a specific version of <b>FwpsPendOperation</b>. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
 
-## -syntax
-
-
-````
-NTSTATUS NTAPI FwpsPendOperation0(
-  _In_  HANDLE completionHandle,
-  _Out_ HANDLE *completionContext
-);
-````
-
-
 ## -parameters
 
 
@@ -76,15 +66,15 @@ NTSTATUS NTAPI FwpsPendOperation0(
 A completion handle that is required to pend the current filtering operation. This parameter is
      obtained from the 
      <b>completionHandle</b> member of the 
-     <a href="..\fwpsk\ns-fwpsk-fwps_incoming_metadata_values0_.md">FWPS_INCOMING_METADATA_VALUES0</a> structure passed into the callout driver's 
-     <a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a> function.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff552397">FWPS_INCOMING_METADATA_VALUES0</a> structure passed into the callout driver's 
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a> function.
 
 
 ### -param completionContext [out]
 
 The handle to the completion context of this pend operation. When the callout is ready to resume
      packet processing, it calls the 
-     <a href="..\fwpsk\nf-fwpsk-fwpscompleteoperation0.md">FwpsCompleteOperation0</a> function
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff551152">FwpsCompleteOperation0</a> function
      with the value of this parameter as the input 
      <i>completionContext</i> parameter.
 
@@ -170,7 +160,7 @@ An error occurred.
 The callout should retain the 
     <i>completionContext</i> parameter value until it resumes packet processing. When the operation that
     prompted the call to this function has completed, the callout should call the 
-    <a href="..\fwpsk\nf-fwpsk-fwpscompleteoperation0.md">FwpsCompleteOperation0</a> function,
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff551152">FwpsCompleteOperation0</a> function,
     passing it the 
     <i>completionContext</i> parameter value.
 
@@ -189,7 +179,7 @@ To complete a connection that was previously pended at the FWPS_LAYER_ALE_AUTH_R
     <b>FwpsCompleteOperation0</b> function.
 
 To be able to pend packet processing, the callout driver's 
-    <a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a> function should set the 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a> function should set the 
     <b>actionType</b> member of the 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff551229">FWPS_CLASSIFY_OUT0</a> structure to
     FWP_ACTION_BLOCK and the 
@@ -218,16 +208,6 @@ Only an initial Application Layer Enforcement (ALE) flow authorization can be po
 
 ## -see-also
 
-<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
-
-
-
-<a href="..\fwpsk\nf-fwpsk-fwpscompleteoperation0.md">FwpsCompleteOperation0</a>
-
-
-
-<a href="..\fwpsk\ns-fwpsk-fwps_incoming_metadata_values0_.md">
-   FWPS_INCOMING_METADATA_VALUES0</a>
 
 
 
@@ -235,9 +215,17 @@ Only an initial Application Layer Enforcement (ALE) flow authorization can be po
 
 
 
+<a href="https://msdn.microsoft.com/fba7eb60-0d19-4bfd-b484-2e615d3e9237">
+   FWPS_INCOMING_METADATA_VALUES0</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551152">FwpsCompleteOperation0</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FwpsPendOperation0 function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

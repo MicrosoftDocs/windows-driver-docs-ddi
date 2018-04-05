@@ -7,7 +7,7 @@ old-location: wdf\wdfdevicegetdefaultqueue.htm
 old-project: wdf
 ms.assetid: 914c4ef8-2210-468c-8720-11f8adf9dce7
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_17d2efb6-80ae-4045-baa4-68d610b9e0c3.xml, WdfDeviceGetDefaultQueue, WdfDeviceGetDefaultQueue method, kmdf.wdfdevicegetdefaultqueue, wdf.wdfdevicegetdefaultqueue, wdfdevice/WdfDeviceGetDefaultQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,8 @@ api_location:
 -	WUDFx02000.dll.dll
 api_name:
 -	WdfDeviceGetDefaultQueue
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_STATE_NOTIFICATION_TYPE
 req.product: Windows 10 or later.
@@ -56,16 +57,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WdfDeviceGetDefaultQueue</b> method returns a handle to a device's default I/O queue.
-
-
-## -syntax
-
-
-````
-WDFQUEUE WdfDeviceGetDefaultQueue(
-  _In_ WDFDEVICE Device
-);
-````
 
 
 ## -parameters

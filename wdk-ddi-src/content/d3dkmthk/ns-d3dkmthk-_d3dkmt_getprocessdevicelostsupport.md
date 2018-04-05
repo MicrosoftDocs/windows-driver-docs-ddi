@@ -7,7 +7,7 @@ old-location: display\d3dkmt-getprocessdevicelostsupport.htm
 old-project: display
 ms.assetid: 726a4f12-3cee-4d95-89d3-39f2bb357967
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMT_GETPROCESSDEVICELOSTSUPPORT, D3DKMT_GETPROCESSDEVICELOSTSUPPORT structure [Display Devices], _D3DKMT_GETPROCESSDEVICELOSTSUPPORT, d3dkmthk/D3DKMT_GETPROCESSDEVICELOSTSUPPORT, display.d3dkmt-getprocessdevicelostsupport
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmthk.h
 api_name:
 -	D3DKMT_GETPROCESSDEVICELOSTSUPPORT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_GETPROCESSDEVICELOSTSUPPORT
 ---
@@ -52,18 +53,6 @@ req.typenames: D3DKMT_GETPROCESSDEVICELOSTSUPPORT
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 Used to get the indicated process.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_GETPROCESSDEVICELOSTSUPPORT {
-  HANDLE  hProcess;
-  LUID    AdapterLuid;
-  BOOLEAN Support;
-} D3DKMT_GETPROCESSDEVICELOSTSUPPORT;
-````
 
 
 ## -struct-fields

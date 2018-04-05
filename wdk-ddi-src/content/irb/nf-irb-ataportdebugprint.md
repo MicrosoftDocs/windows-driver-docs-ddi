@@ -7,7 +7,7 @@ old-location: storage\ataportdebugprint.htm
 old-project: storage
 ms.assetid: 2a93d30f-4aa0-46b9-b9c7-cc15c62f3053
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: AtaPortDebugPrint, AtaPortDebugPrint routine [Storage Devices], atartns_57e04fb5-19ac-42fc-9bc5-32645ef61320.xml, irb/AtaPortDebugPrint, storage.ataportdebugprint
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,8 @@ api_location:
 -	pciidex.dll
 api_name:
 -	AtaPortDebugPrint
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: IDE_POWER_STATE
 ---
@@ -54,17 +55,6 @@ req.typenames: IDE_POWER_STATE
 
 The <b>AtaPortDebugPrint</b> routine passes a message string to the kernel debugger for the debugger to print. 
 <div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
-
-## -syntax
-
-
-````
-VOID AtaPortDebugPrint(
-   ULONG  DebugPrintLevel,
-   PCCHAR DebugMessage
-);
-````
-
 
 ## -parameters
 

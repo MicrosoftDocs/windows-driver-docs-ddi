@@ -7,7 +7,7 @@ old-location: print\ixpsdocumentconsumer_sendfixeddocumentsequence.htm
 old-project: print
 ms.assetid: e2541943-7e0c-45ca-bdfe-2d48581f62a4
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: IXpsDocumentConsumer, IXpsDocumentConsumer interface [Print Devices], SendFixedDocumentSequence method, IXpsDocumentConsumer::SendFixedDocumentSequence, SendFixedDocumentSequence method [Print Devices], SendFixedDocumentSequence method [Print Devices], IXpsDocumentConsumer interface, SendFixedDocumentSequence,IXpsDocumentConsumer.SendFixedDocumentSequence, filterpipeline/IXpsDocumentConsumer::SendFixedDocumentSequence, filterpipeline_cd741d5b-4069-4a67-8add-b5c2701699f6.xml, print.ixpsdocumentconsumer_sendfixeddocumentsequence
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: filterpipeline.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	filterpipeline.h
 api_name:
 -	IXpsDocumentConsumer.SendFixedDocumentSequence
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
@@ -50,16 +51,6 @@ req.typenames: EXpsFontRestriction
 
 
 The <b>SendFixedDocumentSequence</b> method sends a fixed document sequence to the pipeline.
-
-
-## -syntax
-
-
-````
-HRESULT SendFixedDocumentSequence(
-  [in] IFixedDocumentSequence *pIFixedDocumentSequence
-);
-````
 
 
 ## -parameters
@@ -85,7 +76,7 @@ A pointer to an XPS fixed document sequence object.
 
 
 
-Only one <a href="..\filterpipeline\nn-filterpipeline-ifixeddocumentsequence.md">IFixedDocumentSequence</a> interface can be sent. The <code>SendFixedDocumentSequence</code> method will fail if a filter submits more than one such interface for the same print job.
+Only one <a href="https://msdn.microsoft.com/library/windows/hardware/ff550972">IFixedDocumentSequence</a> interface can be sent. The <code>SendFixedDocumentSequence</code> method will fail if a filter submits more than one such interface for the same print job.
 
 
 

@@ -7,7 +7,7 @@ old-location: netvista\ndiszeromemory.htm
 old-project: netvista
 ms.assetid: 1cb829e1-bd4f-4d6b-a936-0e7cf8024381
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: NdisZeroMemory, NdisZeroMemory macro [Network Drivers Starting with Windows Vista], ndis/NdisZeroMemory, ndis_memory_ref_06fa3e0b-cb08-41c7-8e09-debec8e323c0.xml, netvista.ndiszeromemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: ndis.h
+req.lib: 
 req.dll: 
 req.irql: See Remarks section
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	ndis.h
 api_name:
 -	NdisZeroMemory
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
@@ -51,17 +52,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 
 The 
   <b>NdisZeroMemory</b> function fills a block of memory with zeros.
-
-
-## -syntax
-
-
-````
-VOID NdisZeroMemory(
-  [in] PVOID Destination,
-  [in] ULONG Length
-);
-````
 
 
 ## -parameters
@@ -96,18 +86,16 @@ As long as the given range was allocated from nonpaged pool, the caller can be r
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndiszeromappedmemory.md">NdisZeroMappedMemory</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisallocatememorywithtagpriority.md">
+<a href="https://msdn.microsoft.com/aac4049c-a876-4bbb-ba3b-fa36c299e1c7">
    NdisAllocateMemoryWithTagPriority</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564692">NdisZeroMappedMemory</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisZeroMemory macro%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

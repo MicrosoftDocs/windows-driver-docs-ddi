@@ -7,7 +7,7 @@ old-location: netvista\protocolclmakecallcomplete.htm
 old-project: netvista
 ms.assetid: 6bb69f78-8dab-46a7-84fb-7bc17e894535
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: PROTOCOL_CL_MAKE_CALL_COMPLETE, ProtocolClMakeCallComplete, ProtocolClMakeCallComplete callback function [Network Drivers Starting with Windows Vista], condis_client_ref_1c839b17-947a-44cb-85d1-d6246b82a827.xml, ndis/ProtocolClMakeCallComplete, netvista.protocolclmakecallcomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ndis.h
 api_name:
 -	ProtocolClMakeCallComplete
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
 ---
@@ -53,27 +54,11 @@ The
   <i>ProtocolClMakeCallComplete</i> function is used by connection-oriented NDIS clients that make outgoing
   calls. Such clients must have 
   <i>ProtocolClMakeCallComplete</i> functions to complete the asynchronous operations that they initiate with 
-  <a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>. Otherwise, such a protocol
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff561635">NdisClMakeCall</a>. Otherwise, such a protocol
   driver's registered 
   <i>ProtocolClMakeCallComplete</i> function can simply return control.
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>PROTOCOL_CL_MAKE_CALL_COMPLETE</b> type.
    For more information, see the following Examples section.</div><div> </div>
-
-## -prototype
-
-
-````
-PROTOCOL_CL_MAKE_CALL_COMPLETE ProtocolClMakeCallComplete;
-
-VOID ProtocolClMakeCallComplete(
-  _In_     NDIS_STATUS         Status,
-  _In_     NDIS_HANDLE         ProtocolVcContext,
-  _In_opt_ NDIS_HANDLE         NdisPartyHandle,
-  _In_     PCO_CALL_PARAMETERS CallParameters
-)
-{ ... }
-````
-
 
 ## -parameters
 
@@ -95,7 +80,7 @@ Specifies the final status of the client's original call to
 The client's attempt to set up a virtual connection succeded. Consequently, the client can
        proceed to make transfers on the active VC using the 
        <i>NdisVcHandle</i> returned by 
-       <a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a>, which the client has
+       <a href="https://msdn.microsoft.com/library/windows/hardware/ff561696">NdisCoCreateVc</a>, which the client has
        stored in its per-VC context area at 
        <i>ProtocolVcContext</i> .
 
@@ -126,15 +111,15 @@ Specifies the handle to the client's per-VC context area, which the client origi
 If 
      <i>Status</i> is NDIS_STATUS_SUCCESS and the client created a multipoint VC by passing an explicit 
      <i>ProtocolPartyContext</i> handle to 
-     <a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>, this is a valid 
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff561635">NdisClMakeCall</a>, this is a valid 
      <i>NdisPartyHandle</i> . Otherwise, this parameter is <b>NULL</b>.
      
 
 <i>ProtocolClMakeCallComplete</i> must save any valid input 
      <i>NdisPartyHandle</i>, usually in the client's per-party context area. The client must use this handle
      if (or when) it makes a subsequent call to 
-     <a href="..\ndis\nf-ndis-ndiscldropparty.md">NdisClDropParty</a> or 
-     <a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a> that refers to this
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff561629">NdisClDropParty</a> or 
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff561627">NdisClCloseCall</a> that refers to this
      party.
 
 
@@ -177,7 +162,7 @@ Release or prepare for reuse the
 </li>
 <li>
 Tear down the client-created VC with a call to 
-      <a href="..\ndis\nf-ndis-ndiscodeletevc.md">NdisCoDeleteVc</a> and release or prepare for
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff561698">NdisCoDeleteVc</a> and release or prepare for
       reuse the client-allocated 
       <i>ProtocolVcContext</i> area.
 
@@ -208,14 +193,14 @@ If not, the signaling protocol determines whether the client can attempt to rene
       acceptable call parameters with the call manager.
 
 For example, a particular call manager might allow its clients to call 
-      <a href="..\ndis\nf-ndis-ndisclmodifycallqos.md">NdisClModifyCallQoS</a> one or more
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff561636">NdisClModifyCallQoS</a> one or more
       times in these circumstances.
 
 </li>
 <li>
 If the CM-modified call parameters are unacceptable and further renegotiation is impossible, 
       <i>ProtocolClMakeCallComplete</i> must tear down the call with 
-      <a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>.
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff561627">NdisClCloseCall</a>.
 
 In this case, 
       <i>ProtocolClMakeCallComplete</i> should 
@@ -270,15 +255,6 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndiscmmakecallcomplete.md">NdisCmMakeCallComplete</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_cl_close_call_complete.md">ProtocolClCloseCallComplete</a>
 
 
 
@@ -286,42 +262,49 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="..\ndis\nf-ndis-ndismcmmakecallcomplete.md">NdisMCmMakeCallComplete</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561627">NdisClCloseCall</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiscldropparty.md">NdisClDropParty</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561629">NdisClDropParty</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiscodeletevc.md">NdisCoDeleteVc</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561635">NdisClMakeCall</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561677">NdisCmMakeCallComplete</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_cm_make_call.md">ProtocolCmMakeCall</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561696">NdisCoCreateVc</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisfreememory.md">NdisFreeMemory</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561698">NdisCoDeleteVc</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562577">NdisFreeMemory</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisfreetonpagedlookasidelist.md">
+<a href="https://msdn.microsoft.com/2405a405-177a-420a-9628-a340e0d0acb3">
    NdisFreeToNPagedLookasideList</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563544">NdisMCmMakeCallComplete</a>
+
+
+
+<a href="https://msdn.microsoft.com/a7ba1ab2-04c9-45b5-a184-e1ad1448561a">ProtocolClCloseCallComplete</a>
+
+
+
+<a href="https://msdn.microsoft.com/ede0a18a-cd3b-4fbb-a16b-e7493940d633">ProtocolCmMakeCall</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20PROTOCOL_CL_MAKE_CALL_COMPLETE callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: ifsk\rtladdace.htm
 old-project: ifsk
 ms.assetid: 291b1fa9-5f42-49b6-b6de-20054a832bb2
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: RtlAddAce, RtlAddAce routine [Installable File System Drivers], ifsk.rtladdace, ntifs/RtlAddAce, rtlref_798d31d8-c233-4154-981d-a84cfdd95045.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ntdll.dll
 api_name:
 -	RtlAddAce
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -51,20 +52,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>RtlAddAce</b> routine adds one or more access control entries (ACEs) to a specified access control list (ACL).
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlAddAce(
-  _Inout_ PACL  Acl,
-  _In_    ULONG AceRevision,
-  _In_    ULONG StartingAceIndex,
-  _In_    PVOID AceList,
-  _In_    ULONG AceListLength
-);
-````
 
 
 ## -parameters
@@ -184,13 +171,13 @@ STATUS_INVALID_PARAMETER is an error code.
 
 
 
-For information about calculating the size of an ACL, see the Remarks section of the reference entry for <a href="..\ntifs\nf-ntifs-rtlcreateacl.md">RtlCreateAcl</a>. 
+For information about calculating the size of an ACL, see the Remarks section of the reference entry for <a href="https://msdn.microsoft.com/library/windows/hardware/ff552151">RtlCreateAcl</a>. 
 
-To obtain a pointer to an ACE in an ACL, use <a href="..\ntifs\nf-ntifs-rtlgetace.md">RtlGetAce</a>. 
+To obtain a pointer to an ACE in an ACL, use <a href="https://msdn.microsoft.com/library/windows/hardware/ff552288">RtlGetAce</a>. 
 
-To delete an ACE from an ACL, use <a href="..\ntifs\nf-ntifs-rtldeleteace.md">RtlDeleteAce</a>. 
+To delete an ACE from an ACL, use <a href="https://msdn.microsoft.com/library/windows/hardware/ff552206">RtlDeleteAce</a>. 
 
-To add an access-allowed ACE to an ACL, use <a href="..\ntifs\nf-ntifs-rtladdaccessallowedace.md">RtlAddAccessAllowedAce</a>. 
+To add an access-allowed ACE to an ACL, use <a href="https://msdn.microsoft.com/library/windows/hardware/ff552092">RtlAddAccessAllowedAce</a>. 
 
 For more information about security and access control, see the Microsoft Windows Software Development Kit (SDK) for Windows 7 and .NET Framework 4.0 documentation.
 
@@ -199,7 +186,6 @@ For more information about security and access control, see the Microsoft Window
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
 
 
 
@@ -207,25 +193,24 @@ For more information about security and access control, see the Microsoft Window
 
 
 
-<a href="..\ntifs\nf-ntifs-rtldeleteace.md">RtlDeleteAce</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538866">ACL</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-rtladdaccessallowedace.md">RtlAddAccessAllowedAce</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552092">RtlAddAccessAllowedAce</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-rtlgetace.md">RtlGetAce</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552151">RtlCreateAcl</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-rtlcreateacl.md">RtlCreateAcl</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552206">RtlDeleteAce</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552288">RtlGetAce</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RtlAddAce routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

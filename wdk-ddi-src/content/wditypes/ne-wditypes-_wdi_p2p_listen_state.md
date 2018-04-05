@@ -7,7 +7,7 @@ old-location: netvista\wdi_p2p_listen_state.htm
 old-project: netvista
 ms.assetid: 68798F3D-B708-4DCD-AB3F-D8DE4A8A0CF2
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: WDI_P2P_LISTEN_STATE, WDI_P2P_LISTEN_STATE enumeration [Device and Driver Installation], WDI_P2P_LISTEN_STATE_AUTOMATIC_AVAILABILITY, WDI_P2P_LISTEN_STATE_HIGH_AVAILABILITY, WDI_P2P_LISTEN_STATE_OFF, WDI_P2P_LISTEN_STATE_PASSIVE_AVAILABILITY, _WDI_P2P_LISTEN_STATE, netvista.wdi_p2p_listen_state, netvista.wifi_p2p_listen_state, wditypes/WDI_P2P_LISTEN_STATE, wditypes/WDI_P2P_LISTEN_STATE_AUTOMATIC_AVAILABILITY, wditypes/WDI_P2P_LISTEN_STATE_HIGH_AVAILABILITY, wditypes/WDI_P2P_LISTEN_STATE_OFF, wditypes/WDI_P2P_LISTEN_STATE_PASSIVE_AVAILABILITY
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	wditypes.hpp
 api_name:
 -	WDI_P2P_LISTEN_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDI_P2P_LISTEN_STATE
 req.product: Windows 10 or later.
@@ -51,19 +52,6 @@ req.product: Windows 10 or later.
 
 
 The WDI_P2P_LISTEN_STATE enumeration defines the Wi-Fi Direct listen states.
-
-
-## -syntax
-
-
-````
-typedef enum _WDI_P2P_LISTEN_STATE { 
-  WDI_P2P_LISTEN_STATE_OFF                     = 0,
-  WDI_P2P_LISTEN_STATE_PASSIVE_AVAILABILITY    = 8,
-  WDI_P2P_LISTEN_STATE_AUTOMATIC_AVAILABILITY  = 16,
-  WDI_P2P_LISTEN_STATE_HIGH_AVAILABILITY       = 24
-} WDI_P2P_LISTEN_STATE;
-````
 
 
 ## -enum-fields

@@ -7,7 +7,7 @@ old-location: display\dxgkarg_cancelcommand.htm
 old-project: display
 ms.assetid: c0066718-50d0-4bd2-a1bf-678c3f6b9253
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKARG_CANCELCOMMAND, DXGKARG_CANCELCOMMAND structure [Display Devices], _DXGKARG_CANCELCOMMAND, d3dkmddi/DXGKARG_CANCELCOMMAND, display.dxgkarg_cancelcommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3dkmddi.h
 api_name:
 -	DXGKARG_CANCELCOMMAND
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGKARG_CANCELCOMMAND
 ---
@@ -49,31 +50,7 @@ req.typenames: DXGKARG_CANCELCOMMAND
 ## -description
 
 
-Specifies internal resources that are cleaned up by the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_cancelcommand.md">DxgkDdiCancelCommand</a> function after a command is removed from the hardware  queue.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGKARG_CANCELCOMMAND {
-  HANDLE                         hContext;
-  VOID                           *pDmaBuffer;
-  UINT                           DmaBufferSize;
-  UINT                           DmaBufferSubmissionStartOffset;
-  UINT                           DmaBufferSubmissionEndOffset;
-  VOID                           *pDmaBufferPrivateData;
-  UINT                           DmaBufferPrivateDataSize;
-  UINT                           DmaBufferPrivateDataSubmissionStartOffset;
-  UINT                           DmaBufferPrivateDataSubmissionEndOffset;
-  const DXGK_ALLOCATIONLIST      *pAllocationList;
-  UINT                           AllocationListSize;
-  const D3DDDI_PATCHLOCATIONLIST *pPatchLocationList;
-  UINT                           PatchLocationListSize;
-  UINT                           PatchLocationListSubmissionStart;
-  UINT                           PatchLocationListSubmissionLength;
-} DXGKARG_CANCELCOMMAND;
-````
+Specifies internal resources that are cleaned up by the <a href="https://msdn.microsoft.com/c290c313-14ee-4554-9bb1-8adec1892426">DxgkDdiCancelCommand</a> function after a command is removed from the hardware  queue.
 
 
 ## -struct-fields
@@ -132,7 +109,7 @@ Note that <b>DmaBufferPrivateDataSize</b> represents the entire length of the pr
 
 ### -field pAllocationList
 
-[in] A pointer to an array of <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationlist.md">DXGK_ALLOCATIONLIST</a> structures for the list of allocations that is associated with the DMA buffer that <b>pDmaBuffer</b> points to. 
+[in] A pointer to an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff560975">DXGK_ALLOCATIONLIST</a> structures for the list of allocations that is associated with the DMA buffer that <b>pDmaBuffer</b> points to. 
 
 
 ### -field AllocationListSize
@@ -144,7 +121,7 @@ Note that <b>AllocationListSize</b> represents the total size of the allocation 
 
 ### -field pPatchLocationList
 
-[in] A pointer to an array of <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_patchlocationlist.md">D3DDDI_PATCHLOCATIONLIST</a> structures for the list of patch locations that is associated with the DMA buffer that <b>pDmaBuffer</b> points to.
+[in] A pointer to an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff544630">D3DDDI_PATCHLOCATIONLIST</a> structures for the list of patch locations that is associated with the DMA buffer that <b>pDmaBuffer</b> points to.
 
 Note that the array can begin with an element that is before the range that is used to patch the DMA buffer.
 
@@ -180,25 +157,23 @@ Note that <b>PatchLocationListSize</b> represents the total size of the patch-lo
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationlist.md">DXGK_ALLOCATIONLIST</a>
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createcontext.md">DxgkDdiCreateContext</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544630">D3DDDI_PATCHLOCATIONLIST</a>
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_cancelcommand.md">DxgkDdiCancelCommand</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560975">DXGK_ALLOCATIONLIST</a>
 
 
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_patchlocationlist.md">D3DDDI_PATCHLOCATIONLIST</a>
+<a href="https://msdn.microsoft.com/c290c313-14ee-4554-9bb1-8adec1892426">DxgkDdiCancelCommand</a>
 
 
 
+<a href="https://msdn.microsoft.com/aea21a36-f3d5-4541-bd2d-aa026668c562">DxgkDdiCreateContext</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKARG_CANCELCOMMAND structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

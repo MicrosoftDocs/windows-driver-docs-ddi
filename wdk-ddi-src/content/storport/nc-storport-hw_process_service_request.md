@@ -7,7 +7,7 @@ old-location: storage\hwstorprocessservicerequest.htm
 old-project: storage
 ms.assetid: bdcaf9a7-4c79-407b-bec4-182f3a1d1f37
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: HW_PROCESS_SERVICE_REQUEST, HwStorProcessServiceRequest, HwStorProcessServiceRequest routine [Storage Devices], storage.hwstorprocessservicerequest, storport/HwStorProcessServiceRequest, storvmini_50b0d1a2-74bf-4ee4-a9f7-3c30f1a81507.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Storport.h
 api_name:
 -	HwStorProcessServiceRequest
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STORAGE_DEVICE_UNIQUE_IDENTIFIER, *PSTORAGE_DEVICE_UNIQUE_IDENTIFIER
 req.product: Windows 10 or later.
@@ -50,21 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>HwStorProcessServiceRequest</b> callback routine receives the device control  IRP that contains the  <a href="..\ntddscsi\ni-ntddscsi-ioctl_miniport_process_service_irp.md">IOCTL_MINIPORT_PROCESS_SERVICE_IRP</a> request when a caller, such as a user-mode application or kernel-mode driver, requires a "reverse callback" operation. The I/O is completed by the miniport driver when it needs to tell the caller of something or needs the caller to do something.
-
-
-## -prototype
-
-
-````
-HW_PROCESS_SERVICE_REQUEST HwStorProcessServiceRequest;
-
-VOID HwStorProcessServiceRequest(
-   IN PVOID DeviceExtension,
-   IN PVOID Irp
-)
-{ ... }
-````
+The <b>HwStorProcessServiceRequest</b> callback routine receives the device control  IRP that contains the  <a href="https://msdn.microsoft.com/library/windows/hardware/ff560432">IOCTL_MINIPORT_PROCESS_SERVICE_IRP</a> request when a caller, such as a user-mode application or kernel-mode driver, requires a "reverse callback" operation. The I/O is completed by the miniport driver when it needs to tell the caller of something or needs the caller to do something.
 
 
 ## -parameters
@@ -112,7 +99,7 @@ HW_PROCESS_SERVICE_REQUEST (
 </td>
 </tr>
 </table></span></div>
-The port driver calls the Storport virtual miniport driver's <b>HwStorProcessServiceRequest</b> routine at PASSIVE_LEVEL. The virtual miniport driver completes the IRP by calling the <a href="..\storport\nf-storport-storportcompleteserviceirp.md">StorPortCompleteServiceIrp</a> routine.
+The port driver calls the Storport virtual miniport driver's <b>HwStorProcessServiceRequest</b> routine at PASSIVE_LEVEL. The virtual miniport driver completes the IRP by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567043">StorPortCompleteServiceIrp</a> routine.
 
 
 #### Examples
@@ -158,17 +145,15 @@ The <b>HW_PROCESS_SERVICE_REQUEST</b> function type is defined in the Storport.h
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportcompleteserviceirp.md">StorPortCompleteServiceIrp</a>
 
 
 
-<a href="..\ntddscsi\ni-ntddscsi-ioctl_miniport_process_service_irp.md">IOCTL_MINIPORT_PROCESS_SERVICE_IRP</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560432">IOCTL_MINIPORT_PROCESS_SERVICE_IRP</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567043">StorPortCompleteServiceIrp</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20HwStorProcessServiceRequest routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

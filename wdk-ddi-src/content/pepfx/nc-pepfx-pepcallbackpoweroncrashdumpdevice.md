@@ -7,7 +7,7 @@ old-location: kernel\powerondumpdevicecallback.htm
 old-project: kernel
 ms.assetid: 83E5D362-BC3C-4480-9904-6ABBB26DAFF2
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/28/2018
 ms.keywords: PEPCALLBACKPOWERONCRASHDUMPDEVICE, PowerOnDumpDeviceCallback, PowerOnDumpDeviceCallback routine [Kernel-Mode Driver Architecture], kernel.powerondumpdevicecallback, pepfx/PowerOnDumpDeviceCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	pepfx.h
 api_name:
 -	PowerOnDumpDeviceCallback
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: VPCI_PNP_ID, *PVPCI_PNP_ID
+req.typenames: RILGBATOKEN, *LPRILGBATOKEN
 ---
 
 # PEPCALLBACKPOWERONCRASHDUMPDEVICE callback
@@ -52,19 +53,6 @@ req.typenames: VPCI_PNP_ID, *PVPCI_PNP_ID
 The <i>PowerOnDumpDeviceCallback</i> callback routine turns on the crash-dump device.
 
 
-## -prototype
-
-
-````
-PEPCALLBACKPOWERONCRASHDUMPDEVICE PowerOnDumpDeviceCallback;
-
-BOOLEAN PowerOnDumpDeviceCallback(
-  _In_ PPEP_CRASHDUMP_INFORMATION CrashdumpInformation
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -72,7 +60,7 @@ BOOLEAN PowerOnDumpDeviceCallback(
 
 ### -param CrashdumpInformation [in]
 
-A pointer to a <a href="..\pepfx\ns-pepfx-_pep_crashdump_information.md">PEP_CRASHDUMP_INFORMATION</a> structure that contains information about the crash-dump device.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/mt186708">PEP_CRASHDUMP_INFORMATION</a> structure that contains information about the crash-dump device.
 
 
 ## -returns
@@ -99,17 +87,15 @@ The <i>PowerOnDumpDeviceCallback</i> routine is called at IRQL = HIGH_LEVEL with
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186708">PEP_CRASHDUMP_INFORMATION</a>
+
+
+
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_CRASHDUMP_DEVICE</a>
-
-
-
-<a href="..\pepfx\ns-pepfx-_pep_crashdump_information.md">PEP_CRASHDUMP_INFORMATION</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PowerOnDumpDeviceCallback routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

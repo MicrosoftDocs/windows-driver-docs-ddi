@@ -7,7 +7,7 @@ old-location: print\iprintoemuni_downloadcharglyph.htm
 old-project: print
 ms.assetid: 1ce7ebaa-759e-418a-af07-e530b1102567
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: DownloadCharGlyph method [Print Devices], DownloadCharGlyph method [Print Devices], IPrintOemUni interface, DownloadCharGlyph,IPrintOemUni.DownloadCharGlyph, IPrintOemUni, IPrintOemUni interface [Print Devices], DownloadCharGlyph method, IPrintOemUni::DownloadCharGlyph, prcomoem/IPrintOemUni::DownloadCharGlyph, print.iprintoemuni_downloadcharglyph, print_unidrv-pscript_rendering_da86807b-5b3c-41af-8504-337da544dd93.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: prcomoem.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	prcomoem.h
 api_name:
 -	IPrintOemUni.DownloadCharGlyph
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
@@ -53,20 +54,6 @@ req.product: Windows 10 or later.
 The <code>IPrintOemUni::DownloadCharGlyph</code> method enables a rendering plug-in for Unidrv to send a character glyph for a specified soft font to the printer.
 
 
-## -syntax
-
-
-````
-HRESULT DownloadCharGlyph(
-        PDEVOBJ     pdevobj,
-        PUNIFONTOBJ pUFObj,
-        HGLYPH      hGlyph,
-        PDWORD      pdwWidth,
-  [out] DWORD       *pdwResult
-);
-````
-
-
 ## -parameters
 
 
@@ -74,12 +61,12 @@ HRESULT DownloadCharGlyph(
 
 ### -param pdevobj
 
-Caller-supplied pointer to a <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a> structure.
+Caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547573">DEVOBJ</a> structure.
 
 
 ### -param pUFObj
 
-Caller-supplied pointer to a <a href="..\printoem\ns-printoem-_unifontobj.md">UNIFONTOBJ</a> structure.
+Caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563590">UNIFONTOBJ</a> structure.
 
 
 ### -param hGlyph

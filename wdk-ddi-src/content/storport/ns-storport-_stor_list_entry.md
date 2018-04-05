@@ -7,7 +7,7 @@ old-location: storage\stor_list_entry.htm
 old-project: storage
 ms.assetid: 41E713D9-9499-40EB-8B21-DDB73362BAE3
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSTOR_LIST_ENTRY, PSTOR_LIST_ENTRY, PSTOR_LIST_ENTRY structure pointer [Storage Devices], STOR_LIST_ENTRY, STOR_LIST_ENTRY structure [Storage Devices], _STOR_LIST_ENTRY, storage.stor_list_entry, storport/PSTOR_LIST_ENTRY, storport/STOR_LIST_ENTRY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	storport.h
 api_name:
 -	STOR_LIST_ENTRY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STOR_LIST_ENTRY, *PSTOR_LIST_ENTRY
 req.product: Windows 10 or later.
@@ -53,17 +54,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 A <b>STOR_LIST_ENTRY</b> structure describes an entry in a doubly linked list or serves as the header for such a list.
-
-
-## -syntax
-
-
-````
-typedef struct _STOR_LIST_ENTRY {
-  struct _STOR_LIST_ENTRY  *Flink;
-  struct _STOR_LIST_ENTRY  *Blink;
-} STOR_LIST_ENTRY, *PSTOR_LIST_ENTRY;
-````
 
 
 ## -struct-fields
@@ -85,13 +75,6 @@ For a <b>LIST_ENTRY</b> structure that serves as a list entry, the <b>Blink</b> 
 For a <b>LIST_ENTRY</b> structure that serves as the list header, the <b>Blink</b> member points to the last entry in the list or to the <b>LIST_ENTRY</b> structure itself if the list is empty.
 
 
-### -field _STOR_LIST_ENTRY
-
- 
-
-
-
-
 ## -remarks
 
 
@@ -108,49 +91,47 @@ For more information about how to use <b>STOR_LIST_ENTRY</b> structures to imple
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportinterlockedinsertheadlist.md">StorPortInterlockedInsertHeadList</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547799">InitializeListHead</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547820">InsertHeadList</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547823">InsertTailList</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551789">IsListEmpty</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561029">RemoveEntryList</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561032">RemoveHeadList</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561036">RemoveTailList</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt790428">StorPortInterlockedInsertHeadList</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt790429">StorPortInterlockedInsertTailList</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt790430">StorPortInterlockedRemoveHeadList</a>
-
-
-
-<a href="..\wudfwdm\nf-wudfwdm-removeheadlist.md">RemoveHeadList</a>
-
-
-
-<a href="..\wudfwdm\nf-wudfwdm-removeentrylist.md">RemoveEntryList</a>
-
-
-
-<a href="..\storport\nf-storport-storportinterlockedinserttaillist.md">StorPortInterlockedInsertTailList</a>
-
-
-
-<a href="..\wudfwdm\nf-wudfwdm-initializelisthead.md">InitializeListHead</a>
-
-
-
-<a href="..\wudfwdm\nf-wudfwdm-inserttaillist.md">InsertTailList</a>
-
-
-
-<a href="..\wudfwdm\nf-wudfwdm-insertheadlist.md">InsertHeadList</a>
-
-
-
-<a href="..\wudfwdm\nf-wudfwdm-islistempty.md">IsListEmpty</a>
-
-
-
-<a href="..\wudfwdm\nf-wudfwdm-removetaillist.md">RemoveTailList</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20STOR_LIST_ENTRY structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

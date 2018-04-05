@@ -7,7 +7,7 @@ old-location: storage\msfc_hbaportstatistics.htm
 old-project: storage
 ms.assetid: 0274b3c7-c17e-45bf-867f-2b0f741b2ecb
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PMSFC_HBAPortStatistics, MSFC_HBAPortStatistics, MSFC_HBAPortStatistics structure [Storage Devices], PMSFC_HBAPortStatistics, PMSFC_HBAPortStatistics structure pointer [Storage Devices], _MSFC_HBAPortStatistics, hbapiwmi/MSFC_HBAPortStatistics, hbapiwmi/PMSFC_HBAPortStatistics, storage.msfc_hbaportstatistics, structs-Fibre_93c56324-f8c5-4d43-815a-40ca9d44350d.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	hbapiwmi.h
 api_name:
 -	MSFC_HBAPortStatistics
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MSFC_HBAPortStatistics, *PMSFC_HBAPortStatistics
 ---
@@ -50,30 +51,6 @@ req.typenames: MSFC_HBAPortStatistics, *PMSFC_HBAPortStatistics
 
 
 The MSFC_HBAPortStatistics structure contains statistics information about a port.
-
-
-## -syntax
-
-
-````
-typedef struct _MSFC_HBAPortStatistics {
-  LONGLONG SecondsSinceLastReset;
-  LONGLONG TxFrames;
-  LONGLONG TxWords;
-  LONGLONG RxFrames;
-  LONGLONG RxWords;
-  LONGLONG LIPCount;
-  LONGLONG NOSCount;
-  LONGLONG ErrorFrames;
-  LONGLONG DumpedFrames;
-  LONGLONG LinkFailureCount;
-  LONGLONG LossOfSyncCount;
-  LONGLONG LossOfSignalCount;
-  LONGLONG PrimitiveSeqProtocolErrCount;
-  LONGLONG InvalidTxWordCount;
-  LONGLONG InvalidCRCCount;
-} MSFC_HBAPortStatistics, *PMSFC_HBAPortStatistics;
-````
 
 
 ## -struct-fields
@@ -158,13 +135,11 @@ Contains a count of the number frames with invalid cyclic redundancy checksums.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff562513">MSFC_HBAPortStatistics WMI Class</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20MSFC_HBAPortStatistics structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

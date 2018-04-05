@@ -7,7 +7,7 @@ old-location: netvista\ndis_receive_throttle_parameters.htm
 old-project: netvista
 ms.assetid: ad51cc5c-7385-405b-8b65-20b079a3265c
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: "*PNDIS_RECEIVE_THROTTLE_PARAMETERS, NDIS_RECEIVE_THROTTLE_PARAMETERS, NDIS_RECEIVE_THROTTLE_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_RECEIVE_THROTTLE_PARAMETERS, PNDIS_RECEIVE_THROTTLE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_RECEIVE_THROTTLE_PARAMETERS, ndis/NDIS_RECEIVE_THROTTLE_PARAMETERS, ndis/PNDIS_RECEIVE_THROTTLE_PARAMETERS, ndis_processor_group_ref_97a7b040-82a4-46ab-8b95-0f1be9823b8e.xml, netvista.ndis_receive_throttle_parameters"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ndis.h
 api_name:
 -	NDIS_RECEIVE_THROTTLE_PARAMETERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_RECEIVE_THROTTLE_PARAMETERS, *PNDIS_RECEIVE_THROTTLE_PARAMETERS
 ---
@@ -50,19 +51,8 @@ req.typenames: NDIS_RECEIVE_THROTTLE_PARAMETERS, *PNDIS_RECEIVE_THROTTLE_PARAMET
 
 
 The NDIS_RECEIVE_THROTTLE_PARAMETERS structure specifies the maximum number of 
-  <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures that a miniport
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structures that a miniport
   driver should indicate in a deferred procedure call (DPC).
-
-
-## -syntax
-
-
-````
-typedef struct _NDIS_RECEIVE_THROTTLE_PARAMETERS {
-  ULONG MaxNblsToIndicate;
-  ULONG MoreNblsPending  :1;
-} NDIS_RECEIVE_THROTTLE_PARAMETERS, *PNDIS_RECEIVE_THROTTLE_PARAMETERS;
-````
 
 
 ## -struct-fields
@@ -73,7 +63,7 @@ typedef struct _NDIS_RECEIVE_THROTTLE_PARAMETERS {
 ### -field MaxNblsToIndicate
 
 The maximum number of 
-     <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures that a miniport
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structures that a miniport
      driver should include in a receive indication. If this value is NDIS_INDICATE_ALL_NBLS, the miniport can
      indicate all of the NET_BUFFER_LIST structures that it has.
 
@@ -96,8 +86,8 @@ A value that, when <b>TRUE</b>, specifies that the miniport driver has NET_BUFFE
 
 The 
     <i>ReceiveThrottleParameters</i> parameters of the 
-    <a href="..\ndis\nc-ndis-miniport_interrupt_dpc.md">MiniportInterruptDPC</a> and the 
-    <a href="..\ndis\nc-ndis-miniport_message_interrupt_dpc.md">
+    <a href="https://msdn.microsoft.com/345715fb-878c-44d8-bf78-f3add10dd02b">MiniportInterruptDPC</a> and the 
+    <a href="https://msdn.microsoft.com/c1eca20b-eda1-442c-8644-798fa864d5d7">
     MiniportMessageInterruptDPC</a> DPC handler functions point to an NDIS_RECEIVE_THROTTLE_PARAMETERS
     structure. This structure specifies the parameters of 
     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567241">Receive Side Throttle
@@ -106,7 +96,7 @@ The
 On entry to the DPC handler, the 
     <b>MaxNblsToIndicate</b> member of the NDIS_RECEIVE_THROTTLE_PARAMETERS structure specifies the maximum
     number of 
-    <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures that the miniport
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structures that the miniport
     driver should indicate in the DPC. If this value is NDIS_INDICATE_ALL_NBLS, the miniport driver can
     indicate all of the NET_BUFFER_LIST structures that it has in its queues.
 
@@ -149,7 +139,7 @@ If the miniport driver is using line-based interrupts or a single MSI message, i
     interrupt-processing for all of the interrupt sources that it has. If there are packets in the receive
     queue, it should indicate at most 
     <b>MaxNblsToIndicate</b> NET_BUFFER_LIST structures to NDIS with the 
-    <a href="..\ndis\nf-ndis-ndismindicatereceivenetbufferlists.md">
+    <a href="https://msdn.microsoft.com/b87dba3e-c18f-4ea2-8bd5-ec3cdafc534b">
     NdisMIndicateReceiveNetBufferLists</a> function.
 
 If the miniport driver is using multiple MSI messages to differentiate different interrupt sources, it
@@ -168,26 +158,24 @@ If the miniport driver is using multiple MSI messages to differentiate different
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismindicatereceivenetbufferlists.md">
+
+
+
+<a href="https://msdn.microsoft.com/345715fb-878c-44d8-bf78-f3add10dd02b">MiniportInterruptDPC</a>
+
+
+
+<a href="https://msdn.microsoft.com/c1eca20b-eda1-442c-8644-798fa864d5d7">MiniportMessageInterruptDPC</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a>
+
+
+
+<a href="https://msdn.microsoft.com/b87dba3e-c18f-4ea2-8bd5-ec3cdafc534b">
    NdisMIndicateReceiveNetBufferLists</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_interrupt_dpc.md">MiniportInterruptDPC</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_message_interrupt_dpc.md">MiniportMessageInterruptDPC</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_RECEIVE_THROTTLE_PARAMETERS structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

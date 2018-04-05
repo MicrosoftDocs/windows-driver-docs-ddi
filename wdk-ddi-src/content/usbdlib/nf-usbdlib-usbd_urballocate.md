@@ -7,7 +7,7 @@ old-location: buses\usbd_urballocate.htm
 old-project: usbref
 ms.assetid: 384E04BE-794F-4F87-81E5-35B974EB6172
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: USBD_UrbAllocate, USBD_UrbAllocate routine [Buses], buses.usbd_urballocate, usbdlib/USBD_UrbAllocate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Usbdex.dll
 api_name:
 -	USBD_UrbAllocate
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USBCAMD_DEVICE_DATA2, *PUSBCAMD_DEVICE_DATA2
 req.product: Windows 10 or later.
@@ -54,17 +55,6 @@ req.product: Windows 10 or later.
 The <b>USBD_UrbAllocate</b> routine allocates a USB Request Block (URB).
 
 
-## -syntax
-
-
-````
-NTSTATUS USBD_UrbAllocate(
-  _In_  USBD_HANDLE USBDHandle,
-  _Out_ PURB        *Urb
-);
-````
-
-
 ## -parameters
 
 
@@ -72,12 +62,12 @@ NTSTATUS USBD_UrbAllocate(
 
 ### -param USBDHandle [in]
 
-USBD handle that is retrieved by the client driver in a previous call to  the <a href="..\usbdlib\nf-usbdlib-usbd_createhandle.md">USBD_CreateHandle</a> routine.
+USBD handle that is retrieved by the client driver in a previous call to  the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406241">USBD_CreateHandle</a> routine.
 
 
 ### -param Urb [out]
 
-Pointer to the newly allocated <a href="..\usb\ns-usb-_urb.md">URB</a> structure. All members of the structure are set to zero. The client driver must free the URB when the driver has finished using it by calling <a href="..\usbdlib\nf-usbdlib-usbd_urbfree.md">USBD_UrbFree</a>.
+Pointer to the newly allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff538923">URB</a> structure. All members of the structure are set to zero. The client driver must free the URB when the driver has finished using it by calling <a href="https://msdn.microsoft.com/library/windows/hardware/hh406252">USBD_UrbFree</a>.
 
 
 ## -returns
@@ -97,22 +87,22 @@ Possible values include, but are not limited to, STATUS_INVALID_PARAMETER, which
 
 The <b>USBD_UrbAllocate</b> routine enables the underlying USB driver stack to allocate an opaque URB context for the URB. By using the URB context, the USB driver stack can process requests more efficiently and reliably. Those optimizations are provided by the USB 3.0 driver stack that is included in Windows 8. The client driver cannot access the URB context; the context is used internally by the bus driver. 
 
-Regardless of the USB protocol version of the host controller, the underlying USB driver stack, the target operating system, the client driver must always call <b>USBD_UrbAllocate</b> to allocate an <a href="..\usb\ns-usb-_urb.md">URB</a> structure.  <b>USBD_UrbAllocate</b> replaces earlier allocation mechanisms, such as  <a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>, or allocating them on the stack. 
+Regardless of the USB protocol version of the host controller, the underlying USB driver stack, the target operating system, the client driver must always call <b>USBD_UrbAllocate</b> to allocate an <a href="https://msdn.microsoft.com/library/windows/hardware/ff538923">URB</a> structure.  <b>USBD_UrbAllocate</b> replaces earlier allocation mechanisms, such as  <a href="https://msdn.microsoft.com/library/windows/hardware/ff544520">ExAllocatePoolWithTag</a>, or allocating them on the stack. 
 
 The client driver must <i>not</i> use <b>USBD_UrbAllocate</b>, 
 
 <ul>
-<li>To allocate an URB that has variable length, such as an URB for an isochronous transfer. Instead the client driver must call <a href="..\usbdlib\nf-usbdlib-usbd_isochurballocate.md">USBD_IsochUrbAllocate</a>. </li>
+<li>To allocate an URB that has variable length, such as an URB for an isochronous transfer. Instead the client driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/hh406231">USBD_IsochUrbAllocate</a>. </li>
 <li>If the target operating system is Windows XP with Service Pack 2 (SP2) or an earlier version of Windows.</li>
 </ul>
 For more information about replacement routines, see <a href="https://msdn.microsoft.com/library/windows/hardware/hh450844">Allocating and Building URBs</a>.
 
-You must call <a href="..\usbdlib\nf-usbdlib-usbd_urbfree.md">USBD_UrbFree</a> to release the URB allocated by <b>USBD_UrbAllocate</b>. 
+You must call <a href="https://msdn.microsoft.com/library/windows/hardware/hh406252">USBD_UrbFree</a> to release the URB allocated by <b>USBD_UrbAllocate</b>. 
 
 
 #### Examples
 
-The following code example shows how to allocate, submit, and release a URB. The example submits the URB synchronously.
+The following code example shows how to allocate, submit, and release a URB. The example submits the URB synchronously. For the implementation of the SubmitUrbSync function, see the example section in [How to Submit an URB](https://docs.microsoft.com/en-us/windows-hardware/drivers/usbcon/send-requests-to-the-usb-driver-stack).
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -169,11 +159,6 @@ CreateandSubmitURBExit:
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/15be1e51-5ab2-40c4-95a8-8555c92523aa">Sending Requests to a USB Device</a>
-
-
-
-<a href="..\usbdlib\nf-usbdlib-usbd_urbfree.md">USBD_UrbFree</a>
 
 
 
@@ -181,9 +166,12 @@ CreateandSubmitURBExit:
 
 
 
+<a href="https://msdn.microsoft.com/15be1e51-5ab2-40c4-95a8-8555c92523aa">Sending Requests to a USB Device</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406252">USBD_UrbFree</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USBD_UrbAllocate routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

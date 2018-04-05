@@ -7,7 +7,7 @@ old-location: storage\mpio_path_health_class.htm
 old-project: storage
 ms.assetid: 13be9014-e1ce-4b08-a264-c2828e8632ae
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PMPIO_PATH_HEALTH_CLASS, MPIO_PATH_HEALTH_CLASS, MPIO_PATH_HEALTH_CLASS structure [Storage Devices], PMPIO_PATH_HEALTH_CLASS, PMPIO_PATH_HEALTH_CLASS structure pointer [Storage Devices], _MPIO_PATH_HEALTH_CLASS, mpiowmi/MPIO_PATH_HEALTH_CLASS, mpiowmi/PMPIO_PATH_HEALTH_CLASS, storage.mpio_path_health_class, structs-scsibus_ffbf044f-24cd-4e04-8a26-bfa5f2542189.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	mpiowmi.h
 api_name:
 -	MPIO_PATH_HEALTH_CLASS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MPIO_PATH_HEALTH_CLASS, *PMPIO_PATH_HEALTH_CLASS
 ---
@@ -50,31 +51,6 @@ req.typenames: MPIO_PATH_HEALTH_CLASS, *PMPIO_PATH_HEALTH_CLASS
 
 
 The MPIO_PATH_HEALTH_CLASS structure represents the health information for a path.
-
-
-## -syntax
-
-
-````
-typedef struct _MPIO_PATH_HEALTH_CLASS {
-  ULONGLONG PathId;
-  ULONGLONG NumberReads;
-  ULONGLONG NumberWrites;
-  ULONGLONG NumberBytesRead;
-  ULONGLONG NumberBytesWritten;
-  ULONGLONG NumberRetries;
-  ULONGLONG NumberIoErrors;
-  ULONGLONG CreateTime;
-  ULONGLONG FailTime;
-  BOOLEAN   PathOffline;
-  UCHAR     NumberReadsWrap;
-  UCHAR     NumberWritesWrap;
-  UCHAR     NumberBytesReadWrap;
-  UCHAR     NumberBytesWrittenWrap;
-  UCHAR     OutstandingRequests;
-  UCHAR     Pad[2];
-} MPIO_PATH_HEALTH_CLASS, *PMPIO_PATH_HEALTH_CLASS;
-````
 
 
 ## -struct-fields

@@ -38,7 +38,8 @@ api_location:
 -	Bdatypes.h
 api_name:
 -	BDA_CAS_CLOSE_MMIDIALOG
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BDA_CAS_CLOSE_MMIDIALOG, *PBDA_CAS_CLOSE_MMIDIALOG
 ---
@@ -50,17 +51,6 @@ req.typenames: BDA_CAS_CLOSE_MMIDIALOG, *PBDA_CAS_CLOSE_MMIDIALOG
 
 
 
-
-
-## -syntax
-
-
-````
-typedef struct _BDA_CAS_CLOSE_MMIDIALOG {
-  PBDARESULT lResult;
-  ULONG      ulDescrambleStatus;
-} BDA_CAS_CLOSE_MMIDIALOG, *PBDA_CAS_CLOSE_MMIDIALOG;
-````
 
 
 ## -struct-fields

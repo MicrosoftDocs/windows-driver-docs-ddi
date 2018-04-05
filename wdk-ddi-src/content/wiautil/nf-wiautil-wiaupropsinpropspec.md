@@ -7,7 +7,7 @@ old-location: image\wiaupropsinpropspec.htm
 old-project: image
 ms.assetid: c376297a-11a6-4e9f-b551-36a573cdb7e0
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/27/2018
 ms.keywords: image.wiaupropsinpropspec, wiauFncs_2490b5b3-8051-4711-b681-1aef18580182.xml, wiauPropsInPropSpec, wiauPropsInPropSpec function [Imaging Devices], wiautil/wiauPropsInPropSpec
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	wiautil.h
 api_name:
 -	wiauPropsInPropSpec
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SKIP_AMOUNT
 req.product: Windows 10 or later.
@@ -51,19 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>wiauPropsInPropSpec</b> function determines whether any of a list of property specification IDs is contained within an array of such values.
-
-
-## -syntax
-
-
-````
-BOOL _stdcall wiauPropsInPropSpec(
-             LONG     NumPropSpecs,
-  _In_ const PROPSPEC *pPropSpecs,
-             int      NumProps,
-  _In_       PROPID   *pProps
-);
-````
 
 
 ## -parameters
@@ -104,20 +92,18 @@ This function returns <b>TRUE</b> as soon as it finds one of the property specif
 
 
 
-The <b>wiauPropsInPropSpec</b> function finds one or more property specification IDs within an array of property specification IDs. A related function, <a href="..\wiautil\nf-wiautil-wiaupropinpropspec.md">wiauPropInPropSpec</a>, can be used to find a single property specification ID within such an array.
+The <b>wiauPropsInPropSpec</b> function finds one or more property specification IDs within an array of property specification IDs. A related function, <a href="https://msdn.microsoft.com/library/windows/hardware/ff550171">wiauPropInPropSpec</a>, can be used to find a single property specification ID within such an array.
 
 
 
 
 ## -see-also
 
-<a href="..\wiautil\nf-wiautil-wiaupropinpropspec.md">wiauPropInPropSpec</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550171">wiauPropInPropSpec</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20wiauPropsInPropSpec function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

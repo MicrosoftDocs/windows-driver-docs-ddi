@@ -7,7 +7,7 @@ old-location: display\ddraw_mode_specific_caps.htm
 old-project: display
 ms.assetid: 4434e2cb-af36-446b-b84e-f303ba315cd3
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: D3D_other_Structs_21634851-4693-46c9-b742-f2001e63f349.xml, DDRAW_MODE_SPECIFIC_CAPS, DDRAW_MODE_SPECIFIC_CAPS structure [Display Devices], _DDRAW_MODE_SPECIFIC_CAPS, d3dumddi/DDRAW_MODE_SPECIFIC_CAPS, display.ddraw_mode_specific_caps
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	DDRAW_MODE_SPECIFIC_CAPS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DDRAW_MODE_SPECIFIC_CAPS
 ---
@@ -50,22 +51,6 @@ req.typenames: DDRAW_MODE_SPECIFIC_CAPS
 
 
 The DDRAW_MODE_SPECIFIC_CAPS structure describes Microsoft DirectDraw capabilities that are specific to a particular display device (head) on the graphics card.
-
-
-## -syntax
-
-
-````
-typedef struct _DDRAW_MODE_SPECIFIC_CAPS {
-  UINT Head;
-  UINT Caps;
-  UINT CKeyCaps;
-  UINT FxCaps;
-  UINT MaxVisibleOverlays;
-  UINT MinOverlayStretch;
-  UINT MaxOverlayStretch;
-} DDRAW_MODE_SPECIFIC_CAPS;
-````
 
 
 ## -struct-fields
@@ -153,7 +138,7 @@ MODE_CAPS_COLORCONTROLOVERLAY (0x00000040)
 
 </td>
 <td>
-The driver supports color-control settings for an overlay. For information about setting and retrieving color-control settings, see the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getoverlaycolorcontrols.md">GetOverlayColorControls</a> and <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setoverlaycolorcontrols.md">SetOverlayColorControls</a> functions.
+The driver supports color-control settings for an overlay. For information about setting and retrieving color-control settings, see the <a href="https://msdn.microsoft.com/23b15bb5-4394-406b-8869-f9d1e4e2b539">GetOverlayColorControls</a> and <a href="https://msdn.microsoft.com/c2723c57-44eb-4866-9381-a3a341996989">SetOverlayColorControls</a> functions.
 
 </td>
 </tr>
@@ -343,21 +328,19 @@ Capabilities can change between heads of a multiple-headed graphics card and can
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
 
 
 
-<a href="..\d3dumddi\ne-d3dumddi-_d3dddicaps_type.md">D3DDDICAPS_TYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543148">D3DDDIARG_GETCAPS</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getcaps.md">D3DDDIARG_GETCAPS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544132">D3DDDICAPS_TYPE</a>
 
 
 
+<a href="https://msdn.microsoft.com/cf6c61ce-7b53-46d0-b3ff-ed5b2b964c65">GetCaps</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DDRAW_MODE_SPECIFIC_CAPS structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

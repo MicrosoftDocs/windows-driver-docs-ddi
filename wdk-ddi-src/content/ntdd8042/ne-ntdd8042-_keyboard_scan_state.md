@@ -38,7 +38,8 @@ api_location:
 -	ntdd8042.h
 api_name:
 -	KEYBOARD_SCAN_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KEYBOARD_SCAN_STATE, *PKEYBOARD_SCAN_STATE
 ---
@@ -50,18 +51,6 @@ req.typenames: KEYBOARD_SCAN_STATE, *PKEYBOARD_SCAN_STATE
 
 
 The KEYBOARD_SCAN_STATE enumeration type indicates the scan state of an input byte from a keyboard.
-
-
-## -syntax
-
-
-````
-typedef enum _KEYBOARD_SCAN_STATE { 
-  Normal,
-  GotE0,
-  GotE1
-} KEYBOARD_SCAN_STATE, *PKEYBOARD_SCAN_STATE;
-````
 
 
 ## -enum-fields
@@ -95,7 +84,6 @@ This enumeration type is used as input to an optional <a href="https://msdn.micr
 
 ## -see-also
 
-<a href="..\ntdd8042\nc-ntdd8042-pi8042_keyboard_isr.md">PI8042_KEYBOARD_ISR</a>
 
 
 
@@ -103,9 +91,8 @@ This enumeration type is used as input to an optional <a href="https://msdn.micr
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543248">PI8042_KEYBOARD_ISR</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [hid\hid]:%20KEYBOARD_SCAN_STATE enumeration%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

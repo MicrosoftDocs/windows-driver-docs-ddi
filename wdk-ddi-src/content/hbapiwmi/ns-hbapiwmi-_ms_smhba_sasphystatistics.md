@@ -7,7 +7,7 @@ old-location: storage\ms_smhba_sasphystatistics.htm
 old-project: storage
 ms.assetid: bb2ab242-9002-4760-86b2-1aaf203ff710
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PMS_SMHBA_SASPHYSTATISTICS, MS_SMHBA_SASPHYSTATISTICS, MS_SMHBA_SASPHYSTATISTICS structure [Storage Devices], PMS_SMHBA_SASPHYSTATISTICS, PMS_SMHBA_SASPHYSTATISTICS structure pointer [Storage Devices], _MS_SMHBA_SASPHYSTATISTICS, hbapiwmi/MS_SMHBA_SASPHYSTATISTICS, hbapiwmi/PMS_SMHBA_SASPHYSTATISTICS, storage.ms_smhba_sasphystatistics, structs-Fibre_7059d482-c967-4f18-8c03-b113573cff2f.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	hbapiwmi.h
 api_name:
 -	MS_SMHBA_SASPHYSTATISTICS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MS_SMHBA_SASPHYSTATISTICS, *PMS_SMHBA_SASPHYSTATISTICS
 ---
@@ -50,24 +51,6 @@ req.typenames: MS_SMHBA_SASPHYSTATISTICS, *PMS_SMHBA_SASPHYSTATISTICS
 
 
 The MS_SMHBA_SASPHYSTATISTICS structure reports the traffic statistics for a SAS physical link.
-
-
-## -syntax
-
-
-````
-typedef struct _MS_SMHBA_SASPHYSTATISTICS {
-  LONGLONG SecondsSinceLastReset;
-  LONGLONG TxFrames;
-  LONGLONG TxWords;
-  LONGLONG RxFrames;
-  LONGLONG RxWords;
-  LONGLONG InvalidDwordCount;
-  LONGLONG RunningDisparityErrorCount;
-  LONGLONG LossofDwordSyncCount;
-  LONGLONG PhyResetProblemCount;
-} MS_SMHBA_SASPHYSTATISTICS, *PMS_SMHBA_SASPHYSTATISTICS;
-````
 
 
 ## -struct-fields

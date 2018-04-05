@@ -7,7 +7,7 @@ old-location: ifsk\fltqueryvolumeinformationfile.htm
 old-project: ifsk
 ms.assetid: 3f93ce0a-f1f0-4b5b-aaf3-ce6698eb5055
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FileFsAttributeInformation, FileFsControlInformation, FileFsDeviceInformation, FileFsDriverPathInformation, FileFsFullSizeInformation, FileFsObjectIdInformation, FileFsSectorSizeInformation, FileFsSizeInformation, FileFsVolumeInformation, FltApiRef_p_to_z_b2a51db8-6931-46c6-84ba-eb29097ac89e.xml, FltQueryVolumeInformationFile, FltQueryVolumeInformationFile function [Installable File System Drivers], fltkernel/FltQueryVolumeInformationFile, ifsk.fltqueryvolumeinformationfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	fltmgr.sys
 api_name:
 -	FltQueryVolumeInformationFile
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
@@ -50,21 +51,6 @@ req.typenames: EXpsFontRestriction
 
 
 <b>FltQueryVolumeInformationFile</b> retrieves volume information for a given file, directory, storage device, or volume. 
-
-
-## -syntax
-
-
-````
-NTSTATUS FltQueryVolumeInformationFile(
-  _In_      PFLT_INSTANCE        Instance,
-  _In_      PFILE_OBJECT         FileObject,
-  _Out_     PVOID                FsInformation,
-  _In_      ULONG                Length,
-  _In_      FS_INFORMATION_CLASS FsInformationClass,
-  _Out_opt_ PULONG               LengthReturned
-);
-````
 
 
 ## -parameters
@@ -107,7 +93,7 @@ Type of volume information to be returned. One of the following:
 </dl>
 </td>
 <td width="60%">
-Return a <a href="..\ntifs\ns-ntifs-_file_fs_attribute_information.md">FILE_FS_ATTRIBUTE_INFORMATION</a> structure that contains attribute information about the file system responsible for the volume. 
+Return a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540251">FILE_FS_ATTRIBUTE_INFORMATION</a> structure that contains attribute information about the file system responsible for the volume. 
 
 </td>
 </tr>
@@ -117,7 +103,7 @@ Return a <a href="..\ntifs\ns-ntifs-_file_fs_attribute_information.md">FILE_FS_A
 </dl>
 </td>
 <td width="60%">
-Return a <a href="..\ntifs\ns-ntifs-_file_fs_control_information.md">FILE_FS_CONTROL_INFORMATION</a> structure that contains file system control information about the volume. 
+Return a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540258">FILE_FS_CONTROL_INFORMATION</a> structure that contains file system control information about the volume. 
 
 </td>
 </tr>
@@ -127,7 +113,7 @@ Return a <a href="..\ntifs\ns-ntifs-_file_fs_control_information.md">FILE_FS_CON
 </dl>
 </td>
 <td width="60%">
-Return a <a href="..\wdm\ns-wdm-_file_fs_device_information.md">FILE_FS_DEVICE_INFORMATION</a> structure that contains device information for the volume. 
+Return a <a href="https://msdn.microsoft.com/library/windows/hardware/ff545788">FILE_FS_DEVICE_INFORMATION</a> structure that contains device information for the volume. 
 
 </td>
 </tr>
@@ -137,7 +123,7 @@ Return a <a href="..\wdm\ns-wdm-_file_fs_device_information.md">FILE_FS_DEVICE_I
 </dl>
 </td>
 <td width="60%">
-Return a <a href="..\ntifs\ns-ntifs-_file_fs_driver_path_information.md">FILE_FS_DRIVER_PATH_INFORMATION</a> structure that contains information about whether a specified driver is in the I/O path for the volume. The caller must store the name of the driver into the <b>FILE_FS_DRIVER_PATH_INFORMATION</b> structure before calling <b>FltQueryVolumeInformationFile</b>. 
+Return a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540262">FILE_FS_DRIVER_PATH_INFORMATION</a> structure that contains information about whether a specified driver is in the I/O path for the volume. The caller must store the name of the driver into the <b>FILE_FS_DRIVER_PATH_INFORMATION</b> structure before calling <b>FltQueryVolumeInformationFile</b>. 
 
 </td>
 </tr>
@@ -147,7 +133,7 @@ Return a <a href="..\ntifs\ns-ntifs-_file_fs_driver_path_information.md">FILE_FS
 </dl>
 </td>
 <td width="60%">
-Return a <a href="..\ntddk\ns-ntddk-_file_fs_full_size_information.md">FILE_FS_FULL_SIZE_INFORMATION</a> structure that contains information about the total amount of space available on the volume. 
+Return a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540267">FILE_FS_FULL_SIZE_INFORMATION</a> structure that contains information about the total amount of space available on the volume. 
 
 </td>
 </tr>
@@ -157,7 +143,7 @@ Return a <a href="..\ntddk\ns-ntddk-_file_fs_full_size_information.md">FILE_FS_F
 </dl>
 </td>
 <td width="60%">
-Return a <a href="..\ntddk\ns-ntddk-_file_fs_objectid_information.md">FILE_FS_OBJECTID_INFORMATION</a> structure that contains file-system-specific object ID information for the volume. Note that this is not the same as the (GUID-based) unique volume name that is assigned by the operating system. 
+Return a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540274">FILE_FS_OBJECTID_INFORMATION</a> structure that contains file-system-specific object ID information for the volume. Note that this is not the same as the (GUID-based) unique volume name that is assigned by the operating system. 
 
 </td>
 </tr>
@@ -167,7 +153,7 @@ Return a <a href="..\ntddk\ns-ntddk-_file_fs_objectid_information.md">FILE_FS_OB
 </dl>
 </td>
 <td width="60%">
-Return a <a href="..\ntddk\ns-ntddk-_file_fs_size_information.md">FILE_FS_SIZE_INFORMATION</a> structure containing information about the amount of space on the volume that is available to the user that is associated with the calling thread. 
+Return a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540282">FILE_FS_SIZE_INFORMATION</a> structure containing information about the amount of space on the volume that is available to the user that is associated with the calling thread. 
 
 </td>
 </tr>
@@ -177,7 +163,7 @@ Return a <a href="..\ntddk\ns-ntddk-_file_fs_size_information.md">FILE_FS_SIZE_I
 </dl>
 </td>
 <td width="60%">
-Return a <a href="..\ntddk\ns-ntddk-_file_fs_volume_information.md">FILE_FS_VOLUME_INFORMATION</a> that contains information about the volume such as the volume label, serial number, and creation time. 
+Return a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540287">FILE_FS_VOLUME_INFORMATION</a> that contains information about the volume such as the volume label, serial number, and creation time. 
 
 </td>
 </tr>
@@ -187,7 +173,7 @@ Return a <a href="..\ntddk\ns-ntddk-_file_fs_volume_information.md">FILE_FS_VOLU
 </dl>
 </td>
 <td width="60%">
-Return a <a href="..\ntifs\ns-ntifs-_file_fs_driver_path_information.md">FILE_FS_SECTOR_SIZE_INFORMATION</a> structure that contains information about the physical and logical sector sizes of a volume.
+Return a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406395">FILE_FS_SECTOR_SIZE_INFORMATION</a> structure that contains information about the physical and logical sector sizes of a volume.
 
 </td>
 </tr>
@@ -243,49 +229,47 @@ If the <i>FileObject</i> represents a direct device open, only <i>FileFsDeviceIn
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540251">FILE_FS_ATTRIBUTE_INFORMATION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540258">FILE_FS_CONTROL_INFORMATION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545788">FILE_FS_DEVICE_INFORMATION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540262">FILE_FS_DRIVER_PATH_INFORMATION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540267">FILE_FS_FULL_SIZE_INFORMATION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540274">FILE_FS_OBJECTID_INFORMATION</a>
+
+
+
 <b>FILE_FS_SECTOR_SIZE_INFORMATION</b>
 
 
 
-<a href="..\ntddk\ns-ntddk-_file_fs_volume_information.md">FILE_FS_VOLUME_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540282">FILE_FS_SIZE_INFORMATION</a>
 
 
 
-<a href="..\wdm\ns-wdm-_file_fs_device_information.md">FILE_FS_DEVICE_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540287">FILE_FS_VOLUME_INFORMATION</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltsetinformationfile.md">FltSetInformationFile</a>
-
-
-
-<a href="..\ntddk\ns-ntddk-_file_fs_size_information.md">FILE_FS_SIZE_INFORMATION</a>
-
-
-
-<a href="..\ntddk\ns-ntddk-_file_fs_full_size_information.md">FILE_FS_FULL_SIZE_INFORMATION</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_file_fs_driver_path_information.md">FILE_FS_DRIVER_PATH_INFORMATION</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_file_fs_attribute_information.md">FILE_FS_ATTRIBUTE_INFORMATION</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_file_fs_control_information.md">FILE_FS_CONTROL_INFORMATION</a>
-
-
-
-<a href="..\ntddk\ns-ntddk-_file_fs_objectid_information.md">FILE_FS_OBJECTID_INFORMATION</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544516">FltSetInformationFile</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltQueryVolumeInformationFile function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

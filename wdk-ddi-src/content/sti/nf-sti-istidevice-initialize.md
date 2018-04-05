@@ -7,7 +7,7 @@ old-location: image\istidevice_initialize.htm
 old-project: image
 ms.assetid: 3cd6ece6-2c8e-4072-8ac5-d1e90c9392db
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/27/2018
 ms.keywords: IStiDevice, IStiDevice interface [Imaging Devices], Initialize method, IStiDevice::Initialize, Initialize method [Imaging Devices], Initialize method [Imaging Devices], IStiDevice interface, Initialize,IStiDevice.Initialize, image.istidevice_initialize, sti/IStiDevice::Initialize, stifnc_abeacac4-60ef-41f0-b70e-bf7da7fa110b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: sti.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	sti.h
 api_name:
 -	IStiDevice.Initialize
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STI_DEVICE_MJ_TYPE, STI_DEVICE_MJ_TYPE
 req.product: Windows 10 or later.
@@ -51,19 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>IStiDevice::Initialize</b> method initializes an instance of the COM object that defines the <b>IStiDevice</b> interface. <i>This method is for internal use only</i>.
-
-
-## -syntax
-
-
-````
-HRESULT Initialize(
-  [in] HINSTANCE hinst,
-  [in] LPCWSTR   pwszDeviceName,
-       DWORD     dwVersion,
-       DWORD     dwMode
-);
-````
 
 
 ## -parameters

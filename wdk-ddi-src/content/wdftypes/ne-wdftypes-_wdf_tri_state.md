@@ -7,7 +7,7 @@ old-location: wdf\wdf_tri_state.htm
 old-project: wdf
 ms.assetid: 8ea6e373-225d-4fcd-abcf-c19b07f9f5d8
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/26/2018
 ms.keywords: "*PWDF_TRI_STATE, DFGenObjectRef_83855649-9d84-4f8c-9685-5e5321209b4d.xml, PWDF_TRI_STATE, PWDF_TRI_STATE enumeration pointer, WDF_TRI_STATE, WDF_TRI_STATE enumeration, WdfFalse, WdfTrue, WdfUseDefault, _WDF_TRI_STATE, kmdf.wdf_tri_state, wdf.wdf_tri_state, wdftypes/PWDF_TRI_STATE, wdftypes/WDF_TRI_STATE, wdftypes/WdfFalse, wdftypes/WdfTrue, wdftypes/WdfUseDefault, wudfddi_types/PWDF_TRI_STATE, wudfddi_types/WDF_TRI_STATE, wudfddi_types/WdfFalse, wudfddi_types/WdfTrue, wudfddi_types/WdfUseDefault"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	wudfddi_types.h
 api_name:
 -	WDF_TRI_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_TRI_STATE, *PWDF_TRI_STATE
 req.product: Windows 10 or later.
@@ -54,18 +55,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The WDF_TRI_STATE enumeration type defines three values that the framework uses for some structure members and function parameters.
-
-
-## -syntax
-
-
-````
-typedef enum _WDF_TRI_STATE { 
-  WdfFalse       = FALSE,
-  WdfTrue        = TRUE,
-  WdfUseDefault  = 2
-} WDF_TRI_STATE, *PWDF_TRI_STATE;
-````
 
 
 ## -enum-fields

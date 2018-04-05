@@ -7,7 +7,7 @@ old-location: storage\storportetwevent8.htm
 old-project: storage
 ms.assetid: FC0E8267-5AA6-47D6-9F98-B6B19CA3F260
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: STORPORT_ETW_EVENT_KEYWORD_ENUMERATION, STORPORT_ETW_EVENT_KEYWORD_IO, STORPORT_ETW_EVENT_KEYWORD_PERFORMANCE, STORPORT_ETW_EVENT_KEYWORD_POWER, StorPortEtwEvent8, StorPortEtwEvent8 routine [Storage Devices], StorportEtwEventOpcodeDC_Start, StorportEtwEventOpcodeDC_Stop, StorportEtwEventOpcodeExtension, StorportEtwEventOpcodeInfo, StorportEtwEventOpcodeReceive, StorportEtwEventOpcodeReply, StorportEtwEventOpcodeResume, StorportEtwEventOpcodeStart, StorportEtwEventOpcodeStop, StorportEtwEventOpcodeSuspend, StorportEtwLevelCritical, StorportEtwLevelError, StorportEtwLevelInformational, StorportEtwLevelLogAlways, StorportEtwLevelVerbose, StorportEtwLevelWarning, storage.storportetwevent8, storport/StorPortEtwEvent8
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	storport.h
 api_name:
 -	StorPortEtwEvent8
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STOR_SPINLOCK
 req.product: Windows 10 or later.
@@ -51,39 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>StorPortEtwEvent8</b> publishes an Event Tracing for Windows (ETW) event to a storage trace channel. The miniport can log eight general purpose ETW parameters. The ETW parameters are  expressed as eight name-value pairs.
-
-
-## -syntax
-
-
-````
-ULONG StorPortEtwEvent8(
-  _In_     PVOID                     HwDeviceExtension,
-  _In_opt_ PSTOR_ADDRESS             Address,
-  _In_     ULONG                     EventId,
-  _In_     PWSTR                     EventDescription,
-  _In_     ULONGLONG                 EventKeywords,
-  _In_     STORPORT_ETW_LEVEL        EventLevel,
-  _In_     STORPORT_ETW_EVENT_OPCODE EventOpcode,
-  _In_opt_ PSCSI_REQUEST_BLOCK       Srb,
-  _In_opt_ PWSTR                     Parameter1Name,
-  _In_     ULONGLONG                 Parameter1Value,
-  _In_opt_ PWSTR                     Parameter2Name,
-  _In_     ULONGLONG                 Parameter2Value,
-  _In_opt_ PWSTR                     Parameter3Name,
-  _In_     ULONGLONG                 Parameter3Value,
-  _In_opt_ PWSTR                     Parameter4Name,
-  _In_     ULONGLONG                 Parameter4Value,
-  _In_opt_ PWSTR                     Parameter5Name,
-  _In_     ULONGLONG                 Parameter5Value,
-  _In_opt_ PWSTR                     Parameter6Name,
-  _In_     ULONGLONG                 Parameter6Value,
-  _In_opt_ PWSTR                     Parameter7Name,
-  _In_     ULONGLONG                 Parameter7Value,
-  _In_opt_ PWSTR                     Parameter8Name,
-  _In_     ULONGLONG                 Parameter8Value
-);
-````
 
 
 ## -parameters
@@ -510,17 +478,15 @@ Events generated from StorPort miniport drivers are published to the "Microsoft-
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportetwevent4.md">StorPortEtwEvent4</a>
 
 
 
-<a href="..\storport\nf-storport-storportetwevent2.md">StorPortEtwEvent2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn582028">StorPortEtwEvent2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn582029">StorPortEtwEvent4</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20StorPortEtwEvent8 routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

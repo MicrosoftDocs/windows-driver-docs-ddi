@@ -7,7 +7,7 @@ old-location: buses\usb_pipe_info.htm
 old-project: usbref
 ms.assetid: 9da16cd4-bd5f-4713-83ce-4302f6807476
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PUSB_PIPE_INFO, PUSB_PIPE_INFO, PUSB_PIPE_INFO structure pointer [Buses], USB_PIPE_INFO, USB_PIPE_INFO structure [Buses], _USB_PIPE_INFO, buses.usb_pipe_info, usbioctl/PUSB_PIPE_INFO, usbioctl/USB_PIPE_INFO, usbstrct_bba47504-f840-483c-9cf8-49a7ade717d3.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	usbioctl.h
 api_name:
 -	USB_PIPE_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USB_PIPE_INFO, *PUSB_PIPE_INFO
 req.product: Windows 10 or later.
@@ -50,18 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>USB_PIPE_INFO</b> structure is used in conjunction with the <a href="..\usbioctl\ns-usbioctl-_usb_node_connection_information_ex.md">USB_NODE_CONNECTION_INFORMATION_EX</a> structure and the <a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_node_connection_information_ex.md">IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX</a> request to obtain information about a connection and its associated pipes.
-
-
-## -syntax
-
-
-````
-typedef struct _USB_PIPE_INFO {
-  USB_ENDPOINT_DESCRIPTOR EndpointDescriptor;
-  ULONG                   ScheduleOffset;
-} USB_PIPE_INFO, *PUSB_PIPE_INFO;
-````
+The <b>USB_PIPE_INFO</b> structure is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540094">USB_NODE_CONNECTION_INFORMATION_EX</a> structure and the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537321">IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX</a> request to obtain information about a connection and its associated pipes.
 
 
 ## -struct-fields
@@ -71,7 +61,7 @@ typedef struct _USB_PIPE_INFO {
 
 ### -field EndpointDescriptor
 
-Describes the endpoint descriptor. For more information about the endpoint descriptor, see <a href="..\usbspec\ns-usbspec-_usb_endpoint_descriptor.md">USB_ENDPOINT_DESCRIPTOR</a>.
+Describes the endpoint descriptor. For more information about the endpoint descriptor, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff539317">USB_ENDPOINT_DESCRIPTOR</a>.
 
 
 ### -field ScheduleOffset
@@ -158,11 +148,10 @@ The USB specification labels isochronous and interrupt transfers as "periodic," 
 
 ## -see-also
 
-<a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_node_connection_information_ex.md">IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX</a>
 
 
 
-<a href="..\usbspec\ns-usbspec-_usb_endpoint_descriptor.md">USB_ENDPOINT_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537321">IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX</a>
 
 
 
@@ -170,9 +159,8 @@ The USB specification labels isochronous and interrupt transfers as "periodic," 
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539317">USB_ENDPOINT_DESCRIPTOR</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USB_PIPE_INFO structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

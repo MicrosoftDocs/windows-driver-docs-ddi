@@ -7,7 +7,7 @@ old-location: netvista\fwpmbfestateget0.htm
 old-project: netvista
 ms.assetid: f165c5a0-6f8e-495f-90b9-62d0d8982456
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: FwpmBfeStateGet0, FwpmBfeStateGet0 function [Network Drivers Starting with Windows Vista], fwpmk/FwpmBfeStateGet0, netvista.fwpmbfestateget0, wfp_ref_2_funct_2_fwpm_6f70e48b-0c6c-465e-95c3-fa41413398db.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Fwpkclnt.dll
 api_name:
 -	FwpmBfeStateGet0
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: INSTANCE_PARTIAL_INFORMATION, PINSTANCE_PARTIAL_INFORMATION
 ---
@@ -53,14 +54,6 @@ req.typenames: INSTANCE_PARTIAL_INFORMATION, PINSTANCE_PARTIAL_INFORMATION
 The 
   <b>FwpmBfeStateGet0</b> function retrieves the current state of the filter engine.
 <div class="alert"><b>Note</b>  <b>FwpmBfeStateGet0</b> is a specific version of <b>FwpmBfeStateGet</b>. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
-
-## -syntax
-
-
-````
-FWPM_SERVICE_STATE NTAPI FwpmBfeStateGet0(void);
-````
-
 
 ## -parameters
 
@@ -140,7 +133,7 @@ A callout driver calls the
     to open a session to the filter engine, the filter engine must  be currently running.
 
 Before calling <b>FwpmBfeStateGet0</b>, the callout driver  must call the 
-    <a href="..\fwpmk\nf-fwpmk-fwpmbfestatesubscribechanges0.md">FwpmBfeStateSubscribeChanges0</a> function to register a callback function that is called whenever the
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff550062">FwpmBfeStateSubscribeChanges0</a> function to register a callback function that is called whenever the
     state of the filter engine changes.
 
 
@@ -148,14 +141,12 @@ Before calling <b>FwpmBfeStateGet0</b>, the callout driver  must call the
 
 ## -see-also
 
-<a href="..\fwpmk\nf-fwpmk-fwpmbfestatesubscribechanges0.md">
+
+
+
+<a href="https://msdn.microsoft.com/375af8a1-9e05-4830-9074-6313b4e082d9">
    FwpmBfeStateSubscribeChanges0</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FwpmBfeStateGet0 function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

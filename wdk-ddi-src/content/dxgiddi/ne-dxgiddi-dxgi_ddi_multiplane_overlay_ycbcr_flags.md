@@ -7,7 +7,7 @@ old-location: display\dxgi_ddi_multiplane_overlay_ycbcr_flags.htm
 old-project: display
 ms.assetid: fa915ec0-167f-441c-b2de-0ae2b852c432
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS, DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS enumeration [Display Devices], DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAG_BT709, DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAG_NOMINAL_RANGE, DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAG_xvYCC, display.dxgi_ddi_multiplane_overlay_ycbcr_flags, dxgiddi/DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS, dxgiddi/DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAG_BT709, dxgiddi/DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAG_NOMINAL_RANGE, dxgiddi/DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAG_xvYCC
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Dxgiddi.h
 api_name:
 -	DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS
 ---
@@ -50,18 +51,6 @@ req.typenames: DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS
 
 
 Identifies YUV range and conversion info that describes a multiplane overlay.
-
-
-## -syntax
-
-
-````
-typedef enum DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS { 
-  DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAG_NOMINAL_RANGE  = 0x1,
-  DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAG_BT709          = 0x2,
-  DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAG_xvYCC          = 0x4
-} DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS;
-````
 
 
 ## -enum-fields

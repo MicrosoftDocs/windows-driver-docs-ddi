@@ -38,7 +38,8 @@ api_location:
 -	bdamedia.h
 api_name:
 -	BDA_LockType
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BDA_LockType
 ---
@@ -50,19 +51,6 @@ req.typenames: BDA_LockType
 
 
 The BDA_LockType enumerated type contains values that specify lock types for a signal. 
-
-
-## -syntax
-
-
-````
-typedef enum _BdaLockType { 
-  Bda_LockType_None          = 0x00,
-  Bda_LockType_PLL           = 0x01,
-  Bda_LockType_DecoderDemod  = 0x02,
-  Bda_LockType_Complete      = 0x80
-} BDA_LockType;
-````
 
 
 ## -enum-fields
@@ -92,17 +80,15 @@ To be supplied.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564369">KSPROPERTY_BDA_SIGNAL_LOCK_CAPS</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564370">KSPROPERTY_BDA_SIGNAL_LOCK_TYPE</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20BDA_LockType enumeration%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

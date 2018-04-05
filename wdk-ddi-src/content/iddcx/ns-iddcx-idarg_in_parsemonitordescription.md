@@ -7,7 +7,7 @@ old-location: display\idarg_in_parsemonitordescription.htm
 old-project: display
 ms.assetid: dc3c55e3-ddbe-4f06-b9fb-55696dc07502
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: IDARG_IN_PARSEMONITORDESCRIPTION, IDARG_IN_PARSEMONITORDESCRIPTION structure [Display Devices], display.idarg_in_parsemonitordescription, iddcx/IDARG_IN_PARSEMONITORDESCRIPTION
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	iddcx.h
 api_name:
 -	IDARG_IN_PARSEMONITORDESCRIPTION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -52,18 +53,6 @@ req.typenames:
 
                  Gives information about the monitor description.
              
-
-
-## -syntax
-
-
-````
-typedef struct IDARG_IN_PARSEMONITORDESCRIPTION {
-  IDDCX_MONITOR_DESCRIPTION                                         MonitorDescription;
-  UINT                                                              MonitorModeBufferInputCount;
-  _Field_size_opt_(MonitorModeBufferInputCount) IDDCX_MONITOR_MODE* pMonitorModes;
-} IDARG_IN_PARSEMONITORDESCRIPTION, *IDARG_IN_PARSEMONITORDESCRIPTION;
-````
 
 
 ## -struct-fields
@@ -87,18 +76,16 @@ typedef struct IDARG_IN_PARSEMONITORDESCRIPTION {
 ### -field pMonitorModes
 
 
-                     [out] Pointer to buffer that the driver should copy the monitor modes to if the value is non-NULL. If value is NULL, then driver should not copy any data and should just set the  <a href="..\iddcx\ns-iddcx-idarg_out_parsemonitordescription.md">IDARG_OUT_PARSEMONITORDESCRIPTION</a> value <b>MonitorModeBufferOutputCount</b> to indicate the size of buffer required to store the modes.
+                     [out] Pointer to buffer that the driver should copy the monitor modes to if the value is non-NULL. If value is NULL, then driver should not copy any data and should just set the  <a href="https://msdn.microsoft.com/library/windows/hardware/mt761912">IDARG_OUT_PARSEMONITORDESCRIPTION</a> value <b>MonitorModeBufferOutputCount</b> to indicate the size of buffer required to store the modes.
 
 
 ## -see-also
 
-<a href="..\iddcx\ns-iddcx-idarg_out_parsemonitordescription.md">IDARG_OUT_PARSEMONITORDESCRIPTION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt761912">IDARG_OUT_PARSEMONITORDESCRIPTION</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20IDARG_IN_PARSEMONITORDESCRIPTION structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

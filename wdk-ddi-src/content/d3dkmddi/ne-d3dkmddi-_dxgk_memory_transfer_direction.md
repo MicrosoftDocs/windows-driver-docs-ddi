@@ -7,7 +7,7 @@ old-location: display\dxgk_memory_transfer_direction.htm
 old-project: display
 ms.assetid: A45411DF-AD08-4349-A134-091343E7989E
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: DXGK_MEMORY_TRANSFER_DIRECTION, DXGK_MEMORY_TRANSFER_DIRECTION enumeration [Display Devices], DXGK_MEMORY_TRANSFER_LOCAL_TO_LOCAL, DXGK_MEMORY_TRANSFER_LOCAL_TO_SYSTEM, DXGK_MEMORY_TRANSFER_SYSTEM_TO_LOCAL, _DXGK_MEMORY_TRANSFER_DIRECTION, d3dkmddi/DXGK_MEMORY_TRANSFER_DIRECTION, d3dkmddi/DXGK_MEMORY_TRANSFER_LOCAL_TO_LOCAL, d3dkmddi/DXGK_MEMORY_TRANSFER_LOCAL_TO_SYSTEM, d3dkmddi/DXGK_MEMORY_TRANSFER_SYSTEM_TO_LOCAL, display.dxgk_memory_transfer_direction
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGK_MEMORY_TRANSFER_DIRECTION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_MEMORY_TRANSFER_DIRECTION
 ---
@@ -52,18 +53,6 @@ req.typenames: DXGK_MEMORY_TRANSFER_DIRECTION
 <b>DXGK_MEMORY_TRANSFER_DIRECTION</b> is used as part of an allocation transfer operation to specify the direction of the transfer.
 
 
-
-
-## -syntax
-
-
-````
-typedef enum _DXGK_MEMORY_TRANSFER_DIRECTION { 
-  DXGK_MEMORY_TRANSFER_LOCAL_TO_SYSTEM  = 0,
-  DXGK_MEMORY_TRANSFER_SYSTEM_TO_LOCAL  = 1,
-  DXGK_MEMORY_TRANSFER_LOCAL_TO_LOCAL   = 2
-} DXGK_MEMORY_TRANSFER_DIRECTION;
-````
 
 
 ## -enum-fields

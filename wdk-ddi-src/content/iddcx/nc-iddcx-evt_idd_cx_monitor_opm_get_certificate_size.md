@@ -7,7 +7,7 @@ old-location: display\evt_idd_cx_monitor_opm_get_certificate_size.htm
 old-project: display
 ms.assetid: f5293625-19eb-4df9-9934-1e1990b7d608
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: EVT_IDD_CX_MONITOR_OPM_GET_CERTIFICATE_SIZE, EvtIddCxMonitorOpmGetCertificateSize, EvtIddCxMonitorOpmGetCertificateSize callback function [Display Devices], PFN_IDD_CX_MONITOR_OPM_GET_CERTIFICATE_SIZE, PFN_IDD_CX_MONITOR_OPM_GET_CERTIFICATE_SIZE callback function pointer [Display Devices], display.evt_idd_cx_monitor_opm_get_certificate_size, iddcx/EvtIddCxMonitorOpmGetCertificateSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	iddcx.h
 api_name:
 -	PFN_IDD_CX_MONITOR_OPM_GET_CERTIFICATE_SIZE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WCS_PROFILE_MANAGEMENT_SCOPE
 ---
@@ -50,23 +51,6 @@ req.typenames: WCS_PROFILE_MANAGEMENT_SCOPE
 
 
 <b>EVT_IDD_CX_MONITOR_OPM_GET_CERTIFICATE_SIZE</b> is called by the OS to get the size of an OPM certificate.
-
-
-## -prototype
-
-
-````
-EVT_IDD_CX_MONITOR_OPM_GET_CERTIFICATE_SIZE EvtIddCxMonitorOpmGetCertificateSize;
-
-NTSTATUS EvtIddCxMonitorOpmGetCertificateSize(
-  _In_        IDDCX_ADAPTER                       AdapterObject,
-  _In_  const IDARG_IN_OPM_GET_CERTIFICATE_SIZE*  pInArgs,
-  _Out_       IDARG_OUT_OPM_GET_CERTIFICATE_SIZE* pOutArgs
-)
-{ ... }
-
-typedef EVT_IDD_CX_MONITOR_OPM_GET_CERTIFICATE_SIZE PFN_IDD_CX_MONITOR_OPM_GET_CERTIFICATE_SIZE;
-````
 
 
 ## -parameters

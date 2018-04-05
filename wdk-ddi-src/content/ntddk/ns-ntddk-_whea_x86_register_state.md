@@ -38,7 +38,8 @@ api_location:
 -	ntddk.h
 api_name:
 -	WHEA_X86_REGISTER_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WHEA_X86_REGISTER_STATE, *PWHEA_X86_REGISTER_STATE
 ---
@@ -50,40 +51,6 @@ req.typenames: WHEA_X86_REGISTER_STATE, *PWHEA_X86_REGISTER_STATE
 
 
 The WHEA_X86_REGISTER_STATE structure describes the state of an x86 processor's registers.
-
-
-## -syntax
-
-
-````
-typedef struct _WHEA_X86_REGISTER_STATE {
-  ULONG     Eax;
-  ULONG     Ebx;
-  ULONG     Ecx;
-  ULONG     Edx;
-  ULONG     Esi;
-  ULONG     Edi;
-  ULONG     Ebp;
-  ULONG     Esp;
-  USHORT    Cs;
-  USHORT    Ds;
-  USHORT    Ss;
-  USHORT    Es;
-  USHORT    Fs;
-  USHORT    Gs;
-  ULONG     Eflags;
-  ULONG     Eip;
-  ULONG     Cr0;
-  ULONG     Cr1;
-  ULONG     Cr2;
-  ULONG     Cr3;
-  ULONG     Cr4;
-  ULONGLONG Gdtr;
-  ULONGLONG Idtr;
-  USHORT    Ldtr;
-  USHORT    Tr;
-} WHEA_X86_REGISTER_STATE, *PWHEA_X86_REGISTER_STATE;
-````
 
 
 ## -struct-fields
@@ -220,20 +187,18 @@ The task register.
 
 
 
-If the <b>RegisterContextType</b> member of a <a href="..\ntddk\ns-ntddk-_whea_xpf_context_info.md">WHEA_XPF_CONTEXT_INFO</a> structure is set to XPF_CONTEXT_INFO_32BITCONTEXT, the <b>RegisterData</b> member of that structure contains a WHEA_X86_REGISTER_STATE structure.
+If the <b>RegisterContextType</b> member of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff560647">WHEA_XPF_CONTEXT_INFO</a> structure is set to XPF_CONTEXT_INFO_32BITCONTEXT, the <b>RegisterData</b> member of that structure contains a WHEA_X86_REGISTER_STATE structure.
 
 
 
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_whea_xpf_context_info.md">WHEA_XPF_CONTEXT_INFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560647">WHEA_XPF_CONTEXT_INFO</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [whea\whea]:%20WHEA_X86_REGISTER_STATE structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

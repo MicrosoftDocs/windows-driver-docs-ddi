@@ -7,7 +7,7 @@ old-location: display\dxgk_start_info.htm
 old-project: display
 ms.assetid: 4d28bc79-5145-48a0-99e8-3f81b2ec4a05
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PDXGK_START_INFO, DXGK_START_INFO, DXGK_START_INFO structure [Display Devices], DmStructs_c2f6faad-cd05-43ea-ab58-b296bc130e09.xml, PDXGK_START_INFO, PDXGK_START_INFO structure pointer [Display Devices], _DXGK_START_INFO, display.dxgk_start_info, dispmprt/DXGK_START_INFO, dispmprt/PDXGK_START_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	dispmprt.h
 api_name:
 -	DXGK_START_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_START_INFO, *PDXGK_START_INFO
 ---
@@ -49,21 +50,7 @@ req.typenames: DXGK_START_INFO, *PDXGK_START_INFO
 ## -description
 
 
-The DXGK_START_INFO structure holds information that is needed by the display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a> function.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGK_START_INFO {
-  ULONG RequiredDmaQueueEntry;
-  GUID  AdapterGuid;
-#if (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WIN8)
-  LUID  AdapterLuid;
-#endif 
-} DXGK_START_INFO, *PDXGK_START_INFO;
-````
+The DXGK_START_INFO structure holds information that is needed by the display miniport driver's <a href="https://msdn.microsoft.com/ffacbb39-2581-4207-841d-28ce57fbc64d">DxgkDdiStartDevice</a> function.
 
 
 ## -struct-fields
@@ -92,9 +79,9 @@ A locally unique identifier (LUID) that will serve as an identifier for the adap
 
 
 
-The DirectX graphics kernel subsystem submits DMA buffers to the display miniport driver by calling <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_submitcommand.md">DxgkDdiSubmitCommand</a>.
+The DirectX graphics kernel subsystem submits DMA buffers to the display miniport driver by calling <a href="https://msdn.microsoft.com/de1925ab-e444-4cf6-acd9-8fdab26afcec">DxgkDdiSubmitCommand</a>.
 
-The <i>DxgkStartInfo</i> parameter of the <a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a> function is a pointer to a DXGK_START_INFO structure. 
+The <i>DxgkStartInfo</i> parameter of the <a href="https://msdn.microsoft.com/ffacbb39-2581-4207-841d-28ce57fbc64d">DxgkDdiStartDevice</a> function is a pointer to a DXGK_START_INFO structure. 
 
 
 

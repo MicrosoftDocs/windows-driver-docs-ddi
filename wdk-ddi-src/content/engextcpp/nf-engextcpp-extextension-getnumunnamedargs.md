@@ -7,8 +7,8 @@ old-location: debugger\getnumunnamedargs.htm
 old-project: debugger
 ms.assetid: dc3ea1ba-136b-4257-9aa2-ca9649555869
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: EngExtCpp_Ref_8ca2186f-dcda-422a-948f-ead63f451ff2.xml, GetNumUnnamedArgs method [Windows Debugging], GetNumUnnamedArgs, ExtExtension, GetNumUnnamedArgs method [Windows Debugging], ExtExtension class, ExtExtension::GetNumUnnamedArgs, debugger.getnumunnamedargs, ExtExtension class [Windows Debugging], GetNumUnnamedArgs method
+ms.date: 3/26/2018
+ms.keywords: EngExtCpp_Ref_8ca2186f-dcda-422a-948f-ead63f451ff2.xml, ExtExtension, ExtExtension class [Windows Debugging], GetNumUnnamedArgs method, ExtExtension::GetNumUnnamedArgs, GetNumUnnamedArgs method [Windows Debugging], GetNumUnnamedArgs method [Windows Debugging], ExtExtension class, GetNumUnnamedArgs,ExtExtension.GetNumUnnamedArgs, debugger.getnumunnamedargs
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -26,19 +26,20 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: engextcpp.hpp
+req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	engextcpp.hpp
-apiname:
+api_name:
 -	ExtExtension.GetNumUnnamedArgs
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 ---
@@ -52,15 +53,8 @@ req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 The <b>GetNumUnnamedArgs</b> method returns the number of unnamed arguments in the command line used to invoke the current extension command.
 
 
-## -syntax
-
-
-````
-ULONG GetNumUnnamedArgs();
-````
-
-
 ## -parameters
+
 
 
 
@@ -69,11 +63,14 @@ ULONG GetNumUnnamedArgs();
 ## -returns
 
 
+
 <b>GetNumUnnamedArgs</b> returns the number of unnamed arguments.
 
 
 
+
 ## -remarks
+
 
 
 The indices of the unnamed arguments returned by <b>GetNumUnnamedArgs</b> range from zero to the number of unnamed arguments minus one (unnamed args - 1).
@@ -81,5 +78,6 @@ The indices of the unnamed arguments returned by <b>GetNumUnnamedArgs</b> range 
 For an overview of argument parsing in the EngExtCpp extensions framework, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff553340">Parsing Extension Arguments</a>.
 
 This method should only be called during the execution of an extension command provided by this class.
+
 
 

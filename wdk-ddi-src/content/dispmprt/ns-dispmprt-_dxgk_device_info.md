@@ -7,7 +7,7 @@ old-location: display\dxgk_device_info.htm
 old-project: display
 ms.assetid: dcdae08f-69a6-496b-8391-d2b505fb86d9
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PDXGK_DEVICE_INFO, DXGK_DEVICE_INFO, DXGK_DEVICE_INFO structure [Display Devices], DmStructs_89344ee9-8c4e-4f7e-8950-11948c07bb8e.xml, PDXGK_DEVICE_INFO, PDXGK_DEVICE_INFO structure pointer [Display Devices], _DXGK_DEVICE_INFO, display.dxgk_device_info, dispmprt/DXGK_DEVICE_INFO, dispmprt/PDXGK_DEVICE_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	dispmprt.h
 api_name:
 -	DXGK_DEVICE_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_DEVICE_INFO, *PDXGK_DEVICE_INFO
 ---
@@ -50,24 +51,6 @@ req.typenames: DXGK_DEVICE_INFO, *PDXGK_DEVICE_INFO
 
 
 The DXGK_DEVICE_INFO structure holds information that describes a display adapter.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGK_DEVICE_INFO {
-  PVOID             MiniportDeviceContext;
-  PDEVICE_OBJECT    PhysicalDeviceObject;
-  UNICODE_STRING    DeviceRegistryPath;
-  PCM_RESOURCE_LIST TranslatedResourceList;
-  LARGE_INTEGER     SystemMemorySize;
-  PHYSICAL_ADDRESS  HighestPhysicalAddress;
-  PHYSICAL_ADDRESS  AgpApertureBase;
-  SIZE_T            AgpApertureSize;
-  DOCKING_STATE     DockingState;
-} DXGK_DEVICE_INFO, *PDXGK_DEVICE_INFO;
-````
 
 
 ## -struct-fields
@@ -92,7 +75,7 @@ A Unicode string that holds the registry path of the software key for the displa
 
 ### -field TranslatedResourceList
 
-A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_cm_resource_list.md">CM_RESOURCE_LIST</a> structure that holds the translated resources assigned to the display adapter.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541994">CM_RESOURCE_LIST</a> structure that holds the translated resources assigned to the display adapter.
 
 
 ### -field SystemMemorySize
@@ -124,28 +107,26 @@ The state of a portable computer that can be attached to a docking station.
 
 
 
-The display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a> function allocates a DXGK_DEVICE_INFO structure and calls <a href="..\dispmprt\nc-dispmprt-dxgkcb_get_device_information.md">DxgkCbGetDeviceInformation</a> to get that structure filled in with information about a display adapter. Five of the structure members (<b>Version</b>, <b>SystemMemorySize</b>, <b>HighestPhysicalAddress</b>, <b>AgpApertureBase</b>, and <b>AgpApertureSize</b>) hold general information and are not associated with a particular display adapter. Those members are included in the DXGK_DEVICE_INFO structure because they provide information that <i>DxgkDdiStartDevice</i> requires to initialize the driver and display adapter hardware.
+The display miniport driver's <a href="https://msdn.microsoft.com/ffacbb39-2581-4207-841d-28ce57fbc64d">DxgkDdiStartDevice</a> function allocates a DXGK_DEVICE_INFO structure and calls <a href="https://msdn.microsoft.com/cb627eab-93b9-49c5-bd35-4a57220366e7">DxgkCbGetDeviceInformation</a> to get that structure filled in with information about a display adapter. Five of the structure members (<b>Version</b>, <b>SystemMemorySize</b>, <b>HighestPhysicalAddress</b>, <b>AgpApertureBase</b>, and <b>AgpApertureSize</b>) hold general information and are not associated with a particular display adapter. Those members are included in the DXGK_DEVICE_INFO structure because they provide information that <i>DxgkDdiStartDevice</i> requires to initialize the driver and display adapter hardware.
 
 
 
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_cm_resource_list.md">CM_RESOURCE_LIST</a>
 
 
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541994">CM_RESOURCE_LIST</a>
 
 
 
-<a href="..\dispmprt\nc-dispmprt-dxgkcb_get_device_information.md">DxgkCbGetDeviceInformation</a>
+<a href="https://msdn.microsoft.com/cb627eab-93b9-49c5-bd35-4a57220366e7">DxgkCbGetDeviceInformation</a>
 
 
 
+<a href="https://msdn.microsoft.com/ffacbb39-2581-4207-841d-28ce57fbc64d">DxgkDdiStartDevice</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGK_DEVICE_INFO structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

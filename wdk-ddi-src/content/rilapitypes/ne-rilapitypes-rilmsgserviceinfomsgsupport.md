@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILMSGSERVICEINFOMSGSUPPORT
 title: RILMSGSERVICEINFOMSGSUPPORT
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilmsgserviceinfomsgsupport_2.htm
+old-location: netvista\rilmsgserviceinfomsgsupport.htm
 old-project: netvista
-ms.assetid: e9e1f353-4501-487d-ba2d-ee1572d93507
+ms.assetid: b09a5b1d-b8da-4a75-b2d5-ee07072d45aa
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: RILMSGSERVICEINFOMSGSUPPORT, RILMSGSERVICEINFOMSGSUPPORT enumeration [Network Drivers Starting with Windows Vista], RIL_MSI_SMS_BROADCAST, RIL_MSI_SMS_OUTGOING, netvista.rilmsgserviceinfomsgsupport_2, rilapitypes/RILMSGSERVICEINFOMSGSUPPORT, rilapitypes/RIL_MSI_SMS_BROADCAST, rilapitypes/RIL_MSI_SMS_OUTGOING
+ms.date: 3/26/2018
+ms.keywords: RILMSGSERVICEINFOMSGSUPPORT, RILMSGSERVICEINFOMSGSUPPORT enumeration [Network Drivers Starting with Windows Vista], RIL_MSI_SMS_BROADCAST, RIL_MSI_SMS_OUTGOING, netvista.rilmsgserviceinfomsgsupport, ntddrilapitypes/RILMSGSERVICEINFOMSGSUPPORT, ntddrilapitypes/RIL_MSI_SMS_BROADCAST, ntddrilapitypes/RIL_MSI_SMS_OUTGOING
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -35,10 +35,11 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILMSGSERVICEINFOMSGSUPPORT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILMSGSERVICEINFOMSGSUPPORT
 req.product: Windows 10 or later.
@@ -50,18 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-
-## -syntax
-
-
-````
-typedef enum _RILMSGSERVICEINFOMSGSUPPORT { 
-  RIL_MSI_SMS_OUTGOING,
-  RIL_MSI_SMS_BROADCAST
-} RILMSGSERVICEINFOMSGSUPPORT;
-````
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -enum-fields

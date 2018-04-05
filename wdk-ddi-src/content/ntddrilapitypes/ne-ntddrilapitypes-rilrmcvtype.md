@@ -7,13 +7,13 @@ old-location: netvista\rilrmcvtype.htm
 old-project: netvista
 ms.assetid: 007c6b45-0bec-4fcf-984a-675aa5336993
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: RILRMCVTYPE, RILRMCVTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_RMCV_TYPE_BOOLEAN, RIL_RMCV_TYPE_DWORD, RIL_RMCV_TYPE_STRING, netvista.rilrmcvtype, ntddrilapitypes/RILRMCVTYPE, ntddrilapitypes/RIL_RMCV_TYPE_BOOLEAN, ntddrilapitypes/RIL_RMCV_TYPE_DWORD, ntddrilapitypes/RIL_RMCV_TYPE_STRING
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: ntddrilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILRMCVTYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILRMCVTYPE
 ---
@@ -50,18 +51,6 @@ req.typenames: RILRMCVTYPE
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef enum _RILRMCVTYPE { 
-  RIL_RMCV_TYPE_BOOLEAN,
-  RIL_RMCV_TYPE_DWORD,
-  RIL_RMCV_TYPE_STRING
-} RILRMCVTYPE;
-````
 
 
 ## -enum-fields

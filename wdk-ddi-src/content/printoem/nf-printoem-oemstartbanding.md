@@ -7,7 +7,7 @@ old-location: print\oemstartbanding.htm
 old-project: print
 ms.assetid: dc9a1cf4-89d5-46d4-b914-1bc8368d3a42
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: OEMStartBanding, OEMStartBanding function [Print Devices], print.oemstartbanding, print_unidrv-pscript_rendering_6738c42a-92b2-4360-ae4c-a4b474948667.xml, printoem/OEMStartBanding
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	Printoem.h
 api_name:
 -	OEMStartBanding
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STDVARIABLEINDEX
 req.product: Windows 10 or later.
@@ -51,17 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <code>OEMStartBanding</code> function is called by GDI when it is ready to start sending bands of a physical page to the driver for rendering.
-
-
-## -syntax
-
-
-````
-BOOL APIENTRY OEMStartBanding(
-   SURFOBJ *pso,
-   POINTL  *pptl
-);
-````
 
 
 ## -parameters

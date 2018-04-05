@@ -7,7 +7,7 @@ old-location: debugger\evaluate.htm
 old-project: debugger
 ms.assetid: 67b17847-6ab3-4712-9ffc-94f8016e3c34
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/26/2018
 ms.keywords: Evaluate method [Windows Debugging], Evaluate method [Windows Debugging], IDebugControl interface, Evaluate method [Windows Debugging], IDebugControl2 interface, Evaluate method [Windows Debugging], IDebugControl3 interface, Evaluate,IDebugControl3.Evaluate, IDebugControl interface [Windows Debugging], Evaluate method, IDebugControl2 interface [Windows Debugging], Evaluate method, IDebugControl2::Evaluate, IDebugControl3, IDebugControl3 interface [Windows Debugging], Evaluate method, IDebugControl3::Evaluate, IDebugControl::Evaluate, IDebugControl_c985be86-1f8b-4b54-ae35-a7dec5980cec.xml, dbgeng/IDebugControl2::Evaluate, dbgeng/IDebugControl3::Evaluate, dbgeng/IDebugControl::Evaluate, debugger.evaluate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -40,7 +40,8 @@ api_name:
 -	IDebugControl.Evaluate
 -	IDebugControl2.Evaluate
 -	IDebugControl3.Evaluate
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -52,19 +53,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>Evaluate</b>  method evaluates an expression, returning the result.
-
-
-## -syntax
-
-
-````
-HRESULT Evaluate(
-  [in]            PCSTR        Expression,
-  [in]            ULONG        DesiredType,
-  [out]           PDEBUG_VALUE Value,
-  [out, optional] PULONG       RemainderIndex
-);
-````
 
 
 ## -parameters
@@ -79,7 +67,7 @@ Specifies the expression to be evaluated.
 
 ### -param DesiredType [in]
 
-Specifies the desired return type.  Possible values are described in <a href="..\dbgeng\ns-dbgeng-_debug_value.md">DEBUG_VALUE</a>; with the addition of DEBUG_VALUE_INVALID, which indicates that the return type should be the expression's natural type.
+Specifies the desired return type.  Possible values are described in <a href="https://msdn.microsoft.com/library/windows/hardware/ff541719">DEBUG_VALUE</a>; with the addition of DEBUG_VALUE_INVALID, which indicates that the return type should be the expression's natural type.
 
 
 ### -param Value [out]
@@ -146,7 +134,6 @@ If an error occurs while evaluating the expression, returning E_FAIL, the <i>Rem
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 
 
@@ -154,15 +141,15 @@ If an error occurs while evaluating the expression, returning E_FAIL, the <i>Rem
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550508">IDebugControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556697">SetExpressionSyntaxByName</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550512">IDebugControl2</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550519">IDebugControl3</a>
 
 
 
@@ -170,9 +157,8 @@ If an error occurs while evaluating the expression, returning E_FAIL, the <i>Rem
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556697">SetExpressionSyntaxByName</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::Evaluate method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: wdf\iwdfiorequest_impersonate.htm
 old-project: wdf
 ms.assetid: beb630e7-9667-4bc2-bf35-69db6cf0b104
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/26/2018
 ms.keywords: IWDFIoRequest, IWDFIoRequest interface, Impersonate method, IWDFIoRequest::Impersonate, Impersonate method, Impersonate method, IWDFIoRequest interface, Impersonate,IWDFIoRequest.Impersonate, UMDFRequestObjectRef_a5f40359-edc8-42e1-a63d-99390abeba86.xml, umdf.iwdfiorequest_impersonate, wdf.iwdfiorequest_impersonate, wudfddi/IWDFIoRequest::Impersonate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support: Unavailable in UMDF 2.0 and later.
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: wudfddi.h
+req.lib: 
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFIoRequest.Impersonate
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
@@ -55,18 +56,6 @@ req.product: Windows 10 or later.
 The <b>Impersonate</b> method registers the interface for the method that the framework should call for impersonation.
 
 
-## -syntax
-
-
-````
-HRESULT Impersonate(
-  [in]           SECURITY_IMPERSONATION_LEVEL ImpersonationLevel,
-  [in]           IImpersonateCallback         *pCallback,
-  [in, optional] void                         *pvCallbackContext
-);
-````
-
-
 ## -parameters
 
 
@@ -74,12 +63,12 @@ HRESULT Impersonate(
 
 ### -param ImpersonationLevel [in]
 
-A <a href="..\wudfddi\ne-wudfddi-_security_impersonation_level.md">SECURITY_IMPERSONATION_LEVEL</a>-typed value that identifies the level of impersonation.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff556631">SECURITY_IMPERSONATION_LEVEL</a>-typed value that identifies the level of impersonation.
 
 
 ### -param pCallback [in]
 
-A pointer to the <a href="..\wudfddi\nn-wudfddi-iimpersonatecallback.md">IImpersonateCallback</a> interface whose method the framework calls for impersonation.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554912">IImpersonateCallback</a> interface whose method the framework calls for impersonation.
 
 
 ### -param pvCallbackContext [in, optional]
@@ -107,11 +96,10 @@ For information about how UMDF and UMDF drivers handle impersonation, see <a hre
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iimpersonatecallback.md">IImpersonateCallback</a>
 
 
 
-<a href="..\wudfddi\ne-wudfddi-_security_impersonation_level.md">SECURITY_IMPERSONATION_LEVEL</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554912">IImpersonateCallback</a>
 
 
 
@@ -119,13 +107,12 @@ For information about how UMDF and UMDF drivers handle impersonation, see <a hre
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558985">IWDFIoRequest</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556631">SECURITY_IMPERSONATION_LEVEL</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFIoRequest::Impersonate method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

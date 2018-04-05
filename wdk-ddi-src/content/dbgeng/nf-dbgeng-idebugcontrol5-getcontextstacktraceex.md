@@ -7,7 +7,7 @@ old-location: debugger\idebugcontrol5_getcontextstacktraceex.htm
 old-project: debugger
 ms.assetid: 26B191ED-A38B-412D-93C3-E9A55216F91E
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/26/2018
 ms.keywords: GetContextStackTraceEx method [Windows Debugging], GetContextStackTraceEx method [Windows Debugging], IDebugControl5 interface, GetContextStackTraceEx,IDebugControl5.GetContextStackTraceEx, IDebugControl5, IDebugControl5 interface [Windows Debugging], GetContextStackTraceEx method, IDebugControl5::GetContextStackTraceEx, dbgeng/IDebugControl5::GetContextStackTraceEx, debugger.idebugcontrol5_getcontextstacktraceex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugControl5.GetContextStackTraceEx
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -50,23 +51,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The GetContextStackTraceEx method returns the frames at the top of the call stack, starting with an arbitrary <a href="https://msdn.microsoft.com/3690903c-4281-4c65-98b0-00ca22206168">register context</a> and returning the reconstructed register context for each stack frame. The GetContextStackTraceEx method provides inline frame support. For more information about working with inline functions, see <a href="https://msdn.microsoft.com/library/windows/hardware/hh406275">Debugging Optimized Code and Inline Functions</a>.
-
-
-## -syntax
-
-
-````
-HRESULT GetContextStackTraceEx(
-  [in, optional]  PVOID                 StartContext,
-  [in]            ULONG                 StartContextSize,
-  [out, optional] PDEBUG_STACK_FRAME_EX Frames,
-  [in]            ULONG                 FramesSize,
-  [out, optional] PVOID                 FrameContexts,
-  [in]            ULONG                 FrameContextsSize,
-  [in]            ULONG                 FrameContextsEntrySize,
-  [out, optional] PULONG                FramesFilled
-);
-````
 
 
 ## -parameters
@@ -155,7 +139,14 @@ It is common for stack unwinds to restore only a subset of the registers.  For e
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol5.md">IDebugControl5</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn818565">GetStackTraceEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn818562">IDebugControl5</a>
 
 
 
@@ -164,16 +155,7 @@ It is common for stack unwinds to restore only a subset of the registers.  For e
 
 
 <a href="https://msdn.microsoft.com/1061015f-cb0c-490b-b256-e0dedb659f22">k, kb, kc, kd, kp, kP, kv (Display Stack Backtrace)</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn818565">GetStackTraceEx</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl5::GetContextStackTraceEx method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

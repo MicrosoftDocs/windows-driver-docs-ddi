@@ -7,7 +7,7 @@ old-location: display\d3dddi_patchlocationlist.htm
 old-project: display
 ms.assetid: 88cdbf2d-4b66-47c1-97e1-e3b8377ac526
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDI_PATCHLOCATIONLIST, D3DDDI_PATCHLOCATIONLIST structure [Display Devices], D3D_other_Structs_30473342-0122-445f-81c0-9cf5c62c771e.xml, _D3DDDI_PATCHLOCATIONLIST, d3dukmdt/D3DDDI_PATCHLOCATIONLIST, display.d3dddi_patchlocationlist
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dukmdt.h
 api_name:
 -	D3DDDI_PATCHLOCATIONLIST
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDI_PATCHLOCATIONLIST
 ---
@@ -50,27 +51,6 @@ req.typenames: D3DDDI_PATCHLOCATIONLIST
 
 
 The D3DDDI_PATCHLOCATIONLIST structure describes the location of an allocation to patch (that is, assign a physical address to the allocation).
-
-
-## -syntax
-
-
-````
-typedef struct _D3DDDI_PATCHLOCATIONLIST {
-  UINT  AllocationIndex;
-  union {
-    struct {
-      UINT SlotId  :24;
-      UINT Reserved  :8;
-    };
-    UINT   Value;
-  };
-  UINT  DriverId;
-  UINT  AllocationOffset;
-  UINT  PatchOffset;
-  UINT  SplitOffset;
-} D3DDDI_PATCHLOCATIONLIST;
-````
 
 
 ## -struct-fields
@@ -124,29 +104,27 @@ Setting this member to zero is equivalent to setting the remaining 8 bits (0xFF0
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_render.md">D3DDDICB_RENDER</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rendercb.md">pfnRenderCb</a>
+<a href="https://msdn.microsoft.com/ce35bdac-af90-471f-af93-0e665be6c7f6">CreateDevice</a>
 
 
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_allocationlist.md">D3DDDI_ALLOCATIONLIST</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542931">D3DDDIARG_CREATEDEVICE</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createdevice.md">CreateDevice</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544241">D3DDDICB_RENDER</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createdevice.md">D3DDDIARG_CREATEDEVICE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544375">D3DDDI_ALLOCATIONLIST</a>
 
 
 
+<a href="https://msdn.microsoft.com/f242162e-6237-469c-b178-5a51dcf69e32">pfnRenderCb</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DDDI_PATCHLOCATIONLIST structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

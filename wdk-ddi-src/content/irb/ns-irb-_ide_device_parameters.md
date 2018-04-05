@@ -7,7 +7,7 @@ old-location: storage\ide_device_parameters.htm
 old-project: storage
 ms.assetid: e2b908ce-df40-4d64-b8fd-77da18b4f6bd
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PIDE_DEVICE_PARAMETERS, IDE_DEVICE_PARAMETERS, IDE_DEVICE_PARAMETERS structure [Storage Devices], PIDE_DEVICE_PARAMETERS, PIDE_DEVICE_PARAMETERS structure pointer [Storage Devices], _IDE_DEVICE_PARAMETERS, irb/IDE_DEVICE_PARAMETERS, irb/PIDE_DEVICE_PARAMETERS, storage.ide_device_parameters, structs-ATA_6cc8412c-2ce1-4261-91db-bc986a6836ff.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	irb.h
 api_name:
 -	IDE_DEVICE_PARAMETERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: IDE_DEVICE_PARAMETERS, *PIDE_DEVICE_PARAMETERS
 ---
@@ -51,37 +52,6 @@ req.typenames: IDE_DEVICE_PARAMETERS, *PIDE_DEVICE_PARAMETERS
 
 The IDE_DEVICE_PARAMETERS structure contains configuration information that the port driver provides to the miniport driver to configure a device.
 <div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
-
-## -syntax
-
-
-````
-typedef struct _IDE_DEVICE_PARAMETERS {
-  USHORT                  Version;
-  IDE_DEVICE_TYPE         IdeDeviceType;
-  UCHAR                   TargetId;
-  UCHAR                   MaximumLun;
-  UCHAR                   NumberOfOverlappedRequests;
-  UCHAR                   MaxBlockXfer;
-  USHORT                  DeviceCharacteristics;
-  ATA_ADDRESS_TRANSLATION AddressTranslation;
-  union {
-    LARGE_INTEGER MaxLba;
-    struct {
-      USHORT NumCylinders;
-      USHORT NumHeads;
-      USHORT NumSectorsPerTrack;
-      USHORT Reserved;
-    } Chs;
-  };
-  ULONG                   BytesPerLogicalSector;
-  ULONG                   BytesPerPhysicalSector;
-  ULONG                   BytesOffsetForSectorAlignment;
-  ULONG                   TransferModeSupported;
-  ULONG                   TransferModeSelected;
-} IDE_DEVICE_PARAMETERS, *PIDE_DEVICE_PARAMETERS;
-````
-
 
 ## -struct-fields
 
@@ -183,7 +153,7 @@ Indicates that the device supports Media Status Notification.
 
 ### -field AddressTranslation
 
-Contains an enumeration value of type <a href="..\irb\ne-irb-ata_address_translation.md">ATA_ADDRESS_TRANSLATION</a> that specifies the sort of address translation used during data transfers.
+Contains an enumeration value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff550290">ATA_ADDRESS_TRANSLATION</a> that specifies the sort of address translation used during data transfers.
 
 
 ### -field Chs
@@ -252,21 +222,19 @@ The port driver passes a IDE_DEVICE_PARAMETERS structure to the miniport driver 
 
 ## -see-also
 
-<a href="..\irb\ne-irb-ide_device_type.md">IDE_DEVICE_TYPE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550290">ATA_ADDRESS_TRANSLATION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559096">IDE_DEVICE_TYPE</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557467">IdeHwInitialize</a>
-
-
-
-<a href="..\irb\ne-irb-ata_address_translation.md">ATA_ADDRESS_TRANSLATION</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20IDE_DEVICE_PARAMETERS structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

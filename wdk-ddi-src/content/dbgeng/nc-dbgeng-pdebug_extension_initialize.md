@@ -7,7 +7,7 @@ old-location: debugger\debugextensioninitialize.htm
 old-project: debugger
 ms.assetid: 2e68fa38-55fc-4538-ae97-ed943d5381be
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/26/2018
 ms.keywords: DebugExtensionInitialize, DebugExtensionInitialize callback function [Windows Debugging], Extensions_Ref_e260c42c-8299-4578-8919-3b2167701275.xml, PDEBUG_EXTENSION_INITIALIZE, dbgeng/DebugExtensionInitialize, debugger.debugextensioninitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	dbgeng.h
 api_name:
 -	DebugExtensionInitialize
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -60,14 +61,6 @@ The <b>DebugExtensionInitialize</b> callback function is called by the engine af
 </td>
 </tr>
 </table></span></div>
-
-## -prototype
-
-
-````
- CALLBACK* PDEBUG_EXTENSION_INITIALIZE DebugExtensionInitialize;
-````
-
 
 ## -parameters
 
@@ -141,21 +134,19 @@ There may or may not be a session active when this function is called, so the ex
 
 ## -see-also
 
-<a href="..\dbgeng\nc-dbgeng-pdebug_extension_uninitialize.md">DebugExtensionUninitialize</a>
 
 
 
-<a href="..\dbgeng\nc-dbgeng-pdebug_extension_known_struct.md">KnownStructOutput</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540478">DebugExtensionNotify</a>
 
 
 
-<a href="..\dbgeng\nc-dbgeng-pdebug_extension_notify.md">DebugExtensionNotify</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540495">DebugExtensionUninitialize</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551934">KnownStructOutput</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20PDEBUG_EXTENSION_INITIALIZE callback function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

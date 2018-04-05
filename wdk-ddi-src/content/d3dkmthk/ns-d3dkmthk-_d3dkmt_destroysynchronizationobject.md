@@ -7,7 +7,7 @@ old-location: display\d3dkmt_destroysynchronizationobject.htm
 old-project: display
 ms.assetid: d6be16da-7f92-4c10-af8b-7ecd05ef6856
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMT_DESTROYSYNCHRONIZATIONOBJECT, D3DKMT_DESTROYSYNCHRONIZATIONOBJECT structure [Display Devices], OpenGL_Structs_ca88b27b-fcac-41f6-bf16-9f26507f4e3f.xml, _D3DKMT_DESTROYSYNCHRONIZATIONOBJECT, d3dkmthk/D3DKMT_DESTROYSYNCHRONIZATIONOBJECT, display.d3dkmt_destroysynchronizationobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmthk.h
 api_name:
 -	D3DKMT_DESTROYSYNCHRONIZATIONOBJECT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_DESTROYSYNCHRONIZATIONOBJECT
 ---
@@ -52,16 +53,6 @@ req.typenames: D3DKMT_DESTROYSYNCHRONIZATIONOBJECT
 The D3DKMT_DESTROYSYNCHRONIZATIONOBJECT structure contains the handle to a synchronization object to destroy.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_DESTROYSYNCHRONIZATIONOBJECT {
-  D3DKMT_HANDLE hSyncObject;
-} D3DKMT_DESTROYSYNCHRONIZATIONOBJECT;
-````
-
-
 ## -struct-fields
 
 
@@ -69,22 +60,20 @@ typedef struct _D3DKMT_DESTROYSYNCHRONIZATIONOBJECT {
 
 ### -field hSyncObject
 
-[in] A D3DKMT_HANDLE data type that represents the kernel-mode handle that the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreatesynchronizationobject.md">D3DKMTCreateSynchronizationObject</a> function returns and that identifies the kernel-mode synchronization object to destroy. 
+[in] A D3DKMT_HANDLE data type that represents the kernel-mode handle that the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546869">D3DKMTCreateSynchronizationObject</a> function returns and that identifies the kernel-mode synchronization object to destroy. 
 
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtdestroysynchronizationobject.md">D3DKMTDestroySynchronizationObject</a>
 
 
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreatesynchronizationobject.md">D3DKMTCreateSynchronizationObject</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546869">D3DKMTCreateSynchronizationObject</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546935">D3DKMTDestroySynchronizationObject</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMT_DESTROYSYNCHRONIZATIONOBJECT structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

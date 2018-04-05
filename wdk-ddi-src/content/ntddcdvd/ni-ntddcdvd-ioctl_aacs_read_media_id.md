@@ -7,7 +7,7 @@ old-location: storage\ioctl_aacs_read_media_id.htm
 old-project: storage
 ms.assetid: e56f6af5-0391-4044-b6b3-efb27b511db6
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_AACS_READ_MEDIA_ID, IOCTL_AACS_READ_MEDIA_ID control code [Storage Devices], k307_1f0ffe88-e59a-44e5-bec0-247d38478be8.xml, ntddcdvd/IOCTL_AACS_READ_MEDIA_ID, storage.ioctl_aacs_read_media_id
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,18 +38,14 @@ api_location:
 -	Ntddcdvd.h
 api_name:
 -	IOCTL_AACS_READ_MEDIA_ID
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DVD_STRUCTURE_FORMAT, *PDVD_STRUCTURE_FORMAT
 ---
 
 # IOCTL_AACS_READ_MEDIA_ID IOCTL
 
-
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -74,12 +70,12 @@ Length of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff55374
 
 ### -output-buffer
 
-The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains the value of type <a href="..\ntddcdvd\ns-ntddcdvd-_aacs_media_id.md">AACS_MEDIA_ID</a> that specifies the media ID.
+The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains the value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff550110">AACS_MEDIA_ID</a> that specifies the media ID.
 
 
 ### -output-buffer-length
 
-Length of a <a href="..\ntddcdvd\ns-ntddcdvd-_aacs_media_id.md">AACS_MEDIA_ID</a>.
+Length of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff550110">AACS_MEDIA_ID</a>.
 
 
 ### -in-out-buffer

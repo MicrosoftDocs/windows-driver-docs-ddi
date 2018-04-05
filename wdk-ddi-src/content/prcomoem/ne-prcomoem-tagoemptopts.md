@@ -7,7 +7,7 @@ old-location: print\oemptopts.htm
 old-project: print
 ms.assetid: A63C115D-7215-422A-B4F9-C88820FC8168
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: "*POEMPTOPTS, OEMPTOPTS, OEMPTOPTS enumeration [Print Devices], OEMPT_DEFAULT, OEMPT_NOSHAPSHOT, POEMPTOPTS, POEMPTOPTS enumeration pointer [Print Devices], prcomoem/OEMPTOPTS, prcomoem/OEMPT_DEFAULT, prcomoem/OEMPT_NOSHAPSHOT, prcomoem/POEMPTOPTS, print.oemptopts, tagOEMPTOPTS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Prcomoem.h
 api_name:
 -	OEMPTOPTS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
@@ -51,17 +52,6 @@ req.product: Windows 10 or later.
 
 
 
-
-
-## -syntax
-
-
-````
-typedef enum tagOEMPTOPTS { 
-  OEMPT_DEFAULT     = 0,
-  OEMPT_NOSHAPSHOT  = 0x1
-} OEMPTOPTS, *POEMPTOPTS;
-````
 
 
 ## -enum-fields

@@ -7,7 +7,7 @@ old-location: image\minidrv_transfer_context.htm
 old-project: image
 ms.assetid: 26583873-4f84-4254-86c1-2063df85000c
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/27/2018
 ms.keywords: "*PMINIDRV_TRANSFER_CONTEXT, MINIDRV_TRANSFER_CONTEXT, MINIDRV_TRANSFER_CONTEXT structure [Imaging Devices], PMINIDRV_TRANSFER_CONTEXT, PMINIDRV_TRANSFER_CONTEXT structure pointer [Imaging Devices], _MINIDRV_TRANSFER_CONTEXT, image.minidrv_transfer_context, wiamindr_lh/MINIDRV_TRANSFER_CONTEXT, wiamindr_lh/PMINIDRV_TRANSFER_CONTEXT, wiastrct_36e477d2-73a8-41b7-af46-82fb7c6f0bca.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	wiamindr_lh.h
 api_name:
 -	MINIDRV_TRANSFER_CONTEXT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MINIDRV_TRANSFER_CONTEXT, *PMINIDRV_TRANSFER_CONTEXT
 req.product: Windows 10 or later.
@@ -51,42 +52,6 @@ req.product: Windows 10 or later.
 
 
 The MINIDRV_TRANSFER_CONTEXT structure is used to store image and other information needed for a memory-callback data transfer or a file data transfer.
-
-
-## -syntax
-
-
-````
-typedef struct _MINIDRV_TRANSFER_CONTEXT {
-  LONG                lSize;
-  LONG                lWidthInPixels;
-  LONG                lLines;
-  LONG                lDepth;
-  LONG                lXRes;
-  LONG                lYRes;
-  LONG                lCompression;
-  GUID                guidFormatID;
-  LONG                tymed;
-  LONG_PTR            hFile;
-  LONG                cbOffset;
-  LONG                lBufferSize;
-  LONG                lActiveBuffer;
-  LONG                lNumBuffers;
-  BYTE                *pBaseBuffer;
-  BYTE                *pTransferBuffer;
-  BOOL                bTransferDataCB;
-  BOOL                bClassDrvAllocBuf;
-  LONG_PTR            lClientAddress;
-  IWiaMiniDrvCallBack *pIWiaMiniDrvCallBack;
-  LONG                lImageSize;
-  LONG                lHeaderSize;
-  LONG                lItemSize;
-  LONG                cbWidthInBytes;
-  LONG                lPage;
-  LONG                lCurIfdOffset;
-  LONG                lPrevIfdOffset;
-} MINIDRV_TRANSFER_CONTEXT, *PMINIDRV_TRANSFER_CONTEXT;
-````
 
 
 ## -struct-fields
@@ -195,7 +160,7 @@ Specifies the address, in the client's address space, of the transfer. The minid
 
 ### -field pIWiaMiniDrvCallBack
 
-Points to an <a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrvcallback.md">IWiaMiniDrvCallBack Interface</a> used for data or status callback transfer.
+Points to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff543943">IWiaMiniDrvCallBack Interface</a> used for data or status callback transfer.
 
 
 ### -field lImageSize
@@ -237,11 +202,11 @@ Specifies the image file directory (IFD) offset in the previous page of a multip
 
 
 
-The WIA service sets most of the members of this structure before it calls the minidriver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff543956">IWiaMiniDrv::drvAcquireItemData</a> method. If the minidriver calls <a href="..\wiamdef\nf-wiamdef-wiasgetimageinformation.md">wiasGetImageInformation</a>, then that function fills in the remaining members of the MINIDRV_TRANSFER_CONTEXT passed to it.
+The WIA service sets most of the members of this structure before it calls the minidriver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff543956">IWiaMiniDrv::drvAcquireItemData</a> method. If the minidriver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff549249">wiasGetImageInformation</a>, then that function fills in the remaining members of the MINIDRV_TRANSFER_CONTEXT passed to it.
 
 Because the WIA service currently uses only the TYMED_FILE and TYMED_CALLBACK constants, the <b>tymed</b> and <b>bTransferDataCB</b> members store essentially the same information. For file transfers, when <b>bTransferDataCB</b> is set to <b>FALSE</b>, <b>tymed</b> is set to either TYMED_FILE or TYMED_MULTIPAGE_FILE. For memory-callback transfers, when <b>bTransferDataCB</b> is set to <b>TRUE</b>, <b>tymed</b> is set to either TYMED_CALLBACK or TYMED_MULTIPAGE_CALLBACK.
 
-The <b>hFile</b> member is reserved for use solely by the WIA service. Rather than using this member for file transfers, the minidriver should instead write the data to a buffer, and then call <a href="..\wiamdef\nf-wiamdef-wiaswritepagebuftofile.md">wiasWritePageBufToFile</a> to complete the file transfer.
+The <b>hFile</b> member is reserved for use solely by the WIA service. Rather than using this member for file transfers, the minidriver should instead write the data to a buffer, and then call <a href="https://msdn.microsoft.com/library/windows/hardware/ff549484">wiasWritePageBufToFile</a> to complete the file transfer.
 
 The minidriver obtains values from specific common or scanner item properties to set the members shown in the following table:
 
@@ -370,7 +335,7 @@ The WIA service sets the following structure members:
 
 </li>
 </ul>
-Either the minidriver or the <a href="..\wiamdef\nf-wiamdef-wiasgetimageinformation.md">wiasGetImageInformation</a> service library function sets the following structure members:
+Either the minidriver or the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549249">wiasGetImageInformation</a> service library function sets the following structure members:
 
 <ul>
 <li>
@@ -497,6 +462,9 @@ WIA service
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543956">IWiaMiniDrv::drvAcquireItemData</a>
 
 
@@ -505,17 +473,12 @@ WIA service
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiasgetimageinformation.md">wiasGetImageInformation</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549249">wiasGetImageInformation</a>
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiaswritepagebuftofile.md">wiasWritePageBufToFile</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549484">wiasWritePageBufToFile</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20MINIDRV_TRANSFER_CONTEXT structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

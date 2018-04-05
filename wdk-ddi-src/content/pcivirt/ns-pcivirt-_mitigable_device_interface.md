@@ -38,7 +38,8 @@ api_location:
 -	Pcivirt.h
 api_name:
 -	MITIGABLE_DEVICE_INTERFACE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MITIGABLE_DEVICE_INTERFACE, *PMITIGABLE_DEVICE_INTERFACE
 ---

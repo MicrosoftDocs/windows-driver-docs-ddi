@@ -38,7 +38,8 @@ api_location:
 -	bthddi.h
 api_name:
 -	BthFreeBrb
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
 ---
@@ -52,19 +53,6 @@ req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
 The 
   <i>BthFreeBrb</i> function frees a Bluetooth request block (BRB) that was allocated previously with 
   <i>BthAllocateBrb</i>.
-
-
-## -prototype
-
-
-````
-PFNBTH_FREE_BRB BthFreeBrb;
-
-VOID BthFreeBrb(
-  _In_ PBRB pBrb
-)
-{ ... }
-````
 
 
 ## -parameters

@@ -7,7 +7,7 @@ old-location: display\d3dkmtcreatebundleobject.htm
 old-project: display
 ms.assetid: c4d62ccf-606b-457e-a239-1b5189e42657
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMTCreateBundleObject, D3DKMTCreateBundleObject method [Display Devices], d3dkmthk/D3DKMTCreateBundleObject, display.d3dkmtcreatebundleobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmthk.h
 api_name:
 -	D3DKMTCreateBundleObject
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_DRIVERVERSION
 ---
@@ -54,19 +55,14 @@ req.typenames: D3DKMT_DRIVERVERSION
             Used to create a bundle object.
 
 
-## -syntax
-
-
-````
-NTSTATUS  D3DKMTCreateBundleObject(
-  _Inout_ D3DKMT_CREATEBUNDLEOBJECT  *D3dkmt_createbundleobject
-);
-````
-
-
 ## -parameters
 
 
+
+
+### -param Arg1
+
+TBD
 
 
 

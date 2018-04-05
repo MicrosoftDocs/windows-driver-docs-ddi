@@ -7,7 +7,7 @@ old-location: debugger\fa_extension_plugin_phase.htm
 old-project: debugger
 ms.assetid: 67BDC6F7-4099-4AE9-931A-302FDBE1B05C
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/26/2018
 ms.keywords: FA_EXTENSION_PLUGIN_PHASE, FA_EXTENSION_PLUGIN_PHASE enumeration [Windows Debugging], FA_PLUGIN_INITILIZATION, FA_PLUGIN_POST_BUCKETING, FA_PLUGIN_PRE_BUCKETING, FA_PLUGIN_STACK_ANALYSIS, _FA_EXTENSION_PLUGIN_PHASE, debugger.fa_extension_plugin_phase, extsfns/FA_EXTENSION_PLUGIN_PHASE, extsfns/FA_PLUGIN_INITILIZATION, extsfns/FA_PLUGIN_POST_BUCKETING, extsfns/FA_PLUGIN_PRE_BUCKETING, extsfns/FA_PLUGIN_STACK_ANALYSIS
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	extsfns.h
 api_name:
 -	FA_EXTENSION_PLUGIN_PHASE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FA_EXTENSION_PLUGIN_PHASE
 ---
@@ -49,20 +50,7 @@ req.typenames: FA_EXTENSION_PLUGIN_PHASE
 ## -description
 
 
-A value in the <b>FA_EXTENSION_PLUGIN_PHASE</b> enumeration is passed to the <a href="..\extsfns\nc-extsfns-ext_analysis_plugin.md">_EFN_Analyze</a> function to specify which phase of the analysis is currently in progress.
-
-
-## -syntax
-
-
-````
-typedef enum _FA_EXTENSION_PLUGIN_PHASE { 
-  FA_PLUGIN_INITILIZATION   = 0x0001,
-  FA_PLUGIN_STACK_ANALYSIS  = 0x0002,
-  FA_PLUGIN_PRE_BUCKETING   = 0x0004,
-  FA_PLUGIN_POST_BUCKETING  = 0x0008
-} FA_EXTENSION_PLUGIN_PHASE;
-````
+A value in the <b>FA_EXTENSION_PLUGIN_PHASE</b> enumeration is passed to the <a href="https://msdn.microsoft.com/library/windows/hardware/jj983432">_EFN_Analyze</a> function to specify which phase of the analysis is currently in progress.
 
 
 ## -enum-fields
@@ -99,7 +87,10 @@ The analysis is in the initialization phase. This is after the primary data such
 
 ## -see-also
 
-<a href="..\extsfns\nc-extsfns-ext_analysis_plugin.md">_EFN_Analyze</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj983405">IDebugFailureAnalysis2</a>
 
 
 
@@ -107,13 +98,8 @@ The analysis is in the initialization phase. This is after the primary data such
 
 
 
-<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj983432">_EFN_Analyze</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20FA_EXTENSION_PLUGIN_PHASE enumeration%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

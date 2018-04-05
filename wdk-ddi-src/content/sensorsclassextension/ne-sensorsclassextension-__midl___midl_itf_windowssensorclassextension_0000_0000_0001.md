@@ -38,7 +38,8 @@ api_location:
 -	SensorsClassExtension.h
 api_name:
 -	SensorState
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SensorState
 req.product: Windows 10 or later.
@@ -51,24 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>SensorState</b> enumeration type specifies the current operational state of a sensor.
-
-
-## -syntax
-
-
-````
-enum SensorState {
-  SENSOR_STATE_MIN            = 0, 
-  SENSOR_STATE_READY          = SENSOR_STATE_MIN, 
-  SENSOR_STATE_NOT_AVAILABLE  = ( SENSOR_STATE_READY + 1 ), 
-  SENSOR_STATE_NO_DATA        = ( SENSOR_STATE_NOT_AVAILABLE + 1 ), 
-  SENSOR_STATE_INITIALIZING   = ( SENSOR_STATE_NO_DATA + 1 ), 
-  SENSOR_STATE_ACCESS_DENIED  = ( SENSOR_STATE_INITIALIZING + 1 ), 
-  SENSOR_STATE_ERROR          = ( SENSOR_STATE_ACCESS_DENIED + 1 ), 
-  SENSOR_STATE_MAX            = SENSOR_STATE_ERROR 
-
-};
-````
 
 
 ## -enum-fields
@@ -127,7 +110,6 @@ This enumeration also defines values used for the <a href="https://msdn.microsof
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545610">ISensorDriver::OnGetProperties</a>
 
 
 
@@ -135,9 +117,8 @@ This enumeration also defines values used for the <a href="https://msdn.microsof
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545610">ISensorDriver::OnGetProperties</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [sensors\sensors]:%20SensorState enumeration%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

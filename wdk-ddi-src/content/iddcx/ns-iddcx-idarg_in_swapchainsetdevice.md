@@ -7,7 +7,7 @@ old-location: display\idarg_in_swapchainsetdevice.htm
 old-project: display
 ms.assetid: afd52391-5b18-4b86-9d35-2d9ed3e20256
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: IDARG_IN_SWAPCHAINSETDEVICE, IDARG_IN_SWAPCHAINSETDEVICE structure [Display Devices], display.idarg_in_swapchainsetdevice, iddcx/IDARG_IN_SWAPCHAINSETDEVICE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	iddcx.h
 api_name:
 -	IDARG_IN_SWAPCHAINSETDEVICE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,16 +52,6 @@ req.typenames:
 
 
                  Gives information about the device that will process the swap chain.
-
-
-## -syntax
-
-
-````
-typedef struct IDARG_IN_SWAPCHAINSETDEVICE {
-  IDXGIDevice* pDevice;
-} IDARG_IN_SWAPCHAINSETDEVICE, *IDARG_IN_SWAPCHAINSETDEVICE;
-````
 
 
 ## -struct-fields

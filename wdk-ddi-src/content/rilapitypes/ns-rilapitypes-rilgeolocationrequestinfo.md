@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILGEOLOCATIONREQUESTINFO
 title: RILGEOLOCATIONREQUESTINFO
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilgeolocationrequestinfo_2.htm
+old-location: netvista\rilgeolocationrequestinfo.htm
 old-project: netvista
-ms.assetid: c9e2bcb8-cd74-4256-9854-bc898fc8cf74
+ms.assetid: f3fa5212-66c1-45f8-a96f-78d1f2f01fe8
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: "*LPRILGEOLOCATIONREQUESTINFO, RILGEOLOCATIONREQUESTINFO, RILGEOLOCATIONREQUESTINFO structure [Network Drivers Starting with Windows Vista], netvista.rilgeolocationrequestinfo_2, rilapitypes/RILGEOLOCATIONREQUESTINFO"
+ms.date: 3/26/2018
+ms.keywords: "*LPRILGEOLOCATIONREQUESTINFO, RILGEOLOCATIONREQUESTINFO, RILGEOLOCATIONREQUESTINFO structure [Network Drivers Starting with Windows Vista], netvista.rilgeolocationrequestinfo, ntddrilapitypes/RILGEOLOCATIONREQUESTINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,10 +35,11 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILGEOLOCATIONREQUESTINFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILGEOLOCATIONREQUESTINFO, *LPRILGEOLOCATIONREQUESTINFO
 req.product: Windows 10 or later.
@@ -50,20 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-
-## -syntax
-
-
-````
-typedef struct _RILGEOLOCATIONREQUESTINFO {
-  DWORD  cbSize;
-  DWORD  dwLatitude;
-  DWORD  dwLongitude;
-  DWORD  dwAltitude;
-} RILGEOLOCATIONREQUESTINFO, RILGEOLOCATIONREQUESTINFO;
-````
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -struct-fields

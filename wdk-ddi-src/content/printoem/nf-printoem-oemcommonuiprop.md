@@ -7,7 +7,7 @@ old-location: print\oemcommonuiprop.htm
 old-project: print
 ms.assetid: d993117d-e8d4-4e00-bcb8-c83a15b6c037
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: OEMCommonUIProp, OEMCommonUIProp function [Print Devices], print.oemcommonuiprop, print_obsoletefunctions_ef86ce33-1102-4045-b3ad-bba26bafd3de.xml, printoem/OEMCommonUIProp
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	printoem.h
 api_name:
 -	OEMCommonUIProp
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STDVARIABLEINDEX
 req.product: Windows 10 or later.
@@ -50,17 +51,6 @@ req.product: Windows 10 or later.
 ## -description
 
 
-
-
-## -syntax
-
-
-````
-BOOL APIENTRY OEMCommonUIProp(
-   DWORD         dwMode,
-   POEMCUIPPARAM pOemCUIPParam
-);
-````
 
 
 ## -parameters

@@ -7,7 +7,7 @@ old-location: audio\usbsidebandaudio_sidetone_descriptor.htm
 old-project: audio
 ms.assetid: BC337822-C36C-4673-BFA1-3F4C05529C05
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 3/19/2018
 ms.keywords: "*PUSBSIDEBANDAUDIO_SIDETONE_DESCRIPTOR, PUSBSIDEBANDAUDIO_SIDETONE_DESCRIPTOR, PUSBSIDEBANDAUDIO_SIDETONE_DESCRIPTOR structure pointer [Audio Devices], USBSIDEBANDAUDIO_SIDETONE_DESCRIPTOR, USBSIDEBANDAUDIO_SIDETONE_DESCRIPTOR structure [Audio Devices], _USBSIDEBANDAUDIO_SIDETONE_DESCRIPTOR, audio.usbsidebandaudio_sidetone_descriptor, usbsidebandaudio/PUSBSIDEBANDAUDIO_SIDETONE_DESCRIPTOR, usbsidebandaudio/USBSIDEBANDAUDIO_SIDETONE_DESCRIPTOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -37,7 +37,8 @@ api_location:
 -
 api_name:
 -	USBSIDEBANDAUDIO_SIDETONE_DESCRIPTOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USBSIDEBANDAUDIO_SIDETONE_DESCRIPTOR, *PUSBSIDEBANDAUDIO_SIDETONE_DESCRIPTOR
 req.product: Windows 10 or later.
@@ -52,17 +53,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 TBD
-
-
-## -syntax
-
-
-````
-typedef struct _USBSIDEBANDAUDIO_SIDETONE_DESCRIPTOR {
-  LONG Reserved 0;
-  BOOL Reserved 1;
-} USBSIDEBANDAUDIO_SIDETONE_DESCRIPTOR, *PUSBSIDEBANDAUDIO_SIDETONE_DESCRIPTOR;
-````
 
 
 ## -struct-fields

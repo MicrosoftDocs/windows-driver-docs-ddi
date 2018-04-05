@@ -7,7 +7,7 @@ old-location: kernel\pep_power_control_complete.htm
 old-project: kernel
 ms.assetid: E270B609-2D47-4D55-94A6-BE82B2E5B77A
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/28/2018
 ms.keywords: "*PPEP_POWER_CONTROL_COMPLETE, PEP_POWER_CONTROL_COMPLETE, PEP_POWER_CONTROL_COMPLETE structure [Kernel-Mode Driver Architecture], PPEP_POWER_CONTROL_COMPLETE, PPEP_POWER_CONTROL_COMPLETE structure pointer [Kernel-Mode Driver Architecture], _PEP_POWER_CONTROL_COMPLETE, kernel.pep_power_control_complete, pepfx/PEP_POWER_CONTROL_COMPLETE, pepfx/PPEP_POWER_CONTROL_COMPLETE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	pepfx.h
 api_name:
 -	PEP_POWER_CONTROL_COMPLETE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PEP_POWER_CONTROL_COMPLETE, *PPEP_POWER_CONTROL_COMPLETE
 ---
@@ -50,20 +51,6 @@ req.typenames: PEP_POWER_CONTROL_COMPLETE, *PPEP_POWER_CONTROL_COMPLETE
 
 
 The <b>PEP_POWER_CONTROL_COMPLETE</b> structure contains status information for a power control operation that the PEP previously requested and that the device driver has completed.
-
-
-## -syntax
-
-
-````
-typedef struct _PEP_POWER_CONTROL_COMPLETE {
-  PEPHANDLE DeviceHandle;
-  LPCGUID   PowerControlCode;
-  PVOID     RequestContext;
-  SIZE_T    BytesReturned;
-  NTSTATUS  Status;
-} PEP_POWER_CONTROL_COMPLETE, *PPEP_POWER_CONTROL_COMPLETE;
-````
 
 
 ## -struct-fields
@@ -83,7 +70,7 @@ typedef struct _PEP_POWER_CONTROL_COMPLETE {
 
 ### -field RequestContext
 
-[in] A pointer to the request context that was sent by the PEP in the <a href="..\pepfx\ns-pepfx-_pep_work_information.md">PEP_WORK_INFORMATION</a> structure that the PEP supplied in the original work request. Typically, this member points to a structure that contains a pointer to an output buffer to contain the results of the power control operation that was requested by the PEP.
+[in] A pointer to the request context that was sent by the PEP in the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186864">PEP_WORK_INFORMATION</a> structure that the PEP supplied in the original work request. Typically, this member points to a structure that contains a pointer to an output buffer to contain the results of the power control operation that was requested by the PEP.
 
 
 ### -field BytesReturned
@@ -109,13 +96,11 @@ If the output buffer is too small to receive all of the result data from the ope
 
 ## -see-also
 
+
+
+
 <a href="http://msdn.microsoft.com/library/windows/desktop/aa373931(v=vs.85).aspx">GUID</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PEP_POWER_CONTROL_COMPLETE structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

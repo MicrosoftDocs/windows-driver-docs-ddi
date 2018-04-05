@@ -7,7 +7,7 @@ old-location: debugger\getlinebyoffsetwide.htm
 old-project: debugger
 ms.assetid: e780be4b-ac62-43c2-9767-7745ff1c7dbb
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/26/2018
 ms.keywords: GetLineByOffsetWide method [Windows Debugging], GetLineByOffsetWide method [Windows Debugging], IDebugSymbols3 interface, GetLineByOffsetWide,IDebugSymbols3.GetLineByOffsetWide, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetLineByOffsetWide method, IDebugSymbols3::GetLineByOffsetWide, dbgeng/IDebugSymbols3::GetLineByOffsetWide, debugger.getlinebyoffsetwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugSymbols3.GetLineByOffsetWide
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -50,21 +51,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetLineByOffsetWide</b>  method returns the source filename and the line number within the source file of an instruction in the target.
-
-
-## -syntax
-
-
-````
-HRESULT GetLineByOffsetWide(
-  [in]            ULONG64  Offset,
-  [out, optional] PULONG   Line,
-  [out, optional] PWSTR    FileBuffer,
-  [in]            ULONG    FileBufferSize,
-  [out, optional] PULONG   FileSize,
-  [out, optional] PULONG64 Displacement
-);
-````
 
 
 ## -parameters
@@ -152,7 +138,6 @@ For more information about source files, see <a href="https://msdn.microsoft.com
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 
 
@@ -160,9 +145,8 @@ For more information about source files, see <a href="https://msdn.microsoft.com
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550870">IDebugSymbols3</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSymbols3::GetLineByOffsetWide method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

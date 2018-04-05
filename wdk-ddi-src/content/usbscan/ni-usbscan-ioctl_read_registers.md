@@ -7,7 +7,7 @@ old-location: image\ioctl_read_registers.htm
 old-project: image
 ms.assetid: b54c9a15-0d48-4aff-98e5-1f0dfc070ed6
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/27/2018
 ms.keywords: IOCTL_READ_REGISTERS, IOCTL_READ_REGISTERS control code [Imaging Devices], image.ioctl_read_registers, stifnc_68af86d1-7d3b-4d2c-a5af-983f0339d71f.xml, usbscan/IOCTL_READ_REGISTERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Usbscan.h
 api_name:
 -	IOCTL_READ_REGISTERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RAW_PIPE_TYPE
 req.product: Windows 10 or later.
@@ -46,11 +47,6 @@ req.product: Windows 10 or later.
 
 # IOCTL_READ_REGISTERS IOCTL
 
-
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -65,7 +61,7 @@ Reads from USB device registers, using the control pipe.
 
 ### -input-buffer
 
-Pointer to an <a href="..\usbscan\ns-usbscan-_io_block.md">IO_BLOCK</a> structure.
+Pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff542924">IO_BLOCK</a> structure.
 
 
 ### -input-buffer-length
@@ -113,9 +109,9 @@ Size of the output buffer. The value must match the contents of the <b>uLength</
 <h3><a id="ddk_ioctl_read_registers_si"></a><a id="DDK_IOCTL_READ_REGISTERS_SI"></a>DeviceIoControl Parameters</h3>
 
 
-When the <b>DeviceloControl</b> function is called with the IOCTL_READ_REGISTERS I/O control code, the caller must specify the address of an <a href="..\usbscan\ns-usbscan-_io_block.md">IO_BLOCK</a> structure as the function's <i>lpInBuffer</i> parameter.
+When the <b>DeviceloControl</b> function is called with the IOCTL_READ_REGISTERS I/O control code, the caller must specify the address of an <a href="https://msdn.microsoft.com/library/windows/hardware/ff542924">IO_BLOCK</a> structure as the function's <i>lpInBuffer</i> parameter.
 
-Using the IO_BLOCK contents, the kernel-mode driver creates a <a href="..\usb\ns-usb-_urb.md">URB</a> that contains a <a href="..\usb\ns-usb-_urb_control_vendor_or_class_request.md">_URB_CONTROL_VENDOR_OR_CLASS_REQUEST</a> structure.
+Using the IO_BLOCK contents, the kernel-mode driver creates a <a href="https://msdn.microsoft.com/library/windows/hardware/ff538923">URB</a> that contains a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540393">_URB_CONTROL_VENDOR_OR_CLASS_REQUEST</a> structure.
 
 The following table indicates the values assigned to _URB_CONTROL_VENDOR_OR_CLASS_REQUEST structure members.
 

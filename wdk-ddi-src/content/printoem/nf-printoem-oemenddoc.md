@@ -7,7 +7,7 @@ old-location: print\oemenddoc.htm
 old-project: print
 ms.assetid: 268a22ba-1dce-4326-bdf4-4d7e7e83257c
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: OEMEndDoc, OEMEndDoc function [Print Devices], print.oemenddoc, print_unidrv-pscript_rendering_1b17db2b-0ea4-4acb-9130-bbc7fe3a0b4a.xml, printoem/OEMEndDoc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	printoem.h
 api_name:
 -	OEMEndDoc
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STDVARIABLEINDEX
 req.product: Windows 10 or later.
@@ -51,17 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <code>OEMEndDoc</code> function is called by the GDI when it has finished sending a document to the driver for rendering.
-
-
-## -syntax
-
-
-````
-BOOL APIENTRY OEMEndDoc(
-   SURFOBJ *pso,
-   FLONG   fl
-);
-````
 
 
 ## -parameters

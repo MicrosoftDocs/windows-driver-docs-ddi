@@ -7,7 +7,7 @@ old-location: netvista\filtersetmoduleoptions.htm
 old-project: netvista
 ms.assetid: 04b7ac32-8996-4648-8c88-aa9f630b1bc4
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: "(*FILTER_SET_FILTER_MODULE_OPTIONS_HANDLER), (*FILTER_SET_FILTER_MODULE_OPTIONS_HANDLER) callback function [Network Drivers Starting with Windows Vista], FILTER_SET_MODULE_OPTIONS, FilterSetModuleOptions, FilterSetModuleOptions callback function [Network Drivers Starting with Windows Vista], filter_functions_ref_165a2df8-6944-43cc-9e27-711a72e3b160.xml, ndis/FilterSetModuleOptions, netvista.filtersetmoduleoptions"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ndis.h
 api_name:
 -	(*FILTER_SET_FILTER_MODULE_OPTIONS_HANDLER)
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
 ---
@@ -55,21 +56,6 @@ The
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>FILTER_SET_MODULE_OPTIONS</b> type. For more
    information, see the following Examples section.</div><div> </div>
 
-## -prototype
-
-
-````
-FILTER_SET_MODULE_OPTIONS FilterSetModuleOptions;
-
-NDIS_STATUS FilterSetModuleOptions(
-  _In_ NDIS_HANDLE FilterModuleContext
-)
-{ ... }
-
-typedef FILTER_SET_MODULE_OPTIONS (*FILTER_SET_FILTER_MODULE_OPTIONS_HANDLER);
-````
-
-
 ## -parameters
 
 
@@ -79,7 +65,7 @@ typedef FILTER_SET_MODULE_OPTIONS (*FILTER_SET_FILTER_MODULE_OPTIONS_HANDLER);
 
 A handle to the context area for the filter module that is the target of this request. The filter
      driver created and initialized this context area in the 
-     <a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a> function.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a> function.
 
 
 ## -returns
@@ -145,23 +131,23 @@ The filter driver's attempt to register options failed. Usually, such an error s
 If 
     <i>FilterSetModuleOptions</i> is defined, NDIS calls 
     <i>FilterSetModuleOptions</i> before it calls the 
-    <a href="..\ndis\nc-ndis-filter_restart.md">FilterRestart</a> function to start the
+    <a href="https://msdn.microsoft.com/4a917824-eef1-4945-b45e-1c940bc8a50d">FilterRestart</a> function to start the
     filter module.
 
 A filter driver specifies the default values for the changeable filter module options in the
     NDIS_FILTER_DRIVER_CHARACTERISTICS structure that it passes to the 
-    <a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">
+    <a href="https://msdn.microsoft.com/14381de2-36d9-4ec8-9d4e-7af3e6d8ecf3">
     NdisFRegisterFilterDriver</a> function during driver initialization.
 
 To change options for a specific filter module at run time, the filter driver must also specify an
     entry point for 
     <i>FilterSetModuleOptions</i> in the 
-    <a href="..\ndis\ns-ndis-_ndis_filter_driver_characteristics.md">
+    <a href="https://msdn.microsoft.com/1eb2bae0-70b9-4bc0-9d93-4fc9467f9532">
     NDIS_FILTER_DRIVER_CHARACTERISTICS</a> structure.
 
 To specify the options that should be changed, 
     <i>FilterSetModuleOptions</i> defines a characteristics structure and calls the 
-    <a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a> function.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff564550">NdisSetOptionalHandlers</a> function.
     Filter drivers must not call 
     <b>NdisSetOptionalHandlers</b> from a different thread.
 
@@ -169,27 +155,27 @@ The possible characteristics structures that can be specified from
     <i>FilterSetModuleOptions</i> are:
 
 
-<a href="..\ndis\ns-ndis-_ndis_filter_partial_characteristics.md">
+<a href="https://msdn.microsoft.com/4a7f365c-a252-4d8e-bddf-684b3298db5c">
        NDIS_FILTER_PARTIAL_CHARACTERISTICS</a>
 
 
 
-<a href="..\ndischimney\ns-ndischimney-_ndis_client_chimney_offload_generic_characteristics.md">
+<a href="https://msdn.microsoft.com/66eb9528-e026-44cd-a775-c8d963036adc">
        NDIS_CLIENT_CHIMNEY_OFFLOAD_GENERIC_CHARACTERISTICS</a>
 
 
 
-<a href="..\ndischimney\ns-ndischimney-_ndis_client_chimney_offload_tcp_characteristics.md">
+<a href="https://msdn.microsoft.com/1925cfd4-f83f-48a5-b928-2c663ac0dc61">
        NDIS_CLIENT_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS</a>
 
 
 
-<a href="..\ndischimney\ns-ndischimney-_ndis_provider_chimney_offload_generic_characteristics.md">
+<a href="https://msdn.microsoft.com/e80a9999-2e4e-4da0-8aae-54ee71d9249d">
        NDIS_PROVIDER_CHIMNEY_OFFLOAD_GENERIC_CHARACTERISTICS</a>
 
 
 
-<a href="..\ndischimney\ns-ndischimney-_ndis_provider_chimney_offload_tcp_characteristics.md">
+<a href="https://msdn.microsoft.com/3eabbad5-b84b-4034-a0b6-d4d515cbc117">
        NDIS_PROVIDER_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS</a>
 
 
@@ -249,31 +235,29 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a>
+<a href="https://msdn.microsoft.com/4a917824-eef1-4945-b45e-1c940bc8a50d">FilterRestart</a>
 
 
 
-<a href="..\ndis\nc-ndis-filter_restart.md">FilterRestart</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_filter_partial_characteristics.md">
-   NDIS_FILTER_PARTIAL_CHARACTERISTICS</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_filter_driver_characteristics.md">
+<a href="https://msdn.microsoft.com/1eb2bae0-70b9-4bc0-9d93-4fc9467f9532">
    NDIS_FILTER_DRIVER_CHARACTERISTICS</a>
 
 
 
+<a href="https://msdn.microsoft.com/4a7f365c-a252-4d8e-bddf-684b3298db5c">
+   NDIS_FILTER_PARTIAL_CHARACTERISTICS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562608">NdisFRegisterFilterDriver</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564550">NdisSetOptionalHandlers</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FILTER_SET_MODULE_OPTIONS callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

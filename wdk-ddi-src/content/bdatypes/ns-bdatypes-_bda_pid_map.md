@@ -38,7 +38,8 @@ api_location:
 -	bdatypes.h
 api_name:
 -	BDA_PID_MAP
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BDA_PID_MAP, *PBDA_PID_MAP
 ---
@@ -50,18 +51,6 @@ req.typenames: BDA_PID_MAP, *PBDA_PID_MAP
 
 
 The BDA_PID_MAP structure describes a type of data to filter out of the input stream of a packet identifier (PID) filter and then pass to a downstream filter. This output consists of packets that are identified with PIDs and contain particular media content. 
-
-
-## -syntax
-
-
-````
-typedef struct _BDA_PID_MAP {
-  MEDIA_SAMPLE_CONTENT MediaSampleContent;
-  ULONG                ulcPIDs;
-  ULONG                aulPIDs[MIN_DIMENSION];
-} BDA_PID_MAP, *PBDA_PID_MAP;
-````
 
 
 ## -struct-fields
@@ -86,7 +75,10 @@ Array of PIDs that identify packets to map to the output of a PID filter.
 
 ## -see-also
 
-<a href="..\bdatypes\ns-bdatypes-_bda_pid_unmap.md">BDA_PID_UNMAP</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556540">BDA_PID_UNMAP</a>
 
 
 
@@ -98,13 +90,8 @@ Array of PIDs that identify packets to map to the output of a PID filter.
 
 
 
-<a href="..\bdatypes\ns-bdatypes-pid_map.md">PID_MAP</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567763">PID_MAP</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20BDA_PID_MAP structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

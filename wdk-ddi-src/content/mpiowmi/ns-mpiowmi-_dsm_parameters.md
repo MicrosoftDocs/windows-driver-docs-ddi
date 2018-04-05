@@ -7,7 +7,7 @@ old-location: storage\dsm_parameters.htm
 old-project: storage
 ms.assetid: 948331f1-1398-4e6e-85cb-27bbbd79630e
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PDSM_PARAMETERS, DSM_PARAMETERS, DSM_PARAMETERS structure [Storage Devices], PDSM_PARAMETERS, PDSM_PARAMETERS structure pointer [Storage Devices], _DSM_PARAMETERS, mpiowmi/DSM_PARAMETERS, mpiowmi/PDSM_PARAMETERS, storage.dsm_parameters, structs-scsibus_e2e8b9f3-6452-4244-b9df-7301ce461764.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	mpiowmi.h
 api_name:
 -	DSM_PARAMETERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DSM_PARAMETERS, *PDSM_PARAMETERS
 ---
@@ -50,19 +51,6 @@ req.typenames: DSM_PARAMETERS, *PDSM_PARAMETERS
 
 
 The DSM_PARAMETERS structure holds the DSM version and timer counters information.
-
-
-## -syntax
-
-
-````
-typedef struct _DSM_PARAMETERS {
-  WCHAR        DsmName[63 + 1];
-  ULONGLONG    DsmContext;
-  DSM_VERSION  DsmVersion;
-  DSM_COUNTERS DsmCounters;
-} DSM_PARAMETERS, *PDSM_PARAMETERS;
-````
 
 
 ## -struct-fields

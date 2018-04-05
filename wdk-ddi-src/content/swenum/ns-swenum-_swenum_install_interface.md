@@ -38,7 +38,8 @@ api_location:
 -	swenum.h
 api_name:
 -	SWENUM_INSTALL_INTERFACE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SWENUM_INSTALL_INTERFACE, *PSWENUM_INSTALL_INTERFACE
 req.product: Windows 10 or later.
@@ -51,18 +52,6 @@ req.product: Windows 10 or later.
 
 
 The SWENUM_INSTALL_INTERFACE structure describes a specific demand-load bus enumerator object interface to install.
-
-
-## -syntax
-
-
-````
-typedef struct _SWENUM_INSTALL_INTERFACE {
-  GUID  DeviceId;
-  GUID  InterfaceId;
-  WCHAR ReferenceString[1];
-} SWENUM_INSTALL_INTERFACE, *PSWENUM_INSTALL_INTERFACE;
-````
 
 
 ## -struct-fields
@@ -96,17 +85,15 @@ The <i>swenum</i> driver uses device interface instances as placeholders for sof
 
 ## -see-also
 
-<a href="..\swenum\nf-swenum-ksremovebusenuminterface.md">KsRemoveBusEnumInterface</a>
 
 
 
-<a href="..\swenum\nf-swenum-ksinstallbusenuminterface.md">KsInstallBusEnumInterface</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562690">KsInstallBusEnumInterface</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566794">KsRemoveBusEnumInterface</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20SWENUM_INSTALL_INTERFACE structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: display\d3dkmt_destroyallocation.htm
 old-project: display
 ms.assetid: ba85b333-9a43-421a-8687-9630e792cadf
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMT_DESTROYALLOCATION, D3DKMT_DESTROYALLOCATION structure [Display Devices], OpenGL_Structs_46425135-17f7-4b12-8e01-1247e3e1ab63.xml, _D3DKMT_DESTROYALLOCATION, d3dkmthk/D3DKMT_DESTROYALLOCATION, display.d3dkmt_destroyallocation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmthk.h
 api_name:
 -	D3DKMT_DESTROYALLOCATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_DESTROYALLOCATION
 ---
@@ -50,19 +51,6 @@ req.typenames: D3DKMT_DESTROYALLOCATION
 
 
 The D3DKMT_DESTROYALLOCATION structure describes parameters for releasing allocations.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_DESTROYALLOCATION {
-  D3DKMT_HANDLE       hDevice;
-  D3DKMT_HANDLE       hResource;
-  const D3DKMT_HANDLE *phAllocationList;
-  UINT                AllocationCount;
-} D3DKMT_DESTROYALLOCATION;
-````
 
 
 ## -struct-fields
@@ -92,13 +80,11 @@ typedef struct _D3DKMT_DESTROYALLOCATION {
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtdestroyallocation.md">D3DKMTDestroyAllocation</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546891">D3DKMTDestroyAllocation</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMT_DESTROYALLOCATION structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

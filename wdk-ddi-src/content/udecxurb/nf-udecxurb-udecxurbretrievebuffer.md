@@ -7,7 +7,7 @@ old-location: buses\udecxurbretrievebuffer.htm
 old-project: usbref
 ms.assetid: C2AE51AE-EEB6-49BB-A6E4-BBCE6A25C905
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: UdecxUrbRetrieveBuffer, UdecxUrbRetrieveBuffer function [Buses], buses.udecxurbretrievebuffer, udecxurb/UdecxUrbRetrieveBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Udecxstub.dll
 api_name:
 -	UdecxUrbRetrieveBuffer
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USB_DEVICE_PORT_PATH, *PUSB_DEVICE_PORT_PATH
 req.product: Windows 10 or later.
@@ -55,18 +56,6 @@ Retrieves the transfer buffer of an URB from the specified framework request obj
 
 
 
-## -syntax
-
-
-````
-FORCEINLINE NTSTATUS UdecxUrbRetrieveBuffer(
-  _In_  WDFREQUEST                         Request,
-  _Out_ ptr_result_buffer_(*Length) PUCHAR *TransferBuffer,
-  _Out_ PULONG                             Length
-);
-````
-
-
 ## -parameters
 
 
@@ -74,12 +63,12 @@ FORCEINLINE NTSTATUS UdecxUrbRetrieveBuffer(
 
 ### -param Request [in]
 
-A handle to a framework request object that contains the <a href="..\usb\ns-usb-_urb.md">URB</a> for the transfer.
+A handle to a framework request object that contains the <a href="https://msdn.microsoft.com/library/windows/hardware/ff538923">URB</a> for the transfer.
 
 
 ### -param TransferBuffer [out]
 
-A pointer to a buffer that receives the transfer buffer of an <a href="..\usb\ns-usb-_urb.md">URB</a>.
+A pointer to a buffer that receives the transfer buffer of an <a href="https://msdn.microsoft.com/library/windows/hardware/ff538923">URB</a>.
 
 
 ### -param Length [out]
@@ -128,11 +117,6 @@ The transfer buffer MDL was not valid.
 
 ## -see-also
 
-<a href="..\udecxurb\nf-udecxurb-udecxurbsetbytescompleted.md">UdecxUrbSetBytesCompleted</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
 
 
 
@@ -140,9 +124,12 @@ The transfer buffer MDL was not valid.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595958">UdecxUrbSetBytesCompleted</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20UdecxUrbRetrieveBuffer function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

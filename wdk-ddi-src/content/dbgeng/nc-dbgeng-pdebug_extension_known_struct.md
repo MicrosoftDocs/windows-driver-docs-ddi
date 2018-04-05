@@ -7,7 +7,7 @@ old-location: debugger\knownstructoutput.htm
 old-project: debugger
 ms.assetid: 76b7e097-4953-4988-8999-07bbfbd65912
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/26/2018
 ms.keywords: Extensions_Ref_dfff8fda-36a7-42ab-9ad7-1698c352c028.xml, KnownStructOutput, KnownStructOutput callback function [Windows Debugging], PDEBUG_KNOWN_StructOutput, dbgeng/KnownStructOutput, debugger.knownstructoutput
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	dbgeng.h
 api_name:
 -	KnownStructOutput
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -64,14 +65,6 @@ The engine calls the <i>KnownStructOutput</i> callback function to request infor
 </td>
 </tr>
 </table></span></div>
-
-## -prototype
-
-
-````
- CALLBACK* PDEBUG_EXTENSION_KNOWN_STRUCT KnownStructOutput;
-````
-
 
 ## -parameters
 
@@ -213,20 +206,18 @@ This function is optional.  An extension DLL only needs to export <b>KnownStruct
 After initializing the extension DLL, the engine calls this function to query the DLL for the list of structure names it knows how to print.  Then, whenever the engine prints a summary of one of the structures whose name is in the list, it calls this function to format the structure for printing.
 
 
-<a href="..\dbgeng\nc-dbgeng-pdebug_stack_provider_freestacksymframes.md">KnownStructOutput</a> is called <b>PDEBUG_EXTENSION_KNOWN_STRUCT</b>   in the Dbgeng.h header file.
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551934">KnownStructOutput</a> is called <b>PDEBUG_EXTENSION_KNOWN_STRUCT</b>   in the Dbgeng.h header file.
 
 
 
 
 ## -see-also
 
-<a href="..\dbgeng\nc-dbgeng-pdebug_extension_initialize.md">DebugExtensionInitialize</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540476">DebugExtensionInitialize</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20PDEBUG_EXTENSION_KNOWN_STRUCT callback function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

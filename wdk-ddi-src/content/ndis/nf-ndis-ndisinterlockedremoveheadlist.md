@@ -7,7 +7,7 @@ old-location: netvista\ndisinterlockedremoveheadlist.htm
 old-project: netvista
 ms.assetid: 85cbc158-7132-4666-8161-a78251a62e4d
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: NdisInterlockedRemoveHeadList, NdisInterlockedRemoveHeadList macro [Network Drivers Starting with Windows Vista], ndis/NdisInterlockedRemoveHeadList, ndis_interlocked_ref_5aacd492-068c-4cfe-afa6-4e0e63cf66e9.xml, netvista.ndisinterlockedremoveheadlist
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	ndis.dll
 api_name:
 -	NdisInterlockedRemoveHeadList
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
@@ -53,17 +54,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 The 
   <b>NdisInterlockedRemoveHeadList</b> function removes an entry, usually a packet, from the head of a doubly
   linked list so that access to the list is synchronized in a multiprocessor-safe way.
-
-
-## -syntax
-
-
-````
-PLIST_ENTRY NdisInterlockedRemoveHeadList(
-  [in] PLIST_ENTRY     ListHead,
-  [in] PNDIS_SPIN_LOCK SpinLock
-);
-````
 
 
 ## -parameters
@@ -88,10 +78,10 @@ A pointer to a caller-supplied spin lock, used to synchronize access to the list
 Before calling any 
     <b>NdisInterlocked..List</b> function, a driver must initialize the variable at 
     <i>ListHead</i> with the 
-    <a href="..\ndis\nf-ndis-ndisinitializelisthead.md">NdisInitializeListHead</a> function and
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff562734">NdisInitializeListHead</a> function and
     the variable at 
     <i>SpinLock</i> with the 
-    <a href="..\ndis\nf-ndis-ndisallocatespinlock.md">NdisAllocateSpinLock</a> function. The
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561617">NdisAllocateSpinLock</a> function. The
     driver also must provide resident storage for these variables and for its internal queue.
 
 Before calling 
@@ -120,8 +110,6 @@ If
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisinterlockedinserttaillist.md">
-   NdisInterlockedInsertTailList</a>
 
 
 
@@ -129,22 +117,22 @@ If
 
 
 
-<a href="..\ndis\nf-ndis-ndisinterlockedinsertheadlist.md">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561617">NdisAllocateSpinLock</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562734">NdisInitializeListHead</a>
+
+
+
+<a href="https://msdn.microsoft.com/c6221ce9-682c-453b-b036-f4219c9540da">
    NdisInterlockedInsertHeadList</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisallocatespinlock.md">NdisAllocateSpinLock</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisinitializelisthead.md">NdisInitializeListHead</a>
-
-
-
+<a href="https://msdn.microsoft.com/cc455bb1-3574-4dfb-9462-f2c67632132b">
+   NdisInterlockedInsertTailList</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisInterlockedRemoveHeadList macro%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: ifsk\mrxclosesrvopen.htm
 old-project: ifsk
 ms.assetid: 6300595e-8cf6-47c4-a6ca-7851dd95576d
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: MRxCleanupFobx, MRxCloseSrvOpen, MRxCollapseOpen, MRxCreate, MRxDevFcbXXXControlFile, MRxFlush, MRxLowIOSubmit[LOWIO_OP_EXCLUSIVELOCK], MRxLowIOSubmit[LOWIO_OP_FSCTL], MRxLowIOSubmit[LOWIO_OP_IOCTL], MRxLowIOSubmit[LOWIO_OP_NOTIFY_CHANGE_DIRECTORY], MRxLowIOSubmit[LOWIO_OP_READ], MRxLowIOSubmit[LOWIO_OP_SHAREDLOCK], MRxLowIOSubmit[LOWIO_OP_UNLOCK], MRxLowIOSubmit[LOWIO_OP_UNLOCK_MULTIPLE], MRxLowIOSubmit[LOWIO_OP_WRITE], MRxQueryDirectory, MRxQueryEaInfo, MRxQueryFileInfo, MRxQueryQuotaInfo, MRxQuerySdInfo, MRxQueryVolumeInfo, MRxSetEaInfo, MRxSetFileInfo, MRxSetFileInfoAtCleanup, MRxSetQuotaInfo, MRxSetSdInfo, MRxSetVolumeInfo, MRxShouldTryToCollapseThisOpen, MRxTruncate, MRxZeroExtend, MyCalldown, MyCalldown routine [Installable File System Drivers], PMRX_CALLDOWN, ifsk.mrxclosesrvopen, mrx/MyCalldown, mrxref_e6b5df78-d201-4f9e-9422-089772c04674.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	mrx.h
 api_name:
 -	MyCalldown
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SetDSMCounters_IN, *PSetDSMCounters_IN
 ---
@@ -50,19 +51,6 @@ req.typenames: SetDSMCounters_IN, *PSetDSMCounters_IN
 
 
 This callback is called by RDBSS to request that the network mini-redirector perform an action based in the supplied IRP.
-
-
-## -prototype
-
-
-````
-PMRX_CALLDOWN MyCalldown;
-
-NTSTATUS MyCalldown(
-  _Inout_ PRX_CONTEXT RxContext
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -550,7 +538,7 @@ The <b>LowIoContext.ParamsFor.Locks.Length</b> member is set to the value of <b>
 
 The <b>LowIoContext.Operation</b> member of the RX_CONTEXT structure specifies the low I/O operation to perform. It is possible for several of the low I/O routines to point to the same routine in a network mini-redirector because this <b>LowIoContext.Operation</b> member can be used to differentiate the low I/O operation that is requested. For example, all the I/O calls related to file locks could call the same low I/O routine in the network mini-redirector and that routine could use the <b>LowIoContext.Operation</b> member to differentiate between the lock and unlock operation that is requested.
 
-If the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550703">MRxLowIOSubmit[LOWIO_OP_EXCLUSIVELOCK]</a> routine can take a long time to complete, the network mini-redirector driver should release the FCB structure before initiating the network communication. The FCB structure can be released by calling <a href="..\mrxfcb\nf-mrxfcb-rxreleasefcbresourceforthreadinmrx.md">RxReleaseFcbResourceForThreadInMRx</a>. While the <i>MRxLowIOSubmit[LOWIO_OP_EXCLUSIVELOCK]</i> routine is processing, the <b>LowIoContext.ResourceThreadId</b> member of RX_CONTEXT is guaranteed to indicate the thread of the process that initiated the operation in RDBSS. 
+If the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550703">MRxLowIOSubmit[LOWIO_OP_EXCLUSIVELOCK]</a> routine can take a long time to complete, the network mini-redirector driver should release the FCB structure before initiating the network communication. The FCB structure can be released by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff554694">RxReleaseFcbResourceForThreadInMRx</a>. While the <i>MRxLowIOSubmit[LOWIO_OP_EXCLUSIVELOCK]</i> routine is processing, the <b>LowIoContext.ResourceThreadId</b> member of RX_CONTEXT is guaranteed to indicate the thread of the process that initiated the operation in RDBSS. 
 
 The <b>LowIoContext.ResourceThreadId</b> member of RX_CONTEXT can be used to release the FCB structure on behalf of another thread. When an asynchronous routine completes, the FCB structure that was acquired from the initial thread can be released. 
 
@@ -636,7 +624,7 @@ The <b>LowIoContext.ParamsFor.NotifyChangeDirectory.pNotificationBuffer</b> memb
 
 A directory change notification operation is normally implemented by a network mini-redirector as an asynchronous operation because it can take considerable time. The operation usually consists of sending a network request to the remote server requesting change notification. The response is obtained when the desired change is affected on the server. This is an example of an operation for which the network mini-redirector may need to register a unique context value for handling cancellations initiated locally.
 
-While the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550721">MRxLowIOSubmit[LOWIO_OP_NOTIFY_CHANGE_DIRECTORY]</a> routine is processing, the <b>LowIoContext.ResourceThreadId</b> member of RX_CONTEXT is guaranteed to indicate the thread of the process that initiated the operation in RDBSS. The <b>LowIoContext.ResourceThreadId</b> member can be used to release the FCB structure on behalf of another thread. When an asynchronous routine completes, the FCB structure that was acquired from the initial thread can be released. The FCB structure can be released by calling <a href="..\mrxfcb\nf-mrxfcb-rxreleasefcbresourceforthreadinmrx.md">RxReleaseFcbResourceForThreadInMRx</a>. 
+While the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550721">MRxLowIOSubmit[LOWIO_OP_NOTIFY_CHANGE_DIRECTORY]</a> routine is processing, the <b>LowIoContext.ResourceThreadId</b> member of RX_CONTEXT is guaranteed to indicate the thread of the process that initiated the operation in RDBSS. The <b>LowIoContext.ResourceThreadId</b> member can be used to release the FCB structure on behalf of another thread. When an asynchronous routine completes, the FCB structure that was acquired from the initial thread can be released. The FCB structure can be released by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff554694">RxReleaseFcbResourceForThreadInMRx</a>. 
 
 The <a href="https://msdn.microsoft.com/library/windows/hardware/ff550724">MRxLowIOSubmit[LOWIO_OP_READ]</a> routine is called by <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to issue a read request to the network mini-redirector. 
 
@@ -658,7 +646,7 @@ The <b>LowIoContext.ParamsFor.ReadWrite.ByteCount</b> member is set to the value
 
 A read request is normally implemented by a network mini-redirector as an asynchronous operation because it can take considerable time. The operation usually consists of sending a network request to the remote server. The response is obtained when the read request is completed on the server. This is an example of an operation for which the network mini-redirector may need to register a context for handling cancellations initiated locally.
 
-While the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550724">MRxLowIOSubmit[LOWIO_OP_READ]</a> routine is processing, the <b>LowIoContext.ResourceThreadId</b> member of RX_CONTEXT is guaranteed to indicate the thread of the process that initiated the operation in RDBSS. The <b>LowIoContext.ResourceThreadId</b> member can be used to release the FCB structure on behalf of another thread. When an asynchronous routine completes, the FCB structure that was acquired from the initial thread can be released. The FCB structure can be released by calling <a href="..\mrxfcb\nf-mrxfcb-rxreleasefcbresourceforthreadinmrx.md">RxReleaseFcbResourceForThreadInMRx</a>. 
+While the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550724">MRxLowIOSubmit[LOWIO_OP_READ]</a> routine is processing, the <b>LowIoContext.ResourceThreadId</b> member of RX_CONTEXT is guaranteed to indicate the thread of the process that initiated the operation in RDBSS. The <b>LowIoContext.ResourceThreadId</b> member can be used to release the FCB structure on behalf of another thread. When an asynchronous routine completes, the FCB structure that was acquired from the initial thread can be released. The FCB structure can be released by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff554694">RxReleaseFcbResourceForThreadInMRx</a>. 
 
 The<a href="https://msdn.microsoft.com/963ec2d1-5e24-4002-a8c9-44faf1515b9f"> MRxLowIOSubmit[LOWIO_OP_SHAREDLOCK]</a> routine is called by <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request that a network redirector open a shared lock on a file object. 
 
@@ -680,7 +668,7 @@ The <b>LowIoContext.ParamsFor.Locks.Length</b> member is set to the value of <b>
 
 The <b>LowIoContext.Operation</b> member of the RX_CONTEXT structure specifies the low I/O operation to perform. It is possible for several of the low I/O routines to point to the same routine in a network mini-redirector because the <b>LowIoContext.Operation</b> member can be used to differentiate the low I/O operation that is requested. For example, all the I/O calls related to file locks could call the same low I/O routine in the network mini-redirector and this routine could use the <b>LowIoContext.Operation</b> member to differentiate between the lock and unlock operation that is requested.
 
-If the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550734">MRxLowIOSubmit[LOWIO_OP_SHAREDLOCK]</a> routine can take a long time to complete, the network mini-redirector driver should release the FCB structure before initiating the network communication. The FCB structure can be released by calling <a href="..\mrxfcb\nf-mrxfcb-rxreleasefcbresourceforthreadinmrx.md">RxReleaseFcbResourceForThreadInMRx</a>. While the <i>MRxLowIOSubmit[LOWIO_OP_SHAREDLOCK]</i> routine is processing, the <b>LowIoContext.ResourceThreadId</b> member of RX_CONTEXT is guaranteed to indicate the thread of the process that initiated the operation in RDBSS. 
+If the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550734">MRxLowIOSubmit[LOWIO_OP_SHAREDLOCK]</a> routine can take a long time to complete, the network mini-redirector driver should release the FCB structure before initiating the network communication. The FCB structure can be released by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff554694">RxReleaseFcbResourceForThreadInMRx</a>. While the <i>MRxLowIOSubmit[LOWIO_OP_SHAREDLOCK]</i> routine is processing, the <b>LowIoContext.ResourceThreadId</b> member of RX_CONTEXT is guaranteed to indicate the thread of the process that initiated the operation in RDBSS. 
 
 The <b>LowIoContext.ResourceThreadId</b> member of the RX_CONTEXT structure can be used to release the FCB structure on behalf of another thread. When an asynchronous routine completes, the FCB structure that was acquired from the initial thread can be released. 
 
@@ -702,7 +690,7 @@ The <b>LowIoContext.ParamsFor.Locks.Length</b> member is set to the value of <b>
 
 The <b>LowIoContext.Operation</b> member of the RX_CONTEXT structure specifies the low I/O operation to perform. It is possible for several of the low I/O routines to point to the same routine in a network mini-redirector because this <b>LowIoContext.Operation</b> member can be used to differentiate the low I/O operation that is requested. For example, all the I/O calls related to file locks could call the same low I/O routine in the network mini-redirector and this routine could use the <b>LowIoContext.Operation</b> member to differentiate between the lock and unlock operation that is requested.
 
-If the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550740">MRxLowIOSubmit[LOWIO_OP_UNLOCK]</a> routine can take a long time to complete, the network mini-redirector driver should release the FCB structure before initiating the network communication. The FCB structure can be released by calling <a href="..\mrxfcb\nf-mrxfcb-rxreleasefcbresourceforthreadinmrx.md">RxReleaseFcbResourceForThreadInMRx</a>. While the <i>MRxLowIOSubmit[LOWIO_OP_UNLOCK]</i> routine is processing, the <b>LowIoContext.ResourceThreadId</b> member of RX_CONTEXT is guaranteed to indicate the thread of the process that initiated the operation in RDBSS. 
+If the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550740">MRxLowIOSubmit[LOWIO_OP_UNLOCK]</a> routine can take a long time to complete, the network mini-redirector driver should release the FCB structure before initiating the network communication. The FCB structure can be released by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff554694">RxReleaseFcbResourceForThreadInMRx</a>. While the <i>MRxLowIOSubmit[LOWIO_OP_UNLOCK]</i> routine is processing, the <b>LowIoContext.ResourceThreadId</b> member of RX_CONTEXT is guaranteed to indicate the thread of the process that initiated the operation in RDBSS. 
 
 The <b>LowIoContext.ResourceThreadId</b> member of RX_CONTEXT can be used to release the FCB structure on behalf of another thread. When an asynchronous routine completes, the FCB structure that was acquired from the initial thread can be released. 
 
@@ -730,7 +718,7 @@ The byte ranges to be unlocked are specified in the <b>LowIoContext.ParamsFor.Lo
 } LOWIO_LOCK_LIST, *PLOWIO_LOCK_LIST;</code></pre>
 The <b>LowIoContext.Operation</b> member of RX_CONTEXT specifies the low I/O operation to perform. It is possible for several of the low I/O routines to point to the same routine in a network mini-redirector because the <b>LowIoContext.Operation</b> member can be used to differentiate the low I/O operation that is requested. For example, all the I/O calls related to file locks could call the same low I/O routine in the network mini-redirector and this routine could use the <b>LowIoContext.Operation</b> member to differentiate between the lock and unlock operation that is requested.
 
-If the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550745">MRxLowIOSubmit[LOWIO_OP_UNLOCK_MULTIPLE]</a> routine can take a long time to complete, the network mini-redirector driver should release the FCB structure before initiating the network communication. The FCB structure can be released by calling <a href="..\mrxfcb\nf-mrxfcb-rxreleasefcbresourceforthreadinmrx.md">RxReleaseFcbResourceForThreadInMRx</a>. While the <i>MRxLowIOSubmit[LOWIO_OP_UNLOCK_MULTIPLE]</i> routine is processing, the <b>LowIoContext.ResourceThreadId</b> member of RX_CONTEXT is guaranteed to indicate the thread of the process that initiated the operation in RDBSS. 
+If the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550745">MRxLowIOSubmit[LOWIO_OP_UNLOCK_MULTIPLE]</a> routine can take a long time to complete, the network mini-redirector driver should release the FCB structure before initiating the network communication. The FCB structure can be released by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff554694">RxReleaseFcbResourceForThreadInMRx</a>. While the <i>MRxLowIOSubmit[LOWIO_OP_UNLOCK_MULTIPLE]</i> routine is processing, the <b>LowIoContext.ResourceThreadId</b> member of RX_CONTEXT is guaranteed to indicate the thread of the process that initiated the operation in RDBSS. 
 
 The <b>LowIoContext.ResourceThreadId</b> member of RX_CONTEXT can be used to release the FCB structure on behalf of another thread. When an asynchronous routine completes, the FCB structure that was acquired from the initial thread can be released. 
 
@@ -754,7 +742,7 @@ The <b>LowIoContext.ParamsFor.ReadWrite.ByteCount</b> member is set to the value
 
 A write request is normally implemented by a network mini-redirector as an asynchronous operation because it can take considerable time. The operation usually consists of sending a network request to the remote server. The response is obtained when the write request is completed on the server. This is an example of an operation for which the network mini-redirector may need to register a context for handling cancellations initiated locally.
 
-While the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550746">MRxLowIOSubmit[LOWIO_OP_WRITE]</a> routine is processing, the <b>LowIoContext.ResourceThreadId</b> member of RX_CONTEXT is guaranteed to indicate the thread of the process that initiated the operation in RDBSS. The <b>LowIoContext.ResourceThreadId</b> member can be used to release the FCB structure on behalf of another thread. When an asynchronous routine completes, the FCB structure that was acquired from the initial thread can be released. The FCB structure can be released by calling <a href="..\mrxfcb\nf-mrxfcb-rxreleasefcbresourceforthreadinmrx.md">RxReleaseFcbResourceForThreadInMRx</a>. 
+While the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550746">MRxLowIOSubmit[LOWIO_OP_WRITE]</a> routine is processing, the <b>LowIoContext.ResourceThreadId</b> member of RX_CONTEXT is guaranteed to indicate the thread of the process that initiated the operation in RDBSS. The <b>LowIoContext.ResourceThreadId</b> member can be used to release the FCB structure on behalf of another thread. When an asynchronous routine completes, the FCB structure that was acquired from the initial thread can be released. The FCB structure can be released by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff554694">RxReleaseFcbResourceForThreadInMRx</a>. 
 
 The<a href="https://msdn.microsoft.com/26c7c7fa-7dfa-43fb-a1db-cfc2fc40b969"> MRxQueryDirectory</a> routine is called by <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request that a network mini-redirector query information on a file directory.
 
@@ -778,7 +766,7 @@ The <b>QueryDirectory.InitialQuery</b> member is set to nonzero if <b>UnicodeQue
 
 For a wild card query ("*.*", for example), RDBSS will set the <b>UnicodeQueryTemplate.Buffer</b> member of the associated FOBX to the wild card query passed.
 
-If the <b>PostRequest</b> member of the RX_CONTEXT structure is <b>TRUE</b> on return from <a href="https://msdn.microsoft.com/library/windows/hardware/ff550755">MRxQueryDirectory</a>, then RDBSS will call <a href="..\rxprocs\nf-rxprocs-rxfsdpostrequest.md">RxFsdPostRequest</a> passing the RX_CONTEXT structure to a worker queue for processing by the file system process (FSP). 
+If the <b>PostRequest</b> member of the RX_CONTEXT structure is <b>TRUE</b> on return from <a href="https://msdn.microsoft.com/library/windows/hardware/ff550755">MRxQueryDirectory</a>, then RDBSS will call <a href="https://msdn.microsoft.com/library/windows/hardware/ff554472">RxFsdPostRequest</a> passing the RX_CONTEXT structure to a worker queue for processing by the file system process (FSP). 
 
 The<a href="https://msdn.microsoft.com/4471eb82-c176-4976-b722-5a6e067a7e69"> MRxQueryEaInfo</a> routine is called by <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request that a network mini-redirector query extended attribute information on a file system object.
 
@@ -892,7 +880,7 @@ The <b>Info.Buffer</b> member is set to <b>Irp-&gt;AssociatedIrp.SystemBuffer</b
 
 The <b>Info.LengthRemaining</b> member is set to <b>IrpSp-&gt;Parameters.QueryVolume.Length</b>.
 
-For an IRP_MJ_QUERY_VOLUME_INFORMATION request, if the <b>PostRequest</b> member of the RX_CONTEXT structure is <b>TRUE</b> on return from <a href="https://msdn.microsoft.com/library/windows/hardware/ff550782">MRxQueryVolumeInfo</a>, RDBSS will call <a href="..\rxprocs\nf-rxprocs-rxfsdpostrequest.md">RxFsdPostRequest</a> to post the request. For this case, the IRP_MJ_QUERY_VOLUME_INFORMATION request will pass the RX_CONTEXT structure to queue RX_CONTEXT to a worker queue for processing by the file system process (FSP). 
+For an IRP_MJ_QUERY_VOLUME_INFORMATION request, if the <b>PostRequest</b> member of the RX_CONTEXT structure is <b>TRUE</b> on return from <a href="https://msdn.microsoft.com/library/windows/hardware/ff550782">MRxQueryVolumeInfo</a>, RDBSS will call <a href="https://msdn.microsoft.com/library/windows/hardware/ff554472">RxFsdPostRequest</a> to post the request. For this case, the IRP_MJ_QUERY_VOLUME_INFORMATION request will pass the RX_CONTEXT structure to queue RX_CONTEXT to a worker queue for processing by the file system process (FSP). 
 
 If the <b>PostRequest</b> member of the RX_CONTEXT structure is <b>FALSE</b> on return from <a href="https://msdn.microsoft.com/library/windows/hardware/ff550782">MRxQueryVolumeInfo</a>, the network mini-redirector must set the <b>Info.LengthRemaining</b> member of the RX_CONTEXT structure to the length of the volume information returned. RDBSS sets the <b>IoStatus.Information</b> member of the IRP to <b>IrpSp-&gt;Parameters.QueryVolume.Length</b> minus the <b>Info.LengthRemaining</b> member of the RX_CONTEXT structure. 
 
@@ -1062,7 +1050,10 @@ MRxCleanupFobx cannot return a value of STATUS_RETRY indicating that the call sh
 
 ## -see-also
 
-<a href="..\mrx\nc-mrx-pmrx_deallocate_for_fcb.md">MRxDeallocateForFcb</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549838">MRxAreFilesAliased</a>
 
 
 
@@ -1070,35 +1061,7 @@ MRxCleanupFobx cannot return a value of STATUS_RETRY indicating that the call sh
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549879">MRxExtendForNonCache</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549847">MRxCollapseOpen</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550839">MRxTruncate</a>
-
-
-
-<a href="..\mrx\nc-mrx-pmrx_forceclosed_calldown.md">MRxForceClosed</a>
-
-
-
-<a href="..\mrx\nc-mrx-pmrx_is_lock_realizable.md">MRxIsLockRealizable</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550669">MRxFlush</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550844">MRxZeroExtend</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550817">MRxShouldTryToCollapseThisOpen</a>
 
 
 
@@ -1106,21 +1069,44 @@ MRxCleanupFobx cannot return a value of STATUS_RETRY indicating that the call sh
 
 
 
-<a href="..\mrx\nc-mrx-pmrx_chkfcb_calldown.md">MRxAreFilesAliased</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549871">MRxDeallocateForFcb</a>
 
 
 
-<a href="..\mrx\nc-mrx-pmrx_deallocate_for_fobx.md">MRxDeallocateForFobx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549872">MRxDeallocateForFobx</a>
 
 
 
-<a href="..\mrx\nc-mrx-pmrx_extendfile_calldown.md">MRxExtendForCache</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549878">MRxExtendForCache</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549879">MRxExtendForNonCache</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550669">MRxFlush</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550677">MRxForceClosed</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550691">MRxIsLockRealizable</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550817">MRxShouldTryToCollapseThisOpen</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550839">MRxTruncate</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550844">MRxZeroExtend</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20PMRX_CALLDOWN routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

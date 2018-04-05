@@ -7,7 +7,7 @@ old-location: print\ipartdiscardcontrol_getdiscardproperties.htm
 old-project: print
 ms.assetid: 37f624b8-3b15-41ee-9670-84287c3e10e6
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: GetDiscardProperties method [Print Devices], GetDiscardProperties method [Print Devices], IPartDiscardControl interface, GetDiscardProperties,IPartDiscardControl.GetDiscardProperties, IPartDiscardControl, IPartDiscardControl interface [Print Devices], GetDiscardProperties method, IPartDiscardControl::GetDiscardProperties, filterpipeline/IPartDiscardControl::GetDiscardProperties, filterpipeline_ffa81b25-78c6-4193-a253-cc1d5d51aafe.xml, print.ipartdiscardcontrol_getdiscardproperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: filterpipeline.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	filterpipeline.h
 api_name:
 -	IPartDiscardControl.GetDiscardProperties
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
@@ -50,17 +51,6 @@ req.typenames: EXpsFontRestriction
 
 
 The <b>GetDiscardProperties</b> method gets the properties of the discard control.
-
-
-## -syntax
-
-
-````
-HRESULT GetDiscardProperties(
-  [out] BSTR *uriSentinelPage,
-  [out] BSTR *uriPartToDiscard
-);
-````
 
 
 ## -parameters

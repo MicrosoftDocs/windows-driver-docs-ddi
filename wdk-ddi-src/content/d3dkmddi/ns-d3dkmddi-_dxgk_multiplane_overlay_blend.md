@@ -7,7 +7,7 @@ old-location: display\dxgk_multiplane_overlay_blend.htm
 old-project: display
 ms.assetid: e489919c-c0a7-4792-9758-ce7b587b13cc
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: DXGK_MULTIPLANE_OVERLAY_BLEND, DXGK_MULTIPLANE_OVERLAY_BLEND structure [Display Devices], _DXGK_MULTIPLANE_OVERLAY_BLEND, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_BLEND, display.dxgk_multiplane_overlay_blend
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3dkmddi.h
 api_name:
 -	DXGK_MULTIPLANE_OVERLAY_BLEND
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_MULTIPLANE_OVERLAY_BLEND
 ---
@@ -50,27 +51,6 @@ req.typenames: DXGK_MULTIPLANE_OVERLAY_BLEND
 
 
 Identifies a blend operation to be performed on an overlay plane.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGK_MULTIPLANE_OVERLAY_BLEND {
-  union {
-    struct {
-      UINT AlphaBlend  :1;
-#if (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WDDM2_0)
-      UINT ColorKey  :1;
-      UINT Reserved  :30;
-#else 
-      UINT Reserved  :31;
-#endif 
-    };
-    UINT   Value;
-  };
-} DXGK_MULTIPLANE_OVERLAY_BLEND;
-````
 
 
 ## -struct-fields

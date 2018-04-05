@@ -38,7 +38,8 @@ api_location:
 -	Windot11.h
 api_name:
 -	DOT11_CHANNEL_HINT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT11_CHANNEL_HINT, *PDOT11_CHANNEL_HINT
 req.product: Windows 10 or later.

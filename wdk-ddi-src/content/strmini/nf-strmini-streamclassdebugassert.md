@@ -39,7 +39,8 @@ api_location:
 -	Stream.dll
 api_name:
 -	StreamClassDebugAssert
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STREAM_PRIORITY, *PSTREAM_PRIORITY
 req.product: Windows 10 or later.
@@ -52,19 +53,6 @@ req.product: Windows 10 or later.
 
 
 A minidriver can use the <b>StreamClassDebugAssert</b> routine in a checked build environment to fail an assert, causing the stream class driver to output a debug message and break into the kernel debugger.
-
-
-## -syntax
-
-
-````
-VOID StreamClassDebugAssert(
-  _In_ PCHAR File,
-  _In_ ULONG Line,
-  _In_ PCHAR AssertText,
-  _In_ ULONG AssertValue
-);
-````
 
 
 ## -parameters
@@ -112,17 +100,15 @@ When running a checked version of the class driver, asserts are recognized, and 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-dbgbreakpoint.md">DbgBreakPoint</a>
 
 
 
-<a href="..\strmini\nf-strmini-streamclassdebugprint.md">StreamClassDebugPrint</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543626">DbgBreakPoint</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568235">StreamClassDebugPrint</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20StreamClassDebugAssert routine%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: wdf\wdfchildlistrequestchildeject.htm
 old-project: wdf
 ms.assetid: d7729edf-e92d-4707-83e2-fece90daeacf
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/26/2018
 ms.keywords: DFDeviceObjectChildListRef_52991ad9-29ef-4ab8-b746-168fcc0b8e99.xml, WdfChildListRequestChildEject, WdfChildListRequestChildEject method, kmdf.wdfchildlistrequestchildeject, wdf.wdfchildlistrequestchildeject, wdfchildlist/WdfChildListRequestChildEject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Wdf01000.sys.dll
 api_name:
 -	WdfChildListRequestChildEject
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_RETRIEVE_CHILD_FLAGS
 req.product: Windows 10 or later.
@@ -56,17 +57,6 @@ req.product: Windows 10 or later.
 The <b>WdfChildListRequestChildEject</b> method informs the framework that a specified device is about to be ejected from its docking station.
 
 
-## -syntax
-
-
-````
-BOOLEAN WdfChildListRequestChildEject(
-  _In_ WDFCHILDLIST                                 ChildList,
-  _In_ PWDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER IdentificationDescription
-);
-````
-
-
 ## -parameters
 
 
@@ -79,7 +69,7 @@ A handle to a child list object.
 
 ### -param IdentificationDescription [in]
 
-A pointer to a caller-allocated <a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_identification_description_header.md">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER</a> structure.
+A pointer to a caller-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff551223">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER</a> structure.
 
 
 ## -returns
@@ -98,9 +88,9 @@ A system bug check occurs if the driver supplies an invalid object handle.
 
 
 
-A bus driver can call <b>WdfChildListRequestChildEject</b> or <a href="..\wdfpdo\nf-wdfpdo-wdfpdorequesteject.md">WdfPdoRequestEject</a> to report that the driver has detected an attempt to eject one of its enumerated child devices from the device's docking station. For example, the driver might detect that a user has pushed an eject button. 
+A bus driver can call <b>WdfChildListRequestChildEject</b> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff548817">WdfPdoRequestEject</a> to report that the driver has detected an attempt to eject one of its enumerated child devices from the device's docking station. For example, the driver might detect that a user has pushed an eject button. 
 
-If the driver is using dynamic bus enumeration and if the device's identification description is available, the driver can call <b>WdfChildListRequestChildEject</b>. If the framework device object for the device's PDO is available, the driver can call <a href="..\wdfpdo\nf-wdfpdo-wdfpdorequesteject.md">WdfPdoRequestEject</a>. 
+If the driver is using dynamic bus enumeration and if the device's identification description is available, the driver can call <b>WdfChildListRequestChildEject</b>. If the framework device object for the device's PDO is available, the driver can call <a href="https://msdn.microsoft.com/library/windows/hardware/ff548817">WdfPdoRequestEject</a>. 
 
 The <b>WdfChildListRequestChildEject</b> method's <i>IdentificationDescription</i> parameter identifies the device that is being ejected. The device must be a member of the child list that the <i>ChildList</i> parameter represents.
 
@@ -113,7 +103,7 @@ For more information about ejectable devices, see <a href="https://msdn.microsof
 
 #### Examples
 
-For a code example that uses <b>WdfChildListRequestChildEject</b>, see <a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistretrievenextdevice.md">WdfChildListRetrieveNextDevice</a>.
+For a code example that uses <b>WdfChildListRequestChildEject</b>, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff545655">WdfChildListRetrieveNextDevice</a>.
 
 <div class="code"></div>
 
@@ -121,17 +111,15 @@ For a code example that uses <b>WdfChildListRequestChildEject</b>, see <a href="
 
 ## -see-also
 
-<a href="..\wdfpdo\nf-wdfpdo-wdfpdorequesteject.md">WdfPdoRequestEject</a>
 
 
 
-<a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_identification_description_header.md">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551223">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548817">WdfPdoRequestEject</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfChildListRequestChildEject method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

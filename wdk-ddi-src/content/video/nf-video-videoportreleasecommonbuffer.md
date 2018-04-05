@@ -7,7 +7,7 @@ old-location: display\videoportreleasecommonbuffer.htm
 old-project: display
 ms.assetid: b3733de1-63ef-43b8-b669-dbe7e573b499
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: VideoPortReleaseCommonBuffer, VideoPortReleaseCommonBuffer function [Display Devices], VideoPort_Functions_78edd589-bea5-43e3-8658-8c6c95a1f0f7.xml, display.videoportreleasecommonbuffer, video/VideoPortReleaseCommonBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Videoprt.sys
 api_name:
 -	VideoPortReleaseCommonBuffer
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
 req.product: Windows 10 or later.
@@ -50,22 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>VideoPortReleaseCommonBuffer</b> function frees a common buffer that was previously allocated by <a href="..\video\nf-video-videoportallocatecommonbuffer.md">VideoPortAllocateCommonBuffer</a>.
-
-
-## -syntax
-
-
-````
-VOID VideoPortReleaseCommonBuffer(
-  _In_ PVOID            HwDeviceExtension,
-  _In_ PVP_DMA_ADAPTER  VpDmaAdapter,
-  _In_ ULONG            Length,
-  _In_ PHYSICAL_ADDRESS LogicalAddress,
-  _In_ PVOID            VirtualAddress,
-  _In_ BOOLEAN          CacheEnabled
-);
-````
+The <b>VideoPortReleaseCommonBuffer</b> function frees a common buffer that was previously allocated by <a href="https://msdn.microsoft.com/library/windows/hardware/ff570178">VideoPortAllocateCommonBuffer</a>.
 
 
 ## -parameters
@@ -80,7 +66,7 @@ Pointer to the miniport driver's device extension.
 
 ### -param VpDmaAdapter [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff570570">VP_DMA_ADAPTER</a> structure that represents the bus-master adapter. This is the structure returned after a call to <a href="..\video\nf-video-videoportgetdmaadapter.md">VideoPortGetDmaAdapter</a>.
+Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff570570">VP_DMA_ADAPTER</a> structure that represents the bus-master adapter. This is the structure returned after a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff570312">VideoPortGetDmaAdapter</a>.
 
 
 ### -param Length [in]
@@ -95,7 +81,7 @@ Specifies the logical address of the buffer to be freed.
 
 ### -param VirtualAddress [in]
 
-Pointer to the corresponding virtual address of the allocated memory range. This value was obtained in a prior call to <a href="..\video\nf-video-videoportallocatecommonbuffer.md">VideoPortAllocateCommonBuffer</a>.
+Pointer to the corresponding virtual address of the allocated memory range. This value was obtained in a prior call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff570178">VideoPortAllocateCommonBuffer</a>.
 
 
 ### -param CacheEnabled [in]
@@ -123,7 +109,6 @@ The parameters passed to <b>VideoPortFreeCommonBuffer</b> must match exactly tho
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportgetdmaadapter.md">VideoPortGetDmaAdapter</a>
 
 
 
@@ -131,13 +116,12 @@ The parameters passed to <b>VideoPortFreeCommonBuffer</b> must match exactly tho
 
 
 
-<a href="..\video\nf-video-videoportallocatecommonbuffer.md">VideoPortAllocateCommonBuffer</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570178">VideoPortAllocateCommonBuffer</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570312">VideoPortGetDmaAdapter</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20VideoPortReleaseCommonBuffer function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: print\iprintasynccookie.htm
 old-project: print
 ms.assetid: CF323800-F4C3-4CDB-B4EC-13359E262BF3
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: IPrintAsyncCookie, IPrintAsyncCookie interface [Print Devices], IPrintAsyncCookie interface [Print Devices], described, print.iprintasynccookie, prnasntp/IPrintAsyncCookie
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Prnasntp.h
 api_name:
 -	IPrintAsyncCookie
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USERDATA, *PUSERDATA
 req.product: Windows 10 or later.

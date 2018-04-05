@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KStrAllocator
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SOUNDDETECTOR_PATTERNHEADER
 ---
@@ -49,22 +50,7 @@ req.typenames: SOUNDDETECTOR_PATTERNHEADER
 ## -description
 
 
-Minidrivers can optionally supply a callback function of type <b>PFNKSALLOCATOR</b> as a parameter in calls to <a href="..\ks\nf-ks-ksenableeventwithallocator.md">KsEnableEventWithAllocator</a>, <a href="..\ks\nf-ks-kspropertyhandlerwithallocator.md">KsPropertyHandlerWithAllocator</a>, and <a href="..\ks\nf-ks-ksmethodhandlerwithallocator.md">KsMethodHandlerWithAllocator</a>.
-
-
-## -prototype
-
-
-````
-PFNKSALLOCATOR KStrAllocator;
-
-NTSTATUS KStrAllocator(
-  _In_ PIRP  Irp,
-  _In_ ULONG BufferSize,
-  _In_ BOOL  InputOperation
-)
-{ ... }
-````
+Minidrivers can optionally supply a callback function of type <b>PFNKSALLOCATOR</b> as a parameter in calls to <a href="https://msdn.microsoft.com/library/windows/hardware/ff561733">KsEnableEventWithAllocator</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff564264">KsPropertyHandlerWithAllocator</a>, and <a href="https://msdn.microsoft.com/library/windows/hardware/ff563401">KsMethodHandlerWithAllocator</a>.
 
 
 ## -parameters

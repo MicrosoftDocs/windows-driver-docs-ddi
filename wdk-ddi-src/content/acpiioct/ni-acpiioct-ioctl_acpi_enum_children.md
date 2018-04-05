@@ -38,7 +38,8 @@ api_location:
 -	Acpiioct.h
 api_name:
 -	IOCTL_ACPI_ENUM_CHILDREN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UNIT_ISOCH_PARAMS, *PUNIT_ISOCH_PARAMS
 ---
@@ -46,15 +47,10 @@ req.typenames: UNIT_ISOCH_PARAMS, *PUNIT_ISOCH_PARAMS
 # IOCTL_ACPI_ENUM_CHILDREN IOCTL
 
 
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
-
 ## -description
 
 
-The IOCTL_ACPI_ENUM_CHILDREN device control request can be used to enumerate the path and name of devices or named child objects in the ACPI namespace of the device to which this request is sent. A driver should call <a href="..\wdm\nf-wdm-iobuilddeviceiocontrolrequest.md">IoBuildDeviceIoControlRequest</a> and pass the following input and output parameters to build this request. 
+The IOCTL_ACPI_ENUM_CHILDREN device control request can be used to enumerate the path and name of devices or named child objects in the ACPI namespace of the device to which this request is sent. A driver should call <a href="https://msdn.microsoft.com/library/windows/hardware/ff548318">IoBuildDeviceIoControlRequest</a> and pass the following input and output parameters to build this request. 
 
 
 ## -ioctlparameters
@@ -76,7 +72,7 @@ Set the <b>IoBuildDeviceIoControlRequest</b> input parameters as follows:
 
 </li>
 <li>
-<i>InputBuffer</i> is set to a pointer to a variable-length <a href="..\acpiioct\ns-acpiioct-_acpi_enum_children_input_buffer.md">ACPI_ENUM_CHILDREN_INPUT_BUFFER</a> structure.
+<i>InputBuffer</i> is set to a pointer to a variable-length <a href="https://msdn.microsoft.com/library/windows/hardware/ff536110">ACPI_ENUM_CHILDREN_INPUT_BUFFER</a> structure.
 
 </li>
 <li>
@@ -108,11 +104,11 @@ Set the <b>IoBuildDeviceIoControlRequest</b> output parameters as follows:
 
 <ul>
 <li>
-<i>OutputBuffer</i> supplies a pointer to a variable-length <a href="..\acpiioct\ns-acpiioct-_acpi_enum_children_output_buffer.md">ACPI_ENUM_CHILDREN_OUTPUT_BUFFER</a> structure in which the ACPI driver returns the path and name of the enumerated child devices.
+<i>OutputBuffer</i> supplies a pointer to a variable-length <a href="https://msdn.microsoft.com/library/windows/hardware/ff536112">ACPI_ENUM_CHILDREN_OUTPUT_BUFFER</a> structure in which the ACPI driver returns the path and name of the enumerated child devices.
 
 </li>
 <li>
-<i>IoStatusBlock</i> is set to an <a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure.
+<i>IoStatusBlock</i> is set to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550671">IO_STATUS_BLOCK</a> structure.
 
 </li>
 </ul>
@@ -151,7 +147,7 @@ If the request succeeds, the <i>IoStatusBlock</i>-&gt;<b>Information</b> member 
 
 
 
-IOCTL_ACPI_ENUM_CHILDREN returns a variable-length ACPI_ENUM_CHILDREN_OUTPUT_BUFFER structure that contains an array of variable-length <a href="..\acpiioct\ns-acpiioct-_acpi_enum_child.md">ACPI_ENUM_CHILD</a> structures, each of which returns the fully qualified path and name of an object in the ACPI namespace of the device to which the request was sent. The objects that this request enumerates depends on the setting of the <b>Flags</b> member of the supplied input structure ACPI_ENUM_CHILDREN_INPUT_BUFFER, as follows:
+IOCTL_ACPI_ENUM_CHILDREN returns a variable-length ACPI_ENUM_CHILDREN_OUTPUT_BUFFER structure that contains an array of variable-length <a href="https://msdn.microsoft.com/library/windows/hardware/ff536109">ACPI_ENUM_CHILD</a> structures, each of which returns the fully qualified path and name of an object in the ACPI namespace of the device to which the request was sent. The objects that this request enumerates depends on the setting of the <b>Flags</b> member of the supplied input structure ACPI_ENUM_CHILDREN_INPUT_BUFFER, as follows:
 
 
 
@@ -168,21 +164,19 @@ IOCTL_ACPI_ENUM_CHILDREN can be used only at IRQL&lt; DISPATCH_LEVEL.
 
 ## -see-also
 
-<a href="..\acpiioct\ns-acpiioct-_acpi_enum_child.md">ACPI_ENUM_CHILD</a>
 
 
 
-<a href="..\acpiioct\ns-acpiioct-_acpi_enum_children_output_buffer.md">ACPI_ENUM_CHILDREN_OUTPUT_BUFFER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536109">ACPI_ENUM_CHILD</a>
 
 
 
-<a href="..\acpiioct\ns-acpiioct-_acpi_enum_children_input_buffer.md">ACPI_ENUM_CHILDREN_INPUT_BUFFER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536110">ACPI_ENUM_CHILDREN_INPUT_BUFFER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536112">ACPI_ENUM_CHILDREN_OUTPUT_BUFFER</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [acpi\acpi]:%20IOCTL_ACPI_ENUM_CHILDREN control code%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

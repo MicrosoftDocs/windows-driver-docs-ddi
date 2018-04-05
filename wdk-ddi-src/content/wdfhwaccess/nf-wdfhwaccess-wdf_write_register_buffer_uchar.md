@@ -7,7 +7,7 @@ old-location: wdf\wdf_write_register_buffer_uchar.htm
 old-project: wdf
 ms.assetid: A2BFF042-8358-4F82-B15D-7AD130C95DE3
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/26/2018
 ms.keywords: WDF_WRITE_REGISTER_BUFFER_UCHAR, WDF_WRITE_REGISTER_BUFFER_UCHAR function, wdf.wdf_write_register_buffer_uchar, wdfhwaccess/WDF_WRITE_REGISTER_BUFFER_UCHAR
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	Wdfhwaccess.h
 api_name:
 -	WDF_WRITE_REGISTER_BUFFER_UCHAR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_FILE_INFORMATION_CLASS, *PWDF_FILE_INFORMATION_CLASS
 req.product: Windows 10 or later.
@@ -53,19 +54,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to UMDF only]
 
 The <b>WDF_WRITE_REGISTER_BUFFER_UCHAR</b> function writes a number of bytes from a buffer to the specified register.
-
-
-## -syntax
-
-
-````
-void WDF_WRITE_REGISTER_BUFFER_UCHAR(
-  _In_ WDFDEVICE Device,
-  _In_ PUCHAR    Register,
-  _In_ PUCHAR    Buffer,
-  _In_ ULONG     Count 
-);
-````
 
 
 ## -parameters

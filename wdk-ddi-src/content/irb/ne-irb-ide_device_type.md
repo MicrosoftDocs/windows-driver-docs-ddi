@@ -7,7 +7,7 @@ old-location: storage\ide_device_type.htm
 old-project: storage
 ms.assetid: 6d94189f-d6ab-40ad-85e5-f4efe8c30ed8
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: DeviceIsAta, DeviceIsAtapi, DeviceNotExist, DeviceUnknown, IDE_DEVICE_TYPE, IDE_DEVICE_TYPE enumeration [Storage Devices], irb/DeviceIsAta, irb/DeviceIsAtapi, irb/DeviceNotExist, irb/DeviceUnknown, irb/IDE_DEVICE_TYPE, storage.ide_device_type, structs-ATA_ebe5b232-fdb1-4be8-ada6-54e2dc3d09a8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	irb.h
 api_name:
 -	IDE_DEVICE_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: IDE_DEVICE_TYPE
 ---
@@ -51,19 +52,6 @@ req.typenames: IDE_DEVICE_TYPE
 
 The IDE_DEVICE_TYPE enumeration type indicates the device type.
 <div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
-
-## -syntax
-
-
-````
-typedef enum  { 
-  DeviceUnknown   = 0,
-  DeviceIsAta     = 1,
-  DeviceIsAtapi   = 2,
-  DeviceNotExist  = 3
-} IDE_DEVICE_TYPE;
-````
-
 
 ## -enum-fields
 

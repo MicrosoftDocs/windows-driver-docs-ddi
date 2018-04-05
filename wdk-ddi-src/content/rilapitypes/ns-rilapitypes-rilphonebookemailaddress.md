@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILPHONEBOOKEMAILADDRESS
 title: RILPHONEBOOKEMAILADDRESS
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilphonebookemailaddress_2.htm
+old-location: netvista\rilphonebookemailaddress.htm
 old-project: netvista
-ms.assetid: 322939c8-c7c9-405b-9f78-08ae9c642b42
+ms.assetid: 89dc64a4-dce9-4ed2-a657-d216d502cded
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: "*LPRILPHONEBOOKEMAILADDRESS, RILPHONEBOOKEMAILADDRESS, RILPHONEBOOKEMAILADDRESS structure [Network Drivers Starting with Windows Vista], netvista.rilphonebookemailaddress_2, rilapitypes/RILPHONEBOOKEMAILADDRESS"
+ms.date: 3/26/2018
+ms.keywords: "*LPRILPHONEBOOKEMAILADDRESS, RILPHONEBOOKEMAILADDRESS, RILPHONEBOOKEMAILADDRESS structure [Network Drivers Starting with Windows Vista], netvista.rilphonebookemailaddress, ntddrilapitypes/RILPHONEBOOKEMAILADDRESS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,10 +35,11 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILPHONEBOOKEMAILADDRESS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILPHONEBOOKEMAILADDRESS, *LPRILPHONEBOOKEMAILADDRESS
 req.product: Windows 10 or later.
@@ -50,19 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-
-## -syntax
-
-
-````
-typedef struct _RILPHONEBOOKEMAILADDRESS {
-  DWORD                           cbSize;
-  DWORD                           dwParams;
-  WCHAR [MAXLENGTH_PHONEBOOKTEXT] wszAddress;
-} RILPHONEBOOKEMAILADDRESS, RILPHONEBOOKEMAILADDRESS;
-````
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -struct-fields

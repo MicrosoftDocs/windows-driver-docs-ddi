@@ -7,7 +7,7 @@ old-location: print\delete_port_data_1.htm
 old-project: print
 ms.assetid: d4fb5bf9-7982-4abd-91ba-59b7798a18c7
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: "*PDELETE_PORT_DATA_1, DELETE_PORT_DATA_1, DELETE_PORT_DATA_1 structure [Print Devices], PDELETE_PORT_DATA_1, PDELETE_PORT_DATA_1 structure pointer [Print Devices], _DELETE_PORT_DATA_1, print.delete_port_data_1, spoolfnc_238080f3-e916-4a7f-9531-361659c21a3d.xml, tcpxcv/DELETE_PORT_DATA_1, tcpxcv/PDELETE_PORT_DATA_1"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	tcpxcv.h
 api_name:
 -	DELETE_PORT_DATA_1
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DELETE_PORT_DATA_1, *PDELETE_PORT_DATA_1
 req.product: Windows 10 or later.
@@ -51,19 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <a href="https://msdn.microsoft.com/library/windows/hardware/ff564255">XcvData</a> function uses a DELETE_PORT_DATA_1 structure when it deletes a port.
-
-
-## -syntax
-
-
-````
-typedef struct _DELETE_PORT_DATA_1 {
-  WCHAR psztPortName[MAX_PORTNAME_LEN];
-  BYTE  Reserved[98];
-  DWORD dwVersion;
-  DWORD dwReserved;
-} DELETE_PORT_DATA_1, *PDELETE_PORT_DATA_1;
-````
 
 
 ## -struct-fields
@@ -104,13 +92,11 @@ See <a href="https://msdn.microsoft.com/7b2b1cff-ab8f-44e0-9327-dc60a0072bf5">TC
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564255">XcvData</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20DELETE_PORT_DATA_1 structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

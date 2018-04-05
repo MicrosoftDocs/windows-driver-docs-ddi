@@ -38,7 +38,8 @@ api_location:
 -	bthddi.h
 api_name:
 -	ENUMERATOR_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: ENUMERATOR_TYPE, *PENUMERATOR_TYPE
 ---
@@ -52,18 +53,6 @@ req.typenames: ENUMERATOR_TYPE, *PENUMERATOR_TYPE
 The ENUMERATOR_TYPE enumeration type is used to determine whether the enumerated device is associated
   with a service or a protocol. The ENUMERATOR_TYPE enumeration is intended for internal use only and should
   not be used by profile drivers.
-
-
-## -syntax
-
-
-````
-typedef enum _ENUMERATOR_TYPE { 
-  ENUMERATOR_TYPE_PROTOCOL  = 0,
-  ENUMERATOR_TYPE_SERVICE   = 1,
-  ENUMERATOR_TYPE_MAX       = 2
-} ENUMERATOR_TYPE, *PENUMERATOR_TYPE;
-````
 
 
 ## -enum-fields
@@ -80,7 +69,7 @@ For internal use only. Do not use.
 
 This value should be specified for profile drivers. For more information about how this value is
      used, see 
-     <a href="..\bthddi\ns-bthddi-_bth_enumerator_info.md">BTH_ENUMERATOR_INFO</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536643">BTH_ENUMERATOR_INFO</a>.
 
 
 ### -field ENUMERATOR_TYPE_DEVICE
@@ -97,8 +86,8 @@ For internal use only. Do not use.
 
 A value from this enumeration is returned as the 
     <b>EnumeratorType</b> member of the 
-    <a href="..\bthddi\ns-bthddi-_bth_enumerator_info.md">BTH_ENUMERATOR_INFO</a> structure, which the 
-    <a href="..\bthioctl\ni-bthioctl-ioctl_internal_bthenum_get_enuminfo.md">
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff536643">BTH_ENUMERATOR_INFO</a> structure, which the 
+    <a href="https://msdn.microsoft.com/43cd8e6b-5710-4308-a7c4-fb6f14940977">
     IOCTL_INTERNAL_BTHENUM_GET_ENUMINFO</a> returns in its output buffer.
 
 
@@ -106,18 +95,16 @@ A value from this enumeration is returned as the
 
 ## -see-also
 
-<a href="..\bthddi\ns-bthddi-_bth_enumerator_info.md">BTH_ENUMERATOR_INFO</a>
 
 
 
-<a href="..\bthioctl\ni-bthioctl-ioctl_internal_bthenum_get_enuminfo.md">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536643">BTH_ENUMERATOR_INFO</a>
+
+
+
+<a href="https://msdn.microsoft.com/43cd8e6b-5710-4308-a7c4-fb6f14940977">
    IOCTL_INTERNAL_BTHENUM_GET_ENUMINFO</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20ENUMERATOR_TYPE enumeration%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

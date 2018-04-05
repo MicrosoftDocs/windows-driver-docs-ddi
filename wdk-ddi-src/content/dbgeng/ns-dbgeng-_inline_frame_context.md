@@ -7,7 +7,7 @@ old-location: debugger\inline_frame_context.htm
 old-project: debugger
 ms.assetid: 6EB52227-8685-4096-882F-64550A84DE4F
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/26/2018
 ms.keywords: INLINE_FRAME_CONTEXT, INLINE_FRAME_CONTEXT union [Windows Debugging], _INLINE_FRAME_CONTEXT, dbgeng/INLINE_FRAME_CONTEXT, debugger.inline_frame_context
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Dbgeng.h
 api_name:
 -	INLINE_FRAME_CONTEXT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: INLINE_FRAME_CONTEXT
 ---
@@ -50,21 +51,6 @@ req.typenames: INLINE_FRAME_CONTEXT
 
 
 Describes inline frame context. 
-
-
-## -syntax
-
-
-````
-typedef union _INLINE_FRAME_CONTEXT {
-  DWORD  ContextValue;
-  struct  {
-        BYTE FrameId;
-        BYTE FrameType;
-        WORD FrameSignature;
-    };
-} INLINE_FRAME_CONTEXT;
-````
 
 
 ## -struct-fields

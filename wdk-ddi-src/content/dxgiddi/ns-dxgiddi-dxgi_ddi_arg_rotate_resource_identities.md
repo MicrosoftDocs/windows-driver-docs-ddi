@@ -7,7 +7,7 @@ old-location: display\dxgi_ddi_arg_rotate_resource_identities.htm
 old-project: display
 ms.assetid: 904b16d1-44dc-4d7a-96cb-3fd82d378b24
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: DXGI_DDI_ARG_ROTATE_RESOURCE_IDENTITIES, DXGI_DDI_ARG_ROTATE_RESOURCE_IDENTITIES structure [Display Devices], UMDisplayDriver_Dx10param_Structs_f52f40ab-97f1-4c3f-839f-9da2dc8e7798.xml, display.dxgi_ddi_arg_rotate_resource_identities, dxgiddi/DXGI_DDI_ARG_ROTATE_RESOURCE_IDENTITIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	dxgiddi.h
 api_name:
 -	DXGI_DDI_ARG_ROTATE_RESOURCE_IDENTITIES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGI_DDI_ARG_ROTATE_RESOURCE_IDENTITIES
 ---
@@ -52,18 +53,6 @@ req.typenames: DXGI_DDI_ARG_ROTATE_RESOURCE_IDENTITIES
 Describes a list of resources to rotate. 
 
 
-## -syntax
-
-
-````
-typedef struct DXGI_DDI_ARG_ROTATE_RESOURCE_IDENTITIES {
-  DXGI_DDI_HDEVICE         hDevice;
-  const DXGI_DDI_HRESOURCE *pResources;
-  UINT                     Resources;
-} DXGI_DDI_ARG_ROTATE_RESOURCE_IDENTITIES;
-````
-
-
 ## -struct-fields
 
 
@@ -71,7 +60,7 @@ typedef struct DXGI_DDI_ARG_ROTATE_RESOURCE_IDENTITIES {
 
 ### -field hDevice
 
-[in] A handle to the display device (graphics context) on which the driver rotates resources. The Direct3D runtime passes this handle to the driver in the <b>hDrvDevice</b> member of the <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createdevice.md">D3D10DDIARG_CREATEDEVICE</a> structure when the runtime calls the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a> function to create the display device. 
+[in] A handle to the display device (graphics context) on which the driver rotates resources. The Direct3D runtime passes this handle to the driver in the <b>hDrvDevice</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541664">D3D10DDIARG_CREATEDEVICE</a> structure when the runtime calls the driver's <a href="https://msdn.microsoft.com/c69eedb1-c975-412c-aa9f-cf64a702f937">CreateDevice(D3D10)</a> function to create the display device. 
 
 
 ### -field pResources
@@ -88,13 +77,11 @@ Beginning in Windows 8, the driver must support rotation of stereo back buffers
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569514">RotateResourceIdentitiesDXGI</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGI_DDI_ARG_ROTATE_RESOURCE_IDENTITIES structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

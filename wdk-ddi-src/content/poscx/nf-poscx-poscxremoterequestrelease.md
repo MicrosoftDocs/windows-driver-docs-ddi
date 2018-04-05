@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	poscx.h
 api_name:
 -	PosCxRemoteRequestRelease
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: POS_CX_EVENT_PRIORITY
 req.product: Windows 10 or later.
@@ -52,17 +53,6 @@ req.product: Windows 10 or later.
 
 PosCxRemoteRequestRelease is called whenever a remote device asks for
       the device to release.  This initiates claim negotiation.
-
-
-## -syntax
-
-
-````
-NTSTATUS PosCxRemoteRequestRelease(
-  _In_ WDFDEVICE device,
-  _In_ ULONG     deviceInterfaceTag
-);
-````
 
 
 ## -parameters

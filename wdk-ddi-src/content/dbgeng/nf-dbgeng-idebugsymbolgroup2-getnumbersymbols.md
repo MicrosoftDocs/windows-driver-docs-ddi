@@ -7,7 +7,7 @@ old-location: debugger\getnumbersymbols.htm
 old-project: debugger
 ms.assetid: 5a202530-7146-472d-9560-580871cd56ec
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/26/2018
 ms.keywords: ComOther_e355317f-ba58-4d2a-a8f7-ad3cf4b17607.xml, GetNumberSymbols method [Windows Debugging], GetNumberSymbols method [Windows Debugging], IDebugSymbolGroup interface, GetNumberSymbols method [Windows Debugging], IDebugSymbolGroup2 interface, GetNumberSymbols,IDebugSymbolGroup2.GetNumberSymbols, IDebugSymbolGroup interface [Windows Debugging], GetNumberSymbols method, IDebugSymbolGroup2, IDebugSymbolGroup2 interface [Windows Debugging], GetNumberSymbols method, IDebugSymbolGroup2::GetNumberSymbols, IDebugSymbolGroup::GetNumberSymbols, dbgeng/IDebugSymbolGroup2::GetNumberSymbols, dbgeng/IDebugSymbolGroup::GetNumberSymbols, debugger.getnumbersymbols
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	IDebugSymbolGroup.GetNumberSymbols
 -	IDebugSymbolGroup2.GetNumberSymbols
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -51,16 +52,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetNumberSymbols</b> method returns the number of <a href="https://msdn.microsoft.com/library/windows/hardware/ff558824">symbols</a> that are contained in a symbol group.
-
-
-## -syntax
-
-
-````
-HRESULT GetNumberSymbols(
-  [out] PULONG Number
-);
-````
 
 
 ## -parameters

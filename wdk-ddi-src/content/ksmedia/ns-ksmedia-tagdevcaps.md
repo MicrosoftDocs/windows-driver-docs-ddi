@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	DEVCAPS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DEVCAPS, *PDEVCAPS
 ---
@@ -50,38 +51,6 @@ req.typenames: DEVCAPS, *PDEVCAPS
 
 
 The DEVCAPS structure describes the capabilities of an external device.
-
-
-## -syntax
-
-
-````
-typedef struct tagDEVCAPS {
-  LONG CanRecord;
-  LONG CanRecordStrobe;
-  LONG HasAudio;
-  LONG HasVideo;
-  LONG UsesFiles;
-  LONG CanSave;
-  LONG DeviceType;
-  LONG TCRead;
-  LONG TCWrite;
-  LONG CTLRead;
-  LONG IndexRead;
-  LONG Preroll;
-  LONG Postroll;
-  LONG SyncAcc;
-  LONG NormRate;
-  LONG CanPreview;
-  LONG CanMonitorSrc;
-  LONG CanTest;
-  LONG VideoIn;
-  LONG AudioIn;
-  LONG Calibrate;
-  LONG SeekType;
-  LONG SimulatedHardware;
-} DEVCAPS, *PDEVCAPS;
-````
 
 
 ## -struct-fields
@@ -325,17 +294,15 @@ The <b>DeviceType</b> member can be used by an application to detect the device 
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-_timecode.md">TIMECODE</a>
 
 
 
-<a href="..\ksmedia\ns-ksmedia-ksproperty_extdevice_s.md">KSPROPERTY_EXTDEVICE_S</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565156">KSPROPERTY_EXTDEVICE_S</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568520">TIMECODE</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20DEVCAPS structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

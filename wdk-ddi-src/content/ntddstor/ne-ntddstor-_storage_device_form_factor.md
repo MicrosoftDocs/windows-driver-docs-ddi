@@ -7,7 +7,7 @@ old-location: storage\storage_device_form_factor.htm
 old-project: storage
 ms.assetid: EE59767B-2504-4E5F-A442-60EEBEE70B59
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSTORAGE_DEVICE_FORM_FACTOR, FormFactor1_8, FormFactor1_8Less, FormFactor2_5, FormFactor3_5, FormFactorDimm, FormFactorEmbedded, FormFactorM_2, FormFactorMemoryCard, FormFactorPCIeBoard, FormFactorUnknown, FormFactormSata, PSTORAGE_DEVICE_FORM_FACTOR, PSTORAGE_DEVICE_FORM_FACTOR enumeration pointer [Storage Devices], STORAGE_DEVICE_FORM_FACTOR, STORAGE_DEVICE_FORM_FACTOR enumeration [Storage Devices], _STORAGE_DEVICE_FORM_FACTOR, ntddstor/FormFactor1_8, ntddstor/FormFactor1_8Less, ntddstor/FormFactor2_5, ntddstor/FormFactor3_5, ntddstor/FormFactorDimm, ntddstor/FormFactorEmbedded, ntddstor/FormFactorM_2, ntddstor/FormFactorMemoryCard, ntddstor/FormFactorPCIeBoard, ntddstor/FormFactorUnknown, ntddstor/FormFactormSata, ntddstor/PSTORAGE_DEVICE_FORM_FACTOR, ntddstor/STORAGE_DEVICE_FORM_FACTOR, storage.storage_device_form_factor"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ntddstor.h
 api_name:
 -	STORAGE_DEVICE_FORM_FACTOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STORAGE_DEVICE_FORM_FACTOR, *PSTORAGE_DEVICE_FORM_FACTOR
 ---
@@ -50,26 +51,6 @@ req.typenames: STORAGE_DEVICE_FORM_FACTOR, *PSTORAGE_DEVICE_FORM_FACTOR
 
 
 Indicates the form factor of a storage device.
-
-
-## -syntax
-
-
-````
-typedef enum _STORAGE_DEVICE_FORM_FACTOR { 
-  FormFactorUnknown     = 0, // 0x0
-  FormFactor3_5,
-  FormFactor2_5,
-  FormFactor1_8,
-  FormFactor1_8Less,
-  FormFactorEmbedded,
-  FormFactorMemoryCard,
-  FormFactormSata,
-  FormFactorM_2,
-  FormFactorPCIeBoard,
-  FormFactorDimm
-} STORAGE_DEVICE_FORM_FACTOR, *PSTORAGE_DEVICE_FORM_FACTOR;
-````
 
 
 ## -enum-fields

@@ -7,13 +7,13 @@ old-location: netvista\rilmsgdcsalphabet.htm
 old-project: netvista
 ms.assetid: 21886c34-ca8d-4466-a3db-6841b2f59137
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: RILMSGDCSALPHABET, RILMSGDCSALPHABET enumeration [Network Drivers Starting with Windows Vista], RIL_DCSALPHABET_8BIT, RIL_DCSALPHABET_MAX, RIL_DCSALPHABET_UCS2, netvista.rilmsgdcsalphabet, ntddrilapitypes/RILMSGDCSALPHABET, ntddrilapitypes/RIL_DCSALPHABET_8BIT, ntddrilapitypes/RIL_DCSALPHABET_MAX, ntddrilapitypes/RIL_DCSALPHABET_UCS2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: ntddrilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILMSGDCSALPHABET
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILMSGDCSALPHABET
 ---
@@ -50,18 +51,6 @@ req.typenames: RILMSGDCSALPHABET
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef enum _RILMSGDCSALPHABET { 
-  RIL_DCSALPHABET_8BIT,
-  RIL_DCSALPHABET_UCS2,
-  RIL_DCSALPHABET_MAX
-} RILMSGDCSALPHABET;
-````
 
 
 ## -enum-fields

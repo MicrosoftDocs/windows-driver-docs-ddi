@@ -39,7 +39,8 @@ api_location:
 -	Hidparse.dll
 api_name:
 -	HidP_UsageListDifference
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: HIDP_REPORT_TYPE
 ---
@@ -51,20 +52,6 @@ req.typenames: HIDP_REPORT_TYPE
 
 
 The <b>HidP_UsageListDifference</b> routine returns the differences between two arrays of <a href="https://msdn.microsoft.com/84fed314-3554-4291-b51c-734d874a4bab">HID usages</a>.
-
-
-## -syntax
-
-
-````
-NTSTATUS __stdcall HidP_UsageListDifference(
-  _In_  PUSAGE PreviousUsageList,
-  _In_  PUSAGE CurrentUsageList,
-  _Out_ PUSAGE BreakUsageList,
-  _Out_ PUSAGE MakeUsageList,
-  _In_  ULONG  UsageListLength
-);
-````
 
 
 ## -parameters
@@ -123,13 +110,11 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
 ## -see-also
 
-<a href="..\hidpi\nf-hidpi-hidp_usageandpagelistdifference.md">HidP_UsageAndPageListDifference</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539824">HidP_UsageAndPageListDifference</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [hid\hid]:%20HidP_UsageListDifference routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

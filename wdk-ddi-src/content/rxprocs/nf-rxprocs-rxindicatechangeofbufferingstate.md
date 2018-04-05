@@ -7,7 +7,7 @@ old-location: ifsk\rxindicatechangeofbufferingstate.htm
 old-project: ifsk
 ms.assetid: 981f5a33-a4f1-438c-8fcf-03a5ab4c0e44
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: RxIndicateChangeOfBufferingState, RxIndicateChangeOfBufferingState routine [Installable File System Drivers], ifsk.rxindicatechangeofbufferingstate, rxprocs/RxIndicateChangeOfBufferingState, rxref_4a7ba539-c0b8-4c3b-b642-c272d262310b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	rxprocs.h
 api_name:
 -	RxIndicateChangeOfBufferingState
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RX_CONTEXT, *PRX_CONTEXT
 req.product: Windows 10 or later.
@@ -51,18 +52,6 @@ req.product: Windows 10 or later.
 
 
 <b>RxIndicateChangeOfBufferingState</b> is called to register a change buffering state request (an oplock break indication, for example) for later processing. If necessary, worker thread routines for further processing are activated.
-
-
-## -syntax
-
-
-````
-VOID RxIndicateChangeOfBufferingState(
-   PMRX_SRV_CALL SrvCall,
-   PVOID         SrvOpenKey,
-   PVOID         MRxContext
-);
-````
 
 
 ## -parameters
@@ -118,25 +107,23 @@ If a buffering state request can be processed immediately instead of being queue
 
 ## -see-also
 
-<a href="..\rxprocs\nf-rxprocs-rxindicatechangeofbufferingstateforsrvopen.md">RxIndicateChangeOfBufferingStateForSrvOpen</a>
 
 
 
-<a href="..\rxcontx\ns-rxcontx-_rx_context.md">RX_CONTEXT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554751">RX_CONTEXT</a>
 
 
 
-<a href="..\rxprocs\nf-rxprocs-rxchangebufferingstate.md">RxChangeBufferingState</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554335">RxChangeBufferingState</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554490">RxIndicateChangeOfBufferingStateForSrvOpen</a>
 
 
 
 <a href="https://msdn.microsoft.com/6cf4c6f6-a21f-4919-92b5-2403b650d8d0">The SRV_OPEN Structure</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RxIndicateChangeOfBufferingState routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

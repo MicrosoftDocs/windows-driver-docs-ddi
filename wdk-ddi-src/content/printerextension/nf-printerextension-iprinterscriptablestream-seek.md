@@ -7,7 +7,7 @@ old-location: print\iprinterscriptablestream__seek.htm
 old-project: print
 ms.assetid: 82080353-2252-4BF2-B7F4-F297DCA99FA0
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: IPrinterScriptableStream, IPrinterScriptableStream interface [Print Devices], Seek method, IPrinterScriptableStream::Seek, Seek method [Print Devices], Seek method [Print Devices], IPrinterScriptableStream interface, Seek,IPrinterScriptableStream.Seek, print.iprinterscriptablestream__seek, printerextension/IPrinterScriptableStream::Seek
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: printerextension.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	Printerextension.h
 api_name:
 -	IPrinterScriptableStream.Seek
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PrintSchemaSelectionType
 req.product: Windows 10 or later.
@@ -51,18 +52,6 @@ req.product: Windows 10 or later.
 
 
 Sets the seek pointer.
-
-
-## -syntax
-
-
-````
-HRESULT Seek(
-  [in]          LONG        lOffset,
-  [in]          STREAM_SEEK streamSeek,
-  [out, retval] LONG        *plPosition
-);
-````
 
 
 ## -parameters
@@ -96,13 +85,11 @@ This method returns an <b>HRESULT</b> value.
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprinterscriptablestream.md">IPrinterScriptableStream</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh973218">IPrinterScriptableStream</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrinterScriptableStream::Seek method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

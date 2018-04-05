@@ -7,7 +7,7 @@ old-location: storage\ufs_purge_status.htm
 old-project: storage
 ms.assetid: 9BC978A9-FA5E-4A1E-9775-1DC9C270F5DC
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: UFS_PURGE_STATUS, UFS_PURGE_STATUS enumeration [Storage Devices], UFS_PurgeStatusFailure, UFS_PurgeStatusIdle, UFS_PurgeStatusInProgress, UFS_PurgeStatusInterrupted, UFS_PurgeStatusQueueNotEmpty, UFS_PurgeStatusSuccess, storage.ufs_purge_status, ufs/UFS_PURGE_STATUS, ufs/UFS_PurgeStatusFailure, ufs/UFS_PurgeStatusIdle, ufs/UFS_PurgeStatusInProgress, ufs/UFS_PurgeStatusInterrupted, ufs/UFS_PurgeStatusQueueNotEmpty, ufs/UFS_PurgeStatusSuccess
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ufs.h
 api_name:
 -	UFS_PURGE_STATUS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UFS_PURGE_STATUS
 req.product: Windows 10 or later.
@@ -51,21 +52,6 @@ req.product: Windows 10 or later.
 
 
 Specifies the current status of a purge operation.
-
-
-## -syntax
-
-
-````
-typedef enum _UFS_PURGE_STATUS { 
-  UFS_PurgeStatusIdle           = 0,
-  UFS_PurgeStatusInProgress     = 1,
-  UFS_PurgeStatusInterrupted    = 2,
-  UFS_PurgeStatusSuccess        = 3,
-  UFS_PurgeStatusQueueNotEmpty  = 4,
-  UFS_PurgeStatusFailure        = 5
-} UFS_PURGE_STATUS;
-````
 
 
 ## -enum-fields
@@ -118,13 +104,11 @@ that it is read.
 
 ## -see-also
 
-<a href="..\ufs\ne-ufs-ufs_attributes_descriptor.md">UFS_ATTRIBUTES_DESCRIPTOR</a>
 
 
 
+<a href="https://msdn.microsoft.com/695D8FE9-FADB-488F-A5F7-7715EAD48DD6">UFS_ATTRIBUTES_DESCRIPTOR</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20UFS_PURGE_STATUS enumeration%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: kernel\rtlstringcbcopyex.htm
 old-project: kernel
 ms.assetid: 92a22ad9-f450-4156-a5e9-c765f94c2dbf
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/28/2018
 ms.keywords: RtlStringCbCopyEx, RtlStringCbCopyExA, RtlStringCbCopyExW, RtlStringCbCopyExW function [Kernel-Mode Driver Architecture], STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, kernel.rtlstringcbcopyex, ntstrsafe/RtlStringCbCopyExA, ntstrsafe/RtlStringCbCopyExW, safestrings_f0187c41-23b0-491b-9154-ff8778b06418.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,8 @@ api_name:
 -	RtlStringCbCopyExW
 -	RtlStringCbCopyExA
 -	RtlStringCbCopyExW
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SYSTEM_POWER_STATE_CONTEXT, *PSYSTEM_POWER_STATE_CONTEXT
 ---
@@ -53,21 +54,6 @@ req.typenames: SYSTEM_POWER_STATE_CONTEXT, *PSYSTEM_POWER_STATE_CONTEXT
 
 
 The <b>RtlStringCbCopyExW</b> and <b>RtlStringCbCopyExA</b> functions copy a byte-counted string into a buffer.
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlStringCbCopyExW(
-  _Out_opt_ LPTSTR  pszDest,
-  _In_      size_t  cbDest,
-  _In_opt_  LPCTSTR pszSrc,
-  _Out_opt_ LPTSTR  *ppszDestEnd,
-  _Out_opt_ size_t  *pcbRemaining,
-  _In_      DWORD   dwFlags
-);
-````
 
 
 ## -parameters
@@ -247,7 +233,7 @@ The function returns the STATUS_INVALID_PARAMETER value when:
 </ul>
 The size, in bytes, of the destination buffer is provided to <b>RtlStringCbCopyExA</b> and <b>RtlStringCbCopyExW</b> to ensure that they do not write past the end of the buffer. 
 
-<b>RtlStringCbCopyEx</b> adds to the functionality of <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbcopyw.md">RtlStringCbCopy</a> by returning a pointer to the end of the destination string as well as the number of bytes left unused in that string. Flags can be passed to the function for additional control.
+<b>RtlStringCbCopyEx</b> adds to the functionality of <a href="https://msdn.microsoft.com/library/windows/hardware/ff562805">RtlStringCbCopy</a> by returning a pointer to the end of the destination string as well as the number of bytes left unused in that string. Flags can be passed to the function for additional control.
 
 Use <b>RtlStringCbCopyExW</b> to handle Unicode strings and  <b>RtlStringCbCopyExA</b> to handle ANSI strings. The form you use depends on your data as shown in the following table.
 
@@ -299,17 +285,15 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchcopyexw.md">RtlStringCchCopyEx</a>
 
 
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbcopyw.md">RtlStringCbCopy</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562805">RtlStringCbCopy</a>
 
 
 
+<a href="https://msdn.microsoft.com/c8abf741-ea8c-46d3-85f5-0cc38f1a5ea7">RtlStringCchCopyEx</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20RtlStringCbCopyExW function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

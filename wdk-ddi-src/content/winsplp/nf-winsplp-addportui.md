@@ -7,7 +7,7 @@ old-location: print\addportui.htm
 old-project: print
 ms.assetid: 8305ab0c-0783-4597-9e2c-dfd9cbc843d1
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: AddPortUI, pfnAddPortUI, pfnAddPortUI function [Print Devices], print.addportui, spoolfnc_e82f0e4d-e4f2-44b8-b957-3fc1b35e8a34.xml, winsplp/pfnAddPortUI
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	winsplp.h
 api_name:
 -	pfnAddPortUI
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NOTIFICATION_CONFIG_FLAGS
 req.product: Windows 10 or later.
@@ -51,19 +52,6 @@ req.product: Windows 10 or later.
 
 
 A port monitor UI DLL's <b>AddPortUI</b> function adds a printer port, then obtains port configuration information from the user and sends it to the port monitor server DLL.
-
-
-## -syntax
-
-
-````
-BOOL WINAPI pfnAddPortUI(
-  _In_opt_  PCWSTR pszServer,
-  _In_      HWND   hWnd,
-  _In_      PCWSTR pszPortNameIn,
-  _Out_opt_ PWSTR  *ppszPortNameOut
-);
-````
 
 
 ## -parameters
@@ -109,7 +97,7 @@ If the operation succeeds, the function should return <b>TRUE</b>. Otherwise Set
 
 
 
-Port monitor UI DLLs are required to define an <b>AddPortUI</b> function and include the function's address in a <a href="..\winsplp\ns-winsplp-_monitorui.md">MONITORUI</a> structure.
+Port monitor UI DLLs are required to define an <b>AddPortUI</b> function and include the function's address in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff557541">MONITORUI</a> structure.
 
 The spooler calls <b>AddPortUI</b> from within its AddPort function. The first three arguments received by <b>AddPortUI</b> are the arguments received by AddPort. (The AddPort function is described in the Microsoft Windows SDK documentation.)
 
@@ -173,7 +161,10 @@ Call ClosePrinter, specifying the handle received from OpenPrinter. This causes 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564255">XcvData</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557541">MONITORUI</a>
 
 
 
@@ -181,7 +172,7 @@ Call ClosePrinter, specifying the handle received from OpenPrinter. This causes 
 
 
 
-<a href="..\winsplp\ns-winsplp-_monitorui.md">MONITORUI</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564255">XcvData</a>
 
 
 
@@ -190,12 +181,7 @@ Call ClosePrinter, specifying the handle received from OpenPrinter. This causes 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564259">XcvOpenPort</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20AddPortUI function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

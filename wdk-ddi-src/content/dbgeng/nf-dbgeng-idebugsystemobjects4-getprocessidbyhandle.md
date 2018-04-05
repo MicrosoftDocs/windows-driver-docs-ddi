@@ -7,7 +7,7 @@ old-location: debugger\getprocessidbyhandle.htm
 old-project: debugger
 ms.assetid: 6920cbd3-0a20-4d38-8538-85f46d0f0d5b
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/26/2018
 ms.keywords: GetProcessIdByHandle method [Windows Debugging], GetProcessIdByHandle method [Windows Debugging], IDebugSystemObjects interface, GetProcessIdByHandle method [Windows Debugging], IDebugSystemObjects2 interface, GetProcessIdByHandle method [Windows Debugging], IDebugSystemObjects3 interface, GetProcessIdByHandle method [Windows Debugging], IDebugSystemObjects4 interface, GetProcessIdByHandle,IDebugSystemObjects4.GetProcessIdByHandle, IDebugSystemObjects interface [Windows Debugging], GetProcessIdByHandle method, IDebugSystemObjects2 interface [Windows Debugging], GetProcessIdByHandle method, IDebugSystemObjects2::GetProcessIdByHandle, IDebugSystemObjects3 interface [Windows Debugging], GetProcessIdByHandle method, IDebugSystemObjects3::GetProcessIdByHandle, IDebugSystemObjects4, IDebugSystemObjects4 interface [Windows Debugging], GetProcessIdByHandle method, IDebugSystemObjects4::GetProcessIdByHandle, IDebugSystemObjects::GetProcessIdByHandle, IDebugSystemObjects_92e69c0f-a50c-498b-8352-74f0c28ea0d8.xml, dbgeng/IDebugSystemObjects2::GetProcessIdByHandle, dbgeng/IDebugSystemObjects3::GetProcessIdByHandle, dbgeng/IDebugSystemObjects4::GetProcessIdByHandle, dbgeng/IDebugSystemObjects::GetProcessIdByHandle, debugger.getprocessidbyhandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -41,7 +41,8 @@ api_name:
 -	IDebugSystemObjects2.GetProcessIdByHandle
 -	IDebugSystemObjects3.GetProcessIdByHandle
 -	IDebugSystemObjects4.GetProcessIdByHandle
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -53,17 +54,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetProcessIdByHandle</b> method returns the engine process ID for the specified process.  The process is specified by its system handle.
-
-
-## -syntax
-
-
-````
-HRESULT GetProcessIdByHandle(
-  [in]  ULONG64 Handle,
-  [out] PULONG  Id
-);
-````
 
 
 ## -parameters

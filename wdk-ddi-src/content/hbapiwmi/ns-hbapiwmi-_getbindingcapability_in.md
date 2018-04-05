@@ -7,7 +7,7 @@ old-location: storage\getbindingcapability_in.htm
 old-project: storage
 ms.assetid: cd4046db-f9f5-4c9e-8886-29504c727f67
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PGetBindingCapability_IN, GetBindingCapability_IN, GetBindingCapability_IN structure [Storage Devices], PGetBindingCapability_IN, PGetBindingCapability_IN structure pointer [Storage Devices], _GetBindingCapability_IN, hbapiwmi/GetBindingCapability_IN, hbapiwmi/PGetBindingCapability_IN, storage.getbindingcapability_in, structs-Fibre_11549945-ce24-45b2-b547-724bfa1b2380.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	hbapiwmi.h
 api_name:
 -	GetBindingCapability_IN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GetBindingCapability_IN, *PGetBindingCapability_IN
 ---
@@ -50,16 +51,6 @@ req.typenames: GetBindingCapability_IN, *PGetBindingCapability_IN
 
 
 The GetBindingCapability_IN structure is used by a WMI client to deliver the input parameter data of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553902">GetBindingCapability</a> WMI method to the HBA miniport driver.
-
-
-## -syntax
-
-
-````
-typedef struct _GetBindingCapability_IN {
-  UCHAR PortWWN[8];
-} GetBindingCapability_IN, *PGetBindingCapability_IN;
-````
 
 
 ## -struct-fields
@@ -83,13 +74,11 @@ The WMI tool suite generates a declaration of the GetBindingCapability_IN struct
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553902">GetBindingCapability</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20GetBindingCapability_IN structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

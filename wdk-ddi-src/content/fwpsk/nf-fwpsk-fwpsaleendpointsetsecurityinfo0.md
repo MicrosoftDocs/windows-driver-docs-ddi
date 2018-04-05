@@ -7,7 +7,7 @@ old-location: netvista\fwpsaleendpointsetsecurityinfo0.htm
 old-project: netvista
 ms.assetid: 7b7fed83-dcf8-466d-8bd7-42a5ed15cced
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: FwpsAleEndpointSetSecurityInfo0, FwpsAleEndpointSetSecurityInfo0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsAleEndpointSetSecurityInfo0, netvista.fwpsaleendpointsetsecurityinfo0, wfp_ref_2_funct_3_fwps_A-B_7999c73b-ee7d-4a54-b279-8a691a99d94d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	fwpkclnt.dll
 api_name:
 -	FwpsAleEndpointSetSecurityInfo0
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FWPS_VSWITCH_EVENT_TYPE
 ---
@@ -55,21 +56,6 @@ The
   enforcement (ALE) endpoint enumeration session.
 <div class="alert"><b>Note</b>  <b>FwpsAleEndpointSetSecurityInfo0</b> is a specific version of <b>FwpsAleEndpointSetSecurityInfo</b>. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
 
-## -syntax
-
-
-````
-NTSTATUS NTAPI FwpsAleEndpointSetSecurityInfo0(
-  _In_           HANDLE               engineHandle,
-  _In_           SECURITY_INFORMATION securityInfo,
-  _In_opt_ const SID                  *sidOwner,
-  _In_opt_ const SID                  *sidGroup,
-  _In_opt_ const ACL                  *dacl,
-  _In_opt_ const ACL                  *sacl
-);
-````
-
-
 ## -parameters
 
 
@@ -79,7 +65,7 @@ NTSTATUS NTAPI FwpsAleEndpointSetSecurityInfo0(
 
 A handle for an open session with the filter engine. This handle is obtained when a session is
      opened by calling 
-     <a href="..\fwpmk\nf-fwpmk-fwpmengineopen0.md">FwpmEngineOpen0</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff550075">FwpmEngineOpen0</a>.
 
 
 ### -param securityInfo [in]
@@ -151,22 +137,20 @@ An error occurred.
 
 ## -see-also
 
-<a href="..\fwpsk\nf-fwpsk-fwpsaleendpointgetsecurityinfo0.md">
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551126">FwpsAleEndpointEnum0</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551128">FwpsAleEndpointGetById0</a>
+
+
+
+<a href="https://msdn.microsoft.com/0c825695-7fef-4eb1-8615-f41c526aa32d">
    FwpsAleEndpointGetSecurityInfo0</a>
-
-
-
-<a href="..\fwpsk\nf-fwpsk-fwpsaleendpointgetbyid0.md">FwpsAleEndpointGetById0</a>
-
-
-
-<a href="..\fwpsk\nf-fwpsk-fwpsaleendpointenum0.md">FwpsAleEndpointEnum0</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FwpsAleEndpointSetSecurityInfo0 function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: display\getvideoprocessstreamstateprivate.htm
 old-project: display
 ms.assetid: 0503b382-8ed3-461e-906f-27953ac5f757
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: GetVideoProcessStreamStatePrivate, GetVideoProcessStreamStatePrivate callback function [Display Devices], PFND3DDDI_DXVAHD_GETVIDEOPROCESSSTREAMSTATEPRIVATE, UserModeDisplayDriver_Functions_1016a4a3-3988-40ef-9ef9-f62a20651aaa.xml, d3dumddi/GetVideoProcessStreamStatePrivate, display.getvideoprocessstreamstateprivate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	GetVideoProcessStreamStatePrivate
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_PTE
 ---
@@ -52,26 +53,12 @@ req.typenames: DXGK_PTE
 The <i>GetVideoProcessStreamStatePrivate</i> function retrieves the private stream-state data for a video processor. 
 
 
-## -prototype
-
-
-````
-PFND3DDDI_DXVAHD_GETVIDEOPROCESSSTREAMSTATEPRIVATE GetVideoProcessStreamStatePrivate;
-
-__checkReturn HRESULT APIENTRY GetVideoProcessStreamStatePrivate(
-  _In_    HANDLE                                             hDevice,
-  _Inout_ D3DDDIARG_DXVAHD_GETVIDEOPROCESSSTREAMSTATEPRIVATE *pData
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
 
 
-### -param HANDLE
+### -param Arg1
 
 
 ### -param *
@@ -90,7 +77,7 @@ __checkReturn HRESULT APIENTRY GetVideoProcessStreamStatePrivate(
 
 #### - pData [in, out]
 
- A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_dxvahd_getvideoprocessstreamstateprivate.md">D3DDDIARG_DXVAHD_GETVIDEOPROCESSSTREAMSTATEPRIVATE</a> structure that describes the private stream-state data to retrieve. 
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543089">D3DDDIARG_DXVAHD_GETVIDEOPROCESSSTREAMSTATEPRIVATE</a> structure that describes the private stream-state data to retrieve. 
 
 
 ## -returns
@@ -134,13 +121,11 @@ The stream-state data is successfully retrieved.
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_dxvahd_getvideoprocessstreamstateprivate.md">D3DDDIARG_DXVAHD_GETVIDEOPROCESSSTREAMSTATEPRIVATE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543089">D3DDDIARG_DXVAHD_GETVIDEOPROCESSSTREAMSTATEPRIVATE</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3DDDI_DXVAHD_GETVIDEOPROCESSSTREAMSTATEPRIVATE callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

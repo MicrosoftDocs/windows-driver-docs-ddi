@@ -7,7 +7,7 @@ old-location: debugger\evaluatewide.htm
 old-project: debugger
 ms.assetid: 1a40e8a7-ba7b-4aaf-975f-4095f9ef7ba7
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/26/2018
 ms.keywords: EvaluateWide method [Windows Debugging], EvaluateWide method [Windows Debugging], IDebugControl4 interface, EvaluateWide,IDebugControl4.EvaluateWide, IDebugControl4, IDebugControl4 interface [Windows Debugging], EvaluateWide method, IDebugControl4::EvaluateWide, dbgeng/IDebugControl4::EvaluateWide, debugger.evaluatewide
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugControl4.EvaluateWide
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -50,19 +51,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>EvaluateWide</b>  method evaluates an expression, returning the result.
-
-
-## -syntax
-
-
-````
-HRESULT EvaluateWide(
-  [in]            PCWSTR       Expression,
-  [in]            ULONG        DesiredType,
-  [out]           PDEBUG_VALUE Value,
-  [out, optional] PULONG       RemainderIndex
-);
-````
 
 
 ## -parameters
@@ -77,7 +65,7 @@ Specifies the expression to be evaluated.
 
 ### -param DesiredType [in]
 
-Specifies the desired return type.  Possible values are described in <a href="..\dbgeng\ns-dbgeng-_debug_value.md">DEBUG_VALUE</a>; with the addition of DEBUG_VALUE_INVALID, which indicates that the return type should be the expression's natural type.
+Specifies the desired return type.  Possible values are described in <a href="https://msdn.microsoft.com/library/windows/hardware/ff541719">DEBUG_VALUE</a>; with the addition of DEBUG_VALUE_INVALID, which indicates that the return type should be the expression's natural type.
 
 
 ### -param Value [out]
@@ -144,11 +132,6 @@ If an error occurs while evaluating the expression, returning E_FAIL, the <i>Rem
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556697">SetExpressionSyntaxByName</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
 
 
 
@@ -156,13 +139,16 @@ If an error occurs while evaluating the expression, returning E_FAIL, the <i>Rem
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550526">IDebugControl4</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556696">SetExpressionSyntax</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556697">SetExpressionSyntaxByName</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl4::EvaluateWide method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

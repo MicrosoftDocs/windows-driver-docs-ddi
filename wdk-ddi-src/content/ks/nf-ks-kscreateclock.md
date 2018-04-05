@@ -39,7 +39,8 @@ api_location:
 -	ks.dll
 api_name:
 -	KsCreateClock
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,18 +52,6 @@ req.typenames:
 
 
 The <b>KsCreateClock</b> function creates a handle to a clock instance. 
-
-
-## -syntax
-
-
-````
-NTSTATUS KsCreateClock(
-  _In_  HANDLE          ConnectionHandle,
-  _In_  PKSCLOCK_CREATE ClockCreate,
-  _Out_ PHANDLE         ClockHandle
-);
-````
 
 
 ## -parameters

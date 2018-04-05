@@ -7,7 +7,7 @@ old-location: audio\ipositionnotify_positionnotify.htm
 old-project: audio
 ms.assetid: 1C29A0B4-E50D-4EA2-95A4-4845BD14C88A
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 3/19/2018
 ms.keywords: IPositionNotify, IPositionNotify interface [Audio Devices], PositionNotify method, IPositionNotify::PositionNotify, PositionNotify method [Audio Devices], PositionNotify method [Audio Devices], IPositionNotify interface, PositionNotify,IPositionNotify.PositionNotify, audio.ipositionnotify_positionnotify, dmusicks/IPositionNotify::PositionNotify
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dmusicks.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	Dmusicks.h
 api_name:
 -	IPositionNotify.PositionNotify
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DMUS_STREAM_TYPE
 ---
@@ -50,16 +51,6 @@ req.typenames: DMUS_STREAM_TYPE
 
 
 Byte position notify for MXF graph.
-
-
-## -syntax
-
-
-````
-HRESULT PositionNotify(
-  [in] ULONGLONG bytePosition
-);
-````
 
 
 ## -parameters
@@ -81,13 +72,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\dmusicks\nn-dmusicks-ipositionnotify.md">IPositionNotify</a>
 
 
 
+<a href="https://msdn.microsoft.com/DB18BD9D-4BAA-48D8-BA30-E4F7EF4CDEE5">IPositionNotify</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IPositionNotify::PositionNotify method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

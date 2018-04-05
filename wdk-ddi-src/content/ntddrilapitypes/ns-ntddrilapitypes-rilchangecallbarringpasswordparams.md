@@ -7,13 +7,13 @@ old-location: netvista\rilchangecallbarringpasswordparams.htm
 old-project: netvista
 ms.assetid: 9b90f85e-091f-465d-a6e2-fa4ad66489ff
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: "*LPRILCHANGECALLBARRINGPASSWORDPARAMS, RILCHANGECALLBARRINGPASSWORDPARAMS, RILCHANGECALLBARRINGPASSWORDPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilchangecallbarringpasswordparams, ntddrilapitypes/RILCHANGECALLBARRINGPASSWORDPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddrilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILCHANGECALLBARRINGPASSWORDPARAMS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILCHANGECALLBARRINGPASSWORDPARAMS, *LPRILCHANGECALLBARRINGPASSWORDPARAMS
 ---
@@ -50,20 +51,6 @@ req.typenames: RILCHANGECALLBARRINGPASSWORDPARAMS, *LPRILCHANGECALLBARRINGPASSWO
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef struct _RILCHANGECALLBARRINGPASSWORDPARAMS {
-  DWORD                           dwExecutor;
-  RILCALLBARRINGSTATUSPARAMSTYPE  dwType;
-  char [256]                      szOldPassword;
-  char [256]                      szNewPassword;
-  char [256]                      szConfirmPassword;
-} RILCHANGECALLBARRINGPASSWORDPARAMS, RILCHANGECALLBARRINGPASSWORDPARAMS;
-````
 
 
 ## -struct-fields

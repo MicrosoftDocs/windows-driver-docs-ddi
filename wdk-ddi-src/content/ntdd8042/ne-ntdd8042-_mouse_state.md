@@ -38,7 +38,8 @@ api_location:
 -	ntdd8042.h
 api_name:
 -	MOUSE_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MOUSE_STATE, *PMOUSE_STATE
 ---
@@ -50,21 +51,6 @@ req.typenames: MOUSE_STATE, *PMOUSE_STATE
 
 
 The MOUSE_STATE enumeration type identifies the current state of input from a mouse.
-
-
-## -syntax
-
-
-````
-typedef enum _MOUSE_STATE { 
-  MouseIdle,
-  XMovement,
-  YMovement,
-  ZMovement,
-  MouseExpectingACK,
-  MouseResetting
-} MOUSE_STATE, *PMOUSE_STATE;
-````
 
 
 ## -enum-fields
@@ -106,24 +92,22 @@ Indicates that I8042prt is resetting the mouse.
 
 
 
-The MOUSE_STATE enumerator is used as input to a <a href="..\ntdd8042\nc-ntdd8042-pi8042_mouse_isr.md">PI8042_MOUSE_ISR</a> callback.
+The MOUSE_STATE enumerator is used as input to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543252">PI8042_MOUSE_ISR</a> callback.
 
 
 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/34d0a7e9-4a1e-43ba-a643-800ebaadc360">MouFilter_IsrHook</a>
 
 
 
-<a href="..\ntdd8042\nc-ntdd8042-pi8042_mouse_isr.md">PI8042_MOUSE_ISR</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543252">PI8042_MOUSE_ISR</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [hid\hid]:%20MOUSE_STATE enumeration%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -38,7 +38,8 @@ api_location:
 -	usbcamdi.h
 api_name:
 -	CamConfigureEx
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USB_BUS_INTERFACE_USBDI_V3, *PUSB_BUS_INTERFACE_USBDI_V3
 req.product: Windows 10 or later.
@@ -51,25 +52,6 @@ req.product: Windows 10 or later.
 
 
 A camera minidriver's <b>CamConfigureEx</b> callback function configures the isochronous streaming interface.
-
-
-## -prototype
-
-
-````
-PCAM_CONFIGURE_ROUTINE_EX CamConfigureEx;
-
-NTSTATUS CamConfigureEx(
-   PDEVICE_OBJECT                  BusDeviceObject,
-   PVOID                           DeviceContext,
-   PUSBD_INTERFACE_INFORMATION     Interface,
-   PUSB_CONFIGURATION_DESCRIPTOR   ConfigurationDescriptor,
-   ULONG                           PipeConfigListSize,
-   PUSBCAMD_Pipe_Config_Descriptor PipeConfig,
-   PUSB_DEVICE_DESCRIPTOR          DeviceDescriptor
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -89,12 +71,12 @@ Pointer to the camera minidriver's device context.
 
 ### -param Interface
 
-Pointer to the <a href="..\usb\ns-usb-_usbd_interface_information.md">USBD_INTERFACE_INFORMATION</a> structure initialized with the proper values for a SELECT_INTERFACE URB request. This interface structure corresponds to a single isochronous interface on the device.
+Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539068">USBD_INTERFACE_INFORMATION</a> structure initialized with the proper values for a SELECT_INTERFACE URB request. This interface structure corresponds to a single isochronous interface on the device.
 
 
 ### -param ConfigurationDescriptor
 
-Pointer to the <a href="..\usbspec\ns-usbspec-_usb_configuration_descriptor.md">USB_CONFIGURATION_DESCRIPTOR</a> for this device.
+Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539241">USB_CONFIGURATION_DESCRIPTOR</a> for this device.
 
 
 ### -param PipeConfigListSize
@@ -104,12 +86,12 @@ Specifies the number of elements in the <i>PipeConfig</i> array.
 
 ### -param PipeConfig
 
-Pointer to a <a href="..\usbcamdi\ns-usbcamdi-_pipe_config_descriptor.md">USBCAMD_Pipe_Config_Descriptor</a> array describing the association between pipes and streams.
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff568623">USBCAMD_Pipe_Config_Descriptor</a> array describing the association between pipes and streams.
 
 
 ### -param DeviceDescriptor
 
-Pointer to the <a href="..\usbspec\ns-usbspec-_usb_device_descriptor.md">USB_DEVICE_DESCRIPTOR</a> for this device.
+Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539280">USB_DEVICE_DESCRIPTOR</a> for this device.
 
 
 ## -returns
@@ -140,29 +122,27 @@ This function is required.
 
 ## -see-also
 
-<a href="..\usbcamdi\ns-usbcamdi-_usbcamd_device_data2.md">USBCAMD_DEVICE_DATA2</a>
 
 
 
-<a href="..\usb\ns-usb-_usbd_interface_information.md">USBD_INTERFACE_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568590">USBCAMD_DEVICE_DATA2</a>
 
 
 
-<a href="..\usbspec\ns-usbspec-_usb_configuration_descriptor.md">USB_CONFIGURATION_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568623">USBCAMD_Pipe_Config_Descriptor</a>
 
 
 
-<a href="..\usbcamdi\ns-usbcamdi-_pipe_config_descriptor.md">USBCAMD_Pipe_Config_Descriptor</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539068">USBD_INTERFACE_INFORMATION</a>
 
 
 
-<a href="..\usbspec\ns-usbspec-_usb_device_descriptor.md">USB_DEVICE_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539241">USB_CONFIGURATION_DESCRIPTOR</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539280">USB_DEVICE_DESCRIPTOR</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20PCAM_CONFIGURE_ROUTINE_EX routine%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

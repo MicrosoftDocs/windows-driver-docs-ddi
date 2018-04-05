@@ -38,7 +38,8 @@ api_location:
 -	Gpioclx.h
 api_name:
 -	CLIENT_DisableInterrupt
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GNSS_V2UPL_NI_INFO, *PGNSS_V2UPL_NI_INFO
 ---
@@ -50,20 +51,6 @@ req.typenames: GNSS_V2UPL_NI_INFO, *PGNSS_V2UPL_NI_INFO
 
 
 The <i>CLIENT_DisableInterrupt</i> event callback function disables interrupts on a general-purpose I/O (GPIO) pin that is configured as an interrupt input.
-
-
-## -prototype
-
-
-````
-GPIO_CLIENT_DISABLE_INTERRUPT CLIENT_DisableInterrupt;
-
-NTSTATUS CLIENT_DisableInterrupt(
-  _In_ PVOID                              Context,
-  _In_ PGPIO_DISABLE_INTERRUPT_PARAMETERS DisableParameters
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -143,11 +130,14 @@ The GPIO_CLIENT_DISABLE_INTERRUPT function type is defined in the Gpioclx.h head
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439479">GPIO_CLIENT_REGISTRATION_PACKET</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439377">CLIENT_EnableInterrupt</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439479">GPIO_CLIENT_REGISTRATION_PACKET</a>
 
 
 
@@ -156,12 +146,7 @@ The GPIO_CLIENT_DISABLE_INTERRUPT function type is defined in the Gpioclx.h head
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh698249">GPIO_DISABLE_INTERRUPT_PARAMETERS</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [GPIO\parports]:%20CLIENT_DisableInterrupt callback function%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

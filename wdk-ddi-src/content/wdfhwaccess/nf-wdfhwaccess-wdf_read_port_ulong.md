@@ -7,7 +7,7 @@ old-location: wdf\wdf_read_port_ulong.htm
 old-project: wdf
 ms.assetid: 7553FE66-8138-4172-843F-84EE2D5A90BE
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/26/2018
 ms.keywords: WDF_READ_PORT_ULONG, WDF_READ_PORT_ULONG function, wdf.wdf_read_port_ulong, wdfhwaccess/WDF_READ_PORT_ULONG
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	Wdfhwaccess.h
 api_name:
 -	WDF_READ_PORT_ULONG
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_FILE_INFORMATION_CLASS, *PWDF_FILE_INFORMATION_CLASS
 req.product: Windows 10 or later.
@@ -53,17 +54,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to UMDF only]
 
 The <b>WDF_READ_PORT_ULONG</b>  function reads a ULONG value from the specified port address.
-
-
-## -syntax
-
-
-````
-ULONG WDF_READ_PORT_ULONG(
-  _In_ WDFDEVICE Device,
-  _In_ PULONG    Port
-);
-````
 
 
 ## -parameters

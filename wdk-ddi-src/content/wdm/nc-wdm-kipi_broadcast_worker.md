@@ -7,7 +7,7 @@ old-location: kernel\ipigenericcall.htm
 old-project: kernel
 ms.assetid: 7c4e3d6b-e000-4ac4-b200-966689d05426
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/28/2018
 ms.keywords: DrvrRtns_80b940d9-3d19-4525-af3f-8e4058c57ddc.xml, IpiGenericCall, IpiGenericCall routine [Kernel-Mode Driver Architecture], KIPI_BROADCAST_WORKER, kernel.ipigenericcall, wdm/IpiGenericCall
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	IpiGenericCall
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
 req.product: Windows 10 or later.
@@ -53,19 +54,6 @@ req.product: Windows 10 or later.
 The <i>IpiGenericCall</i> routine runs simultaneously on all processors.
 
 
-## -prototype
-
-
-````
-KIPI_BROADCAST_WORKER IpiGenericCall;
-
-ULONG_PTR IpiGenericCall(
-  _In_ ULONG_PTR Argument
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -73,7 +61,7 @@ ULONG_PTR IpiGenericCall(
 
 ### -param Argument [in]
 
-Supplies the value that was passed to the <a href="..\wdm\nf-wdm-keipigenericcall.md">KeIpiGenericCall</a> routine that called <i>IpiGenericCall</i>.
+Supplies the value that was passed to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552198">KeIpiGenericCall</a> routine that called <i>IpiGenericCall</i>.
 
 
 ## -returns
@@ -135,13 +123,11 @@ The KIPI_BROADCAST_WORKER function type is defined in the Wdm.h header file. To 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-keipigenericcall.md">KeIpiGenericCall</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552198">KeIpiGenericCall</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IpiGenericCall routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: ifsk\iocheckfunctionaccess.htm
 old-project: ifsk
 ms.assetid: 828a5197-eb2d-46d1-9853-0f8b4f288820
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: IoCheckFunctionAccess, IoCheckFunctionAccess function [Installable File System Drivers], ifsk.iocheckfunctionaccess, ioref_e6c92504-238b-4163-8078-35aee716744e.xml, ntifs/IoCheckFunctionAccess
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	ntifs.h
 api_name:
 -	IoCheckFunctionAccess
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -49,17 +50,7 @@ req.typenames: TOKEN_TYPE
 ## -description
 
 
-The <b>IoCheckFunctionAccess</b> routine is reserved for system use. See <a href="..\wdm\nf-wdm-seaccesscheck.md">SeAccessCheck</a>.
-
-
-## -syntax
-
-
-````
-  IoCheckFunctionAccess(
-    
-);
-````
+The <b>IoCheckFunctionAccess</b> routine is reserved for system use. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff563674">SeAccessCheck</a>.
 
 
 ## -parameters

@@ -38,7 +38,8 @@ api_location:
 -	Gpioclx.h
 api_name:
 -	GPIO_RECONFIGURE_INTERRUPTS_PARAMETERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GPIO_RECONFIGURE_INTERRUPTS_PARAMETERS, *PGPIO_RECONFIGURE_INTERRUPTS_PARAMETERS
 ---
@@ -50,20 +51,6 @@ req.typenames: GPIO_RECONFIGURE_INTERRUPTS_PARAMETERS, *PGPIO_RECONFIGURE_INTERR
 
 
 The <b>GPIO_RECONFIGURE_INTERRUPTS_PARAMETERS</b> structure describes the general-purpose I/O (GPIO) interrupt pin to reconfigure.
-
-
-## -syntax
-
-
-````
-typedef struct _GPIO_RECONFIGURE_INTERRUPTS_PARAMETERS {
-  BANK_ID                          BankId;
-  PIN_NUMBER                       PinNumber;
-  KINTERRUPT_MODE                  InterruptMode;
-  KINTERRUPT_POLARITY              Polarity;
-  GPIO_RECONFIGURE_INTERRUPT_FLAGS Flags;
-} GPIO_RECONFIGURE_INTERRUPTS_PARAMETERS, *PGPIO_RECONFIGURE_INTERRUPTS_PARAMETERS;
-````
 
 
 ## -struct-fields
@@ -89,7 +76,7 @@ Indicates whether to configure the GPIO interrupt pin to be level-sensitive or e
 <li><b>LevelSensitive</b></li>
 <li><b>Latched</b></li>
 </ul>
-For more information, see <a href="..\wudfwdm\ne-wudfwdm-_kinterrupt_mode.md">KINTERRUPT_MODE</a>.
+For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554239">KINTERRUPT_MODE</a>.
 
 
 ### -field Polarity
@@ -103,7 +90,7 @@ Indicates the polarity of the reconfigured GPIO interrupt pin. For a level-sensi
 <li><b>InterruptFallingEdge</b></li>
 <li><b>InterruptActiveBoth</b></li>
 </ul>
-For more information, see <a href="..\wdm\ne-wdm-_kinterrupt_polarity.md">KINTERRUPT_POLARITY</a>.
+For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554243">KINTERRUPT_POLARITY</a>.
 
 
 ### -field Flags
@@ -122,11 +109,6 @@ The <i>ReconfigureParameters</i> parameter of the <a href="https://msdn.microsof
 
 ## -see-also
 
-<a href="..\wudfwdm\ne-wudfwdm-_kinterrupt_mode.md">KINTERRUPT_MODE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh698243">CLIENT_ReconfigureInterrupt</a>
 
 
 
@@ -134,17 +116,20 @@ The <i>ReconfigureParameters</i> parameter of the <a href="https://msdn.microsof
 
 
 
-<a href="..\wdm\ne-wdm-_kinterrupt_polarity.md">KINTERRUPT_POLARITY</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh698243">CLIENT_ReconfigureInterrupt</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554239">KINTERRUPT_MODE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554243">KINTERRUPT_POLARITY</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [GPIO\parports]:%20GPIO_RECONFIGURE_INTERRUPTS_PARAMETERS structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

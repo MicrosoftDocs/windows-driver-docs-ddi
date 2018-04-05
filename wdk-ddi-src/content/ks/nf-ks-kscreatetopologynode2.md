@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	Ks.h
 api_name:
 -	KsCreateTopologyNode2
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -54,19 +55,6 @@ Creates a handle to a topology node instance.
 Supported starting in Windows 8.
 
 
-## -syntax
-
-
-````
-KSDDKAPI HRESULT WINAPI KsCreateTopologyNode2(
-  _In_  HANDLE         ParentHandle,
-  _In_  PKSNODE_CREATE NodeCreate,
-  _In_  ACCESS_MASK    DesiredAccess,
-  _Out_ PHANDLE        NodeHandle
-);
-````
-
-
 ## -parameters
 
 
@@ -79,7 +67,7 @@ Specifies the handle to the parent on which the node is created.
 
 ### -param NodeCreate [in]
 
-A <a href="..\ks\ns-ks-ksnode_create.md">KSNODE_CREATE</a> structure that describes the set of information that is used to create the topology node handle.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff563471">KSNODE_CREATE</a> structure that describes the set of information that is used to create the topology node handle.
 
 
 ### -param DesiredAccess [in]
@@ -105,12 +93,15 @@ Returns <b>NOERROR</b> if successful; otherwise, returns an error code.
 
 
 
-This is a new version of the <a href="..\ks\nf-ks-kscreatetopologynode.md">KsCreateTopologyNode</a> function and uses the device broker to create the handle to the kernel streaming object. In addition, the Component Object Model (COM) <a href="https://msdn.microsoft.com/0f171cf4-87b9-43a6-97f2-80ed344fe376">CoInitialize</a> function must be called before this function is called.
+This is a new version of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561653">KsCreateTopologyNode</a> function and uses the device broker to create the handle to the kernel streaming object. In addition, the Component Object Model (COM) <a href="https://msdn.microsoft.com/0f171cf4-87b9-43a6-97f2-80ed344fe376">CoInitialize</a> function must be called before this function is called.
 
 
 
 
 ## -see-also
+
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
 
@@ -120,17 +111,12 @@ This is a new version of the <a href="..\ks\nf-ks-kscreatetopologynode.md">KsCre
 
 
 
-<a href="..\ks\ns-ks-ksnode_create.md">KSNODE_CREATE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563471">KSNODE_CREATE</a>
 
 
 
-<a href="..\ks\nf-ks-kscreatetopologynode.md">KsCreateTopologyNode</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561653">KsCreateTopologyNode</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsCreateTopologyNode2 function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

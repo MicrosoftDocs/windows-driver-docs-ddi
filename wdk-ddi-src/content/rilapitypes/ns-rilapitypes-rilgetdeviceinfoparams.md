@@ -3,17 +3,17 @@ UID: NS:rilapitypes.RILGETDEVICEINFOPARAMS
 title: RILGETDEVICEINFOPARAMS
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilgetdeviceinfoparams_2.htm
+old-location: netvista\rilgetdeviceinfoparams.htm
 old-project: netvista
-ms.assetid: f5cbf775-4d6e-462a-9707-11a311a729ef
+ms.assetid: 4cb3be01-7e74-4c98-9c4b-2e1c78d96001
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: "*LPRILGETDEVICEINFOPARAMS, RILGETDEVICEINFOPARAMS, RILGETDEVICEINFOPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilgetdeviceinfoparams_2, rilapitypes/RILGETDEVICEINFOPARAMS"
+ms.date: 3/26/2018
+ms.keywords: "*LPRILGETDEVICEINFOPARAMS, RILGETDEVICEINFOPARAMS, RILGETDEVICEINFOPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilgetdeviceinfoparams, ntddrilapitypes/RILGETDEVICEINFOPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -35,10 +35,11 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILGETDEVICEINFOPARAMS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILGETDEVICEINFOPARAMS, *LPRILGETDEVICEINFOPARAMS
 req.product: Windows 10 or later.
@@ -50,18 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-
-## -syntax
-
-
-````
-typedef struct _RILGETDEVICEINFOPARAMS {
-  DWORD                 dwExecutor;
-  RILDEVICEINFORMATION  dwId;
-} RILGETDEVICEINFOPARAMS, RILGETDEVICEINFOPARAMS;
-````
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -struct-fields

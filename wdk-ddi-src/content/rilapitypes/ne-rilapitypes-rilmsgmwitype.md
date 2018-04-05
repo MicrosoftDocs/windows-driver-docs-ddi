@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILMSGMWITYPE
 title: RILMSGMWITYPE
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilmsgmwitype_2.htm
+old-location: netvista\rilmsgmwitype.htm
 old-project: netvista
-ms.assetid: 55f06d11-60b7-4dc0-8f78-eb9901d49d1a
+ms.assetid: e5faa899-194a-412c-9308-a84227a31a6a
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: RILMSGMWITYPE, RILMSGMWITYPE enumeration [Network Drivers Starting with Windows Vista], RIL_MSGMWITYPE_FAX, RIL_MSGMWITYPE_MAX, RIL_MSGMWITYPE_MULTIMEDIA, RIL_MSGMWITYPE_PAGER, RIL_MSGMWITYPE_TEXT, RIL_MSGMWITYPE_VIDEOMAIL, RIL_MSGMWITYPE_VOICEMAIL, netvista.rilmsgmwitype_2, rilapitypes/RILMSGMWITYPE, rilapitypes/RIL_MSGMWITYPE_FAX, rilapitypes/RIL_MSGMWITYPE_MAX, rilapitypes/RIL_MSGMWITYPE_MULTIMEDIA, rilapitypes/RIL_MSGMWITYPE_PAGER, rilapitypes/RIL_MSGMWITYPE_TEXT, rilapitypes/RIL_MSGMWITYPE_VIDEOMAIL, rilapitypes/RIL_MSGMWITYPE_VOICEMAIL
+ms.date: 3/26/2018
+ms.keywords: RILMSGMWITYPE, RILMSGMWITYPE enumeration [Network Drivers Starting with Windows Vista], RIL_MSGMWITYPE_FAX, RIL_MSGMWITYPE_MAX, RIL_MSGMWITYPE_MULTIMEDIA, RIL_MSGMWITYPE_PAGER, RIL_MSGMWITYPE_TEXT, RIL_MSGMWITYPE_VIDEOMAIL, RIL_MSGMWITYPE_VOICEMAIL, netvista.rilmsgmwitype, ntddrilapitypes/RILMSGMWITYPE, ntddrilapitypes/RIL_MSGMWITYPE_FAX, ntddrilapitypes/RIL_MSGMWITYPE_MAX, ntddrilapitypes/RIL_MSGMWITYPE_MULTIMEDIA, ntddrilapitypes/RIL_MSGMWITYPE_PAGER, ntddrilapitypes/RIL_MSGMWITYPE_TEXT, ntddrilapitypes/RIL_MSGMWITYPE_VIDEOMAIL, ntddrilapitypes/RIL_MSGMWITYPE_VOICEMAIL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -35,10 +35,11 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILMSGMWITYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILMSGMWITYPE
 req.product: Windows 10 or later.
@@ -50,23 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-
-## -syntax
-
-
-````
-typedef enum _RILMSGMWITYPE { 
-  RIL_MSGMWITYPE_VOICEMAIL,
-  RIL_MSGMWITYPE_VIDEOMAIL,
-  RIL_MSGMWITYPE_FAX,
-  RIL_MSGMWITYPE_PAGER,
-  RIL_MSGMWITYPE_MULTIMEDIA,
-  RIL_MSGMWITYPE_TEXT,
-  RIL_MSGMWITYPE_MAX
-} RILMSGMWITYPE;
-````
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -enum-fields

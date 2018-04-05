@@ -7,7 +7,7 @@ old-location: debugger\getcurrentprocessdataoffset.htm
 old-project: debugger
 ms.assetid: a71190ac-0368-40bd-a19d-82a27986a9b3
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/26/2018
 ms.keywords: GetCurrentProcessDataOffset method [Windows Debugging], GetCurrentProcessDataOffset method [Windows Debugging], IDebugSystemObjects interface, GetCurrentProcessDataOffset method [Windows Debugging], IDebugSystemObjects2 interface, GetCurrentProcessDataOffset method [Windows Debugging], IDebugSystemObjects3 interface, GetCurrentProcessDataOffset method [Windows Debugging], IDebugSystemObjects4 interface, GetCurrentProcessDataOffset,IDebugSystemObjects3.GetCurrentProcessDataOffset, IDebugSystemObjects interface [Windows Debugging], GetCurrentProcessDataOffset method, IDebugSystemObjects2 interface [Windows Debugging], GetCurrentProcessDataOffset method, IDebugSystemObjects2::GetCurrentProcessDataOffset, IDebugSystemObjects3, IDebugSystemObjects3 interface [Windows Debugging], GetCurrentProcessDataOffset method, IDebugSystemObjects3::GetCurrentProcessDataOffset, IDebugSystemObjects4 interface [Windows Debugging], GetCurrentProcessDataOffset method, IDebugSystemObjects4::GetCurrentProcessDataOffset, IDebugSystemObjects::GetCurrentProcessDataOffset, IDebugSystemObjects_f3602018-7f0a-45eb-aadc-26e0f7349737.xml, dbgeng/IDebugSystemObjects2::GetCurrentProcessDataOffset, dbgeng/IDebugSystemObjects3::GetCurrentProcessDataOffset, dbgeng/IDebugSystemObjects4::GetCurrentProcessDataOffset, dbgeng/IDebugSystemObjects::GetCurrentProcessDataOffset, debugger.getcurrentprocessdataoffset
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -41,7 +41,8 @@ api_name:
 -	IDebugSystemObjects2.GetCurrentProcessDataOffset
 -	IDebugSystemObjects3.GetCurrentProcessDataOffset
 -	IDebugSystemObjects4.GetCurrentProcessDataOffset
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -53,16 +54,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetCurrentProcessDataOffset</b> method returns the location of the system data structure describing the current process.
-
-
-## -syntax
-
-
-````
-HRESULT GetCurrentProcessDataOffset(
-  [out] PULONG64 Offset
-);
-````
 
 
 ## -parameters

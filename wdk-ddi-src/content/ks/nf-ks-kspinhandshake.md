@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KsPinHandshake
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -52,18 +53,6 @@ req.typenames:
 The<b> KsPinHandshake </b>function attempts a protocol handshake with a connected pin.
 
 
-## -syntax
-
-
-````
-NTSTATUS KsPinHandshake(
-  _In_  PKSPIN       Pin,
-  _In_  PKSHANDSHAKE In,
-  _Out_ PKSHANDSHAKE Out
-);
-````
-
-
 ## -parameters
 
 
@@ -71,17 +60,17 @@ NTSTATUS KsPinHandshake(
 
 ### -param Pin [in]
 
-A pointer to the <a href="..\ks\ns-ks-_kspin.md">KSPIN</a> structure that is initiating the handshake. The handshake request is passed on to the pin connected to this object.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563483">KSPIN</a> structure that is initiating the handshake. The handshake request is passed on to the pin connected to this object.
 
 
 ### -param In [in]
 
-A pointer to the <a href="..\ks\ns-ks-kshandshake.md">KSHANDSHAKE</a> structure containing the handshake information to be passed to the connected pin.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562673">KSHANDSHAKE</a> structure containing the handshake information to be passed to the connected pin.
 
 
 ### -param Out [out]
 
-A pointer to a <a href="..\ks\ns-ks-kshandshake.md">KSHANDSHAKE</a> structure that is filled in with handshake information by the connected pin.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff562673">KSHANDSHAKE</a> structure that is filled in with handshake information by the connected pin.
 
 
 ## -returns
@@ -106,21 +95,19 @@ Connections between AVStream pins are performed using this type of handshake.
 
 ## -see-also
 
-<a href="..\ks\ni-ks-ioctl_ks_handshake.md">IOCTL_KS_HANDSHAKE</a>
 
 
 
-<a href="..\ks\ns-ks-kshandshake.md">KSHANDSHAKE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560813">IOCTL_KS_HANDSHAKE</a>
 
 
 
-<a href="..\ks\nf-ks-kspingetconnectedpininterface.md">KsPinGetConnectedPinInterface</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562673">KSHANDSHAKE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563509">KsPinGetConnectedPinInterface</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsPinHandshake function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

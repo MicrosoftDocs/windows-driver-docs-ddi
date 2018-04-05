@@ -7,7 +7,7 @@ old-location: storage\storport_telemetry_event.htm
 old-project: storage
 ms.assetid: 50A3EB6D-C485-4C04-8E88-9BD7D7ED0A62
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSTORPORT_TELEMETRY_EVENT, PSTORPORT_TELEMETRY_EVENT, PSTORPORT_TELEMETRY_EVENT structure pointer [Storage Devices], STORPORT_TELEMETRY_EVENT, STORPORT_TELEMETRY_EVENT structure [Storage Devices], _STORPORT_TELEMETRY_EVENT, storage.storport_telemetry_event, storport/PSTORPORT_TELEMETRY_EVENT, storport/STORPORT_TELEMETRY_EVENT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	storport.h
 api_name:
 -	STORPORT_TELEMETRY_EVENT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STORPORT_TELEMETRY_EVENT, *PSTORPORT_TELEMETRY_EVENT
 req.product: Windows 10 or later.
@@ -51,40 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>STORPORT_TELEMETRY_EVENT</b> structure describes the miniport telemetry data payload.
-
-
-## -syntax
-
-
-````
-typedef struct _STORPORT_TELEMETRY_EVENT {
-  ULONG                                             DriverVersion;
-  ULONG                                             EventId;
-  UCHAR                                             EventName[EVENT_NAME_MAX_LENGTH];
-  ULONG                                             EventVersion;
-  ULONG                                             Flags;
-  _Field_range_(0, EVENT_BUFFER_MAX_LENGTH)
-  ULONG EventBufferLength;
-  _Field_size_bytes_(EventBufferLength)
-    PUCHAR  EventBuffer;
-  UCHAR                                             ParameterName0[EVENT_MAX_PARAM_NAME_LEN];
-  ULONGLONG                                         ParameterValue0;
-  UCHAR                                             ParameterName1[EVENT_MAX_PARAM_NAME_LEN];
-  ULONGLONG                                         ParameterValue1;
-  UCHAR                                             ParameterName2[EVENT_MAX_PARAM_NAME_LEN];
-  ULONGLONG                                         ParameterValue2;
-  UCHAR                                             ParameterName3[EVENT_MAX_PARAM_NAME_LEN];
-  ULONGLONG                                         ParameterValue3;
-  UCHAR                                             ParameterName4[EVENT_MAX_PARAM_NAME_LEN];
-  ULONGLONG                                         ParameterValue4;
-  UCHAR                                             ParameterName5[EVENT_MAX_PARAM_NAME_LEN];
-  ULONGLONG                                         ParameterValue5;
-  UCHAR                                             ParameterName6[EVENT_MAX_PARAM_NAME_LEN];
-  ULONGLONG                                         ParameterValue6;
-  UCHAR                                             ParameterName7[EVENT_MAX_PARAM_NAME_LEN];
-  ULONGLONG                                         ParameterValue7;
-} STORPORT_TELEMETRY_EVENT, *PSTORPORT_TELEMETRY_EVENT;
-````
 
 
 ## -struct-fields
@@ -218,13 +185,11 @@ A <b>STORPORT_TELEMETRY_EVENT</b> structure describes the miniport telemetry dat
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportlogtelemetry.md">StorPortLogTelemetry</a>
 
 
 
+<a href="https://msdn.microsoft.com/3B32F31C-3850-43D4-9C6E-40D35B8AF4D4">StorPortLogTelemetry</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20STORPORT_TELEMETRY_EVENT structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

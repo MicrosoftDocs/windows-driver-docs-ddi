@@ -7,7 +7,7 @@ old-location: display\dxgkddiunmapcpuhostaperture.htm
 old-project: display
 ms.assetid: AFE6B92F-49DB-47F9-90BC-F75B5F37178D
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_UNMAPCPUHOSTAPERTURE, DxgkDdiUnmapCpuHostAperture, DxgkDdiUnmapCpuHostAperture callback function [Display Devices], d3dkmddi/DxgkDdiUnmapCpuHostAperture, display.dxgkddiunmapcpuhostaperture
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DxgkDdiUnmapCpuHostAperture
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 ---
@@ -50,20 +51,6 @@ req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 
 
 <b>DxgkDdiUnmapCpuHostAperture</b> is used to unmap a previously mapped range of the CPU host aperture.
-
-
-## -prototype
-
-
-````
-DXGKDDI_UNMAPCPUHOSTAPERTURE DxgkDdiUnmapCpuHostAperture;
-
-NTSTATUS APIENTRY DxgkDdiUnmapCpuHostAperture(
-   HANDLE                       hAdapter,
-   DXGKARG_UNMAPCPUHOSTAPERTURE pArgs
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -78,7 +65,7 @@ A handle to the display adapter.
 
 ### -param pArgs
 
-A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_unmapcpuhostaperture.md">DXGKARG_UNMAPCPUHOSTAPERTURE</a> structure that describes the operation.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/dn906826">DXGKARG_UNMAPCPUHOSTAPERTURE</a> structure that describes the operation.
 
 
 ## -returns
@@ -93,13 +80,11 @@ A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_unmapcpuhostaperture.md">DXGKARG_UNM
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_unmapcpuhostaperture.md">DXGKARG_UNMAPCPUHOSTAPERTURE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn906826">DXGKARG_UNMAPCPUHOSTAPERTURE</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKDDI_UNMAPCPUHOSTAPERTURE callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

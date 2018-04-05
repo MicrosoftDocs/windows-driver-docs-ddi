@@ -7,7 +7,7 @@ old-location: storage\srbex_data_pnp.htm
 old-project: storage
 ms.assetid: CB64AF68-C40D-44F0-8F52-6BF05E23E5E1
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSRBEX_DATA_PNP, PSRBEX_DATA_PNP, PSRBEX_DATA_PNP structure pointer [Storage Devices], SRBEX_DATA_PNP, SRBEX_DATA_PNP structure [Storage Devices], StorFilterResourceRequirements, StorQueryCapabilities, StorQueryResourceRequirements, StorRemoveDevice, StorStartDevice, StorStopDevice, StorSupriseRemoval, _SRBEX_DATA_PNP, storage.srbex_data_pnp, storport/PSRBEX_DATA_PNP, storport/SRBEX_DATA_PNP"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Storport.h
 api_name:
 -	SRBEX_DATA_PNP
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SRBEX_DATA_PNP, *PSRBEX_DATA_PNP
 ---
@@ -51,22 +52,6 @@ req.typenames: SRBEX_DATA_PNP, *PSRBEX_DATA_PNP
 
 The <b>SRBEX_DATA_PNP</b> structure contains the request data for an extended plug and play (PNP) SRB.
 <div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
-
-## -syntax
-
-
-````
-typedef struct _SRBEX_DATA_PNP {
-  SRBEXDATATYPE   Type;
-  ULONG           Length;
-  UCHAR           PnPSubFunction;
-  UCHAR           Reserved[3];
-  STOR_PNP_ACTION PnPAction;
-  ULONG           SrbPnPFlags;
-  ULONG           Reserved1;
-} SRBEX_DATA_PNP, *PSRBEX_DATA_PNP;
-````
-
 
 ## -struct-fields
 
@@ -185,7 +170,7 @@ Surprise Removal of the device. This value is available starting with Windows 7
 
 ### -field SrbPnPFlags
 
-Indicates that the PNP request is for the adapter if SRB_PNP_FLAGS_ADAPTER_REQUEST is set and that storage device address is reserved. Otherwise, <i>SrbPnPFlags</i> will be <b>NULL</b>, indicating that the request is for the storage device specified by an address at <b>AddressOffset</b> in the <a href="..\storport\ns-storport-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a> structure.
+Indicates that the PNP request is for the adapter if SRB_PNP_FLAGS_ADAPTER_REQUEST is set and that storage device address is reserved. Otherwise, <i>SrbPnPFlags</i> will be <b>NULL</b>, indicating that the request is for the storage device specified by an address at <b>AddressOffset</b> in the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451474">STORAGE_REQUEST_BLOCK</a> structure.
 
 
 ### -field Reserved1
@@ -195,13 +180,11 @@ This member is reserved. Set to 0.
 
 ## -see-also
 
-<a href="..\storport\ns-storport-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451474">STORAGE_REQUEST_BLOCK</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20SRBEX_DATA_PNP structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

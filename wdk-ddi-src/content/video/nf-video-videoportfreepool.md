@@ -7,7 +7,7 @@ old-location: display\videoportfreepool.htm
 old-project: display
 ms.assetid: 84e4f178-87d3-4f40-b4fc-7959818305fd
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: VideoPortFreePool, VideoPortFreePool function [Display Devices], VideoPort_Functions_a2b1e2c4-9f8d-455b-8484-c51e0669d526.xml, display.videoportfreepool, video/VideoPortFreePool
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Videoprt.sys
 api_name:
 -	VideoPortFreePool
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
 req.product: Windows 10 or later.
@@ -50,18 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>VideoPortFreePool</b> function deallocates a block of pool memory previously allocated by <a href="..\video\nf-video-videoportallocatepool.md">VideoPortAllocatePool</a>.
-
-
-## -syntax
-
-
-````
-VOID VideoPortFreePool(
-  _In_ PVOID HwDeviceExtension,
-  _In_ PVOID Ptr
-);
-````
+The <b>VideoPortFreePool</b> function deallocates a block of pool memory previously allocated by <a href="https://msdn.microsoft.com/library/windows/hardware/ff570180">VideoPortAllocatePool</a>.
 
 
 ## -parameters
@@ -101,17 +91,15 @@ Callers of <b>VideoPortFreePool</b> must be running at IRQL &lt;= DISPATCH_LEVEL
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportallocatepool.md">VideoPortAllocatePool</a>
 
 
 
-<a href="..\video\nf-video-videoportallocatecommonbuffer.md">VideoPortAllocateCommonBuffer</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570178">VideoPortAllocateCommonBuffer</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570180">VideoPortAllocatePool</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20VideoPortFreePool function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

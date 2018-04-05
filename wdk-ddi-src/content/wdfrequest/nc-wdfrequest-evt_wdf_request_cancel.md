@@ -7,7 +7,7 @@ old-location: wdf\evtrequestcancel.htm
 old-project: wdf
 ms.assetid: db54fa76-d3e0-4f8c-aa3f-bab268dd9b4d
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/26/2018
 ms.keywords: DFRequestObjectRef_fe2e3eee-9f6a-4fd8-afa7-23eb740ccd01.xml, EVT_WDF_REQUEST_CANCEL, EvtRequestCancel, EvtRequestCancel callback function, kmdf.evtrequestcancel, wdf.evtrequestcancel, wdfrequest/EvtRequestCancel
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Wdfrequest.h
 api_name:
 -	EvtRequestCancel
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_QUERY_INTERFACE_CONFIG, *PWDF_QUERY_INTERFACE_CONFIG
 req.product: Windows 10 or later.
@@ -53,19 +54,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 A driver's <i>EvtRequestCancel</i> event callback function handles operations that must be performed when an I/O request is canceled.
-
-
-## -prototype
-
-
-````
-EVT_WDF_REQUEST_CANCEL EvtRequestCancel;
-
-VOID EvtRequestCancel(
-  _In_ WDFREQUEST Request
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -91,7 +79,7 @@ None
 
 
 
-To register an <i>EvtRequestCancel</i> callback function, the driver must call <a href="..\wdfrequest\nf-wdfrequest-wdfrequestmarkcancelable.md">WdfRequestMarkCancelable</a> or <a href="..\wdfrequest\nf-wdfrequest-wdfrequestmarkcancelableex.md">WdfRequestMarkCancelableEx</a>.
+To register an <i>EvtRequestCancel</i> callback function, the driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff549983">WdfRequestMarkCancelable</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff549984">WdfRequestMarkCancelableEx</a>.
 
  When the framework calls your driver's <i>EvtRequestCancel</i> callback function, if the driver can cancel the request, it must:
 
@@ -101,7 +89,7 @@ Finish or stop processing the request, along with subrequests that it might have
 
 </li>
 <li>
-Call <a href="..\wdfrequest\nf-wdfrequest-wdfrequestcomplete.md">WdfRequestComplete</a>, specifying a status value of STATUS_CANCELLED.
+Call <a href="https://msdn.microsoft.com/library/windows/hardware/ff549945">WdfRequestComplete</a>, specifying a status value of STATUS_CANCELLED.
 
 </li>
 </ol>
@@ -148,21 +136,19 @@ The <b>EVT_WDF_REQUEST_CANCEL</b> function type is defined in the Wdfrequest.h h
 
 ## -see-also
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcomplete.md">WdfRequestComplete</a>
 
 
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestmarkcancelable.md">WdfRequestMarkCancelable</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549945">WdfRequestComplete</a>
 
 
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestmarkcancelableex.md">WdfRequestMarkCancelableEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549983">WdfRequestMarkCancelable</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549984">WdfRequestMarkCancelableEx</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20EVT_WDF_REQUEST_CANCEL callback function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

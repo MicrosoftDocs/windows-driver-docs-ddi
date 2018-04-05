@@ -7,7 +7,7 @@ old-location: display\d3dkmt_devicepresent_state.htm
 old-project: display
 ms.assetid: eed64347-fa5a-4b80-a28d-9190ae30b169
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMT_DEVICEPRESENT_STATE, D3DKMT_DEVICEPRESENT_STATE structure [Display Devices], OpenGL_Structs_d1f2fcff-dfb8-411f-a4f8-4016924b4ebd.xml, _D3DKMT_DEVICEPRESENT_STATE, d3dkmthk/D3DKMT_DEVICEPRESENT_STATE, display.d3dkmt_devicepresent_state
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmthk.h
 api_name:
 -	D3DKMT_DEVICEPRESENT_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_DEVICEPRESENT_STATE
 ---
@@ -50,17 +51,6 @@ req.typenames: D3DKMT_DEVICEPRESENT_STATE
 
 
 The D3DKMT_DEVICEPRESENT_STATE structure describes parameters for retrieving the present status for a device. 
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_DEVICEPRESENT_STATE {
-  D3DDDI_VIDEO_PRESENT_SOURCE_ID VidPnSourceId;
-  D3DKMT_PRESENT_STATS           PresentStats;
-} D3DKMT_DEVICEPRESENT_STATE;
-````
 
 
 ## -struct-fields
@@ -75,22 +65,20 @@ typedef struct _D3DKMT_DEVICEPRESENT_STATE {
 
 ### -field PresentStats
 
-[out] A <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_present_stats.md">D3DKMT_PRESENT_STATS</a> structure that describes status of present operations that is retrieved for the device.
+[out] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff548200">D3DKMT_PRESENT_STATS</a> structure that describes status of present operations that is retrieved for the device.
 
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_getdevicestate.md">D3DKMT_GETDEVICESTATE</a>
 
 
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_present_stats.md">D3DKMT_PRESENT_STATS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548030">D3DKMT_GETDEVICESTATE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548200">D3DKMT_PRESENT_STATS</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMT_DEVICEPRESENT_STATE structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

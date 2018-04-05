@@ -7,7 +7,7 @@ old-location: print\ixpsrasterizer_rasterizerect.htm
 old-project: print
 ms.assetid: abf8dfc7-7921-4e9c-a338-ec783a01fca7
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: IXpsRasterizer, IXpsRasterizer interface [Print Devices], RasterizeRect method, IXpsRasterizer::RasterizeRect, RasterizeRect method [Print Devices], RasterizeRect method [Print Devices], IXpsRasterizer interface, RasterizeRect,IXpsRasterizer.RasterizeRect, print.ixpsrasterizer_rasterizerect, print_xpsrast_de9e1518-8388-4cc4-9787-8774996221bf.xml, xpsrassvc/IXpsRasterizer::RasterizeRect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: xpsrassvc.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	xpsrassvc.h
 api_name:
 -	IXpsRasterizer.RasterizeRect
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: XPSRAS_BACKGROUND_COLOR
 req.product: Windows 10 or later.
@@ -51,21 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <code>RasterizeRect</code> method rasterizes an axis-aligned, rectangular region of an XPS fixed page.
-
-
-## -syntax
-
-
-````
-HRESULT RasterizeRect(
-  [in]            INT                                x,
-  [in]            INT                                y,
-  [in]            INT                                width,
-  [in]            INT                                height,
-  [in, optional]  IXpsRasterizerNotificationCallback *notificationCallback,
-  [out, optional] IWICBitmap                         **bitmap
-);
-````
 
 
 ## -parameters
@@ -95,7 +81,7 @@ The height, in pixels, of the output bitmap.
 
 ### -param notificationCallback [in, optional]
 
-Pointer to the <a href="..\xpsrassvc\nn-xpsrassvc-ixpsrasterizernotificationcallback.md">IXpsRasterizerNotificationCallback</a> interface of a notification object that is implemented by the caller. This parameter is optional and can be <b>NULL</b> if the caller does not require notification callbacks.
+Pointer to the <a href="https://msdn.microsoft.com/7616b5c7-a21f-4db1-923b-ebf2a039b5ec">IXpsRasterizerNotificationCallback</a> interface of a notification object that is implemented by the caller. This parameter is optional and can be <b>NULL</b> if the caller does not require notification callbacks.
 
 
 ### -param bitmap [out, optional]
@@ -181,7 +167,6 @@ For a code example that calls the <code>RasterizeRect</code> method, see the XPS
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556350">IXpsRasterizationFactory::CreateRasterizer</a>
 
 
 
@@ -189,7 +174,11 @@ For a code example that calls the <code>RasterizeRect</code> method, see the XPS
 
 
 
-<a href="..\xpsrassvc\nn-xpsrassvc-ixpsrasterizer.md">IXpsRasterizer</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556350">IXpsRasterizationFactory::CreateRasterizer</a>
+
+
+
+<a href="https://msdn.microsoft.com/1ef99120-2b3b-45aa-bcf7-16bcb9656089">IXpsRasterizer</a>
 
 
 
@@ -197,13 +186,8 @@ For a code example that calls the <code>RasterizeRect</code> method, see the XPS
 
 
 
-<a href="..\xpsrassvc\nn-xpsrassvc-ixpsrasterizernotificationcallback.md">IXpsRasterizerNotificationCallback</a>
-
-
-
+<a href="https://msdn.microsoft.com/7616b5c7-a21f-4db1-923b-ebf2a039b5ec">IXpsRasterizerNotificationCallback</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IXpsRasterizer::RasterizeRect method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

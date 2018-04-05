@@ -7,7 +7,7 @@ old-location: debugger\outputregisters.htm
 old-project: debugger
 ms.assetid: d1354ab7-4d7d-4cc2-8e30-763d8b881a11
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/26/2018
 ms.keywords: IDebugRegisters interface [Windows Debugging], OutputRegisters method, IDebugRegisters2, IDebugRegisters2 interface [Windows Debugging], OutputRegisters method, IDebugRegisters2::OutputRegisters, IDebugRegisters::OutputRegisters, IDebugRegisters_65d62961-afc5-4609-86d2-c55757fe6ce1.xml, OutputRegisters method [Windows Debugging], OutputRegisters method [Windows Debugging], IDebugRegisters interface, OutputRegisters method [Windows Debugging], IDebugRegisters2 interface, OutputRegisters,IDebugRegisters2.OutputRegisters, dbgeng/IDebugRegisters2::OutputRegisters, dbgeng/IDebugRegisters::OutputRegisters, debugger.outputregisters
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	IDebugRegisters.OutputRegisters
 -	IDebugRegisters2.OutputRegisters
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -51,17 +52,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>OutputRegisters</b> method formats and sends the target's <a href="https://msdn.microsoft.com/library/windows/hardware/ff554369">registers</a> to the clients as output.
-
-
-## -syntax
-
-
-````
-HRESULT OutputRegisters(
-  [in] ULONG OutputControl,
-  [in] ULONG Flags
-);
-````
 
 
 ## -parameters
@@ -153,28 +143,26 @@ The registers are formatted in a way that is specific to the target architecture
 
 The method <a href="https://msdn.microsoft.com/library/windows/hardware/ff553245">OutputRegisters2</a> performs the same task as this method but also allows the register source to be specified.
 
-For an overview of the <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRegisters</a> interface and other register-related methods, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554369">Registers</a>.  For details on sending output to the clients, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff550971">Input and Output</a>.
+For an overview of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550825">IDebugRegisters</a> interface and other register-related methods, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554369">Registers</a>.  For details on sending output to the clients, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff550971">Input and Output</a>.
 
 
 
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550825">IDebugRegisters</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550835">IDebugRegisters2</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553245">OutputRegisters2</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRegisters</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugregisters2.md">IDebugRegisters2</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugRegisters::OutputRegisters method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

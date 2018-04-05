@@ -7,7 +7,7 @@ old-location: storage\settunnelmodeouteraddress_in.htm
 old-project: storage
 ms.assetid: 3f698252-213f-482c-8c8f-624f0c370705
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSetTunnelModeOuterAddress_IN, PSetTunnelModeOuterAddress_IN, PSetTunnelModeOuterAddress_IN structure pointer [Storage Devices], SetTunnelModeOuterAddress_IN, SetTunnelModeOuterAddress_IN structure [Storage Devices], _SetTunnelModeOuterAddress_IN, iscsiop/PSetTunnelModeOuterAddress_IN, iscsiop/SetTunnelModeOuterAddress_IN, storage.settunnelmodeouteraddress_in, structs-iSCSI_d86148f6-e3d0-42b3-9e1d-3f341545f0b8.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	iscsiop.h
 api_name:
 -	SetTunnelModeOuterAddress_IN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SetTunnelModeOuterAddress_IN, *PSetTunnelModeOuterAddress_IN
 ---
@@ -50,18 +51,6 @@ req.typenames: SetTunnelModeOuterAddress_IN, *PSetTunnelModeOuterAddress_IN
 
 
 The SetTunnelModeOuterAddress_IN structure holds the input data for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566186">SetTunnelModeOuterAddress</a> method.
-
-
-## -syntax
-
-
-````
-typedef struct _SetTunnelModeOuterAddress_IN {
-  ULONG            PortNumber;
-  ISCSI_IP_Address DestinationAddress;
-  ISCSI_IP_Address TunnelModeOuterAddress;
-} SetTunnelModeOuterAddress_IN, *PSetTunnelModeOuterAddress_IN;
-````
 
 
 ## -struct-fields
@@ -76,7 +65,7 @@ The number of the port to associate with the tunnel-mode address. A value of 0xf
 
 ### -field DestinationAddress
 
-An <a href="..\iscsidef\ns-iscsidef-_iscsi_ip_address.md">ISCSI_IP_Address</a> structure that indicates the destination IP address in a way that is independent of the version of IP protocol in use.  
+An <a href="https://msdn.microsoft.com/library/windows/hardware/ff561536">ISCSI_IP_Address</a> structure that indicates the destination IP address in a way that is independent of the version of IP protocol in use.  
 
 
 ### -field TunnelModeOuterAddress
@@ -95,21 +84,19 @@ You must implement this method.
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561536">ISCSI_IP_Address</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566186">SetTunnelModeOuterAddress</a>
 
 
 
-<a href="..\iscsidef\ns-iscsidef-_iscsi_ip_address.md">ISCSI_IP_Address</a>
-
-
-
-<a href="..\iscsiop\ns-iscsiop-_settunnelmodeouteraddress_out.md">SetTunnelModeOuterAddress_OUT</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566190">SetTunnelModeOuterAddress_OUT</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20SetTunnelModeOuterAddress_IN structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -38,7 +38,8 @@ api_location:
 -	gnssdriver.h
 api_name:
 -	GNSS_SUPL_VERSION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GNSS_SUPL_VERSION, *PGNSS_SUPL_VERSION
 ---
@@ -52,17 +53,6 @@ req.typenames: GNSS_SUPL_VERSION, *PGNSS_SUPL_VERSION
 This structure contains SUPL version information.
 
 
-
-
-## -syntax
-
-
-````
-typedef struct {
-  ULONG MajorVersion;
-  ULONG MinorVersion;
-} GNSS_SUPL_VERSION, *PGNSS_SUPL_VERSION;
-````
 
 
 ## -struct-fields

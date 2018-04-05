@@ -7,7 +7,7 @@ old-location: kernel\zwsetinformationvirtualmemory.htm
 old-project: kernel
 ms.assetid: 1D53D6C6-7546-439F-818C-85E65901B5DC
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/28/2018
 ms.keywords: ZwSetInformationVirtualMemory, ZwSetInformationVirtualMemory routine [Kernel-Mode Driver Architecture], kernel.zwsetinformationvirtualmemory, ntifs/ZwSetInformationVirtualMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	ZwSetInformationVirtualMemory
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -50,21 +51,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>ZwSetInformationVirtualMemory</b> routine performs an operation on a specified list of address ranges in the user address space of a process. 
-
-
-## -syntax
-
-
-````
-NTSTATUS ZwSetInformationVirtualMemory(
-  _In_ HANDLE                                ProcessHandle,
-  _In_ VIRTUAL_MEMORY_INFORMATION_CLASS      VmInformationClass,
-  _In_ ULONG_PTR                             NumberOfEntries,
-  _In_ (NumberOfEntries) PMEMORY_RANGE_ENTRY VirtualAddresses,
-  _In_ (VmInformationLength) PVOID           VmInformation,
-  _In_ ULONG                                 VmInformationLength
-);
-````
 
 
 ## -parameters

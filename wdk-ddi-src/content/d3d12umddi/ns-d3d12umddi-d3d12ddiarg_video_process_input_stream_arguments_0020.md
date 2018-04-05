@@ -7,7 +7,7 @@ old-location: display\d3d12ddiarg_video_process_input_stream_parameters.htm
 old-project: display
 ms.assetid: 2488E73E-CF47-4852-8090-BC063DCC4EA4
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS_0020, D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS_0020 structure [Display Devices], d3d12umddi/D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS_0020, display.d3d12ddiarg_video_process_input_stream_parameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3d12umddi.h
 api_name:
 -	D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS_0020
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS_0020
 ---
@@ -50,29 +51,6 @@ req.typenames: D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS_0020
 
 
 Specifies input stream parameters for an input stream passed to the pfnProcessFrame callback function.
-
-
-## -syntax
-
-
-````
-typedef struct D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS_0020 {
-  D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_0020           InputStream[2];
-  D3D12DDI_VIDEO_PROCESS_TRANSFORM_0020              Transform;
-  D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_FLAGS_0020     Flags;
-  D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_RATE_INFO_0020 RateInfo;
-  D3D12DDI_VIDEO_FIELD_TYPE_0020                     FieldType;
-  D3D12DDI_VIDEO_PROCESS_DEINTERLACE_FLAGS_0020      DeinterlaceMode;
-  D3D12DDI_VIDEO_FRAME_STEREO_FORMAT_0020            StereoFormat;
-  DXGI_COLOR_SPACE_TYPE                              ColorSpace;
-  D3D12DDI_VIDEO_PROCESS_FILTER_FLAGS_0020           FilterFlags;
-  INT                                                FilterLevels[D3D12DDI_VIDEO_PROCESS_MAX_FILTERS];
-  D3D12DDI_VIDEO_PROCESS_ALPHA_BLENDING_0020         AlphaBlending;
-  D3D12DDI_VIDEO_PROCESS_LUMA_KEY_0020               LumaKey;
-  D3D12DDI_VIDEO_PROCESS_PALETTE_0020                Palette;
-  BOOL                                               EnableAutoProcessing;
-} D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS_0020;
-````
 
 
 ## -struct-fields
@@ -87,17 +65,17 @@ The set of references to be able to perform processing. If stereo format is <b>D
 
 ### -field Transform
 
-Flip, rotation, scale and destination translation for the video input.  For more information, see the <a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_video_process_transform_0020.md">D3D12DDI_VIDEO_PROCESS_TRANSFORM</a> structure. 
+Flip, rotation, scale and destination translation for the video input.  For more information, see the <a href="https://msdn.microsoft.com/E463BD7F-F89C-4D82-ABCA-4AF48EC21655">D3D12DDI_VIDEO_PROCESS_TRANSFORM</a> structure. 
 
 
 ### -field Flags
 
-Options for the input stream.  For more information, see the <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_process_input_stream_flags_0020.md">D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_FLAGS</a> enumeration.
+Options for the input stream.  For more information, see the <a href="https://msdn.microsoft.com/6BF1C31E-45F8-4921-87A2-53331530EAC4">D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_FLAGS</a> enumeration.
 
 
 ### -field RateInfo
 
-Frame rate and input and output indexes for frame rate conversion and deinterlacing.  For more information, see the <a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_video_process_input_stream_rate_info_0020.md">D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_RATE_INFO</a> structure.
+Frame rate and input and output indexes for frame rate conversion and deinterlacing.  For more information, see the <a href="https://msdn.microsoft.com/3F92B206-BA05-4ECC-854B-8D1EA9D7FD19">D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_RATE_INFO</a> structure.
 
 
 ### -field FieldType
@@ -107,7 +85,7 @@ Frame format as progressive or interlaced for the input stream.
 
 ### -field DeinterlaceMode
 
-The deinterlace mode to use.  For more information, see the <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_process_deinterlace_flags_0020.md">D3D12DDI_VIDEO_PROCESS_DEINTERLACE_FLAGS</a> enumeration.
+The deinterlace mode to use.  For more information, see the <a href="https://msdn.microsoft.com/7E34CCE5-A771-4EBE-A09B-79424405BFF3">D3D12DDI_VIDEO_PROCESS_DEINTERLACE_FLAGS</a> enumeration.
 
 
 ### -field StereoFormat
@@ -122,7 +100,7 @@ The colorspace for the video processor input and reference surfaces as a <a href
 
 ### -field FilterFlags
 
-The filters to enable, as a bitwise OR of one or more flags from the <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_process_filter_flags_0020.md">D3D12DDI_VIDEO_PROCESS_FILTER_FLAGS</a> enumeration.
+The filters to enable, as a bitwise OR of one or more flags from the <a href="https://msdn.microsoft.com/28662E87-F6A4-42B0-9BF0-49A6C65B245C">D3D12DDI_VIDEO_PROCESS_FILTER_FLAGS</a> enumeration.
 
 
 ### -field FilterLevels
@@ -132,12 +110,12 @@ The level to apply for each enabled filter.  If a filter is not enabled or the f
 
 ### -field AlphaBlending
 
-The planar alpha for an input stream on the video processor.  For more information, see the  <a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_video_process_alpha_blending_0020.md">D3D12DDI_VIDEO_PROCESS_ALPHA_BLENDING</a> structure.
+The planar alpha for an input stream on the video processor.  For more information, see the  <a href="https://msdn.microsoft.com/58E7A600-1CA9-40F8-8F37-CA7A0834B3F4">D3D12DDI_VIDEO_PROCESS_ALPHA_BLENDING</a> structure.
 
 
 ### -field LumaKey
 
-The luma key for an input stream on the video processor.  For more information, see the  <a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_video_process_luma_key_0020.md">D3D12DDI_VIDEO_PROCESS_LUMA_KEY</a> structure.
+The luma key for an input stream on the video processor.  For more information, see the  <a href="https://msdn.microsoft.com/79D8C170-A562-45F4-834B-58D8F7490C36">D3D12DDI_VIDEO_PROCESS_LUMA_KEY</a> structure.
 
 
 ### -field Palette
@@ -152,41 +130,39 @@ Whether to enable automatic processing features on the video processor.
 
 ## -see-also
 
-<a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_video_process_alpha_blending_0020.md">D3D12DDI_VIDEO_PROCESS_ALPHA_BLENDING</a>
 
 
 
-<a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_process_input_stream_flags_0020.md">D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_FLAGS</a>
+<a href="https://msdn.microsoft.com/58E7A600-1CA9-40F8-8F37-CA7A0834B3F4">D3D12DDI_VIDEO_PROCESS_ALPHA_BLENDING</a>
 
 
 
-<a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_process_filter_flags_0020.md">D3D12DDI_VIDEO_PROCESS_FILTER_FLAGS</a>
+<a href="https://msdn.microsoft.com/7E34CCE5-A771-4EBE-A09B-79424405BFF3">D3D12DDI_VIDEO_PROCESS_DEINTERLACE_FLAGS</a>
 
 
 
-<a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_video_process_luma_key_0020.md">D3D12DDI_VIDEO_PROCESS_LUMA_KEY</a>
+<a href="https://msdn.microsoft.com/28662E87-F6A4-42B0-9BF0-49A6C65B245C">D3D12DDI_VIDEO_PROCESS_FILTER_FLAGS</a>
 
 
 
-<a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_video_process_input_stream_rate_info_0020.md">D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_RATE_INFO</a>
+<a href="https://msdn.microsoft.com/6BF1C31E-45F8-4921-87A2-53331530EAC4">D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_FLAGS</a>
 
 
 
-<a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_process_deinterlace_flags_0020.md">D3D12DDI_VIDEO_PROCESS_DEINTERLACE_FLAGS</a>
+<a href="https://msdn.microsoft.com/3F92B206-BA05-4ECC-854B-8D1EA9D7FD19">D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_RATE_INFO</a>
 
 
 
-<a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_video_process_transform_0020.md">D3D12DDI_VIDEO_PROCESS_TRANSFORM</a>
+<a href="https://msdn.microsoft.com/79D8C170-A562-45F4-834B-58D8F7490C36">D3D12DDI_VIDEO_PROCESS_LUMA_KEY</a>
+
+
+
+<a href="https://msdn.microsoft.com/E463BD7F-F89C-4D82-ABCA-4AF48EC21655">D3D12DDI_VIDEO_PROCESS_TRANSFORM</a>
 
 
 
 <a href="https://msdn.microsoft.com/E25C933F-0DB3-4BC4-9755-9361B2B9B9CB">DXGI_COLOR_SPACE_TYPE</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS_0020 structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

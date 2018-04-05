@@ -7,7 +7,7 @@ old-location: display\videoportlockbuffer.htm
 old-project: display
 ms.assetid: ba65d1b1-a720-4f21-8c6d-af70185c0c24
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: VideoPortLockBuffer, VideoPortLockBuffer function [Display Devices], VideoPort_Functions_8c96bd4d-b9fc-4ff7-9d81-1087d6527700.xml, display.videoportlockbuffer, video/VideoPortLockBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Videoprt.sys
 api_name:
 -	VideoPortLockBuffer
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
 req.product: Windows 10 or later.
@@ -51,19 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>VideoPortLockBuffer</b> function probes the specified buffer, makes the buffer's memory pages resident in memory, and locks the physical pages mapped by the virtual address range.
-
-
-## -syntax
-
-
-````
-PVOID VideoPortLockBuffer(
-  _In_ PVOID             HwDeviceExtension,
-  _In_ PVOID             BaseAddress,
-  _In_ ULONG             Length,
-  _In_ VP_LOCK_OPERATION Operation
-);
-````
 
 
 ## -parameters
@@ -104,20 +92,18 @@ Returns a pointer to a memory descriptor list (<a href="https://msdn.microsoft.c
 
 
 
-To unlock the buffer, the video miniport driver should call <a href="..\video\nf-video-videoportunlockbuffer.md">VideoPortUnlockBuffer</a>. 
+To unlock the buffer, the video miniport driver should call <a href="https://msdn.microsoft.com/library/windows/hardware/ff570373">VideoPortUnlockBuffer</a>. 
 
 
 
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportunlockbuffer.md">VideoPortUnlockBuffer</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570373">VideoPortUnlockBuffer</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20VideoPortLockBuffer function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -38,7 +38,8 @@ api_location:
 -	1394.h
 api_name:
 -	IRB_REQ_FREE_ADDRESS_RANGE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: IRB_REQ_FREE_ADDRESS_RANGE
 ---
@@ -50,19 +51,6 @@ req.typenames: IRB_REQ_FREE_ADDRESS_RANGE
 
 
 This structure contains the fields necessary for the 1394 stack to carry out a free address range reqeust.
-
-
-## -syntax
-
-
-````
-typedef struct _IRB_REQ_FREE_ADDRESS_RANGE {
-  ULONG          nAddressesToFree;
-  PADDRESS_RANGE p1394AddressRange;
-  PHANDLE        pAddressRange;
-  PVOID          DeviceExtension;
-} IRB_REQ_FREE_ADDRESS_RANGE;
-````
 
 
 ## -struct-fields

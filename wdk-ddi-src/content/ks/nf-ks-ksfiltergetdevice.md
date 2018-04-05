@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KsFilterGetDevice
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -52,16 +53,6 @@ req.typenames:
 The<b> KsFilterGetDevice </b>function returns the AVStream device to which <i>Filter</i> belongs.
 
 
-## -syntax
-
-
-````
-PKSDEVICE __inline KsFilterGetDevice(
-  _In_ PKSFILTER Filter
-);
-````
-
-
 ## -parameters
 
 
@@ -69,14 +60,14 @@ PKSDEVICE __inline KsFilterGetDevice(
 
 ### -param Filter [in]
 
-A pointer to the <a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a> structure for which to find the owning AVStream device.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562522">KSFILTER</a> structure for which to find the owning AVStream device.
 
 
 ## -returns
 
 
 
-<b>KsFilterGetDevice</b> returns a pointer to the AVStream <a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a> structure to which <i>Filter</i> belongs.
+<b>KsFilterGetDevice</b> returns a pointer to the AVStream <a href="https://msdn.microsoft.com/library/windows/hardware/ff561681">KSDEVICE</a> structure to which <i>Filter</i> belongs.
 
 
 
@@ -85,28 +76,26 @@ A pointer to the <a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a> structure for w
 
 
 
-This call is an inline function call to <a href="..\ks\nf-ks-ksgetdevice.md">KsGetDevice</a>.
+This call is an inline function call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff562615">KsGetDevice</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
 
 
 
-<a href="..\ks\nf-ks-ksgetdevice.md">KsGetDevice</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561681">KSDEVICE</a>
 
 
 
-<a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562522">KSFILTER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562615">KsGetDevice</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsFilterGetDevice function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

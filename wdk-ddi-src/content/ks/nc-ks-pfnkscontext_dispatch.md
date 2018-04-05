@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KStrContextDispatch
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SOUNDDETECTOR_PATTERNHEADER
 ---
@@ -52,20 +53,6 @@ req.typenames: SOUNDDETECTOR_PATTERNHEADER
 A streaming minidriver's <i>KStrContextDispatch</i> routine is called to process IRP_MJ_POWER IRPs.
 
 
-## -prototype
-
-
-````
-PFNKSCONTEXT_DISPATCH KStrContextDispatch;
-
-NTSTATUS KStrContextDispatch(
-  _In_ PVOID Context,
-  _In_ PIRP  Irp
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -73,7 +60,7 @@ NTSTATUS KStrContextDispatch(
 
 ### -param Context [in]
 
-Specifies the user-supplied memory context to be passed as the <i>PowerContext</i> argument to the <a href="..\ks\nf-ks-kssetpowerdispatch.md">KsSetPowerDispatch</a> function.
+Specifies the user-supplied memory context to be passed as the <i>PowerContext</i> argument to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566843">KsSetPowerDispatch</a> function.
 
 
 ### -param Irp [in]
@@ -103,13 +90,11 @@ To manipulate the list entry only, <i>KStrContextDispatch</i> can call<b> KsSetP
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kssetpowerdispatch.md">KsSetPowerDispatch</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566843">KsSetPowerDispatch</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KStrContextDispatch routine%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

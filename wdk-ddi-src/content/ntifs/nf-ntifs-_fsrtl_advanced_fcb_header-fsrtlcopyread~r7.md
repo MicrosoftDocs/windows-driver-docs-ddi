@@ -7,7 +7,7 @@ old-location: ifsk\fsrtlcopyread.htm
 old-project: ifsk
 ms.assetid: fb36b3e9-c17b-4c15-b1ad-b93f71f43cd5
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FsRtlCopyRead, FsRtlCopyRead routine [Installable File System Drivers], fsrtlref_e1027860-157f-4621-97dd-54a15c59be0c.xml, ifsk.fsrtlcopyread, ntifs/FsRtlCopyRead
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	FsRtlCopyRead
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -50,23 +51,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>FsRtlCopyRead</b> routine copies data from a cached file to a user buffer.
-
-
-## -syntax
-
-
-````
-BOOLEAN FsRtlCopyRead(
-  _In_  PFILE_OBJECT     FileObject,
-  _In_  PLARGE_INTEGER   FileOffset,
-  _In_  ULONG            Length,
-  _In_  BOOLEAN          Wait,
-  _In_  ULONG            LockKey,
-  _Out_ PVOID            Buffer,
-  _Out_ PIO_STATUS_BLOCK IoStatus,
-  _In_  PDEVICE_OBJECT   DeviceObject
-);
-````
 
 
 ## -parameters
@@ -156,30 +140,28 @@ If <i>Wait</i> is <b>TRUE</b>, <b>FsRtlCopyRead</b> is guaranteed to complete th
 
 If <i>Wait</i> is <b>FALSE</b>, <b>FsRtlCopyRead</b> will refuse to block, and will return <b>FALSE</b>, if it cannot acquire the file's main resource or if the required pages of the cached file are not already resident in memory. 
 
-The file system's <b>FastIoCheckIfPossible</b> routine is responsible for ensuring that the byte range defined by <i>FileOffset</i> and <i>Length</i> does not include any exclusively locked byte range for which the caller does not pass the appropriate <i>LockKey</i> value. If the file system uses the <b>FsRtl..Lock</b><i>Xxx</i> support routines to manage byte-range locks, this can be accomplished by calling <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlfastchecklockforread~r5.md">FsRtlFastCheckLockForRead</a> from the <b>FastIoCheckIfPossible</b> routine before calling <b>FsRtlCopyRead</b>.
+The file system's <b>FastIoCheckIfPossible</b> routine is responsible for ensuring that the byte range defined by <i>FileOffset</i> and <i>Length</i> does not include any exclusively locked byte range for which the caller does not pass the appropriate <i>LockKey</i> value. If the file system uses the <b>FsRtl..Lock</b><i>Xxx</i> support routines to manage byte-range locks, this can be accomplished by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff545918">FsRtlFastCheckLockForRead</a> from the <b>FastIoCheckIfPossible</b> routine before calling <b>FsRtlCopyRead</b>.
 
-To cache a file, use the <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a> routine.
+To cache a file, use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539135">CcInitializeCacheMap</a> routine.
 
 
 
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlcopywrite~r7.md">FsRtlCopyWrite</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539135">CcInitializeCacheMap</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlfastchecklockforread~r5.md">FsRtlFastCheckLockForRead</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545797">FsRtlCopyWrite</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545918">FsRtlFastCheckLockForRead</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FsRtlCopyRead routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

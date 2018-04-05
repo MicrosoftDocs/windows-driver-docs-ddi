@@ -7,7 +7,7 @@ old-location: netvista\wdi_rx_throttle_level.htm
 old-project: netvista
 ms.assetid: 637c0892-8d73-45b7-b679-ff3a0ba78a9c
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: WDI_RX_THROTTLE_LEVEL, WDI_RX_THROTTLE_LEVEL enumeration [Network Drivers Starting with Windows Vista], WDI_RxThrottleLevelAggressive, WDI_RxThrottleLevelMedium, WDI_RxThrottleLevelNone, _WDI_RX_THROTTLE_LEVEL, dot11wdi/WDI_RX_THROTTLE_LEVEL, dot11wdi/WDI_RxThrottleLevelAggressive, dot11wdi/WDI_RxThrottleLevelMedium, dot11wdi/WDI_RxThrottleLevelNone, netvista.wdi_rx_throttle_level, netvista.wifi_rx_throttle_level
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	dot11wdi.h
 api_name:
 -	WDI_RX_THROTTLE_LEVEL
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDI_RX_THROTTLE_LEVEL
 ---
@@ -50,18 +51,6 @@ req.typenames: WDI_RX_THROTTLE_LEVEL
 
 
 The WDI_RX_THROTTLE_LEVEL enumeration defines the RX throttle level. The interpretation and implementation mechanisms of these throttle levels are defined by the independent hardware vendor (IHV).
-
-
-## -syntax
-
-
-````
-typedef enum _WDI_RX_THROTTLE_LEVEL { 
-  WDI_RxThrottleLevelNone        = 0x0,
-  WDI_RxThrottleLevelMedium      = 0x1,
-  WDI_RxThrottleLevelAggressive  = 0x2
-} WDI_RX_THROTTLE_LEVEL;
-````
 
 
 ## -enum-fields

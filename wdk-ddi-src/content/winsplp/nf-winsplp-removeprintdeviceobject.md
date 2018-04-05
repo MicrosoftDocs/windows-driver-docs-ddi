@@ -7,7 +7,7 @@ old-location: print\removeprintdeviceobject.htm
 old-project: print
 ms.assetid: D94A669E-4293-4235-8BC4-C7883BB0C83C
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: RemovePrintDeviceObject, RemovePrintDeviceObject function [Print Devices], print.removeprintdeviceobject, winsplp/RemovePrintDeviceObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	WinSpool.drv
 api_name:
 -	RemovePrintDeviceObject
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NOTIFICATION_CONFIG_FLAGS
 req.product: Windows 10 or later.
@@ -55,16 +56,6 @@ req.product: Windows 10 or later.
 </div><div> </div>The <b>RemovePrintDeviceObject</b> function removes a device object from a print provider queue.
 
 
-## -syntax
-
-
-````
-HRESULT WINAPI RemovePrintDeviceObject(
-  _In_ HANDLE hDeviceObject
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +63,7 @@ HRESULT WINAPI RemovePrintDeviceObject(
 
 ### -param hDeviceObject [in]
 
-The HANDLE to the device object to be removed. This should be a device object that was  created with <a href="..\winsplp\nf-winsplp-addprintdeviceobject.md">AddPrintDeviceObject</a>.
+The HANDLE to the device object to be removed. This should be a device object that was  created with <a href="https://msdn.microsoft.com/library/windows/hardware/dn917890">AddPrintDeviceObject</a>.
 
 
 ## -returns
@@ -97,13 +88,11 @@ Call <b>RemovePrintDeviceObject</b> to remove the device object for a printer th
 
 ## -see-also
 
-<a href="..\winsplp\nf-winsplp-addprintdeviceobject.md">AddPrintDeviceObject</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn917890">AddPrintDeviceObject</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20RemovePrintDeviceObject function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

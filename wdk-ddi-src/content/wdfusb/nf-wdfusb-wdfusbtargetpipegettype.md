@@ -7,7 +7,7 @@ old-location: wdf\wdfusbtargetpipegettype.htm
 old-project: wdf
 ms.assetid: d02af0c8-f963-4bec-a8b6-fe334fd75a68
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/26/2018
 ms.keywords: DFUsbRef_de8bc76f-0be3-46bb-a959-b3115e91b472.xml, WdfUsbTargetPipeGetType, WdfUsbTargetPipeGetType method, kmdf.wdfusbtargetpipegettype, wdf.wdfusbtargetpipegettype, wdfusb/WdfUsbTargetPipeGetType
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,8 @@ api_location:
 -	WUDFx02000.dll.dll
 api_name:
 -	WdfUsbTargetPipeGetType
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
@@ -58,16 +59,6 @@ req.product: Windows 10 or later.
 The <b>WdfUsbTargetPipeGetType</b> method returns the type of a specified USB pipe.
 
 
-## -syntax
-
-
-````
-WDF_USB_PIPE_TYPE WdfUsbTargetPipeGetType(
-  _In_ WDFUSBPIPE Pipe
-);
-````
-
-
 ## -parameters
 
 
@@ -75,14 +66,14 @@ WDF_USB_PIPE_TYPE WdfUsbTargetPipeGetType(
 
 ### -param Pipe [in]
 
-A handle to a framework pipe object that was obtained by calling <a href="..\wdfusb\nf-wdfusb-wdfusbinterfacegetconfiguredpipe.md">WdfUsbInterfaceGetConfiguredPipe</a>. 
+A handle to a framework pipe object that was obtained by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff550057">WdfUsbInterfaceGetConfiguredPipe</a>. 
 
 
 ## -returns
 
 
 
-<b>WdfUsbTargetPipeGetType</b> returns a <a href="..\wdfusb\ne-wdfusb-_wdf_usb_pipe_type.md">WDF_USB_PIPE_TYPE</a>-typed value that identifies the specified pipe's type. 
+<b>WdfUsbTargetPipeGetType</b> returns a <a href="https://msdn.microsoft.com/library/windows/hardware/ff553047">WDF_USB_PIPE_TYPE</a>-typed value that identifies the specified pipe's type. 
 
 A bug check occurs if the driver supplies an invalid object handle.
 
@@ -120,17 +111,15 @@ usbPipeType = WdfUsbTargetPipeGetType(usbPipe);
 
 ## -see-also
 
-<a href="..\wdfusb\nf-wdfusb-wdfusbinterfacegetconfiguredpipe.md">WdfUsbInterfaceGetConfiguredPipe</a>
 
 
 
-<a href="..\wdfusb\ne-wdfusb-_wdf_usb_pipe_type.md">WDF_USB_PIPE_TYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553047">WDF_USB_PIPE_TYPE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550057">WdfUsbInterfaceGetConfiguredPipe</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfUsbTargetPipeGetType method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

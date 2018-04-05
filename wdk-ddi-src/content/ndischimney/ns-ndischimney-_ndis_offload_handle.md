@@ -7,7 +7,7 @@ old-location: netvista\ndis_offload_handle.htm
 old-project: netvista
 ms.assetid: cc1d7ca2-273a-42ca-896c-aebee862a4cd
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: "*PNDIS_OFFLOAD_HANDLE, NDIS_OFFLOAD_HANDLE, NDIS_OFFLOAD_HANDLE structure [Network Drivers Starting with Windows Vista], PNDIS_OFFLOAD_HANDLE, PNDIS_OFFLOAD_HANDLE structure pointer [Network Drivers Starting with Windows Vista], _NDIS_OFFLOAD_HANDLE, ndischimney/NDIS_OFFLOAD_HANDLE, ndischimney/PNDIS_OFFLOAD_HANDLE, netvista.ndis_offload_handle, tcp_chim_struct_32ac0fbc-873b-4cd9-9121-d7e77667f05d.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ndischimney.h
 api_name:
 -	NDIS_OFFLOAD_HANDLE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_OFFLOAD_HANDLE, *PNDIS_OFFLOAD_HANDLE
 ---
@@ -52,17 +53,6 @@ req.typenames: NDIS_OFFLOAD_HANDLE, *PNDIS_OFFLOAD_HANDLE
 <p class="CCE_Message">[The TCP chimney offload feature is deprecated and should not be used.]
 
 The NDIS_OFFLOAD_HANDLE structure represents a driver's context for an offloaded state object.
-
-
-## -syntax
-
-
-````
-typedef struct _NDIS_OFFLOAD_HANDLE {
-  PVOID NdisReserved[1];
-  PVOID MiniportOffloadContext;
-} NDIS_OFFLOAD_HANDLE, *PNDIS_OFFLOAD_HANDLE;
-````
 
 
 ## -struct-fields
@@ -104,17 +94,15 @@ For more information about the use of the NDIS_OFFLOAD_HANDLE structure, see
 
 ## -see-also
 
-<a href="..\ndischimney\nc-ndischimney-w_initiate_offload_handler.md">MiniportInitiateOffload</a>
 
 
 
-<a href="..\ndischimney\nf-ndischimney-ndisminitiateoffloadcomplete.md">NdisMInitiateOffloadComplete</a>
+<a href="https://msdn.microsoft.com/f430642b-01bf-4ed7-bfea-e8dd8d5a8208">MiniportInitiateOffload</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563604">NdisMInitiateOffloadComplete</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_OFFLOAD_HANDLE structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: display\dxgkddirendergdi.htm
 old-project: display
 ms.assetid: 90C34125-FC32-46E3-81F7-6B2AACED9BAC
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_RENDERGDI, DxgkDdiRenderGdi, DxgkDdiRenderGdi callback function [Display Devices], d3dkmddi/DxgkDdiRenderGdi, display.dxgkddirendergdi
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DxgkDdiRenderGdi
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 ---
@@ -50,20 +51,6 @@ req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 
 
 <b>DxgkDdiRenderGdi</b> is used when submitting Windows Graphics Device Interface (GDI) commands for contexts that support virtual addressing.
-
-
-## -prototype
-
-
-````
-DXGKDDI_RENDERGDI DxgkDdiRenderGdi;
-
-NTSTATUS APIENTRY DxgkDdiRenderGdi(
-  _In_    const HANDLE            hContext,
-  _Inout_       DXGKARG_RENDERGDI *pRenderGdi
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -78,7 +65,7 @@ A handle to a context block that is associated with a display adapter.
 
 ### -param pRenderGdi [in, out]
 
-A pointer to a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_rendergdi.md">DXGKARG_RENDERGDI</a> structure that describes operation.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn906823">DXGKARG_RENDERGDI</a> structure that describes operation.
 
 
 ## -returns
@@ -120,13 +107,11 @@ All other return values will lead to the OS <i>bugcheck</i>.
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_rendergdi.md">DXGKARG_RENDERGDI</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn906823">DXGKARG_RENDERGDI</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKDDI_RENDERGDI callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

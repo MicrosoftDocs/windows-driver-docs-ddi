@@ -7,7 +7,7 @@ old-location: image\ioctl_get_device_descriptor.htm
 old-project: image
 ms.assetid: a6946dd4-db72-477f-bf2c-958c363340a0
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/27/2018
 ms.keywords: IOCTL_GET_DEVICE_DESCRIPTOR, IOCTL_GET_DEVICE_DESCRIPTOR control code [Imaging Devices], image.ioctl_get_device_descriptor, stifnc_b84c2743-6548-40c7-8b97-4952867740ad.xml, usbscan/IOCTL_GET_DEVICE_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Usbscan.h
 api_name:
 -	IOCTL_GET_DEVICE_DESCRIPTOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RAW_PIPE_TYPE
 req.product: Windows 10 or later.
@@ -46,11 +47,6 @@ req.product: Windows 10 or later.
 
 # IOCTL_GET_DEVICE_DESCRIPTOR IOCTL
 
-
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -65,7 +61,7 @@ Returns vendor and device identifiers.
 
 ### -input-buffer
 
-Pointer to a <a href="..\usbscan\ns-usbscan-_device_descriptor.md">DEVICE_DESCRIPTOR</a> structure.
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540576">DEVICE_DESCRIPTOR</a> structure.
 
 
 ### -input-buffer-length
@@ -75,7 +71,7 @@ Size of the input buffer.
 
 ### -output-buffer
 
-Pointer to a <a href="..\usbscan\ns-usbscan-_device_descriptor.md">DEVICE_DESCRIPTOR</a> structure (same as <i>lpInbuffer</i>).
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540576">DEVICE_DESCRIPTOR</a> structure (same as <i>lpInbuffer</i>).
 
 
 ### -output-buffer-length
@@ -113,7 +109,7 @@ Size of the output buffer.
 <h3><a id="ddk_ioctl_get_device_descriptor_si"></a><a id="DDK_IOCTL_GET_DEVICE_DESCRIPTOR_SI"></a>DeviceIoControl Parameters</h3>
 
 
-When the <b>DeviceloControl</b> function is called with the IOCTL_GET_USB_DESCRIPTOR I/O control code, the caller must specify the address of a <a href="..\usbscan\ns-usbscan-_device_descriptor.md">DEVICE_DESCRIPTOR</a> structure as the function's <i>lpOutbuffer</i> parameter. The kernel-mode driver fills in the structure.
+When the <b>DeviceloControl</b> function is called with the IOCTL_GET_USB_DESCRIPTOR I/O control code, the caller must specify the address of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540576">DEVICE_DESCRIPTOR</a> structure as the function's <i>lpOutbuffer</i> parameter. The kernel-mode driver fills in the structure.
 
 For more information, see <a href="https://msdn.microsoft.com/f9216d3c-4930-4c26-8eac-6ee500b038e0">Accessing Kernel-Mode Drivers for Still Image Devices</a>.
 

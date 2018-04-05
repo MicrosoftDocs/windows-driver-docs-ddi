@@ -38,7 +38,8 @@ api_location:
 -	ntdd8042.h
 api_name:
 -	SynchReadPort
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MSFC_VirtualFibrePortAttributes, *PMSFC_VirtualFibrePortAttributes
 ---
@@ -50,21 +51,6 @@ req.typenames: MSFC_VirtualFibrePortAttributes, *PMSFC_VirtualFibrePortAttribute
 
 
 The PI8042_SYNCH_READ_PORT-typed callback routine does a synchronized read from an i8042 port. I8042prt supplies this callback.
-
-
-## -prototype
-
-
-````
-PI8042_SYNCH_READ_PORT SynchReadPort;
-
-NTSTATUS SynchReadPort(
-  _In_  PVOID   Context,
-  _Out_ PUCHAR  Value,
-  _In_  BOOLEAN WaitForACK
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -130,7 +116,7 @@ The hardware was not ready for a read access.
 
 
 
-The PI8042_SYNCH_READ_PORT callback can only be used in a <a href="..\ntdd8042\nc-ntdd8042-pi8042_keyboard_initialization_routine.md">PI8042_KEYBOARD_INITIALIZATION_ROUTINE</a> callback. I8042prt specifies the read port callback in the <i>ReadPort</i> parameter that I8042prt inputs to a keyboard initialization routine.
+The PI8042_SYNCH_READ_PORT callback can only be used in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543243">PI8042_KEYBOARD_INITIALIZATION_ROUTINE</a> callback. I8042prt specifies the read port callback in the <i>ReadPort</i> parameter that I8042prt inputs to a keyboard initialization routine.
 
 The routine polls the hardware until a read is returned by the hardware or an internal time-out occurs.
 
@@ -139,17 +125,15 @@ The routine polls the hardware until a read is returned by the hardware or an in
 
 ## -see-also
 
-<a href="..\ntdd8042\nc-ntdd8042-pi8042_keyboard_initialization_routine.md">PI8042_KEYBOARD_INITIALIZATION_ROUTINE</a>
 
 
 
-<a href="..\ntdd8042\nc-ntdd8042-pi8042_synch_write_port.md">PI8042_SYNCH_WRITE_PORT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543243">PI8042_KEYBOARD_INITIALIZATION_ROUTINE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543276">PI8042_SYNCH_WRITE_PORT</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [hid\hid]:%20PI8042_SYNCH_READ_PORT callback function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

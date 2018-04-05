@@ -7,7 +7,7 @@ old-location: ifsk\cczerodata.htm
 old-project: ifsk
 ms.assetid: 97a0f314-5813-4ff8-8a94-c675874cdc3b
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: CcZeroData, CcZeroData routine [Installable File System Drivers], ccref_af6df6fe-6fa3-41e9-b3af-2530ca6a2c85.xml, ifsk.cczerodata, ntifs/CcZeroData
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	CcZeroData
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -52,19 +53,6 @@ req.typenames: TOKEN_TYPE
 The <b>CcZeroData</b> routine zeros the specified range of bytes in a cached or noncached file.
 
 
-## -syntax
-
-
-````
-BOOLEAN CcZeroData(
-  _In_ PFILE_OBJECT   FileObject,
-  _In_ PLARGE_INTEGER StartOffset,
-  _In_ PLARGE_INTEGER EndOffset,
-  _In_ BOOLEAN        Wait
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +60,7 @@ BOOLEAN CcZeroData(
 
 ### -param FileObject [in]
 
-A pointer to a file object (<a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a>) for the file in which a range of bytes is to be zeroed.
+A pointer to a file object (<a href="https://msdn.microsoft.com/library/windows/hardware/ff545834">FILE_OBJECT</a>) for the file in which a range of bytes is to be zeroed.
 
 
 ### -param StartOffset [in]
@@ -132,7 +120,10 @@ If <i>EndOffset</i> is not aligned, it will be rounded up to the next sector siz
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539135">CcInitializeCacheMap</a>
 
 
 
@@ -140,13 +131,8 @@ If <i>EndOffset</i> is not aligned, it will be rounded up to the next sector siz
 
 
 
-<a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545834">FILE_OBJECT</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20CcZeroData routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

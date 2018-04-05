@@ -7,7 +7,7 @@ old-location: netvista\ndis_ndk_connections.htm
 old-project: netvista
 ms.assetid: 24149E73-6BA8-4C5E-8649-25A90A3D01AF
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: NDIS_NDK_CONNECTIONS, NDIS_NDK_CONNECTIONS structure [Network Drivers Starting with Windows Vista], PNDIS_NDK_CONNECTIONS, PNDIS_NDK_CONNECTIONS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_NDK_CONNECTIONS, netvista.ndis_ndk_connections, ntddndis/NDIS_NDK_CONNECTIONS, ntddndis/PNDIS_NDK_CONNECTIONS
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddndis.h
 api_name:
 -	NDIS_NDK_CONNECTIONS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_NDK_CONNECTIONS
 ---
@@ -52,19 +53,6 @@ req.typenames: NDIS_NDK_CONNECTIONS
 The <b>NDIS_NDK_CONNECTIONS</b> structure describes the NDK connections that are active on a miniport adapter.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_NDK_CONNECTIONS {
-  NDIS_OBJECT_HEADER                            Header;
-  ULONG                                         Count;
-  BOOLEAN                                       NDConnectionsMappedtoTCPConnections;
-  _Field_size_(Count) NDIS_NDK_CONNECTION_ENTRY Connections[1];
-} NDIS_NDK_CONNECTIONS, *PNDIS_NDK_CONNECTIONS;
-````
-
-
 ## -struct-fields
 
 
@@ -72,7 +60,7 @@ typedef struct _NDIS_NDK_CONNECTIONS {
 
 ### -field Header
 
-An <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure that describes this <b>NDIS_NDK_CONNECTIONS</b> structure. Set the members of the <b>NDIS_OBJECT_HEADER</b> structure as follows:
+An <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure that describes this <b>NDIS_NDK_CONNECTIONS</b> structure. Set the members of the <b>NDIS_OBJECT_HEADER</b> structure as follows:
 
 <ul>
 <li>Set the <b>Type</b> member to <b>NDIS_OBJECT_TYPE_DEFAULT</b>.</li>
@@ -87,7 +75,7 @@ An <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</
 
 ### -field Count
 
-The number of elements in the connection array that is passed in the <b>Connections</b> member. Each element in the array is an <a href="..\ntddndis\ns-ntddndis-_ndis_ndk_connection_entry.md">NDIS_NDK_CONNECTION_ENTRY</a> structure. 
+The number of elements in the connection array that is passed in the <b>Connections</b> member. Each element in the array is an <a href="https://msdn.microsoft.com/library/windows/hardware/hh451562">NDIS_NDK_CONNECTION_ENTRY</a> structure. 
 
 
 ### -field NDConnectionsMappedtoTCPConnections
@@ -97,14 +85,14 @@ A BOOLEAN value that specifies how the connections are mapped. If the RDMA techn
 
 ### -field Connections
 
-A variable-sized array of <a href="..\ntddndis\ns-ntddndis-_ndis_ndk_connection_entry.md">NDIS_NDK_CONNECTION_ENTRY</a> structures where the size of the array is determined by the number of connections being returned. The <b>Count</b> member  specifies the number of elements in the connection array. 
+A variable-sized array of <a href="https://msdn.microsoft.com/library/windows/hardware/hh451562">NDIS_NDK_CONNECTION_ENTRY</a> structures where the size of the array is determined by the number of connections being returned. The <b>Count</b> member  specifies the number of elements in the connection array. 
 
 
 ## -remarks
 
 
 
-The <b>NDIS_NDK_CONNECTIONS</b> structure is returned with the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451810">OID_NDK_CONNECTIONS</a> OID. The <b>InformationBuffer</b> member of the <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a> structure contains a pointer to this structure.
+The <b>NDIS_NDK_CONNECTIONS</b> structure is returned with the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451810">OID_NDK_CONNECTIONS</a> OID. The <b>InformationBuffer</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a> structure contains a pointer to this structure.
 
 
 
@@ -126,21 +114,19 @@ If the RDMA technology for the NDK provider requires the provider to map ND conn
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_ndk_connection_entry.md">NDIS_NDK_CONNECTION_ENTRY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451562">NDIS_NDK_CONNECTION_ENTRY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451810">OID_NDK_CONNECTIONS</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_NDK_CONNECTIONS structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

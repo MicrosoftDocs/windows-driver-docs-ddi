@@ -38,7 +38,8 @@ api_location:
 -	PointOfServiceDriverInterface.h
 api_name:
 -	PosStatusUpdatedEventData
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PosStatusUpdatedEventData
 ---
@@ -50,18 +51,6 @@ req.typenames: PosStatusUpdatedEventData
 
 
 This structure contains data passed to the <a href="https://msdn.microsoft.com/library/windows/hardware/dn790040">StatusUpdated</a> event.
-
-
-## -syntax
-
-
-````
-typedef struct _PosStatusUpdatedEventData {
-  PosEventDataHeader Header;
-  UINT32             Status;
-  UINT32             ExtendedStatus;
-} PosStatusUpdatedEventData;
-````
 
 
 ## -struct-fields

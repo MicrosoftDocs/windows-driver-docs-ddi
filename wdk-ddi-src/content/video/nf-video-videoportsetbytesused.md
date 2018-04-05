@@ -7,7 +7,7 @@ old-location: display\videoportsetbytesused.htm
 old-project: display
 ms.assetid: da348cf9-5694-4e66-990e-bd07f259d97c
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: VideoPortSetBytesUsed, VideoPortSetBytesUsed function [Display Devices], VideoPort_Functions_5a8a1a59-b9a8-4b5b-b6d8-7139ddb9b474.xml, display.videoportsetbytesused, video/VideoPortSetBytesUsed
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Videoprt.sys
 api_name:
 -	VideoPortSetBytesUsed
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
 req.product: Windows 10 or later.
@@ -53,18 +54,6 @@ req.product: Windows 10 or later.
 The <b>VideoPortSetBytesUsed</b> function is <b>obsolete</b> in Windows 2000 and later. 
 
 
-## -syntax
-
-
-````
-VOID VideoPortSetBytesUsed(
-  _In_    PVOID HwDeviceExtension,
-  _Inout_ PDMA  pDma,
-  _In_    ULONG BytesUsed
-);
-````
-
-
 ## -parameters
 
 
@@ -77,7 +66,7 @@ Pointer to the miniport driver's device extension.
 
 ### -param pDma [in, out]
 
-Pointer to a DMA handle. To obtain the appropriate DMA handle, use the value in the <b>OutputBuffer</b> member of the <i>pVrp</i> parameter after <a href="..\video\nf-video-videoportlockpages.md">VideoPortLockPages</a> returns. 
+Pointer to a DMA handle. To obtain the appropriate DMA handle, use the value in the <b>OutputBuffer</b> member of the <i>pVrp</i> parameter after <a href="https://msdn.microsoft.com/library/windows/hardware/ff570327">VideoPortLockPages</a> returns. 
 
 
 ### -param BytesUsed [in]
@@ -96,17 +85,15 @@ None
 
 ## -see-also
 
-<a href="..\video\ns-video-_video_request_packet.md">VIDEO_REQUEST_PACKET</a>
 
 
 
-<a href="..\video\nf-video-videoportgetbytesused.md">VideoPortGetBytesUsed</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570547">VIDEO_REQUEST_PACKET</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570307">VideoPortGetBytesUsed</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20VideoPortSetBytesUsed function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

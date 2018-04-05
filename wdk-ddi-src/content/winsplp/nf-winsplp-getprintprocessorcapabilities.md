@@ -7,7 +7,7 @@ old-location: print\getprintprocessorcapabilities.htm
 old-project: print
 ms.assetid: 81aacb41-cba7-4bd0-aded-919a4df0b934
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: GetPrintProcessorCapabilities, GetPrintProcessorCapabilities function [Print Devices], print.getprintprocessorcapabilities, spoolfnc_4ca0ae34-060f-4144-91de-a2556d1b5261.xml, winsplp/GetPrintProcessorCapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	winsplp.h
 api_name:
 -	GetPrintProcessorCapabilities
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NOTIFICATION_CONFIG_FLAGS
 req.product: Windows 10 or later.
@@ -51,20 +52,6 @@ req.product: Windows 10 or later.
 
 
 A print processor's <b>GetPrintProcessorCapabilities</b> function returns capabilities associated with a specified input data type.
-
-
-## -syntax
-
-
-````
-DWORD GetPrintProcessorCapabilities(
-  _In_  LPTSTR  pValueName,
-  _In_  DWORD   dwAttributes,
-  _Out_ LPBYTE  pData,
-  _In_  DWORD   nSize,
-  _Out_ LPDWORD pcbNeeded
-);
-````
 
 
 ## -parameters

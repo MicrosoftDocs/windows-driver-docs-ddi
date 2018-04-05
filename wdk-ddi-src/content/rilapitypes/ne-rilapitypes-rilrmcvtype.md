@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILRMCVTYPE
 title: RILRMCVTYPE
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilrmcvtype_2.htm
+old-location: netvista\rilrmcvtype.htm
 old-project: netvista
-ms.assetid: 7517d3fd-723d-4fd7-b5ce-3d08443b8f59
+ms.assetid: 007c6b45-0bec-4fcf-984a-675aa5336993
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: RILRMCVTYPE, RILRMCVTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_RMCV_TYPE_BOOLEAN, RIL_RMCV_TYPE_DWORD, RIL_RMCV_TYPE_STRING, netvista.rilrmcvtype_2, rilapitypes/RILRMCVTYPE, rilapitypes/RIL_RMCV_TYPE_BOOLEAN, rilapitypes/RIL_RMCV_TYPE_DWORD, rilapitypes/RIL_RMCV_TYPE_STRING
+ms.date: 3/26/2018
+ms.keywords: RILRMCVTYPE, RILRMCVTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_RMCV_TYPE_BOOLEAN, RIL_RMCV_TYPE_DWORD, RIL_RMCV_TYPE_STRING, netvista.rilrmcvtype, ntddrilapitypes/RILRMCVTYPE, ntddrilapitypes/RIL_RMCV_TYPE_BOOLEAN, ntddrilapitypes/RIL_RMCV_TYPE_DWORD, ntddrilapitypes/RIL_RMCV_TYPE_STRING
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -35,10 +35,11 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILRMCVTYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILRMCVTYPE
 req.product: Windows 10 or later.
@@ -50,19 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-
-## -syntax
-
-
-````
-typedef enum _RILRMCVTYPE { 
-  RIL_RMCV_TYPE_BOOLEAN,
-  RIL_RMCV_TYPE_DWORD,
-  RIL_RMCV_TYPE_STRING
-} RILRMCVTYPE;
-````
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -enum-fields

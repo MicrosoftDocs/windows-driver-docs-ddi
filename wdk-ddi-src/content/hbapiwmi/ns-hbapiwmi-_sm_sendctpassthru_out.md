@@ -7,7 +7,7 @@ old-location: storage\sm_sendctpassthru_out.htm
 old-project: storage
 ms.assetid: df1869d1-83ed-4574-85c2-89fb2b78d177
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSM_SendCTPassThru_OUT, PSM_SendCTPassThru_OUT, PSM_SendCTPassThru_OUT structure pointer [Storage Devices], SM_SendCTPassThru_OUT, SM_SendCTPassThru_OUT structure [Storage Devices], _SM_SendCTPassThru_OUT, hbapiwmi/PSM_SendCTPassThru_OUT, hbapiwmi/SM_SendCTPassThru_OUT, storage.sm_sendctpassthru_out, structs-Fibre_a3193f45-e459-49a2-a0ab-71bbde4ea1ef.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	hbapiwmi.h
 api_name:
 -	SM_SendCTPassThru_OUT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SM_SendCTPassThru_OUT, *PSM_SendCTPassThru_OUT
 ---
@@ -50,19 +51,6 @@ req.typenames: SM_SendCTPassThru_OUT, *PSM_SendCTPassThru_OUT
 
 
 The SM_SendCTPassThru_OUT structure is used to receive output parameters from the SM_SendCTPassThru method.
-
-
-## -syntax
-
-
-````
-typedef struct _SM_SendCTPassThru_OUT {
-  ULONG HBAStatus;
-  ULONG TotalRespBufferSize;
-  ULONG OutRespBufferSize;
-  UCHAR RespBuffer[1];
-} SM_SendCTPassThru_OUT, *PSM_SendCTPassThru_OUT;
-````
 
 
 ## -struct-fields

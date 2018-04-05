@@ -7,13 +7,13 @@ old-location: netvista\rilcallinfodirection.htm
 old-project: netvista
 ms.assetid: 2243fb04-81a9-49d6-9ce2-d06d4a590fb1
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: RILCALLINFODIRECTION, RILCALLINFODIRECTION enumeration [Network Drivers Starting with Windows Vista], RIL_CALLDIR_MAX, RIL_CALLDIR_OUTGOING, netvista.rilcallinfodirection, ntddrilapitypes/RILCALLINFODIRECTION, ntddrilapitypes/RIL_CALLDIR_MAX, ntddrilapitypes/RIL_CALLDIR_OUTGOING
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: ntddrilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILCALLINFODIRECTION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILCALLINFODIRECTION
 ---
@@ -50,17 +51,6 @@ req.typenames: RILCALLINFODIRECTION
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef enum _RILCALLINFODIRECTION { 
-  RIL_CALLDIR_OUTGOING,
-  RIL_CALLDIR_MAX
-} RILCALLINFODIRECTION;
-````
 
 
 ## -enum-fields

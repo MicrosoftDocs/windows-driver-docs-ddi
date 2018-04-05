@@ -7,7 +7,7 @@ old-location: display\dxgk_colorimetry.htm
 old-project: display
 ms.assetid: F3F9B6EC-B978-4C87-8AE0-8F6BC73099D2
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PDXGK_COLORIMETRY, DXGK_COLORIMETRY, DXGK_COLORIMETRY structure [Display Devices], PDXGK_COLORIMETRY, PDXGK_COLORIMETRY structure pointer [Display Devices], _DXGK_COLORIMETRY, d3dkmddi/DXGK_COLORIMETRY, d3dkmddi/PDXGK_COLORIMETRY, display.dxgk_colorimetry"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGK_COLORIMETRY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_COLORIMETRY, *PDXGK_COLORIMETRY
 ---
@@ -50,24 +51,6 @@ req.typenames: DXGK_COLORIMETRY, *PDXGK_COLORIMETRY
 
 
 Describes colorimetry and closely related fields used to describe overrides from the descriptor retrieved from the display device.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGK_COLORIMETRY {
-  D3DKMDT_2DOFFSET                   RedPoint;
-  D3DKMDT_2DOFFSET                   GreenPoint;
-  D3DKMDT_2DOFFSET                   BluePoint;
-  D3DKMDT_2DOFFSET                   WhitePoint;
-  ULONG                              MinLuminance;
-  ULONG                              MaxLuminance;
-  ULONG                              MaxFullFrameLuminance;
-  D3DKMDT_WIRE_FORMAT_AND_PREFERENCE FormatBitDepths;
-  DXGK_STANDARD_COLORIMETRY_FLAGS    StandardColorimetryFlags;
-} DXGK_COLORIMETRY, *PDXGK_COLORIMETRY;
-````
 
 
 ## -struct-fields

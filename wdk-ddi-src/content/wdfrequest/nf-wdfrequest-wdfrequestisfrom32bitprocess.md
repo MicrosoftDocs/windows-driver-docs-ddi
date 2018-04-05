@@ -7,7 +7,7 @@ old-location: wdf\wdfrequestisfrom32bitprocess.htm
 old-project: wdf
 ms.assetid: 0d55c1e0-0458-414c-afd6-2fa2576ffa4a
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/26/2018
 ms.keywords: DFRequestObjectRef_d700883f-10dc-428b-abbf-7d257d2bd62d.xml, WdfRequestIsFrom32BitProcess, WdfRequestIsFrom32BitProcess method, kmdf.wdfrequestisfrom32bitprocess, wdf.wdfrequestisfrom32bitprocess, wdfrequest/WdfRequestIsFrom32BitProcess
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,8 @@ api_location:
 -	WUDFx02000.dll.dll
 api_name:
 -	WdfRequestIsFrom32BitProcess
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_REQUEST_TYPE
 req.product: Windows 10 or later.
@@ -56,16 +57,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WdfRequestIsFrom32BitProcess</b> method checks whether the originator of a specified I/O request is a 32-bit user-mode application.
-
-
-## -syntax
-
-
-````
-BOOLEAN WdfRequestIsFrom32BitProcess(
-  _In_ WDFREQUEST Request
-);
-````
 
 
 ## -parameters
@@ -95,7 +86,7 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 Drivers can call <b>WdfRequestIsFrom32BitProcess</b> to determine whether an I/O request is likely to contain data elements that need to be converted, or "thunked," before they can be used in a 64-bit driver.
 
-The specified request handle must have been obtained from one of the driver's I/O queues and not from a call to <a href="..\wdfrequest\nf-wdfrequest-wdfrequestcreate.md">WdfRequestCreate</a>.
+The specified request handle must have been obtained from one of the driver's I/O queues and not from a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff549951">WdfRequestCreate</a>.
 
 
 #### Examples
@@ -133,13 +124,11 @@ MyEvtIoRead(
 
 ## -see-also
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcreate.md">WdfRequestCreate</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549951">WdfRequestCreate</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfRequestIsFrom32BitProcess method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

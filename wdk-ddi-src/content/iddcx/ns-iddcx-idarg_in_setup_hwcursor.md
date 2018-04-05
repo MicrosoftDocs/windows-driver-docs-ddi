@@ -7,7 +7,7 @@ old-location: display\idarg_in_setup_hwcursor.htm
 old-project: display
 ms.assetid: 1e2c959c-0ebd-4464-ad47-96f432cb5c6b
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: IDARG_IN_SETUP_HWCURSOR, IDARG_IN_SETUP_HWCURSOR structure [Display Devices], display.idarg_in_setup_hwcursor, iddcx/IDARG_IN_SETUP_HWCURSOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	iddcx.h
 api_name:
 -	IDARG_IN_SETUP_HWCURSOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,17 +52,6 @@ req.typenames:
 
 
                  Gives information about new cursors associated with a monitor.
-
-
-## -syntax
-
-
-````
-typedef struct IDARG_IN_SETUP_HWCURSOR {
-  IDDCX_CURSOR_CAPS CursorInfo;
-  HANDLE            hNewCursorDataAvailable;
-} IDARG_IN_SETUP_HWCURSOR, *IDARG_IN_SETUP_HWCURSOR;
-````
 
 
 ## -struct-fields

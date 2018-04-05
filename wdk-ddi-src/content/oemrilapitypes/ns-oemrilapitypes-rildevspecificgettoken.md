@@ -7,7 +7,7 @@ old-location: netvista\rildevspecificgettoken.htm
 old-project: netvista
 ms.assetid: b0a534e0-1527-4ef3-a53f-c18cacbb5445
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: "*LPRILDEVSPECIFICGETTOKEN, LPRILDEVSPECIFICGETTOKEN, LPRILDEVSPECIFICGETTOKEN structure pointer [Network Drivers Starting with Windows Vista], RILDEVSPECIFICGETTOKEN, RILDEVSPECIFICGETTOKEN structure [Network Drivers Starting with Windows Vista], netvista.rildevspecificgettoken, oemrilapitypes/LPRILDEVSPECIFICGETTOKEN, oemrilapitypes/RILDEVSPECIFICGETTOKEN"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	oemrilapitypes.h
 api_name:
 -	RILDEVSPECIFICGETTOKEN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILDEVSPECIFICGETTOKEN, *LPRILDEVSPECIFICGETTOKEN
 ---
@@ -50,21 +51,6 @@ req.typenames: RILDEVSPECIFICGETTOKEN, *LPRILDEVSPECIFICGETTOKEN
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef struct _RILDEVSPECIFICGETTOKEN {
-  DWORD                       cbSize;
-  DWORD                       dwParams;
-  DWORD                       dwTimeout;
-  BYTE [GBA_PROTOCOL_ID_SIZE] bProtocolId;
-  DWORD                       cbHeaderSize;
-  BYTE []                     bHeader;
-} RILDEVSPECIFICGETTOKEN, *LPRILDEVSPECIFICGETTOKEN;
-````
 
 
 ## -struct-fields

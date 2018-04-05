@@ -38,7 +38,8 @@ api_location:
 -	gnssdriver.h
 api_name:
 -	GNSS_CP_NI_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GNSS_CP_NI_INFO, *PGNSS_CP_NI_INFO
 ---
@@ -50,19 +51,6 @@ req.typenames: GNSS_CP_NI_INFO, *PGNSS_CP_NI_INFO
 
 
 This structure contains CP NI information.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  ULONG Size;
-  ULONG Version;
-  WCHAR RequestorId[MAX_PATH];
-  WCHAR NotificationText[MAX_PATH];
-} GNSS_CP_NI_INFO, *PGNSS_CP_NI_INFO;
-````
 
 
 ## -struct-fields

@@ -7,7 +7,7 @@ old-location: netvista\ndisstallexecution.htm
 old-project: netvista
 ms.assetid: 590f5a1a-fd78-408e-b4f0-555f08694c43
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: NdisStallExecution, NdisStallExecution macro [Network Drivers Starting with Windows Vista], ndis/NdisStallExecution, ndis_delay_ref_de9bdd45-0bed-44cc-bdce-3ecd81842010.xml, netvista.ndisstallexecution
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: ndis.h
+req.lib: 
 req.dll: 
 req.irql: Any level
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	ndis.h
 api_name:
 -	NdisStallExecution
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
@@ -51,16 +52,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 
 The 
   <b>NdisStallExecution</b> function stalls the caller on the current processor for a given interval.
-
-
-## -syntax
-
-
-````
-VOID NdisStallExecution(
-  [in] UINT MicrosecondsToStall
-);
-````
 
 
 ## -parameters
@@ -94,7 +85,7 @@ This function should be called by drivers that must wait for an interval of more
     microseconds that they specify.
 
 If a driver must wait for an interval longer than 50 microseconds, it should call the 
-    <a href="..\ndis\nf-ndis-ndismsleep.md">NdisMSleep</a> function. Note that callers of 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff563677">NdisMSleep</a> function. Note that callers of 
     <b>NdisMSleep</b> run at IRQL &lt; DISPATCH_LEVEL.
 
 
@@ -102,25 +93,23 @@ If a driver must wait for an interval longer than 50 microseconds, it should cal
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismsleep.md">NdisMSleep</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_reset.md">MiniportResetEx</a>
+<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<a href="https://msdn.microsoft.com/15f82163-a1b5-4cef-a53e-8a97adb2cd92">MiniportResetEx</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndissettimerobject.md">NdisSetTimerObject</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563677">NdisMSleep</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564563">NdisSetTimerObject</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisStallExecution macro%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

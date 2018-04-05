@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: Any level
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KsGateInitializeOr
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -49,18 +50,7 @@ req.typenames:
 ## -description
 
 
-The<b> KsGateInitializeOr</b> function initializes a <a href="..\ks\ns-ks-_ksgate.md">KSGATE</a> structure as an OR gate and attaches it to the AND gate specified by <i>NextAndGate</i>.
-
-
-## -syntax
-
-
-````
-void __inline KsGateInitializeOr(
-  _In_     PKSGATE OrGate,
-  _In_opt_ PKSGATE NextAndGate
-);
-````
+The<b> KsGateInitializeOr</b> function initializes a <a href="https://msdn.microsoft.com/library/windows/hardware/ff562566">KSGATE</a> structure as an OR gate and attaches it to the AND gate specified by <i>NextAndGate</i>.
 
 
 ## -parameters
@@ -91,7 +81,7 @@ None
 
 
 
-The next gate (following <i>OrGate</i>) must be an AND gate, whether it is specified in this call or later. If you need to connect an OR gate to another OR gate, use <a href="..\ks\nf-ks-ksgateinitialize.md">KsGateInitialize</a>. For more information, see <a href="https://msdn.microsoft.com/c5592f92-a432-44e3-afe0-60fcf917a443">Flow Control Gates in AVStream</a>.
+The next gate (following <i>OrGate</i>) must be an AND gate, whether it is specified in this call or later. If you need to connect an OR gate to another OR gate, use <a href="https://msdn.microsoft.com/library/windows/hardware/ff562573">KsGateInitialize</a>. For more information, see <a href="https://msdn.microsoft.com/c5592f92-a432-44e3-afe0-60fcf917a443">Flow Control Gates in AVStream</a>.
 
 This function is an inline call to <b>KsGateInitialize</b>.
 
@@ -100,29 +90,27 @@ This function is an inline call to <b>KsGateInitialize</b>.
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksgateterminateand.md">KsGateTerminateAnd</a>
 
 
 
-<a href="..\ks\ns-ks-_ksgate.md">KSGATE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562566">KSGATE</a>
 
 
 
-<a href="..\ks\nf-ks-ksgateinitialize.md">KsGateInitialize</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562573">KsGateInitialize</a>
 
 
 
-<a href="..\ks\nf-ks-ksgateterminateor.md">KsGateTerminateOr</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562574">KsGateInitializeAnd</a>
 
 
 
-<a href="..\ks\nf-ks-ksgateinitializeand.md">KsGateInitializeAnd</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562586">KsGateTerminateAnd</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562588">KsGateTerminateOr</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsGateInitializeOr function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

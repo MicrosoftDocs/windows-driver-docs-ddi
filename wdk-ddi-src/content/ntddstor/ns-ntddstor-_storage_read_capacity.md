@@ -7,7 +7,7 @@ old-location: storage\storage_read_capacity.htm
 old-project: storage
 ms.assetid: 891F04C5-277B-4197-942E-68ED21019950
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: PSTORAGE_READ_CAPACITY, PSTORAGE_READ_CAPACITY structure pointer [Storage Devices], STORAGE_READ_CAPACITY, STORAGE_READ_CAPACITY structure [Storage Devices], _STORAGE_READ_CAPACITY, ntddstor/PSTORAGE_READ_CAPACITY, ntddstor/STORAGE_READ_CAPACITY, storage.storage_read_capacity
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ntddstor.h
 api_name:
 -	STORAGE_READ_CAPACITY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STORAGE_READ_CAPACITY, PSTORAGE_READ_CAPACITY
 ---
@@ -49,21 +50,7 @@ req.typenames: STORAGE_READ_CAPACITY, PSTORAGE_READ_CAPACITY
 ## -description
 
 
-The <b>STORAGE_READ_CAPACITY</b> contains the disk read capacity information returned from a <a href="..\ntddstor\ni-ntddstor-ioctl_storage_read_capacity.md">IOCTL_STORAGE_READ_CAPACITIY</a> request. 
-
-
-## -syntax
-
-
-````
-typedef struct _STORAGE_READ_CAPACITY {
-  ULONG         Version;
-  ULONG         Size;
-  ULONG         BlockLength;
-  LARGE_INTEGER NumberOfBlocks;
-  LARGE_INTEGER DiskLength;
-} STORAGE_READ_CAPACITY, *PSTORAGE_READ_CAPACITY;
-````
+The <b>STORAGE_READ_CAPACITY</b> contains the disk read capacity information returned from a <a href="https://msdn.microsoft.com/FC4CFD33-5632-400A-90E5-583C6D6DFFD9">IOCTL_STORAGE_READ_CAPACITIY</a> request. 
 
 
 ## -struct-fields
@@ -98,13 +85,11 @@ The total disk size in bytes.
 
 ## -see-also
 
-<a href="..\ntddstor\ni-ntddstor-ioctl_storage_read_capacity.md">IOCTL_STORAGE_READ_CAPACITIY</a>
 
 
 
+<a href="https://msdn.microsoft.com/FC4CFD33-5632-400A-90E5-583C6D6DFFD9">IOCTL_STORAGE_READ_CAPACITIY</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20STORAGE_READ_CAPACITY structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

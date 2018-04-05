@@ -7,7 +7,7 @@ old-location: wdf\wdf_property_store_disposition.htm
 old-project: wdf
 ms.assetid: 107b55f5-0c06-45cc-9cbb-ba9e2fbca1e4
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/26/2018
 ms.keywords: CreatedNewStore, OpenedExistingStore, WDF_PROPERTY_STORE_DISPOSITION, WDF_PROPERTY_STORE_DISPOSITION enumeration, _WDF_PROPERTY_STORE_DISPOSITION, umdf.wdf_property_store_disposition, umdfstructs_a25f5c08-88c9-41c0-9bab-023ea91d0a22.xml, wdf.wdf_property_store_disposition, wudfddi_types/CreatedNewStore, wudfddi_types/OpenedExistingStore, wudfddi_types/WDF_PROPERTY_STORE_DISPOSITION
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	Wudfddi_types.h
 api_name:
 -	WDF_PROPERTY_STORE_DISPOSITION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_PROPERTY_STORE_DISPOSITION
 req.product: Windows 10 or later.
@@ -53,17 +54,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>WDF_PROPERTY_STORE_DISPOSITION</b> enumeration contains values that indicate whether a registry value was created or already existed when a driver obtained a property store interface.
-
-
-## -syntax
-
-
-````
-typedef enum _WDF_PROPERTY_STORE_DISPOSITION { 
-  CreatedNewStore      = 0x1,
-  OpenedExistingStore  = 0x2
-} WDF_PROPERTY_STORE_DISPOSITION;
-````
 
 
 ## -enum-fields
@@ -92,11 +82,6 @@ The <b>WDF_PROPERTY_STORE_DISPOSITION</b> enumeration is used as output from the
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560228">IWDFPropertyStoreFactory::RetrieveDevicePropertyStore</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556982">IWDFDeviceInitialize::RetrieveDevicePropertyStore</a>
 
 
 
@@ -104,9 +89,12 @@ The <b>WDF_PROPERTY_STORE_DISPOSITION</b> enumeration is used as output from the
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556982">IWDFDeviceInitialize::RetrieveDevicePropertyStore</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560228">IWDFPropertyStoreFactory::RetrieveDevicePropertyStore</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_PROPERTY_STORE_DISPOSITION enumeration%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

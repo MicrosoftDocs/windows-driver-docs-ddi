@@ -7,7 +7,7 @@ old-location: display\dxgkmdt_opm_set_acp_and_cgmsa_signaling_parameters.htm
 old-project: display
 ms.assetid: e4151e72-e0a6-4873-a2e8-c3321941cfd4
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKMDT_OPM_SET_ACP_AND_CGMSA_SIGNALING_PARAMETERS, DXGKMDT_OPM_SET_ACP_AND_CGMSA_SIGNALING_PARAMETERS structure [Display Devices], DmStructs_64a3857d-3c66-4653-980b-72df307eba0f.xml, _DXGKMDT_OPM_SET_ACP_AND_CGMSA_SIGNALING_PARAMETERS, d3dkmdt/DXGKMDT_OPM_SET_ACP_AND_CGMSA_SIGNALING_PARAMETERS, display.dxgkmdt_opm_set_acp_and_cgmsa_signaling_parameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmdt.h
 api_name:
 -	DXGKMDT_OPM_SET_ACP_AND_CGMSA_SIGNALING_PARAMETERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGKMDT_OPM_SET_ACP_AND_CGMSA_SIGNALING_PARAMETERS
 ---
@@ -52,25 +53,6 @@ req.typenames: DXGKMDT_OPM_SET_ACP_AND_CGMSA_SIGNALING_PARAMETERS
 The DXGKMDT_OPM_SET_ACP_AND_CGMSA_SIGNALING_PARAMETERS structure contains parameters to set Analog Content Protection (ACP) and Content Generation Management System Analog (CGMS-A) signaling for a protected output.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGKMDT_OPM_SET_ACP_AND_CGMSA_SIGNALING_PARAMETERS {
-  ULONG ulNewTVProtectionStandard;
-  ULONG ulAspectRatioChangeMask1;
-  ULONG ulAspectRatioData1;
-  ULONG ulAspectRatioChangeMask2;
-  ULONG ulAspectRatioData2;
-  ULONG ulAspectRatioChangeMask3;
-  ULONG ulAspectRatioData3;
-  ULONG ulReserved[4];
-  ULONG ulReserved2[4];
-  ULONG ulReserved3;
-} DXGKMDT_OPM_SET_ACP_AND_CGMSA_SIGNALING_PARAMETERS;
-````
-
-
 ## -struct-fields
 
 
@@ -78,7 +60,7 @@ typedef struct _DXGKMDT_OPM_SET_ACP_AND_CGMSA_SIGNALING_PARAMETERS {
 
 ### -field ulNewTVProtectionStandard
 
-A <a href="..\d3dkmdt\ne-d3dkmdt-_dxgkmdt_opm_protection_standard.md">DXGKMDT_OPM_PROTECTION_STANDARD</a>-typed value that indicates the type of television signal to set ACP and CGMS-A signaling for on the protected output. 
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff560894">DXGKMDT_OPM_PROTECTION_STANDARD</a>-typed value that indicates the type of television signal to set ACP and CGMS-A signaling for on the protected output. 
 
 
 ### -field ulAspectRatioChangeMask1
@@ -128,13 +110,11 @@ Reserved. Must be set to zero.
 
 ## -see-also
 
-<a href="..\d3dkmdt\ne-d3dkmdt-_dxgkmdt_opm_protection_standard.md">DXGKMDT_OPM_PROTECTION_STANDARD</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560894">DXGKMDT_OPM_PROTECTION_STANDARD</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKMDT_OPM_SET_ACP_AND_CGMSA_SIGNALING_PARAMETERS structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

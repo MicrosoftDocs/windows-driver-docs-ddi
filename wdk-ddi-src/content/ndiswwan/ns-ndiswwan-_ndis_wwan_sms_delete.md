@@ -7,7 +7,7 @@ old-location: netvista\ndis_wwan_sms_delete.htm
 old-project: netvista
 ms.assetid: ea13c900-40b2-492b-b14b-85e346208ad8
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: "*PNDIS_WWAN_SMS_DELETE, NDIS_WWAN_SMS_DELETE, NDIS_WWAN_SMS_DELETE structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SMS_DELETE, PNDIS_WWAN_SMS_DELETE structure pointer [Network Drivers Starting with Windows Vista], WwanRef_aae03f3f-21d1-42d4-b2dd-008fc07c9964.xml, _NDIS_WWAN_SMS_DELETE, ndiswwan/NDIS_WWAN_SMS_DELETE, ndiswwan/PNDIS_WWAN_SMS_DELETE, netvista.ndis_wwan_sms_delete"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ndiswwan.h
 api_name:
 -	NDIS_WWAN_SMS_DELETE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_WWAN_SMS_DELETE, *PNDIS_WWAN_SMS_DELETE
 ---
@@ -50,17 +51,6 @@ req.typenames: NDIS_WWAN_SMS_DELETE, *PNDIS_WWAN_SMS_DELETE
 
 
 The NDIS_WWAN_SMS_DELETE structure represents an SMS message to delete.
-
-
-## -syntax
-
-
-````
-typedef struct _NDIS_WWAN_SMS_DELETE {
-  NDIS_OBJECT_HEADER Header;
-  WWAN_SMS_FILTER    SmsFilter;
-} NDIS_WWAN_SMS_DELETE, *PNDIS_WWAN_SMS_DELETE;
-````
 
 
 ## -struct-fields
@@ -116,29 +106,27 @@ sizeof(NDIS_WWAN_SMS_DELETE)
  
 
 For more information about these members, see 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field SmsFilter
 
 A formatted 
-     <a href="..\wwan\ns-wwan-_wwan_sms_filter.md">WWAN_SMS_FILTER</a> object that represents the
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571245">WWAN_SMS_FILTER</a> object that represents the
      filter to apply to SMS messages.
 
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_sms_filter.md">WWAN_SMS_FILTER</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571245">WWAN_SMS_FILTER</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_WWAN_SMS_DELETE structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: display\videoportsignaldmacomplete.htm
 old-project: display
 ms.assetid: 81730acb-ff15-438d-8225-125283f61db2
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: VideoPortSignalDmaComplete, VideoPortSignalDmaComplete function [Display Devices], VideoPort_Functions_2246061c-11be-4eca-94bf-3b788dddd420.xml, display.videoportsignaldmacomplete, video/VideoPortSignalDmaComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Videoprt.sys
 api_name:
 -	VideoPortSignalDmaComplete
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
 req.product: Windows 10 or later.
@@ -55,17 +56,6 @@ The <b>VideoPortSignalDmaComplete</b> function is <b>obsolete</b> in Windows 200
 <b>VideoPortSignalDmaComplete</b> indicates to the video miniport driver whether the current DMA transfer is complete.
 
 
-## -syntax
-
-
-````
-BOOLEAN VideoPortSignalDmaComplete(
-  _In_ PVOID HwDeviceExtension,
-  _In_ PDMA  pDmaHandle
-);
-````
-
-
 ## -parameters
 
 
@@ -78,7 +68,7 @@ Pointer to the miniport driver's device extension.
 
 ### -param pDmaHandle [in]
 
-Pointer to a DMA handle. To obtain the appropriate DMA handle, use the value in the <b>OutputBuffer</b> member of the <i>pVrp</i> parameter after <a href="..\video\nf-video-videoportlockpages.md">VideoPortLockPages</a> returns. 
+Pointer to a DMA handle. To obtain the appropriate DMA handle, use the value in the <b>OutputBuffer</b> member of the <i>pVrp</i> parameter after <a href="https://msdn.microsoft.com/library/windows/hardware/ff570327">VideoPortLockPages</a> returns. 
 
 
 ## -returns

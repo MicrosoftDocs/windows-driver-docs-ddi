@@ -7,7 +7,7 @@ old-location: display\dxva_coppsetsignalingcmddata.htm
 old-project: display
 ms.assetid: 88318bb4-bfca-4557-93cb-703840fa692e
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: DXVA_COPPSetSignalingCmdData, DXVA_COPPSetSignalingCmdData structure [Display Devices], _DXVA_COPPSetSignalingCmdData, display.dxva_coppsetsignalingcmddata, dxva/DXVA_COPPSetSignalingCmdData, dxvaref_2fd69b63-8cfc-427f-9616-4de12bd1a848.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	dxva.h
 api_name:
 -	DXVA_COPPSetSignalingCmdData
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXVA_COPPSetSignalingCmdData
 ---
@@ -50,25 +51,6 @@ req.typenames: DXVA_COPPSetSignalingCmdData
 
 
 The DXVA_COPPSetSignalingCmdData structure describes how to protect the signal that goes through the physical connector associated with the DirectX VA COPP device.
-
-
-## -syntax
-
-
-````
-typedef struct _DXVA_COPPSetSignalingCmdData {
-  ULONG ActiveTVProtectionStandard;
-  ULONG AspectRatioChangeMask1;
-  ULONG AspectRatioData1;
-  ULONG AspectRatioChangeMask2;
-  ULONG AspectRatioData2;
-  ULONG AspectRatioChangeMask3;
-  ULONG AspectRatioData3;
-  ULONG ExtendedInfoChangeMask[4];
-  ULONG ExtendedInfoData[4];
-  ULONG Reserved;
-} DXVA_COPPSetSignalingCmdData;
-````
 
 
 ## -struct-fields
@@ -232,7 +214,6 @@ Reserved. Should be set to zero.
 
 ## -see-also
 
-<a href="..\dxva\ns-dxva-_dxva_coppcommand.md">DXVA_COPPCommand</a>
 
 
 
@@ -240,9 +221,8 @@ Reserved. Should be set to zero.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563141">DXVA_COPPCommand</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVA_COPPSetSignalingCmdData structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

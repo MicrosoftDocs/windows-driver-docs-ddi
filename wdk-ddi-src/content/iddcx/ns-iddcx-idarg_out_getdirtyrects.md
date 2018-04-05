@@ -7,7 +7,7 @@ old-location: display\idarg_out_getdirtyrects.htm
 old-project: display
 ms.assetid: 4116be18-e98e-4778-b0aa-753c1ca79d32
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: IDARG_OUT_GETDIRTYRECTS, IDARG_OUT_GETDIRTYRECTS structure [Display Devices], display.idarg_out_getdirtyrects, iddcx/IDARG_OUT_GETDIRTYRECTS
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	iddcx.h
 api_name:
 -	IDARG_OUT_GETDIRTYRECTS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -52,16 +53,6 @@ req.typenames:
 
                  Gives information about the recs 
              that have changed on the surface since the last load.
-
-
-## -syntax
-
-
-````
-typedef struct IDARG_OUT_GETDIRTYRECTS {
-  UINT DirtyRectOutCount;
-} IDARG_OUT_GETDIRTYRECTS, *IDARG_OUT_GETDIRTYRECTS;
-````
 
 
 ## -struct-fields

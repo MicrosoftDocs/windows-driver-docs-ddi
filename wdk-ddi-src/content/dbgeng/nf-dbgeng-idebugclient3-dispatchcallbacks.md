@@ -7,7 +7,7 @@ old-location: debugger\dispatchcallbacks.htm
 old-project: debugger
 ms.assetid: 05fb9569-c2d6-4650-b1c3-8b86ed7ef07d
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/26/2018
 ms.keywords: DispatchCallbacks method [Windows Debugging], DispatchCallbacks method [Windows Debugging], IDebugClient interface, DispatchCallbacks method [Windows Debugging], IDebugClient2 interface, DispatchCallbacks method [Windows Debugging], IDebugClient3 interface, DispatchCallbacks method [Windows Debugging], IDebugClient4 interface, DispatchCallbacks method [Windows Debugging], IDebugClient5 interface, DispatchCallbacks,IDebugClient3.DispatchCallbacks, IDebugClient interface [Windows Debugging], DispatchCallbacks method, IDebugClient2 interface [Windows Debugging], DispatchCallbacks method, IDebugClient2::DispatchCallbacks, IDebugClient3, IDebugClient3 interface [Windows Debugging], DispatchCallbacks method, IDebugClient3::DispatchCallbacks, IDebugClient4 interface [Windows Debugging], DispatchCallbacks method, IDebugClient4::DispatchCallbacks, IDebugClient5 interface [Windows Debugging], DispatchCallbacks method, IDebugClient5::DispatchCallbacks, IDebugClient::DispatchCallbacks, IDebugClient_faf284c2-ca0f-4e00-bd74-08817338a808.xml, dbgeng/IDebugClient2::DispatchCallbacks, dbgeng/IDebugClient3::DispatchCallbacks, dbgeng/IDebugClient4::DispatchCallbacks, dbgeng/IDebugClient5::DispatchCallbacks, dbgeng/IDebugClient::DispatchCallbacks, debugger.dispatchcallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: dbgeng.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -42,7 +42,8 @@ api_name:
 -	IDebugClient3.DispatchCallbacks
 -	IDebugClient4.DispatchCallbacks
 -	IDebugClient5.DispatchCallbacks
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -54,16 +55,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>DispatchCallbacks</b> method lets the <a href="https://msdn.microsoft.com/fa52a1f0-9397-48a5-acbd-ce5347c0baef">debugger engine</a> use the current thread for callbacks.
-
-
-## -syntax
-
-
-````
-HRESULT DispatchCallbacks(
-  [in] ULONG Timeout
-);
-````
 
 
 ## -parameters
@@ -132,19 +123,6 @@ For more information about callbacks, see <a href="https://msdn.microsoft.com/90
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561229">WaitForEvent</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
 
 
 
@@ -152,21 +130,32 @@ For more information about callbacks, see <a href="https://msdn.microsoft.com/90
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545475">FlushCallbacks</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549827">IDebugClient</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550481">IDebugClient2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550488">IDebugClient3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550494">IDebugClient4</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550497">IDebugClient5</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561229">WaitForEvent</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugClient::DispatchCallbacks method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

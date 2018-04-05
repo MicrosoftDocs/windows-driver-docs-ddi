@@ -7,7 +7,7 @@ old-location: storage\sendctpassthru_in.htm
 old-project: storage
 ms.assetid: 5a3e06f5-f7f7-4e89-b78e-d6658c34ba9e
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSendCTPassThru_IN, PSendCTPassThru_IN, PSendCTPassThru_IN structure pointer [Storage Devices], SendCTPassThru_IN, SendCTPassThru_IN structure [Storage Devices], _SendCTPassThru_IN, hbapiwmi/PSendCTPassThru_IN, hbapiwmi/SendCTPassThru_IN, storage.sendctpassthru_in, structs-Fibre_f95be355-7a10-483c-83cb-058812977a91.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	hbapiwmi.h
 api_name:
 -	SendCTPassThru_IN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SendCTPassThru_IN, *PSendCTPassThru_IN
 ---
@@ -50,18 +51,6 @@ req.typenames: SendCTPassThru_IN, *PSendCTPassThru_IN
 
 
 The SendCTPassThru_IN structure is used to deliver input parameter data to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565409">SendCTPassThru</a> WMI method. 
-
-
-## -syntax
-
-
-````
-typedef struct _SendCTPassThru_IN {
-  UCHAR PortWWN[8];
-  ULONG RequestBufferCount;
-  UCHAR RequestBuffer[1];
-} SendCTPassThru_IN, *PSendCTPassThru_IN;
-````
 
 
 ## -struct-fields
@@ -95,13 +84,11 @@ The WMI tool suite generates a declaration of the SendCTPassThru_IN structure in
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565409">SendCTPassThru</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20SendCTPassThru_IN structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

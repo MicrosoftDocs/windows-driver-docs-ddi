@@ -7,7 +7,7 @@ old-location: display\iddcxadapterupdatemaxdisplaypipelinerate.htm
 old-project: display
 ms.assetid: 5d8e6b87-6cfd-48ec-ac38-a75cb94cf5ac
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: IddCxAdapterUpdateMaxDisplayPipelineRate, IddCxAdapterUpdateMaxDisplayPipelineRate method [Display Devices], display.iddcxadapterupdatemaxdisplaypipelinerate, iddcx/IddCxAdapterUpdateMaxDisplayPipelineRate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: "_Must_inspect_result_"
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	iddcx.h
 api_name:
 -	IddCxAdapterUpdateMaxDisplayPipelineRate
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -52,17 +53,6 @@ req.typenames:
 
 
                 An OS callback function the driver calls to report that the max display pipeline rate has changed
-
-
-## -syntax
-
-
-````
-NTSTATUS IddCxAdapterUpdateMaxDisplayPipelineRate(
-  _In_       IDDCX_ADAPTER                    hOsAdapterContext,
-  _In_ const IDARG_IN_MAXDISPLAYPIPELINERATE* pInArgs
-);
-````
 
 
 ## -parameters

@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILCALLMEDIAOFFERANSWERTYPE
 title: RILCALLMEDIAOFFERANSWERTYPE
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilcallmediaofferanswertype_2.htm
+old-location: netvista\rilcallmediaofferanswertype.htm
 old-project: netvista
-ms.assetid: 098392dc-f966-44f8-9202-9663b8cabc7e
+ms.assetid: cc0c3fc5-1482-424c-8ca8-c1bfe641bc03
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: RILCALLMEDIAOFFERANSWERTYPE, RILCALLMEDIAOFFERANSWERTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_CALLMEDIAOFFERANSWERTYPE_ANSWER, RIL_CALLMEDIAOFFERANSWERTYPE_CURRENT, RIL_CALLMEDIAOFFERANSWERTYPE_MAX, RIL_CALLMEDIAOFFERANSWERTYPE_OFFER, RIL_CALLMEDIAOFFERANSWERTYPE_PEER_ANSWER, RIL_CALLMEDIAOFFERANSWERTYPE_PEER_OFFER, netvista.rilcallmediaofferanswertype_2, rilapitypes/RILCALLMEDIAOFFERANSWERTYPE, rilapitypes/RIL_CALLMEDIAOFFERANSWERTYPE_ANSWER, rilapitypes/RIL_CALLMEDIAOFFERANSWERTYPE_CURRENT, rilapitypes/RIL_CALLMEDIAOFFERANSWERTYPE_MAX, rilapitypes/RIL_CALLMEDIAOFFERANSWERTYPE_OFFER, rilapitypes/RIL_CALLMEDIAOFFERANSWERTYPE_PEER_ANSWER, rilapitypes/RIL_CALLMEDIAOFFERANSWERTYPE_PEER_OFFER
+ms.date: 3/26/2018
+ms.keywords: RILCALLMEDIAOFFERANSWERTYPE, RILCALLMEDIAOFFERANSWERTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_CALLMEDIAOFFERANSWERTYPE_ANSWER, RIL_CALLMEDIAOFFERANSWERTYPE_CURRENT, RIL_CALLMEDIAOFFERANSWERTYPE_MAX, RIL_CALLMEDIAOFFERANSWERTYPE_OFFER, RIL_CALLMEDIAOFFERANSWERTYPE_PEER_ANSWER, RIL_CALLMEDIAOFFERANSWERTYPE_PEER_OFFER, netvista.rilcallmediaofferanswertype, ntddrilapitypes/RILCALLMEDIAOFFERANSWERTYPE, ntddrilapitypes/RIL_CALLMEDIAOFFERANSWERTYPE_ANSWER, ntddrilapitypes/RIL_CALLMEDIAOFFERANSWERTYPE_CURRENT, ntddrilapitypes/RIL_CALLMEDIAOFFERANSWERTYPE_MAX, ntddrilapitypes/RIL_CALLMEDIAOFFERANSWERTYPE_OFFER, ntddrilapitypes/RIL_CALLMEDIAOFFERANSWERTYPE_PEER_ANSWER, ntddrilapitypes/RIL_CALLMEDIAOFFERANSWERTYPE_PEER_OFFER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -35,10 +35,11 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILCALLMEDIAOFFERANSWERTYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILCALLMEDIAOFFERANSWERTYPE
 req.product: Windows 10 or later.
@@ -50,22 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-
-## -syntax
-
-
-````
-typedef enum _RILCALLMEDIAOFFERANSWERTYPE { 
-  RIL_CALLMEDIAOFFERANSWERTYPE_CURRENT,
-  RIL_CALLMEDIAOFFERANSWERTYPE_OFFER,
-  RIL_CALLMEDIAOFFERANSWERTYPE_ANSWER,
-  RIL_CALLMEDIAOFFERANSWERTYPE_PEER_OFFER,
-  RIL_CALLMEDIAOFFERANSWERTYPE_PEER_ANSWER,
-  RIL_CALLMEDIAOFFERANSWERTYPE_MAX
-} RILCALLMEDIAOFFERANSWERTYPE;
-````
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -enum-fields

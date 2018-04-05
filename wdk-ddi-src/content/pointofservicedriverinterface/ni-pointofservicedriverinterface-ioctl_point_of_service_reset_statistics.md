@@ -38,18 +38,14 @@ api_location:
 -	pointofservicedriverinterface.h
 api_name:
 -	IOCTL_POINT_OF_SERVICE_RESET_STATISTICS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PosPropertyId
 ---
 
 # IOCTL_POINT_OF_SERVICE_RESET_STATISTICS IOCTL
 
-
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -65,7 +61,7 @@ This I/O control function resets the specified statistic's value to zero.
 ### -input-buffer
 
 
-<a href="..\pointofservicedriverinterface\ns-pointofservicedriverinterface-_posstringtype.md">PosStringType</a> that names the statistic to reset to zero.
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn772274">PosStringType</a> that names the statistic to reset to zero.
 
 
 ### -input-buffer-length

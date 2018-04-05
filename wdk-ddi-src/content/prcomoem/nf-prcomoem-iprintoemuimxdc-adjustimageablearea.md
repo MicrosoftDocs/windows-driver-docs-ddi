@@ -7,7 +7,7 @@ old-location: print\iprintoemuimxdc_adjustimageablearea.htm
 old-project: print
 ms.assetid: a698fcb9-1285-4201-9b49-e79dcda66043
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: AdjustImageableArea method [Print Devices], AdjustImageableArea method [Print Devices], IPrintOemUIMXDC interface, AdjustImageableArea,IPrintOemUIMXDC.AdjustImageableArea, IPrintOemUIMXDC, IPrintOemUIMXDC interface [Print Devices], AdjustImageableArea method, IPrintOemUIMXDC::AdjustImageableArea, prcomoem/IPrintOemUIMXDC::AdjustImageableArea, print.iprintoemuimxdc_adjustimageablearea, print_unidrv-pscript_ui_c6e35081-e9d3-4d55-85be-e0d5b48bc39c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: prcomoem.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	prcomoem.h
 api_name:
 -	IPrintOemUIMXDC.AdjustImageableArea
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
@@ -51,21 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <code>IPrintOemUIMXDC::AdjustImageableArea</code> method enables an XPS filter pipeline driver to use UnidrvUI.dll or PS5UI.dll to support configuration of the printable area, including orientation and direction of rotation.
-
-
-## -syntax
-
-
-````
-HRESULT AdjustImageableArea(
-         HANDLE   hPrinter,
-         DWORD    cbDevMode,
-   const PDEVMODE pDevMode,
-         DWORD    cbOEMDM,
-   const PVOID    pOEMDM,
-         PRECTL   prclImageableArea
-);
-````
 
 
 ## -parameters
@@ -125,17 +111,15 @@ If the plug-in cannot complete the operation, it should return an appropriate fa
 
 ## -see-also
 
-<a href="..\prcomoem\nn-prcomoem-iprintoemuimxdc.md">IPrintOemUIMXDC</a>
+
+
+
+<a href="https://msdn.microsoft.com/4a70c0a7-9de7-48ed-a678-64832f078018">IPrintOemUIMXDC</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569236">RECTL</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintOemUIMXDC::AdjustImageableArea method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

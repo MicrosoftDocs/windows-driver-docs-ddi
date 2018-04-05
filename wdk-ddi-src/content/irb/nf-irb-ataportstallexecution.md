@@ -7,7 +7,7 @@ old-location: storage\ataportstallexecution.htm
 old-project: storage
 ms.assetid: 5dae484f-fb79-4291-bae5-dba0be7f9b97
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: AtaPortStallExecution, AtaPortStallExecution function [Storage Devices], atartns_3a78519d-4ee5-4a4a-9564-1d2bbd256300.xml, irb/AtaPortStallExecution, storage.ataportstallexecution
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,8 @@ api_location:
 -	pciidex.dll
 api_name:
 -	AtaPortStallExecution
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: IDE_POWER_STATE
 ---
@@ -54,16 +55,6 @@ req.typenames: IDE_POWER_STATE
 
 The <b>AtaPortStallExecution</b> stalls in the miniport driver.
 <div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
-
-## -syntax
-
-
-````
-VOID AtaPortStallExecution(
-  _In_ ULONG Delay
-);
-````
-
 
 ## -parameters
 
@@ -92,20 +83,18 @@ Miniport drivers should rarely call the <b>AtaPortStallExecution</b> routine. Th
 
 Typically, a miniport driver should call <b>AtaPortStallExecution</b> only if the driver must wait for some sort of state change on the HBA that is unable to cause an interrupt, or if the driver must delay for a very short interval between accesses to the HBA.
 
-Miniport drivers should use the <a href="..\irb\nf-irb-ataportrequesttimer.md">AtaPortRequestTimer</a> routine for delays longer than 1 millisecond.
+Miniport drivers should use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550227">AtaPortRequestTimer</a> routine for delays longer than 1 millisecond.
 
 
 
 
 ## -see-also
 
-<a href="..\irb\nf-irb-ataportrequesttimer.md">AtaPortRequestTimer</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550227">AtaPortRequestTimer</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20AtaPortStallExecution function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

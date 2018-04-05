@@ -7,7 +7,7 @@ old-location: storage\ioctl_ehstor_driver_perform_authz.htm
 old-project: storage
 ms.assetid: 689EE1EB-820A-4873-92C5-08F5F1873825
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_EHSTOR_DRIVER_PERFORM_AUTHZ, IOCTL_EHSTOR_DRIVER_PERFORM_AUTHZ control code [Storage Devices], ehstorioctl/IOCTL_EHSTOR_DRIVER_PERFORM_AUTHZ, storage.ioctl_ehstor_driver_perform_authz
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,18 +38,14 @@ api_location:
 -	EhStorIoctl.h
 api_name:
 -	IOCTL_EHSTOR_DRIVER_PERFORM_AUTHZ
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PDO_TYPE
 ---
 
 # IOCTL_EHSTOR_DRIVER_PERFORM_AUTHZ IOCTL
 
-
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -144,7 +140,7 @@ STATUS_SUCCESS is returned in the <b>Status</b> field by the silo driver if the 
 
 
 
-This IOCTL is sent by EHSTOR to a silo driver that supports on-demand authentication. The silo driver notifies EHSTOR of this capability in a prior <a href="..\ehstorioctl\ni-ehstorioctl-ioctl_ehstor_driver_report_capabilities.md">IOCTL_EHSTOR_DRIVER_REPORT_CAPABILITIES</a> request with the <b>CAP_ON_DEMAND_AUTHENTICATION</b> flag set in the <b>Capabilities</b> member of <a href="..\ehstorioctl\ns-ehstorioctl-tagact_authz_state.md">SILO_DRIVER_CAPABILITES</a>. 
+This IOCTL is sent by EHSTOR to a silo driver that supports on-demand authentication. The silo driver notifies EHSTOR of this capability in a prior <a href="https://msdn.microsoft.com/library/windows/hardware/hh451445">IOCTL_EHSTOR_DRIVER_REPORT_CAPABILITIES</a> request with the <b>CAP_ON_DEMAND_AUTHENTICATION</b> flag set in the <b>Capabilities</b> member of <a href="https://msdn.microsoft.com/32bb774f-b1eb-4198-8e4c-febcac83153d">SILO_DRIVER_CAPABILITES</a>. 
 
 In response to this IOCTL, the silo driver performs authentication or deauthentication for the device. For banded devices, the silo driver will, depending on the specified operation in the system buffer, unlock or lock as many bands as possible for reads and writes.
 
@@ -159,17 +155,15 @@ If a device supports multiple silos, authentication by each silo is exclusive. A
 
 ## -see-also
 
-<a href="..\ehstorioctl\ns-ehstorioctl-tagact_authz_state.md">SILO_DRIVER_CAPABILITES</a>
 
 
 
-<a href="..\ehstorioctl\ni-ehstorioctl-ioctl_ehstor_driver_report_capabilities.md">IOCTL_EHSTOR_DRIVER_REPORT_CAPABILITIES</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451445">IOCTL_EHSTOR_DRIVER_REPORT_CAPABILITIES</a>
 
 
 
+<a href="https://msdn.microsoft.com/32bb774f-b1eb-4198-8e4c-febcac83153d">SILO_DRIVER_CAPABILITES</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20IOCTL_EHSTOR_DRIVER_PERFORM_AUTHZ control code%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

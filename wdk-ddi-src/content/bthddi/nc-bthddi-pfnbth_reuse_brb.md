@@ -38,7 +38,8 @@ api_location:
 -	bthddi.h
 api_name:
 -	BthReuseBrb
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
 ---
@@ -51,20 +52,6 @@ req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
 
 The 
   <i>BthReuseBrb</i> function reinitializes a Bluetooth request block (BRB) to be reused.
-
-
-## -prototype
-
-
-````
-PFNBTH_REUSE_BRB BthReuseBrb;
-
-VOID BthReuseBrb(
-  _Inout_ PBRB     pBrb,
-  _In_    BRB_TYPE brbType
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -80,7 +67,7 @@ Pointer to the BRB to reuse.
 ### -param brbType [in]
 
 Specifies a value from the 
-     <a href="..\bthddi\ne-bthddi-_brb_type.md">BRB_TYPE</a> enumeration to initialize the BRB
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536631">BRB_TYPE</a> enumeration to initialize the BRB
      with.
 
 
@@ -108,13 +95,11 @@ Profile drivers obtain a pointer to the
 
 ## -see-also
 
-<a href="..\bthddi\ne-bthddi-_brb_type.md">BRB_TYPE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536631">BRB_TYPE</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20PFNBTH_REUSE_BRB callback function%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

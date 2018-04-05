@@ -7,7 +7,7 @@ old-location: audio\pcaddadapterdevice.htm
 old-project: audio
 ms.assetid: fa571ca0-194c-4018-9b93-a3cc687f7632
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 3/19/2018
 ms.keywords: PcAddAdapterDevice, PcAddAdapterDevice function [Audio Devices], audio.pcaddadapterdevice, audpc-routines_5b2b0ba0-67b7-4c8d-bd47-b7e664500637.xml, portcls/PcAddAdapterDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Portcls.dll
 api_name:
 -	PcAddAdapterDevice
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
@@ -53,20 +54,6 @@ req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 The <b>PcAddAdapterDevice</b> function adds an adapter device to the WDM device stack.
 
 
-## -syntax
-
-
-````
-NTSTATUS PcAddAdapterDevice(
-  _In_ PDRIVER_OBJECT   DriverObject,
-  _In_ PDEVICE_OBJECT   PhysicalDeviceObject,
-  _In_ PCPFNSTARTDEVICE StartDevice,
-  _In_ ULONG            MaxObjects,
-  _In_ ULONG            DeviceExtensionSize
-);
-````
-
-
 ## -parameters
 
 
@@ -74,12 +61,12 @@ NTSTATUS PcAddAdapterDevice(
 
 ### -param DriverObject [in]
 
-Pointer to the driver object. This pointer is passed as a parameter to the adapter's <a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a> handler. The driver object is a system structure of type <a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>.
+Pointer to the driver object. This pointer is passed as a parameter to the adapter's <a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a> handler. The driver object is a system structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff544174">DRIVER_OBJECT</a>.
 
 
 ### -param PhysicalDeviceObject [in]
 
-Pointer to the device's <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">physical device object (PDO)</a>. PortCls passes this pointer as a call parameter to the adapter's <i>AddDevice</i> handler. The PDO is a system structure of type <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>.
+Pointer to the device's <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">physical device object (PDO)</a>. PortCls passes this pointer as a call parameter to the adapter's <i>AddDevice</i> handler. The PDO is a system structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>.
 
 
 ### -param StartDevice [in]
@@ -89,7 +76,7 @@ Pointer to the function that the operating system calls in order to start the de
 
 ### -param MaxObjects [in]
 
-Specifies the maximum number of subdevices to be registered by calls to <a href="..\portcls\nf-portcls-pcregistersubdevice.md">PcRegisterSubdevice</a>. This count sets the upper limit to the total number of miniport objects that the adapter driver can instantiate.
+Specifies the maximum number of subdevices to be registered by calls to <a href="https://msdn.microsoft.com/library/windows/hardware/ff537731">PcRegisterSubdevice</a>. This count sets the upper limit to the total number of miniport objects that the adapter driver can instantiate.
 
 
 ### -param DeviceExtensionSize [in]
@@ -112,7 +99,7 @@ Specifies the device extension size. Use zero for default size. See the followin
 
 This function does most of the work that the audio adapter driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a> handler needs to perform. <b>PcAddAdapterDevice</b> creates the device object, initializes the device context, and attaches the device object to the device stack.
 
-An adapter driver calls <b>PcAddAdapterDevice</b> when it receives a call to its <i>AddDevice </i>handler. The adapter driver typically installs the <i>AddDevice </i>handler by calling <a href="..\portcls\nf-portcls-pcinitializeadapterdriver.md">PcInitializeAdapterDriver</a>, although the driver can also install the handler by other means. <b>PcAddAdapterDevice</b> creates the <a href="https://msdn.microsoft.com/f697e0db-1db0-4a81-94d8-0ca079885480">functional device object (FDO)</a> for the PDO that was passed to the <i>AddDevice</i> handler.
+An adapter driver calls <b>PcAddAdapterDevice</b> when it receives a call to its <i>AddDevice </i>handler. The adapter driver typically installs the <i>AddDevice </i>handler by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff537703">PcInitializeAdapterDriver</a>, although the driver can also install the handler by other means. <b>PcAddAdapterDevice</b> creates the <a href="https://msdn.microsoft.com/f697e0db-1db0-4a81-94d8-0ca079885480">functional device object (FDO)</a> for the PDO that was passed to the <i>AddDevice</i> handler.
 
 <i>DeviceExtensionSize</i> is typically zero. Some adapter drivers might need to reserve additional space in the device extension, in which case they should specify a <i>DeviceExtensionSize</i> greater than PORT_CLASS_DEVICE_EXTENSION_SIZE, which is the default size. Any value greater than zero and less than PORT_CLASS_DEVICE_EXTENSION_SIZE is illegal. Adapter drivers are free to use any part of the device extension after offset PORT_CLASS_DEVICE_EXTENSION_SIZE. They are also free to use bytes in the offset range of 16 to 31 inclusive in a system with 32-bit addressing and bytes in the offset range 32 to 63 in a system with 64-bit addressing. If the extension is regarded as an array of ULONG_PTR, array elements four through seven are available for use by the adapter driver.
 
@@ -172,15 +159,6 @@ Variable <i>FunctionalDeviceObject</i> is a pointer to the audio adapter's FDO, 
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
-
-
-
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
-
-
-
-<a href="..\portcls\nf-portcls-pcregistersubdevice.md">PcRegisterSubdevice</a>
 
 
 
@@ -188,9 +166,16 @@ Variable <i>FunctionalDeviceObject</i> is a pointer to the audio adapter's FDO, 
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544174">DRIVER_OBJECT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537731">PcRegisterSubdevice</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20PcAddAdapterDevice function%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: storage\storportpofxactivatecomponent.htm
 old-project: storage
 ms.assetid: 23872334-F9C3-4EB5-9B26-0BDB239D8F4E
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: StorPortPoFxActivateComponent, StorPortPoFxActivateComponent routine [Storage Devices], storage.storportpofxactivatecomponent, storport/StorPortPoFxActivateComponent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	storport.dll
 api_name:
 -	StorPortPoFxActivateComponent
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STOR_SPINLOCK
 req.product: Windows 10 or later.
@@ -52,20 +53,6 @@ req.product: Windows 10 or later.
 
 
 The <b>StorPortPoFxActivateComponent</b> routine increments the activation reference count on the specified component of a storage device.
-
-
-## -syntax
-
-
-````
-ULONG StorPortPoFxActivateComponent(
-  _In_     PVOID               HwDeviceExtension,
-  _In_opt_ PSTOR_ADDRESS       Address,
-  _In_opt_ PSCSI_REQUEST_BLOCK Srb,
-  _In_     ULONG               Component,
-  _In_     ULONG               Flags
-);
-````
 
 
 ## -parameters
@@ -90,7 +77,7 @@ The SRB triggering the component activation. This parameter is <b>NULL</b> if th
 
 ### -param Component [in]
 
-The index that identifies the component. This parameter is an index into the <b>Components</b> array in the <a href="..\storport\ns-storport-_stor_pofx_device.md">STOR_POFX_DEVICE</a> structure that the miniport driver registered for the device with a call to <a href="..\storport\nf-storport-storportinitializepofxpower.md">StorPortInitializePoFxPower</a>. If the <b>Components</b> array contains N elements, component indexes range from 0 to N–1.
+The index that identifies the component. This parameter is an index into the <b>Components</b> array in the <a href="https://msdn.microsoft.com/library/windows/hardware/hh920429">STOR_POFX_DEVICE</a> structure that the miniport driver registered for the device with a call to <a href="https://msdn.microsoft.com/library/windows/hardware/hh920421">StorPortInitializePoFxPower</a>. If the <b>Components</b> array contains N elements, component indexes range from 0 to N–1.
 
 
 ### -param Flags [in]
@@ -196,28 +183,26 @@ The current IRQL &gt; DISPATCH_LEVEL.
 
 Currently, both adapter devices and unit devices have maximum component count of 1. The index in <i>Component</i> must always be set to 0.
 
-Each call to <b>StorPortPoFxActivateComponent</b> must be matched with a subsequent call to <a href="..\storport\nf-storport-storportpofxidlecomponent.md">StorPortPoFxIdleComponent</a>.
+Each call to <b>StorPortPoFxActivateComponent</b> must be matched with a subsequent call to <a href="https://msdn.microsoft.com/library/windows/hardware/hh920423">StorPortPoFxIdleComponent</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportinitializepofxpower.md">StorPortInitializePoFxPower</a>
 
 
 
-<a href="..\storport\ns-storport-_stor_pofx_device.md">STOR_POFX_DEVICE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh920429">STOR_POFX_DEVICE</a>
 
 
 
-<a href="..\storport\nf-storport-storportpofxidlecomponent.md">StorPortPoFxIdleComponent</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh920421">StorPortInitializePoFxPower</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh920423">StorPortPoFxIdleComponent</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20StorPortPoFxActivateComponent routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

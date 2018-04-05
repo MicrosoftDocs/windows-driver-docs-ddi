@@ -7,7 +7,7 @@ old-location: storage\ufs_config_descriptor.htm
 old-project: storage
 ms.assetid: B65A2268-6959-4630-97DA-C0CFD37D9174
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PUFS_CONFIG_DESCRIPTOR, PUFS_CONFIG_DESCRIPTOR, PUFS_CONFIG_DESCRIPTOR structure pointer [Storage Devices], UFS_CONFIG_DESCRIPTOR, UFS_CONFIG_DESCRIPTOR structure [Storage Devices], storage.ufs_config_descriptor, ufs/PUFS_CONFIG_DESCRIPTOR, ufs/UFS_CONFIG_DESCRIPTOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ufs.h
 api_name:
 -	UFS_CONFIG_DESCRIPTOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UFS_CONFIG_DESCRIPTOR, *PUFS_CONFIG_DESCRIPTOR
 req.product: Windows 10 or later.
@@ -51,27 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>UFS_CONFIG_DESCRIPTOR</b> structure describes the modifiable values of the default device configuration set by the manufacturer. 
-
-
-## -syntax
-
-
-````
-typedef struct _UFS_CONFIG_DESCRIPTOR {
-  UCHAR                       bLength;
-  UCHAR                       bDescriptorIDN;
-  UCHAR                       Reserved1;
-  UCHAR                       bBootEnable;
-  UCHAR                       bDescrAccessEn;
-  UCHAR                       bInitPowerMode;
-  UCHAR                       bHighPriorityLUN;
-  UCHAR                       bSecureRemovalType;
-  UCHAR                        bInitActiveICCLevel;
-  UCHAR                       wPeriodicRTCUpdate[2];
-  UCHAR                        Reserved2[5];
-   UFS_UNIT_CONFIG_DESCRIPTOR UnitConfig[UFS_MAX_NUM_LU];
-} UFS_CONFIG_DESCRIPTOR, *PUFS_CONFIG_DESCRIPTOR;
-````
 
 
 ## -struct-fields
@@ -144,13 +124,11 @@ Contains the configurable parameters of the Unit Descriptor.
 
 ## -see-also
 
-<a href="..\ufs\ns-ufs-ufs_unit_config_descriptor.md">UFS_UNIT_CONFIG_DESCRIPTOR</a>
 
 
 
+<a href="https://msdn.microsoft.com/09CBAD0A-CBDC-464E-908C-BF142D515969">UFS_UNIT_CONFIG_DESCRIPTOR</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20UFS_CONFIG_DESCRIPTOR structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

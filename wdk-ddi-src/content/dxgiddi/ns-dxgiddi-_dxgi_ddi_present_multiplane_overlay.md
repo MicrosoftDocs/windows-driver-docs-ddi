@@ -7,7 +7,7 @@ old-location: display\dxgi_ddi_present_multiplane_overlay.htm
 old-project: display
 ms.assetid: 18811f98-df57-43ab-b8f7-26301abeb823
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: DXGI_DDI_PRESENT_MULTIPLANE_OVERLAY, DXGI_DDI_PRESENT_MULTIPLANE_OVERLAY structure [Display Devices], _DXGI_DDI_PRESENT_MULTIPLANE_OVERLAY, display.dxgi_ddi_present_multiplane_overlay, dxgiddi/DXGI_DDI_PRESENT_MULTIPLANE_OVERLAY
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Dxgiddi.h
 api_name:
 -	DXGI_DDI_PRESENT_MULTIPLANE_OVERLAY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGI_DDI_PRESENT_MULTIPLANE_OVERLAY
 ---
@@ -50,20 +51,6 @@ req.typenames: DXGI_DDI_PRESENT_MULTIPLANE_OVERLAY
 
 
 Specifies overlay planes to display.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGI_DDI_PRESENT_MULTIPLANE_OVERLAY {
-  UINT                                   LayerIndex;
-  BOOL                                   Enabled;
-  DXGI_DDI_HRESOURCE                     hResource;
-  UINT                                   SubResourceIndex;
-  DXGI_DDI_MULTIPLANE_OVERLAY_ATTRIBUTES PlaneAttributes;
-} DXGI_DDI_PRESENT_MULTIPLANE_OVERLAY;
-````
 
 
 ## -struct-fields
@@ -93,18 +80,16 @@ The zero-based index into the resource, which is specified by the handle in the 
 
 ### -field PlaneAttributes
 
-A structure of type <a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_multiplane_overlay_attributes.md">DXGI_DDI_MULTIPLANE_OVERLAY_ATTRIBUTES</a>  that specifies overlay plane attributes.
+A structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/hh780283">DXGI_DDI_MULTIPLANE_OVERLAY_ATTRIBUTES</a>  that specifies overlay plane attributes.
 
 
 ## -see-also
 
-<a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_multiplane_overlay_attributes.md">DXGI_DDI_MULTIPLANE_OVERLAY_ATTRIBUTES</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh780283">DXGI_DDI_MULTIPLANE_OVERLAY_ATTRIBUTES</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGI_DDI_PRESENT_MULTIPLANE_OVERLAY structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

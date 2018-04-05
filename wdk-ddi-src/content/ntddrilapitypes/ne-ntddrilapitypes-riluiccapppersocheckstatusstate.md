@@ -7,13 +7,13 @@ old-location: netvista\riluiccapppersocheckstatusstate.htm
 old-project: netvista
 ms.assetid: d41d5559-b9ec-4ae5-b658-8f75e8af13e4
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: RILUICCAPPPERSOCHECKSTATUSSTATE, RILUICCAPPPERSOCHECKSTATUSSTATE enumeration [Network Drivers Starting with Windows Vista], RIL_PERSOCHECKSTATE_FAIL, RIL_PERSOCHECKSTATE_MAX, RIL_PERSOCHECKSTATE_PASS, netvista.riluiccapppersocheckstatusstate, ntddrilapitypes/RILUICCAPPPERSOCHECKSTATUSSTATE, ntddrilapitypes/RIL_PERSOCHECKSTATE_FAIL, ntddrilapitypes/RIL_PERSOCHECKSTATE_MAX, ntddrilapitypes/RIL_PERSOCHECKSTATE_PASS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: ntddrilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILUICCAPPPERSOCHECKSTATUSSTATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILUICCAPPPERSOCHECKSTATUSSTATE
 ---
@@ -50,18 +51,6 @@ req.typenames: RILUICCAPPPERSOCHECKSTATUSSTATE
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef enum _RILUICCAPPPERSOCHECKSTATUSSTATE { 
-  RIL_PERSOCHECKSTATE_PASS,
-  RIL_PERSOCHECKSTATE_FAIL,
-  RIL_PERSOCHECKSTATE_MAX
-} RILUICCAPPPERSOCHECKSTATUSSTATE;
-````
 
 
 ## -enum-fields

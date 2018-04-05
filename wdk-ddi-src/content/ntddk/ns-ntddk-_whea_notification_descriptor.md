@@ -38,7 +38,8 @@ api_location:
 -	Ntddk.h
 api_name:
 -	WHEA_NOTIFICATION_DESCRIPTOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WHEA_NOTIFICATION_DESCRIPTOR, *PWHEA_NOTIFICATION_DESCRIPTOR
 ---
@@ -50,55 +51,6 @@ req.typenames: WHEA_NOTIFICATION_DESCRIPTOR, *PWHEA_NOTIFICATION_DESCRIPTOR
 
 
 The <b>WHEA_NOTIFICATION_DESCRIPTOR</b> structure describes the notification mechanism that is used by an error source.
-
-
-## -syntax
-
-
-````
-struct WHEA_NOTIFICATION_DESCRIPTOR {
-  UCHAR                   Type;
-  UCHAR                   Length;
-  WHEA_NOTIFICATION_FLAGS Flags;
-  union {
-    struct {
-      ULONG PollInterval;
-    } Polled;
-    struct {
-      ULONG PollInterval;
-      ULONG Vector;
-      ULONG SwitchToPollingThreshold;
-      ULONG SwitchToPollingWindow;
-      ULONG ErrorThreshold;
-      ULONG ErrorThresholdWindow;
-    } Interrupt;
-    struct {
-      ULONG PollInterval;
-      ULONG Vector;
-      ULONG SwitchToPollingThreshold;
-      ULONG SwitchToPollingWindow;
-      ULONG ErrorThreshold;
-      ULONG ErrorThresholdWindow;
-    } LocalInterrupt;
-    struct {
-      ULONG PollInterval;
-      ULONG Vector;
-      ULONG SwitchToPollingThreshold;
-      ULONG SwitchToPollingWindow;
-      ULONG ErrorThreshold;
-      ULONG ErrorThresholdWindow;
-    } Sci;
-    struct {
-      ULONG PollInterval;
-      ULONG Vector;
-      ULONG SwitchToPollingThreshold;
-      ULONG SwitchToPollingWindow;
-      ULONG ErrorThreshold;
-      ULONG ErrorThresholdWindow;
-    } Nmi;
-  } u;
-};
-````
 
 
 ## -struct-fields
@@ -543,24 +495,22 @@ The window of time, in seconds, in which the number of errors specified by the <
 
 
 
-A WHEA_NOTIFICATION_DESCRIPTOR structure is contained within the <a href="..\ntddk\ns-ntddk-_whea_generic_error_descriptor.md">WHEA_GENERIC_ERROR_DESCRIPTOR</a> and <a href="..\ntddk\ns-ntddk-_whea_xpf_cmc_descriptor.md">WHEA_XPF_CMC_DESCRIPTOR</a> structures.
+A WHEA_NOTIFICATION_DESCRIPTOR structure is contained within the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560531">WHEA_GENERIC_ERROR_DESCRIPTOR</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff560646">WHEA_XPF_CMC_DESCRIPTOR</a> structures.
 
 
 
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_whea_xpf_cmc_descriptor.md">WHEA_XPF_CMC_DESCRIPTOR</a>
 
 
 
-<a href="..\ntddk\ns-ntddk-_whea_generic_error_descriptor.md">WHEA_GENERIC_ERROR_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560531">WHEA_GENERIC_ERROR_DESCRIPTOR</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560646">WHEA_XPF_CMC_DESCRIPTOR</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [whea\whea]:%20WHEA_NOTIFICATION_DESCRIPTOR structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

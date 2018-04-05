@@ -7,7 +7,7 @@ old-location: storage\get_changer_parameters.htm
 old-project: storage
 ms.assetid: c9a47406-5dd2-4cda-b241-3a439406ac75
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PGET_CHANGER_PARAMETERS, GET_CHANGER_PARAMETERS, GET_CHANGER_PARAMETERS structure [Storage Devices], PGET_CHANGER_PARAMETERS, PGET_CHANGER_PARAMETERS structure pointer [Storage Devices], _GET_CHANGER_PARAMETERS, ntddchgr/GET_CHANGER_PARAMETERS, ntddchgr/PGET_CHANGER_PARAMETERS, storage.get_changer_parameters, structs-changer_5c639124-5fc3-4fe8-8289-3bc8408723e0.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddchgr.h
 api_name:
 -	GET_CHANGER_PARAMETERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GET_CHANGER_PARAMETERS, *PGET_CHANGER_PARAMETERS
 ---
@@ -50,43 +51,6 @@ req.typenames: GET_CHANGER_PARAMETERS, *PGET_CHANGER_PARAMETERS
 
 
 Retrieves the characteristics of the changer. 
-
-
-## -syntax
-
-
-````
-typedef struct _GET_CHANGER_PARAMETERS {
-  ULONG  Size;
-  USHORT NumberTransportElements;
-  USHORT NumberStorageElements;
-  USHORT NumberCleanerSlots;
-  USHORT NumberIEElements;
-  USHORT NumberDataTransferElements;
-  USHORT NumberOfDoors;
-  USHORT FirstSlotNumber;
-  USHORT FirstDriveNumber;
-  USHORT FirstTransportNumber;
-  USHORT FirstIEPortNumber;
-  USHORT FirstCleanerSlotAddress;
-  USHORT MagazineSize;
-  ULONG  DriveCleanTimeout;
-  ULONG  Features0;
-  ULONG  Features1;
-  UCHAR  MoveFromTransport;
-  UCHAR  MoveFromSlot;
-  UCHAR  MoveFromIePort;
-  UCHAR  MoveFromDrive;
-  UCHAR  ExchangeFromTransport;
-  UCHAR  ExchangeFromSlot;
-  UCHAR  ExchangeFromIePort;
-  UCHAR  ExchangeFromDrive;
-  UCHAR  LockUnlockCapabilities;
-  UCHAR  PositionCapabilities;
-  UCHAR  Reserved1[2];
-  ULONG  Reserved2[2];
-} GET_CHANGER_PARAMETERS, *PGET_CHANGER_PARAMETERS;
-````
 
 
 ## -struct-fields
@@ -629,13 +593,11 @@ Reserved for future use.
 
 ## -see-also
 
-<a href="..\mcd\nf-mcd-changergetparameters.md">ChangerGetParameters</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551425">ChangerGetParameters</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20GET_CHANGER_PARAMETERS structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

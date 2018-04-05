@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILRESETMODEMCONFIGPARAMETER
 title: RILRESETMODEMCONFIGPARAMETER
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilresetmodemconfigparameter_2.htm
+old-location: netvista\rilresetmodemconfigparameter.htm
 old-project: netvista
-ms.assetid: 6467bd24-bc2f-4d41-ba8a-a6b46fcc9853
+ms.assetid: 8cf95185-3935-4434-b9d5-c2a63a9f3eba
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: RILRESETMODEMCONFIGPARAMETER, RILRESETMODEMCONFIGPARAMETER enumeration [Network Drivers Starting with Windows Vista], RIL_RESETMODEMCONFIGPARAMETER_MAX, netvista.rilresetmodemconfigparameter_2, rilapitypes/RILRESETMODEMCONFIGPARAMETER, rilapitypes/RIL_RESETMODEMCONFIGPARAMETER_MAX
+ms.date: 3/26/2018
+ms.keywords: RILRESETMODEMCONFIGPARAMETER, RILRESETMODEMCONFIGPARAMETER enumeration [Network Drivers Starting with Windows Vista], RIL_RESETMODEMCONFIGPARAMETER_MAX, netvista.rilresetmodemconfigparameter, ntddrilapitypes/RILRESETMODEMCONFIGPARAMETER, ntddrilapitypes/RIL_RESETMODEMCONFIGPARAMETER_MAX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -35,10 +35,11 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILRESETMODEMCONFIGPARAMETER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILRESETMODEMCONFIGPARAMETER
 req.product: Windows 10 or later.
@@ -50,17 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-
-## -syntax
-
-
-````
-typedef enum _RILRESETMODEMCONFIGPARAMETER { 
-  RIL_RESETMODEMCONFIGPARAMETER_MAX
-} RILRESETMODEMCONFIGPARAMETER;
-````
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -enum-fields

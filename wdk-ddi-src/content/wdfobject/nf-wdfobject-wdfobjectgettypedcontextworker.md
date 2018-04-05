@@ -7,7 +7,7 @@ old-location: wdf\wdfobjectgettypedcontextworker.htm
 old-project: wdf
 ms.assetid: 1d95084b-16c4-468e-84af-47650292c5a1
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/26/2018
 ms.keywords: DFGenObjectRef_d932d163-5341-45b3-b896-bb3adb5831a6.xml, WdfObjectGetTypedContextWorker, WdfObjectGetTypedContextWorker method, kmdf.wdfobjectgettypedcontextworker, wdf.wdfobjectgettypedcontextworker, wdfobject/WdfObjectGetTypedContextWorker
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	wdfobject.h
 api_name:
 -	WdfObjectGetTypedContextWorker
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_SYNCHRONIZATION_SCOPE
 req.product: Windows 10 or later.
@@ -53,17 +54,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WdfObjectGetTypedContextWorker</b> method is reserved for internal use only. Use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548749">WdfObjectGetTypedContext</a> macro instead.
-
-
-## -syntax
-
-
-````
-PVOID WdfObjectGetTypedContextWorker(
-  _In_ WDFOBJECT                      Handle,
-  _In_ PCWDF_OBJECT_CONTEXT_TYPE_INFO TypeInfo
-);
-````
 
 
 ## -parameters

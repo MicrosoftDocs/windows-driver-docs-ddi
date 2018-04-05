@@ -38,7 +38,8 @@ api_location:
 -	gnssdriver.h
 api_name:
 -	GNSS_SUPL_HSLP_CONFIG
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GNSS_SUPL_HSLP_CONFIG, *PGNSS_SUPL_HSLP_CONFIG
 ---
@@ -50,21 +51,6 @@ req.typenames: GNSS_SUPL_HSLP_CONFIG, *PGNSS_SUPL_HSLP_CONFIG
 
 
 This structure contains SUPL H-SLP configuration information.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  ULONG Size;
-  ULONG Version;
-  WCHAR SuplHslp[MAX_SERVER_URL_NAME];
-  WCHAR SuplHslpFromImsi[MAX_SERVER_URL_NAME];
-  ULONG Reserved;
-  BYTE  Unused[512];
-} GNSS_SUPL_HSLP_CONFIG, *PGNSS_SUPL_HSLP_CONFIG;
-````
 
 
 ## -struct-fields

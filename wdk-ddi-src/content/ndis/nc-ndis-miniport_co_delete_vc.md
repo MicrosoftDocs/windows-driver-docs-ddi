@@ -7,7 +7,7 @@ old-location: netvista\miniportcodeletevc.htm
 old-project: netvista
 ms.assetid: ed9b6ad1-059b-47d9-b1f7-10d498c5d2d4
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: MINIPORT_CO_DELETE_VC, MiniportCoDeleteVc, MiniportCoDeleteVc callback function [Network Drivers Starting with Windows Vista], condis_miniport_ref_4a19285a-9595-4ea0-bf86-ec69474a9716.xml, ndis/MiniportCoDeleteVc, netvista.miniportcodeletevc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ndis.h
 api_name:
 -	MiniportCoDeleteVc
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
 ---
@@ -55,19 +56,6 @@ The
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>MINIPORT_CO_DELETE_VC</b> type. For more
    information, see the following Examples section.</div><div> </div>
 
-## -prototype
-
-
-````
-MINIPORT_CO_DELETE_VC MiniportCoDeleteVc;
-
-NDIS_STATUS MiniportCoDeleteVc(
-  _In_ NDIS_HANDLE MiniportVcContext
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -77,7 +65,7 @@ NDIS_STATUS MiniportCoDeleteVc(
 
 Specifies the handle to a miniport driver-allocated context area in which the miniport driver
      maintains its per-VC state. The miniport driver supplied this handle to NDIS from its 
-     <a href="..\ndis\nc-ndis-miniport_co_create_vc.md">MiniportCoCreateVc</a> function.
+     <a href="https://msdn.microsoft.com/99eaba29-ce17-4e79-878e-5fdf7411e56c">MiniportCoCreateVc</a> function.
 
 
 ## -returns
@@ -160,13 +148,11 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_co_create_vc.md">MiniportCoCreateVc</a>
 
 
 
+<a href="https://msdn.microsoft.com/99eaba29-ce17-4e79-878e-5fdf7411e56c">MiniportCoCreateVc</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20MINIPORT_CO_DELETE_VC callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

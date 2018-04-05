@@ -7,7 +7,7 @@ old-location: display\d3dkmt_vidpnsourceowner_flags.htm
 old-project: display
 ms.assetid: acc4e9d9-235f-4605-ae51-5056108843dc
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMT_VIDPNSOURCEOWNER_FLAGS, D3DKMT_VIDPNSOURCEOWNER_FLAGS structure [Display Devices], _D3DKMT_VIDPNSOURCEOWNER_FLAGS, d3dkmthk/D3DKMT_VIDPNSOURCEOWNER_FLAGS, display.d3dkmt_vidpnsourceowner_flags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3dkmthk.h
 api_name:
 -	D3DKMT_VIDPNSOURCEOWNER_FLAGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_VIDPNSOURCEOWNER_FLAGS
 ---
@@ -49,23 +50,7 @@ req.typenames: D3DKMT_VIDPNSOURCEOWNER_FLAGS
 ## -description
 
 
-Specifies output duplication options for use with the <a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_setvidpnsourceowner1.md">D3DKMTSetVidPnSourceOwner1</a> function.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_VIDPNSOURCEOWNER_FLAGS {
-  union {
-    struct {
-      UINT AllowOutputDuplication  :1;
-      UINT Reserved  :31;
-    };
-    UINT   Value;
-  };
-} D3DKMT_VIDPNSOURCEOWNER_FLAGS;
-````
+Specifies output duplication options for use with the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439459">D3DKMTSetVidPnSourceOwner1</a> function.
 
 
 ## -struct-fields
@@ -100,13 +85,11 @@ Specifies the number of output duplication paths on the VidPN.
 
 ## -see-also
 
-<a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_setvidpnsourceowner1.md">D3DKMTSetVidPnSourceOwner1</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439459">D3DKMTSetVidPnSourceOwner1</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMT_VIDPNSOURCEOWNER_FLAGS structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

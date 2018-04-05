@@ -38,7 +38,8 @@ api_location:
 -	Gpioclx.h
 api_name:
 -	GPIO_CONNECT_IO_PINS_MODE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GPIO_CONNECT_IO_PINS_MODE, *PGPIO_CONNECT_IO_PINS_MODE
 ---
@@ -50,19 +51,6 @@ req.typenames: GPIO_CONNECT_IO_PINS_MODE, *PGPIO_CONNECT_IO_PINS_MODE
 
 
 The <b>GPIO_CONNECT_IO_PINS_MODE</b> enumeration indicates whether a set of general-purpose I/O (GPIO) pins is configured as inputs or outputs.
-
-
-## -syntax
-
-
-````
-typedef enum _GPIO_CONNECT_IO_PINS_MODE { 
-  ConnectModeInvalid,
-  ConnectModeInput,
-  ConnectModeOutput,
-  ConnectModeMaximum  = ConnectModeOutput
-} GPIO_CONNECT_IO_PINS_MODE;
-````
 
 
 ## -enum-fields
@@ -103,7 +91,6 @@ The <b>ConnectModeInput</b> enumeration constant labels a set of GPIO pins that 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406483">IOCTL_GPIO_READ_PINS</a>
 
 
 
@@ -111,13 +98,12 @@ The <b>ConnectModeInput</b> enumeration constant labels a set of GPIO pins that 
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406483">IOCTL_GPIO_READ_PINS</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406487">IOCTL_GPIO_WRITE_PINS</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [GPIO\parports]:%20GPIO_CONNECT_IO_PINS_MODE enumeration%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: image\devicedialogdata2.htm
 old-project: image
 ms.assetid: 8bf83ec8-a620-48ba-90f0-7bfb8aebca1d
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/27/2018
 ms.keywords: "*LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, DEVICEDIALOGDATA2 structure [Imaging Devices], LPDEVICEDIALOGDATA2, LPDEVICEDIALOGDATA2 structure pointer [Imaging Devices], PDEVICEDIALOGDATA2, PDEVICEDIALOGDATA2 structure pointer [Imaging Devices], UIExt_1afa7fd2-14a9-4997-81e7-0f00bbc55dd9.xml, image.devicedialogdata2, tagDEVICEDIALOGDATA2, wiadevd/DEVICEDIALOGDATA2, wiadevd/LPDEVICEDIALOGDATA2, wiadevd/PDEVICEDIALOGDATA2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -21,10 +21,10 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: WDTFSystemAction.idl
 req.max-support: 
-req.namespace: 
-req.assembly: 
+req.namespace: Microsoft.WDTF
+req.assembly: WDTFSystemAction.Interop.dll
 req.type-library: 
 req.lib: 
 req.dll: 
@@ -38,7 +38,8 @@ api_location:
 -	wiadevd.h
 api_name:
 -	DEVICEDIALOGDATA2
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2
 req.product: Windows 10 or later.
@@ -51,24 +52,6 @@ req.product: Windows 10 or later.
 
 
 The DEVICEDIALOGDATA2 structure contains all the data needed to implement a custom device dialog.
-
-
-## -syntax
-
-
-````
-typedef struct tagDEVICEDIALOGDATA2 {
-  DWORD     cbSize;
-  IWiaItem2 *pIWiaItemRoot;
-  DWORD     dwFlags;
-  HWND      hwndParent;
-  BSTR      bstrFolderName;
-  BSTR      bstrFilename;
-  LONG      lNumFiles;
-  BSTR      *pbstrFilePaths;
-  IWiaItem2 *pWiaItem;
-} DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2;
-````
 
 
 ## -struct-fields
@@ -138,11 +121,6 @@ To access information about an <b>IWiaItem2</b> object's properties, the <b>Devi
 
 ## -see-also
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=121998">SysAllocString</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545053">IWiaUIExtension2::DeviceDialog</a>
 
 
 
@@ -150,11 +128,7 @@ To access information about an <b>IWiaItem2</b> object's properties, the <b>Devi
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=121996">PathYetAnotherMakeUniqueName</a>
-
-
-
-<a href="http://go.microsoft.com/fwlink/p/?linkid=121995">PathMakeUniqueName</a>
+<a href="http://go.microsoft.com/fwlink/p/?linkid=98432">IUnknown::AddRef</a>
 
 
 
@@ -166,15 +140,7 @@ To access information about an <b>IWiaItem2</b> object's properties, the <b>Devi
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=98432">IUnknown::AddRef</a>
-
-
-
 <a href="http://go.microsoft.com/fwlink/p/?linkid=121993">IWiaItem2::DeviceDlg</a>
-
-
-
-<a href="http://go.microsoft.com/fwlink/p/?linkid=122008">IWiaTransfer</a>
 
 
 
@@ -182,9 +148,24 @@ To access information about an <b>IWiaItem2</b> object's properties, the <b>Devi
 
 
 
+<a href="http://go.microsoft.com/fwlink/p/?linkid=122008">IWiaTransfer</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545053">IWiaUIExtension2::DeviceDialog</a>
+
+
+
+<a href="http://go.microsoft.com/fwlink/p/?linkid=121995">PathMakeUniqueName</a>
+
+
+
+<a href="http://go.microsoft.com/fwlink/p/?linkid=121996">PathYetAnotherMakeUniqueName</a>
+
+
+
+<a href="http://go.microsoft.com/fwlink/p/?linkid=121998">SysAllocString</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20DEVICEDIALOGDATA2 structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

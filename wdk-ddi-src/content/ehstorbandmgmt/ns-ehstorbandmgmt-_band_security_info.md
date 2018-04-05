@@ -7,7 +7,7 @@ old-location: storage\band_security_info.htm
 old-project: storage
 ms.assetid: 310F996F-F350-4F25-BC8A-386513908557
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PBAND_SECURITY_INFO, BAND_LOCATION_INFO, BAND_LOCATION_INFO structure [Storage Devices], BAND_SECURITY_INFO, BAND_SECURITY_INFO structure [Storage Devices], PBAND_LOCATION_INFO, PBAND_LOCATION_INFO structure pointer [Storage Devices], _BAND_SECURITY_INFO, ehstorbandmgmt/BAND_SECURITY_INFO, ehstorbandmgmt/PBAND_LOCATION_INFO, storage.band_security_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	EhStorBandMgmt.h
 api_name:
 -	BAND_LOCATION_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BAND_SECURITY_INFO, *PBAND_SECURITY_INFO
 ---
@@ -50,27 +51,6 @@ req.typenames: BAND_SECURITY_INFO, *PBAND_SECURITY_INFO
 
 
 The <b>BAND_SECURITY_INFO</b> structure specifies the security information for a band table entry query.
-
-
-## -syntax
-
-
-````
-typedef struct _BAND_LOCATION_INFO {
-  ULONG      StructSize;
-  LOCKSTATE  ReadLock;
-  LOCKSTATE  WriteLock;
-  ALGOIDTYPE CryptoAlgoIdType;
-  union {
-    struct {
-      ULONG Offset;
-      ULONG Length;
-    } CryptoAlgoOidString;
-    ULONG  CryptoAlgoNumericId;
-  };
-  BYTE       Metadata[32];
-} BAND_LOCATION_INFO, *PBAND_LOCATION_INFO;
-````
 
 
 ## -struct-fields
@@ -153,7 +133,7 @@ Both <b>Readlock</b> and <b>Writelock</b> are <b>LOCKSTATE</b> values and indica
 </table>
  
 
-<b>CryptoAlgoOidString</b>  specifies the data encryption algorithm only if <b>ENUMBANDS_REPORT_CRYPTO_ALGO</b> is set in the <b>Flags</b> member of <a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_enumerate_bands_parameters.md">ENUMERATE_BANDS_PARAMETERS</a> in an <a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_enumerate_bands.md">IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS</a> request. Otherwise, both <b>CryptoAlgoOidString.Offset</b> and <b>CryptoAlgoOidString.Length</b> are set to 0. The following are possible encryption algorithm OID strings returned for <b>CryptoAlgoOidString</b>.
+<b>CryptoAlgoOidString</b>  specifies the data encryption algorithm only if <b>ENUMBANDS_REPORT_CRYPTO_ALGO</b> is set in the <b>Flags</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/hh439719">ENUMERATE_BANDS_PARAMETERS</a> in an <a href="https://msdn.microsoft.com/library/windows/hardware/hh451380">IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS</a> request. Otherwise, both <b>CryptoAlgoOidString.Offset</b> and <b>CryptoAlgoOidString.Length</b> are set to 0. The following are possible encryption algorithm OID strings returned for <b>CryptoAlgoOidString</b>.
 
 <table>
 <tr>
@@ -210,25 +190,23 @@ When <b>BAND_SECURITY_INFO</b> is used in an input parameter set, <b>CryptoAlgoI
 
 ## -see-also
 
-<a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_create_band.md">IOCTL_EHSTOR_BANDMGMT_CREATE_BAND</a>
 
 
 
-<a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_table_entry.md">BAND_TABLE_ENTRY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439578">BAND_TABLE_ENTRY</a>
 
 
 
-<a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_enumerate_bands_parameters.md">ENUMERATE_BANDS_PARAMETERS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439719">ENUMERATE_BANDS_PARAMETERS</a>
 
 
 
-<a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_enumerate_bands.md">IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451372">IOCTL_EHSTOR_BANDMGMT_CREATE_BAND</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451380">IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20BAND_SECURITY_INFO structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

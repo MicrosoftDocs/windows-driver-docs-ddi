@@ -7,7 +7,7 @@ old-location: netvista\vmbclientchannelinitsetringbufferpagecount.htm
 old-project: netvista
 ms.assetid: 560A7CD9-5D9D-434B-ACEE-5852CC9A2CC3
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: VmbClientChannelInitSetRingBufferPageCount, VmbClientChannelInitSetRingBufferPageCount function [Network Drivers Starting with Windows Vista], netvista.vmbclientchannelinitsetringbufferpagecount, vmbuskernelmodeclientlibapi/VmbClientChannelInitSetRingBufferPageCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	vmbkmcl.dll
 api_name:
 -	VmbClientChannelInitSetRingBufferPageCount
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
 req.product: Windows 10 or later.
@@ -55,19 +56,6 @@ req.product: Windows 10 or later.
 
 The <b>VmbClientChannelInitSetRingBufferPageCount</b> function sets the number of pages of memory the client allocates for incoming and outgoing ring
 buffers.  
-
-
-## -syntax
-
-
-````
-NTSTATUS
- VmbClientChannelInitSetRingBufferPageCount(
-  _In_     VMBCHANNEL Channel,
-  _In_ UINT32         IncomingPageCount,
-  _In_ UINT32         OutgoingPageCount
-);
-````
 
 
 ## -parameters

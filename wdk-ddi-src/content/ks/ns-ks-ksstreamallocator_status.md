@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSSTREAMALLOCATOR_STATUS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSSTREAMALLOCATOR_STATUS, *PKSSTREAMALLOCATOR_STATUS
 ---
@@ -52,18 +53,6 @@ req.typenames: KSSTREAMALLOCATOR_STATUS, *PKSSTREAMALLOCATOR_STATUS
 The KSSTREAMALLOCATOR_STATUS structure describes framing requirements and current number of allocated frames for a specific allocator.
 
 
-## -syntax
-
-
-````
-typedef struct {
-  KSALLOCATOR_FRAMING Framing;
-  ULONG               AllocatedFrames;
-  ULONG               Reserved;
-} KSSTREAMALLOCATOR_STATUS, *PKSSTREAMALLOCATOR_STATUS;
-````
-
-
 ## -struct-fields
 
 
@@ -71,7 +60,7 @@ typedef struct {
 
 ### -field Framing
 
-A <a href="..\ks\ns-ks-ksallocator_framing.md">KSALLOCATOR_FRAMING</a> structure that contains the framing specified when the allocator was created.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff560979">KSALLOCATOR_FRAMING</a> structure that contains the framing specified when the allocator was created.
 
 
 ### -field AllocatedFrames
@@ -95,17 +84,15 @@ Clients can query allocator status by providing a KSSTREAMALLOCATOR_STATUS struc
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560979">KSALLOCATOR_FRAMING</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565670">KSPROPERTY_STREAMALLOCATOR_STATUS</a>
-
-
-
-<a href="..\ks\ns-ks-ksallocator_framing.md">KSALLOCATOR_FRAMING</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSSTREAMALLOCATOR_STATUS structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

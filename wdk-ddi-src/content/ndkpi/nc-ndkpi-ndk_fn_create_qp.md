@@ -7,7 +7,7 @@ old-location: netvista\ndk_fn_create_qp.htm
 old-project: netvista
 ms.assetid: 8B601E53-9BE9-4D84-819E-3B0BD07560BC
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: NDK_FN_CREATE_QP, NdkCreateQp, NdkCreateQp callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkCreateQp, netvista.ndk_fn_create_qp
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ndkpi.h
 api_name:
 -	NdkCreateQp
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS
 ---
@@ -52,30 +53,6 @@ req.typenames: NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS
 The <i>NdkCreateQp</i> (<i>NDK_FN_CREATE_QP</i>) function creates an NDK queue pair (QP) object.
 
 
-## -prototype
-
-
-````
-NDK_FN_CREATE_QP NdkCreateQp;
-
-NTSTATUS NdkCreateQp(
-  _In_     NDK_PD                   *pNdkPd,
-  _In_     NDK_CQ                   *pReceiveCq,
-  _In_     NDK_CQ                   *pInitiatorCq,
-  _In_opt_ PVOID                    QPContext,
-  _In_     ULONG                    ReceiveQueueDepth,
-  _In_     ULONG                    InitiatorQueueDepth,
-  _In_     ULONG                    MaxReceiveRequestSge,
-  _In_     ULONG                    MaxInitiatorRequestSge,
-  _In_     ULONG                    InlineDataSize,
-  _In_     NDK_FN_CREATE_COMPLETION CreateCompletion,
-  _In_opt_ PVOID                    RequestContext,
-           _Outptr_ NDK_QP          **ppNdkQp
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -83,12 +60,12 @@ NTSTATUS NdkCreateQp(
 
 ### -param *pNdkPd [in]
 
-A pointer to an NDK protection domain (PD) object (<a href="..\ndkpi\ns-ndkpi-_ndk_pd.md">NDK_PD</a>).
+A pointer to an NDK protection domain (PD) object (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439931">NDK_PD</a>).
 
 
 ### -param *pReceiveCq [in]
 
-A pointer to a completion queue (CQ) to use for receive request completions (<a href="..\ndkpi\ns-ndkpi-_ndk_cq.md">NDK_CQ</a>).
+A pointer to a completion queue (CQ) to use for receive request completions (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439854">NDK_CQ</a>).
 
 
 ### -param *pInitiatorCq [in]
@@ -98,7 +75,7 @@ A pointer to a CQ to use for initiator request completions.
 
 ### -param QPContext [in, optional]
 
-A context value to be returned in the <b>QPContext</b> member of the  <a href="..\ndkpi\ns-ndkpi-_ndk_result.md">NDK_RESULT</a> structure for all requests that are posted over this QP.
+A context value to be returned in the <b>QPContext</b> member of the  <a href="https://msdn.microsoft.com/library/windows/hardware/hh439935">NDK_RESULT</a> structure for all requests that are posted over this QP.
 
 
 ### -param ReceiveQueueDepth [in]
@@ -128,7 +105,7 @@ The maximum amount of inline data in bytes that can be sent in a single send or 
 
 ### -param CreateCompletion [in]
 
-A pointer to an <i>NdkCreateCompletion</i> (<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_completion.md">NDK_FN_CREATE_COMPLETION</a>) function that completes the creation of an NDK object.
+A pointer to an <i>NdkCreateCompletion</i> (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439871">NDK_FN_CREATE_COMPLETION</a>) function that completes the creation of an NDK object.
 
 
 ### -param RequestContext [in, optional]
@@ -138,12 +115,12 @@ A context value that the NDK provider passes back to the <i>NdkCreateCompletion<
 
 #### - **ppNdkQp
 
-A pointer to a created QP object (<a href="..\ndkpi\ns-ndkpi-_ndk_qp.md">NDK_QP</a>) is returned in this location if the request succeeds without returning STATUS_PENDING. If the request returns STATUS_PENDING then this parameter is ignored and the created object is returned with the callback that is specified in the  <i>CreateCompletion</i> parameter.
+A pointer to a created QP object (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439933">NDK_QP</a>) is returned in this location if the request succeeds without returning STATUS_PENDING. If the request returns STATUS_PENDING then this parameter is ignored and the created object is returned with the callback that is specified in the  <i>CreateCompletion</i> parameter.
 
 
 #### - ppNdkQp
 
-A pointer to a created QP object (<a href="..\ndkpi\ns-ndkpi-_ndk_qp.md">NDK_QP</a>) is returned in this location if the request succeeds without returning STATUS_PENDING. If the request returns STATUS_PENDING then this parameter is ignored and the created object is returned with the callback that is specified in the  <i>CreateCompletion</i> parameter.
+A pointer to a created QP object (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439933">NDK_QP</a>) is returned in this location if the request succeeds without returning STATUS_PENDING. If the request returns STATUS_PENDING then this parameter is ignored and the created object is returned with the callback that is specified in the  <i>CreateCompletion</i> parameter.
 
 
 ## -returns
@@ -176,7 +153,7 @@ The QP object was created successfully and returned with the <i>*ppNdkQp</i> par
 </dl>
 </td>
 <td width="60%">
- The operation is pending and will be completed later. The provider will call the function specified in the <i>CreateCompletion</i> parameter(<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_completion.md">NDK_FN_CREATE_COMPLETION</a>) to complete the pending operation.
+ The operation is pending and will be completed later. The provider will call the function specified in the <i>CreateCompletion</i> parameter(<a href="https://msdn.microsoft.com/library/windows/hardware/hh439871">NDK_FN_CREATE_COMPLETION</a>) to complete the pending operation.
  
 
 </td>
@@ -228,26 +205,13 @@ An error occurred.
 
 The <i>NdkCreateQp</i> function creates an   NDK queue pair (QP) object.  A QP consists of a receive queue and an initiator queue. The receive queue is used to  post receive requests. An initiator queue is used for initiating send, bind, fast-register, read, write, and invalidate requests.
 
-If the function returns STATUS_SUCCESS, the created object is returned in the <i>ppNdkQp</i> parameter. If <i>NdkCreateQp</i> returns STATUS_PENDING, the created object is returned by the <i>NdkCreateCompletion</i> (<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_completion.md">NDK_FN_CREATE_COMPLETION</a>) function that is specified in the <i>CreateCompletion</i> parameter.
+If the function returns STATUS_SUCCESS, the created object is returned in the <i>ppNdkQp</i> parameter. If <i>NdkCreateQp</i> returns STATUS_PENDING, the created object is returned by the <i>NdkCreateCompletion</i> (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439871">NDK_FN_CREATE_COMPLETION</a>) function that is specified in the <i>CreateCompletion</i> parameter.
 
 
 
 
 ## -see-also
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_result.md">NDK_RESULT</a>
-
-
-
-<a href="..\ndkpi\ns-ndkpi-_ndk_cq.md">NDK_CQ</a>
-
-
-
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_completion.md">NDK_FN_CREATE_COMPLETION</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439851">NDK_ADAPTER_INFO</a>
 
 
 
@@ -255,17 +219,28 @@ If the function returns STATUS_SUCCESS, the created object is returned in the <i
 
 
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_qp.md">NDK_QP</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439851">NDK_ADAPTER_INFO</a>
 
 
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_pd.md">NDK_PD</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439854">NDK_CQ</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439871">NDK_FN_CREATE_COMPLETION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439931">NDK_PD</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439933">NDK_QP</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439935">NDK_RESULT</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDK_FN_CREATE_QP callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: display\dxgk_spb_interface.htm
 old-project: display
 ms.assetid: 677619d2-86a1-492e-9964-d50624376ef4
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PDXGK_SPB_INTERFACE, DXGK_SPB_INTERFACE, DXGK_SPB_INTERFACE structure [Display Devices], PDXGK_SPB_INTERFACE, PDXGK_SPB_INTERFACE structure pointer [Display Devices], _DXGK_SPB_INTERFACE, display.dxgk_spb_interface, dispmprt/DXGK_SPB_INTERFACE, dispmprt/PDXGK_SPB_INTERFACE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Dispmprt.h
 api_name:
 -	DXGK_SPB_INTERFACE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_SPB_INTERFACE, *PDXGK_SPB_INTERFACE
 ---
@@ -51,60 +52,9 @@ req.typenames: DXGK_SPB_INTERFACE, *PDXGK_SPB_INTERFACE
 
 Contains pointers to functions in the <a href="https://msdn.microsoft.com/library/windows/hardware/jj658947">Simple Peripheral Bus (SPB) Interface</a> that the Windows Display Driver Model (WDDM) 1.2 and later  display miniport driver can call to inspect and alter SPB resources.
 
-To use these functions, first supply the <b>Size</b> and <b>Version</b> members of the  <b>DXGK_SPB_INTERFACE</b> structure. Then call the <a href="..\dispmprt\nc-dispmprt-dxgkcb_query_services.md">DxgkCbQueryServices</a> function with the  <i>ServicesType</i>  parameter set to a value of <b>DxgkServicesFirmwareTable</b>, and set the <i>Interface</i> parameter to the address (cast as <b>PINTERFACE</b>) of the <b>DXGK_SPB_INTERFACE</b> structure.
+To use these functions, first supply the <b>Size</b> and <b>Version</b> members of the  <b>DXGK_SPB_INTERFACE</b> structure. Then call the <a href="https://msdn.microsoft.com/0ce5df90-2019-4a92-97d6-0218acc8b1e8">DxgkCbQueryServices</a> function with the  <i>ServicesType</i>  parameter set to a value of <b>DxgkServicesFirmwareTable</b>, and set the <i>Interface</i> parameter to the address (cast as <b>PINTERFACE</b>) of the <b>DXGK_SPB_INTERFACE</b> structure.
 
 For more information on SPB architecture, see <a href="https://msdn.microsoft.com/2c660e14-5b27-4610-a328-735b07ed0773">Simple Peripheral Buses</a> and <a href="https://msdn.microsoft.com/A6DFD2DB-93F4-410F-8875-7E3E3EFCE660">SPB Peripheral Device Driver Overview</a>.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGK_SPB_INTERFACE {
-  USHORT                 Size;
-  USHORT                 Version;
-  PVOID                  Context;
-  PINTERFACE_REFERENCE   InterfaceReference;
-  PINTERFACE_DEREFERENCE InterfaceDereference;
-  NTSTATUS               (*OpenSpbResource)(
-      _In_ HANDLE DeviceHandle, 
-      _In_ LARGE_INTEGER SpbReourceId, 
-      _In_opt_ UNICODE_STRING *SpbResourceSubName, 
-      _In_ ACCESS_MASK DesiredAccess, 
-      _In_ ULONG ShareAccess, 
-      _In_ ULONG OpenOptions, 
-      _Out_ VOID **SpbResource);
-  NTSTATUS               (*CloseSpbResource)(
-      _In_ HANDLE DeviceHandle, 
-      _In_ VOID *SpbResource);
-  NTSTATUS               (*ReadSpbResource)(
-      _In_ HANDLE DeviceHandle, 
-      _In_ VOID *SpbResource, 
-      _In_ ULONG Length, 
-      _Out_ VOID *Buffer, 
-      _In_opt_ LARGE_INTEGER *ByteOffset, 
-      _In_opt_ HANDLE EventHandle, 
-      _Out_ IO_STATUS_BLOCK *IoStatusBlock);
-  NTSTATUS               (*WriteSpbResource)(
-      _In_ HANDLE DeviceHandle, 
-      _In_ VOID *SpbResource, 
-      _In_ ULONG Length, 
-      _In_ VOID *Buffer, 
-      _In_opt_ LARGE_INTEGER *ByteOffset, 
-      _In_opt_ HANDLE EventHandle, 
-      _Out_ IO_STATUS_BLOCK *IoStatusBlock);
-  NTSTATUS               (*SpbResourceIoControl)(
-      _In_ HANDLE DeviceHandle, 
-      _In_ VOID *SpbResource, 
-      _In_ ULONG IoControlCode, 
-      _In_ ULONG InBufferSize, 
-      _In_ VOID *InputBuffer, 
-      _In_ ULONG OutBufferSize, 
-      _Out_ VOID *OutputBuffer, 
-      _In_opt_ HANDLE EventHandle, 
-      _Out_ IO_STATUS_BLOCK *IoStatusBlock);
-} DXGK_SPB_INTERFACE, *PDXGK_SPB_INTERFACE;
-````
 
 
 ## -struct-fields
@@ -145,7 +95,7 @@ Opens a Simple Peripheral Bus (SPB) resource. All input parameters are supplied 
 
 #### DeviceHandle
 
-A handle that represents a display adapter. The display miniport driver previously obtained this handle in the <b>DeviceHandle</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560942">DXGKRNL_INTERFACE</a> structure that was passed to the <a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a> function.
+A handle that represents a display adapter. The display miniport driver previously obtained this handle in the <b>DeviceHandle</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560942">DXGKRNL_INTERFACE</a> structure that was passed to the <a href="https://msdn.microsoft.com/ffacbb39-2581-4207-841d-28ce57fbc64d">DxgkDdiStartDevice</a> function.
 
 
 
@@ -163,19 +113,19 @@ An optional pointer to the Unicode SPB resource subname.
 
 #### DesiredAccess
 
-Specifies an <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a> value that determines the requested access to the SPB resource. For more information, see the <i>DesiredAccess</i> parameter of the <a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a> function.
+Specifies an <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a> value that determines the requested access to the SPB resource. For more information, see the <i>DesiredAccess</i> parameter of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566424">ZwCreateFile</a> function.
 
 
 
 #### ShareAccess
 
-Specifies the type of share access for the file. For more information, see the <i>ShareAccess</i> parameter of <a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>.
+Specifies the type of share access for the file. For more information, see the <i>ShareAccess</i> parameter of <a href="https://msdn.microsoft.com/library/windows/hardware/ff566424">ZwCreateFile</a>.
 
 
 
 #### OpenOptions
 
-Specifies the options to apply when opening the SPB resource. For more information, see the <i>CreateOptions</i> parameter of <a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>.
+Specifies the options to apply when opening the SPB resource. For more information, see the <i>CreateOptions</i> parameter of <a href="https://msdn.microsoft.com/library/windows/hardware/ff566424">ZwCreateFile</a>.
 
 
 
@@ -198,7 +148,7 @@ Callers of <a href="https://msdn.microsoft.com/library/windows/hardware/hh406257
 
 #### DeviceHandle
 
-A handle that represents a display adapter. The display miniport driver previously obtained this handle in the <b>DeviceHandle</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560942">DXGKRNL_INTERFACE</a> structure that was passed to the <a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a> function.
+A handle that represents a display adapter. The display miniport driver previously obtained this handle in the <b>DeviceHandle</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560942">DXGKRNL_INTERFACE</a> structure that was passed to the <a href="https://msdn.microsoft.com/ffacbb39-2581-4207-841d-28ce57fbc64d">DxgkDdiStartDevice</a> function.
 
 
 
@@ -226,7 +176,7 @@ Even when the I/O Manager is maintaining the current file position, the caller c
 
 #### DeviceHandle
 
-A handle that represents a display adapter. The display miniport driver previously obtained this handle in the <b>DeviceHandle</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560942">DXGKRNL_INTERFACE</a> structure that was passed to the <a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a> function.
+A handle that represents a display adapter. The display miniport driver previously obtained this handle in the <b>DeviceHandle</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560942">DXGKRNL_INTERFACE</a> structure that was passed to the <a href="https://msdn.microsoft.com/ffacbb39-2581-4207-841d-28ce57fbc64d">DxgkDdiStartDevice</a> function.
 
 
 
@@ -266,7 +216,7 @@ This parameter can be <b>NULL</b>.
 
 #### IoStatusBlock
 
-A pointer to an <a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure that receives the final completion status and information about the requested read operation. The  <b>Information</b> member of the <b>IO_STATUS_BLOCK</b> structure receives the number of bytes actually read from the SPB resource.
+A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550671">IO_STATUS_BLOCK</a> structure that receives the final completion status and information about the requested read operation. The  <b>Information</b> member of the <b>IO_STATUS_BLOCK</b> structure receives the number of bytes actually read from the SPB resource.
 
 
 
@@ -296,7 +246,7 @@ It is also possible to cause a write operation to start at the current end of fi
 
 #### DeviceHandle
 
-A handle that represents a display adapter. The display miniport driver previously obtained this handle in the <b>DeviceHandle</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560942">DXGKRNL_INTERFACE</a> structure that was passed to the <a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a> function.
+A handle that represents a display adapter. The display miniport driver previously obtained this handle in the <b>DeviceHandle</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560942">DXGKRNL_INTERFACE</a> structure that was passed to the <a href="https://msdn.microsoft.com/ffacbb39-2581-4207-841d-28ce57fbc64d">DxgkDdiStartDevice</a> function.
 
 
 
@@ -336,7 +286,7 @@ This parameter can be <b>NULL</b>.
 
 #### IoStatusBlock
 
-A pointer to an <a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure that receives the final completion status and information about the requested write operation. The <b>Information</b> member of the  <b>IO_STATUS_BLOCK</b> structure receives the number of bytes actually written to the SPB resource.
+A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550671">IO_STATUS_BLOCK</a> structure that receives the final completion status and information about the requested write operation. The <b>Information</b> member of the  <b>IO_STATUS_BLOCK</b> structure receives the number of bytes actually written to the SPB resource.
 
 
 ### -field SpbResourceIoControl
@@ -349,7 +299,7 @@ If the caller opened the file for asynchronous I/O (with neither <b>FILE_SYNCHRO
 
 #### DeviceHandle
 
-A handle that represents a display adapter. The display miniport driver previously obtained this handle in the <b>DeviceHandle</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560942">DXGKRNL_INTERFACE</a> structure that was passed to the <a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a> function.
+A handle that represents a display adapter. The display miniport driver previously obtained this handle in the <b>DeviceHandle</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560942">DXGKRNL_INTERFACE</a> structure that was passed to the <a href="https://msdn.microsoft.com/ffacbb39-2581-4207-841d-28ce57fbc64d">DxgkDdiStartDevice</a> function.
 
 
 
@@ -403,10 +353,21 @@ This parameter can be <b>NULL</b>.
 
 #### IoStatusBlock
 
-A pointer to a variable that receives the final completion status and information about the requested I/O control operation. For successful calls that return data, the number of bytes written to the buffer pointed to by the <i>OutputBuffer</i> parameter is returned in the <b>Information</b> member of the <a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure.
+A pointer to a variable that receives the final completion status and information about the requested I/O control operation. For successful calls that return data, the number of bytes written to the buffer pointed to by the <i>OutputBuffer</i> parameter is returned in the <b>Information</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550671">IO_STATUS_BLOCK</a> structure.
 
 
 ## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406257">CloseSpbResource</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451581">OpenSpbResource</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439824">ReadSpbResource</a>
 
@@ -417,20 +378,7 @@ A pointer to a variable that receives the final completion status and informatio
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439925">WriteSpbResource</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451581">OpenSpbResource</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406257">CloseSpbResource</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGK_SPB_INTERFACE structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

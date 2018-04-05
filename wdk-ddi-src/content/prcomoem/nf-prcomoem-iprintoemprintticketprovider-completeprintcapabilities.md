@@ -7,7 +7,7 @@ old-location: print\iprintoemprintticketprovider_completeprintcapabilities.htm
 old-project: print
 ms.assetid: 067eca3b-f487-405a-9799-bd62376f9e24
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: CompletePrintCapabilities, CompletePrintCapabilities method [Print Devices], CompletePrintCapabilities method [Print Devices], IPrintOemPrintTicketProvider interface, CompletePrintCapabilities,IPrintOemPrintTicketProvider.CompletePrintCapabilities, IPrintOemPrintTicketProvider, IPrintOemPrintTicketProvider interface [Print Devices], CompletePrintCapabilities method, IPrintOemPrintTicketProvider::CompletePrintCapabilities, prcomoem/IPrintOemPrintTicketProvider::CompletePrintCapabilities, print.iprintoemprintticketprovider_completeprintcapabilities, print_ticket-package_75d63289-6e10-4731-a2b1-16f396f21d62.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: prcomoem.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	prcomoem.h
 api_name:
 -	IPrintOemPrintTicketProvider.CompletePrintCapabilities
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
@@ -51,17 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <code>IPrintOemPrintTicketProvider::CompletePrintCapabilities</code> method fills in the remaining entries of the specified print capabilities document. 
-
-
-## -syntax
-
-
-````
-HRESULT CompletePrintCapabilities(
-  [in]      IXMLDOMDocument2 *pPrintTicket,
-  [in, out] IXMLDOMDocument2 *pCapabilities
-);
-````
 
 
 ## -parameters

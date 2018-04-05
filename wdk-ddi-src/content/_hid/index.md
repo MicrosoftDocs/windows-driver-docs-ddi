@@ -2,7 +2,7 @@
 UID: TP:hid
 ms.assetid: 87c002be-da96-313a-bae1-c6a49c9ce065
 ms.author: windowsdriverdev
-ms.date: 02/27/18
+ms.date: 04/03/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -11,6 +11,7 @@ ms.topic: portal
 
 # Human Interface Devices (HID)
 
+## -description
 
 Overview of the Human Interface Devices (HID) technology.
 
@@ -23,6 +24,7 @@ To develop Human Interface Devices (HID), you need these headers:
  * [hidsdi.h](..\hidsdi\index.md)
  * [kbdmou.h](..\kbdmou\index.md)
  * [ntdd8042.h](..\ntdd8042\index.md)
+ * [sffprtcl.h](..\sffprtcl\index.md)
  * [vhf.h](..\vhf\index.md)
 
 For the programming guide, see [Human Interface Devices (HID)](https://docs.microsoft.com/en-us/windows-hardware/drivers/hid).

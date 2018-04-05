@@ -38,7 +38,8 @@ api_location:
 -	winbio_types.h
 api_name:
 -	WINBIO_BIR_HEADER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WINBIO_BIR_HEADER
 req.product: Windows 10 or later.
@@ -51,30 +52,6 @@ req.product: Windows 10 or later.
 
 
 The WINBIO_BIR_HEADER structure contains the Common Biometric Exchange File Format (CBEFF) Patron Format A information that describes the rest of the BIR.
-
-
-## -syntax
-
-
-````
-typedef struct _WINBIO_BIR_HEADER {
-  USHORT                   ValidFields;
-  WINBIO_BIR_VERSION       HeaderVersion;
-  WINBIO_BIR_VERSION       PatronHeaderVersion;
-  WINBIO_BIR_DATA_FLAGS    DataFlags;
-  WINBIO_BIOMETRIC_TYPE    Type;
-  WINBIO_BIOMETRIC_SUBTYPE Subtype;
-  WINBIO_BIR_PURPOSE       Purpose;
-  WINBIO_BIR_QUALITY       DataQuality;
-  LARGE_INTEGER            CreationDate;
-  struct {
-    LARGE_INTEGER BeginDate;
-    LARGE_INTEGER EndDate;
-  } ValidityPeriod;
-  WINBIO_REGISTERED_FORMAT BiometricDataFormat;
-  WINBIO_REGISTERED_FORMAT ProductId;
-} WINBIO_BIR_HEADER, *PWINBIO_BIR_HEADER;
-````
 
 
 ## -struct-fields
@@ -160,12 +137,12 @@ Specifies the validity period of this BIR by using the format described in <i>Cr
 
 ### -field BiometricDataFormat
 
-A structure of type <a href="..\winbio_types\ns-winbio_types-_winbio_registered_format.md">WINBIO_REGISTERED_FORMAT</a> that specifies the data format of the <b>StandardDataBlock</b> for this <a href="..\winbio_types\ns-winbio_types-_winbio_bir.md">WINBIO_BIR</a>.
+A structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff536473">WINBIO_REGISTERED_FORMAT</a> that specifies the data format of the <b>StandardDataBlock</b> for this <a href="https://msdn.microsoft.com/library/windows/hardware/ff536459">WINBIO_BIR</a>.
 
 
 ### -field ProductId
 
-A structure of type <a href="..\winbio_types\ns-winbio_types-_winbio_registered_format.md">WINBIO_REGISTERED_FORMAT</a> that specifies the product identifier for the component that generated the <b>StandardDataBlock</b> for this WINBIO_BIR.
+A structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff536473">WINBIO_REGISTERED_FORMAT</a> that specifies the product identifier for the component that generated the <b>StandardDataBlock</b> for this WINBIO_BIR.
 
 
 ## -remarks
@@ -179,17 +156,15 @@ You can find more information about the fields of the standard biometric header 
 
 ## -see-also
 
-<a href="..\winbio_types\ns-winbio_types-_winbio_bir_data.md">WINBIO_BIR_DATA</a>
 
 
 
-<a href="..\winbio_types\ns-winbio_types-_winbio_bir.md">WINBIO_BIR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536459">WINBIO_BIR</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536460">WINBIO_BIR_DATA</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [biometric\biometric]:%20WINBIO_BIR_HEADER structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

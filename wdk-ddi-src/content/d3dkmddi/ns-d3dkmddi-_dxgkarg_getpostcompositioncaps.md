@@ -7,7 +7,7 @@ old-location: display\dxgkarg_getpostcompositioncaps.htm
 old-project: display
 ms.assetid: 0C8A0F83-9D12-46F1-A8B1-3BCF219A3BF7
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*IN_OUT_PDXGKARG_GETPOSTCOMPOSITIONCAPS, DXGKARG_GETPOSTCOMPOSITIONCAPS, DXGKARG_GETPOSTCOMPOSITIONCAPS structure [Display Devices], _DXGKARG_GETPOSTCOMPOSITIONCAPS, d3dkmddi/DXGKARG_GETPOSTCOMPOSITIONCAPS, display.dxgkarg_getpostcompositioncaps"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGKARG_GETPOSTCOMPOSITIONCAPS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGKARG_GETPOSTCOMPOSITIONCAPS
 ---
@@ -50,18 +51,6 @@ req.typenames: DXGKARG_GETPOSTCOMPOSITIONCAPS
 
 
 Arguments for the DxgkDdiGetPostCompositionCaps function.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGKARG_GETPOSTCOMPOSITIONCAPS {
-  D3DDDI_VIDEO_PRESENT_SOURCE_ID VidPnSourceId;
-  float                          MaxStretchFactor;
-  float                          MaxShrinkFactor;
-} DXGKARG_GETPOSTCOMPOSITIONCAPS;
-````
 
 
 ## -struct-fields

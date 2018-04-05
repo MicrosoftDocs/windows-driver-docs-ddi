@@ -7,7 +7,7 @@ old-location: display\d3d12ddi_video_process_input_stream.htm
 old-project: display
 ms.assetid: DB0AF7A5-8E90-45B8-AF9C-58BFF7CE066E
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_0020, D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_0020 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_0020, display.d3d12ddi_video_process_input_stream
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3d12umddi.h
 api_name:
 -	D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_0020
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_0020
 ---
@@ -50,18 +51,6 @@ req.typenames: D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_0020
 
 
 Contains stream information for the video processor blend functionality.
-
-
-## -syntax
-
-
-````
-typedef struct D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_0020 {
-  D3D12DDI_HRESOURCE                          hDrvInputTexture;
-  UINT                                        Subresource;
-  D3D12DDI_VIDEO_PROCESS_REFERENCES_INFO_0020 ReferenceInfo;
-} D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_0020;
-````
 
 
 ## -struct-fields

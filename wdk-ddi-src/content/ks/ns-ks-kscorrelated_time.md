@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSCORRELATED_TIME
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSCORRELATED_TIME, *PKSCORRELATED_TIME
 ---
@@ -50,17 +51,6 @@ req.typenames: KSCORRELATED_TIME, *PKSCORRELATED_TIME
 
 
 The KSCORRELATED_TIME structure contains a clock time as well as the corresponding number of clock ticks since system boot.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  LONGLONG Time;
-  LONGLONG SystemTime;
-} KSCORRELATED_TIME, *PKSCORRELATED_TIME;
-````
 
 
 ## -struct-fields
@@ -84,24 +74,22 @@ A 64-bit integer containing the number of clock ticks since system boot.
 
 Supply this structure in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564465">KSPROPERTY_CLOCK_CORRELATEDTIME</a> property request.
 
-The system time is acquired from <a href="..\wdm\nf-wdm-kequeryperformancecounter.md">KeQueryPerformanceCounter</a>. Note that the performance counter is not suspended when the machine is suspended, so that correlations change when the machine goes through a suspend.
+The system time is acquired from <a href="https://msdn.microsoft.com/library/windows/hardware/ff553053">KeQueryPerformanceCounter</a>. Note that the performance counter is not suspended when the machine is suspended, so that correlations change when the machine goes through a suspend.
 
 
 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564465">KSPROPERTY_CLOCK_CORRELATEDTIME</a>
 
 
 
-<a href="..\wdm\nf-wdm-kequeryperformancecounter.md">KeQueryPerformanceCounter</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553053">KeQueryPerformanceCounter</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSCORRELATED_TIME structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

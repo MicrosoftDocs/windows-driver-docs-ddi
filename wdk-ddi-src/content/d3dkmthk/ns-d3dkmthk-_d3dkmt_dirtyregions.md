@@ -7,7 +7,7 @@ old-location: display\d3dkmt_dirtyregions.htm
 old-project: display
 ms.assetid: 53565c01-9e6f-4ade-8c4a-2a4dbe7d48c7
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMT_DIRTYREGIONS, D3DKMT_DIRTYREGIONS structure [Display Devices], OpenGL_Structs_a6113f9d-8ffc-4e75-8366-8329ad6c114b.xml, _D3DKMT_DIRTYREGIONS, d3dkmthk/D3DKMT_DIRTYREGIONS, display.d3dkmt_dirtyregions
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmthk.h
 api_name:
 -	D3DKMT_DIRTYREGIONS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_DIRTYREGIONS
 ---
@@ -50,17 +51,6 @@ req.typenames: D3DKMT_DIRTYREGIONS
 
 
 The D3DKMT_DIRTYREGIONS structure describes active rectangles (dirty regions) of a surface. 
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_DIRTYREGIONS {
-  UINT NumRects;
-  RECT Rects[D3DKMT_MAX_PRESENT_HISTORY_RECTS];
-} D3DKMT_DIRTYREGIONS;
-````
 
 
 ## -struct-fields
@@ -80,13 +70,11 @@ typedef struct _D3DKMT_DIRTYREGIONS {
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMT_DIRTYREGIONS structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

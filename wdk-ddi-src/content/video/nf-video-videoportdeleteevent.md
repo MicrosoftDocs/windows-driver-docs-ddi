@@ -7,7 +7,7 @@ old-location: display\videoportdeleteevent.htm
 old-project: display
 ms.assetid: 0952f6ab-6d57-4ded-b167-74a7ace47961
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: VideoPortDeleteEvent, VideoPortDeleteEvent function [Display Devices], VideoPort_Functions_66e14d53-8a5e-4322-8576-4ac06230db31.xml, display.videoportdeleteevent, video/VideoPortDeleteEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Videoprt.sys
 api_name:
 -	VideoPortDeleteEvent
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
 req.product: Windows 10 or later.
@@ -51,17 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>VideoPortDeleteEvent</b> function deletes the specified event object.
-
-
-## -syntax
-
-
-````
-VP_STATUS VideoPortDeleteEvent(
-  _In_ PVOID  HwDeviceExtension,
-  _In_ PEVENT pEvent
-);
-````
 
 
 ## -parameters
@@ -99,7 +89,6 @@ This function should not be used to delete a mapped user event. To delete a mapp
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportcreateevent.md">VideoPortCreateEvent</a>
 
 
 
@@ -107,9 +96,8 @@ This function should not be used to delete a mapped user event. To delete a mapp
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570287">VideoPortCreateEvent</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20VideoPortDeleteEvent function%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

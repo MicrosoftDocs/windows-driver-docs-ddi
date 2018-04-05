@@ -7,7 +7,7 @@ old-location: netvista\ndis_oper_state.htm
 old-project: netvista
 ms.assetid: c08f8bcd-23fc-445c-9c42-e5c4edc75d78
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: "*PNDIS_OPER_STATE, NDIS_OPER_STATE, NDIS_OPER_STATE structure [Network Drivers Starting with Windows Vista], PNDIS_OPER_STATE, PNDIS_OPER_STATE structure pointer [Network Drivers Starting with Windows Vista], _NDIS_OPER_STATE, ndis_status_ref_d5bb44f8-a279-4806-b81b-87e109078a82.xml, netvista.ndis_oper_state, ntddndis/NDIS_OPER_STATE, ntddndis/PNDIS_OPER_STATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddndis.h
 api_name:
 -	NDIS_OPER_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_OPER_STATE, *PNDIS_OPER_STATE
 ---
@@ -53,18 +54,6 @@ The NDIS_OPER_STATE structure provides the current operational state of an NDIS 
   interface.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_OPER_STATE {
-  NDIS_OBJECT_HEADER Header;
-  NET_IF_OPER_STATUS OperationalStatus;
-  ULONG              OperationalStatusFlags;
-} NDIS_OPER_STATE, *PNDIS_OPER_STATE;
-````
-
-
 ## -struct-fields
 
 
@@ -73,7 +62,7 @@ typedef struct _NDIS_OPER_STATE {
 ### -field Header
 
 The 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure for the
      NDIS_OPER_STATE structure. Set the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to NDIS_OBJECT_TYPE_DEFAULT, the 
@@ -134,7 +123,7 @@ For the
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff567406">NDIS_STATUS_OPER_STATUS</a> status
     indication, NDIS supplies an NDIS_OPER_STATE structure in the 
     <b>StatusBuffer</b> member of the 
-    <a href="..\ndis\ns-ndis-_ndis_status_indication.md">NDIS_STATUS_INDICATION</a> structure.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff567373">NDIS_STATUS_INDICATION</a> structure.
 
 NDIS_STATUS_OPER_STATUS indicates the current operational state of an NDIS network interface to
     overlying drivers.
@@ -144,25 +133,23 @@ NDIS_STATUS_OPER_STATUS indicates the current operational state of an NDIS netwo
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567373">NDIS_STATUS_INDICATION</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567406">NDIS_STATUS_OPER_STATUS</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568746">NET_IF_OPER_STATUS</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_status_indication.md">NDIS_STATUS_INDICATION</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_OPER_STATE structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

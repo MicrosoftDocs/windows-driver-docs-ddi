@@ -38,7 +38,8 @@ api_location:
 -	poscx.h
 api_name:
 -	POS_CX_EVENT_PRIORITY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: POS_CX_EVENT_PRIORITY
 req.product: Windows 10 or later.
@@ -51,18 +52,6 @@ req.product: Windows 10 or later.
 
 
 The POS_CX_EVENT_PRIORITY defines the importance of the event and the order it will be delivered to the client application.
-
-
-## -syntax
-
-
-````
-typedef enum _POS_CX_EVENT_PRIORITY { 
-  POS_CX_EVENT_PRIORITY_INVALID  = 0,
-  POS_CX_EVENT_PRIORITY_DATA     = 1,
-  POS_CX_EVENT_PRIORITY_CONTROL  = 2
-} POS_CX_EVENT_PRIORITY;
-````
 
 
 ## -enum-fields

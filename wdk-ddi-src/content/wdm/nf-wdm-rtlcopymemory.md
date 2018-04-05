@@ -7,7 +7,7 @@ old-location: kernel\rtlcopymemory.htm
 old-project: kernel
 ms.assetid: d204eeb4-e109-4a86-986f-0fccdda3f8f8
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/28/2018
 ms.keywords: RtlCopyBytes, RtlCopyMemory, RtlCopyMemory routine [Kernel-Mode Driver Architecture], k109_f4bb1fef-aae6-4086-b95a-ae4dc220c04b.xml, kernel.rtlcopymemory, wdm/RtlCopyMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,8 @@ api_location:
 -	API-MS-Win-Core-Rtlsupport-l1-1-0.dll
 api_name:
 -	RtlCopyMemory
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
@@ -53,18 +54,6 @@ req.product: Windows 10 or later.
 
 
 The <b>RtlCopyMemory</b> routine copies the contents of a source memory block to a destination memory block.
-
-
-## -syntax
-
-
-````
-VOID RtlCopyMemory(
-  _Out_       VOID UNALIGNED *Destination,
-  _In_  const VOID UNALIGNED *Source,
-  _In_        SIZE_T         Length
-);
-````
 
 
 ## -parameters
@@ -102,13 +91,11 @@ Callers of <b>RtlCopyMemory</b> can be running at any IRQL if the source and des
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlmovememory.md">RtlMoveMemory</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562030">RtlMoveMemory</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20RtlCopyMemory routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

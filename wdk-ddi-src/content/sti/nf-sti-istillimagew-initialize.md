@@ -7,7 +7,7 @@ old-location: image\istillimage_initialize.htm
 old-project: image
 ms.assetid: 2410f27f-f880-4870-a86a-2d6000b651fd
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/27/2018
 ms.keywords: IStillImageW, IStillImageW interface [Imaging Devices], Initialize method, IStillImageW::Initialize, Initialize method [Imaging Devices], Initialize method [Imaging Devices], IStillImageW interface, Initialize,IStillImageW.Initialize, image.istillimage_initialize, sti/IStillImageW::Initialize, stifnc_31e54f97-84af-47bf-a1b1-17ab697caef3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: sti.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	sti.h
 api_name:
 -	IStillImageW.Initialize
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STI_DEVICE_MJ_TYPE, STI_DEVICE_MJ_TYPE
 req.product: Windows 10 or later.
@@ -51,17 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>IStillImage::Initialize</b> method initializes an instance of the COM object that defines the <b>IStillImage</b> COM interface. <i>This method is for internal system use only</i>.
-
-
-## -syntax
-
-
-````
-HRESULT Initialize(
-  [in] HINSTANCE hinst,
-       DWORD     dwVersion
-);
-````
 
 
 ## -parameters

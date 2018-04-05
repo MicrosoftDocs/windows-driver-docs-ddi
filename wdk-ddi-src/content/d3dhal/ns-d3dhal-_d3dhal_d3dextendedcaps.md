@@ -7,7 +7,7 @@ old-location: display\d3dhal_d3dextendedcaps.htm
 old-project: display
 ms.assetid: b1e63dce-6d51-438c-a4aa-cc17d9292576
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*LPD3DHAL_D3DEXTENDEDCAPS, D3DHAL_D3DEXTENDEDCAPS, D3DHAL_D3DEXTENDEDCAPS structure [Display Devices], LPD3DHAL_D3DEXTENDEDCAPS, LPD3DHAL_D3DEXTENDEDCAPS structure pointer [Display Devices], _D3DHAL_D3DEXTENDEDCAPS, d3dhal/D3DHAL_D3DEXTENDEDCAPS, d3dhal/LPD3DHAL_D3DEXTENDEDCAPS, d3dstrct_f8cf62b4-6fd7-4a14-aa62-61e8f51ed444.xml, display.d3dhal_d3dextendedcaps"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dhal.h
 api_name:
 -	D3DHAL_D3DEXTENDEDCAPS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DHAL_D3DEXTENDEDCAPS
 ---
@@ -50,44 +51,6 @@ req.typenames: D3DHAL_D3DEXTENDEDCAPS
 
 
 D3DHAL_D3DEXTENDEDCAPS describes additional 3D capabilities of the driver.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DHAL_D3DEXTENDEDCAPS {
-  DWORD    dwSize;
-  DWORD    dwMinTextureWidth, dwMaxTextureWidth;
-  DWORD    dwMinTextureHeight, dwMaxTextureHeight;
-  DWORD    dwMinStippleWidth, dwMaxStippleWidth;
-  DWORD    dwMinStippleHeight, dwMaxStippleHeight;
-  DWORD    dwMaxTextureRepeat;
-  DWORD    dwMaxTextureAspectRatio;
-  DWORD    dwMaxAnisotropy;
-  D3DVALUE dvGuardBandLeft;
-  D3DVALUE dvGuardBandTop;
-  D3DVALUE dvGuardBandRight;
-  D3DVALUE dvGuardBandBottom;
-  D3DVALUE dvExtentsAdjust;
-  DWORD    dwStencilCaps;
-  DWORD    dwFVFCaps;
-  DWORD    dwTextureOpCaps;
-  WORD     wMaxTextureBlendStages;
-  WORD     wMaxSimultaneousTextures;
-#if (DIRECT3D_VERSION >= 0x0700)
-  DWORD    dwMaxActiveLights;
-  D3DVALUE dvMaxVertexW;
-  WORD     wMaxUserClipPlanes;
-  WORD     wMaxVertexBlendMatrices;
-  DWORD    dwVertexProcessingCaps;
-  DWORD    dwReserved1;
-  DWORD    dwReserved2;
-  DWORD    dwReserved3;
-  DWORD    dwReserved4;
-#endif 
-} D3DHAL_D3DEXTENDEDCAPS, *LPD3DHAL_D3DEXTENDEDCAPS;
-````
 
 
 ## -struct-fields
@@ -703,13 +666,11 @@ When the driver fills in this structure, it can set values for execute buffer ca
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/89a22163-a678-4c72-932a-ae4d17922e0b">DdGetDriverInfo</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DHAL_D3DEXTENDEDCAPS structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

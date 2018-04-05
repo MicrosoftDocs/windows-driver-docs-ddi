@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSEVENT_SET
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSEVENT_SET, *PKSEVENT_SET
 ---
@@ -50,18 +51,6 @@ req.typenames: KSEVENT_SET, *PKSEVENT_SET
 
 
 The KSEVENT_SET structure describes the events that comprise a kernel streaming event set.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  const GUID         *Set;
-  ULONG              EventsCount;
-  const KSEVENT_ITEM *EventItem;
-} KSEVENT_SET, *PKSEVENT_SET;
-````
 
 
 ## -struct-fields
@@ -81,7 +70,7 @@ Specifies the number of events in the event set.
 
 ### -field EventItem
 
-Points to the beginning of the array of <a href="..\ks\ns-ks-ksevent_item.md">KSEVENT_ITEM</a> structures that describe each event in the event set. The size of the array is in the <b>EventsCount</b> member.
+Points to the beginning of the array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff561862">KSEVENT_ITEM</a> structures that describe each event in the event set. The size of the array is in the <b>EventsCount</b> member.
 
 
 ## -remarks
@@ -95,13 +84,11 @@ Microsoft provides several system-defined kernel streaming event set GUIDs. Mini
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksevent_item.md">KSEVENT_ITEM</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561862">KSEVENT_ITEM</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSEVENT_SET structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

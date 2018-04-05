@@ -7,7 +7,7 @@ old-location: audio\synthcaps.htm
 old-project: audio
 ms.assetid: d9d7327f-a413-4828-b204-e08198d0fe9e
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 3/19/2018
 ms.keywords: "*PSYNTHCAPS, PSYNTHCAPS, PSYNTHCAPS structure pointer [Audio Devices], SYNTHCAPS, SYNTHCAPS structure [Audio Devices], _SYNTHCAPS, aud-prop_609e484a-6bcb-4ea2-9ca5-fa640c4d9ba8.xml, audio.synthcaps, dmusprop/PSYNTHCAPS, dmusprop/SYNTHCAPS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	dmusprop.h
 api_name:
 -	SYNTHCAPS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SYNTHCAPS, *PSYNTHCAPS
 ---
@@ -50,23 +51,6 @@ req.typenames: SYNTHCAPS, *PSYNTHCAPS
 
 
 The SYNTHCAPS structure specifies the capabilities of a synthesizer.
-
-
-## -syntax
-
-
-````
-typedef struct _SYNTHCAPS {
-  GUID  Guid;
-  DWORD Flags;
-  DWORD MemorySize;
-  DWORD MaxChannelGroups;
-  DWORD MaxVoices;
-  DWORD MaxAudioChannels;
-  DWORD EffectFlags;
-  WCHAR Description[128];
-} SYNTHCAPS, *PSYNTHCAPS;
-````
 
 
 ## -struct-fields
@@ -226,7 +210,6 @@ In this example, the 0xFFFFFFFF values indicate that the handler has no way of k
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537389">KSPROPERTY_SYNTH_CAPS</a>
 
 
 
@@ -234,9 +217,8 @@ In this example, the 0xFFFFFFFF values indicate that the handler has no way of k
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537389">KSPROPERTY_SYNTH_CAPS</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20SYNTHCAPS structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

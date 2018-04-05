@@ -7,7 +7,7 @@ old-location: display\dxgk_pte.htm
 old-project: display
 ms.assetid: 2d5c1f3e-69a6-4f7f-9c99-bbaf94e6401b
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: DXGK_PTE, DXGK_PTE structure [Display Devices], DmStructs_701e980c-29dc-46d2-8f03-ce8485a4cc70.xml, _DXGK_PTE, d3dukmdt/DXGK_PTE, display.dxgk_pte
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dukmdt.h
 api_name:
 -	DXGK_PTE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_PTE
 ---
@@ -50,34 +51,6 @@ req.typenames: DXGK_PTE
 
 
 A page table entry (PTE) provides a physical address of a page and other attributes. The exact format of PTE depends on hardware implementation. 
-
-
-## -syntax
-
-
-````
-typedef struct _DXGK_PTE {
-  union {
-    struct {
-      ULONGLONG Valid  :1;
-      ULONGLONG Zero  :1;
-      ULONGLONG CacheCoherent  :1;
-      ULONGLONG ReadOnly  :1;
-      ULONGLONG NoExecute  :1;
-      ULONGLONG Segment  :5;
-      ULONGLONG LargePage  :1;
-      ULONGLONG PhysicalAdapterIndex  :6;
-      ULONGLONG PageTablePageSize  :2;
-      ULONGLONG Reserved  :45;
-    };
-    ULONGLONG Flags;
-  };
-  union {
-    ULONGLONG PageAddress;
-    ULONGLONG PageTableAddress;
-  };
-} DXGK_PTE;
-````
 
 
 ## -struct-fields
@@ -135,7 +108,7 @@ Supported starting with Windows 10.
 
 ### -field PageTablePageSize
 
-For the level 1 page table entry defines the pages size of the leaf page table PTEs. The value is provided by the  <a href="..\d3dukmdt\ne-d3dukmdt-_dxgk_pte_page_size.md">DXGK_PTE_PAGE_SIZE</a> enumerator. This value should be ignored  when dual-PTE is supported.
+For the level 1 page table entry defines the pages size of the leaf page table PTEs. The value is provided by the  <a href="https://msdn.microsoft.com/library/windows/hardware/dn906834">DXGK_PTE_PAGE_SIZE</a> enumerator. This value should be ignored  when dual-PTE is supported.
 
 Supported starting with Windows 10.
 

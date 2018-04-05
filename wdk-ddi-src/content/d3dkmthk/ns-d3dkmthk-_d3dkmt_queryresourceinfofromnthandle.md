@@ -7,7 +7,7 @@ old-location: display\d3dkmt_queryresourceinfofromnthandle.htm
 old-project: display
 ms.assetid: 098fe3b9-1169-4ff6-8822-0eb277cb73f9
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE, D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE structure [Display Devices], _D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE, d3dkmthk/D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE, display.d3dkmt_queryresourceinfofromnthandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3dkmthk.h
 api_name:
 -	D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE
 ---
@@ -50,22 +51,6 @@ req.typenames: D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE
 
 
 Describes information that is required to map a global NT handle to resource information.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE {
-  D3DKMT_HANDLE hDevice;
-  HANDLE        hNtHandle;
-  VOID          *pPrivateRuntimeData;
-  UINT          PrivateRuntimeDataSize;
-  UINT          TotalPrivateDriverDataSize;
-  UINT          ResourcePrivateDriverDataSize;
-  UINT          NumAllocations;
-} D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE;
-````
 
 
 ## -struct-fields
@@ -112,13 +97,11 @@ typedef struct _D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE {
 
 ## -see-also
 
-<a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_queryresourceinfofromnthandle.md">D3DKMTQueryResourceInfoFromNtHandle</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439446">D3DKMTQueryResourceInfoFromNtHandle</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

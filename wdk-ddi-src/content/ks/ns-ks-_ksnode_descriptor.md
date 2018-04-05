@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSNODE_DESCRIPTOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSNODE_DESCRIPTOR, *PKSNODE_DESCRIPTOR
 ---
@@ -52,18 +53,6 @@ req.typenames: KSNODE_DESCRIPTOR, *PKSNODE_DESCRIPTOR
 The KSNODE_DESCRIPTOR structure describes a topology node within a filter.
 
 
-## -syntax
-
-
-````
-typedef struct _KSNODE_DESCRIPTOR {
-  const KSAUTOMATION_TABLE *AutomationTable;
-  const GUID               *Type;
-  const GUID               *Name;
-} KSNODE_DESCRIPTOR, *PKSNODE_DESCRIPTOR;
-````
-
-
 ## -struct-fields
 
 
@@ -71,7 +60,7 @@ typedef struct _KSNODE_DESCRIPTOR {
 
 ### -field AutomationTable
 
-A pointer to a <a href="..\ks\ns-ks-ksautomation_table_.md">KSAUTOMATION_TABLE</a> structure for this topology node. The automation table contains the properties, methods, and events supported by this topology node.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff560990">KSAUTOMATION_TABLE</a> structure for this topology node. The automation table contains the properties, methods, and events supported by this topology node.
 
 
 ### -field Type
@@ -93,13 +82,11 @@ A pointer to a GUID that represents the name of this topology node. This is used
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksfilter_descriptor.md">KSFILTER_DESCRIPTOR</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562553">KSFILTER_DESCRIPTOR</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSNODE_DESCRIPTOR structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

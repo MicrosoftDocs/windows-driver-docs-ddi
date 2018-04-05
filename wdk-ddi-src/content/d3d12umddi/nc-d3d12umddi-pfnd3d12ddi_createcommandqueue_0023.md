@@ -7,7 +7,7 @@ old-location: display\pfnd3d12ddi_createcommandqueue_0023.htm
 old-project: display
 ms.assetid: 1DA52354-2338-4214-8489-B6BFCD6060FB
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3D12DDI_CREATECOMMANDQUEUE_0023, d3d12umddi/pfnCreateCommandQueue, display.pfnd3d12ddi_createcommandqueue_0023, pfnCreateCommandQueue, pfnCreateCommandQueue callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3d12umddi.h
 api_name:
 -	pfnCreateCommandQueue
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
 ---
@@ -52,37 +53,21 @@ req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
 The <i>pfnCreateCommandQueue</i> callback function is used to create command queue. 
 
 
-## -prototype
-
-
-````
-PFND3D12DDI_CREATECOMMANDQUEUE_0023 pfnCreateCommandQueue;
-
-HRESULT APIENTRY* pfnCreateCommandQueue(
-             D3D12DDI_HDEVICE                    hDevice,
-  _In_ const D3D12DDIARG_CREATECOMMANDQUEUE_0023 *CreateCommandQueue,
-             D3D12DDI_HCOMMANDQUEUE              hDrvCommandQueue,
-             D3D12DDI_HRTCOMMANDQUEUE            hRTCommandQueue
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
 
 
-### -param D3D12DDI_HDEVICE
+### -param Arg1
 
 
 ### -param *
 
 
-### -param D3D12DDI_HCOMMANDQUEUE
+### -param Arg2
 
 
-### -param D3D12DDI_HRTCOMMANDQUEUE
+### -param Arg3
 
 
 

@@ -7,7 +7,7 @@ old-location: display\evt_idd_cx_monitor_opm_destroy_protected_output.htm
 old-project: display
 ms.assetid: 86bd815f-b413-4680-9679-8778a47a0e27
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: EVT_IDD_CX_MONITOR_OPM_DESTROY_PROTECTED_OUTPUT, EvtIddCxMonitorOpmDestroyProtectedOutput, EvtIddCxMonitorOpmDestroyProtectedOutput callback function [Display Devices], PFN_IDD_CX_MONITOR_OPM_DESTROY_PROTECTED_OUTPUT, PFN_IDD_CX_MONITOR_OPM_DESTROY_PROTECTED_OUTPUT callback function pointer [Display Devices], display.evt_idd_cx_monitor_opm_destroy_protected_output, iddcx/EvtIddCxMonitorOpmDestroyProtectedOutput
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	iddcx.h
 api_name:
 -	PFN_IDD_CX_MONITOR_OPM_DESTROY_PROTECTED_OUTPUT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WCS_PROFILE_MANAGEMENT_SCOPE
 ---
@@ -50,21 +51,6 @@ req.typenames: WCS_PROFILE_MANAGEMENT_SCOPE
 
 
 <b>EVT_IDD_CX_MONITOR_OPM_DESTROY_PROTECTED_OUTPUT</b> is called by the OS to destroy an OPM protected output context.
-
-
-## -prototype
-
-
-````
-EVT_IDD_CX_MONITOR_OPM_DESTROY_PROTECTED_OUTPUT EvtIddCxMonitorOpmDestroyProtectedOutput;
-
-NTSTATUS EvtIddCxMonitorOpmDestroyProtectedOutput(
-  _In_ IDDCX_OPMCTX OpmCxtObject
-)
-{ ... }
-
-typedef EVT_IDD_CX_MONITOR_OPM_DESTROY_PROTECTED_OUTPUT PFN_IDD_CX_MONITOR_OPM_DESTROY_PROTECTED_OUTPUT;
-````
 
 
 ## -parameters

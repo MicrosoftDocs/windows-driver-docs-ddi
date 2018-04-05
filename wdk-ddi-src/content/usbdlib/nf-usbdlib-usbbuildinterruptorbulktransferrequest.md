@@ -7,7 +7,7 @@ old-location: buses\usbbuildinterruptorbulktransferrequest.htm
 old-project: usbref
 ms.assetid: 2500fa22-b3f9-419d-9e37-5060b83403fb
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: UsbBuildInterruptOrBulkTransferRequest, UsbBuildInterruptOrBulkTransferRequest routine [Buses], buses.usbbuildinterruptorbulktransferrequest, usbdlib/UsbBuildInterruptOrBulkTransferRequest, usbfunc_ecc1d157-942d-4d0e-9c07-9fef00cd5faf.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: usbdlib.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	usbdlib.h
 api_name:
 -	UsbBuildInterruptOrBulkTransferRequest
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USBCAMD_DEVICE_DATA2, *PUSBCAMD_DEVICE_DATA2
 req.product: Windows 10 or later.
@@ -50,24 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>UsbBuildInterruptOrBulkTransferRequest</b> macro formats an <a href="..\usb\ns-usb-_urb.md">URB</a> to send or receive data on a bulk pipe, or to receive data from an interrupt pipe.
-
-
-## -syntax
-
-
-````
-void UsbBuildInterruptOrBulkTransferRequest(
-  _Inout_  PURB             urb,
-  _In_     USHORT           length,
-  _In_     USBD_PIPE_HANDLE pipeHandle,
-  _In_opt_ PVOID            transferBuffer,
-  _In_opt_ PMDL             transferBufferMDL,
-  _In_     ULONG            transferBufferLength,
-  _In_     ULONG            transferFlags,
-  _In_     PURB             link
-);
-````
+The <b>UsbBuildInterruptOrBulkTransferRequest</b> macro formats an <a href="https://msdn.microsoft.com/library/windows/hardware/ff538923">URB</a> to send or receive data on a bulk pipe, or to receive data from an interrupt pipe.
 
 
 ## -parameters
@@ -77,12 +61,12 @@ void UsbBuildInterruptOrBulkTransferRequest(
 
 ### -param urb [in, out]
 
-Pointer to an <a href="..\usb\ns-usb-_urb.md">URB</a> to be formatted as an interrupt or bulk transfer request.
+Pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff538923">URB</a> to be formatted as an interrupt or bulk transfer request.
 
 
 ### -param length [in]
 
-Specifies the size, in bytes, of the <a href="..\usb\ns-usb-_urb.md">URB</a>.
+Specifies the size, in bytes, of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff538923">URB</a>.
 
 
 ### -param pipeHandle [in]
@@ -131,7 +115,10 @@ Reserved. Must be set to <b>NULL</b>.
 
 ## -see-also
 
-<a href="..\usb\ns-usb-_urb.md">URB</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538923">URB</a>
 
 
 
@@ -139,13 +126,8 @@ Reserved. Must be set to <b>NULL</b>.
 
 
 
-<a href="..\usbspec\ns-usbspec-_usb_device_descriptor.md">USB_DEVICE_DESCRIPTOR</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539280">USB_DEVICE_DESCRIPTOR</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20UsbBuildInterruptOrBulkTransferRequest routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

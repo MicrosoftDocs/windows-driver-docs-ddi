@@ -7,13 +7,13 @@ old-location: netvista\rilcallinfo_v2.htm
 old-project: netvista
 ms.assetid: 02eaaaa4-fe88-4f07-bfbf-1ba52d0c1362
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: "*LPRILCALLINFO_V2, RILCALLINFO_V2, RILCALLINFO_V2 structure [Network Drivers Starting with Windows Vista], netvista.rilcallinfo_v2, ntddrilapitypes/RILCALLINFO_V2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddrilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILCALLINFO_V2
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILCALLINFO_V2, *LPRILCALLINFO_V2
 ---
@@ -50,32 +51,6 @@ req.typenames: RILCALLINFO_V2, *LPRILCALLINFO_V2
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef struct _RILCALLINFO_V2 {
-  DWORD                           cbSize;
-  DWORD                           dwParams;
-  DWORD                           dwExecutor;
-  DWORD                           dwID;
-  RILCALLINFODIRECTION            dwDirection;
-  RILCALLINFOSTATUS               dwStatus;
-  RILCALLTYPE                     dwType;
-  RILCALLINFOMULTIPARTY           dwMultiparty;
-  RILADDRESS                      raAddress;
-  RILSUBADDRESS                   rsaSubAddress;
-  WCHAR [256]                     wszDescription;
-  RILREMOTEPARTYINFOVALUE         dwNumberPresentationIndicator;
-  RILREMOTEPARTYINFOVALUE         dwNamePresentationIndicator;
-  DWORD                           dwFlags;
-  RILCALLINFODISCONNECTINITIATOR  dwDisconnectInitiator;
-  RILCALLINFODISCONNECTREASON     dwDisconnectReason;
-  RILCALLDISCONNECTDETAILS        stDisconnectDetails;
-} RILCALLINFO_V2, RILCALLINFO_V2;
-````
 
 
 ## -struct-fields

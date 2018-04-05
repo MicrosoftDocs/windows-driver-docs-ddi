@@ -38,7 +38,8 @@ api_location:
 -	avc.h
 api_name:
 -	AVC_FUNCTION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: AVC_FUNCTION
 ---
@@ -186,7 +187,7 @@ This function code is available to both peer and virtual instances of <i>avc.sys
 
 ## -see-also
 
-<a href="..\avc\ns-avc-_avc_peer_do_list.md">AVC_PEER_DO_LIST</a>
+<a href="..\avc\ns-avc-_avc_command_irb.md">AVC_COMMAND_IRB</a>
 
 
 
@@ -194,7 +195,7 @@ This function code is available to both peer and virtual instances of <i>avc.sys
 
 
 
-<a href="..\avc\ns-avc-_avc_irb.md">AVC_IRB</a>
+<a href="..\avc\ns-avc-_avc_setconnect_info.md">AVC_SETCONNECT_INFO</a>
 
 
 
@@ -202,27 +203,7 @@ This function code is available to both peer and virtual instances of <i>avc.sys
 
 
 
-<a href="..\avc\ns-avc-_avc_subunit_info_block.md">AVC_SUBUNIT_INFO_BLOCK</a>
-
-
-
-<a href="..\avc\ns-avc-_avc_command_irb.md">AVC_COMMAND_IRB</a>
-
-
-
-<a href="..\avc\ns-avc-_avc_setconnect_info.md">AVC_SETCONNECT_INFO</a>
-
-
-
 <a href="..\avc\ns-avc-_avc_ext_plug_counts.md">AVC_EXT_PLUG_COUNTS</a>
-
-
-
-<a href="..\avc\ns-avc-_avc_pin_count.md">AVC_PIN_COUNT</a>
-
-
-
-<a href="..\avc\ns-avc-_avc_peer_do_locator.md">AVC_PEER_DO_LOCATOR</a>
 
 
 
@@ -230,13 +211,32 @@ This function code is available to both peer and virtual instances of <i>avc.sys
 
 
 
+<a href="..\avc\ns-avc-_avc_subunit_info_block.md">AVC_SUBUNIT_INFO_BLOCK</a>
+
+
+
+<a href="..\avc\ns-avc-_avc_pin_count.md">AVC_PIN_COUNT</a>
+
+
+
+<a href="..\avc\ns-avc-_avc_peer_do_list.md">AVC_PEER_DO_LIST</a>
+
+
+
+<a href="..\avc\ns-avc-_avc_peer_do_locator.md">AVC_PEER_DO_LOCATOR</a>
+
+
+
 <a href="..\avc\ns-avc-_avc_pin_id.md">AVC_PIN_ID</a>
 
 
 
- 
+<a href="..\avc\ns-avc-_avc_irb.md">AVC_IRB</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20AVC_FUNCTION enumeration%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
 

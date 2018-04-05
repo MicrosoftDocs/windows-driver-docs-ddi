@@ -38,7 +38,8 @@ api_location:
 -	poscx.h
 api_name:
 -	EvtPosCxDeviceRemoteRetain
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PCFILTER_DESCRIPTOR, *PPCFILTER_DESCRIPTOR
 req.product: Windows 10 or later.
@@ -53,20 +54,6 @@ req.product: Windows 10 or later.
 The 
   EVT_POS_CX_DEVICE_REMOTE_RETAIN callback is called whenever PosCx attempts to hold onto a claim
 on a network device and allows the driver to do additional work. This callback is typically only used with network connected devices that require additional logic for handling ownership transitions.
-
-
-## -prototype
-
-
-````
-EVT_POS_CX_DEVICE_REMOTE_RETAIN EvtPosCxDeviceRemoteRetain;
-
-NTSTATUS EvtPosCxDeviceRemoteRetain(
-  _In_ WDFDEVICE device,
-  _In_ ULONG     deviceInterfaceTag
-)
-{ ... }
-````
 
 
 ## -parameters

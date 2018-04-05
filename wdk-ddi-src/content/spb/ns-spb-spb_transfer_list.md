@@ -38,7 +38,8 @@ api_location:
 -	Spb.h
 api_name:
 -	SPB_TRANSFER_LIST
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SPB_TRANSFER_LIST, *PSPB_TRANSFER_LIST
 req.product: Windows 10 or later.
@@ -51,19 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>SPB_TRANSFER_LIST</b> structure describes an <a href="https://msdn.microsoft.com/7415DB28-5E93-4F47-B169-7C652969D4C7">I/O transfer sequence</a>.
-
-
-## -syntax
-
-
-````
-typedef struct _SPB_TRANSFER_LIST {
-  ULONG                   Size;
-  ULONG                   Reserved;
-  ULONG                   TransferCount;
-  SPB_TRANSFER_LIST_ENTRY Transfers[1];
-} SPB_TRANSFER_LIST, *PSPB_TRANSFER_LIST;
-````
 
 
 ## -struct-fields
@@ -106,7 +94,6 @@ If your SPB controller driver supports custom I/O control (IOCTL) requests that 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh974774">IOCTL_SPB_FULL_DUPLEX</a>
 
 
 
@@ -114,13 +101,12 @@ If your SPB controller driver supports custom I/O control (IOCTL) requests that 
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh974774">IOCTL_SPB_FULL_DUPLEX</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406223">SPB_TRANSFER_LIST_ENTRY</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [SPB\buses]:%20SPB_TRANSFER_LIST structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

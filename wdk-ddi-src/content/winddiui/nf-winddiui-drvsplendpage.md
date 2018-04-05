@@ -7,7 +7,7 @@ old-location: print\drvsplendpage.htm
 old-project: print
 ms.assetid: 09c3db82-7890-48c8-a91f-3d1f3f01ef84
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: DrvSplEndPage, DrvSplEndPage function [Print Devices], print.drvsplendpage, print_interface-graphics_e5fbdcf3-d462-4ae9-8187-546a87189e19.xml, winddiui/DrvSplEndPage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	winddiui.h
 api_name:
 -	DrvSplEndPage
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WINBIO_VERSION, *PWINBIO_VERSION
 req.product: Windows 10 or later.
@@ -51,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 
-
-
-## -syntax
-
-
-````
-BOOL WINAPI DrvSplEndPage(
-   HANDLE hDriver
-);
-````
 
 
 ## -parameters

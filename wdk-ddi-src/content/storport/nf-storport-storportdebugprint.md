@@ -7,7 +7,7 @@ old-location: storage\storportdebugprint.htm
 old-project: storage
 ms.assetid: 46845a10-c44b-4d11-b82e-986bfc066b97
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: StorPortDebugPrint, StorPortDebugPrint routine [Storage Devices], storage.storportdebugprint, storport/StorPortDebugPrint, storprt_4c594dd0-20a0-456f-acdb-3c08198dc8b5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Storport.dll
 api_name:
 -	StorPortDebugPrint
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STOR_SPINLOCK
 req.product: Windows 10 or later.
@@ -52,17 +53,6 @@ req.product: Windows 10 or later.
 
 
 The <b>StorPortDebugPrint</b> routine prints a debug string to the kernel debugger, if the debugger is attached.
-
-
-## -syntax
-
-
-````
-VOID StorPortDebugPrint(
-   IN ULONG  DebugPrintLevel,
-   IN PCCHAR DebugMessage
-);
-````
 
 
 ## -parameters

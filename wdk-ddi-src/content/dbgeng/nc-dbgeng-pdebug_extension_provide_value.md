@@ -7,7 +7,7 @@ old-location: debugger\debugextensionprovidevalue.htm
 old-project: debugger
 ms.assetid: b4b1953c-dc1b-495a-ab58-5cfaa6064b23
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 3/26/2018
 ms.keywords: DEBUG_EXT_PVTYPE_IS_POINTER, DEBUG_EXT_PVTYPE_IS_VALUE, DebugExtensionProvideValue, DebugExtensionProvideValue callback function [Windows Debugging], Extensions_Ref_fa822b69-6941-46e9-8b68-d57dd8d19d14.xml, PDEBUG_EXTENSION_PROVIDE_VALUE, dbgeng/DebugExtensionProvideValue, debugger.debugextensionprovidevalue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Dbgeng.h
 api_name:
 -	DebugExtensionProvideValue
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -61,14 +62,6 @@ The <b>DebugExtensionProvideValue</b> callback function sets <a href="https://ms
 </tr>
 </table></span></div>
 
-## -prototype
-
-
-````
- CALLBACK* PDEBUG_EXTENSION_PROVIDE_VALUE DebugExtensionProvideValue;
-````
-
-
 ## -parameters
 
 
@@ -86,7 +79,7 @@ Provides behavioral flags. This parameter is currently reserved.
 
 ### -param Name [in]
 
-The name of the value to return. This name might be one of the names that the <a href="..\dbgeng\nc-dbgeng-pdebug_extension_query_value_names.md">DebugExtensionQueryValueNames</a> function returned or a name that the caller might already be aware of.
+The name of the value to return. This name might be one of the names that the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540490">DebugExtensionQueryValueNames</a> function returned or a name that the caller might already be aware of.
 
 
 ### -param Value [out]
@@ -180,11 +173,10 @@ The name that the <i>Name</i> parameter specifies must start with <b>$$</b> and 
 
 ## -see-also
 
-<a href="..\dbgeng\nc-dbgeng-pdebug_extension_initialize.md">DebugExtensionInitialize</a>
 
 
 
-<i>DebugExtensionUninitialize</i>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540476">DebugExtensionInitialize</a>
 
 
 
@@ -196,13 +188,12 @@ The name that the <i>Name</i> parameter specifies must start with <b>$$</b> and 
 
 
 
+<i>DebugExtensionUninitialize</i>
+
+
+
 <i>KnownStructOutput</i>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20PDEBUG_EXTENSION_PROVIDE_VALUE callback function%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

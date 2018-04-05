@@ -7,7 +7,7 @@ old-location: wdf\wdf_read_register_buffer_ushort.htm
 old-project: wdf
 ms.assetid: BA47B3D0-9515-40C6-B23D-A2D9FC993FB3
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/26/2018
 ms.keywords: WDF_READ_REGISTER_BUFFER_USHORT, WDF_READ_REGISTER_BUFFER_USHORT function, wdf.wdf_read_register_buffer_ushort, wdfhwaccess/WDF_READ_REGISTER_BUFFER_USHORT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	Wdfhwaccess.h
 api_name:
 -	WDF_READ_REGISTER_BUFFER_USHORT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_FILE_INFORMATION_CLASS, *PWDF_FILE_INFORMATION_CLASS
 req.product: Windows 10 or later.
@@ -53,19 +54,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to UMDF only]
 
 The <b>WDF_READ_REGISTER_BUFFER_USHORT</b> function reads a number of USHORT values from the specified register address into a buffer.
-
-
-## -syntax
-
-
-````
-void WDF_READ_REGISTER_BUFFER_USHORT(
-  _In_  WDFDEVICE Device,
-  _In_  PUSHORT   Register,
-  _Out_ PUSHORT   Buffer,
-  _In_  ULONG     Count 
-);
-````
 
 
 ## -parameters

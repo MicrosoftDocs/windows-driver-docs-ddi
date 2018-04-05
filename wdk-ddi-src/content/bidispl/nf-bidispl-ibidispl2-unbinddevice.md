@@ -7,7 +7,7 @@ old-location: print\ibidispl2_ibidispl2__unbinddevice.htm
 old-project: print
 ms.assetid: 26f3fc82-051d-4827-8b59-ac2c99f4d2c5
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: IBidiSpl2, IBidiSpl2 interface [Print Devices], UnbindDevice method, IBidiSpl2::UnbindDevice, UnbindDevice method [Print Devices], UnbindDevice method [Print Devices], IBidiSpl2 interface, UnbindDevice,IBidiSpl2.UnbindDevice, _win32_IBidiSpl2_UnbindDevice, bidispl/IBidiSpl2::UnbindDevice, gdi.ibidispl2_ibidispl2__unbinddevice, print.ibidispl2_ibidispl2__unbinddevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: bidispl.h
+req.lib: 
 req.dll: Bidispl.dll
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	bidispl.dll
 api_name:
 -	IBidiSpl2.UnbindDevice
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
 ---
@@ -50,14 +51,6 @@ req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
 
 
 The <b>UnbindDevice</b> method releases a printer from a bidirectional printer communication (bidi communication) request.
-
-
-## -syntax
-
-
-````
-HRESULT UnbindDevice();
-````
 
 
 ## -parameters
@@ -119,7 +112,6 @@ The <b>HRESULT</b> contains an error code that corresponds to the last error.
 
 ## -see-also
 
-<a href="..\bidispl\nn-bidispl-ibidispl2.md">IBidiSpl2</a>
 
 
 
@@ -131,13 +123,12 @@ The <b>HRESULT</b> contains an error code that corresponds to the last error.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dd144981">IBidiSpl2</a>
+
+
+
 <a href="https://msdn.microsoft.com/42b5e6cf-b434-4734-86f3-b3b9d15ea468">Print Spooler Components</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IBidiSpl2::UnbindDevice method%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

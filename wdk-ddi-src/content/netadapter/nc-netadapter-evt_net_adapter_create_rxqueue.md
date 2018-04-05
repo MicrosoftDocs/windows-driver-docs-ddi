@@ -139,4 +139,6 @@ EvtAdapterCreateRxQueue(
      return status;
 ```
 
+The minimum NetAdapterCx version for EVT_NET_ADAPTER_CREATE_RXQUEUE is 1.0.
+
 ## -see-also

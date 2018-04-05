@@ -7,7 +7,7 @@ old-location: audio\iminiportmidistream_write.htm
 old-project: audio
 ms.assetid: 6ff4e4d7-3ba4-4e4b-98fa-62f269aee69f
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 3/19/2018
 ms.keywords: IMiniportMidiStream, IMiniportMidiStream interface [Audio Devices], Write method, IMiniportMidiStream::Write, Write method [Audio Devices], Write method [Audio Devices], IMiniportMidiStream interface, Write,IMiniportMidiStream.Write, audio.iminiportmidistream_write, audmp-routines_523fd287-5380-4259-ba2c-4d9adef4fe4b.xml, portcls/IMiniportMidiStream::Write
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: portcls.h
+req.lib: 
 req.dll: 
 req.irql: DISPATCH_LEVEL
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	portcls.h
 api_name:
 -	IMiniportMidiStream.Write
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
@@ -50,18 +51,6 @@ req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 
 
 The <code>Write</code> method writes data to an outgoing MIDI stream.
-
-
-## -syntax
-
-
-````
-NTSTATUS Write(
-  [in]  PVOID  BufferAddress,
-  [in]  ULONG  BytesToWrite,
-  [out] PULONG BytesWritten
-);
-````
 
 
 ## -parameters
@@ -148,17 +137,15 @@ Zero. This value indicates that the device is too busy to write any of the calle
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536704">IMiniportMidiStream</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536705">IMiniportMidiStream::Read</a>
-
-
-
-<a href="..\portcls\nn-portcls-iminiportmidistream.md">IMiniportMidiStream</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IMiniportMidiStream::Write method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

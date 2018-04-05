@@ -7,7 +7,7 @@ old-location: print\oemstrokepath.htm
 old-project: print
 ms.assetid: e761a8b4-729f-4f03-a4b4-2ed1b62ec012
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: OEMStrokePath, OEMStrokePath function [Print Devices], print.oemstrokepath, print_unidrv-pscript_rendering_8bc38d91-34ed-4225-baf1-6ca18026b7d0.xml, printoem/OEMStrokePath
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	printoem.h
 api_name:
 -	OEMStrokePath
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STDVARIABLEINDEX
 req.product: Windows 10 or later.
@@ -51,23 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <code>OEMStrokePath</code> function strokes a path.
-
-
-## -syntax
-
-
-````
-BOOL APIENTRY OEMStrokePath(
-   SURFOBJ   *pso,
-   PATHOBJ   *ppo,
-   CLIPOBJ   *pco,
-   XFORMOBJ  *pxo,
-   BRUSHOBJ  *pbo,
-   POINTL    *pptlBrushOrg,
-   LINEATTRS *plineattrs,
-   MIX       mix
-);
-````
 
 
 ## -parameters

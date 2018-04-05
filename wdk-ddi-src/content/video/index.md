@@ -2,7 +2,7 @@
 UID: NA:video
 ms.assetid: 674c88a6-47af-3f20-8f7a-e79f72def812
 ms.author: windowsdriverdev
-ms.date: 02/27/18
+ms.date: 04/03/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -12,10 +12,12 @@ ms.topic: portal
 # Video.h header
 
 
+## -description
 
-This header is used by Display, Networking drivers for Windows Vista and later. For more information, see
+
+This header is used by display. For more information, see:
+
 - [Display](../_display/index.md)
-- [Networking drivers for Windows Vista and later](../_netvista/index.md)
 
 This section provides reference pages for the functions that are implemented by the video miniport driver. The video miniport driver exports only one function: DriverEntry. All other functions implemented by the video miniport driver are called through function pointers supplied by the video miniport driver at run time. There are several mechanisms by which the video miniport driver supplies function pointers to the video port driver and to other operating system components.
 

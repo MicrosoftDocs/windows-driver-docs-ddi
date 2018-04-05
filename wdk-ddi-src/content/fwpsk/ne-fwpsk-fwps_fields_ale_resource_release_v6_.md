@@ -7,7 +7,7 @@ old-location: netvista\fwps_fields_ale_resource_release_v6.htm
 old-project: netvista
 ms.assetid: be821aed-2606-497e-8a93-4cad983cc17f
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: FWPS_FIELDS_ALE_RESOURCE_RELEASE_V6, FWPS_FIELDS_ALE_RESOURCE_RELEASE_V6 enumeration [Network Drivers Starting with Windows Vista], FWPS_FIELDS_ALE_RESOURCE_RELEASE_V6_, FWPS_FIELD_ALE_RESOURCE_RELEASE_V6_ALE_APP_ID, FWPS_FIELD_ALE_RESOURCE_RELEASE_V6_ALE_PACKAGE_ID, FWPS_FIELD_ALE_RESOURCE_RELEASE_V6_ALE_USER_ID, FWPS_FIELD_ALE_RESOURCE_RELEASE_V6_FLAGS, FWPS_FIELD_ALE_RESOURCE_RELEASE_V6_IP_LOCAL_ADDRESS, FWPS_FIELD_ALE_RESOURCE_RELEASE_V6_IP_LOCAL_ADDRESS_TYPE, FWPS_FIELD_ALE_RESOURCE_RELEASE_V6_IP_LOCAL_INTERFACE, FWPS_FIELD_ALE_RESOURCE_RELEASE_V6_IP_LOCAL_PORT, FWPS_FIELD_ALE_RESOURCE_RELEASE_V6_IP_PROTOCOL, FWPS_FIELD_ALE_RESOURCE_RELEASE_V6_MAX, fwpsk/FWPS_FIELDS_ALE_RESOURCE_RELEASE_V6, fwpsk/FWPS_FIELD_ALE_RESOURCE_RELEASE_V6_ALE_APP_ID, fwpsk/FWPS_FIELD_ALE_RESOURCE_RELEASE_V6_ALE_PACKAGE_ID, fwpsk/FWPS_FIELD_ALE_RESOURCE_RELEASE_V6_ALE_USER_ID, fwpsk/FWPS_FIELD_ALE_RESOURCE_RELEASE_V6_FLAGS, fwpsk/FWPS_FIELD_ALE_RESOURCE_RELEASE_V6_IP_LOCAL_ADDRESS, fwpsk/FWPS_FIELD_ALE_RESOURCE_RELEASE_V6_IP_LOCAL_ADDRESS_TYPE, fwpsk/FWPS_FIELD_ALE_RESOURCE_RELEASE_V6_IP_LOCAL_INTERFACE, fwpsk/FWPS_FIELD_ALE_RESOURCE_RELEASE_V6_IP_LOCAL_PORT, fwpsk/FWPS_FIELD_ALE_RESOURCE_RELEASE_V6_IP_PROTOCOL, fwpsk/FWPS_FIELD_ALE_RESOURCE_RELEASE_V6_MAX, netvista.fwps_fields_ale_resource_release_v6, wfp_ref_5_const_3_data_fields_9f6f966e-3799-4c75-bfcb-0a3e711e3aea.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	fwpsk.h
 api_name:
 -	FWPS_FIELDS_ALE_RESOURCE_RELEASE_V6
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FWPS_FIELDS_ALE_RESOURCE_RELEASE_V6
 ---
@@ -52,27 +53,6 @@ req.typenames: FWPS_FIELDS_ALE_RESOURCE_RELEASE_V6
 The FWPS_FIELDS_ALE_RESOURCE_RELEASE_V6 enumeration type specifies the data field identifiers for the
   FWPS_LAYER_ALE_RESOURCE_RELEASE_V6 
   <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa366492">run-time filtering layer</a>.
-
-
-## -syntax
-
-
-````
-typedef enum FWPS_FIELDS_ALE_RESOURCE_RELEASE_V6_ { 
-  FWPS_FIELD_ALE_RESOURCE_RELEASE_V6_ALE_APP_ID,
-  FWPS_FIELD_ALE_RESOURCE_RELEASE_V6_ALE_USER_ID,
-  FWPS_FIELD_ALE_RESOURCE_RELEASE_V6_IP_LOCAL_ADDRESS,
-  FWPS_FIELD_ALE_RESOURCE_RELEASE_V6_IP_LOCAL_ADDRESS_TYPE,
-  FWPS_FIELD_ALE_RESOURCE_RELEASE_V6_IP_LOCAL_PORT,
-  FWPS_FIELD_ALE_RESOURCE_RELEASE_V6_IP_PROTOCOL,
-  FWPS_FIELD_ALE_RESOURCE_RELEASE_V6_IP_LOCAL_INTERFACE,
-  FWPS_FIELD_ALE_RESOURCE_RELEASE_V6_FLAGS,
-#if (NTDDI_VERSION >= NTDDI_WIN8)
-  FWPS_FIELD_ALE_RESOURCE_RELEASE_V6_ALE_PACKAGE_ID,
-#endif 
-  FWPS_FIELD_ALE_RESOURCE_RELEASE_V6_MAX
-} FWPS_FIELDS_ALE_RESOURCE_RELEASE_V6;
-````
 
 
 ## -enum-fields
@@ -113,7 +93,7 @@ The IP protocol number, as specified in RFC 1700.
 
 ### -field FWPS_FIELD_ALE_RESOURCE_RELEASE_V6_IP_LOCAL_INTERFACE
 
-The locally unique identifier (<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>) for the network interface associated with the
+The locally unique identifier (<a href="https://msdn.microsoft.com/library/windows/hardware/ff557080">LUID</a>) for the network interface associated with the
      local IP address.
 
 
@@ -145,17 +125,15 @@ The maximum value for this enumeration. This value might change in future versio
 
 ## -see-also
 
-<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557080">LUID</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568757">NL_ADDRESS_TYPE</a>
-
-
-
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FWPS_FIELDS_ALE_RESOURCE_RELEASE_V6 enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

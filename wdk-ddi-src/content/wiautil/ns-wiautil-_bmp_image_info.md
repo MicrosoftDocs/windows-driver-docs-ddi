@@ -7,7 +7,7 @@ old-location: image\bmp_image_info.htm
 old-project: image
 ms.assetid: 953e2f00-2275-49a2-b1e5-def7763a8ab7
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/27/2018
 ms.keywords: "*PBMP_IMAGE_INFO, BMP_IMAGE_INFO, BMP_IMAGE_INFO structure [Imaging Devices], PBMP_IMAGE_INFO, PBMP_IMAGE_INFO structure pointer [Imaging Devices], _BMP_IMAGE_INFO, image.bmp_image_info, wiauFncs_b4043c8e-769f-4ab1-9d62-c96dd5d7b487.xml, wiautil/BMP_IMAGE_INFO, wiautil/PBMP_IMAGE_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	wiautil.h
 api_name:
 -	BMP_IMAGE_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BMP_IMAGE_INFO, *PBMP_IMAGE_INFO
 req.product: Windows 10 or later.
@@ -51,19 +52,6 @@ req.product: Windows 10 or later.
 
 
 The BMP_IMAGE_INFO structure contains information about a BMP image.
-
-
-## -syntax
-
-
-````
-typedef struct _BMP_IMAGE_INFO {
-  INT Width;
-  INT Height;
-  INT ByteWidth;
-  INT Size;
-} BMP_IMAGE_INFO, *PBMP_IMAGE_INFO;
-````
 
 
 ## -struct-fields

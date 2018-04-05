@@ -7,7 +7,7 @@ old-location: image\istidevicecontrol_getmydeviceopenmode.htm
 old-project: image
 ms.assetid: 814e739f-6147-4287-876e-db6fc41c5aa1
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/27/2018
 ms.keywords: GetMyDeviceOpenMode method [Imaging Devices], GetMyDeviceOpenMode method [Imaging Devices], IStiDeviceControl interface, GetMyDeviceOpenMode,IStiDeviceControl.GetMyDeviceOpenMode, IStiDeviceControl, IStiDeviceControl interface [Imaging Devices], GetMyDeviceOpenMode method, IStiDeviceControl::GetMyDeviceOpenMode, image.istidevicecontrol_getmydeviceopenmode, stifnc_a3082d9f-d152-4494-b11f-e9d2bd1efe63.xml, stiusd/IStiDeviceControl::GetMyDeviceOpenMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: stiusd.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	stiusd.h
 api_name:
 -	IStiDeviceControl.GetMyDeviceOpenMode
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STI_WIA_DEVICE_INFORMATIONW, *PSTI_WIA_DEVICE_INFORMATIONW
 req.product: Windows 10 or later.
@@ -51,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>IStiDeviceControl::GetMyDeviceOpenMode</b> method allows a still image minidriver to obtain the transfer mode that an application specified when it created an instance of a still image device.
-
-
-## -syntax
-
-
-````
-HRESULT GetMyDeviceOpenMode(
-   LPDWORD pdwOpenMode
-);
-````
 
 
 ## -parameters

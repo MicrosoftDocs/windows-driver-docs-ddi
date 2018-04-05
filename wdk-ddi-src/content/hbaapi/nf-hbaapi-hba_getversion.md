@@ -7,7 +7,7 @@ old-location: storage\hba_getversion.htm
 old-project: storage
 ms.assetid: 05fbdc9b-be15-4d1b-96d5-4ea48fb6c543
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: HBA_GetVersion, HBA_GetVersion routine [Storage Devices], fibreHBA_rtns_c4e4bef2-44a6-46e5-8da0-abce57a64f7a.xml, hbaapi/HBA_GetVersion, storage.hba_getversion
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Hbaapi.dll
 api_name:
 -	HBA_GetVersion
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: HBA_WWNTYPE
 ---
@@ -50,14 +51,6 @@ req.typenames: HBA_WWNTYPE
 
 
 The <b>HBA_GetVersion</b> routine returns the version of the fibre channel HBA API specification with which the HBA API library is compatible.
-
-
-## -syntax
-
-
-````
-HBA_UINT32 HBA_API HBA_GetVersion(void);
-````
 
 
 ## -parameters
@@ -78,13 +71,11 @@ The <b>HBA_GetVersion</b> routine returns a value that indicates the version of 
 
 ## -see-also
 
-<a href="..\hbaapi\nf-hbaapi-hba_getvendorlibraryattributes.md">HBA_GetVendorLibraryAttributes</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556112">HBA_GetVendorLibraryAttributes</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20HBA_GetVersion routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

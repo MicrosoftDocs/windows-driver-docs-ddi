@@ -7,7 +7,7 @@ old-location: netvista\ndis_miniport_interrupt_characteristics.htm
 old-project: netvista
 ms.assetid: f4176e2d-d8d2-4e75-bccb-0c452da4d703
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: "*PNDIS_MINIPORT_INTERRUPT_CHARACTERISTICS, NDIS_MINIPORT_INTERRUPT_CHARACTERISTICS, NDIS_MINIPORT_INTERRUPT_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], PNDIS_MINIPORT_INTERRUPT_CHARACTERISTICS, PNDIS_MINIPORT_INTERRUPT_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_MINIPORT_INTERRUPT_CHARACTERISTICS, ndis/NDIS_MINIPORT_INTERRUPT_CHARACTERISTICS, ndis/PNDIS_MINIPORT_INTERRUPT_CHARACTERISTICS, ndis_interrupts_structures_ref_87c0c090-a28d-4195-b73d-52e3a188a80b.xml, netvista.ndis_miniport_interrupt_characteristics"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ndis.h
 api_name:
 -	NDIS_MINIPORT_INTERRUPT_CHARACTERISTICS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_MINIPORT_INTERRUPT_CHARACTERISTICS, *PNDIS_MINIPORT_INTERRUPT_CHARACTERISTICS
 ---
@@ -51,30 +52,8 @@ req.typenames: NDIS_MINIPORT_INTERRUPT_CHARACTERISTICS, *PNDIS_MINIPORT_INTERRUP
 
 An NDIS miniport driver defines its interrupt characteristics in an
   NDIS_MINIPORT_INTERRUPT_CHARACTERISTICS structure and passes the structure to the 
-  <a href="..\ndis\nf-ndis-ndismregisterinterruptex.md">
+  <a href="https://msdn.microsoft.com/db0b3d51-5bbb-45fb-8c45-dda8c2212b5f">
   NdisMRegisterInterruptEx</a> function.
-
-
-## -syntax
-
-
-````
-typedef struct _NDIS_MINIPORT_INTERRUPT_CHARACTERISTICS {
-  NDIS_OBJECT_HEADER                     Header;
-  MINIPORT_ISR_HANDLER                   InterruptHandler;
-  MINIPORT_INTERRUPT_DPC_HANDLER         InterruptDpcHandler;
-  MINIPORT_DISABLE_INTERRUPT_HANDLER     DisableInterruptHandler;
-  MINIPORT_ENABLE_INTERRUPT_HANDLER      EnableInterruptHandler;
-  BOOLEAN                                MsiSupported;
-  BOOLEAN                                MsiSyncWithAllMessages;
-  MINIPORT_MSI_ISR_HANDLER               MessageInterruptHandler;
-  MINIPORT_MSI_INTERRUPT_DPC_HANDLER     MessageInterruptDpcHandler;
-  MINIPORT_DISABLE_MSI_INTERRUPT_HANDLER DisableMessageInterruptHandler;
-  MINIPORT_ENABLE_MSI_INTERRUPT_HANDLER  EnableMessageInterruptHandler;
-  NDIS_INTERRUPT_TYPE                    InterruptType;
-  PIO_INTERRUPT_MESSAGE_INFO             MessageInfoTable;
-} NDIS_MINIPORT_INTERRUPT_CHARACTERISTICS, *PNDIS_MINIPORT_INTERRUPT_CHARACTERISTICS;
-````
 
 
 ## -struct-fields
@@ -85,7 +64,7 @@ typedef struct _NDIS_MINIPORT_INTERRUPT_CHARACTERISTICS {
 ### -field Header
 
 The 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure for the
      NDIS_MINIPORT_INTERRUPT_CHARACTERISTICS structure. Set the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to NDIS_OBJECT_TYPE_MINIPORT_INTERRUPT, the 
@@ -96,28 +75,28 @@ The
 ### -field InterruptHandler
 
 The entry point for the 
-     <a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInterrupt</a> function that is
+     <a href="https://msdn.microsoft.com/810503b9-75cd-4b38-ab1f-de240968ded6">MiniportInterrupt</a> function that is
      associated with this interrupt.
 
 
 ### -field InterruptDpcHandler
 
 The entry point for the 
-     <a href="..\ndis\nc-ndis-miniport_interrupt_dpc.md">MiniportInterruptDPC</a> function
+     <a href="https://msdn.microsoft.com/345715fb-878c-44d8-bf78-f3add10dd02b">MiniportInterruptDPC</a> function
      that is associated with this interrupt.
 
 
 ### -field DisableInterruptHandler
 
 The entry point for the 
-     <a href="..\ndis\nc-ndis-miniport_disable_interrupt.md">
+     <a href="https://msdn.microsoft.com/6016ab15-56c6-4430-8883-d4cdcdf6116f">
      MiniportDisableInterruptEx</a> function.
 
 
 ### -field EnableInterruptHandler
 
 The entry point for the 
-     <a href="..\ndis\nc-ndis-miniport_enable_interrupt.md">
+     <a href="https://msdn.microsoft.com/61edeb80-a686-4b8c-ae19-4757616151ef">
      MiniportEnableInterruptEx</a> function.
 
 
@@ -143,7 +122,7 @@ Setting this value to <b>TRUE</b> can degrade interrupt performance. It is more 
 ### -field MessageInterruptHandler
 
 The entry point for the 
-     <a href="..\ndis\nc-ndis-miniport_message_interrupt.md">
+     <a href="https://msdn.microsoft.com/ec2e6f49-dc40-48e8-96dc-c9440a6662a3">
      MiniportMessageInterrupt</a> function, if it exists, that is associated with this interrupt. If the
      driver does not support message interrupts, set this member to <b>NULL</b>.
 
@@ -151,7 +130,7 @@ The entry point for the
 ### -field MessageInterruptDpcHandler
 
 The entry point for the 
-     <a href="..\ndis\nc-ndis-miniport_message_interrupt_dpc.md">
+     <a href="https://msdn.microsoft.com/c1eca20b-eda1-442c-8644-798fa864d5d7">
      MiniportMessageInterruptDPC</a> function, if any, that is associated with this interrupt. If the
      driver does not support message-signaled interrupts, set this member to <b>NULL</b>.
 
@@ -159,7 +138,7 @@ The entry point for the
 ### -field DisableMessageInterruptHandler
 
 The entry point for the 
-     <a href="..\ndis\nc-ndis-miniport_disable_message_interrupt.md">
+     <a href="https://msdn.microsoft.com/68d2076d-c991-4219-b6c3-2399ff5c11a3">
      MiniportDisableMessageInterrupt</a> function, if any. If the driver does not support message signaled
      interrupts, set this member to <b>NULL</b>.
 
@@ -167,7 +146,7 @@ The entry point for the
 ### -field EnableMessageInterruptHandler
 
 The entry point for the 
-     <a href="..\ndis\nc-ndis-miniport_enable_message_interrupt.md">
+     <a href="https://msdn.microsoft.com/b0e1bbef-8116-4455-aa5c-7f47386a3700">
      MiniportEnableMessageInterrupt</a> function, if any. If the driver does not support message-signaled
      interrupts, set this member to <b>NULL</b>.
 
@@ -187,13 +166,13 @@ A variable of type <b>NDIS_INTERRUPT_TYPE</b>. NDIS sets this variable to indica
 ### -field MessageInfoTable
 
 An NDIS-supplied pointer to an 
-     <a href="..\wdm\ns-wdm-_io_interrupt_message_info.md">
+     <a href="https://msdn.microsoft.com/d740d55e-6549-494d-9b2a-39d5c2e670d3">
      IO_INTERRUPT_MESSAGE_INFO</a> structure. 
 
 <ul>
 <li>
 If 
-     <b>InterruptType</b> is <b>NDIS_CONNECT_MESSAGE_BASED</b>, NDIS initializes an <a href="..\wdm\ns-wdm-_io_interrupt_message_info.md">IO_INTERRUPT_MESSAGE_INFO</a>
+     <b>InterruptType</b> is <b>NDIS_CONNECT_MESSAGE_BASED</b>, NDIS initializes an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550576">IO_INTERRUPT_MESSAGE_INFO</a>
      structure with information about the interrupt and sets 
      <b>MessageInfoTable</b> to a pointer to the structure. Miniport drivers must not modify the
      structure.
@@ -210,7 +189,7 @@ If <b>InterruptType</b> is <b>NDIS_CONNECT_LINE_BASED</b>, <b>MessageInfoTable</
 
 
 A miniport driver calls the 
-    <a href="..\ndis\nf-ndis-ndismregisterinterruptex.md">NdisMRegisterInterruptEx</a> function
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff563649">NdisMRegisterInterruptEx</a> function
     to register an interrupt. The driver allocates and initializes an <b>NDIS_MINIPORT_INTERRUPT_CHARACTERISTICS</b>
     structure to specify the interrupt characteristics and handler entry points and passes the structure to 
     <b>NdisMRegisterInterruptEx</b>.
@@ -220,55 +199,53 @@ A miniport driver calls the
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_disable_message_interrupt.md">
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550576">IO_INTERRUPT_MESSAGE_INFO</a>
+
+
+
+<a href="https://msdn.microsoft.com/6016ab15-56c6-4430-8883-d4cdcdf6116f">MiniportDisableInterruptEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/68d2076d-c991-4219-b6c3-2399ff5c11a3">
    MiniportDisableMessageInterrupt</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_enable_interrupt.md">MiniportEnableInterruptEx</a>
+<a href="https://msdn.microsoft.com/61edeb80-a686-4b8c-ae19-4757616151ef">MiniportEnableInterruptEx</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_enable_message_interrupt.md">
+<a href="https://msdn.microsoft.com/b0e1bbef-8116-4455-aa5c-7f47386a3700">
    MiniportEnableMessageInterrupt</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_interrupt_dpc.md">MiniportInterruptDPC</a>
+<a href="https://msdn.microsoft.com/810503b9-75cd-4b38-ab1f-de240968ded6">MiniportInterrupt</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismregisterinterruptex.md">NdisMRegisterInterruptEx</a>
+<a href="https://msdn.microsoft.com/345715fb-878c-44d8-bf78-f3add10dd02b">MiniportInterruptDPC</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInterrupt</a>
+<a href="https://msdn.microsoft.com/ec2e6f49-dc40-48e8-96dc-c9440a6662a3">MiniportMessageInterrupt</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_message_interrupt_dpc.md">MiniportMessageInterruptDPC</a>
+<a href="https://msdn.microsoft.com/c1eca20b-eda1-442c-8644-798fa864d5d7">MiniportMessageInterruptDPC</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_disable_interrupt.md">MiniportDisableInterruptEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_message_interrupt.md">MiniportMessageInterrupt</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
-<a href="..\wdm\ns-wdm-_io_interrupt_message_info.md">IO_INTERRUPT_MESSAGE_INFO</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563649">NdisMRegisterInterruptEx</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_MINIPORT_INTERRUPT_CHARACTERISTICS structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: display\d3dddi_getresourcepresentprivatedriverdata.htm
 old-project: display
 ms.assetid: 4473E808-D22E-47C4-8619-7427C8BA682E
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA, D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA structure [Display Devices], _D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA, d3dukmdt/D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA, display.d3dddi_getresourcepresentprivatedriverdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dukmdt.h
 api_name:
 -	D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA
 ---
@@ -49,20 +50,8 @@ req.typenames: D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA
 ## -description
 
 
-<b>D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA</b> is used with <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getresourcepresentprivatedriverdatacb.md">pfnGetResourcePresentPrivateDriverDataCb</a> to query the resource private data, which is associated with the resource during Present. 
+<b>D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA</b> is used with <a href="https://msdn.microsoft.com/D4F0F272-60DC-4060-9762-3DB49236CE62">pfnGetResourcePresentPrivateDriverDataCb</a> to query the resource private data, which is associated with the resource during Present. 
 
-
-
-## -syntax
-
-
-````
-typedef struct _D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA {
-  D3DKMT_HANDLE hResource;
-  UINT          PrivateDriverDataSize;
-  PVOID         *pPrivateDriverData;
-} D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA;
-````
 
 
 ## -struct-fields
@@ -91,13 +80,11 @@ typedef struct _D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA {
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getresourcepresentprivatedriverdatacb.md">pfnGetResourcePresentPrivateDriverDataCb</a>
 
 
 
+<a href="https://msdn.microsoft.com/D4F0F272-60DC-4060-9762-3DB49236CE62">pfnGetResourcePresentPrivateDriverDataCb</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

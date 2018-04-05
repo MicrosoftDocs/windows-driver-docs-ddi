@@ -7,7 +7,7 @@ old-location: ifsk\fltfscontrolfile.htm
 old-project: ifsk
 ms.assetid: afc72cdf-ea29-4e78-95a0-fc621e3290a7
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FltApiRef_e_to_o_3cad833f-9ece-410a-896d-1b3fe897c251.xml, FltFsControlFile, FltFsControlFile routine [Installable File System Drivers], fltkernel/FltFsControlFile, ifsk.fltfscontrolfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	fltmgr.sys
 api_name:
 -	FltFsControlFile
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
@@ -50,23 +51,6 @@ req.typenames: EXpsFontRestriction
 
 
 The <b>FltFsControlFile</b> routine sends a control code directly to a specified file system or file system filter driver, causing the corresponding driver to perform the specified action. 
-
-
-## -syntax
-
-
-````
-NTSTATUS FltFsControlFile(
-  _In_      PFLT_INSTANCE Instance,
-  _In_      PFILE_OBJECT  FileObject,
-  _In_      ULONG         FsControlCode,
-  _In_opt_  PVOID         InputBuffer,
-  _In_      ULONG         InputBufferLength,
-  _Out_opt_ PVOID         OutputBuffer,
-  _In_      ULONG         OutputBufferLength,
-  _Out_opt_ PULONG        LengthReturned
-);
-````
 
 
 ## -parameters
@@ -127,7 +111,7 @@ Pointer to a caller-allocated variable that receives the size, in bytes, of the 
 
 
 
-Minifilter drivers should call this routine instead of <a href="..\ntifs\nf-ntifs-zwfscontrolfile.md">ZwFsControlFile</a>. 
+Minifilter drivers should call this routine instead of <a href="https://msdn.microsoft.com/library/windows/hardware/ff566462">ZwFsControlFile</a>. 
 
 The following FSCTL codes are currently documented for kernel-mode drivers: 
 
@@ -182,17 +166,15 @@ For more information about the system-defined FSCTL_<i>XXX</i> codes, see the Re
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-zwfscontrolfile.md">ZwFsControlFile</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltdeviceiocontrolfile.md">FltDeviceIoControlFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542046">FltDeviceIoControlFile</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566462">ZwFsControlFile</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltFsControlFile routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

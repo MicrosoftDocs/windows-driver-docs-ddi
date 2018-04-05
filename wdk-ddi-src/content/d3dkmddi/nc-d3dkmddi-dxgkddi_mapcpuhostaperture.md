@@ -7,7 +7,7 @@ old-location: display\dxgkddimapcpuhostaperture.htm
 old-project: display
 ms.assetid: 78729B9A-A9FA-4D1E-8D30-3FFD61B1A7D3
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKDDI_MAPCPUHOSTAPERTURE, DxgkDdiMapCpuHostAperture, DxgkDdiMapCpuHostAperture callback function [Display Devices], d3dkmddi/DxgkDdiMapCpuHostAperture, display.dxgkddimapcpuhostaperture
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DxgkDdiMapCpuHostAperture
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 ---
@@ -50,20 +51,6 @@ req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 
 
 <b>DxgkDdiMapCpuHostAperture</b> is called to map an allocation that is resident in a local memory segment into the CPU host aperture in order to make it visible to the CPU.
-
-
-## -prototype
-
-
-````
-DXGKDDI_MAPCPUHOSTAPERTURE DxgkDdiMapCpuHostAperture;
-
-NTSTATUS APIENTRY DxgkDdiMapCpuHostAperture(
-  _In_ HANDLE                     hAdapter,
-  _In_ DXGKARG_MAPCPUHOSTAPERTURE *Map
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -87,7 +74,7 @@ A handle to the display adapter.
 
 #### - Map [in]
 
-The <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_mapcpuhostaperture.md">DXGKARG_MAPCPUHOSTAPERTURE</a> structure that describes the operation.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/dn906822">DXGKARG_MAPCPUHOSTAPERTURE</a> structure that describes the operation.
 
 
 ## -returns

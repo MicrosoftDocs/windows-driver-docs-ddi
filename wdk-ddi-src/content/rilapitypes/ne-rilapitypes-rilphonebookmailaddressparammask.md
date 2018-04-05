@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILPHONEBOOKMAILADDRESSPARAMMASK
 title: RILPHONEBOOKMAILADDRESSPARAMMASK
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilphonebookmailaddressparammask_2.htm
+old-location: netvista\rilphonebookmailaddressparammask.htm
 old-project: netvista
-ms.assetid: 4ce9142e-2a59-4908-a8d4-c6a9328d0dc5
+ms.assetid: db3b9173-f0fe-4d51-a17e-a7b55839cbb6
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: RILPHONEBOOKMAILADDRESSPARAMMASK, RILPHONEBOOKMAILADDRESSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_PBEA_ALL, netvista.rilphonebookmailaddressparammask_2, rilapitypes/RILPHONEBOOKMAILADDRESSPARAMMASK, rilapitypes/RIL_PARAM_PBEA_ALL
+ms.date: 3/26/2018
+ms.keywords: RILPHONEBOOKMAILADDRESSPARAMMASK, RILPHONEBOOKMAILADDRESSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_PBEA_ALL, netvista.rilphonebookmailaddressparammask, ntddrilapitypes/RILPHONEBOOKMAILADDRESSPARAMMASK, ntddrilapitypes/RIL_PARAM_PBEA_ALL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -35,10 +35,11 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILPHONEBOOKMAILADDRESSPARAMMASK
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILPHONEBOOKMAILADDRESSPARAMMASK
 req.product: Windows 10 or later.
@@ -50,17 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-
-## -syntax
-
-
-````
-typedef enum _RILPHONEBOOKMAILADDRESSPARAMMASK { 
-  RIL_PARAM_PBEA_ALL
-} RILPHONEBOOKMAILADDRESSPARAMMASK;
-````
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -enum-fields

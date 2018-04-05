@@ -7,7 +7,7 @@ old-location: netvista\vmbconvertvmbushandletokernelhandle.htm
 old-project: netvista
 ms.assetid: C549B9C7-221D-4DD8-9D8D-24BC729099C7
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: VmbConvertVmbusHandleToKernelHandle, VmbConvertVmbusHandleToKernelHandle function [Network Drivers Starting with Windows Vista], netvista.vmbconvertvmbushandletokernelhandle, vmbuskernelmodeclientlibapi/VmbConvertVmbusHandleToKernelHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	VmbusKernelModeClientLibApi.h
 api_name:
 -	VmbConvertVmbusHandleToKernelHandle
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
 req.product: Windows 10 or later.
@@ -53,17 +54,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 The <b>VmbConvertVmbusHandleToKernelHandle</b> function converts the user mode VMBus handle to kernel mode handle. 
-
-
-## -syntax
-
-
-````
-NTSTATUS VmbConvertVmbusHandleToKernelHandle(
-  _In_  HANDLE  VmbusHandle,
-  _Out_ PHANDLE KernelHandle
-);
-````
 
 
 ## -parameters
@@ -95,20 +85,18 @@ handle, this function must be called in the context of the user-mode process whi
 opened the VMBus handle.
 
   Calling this function is often immediately followed by calling
-the <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbserverchannelinitsetvmbushandle.md">VmbServerChannelInitSetVmbusHandle</a> function.
+the <a href="https://msdn.microsoft.com/0ECF76C7-9475-439E-8E59-B2B7CD350D24">VmbServerChannelInitSetVmbusHandle</a> function.
 
 
 
 
 ## -see-also
 
-<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbserverchannelinitsetvmbushandle.md">VmbServerChannelInitSetVmbusHandle</a>
 
 
 
+<a href="https://msdn.microsoft.com/0ECF76C7-9475-439E-8E59-B2B7CD350D24">VmbServerChannelInitSetVmbusHandle</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20VmbConvertVmbusHandleToKernelHandle function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

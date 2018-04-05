@@ -7,7 +7,7 @@ old-location: wdf\wdfdriveropenparametersregistrykey.htm
 old-project: wdf
 ms.assetid: e0f22096-3d82-4e1c-9398-d5e441fbb473
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/26/2018
 ms.keywords: DFDriverObjectRef_c79992f7-2a85-4c1b-859d-9bfdf441a9c4.xml, WdfDriverOpenParametersRegistryKey, WdfDriverOpenParametersRegistryKey method, kmdf.wdfdriveropenparametersregistrykey, wdf.wdfdriveropenparametersregistrykey, wdfdriver/WdfDriverOpenParametersRegistryKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,8 @@ api_location:
 -	WUDFx02000.dll.dll
 api_name:
 -	WdfDriverOpenParametersRegistryKey
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_DRIVER_INIT_FLAGS
 req.product: Windows 10 or later.
@@ -58,19 +59,6 @@ req.product: Windows 10 or later.
 The <b>WdfDriverOpenParametersRegistryKey</b> method opens the driver's <b>Parameters</b> registry key and retrieves a handle to a framework registry-key object that represents the key.
 
 
-## -syntax
-
-
-````
-NTSTATUS WdfDriverOpenParametersRegistryKey(
-  _In_     WDFDRIVER              Driver,
-  _In_     ACCESS_MASK            DesiredAccess,
-  _In_opt_ PWDF_OBJECT_ATTRIBUTES KeyAttributes,
-  _Out_    WDFKEY                 *Key
-);
-````
-
-
 ## -parameters
 
 
@@ -78,7 +66,7 @@ NTSTATUS WdfDriverOpenParametersRegistryKey(
 
 ### -param Driver [in]
 
-A handle to the driver's framework driver object that the driver obtained from a previous call to <a href="..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md">WdfDriverCreate</a> or <a href="..\wdfdriver\nf-wdfdriver-wdfgetdriver.md">WdfGetDriver</a>.
+A handle to the driver's framework driver object that the driver obtained from a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff547175">WdfDriverCreate</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff547336">WdfGetDriver</a>.
 
 
 ### -param DesiredAccess [in]
@@ -94,7 +82,7 @@ As a best practice, ask for only the types of access that your driver needs.
 
 ### -param KeyAttributes [in, optional]
 
-A pointer to a caller-allocated <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure that specifies object attributes for the framework registry-key object. This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
+A pointer to a caller-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff552400">WDF_OBJECT_ATTRIBUTES</a> structure that specifies object attributes for the framework registry-key object. This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
 
 
 ### -param Key [out]
@@ -127,7 +115,7 @@ A pointer to a location that receives a handle to a framework registry-key objec
 </ul>
 
 
-Because the above values are invalid for UMDF drivers, universal flags such as GENERIC_ALL and STANDARD_RIGHTS_ALL also cause <a href="..\wdfdriver\nf-wdfdriver-wdfdriveropenparametersregistrykey.md">WdfDriverOpenParametersRegistryKey</a> to fail with this return value.
+Because the above values are invalid for UMDF drivers, universal flags such as GENERIC_ALL and STANDARD_RIGHTS_ALL also cause <a href="https://msdn.microsoft.com/library/windows/hardware/ff547202">WdfDriverOpenParametersRegistryKey</a> to fail with this return value.
 
 </td>
 </tr>
@@ -149,7 +137,7 @@ A system bug check occurs if a KMDF driver specifies an invalid handle in <i>Dri
 
 The driver's <b>Parameters</b> key is located in the registry's <a href="https://msdn.microsoft.com/library/windows/hardware/dn926947">Services</a> tree. If the driver's <b>Parameters</b> key does not exist, the <b>WdfDriverOpenParametersRegistryKey</b> method creates it. 
 
-When the driver has finished using the <b>Parameters</b> registry key, the driver must call <a href="..\wdfregistry\nf-wdfregistry-wdfregistryclose.md">WdfRegistryClose</a>.
+When the driver has finished using the <b>Parameters</b> registry key, the driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff549914">WdfRegistryClose</a>.
 
 For more information about the registry, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-the-registry-in-umdf-1-x-drivers">Using the Registry in Framework-Based Drivers</a>.
 
@@ -180,11 +168,6 @@ status = WdfDriverOpenParametersRegistryKey(
 
 ## -see-also
 
-<a href="..\wdfdriver\nf-wdfdriver-wdfdrivergetregistrypath.md">WdfDriverGetRegistryPath</a>
-
-
-
-<a href="..\wdfregistry\nf-wdfregistry-wdfregistryclose.md">WdfRegistryClose</a>
 
 
 
@@ -192,21 +175,24 @@ status = WdfDriverOpenParametersRegistryKey(
 
 
 
-<a href="..\wdfdriver\nf-wdfdriver-wdfgetdriver.md">WdfGetDriver</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552400">WDF_OBJECT_ATTRIBUTES</a>
 
 
 
-<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547175">WdfDriverCreate</a>
 
 
 
-<a href="..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md">WdfDriverCreate</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547187">WdfDriverGetRegistryPath</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547336">WdfGetDriver</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549914">WdfRegistryClose</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfDriverOpenParametersRegistryKey method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

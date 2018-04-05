@@ -7,7 +7,7 @@ old-location: netvista\netdmaisr.htm
 old-project: netvista
 ms.assetid: 81aa5707-b614-429b-bd8e-0204eec74e0f
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: NetDmaIsr, NetDmaIsr function [Network Drivers Starting with Windows Vista], netdma/NetDmaIsr, netdma_ref_5a9b1659-b106-4eed-931d-f2ad8b2476e9.xml, netvista.netdmaisr
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: DEVICE_LEVEL
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	netdma.h
 api_name:
 -	NetDmaIsr
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NET_DMA_PNP_NOTIFICATION_CODE, *PNET_DMA_PNP_NOTIFICATION_CODE
 ---
@@ -56,18 +57,6 @@ in Windows 8 and later.</div><div> </div>The
   channel.
 
 
-## -syntax
-
-
-````
-VOID NetDmaIsr(
-  _In_  PVOID            NetDmaChannelHandle,
-  _In_  PHYSICAL_ADDRESS DmaDescriptor,
-  _Out_ PULONG           pCpuNumber
-);
-````
-
-
 ## -parameters
 
 
@@ -77,7 +66,7 @@ VOID NetDmaIsr(
 
 A handle that identifies the DMA channel. The DMA provider driver received this handle from the
      NetDMA interface in a call to the 
-     <a href="..\netdma\nc-netdma-dma_channel_allocate_handler.md">
+     <a href="https://msdn.microsoft.com/42bc0e08-3d85-424f-aaa4-4df788d3706a">
      ProviderAllocateDmaChannel</a> function.
 
 
@@ -111,7 +100,7 @@ DMA provider drivers call the
 
 If the NET_DMA_INTERRUPT_ON_COMPLETION flag in the 
     <b>ControlFlags</b> member of the 
-    <a href="..\netdma\ns-netdma-_net_dma_descriptor.md">NET_DMA_DESCRIPTOR</a> structure is set, the
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568734">NET_DMA_DESCRIPTOR</a> structure is set, the
     DMA engine should generate an interrupt for the DMA channel after it processes the DMA descriptor. When
     this flag is cleared, the DMA engine does not generate an interrupt.
 
@@ -126,17 +115,15 @@ A DMA provider driver should do as little work as possible in its ISR handler. T
 
 ## -see-also
 
-<a href="..\netdma\ns-netdma-_net_dma_descriptor.md">NET_DMA_DESCRIPTOR</a>
 
 
 
-<a href="..\netdma\nc-netdma-dma_channel_allocate_handler.md">ProviderAllocateDmaChannel</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568734">NET_DMA_DESCRIPTOR</a>
 
 
 
+<a href="https://msdn.microsoft.com/42bc0e08-3d85-424f-aaa4-4df788d3706a">ProviderAllocateDmaChannel</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NetDmaIsr function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

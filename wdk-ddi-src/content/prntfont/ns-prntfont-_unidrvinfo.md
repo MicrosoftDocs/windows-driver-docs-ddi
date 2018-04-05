@@ -7,7 +7,7 @@ old-location: print\unidrvinfo.htm
 old-project: print
 ms.assetid: f57514ed-33b2-4895-aaba-5866b6fc01d2
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: "*PUNIDRVINFO, PUNIDRVINFO, PUNIDRVINFO structure pointer [Print Devices], UNIDRVINFO, UNIDRVINFO structure [Print Devices], _UNIDRVINFO, print.unidrvinfo, print_unidrv-pscript_fonts_b956aa02-1966-47c6-aec1-8ef8b98f4e57.xml, prntfont/PUNIDRVINFO, prntfont/UNIDRVINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	prntfont.h
 api_name:
 -	UNIDRVINFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UNIDRVINFO, *PUNIDRVINFO
 req.product: Windows 10 or later.
@@ -51,28 +52,6 @@ req.product: Windows 10 or later.
 
 
 The UNIDRVINFO structure is used to specify printer-specific information within <a href="https://msdn.microsoft.com/6e643703-ace1-4660-990c-3a9ca735829d">Unidrv font metrics files</a> (.ufm files).
-
-
-## -syntax
-
-
-````
-typedef struct _UNIDRVINFO {
-  DWORD dwSize;
-  DWORD flGenFlags;
-  WORD  wType;
-  WORD  fCaps;
-  WORD  wXRes;
-  WORD  wYRes;
-  short sYAdjust;
-  short sYMoved;
-  WORD  wPrivateData;
-  short sShift;
-  INVOC SelectFont;
-  INVOC UnSelectFont;
-  WORD  wReserved[4];
-} UNIDRVINFO, *PUNIDRVINFO;
-````
 
 
 ## -struct-fields
@@ -218,7 +197,7 @@ DF_BKSP_OK
 <td>
 If set, a single backspace character can move the cursor to the beginning of the overstrike region. If not set, an x-movement cursor command must be sent.
 
-(Used only if MTYPE_PAIRED is specified for the character's <a href="..\prntfont\ns-prntfont-_transdata.md">TRANSDATA</a> structure in <a href="..\prntfont\ns-prntfont-_maptable.md">MAPTABLE</a>. Otherwise ignored.)
+(Used only if MTYPE_PAIRED is specified for the character's <a href="https://msdn.microsoft.com/library/windows/hardware/ff562816">TRANSDATA</a> structure in <a href="https://msdn.microsoft.com/library/windows/hardware/ff556509">MAPTABLE</a>. Otherwise ignored.)
 
 </td>
 </tr>
@@ -318,7 +297,7 @@ Specifies the number of pixels by which each character must be shifted. Used for
 
 ### -field SelectFont
 
-Is an <a href="..\prntfont\ns-prntfont-_invoc.md">INVOC</a> structure containing the printer's font selection command.
+Is an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551796">INVOC</a> structure containing the printer's font selection command.
 
 
 ### -field UnSelectFont
@@ -335,20 +314,18 @@ Not used.
 
 
 
-A .ufm (Unidrv Font Metrics) file's UNIDRVINFO structure is accessed by a pointer in the file's <a href="..\prntfont\ns-prntfont-_unifm_hdr.md">UNIFM_HDR</a> structure.
+A .ufm (Unidrv Font Metrics) file's UNIDRVINFO structure is accessed by a pointer in the file's <a href="https://msdn.microsoft.com/library/windows/hardware/ff563587">UNIFM_HDR</a> structure.
 
 
 
 
 ## -see-also
 
-<a href="..\prntfont\ns-prntfont-_invoc.md">INVOC</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551796">INVOC</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20UNIDRVINFO structure%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

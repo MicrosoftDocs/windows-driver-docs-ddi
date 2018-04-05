@@ -38,7 +38,8 @@ api_location:
 -	bthioctl.h
 api_name:
 -	BTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST, *PBTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST
 ---
@@ -51,21 +52,8 @@ req.typenames: BTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST, *PBTH_SDP_SERVICE_ATTRI
 
 The BTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST structure contains information pertinent to a combined
   SDP service and attribute search. This structure is passed as the input buffer to the 
-  <a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_service_attribute_search.md">
+  <a href="https://msdn.microsoft.com/f0955e88-df80-4f53-bc5f-5a38a840aab4">
   IOCTL_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH</a> IOCTL.
-
-
-## -syntax
-
-
-````
-typedef struct _BTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST {
-  HANDLE_SDP        hConnection;
-  ULONG             searchFlags;
-  SdpQueryUuid      uuids[MAX_UUIDS_IN_QUERY];
-  SdpAttributeRange range[1];
-} BTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST, *PBTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST;
-````
 
 
 ## -struct-fields
@@ -102,7 +90,7 @@ A variable-length array of
 #### - hConnection
 
 A handle to the remote SDP server that is returned by the 
-     <a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_connect.md">IOCTL_BTH_SDP_CONNECT</a> IOCTL.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536688">IOCTL_BTH_SDP_CONNECT</a> IOCTL.
 
 
 ## -remarks
@@ -120,22 +108,20 @@ The Bluetooth driver stack determines the number of array items in the
 
 ## -see-also
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=50714">SdpAttributeRange</a>
 
 
 
-<a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_service_attribute_search.md">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536688">IOCTL_BTH_SDP_CONNECT</a>
+
+
+
+<a href="https://msdn.microsoft.com/f0955e88-df80-4f53-bc5f-5a38a840aab4">
    IOCTL_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH</a>
 
 
 
-<a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_connect.md">IOCTL_BTH_SDP_CONNECT</a>
-
-
-
+<a href="http://go.microsoft.com/fwlink/p/?linkid=50714">SdpAttributeRange</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20BTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

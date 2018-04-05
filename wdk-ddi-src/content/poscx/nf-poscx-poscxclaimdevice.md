@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	poscx.h
 api_name:
 -	PosCxClaimDevice
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: POS_CX_EVENT_PRIORITY
 req.product: Windows 10 or later.
@@ -52,22 +53,11 @@ req.product: Windows 10 or later.
 
 PosCxClaimDevice is called to claim a device for exclusive use. 
 
-The caller should call <a href="..\poscx\nf-poscx-poscxreleasedevice.md">PosCxReleaseDevice</a> when the device is no longer needed. 
+The caller should call <a href="https://msdn.microsoft.com/library/windows/hardware/mt593132">PosCxReleaseDevice</a> when the device is no longer needed. 
 
       
 
 If the device is already claimed, the caller must wait until access is granted.
-
-
-## -syntax
-
-
-````
-NTSTATUS PosCxClaimDevice(
-  _In_ WDFDEVICE  device,
-  _In_ WDFREQUEST request
-);
-````
 
 
 ## -parameters

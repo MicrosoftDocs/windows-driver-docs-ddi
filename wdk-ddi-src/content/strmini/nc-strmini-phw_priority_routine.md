@@ -38,7 +38,8 @@ api_location:
 -	strmini.h
 api_name:
 -	StrMiniPriorityRoutine
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: ZONE_DESCRIPTIOR, *PZONE_DESCRIPTIOR
 req.product: Windows 10 or later.
@@ -53,19 +54,6 @@ req.product: Windows 10 or later.
 <i>StrMiniPriorityRoutine</i> is a minidriver-supplied callback routine to be executed at a specified priority level.
 
 
-## -prototype
-
-
-````
-PHW_PRIORITY_ROUTINE StrMiniPriorityRoutine;
-
-VOID StrMiniPriorityRoutine(
-  _In_ PVOID Context
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -73,7 +61,7 @@ VOID StrMiniPriorityRoutine(
 
 ### -param Context [in]
 
-Pointer to a minidriver-allocated buffer. The minidriver provides a pointer to this buffer in the Context parameter of its call to <a href="..\strmini\nf-strmini-streamclasscallatnewpriority.md">StreamClassCallAtNewPriority</a>.
+Pointer to a minidriver-allocated buffer. The minidriver provides a pointer to this buffer in the Context parameter of its call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff568230">StreamClassCallAtNewPriority</a>.
 
 
 ## -returns
@@ -89,20 +77,18 @@ None
 
 
 
-The minidriver provides a pointer to this routine in the <b>Priority</b> parameter of a call to <a href="..\strmini\nf-strmini-streamclasscallatnewpriority.md">StreamClassCallAtNewPriority</a>.
+The minidriver provides a pointer to this routine in the <b>Priority</b> parameter of a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff568230">StreamClassCallAtNewPriority</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\strmini\nf-strmini-streamclasscallatnewpriority.md">StreamClassCallAtNewPriority</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568230">StreamClassCallAtNewPriority</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20PHW_PRIORITY_ROUTINE routine%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

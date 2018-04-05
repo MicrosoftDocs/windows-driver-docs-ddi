@@ -38,7 +38,8 @@ api_location:
 -	pointofservicedriverinterface.h
 api_name:
 -	LineDisplayGlyphDefinitionData
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: LineDisplayGlyphDefinitionData
 ---
@@ -50,17 +51,6 @@ req.typenames: LineDisplayGlyphDefinitionData
 
 
 This structure is not implemented.
-
-
-## -syntax
-
-
-````
-typedef struct _LineDisplayGlyphDefinitionData {
-  UINT32 glyphCode;
-  UINT32 dataLength;
-} LineDisplayGlyphDefinitionData;
-````
 
 
 ## -struct-fields

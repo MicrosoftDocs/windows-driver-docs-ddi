@@ -7,7 +7,7 @@ old-location: storage\hba_wwn.htm
 old-project: storage
 ms.assetid: 84441fde-1d66-4f76-86b7-dccd792afd0f
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PHBA_WWN, HBA_WWN, HBA_WWN structure [Storage Devices], HBA_wwn, HBA_wwn structure [Storage Devices], PHBA_WWN, PHBA_WWN structure pointer [Storage Devices], hbaapi/HBA_wwn, hbaapi/PHBA_WWN, storage.hba_wwn, structs-Fibre_89c3be90-1992-4d06-9a26-c3067dc69db8.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	hbaapi.h
 api_name:
 -	HBA_WWN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: HBA_WWN, *PHBA_WWN
 ---
@@ -50,16 +51,6 @@ req.typenames: HBA_WWN, *PHBA_WWN
 
 
 The HBA_wwn structure contains a 64 bit world-wide name (WWN) that uniquely identifies an HBA. 
-
-
-## -syntax
-
-
-````
-typedef struct HBA_wwn {
-  HBA_UINT8 wwn[8];
-} HBA_WWN, *PHBA_WWN;
-````
 
 
 ## -struct-fields
@@ -74,21 +65,19 @@ Contains a 64 bit world-wide name (WWN) that uniquely identifies an HBA. .
 
 ## -see-also
 
-<a href="..\hbaapi\ns-hbaapi-hba_portattributes.md">HBA_PortAttributes</a>
 
 
 
-<a href="..\hbaapi\ns-hbaapi-hba_adapterattributes.md">HBA_AdapterAttributes</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556044">HBA_AdapterAttributes</a>
 
 
 
-<a href="..\hbaapi\ns-hbaapi-hba_mgmtinfo.md">HBA_MgmtInfo</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557092">HBA_MgmtInfo</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557107">HBA_PortAttributes</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20HBA_wwn structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

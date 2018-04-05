@@ -3,17 +3,17 @@ UID: NE:rilapitypes.RILPHONEENTRYSTORELOCATION
 title: RILPHONEENTRYSTORELOCATION
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-old-location: netvista\rilphoneentrystorelocation_2.htm
+old-location: netvista\rilphoneentrystorelocation.htm
 old-project: netvista
-ms.assetid: f9166dfa-e895-4aca-8080-af3cfe9c143f
+ms.assetid: 2a20e9c8-a8f2-4519-a22b-2444c46ba13a
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: RILPHONEENTRYSTORELOCATION, RILPHONEENTRYSTORELOCATION enumeration [Network Drivers Starting with Windows Vista], RIL_PBLOC_ALL, RIL_PBLOC_OWNNUMBERS, RIL_PBLOC_UICCFIXDIALING, RIL_PBLOC_UICCPHONEBOOK, RIL_PBLOC_UICCSERVICEDIALING, netvista.rilphoneentrystorelocation_2, rilapitypes/RILPHONEENTRYSTORELOCATION, rilapitypes/RIL_PBLOC_ALL, rilapitypes/RIL_PBLOC_OWNNUMBERS, rilapitypes/RIL_PBLOC_UICCFIXDIALING, rilapitypes/RIL_PBLOC_UICCPHONEBOOK, rilapitypes/RIL_PBLOC_UICCSERVICEDIALING
+ms.date: 3/26/2018
+ms.keywords: RILPHONEENTRYSTORELOCATION, RILPHONEENTRYSTORELOCATION enumeration [Network Drivers Starting with Windows Vista], RIL_PBLOC_ALL, RIL_PBLOC_OWNNUMBERS, RIL_PBLOC_UICCFIXDIALING, RIL_PBLOC_UICCPHONEBOOK, RIL_PBLOC_UICCSERVICEDIALING, netvista.rilphoneentrystorelocation, ntddrilapitypes/RILPHONEENTRYSTORELOCATION, ntddrilapitypes/RIL_PBLOC_ALL, ntddrilapitypes/RIL_PBLOC_OWNNUMBERS, ntddrilapitypes/RIL_PBLOC_UICCFIXDIALING, ntddrilapitypes/RIL_PBLOC_UICCPHONEBOOK, ntddrilapitypes/RIL_PBLOC_UICCSERVICEDIALING
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: 
+req.include-header: Rilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -35,10 +35,11 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	rilapitypes.h
+-	ntddrilapitypes.h
 api_name:
 -	RILPHONEENTRYSTORELOCATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILPHONEENTRYSTORELOCATION
 req.product: Windows 10 or later.
@@ -50,21 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
-
-
-## -syntax
-
-
-````
-typedef enum _RILPHONEENTRYSTORELOCATION { 
-  RIL_PBLOC_UICCFIXDIALING,
-  RIL_PBLOC_OWNNUMBERS,
-  RIL_PBLOC_UICCPHONEBOOK,
-  RIL_PBLOC_UICCSERVICEDIALING,
-  RIL_PBLOC_ALL
-} RILPHONEENTRYSTORELOCATION;
-````
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 
 
 ## -enum-fields

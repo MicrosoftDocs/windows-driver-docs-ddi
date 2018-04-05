@@ -7,7 +7,7 @@ old-location: audio\iminiport.htm
 old-project: audio
 ms.assetid: 981a3560-473a-40b2-a1dc-4ab9dc618e67
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 3/19/2018
 ms.keywords: IMiniport, IMiniport interface [Audio Devices], IMiniport interface [Audio Devices], described, audio.iminiport, audmp-routines_8ecaedd2-12d2-420f-a5e7-0f71451cf989.xml, portcls/IMiniport
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	portcls.h
 api_name:
 -	IMiniport
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
@@ -55,37 +56,37 @@ The <code>IMiniport</code> interface is the generic miniport interface that all 
 <dl>
 <dd>
 
-<a href="..\dmusicks\nn-dmusicks-iminiportdmus.md">IMiniportDMus</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536699">IMiniportDMus</a>
 
 
 </dd>
 <dd>
 
-<a href="..\portcls\nn-portcls-iminiportmidi.md">IMiniportMidi</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536703">IMiniportMidi</a>
 
 
 </dd>
 <dd>
 
-<a href="..\portcls\nn-portcls-iminiporttopology.md">IMiniportTopology</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536712">IMiniportTopology</a>
 
 
 </dd>
 <dd>
 
-<a href="..\portcls\nn-portcls-iminiportwavecyclic.md">IMiniportWaveCyclic</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536714">IMiniportWaveCyclic</a>
 
 
 </dd>
 <dd>
 
-<a href="..\portcls\nn-portcls-iminiportwavepci.md">IMiniportWavePci</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536724">IMiniportWavePci</a>
 
 
 </dd>
 <dd>
 
-<a href="..\portcls\nn-portcls-iminiportwavert.md">IMiniportWaveRT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536737">IMiniportWaveRT</a>
 
 
 </dd>

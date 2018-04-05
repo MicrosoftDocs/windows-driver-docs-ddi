@@ -7,7 +7,7 @@ old-location: audio\iminiportwavertstreamnotification_registernotificationevent.
 old-project: audio
 ms.assetid: 269eccd8-e477-4082-930b-1f4b3e3706b9
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 3/19/2018
 ms.keywords: IMiniportWaveRTStreamNotification, IMiniportWaveRTStreamNotification interface [Audio Devices], RegisterNotificationEvent method, IMiniportWaveRTStreamNotification::RegisterNotificationEvent, RegisterNotificationEvent method [Audio Devices], RegisterNotificationEvent method [Audio Devices], IMiniportWaveRTStreamNotification interface, RegisterNotificationEvent,IMiniportWaveRTStreamNotification.RegisterNotificationEvent, audio.iminiportwavertstreamnotification_registernotificationevent, audmp-routines_82613ca5-1ae2-449d-8883-2d6ee50aecf7.xml, portcls/IMiniportWaveRTStreamNotification::RegisterNotificationEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: portcls.h
+req.lib: 
 req.dll: 
 req.irql: Passive level.
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	portcls.h
 api_name:
 -	IMiniportWaveRTStreamNotification.RegisterNotificationEvent
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
@@ -50,16 +51,6 @@ req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 
 
 The <code>RegisterNotificationEvent</code> method registers an event to be notified for DMA-driven event notification.
-
-
-## -syntax
-
-
-````
-NTSTATUS RegisterNotificationEvent(
-  [in] PKEVENT NotificationEvent
-);
-````
 
 
 ## -parameters
@@ -89,14 +80,17 @@ The port driver calls this method in response to a <a href="https://msdn.microso
 
 Typically, when DMA-driven event notification is enabled, the DMA hardware is programmed to generate hardware interrupts at the intended notification points in the cyclic audio buffer.  When the driver interrupt service routine (ISR) detects this interrupt, it queues a deferred procedure call (DPC).  The DPC, in turn, signals each registered event. We recommend using a try/except construct  around the event that signals the call.
 
-For more information about the behavior of the KSPROPERTY_RTAUDIO_REGISTER_NOTIFICATION_EVENT property, see the <a href="..\ksmedia\ns-ksmedia-ksrtaudio_notification_event_property.md">KSRTAUDIO_NOTIFICATION_EVENT_PROPERTY</a>.
+For more information about the behavior of the KSPROPERTY_RTAUDIO_REGISTER_NOTIFICATION_EVENT property, see the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537499">KSRTAUDIO_NOTIFICATION_EVENT_PROPERTY</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-ksrtaudio_notification_event_property.md">KSRTAUDIO_NOTIFICATION_EVENT_PROPERTY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536739">IMiniportWaveRTStreamNotification</a>
 
 
 
@@ -104,13 +98,8 @@ For more information about the behavior of the KSPROPERTY_RTAUDIO_REGISTER_NOTIF
 
 
 
-<a href="..\portcls\nn-portcls-iminiportwavertstreamnotification.md">IMiniportWaveRTStreamNotification</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537499">KSRTAUDIO_NOTIFICATION_EVENT_PROPERTY</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IMiniportWaveRTStreamNotification::RegisterNotificationEvent method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

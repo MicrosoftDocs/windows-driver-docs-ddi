@@ -7,7 +7,7 @@ old-location: print\oemdownloadfontheader.htm
 old-project: print
 ms.assetid: 3865a206-840c-4acf-97be-86764cf522db
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: OEMDownloadFontHeader, OEMDownloadFontHeader function [Print Devices], print.oemdownloadfontheader, print_obsoletefunctions_733001dd-14a7-43a6-b386-5be4b514ae0b.xml, printoem/OEMDownloadFontHeader
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	printoem.h
 api_name:
 -	OEMDownloadFontHeader
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STDVARIABLEINDEX
 req.product: Windows 10 or later.
@@ -50,17 +51,6 @@ req.product: Windows 10 or later.
 ## -description
 
 
-
-
-## -syntax
-
-
-````
-DWORD APIENTRY OEMDownloadFontHeader(
-   PDEVOBJ     pdevobj,
-   PUNIFONTOBJ pUFObj
-);
-````
 
 
 ## -parameters

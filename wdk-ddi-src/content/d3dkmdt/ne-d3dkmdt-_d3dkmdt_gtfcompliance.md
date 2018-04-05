@@ -7,7 +7,7 @@ old-location: display\d3dkmdt_gtfcompliance.htm
 old-project: display
 ms.assetid: f66bee69-206d-4e94-aca8-72f59569ab4a
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMDT_GTFCOMPLIANCE, D3DKMDT_GTFCOMPLIANCE enumeration [Display Devices], D3DKMDT_GTF_COMPLIANT, D3DKMDT_GTF_NOTCOMPLIANT, D3DKMDT_GTF_UNINITIALIZED, DmEnums_c8d6dc39-9079-444a-8441-49617eb1eede.xml, _D3DKMDT_GTFCOMPLIANCE, d3dkmdt/D3DKMDT_GTFCOMPLIANCE, d3dkmdt/D3DKMDT_GTF_COMPLIANT, d3dkmdt/D3DKMDT_GTF_NOTCOMPLIANT, d3dkmdt/D3DKMDT_GTF_UNINITIALIZED, display.d3dkmdt_gtfcompliance
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmdt.h
 api_name:
 -	D3DKMDT_GTFCOMPLIANCE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMDT_GTFCOMPLIANCE
 ---
@@ -50,18 +51,6 @@ req.typenames: D3DKMDT_GTFCOMPLIANCE
 
 
 The D3DKMDT_GTFCOMPLIANCE enumeration is reserved for system use. Do not use it in your driver.
-
-
-## -syntax
-
-
-````
-typedef enum _D3DKMDT_GTFCOMPLIANCE { 
-  D3DKMDT_GTF_UNINITIALIZED  = 0,
-  D3DKMDT_GTF_COMPLIANT      = 1,
-  D3DKMDT_GTF_NOTCOMPLIANT   = 2
-} D3DKMDT_GTFCOMPLIANCE;
-````
 
 
 ## -enum-fields

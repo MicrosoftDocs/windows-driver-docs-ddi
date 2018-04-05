@@ -7,7 +7,7 @@ old-location: netvista\ndisfrestartfilter.htm
 old-project: netvista
 ms.assetid: 8b0fc032-3ec0-4e18-a5f5-6409db8ae42d
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/26/2018
 ms.keywords: NdisFRestartFilter, NdisFRestartFilter function [Network Drivers Starting with Windows Vista], filter_ndis_functions_ref_c95250d0-3081-40cc-a39f-0d5c1ce51925.xml, ndis/NdisFRestartFilter, netvista.ndisfrestartfilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	ndis.dll
 api_name:
 -	NdisFRestartFilter
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
@@ -55,16 +56,6 @@ A filter driver calls the
   module.
 
 
-## -syntax
-
-
-````
-NDIS_STATUS NdisFRestartFilter(
-  _In_ NDIS_HANDLE NdisFilterHandle
-);
-````
-
-
 ## -parameters
 
 
@@ -74,7 +65,7 @@ NDIS_STATUS NdisFRestartFilter(
 
 The NDIS handle that identifies this filter module. NDIS passed the handle to the filter driver in
      a call to the 
-     <a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a> function.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a> function.
 
 
 ## -returns
@@ -96,7 +87,7 @@ The NDIS handle that identifies this filter module. NDIS passed the handle to th
 </td>
 <td width="60%">
 
-<a href="..\ndis\nf-ndis-ndisfrestartfilter.md">NdisFRestartFilter</a> returns NDIS_STATUS_SUCCESS if it started the restart operation.
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562611">NdisFRestartFilter</a> returns NDIS_STATUS_SUCCESS if it started the restart operation.
 
 </td>
 </tr>
@@ -108,7 +99,7 @@ The NDIS handle that identifies this filter module. NDIS passed the handle to th
 </td>
 <td width="60%">
 
-<a href="..\ndis\nf-ndis-ndisfrestartfilter.md">NdisFRestartFilter</a> failed because of insufficient resources.
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562611">NdisFRestartFilter</a> failed because of insufficient resources.
 
 </td>
 </tr>
@@ -120,7 +111,7 @@ The NDIS handle that identifies this filter module. NDIS passed the handle to th
 </td>
 <td width="60%">
 
-<a href="..\ndis\nf-ndis-ndisfrestartfilter.md">NdisFRestartFilter</a> returns NDIS_STATUS_FAILURE if none of the preceding values applies.
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562611">NdisFRestartFilter</a> returns NDIS_STATUS_FAILURE if none of the preceding values applies.
 
 </td>
 </tr>
@@ -140,10 +131,10 @@ The filter driver can change the filter module attributes at run time by calling
     module.
 
 Before NDIS restarts the filter module, it calls the 
-    <a href="..\ndis\nc-ndis-filter_set_module_options.md">FilterSetModuleOptions</a> function for the filter module. From 
+    <a href="https://msdn.microsoft.com/04b7ac32-8996-4648-8c88-aa9f630b1bc4">FilterSetModuleOptions</a> function for the filter module. From 
     its <i>FilterSetModuleOptions</i> function, the filter driver can change the data handlers for that filter module by
     calling the 
-    <a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a> function
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff564550">NdisSetOptionalHandlers</a> function
     and specifying a new set of handlers.
 
 
@@ -151,21 +142,19 @@ Before NDIS restarts the filter module, it calls the
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a>
 
 
 
-<a href="..\ndis\nc-ndis-filter_set_module_options.md">FilterSetModuleOptions</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a>
 
 
 
-<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
+<a href="https://msdn.microsoft.com/04b7ac32-8996-4648-8c88-aa9f630b1bc4">FilterSetModuleOptions</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564550">NdisSetOptionalHandlers</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisFRestartFilter function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

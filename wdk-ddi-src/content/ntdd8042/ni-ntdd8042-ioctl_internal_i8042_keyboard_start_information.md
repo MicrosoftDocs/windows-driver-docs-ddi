@@ -38,18 +38,14 @@ api_location:
 -	ntdd8042.h
 api_name:
 -	IOCTL_INTERNAL_I8042_KEYBOARD_START_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MOUSE_STATE, *PMOUSE_STATE
 ---
 
 # IOCTL_INTERNAL_I8042_KEYBOARD_START_INFORMATION IOCTL
 
-
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -67,12 +63,12 @@ The IOCTL_INTERNAL_I8042_KEYBOARD_START_INFORMATION request passes a pointer to 
 
 ### -input-buffer
 
-<b>AssociatedIrp.SystemBuffer</b> points to a buffer allocated by I8042prt to input an <a href="..\ntdd8042\ns-ntdd8042-_internal_i8042_start_information.md">INTERNAL_I8042_START_INFORMATION</a> structure.
+<b>AssociatedIrp.SystemBuffer</b> points to a buffer allocated by I8042prt to input an <a href="https://msdn.microsoft.com/library/windows/hardware/ff541052">INTERNAL_I8042_START_INFORMATION</a> structure.
 
 
 ### -input-buffer-length
 
-<b>Parameters.DeviceIoControl.InputBufferLength</b> specifies the size, in bytes, of an <a href="..\ntdd8042\ns-ntdd8042-_internal_i8042_start_information.md">INTERNAL_I8042_START_INFORMATION</a> structure.
+<b>Parameters.DeviceIoControl.InputBufferLength</b> specifies the size, in bytes, of an <a href="https://msdn.microsoft.com/library/windows/hardware/ff541052">INTERNAL_I8042_START_INFORMATION</a> structure.
 
 
 ### -output-buffer
@@ -112,13 +108,11 @@ The <b>Status</b> member is set to STATUS_SUCCESS.
 
 ## -see-also
 
-<a href="..\ntdd8042\ns-ntdd8042-_internal_i8042_start_information.md">INTERNAL_I8042_START_INFORMATION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541052">INTERNAL_I8042_START_INFORMATION</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [hid\hid]:%20IOCTL_INTERNAL_I8042_KEYBOARD_START_INFORMATION control code%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

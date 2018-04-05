@@ -7,7 +7,7 @@ old-location: audio\iportwavepci_newmasterdmachannel.htm
 old-project: audio
 ms.assetid: a4128541-1982-413d-a013-422ca1cf4542
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 3/19/2018
 ms.keywords: IPortWavePci, IPortWavePci interface [Audio Devices], NewMasterDmaChannel method, IPortWavePci::NewMasterDmaChannel, NewMasterDmaChannel method [Audio Devices], NewMasterDmaChannel method [Audio Devices], IPortWavePci interface, NewMasterDmaChannel,IPortWavePci.NewMasterDmaChannel, audio.iportwavepci_newmasterdmachannel, audmp-routines_01c562e8-f0b7-4232-9595-2312175c097f.xml, portcls/IPortWavePci::NewMasterDmaChannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: portcls.h
+req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	portcls.h
 api_name:
 -	IPortWavePci.NewMasterDmaChannel
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
@@ -50,27 +51,6 @@ req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 
 
 The <code>NewMasterDmaChannel</code> method creates a new instance of a bus-master DMA channel.
-
-
-## -syntax
-
-
-````
-NTSTATUS NewMasterDmaChannel(
-  [out]          PDMACHANNEL   *DmaChannel,
-  [in, optional] PUNKNOWN      OuterUnknown,
-  [in]           POOL_TYPE     PoolType,
-  [in, optional] PRESOURCELIST ResourceList,
-  [in]           BOOLEAN       ScatterGather,
-  [in]           BOOLEAN       Dma32BitAddresses,
-  [in]           BOOLEAN       Dma64BitAddresses,
-  [in]           BOOLEAN       IgnoreCount,
-  [in]           DMA_WIDTH     DmaWidth,
-  [in]           DMA_SPEED     DmaSpeed,
-  [in]           ULONG         MaximumLength,
-  [in]           ULONG         DmaPort
-);
-````
 
 
 ## -parameters
@@ -90,12 +70,12 @@ Pointer to the <b>IUnknown</b> interface of an object that needs to aggregate th
 
 ### -param PoolType [in]
 
-Specifies the type of storage pool from which the object is to be allocated. This is a <a href="..\wudfwdm\ne-wudfwdm-_pool_type.md">POOL_TYPE</a> enumeration value. Specify a nonpaged pool type for this parameter.
+Specifies the type of storage pool from which the object is to be allocated. This is a <a href="https://msdn.microsoft.com/library/windows/hardware/ff559707">POOL_TYPE</a> enumeration value. Specify a nonpaged pool type for this parameter.
 
 
 ### -param ResourceList [in, optional]
 
-Pointer to the miniport driver's resource list, which is an <a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a> object. This parameter is optional and can be specified as <b>NULL</b>. The <code>NewMasterDmaChannel</code> method currently makes no use of this parameter.
+Pointer to the miniport driver's resource list, which is an <a href="https://msdn.microsoft.com/library/windows/hardware/ff536976">IResourceList</a> object. This parameter is optional and can be specified as <b>NULL</b>. The <code>NewMasterDmaChannel</code> method currently makes no use of this parameter.
 
 
 ### -param ScatterGather [in]
@@ -140,7 +120,7 @@ Not used. Set to 0.
 
 #### - DmaChannel [out]
 
-Output pointer for the DMA channel. This parameter points to a caller-allocated pointer variable into which the method writes a pointer to the new DMA-channel object's <a href="..\portcls\nn-portcls-idmachannel.md">IDmaChannel</a> interface.
+Output pointer for the DMA channel. This parameter points to a caller-allocated pointer variable into which the method writes a pointer to the new DMA-channel object's <a href="https://msdn.microsoft.com/library/windows/hardware/ff536547">IDmaChannel</a> interface.
 
 
 ## -returns
@@ -156,7 +136,7 @@ Output pointer for the DMA channel. This parameter points to a caller-allocated 
 
 
 
-The definitions of the call parameters for the <code>NewMasterDmaChannel</code> method are similar to those for the members of the <a href="..\wdm\ns-wdm-_device_description.md">DEVICE_DESCRIPTION</a> structure with the same names.
+The definitions of the call parameters for the <code>NewMasterDmaChannel</code> method are similar to those for the members of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543107">DEVICE_DESCRIPTION</a> structure with the same names.
 
 Specify the <i>PoolType</i> parameter to be one of the nonpaged pool types defined in the POOL_TYPE enumeration. The DMA-channel object must not reside in paged memory because several of the methods in the <b>IDmaChannel</b> interface can be called from IRQL DISPATCH_LEVEL.
 
@@ -167,29 +147,27 @@ The <i>DmaChannel</i>, <i>OuterUnknown</i>, and <i>ResourceList</i> parameters f
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-idmachannel.md">IDmaChannel</a>
 
 
 
-<a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543107">DEVICE_DESCRIPTION</a>
 
 
 
-<a href="..\portcls\nn-portcls-iportwavepci.md">IPortWavePci</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536547">IDmaChannel</a>
 
 
 
-<a href="..\wdm\ns-wdm-_device_description.md">DEVICE_DESCRIPTION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536905">IPortWavePci</a>
 
 
 
-<a href="..\wudfwdm\ne-wudfwdm-_pool_type.md">POOL_TYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536976">IResourceList</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559707">POOL_TYPE</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IPortWavePci::NewMasterDmaChannel method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

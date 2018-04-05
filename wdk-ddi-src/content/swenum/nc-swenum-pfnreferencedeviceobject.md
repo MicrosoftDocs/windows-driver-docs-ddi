@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KStrReferenceDeviceObject
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STREAM_TIME_REFERENCE, *PSTREAM_TIME_REFERENCE
 req.product: Windows 10 or later.
@@ -51,19 +52,6 @@ req.product: Windows 10 or later.
 
 
 The driver can use this routine to increment the reference count of the PDO.
-
-
-## -prototype
-
-
-````
-PFNREFERENCEDEVICEOBJECT KStrReferenceDeviceObject;
-
-VOID KStrReferenceDeviceObject(
-  _In_ PVOID Context
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -89,7 +77,7 @@ None.
 
 
 
-The driver can access this method through the <b>ReferenceDeviceObject</b> member of the <a href="..\ks\ns-ks-bus_interface_reference.md">BUS_INTERFACE_REFERENCE</a> structure.
+The driver can access this method through the <b>ReferenceDeviceObject</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557584">BUS_INTERFACE_REFERENCE</a> structure.
 
 The device object remains active and enumerated until the reference count returns to 0.
 

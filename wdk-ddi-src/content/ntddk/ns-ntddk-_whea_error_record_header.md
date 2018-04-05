@@ -38,7 +38,8 @@ api_location:
 -	ntddk.h
 api_name:
 -	WHEA_ERROR_RECORD_HEADER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WHEA_ERROR_RECORD_HEADER, *PWHEA_ERROR_RECORD_HEADER
 ---
@@ -50,31 +51,6 @@ req.typenames: WHEA_ERROR_RECORD_HEADER, *PWHEA_ERROR_RECORD_HEADER
 
 
 The WHEA_ERROR_RECORD_HEADER structure describes general information about a hardware error condition.
-
-
-## -syntax
-
-
-````
-typedef struct _WHEA_ERROR_RECORD_HEADER {
-  ULONG                              Signature;
-  WHEA_REVISION                      Revision;
-  ULONG                              SignatureEnd;
-  USHORT                             SectionCount;
-  WHEA_ERROR_SEVERITY                Severity;
-  WHEA_ERROR_RECORD_HEADER_VALIDBITS ValidBits;
-  ULONG                              Length;
-  WHEA_TIMESTAMP                     Timestamp;
-  GUID                               PlatformId;
-  GUID                               PartitionId;
-  GUID                               CreatorId;
-  GUID                               NotifyType;
-  ULONGLONG                          RecordId;
-  WHEA_ERROR_RECORD_HEADER_FLAGS     Flags;
-  WHEA_PERSISTENCE_INFO              PersistenceInfo;
-  UCHAR                              Reserved[12];
-} WHEA_ERROR_RECORD_HEADER, *PWHEA_ERROR_RECORD_HEADER;
-````
 
 
 ## -struct-fields
@@ -89,7 +65,7 @@ The signature of the error record. This member contains the value 'REPC'.
 
 ### -field Revision
 
-A <a href="..\ntddk\ns-ntddk-_whea_revision.md">WHEA_REVISION</a> union that describes the revision level of the WHEA_ERROR_RECORD_HEADER structure.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff560623">WHEA_REVISION</a> union that describes the revision level of the WHEA_ERROR_RECORD_HEADER structure.
 
 
 ### -field SignatureEnd
@@ -104,12 +80,12 @@ The number of sections of error information that are contained in the error reco
 
 ### -field Severity
 
-A <a href="..\ntddk\ne-ntddk-_whea_error_severity.md">WHEA_ERROR_SEVERITY</a>-typed value that indicates the severity of the error condition described by the error record.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff560503">WHEA_ERROR_SEVERITY</a>-typed value that indicates the severity of the error condition described by the error record.
 
 
 ### -field ValidBits
 
-A <a href="..\ntddk\ns-ntddk-_whea_error_record_header_validbits.md">WHEA_ERROR_RECORD_HEADER_VALIDBITS</a> union that specifies which members of the WHEA_ERROR_RECORD_HEADER structure contain valid data.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff560493">WHEA_ERROR_RECORD_HEADER_VALIDBITS</a> union that specifies which members of the WHEA_ERROR_RECORD_HEADER structure contain valid data.
 
 
 ### -field Length
@@ -119,7 +95,7 @@ The length, in bytes, of the error record.
 
 ### -field Timestamp
 
-A <a href="..\ntddk\ns-ntddk-_whea_timestamp.md">WHEA_TIMESTAMP</a> union that indicates the time that the error was reported to the operating system. This member contains valid data only if the <b>ValidBits.Timestamp</b> bit is set.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff560629">WHEA_TIMESTAMP</a> union that indicates the time that the error was reported to the operating system. This member contains valid data only if the <b>ValidBits.Timestamp</b> bit is set.
 
 
 ### -field PlatformId
@@ -250,7 +226,7 @@ A ULONG representation of the contents of the WHEA_ERROR_RECORD_HEADER_FLAGS uni
 
 ### -field PersistenceInfo
 
-A <a href="..\ntddk\ns-ntddk-_whea_persistence_info.md">WHEA_PERSISTENCE_INFO</a> union that is used by the error record persistence interface.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff560599">WHEA_PERSISTENCE_INFO</a> union that is used by the error record persistence interface.
 
 
 ### -field Reserved
@@ -262,40 +238,38 @@ Reserved for system use.
 
 
 
-A WHEA_ERROR_RECORD_HEADER structure is contained within the <a href="..\ntddk\ns-ntddk-_whea_error_record.md">WHEA_ERROR_RECORD</a> structure. The WHEA_ERROR_RECORD_HEADER structure describes general information about the hardware error condition that is described by the error record.
+A WHEA_ERROR_RECORD_HEADER structure is contained within the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560483">WHEA_ERROR_RECORD</a> structure. The WHEA_ERROR_RECORD_HEADER structure describes general information about the hardware error condition that is described by the error record.
 
 
 
 
 ## -see-also
 
-<a href="..\ntddk\ne-ntddk-_whea_error_severity.md">WHEA_ERROR_SEVERITY</a>
 
 
 
-<a href="..\ntddk\ns-ntddk-_whea_persistence_info.md">WHEA_PERSISTENCE_INFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560483">WHEA_ERROR_RECORD</a>
 
 
 
-<a href="..\ntddk\ns-ntddk-_whea_timestamp.md">WHEA_TIMESTAMP</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560493">WHEA_ERROR_RECORD_HEADER_VALIDBITS</a>
 
 
 
-<a href="..\ntddk\ns-ntddk-_whea_error_record_header_validbits.md">WHEA_ERROR_RECORD_HEADER_VALIDBITS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560503">WHEA_ERROR_SEVERITY</a>
 
 
 
-<a href="..\ntddk\ns-ntddk-_whea_error_record.md">WHEA_ERROR_RECORD</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560599">WHEA_PERSISTENCE_INFO</a>
 
 
 
-<a href="..\ntddk\ns-ntddk-_whea_revision.md">WHEA_REVISION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560623">WHEA_REVISION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560629">WHEA_TIMESTAMP</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [whea\whea]:%20WHEA_ERROR_RECORD_HEADER structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

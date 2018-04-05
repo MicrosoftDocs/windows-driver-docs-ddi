@@ -7,7 +7,7 @@ old-location: display\dxgk_multiplane_overlay_vsync_info2.htm
 old-project: display
 ms.assetid: CC1371C5-1BAB-458C-BC7F-9844B2BBEA3A
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO2, DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO2 structure [Display Devices], _DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO2, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO2, display.dxgk_multiplane_overlay_vsync_info2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO2
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO2
 ---
@@ -50,18 +51,6 @@ req.typenames: DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO2
 
 
 Used by new drivers to report per-plane flip completion after a VSYNC.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO2 {
-  DWORD                         LayerIndex;
-  ULONGLONG                     PresentId;
-  DXGKCB_NOTIFY_MPO_VSYNC_FLAGS Flags;
-} DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO2;
-````
 
 
 ## -struct-fields

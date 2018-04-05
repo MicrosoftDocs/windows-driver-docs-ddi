@@ -7,7 +7,7 @@ old-location: print\ifixedpage_getwritestream.htm
 old-project: print
 ms.assetid: 1a095d51-b727-4d89-aa7c-f43998db4c2e
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 2/26/2018
 ms.keywords: GetWriteStream method [Print Devices], GetWriteStream method [Print Devices], IFixedPage interface, GetWriteStream,IFixedPage.GetWriteStream, IFixedPage, IFixedPage interface [Print Devices], GetWriteStream method, IFixedPage::GetWriteStream, filterpipeline/IFixedPage::GetWriteStream, filterpipeline_f253c020-8d3d-44c1-a9fb-e5093c29a637.xml, print.ifixedpage_getwritestream
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: filterpipeline.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	filterpipeline.h
 api_name:
 -	IFixedPage.GetWriteStream
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
@@ -50,16 +51,6 @@ req.typenames: EXpsFontRestriction
 
 
 The <b>GetWriteStream</b> method retrieves the stream object to write page markup to  read . You can use this stream to change page markup.
-
-
-## -syntax
-
-
-````
-HRESULT GetWriteStream(
-  [out] IPrintWriteStream **ppWriteStream
-);
-````
 
 
 ## -parameters

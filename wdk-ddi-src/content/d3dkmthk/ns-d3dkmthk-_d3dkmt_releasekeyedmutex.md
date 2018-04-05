@@ -7,7 +7,7 @@ old-location: display\d3dkmt_releasekeyedmutex.htm
 old-project: display
 ms.assetid: 0ba40b4e-2e1d-45fa-9222-e162a39eea33
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMT_RELEASEKEYEDMUTEX, D3DKMT_RELEASEKEYEDMUTEX structure [Display Devices], OpenGL_Structs_6f167c25-afb8-4ddc-9441-be713bba78f4.xml, _D3DKMT_RELEASEKEYEDMUTEX, d3dkmthk/D3DKMT_RELEASEKEYEDMUTEX, display.d3dkmt_releasekeyedmutex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmthk.h
 api_name:
 -	D3DKMT_RELEASEKEYEDMUTEX
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_RELEASEKEYEDMUTEX
 ---
@@ -49,19 +50,7 @@ req.typenames: D3DKMT_RELEASEKEYEDMUTEX
 ## -description
 
 
-The D3DKMT_RELEASEKEYEDMUTEX structure describes a keyed mutex that the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtreleasekeyedmutex.md">D3DKMTReleaseKeyedMutex</a> function releases. 
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_RELEASEKEYEDMUTEX {
-  D3DKMT_HANDLE hKeyedMutex;
-  UINT64        Key;
-  UINT64        FenceValue;
-} D3DKMT_RELEASEKEYEDMUTEX;
-````
+The D3DKMT_RELEASEKEYEDMUTEX structure describes a keyed mutex that the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547129">D3DKMTReleaseKeyedMutex</a> function releases. 
 
 
 ## -struct-fields
@@ -86,13 +75,11 @@ typedef struct _D3DKMT_RELEASEKEYEDMUTEX {
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtreleasekeyedmutex.md">D3DKMTReleaseKeyedMutex</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547129">D3DKMTReleaseKeyedMutex</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMT_RELEASEKEYEDMUTEX structure%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

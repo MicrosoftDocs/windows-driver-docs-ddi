@@ -7,7 +7,7 @@ old-location: display\d3d12ddi_video_process_references_info.htm
 old-project: display
 ms.assetid: 63DB66FB-E02B-4C5E-AC7A-654E9D70435A
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: D3D12DDI_VIDEO_PROCESS_REFERENCES_INFO_0020, D3D12DDI_VIDEO_PROCESS_REFERENCES_INFO_0020 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_PROCESS_REFERENCES_INFO_0020, display.d3d12ddi_video_process_references_info
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3d12umddi.h
 api_name:
 -	D3D12DDI_VIDEO_PROCESS_REFERENCES_INFO_0020
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D12DDI_VIDEO_PROCESS_REFERENCES_INFO_0020
 ---
@@ -50,21 +51,6 @@ req.typenames: D3D12DDI_VIDEO_PROCESS_REFERENCES_INFO_0020
 
 
 Contains the reference frames needed to perform video processing.
-
-
-## -syntax
-
-
-````
-typedef struct D3D12DDI_VIDEO_PROCESS_REFERENCES_INFO_0020 {
-  UINT               NumPastFrames;
-  D3D12DDI_HRESOURCE *hDrvPastFrames;
-  UINT               *pPastSubresources;
-  UINT               NumFutureFrames;
-  D3D12DDI_HRESOURCE *hDrvFutureFrames;
-  UINT               *pFutureSubresources;
-} D3D12DDI_VIDEO_PROCESS_REFERENCES_INFO_0020;
-````
 
 
 ## -struct-fields

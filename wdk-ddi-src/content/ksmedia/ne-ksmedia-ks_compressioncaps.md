@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KS_CompressionCaps
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KS_CompressionCaps
 ---
@@ -50,20 +51,6 @@ req.typenames: KS_CompressionCaps
 
 
 The KS_CompressionCaps enumeration defines compression capabilities of a device.
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  KS_CompressionCaps_CanQuality   = 1,
-  KS_CompressionCaps_CanCrunch    = 2,
-  KS_CompressionCaps_CanKeyFrame  = 4,
-  KS_CompressionCaps_CanBFrame    = 8,
-  KS_CompressionCaps_CanWindow    = 0x10
-} KS_CompressionCaps;
-````
 
 
 ## -enum-fields
@@ -78,7 +65,7 @@ The video compressor supports quality settings.
 
 ### -field KS_CompressionCaps_CanCrunch
 
-The video compressor can compress the video to a specified data rate. If a minidriver supports this capability, the <b>dwBitRate</b> member of the <a href="..\ksmedia\ns-ksmedia-tagks_videoinfoheader.md">KS_VIDEOINFOHEADER</a> structure specifies the default data rate.
+The video compressor can compress the video to a specified data rate. If a minidriver supports this capability, the <b>dwBitRate</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567700">KS_VIDEOINFOHEADER</a> structure specifies the default data rate.
 
 
 ### -field KS_CompressionCaps_CanKeyFrame
@@ -98,17 +85,15 @@ The video compressor supports a user-specified window size (that is, the number 
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-tagks_videoinfoheader.md">KS_VIDEOINFOHEADER</a>
 
 
 
-<a href="..\ksmedia\ns-ksmedia-ksproperty_videocompression_getinfo_s.md">KSPROPERTY_VIDEOCOMPRESSION_GETINFO_S</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565979">KSPROPERTY_VIDEOCOMPRESSION_GETINFO_S</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567700">KS_VIDEOINFOHEADER</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KS_CompressionCaps enumeration%20 RELEASE:%20(2/23/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: storage\storportlogtelemetry.htm
 old-project: storage
 ms.assetid: 3B32F31C-3850-43D4-9C6E-40D35B8AF4D4
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: StorPortLogTelemetry, StorPortLogTelemetry routine [Storage Devices], storage.storportlogtelemetry, storport/StorPortLogTelemetry
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: NtosKrnl.exe
+req.lib: 
 req.dll: 
 req.irql: Any
 topic_type:
@@ -38,7 +38,8 @@ api_location:
 -	storport.h
 api_name:
 -	StorPortLogTelemetry
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STOR_SPINLOCK
 req.product: Windows 10 or later.
@@ -50,19 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>StorPortLogTelemetry</b> routine logs a miniport telemetry event to help diagnose or collect any useful information. The miniport can log eight general purpose name-value pairs and a buffer that has maximum length of 4KB, as well as several event related fields that are defined in structure <a href="..\storport\ns-storport-_storport_telemetry_event.md">STORPORT_TELEMETRY_EVENT</a>.
-
-
-## -syntax
-
-
-````
-ULONG StorPortLogTelemetry(
-  _In_     PVOID                     HwDeviceExtension ,
-  _In_opt_ PSTOR_ADDRESS             StorAddress,
-  _In_     PSTORPORT_TELEMETRY_EVENT Event
-);
-````
+The <b>StorPortLogTelemetry</b> routine logs a miniport telemetry event to help diagnose or collect any useful information. The miniport can log eight general purpose name-value pairs and a buffer that has maximum length of 4KB, as well as several event related fields that are defined in structure <a href="https://msdn.microsoft.com/50A3EB6D-C485-4C04-8E88-9BD7D7ED0A62">STORPORT_TELEMETRY_EVENT</a>.
 
 
 ## -parameters
@@ -82,7 +71,7 @@ The storage unit device address. This parameter is NULL for adapter devices.
 
 ### -param Event [in]
 
-Pointer to the <a href="..\storport\ns-storport-_storport_telemetry_event.md">STORPORT_TELEMETRY_EVENT</a> structure that contains the telemetry data payload.
+Pointer to the <a href="https://msdn.microsoft.com/50A3EB6D-C485-4C04-8E88-9BD7D7ED0A62">STORPORT_TELEMETRY_EVENT</a> structure that contains the telemetry data payload.
 
 
 ## -returns
@@ -160,13 +149,11 @@ If miniport has no payload to fill in Event-&gt;EventBuffer, it should set Event
 
 ## -see-also
 
-<a href="..\storport\ns-storport-_storport_telemetry_event.md">STORPORT_TELEMETRY_EVENT</a>
 
 
 
+<a href="https://msdn.microsoft.com/50A3EB6D-C485-4C04-8E88-9BD7D7ED0A62">STORPORT_TELEMETRY_EVENT</a>
  
 
  
-
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20StorPortLogTelemetry routine%20 RELEASE:%20(2/24/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 
