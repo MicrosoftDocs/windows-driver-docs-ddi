@@ -2,10 +2,10 @@
 UID: NF:icm.ColorAdapterGetDisplayTargetWhitePoint
 title: ColorAdapterGetDisplayTargetWhitePoint function
 author: windows-driver-content
-description: TBD
+description:
 ms.assetid: 47b7a4fc-209d-4a30-b58c-e5d7d844db87
 ms.author: windowsdriverdev
-ms.date: 
+ms.date:
 ms.topic: function
 ms.keywords: ColorAdapterGetDisplayTargetWhitePoint
 req.header: icm.h
@@ -17,22 +17,22 @@ req.kmdf-ver:
 req.umdf-ver:
 req.lib:
 req.dll:
-req.irql: 
+req.irql:
 req.ddi-compliance:
 req.unicode-ansi:
 req.idl:
 req.max-support:
 req.namespace:
 req.assembly:
-req.type-library: 
-topic_type: 
--	apiref
-api_type: 
--	DllExport
-api_location: 
--	NtosKrnl.exe
-api_name: 
--	ColorAdapterGetDisplayTargetWhitePoint
+req.type-library:
+topic_type:
+-   apiref
+api_type:
+-   DllExport
+api_location:
+-   NtosKrnl.exe
+api_name:
+-   ColorAdapterGetDisplayTargetWhitePoint
 product: Windows
 targetos: Windows
 
@@ -43,18 +43,18 @@ targetos: Windows
 
 ## -description
 
-TBD
+
 
 ## -parameters
 
 ### -param displayID
-TBD
+
 ### -param wtpt
-TBD
+
 ### -param transitionTime
-TBD
+
 ### -param whitepointID
-TBD
+
 
 ## -returns
 This function returns HRESULT.
