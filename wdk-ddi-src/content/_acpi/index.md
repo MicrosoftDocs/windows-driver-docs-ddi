@@ -13,7 +13,7 @@ ms.topic: portal
 
 ## -description
 
-This section contains reference documentation for developing drivers to interface with ACPI devices. ACPI devices are defined by the [Advanced Configuration and Power Interface (ACPI) Specification](https://go.microsoft.com/fwlink/p/?linkid=866846).
+Overview of the ACPI technology.
 
 To develop ACPI, you need these headers:
 
@@ -23,3 +23,4 @@ To develop ACPI, you need these headers:
 
 For the programming guide, see [ACPI](https://docs.microsoft.com/en-us/windows-hardware/drivers/acpi).
 
+This section contains reference documentation for developing drivers to interface with ACPI devices. ACPI devices are defined by the [Advanced Configuration and Power Interface (ACPI) Specification](https://go.microsoft.com/fwlink/p/?linkid=866846).
