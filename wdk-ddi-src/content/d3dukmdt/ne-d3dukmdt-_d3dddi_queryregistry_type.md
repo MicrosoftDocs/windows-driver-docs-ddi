@@ -2,12 +2,12 @@
 UID: NE:d3dukmdt._D3DDDI_QUERYREGISTRY_TYPE
 title: _D3DDDI_QUERYREGISTRY_TYPE
 author: windows-driver-content
-description: 
+description:
 ms.assetid: c01641d0-ff58-4e3a-9f2e-e8918c84b4b5
 ms.author: windowsdriverdev
-ms.date: 
+ms.date:
 ms.topic: enum
-ms.keywords: _D3DDDI_QUERYREGISTRY_TYPE, D3DDDI_QUERYREGISTRY_TYPE, 
+ms.keywords: _D3DDDI_QUERYREGISTRY_TYPE, D3DDDI_QUERYREGISTRY_TYPE,
 ms.prod: windows-hardware
 ms.technology: windows-devices
 req.header: d3dukmdt.h
@@ -20,13 +20,13 @@ req.umdf-ver:
 req.ddi-compliance:
 req.max-support:
 req.typenames: D3DDDI_QUERYREGISTRY_TYPE
-topictype: 
+topictype:
 -	apiref
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dukmdt.h
-apiname: 
+apiname:
 -	_D3DDDI_QUERYREGISTRY_TYPE
 product: Windows
 targetos: Windows
@@ -36,15 +36,23 @@ targetos: Windows
 
 ## -description
 
-
+Used to query the registry type.
 
 ## -enum-fields
 
-### -field D3DDDI_QUERYREGISTRY_SERVICEKEY : 
-### -field D3DDDI_QUERYREGISTRY_ADAPTERKEY : 
-### -field D3DDDI_QUERYREGISTRY_DRIVERSTOREPATH : 
-### -field D3DDDI_QUERYREGISTRY_MAX : 
+### -field D3DDDI_QUERYREGISTRY_SERVICEKEY
 
-## -remarks
+Service key.
 
-## -see-also
+### -field D3DDDI_QUERYREGISTRY_ADAPTERKEY
+
+Adapter key.
+
+### -field D3DDDI_QUERYREGISTRY_DRIVERSTOREPATH
+
+Driver store path.
+
+### -field D3DDDI_QUERYREGISTRY_MAX
+
+Max.
+

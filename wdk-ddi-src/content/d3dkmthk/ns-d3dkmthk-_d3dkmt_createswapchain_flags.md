@@ -2,14 +2,14 @@
 UID: NS:d3dkmthk._D3DKMT_CREATESWAPCHAIN_FLAGS
 title: _D3DKMT_CREATESWAPCHAIN_FLAGS
 author: windows-driver-content
-description: 
+description:
 ms.assetid: c3eaaff2-9597-41f8-959f-04defe5494d8
 ms.author: windowsdriverdev
-ms.date: 
+ms.date:
 ms.topic: struct
 ms.prod: windows-hardware
 ms.technology: windows-devices
-ms.keywords: _D3DKMT_CREATESWAPCHAIN_FLAGS, D3DKMT_CREATESWAPCHAIN_FLAGS, 
+ms.keywords: _D3DKMT_CREATESWAPCHAIN_FLAGS, D3DKMT_CREATESWAPCHAIN_FLAGS,
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:
@@ -23,13 +23,13 @@ req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_CREATESWAPCHAIN_FLAGS
-topictype: 
+topictype:
 -	apiref
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmthk.h
-apiname: 
+apiname:
 -	_D3DKMT_CREATESWAPCHAIN_FLAGS
 product: Windows
 targetos: Windows
@@ -39,18 +39,23 @@ targetos: Windows
 
 ## -description
 
+Contains the type of flags to create a swap chain.
 
 ## -struct-fields
 
 ### -field FailAcquireIfSurfaceBusy
- 
+
+Indicates if acquires fail if surface still busy.
+
 ### -field NonSequential
- 
+
+The contents of the swap chain is not in order.
+
 ### -field Reserved
- 
+
+Reserved.
+
 ### -field Value
- 
 
-## -remarks
+Value of the swap chain.
 
-## -see-also

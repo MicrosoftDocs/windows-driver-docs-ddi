@@ -2,12 +2,12 @@
 UID: NE:d3dukmdt._D3DDDI_QUERYREGISTRY_STATUS
 title: _D3DDDI_QUERYREGISTRY_STATUS
 author: windows-driver-content
-description: 
+description:
 ms.assetid: f7d2e2ff-ba33-4685-82dc-47c9d74b08d0
 ms.author: windowsdriverdev
-ms.date: 
+ms.date:
 ms.topic: enum
-ms.keywords: _D3DDDI_QUERYREGISTRY_STATUS, D3DDDI_QUERYREGISTRY_STATUS, 
+ms.keywords: _D3DDDI_QUERYREGISTRY_STATUS, D3DDDI_QUERYREGISTRY_STATUS,
 ms.prod: windows-hardware
 ms.technology: windows-devices
 req.header: d3dukmdt.h
@@ -20,13 +20,13 @@ req.umdf-ver:
 req.ddi-compliance:
 req.max-support:
 req.typenames: D3DDDI_QUERYREGISTRY_STATUS
-topictype: 
+topictype:
 -	apiref
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dukmdt.h
-apiname: 
+apiname:
 -	_D3DDDI_QUERYREGISTRY_STATUS
 product: Windows
 targetos: Windows
@@ -36,15 +36,22 @@ targetos: Windows
 
 ## -description
 
-
+Query registry status.
 
 ## -enum-fields
 
-### -field D3DDDI_QUERYREGISTRY_STATUS_SUCCESS : 
-### -field D3DDDI_QUERYREGISTRY_STATUS_BUFFER_OVERFLOW : 
-### -field D3DDDI_QUERYREGISTRY_STATUS_FAIL : 
-### -field D3DDDI_QUERYREGISTRY_STATUS_MAX : 
+### -field D3DDDI_QUERYREGISTRY_STATUS_SUCCESS
 
-## -remarks
+Success.
 
-## -see-also
+### -field D3DDDI_QUERYREGISTRY_STATUS_BUFFER_OVERFLOW
+
+Buffer overflow.
+
+### -field D3DDDI_QUERYREGISTRY_STATUS_FAIL
+
+Fail.
+
+### -field D3DDDI_QUERYREGISTRY_STATUS_MAX
+
+Max.

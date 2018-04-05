@@ -147,6 +147,17 @@ The display miniport driver can optionally provide private data that the user-mo
 
 Supported starting with Windows 8.1.
 
+### -field DXGK_INTERRUPT_SCHEDULING_LOG_INTERRUPT
+
+Raised during a scheduling log interrupt. Supported starting with Windows 10.
+
+### -field DXGK_INTERRUPT_GPU_ENGINE_TIMEOUT
+
+Raised when the GPU engine has timed out. Supported starting with Windows 10.
+
+### -field DXGK_INTERRUPT_SUSPEND_CONTEXT_COMPLETED
+
+Raised when the the suspend context has completed. Supported starting with Windows 10.
 
 ## -see-also
 

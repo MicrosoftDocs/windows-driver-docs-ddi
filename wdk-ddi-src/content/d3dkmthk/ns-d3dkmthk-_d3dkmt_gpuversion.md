@@ -2,14 +2,14 @@
 UID: NS:d3dkmthk._D3DKMT_GPUVERSION
 title: _D3DKMT_GPUVERSION
 author: windows-driver-content
-description: 
+description:
 ms.assetid: 52bc5bb2-d9ea-4084-9ece-b7b65121ff73
 ms.author: windowsdriverdev
-ms.date: 
+ms.date:
 ms.topic: struct
 ms.prod: windows-hardware
 ms.technology: windows-devices
-ms.keywords: _D3DKMT_GPUVERSION, D3DKMT_GPUVERSION, 
+ms.keywords: _D3DKMT_GPUVERSION, D3DKMT_GPUVERSION,
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:
@@ -23,13 +23,13 @@ req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_GPUVERSION
-topictype: 
+topictype:
 -	apiref
-apitype: 
+apitype:
 -	HeaderDef
-apilocation: 
+apilocation:
 -	d3dkmthk.h
-apiname: 
+apiname:
 -	_D3DKMT_GPUVERSION
 product: Windows
 targetos: Windows
@@ -39,16 +39,18 @@ targetos: Windows
 
 ## -description
 
+Used to collect the bios version and gpu architecture name once during GPU initialization.
 
 ## -struct-fields
 
 ### -field PhysicalAdapterIndex
- 
+
+The physical adapter index in a LDA chain.
+
 ### -field BiosVersion
- 
+
+The current bios of the adapter.
+
 ### -field GpuArchitecture
- 
 
-## -remarks
-
-## -see-also
+The gpu architecture of the adapter.

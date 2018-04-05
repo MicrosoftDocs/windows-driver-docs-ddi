@@ -42,7 +42,7 @@ targetos: Windows
 
 ## -description
 
-Implemented by the client driver to ...
+Implemented by the client driver to calculate the private meta-command size.
 
 ## -prototype
 
@@ -73,15 +73,9 @@ A handle to the display device (graphics context).
 
 ### -param D3D12DDIARG_METACOMMAND_DESC
 
-
+The meta-command description.
 
 ## -returns
 
-Returns SIZE_T that ...
+Returns SIZE_T that describes the meta-command size.
 
-## -remarks
-
-Register your implementation of this callback function by setting the appropriate member of <!-- REPLACE ME --> and then calling <!-- REPLACE ME -->.
-
-
-## -see-also
