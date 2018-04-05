@@ -33,9 +33,9 @@ topic_type:
 -	APIRef
 -	kbSyntax
 api_type:
--	HeaderDef
+-	DllExport
 api_location:
--	dbgeng.h
+-	dbgeng.dll
 api_name:
 -	DebugCreateEx
 product:
