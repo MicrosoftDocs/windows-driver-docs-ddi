@@ -1,6 +1,6 @@
 ---
 UID: NS:icm.DisplayID
-title: DisplayID
+title: DisplayID stucture
 author: windows-driver-content
 description: 
 ms.assetid: e510b96d-263a-4cc5-b1c9-69845429f06c

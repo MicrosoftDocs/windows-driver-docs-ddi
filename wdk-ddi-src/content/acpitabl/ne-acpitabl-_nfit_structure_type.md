@@ -1,6 +1,6 @@
 ---
 UID: NE:acpitabl._NFIT_STRUCTURE_TYPE
-title: _NFIT_STRUCTURE_TYPE
+title: _NFIT_STRUCTURE_TYPE enumeration
 author: windows-driver-content
 description: 
 ms.assetid: a9645635-eb52-45a3-9deb-32a278337646

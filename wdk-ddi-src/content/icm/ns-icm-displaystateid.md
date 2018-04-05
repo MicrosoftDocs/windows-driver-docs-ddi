@@ -1,6 +1,6 @@
 ---
 UID: NS:icm.DisplayStateID
-title: DisplayStateID
+title: DisplayStateID structure
 author: windows-driver-content
 description: 
 ms.assetid: ed1f917e-81b8-4613-87b5-8808d28e5573

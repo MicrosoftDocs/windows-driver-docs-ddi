@@ -1,6 +1,6 @@
 ---
 UID: NE:acpitabl._ACPI_PLD_ORIENTATION
-title: _ACPI_PLD_ORIENTATION
+title: _ACPI_PLD_ORIENTATION enumeration
 author: windows-driver-content
 description: 
 ms.assetid: b58d55f1-47b4-4f2d-93f6-85bc2dee4426

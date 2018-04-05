@@ -13,7 +13,7 @@ ms.topic: portal
 
 ## -description
 
-Overview of the ACPI technology.
+This section contains reference documentation for developing drivers to interface with ACPI devices. ACPI devices are defined by the [Advanced Configuration and Power Interface (ACPI) Specification](https://go.microsoft.com/fwlink/p/?linkid=866846).
 
 To develop ACPI, you need these headers:
 
@@ -22,20 +22,4 @@ To develop ACPI, you need these headers:
  * [oprghdlr.h](..\oprghdlr\index.md)
 
 For the programming guide, see [ACPI](https://docs.microsoft.com/en-us/windows-hardware/drivers/acpi).
-
-This section contains reference documentation for developing drivers to interface with Advanced Configuration and Power Interface (ACPI) devices. ACPI devices are defined by the Advanced Configuration and Power Interface (ACPI) Specification.
-
-
-In this section
-
-
-ACPI Operation Region Handler Reference
-
-
-ACPI Control Method Evaluation Reference
-
-
-
-
-Send comments about this topic to Microsoft
 

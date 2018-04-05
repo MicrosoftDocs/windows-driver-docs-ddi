@@ -1,6 +1,6 @@
 ---
 UID: NE:acpitabl._ACPI_PLD_JOINT_TYPE
-title: _ACPI_PLD_JOINT_TYPE
+title: _ACPI_PLD_JOINT_TYPE enumeration
 author: windows-driver-content
 description: 
 ms.assetid: 908bbaeb-3dd4-4dbb-a5d4-c2356d9ea0e7

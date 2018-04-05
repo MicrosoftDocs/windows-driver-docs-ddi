@@ -1,6 +1,6 @@
 ---
 UID: NS:acpitabl._ACPI_PLD_INTERFACE_INSTANCE_GUID_BUFFER
-title: _ACPI_PLD_INTERFACE_INSTANCE_GUID_BUFFER
+title: _ACPI_PLD_INTERFACE_INSTANCE_GUID_BUFFER structure
 author: windows-driver-content
 description: 
 ms.assetid: 2a4ad06c-2d79-49e0-b830-b6956e9c55c8

@@ -1,6 +1,6 @@
 ---
 UID: NE:acpitabl._ACPI_PLD_ROTATION
-title: _ACPI_PLD_ROTATION
+title: _ACPI_PLD_ROTATION enumeration
 author: windows-driver-content
 description: 
 ms.assetid: aac7540e-8bb2-4208-b917-ebdc74ff170a

@@ -1,6 +1,6 @@
 ---
 UID: NS:icm.XYYPoint
-title: XYYPoint
+title: XYYPoint structure
 author: windows-driver-content
 description: 
 ms.assetid: 7fa290ff-3f63-4d2f-9352-ffa821d6a8ab

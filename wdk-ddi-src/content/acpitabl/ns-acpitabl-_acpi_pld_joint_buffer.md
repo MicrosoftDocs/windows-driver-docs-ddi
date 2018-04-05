@@ -1,6 +1,6 @@
 ---
 UID: NS:acpitabl._ACPI_PLD_JOINT_BUFFER
-title: _ACPI_PLD_JOINT_BUFFER
+title: _ACPI_PLD_JOINT_BUFFER structure
 author: windows-driver-content
 description: 
 ms.assetid: 58ca5533-2732-4e70-8076-3402c601349b

@@ -1,6 +1,6 @@
 ---
 UID: NS:acpitabl._ACPI_PLD_INTERFACE_CLASS_BUFFER
-title: _ACPI_PLD_INTERFACE_CLASS_BUFFER
+title: _ACPI_PLD_INTERFACE_CLASS_BUFFER structure
 author: windows-driver-content
 description: 
 ms.assetid: f817f194-41c2-4193-a803-768e5914c91a

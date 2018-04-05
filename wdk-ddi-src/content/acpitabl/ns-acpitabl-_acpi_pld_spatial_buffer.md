@@ -1,6 +1,6 @@
 ---
 UID: NS:acpitabl._ACPI_PLD_SPATIAL_BUFFER
-title: _ACPI_PLD_SPATIAL_BUFFER
+title: _ACPI_PLD_SPATIAL_BUFFER structure
 author: windows-driver-content
 description: 
 ms.assetid: 101db2e2-cf2f-49d9-81c2-f9377775930a

@@ -1,6 +1,6 @@
 ---
 UID: NE:acpitabl._ACPI_PLD_VERTICAL_POSITION
-title: _ACPI_PLD_VERTICAL_POSITION
+title: _ACPI_PLD_VERTICAL_POSITION enumeration
 author: windows-driver-content
 description: 
 ms.assetid: e1ab5bab-8e0f-43d9-86c8-29ea30474a0c

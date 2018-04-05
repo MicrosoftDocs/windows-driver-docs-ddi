@@ -1,6 +1,6 @@
 ---
 UID: NS:acpitabl._NFIT_PLATFORM_CAPABILITIES
-title: _NFIT_PLATFORM_CAPABILITIES
+title: _NFIT_PLATFORM_CAPABILITIES structure
 author: windows-driver-content
 description: 
 ms.assetid: 1bf6d972-fd4f-443d-9718-28fe825e7b56

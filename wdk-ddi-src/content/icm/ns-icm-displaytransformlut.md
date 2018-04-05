@@ -1,6 +1,6 @@
 ---
 UID: NS:icm.DisplayTransformLut
-title: DisplayTransformLut
+title: DisplayTransformLut structure
 author: windows-driver-content
 description: 
 ms.assetid: 23f9c311-524c-4d13-a0ed-df630b37a163
