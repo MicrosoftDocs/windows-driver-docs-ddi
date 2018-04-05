@@ -19,7 +19,7 @@ req.kmdf-ver:
 req.umdf-ver:
 req.ddi-compliance:
 req.max-support:
-req.typenames: *PFAULT_INFORMATION_ARCH, FAULT_INFORMATION_ARCH
+req.typenames: FAULT_INFORMATION_ARCH, *PFAULT_INFORMATION_ARCH
 topictype: 
 -	apiref
 apitype: 
