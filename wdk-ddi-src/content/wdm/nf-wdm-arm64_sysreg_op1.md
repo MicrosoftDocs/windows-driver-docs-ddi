@@ -15,7 +15,7 @@ req.target-min-winverclnt: Windows 10, version 1803
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
-req.lib:wdm.h
+req.lib: 
 req.dll:
 req.irql: 
 req.ddi-compliance:

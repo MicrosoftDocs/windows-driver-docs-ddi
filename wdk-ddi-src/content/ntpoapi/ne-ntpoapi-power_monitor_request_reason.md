@@ -2,7 +2,7 @@
 UID: NE:ntpoapi.POWER_MONITOR_REQUEST_REASON
 title: POWER_MONITOR_REQUEST_REASON
 author: windows-driver-content
-description: 
+description: Defines values for power transitions reasons for a monitor.
 ms.assetid: 13bc7b62-b931-4bd4-b347-08a3ca5716bd
 ms.author: windowsdriverdev
 ms.date: 

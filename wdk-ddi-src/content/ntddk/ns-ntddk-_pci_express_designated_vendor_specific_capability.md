@@ -2,7 +2,7 @@
 UID: NS:ntddk._PCI_EXPRESS_DESIGNATED_VENDOR_SPECIFIC_CAPABILITY
 title: _PCI_EXPRESS_DESIGNATED_VENDOR_SPECIFIC_CAPABILITY
 author: windows-driver-content
-description: 
+description: Represents the Designated Vendor-Specific Extended Capability defined by PCI-SIG. 
 ms.assetid: 22506a7e-59a4-4336-b728-a05e4b99638a
 ms.author: windowsdriverdev
 ms.date: 
@@ -38,16 +38,21 @@ targetos: Windows
 # _PCI_EXPRESS_DESIGNATED_VENDOR_SPECIFIC_CAPABILITY structure
 
 ## -description
+Represents the Designated Vendor-Specific Extended Capability defined by PCI-SIG. 
 
+For information about this structure, see PCI-SIG ENGINEERING CHANGE NOTICE titled, Designated Vendor-Specific Extended Capability.
 
 ## -struct-fields
 
 ### -field Header
- 
+
+
 ### -field DvsecHeader1
  
-### -field DvsecHeader2
  
+### -field DvsecHeader2
+
+
 ### -field DvsecRegisters
  
 

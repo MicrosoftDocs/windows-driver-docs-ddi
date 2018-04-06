@@ -83,6 +83,8 @@
 ### [_D3DKMDT_VIDPN_TARGET_MODE structure](../d3dkmdt/ns-d3dkmdt-_d3dkmdt_vidpn_target_mode.md)
 ### [_D3DKMDT_WIRE_FORMAT_AND_PREFERENCE structure](../d3dkmdt/ns-d3dkmdt-_d3dkmdt_wire_format_and_preference.md)
 ### [_D3DKMT_MOVE_RECT structure](../d3dkmdt/ns-d3dkmdt-_d3dkmt_move_rect.md)
+### [_D3DKMT_WDDM_1_3_CAPS structure](../d3dkmdt/ns-d3dkmdt-_d3dkmt_wddm_1_3_caps.md)
+### [_D3DKMT_WDDM_2_0_CAPS structure](../d3dkmdt/ns-d3dkmdt-_d3dkmt_wddm_2_0_caps.md)
 ### [_DISPLAYID_DETAILED_TIMING_TYPE_I structure](../d3dkmdt/ns-d3dkmdt-_displayid_detailed_timing_type_i.md)
 ### [_DXGKARG_SETPALETTE structure](../d3dkmdt/ns-d3dkmdt-_dxgkarg_setpalette.md)
 ### [_DXGKMDT_OPM_ACP_AND_CGMSA_SIGNALING structure](../d3dkmdt/ns-d3dkmdt-_dxgkmdt_opm_acp_and_cgmsa_signaling.md)
