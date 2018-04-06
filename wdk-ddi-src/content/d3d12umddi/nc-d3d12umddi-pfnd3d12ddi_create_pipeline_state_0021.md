@@ -15,20 +15,20 @@ ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -60,6 +60,7 @@ The <i>pfnCreatePipelineState</i> callback function creates a pipeline state.
 
 ### -param Arg1
 
+A handle to the display device (graphics context).
 
 ### -param *
 
@@ -83,12 +84,12 @@ A value used to create a pipeline state.
 
 #### - hDevice
 
-The handle of a device. 
+The handle of a device.
 
 
 #### - hPipelineState
 
-The handle of a pipeline state. 
+The handle of a pipeline state.
 
 
 #### - hRTPipelineState

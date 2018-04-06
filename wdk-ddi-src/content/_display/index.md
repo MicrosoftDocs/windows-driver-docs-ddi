@@ -3,7 +3,7 @@ UID: TP:display
 ms.assetid: 4b099f8f-1e3b-398c-9d48-80f65f6c3468
 ms.author: windowsdriverdev
 ms.date: 04/03/18
-ms.keywords: 
+ms.keywords:
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
@@ -56,15 +56,15 @@ This section contains reference pages for the Windows Display Driver Model (WDDM
 
 This section describes the user-mode Direct3D display driver interfaces that the operating system implements through the Direct3D runtime.
 
-- Direct3D Functions Called by User-Mode Display DriversThese are functions that the Microsoft Direct3D runtime supplies to the user-mode display driver. The Direct3D 10 and Direct 3D 11 runtime caches the currently bound state objects for applications, therefore the runtime also caches currently bound state objects for user-mode display drivers with low overhead. For each call that the user-mode display driver makes to a state-refresh callback function, the Direct3D 10 runtime makes a corresponding call to a driver state function in the same execution thread before returning to the calling code in the driver. To improve performance, the state-refresh callback functions do not perform any parameter validation. 
+- Direct3D Functions Called by User-Mode Display DriversThese are functions that the Microsoft Direct3D runtime supplies to the user-mode display driver. The Direct3D 10 and Direct 3D 11 runtime caches the currently bound state objects for applications, therefore the runtime also caches currently bound state objects for user-mode display drivers with low overhead. For each call that the user-mode display driver makes to a state-refresh callback function, the Direct3D 10 runtime makes a corresponding call to a driver state function in the same execution thread before returning to the calling code in the driver. To improve performance, the state-refresh callback functions do not perform any parameter validation.
 
 
 The state-refresh callback functions are useful when you are trying to develop a stateless driver or building up command buffer preamble data. The state-refresh callback functions also allow the user-mode display driver to benefit from high watermarks that the Direct3D 10 runtime maintains. High watermarks indicate the largest slot index, which could be non-NULL; therefore, high watermarks improve traversals across such slots.
 
 
-- Connecting and Configuring Displays Functions Called By User Mode Display DriversFunctions that support connecting and configuring displays. In addition to using the CCD APIs to set up the desktop display, hardware vendors must modify their Windows 7 Windows Display Driver Model (WDDM) display miniport drivers to support CCD. 
+- Connecting and Configuring Displays Functions Called By User Mode Display DriversFunctions that support connecting and configuring displays. In addition to using the CCD APIs to set up the desktop display, hardware vendors must modify their Windows 7 Windows Display Driver Model (WDDM) display miniport drivers to support CCD.
 
-- Wireless display callback functions called by Miracast user-mode driversThe operating system implements wireless display (Miracast) user-mode functions. Only Miracast user-mode drivers can call these functions. 
+- Wireless display callback functions called by Miracast user-mode driversThe operating system implements wireless display (Miracast) user-mode functions. Only Miracast user-mode drivers can call these functions.
 
 - Multiplane overlay functions called by user-mode display driversContains user-mode multiplane overlay functions that the operating system implements.
 
@@ -73,13 +73,13 @@ The state-refresh callback functions are useful when you are trying to develop a
 
 This section describes the interfaces that the user-mode display driver implements and that can be called by the operating system.
 
-- User-Mode Display Driver FunctionsThe user-mode display driver DLL exports the OpenAdapter function and supplies pointers to adapter-specific functions through members of the D3DDDI_ADAPTERFUNCS structure when the runtime calls OpenAdapter. 
+- User-Mode Display Driver FunctionsThe user-mode display driver DLL exports the OpenAdapter function and supplies pointers to adapter-specific functions through members of the D3DDDI_ADAPTERFUNCS structure when the runtime calls OpenAdapter.
 
 
 
 - User-Mode Display Driver Structures and EnumerationsThe Microsoft Direct3D runtime passes pointers to these structures in parameters of the user-mode display driver functions. The User-Mode Display Driver includes structures and enumerations for Microsoft Direct 3D version 10, 10.1, 11, 11.1, 11.2, and 12.0.
 
-- Wireless display interfaces implemented by Miracast user-mode driversThis type of driver runs in a standalone DLL. 
+- Wireless display interfaces implemented by Miracast user-mode driversThis type of driver runs in a standalone DLL.
 
 - Direct3D rendering performance functions implemented by the user-mode driverFunctions that a Windows Display Driver Model (WDDM) 1.3 and later user-mode display driver implements in order to support Microsoft Direct3D rendering performance improvements
 
@@ -156,7 +156,7 @@ Describe the functions, the structures and the enumeration types that the OpenGL
 
 ## IddCx Driver Class Extension Reference
 
- In the Windows IddCx drivers architecture, the class extension is the Microsoft-provided driver (): display class extension (IddCx). This is an in-box driver included in the SDK. 
+ In the Windows IddCx drivers architecture, the class extension is the Microsoft-provided driver (): display class extension (IddCx). This is an in-box driver included in the SDK.
 
 The client driver is written by an IHV/OEM. That driver is referred to as the display client driver.
 
@@ -167,7 +167,7 @@ The driver support methods are implemented by the IddCx library. These functions
 
 These functions, enumeration, and structure are from the Umdprovider.h and Umdetw.h headers, to log events in your user-mode display driver.
 
-## New Reference Topics for Windows 8.1
+## Reference Topics for Windows 8.1
 
 Device driver interfaces (DDIs) that are new or updated for Windows 8.1 support new features for version 1.3 of the WDDM. For links to all new DDIs, and to in-depth discussion of how to use the new features, see What's new for Windows 8.1  display drivers (WDDM 1.3).
 
@@ -189,10 +189,10 @@ User-mode driver interfaces are declared in these headers:
 
 ETW events for user-mode drivers are declared in the Umdprovider.h header.
 
-## New Reference Topics for Windows 8
+## Reference Topics for Windows 8
 
 
-DDIs that are new or updated for Windows 8 support new features for version 1.2 of the WDDM. For links to all new DDIs, and to in-depth discussion of how to use the new features, see What's new for Windows 8 display drivers. 
+DDIs that are new or updated for Windows 8 support new features for version 1.2 of the WDDM. For links to all new DDIs, and to in-depth discussion of how to use the new features, see What's new for Windows 8 display drivers.
 
 Kernel-mode driver interfaces are declared in these headers:
 
