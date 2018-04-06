@@ -2,7 +2,7 @@
 UID: NC:wdm.FPGA_CONTROL_LINK
 title: FPGA_CONTROL_LINK
 author: windows-driver-content
-description: 
+description: Reserved for future use.
 ms.assetid: 3e495043-8ab0-4119-abb3-a8b3c4cf9ca3
 ms.author: windowsdriverdev
 ms.date: 
@@ -42,6 +42,7 @@ targetos: Windows
 
 ## -description
 
+Reserved for future use.
 Enables or disables the link between the given FPGA device and its parent bridge.
 
 ## -prototype
