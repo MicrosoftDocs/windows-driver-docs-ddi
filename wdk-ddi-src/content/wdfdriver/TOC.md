@@ -4,6 +4,7 @@
 ### [EVT_WDF_DRIVER_UNLOAD callback](../wdfdriver/nc-wdfdriver-evt_wdf_driver_unload.md)
 ### [_WDF_DRIVER_INIT_FLAGS enumeration](../wdfdriver/ne-wdfdriver-_wdf_driver_init_flags.md)
 ### [WdfDriverCreate function](../wdfdriver/nf-wdfdriver-wdfdrivercreate.md)
+### [WdfDriverErrorReportApiMissing function](../wdfdriver/nf-wdfdriver-wdfdrivererrorreportapimissing.md)
 ### [WdfDriverGetRegistryPath function](../wdfdriver/nf-wdfdriver-wdfdrivergetregistrypath.md)
 ### [WdfDriverIsVersionAvailable function](../wdfdriver/nf-wdfdriver-wdfdriverisversionavailable.md)
 ### [WdfDriverOpenParametersRegistryKey function](../wdfdriver/nf-wdfdriver-wdfdriveropenparametersregistrykey.md)
