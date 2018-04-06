@@ -141,11 +141,11 @@ A pointer to the WSK subsystem's
 
 ### -field WskSendEx
 
-A pointer to the WSK subsystem's [WskSendEx](nc-wsk-pfn_wsk_send_ex.md) function for the socket.
+This member is reserved for system use.
 
 ### -field WskReceiveEx
 
-A pointer to the WSK subsystem's [WskReceiveEx](nc-wsk-pfn_wsk_receive_ex.md) function for the socket.
+This member is reserved for system use.
 
 ## -remarks
 
