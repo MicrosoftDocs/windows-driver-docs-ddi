@@ -125,6 +125,13 @@ A pointer to the WSK subsystem's
      <a href="https://msdn.microsoft.com/1BC518E9-747C-4406-8A2A-40A3BCB0A3AA">WskConnectEx</a> function for the
      socket.
 
+### -field WskSendEx
+
+A pointer to the WSK subsystem's [WskSendEx](nc-wsk-pfn_wsk_send_ex.md) function for the socket.
+
+### -field WskReceiveEx
+
+A pointer to the WSK subsystem's [WskReceiveEx](nc-wsk-pfn_wsk_receive_ex.md) function for the socket.
 
 ## -remarks
 
