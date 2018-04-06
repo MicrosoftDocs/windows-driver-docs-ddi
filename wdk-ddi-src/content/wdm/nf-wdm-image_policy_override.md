@@ -15,7 +15,7 @@ req.target-min-winverclnt: Windows 10, version 1803
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
-req.lib:wdm.h
+req.lib: 
 req.dll:
 req.irql: 
 req.ddi-compliance:
@@ -48,7 +48,7 @@ Reserved.
 ## -parameters
 
 ### -param _PolicyId_
-TBD
+The policy id to search for.
 
 
 ## -remarks

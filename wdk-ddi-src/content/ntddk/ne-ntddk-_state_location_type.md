@@ -2,7 +2,7 @@
 UID: NE:ntddk._STATE_LOCATION_TYPE
 title: _STATE_LOCATION_TYPE
 author: windows-driver-content
-description: 
+description: Defines values for persisted state locations for device and driver files. 
 ms.assetid: b1f859c2-ea58-4c37-9451-4521b83e3e8b
 ms.author: windowsdriverdev
 ms.date: 
@@ -36,7 +36,7 @@ targetos: Windows
 
 ## -description
 
-Defines values for persisted state locations for device and driver files. This enumeration is used by [**RtlGetPersistedStateLocation**](nf-ntddk-rtlgetpersistedstatelocation.md)
+Defines values for persisted state locations for device and driver files. This enumeration is used by [**RtlGetPersistedStateLocation**](nf-ntddk-rtlgetpersistedstatelocation.md).
 
 ## -enum-fields
 

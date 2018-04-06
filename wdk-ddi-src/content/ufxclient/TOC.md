@@ -22,6 +22,7 @@
 ### [UfxDeviceIoInternalControl function](../ufxclient/nf-ufxclient-ufxdeviceiointernalcontrol.md)
 ### [UfxDeviceNotifyAttach function](../ufxclient/nf-ufxclient-ufxdevicenotifyattach.md)
 ### [UfxDeviceNotifyDetach function](../ufxclient/nf-ufxclient-ufxdevicenotifydetach.md)
+### [UfxDeviceNotifyFinalExit function](../ufxclient/nf-ufxclient-ufxdevicenotifyfinalexit.md)
 ### [UfxDeviceNotifyHardwareFailure function](../ufxclient/nf-ufxclient-ufxdevicenotifyhardwarefailure.md)
 ### [UfxDeviceNotifyHardwareReady function](../ufxclient/nf-ufxclient-ufxdevicenotifyhardwareready.md)
 ### [UfxDeviceNotifyReset function](../ufxclient/nf-ufxclient-ufxdevicenotifyreset.md)

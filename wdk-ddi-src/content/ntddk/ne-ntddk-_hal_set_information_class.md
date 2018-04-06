@@ -2,7 +2,7 @@
 UID: NE:ntddk._HAL_SET_INFORMATION_CLASS
 title: _HAL_SET_INFORMATION_CLASS
 author: windows-driver-content
-description: 
+description: The values are reserved for internal use.
 ms.assetid: d3fb9a2b-47bd-417e-961a-1b89f14d8f49
 ms.author: windowsdriverdev
 ms.date: 
@@ -19,7 +19,7 @@ req.kmdf-ver:
 req.umdf-ver:
 req.ddi-compliance:
 req.max-support:
-req.typenames: *PHAL_SET_INFORMATION_CLASS, HAL_SET_INFORMATION_CLASS
+req.typenames: HAL_SET_INFORMATION_CLASS, *PHAL_SET_INFORMATION_CLASS
 topictype: 
 -	apiref
 apitype: 
