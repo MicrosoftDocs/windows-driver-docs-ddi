@@ -2,7 +2,7 @@
 UID: NF:ntddk.RtlGetEnabledExtendedAndSupervisorFeatures
 title: RtlGetEnabledExtendedAndSupervisorFeatures function
 author: windows-driver-content
-description: TBD
+description: Returns a mask of extended processor features that are enabled by the system.
 ms.assetid: d08c96c4-bdf8-4b4a-bbb7-a42561210c8c
 ms.author: windowsdriverdev
 ms.date: 
@@ -42,6 +42,8 @@ targetos: Windows
 
 
 ## -description
+
+Reserved for future use.
 
 Returns a mask of extended processor features that are enabled by the system.
 

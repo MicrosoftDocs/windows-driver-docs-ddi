@@ -2,7 +2,7 @@
 UID: NF:ntddk.RtlLocateSupervisorFeature
 title: RtlLocateSupervisorFeature function
 author: windows-driver-content
-description: TBD
+description: Reserved for future use.
 ms.assetid: 5f29abbb-c37d-4310-a931-04bcdd05304e
 ms.author: windowsdriverdev
 ms.date: 
@@ -44,7 +44,7 @@ targetos: Windows
 
 ## -description
 
-TBD
+Reserved for future use.
 
 ## -parameters
 
@@ -56,7 +56,7 @@ TBD
 TBD
 
 ## -returns
-This function returns _IRQL_requires_same_ NTSYSAPI PVOID.
+
 ## -remarks
 
 ## -see-also

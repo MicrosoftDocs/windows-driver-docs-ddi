@@ -19,7 +19,7 @@ req.kmdf-ver:
 req.umdf-ver:
 req.ddi-compliance:
 req.max-support:
-req.typenames: *PDOMAIN_CONFIGURATION_ARCH, DOMAIN_CONFIGURATION_ARCH
+req.typenames: DOMAIN_CONFIGURATION_ARCH, *PDOMAIN_CONFIGURATION_ARCH
 topictype: 
 -	apiref
 apitype: 
