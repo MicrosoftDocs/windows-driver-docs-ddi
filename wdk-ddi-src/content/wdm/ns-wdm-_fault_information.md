@@ -22,7 +22,7 @@ req.dll:
 req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
-req.typenames: *PFAULT_INFORMATION, FAULT_INFORMATION
+req.typenames: FAULT_INFORMATION, *PFAULT_INFORMATION
 topictype: 
 -	apiref
 apitype: 

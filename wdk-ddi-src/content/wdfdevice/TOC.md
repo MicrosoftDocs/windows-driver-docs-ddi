@@ -122,6 +122,7 @@
 ### [WdfDeviceRemoveRemovalRelationsPhysicalDevice function](../wdfdevice/nf-wdfdevice-wdfdeviceremoveremovalrelationsphysicaldevice.md)
 ### [WdfDeviceResumeIdle macro](../wdfdevice/nf-wdfdevice-wdfdeviceresumeidle.md)
 ### [WdfDeviceRetrieveCompanionTarget function](../wdfdevice/nf-wdfdevice-wdfdeviceretrievecompaniontarget.md)
+### [WdfDeviceRetrieveDeviceDirectoryString function](../wdfdevice/nf-wdfdevice-wdfdeviceretrievedevicedirectorystring.md)
 ### [WdfDeviceRetrieveDeviceInterfaceString function](../wdfdevice/nf-wdfdevice-wdfdeviceretrievedeviceinterfacestring.md)
 ### [WdfDeviceRetrieveDeviceName function](../wdfdevice/nf-wdfdevice-wdfdeviceretrievedevicename.md)
 ### [WdfDeviceSetAlignmentRequirement function](../wdfdevice/nf-wdfdevice-wdfdevicesetalignmentrequirement.md)
