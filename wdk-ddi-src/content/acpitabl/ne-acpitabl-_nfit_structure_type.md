@@ -36,19 +36,46 @@ targetos: Windows
 
 ## -description
 
-
+Describes NFIT structure types.
 
 ## -enum-fields
 
 ### -field NfitSystemPhysicalAddressRange 
+
+Value is 0.
+
 ### -field NfitNvdimmRegionMapping 
+
+Value is 1.
+
 ### -field NfitInterleave 
+
+Value is 2.
+
 ### -field NfitSmbiosManagementInformation 
+
+Value is 3.
+
 ### -field NfitNvdimmControlRegion 
+
+Value is 4.
+
 ### -field NfitNvdimmBlockDataWindowRegion 
+
+Value is 5.
+
 ### -field NfitFlushHintAddress 
+
+Value is 6.
+
 ### -field NfitPlatformCapabilities 
+
+Value is 7.
+
 ### -field NfitMaximum 
+
+
+
 
 ## -remarks
 

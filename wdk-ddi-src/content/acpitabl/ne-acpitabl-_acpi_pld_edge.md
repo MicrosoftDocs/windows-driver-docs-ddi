@@ -36,15 +36,29 @@ targetos: Windows
 
 ## -description
 
-
+Describes joint edge bits 10:12,24:26.
 
 ## -enum-fields
 
 ### -field AcpiPldEdgeTop 
+
+Value is 0.
+
 ### -field AcpiPldEdgeBottom 
+
+Value is 1.
+
 ### -field AcpiPldEdgeLeft 
+
+Value is 2.
+
 ### -field AcpiPldEdgeRight 
+
+Value is 3.
+
 ### -field AcpiPldEdgeUnknown 
+
+Value is 4.
 
 ## -remarks
 

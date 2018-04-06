@@ -39,6 +39,7 @@ targetos: Windows
 
 ## -description
 
+Describes the ACPI PLD joint descriptor buffer, revision 1 (Microsoft custom PLD buffer extension, 128-bits).
 
 ## -struct-fields
 

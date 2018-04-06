@@ -36,12 +36,17 @@ targetos: Windows
 
 ## -description
 
-
+Describes orientation bit 78.
 
 ## -enum-fields
 
 ### -field AcpiPldOrientationHorizontal 
+
+Value is 0.
+
 ### -field AcpiPldOrientationVertical 
+
+Value is 1.
 
 ## -remarks
 

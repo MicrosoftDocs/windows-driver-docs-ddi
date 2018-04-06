@@ -36,17 +36,38 @@ targetos: Windows
 
 ## -description
 
-
+Describes panel surface bits 67:69.
 
 ## -enum-fields
 
 ### -field AcpiPldPanelTop 
+
+Value is 0.
+
 ### -field AcpiPldPanelBottom 
+
+Value is 1.
+
 ### -field AcpiPldPanelLeft 
+
+Value is 2.
+
 ### -field AcpiPldPanelRight 
+
+Value is 3.
+
 ### -field AcpiPldPanelFront 
+
+Value is 4.
+
 ### -field AcpiPldPanelBack 
+
+Value is 5.
+
 ### -field AcpiPldPanelUnknown 
+
+Value is 6.
+
 
 ## -remarks
 

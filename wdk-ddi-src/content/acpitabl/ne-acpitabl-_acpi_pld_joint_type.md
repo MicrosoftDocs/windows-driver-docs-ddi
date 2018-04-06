@@ -36,15 +36,30 @@ targetos: Windows
 
 ## -description
 
-
+Describes joint type bits 6:9.
 
 ## -enum-fields
 
 ### -field AcpiPldJointTypeFixed 
+
+Value is 0. 
+
 ### -field AcpiPldJointTypePlanar 
+
+Value is 1. 
+
 ### -field AcpiPldJointTypeHinge 
+
+Value is 2. 
+
 ### -field AcpiPldJointTypePivot 
+
+Value is 3. 
+
 ### -field AcpiPldJointTypeSwivel 
+
+Value is 4. 
+
 
 ## -remarks
 

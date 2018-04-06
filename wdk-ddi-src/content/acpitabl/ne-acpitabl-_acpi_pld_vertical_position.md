@@ -36,13 +36,21 @@ targetos: Windows
 
 ## -description
 
-
+Describes vertical position bits 70:71.
 
 ## -enum-fields
 
 ### -field AcpiPldVPosUpper 
-### -field AcpiPldVPosCenter 
+
+Value is 0.
+
+### -field AcpiPldVPosCenter
+
+Value is 1.
+
 ### -field AcpiPldVPosLower 
+
+Value is 2.
 
 ## -remarks
 

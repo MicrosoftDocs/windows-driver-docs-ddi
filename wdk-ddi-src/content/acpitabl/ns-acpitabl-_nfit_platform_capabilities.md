@@ -39,6 +39,7 @@ targetos: Windows
 
 ## -description
 
+Describes the NFIT platform capabilities structure. Originally defined in ACPI 6.2 Errata A.
 
 ## -struct-fields
 

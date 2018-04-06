@@ -36,19 +36,45 @@ targetos: Windows
 
 ## -description
 
-
+Describes shape bits 74:77.
 
 ## -enum-fields
 
 ### -field AcpiPldShapeRound 
+
+Value is 0.
+
 ### -field AcpiPldShapeOval 
+
+Value is 1.
+
 ### -field AcpiPldShapeSquare 
+
+Value is 2.
+
 ### -field AcpiPldShapeVRect 
+
+Value is 3.
+
 ### -field AcpiPldShapeHRect 
+
+Value is 4.
+
 ### -field AcpiPldShapeVTrap 
+
+Value is 5.
+
 ### -field AcpiPldShapeHTrap 
+
+Value is 6.
+
 ### -field AcpiPldShapeUnknown 
+
+Value is 7.
+
 ### -field AcpiPldShapeChamfered 
+
+Value is 8.
 
 ## -remarks
 

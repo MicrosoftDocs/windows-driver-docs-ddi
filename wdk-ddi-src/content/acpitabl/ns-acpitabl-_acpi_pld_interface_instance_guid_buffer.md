@@ -39,6 +39,7 @@ targetos: Windows
 
 ## -description
 
+Describes the ACPI PLD interface instance GUID descriptor buffer, revision 1 (Microsoft custom PLD buffer extension, 128-bits).
 
 ## -struct-fields
 
@@ -46,5 +47,12 @@ targetos: Windows
  
 
 ## -remarks
+
+GUID is defined as follows:
+
+```
+DEFINE_GUID(ACPI_PLD_INTERFACE_INSTANCE_GUID_BUFFER_GUID,
+    0x1face9db, 0x2530, 0x4248, 0x8e, 0xe3, 0x51, 0x05, 0x3a, 0xef, 0x47, 0xc2);
+```
 
 ## -see-also

@@ -36,13 +36,21 @@ targetos: Windows
 
 ## -description
 
-
+Describes horizontal position bits 72:73.
 
 ## -enum-fields
 
 ### -field AcpiPldHPosLeft 
+
+Value is 0.
+
 ### -field AcpiPldHPosCenter 
+
+Value is 1.
+
 ### -field AcpiPldHPosRight 
+
+Value is 2.
 
 ## -remarks
 
