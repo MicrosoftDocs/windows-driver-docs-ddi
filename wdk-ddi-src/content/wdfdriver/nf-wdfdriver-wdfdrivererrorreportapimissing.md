@@ -50,19 +50,15 @@ targetos: Windows
 
 ### -param Driver
 
-TBD
 
 ### -param FrameworkExtensionName
 
-TBD
 
 ### -param ApiIndex
 
-TBD
 
 ### -param DoesApiReturnNtstatus
 
-TBD
 
 ## -returns
 
