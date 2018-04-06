@@ -38,7 +38,8 @@ api_location:
 -	Printerextension.h
 api_name:
 -	IPrinterQueue.SendBidiQuery
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PrintSchemaSelectionType
 req.product: Windows 10 or later.
@@ -51,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 Performs an asynchronous refresh operation with the specified query, and invokes the <a href="https://msdn.microsoft.com/D0CD9950-DF73-4D46-B901-FA45BA88D3CF">IPrinterQueueEvent::OnBidiResponseReceived</a> method.
-
-
-## -syntax
-
-
-````
-HRESULT SendBidiQuery(
-  [in] BSTR bstrBidiQuery
-);
-````
 
 
 ## -parameters
@@ -115,7 +106,6 @@ All standard Bidi values (as defined by the port monitor’s embedded Bidi files
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/D0CD9950-DF73-4D46-B901-FA45BA88D3CF">IPrinterQueueEvent::OnBidiResponseReceived</a>
 
 
 
@@ -123,12 +113,12 @@ All standard Bidi values (as defined by the port monitor’s embedded Bidi files
 
 
 
-<a href="..\printerextension\nn-printerextension-iprinterqueue.md">IPrinterQueue</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439635">IPrinterQueue</a>
 
 
 
+<a href="https://msdn.microsoft.com/D0CD9950-DF73-4D46-B901-FA45BA88D3CF">IPrinterQueueEvent::OnBidiResponseReceived</a>
  
 
  
-
 

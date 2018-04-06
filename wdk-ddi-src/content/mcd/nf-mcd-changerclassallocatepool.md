@@ -7,7 +7,7 @@ old-location: storage\changerclassallocatepool.htm
 old-project: storage
 ms.assetid: d211bab9-4932-41c5-9b6f-528a75bb2ae4
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: ChangerClassAllocatePool, ChangerClassAllocatePool function [Storage Devices], chgrclas_e1b15ece-f3e4-446f-adc4-39301fc0346f.xml, mcd/ChangerClassAllocatePool, storage.changerclassallocatepool
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Mcd.dll
 api_name:
 -	ChangerClassAllocatePool
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: LAMP_INTENSITY_WHITE
 ---
@@ -53,17 +54,6 @@ req.typenames: LAMP_INTENSITY_WHITE
 The <b>ChangerClassAllocatePool</b> function allocates pool memory. 
 
 
-## -syntax
-
-
-````
-PVOID ChangerClassAllocatePool(
-  _In_ POOL_TYPE PoolType,
-  _In_ ULONG     NumberOfBytes
-);
-````
-
-
 ## -parameters
 
 
@@ -71,7 +61,7 @@ PVOID ChangerClassAllocatePool(
 
 ### -param PoolType [in]
 
-Indicates the type of pool memory to allocate. See <a href="..\wudfwdm\ne-wudfwdm-_pool_type.md">POOL_TYPE</a> for a list of types.
+Indicates the type of pool memory to allocate. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff559707">POOL_TYPE</a> for a list of types.
 
 
 ### -param NumberOfBytes [in]
@@ -90,12 +80,11 @@ None
 
 ## -see-also
 
-<a href="..\wudfwdm\ne-wudfwdm-_pool_type.md">POOL_TYPE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559707">POOL_TYPE</a>
  
 
  
-
 

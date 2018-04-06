@@ -38,7 +38,8 @@ api_location:
 -	Sti.h
 api_name:
 -	IStiDevice.UnLockDevice
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STI_DEVICE_MJ_TYPE, STI_DEVICE_MJ_TYPE
 req.product: Windows 10 or later.
@@ -51,14 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>IStiDevice::UnLockDevice</b> method unlocks a device that was locked by a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff543756">IStiDevice::LockDevice</a>.
-
-
-## -syntax
-
-
-````
-HRESULT UnLockDevice();
-````
 
 
 ## -parameters

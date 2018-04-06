@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	MyAVStrMiniPin
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SOUNDDETECTOR_PATTERNHEADER
 ---
@@ -51,22 +52,9 @@ req.typenames: SOUNDDETECTOR_PATTERNHEADER
 
 An AVStream minidriver's callback routine is called when:
 <ul>
-<li>The relevant <a href="..\ks\ns-ks-_kspin.md">KSPIN</a> is serving as a sink pin and this sink pin is disconnected from an AVStream source pin.</li>
-<li>A <a href="..\ks\ns-ks-_kspin.md">KSPIN</a> structure's reset state is changed due to the arrival of an IOCTL_KS_RESET_STATE device control. This routine is also called when the queue associated with the given pin is flushed. </li>
+<li>The relevant <a href="https://msdn.microsoft.com/library/windows/hardware/ff563483">KSPIN</a> is serving as a sink pin and this sink pin is disconnected from an AVStream source pin.</li>
+<li>A <a href="https://msdn.microsoft.com/library/windows/hardware/ff563483">KSPIN</a> structure's reset state is changed due to the arrival of an IOCTL_KS_RESET_STATE device control. This routine is also called when the queue associated with the given pin is flushed. </li>
 </ul>
-
-## -prototype
-
-
-````
-PFNKSPINVOID MyAVStrMiniPin;
-
-void MyAVStrMiniPin(
-  _In_ PKSPIN Pin
-)
-{ ... }
-````
-
 
 ## -parameters
 
@@ -75,7 +63,7 @@ void MyAVStrMiniPin(
 
 ### -param Pin [in]
 
-Pointer to the relevant <a href="..\ks\ns-ks-_kspin.md">KSPIN</a>, serving as a sink pin.
+Pointer to the relevant <a href="https://msdn.microsoft.com/library/windows/hardware/ff563483">KSPIN</a>, serving as a sink pin.
 
 
 ## -returns
@@ -93,7 +81,7 @@ None
 
 <b>About AVStrMiniPinDisconnect</b>
 
-The minidriver specifies this routine's address in the <b>Disconnect</b> member of its <a href="..\ks\ns-ks-_kspin_dispatch.md">KSPIN_DISPATCH</a> structure.
+The minidriver specifies this routine's address in the <b>Disconnect</b> member of its <a href="https://msdn.microsoft.com/library/windows/hardware/ff563535">KSPIN_DISPATCH</a> structure.
 
 This routine is optional.
 
@@ -103,7 +91,7 @@ Also see <a href="https://msdn.microsoft.com/04d0d17b-c326-417d-b2e8-58b33420455
 
 For more information, see <a href="https://msdn.microsoft.com/0b6a02c2-e672-4568-a890-491c721ec3a7">Pin-Centric Processing</a>.
 
-The minidriver specifies this routine's address in the <b>Reset</b> member of its <a href="..\ks\ns-ks-_kspin_dispatch.md">KSPIN_DISPATCH</a> structure.
+The minidriver specifies this routine's address in the <b>Reset</b> member of its <a href="https://msdn.microsoft.com/library/windows/hardware/ff563535">KSPIN_DISPATCH</a> structure.
 
 Typically, this routine is provided by minidrivers that must flush hardware buffers. The filter control mutex may be held during this function. See <a href="https://msdn.microsoft.com/402795a0-e567-4e7e-a7d8-b2ce29ffb8fd">Filter Control Mutex in AVStream</a>.
 
@@ -114,12 +102,11 @@ This routine is optional.
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_kspin_dispatch.md">KSPIN_DISPATCH</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563535">KSPIN_DISPATCH</a>
  
 
  
-
 

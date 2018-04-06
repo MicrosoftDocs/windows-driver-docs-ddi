@@ -7,7 +7,7 @@ old-location: audio\iportclsversion.htm
 old-project: audio
 ms.assetid: 8a367bcb-680b-41be-975f-1a1f4bec3b60
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/19/2018
 ms.keywords: IPortClsVersion, IPortClsVersion interface [Audio Devices], IPortClsVersion interface [Audio Devices], described, audio.iportclsversion, audmp-routines_47212df8-c1b8-4e77-bd5f-90b74a6ae08c.xml, portcls/IPortClsVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	portcls.h
 api_name:
 -	IPortClsVersion
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
@@ -55,31 +56,31 @@ To determine whether a port driver supports the <code>IPortClsVersion</code> int
 <dl>
 <dd>
 
-<a href="..\portcls\nn-portcls-iportwavecyclic.md">IPortWaveCyclic</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536899">IPortWaveCyclic</a>
 
 
 </dd>
 <dd>
 
-<a href="..\portcls\nn-portcls-iportwavepci.md">IPortWavePci</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536905">IPortWavePci</a>
 
 
 </dd>
 <dd>
 
-<a href="..\dmusicks\nn-dmusicks-iportdmus.md">IPortDMus</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536879">IPortDMus</a>
 
 
 </dd>
 <dd>
 
-<a href="..\portcls\nn-portcls-iportmidi.md">IPortMidi</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536891">IPortMidi</a>
 
 
 </dd>
 <dd>
 
-<a href="..\portcls\nn-portcls-iporttopology.md">IPortTopology</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536896">IPortTopology</a>
 
 
 </dd>

@@ -38,7 +38,8 @@ api_location:
 -	Prnasntp.h
 api_name:
 -	IPrintAsyncNotifyRegistration.UnregisterForNotifications
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USERDATA, *PUSERDATA
 req.product: Windows 10 or later.
@@ -51,14 +52,6 @@ req.product: Windows 10 or later.
 
 
 
-
-
-## -syntax
-
-
-````
-HRESULT UnregisterForNotifications();
-````
 
 
 ## -parameters
@@ -79,12 +72,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\prnasntp\nn-prnasntp-iprintasyncnotifyregistration.md">IPrintAsyncNotifyRegistration</a>
 
 
 
+<a href="https://msdn.microsoft.com/DF6A3FD2-22B4-452D-8D43-1EB25E2CEEA5">IPrintAsyncNotifyRegistration</a>
  
 
  
-
 

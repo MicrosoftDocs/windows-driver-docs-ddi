@@ -7,7 +7,7 @@ old-location: display\videoprocessorsetstreammirror.htm
 old-project: display
 ms.assetid: 945BD212-7B48-41FD-B11F-FB03DB073BD4
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3DWDDM2_0DDI_VIDEOPROCESSORSETSTREAMMIRROR, d3d10umddi/pfnVideoProcessorSetStreamMirror, display.videoprocessorsetstreammirror, pfnVideoProcessorSetStreamMirror, pfnVideoProcessorSetStreamMirror callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3d10umddi.h
 api_name:
 -	pfnVideoProcessorSetStreamMirror
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 ---
@@ -52,24 +53,6 @@ req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 Indicates whether the stream should be flipped vertically or horizontally. Optional for Windows Display Driver Model (WDDM) 2.0, or later, drivers.
 
 
-## -prototype
-
-
-````
-PFND3DWDDM2_0DDI_VIDEOPROCESSORSETSTREAMMIRROR pfnVideoProcessorSetStreamMirror;
-
-VOID APIENTRY* pfnVideoProcessorSetStreamMirror(
-  _In_ D3D10DDI_HDEVICE           hDevice,
-  _In_ D3D11_1DDI_HVIDEOPROCESSOR hVideoProcessor,
-  _In_ UINT                       StreamIndex,
-  _In_ BOOL                       Enable,
-  _In_ BOOL                       FlipHorizontal,
-  _In_ BOOL                       FlipVertical
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -77,7 +60,7 @@ VOID APIENTRY* pfnVideoProcessorSetStreamMirror(
 
 ### -param hDevice [in]
 
- A handle to the display device (graphics context). The Direct3D runtime passed the user-mode driver this handle as the <b>hDevice</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createdevice.md">D3DDDIARG_CREATEDEVICE</a> structure at device creation.
+ A handle to the display device (graphics context). The Direct3D runtime passed the user-mode driver this handle as the <b>hDevice</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff542931">D3DDDIARG_CREATEDEVICE</a> structure at device creation.
 
 
 ### -param hVideoProcessor [in]
@@ -134,12 +117,11 @@ Operations are conceptually applied in the following order:
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createdevice.md">D3DDDIARG_CREATEDEVICE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542931">D3DDDIARG_CREATEDEVICE</a>
  
 
  
-
 

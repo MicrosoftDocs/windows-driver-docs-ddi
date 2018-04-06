@@ -7,7 +7,7 @@ old-location: buses\ucmtcpci_port_controller_alert_type.htm
 old-project: usbref
 ms.assetid: 77162a25-b5aa-45d0-ac4d-6500df9782de
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: UCMTCPCI_PORT_CONTROLLER_ALERT_TYPE, UCMTCPCI_PORT_CONTROLLER_ALERT_TYPE enumeration [Buses], UcmTcpciPortControllerAlertCCStatus, UcmTcpciPortControllerAlertFault, UcmTcpciPortControllerAlertInvalid, UcmTcpciPortControllerAlertPowerStatus, UcmTcpciPortControllerAlertReceiveSOPMessageStatus, UcmTcpciPortControllerAlertReceivedHardReset, UcmTcpciPortControllerAlertRxBufferOverflow, UcmTcpciPortControllerAlertTransmitSOPMessageDiscarded, UcmTcpciPortControllerAlertTransmitSOPMessageFailed, UcmTcpciPortControllerAlertTransmitSOPMessageSuccessful, UcmTcpciPortControllerAlertVbusSinkDisconnectDetected, UcmTcpciPortControllerAlertVbusVoltageAlarmHi, UcmTcpciPortControllerAlertVbusVoltageAlarmLo, _UCMTCPCI_PORT_CONTROLLER_ALERT_TYPE, buses.ucmtcpci_port_controller_alert_type, ucmtcpciportcontroller/UCMTCPCI_PORT_CONTROLLER_ALERT_TYPE, ucmtcpciportcontroller/UcmTcpciPortControllerAlertCCStatus, ucmtcpciportcontroller/UcmTcpciPortControllerAlertFault, ucmtcpciportcontroller/UcmTcpciPortControllerAlertInvalid, ucmtcpciportcontroller/UcmTcpciPortControllerAlertPowerStatus, ucmtcpciportcontroller/UcmTcpciPortControllerAlertReceiveSOPMessageStatus, ucmtcpciportcontroller/UcmTcpciPortControllerAlertReceivedHardReset, ucmtcpciportcontroller/UcmTcpciPortControllerAlertRxBufferOverflow, ucmtcpciportcontroller/UcmTcpciPortControllerAlertTransmitSOPMessageDiscarded, ucmtcpciportcontroller/UcmTcpciPortControllerAlertTransmitSOPMessageFailed, ucmtcpciportcontroller/UcmTcpciPortControllerAlertTransmitSOPMessageSuccessful, ucmtcpciportcontroller/UcmTcpciPortControllerAlertVbusSinkDisconnectDetected, ucmtcpciportcontroller/UcmTcpciPortControllerAlertVbusVoltageAlarmHi, ucmtcpciportcontroller/UcmTcpciPortControllerAlertVbusVoltageAlarmLo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ucmtcpciportcontroller.h
 api_name:
 -	UCMTCPCI_PORT_CONTROLLER_ALERT_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UCMTCPCI_PORT_CONTROLLER_ALERT_TYPE
 req.product: Windows 10 or later.
@@ -53,28 +54,6 @@ req.product: Windows 10 or later.
 
                     
                 Defines generic alert values that are used to indicate the type of hardware alert received on the port controller.
-
-
-## -syntax
-
-
-````
-typedef enum _UCMTCPCI_PORT_CONTROLLER_ALERT_TYPE { 
-  UcmTcpciPortControllerAlertInvalid                       = = 0x0,
-  UcmTcpciPortControllerAlertCCStatus,
-  UcmTcpciPortControllerAlertPowerStatus,
-  UcmTcpciPortControllerAlertReceiveSOPMessageStatus,
-  UcmTcpciPortControllerAlertReceivedHardReset,
-  UcmTcpciPortControllerAlertTransmitSOPMessageFailed,
-  UcmTcpciPortControllerAlertTransmitSOPMessageDiscarded,
-  UcmTcpciPortControllerAlertTransmitSOPMessageSuccessful,
-  UcmTcpciPortControllerAlertVbusVoltageAlarmHi,
-  UcmTcpciPortControllerAlertVbusVoltageAlarmLo,
-  UcmTcpciPortControllerAlertFault,
-  UcmTcpciPortControllerAlertRxBufferOverflow,
-  UcmTcpciPortControllerAlertVbusSinkDisconnectDetected
-} UCMTCPCI_PORT_CONTROLLER_ALERT_TYPE;
-````
 
 
 ## -enum-fields
@@ -177,12 +156,11 @@ Indicates that the
 
 ## -see-also
 
-<a href="..\ucmtcpciportcontroller\ns-ucmtcpciportcontroller-_ucmtcpci_port_controller_alert_data.md">UCMTCPCI_PORT_CONTROLLER_ALERT_DATA</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt805898">UCMTCPCI_PORT_CONTROLLER_ALERT_DATA</a>
  
 
  
-
 

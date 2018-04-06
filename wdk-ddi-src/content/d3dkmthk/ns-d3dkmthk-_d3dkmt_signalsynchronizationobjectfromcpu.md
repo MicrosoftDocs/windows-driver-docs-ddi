@@ -7,7 +7,7 @@ old-location: display\d3dkmt_signalsynchronizationobjectfromcpu.htm
 old-project: display
 ms.assetid: 03B822CF-2FB0-412B-9F45-43756D8B4C19
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU, D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU structure [Display Devices], _D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU, d3dkmthk/D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU, display.d3dkmt_signalsynchronizationobjectfromcpu
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmthk.h
 api_name:
 -	D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU
 ---
@@ -49,20 +50,7 @@ req.typenames: D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU
 ## -description
 
 
-<b>D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU</b> is used with <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtsignalsynchronizationobjectfromcpu.md">D3DKMTSignalSynchronizationObjectFromCpu</a> to enable a driver to signal a monitored fence.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU {
-  D3DKMT_HANDLE       hDevice;
-  UINT                ObjectCount;
-  const D3DKMT_HANDLE *ObjectHandleArray;
-  const UINT64        *FenceValueArray;
-} D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU;
-````
+<b>D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU</b> is used with <a href="https://msdn.microsoft.com/library/windows/hardware/dn906783">D3DKMTSignalSynchronizationObjectFromCpu</a> to enable a driver to signal a monitored fence.
 
 
 ## -struct-fields
@@ -99,12 +87,11 @@ typedef struct _D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU {
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtsignalsynchronizationobjectfromcpu.md">D3DKMTSignalSynchronizationObjectFromCpu</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn906783">D3DKMTSignalSynchronizationObjectFromCpu</a>
  
 
  
-
 

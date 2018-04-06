@@ -7,7 +7,7 @@ old-location: netvista\ndis_medium.htm
 old-project: netvista
 ms.assetid: 3e4aa7fb-0dd4-4c45-ab5e-21342e9fb4d8
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PNDIS_MEDIUM, NDIS_MEDIUM, NDIS_MEDIUM enumeration [Network Drivers Starting with Windows Vista], NdisMedium1394, NdisMedium802_3, NdisMedium802_5, NdisMediumArcnet878_2, NdisMediumArcnetRaw, NdisMediumAtm, NdisMediumBpc, NdisMediumCoWan, NdisMediumDix, NdisMediumFddi, NdisMediumIP, NdisMediumInfiniBand, NdisMediumIrda, NdisMediumLocalTalk, NdisMediumLoopback, NdisMediumMax, NdisMediumNative802_11, NdisMediumTunnel, NdisMediumWan, NdisMediumWirelessWan, PNDIS_MEDIUM, PNDIS_MEDIUM enumeration pointer [Network Drivers Starting with Windows Vista], _NDIS_MEDIUM, netvista.ndis_medium, ntddndis/NDIS_MEDIUM, ntddndis/NdisMedium1394, ntddndis/NdisMedium802_3, ntddndis/NdisMedium802_5, ntddndis/NdisMediumArcnet878_2, ntddndis/NdisMediumArcnetRaw, ntddndis/NdisMediumAtm, ntddndis/NdisMediumBpc, ntddndis/NdisMediumCoWan, ntddndis/NdisMediumDix, ntddndis/NdisMediumFddi, ntddndis/NdisMediumIP, ntddndis/NdisMediumInfiniBand, ntddndis/NdisMediumIrda, ntddndis/NdisMediumLocalTalk, ntddndis/NdisMediumLoopback, ntddndis/NdisMediumMax, ntddndis/NdisMediumNative802_11, ntddndis/NdisMediumTunnel, ntddndis/NdisMediumWan, ntddndis/NdisMediumWirelessWan, ntddndis/PNDIS_MEDIUM, protocol_structures_ref_3b154721-1574-4855-9028-704ce215eb91.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddndis.h
 api_name:
 -	NDIS_MEDIUM
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_MEDIUM, *PNDIS_MEDIUM
 ---
@@ -50,39 +51,6 @@ req.typenames: NDIS_MEDIUM, *PNDIS_MEDIUM
 
 
 The <b>NDIS_MEDIUM</b> enumeration type identifies the medium types that NDIS drivers support.
-
-
-## -syntax
-
-
-````
-typedef enum _NDIS_MEDIUM { 
-  NdisMedium802_3,
-  NdisMedium802_5,
-  NdisMediumFddi,
-  NdisMediumWan,
-  NdisMediumLocalTalk,
-  NdisMediumDix,
-  NdisMediumArcnetRaw,
-  NdisMediumArcnet878_2,
-  NdisMediumAtm,
-  NdisMediumWirelessWan,
-  NdisMediumIrda,
-  NdisMediumBpc,
-  NdisMediumCoWan,
-  NdisMedium1394,
-  NdisMediumInfiniBand,
-#if ((NTDDI_VERSION >= NTDDI_VISTA) || NDIS_SUPPORT_NDIS6)
-  NdisMediumTunnel,
-  NdisMediumNative802_11,
-  NdisMediumLoopback,
-#if (NTDDI_VERSION >= NTDDI_WIN7)
-  NdisMediumIP,
-#endif 
-#endif 
-  NdisMediumMax
-} NDIS_MEDIUM, *PNDIS_MEDIUM;
-````
 
 
 ## -enum-fields

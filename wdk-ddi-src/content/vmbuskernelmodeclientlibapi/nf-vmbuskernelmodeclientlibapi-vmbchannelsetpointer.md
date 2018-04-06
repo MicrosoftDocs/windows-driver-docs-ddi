@@ -7,7 +7,7 @@ old-location: netvista\vmbchannelsetpointer.htm
 old-project: netvista
 ms.assetid: E536B66D-EAF2-4377-8452-7D37A277E7C8
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: VmbChannelSetPointer, VmbChannelSetPointer function [Network Drivers Starting with Windows Vista], netvista.vmbchannelsetpointer, vmbuskernelmodeclientlibapi/VmbChannelSetPointer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	vmbkmcl.dll
 api_name:
 -	VmbChannelSetPointer
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
 req.product: Windows 10 or later.
@@ -55,17 +56,6 @@ req.product: Windows 10 or later.
 
 The <b>VmbChannelSetPointer</b> function saves an arbitrary pointer in a channel
 context.  
-
-
-## -syntax
-
-
-````
-VOID VmbChannelSetPointer(
-  _In_     VMBCHANNEL             Channel,
-  _In_opt_ __drv_aliasesMem PVOID Pointer
-);
-````
 
 
 ## -parameters
@@ -96,19 +86,18 @@ This function does not return a value.
 
 
 
-  This is intended to be a more efficient way for a client driver to retrieve client driver's context.  For more information, see the <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelgetpointer.md">VmbChannelGetPointer</a> function.
+  This is intended to be a more efficient way for a client driver to retrieve client driver's context.  For more information, see the <a href="https://msdn.microsoft.com/F3BEE6FB-51C5-4C3C-A831-3B7C06B3C14D">VmbChannelGetPointer</a> function.
 
 
 
 
 ## -see-also
 
-<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelgetpointer.md">VmbChannelGetPointer</a>
 
 
 
+<a href="https://msdn.microsoft.com/F3BEE6FB-51C5-4C3C-A831-3B7C06B3C14D">VmbChannelGetPointer</a>
  
 
  
-
 

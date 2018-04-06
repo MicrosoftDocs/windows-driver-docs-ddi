@@ -38,7 +38,8 @@ api_location:
 -	filterpipeline.h
 api_name:
 -	IXpsPartIterator.Current
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
@@ -50,17 +51,6 @@ req.typenames: EXpsFontRestriction
 
 
 The <code>Current</code> method provides the current URI and part.
-
-
-## -syntax
-
-
-````
-HRESULT Current(
-  [out] BSTR     *pUri,
-  [out] IUnknown **ppXpsPart
-);
-````
 
 
 ## -parameters

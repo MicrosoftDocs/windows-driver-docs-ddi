@@ -7,7 +7,7 @@ old-location: storage\lba_filter_table_entry.htm
 old-project: storage
 ms.assetid: 092B54D7-FFEA-48BB-993E-14443BD0C7AA
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PLBA_FILTER_TABLE_ENTRY, LBA_FILTER_TABLE_ENTRY, LBA_FILTER_TABLE_ENTRY structure [Storage Devices], PLBA_FILTER_TABLE_ENTRY, PLBA_FILTER_TABLE_ENTRY structure pointer [Storage Devices], _LBA_FILTER_TABLE_ENTRY, ehstorioctl/LBA_FILTER_TABLE_ENTRY, ehstorioctl/PLBA_FILTER_TABLE_ENTRY, storage.lba_filter_table_entry"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	EhStorIoctl.h
 api_name:
 -	LBA_FILTER_TABLE_ENTRY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: LBA_FILTER_TABLE_ENTRY, *PLBA_FILTER_TABLE_ENTRY
 ---
@@ -49,20 +50,7 @@ req.typenames: LBA_FILTER_TABLE_ENTRY, *PLBA_FILTER_TABLE_ENTRY
 ## -description
 
 
-The <b>LBA_FILTER_TABLE_ENTRY</b> structure contains an individual LBA range for the <a href="..\ehstorioctl\ns-ehstorioctl-_lba_filter_table.md">LBA_FILTER_TABLE</a> sent in an <a href="..\ehstorioctl\ni-ehstorioctl-ioctl_ehstor_driver_update_lba_filter_table.md">IOCTL_EHSTOR_DRIVER_UPDATE_LBA_FILTER_TABLE</a> request.
-
-
-## -syntax
-
-
-````
-typedef struct _LBA_FILTER_TABLE_ENTRY {
-  ULARGE_INTEGER StartLba;
-  ULARGE_INTEGER LbaCount;
-  BOOLEAN        ReadLock;
-  BOOLEAN        WriteLock;
-} LBA_FILTER_TABLE_ENTRY, *PLBA_FILTER_TABLE_ENTRY;
-````
+The <b>LBA_FILTER_TABLE_ENTRY</b> structure contains an individual LBA range for the <a href="https://msdn.microsoft.com/library/windows/hardware/hh463957">LBA_FILTER_TABLE</a> sent in an <a href="https://msdn.microsoft.com/library/windows/hardware/hh406723">IOCTL_EHSTOR_DRIVER_UPDATE_LBA_FILTER_TABLE</a> request.
 
 
 ## -struct-fields
@@ -94,23 +82,22 @@ Set to TRUE if the LBA range in this entry is  not writeable. Otherwise, this me
 
 
 
-An LBA range is valid only if LbaCount is &gt; 0 and it is not overlapping with another entry in <a href="..\ehstorioctl\ns-ehstorioctl-_lba_filter_table.md">LBA_FILTER_TABLE</a>.
+An LBA range is valid only if LbaCount is &gt; 0 and it is not overlapping with another entry in <a href="https://msdn.microsoft.com/library/windows/hardware/hh463957">LBA_FILTER_TABLE</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\ehstorioctl\ni-ehstorioctl-ioctl_ehstor_driver_update_lba_filter_table.md">IOCTL_EHSTOR_DRIVER_UPDATE_LBA_FILTER_TABLE</a>
 
 
 
-<a href="..\ehstorioctl\ns-ehstorioctl-_lba_filter_table.md">LBA_FILTER_TABLE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406723">IOCTL_EHSTOR_DRIVER_UPDATE_LBA_FILTER_TABLE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh463957">LBA_FILTER_TABLE</a>
  
 
  
-
 

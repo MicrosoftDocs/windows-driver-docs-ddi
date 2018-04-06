@@ -7,7 +7,7 @@ old-location: kernel\pscreateprocessnotifytype.htm
 old-project: kernel
 ms.assetid: 5DD02CF1-50E8-45F2-9035-E0AA48F1470C
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: PSCREATEPROCESSNOTIFYTYPE, PSCREATEPROCESSNOTIFYTYPE enumeration [Kernel-Mode Driver Architecture], PsCreateProcessNotifySubsystems, _PSCREATEPROCESSNOTIFYTYPE, kernel.pscreateprocessnotifytype, ntddk/PSCREATEPROCESSNOTIFYTYPE, ntddk/PsCreateProcessNotifySubsystems
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ntddk.h
 api_name:
 -	PSCREATEPROCESSNOTIFYTYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PSCREATEPROCESSNOTIFYTYPE
 ---
@@ -49,17 +50,7 @@ req.typenames: PSCREATEPROCESSNOTIFYTYPE
 ## -description
 
 
-Indicates the type of process notification. This enumeration is used in <a href="..\ntddk\nf-ntddk-pssetcreateprocessnotifyroutineex2.md">PsSetCreateProcessNotifyRoutineEx2</a> to register callback notifications.
-
-
-## -syntax
-
-
-````
-typedef enum _PSCREATEPROCESSNOTIFYTYPE { 
-  PsCreateProcessNotifySubsystems  = 0
-} PSCREATEPROCESSNOTIFYTYPE;
-````
+Indicates the type of process notification. This enumeration is used in <a href="https://msdn.microsoft.com/library/windows/hardware/mt805891">PsSetCreateProcessNotifyRoutineEx2</a> to register callback notifications.
 
 
 ## -enum-fields
@@ -69,12 +60,11 @@ typedef enum _PSCREATEPROCESSNOTIFYTYPE {
 
 ### -field PsCreateProcessNotifySubsystems
 
-Indicates that the driver-registered callback is invoked for processes of all subsystems, including the Win32 subsystem. Drivers can call <a href="https://msdn.microsoft.com/0eae7899-c40b-4a5f-9e9c-adae021885e7">NtQueryInformationProcess</a> to determine the underlying subsystem. The query retrieves a  <a href="..\ntddk\ne-ntddk-_subsystem_information_type.md">SUBSYSTEM_INFORMATION_TYPE</a> value.
+Indicates that the driver-registered callback is invoked for processes of all subsystems, including the Win32 subsystem. Drivers can call <a href="https://msdn.microsoft.com/0eae7899-c40b-4a5f-9e9c-adae021885e7">NtQueryInformationProcess</a> to determine the underlying subsystem. The query retrieves a  <a href="https://msdn.microsoft.com/library/windows/hardware/mt805892">SUBSYSTEM_INFORMATION_TYPE</a> value.
 
 
 ## -see-also
 
-<a href="..\ntddk\ne-ntddk-_subsystem_information_type.md">SUBSYSTEM_INFORMATION_TYPE</a>
 
 
 
@@ -82,12 +72,12 @@ Indicates that the driver-registered callback is invoked for processes of all su
 
 
 
-<a href="..\ntddk\nf-ntddk-pssetcreateprocessnotifyroutineex2.md">PsSetCreateProcessNotifyRoutineEx2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt805891">PsSetCreateProcessNotifyRoutineEx2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt805892">SUBSYSTEM_INFORMATION_TYPE</a>
  
 
  
-
 

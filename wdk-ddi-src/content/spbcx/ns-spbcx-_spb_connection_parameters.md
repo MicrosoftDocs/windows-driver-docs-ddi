@@ -38,7 +38,8 @@ api_location:
 -	Spbcx.h
 api_name:
 -	SPB_CONNECTION_PARAMETERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SPB_CONNECTION_PARAMETERS, *PSPB_CONNECTION_PARAMETERS
 req.product: Windows 10 or later.
@@ -51,18 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>SPB_CONNECTION_PARAMETERS</b> structure contains the connection parameters for a target device on a <a href="https://msdn.microsoft.com/2c660e14-5b27-4610-a328-735b07ed0773">simple peripheral bus</a>.
-
-
-## -syntax
-
-
-````
-typedef struct SPB_CONNECTION_PARAMETERS {
-  USHORT Size;
-  PCWSTR ConnectionTag;
-  PVOID  ConnectionParameters;
-} SPB_CONNECTION_PARAMETERS, *PSPB_CONNECTION_PARAMETERS;
-````
 
 
 ## -struct-fields
@@ -109,15 +98,6 @@ To open a connection on behalf of a client (peripheral driver), the SPB framewor
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406205">SPB_CONNECTION_PARAMETERS_INIT</a>
-
-
-
-<a href="https://msdn.microsoft.com/02756C35-E76C-42C0-80FA-359CADE224A1">EvtSpbTargetDisconnect</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450926">SpbTargetGetConnectionParameters</a>
 
 
 
@@ -125,12 +105,20 @@ To open a connection on behalf of a client (peripheral driver), the SPB framewor
 
 
 
+<a href="https://msdn.microsoft.com/02756C35-E76C-42C0-80FA-359CADE224A1">EvtSpbTargetDisconnect</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/jj938063">RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406205">SPB_CONNECTION_PARAMETERS_INIT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450926">SpbTargetGetConnectionParameters</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: display\d3d12ddi-content-protection-callbacks-0030.htm
 old-project: display
 ms.assetid: a3a9b862-872e-4a1e-bb80-1831db983b28
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3D12DDI_CONTENT_PROTECTION_CALLBACKS_0030, D3D12DDI_CONTENT_PROTECTION_CALLBACKS_0030 structure [Display Devices], d3d12umddi/D3D12DDI_CONTENT_PROTECTION_CALLBACKS_0030, display.d3d12ddi-content-protection-callbacks-0030
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3d12umddi.h
 api_name:
 -	D3D12DDI_CONTENT_PROTECTION_CALLBACKS_0030
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D12DDI_CONTENT_PROTECTION_CALLBACKS_0030
 ---
@@ -50,16 +51,6 @@ req.typenames: D3D12DDI_CONTENT_PROTECTION_CALLBACKS_0030
 
 
 Content protection callbacks.
-
-
-## -syntax
-
-
-````
-typedef struct _D3D12DDI_CONTENT_PROTECTION_CALLBACKS_0030 {
-  PFND3D12DDI_CREATE_PROTECTED_SESSION_CB_0030  pfnCreateProtectedSessionCB;
-} D3D12DDI_CONTENT_PROTECTION_CALLBACKS_0030, D3D12DDI_CONTENT_PROTECTION_CALLBACKS_0030;
-````
 
 
 ## -struct-fields

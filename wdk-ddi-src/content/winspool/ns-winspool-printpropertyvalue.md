@@ -38,7 +38,8 @@ api_location:
 -	Winspool.h
 api_name:
 -	PrintPropertyValue
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PrintPropertyValue
 req.product: Windows 10 or later.
@@ -51,26 +52,6 @@ req.product: Windows 10 or later.
 
 
 
-
-
-## -syntax
-
-
-````
-typedef struct {
-  EPrintPropertyType ePropertyType;
-  union {
-    BYTE     propertyByte;
-    PWSTR    propertyString;
-    LONG     propertyInt32;
-    LONGLONG propertyInt64;
-    struct {
-      DWORD  cbBuf;
-      LPVOID pBuf;
-    } propertyBlob;
-  } value;
-} PrintPropertyValue;
-````
 
 
 ## -struct-fields

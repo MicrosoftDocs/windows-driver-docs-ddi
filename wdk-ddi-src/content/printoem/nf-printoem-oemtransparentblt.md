@@ -38,7 +38,8 @@ api_location:
 -	printoem.h
 api_name:
 -	OEMTransparentBlt
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STDVARIABLEINDEX
 req.product: Windows 10 or later.
@@ -51,23 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <code>OEMTransparentBlt</code> function provides bit-block transfer capabilities with transparency.
-
-
-## -syntax
-
-
-````
-BOOL APIENTRY OEMTransparentBlt(
-   SURFOBJ  *psoDst,
-   STRFOBJ  *psoSrc,
-   CLIPOBJ  *pco,
-   XLATEOBJ *pxlo,
-   RECTL    *prclDst,
-   RECTL    *prclSrc,
-   ULONG    iTransColor,
-   ULONG    ulReserved
-);
-````
 
 
 ## -parameters

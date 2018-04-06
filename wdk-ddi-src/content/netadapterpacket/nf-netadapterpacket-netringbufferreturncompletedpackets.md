@@ -73,8 +73,6 @@ If you always complete packets in order, it is more efficient to write to **Begi
 
 When you use **NetRingBufferReturnCompletedPackets**, it is most efficient to flag all finished packets and call the routine just once.
 
-In NetAdapterCx 1.2, this method was updated to take a [NET_DATAPATH_DESCRIPTOR](../netdatapathdescriptor/ns-netdatapathdescriptor-_net_datapath_descriptor.md) as a parameter.
-
 The minimum NetAdapterCx version for **NetRingBufferReturnCompletedPackets** is 1.2.
 
 ### Example

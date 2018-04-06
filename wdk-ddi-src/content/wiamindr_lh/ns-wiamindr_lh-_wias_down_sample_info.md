@@ -38,7 +38,8 @@ api_location:
 -	wiamindr_lh.h
 api_name:
 -	WIAS_DOWN_SAMPLE_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WIAS_DOWN_SAMPLE_INFO, *PWIAS_DOWN_SAMPLE_INFO
 req.product: Windows 10 or later.
@@ -50,28 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The WIAS_DOWN_SAMPLE_INFO structure stores information used by the downsampling helper function, <a href="..\wiamdef\nf-wiamdef-wiasdownsamplebuffer.md">wiasDownSampleBuffer</a>.
-
-
-## -syntax
-
-
-````
-typedef struct _WIAS_DOWN_SAMPLE_INFO {
-  ULONG ulOriginalWidth;
-  ULONG ulOriginalHeight;
-  ULONG ulBitsPerPixel;
-  ULONG ulXRes;
-  ULONG ulYRes;
-  ULONG ulDownSampledWidth;
-  ULONG ulDownSampledHeight;
-  ULONG ulActualSize;
-  ULONG ulDestBufSize;
-  ULONG ulSrcBufSize;
-  BYTE  *pSrcBuffer;
-  BYTE  *pDestBuffer;
-} WIAS_DOWN_SAMPLE_INFO, *PWIAS_DOWN_SAMPLE_INFO;
-````
+The WIAS_DOWN_SAMPLE_INFO structure stores information used by the downsampling helper function, <a href="https://msdn.microsoft.com/library/windows/hardware/ff549185">wiasDownSampleBuffer</a>.
 
 
 ## -struct-fields
@@ -141,12 +121,11 @@ Points to the destination buffer.
 
 ## -see-also
 
-<a href="..\wiamdef\nf-wiamdef-wiasdownsamplebuffer.md">wiasDownSampleBuffer</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549185">wiasDownSampleBuffer</a>
  
 
  
-
 

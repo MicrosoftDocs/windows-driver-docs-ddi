@@ -38,7 +38,8 @@ api_location:
 -	filterpipeline.h
 api_name:
 -	IXpsDocumentConsumer.SendXpsUnknown
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
@@ -50,16 +51,6 @@ req.typenames: EXpsFontRestriction
 
 
 The <code>SendXpsUnknown</code> method sends an XPS document part that cannot be identified to the filter pipeline.
-
-
-## -syntax
-
-
-````
-HRESULT SendXpsUnknown(
-  [in] IUnknown *pUnknown
-);
-````
 
 
 ## -parameters

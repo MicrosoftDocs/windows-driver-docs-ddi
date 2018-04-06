@@ -38,7 +38,8 @@ api_location:
 -	winsmcrd.h
 api_name:
 -	IOCTL_SMARTCARD_TRANSMIT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PRINTER_EVENT_ATTRIBUTES_INFO, *PPRINTER_EVENT_ATTRIBUTES_INFO
 req.product: Windows 10 or later.
@@ -143,7 +144,6 @@ Bytes buffer contains the result of the transmission. The buffer points to the S
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/design-guide-smart-card">Smart card design guide</a>
 
 
 
@@ -151,8 +151,8 @@ Bytes buffer contains the result of the transmission. The buffer points to the S
 
 
 
+<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/design-guide-smart-card">Smart card design guide</a>
  
 
  
-
 

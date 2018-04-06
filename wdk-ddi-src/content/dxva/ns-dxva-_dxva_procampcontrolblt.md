@@ -7,7 +7,7 @@ old-location: display\dxva_procampcontrolblt.htm
 old-project: display
 ms.assetid: 93f321e1-a38b-43a2-bfbd-35411a62194e
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXVA_ProcAmpControlBlt, DXVA_ProcAmpControlBlt structure [Display Devices], _DXVA_ProcAmpControlBlt, display.dxva_procampcontrolblt, dxva/DXVA_ProcAmpControlBlt, dxvaref_aaac59e6-334e-49a3-a599-facef11960e3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	dxva.h
 api_name:
 -	DXVA_ProcAmpControlBlt
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXVA_ProcAmpControlBlt
 ---
@@ -50,23 +51,6 @@ req.typenames: DXVA_ProcAmpControlBlt
 
 
 The DXVA_ProcAmpControlBlt structure contains the ProcAmp adjustment data that is output to the destination surface.
-
-
-## -syntax
-
-
-````
-typedef struct _DXVA_ProcAmpControlBlt {
-  DWORD Size;
-  RECT  DstRect;
-  RECT  SrcRect;
-  FLOAT Alpha;
-  FLOAT Brightness;
-  FLOAT Contrast;
-  FLOAT Hue;
-  FLOAT Saturation;
-} DXVA_ProcAmpControlBlt;
-````
 
 
 ## -struct-fields
@@ -81,7 +65,7 @@ Specifies the size of this structure in bytes.
 
 ### -field DstRect
 
-Specifies the destination rectangle as a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure. The destination rectangle is required for subrectangle stretching. Support for stretching is optional and is reported by the <a href="..\dxva\ns-dxva-_dxva_procampcontrolcaps.md">DXVA_ProcAmpControlCaps</a> structure. Support for subrectangles is optional.
+Specifies the destination rectangle as a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure. The destination rectangle is required for subrectangle stretching. Support for stretching is optional and is reported by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564019">DXVA_ProcAmpControlCaps</a> structure. Support for subrectangles is optional.
 
 
 ### -field SrcRect
@@ -116,16 +100,15 @@ Specifies the saturation of the output image as it is written to the destination
 
 ## -see-also
 
-<a href="..\dxva\ns-dxva-_dxva_procampcontrolcaps.md">DXVA_ProcAmpControlCaps</a>
 
 
 
-<a href="..\dxva\ns-dxva-_dxva_procampcontrolqueryrange.md">DXVA_ProcAmpControlQueryRange</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564019">DXVA_ProcAmpControlCaps</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564032">DXVA_ProcAmpControlQueryRange</a>
  
 
  
-
 

@@ -38,7 +38,8 @@ api_location:
 -	bthddi.h
 api_name:
 -	_BRB_GET_LOCAL_BD_ADDR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -52,17 +53,6 @@ req.typenames:
 The _BRB_GET_LOCAL_BD_ADDR structure describes the address of the local radio.
 
 
-## -syntax
-
-
-````
-struct _BRB_GET_LOCAL_BD_ADDR {
-  BRB_HEADER Hdr;
-  BTH_ADDR   BtAddress;
-};
-````
-
-
 ## -struct-fields
 
 
@@ -71,7 +61,7 @@ struct _BRB_GET_LOCAL_BD_ADDR {
 ### -field Hdr
 
 A 
-     <a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a> structure that contains information
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536612">BRB_HEADER</a> structure that contains information
      about the current BRB.
 
 
@@ -96,16 +86,15 @@ Only a single local radio is supported by the Bluetooth driver stack.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536611">BRB_HCI_GET_LOCAL_BD_ADDR</a>
 
 
 
-<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536612">BRB_HEADER</a>
  
 
  
-
 

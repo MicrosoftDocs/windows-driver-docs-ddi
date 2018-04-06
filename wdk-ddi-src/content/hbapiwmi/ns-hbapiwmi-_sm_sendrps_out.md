@@ -7,7 +7,7 @@ old-location: storage\sm_sendrps_out.htm
 old-project: storage
 ms.assetid: e202a292-df26-4829-be51-b8427d2dee20
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSM_SendRPS_OUT, PSM_SendRPS_OUT, PSM_SendRPS_OUT structure pointer [Storage Devices], SM_SendRPS_OUT, SM_SendRPS_OUT structure [Storage Devices], _SM_SendRPS_OUT, hbapiwmi/PSM_SendRPS_OUT, hbapiwmi/SM_SendRPS_OUT, storage.sm_sendrps_out, structs-Fibre_6aad3070-5819-4742-87c6-f5c3b50b4f9b.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	hbapiwmi.h
 api_name:
 -	SM_SendRPS_OUT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SM_SendRPS_OUT, *PSM_SendRPS_OUT
 ---
@@ -50,19 +51,6 @@ req.typenames: SM_SendRPS_OUT, *PSM_SendRPS_OUT
 
 
 The SM_SendRPS_OUT structure is used to receive output parameters from the SM_SendRPS method.
-
-
-## -syntax
-
-
-````
-typedef struct _SM_SendRPS_OUT {
-  ULONG HBAStatus;
-  ULONG TotalRespBufferSize;
-  ULONG OutRespBufferSize;
-  UCHAR RespBuffer[1];
-} SM_SendRPS_OUT, *PSM_SendRPS_OUT;
-````
 
 
 ## -struct-fields

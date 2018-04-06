@@ -7,7 +7,7 @@ old-location: display\dxgk_drivercaps.htm
 old-project: display
 ms.assetid: 1ee8eb02-066c-4a54-b31a-cd6644cbce06
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGK_DRIVERCAPS, DXGK_DRIVERCAPS structure [Display Devices], DmStructs_4a8b7d02-5b36-4a4b-980f-edfc96b4efd3.xml, _DXGK_DRIVERCAPS, d3dkmddi/DXGK_DRIVERCAPS, display.dxgk_drivercaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -16,18 +16,18 @@ req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows Vista.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
 -	APIRef
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGK_DRIVERCAPS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_DRIVERCAPS
 ---
@@ -80,7 +81,7 @@ typedef struct _DXGK_DRIVERCAPS {
   DXGK_WDDMVERSION        WDDMVersion;
   DXGK_VIRTUALADDRESSCAPS VirtualAddressCaps;
   DXGK_DMABUFFERCAPS      DmaBufferCaps;
-#endif 
+#endif
 #if DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WIN8
   D3DKMDT_PREEMPTION_CAPS PreemptionCaps;
   BOOLEAN                 SupportNonVGA;
@@ -90,11 +91,11 @@ typedef struct _DXGK_DRIVERCAPS {
   BOOLEAN                 SupportMultiPlaneOverlay;
   BOOLEAN                 SupportRuntimePowerManagement;
   BOOLEAN                 SupportSurpriseRemovalInHibernation;
-#endif 
+#endif
 #if (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WDDM1_3)
   BOOLEAN                 HybridDiscrete;
   UINT                    MaxOverlayPlanes;
-#endif 
+#endif
 #if (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WDDM2_1)
   BOOLEAN                 SupportMultiPlaneOverlayImmediateFlip;
   BOOLEAN                 CursorScaledWithMultiPlaneOverlayPlane0;
@@ -115,12 +116,12 @@ typedef struct _DXGK_DRIVERCAPS {
 
 ### -field MaxAllocationListSlotId
 
-[out] The maximum number of allocation-list slot identifiers. An allocation-list slot represents where an allocation is directed in direct memory access (DMA) buffering. 
+[out] The maximum number of allocation-list slot identifiers. An allocation-list slot represents where an allocation is directed in direct memory access (DMA) buffering.
 
 
 ### -field ApertureSegmentCommitLimit
 
-[out] The maximum number of bytes of physical memory that the display miniport driver supports for mapping into an aperture segment. The video memory manager will not map more physical memory into an aperture segment than the limit that <b>ApertureSegmentCommitLimit</b> specifies. 
+[out] The maximum number of bytes of physical memory that the display miniport driver supports for mapping into an aperture segment. The video memory manager will not map more physical memory into an aperture segment than the limit that <b>ApertureSegmentCommitLimit</b> specifies.
 
 
 ### -field MaxPointerWidth
@@ -140,12 +141,12 @@ typedef struct _DXGK_DRIVERCAPS {
 
 ### -field InterruptMessageNumber
 
-[out] The message number that is used if message-signaled interrupts are used and the driver calls the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_notify_interrupt.md">DxgkCbNotifyInterrupt</a> function from the interrupt handler corresponding to a fixed message number. 
+[out] The message number that is used if message-signaled interrupts are used and the driver calls the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_notify_interrupt.md">DxgkCbNotifyInterrupt</a> function from the interrupt handler corresponding to a fixed message number.
 
 
 ### -field NumberOfSwizzlingRanges
 
-[out] The number of swizzling ranges that the driver can support. 
+[out] The number of swizzling ranges that the driver can support.
 
 
 ### -field MaxOverlays
@@ -200,13 +201,11 @@ Supported starting with Windows 7.
 
 ### -field Reserved
 
- 
-
+Reserved.
 
 ### -field Reserved1
 
- 
-
+Reserved.
 
 ### -field PreemptionCaps
 
@@ -303,27 +302,27 @@ Supported starting with Windows 8.1.
 
 ### -field HybridIntegrated
 
- 
+
 
 
 ### -field InternalGpuVirtualAddressRangeStart
 
- 
+
 
 
 ### -field InternalGpuVirtualAddressRangeEnd
 
- 
+
 
 
 ### -field SupportSurpriseRemoval
 
- 
+
 
 
 ### -field SupportMultiPlaneOverlayImmediateFlip
 
-[out] If TRUE, the display miniport driver supports immediate flips to a multiplane overlay plane as long as the only value changing is the physical address to be displayed. 
+[out] If TRUE, the display miniport driver supports immediate flips to a multiplane overlay plane as long as the only value changing is the physical address to be displayed.
 
 
 ### -field CursorScaledWithMultiPlaneOverlayPlane0
@@ -333,7 +332,7 @@ Supported starting with Windows 8.1.
 
 ### -field HybridAcpiChainingRequired
 
- 
+
 
 
 ### -field MaxQueuedMultiPlaneOverlayFlipVSync
@@ -366,6 +365,23 @@ Supported starting with Windows 7.
 
 Supported starting with Windows 7.
 
+### -field MiscCaps
+
+Miscellaneous capabilities.
+
+### -field MiscCaps.SupportContextlessPresent
+
+Supports contextless present.
+
+### -field MiscCaps.Detachable
+
+Detachable.
+
+### -field MiscCaps.Reserved
+
+Reserved.
+
+### -field MiscCaps.Value
 
 ## -see-also
 

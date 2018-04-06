@@ -7,7 +7,7 @@ old-location: netvista\rilcallinfo_v1.htm
 old-project: netvista
 ms.assetid: eae7108f-94d5-4147-b554-189c1a356641
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*LPRILCALLINFO_V1, RILCALLINFO_V1, RILCALLINFO_V1 structure [Network Drivers Starting with Windows Vista], netvista.rilcallinfo_v1, ntddrilapitypes/RILCALLINFO_V1"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILCALLINFO_V1
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILCALLINFO_V1, *LPRILCALLINFO_V1
 req.product: Windows 10 or later.
@@ -51,32 +52,6 @@ req.product: Windows 10 or later.
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef struct _RILCALLINFO_V1 {
-  DWORD                           cbSize;
-  DWORD                           dwParams;
-  DWORD                           dwExecutor;
-  DWORD                           dwID;
-  RILCALLINFODIRECTION            dwDirection;
-  RILCALLINFOSTATUS               dwStatus;
-  RILCALLTYPE                     dwType;
-  RILCALLINFOMULTIPARTY           dwMultiparty;
-  RILADDRESS                      raAddress;
-  RILSUBADDRESS                   rsaSubAddress;
-  WCHAR [256]                     wszDescription;
-  RILREMOTEPARTYINFOVALUE         dwNumberPresentationIndicator;
-  RILREMOTEPARTYINFOVALUE         dwNamePresentationIndicator;
-  BOOL                            fAlienCall;
-  RILCALLINFODISCONNECTINITIATOR  dwDisconnectInitiator;
-  RILCALLINFODISCONNECTREASON     dwDisconnectReason;
-  RILCALLDISCONNECTDETAILS        stDisconnectDetails;
-} RILCALLINFO_V1, RILCALLINFO_V1;
-````
 
 
 ## -struct-fields

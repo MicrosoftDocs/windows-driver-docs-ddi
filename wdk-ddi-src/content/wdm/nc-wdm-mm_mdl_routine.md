@@ -7,7 +7,7 @@ old-location: kernel\mm_mdl_routine.htm
 old-project: kernel
 ms.assetid: D8D946C9-8642-4D31-B983-DAF88B46B97B
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*PMM_MDL_ROUTINE, *PMM_MDL_ROUTINE callback function [Kernel-Mode Driver Architecture], MM_MDL_ROUTINE, MmMdlRoutine, MmMdlRoutine callback function [Kernel-Mode Driver Architecture], kernel.mm_mdl_routine, wdm/MmMdlRoutine"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	*PMM_MDL_ROUTINE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
 req.product: Windows 10 or later.
@@ -51,23 +52,7 @@ req.product: Windows 10 or later.
 
 
 A driver-supplied callback routine that is invoked after a memory descriptor
-    list (MDL)  is mapped by calling the <a href="..\wdm\nf-wdm-mmmapmdl.md">MmMapMdl</a> function.
-
-
-## -prototype
-
-
-````
-MM_MDL_ROUTINE MmMdlRoutine;
-
-VOID MmMdlRoutine(
-  _In_opt_ PVOID DriverContext,
-  _In_     PVOID MappedVa
-)
-{ ... }
-
-typedef MM_MDL_ROUTINE *PMM_MDL_ROUTINE;
-````
+    list (MDL)  is mapped by calling the <a href="https://msdn.microsoft.com/4272f7a2-9379-40dd-a0a1-784dd25bc8bc">MmMapMdl</a> function.
 
 
 ## -parameters
@@ -97,12 +82,11 @@ This callback function does not return a value.
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-mmmapmdl.md">MmMapMdl</a>
 
 
 
+<a href="https://msdn.microsoft.com/4272f7a2-9379-40dd-a0a1-784dd25bc8bc">MmMapMdl</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: display\dxgkargcb_notify_interrupt_data.htm
 old-project: display
 ms.assetid: c71078fb-5666-4038-81a0-de9375bafb5c
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*IN_CONST_PDXGKARGCB_NOTIFY_INTERRUPT_DATA, DXGKARGCB_NOTIFY_INTERRUPT_DATA, DXGKARGCB_NOTIFY_INTERRUPT_DATA structure [Display Devices], DmStructs_071ed85c-70d6-44d8-95e3-7f6609331f4f.xml, STATUS_INVALID_PARAMETER, STATUS_NO_MEMORY, STATUS_SUCCESS, _DXGKARGCB_NOTIFY_INTERRUPT_DATA, d3dkmddi/DXGKARGCB_NOTIFY_INTERRUPT_DATA, display.dxgkargcb_notify_interrupt_data"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -16,18 +16,18 @@ req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
 -	APIRef
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGKARGCB_NOTIFY_INTERRUPT_DATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGKARGCB_NOTIFY_INTERRUPT_DATA
 ---
@@ -92,7 +93,7 @@ typedef struct _DXGKARGCB_NOTIFY_INTERRUPT_DATA {
       DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO *pMultiPlaneOverlayVsyncInfo;
     } CrtcVsyncWithMultiPlaneOverlay;
     DXGKARGCB_PRESENT_DISPLAYONLY_PROGRESS DisplayOnlyPresentProgress;
-#endif 
+#endif
 #if (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WDDM1_3)
     struct {
       D3DDDI_VIDEO_PRESENT_TARGET_ID VidPnTargetId;
@@ -101,7 +102,7 @@ typedef struct _DXGKARGCB_NOTIFY_INTERRUPT_DATA {
       UINT                           PrivateDataDriverSize;
       NTSTATUS                       Status;
     } MiracastEncodeChunkCompleted;
-#endif 
+#endif
 #if (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WDDM2_0)
     struct {
       UINT                       FaultedFenceId;
@@ -116,7 +117,7 @@ typedef struct _DXGKARGCB_NOTIFY_INTERRUPT_DATA {
       DXGK_FAULT_ERROR_CODE      FaultErrorCode;
       HANDLE                     FaultedProcessHandle;
     } DmaPageFaulted;
-#endif 
+#endif
 #if (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WDDM2_2)
     D3DDDI_VIDEO_PRESENT_TARGET_ID         VidPnTargetId;
     UINT                                   PhysicalAdapterMask;
@@ -124,7 +125,7 @@ typedef struct _DXGKARGCB_NOTIFY_INTERRUPT_DATA {
     DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO2    *pMultiPlaneOverlayVsyncInfo;
     ULONGLONG                              GpuFrequency;
     ULONGLONG                              GpuClockCounter;
-#endif 
+#endif
     struct {
       UINT Reserved[16];
     } Reserved;
@@ -146,6 +147,7 @@ typedef struct _DXGKARGCB_NOTIFY_INTERRUPT_DATA {
 
 ### -field DmaCompleted
 
+Structure of the completed display miniport adapter.
 
 ### -field DmaCompleted.SubmissionFenceId
 
@@ -164,6 +166,7 @@ typedef struct _DXGKARGCB_NOTIFY_INTERRUPT_DATA {
 
 ### -field DmaPreempted
 
+Structure of the display miniport adapter preempted.
 
 ### -field DmaPreempted.PreemptionFenceId
 
@@ -187,6 +190,7 @@ typedef struct _DXGKARGCB_NOTIFY_INTERRUPT_DATA {
 
 ### -field DmaFaulted
 
+Faulted.
 
 ### -field DmaFaulted.FaultedFenceId
 
@@ -205,7 +209,7 @@ typedef struct _DXGKARGCB_NOTIFY_INTERRUPT_DATA {
 
 ### -field DmaFaulted.EngineOrdinal
 
-[in] The zero-based index of the engine, within the node that <b>NodeOrdinal</b> specifies, that generates the notification. For graphics adapters that are not part of a link, you should always set <b>EngineOrdinal</b> to 0. For graphics adapters that are part of a link, set <b>EngineOrdinal</b> to the adapter index of the adapter in the link that the interrupting engine belongs to. 
+[in] The zero-based index of the engine, within the node that <b>NodeOrdinal</b> specifies, that generates the notification. For graphics adapters that are not part of a link, you should always set <b>EngineOrdinal</b> to 0. For graphics adapters that are part of a link, set <b>EngineOrdinal</b> to the adapter index of the adapter in the link that the interrupting engine belongs to.
 
 
 ### -field CrtcVsync
@@ -223,11 +227,12 @@ typedef struct _DXGKARGCB_NOTIFY_INTERRUPT_DATA {
 
 ### -field CrtcVsync.PhysicalAdapterMask
 
-[in] The physical adapter mask where the vertical sync occurs. If this member contains a valid value, the driver must also set the <b>ValidPhysicalAdapterMask</b> bit-field flag in the <b>Flags</b> member. 
+[in] The physical adapter mask where the vertical sync occurs. If this member contains a valid value, the driver must also set the <b>ValidPhysicalAdapterMask</b> bit-field flag in the <b>Flags</b> member.
 
 
 ### -field DisplayOnlyVsync
 
+When Vsync occurs.
 
 ### -field DisplayOnlyVsync.VidPnTargetId
 
@@ -290,7 +295,7 @@ Supported starting with Windows 8.1.
 
 ### -field MiracastEncodeChunkCompleted.pPrivateDriverData
 
-A pointer to a block of private data that describes this encode chunk. 
+A pointer to a block of private data that describes this encode chunk.
 
 Supported starting with Windows 8.1.
 
@@ -351,6 +356,7 @@ The interrupt-service-routine (ISR) ran out of free encode chunks.
 
 ### -field DmaPageFaulted
 
+Page faulted.
 
 ### -field DmaPageFaulted.FaultedFenceId
 
@@ -436,143 +442,191 @@ Supported starting with Windows 10.
 
 ### -field CrtcVsyncWithMultiPlaneOverlay2
 
- 
 
+Vsync with multi-plane overlay.
 
 ### -field CrtcVsyncWithMultiPlaneOverlay2.VidPnTargetId
 
- 
 
+Vsync with multiplane overlay Vidpn target id.
 
 ### -field CrtcVsyncWithMultiPlaneOverlay2.PhysicalAdapterMask
 
- 
+Physical adapter mask.
 
 
 ### -field CrtcVsyncWithMultiPlaneOverlay2.MultiPlaneOverlayVsyncInfoCount
 
- 
 
+Multi-plane overlay vsync info count.
 
 ### -field CrtcVsyncWithMultiPlaneOverlay2.pMultiPlaneOverlayVsyncInfo
 
- 
+Multi-plane overlay vsync info.
 
 
 ### -field CrtcVsyncWithMultiPlaneOverlay2.GpuFrequency
 
- 
 
+GPU frequency.
 
 ### -field CrtcVsyncWithMultiPlaneOverlay2.GpuClockCounter
 
- 
 
+GPU clock counter.
 
 ### -field MonitoredFenceSignaled
 
- 
+Monitored fence signaled.
 
 
 ### -field MonitoredFenceSignaled.NodeOrdinal
 
- 
+[in] Node ordinal of engine generating the notification.
 
 
 ### -field MonitoredFenceSignaled.EngineOrdinal
 
- 
 
+[in] Engine ordinal of engine generating the notification.
 
 ### -field HwContextListSwitchCompleted
 
- 
 
+Hardware context list switch is completed.
 
 ### -field HwContextListSwitchCompleted.NodeOrdinal
 
- 
+[in] Node ordinal of engine generating the notification.
 
 
 ### -field HwContextListSwitchCompleted.EngineOrdinal
 
- 
+[in] Engine ordinal of engine generating the notification.
 
 
 ### -field HwContextListSwitchCompleted.ContextSwitchFence
 
- 
+[in] Context switch fence used to perform this switch operation.
 
 
 ### -field HwQueuePageFaulted
 
- 
+Hardware queue page faulted.
 
 
 ### -field HwQueuePageFaulted.FaultedFenceId
 
- 
+[in] HW queue progress fence ID of the faulted command. If the faulted fence could not be determined reliably PageFaultFlags should have DXGK_PAGE_FAULT_FENCE_INVALID flag set.
 
 
 ### -field HwQueuePageFaulted.FaultedVirtualAddress
 
- 
+[in] Virtual address of fault, or 0 if the fault has another cause. In the latter case, FaultErrorCode field should be used to describe the GPU error.
 
 
 ### -field HwQueuePageFaulted.FaultedPrimitiveAPISequenceNumber
 
- 
+[in] When per draw fence write is enabled, identifies the draw that caused the page fault, or DXGK_PRIMITIVE_API_SEQUENCE_NUMBER_UNKNOWN if such information is not available.
 
 
 ### -field HwQueuePageFaulted.NodeOrdinal
 
- 
 
+[in] Node ordinal of engine generating the notification.
 
 ### -field HwQueuePageFaulted.EngineOrdinal
 
- 
+[in] Engine ordinal of engine generating the notification.
 
 
 ### -field HwQueuePageFaulted.FaultedPipelineStage
 
- 
+[in] Render pipeline stage during which the fault was generated, or DXGK_RENDER_PIPELINE_STAGE_UNKNOWN if such information is not available.
 
 
 ### -field HwQueuePageFaulted.FaultedBindTableEntry
 
- 
+[in] A bind table index of a resource being accessed at the time of the fault, or DXGK_BIND_TABLE_ENTRY_UNKNOWN if such information is not available.
 
 
 ### -field HwQueuePageFaulted.PageFaultFlags
 
- 
+[in] Flags specifying the nature of the page fault and recovery policy.
+
 
 
 ### -field HwQueuePageFaulted.PageTableLevel
 
- 
+
+[in] Described page table level which the faulting operation was attempted on.
 
 
 ### -field HwQueuePageFaulted.FaultErrorCode
 
- 
+[in] Structure that contains error code describing the fault.
 
+### -field HwQueuePageFaulted.FaultedHwQueue
+
+[in] When DXGK_PAGE_FAULT_FENCE_INVALID is not set, specifies the handle of the HW queue that generated the fault.
+
+### -field HwQueuePageFaulted.FaultedHwContext
+
+[in] When DXGK_PAGE_FAULT_FENCE_INVALID and DXGK_PAGE_FAULT_HW_CONTEXT_VALID are set, specifies the handle of the HW context that generated the fault.
+
+### -field HwQueuePageFaulted.FaultedProcessHandle
+
+[in] When DXGK_PAGE_FAULT_FENCE_INVALID and DXGK_PAGE_FAULT_PROCESS_HANDLE_VALID are set, specifies the handle of the process that generated the fault.
 
 ### -field PeriodicMonitoredFenceSignaled
 
- 
 
+Periodic monitored fence signaled.
 
 ### -field PeriodicMonitoredFenceSignaled.VidPnTargetId
 
- 
+[in] The display signaling the monitored fence.
 
 
 ### -field PeriodicMonitoredFenceSignaled.NotificationID
 
- 
+[in] The notification id as multiple can be attached to one VidPnSource.
 
+### -field SchedulingLogInterrupt
+
+The scheduling log interrupt.
+
+### -field SchedulingLogInterrupt.NodeOrdinal
+
+[in] Node ordinal of engine that raised the scheduling log interrupt.
+
+### -field SchedulingLogInterrupt.EngineOrdinal
+
+[in] Engine ordinal of engine that raised the scheduling log interrupt.
+
+### -field GpuEngineTimeout
+
+GPU engine timeout.
+
+### -field GpuEngineTimeout.NodeOrdinal
+
+[in] Node ordinal of engine that timed out and needs the reset.
+
+### -field GpuEngineTimeout.EngineOrdinal
+
+[in] Engine ordinal of engine that timed out and needs the reset.
+
+### -field SuspendContextCompleted
+
+Suspend context completed.
+
+### -field SuspendContextCompleted.hContext
+
+[in] Hardware context that the suspend acknowledgment is for.
+
+### -field SuspendContextCompleted.ContextSuspendFence
+
+[in] Context suspend fence.
 
 ### -field Reserved
 
@@ -596,12 +650,12 @@ Supported starting with Windows 8.
 
 #### - GpuClockCounter
 
-The GPU clock counter at the time of the VSYNC interrupt. Combined with GpuFrequency, this indicates the time of the VSYNC interrupt. 
+The GPU clock counter at the time of the VSYNC interrupt. Combined with GpuFrequency, this indicates the time of the VSYNC interrupt.
 
 
 #### - GpuFrequency
 
-The frequency of the GPU clock counter. 
+The frequency of the GPU clock counter.
 
 
 #### - MultiPlaneOverlayVsyncInfoCount

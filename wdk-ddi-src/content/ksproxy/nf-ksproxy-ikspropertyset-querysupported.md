@@ -38,7 +38,8 @@ api_location:
 -	ksproxy.h
 api_name:
 -	IKsPropertySet.QuerySupported
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PIPE_STATE
 ---
@@ -50,18 +51,6 @@ req.typenames: PIPE_STATE
 
 
 The <b>QuerySupported</b> method determines whether a KS object supports a property set and the type of that support.
-
-
-## -syntax
-
-
-````
-HRESULT QuerySupported(
-  [in]  REFGUID PropSet,
-  [in]  ULONG   Id,
-  [out] ULONG   *TypeSupport
-);
-````
 
 
 ## -parameters
@@ -183,16 +172,15 @@ If an application must include both <i>ksproxy.h</i> and <i>dsound.h</i>, whiche
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560719">IKsPropertySet::Get</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560721">IKsPropertySet::Set</a>
-
-
-
  
 
  
-
 

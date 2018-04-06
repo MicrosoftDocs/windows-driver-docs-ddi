@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsMethodHandlerWithAllocator
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,20 +52,6 @@ req.typenames:
 
 
 The <b>KsMethodHandlerWithAllocator</b> functions performs the same handling as <b>KsMethodHandler</b>, with the same restrictions, but allows an optional allocator callback to be used to provide a buffer for the parameters. If used, the filter may need to free the buffer in some nonconventional manner. Note that the IRP_BUFFERED_IO and IRP_DEALLOCATE_BUFFER flags are not set when using a custom allocator.
-
-
-## -syntax
-
-
-````
-NTSTATUS KsMethodHandlerWithAllocator(
-  _In_           PIRP           Irp,
-  _In_           ULONG          MethodSetsCount,
-  _In_     const KSMETHOD_SET   *MethodSet,
-  _In_opt_       PFNKSALLOCATOR Allocator,
-  _In_opt_       ULONG          MethodItemSize
-);
-````
 
 
 ## -parameters

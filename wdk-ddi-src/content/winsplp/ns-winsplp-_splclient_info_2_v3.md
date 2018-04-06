@@ -38,7 +38,8 @@ api_location:
 -	Winsplp.h
 api_name:
 -	SPLCLIENT_INFO_2_LONGHORN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SPLCLIENT_INFO_2_LONGHORN
 req.product: Windows 10 or later.
@@ -51,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 
-
-
-## -syntax
-
-
-````
-typedef struct _SPLCLIENT_INFO_2_V3 {
-  UINT64           hSplPrinter;
-} SPLCLIENT_INFO_2_LONGHORN;
-````
 
 
 ## -struct-fields

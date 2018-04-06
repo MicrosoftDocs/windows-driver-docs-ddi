@@ -7,7 +7,7 @@ old-location: ifsk\mrxcomputenewbufferingstate.htm
 old-project: ifsk
 ms.assetid: d47cbcab-8682-4c7f-b651-3d1e0f78dc0c
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: MRxComputeNewBufferingState, MRxComputeNewBufferingState routine [Installable File System Drivers], PMRX_COMPUTE_NEW_BUFFERING_STATE, ifsk.mrxcomputenewbufferingstate, mrx/MRxComputeNewBufferingState, mrxref_294ad2d0-2454-437d-818a-6879361f97e5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	mrx.h
 api_name:
 -	MRxComputeNewBufferingState
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SetDSMCounters_IN, *PSetDSMCounters_IN
 ---
@@ -50,21 +51,6 @@ req.typenames: SetDSMCounters_IN, *PSetDSMCounters_IN
 
 
 The<i>MRxComputeNewBufferingState</i> routine is called by <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request that the network mini-redirector compute a new buffering state change. 
-
-
-## -prototype
-
-
-````
-PMRX_COMPUTE_NEW_BUFFERING_STATE MRxComputeNewBufferingState;
-
-NTSTATUS MRxComputeNewBufferingState(
-  _Inout_ PMRX_SRV_OPEN SrvOpen,
-  _In_    PVOID         MRxContext,
-  _Out_   PULONG        NewBufferingState
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -128,16 +114,15 @@ The Server Message Block (SMB) redirector uses <i>MRxComputeNewBufferingState</i
 
 ## -see-also
 
-<a href="..\mrx\nc-mrx-pmrx_get_connection_id.md">MRxGetConnectionId</a>
 
 
 
-<a href="..\mrx\nc-mrx-pmrx_change_buffering_state_calldown.md">MRxCompleteBufferingStateChangeRequest</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549850">MRxCompleteBufferingStateChangeRequest</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550687">MRxGetConnectionId</a>
  
 
  
-
 

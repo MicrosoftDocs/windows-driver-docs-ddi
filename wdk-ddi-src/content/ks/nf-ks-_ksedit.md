@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	_KsEdit
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,20 +52,6 @@ req.typenames:
 
 
 The <b>_KsEdit</b> function guarantees that a given item is dynamically allocated and associated with an AVStream object through the object bag.
-
-
-## -syntax
-
-
-````
-NTSTATUS _KsEdit(
-  _In_    KSOBJECT_BAG ObjectBag,
-  _Inout_ PVOID        *PointerToPointerToItem,
-  _In_    ULONG        NewSize,
-  _In_    ULONG        OldSize,
-  _In_    ULONG        Tag
-);
-````
 
 
 ## -parameters

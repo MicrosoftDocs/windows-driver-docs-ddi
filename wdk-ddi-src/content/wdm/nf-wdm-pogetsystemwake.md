@@ -7,7 +7,7 @@ old-location: kernel\pogetsystemwake.htm
 old-project: kernel
 ms.assetid: f2e6bcd6-ed6b-4c88-af96-768284bddb24
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: PoGetSystemWake, PoGetSystemWake routine [Kernel-Mode Driver Architecture], kernel.pogetsystemwake, portn_0762df5c-0956-4561-9984-83c680bdd764.xml, wdm/PoGetSystemWake
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	PoGetSystemWake
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
@@ -51,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>PoGetSystemWake</b> routine determines whether a specified IRP has been marked as waking the system from a sleeping state.
-
-
-## -syntax
-
-
-````
-BOOLEAN PoGetSystemWake(
-  _In_ PIRP Irp
-);
-````
 
 
 ## -parameters
@@ -118,7 +109,7 @@ The specified IRP did not cause the system to wake.
 
 A driver calls <b>PoGetSystemWake</b> to determine if a specified IRP contributed to waking the system from a sleep state.
 
-A driver in a wait/wake chain should call <b>PoGetSystemWake</b> on its own wait/wake IRP at completion to determine if the driver should also call <a href="..\wdm\nf-wdm-posetsystemwake.md">PoSetSystemWake</a> for child wait/wake IRPs that the driver is about to complete. This ensures that system wake information properly propagates throughout the entire wait/wake chain.
+A driver in a wait/wake chain should call <b>PoGetSystemWake</b> on its own wait/wake IRP at completion to determine if the driver should also call <a href="https://msdn.microsoft.com/library/windows/hardware/ff559770">PoSetSystemWake</a> for child wait/wake IRPs that the driver is about to complete. This ensures that system wake information properly propagates throughout the entire wait/wake chain.
 
 It is possible that several IRPs are causing the system to wake. In this case, <b>PoGetSystemWake </b>would return <b>TRUE</b> for all of the IRPs contributing to the wake event.
 
@@ -127,12 +118,11 @@ It is possible that several IRPs are causing the system to wake. In this case, <
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-posetsystemwake.md">PoSetSystemWake</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559770">PoSetSystemWake</a>
  
 
  
-
 

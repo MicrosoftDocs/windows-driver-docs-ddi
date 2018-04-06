@@ -38,7 +38,8 @@ apilocation:
 -	portcls.h
 apiname:
 -	PCNODE_DESCRIPTOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: "*PPCNODE_DESCRIPTOR, PCNODE_DESCRIPTOR"
 ---

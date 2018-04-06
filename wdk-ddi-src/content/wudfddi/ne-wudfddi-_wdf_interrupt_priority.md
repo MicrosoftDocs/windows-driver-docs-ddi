@@ -38,7 +38,8 @@ api_location:
 -	wdfinterrupt.h
 api_name:
 -	WDF_INTERRUPT_PRIORITY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_INTERRUPT_PRIORITY, *PWDF_INTERRUPT_PRIORITY
 req.product: Windows 10 or later.
@@ -53,19 +54,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WDF_INTERRUPT_PRIORITY</b> enumeration type identifies relative priorities for device interrupts.
-
-
-## -syntax
-
-
-````
-typedef enum _WDF_INTERRUPT_PRIORITY { 
-  WdfIrqPriorityUndefined  = 0,
-  WdfIrqPriorityLow        = 1,
-  WdfIrqPriorityNormal     = 2,
-  WdfIrqPriorityHigh       = 3
-} WDF_INTERRUPT_PRIORITY, *PWDF_INTERRUPT_PRIORITY;
-````
 
 
 ## -enum-fields
@@ -97,19 +85,18 @@ The device's interrupt has a relatively high priority, typically because the int
 
 
 
-The <b>WDF_INTERRUPT_PRIORITY</b> enumeration type is used as input to the <a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptsetpolicy.md">WdfInterruptSetPolicy</a> method.
+The <b>WDF_INTERRUPT_PRIORITY</b> enumeration type is used as input to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547387">WdfInterruptSetPolicy</a> method.
 
 
 
 
 ## -see-also
 
-<a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptsetpolicy.md">WdfInterruptSetPolicy</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547387">WdfInterruptSetPolicy</a>
  
 
  
-
 

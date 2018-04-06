@@ -7,7 +7,7 @@ old-location: debugger\getrawargstr.htm
 old-project: debugger
 ms.assetid: 677b56ee-3758-4f47-9f8e-fc8878d00136
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: EngExtCpp_Ref_1072b281-ece3-4641-93e8-60866c1e3ef4.xml, ExtExtension, ExtExtension class [Windows Debugging], GetRawArgStr method, ExtExtension::GetRawArgStr, GetRawArgStr method [Windows Debugging], GetRawArgStr method [Windows Debugging], ExtExtension class, GetRawArgStr,ExtExtension.GetRawArgStr, debugger.getrawargstr
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	engextcpp.hpp
 api_name:
 -	ExtExtension.GetRawArgStr
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 ---
@@ -50,14 +51,6 @@ req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 
 
 The <b>GetRawArgStr</b> method returns a string that represents the arguments passed to the extension command.
-
-
-## -syntax
-
-
-````
-PCSTR GetRawArgStr();
-````
 
 
 ## -parameters

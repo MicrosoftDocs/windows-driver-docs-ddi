@@ -7,7 +7,7 @@ old-location: netvista\fwpmengineclose0.htm
 old-project: netvista
 ms.assetid: 79ac01ff-9976-4321-a6b1-0a1cc6e5810a
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: FwpmEngineClose0, FwpmEngineClose0 function [Network Drivers Starting with Windows Vista], fwpmk/FwpmEngineClose0, netvista.fwpmengineclose0, wfp_ref_2_funct_2_fwpm_b01feaca-7c4a-44a9-aec4-f867508b0129.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	fwpkclnt.dll
 api_name:
 -	FwpmEngineClose0
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: INSTANCE_PARTIAL_INFORMATION, PINSTANCE_PARTIAL_INFORMATION
 ---
@@ -53,16 +54,6 @@ req.typenames: INSTANCE_PARTIAL_INFORMATION, PINSTANCE_PARTIAL_INFORMATION
 The 
   <b>FwpmEngineClose0</b> function closes a previously opened session to the filter engine.
 <div class="alert"><b>Note</b>  <b>FwpmEngineClose0</b> is a specific version of <b>FwpmEngineClose</b>. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
-
-## -syntax
-
-
-````
-NTSTATUS NTAPI FwpmEngineClose0(
-  _Inout_ HANDLE engineHandle
-);
-````
-
 
 ## -parameters
 
@@ -121,19 +112,18 @@ An error occurred.
 A callout driver calls the 
     <b>FwpmEngineClose0</b> function to close a session to the filter engine that was previously opened by a
     call to the 
-    <a href="..\fwpmk\nf-fwpmk-fwpmengineopen0.md">FwpmEngineOpen0</a> function.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff550075">FwpmEngineOpen0</a> function.
 
 
 
 
 ## -see-also
 
-<a href="..\fwpmk\nf-fwpmk-fwpmengineopen0.md">FwpmEngineOpen0</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550075">FwpmEngineOpen0</a>
  
 
  
-
 

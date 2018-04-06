@@ -7,7 +7,7 @@ old-location: storage\disk_ex_int13_info.htm
 old-project: storage
 ms.assetid: 82e3a1e9-275a-489a-9e6e-d76007a1abb9
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PDISK_EX_INT13_INFO, DISK_EX_INT13_INFO, DISK_EX_INT13_INFO structure [Storage Devices], PDISK_EX_INT13_INFO, PDISK_EX_INT13_INFO structure pointer [Storage Devices], _DISK_EX_INT13_INFO, ntdddisk/DISK_EX_INT13_INFO, ntdddisk/PDISK_EX_INT13_INFO, storage.disk_ex_int13_info, structs-disk_be49445a-5e95-4b7a-b4ef-fa21f110aeca.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntdddisk.h
 api_name:
 -	DISK_EX_INT13_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DISK_EX_INT13_INFO, *PDISK_EX_INT13_INFO
 ---
@@ -50,23 +51,6 @@ req.typenames: DISK_EX_INT13_INFO, *PDISK_EX_INT13_INFO
 
 
 The DISK_EX_INT13_INFO structure is used by the BIOS to report disk detection data for a partition with an extended INT13 format. 
-
-
-## -syntax
-
-
-````
-typedef struct _DISK_EX_INT13_INFO {
-  USHORT  ExBufferSize;
-  USHORT  ExFlags;
-  ULONG   ExCylinders;
-  ULONG   ExHeads;
-  ULONG   ExSectorsPerTrack;
-  ULONG64 ExSectorsPerDrive;
-  USHORT  ExSectorSize;
-  USHORT  ExReserved;
-} DISK_EX_INT13_INFO, *PDISK_EX_INT13_INFO;
-````
 
 
 ## -struct-fields
@@ -204,16 +188,15 @@ Reserved.
 
 ## -see-also
 
-<a href="..\ntdddisk\ns-ntdddisk-_disk_detection_info.md">DISK_DETECTION_INFO</a>
 
 
 
-<a href="..\ntdddisk\ns-ntdddisk-_disk_int13_info.md">DISK_INT13_INFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552601">DISK_DETECTION_INFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552624">DISK_INT13_INFO</a>
  
 
  
-
 

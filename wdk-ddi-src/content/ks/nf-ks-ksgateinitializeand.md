@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KsGateInitializeAnd
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -49,18 +50,7 @@ req.typenames:
 ## -description
 
 
-The<b> KsGateInitializeAnd</b> function initializes a <a href="..\ks\ns-ks-_ksgate.md">KSGATE</a> structure as an AND gate and attaches it to the OR gate specified by <i>NextOrGate</i>.
-
-
-## -syntax
-
-
-````
-void __inline KsGateInitializeAnd(
-  _In_     PKSGATE AndGate,
-  _In_opt_ PKSGATE NextOrGate
-);
-````
+The<b> KsGateInitializeAnd</b> function initializes a <a href="https://msdn.microsoft.com/library/windows/hardware/ff562566">KSGATE</a> structure as an AND gate and attaches it to the OR gate specified by <i>NextOrGate</i>.
 
 
 ## -parameters
@@ -93,35 +83,34 @@ None
 
 The next gate (following <i>AndGate</i>) must be an OR gate, whether it is specified in this call or later. For more information, see <a href="https://msdn.microsoft.com/c5592f92-a432-44e3-afe0-60fcf917a443">Flow Control Gates in AVStream</a>.
 
-<b>KsGateInitializeAnd</b> is an inline call to <a href="..\ks\nf-ks-ksgateinitialize.md">KsGateInitialize</a>.
+<b>KsGateInitializeAnd</b> is an inline call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff562573">KsGateInitialize</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksgateterminateand.md">KsGateTerminateAnd</a>
 
 
 
-<a href="..\ks\nf-ks-ksgateinitialize.md">KsGateInitialize</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562566">KSGATE</a>
 
 
 
-<a href="..\ks\nf-ks-ksgateterminateor.md">KsGateTerminateOr</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562573">KsGateInitialize</a>
 
 
 
-<a href="..\ks\nf-ks-ksgateinitializeor.md">KsGateInitializeOr</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562576">KsGateInitializeOr</a>
 
 
 
-<a href="..\ks\ns-ks-_ksgate.md">KSGATE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562586">KsGateTerminateAnd</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562588">KsGateTerminateOr</a>
  
 
  
-
 

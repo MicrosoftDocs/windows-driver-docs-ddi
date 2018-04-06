@@ -72,7 +72,7 @@ typedef EVT_NET_ADAPTER_SET_CAPABILITIES *PFN_NET_ADAPTER_SET_CAPABILITIES;
 
 ## -parameters
 
-### -param Adapter: 
+### -param Adapter 
 The network adapter object that the client created in a prior call to [NetAdapterCreate](nf-netadapter-netadaptercreate.md).
 
 
@@ -100,8 +100,9 @@ Optionally, the client can also call:
 
 - [NetAdapterSetCurrentLinkState](nf-netadapter-netadaptersetcurrentlinkstate.md)
 - [NetAdapterSetDataPathCapabilities](nf-netadapter-netadaptersetdatapathcapabilities.md)
+- [NetAdapterSetReceiveScalingCapabilities](../netreceivescaling/nf-netreceivescaling-netadaptersetreceivescalingcapabilities.md)
 
-To set an attribute that does not have equivalent NetAdapter functionality, for example to report offload capabilities, call [NdisMSetMiniportAttributes](../ndis/nf-ndis-ndismsetminiportattributes.md) from [*EVT_NET_ADAPTER_SET_CAPABILITIES*](nc-netadapter-evt_net_adapter_set_capabilities.md). Use [NetAdapterWdmGetNdisHandle](nf-netadapter-netadapterwdmgetndishandle.md) to get the NDIS handle.
+To set an attribute that does not have equivalent NetAdapter functionality, for example to report offload capabilities, call [NdisMSetMiniportAttributes](../ndis/nf-ndis-ndismsetminiportattributes.md) from *EvtNetAdapterSetCapabilities*. Use [NetAdapterWdmGetNdisHandle](nf-netadapter-netadapterwdmgetndishandle.md) to get the NDIS handle.
 
 The minimum NetAdapterCx version for *EVT_NET_ADAPTER_SET_CAPABILITIES* is 1.0.
 

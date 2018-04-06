@@ -7,7 +7,7 @@ old-location: display\d3dddiarg_cryptosessionkeyexchange.htm
 old-project: display
 ms.assetid: 45ff38bf-7640-4b7c-ab26-ae758c9b4696
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDIARG_CRYPTOSESSIONKEYEXCHANGE, D3DDDIARG_CRYPTOSESSIONKEYEXCHANGE structure [Display Devices], UMDisplayDriver_param_Structs_80a0e3f6-7fa5-444f-9eeb-505a6632af8d.xml, _D3DDDIARG_CRYPTOSESSIONKEYEXCHANGE, d3dumddi/D3DDDIARG_CRYPTOSESSIONKEYEXCHANGE, display.d3dddiarg_cryptosessionkeyexchange
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	D3DDDIARG_CRYPTOSESSIONKEYEXCHANGE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDIARG_CRYPTOSESSIONKEYEXCHANGE
 ---
@@ -52,18 +53,6 @@ req.typenames: D3DDDIARG_CRYPTOSESSIONKEYEXCHANGE
 The D3DDDIARG_CRYPTOSESSIONKEYEXCHANGE structure describes a buffer that contains the session key, which is used for encryption. 
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_CRYPTOSESSIONKEYEXCHANGE {
-  HANDLE hCryptoSession;
-  UINT   DataSize;
-  VOID   *pData;
-} D3DDDIARG_CRYPTOSESSIONKEYEXCHANGE;
-````
-
-
 ## -struct-fields
 
 
@@ -71,7 +60,7 @@ typedef struct _D3DDDIARG_CRYPTOSESSIONKEYEXCHANGE {
 
 ### -field hCryptoSession
 
-[in] A handle to the encryption session that is the runtime creates when the runtime calls the driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createcryptosession.md">CreateCryptoSession</a> function. 
+[in] A handle to the encryption session that is the runtime creates when the runtime calls the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/hh451619">CreateCryptoSession</a> function. 
 
 
 ### -field DataSize
@@ -86,12 +75,11 @@ typedef struct _D3DDDIARG_CRYPTOSESSIONKEYEXCHANGE {
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createcryptosession.md">CreateCryptoSession</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451619">CreateCryptoSession</a>
  
 
  
-
 

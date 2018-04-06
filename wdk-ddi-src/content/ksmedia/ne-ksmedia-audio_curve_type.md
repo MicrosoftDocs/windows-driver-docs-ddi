@@ -7,7 +7,7 @@ old-location: audio\audio_curve_type.htm
 old-project: audio
 ms.assetid: E3CE3385-8744-4E3F-A5EF-41AC4E3E4375
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/19/2018
 ms.keywords: AUDIO_CURVE_TYPE, AUDIO_CURVE_TYPE enumeration [Audio Devices], AUDIO_CURVE_TYPE_NONE, AUDIO_CURVE_TYPE_WINDOWS_FADE, audio.audio_curve_type, ksmedia/AUDIO_CURVE_TYPE, ksmedia/AUDIO_CURVE_TYPE_NONE, ksmedia/AUDIO_CURVE_TYPE_WINDOWS_FADE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ksmedia.h
 api_name:
 -	AUDIO_CURVE_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: AUDIO_CURVE_TYPE
 ---
@@ -50,17 +51,6 @@ req.typenames: AUDIO_CURVE_TYPE
 
 
 The <b>AUDIO_CURVE_TYPE</b> enumeration defines constants that specify a curve algorithm to be applied to set a volume level. 
-
-
-## -syntax
-
-
-````
-typedef enum _AUDIO_CURVE_TYPE { 
-  AUDIO_CURVE_TYPE_NONE          = 0,
-  AUDIO_CURVE_TYPE_WINDOWS_FADE  = 1
-} AUDIO_CURVE_TYPE;
-````
 
 
 ## -enum-fields
@@ -123,16 +113,15 @@ And the following diagram shows a graphical representation of the preceding pseu
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-_tagksaudioengine_volumelevel.md">KSAUDIOENGINE_VOLUMELEVEL</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh831854">KSAUDIOENGINE_VOLUMELEVEL</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh831855">KSPROPERTY_AUDIOENGINE_VOLUMELEVEL</a>
-
-
-
  
 
  
-
 

@@ -81,8 +81,6 @@ This method does not return a value.
 
 **NET_ADAPTER_LINK_LAYER_CAPABILITIES_INIT** zeroes out the [NET_ADAPTER_LINK_LAYER_CAPABILITIES](ns-netadapter-_net_adapter_link_layer_capabilities.md) structure and then sets all of its members.
 
-In NetAdapterCx version 1.1, the *PhysicalAddressLength*, *PermanentPhysicalAddress*, and *CurrentPhysicalAddress* parameters from version 1.0 were removed from this method. Link layer addresses are now initialized with the [NET_ADAPTER_LINK_LAYER_ADDRESS_INIT](nf-netadapter-net_adapter_link_layer_address_init.md) method and set with the [NetAdapterSetCurrentLinkLayerAddress](nf-netadapter-netadaptersetcurrentlinklayeraddress.md) method or the [NetAdapterSetPermanentLinkLayerAddress](nf-netadapter-netadaptersetpermanentlinklayeraddress.md) method, depending on the type of address.
-
 The minimum NetAdapterCx version for **NET_ADAPTER_LINK_LAYER_CAPABILITIES_INIT** is 1.1.
 
 ### Example

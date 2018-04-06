@@ -7,7 +7,7 @@ old-location: netvista\rilcardappadded.htm
 old-project: netvista
 ms.assetid: f0488502-8c0c-4e2d-81d0-98b206c74d78
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*LPRILCARDAPPADDED, RILCARDAPPADDED, RILCARDAPPADDED structure [Network Drivers Starting with Windows Vista], netvista.rilcardappadded, ntddrilapitypes/RILCARDAPPADDED"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILCARDAPPADDED
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILCARDAPPADDED, *LPRILCARDAPPADDED
 req.product: Windows 10 or later.
@@ -51,19 +52,6 @@ req.product: Windows 10 or later.
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef struct _RILCARDAPPADDED {
-  DWORD           cbSize;
-  DWORD           dwParams;
-  DWORD           dwSlotIndex;
-  RILUICCAPPINFO  rilUiccAppInfo;
-} RILCARDAPPADDED, RILCARDAPPADDED;
-````
 
 
 ## -struct-fields

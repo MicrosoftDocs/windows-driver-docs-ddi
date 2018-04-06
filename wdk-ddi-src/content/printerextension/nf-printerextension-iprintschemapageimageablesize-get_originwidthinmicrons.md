@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	IPrintSchemaPageImageableSize.OriginWidthInMicrons
 -	IPrintSchemaPageImageableSize.get_OriginWidthInMicrons
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PrintSchemaSelectionType
 req.product: Windows 10 or later.
@@ -56,27 +57,16 @@ Gets the horizontal origin of the imageable area relative to the application med
 This property is read-only.
 
 
-## -syntax
-
-
-````
-HRESULT get_OriginWidthInMicrons(
-  [out, retval] ULONG *pulOriginWidth
-);
-````
-
-
 ## -parameters
 
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintschemapageimageablesize.md">IPrintSchemaPageImageableSize</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451366">IPrintSchemaPageImageableSize</a>
  
 
  
-
 

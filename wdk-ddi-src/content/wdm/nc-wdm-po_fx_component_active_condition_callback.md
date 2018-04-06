@@ -7,7 +7,7 @@ old-location: kernel\componentactiveconditioncallback.htm
 old-project: kernel
 ms.assetid: D9EA3F98-7646-4882-BE07-818280404D6A
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: ComponentActiveConditionCallback, ComponentActiveConditionCallback routine [Kernel-Mode Driver Architecture], PO_FX_COMPONENT_ACTIVE_CONDITION_CALLBACK, kernel.componentactiveconditioncallback, wdm/ComponentActiveConditionCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	ComponentActiveConditionCallback
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
 req.product: Windows 10 or later.
@@ -53,20 +54,6 @@ req.product: Windows 10 or later.
 The <i>ComponentActiveConditionCallback</i> callback routine notifies the driver that the specified component completed a transition from the idle condition to the active condition.
 
 
-## -prototype
-
-
-````
-PO_FX_COMPONENT_ACTIVE_CONDITION_CALLBACK ComponentActiveConditionCallback;
-
-VOID ComponentActiveConditionCallback(
-  _In_ PVOID Context,
-  _In_ ULONG Component
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -74,7 +61,7 @@ VOID ComponentActiveConditionCallback(
 
 ### -param Context [in]
 
-A pointer to the device context. The device driver uses this context to store information about the current power state of the device. The device driver specified this pointer in the <b>DeviceContext</b> member of the <a href="..\wudfwdm\ns-wudfwdm-_po_fx_device_v1.md">PO_FX_DEVICE</a> structure that the driver used to register the device with the power management framework (PoFx). This context is opaque to PoFx.
+A pointer to the device context. The device driver uses this context to store information about the current power state of the device. The device driver specified this pointer in the <b>DeviceContext</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439585">PO_FX_DEVICE</a> structure that the driver used to register the device with the power management framework (PoFx). This context is opaque to PoFx.
 
 
 ### -param Component [in]
@@ -97,7 +84,7 @@ None.
 
 A component's hardware registers can be accessed only when the component is in the active condition. Do not rely on the Fx power state of a component to determine whether the component can be accessed. If the component is in the F0 state and is in the idle condition, the component might be about to switch to another Fx state.
 
-To gain access to a component that is in the idle condition, the driver can call the <a href="..\wdm\nf-wdm-pofxactivatecomponent.md">PoFxActivateComponent</a> routine to switch the component to the active condition. If the component is not already in the active condition when <b>PoFxActivateComponent</b> is called, PoFx initiates the transition to the active condition, and then calls the <i>ComponentActiveConditionCallback</i> routine to notify the driver when the transition is complete.
+To gain access to a component that is in the idle condition, the driver can call the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406650">PoFxActivateComponent</a> routine to switch the component to the active condition. If the component is not already in the active condition when <b>PoFxActivateComponent</b> is called, PoFx initiates the transition to the active condition, and then calls the <i>ComponentActiveConditionCallback</i> routine to notify the driver when the transition is complete.
 
 The driver receives a <i>ComponentActiveConditionCallback</i> callback whenever the component completes a transition to the active condition, regardless of whether the driver called <b>PoFxActivateComponent</b> to initiate the transition. For example, the Windows kernel might activate the component on behalf of the driver before sending a <a href="https://msdn.microsoft.com/339ef4b4-1b4f-42ac-ab57-c53b83120f0d">Plug and Play IRP</a> or a <a href="https://msdn.microsoft.com/a37e8dda-af7a-4f28-bf04-908a74bb5b2f">system set-power IRP</a> to the driver.
 
@@ -146,16 +133,15 @@ The PO_FX_COMPONENT_ACTIVE_CONDITION_CALLBACK function type is defined in the Wd
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_po_fx_device_v1.md">PO_FX_DEVICE</a>
 
 
 
-<a href="..\wdm\nf-wdm-pofxactivatecomponent.md">PoFxActivateComponent</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439585">PO_FX_DEVICE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406650">PoFxActivateComponent</a>
  
 
  
-
 

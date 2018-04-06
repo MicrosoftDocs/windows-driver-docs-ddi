@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsDispatchInvalidDeviceRequest
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,17 +52,6 @@ req.typenames:
 
 
 The <b>KsDispatchInvalidDeviceRequest</b> function is used in KSDISPATCH_TABLE entries that are not handled and that need to return STATUS_INVALID_DEVICE_REQUEST. 
-
-
-## -syntax
-
-
-````
-NTSTATUS KsDispatchInvalidDeviceRequest(
-  _In_ PDEVICE_OBJECT DeviceObject,
-  _In_ PIRP           Irp
-);
-````
 
 
 ## -parameters
@@ -99,20 +89,19 @@ The <b>KsDispatchInvalidDeviceRequest</b> function is needed because the dispatc
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561699">KsDispatchFastIoDeviceControlFailure</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561703">KsDispatchFastReadFailure</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561706">KsDispatchFastWriteFailure</a>
-
-
-
-<a href="..\ks\nf-ks-ksdispatchfastiodevicecontrolfailure.md">KsDispatchFastIoDeviceControlFailure</a>
-
-
-
-<a href="..\ks\nf-ks-ksdispatchfastreadfailure.md">KsDispatchFastReadFailure</a>
-
-
-
  
 
  
-
 

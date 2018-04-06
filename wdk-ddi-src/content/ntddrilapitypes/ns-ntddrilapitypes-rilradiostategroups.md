@@ -7,7 +7,7 @@ old-location: netvista\rilradiostategroups.htm
 old-project: netvista
 ms.assetid: 901fe9e5-4b3c-4f31-9bf0-a4a5bd66bd19
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*LPRILRADIOSTATEGROUPS, RILRADIOSTATEGROUPS, RILRADIOSTATEGROUPS structure [Network Drivers Starting with Windows Vista], netvista.rilradiostategroups, ntddrilapitypes/RILRADIOSTATEGROUPS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILRADIOSTATEGROUPS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILRADIOSTATEGROUPS, *LPRILRADIOSTATEGROUPS
 ---
@@ -50,17 +51,6 @@ req.typenames: RILRADIOSTATEGROUPS, *LPRILRADIOSTATEGROUPS
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef struct _RILRADIOSTATEGROUPS {
-  DWORD                  dwCntGroups;
-  RILRADIOSTATEGROUP [1] rilGroups;
-} RILRADIOSTATEGROUPS, RILRADIOSTATEGROUPS;
-````
 
 
 ## -struct-fields

@@ -38,7 +38,8 @@ api_location:
 -	Wdfhwaccess.h
 api_name:
 -	WDF_WRITE_PORT_BUFFER_USHORT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_FILE_INFORMATION_CLASS, *PWDF_FILE_INFORMATION_CLASS
 req.product: Windows 10 or later.
@@ -54,19 +55,6 @@ req.product: Windows 10 or later.
 
 The <b>WDF_WRITE_PORT_BUFFER_USHORT</b> function writes a number of USHORT values from a buffer to the specified port address. 
 
-
-
-## -syntax
-
-
-````
-void WDF_WRITE_PORT_BUFFER_USHORT(
-  _In_ WDFDEVICE Device,
-  _In_ PUSHORT   Port,
-  _In_ PUSHORT   Buffer,
-  _In_ ULONG     Count 
-);
-````
 
 
 ## -parameters

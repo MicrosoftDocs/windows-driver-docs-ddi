@@ -24,7 +24,7 @@ req.unicode-ansi:
 req.max-support:
 req.alt-api:
 req.alt-loc:
-req.typenames: NET_PACKET_FRAGMENT
+req.typenames: NET_PACKET_FRAGMENT, *PNET_PACKET_FRAGMENT
 topictype: 
 -	apiref
 apitype: 
@@ -126,12 +126,6 @@ A single [NET_PACKET](ns-netpacket-_net_packet.md) structure contains references
 While each fragment is a virtually contiguous buffer of memory, a packet that contains more than one fragment is virtually discontiguous.
 
 The client driver should not unlink, append, or rearrange **NET_PACKET_FRAGMENT** structures within a [NET_PACKET](ns-netpacket-_net_packet.md) structure.
-
-In NetAdapterCx 1.2, several members of this structure changed. 
-
-- The **LastPacketOfChain** member was removed.
-- The **NetFragment_Reserved** member was removed.
-- The **RxBufferReturnContext** member was added.
 
 The minimum NetAdapterCx version for **NET_PACKET_FRAGMENT** is 1.2.
 

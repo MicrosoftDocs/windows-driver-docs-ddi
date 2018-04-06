@@ -38,7 +38,8 @@ api_location:
 -	1394.h
 api_name:
 -	IRB_REQ_BUS_RESET_NOTIFICATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: IRB_REQ_BUS_RESET_NOTIFICATION
 ---
@@ -54,18 +55,6 @@ This structure contains the fields necessary for the 1394 bus driver to carry ou
 This is the suggested method for a client driver on top of the 1394 bus driver to get notified about 1394 bus resets. The client registers by using this IRB in its START_DEVICE routine, and de-registers using the same IRB, but with different flags, in its REMOVE routine. 
 
 This notification is only issued if after the bus reset, the target device is still present on the bus. This way the caller does not have to verify that the target device is on the bus.
-
-
-## -syntax
-
-
-````
-typedef struct _IRB_REQ_BUS_RESET_NOTIFICATION {
-  ULONG                       fulFlags;
-  PBUS_BUS_RESET_NOTIFICATION ResetRoutine;
-  PVOID                       ResetContext;
-} IRB_REQ_BUS_RESET_NOTIFICATION;
-````
 
 
 ## -struct-fields

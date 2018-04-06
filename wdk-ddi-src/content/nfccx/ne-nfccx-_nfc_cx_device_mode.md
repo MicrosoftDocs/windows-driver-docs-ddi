@@ -38,7 +38,8 @@ api_location:
 -	nfccx.h
 api_name:
 -	NFC_CX_DEVICE_MODE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NFC_CX_DEVICE_MODE, *PNFC_CX_DEVICE_MODE
 ---
@@ -50,18 +51,6 @@ req.typenames: NFC_CX_DEVICE_MODE, *PNFC_CX_DEVICE_MODE
 
 
 Specifies device mode flags.
-
-
-## -syntax
-
-
-````
-typedef enum _NFC_CX_DEVICE_MODE { 
-  NFC_CX_DEVICE_MODE_NCI  = 0x00000000,
-  NFC_CX_DEVICE_MODE_DTA  = 0x00000001,
-  NFC_CX_DEVICE_MODE_RAW  = 0x00000002
-} NFC_CX_DEVICE_MODE;
-````
 
 
 ## -enum-fields
@@ -86,16 +75,15 @@ Enable RAW mode.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
 
 
 
 <a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
-
-
-
  
 
  
-
 

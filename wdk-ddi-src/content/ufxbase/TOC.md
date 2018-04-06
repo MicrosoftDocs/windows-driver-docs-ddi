@@ -1,5 +1,6 @@
-# [buses](../_buses/index.md)
+# [Universal Serial Bus (USB)](../_usbref/index.md)
 ## [Ufxbase.h](index.md)
+### [_UFX_CLASS_FUNCTIONS enumeration](../ufxbase/ne-ufxbase-_ufx_class_functions.md)
 ### [_USBFN_ACTION enumeration](../ufxbase/ne-ufxbase-_usbfn_action.md)
 ### [IOCTL_INTERNAL_USBFN_DESCRIPTOR_UPDATE IOCTL](../ufxbase/ni-ufxbase-ioctl_internal_usbfn_descriptor_update.md)
 ### [_UFX_DEVICE_CAPABILITIES structure](../ufxbase/ns-ufxbase-_ufx_device_capabilities.md)

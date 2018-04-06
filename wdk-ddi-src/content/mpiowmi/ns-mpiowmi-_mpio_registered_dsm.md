@@ -7,7 +7,7 @@ old-location: storage\mpio_registered_dsm.htm
 old-project: storage
 ms.assetid: c1be07b7-ebce-422f-83f2-890adc71655b
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PMPIO_REGISTERED_DSM, MPIO_REGISTERED_DSM, MPIO_REGISTERED_DSM structure [Storage Devices], PMPIO_REGISTERED_DSM, PMPIO_REGISTERED_DSM structure pointer [Storage Devices], _MPIO_REGISTERED_DSM, mpiowmi/MPIO_REGISTERED_DSM, mpiowmi/PMPIO_REGISTERED_DSM, storage.mpio_registered_dsm, structs-scsibus_70ceccae-5a45-4ce1-a6de-fa86c3d82d7d.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	mpiowmi.h
 api_name:
 -	MPIO_REGISTERED_DSM
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MPIO_REGISTERED_DSM, *PMPIO_REGISTERED_DSM
 ---
@@ -50,17 +51,6 @@ req.typenames: MPIO_REGISTERED_DSM, *PMPIO_REGISTERED_DSM
 
 
 The MPIO_REGISTERED_DSM structure represents the top-level view of the registered DSMs on the system. To query this information, the request must be sent to the MPIO control object by using its WMI instance name.
-
-
-## -syntax
-
-
-````
-typedef struct _MPIO_REGISTERED_DSM {
-  ULONG          NumberDSMs;
-  DSM_PARAMETERS DsmParameters[1];
-} MPIO_REGISTERED_DSM, *PMPIO_REGISTERED_DSM;
-````
 
 
 ## -struct-fields

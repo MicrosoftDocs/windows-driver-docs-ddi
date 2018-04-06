@@ -38,7 +38,8 @@ api_location:
 -	Printerextension.h
 api_name:
 -	IPrintSchemaOptionCollection
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PrintSchemaSelectionType
 req.product: Windows 10 or later.
@@ -50,7 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-Exposes a collection of <a href="..\printerextension\nn-printerextension-iprintschemaoption.md">IPrintSchemaOption</a> objects.
+Exposes a collection of <a href="https://msdn.microsoft.com/library/windows/hardware/hh451335">IPrintSchemaOption</a> objects.
 
 
 ## -inheritance
@@ -74,7 +75,7 @@ The <b>IPrintSchemaOptionCollection</b> interface has these methods.
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406567">GetAt</a>
 </td>
 <td align="left" width="63%">
-Gets a pointer to an <a href="..\printerextension\nn-printerextension-iprintschemaoption.md">IPrintSchemaOption</a> object.
+Gets a pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/hh451335">IPrintSchemaOption</a> object.
 
 </td>
 </tr>
@@ -98,7 +99,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Gets a count of the number of <a href="..\printerextension\nn-printerextension-iprintschemaoption.md">IPrintSchemaOption</a> objects in the collection.
+Gets a count of the number of <a href="https://msdn.microsoft.com/library/windows/hardware/hh451335">IPrintSchemaOption</a> objects in the collection.
 
 </td>
 </tr>
@@ -123,16 +124,15 @@ Gets a pointer to the enumerants of <b>IPrintSchemaOptionCollection</b> objects.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 
-<a href="..\printerextension\nn-printerextension-iprintschemaoption.md">IPrintSchemaOption</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451335">IPrintSchemaOption</a>
  
 
  
-
 

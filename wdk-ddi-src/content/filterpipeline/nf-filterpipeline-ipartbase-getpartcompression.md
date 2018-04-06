@@ -38,7 +38,8 @@ api_location:
 -	filterpipeline.h
 api_name:
 -	IPartBase.GetPartCompression
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
@@ -50,16 +51,6 @@ req.typenames: EXpsFontRestriction
 
 
 The <b>GetPartCompression</b> method gets the compression of the part.
-
-
-## -syntax
-
-
-````
-HRESULT GetPartCompression(
-  [out] EXpsCompressionOptions *pCompression
-);
-````
 
 
 ## -parameters

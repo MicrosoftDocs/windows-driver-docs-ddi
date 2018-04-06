@@ -38,7 +38,8 @@ api_location:
 -	1394.h
 api_name:
 -	IRB_REQ_ISOCH_LISTEN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: IRB_REQ_ISOCH_LISTEN
 ---
@@ -50,18 +51,6 @@ req.typenames: IRB_REQ_ISOCH_LISTEN
 
 
 This structure contains the fields necessary to carry out a ReqIsochListen request.
-
-
-## -syntax
-
-
-````
-typedef struct _IRB_REQ_ISOCH_LISTEN {
-  HANDLE     hResource;
-  ULONG      fulFlags;
-  CYCLE_TIME StartTime;
-} IRB_REQ_ISOCH_LISTEN;
-````
 
 
 ## -struct-fields

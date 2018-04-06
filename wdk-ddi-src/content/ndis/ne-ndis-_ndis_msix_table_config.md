@@ -7,7 +7,7 @@ old-location: netvista\ndis_msix_table_operation.htm
 old-project: netvista
 ms.assetid: 7d1a4bb6-5db8-48b0-9be3-7468360951a1
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PNDIS_MSIX_TABLE_OPERATION, NDIS_MSIX_TABLE_OPERATION, NDIS_MSIX_TABLE_OPERATION enumeration [Network Drivers Starting with Windows Vista], NdisMSIXTableConfigMaskTableEntry, NdisMSIXTableConfigMax, NdisMSIXTableConfigSetTableEntry, NdisMSIXTableConfigUnmaskTableEntry, PNDIS_MSIX_TABLE_OPERATION, PNDIS_MSIX_TABLE_OPERATION enumeration pointer [Network Drivers Starting with Windows Vista], _NDIS_MSIX_TABLE_CONFIG, ndis/NDIS_MSIX_TABLE_OPERATION, ndis/NdisMSIXTableConfigMaskTableEntry, ndis/NdisMSIXTableConfigMax, ndis/NdisMSIXTableConfigSetTableEntry, ndis/NdisMSIXTableConfigUnmaskTableEntry, ndis/PNDIS_MSIX_TABLE_OPERATION, ndis_msix_ref_b315600c-7d23-4251-bcdb-560c46d5fa79.xml, netvista.ndis_msix_table_operation"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ndis.h
 api_name:
 -	NDIS_MSIX_TABLE_OPERATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_MSIX_TABLE_OPERATION, *PNDIS_MSIX_TABLE_OPERATION
 ---
@@ -51,19 +52,6 @@ req.typenames: NDIS_MSIX_TABLE_OPERATION, *PNDIS_MSIX_TABLE_OPERATION
 
 The NDIS_MSIX_TABLE_OPERATION enumeration identifies the type of MSI-X configuration
   operation.
-
-
-## -syntax
-
-
-````
-typedef enum _NDIS_MSIX_TABLE_CONFIG { 
-  NdisMSIXTableConfigSetTableEntry,
-  NdisMSIXTableConfigMaskTableEntry,
-  NdisMSIXTableConfigUnmaskTableEntry,
-  NdisMSIXTableConfigMax
-} NDIS_MSIX_TABLE_OPERATION, *PNDIS_MSIX_TABLE_OPERATION;
-````
 
 
 ## -enum-fields
@@ -97,7 +85,7 @@ The number of enumeration values in NDIS_MSIX_TABLE_OPERATION.
 
 
 The NDIS_MSIX_TABLE_OPERATION enumeration is used in the 
-    <a href="..\ndis\ns-ndis-_ndis_msix_config_parameters.md">
+    <a href="https://msdn.microsoft.com/52c3238f-4d3a-4241-95bf-630e57e8a6e1">
     NDIS_MSIX_CONFIG_PARAMETERS</a> structure.
 
 
@@ -105,12 +93,11 @@ The NDIS_MSIX_TABLE_OPERATION enumeration is used in the
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_msix_config_parameters.md">NDIS_MSIX_CONFIG_PARAMETERS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566486">NDIS_MSIX_CONFIG_PARAMETERS</a>
  
 
  
-
 

@@ -38,7 +38,8 @@ api_location:
 -	acpitabl.h
 api_name:
 -	SDEV_SECURE_ACPI_INFO_ENTRY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SDEV_SECURE_ACPI_INFO_ENTRY, *PSDEV_SECURE_ACPI_INFO_ENTRY
 ---
@@ -50,20 +51,6 @@ req.typenames: SDEV_SECURE_ACPI_INFO_ENTRY, *PSDEV_SECURE_ACPI_INFO_ENTRY
 
 
 Defines an information entry for a secure ACPI device for use in a secure device table.
-
-
-## -syntax
-
-
-````
-typedef struct _SDEV_SECURE_ACPI_INFO_ENTRY {
-  SDEV_ENTRY_HEADER Header;
-  USHORT            IdentifierOffset;
-  USHORT            IdentifierLength;
-  USHORT            VendorInfoOffset;
-  USHORT            VendorInfoLength;
-} SDEV_SECURE_ACPI_INFO_ENTRY, *PSDEV_SECURE_ACPI_INFO_ENTRY;
-````
 
 
 ## -struct-fields

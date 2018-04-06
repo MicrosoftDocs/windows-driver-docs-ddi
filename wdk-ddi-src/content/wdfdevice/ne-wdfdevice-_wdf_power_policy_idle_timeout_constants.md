@@ -39,7 +39,8 @@ api_location:
 -	wudfddi_types.h
 api_name:
 -	WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS
 req.product: Windows 10 or later.
@@ -54,16 +55,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS</b> enumeration is reserved for internal use.
-
-
-## -syntax
-
-
-````
-typedef enum _WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS { 
-  IdleTimeoutDefaultConstant  = 0
-} WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS;
-````
 
 
 ## -enum-fields

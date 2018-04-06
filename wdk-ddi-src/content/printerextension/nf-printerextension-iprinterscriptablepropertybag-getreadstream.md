@@ -38,7 +38,8 @@ api_location:
 -	Printerextension.h
 api_name:
 -	IPrinterScriptablePropertyBag.GetReadStream
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PrintSchemaSelectionType
 req.product: Windows 10 or later.
@@ -51,17 +52,6 @@ req.product: Windows 10 or later.
 
 
 Gets a read stream and uses it to read  from a property.
-
-
-## -syntax
-
-
-````
-HRESULT GetReadStream(
-  [in]          BSTR                     bstrName,
-  [out, retval] IPrinterScriptableStream **ppStream
-);
-````
 
 
 ## -parameters
@@ -101,16 +91,15 @@ A call to <b>GetReadStream</b> will throw an exception, if the specified propert
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprinterscriptablepropertybag.md">IPrinterScriptablePropertyBag</a>
 
 
 
-<a href="..\printerextension\nn-printerextension-iprinterscriptablestream.md">IPrinterScriptableStream</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh973217">IPrinterScriptablePropertyBag</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh973218">IPrinterScriptableStream</a>
  
 
  
-
 

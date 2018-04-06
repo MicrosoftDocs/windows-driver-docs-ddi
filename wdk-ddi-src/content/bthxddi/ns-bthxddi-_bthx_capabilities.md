@@ -38,7 +38,8 @@ api_location:
 -	BthXDDI.h
 api_name:
 -	BTHX_CAPABILITIES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BTHX_CAPABILITIES, *PBTHX_CAPABILITIES
 ---
@@ -50,20 +51,6 @@ req.typenames: BTHX_CAPABILITIES, *PBTHX_CAPABILITIES
 
 
 The BTHX_CAPABILITIES structure describes the capabilities of the Bluetooth Extensible Transport Driver.
-
-
-## -syntax
-
-
-````
-typedef struct _BTHX_CAPABILITIES {
-  ULONG            MaxAclTransferInSize;
-  BTHX_SCO_SUPPORT ScoSupport;
-  ULONG            MaxScoChannels;
-  BOOLEAN          IsDeviceIdleCapable;
-  BOOLEAN          IsDeviceWakeCapable;
-} BTHX_CAPABILITIES, *PBTHX_CAPABILITIES;
-````
 
 
 ## -struct-fields

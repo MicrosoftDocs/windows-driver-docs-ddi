@@ -38,7 +38,8 @@ api_location:
 -	filterpipeline.h
 api_name:
 -	IPrintReadStream.ReadBytes
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
@@ -50,19 +51,6 @@ req.typenames: EXpsFontRestriction
 
 
 The <code>ReadBytes</code> method reads a number of bytes into a buffer.
-
-
-## -syntax
-
-
-````
-HRESULT ReadBytes(
-  [out] void  *pvBuffer,
-  [in]  ULONG cbRequested,
-  [out] ULONG *pcbRead,
-  [out] BOOL  *pbEndOfFile
-);
-````
 
 
 ## -parameters

@@ -38,7 +38,8 @@ api_location:
 -	1394.h
 api_name:
 -	IRB_REQ_ISOCH_DETACH_BUFFERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: IRB_REQ_ISOCH_DETACH_BUFFERS
 ---
@@ -50,18 +51,6 @@ req.typenames: IRB_REQ_ISOCH_DETACH_BUFFERS
 
 
 This structure contains the fields required to carry out a IsochDetachBuffers request.
-
-
-## -syntax
-
-
-````
-typedef struct _IRB_REQ_ISOCH_DETACH_BUFFERS {
-  HANDLE            hResource;
-  ULONG             nNumberOfDescriptors;
-  PISOCH_DESCRIPTOR pIsochDescriptor;
-} IRB_REQ_ISOCH_DETACH_BUFFERS;
-````
 
 
 ## -struct-fields

@@ -7,7 +7,7 @@ old-location: display\videoportcomparememory.htm
 old-project: display
 ms.assetid: 89528b31-4d81-4612-92d7-5f64bdca8108
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: VideoPortCompareMemory, VideoPortCompareMemory function [Display Devices], VideoPort_Functions_87b1236e-d77b-4930-897f-d5b33b1130aa.xml, display.videoportcomparememory, video/VideoPortCompareMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Videoprt.sys
 api_name:
 -	VideoPortCompareMemory
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
 req.product: Windows 10 or later.
@@ -51,18 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>VideoPortCompareMemory</b> function compares two blocks of system memory, byte-by-byte, and returns the number of compared bytes that are equivalent.
-
-
-## -syntax
-
-
-````
-ULONG VideoPortCompareMemory(
-   PVOID  Source1,
-   PVOID  Source2,
-   SIZE_T Length
-);
-````
 
 
 ## -parameters
@@ -98,7 +87,7 @@ Specifies the number of bytes to be compared.
 
 
 
-The values in the <i>Source1</i> and <i>Source2</i> parameters must be in a mapped logical range returned by <a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a> and/or a <a href="https://msdn.microsoft.com/5f6fec1a-1134-4765-81be-9b50939e5e66">system space</a> RAM address, such as an address on the stack.
+The values in the <i>Source1</i> and <i>Source2</i> parameters must be in a mapped logical range returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff570310">VideoPortGetDeviceBase</a> and/or a <a href="https://msdn.microsoft.com/5f6fec1a-1134-4765-81be-9b50939e5e66">system space</a> RAM address, such as an address on the stack.
 
 Callers of <b>VideoPortCompareMemory</b> can be running at any IRQL if both blocks of memory are resident.
 
@@ -107,28 +96,27 @@ Callers of <b>VideoPortCompareMemory</b> can be running at any IRQL if both bloc
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportzeromemory.md">VideoPortZeroMemory</a>
 
 
 
-<a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570310">VideoPortGetDeviceBase</a>
 
 
 
-<a href="..\video\nf-video-videoportzerodevicememory.md">VideoPortZeroDeviceMemory</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570332">VideoPortMoveMemory</a>
 
 
 
-<a href="..\video\nf-video-videoportscanrom.md">VideoPortScanRom</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570360">VideoPortScanRom</a>
 
 
 
-<a href="..\video\nf-video-videoportmovememory.md">VideoPortMoveMemory</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570492">VideoPortZeroDeviceMemory</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570493">VideoPortZeroMemory</a>
  
 
  
-
 

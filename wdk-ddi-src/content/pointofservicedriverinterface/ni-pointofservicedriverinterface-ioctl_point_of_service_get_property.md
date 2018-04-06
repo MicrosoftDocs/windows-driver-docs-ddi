@@ -38,7 +38,8 @@ api_location:
 -	pointofservicedriverinterface.h
 api_name:
 -	IOCTL_POINT_OF_SERVICE_GET_PROPERTY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PosPropertyId
 ---
@@ -59,7 +60,7 @@ This I/O control function returns the value of the specified property from the d
 
 ### -input-buffer
 
-Pointer to a buffer that contains the <a href="..\pointofservicedriverinterface\ne-pointofservicedriverinterface-_pospropertyid.md">PosPropertyId</a> for the property you want to get.
+Pointer to a buffer that contains the <a href="https://msdn.microsoft.com/library/windows/hardware/dn772239">PosPropertyId</a> for the property you want to get.
 
 
 ### -input-buffer-length

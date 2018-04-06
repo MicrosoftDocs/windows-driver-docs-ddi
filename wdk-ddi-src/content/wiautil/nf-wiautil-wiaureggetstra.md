@@ -38,7 +38,8 @@ api_location:
 -	wiautil.h
 api_name:
 -	wiauRegGetStr
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SKIP_AMOUNT
 req.product: Windows 10 or later.
@@ -51,19 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>wiauRegGetStr</b> function gets a string value from the <b>DeviceData</b> section of the registry.
-
-
-## -syntax
-
-
-````
-HRESULT _stdcall wiauRegGetStr(
-  _In_    HKEY   hkKey,
-  _In_    PCTSTR pwszValueName,
-  _Out_   PWSTR  pwszValue,
-  _Inout_ DWORD  *pdwLength
-);
-````
 
 
 ## -parameters
@@ -112,7 +100,6 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550179">wiauRegOpenData</a>
 
 
 
@@ -120,8 +107,8 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550179">wiauRegOpenData</a>
  
 
  
-
 

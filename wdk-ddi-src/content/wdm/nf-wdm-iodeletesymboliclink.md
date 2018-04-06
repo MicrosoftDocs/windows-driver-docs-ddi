@@ -7,7 +7,7 @@ old-location: kernel\iodeletesymboliclink.htm
 old-project: kernel
 ms.assetid: 68ad19a5-4694-4b75-8062-75b06bdc16ed
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: IoDeleteSymbolicLink, IoDeleteSymbolicLink routine [Kernel-Mode Driver Architecture], k104_6ff2f570-3573-4d12-b338-cca69515ef1a.xml, kernel.iodeletesymboliclink, wdm/IoDeleteSymbolicLink
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	IoDeleteSymbolicLink
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
@@ -51,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>IoDeleteSymbolicLink</b> routine removes a symbolic link from the system.
-
-
-## -syntax
-
-
-````
-NTSTATUS IoDeleteSymbolicLink(
-  _In_ PUNICODE_STRING SymbolicLinkName
-);
-````
 
 
 ## -parameters
@@ -84,20 +75,19 @@ Pointer to a buffered Unicode string that is the user-visible name for the symbo
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iocreatesymboliclink.md">IoCreateSymbolicLink</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-iodeassignarcname.md">IoDeassignArcName</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549043">IoCreateSymbolicLink</a>
 
 
 
-<a href="..\wdm\nf-wdm-iocreateunprotectedsymboliclink.md">IoCreateUnprotectedSymbolicLink</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549050">IoCreateUnprotectedSymbolicLink</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549076">IoDeassignArcName</a>
  
 
  
-
 

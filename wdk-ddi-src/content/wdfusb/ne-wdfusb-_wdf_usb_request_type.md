@@ -38,7 +38,8 @@ api_location:
 -	wdfusb.h
 api_name:
 -	WDF_USB_REQUEST_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
@@ -53,25 +54,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WDF_USB_REQUEST_TYPE</b> enumeration identifies the types of USB requests that a framework-based driver can send to a USB I/O target.
-
-
-## -syntax
-
-
-````
-typedef enum _WDF_USB_REQUEST_TYPE { 
-  WdfUsbRequestTypeInvalid                = 0,
-  WdfUsbRequestTypeNoFormat               = 1,
-  WdfUsbRequestTypeDeviceString           = 2,
-  WdfUsbRequestTypeDeviceControlTransfer  = 3,
-  WdfUsbRequestTypeDeviceUrb              = 4,
-  WdfUsbRequestTypePipeWrite              = 5,
-  WdfUsbRequestTypePipeRead               = 6,
-  WdfUsbRequestTypePipeAbort              = 7,
-  WdfUsbRequestTypePipeReset              = 8,
-  WdfUsbRequestTypePipeUrb                = 9
-} WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE;
-````
 
 
 ## -enum-fields
@@ -133,19 +115,18 @@ A request to <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/
 
 
 
-The <b>WDF_USB_REQUEST_TYPE</b> enumeration is used in the <a href="..\wdfusb\ns-wdfusb-_wdf_usb_request_completion_params.md">WDF_USB_REQUEST_COMPLETION_PARAMS</a> structure.
+The <b>WDF_USB_REQUEST_TYPE</b> enumeration is used in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553049">WDF_USB_REQUEST_COMPLETION_PARAMS</a> structure.
 
 
 
 
 ## -see-also
 
-<a href="..\wdfusb\ns-wdfusb-_wdf_usb_request_completion_params.md">WDF_USB_REQUEST_COMPLETION_PARAMS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553049">WDF_USB_REQUEST_COMPLETION_PARAMS</a>
  
 
  
-
 

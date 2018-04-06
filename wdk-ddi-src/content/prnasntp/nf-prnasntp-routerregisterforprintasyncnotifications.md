@@ -38,7 +38,8 @@ api_location:
 -	Spoolss.dll
 api_name:
 -	RouterRegisterForPrintAsyncNotifications
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USERDATA, *PUSERDATA
 req.product: Windows 10 or later.
@@ -51,21 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <code>RouterRegisterForPrintAsyncNotifications</code> function registers for asynchronous notifications associated with a printer or print server.
-
-
-## -syntax
-
-
-````
-HRESULT RouterRegisterForPrintAsyncNotifications(
-  _In_  PCWSTR                            pName,
-  _In_  PrintAsyncNotificationType        *pNotificationType,
-  _In_  PrintAsyncNotifyUserFilter        eNotifyFilter,
-  _In_  PrintAsyncNotifyConversationStyle eConversationStyle,
-  _In_  IPrintAsyncNotifyCallback         *pCallback,
-  _Out_ HANDLE                            *phNotify
-);
-````
 
 
 ## -parameters
@@ -114,12 +100,11 @@ This function returns S_OK on success, and a standard COM error code otherwise.
 
 ## -see-also
 
-<a href="..\prnasntp\nf-prnasntp-routerunregisterforprintasyncnotifications.md">RouterUnregisterForPrintAsyncNotifications</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562028">RouterUnregisterForPrintAsyncNotifications</a>
  
 
  
-
 

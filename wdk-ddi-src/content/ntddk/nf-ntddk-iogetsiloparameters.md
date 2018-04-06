@@ -7,7 +7,7 @@ old-location: ifsk\iogetsiloparameters.htm
 old-project: ifsk
 ms.assetid: C8F42E83-2122-4871-972B-9FD06379C271
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: IoGetSiloParameters, IoGetSiloParameters function [Installable File System Drivers], PIO_FOEXT_SILO_PARAMETERS, ifsk.iogetsiloparameters, ntddk/IoGetSiloParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	IoGetSiloParameters
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
@@ -50,16 +51,6 @@ req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 
 
 This routine indicates if a file is within a Container context.
-
-
-## -syntax
-
-
-````
-PIO_FOEXT_SILO_PARAMETERS IoGetSiloParameters(
-  _In_ PFILE_OBJECT FileObject
-);
-````
 
 
 ## -parameters
@@ -76,7 +67,7 @@ The file in question.
 
 
 
-If <b>null</b>, the file is not in a container context. Otherwise, a non-null value of type <a href="..\ntddk\ns-ntddk-_io_foext_silo_parameters.md">IO_FOEXT_SILO_PARAMETERS</a> indicates that the file is within a Container context.
+If <b>null</b>, the file is not in a container context. Otherwise, a non-null value of type <a href="https://msdn.microsoft.com/library/windows/hardware/mt734263">IO_FOEXT_SILO_PARAMETERS</a> indicates that the file is within a Container context.
 
 
 

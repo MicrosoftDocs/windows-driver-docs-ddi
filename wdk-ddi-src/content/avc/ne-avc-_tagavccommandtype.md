@@ -38,7 +38,8 @@ api_location:
 -	avc.h
 api_name:
 -	AvcCommandType
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: AvcCommandType
 ---

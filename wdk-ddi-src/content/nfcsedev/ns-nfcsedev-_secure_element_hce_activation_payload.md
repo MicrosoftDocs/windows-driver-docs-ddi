@@ -38,7 +38,8 @@ api_location:
 -	nfcsedev.h
 api_name:
 -	SECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD, *PSECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD
 ---
@@ -50,18 +51,6 @@ req.typenames: SECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD, *PSECURE_ELEMENT_HCE_ACTIV
 
 
 
-
-
-## -syntax
-
-
-````
-typedef struct _SECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD {
-  USHORT bConnectionId;
-  BYTE   eRfTechType;
-  BYTE   eRfProtocolType;
-} SECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD, *PSECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD;
-````
 
 
 ## -struct-fields

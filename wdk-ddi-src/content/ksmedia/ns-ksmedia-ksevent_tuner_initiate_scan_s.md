@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KSEVENT_TUNER_INITIATE_SCAN_S
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSEVENT_TUNER_INITIATE_SCAN_S, *PKSEVENT_TUNER_INITIATE_SCAN_S
 ---
@@ -52,18 +53,6 @@ req.typenames: KSEVENT_TUNER_INITIATE_SCAN_S, *PKSEVENT_TUNER_INITIATE_SCAN_S
 The KSEVENT_TUNER_INITIATE_SCAN_S structure is used in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561898">KSEVENT_TUNER_INITIATE_SCAN</a> event within the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559566">EVENTSETID_TUNER</a> event set. 
 
 
-## -syntax
-
-
-````
-typedef struct {
-  KSEVENTDATA EventData;
-  ULONG       StartFrequency;
-  ULONG       EndFrequency;
-} KSEVENT_TUNER_INITIATE_SCAN_S, *PKSEVENT_TUNER_INITIATE_SCAN_S;
-````
-
-
 ## -struct-fields
 
 
@@ -71,7 +60,7 @@ typedef struct {
 
 ### -field EventData
 
-A structure of type <a href="..\ks\ns-ks-kseventdata.md">KSEVENTDATA</a> that specifies the standard event structure, which contains the event handle that the driver notifies about the scan operation. 
+A structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff561750">KSEVENTDATA</a> that specifies the standard event structure, which contains the event handle that the driver notifies about the scan operation. 
 
 
 ### -field StartFrequency
@@ -86,7 +75,6 @@ The final frequency, in Hz, for a scan operation.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561898">KSEVENT_TUNER_INITIATE_SCAN</a>
 
 
 
@@ -94,8 +82,8 @@ The final frequency, in Hz, for a scan operation.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561898">KSEVENT_TUNER_INITIATE_SCAN</a>
  
 
  
-
 

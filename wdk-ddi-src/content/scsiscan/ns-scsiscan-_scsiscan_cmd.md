@@ -38,7 +38,8 @@ api_location:
 -	scsiscan.h
 api_name:
 -	SCSISCAN_CMD
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SCSISCAN_CMD, *PSCSISCAN_CMD
 req.product: Windows 10 or later.
@@ -50,27 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The SCSISCAN_CMD structure is used as a parameter to <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>, when the specified I/O control code is <a href="..\scsiscan\ni-scsiscan-ioctl_scsiscan_cmd.md">IOCTL_SCSISCAN_CMD</a>.
-
-
-## -syntax
-
-
-````
-typedef struct _SCSISCAN_CMD {
-  ULONG  Reserved1;
-  ULONG  Size;
-  ULONG  SrbFlags;
-  UCHAR  CdbLength;
-  UCHAR  SenseLength;
-  UCHAR  Reserved2;
-  UCHAR  Reserved3;
-  ULONG  TransferLength;
-  UCHAR  Cdb[16];
-  PUCHAR pSrbStatus;
-  PUCHAR pSenseBuffer;
-} SCSISCAN_CMD, *PSCSISCAN_CMD;
-````
+The SCSISCAN_CMD structure is used as a parameter to <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>, when the specified I/O control code is <a href="https://msdn.microsoft.com/library/windows/hardware/ff542877">IOCTL_SCSISCAN_CMD</a>.
 
 
 ## -struct-fields

@@ -7,7 +7,7 @@ old-location: display\d3dkmtreclaimallocations2.htm
 old-project: display
 ms.assetid: 0BC49546-ECDE-447D-8F7E-4235D96D293B
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMTReclaimAllocations2, D3DKMTReclaimAllocations2 function [Display Devices], d3dkmthk/D3DKMTReclaimAllocations2, display.d3dkmtreclaimallocations2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,8 @@ api_location:
 -	API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
 -	D3DKMTReclaimAllocations2
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_DRIVERVERSION
 ---
@@ -55,26 +56,21 @@ req.typenames: D3DKMT_DRIVERVERSION
 <b>D3DKMTReclaimAllocations2</b> reclaims video memory allocations.
 
 
-## -syntax
-
-
-````
-EXTERN_C _Check_return_ NTSTATUS APIENTRY D3DKMTReclaimAllocations2(
-  _Inout_ D3DKMT_RECLAIMALLOCATIONS2 *pData
-);
-````
-
-
 ## -parameters
 
 
+
+
+### -param Arg1
+
+TBD
 
 
 
 
 #### - pData [in, out]
 
-A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_reclaimallocations2.md">D3DKMT_RECLAIMALLOCATIONS2</a> structure that defines memory allocations to reclaim.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn906801">D3DKMT_RECLAIMALLOCATIONS2</a> structure that defines memory allocations to reclaim.
 
 
 ## -returns
@@ -130,12 +126,11 @@ Parameters were validated and determined to be incorrect.
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_reclaimallocations2.md">D3DKMT_RECLAIMALLOCATIONS2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn906801">D3DKMT_RECLAIMALLOCATIONS2</a>
  
 
  
-
 

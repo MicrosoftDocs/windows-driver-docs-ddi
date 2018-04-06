@@ -38,7 +38,8 @@ api_location:
 -	Printerextension.h
 api_name:
 -	IPrinterScriptablePropertyBag2.GetReadStreamAsXML
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PrintSchemaSelectionType
 req.product: Windows 10 or later.
@@ -51,17 +52,6 @@ req.product: Windows 10 or later.
 
 
 
-
-
-## -syntax
-
-
-````
-HRESULT GetReadStreamAsXML(
-  [in]  BSTR     bstrName,
-  [out] IUnknown **ppXmlNode
-);
-````
 
 
 ## -parameters
@@ -86,12 +76,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprinterscriptablepropertybag2.md">IPrinterScriptablePropertyBag2</a>
 
 
 
+<a href="https://msdn.microsoft.com/97586B8D-D070-4DF1-AECE-50EB4D28414B">IPrinterScriptablePropertyBag2</a>
  
 
  
-
 

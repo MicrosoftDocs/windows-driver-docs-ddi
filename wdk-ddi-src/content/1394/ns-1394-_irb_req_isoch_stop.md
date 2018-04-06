@@ -38,7 +38,8 @@ api_location:
 -	1394.h
 api_name:
 -	IRB_REQ_ISOCH_STOP
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: IRB_REQ_ISOCH_STOP
 ---
@@ -50,17 +51,6 @@ req.typenames: IRB_REQ_ISOCH_STOP
 
 
 This structure contains the field necessary to carry out a IsochStop request.
-
-
-## -syntax
-
-
-````
-typedef struct _IRB_REQ_ISOCH_STOP {
-  HANDLE hResource;
-  ULONG  fulFlags;
-} IRB_REQ_ISOCH_STOP;
-````
 
 
 ## -struct-fields

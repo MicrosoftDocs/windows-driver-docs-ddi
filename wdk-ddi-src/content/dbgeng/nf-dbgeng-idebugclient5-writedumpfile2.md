@@ -7,7 +7,7 @@ old-location: debugger\writedumpfile2.htm
 old-project: debugger
 ms.assetid: a6cdefc2-8670-485d-979a-8a270dad1c0b
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: IDebugClient2 interface [Windows Debugging], WriteDumpFile2 method, IDebugClient2::WriteDumpFile2, IDebugClient3 interface [Windows Debugging], WriteDumpFile2 method, IDebugClient3::WriteDumpFile2, IDebugClient4 interface [Windows Debugging], WriteDumpFile2 method, IDebugClient4::WriteDumpFile2, IDebugClient5, IDebugClient5 interface [Windows Debugging], WriteDumpFile2 method, IDebugClient5::WriteDumpFile2, IDebugClient_6ce4aeba-f7a6-4872-9ff2-baf3b3165471.xml, WriteDumpFile2 method [Windows Debugging], WriteDumpFile2 method [Windows Debugging], IDebugClient2 interface, WriteDumpFile2 method [Windows Debugging], IDebugClient3 interface, WriteDumpFile2 method [Windows Debugging], IDebugClient4 interface, WriteDumpFile2 method [Windows Debugging], IDebugClient5 interface, WriteDumpFile2,IDebugClient5.WriteDumpFile2, dbgeng/IDebugClient2::WriteDumpFile2, dbgeng/IDebugClient3::WriteDumpFile2, dbgeng/IDebugClient4::WriteDumpFile2, dbgeng/IDebugClient5::WriteDumpFile2, debugger.writedumpfile2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,8 @@ api_name:
 -	IDebugClient3.WriteDumpFile2
 -	IDebugClient4.WriteDumpFile2
 -	IDebugClient5.WriteDumpFile2
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -53,19 +54,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>WriteDumpFile2</b> method creates a user-mode or kernel-modecrash dump file.
-
-
-## -syntax
-
-
-````
-HRESULT WriteDumpFile2(
-  [in]           PCSTR DumpFile,
-  [in]           ULONG Qualifier,
-  [in]           ULONG FormatFlags,
-  [in, optional] PCSTR Comment
-);
-````
 
 
 ## -parameters
@@ -327,19 +315,6 @@ For more information about crash dump files, see <a href="https://msdn.microsoft
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561389">WriteDumpFileWide</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
 
 
 
@@ -347,12 +322,24 @@ For more information about crash dump files, see <a href="https://msdn.microsoft
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550481">IDebugClient2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550488">IDebugClient3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550494">IDebugClient4</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550497">IDebugClient5</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561389">WriteDumpFileWide</a>
  
 
  
-
 

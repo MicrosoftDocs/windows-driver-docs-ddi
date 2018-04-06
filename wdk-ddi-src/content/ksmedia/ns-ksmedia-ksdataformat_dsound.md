@@ -7,7 +7,7 @@ old-location: audio\ksdataformat_dsound.htm
 old-project: audio
 ms.assetid: 2b620e4f-8c26-479a-8b06-4e558b0813e5
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/19/2018
 ms.keywords: "*PKSDATAFORMAT_DSOUND, KSDATAFORMAT_DSOUND, KSDATAFORMAT_DSOUND structure [Audio Devices], PKSDATAFORMAT_DSOUND, PKSDATAFORMAT_DSOUND structure pointer [Audio Devices], aud-prop_2e782d9c-dfeb-4797-b902-e32e947d2542.xml, audio.ksdataformat_dsound, ksmedia/KSDATAFORMAT_DSOUND, ksmedia/PKSDATAFORMAT_DSOUND"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KSDATAFORMAT_DSOUND
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSDATAFORMAT_DSOUND, *PKSDATAFORMAT_DSOUND
 ---
@@ -52,17 +53,6 @@ req.typenames: KSDATAFORMAT_DSOUND, *PKSDATAFORMAT_DSOUND
 The KSDATAFORMAT_DSOUND structure provides detailed information about a DirectSound audio stream.
 
 
-## -syntax
-
-
-````
-typedef struct {
-  KSDATAFORMAT        DataFormat;
-  KSDSOUND_BUFFERDESC BufferDesc;
-} KSDATAFORMAT_DSOUND, *PKSDATAFORMAT_DSOUND;
-````
-
-
 ## -struct-fields
 
 
@@ -70,12 +60,12 @@ typedef struct {
 
 ### -field DataFormat
 
-Specifies the stream's data format. This member is a structure of type <a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>.
+Specifies the stream's data format. This member is a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff561656">KSDATAFORMAT</a>.
 
 
 ### -field BufferDesc
 
-Describes the DirectSound buffer. This member is a structure of type <a href="..\ksmedia\ns-ksmedia-ksdsound_bufferdesc.md">KSDSOUND_BUFFERDESC</a>.
+Describes the DirectSound buffer. This member is a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff537121">KSDSOUND_BUFFERDESC</a>.
 
 
 ## -remarks
@@ -89,7 +79,6 @@ In response to an input <i>DataRange</i> parameter that specifies a DirectSound 
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-ksdsound_bufferdesc.md">KSDSOUND_BUFFERDESC</a>
 
 
 
@@ -97,12 +86,12 @@ In response to an input <i>DataRange</i> parameter that specifies a DirectSound 
 
 
 
-<a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561656">KSDATAFORMAT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537121">KSDSOUND_BUFFERDESC</a>
  
 
  
-
 

@@ -38,7 +38,8 @@ api_location:
 -	windot11.h
 api_name:
 -	DOT11_BYTE_ARRAY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT11_BYTE_ARRAY, *PDOT11_BYTE_ARRAY
 req.product: Windows 10 or later.

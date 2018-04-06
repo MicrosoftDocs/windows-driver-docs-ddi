@@ -38,7 +38,8 @@ api_location:
 -	Filterpipeline.h
 api_name:
 -	IXpsDocumentConsumer.CloseSender
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
@@ -50,16 +51,6 @@ req.typenames: EXpsFontRestriction
 
 
 The <code>CloseSender</code> method tells the Pipeline Manager that the filter is done sending XPS parts.
-
-
-## -syntax
-
-
-````
-HRESULT STDMETHODCALLTYPE CloseSender(
-    None
-);
-````
 
 
 ## -parameters

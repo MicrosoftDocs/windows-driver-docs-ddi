@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSSTREAMALLOCATOR_FUNCTIONTABLE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSSTREAMALLOCATOR_FUNCTIONTABLE, *PKSSTREAMALLOCATOR_FUNCTIONTABLE
 ---
@@ -50,17 +51,6 @@ req.typenames: KSSTREAMALLOCATOR_FUNCTIONTABLE, *PKSSTREAMALLOCATOR_FUNCTIONTABL
 
 
 Clients can request the function table of a given allocator by sending a KSSTREAMALLOCATOR_FUNCTIONTABLE structure in a KSPROPERTY_STREAMALLOCATOR_FUNCTIONTABLE property request.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  PFNALLOCATOR_ALLOCATEFRAME AllocateFrame;
-  PFNALLOCATOR_FREEFRAME     FreeFrame;
-} KSSTREAMALLOCATOR_FUNCTIONTABLE, *PKSSTREAMALLOCATOR_FUNCTIONTABLE;
-````
 
 
 ## -struct-fields
@@ -93,11 +83,6 @@ This property is only accessible from kernel-mode.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567151">KStrAllocateFrame</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567174">KStrFreeFrame</a>
 
 
 
@@ -105,8 +90,12 @@ This property is only accessible from kernel-mode.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567151">KStrAllocateFrame</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567174">KStrFreeFrame</a>
  
 
  
-
 

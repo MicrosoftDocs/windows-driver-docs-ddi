@@ -7,7 +7,7 @@ old-location: display\dxgi_ddi_mode_rotation.htm
 old-project: display
 ms.assetid: 8cc413c4-e4fe-449b-a66a-c79da01ad3be
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGI_DDI_MODE_ROTATION, DXGI_DDI_MODE_ROTATION enumeration [Display Devices], DXGI_DDI_MODE_ROTATION_IDENTITY, DXGI_DDI_MODE_ROTATION_ROTATE180, DXGI_DDI_MODE_ROTATION_ROTATE270, DXGI_DDI_MODE_ROTATION_ROTATE90, DXGI_DDI_MODE_ROTATION_UNSPECIFIED, UMDisplayDriver_Dx10param_Structs_61b842eb-a4b4-4d86-95b8-eca448b35b5e.xml, display.dxgi_ddi_mode_rotation, dxgiddi/DXGI_DDI_MODE_ROTATION, dxgiddi/DXGI_DDI_MODE_ROTATION_IDENTITY, dxgiddi/DXGI_DDI_MODE_ROTATION_ROTATE180, dxgiddi/DXGI_DDI_MODE_ROTATION_ROTATE270, dxgiddi/DXGI_DDI_MODE_ROTATION_ROTATE90, dxgiddi/DXGI_DDI_MODE_ROTATION_UNSPECIFIED
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	dxgiddi.h
 api_name:
 -	DXGI_DDI_MODE_ROTATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGI_DDI_MODE_ROTATION
 ---
@@ -50,20 +51,6 @@ req.typenames: DXGI_DDI_MODE_ROTATION
 
 
 The DXGI_DDI_MODE_ROTATION enumeration type contains values that identify the orientation of the display.
-
-
-## -syntax
-
-
-````
-typedef enum DXGI_DDI_MODE_ROTATION { 
-  DXGI_DDI_MODE_ROTATION_UNSPECIFIED  = 0,
-  DXGI_DDI_MODE_ROTATION_IDENTITY     = 1,
-  DXGI_DDI_MODE_ROTATION_ROTATE90     = 2,
-  DXGI_DDI_MODE_ROTATION_ROTATE180    = 3,
-  DXGI_DDI_MODE_ROTATION_ROTATE270    = 4
-} DXGI_DDI_MODE_ROTATION;
-````
 
 
 ## -enum-fields
@@ -98,12 +85,11 @@ The display is rotated 270 degrees.
 
 ## -see-also
 
-<a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_mode_desc.md">DXGI_DDI_MODE_DESC</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557499">DXGI_DDI_MODE_DESC</a>
  
 
  
-
 

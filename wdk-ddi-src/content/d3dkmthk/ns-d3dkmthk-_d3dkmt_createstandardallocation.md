@@ -7,7 +7,7 @@ old-location: display\d3dkmt-createstandardallocation.htm
 old-project: display
 ms.assetid: 7698ab93-68af-479d-97a4-c45ac84b0710
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMT_CREATESTANDARDALLOCATION, D3DKMT_CREATESTANDARDALLOCATION structure [Display Devices], _D3DKMT_CREATESTANDARDALLOCATION, d3dkmthk/D3DKMT_CREATESTANDARDALLOCATION, display.d3dkmt-createstandardallocation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmthk.h
 api_name:
 -	D3DKMT_CREATESTANDARDALLOCATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_CREATESTANDARDALLOCATION
 ---
@@ -50,20 +51,6 @@ req.typenames: D3DKMT_CREATESTANDARDALLOCATION
 
 
 Used to create a standard allocation.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_CREATESTANDARDALLOCATION {
-  D3DKMT_STANDARDALLOCATIONTYPE        Type;
-  union {
-    D3DKMT_STANDARDALLOCATION_EXISTINGHEAP ExistingHeapData;
-  };
-  D3DKMT_CREATESTANDARDALLOCATIONFLAGS Flags;
-} D3DKMT_CREATESTANDARDALLOCATION;
-````
 
 
 ## -struct-fields

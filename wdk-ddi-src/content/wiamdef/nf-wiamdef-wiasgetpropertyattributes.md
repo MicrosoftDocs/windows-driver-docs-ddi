@@ -38,7 +38,8 @@ api_location:
 -	Wiaservc.dll
 api_name:
 -	wiasGetPropertyAttributes
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2
 req.product: Windows 10 or later.
@@ -51,20 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>wiasGetPropertyAttributes </b>function retrieves the access flags and valid values for a set of properties.
-
-
-## -syntax
-
-
-````
-HRESULT _stdcall wiasGetPropertyAttributes(
-  _In_  BYTE        *pWiasContext,
-        LONG        cPropSpec,
-  _In_  PROPSPEC    *pPropSpec,
-        ULONG       *pulAccessFlags,
-  _Out_ PROPVARIANT *pPropVar
-);
-````
 
 
 ## -parameters

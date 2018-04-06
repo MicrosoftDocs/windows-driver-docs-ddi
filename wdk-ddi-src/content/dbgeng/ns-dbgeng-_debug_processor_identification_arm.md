@@ -7,7 +7,7 @@ old-location: debugger\debug_processor_identification_arm.htm
 old-project: debugger
 ms.assetid: 4C7D5959-7900-4482-A45C-61D66541C276
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PDEBUG_PROCESSOR_IDENTIFICATION_ARM, DEBUG_PROCESSOR_IDENTIFICATION_ARM, DEBUG_PROCESSOR_IDENTIFICATION_ARM structure [Windows Debugging], PDEBUG_PROCESSOR_IDENTIFICATION_ARM, PDEBUG_PROCESSOR_IDENTIFICATION_ARM structure pointer [Windows Debugging], _DEBUG_PROCESSOR_IDENTIFICATION_ARM, dbgeng/DEBUG_PROCESSOR_IDENTIFICATION_ARM, dbgeng/PDEBUG_PROCESSOR_IDENTIFICATION_ARM, debugger.debug_processor_identification_arm"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	DbgEng.h
 api_name:
 -	DEBUG_PROCESSOR_IDENTIFICATION_ARM
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DEBUG_PROCESSOR_IDENTIFICATION_ARM, *PDEBUG_PROCESSOR_IDENTIFICATION_ARM
 ---
@@ -50,18 +51,6 @@ req.typenames: DEBUG_PROCESSOR_IDENTIFICATION_ARM, *PDEBUG_PROCESSOR_IDENTIFICAT
 
 
 Identifies an ARM processor. 
-
-
-## -syntax
-
-
-````
-typedef struct _DEBUG_PROCESSOR_IDENTIFICATION_ARM {
-  ULONG Model;
-  ULONG Revision;
-  CHAR  VendorString[16];
-} DEBUG_PROCESSOR_IDENTIFICATION_ARM, *PDEBUG_PROCESSOR_IDENTIFICATION_ARM;
-````
 
 
 ## -struct-fields
@@ -86,12 +75,11 @@ A vendor specified string.
 
 ## -see-also
 
-<a href="..\dbgeng\ns-dbgeng-_debug_processor_identification_all.md">DEBUG_PROCESSOR_IDENTIFICATION_ALL</a>
 
 
 
+<a href="https://msdn.microsoft.com/2C4C03BC-0D84-4151-B1A1-FE76F0355CD6">DEBUG_PROCESSOR_IDENTIFICATION_ALL</a>
  
 
  
-
 

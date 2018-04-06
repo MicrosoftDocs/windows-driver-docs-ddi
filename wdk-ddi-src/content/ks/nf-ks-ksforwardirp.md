@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsForwardIrp
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,18 +52,6 @@ req.typenames:
 
 
 The <b>KsForwardIrp</b> function forwards an IRP to the specified driver after initializing the next stack location and setting the file object. 
-
-
-## -syntax
-
-
-````
-NTSTATUS KsForwardIrp(
-  _In_ PIRP         Irp,
-  _In_ PFILE_OBJECT FileObject,
-  _In_ BOOLEAN      ReuseStackLocation
-);
-````
 
 
 ## -parameters

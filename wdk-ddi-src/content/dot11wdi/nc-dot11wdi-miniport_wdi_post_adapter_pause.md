@@ -7,7 +7,7 @@ old-location: netvista\miniportwdipostadapterpause.htm
 old-project: netvista
 ms.assetid: 57B52C5B-D151-4112-8173-23D18C636E98
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: MINIPORT_WDI_POST_ADAPTER_PAUSE, MiniportWdiPostAdapterPause, MiniportWdiPostAdapterPause callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiPostAdapterPause, netvista.miniportwdipostadapterpause
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	dot11wdi.h
 api_name:
 -	MiniportWdiPostAdapterPause
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SYNTH_STATS, *PSYNTH_STATS
 ---
@@ -49,27 +50,13 @@ req.typenames: SYNTH_STATS, *PSYNTH_STATS
 ## -description
 
 
-The MiniportWdiPostAdapterPause handler function is called by the Microsoft component after it finishes the data path clean up as part of the NDIS <a href="..\ndis\nc-ndis-miniport_pause.md">MiniportPause</a> requirements.
+The MiniportWdiPostAdapterPause handler function is called by the Microsoft component after it finishes the data path clean up as part of the NDIS <a href="https://msdn.microsoft.com/047241a5-6f52-4a82-a334-8508f0de5e1a">MiniportPause</a> requirements.
 
-This is a WDI miniport handler inside <a href="..\dot11wdi\ns-dot11wdi-_ndis_miniport_driver_wdi_characteristics.md">NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS</a>.
+This is a WDI miniport handler inside <a href="https://msdn.microsoft.com/library/windows/hardware/mt297617">NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS</a>.
 
-The NDIS <a href="..\ndis\nc-ndis-miniport_pause.md">MiniportPause</a> requirements are handled by the Microsoft component. As part of <i>MiniportPause</i>, it stops the data path and waits for it to clean up. The WDI IHV miniport can optionally register for a <i>MiniportWdiPostAdapterPause</i> callback that is called by the Microsoft component after it finishes the data path cleanup.
+The NDIS <a href="https://msdn.microsoft.com/047241a5-6f52-4a82-a334-8508f0de5e1a">MiniportPause</a> requirements are handled by the Microsoft component. As part of <i>MiniportPause</i>, it stops the data path and waits for it to clean up. The WDI IHV miniport can optionally register for a <i>MiniportWdiPostAdapterPause</i> callback that is called by the Microsoft component after it finishes the data path cleanup.
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>MINIPORT_WDI_POST_ADAPTER_PAUSE</b> type. For more
    information, see the following Examples section.</div><div> </div>
-
-## -prototype
-
-
-````
-MINIPORT_WDI_POST_ADAPTER_PAUSE MiniportWdiPostAdapterPause;
-
-NDIS_STATUS MiniportWdiPostAdapterPause(
-  _In_ NDIS_HANDLE                     MiniportAdapterContext,
-  _In_ PNDIS_MINIPORT_PAUSE_PARAMETERS PauseParameters
-)
-{ ... }
-````
-
 
 ## -parameters
 
@@ -83,7 +70,7 @@ The handle to the context area that the miniport driver allocated.
 
 ### -param PauseParameters [in]
 
-A pointer to an <a href="..\ndis\ns-ndis-_ndis_miniport_pause_parameters.md">NDIS_MINIPORT_PAUSE_PARAMETERS</a> structure that defines the pause parameters for the miniport adapter.
+A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff566473">NDIS_MINIPORT_PAUSE_PARAMETERS</a> structure that defines the pause parameters for the miniport adapter.
 
 
 ## -returns
@@ -97,20 +84,19 @@ The return value is only used for logging/informational purposes.
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_pause.md">MiniportPause</a>
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_miniport_pause_parameters.md">NDIS_MINIPORT_PAUSE_PARAMETERS</a>
+<a href="https://msdn.microsoft.com/047241a5-6f52-4a82-a334-8508f0de5e1a">MiniportPause</a>
 
 
 
-<a href="..\dot11wdi\ns-dot11wdi-_ndis_miniport_driver_wdi_characteristics.md">NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt297617">NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566473">NDIS_MINIPORT_PAUSE_PARAMETERS</a>
  
 
  
-
 

@@ -38,7 +38,8 @@ api_location:
 -	Wiamdef.h
 api_name:
 -	CWiaLogProcEx.CWiaLogProcEx
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2
 req.product: Windows 10 or later.
@@ -51,20 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <a href="https://msdn.microsoft.com/5DD3EC13-5DDD-4640-A841-00576F74429A">CWiaLogProcEx</a> constructor is called when the function or method being logged is entered.
-
-
-## -syntax
-
-
-````
-void CWiaLogProcEx(
-   IWiaLogEx *pIWiaLogEx,
-   INT       ResourceID,
-   INT       DetailLevel,
-   CHAR      *pszMsg,
-   LONG      lMethodId = 0
-);
-````
 
 
 ## -parameters
@@ -125,12 +112,11 @@ This method does not return a value.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt844723">CWiaLogProcEx</a>
-
-
-
  
 
  
-
 

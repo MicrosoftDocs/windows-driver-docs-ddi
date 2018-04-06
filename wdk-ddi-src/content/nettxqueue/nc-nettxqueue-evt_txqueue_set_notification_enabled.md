@@ -73,10 +73,10 @@ typedef EVT_TXQUEUE_SET_NOTIFICATION_ENABLED *PFN_TXQUEUE_SET_NOTIFICATION_ENABL
 
 ## -parameters
 
-### -param TxQueue: 
+### -param TxQueue 
 A handle to a net transmit queue.
 
-### -param NotificationEnabled: 
+### -param NotificationEnabled 
 A value of **TRUE** requests that the client enable transmit queue notification. A value of **FALSE** requests that the client disable transmit queue notification.
 
 ## -returns
@@ -87,8 +87,6 @@ This callback function does not return a value.
 Register this callback function in by setting the appropriate member of [NET_TX_QUEUE_CONFIG](ns-nettxqueue-_net_txqueue_config.md), initializing the **NET_TX_QUEUE_CONFIG** structure with [NET_TXQUEUE_CONFIG_INIT](nf-nettxqueue-net_txqueue_config_init.md), then calling [NetRxQueueCreate](nf-nettxqueue-nettxqueuecreate.md).
 
 NetAdapterCx serializes this callback function along with the receive queue's *[EVT_TXQUEUE_ADVANCE](nc-nettxqueue-evt_txqueue_advance.md)* and *[EVT_TXQUEUE_SET_CANCEL](nc-nettxqueue-evt_txqueue_cancel.md)* callback functions.
-
-In NetAdapterCx 1.1, the return type of this method was changed from **NTSTATUS** in version 1.0 to **VOID**.
 
 The minimum NetAdapterCx version for *EVT_TXQUEUE_SET_NOTIFICATION_ENABLED* is 1.1.
 

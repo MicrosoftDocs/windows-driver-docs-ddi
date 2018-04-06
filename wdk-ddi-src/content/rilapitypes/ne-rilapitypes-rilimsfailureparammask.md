@@ -7,7 +7,7 @@ old-location: netvista\rilimsfailureparammask.htm
 old-project: netvista
 ms.assetid: ba1542e9-da6f-4696-8f71-575000a7724e
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: RILIMSFAILUREPARAMMASK, RILIMSFAILUREPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_IMSFAILURE_ALL, RIL_PARAM_IMSFAILURE_ERRORCODE, RIL_PARAM_IMSFAILURE_ERRORSTRING, RIL_PARAM_IMSFAILURE_MESSAGESUBTYPE, RIL_PARAM_IMSFAILURE_MESSAGETYPE, netvista.rilimsfailureparammask, ntddrilapitypes/RILIMSFAILUREPARAMMASK, ntddrilapitypes/RIL_PARAM_IMSFAILURE_ALL, ntddrilapitypes/RIL_PARAM_IMSFAILURE_ERRORCODE, ntddrilapitypes/RIL_PARAM_IMSFAILURE_ERRORSTRING, ntddrilapitypes/RIL_PARAM_IMSFAILURE_MESSAGESUBTYPE, ntddrilapitypes/RIL_PARAM_IMSFAILURE_MESSAGETYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILIMSFAILUREPARAMMASK
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILIMSFAILUREPARAMMASK
 req.product: Windows 10 or later.
@@ -51,20 +52,6 @@ req.product: Windows 10 or later.
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef enum _RILIMSFAILUREPARAMMASK { 
-  RIL_PARAM_IMSFAILURE_MESSAGETYPE,
-  RIL_PARAM_IMSFAILURE_MESSAGESUBTYPE,
-  RIL_PARAM_IMSFAILURE_ERRORCODE,
-  RIL_PARAM_IMSFAILURE_ERRORSTRING,
-  RIL_PARAM_IMSFAILURE_ALL
-} RILIMSFAILUREPARAMMASK;
-````
 
 
 ## -enum-fields

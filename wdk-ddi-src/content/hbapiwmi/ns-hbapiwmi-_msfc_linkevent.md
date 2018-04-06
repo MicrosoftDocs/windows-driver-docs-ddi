@@ -7,7 +7,7 @@ old-location: storage\msfc_linkevent.htm
 old-project: storage
 ms.assetid: 35fb3397-2e45-4d32-8cb1-1050199b2209
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PMSFC_LinkEvent, MSFC_LinkEvent, MSFC_LinkEvent structure [Storage Devices], PMSFC_LinkEvent, PMSFC_LinkEvent structure pointer [Storage Devices], _MSFC_LinkEvent, hbapiwmi/MSFC_LinkEvent, hbapiwmi/PMSFC_LinkEvent, storage.msfc_linkevent, structs-Fibre_cbf79af7-ccf4-4996-b14d-bca141dece0e.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	hbapiwmi.h
 api_name:
 -	MSFC_LinkEvent
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MSFC_LinkEvent, *PMSFC_LinkEvent
 ---
@@ -50,19 +51,6 @@ req.typenames: MSFC_LinkEvent, *PMSFC_LinkEvent
 
 
 A WMI provider uses the MSFC_LinkEvent structure to report link events for the indicated adapter.
-
-
-## -syntax
-
-
-````
-typedef struct _MSFC_LinkEvent {
-  ULONG EventType;
-  UCHAR AdapterWWN[8];
-  ULONG RLIRBufferSize;
-  UCHAR RLIRBuffer[1];
-} MSFC_LinkEvent, *PMSFC_LinkEvent;
-````
 
 
 ## -struct-fields
@@ -92,12 +80,11 @@ Contains the data associated with a register link incident request (RLIR).
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/528e5eaa-aaeb-4e5b-a4b2-0f518fcd79ee">EVENT_TYPE_QUALIFIERS</a>
-
-
-
  
 
  
-
 

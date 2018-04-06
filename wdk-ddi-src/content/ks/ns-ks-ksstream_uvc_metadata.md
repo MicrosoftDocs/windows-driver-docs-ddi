@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSSTREAM_UVC_METADATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSSTREAM_UVC_METADATA, *PKSSTREAM_UVC_METADATA
 ---
@@ -50,17 +51,6 @@ req.typenames: KSSTREAM_UVC_METADATA, *PKSSTREAM_UVC_METADATA
 
 
 The <b>KSSTREAM_UVC_METADATA</b> structure contains start and end of frame timestamp information.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  KSSTREAM_UVC_METADATATYPE_TIMESTAMP StartOfFrameTimestamp;
-  KSSTREAM_UVC_METADATATYPE_TIMESTAMP EndOfFrameTimestamp;
-} KSSTREAM_UVC_METADATA, *PKSSTREAM_UVC_METADATA;
-````
 
 
 ## -struct-fields

@@ -7,7 +7,7 @@ old-location: kernel\pep_ppm_perf_check_complete.htm
 old-project: kernel
 ms.assetid: A107F641-AE30-4F99-9AB6-EC84F52A2B52
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*PPEP_PPM_PERF_CHECK_COMPLETE, PEP_PPM_PERF_CHECK_COMPLETE, PEP_PPM_PERF_CHECK_COMPLETE structure [Kernel-Mode Driver Architecture], PPEP_PPM_PERF_CHECK_COMPLETE, PPEP_PPM_PERF_CHECK_COMPLETE structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_PERF_CHECK_COMPLETE, kernel.pep_ppm_perf_check_complete, pepfx/PEP_PPM_PERF_CHECK_COMPLETE, pepfx/PPEP_PPM_PERF_CHECK_COMPLETE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	pepfx.h
 api_name:
 -	PEP_PPM_PERF_CHECK_COMPLETE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PEP_PPM_PERF_CHECK_COMPLETE, *PPEP_PPM_PERF_CHECK_COMPLETE, PEP_PPM_PERF_CHECK_COMPLETE, *PPEP_PPM_PERF_CHECK_COMPLETE
 ---
@@ -50,16 +51,6 @@ req.typenames: PEP_PPM_PERF_CHECK_COMPLETE, *PPEP_PPM_PERF_CHECK_COMPLETE, PEP_P
 
 
 The <b>PEP_PPM_PERF_CHECK_COMPLETE</b> structure is used to inform the PEP of details regarding the completion of a periodic performance check evaluation.
-
-
-## -syntax
-
-
-````
-typedef struct _PEP_PPM_PERF_CHECK_COMPLETE {
-  ULONGLONG EvaluationTime;
-} PEP_PPM_PERF_CHECK_COMPLETE, *PPEP_PPM_PERF_CHECK_COMPLETE;
-````
 
 
 ## -struct-fields
@@ -74,12 +65,11 @@ typedef struct _PEP_PPM_PERF_CHECK_COMPLETE {
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt186771">PEP_NOTIFY_PPM_PERF_CHECK_COMPLETE notification</a>
-
-
-
  
 
  
-
 

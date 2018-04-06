@@ -7,7 +7,7 @@ old-location: netvista\protocolcmactivatevccomplete.htm
 old-project: netvista
 ms.assetid: 6ec9e73e-8abd-4d27-b598-6176f2125348
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: PROTOCOL_CM_ACTIVATE_VC_COMPLETE, ProtocolCmActivateVcComplete, ProtocolCmActivateVcComplete callback function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_2a632e5a-975c-44a2-8b30-088c128561c2.xml, ndis/ProtocolCmActivateVcComplete, netvista.protocolcmactivatevccomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ndis.h
 api_name:
 -	ProtocolCmActivateVcComplete
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
 ---
@@ -56,21 +57,6 @@ The
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>PROTOCOL_CM_ACTIVATE_VC_COMPLETE</b> type.
    For more information, see the following Examples section.</div><div> </div>
 
-## -prototype
-
-
-````
-PROTOCOL_CM_ACTIVATE_VC_COMPLETE ProtocolCmActivateVcComplete;
-
-VOID ProtocolCmActivateVcComplete(
-  _In_ NDIS_STATUS         Status,
-  _In_ NDIS_HANDLE         CallMgrVcContext,
-  _In_ PCO_CALL_PARAMETERS CallParameters
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -86,13 +72,13 @@ Specifies the final status, as indicated by the miniport driver, of the request 
 
 Specifies the handle to a call manager-allocated context area in which the call manager maintains
      its per-VC state. The call manager supplied this handle from its 
-     <a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a> function.
+     <a href="https://msdn.microsoft.com/b086dd24-74f5-474a-8684-09bf92ac731b">ProtocolCoCreateVc</a> function.
 
 
 ### -param CallParameters [in]
 
 Pointer to the call parameters as specified by the call manager in a call to 
-     <a href="..\ndis\nf-ndis-ndiscmactivatevc.md">NdisCmActivateVc</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff561649">NdisCmActivateVc</a>.
 
 
 ## -returns
@@ -134,9 +120,9 @@ If the call manager specified either ROUND_UP_FLOW or ROUND_DOWN_FLOW in the
     <i>CallParameters</i> can have been changed by the miniport driver. Call managers should examine the call
     parameters that were returned to ensure proper operation. If the new call parameters are unsatisfactory,
     the call manager should either call 
-    <a href="..\ndis\nf-ndis-ndiscmactivatevc.md">NdisCmActivateVc</a> again with new call
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561649">NdisCmActivateVc</a> again with new call
     parameters or deactivate the VC with 
-    <a href="..\ndis\nf-ndis-ndiscmdeactivatevc.md">NdisCmDeactivateVc</a>.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561657">NdisCmDeactivateVc</a>.
 
 <h3><a id="Examples"></a><a id="examples"></a><a id="EXAMPLES"></a>Examples</h3>
 To define a <i>ProtocolCmActivateVcComplete</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
@@ -181,20 +167,19 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndiscmactivatevc.md">NdisCmActivateVc</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiscmdeactivatevc.md">NdisCmDeactivateVc</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561649">NdisCmActivateVc</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_cm_make_call.md">ProtocolCmMakeCall</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561657">NdisCmDeactivateVc</a>
 
 
 
+<a href="https://msdn.microsoft.com/ede0a18a-cd3b-4fbb-a16b-e7493940d633">ProtocolCmMakeCall</a>
  
 
  
-
 

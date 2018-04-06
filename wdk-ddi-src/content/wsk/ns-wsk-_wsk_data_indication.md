@@ -7,7 +7,7 @@ old-location: netvista\wsk_data_indication.htm
 old-project: netvista
 ms.assetid: 10af500f-bb3b-427f-86b1-ee075ffc7ac6
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PWSK_DATA_INDICATION, PWSK_DATA_INDICATION, PWSK_DATA_INDICATION structure pointer [Network Drivers Starting with Windows Vista], WSK_DATA_INDICATION, WSK_DATA_INDICATION structure [Network Drivers Starting with Windows Vista], _WSK_DATA_INDICATION, netvista.wsk_data_indication, wsk/PWSK_DATA_INDICATION, wsk/WSK_DATA_INDICATION, wskref_89ac35f7-4945-4b2d-90d6-177d9bca7361.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	wsk.h
 api_name:
 -	WSK_DATA_INDICATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WSK_DATA_INDICATION, *PWSK_DATA_INDICATION
 req.product: Windows 10 or later.
@@ -52,17 +53,6 @@ req.product: Windows 10 or later.
 
 The WSK_DATA_INDICATION structure describes data that has been received on a connection-oriented
   socket.
-
-
-## -syntax
-
-
-````
-typedef struct _WSK_DATA_INDICATION {
-  struct _WSK_DATA_INDICATION  *Next;
-  WSK_BUF                     Buffer;
-} WSK_DATA_INDICATION, *PWSK_DATA_INDICATION;
-````
 
 
 ## -struct-fields
@@ -88,7 +78,7 @@ A WSK_BUF structure that describes the data that has been received on the socket
 
 The WSK subsystem passes a pointer to a WSK_DATA_INDICATION structure as the 
     <i>DataIndication</i> parameter when it calls a connection-oriented socket's 
-    <a href="..\wsk\nc-wsk-pfn_wsk_receive_event.md">WskReceiveEvent</a> event callback
+    <a href="https://msdn.microsoft.com/2a7a7570-ed26-48be-b27b-dc240588ecfc">WskReceiveEvent</a> event callback
     function.
 
 
@@ -96,20 +86,19 @@ The WSK subsystem passes a pointer to a WSK_DATA_INDICATION structure as the
 
 ## -see-also
 
-<a href="..\wsk\ns-wsk-_wsk_buf.md">WSK_BUF</a>
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_release_data_indication_list.md">WskRelease</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571153">WSK_BUF</a>
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_receive_event.md">WskReceiveEvent</a>
+<a href="https://msdn.microsoft.com/2a7a7570-ed26-48be-b27b-dc240588ecfc">WskReceiveEvent</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571144">WskRelease</a>
  
 
  
-
 

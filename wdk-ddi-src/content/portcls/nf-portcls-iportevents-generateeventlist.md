@@ -7,7 +7,7 @@ old-location: audio\iportevents_generateeventlist.htm
 old-project: audio
 ms.assetid: 99c9d60d-5f19-4b31-a8f3-aff69bc3a2a6
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/19/2018
 ms.keywords: GenerateEventList method [Audio Devices], GenerateEventList method [Audio Devices], IPortEvents interface, GenerateEventList,IPortEvents.GenerateEventList, IPortEvents, IPortEvents interface [Audio Devices], GenerateEventList method, IPortEvents::GenerateEventList, audio.iportevents_generateeventlist, audmp-routines_cc4243f5-90e9-471f-b8f0-aaf0945bddf5.xml, portcls/IPortEvents::GenerateEventList
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	portcls.h
 api_name:
 -	IPortEvents.GenerateEventList
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
@@ -50,21 +51,6 @@ req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 
 
 The <code>GenerateEventList</code> method notifies clients through the port driver's list of event entries that a particular event has occurred.
-
-
-## -syntax
-
-
-````
-void GenerateEventList(
-  [in, optional] GUID  *Set,
-  [in]           ULONG EventId,
-  [in]           BOOL  PinEvent,
-  [in]           ULONG PinId,
-  [in]           BOOL  NodeEvent,
-  [in]           ULONG NodeId
-);
-````
 
 
 ## -parameters
@@ -124,20 +110,19 @@ Although callers of <code>GenerateEventList</code> can be running at any IRQL, t
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iportevents.md">IPortEvents</a>
 
 
 
-<a href="..\portcls\nc-portcls-pcpfnevent_handler.md">EventHandler</a>
+<a href="https://msdn.microsoft.com/06239870-8ed8-49c9-a9d4-fd3e28f3ab58">EventHandler</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536884">IPortEvents</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536886">IPortEvents::AddEventToEventList</a>
-
-
-
  
 
  
-
 

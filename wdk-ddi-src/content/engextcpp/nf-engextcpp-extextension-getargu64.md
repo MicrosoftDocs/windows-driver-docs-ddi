@@ -7,7 +7,7 @@ old-location: debugger\getargu64.htm
 old-project: debugger
 ms.assetid: 44a02c77-f4a2-499f-9555-99ce6f49fac8
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: EngExtCpp_Ref_02971a20-02b8-4655-a1e5-8f287b4b0182.xml, ExtExtension, ExtExtension class [Windows Debugging], GetArgU64 method, ExtExtension::GetArgU64, GetArgU64 method [Windows Debugging], GetArgU64 method [Windows Debugging], ExtExtension class, GetArgU64,ExtExtension.GetArgU64, debugger.getargu64
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Engextcpp.hpp
 api_name:
 -	ExtExtension.GetArgU64
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 ---
@@ -52,17 +53,6 @@ req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 The <b>GetArgU64</b> method returns the value of a named expression argument from the command line used to invoke the current extension command.
 
 
-## -syntax
-
-
-````
-ULONG64 GetArgU64(
-  [in] PCSTR Name,
-  [in] bool  Required
-);
-````
-
-
 ## -parameters
 
 
@@ -70,7 +60,7 @@ ULONG64 GetArgU64(
 
 ### -param Name [in]
 
-Specifies the name of the argument.  The command-line description used in <a href="..\engextcpp\nf-engextcpp-ext_command.md">EXT_COMMAND</a> must specify that the type of this argument is expression.
+Specifies the name of the argument.  The command-line description used in <a href="https://msdn.microsoft.com/library/windows/hardware/ff544514">EXT_COMMAND</a> must specify that the type of this argument is expression.
 
 
 ### -param Required [in]
@@ -100,16 +90,15 @@ This method should only be called during the execution of an extension command p
 
 ## -see-also
 
-<a href="..\engextcpp\nf-engextcpp-ext_command.md">EXT_COMMAND</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544514">EXT_COMMAND</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543981">ExtExtension</a>
-
-
-
  
 
  
-
 

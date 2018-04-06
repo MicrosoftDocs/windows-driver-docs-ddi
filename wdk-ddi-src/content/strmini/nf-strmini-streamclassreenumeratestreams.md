@@ -38,7 +38,8 @@ api_location:
 -	strmini.h
 api_name:
 -	StreamClassReenumerateStreams
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STREAM_PRIORITY, *PSTREAM_PRIORITY
 req.product: Windows 10 or later.
@@ -51,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 Obsolete. Do not use.
-
-
-## -syntax
-
-
-````
-  StreamClassReenumerateStreams(
-    
-);
-````
 
 
 ## -parameters

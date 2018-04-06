@@ -38,7 +38,8 @@ api_location:
 -	filterpipeline.h
 api_name:
 -	IPrintWriteStreamFlush.FlushData
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
@@ -50,16 +51,6 @@ req.typenames: EXpsFontRestriction
 
 
 The FlushData method flushes buffered data to a data stream while leaving the stream open, allowing the caller to write additional data to the stream.Writing to the stream is done using the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554394">IPrintWriteStream::WriteBytes</a> method.
-
-
-## -syntax
-
-
-````
-HRESULT FlushData(
-    None
-);
-````
 
 
 ## -parameters
@@ -123,16 +114,15 @@ hr = pIFlush-&gt;FlushData();
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554394">IPrintWriteStream::WriteBytes</a>
 
 
 
-<a href="..\filterpipeline\nn-filterpipeline-iprintwritestreamflush.md">IPrintWriteStreamFlush</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh768282">IPrintWriteStreamFlush</a>
  
 
  
-
 

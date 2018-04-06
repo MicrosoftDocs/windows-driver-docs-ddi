@@ -15,6 +15,8 @@
 ### [POFXCALLBACKUPDATEPLATFORMIDLESTATE callback](../pep_x/nc-pep_x-pofxcallbackupdateplatformidlestate.md)
 ### [POFXCALLBACKUPDATEPROCESSORIDLESTATE callback](../pep_x/nc-pep_x-pofxcallbackupdateprocessoridlestate.md)
 ### [PPO_ENUMERATE_INTERRUPT_SOURCE_CALLBACK callback](../pep_x/nc-pep_x-ppo_enumerate_interrupt_source_callback.md)
+### [PEP_PROCESSOR_IDLE_CANCEL_CODE enumeration](../pep_x/ne-pep_x-pep_processor_idle_cancel_code.md)
+### [PEP_PROCESSOR_IDLE_TYPE enumeration](../pep_x/ne-pep_x-pep_processor_idle_type.md)
 ### [*PPEP_PROCESSOR_IDLE_CANCEL_CODE enumeration](../pep_x/ne-pep_x-ppep_processor_idle_cancel_code.md)
 ### [*PPEP_PROCESSOR_IDLE_TYPE enumeration](../pep_x/ne-pep_x-ppep_processor_idle_type.md)
 ### [_GPIO_PIN_CONFIG_TYPE enumeration](../pep_x/ne-pep_x-_gpio_pin_config_type.md)

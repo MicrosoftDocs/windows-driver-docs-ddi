@@ -7,7 +7,7 @@ old-location: kernel\halallocatehardwarecounters.htm
 old-project: kernel
 ms.assetid: 8a689889-b445-4fda-ae11-090d0d5870b8
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: HalAllocateHardwareCounters, HalAllocateHardwareCounters routine [Kernel-Mode Driver Architecture], k103_06a6696a-0b51-414e-96ea-6c7d3b70acb5.xml, kernel.halallocatehardwarecounters, ntddk/HalAllocateHardwareCounters
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Hal.dll
 api_name:
 -	HalAllocateHardwareCounters
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
@@ -50,19 +51,6 @@ req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 
 
 The <b>HalAllocateHardwareCounters</b> routine allocates a set of hardware performance counters.
-
-
-## -syntax
-
-
-````
-NTSTATUS HalAllocateHardwareCounters(
-  _In_  PGROUP_AFFINITY                 GroupAffinity,
-  _In_  ULONG                           GroupCount,
-  _In_  PPHYSICAL_COUNTER_RESOURCE_LIST ResourceList,
-  _Out_ PHANDLE                         CounterSetHandle
-);
-````
 
 
 ## -parameters
@@ -155,7 +143,10 @@ Virtualization software typically does not virtualize hardware performance count
 
 ## -see-also
 
-<a href="..\minitape\ns-minitape-_group_affinity.md">GROUP_AFFINITY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546539">GROUP_AFFINITY</a>
 
 
 
@@ -163,12 +154,8 @@ Virtualization software typically does not virtualize hardware performance count
 
 
 
-<a href="..\ntddk\ns-ntddk-_physical_counter_resource_list.md">PHYSICAL_COUNTER_RESOURCE_LIST</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558798">PHYSICAL_COUNTER_RESOURCE_LIST</a>
  
 
  
-
 

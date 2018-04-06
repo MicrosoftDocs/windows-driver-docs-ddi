@@ -7,7 +7,7 @@ old-location: debugger\getexpression.htm
 old-project: debugger
 ms.assetid: 20d75838-6dbf-49a2-a0c9-a0c1ae74d7a6
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: GetExpression, GetExpression callback function [Windows Debugging], PWINDBG_GET_EXPRESSION, WdbgExts_Ref_666ae7de-7842-4ba8-9352-e79aefe24ba7.xml, debugger.getexpression, wdbgexts/GetExpression
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	wdbgexts.h
 api_name:
 -	GetExpression
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VPCI_WRITE_BLOCK_INPUT, *PVPCI_WRITE_BLOCK_INPUT
 req.product: Windows 10 or later.
@@ -51,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>PWINDBG_GET_EXPRESSION</b> (<b>GetExpression</b>) function returns the value of <i>expression</i>. The expression is evaluated using the current expression evaluator, and can contain aliases.
-
-
-## -prototype
-
-
-````
-ULONG_PTR GetExpression(
-  _In_ PCSTR expression
-);
-````
 
 
 ## -parameters

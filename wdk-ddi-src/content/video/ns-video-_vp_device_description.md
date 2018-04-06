@@ -7,7 +7,7 @@ old-location: display\vp_device_description.htm
 old-project: display
 ms.assetid: a605e37d-56cd-4d72-a713-314e20c2f630
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PVP_DEVICE_DESCRIPTION, PVP_DEVICE_DESCRIPTION, PVP_DEVICE_DESCRIPTION structure pointer [Display Devices], VP_DEVICE_DESCRIPTION, VP_DEVICE_DESCRIPTION structure [Display Devices], Video_Structs_056eb332-bc5b-4b1f-8219-91a418dd628f.xml, _VP_DEVICE_DESCRIPTION, display.vp_device_description, video/PVP_DEVICE_DESCRIPTION, video/VP_DEVICE_DESCRIPTION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<= DISPATCH_LEVEL"
+req.irql: See Remarks section.
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	video.h
 api_name:
 -	VP_DEVICE_DESCRIPTION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VP_DEVICE_DESCRIPTION, *PVP_DEVICE_DESCRIPTION
 req.product: Windows 10 or later.
@@ -51,19 +52,6 @@ req.product: Windows 10 or later.
 
 
 The VP_DEVICE_DESCRIPTION structure describes the attributes of the physical device for which a driver is requesting a DMA object.
-
-
-## -syntax
-
-
-````
-typedef struct _VP_DEVICE_DESCRIPTION {
-  BOOLEAN ScatterGather;
-  BOOLEAN Dma32BitAddresses;
-  BOOLEAN Dma64BitAddresses;
-  ULONG   MaximumLength;
-} VP_DEVICE_DESCRIPTION, *PVP_DEVICE_DESCRIPTION;
-````
 
 
 ## -struct-fields

@@ -38,7 +38,8 @@ api_location:
 -	filterpipeline.h
 api_name:
 -	IPrintPipelinePropertyBag.GetProperty
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
@@ -50,17 +51,6 @@ req.typenames: EXpsFontRestriction
 
 
 The <code>GetProperty</code> method gets a property from a property bag.
-
-
-## -syntax
-
-
-````
-HRESULT GetProperty(
-  [in]  const wchar_t *pszName,
-  [out]       VARIANT *pVar
-);
-````
 
 
 ## -parameters

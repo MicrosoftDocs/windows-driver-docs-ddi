@@ -7,7 +7,7 @@ old-location: buses\usbfn_device_state.htm
 old-project: usbref
 ms.assetid: B367D0F7-5026-4C88-B88A-69068F76B675
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PUSBFN_DEVICE_STATE, USBFN_DEVICE_STATE, USBFN_DEVICE_STATE enumeration [Buses], UsbfnDeviceStateAddressed, UsbfnDeviceStateAttached, UsbfnDeviceStateConfigured, UsbfnDeviceStateDefault, UsbfnDeviceStateDetached, UsbfnDeviceStateMinimum, UsbfnDeviceStateStateMaximum, UsbfnDeviceStateSuspended, _USBFN_DEVICE_STATE, buses.usbfn_device_state, usbfnbase/USBFN_DEVICE_STATE, usbfnbase/UsbfnDeviceStateAddressed, usbfnbase/UsbfnDeviceStateAttached, usbfnbase/UsbfnDeviceStateConfigured, usbfnbase/UsbfnDeviceStateDefault, usbfnbase/UsbfnDeviceStateDetached, usbfnbase/UsbfnDeviceStateMinimum, usbfnbase/UsbfnDeviceStateStateMaximum, usbfnbase/UsbfnDeviceStateSuspended"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	usbfnbase.h
 api_name:
 -	USBFN_DEVICE_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USBFN_DEVICE_STATE, *PUSBFN_DEVICE_STATE
 req.product: Windows 10 or later.
@@ -51,23 +52,6 @@ req.product: Windows 10 or later.
 
 
 Defines the Universal Serial Bus (USB) device states for the device/controller.  These states correspond to the USB device states as defined in section 9.1 of the USB 2.0 Specification.
-
-
-## -syntax
-
-
-````
-typedef enum _USBFN_DEVICE_STATE { 
-  UsbfnDeviceStateMinimum       = 0x0,
-  UsbfnDeviceStateAttached,
-  UsbfnDeviceStateDefault,
-  UsbfnDeviceStateDetached,
-  UsbfnDeviceStateAddressed,
-  UsbfnDeviceStateConfigured,
-  UsbfnDeviceStateSuspended,
-  UsbfnDeviceStateStateMaximum
-} USBFN_DEVICE_STATE;
-````
 
 
 ## -enum-fields

@@ -7,7 +7,7 @@ old-location: display\d3d11_1ddi_certificate_type.htm
 old-project: display
 ms.assetid: e95573c9-0ea7-4ad2-9e7e-d75761e98be6
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3D11_1DDI_CERTIFICATE_TYPE, D3D11_1DDI_CERTIFICATE_TYPE enumeration [Display Devices], D3D11_1DDI_CERTIFICATE_TYPE_AUTHENTICATED_CHANNEL, D3D11_1DDI_CERTIFICATE_TYPE_CRYPTO_SESSION, d3d10umddi/D3D11_1DDI_CERTIFICATE_TYPE, d3d10umddi/D3D11_1DDI_CERTIFICATE_TYPE_AUTHENTICATED_CHANNEL, d3d10umddi/D3D11_1DDI_CERTIFICATE_TYPE_CRYPTO_SESSION, display.d3d11_1ddi_certificate_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3d10umddi.h
 api_name:
 -	D3D11_1DDI_CERTIFICATE_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D11_1DDI_CERTIFICATE_TYPE
 ---
@@ -49,18 +50,7 @@ req.typenames: D3D11_1DDI_CERTIFICATE_TYPE
 ## -description
 
 
-Specifies the type of authenticated certificate that is used to establish trust and perform a key exchange. This type is used by callers of the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getcertificate.md">GetCertificate</a> and <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getcertificatesize.md">GetCertificateSize</a> functions.
-
-
-## -syntax
-
-
-````
-typedef enum D3D11_1DDI_CERTIFICATE_TYPE { 
-  D3D11_1DDI_CERTIFICATE_TYPE_AUTHENTICATED_CHANNEL  = 1,
-  D3D11_1DDI_CERTIFICATE_TYPE_CRYPTO_SESSION         = 2
-} D3D11_1DDI_CERTIFICATE_TYPE;
-````
+Specifies the type of authenticated certificate that is used to establish trust and perform a key exchange. This type is used by callers of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451652">GetCertificate</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/hh451654">GetCertificateSize</a> functions.
 
 
 ## -enum-fields
@@ -80,16 +70,15 @@ The certificate is used for a  cryptographic session.
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getcertificatesize.md">GetCertificateSize</a>
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getcertificate.md">GetCertificate</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451652">GetCertificate</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451654">GetCertificateSize</a>
  
 
  
-
 

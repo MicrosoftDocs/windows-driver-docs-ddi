@@ -38,7 +38,8 @@ api_location:
 -	ntddk.h
 api_name:
 -	WHEA_PROCESSOR_GENERIC_ERROR_SECTION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WHEA_PROCESSOR_GENERIC_ERROR_SECTION, *PWHEA_PROCESSOR_GENERIC_ERROR_SECTION
 ---
@@ -54,30 +55,6 @@ The
    structure describes processor error data that is not specific to a particular processor architecture.
 
 
-## -syntax
-
-
-````
-typedef struct _WHEA_PROCESSOR_GENERIC_ERROR_SECTION {
-  WHEA_PROCESSOR_GENERIC_ERROR_SECTION_VALIDBITS ValidBits;
-  UCHAR                                          ProcessorType;
-  UCHAR                                          InstructionSet;
-  UCHAR                                          ErrorType;
-  UCHAR                                          Operation;
-  UCHAR                                          Flags;
-  UCHAR                                          Level;
-  USHORT                                         Reserved;
-  ULONGLONG                                      CPUVersion;
-  UCHAR                                          CPUBrandString[128];
-  ULONGLONG                                      ProcessorId;
-  ULONGLONG                                      TargetAddress;
-  ULONGLONG                                      RequesterId;
-  ULONGLONG                                      ResponderId;
-  ULONGLONG                                      InstructionPointer;
-} WHEA_PROCESSOR_GENERIC_ERROR_SECTION, *PWHEA_PROCESSOR_GENERIC_ERROR_SECTION;
-````
-
-
 ## -struct-fields
 
 
@@ -86,7 +63,7 @@ typedef struct _WHEA_PROCESSOR_GENERIC_ERROR_SECTION {
 ### -field ValidBits
 
 A 
-      <a href="..\ntddk\ns-ntddk-_whea_processor_generic_error_section_validbits.md">WHEA_PROCESSOR_GENERIC_ERROR_SECTION_VALIDBITS</a> 
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff560610">WHEA_PROCESSOR_GENERIC_ERROR_SECTION_VALIDBITS</a> 
       union that specifies which members of this structure contain valid data.
 
 
@@ -371,7 +348,7 @@ The CPU version, which includes the family, model, and stepping information.
 
 <ul>
 <li>For x86 and x64 processors, this member contains a 
-        <a href="..\ntddk\ns-ntddk-_whea_processor_family_info.md">WHEA_PROCESSOR_FAMILY_INFO</a> union.</li>
+        <a href="https://msdn.microsoft.com/library/windows/hardware/ff560605">WHEA_PROCESSOR_FAMILY_INFO</a> union.</li>
 <li>For Itanium processors, this member contains the data provided in CPUID Register 3.</li>
 </ul>
 This member contains valid data only if the <b>CPUVersion</b> bit of the 
@@ -448,7 +425,7 @@ The
      structure describes the error data that is contained in a generic processor error section of an 
      <a href="https://msdn.microsoft.com/080da29a-b5cb-45a5-848d-048d9612ee2a">error record</a>. An error record contains a generic processor 
      error section only if the <b>SectionType</b> member of one of the 
-     <a href="..\ntddk\ns-ntddk-_whea_error_record_section_descriptor.md">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a> 
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff560496">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a> 
      structures that describe the error record sections for that error record contains 
      <b>PROCESSOR_GENERIC_ERROR_SECTION_GUID</b>.
 
@@ -457,24 +434,23 @@ The
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560465">WHEA_ERROR_PACKET</a>
 
 
 
-<a href="..\ntddk\ns-ntddk-_whea_error_record_section_descriptor.md">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560496">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a>
 
 
 
-<a href="..\ntddk\ns-ntddk-_whea_processor_family_info.md">WHEA_PROCESSOR_FAMILY_INFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560605">WHEA_PROCESSOR_FAMILY_INFO</a>
 
 
 
-<a href="..\ntddk\ns-ntddk-_whea_processor_generic_error_section_validbits.md">WHEA_PROCESSOR_GENERIC_ERROR_SECTION_VALIDBITS</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560610">WHEA_PROCESSOR_GENERIC_ERROR_SECTION_VALIDBITS</a>
  
 
  
-
 

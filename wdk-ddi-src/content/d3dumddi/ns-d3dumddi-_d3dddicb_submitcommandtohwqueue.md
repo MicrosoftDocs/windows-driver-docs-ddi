@@ -7,28 +7,28 @@ old-location: display\d3dddicb_submitcommandtohwqueue.htm
 old-project: display
 ms.assetid: 5B650831-7AD7-4FEA-AC31-82F2B351BAD6
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDICB_SUBMITCOMMANDTOHWQUEUE, D3DDDICB_SUBMITCOMMANDTOHWQUEUE structure [Display Devices], _D3DDDICB_SUBMITCOMMANDTOHWQUEUE, d3dumddi/D3DDDICB_SUBMITCOMMANDTOHWQUEUE, display.d3dddicb_submitcommandtohwqueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dumddi.h
-req.include-header: 
+req.include-header:
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	D3DDDICB_SUBMITCOMMANDTOHWQUEUE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDICB_SUBMITCOMMANDTOHWQUEUE
 ---
@@ -52,21 +53,6 @@ req.typenames: D3DDDICB_SUBMITCOMMANDTOHWQUEUE
 A structure that holds information to queue hardware flags.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDICB_SUBMITCOMMANDTOHWQUEUE {
-  union {
-    struct {
-      UINT Reserved  :32;
-    };
-    UINT Value;
-  };
-} D3DDDICB_SUBMITCOMMANDTOHWQUEUE;
-````
-
-
 ## -struct-fields
 
 
@@ -74,48 +60,42 @@ typedef struct _D3DDDICB_SUBMITCOMMANDTOHWQUEUE {
 
 ### -field hHwQueue
 
- 
-
+[in] Hardware queue being submitted to.
 
 ### -field HwQueueProgressFenceId
 
- 
-
+Hardware queue progress fence ID that will be signaled when the Present Blt is done on the GPU.
 
 ### -field Commands
 
- 
+GPU VA of the command buffer to be executed on the GPU.
 
 
 ### -field CommandLength
 
- 
-
+Length in bytes of the command buffer.
 
 ### -field Flags
 
- 
+Flags.
 
 
 ### -field PrivateDriverDataSize
 
- 
-
+The size of pPrivateDriverData.
 
 ### -field pPrivateDriverData
 
- 
-
+Private driver data to pass to [Present](nc-d3dumddi-pfnd3dddi_present.md).
 
 ### -field NumPrimaries
 
- 
+The number of primaries written by this command buffer.
 
 
 ### -field WrittenPrimaries
 
- 
-
+The array of primaries written by this command buffer.
 
 
 

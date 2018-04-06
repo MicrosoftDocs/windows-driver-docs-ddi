@@ -38,7 +38,8 @@ api_location:
 -	Ksproxy.h
 api_name:
 -	PIPE_ALLOCATOR_PLACE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PIPE_ALLOCATOR_PLACE
 ---
@@ -50,19 +51,6 @@ req.typenames: PIPE_ALLOCATOR_PLACE
 
 
 
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  Pipe_Allocator_None,
-  Pipe_Allocator_FirstPin,
-  Pipe_Allocator_LastPin,
-  Pipe_Allocator_MiddlePin
-} PIPE_ALLOCATOR_PLACE;
-````
 
 
 ## -enum-fields

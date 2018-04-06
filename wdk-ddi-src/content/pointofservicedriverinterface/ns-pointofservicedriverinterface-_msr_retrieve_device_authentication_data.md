@@ -38,7 +38,8 @@ api_location:
 -	PointOfServiceDriverInterface.h
 api_name:
 -	MSR_RETRIEVE_DEVICE_AUTHENTICATION_DATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MSR_RETRIEVE_DEVICE_AUTHENTICATION_DATA, *PMSR_RETRIEVE_DEVICE_AUTHENTICATION_DATA
 ---
@@ -50,18 +51,6 @@ req.typenames: MSR_RETRIEVE_DEVICE_AUTHENTICATION_DATA, *PMSR_RETRIEVE_DEVICE_AU
 
 
 This structure contains authentication information retrieved from the device.
-
-
-## -syntax
-
-
-````
-typedef struct _MSR_RETRIEVE_DEVICE_AUTHENTICATION_DATA {
-  unsigned char KeySerialNumber[MSR_KEY_SERIAL_NUMBER_SIZE];
-  unsigned char Challenge1[MSR_CHALLENGE_SIZE];
-  unsigned char Challenge2[MSR_CHALLENGE_SIZE];
-} MSR_RETRIEVE_DEVICE_AUTHENTICATION_DATA, *PMSR_RETRIEVE_DEVICE_AUTHENTICATION_DATA;
-````
 
 
 ## -struct-fields

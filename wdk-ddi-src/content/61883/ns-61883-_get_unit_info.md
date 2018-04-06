@@ -38,7 +38,8 @@ api_location:
 -	61883.h
 api_name:
 -	GET_UNIT_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GET_UNIT_INFO, *PGET_UNIT_INFO
 ---
@@ -50,17 +51,6 @@ req.typenames: GET_UNIT_INFO, *PGET_UNIT_INFO
 
 
 This structure is used to get unit information.The  request retrieves unit information about the device. The Plug and Play ID for a 61883 device is based on its VendorID, ModelID, and Character/Transaction Set. 
-
-
-## -syntax
-
-
-````
-typedef struct _GET_UNIT_INFO {
-  ULONG nLevel;
-  PVOID Information;
-} GET_UNIT_INFO, *PGET_UNIT_INFO;
-````
 
 
 ## -struct-fields
@@ -169,12 +159,11 @@ The protocol driver writes current diag level to the caller-allocated <a href="h
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537008">AV_61883_REQUEST</a>
-
-
-
  
 
  
-
 

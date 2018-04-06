@@ -7,7 +7,7 @@ old-location: debugger\getcontextstacktrace.htm
 old-project: debugger
 ms.assetid: 8d7a461e-46bf-4556-b13c-805bb5af572e
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: GetContextStackTrace method [Windows Debugging], GetContextStackTrace method [Windows Debugging], IDebugControl4 interface, GetContextStackTrace,IDebugControl4.GetContextStackTrace, IDebugControl4, IDebugControl4 interface [Windows Debugging], GetContextStackTrace method, IDebugControl4::GetContextStackTrace, IDebugControl_ae12ec1a-8839-49cc-8082-c328a570188b.xml, dbgeng/IDebugControl4::GetContextStackTrace, debugger.getcontextstacktrace
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugControl4.GetContextStackTrace
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -50,23 +51,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetContextStackTrace</b> method returns the frames at the top of the call stack, starting with an arbitrary <a href="https://msdn.microsoft.com/3690903c-4281-4c65-98b0-00ca22206168">register context</a> and returning the reconstructed register context for each stack frame.
-
-
-## -syntax
-
-
-````
-HRESULT GetContextStackTrace(
-  [in, optional]  PVOID              StartContext,
-  [in]            ULONG              StartContextSize,
-  [out, optional] PDEBUG_STACK_FRAME Frames,
-  [in]            ULONG              FramesSize,
-  [out, optional] PVOID              FrameContexts,
-  [in]            ULONG              FrameContextsSize,
-  [in]            ULONG              FrameContextsEntrySize,
-  [out, optional] PULONG             FramesFilled
-);
-````
 
 
 ## -parameters
@@ -155,7 +139,14 @@ It is common for stack unwinds to restore only a subset of the registers.  For e
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548425">GetStackTrace</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550526">IDebugControl4</a>
 
 
 
@@ -164,15 +155,7 @@ It is common for stack unwinds to restore only a subset of the registers.  For e
 
 
 <a href="https://msdn.microsoft.com/1061015f-cb0c-490b-b256-e0dedb659f22">k, kb, kc, kd, kp, kP, kv (Display Stack Backtrace)</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548425">GetStackTrace</a>
-
-
-
  
 
  
-
 

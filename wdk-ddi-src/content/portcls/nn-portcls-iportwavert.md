@@ -7,7 +7,7 @@ old-location: audio\iportwavert.htm
 old-project: audio
 ms.assetid: ba54320e-42b3-489c-a192-dce794c3b3d4
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/19/2018
 ms.keywords: IPortWaveRT, IPortWaveRT interface [Audio Devices], IPortWaveRT interface [Audio Devices], described, audio.iportwavert, audmp-routines_0c88b444-3414-49e0-a021-2bc4cd6f1fff.xml, portcls/IPortWaveRT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	portcls.h
 api_name:
 -	IPortWaveRT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
@@ -51,11 +52,11 @@ req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 
 The <code>IPortWaveRT</code> interface is supported in Windows Vista and later operating systems and it is the main interface that the WaveRT port driver exposes to the adapter driver that implements the WaveRT miniport driver object.
 
- To create an <code>IPortWaveRT</code> object, the adapter driver calls <a href="..\portcls\nf-portcls-pcnewport.md">PcNewPort</a> and specifies <b>IID_IPortWaveRT</b> as the REFIID. The GUID constant <b>IID_IPortWaveRT</b> is defined in header file Portcls.h.
+ To create an <code>IPortWaveRT</code> object, the adapter driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff537715">PcNewPort</a> and specifies <b>IID_IPortWaveRT</b> as the REFIID. The GUID constant <b>IID_IPortWaveRT</b> is defined in header file Portcls.h.
 
-An adapter driver forms a port-miniport driver pair by binding an <code>IPortWaveRT</code> object to an <a href="..\portcls\nn-portcls-iminiportwavert.md">IMiniportWaveRT</a> object. The PortCls system driver registers the pair with the system as a wave filter.
+An adapter driver forms a port-miniport driver pair by binding an <code>IPortWaveRT</code> object to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff536737">IMiniportWaveRT</a> object. The PortCls system driver registers the pair with the system as a wave filter.
 
-<code>IPortWaveRT</code> inherits the methods in the <a href="..\portcls\nn-portcls-iport.md">IPort</a> interface; it provides no additional methods.
+<code>IPortWaveRT</code> inherits the methods in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536842">IPort</a> interface; it provides no additional methods.
 
-The <a href="..\portcls\nn-portcls-iportwavertstream.md">IPortWaveRTStream</a> interface is supported in Windows Vista and later operating systems, and it is a stream-specific interface that provides helper methods for use by the WaveRT miniport driver.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/ff536922">IPortWaveRTStream</a> interface is supported in Windows Vista and later operating systems, and it is a stream-specific interface that provides helper methods for use by the WaveRT miniport driver.
 

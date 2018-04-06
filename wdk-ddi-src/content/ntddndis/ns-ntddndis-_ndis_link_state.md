@@ -7,7 +7,7 @@ old-location: netvista\ndis_link_state.htm
 old-project: netvista
 ms.assetid: 01d74e69-55fe-4e2e-94ab-7676f9e33403
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PNDIS_LINK_STATE, NDIS_LINK_STATE, NDIS_LINK_STATE structure [Network Drivers Starting with Windows Vista], PNDIS_LINK_STATE, PNDIS_LINK_STATE structure pointer [Network Drivers Starting with Windows Vista], _NDIS_LINK_STATE, netvista.ndis_link_state, ntddndis/NDIS_LINK_STATE, ntddndis/PNDIS_LINK_STATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddndis.h
 api_name:
 -	NDIS_LINK_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_LINK_STATE, *PNDIS_LINK_STATE
 ---
@@ -52,22 +53,6 @@ req.typenames: NDIS_LINK_STATE, *PNDIS_LINK_STATE
 The <b>NDIS_LINK_STATE</b> structure specifies the current link state of a miniport adapter.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_LINK_STATE {
-  NDIS_OBJECT_HEADER             Header;
-  NDIS_MEDIA_CONNECT_STATE       MediaConnectState;
-  NDIS_MEDIA_DUPLEX_STATE        MediaDuplexState;
-  ULONG64                        XmitLinkSpeed;
-  ULONG64                        RcvLinkSpeed;
-  NDIS_SUPPORTED_PAUSE_FUNCTIONS PauseFunctions;
-  ULONG                          AutoNegotiationFlags;
-} NDIS_LINK_STATE, *PNDIS_LINK_STATE;
-````
-
-
 ## -struct-fields
 
 
@@ -76,7 +61,7 @@ typedef struct _NDIS_LINK_STATE {
 ### -field Header
 
 The 
-      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure for the
  <b>NDIS_LINK_STATE</b> structure. Set the 
       <b>Type</b> member of the structure that 
       <b>Header</b> specifies to NDIS_OBJECT_TYPE_DEFAULT, the 
@@ -199,7 +184,7 @@ Miniport drivers use the <a href="https://msdn.microsoft.com/library/windows/har
 
 When it generates this status indication, the driver sets the 
     <b>StatusBuffer</b> member of the 
-    <a href="..\ndis\ns-ndis-_ndis_status_indication.md">NDIS_STATUS_INDICATION</a> structure to a pointer to an <b>NDIS_LINK_STATE</b> structure.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff567373">NDIS_STATUS_INDICATION</a> structure to a pointer to an <b>NDIS_LINK_STATE</b> structure.
 
 The miniport driver also returns an <b>NDIS_LINK_STATE</b> structure when it handles an OID query request of <a href="https://msdn.microsoft.com/library/windows/hardware/ff569595">OID_GEN_LINK_STATE</a>.
 
@@ -208,16 +193,18 @@ The miniport driver also returns an <b>NDIS_LINK_STATE</b> structure when it han
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-media-duplex-state">
- OID_GEN_MEDIA_DUPLEX_STATE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567373">NDIS_STATUS_INDICATION</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567391">NDIS_STATUS_LINK_STATE</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
@@ -234,12 +221,9 @@ The miniport driver also returns an <b>NDIS_LINK_STATE</b> structure when it han
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_status_indication.md">NDIS_STATUS_INDICATION</a>
-
-
-
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-media-duplex-state">
+ OID_GEN_MEDIA_DUPLEX_STATE</a>
  
 
  
-
 

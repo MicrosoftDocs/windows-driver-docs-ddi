@@ -7,7 +7,7 @@ old-location: netvista\protocolcocreatevc.htm
 old-project: netvista
 ms.assetid: b086dd24-74f5-474a-8684-09bf92ac731b
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: PROTOCOL_CO_CREATE_VC, ProtocolCoCreateVc, ProtocolCoCreateVc callback function [Network Drivers Starting with Windows Vista], condis_protocol_ref_f0a7e657-70d5-4cd1-a42a-684cefe1dc60.xml, ndis/ProtocolCoCreateVc, netvista.protocolcocreatevc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ndis.h
 api_name:
 -	ProtocolCoCreateVc
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
 ---
@@ -55,21 +56,6 @@ The
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>PROTOCOL_CO_CREATE_VC</b> type.
    For more information, see the following Examples section.</div><div> </div>
 
-## -prototype
-
-
-````
-PROTOCOL_CO_CREATE_VC ProtocolCoCreateVc;
-
-NDIS_STATUS ProtocolCoCreateVc(
-  _In_  NDIS_HANDLE  ProtocolAfContext,
-  _In_  NDIS_HANDLE  NdisVcHandle,
-  _Out_ PNDIS_HANDLE ProtocolVcContext
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -79,9 +65,9 @@ NDIS_STATUS ProtocolCoCreateVc(
 
 Specifies the handle to a protocol-allocated context area in which the call manager or client
      maintains its per-open state. The call manager supplied this handle from its 
-     <a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a> function. The client
+     <a href="https://msdn.microsoft.com/7422c205-bc41-4121-b430-ff9e6b49dc2e">ProtocolCmOpenAf</a> function. The client
      supplied this handle when it called 
-     <a href="..\ndis\nf-ndis-ndisclopenaddressfamilyex.md">NdisClOpenAddressFamilyEx</a> from
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff561639">NdisClOpenAddressFamilyEx</a> from
      its 
      <i>ProtocolCoAfRegisterNotify</i> function.
 
@@ -165,13 +151,13 @@ Indicates that the call manager or client could not set itself into a state wher
 The 
     <i>ProtocolCoCreateVc</i> function of a call manager or client is called whenever the corresponding client
     or call manager, respectively, calls 
-    <a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a>. Clients initiate the
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561696">NdisCoCreateVc</a>. Clients initiate the
     creation of VCs in the process of setting up their outgoing calls before they call 
-    <a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>. A call manager initiates
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561635">NdisClMakeCall</a>. A call manager initiates
     the creation of a VC in the process of notifying its client that the CM received an incoming call offer
     from a remote node that is directed to a SAP already registered with the CM by that client before the CM
     calls 
-    <a href="..\ndis\nf-ndis-ndiscmdispatchincomingcall.md">
+    <a href="https://msdn.microsoft.com/2172aeec-8502-414e-9d01-9292c0eb7ce8">
     NdisCmDispatchIncomingCall</a>.
 
 <i>ProtocolCoCreateVc</i> performs any necessary allocations of dynamic resources and structures that the
@@ -220,7 +206,7 @@ Calls to
 
 After a call manager's 
     <i>ProtocolCoCreateVc</i> function returns control, the call manager's 
-    <a href="..\ndis\nc-ndis-protocol_cm_make_call.md">ProtocolCmMakeCall</a> function will be
+    <a href="https://msdn.microsoft.com/ede0a18a-cd3b-4fbb-a16b-e7493940d633">ProtocolCmMakeCall</a> function will be
     called to establish a connection to a remote node. Call managers should not take any action in 
     <i>ProtocolCmMakeCall</i> that actually establishes a call because it is possible the VC will be destroyed
     before a call is established due to an error condition in another component of connection-oriented
@@ -228,7 +214,7 @@ After a call manager's
 
 After a client's 
     <i>ProtocolCoCreateVc</i> function returns control, the client's 
-    <a href="..\ndis\nc-ndis-protocol_cl_incoming_call.md">ProtocolClIncomingCall</a> function
+    <a href="https://msdn.microsoft.com/8a5922ac-b22b-444e-9ea0-3bb56e71ef33">ProtocolClIncomingCall</a> function
     will be notified when a remote-initiated request to connect on a SAP previously registered by the client
     comes in over the network.
 
@@ -275,36 +261,35 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndiscmdispatchincomingcall.md">NdisCmDispatchIncomingCall</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_cm_make_call.md">ProtocolCmMakeCall</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561635">NdisClMakeCall</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561639">NdisClOpenAddressFamilyEx</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_co_af_register_notify.md">ProtocolCoAfRegisterNotify</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561664">NdisCmDispatchIncomingCall</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisclopenaddressfamilyex.md">NdisClOpenAddressFamilyEx</a>
+<a href="https://msdn.microsoft.com/8a5922ac-b22b-444e-9ea0-3bb56e71ef33">ProtocolClIncomingCall</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_cl_incoming_call.md">ProtocolClIncomingCall</a>
+<a href="https://msdn.microsoft.com/ede0a18a-cd3b-4fbb-a16b-e7493940d633">ProtocolCmMakeCall</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
+<a href="https://msdn.microsoft.com/7422c205-bc41-4121-b430-ff9e6b49dc2e">ProtocolCmOpenAf</a>
 
 
 
+<a href="https://msdn.microsoft.com/272d99da-ef08-4ebd-90e7-74e99410b3f5">ProtocolCoAfRegisterNotify</a>
  
 
  
-
 

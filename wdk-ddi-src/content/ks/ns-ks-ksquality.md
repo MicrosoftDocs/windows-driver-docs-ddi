@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSQUALITY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSQUALITY, *PKSQUALITY
 ---
@@ -50,18 +51,6 @@ req.typenames: KSQUALITY, *PKSQUALITY
 
 
 The KSQUALITY structure is used to report QM problems in both kernel and user mode to their respective quality managers.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  PVOID    Context;
-  ULONG    Proportion;
-  LONGLONG DeltaTime;
-} KSQUALITY, *PKSQUALITY;
-````
 
 
 ## -struct-fields

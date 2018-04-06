@@ -7,7 +7,7 @@ old-location: netvista\ndisfillmemory.htm
 old-project: netvista
 ms.assetid: 6d974c56-5925-4ad5-a3c0-0c17e8488431
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NdisFillMemory, NdisFillMemory macro [Network Drivers Starting with Windows Vista], ndis/NdisFillMemory, ndis_memory_ref_c1411624-0e7b-40e2-9812-4426b2a9f2bc.xml, netvista.ndisfillmemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ndis.h
 api_name:
 -	NdisFillMemory
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
@@ -51,18 +52,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 
 The 
   <b>NdisFillMemory</b> function fills a caller-supplied buffer with the given character.
-
-
-## -syntax
-
-
-````
-VOID NdisFillMemory(
-  [in] PVOID Destination,
-  [in] ULONG Length,
-  [in] UCHAR Fill
-);
-````
 
 
 ## -parameters
@@ -99,16 +88,15 @@ Callers of
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlequalmemory.md">RtlEqualMemory</a>
 
 
 
-<a href="..\wdm\nf-wdm-rtlzeromemory.md">RtlZeroMemory</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561846">RtlEqualMemory</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563610">RtlZeroMemory</a>
  
 
  
-
 

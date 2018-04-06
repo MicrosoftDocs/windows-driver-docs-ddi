@@ -38,7 +38,8 @@ api_location:
 -	Ks.h
 api_name:
 -	KSCOMPLETION_INVOCATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSCOMPLETION_INVOCATION
 ---
@@ -50,18 +51,6 @@ req.typenames: KSCOMPLETION_INVOCATION
 
 
 
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  KsInvokeOnSuccess  = 1,
-  KsInvokeOnError    = 2,
-  KsInvokeOnCancel   = 4
-} KSCOMPLETION_INVOCATION;
-````
 
 
 ## -enum-fields

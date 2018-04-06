@@ -7,7 +7,7 @@ old-location: display\d3dddiarg_generatemipsublevels.htm
 old-project: display
 ms.assetid: 19c08206-cde8-4ec2-bbd1-92eadeecdb90
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDIARG_GENERATEMIPSUBLEVELS, D3DDDIARG_GENERATEMIPSUBLEVELS structure [Display Devices], UMDisplayDriver_param_Structs_4000d18b-18c0-4499-bfbe-a3f5e866553b.xml, _D3DDDIARG_GENERATEMIPSUBLEVELS, d3dumddi/D3DDDIARG_GENERATEMIPSUBLEVELS, display.d3dddiarg_generatemipsublevels
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	D3DDDIARG_GENERATEMIPSUBLEVELS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDIARG_GENERATEMIPSUBLEVELS
 ---
@@ -50,17 +51,6 @@ req.typenames: D3DDDIARG_GENERATEMIPSUBLEVELS
 
 
 The D3DDDIARG_GENERATEMIPSUBLEVELS structure describes how to generate the sublevels of a MIP-map texture. 
-
-
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_GENERATEMIPSUBLEVELS {
-  HANDLE                  hResource;
-  D3DDDITEXTUREFILTERTYPE Filter;
-} D3DDDIARG_GENERATEMIPSUBLEVELS;
-````
 
 
 ## -struct-fields
@@ -148,12 +138,11 @@ Four-sample Gaussian filtering.
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_generatemipsublevels.md">GenerateMipSubLevels</a>
 
 
 
+<a href="https://msdn.microsoft.com/86567fc1-cf66-4709-a6e1-6b24408df963">GenerateMipSubLevels</a>
  
 
  
-
 

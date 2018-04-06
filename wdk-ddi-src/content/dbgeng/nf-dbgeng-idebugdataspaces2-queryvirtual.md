@@ -7,7 +7,7 @@ old-location: debugger\queryvirtual.htm
 old-project: debugger
 ms.assetid: 2d607433-0d2d-4662-acd6-9adbce290b97
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: IDebugDataSpaces2, IDebugDataSpaces2 interface [Windows Debugging], QueryVirtual method, IDebugDataSpaces2::QueryVirtual, IDebugDataSpaces_45524d69-d9be-4eb0-971c-3ae6bb6089b2.xml, QueryVirtual method [Windows Debugging], QueryVirtual method [Windows Debugging], IDebugDataSpaces2 interface, QueryVirtual,IDebugDataSpaces2.QueryVirtual, dbgeng/IDebugDataSpaces2::QueryVirtual, debugger.queryvirtual
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugDataSpaces2.QueryVirtual
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -50,17 +51,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>QueryVirtual</b> method provides information about the specified pages in the target's virtual address space.
-
-
-## -syntax
-
-
-````
-HRESULT QueryVirtual(
-  [in]  ULONG64                     Offset,
-  [out] PMEMORY_BASIC_INFORMATION64 Info
-);
-````
 
 
 ## -parameters

@@ -38,7 +38,8 @@ api_location:
 -	Sti.h
 api_name:
 -	IStiDevice.DeviceReset
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STI_DEVICE_MJ_TYPE, STI_DEVICE_MJ_TYPE
 req.product: Windows 10 or later.
@@ -51,14 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>IStiDevice::DeviceReset</b> method resets a still image device to a known state.
-
-
-## -syntax
-
-
-````
-HRESULT DeviceReset();
-````
 
 
 ## -parameters

@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSRATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSRATE, *PKSRATE
 ---
@@ -49,21 +50,7 @@ req.typenames: KSRATE, *PKSRATE
 ## -description
 
 
-The query is passed a KSRATE structure appended to the property containing the rate request (known as a <a href="..\ks\ns-ks-ksrate_capability.md">KSRATE_CAPABILITY</a> structure), and is returned a KSRATE structure filled in with the capability given the rate request.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  LONGLONG        PresentationStart;
-  LONGLONG        Duration;
-  KSPIN_INTERFACE Interface;
-  LONG            Rate;
-  ULONG           Flags;
-} KSRATE, *PKSRATE;
-````
+The query is passed a KSRATE structure appended to the property containing the rate request (known as a <a href="https://msdn.microsoft.com/library/windows/hardware/ff566754">KSRATE_CAPABILITY</a> structure), and is returned a KSRATE structure filled in with the capability given the rate request.
 
 
 ## -struct-fields
@@ -126,12 +113,11 @@ Specifies that there is no valid duration in this rate change request or query.
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksrate_capability.md">KSRATE_CAPABILITY</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566754">KSRATE_CAPABILITY</a>
  
 
  
-
 

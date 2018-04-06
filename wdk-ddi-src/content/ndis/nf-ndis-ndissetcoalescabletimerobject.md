@@ -7,7 +7,7 @@ old-location: netvista\ndissetcoalescabletimerobject.htm
 old-project: netvista
 ms.assetid: f6f50bba-cda5-41ed-9e0b-1aea5113a22b
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NdisSetCoalescableTimerObject, NdisSetCoalescableTimerObject function [Network Drivers Starting with Windows Vista], ndis/NdisSetCoalescableTimerObject, ndis_timer_ref_1f787022-10cd-4ae1-97d9-f40bae70a844.xml, netvista.ndissetcoalescabletimerobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	ndis.dll
 api_name:
 -	NdisSetCoalescableTimerObject
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
@@ -56,20 +57,6 @@ The
   important to driver operation.
 
 
-## -syntax
-
-
-````
-BOOLEAN NdisSetCoalescableTimerObject(
-  _In_     NDIS_HANDLE   TimerObject,
-  _In_     LARGE_INTEGER DueTime,
-  _In_opt_ LONG          MillisecondsPeriod,
-  _In_opt_ PVOID         FunctionContext,
-  _In_opt_ ULONG         Tolerance
-);
-````
-
-
 ## -parameters
 
 
@@ -78,7 +65,7 @@ BOOLEAN NdisSetCoalescableTimerObject(
 ### -param TimerObject [in]
 
 A handle to a timer object that NDIS provides when a driver calls the 
-     <a href="..\ndis\nf-ndis-ndisallocatetimerobject.md">
+     <a href="https://msdn.microsoft.com/feb5e4cf-7e23-434e-9dc5-bb445a6f5606">
      NdisAllocateTimerObject</a> function.
 
 
@@ -105,7 +92,7 @@ The optional periodic time interval, in milliseconds, that elapses between every
 A pointer to a caller-supplied context area that NDIS passes to the associated 
      <i>NetTimerCallback</i> function when a timer fires. If this parameter is <b>NULL</b>, NDIS uses the default
      value that is specified in the 
-     <a href="..\ndis\ns-ndis-_ndis_timer_characteristics.md">
+     <a href="https://msdn.microsoft.com/9a62e94c-f635-4ab7-b439-b98c60ba2854">
      NDIS_TIMER_CHARACTERISTICS</a> structure.
 
 
@@ -140,7 +127,7 @@ The tolerance, in milliseconds, between the timer period specified by
 
 
 A timer object set by this function operates the same as a timer set by 
-    <a href="..\ndis\nf-ndis-ndissettimerobject.md">NdisSetTimerObject</a>, with an additional
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff564563">NdisSetTimerObject</a>, with an additional
     tolerance value added to the expiration parameter 
     <i>DueTime</i> . The operating system uses this additional tolerance value to adjust the expiration time
     of the timer to coincide with the expiration of other software timers. By doing this, the operating
@@ -158,7 +145,7 @@ After a driver calls
     <i>DueTime</i> + 
     <i>Tolerance</i> ). After the interval expires, the operating system removes the timer object from the
     queue, and the caller-supplied 
-    <a href="..\ndis\nc-ndis-ndis_timer_function.md">NetTimerCallback</a> function is run one
+    <a href="https://msdn.microsoft.com/76e59376-58a4-4e35-bac4-ec5938c88cd7">NetTimerCallback</a> function is run one
     time at IRQL = DISPATCH_LEVEL as soon as a processor becomes available.
 
 If a nonzero value is specified in the 
@@ -191,42 +178,41 @@ Typically, a timer with a large
     <i>Tolerance</i> = 1 second.
 
 For more information about timer behavior, see 
-    <a href="..\wdm\nf-wdm-kesettimerex.md">KeSetTimerEx</a>.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff553292">KeSetTimerEx</a>.
 
 To cancel a timer, call the 
-    <a href="..\ndis\nf-ndis-ndiscanceltimerobject.md">NdisCancelTimerObject</a> function.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561624">NdisCancelTimerObject</a> function.
 
 
 
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndissettimerobject.md">NdisSetTimerObject</a>
 
 
 
-<a href="..\ndis\nc-ndis-ndis_timer_function.md">NetTimerCallback</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553292">KeSetTimerEx</a>
 
 
 
-<a href="..\wdm\nf-wdm-kesettimerex.md">KeSetTimerEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567886">NDIS_TIMER_CHARACTERISTICS</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiscanceltimerobject.md">NdisCancelTimerObject</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561618">NdisAllocateTimerObject</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisallocatetimerobject.md">NdisAllocateTimerObject</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561624">NdisCancelTimerObject</a>
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_timer_characteristics.md">NDIS_TIMER_CHARACTERISTICS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564563">NdisSetTimerObject</a>
 
 
 
+<a href="https://msdn.microsoft.com/76e59376-58a4-4e35-bac4-ec5938c88cd7">NetTimerCallback</a>
  
 
  
-
 

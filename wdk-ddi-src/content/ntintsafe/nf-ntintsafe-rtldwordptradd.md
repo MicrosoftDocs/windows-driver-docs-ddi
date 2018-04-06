@@ -7,7 +7,7 @@ old-location: kernel\rtldwordptradd.htm
 old-project: kernel
 ms.assetid: 8364FC5F-1FF4-415F-B83C-4A866C860522
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: RtlDWordPtrAdd, RtlDWordPtrAdd function [Kernel-Mode Driver Architecture], kernel.rtldwordptradd, ntintsafe/RtlDWordPtrAdd
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ntintsafe.h
 api_name:
 -	RtlDWordPtrAdd
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 ---
@@ -50,18 +51,6 @@ req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 
 
 Adds two values of type <b>DWORD_PTR</b>.
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlDWordPtrAdd(
-  _In_  DWORD_PTR dwAugend,
-  _In_  DWORD_PTR dwAddend,
-  _Out_ DWORD_PTR *pdwResult
-);
-````
 
 
 ## -parameters

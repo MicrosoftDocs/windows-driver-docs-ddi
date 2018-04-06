@@ -38,7 +38,8 @@ api_location:
 -	rilapitypes.h
 api_name:
 -	RILPOSITIONINFOTDSCDMAPARAMMASK
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILPOSITIONINFOTDSCDMAPARAMMASK
 req.product: Windows 10 or later.

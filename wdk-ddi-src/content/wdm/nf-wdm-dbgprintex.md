@@ -39,7 +39,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	DbgPrintEx
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
@@ -52,19 +53,6 @@ req.product: Windows 10 or later.
 
 
 The <b>DbgPrintEx</b> routine sends a string to the kernel debugger if the  conditions you specify are met.
-
-
-## -syntax
-
-
-````
-ULONG __cdecl DbgPrintEx(
-  _In_ ULONG ComponentId,
-  _In_ ULONG Level,
-  _In_ PCSTR Format,
-       ...   arguments
-);
-````
 
 
 ## -parameters
@@ -153,24 +141,23 @@ There is no upper limit to the size of the <i>Format</i> string or the number of
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-dbgprint.md">DbgPrint</a>
 
 
 
-<a href="..\wdm\nf-wdm-kdprint.md">KdPrint</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543632">DbgPrint</a>
 
 
 
-<a href="..\wdm\nf-wdm-vdbgprintex.md">vDbgPrintEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548092">KdPrint</a>
 
 
 
-<a href="..\wdm\nf-wdm-kdprintex.md">KdPrintEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548100">KdPrintEx</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556075">vDbgPrintEx</a>
  
 
  
-
 

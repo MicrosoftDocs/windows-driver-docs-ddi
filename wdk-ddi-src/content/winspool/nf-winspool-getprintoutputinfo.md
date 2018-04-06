@@ -38,7 +38,8 @@ api_location:
 -	Winspool.h
 api_name:
 -	GetPrintOutputInfo
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BIDI_TYPE
 req.product: Windows 10 or later.
@@ -51,19 +52,6 @@ req.product: Windows 10 or later.
 
 
 
-
-
-## -syntax
-
-
-````
-HRESULT WINAPI GetPrintOutputInfo(
-  _In_  HWND    hWnd,
-  _In_  PCWSTR  pszPrinter,
-  _Out_ HANDLE  *phFile,
-  _Out_ PWSTR   *ppszOutputFile
-);
-````
 
 
 ## -parameters

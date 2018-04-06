@@ -24,7 +24,7 @@ req.unicode-ansi:
 req.max-support:
 req.alt-api:
 req.alt-loc:
-req.typenames: *PNET_ADAPTER_CONFIG, NET_ADAPTER_CONFIG
+req.typenames: NET_ADAPTER_CONFIG, *PNET_ADAPTER_CONFIG
 topictype: 
 -	apiref
 apitype: 
@@ -74,10 +74,6 @@ Optional WDF object attributes associated with the NETPOWERSETTINGS object, or N
 
 ## -remarks
 Call [NET_ADAPTER_CONFIG_INIT](nf-netadapter-net_adapter_config_init.md) to initialize this structure.
-
-In NetAdapterCx version 1.1, the **Type** member from version 1.0 was removed.
-
-In NetAdapterCx version 1.2, the **EvtAdapterCreateRssQueueGroup** member was added.
 
 The minimum NetAdapterCx version for **NET_ADAPTER_CONFIG** is 1.2.
 

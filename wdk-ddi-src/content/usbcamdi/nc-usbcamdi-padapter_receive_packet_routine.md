@@ -38,7 +38,8 @@ api_location:
 -	usbcamdi.h
 api_name:
 -	AdapterReceivePacket
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USB_BUS_INTERFACE_USBDI_V3, *PUSB_BUS_INTERFACE_USBDI_V3
 req.product: Windows 10 or later.
@@ -51,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 A camera minidriver's <i>AdapterReceivePacket</i> callback function processes adapter-based stream request blocks (SRBs) passed to it by the stream class driver.
-
-
-## -prototype
-
-
-````
-VOID AdapterReceivePacket(
-  _In_ PHW_STREAM_REQUEST_BLOCK Srb
-);
-````
 
 
 ## -parameters
@@ -93,12 +84,11 @@ A camera's minidriver provides USBCAMD with the address of its <i>AdapterReceive
 
 ## -see-also
 
-<a href="..\usbcamdi\nf-usbcamdi-usbcamd_driverentry.md">USBCAMD_DriverEntry</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568593">USBCAMD_DriverEntry</a>
  
 
  
-
 

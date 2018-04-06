@@ -38,7 +38,8 @@ api_location:
 -	pointofservicedriverinterface.h
 api_name:
 -	IOCTL_POINT_OF_SERVICE_MSR_RETRIEVE_DEVICE_AUTHENTICATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PosPropertyId
 ---
@@ -69,7 +70,7 @@ Not used with this operation; set to <b>0</b> (zero).
 
 ### -output-buffer
 
-Pointer to a buffer that receives a <a href="..\pointofservicedriverinterface\ns-pointofservicedriverinterface-_msr_retrieve_device_authentication_data.md">MSR_RETRIEVE_DEVICE_AUTHENTICATION_DATA</a>.
+Pointer to a buffer that receives a <a href="https://msdn.microsoft.com/library/windows/hardware/dn772186">MSR_RETRIEVE_DEVICE_AUTHENTICATION_DATA</a>.
 
 
 ### -output-buffer-length

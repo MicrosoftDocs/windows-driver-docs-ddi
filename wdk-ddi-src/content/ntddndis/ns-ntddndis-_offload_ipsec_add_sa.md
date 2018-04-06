@@ -7,7 +7,7 @@ old-location: netvista\offload_ipsec_add_sa.htm
 old-project: netvista
 ms.assetid: 592d338c-8ab0-4163-bcfa-75c941b83c3d
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*POFFLOAD_IPSEC_ADD_SA, 216offload_12f95ec9-ed81-43cc-b90d-fe06600ec349.xml, OFFLOAD_IPSEC_ADD_SA, OFFLOAD_IPSEC_ADD_SA structure [Network Drivers Starting with Windows Vista], POFFLOAD_IPSEC_ADD_SA, POFFLOAD_IPSEC_ADD_SA structure pointer [Network Drivers Starting with Windows Vista], _OFFLOAD_IPSEC_ADD_SA, netvista.offload_ipsec_add_sa, ntddndis/OFFLOAD_IPSEC_ADD_SA, ntddndis/POFFLOAD_IPSEC_ADD_SA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddndis.h
 api_name:
 -	OFFLOAD_IPSEC_ADD_SA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OFFLOAD_IPSEC_ADD_SA, *POFFLOAD_IPSEC_ADD_SA
 ---
@@ -51,30 +52,6 @@ req.typenames: OFFLOAD_IPSEC_ADD_SA, *POFFLOAD_IPSEC_ADD_SA
 
 The OFFLOAD_IPSEC_ADD_SA structure contains information for each security association (SA) that a
   miniport driver adds to a NIC.
-
-
-## -syntax
-
-
-````
-typedef struct _OFFLOAD_IPSEC_ADD_SA {
-  IPAddr                       SrcAddr;
-  IPMask                       SrcMask;
-  IPAddr                       DestAddr;
-  IPMask                       DestMask;
-  ULONG                        Protocol;
-  USHORT                       SrcPort;
-  USHORT                       DestPort;
-  IPAddr                       SrcTunnelAddr;
-  IPAddr                       DestTunnelAddr;
-  USHORT                       Flags;
-  SHORT                        NumSAs;
-  OFFLOAD_SECURITY_ASSOCIATION SecAssoc[OFFLOAD_MAX_SAS];
-  HANDLE                       OffloadHandle;
-  ULONG                        KeyLen;
-  UCHAR                        KeyMat[1];
-} OFFLOAD_IPSEC_ADD_SA, *POFFLOAD_IPSEC_ADD_SA;
-````
 
 
 ## -struct-fields
@@ -165,7 +142,7 @@ Specifies an outbound SA.
 
 The number of elements in the 
      <b>SecAssoc</b> array. Each element in the array is an 
-     <a href="..\ntddndis\ns-ntddndis-_offload_security_association.md">
+     <a href="https://msdn.microsoft.com/2c392a13-4db4-4b22-aacf-4450eb1e191c">
      OFFLOAD_SECURITY_ASSOCIATION</a> structure.
 
 
@@ -210,7 +187,7 @@ A variable-length array that contains keys for the SAs specified at
      (authentication) algorithm are specified by the 
      <b>ConfAlgo</b> and 
      <b>IntegrityAlgo</b> members of an 
-     <a href="..\ntddndis\ns-ntddndis-_offload_security_association.md">
+     <a href="https://msdn.microsoft.com/2c392a13-4db4-4b22-aacf-4450eb1e191c">
      OFFLOAD_SECURITY_ASSOCIATION</a> structure, the buffer at 
      <b>KeyMat</b> contains key information for the confirmation algorithm first, followed immediately by key
      information for the integrity algorithm.
@@ -219,7 +196,7 @@ A variable-length array that contains keys for the SAs specified at
 The length of each key in the buffer at 
      <b>KeyMat</b> is specified by 
      <b>algoKeylen</b> in the 
-     <a href="..\ntddndis\ns-ntddndis-_offload_algo_info.md">OFFLOAD_ALGO_INFO</a> structure that
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568842">OFFLOAD_ALGO_INFO</a> structure that
      specifies the confidentiality or integrity algorithm. (An OFFLOAD_ALGO_INFO structure is a member of an
      OFFLOAD_SECURITY_ASSOCIATION structure.)
 
@@ -236,19 +213,18 @@ The OFFLOAD_IPSEC_ADD_SA structure is used in the
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557028">NDIS_IPSEC_PACKET_INFO</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_offload_security_association.md">OFFLOAD_SECURITY_ASSOCIATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568842">OFFLOAD_ALGO_INFO</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_offload_algo_info.md">OFFLOAD_ALGO_INFO</a>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/gg155485.aspx">OID_TCP_TASK_IPSEC_DELETE_SA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569061">OFFLOAD_SECURITY_ASSOCIATION</a>
 
 
 
@@ -256,8 +232,8 @@ The OFFLOAD_IPSEC_ADD_SA structure is used in the
 
 
 
+<a href="https://msdn.microsoft.com/en-us/library/gg155485.aspx">OID_TCP_TASK_IPSEC_DELETE_SA</a>
  
 
  
-
 

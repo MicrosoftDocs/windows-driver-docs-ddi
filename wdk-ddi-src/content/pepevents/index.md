@@ -2,7 +2,7 @@
 UID: NA:pepevents
 ms.assetid: b704bc36-d339-3df2-861b-e176c09e32c4
 ms.author: windowsdriverdev
-ms.date: 03/13/18
+ms.date: 04/05/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -13,7 +13,6 @@ ms.topic: portal
 
 
 
-This header is used by unknown technology.
+This header is used by kernel. For more information, see:
 
-Pepevents.h contain these programming interfaces:
-
+- [Windows kernel](../_kernel/index.md)

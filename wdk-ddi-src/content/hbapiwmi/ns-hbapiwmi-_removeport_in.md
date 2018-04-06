@@ -7,7 +7,7 @@ old-location: storage\removeport_in.htm
 old-project: storage
 ms.assetid: 2f32e44a-e4a6-4745-9749-fc611119cc0e
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PRemovePort_IN, PRemovePort_IN, PRemovePort_IN structure pointer [Storage Devices], RemovePort_IN, RemovePort_IN structure [Storage Devices], _RemovePort_IN, hbapiwmi/PRemovePort_IN, hbapiwmi/RemovePort_IN, storage.removeport_in, structs-Fibre_f60e236f-5ed1-4cc2-b685-6ee40895736e.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	hbapiwmi.h
 api_name:
 -	RemovePort_IN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RemovePort_IN, *PRemovePort_IN
 ---
@@ -50,16 +51,6 @@ req.typenames: RemovePort_IN, *PRemovePort_IN
 
 
 The Remove_IN structure is used by a WMI client to deliver input parameter data to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564011">RemovePort</a> WMI method.
-
-
-## -syntax
-
-
-````
-typedef struct _RemovePort_IN {
-  UCHAR PortWWN[8];
-} RemovePort_IN, *PRemovePort_IN;
-````
 
 
 ## -struct-fields
@@ -83,12 +74,11 @@ The WMI tool suite generates a declaration of the RemovePort_IN structure in <i>
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564011">RemovePort</a>
-
-
-
  
 
  
-
 

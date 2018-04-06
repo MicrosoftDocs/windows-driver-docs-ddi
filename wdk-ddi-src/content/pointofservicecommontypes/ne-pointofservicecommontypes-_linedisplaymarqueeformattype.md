@@ -38,7 +38,8 @@ api_location:
 -	pointofservicecommontypes.h
 api_name:
 -	LineDisplayMarqueeFormatType
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: LineDisplayMarqueeFormatType
 ---
@@ -50,16 +51,6 @@ req.typenames: LineDisplayMarqueeFormatType
 
 
 This enumeration is not implemented.
-
-
-## -syntax
-
-
-````
-typedef enum _LineDisplayMarqueeFormatType { 
-    = 
-} LineDisplayMarqueeFormatType, *PLineDisplayMarqueeFormatType;
-````
 
 
 ## -enum-fields

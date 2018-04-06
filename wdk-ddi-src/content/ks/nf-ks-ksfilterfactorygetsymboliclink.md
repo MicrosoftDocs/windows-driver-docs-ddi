@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsFilterFactoryGetSymbolicLink
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -53,16 +54,6 @@ req.typenames:
 The<b> KsFilterFactoryGetSymbolicLink</b> function returns the symbolic link associated with a given filter factory.
 
 
-## -syntax
-
-
-````
-PUNICODE_STRING KsFilterFactoryGetSymbolicLink(
-  _In_ PKSFILTERFACTORY FilterFactory
-);
-````
-
-
 ## -parameters
 
 
@@ -70,7 +61,7 @@ PUNICODE_STRING KsFilterFactoryGetSymbolicLink(
 
 ### -param FilterFactory [in]
 
-A pointer to a <a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a> structure for which to acquire the symbolic link.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff562530">KSFILTERFACTORY</a> structure for which to acquire the symbolic link.
 
 
 ## -returns

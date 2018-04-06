@@ -7,7 +7,7 @@ old-location: audio\iprefetchoffset_setprefetchoffset.htm
 old-project: audio
 ms.assetid: fef8e8b8-7e79-4d88-b643-9b371e4297fd
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/19/2018
 ms.keywords: IPreFetchOffset, IPreFetchOffset interface [Audio Devices], SetPreFetchOffset method, IPreFetchOffset::SetPreFetchOffset, SetPreFetchOffset method [Audio Devices], SetPreFetchOffset method [Audio Devices], IPreFetchOffset interface, SetPreFetchOffset,IPreFetchOffset.SetPreFetchOffset, audio.iprefetchoffset_setprefetchoffset, audmp-routines_7fb7bb20-d9e0-4022-9de4-1c5952bfccf8.xml, portcls/IPreFetchOffset::SetPreFetchOffset
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	portcls.h
 api_name:
 -	IPreFetchOffset.SetPreFetchOffset
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
@@ -50,16 +51,6 @@ req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 
 
 The <code>SetPreFetchOffset</code> method sets the prefetch offset, which is the number of bytes of data separating the write cursor from the play cursor in a DirectSound output stream.
-
-
-## -syntax
-
-
-````
-VOID SetPreFetchOffset(
-  [in] ULONG PreFetchOffset
-);
-````
 
 
 ## -parameters
@@ -99,7 +90,7 @@ The play cursor specifies the buffer position of the sound sample that is curren
 
 </li>
 </ul>
-For more information about write cursors and play cursors, see <a href="..\ksmedia\ns-ksmedia-ksaudio_position.md">KSAUDIO_POSITION</a>.
+For more information about write cursors and play cursors, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff537091">KSAUDIO_POSITION</a>.
 
 For information about using <code>SetPreFetchOffset</code> to control a DirectSound stream's prefetch offset, see <a href="https://msdn.microsoft.com/92a0163f-29b1-4e15-88ab-67e1097d015e">Prefetch Offsets</a>.
 
@@ -108,11 +99,6 @@ For information about using <code>SetPreFetchOffset</code> to control a DirectSo
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iprefetchoffset.md">IPreFetchOffset</a>
-
-
-
-<a href="..\ksmedia\ns-ksmedia-ksaudio_position.md">KSAUDIO_POSITION</a>
 
 
 
@@ -124,12 +110,16 @@ For information about using <code>SetPreFetchOffset</code> to control a DirectSo
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536951">IPreFetchOffset</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537091">KSAUDIO_POSITION</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537297">KSPROPERTY_AUDIO_POSITION</a>
-
-
-
  
 
  
-
 

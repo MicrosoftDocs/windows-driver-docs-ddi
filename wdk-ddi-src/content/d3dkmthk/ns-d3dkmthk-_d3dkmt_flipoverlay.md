@@ -7,7 +7,7 @@ old-location: display\d3dkmt_flipoverlay.htm
 old-project: display
 ms.assetid: 7e224009-dccb-41e5-99e8-01f1479aa79f
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMT_FLIPOVERLAY, D3DKMT_FLIPOVERLAY structure [Display Devices], OpenGL_Structs_a7694ad8-b12e-41ad-b7e3-159d26fe2f41.xml, _D3DKMT_FLIPOVERLAY, d3dkmthk/D3DKMT_FLIPOVERLAY, display.d3dkmt_flipoverlay
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmthk.h
 api_name:
 -	D3DKMT_FLIPOVERLAY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_FLIPOVERLAY
 ---
@@ -50,20 +51,6 @@ req.typenames: D3DKMT_FLIPOVERLAY
 
 
 The D3DKMT_FLIPOVERLAY structure describes a new allocation to display for the overlay. 
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_FLIPOVERLAY {
-  D3DKMT_HANDLE hDevice;
-  D3DKMT_HANDLE hOverlay;
-  D3DKMT_HANDLE hSource;
-  VOID          *pPrivateDriverData;
-  UINT          PrivateDriverDataSize;
-} D3DKMT_FLIPOVERLAY;
-````
 
 
 ## -struct-fields
@@ -98,12 +85,11 @@ typedef struct _D3DKMT_FLIPOVERLAY {
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtflipoverlay.md">D3DKMTFlipOverlay</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546949">D3DKMTFlipOverlay</a>
  
 
  
-
 

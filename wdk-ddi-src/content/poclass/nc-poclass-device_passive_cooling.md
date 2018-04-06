@@ -7,7 +7,7 @@ old-location: kernel\passivecooling.htm
 old-project: kernel
 ms.assetid: 17ADC83B-53C8-43BD-9FFB-1197501FE275
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: DEVICE_PASSIVE_COOLING, PassiveCooling, PassiveCooling routine [Kernel-Mode Driver Architecture], kernel.passivecooling, poclass/PassiveCooling
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Poclass.h
 api_name:
 -	PassiveCooling
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PMI_THRESHOLD_CONFIGURATION, *PPMI_THRESHOLD_CONFIGURATION
 ---
@@ -52,20 +53,6 @@ req.typenames: PMI_THRESHOLD_CONFIGURATION, *PPMI_THRESHOLD_CONFIGURATION
 The <i>PassiveCooling</i> callback routine controls the degree to which the device must throttle its performance to meet cooling requirements.
 
 
-## -prototype
-
-
-````
-DEVICE_PASSIVE_COOLING PassiveCooling;
-
-void PassiveCooling(
-  _Inout_opt_ PVOID Context,
-  _In_        ULONG Percentage
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -73,7 +60,7 @@ void PassiveCooling(
 
 ### -param Context [in, out, optional]
 
-A pointer to interface-specific context information. The caller sets this parameter to the value of the <b>Context</b> member of the <a href="..\poclass\ns-poclass-_thermal_cooling_interface.md">THERMAL_COOLING_INTERFACE</a> structure that the driver previously supplied to the caller.
+A pointer to interface-specific context information. The caller sets this parameter to the value of the <b>Context</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh698275">THERMAL_COOLING_INTERFACE</a> structure that the driver previously supplied to the caller.
 
 
 ### -param Percentage [in]
@@ -115,12 +102,11 @@ For more information about passive cooling, see <a href="https://msdn.microsoft.
 
 ## -see-also
 
-<a href="..\poclass\ns-poclass-_thermal_cooling_interface.md">THERMAL_COOLING_INTERFACE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh698275">THERMAL_COOLING_INTERFACE</a>
  
 
  
-
 

@@ -1,4 +1,4 @@
-# [buses](../_buses/index.md)
+# [Universal Serial Bus (USB)](../_usbref/index.md)
 ## [Udecxusbdevice.h](index.md)
 ### [EVT_UDECX_USB_DEVICE_D0_ENTRY callback](../udecxusbdevice/nc-udecxusbdevice-evt_udecx_usb_device_d0_entry.md)
 ### [EVT_UDECX_USB_DEVICE_D0_EXIT callback](../udecxusbdevice/nc-udecxusbdevice-evt_udecx_usb_device_d0_exit.md)

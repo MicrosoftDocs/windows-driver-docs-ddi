@@ -38,7 +38,8 @@ api_location:
 -	winddiui.h
 api_name:
 -	DrvDeviceCapabilities
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WINBIO_VERSION, *PWINBIO_VERSION
 req.product: Windows 10 or later.
@@ -51,20 +52,6 @@ req.product: Windows 10 or later.
 
 
 A printer interface DLL's <b>DrvDeviceCapabilities</b> function returns requested information about a printer's capabilities.
-
-
-## -syntax
-
-
-````
-DWORD DrvDeviceCapabilities(
-        HANDLE   hPrinter,
-  _In_  PWSTR    pDeviceName,
-        WORD     iDevCap,
-  _Out_ PVOID    pvOutput,
-  _In_  PDEVMODE pDevMode
-);
-````
 
 
 ## -parameters

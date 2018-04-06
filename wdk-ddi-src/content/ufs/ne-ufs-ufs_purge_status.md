@@ -7,7 +7,7 @@ old-location: storage\ufs_purge_status.htm
 old-project: storage
 ms.assetid: 9BC978A9-FA5E-4A1E-9775-1DC9C270F5DC
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: UFS_PURGE_STATUS, UFS_PURGE_STATUS enumeration [Storage Devices], UFS_PurgeStatusFailure, UFS_PurgeStatusIdle, UFS_PurgeStatusInProgress, UFS_PurgeStatusInterrupted, UFS_PurgeStatusQueueNotEmpty, UFS_PurgeStatusSuccess, storage.ufs_purge_status, ufs/UFS_PURGE_STATUS, ufs/UFS_PurgeStatusFailure, ufs/UFS_PurgeStatusIdle, ufs/UFS_PurgeStatusInProgress, ufs/UFS_PurgeStatusInterrupted, ufs/UFS_PurgeStatusQueueNotEmpty, ufs/UFS_PurgeStatusSuccess
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ufs.h
 api_name:
 -	UFS_PURGE_STATUS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UFS_PURGE_STATUS
 req.product: Windows 10 or later.
@@ -51,21 +52,6 @@ req.product: Windows 10 or later.
 
 
 Specifies the current status of a purge operation.
-
-
-## -syntax
-
-
-````
-typedef enum _UFS_PURGE_STATUS { 
-  UFS_PurgeStatusIdle           = 0,
-  UFS_PurgeStatusInProgress     = 1,
-  UFS_PurgeStatusInterrupted    = 2,
-  UFS_PurgeStatusSuccess        = 3,
-  UFS_PurgeStatusQueueNotEmpty  = 4,
-  UFS_PurgeStatusFailure        = 5
-} UFS_PURGE_STATUS;
-````
 
 
 ## -enum-fields
@@ -118,12 +104,11 @@ that it is read.
 
 ## -see-also
 
-<a href="..\ufs\ne-ufs-ufs_attributes_descriptor.md">UFS_ATTRIBUTES_DESCRIPTOR</a>
 
 
 
+<a href="https://msdn.microsoft.com/695D8FE9-FADB-488F-A5F7-7715EAD48DD6">UFS_ATTRIBUTES_DESCRIPTOR</a>
  
 
  
-
 

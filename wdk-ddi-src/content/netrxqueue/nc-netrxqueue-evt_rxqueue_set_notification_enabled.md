@@ -73,10 +73,10 @@ typedef EVT_RXQUEUE_SET_NOTIFICATION_ENABLED *PFN_RXQUEUE_SET_NOTIFICATION_ENABL
 
 ## -parameters
 
-### -param RxQueue: 
+### -param RxQueue 
 A handle to a net receive queue.
 
-### -param NotificationEnabled: 
+### -param NotificationEnabled 
 A value of TRUE requests that the client enable receive queue notification. A value of FALSE requests that the client disable receive queue notification.
 
 ## -returns
@@ -89,8 +89,6 @@ Register this callback function in by setting the appropriate member of [NET_RX_
 NetAdapterCx serializes this callback function along with the receive queue's *[EVT_RXQUEUE_ADVANCE](nc-netrxqueue-evt_rxqueue_advance.md)* and *[EVT_RXQUEUE_CANCEL](nc-netrxqueue-evt_rxqueue_cancel.md)* callback functions.
 
 For more info, see [Transferring Network Data](https://docs.microsoft.com/windows-hardware/drivers/netcx/transferring-network-data).
-
-In NetAdapterCx 1.1, the return type of this callback function was changed from **NTSTATUS** to **VOID**.
 
 The minimum NetAdapterCx version for *EVT_RXQUEUE_SET_NOTIFICATION_ENABLED* is 1.1.
 

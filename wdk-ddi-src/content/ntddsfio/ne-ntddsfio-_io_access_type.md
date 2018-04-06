@@ -7,7 +7,7 @@ old-location: kernel\io_access_type.htm
 old-project: kernel
 ms.assetid: 9ABFF1E8-50B8-4B59-964D-BA79AB63BFCE
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: IO_ACCESS_TYPE, IO_ACCESS_TYPE enumeration [Kernel-Mode Driver Architecture], ModifyAccess, ReadAccess, WriteAccess, _IO_ACCESS_TYPE, kernel.io_access_type, wdm/IO_ACCESS_TYPE, wdm/ModifyAccess, wdm/ReadAccess, wdm/WriteAccess
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	wdm.h
 api_name:
 -	IO_ACCESS_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: IO_ACCESS_TYPE
 ---
@@ -50,18 +51,6 @@ req.typenames: IO_ACCESS_TYPE
 
 
 Defines the access rights for Scheduled File I/O (SFIO).
-
-
-## -syntax
-
-
-````
-typedef enum _IO_ACCESS_TYPE { 
-  ReadAccess,
-  WriteAccess,
-  ModifyAccess
-} IO_ACCESS_TYPE;
-````
 
 
 ## -enum-fields

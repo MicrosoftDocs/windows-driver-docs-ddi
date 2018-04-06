@@ -38,7 +38,8 @@ api_location:
 -	rilapitypes.h
 api_name:
 -	RILOPERATORNAMES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILOPERATORNAMES, *LPRILOPERATORNAMES
 ---

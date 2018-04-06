@@ -38,7 +38,8 @@ api_location:
 -	iscsiop.h
 api_name:
 -	ISCSI_ADAPTER_EVENT_CODE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: ISCSI_ADAPTER_EVENT_CODE, *PISCSI_ADAPTER_EVENT_CODE
 ---

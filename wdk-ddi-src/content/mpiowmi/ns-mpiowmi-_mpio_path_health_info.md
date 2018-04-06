@@ -7,7 +7,7 @@ old-location: storage\mpio_path_health_info.htm
 old-project: storage
 ms.assetid: efb49852-3c0a-4dab-9d50-c103ba4a136b
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PMPIO_PATH_HEALTH_INFO, MPIO_PATH_HEALTH_INFO, MPIO_PATH_HEALTH_INFO structure [Storage Devices], PMPIO_PATH_HEALTH_INFO, PMPIO_PATH_HEALTH_INFO structure pointer [Storage Devices], _MPIO_PATH_HEALTH_INFO, mpiowmi/MPIO_PATH_HEALTH_INFO, mpiowmi/PMPIO_PATH_HEALTH_INFO, storage.mpio_path_health_info, structs-scsibus_482617c5-3ed9-4a17-ab14-15fc65057062.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	mpiowmi.h
 api_name:
 -	MPIO_PATH_HEALTH_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MPIO_PATH_HEALTH_INFO, *PMPIO_PATH_HEALTH_INFO
 ---
@@ -50,18 +51,6 @@ req.typenames: MPIO_PATH_HEALTH_INFO, *PMPIO_PATH_HEALTH_INFO
 
 
 The MPIO_PATH_HEALTH_INFO structure is used to query the available health information for every path that is exposed to the system.
-
-
-## -syntax
-
-
-````
-typedef struct _MPIO_PATH_HEALTH_INFO {
-  ULONG                  NumberPathPackets;
-  ULONG                  Reserved;
-  MPIO_PATH_HEALTH_CLASS PathHealthPackets[1];
-} MPIO_PATH_HEALTH_INFO, *PMPIO_PATH_HEALTH_INFO;
-````
 
 
 ## -struct-fields

@@ -7,7 +7,7 @@ old-location: kernel\rtlptrdifftmult.htm
 old-project: kernel
 ms.assetid: 71F6D886-D32E-4C90-B5BA-A4A1BBCD0B8F
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: RtlPtrdiffTMult, RtlPtrdiffTMult function [Kernel-Mode Driver Architecture], kernel.rtlptrdifftmult, ntintsafe/RtlPtrdiffTMult
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ntintsafe.h
 api_name:
 -	RtlPtrdiffTMult
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 ---
@@ -50,18 +51,6 @@ req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 
 
 Multiplies one value of type <b>PTRDIFF_T</b> by another.
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlPtrdiffTMult(
-  _In_  PTRDIFF_T Multiplicand,
-  _In_  PTRDIFF_T Multiplier,
-  _Out_ PTRDIFF_T *pResult
-);
-````
 
 
 ## -parameters

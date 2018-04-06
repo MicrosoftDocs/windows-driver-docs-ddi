@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	PcwCloseInstance
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
@@ -51,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>PcwCloseInstance</b> function closes the specified instance of the counter set. 
-
-
-## -syntax
-
-
-````
-VOID PcwCloseInstance(
-  _In_ PPCW_INSTANCE Instance
-);
-````
 
 
 ## -parameters
@@ -86,19 +77,18 @@ None
 
 
 
-Use the <a href="..\wdm\nf-wdm-pcwcreateinstance.md">PcwCreateInstance</a> function to create an instance of a registered counter set. You cannot call <b>PcwCloseInstance</b> if you have already called <a href="..\wdm\nf-wdm-pcwunregister.md">PcwUnregister</a>. When you unregister the counter set, the instances are closed for you.
+Use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550318">PcwCreateInstance</a> function to create an instance of a registered counter set. You cannot call <b>PcwCloseInstance</b> if you have already called <a href="https://msdn.microsoft.com/library/windows/hardware/ff550326">PcwUnregister</a>. When you unregister the counter set, the instances are closed for you.
 
 
 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-pcwcreateinstance.md">PcwCreateInstance</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550318">PcwCreateInstance</a>
  
 
  
-
 

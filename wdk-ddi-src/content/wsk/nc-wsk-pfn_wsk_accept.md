@@ -7,7 +7,7 @@ old-location: netvista\wskaccept.htm
 old-project: netvista
 ms.assetid: 9fa8bb07-7ee5-400b-aaca-33db3911d79f
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: PFN_WSK_ACCEPT, WskAccept, WskAccept callback function [Network Drivers Starting with Windows Vista], netvista.wskaccept, wsk/WskAccept, wskref_22de82fc-18c4-4fed-b0fe-7e048ba7cfeb.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	wsk.h
 api_name:
 -	WskAccept
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WPP_TRIAGE_INFO, *PWPP_TRIAGE_INFO
 req.product: Windows 10 or later.
@@ -54,25 +55,6 @@ The
   <b>WskAccept</b> function accepts an incoming connection on a listening socket.
 
 
-## -prototype
-
-
-````
-PFN_WSK_ACCEPT WskAccept;
-
-NTSTATUS WSKAPI * WskAccept(
-  _In_             PWSK_SOCKET                    ListenSocket,
-  _Reserved_       ULONG                          Flags,
-  _In_opt_         PVOID                          AcceptSocketContext,
-  _In_opt_   const WSK_CLIENT_CONNECTION_DISPATCH *AcceptSocketDispatch,
-  _Out_opt_        PSOCKADDR                      LocalAddress,
-  _Out_opt_        PSOCKADDR                      RemoteAddress,
-  _Inout_          PIRP                           Irp
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -81,7 +63,7 @@ NTSTATUS WSKAPI * WskAccept(
 ### -param ListenSocket [in]
 
 A pointer to a 
-     <a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a> structure that specifies the socket
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571182">WSK_SOCKET</a> structure that specifies the socket
      object for the listening or stream socket that is being checked for an incoming connection.
 
 
@@ -103,7 +85,7 @@ A pointer to a caller-supplied context for the socket that is being accepted. Th
 ### -param *AcceptSocketDispatch [in, optional]
 
 A pointer to a constant 
-     <a href="..\wsk\ns-wsk-_wsk_client_connection_dispatch.md">
+     <a href="https://msdn.microsoft.com/960eee8a-2950-4baf-b32d-be13b3d65951">
      WSK_CLIENT_CONNECTION_DISPATCH</a> structure. This structure is a dispatch table that contains
      pointers to the event callback functions for the accepted socket. If the WSK application will not be
      enabling all of the event callback functions for the accepted socket, it should set the pointers in the
@@ -182,7 +164,7 @@ The IRP has been queued by the WSK subsystem, which is waiting for an incoming c
 <td width="60%">
 The socket is no longer functional. The IRP will be completed with failure status. The WSK
        application must call the 
-       <a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a> function to close the
+       <a href="https://msdn.microsoft.com/library/windows/hardware/ff571124">WskCloseSocket</a> function to close the
        socket as soon as possible.
 
 </td>
@@ -211,7 +193,7 @@ An error occurred. The IRP will be completed with failure status.
 A WSK application can call the 
     <b>WskAccept</b> function on either a listening socket or stream socket that it previously bound to a local transport address
     by calling the 
-    <a href="..\wsk\nc-wsk-pfn_wsk_bind.md">WskBind</a> function.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff571121">WskBind</a> function.
 
 The behavior of the 
     <b>WskAccept</b> function depends on whether an incoming connection is waiting to be accepted on the
@@ -238,7 +220,7 @@ If an incoming connection is not waiting to be accepted on the listening socket,
 </li>
 </ul>
 If a WSK application's 
-    <a href="..\wsk\nc-wsk-pfn_wsk_accept_event.md">WskAcceptEvent</a> event callback function is
+    <a href="https://msdn.microsoft.com/672440f0-810a-4e68-82a5-d038770898c5">WskAcceptEvent</a> event callback function is
     enabled on a listening socket and the application has a pending call to the 
     <b>WskAccept</b> function on the same listening socket, then, when an incoming connection arrives, the
     pending call to 
@@ -273,7 +255,7 @@ If a WSK application specifies a non-<b>NULL</b> pointer in the
     <b>WskAccept</b> function until after the IRP is completed.
 
 The WSK subsystem allocates the memory for the socket object structure (
-    <a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>) for the accepted connection on
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff571182">WSK_SOCKET</a>) for the accepted connection on
     behalf of the WSK application. The WSK subsystem deallocates this memory when the socket is closed.
 
 
@@ -281,11 +263,6 @@ The WSK subsystem allocates the memory for the socket object structure (
 
 ## -see-also
 
-<a href="..\wsk\nc-wsk-pfn_wsk_bind.md">WskBind</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
 
 
 
@@ -293,33 +270,37 @@ The WSK subsystem allocates the memory for the socket object structure (
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_accept_event.md">WskAcceptEvent</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
-
-
-
-<a href="..\wsk\ns-wsk-_wsk_provider_listen_dispatch.md">WSK_PROVIDER_LISTEN_DISPATCH</a>
-
-
-
-<a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>
-
-
-
-<a href="..\wsk\ns-wsk-_wsk_client_connection_dispatch.md">
+<a href="https://msdn.microsoft.com/960eee8a-2950-4baf-b32d-be13b3d65951">
    WSK_CLIENT_CONNECTION_DISPATCH</a>
 
 
 
-<a href="..\wsk\ns-wsk-_wsk_provider_stream_dispatch.md">WSK_PROVIDER_STREAM_DISPATCH</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571176">WSK_PROVIDER_LISTEN_DISPATCH</a>
 
 
 
+<a href="https://msdn.microsoft.com/A10B901E-9987-40E9-976B-4CD9455E0AEE">WSK_PROVIDER_STREAM_DISPATCH</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571182">WSK_SOCKET</a>
+
+
+
+<a href="https://msdn.microsoft.com/672440f0-810a-4e68-82a5-d038770898c5">WskAcceptEvent</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571121">WskBind</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571124">WskCloseSocket</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571149">WskSocket</a>
  
 
  
-
 

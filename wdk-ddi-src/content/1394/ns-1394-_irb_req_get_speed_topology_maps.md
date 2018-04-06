@@ -38,7 +38,8 @@ api_location:
 -	1394.h
 api_name:
 -	IRB_REQ_GET_SPEED_TOPOLOGY_MAPS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: IRB_REQ_GET_SPEED_TOPOLOGY_MAPS
 ---
@@ -50,17 +51,6 @@ req.typenames: IRB_REQ_GET_SPEED_TOPOLOGY_MAPS
 
 
 This structure contains the fields necessary for the 1394 bus driver to carry out a GetSpeedTopologyMaps request. 
-
-
-## -syntax
-
-
-````
-typedef struct _IRB_REQ_GET_SPEED_TOPOLOGY_MAPS {
-  PSPEED_MAP    SpeedMap;
-  PTOPOLOGY_MAP TopologyMap;
-} IRB_REQ_GET_SPEED_TOPOLOGY_MAPS;
-````
 
 
 ## -struct-fields

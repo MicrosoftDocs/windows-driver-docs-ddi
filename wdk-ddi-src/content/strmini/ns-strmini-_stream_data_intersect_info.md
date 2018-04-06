@@ -38,7 +38,8 @@ api_location:
 -	strmini.h
 api_name:
 -	STREAM_DATA_INTERSECT_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STREAM_DATA_INTERSECT_INFO, *PSTREAM_DATA_INTERSECT_INFO
 req.product: Windows 10 or later.
@@ -53,19 +54,6 @@ req.product: Windows 10 or later.
 STREAM_DATA_INTERSECT_INFO describes the parameters of a data intersection operation.
 
 
-## -syntax
-
-
-````
-typedef struct _STREAM_DATA_INTERSECT_INFO {
-  ULONG        StreamNumber;
-  PKSDATARANGE DataRange;
-  PVOID        DataFormatBuffer;
-  ULONG        SizeOfDataFormatBuffer;
-} STREAM_DATA_INTERSECT_INFO, *PSTREAM_DATA_INTERSECT_INFO;
-````
-
-
 ## -struct-fields
 
 
@@ -73,7 +61,7 @@ typedef struct _STREAM_DATA_INTERSECT_INFO {
 
 ### -field StreamNumber
 
-Specifies the stream number. This corresponds to the offset of the stream within the minidriver's array of <a href="..\strmini\ns-strmini-_hw_stream_information.md">HW_STREAM_INFORMATION</a> structures. The possible data formats depend on the stream type.
+Specifies the stream number. This corresponds to the offset of the stream within the minidriver's array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff559692">HW_STREAM_INFORMATION</a> structures. The possible data formats depend on the stream type.
 
 
 ### -field DataRange

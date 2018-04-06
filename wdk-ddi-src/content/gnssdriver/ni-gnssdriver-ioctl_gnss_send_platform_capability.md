@@ -3,12 +3,12 @@ UID: NI:gnssdriver.IOCTL_GNSS_SEND_PLATFORM_CAPABILITY
 title: IOCTL_GNSS_SEND_PLATFORM_CAPABILITY
 author: windows-driver-content
 description: The IOCTL_GNSS_SEND_PLATFORM_CAPABILITY control code is used by the GNSS adapter to communicate the various location-specific platform capabilities.
-old-location: gnss\ioctl_gnss_send_platform_capability.htm
-old-project: gnss
+old-location: sensors\ioctl_gnss_send_platform_capability.htm
+old-project: sensors
 ms.assetid: EF979267-BDF3-4C42-B18E-C77E2584BC2D
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IOCTL_GNSS_SEND_PLATFORM_CAPABILITY, IOCTL_GNSS_SEND_PLATFORM_CAPABILITY control code [Sensor Devices], gnss.ioctl_gnss_send_platform_capability, gnssdriver/IOCTL_GNSS_SEND_PLATFORM_CAPABILITY
+ms.date: 2/22/2018
+ms.keywords: IOCTL_GNSS_SEND_PLATFORM_CAPABILITY, IOCTL_GNSS_SEND_PLATFORM_CAPABILITY control code [Sensor Devices], gnssdriver/IOCTL_GNSS_SEND_PLATFORM_CAPABILITY, sensors.ioctl_gnss_send_platform_capability
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,7 +38,8 @@ api_location:
 -	gnssdriver.h
 api_name:
 -	IOCTL_GNSS_SEND_PLATFORM_CAPABILITY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GNSS_SUPL_CERT_ACTION
 ---
@@ -59,7 +60,7 @@ The <b>IOCTL_GNSS_SEND_PLATFORM_CAPABILITY</b> control code is used by the GNSS 
 
 ### -input-buffer
 
-A pointer to a <a href="..\gnssdriver\ns-gnssdriver-gnss_platform_capability.md">GNSS_PLATFORM_CAPABILITY</a> structure.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn925205">GNSS_PLATFORM_CAPABILITY</a> structure.
 
 
 
@@ -135,7 +136,6 @@ This should be called when the GNSS adapter is initializing the GNSS driver.
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
 
 
 
@@ -143,14 +143,15 @@ This should be called when the GNSS adapter is initializing the GNSS driver.
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548651">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548656">WdfIoTargetSendInternalIoctlSynchronously</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548660">WdfIoTargetSendIoctlSynchronously</a>
  
 
  

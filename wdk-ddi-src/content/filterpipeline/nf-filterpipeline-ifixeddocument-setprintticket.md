@@ -38,7 +38,8 @@ api_location:
 -	filterpipeline.h
 api_name:
 -	IFixedDocument.SetPrintTicket
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
@@ -50,16 +51,6 @@ req.typenames: EXpsFontRestriction
 
 
 The <b>SetPrintTicket</b> method inserts a print ticket into the fixed document.
-
-
-## -syntax
-
-
-````
-HRESULT SetPrintTicket(
-  [in] IPartPrintTicket *pPrintTicket
-);
-````
 
 
 ## -parameters

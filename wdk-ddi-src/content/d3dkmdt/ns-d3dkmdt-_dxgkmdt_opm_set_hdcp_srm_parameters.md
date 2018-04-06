@@ -7,7 +7,7 @@ old-location: display\dxgkmdt_opm_set_hdcp_srm_parameters.htm
 old-project: display
 ms.assetid: fd069b0c-9af3-4442-aba0-1d81465e7eb0
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKMDT_OPM_SET_HDCP_SRM_PARAMETERS, DXGKMDT_OPM_SET_HDCP_SRM_PARAMETERS structure [Display Devices], DmStructs_6e80579a-8a17-47c0-b877-1e7712de2f04.xml, _DXGKMDT_OPM_SET_HDCP_SRM_PARAMETERS, d3dkmdt/DXGKMDT_OPM_SET_HDCP_SRM_PARAMETERS, display.dxgkmdt_opm_set_hdcp_srm_parameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmdt.h
 api_name:
 -	DXGKMDT_OPM_SET_HDCP_SRM_PARAMETERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGKMDT_OPM_SET_HDCP_SRM_PARAMETERS
 ---
@@ -50,16 +51,6 @@ req.typenames: DXGKMDT_OPM_SET_HDCP_SRM_PARAMETERS
 
 
 The DXGKMDT_OPM_SET_HDCP_SRM_PARAMETERS structure contains parameters to set the version of a High-bandwidth Digital Content Protection (HDCP) System Renewability Message (SRM) for a protected output.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGKMDT_OPM_SET_HDCP_SRM_PARAMETERS {
-  ULONG ulSRMVersion;
-} DXGKMDT_OPM_SET_HDCP_SRM_PARAMETERS;
-````
 
 
 ## -struct-fields
@@ -74,16 +65,15 @@ The version number of an HDCP SRM. The least significant bits (bits 0 through 15
 
 ## -see-also
 
-<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_configure_parameters.md">DXGKMDT_OPM_CONFIGURE_PARAMETERS</a>
 
 
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_configure_protected_output.md">DxgkDdiOPMConfigureProtectedOutput</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560849">DXGKMDT_OPM_CONFIGURE_PARAMETERS</a>
 
 
 
+<a href="https://msdn.microsoft.com/a7829587-c1e7-43ec-a0bb-92bca94b7c3d">DxgkDdiOPMConfigureProtectedOutput</a>
  
 
  
-
 

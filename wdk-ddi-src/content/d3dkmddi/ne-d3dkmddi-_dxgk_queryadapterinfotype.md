@@ -7,7 +7,7 @@ old-location: display\dxgk_queryadapterinfotype.htm
 old-project: display
 ms.assetid: 5cceffb1-853c-4635-b855-d0e3f107c23d
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGKQAITYPE_ALLOCATIONGROUP, DXGKQAITYPE_DISPLAY_DRIVERCAPS_EXTENSION, DXGKQAITYPE_DRIVERCAPS, DXGKQAITYPE_GPUMMUCAPS, DXGKQAITYPE_HISTORYBUFFERPRECISION, DXGKQAITYPE_INTEGRATED_DISPLAY_DESCRIPTOR, DXGKQAITYPE_NUMPOWERCOMPONENTS, DXGKQAITYPE_PAGETABLELEVELDESC, DXGKQAITYPE_PHYSICALADAPTERCAPS, DXGKQAITYPE_POWERCOMPONENTINFO, DXGKQAITYPE_POWERCOMPONENTPSTATEINFO, DXGKQAITYPE_PREFERREDGPUNODE, DXGKQAITYPE_QUERYCOLORIMETRYOVERRIDES, DXGKQAITYPE_QUERYSEGMENT, DXGKQAITYPE_QUERYSEGMENT2, DXGKQAITYPE_QUERYSEGMENT3, DXGKQAITYPE_QUERYSEGMENT4, DXGKQAITYPE_SEGMENTMEMORYSTATE, DXGKQAITYPE_UEFIFRAMEBUFFERRANGES, DXGKQAITYPE_UMDRIVERPRIVATE, DXGK_QUERYADAPTERINFOTYPE, DXGK_QUERYADAPTERINFOTYPE enumeration [Display Devices], DmEnums_c4637ac2-b8e0-4c30-a709-5a8ff1ee3fdc.xml, _DXGK_QUERYADAPTERINFOTYPE, d3dkmddi/DXGKQAITYPE_ALLOCATIONGROUP, d3dkmddi/DXGKQAITYPE_DISPLAY_DRIVERCAPS_EXTENSION, d3dkmddi/DXGKQAITYPE_DRIVERCAPS, d3dkmddi/DXGKQAITYPE_GPUMMUCAPS, d3dkmddi/DXGKQAITYPE_HISTORYBUFFERPRECISION, d3dkmddi/DXGKQAITYPE_INTEGRATED_DISPLAY_DESCRIPTOR, d3dkmddi/DXGKQAITYPE_NUMPOWERCOMPONENTS, d3dkmddi/DXGKQAITYPE_PAGETABLELEVELDESC, d3dkmddi/DXGKQAITYPE_PHYSICALADAPTERCAPS, d3dkmddi/DXGKQAITYPE_POWERCOMPONENTINFO, d3dkmddi/DXGKQAITYPE_POWERCOMPONENTPSTATEINFO, d3dkmddi/DXGKQAITYPE_PREFERREDGPUNODE, d3dkmddi/DXGKQAITYPE_QUERYCOLORIMETRYOVERRIDES, d3dkmddi/DXGKQAITYPE_QUERYSEGMENT, d3dkmddi/DXGKQAITYPE_QUERYSEGMENT2, d3dkmddi/DXGKQAITYPE_QUERYSEGMENT3, d3dkmddi/DXGKQAITYPE_QUERYSEGMENT4, d3dkmddi/DXGKQAITYPE_SEGMENTMEMORYSTATE, d3dkmddi/DXGKQAITYPE_UEFIFRAMEBUFFERRANGES, d3dkmddi/DXGKQAITYPE_UMDRIVERPRIVATE, d3dkmddi/DXGK_QUERYADAPTERINFOTYPE, display.dxgk_queryadapterinfotype
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -16,18 +16,18 @@ req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows Vista.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
 -	APIRef
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGK_QUERYADAPTERINFOTYPE
-product: Windows
+product:
+-Windows
 targetos: Windows
 req.typenames: DXGK_QUERYADAPTERINFOTYPE
 ---
@@ -56,24 +57,24 @@ The DXGK_QUERYADAPTERINFOTYPE enumeration indicates the type of information to r
 
 
 ````
-typedef enum _DXGK_QUERYADAPTERINFOTYPE { 
+typedef enum _DXGK_QUERYADAPTERINFOTYPE {
   DXGKQAITYPE_UMDRIVERPRIVATE                   = 0,
   DXGKQAITYPE_DRIVERCAPS                        = 1,
   DXGKQAITYPE_QUERYSEGMENT                      = 2,
 #if (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WIN7)
   DXGKQAITYPE_ALLOCATIONGROUP                   = 3,
   DXGKQAITYPE_QUERYSEGMENT2                     = 4,
-#endif 
+#endif
 #if (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WIN8)
   DXGKQAITYPE_QUERYSEGMENT3                     = 5,
   DXGKQAITYPE_NUMPOWERCOMPONENTS                = 6,
   DXGKQAITYPE_POWERCOMPONENTINFO                = 7,
   DXGKQAITYPE_PREFERREDGPUNODE                  = 8,
-#endif 
+#endif
 #if (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WDDM1_3)
   DXGKQAITYPE_POWERCOMPONENTPSTATEINFO          = 9,
   DXGKQAITYPE_HISTORYBUFFERPRECISION            = 10,
-#endif 
+#endif
 #if (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WDDM2_0)
   DXGKQAITYPE_QUERYSEGMENT4                     = 11,
   DXGKQAITYPE_SEGMENTMEMORYSTATE                = 12,
@@ -81,7 +82,7 @@ typedef enum _DXGK_QUERYADAPTERINFOTYPE {
   DXGKQAITYPE_PAGETABLELEVELDESC                = 14,
   DXGKQAITYPE_PHYSICALADAPTERCAPS               = 15,
   DXGKQAITYPE_DISPLAY_DRIVERCAPS_EXTENSION      = 16,
-#endif 
+#endif
 #if (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WDDM2_2)
   DXGKQAITYPE_INTEGRATED_DISPLAY_DESCRIPTOR     = 17,
   DXGKQAITYPE_UEFIFRAMEBUFFERRANGES             = 18,
@@ -109,11 +110,12 @@ Indicates the driver capabilities in a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_dr
 
 
       Indicates memory-segment information in a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_querysegmentout.md">DXGK_QUERYSEGMENTOUT</a> structure.
-     
+
 
 
 ### -field DXGKQAITYPE_RESERVED
 
+Reserved.
 
 ### -field DXGKQAITYPE_QUERYSEGMENT2
 
@@ -172,7 +174,7 @@ Supported starting with Windows 10.
 
 ### -field DXGKQAITYPE_SEGMENTMEMORYSTATE
 
-Indicates bad memory ranges in a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_memoryrange.md">DXGK_MEMORYRANGE</a> structure. 
+Indicates bad memory ranges in a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_memoryrange.md">DXGK_MEMORYRANGE</a> structure.
 
 Supported starting with Windows 10.
 
@@ -226,13 +228,40 @@ The output buffer is zeroed when passed to the driver.  If the driver has no ove
 
 ### -field DXGKQAITYPE_DISPLAYID_DESCRIPTOR
 
+Indicates a request for an integrated panel descriptor where the input buffer to the query will be a DXGK_QAITARGETIN structure and the output buffer is a DXGK_QUERYINTEGRATEDDISPLAYOUT structure.
 
+### -field DXGKQAITYPE_FRAMEBUFFERSAVESIZE
 
+The size of the frame buffer to save to system memory during power transitions.
+
+### -field DXGKQAITYPE_HARDWARERESERVEDRANGES
+
+Reserved ranges.
+
+### -field DXGKQAITYPE_INTEGRATED_DISPLAY_DESCRIPTOR2
+
+Indicates a request for an integrated panel descriptor where the input buffer to the query will be a DXGK_QAITARGETIN structure and the output buffer is a DXGK_QUERYINTEGRATEDDISPLAYOUT2 structure. This query replaces use of the DXGKQAITYPE_INTEGRATED_DISPLAY_DESCRIPTOR query for WDDM 2.4 drivers.
+
+### -field DXGKQAITYPE_NODEPERFDATA
+
+Represent performance data collected per engine from an adapter on an interval basis.
+
+### -field DXGKQAITYPE_ADAPTERPERFDATA
+
+Represent performance data collected per adapter on an interval basis.
+
+### -field DXGKQAITYPE_ADAPTERPERFDATA_CAPS
+
+Represents data caps that are static and queried once per GPU during initialization.
+
+### -field DXGKQAITYPE_GPUVERSION
+
+Used to collect the bios version and gpu architecture name once during GPU initialization.
 
 #### - DXGKQAITYPE_ALLOCATIONGROUP
 
 
-      Reserved for system use. Do not use in your driver. Note that this constant occurs starting with Windows 7.
+Reserved for system use. Do not use in your driver. Note that this constant occurs starting with Windows 7.
 
 
 ## -remarks

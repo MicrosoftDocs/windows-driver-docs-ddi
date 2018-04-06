@@ -7,7 +7,7 @@ old-location: kernel\pcreate_process_notify_routine.htm
 old-project: kernel
 ms.assetid: 2C5B3C90-04A9-48CF-9162-0E069A483C5F
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: PCREATE_PROCESS_NOTIFY_ROUTINE, SetCreateProcessNotifyRoutine, SetCreateProcessNotifyRoutine callback function [Kernel-Mode Driver Architecture], kernel.pcreate_process_notify_routine, ntddk/SetCreateProcessNotifyRoutine
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ntddk.h
 api_name:
 -	SetCreateProcessNotifyRoutine
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FILTER_INITIALIZATION_DATA, *PFILTER_INITIALIZATION_DATA
 ---
@@ -51,21 +52,6 @@ req.typenames: FILTER_INITIALIZATION_DATA, *PFILTER_INITIALIZATION_DATA
 
 Process-creation callback implemented by a driver  to track the system-wide creation and deletion of processes against the driver's internal state.
 <div class="alert"><b>Warning</b>  The actions that  you can perform in this routine are restricted for safe calls. See <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/windows-kernel-mode-process-and-thread-manager#best">Best Practices</a>. </div><div> </div>
-
-## -prototype
-
-
-````
-PCREATE_PROCESS_NOTIFY_ROUTINE SetCreateProcessNotifyRoutine;
-
-void SetCreateProcessNotifyRoutine(
-  _In_ HANDLE  ParentId,
-  _In_ HANDLE  ProcessId,
-  _In_ BOOLEAN Create
-)
-{ ... }
-````
-
 
 ## -parameters
 
@@ -111,12 +97,11 @@ A driver's process-notify routine is also called with <i>Create</i> set to <b>FA
 
 ## -see-also
 
+
+
+
 <b>PsSetCreateProcessNotifyRoutine</b>
-
-
-
  
 
  
-
 

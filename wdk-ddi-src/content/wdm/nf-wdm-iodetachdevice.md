@@ -7,7 +7,7 @@ old-location: kernel\iodetachdevice.htm
 old-project: kernel
 ms.assetid: 5822b642-0ba4-46ee-bb60-b109c50691eb
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: IoDetachDevice, IoDetachDevice routine [Kernel-Mode Driver Architecture], k104_e928372b-1222-4421-bea7-c2457c38a09f.xml, kernel.iodetachdevice, wdm/IoDetachDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	IoDetachDevice
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
@@ -53,16 +54,6 @@ req.product: Windows 10 or later.
 The <b>IoDetachDevice</b> routine releases an attachment between the caller's device object and a lower driver's device object.
 
 
-## -syntax
-
-
-````
-VOID IoDetachDevice(
-  _Inout_ PDEVICE_OBJECT TargetDevice
-);
-````
-
-
 ## -parameters
 
 
@@ -70,7 +61,7 @@ VOID IoDetachDevice(
 
 ### -param TargetDevice [in, out]
 
-Pointer to the lower driver's device object. The caller previously called <a href="..\wdm\nf-wdm-ioattachdevice.md">IoAttachDevice</a> or <a href="..\wdm\nf-wdm-ioattachdevicetodevicestack.md">IoAttachDeviceToDeviceStack</a> successfully to get this pointer. 
+Pointer to the lower driver's device object. The caller previously called <a href="https://msdn.microsoft.com/library/windows/hardware/ff548294">IoAttachDevice</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff548300">IoAttachDeviceToDeviceStack</a> successfully to get this pointer. 
 
 
 ## -returns
@@ -93,16 +84,15 @@ None
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-ioattachdevice.md">IoAttachDevice</a>
 
 
 
-<a href="..\wdm\nf-wdm-ioattachdevicetodevicestack.md">IoAttachDeviceToDeviceStack</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548294">IoAttachDevice</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548300">IoAttachDeviceToDeviceStack</a>
  
 
  
-
 

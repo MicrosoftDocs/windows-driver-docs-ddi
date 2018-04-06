@@ -38,7 +38,8 @@ api_location:
 -	wdfmemory.h
 api_name:
 -	WDF_MEMORY_DESCRIPTOR_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_MEMORY_DESCRIPTOR_TYPE
 req.product: Windows 10 or later.
@@ -52,20 +53,7 @@ req.product: Windows 10 or later.
 
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
-The <b>WDF_MEMORY_DESCRIPTOR_TYPE</b> enumeration identifies the types of memory descriptions that a <a href="..\wdfmemory\ns-wdfmemory-_wdf_memory_descriptor.md">WDF_MEMORY_DESCRIPTOR</a> structure can specify.
-
-
-## -syntax
-
-
-````
-typedef enum _WDF_MEMORY_DESCRIPTOR_TYPE { 
-  WdfMemoryDescriptorTypeInvalid  = 0,
-  WdfMemoryDescriptorTypeBuffer   = 1,
-  WdfMemoryDescriptorTypeMdl      = 2,
-  WdfMemoryDescriptorTypeHandle   = 3
-} WDF_MEMORY_DESCRIPTOR_TYPE;
-````
+The <b>WDF_MEMORY_DESCRIPTOR_TYPE</b> enumeration identifies the types of memory descriptions that a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552392">WDF_MEMORY_DESCRIPTOR</a> structure can specify.
 
 
 ## -enum-fields
@@ -80,27 +68,26 @@ Reserved for internal use only.
 
 ### -field WdfMemoryDescriptorTypeBuffer
 
-The <a href="..\wdfmemory\ns-wdfmemory-_wdf_memory_descriptor.md">WDF_MEMORY_DESCRIPTOR</a> structure contains a buffer description.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/ff552392">WDF_MEMORY_DESCRIPTOR</a> structure contains a buffer description.
 
 
 ### -field WdfMemoryDescriptorTypeMdl
 
-The <a href="..\wdfmemory\ns-wdfmemory-_wdf_memory_descriptor.md">WDF_MEMORY_DESCRIPTOR</a> structure contains a memory descriptor list (MDL).
+The <a href="https://msdn.microsoft.com/library/windows/hardware/ff552392">WDF_MEMORY_DESCRIPTOR</a> structure contains a memory descriptor list (MDL).
 
 
 ### -field WdfMemoryDescriptorTypeHandle
 
-The <a href="..\wdfmemory\ns-wdfmemory-_wdf_memory_descriptor.md">WDF_MEMORY_DESCRIPTOR</a> structure contains a handle to a memory object.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/ff552392">WDF_MEMORY_DESCRIPTOR</a> structure contains a handle to a memory object.
 
 
 ## -see-also
 
-<a href="..\wdfmemory\ns-wdfmemory-_wdf_memory_descriptor.md">WDF_MEMORY_DESCRIPTOR</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552392">WDF_MEMORY_DESCRIPTOR</a>
  
 
  
-
 

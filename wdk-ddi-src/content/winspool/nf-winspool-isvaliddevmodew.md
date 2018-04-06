@@ -38,7 +38,8 @@ api_location:
 -	Winspool.drv
 api_name:
 -	IsValidDevmode
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BIDI_TYPE
 req.product: Windows 10 or later.
@@ -51,17 +52,6 @@ req.product: Windows 10 or later.
 
 
 The print spooler's <code>IsValidDevmode</code> function verifies that the contents of a <a href="https://msdn.microsoft.com/b2369876-9a79-40c8-8d27-c8b9d8e68e6b">DEVMODE</a> structure are valid.
-
-
-## -syntax
-
-
-````
-BOOL IsValidDevmode(
-  _In_opt_ PDEVMODEW pDevmode,
-           size_t    DevModeSize
-);
-````
 
 
 ## -parameters
@@ -110,12 +100,11 @@ This function does not require the caller to obtain elevated privileges.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/b2369876-9a79-40c8-8d27-c8b9d8e68e6b">DEVMODE</a>
-
-
-
  
 
  
-
 

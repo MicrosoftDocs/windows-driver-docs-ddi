@@ -7,7 +7,7 @@ old-location: display\svgahwioportulongstring.htm
 old-project: display
 ms.assetid: 190adc75-7274-49e2-a9b6-2897168df091
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PDRIVER_IO_PORT_ULONG_STRING, SvgaHwIoPortUlongString, SvgaHwIoPortUlongString callback function [Display Devices], VideoMiniport_Functions_107f011d-c8c7-4f9f-ac81-4d0b33caa3da.xml, display.svgahwioportulongstring, video/SvgaHwIoPortUlongString
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	video.h
 api_name:
 -	SvgaHwIoPortUlongString
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VHF_CONFIG, *PVHF_CONFIG
 req.product: Windows 10 or later.
@@ -51,23 +52,6 @@ req.product: Windows 10 or later.
 
 
 <i>SvgaHwIoPortUlongString</i> traps an I/O port range to which a full-screen MS-DOS application in an x86-based machine is sending a sequence of ULONG-sized data.
-
-
-## -prototype
-
-
-````
-PDRIVER_IO_PORT_ULONG_STRING SvgaHwIoPortUlongString;
-
-VP_STATUS SvgaHwIoPortUlongString(
-   ULONG_PTR Context,
-   ULONG     Port,
-   UCHAR     AccessMode,
-   PULONG    Data,
-   ULONG     DataLength
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -137,11 +121,10 @@ If one or more application-issued x86 <b>INSD</b> or <b>OUTSD</b> instructions m
 
 ## -see-also
 
-<a href="..\video\nc-video-pdriver_io_port_ulong.md">SvgaHwIoPortUlong</a>
 
 
 
-<a href="..\dispmprt\ns-dispmprt-_emulator_access_entry.md">EMULATOR_ACCESS_ENTRY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564131">EMULATOR_ACCESS_ENTRY</a>
 
 
 
@@ -149,24 +132,24 @@ If one or more application-issued x86 <b>INSD</b> or <b>OUTSD</b> instructions m
 
 
 
-<a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
+<a href="https://msdn.microsoft.com/e749188f-a255-403a-8ae9-a2c3c9b41c58">SvgaHwIoPortUlong</a>
 
 
 
-<a href="..\video\nf-video-videoportsettrappedemulatorports.md">VideoPortSetTrappedEmulatorPorts</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570498">VIDEO_ACCESS_RANGE</a>
 
 
 
-<a href="..\video\ns-video-_video_access_range.md">VIDEO_ACCESS_RANGE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570531">VIDEO_PORT_CONFIG_INFO</a>
 
 
 
-<a href="..\video\ns-video-_video_port_config_info.md">VIDEO_PORT_CONFIG_INFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570310">VideoPortGetDeviceBase</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570366">VideoPortSetTrappedEmulatorPorts</a>
  
 
  
-
 

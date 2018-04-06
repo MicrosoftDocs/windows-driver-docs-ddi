@@ -7,7 +7,7 @@ old-location: ifsk\seclookupaccountsid.htm
 old-project: ifsk
 ms.assetid: 7237a041-46e0-4211-97c1-96d309ada602
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: SecLookupAccountSid, SecLookupAccountSid function [Installable File System Drivers], ifsk.seclookupaccountsid, ksecddref_ba65e59c-5c9a-47bb-bf2c-9b3b8c727bb6.xml, ntifs/SecLookupAccountSid
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ksecdd.dll
 api_name:
 -	SecLookupAccountSid
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -51,21 +52,6 @@ req.typenames: TOKEN_TYPE
 
 
 <b>SecLookupAccountSid</b> accepts a security identifier (SID) as input. It retrieves the name of the account for this SID and the name of the first domain on which this SID is found.
-
-
-## -syntax
-
-
-````
-NTSTATUS SecLookupAccountSid(
-  _In_      PSID            Sid,
-  _Out_     PULONG          NameSize,
-  _Inout_   PUNICODE_STRING NameBuffer,
-  _Out_     PULONG          DomainSize,
-  _Out_opt_ PUNICODE_STRING DomainBuffer,
-  _Out_     PSID_NAME_USE   NameUse
-);
-````
 
 
 ## -parameters
@@ -225,24 +211,23 @@ In addition to looking up SIDs for local accounts, local domain accounts, and ex
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-seclookupwellknownsid.md">SecLookupWellKnownSid</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a>
 
 
 
-<a href="..\ntifs\ne-ntifs-_sid_name_use.md">SID_NAME_USE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556744">SID_NAME_USE</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-seclookupaccountname.md">SecLookupAccountName</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554795">SecLookupAccountName</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556582">SecLookupWellKnownSid</a>
  
 
  
-
 

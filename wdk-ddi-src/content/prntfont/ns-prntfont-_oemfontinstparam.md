@@ -38,7 +38,8 @@ api_location:
 -	prntfont.h
 api_name:
 -	OEMFONTINSTPARAM
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OEMFONTINSTPARAM, *POEMFONTINSTPARAM
 req.product: Windows 10 or later.
@@ -51,21 +52,6 @@ req.product: Windows 10 or later.
 
 
 The OEMFONTINSTPARAM structure is used as an input parameter to a user interface plug-in's <a href="https://msdn.microsoft.com/library/windows/hardware/ff554176">IPrintOemUI::FontInstallerDlgProc</a> method.
-
-
-## -syntax
-
-
-````
-typedef struct _OEMFONTINSTPARAM {
-  DWORD  cbSize;
-  HANDLE hPrinter;
-  HANDLE hModule;
-  HANDLE hHeap;
-  DWORD  dwFlags;
-  PWSTR  pFontInstallerName;
-} OEMFONTINSTPARAM, *POEMFONTINSTPARAM;
-````
 
 
 ## -struct-fields

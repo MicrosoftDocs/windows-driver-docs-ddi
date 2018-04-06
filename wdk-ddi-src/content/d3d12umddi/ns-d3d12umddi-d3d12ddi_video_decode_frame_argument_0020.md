@@ -7,7 +7,7 @@ old-location: display\d3d12ddi_video_decode_frame_parameter.htm
 old-project: display
 ms.assetid: 5651BDA8-256F-4041-A8BB-E3B30DB1870C
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3D12DDI_VIDEO_DECODE_FRAME_ARGUMENT_0020, D3D12DDI_VIDEO_DECODE_FRAME_ARGUMENT_0020 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_DECODE_FRAME_ARGUMENT_0020, display.d3d12ddi_video_decode_frame_parameter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3d12umddi.h
 api_name:
 -	D3D12DDI_VIDEO_DECODE_FRAME_ARGUMENT_0020
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D12DDI_VIDEO_DECODE_FRAME_ARGUMENT_0020
 ---
@@ -52,18 +53,6 @@ req.typenames: D3D12DDI_VIDEO_DECODE_FRAME_ARGUMENT_0020
 Contains the decode parameters for the frame.  
 
 
-## -syntax
-
-
-````
-typedef struct D3D12DDI_VIDEO_DECODE_FRAME_ARGUMENT_0020 {
-  D3D12DDI_VIDEO_DECODE_PARAMETER_TYPE_0020 Type;
-  VOID                                      *pData;
-  UINT                                      Size;
-} D3D12DDI_VIDEO_DECODE_FRAME_ARGUMENT_0020;
-````
-
-
 ## -struct-fields
 
 
@@ -71,7 +60,7 @@ typedef struct D3D12DDI_VIDEO_DECODE_FRAME_ARGUMENT_0020 {
 
 ### -field Type
 
-The type of the parameter.  For more information, see the <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_decode_parameter_type_0020.md">D3D12DDI_VIDEO_DECODE_PARAMETER_TYPE</a> enumeration.
+The type of the parameter.  For more information, see the <a href="https://msdn.microsoft.com/4ED18E79-2BEA-4FB5-BDA4-B5CA59D6E1A8">D3D12DDI_VIDEO_DECODE_PARAMETER_TYPE</a> enumeration.
 
 
 ### -field pData
@@ -86,12 +75,11 @@ The size, in bytes, of the parameter data specified by the <i>pParameter</i> par
 
 ## -see-also
 
-<a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_decode_parameter_type_0020.md">D3D12DDI_VIDEO_DECODE_PARAMETER_TYPE</a>
 
 
 
+<a href="https://msdn.microsoft.com/4ED18E79-2BEA-4FB5-BDA4-B5CA59D6E1A8">D3D12DDI_VIDEO_DECODE_PARAMETER_TYPE</a>
  
 
  
-
 

@@ -71,8 +71,6 @@ The client can check if this pattern is enabled by calling [NetPowerSettingsIsWa
 
 The client driver can use the pointer to examine the [NDIS_PM_WOL_PATTERN](../ntddndis/ns-ntddndis-_ndis_pm_wol_pattern.md) structure, but should not retain it. NetAdapterCx automatically releases the pattern structure during WoL pattern removal.
 
-In NetAdapterCx version 1.1, the IRQL of this method was changed from DISPATCH_LEVEL to PASSIVE_LEVEL.
-
 The minimum NetAdapterCx version for **NetPowerSettingsGetWakePattern** is 1.1.
 
 ## -see-also

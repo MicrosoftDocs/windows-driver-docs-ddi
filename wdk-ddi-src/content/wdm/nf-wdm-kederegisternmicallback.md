@@ -7,7 +7,7 @@ old-location: kernel\kederegisternmicallback.htm
 old-project: kernel
 ms.assetid: 45022490-8130-449c-8ec9-380be0a3a03d
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: KeDeregisterNmiCallback, KeDeregisterNmiCallback routine [Kernel-Mode Driver Architecture], k105_407e4af5-fb93-4a7e-bacd-cc1d08935815.xml, kernel.kederegisternmicallback, wdm/KeDeregisterNmiCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	KeDeregisterNmiCallback
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
@@ -50,17 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>KeDeregisterNmiCallback</b> routine deregisters a nonmaskable interrupt (NMI) callback registered by <a href="..\wdm\nf-wdm-keregisternmicallback.md">KeRegisterNmiCallback</a>.
-
-
-## -syntax
-
-
-````
-NTSTATUS KeDeregisterNmiCallback(
-  _In_ PVOID Handle
-);
-````
+The <b>KeDeregisterNmiCallback</b> routine deregisters a nonmaskable interrupt (NMI) callback registered by <a href="https://msdn.microsoft.com/library/windows/hardware/ff553116">KeRegisterNmiCallback</a>.
 
 
 ## -parameters
@@ -70,7 +61,7 @@ NTSTATUS KeDeregisterNmiCallback(
 
 ### -param Handle [in]
 
-Specifies the value returned by <a href="..\wdm\nf-wdm-keregisternmicallback.md">KeRegisterNmiCallback</a> when the NMI callback was registered. 
+Specifies the value returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff553116">KeRegisterNmiCallback</a> when the NMI callback was registered. 
 
 
 ## -returns
@@ -84,12 +75,11 @@ The <b>KeDeregisterNmiCallback</b> routine returns STATUS_SUCCESS if the callbac
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-keregisternmicallback.md">KeRegisterNmiCallback</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553116">KeRegisterNmiCallback</a>
  
 
  
-
 

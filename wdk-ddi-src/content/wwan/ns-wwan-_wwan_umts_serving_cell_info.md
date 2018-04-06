@@ -7,7 +7,7 @@ old-location: netvista\wwan_umts_serving_cell_info.htm
 old-project: netvista
 ms.assetid: 62257D65-DCB9-43C3-A862-DAB31C27EF0A
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PWWAN_UMTS_SERVING_CELL_INFO, PWWAN_UMTS_SERVING_CELL_INFO, PWWAN_UMTS_SERVING_CELL_INFO structure pointer [Network Drivers Starting with Windows Vista], WWAN_UMTS_SERVING_CELL_INFO, WWAN_UMTS_SERVING_CELL_INFO structure [Network Drivers Starting with Windows Vista], _WWAN_UMTS_SERVING_CELL_INFO, netvista.wwan_umts_serving_cell_info, wwan/PWWAN_UMTS_SERVING_CELL_INFO, wwan/WWAN_UMTS_SERVING_CELL_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	wwan.h
 api_name:
 -	WWAN_UMTS_SERVING_CELL_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WWAN_UMTS_SERVING_CELL_INFO, *PWWAN_UMTS_SERVING_CELL_INFO
 req.product: Windows 10 or later.
@@ -51,28 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>WWAN_UMTS_SERVING_CELL_INFO</b> structure represents information about the UMTS serving cell.
-
-
-## -syntax
-
-
-````
-typedef struct _WWAN_UMTS_SERVING_CELL_INFO {
-  ULONG ProviderIdOffset;
-  ULONG ProviderIdSize;
-  ULONG LocationAreaCode;
-  ULONG CellId;
-  ULONG FrequencyInfoUL;
-  ULONG FrequencyInfoDL;
-  ULONG FrequencyInfoNT;
-  ULONG UARFCN;
-  ULONG PrimaryScramblingCode;
-  ULONG RSCP;
-  ULONG ECNO;
-  ULONG PathLoss;
-  BYTE  Data[ANYSIZE_ARRAY];
-} WWAN_UMTS_SERVING_CELL_INFO, *PWWAN_UMTS_SERVING_CELL_INFO;
-````
 
 
 ## -struct-fields
@@ -154,11 +133,6 @@ The data buffer containing <i>ProviderId</i>.
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_base_stations_info.md">WWAN_BASE_STATIONS_INFO</a>
-
-
-
-<a href="..\wwan\ns-wwan-_wwan_umts_mrl_info.md">WWAN_UMTS_MRL_INFO</a>
 
 
 
@@ -166,12 +140,16 @@ The data buffer containing <i>ProviderId</i>.
 
 
 
-<a href="..\wwan\ns-wwan-_wwan_umts_mrl.md">WWAN_UMTS_MRL</a>
+<a href="https://msdn.microsoft.com/66460B28-C2B4-4F05-A133-31A753AF9489">WWAN_BASE_STATIONS_INFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/B62F63EB-747A-4672-9A79-5065A8BC04D1">WWAN_UMTS_MRL</a>
+
+
+
+<a href="https://msdn.microsoft.com/C1129291-D0E7-48F6-B317-1A0BCB6D25DC">WWAN_UMTS_MRL_INFO</a>
  
 
  
-
 

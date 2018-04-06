@@ -7,7 +7,7 @@ old-location: debugger\getinstructionoffset2.htm
 old-project: debugger
 ms.assetid: c5757dbb-16bf-46f9-836f-5a94089bbb1e
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: GetInstructionOffset2 method [Windows Debugging], GetInstructionOffset2 method [Windows Debugging], IDebugRegisters2 interface, GetInstructionOffset2,IDebugRegisters2.GetInstructionOffset2, IDebugRegisters2, IDebugRegisters2 interface [Windows Debugging], GetInstructionOffset2 method, IDebugRegisters2::GetInstructionOffset2, IDebugRegisters_92189e99-c8f6-4422-8421-62fe194a05b6.xml, dbgeng/IDebugRegisters2::GetInstructionOffset2, debugger.getinstructionoffset2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugRegisters2.GetInstructionOffset2
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -50,17 +51,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetInstructionOffset2</b> method returns the location of the current thread's current instruction.
-
-
-## -syntax
-
-
-````
-HRESULT GetInstructionOffset2(
-  [in]  ULONG    Source,
-  [out] PULONG64 Offset
-);
-````
 
 
 ## -parameters
@@ -156,14 +146,13 @@ The meaning of the value that is returned by this method is architecture-depende
 
 The method <a href="https://msdn.microsoft.com/library/windows/hardware/ff546916">GetInstructionOffset</a> performs the same task as this method but always uses the target as the register source.
 
-For an overview of the <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRegisters</a> interface and other register-related methods, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554369">Registers</a>.
+For an overview of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550825">IDebugRegisters</a> interface and other register-related methods, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554369">Registers</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugregisters2.md">IDebugRegisters2</a>
 
 
 
@@ -171,8 +160,8 @@ For an overview of the <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRe
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550835">IDebugRegisters2</a>
  
 
  
-
 

@@ -38,7 +38,8 @@ api_location:
 -	Winsplp.h
 api_name:
 -	PlayGdiScriptOnPrinterIC
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NOTIFICATION_CONFIG_FLAGS
 req.product: Windows 10 or later.
@@ -51,21 +52,6 @@ req.product: Windows 10 or later.
 
 
 
-
-
-## -syntax
-
-
-````
-BOOL WINAPI PlayGdiScriptOnPrinterIC(
-  _In_  HANDLE   hPrinterIC,
-  _In_  LPBYTE   pIn,
-  _In_  DWORD    cIn,
-  _Out_ LPBYTE   pOut,
-  _In_  DWORD    cOut,
-  _In_  DWORD    ul
-);
-````
 
 
 ## -parameters

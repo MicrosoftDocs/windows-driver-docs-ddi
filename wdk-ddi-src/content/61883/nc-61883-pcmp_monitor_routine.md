@@ -38,7 +38,8 @@ api_location:
 -	61883.h
 api_name:
 -	CmpMonitorRoutine
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TOPOLOGY_MAP, *PTOPOLOGY_MAP
 ---
@@ -50,21 +51,6 @@ req.typenames: TOPOLOGY_MAP, *PTOPOLOGY_MAP
 
 
 This routine is called for plug monitoring.
-
-
-## -prototype
-
-
-````
-PCMP_MONITOR_ROUTINE CmpMonitorRoutine;
-
-void CmpMonitorRoutine(
-  _In_ PCMP_MONITOR_INFO MonitorInfo
-)
-{ ... }
-
-typedef PCMP_MONITOR_ROUTINE CmpMonitorRoutine;
-````
 
 
 ## -parameters
@@ -88,12 +74,11 @@ This callback does not return a value.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537008">AV_61883_REQUEST</a>
-
-
-
  
 
  
-
 

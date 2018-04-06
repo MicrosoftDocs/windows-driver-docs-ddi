@@ -7,7 +7,7 @@ old-location: kernel\mm_copy_address.htm
 old-project: kernel
 ms.assetid: 9C9A0D46-587C-43F3-808E-38E81CE3EE50
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*PMMCOPY_ADDRESS, MM_COPY_ADDRESS, MM_COPY_ADDRESS structure [Kernel-Mode Driver Architecture], PMM_COPY_ADDRESS, PMM_COPY_ADDRESS structure pointer [Kernel-Mode Driver Architecture], _MM_COPY_ADDRESS, kernel.mm_copy_address, ntddk/MM_COPY_ADDRESS, ntddk/PMM_COPY_ADDRESS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ntddk.h
 api_name:
 -	MM_COPY_ADDRESS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MM_COPY_ADDRESS, *PMMCOPY_ADDRESS
 ---
@@ -50,19 +51,6 @@ req.typenames: MM_COPY_ADDRESS, *PMMCOPY_ADDRESS
 
 
 The <b>MM_COPY_ADDRESS</b> structure contains either a virtual memory address or a physical memory address.
-
-
-## -syntax
-
-
-````
-typedef struct _MM_COPY_ADDRESS {
-  union {
-    PVOID            VirtualAddress;
-    PHYSICAL_ADDRESS PhysicalAddress;
-  };
-} MM_COPY_ADDRESS, *PMM_COPY_ADDRESS;
-````
 
 
 ## -struct-fields
@@ -93,19 +81,18 @@ A physical memory address.
 
 
 
-This structure is used by the <a href="..\ntddk\nf-ntddk-mmcopymemory.md">MmCopyMemory</a> routine.
+This structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/dn342884">MmCopyMemory</a> routine.
 
 
 
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-mmcopymemory.md">MmCopyMemory</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn342884">MmCopyMemory</a>
  
 
  
-
 

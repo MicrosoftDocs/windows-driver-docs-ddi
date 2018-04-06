@@ -38,7 +38,8 @@ api_location:
 -	Sensorsdef.h
 api_name:
 -	MAGNETOMETER_ACCURACY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MAGNETOMETER_ACCURACY
 req.product: Windows 10 or later.
@@ -51,19 +52,6 @@ req.product: Windows 10 or later.
 
 
 This enumeration represents the accuracy states of the magnetometer.
-
-
-## -syntax
-
-
-````
-typedef enum _MAGNETOMETER_ACCURACY { 
-  MagnetometerAccuracy_Unknown      = 0,
-  MagnetometerAccuracy_Unreliable,
-  MagnetometerAccuracy_Approximate,
-  MagnetometerAccuracy_High
-} MAGNETOMETER_ACCURACY;
-````
 
 
 ## -enum-fields

@@ -38,7 +38,8 @@ api_location:
 -	ntddk.h
 api_name:
 -	WHEA_PCIEXPRESS_ERROR_SECTION_VALIDBITS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WHEA_PCIEXPRESS_ERROR_SECTION_VALIDBITS, *PWHEA_PCIEXPRESS_ERROR_SECTION_VALIDBITS
 ---
@@ -49,28 +50,7 @@ req.typenames: WHEA_PCIEXPRESS_ERROR_SECTION_VALIDBITS, *PWHEA_PCIEXPRESS_ERROR_
 ## -description
 
 
-The WHEA_PCIEXPRESS_ERROR_SECTION_VALIDBITS union describes which members of a <a href="..\ntddk\ns-ntddk-_whea_pciexpress_error_section.md">WHEA_PCIEXPRESS_ERROR_SECTION</a> structure contain valid data.
-
-
-## -syntax
-
-
-````
-typedef union _WHEA_PCIEXPRESS_ERROR_SECTION_VALIDBITS {
-  struct {
-    ULONGLONG PortType  :1;
-    ULONGLONG Version  :1;
-    ULONGLONG CommandStatus  :1;
-    ULONGLONG DeviceId  :1;
-    ULONGLONG DeviceSerialNumber  :1;
-    ULONGLONG BridgeControlStatus  :1;
-    ULONGLONG ExpressCapability  :1;
-    ULONGLONG AerInfo  :1;
-    ULONGLONG Reserved  :56;
-  };
-  ULONGLONG ValidBits;
-} WHEA_PCIEXPRESS_ERROR_SECTION_VALIDBITS, *PWHEA_PCIEXPRESS_ERROR_SECTION_VALIDBITS;
-````
+The WHEA_PCIEXPRESS_ERROR_SECTION_VALIDBITS union describes which members of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff560576">WHEA_PCIEXPRESS_ERROR_SECTION</a> structure contain valid data.
 
 
 ## -struct-fields
@@ -137,19 +117,18 @@ A single bit that indicates that the <b>Version</b> member of the WHEA_PCIEXPRES
 
 
 
-A WHEA_PCIEXPRESS_ERROR_SECTION_VALIDBITS union is contained within the <a href="..\ntddk\ns-ntddk-_whea_pciexpress_error_section.md">WHEA_PCIEXPRESS_ERROR_SECTION</a> structure.
+A WHEA_PCIEXPRESS_ERROR_SECTION_VALIDBITS union is contained within the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560576">WHEA_PCIEXPRESS_ERROR_SECTION</a> structure.
 
 
 
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_whea_pciexpress_error_section.md">WHEA_PCIEXPRESS_ERROR_SECTION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560576">WHEA_PCIEXPRESS_ERROR_SECTION</a>
  
 
  
-
 

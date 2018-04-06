@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsAddIrpToCancelableQueue
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,20 +52,6 @@ req.typenames:
 
 
 The <b>KsAddIrpToCancelableQueue</b> function adds an IRP to a queue of cancelable IRPs, thus allowing the IRP to be canceled. If the IRP had been previously set to a canceled state, the <b>KsAddIrpToCancelableQueue </b>function completes the canceling of that IRP. 
-
-
-## -syntax
-
-
-````
-VOID KsAddIrpToCancelableQueue(
-  _Inout_  PLIST_ENTRY           QueueHead,
-  _In_     PKSPIN_LOCK           SpinLock,
-  _In_     PIRP                  Irp,
-  _In_     KSLIST_ENTRY_LOCATION ListLocation,
-  _In_opt_ PDRIVER_CANCEL        DriverCancel
-);
-````
 
 
 ## -parameters

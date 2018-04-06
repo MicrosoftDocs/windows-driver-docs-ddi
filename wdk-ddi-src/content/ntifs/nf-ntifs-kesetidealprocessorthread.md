@@ -7,7 +7,7 @@ old-location: ifsk\kesetidealprocessorthread.htm
 old-project: ifsk
 ms.assetid: ac8cf336-c2b7-4949-8237-a2008b9d883f
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: KeSetIdealProcessorThread, KeSetIdealProcessorThread function [Installable File System Drivers], ifsk.kesetidealprocessorthread, keref_3a412d87-c325-4369-99f6-1b31225eb02e.xml, ntifs/KeSetIdealProcessorThread
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntifs.h
 api_name:
 -	KeSetIdealProcessorThread
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -50,16 +51,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>KeSetIdealProcessorThread</b> routine is reserved for system use. 
-
-
-## -syntax
-
-
-````
-  KeSetIdealProcessorThread(
-    
-);
-````
 
 
 ## -parameters

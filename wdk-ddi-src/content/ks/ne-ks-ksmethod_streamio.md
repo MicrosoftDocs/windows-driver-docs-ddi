@@ -38,7 +38,8 @@ api_location:
 -	Ks.h
 api_name:
 -	KSMETHOD_STREAMIO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSMETHOD_STREAMIO
 ---
@@ -50,17 +51,6 @@ req.typenames: KSMETHOD_STREAMIO
 
 
 
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  KSMETHOD_STREAMIO_READ,
-  KSMETHOD_STREAMIO_WRITE
-} KSMETHOD_STREAMIO;
-````
 
 
 ## -enum-fields

@@ -38,7 +38,8 @@ api_location:
 -	Ksi.h
 api_name:
 -	KSPROPERTY_SERVICE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSPROPERTY_SERVICE
 ---
@@ -50,17 +51,6 @@ req.typenames: KSPROPERTY_SERVICE
 
 
 
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  KSPROPERTY_SERVICE_BUILDCACHE,
-  KSPROPERTY_SERVICE_MERIT
-} KSPROPERTY_SERVICE;
-````
 
 
 ## -enum-fields

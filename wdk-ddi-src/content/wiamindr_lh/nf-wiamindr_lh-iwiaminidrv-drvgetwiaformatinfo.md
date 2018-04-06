@@ -38,7 +38,8 @@ api_location:
 -	wiamindr_lh.h
 api_name:
 -	IWiaMiniDrv.drvGetWiaFormatInfo
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SCANWINDOW, *PSCANWINDOW
 req.product: Windows 10 or later.
@@ -51,20 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>IWiaMiniDrv::drvGetWiaFormatInfo</b> method finds the image formats and media types that the WIA hardware device supports.
-
-
-## -syntax
-
-
-````
-HRESULT drvGetWiaFormatInfo(
-  [in]            BYTE            *pWiasContext,
-  [in]            LONG            lFlags,
-  [out]           LONG            *pcelt,
-  [out, optional] WIA_FORMAT_INFO **ppwfi,
-  [out]           LONG            *plDevErrVal
-);
-````
 
 
 ## -parameters
@@ -148,7 +135,10 @@ The minidriver can define a global array to hold the WIA_FORMAT_INFO structures,
 
 ## -see-also
 
-<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrv.md">IWiaMiniDrv</a>
+
+
+
+<a href="https://msdn.microsoft.com/15068d10-5e24-427c-9684-24ce67b75ada">IWiaMiniDrv</a>
 
 
 
@@ -157,11 +147,7 @@ The minidriver can define a global array to hold the WIA_FORMAT_INFO structures,
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543982">IWiaMiniDrv::drvGetDeviceErrorStr</a>
-
-
-
  
 
  
-
 

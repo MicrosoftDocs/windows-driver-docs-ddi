@@ -7,7 +7,7 @@ old-location: kernel\file_valid_data_length_information.htm
 old-project: kernel
 ms.assetid: 78badbac-9f77-4911-a42b-c0421be47f20
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*PFILE_VALID_DATA_LENGTH_INFORMATION, FILE_VALID_DATA_LENGTH_INFORMATION, FILE_VALID_DATA_LENGTH_INFORMATION structure [Kernel-Mode Driver Architecture], PFILE_VALID_DATA_LENGTH_INFORMATION, PFILE_VALID_DATA_LENGTH_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _FILE_VALID_DATA_LENGTH_INFORMATION, kernel.file_valid_data_length_information, kstruct_b_4db45831-d238-4274-b0f3-f1945e187eb5.xml, ntddk/FILE_VALID_DATA_LENGTH_INFORMATION, ntddk/PFILE_VALID_DATA_LENGTH_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ntddk.h
 api_name:
 -	FILE_VALID_DATA_LENGTH_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FILE_VALID_DATA_LENGTH_INFORMATION, *PFILE_VALID_DATA_LENGTH_INFORMATION
 ---
@@ -49,17 +50,7 @@ req.typenames: FILE_VALID_DATA_LENGTH_INFORMATION, *PFILE_VALID_DATA_LENGTH_INFO
 ## -description
 
 
-The <b>FILE_VALID_DATA_LENGTH_INFORMATION</b> structure is used as an argument to <a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>.
-
-
-## -syntax
-
-
-````
-typedef struct _FILE_VALID_DATA_LENGTH_INFORMATION {
-  LARGE_INTEGER ValidDataLength;
-} FILE_VALID_DATA_LENGTH_INFORMATION, *PFILE_VALID_DATA_LENGTH_INFORMATION;
-````
+The <b>FILE_VALID_DATA_LENGTH_INFORMATION</b> structure is used as an argument to <a href="https://msdn.microsoft.com/library/windows/hardware/ff567096">ZwSetInformationFile</a>.
 
 
 ## -struct-fields
@@ -105,12 +96,11 @@ This structure must be aligned on a LONGLONG (8-byte) boundary.
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567096">ZwSetInformationFile</a>
  
 
  
-
 

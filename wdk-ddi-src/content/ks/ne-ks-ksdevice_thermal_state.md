@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSDEVICE_THERMAL_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSDEVICE_THERMAL_STATE
 ---
@@ -50,17 +51,6 @@ req.typenames: KSDEVICE_THERMAL_STATE
 
 
  A KS-defined enumeration for thermal state changes.
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  KSDEVICE_THERMAL_STATE_LOW,
-  KSDEVICE_THERMAL_STATE_HIGH
-} KSDEVICE_THERMAL_STATE;
-````
 
 
 ## -enum-fields

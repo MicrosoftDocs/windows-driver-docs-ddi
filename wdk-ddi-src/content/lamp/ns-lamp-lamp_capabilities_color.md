@@ -38,7 +38,8 @@ api_location:
 -	lamp.h
 api_name:
 -	LAMP_CAPABILITIES_COLOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: LAMP_CAPABILITIES_COLOR
 ---
@@ -50,17 +51,6 @@ req.typenames: LAMP_CAPABILITIES_COLOR
 
 
 This structure is the I/O parameter type of <b>IOCTL_LAMP_{GET|SET}_INTENSITY_COLOR</b>.
-
-
-## -syntax
-
-
-````
-typedef struct LAMP_CAPABILITIES_COLOR {
-  BOOLEAN IsSupported;
-  BOOLEAN IsLightIntensityAdjustable;
-} LAMP_CAPABILITIES_COLOR;
-````
 
 
 ## -struct-fields
@@ -75,6 +65,6 @@ typedef struct LAMP_CAPABILITIES_COLOR {
 
 ### -field IsLightIntensityAdjustable
 
-If <b>IsSupported</b> evaluates to <b>TRUE</b> (the driver is capable of emitting color light) and this field evaluates to <b>TRUE</b>, a client can get/set light intensity of a color lamp by calling <a href="..\lamp\ni-lamp-ioctl_lamp_get_intensity_color.md">IOCTL_LAMP_GET_INTENSITY_COLOR</a> and <a href="..\lamp\ni-lamp-ioctl_lamp_set_intensity_color.md">IOCTL_LAMP_SET_INTENSITY_COLOR</a>.
+If <b>IsSupported</b> evaluates to <b>TRUE</b> (the driver is capable of emitting color light) and this field evaluates to <b>TRUE</b>, a client can get/set light intensity of a color lamp by calling <a href="https://msdn.microsoft.com/library/windows/hardware/dn925069">IOCTL_LAMP_GET_INTENSITY_COLOR</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/dn925076">IOCTL_LAMP_SET_INTENSITY_COLOR</a>.
 
 

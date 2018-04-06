@@ -7,7 +7,7 @@ old-location: ifsk\fsrtldissectdbcs.htm
 old-project: ifsk
 ms.assetid: c5c400af-9e59-4cf0-b66f-985fcdcbc75c
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FsRtlDissectDbcs, FsRtlDissectDbcs routine [Installable File System Drivers], fsrtlref_95d6ca19-1a11-4fc9-85a5-ea3cf307d2d0.xml, ifsk.fsrtldissectdbcs, ntifs/FsRtlDissectDbcs
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	FsRtlDissectDbcs
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -50,18 +51,6 @@ req.typenames: TOKEN_TYPE
 
 
 Given an ANSI or double-byte character set (DBCS) pathname string, the <b>FsRtlDissectDbcs</b> routine returns two strings: one containing the first file name found in the string, the other containing the remaining unparsed portion of the pathname string.
-
-
-## -syntax
-
-
-````
-VOID FsRtlDissectDbcs(
-  _In_  ANSI_STRING  Path,
-  _Out_ PANSI_STRING FirstName,
-  _Out_ PANSI_STRING RemainingName
-);
-````
 
 
 ## -parameters
@@ -247,12 +236,11 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540605">ANSI_STRING</a>
-
-
-
  
 
  
-
 

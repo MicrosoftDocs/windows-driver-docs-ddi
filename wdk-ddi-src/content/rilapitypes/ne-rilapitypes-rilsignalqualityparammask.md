@@ -7,7 +7,7 @@ old-location: netvista\rilsignalqualityparammask.htm
 old-project: netvista
 ms.assetid: cf6727dc-e6f3-418e-bee4-e372dcc29a66
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: RILSIGNALQUALITYPARAMMASK, RILSIGNALQUALITYPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_SQ_ALL, RIL_PARAM_SQ_NUMSIGNALBARS, RIL_PARAM_SQ_SIGNALSTRENGTH, RIL_PARAM_SQ_SNR, RIL_PARAM_SQ_SYSTEMTYPE, netvista.rilsignalqualityparammask, ntddrilapitypes/RILSIGNALQUALITYPARAMMASK, ntddrilapitypes/RIL_PARAM_SQ_ALL, ntddrilapitypes/RIL_PARAM_SQ_NUMSIGNALBARS, ntddrilapitypes/RIL_PARAM_SQ_SIGNALSTRENGTH, ntddrilapitypes/RIL_PARAM_SQ_SNR, ntddrilapitypes/RIL_PARAM_SQ_SYSTEMTYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILSIGNALQUALITYPARAMMASK
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILSIGNALQUALITYPARAMMASK
 req.product: Windows 10 or later.
@@ -51,20 +52,6 @@ req.product: Windows 10 or later.
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef enum _RILSIGNALQUALITYPARAMMASK { 
-  RIL_PARAM_SQ_SYSTEMTYPE,
-  RIL_PARAM_SQ_NUMSIGNALBARS,
-  RIL_PARAM_SQ_SIGNALSTRENGTH,
-  RIL_PARAM_SQ_SNR,
-  RIL_PARAM_SQ_ALL
-} RILSIGNALQUALITYPARAMMASK;
-````
 
 
 ## -enum-fields

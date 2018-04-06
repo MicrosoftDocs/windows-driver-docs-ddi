@@ -38,7 +38,8 @@ api_location:
 -	bdamedia.h
 api_name:
 -	KS_DATARANGE_BDA_ANTENNA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KS_DATARANGE_BDA_ANTENNA, *PKS_DATARANGE_BDA_ANTENNA
 ---
@@ -50,16 +51,6 @@ req.typenames: KS_DATARANGE_BDA_ANTENNA, *PKS_DATARANGE_BDA_ANTENNA
 
 
 The KS_DATARANGE_BDA_ANTENNA structure describes a range of data formats for a BDA antenna stream. 
-
-
-## -syntax
-
-
-````
-typedef struct tagKS_DATARANGE_BDA_ANTENNA {
-  KSDATARANGE DataRange;
-} KS_DATARANGE_BDA_ANTENNA, *PKS_DATARANGE_BDA_ANTENNA;
-````
 
 
 ## -struct-fields
@@ -85,7 +76,6 @@ Pins of filters specify the data ranges they support to enable stream connection
 
 ## -see-also
 
-<a href="..\ks\ns-ks-kspin_descriptor.md">KSPIN_DESCRIPTOR</a>
 
 
 
@@ -97,8 +87,8 @@ Pins of filters specify the data ranges they support to enable stream connection
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563533">KSPIN_DESCRIPTOR</a>
  
 
  
-
 

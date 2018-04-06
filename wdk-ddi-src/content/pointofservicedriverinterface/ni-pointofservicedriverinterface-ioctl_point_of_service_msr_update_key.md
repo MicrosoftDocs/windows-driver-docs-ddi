@@ -38,7 +38,8 @@ api_location:
 -	pointofservicedriverinterface.h
 api_name:
 -	IOCTL_POINT_OF_SERVICE_MSR_UPDATE_KEY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PosPropertyId
 ---
@@ -59,7 +60,7 @@ This I/O control function sets a new encryption key.
 
 ### -input-buffer
 
-Pointer to the input buffer, a <a href="..\pointofservicedriverinterface\ns-pointofservicedriverinterface-_msr_update_key.md">MSR_UPDATE_KEY</a> variable.
+Pointer to the input buffer, a <a href="https://msdn.microsoft.com/library/windows/hardware/dn772191">MSR_UPDATE_KEY</a> variable.
 
 
 ### -input-buffer-length

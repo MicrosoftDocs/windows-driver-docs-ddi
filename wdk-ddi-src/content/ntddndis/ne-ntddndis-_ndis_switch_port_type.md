@@ -7,7 +7,7 @@ old-location: netvista\ndis_switch_port_type.htm
 old-project: netvista
 ms.assetid: 4FCE88BC-6FA1-44D0-9BC1-3065A5EEE1A0
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NDIS_SWITCH_PORT_TYPE, NDIS_SWITCH_PORT_TYPE enumeration [Network Drivers Starting with Windows Vista], NdisSwitchPortTypeEmulated, NdisSwitchPortTypeExternal, NdisSwitchPortTypeGeneric, NdisSwitchPortTypeInternal, NdisSwitchPortTypeSynthetic, PNDIS_SWITCH_PORT_TYPE, PNDIS_SWITCH_PORT_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_PORT_TYPE, netvista.ndis_switch_port_type, ntddndis/NDIS_SWITCH_PORT_TYPE, ntddndis/NdisSwitchPortTypeEmulated, ntddndis/NdisSwitchPortTypeExternal, ntddndis/NdisSwitchPortTypeGeneric, ntddndis/NdisSwitchPortTypeInternal, ntddndis/NdisSwitchPortTypeSynthetic, ntddndis/PNDIS_SWITCH_PORT_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ntddndis.h
 api_name:
 -	NDIS_SWITCH_PORT_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_SWITCH_PORT_TYPE
 ---
@@ -53,20 +54,6 @@ req.typenames: NDIS_SWITCH_PORT_TYPE
 The <b>NDIS_SWITCH_PORT_TYPE</b> enumeration specifies the type of  a Hyper-V extensible switch port.  
 
 
-
-
-## -syntax
-
-
-````
-typedef enum _NDIS_SWITCH_PORT_TYPE { 
-  NdisSwitchPortTypeGeneric    = 0,
-  NdisSwitchPortTypeExternal   = 1,
-  NdisSwitchPortTypeSynthetic  = 2,
-  NdisSwitchPortTypeEmulated   = 3,
-  NdisSwitchPortTypeInternal   = 4
-} NDIS_SWITCH_PORT_TYPE, *PNDIS_SWITCH_PORT_TYPE;
-````
 
 
 ## -enum-fields
@@ -115,7 +102,7 @@ The internal network adapter provides access to an extensible switch for process
 
 
 
-The <b>PortType</b> member of the <a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_parameters.md">NDIS_SWITCH_PORT_PARAMETERS</a> structure is an <b>NDIS_SWITCH_PORT_TYPE</b> enumeration data type. 
+The <b>PortType</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh598229">NDIS_SWITCH_PORT_PARAMETERS</a> structure is an <b>NDIS_SWITCH_PORT_TYPE</b> enumeration data type. 
 
 
 
@@ -128,7 +115,6 @@ For more information on the extensible switch ports, see <a href="https://msdn.m
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_parameters.md">NDIS_SWITCH_PORT_PARAMETERS</a>
 
 
 
@@ -136,8 +122,8 @@ For more information on the extensible switch ports, see <a href="https://msdn.m
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598229">NDIS_SWITCH_PORT_PARAMETERS</a>
  
 
  
-
 

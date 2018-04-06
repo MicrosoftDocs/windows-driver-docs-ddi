@@ -38,7 +38,8 @@ api_location:
 -	bthddi.h
 api_name:
 -	PCM_DATA_FORMAT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PCM_DATA_FORMAT, *PPCM_DATA_FORMAT
 ---
@@ -50,16 +51,6 @@ req.typenames: PCM_DATA_FORMAT, *PPCM_DATA_FORMAT
 
 
 This enumeration is for internal use only.
-
-
-## -syntax
-
-
-````
-typedef enum _PCM_DATA_FORMAT { 
-    = 
-} PCM_DATA_FORMAT, *PPCM_DATA_FORMAT;
-````
 
 
 ## -enum-fields

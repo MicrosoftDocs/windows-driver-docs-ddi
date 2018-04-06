@@ -7,7 +7,7 @@ old-location: kernel\interlockedand.htm
 old-project: kernel
 ms.assetid: 3b1ff981-7f87-4a47-81a3-3e323459c333
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: InterlockedAnd, InterlockedAnd function [Kernel-Mode Driver Architecture], k102_839df216-b391-436b-9e33-d60dfbb5dbe9.xml, kernel.interlockedand, wdm/InterlockedAnd
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	wdm.h
 api_name:
 -	InterlockedAnd
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
@@ -51,17 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>InterlockedAnd</b> macro atomically computes a bitwise AND operation.
-
-
-## -syntax
-
-
-````
-LONG InterlockedAnd(
-  _Inout_ LONG volatile *Destination,
-  _In_    LONG          Value
-);
-````
 
 
 ## -parameters
@@ -101,16 +91,15 @@ Interlocked operations cannot be used on non-cached memory.
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-interlockedxor.md">InterlockedXor</a>
 
 
 
-<a href="..\wdm\nf-wdm-interlockedor.md">InterlockedOr</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547928">InterlockedOr</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547933">InterlockedXor</a>
  
 
  
-
 

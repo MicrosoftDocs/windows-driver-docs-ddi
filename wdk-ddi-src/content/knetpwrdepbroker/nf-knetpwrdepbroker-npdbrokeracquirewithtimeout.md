@@ -7,7 +7,7 @@ old-location: netvista\npdbrokeracquirewithtimeout.htm
 old-project: netvista
 ms.assetid: D2067A72-0FF5-4D77-A1F6-0A6984A1735A
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NpdBrokerAcquireWithTimeout, NpdBrokerAcquireWithTimeout function [Network Drivers Starting with Windows Vista], knetpwrdepbroker/NpdBrokerAcquireWithTimeout, netvista.npdbrokeracquirewithtimeout
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	KNetPwrDepBroker.h
 api_name:
 -	NpdBrokerAcquireWithTimeout
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SOUNDDETECTOR_PATTERNHEADER
 ---
@@ -50,17 +51,6 @@ req.typenames: SOUNDDETECTOR_PATTERNHEADER
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-NTSTATUS NpdBrokerAcquireWithTimeout(
-  _In_ HANDLE hBroker,
-  _In_ LONG   lTimeoutMS
-);
-````
 
 
 ## -parameters

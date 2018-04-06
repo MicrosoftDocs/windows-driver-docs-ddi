@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSPIN_CONNECT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSPIN_CONNECT, *PKSPIN_CONNECT
 ---
@@ -49,21 +50,7 @@ req.typenames: KSPIN_CONNECT, *PKSPIN_CONNECT
 ## -description
 
 
-Clients use the KSPIN_CONNECT structure to describe the connection they request from a driver in a <a href="..\ks\nf-ks-kscreatepin.md">KsCreatePin</a> call.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  KSPIN_INTERFACE Interface;
-  KSPIN_MEDIUM    Medium;
-  ULONG           PinId;
-  HANDLE          PinToHandle;
-  KSPRIORITY      Priority;
-} KSPIN_CONNECT, *PKSPIN_CONNECT;
-````
+Clients use the KSPIN_CONNECT structure to describe the connection they request from a driver in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff561652">KsCreatePin</a> call.
 
 
 ## -struct-fields
@@ -93,7 +80,7 @@ Specifies what type of destination pin the create is intended for, and in the ca
 
 ### -field Priority
 
-A structure of type <a href="..\ks\ns-ks-kspriority.md">KSPRIORITY</a> that specifies the priority for the connection, usually KSPRIORITY_NORMAL. See the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565104">KSPROPERTY_CONNECTION_PRIORITY</a> property for details.
+A structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff564250">KSPRIORITY</a> that specifies the priority for the connection, usually KSPRIORITY_NORMAL. See the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565104">KSPROPERTY_CONNECTION_PRIORITY</a> property for details.
 
 
 ## -remarks
@@ -107,11 +94,6 @@ If the KSPIN_CONNECT.PinToHandle element is not <b>NULL</b>, IRP_MJ_CREATE instr
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565104">KSPROPERTY_CONNECTION_PRIORITY</a>
-
-
-
-<a href="..\ks\nf-ks-kscreatepin.md">KsCreatePin</a>
 
 
 
@@ -119,8 +101,12 @@ If the KSPIN_CONNECT.PinToHandle element is not <b>NULL</b>, IRP_MJ_CREATE instr
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565104">KSPROPERTY_CONNECTION_PRIORITY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561652">KsCreatePin</a>
  
 
  
-
 

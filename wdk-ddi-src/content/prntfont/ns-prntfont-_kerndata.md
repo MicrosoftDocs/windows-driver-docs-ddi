@@ -38,7 +38,8 @@ api_location:
 -	prntfont.h
 api_name:
 -	KERNDATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KERNDATA, *PKERNDATA
 req.product: Windows 10 or later.
@@ -51,18 +52,6 @@ req.product: Windows 10 or later.
 
 
 The KERNDATA structure is used for describing printer kerning pairs.
-
-
-## -syntax
-
-
-````
-typedef struct _KERNDATA {
-  DWORD          dwSize;
-  DWORD          dwKernPairNum;
-  FD_KERNINGPAIR KernPair[1];
-} KERNDATA, *PKERNDATA;
-````
 
 
 ## -struct-fields
@@ -89,23 +78,22 @@ Is an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff56
 
 
 
-A .ufm file's KERNDATA structures are accessed by a pointer in the file's <a href="..\prntfont\ns-prntfont-_unifm_hdr.md">UNIFM_HDR</a> structure.
+A .ufm file's KERNDATA structures are accessed by a pointer in the file's <a href="https://msdn.microsoft.com/library/windows/hardware/ff563587">UNIFM_HDR</a> structure.
 
 
 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565630">FD_KERNINGPAIR</a>
 
 
 
-<a href="..\prntfont\ns-prntfont-_unifm_hdr.md">UNIFM_HDR</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563587">UNIFM_HDR</a>
  
 
  
-
 

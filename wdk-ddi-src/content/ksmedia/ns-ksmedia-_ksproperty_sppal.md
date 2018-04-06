@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KSPROPERTY_SPPAL
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSPROPERTY_SPPAL, *PKSPROPERTY_SPPAL
 ---
@@ -50,16 +51,6 @@ req.typenames: KSPROPERTY_SPPAL, *PKSPROPERTY_SPPAL
 
 
 The KSPROPERTY_SPPAL structure is used to describe the palette of a subpicture display.
-
-
-## -syntax
-
-
-````
-typedef struct _KSPROPERTY_SPPAL {
-  KS_DVD_YUV sppal[16];
-} KSPROPERTY_SPPAL, *PKSPROPERTY_SPPAL;
-````
 
 
 ## -struct-fields
@@ -83,12 +74,11 @@ The KSPROPERTY_SPPAL structure is used by the <a href="https://msdn.microsoft.co
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565151">KSPROPERTY_DVDSUBPIC_PALETTE</a>
-
-
-
  
 
  
-
 

@@ -38,7 +38,8 @@ api_location:
 -	1394.h
 api_name:
 -	IRB_REQ_ISOCH_FREE_BANDWIDTH
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: IRB_REQ_ISOCH_FREE_BANDWIDTH
 ---
@@ -50,16 +51,6 @@ req.typenames: IRB_REQ_ISOCH_FREE_BANDWIDTH
 
 
 This structure contains the fields necessary in order for the Bus driver to carry out an <b>IsochFreeBandwidth</b> request.
-
-
-## -syntax
-
-
-````
-typedef struct _IRB_REQ_ISOCH_FREE_BANDWIDTH {
-  HANDLE hBandwidth;
-} IRB_REQ_ISOCH_FREE_BANDWIDTH;
-````
 
 
 ## -struct-fields

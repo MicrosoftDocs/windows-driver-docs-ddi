@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSDPC_ITEM
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSDPC_ITEM, *PKSDPC_ITEM
 ---
@@ -50,18 +51,6 @@ req.typenames: KSDPC_ITEM, *PKSDPC_ITEM
 
 
 The KSDPC_ITEM structure is used to store information related to any internal DPCs that might be used to generate event notification from a raised IRQL.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  KDPC       Dpc;
-  ULONG      ReferenceCount;
-  KSPIN_LOCK AccessLock;
-} KSDPC_ITEM, *PKSDPC_ITEM;
-````
 
 
 ## -struct-fields
@@ -95,12 +84,11 @@ KSDPC_ITEM uses a reference counting scheme to determine when to free the struct
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551882">KDPC</a>
-
-
-
  
 
  
-
 

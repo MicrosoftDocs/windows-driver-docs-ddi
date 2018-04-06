@@ -38,7 +38,8 @@ api_location:
 -	Ks.h
 api_name:
 -	KSSTACK_USE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSSTACK_USE
 ---
@@ -50,18 +51,6 @@ req.typenames: KSSTACK_USE
 
 
 
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  KsStackCopyToNewLocation,
-  KsStackReuseCurrentLocation,
-  KsStackUseNewLocation
-} KSSTACK_USE;
-````
 
 
 ## -enum-fields

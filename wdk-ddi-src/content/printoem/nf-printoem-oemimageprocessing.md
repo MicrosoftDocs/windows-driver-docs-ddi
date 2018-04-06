@@ -38,7 +38,8 @@ api_location:
 -	printoem.h
 api_name:
 -	OEMImageProcessing
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STDVARIABLEINDEX
 req.product: Windows 10 or later.
@@ -50,21 +51,6 @@ req.product: Windows 10 or later.
 ## -description
 
 
-
-
-## -syntax
-
-
-````
-PBYTE APIENTRY OEMImageProcessing(
-   PDEVOBJ           pdevobj,
-   PBYTE             pSrcBitmap,
-   PBITMAPINFOHEADER pBitmapInfoHeader,
-   PBYTE             pColorTable,
-   DWORD             dwCallbackID,
-   PIPPARAMS         pIPParams
-);
-````
 
 
 ## -parameters

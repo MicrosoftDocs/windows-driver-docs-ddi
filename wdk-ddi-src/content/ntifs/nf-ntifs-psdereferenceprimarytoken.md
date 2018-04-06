@@ -7,7 +7,7 @@ old-location: ifsk\psdereferenceprimarytoken.htm
 old-project: ifsk
 ms.assetid: cff4bd05-b70d-4c07-a6c0-7ee4287aeab0
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: PsDereferencePrimaryToken, PsDereferencePrimaryToken routine [Installable File System Drivers], ifsk.psdereferenceprimarytoken, ntifs/PsDereferencePrimaryToken, psref_d3e4caeb-19a5-49d5-909a-5cb78a54f2e5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	PsDereferencePrimaryToken
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -50,16 +51,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>PsDereferencePrimaryToken</b> routine decrements the reference count of a primary token.
-
-
-## -syntax
-
-
-````
-VOID PsDereferencePrimaryToken(
-  _In_ PACCESS_TOKEN PrimaryToken
-);
-````
 
 
 ## -parameters
@@ -94,12 +85,11 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-psdereferenceimpersonationtoken.md">PsDereferenceImpersonationToken</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551893">PsDereferenceImpersonationToken</a>
  
 
  
-
 

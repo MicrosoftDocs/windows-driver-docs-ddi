@@ -7,7 +7,7 @@ old-location: debugger\writephysicalwithflags.htm
 old-project: debugger
 ms.assetid: ae679f76-2e26-43f2-a097-1e158fbc0cc7
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: WdbgExts_Ref_7ef1e63e-87e2-4bf3-a432-78639684a18c.xml, WritePhysicalWithFlags, WritePhysicalWithFlags function [Windows Debugging], debugger.writephysicalwithflags, wdbgexts/WritePhysicalWithFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	wdbgexts.h
 api_name:
 -	WritePhysicalWithFlags
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXT_TDOP
 req.product: Windows 10 or later.
@@ -51,20 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>WritePhysicalWithFlags</b> function writes to physical memory.
-
-
-## -syntax
-
-
-````
-VOID WritePhysicalWithFlags(
-   ULONG64 address,
-   PVOID   buf,
-   ULONG   size,
-   ULONG   flags,
-   PULONG  sizew
-);
-````
 
 
 ## -parameters
@@ -165,16 +152,15 @@ For a WdbgExts extension, include wdbgexts.h. For a DbgEng extension, include wd
 
 ## -see-also
 
-<a href="..\wdbgexts\nf-wdbgexts-readphysicalwithflags.md">ReadPhysicalWithFlags</a>
 
 
 
-<a href="..\wdbgexts\nf-wdbgexts-writephysical.md">WritePhysical</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554315">ReadPhysicalWithFlags</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561432">WritePhysical</a>
  
 
  
-
 

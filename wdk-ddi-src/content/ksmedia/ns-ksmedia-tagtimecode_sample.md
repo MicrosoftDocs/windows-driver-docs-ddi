@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	TIMECODE_SAMPLE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TIMECODE_SAMPLE
 ---
@@ -50,19 +51,6 @@ req.typenames: TIMECODE_SAMPLE
 
 
 The TIMECODE_SAMPLE structure describes a complete timecode.
-
-
-## -syntax
-
-
-````
-typedef struct tagTIMECODE_SAMPLE {
-  LONGLONG qwTick;
-  TIMECODE timecode;
-  DWORD    dwUser;
-  DWORD    dwFlags;
-} TIMECODE_SAMPLE;
-````
 
 
 ## -struct-fields
@@ -77,7 +65,7 @@ Specifies a reference time, in 100-nanosecond units.
 
 ### -field timecode
 
-Specifies the <a href="..\ksmedia\ns-ksmedia-_timecode.md">TIMECODE</a> structure.
+Specifies the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568520">TIMECODE</a> structure.
 
 
 ### -field dwUser
@@ -211,12 +199,11 @@ The upper 16 bits in <b>dwFlags</b> are reserved for future use and must be set 
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-_timecode.md">TIMECODE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568520">TIMECODE</a>
  
 
  
-
 

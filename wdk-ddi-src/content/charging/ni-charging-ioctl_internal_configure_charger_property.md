@@ -38,7 +38,8 @@ api_location:
 -	charging.h
 api_name:
 -	IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: POWERSOURCEID, *PPOWERSOURCEID
 ---
@@ -60,7 +61,7 @@ The <b>IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY</b>
 
 ### -input-buffer
 
-<b>Irp-&gt;AssociatedIrp.SystemBuffer</b> must contain a structure that starts with a <a href="..\charging\ns-charging-_configurable_charger_property_header.md">CONFIGURABLE_CHARGER_PROPERTY_HEADER</a> structure.
+<b>Irp-&gt;AssociatedIrp.SystemBuffer</b> must contain a structure that starts with a <a href="https://msdn.microsoft.com/library/windows/hardware/mt186644">CONFIGURABLE_CHARGER_PROPERTY_HEADER</a> structure.
 
 
 ### -input-buffer-length
@@ -103,12 +104,11 @@ None.
 
 ## -see-also
 
-<a href="..\charging\ns-charging-_configurable_charger_property_header.md">CONFIGURABLE_CHARGER_PROPERTY_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186644">CONFIGURABLE_CHARGER_PROPERTY_HEADER</a>
  
 
  
-
 

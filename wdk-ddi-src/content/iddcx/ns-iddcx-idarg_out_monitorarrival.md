@@ -7,7 +7,7 @@ old-location: display\idarg_out_monitorarrival.htm
 old-project: display
 ms.assetid: 0e5c4b23-cb62-4320-9e55-d0da67b62aa1
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IDARG_OUT_MONITORARRIVAL, IDARG_OUT_MONITORARRIVAL structure [Display Devices], display.idarg_out_monitorarrival, iddcx/IDARG_OUT_MONITORARRIVAL
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	iddcx.h
 api_name:
 -	IDARG_OUT_MONITORARRIVAL
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,17 +52,6 @@ req.typenames:
 
 Gives information about the monitor that is exposed to the OS.
              
-
-
-## -syntax
-
-
-````
-typedef struct IDARG_OUT_MONITORARRIVAL {
-  LUID OsAdapterLuid;
-  UINT OsTargetId;
-} IDARG_OUT_MONITORARRIVAL, *IDARG_OUT_MONITORARRIVAL;
-````
 
 
 ## -struct-fields
@@ -85,17 +75,16 @@ typedef struct IDARG_OUT_MONITORARRIVAL {
 
 <div class="alert"><b>Note</b>  There are no API/DDI calls the driver can make with this information. Its only use is to pass it to companion applications so they can identify the monitor they control.</div>
 <div> </div>
-<div class="alert"><b>Note</b>  Although this value is related to the <a href="..\iddcx\ns-iddcx-iddcx_monitor_info.md">IDDCX_MONITOR_INFO</a> value <b>ConnectorIndex</b> passed by the driver, the OS will perform internal mapping between the two that will change in future release. As such, the driver should not take any dependencies on this mapping and should use <b>OsAdapterLuid</b> &amp; <b>OsTargetId</b> instead.</div>
+<div class="alert"><b>Note</b>  Although this value is related to the <a href="https://msdn.microsoft.com/library/windows/hardware/mt761950">IDDCX_MONITOR_INFO</a> value <b>ConnectorIndex</b> passed by the driver, the OS will perform internal mapping between the two that will change in future release. As such, the driver should not take any dependencies on this mapping and should use <b>OsAdapterLuid</b> &amp; <b>OsTargetId</b> instead.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="..\iddcx\ns-iddcx-iddcx_monitor_info.md">IDDCX_MONITOR_INFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt761950">IDDCX_MONITOR_INFO</a>
  
 
  
-
 

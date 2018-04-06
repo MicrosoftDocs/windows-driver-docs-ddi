@@ -7,7 +7,7 @@ old-location: kernel\pounregistersystemstate.htm
 old-project: kernel
 ms.assetid: 5d82342e-c800-44ac-8618-468355d14dd0
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: PoUnregisterSystemState, PoUnregisterSystemState routine [Kernel-Mode Driver Architecture], kernel.pounregistersystemstate, portn_b6118bd0-5fe1-4e75-8c17-e81d1f26814c.xml, wdm/PoUnregisterSystemState
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	PoUnregisterSystemState
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
@@ -50,17 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>PoUnregisterSystemState</b> routine cancels a system state registration created by <a href="..\wdm\nf-wdm-poregistersystemstate.md">PoRegisterSystemState</a>.
-
-
-## -syntax
-
-
-````
-VOID PoUnregisterSystemState(
-  _Inout_ PVOID StateHandle
-);
-````
+The <b>PoUnregisterSystemState</b> routine cancels a system state registration created by <a href="https://msdn.microsoft.com/library/windows/hardware/ff559731">PoRegisterSystemState</a>.
 
 
 ## -parameters
@@ -93,12 +84,11 @@ This routine cancels a system busy state registration established by <b>PoRegist
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-poregistersystemstate.md">PoRegisterSystemState</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559731">PoRegisterSystemState</a>
  
 
  
-
 

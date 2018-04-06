@@ -7,7 +7,7 @@ old-location: debugger\getoffsetinformation.htm
 old-project: debugger
 ms.assetid: 5ef00c92-7b32-473a-8401-4c02e864c181
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: GetOffsetInformation method [Windows Debugging], GetOffsetInformation method [Windows Debugging], IDebugDataSpaces4 interface, GetOffsetInformation,IDebugDataSpaces4.GetOffsetInformation, IDebugDataSpaces4, IDebugDataSpaces4 interface [Windows Debugging], GetOffsetInformation method, IDebugDataSpaces4::GetOffsetInformation, IDebugDataSpaces_c434b12b-78ff-4f6a-ac69-6069dd273ba8.xml, dbgeng/IDebugDataSpaces4::GetOffsetInformation, debugger.getoffsetinformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugDataSpaces4.GetOffsetInformation
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -50,21 +51,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetOffsetInformation</b> method provides general information about an address in a process's data space.
-
-
-## -syntax
-
-
-````
-HRESULT GetOffsetInformation(
-  [in]            ULONG   Space,
-  [in]            ULONG   Which,
-  [in]            ULONG64 Offset,
-  [out, optional] PVOID   Buffer,
-  [in]            ULONG   BufferSize,
-  [out, optional] PULONG  InfoSize
-);
-````
 
 
 ## -parameters

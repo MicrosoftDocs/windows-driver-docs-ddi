@@ -7,7 +7,7 @@ old-location: display\dxgi_ddi_primary_desc.htm
 old-project: display
 ms.assetid: eb6db822-c6d3-43d0-91af-49d19189ed83
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGI_DDI_PRIMARY_DESC, DXGI_DDI_PRIMARY_DESC structure [Display Devices], UMDisplayDriver_Dx10param_Structs_a733016c-aa05-4d79-b13b-96d1bc33dac2.xml, display.dxgi_ddi_primary_desc, dxgiddi/DXGI_DDI_PRIMARY_DESC
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	dxgiddi.h
 api_name:
 -	DXGI_DDI_PRIMARY_DESC
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGI_DDI_PRIMARY_DESC
 ---
@@ -50,19 +51,6 @@ req.typenames: DXGI_DDI_PRIMARY_DESC
 
 
 Describes a resource that is used as a primary (that is, a resource that is scanned out to the display). 
-
-
-## -syntax
-
-
-````
-typedef struct DXGI_DDI_PRIMARY_DESC {
-  UINT                           Flags;
-  D3DDDI_VIDEO_PRESENT_SOURCE_ID VidPnSourceId;
-  DXGI_DDI_MODE_DESC             ModeDesc;
-  UINT                           DriverFlags;
-} DXGI_DDI_PRIMARY_DESC;
-````
 
 
 ## -struct-fields
@@ -124,7 +112,7 @@ The primary represents a stereo back buffer.
 
 ### -field ModeDesc
 
-[in] A <a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_mode_desc.md">DXGI_DDI_MODE_DESC</a> structure that describes the display mode. 
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff557499">DXGI_DDI_MODE_DESC</a> structure that describes the display mode. 
 
 
 ### -field DriverFlags
@@ -136,16 +124,15 @@ The DXGI_DDI_PRIMARY_DRIVER_FLAG_NO_SCANOUT (0x1) value is currently the only su
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createresource.md">D3D10DDIARG_CREATERESOURCE</a>
 
 
 
-<a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_mode_desc.md">DXGI_DDI_MODE_DESC</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541697">D3D10DDIARG_CREATERESOURCE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557499">DXGI_DDI_MODE_DESC</a>
  
 
  
-
 

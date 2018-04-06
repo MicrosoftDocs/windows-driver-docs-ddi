@@ -7,7 +7,7 @@ old-location: storage\sendrls_in.htm
 old-project: storage
 ms.assetid: ba78482f-243a-4f60-907e-8d5c4a702ef2
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSendRLS_IN, PSendRLS_IN, PSendRLS_IN structure pointer [Storage Devices], SendRLS_IN, SendRLS_IN structure [Storage Devices], _SendRLS_IN, hbapiwmi/PSendRLS_IN, hbapiwmi/SendRLS_IN, storage.sendrls_in, structs-Fibre_c78b38af-b1e5-4f98-a57c-9c4c81b4a5f3.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	hbapiwmi.h
 api_name:
 -	SendRLS_IN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SendRLS_IN, *PSendRLS_IN
 ---
@@ -50,17 +51,6 @@ req.typenames: SendRLS_IN, *PSendRLS_IN
 
 
 The SendRLS_IN structure is used to deliver input parameter data to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565442">SendRLS</a> WMI method.
-
-
-## -syntax
-
-
-````
-typedef struct _SendRLS_IN {
-  UCHAR PortWWN[8];
-  UCHAR DestWWN[8];
-} SendRLS_IN, *PSendRLS_IN;
-````
 
 
 ## -struct-fields
@@ -89,12 +79,11 @@ The WMI tool suite generates a declaration of the SendRLS_IN structure in <i>Hba
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565442">SendRLS</a>
-
-
-
  
 
  
-
 

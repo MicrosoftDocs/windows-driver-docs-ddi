@@ -38,7 +38,8 @@ api_location:
 -	wiamindr_lh.h
 api_name:
 -	IWiaDrvItem.GetParentItem
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SCANWINDOW, *PSCANWINDOW
 req.product: Windows 10 or later.
@@ -51,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>IWiaDrvItem::GetParentItem</b> gets the parent item of the current item.
-
-
-## -syntax
-
-
-````
-HRESULT GetParentItem(
-  [out, optional] IWiaDrvItem **ppIParentItem
-);
-````
 
 
 ## -parameters
@@ -100,11 +91,10 @@ Minidrivers typically use this method to obtain a pointer to the nonroot parent 
 
 ## -see-also
 
-<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiadrvitem.md">IWiaDrvItem</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543889">IWiaDrvItem::GetNextSiblingItem</a>
+<a href="https://msdn.microsoft.com/0609e1b2-48df-413c-90bd-d7ddea26510a">IWiaDrvItem</a>
 
 
 
@@ -112,8 +102,8 @@ Minidrivers typically use this method to obtain a pointer to the nonroot parent 
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543889">IWiaDrvItem::GetNextSiblingItem</a>
  
 
  
-
 

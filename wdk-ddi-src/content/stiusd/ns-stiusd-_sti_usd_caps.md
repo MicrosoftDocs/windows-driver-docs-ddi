@@ -38,7 +38,8 @@ api_location:
 -	stiusd.h
 api_name:
 -	STI_USD_CAPS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STI_USD_CAPS, *PSTI_USD_CAPS
 req.product: Windows 10 or later.
@@ -51,17 +52,6 @@ req.product: Windows 10 or later.
 
 
 The STI_USD_CAPS structure is used as a parameter for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543817">IStiUSD::GetCapabilities</a> method.
-
-
-## -syntax
-
-
-````
-typedef struct _STI_USD_CAPS {
-  DWORD dwVersion;
-  DWORD dwGenericCaps;
-} STI_USD_CAPS, *PSTI_USD_CAPS;
-````
 
 
 ## -struct-fields

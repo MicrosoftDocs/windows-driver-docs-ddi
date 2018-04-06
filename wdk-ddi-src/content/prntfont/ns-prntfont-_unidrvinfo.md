@@ -38,7 +38,8 @@ api_location:
 -	prntfont.h
 api_name:
 -	UNIDRVINFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UNIDRVINFO, *PUNIDRVINFO
 req.product: Windows 10 or later.
@@ -51,28 +52,6 @@ req.product: Windows 10 or later.
 
 
 The UNIDRVINFO structure is used to specify printer-specific information within <a href="https://msdn.microsoft.com/6e643703-ace1-4660-990c-3a9ca735829d">Unidrv font metrics files</a> (.ufm files).
-
-
-## -syntax
-
-
-````
-typedef struct _UNIDRVINFO {
-  DWORD dwSize;
-  DWORD flGenFlags;
-  WORD  wType;
-  WORD  fCaps;
-  WORD  wXRes;
-  WORD  wYRes;
-  short sYAdjust;
-  short sYMoved;
-  WORD  wPrivateData;
-  short sShift;
-  INVOC SelectFont;
-  INVOC UnSelectFont;
-  WORD  wReserved[4];
-} UNIDRVINFO, *PUNIDRVINFO;
-````
 
 
 ## -struct-fields
@@ -218,7 +197,7 @@ DF_BKSP_OK
 <td>
 If set, a single backspace character can move the cursor to the beginning of the overstrike region. If not set, an x-movement cursor command must be sent.
 
-(Used only if MTYPE_PAIRED is specified for the character's <a href="..\prntfont\ns-prntfont-_transdata.md">TRANSDATA</a> structure in <a href="..\prntfont\ns-prntfont-_maptable.md">MAPTABLE</a>. Otherwise ignored.)
+(Used only if MTYPE_PAIRED is specified for the character's <a href="https://msdn.microsoft.com/library/windows/hardware/ff562816">TRANSDATA</a> structure in <a href="https://msdn.microsoft.com/library/windows/hardware/ff556509">MAPTABLE</a>. Otherwise ignored.)
 
 </td>
 </tr>
@@ -318,7 +297,7 @@ Specifies the number of pixels by which each character must be shifted. Used for
 
 ### -field SelectFont
 
-Is an <a href="..\prntfont\ns-prntfont-_invoc.md">INVOC</a> structure containing the printer's font selection command.
+Is an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551796">INVOC</a> structure containing the printer's font selection command.
 
 
 ### -field UnSelectFont
@@ -335,19 +314,18 @@ Not used.
 
 
 
-A .ufm (Unidrv Font Metrics) file's UNIDRVINFO structure is accessed by a pointer in the file's <a href="..\prntfont\ns-prntfont-_unifm_hdr.md">UNIFM_HDR</a> structure.
+A .ufm (Unidrv Font Metrics) file's UNIDRVINFO structure is accessed by a pointer in the file's <a href="https://msdn.microsoft.com/library/windows/hardware/ff563587">UNIFM_HDR</a> structure.
 
 
 
 
 ## -see-also
 
-<a href="..\prntfont\ns-prntfont-_invoc.md">INVOC</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551796">INVOC</a>
  
 
  
-
 

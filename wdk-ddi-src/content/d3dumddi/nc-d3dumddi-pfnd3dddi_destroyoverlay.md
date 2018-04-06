@@ -7,7 +7,7 @@ old-location: display\destroyoverlay.htm
 old-project: display
 ms.assetid: 63004d19-e2cd-462c-8fa5-ea4dd6e29735
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DestroyOverlay, DestroyOverlay callback function [Display Devices], PFND3DDDI_DESTROYOVERLAY, UserModeDisplayDriver_Functions_e3dd8286-aff0-40c0-8cf2-84ecc706df90.xml, d3dumddi/DestroyOverlay, display.destroyoverlay
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	DestroyOverlay
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_PTE
 ---
@@ -50,20 +51,6 @@ req.typenames: DXGK_PTE
 
 
 The <b>DestroyOverlay</b> function disables the overlay hardware and frees the overlay handle.
-
-
-## -prototype
-
-
-````
-PFND3DDDI_DESTROYOVERLAY DestroyOverlay;
-
-__checkReturn HRESULT APIENTRY DestroyOverlay(
-  _In_       HANDLE                   hDevice,
-  _In_ const D3DDDIARG_DESTROYOVERLAY *pData
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -87,7 +74,7 @@ __checkReturn HRESULT APIENTRY DestroyOverlay(
 
 #### - pData [in]
 
- A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_destroyoverlay.md">D3DDDIARG_DESTROYOVERLAY</a> structure that contains the overlay handle.
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543042">D3DDDIARG_DESTROYOVERLAY</a> structure that contains the overlay handle.
 
 
 ## -returns
@@ -110,16 +97,15 @@ Overlays are independent from the resources that are displayed by using the over
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_destroyoverlay.md">D3DDDIARG_DESTROYOVERLAY</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543042">D3DDDIARG_DESTROYOVERLAY</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544519">D3DDDI_DEVICEFUNCS</a>
  
 
  
-
 

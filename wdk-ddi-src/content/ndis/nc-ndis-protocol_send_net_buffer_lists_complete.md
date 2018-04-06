@@ -7,7 +7,7 @@ old-location: netvista\protocolsendnetbufferlistscomplete.htm
 old-project: netvista
 ms.assetid: bc9197c5-ce0b-42b2-8225-fb9d83427ac8
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: PROTOCOL_SEND_NET_BUFFER_LISTS_COMPLETE, ProtocolSendNetBufferListsComplete, ProtocolSendNetBufferListsComplete callback function [Network Drivers Starting with Windows Vista], ndis/ProtocolSendNetBufferListsComplete, ndis_sendrcv_ref_1e393909-0442-45d4-ae57-7ec0f51671a4.xml, netvista.protocolsendnetbufferlistscomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ndis.h
 api_name:
 -	ProtocolSendNetBufferListsComplete
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
 ---
@@ -52,25 +53,10 @@ req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
 The 
   <i>ProtocolSendNetBufferListsComplete</i> function completes a send operation that the protocol driver
   initiated with a call to the 
-  <a href="..\ndis\nf-ndis-ndissendnetbufferlists.md">
+  <a href="https://msdn.microsoft.com/f615acc4-7e3e-4390-8a6a-e68663fcc162">
   NdisSendNetBufferLists</a> function.
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>PROTOCOL_SEND_NET_BUFFER_LISTS_COMPLETE</b> type. For more
    information, see the following Examples section.</div><div> </div>
-
-## -prototype
-
-
-````
-PROTOCOL_SEND_NET_BUFFER_LISTS_COMPLETE ProtocolSendNetBufferListsComplete;
-
-VOID ProtocolSendNetBufferListsComplete(
-  _In_ NDIS_HANDLE      ProtocolBindingContext,
-  _In_ PNET_BUFFER_LIST NetBufferLists,
-  _In_ ULONG            SendCompleteFlags
-)
-{ ... }
-````
-
 
 ## -parameters
 
@@ -81,7 +67,7 @@ VOID ProtocolSendNetBufferListsComplete(
 
 A handle to a context area that the protocol driver allocated to maintain state information about
      a binding. This handle was passed to NDIS in a previous call to 
-     <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff563715">NdisOpenAdapterEx</a>.
 
 
 ### -param NetBufferList
@@ -98,9 +84,9 @@ NDIS flags that can be combined with an OR operation. To clear all the flags, se
 #### - NetBufferLists [in]
 
 A pointer to a list of 
-     <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures that the
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structures that the
      protocol driver supplied in a previous call to 
-     <a href="..\ndis\nf-ndis-ndissendnetbufferlists.md">NdisSendNetBufferLists</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff564535">NdisSendNetBufferLists</a>.
 
 
 ## -returns
@@ -123,7 +109,7 @@ None
 
 NDIS calls 
     <i>ProtocolSendNetBufferListsComplete</i> after the underlying miniport driver calls the 
-    <a href="..\ndis\nf-ndis-ndismsendnetbufferlistscomplete.md">
+    <a href="https://msdn.microsoft.com/33890582-5eba-4cc1-a0d9-ec07f18da453">
     NdisMSendNetBufferListsComplete</a> function. Completion of a send operation usually implies that the
     underlying miniport driver has transmitted the specified network data. However, a miniport driver can
     indicate that a send operation has completed as soon as it transfers the network data to its NIC.
@@ -131,7 +117,7 @@ NDIS calls
 When NDIS calls 
     <i>ProtocolSendNetBufferListsComplete</i>, the protocol driver regains ownership of all of the resources
     associated with the 
-    <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures that are
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structures that are
     specified by the 
     <i>NetBufferLists</i> parameter.
 
@@ -188,29 +174,28 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismsendnetbufferlistscomplete.md">
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a>
+
+
+
+<a href="https://msdn.microsoft.com/33890582-5eba-4cc1-a0d9-ec07f18da453">
    NdisMSendNetBufferListsComplete</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563715">NdisOpenAdapterEx</a>
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndissendnetbufferlists.md">NdisSendNetBufferLists</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564535">NdisSendNetBufferLists</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: netvista\protocolcmincomingcallcomplete.htm
 old-project: netvista
 ms.assetid: 353e929b-17c8-47e8-82fd-b646e93a5b9a
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: PROTOCOL_CM_INCOMING_CALL_COMPLETE, ProtocolCmIncomingCallComplete, ProtocolCmIncomingCallComplete callback function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_0760b8c9-29b8-40ff-b8a9-03e4c4f792e2.xml, ndis/ProtocolCmIncomingCallComplete, netvista.protocolcmincomingcallcomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ndis.h
 api_name:
 -	ProtocolCmIncomingCallComplete
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
 ---
@@ -53,25 +54,10 @@ The
   <i>ProtocolCmIncomingCallComplete</i> function is required. When NDIS calls this function, 
   <i>ProtocolCmIncomingCallComplete</i> indicates to the call manager that the connection-oriented client has
   finished processing of an incoming call offer that the call manager previously dispatched through 
-  <a href="..\ndis\nf-ndis-ndiscmdispatchincomingcall.md">
+  <a href="https://msdn.microsoft.com/2172aeec-8502-414e-9d01-9292c0eb7ce8">
   NdisCmDispatchIncomingCall</a>.
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>PROTOCOL_CM_INCOMING_CALL_COMPLETE</b> type.
    For more information, see the following Examples section.</div><div> </div>
-
-## -prototype
-
-
-````
-PROTOCOL_CM_INCOMING_CALL_COMPLETE ProtocolCmIncomingCallComplete;
-
-VOID ProtocolCmIncomingCallComplete(
-  _In_ NDIS_STATUS         Status,
-  _In_ NDIS_HANDLE         CallMgrVcContext,
-  _In_ PCO_CALL_PARAMETERS CallParameters
-)
-{ ... }
-````
-
 
 ## -parameters
 
@@ -88,13 +74,13 @@ Indicates the final status of the operation to dispatch an incoming call to a co
 
 Specifies the handle to a call manager-allocated context area in which the call manager maintains
      its per-VC state. The call manager supplied this handle from its 
-     <a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a> function.
+     <a href="https://msdn.microsoft.com/b086dd24-74f5-474a-8684-09bf92ac731b">ProtocolCoCreateVc</a> function.
 
 
 ### -param CallParameters [in]
 
 Pointer to the call parameters as specified by the call manager in the call to 
-     <a href="..\ndis\nf-ndis-ndiscmdispatchincomingcall.md">NdisCmDispatchIncomingCall</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff561664">NdisCmDispatchIncomingCall</a>.
      The signaling protocol determines which call parameters, if any, the call manager can change.
 
 
@@ -167,20 +153,19 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_cm_reg_sap.md">ProtocolCmRegisterSap</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_cl_incoming_call.md">ProtocolClIncomingCall</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561664">NdisCmDispatchIncomingCall</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiscmdispatchincomingcall.md">NdisCmDispatchIncomingCall</a>
+<a href="https://msdn.microsoft.com/8a5922ac-b22b-444e-9ea0-3bb56e71ef33">ProtocolClIncomingCall</a>
 
 
 
+<a href="https://msdn.microsoft.com/3e3e7a0e-a8d2-40b2-895b-187d24867080">ProtocolCmRegisterSap</a>
  
 
  
-
 

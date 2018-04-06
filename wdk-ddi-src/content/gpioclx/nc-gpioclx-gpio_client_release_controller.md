@@ -38,7 +38,8 @@ api_location:
 -	Gpioclx.h
 api_name:
 -	CLIENT_ReleaseController
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GNSS_V2UPL_NI_INFO, *PGNSS_V2UPL_NI_INFO
 ---
@@ -50,20 +51,6 @@ req.typenames: GNSS_V2UPL_NI_INFO, *PGNSS_V2UPL_NI_INFO
 
 
 The <i>CLIENT_ReleaseController</i> event callback function performs operations that are needed when the general-purpose I/O (GPIO) controller device is no longer accessible.
-
-
-## -prototype
-
-
-````
-GPIO_CLIENT_RELEASE_CONTROLLER CLIENT_ReleaseController;
-
-NTSTATUS CLIENT_ReleaseController(
-  _In_ WDFDEVICE Device,
-  _In_ PVOID     Context
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -145,16 +132,15 @@ The GPIO_CLIENT_RELEASE_CONTROLLER function type is defined in the Gpioclx.h hea
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439479">GPIO_CLIENT_REGISTRATION_PACKET</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439490">GPIO_CLX_RegisterClient</a>
-
-
-
  
 
  
-
 

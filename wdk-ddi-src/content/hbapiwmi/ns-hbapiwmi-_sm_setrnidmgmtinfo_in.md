@@ -7,7 +7,7 @@ old-location: storage\sm_setrnidmgmtinfo_in.htm
 old-project: storage
 ms.assetid: 4b248886-8f1d-42c3-89dc-f6f0cd9ae683
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSM_SetRNIDMgmtInfo_IN, PSM_SetRNIDMgmtInfo_IN, PSM_SetRNIDMgmtInfo_IN structure pointer [Storage Devices], SM_SetRNIDMgmtInfo_IN, SM_SetRNIDMgmtInfo_IN structure [Storage Devices], _SM_SetRNIDMgmtInfo_IN, hbapiwmi/PSM_SetRNIDMgmtInfo_IN, hbapiwmi/SM_SetRNIDMgmtInfo_IN, storage.sm_setrnidmgmtinfo_in, structs-Fibre_1da5987a-4759-4d2a-9e33-5c33123314fc.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	hbapiwmi.h
 api_name:
 -	SM_SetRNIDMgmtInfo_IN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SM_SetRNIDMgmtInfo_IN, *PSM_SetRNIDMgmtInfo_IN
 ---
@@ -50,16 +51,6 @@ req.typenames: SM_SetRNIDMgmtInfo_IN, *PSM_SetRNIDMgmtInfo_IN
 
 
 The SM_SetRNIDMgmtInfo_IN structure is used to provide input parameters to the SM_SetRNIDMgmtInfo method.
-
-
-## -syntax
-
-
-````
-typedef struct _SM_SetRNIDMgmtInfo_IN {
-  HBAFC3MgmtInfo MgmtInfo;
-} SM_SetRNIDMgmtInfo_IN, *PSM_SetRNIDMgmtInfo_IN;
-````
 
 
 ## -struct-fields

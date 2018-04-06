@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsReferenceBusObject
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,16 +52,6 @@ req.typenames:
 
 
 References the bus Physical device object.
-
-
-## -syntax
-
-
-````
-NTSTATUS KsReferenceBusObject(
-  _In_ KSDEVICE_HEADER Header
-);
-````
 
 
 ## -parameters
@@ -86,7 +77,7 @@ Returns STATUS_SUCCESS if the reference was successful, else an error such as ST
 
 
 
-This function is used by filters that use the device header to keep track of their PnP object stack. This is normally called on a successful Open of the filter when the bus for this device requires such a reference (such as software devices), and is matched by a call to <a href="..\ks\nf-ks-ksdereferencebusobject.md">KsDereferenceBusObject</a> on a close of that filter instance. The caller must have previously also called KsSetDevicePnpAndBaseObject in order to set the PnP device stack object. This would have been done in the PnP AddDevice function. If the object has not been previously referenced, interface space is allocated and the function uses the PnP device object to acquire the bus referencing interface. It then calls the ReferenceDeviceObject method on that interface. The interface itself is released and freed when the device header is freed.
+This function is used by filters that use the device header to keep track of their PnP object stack. This is normally called on a successful Open of the filter when the bus for this device requires such a reference (such as software devices), and is matched by a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff561676">KsDereferenceBusObject</a> on a close of that filter instance. The caller must have previously also called KsSetDevicePnpAndBaseObject in order to set the PnP device stack object. This would have been done in the PnP AddDevice function. If the object has not been previously referenced, interface space is allocated and the function uses the PnP device object to acquire the bus referencing interface. It then calls the ReferenceDeviceObject method on that interface. The interface itself is released and freed when the device header is freed.
 
 
 

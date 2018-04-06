@@ -7,7 +7,7 @@ old-location: display\d3d12ddi_command_queue_creation_flags.htm
 old-project: display
 ms.assetid: 6BA4B1B4-07D6-4498-BDA4-C559FB3E8843
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3D12DDI_COMMAND_QUEUE_CREATION_FLAGS, D3D12DDI_COMMAND_QUEUE_CREATION_FLAGS enumeration [Display Devices], D3D12DDI_COMMAND_QUEUE_CREATION_FLAG_GLOBAL_REALTIME_PRIORITY, D3D12DDI_COMMAND_QUEUE_CREATION_FLAG_NONE, d3d12umddi/D3D12DDI_COMMAND_QUEUE_CREATION_FLAGS, d3d12umddi/D3D12DDI_COMMAND_QUEUE_CREATION_FLAG_GLOBAL_REALTIME_PRIORITY, d3d12umddi/D3D12DDI_COMMAND_QUEUE_CREATION_FLAG_NONE, display.d3d12ddi_command_queue_creation_flags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3d12umddi.h
 api_name:
 -	D3D12DDI_COMMAND_QUEUE_CREATION_FLAGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D12DDI_COMMAND_QUEUE_CREATION_FLAGS
 ---
@@ -50,17 +51,6 @@ req.typenames: D3D12DDI_COMMAND_QUEUE_CREATION_FLAGS
 
 
 Defines command queue creation options. 
-
-
-## -syntax
-
-
-````
-typedef enum D3D12DDI_COMMAND_QUEUE_CREATION_FLAGS { 
-  D3D12DDI_COMMAND_QUEUE_CREATION_FLAG_NONE                      = 0x00000000,
-  D3D12DDI_COMMAND_QUEUE_CREATION_FLAG_GLOBAL_REALTIME_PRIORITY  = 0x00000001
-} D3D12DDI_COMMAND_QUEUE_CREATION_FLAGS;
-````
 
 
 ## -enum-fields

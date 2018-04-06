@@ -7,7 +7,7 @@ old-location: storage\ioctl_cdrom_get_volume.htm
 old-project: storage
 ms.assetid: 9ca03060-2f2b-4427-a161-fcce2be94b26
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_CDROM_GET_VOLUME, IOCTL_CDROM_GET_VOLUME control code [Storage Devices], k307_40300286-1334-4229-a798-2bfef8866ca7.xml, ntddcdrm/IOCTL_CDROM_GET_VOLUME, storage.ioctl_cdrom_get_volume
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddcdrm.h
 api_name:
 -	IOCTL_CDROM_GET_VOLUME
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WRITE_ROTATION, *PWRITE_ROTATION
 ---
@@ -73,12 +74,12 @@ Input buffer.
 
 ### -output-buffer
 
-The driver returns the <a href="..\ntddcdrm\ns-ntddcdrm-_volume_control.md">VOLUME_CONTROL</a> data in the buffer at <i>Irp-&gt;AssociatedIrp.SystemBuffer</i>.
+The driver returns the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568015">VOLUME_CONTROL</a> data in the buffer at <i>Irp-&gt;AssociatedIrp.SystemBuffer</i>.
 
 
 ### -output-buffer-length
 
-Length of the <a href="..\ntddcdrm\ns-ntddcdrm-_volume_control.md">VOLUME_CONTROL</a> data.
+Length of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568015">VOLUME_CONTROL</a> data.
 
 
 ### -in-out-buffer
@@ -117,12 +118,11 @@ Client applications should use the <i>Media Control Interface (MCI) API</i> rath
 
 ## -see-also
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_volume_control.md">VOLUME_CONTROL</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568015">VOLUME_CONTROL</a>
  
 
  
-
 

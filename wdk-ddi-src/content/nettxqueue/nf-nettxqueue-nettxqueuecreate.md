@@ -64,7 +64,7 @@ A pointer to an initialized, caller-allocated [WDF_OBJECT_ATTRIBUTES](../wdfobje
 A pointer to a caller-allocated [NET_TXQUEUE_CONFIG](ns-nettxqueue-_net_txqueue_config.md) structure.
 
 ### -param TxQueue
-A pointer to a location that receives a handle to the new net receive queue object.
+A pointer to a location that receives a handle to the new net transmit queue object.
 
 ## -returns
 The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method may return an appropriate NTSTATUS error code.

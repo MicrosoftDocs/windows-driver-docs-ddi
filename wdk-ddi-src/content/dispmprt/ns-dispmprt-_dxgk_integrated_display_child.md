@@ -7,7 +7,7 @@ old-location: display\dxgk_integrated_display_child.htm
 old-project: display
 ms.assetid: A3E28664-B286-4E4A-85DD-4EAAC7D257F0
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PDXGK_INTEGRATED_DISPLAY_CHILD, DXGK_INTEGRATED_DISPLAY_CHILD, DXGK_INTEGRATED_DISPLAY_CHILD structure [Display Devices], PDXGK_INTEGRATED_DISPLAY_CHILD, PDXGK_INTEGRATED_DISPLAY_CHILD structure pointer [Display Devices], _DXGK_INTEGRATED_DISPLAY_CHILD, display.dxgk_integrated_display_child, dispmprt/DXGK_INTEGRATED_DISPLAY_CHILD, dispmprt/PDXGK_INTEGRATED_DISPLAY_CHILD"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	dispmprt.h
 api_name:
 -	DXGK_INTEGRATED_DISPLAY_CHILD
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_INTEGRATED_DISPLAY_CHILD, *PDXGK_INTEGRATED_DISPLAY_CHILD
 ---
@@ -50,17 +51,6 @@ req.typenames: DXGK_INTEGRATED_DISPLAY_CHILD, *PDXGK_INTEGRATED_DISPLAY_CHILD
 
 
 Gives information about the connected integrated display.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGK_INTEGRATED_DISPLAY_CHILD {
-  D3DKMDT_VIDEO_OUTPUT_TECHNOLOGY InterfaceTechnology;
-  USHORT                          DescriptorLength;
-} DXGK_INTEGRATED_DISPLAY_CHILD, *PDXGK_INTEGRATED_DISPLAY_CHILD;
-````
 
 
 ## -struct-fields

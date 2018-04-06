@@ -38,7 +38,8 @@ api_location:
 -	Bdatypes.h
 api_name:
 -	BDA_ETHERNET_ADDRESS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BDA_ETHERNET_ADDRESS, *PBDA_ETHERNET_ADDRESS
 ---
@@ -50,16 +51,6 @@ req.typenames: BDA_ETHERNET_ADDRESS, *PBDA_ETHERNET_ADDRESS
 
 
 
-
-
-## -syntax
-
-
-````
-typedef struct _BDA_ETHERNET_ADDRESS {
-  BYTE rgbAddress[6];
-} BDA_ETHERNET_ADDRESS, *PBDA_ETHERNET_ADDRESS;
-````
 
 
 ## -struct-fields

@@ -7,7 +7,7 @@ old-location: storage\pingipaddress_out.htm
 old-project: storage
 ms.assetid: 26512dc5-9d3d-4dd5-bce3-37feb64dded8
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PPingIPAddress_OUT, PPingIPAddress_OUT, PPingIPAddress_OUT structure pointer [Storage Devices], PingIPAddress_OUT, PingIPAddress_OUT structure [Storage Devices], _PingIPAddress_OUT, iscsimgt/PPingIPAddress_OUT, iscsimgt/PingIPAddress_OUT, storage.pingipaddress_out, structs-iSCSI_a6cbf3cf-b386-4cab-9193-5b9724e4646e.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	iscsimgt.h
 api_name:
 -	PingIPAddress_OUT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PingIPAddress_OUT, *PPingIPAddress_OUT
 ---
@@ -50,17 +51,6 @@ req.typenames: PingIPAddress_OUT, *PPingIPAddress_OUT
 
 
 The PingIPAddress_OUT structure holds the output data for the PingIPAddress method.
-
-
-## -syntax
-
-
-````
-typedef struct _PingIPAddress_OUT {
-  ULONG Status;
-  ULONG ResponsesReceived;
-} PingIPAddress_OUT, *PPingIPAddress_OUT;
-````
 
 
 ## -struct-fields

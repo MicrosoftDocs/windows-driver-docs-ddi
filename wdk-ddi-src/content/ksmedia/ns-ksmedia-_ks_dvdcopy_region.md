@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KS_DVDCOPY_REGION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KS_DVDCOPY_REGION, *PKS_DVDCOPY_REGION
 ---
@@ -50,18 +51,6 @@ req.typenames: KS_DVDCOPY_REGION, *PKS_DVDCOPY_REGION
 
 
 The KS_DVDCOPY_REGION structure is used to describe the copy control region according to language restrictions.
-
-
-## -syntax
-
-
-````
-typedef struct _KS_DVDCOPY_REGION {
-  UCHAR Reserved;
-  UCHAR RegionData;
-  UCHAR Reserved2[2];
-} KS_DVDCOPY_REGION, *PKS_DVDCOPY_REGION;
-````
 
 
 ## -struct-fields
@@ -165,12 +154,11 @@ For more information, see <a href="https://msdn.microsoft.com/ff9cf8c8-7c8f-485c
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565146">KSPROPERTY_DVDCOPY_REGION</a>
-
-
-
  
 
  
-
 

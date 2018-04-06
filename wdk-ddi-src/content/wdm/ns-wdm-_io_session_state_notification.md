@@ -7,7 +7,7 @@ old-location: kernel\io_session_state_notification.htm
 old-project: kernel
 ms.assetid: 19ff9c3a-d416-4468-b5a5-e2e6e896802a
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*PIO_SESSION_STATE_NOTIFICATION, IO_SESSION_STATE_ALL_EVENTS, IO_SESSION_STATE_CONNECT_EVENT, IO_SESSION_STATE_CREATION_EVENT, IO_SESSION_STATE_DISCONNECT_EVENT, IO_SESSION_STATE_LOGOFF_EVENT, IO_SESSION_STATE_LOGON_EVENT, IO_SESSION_STATE_NOTIFICATION, IO_SESSION_STATE_NOTIFICATION structure [Kernel-Mode Driver Architecture], IO_SESSION_STATE_TERMINATION_EVENT, IO_SESSION_STATE_VALID_EVENT_MASK, PIO_SESSION_STATE_NOTIFICATION, PIO_SESSION_STATE_NOTIFICATION structure pointer [Kernel-Mode Driver Architecture], _IO_SESSION_STATE_NOTIFICATION, kernel.io_session_state_notification, kstruct_b_b25d50a3-6254-4eeb-800e-c5fc73c56dfb.xml, wdm/IO_SESSION_STATE_NOTIFICATION, wdm/PIO_SESSION_STATE_NOTIFICATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	IO_SESSION_STATE_NOTIFICATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: IO_SESSION_STATE_NOTIFICATION, *PIO_SESSION_STATE_NOTIFICATION
 req.product: Windows 10 or later.
@@ -50,21 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>IO_SESSION_STATE_NOTIFICATION</b> structure contains information that a kernel-mode driver supplies to the <a href="..\wdm\nf-wdm-ioregistercontainernotification.md">IoRegisterContainerNotification</a> routine when the driver registers to receive notifications of session events.
-
-
-## -syntax
-
-
-````
-typedef struct _IO_SESSION_STATE_NOTIFICATION {
-  ULONG Size;
-  ULONG Flags;
-  PVOID IoObject;
-  ULONG EventMask;
-  PVOID Context;
-} IO_SESSION_STATE_NOTIFICATION, *PIO_SESSION_STATE_NOTIFICATION;
-````
+The <b>IO_SESSION_STATE_NOTIFICATION</b> structure contains information that a kernel-mode driver supplies to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549501">IoRegisterContainerNotification</a> routine when the driver registers to receive notifications of session events.
 
 
 ## -struct-fields
@@ -84,14 +71,14 @@ No flags are currently defined for this member. Set to zero.
 
 ### -field IoObject
 
-A pointer to an I/O object owned by the driver. This member can point to a <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>, <a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>, or <a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a> structure. The I/O object must remain valid for the lifetime of the registration. Before you delete a registered device object, unload a registered driver, or close a registered file object, call the <a href="..\wdm\nf-wdm-iounregistercontainernotification.md">IoUnregisterContainerNotification</a> routine to cancel the registration. A driver can maintain simultaneous registrations for more than one I/O object, but it cannot create more than one active registration for the same I/O object. 
+A pointer to an I/O object owned by the driver. This member can point to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff544174">DRIVER_OBJECT</a>, or <a href="https://msdn.microsoft.com/library/windows/hardware/ff545834">FILE_OBJECT</a> structure. The I/O object must remain valid for the lifetime of the registration. Before you delete a registered device object, unload a registered driver, or close a registered file object, call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550396">IoUnregisterContainerNotification</a> routine to cancel the registration. A driver can maintain simultaneous registrations for more than one I/O object, but it cannot create more than one active registration for the same I/O object. 
 
 
 ### -field EventMask
 
 Mask bits for session events. These mask bits indicate the events for which the driver requests notifications.
 
-To register to receive notifications of session events, a kernel-mode driver calls the <a href="..\wdm\nf-wdm-ioregistercontainernotification.md">IoRegisterContainerNotification</a> routine. To specify the session events for which the driver wants to receive notifications, the driver sets this structure's <b>EventMask</b> member to the bitwise OR of one or more <b>IO_SESSION_STATE_<i>XXX</i></b> constants. 
+To register to receive notifications of session events, a kernel-mode driver calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549501">IoRegisterContainerNotification</a> routine. To specify the session events for which the driver wants to receive notifications, the driver sets this structure's <b>EventMask</b> member to the bitwise OR of one or more <b>IO_SESSION_STATE_<i>XXX</i></b> constants. 
 
 Set this member to the bitwise OR of one or more of the following <b>IO_SESSION_STATE_<i>XXX</i></b> constants:
 
@@ -205,18 +192,17 @@ This structure is used by the <b>IoRegisterContainerNotification</b> routine. A 
 
 A per-session device object represents a device that can be accessed only by a particular user session. If a driver sets the <b>IoObject</b> member to point to a device object that is a per-session device object, <b>IoRegisterContainerNotification</b> registers the driver to receive only notifications of events that occur in the session that is represented by the device object. If <b>IoObject</b> points to a device object that is not a per-session device object, or if <b>IoObject</b> points to an object that is not a device object, <b>IoRegisterContainerNotification</b> registers the driver to receive notifications of events that occur in all sessions on the computer.
 
-To determine whether a device object is a per-session device object, a driver can call the <a href="..\wdm\nf-wdm-iogetdevicepropertydata.md">IoGetDevicePropertyData</a> routine to query the <a href="https://msdn.microsoft.com/library/windows/hardware/ff542651">DEVPKEY_Device_SessionId</a> property key in the property store of the device object. If the <b>DEVPKEY_Device_SessionId</b> property exists and the value of the property is set to a nonzero <a href="http://go.microsoft.com/fwlink/p/?linkid=155045">Terminal Services</a> session identifier, the device object is a per-session device object. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff542651">DEVPKEY_Device_SessionId</a>. 
+To determine whether a device object is a per-session device object, a driver can call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549206">IoGetDevicePropertyData</a> routine to query the <a href="https://msdn.microsoft.com/library/windows/hardware/ff542651">DEVPKEY_Device_SessionId</a> property key in the property store of the device object. If the <b>DEVPKEY_Device_SessionId</b> property exists and the value of the property is set to a nonzero <a href="http://go.microsoft.com/fwlink/p/?linkid=155045">Terminal Services</a> session identifier, the device object is a per-session device object. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff542651">DEVPKEY_Device_SessionId</a>. 
 
 
 
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
 
 
-<a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>
 
 
 
@@ -224,20 +210,20 @@ To determine whether a device object is a per-session device object, a driver ca
 
 
 
-<a href="..\wdm\nf-wdm-iogetdevicepropertydata.md">IoGetDevicePropertyData</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544174">DRIVER_OBJECT</a>
 
 
 
-<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545834">FILE_OBJECT</a>
 
 
 
-<a href="..\wdm\nf-wdm-ioregistercontainernotification.md">IoRegisterContainerNotification</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549206">IoGetDevicePropertyData</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549501">IoRegisterContainerNotification</a>
  
 
  
-
 

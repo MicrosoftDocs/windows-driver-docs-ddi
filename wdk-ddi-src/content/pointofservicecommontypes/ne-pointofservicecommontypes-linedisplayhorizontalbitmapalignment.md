@@ -38,7 +38,8 @@ api_location:
 -	pointofservicecommontypes.h
 api_name:
 -	LineDisplayHorizontalBitmapAlignment
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -50,16 +51,6 @@ req.typenames:
 
 
 This enumeration is not implemented.
-
-
-## -syntax
-
-
-````
-typedef enum _LineDisplayHorizontalBitmapAlignment { 
-    = 
-} LineDisplayHorizontalBitmapAlignment;
-````
 
 
 ## -enum-fields

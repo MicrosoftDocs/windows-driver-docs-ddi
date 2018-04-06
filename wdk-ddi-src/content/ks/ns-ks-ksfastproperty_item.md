@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSFASTPROPERTY_ITEM
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSFASTPROPERTY_ITEM, *PKSFASTPROPERTY_ITEM
 ---
@@ -50,25 +51,6 @@ req.typenames: KSFASTPROPERTY_ITEM, *PKSFASTPROPERTY_ITEM
 
 
 The KSFASTPROPERTY_ITEM structure is used with items for fast I/O dispatching.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  ULONG PropertyId;
-  union {
-    PFNKSFASTHANDLER GetPropertyHandler;
-    BOOLEAN          GetSupported;
-  };
-  union {
-    PFNKSFASTHANDLER SetPropertyHandler;
-    BOOLEAN          SetSupported;
-  };
-  ULONG Reserved;
-} KSFASTPROPERTY_ITEM, *PKSFASTPROPERTY_ITEM;
-````
 
 
 ## -struct-fields
@@ -108,12 +90,11 @@ A boolean value that indicates if the driver has supplied a set property handler
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567173">KStrFastHandler</a>
-
-
-
  
 
  
-
 

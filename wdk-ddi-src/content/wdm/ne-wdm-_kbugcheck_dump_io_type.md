@@ -7,7 +7,7 @@ old-location: kernel\kbugcheck_dump_io_type.htm
 old-project: kernel
 ms.assetid: 928be338-a588-4535-8395-229ec6f3ecb7
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: KBUGCHECK_DUMP_IO_TYPE, KBUGCHECK_DUMP_IO_TYPE enumeration [Kernel-Mode Driver Architecture], KbDumpIoBody, KbDumpIoComplete, KbDumpIoHeader, KbDumpIoInvalid, KbDumpIoSecondaryData, _KBUGCHECK_DUMP_IO_TYPE, kernel.kbugcheck_dump_io_type, sysenum_e6f9d577-edd8-43f0-9cc5-33b88e5237aa.xml, wdm/KBUGCHECK_DUMP_IO_TYPE, wdm/KbDumpIoBody, wdm/KbDumpIoComplete, wdm/KbDumpIoHeader, wdm/KbDumpIoInvalid, wdm/KbDumpIoSecondaryData
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	KBUGCHECK_DUMP_IO_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KBUGCHECK_DUMP_IO_TYPE
 req.product: Windows 10 or later.
@@ -51,20 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>KBUGCHECK_DUMP_IO_TYPE</b> enumeration type identifies the type of a section of data within a crash dump file.
-
-
-## -syntax
-
-
-````
-typedef enum _KBUGCHECK_DUMP_IO_TYPE { 
-  KbDumpIoInvalid        = 0,
-  KbDumpIoHeader         = 1,
-  KbDumpIoBody           = 2,
-  KbDumpIoSecondaryData  = 3,
-  KbDumpIoComplete       = 4
-} KBUGCHECK_DUMP_IO_TYPE;
-````
 
 
 ## -enum-fields
@@ -101,7 +88,7 @@ Specifies that the crash dump data has been completely written.
 
 
 
-<b>KBUGCHECK_DUMP_IO_TYPE</b> values are used in the <b>Type</b> member of <a href="..\wdm\ns-wdm-_kbugcheck_dump_io.md">KBUGCHECK_DUMP_IO</a> to specify the type of data in an I/O operation on the crash dump file.
+<b>KBUGCHECK_DUMP_IO_TYPE</b> values are used in the <b>Type</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff551868">KBUGCHECK_DUMP_IO</a> to specify the type of data in an I/O operation on the crash dump file.
 
 For more information about how this enumeration type is used, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff540677">BugCheckDumpIoCallback</a>.
 
@@ -110,7 +97,6 @@ For more information about how this enumeration type is used, see <a href="https
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540679">BugCheckSecondaryDumpDataCallback</a>
 
 
 
@@ -118,12 +104,12 @@ For more information about how this enumeration type is used, see <a href="https
 
 
 
-<a href="..\wdm\ns-wdm-_kbugcheck_dump_io.md">KBUGCHECK_DUMP_IO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540679">BugCheckSecondaryDumpDataCallback</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551868">KBUGCHECK_DUMP_IO</a>
  
 
  
-
 

@@ -38,7 +38,8 @@ api_location:
 -	bthddi.h
 api_name:
 -	BthInitializeBrb
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
 ---
@@ -54,20 +55,6 @@ The
   stack.
 
 
-## -prototype
-
-
-````
-PFNBTH_INITIALIZE_BRB BthInitializeBrb;
-
-VOID BthInitializeBrb(
-  _Inout_ PBRB     pBrb,
-  _In_    BRB_TYPE brbType
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -81,7 +68,7 @@ Pointer to the BRB to initialize.
 ### -param brbType [in]
 
 Specifies a value from the 
-     <a href="..\bthddi\ne-bthddi-_brb_type.md">BRB_TYPE</a> enumeration to initialize the BRB
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536631">BRB_TYPE</a> enumeration to initialize the BRB
      with.
 
 
@@ -103,7 +90,7 @@ Profile drivers should use
     function.
 
 It is not necessary to call this function for a BRB that was allocated using 
-    <a href="..\bthddi\nc-bthddi-pfnbth_allocate_brb.md">BthAllocateBrb</a>.
+    <a href="https://msdn.microsoft.com/e1ac9d4c-75e2-4d37-86d7-3c3f1486222e">BthAllocateBrb</a>.
 
 Profile drivers obtain a pointer to the 
     <i>BthInitializeBrb</i> function when they query the Bluetooth driver stack for an instance of the
@@ -116,16 +103,15 @@ Profile drivers obtain a pointer to the
 
 ## -see-also
 
-<a href="..\bthddi\nc-bthddi-pfnbth_allocate_brb.md">BthAllocateBrb</a>
 
 
 
-<a href="..\bthddi\ne-bthddi-_brb_type.md">BRB_TYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536631">BRB_TYPE</a>
 
 
 
+<a href="https://msdn.microsoft.com/e1ac9d4c-75e2-4d37-86d7-3c3f1486222e">BthAllocateBrb</a>
  
 
  
-
 

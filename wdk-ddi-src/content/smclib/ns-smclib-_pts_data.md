@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Any level (See Remarks section)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	smclib.h
 api_name:
 -	PTS_DATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PTS_DATA, *PPTS_DATA
 req.product: Windows 10 or later.
@@ -51,21 +52,6 @@ req.product: Windows 10 or later.
 
 
 The PTS_DATA structure is used for protocol type selection (PTS).
-
-
-## -syntax
-
-
-````
-typedef struct _PTS_DATA {
-  UCHAR Type;
-  UCHAR Fl;
-  UCHAR Dl;
-  ULONG CLKFrequency;
-  ULONG DataRate;
-  UCHAR StopBits;
-} PTS_DATA, *PPTS_DATA;
-````
 
 
 ## -struct-fields

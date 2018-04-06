@@ -7,7 +7,7 @@ old-location: netvista\rilmanagecallsparams_v3.htm
 old-project: netvista
 ms.assetid: a398086b-827e-4684-a79c-db849926b3c3
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*LPRILMANAGECALLSPARAMS_V3, RILMANAGECALLSPARAMS_V3, RILMANAGECALLSPARAMS_V3 structure [Network Drivers Starting with Windows Vista], netvista.rilmanagecallsparams_v3, ntddrilapitypes/RILMANAGECALLSPARAMS_V3"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILMANAGECALLSPARAMS_V3
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILMANAGECALLSPARAMS_V3, *LPRILMANAGECALLSPARAMS_V3
 req.product: Windows 10 or later.
@@ -51,21 +52,6 @@ req.product: Windows 10 or later.
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef struct _RILMANAGECALLSPARAMS_V3 {
-  DWORD                       dwExecutor;
-  RILMANAGECALLPARAMSCOMMAND  dwCommand;
-  DWORD                       dwID;
-  BOOL                        fHasOfferAnswer;
-  RILCALLMEDIAOFFERANSWERSET  rcmOfferAnswer;
-  RILADDRESS                  raAddress;
-} RILMANAGECALLSPARAMS_V3, RILMANAGECALLSPARAMS_V3;
-````
 
 
 ## -struct-fields

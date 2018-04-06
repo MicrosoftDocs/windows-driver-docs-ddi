@@ -38,7 +38,8 @@ api_location:
 -	Wudfddi.h
 api_name:
 -	DEVICE_POWER_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DEVICE_POWER_STATE, *PDEVICE_POWER_STATE
 req.product: Windows 10 or later.
@@ -53,21 +54,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>DEVICE_POWER_STATE</b> enumeration identifies the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543162">device power states</a> that a device can enter.
-
-
-## -syntax
-
-
-````
-typedef enum _DEVICE_POWER_STATE { 
-  PowerDeviceUnspecified  = 0,
-  PowerDeviceD0           = ( PowerDeviceUnspecified + 1 ),
-  PowerDeviceD1           = ( PowerDeviceD0 + 1 ),
-  PowerDeviceD2           = ( PowerDeviceD1 + 1 ),
-  PowerDeviceD3           = ( PowerDeviceD2 + 1 ),
-  PowerDeviceMaximum      = ( PowerDeviceD3 + 1 )
-} DEVICE_POWER_STATE, *PDEVICE_POWER_STATE;
-````
 
 
 ## -enum-fields
@@ -116,7 +102,6 @@ The <b>DEVICE_POWER_STATE</b> enumeration is used as input to <a href="https://m
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556923">IWDFDevice2::AssignSxWakeSettings</a>
 
 
 
@@ -124,8 +109,8 @@ The <b>DEVICE_POWER_STATE</b> enumeration is used as input to <a href="https://m
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556923">IWDFDevice2::AssignSxWakeSettings</a>
  
 
  
-
 

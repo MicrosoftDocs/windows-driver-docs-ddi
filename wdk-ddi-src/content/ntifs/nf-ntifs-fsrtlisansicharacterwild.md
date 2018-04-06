@@ -7,7 +7,7 @@ old-location: ifsk\fsrtlisansicharacterwild.htm
 old-project: ifsk
 ms.assetid: badbc73a-44aa-4917-83a8-2ebd9f9ec576
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FsRtlIsAnsiCharacterWild, FsRtlIsAnsiCharacterWild function [Installable File System Drivers], fsrtlref_f5a31572-36b5-4bc3-8224-a4a7d8b74c65.xml, ifsk.fsrtlisansicharacterwild, ntifs/FsRtlIsAnsiCharacterWild
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntifs.h
 api_name:
 -	FsRtlIsAnsiCharacterWild
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -50,16 +51,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>FsRtlIsAnsiCharacterWild</b> macro determines whether an ANSI character is a wildcard character.
-
-
-## -syntax
-
-
-````
-BOOLEAN FsRtlIsAnsiCharacterWild(
-   PSCHAR *Character
-);
-````
 
 
 ## -parameters
@@ -92,16 +83,15 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-fsrtlisunicodecharacterwild.md">FsRtlIsUnicodeCharacterWild</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-fsrtlisansicharacterlegal.md">FsRtlIsAnsiCharacterLegal</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546731">FsRtlIsAnsiCharacterLegal</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546887">FsRtlIsUnicodeCharacterWild</a>
  
 
  
-
 

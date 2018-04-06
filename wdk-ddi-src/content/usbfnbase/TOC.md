@@ -1,4 +1,4 @@
-# [buses](../_buses/index.md)
+# [Universal Serial Bus (USB)](../_usbref/index.md)
 ## [Usbfnbase.h](index.md)
 ### [_USBFN_BUS_SPEED enumeration](../usbfnbase/ne-usbfnbase-_usbfn_bus_speed.md)
 ### [_USBFN_DEVICE_STATE enumeration](../usbfnbase/ne-usbfnbase-_usbfn_device_state.md)

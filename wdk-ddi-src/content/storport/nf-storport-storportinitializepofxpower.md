@@ -7,7 +7,7 @@ old-location: storage\storportinitializepofxpower.htm
 old-project: storage
 ms.assetid: 154EAF9B-4B30-4124-B31D-6C7D09B52674
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: StorPortInitializePoFxPower, StorPortInitializePoFxPower routine [Storage Devices], storage.storportinitializepofxpower, storport/StorPortInitializePoFxPower
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	storport.h
 api_name:
 -	StorPortInitializePoFxPower
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STOR_SPINLOCK
 req.product: Windows 10 or later.
@@ -51,19 +52,6 @@ req.product: Windows 10 or later.
 
 
 A miniport driver calls <b>StorPortInitializePoFxPower</b> to register a storage device with the power management framework (PoFx).
-
-
-## -syntax
-
-
-````
-ULONG StorPortInitializePoFxPower(
-  _In_     PVOID             HwDeviceExtension,
-  _In_opt_ PSTOR_ADDRESS     Address,
-  _In_     PSTOR_POFX_DEVICE Device,
-  _Inout_  PBOOLEAN          D3ColdEnabled
-);
-````
 
 
 ## -parameters
@@ -83,7 +71,7 @@ The address of a storage device unit. This parameter is <b>NULL</b> when registe
 
 ### -param Device [in]
 
-A pointer to a <b>STOR_POFX_DEVICE_V2</b> structure cast to a pointer to <a href="..\storport\ns-storport-_stor_pofx_device.md">STOR_POFX_DEVICE</a>. This structure contains a component list with F-states for a storage device.
+A pointer to a <b>STOR_POFX_DEVICE_V2</b> structure cast to a pointer to <a href="https://msdn.microsoft.com/library/windows/hardware/hh920429">STOR_POFX_DEVICE</a>. This structure contains a component list with F-states for a storage device.
 
 
 ### -param D3ColdEnabled [in, out]
@@ -121,7 +109,7 @@ The storage device specified by <i>Address</i> is not found.
 
 -or-
 
-The <a href="..\storport\ns-storport-_stor_pofx_device.md">STOR_POFX_DEVICE</a> structure pointed to by  <i>Device</i> is formatted incorrectly or contains invalid data.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/hh920429">STOR_POFX_DEVICE</a> structure pointed to by  <i>Device</i> is formatted incorrectly or contains invalid data.
 
 </td>
 </tr>
@@ -181,12 +169,11 @@ If the <b>STOR_POFX_DEVICE_FLAG_ENABLE_D3_COLD</b> flag is set in the <b>Flags</
 
 ## -see-also
 
-<a href="..\storport\ns-storport-_stor_pofx_device.md">STOR_POFX_DEVICE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh920429">STOR_POFX_DEVICE</a>
  
 
  
-
 

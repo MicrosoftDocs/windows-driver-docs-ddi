@@ -7,7 +7,7 @@ old-location: kernel\clfsmgmtderegistermanagedclient.htm
 old-project: kernel
 ms.assetid: 5dee3b70-9c8d-420d-86f9-9795b4d8b1e8
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: ClfsMgmtDeregisterManagedClient, ClfsMgmtDeregisterManagedClient routine [Kernel-Mode Driver Architecture], Clfs_management_6a802f4a-8157-42c8-8eda-740a1207714a.xml, kernel.clfsmgmtderegistermanagedclient, wdm/ClfsMgmtDeregisterManagedClient
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ext-MS-Win-fs-clfs-l1-1-0.dll
 api_name:
 -	ClfsMgmtDeregisterManagedClient
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
@@ -52,16 +53,6 @@ req.product: Windows 10 or later.
 
 
 The <b>ClfsMgmtDeregisterManagedClient</b> routine removes the connection between a client and a log, so that the client no longer manages the log.
-
-
-## -syntax
-
-
-````
-NTSTATUS ClfsMgmtDeregisterManagedClient(
-  _In_ CLFS_MGMT_CLIENT Client
-);
-````
 
 
 ## -parameters
@@ -78,7 +69,7 @@ TBD
 
 #### - Client [in]
 
-A pointer to the client. This is the value that was obtained through a call to the <a href="..\wdm\nf-wdm-clfsmgmtregistermanagedclient.md">ClfsMgmtRegisterManagedClient</a> routine.
+A pointer to the client. This is the value that was obtained through a call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541642">ClfsMgmtRegisterManagedClient</a> routine.
 
 
 ## -returns
@@ -153,12 +144,11 @@ After calling the <b>ClfsMgmtDeregisterManagedClient</b> routine, a client's cal
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-clfsmgmtregistermanagedclient.md">ClfsMgmtRegisterManagedClient</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541642">ClfsMgmtRegisterManagedClient</a>
  
 
  
-
 

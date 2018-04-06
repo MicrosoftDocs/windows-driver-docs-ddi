@@ -38,7 +38,8 @@ api_location:
 -	Winsplp.h
 api_name:
 -	LogJobInfoForBranchOffice
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NOTIFICATION_CONFIG_FLAGS
 req.product: Windows 10 or later.
@@ -51,17 +52,6 @@ req.product: Windows 10 or later.
 
 
 Allows Branch Office clients to send job events to the host print server.
-
-
-## -syntax
-
-
-````
-HRESULT WINAPI LogJobInfoForBranchOffice(
-  _In_ HANDLE                        hPrinter,
-  _In_ PBranchOfficeJobDataContainer pJobDataContainer
-);
-````
 
 
 ## -parameters

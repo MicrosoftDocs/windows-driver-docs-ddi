@@ -7,7 +7,7 @@ old-location: ifsk\token_statistics.htm
 old-project: ifsk
 ms.assetid: a7f651c0-fcd5-4271-9452-b6ac41cd33cc
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: "*PTOKEN_STATISTICS, PTOKEN_STATISTICS, PTOKEN_STATISTICS structure pointer [Installable File System Drivers], TOKEN_STATISTICS, TOKEN_STATISTICS structure [Installable File System Drivers], _TOKEN_STATISTICS, ifsk.token_statistics, ntifs/PTOKEN_STATISTICS, ntifs/TOKEN_STATISTICS, securitystructures_5934a44f-c54e-44fe-a1c8-50b656b2b1f5.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntifs.h
 api_name:
 -	TOKEN_STATISTICS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TOKEN_STATISTICS, *PTOKEN_STATISTICS
 ---
@@ -49,26 +50,7 @@ req.typenames: TOKEN_STATISTICS, *PTOKEN_STATISTICS
 ## -description
 
 
-TOKEN_STATISTICS contains information about an access token. A driver can retrieve this information by calling <a href="..\ntifs\nf-ntifs-sequeryinformationtoken.md">SeQueryInformationToken</a> or <a href="..\ntifs\nf-ntifs-zwqueryinformationtoken.md">ZwQueryInformationToken</a>. 
-
-
-## -syntax
-
-
-````
-typedef struct _TOKEN_STATISTICS {
-  LUID                         TokenId;
-  LUID                         AuthenticationId;
-  LARGE_INTEGER                ExpirationTime;
-  TOKEN_TYPE                   TokenType;
-  SECURITY_IMPERSONATION_LEVEL ImpersonationLevel;
-  ULONG                        DynamicCharged;
-  ULONG                        DynamicAvailable;
-  ULONG                        GroupCount;
-  ULONG                        PrivilegeCount;
-  LUID                         ModifiedId;
-} TOKEN_STATISTICS, *PTOKEN_STATISTICS;
-````
+TOKEN_STATISTICS contains information about an access token. A driver can retrieve this information by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff556690">SeQueryInformationToken</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff567055">ZwQueryInformationToken</a>. 
 
 
 ## -struct-fields
@@ -78,7 +60,7 @@ typedef struct _TOKEN_STATISTICS {
 
 ### -field TokenId
 
-Specifies a locally unique identifier (<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>) that identifies this instance of the token object. 
+Specifies a locally unique identifier (<a href="https://msdn.microsoft.com/library/windows/hardware/ff557080">LUID</a>) that identifies this instance of the token object. 
 
 
 ### -field AuthenticationId
@@ -93,12 +75,12 @@ Specifies the time at which this token expires. Expiration times for access toke
 
 ### -field TokenType
 
-Specifies a <a href="..\ntifs\ne-ntifs-_token_type.md">TOKEN_TYPE</a> enumerated type indicating whether the token is a primary or impersonation token. 
+Specifies a <a href="https://msdn.microsoft.com/library/windows/hardware/ff556851">TOKEN_TYPE</a> enumerated type indicating whether the token is a primary or impersonation token. 
 
 
 ### -field ImpersonationLevel
 
-Specifies a <a href="..\wudfddi\ne-wudfddi-_security_impersonation_level.md">SECURITY_IMPERSONATION_LEVEL</a> enumerated type indicating the impersonation level of the token. This member is valid only if the <b>TokenType</b> is TokenImpersonation. 
+Specifies a <a href="https://msdn.microsoft.com/library/windows/hardware/ff556631">SECURITY_IMPERSONATION_LEVEL</a> enumerated type indicating the impersonation level of the token. This member is valid only if the <b>TokenType</b> is TokenImpersonation. 
 
 
 ### -field DynamicCharged
@@ -113,7 +95,7 @@ Specifies the portion of the memory allocated for storing a DACL and primary gro
 
 ### -field GroupCount
 
-Specifies the number of supplemental group security identifiers (<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>) included in the token. 
+Specifies the number of supplemental group security identifiers (<a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a>) included in the token. 
 
 
 ### -field PrivilegeCount
@@ -128,44 +110,43 @@ Specifies an LUID that changes each time the token is modified. An application c
 
 ## -see-also
 
-<a href="..\wudfddi\ne-wudfddi-_security_impersonation_level.md">SECURITY_IMPERSONATION_LEVEL</a>
 
 
 
-<a href="..\ntifs\ne-ntifs-_token_information_class.md">TOKEN_INFORMATION_CLASS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538866">ACL</a>
 
 
 
-<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557080">LUID</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-zwsetinformationtoken.md">ZwSetInformationToken</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556631">SECURITY_IMPERSONATION_LEVEL</a>
 
 
 
-<a href="..\ntifs\ne-ntifs-_token_type.md">TOKEN_TYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a>
 
 
 
-<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556690">SeQueryInformationToken</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-sequeryinformationtoken.md">SeQueryInformationToken</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556838">TOKEN_INFORMATION_CLASS</a>
 
 
 
-<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556851">TOKEN_TYPE</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-zwqueryinformationtoken.md">ZwQueryInformationToken</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567055">ZwQueryInformationToken</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567102">ZwSetInformationToken</a>
  
 
  
-
 

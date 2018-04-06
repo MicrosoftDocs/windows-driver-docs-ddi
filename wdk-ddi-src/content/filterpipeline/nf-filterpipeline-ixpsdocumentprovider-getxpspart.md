@@ -38,7 +38,8 @@ api_location:
 -	filterpipeline.h
 api_name:
 -	IXpsDocumentProvider.GetXpsPart
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
@@ -50,16 +51,6 @@ req.typenames: EXpsFontRestriction
 
 
 The <code>GetXpsPart</code> method retrieves several objects that make up an XPS document.
-
-
-## -syntax
-
-
-````
-HRESULT GetXpsPart(
-  [out] IUnknown **ppIXpsPart
-);
-````
 
 
 ## -parameters

@@ -38,7 +38,8 @@ api_location:
 -	Printerextension.h
 api_name:
 -	IPrinterScriptableStream.Seek
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PrintSchemaSelectionType
 req.product: Windows 10 or later.
@@ -51,18 +52,6 @@ req.product: Windows 10 or later.
 
 
 Sets the seek pointer.
-
-
-## -syntax
-
-
-````
-HRESULT Seek(
-  [in]          LONG        lOffset,
-  [in]          STREAM_SEEK streamSeek,
-  [out, retval] LONG        *plPosition
-);
-````
 
 
 ## -parameters
@@ -96,12 +85,11 @@ This method returns an <b>HRESULT</b> value.
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprinterscriptablestream.md">IPrinterScriptableStream</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh973218">IPrinterScriptableStream</a>
  
 
  
-
 

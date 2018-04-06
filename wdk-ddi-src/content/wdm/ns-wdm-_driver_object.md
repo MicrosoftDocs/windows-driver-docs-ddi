@@ -7,7 +7,7 @@ old-location: kernel\driver_object.htm
 old-project: kernel
 ms.assetid: 512e3fd5-7ea5-423c-a628-0db6b30fd708
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*PDRIVER_OBJECT, DRIVER_OBJECT, DRIVER_OBJECT structure [Kernel-Mode Driver Architecture], PDRIVER_OBJECT, PDRIVER_OBJECT structure pointer [Kernel-Mode Driver Architecture], _DRIVER_OBJECT, kernel.driver_object, kstruct_a_dfe1b66c-d3bf-43ff-b3ee-b6edfd4f1616.xml, wdm/DRIVER_OBJECT, wdm/PDRIVER_OBJECT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	DRIVER_OBJECT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DRIVER_OBJECT, *PDRIVER_OBJECT
 req.product: Windows 10 or later.
@@ -50,26 +51,9 @@ req.product: Windows 10 or later.
 ## -description
 
 
-Each driver object represents the image of a loaded kernel-mode driver. A pointer to the driver object is an input parameter to a driver's <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a>, and optional <a href="..\ntddk\nc-ntddk-driver_reinitialize.md">Reinitialize</a> routines and to its <a href="https://msdn.microsoft.com/library/windows/hardware/ff564886">Unload</a> routine, if any.
+Each driver object represents the image of a loaded kernel-mode driver. A pointer to the driver object is an input parameter to a driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a>, and optional <a href="https://msdn.microsoft.com/library/windows/hardware/ff561022">Reinitialize</a> routines and to its <a href="https://msdn.microsoft.com/library/windows/hardware/ff564886">Unload</a> routine, if any.
 
 A driver object is partially opaque. Driver writers must know about certain members of a driver object to initialize a driver and to unload it if the driver is unloadable. The following members of the driver object are accessible to drivers.
-
-
-## -syntax
-
-
-````
-typedef struct _DRIVER_OBJECT {
-  PDEVICE_OBJECT     DeviceObject;
-  PDRIVER_EXTENSION  DriverExtension;
-  PUNICODE_STRING    HardwareDatabase;
-  PFAST_IO_DISPATCH  FastIoDispatch;
-  PDRIVER_INITIALIZE DriverInit;
-  PDRIVER_STARTIO    DriverStartIo;
-  PDRIVER_UNLOAD     DriverUnload;
-  PDRIVER_DISPATCH   MajorFunction[IRP_MJ_MAXIMUM_FUNCTION+1];
-} DRIVER_OBJECT, *PDRIVER_OBJECT;
-````
 
 
 ## -struct-fields
@@ -89,7 +73,7 @@ typedef struct _DRIVER_OBJECT {
 
 ### -field DeviceObject
 
-Pointer to the device objects created by the driver. This member is automatically updated when the driver calls <a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a> successfully. A driver can use this member and the <b>NextDevice</b> member of <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> to step through a list of all the device objects that the driver created.
+Pointer to the device objects created by the driver. This member is automatically updated when the driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff548397">IoCreateDevice</a> successfully. A driver can use this member and the <b>NextDevice</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a> to step through a list of all the device objects that the driver created.
 
 
 ### -field Flags
@@ -134,7 +118,7 @@ Pointer to a structure defining the driver's fast I/O entry points. This member 
 
 ### -field DriverInit
 
-The entry point for the <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine, which is set up by the I/O manager.
+The entry point for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine, which is set up by the I/O manager.
 
 
 ### -field DriverStartIo
@@ -192,7 +176,7 @@ The DRIVER_DISPATCH function type is defined in the Wdm.h header file. To more a
 
 
 
-Each kernel-mode driver's initialization routine should be named <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> so the system will load the driver automatically. If this routine's name is something else, the driver writer must define the name of the initialization routine for the linker; otherwise, the system loader or I/O manager cannot find the driver's transfer address. The names of other standard driver routines can be chosen at the discretion of the driver writer.
+Each kernel-mode driver's initialization routine should be named <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> so the system will load the driver automatically. If this routine's name is something else, the driver writer must define the name of the initialization routine for the linker; otherwise, the system loader or I/O manager cannot find the driver's transfer address. The names of other standard driver routines can be chosen at the discretion of the driver writer.
 
 A driver must set its <i>DispatchXxx</i> entry points in the driver object that is passed in to the <b>DriverEntry</b> routine when the driver is loaded. A device driver must set one or more <i>DispatchXxx</i> entry points for the <b>IRP_MJ_<i>XXX</i></b> that any driver of the same type of device is required to handle. A higher-level driver must set one or more <i>DispatchXxx</i> entry points for all the <b>IRP_MJ_<i>XXX</i></b> that it must pass on to the underlying device driver. Otherwise, a driver is not sent IRPs for any <b>IRP_MJ_<i>XXX</i></b> for which it does not set up a <i>DispatchXxx</i> routine in the driver object. For more information about the set of <b>IRP_MJ_<i>XXX</i></b> that drivers for different types of underlying devices are required to handle, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff550710">IRP Major Function Codes</a>.
 
@@ -209,11 +193,18 @@ Undocumented members within a driver object should be considered inaccessible. D
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564886">Unload</a>
 
 
 
-<a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548397">IoCreateDevice</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549083">IoDeleteDevice</a>
 
 
 
@@ -221,16 +212,8 @@ Undocumented members within a driver object should be considered inaccessible. D
 
 
 
-<a href="..\wdm\nf-wdm-iodeletedevice.md">IoDeleteDevice</a>
-
-
-
-<a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564886">Unload</a>
  
 
  
-
 

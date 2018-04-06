@@ -7,7 +7,7 @@ old-location: netvista\wwan_register_action.htm
 old-project: netvista
 ms.assetid: 8c343094-0927-4cdd-be39-93dcb25f6bf6
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PWWAN_REGISTER_ACTION, PWWAN_REGISTER_ACTION, PWWAN_REGISTER_ACTION enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_REGISTER_ACTION, WWAN_REGISTER_ACTION enumeration [Network Drivers Starting with Windows Vista], WwanRef_27e66042-089c-435b-b255-d01e1ddebb5f.xml, WwanRegisterActionAutomatic, WwanRegisterActionManual, WwanRegisterActionMax, _WWAN_REGISTER_ACTION, netvista.wwan_register_action, wwan/PWWAN_REGISTER_ACTION, wwan/WWAN_REGISTER_ACTION, wwan/WwanRegisterActionAutomatic, wwan/WwanRegisterActionManual, wwan/WwanRegisterActionMax"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	wwan.h
 api_name:
 -	WWAN_REGISTER_ACTION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WWAN_REGISTER_ACTION, *PWWAN_REGISTER_ACTION
 req.product: Windows 10 or later.
@@ -52,18 +53,6 @@ req.product: Windows 10 or later.
 
 The WWAN_REGISTER_ACTION enumeration lists the different provider network registration actions that
   are supported by the MB device.
-
-
-## -syntax
-
-
-````
-typedef enum _WWAN_REGISTER_ACTION { 
-  WwanRegisterActionAutomatic  = 0,
-  WwanRegisterActionManual,
-  WwanRegisterActionMax
-} WWAN_REGISTER_ACTION, *PWWAN_REGISTER_ACTION;
-````
 
 
 ## -enum-fields
@@ -88,12 +77,11 @@ The total number of supported registration actions.
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_set_register_state.md">WWAN_SET_REGISTER_STATE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571236">WWAN_SET_REGISTER_STATE</a>
  
 
  
-
 

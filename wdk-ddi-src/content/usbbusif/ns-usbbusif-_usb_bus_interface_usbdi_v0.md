@@ -7,7 +7,7 @@ old-location: buses\usb_bus_interface_usbdi_v0.htm
 old-project: usbref
 ms.assetid: f21ba9f4-9571-4918-8f10-97bd308c69f3
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PUSB_BUS_INTERFACE_USBDI_V0, PUSB_BUS_INTERFACE_USBDI_V0, PUSB_BUS_INTERFACE_USBDI_V0 structure pointer [Buses], USB_BUS_INTERFACE_USBDI_V0, USB_BUS_INTERFACE_USBDI_V0 structure [Buses], _USB_BUS_INTERFACE_USBDI_V0, buses.usb_bus_interface_usbdi_v0, usbbusif/PUSB_BUS_INTERFACE_USBDI_V0, usbbusif/USB_BUS_INTERFACE_USBDI_V0, usbinterKR_2af580ba-2b3f-4f20-808a-5cd5d42b8ada.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	usbbusif.h
 api_name:
 -	USB_BUS_INTERFACE_USBDI_V0
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USB_BUS_INTERFACE_USBDI_V0, *PUSB_BUS_INTERFACE_USBDI_V0
 req.product: Windows 10 or later.
@@ -51,24 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>USB_BUS_INTERFACE_USBDI_V0</b> structure is provided by the USB hub driver to allow USB clients to make direct calls to the hub driver without allocating IRPs. 
-
-
-## -syntax
-
-
-````
-typedef struct _USB_BUS_INTERFACE_USBDI_V0 {
-  USHORT                             Size;
-  USHORT                             Version;
-  PVOID                              BusContext;
-  PINTERFACE_REFERENCE               InterfaceReference;
-  PINTERFACE_DEREFERENCE             InterfaceDereference;
-  PUSB_BUSIFFN_GETUSBDI_VERSION      GetUSBDIVersion;
-  PUSB_BUSIFFN_QUERY_BUS_TIME        QueryBusTime;
-  PUSB_BUSIFFN_SUBMIT_ISO_OUT_URB    SubmitIsoOutUrb;
-  PUSB_BUSIFFN_QUERY_BUS_INFORMATION QueryBusInformation;
-} USB_BUS_INTERFACE_USBDI_V0, *PUSB_BUS_INTERFACE_USBDI_V0;
-````
 
 
 ## -struct-fields
@@ -141,12 +124,12 @@ Contains information that describes the USB bus and the USB bus driver that expo
 
 ### -field InterfaceReference
 
-Pointer to a routine that increments the number of references to this interface. For more information about this routine, see <a href="..\wudfwdm\nc-wudfwdm-pinterface_reference.md">InterfaceReference</a>. 
+Pointer to a routine that increments the number of references to this interface. For more information about this routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff547833">InterfaceReference</a>. 
 
 
 ### -field InterfaceDereference
 
-Pointer to a routine that decrements the number of references to this interface. For more information about this routine, see <a href="..\wudfwdm\nc-wudfwdm-pinterface_dereference.md">InterfaceDereference</a>. 
+Pointer to a routine that decrements the number of references to this interface. For more information about this routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff547829">InterfaceDereference</a>. 
 
 
 ### -field GetUSBDIVersion
@@ -180,16 +163,15 @@ For information about how to query for these interfaces, see <a href="https://ms
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/1b571ee0-d47f-40b6-8beb-d57b49ae3ac8">Bus Driver Interface Routines for USB Client Drivers</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-
-
-
  
 
  
-
 

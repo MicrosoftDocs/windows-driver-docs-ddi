@@ -38,7 +38,8 @@ api_location:
 -	filterpipeline.h
 api_name:
 -	IFixedPage.GetPagePart
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
@@ -50,17 +51,6 @@ req.typenames: EXpsFontRestriction
 
 
 The <b>GetPagePart</b> method gets the images, thumbnails, fonts, and so on in a page by using the URI.
-
-
-## -syntax
-
-
-````
-HRESULT GetPagePart(
-  [in]  const wchar_t  *uri,
-  [out]       IUnknown **ppUnk
-);
-````
 
 
 ## -parameters

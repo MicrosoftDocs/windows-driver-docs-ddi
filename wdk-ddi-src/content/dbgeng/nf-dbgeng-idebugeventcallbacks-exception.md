@@ -7,7 +7,7 @@ old-location: debugger\idebugeventcallbacks_exception.htm
 old-project: debugger
 ms.assetid: 93f915ab-1f9e-453c-b76e-8260eecd7298
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: ComCallbacks_46bf959d-52a9-4b0a-b074-d28b76de343d.xml, Exception method [Windows Debugging], Exception method [Windows Debugging], IDebugEventCallbacks interface, Exception,IDebugEventCallbacks.Exception, IDebugEventCallbacks, IDebugEventCallbacks interface [Windows Debugging], Exception method, IDebugEventCallbacks::Exception, dbgeng/IDebugEventCallbacks::Exception, debugger.idebugeventcallbacks_exception
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugEventCallbacks.Exception
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -50,17 +51,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>Exception</b> callback method is called by the engine when an <a href="https://msdn.microsoft.com/0dd010e7-3e10-422a-adcb-8fe7df9e29ab">exception</a>debugging event occurs in the target.
-
-
-## -syntax
-
-
-````
-HRESULT Exception(
-  [in] PEXCEPTION_RECORD64 Exception,
-  [in] ULONG               FirstChance
-);
-````
 
 
 ## -parameters

@@ -38,7 +38,8 @@ api_location:
 -	1394.h
 api_name:
 -	IRB_REQ_ISOCH_ATTACH_BUFFERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: IRB_REQ_ISOCH_ATTACH_BUFFERS
 ---
@@ -50,18 +51,6 @@ req.typenames: IRB_REQ_ISOCH_ATTACH_BUFFERS
 
 
 This structure contains the fields required for the 1394 bus driver to carry out a IsochAttachBuffers request.
-
-
-## -syntax
-
-
-````
-typedef struct _IRB_REQ_ISOCH_ATTACH_BUFFERS {
-  HANDLE            hResource;
-  ULONG             nNumberOfDescriptors;
-  PISOCH_DESCRIPTOR pIsochDescriptor;
-} IRB_REQ_ISOCH_ATTACH_BUFFERS;
-````
 
 
 ## -struct-fields

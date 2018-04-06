@@ -3,12 +3,12 @@ UID: NS:gnssdriver.GNSS_DEVICE_CAPABILITY
 title: GNSS_DEVICE_CAPABILITY
 author: windows-driver-content
 description: This structure is used to determine the device capabilities of the underlying GNSS engine.
-old-location: gnss\gnss_device_capability.htm
-old-project: gnss
+old-location: sensors\gnss_device_capability.htm
+old-project: sensors
 ms.assetid: F8FA91AC-9085-4C25-8798-CEB9ADB34320
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: "*PGNSS_DEVICE_CAPABILITY, GNSS_DEVICE_CAPABILITY, GNSS_DEVICE_CAPABILITY structure [Sensor Devices], PGNSS_DEVICE_CAPABILITY, PGNSS_DEVICE_CAPABILITY structure pointer [Sensor Devices], gnss.gnss_device_capability, gnssdriver/GNSS_DEVICE_CAPABILITY, gnssdriver/PGNSS_DEVICE_CAPABILITY"
+ms.date: 2/22/2018
+ms.keywords: "*PGNSS_DEVICE_CAPABILITY, GNSS_DEVICE_CAPABILITY, GNSS_DEVICE_CAPABILITY structure [Sensor Devices], PGNSS_DEVICE_CAPABILITY, PGNSS_DEVICE_CAPABILITY structure pointer [Sensor Devices], gnssdriver/GNSS_DEVICE_CAPABILITY, gnssdriver/PGNSS_DEVICE_CAPABILITY, sensors.gnss_device_capability"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -38,7 +38,8 @@ api_location:
 -	gnssdriver.h
 api_name:
 -	GNSS_DEVICE_CAPABILITY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GNSS_DEVICE_CAPABILITY, *PGNSS_DEVICE_CAPABILITY
 ---
@@ -50,42 +51,6 @@ req.typenames: GNSS_DEVICE_CAPABILITY, *PGNSS_DEVICE_CAPABILITY
 
 
 This structure is used to determine the device capabilities of the underlying GNSS engine.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  ULONG             Size;
-  ULONG             Version;
-  BOOL              SupportMultipleFixSessions;
-  BOOL              SupportMultipleAppSessions;
-  BOOL              RequireAgnssInjection;
-  ULONG             AgnssFormatSupported;
-  ULONG             AgnssFormatPreferred;
-  BOOL              SupportDistanceTracking;
-  BOOL              SupportContinuousTracking;
-  ULONG             Reserved1;
-  BOOL              Reserved2;
-  BOOL              Reserved3;
-  BOOL              Reserved4;
-  BOOL              Reserved5;
-  ULONG             GeofencingSupport;
-  BOOL              Reserved6;
-  BOOL              Reserved7;
-  BOOL              SupportCpLocation;
-  BOOL              SupportUplV2;
-  BOOL              SupportSuplV1;
-  BOOL              SupportSuplV2;
-  GNSS_SUPL_VERSION SupportedSuplVersion;
-  ULONG             MaxGeofencesSupported;
-  BOOL              SupportMultipleSuplRootCert;
-  ULONG             GnssBreadCrumbPayloadVersion;
-  ULONG             MaxGnssBreadCrumbFixes;
-  BYTE              Unused[496];
-} GNSS_DEVICE_CAPABILITY, *PGNSS_DEVICE_CAPABILITY;
-````
 
 
 ## -struct-fields

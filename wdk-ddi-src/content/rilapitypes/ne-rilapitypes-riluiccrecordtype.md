@@ -38,7 +38,8 @@ api_location:
 -	rilapitypes.h
 api_name:
 -	RILUICCRECORDTYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILUICCRECORDTYPE
 req.product: Windows 10 or later.

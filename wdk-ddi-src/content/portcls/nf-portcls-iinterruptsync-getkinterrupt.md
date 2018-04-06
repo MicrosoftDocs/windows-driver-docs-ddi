@@ -7,7 +7,7 @@ old-location: audio\iinterruptsync_getkinterrupt.htm
 old-project: audio
 ms.assetid: 045c509b-852d-405c-9615-8a2f351bf8c7
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/19/2018
 ms.keywords: GetKInterrupt method [Audio Devices], GetKInterrupt method [Audio Devices], IInterruptSync interface, GetKInterrupt,IInterruptSync.GetKInterrupt, IInterruptSync, IInterruptSync interface [Audio Devices], GetKInterrupt method, IInterruptSync::GetKInterrupt, audio.iinterruptsync_getkinterrupt, audmp-routines_7782adef-dc02-4876-bd48-812f8b3e58da.xml, portcls/IInterruptSync::GetKInterrupt
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	portcls.h
 api_name:
 -	IInterruptSync.GetKInterrupt
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
@@ -50,16 +51,6 @@ req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 
 
 The <code>GetKInterrupt</code> method gets a WDM interrupt object from a port-class synchronization object.
-
-
-## -syntax
-
-
-````
-PKINTERRUPT GetKInterrupt(
-    None
-);
-````
 
 
 ## -parameters
@@ -87,14 +78,17 @@ PKINTERRUPT GetKInterrupt(
 
 The PKINTERRUPT pointer is one of the two parameters that are passed to every interrupt service routine (see <a href="https://msdn.microsoft.com/library/windows/hardware/ff547958">InterruptService</a>). Every <b>IInterruptSync</b> object has an associated PKINTERRUPT pointer. It points to the associated kernel interrupt object, which is opaque.
 
-A driver typically calls <code>GetKInterrupt</code> only if it needs to obtain this pointer so that it can call <a href="..\wdm\nf-wdm-kesynchronizeexecution.md">KeSynchronizeExecution</a> directly.
+A driver typically calls <code>GetKInterrupt</code> only if it needs to obtain this pointer so that it can call <a href="https://msdn.microsoft.com/library/windows/hardware/ff553302">KeSynchronizeExecution</a> directly.
 
 
 
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iinterruptsync.md">IInterruptSync</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536590">IInterruptSync</a>
 
 
 
@@ -102,12 +96,8 @@ A driver typically calls <code>GetKInterrupt</code> only if it needs to obtain t
 
 
 
-<a href="..\wdm\nf-wdm-kesynchronizeexecution.md">KeSynchronizeExecution</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553302">KeSynchronizeExecution</a>
  
 
  
-
 

@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	IKsReferenceClock.GetResolution
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -52,16 +53,6 @@ req.typenames:
 The <b>IKsReferenceClock::GetResolution</b> method queries the associated reference clock for its resolution.
 
 
-## -syntax
-
-
-````
-NTSTATUS GetResolution(
-  [out] PKSRESOLUTION Resolution
-);
-````
-
-
 ## -parameters
 
 
@@ -69,7 +60,7 @@ NTSTATUS GetResolution(
 
 ### -param Resolution [out]
 
-Specifies granularity and notification error of the clock in a <a href="..\ks\ns-ks-ksresolution.md">KSRESOLUTION</a> structure.
+Specifies granularity and notification error of the clock in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff566806">KSRESOLUTION</a> structure.
 
 
 ## -returns
@@ -98,12 +89,11 @@ AVStream uses the <a href="https://msdn.microsoft.com/library/windows/hardware/f
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kspingetreferenceclockinterface.md">KsPinGetReferenceClockInterface</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563517">KsPinGetReferenceClockInterface</a>
  
 
  
-
 

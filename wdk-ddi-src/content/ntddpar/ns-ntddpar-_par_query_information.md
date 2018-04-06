@@ -38,7 +38,8 @@ api_location:
 -	ntddpar.h
 api_name:
 -	PAR_QUERY_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PAR_QUERY_INFORMATION, *PPAR_QUERY_INFORMATION
 ---
@@ -121,11 +122,11 @@ This structure is used with an <a href="..\ntddpar\ni-ntddpar-ioctl_par_query_in
 
 
 
-<a href="..\ntddpar\ns-ntddpar-_par_set_information.md">PAR_SET_INFORMATION</a>
-
-
-
 <a href="..\ntddpar\ni-ntddpar-ioctl_par_query_information.md">IOCTL_PAR_QUERY_INFORMATION</a>
+
+
+
+<a href="..\ntddpar\ns-ntddpar-_par_set_information.md">PAR_SET_INFORMATION</a>
 
 
 

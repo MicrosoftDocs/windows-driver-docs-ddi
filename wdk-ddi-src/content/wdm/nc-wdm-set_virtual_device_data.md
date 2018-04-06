@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	SetVirtualFunctionData
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
 req.product: Windows 10 or later.
@@ -125,15 +126,15 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451552">SetVi
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451143">GUID_PCI_VIRTUALIZATION_INTERFACE</a>
-
-
-
 <a href="..\wdm\nc-wdm-get_set_device_data.md">SetBusData</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406642">PCI_VIRTUALIZATION_INTERFACE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451143">GUID_PCI_VIRTUALIZATION_INTERFACE</a>
 
 
 

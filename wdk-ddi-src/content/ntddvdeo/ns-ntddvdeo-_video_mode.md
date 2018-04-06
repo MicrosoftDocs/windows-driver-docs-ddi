@@ -7,7 +7,7 @@ old-location: display\video_mode.htm
 old-project: display
 ms.assetid: 01fad141-d023-4a3a-80ae-cb07985db8d1
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PVIDEO_MODE, PVIDEO_MODE, PVIDEO_MODE structure pointer [Display Devices], VIDEO_MODE, VIDEO_MODE structure [Display Devices], Video_Structs_7a64b36b-d8f2-411d-86e3-4fe854a94220.xml, _VIDEO_MODE, display.video_mode, ntddvdeo/PVIDEO_MODE, ntddvdeo/VIDEO_MODE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddvdeo.h
 api_name:
 -	VIDEO_MODE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEO_MODE, *PVIDEO_MODE
 ---
@@ -49,17 +50,7 @@ req.typenames: VIDEO_MODE, *PVIDEO_MODE
 ## -description
 
 
-The VIDEO_MODE structure contains the requested VGA mode that an adapter should set. This structure is used in conjunction with <a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_set_current_mode.md">IOCTL_VIDEO_SET_CURRENT_MODE</a>. 
-
-
-## -syntax
-
-
-````
-typedef struct _VIDEO_MODE {
-  ULONG RequestedMode;
-} VIDEO_MODE, *PVIDEO_MODE;
-````
+The VIDEO_MODE structure contains the requested VGA mode that an adapter should set. This structure is used in conjunction with <a href="https://msdn.microsoft.com/library/windows/hardware/ff567846">IOCTL_VIDEO_SET_CURRENT_MODE</a>. 
 
 
 ## -struct-fields

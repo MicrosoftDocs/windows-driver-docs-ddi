@@ -38,7 +38,8 @@ api_location:
 -	Ksmedia.h
 api_name:
 -	KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST
 ---
@@ -50,16 +51,6 @@ req.typenames: KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST
 
 
 Used to specify a camera region of interest.
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_PROPERTY_ID  = 0
-} KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST;
-````
 
 
 ## -enum-fields
@@ -74,12 +65,11 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/jj156042">KSPRO
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/jj156042">KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_PROPERTY</a>
-
-
-
  
 
  
-
 

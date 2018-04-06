@@ -38,7 +38,8 @@ api_location:
 -	Windot11.h
 api_name:
 -	DOT11_OFFLOAD_NETWORK_LIST_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT11_OFFLOAD_NETWORK_LIST_INFO, *PDOT11_OFFLOAD_NETWORK_LIST_INFO
 req.product: Windows 10 or later.

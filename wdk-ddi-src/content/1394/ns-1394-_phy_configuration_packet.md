@@ -38,7 +38,8 @@ api_location:
 -	1394.h
 api_name:
 -	PHY_CONFIGURATION_PACKET
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PHY_CONFIGURATION_PACKET, *PPHY_CONFIGURATION_PACKET
 ---
@@ -50,23 +51,6 @@ req.typenames: PHY_CONFIGURATION_PACKET, *PPHY_CONFIGURATION_PACKET
 
 
 The PHY_CONFIGURATION_PACKET structure contains a raw PHY configuration packet.
-
-
-## -syntax
-
-
-````
-typedef struct _PHY_CONFIGURATION_PACKET {
-  ULONG PCP_Phys_ID  :6;
-  ULONG PCP_Packet_ID  :2;
-  ULONG PCP_Gap_Count  :6;
-  ULONG PCP_Set_Gap_Count  :1;
-  ULONG PCP_Force_Root  :1;
-  ULONG PCP_Reserved1  :8;
-  ULONG PCP_Reserved2  :8;
-  ULONG PCP_Inverse;
-} PHY_CONFIGURATION_PACKET, *PPHY_CONFIGURATION_PACKET;
-````
 
 
 ## -struct-fields
@@ -125,12 +109,11 @@ For an explanation of the function of the PHY configuration packet, see the IEEE
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537661">REQUEST_SEND_PHY_CONFIG_PACKET</a>
-
-
-
  
 
  
-
 

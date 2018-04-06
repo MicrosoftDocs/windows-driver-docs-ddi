@@ -7,7 +7,7 @@ old-location: kernel\kegetcurrentirql.htm
 old-project: kernel
 ms.assetid: 63c33017-d827-4a8f-bb6f-fd13a2528e0c
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: KeGetCurrentIrql, KeGetCurrentIrql routine [Kernel-Mode Driver Architecture], k105_04c845e8-a239-4400-8a5f-15996754494a.xml, kernel.kegetcurrentirql, wdm/KeGetCurrentIrql
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Hal.dll
 api_name:
 -	KeGetCurrentIrql
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
@@ -52,14 +53,6 @@ req.product: Windows 10 or later.
 
 
 The <b>KeGetCurrentIrql</b> routine returns the current IRQL.
-
-
-## -syntax
-
-
-````
- KIRQL KeGetCurrentIrql(void);
-````
 
 
 ## -parameters
@@ -80,20 +73,19 @@ The <b>KeGetCurrentIrql</b> routine returns the current IRQL.
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kelowerirql.md">KeLowerIrql</a>
 
 
 
-<a href="..\wdm\nf-wdm-keraiseirql.md">KeRaiseIrql</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551921">KeAcquireSpinLockAtDpcLevel</a>
 
 
 
-<a href="..\wdm\nf-wdm-keacquirespinlockatdpclevel.md">KeAcquireSpinLockAtDpcLevel</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552968">KeLowerIrql</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553079">KeRaiseIrql</a>
  
 
  
-
 

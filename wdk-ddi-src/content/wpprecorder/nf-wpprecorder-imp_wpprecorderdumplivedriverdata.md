@@ -38,7 +38,8 @@ api_location:
 -	Wpprecorder.h
 api_name:
 -	imp_WppRecorderDumpLiveDriverData
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WNODE_HEADER, *PWNODE_HEADER
 req.product: Windows 10 or later.
@@ -50,19 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <a href="..\wpprecorder\nf-wpprecorder-imp_wpprecorderdumplivedriverdata.md">WppRecorderDumpLiveDriverData</a> method gets the buffer associated with the specified Inflight Trace Recorder log.
-
-
-## -syntax
-
-
-````
-NTSTATUS imp_WppRecorderDumpLiveDriverData(
-   NULL OutBuffer,
-   NULL OutBufferLength,
-   NULL Guid
-);
-````
+The <a href="https://msdn.microsoft.com/library/windows/hardware/dn914612">WppRecorderDumpLiveDriverData</a> method gets the buffer associated with the specified Inflight Trace Recorder log.
 
 
 ## -parameters

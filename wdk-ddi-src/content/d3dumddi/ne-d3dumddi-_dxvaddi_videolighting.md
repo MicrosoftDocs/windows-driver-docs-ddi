@@ -7,7 +7,7 @@ old-location: display\dxvaddi_videolighting.htm
 old-project: display
 ms.assetid: 2ae1c84e-119a-4649-b3f0-eafbb044dd91
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXVA2_Structs_63ea0b3a-8eef-4960-b3a5-2587eae26917.xml, DXVADDI_VIDEOLIGHTING, DXVADDI_VIDEOLIGHTING enumeration [Display Devices], DXVADDI_VideoLightingMask, DXVADDI_VideoLighting_Unknown, DXVADDI_VideoLighting_bright, DXVADDI_VideoLighting_dark, DXVADDI_VideoLighting_dim, DXVADDI_VideoLighting_office, _DXVADDI_VIDEOLIGHTING, d3dumddi/DXVADDI_VIDEOLIGHTING, d3dumddi/DXVADDI_VideoLightingMask, d3dumddi/DXVADDI_VideoLighting_Unknown, d3dumddi/DXVADDI_VideoLighting_bright, d3dumddi/DXVADDI_VideoLighting_dark, d3dumddi/DXVADDI_VideoLighting_dim, d3dumddi/DXVADDI_VideoLighting_office, display.dxvaddi_videolighting
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	DXVADDI_VIDEOLIGHTING
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXVADDI_VIDEOLIGHTING
 ---
@@ -50,21 +51,6 @@ req.typenames: DXVADDI_VIDEOLIGHTING
 
 
 The DXVADDI_VIDEOLIGHTING enumeration type contains values that identify lighting conditions for viewing video.
-
-
-## -syntax
-
-
-````
-typedef enum _DXVADDI_VIDEOLIGHTING { 
-  DXVADDI_VideoLightingMask      = 0x0F,
-  DXVADDI_VideoLighting_Unknown  = 0,
-  DXVADDI_VideoLighting_bright   = 1,
-  DXVADDI_VideoLighting_office   = 2,
-  DXVADDI_VideoLighting_dim      = 3,
-  DXVADDI_VideoLighting_dark     = 4
-} DXVADDI_VIDEOLIGHTING;
-````
 
 
 ## -enum-fields
@@ -106,7 +92,7 @@ Near-darkness for viewing video (for example, movie-theatre lighting).
 
 
 
-One of the values of DXVADDI_VIDEOLIGHTING can be specified in the <b>VideoLighting</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_extendedformat.md">DXVADDI_EXTENDEDFORMAT</a>.
+One of the values of DXVADDI_VIDEOLIGHTING can be specified in the <b>VideoLighting</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562904">DXVADDI_EXTENDEDFORMAT</a>.
 
 The video lighting values can be used to alter the gamma to generate a comparable experience in a different lighting condition. 
 
@@ -115,12 +101,11 @@ The video lighting values can be used to alter the gamma to generate a comparabl
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_extendedformat.md">DXVADDI_EXTENDEDFORMAT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562904">DXVADDI_EXTENDEDFORMAT</a>
  
 
  
-
 

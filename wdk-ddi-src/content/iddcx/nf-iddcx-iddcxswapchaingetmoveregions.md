@@ -7,7 +7,7 @@ old-location: display\iddcxswapchaingetmoveregions.htm
 old-project: display
 ms.assetid: ae8257a6-4d4c-446e-b144-1adfe0a28e50
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IddCxSwapChainGetMoveRegions, IddCxSwapChainGetMoveRegions method [Display Devices], display.iddcxswapchaingetmoveregions, iddcx/IddCxSwapChainGetMoveRegions
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	iddcx.h
 api_name:
 -	IddCxSwapChainGetMoveRegions
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -52,18 +53,6 @@ req.typenames:
 
 
                 n OS callback function the driver calls when it wants retrieve the move regions for the current frame
-
-
-## -syntax
-
-
-````
-HRESULT IddCxSwapChainGetMoveRegions(
-  _In_        IDDCX_SWAPCHAIN           SwapChainObject,
-  _In_  const IDARG_IN_GETMOVEREGIONS*  pInArgs,
-  _Out_       IDARG_OUT_GETMOVEREGIONS* pOutArgs
-);
-````
 
 
 ## -parameters

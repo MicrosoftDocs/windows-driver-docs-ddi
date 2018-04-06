@@ -38,7 +38,8 @@ api_location:
 -	Sensorsdef.h
 api_name:
 -	SENSOR_VALUE_PAIR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SENSOR_VALUE_PAIR, *PSENSOR_VALUE_PAIR
 req.product: Windows 10 or later.
@@ -51,17 +52,6 @@ req.product: Windows 10 or later.
 
 
 This structure pairs the property keys listed in the <a href="https://msdn.microsoft.com/library/windows/hardware/dn946698">Sensor properties</a> section with the data that each key represents.
-
-
-## -syntax
-
-
-````
-typedef struct _SENSOR_VALUE_PAIR {
-  PROPERTYKEY Key;
-  PROPVARIANT Value;
-} SENSOR_VALUE_PAIR, *PSENSOR_VALUE_PAIR;
-````
 
 
 ## -struct-fields

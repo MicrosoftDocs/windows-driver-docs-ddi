@@ -7,7 +7,7 @@ old-location: storage\ioctl_tape_create_partition.htm
 old-project: storage
 ms.assetid: da220281-a08d-4aeb-abb4-471aacb2461a
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IOCTL_TAPE_CREATE_PARTITION, IOCTL_TAPE_CREATE_PARTITION control code [Storage Devices], k307_d1911c51-33f1-4c45-bbf0-ace7714fa53f.xml, ntddtape/IOCTL_TAPE_CREATE_PARTITION, storage.ioctl_tape_create_partition
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ntddtape.h
 api_name:
 -	IOCTL_TAPE_CREATE_PARTITION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TAPE_DRIVE_PROBLEM_TYPE
 ---
@@ -63,7 +64,7 @@ Creates the specified number of fixed, select, or initiator partition(s) of the 
 ### -input-buffer
 
 
-       The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains a structure of type <a href="..\ntddtape\ns-ntddtape-_tape_create_partition.md">TAPE_CREATE_PARTITION</a> that specifies the partition(s) to be created. 
+       The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff567960">TAPE_CREATE_PARTITION</a> that specifies the partition(s) to be created. 
 
 
 ### -input-buffer-length
@@ -106,16 +107,15 @@ The <b>Information</b> field is set to zero. The <b>Status</b> field is set to S
 
 ## -see-also
 
-<a href="..\minitape\ne-minitape-_tape_status.md">TAPE_STATUS</a>
 
 
 
-<a href="..\ntddtape\ns-ntddtape-_tape_create_partition.md">TAPE_CREATE_PARTITION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567960">TAPE_CREATE_PARTITION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567975">TAPE_STATUS</a>
  
 
  
-
 

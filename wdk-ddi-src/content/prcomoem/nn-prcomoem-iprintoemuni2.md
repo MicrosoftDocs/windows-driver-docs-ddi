@@ -38,7 +38,8 @@ api_location:
 -	prcomoem.h
 api_name:
 -	IPrintOemUni2
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
@@ -52,7 +53,7 @@ req.product: Windows 10 or later.
 
 This section describes the methods defined for the IPrintOemUni2 COM interface.
 
-In addition to the methods that belong to the IPrintOemUni2 COM interface, this interface includes all of the methods that belong to the <a href="..\prcomoem\nn-prcomoem-iprintoemuni.md">IPrintOemUni</a> COM interface.
+In addition to the methods that belong to the IPrintOemUni2 COM interface, this interface includes all of the methods that belong to the <a href="https://msdn.microsoft.com/097366a0-2ded-435c-9b63-2b736b716032">IPrintOemUni</a> COM interface.
 
 
 ## -inheritance

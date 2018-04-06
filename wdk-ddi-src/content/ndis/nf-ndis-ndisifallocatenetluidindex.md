@@ -7,7 +7,7 @@ old-location: netvista\ndisifallocatenetluidindex.htm
 old-project: netvista
 ms.assetid: bc62da04-242a-4d9a-8a85-2342a1b3e628
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: NdisIfAllocateNetLuidIndex, NdisIfAllocateNetLuidIndex function [Network Drivers Starting with Windows Vista], ndis/NdisIfAllocateNetLuidIndex, net_if_functions_ref_3ffcc5c8-7475-475d-8732-dc59ee632285.xml, netvista.ndisifallocatenetluidindex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	ndis.dll
 api_name:
 -	NdisIfAllocateNetLuidIndex
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
@@ -54,17 +55,6 @@ The
   <b>NdisIfAllocateNetLuidIndex</b> function allocates a 
   <a href="https://msdn.microsoft.com/library/windows/hardware/ff568747">NET_LUID</a> index for an NDIS network interface
   provider.
-
-
-## -syntax
-
-
-````
-NDIS_STATUS NdisIfAllocateNetLuidIndex(
-  _In_  NET_IFTYPE IfType,
-  _Out_ PUINT32    pNetLuidIndex
-);
-````
 
 
 ## -parameters
@@ -147,7 +137,7 @@ NDIS interface providers call the
     can remain associated with the same interface even after the computer restarts. NDIS will not allocate
     the same NET_LUID index to future callers of 
     <b>NdisIfAllocateNetLuidIndex</b> until after the interface provider calls the 
-    <a href="..\ndis\nf-ndis-ndisiffreenetluidindex.md">NdisIfFreeNetLuidIndex</a> function to
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff562706">NdisIfFreeNetLuidIndex</a> function to
     free the index.
 
 To build a 
@@ -158,10 +148,10 @@ To build a
 The interface provider must store the NET_LUID values that it allocates in persistent storage. For
     example, if there is a loss of computer power, the provider should have stored the NET_LUID values in
     persistent storage so it can call 
-    <a href="..\ndis\nf-ndis-ndisiffreenetluidindex.md">NdisIfFreeNetLuidIndex</a> later to
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff562706">NdisIfFreeNetLuidIndex</a> later to
     free any indexes that are no longer in use. Also, the provider should use the same NET_LUID value
     whenever it registers the same interface with the 
-    <a href="..\ndis\nf-ndis-ndisifregisterinterface.md">
+    <a href="https://msdn.microsoft.com/d0b0ada7-afb1-4cb7-ada6-7c5c7abe7d19">
     NdisIfRegisterInterface</a> function.
 
 
@@ -169,11 +159,6 @@ The interface provider must store the NET_LUID values that it allocates in persi
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisifregisterinterface.md">NdisIfRegisterInterface</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568747">NET_LUID</a>
 
 
 
@@ -181,12 +166,16 @@ The interface provider must store the NET_LUID values that it allocates in persi
 
 
 
-<a href="..\ndis\nf-ndis-ndisiffreenetluidindex.md">NdisIfFreeNetLuidIndex</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568747">NET_LUID</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562706">NdisIfFreeNetLuidIndex</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562715">NdisIfRegisterInterface</a>
  
 
  
-
 

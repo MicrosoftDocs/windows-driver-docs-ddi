@@ -7,7 +7,7 @@ old-location: debugger\debug_thread_basic_information.htm
 old-project: debugger
 ms.assetid: e964ed63-6c00-4308-955c-f8a99490a248
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PDEBUG_THREAD_BASIC_INFORMATION, DEBUG_THREAD_BASIC_INFORMATION, DEBUG_THREAD_BASIC_INFORMATION structure [Windows Debugging], PDEBUG_THREAD_BASIC_INFORMATION, PDEBUG_THREAD_BASIC_INFORMATION structure pointer [Windows Debugging], Structures_e48c9daa-ce4f-4131-9ca6-cb1a7a129fcc.xml, _DEBUG_THREAD_BASIC_INFORMATION, dbgeng/DEBUG_THREAD_BASIC_INFORMATION, dbgeng/PDEBUG_THREAD_BASIC_INFORMATION, debugger.debug_thread_basic_information"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	DbgEng.h
 api_name:
 -	DEBUG_THREAD_BASIC_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DEBUG_THREAD_BASIC_INFORMATION, *PDEBUG_THREAD_BASIC_INFORMATION
 ---
@@ -50,25 +51,6 @@ req.typenames: DEBUG_THREAD_BASIC_INFORMATION, *PDEBUG_THREAD_BASIC_INFORMATION
 
 
 The DEBUG_THREAD_BASIC_INFORMATION structure describes an operating system thread.
-
-
-## -syntax
-
-
-````
-typedef struct _DEBUG_THREAD_BASIC_INFORMATION {
-  ULONG   Valid;
-  ULONG   ExitStatus;
-  ULONG   PriorityClass;
-  ULONG   Priority;
-  ULONG64 CreateTime;
-  ULONG64 ExitTime;
-  ULONG64 KernelTime;
-  ULONG64 UserTime;
-  ULONG64 StartOffset;
-  ULONG64 Affinity;
-}  DEBUG_THREAD_BASIC_INFORMATION, *PDEBUG_THREAD_BASIC_INFORMATION;
-````
 
 
 ## -struct-fields

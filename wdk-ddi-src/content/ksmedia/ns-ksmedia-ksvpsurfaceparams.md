@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KSVPSURFACEPARAMS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSVPSURFACEPARAMS, *PKSVPSURFACEPARAMS
 ---
@@ -50,18 +51,6 @@ req.typenames: KSVPSURFACEPARAMS, *PKSVPSURFACEPARAMS
 
 
 The KSVPSURFACEPARAMS structure is used to describe the surface parameters of a video port surface.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  DWORD dwPitch;
-  DWORD dwXOrigin;
-  DWORD dwYOrigin;
-} KSVPSURFACEPARAMS, *PKSVPSURFACEPARAMS;
-````
 
 
 ## -struct-fields
@@ -95,12 +84,11 @@ This structure is used by the <a href="https://msdn.microsoft.com/library/window
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566509">KSPROPERTY_VPCONFIG_SURFACEPARAMS</a>
-
-
-
  
 
  
-
 

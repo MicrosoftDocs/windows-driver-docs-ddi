@@ -7,7 +7,7 @@ old-location: debugger\getnamebyoffsetwide.htm
 old-project: debugger
 ms.assetid: 45a041c9-029a-4fa1-91c6-562e56a30b3e
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: GetNameByOffsetWide method [Windows Debugging], GetNameByOffsetWide method [Windows Debugging], IDebugSymbols3 interface, GetNameByOffsetWide,IDebugSymbols3.GetNameByOffsetWide, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetNameByOffsetWide method, IDebugSymbols3::GetNameByOffsetWide, dbgeng/IDebugSymbols3::GetNameByOffsetWide, debugger.getnamebyoffsetwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugSymbols3.GetNameByOffsetWide
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -50,20 +51,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetNameByOffsetWide</b>  method returns the name of the symbol at the specified location in the target's virtual address space.
-
-
-## -syntax
-
-
-````
-HRESULT GetNameByOffsetWide(
-  [in]            ULONG64  Offset,
-  [out, optional] PWSTR    NameBuffer,
-  [in]            ULONG    NameBufferSize,
-  [out, optional] PULONG   NameSize,
-  [out, optional] PULONG64 Displacement
-);
-````
 
 
 ## -parameters
@@ -157,7 +144,6 @@ For more information about symbols and symbol names, see <a href="https://msdn.m
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548035">GetOffsetByName</a>
 
 
 
@@ -165,12 +151,12 @@ For more information about symbols and symbol names, see <a href="https://msdn.m
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548035">GetOffsetByName</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550870">IDebugSymbols3</a>
  
 
  
-
 

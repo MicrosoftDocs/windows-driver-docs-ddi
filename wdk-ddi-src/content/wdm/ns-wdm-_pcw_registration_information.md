@@ -38,7 +38,8 @@ api_location:
 -	wdm.h
 api_name:
 -	PCW_REGISTRATION_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PCW_REGISTRATION_INFORMATION, *PPCW_REGISTRATION_INFORMATION
 req.product: Windows 10 or later.
@@ -51,21 +52,6 @@ req.product: Windows 10 or later.
 
 
 The PCW_REGISTRATION_INFORMATION structure supplies details about the provider and the counter set. 
-
-
-## -syntax
-
-
-````
-typedef struct _PCW_REGISTRATION_INFORMATION {
-  ULONG                   Version;
-  PCUNICODE_STRING        Name;
-  ULONG                   CounterCount;
-  PPCW_COUNTER_DESCRIPTOR Counters;
-  PPCW_CALLBACK           Callback;
-  PVOID                   CallbackContext;
-} PCW_REGISTRATION_INFORMATION, *PPCW_REGISTRATION_INFORMATION;
-````
 
 
 ## -struct-fields
@@ -95,7 +81,7 @@ A pointer to the array that describes the counters.
 
 ### -field Callback
 
-A pointer to the optional <a href="..\wdm\nc-wdm-pcw_callback.md">PcwCallback</a> function that notifies the provider about events related to this counter set.
+A pointer to the optional <a href="https://msdn.microsoft.com/5058fc17-1016-45bc-a6ea-5e2458824e7b">PcwCallback</a> function that notifies the provider about events related to this counter set.
 
 
 ### -field CallbackContext
@@ -107,27 +93,26 @@ A pointer to the callback context.
 
 
 
-The <a href="..\wdm\nf-wdm-pcwregister.md">PcwRegister</a> function takes, as a parameter, a pointer to this structure to serve as the registration handle.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/ff550323">PcwRegister</a> function takes, as a parameter, a pointer to this structure to serve as the registration handle.
 
 
 
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_pcw_counter_descriptor.md">PCW_COUNTER_DESCRIPTOR</a>
 
 
 
-<a href="..\wdm\nf-wdm-pcwregister.md">PcwRegister</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550338">PCW_COUNTER_DESCRIPTOR</a>
 
 
 
-<a href="..\wdm\nc-wdm-pcw_callback.md">PcwCallback</a>
+<a href="https://msdn.microsoft.com/5058fc17-1016-45bc-a6ea-5e2458824e7b">PcwCallback</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550323">PcwRegister</a>
  
 
  
-
 

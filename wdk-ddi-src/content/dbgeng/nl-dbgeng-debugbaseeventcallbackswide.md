@@ -7,7 +7,7 @@ old-location: debugger\debugbaseeventcallbackswide.htm
 old-project: debugger
 ms.assetid: 38AD8472-1BA3-42EA-99CE-E91098A5B334
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: DebugBaseEventCallbacksWide, DebugBaseEventCallbacksWide class [Windows Debugging], DebugBaseEventCallbacksWide class [Windows Debugging], described, dbgeng/DebugBaseEventCallbacksWide, debugger.debugbaseeventcallbackswide
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	dbgeng.h
 api_name:
 -	DebugBaseEventCallbacksWide
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -50,7 +51,7 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>DebugBaseEventCallbacksWide</b> class provides a base implementation
-of the <a href="..\dbgeng\nn-dbgeng-idebugeventcallbackswide.md">IDebugEventCallbacksWide</a> interface.  
+of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550563">IDebugEventCallbacksWide</a> interface.  
 
 A program can derive an event callbacks class from <b>DebugBaseEventCallbacksWide</b> and implement
 only the methods needed. 
@@ -60,7 +61,6 @@ Be careful to implement <a href="https://msdn.microsoft.com/b1e62ae3-4a3d-42db-b
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugeventcallbackswide.md">IDebugEventCallbacksWide</a>
 
 
 
@@ -68,8 +68,8 @@ Be careful to implement <a href="https://msdn.microsoft.com/b1e62ae3-4a3d-42db-b
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550563">IDebugEventCallbacksWide</a>
  
 
  
-
 

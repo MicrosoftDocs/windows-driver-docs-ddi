@@ -7,7 +7,7 @@ old-location: debugger\writepointer.htm
 old-project: debugger
 ms.assetid: 5f3d6cd6-e138-4114-8fac-03cbe1c7aa68
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: WdbgExts_Ref_ab18dbae-3a69-43a1-97dd-d0711e4db54e.xml, WritePointer, WritePointer function [Windows Debugging], debugger.writepointer, wdbgexts/WritePointer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	wdbgexts.h
 api_name:
 -	WritePointer
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXT_TDOP
 req.product: Windows 10 or later.
@@ -51,17 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>WritePointer</b> function writes a pointer to the target.
-
-
-## -syntax
-
-
-````
-ULONG WritePointer(
-   ULONG64 Address,
-   ULONG64 Pointer
-);
-````
 
 
 ## -parameters
@@ -99,12 +89,11 @@ For a WdbgExts extension, include wdbgexts.h. For a DbgEng extension, include wd
 
 ## -see-also
 
-<a href="..\wdbgexts\nf-wdbgexts-readpointer.md">ReadPointer</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554318">ReadPointer</a>
  
 
  
-
 

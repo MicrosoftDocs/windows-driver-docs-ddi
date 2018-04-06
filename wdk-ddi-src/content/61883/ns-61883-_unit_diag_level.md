@@ -38,7 +38,8 @@ api_location:
 -	61883.h
 api_name:
 -	UNIT_DIAG_LEVEL
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UNIT_DIAG_LEVEL, *PUNIT_DIAG_LEVEL
 ---
@@ -50,16 +51,6 @@ req.typenames: UNIT_DIAG_LEVEL, *PUNIT_DIAG_LEVEL
 
 
 The UNIT_DDI_VERSION structure is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536983">Av61883_GetUnitInfo</a> request to retrieve the current diag level 
-
-
-## -syntax
-
-
-````
-typedef struct _UNIT_DIAG_LEVEL {
-  ULONG DiagLevel;
-} UNIT_DIAG_LEVEL, *PUNIT_DIAG_LEVEL;
-````
 
 
 ## -struct-fields
@@ -106,12 +97,11 @@ Do not free isochronous resources when disconnecting from the device iPCR.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536983">Av61883_GetUnitInfo</a>
-
-
-
  
 
  
-
 

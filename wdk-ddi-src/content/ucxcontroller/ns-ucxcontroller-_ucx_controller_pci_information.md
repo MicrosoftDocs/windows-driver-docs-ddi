@@ -7,7 +7,7 @@ old-location: buses\_ucx_controller_pci_information.htm
 old-project: usbref
 ms.assetid: 178C9423-D7C9-43FD-BC80-A675383BDE9B
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PUCX_CONTROLLER_PCI_INFORMATION, P_UCX_CONTROLLER_PCI_INFORMATION, P_UCX_CONTROLLER_PCI_INFORMATION structure pointer [Buses], UCX_CONTROLLER_PCI_INFORMATION, UCX_CONTROLLER_PCI_INFORMATION structure [Buses], _UCX_CONTROLLER_PCI_INFORMATION, buses._ucx_controller_pci_information, ucxcontroller/P_UCX_CONTROLLER_PCI_INFORMATION, ucxcontroller/_UCX_CONTROLLER_PCI_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ucxcontroller.h
 api_name:
 -	UCX_CONTROLLER_PCI_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UCX_CONTROLLER_PCI_INFORMATION, *PUCX_CONTROLLER_PCI_INFORMATION
 req.product: Windows 10 or later.
@@ -51,21 +52,6 @@ req.product: Windows 10 or later.
 
 
 This structure provides information about a PCI USB controller.
-
-
-## -syntax
-
-
-````
-typedef struct _UCX_CONTROLLER_PCI_INFORMATION {
-  ULONG  VendorId;
-  ULONG  DeviceId;
-  USHORT RevisionId;
-  ULONG  BusNumber;
-  ULONG  DeviceNumber;
-  ULONG  FunctionNumber;
-} UCX_CONTROLLER_PCI_INFORMATION, *P_UCX_CONTROLLER_PCI_INFORMATION;
-````
 
 
 ## -struct-fields
@@ -105,20 +91,19 @@ Specifies the specific function on the device that is located in the logical PCI
 
 ## -see-also
 
-<a href="..\ucxcontroller\nf-ucxcontroller-ucx_controller_config_set_pci_info.md">UCX_CONTROLLER_CONFIG_SET_PCI_INFO</a>
 
 
 
-<a href="..\ucxcontroller\ne-ucxcontroller-_ucx_controller_parent_bus_type.md">UCX_CONTROLLER_PARENT_BUS_TYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt188057">UCX_CONTROLLER_CONFIG</a>
 
 
 
-<a href="..\ucxcontroller\ns-ucxcontroller-_ucx_controller_config.md">UCX_CONTROLLER_CONFIG</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt188059">UCX_CONTROLLER_CONFIG_SET_PCI_INFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt187948">UCX_CONTROLLER_PARENT_BUS_TYPE</a>
  
 
  
-
 

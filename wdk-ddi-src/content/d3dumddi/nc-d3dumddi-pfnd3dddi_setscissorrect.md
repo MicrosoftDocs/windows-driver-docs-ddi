@@ -7,7 +7,7 @@ old-location: display\setscissorrect.htm
 old-project: display
 ms.assetid: 779fd7ff-e4d6-45b4-8164-186e9cb89513
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: PFND3DDDI_SETSCISSORRECT, SetScissorRect, SetScissorRect callback function [Display Devices], UserModeDisplayDriver_Functions_bd6b8a3d-d007-4272-9d43-f65c5da3959a.xml, d3dumddi/SetScissorRect, display.setscissorrect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	SetScissorRect
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_PTE
 ---
@@ -50,20 +51,6 @@ req.typenames: DXGK_PTE
 
 
 The <i>SetScissorRect</i> function marks a portion of a render target that rendering is confined to. 
-
-
-## -prototype
-
-
-````
-PFND3DDDI_SETSCISSORRECT SetScissorRect;
-
-__checkReturn HRESULT APIENTRY SetScissorRect(
-  _In_       HANDLE hDevice,
-  _In_ const RECT   *pRect
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -101,16 +88,15 @@ __checkReturn HRESULT APIENTRY SetScissorRect(
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544519">D3DDDI_DEVICEFUNCS</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
-
-
-
  
 
  
-
 

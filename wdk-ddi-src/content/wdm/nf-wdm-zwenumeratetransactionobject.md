@@ -7,7 +7,7 @@ old-location: kernel\zwenumeratetransactionobject.htm
 old-project: kernel
 ms.assetid: 49560022-a690-4259-b725-f8927af31804
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: NtEnumerateTransactionObject, ZwEnumerateTransactionObject, ZwEnumerateTransactionObject routine [Kernel-Mode Driver Architecture], kernel.zwenumeratetransactionobject, ktm_ref_f9c45fce-5dbe-4dad-9943-3f31fb692c65.xml, wdm/NtEnumerateTransactionObject, wdm/ZwEnumerateTransactionObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	ZwEnumerateTransactionObject
 -	NtEnumerateTransactionObject
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
@@ -54,20 +55,6 @@ req.product: Windows 10 or later.
 The <b>ZwEnumerateTransactionObject</b> routine enumerates the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554272">KTM objects</a> on a computer.
 
 
-## -syntax
-
-
-````
-NTSTATUS ZwEnumerateTransactionObject(
-  _In_opt_ HANDLE            RootObjectHandle,
-  _In_     KTMOBJECT_TYPE    QueryType,
-  _Inout_  PKTMOBJECT_CURSOR ObjectCursor,
-  _In_     ULONG             ObjectCursorLength,
-  _Out_    PULONG            ReturnLength
-);
-````
-
-
 ## -parameters
 
 
@@ -80,12 +67,12 @@ A handle to a KTM object. The routine enumerates the child objects of the specif
 
 ### -param QueryType [in]
 
-A <a href="..\wdm\ne-wdm-_ktmobject_type.md">KTMOBJECT_TYPE</a>-typed value that identifies the object type to enumerate. For more information about valid values for this parameter, see the table in the following Remarks section.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff554263">KTMOBJECT_TYPE</a>-typed value that identifies the object type to enumerate. For more information about valid values for this parameter, see the table in the following Remarks section.
 
 
 ### -param ObjectCursor [in, out]
 
-A pointer to a caller-allocated buffer that begins with a <a href="..\wdm\ns-wdm-_ktmobject_cursor.md">KTMOBJECT_CURSOR</a> structure. <b>ZwEnumerateTransactionObject</b> uses the buffer to store the GUIDs of objects that it finds.
+A pointer to a caller-allocated buffer that begins with a <a href="https://msdn.microsoft.com/library/windows/hardware/ff554259">KTMOBJECT_CURSOR</a> structure. <b>ZwEnumerateTransactionObject</b> uses the buffer to store the GUIDs of objects that it finds.
 
 
 ### -param ObjectCursorLength [in]
@@ -258,7 +245,7 @@ Before your component calls <b>ZwEnumerateTransactionObject</b>, it must allocat
 
 To enumerate all of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554272">KTM objects</a> of the specified type, your component must call <b>ZwEnumerateTransactionObject</b> repeatedly until it returns STATUS_NO_MORE_ENTRIES. 
 
-Every time that the routine is called, it fills the buffer's GUID array with as many object GUIDs that will fit. After each call, your component can use the <a href="..\wdm\ns-wdm-_ktmobject_cursor.md">KTMOBJECT_CURSOR</a> structure's <b>ObjectIdCount</b> member to determine the number of object GUIDs that the routine stored in the array.
+Every time that the routine is called, it fills the buffer's GUID array with as many object GUIDs that will fit. After each call, your component can use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554259">KTMOBJECT_CURSOR</a> structure's <b>ObjectIdCount</b> member to determine the number of object GUIDs that the routine stored in the array.
 
 <b>NtEnumerateTransactionObject</b> and <b>ZwEnumerateTransactionObject</b> are two versions of the same Windows Native System Services routine.
 
@@ -312,20 +299,19 @@ if (Status == STATUS_NO_MORE_ENTRIES) {
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_ktmobject_cursor.md">KTMOBJECT_CURSOR</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554259">KTMOBJECT_CURSOR</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554263">KTMOBJECT_TYPE</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
-
-
-
-<a href="..\wdm\ne-wdm-_ktmobject_type.md">KTMOBJECT_TYPE</a>
-
-
-
  
 
  
-
 

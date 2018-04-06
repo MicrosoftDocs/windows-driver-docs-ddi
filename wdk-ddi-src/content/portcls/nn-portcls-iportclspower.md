@@ -7,7 +7,7 @@ old-location: audio\iportclspower.htm
 old-project: audio
 ms.assetid: bebd704b-2824-4bea-aae8-d77c66830715
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/19/2018
 ms.keywords: IPortClsPower, IPortClsPower interface [Audio Devices], IPortClsPower interface [Audio Devices], described, audio.iportclspower, audmp-routines_d6815c8f-a34f-423a-a58d-e45a1292d22d.xml, portcls/IPortClsPower
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	portcls.h
 api_name:
 -	IPortClsPower
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---

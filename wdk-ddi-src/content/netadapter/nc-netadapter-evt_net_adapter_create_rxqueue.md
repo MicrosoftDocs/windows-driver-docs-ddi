@@ -73,10 +73,10 @@ typedef EVT_NET_ADAPTER_CREATE_RXQUEUE *PFN_NET_ADAPTER_CREATE_RXQUEUE;
 
 ## -parameters
 
-### -param Adapter: 
+### -param Adapter 
 The network adapter object that the client created in a prior call to [NetAdapterCreate](nf-netadapter-netadaptercreate.md).
 
-### -param RxQueueInit: 
+### -param RxQueueInit 
 A pointer to a NetAdapterCx-allocated **NETRXQUEUE_INIT** structure. For more information, see the Remarks section.
 
 
@@ -99,8 +99,9 @@ To retrieve the ring buffer associated with a given queue, call [NetRxQueueGetDa
 The minimum NetAdapterCx version for *EvtNetAdapterCreateRxQueue* is 1.0.
 
 ### Example
+NetAdapterCx calls *EvtNetAdapterCreateRxQueue* at the very end of the [power-up sequence](https://docs.microsoft.com/windows-hardware/drivers/netcx/power-up-sequence-for-a-netadaptercx-client-driver). During this callback, client drivers can add packet context attributes to the queue and query for packet extension offsets.
 
-NetAdapterCx calls *EvtNetAdapterCreateRxQueue* at the very end of the [power-up sequence](https://docs.microsoft.com/windows-hardware/drivers/netcx/power-up-sequence-for-a-netadaptercx-client-driver). To configure additional properties for its Rx queues, such as DMA or receive buffer allocation requirements, the client driver sets its Rx capabilities in the optional *[EvtNetAdapterSetCapabilities](nc-netadapter-evt_net_adapter_set_capabilities.md)* callback function that is called earlier in the power-up sequence before D0 entry.
+To configure additional properties for its Rx queues, such as DMA or receive buffer allocation requirements, the client driver sets its Rx capabilities in the optional *[EvtNetAdapterSetCapabilities](nc-netadapter-evt_net_adapter_set_capabilities.md)* callback function that is called earlier in the power-up sequence before D0 entry.
 
 Error handling code has been left out of this example for clarity.
 
@@ -112,6 +113,7 @@ EvtAdapterCreateRxQueue(
 {
     NTSTATUS status = STATUS_SUCCESS;
 
+    // Prepare the configuration structure
     NET_RXQUEUE_CONFIG rxConfig;
     NET_RXQUEUE_CONFIG_INIT(
         &rxConfig,
@@ -120,23 +122,41 @@ EvtAdapterCreateRxQueue(
         EvtRxQueueCancel);
 
     // Initialize the per-packet context
-
     NET_PACKET_CONTEXT_ATTRIBUTES myRxContextAttributes;
     NET_PACKET_CONTEXT_ATTRIBUTES_INIT_TYPE(&myRxContextAttributes, MY_RXQUEUE_PACKET_CONTEXT);
 
     // Add the context attributes to the queue
-
     status = NetRxQueueInitAddPacketContextAttributes(rxQueueInit, &myRxContextAttributes);
 
-    // Create the receive queue
+    // Get the queue ID
+    const ULONG queueId = NetRxQueueInitGetQueueId(rxQueueInit);
 
+    // Create the receive queue
+    NETRXQUEUE rxQueue;
     status = NetRxQueueCreate(
         rxQueueInit,
         &rxAttributes,
         &rxConfig,
-        &netAdapter->RxQueue);
+        &rxQueue);
 
-     return status;
+    // Get the queue context for storing the queue ID and packet extension offset info
+    PMY_RX_QUEUE_CONTEXT queueContext = GetMyRxQueueContext(rxQueue);
+
+    // Store the queue ID in the context
+    queueContext->QueueId = queueId;
+
+    // Query the checksum packet extension offset and store it in the context
+    NET_PACKET_EXTENSION_QUERY extension;
+    NET_PACKET_EXTENSION_QUERY_INIT(
+        &extension,
+        NET_PACKET_EXTENSION_CHECKSUM_NAME,
+        NET_PACKET_EXTENSION_CHECKSUM_VERSION_1); 
+          
+    queueContext->ChecksumExtensionOffset = NetRxQueueGetPacketExtensionOffset(rxQueue, &extension);
+
+    return status;
 ```
+
+For more information about packet extensions and available packet extension constants, see [Packet descriptors and extensions](https://docs.microsoft.com/windows-hardware/drivers/netcx/packet-descriptors-and-extensions).
 
 ## -see-also

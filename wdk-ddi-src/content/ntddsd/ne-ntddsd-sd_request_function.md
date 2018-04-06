@@ -38,7 +38,8 @@ api_location:
 -	ntddsd.h
 api_name:
 -	SD_REQUEST_FUNCTION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SD_REQUEST_FUNCTION
 ---
@@ -50,18 +51,6 @@ req.typenames: SD_REQUEST_FUNCTION
 
 
 The SD_REQUEST_FUNCTION enumeration indicates the type of request packet that a Secure Digital (SD) card driver sends to the bus driver.
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  SDRF_GET_PROPERTY    = 0,
-  SDRF_SET_PROPERTY    = 1,
-  SDRF_DEVICE_COMMAND  = 2
-} SD_REQUEST_FUNCTION;
-````
 
 
 ## -enum-fields
@@ -106,7 +95,6 @@ The caller of the <a href="https://msdn.microsoft.com/library/windows/hardware/f
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537909">SdBusSubmitRequest</a>
 
 
 
@@ -114,8 +102,8 @@ The caller of the <a href="https://msdn.microsoft.com/library/windows/hardware/f
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537909">SdBusSubmitRequest</a>
  
 
  
-
 

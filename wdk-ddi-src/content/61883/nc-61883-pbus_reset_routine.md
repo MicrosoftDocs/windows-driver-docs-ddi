@@ -38,7 +38,8 @@ api_location:
 -	61883.h
 api_name:
 -	BusResetRoutine
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TOPOLOGY_MAP, *PTOPOLOGY_MAP
 ---
@@ -50,22 +51,6 @@ req.typenames: TOPOLOGY_MAP, *PTOPOLOGY_MAP
 
 
 This is a caller-supplied function to be called by the protocol driver when the 1394 bus is reset.
-
-
-## -prototype
-
-
-````
-PBUS_RESET_ROUTINE BusResetRoutine;
-
-void BusResetRoutine(
-  _In_ PVOID                Context,
-  _In_ PBUS_GENERATION_NODE BusResetInfo
-)
-{ ... }
-
-typedef PBUS_RESET_ROUTINE BusResetRoutine;
-````
 
 
 ## -parameters
@@ -94,12 +79,11 @@ This callback does not return a value.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537008">AV_61883_REQUEST</a>
-
-
-
  
 
  
-
 

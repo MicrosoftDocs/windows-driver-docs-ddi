@@ -38,7 +38,8 @@ api_location:
 -	nfpdev.h
 api_name:
 -	IOCTL_NFP_GET_NEXT_SUBSCRIBED_MESSAGE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SECURE_ELEMENT_TECH_ROUTING_INFO, *PSECURE_ELEMENT_TECH_ROUTING_INFO
 ---
@@ -191,16 +192,15 @@ The driver MUST support CancelIo of the pended IOCTL.
 
 ## -see-also
 
+
+
+
 <a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) overall design guide</a>
 
 
 
 <a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfp-design-guide">Near field proximity design guide (Tap and Do, NFP provider model, driver requirements)</a>
-
-
-
  
 
  
-
 

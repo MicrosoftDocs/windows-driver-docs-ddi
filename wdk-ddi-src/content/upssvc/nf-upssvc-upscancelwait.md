@@ -38,7 +38,8 @@ api_location:
 -	Upssvc.h
 api_name:
 -	UPSCancelWait
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UMDETW_ALLOCATION_USAGE
 req.product: Windows 10 or later.
@@ -50,17 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>UPSCancelWait</b> function cancels all waits initiated by calls to <a href="..\upssvc\nf-upssvc-upswaitforstatechange.md">UPSWaitForStateChange</a>. 
-
-
-## -syntax
-
-
-````
-void UPSCancelWait(
-   void 
-);
-````
+The <b>UPSCancelWait</b> function cancels all waits initiated by calls to <a href="https://msdn.microsoft.com/library/windows/hardware/ff536316">UPSWaitForStateChange</a>. 
 
 
 ## -parameters
@@ -92,12 +83,11 @@ The call returns immediately.
 
 ## -see-also
 
-<a href="..\upssvc\nf-upssvc-upswaitforstatechange.md">UPSWaitForStateChange</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536316">UPSWaitForStateChange</a>
  
 
  
-
 

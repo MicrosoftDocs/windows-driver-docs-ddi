@@ -38,7 +38,8 @@ api_location:
 -	sddef.h
 api_name:
 -	SD_RESPONSE_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SD_RESPONSE_TYPE
 req.product: Windows 10 or later.
@@ -51,25 +52,6 @@ req.product: Windows 10 or later.
 
 
 The SD_RESPONSE_TYPE enumeration lists the types of response data that a Secure Digital (SD) card returns in response to a command.
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  SDRT_UNSPECIFIED  = 0,
-  SDRT_NONE         = 1,
-  SDRT_1            = 2,
-  SDRT_1B           = 3,
-  SDRT_2            = 4,
-  SDRT_3            = 5,
-  SDRT_4            = 6,
-  SDRT_5            = 7,
-  SDRT_5B           = 8,
-  SDRT_6            = 9
-} SD_RESPONSE_TYPE;
-````
 
 
 ## -enum-fields
@@ -129,12 +111,11 @@ Indicates a response of type R6. For an explanation of the R6 response, see the 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/7c49c394-d0b3-4594-a623-0a13825bdcec">SDCMD_DESCRIPTOR</a>
-
-
-
  
 
  
-
 

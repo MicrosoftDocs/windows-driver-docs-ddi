@@ -7,7 +7,7 @@ old-location: audio\iservicegroup_requestservice.htm
 old-project: audio
 ms.assetid: 9CB0CE26-2F26-424E-9EF5-C6780F521E09
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/19/2018
 ms.keywords: IServiceGroup, IServiceGroup interface [Audio Devices], RequestService method, IServiceGroup::RequestService, RequestService method [Audio Devices], RequestService method [Audio Devices], IServiceGroup interface, RequestService,IServiceGroup.RequestService, audio.iservicegroup_requestservice, audmp-routines_0d318d56-28e9-4e42-84b3-1d0eb4110f71.xml, portcls/IServiceGroup::RequestService
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -37,7 +37,8 @@ api_location:
 -
 api_name:
 -	IServiceGroup::RequestService
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
@@ -49,14 +50,6 @@ req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 
 
 TBD
-
-
-## -syntax
-
-
-````
-void RequestService();
-````
 
 
 ## -parameters
@@ -87,16 +80,15 @@ TBD.
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
 
 
 
-<a href="..\portcls\nn-portcls-iservicesink.md">IServiceSink</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536994">IServiceGroup</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537006">IServiceSink</a>
  
 
  
-
 

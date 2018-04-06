@@ -21,10 +21,10 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: WDTFSystemAction.idl
 req.max-support: 
-req.namespace: 
-req.assembly: 
+req.namespace: Microsoft.WDTF
+req.assembly: WDTFSystemAction.Interop.dll
 req.type-library: 
 req.lib: 
 req.dll: 
@@ -38,7 +38,8 @@ api_location:
 -	wiadef.h
 api_name:
 -	WIA_MICR_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WIA_MICR_INFO
 req.product: Windows 10 or later.
@@ -51,19 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>WIA_MICR_INFO</b> structure stores information for one decoded MICR code.
-
-
-## -syntax
-
-
-````
-typedef struct _WIA_MICR_INFO {
-  DWORD Size;
-  DWORD Page;
-  DWORD Length;
-  WCHAR Text[1];
-} WIA_MICR_INFO;
-````
 
 
 ## -struct-fields

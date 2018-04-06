@@ -7,7 +7,7 @@ old-location: kernel\ioqueueworkitem.htm
 old-project: kernel
 ms.assetid: 92ec386e-205a-4704-bd13-941dd6d7d987
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: IoQueueWorkItem, IoQueueWorkItem routine [Kernel-Mode Driver Architecture], k104_6f5cb4e5-75d1-433a-864e-19de914aa2e7.xml, kernel.ioqueueworkitem, wdm/IoQueueWorkItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	IoQueueWorkItem
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
@@ -53,19 +54,6 @@ req.product: Windows 10 or later.
 The <b>IoQueueWorkItem</b> routine associates a <a href="https://msdn.microsoft.com/library/windows/hardware/ff566380">WorkItem</a> routine with a work item, and it inserts the work item into a queue for later processing by a system worker thread.
 
 
-## -syntax
-
-
-````
-VOID IoQueueWorkItem(
-  _In_     PIO_WORKITEM         IoWorkItem,
-  _In_     PIO_WORKITEM_ROUTINE WorkerRoutine,
-  _In_     WORK_QUEUE_TYPE      QueueType,
-  _In_opt_ PVOID                Context
-);
-````
-
-
 ## -parameters
 
 
@@ -73,7 +61,7 @@ VOID IoQueueWorkItem(
 
 ### -param IoWorkItem [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550679">IO_WORKITEM</a> structure that was allocated by <a href="..\wdm\nf-wdm-ioallocateworkitem.md">IoAllocateWorkItem</a> or initialized by <a href="..\wdm\nf-wdm-ioinitializeworkitem.md">IoInitializeWorkItem</a>.
+Pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550679">IO_WORKITEM</a> structure that was allocated by <a href="https://msdn.microsoft.com/library/windows/hardware/ff548276">IoAllocateWorkItem</a> or initialized by <a href="https://msdn.microsoft.com/library/windows/hardware/ff549349">IoInitializeWorkItem</a>.
 
 
 ### -param WorkerRoutine [in]
@@ -83,7 +71,7 @@ Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff5663
 
 ### -param QueueType [in]
 
-Specifies a <a href="..\wdm\ne-wdm-_work_queue_type.md">WORK_QUEUE_TYPE</a> value that stipulates the type of system worker thread to handle the work item. Drivers must specify <b>DelayedWorkQueue</b>.
+Specifies a <a href="https://msdn.microsoft.com/library/windows/hardware/ff566382">WORK_QUEUE_TYPE</a> value that stipulates the type of system worker thread to handle the work item. Drivers must specify <b>DelayedWorkQueue</b>.
 
 
 ### -param Context [in, optional]
@@ -111,11 +99,6 @@ For more information about work items, see <a href="https://msdn.microsoft.com/l
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566380">WorkItem</a>
-
-
-
-<a href="..\wdm\nf-wdm-ioallocateworkitem.md">IoAllocateWorkItem</a>
 
 
 
@@ -123,12 +106,16 @@ For more information about work items, see <a href="https://msdn.microsoft.com/l
 
 
 
-<a href="..\wdm\nf-wdm-ioqueueworkitemex.md">IoQueueWorkItemEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548276">IoAllocateWorkItem</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549474">IoQueueWorkItemEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566380">WorkItem</a>
  
 
  
-
 

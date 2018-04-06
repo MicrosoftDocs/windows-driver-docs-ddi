@@ -38,7 +38,8 @@ api_location:
 -	prcomoem.h
 api_name:
 -	IPrintOemDriverUni.DrvGetGPDData
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
@@ -53,21 +54,6 @@ req.product: Windows 10 or later.
 The <code>IPrintOemDriverUni::DrvGetGPDData</code> method is provided by the Unidrv driver so that rendering plug-ins can obtain data defined in a printer's <a href="https://msdn.microsoft.com/f67c673d-c6f0-49f0-850a-d8b00e99ddd4">GPD</a> file.
 
 
-## -syntax
-
-
-````
-HRESULT DrvGetGPDData(
-   PDEVOBJ pdevobj,
-   DWORD   dwType,
-   PVOID   pInputData,
-   PVOID   pBuffer,
-   DWORD   cbSize,
-   PDWORD  pcbNeeded
-);
-````
-
-
 ## -parameters
 
 
@@ -75,7 +61,7 @@ HRESULT DrvGetGPDData(
 
 ### -param pdevobj
 
-Caller-supplied pointer to a <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a> structure.
+Caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547573">DEVOBJ</a> structure.
 
 
 ### -param dwType

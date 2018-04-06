@@ -38,7 +38,8 @@ api_location:
 -	filterpipeline.h
 api_name:
 -	EXpsFontOptions
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsFontOptions
 ---
@@ -50,17 +51,6 @@ req.typenames: EXpsFontOptions
 
 
 The EXpsFontOptions enumeration describes the font options for an XPS part.
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  Font_Normal,
-  Font_Obfusticate
-} EXpsFontOptions;
-````
 
 
 ## -enum-fields

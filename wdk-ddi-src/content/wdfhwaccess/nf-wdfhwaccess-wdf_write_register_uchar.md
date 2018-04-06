@@ -38,7 +38,8 @@ api_location:
 -	Wdfhwaccess.h
 api_name:
 -	WDF_WRITE_REGISTER_UCHAR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_FILE_INFORMATION_CLASS, *PWDF_FILE_INFORMATION_CLASS
 req.product: Windows 10 or later.
@@ -53,18 +54,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to UMDF only]
 
 The <b>WDF_WRITE_REGISTER_UCHAR</b> routine writes a byte to the specified address.
-
-
-## -syntax
-
-
-````
-void WDF_WRITE_REGISTER_UCHAR(
-  _In_ WDFDEVICE Device,
-  _In_ PUCHAR    Register,
-  _In_ UCHAR     Value
-);
-````
 
 
 ## -parameters

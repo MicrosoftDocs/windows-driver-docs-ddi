@@ -38,7 +38,8 @@ api_location:
 -	Acpiioct.h
 api_name:
 -	ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V2_EX
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V2_EX, *PACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V2_EX
 ---
@@ -50,18 +51,6 @@ req.typenames: ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V2_EX, *PACPI_EVAL_INPUT_BU
 
 
 This topic describes the  <b>ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V2_EX</b> structure.
-
-
-## -syntax
-
-
-````
-typedef struct _ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V2_EX {
-  ULONG                  Signature;
-  _Null_terminated_ CHAR MethodName[256];
-  ULONG64                IntegerArgument;
-} ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V2_EX, *PACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V2_EX;
-````
 
 
 ## -struct-fields

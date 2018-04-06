@@ -38,7 +38,8 @@ api_location:
 -	SensorsCx.h
 api_name:
 -	SensorsCxStateChange
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SensorConnectionType
 req.product: Windows 10 or later.
@@ -51,17 +52,6 @@ req.product: Windows 10 or later.
 
 
 Used to initialize a state change.
-
-
-## -syntax
-
-
-````
-FORCEINLINE VOID SensorsCxStateChange(
-  _In_ SENSOROBJECT Sensor,
-  _In_ SENSOR_STATE State
-);
-````
 
 
 ## -parameters

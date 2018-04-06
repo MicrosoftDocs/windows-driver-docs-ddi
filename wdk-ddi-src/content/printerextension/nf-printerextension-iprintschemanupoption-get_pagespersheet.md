@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	IPrintSchemaNUpOption.PagesPerSheet
 -	IPrintSchemaNUpOption.get_PagesPerSheet
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PrintSchemaSelectionType
 req.product: Windows 10 or later.
@@ -56,27 +57,16 @@ Gets the number of pages per sheet.
 This property is read-only.
 
 
-## -syntax
-
-
-````
-HRESULT get_PagesPerSheet(
-  [out, retval] ULONG *pulPagesPerSheet
-);
-````
-
-
 ## -parameters
 
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintschemanupoption.md">IPrintSchemaNUpOption</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451302">IPrintSchemaNUpOption</a>
  
 
  
-
 

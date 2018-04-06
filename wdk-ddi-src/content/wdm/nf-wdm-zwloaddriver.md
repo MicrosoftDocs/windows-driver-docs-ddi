@@ -7,7 +7,7 @@ old-location: kernel\zwloaddriver.htm
 old-project: kernel
 ms.assetid: ab5afdc8-d4d3-4be0-a613-d92f1b847b27
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: NtLoadDriver, ZwLoadDriver, ZwLoadDriver routine [Kernel-Mode Driver Architecture], k111_b421f181-1a7d-4122-a73c-604f6b98686d.xml, kernel.zwloaddriver, wdm/NtLoadDriver, wdm/ZwLoadDriver
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	ZwLoadDriver
 -	NtLoadDriver
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 req.product: Windows 10 or later.
@@ -54,16 +55,6 @@ req.product: Windows 10 or later.
 The <b>ZwLoadDriver</b> routine loads a driver into the system. 
 
 
-## -syntax
-
-
-````
-NTSTATUS ZwLoadDriver(
-  _In_ PUNICODE_STRING DriverServiceName
-);
-````
-
-
 ## -parameters
 
 
@@ -71,7 +62,7 @@ NTSTATUS ZwLoadDriver(
 
 ### -param DriverServiceName [in]
 
-Pointer to a counted Unicode string that specifies a path to the driver's registry key, <b>\Registry\Machine\System\CurrentControlSet\Services\<i>DriverName</i></b>, where <i>DriverName</i> is the name of the driver. 
+Pointer to a counted Unicode string that specifies a path to the driver's registry key, <b>\Registry\Machine\System\CurrentControlSet\Services\</b><i>DriverName</i>, where <i>DriverName</i> is the name of the driver. 
 
 
 ## -returns
@@ -91,7 +82,7 @@ Pointer to a counted Unicode string that specifies a path to the driver's regist
 
 <div class="alert"><b>Note</b>    If the system is running in safe mode, and the driver fails to load because it is not on the safe mode list, <b>ZwLoadDriver</b> returns STATUS_SUCCESS. </div>
 <div> </div>
-A minifilter should use <a href="..\fltkernel\nf-fltkernel-fltloadfilter.md">FltLoadFilter</a> instead of <b>ZwLoadDriver</b> to load a supporting minifilter.
+A minifilter should use <a href="https://msdn.microsoft.com/library/windows/hardware/ff543366">FltLoadFilter</a> instead of <b>ZwLoadDriver</b> to load a supporting minifilter.
 
 <div class="alert"><b>Note</b>  If the call to the <b>ZwLoadDriver</b> function occurs in user mode, you should use the name "<b>NtLoadDriver</b>" instead of "<b>ZwLoadDriver</b>". </div>
 <div> </div>
@@ -102,7 +93,18 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543366">FltLoadFilter</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561934">RtlInitUnicodeString</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
 
 
 
@@ -110,20 +112,8 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="..\wudfwdm\nf-wudfwdm-rtlinitunicodestring.md">RtlInitUnicodeString</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwunloaddriver.md">ZwUnloadDriver</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltloadfilter.md">FltLoadFilter</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567117">ZwUnloadDriver</a>
  
 
  
-
 

@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	MyAVStrMiniFilterIRPHandler
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SOUNDDETECTOR_PATTERNHEADER
 ---
@@ -60,20 +61,6 @@ An AVStream minidriver's <i>AVStrMiniFilterCreate</i> routine is called when a f
 
 
 
-## -prototype
-
-
-````
-PFNKSFILTERIRP MyAVStrMiniFilterIRPHandler;
-
-NTSTATUS MyAVStrMiniFilterIRPHandler(
-  _In_ PKSFILTER Filter,
-  _In_ PIRP      Irp
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -81,7 +68,7 @@ NTSTATUS MyAVStrMiniFilterIRPHandler(
 
 ### -param Filter [in]
 
-Pointer to the <a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>.
+Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562522">KSFILTER</a>.
 
 
 ### -param Irp [in]
@@ -114,11 +101,11 @@ If the routine succeeds, return STATUS_SUCCESS or the error code.
 <td>
 Typically, this routine is used by minidrivers that want to initialize the context and resources associated with the filter.
 
-The minidriver specifies this routine's address in the <b>Create</b> member of its <a href="..\ks\ns-ks-_ksfilter_dispatch.md">KSFILTER_DISPATCH</a> structure.
+The minidriver specifies this routine's address in the <b>Create</b> member of its <a href="https://msdn.microsoft.com/library/windows/hardware/ff562554">KSFILTER_DISPATCH</a> structure.
 
 At the point at which the routine is called, the file object has an associated context, and the KS object header has been allocated.
 
-This routine is called at IRQL = PASSIVE_LEVEL with the device mutex held.</p>If the routine succeeds, the create operation is guaranteed to succeed. Return STATUS_SUCCESS or the error code that was returned from the attempt to create the filter. STATUS_PENDING is also a legal return code. If a minidriver returns STATUS_PENDING, AVStream will not complete the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a> immediately. Before returning STATUS_PENDING, the minidriver must call <a href="..\wdm\nf-wdm-iomarkirppending.md">IoMarkIrpPending</a>. When the processing of the create is complete, the minidriver must set the IRP's status code and then call <a href="..\ks\nf-ks-kscompletependingrequest.md">KsCompletePendingRequest</a>.
+This routine is called at IRQL = PASSIVE_LEVEL with the device mutex held.</p>If the routine succeeds, the create operation is guaranteed to succeed. Return STATUS_SUCCESS or the error code that was returned from the attempt to create the filter. STATUS_PENDING is also a legal return code. If a minidriver returns STATUS_PENDING, AVStream will not complete the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a> immediately. Before returning STATUS_PENDING, the minidriver must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff549422">IoMarkIrpPending</a>. When the processing of the create is complete, the minidriver must set the IRP's status code and then call <a href="https://msdn.microsoft.com/library/windows/hardware/ff561025">KsCompletePendingRequest</a>.
         This routine is optional.
 
 </td>
@@ -128,7 +115,7 @@ This routine is called at IRQL = PASSIVE_LEVEL with the device mutex held.</p>If
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550720">IRP_MJ_CLOSE</a>
 </td>
 <td>
-The minidriver specifies this routine's address in the <b>Close</b> member of its <a href="..\ks\ns-ks-_ksfilter_dispatch.md">KSFILTER_DISPATCH</a> structure.
+The minidriver specifies this routine's address in the <b>Close</b> member of its <a href="https://msdn.microsoft.com/library/windows/hardware/ff562554">KSFILTER_DISPATCH</a> structure.
 
 At the point at which the routine is called, any registered events on the filter have been freed, but the object is otherwise intact.
 
@@ -136,7 +123,7 @@ This routine is called at IRQL = PASSIVE_LEVEL with the device mutex held. For m
 
 This routine is optional.
 
-Return STATUS_SUCCESS or STATUS_PENDING. If a minidriver returns STATUS_PENDING, AVStream will not complete the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550720">IRP_MJ_CLOSE</a> immediately. Before returning STATUS_PENDING, however, the minidriver must call <a href="..\wdm\nf-wdm-iomarkirppending.md">IoMarkIrpPending</a>. Once the processing of the close is complete, the minidriver must set the IRP's status code and then call <a href="..\ks\nf-ks-kscompletependingrequest.md">KsCompletePendingRequest</a>.
+Return STATUS_SUCCESS or STATUS_PENDING. If a minidriver returns STATUS_PENDING, AVStream will not complete the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550720">IRP_MJ_CLOSE</a> immediately. Before returning STATUS_PENDING, however, the minidriver must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff549422">IoMarkIrpPending</a>. Once the processing of the close is complete, the minidriver must set the IRP's status code and then call <a href="https://msdn.microsoft.com/library/windows/hardware/ff561025">KsCompletePendingRequest</a>.
 
 </td>
 </tr>
@@ -148,20 +135,19 @@ Return STATUS_SUCCESS or STATUS_PENDING. If a minidriver returns STATUS_PENDING,
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iomarkirppending.md">IoMarkIrpPending</a>
 
 
 
-<a href="..\ks\ns-ks-_ksfilter_dispatch.md">KSFILTER_DISPATCH</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549422">IoMarkIrpPending</a>
 
 
 
-<a href="..\ks\nf-ks-kscompletependingrequest.md">KsCompletePendingRequest</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562554">KSFILTER_DISPATCH</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561025">KsCompletePendingRequest</a>
  
 
  
-
 

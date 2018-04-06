@@ -7,7 +7,7 @@ old-location: netvista\rilcallinfo_v4.htm
 old-project: netvista
 ms.assetid: 456597d1-e24c-414c-b099-509078cafdc1
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*LPRILCALLINFO_V4, RILCALLINFO_V4, RILCALLINFO_V4 structure [Network Drivers Starting with Windows Vista], netvista.rilcallinfo_v4, ntddrilapitypes/RILCALLINFO_V4"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILCALLINFO_V4
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILCALLINFO_V4, *LPRILCALLINFO_V4
 ---
@@ -50,35 +51,6 @@ req.typenames: RILCALLINFO_V4, *LPRILCALLINFO_V4
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef struct _RILCALLINFO_V4 {
-  DWORD                           cbSize;
-  DWORD                           dwParams;
-  DWORD                           dwExecutor;
-  DWORD                           dwID;
-  RILCALLINFODIRECTION            dwDirection;
-  RILCALLINFOSTATUS               dwStatus;
-  RILCALLTYPE                     dwType;
-  RILCALLINFOMULTIPARTY           dwMultiparty;
-  RILADDRESS                      raAddress;
-  RILSUBADDRESS                   rsaSubAddress;
-  WCHAR [256]                     wszDescription;
-  RILREMOTEPARTYINFOVALUE         dwNumberPresentationIndicator;
-  RILREMOTEPARTYINFOVALUE         dwNamePresentationIndicator;
-  DWORD                           dwFlags;
-  RILCALLINFODISCONNECTINITIATOR  dwDisconnectInitiator;
-  RILCALLINFODISCONNECTREASON     dwDisconnectReason;
-  RILCALLDISCONNECTDETAILS        stDisconnectDetails;
-  RILCALLMEDIAOFFERANSWERSET      rcmOfferAnswer;
-  RILCALLHANDOVERSTATE            rchsHandoverState;
-  RILCALLMODIFICATIONCAUSECODE    dwCallModificationCauseCode;
-} RILCALLINFO_V4, RILCALLINFO_V4;
-````
 
 
 ## -struct-fields

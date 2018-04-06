@@ -7,7 +7,7 @@ old-location: storage\geteventbuffer_out.htm
 old-project: storage
 ms.assetid: 1ba41017-8c4b-49eb-b0ec-8e58c2673314
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PGetEventBuffer_OUT, GetEventBuffer_OUT, GetEventBuffer_OUT structure [Storage Devices], PGetEventBuffer_OUT, PGetEventBuffer_OUT structure pointer [Storage Devices], _GetEventBuffer_OUT, hbapiwmi/GetEventBuffer_OUT, hbapiwmi/PGetEventBuffer_OUT, storage.geteventbuffer_out, structs-Fibre_af1916c9-60f8-4601-b9dd-d4575a100d98.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	hbapiwmi.h
 api_name:
 -	GetEventBuffer_OUT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GetEventBuffer_OUT, *PGetEventBuffer_OUT
 ---
@@ -50,18 +51,6 @@ req.typenames: GetEventBuffer_OUT, *PGetEventBuffer_OUT
 
 
 The GetEventBuffer_OUT structure is used to report the output parameter data of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553935">GetEventBuffer</a> WMI method to the WMI client.
-
-
-## -syntax
-
-
-````
-typedef struct _GetEventBuffer_OUT {
-  ULONG            HBAStatus;
-  ULONG            EventCount;
-  MSFC_EventBuffer Events[1];
-} GetEventBuffer_OUT, *PGetEventBuffer_OUT;
-````
 
 
 ## -struct-fields
@@ -81,7 +70,7 @@ Indicates the number of events in <b>Events</b> that were retrieved by the <a hr
 
 ### -field Events
 
-Contains an array of type <a href="..\hbapiwmi\ns-hbapiwmi-_msfc_eventbuffer.md">MSFC_EventBuffer</a> that contains the next events in the HBA's event queue.
+Contains an array of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff562480">MSFC_EventBuffer</a> that contains the next events in the HBA's event queue.
 
 
 ## -remarks
@@ -97,12 +86,11 @@ The WMI tool suite generates a declaration of the GetEventBuffer_OUT structure i
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553935">GetEventBuffer</a>
-
-
-
  
 
  
-
 

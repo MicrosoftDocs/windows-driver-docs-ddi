@@ -38,7 +38,8 @@ api_location:
 -	Ks.h
 api_name:
 -	KSPROPERTY_CLOCK
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSPROPERTY_CLOCK
 ---
@@ -50,24 +51,6 @@ req.typenames: KSPROPERTY_CLOCK
 
 
 
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  KSPROPERTY_CLOCK_TIME,
-  KSPROPERTY_CLOCK_PHYSICALTIME,
-  KSPROPERTY_CLOCK_CORRELATEDTIME,
-  KSPROPERTY_CLOCK_CORRELATEDPHYSICALTIME,
-  KSPROPERTY_CLOCK_STATE,
-  KSPROPERTY_CLOCK_RESOLUTION,
-#if defined(_NTDDK_)
-  KSPROPERTY_CLOCK_FUNCTIONTABLE
-
-#endif } KSPROPERTY_CLOCK;
-````
 
 
 ## -enum-fields

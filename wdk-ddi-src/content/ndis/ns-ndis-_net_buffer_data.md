@@ -7,7 +7,7 @@ old-location: netvista\net_buffer_data.htm
 old-project: netvista
 ms.assetid: d1b5e1c7-5ade-4f54-a5f1-200420964f0e
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PNET_BUFFER_DATA, NET_BUFFER_DATA, NET_BUFFER_DATA structure [Network Drivers Starting with Windows Vista], PNET_BUFFER_DATA, PNET_BUFFER_DATA structure pointer [Network Drivers Starting with Windows Vista], _NET_BUFFER_DATA, ndis/NET_BUFFER_DATA, ndis/PNET_BUFFER_DATA, ndis_netbuf_structures_ref_3e603c77-b97e-4c1f-9fee-e874e741a543.xml, netvista.net_buffer_data"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ndis.h
 api_name:
 -	NET_BUFFER_DATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NET_BUFFER_DATA, *PNET_BUFFER_DATA
 ---
@@ -51,23 +52,8 @@ req.typenames: NET_BUFFER_DATA, *PNET_BUFFER_DATA
 
 The NET_BUFFER_DATA structure contains information for managing the data buffers that are attached to
   a NET_BUFFER structure, and it identifies the next 
-  <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structure in a list of NET_BUFFER
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structure in a list of NET_BUFFER
   structures.
-
-
-## -syntax
-
-
-````
-typedef struct _NET_BUFFER_DATA {
-  PNET_BUFFER            Next;
-  PMDL                   CurrentMdl;
-  ULONG                  CurrentMdlOffset;
-  NET_BUFFER_DATA_LENGTH NbDataLength;
-  PMDL                   MdlChain;
-  ULONG                  DataOffset;
-} NET_BUFFER_DATA, *PNET_BUFFER_DATA;
-````
 
 
 ## -struct-fields
@@ -118,13 +104,13 @@ The offset, in bytes, from the beginning of the MDL chain to the beginning of th
 
 
 The 
-    <a href="..\ndis\ns-ndis-_net_buffer_header.md">NET_BUFFER_HEADER</a> structure contains a
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568387">NET_BUFFER_HEADER</a> structure contains a
     NET_BUFFER_DATA structure that defines data for the 
-    <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structure. To access the members of
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structure. To access the members of
     NET_BUFFER_DATA, use the 
-    <a href="..\ndis\nf-ndis-ndisretreatnetbufferdatastart.md">
+    <a href="https://msdn.microsoft.com/4b58a1dc-8a5a-464b-a2a2-deb952febe25">
     NdisRetreatNetBufferDataStart</a> and 
-    <a href="..\ndis\nf-ndis-ndisadvancenetbufferdatastart.md">
+    <a href="https://msdn.microsoft.com/49b69282-137d-4bb5-92f5-4d27cedbb6d4">
     NdisAdvanceNetBufferDataStart</a> functions, and the following macros:
 
 
@@ -160,41 +146,14 @@ The
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568379">NET_BUFFER_CURRENT_MDL</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568382">NET_BUFFER_DATA_LENGTH</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisretreatnetbufferdatastart.md">
-   NdisRetreatNetBufferDataStart</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568416">NET_BUFFER_NEXT_NB</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568386">NET_BUFFER_FIRST_MDL</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568383">NET_BUFFER_DATA_OFFSET</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisadvancenetbufferdatastart.md">
-   NdisAdvanceNetBufferDataStart</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer_header.md">NET_BUFFER_HEADER</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
 
 
@@ -202,8 +161,34 @@ The
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568382">NET_BUFFER_DATA_LENGTH</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568383">NET_BUFFER_DATA_OFFSET</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568386">NET_BUFFER_FIRST_MDL</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568387">NET_BUFFER_HEADER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568416">NET_BUFFER_NEXT_NB</a>
+
+
+
+<a href="https://msdn.microsoft.com/49b69282-137d-4bb5-92f5-4d27cedbb6d4">
+   NdisAdvanceNetBufferDataStart</a>
+
+
+
+<a href="https://msdn.microsoft.com/4b58a1dc-8a5a-464b-a2a2-deb952febe25">
+   NdisRetreatNetBufferDataStart</a>
  
 
  
-
 

@@ -38,7 +38,8 @@ api_location:
 -	pointofservicecommontypes.h
 api_name:
 -	BarcodeSymbologyDecodeLengthType
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BarcodeSymbologyDecodeLengthType
 ---
@@ -50,18 +51,6 @@ req.typenames: BarcodeSymbologyDecodeLengthType
 
 
 The <b>BarcodeSymbologyDecodeLengthType</b>   enum describes values for the decode length which can be set to support a range, two discrete values, or be set to any length.
-
-
-## -syntax
-
-
-````
-typedef enum _BarcodeSymbologyDecodeLengthType { 
-  DecodeLengthType_AnyLength  = 0,
-  DecodeLengthType_Discrete   = 1,
-  DecodeLengthType_Range      = 2
-} BarcodeSymbologyDecodeLengthType;
-````
 
 
 ## -enum-fields

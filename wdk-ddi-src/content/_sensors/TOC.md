@@ -59,6 +59,7 @@
 ### [SENSOR_COLLECTION_LIST_CALCULATE_MAX_COUNT function](../sensorsdef/nf-sensorsdef-sensor_collection_list_calculate_max_count.md)
 ### [SENSOR_COLLECTION_LIST_INIT function](../sensorsdef/nf-sensorsdef-sensor_collection_list_init.md)
 ### [SENSOR_COLLECTION_LIST_SIZE function](../sensorsdef/nf-sensorsdef-sensor_collection_list_size.md)
+### [SENSOR_CONNECTION_TYPES enumeration](../sensorsdef/ne-sensorsdef-sensor_connection_types.md)
 ### [SENSOR_PROPERTY_LIST structure](../sensorsdef/ns-sensorsdef-sensor_property_list.md)
 ### [SENSOR_PROPERTY_LIST_CALCULATE_MAX_COUNT function](../sensorsdef/nf-sensorsdef-sensor_property_list_calculate_max_count.md)
 ### [SENSOR_PROPERTY_LIST_INIT function](../sensorsdef/nf-sensorsdef-sensor_property_list_init.md)

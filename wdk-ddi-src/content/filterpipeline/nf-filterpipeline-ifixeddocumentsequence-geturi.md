@@ -38,7 +38,8 @@ api_location:
 -	filterpipeline.h
 api_name:
 -	IFixedDocumentSequence.GetUri
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
@@ -50,16 +51,6 @@ req.typenames: EXpsFontRestriction
 
 
 The <b>GetUri</b> method gets the URI of the fixed document sequence.
-
-
-## -syntax
-
-
-````
-HRESULT GetUri(
-  [out] BSTR *uri
-);
-````
 
 
 ## -parameters

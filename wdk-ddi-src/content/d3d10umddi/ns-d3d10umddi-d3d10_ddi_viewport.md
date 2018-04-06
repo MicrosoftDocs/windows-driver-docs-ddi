@@ -7,7 +7,7 @@ old-location: display\d3d10_ddi_viewport.htm
 old-project: display
 ms.assetid: 5b2025ce-e0dd-434d-b92b-16ecaf24808f
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3D10_DDI_VIEWPORT, D3D10_DDI_VIEWPORT structure [Display Devices], UMDisplayDriver_Dx10param_Structs_820ac08a-01a2-4e47-8573-aedf3c3769e1.xml, d3d10umddi/D3D10_DDI_VIEWPORT, display.d3d10_ddi_viewport
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3d10umddi.h
 api_name:
 -	D3D10_DDI_VIEWPORT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D10_DDI_VIEWPORT
 ---
@@ -50,21 +51,6 @@ req.typenames: D3D10_DDI_VIEWPORT
 
 
 The D3D10_DDI_VIEWPORT structure describes a viewport.
-
-
-## -syntax
-
-
-````
-typedef struct D3D10_DDI_VIEWPORT {
-  FLOAT TopLeftX;
-  FLOAT TopLeftY;
-  FLOAT Width;
-  FLOAT Height;
-  FLOAT MinDepth;
-  FLOAT MaxDepth;
-} D3D10_DDI_VIEWPORT;
-````
 
 
 ## -struct-fields
@@ -106,12 +92,11 @@ typedef struct D3D10_DDI_VIEWPORT {
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_setviewports.md">SetViewports</a>
 
 
 
+<a href="https://msdn.microsoft.com/f5a55dd3-a8c4-4741-b99e-105021d79603">SetViewports</a>
  
 
  
-
 

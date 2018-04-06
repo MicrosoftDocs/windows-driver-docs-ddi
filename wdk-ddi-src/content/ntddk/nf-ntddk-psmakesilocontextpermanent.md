@@ -7,7 +7,7 @@ old-location: kernel\psmakesilocontextpermanent.htm
 old-project: kernel
 ms.assetid: 74BE4FF9-0342-4942-A58F-9C6D5F76E5F0
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: PsMakeSiloContextPermanent, PsMakeSiloContextPermanent routine [Kernel-Mode Driver Architecture], kernel.psmakesilocontextpermanent, ntddk/PsMakeSiloContextPermanent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddk.h
 api_name:
 -	PsMakeSiloContextPermanent
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
@@ -50,17 +51,6 @@ req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 
 
 This routine makes the slot in a silo instance read-only, allowing the object in the slot to be retrieved without affecting the reference count on that object.
-
-
-## -syntax
-
-
-````
-NTSTATUS PsMakeSiloContextPermanent(
-  _In_ PESILO Silo,
-  _In_ ULONG  ContextSlot
-);
-````
 
 
 ## -parameters
@@ -75,7 +65,7 @@ The silo in which the slot resides. This parameter is required and it cannot be 
 
 ### -param ContextSlot [in]
 
-The slot to make read-only. The slot must be previously allocated by the <a href="..\ntddk\nf-ntddk-psallocsilocontextslot.md">PsAllocSiloContextSlot</a> routine.
+The slot to make read-only. The slot must be previously allocated by the <a href="https://msdn.microsoft.com/library/windows/hardware/mt735056">PsAllocSiloContextSlot</a> routine.
 
 
 ## -returns
@@ -132,7 +122,7 @@ The operation completed successfully.
 
 
 
-Before calling this routine, the slot must contain a valid object. After it completes, the <a href="..\ntddk\nf-ntddk-psreplacesilocontext.md">PsReplaceSiloContext</a> and <a href="..\ntddk\nf-ntddk-psremovesilocontext.md">PsRemoveSiloContext</a> routines will fail with <b>STATUS_NOT_SUPPORTED</b>. 
+Before calling this routine, the slot must contain a valid object. After it completes, the <a href="https://msdn.microsoft.com/library/windows/hardware/mt735081">PsReplaceSiloContext</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/mt735080">PsRemoveSiloContext</a> routines will fail with <b>STATUS_NOT_SUPPORTED</b>. 
 
 
 

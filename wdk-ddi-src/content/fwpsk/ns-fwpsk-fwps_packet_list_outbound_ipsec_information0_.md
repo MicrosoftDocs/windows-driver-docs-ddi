@@ -7,7 +7,7 @@ old-location: netvista\fwps_packet_list_outbound_ipsec_information0.htm
 old-project: netvista
 ms.assetid: 18312157-f41c-474d-9cf4-446d8b189c4d
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: FWPS_PACKET_LIST_OUTBOUND_IPSEC_INFORMATION0, FWPS_PACKET_LIST_OUTBOUND_IPSEC_INFORMATION0 structure [Network Drivers Starting with Windows Vista], FWPS_PACKET_LIST_OUTBOUND_IPSEC_INFORMATION0_, fwpsk/FWPS_PACKET_LIST_OUTBOUND_IPSEC_INFORMATION0, netvista.fwps_packet_list_outbound_ipsec_information0, wfp_ref_3_struct_3_fwps_P-Z_b5959556-81fe-4c93-9700-2214fee005c5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	fwpsk.h
 api_name:
 -	FWPS_PACKET_LIST_OUTBOUND_IPSEC_INFORMATION0
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FWPS_PACKET_LIST_OUTBOUND_IPSEC_INFORMATION0
 ---
@@ -52,19 +53,6 @@ req.typenames: FWPS_PACKET_LIST_OUTBOUND_IPSEC_INFORMATION0
 The <b>FWPS_PACKET_LIST_OUTBOUND_IPSEC_INFORMATION0</b> structure defines IPsec information associated with
   outbound packet data.
 <div class="alert"><b>Note</b>  <b>FWPS_PACKET_LIST_OUTBOUND_IPSEC_INFORMATION0</b> is a specific version of <b>FWPS_PACKET_LIST_OUTBOUND_IPSEC_INFORMATION</b>. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
-
-## -syntax
-
-
-````
-typedef struct FWPS_PACKET_LIST_OUTBOUND_IPSEC_INFORMATION0_ {
-  unsigned isIPsecPolicyMatch  :1;
-  unsigned isTransportPolicyMatch  :1;
-  unsigned isTunnelPolicyMatch  :1;
-  unsigned isTunnelIPinIP  :1;
-} FWPS_PACKET_LIST_OUTBOUND_IPSEC_INFORMATION0;
-````
-
 
 ## -struct-fields
 
@@ -99,7 +87,7 @@ A value that indicates whether the packet list matched an IP-in-IP filter for IP
 
 
 An FWPS_PACKET_LIST_OUTBOUND_IPSEC_INFORMATION0 structure is included as a member of the 
-    <a href="..\fwpsk\ns-fwpsk-fwps_packet_list_ipsec_information0_.md">
+    <a href="https://msdn.microsoft.com/bd005dd9-887a-4323-9816-e4a3b96ca53d">
     FWPS_PACKET_LIST_IPSEC_INFORMATION0</a> structure.
 
 
@@ -107,13 +95,12 @@ An FWPS_PACKET_LIST_OUTBOUND_IPSEC_INFORMATION0 structure is included as a membe
 
 ## -see-also
 
-<a href="..\fwpsk\ns-fwpsk-fwps_packet_list_ipsec_information0_.md">
+
+
+
+<a href="https://msdn.microsoft.com/bd005dd9-887a-4323-9816-e4a3b96ca53d">
    FWPS_PACKET_LIST_IPSEC_INFORMATION0</a>
-
-
-
  
 
  
-
 

@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSMETHOD_ITEM
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSMETHOD_ITEM, *PKSMETHOD_ITEM
 ---
@@ -50,24 +51,6 @@ req.typenames: KSMETHOD_ITEM, *PKSMETHOD_ITEM
 
 
 The KSMETHOD_ITEM structure describes a single method within a method set.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  ULONG        MethodId;
-  union {
-    PFNKSHANDLER MethodHandler;
-    BOOLEAN      MethodSupported;
-  };
-  ULONG        MinMethod;
-  ULONG        MinData;
-  PFNKSHANDLER SupportHandler;
-  ULONG        Flags;
-} KSMETHOD_ITEM, *PKSMETHOD_ITEM;
-````
 
 
 ## -struct-fields
@@ -160,7 +143,7 @@ Indicates that the method is to be processed in source mode. An MDL is allocated
 
 #### - MethodHandler
 
-Pointer to a minidriver-supplied <a href="..\ks\nc-ks-pfnkshandler.md">KStrMethodHandler</a> callback routine.
+Pointer to a minidriver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff567191">KStrMethodHandler</a> callback routine.
 
 
 #### - MethodSupported
@@ -179,11 +162,10 @@ A minidriver uses the KSMETHOD_ITEM structure to define methods in a method set.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567206">KStrSupportHandler</a>
 
 
 
-<a href="..\ks\ns-ks-ksfastmethod_item.md">KSFASTMETHOD_ITEM</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561944">KSFASTMETHOD_ITEM</a>
 
 
 
@@ -191,8 +173,8 @@ A minidriver uses the KSMETHOD_ITEM structure to define methods in a method set.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567206">KStrSupportHandler</a>
  
 
  
-
 

@@ -38,7 +38,8 @@ api_location:
 -	Bdatypes.h
 api_name:
 -	BDA_SIGNAL_TIMEOUTS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BDA_SIGNAL_TIMEOUTS, *PBDA_SIGNAL_TIMEOUTS
 ---
@@ -50,18 +51,6 @@ req.typenames: BDA_SIGNAL_TIMEOUTS, *PBDA_SIGNAL_TIMEOUTS
 
 
 
-
-
-## -syntax
-
-
-````
-typedef struct _BDA_SIGNAL_TIMEOUTS {
-  ULONG ulCarrierTimeoutMs;
-  ULONG ulScanningTimeoutMs;
-  ULONG ulTuningTimeoutMs;
-} BDA_SIGNAL_TIMEOUTS, *PBDA_SIGNAL_TIMEOUTS;
-````
 
 
 ## -struct-fields

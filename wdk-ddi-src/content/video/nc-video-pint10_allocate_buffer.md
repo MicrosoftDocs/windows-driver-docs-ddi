@@ -7,7 +7,7 @@ old-location: display\int10allocatebuffer.htm
 old-project: display
 ms.assetid: 2e6c8000-13e3-46fb-81be-18428fec2b21
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: Int10AllocateBuffer, Int10AllocateBuffer callback function [Display Devices], PINT10_ALLOCATE_BUFFER, VideoPort_Functions_9e19d07d-46a9-46ee-97db-6548202ff14f.xml, display.int10allocatebuffer, video/Int10AllocateBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	video.h
 api_name:
 -	Int10AllocateBuffer
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VHF_CONFIG, *PVHF_CONFIG
 req.product: Windows 10 or later.
@@ -53,22 +54,6 @@ req.product: Windows 10 or later.
 The <i>Int10AllocateBuffer</i> function can be used to allocate a single 4 KB block of memory in the context of another thread. After the block of memory has been allocated, it must be freed before another block of memory can be allocated.
 
 
-## -prototype
-
-
-````
-PINT10_ALLOCATE_BUFFER Int10AllocateBuffer;
-
-VP_STATUS Int10AllocateBuffer(
-  _In_    PVOID   Context,
-  _Out_   PUSHORT Seg,
-  _Out_   PUSHORT Off,
-  _Inout_ PULONG  Length
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -76,7 +61,7 @@ VP_STATUS Int10AllocateBuffer(
 
 ### -param Context [in]
 
-Pointer to a video port driver-defined context for the interface. This should be the same as the value in the <b>Context</b> member of the <a href="..\video\ns-video-_video_port_int10_interface.md">VIDEO_PORT_INT10_INTERFACE</a> structure after <a href="..\video\nf-video-videoportqueryservices.md">VideoPortQueryServices</a> returns.
+Pointer to a video port driver-defined context for the interface. This should be the same as the value in the <b>Context</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff570539">VIDEO_PORT_INT10_INTERFACE</a> structure after <a href="https://msdn.microsoft.com/library/windows/hardware/ff570337">VideoPortQueryServices</a> returns.
 
 
 ### -param Seg [out]
@@ -107,19 +92,18 @@ The <i>Int10AllocateBuffer</i> function returns NO_ERROR upon success. It return
 
 
 
-The video port implements this function, which can be accessed through a pointer in the <a href="..\video\ns-video-_video_port_int10_interface.md">VIDEO_PORT_INT10_INTERFACE</a> structure.
+The video port implements this function, which can be accessed through a pointer in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff570539">VIDEO_PORT_INT10_INTERFACE</a> structure.
 
 
 
 
 ## -see-also
 
-<a href="..\video\ns-video-_video_port_int10_interface.md">VIDEO_PORT_INT10_INTERFACE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570539">VIDEO_PORT_INT10_INTERFACE</a>
  
 
  
-
 

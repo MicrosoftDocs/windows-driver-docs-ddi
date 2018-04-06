@@ -38,7 +38,8 @@ api_location:
 -	ntddsd.h
 api_name:
 -	InitializeInterface
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STORAGE_DIAGNOSTIC_MP_REQUEST, *PSTORAGE_DIAGNOSTIC_MP_REQUEST
 ---
@@ -50,20 +51,6 @@ req.typenames: STORAGE_DIAGNOSTIC_MP_REQUEST, *PSTORAGE_DIAGNOSTIC_MP_REQUEST
 
 
 The PSDBUS_INITIALIZE_INTERFACE_ROUTINE prototype declares the routine that a Secure Digital (SD) device driver uses to initialize an interface instance that it creates with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537906">SdBusOpenInterface</a> routine.
-
-
-## -prototype
-
-
-````
-PSDBUS_INITIALIZE_INTERFACE_ROUTINE InitializeInterface;
-
-NTSTATUS InitializeInterface(
-  _In_ PVOID                       Context,
-  _In_ PSDBUS_INTERFACE_PARAMETERS InterfaceParameters
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -103,7 +90,6 @@ An SD card driver must call its initialization routine before attempting to send
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537906">SdBusOpenInterface</a>
 
 
 
@@ -111,8 +97,8 @@ An SD card driver must call its initialization routine before attempting to send
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537906">SdBusOpenInterface</a>
  
 
  
-
 

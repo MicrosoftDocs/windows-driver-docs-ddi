@@ -38,7 +38,8 @@ api_location:
 -	sffdisk.h
 api_name:
 -	IOCTL_SFFDISK_DEVICE_COMMAND
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SFFDISK_DPCMD
 req.product: Windows 10 or later.

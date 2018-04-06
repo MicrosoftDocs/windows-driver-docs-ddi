@@ -7,7 +7,7 @@ old-location: display\dxgkarg_rendergdi.htm
 old-project: display
 ms.assetid: E1DC536B-581E-43F8-99B2-776DC30EEBB7
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*INOUT_PDXGKARG_RENDERGDI, DXGKARG_RENDERGDI, DXGKARG_RENDERGDI structure [Display Devices], _DXGKARG_RENDERGDI, d3dkmddi/DXGKARG_RENDERGDI, display.dxgkarg_rendergdi"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGKARG_RENDERGDI
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGKARG_RENDERGDI
 ---
@@ -50,25 +51,6 @@ req.typenames: DXGKARG_RENDERGDI
 
 
 The <b>DXGKARG_RENDERGDI</b> structure is used when submitting Windows Graphics Device Interface (GDI) commands for contexts that support virtual addressing.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGKARG_RENDERGDI {
-  const  VOID CONST      *pCommand;
-  const UINT             CommandLength;
-  VOID                   *pDmaBuffer;
-  D3DGPU_VIRTUAL_ADDRESS DmaBufferGpuVirtualAddress;
-  UINT                   DmaSize;
-  VOID                   *pDmaBufferPrivateData;
-  UINT                   DmaBufferPrivateDataSize;
-  DXGK_ALLOCATIONLIST    *pAllocationList;
-  UINT                   AllocationListSize;
-  UINT                   MultipassOffset;
-} DXGKARG_RENDERGDI;
-````
 
 
 ## -struct-fields
@@ -113,7 +95,7 @@ The number of bytes that remain in the private data structure that <b>pDmaBuffer
 
 ### -field pAllocationList
 
-An array of <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationlist.md">DXGK_ALLOCATIONLIST</a> structures for the list of allocations that the DMA buffer references. Each allocation that is referenced should appear once for optimal performance.
+An array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff560975">DXGK_ALLOCATIONLIST</a> structures for the list of allocations that the DMA buffer references. Each allocation that is referenced should appear once for optimal performance.
 
 
 ### -field AllocationListSize

@@ -39,7 +39,8 @@ api_location:
 -	Wdf01000.sys.dll
 api_name:
 -	WdfCommonBufferGetLength
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_CHILD_RETRIEVE_INFO, *PWDF_CHILD_RETRIEVE_INFO
 req.product: Windows 10 or later.
@@ -56,16 +57,6 @@ req.product: Windows 10 or later.
 The <b>WdfCommonBufferGetLength</b> method returns the length of a specified common buffer. 
 
 
-## -syntax
-
-
-````
-size_t WdfCommonBufferGetLength(
-  _In_ WDFCOMMONBUFFER CommonBuffer
-);
-````
-
-
 ## -parameters
 
 
@@ -73,7 +64,7 @@ size_t WdfCommonBufferGetLength(
 
 ### -param CommonBuffer [in]
 
-A handle to a common buffer object that the driver obtained by a previous call to <a href="..\wdfcommonbuffer\nf-wdfcommonbuffer-wdfcommonbuffercreate.md">WdfCommonBufferCreate</a>.  
+A handle to a common buffer object that the driver obtained by a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff545800">WdfCommonBufferCreate</a>.  
 
 
 ## -returns
@@ -118,12 +109,11 @@ bufferLength = WdfCommonBufferGetLength(DevExt-&gt;CommonBuffer); </pre>
 
 ## -see-also
 
-<a href="..\wdfcommonbuffer\nf-wdfcommonbuffer-wdfcommonbuffercreate.md">WdfCommonBufferCreate</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545800">WdfCommonBufferCreate</a>
  
 
  
-
 

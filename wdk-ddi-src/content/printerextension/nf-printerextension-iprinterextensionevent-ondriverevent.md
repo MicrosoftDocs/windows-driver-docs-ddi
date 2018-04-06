@@ -38,7 +38,8 @@ api_location:
 -	printerextension.h
 api_name:
 -	IPrinterExtensionEvent.OnDriverEvent
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PrintSchemaSelectionType
 req.product: Windows 10 or later.
@@ -51,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 Called when a driver event occurs.
-
-
-## -syntax
-
-
-````
-HRESULT OnDriverEvent(
-  [in] IPrinterExtensionEventArgs *pEventArgs
-);
-````
 
 
 ## -parameters
@@ -84,16 +75,15 @@ This method returns an <b>HRESULT</b> value.
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprinterextensioneventargs.md">IPrinterExtensionEventArgs</a>
 
 
 
-<a href="..\printerextension\nn-printerextension-iprinterextensionevent.md">IPrinterExtensionEvent</a>
+<a href="https://msdn.microsoft.com/A0F4DB51-D68E-4516-833A-7E984247796B">IPrinterExtensionEvent</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh973207">IPrinterExtensionEventArgs</a>
  
 
  
-
 

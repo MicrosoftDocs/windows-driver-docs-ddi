@@ -7,7 +7,7 @@ old-location: buses\_parent_hub_flags.htm
 old-project: usbref
 ms.assetid: 9107CC24-48FF-4A2C-AA27-1E9E316B7944
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PPARENT_HUB_FLAGS, PARENT_HUB_FLAGS, PARENT_HUB_FLAGS union [Buses], _PARENT_HUB_FLAGS, buses._parent_hub_flags, ucxroothub/_PARENT_HUB_FLAGS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ucxroothub.h
 api_name:
 -	PARENT_HUB_FLAGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PARENT_HUB_FLAGS, *PPARENT_HUB_FLAGS
 req.product: Windows 10 or later.
@@ -50,21 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This structure is used by the <a href="..\ucxroothub\ns-ucxroothub-_hub_info_from_parent.md">HUB_INFO_FROM_PARENT</a> structure to get hub information from the parent.
-
-
-## -syntax
-
-
-````
-typedef union _PARENT_HUB_FLAGS {
-  ULONG  AsUlong32;
-  struct {
-    ULONG DisableLpmForAllDownstreamDevices  :1;
-    ULONG HubIsHighSpeedCapable  :1;
-  };
-} PARENT_HUB_FLAGS;
-````
+This structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/mt188022">HUB_INFO_FROM_PARENT</a> structure to get hub information from the parent.
 
 
 ## -struct-fields
@@ -96,12 +83,11 @@ Indicates that the hub is high-speed capable.
 
 ## -see-also
 
-<a href="..\ucxroothub\ns-ucxroothub-_hub_info_from_parent.md">HUB_INFO_FROM_PARENT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt188022">HUB_INFO_FROM_PARENT</a>
  
 
  
-
 

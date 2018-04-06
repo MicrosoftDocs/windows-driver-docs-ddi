@@ -38,7 +38,8 @@ api_location:
 -	Strmini.h
 api_name:
 -	KSSCATTER_GATHER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSSCATTER_GATHER, *PKSSCATTER_GATHER
 req.product: Windows 10 or later.
@@ -51,17 +52,6 @@ req.product: Windows 10 or later.
 
 
 
-
-
-## -syntax
-
-
-````
-typedef struct {
-  PHYSICAL_ADDRESS PhysicalAddress;
-  ULONG            Length;
-} KSSCATTER_GATHER, *PKSSCATTER_GATHER;
-````
 
 
 ## -struct-fields

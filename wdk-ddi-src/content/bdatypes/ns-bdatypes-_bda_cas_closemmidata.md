@@ -38,7 +38,8 @@ api_location:
 -	Bdatypes.h
 api_name:
 -	BDA_CAS_CLOSEMMIDATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BDA_CAS_CLOSEMMIDATA, *PBDA_CAS_CLOSEMMIDATA
 ---
@@ -50,16 +51,6 @@ req.typenames: BDA_CAS_CLOSEMMIDATA, *PBDA_CAS_CLOSEMMIDATA
 
 
 
-
-
-## -syntax
-
-
-````
-typedef struct _BDA_CAS_CLOSEMMIDATA {
-  ULONG ulDialogNumber;
-} BDA_CAS_CLOSEMMIDATA, *PBDA_CAS_CLOSEMMIDATA;
-````
 
 
 ## -struct-fields

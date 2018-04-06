@@ -38,7 +38,8 @@ api_location:
 -	Ks.h
 api_name:
 -	KSEVENT_CONNECTION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSEVENT_CONNECTION
 ---
@@ -50,20 +51,6 @@ req.typenames: KSEVENT_CONNECTION
 
 
 
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  KSEVENT_CONNECTION_POSITIONUPDATE,
-  KSEVENT_CONNECTION_DATADISCONTINUITY,
-  KSEVENT_CONNECTION_TIMEDISCONTINUITY,
-  KSEVENT_CONNECTION_PRIORITY,
-  KSEVENT_CONNECTION_ENDOFSTREAM
-} KSEVENT_CONNECTION;
-````
 
 
 ## -enum-fields

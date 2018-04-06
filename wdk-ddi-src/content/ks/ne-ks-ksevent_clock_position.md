@@ -38,7 +38,8 @@ api_location:
 -	Ks.h
 api_name:
 -	KSEVENT_CLOCK_POSITION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSEVENT_CLOCK_POSITION
 ---
@@ -50,17 +51,6 @@ req.typenames: KSEVENT_CLOCK_POSITION
 
 
 
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  KSEVENT_CLOCK_INTERVAL_MARK,
-  KSEVENT_CLOCK_POSITION_MARK
-} KSEVENT_CLOCK_POSITION;
-````
 
 
 ## -enum-fields

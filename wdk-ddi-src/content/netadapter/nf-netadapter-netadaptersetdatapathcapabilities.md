@@ -72,8 +72,6 @@ The client driver must call this method from its *[EVT_NET_ADAPTER_SET_CAPABILIT
 
 This method, along with a few other set capability methods (see below), is the replacement for the [NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES](../ndis/ns-ndis-_ndis_miniport_adapter_general_attributes.md) union that a (non-WDF) client of Ndis.sys sets by calling [NdisMSetMiniportAttributes](../ndis/nf-ndis-ndismsetminiportattributes.md).
 
-In NetAdapterCx 1.2, the **DataPathCapabilities** member was replaced with two new members: **TxCapabilities** and **RxCapabilities**.
-
 The minimum NetAdapterCx version for **NetAdapterSetDataPathCapabilities** is 1.2.
 
 ## -see-also

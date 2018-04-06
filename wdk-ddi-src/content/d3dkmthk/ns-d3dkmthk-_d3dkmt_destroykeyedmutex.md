@@ -7,7 +7,7 @@ old-location: display\d3dkmt_destroykeyedmutex.htm
 old-project: display
 ms.assetid: b7903bf8-ef62-4224-a81d-4b41f36e2061
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMT_DESTROYKEYEDMUTEX, D3DKMT_DESTROYKEYEDMUTEX structure [Display Devices], OpenGL_Structs_4eb8a9cb-d2b1-445b-b545-5ec0a017a61c.xml, _D3DKMT_DESTROYKEYEDMUTEX, d3dkmthk/D3DKMT_DESTROYKEYEDMUTEX, display.d3dkmt_destroykeyedmutex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmthk.h
 api_name:
 -	D3DKMT_DESTROYKEYEDMUTEX
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_DESTROYKEYEDMUTEX
 ---
@@ -49,17 +50,7 @@ req.typenames: D3DKMT_DESTROYKEYEDMUTEX
 ## -description
 
 
-The D3DKMT_DESTROYKEYEDMUTEX structure describes a keyed mutex that the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtdestroykeyedmutex.md">D3DKMTDestroyKeyedMutex</a> function destroys. 
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_DESTROYKEYEDMUTEX {
-  D3DKMT_HANDLE hKeyedMutex;
-} D3DKMT_DESTROYKEYEDMUTEX;
-````
+The D3DKMT_DESTROYKEYEDMUTEX structure describes a keyed mutex that the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546920">D3DKMTDestroyKeyedMutex</a> function destroys. 
 
 
 ## -struct-fields
@@ -74,12 +65,11 @@ typedef struct _D3DKMT_DESTROYKEYEDMUTEX {
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtdestroykeyedmutex.md">D3DKMTDestroyKeyedMutex</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546920">D3DKMTDestroyKeyedMutex</a>
  
 
  
-
 

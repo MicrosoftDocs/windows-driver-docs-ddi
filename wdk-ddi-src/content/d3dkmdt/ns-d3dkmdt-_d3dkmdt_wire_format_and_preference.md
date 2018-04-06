@@ -7,7 +7,7 @@ old-location: display\d3dkmdt_wire_format_and_preference.htm
 old-project: display
 ms.assetid: 24CC6A10-6462-4681-B340-E887B679F456
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PD3DKMDT_WIRE_FORMAT_AND_PREFERENCE, D3DKMDT_WIRE_FORMAT_AND_PREFERENCE, D3DKMDT_WIRE_FORMAT_AND_PREFERENCE union [Display Devices], PD3DKMDT_WIRE_FORMAT_AND_PREFERENCE, PD3DKMDT_WIRE_FORMAT_AND_PREFERENCE union pointer [Display Devices], _D3DKMDT_WIRE_FORMAT_AND_PREFERENCE, d3dkmdt/D3DKMDT_WIRE_FORMAT_AND_PREFERENCE, d3dkmdt/PD3DKMDT_WIRE_FORMAT_AND_PREFERENCE, display.d3dkmdt_wire_format_and_preference"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmdt.h
 api_name:
 -	D3DKMDT_WIRE_FORMAT_AND_PREFERENCE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMDT_WIRE_FORMAT_AND_PREFERENCE, *PD3DKMDT_WIRE_FORMAT_AND_PREFERENCE
 ---
@@ -50,24 +51,6 @@ req.typenames: D3DKMDT_WIRE_FORMAT_AND_PREFERENCE, *PD3DKMDT_WIRE_FORMAT_AND_PRE
 
 
 Holds information about the preferred pixel encoding format.
-
-
-## -syntax
-
-
-````
-typedef union _D3DKMDT_WIRE_FORMAT_AND_PREFERENCE {
-  struct {
-    D3DKMDT_MODE_PREFERENCE Preference  :2;
-    UINT                    Rgb  :6;
-    UINT                    YCbCr444  :6;
-    UINT                    YCbCr422  :6;
-    UINT                    YCbCr420  :6;
-    UINT                    Intensity  :6;
-  };
-  UINT Value;
-} D3DKMDT_WIRE_FORMAT_AND_PREFERENCE, *PD3DKMDT_WIRE_FORMAT_AND_PREFERENCE;
-````
 
 
 ## -struct-fields

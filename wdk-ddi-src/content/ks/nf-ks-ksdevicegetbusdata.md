@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsDeviceGetBusData
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -53,20 +54,6 @@ req.typenames:
 The<b> KsDeviceGetBusData</b> function reads data from the bus where the given AVStream device resides.
 
 
-## -syntax
-
-
-````
-ULONG KsDeviceGetBusData(
-  _In_ PKSDEVICE Device,
-  _In_ ULONG     DataType,
-  _In_ PVOID     Buffer,
-  _In_ ULONG     Offset,
-  _In_ ULONG     Length
-);
-````
-
-
 ## -parameters
 
 
@@ -74,7 +61,7 @@ ULONG KsDeviceGetBusData(
 
 ### -param Device [in]
 
-A pointer to the <a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a> structure representing the given AVStream device for which data from the bus should be read. 
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561681">KSDEVICE</a> structure representing the given AVStream device for which data from the bus should be read. 
 
 
 ### -param DataType [in]
@@ -110,7 +97,7 @@ This parameter specifies the number of bytes to read into <i>Buffer</i>.
 
 
 
-Depending on the driver for the bus where the specified device resides, there are two possible behaviors and restriction sets on this function. If the given bus driver supports the bus interface standard (usually PCI), call this function at either IRQL = PASSIVE_LEVEL or DISPATCH_LEVEL. After such a call, <b>KsDeviceGetBusData</b> returns the actual number of bytes read from the requested space. If, however, the given bus driver does not support the bus interface standard, then AVStream communicates with the bus driver through <a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>. Note that this restricts use of <b>KsDeviceGetBusData</b> to IRQL = PASSIVE_LEVEL and also means that the return value is either 0, in the case of failure, or equal to<i> Length</i> if data acquisition was successful<i>.</i>
+Depending on the driver for the bus where the specified device resides, there are two possible behaviors and restriction sets on this function. If the given bus driver supports the bus interface standard (usually PCI), call this function at either IRQL = PASSIVE_LEVEL or DISPATCH_LEVEL. After such a call, <b>KsDeviceGetBusData</b> returns the actual number of bytes read from the requested space. If, however, the given bus driver does not support the bus interface standard, then AVStream communicates with the bus driver through <a href="https://msdn.microsoft.com/library/windows/hardware/ff548336">IoCallDriver</a>. Note that this restricts use of <b>KsDeviceGetBusData</b> to IRQL = PASSIVE_LEVEL and also means that the return value is either 0, in the case of failure, or equal to<i> Length</i> if data acquisition was successful<i>.</i>
 
 To ensure compatibility, minidriver writers may want to restrict use of <b>KsDeviceGetBusData</b> to IRQL = PASSIVE_LEVEL.
 
@@ -119,16 +106,15 @@ To ensure compatibility, minidriver writers may want to restrict use of <b>KsDev
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
 
 
 
-<a href="..\ks\nf-ks-ksdevicesetbusdata.md">KsDeviceSetBusData</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548336">IoCallDriver</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561690">KsDeviceSetBusData</a>
  
 
  
-
 

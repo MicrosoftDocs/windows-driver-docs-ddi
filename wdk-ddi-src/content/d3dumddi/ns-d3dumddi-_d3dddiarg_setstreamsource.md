@@ -7,7 +7,7 @@ old-location: display\d3dddiarg_setstreamsource.htm
 old-project: display
 ms.assetid: 6a178ef0-0741-4b0c-a688-cae3923135ac
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DDDIARG_SETSTREAMSOURCE, D3DDDIARG_SETSTREAMSOURCE structure [Display Devices], UMDisplayDriver_param_Structs_f90eed83-1d01-4502-84e4-22cff72016d6.xml, _D3DDDIARG_SETSTREAMSOURCE, d3dumddi/D3DDDIARG_SETSTREAMSOURCE, display.d3dddiarg_setstreamsource
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	D3DDDIARG_SETSTREAMSOURCE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDIARG_SETSTREAMSOURCE
 ---
@@ -50,19 +51,6 @@ req.typenames: D3DDDIARG_SETSTREAMSOURCE
 
 
 The D3DDDIARG_SETSTREAMSOURCE structure describes the portion of the vertex stream to bind to a vertex buffer. 
-
-
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_SETSTREAMSOURCE {
-  UINT   Stream;
-  HANDLE hVertexBuffer;
-  UINT   Offset;
-  UINT   Stride;
-} D3DDDIARG_SETSTREAMSOURCE;
-````
 
 
 ## -struct-fields
@@ -98,12 +86,11 @@ The <b>Stride</b> value must be DWORD-aligned.
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setstreamsource.md">SetStreamSource</a>
 
 
 
+<a href="https://msdn.microsoft.com/669dbabc-91fb-40f9-a034-11c3c2e70436">SetStreamSource</a>
  
 
  
-
 

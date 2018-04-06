@@ -38,7 +38,8 @@ api_location:
 -	wlanihv.h
 api_name:
 -	DOT11EXT_IHV_UI_REQUEST
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT11EXT_IHV_UI_REQUEST, *PDOT11EXT_IHV_UI_REQUEST
 req.product: Windows 10 or later.

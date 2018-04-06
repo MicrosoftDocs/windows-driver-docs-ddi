@@ -38,7 +38,8 @@ api_location:
 -	bthddi.h
 api_name:
 -	CO_HEADER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CO_HEADER
 ---
@@ -51,18 +52,7 @@ req.typenames: CO_HEADER
 
 The CO_HEADER structure is used to specify values for the 
   <b>Header</b> member of the 
-  <a href="..\bthddi\ns-bthddi-_l2cap_config_option.md">L2CAP_CONFIG_OPTION</a> structure.
-
-
-## -syntax
-
-
-````
-typedef struct _CO_HEADER {
-  CO_TYPE   Type;
-  CO_LENGTH Length;
-} CO_HEADER;
-````
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff536757">L2CAP_CONFIG_OPTION</a> structure.
 
 
 ## -struct-fields
@@ -84,12 +74,11 @@ The size, in bytes, of the vendor-specific option stored in the L2CAP_CONFIG_OPT
 
 ## -see-also
 
-<a href="..\bthddi\ns-bthddi-_l2cap_config_option.md">L2CAP_CONFIG_OPTION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536757">L2CAP_CONFIG_OPTION</a>
  
 
  
-
 

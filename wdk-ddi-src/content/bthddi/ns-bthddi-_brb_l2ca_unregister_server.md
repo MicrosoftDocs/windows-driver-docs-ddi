@@ -38,7 +38,8 @@ api_location:
 -	bthddi.h
 api_name:
 -	_BRB_L2CA_UNREGISTER_SERVER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -53,19 +54,6 @@ A profile driver uses the _BRB_L2CA_UNREGISTER_SERVER structure to unregister it
   capable of receiving L2CAP connections from remote Bluetooth devices.
 
 
-## -syntax
-
-
-````
-struct _BRB_L2CA_UNREGISTER_SERVER {
-  BRB_HEADER Hdr;
-  BTH_ADDR   BtAddress;
-  PVOID      ServerHandle;
-  USHORT     Psm;
-};
-````
-
-
 ## -struct-fields
 
 
@@ -74,7 +62,7 @@ struct _BRB_L2CA_UNREGISTER_SERVER {
 ### -field Hdr
 
 A 
-     <a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a> structure that contains information
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536612">BRB_HEADER</a> structure that contains information
      about the current BRB.
 
 
@@ -111,7 +99,10 @@ To unregister itself as a L2CAP server, a profile driver should
 
 ## -see-also
 
-<a href="..\bthddi\ns-bthddi-_brb_l2ca_register_server.md">_BRB_L2CA_REGISTER_SERVER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536612">BRB_HEADER</a>
 
 
 
@@ -119,12 +110,8 @@ To unregister itself as a L2CAP server, a profile driver should
 
 
 
-<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536862">_BRB_L2CA_REGISTER_SERVER</a>
  
 
  
-
 

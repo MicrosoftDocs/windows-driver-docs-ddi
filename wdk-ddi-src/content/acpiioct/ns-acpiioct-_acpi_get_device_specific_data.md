@@ -38,7 +38,8 @@ api_location:
 -	Acpiioct.h
 api_name:
 -	ACPI_GET_DEVICE_SPECIFIC_DATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: ACPI_GET_DEVICE_SPECIFIC_DATA, *PACPI_GET_DEVICE_SPECIFIC_DATA
 ---
@@ -50,19 +51,6 @@ req.typenames: ACPI_GET_DEVICE_SPECIFIC_DATA, *PACPI_GET_DEVICE_SPECIFIC_DATA
 
 
 The ACPI_GET_DEVICE_SPECIFIC_DATA structure contains input arguments for the IOCTL_ACPI_GET_DEVICE_SPECIFIC_DATA control method.
-
-
-## -syntax
-
-
-````
-typedef struct _ACPI_GET_DEVICE_SPECIFIC_DATA {
-  ULONG Signature;
-  GUID  Section;
-  ULONG PropertyNameLength;
-  UCHAR PropertyName[ANYSIZE_ARRAY];
-} ACPI_GET_DEVICE_SPECIFIC_DATA, *PACPI_GET_DEVICE_SPECIFIC_DATA;
-````
 
 
 ## -struct-fields

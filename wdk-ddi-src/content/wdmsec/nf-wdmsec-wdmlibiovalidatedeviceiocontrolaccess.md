@@ -7,7 +7,7 @@ old-location: kernel\wdmlibiovalidatedeviceiocontrolaccess.htm
 old-project: kernel
 ms.assetid: F986A431-A70D-4488-A792-F37128902C7E
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: FILE_READ_ACCESS, FILE_WRITE_ACCESS, IoValidateDeviceIoControlAccess, WdmlibIoValidateDeviceIoControlAccess, WdmlibIoValidateDeviceIoControlAccess function [Kernel-Mode Driver Architecture], kernel.wdmlibiovalidatedeviceiocontrolaccess, wdmsec/IoValidateDeviceIoControlAccess, wdmsec/WdmlibIoValidateDeviceIoControlAccess
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	WdmlibIoValidateDeviceIoControlAccess
 -	IoValidateDeviceIoControlAccess
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_ITEM, *PWORK_QUEUE_ITEM
 req.product: Windows 10 or later.
@@ -54,17 +55,6 @@ req.product: Windows 10 or later.
 The <b>WdmlibIoValidateDeviceIoControlAccess</b> function verifies that the sender of an <a href="https://msdn.microsoft.com/library/windows/hardware/ff548649">IRP_MJ_DEVICE_CONTROL</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff550751">IRP_MJ_FILE_SYSTEM_CONTROL</a> IRP has the specified access to the device object.
 
 
-## -syntax
-
-
-````
-NTSTATUS WdmlibIoValidateDeviceIoControlAccess(
-  _In_ PIRP  Irp,
-  _In_ ULONG RequiredAccess
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +62,7 @@ NTSTATUS WdmlibIoValidateDeviceIoControlAccess(
 
 ### -param Irp [in]
 
-Specifies the <a href="..\wdm\ns-wdm-_irp.md">IRP</a> on which to perform the access check.
+Specifies the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550694">IRP</a> on which to perform the access check.
 
 
 ### -param RequiredAccess [in]
@@ -167,19 +157,18 @@ The specified parameters are invalid. For example, if the routine is passed an I
 For example, if an IOCTL is defined with a <i>RequiredAccess</i> value of FILE_ANY_ACCESS, then by default any request sender with SYNCHRONIZE access to the device object can send the IOCTL. Use 
              <b>WdmlibIoValidateDeviceIoControlAccess</b> to require more stringent security at run time. For more information about the <i>RequiredAccess</i> value of an IOCTL, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff543023">Defining I/O Control Codes</a>.
 
-The access checks are only performed if the <b>RequestorMode</b> member of the <a href="..\wdm\ns-wdm-_irp.md">IRP</a> structure is <b>UserMode</b>. If <b>RequestorMode</b> is <b>KernelMode</b>, the routine automatically returns STATUS_SUCCESS.
+The access checks are only performed if the <b>RequestorMode</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550694">IRP</a> structure is <b>UserMode</b>. If <b>RequestorMode</b> is <b>KernelMode</b>, the routine automatically returns STATUS_SUCCESS.
 
 
 
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550694">IRP</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: debugger\gettotalnumberthreadsandprocesses.htm
 old-project: debugger
 ms.assetid: 452dc67b-1938-4757-99bd-507a32d9a71a
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: GetTotalNumberThreadsAndProcesses method [Windows Debugging], GetTotalNumberThreadsAndProcesses method [Windows Debugging], IDebugSystemObjects3 interface, GetTotalNumberThreadsAndProcesses method [Windows Debugging], IDebugSystemObjects4 interface, GetTotalNumberThreadsAndProcesses,IDebugSystemObjects3.GetTotalNumberThreadsAndProcesses, IDebugSystemObjects3, IDebugSystemObjects3 interface [Windows Debugging], GetTotalNumberThreadsAndProcesses method, IDebugSystemObjects3::GetTotalNumberThreadsAndProcesses, IDebugSystemObjects4 interface [Windows Debugging], GetTotalNumberThreadsAndProcesses method, IDebugSystemObjects4::GetTotalNumberThreadsAndProcesses, IDebugSystemObjects_503ce0cc-8781-4a45-aa59-727b41aaf23b.xml, dbgeng/IDebugSystemObjects3::GetTotalNumberThreadsAndProcesses, dbgeng/IDebugSystemObjects4::GetTotalNumberThreadsAndProcesses, debugger.gettotalnumberthreadsandprocesses
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	IDebugSystemObjects3.GetTotalNumberThreadsAndProcesses
 -	IDebugSystemObjects4.GetTotalNumberThreadsAndProcesses
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -51,20 +52,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetTotalNumberThreadsAndProcesses</b> method returns the total number of <a href="https://msdn.microsoft.com/6182ca34-ee5e-47e9-82fe-29266397e3a8">threads</a> and <a href="https://msdn.microsoft.com/6182ca34-ee5e-47e9-82fe-29266397e3a8">processes</a> in all the targets the engine is attached to, in addition to the largest number of threads and processes in a target.
-
-
-## -syntax
-
-
-````
-HRESULT GetTotalNumberThreadsAndProcesses(
-  [out] PULONG TotalThreads,
-  [out] PULONG TotalProcesses,
-  [out] PULONG LargestProcessThreads,
-  [out] PULONG LargestSystemThreads,
-  [out] PULONG LargestSystemProcesses
-);
-````
 
 
 ## -parameters
@@ -136,20 +123,19 @@ If no target is found, all the values are set to zero.
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550892">IDebugSystemObjects3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550893">IDebugSystemObjects4</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558896">Threads and Processes</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugsystemobjects4.md">IDebugSystemObjects4</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugsystemobjects3.md">IDebugSystemObjects3</a>
-
-
-
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: debugger\getkernelconnectionoptions.htm
 old-project: debugger
 ms.assetid: 2862fe26-1613-4fc2-98e1-3deb5078d1e2
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: GetKernelConnectionOptions method [Windows Debugging], GetKernelConnectionOptions method [Windows Debugging], IDebugClient interface, GetKernelConnectionOptions method [Windows Debugging], IDebugClient2 interface, GetKernelConnectionOptions method [Windows Debugging], IDebugClient3 interface, GetKernelConnectionOptions method [Windows Debugging], IDebugClient4 interface, GetKernelConnectionOptions method [Windows Debugging], IDebugClient5 interface, GetKernelConnectionOptions,IDebugClient4.GetKernelConnectionOptions, IDebugClient interface [Windows Debugging], GetKernelConnectionOptions method, IDebugClient2 interface [Windows Debugging], GetKernelConnectionOptions method, IDebugClient2::GetKernelConnectionOptions, IDebugClient3 interface [Windows Debugging], GetKernelConnectionOptions method, IDebugClient3::GetKernelConnectionOptions, IDebugClient4, IDebugClient4 interface [Windows Debugging], GetKernelConnectionOptions method, IDebugClient4::GetKernelConnectionOptions, IDebugClient5 interface [Windows Debugging], GetKernelConnectionOptions method, IDebugClient5::GetKernelConnectionOptions, IDebugClient::GetKernelConnectionOptions, IDebugClient_5a7fe06a-42e4-4bdd-935c-8130cdfef568.xml, dbgeng/IDebugClient2::GetKernelConnectionOptions, dbgeng/IDebugClient3::GetKernelConnectionOptions, dbgeng/IDebugClient4::GetKernelConnectionOptions, dbgeng/IDebugClient5::GetKernelConnectionOptions, dbgeng/IDebugClient::GetKernelConnectionOptions, debugger.getkernelconnectionoptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,8 @@ api_name:
 -	IDebugClient3.GetKernelConnectionOptions
 -	IDebugClient4.GetKernelConnectionOptions
 -	IDebugClient5.GetKernelConnectionOptions
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -54,18 +55,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetKernelConnectionOptions</b>  method returns the connection options for the current kernel target.
-
-
-## -syntax
-
-
-````
-HRESULT GetKernelConnectionOptions(
-  [out, optional] PSTR   Buffer,
-  [in]            ULONG  BufferSize,
-  [out, optional] PULONG OptionsSize
-);
-````
 
 
 ## -parameters
@@ -153,23 +142,6 @@ For more information about connecting to live kernel-mode targets, see <a href="
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
 
 
 
@@ -177,8 +149,24 @@ For more information about connecting to live kernel-mode targets, see <a href="
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549827">IDebugClient</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550481">IDebugClient2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550488">IDebugClient3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550494">IDebugClient4</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550497">IDebugClient5</a>
  
 
  
-
 

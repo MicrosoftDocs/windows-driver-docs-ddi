@@ -7,7 +7,7 @@ old-location: storage\msiscsi_sessionstatistics.htm
 old-project: storage
 ms.assetid: 04ceffce-cd5f-4e62-98cb-450e8552a811
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PMSiSCSI_SessionStatistics, MSiSCSI_SessionStatistics, MSiSCSI_SessionStatistics structure [Storage Devices], PMSiSCSI_SessionStatistics, PMSiSCSI_SessionStatistics structure pointer [Storage Devices], _MSiSCSI_SessionStatistics, iscsiprf/MSiSCSI_SessionStatistics, iscsiprf/PMSiSCSI_SessionStatistics, storage.msiscsi_sessionstatistics, structs-iSCSI_90b593e8-cda5-4b61-860b-b17394f90891.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	iscsiprf.h
 api_name:
 -	MSiSCSI_SessionStatistics
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MSiSCSI_SessionStatistics, *PMSiSCSI_SessionStatistics
 ---
@@ -50,25 +51,6 @@ req.typenames: MSiSCSI_SessionStatistics, *PMSiSCSI_SessionStatistics
 
 
 The MSiSCSI_SessionStatistics structure is used by iSCSI initiators to report session statistics. 
-
-
-## -syntax
-
-
-````
-typedef struct _MSiSCSI_SessionStatistics {
-  WCHAR     iSCSIName[223 + 1];
-  ULONGLONG USID;
-  ULONGLONG UniqueAdapterId;
-  ULONGLONG BytesSent;
-  ULONGLONG BytesReceived;
-  ULONGLONG PDUCommandsSent;
-  ULONGLONG PDUResponsesReceived;
-  ULONGLONG DigestErrors;
-  ULONGLONG ConnectionTimeoutErrors;
-  ULONGLONG FormatErrors;
-} MSiSCSI_SessionStatistics, *PMSiSCSI_SessionStatistics;
-````
 
 
 ## -struct-fields
@@ -88,7 +70,7 @@ The iSCSI session identifier (ID) for this connection instance. This ID is an in
 
 ### -field UniqueAdapterId
 
-A 64-bit integer that uniquely identifies an HBA initiator and a loaded instance of a storage miniport driver that manages the HBA. The initiator should use the address of the adapter extension or another address that the device driver owns to construct this ID. The initiator reports this value in the <i>UniqueAdapterId</i> member of the <a href="..\iscsimgt\ns-iscsimgt-_msiscsi_hbainformation.md">MSiSCSI_HBAInformation</a> structure.
+A 64-bit integer that uniquely identifies an HBA initiator and a loaded instance of a storage miniport driver that manages the HBA. The initiator should use the address of the adapter extension or another address that the device driver owns to construct this ID. The initiator reports this value in the <i>UniqueAdapterId</i> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563012">MSiSCSI_HBAInformation</a> structure.
 
 
 ### -field BytesSent
@@ -137,11 +119,6 @@ It is optional that you implement this class.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
-
-
-
-<a href="..\iscsimgt\ns-iscsimgt-_msiscsi_hbainformation.md">MSiSCSI_HBAInformation</a>
 
 
 
@@ -149,12 +126,16 @@ It is optional that you implement this class.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563012">MSiSCSI_HBAInformation</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563139">MSiSCSI_SessionStatistics WMI Class</a>
-
-
-
  
 
  
-
 

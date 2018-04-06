@@ -7,7 +7,7 @@ old-location: ifsk\access_denied_ace.htm
 old-project: ifsk
 ms.assetid: a7030210-2907-45c7-a689-5e41db7c81b0
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: "*PACCESS_DENIED_ACE, ACCESS_DENIED_ACE, ACCESS_DENIED_ACE structure [Installable File System Drivers], PACCESS_DENIED_ACE, PACCESS_DENIED_ACE structure pointer [Installable File System Drivers], _ACCESS_DENIED_ACE, ifsk.access_denied_ace, ntifs/ACCESS_DENIED_ACE, ntifs/PACCESS_DENIED_ACE, securitystructures_d2c690e3-53bc-4d57-b1b5-1a34ef612a7b.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntifs.h
 api_name:
 -	ACCESS_DENIED_ACE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: ACCESS_DENIED_ACE
 ---
@@ -49,19 +50,7 @@ req.typenames: ACCESS_DENIED_ACE
 ## -description
 
 
-The ACCESS_DENIED_ACE structure defines an access-control entry (<a href="https://msdn.microsoft.com/library/windows/hardware/ff538844">ACE</a>) for the discretionary access-control list (DACL) controlling access to an object. An access-denied ACE denies access to an object for a specific subject identified by a security identifier (<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>). 
-
-
-## -syntax
-
-
-````
-typedef struct _ACCESS_DENIED_ACE {
-  ACE_HEADER  Header;
-  ACCESS_MASK Mask;
-  ULONG       SidStart;
-} ACCESS_DENIED_ACE, *PACCESS_DENIED_ACE;
-````
+The ACCESS_DENIED_ACE structure defines an access-control entry (<a href="https://msdn.microsoft.com/library/windows/hardware/ff538844">ACE</a>) for the discretionary access-control list (DACL) controlling access to an object. An access-denied ACE denies access to an object for a specific subject identified by a security identifier (<a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a>). 
 
 
 ## -struct-fields
@@ -95,7 +84,10 @@ This structure must be aligned on a 32-bit boundary.
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_access_allowed_ace.md">ACCESS_ALLOWED_ACE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538796">ACCESS_ALLOWED_ACE</a>
 
 
 
@@ -103,32 +95,28 @@ This structure must be aligned on a 32-bit boundary.
 
 
 
-<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538844">ACE</a>
 
 
 
-<a href="..\ntifs\ns-ntifs-_system_alarm_ace.md">SYSTEM_ALARM_ACE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538847">ACE_HEADER</a>
 
 
 
-<a href="..\ntifs\ns-ntifs-_system_audit_ace.md">SYSTEM_AUDIT_ACE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538866">ACL</a>
 
 
 
-<a href="..\ntifs\ns-ntifs-_ace_header.md">ACE_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a>
 
 
 
-<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556769">SYSTEM_ALARM_ACE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556771">SYSTEM_AUDIT_ACE</a>
  
 
  
-
 

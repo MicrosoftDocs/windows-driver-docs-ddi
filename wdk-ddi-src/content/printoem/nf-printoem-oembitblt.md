@@ -38,7 +38,8 @@ api_location:
 -	printoem.h
 api_name:
 -	OEMBitBlt
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STDVARIABLEINDEX
 req.product: Windows 10 or later.
@@ -51,26 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <code>OEMBitBlt</code> function provides general bit-block transfer capabilities between <a href="https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3">device-managed surfaces</a>, between GDI-managed standard-format bitmaps, or between a device-managed surface and a GDI-managed standard-format bitmap.
-
-
-## -syntax
-
-
-````
-BOOL  APIENTRY OEMBitBlt(
-   SURFOBJ  *psoTrg,
-   SURFOBJ  *psoSrc,
-   SURFOBJ  *psoMask,
-   CLIPOBJ  *pco,
-   XLATEOBJ *pxlo,
-   RECTL    *prclTrg,
-   POINTL   *pptlSrc,
-   POINTL   *pptlMask,
-   BRUSHOBJ *pbo,
-   POINTL   *pptlBrush,
-   ROP4     rop4
-);
-````
 
 
 ## -parameters

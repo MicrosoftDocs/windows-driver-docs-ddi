@@ -7,7 +7,7 @@ old-location: debugger\readtagged.htm
 old-project: debugger
 ms.assetid: d7ca67d2-7156-44f7-ab16-178e6307e412
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: IDebugDataSpaces3, IDebugDataSpaces3 interface [Windows Debugging], ReadTagged method, IDebugDataSpaces3::ReadTagged, IDebugDataSpaces4 interface [Windows Debugging], ReadTagged method, IDebugDataSpaces4::ReadTagged, IDebugDataSpaces_cdf64ddf-da14-4607-8df2-1d4703a2eebf.xml, ReadTagged method [Windows Debugging], ReadTagged method [Windows Debugging], IDebugDataSpaces3 interface, ReadTagged method [Windows Debugging], IDebugDataSpaces4 interface, ReadTagged,IDebugDataSpaces3.ReadTagged, dbgeng/IDebugDataSpaces3::ReadTagged, dbgeng/IDebugDataSpaces4::ReadTagged, debugger.readtagged
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	IDebugDataSpaces3.ReadTagged
 -	IDebugDataSpaces4.ReadTagged
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -51,20 +52,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>ReadTagged</b> method reads the tagged data that might be associated with a debugger session.
-
-
-## -syntax
-
-
-````
-HRESULT ReadTagged(
-  [in]            LPGUID Tag,
-  [in]            ULONG  Offset,
-  [out, optional] PVOID  Buffer,
-  [in]            ULONG  BufferSize,
-  [out, optional] PULONG TotalSize
-);
-````
 
 
 ## -parameters
@@ -149,20 +136,19 @@ LPGUID is a pointer to a 128-bit unique identifier.  It is defined in the Micros
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547874">GetNextTagged</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces4.md">IDebugDataSpaces4</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550537">IDebugDataSpaces3</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces3.md">IDebugDataSpaces3</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550546">IDebugDataSpaces4</a>
  
 
  
-
 

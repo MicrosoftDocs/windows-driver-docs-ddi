@@ -2,7 +2,7 @@
 UID: NA:usbiodef
 ms.assetid: 0ee5b2ad-8bbd-33b9-a85c-a5b46329f478
 ms.author: windowsdriverdev
-ms.date: 03/13/18
+ms.date: 04/05/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -13,7 +13,6 @@ ms.topic: portal
 
 
 
-This header is used by unknown technology.
+This header is used by usbref. For more information, see:
 
-Usbiodef.h contain these programming interfaces:
-
+- [Universal Serial Bus (USB)](../_usbref/index.md)

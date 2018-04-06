@@ -38,7 +38,8 @@ api_location:
 -	wdfcompanion.h
 api_name:
 -	EVT_WDF_COMPANION_POST_RELEASE_HARDWARE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_COMMON_BUFFER_CONFIG, *PWDF_COMMON_BUFFER_CONFIG
 req.product: Windows 10 or later.
@@ -52,20 +53,6 @@ req.product: Windows 10 or later.
 
 
 			For internal use only.
-
-
-## -prototype
-
-
-````
-EVT_WDF_COMPANION_POST_RELEASE_HARDWARE EVT_WDF_COMPANION_POST_RELEASE_HARDWARE;
-
-NTSTATUS EVT_WDF_COMPANION_POST_RELEASE_HARDWARE(
-  _In_ WDFCOMPANION Companion,
-  _In_ WDFCMRESLIST ResourcesTranslated
-)
-{ ... }
-````
 
 
 ## -parameters

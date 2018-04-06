@@ -38,7 +38,8 @@ api_location:
 -	Bdatypes.h
 api_name:
 -	BDA_GDDS_DATATYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BDA_GDDS_DATATYPE, *P_BDA_GDDS_DATATYPE
 ---
@@ -50,17 +51,6 @@ req.typenames: BDA_GDDS_DATATYPE, *P_BDA_GDDS_DATATYPE
 
 
 
-
-
-## -syntax
-
-
-````
-typedef struct _BDA_GDDS_DATATYPE {
-  PBDARESULT lResult;
-  GUID       uuidDataType;
-} BDA_GDDS_DATATYPE, *P_BDA_GDDS_DATATYPE;
-````
 
 
 ## -struct-fields

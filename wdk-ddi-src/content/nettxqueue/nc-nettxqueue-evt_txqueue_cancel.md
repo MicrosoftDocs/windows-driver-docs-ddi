@@ -72,7 +72,7 @@ typedef EVT_TXQUEUE_CANCEL *PFN_TXQUEUE_CANCEL;
 
 ## -parameters
 
-### -param TxQueue: 
+### -param TxQueue 
 A handle to a net transmit queue.
 
 ## -returns

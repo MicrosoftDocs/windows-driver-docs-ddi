@@ -7,7 +7,7 @@ old-location: netvista\rilmessageinfo.htm
 old-project: netvista
 ms.assetid: 689b4abc-13ee-4d4a-8b2e-bb0be7cc6672
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*LPRILMESSAGEINFO, RILMESSAGEINFO, RILMESSAGEINFO structure [Network Drivers Starting with Windows Vista], netvista.rilmessageinfo, ntddrilapitypes/RILMESSAGEINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILMESSAGEINFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILMESSAGEINFO, *LPRILMESSAGEINFO
 req.product: Windows 10 or later.
@@ -51,21 +52,6 @@ req.product: Windows 10 or later.
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef struct _RILMESSAGEINFO {
-  DWORD             cbSize;
-  HUICCAPP          hUiccApp;
-  DWORD             dwParams;
-  DWORD             dwIndex;
-  RILMESSAGESTATUS  dwStatus;
-  RILMESSAGE        rmMessage;
-} RILMESSAGEINFO, RILMESSAGEINFO;
-````
 
 
 ## -struct-fields

@@ -38,7 +38,8 @@ api_location:
 -	1394.h
 api_name:
 -	IRB_REQ_SEND_PHY_CONFIGURATION_PACKET
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: IRB_REQ_SEND_PHY_CONFIGURATION_PACKET
 ---
@@ -50,16 +51,6 @@ req.typenames: IRB_REQ_SEND_PHY_CONFIGURATION_PACKET
 
 
 This structure contains the fields necessary to carry out a SendPhyConfigurationPacket request.
-
-
-## -syntax
-
-
-````
-typedef struct _IRB_REQ_SEND_PHY_CONFIGURATION_PACKET {
-  PHY_CONFIGURATION_PACKET PhyConfigurationPacket;
-} IRB_REQ_SEND_PHY_CONFIGURATION_PACKET;
-````
 
 
 ## -struct-fields

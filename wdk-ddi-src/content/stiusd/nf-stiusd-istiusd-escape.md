@@ -38,7 +38,8 @@ api_location:
 -	stiusd.h
 api_name:
 -	IStiUSD.Escape
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STI_WIA_DEVICE_INFORMATIONW, *PSTI_WIA_DEVICE_INFORMATIONW
 req.product: Windows 10 or later.
@@ -51,21 +52,6 @@ req.product: Windows 10 or later.
 
 
 A still image minidriver's <b>IStiUSD::Escape</b> method performs a vendor-specific I/O operation on a still image device.
-
-
-## -syntax
-
-
-````
-HRESULT Escape(
-   STI_RAW_CONTROL_CODE EscapeFunction,
-   LPVOID               lpInData,
-   DWORD                cbInDataSize,
-   LPVOID               pOutData,
-   DWORD                dwOutDataSize,
-   LPDWORD              pdwActualData
-);
-````
 
 
 ## -parameters
@@ -128,16 +114,15 @@ A still image minidriver only needs to implement <b>IStiUSD::Escape</b> if I/O o
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543740">IStiDevice::Escape</a>
 
 
 
 <a href="https://msdn.microsoft.com/62740263-5bbb-48e1-be3d-9ee9cb37d6b9">IStiUSD</a>
-
-
-
  
 
  
-
 

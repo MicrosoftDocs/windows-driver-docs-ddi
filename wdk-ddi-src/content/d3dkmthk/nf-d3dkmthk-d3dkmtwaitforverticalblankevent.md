@@ -7,7 +7,7 @@ old-location: display\d3dkmtwaitforverticalblankevent.htm
 old-project: display
 ms.assetid: aa40633e-1881-4bf4-a57b-f7ee3ce23438
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMTWaitForVerticalBlankEvent, D3DKMTWaitForVerticalBlankEvent function [Display Devices], OpenGL_Functions_9e2c6684-7429-43d7-b43a-0f11aea6807f.xml, d3dkmthk/D3DKMTWaitForVerticalBlankEvent, display.d3dkmtwaitforverticalblankevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,8 @@ api_location:
 -	API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
 -	D3DKMTWaitForVerticalBlankEvent
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_DRIVERVERSION
 ---
@@ -53,16 +54,6 @@ req.typenames: D3DKMT_DRIVERVERSION
 
 
 The <b>D3DKMTWaitForVerticalBlankEvent</b> function waits for the vertical blanking interval to occur and then returns.
-
-
-## -syntax
-
-
-````
-NTSTATUS APIENTRY D3DKMTWaitForVerticalBlankEvent(
-  _In_ const D3DKMT_WAITFORVERTICALBLANKEVENT *pData
-);
-````
 
 
 ## -parameters
@@ -79,7 +70,7 @@ TBD
 
 #### - pData [in]
 
-A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_waitforverticalblankevent.md">D3DKMT_WAITFORVERTICALBLANKEVENT</a> structure that describes parameters for waiting for the vertical blank to occur.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548441">D3DKMT_WAITFORVERTICALBLANKEVENT</a> structure that describes parameters for waiting for the vertical blank to occur.
 
 
 ## -returns
@@ -136,12 +127,11 @@ This function might also return other NTSTATUS values.
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_waitforverticalblankevent.md">D3DKMT_WAITFORVERTICALBLANKEVENT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548441">D3DKMT_WAITFORVERTICALBLANKEVENT</a>
  
 
  
-
 

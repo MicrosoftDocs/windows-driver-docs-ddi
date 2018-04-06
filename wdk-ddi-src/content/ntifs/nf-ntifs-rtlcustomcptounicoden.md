@@ -7,7 +7,7 @@ old-location: ifsk\rtlcustomcptounicoden.htm
 old-project: ifsk
 ms.assetid: 8f29aca1-9d38-4c28-976f-64549767b303
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: RtlCustomCPToUnicodeN, RtlCustomCPToUnicodeN function [Installable File System Drivers], ifsk.rtlcustomcptounicoden, ntifs/RtlCustomCPToUnicodeN, rtlref_9b39575d-4ba4-49fa-9281-2858d3e2631d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntifs.h
 api_name:
 -	RtlCustomCPToUnicodeN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -49,17 +50,7 @@ req.typenames: TOKEN_TYPE
 ## -description
 
 
-The <b>RtlCustomCPToUnicodeN</b> routine is reserved for system use. See <a href="..\ntifs\nf-ntifs-rtlmultibytetounicoden.md">RtlMultiByteToUnicodeN</a> and <a href="..\ntifs\nf-ntifs-rtloemtounicoden.md">RtlOemToUnicodeN</a>. 
-
-
-## -syntax
-
-
-````
-  RtlCustomCPToUnicodeN(
-    
-);
-````
+The <b>RtlCustomCPToUnicodeN</b> routine is reserved for system use. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff553113">RtlMultiByteToUnicodeN</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff553157">RtlOemToUnicodeN</a>. 
 
 
 ## -parameters

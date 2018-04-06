@@ -38,7 +38,8 @@ api_location:
 -	windot11.h
 api_name:
 -	DOT11_ENCAP_ENTRY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT11_ENCAP_ENTRY, *PDOT11_ENCAP_ENTRY
 req.product: Windows 10 or later.

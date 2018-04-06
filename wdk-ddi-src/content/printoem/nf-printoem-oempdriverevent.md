@@ -38,7 +38,8 @@ api_location:
 -	printoem.h
 api_name:
 -	OEMPDriverEvent
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STDVARIABLEINDEX
 req.product: Windows 10 or later.
@@ -50,19 +51,6 @@ req.product: Windows 10 or later.
 ## -description
 
 
-
-
-## -syntax
-
-
-````
-BOOL APIENTRY OEMPDriverEvent(
-   DWORD  dwDriverEvent,
-   DWORD  dwLevel,
-   LPBYTE pDriverInfo,
-   LPARAM lParam
-);
-````
 
 
 ## -parameters

@@ -7,7 +7,7 @@ old-location: debugger\freestacksymframes.htm
 old-project: debugger
 ms.assetid: E66742D4-A972-4096-8DDC-E8F42E8B8D25
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: FreeStackSymFrames, FreeStackSymFrames callback function [Windows Debugging], PDEBUG_STACK_PROVIDER_FREESTACKSYMFRAMES, dbgeng/FreeStackSymFrames, debugger.freestacksymframes
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Dbgeng.h
 api_name:
 -	FreeStackSymFrames
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -60,14 +61,6 @@ The <i>FreeStackSymFrames</i> callback function frees memory from a stack provid
 </td>
 </tr>
 </table></span></div>
-
-## -prototype
-
-
-````
- CALLBACK* PDEBUG_STACK_PROVIDER_FREESTACKSYMFRAMES FreeStackSymFrames;
-````
-
 
 ## -parameters
 
@@ -101,12 +94,11 @@ After <i>FreeStackSymFrames</i> is called, the debugger calls the stack provider
 
 ## -see-also
 
-<a href="..\dbgeng\nc-dbgeng-pdebug_stack_provider_endthreadstackreconstruction.md">EndThreadStackReconstruction</a>
 
 
 
+<a href="https://msdn.microsoft.com/76984F28-7AC9-44FD-9D8B-CC184484C73E">EndThreadStackReconstruction</a>
  
 
  
-
 

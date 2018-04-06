@@ -7,7 +7,7 @@ old-location: display\dxva_mbctrl_p_hostresiddiff_1.htm
 old-project: display
 ms.assetid: be67b423-32a1-4f30-9f2c-fa6347cc960f
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*LPDXVA_MBctrl_P_HostResidDiff_1, DXVA_MBctrl_P_HostResidDiff_1, DXVA_MBctrl_P_HostResidDiff_1 structure [Display Devices], _DXVA_MBctrl_P_HostResidDiff_1, display.dxva_mbctrl_p_hostresiddiff_1, dxva/DXVA_MBctrl_P_HostResidDiff_1, dxvaref_a97c973f-9673-4049-badd-648b1d0cc39c.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	dxva.h
 api_name:
 -	DXVA_MBctrl_P_HostResidDiff_1
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXVA_MBctrl_P_HostResidDiff_1
 ---
@@ -50,22 +51,6 @@ req.typenames: DXVA_MBctrl_P_HostResidDiff_1
 
 
 The DXVA_MBctrl_P_HostResidDiff_1 structure is sent once per macroblock by the host decoder to the accelerator to specify macroblock control commands for most nonintra picture cases when using <a href="https://msdn.microsoft.com/3be5c842-d1b6-4c34-8990-e23e2d08dd23">host-based IDCT</a>.
-
-
-## -syntax
-
-
-````
-typedef struct _DXVA_MBctrl_P_HostResidDiff_1 {
-  WORD         wMBaddress;
-  WORD         wMBtype;
-  DWORD        dwMB_SNL;
-  WORD         wPatternCode;
-  WORD         wPC_Overflow;
-  DWORD        dwReservedBits2;
-  DXVA_MVvalue MVector[DXVA_NumMV_OBMC_off_BinPBwith4MV_off];
-} DXVA_MBctrl_P_HostResidDiff_1;
-````
 
 
 ## -struct-fields
@@ -159,7 +144,7 @@ This variable has no meaning and these bits should be set to zero in this struct
 
 Indicates whether the residual difference blocks use a field IDCT structure as specified in MPEG-2.
 
-Must be 1 if the <b>bPicStructure</b> member of <a href="..\dxva\ns-dxva-_dxva_pictureparameters.md">DXVA_PictureParameters</a> is 1 or 2. When used for MPEG-2, <i>FieldResidual</i> must be zero if the <i>frame_pred_frame_DCT</i> variable in the MPEG-2 syntax is 1, and must be equal to the <i>dct_type </i>variable in the MPEG-2 syntax if <i>dct_type</i> is present for the macroblock.
+Must be 1 if the <b>bPicStructure</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff564012">DXVA_PictureParameters</a> is 1 or 2. When used for MPEG-2, <i>FieldResidual</i> must be zero if the <i>frame_pred_frame_DCT</i> variable in the MPEG-2 syntax is 1, and must be equal to the <i>dct_type </i>variable in the MPEG-2 syntax if <i>dct_type</i> is present for the macroblock.
 
 </td>
 </tr>
@@ -183,7 +168,7 @@ Specifies whether the H.261 loop filter (Section 3.2.3 of H.261) is active for t
 <td>
 <i>Motion4MV</i>
 
-A variable indicating that forward motion uses a distinct motion vector for each of the four luminance blocks in the macroblock, as used in H.263 Annexes F and J. <i>Motion4MV</i> must be zero if <i>MotionForward</i> is zero or if the <b>bPic4MVallowed</b> member of <a href="..\dxva\ns-dxva-_dxva_pictureparameters.md">DXVA_PictureParameters</a> is zero.
+A variable indicating that forward motion uses a distinct motion vector for each of the four luminance blocks in the macroblock, as used in H.263 Annexes F and J. <i>Motion4MV</i> must be zero if <i>MotionForward</i> is zero or if the <b>bPic4MVallowed</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff564012">DXVA_PictureParameters</a> is zero.
 
 </td>
 </tr>
@@ -245,7 +230,7 @@ If the <b>bConfigSpatialResidInterleaved </b>member of DXVA_ConfigPictureDecode 
 
 Specifies which blocks of the macroblock use overflow residual difference data.
 
-When using host-based residual difference decoding with the <b>bPicOverflowBlocks</b> member of <a href="..\dxva\ns-dxva-_dxva_pictureparameters.md">DXVA_PictureParameters</a> equal to 1 and IntraMacroblock equal to zero (the 8-8 overflow method), <b>wPC_Overflow</b> contains the pattern code of the overflow blocks. (The pattern code is specified in the same manner as for <b>wPatternCode</b>.) The data for the coded overflow blocks (those blocks having bit (11-i) equal to 1) is found in the residual coding buffer in the same indexing order (increasing i).
+When using host-based residual difference decoding with the <b>bPicOverflowBlocks</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff564012">DXVA_PictureParameters</a> equal to 1 and IntraMacroblock equal to zero (the 8-8 overflow method), <b>wPC_Overflow</b> contains the pattern code of the overflow blocks. (The pattern code is specified in the same manner as for <b>wPatternCode</b>.) The data for the coded overflow blocks (those blocks having bit (11-i) equal to 1) is found in the residual coding buffer in the same indexing order (increasing i).
 
  
 
@@ -257,7 +242,7 @@ Reserved bits used for packing and alignment. Must be zero.
 
 ### -field MVector
 
-An array containing the value of the motion vector(s) for the macroblock, each motion vector is represented by a <a href="..\dxva\ns-dxva-_dxva_mvvalue.md">DXVA_MVvalue</a> structure.
+An array containing the value of the motion vector(s) for the macroblock, each motion vector is represented by a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564004">DXVA_MVvalue</a> structure.
 
 
 ## -remarks
@@ -279,24 +264,23 @@ Valid combinations of <i>IntraMacroblock</i>, <i>MotionForward</i>, <i>MotionBac
 
 ## -see-also
 
-<a href="..\dxva\ns-dxva-_dxva_pictureparameters.md">DXVA_PictureParameters</a>
 
 
 
-<a href="..\dxva\ns-dxva-_dxva_configpicturedecode.md">DXVA_ConfigPictureDecode</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563133">DXVA_ConfigPictureDecode</a>
 
 
 
-<a href="..\dxva\ns-dxva-_dxva_mbctrl_p_offhostidct_1.md">DXVA_MBctrl_P_OffHostIDCT_1</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563997">DXVA_MBctrl_P_OffHostIDCT_1</a>
 
 
 
-<a href="..\dxva\ns-dxva-_dxva_mvvalue.md">DXVA_MVvalue</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564004">DXVA_MVvalue</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564012">DXVA_PictureParameters</a>
  
 
  
-
 

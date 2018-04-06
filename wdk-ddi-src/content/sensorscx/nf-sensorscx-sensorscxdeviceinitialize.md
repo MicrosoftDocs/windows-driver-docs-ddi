@@ -38,7 +38,8 @@ api_location:
 -	SensorsCx.h
 api_name:
 -	SensorsCxDeviceInitialize
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SensorConnectionType
 req.product: Windows 10 or later.
@@ -53,17 +54,6 @@ req.product: Windows 10 or later.
 This function initializes the sensor in the class extension.
 
 
-## -syntax
-
-
-````
-FORCEINLINE NTSTATUS SensorsCxDeviceInitialize(
-  _In_ WDFDEVICE                 FxDevice,
-  _In_ PSENSOR_CONTROLLER_CONFIG pSensorConfig
-);
-````
-
-
 ## -parameters
 
 
@@ -76,7 +66,7 @@ A WDFDEVICE handle to the framework device object that represents the sensor.
 
 ### -param pSensorConfig [in]
 
-A list of functions that the driver implements. For more information, see <a href="..\sensorscx\ns-sensorscx-_sensor_controller_config.md">SENSOR_CONTROLLER_CONFIG</a>.
+A list of functions that the driver implements. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/dn957098">SENSOR_CONTROLLER_CONFIG</a>.
 
 
 ## -returns
@@ -90,12 +80,11 @@ This function returns STATUS_SUCCESS when completed successfully. When an invali
 
 ## -see-also
 
-<a href="..\sensorscx\ns-sensorscx-_sensor_controller_config.md">SENSOR_CONTROLLER_CONFIG</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn957098">SENSOR_CONTROLLER_CONFIG</a>
  
 
  
-
 

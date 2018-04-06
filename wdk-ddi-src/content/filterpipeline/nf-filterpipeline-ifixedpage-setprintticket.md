@@ -38,7 +38,8 @@ api_location:
 -	filterpipeline.h
 api_name:
 -	IFixedPage.SetPrintTicket
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
@@ -50,16 +51,6 @@ req.typenames: EXpsFontRestriction
 
 
 The <b>SetPrintTicket</b> method associates a print ticket with the page.
-
-
-## -syntax
-
-
-````
-HRESULT SetPrintTicket(
-  [in] IPartPrintTicket *pPrintTicket
-);
-````
 
 
 ## -parameters

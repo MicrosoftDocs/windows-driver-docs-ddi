@@ -7,7 +7,7 @@ old-location: kernel\dma_adapter_info_v1.htm
 old-project: kernel
 ms.assetid: 5BB089B8-4384-450D-BC81-9D9D068CF4EB
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*PDMA_ADAPTER_INFO_V1, DMA_ADAPTER_INFO_V1, DMA_ADAPTER_INFO_V1 structure [Kernel-Mode Driver Architecture], PDMA_ADAPTER_INFO_V1, PDMA_ADAPTER_INFO_V1 structure pointer [Kernel-Mode Driver Architecture], _DMA_ADAPTER_INFO_V1, kernel.dma_adapter_info_v1, wdm/DMA_ADAPTER_INFO_V1, wdm/PDMA_ADAPTER_INFO_V1"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	DMA_ADAPTER_INFO_V1
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DMA_ADAPTER_INFO_V1, *PDMA_ADAPTER_INFO_V1
 req.product: Windows 10 or later.
@@ -54,20 +55,6 @@ req.product: Windows 10 or later.
 The <b>DMA_ADAPTER_INFO_V1</b> structure describes the capabilities of the system DMA controller that is represented by an adapter object.
 
 
-
-
-## -syntax
-
-
-````
-typedef struct _DMA_ADAPTER_INFO_V1 {
-  ULONG ReadDmaCounterAvailable;
-  ULONG ScatterGatherLimit;
-  ULONG DmaAddressWidth;
-  ULONG Flags;
-  ULONG MinimumTransferUnit;
-} DMA_ADAPTER_INFO_V1, *PDMA_ADAPTER_INFO_V1;
-````
 
 
 ## -struct-fields
@@ -104,25 +91,24 @@ The size, in bytes, of the minimum transfer unit. The number of bytes specified 
 
 
 
-The <b>V1</b> member of the <a href="..\wdm\ns-wdm-_dma_adapter_info.md">DMA_ADAPTER_INFO</a> structure is a structure of type <b>DMA_ADAPTER_INFO_V1</b>.
+The <b>V1</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh450993">DMA_ADAPTER_INFO</a> structure is a structure of type <b>DMA_ADAPTER_INFO_V1</b>.
 
-A driver calls <a href="..\wdm\nc-wdm-pget_dma_adapter_info.md">GetDmaAdapterInfo</a> to obtain information about the hardware capabilities of a system DMA channel. <b>GetDmaAdapterInfo</b> writes this information into the <b>V1</b> member of a caller-supplied <b>DMA_ADAPTER_INFO</b> structure.
+A driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/hh451121">GetDmaAdapterInfo</a> to obtain information about the hardware capabilities of a system DMA channel. <b>GetDmaAdapterInfo</b> writes this information into the <b>V1</b> member of a caller-supplied <b>DMA_ADAPTER_INFO</b> structure.
 
 
 
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-pget_dma_adapter_info.md">GetDmaAdapterInfo</a>
 
 
 
-<a href="..\wdm\ns-wdm-_dma_adapter_info.md">DMA_ADAPTER_INFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450993">DMA_ADAPTER_INFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451121">GetDmaAdapterInfo</a>
  
 
  
-
 

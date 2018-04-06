@@ -7,7 +7,7 @@ old-location: kernel\controller_object.htm
 old-project: kernel
 ms.assetid: a5530901-e48c-4f4e-86a8-00d5ed01f933
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: "*PCONTROLLER_OBJECT, CONTROLLER_OBJECT, CONTROLLER_OBJECT structure [Kernel-Mode Driver Architecture], PCONTROLLER_OBJECT, PCONTROLLER_OBJECT structure pointer [Kernel-Mode Driver Architecture], _CONTROLLER_OBJECT, kernel.controller_object, kstruct_a_391d0fc2-3a61-4b2b-b571-143d2af7ef9b.xml, ntddk/CONTROLLER_OBJECT, ntddk/PCONTROLLER_OBJECT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ntddk.h
 api_name:
 -	CONTROLLER_OBJECT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CONTROLLER_OBJECT, *PCONTROLLER_OBJECT
 ---
@@ -52,16 +53,6 @@ req.typenames: CONTROLLER_OBJECT, *PCONTROLLER_OBJECT
 A controller object represents a hardware adapter or controller with homogenous devices that are the actual targets for I/O requests. A controller object can be used to synchronize a device driver's I/O to the target devices through its hardware adapter/controller. 
 
 A controller object is partially opaque. Driver writers must know about a certain field associated with the controller object because their drivers access this field through the controller object pointer returned by <b>IoCreateController</b>. The following field in a controller object is accessible to the creating driver. 
-
-
-## -syntax
-
-
-````
-typedef struct _CONTROLLER_OBJECT {
-  PVOID ControllerExtension;
-} CONTROLLER_OBJECT, *PCONTROLLER_OBJECT;
-````
 
 
 ## -struct-fields
@@ -116,12 +107,11 @@ Undocumented fields within a controller object should be considered inaccessible
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-iocreatecontroller.md">IoCreateController</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548395">IoCreateController</a>
  
 
  
-
 

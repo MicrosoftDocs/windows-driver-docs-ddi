@@ -38,7 +38,8 @@ api_location:
 -	wiautil.h
 api_name:
 -	SKIP_AMOUNT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SKIP_AMOUNT
 req.product: Windows 10 or later.
@@ -51,18 +52,6 @@ req.product: Windows 10 or later.
 
 
 The SKIP_AMOUNT enumeration is used to indicate whether the file and informational headers of an image should be skipped over.
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  SKIP_OFF      = 0,
-  SKIP_FILEHDR  = 1,
-  SKIP_BOTHHDR  = 2
-} SKIP_AMOUNT;
-````
 
 
 ## -enum-fields
@@ -87,12 +76,11 @@ Skip over both the file and info headers.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540369">CWiauFormatConverter::ConvertToBmp</a>
-
-
-
  
 
  
-
 

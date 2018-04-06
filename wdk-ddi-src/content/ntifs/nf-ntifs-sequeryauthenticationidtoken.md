@@ -7,7 +7,7 @@ old-location: ifsk\sequeryauthenticationidtoken.htm
 old-project: ifsk
 ms.assetid: 4679415f-63d2-48b5-a6d4-edc54e8b3b0c
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: SeQueryAuthenticationIdToken, SeQueryAuthenticationIdToken routine [Installable File System Drivers], ifsk.sequeryauthenticationidtoken, ntifs/SeQueryAuthenticationIdToken, seref_cc55425d-99c0-4fbe-a7ce-06d75ae74586.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	SeQueryAuthenticationIdToken
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -50,17 +51,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>SeQueryAuthenticationIdToken</b> routine retrieves the authentication ID of an access token.
-
-
-## -syntax
-
-
-````
-NTSTATUS SeQueryAuthenticationIdToken(
-  _In_  PACCESS_TOKEN Token,
-  _Out_ PLUID         AuthenticationId
-);
-````
 
 
 ## -parameters
@@ -75,7 +65,7 @@ Pointer to an access token.
 
 ### -param AuthenticationId [out]
 
-Authentication ID of the access token. (An Authentication ID is the locally unique identifier, or <a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>, that is assigned to the logon session that the access token represents. There can be many tokens representing a single logon session.) 
+Authentication ID of the access token. (An Authentication ID is the locally unique identifier, or <a href="https://msdn.microsoft.com/library/windows/hardware/ff557080">LUID</a>, that is assigned to the logon session that the access token represents. There can be many tokens representing a single logon session.) 
 
 
 ## -returns
@@ -115,36 +105,35 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-psdereferenceprimarytoken.md">PsDereferencePrimaryToken</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-setokenisadmin.md">SeTokenIsAdmin</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557080">LUID</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-setokenisrestricted.md">SeTokenIsRestricted</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551893">PsDereferenceImpersonationToken</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-sequerysubjectcontexttoken.md">SeQuerySubjectContextToken</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551896">PsDereferencePrimaryToken</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-psdereferenceimpersonationtoken.md">PsDereferenceImpersonationToken</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556690">SeQueryInformationToken</a>
 
 
 
-<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556698">SeQuerySubjectContextToken</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-sequeryinformationtoken.md">SeQueryInformationToken</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556720">SeTokenIsAdmin</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556724">SeTokenIsRestricted</a>
  
 
  
-
 

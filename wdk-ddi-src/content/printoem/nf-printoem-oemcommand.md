@@ -38,7 +38,8 @@ api_location:
 -	printoem.h
 api_name:
 -	OEMCommand
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STDVARIABLEINDEX
 req.product: Windows 10 or later.
@@ -50,19 +51,6 @@ req.product: Windows 10 or later.
 ## -description
 
 
-
-
-## -syntax
-
-
-````
-DWORD APIENTRY OEMCommand(
-       PDEVOBJ                         pdevobj,
-       DWORD                           dwIndex,
-  _In_ _reads_bytes_opt_(cbSize) PVOID pData,
-       DWORD                           cbSize
-);
-````
 
 
 ## -parameters

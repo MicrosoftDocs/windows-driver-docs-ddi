@@ -7,7 +7,7 @@ old-location: display\dxgk_querygpummucapsin.htm
 old-project: display
 ms.assetid: 8DFD307F-DD4E-4321-AD97-78A5D67687B0
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGK_QUERYGPUMMUCAPSIN, DXGK_QUERYGPUMMUCAPSIN structure [Display Devices], _DXGK_QUERYGPUMMUCAPSIN, d3dkmddi/DXGK_QUERYGPUMMUCAPSIN, display.dxgk_querygpummucapsin
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGK_QUERYGPUMMUCAPSIN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_QUERYGPUMMUCAPSIN
 ---
@@ -50,16 +51,6 @@ req.typenames: DXGK_QUERYGPUMMUCAPSIN
 
 
 The <b>DXGK_QUERYGPUMMUCAPSIN</b> structure holds the index of the adapter being queried.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGK_QUERYGPUMMUCAPSIN {
-  UINT PhysicalAdapterIndex;
-} DXGK_QUERYGPUMMUCAPSIN;
-````
 
 
 ## -struct-fields
@@ -76,7 +67,7 @@ A zero-based physical adapter index (engine ordinal) for which the data is queri
 
 
 
-To get GpuMmu caps Dxgkrnl calls <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryadapterinfo.md">DxgkDdiQueryAdapterInfo</a> with the following parameters:
+To get GpuMmu caps Dxgkrnl calls <a href="https://msdn.microsoft.com/f2f4c54c-7413-48e5-a165-d71f35642b6c">DxgkDdiQueryAdapterInfo</a> with the following parameters:
 
 <pre class="syntax" xml:space="preserve"><code>DXGKARG_QUERYADAPTERINFO::Type = DXGKQAITYPE_GPUMMUCAPS;
 DXGKARG_QUERYADAPTERINFO::pInputData = buffer of DXGK_QUERYGPUMMUCAPSIN type

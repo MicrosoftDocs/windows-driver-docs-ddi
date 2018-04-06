@@ -7,7 +7,7 @@ old-location: storage\msfc_fc4statistics.htm
 old-project: storage
 ms.assetid: a46a9aff-9bc9-4328-85b2-90f8f80b2e65
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PMSFC_FC4STATISTICS, MSFC_FC4STATISTICS, MSFC_FC4STATISTICS structure [Storage Devices], PMSFC_FC4STATISTICS, PMSFC_FC4STATISTICS structure pointer [Storage Devices], _MSFC_FC4STATISTICS, hbapiwmi/MSFC_FC4STATISTICS, hbapiwmi/PMSFC_FC4STATISTICS, storage.msfc_fc4statistics, structs-Fibre_aad92cde-3922-49dd-8473-fefff79e5e2b.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	hbapiwmi.h
 api_name:
 -	MSFC_FC4STATISTICS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MSFC_FC4STATISTICS, *PMSFC_FC4STATISTICS
 ---
@@ -50,20 +51,6 @@ req.typenames: MSFC_FC4STATISTICS, *PMSFC_FC4STATISTICS
 
 
 The MSFC_FC4STATISTICS structure is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553949">GetFC4Statistics</a> WMI method to report traffic statistics on a port of type Nx_Port for the indicated FC-4 protocol.
-
-
-## -syntax
-
-
-````
-typedef struct _MSFC_FC4STATISTICS {
-  ULONGLONG InputRequests;
-  ULONGLONG OutputRequests;
-  ULONGLONG ControlRequests;
-  ULONGLONG InputMegabytes;
-  ULONGLONG OutputMegabytes;
-} MSFC_FC4STATISTICS, *PMSFC_FC4STATISTICS;
-````
 
 
 ## -struct-fields
@@ -109,20 +96,19 @@ If an HBA does not support a specific statistic, it shall return the value of -1
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553949">GetFC4Statistics</a>
 
 
 
-<a href="..\hbapiwmi\ns-hbapiwmi-_getfc4statistics_in.md">GetFC4Statistics_IN</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553958">GetFC4Statistics_IN</a>
 
 
 
-<a href="..\hbapiwmi\ns-hbapiwmi-_getfc4statistics_out.md">GetFC4Statistics_OUT</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553960">GetFC4Statistics_OUT</a>
  
 
  
-
 

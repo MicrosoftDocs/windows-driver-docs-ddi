@@ -38,7 +38,8 @@ api_location:
 -	wlantypes.h
 api_name:
 -	DOT11_CIPHER_ALGORITHM
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT11_CIPHER_ALGORITHM, *PDOT11_CIPHER_ALGORITHM, DOT11_CIPHER_ALGORITHM, *PDOT11_CIPHER_ALGORITHM
 req.product: Windows 10 or later.

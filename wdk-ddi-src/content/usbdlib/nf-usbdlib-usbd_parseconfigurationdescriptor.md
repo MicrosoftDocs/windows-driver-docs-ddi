@@ -7,7 +7,7 @@ old-location: buses\usbd_parseconfigurationdescriptor.htm
 old-project: usbref
 ms.assetid: a82816d8-2516-4bba-a5aa-0154cd079d5b
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: USBD_ParseConfigurationDescriptor, USBD_ParseConfigurationDescriptor routine [Buses], buses.usbd_parseconfigurationdescriptor, usbdlib/USBD_ParseConfigurationDescriptor, usbfunc_e0bfa26f-42a8-47a2-bf0e-5f8c97c5e9eb.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Usbd.dll
 api_name:
 -	USBD_ParseConfigurationDescriptor
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USBCAMD_DEVICE_DATA2, *PUSBCAMD_DEVICE_DATA2
 req.product: Windows 10 or later.
@@ -51,19 +52,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The  <b>USBD_ParseConfigurationDescriptor</b> routine has been deprecated. Use <a href="..\usbdlib\nf-usbdlib-usbd_parseconfigurationdescriptorex.md">USBD_ParseConfigurationDescriptorEx</a> instead.
-
-
-## -syntax
-
-
-````
-PUSB_INTERFACE_DESCRIPTOR USBD_ParseConfigurationDescriptor(
-  _In_ PUSB_CONFIGURATION_DESCRIPTOR ConfigurationDescriptor,
-  _In_ UCHAR                         InterfaceNumber,
-  _In_ UCHAR                         AlternateSetting
-);
-````
+The  <b>USBD_ParseConfigurationDescriptor</b> routine has been deprecated. Use <a href="https://msdn.microsoft.com/library/windows/hardware/ff539102">USBD_ParseConfigurationDescriptorEx</a> instead.
 
 
 ## -parameters
@@ -97,16 +86,15 @@ Specifies the device-defined alternate-setting index of the interface to be retr
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540134">USB device driver programming reference</a>
 
 
 
-<a href="..\usbdlib\nf-usbdlib-usbd_parseconfigurationdescriptorex.md">USBD_ParseConfigurationDescriptorEx</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539102">USBD_ParseConfigurationDescriptorEx</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: buses\udecxusbendpointinitsetendpointaddress.htm
 old-project: usbref
 ms.assetid: 1C6DDEAE-5E49-40AF-9667-3C185A82BDE8
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: UdecxUsbEndpointInitSetEndpointAddress, UdecxUsbEndpointInitSetEndpointAddress function [Buses], buses.udecxusbendpointinitsetendpointaddress, udecxusbendpoint/UdecxUsbEndpointInitSetEndpointAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Udecxstub.dll
 api_name:
 -	UdecxUsbEndpointInitSetEndpointAddress
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UDECX_USB_ENDPOINT_INIT_AND_METADATA, *PUDECX_USB_ENDPOINT_INIT_AND_METADATA
 req.product: Windows 10 or later.
@@ -54,17 +55,6 @@ req.product: Windows 10 or later.
 Sets the address of the endpoint in the initialization parameters of the simple endpoint to create.
 
 
-## -syntax
-
-
-````
-FORCEINLINE void UdecxUsbEndpointInitSetEndpointAddress(
-  _Inout_ PUDECXUSBENDPOINT_INIT Init,
-  _In_    UCHAR                  EndpointAddress
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +62,7 @@ FORCEINLINE void UdecxUsbEndpointInitSetEndpointAddress(
 
 ### -param Init [in, out]
 
-A pointer to an <b>UDECXUSBENDPOINT_INIT</b> structure that the client driver retrieved in the previous call to <a href="..\udecxusbendpoint\nf-udecxusbendpoint-udecxusbsimpleendpointinitallocate.md">UdecxUsbSimpleEndpointInitAllocate</a>.
+A pointer to an <b>UDECXUSBENDPOINT_INIT</b> structure that the client driver retrieved in the previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/mt627989">UdecxUsbSimpleEndpointInitAllocate</a>.
 
 
 ### -param EndpointAddress [in]
@@ -91,11 +81,6 @@ This function does not return a value.
 
 ## -see-also
 
-<a href="..\udecxusbendpoint\nf-udecxusbendpoint-udecxusbendpointcreate.md">UdecxUsbEndpointCreate</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
 
 
 
@@ -103,8 +88,12 @@ This function does not return a value.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt627983">UdecxUsbEndpointCreate</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
  
 
  
-
 

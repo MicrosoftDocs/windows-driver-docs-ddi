@@ -3,12 +3,12 @@ UID: NS:gnssdriver.GNSS_AGNSS_REQUEST_PARAM
 title: GNSS_AGNSS_REQUEST_PARAM
 author: windows-driver-content
 description: This structure defines AGNSS request parameters.
-old-location: gnss\gnss_agnss_request_param.htm
-old-project: gnss
+old-location: sensors\gnss_agnss_request_param.htm
+old-project: sensors
 ms.assetid: 67A1DAEF-13D3-4D47-B10C-0CA30C8EB22F
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: "*PGNSS_AGNSS_REQUEST_PARAM, GNSS_AGNSS_REQUEST_PARAM, GNSS_AGNSS_REQUEST_PARAM structure [Sensor Devices], PGNSS_AGNSS_REQUEST_PARAM, PGNSS_AGNSS_REQUEST_PARAM structure pointer [Sensor Devices], gnss.gnss_agnss_request_param, gnssdriver/GNSS_AGNSS_REQUEST_PARAM, gnssdriver/PGNSS_AGNSS_REQUEST_PARAM"
+ms.date: 2/22/2018
+ms.keywords: "*PGNSS_AGNSS_REQUEST_PARAM, GNSS_AGNSS_REQUEST_PARAM, GNSS_AGNSS_REQUEST_PARAM structure [Sensor Devices], PGNSS_AGNSS_REQUEST_PARAM, PGNSS_AGNSS_REQUEST_PARAM structure pointer [Sensor Devices], gnssdriver/GNSS_AGNSS_REQUEST_PARAM, gnssdriver/PGNSS_AGNSS_REQUEST_PARAM, sensors.gnss_agnss_request_param"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -38,7 +38,8 @@ api_location:
 -	gnssdriver.h
 api_name:
 -	GNSS_AGNSS_REQUEST_PARAM
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GNSS_AGNSS_REQUEST_PARAM, *PGNSS_AGNSS_REQUEST_PARAM
 ---
@@ -50,19 +51,6 @@ req.typenames: GNSS_AGNSS_REQUEST_PARAM, *PGNSS_AGNSS_REQUEST_PARAM
 
 
 This structure defines AGNSS request parameters.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  ULONG                   Size;
-  ULONG                   Version;
-  GNSS_AGNSS_REQUEST_TYPE RequestType;
-  ULONG                   BlobFormat;
-} GNSS_AGNSS_REQUEST_PARAM, *PGNSS_AGNSS_REQUEST_PARAM;
-````
 
 
 ## -struct-fields

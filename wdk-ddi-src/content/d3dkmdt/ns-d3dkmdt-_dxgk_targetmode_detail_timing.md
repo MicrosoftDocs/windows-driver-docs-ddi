@@ -7,7 +7,7 @@ old-location: display\dxgk_targetmode_detail_timing.htm
 old-project: display
 ms.assetid: bf5e53fa-bafd-4325-be8e-97d1c6aa334e
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: DXGK_TARGETMODE_DETAIL_TIMING, DXGK_TARGETMODE_DETAIL_TIMING structure [Display Devices], DmStructs_e09b214e-5cd4-430e-b5ba-ece083bbb71c.xml, _DXGK_TARGETMODE_DETAIL_TIMING, d3dkmdt/DXGK_TARGETMODE_DETAIL_TIMING, display.dxgk_targetmode_detail_timing
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmdt.h
 api_name:
 -	DXGK_TARGETMODE_DETAIL_TIMING
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_TARGETMODE_DETAIL_TIMING
 ---
@@ -52,18 +53,6 @@ req.typenames: DXGK_TARGETMODE_DETAIL_TIMING
 The DXGK_TARGETMODE_DETAIL_TIMING structure describes a video present target's additional timing modes that are compatible with the display device.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGK_TARGETMODE_DETAIL_TIMING {
-  D3DKMDT_VIDEO_SIGNAL_STANDARD    VideoStandard;
-  UINT                             TimingId;
-  DISPLAYID_DETAILED_TIMING_TYPE_I DetailTiming;
-} DXGK_TARGETMODE_DETAIL_TIMING;
-````
-
-
 ## -struct-fields
 
 
@@ -71,7 +60,7 @@ typedef struct _DXGK_TARGETMODE_DETAIL_TIMING {
 
 ### -field VideoStandard
 
-[in] A <a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_video_signal_standard.md">D3DKMDT_VIDEO_SIGNAL_STANDARD</a>-typed value that indicates the supported video signal standard.
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff546632">D3DKMDT_VIDEO_SIGNAL_STANDARD</a>-typed value that indicates the supported video signal standard.
 
 
 ### -field TimingId
@@ -81,21 +70,20 @@ typedef struct _DXGK_TARGETMODE_DETAIL_TIMING {
 
 ### -field DetailTiming
 
-[in] A <a href="..\d3dkmdt\ns-d3dkmdt-_displayid_detailed_timing_type_i.md">DISPLAYID_DETAILED_TIMING_TYPE_I</a>-typed value that indicates the target mode data for a video present target.
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff554014">DISPLAYID_DETAILED_TIMING_TYPE_I</a>-typed value that indicates the target mode data for a video present target.
 
 
 ## -see-also
 
-<a href="..\d3dkmdt\ns-d3dkmdt-_displayid_detailed_timing_type_i.md">DISPLAYID_DETAILED_TIMING_TYPE_I</a>
 
 
 
-<a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_video_signal_standard.md">D3DKMDT_VIDEO_SIGNAL_STANDARD</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546632">D3DKMDT_VIDEO_SIGNAL_STANDARD</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554014">DISPLAYID_DETAILED_TIMING_TYPE_I</a>
  
 
  
-
 

@@ -68,8 +68,6 @@ The client driver must only call **NetPowerSettingsIsWakePatternEnabled** during
 
 If the wake pattern is enabled, the driver programs its hardware to enable the pattern during a power down transition.
 
-In NetAdapterCx version 1.1, the IRQL of this method was changed from DISPATCH_LEVEL to PASSIVE_LEVEL.
-
 The minimum NetAdapterCx version for **NetPowerSettingsIsWakePatternEnabled** is 1.1.
 
 ## -see-also

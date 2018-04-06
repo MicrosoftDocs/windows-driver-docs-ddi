@@ -7,7 +7,7 @@ old-location: netvista\tcp_offload_stats.htm
 old-project: netvista
 ms.assetid: 959bc46a-c574-4130-a83d-22a695d0d891
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PTCP_OFFLOAD_STATS, PTCP_OFFLOAD_STATS, PTCP_OFFLOAD_STATS structure pointer [Network Drivers Starting with Windows Vista], TCP_OFFLOAD_STATS, TCP_OFFLOAD_STATS structure [Network Drivers Starting with Windows Vista], _TCP_OFFLOAD_STATS, ndischimney/PTCP_OFFLOAD_STATS, ndischimney/TCP_OFFLOAD_STATS, netvista.tcp_offload_stats, tcp_chim_struct_62878657-feff-41e4-b540-cbde66c1244e.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ndischimney.h
 api_name:
 -	TCP_OFFLOAD_STATS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TCP_OFFLOAD_STATS, *PTCP_OFFLOAD_STATS
 ---
@@ -55,22 +56,6 @@ The TCP_OFFLOAD_STATS structure contains statistics that an offload target suppl
   query of 
   <a href="https://msdn.microsoft.com/library/windows/hardware/ff569800">OID_TCP4_OFFLOAD_STATS</a> or 
   <a href="https://msdn.microsoft.com/library/windows/hardware/ff569801">OID_TCP6_OFFLOAD_STATS</a>.
-
-
-## -syntax
-
-
-````
-typedef struct _TCP_OFFLOAD_STATS {
-  ULONG64 InSegments;
-  ULONG64 OutSegments;
-  ULONG   CurrentlyEstablished;
-  ULONG   ResetEstablished;
-  ULONG   RetransmittedSegments;
-  ULONG   InErrors;
-  ULONG   OutResets;
-} TCP_OFFLOAD_STATS, *PTCP_OFFLOAD_STATS;
-````
 
 
 ## -struct-fields
@@ -148,7 +133,7 @@ If an offload target's TCP chimney capabilities are enabled (see
 <ul>
 <li>
 The offload target can indicate the packet through the non-offload interface by calling the 
-      <a href="..\ndis\nf-ndis-ndismindicatereceivenetbufferlists.md">
+      <a href="https://msdn.microsoft.com/b87dba3e-c18f-4ea2-8bd5-ec3cdafc534b">
       NdisMIndicateReceiveNetBufferLists</a> function. In this case, the offload target must not increment
       the 
       <b>InErrors</b> counter. This is the recommended approach.
@@ -183,7 +168,6 @@ All of the counters that supply the values for the TCP_OFFLOAD_STATS structure w
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569801">OID_TCP6_OFFLOAD_STATS</a>
 
 
 
@@ -191,8 +175,8 @@ All of the counters that supply the values for the TCP_OFFLOAD_STATS structure w
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569801">OID_TCP6_OFFLOAD_STATS</a>
  
 
  
-
 

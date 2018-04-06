@@ -7,7 +7,7 @@ old-location: storage\feature_data_embedded_changer.htm
 old-project: storage
 ms.assetid: 1335d1fa-af96-4a31-a1cf-266f7a3325ef
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PFEATURE_DATA_EMBEDDED_CHANGER, FEATURE_DATA_EMBEDDED_CHANGER, FEATURE_DATA_EMBEDDED_CHANGER structure [Storage Devices], PFEATURE_DATA_EMBEDDED_CHANGER, PFEATURE_DATA_EMBEDDED_CHANGER structure pointer [Storage Devices], _FEATURE_DATA_EMBEDDED_CHANGER, ntddmmc/FEATURE_DATA_EMBEDDED_CHANGER, ntddmmc/PFEATURE_DATA_EMBEDDED_CHANGER, storage.feature_data_embedded_changer, structs-CD-ROM_655edb8d-6748-4d10-8cd9-51b3a696bccd.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddmmc.h
 api_name:
 -	FEATURE_DATA_EMBEDDED_CHANGER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FEATURE_DATA_EMBEDDED_CHANGER, *PFEATURE_DATA_EMBEDDED_CHANGER
 ---
@@ -52,24 +53,6 @@ req.typenames: FEATURE_DATA_EMBEDDED_CHANGER, *PFEATURE_DATA_EMBEDDED_CHANGER
 The FEATURE_DATA_EMBEDDED_CHANGER structure holds data for the Embedded Changer feature. 
 
 
-## -syntax
-
-
-````
-typedef struct _FEATURE_DATA_EMBEDDED_CHANGER {
-  FEATURE_HEADER Header;
-  UCHAR          Reserved1  :2;
-  UCHAR          SupportsDiscPresent  :1;
-  UCHAR          Reserved2  :1;
-  UCHAR          SideChangeCapable  :1;
-  UCHAR          Reserved3  :3;
-  UCHAR          Reserved4[2];
-  UCHAR          HighestSlotNumber  :5;
-  UCHAR          Reserved  :3;
-} FEATURE_DATA_EMBEDDED_CHANGER, *PFEATURE_DATA_EMBEDDED_CHANGER;
-````
-
-
 ## -struct-fields
 
 
@@ -77,7 +60,7 @@ typedef struct _FEATURE_DATA_EMBEDDED_CHANGER {
 
 ### -field Header
 
-Contains a <a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a> structure with header information for this feature descriptor. 
+Contains a <a href="https://msdn.microsoft.com/library/windows/hardware/ff553848">FEATURE_HEADER</a> structure with header information for this feature descriptor. 
 
 
 ### -field Reserved1
@@ -131,16 +114,15 @@ This structure holds data for the feature named "Embedded Changer" by the <i>SCS
 
 ## -see-also
 
-<a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
 
 
 
-<a href="..\ntddmmc\ne-ntddmmc-_feature_number.md">FEATURE_NUMBER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553848">FEATURE_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553850">FEATURE_NUMBER</a>
  
 
  
-
 

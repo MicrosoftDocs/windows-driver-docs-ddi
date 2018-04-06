@@ -1,6 +1,7 @@
 # [Audio](../_audio/index.md)
 ## [Ksmedia.h](index.md)
 ### [AUDIO_CURVE_TYPE enumeration](../ksmedia/ne-ksmedia-audio_curve_type.md)
+### [CAPTURE_MEMORY_ALLOCATION_FLAGS enumeration](../ksmedia/ne-ksmedia-capture_memory_allocation_flags.md)
 ### [KSCAMERA_EXTENDEDPROP_FOCUSSTATE enumeration](../ksmedia/ne-ksmedia-kscamera_extendedprop_focusstate.md)
 ### [KSCAMERA_EXTENDEDPROP_MetadataAlignment enumeration](../ksmedia/ne-ksmedia-kscamera_extendedprop_metadataalignment.md)
 ### [KSCAMERA_EXTENDEDPROP_ROITYPE enumeration](../ksmedia/ne-ksmedia-kscamera_extendedprop_roitype.md)

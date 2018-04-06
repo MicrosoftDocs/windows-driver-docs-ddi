@@ -38,7 +38,8 @@ api_location:
 -	kbdmou.h
 api_name:
 -	CONNECT_DATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CONNECT_DATA, *PCONNECT_DATA
 ---
@@ -50,17 +51,6 @@ req.typenames: CONNECT_DATA, *PCONNECT_DATA
 
 
 CONNECT_DATA specifies information that Kbdclass and Mouclass use to connect to a keyboard or mouse port.
-
-
-## -syntax
-
-
-````
-typedef struct _CONNECT_DATA {
-  PDEVICE_OBJECT ClassDeviceObject;
-  PVOID          ClassService;
-} CONNECT_DATA, *PCONNECT_DATA;
-````
 
 
 ## -struct-fields
@@ -75,14 +65,14 @@ Pointer to an upper-level class <a href="https://msdn.microsoft.com/f697e0db-1db
 
 ### -field ClassService
 
-Specifies the class service routine. See  <a href="..\kbdmou\nc-kbdmou-pservice_callback_routine.md">PSERVICE_CALLBACK_ROUTINE</a>.
+Specifies the class service routine. See  <a href="https://msdn.microsoft.com/library/windows/hardware/ff542274">PSERVICE_CALLBACK_ROUTINE</a>.
 
 
 ## -remarks
 
 
 
-The keyboard class driver uses this structure with an <a href="..\kbdmou\ni-kbdmou-ioctl_internal_keyboard_connect.md">IOCTL_INTERNAL_KEYBOARD_CONNECT</a> request; the mouse class driver uses <a href="..\kbdmou\ni-kbdmou-ioctl_internal_mouse_connect.md">IOCTL_INTERNAL_MOUSE_CONNECT</a> .
+The keyboard class driver uses this structure with an <a href="https://msdn.microsoft.com/library/windows/hardware/ff541273">IOCTL_INTERNAL_KEYBOARD_CONNECT</a> request; the mouse class driver uses <a href="https://msdn.microsoft.com/library/windows/hardware/ff541294">IOCTL_INTERNAL_MOUSE_CONNECT</a> .
 
 
 

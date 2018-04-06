@@ -38,7 +38,8 @@ api_location:
 -	1394.h
 api_name:
 -	IRB_REQ_GET_GENERATION_COUNT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: IRB_REQ_GET_GENERATION_COUNT
 ---
@@ -50,16 +51,6 @@ req.typenames: IRB_REQ_GET_GENERATION_COUNT
 
 
 This structure contains the fields necessary for the 1394 bus driver to carry out a GetGenerationCount request. 
-
-
-## -syntax
-
-
-````
-typedef struct _IRB_REQ_GET_GENERATION_COUNT {
-  ULONG GenerationCount;
-} IRB_REQ_GET_GENERATION_COUNT;
-````
 
 
 ## -struct-fields

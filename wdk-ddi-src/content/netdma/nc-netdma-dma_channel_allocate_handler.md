@@ -7,7 +7,7 @@ old-location: netvista\providerallocatedmachannel.htm
 old-project: netvista
 ms.assetid: 42bc0e08-3d85-424f-aaa4-4df788d3706a
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: DMA_CHANNEL_ALLOCATE_HANDLER, ProviderAllocateDmaChannel, ProviderAllocateDmaChannel callback function [Network Drivers Starting with Windows Vista], netdma/ProviderAllocateDmaChannel, netdma_ref_6f33588b-3234-4522-9ee6-3f56f3cd7be9.xml, netvista.providerallocatedmachannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	netdma.h
 api_name:
 -	ProviderAllocateDmaChannel
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MIRACAST_DRIVER_INTERFACE, *PMIRACAST_DRIVER_INTERFACE
 ---
@@ -55,22 +56,6 @@ in Windows 8 and later.</div><div> </div>The
   <i>ProviderAllocateDmaChannel</i> function allocates a DMA channel.
 
 
-## -prototype
-
-
-````
-DMA_CHANNEL_ALLOCATE_HANDLER ProviderAllocateDmaChannel;
-
-NTSTATUS ProviderAllocateDmaChannel(
-  _In_  PVOID                       ProviderContext,
-  _In_  PNET_DMA_CHANNEL_PARAMETERS ChannelParameters,
-  _In_  PVOID                       NetDmaChannelHandle,
-  _Out_ PVOID                       *pProviderChannelContext
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -80,14 +65,14 @@ NTSTATUS ProviderAllocateDmaChannel(
 
 A pointer that identifies a DMA provider's context area. The DMA provider driver passes this
      handle to the NetDMA interface in a call to the 
-     <a href="..\netdma\nf-netdma-netdmaregisterprovider.md">
+     <a href="https://msdn.microsoft.com/35d70d0b-c1b9-433f-941d-6cb61ddf0b62">
      NetDmaRegisterProvider</a> function.
 
 
 ### -param ChannelParameters [in]
 
 A pointer to a 
-     <a href="..\netdma\ns-netdma-_net_dma_channel_parameters.md">
+     <a href="https://msdn.microsoft.com/0d09a9e9-06c5-4026-9053-ac74a59509cc">
      NET_DMA_CHANNEL_PARAMETERS</a> structure that defines the configuration parameters for the DMA
      channel.
 
@@ -167,12 +152,12 @@ The NetDMA interface calls a DMA provider driver's
 The DMA provider driver attempts to allocate a DMA channel with an interrupt CPU affinity that matches
     a bit that is specified in the 
     <b>ProcessorAffinityMask</b> member of the 
-    <a href="..\netdma\ns-netdma-_net_dma_channel_parameters.md">
+    <a href="https://msdn.microsoft.com/0d09a9e9-06c5-4026-9053-ac74a59509cc">
     NET_DMA_CHANNEL_PARAMETERS</a> structure at the 
     <i>ChannelParameters</i> parameter. If MSI-X is not supported or MSI-X is supported but a DMA channel with
     a matching interrupt CPU affinity is not available, the DMA provider driver allocates any available DMA
     channel and calls the 
-    <a href="..\wdm\nf-wdm-kesettargetprocessordpc.md">KeSetTargetProcessorDpc</a> routine to
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff553278">KeSetTargetProcessorDpc</a> routine to
     set the target CPU of the interrupt DPC to match one of the specified affinity mask bits.
 
 The DMA provider always driver returns the CPU number that it associated with the interrupt DPC for
@@ -191,7 +176,7 @@ When the NetDMA interface calls
     <b>NetDma<i>Xxx</i></b> functions that are associated with the DMA channel.
 
 The NetDMA interface calls the 
-    <a href="..\netdma\nc-netdma-dma_channel_free_handler.md">ProviderFreeDmaChannel</a> function to
+    <a href="https://msdn.microsoft.com/5bbe432d-f236-46ec-8e78-788bd676b852">ProviderFreeDmaChannel</a> function to
     free a previously allocated DMA channel.
 
 NetDMA calls 
@@ -202,24 +187,23 @@ NetDMA calls
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kesettargetprocessordpc.md">KeSetTargetProcessorDpc</a>
 
 
 
-<a href="..\netdma\nc-netdma-dma_channel_free_handler.md">ProviderFreeDmaChannel</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553278">KeSetTargetProcessorDpc</a>
 
 
 
-<a href="..\netdma\ns-netdma-_net_dma_channel_parameters.md">NET_DMA_CHANNEL_PARAMETERS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568732">NET_DMA_CHANNEL_PARAMETERS</a>
 
 
 
-<a href="..\netdma\nf-netdma-netdmaregisterprovider.md">NetDmaRegisterProvider</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568336">NetDmaRegisterProvider</a>
 
 
 
+<a href="https://msdn.microsoft.com/5bbe432d-f236-46ec-8e78-788bd676b852">ProviderFreeDmaChannel</a>
  
 
  
-
 

@@ -38,7 +38,8 @@ api_location:
 -	bdasup.h
 api_name:
 -	KSM_PIN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSM_PIN, *PKSM_PIN
 ---
@@ -50,21 +51,6 @@ req.typenames: KSM_PIN, *PKSM_PIN
 
 
 The KSM_PIN structure describes a method request to create or delete a pin factory for a filter. 
-
-
-## -syntax
-
-
-````
-typedef struct _KSM_PIN {
-  KSMETHOD Method;
-  union {
-    ULONG PinId;
-    ULONG PinType;
-  };
-  ULONG    Reserved;
-} KSM_PIN, *PKSM_PIN;
-````
 
 
 ## -struct-fields
@@ -103,12 +89,11 @@ When the network provider creates or deletes a pin for a filter using either KSM
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563404">KSMETHODSETID_BdaDeviceConfiguration</a>
-
-
-
  
 
  
-
 

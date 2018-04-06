@@ -1,5 +1,8 @@
 # [Storage](../_storage/index.md)
 ## [Iscsidef.h](index.md)
+### [ISCSIIPADDRESSTYPE enumeration](../iscsidef/ne-iscsidef-iscsiipaddresstype.md)
+### [ISCSI_AUTH_TYPES enumeration](../iscsidef/ne-iscsidef-iscsi_auth_types.md)
+### [ISCSI_DIGEST_TYPES enumeration](../iscsidef/ne-iscsidef-iscsi_digest_types.md)
 ### [*PISCSIIPADDRESSTYPE enumeration](../iscsidef/ne-iscsidef-piscsiipaddresstype.md)
 ### [*PISCSI_AUTH_TYPES enumeration](../iscsidef/ne-iscsidef-piscsi_auth_types.md)
 ### [*PISCSI_DIGEST_TYPES enumeration](../iscsidef/ne-iscsidef-piscsi_digest_types.md)

@@ -7,7 +7,7 @@ old-location: netvista\wwan_auth_sim_response.htm
 old-project: netvista
 ms.assetid: C259CA95-D119-47EB-A32D-9C9E284B6CD4
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: "*PWWAN_AUTH_SIM_RESPONSE, PWWAN_AUTH_SIM_RESPONSE, PWWAN_AUTH_SIM_RESPONSE structure pointer [Network Drivers Starting with Windows Vista], WWAN_AUTH_SIM_RESPONSE, WWAN_AUTH_SIM_RESPONSE structure [Network Drivers Starting with Windows Vista], _WWAN_AUTH_SIM_RESPONSE, netvista.wwan_auth_sim_response, wwan/PWWAN_AUTH_SIM_RESPONSE, wwan/WWAN_AUTH_SIM_RESPONSE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	wwan.h
 api_name:
 -	WWAN_AUTH_SIM_RESPONSE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WWAN_AUTH_SIM_RESPONSE, *PWWAN_AUTH_SIM_RESPONSE
 req.product: Windows 10 or later.
@@ -51,22 +52,6 @@ req.product: Windows 10 or later.
 
 
 The WWAN_AUTH_SIM_RESPONSE structure represents a response to a SIM authentication challenge.
-
-
-## -syntax
-
-
-````
-typedef struct _WWAN_AUTH_SIM_RESPONSE {
-  BYTE  Sres1[WWAN_AUTH_SRES_LEN];
-  BYTE  Kc1[WWAN_AUTH_KC_LEN];
-  BYTE  Sres2[WWAN_AUTH_SRES_LEN];
-  BYTE  Kc2[WWAN_AUTH_KC_LEN];
-  BYTE  Sres3[WWAN_AUTH_SRES_LEN];
-  BYTE  Kc3[WWAN_AUTH_KC_LEN];
-  ULONG n;
-} WWAN_AUTH_SIM_RESPONSE, *PWWAN_AUTH_SIM_RESPONSE;
-````
 
 
 ## -struct-fields
@@ -145,19 +130,18 @@ Response 3 of 32 bit. This member represents a multi-byte value in little-endian
 
 The <b>n</b> member can be either <b>2</b> or <b>3</b>, according to RFC 4186. If it is set to <b>2</b>, use the <b>Sres1</b>/<b>Kc1</b> and <b>Sres2</b>/<b>Kc2</b> members. If it is set to <b>3</b>,use <b>Sres1</b>/<b>Kc1</b>, <b>Sres2</b>/<b>Kc2</b>, and <b>Sres3</b>/<b>Kc3</b> members.
 
-The <a href="..\wwan\ns-wwan-_wwan_auth_response.md">WWAN_AUTH_RESPONSE</a> structure uses this structure.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/hh464129">WWAN_AUTH_RESPONSE</a> structure uses this structure.
 
 
 
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_auth_response.md">WWAN_AUTH_RESPONSE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh464129">WWAN_AUTH_RESPONSE</a>
  
 
  
-
 

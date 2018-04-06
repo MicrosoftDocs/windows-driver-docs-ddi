@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsCreateDefaultAllocatorEx
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,21 +52,6 @@ req.typenames:
 
 
 Creates a default allocator that uses the specified memory pool and associates the <i>IoGetCurrentIrpStackLocation(pIrp)-&gt;FileObject</i> with this allocator using an internal dispatch table (KSDISPATCH_TABLE).
-
-
-## -syntax
-
-
-````
-NTSTATUS KsCreateDefaultAllocatorEx(
-  _In_     PIRP                     Irp,
-  _In_opt_ PVOID                    InitializeContext,
-  _In_opt_ PFNKSDEFAULTALLOCATE     DefaultAllocate,
-  _In_opt_ PFNKSDEFAULTFREE         DefaultFree,
-  _In_opt_ PFNKSINITIALIZEALLOCATOR InitializeAllocator,
-  _In_opt_ PFNKSDELETEALLOCATOR     DeleteAllocator
-);
-````
 
 
 ## -parameters
@@ -116,7 +102,7 @@ Returns STATUS_SUCCESS, else an error on default allocator creation failure. Doe
 
 
 
-Before calling this routine, the <b>KSCREATE_ITEM_IRP_STORAGE(Irp)</b> macro should return a pointer to the <a href="..\ks\ns-ks-ksobject_create_item.md">KSOBJECT_CREATE_ITEM</a> structure that is the create item for this allocator. <b>KsCreateDefaultAllocatorEx</b> sets <b>FsContext</b> to point to the return value of this macro. As such, <b>FsContext</b> can later be used for security descriptor queries or changes.
+Before calling this routine, the <b>KSCREATE_ITEM_IRP_STORAGE(Irp)</b> macro should return a pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563479">KSOBJECT_CREATE_ITEM</a> structure that is the create item for this allocator. <b>KsCreateDefaultAllocatorEx</b> sets <b>FsContext</b> to point to the return value of this macro. As such, <b>FsContext</b> can later be used for security descriptor queries or changes.
 
 You can find <b>KSCREATE_ITEM_IRP_STORAGE(Irp)</b> and related macros in <i>ks.h</i>.
 

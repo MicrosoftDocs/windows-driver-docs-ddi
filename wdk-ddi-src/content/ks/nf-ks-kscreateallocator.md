@@ -39,7 +39,8 @@ api_location:
 -	ks.dll
 api_name:
 -	KsCreateAllocator
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,18 +52,6 @@ req.typenames:
 
 
 The <b>KsCreateAllocator</b> function creates a handle to an allocator for the given sink connection handle. This function does not complete the IRP or set the status in the IRP.
-
-
-## -syntax
-
-
-````
-NTSTATUS KsCreateAllocator(
-  _In_  HANDLE               ConnectionHandle,
-  _In_  PKSALLOCATOR_FRAMING AllocatorFraming,
-  _Out_ PHANDLE              AllocatorHandle
-);
-````
 
 
 ## -parameters
@@ -105,12 +94,11 @@ There are two versions of the <b>KsCreateAllocator</b> function: one for user-mo
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksallocator_framing.md">KSALLOCATOR_FRAMING</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560979">KSALLOCATOR_FRAMING</a>
  
 
  
-
 

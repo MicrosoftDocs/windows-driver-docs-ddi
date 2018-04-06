@@ -38,7 +38,8 @@ api_location:
 -	printoem.h
 api_name:
 -	PFN_DrvUnidriverTextOut
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PrintSchemaSelectionType
 req.product: Windows 10 or later.
@@ -54,29 +55,7 @@ The <b>DrvUnidriverTextOut</b> function is obsolete.
 
 Windows 2000 and later printer drivers should use <a href="https://msdn.microsoft.com/library/windows/hardware/ff553132">IPrintOemDriverUni::DrvUniTextOut</a>. 
 
-This function pointer prototype defines the type of the <b>DrvUnidriverTextOut</b> member of the <a href="..\printoem\ns-printoem-_drvprocs.md">DRVPROCS</a> structure.
-
-
-## -prototype
-
-
-````
- PFN_DrvUnidriverTextOut;
-
-typedef BOOL APIENTRY* PFN_DrvUnidriverTextOut(
-   SURFOBJ  *pso,
-   STROBJ   *pstro,
-   FONTOBJ  *pfo,
-   CLIPOBJ  *pco,
-   RECTL    *prclExtra,
-   RECTL    *prclOpaque,
-   BRUSHOBJ *pboFore,
-   BRUSHOBJ *pboOpaque,
-   POINTL   *pptlBrushOrg,
-   MIX      mix
-)
-{ ... }
-````
+This function pointer prototype defines the type of the <b>DrvUnidriverTextOut</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548571">DRVPROCS</a> structure.
 
 
 ## -parameters

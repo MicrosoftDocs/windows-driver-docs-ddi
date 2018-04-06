@@ -38,7 +38,8 @@ api_location:
 -	filterpipeline.h
 api_name:
 -	IPrintPipelinePropertyBag.DeleteProperty
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
@@ -50,16 +51,6 @@ req.typenames: EXpsFontRestriction
 
 
 The <code>DeleteProperty</code> method deletes a property from a property bag.
-
-
-## -syntax
-
-
-````
-BOOL DeleteProperty(
-  [in] const wchar_t *pszName
-);
-````
 
 
 ## -parameters

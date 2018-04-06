@@ -38,7 +38,8 @@ api_location:
 -	wdfinstaller.h
 api_name:
 -	WDF_COINSTALLER_INSTALL_OPTIONS_INIT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_FILE_INFORMATION_CLASS, *PWDF_FILE_INFORMATION_CLASS
 req.product: Windows 10 or later.
@@ -52,17 +53,7 @@ req.product: Windows 10 or later.
 
 <p class="CCE_Message">[Applies to KMDF only]
 
-The <b>WDF_COINSTALLER_INSTALL_OPTIONS_INIT</b> function initializes a <a href="..\wdfinstaller\ns-wdfinstaller-_wdf_coinstaller_install_options.md">WDF_COINSTALLER_INSTALL_OPTIONS</a> structure.
-
-
-## -syntax
-
-
-````
-VOID WDF_COINSTALLER_INSTALL_OPTIONS_INIT(
-  _Out_ PWDF_COINSTALLER_INSTALL_OPTIONS ClientOptions
-);
-````
+The <b>WDF_COINSTALLER_INSTALL_OPTIONS_INIT</b> function initializes a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551241">WDF_COINSTALLER_INSTALL_OPTIONS</a> structure.
 
 
 ## -parameters
@@ -72,7 +63,7 @@ VOID WDF_COINSTALLER_INSTALL_OPTIONS_INIT(
 
 ### -param ClientOptions [out]
 
-A pointer to a <a href="..\wdfinstaller\ns-wdfinstaller-_wdf_coinstaller_install_options.md">WDF_COINSTALLER_INSTALL_OPTIONS</a> structure.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551241">WDF_COINSTALLER_INSTALL_OPTIONS</a> structure.
 
 
 ## -returns
@@ -88,12 +79,12 @@ None.
 
 
 
-The <b>WDF_COINSTALLER_INSTALL_OPTIONS_INIT</b> function zeros the specified <a href="..\wdfinstaller\ns-wdfinstaller-_wdf_coinstaller_install_options.md">WDF_COINSTALLER_INSTALL_OPTIONS</a> structure and sets the structure's <b>Size</b> member.
+The <b>WDF_COINSTALLER_INSTALL_OPTIONS_INIT</b> function zeros the specified <a href="https://msdn.microsoft.com/library/windows/hardware/ff551241">WDF_COINSTALLER_INSTALL_OPTIONS</a> structure and sets the structure's <b>Size</b> member.
 
 
 #### Examples
 
-The following code example initializes a <a href="..\wdfinstaller\ns-wdfinstaller-_wdf_coinstaller_install_options.md">WDF_COINSTALLER_INSTALL_OPTIONS</a> structure.
+The following code example initializes a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551241">WDF_COINSTALLER_INSTALL_OPTIONS</a> structure.
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -111,12 +102,11 @@ WDF_COINSTALLER_INSTALL_OPTIONS_INIT(&amp;clientOptions);</pre>
 
 ## -see-also
 
-<a href="..\wdfinstaller\ns-wdfinstaller-_wdf_coinstaller_install_options.md">WDF_COINSTALLER_INSTALL_OPTIONS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551241">WDF_COINSTALLER_INSTALL_OPTIONS</a>
  
 
  
-
 

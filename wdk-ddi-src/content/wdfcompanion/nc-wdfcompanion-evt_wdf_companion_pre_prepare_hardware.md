@@ -38,7 +38,8 @@ api_location:
 -	wdfcompanion.h
 api_name:
 -	EVT_WDF_COMPANION_PRE_PREPARE_HARDWARE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_COMMON_BUFFER_CONFIG, *PWDF_COMMON_BUFFER_CONFIG
 req.product: Windows 10 or later.
@@ -52,21 +53,6 @@ req.product: Windows 10 or later.
 
 
 			For internal use only.
-
-
-## -prototype
-
-
-````
-EVT_WDF_COMPANION_PRE_PREPARE_HARDWARE EVT_WDF_COMPANION_PRE_PREPARE_HARDWARE;
-
-NTSTATUS EVT_WDF_COMPANION_PRE_PREPARE_HARDWARE(
-  _In_ WDFCOMPANION Companion,
-  _In_ WDFCMRESLIST ResourcesRaw,
-  _In_ WDFCMRESLIST ResourcesTranslated
-)
-{ ... }
-````
 
 
 ## -parameters

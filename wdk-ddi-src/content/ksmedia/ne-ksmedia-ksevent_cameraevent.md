@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KSEVENT_CAMERAEVENT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSEVENT_CAMERAEVENT
 ---
@@ -50,16 +51,6 @@ req.typenames: KSEVENT_CAMERAEVENT
 
 
 <b>KSEVENT_CAMERAEVENT</b> enumerates a kernel streaming event set that can be used by the pipeline to enable or disable camera event notifications from the driver.
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  KSEVENT_PHOTO_SAMPLE_SCANNED
-} KSEVENT_CAMERAEVENT;
-````
 
 
 ## -enum-fields
@@ -76,7 +67,7 @@ Event notifications to synchronize the shutter sound playback for a photo captur
 
 
 
-The camera event DDI is defined by <b>KSEVENTSETID_CameraEvent</b>, a kernel streaming event set that can be used by the pipeline to enable or disable camera event notifications from the driver. This is a filter level event meaning that the driver must implement and define the event in the filter’s automation table and use <a href="..\ks\nf-ks-ksfiltergenerateevents.md">KsFilterGenerateEvents</a> (or <a href="..\ks\nf-ks-ksgenerateevents.md">KsGenerateEvents</a> with filter object) to generate event notifications.
+The camera event DDI is defined by <b>KSEVENTSETID_CameraEvent</b>, a kernel streaming event set that can be used by the pipeline to enable or disable camera event notifications from the driver. This is a filter level event meaning that the driver must implement and define the event in the filter’s automation table and use <a href="https://msdn.microsoft.com/library/windows/hardware/ff562541">KsFilterGenerateEvents</a> (or <a href="https://msdn.microsoft.com/library/windows/hardware/ff562597">KsGenerateEvents</a> with filter object) to generate event notifications.
 
 KSEVENTSETID_CameraEvent and its related data structures are defined in Ksmedia.h as follows.
 

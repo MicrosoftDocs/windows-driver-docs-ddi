@@ -7,7 +7,7 @@ old-location: debugger\getoffsetbyname.htm
 old-project: debugger
 ms.assetid: b6915215-3654-446b-b30d-b891f439a379
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: GetOffsetByName method [Windows Debugging], GetOffsetByName method [Windows Debugging], IDebugSymbols interface, GetOffsetByName method [Windows Debugging], IDebugSymbols2 interface, GetOffsetByName method [Windows Debugging], IDebugSymbols3 interface, GetOffsetByName,IDebugSymbols.GetOffsetByName, IDebugSymbols, IDebugSymbols interface [Windows Debugging], GetOffsetByName method, IDebugSymbols2 interface [Windows Debugging], GetOffsetByName method, IDebugSymbols2::GetOffsetByName, IDebugSymbols3 interface [Windows Debugging], GetOffsetByName method, IDebugSymbols3::GetOffsetByName, IDebugSymbols::GetOffsetByName, IDebugSymbols_ef72e546-d27f-4cdf-9eeb-53151680c2d1.xml, dbgeng/IDebugSymbols2::GetOffsetByName, dbgeng/IDebugSymbols3::GetOffsetByName, dbgeng/IDebugSymbols::GetOffsetByName, debugger.getoffsetbyname
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,8 @@ api_name:
 -	IDebugSymbols.GetOffsetByName
 -	IDebugSymbols2.GetOffsetByName
 -	IDebugSymbols3.GetOffsetByName
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
@@ -52,17 +53,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 The <b>GetOffsetByName</b>  method returns the location of a symbol identified by name.
-
-
-## -syntax
-
-
-````
-HRESULT GetOffsetByName(
-  [in]  PCSTR    Symbol,
-  [out] PULONG64 Offset
-);
-````
 
 
 ## -parameters
@@ -147,11 +137,6 @@ For more information about symbols and symbol names, see <a href="https://msdn.m
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
 
 
 
@@ -159,12 +144,16 @@ For more information about symbols and symbol names, see <a href="https://msdn.m
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550856">IDebugSymbols</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550864">IDebugSymbols2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550870">IDebugSymbols3</a>
  
 
  
-
 

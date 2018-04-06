@@ -7,7 +7,7 @@ old-location: storage\ataportwriteregisterbufferushort.htm
 old-project: storage
 ms.assetid: 1de586c7-2fee-488d-a84e-7cc08165ad50
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: AtaPortWriteRegisterBufferUshort, AtaPortWriteRegisterBufferUshort routine [Storage Devices], atartns_7b2b3f11-f9ae-45a0-a690-9f879bd6e478.xml, irb/AtaPortWriteRegisterBufferUshort, storage.ataportwriteregisterbufferushort
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,8 @@ api_location:
 -	pciidex.dll
 api_name:
 -	AtaPortWriteRegisterBufferUshort
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: IDE_POWER_STATE
 ---
@@ -55,18 +56,6 @@ req.typenames: IDE_POWER_STATE
 The <b>AtaPortWriteRegisterBufferUshort</b> routine transfers the indicated number of USHORT values from a buffer to the HBA.
 <div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
-## -syntax
-
-
-````
-VOID AtaPortWriteRegisterBufferUshort(
-  _In_ PUSHORT Register,
-  _In_ PUSHORT Buffer,
-  _In_ ULONG   Count
-);
-````
-
-
 ## -parameters
 
 
@@ -74,7 +63,7 @@ VOID AtaPortWriteRegisterBufferUshort(
 
 ### -param Register [in]
 
-Contains the destination register address where the transfer should begin. This address value must be within the range of mapped I/O space addresses that are obtained by a call to <a href="..\irb\nf-irb-ataportgetdevicebase.md">AtaPortGetDeviceBase</a>.
+Contains the destination register address where the transfer should begin. This address value must be within the range of mapped I/O space addresses that are obtained by a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff550160">AtaPortGetDeviceBase</a>.
 
 
 ### -param Buffer [in]
@@ -98,20 +87,19 @@ None
 
 ## -see-also
 
-<a href="..\irb\nf-irb-ataportgetdevicebase.md">AtaPortGetDeviceBase</a>
 
 
 
-<a href="..\irb\nf-irb-ataportwriteregisterbufferuchar.md">AtaPortWriteRegisterBufferUchar</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550160">AtaPortGetDeviceBase</a>
 
 
 
-<a href="..\irb\nf-irb-ataportwriteregisterbufferushort.md">AtaPortWriteRegisterBufferUshort</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550264">AtaPortWriteRegisterBufferUchar</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550273">AtaPortWriteRegisterBufferUshort</a>
  
 
  
-
 

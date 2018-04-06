@@ -38,7 +38,8 @@ api_location:
 -	Bthddi.h
 api_name:
 -	L2CAP_EXTENDED_FLOW_SPEC
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: L2CAP_EXTENDED_FLOW_SPEC, *PL2CAP_EXTENDED_FLOW_SPEC
 ---
@@ -50,21 +51,6 @@ req.typenames: L2CAP_EXTENDED_FLOW_SPEC, *PL2CAP_EXTENDED_FLOW_SPEC
 
 
 The L2CAP_EXTENDED_FLOW_SPEC is reserved for future use.
-
-
-## -syntax
-
-
-````
-typedef struct _L2CAP_EXTENDED_FLOW_SPEC {
-  UCHAR  Identifier;
-  UCHAR  ServiceType;
-  USHORT MaxSDUSize;
-  ULONG  SDUInterArrivalTime;
-  ULONG  AccessLatency;
-  ULONG  FlushTimeout;
-} L2CAP_EXTENDED_FLOW_SPEC, *PL2CAP_EXTENDED_FLOW_SPEC;
-````
 
 
 ## -struct-fields

@@ -7,7 +7,7 @@ old-location: display\d3dkmt_flipmodel_presenthistorytokenflags.htm
 old-project: display
 ms.assetid: 61901e06-fefd-4481-9f19-60ead55bbe36
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS, D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS structure [Display Devices], OpenGL_Structs_1ffd61bb-ba0b-4ee5-95af-d8c7e38c0b15.xml, _D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS, d3dkmthk/D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS, display.d3dkmt_flipmodel_presenthistorytokenflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -16,19 +16,19 @@ req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 7.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmthk.h
 api_name:
 -	D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS
 ---
@@ -70,9 +71,9 @@ typedef struct _D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS {
       UINT AlphaMode  :2;
       UINT SignalLimitOnTokenCompletion  :1;
       UINT Reserved  :22;
-#else 
+#else
       UINT Reserved  :29;
-#endif 
+#endif
     };
     UINT   Value;
   };
@@ -87,7 +88,7 @@ typedef struct _D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS {
 
 ### -field Video
 
-A UINT value that specifies whether the flip operation is performed with video. 
+A UINT value that specifies whether the flip operation is performed with video.
 
 Setting this member is equivalent to setting the first bit of the 32-bit <b>Value</b> member (0x00000001).
 
@@ -137,7 +138,7 @@ Supported starting with Windows 8.
 
 ### -field HDRMetaDataChanged
 
- 
+
 
 
 ### -field AlphaMode
@@ -160,62 +161,63 @@ Supported starting with Windows 8.
 
 ### -field YCbCrFlags
 
- 
+
 
 
 ### -field IndependentFlip
 
- 
+
 
 
 ### -field IndependentFlipStage
 
- 
+
 
 
 ### -field IndependentFlipReleaseCount
 
- 
+
 
 
 ### -field IndependentFlipForceNotifyDwm
 
- 
+
 
 
 ### -field UseCustomDuration
 
- 
+
 
 
 ### -field IndependentFlipRequestDwmConfirm
 
- 
+
 
 
 ### -field IndependentFlipCandidate
 
- 
+
 
 
 ### -field IndependentFlipCheckNeeded
 
- 
+
 
 
 ### -field IndependentFlipTrueImmediate
 
- 
+
 
 
 ### -field IndependentFlipRequestDwmExit
 
- 
+
+### -field IndependentFlipDoNotFlip
 
 
 ### -field CompSurfaceNotifiedEarly
 
- 
+
 
 
 ### -field Reserved

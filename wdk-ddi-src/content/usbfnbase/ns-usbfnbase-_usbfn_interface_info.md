@@ -7,7 +7,7 @@ old-location: buses\usbfn_interface_info.htm
 old-project: usbref
 ms.assetid: 54647A9E-E0AB-4DE7-93FB-D0232D6AC646
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 3/29/2018
 ms.keywords: "*PUSBFN_INTERFACE_INFO, PUSBFN_INTERFACE_INFO, PUSBFN_INTERFACE_INFO structure pointer [Buses], USBFN_INTERFACE_INFO, USBFN_INTERFACE_INFO structure [Buses], _USBFN_INTERFACE_INFO, buses.usbfn_interface_info, usbfnbase/PUSBFN_INTERFACE_INFO, usbfnbase/USBFN_INTERFACE_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	usbfnbase.h
 api_name:
 -	USBFN_INTERFACE_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USBFN_INTERFACE_INFO, *PUSBFN_INTERFACE_INFO
 req.product: Windows 10 or later.
@@ -53,19 +54,6 @@ req.product: Windows 10 or later.
 Describes an interface and its endpoints.
 
 
-## -syntax
-
-
-````
-typedef struct _USBFN_INTERFACE_INFO {
-  UINT8           InterfaceNumber;
-  USBFN_BUS_SPEED Speed;
-  USHORT           Size;
-  UCHAR            InterfaceDescriptorSet[1];
-} USBFN_INTERFACE_INFO, *PUSBFN_INTERFACE_INFO;
-````
-
-
 ## -struct-fields
 
 
@@ -78,7 +66,7 @@ The index number of the interface.
 
 ### -field Speed
 
-The operating bus speed indicated by <a href="..\usbfnbase\ne-usbfnbase-_usbfn_bus_speed.md">USBFN_BUS_SPEED</a>-typed flags.
+The operating bus speed indicated by <a href="https://msdn.microsoft.com/library/windows/hardware/mt187987">USBFN_BUS_SPEED</a>-typed flags.
 
 
 ### -field Size
@@ -93,12 +81,11 @@ Pointer to the first element in the array of that contains the interface descrip
 
 ## -see-also
 
-<a href="..\usbfnbase\ne-usbfnbase-_usbfn_bus_speed.md">USBFN_BUS_SPEED</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt187987">USBFN_BUS_SPEED</a>
  
 
  
-
 

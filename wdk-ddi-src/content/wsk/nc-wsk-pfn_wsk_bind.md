@@ -7,7 +7,7 @@ old-location: netvista\wskbind.htm
 old-project: netvista
 ms.assetid: 520b02d0-a078-4af9-93a3-4fee5bbfee99
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/26/2018
 ms.keywords: PFN_WSK_BIND, WskBind, WskBind callback function [Network Drivers Starting with Windows Vista], netvista.wskbind, wsk/WskBind, wskref_5d411257-ce57-4331-913a-c195e71a1138.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	wsk.h
 api_name:
 -	WskBind
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WPP_TRIAGE_INFO, *PWPP_TRIAGE_INFO
 req.product: Windows 10 or later.
@@ -54,22 +55,6 @@ The
   <b>WskBind</b> function binds a socket to a local transport address.
 
 
-## -prototype
-
-
-````
-PFN_WSK_BIND WskBind;
-
-NTSTATUS WSKAPI * WskBind(
-  _In_       PWSK_SOCKET Socket,
-  _In_       PSOCKADDR   LocalAddress,
-  _Reserved_ ULONG       Flags,
-  _Inout_    PIRP        Irp
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -78,7 +63,7 @@ NTSTATUS WSKAPI * WskBind(
 ### -param Socket [in]
 
 A pointer to a 
-     <a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a> structure that specifies the socket
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571182">WSK_SOCKET</a> structure that specifies the socket
      object for the socket that is being bound.
 
 
@@ -149,7 +134,7 @@ The WSK subsystem could not bind the socket immediately. The WSK subsystem will 
 <td width="60%">
 The socket is no longer functional. The IRP will be completed with failure status. The WSK
        application must call the 
-       <a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a> function to close the
+       <a href="https://msdn.microsoft.com/library/windows/hardware/ff571124">WskCloseSocket</a> function to close the
        socket as soon as possible.
 
 </td>
@@ -189,20 +174,19 @@ For a datagram socket, calling the
 For a connection-oriented socket, calling the 
     <b>WskBind</b> function binds the socket to the specified local transport address. 
     <b>WskBind</b> must be called prior to calling the 
-    <a href="..\wsk\nc-wsk-pfn_wsk_connect.md">WskConnect</a> function. If a WSK application
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff571125">WskConnect</a> function. If a WSK application
     specifies a local wildcard address, the network stack binds the socket to the appropriate local transport
     address when the application calls 
     <b>WskConnect</b> to connect the socket to a remote transport address. In such a situation, the local
     transport address is determined by the system's routing information.
 
-For a stream socket, calling the <b>WskBind</b> function binds the socket to the specified local transport address. If a WSK application specifies a local wildcard address, the network stack binds the socket to an available local transport address. <b>WskBind</b> must be called prior to calling the <a href="..\wsk\nc-wsk-pfn_wsk_listen.md">WskListen</a> or the <a href="..\wsk\nc-wsk-pfn_wsk_connect.md">WskConnect</a> functions.
+For a stream socket, calling the <b>WskBind</b> function binds the socket to the specified local transport address. If a WSK application specifies a local wildcard address, the network stack binds the socket to an available local transport address. <b>WskBind</b> must be called prior to calling the <a href="https://msdn.microsoft.com/854C2DA1-1763-4354-8B9D-9AE0C60D8F31">WskListen</a> or the <a href="https://msdn.microsoft.com/library/windows/hardware/ff571125">WskConnect</a> functions.
 
 
 
 
 ## -see-also
 
-<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
 
 
 
@@ -210,38 +194,38 @@ For a stream socket, calling the <b>WskBind</b> function binds the socket to the
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
-
-
-
-<a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>
-
-
-
-<a href="..\wsk\ns-wsk-_wsk_provider_listen_dispatch.md">WSK_PROVIDER_LISTEN_DISPATCH</a>
-
-
-
-<a href="..\wsk\ns-wsk-_wsk_provider_datagram_dispatch.md">
-   WSK_PROVIDER_DATAGRAM_DISPATCH</a>
-
-
-
-<a href="..\wsk\ns-wsk-_wsk_provider_stream_dispatch.md">WSK_PROVIDER_STREAM_DISPATCH</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_connect.md">WskConnect</a>
-
-
-
-<a href="..\wsk\ns-wsk-_wsk_provider_connection_dispatch.md">
+<a href="https://msdn.microsoft.com/70a86809-07f2-4723-9e50-4dbdd31ff900">
    WSK_PROVIDER_CONNECTION_DISPATCH</a>
 
 
 
+<a href="https://msdn.microsoft.com/fa8d3395-b800-4e5c-af03-b21520f69158">
+   WSK_PROVIDER_DATAGRAM_DISPATCH</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571176">WSK_PROVIDER_LISTEN_DISPATCH</a>
+
+
+
+<a href="https://msdn.microsoft.com/A10B901E-9987-40E9-976B-4CD9455E0AEE">WSK_PROVIDER_STREAM_DISPATCH</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571182">WSK_SOCKET</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571124">WskCloseSocket</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571125">WskConnect</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571149">WskSocket</a>
  
 
  
-
 

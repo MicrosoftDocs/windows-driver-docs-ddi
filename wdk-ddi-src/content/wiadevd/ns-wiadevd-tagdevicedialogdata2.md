@@ -21,10 +21,10 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: WDTFSystemAction.idl
 req.max-support: 
-req.namespace: 
-req.assembly: 
+req.namespace: Microsoft.WDTF
+req.assembly: WDTFSystemAction.Interop.dll
 req.type-library: 
 req.lib: 
 req.dll: 
@@ -38,7 +38,8 @@ api_location:
 -	wiadevd.h
 api_name:
 -	DEVICEDIALOGDATA2
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2
 req.product: Windows 10 or later.
@@ -51,24 +52,6 @@ req.product: Windows 10 or later.
 
 
 The DEVICEDIALOGDATA2 structure contains all the data needed to implement a custom device dialog.
-
-
-## -syntax
-
-
-````
-typedef struct tagDEVICEDIALOGDATA2 {
-  DWORD     cbSize;
-  IWiaItem2 *pIWiaItemRoot;
-  DWORD     dwFlags;
-  HWND      hwndParent;
-  BSTR      bstrFolderName;
-  BSTR      bstrFilename;
-  LONG      lNumFiles;
-  BSTR      *pbstrFilePaths;
-  IWiaItem2 *pWiaItem;
-} DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2;
-````
 
 
 ## -struct-fields
@@ -138,23 +121,10 @@ To access information about an <b>IWiaItem2</b> object's properties, the <b>Devi
 
 ## -see-also
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=121994">IWiaDevMgr2::GetImageDlg</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545053">IWiaUIExtension2::DeviceDialog</a>
-
-
-
-<a href="http://go.microsoft.com/fwlink/p/?linkid=121998">SysAllocString</a>
-
-
-
-<a href="http://go.microsoft.com/fwlink/p/?linkid=122007">IWiaPropertyStorage</a>
-
-
-
-<a href="http://go.microsoft.com/fwlink/p/?linkid=122008">IWiaTransfer</a>
+<a href="http://go.microsoft.com/fwlink/p/?linkid=121997">CoTaskMemAlloc</a>
 
 
 
@@ -162,7 +132,7 @@ To access information about an <b>IWiaItem2</b> object's properties, the <b>Devi
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=121995">PathMakeUniqueName</a>
+<a href="http://go.microsoft.com/fwlink/p/?linkid=121994">IWiaDevMgr2::GetImageDlg</a>
 
 
 
@@ -174,7 +144,19 @@ To access information about an <b>IWiaItem2</b> object's properties, the <b>Devi
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=121997">CoTaskMemAlloc</a>
+<a href="http://go.microsoft.com/fwlink/p/?linkid=122007">IWiaPropertyStorage</a>
+
+
+
+<a href="http://go.microsoft.com/fwlink/p/?linkid=122008">IWiaTransfer</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545053">IWiaUIExtension2::DeviceDialog</a>
+
+
+
+<a href="http://go.microsoft.com/fwlink/p/?linkid=121995">PathMakeUniqueName</a>
 
 
 
@@ -182,8 +164,8 @@ To access information about an <b>IWiaItem2</b> object's properties, the <b>Devi
 
 
 
+<a href="http://go.microsoft.com/fwlink/p/?linkid=121998">SysAllocString</a>
  
 
  
-
 

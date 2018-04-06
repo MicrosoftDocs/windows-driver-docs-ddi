@@ -1,4 +1,4 @@
-# [smartcard](../_smartcard/index.md)
+# [smartcrd](../_smartcrd/index.md)
 ## [Smclib.h](index.md)
 ### [RtlZeroMemory macro](../smclib/nf-smclib-rtlzeromemory.md)
 ### [_CLOCK_RATE_CONVERSION structure](../smclib/ns-smclib-_clock_rate_conversion.md)

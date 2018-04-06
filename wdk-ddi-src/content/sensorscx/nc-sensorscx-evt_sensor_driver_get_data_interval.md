@@ -38,7 +38,8 @@ api_location:
 -	SensorsCx.h
 api_name:
 -	EvtSensorGetDataInterval
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SensorConnectionType
 req.product: Windows 10 or later.
@@ -51,17 +52,6 @@ req.product: Windows 10 or later.
 
 
 This callback function returns the data interval for a specified sensor.
-
-
-## -prototype
-
-
-````
-NTSTATUS EvtSensorGetDataInterval(
-  _In_  SENSOROBJECT Sensor,
-  _Out_ PULONG       pDataRateMs
-);
-````
 
 
 ## -parameters

@@ -38,7 +38,8 @@ api_location:
 -	wdfusb.h
 api_name:
 -	WdfUsbTargetDeviceSelectConfigType
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WdfUsbTargetDeviceSelectConfigType
 req.product: Windows 10 or later.
@@ -53,22 +54,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WdfUsbTargetDeviceSelectConfigType</b> enumeration defines types of configuration operations for USB devices.
-
-
-## -syntax
-
-
-````
-typedef enum _WdfUsbTargetDeviceSelectConfigType { 
-  WdfUsbTargetDeviceSelectConfigTypeInvalid               = 0,
-  WdfUsbTargetDeviceSelectConfigTypeDeconfig              = 1,
-  WdfUsbTargetDeviceSelectConfigTypeSingleInterface       = 2,
-  WdfUsbTargetDeviceSelectConfigTypeMultiInterface        = 3,
-  WdfUsbTargetDeviceSelectConfigTypeInterfacesPairs       = 4,
-  WdfUsbTargetDeviceSelectConfigTypeInterfacesDescriptor  = 5,
-  WdfUsbTargetDeviceSelectConfigTypeUrb                   = 6
-} WdfUsbTargetDeviceSelectConfigType;
-````
 
 
 ## -enum-fields
@@ -115,27 +100,26 @@ Configure the device by using configuration parameters that are contained in a d
 
 
 
-The <b>WdfUsbTargetDeviceSelectConfigType</b> enumeration is used to specify the <b>Type</b> member of the <a href="..\wdfusb\ns-wdfusb-_wdf_usb_device_select_config_params.md">WDF_USB_DEVICE_SELECT_CONFIG_PARAMS</a> structure. That structure is used as input to the <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdeviceselectconfig.md">WdfUsbTargetDeviceSelectConfig</a> method.
+The <b>WdfUsbTargetDeviceSelectConfigType</b> enumeration is used to specify the <b>Type</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552600">WDF_USB_DEVICE_SELECT_CONFIG_PARAMS</a> structure. That structure is used as input to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550101">WdfUsbTargetDeviceSelectConfig</a> method.
 
 
 
 
 ## -see-also
 
-<a href="..\usb\ns-usb-_urb.md">URB</a>
 
 
 
-<a href="..\wdfusb\ns-wdfusb-_wdf_usb_device_select_config_params.md">WDF_USB_DEVICE_SELECT_CONFIG_PARAMS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538923">URB</a>
 
 
 
-<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdeviceselectconfig.md">WdfUsbTargetDeviceSelectConfig</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552600">WDF_USB_DEVICE_SELECT_CONFIG_PARAMS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550101">WdfUsbTargetDeviceSelectConfig</a>
  
 
  
-
 

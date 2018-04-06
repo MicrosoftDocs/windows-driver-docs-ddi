@@ -7,7 +7,7 @@ old-location: audio\pcmethod_request.htm
 old-project: audio
 ms.assetid: aa48330b-93f0-4fb2-bb36-4e9050f19be5
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 3/19/2018
 ms.keywords: "*PPCMETHOD_REQUEST, PCMETHOD_REQUEST, PCMETHOD_REQUEST structure [Audio Devices], PPCMETHOD_REQUEST, PPCMETHOD_REQUEST structure pointer [Audio Devices], _PCMETHOD_REQUEST, audio.pcmethod_request, audpc-struct_08efa6de-5d0e-445b-9402-563604dd8d5d.xml, portcls/PCMETHOD_REQUEST, portcls/PPCMETHOD_REQUEST"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	portcls.h
 api_name:
 -	PCMETHOD_REQUEST
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PCMETHOD_REQUEST, *PPCMETHOD_REQUEST, PCMETHOD_REQUEST, *PPCMETHOD_REQUEST
 ---
@@ -50,20 +51,6 @@ req.typenames: PCMETHOD_REQUEST, *PPCMETHOD_REQUEST, PCMETHOD_REQUEST, *PPCMETHO
 
 
 The PCMETHOD_REQUEST structure specifies a method request.
-
-
-## -syntax
-
-
-````
-typedef struct _PCMETHOD_REQUEST {
-  PUNKNOWN            MajorTarget;
-  PUNKNOWN            MinorTarget;
-  ULONG               Node;
-  const PCMETHOD_ITEM *MethodItem;
-  ULONG               Verb;
-} PCMETHOD_REQUEST, *PPCMETHOD_REQUEST;
-````
 
 
 ## -struct-fields
@@ -88,7 +75,7 @@ Specifies the node ID of the target node for the request. If the target is not a
 
 ### -field MethodItem
 
-Pointer to a <a href="..\portcls\ns-portcls-__unnamed_struct_0cb6_4.md">PCMETHOD_ITEM</a> structure that describes a method supported by a filter, pin, or node.
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff537704">PCMETHOD_ITEM</a> structure that describes a method supported by a filter, pin, or node.
 
 
 ### -field Verb
@@ -138,7 +125,7 @@ Returns information about support for the method set specified by <b>MethodItem<
 
 
 
-This is the structure that the port driver passes to the miniport driver's method-handler routine. The <a href="..\portcls\ns-portcls-__unnamed_struct_0cb6_4.md">PCMETHOD_ITEM</a> structure contains a pointer to a method handler that takes a PCMETHOD_REQUEST pointer as its single call parameter.
+This is the structure that the port driver passes to the miniport driver's method-handler routine. The <a href="https://msdn.microsoft.com/library/windows/hardware/ff537704">PCMETHOD_ITEM</a> structure contains a pointer to a method handler that takes a PCMETHOD_REQUEST pointer as its single call parameter.
 
 The WDM audio subsystem does not currently support method requests.
 
@@ -147,16 +134,15 @@ The WDM audio subsystem does not currently support method requests.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537695">PCFILTER_NODE</a>
 
 
 
-<a href="..\portcls\ns-portcls-__unnamed_struct_0cb6_4.md">PCMETHOD_ITEM</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537704">PCMETHOD_ITEM</a>
  
 
  
-
 

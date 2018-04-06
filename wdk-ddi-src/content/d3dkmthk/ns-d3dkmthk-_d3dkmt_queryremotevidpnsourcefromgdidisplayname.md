@@ -7,7 +7,7 @@ old-location: display\d3dkmt_queryremotevidpnsourcefromgdidisplayname.htm
 old-project: display
 ms.assetid: ac0ec68a-1f2c-4a39-bf88-0e69d50b1279
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: D3DKMT_QUERYREMOTEVIDPNSOURCEFROMGDIDISPLAYNAME, D3DKMT_QUERYREMOTEVIDPNSOURCEFROMGDIDISPLAYNAME structure [Display Devices], _D3DKMT_QUERYREMOTEVIDPNSOURCEFROMGDIDISPLAYNAME, d3dkmthk/D3DKMT_QUERYREMOTEVIDPNSOURCEFROMGDIDISPLAYNAME, display.d3dkmt_queryremotevidpnsourcefromgdidisplayname
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3dkmthk.h
 api_name:
 -	D3DKMT_QUERYREMOTEVIDPNSOURCEFROMGDIDISPLAYNAME
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_QUERYREMOTEVIDPNSOURCEFROMGDIDISPLAYNAME
 ---
@@ -50,17 +51,6 @@ req.typenames: D3DKMT_QUERYREMOTEVIDPNSOURCEFROMGDIDISPLAYNAME
 
 
 Describes information that is required to map a GDI display name to a remote video present network (VidPN) source ID.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_QUERYREMOTEVIDPNSOURCEFROMGDIDISPLAYNAME {
-  WCHAR                          DeviceName[32];
-  D3DDDI_VIDEO_PRESENT_SOURCE_ID VidPnSourceId;
-} D3DKMT_QUERYREMOTEVIDPNSOURCEFROMGDIDISPLAYNAME;
-````
 
 
 ## -struct-fields
@@ -80,12 +70,11 @@ typedef struct _D3DKMT_QUERYREMOTEVIDPNSOURCEFROMGDIDISPLAYNAME {
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtqueryremotevidpnsourcefromgdidisplayname.md">D3DKMTQueryRemoteVidPnSourceFromGdiDisplayName</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439442">D3DKMTQueryRemoteVidPnSourceFromGdiDisplayName</a>
  
 
  
-
 

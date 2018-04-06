@@ -7,7 +7,7 @@ old-location: storage\dvd_copy_protect_key.htm
 old-project: storage
 ms.assetid: 79f3fdaf-e23a-40ba-a1eb-5428a63cc96a
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PDVD_COPY_PROTECT_KEY, DVD_COPY_PROTECT_KEY, DVD_COPY_PROTECT_KEY structure [Storage Devices], PDVD_COPY_PROTECT_KEY, PDVD_COPY_PROTECT_KEY structure pointer [Storage Devices], _DVD_COPY_PROTECT_KEY, ntddcdvd/DVD_COPY_PROTECT_KEY, ntddcdvd/PDVD_COPY_PROTECT_KEY, storage.dvd_copy_protect_key, structs-DVD_3ea6aa08-28ce-42d0-855d-d2e83ce58f89.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddcdvd.h
 api_name:
 -	DVD_COPY_PROTECT_KEY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DVD_COPY_PROTECT_KEY, *PDVD_COPY_PROTECT_KEY
 ---
@@ -49,25 +50,7 @@ req.typenames: DVD_COPY_PROTECT_KEY, *PDVD_COPY_PROTECT_KEY
 ## -description
 
 
-The <b>DVD_COPY_PROTECT_KEY</b> structure is used in conjunction with the <a href="..\ntddcdvd\ni-ntddcdvd-ioctl_dvd_read_key.md">IOCTL_DVD_READ_KEY</a> request to execute a report key command of the specified type. 
-
-
-## -syntax
-
-
-````
-typedef struct _DVD_COPY_PROTECT_KEY {
-  ULONG          KeyLength;
-  DVD_SESSION_ID SessionId;
-  DVD_KEY_TYPE   KeyType;
-  ULONG          KeyFlags;
-  union {
-    HANDLE        FileHandle;
-    LARGE_INTEGER TitleOffset;
-  } Parameters;
-  UCHAR          KeyData[];
-} DVD_COPY_PROTECT_KEY, *PDVD_COPY_PROTECT_KEY;
-````
+The <b>DVD_COPY_PROTECT_KEY</b> structure is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560425">IOCTL_DVD_READ_KEY</a> request to execute a report key command of the specified type. 
 
 
 ## -struct-fields
@@ -125,16 +108,15 @@ Contains the key data that was returned.
 
 ## -see-also
 
-<a href="..\ntddcdvd\ni-ntddcdvd-ioctl_dvd_read_key.md">IOCTL_DVD_READ_KEY</a>
 
 
 
-<a href="..\ntddcdvd\ne-ntddcdvd-dvd_key_type.md">DVD_KEY_TYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553731">DVD_KEY_TYPE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560425">IOCTL_DVD_READ_KEY</a>
  
 
  
-
 

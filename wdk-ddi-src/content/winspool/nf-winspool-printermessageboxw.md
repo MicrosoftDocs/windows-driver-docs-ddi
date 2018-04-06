@@ -38,7 +38,8 @@ api_location:
 -	Winspool.h
 api_name:
 -	PrinterMessageBoxW
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BIDI_TYPE
 req.product: Windows 10 or later.
@@ -51,21 +52,6 @@ req.product: Windows 10 or later.
 
 
 
-
-
-## -syntax
-
-
-````
-DWORD WINAPI PrinterMessageBoxW(
-  _In_ HANDLE     hPrinter,
-       DWORD      Error,
-  _In_ HWND       hWnd,
-  _In_ LPWSTR     pText,
-  _In_ LPWSTR     pCaption,
-       DWORD      dwType
-);
-````
 
 
 ## -parameters

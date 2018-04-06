@@ -2,7 +2,7 @@
 UID: NA:usbfnbase
 ms.assetid: f54db437-6d89-377b-8e79-ed49a7490c17
 ms.author: windowsdriverdev
-ms.date: 03/13/18
+ms.date: 04/05/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -13,8 +13,9 @@ ms.topic: portal
 
 
 
-This header is used by Universal Serial Bus(USB). For more information, see
-- [Universal Serial Bus(USB)](../_usbref/index.md)
+This header is used by usbref. For more information, see:
+
+- [Universal Serial Bus (USB)](../_usbref/index.md)
 
 This section contains reference topics for the Usbfnbase.h header.
 

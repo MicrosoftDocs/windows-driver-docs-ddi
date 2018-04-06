@@ -38,7 +38,8 @@ api_location:
 -	ntddk.h
 api_name:
 -	WHEA_PERSISTENCE_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WHEA_PERSISTENCE_INFO, *PWHEA_PERSISTENCE_INFO
 ---
@@ -50,24 +51,6 @@ req.typenames: WHEA_PERSISTENCE_INFO, *PWHEA_PERSISTENCE_INFO
 
 
 The WHEA_PERSISTENCE_INFO union describes data that is used by the error record persistence interface for storing an error record.
-
-
-## -syntax
-
-
-````
-typedef union _WHEA_PERSISTENCE_INFO {
-  struct {
-    ULONGLONG Signature  :16;
-    ULONGLONG Length  :24;
-    ULONGLONG Identifier  :16;
-    ULONGLONG Attributes  :2;
-    ULONGLONG DoNotLog  :1;
-    ULONGLONG Reserved  :5;
-  };
-  ULONGLONG AsULONGLONG;
-} WHEA_PERSISTENCE_INFO, *PWHEA_PERSISTENCE_INFO;
-````
 
 
 ## -struct-fields
@@ -119,19 +102,18 @@ The signature of the error record when it is stored in the platform's persistent
 
 
 
-A WHEA_PERSISTENCE_INFO union is contained within the <a href="..\ntddk\ns-ntddk-_whea_error_record_header.md">WHEA_ERROR_RECORD_HEADER</a> structure.
+A WHEA_PERSISTENCE_INFO union is contained within the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560487">WHEA_ERROR_RECORD_HEADER</a> structure.
 
 
 
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_whea_error_record_header.md">WHEA_ERROR_RECORD_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560487">WHEA_ERROR_RECORD_HEADER</a>
  
 
  
-
 

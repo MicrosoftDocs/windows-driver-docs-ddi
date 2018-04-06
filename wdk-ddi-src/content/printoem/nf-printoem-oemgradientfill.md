@@ -38,7 +38,8 @@ api_location:
 -	printoem.h
 api_name:
 -	OEMGradientFill
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STDVARIABLEINDEX
 req.product: Windows 10 or later.
@@ -51,25 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <code>OEMGradientFill</code> function shades the specified primitives.
-
-
-## -syntax
-
-
-````
-BOOL APIENTRY OEMGradientFill(
-   SURFOBJ   *psoDest,
-   CLIPOBJ   *pco,
-   XLATEOBJ  *pxlo,
-   TRIVERTEX *pVertex,
-   ULONG     nVertex,
-   PVOID     pMesh,
-   ULONG     nMesh,
-   RECTL     *prclExtents,
-   POINTL    *pptlDitherOrg,
-   ULONG     ulMode
-);
-````
 
 
 ## -parameters

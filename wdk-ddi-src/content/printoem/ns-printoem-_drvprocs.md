@@ -38,7 +38,8 @@ api_location:
 -	printoem.h
 api_name:
 -	DRVPROCS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DRVPROCS, *PDRVPROCS
 req.product: Windows 10 or later.
@@ -58,62 +59,46 @@ All of the functions pointed to by members of this structure are obsolete. For i
 <dl>
 <dd>
 
-<a href="..\printoem\nc-printoem-pfn_drvwritespoolbuf.md">DrvWriteSpoolBuf</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548662">DrvWriteSpoolBuf</a>
 
 
 </dd>
 <dd>
 
-<a href="..\printoem\nc-printoem-pfn_drvxmoveto.md">DrvXMoveTo</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548665">DrvXMoveTo</a>
 
 
 </dd>
 <dd>
 
-<a href="..\printoem\nc-printoem-pfn_drvymoveto.md">DrvYMoveTo</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548673">DrvYMoveTo</a>
 
 
 </dd>
 <dd>
 
-<a href="..\printoem\nc-printoem-pfn_drvgetdriversetting.md">DrvGetDriverSetting</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548556">DrvGetDriverSetting</a>
 
 
 </dd>
 <dd>
 
-<a href="..\printoem\nc-printoem-pfn_drvgetstandardvariable.md">DrvGetStandardVariable</a> (for information about BGetStandardVariable)
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548562">DrvGetStandardVariable</a> (for information about BGetStandardVariable)
 
 </dd>
 <dd>
 
-<a href="..\printoem\nc-printoem-pfn_drvunidrivertextout.md">DrvUnidriverTextOut</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548638">DrvUnidriverTextOut</a>
 
 
 </dd>
 <dd>
 
-<a href="..\printoem\nc-printoem-pfn_drvwriteabortbuf.md">DrvWriteAbortBuf</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548657">DrvWriteAbortBuf</a>
 
 
 </dd>
 </dl>
-
-## -syntax
-
-
-````
-typedef struct _DRVPROCS {
-  PFN_DrvWriteSpoolBuf       DrvWriteSpoolBuf;
-  PFN_DrvXMoveTo             DrvXMoveTo;
-  PFN_DrvYMoveTo             DrvYMoveTo;
-  PFN_DrvGetDriverSetting    DrvGetDriverSetting;
-  PFN_DrvGetStandardVariable BGetStandardVariable;
-  PFN_DrvUnidriverTextOut    DrvUnidriverTextOut;
-  PFN_DrvWriteAbortBuf       DrvWriteAbortBuf;
-} DRVPROCS, *PDRVPROCS;
-````
-
 
 ## -struct-fields
 

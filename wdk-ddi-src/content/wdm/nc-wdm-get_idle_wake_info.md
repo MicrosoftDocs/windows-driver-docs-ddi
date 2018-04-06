@@ -7,7 +7,7 @@ old-location: kernel\getidlewakeinfo.htm
 old-project: kernel
 ms.assetid: 51DE471E-5409-4ED9-BC50-29D18E8F5A16
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 3/28/2018
 ms.keywords: GET_IDLE_WAKE_INFO, GetIdleWakeInfo, GetIdleWakeInfo routine [Kernel-Mode Driver Architecture], kernel.getidlewakeinfo, wdm/GetIdleWakeInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Wdm.h
 api_name:
 -	GetIdleWakeInfo
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
 req.product: Windows 10 or later.
@@ -53,21 +54,6 @@ req.product: Windows 10 or later.
 The <i>GetIdleWakeInfo</i> routine enables the driver for a device to discover the device power states from which the device can signal a wake event.
 
 
-## -prototype
-
-
-````
-GET_IDLE_WAKE_INFO GetIdleWakeInfo;
-
-NTSTATUS GetIdleWakeInfo(
-  _In_opt_ PVOID              Context,
-  _In_     SYSTEM_POWER_STATE SystemPowerState,
-  _Out_    PDEVICE_WAKE_DEPTH DeepestWakeableDstate
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -75,12 +61,12 @@ NTSTATUS GetIdleWakeInfo(
 
 ### -param Context [in, optional]
 
-A pointer to interface-specific context information. The caller sets this parameter to the value of the <b>Context</b> member of the <a href="..\wdm\ns-wdm-_d3cold_support_interface.md">D3COLD_SUPPORT_INTERFACE</a> structure for the interface.
+A pointer to interface-specific context information. The caller sets this parameter to the value of the <b>Context</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh967706">D3COLD_SUPPORT_INTERFACE</a> structure for the interface.
 
 
 ### -param SystemPowerState [in]
 
-System power state. Set this parameter to one of the following <a href="..\wdm\ne-wdm-_system_power_state.md">SYSTEM_POWER_STATE</a> enumeration values:
+System power state. Set this parameter to one of the following <a href="https://msdn.microsoft.com/library/windows/hardware/ff564565">SYSTEM_POWER_STATE</a> enumeration values:
 
 <ul>
 <li><b>PowerSystemWorking</b></li>
@@ -94,7 +80,7 @@ These values represent system power states S0 (system working state) through S4.
 
 ### -param DeepestWakeableDstate [out]
 
-Deepest wakeable Dx state. This parameter is a pointer to a <a href="..\wdm\ne-wdm-_device_wake_depth.md">DEVICE_WAKE_DEPTH</a> variable. If the call is successful, the routine writes one of the following enumeration values to this variable:
+Deepest wakeable Dx state. This parameter is a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh967708">DEVICE_WAKE_DEPTH</a> variable. If the call is successful, the routine writes one of the following enumeration values to this variable:
 
 <ul>
 <li><b>DeviceWakeDepthNotWakeable</b></li>
@@ -147,41 +133,40 @@ The drivers for most devices can treat an output value of <b>DeviceWakeDepthD0</
 The <i>GetIdleWakeInfo</i> routine queries the underlying bus driver and ACPI system firmware to determine the lowest device power state from which the device can signal a wake event. If the bus driver and firmware cannot supply this information, the routine fails and returns an error status code.
 
 
-The <a href="..\wdm\ns-wdm-_device_capabilities.md">DEVICE_CAPABILITIES</a> structure includes a <b>DeviceWake</b> member that provides information similar to that available from the <i>GetIdleWakeInfo</i> routine. However, the information in the <b>DeviceWake</b> member applies only to the system low-power states S1 to S4. For some devices, the information in the <b>DeviceWake</b> member might also apply to the S0 system power state, but drivers should not rely on such behavior. Only the <i>GetIdleWakeInfo</i> routine reliably reports the ability of a device to signal a wake event if the computer is in S0.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/ff543095">DEVICE_CAPABILITIES</a> structure includes a <b>DeviceWake</b> member that provides information similar to that available from the <i>GetIdleWakeInfo</i> routine. However, the information in the <b>DeviceWake</b> member applies only to the system low-power states S1 to S4. For some devices, the information in the <b>DeviceWake</b> member might also apply to the S0 system power state, but drivers should not rely on such behavior. Only the <i>GetIdleWakeInfo</i> routine reliably reports the ability of a device to signal a wake event if the computer is in S0.
 
-An inline helper function, <b>MapWakeDepthToDstate</b>, is provided to convert the <a href="..\wdm\ne-wdm-_device_wake_depth.md">DEVICE_WAKE_DEPTH</a> output value from the <i>GetIdleWakeInfo</i> routine to a <a href="..\wudfddi\ne-wudfddi-_device_power_state.md">DEVICE_POWER_STATE</a> value that can be used as an input parameter by the <a href="..\wdm\nf-wdm-porequestpowerirp.md">PoRequestPowerIrp</a> routine.
+An inline helper function, <b>MapWakeDepthToDstate</b>, is provided to convert the <a href="https://msdn.microsoft.com/library/windows/hardware/hh967708">DEVICE_WAKE_DEPTH</a> output value from the <i>GetIdleWakeInfo</i> routine to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff554628">DEVICE_POWER_STATE</a> value that can be used as an input parameter by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559734">PoRequestPowerIrp</a> routine.
 
 
 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-porequestpowerirp.md">PoRequestPowerIrp</a>
 
 
 
-<a href="..\wdm\ns-wdm-_d3cold_support_interface.md">D3COLD_SUPPORT_INTERFACE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh967706">D3COLD_SUPPORT_INTERFACE</a>
 
 
 
-<a href="..\wdm\ne-wdm-_device_wake_depth.md">DEVICE_WAKE_DEPTH</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543095">DEVICE_CAPABILITIES</a>
 
 
 
-<a href="..\wudfddi\ne-wudfddi-_device_power_state.md">DEVICE_POWER_STATE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554628">DEVICE_POWER_STATE</a>
 
 
 
-<a href="..\wdm\ns-wdm-_device_capabilities.md">DEVICE_CAPABILITIES</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh967708">DEVICE_WAKE_DEPTH</a>
 
 
 
-<a href="..\wdm\ne-wdm-_system_power_state.md">SYSTEM_POWER_STATE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559734">PoRequestPowerIrp</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564565">SYSTEM_POWER_STATE</a>
  
 
  
-
 
