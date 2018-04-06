@@ -1,6 +1,7 @@
 # [Windows kernel](../_kernel/index.md)
 ## [Ntpoapi.h](index.md)
 ### [POWER_INFORMATION_LEVEL enumeration](../ntpoapi/ne-ntpoapi-power_information_level.md)
+### [POWER_MONITOR_REQUEST_REASON enumeration](../ntpoapi/ne-ntpoapi-power_monitor_request_reason.md)
 ### [*PPOWER_ACTION enumeration](../ntpoapi/ne-ntpoapi-ppower_action.md)
 ### [_DEVICE_POWER_STATE enumeration](../ntpoapi/ne-ntpoapi-_device_power_state.md)
 ### [_MONITOR_DISPLAY_STATE enumeration](../ntpoapi/ne-ntpoapi-_monitor_display_state.md)
