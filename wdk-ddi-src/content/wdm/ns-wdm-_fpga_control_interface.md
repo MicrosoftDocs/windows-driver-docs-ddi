@@ -2,7 +2,7 @@
 UID: NS:wdm._FPGA_CONTROL_INTERFACE
 title: _FPGA_CONTROL_INTERFACE
 author: windows-driver-content
-description: 
+description: Reserved for future use.
 ms.assetid: e0dae56e-1f6c-4695-8168-58c1a5439e37
 ms.author: windowsdriverdev
 ms.date: 
@@ -38,7 +38,7 @@ targetos: Windows
 # _FPGA_CONTROL_INTERFACE structure
 
 ## -description
-
+Reserved for future use.
 
 ## -struct-fields
 
