@@ -43,25 +43,22 @@ targetos: Windows
 
 ## -description
 
-WdfDeviceRetrieveDeviceDirectoryString provides a path to location on disk that can be used to persist information across reboots. 
+**WdfDeviceRetrieveDeviceDirectoryString** provides a path to a location on disk that can be used to persist information across reboots. 
 
 ## -parameters
 
 ### -param Device
-
-A handle to a framework device object.
+[_In_] A handle to a framework device object.
 
 ### -param String
-
-A handle to a [framework string object](https://docs.microsoft.com/windows-hardware/drivers/wdf/using-string-objects). The framework will assign the directory path to the string object on successful return. [relative link no suffix](/windows-hardware/drivers/wdf/using-string-objects)
+[_In_] A handle to a [framework string object](https://docs.microsoft.com/windows-hardware/drivers/wdf/using-string-objects). The framework will assign the directory path to the string object on successful return.
 
 ## -returns
-
 This function returns NTSTATUS.
-WdfDeviceRetrieveDeviceDirectoryString returns STATUS_SUCCESS if the operation succeeds. 
+**WdfDeviceRetrieveDeviceDirectoryString** returns STATUS_SUCCESS if the operation succeeds. 
 
 ## -remarks
-
-UMDF only. KMDF drivers should use IoGetDeviceDirectory (new?)
+UMDF only. KMDF drivers should use [**IoGetDeviceDirectory**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iogetdevicedirectory).
 
 ## -see-also
+For info about string objects, see [Using String Objects](https://docs.microsoft.com//windows-hardware/drivers/wdf/using-string-objects).
