@@ -43,6 +43,8 @@ targetos: Windows
 
 ## -description
 
+> [!NOTE]
+> This DDI construct is intended for OEM use only.
 
 
 ## -parameters

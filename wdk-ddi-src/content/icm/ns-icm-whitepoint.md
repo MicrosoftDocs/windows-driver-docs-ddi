@@ -39,10 +39,22 @@ targetos: Windows
 
 ## -description
 
+> [!NOTE]
+> This DDI construct is intended for OEM use only.
+
+The Whitepoint structure encapsulates a display whitepoint in various ways:
+
+    - **CHROMATICITY**: An xyY point, populate xyY member
+
+    - **TEMPERATURE**: A CCT point, populate CCT member
+
+    - **D65**: The standard D65 s[c]RGB whitepoint.
 
 ## -struct-fields
 
 
 ## -remarks
+
+Set the type enum to the preferred expression type and populate the corresponding data entry in the union. 
 
 ## -see-also

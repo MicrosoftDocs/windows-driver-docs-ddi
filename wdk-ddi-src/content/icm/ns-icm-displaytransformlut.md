@@ -39,6 +39,10 @@ targetos: Windows
 
 ## -description
 
+> [!NOTE]
+> This DDI construct is intended for OEM use only.
+
+The DisplayTransformLut structure defines a 16-bit, 3-channel lookup table used to modify system colors.
 
 ## -struct-fields
 

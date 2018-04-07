@@ -39,6 +39,10 @@ targetos: Windows
 
 ## -description
 
+> [!NOTE]
+> This DDI construct is intended for OEM use only.
+
+The XYYPoint structure describes a CIE xyY chromaticity point.
 
 ## -struct-fields
 

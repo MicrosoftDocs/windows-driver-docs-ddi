@@ -39,15 +39,24 @@ targetos: Windows
 
 ## -description
 
+> [!NOTE]
+> This DDI construct is intended for OEM use only.
+
+The DisplayStateID structure holds the current color state IDs for a display. These values will change as the system color state changes.
 
 ## -struct-fields
 
 ### -field profileID
+
+Identifies the currently set color profile.
  
 ### -field transformID
+
+Identifies the current lookup table transform.
  
 ### -field whitepointID
- 
+
+Identifies the current target whitepoint.
 
 ## -remarks
 

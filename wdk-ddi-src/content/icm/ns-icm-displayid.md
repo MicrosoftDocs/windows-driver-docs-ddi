@@ -39,6 +39,10 @@ targetos: Windows
 
 ## -description
 
+> [!NOTE]
+> This DDI construct is intended for OEM use only.
+
+The DisplayID structure defines an identifier for a particular display, using the DXGK target and source IDs. These are obtained through QueryDisplayConfig calls.
 
 ## -struct-fields
 
