@@ -63,7 +63,7 @@ The
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure for the
      <b>NDIS_RSS_SET_INDIRECTION_ENTRIES</b> structure. Set the 
      <b>Type</b> member of the structure that 
-     <b>Header</b> specifies to <b>NDIS_OBJECT_TYPE_DEFAULT</b>. 
+     <b>Header</b> specifies to <b>NDIS_OBJECT_TYPE_RSS_SET_INDIRECTION_ENTRIES</b>. 
 
 For NDIS  6.80 and later drivers, set the 
      <b>Revision</b> member to <b>NDIS_RSS_SET_INDIRECTION_ENTRIES_REVISION_1</b> and the 

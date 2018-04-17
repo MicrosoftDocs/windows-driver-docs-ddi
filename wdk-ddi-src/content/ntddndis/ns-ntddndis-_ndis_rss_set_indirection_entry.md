@@ -123,6 +123,20 @@ The target processor number to which the ITE should point upon completion. The m
 
 An NDIS_STATUS code indicating the status of the move operation for this entry. Because <b>NDIS_RSS_SET_INDIRECTION_ENTRY</b> is used in the context of a Synchronous OID call, the miniport driver cannot return <b>NDIS_STATUS_PENDING</b> for this member.
 
+To simplify miniport drivers' implementation, the upper layer protocol will initialize this field to NDIS_STATUS_PENDING. Miniport drivers must overwrite NDIS_STATUS_PENDING with either a success or failure NDIS status code. If the upper layer detects that this field is still NDIS_STATUS_PENDING upon completion of the [OID_GEN_RSS_SET_INDIRECTION_TABLE_ENTRIES](https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-rss-set-indirection-table-entries) OID, it will cause a system bug check and indicate that the miniport driver is at fault.
+
+> [!IMPORTANT]
+> All **NDIS_RSS_SET_INDIRECTION_ENTRY** structures in a group, contained in an [**NDIS_RSS_SET_INDIRECTION_ENTRIES**](ns-ntddndis-_ndis_rss_set_indirection_entries.md) structure, must be marked with the same **EntryStatus**.
+
+If an error occurs with this move command, set **EntryStatus** to one of the following status codes for that error condition:
+
+| Status code | Error condition |
+| --- | --- |
+| NDIS_STATUS_INVALID_PARAMETER | <ul><li>The **SwitchId** or **VPortId** member was invalid.</li><li>The **Flags** member was invalid.</li><li>The **IndirectionTableIndex** member exceeds the currently configured **NumberOfIndirectionTableEntries** from the [**NDIS_RECEIVE_SCALE_PARAMETERS_V2**](ns-ntddndis-_ndis_receive_scale_parameters_v2.md) structure.</li></ul> |
+| NDIS_STATUS_INVALID_PORT_STATE | The VPort is not activated or is in some other state that prevents it from accepting RSSv2 OIDs. |
+| NDIS_STATUS_NOT_ACCEPTED | The actor CPU was invalid. |
+| NDIS_STATUS_INVALID_DATA | For an *active* steering parameter, the new processor is not part of the adapter's RSS processor set. Note that *inactive* parameters only need to be tracked. They are validated later, during RSS state transition (to *on* or *off*). |
+| NDIS_STATUS_NO_QUEUES | A group of command entries fails the "number of queues" check for the VPort specified by that group. |
 
 ## -see-also
 
