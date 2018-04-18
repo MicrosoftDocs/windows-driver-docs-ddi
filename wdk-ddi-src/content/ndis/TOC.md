@@ -161,6 +161,7 @@
 ### [NDIS_RAISE_IRQL_TO_DISPATCH macro](../ndis/nf-ndis-ndis_raise_irql_to_dispatch.md)
 ### [NDIS_RELEASE_MUTEX macro](../ndis/nf-ndis-ndis_release_mutex.md)
 ### [NDIS_SET_NET_BUFFER_LIST_CANCEL_ID macro](../ndis/nf-ndis-ndis_set_net_buffer_list_cancel_id.md)
+### [NDIS_SWITCH_PORT_DESTINATION_AT_ARRAY_INDEX macro](../ndis/nf-ndis-ndis_switch_port_destination_at_array_index.md)
 ### [NDIS_WAIT_FOR_MUTEX macro](../ndis/nf-ndis-ndis_wait_for_mutex.md)
 ### [NdisAcquireReadWriteLock function](../ndis/nf-ndis-ndisacquirereadwritelock.md)
 ### [NdisAcquireRWLockRead function](../ndis/nf-ndis-ndisacquirerwlockread.md)

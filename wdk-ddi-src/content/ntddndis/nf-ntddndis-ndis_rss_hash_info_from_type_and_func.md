@@ -11,7 +11,7 @@ ms.keywords: NDIS_RSS_HASH_INFO_FROM_TYPE_AND_FUNC
 req.header: ntddndis.h
 req.include-header: ndis.h
 req.target-type: Universal
-req.target-min-winverclnt:
+req.target-min-winverclnt: Supported in NDIS 6.0 and later.
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
