@@ -415,6 +415,7 @@
 ### [FILTER_SYNCHRONOUS_OID_REQUEST function](../ndis/nf-ndis-filter_synchronous_oid_request.md)
 ### [FILTER_SYNCHRONOUS_OID_REQUEST_COMPLETE function](../ndis/nf-ndis-filter_synchronous_oid_request_complete.md)
 ### [MINIPORT_SYNCHRONOUS_OID_REQUEST function](../ndis/nf-ndis-miniport_synchronous_oid_request.md)
+### [NDIS_DECLARE_SWITCH_NET_BUFFER_LIST_CONTEXT_TYPE macro](../ndis/nf-ndis-ndis_declare_switch_net_buffer_list_context_type.md)
 ### [NDIS_GET_NET_BUFFER_LIST_CANCEL_ID macro](../ndis/nf-ndis-ndis_get_net_buffer_list_cancel_id.md)
 ### [NDIS_INIT_MUTEX macro](../ndis/nf-ndis-ndis_init_mutex.md)
 ### [NDIS_LOWER_IRQL macro](../ndis/nf-ndis-ndis_lower_irql.md)
