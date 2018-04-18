@@ -18,3 +18,64 @@ ms.topic: portal
 This header is used by wdf. For more information, see:
 
 - [Windows Driver Framework](../_wdf/index.md)
+
+This topic orders the Windows Driver Frameworks (WDF) physical device object (PDO) reference by category.
+
+The categories on this page are:
+
+-   [Framework PDO Event Callbacks](#framework-pdo-event-callbacks)
+-   [Framework PDO Initialization Methods](#framework-pdo-initialization-methods)
+-   [Framework PDO Methods](#framework-pdo-methods)
+-   [Framework PDO Structures and Initialization Functions](#framework-pdo-structures-and-initialization-functions)
+
+## Framework PDO Event Callbacks
+
+-   [*EvtDeviceDisableWakeAtBus*](https://msdn.microsoft.com/library/windows/hardware/ff540858)
+-   [*EvtDeviceEject*](https://msdn.microsoft.com/library/windows/hardware/ff540863)
+-   [*EvtDeviceEnableWakeAtBus*](https://msdn.microsoft.com/library/windows/hardware/ff540866)
+-   [*EvtDeviceReportedMissing*](https://msdn.microsoft.com/library/windows/hardware/hh406360)
+-   [*EvtDeviceResourceRequirementsQuery*](https://msdn.microsoft.com/library/windows/hardware/ff540894)
+-   [*EvtDeviceResourcesQuery*](https://msdn.microsoft.com/library/windows/hardware/ff540895)
+-   [*EvtDeviceSetLock*](https://msdn.microsoft.com/library/windows/hardware/ff540909)
+
+## Framework PDO Initialization Methods
+
+-   [**WdfPdoInitAddCompatibleID**](https://msdn.microsoft.com/library/windows/hardware/ff548776)
+-   [**WdfPdoInitAddDeviceText**](https://msdn.microsoft.com/library/windows/hardware/ff548780)
+-   [**WdfPdoInitAddHardwareID**](https://msdn.microsoft.com/library/windows/hardware/ff548784)
+-   [**WdfPdoInitAllocate**](https://msdn.microsoft.com/library/windows/hardware/ff548786)
+-   [**WdfPdoInitAllowForwardingRequestToParent**](https://msdn.microsoft.com/library/windows/hardware/ff548789)
+-   [**WdfPdoInitAssignContainerID**](https://msdn.microsoft.com/library/windows/hardware/ff548792)
+-   [**WdfPdoInitAssignDeviceID**](https://msdn.microsoft.com/library/windows/hardware/ff548797)
+-   [**WdfPdoInitAssignInstanceID**](https://msdn.microsoft.com/library/windows/hardware/ff548799)
+-   [**WdfPdoInitAssignRawDevice**](https://msdn.microsoft.com/library/windows/hardware/ff548802)
+-   [**WdfPdoInitSetDefaultLocale**](https://msdn.microsoft.com/library/windows/hardware/ff548803)
+-   [**WdfPdoInitSetEventCallbacks**](https://msdn.microsoft.com/library/windows/hardware/ff548805)
+
+## Framework PDO Methods
+
+-   [**WdfPdoInitAddCompatibleID**](https://msdn.microsoft.com/library/windows/hardware/ff548776)
+-   [**WdfPdoAddEjectionRelationsPhysicalDevice**](https://msdn.microsoft.com/library/windows/hardware/ff548770)
+-   [**WdfPdoClearEjectionRelationsDevices**](https://msdn.microsoft.com/library/windows/hardware/ff548771)
+-   [**WdfPdoGetParent**](https://msdn.microsoft.com/library/windows/hardware/ff548774)
+-   [**WdfPdoInitAddDeviceText**](https://msdn.microsoft.com/library/windows/hardware/ff548780)
+-   [**WdfPdoInitAddHardwareID**](https://msdn.microsoft.com/library/windows/hardware/ff548784)
+-   [**WdfPdoInitAllocate**](https://msdn.microsoft.com/library/windows/hardware/ff548786)
+-   [**WdfPdoInitAllowForwardingRequestToParent**](https://msdn.microsoft.com/library/windows/hardware/ff548789)
+-   [**WdfPdoInitAssignContainerID**](https://msdn.microsoft.com/library/windows/hardware/ff548792)
+-   [**WdfPdoInitAssignDeviceID**](https://msdn.microsoft.com/library/windows/hardware/ff548797)
+-   [**WdfPdoInitAssignInstanceID**](https://msdn.microsoft.com/library/windows/hardware/ff548799)
+-   [**WdfPdoInitAssignRawDevice**](https://msdn.microsoft.com/library/windows/hardware/ff548802)
+-   [**WdfPdoInitSetDefaultLocale**](https://msdn.microsoft.com/library/windows/hardware/ff548803)
+-   [**WdfPdoInitSetEventCallbacks**](https://msdn.microsoft.com/library/windows/hardware/ff548805)
+-   [**WdfPdoMarkMissing**](https://msdn.microsoft.com/library/windows/hardware/ff548809)
+-   [**WdfPdoRemoveEjectionRelationsPhysicalDevice**](https://msdn.microsoft.com/library/windows/hardware/ff548814)
+-   [**WdfPdoRequestEject**](https://msdn.microsoft.com/library/windows/hardware/ff548817)
+-   [**WdfPdoRetrieveAddressDescription**](https://msdn.microsoft.com/library/windows/hardware/ff548820)
+-   [**WdfPdoRetrieveIdentificationDescription**](https://msdn.microsoft.com/library/windows/hardware/ff548824)
+-   [**WdfPdoUpdateAddressDescription**](https://msdn.microsoft.com/library/windows/hardware/ff548826)
+
+## Framework PDO Structures and Initialization Functions
+
+-   [**WDF\_PDO\_EVENT\_CALLBACKS**](https://msdn.microsoft.com/library/windows/hardware/ff552409)
+-   [**WDF\_PDO\_EVENT\_CALLBACKS\_INIT**](https://msdn.microsoft.com/library/windows/hardware/ff552413)
