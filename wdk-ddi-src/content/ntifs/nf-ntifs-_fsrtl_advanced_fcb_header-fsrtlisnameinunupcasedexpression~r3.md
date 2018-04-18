@@ -15,7 +15,7 @@ req.target-min-winverclnt: Windows 10 (Version 1803)
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
-req.lib:
+req.lib: NtosKrnl.exe
 req.dll:
 req.irql: PASSIVE_LEVEL
 req.ddi-compliance:
@@ -85,3 +85,4 @@ If only one of the string parameters has a length of zero, FsRtlIsNameInUnUpcase
 If both parameters are null strings, FsRtlIsNameInUnUpcasedExpression returns TRUE.
 
 ## -see-also
+- [FsRtlIsNameInExpression](https://msdn.microsoft.com/library/windows/hardware/ff546850)

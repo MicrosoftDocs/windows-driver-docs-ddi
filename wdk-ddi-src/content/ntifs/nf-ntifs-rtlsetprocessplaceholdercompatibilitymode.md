@@ -51,6 +51,40 @@ The placeholder compatibility mode to set.
 
 ## -returns
 This function returns the process's previous placeholder compatibily mode (PHCM_xxx), or a negative value on error (PCHM_ERROR_xxx).
+
+It can be one of the following values:
+
+<table>
+<tr>
+<th>Compatibility Mode</th>
+<th>Value</th>
+</tr>
+<tr>
+<td>PHCM_APPLICATION_DEFAULT</td>
+<td>0</td>
+</tr>
+<tr>
+<td>PHCM_DISGUISE_PLACEHOLDER</td>
+<td>1</td>
+</tr>
+<tr>
+<td>PHCM_EXPOSE_PLACEHOLDERS</td>
+<td>2</td>
+</tr>
+<tr>
+<td>PHCM_MAX </td>
+<td>2</td>
+</tr>
+<tr>
+<td>PHCM_ERROR_INVALID_PARAMETER</td>
+<td>-1</td>
+</tr>
+<tr>
+<td>PHCM_ERROR_NO_TEB</td>
+<td>-2</td>
+</tr>
+</table>
+
 ## -remarks
 
 ## -see-also

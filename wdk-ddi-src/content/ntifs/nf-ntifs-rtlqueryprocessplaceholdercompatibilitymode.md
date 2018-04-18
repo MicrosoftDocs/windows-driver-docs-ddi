@@ -15,7 +15,7 @@ req.target-min-winverclnt: Windows 10 (Version 1803)
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
-req.lib:
+req.lib: NtosKrnl.exe
 req.dll:
 req.irql: 
 req.ddi-compliance:
@@ -49,8 +49,41 @@ The **RtlSetProcessPlaceholderCompatibilityMode** function returns the placehold
 
 
 ## -returns
-This function returns  the process's placeholder compatibily mode (PHCM_xxx), or a negative value on error (PCHM_ERROR_xxx).
+This function returns  the process's placeholder compatibily mode (PHCM_xxx), or a negative value on error (PCHM_ERROR_xxx). Contains one of the following values:
+
+<table>
+<tr>
+<th>Compatibility Mode</th>
+<th>Value</th>
+</tr>
+<tr>
+<td>PHCM_APPLICATION_DEFAULT</td>
+<td>0</td>
+</tr>
+<tr>
+<td>PHCM_DISGUISE_PLACEHOLDER</td>
+<td>1</td>
+</tr>
+<tr>
+<td>PHCM_EXPOSE_PLACEHOLDERS</td>
+<td>2</td>
+</tr>
+<tr>
+<td>PHCM_MAX </td>
+<td>2</td>
+</tr>
+<tr>
+<td>PHCM_ERROR_INVALID_PARAMETER</td>
+<td>-1</td>
+</tr>
+<tr>
+<td>PHCM_ERROR_NO_TEB</td>
+<td>-2</td>
+</tr>
+</table>
 
 ## -remarks
+
+This function is similar to [RtlQueryThreadPlaceholderCompatibilityMode](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-rtlquerythreadplaceholdercompatibilitymode), but performs at a process level instead of a thread level. 
 
 ## -see-also

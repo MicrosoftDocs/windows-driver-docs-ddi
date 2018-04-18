@@ -15,7 +15,7 @@ req.target-min-winverclnt: Windows 10 (Version 1803)
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
-req.lib:
+req.lib: NtosKrnl.exe
 req.dll:
 req.irql: 
 req.ddi-compliance:
@@ -55,6 +55,14 @@ Specifies a pointer to the [SECTION_OBJECT_POINTERS](https://docs.microsoft.com/
 
 ### -param ForceCloseFlags
 Contains flags that indicate if the section should  be marked for closing later (as soon as possible) in the event this section cannot be closed now due to outstanding references.
+
+Contains one of the following flags:
+
+* MM_FORCE_CLOSED_LATER_OK if the section should be marked for immediate closing in the event that the section cannot be closed due to outstanding references.
+
+* MM_FORCE_CLOSED_DATA to force data section closure.
+
+* MM_FORCE_CLOSED_IMAGE to force image section closure.
 
 ## -returns
 This function returns TRUE if the segment was deleted and the file closed or no segment was located.  If more than one segment type is specified (data/image) then they must both be successfully deleted for TRUE to be returned.
