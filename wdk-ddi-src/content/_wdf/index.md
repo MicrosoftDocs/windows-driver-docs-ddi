@@ -2,7 +2,7 @@
 UID: TP:wdf
 ms.assetid: cf4c7959-f8f4-3342-82e9-ced7b9f1b959
 ms.author: windowsdriverdev
-ms.date: 04/03/18
+ms.date: 04/06/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

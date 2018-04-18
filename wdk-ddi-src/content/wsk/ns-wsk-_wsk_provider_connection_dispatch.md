@@ -125,6 +125,13 @@ A pointer to the WSK subsystem's
      <a href="https://msdn.microsoft.com/1BC518E9-747C-4406-8A2A-40A3BCB0A3AA">WskConnectEx</a> function for the
      socket.
 
+### -field WskSendEx
+
+This member is reserved for system use.
+
+### -field WskReceiveEx
+
+This member is reserved for system use.
 
 ## -remarks
 
