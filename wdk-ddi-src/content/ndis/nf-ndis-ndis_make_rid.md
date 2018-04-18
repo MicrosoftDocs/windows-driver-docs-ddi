@@ -11,7 +11,7 @@ ms.keywords: NDIS_MAKE_RID
 req.header: ndis.h
 req.include-header:
 req.target-type: Desktop
-req.target-min-winverclnt:
+req.target-min-winverclnt: Supported in NDIS 6.30 and later.
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:

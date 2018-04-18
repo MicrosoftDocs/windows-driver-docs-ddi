@@ -11,7 +11,7 @@ ms.keywords: NDIS_WAIT_FOR_MUTEX
 req.header: ndis.h
 req.include-header:
 req.target-type: Universal
-req.target-min-winverclnt:
+req.target-min-winverclnt: Supported in NDIS 6.0 and later.
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:

@@ -11,7 +11,7 @@ ms.keywords: NET_BUFFER_SHARED_MEM_HANDLE
 req.header: ndis.h
 req.include-header:
 req.target-type: Universal
-req.target-min-winverclnt:
+req.target-min-winverclnt: Supported in NDIS 6.20 and later.
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:

@@ -11,7 +11,7 @@ ms.keywords: NDIS_NBL_REMOVE_MEDIA_SPECIFIC_INFO
 req.header: ndis.h
 req.include-header:
 req.target-type: Universal
-req.target-min-winverclnt:
+req.target-min-winverclnt: Supported in NDIS 6.0 and 6.1. For NDIS 6.20 and later, use NDIS_NBL_REMOVE_MEDIA_SPECIFIC_INFO_EX.
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:

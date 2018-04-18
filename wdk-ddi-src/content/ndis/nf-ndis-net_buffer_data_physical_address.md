@@ -12,7 +12,7 @@ req.header: ndis.h
 req.include-header:
 req.target-type: Universal
 req.target-min-winverclnt:
-req.target-min-winversvr:
+req.target-min-winversvr: Supported in NDIS 6.1 and later.
 req.kmdf-ver:
 req.umdf-ver:
 req.lib:
