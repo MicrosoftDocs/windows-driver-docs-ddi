@@ -1,19 +1,19 @@
 ---
-UID: NS:ntifs._ENCRYPTION_KEY_CTRL_INPUT
-title: _ENCRYPTION_KEY_CTRL_INPUT
+UID: NS:ntddstor._DEVICE_DSM_FREE_SPACE_OUTPUT
+title: _DEVICE_DSM_FREE_SPACE_OUTPUT
 author: windows-driver-content
 description: 
-ms.assetid: 33f076b8-ade2-4a34-b3ca-92baf4dcd416
+ms.assetid: dda3243e-6416-442d-b7f6-81a2bc093f82
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
 ms.prod: windows-hardware
 ms.technology: windows-devices
-ms.keywords: _ENCRYPTION_KEY_CTRL_INPUT, ENCRYPTION_KEY_CTRL_INPUT, *PENCRYPTION_KEY_CTRL_INPUT, 
-req.header: ntifs.h
+ms.keywords: _DEVICE_DSM_FREE_SPACE_OUTPUT, DEVICE_DSM_FREE_SPACE_OUTPUT, *PDEVICE_DSM_FREE_SPACE_OUTPUT, 
+req.header: ntddstor.h
 req.include-header:
 req.target-type:
-req.target- min-winverclnt: Windows 10 (Version 1803)
+req.target-min-winverclnt:
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
@@ -22,27 +22,29 @@ req.dll:
 req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
-req.typenames: ENCRYPTION_KEY_CTRL_INPUT, *PENCRYPTION_KEY_CTRL_INPUT
+req.typenames: DEVICE_DSM_FREE_SPACE_OUTPUT, *PDEVICE_DSM_FREE_SPACE_OUTPUT
 topic_type: 
 -	apiref
 api_type: 
 -	HeaderDef
 api_location: 
--	ntifs.h
+-	ntddstor.h
 api_name: 
--	_ENCRYPTION_KEY_CTRL_INPUT
+-	_DEVICE_DSM_FREE_SPACE_OUTPUT
 product: Windows
 targetos: Windows
 ---
 
-# _ENCRYPTION_KEY_CTRL_INPUT structure
+# _DEVICE_DSM_FREE_SPACE_OUTPUT structure
 
 ## -description
 
 
 ## -struct-fields
 
-### -field IsProtect
+### -field Version
+ 
+### -field FreeSpace
  
 
 ## -remarks

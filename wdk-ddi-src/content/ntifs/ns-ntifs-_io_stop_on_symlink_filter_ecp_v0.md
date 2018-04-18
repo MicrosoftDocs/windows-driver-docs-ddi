@@ -13,7 +13,7 @@ ms.keywords: _IO_STOP_ON_SYMLINK_FILTER_ECP_v0, IO_STOP_ON_SYMLINK_FILTER_ECP_v0
 req.header: ntifs.h
 req.include-header:
 req.target-type:
-req.target-min-winverclnt:
+req.target- min-winverclnt: Windows 10 (Version 1803)
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
