@@ -15,7 +15,7 @@ req.target-min-winverclnt:
 req.target-min-winversvr:
 req.kmdf-ver: 1.25
 req.umdf-ver:
-req.lib:netpacket.h
+req.lib: netpacket.h
 req.dll:
 req.irql: PASSIVE_LEVEL
 req.ddi-compliance:
@@ -42,6 +42,7 @@ targetos: Windows
 
 
 ## -description
+
 > [!WARNING]
 > Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 >

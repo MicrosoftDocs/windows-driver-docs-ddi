@@ -76,7 +76,6 @@ Header files that support NetAdapterCx include the following:
 - [Netconfiguration.h](../netconfiguration/index.md)
 - [Netdatapathdescriptor.h](../netdatapathdescriptor/index.md)
 - [Netpacket.h](../netpacket/index.md)
-- [Netpnp.h](../netpnp/index.md)
 - [Netpowersettings.h](../netpowersettings/index.md)
 - [Netreceivescaling.h](../netreceivescaling/index.md)
 - [Netrequest.h](../netrequest/index.md)
