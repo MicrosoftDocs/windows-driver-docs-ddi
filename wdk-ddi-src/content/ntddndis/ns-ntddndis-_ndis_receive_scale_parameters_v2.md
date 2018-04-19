@@ -49,6 +49,11 @@ req.typenames: NDIS_RECEIVE_SCALE_PARAMETERS_V2, *PNDIS_RECEIVE_SCALE_PARAMETERS
 
 ## -description
 
+> [!WARNING]
+> Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
+>
+> RSSv2 is preview only in Windows 10, version 1803.
+
 The **NDIS_RECEIVE_SCALE_PARAMETERS_V2** structure specifies the Receive Side Scaling (RSS) parameters for a miniport adapter that advertises support for <a href="https://docs.microsoft.com/windows-hardware/drivers/network/receive-side-scaling-version-2-rssv2-">RSS Version 2 (RSSv2)</a>. It is used in the <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-receive-scale-parameters-v2">OID_GEN_RECEIVE_SCALE_PARAMETERS_V2</a> OID.
 
 

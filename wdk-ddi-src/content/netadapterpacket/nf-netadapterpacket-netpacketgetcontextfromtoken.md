@@ -58,6 +58,8 @@ Client drivers should not call this method directly. Instead, they should call a
 
 ### -param Descriptor
 
+Reserved.
+
 ### -param NetPacket
 Reserved.
 
