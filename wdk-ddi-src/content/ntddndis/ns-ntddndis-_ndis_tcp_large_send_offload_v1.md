@@ -162,7 +162,23 @@ For an
 The following flags are defined for the 
     <b>Encapsulation</b> member:
 
+NDIS_ENCAPSULATION_NONE or NDIS_ENCAPSULATION_NOT_SUPPORTED  
+Specifies that no encapsulation offload is supported.
 
+NDIS_ENCAPSULATION_NULL  
+Specifies NULL encapsulation.
+
+NDIS_ENCAPSULATION_IEEE_802_3  
+Specifies IEEE 802.3 encapsulation.
+
+NDIS_ENCAPSULATION_IEEE_802_3_P_AND_Q  
+Specifies IEEE 802.3p and IEEE 802.3q encapsulation.
+
+NDIS_ENCAPSULATION_IEEE_802_3_P_AND_Q_IN_OOB  
+Specifies that IEEE 802.3p and IEEE 802.3q encapsulation settings are specified in the NetBufferListInfo member of each NET_BUFFER_LIST structure.
+
+NDIS_ENCAPSULATION_IEEE_LLC_SNAP_ROUTED  
+Specifies logical link control (LLC) encapsulation for routed protocols, as described in RFC 1483. This flag is also used to indicate Ethernet LLC/SNAP encapsulation.
 
 The values in the 
     <b>TcpOptions</b> and 
@@ -173,9 +189,11 @@ The values in the
     NDIS_STATUS_TASK_OFFLOAD_CURRENT_CONFIG</a> status indication. These members can have one of the
     following values:
 
+NDIS_OFFLOAD_NOT_SUPPORTED  
+The miniport adapter does not support the feature that the member specifies.
 
-
-
+NDIS_OFFLOAD_SUPPORTED  
+The miniport adapter supports the feature that the member specifies
 
 
 ## -see-also

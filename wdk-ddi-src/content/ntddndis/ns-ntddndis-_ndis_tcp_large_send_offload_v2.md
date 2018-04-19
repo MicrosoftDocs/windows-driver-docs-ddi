@@ -197,10 +197,23 @@ For an
 The following flags are defined for the 
     <b>Encapsulation</b> members:
 
+NDIS_ENCAPSULATION_NOT_SUPPORTED  
+Specifies that no encapsulation offload is supported.
 
+NDIS_ENCAPSULATION_NULL  
+Specifies NULL encapsulation.
 
+NDIS_ENCAPSULATION_IEEE_802_3  
+Specifies IEEE 802.3 encapsulation.
 
+NDIS_ENCAPSULATION_IEEE_802_3_P_AND_Q  
+Specifies IEEE 802.3p and IEEE 802.3q encapsulation.
 
+NDIS_ENCAPSULATION_IEEE_802_3_P_AND_Q_IN_OOB  
+Specifies that IEEE 802.3p and IEEE 802.3q encapsulation settings are specified in the NetBufferListInfo member of each NET_BUFFER_LIST structure.
+
+NDIS_ENCAPSULATION_IEEE_LLC_SNAP_ROUTED  
+Specifies logical link control (LLC) encapsulation for routed protocols, as described in RFC 1483. This flag is also used to indicate Ethernet LLC/SNAP encapsulation.
 
 ## -see-also
 
