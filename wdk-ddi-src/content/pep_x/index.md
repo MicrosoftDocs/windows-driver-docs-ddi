@@ -2,7 +2,7 @@
 UID: NA:pep_x
 ms.assetid: 58bb1f9b-0265-3590-af11-186f988fd807
 ms.author: windowsdriverdev
-ms.date: 04/05/18
+ms.date: 04/06/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
