@@ -2,7 +2,7 @@
 UID: TP:ifsk
 ms.assetid: c842e40c-3483-3721-b6bf-4da6e333af1a
 ms.author: windowsdriverdev
-ms.date: 04/03/18
+ms.date: 04/20/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -11,7 +11,7 @@ ms.topic: portal
 
 # Installable file system
 
-## -description
+
 
 Overview of the Installable file system technology.
 
@@ -49,7 +49,7 @@ To develop Installable file system, you need these headers:
  * [struchdr.h](..\struchdr\index.md)
  * [tdi.h](..\tdi\index.md)
 
-For the programming guide, see [Installable file system](===404===https://docs.microsoft.com/en-us/windows-hardware/drivers/ifsk).
+For the programming guide, see [Installable file system](https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs).
 
 ## Functions
 

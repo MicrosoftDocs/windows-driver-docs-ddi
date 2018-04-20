@@ -2,7 +2,7 @@
 UID: TP:hid
 ms.assetid: 87c002be-da96-313a-bae1-c6a49c9ce065
 ms.author: windowsdriverdev
-ms.date: 04/03/18
+ms.date: 04/20/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -11,7 +11,7 @@ ms.topic: portal
 
 # Human Interface Devices (HID)
 
-## -description
+
 
 Overview of the Human Interface Devices (HID) technology.
 
