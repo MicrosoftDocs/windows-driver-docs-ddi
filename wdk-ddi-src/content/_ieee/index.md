@@ -2,7 +2,7 @@
 UID: TP:ieee
 ms.assetid: 59b7bc84-1989-38ca-a623-40657bb0f3b5
 ms.author: windowsdriverdev
-ms.date: 04/03/18
+ms.date: 04/20/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -2,7 +2,7 @@
 UID: NA:iscsifnd
 ms.assetid: 62424815-b11c-3693-9aa3-e63ce262de2b
 ms.author: windowsdriverdev
-ms.date: 04/03/18
+ms.date: 04/20/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -12,7 +12,7 @@ ms.topic: portal
 # Iscsifnd.h header
 
 
-## -description
+
 
 
 This header is used by storage. For more information, see:

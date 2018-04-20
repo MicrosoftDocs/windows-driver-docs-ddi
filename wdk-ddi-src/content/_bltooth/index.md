@@ -2,7 +2,7 @@
 UID: TP:bltooth
 ms.assetid: a24d2124-fb4a-3c14-aeb8-83c46e9ed71c
 ms.author: windowsdriverdev
-ms.date: 04/03/18
+ms.date: 04/20/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -24,7 +24,7 @@ To develop Bluetooth, you need these headers:
  * [sdplib.h](..\sdplib\index.md)
  * [sdpnode.h](..\sdpnode\index.md)
 
-For the programming guide, see [Bluetooth](===404===https://docs.microsoft.com/en-us/windows-hardware/drivers/bltooth).
+For the programming guide, see [Bluetooth](https://docs.microsoft.com/en-us/windows-hardware/drivers/bluetooth).
 
 ## Functions
 

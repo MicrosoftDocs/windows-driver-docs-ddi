@@ -2,20 +2,20 @@
 UID: TP:usbref
 ms.assetid: 3ef75da3-dd0a-3f40-b741-d6c381f1ed78
 ms.author: windowsdriverdev
-ms.date: 04/03/18
+ms.date: 04/20/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 ---
 
-# Universal Serial Bus(USB)
+# Universal Serial Bus (USB)
 
 ## -description
 
-Overview of the Universal Serial Bus(USB) technology.
+Overview of the Universal Serial Bus (USB) technology.
 
-To develop Universal Serial Bus(USB), you need these headers:
+To develop Universal Serial Bus (USB), you need these headers:
 
  * [hubbusif.h](..\hubbusif\index.md)
  * [kusbfnclasslib.h](..\kusbfnclasslib\index.md)
@@ -63,7 +63,7 @@ To develop Universal Serial Bus(USB), you need these headers:
  * [usbiodef.h](..\usbiodef\index.md)
  * [usbspec.h](..\usbspec\index.md)
 
-For the programming guide, see [Universal Serial Bus(USB)](https://docs.microsoft.com/en-us/windows-hardware/drivers/stream).
+For the programming guide, see [Universal Serial Bus (USB)](https://docs.microsoft.com/en-us/windows-hardware/drivers/usbcon).
 
 ## Functions
 

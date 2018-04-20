@@ -2,7 +2,7 @@
 UID: NA:sti
 ms.assetid: 68cc0060-fd37-3ec3-a689-419b81682f45
 ms.author: windowsdriverdev
-ms.date: 04/03/18
+ms.date: 04/20/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -12,7 +12,7 @@ ms.topic: portal
 # Sti.h header
 
 
-## -description
+
 
 
 This header is used by image. For more information, see:

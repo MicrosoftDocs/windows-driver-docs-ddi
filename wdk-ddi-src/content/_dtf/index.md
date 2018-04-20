@@ -2,20 +2,20 @@
 UID: TP:dtf
 ms.assetid: d5452dd2-c8e3-30e9-8760-2f451dbe92d2
 ms.author: windowsdriverdev
-ms.date: 04/03/18
+ms.date: 04/20/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 ---
 
-# Dtf
+# Windows Device Testing Framework (WDTF)
 
 ## -description
 
-Overview of the Dtf technology.
+Overview of the Windows Device Testing Framework (WDTF) technology.
 
-To develop Dtf, you need these headers:
+To develop Windows Device Testing Framework (WDTF), you need these headers:
 
  * [comtracing.h](..\comtracing\index.md)
  * [interruption.h](..\interruption\index.md)
@@ -56,7 +56,7 @@ To develop Dtf, you need these headers:
  * [wextypes.h](..\wextypes\index.md)
  * [wppdefs.h](..\wppdefs\index.md)
 
-
+For the programming guide, see [Windows Device Testing Framework (WDTF)](https://docs.microsoft.com/en-us/windows-hardware/drivers/wdtf).
 
 ## Enumerations
 

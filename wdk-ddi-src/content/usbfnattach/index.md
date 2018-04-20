@@ -2,7 +2,7 @@
 UID: NA:usbfnattach
 ms.assetid: f153fba1-6817-3150-8868-0ae60962b0ac
 ms.author: windowsdriverdev
-ms.date: 04/03/18
+ms.date: 04/20/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -12,7 +12,7 @@ ms.topic: portal
 # Usbfnattach.h header
 
 
-## -description
+
 
 
 This header is used by usbref. For more information, see:

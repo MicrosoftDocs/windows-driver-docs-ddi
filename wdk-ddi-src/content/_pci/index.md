@@ -2,19 +2,19 @@
 UID: TP:pci
 ms.assetid: 8ff09fc0-6843-3e40-9d39-7509ce88abbc
 ms.author: windowsdriverdev
-ms.date: 04/03/18
+ms.date: 04/20/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 ---
 
-# PCI bus drivers
+# Pci
 
 ## -description
 
-Overview of the PCI bus drivers technology.
+Overview of the Pci technology.
 
-The PCI bus drivers technology is not associated with any headers.
+The Pci technology is not associated with any headers.
 
-For the programming guide, see [PCI bus drivers](https://docs.microsoft.com/en-us/windows-hardware/drivers/pci).
+
