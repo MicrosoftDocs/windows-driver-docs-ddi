@@ -11,7 +11,7 @@ ms.topic: portal
 
 # Point of Service (POS)
 
-## -description
+
 
 Overview of the Point of Service (POS) technology.
 

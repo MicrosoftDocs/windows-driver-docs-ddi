@@ -11,7 +11,7 @@ ms.topic: portal
 
 # Installable file system
 
-## -description
+
 
 Overview of the Installable file system technology.
 

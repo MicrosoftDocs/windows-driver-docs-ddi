@@ -11,7 +11,7 @@ ms.topic: portal
 
 # Networking drivers for Windows Vista and later
 
-## -description
+
 
 Overview of the Networking drivers for Windows Vista and later technology.
 

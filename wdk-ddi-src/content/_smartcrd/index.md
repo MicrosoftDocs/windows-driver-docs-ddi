@@ -11,7 +11,7 @@ ms.topic: portal
 
 # Smartcard device drivers
 
-## -description
+
 
 Overview of the Smartcard device drivers technology.
 

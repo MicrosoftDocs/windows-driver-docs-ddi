@@ -11,7 +11,7 @@ ms.topic: portal
 
 # Imaging devices
 
-## -description
+
 
 Overview of the Imaging devices technology.
 

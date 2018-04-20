@@ -17,4 +17,4 @@ ms.topic: portal
 
 This header is used by smartcrd. For more information, see:
 
-- [<built-in method title of str object at 0x00000111789660B0>](../_smartcrd/index.md)
+- [<built-in method title of str object at 0x0000016DF4486030>](../_smartcrd/index.md)

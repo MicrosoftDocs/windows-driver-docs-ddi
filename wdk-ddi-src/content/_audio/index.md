@@ -11,7 +11,7 @@ ms.topic: portal
 
 # Audio
 
-## -description
+
 
 Overview of the Audio technology.
 

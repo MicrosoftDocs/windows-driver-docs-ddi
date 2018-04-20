@@ -11,7 +11,7 @@ ms.topic: portal
 
 # ACPI
 
-## -description
+
 
 Overview of the ACPI technology.
 

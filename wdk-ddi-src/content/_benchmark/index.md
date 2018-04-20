@@ -11,7 +11,7 @@ ms.topic: portal
 
 # Benchmark
 
-## -description
+
 
 Overview of the Benchmark technology.
 

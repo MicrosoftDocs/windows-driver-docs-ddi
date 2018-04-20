@@ -11,7 +11,7 @@ ms.topic: portal
 
 # IEEE 1394 bus
 
-## -description
+
 
 Overview of the IEEE 1394 bus technology.
 

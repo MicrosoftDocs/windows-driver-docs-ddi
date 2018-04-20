@@ -11,7 +11,7 @@ ms.topic: portal
 
 # Storage
 
-## -description
+
 
 Overview of the Storage technology.
 

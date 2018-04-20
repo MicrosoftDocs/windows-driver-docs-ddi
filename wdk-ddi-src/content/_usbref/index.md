@@ -11,7 +11,7 @@ ms.topic: portal
 
 # Universal Serial Bus (USB)
 
-## -description
+
 
 Overview of the Universal Serial Bus (USB) technology.
 

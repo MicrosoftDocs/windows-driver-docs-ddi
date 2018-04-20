@@ -11,7 +11,7 @@ ms.topic: portal
 
 # Battery
 
-## -description
+
 
 Overview of the Battery technology.
 

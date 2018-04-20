@@ -11,7 +11,7 @@ ms.topic: portal
 
 # Buses
 
-## -description
+
 
 Overview of the Buses technology.
 

@@ -11,7 +11,7 @@ ms.topic: portal
 
 # Windows kernel
 
-## -description
+
 
 Overview of the Windows kernel technology.
 

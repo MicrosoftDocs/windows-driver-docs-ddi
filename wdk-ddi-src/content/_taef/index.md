@@ -11,7 +11,7 @@ ms.topic: portal
 
 # Taef
 
-## -description
+
 
 Overview of the Taef technology.
 

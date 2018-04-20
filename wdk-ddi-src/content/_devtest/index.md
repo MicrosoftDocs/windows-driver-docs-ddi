@@ -11,7 +11,7 @@ ms.topic: portal
 
 # Driver test tools
 
-## -description
+
 
 Overview of the Driver test tools technology.
 

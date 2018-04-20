@@ -11,7 +11,7 @@ ms.topic: portal
 
 # Spd
 
-## -description
+
 
 Overview of the Spd technology.
 

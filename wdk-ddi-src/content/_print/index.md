@@ -11,7 +11,7 @@ ms.topic: portal
 
 # Print devices
 
-## -description
+
 
 Overview of the Print devices technology.
 

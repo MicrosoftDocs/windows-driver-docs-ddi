@@ -11,7 +11,7 @@ ms.topic: portal
 
 # Sensors
 
-## -description
+
 
 Overview of the Sensors technology.
 

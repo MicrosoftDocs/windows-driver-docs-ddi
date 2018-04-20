@@ -11,7 +11,7 @@ ms.topic: portal
 
 # Driver installation
 
-## -description
+
 
 Overview of the Driver installation technology.
 

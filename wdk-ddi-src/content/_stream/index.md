@@ -11,7 +11,7 @@ ms.topic: portal
 
 # Streaming media devices
 
-## -description
+
 
 Overview of the Streaming media devices technology.
 

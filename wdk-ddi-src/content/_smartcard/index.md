@@ -11,7 +11,7 @@ ms.topic: portal
 
 # Smartcard
 
-## -description
+
 
 Overview of the Smartcard technology.
 

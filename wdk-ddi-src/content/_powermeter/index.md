@@ -11,7 +11,7 @@ ms.topic: portal
 
 # Power metering
 
-## -description
+
 
 Overview of the Power metering technology.
 

@@ -11,7 +11,7 @@ ms.topic: portal
 
 # Gpio
 
-## -description
+
 
 Overview of the Gpio technology.
 

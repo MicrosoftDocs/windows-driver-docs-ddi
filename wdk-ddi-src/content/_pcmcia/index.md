@@ -11,7 +11,7 @@ ms.topic: portal
 
 # PCMCIA bus drivers
 
-## -description
+
 
 Overview of the PCMCIA bus drivers technology.
 

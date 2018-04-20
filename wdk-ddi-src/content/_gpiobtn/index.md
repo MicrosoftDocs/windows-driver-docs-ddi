@@ -11,7 +11,7 @@ ms.topic: portal
 
 # Gpiobtn
 
-## -description
+
 
 Overview of the Gpiobtn technology.
 

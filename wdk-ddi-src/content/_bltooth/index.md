@@ -11,7 +11,7 @@ ms.topic: portal
 
 # Bluetooth
 
-## -description
+
 
 Overview of the Bluetooth technology.
 

@@ -11,7 +11,7 @@ ms.topic: portal
 
 # Human Interface Devices (HID)
 
-## -description
+
 
 Overview of the Human Interface Devices (HID) technology.
 

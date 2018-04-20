@@ -11,7 +11,7 @@ ms.topic: portal
 
 # Parallel Ports
 
-## -description
+
 
 Overview of the Parallel Ports technology.
 

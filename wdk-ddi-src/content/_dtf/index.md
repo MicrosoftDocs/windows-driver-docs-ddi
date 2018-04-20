@@ -11,7 +11,7 @@ ms.topic: portal
 
 # Windows Device Testing Framework (WDTF)
 
-## -description
+
 
 Overview of the Windows Device Testing Framework (WDTF) technology.
 

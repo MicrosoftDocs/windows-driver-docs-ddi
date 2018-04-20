@@ -11,7 +11,7 @@ ms.topic: portal
 
 # Windows Driver Framework
 
-## -description
+
 
 Overview of the Windows Driver Framework technology.
 

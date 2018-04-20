@@ -11,7 +11,7 @@ ms.topic: portal
 
 # Near field communications (NFC)
 
-## -description
+
 
 Overview of the Near field communications (NFC) technology.
 

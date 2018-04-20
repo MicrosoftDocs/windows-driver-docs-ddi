@@ -11,7 +11,7 @@ ms.topic: portal
 
 # Display
 
-## -description
+
 
 Overview of the Display technology.
 

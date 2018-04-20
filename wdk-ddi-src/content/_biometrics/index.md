@@ -11,7 +11,7 @@ ms.topic: portal
 
 # Biometrics
 
-## -description
+
 
 Overview of the Biometrics technology.
 

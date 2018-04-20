@@ -11,7 +11,7 @@ ms.topic: portal
 
 # Pci
 
-## -description
+
 
 Overview of the Pci technology.
 

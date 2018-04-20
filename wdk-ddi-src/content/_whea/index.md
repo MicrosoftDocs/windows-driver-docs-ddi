@@ -11,7 +11,7 @@ ms.topic: portal
 
 # Whea
 
-## -description
+
 
 Overview of the Whea technology.
 
