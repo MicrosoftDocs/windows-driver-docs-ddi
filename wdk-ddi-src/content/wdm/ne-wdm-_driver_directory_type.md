@@ -11,7 +11,7 @@ ms.keywords: _DRIVER_DIRECTORY_TYPE, DRIVER_DIRECTORY_TYPE, *PDRIVER_DIRECTORY_T
 ms.prod: windows-hardware
 ms.technology: windows-devices
 req.header: wdm.h
-req.include-header: Windows 10, version 1803
+req.include-header:
 req.target-type:
 req.target-min-winverclnt:
 req.target-min-winversvr:
@@ -41,10 +41,10 @@ Defines values for the type of directory used by the driver to load and store fi
 ## -enum-fields
 
 ### -field DriverDirectoryImage
-The requested directory from which the driver is loaded. 
+The directory from which the driver was loaded.
 
 ### -field DriverDirectoryData
-The requested directory is a general-purpose directory in which the driver stores file. 
+The requested directory is a general-purpose directory in which the driver stores file that contains state-specific information to the internals of the driver.
 
 ## -remarks
 

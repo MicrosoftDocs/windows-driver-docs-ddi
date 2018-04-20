@@ -11,7 +11,7 @@ ms.keywords: IoGetDriverDirectory
 req.header: wdm.h
 req.include-header:
 req.target-type:
-req.target-min-winverclnt: Windows 10, version 1803
+req.target-min-winverclnt: 
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
@@ -43,7 +43,7 @@ targetos: Windows
 
 ## -description
 
-Returns a handle to a directory on disk, to the specified driver object, from which the driver can read and write files.
+Returns a handle to a directory on disk from which the driver can read and write files. The files in that directory apply to a specific driver object.
 
 ## -parameters
 
