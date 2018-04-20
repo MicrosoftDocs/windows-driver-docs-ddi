@@ -80,7 +80,9 @@ Pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff557
 
 <b>ZwOpenKey</b> returns STATUS_SUCCESS if the given key was opened. Otherwise, it can return an error status, including the following:
 
+STATUS_INVALID_HANDLE
 
+STATUS_ACCESS_DENIED 
 
 
 ## -remarks
