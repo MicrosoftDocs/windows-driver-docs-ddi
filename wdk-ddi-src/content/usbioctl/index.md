@@ -2,7 +2,7 @@
 UID: NA:usbioctl
 ms.assetid: 0cb01349-16ee-3a58-babe-fd5b85e93d9f
 ms.author: windowsdriverdev
-ms.date: 04/03/18
+ms.date: 04/20/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -12,7 +12,7 @@ ms.topic: portal
 # Usbioctl.h header
 
 
-## -description
+
 
 
 This header is used by usbref. For more information, see:

@@ -316,6 +316,28 @@ The following table summarizes the version information that is returned by suppo
 </tr>
 <tr>
 <td>
+Windows 10
+
+</td>
+<td>
+10.0
+
+</td>
+<td>
+10
+
+</td>
+<td>
+0
+
+</td>
+<td>
+<b>wProductType</b> == VER_NT_WORKSTATION
+
+</td>
+</tr>
+<tr>
+<td>
 Windows 8.1
 
 </td>
