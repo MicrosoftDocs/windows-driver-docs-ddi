@@ -461,6 +461,14 @@ The speaker configuration for a 5.1-channel surround format is defined by the co
 
 <img alt="Diagram illustrating a 5.1-channel surround speaker configuration; the low-frequency speaker is not shown" src="images/spkrposn-new.png"/>
 
+
+<img alt="Diagram illustrating a 5.1-channel surround speaker configuration; the low-frequency speaker is not shown" src="../images/audio-spkrposn-new.png"/>
+
+<img alt="Diagram illustrating a 5.1-channel surround speaker configuration; the low-frequency speaker is not shown" src="..\images\audio-spkrposn-new.png"/>
+
+<img alt="Diagram illustrating a 5.1-channel surround speaker configuration; the low-frequency speaker is not shown" src="..\\images\\audio-spkrposn-new.png"/>
+
+
 For this example, the following list shows the ordering of the six channels within each block of audio data:
 
 <ol>
