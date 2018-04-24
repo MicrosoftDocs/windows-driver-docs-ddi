@@ -36,14 +36,14 @@ targetos: Windows
 
 ## -description
 
-Defines values for the type of directory used by the driver to load and store files. This enumeration is used by the [**IoGetDeviceDirectory**](nf-wdm-iogetdevicedirectory.md) function.
+Defines values for the type of directory used by the driver to load and store files specific to a device instance. This enumeration is used by the [**IoGetDeviceDirectory**](nf-wdm-iogetdevicedirectory.md) function.
 
 
 ## -enum-fields
 
 ### -field DeviceDirectoryData
 
-The requested directory is a general-purpose directory in which the driver stores files. 
+The requested directory is a general-purpose directory in which the driver stores files, specific to a device instance. 
 
 ## -remarks
 

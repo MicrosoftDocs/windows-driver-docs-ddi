@@ -36,7 +36,7 @@ targetos: Windows
 
 ## -description
 
-Defines values for the type of directory used by the driver to load and store files. This enumeration is used by the [**IoGetDriverDirectory**](nf-wdm-iogetdriverdirectory.md) function.
+Defines values for the type of directory used by the driver to load and store files. This enumeration is used by the [**IoGetDriverDirectory**](nf-wdm-iogetdriverdirectory.md) function. The files in that directory apply to a specific driver object.
 
 ## -enum-fields
 
