@@ -54,13 +54,18 @@ Returns a handle to a directory on disk from which the driver can read and write
 [_In_] A [**_DRIVER_DIRECTORY_TYPE**](ne-wdm-_driver_directory_type.md)-type value that indicates the type of requested directory.
 
 ### -param Flags
-[_In_] Must be 0, otherwise this function returns STATUS_INVALID_PARAMETER.
+[_In_] Must be 0.
 
 ### -param DriverDirectoryHandle
-[_Out_] A pointer to a variable that receives a HANDLE to the requested driver directory. The caller must not pass NULL, otherwise this function returns STATUS_INVALID_PARAMETER.
+[_Out_] A pointer to a variable that receives a HANDLE to the requested driver directory. The caller must not pass NULL.
 
 ## -returns
-Returns STATUS_SUCCESS if the call successfully opened a handle to the requested driver directory. Otherwise returns an appropriate [NTSTATUS value](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ntstatus-values). 
+
+Returns an appropriate [NTSTATUS value](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ntstatus-values). Possible values include:
+| Error code               | Description                                                                                        |
+| ------------------------ | -------------------------------------------------------------------------------------------------- |
+| STATUS_SUCCESS           | The call successfully opened a handle to the requested driver directory.                           |
+| STATUS_INVALID_PARAMETER | An input value to this function is invalid. _DriverObject_ or DriverDirectoryHandle is NULL;  _Flags_ is not 0. |
 
 ## -remarks
 If **IoGetDriverDirectory** is called before the required disks and volumes have been started, the function does not open a handle and returns an error. 
