@@ -180,7 +180,8 @@ Specifies a value between -31416 and +31416.  When divided by 10,000, it gives a
 
 To better understand the descriptions for <i>wHorizontalAngle</i>  and <i>wVericalAngle</i>, consider the following diagram:
 
-<img alt="Diagram showing three microphones (Mic 1, Mic 2 and Mic 3) in an array. Mic 2 and Mic 3 are parallel to each other with their center lines parallel to the x axis, and with no vertical angle to their orientation. Mic 1  has a center line that is not parallel to the x axis and it also has a vertical angle to its orientation." src="images/micarrayangles.png"/>
+![Diagram showing three microphones (Mic 1, Mic 2 and Mic 3) in an array. Mic 2 and Mic 3 are parallel to each other with their center lines parallel to the x axis, and with no vertical angle to their orientation. Mic 1  has a center line that is not parallel to the x axis and it also has a vertical angle to its orientation.](../images/audio-micarrayangles.png)
+
 
 Let <b>x</b> be the axis which points from the center of the microphone array toward the most probable location of the user - that is, perpendicular to the screen.  Positive is toward the user, negative is behind the screen. Let <b>y</b> by the horizontal axis perpendicular to the x-axis - that is, from the left of the screen to the right.  Positive is to the user's right; negative is to the user's left. Let <b>z</b> be the vertical axis.
 

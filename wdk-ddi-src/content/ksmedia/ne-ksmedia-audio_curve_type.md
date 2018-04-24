@@ -106,8 +106,7 @@ for (UINT32 nFrame = 0; nFrame &lt; nFrames; nFrame++) {
 
 And the following diagram shows a graphical representation of the preceding pseudocode for setting the volume level.
 
-<img alt="Graphical representation of volume level curve" src="../images/audio-curve-type.png"/>
-
+![Graphical representation of volume level curve](../images/audio-curve-type.png)
 
 
 
