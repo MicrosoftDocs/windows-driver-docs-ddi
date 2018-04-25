@@ -12,9 +12,13 @@ ms.topic: portal
 # Wdfdevice.h header
 
 
+
+
 This header is used by wdf. For more information, see:
 
 - [Windows Driver Framework](../_wdf/index.md)
+- [wdffdo.h header](../wdffdo/index.md)
+- [wdfpdo.h header](../wdfpdo/index.md)
 
 This topic orders the Windows Driver Frameworks (WDF) device object reference by category.
 

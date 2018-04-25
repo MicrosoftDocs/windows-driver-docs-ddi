@@ -12,9 +12,14 @@ ms.topic: portal
 # Wdfpdo.h header
 
 
+
+
+
 This header is used by wdf. For more information, see:
 
 - [Windows Driver Framework](../_wdf/index.md)
+- [wdfdevice.h header](../wdfdevice/index.md)
+- [wdffdo.h header](../wdffdo/index.md)
 
 This topic orders the Windows Driver Frameworks (WDF) physical device object (PDO) reference by category.
 
