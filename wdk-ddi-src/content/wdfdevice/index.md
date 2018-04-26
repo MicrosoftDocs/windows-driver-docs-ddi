@@ -12,7 +12,7 @@ ms.topic: portal
 # Wdfdevice.h header
 
 
-
+## -description
 
 This header is used by wdf. For more information, see:
 
