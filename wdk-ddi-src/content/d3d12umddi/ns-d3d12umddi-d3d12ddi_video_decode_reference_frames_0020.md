@@ -15,20 +15,20 @@ ms.topic: struct
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support: Windows 10, version 1709
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -50,7 +50,7 @@ req.typenames: D3D12DDI_VIDEO_DECODE_REFERENCE_FRAMES_0020
 ## -description
 
 
-Contains the reference frames for the current decode operation.  
+Contains the reference frames for the current decode operation.
 
 
 ## -struct-fields
@@ -60,17 +60,17 @@ Contains the reference frames for the current decode operation.
 
 ### -field hDrvTexture2Ds
 
- 
+
 
 
 ### -field pSubresources
 
- 
+
 
 
 ### -field NumTexture2Ds
 
- 
+
 
 
 

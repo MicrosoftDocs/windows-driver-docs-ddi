@@ -2,7 +2,7 @@
 UID: TP:pos
 ms.assetid: 01ba4b30-aac9-383a-b7a2-32c112dfd250
 ms.author: windowsdriverdev
-ms.date: 04/03/18
+ms.date: 04/20/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -11,7 +11,7 @@ ms.topic: portal
 
 # Point of Service (POS)
 
-## -description
+
 
 Overview of the Point of Service (POS) technology.
 

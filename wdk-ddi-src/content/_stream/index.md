@@ -2,7 +2,7 @@
 UID: TP:stream
 ms.assetid: 955ea1c2-d8bc-36d6-8195-eadc9d53b016
 ms.author: windowsdriverdev
-ms.date: 04/03/18
+ms.date: 04/20/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -11,7 +11,7 @@ ms.topic: portal
 
 # Streaming media devices
 
-## -description
+
 
 Overview of the Streaming media devices technology.
 
@@ -36,74 +36,4 @@ To develop Streaming media devices, you need these headers:
 
 For the programming guide, see [Streaming media devices](https://docs.microsoft.com/en-us/windows-hardware/drivers/stream).
 
-
-In this section
-
-
-Topic
-Description
-
-
-
-
-AVStream Minidrivers Reference
-
-
-
-This section contains reference information  for AVStream minidrivers.
-
-
-
-
-
-Device MFT reference
-
-
-
-This section contains reference information for Device MFT.
-
-
-
-
-
-Windows 2000 Kernel Streaming Model Reference
-
-
-
-This section contains the reference pages for Kernel Streaming.
-
-
-
-
-
-Kernel Streaming Proxy Reference
-
-
-
-This section contains reference information for  the kernel-streaming (KS) proxy.
-
-
-
-
-
-Lamp DDI reference
-
-
-
-This section contains information about  lamp DDIs for Windows 10.
-
-
-
-
-
-Miscellaneous Stream reference constructs
-
-
-
-
-
- 
-
-
-Send comments about this topic to Microsoft
 

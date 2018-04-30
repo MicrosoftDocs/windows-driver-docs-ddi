@@ -69,11 +69,6 @@ Default value that can be used if other optional reasons are not supported.
 Required. A SIM card was detected by a modem.
 
 
-### -field WwanModemConfigReasonSIMRemoved
-
-Optional. A SIM card was removed.
-
-
 ### -field WwanModemConfigReasonNOSIM
 
 Optional. There is no SIM card.

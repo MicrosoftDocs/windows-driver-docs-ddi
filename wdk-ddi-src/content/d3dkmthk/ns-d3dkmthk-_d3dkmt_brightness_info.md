@@ -17,18 +17,18 @@ req.include-header: D3dkmthk.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -97,6 +97,21 @@ A value of type <a href="https://msdn.microsoft.com/library/windows/hardware/jj1
 
 A boolean value that indicates whether Event Tracing for Windows (ETW) logging of brightness information should be verbose.
 
+### -field NitRanges
+
+List of supported nit ranges.
+
+### -field GetBrightnessMillinits
+
+Queries the driver for the current brightness level, in millinits.
+
+### -field SetBrightnessMillinits
+
+Directs the driver to linearly ramp the brightness from its current brightness level to a target brightness level over a specified length of time.
+
+### -field ChildUid
+
+An integer that uniquely identifies the child device.
 
 ## -see-also
 

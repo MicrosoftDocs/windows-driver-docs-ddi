@@ -17,18 +17,18 @@ req.include-header: D3dkmthk.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -80,35 +80,37 @@ The adapter supports a power-on self-test (POST) device.
 
 ### -field HybridDiscrete
 
- 
+
 
 
 ### -field HybridIntegrated
 
- 
+
 
 
 ### -field IndirectDisplayDevice
 
- 
+
 
 
 ### -field Paravirtualized
 
- 
+The adapter supports paravirtualization.
 
 
 ### -field ACGSupported
 
- 
+
 
 
 ### -field SupportSetTimingsFromVidPn
 
- 
+
+### -field Detachable
 
 
 ### -field Reserved
 
 Reserved for system use.
 
+### -field Value

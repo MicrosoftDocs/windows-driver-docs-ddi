@@ -15,20 +15,20 @@ ms.topic: struct
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support: Windows 10, version 1709
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -80,7 +80,7 @@ The stereo format of the input.  For more information, see the <a href="https://
 
 ### -field InputFrameRate
 
-The input frame rate.  
+The input frame rate.
 
 
 ### -field OutputFormat
@@ -120,7 +120,7 @@ The deinterlace modes supported by the driver as a bitwise OR of zero or more fl
 
 ### -field AutoProcessingSupport
 
-Indicates the type of auto processing operations supported by driver.  
+Indicates the type of auto processing operations supported by driver.
 
 
 ### -field FilterSupport

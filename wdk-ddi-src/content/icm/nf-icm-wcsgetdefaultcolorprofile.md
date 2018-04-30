@@ -13,31 +13,31 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
 req.header: icm.h
-req.include-header: 
+req.include-header:
 req.target-type: Universal
 req.target-min-winverclnt: Included in Windows Vista and later.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
 req.lib: Mscms.lib
 req.dll: Mscms.dll
-req.irql: 
+req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+-   APIRef
+-   kbSyntax
 api_type:
--	DllExport
+-   DllExport
 api_location:
--	Mscms.dll
+-   Mscms.dll
 api_name:
--	WcsGetDefaultColorProfile
+-   WcsGetDefaultColorProfile
 product:
 - Windows
 targetos: Windows
@@ -60,7 +60,7 @@ The <code>WcsGetDefaultColorProfile</code> function retrieves the default color 
 
 ### -param scope
 
-TBD
+
 
 
 ### -param pDeviceName [in, optional]
@@ -129,7 +129,7 @@ This function is executable in Least-Privileged User Account (LUA) context.
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563730">WcsGetDefaultColorProfileSize</a>
-Â 
+Â
 
-Â 
+Â
 

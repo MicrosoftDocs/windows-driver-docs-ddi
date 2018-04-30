@@ -16,18 +16,18 @@ req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
 -	APIRef
@@ -60,9 +60,9 @@ The <b>DXGK_VIDMMCAPS</b> structure identifies the video memory management capab
 
 ### -field OutOfOrderLock
 
-Specifies whether the driver can lock allocation instances other than the latest instance. The driver typically sets this value for DDI threading and load balancing if a DDI thread must lock a vertex buffer that an application thread had previously locked and discarded. 
+Specifies whether the driver can lock allocation instances other than the latest instance. The driver typically sets this value for DDI threading and load balancing if a DDI thread must lock a vertex buffer that an application thread had previously locked and discarded.
 
-Setting this member is equivalent to setting the first bit of the 32-bit <b>Value</b> member (0x00000001). 
+Setting this member is equivalent to setting the first bit of the 32-bit <b>Value</b> member (0x00000001).
 
 
 ### -field DedicatedPagingEngine
@@ -123,17 +123,15 @@ Supported starting with Windows 10.
 
 ### -field NonCpuVisiblePrimary
 
- 
+
 
 
 ### -field ParavirtualizationSupported
 
- 
+The host KMD needs to set the cap if all DDIs are implemented.
 
 
 ### -field Reserved
-
-This member is reserved and should be set to zero.
 
 This member is reserved and should be set to zero.
 
@@ -141,7 +139,7 @@ This member is reserved and should be set to zero. Setting this member to zero i
 
 Note that this version of the <b>Reserved</b> member is available only if DXGKDDI_INTERFACE_VERSION &lt; DXGKDDI_INTERFACE_VERSION_WIN7.
 
-This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 31 bits (after setting <b>OutOfOrderLock</b>) of the <b>Value</b> member to zeros. 
+This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 31 bits (after setting <b>OutOfOrderLock</b>) of the <b>Value</b> member to zeros.
 
 Note that this version of the <b>Reserved</b> member is available only if DXGKDDI_INTERFACE_VERSION &lt; DXGKDDI_INTERFACE_VERSION_WIN7.
 
@@ -155,7 +153,7 @@ The zero-based index of the node to use for paging operations. If the driver doe
 
 
        A 32-bit value.
-      
+
 
 
 ## -see-also

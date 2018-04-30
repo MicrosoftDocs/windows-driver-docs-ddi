@@ -15,20 +15,20 @@ ms.topic: struct
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support: Windows 10, version 1709
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -50,7 +50,7 @@ req.typenames: D3D12DDI_DEVICE_FUNCS_VIDEO_0021
 ## -description
 
 
-Contains video functions. 
+Contains video functions.
 
 
 ## -struct-fields
@@ -70,7 +70,7 @@ A function that calculates the size of a private decoder.
 
 ### -field pfnCreateVideoDecoder
 
-A function that creates a video decoder. 
+A function that creates a video decoder.
 
 
 ### -field pfnDestroyVideoDecoder
@@ -90,7 +90,7 @@ A function that creates a video processor.
 
 ### -field pfnDestroyVideoProcessor
 
-A function that destroys a video processor. 
+A function that destroys a video processor.
 
 
 ### -field pfnCalcPrivateContentProtectionSessionSize
@@ -100,52 +100,52 @@ A function that calculates the size of a private content protection session.
 
 ### -field pfnCreateContentProtectionSession
 
-A function that creates a content protection system. 
+A function that creates a content protection system.
 
 
 ### -field pfnDestroyContentProtectionSession
 
-A function that destroys a content protection system. 
+A function that destroys a content protection system.
 
 
 ### -field pfnContentProtectionSessionInvokeFunction
 
-A function that invokes a function in a content protection session. 
+A function that invokes a function in a content protection session.
 
 
 ### -field pfnContentProtectionSessionSetupHardwareKey
 
-A function that sets up a hardware key for a content protection session. 
+A function that sets up a hardware key for a content protection session.
 
 
 ### -field pfnContentProtectionSessionGetStatus
 
-A function that gets the status of a content protection session. 
+A function that gets the status of a content protection session.
 
 
 ### -field pfnGetDecodeProfileCount
 
-A function that gets the decode profile count. 
+A function that gets the decode profile count.
 
 
 ### -field pfnGetDecodeFormatCount
 
-A function that gets the decode format count. 
+A function that gets the decode format count.
 
 
 ### -field pfnGetBitstreamEncryptionSchemeCount
 
-A function that gets the count of bitstream encryption schemes. 
+A function that gets the count of bitstream encryption schemes.
 
 
 ### -field pfnDecoderTrimAllocations
 
-A function that trims decoder allocations. 
+A function that trims decoder allocations.
 
 
 ### -field pfnProcessorTrimAllocations
 
-A function that trims processor allocations. 
+A function that trims processor allocations.
 
 
 ## -see-also

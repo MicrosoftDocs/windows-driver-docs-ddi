@@ -13,21 +13,21 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: d3dkmdt.h
-req.include-header: 
+req.include-header:
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
 -	APIRef
@@ -53,6 +53,19 @@ req.typenames: DXGK_DISPLAY_USAGE, *PDXGK_DISPLAY_USAGE
 Enum used to specify the display type being used.
 
 
+## -syntax
+
+
+````
+typedef enum _DXGK_DISPLAY_USAGE {
+  DXGK_DU_INVALID  = 0,
+  DXGK_DU_GENERIC,
+  DXGK_DU_AR,
+  DXGK_DU_VR
+} DXGK_DISPLAY_USAGE, *PDXGK_DISPLAY_USAGE;
+````
+
+
 ## -enum-fields
 
 
@@ -70,18 +83,26 @@ Generic display type.
 
 ### -field DXGK_DU_AR
 
-A head mounted augmented reality display.  
+A head mounted augmented reality display.
 
 
 ### -field DXGK_DU_VR
 
-A head mounted virtual reality display.  
+A head mounted virtual reality display.
 
+### -field DXGK_DU_MEDICAL_IMAGING
+
+Medical imaging.
+
+### -field DXGK_DU_ACCESSORY
+
+Accessory.
 
 ### -field DXGK_DU_MAX
 
+Maximum display.
 
 ### -field BYTE
 
-
+Byte value.
 
