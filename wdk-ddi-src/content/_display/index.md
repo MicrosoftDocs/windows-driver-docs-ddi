@@ -2,8 +2,8 @@
 UID: TP:display
 ms.assetid: 4b099f8f-1e3b-398c-9d48-80f65f6c3468
 ms.author: windowsdriverdev
-ms.date: 04/03/18
-ms.keywords:
+ms.date: 04/20/18
+ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
@@ -11,7 +11,7 @@ ms.topic: portal
 
 # Display
 
-## -description
+
 
 Overview of the Display technology.
 

@@ -2,19 +2,20 @@
 UID: TP:usbref
 ms.assetid: 3ef75da3-dd0a-3f40-b741-d6c381f1ed78
 ms.author: windowsdriverdev
-ms.date: 04/05/18
+ms.date: 04/20/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 ---
 
-# Universal Serial Bus(USB)
+# Universal Serial Bus (USB)
 
 
-Overview of the Universal Serial Bus(USB) technology.
 
-To develop Universal Serial Bus(USB), you need these headers:
+Overview of the Universal Serial Bus (USB) technology.
+
+To develop Universal Serial Bus (USB), you need these headers:
 
  * [ucmtcpcicx.h](..\ucmtcpcicx\index.md)
  * [ufxbase.h](..\ufxbase\index.md)
@@ -62,7 +63,7 @@ To develop Universal Serial Bus(USB), you need these headers:
  * [ucmtypes.h](..\ucmtypes\index.md)
  * [ucxcontroller.h](..\ucxcontroller\index.md)
 
-For the programming guide, see [Universal Serial Bus(USB)](https://docs.microsoft.com/en-us/windows-hardware/drivers/stream).
+For the programming guide, see [Universal Serial Bus (USB)](https://docs.microsoft.com/en-us/windows-hardware/drivers/usbcon).
 
 ## I/O control codes
 

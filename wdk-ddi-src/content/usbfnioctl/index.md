@@ -2,7 +2,7 @@
 UID: NA:usbfnioctl
 ms.assetid: 346c06db-ae00-3b42-a05a-d786904c5f0f
 ms.author: windowsdriverdev
-ms.date: 04/05/18
+ms.date: 04/20/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -10,6 +10,8 @@ ms.topic: portal
 ---
 
 # Usbfnioctl.h header
+
+
 
 
 

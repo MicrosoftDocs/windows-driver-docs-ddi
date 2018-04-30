@@ -2,7 +2,7 @@
 UID: NA:usbioctl
 ms.assetid: 0cb01349-16ee-3a58-babe-fd5b85e93d9f
 ms.author: windowsdriverdev
-ms.date: 04/05/18
+ms.date: 04/20/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -10,6 +10,8 @@ ms.topic: portal
 ---
 
 # Usbioctl.h header
+
+
 
 
 

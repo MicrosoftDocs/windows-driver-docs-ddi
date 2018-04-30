@@ -2,7 +2,7 @@
 UID: TP:acpi
 ms.assetid: 6eb30b27-568a-3203-bd11-0f238870d174
 ms.author: windowsdriverdev
-ms.date: 04/05/18
+ms.date: 04/20/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -11,7 +11,7 @@ ms.topic: portal
 
 # ACPI
 
-## -description
+
 
 Overview of the ACPI technology.
 

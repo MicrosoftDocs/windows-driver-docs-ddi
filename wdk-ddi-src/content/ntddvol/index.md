@@ -2,7 +2,7 @@
 UID: NA:ntddvol
 ms.assetid: 8e87c3d1-6f05-3860-b49c-2ea9e281b96f
 ms.author: windowsdriverdev
-ms.date: 04/03/18
+ms.date: 04/20/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -12,7 +12,7 @@ ms.topic: portal
 # Ntddvol.h header
 
 
-## -description
+
 
 
 This header is used by storage. For more information, see:

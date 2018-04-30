@@ -2,7 +2,7 @@
 UID: NA:wdfpdo
 ms.assetid: ac342a18-24b7-36b8-9447-8ee711b42a24
 ms.author: windowsdriverdev
-ms.date: 04/06/18
+ms.date: 04/25/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -15,9 +15,12 @@ ms.topic: portal
 ## -description
 
 
+
 This header is used by wdf. For more information, see:
 
 - [Windows Driver Framework](../_wdf/index.md)
+- [wdfdevice.h header](../wdfdevice/index.md)
+- [wdffdo.h header](../wdffdo/index.md)
 
 This topic orders the Windows Driver Frameworks (WDF) physical device object (PDO) reference by category.
 
@@ -77,5 +80,5 @@ The categories on this page are:
 
 ## Framework PDO Structures and Initialization Functions
 
--   [**WDF\_PDO\_EVENT\_CALLBACKS**](https://msdn.microsoft.com/library/windows/hardware/ff552409)
--   [**WDF\_PDO\_EVENT\_CALLBACKS\_INIT**](https://msdn.microsoft.com/library/windows/hardware/ff552413)
+-   [**WDF_PDO_EVENT_CALLBACKS**](https://msdn.microsoft.com/library/windows/hardware/ff552409)
+-   [**WDF_PDO_EVENT_CALLBACKS_INIT**](https://msdn.microsoft.com/library/windows/hardware/ff552413)

@@ -2,27 +2,27 @@
 UID: TP:smartcrd
 ms.assetid: 1f409c41-e10c-39aa-8408-18629cc1c604
 ms.author: windowsdriverdev
-ms.date: 04/03/18
+ms.date: 04/20/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 ---
 
-# Smart Card Reader Devices
+# Smartcard device drivers
 
-## -description
 
-Overview of the Smart Card Reader Devices technology.
 
-To develop Smart Card Reader Devices, you need these headers:
+Overview of the Smartcard device drivers technology.
+
+To develop Smartcard device drivers, you need these headers:
 
  * [scutil.h](..\scutil\index.md)
  * [smcdbg.h](..\smcdbg\index.md)
  * [smclib.h](..\smclib\index.md)
  * [smcnt.h](..\smcnt\index.md)
 
-For the programming guide, see [Smart Card Reader Devices](===404===https://docs.microsoft.com/en-us/windows-hardware/drivers/smartcrd).
+For the programming guide, see [Smartcard device drivers](https://docs.microsoft.com/en-us/windows-hardware/drivers/smartcard).
 
 Reference guide for developing drivers for smart card reader devices. For information about vendor-specific IOCTL operations, see RDF_IOCTL_VENDOR. 
 The callback functions listed below can be implemented in a  vendor-supplied reader driver. A reader driver makes these callback functions available for the smart card library routine, SmartcardDeviceControl, to call by storing pointers to them in the smart card device extension. The pointers are stored in an array of function pointers located in the ReaderFunction member of the smart card device extension, SMARTCARD_EXTENSION. 

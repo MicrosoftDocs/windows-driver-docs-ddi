@@ -2,7 +2,7 @@
 UID: NA:wdfdevice
 ms.assetid: 24b2e402-56ef-3f36-b4f0-426a9d758500
 ms.author: windowsdriverdev
-ms.date: 04/06/18
+ms.date: 04/25/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -14,10 +14,11 @@ ms.topic: portal
 
 ## -description
 
-
 This header is used by wdf. For more information, see:
 
 - [Windows Driver Framework](../_wdf/index.md)
+- [wdffdo.h header](../wdffdo/index.md)
+- [wdfpdo.h header](../wdfpdo/index.md)
 
 This topic orders the Windows Driver Frameworks (WDF) device object reference by category.
 
@@ -169,53 +170,53 @@ The categories on this page are:
 
 ## General Framework Device Object Structures and Enumerations
 
--   [**WDF\_DEVICE\_FAILED\_ACTION**](https://msdn.microsoft.com/library/windows/hardware/ff551253)
--   [**WDF\_DEVICE\_INTERFACE\_PROPERTY\_DATA**](https://msdn.microsoft.com/library/windows/hardware/dn265629)
--   [**WDF\_DEVICE\_IO\_TYPE**](https://msdn.microsoft.com/library/windows/hardware/ff551255)
--   [**WDF\_DEVICE\_PNP\_CAPABILITIES**](https://msdn.microsoft.com/library/windows/hardware/ff551257)
--   [**WDF\_DEVICE\_PNP\_NOTIFICATION\_DATA**](https://msdn.microsoft.com/library/windows/hardware/ff551260)
--   [**WDF\_DEVICE\_PNP\_STATE**](https://msdn.microsoft.com/library/windows/hardware/ff551262)
--   [**WDF\_DEVICE\_POWER\_CAPABILITIES**](https://msdn.microsoft.com/library/windows/hardware/ff551264)
--   [**WDF\_DEVICE\_POWER\_NOTIFICATION\_DATA**](https://msdn.microsoft.com/library/windows/hardware/ff551268)
--   [**WDF\_DEVICE\_POWER\_POLICY\_IDLE\_SETTINGS**](https://msdn.microsoft.com/library/windows/hardware/ff551270)
--   [**WDF\_DEVICE\_POWER\_POLICY\_NOTIFICATION\_DATA**](https://msdn.microsoft.com/library/windows/hardware/ff551273)
--   [**WDF\_DEVICE\_POWER\_POLICY\_STATE**](https://msdn.microsoft.com/library/windows/hardware/ff551275)
--   [**WDF\_DEVICE\_POWER\_POLICY\_WAKE\_SETTINGS**](https://msdn.microsoft.com/library/windows/hardware/ff551277)
--   [**WDF\_DEVICE\_POWER\_STATE**](https://msdn.microsoft.com/library/windows/hardware/ff551280)
--   [**WDF\_DEVICE\_PROPERTY\_DATA**](https://msdn.microsoft.com/library/windows/hardware/dn265632)
--   [**WDF\_DEVICE\_STATE**](https://msdn.microsoft.com/library/windows/hardware/ff551284)
--   [**WDF\_DISPATCH\_IRP\_TO\_IO\_QUEUE\_FLAGS**](https://msdn.microsoft.com/library/windows/hardware/hh439503)
--   [**WDF\_EVENT\_TYPE**](https://msdn.microsoft.com/library/windows/hardware/dn265637)
--   [**WDF\_FILEOBJECT\_CONFIG**](https://msdn.microsoft.com/library/windows/hardware/ff551319)
--   [**WDF\_IO\_TYPE\_CONFIG**](https://msdn.microsoft.com/library/windows/hardware/dn265642)
--   [**WDF\_PNPPOWER\_EVENT\_CALLBACKS**](https://msdn.microsoft.com/library/windows/hardware/ff552416)
--   [**WDF\_POWER\_DEVICE\_STATE**](https://msdn.microsoft.com/library/windows/hardware/ff552421)
--   [**WDF\_POWER\_FRAMEWORK\_SETTINGS**](https://msdn.microsoft.com/library/windows/hardware/hh406489)
--   [**WDF\_POWER\_POLICY\_EVENT\_CALLBACKS**](https://msdn.microsoft.com/library/windows/hardware/ff552424)
--   [**WDF\_POWER\_POLICY\_IDLE\_TIMEOUT\_CONSTANTS**](https://msdn.microsoft.com/library/windows/hardware/mt845640)
--   [**WDF\_POWER\_POLICY\_IDLE\_TIMEOUT\_TYPE**](https://msdn.microsoft.com/library/windows/hardware/hh706247)
--   [**WDF\_POWER\_POLICY\_S0\_IDLE\_CAPABILITIES**](https://msdn.microsoft.com/library/windows/hardware/ff552429)
--   [**WDF\_POWER\_POLICY\_S0\_IDLE\_USER\_CONTROL**](https://msdn.microsoft.com/library/windows/hardware/ff552432)
--   [**WDF\_POWER\_POLICY\_SX\_WAKE\_USER\_CONTROL**](https://msdn.microsoft.com/library/windows/hardware/ff552436)
--   [**WDF\_RELEASE\_HARDWARE\_ORDER\_ON\_FAILURE**](https://msdn.microsoft.com/library/windows/hardware/hh706249)
--   [**WDF\_REMOVE\_LOCK\_OPTIONS**](https://msdn.microsoft.com/library/windows/hardware/hh406495)
--   [**WDF\_REMOVE\_LOCK\_OPTIONS\_FLAGS**](https://msdn.microsoft.com/library/windows/hardware/hh406498)
--   [**WDF\_SPECIAL\_FILE\_TYPE**](https://msdn.microsoft.com/library/windows/hardware/ff552509)
--   [**WDF\_STATE\_NOTIFICATION\_TYPE**](https://msdn.microsoft.com/library/windows/hardware/ff552513)
--   [WDFDEVICE\_INIT](https://msdn.microsoft.com/library/windows/hardware/ff546951)
+-   [**WDF_DEVICE_FAILED_ACTION**](https://msdn.microsoft.com/library/windows/hardware/ff551253)
+-   [**WDF_DEVICE_INTERFACE_PROPERTY_DATA**](https://msdn.microsoft.com/library/windows/hardware/dn265629)
+-   [**WDF_DEVICE_IO_TYPE**](https://msdn.microsoft.com/library/windows/hardware/ff551255)
+-   [**WDF_DEVICE_PNP_CAPABILITIES**](https://msdn.microsoft.com/library/windows/hardware/ff551257)
+-   [**WDF_DEVICE_PNP_NOTIFICATION_DATA**](https://msdn.microsoft.com/library/windows/hardware/ff551260)
+-   [**WDF_DEVICE_PNP_STATE**](https://msdn.microsoft.com/library/windows/hardware/ff551262)
+-   [**WDF_DEVICE_POWER_CAPABILITIES**](https://msdn.microsoft.com/library/windows/hardware/ff551264)
+-   [**WDF_DEVICE_POWER_NOTIFICATION_DATA**](https://msdn.microsoft.com/library/windows/hardware/ff551268)
+-   [**WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS**](https://msdn.microsoft.com/library/windows/hardware/ff551270)
+-   [**WDF_DEVICE_POWER_POLICY_NOTIFICATION_DATA**](https://msdn.microsoft.com/library/windows/hardware/ff551273)
+-   [**WDF_DEVICE_POWER_POLICY_STATE**](https://msdn.microsoft.com/library/windows/hardware/ff551275)
+-   [**WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS**](https://msdn.microsoft.com/library/windows/hardware/ff551277)
+-   [**WDF_DEVICE_POWER_STATE**](https://msdn.microsoft.com/library/windows/hardware/ff551280)
+-   [**WDF_DEVICE_PROPERTY_DATA**](https://msdn.microsoft.com/library/windows/hardware/dn265632)
+-   [**WDF_DEVICE_STATE**](https://msdn.microsoft.com/library/windows/hardware/ff551284)
+-   [**WDF_DISPATCH_IRP_TO_IO_QUEUE_FLAGS**](https://msdn.microsoft.com/library/windows/hardware/hh439503)
+-   [**WDF_EVENT_TYPE**](https://msdn.microsoft.com/library/windows/hardware/dn265637)
+-   [**WDF_FILEOBJECT_CONFIG**](https://msdn.microsoft.com/library/windows/hardware/ff551319)
+-   [**WDF_IO_TYPE_CONFIG**](https://msdn.microsoft.com/library/windows/hardware/dn265642)
+-   [**WDF_PNPPOWER_EVENT_CALLBACKS**](https://msdn.microsoft.com/library/windows/hardware/ff552416)
+-   [**WDF_POWER_DEVICE_STATE**](https://msdn.microsoft.com/library/windows/hardware/ff552421)
+-   [**WDF_POWER_FRAMEWORK_SETTINGS**](https://msdn.microsoft.com/library/windows/hardware/hh406489)
+-   [**WDF_POWER_POLICY_EVENT_CALLBACKS**](https://msdn.microsoft.com/library/windows/hardware/ff552424)
+-   [**WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS**](https://msdn.microsoft.com/library/windows/hardware/mt845640)
+-   [**WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE**](https://msdn.microsoft.com/library/windows/hardware/hh706247)
+-   [**WDF_POWER_POLICY_S0_IDLE_CAPABILITIES**](https://msdn.microsoft.com/library/windows/hardware/ff552429)
+-   [**WDF_POWER_POLICY_S0_IDLE_USER_CONTROL**](https://msdn.microsoft.com/library/windows/hardware/ff552432)
+-   [**WDF_POWER_POLICY_SX_WAKE_USER_CONTROL**](https://msdn.microsoft.com/library/windows/hardware/ff552436)
+-   [**WDF_RELEASE_HARDWARE_ORDER_ON_FAILURE**](https://msdn.microsoft.com/library/windows/hardware/hh706249)
+-   [**WDF_REMOVE_LOCK_OPTIONS**](https://msdn.microsoft.com/library/windows/hardware/hh406495)
+-   [**WDF_REMOVE_LOCK_OPTIONS_FLAGS**](https://msdn.microsoft.com/library/windows/hardware/hh406498)
+-   [**WDF_SPECIAL_FILE_TYPE**](https://msdn.microsoft.com/library/windows/hardware/ff552509)
+-   [**WDF_STATE_NOTIFICATION_TYPE**](https://msdn.microsoft.com/library/windows/hardware/ff552513)
+-   [WDFDEVICE_INIT](https://msdn.microsoft.com/library/windows/hardware/ff546951)
 
 ## Initialization Functions for Device Object Structures
 
--   [**WDF\_DEVICE\_INTERFACE\_PROPERTY\_DATA\_INIT**](https://msdn.microsoft.com/library/windows/hardware/dn265630)
--   [**WDF\_DEVICE\_PNP\_CAPABILITIES\_INIT**](https://msdn.microsoft.com/library/windows/hardware/ff551259)
--   [**WDF\_DEVICE\_POWER\_CAPABILITIES\_INIT**](https://msdn.microsoft.com/library/windows/hardware/ff551265)
--   [**WDF\_DEVICE\_POWER\_POLICY\_IDLE\_SETTINGS\_INIT**](https://msdn.microsoft.com/library/windows/hardware/ff551271)
--   [**WDF\_DEVICE\_POWER\_POLICY\_WAKE\_SETTINGS\_INIT**](https://msdn.microsoft.com/library/windows/hardware/ff551279)
--   [**WDF\_DEVICE\_PROPERTY\_DATA\_INIT**](https://msdn.microsoft.com/library/windows/hardware/dn265633)
--   [**WDF\_DEVICE\_STATE\_INIT**](https://msdn.microsoft.com/library/windows/hardware/ff551286)
--   [**WDF\_FILEOBJECT\_CONFIG\_INIT**](https://msdn.microsoft.com/library/windows/hardware/ff551321)
--   [**WDF\_IO\_TYPE\_CONFIG\_INIT**](https://msdn.microsoft.com/library/windows/hardware/dn265643)
--   [**WDF\_PNPPOWER\_EVENT\_CALLBACKS\_INIT**](https://msdn.microsoft.com/library/windows/hardware/ff552418)
--   [**WDF\_POWER\_FRAMEWORK\_SETTINGS\_INIT**](https://msdn.microsoft.com/library/windows/hardware/hh406492)
--   [**WDF\_POWER\_POLICY\_EVENT\_CALLBACKS\_INIT**](https://msdn.microsoft.com/library/windows/hardware/ff552426)
--   [**WDF\_REMOVE\_LOCK\_OPTIONS\_INIT**](https://msdn.microsoft.com/library/windows/hardware/hh406501)
+-   [**WDF_DEVICE_INTERFACE_PROPERTY_DATA_INIT**](https://msdn.microsoft.com/library/windows/hardware/dn265630)
+-   [**WDF_DEVICE_PNP_CAPABILITIES_INIT**](https://msdn.microsoft.com/library/windows/hardware/ff551259)
+-   [**WDF_DEVICE_POWER_CAPABILITIES_INIT**](https://msdn.microsoft.com/library/windows/hardware/ff551265)
+-   [**WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT**](https://msdn.microsoft.com/library/windows/hardware/ff551271)
+-   [**WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS_INIT**](https://msdn.microsoft.com/library/windows/hardware/ff551279)
+-   [**WDF_DEVICE_PROPERTY_DATA_INIT**](https://msdn.microsoft.com/library/windows/hardware/dn265633)
+-   [**WDF_DEVICE_STATE_INIT**](https://msdn.microsoft.com/library/windows/hardware/ff551286)
+-   [**WDF_FILEOBJECT_CONFIG_INIT**](https://msdn.microsoft.com/library/windows/hardware/ff551321)
+-   [**WDF_IO_TYPE_CONFIG_INIT**](https://msdn.microsoft.com/library/windows/hardware/dn265643)
+-   [**WDF_PNPPOWER_EVENT_CALLBACKS_INIT**](https://msdn.microsoft.com/library/windows/hardware/ff552418)
+-   [**WDF_POWER_FRAMEWORK_SETTINGS_INIT**](https://msdn.microsoft.com/library/windows/hardware/hh406492)
+-   [**WDF_POWER_POLICY_EVENT_CALLBACKS_INIT**](https://msdn.microsoft.com/library/windows/hardware/ff552426)
+-   [**WDF_REMOVE_LOCK_OPTIONS_INIT**](https://msdn.microsoft.com/library/windows/hardware/hh406501)

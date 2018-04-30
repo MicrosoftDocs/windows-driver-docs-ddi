@@ -2,7 +2,7 @@
 UID: NA:wiatwcmp
 ms.assetid: 9758efe1-bd32-33a6-8e02-a9c21e726bfe
 ms.author: windowsdriverdev
-ms.date: 04/03/18
+ms.date: 04/20/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -12,7 +12,7 @@ ms.topic: portal
 # Wiatwcmp.h header
 
 
-## -description
+
 
 
 This header is used by image. For more information, see:

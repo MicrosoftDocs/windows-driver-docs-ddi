@@ -2,7 +2,7 @@
 UID: NA:hwnclx
 ms.assetid: b41140bd-3a1f-3742-9971-e78555cd7456
 ms.author: windowsdriverdev
-ms.date: 04/06/18
+ms.date: 04/20/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -10,6 +10,8 @@ ms.topic: portal
 ---
 
 # Hwnclx.h header
+
+
 
 
 
