@@ -86,7 +86,8 @@ Returns a referenced pointer to the EPROCESS structure of process specified by <
 </dl>
 </td>
 <td width="60%">
-The process ID was not found.
+  
+Specifies in Windows XP and earlier versions of Windows the process ID was not found.
 
 </td>
 </tr>
@@ -97,10 +98,13 @@ The process ID was not found.
 </dl>
 </td>
 <td width="60%">
-The specified client ID is not valid.
+
+Specifies in Windows Vista and later versions of Windows the specified client ID is not valid.
   
 </td>
 </tr>
+
+
 </table>
  
 
