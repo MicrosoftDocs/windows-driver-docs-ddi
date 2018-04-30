@@ -43,7 +43,7 @@ targetos: Windows
 
 ## -description
 
-Returns a handle to a directory on disk, in which the drivers can store files. The files in that directory apply to a specific device instance.
+Returns a handle to a directory on disk, in which drivers can store files. The files in that directory apply to a specific device instance.
 
 ## -parameters
 
@@ -66,7 +66,7 @@ Returns a handle to a directory on disk, in which the drivers can store files. T
 Returns an appropriate [NTSTATUS value](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ntstatus-values). Possible values include:
 | Error code               | Description                                                                                        |
 | ------------------------ | -------------------------------------------------------------------------------------------------- |
-| STATUS_SUCCESS           | The call successfully opened a handle to the requested driver directory.                           |
+| STATUS_SUCCESS           | The call successfully opened a handle to the requested device directory.                           |
 | STATUS_INVALID_PARAMETER | An input value to this function is invalid. _PhysicalDeviceObject_ or DeviceDirectoryHandle is NULL;  _Flags_ is not 0;  Reserved is not NULL. |
 
 ## -remarks
